@@ -19,11 +19,31 @@
  * verb, per the citation marks' own design constraints; see VoiceTurnBody.tsx's
  * renderFromElements for where these are computed.
  */
-import type { SourceCard } from '../types/conversation';
+import type { SourceCard, SourceReference } from '../types/conversation';
 import { confidencePhrase } from '../lib/confidence';
-import { QUOTE_CARD_PHRASE } from '../lib/markCopy';
+import { QUOTE_CARD_PHRASE, QUOTE_LAYER_EDITION, QUOTE_LAYER_ORIGINAL, QUOTE_LAYER_RENDERING } from '../lib/markCopy';
+import { EditionFacts } from './EditionFacts';
 import { InlineBridge } from './InlineBridge';
 import { SourceList } from './SourceList';
+
+const LANGUAGE_TAGS: Record<string, string> = { Latin: 'la', Greek: 'el', Syriac: 'syr', Armenian: 'hy', Coptic: 'cop', Hebrew: 'he', Arabic: 'ar', Ethiopic: 'gez', Georgian: 'ka', German: 'de', French: 'fr' };
+
+// The sources whose vendored text is the edition shown in the card's edition layer:
+// those with a span in the edition's language (English when no other is named),
+// else the first source, the one the edition layer already cites.
+function editionSources(card: SourceCard): SourceReference[] {
+  const language = card.edition_language ?? 'English';
+  const matching = card.sources.filter((s) => (s.vendored ?? []).some((ref) => (ref.label ?? 'English') === language));
+  return matching.length > 0 ? matching : card.sources.slice(0, 1);
+}
+
+// A source record's facts describe the edition its row names, which is the
+// English one. Under an edition in another language they are not shown as that
+// edition's own.
+function editionFactsFor(card: SourceCard, source: SourceReference): SourceReference {
+  const english = !card.edition_language || card.edition_language === 'English';
+  return english ? source : { ...source, translator: null, edition_date: null };
+}
 
 interface StoryMarkProps {
   sources: SourceCard[]; // pre-filtered by the caller to record_type "story" | "quote"
@@ -57,6 +77,7 @@ export function StoryMark({ sources, repeat, contested, quote }: StoryMarkProps)
                     {s.author && ` — ${s.author}`}
                   </p>
                 ))}
+                {card.means && <p className="story-mark__means">{card.means}</p>}
                 {phrase && <p className="story-mark__confidence">{phrase}</p>}
               </div>
             );
@@ -70,8 +91,33 @@ export function StoryMark({ sources, repeat, contested, quote }: StoryMarkProps)
             <div key={card.record_id} className="turn__sources-card">
               <p className="turn__sources-label">{card.label}</p>
               {card.spoken_rendering && (
-                <div className="story-mark__rendering">
-                  <blockquote>{card.spoken_rendering}</blockquote>
+                <div className="story-mark__rendering story-mark__layer">
+                  <p className="story-mark__layer-label" id={`${card.record_id}-rendering`}>{QUOTE_LAYER_RENDERING}</p>
+                  <blockquote aria-labelledby={`${card.record_id}-rendering`}>{card.spoken_rendering}</blockquote>
+                </div>
+              )}
+              {card.edition_words && (
+                <div className="story-mark__edition story-mark__layer">
+                  <p className="story-mark__layer-label" id={`${card.record_id}-edition`}>{QUOTE_LAYER_EDITION}</p>
+                  <blockquote aria-labelledby={`${card.record_id}-edition`} lang={card.edition_language ? LANGUAGE_TAGS[card.edition_language] : undefined}>{card.edition_words}</blockquote>
+                  {editionSources(card).map((s) => (
+                    <div key={s.source_id} className="story-mark__layer-note">
+                      {s.citation && <p>{s.citation}</p>}
+                      <EditionFacts source={editionFactsFor(card, s)} />
+                    </div>
+                  ))}
+                </div>
+              )}
+              {card.original && card.original.length > 0 && (
+                <div className="story-mark__original story-mark__layer">
+                  <p className="story-mark__layer-label" id={`${card.record_id}-original`}>{QUOTE_LAYER_ORIGINAL}</p>
+                  <ul className="story-mark__layer-list" aria-labelledby={`${card.record_id}-original`}>
+                    {card.original.map((ref) => (
+                      <li key={`${ref.file}:${ref.lines}`}>
+                        {ref.label} text: <code>{ref.file}</code>, lines {ref.lines}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               )}
               <SourceList sources={card.sources} empty="No source recorded for this." />

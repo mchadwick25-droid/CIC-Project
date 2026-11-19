@@ -1,0 +1,176 @@
+{
+  "name": "Gregory of Tours",
+  "otherNames": [
+    "Georgius Florentius",
+    "Gregorius Turonensis"
+  ],
+  "knownFor": "Bishop of Tours in the church of Merovingian Gaul and writer of the History of the Franks, who refused King Chilperic's decree on the Trinity and argued the Nicene faith against the Arian envoy Agilan; much of what is known of the church in Gaul under the first Frankish kings comes from his books.",
+  "dates": "Born in 538 or 539 and died on 17 November 594, in W. Arndt's reckoning; Bruno Krusch, in the same edition, puts his death on 17 November 593. Bishop from 573, which W. Arndt reckons from Gregory's own date, the twelfth year of King Sigibert. Gregory also calls it the 172nd year after Martin's passing, a count Arndt says does not agree. No ancient source used here gives the year of his birth or death",
+  "place": "Clermont in Auvergne, where Ernest Brehaut says he was born and grew up; Tours, as its bishop",
+  "tradition": "Merovingian Gallic Christianity",
+  "role": "Bishop of Tours; historian and writer of saints' miracles and lives",
+  "briefLength": "about 2 minutes 15 seconds",
+  "keyWorks": [
+    {
+      "title": "History of the Franks (Historia Francorum), in ten books",
+      "about": "the Franks and the church of Gaul from the Creation to 591, in Brehaut's account, opening with Gregory's own creed and closing with his charge that the books be kept whole"
+    },
+    {
+      "title": "Miracles of Martin of Tours (De virtutibus sancti Martini), in four books",
+      "about": "the cures at Martin's tomb, his own among them; Bruno Krusch thinks Gregory died before finishing the fourth book"
+    },
+    {
+      "title": "Lives of the Fathers (Vita Patrum)",
+      "about": "Lives of saints of Gaul, among them his uncle Gallus of Clermont and his mother's uncle Nicetius of Lyons"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Ernest Brehaut says his History is often the sole authority for the events it tells, \"the perishing of the Roman Empire and the beginning of a great modern state\".",
+      "Paul the Deacon, writing the History of the Langobards, sends readers to \"the books of the reverend man Gregory, bishop of Tours\", in W. D. Foulke's English.",
+      "He set his own creed at the head of the History, \"that whoso reads may doubt not that I hold the catholic faith\", in O. M. Dalton's English."
+    ],
+    "remembered": [
+      "Venantius Fortunatus, an Italian poet at Poitiers and his close friend, wrote verses for his arrival at Tours, saying King Sigibert and Queen Brunhild favored him. W. Arndt regrets that Fortunatus, who outlived him, left no Life of him.",
+      "The calendars of Tours keep his feast on 17 November, as Arndt quotes them from Ruinart's collection."
+    ]
+  },
+  "uncertain": [
+    "His own account. For his stands against Chilperic and Agilan, Gregory's History is the only account held, and he does not say his refusal of the king cost him anything.",
+    "How far to trust him. Ernest Brehaut calls the History often the sole authority for the events it tells, and warns that readers \"must allow largely for error and prejudice in his statements of fact\".",
+    "His years. No ancient source used here gives the year of his birth or death. W. Arndt reckons his birth in 538 or 539, from his mother's healing thirty-four years after it, and his death on 17 November 594. Bruno Krusch, in the same volume, puts the death on 17 November 593, from Gregory's twenty-first year as bishop and the unfinished fourth book of the Miracles of Martin. Brehaut gives 538 to 594, and a note in W. D. Foulke's translation of Paul the Deacon gives about 538 and 594 or 595. The Tours calendars give the day only.",
+    "His consecration day. Krusch puts it on 20 August 573, Arndt on 23 August and Dalton on 24 August. Arndt thinks it likely that King Sigibert placed him at Tours, rather than the citizens choosing him.",
+    "His great-grandfather. Gregory's Latin calls Gregory, bishop of Langres, \"proavum nostrum\", and Arndt and Krusch make that Gregory his mother Armentaria's grandfather. Brehaut says great-grandfather; Dalton translates \"our ancestor\" and calls him great-great-grandfather in a note.",
+    "The year of his healing at Martin's tomb. His Latin gives the 163rd year after Martin's passing, which Arndt reckons as 563; Brehaut's English has the hundred and sixtieth. Arndt says Gregory was already a deacon then.",
+    "A journey to Rome. A Life of Gregory, which Arndt dates to the tenth century, says he went to Rome before his death; Arndt rejects it. No copy of that Life is quoted here.",
+    "His name. Arndt says it is doubtful whether he took the name Gregory only when ordained; Brehaut says he dropped the name Georgius Florentinus to honor his great-grandfather.",
+    "The trial. His charge before the bishops at Berny is known only from his own History, the accused party's account. Venantius Fortunatus wrote a poem to King Chilperic for that synod; O. M. Dalton notes that it praises Queen Fredegund and says nothing of the affair. The council met at Brinnacum in the Latin, which is Berny in Dalton's English and Braine in Brehaut's.",
+    "Where the modern English of a quotation follows Gregory's Latin over Dalton's English, it does so on purpose: the king's demand names \"the teachers of the churches\" in the Latin's plural, and \"this plan\" follows \"ab hac intentione\". The printed English is kept under quotationOriginals."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Historia Francorum and Miracula, Monumenta Germaniae Historica, Scriptores rerum Merovingicarum 1 (ed. W. Arndt and Bruno Krusch)",
+        "language": "Latin",
+        "file": "cic/texts/gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885.txt"
+      },
+      {
+        "title": "The History of the Franks, volume 2 (tr. O. M. Dalton)",
+        "language": "English translation",
+        "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt"
+      },
+      {
+        "title": "History of the Franks, selections, with selections from the Miracles (tr. Ernest Brehaut)",
+        "language": "English translation",
+        "file": "cic/texts/gregory-tours_history-of-the-franks-selections_brehaut1916.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Preface on the life of Gregory, to the Historia Francorum",
+        "author": "W. Arndt",
+        "date": "1885",
+        "language": "Latin",
+        "file": "cic/texts/gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885.txt"
+      },
+      {
+        "title": "Prolegomena to the Miracula",
+        "author": "Bruno Krusch",
+        "date": "1885",
+        "language": "Latin",
+        "file": "cic/texts/gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885.txt"
+      },
+      {
+        "title": "Introduction to the History of the Franks, selections",
+        "author": "Ernest Brehaut",
+        "date": "1916",
+        "language": "English",
+        "file": "cic/texts/gregory-tours_history-of-the-franks-selections_brehaut1916.txt"
+      },
+      {
+        "title": "Notes to the History of the Franks",
+        "author": "O. M. Dalton",
+        "date": "1927",
+        "language": "English",
+        "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt"
+      },
+      {
+        "title": "Poems, book V.3, To the citizens of Tours, on Bishop Gregory",
+        "author": "Venantius Fortunatus",
+        "language": "Latin",
+        "file": "cic/texts/venantius-fortunatus_opera-mgh-aa-4-lat_leo-krusch1881.txt"
+      },
+      {
+        "title": "History of the Langobards, with notes (tr. W. D. Foulke)",
+        "author": "Paul the Deacon",
+        "date": "1907",
+        "language": "English translation",
+        "file": "cic/texts/paul-the-deacon_history-of-the-langobards_foulke1907.txt"
+      }
+    ]
+  },
+  "briefReferences": [
+    "History of the Franks, first preface, tr. Ernest Brehaut: kings growing more cruel, liberal culture perishing, \"Woe to our day\", his rude speech.",
+    "History of the Franks I, preface, tr. O. M. Dalton: the creed, \"that whoso reads may doubt not that I hold the catholic faith\".",
+    "History of the Franks I.38, tr. Dalton: Hilary, bishop of Poitiers, banished at the persuasion of the heretics.",
+    "Glory of the Confessors 3, Latin, ed. W. Arndt and Bruno Krusch: Eusebius of Vercelli, Hilary's great helper against heresy.",
+    "History of the Franks V, preface, tr. Brehaut: the civil wars among the Frankish kings.",
+    "History of the Franks V.31 (43), tr. Dalton: Agilan, envoy of King Leuvigild; the argument at Tours; his oath; his conversion in Spain under sickness.",
+    "History of the Franks V.32 (44), tr. Dalton: Chilperic's decree, Gregory's answer, Salvius of Albi, \"So the king desisted from his purpose\".",
+    "History of the Franks X.31, tr. Dalton: his ten books.",
+    "Miracles of Martin II.1, Latin, ed. Arndt and Krusch: his consecration in Sigibert's twelfth year (573).",
+    "Paul the Deacon, History of the Langobards III.1, tr. W. D. Foulke: \"the books of the reverend man Gregory, bishop of Tours\".",
+    "World census, Merovingian Gallic Christianity: his tradition."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "Alas for our times, because the study of literature has died out among us,",
+      "printed": "Woe to our day, since the pursuit of letters has perished from among us,",
+      "work": "History of the Franks, first preface, tr. Ernest Brehaut",
+      "file": "cic/texts/gregory-tours_history-of-the-franks-selections_brehaut1916.txt",
+      "lines": "850-851",
+      "secondReading": "minor",
+      "uncertain": "\"litterae\" means literary learning and skill in writing; A reads \"literature\", B \"letters\"; both readings kept."
+    },
+    {
+      "modern": "so that anyone who reads may have no doubt that I hold the catholic faith,",
+      "printed": "that whoso reads may doubt not that I hold the catholic faith,",
+      "work": "History of the Franks I, preface, tr. O. M. Dalton",
+      "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+      "lines": "339-340",
+      "secondReading": "same"
+    },
+    {
+      "modern": "I want you and the other teachers of the churches to believe this.",
+      "printed": "This is my will, that such be thy faith, and that of the other doctors of the Church.",
+      "work": "History of the Franks V.32 (44), tr. Dalton",
+      "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+      "lines": "10370-10371",
+      "secondReading": "same"
+    },
+    {
+      "modern": "what Hilary and Eusebius taught.",
+      "printed": "that which Hilary and Eusebius taught.",
+      "work": "History of the Franks V.32 (44), tr. Dalton",
+      "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+      "lines": "10374-10375",
+      "secondReading": "same"
+    },
+    {
+      "modern": "So the king gave up this plan,",
+      "printed": "So the king desisted from his purpose,",
+      "work": "History of the Franks V.32 (44), tr. Dalton",
+      "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+      "lines": "10404-10405",
+      "secondReading": "same"
+    },
+    {
+      "modern": "the books of that revered man Gregory, bishop of Tours.",
+      "printed": "the books of the reverend man Gregory, bishop of Tours.",
+      "work": "Paul the Deacon, History of the Langobards III.1, tr. W. D. Foulke",
+      "file": "cic/texts/paul-the-deacon_history-of-the-langobards_foulke1907.txt",
+      "lines": "5074-5075",
+      "secondReading": "same"
+    }
+  ]
+}

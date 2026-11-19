@@ -1,0 +1,36 @@
+source_file: pascoe_two-hundred-years-of-the-spg-v2_1901.txt
+assignments:
+- row_id: pascoe_two-hundred-years-of-the-spg-v2_1901--pascoe-spg-v2-asia-and-europe
+  work: 'Pascoe, Two Hundred Years of the S.P.G., vol. II: the Asian and European fields'
+  author: pascoe
+  locus: 'chapters LXXVI-XCIII at OCR lines 97-22501; add 12 to OCR line numbers'
+  atlas_ids:
+  - victorian-church-of-england
+  role: context
+  confidence: provisional
+  language: eng
+  date: {start: 1901, end: 1901, source: "title page: 1901", formation_confidence: Documented}
+  note: 'The Society''s own digest of its records, field by field. Nearly all of it is the nineteenth century; the opening of the Madras chapter looks back to Tranquebar and Schwartz. A summary written in 1901 by the Society''s assistant secretary.'
+- row_id: pascoe_two-hundred-years-of-the-spg-v2_1901--pascoe-spg-v2-charter-of-1701
+  work: 'Society for the Propagation of the Gospel, Charter of 1701 and Supplemental Charter of 1882, with notes (in Pascoe, vol. II)'
+  author: pascoe
+  locus: 'the charters and notes at OCR lines 61668-62963; add 12 to OCR line numbers'
+  atlas_ids:
+  - restoration-georgian-church-of-england
+  role: context
+  confidence: provisional
+  language: eng
+  date: {start: 1701, end: 1901, source: "the Charter is of 1701; printed with notes in 1901", formation_confidence: Documented}
+  note: 'The Society''s founding charter as its own historian prints it, with later marginal notes. Not compared with an earlier printing.'
+- row_id: pascoe_two-hundred-years-of-the-spg-v2_1901--pascoe-spg-v2-home-work-and-roll
+  work: 'Pascoe, Two Hundred Years of the S.P.G., vol. II: the episcopate, education, translations, funds and the roll of missionaries'
+  author: pascoe
+  locus: 'OCR lines 22505-61667; add 12 to OCR line numbers'
+  atlas_ids:
+  - victorian-church-of-england
+  - restoration-georgian-church-of-england
+  role: context
+  confidence: provisional
+  language: eng
+  date: {start: 1901, end: 1901, source: "title page: 1901", formation_confidence: Documented}
+  note: 'Reference chapters and the roll of every missionary from 1701 to 1900, with places and years. Useful for checking a name or a date.'

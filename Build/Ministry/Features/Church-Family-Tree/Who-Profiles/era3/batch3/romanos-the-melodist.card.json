@@ -1,0 +1,82 @@
+{
+  "name": "Romanos the Melodist",
+  "otherNames": [
+    "Sanctus Romanus, veterum melodorum princeps (Pitra's title)",
+    "Romanus"
+  ],
+  "knownFor": "A deacon from Syria, remembered as a writer of kontakia, long sung poems for the church's feasts, whose gift a late notice says came in a dream of the Mother of God.",
+  "dates": "The notice places his coming to Constantinople in the time of an emperor Anastasius, and Jean-Baptiste Pitra leaves open whether the first or the second is meant. The later Greek book of saints revised by Nikodemos the Hagiorite also names the emperor Anastasius. No source used here gives a year of birth or death",
+  "place": "From Syria; from Emesa, by the later Greek book of saints that Nikodemos the Hagiorite revised; a deacon of the church at Berytus, now Beirut; at Constantinople, at a church of the Mother of God and the shrine of Blachernae",
+  "tradition": "Byzantine Imperial Church (Justinianic)",
+  "role": "Deacon; hymn writer",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Kontakion on Stephen the first martyr",
+      "about": "printed by Pitra from the Patmos manuscripts, with a Latin prose version; his heading says the first letters of the verses name the author as humble Romanos"
+    },
+    {
+      "title": "Kontakion on Joseph the chaste",
+      "about": "printed by Pitra, who says Romanos wrote two poems on Joseph; its refrain, in Pitra's Latin, is that the Lord alone is great"
+    },
+    {
+      "title": "Kontakion on the ten virgins",
+      "about": "printed by Pitra; each verse ends with the plea of those left outside the bridal chamber, \"Aperi nobis\", open to us"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Pitra printed three of the poems in 1888 from manuscripts of the monastery of Saint John on Patmos, sent to him from the island."
+    ],
+    "remembered": [
+      "Pitra titles his edition \"Sanctus Romanus veterum melodorum princeps\": Saint Romanos, prince of the old melodists.",
+      "The Menologion notice says he wrote about a thousand kontakia, and Pitra notes that the roll in the dream gave the kontakion its name."
+    ]
+  },
+  "uncertain": [
+    "His life rests mainly on one short notice in a Menologion, a book of saints for the church year. Pitra calls it the Menologion of the emperor Constantine Porphyrogenitus, who reigned from 944 to 959 in Samuel Cross's dates. Migne's edition of Theodore the Studite gives the same Vatican manuscript, number 1613, to the emperor Basil. The Bollandists cite a Menologion made by order of the emperor Basil Porphyrogenitus. It is a saint's story, and Pitra says almost nothing more is recorded of Romanos anywhere.",
+    "Which emperor Anastasius the notice means. Pitra asks whether it is the first or the second, looks for clues in the poem on the ten virgins, and sets out the earthquakes and wars of both reigns. He says it is not at all clear that Romanos lived under Anastasius the Second, who reigned from 713 to 716. A Greek book of saints revised by Nikodemos the Hagiorite, much later than the Menologion and in the same tradition, names the emperor Anastasius and gives his home city as Emesa.",
+    "The poems are quoted here only in Pitra's Latin prose version, not in Romanos's Greek."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Sanctus Romanus veterum melodorum princeps: Cantica sacra (ed. Jean-Baptiste Pitra), three kontakia",
+        "language": "Latin prose version beside a Greek text that the scan does not preserve",
+        "file": "cic/texts/romanos-melodist_cantica-grc_pitra1888.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "The Menologion notice of Saint Romanos, with Pitra's notes",
+        "author": "Jean-Baptiste Pitra (ed. and tr.)",
+        "language": "Latin",
+        "file": "cic/texts/romanos-melodist_cantica-grc_pitra1888.txt"
+      },
+      {
+        "title": "The Russian Primary Chronicle, introduction (for the reign of Constantine Porphyrogenitus)",
+        "author": "Samuel H. Cross",
+        "language": "English",
+        "file": "cic/texts/russian-primary-chronicle_cross1930.txt"
+      },
+      {
+        "title": "Theodore the Studite, works, with an extract headed 'Ex Menologio Basilii imperatoris. Cod. Vatic. n. 1613' (Patrologia Graeca 99)",
+        "author": "J.-P. Migne (ed.)",
+        "language": "Greek and Latin",
+        "file": "cic/texts/theodore-studite_opera-omnia-pg99-grc-lat_migne1860.txt"
+      },
+      {
+        "title": "Acta Sanctorum, March, volume 3 (citing the Menologion of the emperor Basil)",
+        "author": "The Bollandists",
+        "language": "Latin and Greek",
+        "file": "cic/texts/acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt"
+      },
+      {
+        "title": "Synaxaristes of the Twelve Months, volume 1, 1 October: Romanos, poet of the kontakia",
+        "author": "Nikodemos the Hagiorite (rev.)",
+        "language": "Greek",
+        "file": "cic/texts/nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt"
+      }
+    ]
+  }
+}

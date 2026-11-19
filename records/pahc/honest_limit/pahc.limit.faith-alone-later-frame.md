@@ -29,7 +29,7 @@ statement: >
   from the beginning. In the next chapter it asks whether we should then grow lazy in doing good. It
   answers, God forbid. Polycarp, taking up Paul's words from Ephesians, wrote that you are saved by
   grace, not by works, but by the will of God through Jesus Christ. The Teaching of the Twelve gives
-  two ways, one of life and one of death. The way of life begins with love of God and of neighbour.
+  two ways, one of life and one of death. The way of life begins with love of God and of neighbor.
   Our writers hold these side by side. The later argument that sets one against another came after us.
 why_sources_cannot_answer: "Searched: the vendored ANF volumes 1, 7 and 8 (the Apostolic Fathers, Justin, Irenaeus, the Didache, the Remains of the Second and Third Centuries) for 'faith alone', 'faith only' and 'only by faith'. No hit in any of them. The hits in ANF volume 2 are Clement of Alexandria and others outside this world. Found instead: 1 Clement 32 and 33, and Polycarp to the Philippians 1, quoted above. Not searched: Tertullian (ANF 3-4), which falls past the edge of this window; Irenaeus sits in ANF 1 and was covered by the phrase search. So the record states what these writers held and says plainly that the later framing, faith set against works as a contest, is not in the texts read. Nothing here says what these writers would have answered to it."
 nearest_material:
@@ -39,7 +39,7 @@ nearest_material:
 - pahc.witness.coming-to-belief
 relations: []
 use_note:
-  means: "First Clement, Polycarp and the Didache speak of faith, grace, good works and love of God and neighbour, and none of them gives the later faith-alone argument."
+  means: "First Clement, Polycarp and the Didache speak of faith, grace, good works and love of God and neighbor, and none of them gives the later faith-alone argument."
   not_for:
     - "a claim that this world never spoke of justification by faith, since First Clement 32 does"
     - "a claim that these writers would accept or reject the later doctrine"

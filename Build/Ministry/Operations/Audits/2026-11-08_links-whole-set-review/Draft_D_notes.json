@@ -1,0 +1,1457 @@
+{
+ "theme": "NOTE: public link notes, eras 1-9 - register, readability, internal language, spelling, self-standing sense, AI tells",
+ "checked": "All 575 notes on links touching eras 1-9 read in full by eye. Scored every note with engine.m7.turn_readability.score_turn: 82 fail (mech.json agrees). Re-split all notes for sentence length: 5 true >25-word sentences; 8 of mech's 13 long-sentence flags are quote-punctuation artefacts. Reviewed all 37 mech.json note_internal_words hits plus a regex and by-eye scan for 'here', 'we hold', 'link', 'cited', era-boundary years, British forms, double stops and AI tells. Wrote and scored 113 replacement notes; all pass FRE >= 60, FK <= 10, no sentence over 25 words.",
+ "findings": [
+  {
+   "fid": "NOTE-01",
+   "kind": "note",
+   "severity": "substantial",
+   "links": [
+    "alexandria-catechetical--desert-monasticism",
+    "desert-monasticism--hieronymian-ascetic-literary",
+    "alexandria-catechetical--hieronymian-ascetic-literary",
+    "cappadocian-nicene-pastoral-monastic-tradition--hieronymian-ascetic-literary",
+    "syriac-edessa-nisibis--the-church-of-the-east-under-persia",
+    "desert-monasticism--iconophile-byzantine-monasticism",
+    "desert-monasticism--early-benedictine-italian-monasticism",
+    "desert-monasticism--insular-irish-monastic-christianity",
+    "desert-monasticism--coptic-christianity-under-early-islam",
+    "coptic-christianity-under-early-islam--alexandria-catechetical",
+    "desert-monasticism--gallic-monastic-ascetic-christianity",
+    "gallic-monastic-ascetic-christianity--early-benedictine-italian-monasticism",
+    "gallic-monastic-ascetic-christianity--insular-irish-monastic-christianity",
+    "gallic-monastic-ascetic-christianity--merovingian-gallic-christianity",
+    "cappadocian-nicene-pastoral-monastic-tradition--anomoean-eunomian-christianity",
+    "imperial-juridical-christianity--anomoean-eunomian-christianity",
+    "cappadocian-nicene-pastoral-monastic-tradition--pneumatomachian-current",
+    "imperial-juridical-christianity--apollinarian-christianity",
+    "tertullian-s-voice--modalist-monarchianism",
+    "roman-church-third-century--modalist-monarchianism",
+    "syriac-edessa-nisibis--bardaisanite-current",
+    "post-apostolic-house-church--roman-church-third-century",
+    "roman-church-third-century--novatianism",
+    "desert-monasticism--palestinian-ascetic-monasticism-early",
+    "greek-apologists-second-century--alexandria-catechetical",
+    "gallic-nicene-episcopate--gallic-monastic-ascetic-christianity",
+    "gallic-nicene-episcopate--homoian-arian-christianity",
+    "imperial-juridical-christianity--gallic-nicene-episcopate",
+    "gallic-nicene-episcopate--imperial-juridical-christianity",
+    "alexandria-catechetical--anatolian-church-third-century",
+    "alexandria-catechetical--palestinian-church-pre-constantinian",
+    "palestinian-church-pre-constantinian--jerusalem-liturgical-pilgrimage-christianity",
+    "palestinian-church-pre-constantinian--imperial-juridical-christianity",
+    "danubian-latin-christianity--hieronymian-ascetic-literary",
+    "danubian-latin-christianity--homoian-arian-christianity",
+    "aquileian-christianity--hieronymian-ascetic-literary",
+    "alexandria-catechetical--aquileian-christianity",
+    "ambrosian-milan-standalone--aquileian-christianity",
+    "antiochene-church-third-century--homoian-arian-christianity",
+    "greek-apologists-second-century--latin-apologists",
+    "tertullian-s-voice--latin-apologists",
+    "latin-apologists--imperial-juridical-christianity",
+    "roman-church-gregorian--byzantine-imperial-church-justinianic",
+    "imperial-juridical-christianity--homoian-arian-christianity",
+    "hieronymian-ascetic-literary--alexandria-catechetical",
+    "latin-pastoral-congregational-christianity--pelagianism",
+    "the-waldensians--waldensians-in-the-alps",
+    "latin-pastoral-congregational-christianity--donatism",
+    "donatism--latin-pastoral-congregational-christianity",
+    "latin-pastoral-congregational-christianity--donatism--2",
+    "imperial-juridical-christianity--donatism",
+    "donatism--imperial-juridical-christianity",
+    "byzantine-imperial-church-justinianic--cyrilline-miaphysite-egyptian-christianity",
+    "imperial-juridical-christianity--persian-church-of-the-east-early",
+    "latin-papal-church-avignon-to-lateran-v--lollardy",
+    "lollardy--the-hussite-and-bohemian-brethren-movement",
+    "tertullian-s-voice--latin-pastoral-congregational-christianity",
+    "alexandria-catechetical--cappadocian-nicene-pastoral-monastic-tradition",
+    "alexandria-catechetical--ambrosian-milan-standalone",
+    "palestinian-church-pre-constantinian--hieronymian-ascetic-literary",
+    "anatolian-church-third-century--byzantine-imperial-church-heraclian-iconoclast",
+    "apocryphal-and-pseudepigraphal-literature--alexandria-catechetical",
+    "syriac-edessa-nisibis--manichaeism",
+    "bardaisanite-current--marcion-marcionism",
+    "bardaisanite-current--syriac-edessa-nisibis",
+    "alexandria-catechetical--ebionite-nazoraean-current",
+    "syriac-edessa-nisibis--persian-church-of-the-east-early",
+    "syriac-edessa-nisibis--syriac-orthodox-west-syriac-christianity",
+    "post-apostolic-house-church--montanism-the-new-prophecy",
+    "imperial-juridical-christianity--montanism-the-new-prophecy",
+    "byzantine-imperial-church-justinianic--montanism-the-new-prophecy",
+    "latin-pastoral-congregational-christianity--novatianism",
+    "imperial-juridical-christianity--novatianism",
+    "imperial-juridical-christianity--novatianism--2",
+    "post-apostolic-house-church--marcion-marcionism",
+    "tertullian-s-voice--valentinian-and-other-gnostic-christianities",
+    "post-apostolic-house-church--valentinian-and-other-gnostic-christianities",
+    "greek-apologists-second-century--valentinian-and-other-gnostic-christianities",
+    "antiochene-church-third-century--anomoean-eunomian-christianity",
+    "anatolian-church-third-century--antiochene-church-third-century",
+    "antiochene-church-third-century--roman-church-third-century",
+    "imperial-juridical-christianity--ebionite-nazoraean-current"
+   ],
+   "eras": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "finding": "82 public notes fail the project's reading target (FRE >= 60 and FK <= 10, engine.m7.turn_readability.score_turn). They cluster in the early eras: by era pair {'1-1': 24, '1-2': 17, '1-3': 2, '1-4': 1, '2-1': 6, '2-2': 18, '2-3': 5, '2-4': 2, '3-1': 1, '3-3': 2, '4-1': 1, '5-6': 1, '6-6': 2}. Every note on a link wholly inside eras 7-9 passes, so the early-era notes are out of line with the rest of the set, not just individually dense. The usual cause is long sentences stacked with names and Latinate words (deposed, excommunicated, anathematized, catechetical, monasteries, metropolitan) plus past-tense -ed forms that the project's syllable counter charges heavily. Each rewrite keeps every fact, the evidence statement (who did what, in which text) and the hedges, adds none, and was scored from a .txt file with the brief's command. Original scores (FRE/FK) are in doubts; new scores in readability.",
+   "evidence": "Scores recomputed with engine.m7.turn_readability.score_turn on the census note text; rewrites in /tmp/claude-0/-home-user-CIC-Project/6ebeb477-ae9f-54d6-bd84-ec57904acc5a/scratchpad/D-notes/w/<id>.txt. Sources re-read from each link's own `sources` (work, locus, quote) before rewording.",
+   "fix": {
+    "action": "edit",
+    "edits": [
+     {
+      "id": "alexandria-catechetical--desert-monasticism",
+      "field": "note",
+      "new": "Scholars disagree on whether the desert monks grew out of Christian teaching at Alexandria. Samuel Rubenson reads Antony's letters as the work of a man shaped by Origen's ideas. But Athanasius, bishop of Alexandria, paints Antony as an Egyptian. His parents were Christians, and he grew up at home with them. He went to the city when the martyrs were led there."
+     },
+     {
+      "id": "desert-monasticism--hieronymian-ascetic-literary",
+      "field": "note",
+      "new": "Jerome says Marcella, a Roman ascetic, heard of Antony from Athanasius. He and other men in exile from Alexandria told her in Rome. They told her too of the houses for monks that Pachomius set up. Jerome tells how Paula went into the monks' cells at Nitria in Egypt. In Letter 22 he says Antony made the hermit life famous."
+     },
+     {
+      "id": "alexandria-catechetical--hieronymian-ascetic-literary",
+      "field": "note",
+      "new": "In 392 Jerome wrote a preface to his new version of Job. In it he defends his work by pointing to Origen. Origen had marked every Old Testament book with signs called obeli and asterisks. They showed where the old Greek text fell short."
+     },
+     {
+      "id": "cappadocian-nicene-pastoral-monastic-tradition--hieronymian-ascetic-literary",
+      "field": "note",
+      "new": "Jerome, writing in the 390s, calls Gregory of Nazianzus his teacher in the Scriptures. He recalls asking Gregory to explain a phrase in Luke. Gregory made a joke and got out of answering."
+     },
+     {
+      "id": "syriac-edessa-nisibis--the-church-of-the-east-under-persia",
+      "field": "note",
+      "new": "Barhadbeshabba wrote about the year 600. He says Ephrem set up a school at Edessa after Nisibis passed to Persia in 363. Later, he says, Narsai set up the school at Nisibis, and many came to it from Edessa to learn. Sources differ on when Narsai left Edessa."
+     },
+     {
+      "id": "desert-monasticism--iconophile-byzantine-monasticism",
+      "field": "note",
+      "new": "Basil of Caesarea wrote that he found many monks in Alexandria and the rest of Egypt. In 787 the Second Council of Nicaea told double houses of monks and nuns to keep Basil's rule. In its acts, a bishop honors images of 'the fathers and cultivators of the desert'. But none of these texts shows the monks who fought for icons drawing on Egypt itself."
+     },
+     {
+      "id": "desert-monasticism--early-benedictine-italian-monasticism",
+      "field": "note",
+      "new": "Benedict's Rule tells monks to read 'the Lives of the Fathers' when they meet in the evening. Its last chapter names the Fathers' Lives and Basil's Rule as models for monks. Its editor, Cardinal Gasquet, takes these to be the Lives of the Desert Fathers."
+     },
+     {
+      "id": "desert-monasticism--insular-irish-monastic-christianity",
+      "field": "note",
+      "new": "An Irish monk on the Continent wrote in the eighth century, mixing fact with legend. He traced the Irish daily prayers back to Antony, Paul, Macarius and other early hermits. Warren edited the Bangor Antiphonary in 1895. He judged this one late account sound at its core but wrong in detail. He held that any Eastern features reached Ireland through Gaul."
+     },
+     {
+      "id": "desert-monasticism--coptic-christianity-under-early-islam",
+      "field": "note",
+      "new": "A Coptic book copied by hand in 1006 ends with a prayer for two monks. They were monks of the Church of Saint Mercurius, near Edfu. The prayer asks that they share the inheritance of the 'coenobite fathers'. It names Pachomius, Theodorus, Palamon, Petronius and Horsiesios."
+     },
+     {
+      "id": "coptic-christianity-under-early-islam--alexandria-catechetical",
+      "field": "note",
+      "new": "The History of the Patriarchs of the Coptic Church is said to be by Severus ibn al-Muqaffa, a bishop of the 900s. It says Patriarch Demetrius cut Origen off for his books. It calls the books Origen wrote later blasphemous. Yet the same work honors Dionysius as a patriarch. Dionysius had once run the studies at Alexandria."
+     },
+     {
+      "id": "desert-monasticism--gallic-monastic-ascetic-christianity",
+      "field": "note",
+      "new": "A bishop in Gaul asked Cassian to write his Institutes. In them Cassian set out the customs of the monks he had seen across Egypt and Palestine. Gennadius says he later founded two monasteries at Marseilles."
+     },
+     {
+      "id": "gallic-monastic-ascetic-christianity--early-benedictine-italian-monasticism",
+      "field": "note",
+      "new": "Benedict's Rule tells monks to read the 'Collationes' when they meet in the evening. It also names the 'Institutes' as models. These are the titles of Cassian's two books. Gennadius says Cassian set up two houses for monks at Marseilles."
+     },
+     {
+      "id": "gallic-monastic-ascetic-christianity--insular-irish-monastic-christianity",
+      "field": "note",
+      "new": "One Irish account of the eighth century names Cassian and the monks of Lérins in the chain that reached Ireland. Beyond that, there is only Patrick's wish, in his Confession, to visit the brothers in Gaul. Warren edited the Bangor Antiphonary in 1895. He held that Ireland's Eastern features came by way of Gaul."
+     },
+     {
+      "id": "gallic-monastic-ascetic-christianity--merovingian-gallic-christianity",
+      "field": "note",
+      "new": "Venantius Fortunatus was a poet of Merovingian Gaul. He praises the Rule of Caesarius of Arles. Caesarius came from Lérins and became bishop of Arles. Gennadius tells of Faustus, the first abbot of Lérins, who became bishop of Riez."
+     },
+     {
+      "id": "cappadocian-nicene-pastoral-monastic-tradition--anomoean-eunomian-christianity",
+      "field": "note",
+      "new": "After Basil died, Gregory of Nyssa took up his quarrel with Eunomius. He wrote a long book to answer him. The first of the Theological Orations of Gregory of Nazianzus is a talk against the Eunomians."
+     },
+     {
+      "id": "imperial-juridical-christianity--anomoean-eunomian-christianity",
+      "field": "note",
+      "new": "A law of 19 July 381 forbade the Eunomians and Arians to build churches. That year the Council of Constantinople met at the call of Theodosius. Its first canon condemned the Eunomians by name. A law of 383 also banned their meetings."
+     },
+     {
+      "id": "cappadocian-nicene-pastoral-monastic-tradition--pneumatomachian-current",
+      "field": "note",
+      "new": "Basil wrote On the Holy Spirit. It answers those who say the Spirit may not be ranked with the Father and the Son. Gregory of Nyssa also wrote on the Spirit. His book is titled Against the Followers of Macedonius."
+     },
+     {
+      "id": "imperial-juridical-christianity--apollinarian-christianity",
+      "field": "note",
+      "new": "The Council of Constantinople met in 381. Its first canon cursed the Apollinarians by name. A law of March 388 barred them from the walls of cities. It also cut them off from the company of honest citizens and from the communion of the saints."
+     },
+     {
+      "id": "tertullian-s-voice--modalist-monarchianism",
+      "field": "note",
+      "new": "In Against Praxeas, Tertullian names Praxeas. He charges that Praxeas 'crucified the Father'. He also answers those who think that if the Trinity has an order, its unity is split."
+     },
+     {
+      "id": "roman-church-third-century--modalist-monarchianism",
+      "field": "note",
+      "new": "Dionysius was bishop of Rome in the 260s. He wrote against the Sabellians. Athanasius later quoted him. Earlier, Hippolytus says, the bishop of Rome, Callistus, cut Sabellius off from the church. But Hippolytus also blamed Callistus for backing the same views. So he was a foe of the man he writes about."
+     },
+     {
+      "id": "syriac-edessa-nisibis--bardaisanite-current",
+      "field": "note",
+      "new": "Ephraim the Syrian wrote Prose Refutations against Mani, Marcion and Bardaisan. In them he names Bardaisan. He attacks what Bardaisan taught on the soul, on space and on matter."
+     },
+     {
+      "id": "post-apostolic-house-church--roman-church-third-century",
+      "field": "note",
+      "new": "Irenaeus lists the bishops of Rome down to Eleutherius in the 180s. Hippolytus shows Zephyrinus at the head of the same church about a generation on. But Peter Lampe argues that Rome had no single bishop in charge until about 189 to 199."
+     },
+     {
+      "id": "roman-church-third-century--novatianism",
+      "field": "note",
+      "new": "Eusebius says Novatus, a priest at Rome, led those who held that the lapsed had no hope of salvation. Editors take him to be Novatian. A synod at Rome around 251 declared him and his followers strangers to the church."
+     },
+     {
+      "id": "desert-monasticism--palestinian-ascetic-monasticism-early",
+      "field": "note",
+      "new": "Jerome's Life of Hilarion says Hilarion set out for the Egyptian desert to see Antony. He stayed with him about two months. It adds that no one knew of a monk in Palestine or Syria before Hilarion."
+     },
+     {
+      "id": "greek-apologists-second-century--alexandria-catechetical",
+      "field": "note",
+      "new": "Clement of Alexandria praises Tatian's Address to the Greeks. He says it gives an accurate account of the age of Moses. Tatian was one of the Greek apologists of the second century."
+     },
+     {
+      "id": "gallic-nicene-episcopate--gallic-monastic-ascetic-christianity",
+      "field": "note",
+      "new": "Sulpicius Severus says Martin sought out Bishop Hilary of Poitiers and lived with him for a time. Hilary made him an exorcist. When Hilary came back from his exile, Martin set up a house for monks near the town. He had set one up at Milan before that."
+     },
+     {
+      "id": "gallic-nicene-episcopate--homoian-arian-christianity",
+      "field": "note",
+      "new": "Phoebadius of Agen wrote a Book Against the Arians. Hilary of Poitiers wrote On the Councils to the bishops of Gaul and Britain. He praises them for condemning the creed sent from Sirmium. He also says they had refused communion to Saturninus of Arles."
+     },
+     {
+      "id": "imperial-juridical-christianity--gallic-nicene-episcopate",
+      "field": "note",
+      "new": "Hilary of Poitiers was a bishop in Gaul. He says he was sent into exile after Saturninus won over the emperor. He adds that bishops who stood against the creed forced on the churches were driven out too."
+     },
+     {
+      "id": "gallic-nicene-episcopate--imperial-juridical-christianity",
+      "field": "note",
+      "new": "In On the Councils, Hilary writes to the Eastern bishops. He says Arian bishops misled the emperor into forcing a form of faith on the churches. Hilary stood against the emperor's creed."
+     },
+     {
+      "id": "alexandria-catechetical--anatolian-church-third-century",
+      "field": "note",
+      "new": "Eusebius says the brothers Gregory and Athenodorus studied under Origen for five years. Then both became bishops in Pontus. Gregory is said to have made a speech to Origen as he left him. Some scholars doubt that it is his."
+     },
+     {
+      "id": "alexandria-catechetical--palestinian-church-pre-constantinian",
+      "field": "note",
+      "new": "Eusebius says that Origen left Alexandria for Caesarea about 231. He left his school in the hands of Heraclas. Eusebius adds that Pamphilus, a martyr of his own day, built up a store of Origen's books."
+     },
+     {
+      "id": "palestinian-church-pre-constantinian--jerusalem-liturgical-pilgrimage-christianity",
+      "field": "note",
+      "new": "In the library at Aelia, as Jerusalem was then called, Eusebius saw letters that Bishop Alexander had gathered. Later Constantine wrote to Macarius about a new church. It was to be the Church of the Savior. This rests on just those two texts. Neither traces the bishops in between."
+     },
+     {
+      "id": "palestinian-church-pre-constantinian--imperial-juridical-christianity",
+      "field": "note",
+      "new": "Eusebius says he drew on a library at Aelia, or Jerusalem, for his Church History. Bishop Alexander had founded it. The letters kept there had lasted to his own time."
+     },
+     {
+      "id": "danubian-latin-christianity--hieronymian-ascetic-literary",
+      "field": "note",
+      "new": "Jerome lists Victorinus of Pettau in his catalog of Christian writers. He judges his works noble in thought but weak in style. In Against Helvidius he calls on Victorinus as a witness on the Lord's brothers."
+     },
+     {
+      "id": "danubian-latin-christianity--homoian-arian-christianity",
+      "field": "note",
+      "new": "Athanasius names Ursacius of Singidunum and Valens of Mursa as leaders of the Arian party. Both were bishops in the lands along the Danube. Today scholars see them as two of the men who did most to shape the Homoian settlement."
+     },
+     {
+      "id": "aquileian-christianity--hieronymian-ascetic-literary",
+      "field": "note",
+      "new": "W. H. Fremantle wrote the introduction to Rufinus's works in English in 1892. He says Jerome and Rufinus were part of a group of young ascetics at Aquileia in the early 370s. Rufinus recalled being baptized in a monastery by Chromatius, Jovinus and Eusebius. In 374 Jerome wrote to the same three men from the desert."
+     },
+     {
+      "id": "alexandria-catechetical--aquileian-christianity",
+      "field": "note",
+      "new": "Rufinus put Origen into Latin. The editors of his works say he did much of this at Aquileia. In his preface to First Principles, written in 397, he says he is carrying on a task Jerome began. A preface of 410 recalls his promise to put Origen's work on the Law of Moses into Latin for his people."
+     },
+     {
+      "id": "ambrosian-milan-standalone--aquileian-christianity",
+      "field": "note",
+      "new": "Ambrose of Milan and Valerian of Aquileia both sat at the Council of Aquileia. It opened on 3 September 381. Ambrose says the bishops of the West met there on the emperor's order. The Acts show him as he put questions to Palladius."
+     },
+     {
+      "id": "antiochene-church-third-century--homoian-arian-christianity",
+      "field": "note",
+      "new": "Arius wrote to Eusebius of Nicomedia as 'my fellow-Lucianist'. Lucian of Antioch had taught them both. Philostorgius lists Lucian's pupils. Among them were Leontius, who was later bishop of Antioch, and one Eudoxius. Both these reports come from Arius's own side."
+     },
+     {
+      "id": "greek-apologists-second-century--latin-apologists",
+      "field": "note",
+      "new": "In Against the Valentinians, Tertullian names 'Justin, philosopher and martyr'. He puts him with the earlier writers who wrote against heresy. So one apologist who wrote in Latin knew the work of one who wrote in Greek."
+     },
+     {
+      "id": "tertullian-s-voice--latin-apologists",
+      "field": "note",
+      "new": "Lactantius wrote the Divine Institutes. In it he says Tertullian had already argued the same cause in full. He did so in his book called the Apology."
+     },
+     {
+      "id": "latin-apologists--imperial-juridical-christianity",
+      "field": "note",
+      "new": "Jerome says that Lactantius, a Latin apologist, was tutor to Crispus, the son of Constantine. He did this in Gaul, when he was very old. Jerome does not say how far his case for the faith shaped the court."
+     },
+     {
+      "id": "roman-church-gregorian--byzantine-imperial-church-justinianic",
+      "field": "note",
+      "new": "In June 595 Gregory wrote to Emperor Maurice. He said John, the patriarch of Constantinople, was trying to be called universal bishop. Gregory calls the title a new name. He says John took it against the Gospel and the canons."
+     },
+     {
+      "id": "imperial-juridical-christianity--homoian-arian-christianity",
+      "field": "note",
+      "new": "The Council of Constantinople met in 381 at the call of the emperor Theodosius. Its first canon names the Arians, or Eudoxians, among the heresies it rejects. Laws of 381 and 383 also name the Arians. They bar heretics from building churches or from meeting."
+     },
+     {
+      "id": "hieronymian-ascetic-literary--alexandria-catechetical",
+      "field": "note",
+      "new": "In Letter 84 Jerome calls Origen's teachings poisonous. He says they do violence to the Holy Scriptures. He adds that his own commentaries show he has always opposed them."
+     },
+     {
+      "id": "latin-pastoral-congregational-christianity--pelagianism",
+      "field": "note",
+      "new": "Augustine, bishop of Hippo, wrote against Pelagius by name. In On the Merits and Forgiveness of Sins, he answers points he says Pelagius made against original sin. In his Retractations he says he replied to a book by Pelagius. That book stood up for human nature against the grace of God."
+     },
+     {
+      "id": "the-waldensians--waldensians-in-the-alps",
+      "field": "note",
+      "new": "Bernard Gui was an inquisitor writing in the 1320s. He says the first error of the Waldensians still goes on: contempt for the church's authority. His editor adds that Gui's trials drove Waldensians into the Alps of Dauphiné and northern Italy. The same movement went on in the Alps in the 1300s."
+     },
+     {
+      "id": "latin-pastoral-congregational-christianity--donatism",
+      "field": "note",
+      "new": "Augustine, bishop of Hippo, wrote a long book to the Donatists. He wrote it after their bishops and his met at Carthage in 411. He lists it in his Retractations. Earlier, Bishop Optatus of Milevis had written against the Donatist bishop Parmenian."
+     },
+     {
+      "id": "donatism--latin-pastoral-congregational-christianity",
+      "field": "note",
+      "new": "Optatus quotes Parmenian, who led the Donatists at Carthage as their bishop. He said that 'one who was stained' could not wash away sins in baptism. Optatus says the Donatists baptized the faithful a second time. They used this rule on the clergy of the Catholic side."
+     },
+     {
+      "id": "latin-pastoral-congregational-christianity--donatism--2",
+      "field": "note",
+      "new": "Cyprian of Carthage was a leading voice of the church in Africa in the 250s. Augustine tells the Donatists that they keep quoting Cyprian's letters, his opinion and his council. He asks why they use Cyprian's authority to defend their split."
+     },
+     {
+      "id": "imperial-juridical-christianity--donatism",
+      "field": "note",
+      "new": "Emperor Constantine gave the Donatists judges. They heard the case at Rome with Miltiades, its bishop. Optatus, a Catholic bishop, says one of the Donatist bishops then made an appeal. Constantine wrote back: 'Oh, mad daring of their fury!'"
+     },
+     {
+      "id": "donatism--imperial-juridical-christianity",
+      "field": "note",
+      "new": "Optatus says two agents of Emperor Constans, Paul and Macarius, came to Donatus. Donatus burst out: 'What has the Emperor to do with the Church?' Optatus was Donatus's foe, so this is a hostile report."
+     },
+     {
+      "id": "byzantine-imperial-church-justinianic--cyrilline-miaphysite-egyptian-christianity",
+      "field": "note",
+      "new": "In October 451 the Council of Chalcedon deposed Dioscorus, bishop of Alexandria. He had been called three times to answer his accusers. Each time he would not come. The historian Evagrius quotes a plea to Emperor Leo. It says Timothy Aelurus broke from the Catholic church right after the council. A Miaphysite chronicle of the 500s tells the other side. In it, clergy, monks and people broke off from the new bishop's communion."
+     },
+     {
+      "id": "imperial-juridical-christianity--persian-church-of-the-east-early",
+      "field": "note",
+      "new": "In 410 a synod met at Seleucia-Ctesiphon. Its acts call Bishop Marutha of Maipherqat the go-between for peace between East and West. The Persian bishops then agreed to follow the western forms of worship that Isaac and Marutha had taught them."
+     },
+     {
+      "id": "latin-papal-church-avignon-to-lateran-v--lollardy",
+      "field": "note",
+      "new": "In 1409 Archbishop Thomas Arundel issued church rules for England. They ban any of John Wyclif's writings that the church has not cleared. They speak of a province 'defiled with a new and damnable name of Lollardy'. In 1415 the Council of Constance condemned forty-five articles of Wyclif."
+     },
+     {
+      "id": "lollardy--the-hussite-and-bohemian-brethren-movement",
+      "field": "note",
+      "new": "David Schaff put Hus's On the Church into English. He reports that Hus took paragraph after paragraph from Wyclif's book on the same subject. On 6 July 1415 the Council of Constance condemned Wyclif's errors. It sentenced Hus the same day. Wyclif's teaching began Lollardy. But this shows his influence on Hus, not that English Lollard groups shaped the Bohemians."
+     },
+     {
+      "id": "tertullian-s-voice--latin-pastoral-congregational-christianity",
+      "field": "note",
+      "new": "Jerome says Cyprian read Tertullian every day and asked for him as 'the master'. Jerome had this from an old man who had been Cyprian's secretary. Augustine later said that many of Tertullian's works were still read, and that they were very well written."
+     },
+     {
+      "id": "alexandria-catechetical--cappadocian-nicene-pastoral-monastic-tradition",
+      "field": "note",
+      "new": "Socrates, a historian of the fifth century, says Basil and Gregory of Nazianzus studied Origen's works. They drew their reading of Scripture from them. Then they used Origen against the Arians. Around 382 Gregory sent a friend 'the volume of the Philocalia of Origen'. The editors of both men's letters credit that book to the two of them."
+     },
+     {
+      "id": "alexandria-catechetical--ambrosian-milan-standalone",
+      "field": "note",
+      "new": "Jerome wrote a letter in 400. In it he says Ambrose had just taken over Origen's work on the six days of creation. But he adds that Ambrose's version took more from Hippolytus and Basil than from Origen."
+     },
+     {
+      "id": "palestinian-church-pre-constantinian--hieronymian-ascetic-literary",
+      "field": "note",
+      "new": "Jerome says Pamphilus copied most of Origen's works by hand. The copies were still kept at Caesarea, in its library. Jerome owned twenty-five books in Pamphilus's own hand. In his book against Rufinus, he says he found the Apology for Origen by Eusebius in that same library."
+     },
+     {
+      "id": "anatolian-church-third-century--byzantine-imperial-church-heraclian-iconoclast",
+      "field": "note",
+      "new": "In 692 the Council in Trullo met at Constantinople. It set its seal on a list of older church canons. The list takes in the canons of Gregory the Wonderworker, bishop of Neocaesarea."
+     },
+     {
+      "id": "apocryphal-and-pseudepigraphal-literature--alexandria-catechetical",
+      "field": "note",
+      "new": "In his Commentary on Matthew, Origen cites a tradition from the Gospel of Peter and the Book of James. That book is now called the Protevangelium. It says the brothers of Jesus were sons of Joseph by a wife he had before Mary. Origen shares its aim, which is to honor Mary's virginity."
+     },
+     {
+      "id": "syriac-edessa-nisibis--manichaeism",
+      "field": "note",
+      "new": "Ephraim the Syrian wrote prose discourses to Hypatius against Mani, Marcion and Bardaisan. In one he says he has 'opposed Mani also with a true refutation'. He attacks Mani's picture of God as a land of light."
+     },
+     {
+      "id": "bardaisanite-current--marcion-marcionism",
+      "field": "note",
+      "new": "Eusebius wrote early in the 300s. He says Bardaisan wrote dialogues in Syriac against the followers of Marcion. He adds that Bardaisan's pupils put them into Greek."
+     },
+     {
+      "id": "bardaisanite-current--syriac-edessa-nisibis",
+      "field": "note",
+      "new": "Ephraim complained that Bardaisan 'fashioned hymns, and joined them with tunes'. Sozomen and Theodoret wrote in the 400s. They say Ephraim answered the songs of Harmonius, the son of Bardaisan. He wrote orthodox songs to the same music."
+     },
+     {
+      "id": "alexandria-catechetical--ebionite-nazoraean-current",
+      "field": "note",
+      "new": "Origen wrote On First Principles at Alexandria. In it he rejects how the Ebionites read Jesus' words about the lost sheep of Israel. He mocks their name as meaning 'poor in understanding'."
+     },
+     {
+      "id": "syriac-edessa-nisibis--persian-church-of-the-east-early",
+      "field": "note",
+      "new": "The Chronicle of Edessa names Jacob and Vologesh as bishops of Nisibis before 363. That year the city passed to Persia, and Ephrem moved to Edessa. In 410 the Persian church held a synod. Osee of Nisibis signed it. The synod made him the second of its chief bishops."
+     },
+     {
+      "id": "syriac-edessa-nisibis--syriac-orthodox-west-syriac-christianity",
+      "field": "note",
+      "new": "The Chronicle of Edessa says Paul, the city's bishop, would not accept the synod of Chalcedon. He was removed in 522. That December the new bishop drove out the monks who also refused it. Later Jacob Baradaeus was made bishop for Edessa. But these few notes are thin evidence for a line of descent."
+     },
+     {
+      "id": "post-apostolic-house-church--montanism-the-new-prophecy",
+      "field": "note",
+      "new": "Eusebius quotes a writer of about 192 whose name is lost. He says the faithful of Asia met many times to test what the prophets of Phrygia taught. They found it to be heresy, and cut those who held it off from communion. Apolinarius, bishop of Hierapolis, also wrote against the Phrygians."
+     },
+     {
+      "id": "imperial-juridical-christianity--montanism-the-new-prophecy",
+      "field": "note",
+      "new": "Constantine sent an edict to the heretics, kept in Eusebius's Life of Constantine. It names 'ye who are called Cataphrygians', a common name for the Montanists. It forbids their meetings. It takes away the houses where they met."
+     },
+     {
+      "id": "byzantine-imperial-church-justinianic--montanism-the-new-prophecy",
+      "field": "note",
+      "new": "Procopius was a hostile witness to Justinian. He says the emperor told groups such as the Montanists to give up their beliefs. He says the Montanists of Phrygia shut themselves in their churches. Then they set them on fire. A law of Justinian also names them."
+     },
+     {
+      "id": "latin-pastoral-congregational-christianity--novatianism",
+      "field": "note",
+      "new": "Envoys came to Cyprian of Carthage with word that Novatian had been made bishop. Cyprian would not take them into communion. He later wrote that Novatian 'is not in the Church'. Augustine asked whether repentance had been fully taught 'before the Novatians opposed'."
+     },
+     {
+      "id": "imperial-juridical-christianity--novatianism",
+      "field": "note",
+      "new": "In 325 the Council of Nicaea set terms, in its eighth canon, for receiving 'those who call themselves Cathari'. These were the Novatianists. Their clergy had first to promise in writing to follow the teaching of the Catholic Church."
+     },
+     {
+      "id": "imperial-juridical-christianity--novatianism--2",
+      "field": "note",
+      "new": "Constantine called Acesius, a bishop of the Novatians, to the Council of Nicaea. Acesius told him the council had laid down nothing new. Yet he kept his church apart. Socrates had the story from Auxanon, a Novatian priest. As a young man, Auxanon went to Nicaea with Acesius."
+     },
+     {
+      "id": "post-apostolic-house-church--marcion-marcionism",
+      "field": "note",
+      "new": "Tertullian says Marcion gave money to the church at Rome. Later the church threw out both him and his gift. Irenaeus knew Polycarp of Smyrna. He says Polycarp turned many in Rome away from Marcion. He also tells how Polycarp called Marcion 'the first-born of Satan' to his face."
+     },
+     {
+      "id": "tertullian-s-voice--valentinian-and-other-gnostic-christianities",
+      "field": "note",
+      "new": "Tertullian wrote a book Against the Valentinians. He traces the school back to its founder. He says Valentinus had hoped to become a bishop. When a confessor was chosen instead, Valentinus broke with the church."
+     },
+     {
+      "id": "post-apostolic-house-church--valentinian-and-other-gnostic-christianities",
+      "field": "note",
+      "new": "Irenaeus says Valentinus came to Rome when Hyginus was bishop. He stayed until the time of Anicetus. Polycarp of Smyrna came to Rome, he says, and turned many from Valentinus and Marcion to the church. Tertullian adds that the church at Rome threw Valentinus out more than once."
+     },
+     {
+      "id": "greek-apologists-second-century--valentinian-and-other-gnostic-christianities",
+      "field": "note",
+      "new": "In his Dialogue with Trypho, Justin names the Valentinians and the Basilidians. He puts them with the groups who call themselves Christians but are not. Later, Tertullian lists Justin with the writers who had already written against them."
+     },
+     {
+      "id": "antiochene-church-third-century--anomoean-eunomian-christianity",
+      "field": "note",
+      "new": "Philostorgius wrote history on the side of Eunomius. He says Aetius learned from three pupils of Lucian of Antioch. They were Athanasius of Anazarbus, Antonius of Tarsus, and Leontius, then a priest at Antioch. Only Photius's short version of his book is left."
+     },
+     {
+      "id": "anatolian-church-third-century--antiochene-church-third-century",
+      "field": "note",
+      "new": "Eusebius says bishops from many lands met at Antioch to deal with Paul of Samosata. Among the best known he names Gregory and his brother Athenodorus. They were pastors of the churches in Pontus."
+     },
+     {
+      "id": "antiochene-church-third-century--roman-church-third-century",
+      "field": "note",
+      "new": "A council of bishops at Antioch put Paul of Samosata out of office. They wrote of it to Dionysius, bishop of Rome, and to Maximus of Alexandria."
+     },
+     {
+      "id": "imperial-juridical-christianity--ebionite-nazoraean-current",
+      "field": "note",
+      "new": "Eusebius of Caesarea wrote his Church History under Constantine, and it was done around 324. In it he says the evil demon won the Ebionites over to his own ends. The name fit them, he writes, for they held 'poor and mean opinions concerning Christ'."
+     }
+    ],
+    "readability": [
+     {
+      "id": "alexandria-catechetical--desert-monasticism",
+      "fre": 63.3,
+      "fk": 7.5
+     },
+     {
+      "id": "desert-monasticism--hieronymian-ascetic-literary",
+      "fre": 67.2,
+      "fk": 6.8
+     },
+     {
+      "id": "alexandria-catechetical--hieronymian-ascetic-literary",
+      "fre": 72.0,
+      "fk": 5.9
+     },
+     {
+      "id": "cappadocian-nicene-pastoral-monastic-tradition--hieronymian-ascetic-literary",
+      "fre": 64.9,
+      "fk": 6.9
+     },
+     {
+      "id": "syriac-edessa-nisibis--the-church-of-the-east-under-persia",
+      "fre": 64.6,
+      "fk": 7.1
+     },
+     {
+      "id": "desert-monasticism--iconophile-byzantine-monasticism",
+      "fre": 69.0,
+      "fk": 7.6
+     },
+     {
+      "id": "desert-monasticism--early-benedictine-italian-monasticism",
+      "fre": 63.8,
+      "fk": 8.1
+     },
+     {
+      "id": "desert-monasticism--insular-irish-monastic-christianity",
+      "fre": 60.7,
+      "fk": 7.8
+     },
+     {
+      "id": "desert-monasticism--coptic-christianity-under-early-islam",
+      "fre": 69.5,
+      "fk": 6.4
+     },
+     {
+      "id": "coptic-christianity-under-early-islam--alexandria-catechetical",
+      "fre": 68.2,
+      "fk": 6.6
+     },
+     {
+      "id": "desert-monasticism--gallic-monastic-ascetic-christianity",
+      "fre": 60.7,
+      "fk": 7.8
+     },
+     {
+      "id": "gallic-monastic-ascetic-christianity--early-benedictine-italian-monasticism",
+      "fre": 65.6,
+      "fk": 6.6
+     },
+     {
+      "id": "gallic-monastic-ascetic-christianity--insular-irish-monastic-christianity",
+      "fre": 64.7,
+      "fk": 7.6
+     },
+     {
+      "id": "gallic-monastic-ascetic-christianity--merovingian-gallic-christianity",
+      "fre": 62.3,
+      "fk": 7.1
+     },
+     {
+      "id": "cappadocian-nicene-pastoral-monastic-tradition--anomoean-eunomian-christianity",
+      "fre": 60.7,
+      "fk": 7.8
+     },
+     {
+      "id": "imperial-juridical-christianity--anomoean-eunomian-christianity",
+      "fre": 66.8,
+      "fk": 6.4
+     },
+     {
+      "id": "cappadocian-nicene-pastoral-monastic-tradition--pneumatomachian-current",
+      "fre": 71.9,
+      "fk": 5.7
+     },
+     {
+      "id": "imperial-juridical-christianity--apollinarian-christianity",
+      "fre": 70.0,
+      "fk": 6.2
+     },
+     {
+      "id": "tertullian-s-voice--modalist-monarchianism",
+      "fre": 61.3,
+      "fk": 7.2
+     },
+     {
+      "id": "roman-church-third-century--modalist-monarchianism",
+      "fre": 64.6,
+      "fk": 6.4
+     },
+     {
+      "id": "syriac-edessa-nisibis--bardaisanite-current",
+      "fre": 62.8,
+      "fk": 6.9
+     },
+     {
+      "id": "post-apostolic-house-church--roman-church-third-century",
+      "fre": 63.0,
+      "fk": 7.9
+     },
+     {
+      "id": "roman-church-third-century--novatianism",
+      "fre": 70.0,
+      "fk": 6.7
+     },
+     {
+      "id": "desert-monasticism--palestinian-ascetic-monasticism-early",
+      "fre": 68.6,
+      "fk": 6.8
+     },
+     {
+      "id": "greek-apologists-second-century--alexandria-catechetical",
+      "fre": 61.2,
+      "fk": 7.4
+     },
+     {
+      "id": "gallic-nicene-episcopate--gallic-monastic-ascetic-christianity",
+      "fre": 73.0,
+      "fk": 6.1
+     },
+     {
+      "id": "gallic-nicene-episcopate--homoian-arian-christianity",
+      "fre": 64.9,
+      "fk": 6.9
+     },
+     {
+      "id": "imperial-juridical-christianity--gallic-nicene-episcopate",
+      "fre": 67.1,
+      "fk": 7.1
+     },
+     {
+      "id": "gallic-nicene-episcopate--imperial-juridical-christianity",
+      "fre": 61.2,
+      "fk": 7.4
+     },
+     {
+      "id": "alexandria-catechetical--anatolian-church-third-century",
+      "fre": 67.7,
+      "fk": 6.3
+     },
+     {
+      "id": "alexandria-catechetical--palestinian-church-pre-constantinian",
+      "fre": 64.5,
+      "fk": 7.2
+     },
+     {
+      "id": "palestinian-church-pre-constantinian--jerusalem-liturgical-pilgrimage-christianity",
+      "fre": 65.7,
+      "fk": 6.5
+     },
+     {
+      "id": "palestinian-church-pre-constantinian--imperial-juridical-christianity",
+      "fre": 64.1,
+      "fk": 6.8
+     },
+     {
+      "id": "danubian-latin-christianity--hieronymian-ascetic-literary",
+      "fre": 63.1,
+      "fk": 7.4
+     },
+     {
+      "id": "danubian-latin-christianity--homoian-arian-christianity",
+      "fre": 63.0,
+      "fk": 7.9
+     },
+     {
+      "id": "aquileian-christianity--hieronymian-ascetic-literary",
+      "fre": 61.4,
+      "fk": 6.9
+     },
+     {
+      "id": "alexandria-catechetical--aquileian-christianity",
+      "fre": 68.7,
+      "fk": 7.1
+     },
+     {
+      "id": "ambrosian-milan-standalone--aquileian-christianity",
+      "fre": 68.5,
+      "fk": 6.3
+     },
+     {
+      "id": "antiochene-church-third-century--homoian-arian-christianity",
+      "fre": 63.4,
+      "fk": 6.5
+     },
+     {
+      "id": "greek-apologists-second-century--latin-apologists",
+      "fre": 61.7,
+      "fk": 7.7
+     },
+     {
+      "id": "tertullian-s-voice--latin-apologists",
+      "fre": 66.1,
+      "fk": 6.3
+     },
+     {
+      "id": "latin-apologists--imperial-juridical-christianity",
+      "fre": 78.7,
+      "fk": 5.5
+     },
+     {
+      "id": "roman-church-gregorian--byzantine-imperial-church-justinianic",
+      "fre": 66.8,
+      "fk": 6.4
+     },
+     {
+      "id": "imperial-juridical-christianity--homoian-arian-christianity",
+      "fre": 61.2,
+      "fk": 7.3
+     },
+     {
+      "id": "hieronymian-ascetic-literary--alexandria-catechetical",
+      "fre": 61.4,
+      "fk": 7.0
+     },
+     {
+      "id": "latin-pastoral-congregational-christianity--pelagianism",
+      "fre": 64.5,
+      "fk": 7.4
+     },
+     {
+      "id": "the-waldensians--waldensians-in-the-alps",
+      "fre": 71.6,
+      "fk": 6.5
+     },
+     {
+      "id": "latin-pastoral-congregational-christianity--donatism",
+      "fre": 60.2,
+      "fk": 7.4
+     },
+     {
+      "id": "donatism--latin-pastoral-congregational-christianity",
+      "fre": 65.3,
+      "fk": 7.1
+     },
+     {
+      "id": "latin-pastoral-congregational-christianity--donatism--2",
+      "fre": 67.1,
+      "fk": 7.3
+     },
+     {
+      "id": "imperial-juridical-christianity--donatism",
+      "fre": 67.6,
+      "fk": 5.8
+     },
+     {
+      "id": "donatism--imperial-juridical-christianity",
+      "fre": 63.1,
+      "fk": 7.4
+     },
+     {
+      "id": "byzantine-imperial-church-justinianic--cyrilline-miaphysite-egyptian-christianity",
+      "fre": 61.3,
+      "fk": 7.3
+     },
+     {
+      "id": "imperial-juridical-christianity--persian-church-of-the-east-early",
+      "fre": 65.7,
+      "fk": 7.6
+     },
+     {
+      "id": "latin-papal-church-avignon-to-lateran-v--lollardy",
+      "fre": 61.7,
+      "fk": 7.6
+     },
+     {
+      "id": "lollardy--the-hussite-and-bohemian-brethren-movement",
+      "fre": 67.2,
+      "fk": 6.3
+     },
+     {
+      "id": "tertullian-s-voice--latin-pastoral-congregational-christianity",
+      "fre": 67.0,
+      "fk": 7.6
+     },
+     {
+      "id": "alexandria-catechetical--cappadocian-nicene-pastoral-monastic-tradition",
+      "fre": 60.2,
+      "fk": 7.7
+     },
+     {
+      "id": "alexandria-catechetical--ambrosian-milan-standalone",
+      "fre": 70.8,
+      "fk": 6.4
+     },
+     {
+      "id": "palestinian-church-pre-constantinian--hieronymian-ascetic-literary",
+      "fre": 60.7,
+      "fk": 7.8
+     },
+     {
+      "id": "anatolian-church-third-century--byzantine-imperial-church-heraclian-iconoclast",
+      "fre": 61.2,
+      "fk": 7.4
+     },
+     {
+      "id": "apocryphal-and-pseudepigraphal-literature--alexandria-catechetical",
+      "fre": 60.9,
+      "fk": 8.1
+     },
+     {
+      "id": "syriac-edessa-nisibis--manichaeism",
+      "fre": 61.7,
+      "fk": 7.7
+     },
+     {
+      "id": "bardaisanite-current--marcion-marcionism",
+      "fre": 63.0,
+      "fk": 6.7
+     },
+     {
+      "id": "bardaisanite-current--syriac-edessa-nisibis",
+      "fre": 61.4,
+      "fk": 7.1
+     },
+     {
+      "id": "alexandria-catechetical--ebionite-nazoraean-current",
+      "fre": 63.8,
+      "fk": 7.0
+     },
+     {
+      "id": "syriac-edessa-nisibis--persian-church-of-the-east-early",
+      "fre": 64.1,
+      "fk": 6.7
+     },
+     {
+      "id": "syriac-edessa-nisibis--syriac-orthodox-west-syriac-christianity",
+      "fre": 65.2,
+      "fk": 6.8
+     },
+     {
+      "id": "post-apostolic-house-church--montanism-the-new-prophecy",
+      "fre": 66.2,
+      "fk": 7.2
+     },
+     {
+      "id": "imperial-juridical-christianity--montanism-the-new-prophecy",
+      "fre": 63.6,
+      "fk": 6.7
+     },
+     {
+      "id": "byzantine-imperial-church-justinianic--montanism-the-new-prophecy",
+      "fre": 72.4,
+      "fk": 5.4
+     },
+     {
+      "id": "latin-pastoral-congregational-christianity--novatianism",
+      "fre": 62.1,
+      "fk": 7.3
+     },
+     {
+      "id": "imperial-juridical-christianity--novatianism",
+      "fre": 67.1,
+      "fk": 7.1
+     },
+     {
+      "id": "imperial-juridical-christianity--novatianism--2",
+      "fre": 64.9,
+      "fk": 6.6
+     },
+     {
+      "id": "post-apostolic-house-church--marcion-marcionism",
+      "fre": 74.9,
+      "fk": 5.3
+     },
+     {
+      "id": "tertullian-s-voice--valentinian-and-other-gnostic-christianities",
+      "fre": 62.6,
+      "fk": 6.7
+     },
+     {
+      "id": "post-apostolic-house-church--valentinian-and-other-gnostic-christianities",
+      "fre": 64.2,
+      "fk": 7.3
+     },
+     {
+      "id": "greek-apologists-second-century--valentinian-and-other-gnostic-christianities",
+      "fre": 60.4,
+      "fk": 8.0
+     },
+     {
+      "id": "antiochene-church-third-century--anomoean-eunomian-christianity",
+      "fre": 60.2,
+      "fk": 7.5
+     },
+     {
+      "id": "anatolian-church-third-century--antiochene-church-third-century",
+      "fre": 61.0,
+      "fk": 7.6
+     },
+     {
+      "id": "antiochene-church-third-century--roman-church-third-century",
+      "fre": 61.5,
+      "fk": 8.0
+     },
+     {
+      "id": "imperial-juridical-christianity--ebionite-nazoraean-current",
+      "fre": 67.0,
+      "fk": 7.6
+     }
+    ]
+   },
+   "doubts": "Original FRE/FK: alexandria-catechetical--desert-monasticism: 13.6/14.6; desert-monasticism--hieronymian-ascetic-literary: 41.2/11.2; alexandria-catechetical--hieronymian-ascetic-literary: 57.0/9.8; cappadocian-nicene-pastoral-monastic-tradition--hieronymian-ascetic-literary: 53.1/9.8; syriac-edessa-nisibis--the-church-of-the-east-under-persia: 38.8/10.9; desert-monasticism--iconophile-byzantine-monasticism: 51.6/10.4; desert-monasticism--early-benedictine-italian-monasticism: 56.3/9.1; desert-monasticism--insular-irish-monastic-christianity: 46.7/11.3; desert-monasticism--coptic-christianity-under-early-islam: 50.9/10.8; coptic-christianity-under-early-islam--alexandria-catechetical: 42.8/11.6; desert-monasticism--gallic-monastic-ascetic-christianity: 46.5/10.9; gallic-monastic-ascetic-christianity--early-benedictine-italian-monasticism: 40.8/10.1; gallic-monastic-ascetic-christianity--insular-irish-monastic-christianity: 58.5/9.6; gallic-monastic-ascetic-christianity--merovingian-gallic-christianity: 52.6/9.0; cappadocian-nicene-pastoral-monastic-tradition--anomoean-eunomian-christianity: 31.1/13.0; imperial-juridical-christianity--anomoean-eunomian-christianity: 54.8/8.5; cappadocian-nicene-pastoral-monastic-tradition--pneumatomachian-current: 58.5/9.4; imperial-juridical-christianity--apollinarian-christianity: 44.0/11.2; tertullian-s-voice--modalist-monarchianism: 55.0/9.2; roman-church-third-century--modalist-monarchianism: 16.0/14.1; syriac-edessa-nisibis--bardaisanite-current: 57.0/8.5; post-apostolic-house-church--roman-church-third-century: 47.0/9.4; roman-church-third-century--novatianism: 42.7/10.2; desert-monasticism--palestinian-ascetic-monasticism-early: 58.4/9.1; greek-apologists-second-century--alexandria-catechetical: 44.0/10.4; gallic-nicene-episcopate--gallic-monastic-ascetic-christianity: 48.7/10.4; gallic-nicene-episcopate--homoian-arian-christianity: 58.5/8.7; imperial-juridical-christianity--gallic-nicene-episcopate: 35.5/11.8; gallic-nicene-episcopate--imperial-juridical-christianity: 49.2/10.0; alexandria-catechetical--anatolian-church-third-century: 34.2/11.2; alexandria-catechetical--palestinian-church-pre-constantinian: 26.7/13.5; palestinian-church-pre-constantinian--jerusalem-liturgical-pilgrimage-christianity: 48.7/10.0; palestinian-church-pre-constantinian--imperial-juridical-christianity: 52.1/9.6; danubian-latin-christianity--hieronymian-ascetic-literary: 48.9/10.8; danubian-latin-christianity--homoian-arian-christianity: 36.3/12.3; aquileian-christianity--hieronymian-ascetic-literary: 42.8/10.9; alexandria-catechetical--aquileian-christianity: 59.9/9.6; ambrosian-milan-standalone--aquileian-christianity: 48.9/10.8; antiochene-church-third-century--homoian-arian-christianity: 45.7/9.9; greek-apologists-second-century--latin-apologists: 30.2/12.4; tertullian-s-voice--latin-apologists: 40.5/12.8; latin-apologists--imperial-juridical-christianity: 56.7/8.8; roman-church-gregorian--byzantine-imperial-church-justinianic: 55.2/9.8; imperial-juridical-christianity--homoian-arian-christianity: 47.6/10.1; hieronymian-ascetic-literary--alexandria-catechetical: 53.6/9.3; latin-pastoral-congregational-christianity--pelagianism: 54.9/9.6; the-waldensians--waldensians-in-the-alps: 49.7/10.0; latin-pastoral-congregational-christianity--donatism: 48.3/9.8; donatism--latin-pastoral-congregational-christianity: 39.6/10.7; latin-pastoral-congregational-christianity--donatism--2: 57.1/8.4; imperial-juridical-christianity--donatism: 51.1/8.4; donatism--imperial-juridical-christianity: 57.2/8.2; byzantine-imperial-church-justinianic--cyrilline-miaphysite-egyptian-christianity: 57.7/8.2; imperial-juridical-christianity--persian-church-of-the-east-early: 55.4/10.5; latin-papal-church-avignon-to-lateran-v--lollardy: 45.3/10.3; lollardy--the-hussite-and-bohemian-brethren-movement: 50.4/10.9; tertullian-s-voice--latin-pastoral-congregational-christianity: 57.1/8.4; alexandria-catechetical--cappadocian-nicene-pastoral-monastic-tradition: 51.4/9.5; alexandria-catechetical--ambrosian-milan-standalone: 49.2/10.2; palestinian-church-pre-constantinian--hieronymian-ascetic-literary: 48.7/10.0; anatolian-church-third-century--byzantine-imperial-church-heraclian-iconoclast: 38.5/11.4; apocryphal-and-pseudepigraphal-literature--alexandria-catechetical: 49.7/10.0; syriac-edessa-nisibis--manichaeism: 47.6/11.1; bardaisanite-current--marcion-marcionism: 38.5/11.0; bardaisanite-current--syriac-edessa-nisibis: 41.6/11.8; alexandria-catechetical--ebionite-nazoraean-current: 50.6/9.9; syriac-edessa-nisibis--persian-church-of-the-east-early: 47.6/10.1; syriac-edessa-nisibis--syriac-orthodox-west-syriac-christianity: 45.3/11.2; post-apostolic-house-church--montanism-the-new-prophecy: 36.9/11.7; imperial-juridical-christianity--montanism-the-new-prophecy: 51.5/9.2; byzantine-imperial-church-justinianic--montanism-the-new-prophecy: 47.6/10.1; latin-pastoral-congregational-christianity--novatianism: 53.7/8.9; imperial-juridical-christianity--novatianism: 59.3/9.5; imperial-juridical-christianity--novatianism--2: 41.0/10.9; post-apostolic-house-church--marcion-marcionism: 57.7/9.1; tertullian-s-voice--valentinian-and-other-gnostic-christianities: 57.7/9.4; post-apostolic-house-church--valentinian-and-other-gnostic-christianities: 40.3/11.0; greek-apologists-second-century--valentinian-and-other-gnostic-christianities: 30.1/12.9; antiochene-church-third-century--anomoean-eunomian-christianity: 35.3/11.6; anatolian-church-third-century--antiochene-church-third-century: 37.3/12.0; antiochene-church-third-century--roman-church-third-century: 30.7/14.4; imperial-juridical-christianity--ebionite-nazoraean-current: 50.5/9.4. Wording choices a reviewer may want to check: 'presbyter' rendered 'priest' in three notes (roman-church-third-century--novatianism, imperial-juridical-christianity--novatianism--2, antiochene-church-third-century--anomoean-eunomian-christianity); 'monastery' as 'house for monks' in two; 'metropolitan' as 'chief bishop' (syriac-edessa-nisibis--persian-church-of-the-east-early), following the gloss already used in other notes; 'Homoian settlement' kept as a term. Several rewrites also fix a second defect: iconophile ('no text we hold'), latin-apologists ('No source here'), waldensians ('after 1300'), aquileian--hieronymian ('The translation's editors'), palestinian--jerusalem ('Saviour'), lollardy--hussite ('The English editor'), avignon--lollardy (mixed 'Wickliff'/'Wyclif' spellings in one note, now 'Wyclif' throughout; the quote itself is untouched). lollardy--hussite now gives the year 1415 for 6 July, from the Fillastre source already on the link. Most rewrites bring average sentence length to about 9-12 words, below the brief's 12-20 band; that is what the FRE floor demands for name-heavy text."
+  },
+  {
+   "fid": "NOTE-02",
+   "kind": "note",
+   "severity": "minor",
+   "links": [
+    "antiochene-exegetical-christianity-chrysostom-ce--the-church-of-the-east-under-persia",
+    "pelagianism--hieronymian-ascetic-literary",
+    "homoian-arian-christianity--gothic-and-vandal-homoian-christianity",
+    "catholic-church-long-nineteenth-century--nineteenth-century-latin-american-catholicism",
+    "armenian-apostolic-church-era-8--armenian-christianity-zartonk"
+   ],
+   "eras": [
+    2,
+    3,
+    8,
+    9
+   ],
+   "finding": "Five notes have a sentence past 25 words (26-30). The other 8 entries in mech.json note_long_sentence are false positives: the mechanical check splits sentences only on a full stop followed by a space, so a sentence ending inside a quote (\".'\" or '.\"') runs into the next one. Counted properly, those 8 peak at 16-24 words.",
+   "evidence": "mech.json note_long_sentence vs a re-split on (?<=[.!?])['\"]?\\s+: true long = antiochene-exegetical-christianity-chrysostom-ce--the-church-of-the-east-under-persia, pelagianism--hieronymian-ascetic-literary, homoian-arian-christianity--gothic-and-vandal-homoian-christianity, catholic-church-long-nineteenth-century--nineteenth-century-latin-american-catholicism, armenian-apostolic-church-era-8--armenian-christianity-zartonk. False positives: the-reformed-cities-zurich-and-geneva--the-english-reformation-and-elizabethan-settleme, puritanism--the-english-reformation-and-elizabethan-settleme, the-english-reformation-and-elizabethan-settleme--puritanism--2, ambrosian-milan-standalone--tridentine-parish-renewal-borromean-milan, church-of-the-east-schism-of-1552--st-thomas-christians-under-portuguese-pressure-d, ethiopian-christianity-gragn-to-fasilides--the-society-of-jesus, restoration-georgian-church-of-england--victorian-church-of-england, camisard-prophetism--shakers.",
+   "fix": {
+    "action": "edit",
+    "edits": [
+     {
+      "id": "antiochene-exegetical-christianity-chrysostom-ce--the-church-of-the-east-under-persia",
+      "field": "note",
+      "new": "Barhadbeshabba wrote about the year 600. He says Theodore's commentaries were put into Syriac at Edessa, where future Persian bishops studied them. In 585 a synod of the Church of the East met. It defended 'the books and the teaching of saint Theodore' against those who attacked him."
+     },
+     {
+      "id": "pelagianism--hieronymian-ascetic-literary",
+      "field": "note",
+      "new": "In 416 or 417, Jerome's monasteries at Bethlehem were attacked and burned, and his deacon was killed. Augustine wrote that followers of Pelagius were said to have done it. Pope Innocent noted that the women who told him of it had not named the man behind it. Yet he saw no doubt about who was guilty. So the charge rests on report, not on a named act."
+     },
+     {
+      "id": "homoian-arian-christianity--gothic-and-vandal-homoian-christianity",
+      "field": "note",
+      "new": "Ulfila, bishop of the Goths, took part in the council at Constantinople in 360 that confirmed the Homoian creed. In 427 or 428 the Homoian bishop Maximinus came to Africa with the Goths. He named the creed of Ariminum as his faith. Socrates wrote in the fifth century. He says many Goths took up this faith for the sake of the emperor Valens. Many still held it in his day."
+     },
+     {
+      "id": "catholic-church-long-nineteenth-century--nineteenth-century-latin-american-catholicism",
+      "field": "note",
+      "new": "In 1862 Pius IX and Ecuador signed a pact in Rome that kept the state's faith Catholic. It tied every school to church teaching and let bishops alone pick the books for religion. In 1895 Mexico's image of Guadalupe was to be crowned in the name of Pope Leo XIII, by his order. Historians call this pull toward Rome 'Romanization'."
+     },
+     {
+      "id": "armenian-apostolic-church-era-8--armenian-christianity-zartonk",
+      "field": "note",
+      "new": "The same church carried on under the same head. Ephraim took his seat at Etchmiadzin in 1810. He still led the church in 1817, when he backed a Russian society's plan to print the Armenian Bible. In Constantinople, talks with the Catholic party begun in 1810 started again in 1816."
+     }
+    ],
+    "readability": [
+     {
+      "id": "antiochene-exegetical-christianity-chrysostom-ce--the-church-of-the-east-under-persia",
+      "fre": 62.7,
+      "fk": 7.4
+     },
+     {
+      "id": "pelagianism--hieronymian-ascetic-literary",
+      "fre": 72.6,
+      "fk": 6.4
+     },
+     {
+      "id": "homoian-arian-christianity--gothic-and-vandal-homoian-christianity",
+      "fre": 71.8,
+      "fk": 6.0
+     },
+     {
+      "id": "catholic-church-long-nineteenth-century--nineteenth-century-latin-american-catholicism",
+      "fre": 68.1,
+      "fk": 7.4
+     },
+     {
+      "id": "armenian-apostolic-church-era-8--armenian-christianity-zartonk",
+      "fre": 70.1,
+      "fk": 6.3
+     }
+    ]
+   },
+   "doubts": "armenian-apostolic-church-era-8--armenian-christianity-zartonk rewrite also drops 'past 1815' (see NOTE-04)."
+  },
+  {
+   "fid": "NOTE-03",
+   "kind": "note",
+   "severity": "substantial",
+   "links": [
+    "desert-monasticism--iconophile-byzantine-monasticism",
+    "palestinian-ascetic-monasticism-early--chalcedonian-monasticism-judean-desert-and-gaza",
+    "antiochene-church-third-century--antiochene-exegetical-christianity-chrysostom-ce",
+    "latin-apologists--imperial-juridical-christianity",
+    "byzantine-church-after-1054--latin-papal-church-gregorian",
+    "early-benedictine-italian-monasticism--cistercian-monasticism",
+    "byzantine-church-after-1054--balkan-bogomil-continuation",
+    "bogomils--balkan-bogomil-continuation",
+    "desert-monasticism--roman-church-gregorian",
+    "carolingian-reform-christianity--cluniac-reform-monasticism",
+    "the-stone-campbell-restoration-movement--catholic-church-long-nineteenth-century",
+    "the-second-great-awakening-and-camp-meeting-worl--restorationist-apocalyptic-ferment-and-adventism",
+    "the-holiness-movement--the-salvation-army",
+    "plymouth-brethren-and-dispensational-formation--the-sunday-school-and-bible-institute-movement",
+    "the-moravian-church-at-herrnhut--the-reveil-and-inner-mission-awakening"
+   ],
+   "eras": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    8,
+    9
+   ],
+   "finding": "Fifteen notes speak about the tree's own holdings or apparatus rather than the history: 'no text we hold', 'no source we hold', 'no source here', 'quoted here', 'Here it comes as...', 'one movement here', and 'The link rests on...' (seven notes, eras 3-9). The brief bans 'link(s)' and cataloguing commentary in public text. 'We hold' is also a claim about the Library rather than about the evidence; each rewrite scopes the statement to the texts actually on the link (e.g. 'Neither text ties...', 'Jerome does not say...'). 'The link rests on' becomes 'This rests on' / 'The tie rests on', the phrasing other eras already use.",
+   "evidence": "desert-monasticism--iconophile-byzantine-monasticism: 'no text we hold' (fixed in NOTE-01 rewrite: 'none of these texts'); palestinian-ascetic-monasticism-early--chalcedonian-monasticism-judean-desert-and-gaza: 'No text we hold'; antiochene-church-third-century--antiochene-exegetical-christianity-chrysostom-ce: 'No source we hold links'; latin-apologists--imperial-juridical-christianity: 'No source here shows' (fixed in NOTE-01 rewrite); byzantine-church-after-1054--latin-papal-church-gregorian: 'is quoted here'; early-benedictine-italian-monasticism--cistercian-monasticism: 'No early Cistercian text quoted here'; byzantine-church-after-1054--balkan-bogomil-continuation: 'Here it comes as Franjo Racki told it'; bogomils--balkan-bogomil-continuation: 'saw one Bogomil movement here' (here = across the tree's two entries); desert-monasticism--roman-church-gregorian: 'so the link rests on'; carolingian-reform-christianity--cluniac-reform-monasticism: 'The link rests on'; the-stone-campbell-restoration-movement--catholic-church-long-nineteenth-century: 'The link rests on'; the-second-great-awakening-and-camp-meeting-worl--restorationist-apocalyptic-ferment-and-adventism: 'The link rests on'; the-holiness-movement--the-salvation-army: 'The link rests on'; plymouth-brethren-and-dispensational-formation--the-sunday-school-and-bible-institute-movement: 'The link rests on'; the-moravian-church-at-herrnhut--the-reveil-and-inner-mission-awakening: 'The link rests on'",
+   "fix": {
+    "action": "edit",
+    "edits": [
+     {
+      "id": "palestinian-ascetic-monasticism-early--chalcedonian-monasticism-judean-desert-and-gaza",
+      "field": "note",
+      "new": "Jerome's Life of Hilarion makes Hilarion the first monk in Palestine. John Moschus, writing around 600, mentions a monastery at Pharan. Neither text ties the later monks to the first ones, so this rests on place and sequence alone."
+     },
+     {
+      "id": "antiochene-church-third-century--antiochene-exegetical-christianity-chrysostom-ce",
+      "field": "note",
+      "new": "Jerome says Lucian, a presbyter of Antioch, studied Scripture so closely that copies still carried his name. Jerome does not tie his work to Diodore, Theodore or Chrysostom. The tie to these later teachers at Antioch is an inference, not a report."
+     },
+     {
+      "id": "byzantine-church-after-1054--latin-papal-church-gregorian",
+      "field": "note",
+      "new": "Cardinal Humbert's own account says the papal legates laid their excommunication on the main altar of Hagia Sophia on 16 July 1054. He adds that Patriarch Michael then tried to bring them before a council there. This account of the break comes from the Latin side alone."
+     },
+     {
+      "id": "early-benedictine-italian-monasticism--cistercian-monasticism",
+      "field": "note",
+      "new": "The monks of Cîteaux set out to keep the Rule of St Benedict more plainly. The tie rests on a 1907 editor of the Rule, not on the early Cistercians' own words. Oswald Hunter Blair notes only that early Cistercian statutes, like the Rule, set times when monks might talk."
+     },
+     {
+      "id": "byzantine-church-after-1054--balkan-bogomil-continuation",
+      "field": "note",
+      "new": "Around 1100 the emperor Alexios I and the patriarch Nicholas put the Bogomil teacher Basil on trial. Basil would not give up his faith, so the emperor had him burned in the Hippodrome. Alexios also told the monk Euthymios Zigabenos to write a book against the Bogomils. The emperor's daughter Anna Komnene tells the story. We have it from Franjo Rački, who told it in 1869."
+     },
+     {
+      "id": "bogomils--balkan-bogomil-continuation",
+      "field": "note",
+      "new": "In 1869 Franjo Rački saw these Bogomils as one movement. He traced it from Bulgaria in the 900s to the Bogomils put on trial in the Byzantine capital around 1100. In 1250 Rainerius Sacconi still named a church of Bulgaria among the Cathar churches. No Bogomil text of their own shows the line."
+     },
+     {
+      "id": "desert-monasticism--roman-church-gregorian",
+      "field": "note",
+      "new": "Cassian heard Abbot Serapion of Scetis list eight principal faults, ending with pride. Gregory the Great later made pride 'the queen of sins' and set seven principal sins beneath her. Gregory names no source, so the tie rests on the likeness of the two lists."
+     },
+     {
+      "id": "carolingian-reform-christianity--cluniac-reform-monasticism",
+      "field": "note",
+      "new": "From 742 the Frankish reformers ordered monks and nuns to live by the Rule of Benedict. Cluny, founded around 910, was a house of Benedictine monks. The tie rests on that shared Rule, not on any named founder who passed from one to the other."
+     },
+     {
+      "id": "the-stone-campbell-restoration-movement--catholic-church-long-nineteenth-century",
+      "field": "note",
+      "new": "In 1837 Alexander Campbell held a public debate with a Catholic bishop, John Purcell. It went on for days, and the movement printed the whole of it. This rests on one modern work, a reference book on the movement."
+     },
+     {
+      "id": "the-second-great-awakening-and-camp-meeting-worl--restorationist-apocalyptic-ferment-and-adventism",
+      "field": "note",
+      "new": "William Miller's followers of the 1830s and 1840s came from many American churches, in the decades of the great frontier revivals. The evidence is thin. The tie rests on that timing and on modern books on Miller and on Adventist belief."
+     },
+     {
+      "id": "the-holiness-movement--the-salvation-army",
+      "field": "note",
+      "new": "Holiness teachers said that God can make a believer truly holy in this life, and at once. The historians Norman Murdoch and Melvin Dieter show the Booths taking up this teaching. This rests on their modern studies."
+     },
+     {
+      "id": "plymouth-brethren-and-dispensational-formation--the-sunday-school-and-bible-institute-movement",
+      "field": "note",
+      "new": "John Nelson Darby split the Bible's story into ages he called dispensations. In 1970 the historian Ernest Sandeen traced how Bible schools in America came to teach this plan. This rests on his book."
+     },
+     {
+      "id": "the-moravian-church-at-herrnhut--the-reveil-and-inner-mission-awakening",
+      "field": "note",
+      "new": "The historian Timothy Stunt finds Moravian roots in the awakening that broke out in Geneva after 1815. This rests on his book."
+     }
+    ],
+    "readability": [
+     {
+      "id": "palestinian-ascetic-monasticism-early--chalcedonian-monasticism-judean-desert-and-gaza",
+      "fre": 60.4,
+      "fk": 8.0
+     },
+     {
+      "id": "antiochene-church-third-century--antiochene-exegetical-christianity-chrysostom-ce",
+      "fre": 63.7,
+      "fk": 7.9
+     },
+     {
+      "id": "byzantine-church-after-1054--latin-papal-church-gregorian",
+      "fre": 61.9,
+      "fk": 8.4
+     },
+     {
+      "id": "early-benedictine-italian-monasticism--cistercian-monasticism",
+      "fre": 69.8,
+      "fk": 7.7
+     },
+     {
+      "id": "byzantine-church-after-1054--balkan-bogomil-continuation",
+      "fre": 62.2,
+      "fk": 7.8
+     },
+     {
+      "id": "bogomils--balkan-bogomil-continuation",
+      "fre": 64.5,
+      "fk": 7.4
+     },
+     {
+      "id": "desert-monasticism--roman-church-gregorian",
+      "fre": 69.4,
+      "fk": 7.3
+     },
+     {
+      "id": "carolingian-reform-christianity--cluniac-reform-monasticism",
+      "fre": 66.4,
+      "fk": 7.6
+     },
+     {
+      "id": "the-stone-campbell-restoration-movement--catholic-church-long-nineteenth-century",
+      "fre": 67.1,
+      "fk": 7.1
+     },
+     {
+      "id": "the-second-great-awakening-and-camp-meeting-worl--restorationist-apocalyptic-ferment-and-adventism",
+      "fre": 63.0,
+      "fk": 7.9
+     },
+     {
+      "id": "the-holiness-movement--the-salvation-army",
+      "fre": 70.8,
+      "fk": 6.4
+     },
+     {
+      "id": "plymouth-brethren-and-dispensational-formation--the-sunday-school-and-bible-institute-movement",
+      "fre": 62.4,
+      "fk": 7.3
+     },
+     {
+      "id": "the-moravian-church-at-herrnhut--the-reveil-and-inner-mission-awakening",
+      "fre": 63.2,
+      "fk": 7.0
+     }
+    ]
+   },
+   "doubts": "early-benedictine--cistercian: the old note said no early Cistercian text is quoted; the rewrite says the tie rests on the 1907 editor (Hunter Blair, the only source on the link), not on the Cistercians' own words. Same meaning, but a reviewer should confirm."
+  },
+  {
+   "fid": "NOTE-04",
+   "kind": "note",
+   "severity": "minor",
+   "links": [
+    "the-waldensians--waldensians-in-the-alps",
+    "the-franciscan-movement--franciscan-order-era-6",
+    "latin-papal-church-gregorian--latin-papal-church-avignon-to-lateran-v",
+    "byzantine-church-after-1054--byzantine-church-palaiologan",
+    "latin-papal-church-avignon-to-lateran-v--the-tridentine-church",
+    "catholic-church-ancien-regime--catholic-church-long-nineteenth-century",
+    "restoration-georgian-church-of-england--victorian-church-of-england",
+    "armenian-apostolic-church-era-8--armenian-christianity-zartonk",
+    "restorationist-apocalyptic-ferment-and-adventism--seventh-day-adventist-church-twentieth-century",
+    "the-black-church-in-america--the-black-church-in-the-twentieth-century"
+   ],
+   "eras": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "finding": "Ten 'continued as' notes state continuity by naming the tree's own era-boundary year ('carried on past 1300', 'across 1517', 'across 1815', 'past 1906'). Those years are where the tree splits a community into two entries; to a reader they explain nothing, and they are cataloguing talk about the tree's entries. Most continued-as notes across the set instead name events on each side (e.g. byzantine-imperial-church-justinianic--byzantine-imperial-church-heraclian-iconoclast, armenian-christianity-before-the-bagratids--bagratid-armenian-christianity). The rewrites keep the continuity claim and date it in ordinary terms ('into the 1300s', 'from Gregory to Boniface', 'into the twentieth century').",
+   "evidence": "the-waldensians--waldensians-in-the-alps: 'carried on in the Alps after 1300' (fixed in NOTE-01 rewrite); the-franciscan-movement--franciscan-order-era-6: 'carried on past 1300'; latin-papal-church-gregorian--latin-papal-church-avignon-to-lateran-v: 'carried the same claims across 1300'; byzantine-church-after-1054--byzantine-church-palaiologan: 'across the year 1300'; latin-papal-church-avignon-to-lateran-v--the-tridentine-church: 'carried its own laws across 1517'; catholic-church-ancien-regime--catholic-church-long-nineteenth-century: 'One papacy carried the church across 1815'; restoration-georgian-church-of-england--victorian-church-of-england: 'carried on past 1815'; armenian-apostolic-church-era-8--armenian-christianity-zartonk: 'carried on past 1815' (fixed in NOTE-02 rewrite); restorationist-apocalyptic-ferment-and-adventism--seventh-day-adventist-church-twentieth-century: 'carried on past 1906'; the-black-church-in-america--the-black-church-in-the-twentieth-century: 'lived on past 1906'",
+   "fix": {
+    "action": "edit",
+    "edits": [
+     {
+      "id": "the-franciscan-movement--franciscan-order-era-6",
+      "field": "note",
+      "new": "Francis's Rule of 1223 binds the brothers to obey Francis and his successors. The same Order of Friars Minor carried on into the 1300s. In 1325 Pope John XXII wrote that his ruling was not against the order itself, only against some of its brothers."
+     },
+     {
+      "id": "latin-papal-church-gregorian--latin-papal-church-avignon-to-lateran-v",
+      "field": "note",
+      "new": "Gregory VII's Dictatus Papae of 1075 says that no one may judge the pope. In 1302 Boniface VIII, pope from 1294 to 1303, wrote in Unam sanctam that the highest spiritual power is judged by God alone. No human may judge it. The same see carried the same claim from Gregory to Boniface."
+     },
+     {
+      "id": "byzantine-church-after-1054--byzantine-church-palaiologan",
+      "field": "note",
+      "new": "The church of Constantinople kept its records and its rulings from one century to the next. In 1324 its synod settled a dispute by a decision made long before at Nymphaion, under Patriarch Arsenios. The patriarchs' register also copies a ruling of his from 1256, found in the church's old books."
+     },
+     {
+      "id": "latin-papal-church-avignon-to-lateran-v--the-tridentine-church",
+      "field": "note",
+      "new": "In 1546 the Council of Trent enforced a penalty on unapproved religious books 'imposed in a canon of the last Council of Lateran'. In 1551 it renewed and enlarged a law that Pope Clement V had issued at the Council of Vienne. The same church carried its own laws on into the age of the Reformation."
+     },
+     {
+      "id": "catholic-church-ancien-regime--catholic-church-long-nineteenth-century",
+      "field": "note",
+      "new": "Pope Pius VII made a concordat with France in 1801 that let the Catholic religion be practiced freely there. In 1817 the same pope signed a concordat with Bavaria. So one pope led the same church in both years."
+     },
+     {
+      "id": "restoration-georgian-church-of-england--victorian-church-of-england",
+      "field": "note",
+      "new": "The 1662 Prayer Book has a sermon or a homily follow the Creed at communion. In 1859 an Oxford editor said this rule stood 'nearly the same as we have it at the present day.' The same book and church carried on into the 1800s."
+     },
+     {
+      "id": "restorationist-apocalyptic-ferment-and-adventism--seventh-day-adventist-church-twentieth-century",
+      "field": "note",
+      "new": "The Seventh-day Adventist Church grew from the Millerites who kept faith after 1844. It carried on into the twentieth century as the same church. Its 1931 statement of belief settled its long debate over the Trinity. This rests on George Knight's modern history of Adventist belief."
+     },
+     {
+      "id": "the-black-church-in-america--the-black-church-in-the-twentieth-century",
+      "field": "note",
+      "new": "In 1816 Black Methodists in Philadelphia and Baltimore formed a church of their own. It was the African Methodist Episcopal Church. It lived on in the next century, as did the AME Zion Church and the Black Baptist churches. Historians see the Black church of that century as the same tradition carried on. That church led much of the civil rights movement."
+     }
+    ],
+    "readability": [
+     {
+      "id": "the-franciscan-movement--franciscan-order-era-6",
+      "fre": 72.3,
+      "fk": 6.7
+     },
+     {
+      "id": "latin-papal-church-gregorian--latin-papal-church-avignon-to-lateran-v",
+      "fre": 75.3,
+      "fk": 5.8
+     },
+     {
+      "id": "byzantine-church-after-1054--byzantine-church-palaiologan",
+      "fre": 62.5,
+      "fk": 8.6
+     },
+     {
+      "id": "latin-papal-church-avignon-to-lateran-v--the-tridentine-church",
+      "fre": 60.1,
+      "fk": 9.3
+     },
+     {
+      "id": "catholic-church-ancien-regime--catholic-church-long-nineteenth-century",
+      "fre": 77.7,
+      "fk": 5.5
+     },
+     {
+      "id": "restoration-georgian-church-of-england--victorian-church-of-england",
+      "fre": 82.4,
+      "fk": 5.4
+     },
+     {
+      "id": "restorationist-apocalyptic-ferment-and-adventism--seventh-day-adventist-church-twentieth-century",
+      "fre": 61.9,
+      "fk": 7.4
+     },
+     {
+      "id": "the-black-church-in-america--the-black-church-in-the-twentieth-century",
+      "fre": 68.2,
+      "fk": 6.8
+     }
+    ]
+   },
+   "doubts": "A defensible reading is that the era dates are shown in the interface, so the year is self-explaining; if the owner prefers that, this finding can be dropped. 'After 1815' in the two Reveil notes is real history (the Geneva awakening) and was left alone."
+  },
+  {
+   "fid": "NOTE-05",
+   "kind": "note",
+   "severity": "minor",
+   "links": [
+    "aquileian-christianity--hieronymian-ascetic-literary",
+    "the-reformed-cities-zurich-and-geneva--the-english-reformation-and-elizabethan-settleme",
+    "russian-church-nikon-to-holy-synod--alaskan-mission-herman-veniaminov",
+    "alaskan-mission-herman-veniaminov--american-orthodoxy-autocephaly-and-the-convert-wave",
+    "the-optina-elders-and-russian-ascetic-renewal--the-russian-new-martyrs-and-the-catacomb-church"
+   ],
+   "eras": [
+    2,
+    7,
+    8,
+    9,
+    10
+   ],
+   "finding": "Five notes do not stand on their own: they point at something the note never introduced ('the translation's editors', 'the rules', 'this list of 1842') or at the panel's own citations ('the sources cited').",
+   "evidence": "aquileian-christianity--hieronymian-ascetic-literary: 'The translation's editors say' - no translation has been named; the source is Fremantle's NPNF 2.3 introduction (fixed in NOTE-01 rewrite); the-reformed-cities-zurich-and-geneva--the-english-reformation-and-elizabethan-settleme: 'when he argued for the rules' - which rules is never said; Frere and Douglas (admonition file 1102-1104) say Parker cited Bucer, Martyr, Bullinger and Gualter 'on the side of conformity' in 1566; russian-church-nikon-to-holy-synod--alaskan-mission-herman-veniaminov: 'this list of 1842' - no list has been introduced; the source is the translator's note to Mouravieff (Blackmore 1842) listing 'dioceses, which have been erected since 1830' (mouravieff_history-of-the-church-of-russia_blackmore1842.txt 19191-19193); alaskan-mission-herman-veniaminov--american-orthodoxy-autocephaly-and-the-convert-wave: 'The sources cited show' - talks about the panel's own citations; the-optina-elders-and-russian-ascetic-renewal--the-russian-new-martyrs-and-the-catacomb-church: 'The sources cited stop long before 1917' - talks about the panel's own citations",
+   "fix": {
+    "action": "edit",
+    "edits": [
+     {
+      "id": "the-reformed-cities-zurich-and-geneva--the-english-reformation-and-elizabethan-settleme",
+      "field": "note",
+      "new": "In 1548 John Calvin wrote from Geneva to praise the Protector Somerset for his reform of worship in England. In 1562 Bishop John Jewel told Peter Martyr in Zurich that England's teaching did not differ from his 'by a nail's breadth.' In 1566 Archbishop Parker had cited Martyr and Bullinger too, to press the clergy to conform."
+     },
+     {
+      "id": "russian-church-nikon-to-holy-synod--alaskan-mission-herman-veniaminov",
+      "field": "note",
+      "new": "By 1842 the Russian church had a diocese of the Aleutian Islands, Kamchatka and Russian America. An English book of that year lists it among the dioceses set up since 1830. That shows the Alaskan church as part of the Russian church. But the list says nothing of the first mission of 1794, or of Herman, so the tie is thin."
+     },
+     {
+      "id": "alaskan-mission-herman-veniaminov--american-orthodoxy-autocephaly-and-the-convert-wave",
+      "field": "note",
+      "new": "The Russian diocese for the Aleutian Islands and Russian America, set up by 1842, may be the root of the later Orthodox Church in America. A list of 1842 shows the diocese being founded, but nothing of it after that. So the line to the later church is thin."
+     },
+     {
+      "id": "the-optina-elders-and-russian-ascetic-renewal--the-russian-new-martyrs-and-the-catacomb-church",
+      "field": "note",
+      "new": "Optina was a monastery of the Russian Church, and an Optina book of 1847 shows its elders guiding monks and lay visitors. That book stops long before 1917. It says nothing of the monastery under Soviet rule, so this line rests on a thin inference."
+     }
+    ],
+    "readability": [
+     {
+      "id": "the-reformed-cities-zurich-and-geneva--the-english-reformation-and-elizabethan-settleme",
+      "fre": 63.6,
+      "fk": 8.9
+     },
+     {
+      "id": "russian-church-nikon-to-holy-synod--alaskan-mission-herman-veniaminov",
+      "fre": 76.9,
+      "fk": 6.1
+     },
+     {
+      "id": "alaskan-mission-herman-veniaminov--american-orthodoxy-autocephaly-and-the-convert-wave",
+      "fre": 70.3,
+      "fk": 7.3
+     },
+     {
+      "id": "the-optina-elders-and-russian-ascetic-renewal--the-russian-new-martyrs-and-the-catacomb-church",
+      "fre": 64.4,
+      "fk": 7.8
+     }
+    ]
+   },
+   "doubts": "optina--russian-new-martyrs: the old sentence covered all cited sources, including Paert (2010), which I could not check for post-1917 coverage. The rewrite claims only that the 1847 Optina book stops before 1917, which the quotes show. If Paert does cover the Soviet years, the old sentence was wrong as well as internal, and the owner should look again at the note."
+  },
+  {
+   "fid": "NOTE-06",
+   "kind": "note",
+   "severity": "minor",
+   "links": [
+    "palestinian-church-pre-constantinian--jerusalem-liturgical-pilgrimage-christianity",
+    "armenian-christianity-before-the-bagratids--church-of-caucasian-albania"
+   ],
+   "eras": [
+    1,
+    2,
+    3
+   ],
+   "finding": "Two British spellings in public notes that tools/check_spelling.py does not catch: 'Church of the Saviour' (from the NPNF heading, but the note is not a quote) and 'leaned towards Chalcedon'. No other -our/-ise/-tre/-ll- forms were found outside quotes (scan of all 575 notes).",
+   "evidence": "palestinian--jerusalem note: 'about building the Church of the Saviour'; armenian-before-bagratids--albania note: 'leaned towards Chalcedon'.",
+   "fix": {
+    "action": "edit",
+    "edits": [
+     {
+      "id": "armenian-christianity-before-the-bagratids--church-of-caucasian-albania",
+      "field": "note",
+      "new": "Elias led the church of Armenia as its catholicos from 703 to 717. He worked to keep Albania in the Armenian communion. When Nerses Bakur, head of the church in Albania, leaned toward Chalcedon, he was removed and Simeon was put in his place. This rests on modern histories of the Armenian church."
+     }
+    ],
+    "readability": [
+     {
+      "id": "armenian-christianity-before-the-bagratids--church-of-caucasian-albania",
+      "fre": 61.2,
+      "fk": 7.9
+     }
+    ]
+   },
+   "doubts": "The Saviour fix is carried in the NOTE-01 rewrite of palestinian--jerusalem ('Church of the Savior')."
+  },
+  {
+   "fid": "NOTE-07",
+   "kind": "note",
+   "severity": "minor",
+   "links": [
+    "lollardy--the-hussite-and-bohemian-brethren-movement"
+   ],
+   "eras": [
+    6
+   ],
+   "finding": "'The English editor of Hus's On the Church' can be read as saying David S. Schaff was English. The vendored file names him as the translator (hus_de-ecclesia-the-church_schaff1915.txt line 2: 'David S. Schaff, Translator'); nothing in the repo gives his nationality.",
+   "evidence": "cic/texts/hus_de-ecclesia-the-church_schaff1915.txt:2",
+   "fix": {
+    "action": "edit",
+    "edits": [],
+    "readability": []
+   },
+   "doubts": "Fixed inside the NOTE-01 rewrite ('David Schaff put Hus's On the Church into English'); listed separately so the reviewer sees it."
+  },
+  {
+   "fid": "NOTE-08",
+   "kind": "other",
+   "severity": "minor",
+   "links": [],
+   "eras": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "finding": "House punctuation is mixed across the set. 131 notes quote with single marks and 7 with double (the-baptists--the-black-church-in-america, iconophile--heraclian-iconoclast, hussite--czech-churches, reformed-cities--schwenckfelders, anabaptist--radical-pietism, victorian--oxford-movement, catholic-long-19th--latin-american). A full stop or comma at a quote's end sits outside the mark in about 88 places and inside in about 19 (American style puts it inside). 'St' is written without a full stop throughout (St Benedict, St Victor, St Bartholomew's), which is British usage. None of this is wrong in substance, but it is uneven, and the project asks for American usage.",
+   "evidence": "Scan of the 575 notes: grep for '\"' (7 notes), \"[.,]'\" (19) vs \"'[.,]\" (88).",
+   "fix": {
+    "action": "escalate_owner",
+    "edits": [],
+    "readability": []
+   },
+   "doubts": "A style decision for the owner (one quote mark, one punctuation rule, St or St.), then a mechanical pass. I did not change any of these in my rewrites beyond what each rewrite needed, so they stay consistent with their neighbors until that decision is made."
+  }
+ ],
+ "checked_and_fine": [
+  "No AI tells found: no 'It is worth noting', 'notably', 'testament to', 'tapestry', 'crucial role', 'Scholars note', 'arguably', 'in essence'. 'Scholars disagree' / 'Historians trace' are the plain uncertainty statements the brief asks for.",
+  "No ids, no double full stops, no 'drafted', no 'census'/'entry'/'edge'/'grade' in the internal sense.",
+  "'census' in the two Stone-Campbell notes is the 1906 United States census of religious bodies, a real source: fine.",
+  "'record'/'records' in 22 notes is the ordinary verb or noun ('Bede records', 'the council's record'): fine.",
+  "'movement' hits (Holiness, Oxford, Antonian, Welsh, Sunday-school, civil rights) are historical names: fine.",
+  "'links in the chain' (gallic--insular-irish) and 'a real link' (balkan-bogomil--cathars) are ordinary metaphors; the first was reworded anyway in the readability rewrite, the second left.",
+  "'library' hits are the ancient libraries at Caesarea and Aelia, not the project Library: fine.",
+  "'Marseilles', 'catalog', 'honor', 'defense', 'traveled' already American or standard proper-noun forms.",
+  "8 mech.json long-sentence flags cleared as splitter artefacts: the-reformed-cities-zurich-and-geneva--the-english-reformation-and-elizabethan-settleme, puritanism--the-english-reformation-and-elizabethan-settleme, the-english-reformation-and-elizabethan-settleme--puritanism--2, ambrosian-milan-standalone--tridentine-parish-renewal-borromean-milan, church-of-the-east-schism-of-1552--st-thomas-christians-under-portuguese-pressure-d, ethiopian-christianity-gragn-to-fasilides--the-society-of-jesus, restoration-georgian-church-of-england--victorian-church-of-england, camisard-prophetism--shakers.",
+  "Uncertainty is stated plainly where grades are Contested or Inferential-Thin ('This rests on...', 'the tie is thin', 'Scholars disagree'); no vague hedging found.",
+  "No note asserting a fact contradicted by its own sources was found in the notes I checked against their quotes (the 87 rewrites plus the 26 other edits); I did not audit the remaining notes' facts line by line."
+ ]
+}

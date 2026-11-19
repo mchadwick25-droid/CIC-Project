@@ -1,0 +1,4097 @@
+Title: Documenta antiqua Franciscana, pars I: Scripta fratris Leonis socii S. P. Francisci
+Creator: Fr. Leonardus Lemmens, O.F.M. (editor, title page); the writings of Brother Leo
+Publisher: Quaracchi: Ex typographia Collegii S. Bonaventurae (title page)
+Publication Date: 1901 (title page)
+Rights: Public Domain (pd-us-by-date: published 1901); the archive.org record carries no rights field, so the imprint date is the basis
+Language: lat
+Source: archive.org item documentaantiqua00lemm, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (172,361) equals the size archive.org lists for the djvu.txt.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1901, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
+Content note: the Praefatio at about OCR line 91.
+
+______________________________________________________________________
+
+•^  /,.-->C 
+
+
+DOGUMENTA  ANTIQUA 
+
+
+PEANCISCANA 
+
+
+EDIDIT 
+
+
+FR.  LEONARDUS  LEMMENS,  6.  K  M. 
+
+
+PARS  L 
+
+
+SCRIPTA  FRATRIS  LEONIS 
+
+
+SOCII  S.  R  FRANCISCI 
+
+
+AD  CLARAS  AQUAS  (QUARACCHI) 
+
+EX    TYPOGRAPHIA    COLLEGII   S.   BONAVENTURAE 
+
+
+1901 
+
+
+Digitized  by  the  Internet  Archive 
+
+in  2011  with  funding  from 
+
+University  of  Toronto 
+
+
+http://www.archive.org/details/documentaantiquaOOIemm 
+
+
+I 
+
+
+V 
+
+
+?   LIBRARY 
+
+
+DOCUMENTA  ANTIQUA 
+
+FRANCISCANA 
+
+
+DOIJUMBNTA  ANTIQUA 
+
+
+PRANCISCANA 
+
+
+EDIDIT 
+
+
+FR.   LEONARDUS  LEMMENS,  O.  F.  M. 
+
+
+PARS  I. 
+
+
+SCRIPTA  FRATRIS  LEONIS 
+
+
+SOCII  S.  P.  FEANCISCI 
+
+
+\D  CL\IV\S  AOrAS  (QUARACCIll) 
+KX    rviMjf;hApiiiA  collk(;ii  s.  honavknturar 
+
+
+\H) 
+
+
+Proprielas  lilteraria. 
+
+
+<A^ 
+
+
+PRAEFATIO 
+
+
+«  Quasi  vas^*Jipp  solidiim,  emni.  la- 
+pide  pretioso  decorum,  pigmentorum  iim- 
+vitate  confertum  inter  beati  Francisci  so- 
+cios  resplenduit  frater  Leo,  ejus  secreta- 
+rius  et  confessor,  qui  virtutum  quasi  ge- 
+minarum  varietate  tenendo  vitam  acti- 
+vam  modo  mirabili  adornJitam  tandem 
+fuit  in  vitae  contemplativaW  hortum  aro*- 
+matum  et  Regis  cellam  vinariam  intro- 
+ductus.  Hunc  beatus  Franciscus  propter 
+ejus  columbinam  simplicitatem  singulari- 
+ter  dilio-ebat  et  fratrem  pecorellam  Dei 
+frequenter  nominabat.  Unde  et  specialcs 
+praerogativas  sociorum  coram  aliis  reci- 
+tans  aliquaudo  dicc^bat:  ille  esset  bonus 
+fraterMinor,  qui  ha))eret  puritatem  et  sim- 
+plicitatem  fratris  LcHjnis  ((.'iiron.  XXIV 
+Min.  Generahuni,   pag.  (Jo). 
+
+
+—  G   - 
+
+Hic  frater  Leo,  «  qui  in  omni  sancti- 
+tate  proficiens  plenus  dierum  in  Domino 
+obclormivit  »  anno  1271  (AVadd.),  plura 
+scripsit,  quae  olim  magni  aestimata  et 
+multum  adliibita,  circa  medium  saecu- 
+lum  XIV  disparuerunt.  Saeculum  istud 
+pro  historia  Franciscana  est  saeculum 
+compilationum,  et  scripta  fratris  Leonis 
+plane  in  plures  compilationes  omisso  ejus 
+nomine  transierunt,  quare  non  amplius 
+descripta  sunt  et  jam  vix  inveniuntur. 
+
+Haec  paternarum  traditionum  testi- 
+monia  et  primordii  Franciscani  documenta 
+pretiosa  magno  cum  studio  quaesivimus 
+et  hisce  laboris  fructum  fratribus  et  cunctis 
+historiae  seraphicae  studiosis  offerimus. 
+
+Romae,  Cal.  Januarii   1001. 
+
+Fr.  Leonakdus  Lemmens,  0.  F.  M. 
+
+
+A. 
+
+
+YITA  BEATI  AEGIDII  ASSISIATIS. 
+
+
+INTRODUCTIO 
+
+
+«  II  voto  del  Pabblico,  dicit  Papini  de  bealo 
+Aegidio  Assisiensi,  storia  di  s.  Francesco  I.  II.  pag.  212, 
+e  specialmente  delle  Citta  di  Periigia  e  d^Assisi  sa- 
+rebbe  d'  averne  la  vita  stampata,  completa  e  sincera. 
+Chi  sa,  che  un  giorno  non  spunli  penna  felice  ad 
+appagare  le  communi  brame,  giacche  di  farlo  non 
+e  ora  a  me  dato  » . 
+
+Fratini  (Vita  del  b.  Egidio  dWssisi,  Assisi  1898) 
+votis  hisce  obsequi  studuit;  sed  bene  advertunt  Anal. 
+Bollandiana  tom.  XVII.  pag.  380:  «  Ce  travail  nous 
+parait  premalure.  II  aurait  fallu  d'abord  consulter 
+les  biographies  encore  inedites  du  bienheureux  et 
+surtout  passer  toute  cetle  lilterature  au  crible  de 
+la  crilifiue  ».  Primum  inler  istas  vilas  locum  tenel 
+illa,  quam  scripsit  fr.  Leo. 
+
+I.  De  auctore  hujiis  vitae. 
+
+I.  Fralrem  Leonem,  socium  S.  P.  Francisci,  vi- 
+tam  beati  Aegidii  Assisiatis  scripsisse  fr.  Salim- 
+bene,  qui  eodem  ac  uterque  tempore  vixil,  tradidit 
+
+
+—   10  — 
+
+in  Chioiiicis  suis  scribens:  «  Fralris  Aegidii  vitain  fra- 
+«  ter  Leo,  qui  fiiit  unas  de  Iribus  specialibus  sociis 
+«  beati  Francisci,  sufficienter  descripsit  ^  ». 
+
+2.  Hanc  vitam  in  Chronicis  XXIV  (leneraliuni 
+genuinam  haberi  F^apini  cum  aliis  pulavit^;  sed  iam 
+plures  edixerunt,  vilam,  quam  isla  Chronica  prae- 
+benl,  esse  redactionem  subsequenlem  ^,  idque  clare 
+ex  infra  dicendis  patebit. 
+
+S.  In  archivo  conventus  Fralrum  Minorum  S. 
+Isidori  de  Urbe  habelur  codex  quidam  chartaceus 
+in  12^  saec.  XIV.  nitide  conscriptus'*,  qui  inler  plura 
+operum  pretiosorum  Franciscalium  excerpla  continel 
+fol.  97*  «  vilam  sancii  fralris  Aegidii  »,  quae  hisce  ver- 
+bis  finilur:  «  Expliciunt  in  compendio  verha  el  vita 
+beati  Aegidii,  (/uam  beatus  Leo  descripsitn. 
+
+4.  Compendium  istud  nulli  vitae  iam  nolae  con- 
+gruit,  quod  ul  omnibus  pateat,  ipsum  in  appendice 
+hujus  opusculi  imprimetur^.  At,  pancis  verbis  exce- 
+ptis,  verbotenus  invenitur  in  vita  illa  B.  Aegidii,  quae 
+in  alio  ejusdem  archivi  codice  continelur,  qui  est  co- 
+
+
+^  Chronica  (Pnrmae  1837)  pag.  322. 
+
+^  Papini,  Nolizie  sicure  tlelln  iiiorle,  scpolUira,  canonizza- 
+zione  e  trasiazione  di  s.  Francesco  fl'Assisi,  2.  edil.  (Foligno 
+1S24)  pag-.  126;  conf.  Papini,  la  Sloria  di  s.  Ftancesco  d.  A., 
+I.  II.  (Foligno   1827)  pag.  2l2s(iq. 
+
+^  Analecla  nollandiana  loin.  XIX.  pag.  135. 
+
+*  De  hoc  codice  —  i/73  —  alio  loco  plura  diccntur. 
+
+^  Conferanlur  v.  g.  qiiae  compendium  narral  de  ilinere 
+Beali  in  Terram  Sanclam  numero  i,  secundiim  compendium 
+in  isla  peregrinalione  moram  facit  «  apud  ci\  iialem  .\nconila- 
+nam  »,  sec.  alias  vilas  adhuc  cilandas,  «  ad  porlum  Brundisii  ». 
+
+
+—  11  — 
+
+dex  charlacens  in  15"*,  saec.  XIV.  scripUis  ^  In  fine 
+hujus  vitae  legilur:  «  Usque  rnodo  scripsimus  ahqua, 
+«  [quae]  notavit  fraiev  sanctus,  socius  beali  Franci- 
+«  sci;  amodo  scribemus  aliqua,  quae  nolaverunt  socii 
+«  et  famihares  eiusdem  sancli  fratris  Aegidii  de  mullis 
+«  pauca  valde  notabilia.  Sequitur  de  virtutibus  et  gra- 
+«  liis  ».  —  Quae  sequuntur,  sunt  Dicta  beali  fratris 
+Aegidii,  quae  pluribns  et  divei"sis  redactionibus  nobis 
+tradita  sunt.  —  Reapse  in  exordio  vitae  iegitur:  «Scri- 
+«  bere  curavi,  sicut  a  sociis  suis  intellexi  et  ab  eodem 
+«  patre  nostro  sanClissimo  auribus  meis  audivi  ».  Cum 
+vero  solus  frater  Leo  illo  ex  tempore  iradatur  vitam 
+B.  Aegidii  scripsisse,  verba  ista  de  ipso  jure  merito- 
+que  intelliguntnr. 
+
+II.  f)e  relalione  ipsius  ad  vilas  beali  Aegidii 
+saeculo  XIV.  scriptas. 
+
+Aulhenlia  vitae  huius  magis  elucescet,  si  con- 
+sideraverimus  relationem  ipsius  ad  alias,  quae  no- 
+tae  sunt  B.  Aegidii,  vilas.  Legenda  fr.  Leonis  sae- 
+culo  XIV.  plures  subiit  mutationes  et  redactiones, 
+quae  ad  duplex  germs  reduci  possunt. 
+
+1 .  Prioris  generis  sunt  illae,  quae  textum  non  mu- 
+taoerunt,  sed  pauca  sotum  verba  et  certa  quaedam 
+capituta  addiderunt.  Ante  medium   saeculmn  deci- 
+
+
+^  Codex  1/63  \n  eadem  ligaiura  lialjeliir  prirnmn  pars  pcr- 
+gamcna  conliiiens  «  Speciiliim  perfeclionis  »,  (piain  seqiiilnr  |)ars 
+charlacea  conlinens  vilam  et  dicla  beali  Aegidii.  Uli  pliires  va- 
+rianles  insinuanl,  compendiiim  ex  alio  codice  excerplum  esl. 
+
+
+—   h2  — 
+
+mum  quarlufn  compilati  sunl  «Actus  sancti  Francisci 
+et  sociornm  ejus»,  in  quibus  «  scripla  sunt  quaedam 
+«  notabilia  de  ipso  sancto  Francisco  et  sociis  ejus  et 
+«  quidam  aclus  eorum  mirabiles,  qui  in  legendis  ejus 
+«  praetnrmissi  sunt  ^  ».  Quae  compilatio  praebet  qua- 
+tuor  nova  capitula  ad  vitam  beali  Aegidii:  «  Quo- 
+«  modo  domna  lacoba  de  Septem  Soliis  visitavit  fr. 
+«  Aegidium;  qualiler  fr.  Aegidius  extraxit  dubium  a 
+«  quodam  magistro  Pi'aedicalore;  quomodo  fr.  lacobus 
+«  de  iMassa  petivit  a  fralre  Aegidio,  qualiter  se  habe- 
+«  re;"  in  raptu;  de  revelatione  facta  in  cordibus  sancti 
+«  Aegidii  et  sancti  Ludovici  Regis  ».  Haec  qualuor  ca- 
+pita  aut  sola  inveniuntur  in  «  Actibus  saucti  Fran- 
+«  cisci  et  sociorum  »,  uli  v.  g;  in  cod.  1/82  arcliivi 
+S.  Isidori  ^,  aut  simul  cum  vita  a  fr.  Leone  scripln, 
+uti  in  cod.  VaL  4354  et  in  cod.  196  bibl.  R.  Re- 
+rolinensis^,  in  quibus  haec  quatuor  capilula  media 
+in  vita  fr.  Leonis  inveniuntur,  ita  tamen,  ut  inserta 
+cognosci  possint;  antequam  enim  incipiunl,  legitur: 
+«  Explicit  de  s.  fr.   Aegidio  ^  ». 
+
+
+'  Cod.  Vat.  4354  fol.  77  b. 
+
+-  Istiim  codicem  acciirate  describil  Sabalier,  Fralris  Fran- 
+cisci  nartlioli  Tractatus  de  Indulgeiilia  Porlinncuiae  (Paris  1900), 
+pag.  CXL. 
+
+^  Priorem  cotlicem  fusius  describunl  Elirle,  Zeitschrift  fiir 
+katl».  Theologie,  XII.  pag.  117  el  Sabatier,  Speculum  peilectio- 
+nis  pag.  CLX.XVI;  alterum  Sabatier  ibidem  pag.  CLXXXVII. 
+
+'  In  cod.  nerbl.  fol.  68  b  post  verba  «  el  de  ejus  dulce- 
+dine  sive  de  paradiso  »  in  margine  legilur:  «  hic  est  defectus 
+libri  circa  quintam  pariem  unius  folii,  quem  quaeras  in  fine  »; 
+ubi  fol.   I39a  legitur:  «  siatim  rapiebaiur  nec   se   movebat  — 
+
+
+—  13  — 
+
+Notandiim  pariler  est,  Acluuin  redactioneui  verba 
+nonnulla  aliis  capitulis  addidisse.  In  n.  2  frater  Leo 
+narrat,  «  qualiter  fr.  Aegidius  donavit  mantellum  cui- 
+dam  pauperculae  »;  Actus  addunt:  «  et  creditur,  quod 
+illa  mulier  disparuit»;  in  n.  o  habetur,  quomodo  fr. 
+Aegidius  aquam  hominibus  poi'tavit,  ad  quod  Actus 
+adjungunt:  «  habebant  enim  cisternas  in  civilate,  et 
+fontes  erant  a  longe  ».  Speciale  momentum  pro  dijudi- 
+canda  legenda  nostra  habet  additio  facta  circa  finem 
+ipsius;  fr.  Leo  dicit:  «  claruit  et  miraculis  plurimis 
+in  vita  sua  »,  ubi  Aclus  dicunt:  «  claruit  etia  in 
+multis  miraculis  in  vita  pariter  et  in  morte  »;  in 
+menlem  hic  revocanda  sunt,  quae  Salimbene  loco 
+citato  refert:  «  Frate.r  sanctissimus  Aegidius  de  Pe- 
+rusio  Deum  rogaverat,  ne  post  mortem  suam  mira- 
+cula  pro  eo  ostenderet  ».  Jam  Papini  incubuit  in 
+difficullatem,  quam  faciunt  verba  «  et  in  morte  », 
+explicandam  ^ 
+
+2.  Alterius  generis  sunt  illae  reddcliones,  auae 
+lextum  fratris  Leonis  mullis  locis  mutavemnt, 
+et  plura  nova  addiilerunt.  Iiiter  quas  primum  lo- 
+cum  tenent  vila,  quam  praebenl  Chronica  XX/V 
+Generalium  ^,  et  ea,  quam  excerpsit  BartJtolomaeus 
+
+
+ciisloflire  sefreUi  iJei  et  iliesaurum  siium  ».  lii  corpoie  lol.  69  a: 
+«  Qiiomodo  clomna  .lacolia...  »;  seqminlnr  capitula  inserla  eo- 
+(lem  ordine  ac  in  cod.  Val.  4354. 
+
+'  .Sloria  1.  II.  paj,'.  226. 
+
+-  Conf.  Analecla  Frariciscana,  I.  III.  (Ad  fllaras  A(juas  1897) 
+pag.  74-115.  Legenda  ilalica,  i\\v.\  usus  est  Waddinjjus,  viiae 
+hiijiis  versio  esse  videtiir;  verba  ex  praefalione  desiimpla  con- 
+cordiinl  C«  ah  codem  \  iro  saiiclo,  cni  fdrnilidris  fni,  oxperientia 
+
+
+—   14  — 
+
+Pisanus  \\\  suo  libro  Conformilalum  ^  Clironica  illa 
+omnia  habent  capilula  vitae  fralris  Leonis,  et  in  omni- 
+bus  magna  ex  parte  liabelur  concordantia  verbo- 
+rum ;  Pisanus  legendam  excerpens  plures  numeros 
+omisit,  sed  ubique  textus  fratris  Leonis  facile  co- 
+gnoscitur  ^.  Lterque  mullas  et  novas  addiderunt  nar- 
+raliones;  at  baec  praecipua  habelur  difTerentia,  quod 
+Pisanus  /J/c/a  beati  Aegidii,  «  quae  sui  familiares  no- 
+taverunt»,  sepai'ata  ponit  et  pauca  ipsorum  in  vitam 
+inseruit  ^,  (Uim  Chronica  illa  magnam  Diclorum  par- 
+tem  inter  legendae  capita  distribuerunt  ^.  J/6t?z?/.sc/7- 
+
+
+didici  »,  corif.  Anal.  Franc.  I.  c.  pag.  74)  el  pariler  alia  ex  i|)sa 
+loca  deprompta.  Numerus  diversu.s  capitum  vero  haud  obslal, 
+cum  plura  ex  60  (apiiibiis  legendae  lalinae  dividi  quoad  ma- 
+lerias  possinl,  ila  ut  numerus  capilum  72  lcgendae  iialicae  ha- 
+beatur. 
+
+^  Conform.  VIII.  P.  II.  «  In  Perusio  »;  sec.  edilionem  Me- 
+diolanensem  (loiO)   fol.  Llll  a  sqq. 
+
+■^  Ubique  in  nolis  indicabuntur  loci  ipsorum  corresjjon- 
+dentes. 
+
+^  V.  g.  De  carnis  maceralione  et  mundilia;  confer  cap.  no- 
+num  Dictprum  beati  Aegidii  in  cod.  A  (sub  A  cilalur  code.\ 
+1/63  archivi  S.  Isidori). 
+
+^  Ut  nonnulla  ponantur  exempla,  verba  beali  Aegidii  de 
+obedientia  Anal.  Franc.  pag.  80  lin.  21-29  sunl  inter  Dicla  (ed. 
+Boll.)  n.  33;  —  verba  86  lin.  12-21  ibi  pag.  238  n.  68;  —  verba 
+de  casiilale  pag.  88  lin.  7sqq.  in  cod.  A  cap.  9;  —  responsio  ad 
+cardinales  pag.  93  lin.  -10-16  apud  Boll.  n.  71  i  —  verba  de  ten- 
+talione  pag.  93  lin.  22-32  in  cod.  A  cap.  10;  —  verba  pag.  94 
+lin.  7-15  apud  Boll.  n.  37;  —  verba  ad  jurisperilum  pag.  94  lin. 
+23-31  in  cod.  A  cap.  2  de  flde  (parum  mutat.i  Boll.  n.  22);  — 
+verba  de  quadruplici  nativitale  pag.  100  lin.  20-24  apud  Boll. 
+n.  56;  —  colloquium  cum  s.  Bonavenlura  pag.  101  lin.  19-27 
+apud  Boll.  n.  71. 
+
+
+—    lo  — 
+
+ptum  Perusinum,  quo  Bollandlstae  usi  sunt,  multo 
+magis  a  textu  fratris  Leonis  recedit  et  facta  ab  ipso 
+narrata  liberius  proponil  ^        ' 
+
+III.  De  relalione  hujus  vitae  ad  alia,  quae 
+fratri  Leoni  attrihuiintur  scripta, 
+
+Necesse  est,  de  relatione  vitae  nostrae  ad  alia, 
+quae  fratri  Leoni  attribuuntur  opera,  pauca  dica- 
+mus.  Sabatier  primus  fratri  Leoni  attribuit  «  Specu- 
+lum  Perfectionis  seu  S.  Francisci  Assisiensis  legen- 
+dam  anliquissimam  »,  et  jam  a  multis  temporibus 
+frater  Leo  inter  auctores  legendae,  quam  dicunt 
+«  trium  sociorum  »,  recensetur;  de  utroque  scripto 
+in  specie  dicendum. 
+
+A.  Ue  Speculo  perfectionis. 
+
+I.  In  codicibus  manuscriptis  duae  diversae  re- 
+dactiones  Speculi  perfectionis  babentur;  prior  et  ma- 
+gis  antiqua  in  parle  altera  hujus  collectionis  locum 
+babebit;  inilio  legitur:  a  In  nomine  Domini  incipit 
+«  Speculum  perfectionis,  regulae  et  professionis,  vi- 
+«  tae  et  vocationis  veri  fratris  minoris  secundum  vo- 
+«  luntatem  Christi  et  intentionem  beati  Francisci,  com- 
+«  posilum  ex  (juibusdam  repertis  in  scriptis  sancli 
+«  fralris  Leonis,  socii  beati  Francisci,  et  aliorum  so- 
+«  ciorum  ejus,  qiiae  non  sunt  in  legenda  communi. 
+«  In  (jiio  Speculo  leliicet  et  arupialiter  perfectio  vi- 
+
+
+AclfJ  Sanctonim,  Aprilis  toin.  III.  pnfj.  222. 
+
+
+—   U)  — 
+
+lae  beali  Francisci  ^  ».  Allera  redaclio,  quam  pu- 
+biicavil  Sabatier,  esl  compilatio  posterior,  cujus  duo 
+habenlur  codices  vetusliores,  uterque  saeculo  XIV. 
+conscriptus,  qui  aperte  compilationem  testantur;  unus 
+exstat  in  archivo  Fr.  Minorum  ad  S.  Isidorum  de 
+Urbe  (cod.  1/25),  alter  est  conventus  Fr.  Minorum  ad 
+Omnes  Sanctos  Florentiae  (Ognissanti).  In  priore  co- 
+dice  initium  Speculi  ita  exhibitur:  «  Istud  opus  com- 
+«  pilatum  est  per  modum  legendae  ex  quibusdam 
+«  antiquis  et  diversis  locis;  scripserunt  et  scribi  fece- 
+«  runt  seu  retulerunt  socii  beati  Francisci  ^  »;  in 
+allero:  «  Istud  opus  compilatum  est  per  modum  le- 
+«  gendae  ex  quibusdam  anliquis,  quae  in  diversis 
+«  locis  scripserunt  et  scribi  fecerunt  seu  retulerunt 
+«  socii  beati  Francisci  ^  ». 
+
+2.  Sabatier  propter  plures  Speculi  partes  ab  an- 
+tiquis  fr.  Leoni  attributas  lolum  fr.  Leoni  attribuit, 
+et  mulla  revera  fr.  Leonis  sunt;  prior  illa  redactio 
+tota,  sed  ordine  capitum  inverso,  in  alteram  transiit, 
+et  opuscula  fr.  Leonis,  quae  hic  post  vitam  B.  Aegidii 
+
+
+^  Innixus  «  regulis  criticne  »  Minocchi  in  Ln  «  Leggencia 
+Irium  socioriim  »  (Arciiivio  Storico  Ilaliano,  Serie  V,  tom.  XXV, 
+Flrenze  1900)  pag.  1 16-122  duas  Spt^c?/// redactiones  ciistinguil 
+et  singula  Speculi  a  Sabalicr  editi  capila  inter  ulramciue  reda- 
+clionem  distribiiit;  cjuam  distributionem  codex  nosler  (saec. 
+XiV.)  niajori  ex  parte  confirmat,  eadem  fere  capila  in  priori 
+Speculi  redaclionc  praebens.  De  «  Nuovi  studi  snlle  fonti  bio- 
+graficlie  di  san  Franccsco  d'  Assisi  »  dicti  auctoris  plura  in  al- 
+lera  hujus  colleclionis  parte  dicenlui'. 
+
+2  Fol.  20  a. 
+
+•*  Conf.  Miscellanea  Franc.  vol.  VII.  \y,\^.  185. 
+
+^^ 
+
+
+'■^ 
+
+
+—  17  — 
+
+ponuntur,  pariler  compilalori  redaclionis  secundae 
+plura  capita  subministrarunt.  Alia  vero  frati  Leoni 
+attribui  nequeunt,  quod  et  confirmat  iegenda  nostra 
+B.  Aegidii.  Capite  36.  Speculi  narratur:  «  qualiter  dixit 
+fratri  Aegidio,  ut  vestiret  pauperem  »;  caput  istud 
+vitae  nostrae  comparatum  plures  ostendi|(differentias. 
+
+Speculum  Perfectionis  -I^ta  beati  Aegimi 
+
+(ed.  Sabatier  pag.  67) :  Num.  2  : 
+
+«In  primordio  religionis  quum  «  Tunc  assumens  san- 
+
+maneret  apud  Rigum  Tortum  cum  ctus  Franciscus  fratrem  Ae- 
+
+duobus   sociis,  quos   lanlum    tunc  gidium  accessitad  civitatem 
+
+habebat,  ecce  quidam  nomine  Ae-  Assisii,uttunicamsibiacqui- 
+
+gidius,  qui  fuit   terliiis  fraier,  ve-  reret  et   indueret.    Et  cnrh 
+
+nil  de  saeculo  ad   ipsum,  ul  re-  sic  incedereni  ambo,  ecce 
+
+ciperet  vilam   ejus.  Quumque  sic  quaedam    mulier   pauper- 
+
+maneret  ibidem   per   aliquos   dies  cula   petiit  eleemosynam... 
+
+INDUTUS   PANMS,    quos   dc    sacculo  Ad   quem   sanctus   Franci- 
+
+apportaverat,  accidit  quod  quidam  scus  angelico  vullu  conver- 
+
+pauper  veniret  ad    locum  illum  sus   sic   ait:   ,  Demus   sibi 
+
+peiens  eleemos>nam  a  beato  Fran-  mantellum  tuum  *...  0  san- 
+
+cisco.  Conversus  beatus  Franciscus  cte  Aegidi,  sanctissime!  qui 
+
+ad  illum  Aegidium   dixil   ei :   ,  Da  eodem  die,  quo  Dominus  te 
+
+frairi   pauperi   manlellum    tuiim '.  inspiravit  et  adduxit  ad  bea- 
+
+Qui  statim  cum  magna  lactitia  tu-  tum   Franciscum,  ut  imila- 
+
+lii    illiim    de    dorso   suo  et   dedit  reris  eum,  et  ipse  te   illo 
+
+pauperi  ».  die  induit  veslimento   rcli- 
+
+gionis  ».  (N.  20). 
+
+Tot  tanlae(|iie  difierentiae  eundem  excludunt 
+auclorem. 
+
+3.  iMullo  minus  tola  dicta  compilalio  a  fralre 
+Leone  jam  absolula  esl  * ;  haec  «  secundae  genera- 
+tioni  Franciscanae  »  debetur. 
+
+
+>2'V 
+
+
+.Miscellanea  Franciscana,  \ol.  \ll  pag.  54-56,  pag.  182-187. 
+
+
+||i 
+
+
+—  18  — 
+
+B.  De  legenda   «  liium  socioriini  ». 
+
+Quae  in  hac  iegenda  de  beato  Aegidio  referun- 
+tur,  aut  desunt  in  nostra  beati  Aegidii  vita,  aut 
+alio  modo  narrantur. 
+
+1.  Legimus  in  capite  IX.  legendae  illius:  «  Con- 
+«juncti  vero  hi  qualuor  cum  multa  laetitia  et  gau- 
+((  dio  Spiritus  sancti  ad  majorem  profectum  se  ta- 
+(c  liter  diviserunt.  Beatus  Franciscus  assumens  fra- 
+«  trem  Aegidium  secum  ivit  in  Marchiam  Anconi- 
+«tanam;  alii  autem  duo  in  regionem  aliam  perre- 
+((  xerunt.  Euntes  ergo  in  Marchiam,  exultabant  ve- 
+«  hementer  in  Domino,  sed  vir  sanctus,  alta  et  clara 
+((  voce  laudes  gallice  cantans,  benedicebat  et  glorifi- 
+«  cabat  Altissimi  bonitatem.  Tanta  vero  in  eis  erat 
+((  laetitia,  quasi  magnum  thesaurum  invenissent  in 
+((  evangelico  praedio  dominae  paupertatis,  cujus  amo- 
+«  re  omnia  temporalia  velut  stercora  contempserant 
+«  liberaliter  et  libenter.  Dixit  autem  sanctus  ad  fra- 
+((  trem  Aegidium:  Nostra  religio  erit  similis  piscatori, 
+«  qui  mitlil  retia  sua  in  aquam  capiens  piscium  mul- 
+«  titudinem  copiosam,  et  parvos  in  aquam  relinquens, 
+«  magnos  eligit  in  vasa  sua;  sicque  prophelavit  or- 
+«  dinem  dilatandum.  Licet  autem  vir  Dei  nonduin 
+((  plene  populo  praedicaret,  quando  tamen  per  civi- 
+«  tates  et  castella  transibat,  exhortabatur  omnes,  ut 
+«  amarent,  et  limerent  Deum,  atque  poenilentiam  age- 
+«  rent  de  peccatis.  Frater  autem  Aegidius  admonebat 
+«  audientes,  ul  ei  crederenl,  quia  eis  optime  consule- 
+((  bat...  Cum  autem  circuissent  illam  provinciam,  re- 
+«  dierunt  ad  dictum  locum  S.  Mariae  ». 
+
+
+—  19  — 
+
+Duo  in  hoc  capltulo  ad  rem  faciunt;  primum 
+iter  S.  Francisci  et  beati  Aegidii  in  Marchiam  Anco- 
+nitanam,  demde  simile  piscatoris,  quod  S.  Franciscus 
+beato  Aegidio  tradidisse  fertur.  De  utroque  legenda 
+nostra  beati  Aegidii  nihil  narrat. 
+
+Quod  primum  attinet :  nec  Thomas  Celanensis 
+nec  S.  Bonaventura  narrant  quidquam  de  isto  itinere, 
+imo  excludere  ilUid  videntur  verbis,  quibus  pnV/mm 
+in  ipsorum  narratione  iter  apostoUcum  describunt. 
+S.  Bonaventura  cap.  lll.  suae  legendae  majoris  refert: 
+«  Eodem  quoque  tempore  quodam  aho  bono  viro  Reli- 
+«  gionem  intrante,  ad  septenarium  numerum^  viri  Dei 
+«  soboles  benedicta  pervenil.  Tunc  pius  Paler  omnes 
+«  ad  se  fihos  convocavit  et  plura  eis  de  regno  Dei,  de 
+«  contemptu  mundi,  de  abnegatione  propriae  vohinta- 
+«  tis  corporisque  castigatione  pronuntians,  propositum 
+t  suum  de  mittendo  illos  in  quatuor  partes  orbis  ape- 
+«  ruit.  Jam  enim  sterilis  et  paupercula  simplicitas 
+«  sancli  Patris  pepererat  seplem  filios  et  desiderabat 
+«  universitatem  fidelium  ad  poenitentiae  lamenta  voca- 
+«  tam  Chrlsto  Domino  parturire.  ,lte,  inquit  dulcis  Pa- 
+«  ter  ad  fillos,  annuntiantes  hominibus  pacem,  praedi- 
+«  cate  poenitenliam  in  remissionem  peccatorum.  Fstote 
+"  iri  tribulationibiis  patlenles,  in  orationibus  vigiles,  in 
+
+
+'  Nolandiim,  qiiod  S.  Bon.'ivenliir;i  us(iiio  .id  «  numerMim  » 
+eadem  ac  Celanensis  ludjet  verha,  soliim  »  octonarium  »  mii- 
+lans  in  «  sepfcnnrium  »;  fraler  Leo  in  vi(a  B.  Aej^idii  parilor 
+dicil:  a  compleliis  asl  sfptenfirius  luimeriis  ».  DilTereiitia  orilur, 
+proiili  S.  Franciscus  connumeraliir  vcl  non;  otiam  Golanensem 
+de  solis  8  cum  S.  Francisco  lof|iii  patol  ex  n.  30  liii.  l-i. 
+
+
+—  20  — 
+
+«  laboribusstrenui,  in  sermoiiibus  modesli,  in  moribus 
+«  graves  et  in  beneficiis  grati,  quia  pro  bis  omnibus 
+«  regnum  vobis  praeparatur  aeternum'.  At  illi  coram 
+«  servo  Dei  bumiliter  se  proslernentes  in  terram, 
+('  cum  gaudio  spiritus  suscipiebant  obedientiae  sanctae 
+«  mandatum.  Ipse  vero  dicebat  unicuique  singillalim: 
+«  Jacta  cogitalum  luiun  in  Domino,  et  ipse  te  enu- 
+«  triet.  Hoc  verbum  dicere  solitus  erat,  quotiescum- 
+«  que  fratrem  aliquem  ad  obedientiam  dirigebal. 
+«  Tunc  et  ipse  sciens,  se  dalum  aliis  in  exemplum. 
+«  ul  prius  faceret,  quam  doceret,  cum  uno  socio- 
+«  rum  versus  iinam  orbis  partem  perrexit,  reliquis 
+«  sex  ad  modum  crucis  tribus  aliis  mundi  [)arlibus 
+«  deputatis  ». 
+
+Allocutio  bnec  a  S.  Francisco  ad  disripulos  anle 
+ipsorum  divisionem  habita  commendat  hic  haberi 
+primani  novi  gregis  missionem;  nec  in  utraque  le- 
+genda  invenilur  vestigium  itineris,  quod  legenda 
+«  trium  sociorum  »  tradit  antea  factum.  Oplime  vero 
+tum  Celanensi  tum  S.  Bonaventurae  concordant  ea, 
+quae  scribit  viia  fratris  Leonis  n.  3. 
+
+Secundum,  cur  frater  Leo  omiserit  simile  istud, 
+quod  refert  legenda  «  trium  sociorum  »,  Celanensis 
+explicat,  secundum  quem  sanctus  Franciscus  hoc  non 
+soli  narravit  fratri  Aegidio  itineranti  versus  Mar- 
+chiam,  sed  omnibus  \ 
+
+2.  Aliam  adhuc  praebet  narrationem  legenda 
+«  trium    sociorum  »,    quae   de    beato    Aegidlo   agit. 
+
+
+'  Conf.  I.  Cel.  n.  2S. 
+
+
+licet  non  nominetur;  quae   narratio   magnopere  dif- 
+fert  a  vita  fratris  Leonis;  videamus  utramque: 
+
+Legenda  3   soc.  CAP.  XI.  ViTA  num.  2. 
+
+«  Quadciin  aiitem  die  venit  «  Tunc   assuinens  snnclus 
+
+quidam  pauper  ad  ecclesiam  Fianciscus    fralrem    Aegidium 
+
+Sanclae    Mariae   de    Porliun-  accessit  ad  civitatem  Assisii,  ut 
+
+cula,    apud   quam    fialres   ali-  tunicam  sibi   acquireret   et  in- 
+
+quando    morabantur,    et   elee-  dueret  eum.  Et  cum  sic  ince- 
+
+mosynam    petiit.    Erat   autem  derenl   ambo,    ecce   quaedam 
+
+ibi  quaedani   cldnmys.    quam  mulier  paupercula  humililer.. 
+
+quidam  liabuerat  frater  saecu-  peliit  eleemosynam...  .Ad  quem 
+
+laris.  Cui  cum  dixisset  beatus  sanctus     Franciscus     angelico 
+
+Franciscus,  ut  eam  illi  pauperi  vuliu   conversus  sic   ait:  ,De- 
+
+daret,  libenler  et  velociter  de-  mus  sibi  mantellum  luum',  qui 
+
+dii  ei.  Statim  propler  r«vcren-  gavisiis  in    Domino   plurimum 
+
+tiam  el  devotionem,  quam  ha-  de  Sancti  mandato,  quod  exspe- 
+
+bueral  fraler  ille  in  dando  chla-  clabat   sollicitus,  statim   exuit 
+
+nndem  illi  pauperi,  visum  est  et  illum   elnrgitur   libentissime 
+
+ei,  quod  eleemosyna  illa  in  coe-  pauperculae  mulieri.  Et  statim 
+
+lum  ascendisset,  el  sensil  novo  dalotanta  fuitSpiritussanclicon- 
+
+gaiidio  se  perfundi  ».  solaiione  repletus,  quod  lingua 
+
+carnea  exprimi  non  valerel*. 
+
+fraelermillimus,  quod  fr.  Leo  in  sua  vita  omit- 
+tit:  «  visum  est  ei,  quod  eleemosyna  illa  in  coelum 
+ascendisset  »;  arfjumentum  enim  ex  additis  vel  omis- 
+sis  deductum  anceps  esse  videlur,  cum  de  lioc  cu- 
+jnsvis   scribentis  decernat  voluntas^;  aliud  vero  di- 
+
+
+'  Idnn  habeiur  iii  vita  S.  Francisci ;  legenda  II.  Celanensis, 
+S.  Bonaveiiiura  ac  legenda  «  irium  sociorum  »  refcriml,  S.  Fran- 
+ciscum  de  equo  delapsiim  k'|)io.so  osculum  et  eleemosynam 
+obliilisse,  al  soli  Celanensis  ac  S.  IJ(jnaveniuia  adduiU:  «Staliin 
+.iiii(Mii  e(|ijum  ascendens  et  se  circumquaque  convertens,  (piiim 
+campiis  f>aleret  undirpie  liber,  leprosum  illum  mlnime  vidit  ». 
+'II.  flcl.   I.  5.,  S.  IJon.iv.  c.   I.;  leg.   a  .3  Soc.  »  c.  4). 
+
+
+99    — 
+
+cendum  de  differentii.s  inter  vitam  B.  Aegidii  et  le- 
+gendam  «  triiim  sociorum  »,  liic  jam  oritur  quaestio, 
+ulri  fides  sit  habenda. 
+
+3.  Legenda  «  trium  sociorum  »  non  solum  dis- 
+crepat  a  vita  B.  Aegidii,  discrepat  pariler  ab  aliis 
+libris  authenlicis  rei  Franciscanae.  Capite  ex  gr.  Vlll. 
+huius  legendae  legimus:  «  Surgenles  mane  cum  quo- 
+«  dam  alio  Petro  nomine,  qui  etiam  cupiebat  fieri 
+«  frater,  venerunt  ad  ecclesiam  S.  iNicolai  »,  et  nar- 
+ratur  aperitio  triplex  S.  Evangelii ;  juxta  Celanensem 
+solus  fr.  Bernardus  fuit  cum  S.  Patre  hac  occasione, 
+et  S.  Bonaventura  consentit  addens:  «  Non  multo 
+«  post  vocatis  eodem  spiritu  quinque  viris,  filiorum 
+«  Francisci  senarius  numerus  completus  est  ^  ».  At- 
+tamen  transeant  hae  difficullales,  quac  plures  sunt  -, 
+cum  minoris  esse  momenti  judicari  possint.  Majoris 
+vero  aestimanda  sunt,  quae  de  prima  in  diversas 
+orbis  catholici  partes  missione  dicuntur. 
+
+Notum  est,  inter  auctores  de  anno,  quo  coepit 
+haec  missio,  haberi  difi^erentiam,  cujus  parens  extitit 
+fr.  Jordanus  a  Jano,  qui  in  Chronicis  de  missione 
+anno  1:219  facta  agens  ad  finem  addit:  «  Utrum  au- 
+«  tem  illi  quinque  fratres  de  isto  eodem  capitulo  vel 
+«  de  praecedenti  et  frater  Elias  cum  sociis  suis  ul- 
+«  tra  mare  missi  fuerunt  vel  non,  dubitamus  ^  ^^. 
+Jam  constat,  fratrem  lordanum  «  capitulum  islud  et 
+
+
+'  Cap.  3,  njim.  4. 
+
+2  Conf.  A.  S.  Ocl.  l.  II.,  Comment.  piaevius  de  S.  Franci- 
+sco  n.  101,  n.  50fi. 
+
+3  Anal.  Franc.  l.  I.  pag.  3.  n.  7. 
+
+
+—  23  - 
+
+praecedens  »  confudisse  et  duas  diversas  missiones 
+permiscuisse  et  ante  annum  1219  primam  missio- 
+nem  esse  tentatam  ^  Error  vero  fratris  Jordani  in 
+plura  temporis  posterioris  transiit  Chronica  ^,  atque 
+etiam  invenitur  in  legenda  « trium  sociorum  »,  quae 
+initio  XVI.  capituli  refert:  «  Expletis  itaque  undecim 
+«  annis  ab  inceptione  religionis  et  multiplicatis  nu- 
+u  mero  et  merito  fratribus  eiecti  fuerunt  Ministri  et 
+«  missi  cum  aliquot  fratribus  quasi  per  universas 
+«  mundi  provincias,  in  quibus  fides  catholica  cohtur 
+«  et  servatur  ».  Cum  iegenda  ipsa  ahis  locis  ab 
+anno  «  conversionis  »  S.  Francisci  computet,  sensu 
+obvio  haec  verba  annum  1219  indicanl. 
+
+Deinde  eadem  legenda  dicto  capitulo  refert  mala, 
+«  quae  passi  sunt  in  omnibus  ultramontanis  parti- 
+o  bus,  ut  in  Alemannia,  Ungaria  et  pluribus  aliis  », 
+
+
+^  Anal.  Franc.  t.  II.  pag.  XXIX:  «  Incredibile  videlur  esse 
+fralres  jam  munilos  lilleris  Honorii  III.  commendatiliis  ubique 
+expulsos  et  passim  tanquam  haereticos  esse  tractatos...  Hinc 
+paiel,  slandum  esse  aniiquae  relalioni,  primam  missionem  sine 
+illis  lilteris  [suni  litlerae  Honorii  III.  de  II  Junii  1219]  et  ante 
+eas  faclam  esse  et  non  nisi  iristi  experientia  jam  edoctos  fra- 
+tres  1219  Summi  Ponlificis  proleclionem  implorasse  ».  Idem 
+Ehrle,  Zeltschrift  fiir  kaiholische  Theologie,  XI.  (Innsbruck) 
+pag.  773:  «  Wer  diese  Ungereimlheiten  vermeiden  will,  muss 
+die  ersie  verungluckle  Sendung  nach  Frankreich  vor  das  Jahr 
+1219  selzen  ».  Conf.  Glassberger  in  Anal.  Franc.  t.  II.  p.  9  sqq. 
+el  Chronica  XXI\'  Generalium  in  Anal.  Franc.  l.  III.  pag.  9  sqq. 
+
+^  Conf.  Chronik  der  Slrassburger  Franciscanerprovinz  (ed. 
+Lemmcns  in  «  Honiische  Quarlalschrifl  »  I900j  pag.  238  et  Chro- 
+nicon  Hibbenicense  P.  Slaggert  in  Wcstfalen,  Monumenla  inedila 
+rerum  Germanicarum  lom.  IV. 
+
+
+—  24  — 
+
+additque:  «  Qiiod  cum  notificatum  fuisset  dicto  do- 
+«  mino  Cardinali,  vocavit  beatum  Franciscum  et  du- 
+«  xit  eum  ad  dominum  Papam  Honorium,  domino 
+<f  Innocentio  jam  defuncto,  et  aliam  regulam  a  beato 
+«  Francisco  compositam  fecit  per  eumdem  dominum 
+«  Honorium  cum  bulla  pendenle  solemniler  confir- 
+«  mari.  In  qua  regula  prolongatus  est  lerminus  ca- 
+«  pituli  propler  vitandum  iaborem  fralrum,  qui  in 
+«  remotis  partibus  commorabantur...  In  sequenti  ergo 
+«  capitulo  data  licentia  a  beato  Francisco  Minislris 
+«  recipiendi  fratres  ad  ordinem,  misit  eos  ad  pro- 
+«  vincias  supradictas  portanles  litteras  Cardinalium 
+«  cum  regula  bulla  aposlolica  confirmata».  Quaenam 
+bulla  apostolica  hic  inlelligenda  est? 
+
+Lilleras,  quas  Honorius  III.  die  11  Junii  1:219 
+Reati  ^  dedit  fratribus,  intelligi  liaud  posse  patet; 
+nihil  enim  dicunt  de  confirmatione  regulae;  nullo 
+modo  haberi  possunt  «  bulla  aposlolica»,  omnis  enim 
+deest  forma,  quae  bullam  constiluit,  et  omnis  desi- 
+deratur  verborum  tenor  solemnis;  nec  apud  episco- 
+pos  Galliae  fidem  invenerunt,  quare  Honorius  III. 
+die  20  .Maji  1220  alias  litteras  misit  Archiepiscopo 
+Senonensi,  quibus  conqueritur,  quod  fratres  «  in  suis 
+«  manei'e  dioecesibus  non  permiltunt,  licet  ex  eo 
+«  solum,  quod   litteras  nostras  eisdem   concessimus, 
+
+
+^  Lillerae  liantl  habeiUur  in  Uegeslis  Honorii  III.;  ntlanien 
+inler  Regesta  Ponlificia  (Archiv.  Valic.)  t.  10  fol.  103  tria  alia  Ho- 
+norii  III.  de  II  Jiinii  1219  habenlnr  hrevia,  quae  omnia  Heali 
+snnt  scripla;  Waddingus  lineras  illas  Viterbii  scriplas  esse  putat 
+(ad  1219  num.  \XL\.),  sed  erronee;  anno  1220  revera  Hono- 
+rius  III.  mense  isto  moratus  esl  Viierbii. 
+
+
+—  ^2o  — 
+
+«  niliil  sinislri  de  eis  debiierint  opinari  ^  »;  pro  fra- 
+tribus  vero  in  Theiiloniarn  inissis  litterae  illae  pariter 
+suo  destitutae  sunt  fine,  quia  fratres  in  Ungariam  per- 
+venientes  in  lalrones  inciderunt,  quare  reversi  sunt 
+in  Italiam;  unde  S.  Franciscus  duobus  post  annis 
+recogitans,  «  quod  ordinis  aedificatio  in  Theuloniam 
+«  non  venisset,  quia  ad  eos  aliquoties  missi  fratres 
+«  male  Iractati  redierunt»,  novam  in  Theutoniam 
+misit  fratrum  missionem  ^. 
+
+Sed  jam  ipsa  legenda  «  trium  sociorum  »  indi- 
+cat  bullam,  quae  quaeritur,  dicens  per  ipsam  esse 
+confirmatam  regulam,  «  in  qua  prolungatus  est  ter- 
+minus  capituli  »;  lerminum  vero  capituli,  quod  re- 
+guia  praecedens  ministris  citramarinis  «  semel  in 
+anno  »  celebrandum  praescripserat  ^,  ad  triennium 
+prolongavit  caput  VIII.  illius  regulae,  quae  vere  el 
+unice  bulla  apostolica  confirmata  est  die  29  Novem- 
+bris  1228.  Unde  Acta  Sanctorum  secundum  legendam 
+«  trium  sociorum  »  jure  missionem  dictam  in  anno 
+1224  posuerunt:  «  ita  onuiino  —  dicunt  —  exigit 
+«  Irium  sociorum  narralio  »,  quod  falsum  denolare 
+supersedemus.  Quae  omnia  legendam  dictam  «  tribus 
+sociis  »  esse  alienam  commendant  ^. 
+
+
+'  Islas  litleras  pluries  impressas  vide  Anal.  Franc.  l.  III. 
+pag.  i.-i 
+
+-  lord.  I.  c.  pag.  3  n.  6,  \)i\'^.  ('>  u.   17. 
+
+^  Conf.  Wadd.  lorii.  I.  p.i^^    7o,  n.  .Wlll. 
+
+'  .Minorrhi  I.  c.  [)ag.  133:  «  Qiiantu  agli  anacronisrni  ed 
+errori  amnn'lto  benissirno  clio  sono  inammissibili  c  inespli- 
+cabili  in  boccu  a  fia  Leone  >. 
+
+
+—  56  — 
+
+4.  Confirmalur  eo,  quod  saeculo  XIII.  legendae 
+«  trium  sociorum  «  vestigium  haud  invenitur.  Nulla 
+hoc  saeculo  conscripta  vita  S.  Patris  eam  adhibuit; 
+nullus  auctor  istius  temporis  ea  usus  est;  frater  Sa- 
+limbene  de  ipsa  lacet;  Bernardus  de  Bessa  vilas  S. 
+Francisci  enumerans  ipsam  negligil,  nec  Angelus  Cla- 
+renus  initio  saeculi  XIV.  Bernardum  supplens  ipsius 
+facit  mentionem  ^  Ubertinus  Casalensis  et  Alvarus 
+Pelagius,  qui  uterque  magna  primorum  scriptorum 
+Franciscalium  notilia  praediti  sunt,  legendam  illam 
+haud  adduxerunt.  Circa  medium  saeculum  XIV.  am- 
+biguis  verbis  Chronica  XXIV  Generalium^  de  ipsa 
+loquunlur,  quae  eadem  verba  repetit  Glassberger  ^ ; 
+Bartholomaeus  Pisanus  primus  in  libro  «Conformila- 
+tum  »  tilulum  «  Legenda  trium  sociorum  »  adhibuisse 
+videtur;  Waddingus  eam  cum  «  Speculo  perfectio- 
+nis  »  adunat*.  Tandem  Suyskens  islam  in  Actis  San- 
+ctorum  impressit,  ipsique  aliquando  neglecto  Cela- 
+nensi  adhaesit  ^  unde  magnae  confusionis  exlitit  pa- 
+
+
+^  Conf.  Anal.  Franc.  t.  111.  pag.  666  el  Dollinger,  Beitriige 
+zur  Setitengeschichle  des  Millelallers,  II.  (Mijnchen  1890)  pag. 
+M\. 
+
+-  L.  c.  pag.  262,  de  quibus  verbis  plura  arliculo  sequente. 
+
+'  Anal.  Franc.  t.  II.  pag.  68. 
+
+•*  .Miscellanea  Franciscana,  vol.  VII.  pag.  127:  «  Pcr  il  Wad- 
+dingo  Speculum  e  Leggenda  c  una  cosa  sola  ». 
+
+^  L.  c.  n.  101  :  «  Standum  tamen  potius  pro  palalio  est, 
+«  quia  tres  Socii,  elsi  serius  quam  Celanensis,  scripserinl,  citius 
+«  lamen  et  familiarius  quam  ille,  Sanclum  ipsum  cognoverunl  »; 
+n.  506:  o  Etsi  magna  apud  me  sit  Thomae  Celanensis  auclo- 
+«  ritas,  malo  tamen  Iribus  sociis  adhaerere  >. 
+
+
+—  27  — 
+
+
+m 
+
+
+tronus,  quem  lamen   errorem   ipsi  Bollandistae  jam 
+correxerunt  ^ 
+
+0.  Originem  dictae  legendae  tota  ejus  compositio 
+explicat.  Legenda  «  trium  sociorum  »  aut  est  sup- 
+plementum  alterius  libri,  aut  ipsius  compositio  est 
+aenigmatica.  Tredecim  capitibus  agit  de  juventute 
+S.  P.  Francisci,  de  ejus  conversione  ac  de  initiis  or- 
+dinis  —  et  tribus  capitibus  de  iis,  quae  ab  anno 
+1210  usque  ad  annum  1226  et  mortem  facta  sunt,  '^ 
+et  de  his  nihil  fere  nisi  quaedam  chronologica  ponit. 
+E  contra  Speculum  perfectionis  nihil  refert  de  juven- 
+tute  et  conversione  S.  Francisci,  non  agit  de  ordinis 
+initiis,  capita  plus  quam  centum  describunt  neglecto 
+ordine  chronologico  annos  1210-1226,  quare  legenda 
+«  TRiCM  sociORCM  »  supPLEMENTUM  Speculi  jure  nomi- 
+nalur.  Postquam  Speculum  in  usum  fratrum  transiit, 
+auctor  quidam  legendam  «trium  sociorum»  ex  saeculi 
+XIII.  legendis  compilalam  addidit;  quapropter  in  ple- 
+risque  codicibus  opus  utrumque  simul  habelur,  et  an-  » 
+tiqua  versio  italica  utrumque  opus  in  unum  aduna- 
+vit;  nec  juste  reprehenditur  Waddingus  ^,  qui  utrum- 
+que  sub  eodem  lilulo  exhibuit. 
+
+6.  Unicum  argumentum,  quod  pro  legenda 
+« trium  sociorum  »  afTerri  potest,  est  epistola,  quatD 
+socii  P.  Generali   scripserunl,  de  qua  plura  dicendaV- 
+
+
+'  Conf.  Anal.  Boll.  l.  XIX  pajj.  119:  La  Legende  de  S.  Kran- 
+^•ois  d'Assise  dile   i  Legenrla  Triiim  Sociorum  ». 
+
+*  Anal.  IJoII.  I.  c.  pa;,'.  12i:  «  citalions  capricieiises  de 
+Wadding  ». 
+
+
+C.  De  episiola,  qiiam  fraler  Leo,  frater  Rufiniis  ac  fraler  An- 
+gelus  anno  1246  ad  Ministrum  (Jeneralem  fralrem  Ci-e- 
+scentium  de  Aesio  miseriinl. 
+
+1.  In  codicibiis  et  edllionibus  legendae  « Iriuin 
+sociorum  »  ponitur  initio  epistola,  quam  frater  Leo, 
+frater  Rufinus  ac  fraler  Angelus  anno  1246  «  in  loco 
+Graecii  8.  Idus  Augusti  »  scripserunt. 
+
+«  Reverendo  in  Christo  patri  frali  Crescentio,  Dei 
+«  gralia  Generali  Ministro,  frater  Leo,  frater  Rufinus, 
+«  et  frater  Angelus,  olim  socii,  licet  indigni  beatissimi 
+«  patris  Prancisci,  reverentiam  in  Domino  debitam 
+(<  et  devotam. 
+
+«  Cuin,  de  mandato  proximi  praeleriti  capituli 
+«  generalis  et  vestro,  teneantur  fratres  signa  et  pro- 
+«  digia  beatissimi  palris  Francisci,  quae  sciri,  vel  re- 
+«  periri  possunt,  vestrae  paternitati  dirigere;  visum 
+«  est  nobis,  qui  secum,  licet  indigni,  fuimus  diutius 
+«  conversati,  pauca  de  multis  gestis  ipsius,  quae  per 
+«  nos  vidimus,  vel  per  alios  sanctos  fratres  scire  po- 
+«  tuimus,  et  specialiter  per  fratrem  Philippum  vi- 
+«  sitatorem  pauperum  dominarum,  fratrem  lllumi- 
+«  natutu  de  Arce,  fratrem  Alasseum  de  Marignano, 
+«  fratrem  Johannem  socium  venerabilis  patris  fralris 
+1  Aegidii,  qui  plura  de  his  habuit  ab  eodem  sancto 
+«  fratre  Aegidio,  et  sanctae  memoriae  fratre  Bernardo, 
+«  primo  socio  beati  Francisci,  sanctilati  vestrae  ve- 
+«  ritate  praevia  intimare,  non  contenti  solum  narrare 
+«  miracula,  quae  sanctilatem  non  faciunt,  sed  osten- 
+«  dunt,  sed  etiam  sanctae  conversalionis  ejus  insignia 
+«  et  pil    beneplaciti  voluntatem   ostendere  cupientes 
+
+
+—  29  — 
+
+cc  ad  laudern  el  gloriam  summi  Dei,  et  dicti  patris 
+cc  sanclissirai,  atque  aedificationem  volenlium  ejus  ve- 
+cc  stlgia  imilari.  Quae  tamen  per  modum  legendae  non 
+cc  scribimus,  cum  dudum  de  vita  sua  et  miraculis, 
+«  quae  per  eum  Dominus  operatus  est,  sint  confectae 
+cc  legendae.  Sed  velut  de  amoeno  prato  quosdam  flo- 
+cc  res  arbitrio  nostro  pulchriores  excerpimus,  conti- 
+<c  nuatam  historiam  non  sequentes,  sed  multa  seriose 
+cc  relinquentes,  quae  in  praedictis  legendis  sunt  po- 
+cc  sita  tam  veridico,  quam  luculento  sermone.  Quibus 
+cc  haec  pauca,  quae  scribimus,  poteritis  facere  inseri, 
+'c  si  viderit  discretio  esse  justum.  Credimus  enim, 
+cc  quod  si  venerabilibus  vlris,  qui  praefatas  confece- 
+ct  runt  legendas,.haec  nota  fuissent,  ea  minime  prae- 
+cc  terissent,  qum  saltem  pro  parte  ipsa  suo  decoras- 
+«  sent  eloquio.  Semper  integre  valeat  vestra  paternilas 
+"  in  domino  Jesu  Christo,  in  quo  filios  veslros  devotos 
+cc  sanclitati  vestrae  commendamus  humililer,  et  de- 
+«  vote.  Dala  in  loco  Graecii,  3  Idus  Augusti,  Anno 
+c(  Domini  M<^CC^\LVI«  >k 
+
+2.  Quae  epistola  curn  dicta  legenda  componi  haud 
+potest,  quod  fusius  pluribus  locis  exposuil  Sabaliei", 
+qui  scribit  in  praefalione  ad  c(  Speculum  perfectionis  » 
+(pag.  XX): 
+
+aj  a  Dans  une  legende  composee  par  le  fr. 
+c<  Leon,  Ange  et  Kufiii,  nous  nous  attendons  naturel- 
+cc  lemeni  a  trouver  avec  des  details  tout  particuliers 
+<t  des  faits  de  la  vie  de  Prancois  dont  ces  frei"es  ont 
+«  ele  les  temoins.  Or,  la  l('jgen(l(!  des  3  soc.  s'arrele 
+«  brusquomerit  ;iii  momenl  m(3me  oii  ces  fr'eres  orit 
+'c  ele  meles  d\ine  maniere  pliis  intlme  a  sa  vie. 
+
+
+—  ;30  — 
+
+bj  «  Ceci  esl  (J^aiUant  pliis  elonnant,  que  Tho- 
+«  mas  de  Celano  clans  la  Premiere  vie  passe  brieve- 
+«  ment  sur  les  dernieres  annees  de  S.  Francois.  Les 
+«  3  socii  voulanl  faire  un  supplement  a  cetle  vie 
+«  devaient  donc  elre  pour  cette  periode  lout  specia- 
+«  lement  developpes. 
+
+cj  «  lls  nous  donnent  du  conlenu  de  leur  le- 
+«  gende  un  sommaire  qui  ne  correspond  pas  du  tout 
+'(  a  ce  que  nous  avons  aujourdliui...  lls  ajoulent 
+«  qu'ils  n'ont  pas  ete  contenti  narrare  solum  mira- 
+«  cula  quae  sanctitatem  non  faciunt,  sed  oslendunt, 
+«  sed  etiam  sanctae  conversationis  ejus  insignia  et 
+«  pii  beneplaciti  voluntatem.  Or,  absolument  rien  de 
+«  tout  cela  ne  s'y  trouve. 
+
+(IJ  «  Les  biographes  annoncent  qu'ils  n'ont  pas 
+«  suivi  Tordre  historique.  Or,  si  Pon  veut  bien  se 
+«  rapporter  a  la  legende  que  nous  avons,  on  verra 
+((  au  contraire  que  1'ordre  hislorique  y  est  stricte- 
+«  ment  suivi  ». 
+
+3.  Sabatier  hisce  rationibus  ductus  legendam 
+«3Sociorum»,  quam  nunc  habemus,  mutilatam 
+cum  aliis  declaravit.  Minocchi  cum  epistola  partem 
+Speculi  esse  transmissam  autumat;  alium  explicandi 
+modum  proponunt  Analecta  Bollandiana:  «  Cette  mis- 
+«  sive  —  scribunt  I.  c.  pag.  1^20  —  se  rattache  a 
+«  quelque  document  franciscain  aujourdluii  penlu, 
+«  ou  bien  elle  a  ete  fabriquee  par  un  faussaire^y. 
+
+4.  Nobis  novus  explicandi  epistolam  illam  modus 
+placet.  Optime  ipsa  convenit  legendae  secundae  Cela- 
+neyisis.  Haec  non  est  scripta  «  per  modum  legen- 
+dae»,  imo  lilulus  «  legendae  »  evitatur,  opus  enim 
+
+
+-  31  - 
+
+vocatiir  «  Memoriale  in  desiderio  animae  de  gestis 
+«  et  verbis  sanctissimi  Patris  Nostri  Francisci  ». 
+«  Velut  de  aaioeno  prato  quosdam  flores  pulchriores 
+«  excerpit »;  «  continuatam  historiam  non  sequitur»; 
+<f  seriose  rehnquit,  quae  in  praedictis  legendis  sunt 
+«  posita  ». 
+
+Haud  difficuller  vero  epistola  ipsa  comite  inve- 
+nitur  relalio  vel  connexio  iriter  epislolam  illam  et 
+legendam  dictam  Celanensis.  P.  Crescentius,  Minister 
+Generalis,  praeceperat  ^c  universis  fratribus  —  dicit 
+Memoriale  Generalium  ^  —  «  quod  sibi  in  scriplis 
+ff  dirigerent,  quidquam  de  vita,  signis,  et  prodigiis 
+«  beati  Francisci  scire  veraciter  possenl ;  quo  inducti 
+f(  fr.  Leo  et  fr.  Angelus  et  fr.  Rufmus  quondam  socii 
+<(  ipsius  sancti  lanquam  testes  fideles,  quae  viderant, 
+«  in  scriptis  redegerunt  ^  ».  Idem  iisdemque  verbis 
+refert  Chronicon  XXIV  Generalium  addens  verba 
+«  per  modum  legendae  » ,  quae  lamen  verba  epistola 
+ipsa  addila  declarat.  Socii  nec  jussi  sunt  legendam 
+scribere,  nec  «  per  modum  legendae  »  scripserunt, 
+sed  soLA  DOcu.MENTA  cum  sua  epistola  P.  (ienerah 
+transmiserunt,  quae  ipse  legendis  dudum  confectis 
+«  poterit  facere  inseri,  si  viderit  discretio  esse  justum. 
+«  Credimus  enim,  quod  si  venerabilibus  viris,  qui 
+«  praefatas  confecerunt  legendas,  haec  nota  fuissent, 
+« ea   minime    praeterissent  ».    Ex    Jiisce    sociorum 
+
+
+'  Speculum  .Minorum  seu  Firmanienlum  Minorum  (Veneliis 
+1513)  fol.  .3.3  a. 
+
+'  .Nolelur  concordanlia  inler  verba  liaec  et  initium  epislo- 
+lae  siiprn  cxliibilae. 
+
+
+—  3^2  — 
+
+Scriplis  compositum  est  Speculam  perfectionis  —  id 
+esl  prior  redactio  ^  —  el  praecipue  hisce  scriptis 
+innititur  Legemla  secumla  Celanensis,  (Je  qua  Cliro- 
+nica  XXIV  (ieneralium  reterunt:  «  Post  frater  Tlio- 
+«  mas  de  Celano  de  mandato  ejusdem  ministri  et  ge- 
+«  neralis  capituli  primum  tractatum  Legendae  beati 
+«  Francisci  de  vita  scilicet  et  verbis  et  inientione  ejus 
+«  circa  ea,  quae  pertinent  ad  regulam,  compilavii  ^  », 
+simulque  cum  sociis  P.  Crescentio  obtulit  cum  epi- 
+stola,  quam  initio  suae  legendae  habemus. 
+
+Quae  epistola  magnam  habet  cum  epistola  trium 
+sociorum   affinitatem,   quod   notatu  dignum  videtur. 
+
+ScRiBUNT  Socii:  ScRiBUNT  Tres  Socii  : 
+
+«  Continel   in    priniis   lioc  ^^  Non  conienti  soliunnnr- 
+
+opusculum  quaedam  conversio-  rarc  miracala,  qiiae   snnclila- 
+
+nis   facla   mirifica,  quae  in  le-  lem  non  faciunt,  seii  oslendunt, 
+
+gemlis  dudnm  de  ipso  confectis  sed  eiiam  sanctae  conveisniio- 
+
+non  fuerunl  apposita^quonmm  nis  ejus   insignia   et   pii   beue- 
+
+ad    auctoris    notitiam    minime  placili    voluniatem    ostendeie 
+
+
+^  De  liisce  pluia  dicenlur  in  parte  altera  hujus  collectionis; 
+hic  solum  repetilur  tilulus  dicti  Speculi:  « In  nomine  Domini 
+«  incipil  Speculum  perfectionis,  regulae  et  professionis,  vitae  el 
+«  vocationis  veri  fratris  minoris  secundum  volunlatem  Chrisii 
+«  et  intentionem  beaii  Francisci,  composiium  ex  quibusdam  re- 
+«  pertis  in  scriplis  sancti  fratris  Leonis,  socii  beali  Francisci, 
+«  et  alioruni  sociorum  ejus^.  —  Ex  dictis  iam  paiel,  quomodo 
+sententia  noslra  se  liabeat  ad  senteniiam  a  Miuocchi  proposiiam. 
+
+^  Anal.  Franc  I.  c.  pag.  262;  secundus  tractalus  est  «  ira- 
+clalus  de  miraculis  b,  conf.  I.  c.  pag.  276:  «  Ilic  Generalis  (fr. 
+«  Joannes  a  Parma)  praecepit  mulliplicatis  litleris  fr,  Tliumae 
+«  de  Celano,  ul  viinm  beali  Francisci,  quae  antiqua  legenda  di- 
+«  ciiur,  perficeret;....  et  sic  secundum  tractatum,  "qui  de  ejus- 
+«  dem  sancti  Pairis  agit  miraculis,  compilavii  ». 
+
+
+—  33 
+
+
+pervenerunt.  Dehinc  vero  ex- 
+prinnere  intendimus  et  vigilanti 
+studio  declarare,  quae  sanctis- 
+sinni  patris  tam  in  se,  quam  in 
+
+
+cupientes,  ad  laudem  et  glo- 
+riam  summi  Dei  et  dicli  pa- 
+tris  sanctissimi  atque  aedifica- 
+lionem  volentium  ejus  vestigia 
+
+
+suis  fuerit  voluntas  bona,  be-  imitari.   Quae   tamen   per  mo- 
+
+neplacens  et  perfecta  in   omni  dum  legendae   non   scribimus, 
+
+exercitio  disciplinae  coelestis  et  cum   dudiim  de  vita    sua   et 
+
+summae    perfectionis    sludio,  miraculis,  quae  per  eum    Do- 
+
+quod  semperhabuitapud  Deum  minus  operatus  ^?>i,  sint  con- 
+
+\\\  sacris  aflectibus  et  apud  ho-  fectae  legendae;  sed  velut  de 
+
+mines    in    exemplis.   Miracula  amoeno  prato  quosdam   flores 
+
+quaedam  inseruntur,  prout  se  arbitrio  nostro  pulchriores  ex- 
+
+ponendi     opportunitas     offert.  cerpimus,    conlinuatam    histo- 
+
+
+Exili  proinde  stilo  et  medio- 
+cri  quae  occurrunl  describimus, 
+cupientes  tardioribus  morem 
+gerere  et  etiam  studiosis  pla- 
+cere,  si  possumus  ». 
+
+
+riam  non  sequentes,  sed  multa 
+seriose  relinquenles,  quae  in 
+praedictis  legendis  sunt  posita 
+tam  veridico  quam  luculento 
+sermone  ». 
+
+
+In  fine  vero  legendae  habetur  «  Oratio  socio- 
+rum  sancti  ad  eunclem  »:  «  Ecce,  beale  paler  no- 
+«  ster,  simplicitatis  studia  conata  snnt  tua  facta  lau- 
+« dare... ;  scimus  nostra  verba  multum  ademisse 
+«  splendoris...  Supplicamus  toto  cordis  affectu,  bea- 
+«  tissime  pater,  pro  illo  filio  tuo,  qui  nunc  et  olim 
+«  devotus  tua  scripsit  praeconia.  Hoc  ipse  opuscu- 
+((  lum...  una  nobiscum  tibi  offert  et  dedicat  ». 
+
+Cui  orationi  ille,  qui  post  mulla  tempora  pri- 
+mus  legenda  II.  Celanensis  usus  est,  P.  Ilyacin- 
+thus  Sbaralea  0.  M.  Conv.  addit:  «  Kx  liis  liquet, 
+«  complures  socios  et  discipulos  S.  Patris  per  fr.  Tho- 
+«  mam  Celanensem  edidisse  hoc  opusculum  de  his, 
+«  quae  ipse  in  priinn  Legenda  [)raetermiserat  ^  ».  Iit 
+
+
+*  SupplemenUim  scriptorum  Ordinis  Minorum,  pag.  673. 
+
+
+—  34  —      ' 
+revera  exlra  omne  dubium   est,  quod  lkgenda  se- 
+
+CUNDA     CeLANENSIS     EST     LtGENDA    SOClORUiM    S.    FhAN- 
+
+ciscL  Praecipuae  vero  partes  jure  ATTRIBUUNTUR 
+FR.  Leoni,  fr.  Angelo  ac  fr.  Rufino,  quoru.m  episto- 
+lae  legenda  iSTA  OPTLME  coNVKNiT.  Ad  iudicium  vero 
+de  labore  ab  ipso  Celanensi  impenso  ferendum  niul- 
+tum  juvat  Speculi  perfectionis  redaclio  prior,  quae 
+eisckm  ac  ipse  innititur  documenlis. 
+
+0.  Sed  quomodo  epistola  Irium  sociorum  inilio 
+legendae  «  irium  sociorum »  habetur?  Compilator 
+huic  legendae  epislolam  eodem  modo  ac  jure  prae- 
+posuit,  quo  compilator  vitae  beati  Aegidii,  quam  e\- 
+hibent  Chronica  XXIV  Generalium,  abusus  est  exor- 
+dio  fratris  Leonis  in  suam  beati  istius  vitam. 
+
+IV.  De  relatione  hujus  vitae  ad  scripta  Celanensis 
+et  legendam  S.  Bonaventurae. 
+
+1.  In  paucis,  quae  vita  haec  habet  communia 
+cum  Celanensi  et  Doctoris  Seraphici  legenda,  optime 
+hisce  congruil.  Ut  aliqua  addamus  de  iis,  quibus  le- 
+genda  nostra  scriptoribus  istis  repugnare  videtur, 
+primo  loco  ponendus  est  titulus  legendae:  «  hici- 
+pit  vita  sancti  fratris  Aegidii,  qui  fuit  quartus  in 
+ordine  post  beatum  Franciscum  ».  Contradicere  vi- 
+detur  legenda  S.  Bonaventurae,  quae  capite  tertio 
+dicit:  «  tertium  sortitus  est  locum  sanctus  pater 
+Aegidius».  Error  calami  haud  habetur;  in  cod. 
+enhu  Vat.  43o4  legitur  idem  fol.  143%  plures  vero 
+varianles  evincunt  hos  codices  non  ejusdem  esse 
+familiae;  et  legenda  noslra   num.    1    expresse  enu- 
+
+
+'\¥        —  3o   — 
+
+nierat  Ires  fratres  ante  fr.  Aegidium  conversos,  fr. 
+Bernardum,  fr.  Petrum  ac  fr.  Silvestrum  ^  Diffi- 
+cultas  slat,  ei  jam  lioUandistae  pluries  eam  solvere 
+conati  sunt.  Celanensis  n.  24  de  primis  sancti  Fran- 
+cisci  asseclis  loquens  dicit:  «  Inter  quos  quidam  de 
+«  Assisio  pium  ac  simplicem  spiritum  gerens,  virum 
+«  Dei  primo  devote  secutus  est.  Post  hunc  frater  Ber- 
+«  nardus  legatam  pacem  amplectens  ad  mercandum 
+«  regnum  coelorum  post  Sanctum  Dei  cucurrit  alacri- 
+«  ter...  Statim  autem  vir  alter  Assisii  civitatis  eum  se- 
+«  cutus  est,  qui  valde  in  conversatione  laudabilis  ex- 
+«  titit,  et  quod  sancte  coepit,  sanctius  post  modicum 
+«  consummavit.  Hunc  vero  post  non  multum  temporis 
+f(  sequitur  frater  Aegidius  ».  Etiam  liic  beaius  Aegidius 
+quarlum  occupat  locum.  Solutionem  ipse  Celanensis 
+insinuare  videtur:  de  primo  assecla  narrat  dicens: 
+«  quidam  pium  ac  simplicem  spiritum  gerens  seculus 
+est  »;  de  fr.  Petro  iisdem  utitur  verbis  «  vir  alter 
+eum  seculus  est»,  sed  addit:  <(  quod  sancle  coepil, 
+sanctius  consummauit  n ,  aller  vero  haud  consum- 
+mavisse  videlur;  vila  noslra  refert,  fratrem  Aegidium 
+duos  solos  socios  S.  Francisci  ad  S.  Mariam  inve- 
+nisse.  Quia  vero  non  consummavil,  nornen  ejus  de- 
+ielum  esl,  et  S.  Bonavenlura  ipsum  faclum  elimi- 
+navit. 
+
+2.  Allera  diiricultas  exoritur  ex  Celanensi,  qui 
+narrans  primam   fratrum  divisionem  pergit:  «  Tunc 
+
+
+'  (jiiod  fralur  U-u  ri;ilri  Silvcslro  iillimuin  (Jal  locuni,  cx  eo 
+facile  «•xplicalur,  «juia  i.sie  haud  pcrseveravil;  Boll.  loco  «  piuni  » 
+lef^Mini  «  piiei  » . 
+
+
+—  36  — 
+
+frater  riernardus  cum  fratre  Aegidio  versus  sanctum 
+lacobum  iter  arripuit»;  vita  nostra  vero  hanc  pe- 
+regrinationem  a  primo  itinere  apostolico  discernit  K 
+Sanctus  Bonaventura  enarrat  quidem  missionem  illam, 
+sed  nullam  indicat  regionem.  Verba  Celanensis  «  ver- 
+siis  sanclum  Jacobum  »  sunt  ambigua,  sed  ex  aliis 
+adjunctis  intelliguntur.  Acta  Sanctorum  explicant: 
+«  certe  mutarunt  consilium;...  haec  enim  B.  Aegidii 
+peregrinatio  multo  serius  figenda  est^»;  vita  fra- 
+tris  Leonis  referens  hoc  alterum  omnem  solvit  dif- 
+ficultatem. 
+
+Hoc  modo  istae,  quae  esse  videntur  difficullates, 
+illustrant  auctoritatem  et  pondus  vitae  hujus.  Vita 
+ipsa  vero  confirmat,  scripta  Celanensis  a  Doctore 
+Seraphico  examinata  praebere  fundamentmn  hi- 
+storiae  Sancti  Patris  Francisci. 
+
+
+Ea,  quae  introductione  sunt  exposila,  clarius  ob 
+oculos  ponit  tabula,  quae  sequitur  ^. 
+
+
+*  «Unde  Ir.  Aegidius  accessit  in  peregrinalionem  cansa  de- 
+volionis...  el  sic  ambulavit  viginti  diebus  »;  unde  (inde)  idem  ac 
+deinceps;  prior  peregrinatio  eral  «  ad  annuntiandam  pacem  et 
+pocnitenliam  •     Cel.  29)  et  duiavit  «  modicum  temporis». 
+
+2  Cl".  Aclu  Ss.  1.  c.  Commentarius  praevius  n.  205. 
+
+•''  Ad  tabulam  notentur:  Legenda  anonyma,  Legenda  brevis 
+Celanensis  ac  Epilogus  Bartholomaei  Trid.  edita  sunt  In  Acta 
+Ordinis  Minorum,  1900,  1901  et  Excerpla  Celanensia,  Ad  Claras 
+Aquas  1901;  editiones  ceterorum  librorum  vide  in  Bibliotheca 
+Hagiographica  Latina  antiquae  et  mediae  aelatis;  ed.  Bollandiani 
+Brussellis  1899,  1900. 
+
+
+f 
+
+
+TAE  S.  P.  FRAXCTSCI  : 
+
+
+Scripta   plurium    Sociorum,        III.  Scripta  FR.  LEONIS  : 
+
+
+qnae  seqiuintnr  : 
+
+
+igendaSECUNDACELANENSlS. 
+
+a.  Memoriale  B.  Francisci. 
+
+b.  Traclalus  de  iniracnlin. 
+>pcc  u  lum    perfeclio n  is    (t  'cda - 
+
+ciio  /J. 
+
+
+1.   Vila  B.  Aegidii. 
+^.  Liber    de    inlendone 
+
+S.  Francisci. 
+3.   Verha    S.     Franci- 
+
+sci. 
+
+
+LATIOXES  : 
+
+
+II.  Saec.   XIV. : 
+
+
+Inler  has  eminent 
+
+
+1.  Speculum  perfcctionis  (redactio  11). 
+±  Legenda  «  trium   sociorum  »,    qnae   duo  opera 
+se    supplent. 
+
+
+-^< 
+
+
+A.  FOXTES  HIST 
+
+
+li 
+
+
+I.  Leg-enda  PRIMA   CELANENSIS, 
+
+#^  quam   sequunliir : 
+
+1.  Legenda   Joannis    «  Quasi    slella    uialulina ». 
+"2.  Legenda   fr.    Juliani    Spirensis,  quani  sequi- 
+tur   Viiic.  Bellov. 
+
+3.  Vita  melrica. 
+
+4.  Epilogus  Barlholomaei  Tridentini. 
+
+5.  Legenda    brevis    ipsius    Celanensis   et    plures 
+
+aliae  legendae  liturgicae. 
+
+B.  COM" 
+I.  Saec.  XIII. : 
+
+
+I.  LEGENDA    MAJOR   et    minor    S.    BONAVENTUR 
+"2.  Legenda  Anonyma.  ' 
+
+fi.  Liber    Bernardi  a  Bessa    de   Laudibus    beati    Fr 
+
+cisci. 
+A.  Vila    S.   Francisri,   quae    liahelur    in    Legendd    au 
+
+Jacobi  de   Voragine. 
+
+
+# 
+
+
+VITA  BEATI  FRATRIS  AEGIDII' 
+
+
+Hic  incipit  vita  et  quaedam  verba  sancti  fratris 
+Aegidii  magnae  contemplationis,  qui  fuit  quartus  in 
+ordine  post  bealum  Franciscum.  ^^ 
+
+Ad  excilandara  devotionem  nostram  et  ut  fer- 
+ventius  laboremus  in  opere  Domini,  aliqua  verba  et 
+magna  opera  ejus,  quae  Spiritus  sanctus  oper|tus  est 
+in  beatissimo  patre  nostro,  fratre  Ae^jdip^^^J^cut  a 
+sociis  suis  intellexi,  et  ab  eodem  patre  ndiW^  san- 
+ctissimo  auribus  meis  audivi,  ad  laudem  Dei  et  aa^ 
+dificationem  animarum  licet  indignus  scribere  curavi. 
+Ipsemet  enim  dicebat:  «  Quanlo  enim  aliquis  plus  di- 
+ligeret  bonum  alterius,  quod  Deus  operatur  in  ipso, 
+tanto  magis  illud  bonum  efficeretur  ^  suum  bonum, 
+dum  sciret  fructificare  et  lucrari  etcustodire,  quia  bo- 
+num  non  est  hominis,  sed  Dei  ».  Item  dicebat:  «  Quia 
+
+
+^  Omnia  scribuntur  secundum  noslrum  scribendUmodum. 
+
+Codex  S.  Isid.  1/63  ciialur  sub  A;  codex  Vaticanus  43;ji  sub 
+
+IJ;  codex  S.  Isid.   1/73  sub  C.  Sequimur  praecipue  codicem  A, 
+
+qui  praeter  ullimam  exordii  senlentiam  bonain    pr.iobct  lectio- 
+
+nem;  aliorum  codicum  lecliones  ponimlur,  ubi  ratio  adesse  vi- 
+
+delur. 
+
+'*  B:   «  «nicitiir  ». 
+> 
+
+
+non  sum  bene  spiritualis^  sicul  deberem,  et  non  mul- 
+tum  diligo  et  gaudeo  de  bono  alterius,  neque  con- 
+tristor  et  compalior  de  malo  suo  et  tribulatione,  ideo 
+de  bono  et  malo  alterius  ^  unde  deberem  lucrari  et 
+non  lucror,  unde  offendo  ^  caritatem,  minuilur  bo- 
+num  meum  et  incido  in  peccatum  ». 
+
+1.  QaatUer  conversus  fuit  frater  Aegidius. 
+
+Ul  autem  ab  ipso  primordio  suae  conversioiiis 
+Dominus  nobis  ostenderet,  quod  ^*  novum  et  magnum 
+aedificium  superaedificaret  in  servo  suo,  raagnam 
+praerogativam  et  gratiam  infudil  super  eum,  etiam 
+cum  esset  in  habitu  saeculari.  Nam  cum  audiret  a 
+quibusdam  suis  consanguineis  et  ab  aliis,  videlicet 
+duobus  annis  post  conversionem  sancti  Francisci, 
+qualiter  fr.  Bernardus  de  Quinlavalle  exemplo  et 
+consilio  ipsius  sancti  secundum  perfectionem  sancti 
+Evangelii  vendiderat  omnia  sua  et^  distribuerat  omnia 
+in  praesentia  sua  multis  coadunatis  pauperibus  in 
+iJatea  sancti  Georgii,  ubi  nunc  est  monasterium  san- 
+ctae  Clarae,  statim  concepit,  qualiter  loqueretur  cum 
+beato  Francisco,  ut  reciperet  et  ipsum  et  indueret  sicut 
+fralrem  Hernardum,  fratrem  Petrum  et  fratrem  Silve- 
+strum  *',  qui  fuerunt  primi  fratres  post  beatum  Fran- 
+
+
+^  B:  «  boniis  spiriliialis  ». 
+
+-  A:   M  idco  debeo  mnlo  alteiius  «. 
+
+^  A  :   «  ofTendendo  » . 
+
+^  B:    «  Lit  ». 
+
+"  B:  «  et  consilio  beati  Franrisci  dislribuerat  ». 
+
+''•  In  B  deest  «  et  fratrem  Silveslriim  ». 
+
+
+—  39  — 
+
+ciscum.  Et  qiiia  velociler  currit  sermo  divinus  et  spirat, 
+sicut  placet  ei,  sequenti  mane  surgens  velociter  ivil  ad 
+ecclesiam  sancti  Georgii,  cujus  eadem  die  celebrabatur 
+festum,  orans  devote  et  oratione  facta  dirigit  gres- 
+sus  suos  ad  ecclesiam  sanctae  Mariae  de  Portiun- 
+cula,  ubi  bealus  Franciscus  cum  dictis  duobus  fra- 
+tribus  Biorabatur,  quem  locum  frater  Aegidius  igno- 
+rabat.  Cum  autem  esset  in  trivio  juxta  hospitale 
+leprosorum,  devote  orationi  se  dedit  \  ut  illuc  sine 
+impedimento  aliquo  Dommus  eum  dirigere  dignare- 
+tur;  quem  Dominus  conduxit  ad  trivium  juxta  lo- 
+cum  desideratum,  qui  ibi  sistens  coepit  cogitare  in 
+desiderio  jam  concepto.  Et  quia  prope  est  Dominus 
+omnibus  invocantibus  eum  in  veritate  et  desiderium 
+pauperum  suorum  exaudire  consuevit,  stalim  adve- 
+nit  bealus  Franciscus  rediens  ab  oratione^  a  silva, 
+quae  ibidem  prope  erat,  quem  videns  frater  Aegi- 
+dius  dixit:  «  Volo  esse  vobiscum  amore  Dei  »,  cui 
+sanclus  Franciscus  dixit:  «  Magnum  donum  fecit 
+«  libi  Dominus.  Esto,  inquit,  quod  imperator  venisset 
+a  Assisium  el  vellet  aliquem  de  civitate  eligere**i: 
+«  suum  mililem  sive  camerarium,  multi  essent,  qui 
+«  hoc  affectarent;  quanto  magis  majus  deberes  repu- 
+«  tare  donum,  quod  de  liis  omnibus^  Dominus  le  elegit 
+«  et  vocavit  ad  curiam  suam»;  quein  manu  propria 
+erigens  beatus  Franciscus  ad  ecclesiam  memoratam 
+duxit;  vocavitque   sanctum   fratrem    l^ernardum  di- 
+
+
+'   B:   «  QiJciM  lociim,  (jiiia  fialer  Aofjidius   igiioiabal,  ciiin 
+essct  • . 
+
+^  Codd.:  «  Iribus  ». 
+
+
+—  40  — 
+
+cens:  «  UnuQi  bonum  fratrem  Dominus  misit  nobis » , 
+qui  simul  in  Domino  gavisi  comederuiil  ^ 
+
+2.  Qualiler  donavit  manlellum  cuidam  pau- 
+perculae, 
+
+Tunc  assumens  sanctus  Franciscus  fratrem  Ae- 
+gidium  accessit  ad  civitatem  Assisii,  ut  tunicam  sibi 
+acquireret  et  indueret  eum.  Et  cum  sic  incederent 
+ambo,  ecce  quaedam  mulier  paupercula  humililer 
+et  reverenter  peliit  eleemosynam  a  beato  Francisco 
+amore  Christi  repelens  tertio  illud  idem;  quia  cum 
+nihil  haberet  beatus  Franciscus,  unde  posset  illius 
+inopiae  supplere  defectum,  non  dabat  responsum, 
+et  ideo  tertio  repetiit  illud  idem;  quod  audiens  fra- 
+ter  Aegidius  cum  beato  Francisco,  cum  adhuc  esset 
+in  habitu  saeculari,  non  modicum  anxius  exspecta- 
+bat,  ut  sibi  diceretur,  ut  eleemosynam  daret  illi, 
+eo  quod  timore  reverentiali  Sancto  conslrictus  nihil 
+audebat  respondere.  Ad  quem  sanctus  Franciscus 
+angelico  vultu  conversus  sic  ait:  «  Demus  sibi  ^ 
+mantellum  tuum  »,  qui  gavisus  in  Domino  pluri- 
+mum  de  Sancti  mandato,  quod  exspectabat  sollici- 
+lus,  statim  exuit  et  illum  elargilur  libentissime  pau- 
+perculae  mulieri.  Et  statim  dato  lanta^  fuil  Spiritus 
+sancti  consolatione  repletus,  quod  lingua  carnea  ex- 
+primi  non  valerel  ^.   Et   in   eodem   die   induit  eum 
+
+
+^  Anal.  Franc.  III.  pag.  74,  73,  Pisanus  fol.  Lllla;  Boll.  n.  2. 
+^  B  :   «  ei  » . 
+
+^  B;  o  dalo  manlello  fuit  ». 
+
+*  B:  «  lingua  carnis   exprimere   non   valeret,   et   creditur, 
+quod  illa  mulier  disparuil». 
+
+
+—  41  — 
+
+beatus  Franciscus;  postquam  vero  indutus  fuit,  tanto 
+exhilaratus  est  gaudio,  quod  tam  pauperculo  indu- 
+mento  tegeretur,  quod  lingua  et  corde  exprimere 
+non  valeret  ^ 
+
+3.  Procedente  autem  lempore  completus  est  se- 
+ptenarius  in  ordine  numerus  fratrum,  quos  beatus 
+Franciscus  direxit  ad  diversas  provincias  ^,  ut  mo- 
+nerent  populum,  qualiter  redderent  laudem  crea- 
+tori  et  salvatori  noslro,  et  ut  facerent  poenitentiam 
+fructuosam.  Unde  fraler  Aegidius  accessit  in  pere- 
+grinationem  causa  devotionis  ad  sanctum  lacobum  ^, 
+in  quo  itinere  penuriam,  famem  et  sitim,  frigus  et 
+Iribulationem  perpessus  est.  Sed  Dominus,  qui  ab 
+initio  suae  conversionis  coepit  ipsum  consolari,  sem- 
+per  et  in  omnibus  consolabatur.  Fuit  autem  prima 
+tunica  *  conlentus;  nam  in  eodem  itinere,  cum  ob- 
+viaret  cuidam  pauperculo  homini,  pietale  motus  ca- 
+putium  de  tunica  illi  dedit  et  sic  ambulavit  viginti 
+diebus  sine  caputio  ^. 
+
+4.  Reversus  est  landem  Assisium ;  et  quia  de- 
+votissimus  homo  erat  et  catholicus,  ivit  ad  sanctum 
+
+
+'  Anal.  Franc.  lil.  pag.  70;  Pisaniis  foi.  Lllla;  Boll.  n.  2. 
+^  B:  «  partes  ». 
+
+'  B:   «  de  licenlia    beall  Francisci  »  loco  «  caiisa  devolio- 
+nis  ».  Esl  «  S.  laccbus  de  Compostella  ». 
+
+*  B:  « lunica  illa  prima  »,  G:  «  una  «. 
+
+*  Anal     Franc.    III.    pag.    70;    Pisaniis    fol.    l.lll  h;    Boll. 
+n.   4. 
+
+
+—  42  — 
+
+A  ngelttm  ^  et  ad  sanctum  Sicolaiun  de  Bari.  Vadens 
+sic  per  munduin  liortabalur  homines  et  mulieres, 
+ut  limerent  et  amarent  creatorem  coeli  et  terrae  et 
+facerent  poenitentiam  de  peccatis  suis.  Quadam  au- 
+tem  die,  cum  valde  fessus  de  itinere  famem  pale- 
+relur,  quievit  et  dormivit  juxta  viam  ^;  excilalusque 
+a  somno  de  beneficio  Dei.  qui  non  relinqnit  speran- 
+tes  in  se,  invenit  dimidium  panem  ad  caput  suum 
+et  gralias  agens  Deo,  cum  manducasset  '\  conforta- 
+tus  est  *. 
+
+0.  Ivit  etiam  ullra  mare  et  visilavit  terram 
+sanctam,  et  cum  fecissel  moram  apud  dvitatem  An- 
+conitanam,  ut  non  comederet  panem  suum  otiose, 
+apportabat  aquam  de  fonte  a  longe,  portans  vas  in 
+humero  suo  et  ibat  per  civitatem  dicens  hominibus^ 
+et  mulieribus,  ut  acciperent  aquam  el  darent  sibi 
+panem  amore  Dei  ^  Non  enim  verecundabatur  ser- 
+vus  Dei  excelsi  humiliare  et  inclinare  se  ad  omne 
+opus  servile  ^  et  honestum  propter  bonum  exem- 
+plum,  et  ut  de  labore  manuum  suarum  panem  com- 
+
+
+^  flt  Esl  sanctuarium  S.  I\richaclis  Archangeli  in  iiionle  (jar- 
+gano  in  Apulia  situni  »,  Anal.  Franc.  t.  Ml.  pag.  77.  n.  7. 
+
+2  H:  ((  Quadam  aulem  die  ille  valde  de  iiinere  fessus  fame 
+dormivit  et  (luievil  juxla  viam  ». 
+
+^  B:  «  dum  comederet  ». 
+
+^  Anal.  Franc.  III.  pag.  77;  Pisanus  fol.  Llll  b. 
+
+•  li:   «  portabat  per  civitatem  dicens  viris  ». 
+
+*^  B  addil:  «  Uabebant  enim  cislernas  in  civitate,  el  fonles 
+eranl  a  longe  ». 
+
+^  B:   «  vile  ». 
+
+
+—  43  — 
+
+ederet  ^  Nam  ciim  visitaret  quodam  tempore  do- 
+mirium  Nicolaum  Cardinalem  et  Episcopum  Tuscu- 
+ianum,  ibat  ad  juvandum  homines  ad  colligendum 
+olivas  et  alia  servitia,  et  recipiebat  pro  labore  suo 
+panem  et  sic  apporlabat  ad  domum  domini  Cardi- 
+nalis.  Et  cum  diceret  sibi  dominus  Cardinalis,  ut 
+tanquam  pauper  manducaret  de  pane  suo,  et  ipse 
+ei  dicebat  verbum  prophelicum:  «  Labores  manuum 
+tuarum  »  elc.  Sic  etiam  beatus  Franciscus  docuit 
+primo  fratres  et  in  regula  fecit  scribi  et  in  testa- 
+mento  suo  prope  morlem  confirmavit  ^.  Quantum  la- 
+borem,  fi^mem,  sitim,  frigus,  inopiam,  tribulationes  et 
+verecundiam  sustinuit  cum  gratiarum  aclione,  sicut 
+ipsemet  retulit,  longum  esset  omnia  enarrare. 
+
+G.  Revertente  autem  eo  de  peregrinationibus 
+suis  ad  sanctum  Franciscum  ^  considerans  idem  san- 
+clus,  quod  esset  homo  Dei  et  boni  exempli,  gavisus 
+est  valde,  dixitque  ei,  ut  pergeret,  quo  vellet.  Cui  bea- 
+tus  fraler  Aegidius  respondit,  quod  in  tam  libera  obe- 
+dienlia  ire  et  vivere  nolebat.  Tunc  sexlo  anno  suae 
+conversionis  misit  eum  ad  quoddam  eremitorium 
+nomine  Fahrione  in  [)lanilie  Perusii  ^ 
+
+El  cum  respiceret  Deus  ad  ipsum  et  ad  mulla 
+opera  sua,  facta  est  super  eum  manus  Domiiii.  \i[ 
+inler  alia,  qiiae  sibi  contulit  Dominus  benedcia,  fiiit. 
+
+
+'  Anal.  Franc.  111.  p.i;;.  77;  l*is;iniis  foi.  Lllll);   liojj.   n.  7. 
+
+2  Anal.  Franc.  111.  pag.  83;  Pisaniis  fol.  Mllh;  hoil.  n.  10 
+
+"  In  IJ  deesl   t  afl  sancliun  Franci.scuin  » . 
+
+•  Anal.  Franc.  Ilt.  pag.  7S;  Pisanus  lol.  Llllb;    lioll.  n.  9. 
+
+
+—  44  — 
+
+quod  ^  ciim  qiiadam  nocte  esset  in  oratione,  tanta 
+fuit  divina  gratia  repletus  et  consolatione,  quod  vi- 
+sum  fuit  ei,  quod  Dominus  vellet  animam  suam  edu- 
+cere  extra  corpus,  ita  ut  lucide  videret  de  secretis 
+suis  et  ut  magis  animaret  ^  ipsum  ad  bene  operan- 
+dum  et  roborandum  ^  in  servitio  Dei.  Et  sic  coepit 
+sentire  a  pedibus,  qualiter  moriebatur  corpus,  donec 
+anima  exivit;  el  stans  anima  extra  corpus,  sicut  pla- 
+cuit  Creatori  nostro,  qui  ipsam  misit  in  corpus,  prae 
+nimia  pulchritudine  sua,  qua  decoraverat  eam  Spiri- 
+tus  sanctus,  delectabatur  respicere  semetipsam ;  erat 
+subtilissima  et  lucidissima  super  aestimationem,  sicut 
+ipse  retulit  prope  mortem  suam.  Tunc  rapta  est  illa 
+sanctissima  anima  contemplando  secreta  coeleslia, 
+quae  nulli  revelavit,  unde  dicebat:  «  Bealus  homo, 
+oc  qui  scit  custodire  et  conservare  secreta  Dei,  quia 
+«  nihil  occultum,  quod  non  reveletur,  sicut  Dominus 
+«  voluerit  et  quando  ei  placuerit.  Timeo  enim,  inquit, 
+«  de  me  ipso,  et  ideo  si  sunt  revelanda,  magis  volo, 
+<c  quod  revelentur  per  alium  *,  quam  per  me  »  ^. 
+
+7.  Et  quia  inimicus  humani  generis  semper  ni- 
+titur  molestare  sanctos  et  perfectos  viros  ex  per- 
+missione  Dei,  non  multo  post  consolationem  praedi- 
+
+
+^  In  B  deest  «  fuil  quod  ». 
+-  B:  «  adderet  «. 
+**  C:  «  laborandum  ». 
+
+^  B:  a  et  si  sunt  revelanda,  et  ideo  niagis  volo,  ut  reve- 
+lentur  ». 
+
+5  Anal.  Franc.  III.  pag.  95;  Pisanus  fol.  LlVb;  Boli.  n.  95. 
+
+
+—  4o  — 
+
+ctam  in  eodem  ^  eremilorio  accidit  post  orationes  suas 
+de  nocte  ^  factas,  ciim  intrasset  cellam,  sensit  post  se 
+angelum  satanae,  cujus  terrorem  horribilem  susti- 
+nere  non  valens,  procidit  in  oratione  et  corde  sup- 
+plicans  Deo,  quia  loqui  non  poterat,  statim  extitit 
+liberatus.  Post  dies  autem  paucos  interrogavit  bea- 
+tum  Franciscum  dicens :  «  Paler !  est  aliquid  ita  ter- 
+ribile,  quod  non  possit  sustineri,  doriec  unum  dica- 
+tur  ,Pater  noster'  »?  respondit  beatus  Franciscus  di- 
+cens,  diabolum  non  posse  aliquem  ^  sustinere,  donec 
+dicatur  dimidium  «  Pater  noster  »,  quin  statim  mo- 
+reretur,  nisi  divinum  adjulorium  succurreret.  Quo 
+audito  beatus  fraler  Aegidius,  sicut  expertus  fuerat, 
+credidit  verum  esse  ^  Alio  autem  tempore  ^  cum 
+esset  in  quadam  ecciesia  sancti  ApoUinans  apud 
+Spoletum,  ubi  tunc  temporis  hospitabantur  fralres, 
+de  nocte  surgens  cum  intrasset  ecclesiam  et  inch- 
+natus  staret  in  oratione,  sensit  super  se  daemonem 
+ipsum  nimium  opprimentem  et  molestantem ;  ipse 
+autem  vehementius  orans  non  poterat  surgere,  sed 
+subtraxit  se  sicut  potuit  usque  ad  vas  aquae  bene- 
+dictae,  qua  fide  aspersus  statim  a  daemone ''  fuit  \\- 
+beratus  \ 
+
+
+'  In  A  deesl  *  eodeni  ». 
+
+'^  B:.  «  devole  n. 
+
+"^  B:  «  poteril  Jiliqiiis  ». 
+
+*  Anal.  Fninc.  III.  pag.  96;  Pisaniis  ful.  i.Va;  IJoll.  n.  18. 
+
+*  B:  «  lemiiore,  anno  hoc  ». 
+
+'^  A:  «  a  hiijus  daemonis  moleslia  ». 
+
+'  Anal.  Franc.  III.  pai,'.  III;  Pisanus  fol.  LV  a;  Holl.  n.  1S. 
+
+
+—  46  - 
+
+8.  Anno  XVIll^  suae  conversionis,  quo  sc.  anno 
+sanclus  Franciscus  migravit  de  hoc  saeculo  ad  coeluin, 
+cum  accederet  bealus  frater  Aegidms  cum  socio  ad 
+eremum  de  Septone,  quod  est  in  episcopatu  Clusirio, 
+pervenit  ad  locum  fratrum  de  Cibolulo  \  ubi  nocle 
+sequenle  vidit  in  somnis  imperatorem,  qui  nimiam 
+familiarilatem  ostendebat  ei,  quod,  ut  ipse  dixil,  fulu- 
+rae  glorlae  sibi  signum  fuit.  Tunc  surrexerunt  ipse  et 
+socius  et  ad  praedictum  eremum  accesserunt  ibique 
+quadragesimam  sancti  Martini  devote  et  ferventer 
+feceruiit  ^.  hlt  ibi  beatus  frater  Aegidius  vidit  in 
+soinnis  sanctum  Franciscum  dixitque  ei :  «  Vellem 
+loqui  inter  te  et  me  »,  cui  sanctus  Franciscus  re- 
+spondit:  «  Stude  tibi,  si  vis  loqui  mecum».  Cumque 
+ibidem  in  oratione  et  devotione  maxima  laboraret, 
+tribus  diebus  ante  nativilatem  Domini  nocte  illa, 
+cum  devotius  oraret,  apparuit  sibi  Dominus  visibililer 
+euro  videns  oculis  corporeis,  in  qua  apparitione  idem 
+frater  Aegidius  prae  nimio  odore  voces  emittebat 
+immensas,  et  quasi  videbatur  humanitate  deficere, 
+quia  talia  non  i^oterat  suslinere,  magnumque  timorem 
+fralribus  de  loco  suis  vocibus  immittebat;  subilo 
+ergo  fuit  ineffabili  odore  repJetus  el  dulcedine  cor- 
+dis  immensa,  ita  ^  quod  quasi  in  exlremis  positus 
+laborare  videbatur;  quod  audiens  quidam  frater  coe- 
+pit  timere  non  modicum  et  accedens  ad  socium  ejus 
+
+
+^  A  :  «  Abotulo  ».  Qiio.nd  Seplone  et  Ciboliilo  cf.  Annl.  Franc. 
+t.  III.  png.  06  nola  3;  esl  Cetona  et  Cibotlolii. 
+
+■^  In  B  tleest  «  ipse  el  soclus  ejus  »  et  «  ibique  ». 
+^  B:  «  eo  ». 
+
+
+—  47  — 
+
+dixit  ei :  «  Veni  ad  fralrem  Aegidium,  quia  moritur  »; 
+qui  continuo  surgens  venit  ad  eum  dicens:  «  Quid 
+pater  habes»?  et  ille  respondit:  «  Veni,  fili,  quia  de- 
+«  siderabam  te  modo  videre»;  diligebat  enim  eum 
+valde  et  de  ipso  multum  confidebat,  quia  nutrierat 
+eum  ab  adolescentia  in  sanctis  moribus  et  actibus  spi- 
+ritualibus.  Et  eidem,  qualiter  sibi  acciderat,  per  or- 
+dinem  enarravit;  ipse  aulem  hoc  audiens  visionem 
+divinam  esse  cognovit  et  ad  cellam  suam  reversus 
+est  K 
+
+9.  Sequenti  vero  die  reversus  ad  cellam  ejus- 
+dem  fratris  Aegidii  et  inveniens  eum  flentem  et  lamen- 
+tantem  monebat  eum,  ne  se  tantum  afiligeret,  quia 
+exinde  posset  corpus  deficere;  cui  respoiidit:  «  Quo- 
+«  modo  —  inquit  —  non  possum  flere,  cum  inimicum 
+»  Dei  me  esse  cognoscam,  et  ipse  fecit  mihi  tantam 
+«  misericordiam  et  dedit  mihi  tale  donum,  quare  du- 
+«  bito,  ut  non  ^  secundum  voluntatem  suam  in  eo 
+«  operer  »;  hoc  autem  dicebat  propter  specialem  gra- 
+tiarn  sibi  datam  a  Deo,  in  qua  mirabiliter  innovn- 
+tum  et  mutatum  se  senliens  dixit  eidem  socio  suo: 
+«  Usque  modo  ibam,  quo  volebam,  et  quod  volebam 
+«  facere,  faciebam  laborans  manibus  meis;  nunc  au- 
+*  tem  et  deinceps  non,  sicut  consuevi,  facere  possum  ^, 
+«  sed  sicut  sentio  in  me,  oportet  me  facere.  Super  quo 
+
+
+'  Anal.  Franc.  Ili.  j)ng.  96,  97;  Pisanns    fol.   LIV  b;   noll. 
+1-2. 
+^  11:    «  ne  ». 
+'  lit  A:   a  ila  iit,  sicul  consMeNi  fjiccrc,  non  possini  ». 
+
+
+—  48  — 
+
+«  valde  timeo,  ne  aliqiii  quaeranl  a  me  de  me,  quod 
+«  eis  dare  non  possum  ».  Cui  idem  socius  dixit: 
+«  Deus,  qui  dat  servo  suo  graliam,  ipse  gratiae  lar- 
+«  gitur  custodiam;  tamen  bonum  est  timorem  Domini 
+«  esse  apud  te»;  quae  responsio  placuit  ei.  Fuit  autem 
+in  tanta  ac  tali  dulcedine  indicibili  et  jubilo  tam 
+suavi  et  odore  Dei  tribus  diebus  praedictis  ante  Na- 
+livitatera  Domini  usque  ad  Epiphaniam,  non  tamen 
+continue,  sed  interpolate^  die  et  nocte;  non  enim  pole- 
+rat  sustinere  humanitas,  cum  apparebat  immensa  cla- 
+ritas.  Oravit  quoque  ad  Dominum  instanter,  ut  sibi 
+non  imponeret  tantum  et  tale  onus  odoris  et  dulce- 
+dinis,  et  allegabat  multum,  quod  non  erat  ad  hoc 
+aplus,  quia  erat  homo  idiota  et  sine  htteris,  rusti- 
+cus  et  simplex;  quanto  autem  plus  reputabat  se  in- 
+dignum,  tanto  plus  Dominus  suam  gratiam  in  eo 
+augmentabat.  In  fine  taraen  hujus  odoris  et  dulcedinis 
+dixit:  «  Sicut  Deus  insufflavit  in  Apostolos,  insufflavil 
+et  in  me  ^  ».  Quadam  vero  nocte  stante  eodem  cum 
+socio  ante  cellam  suam,  dum  de  verbis  Domini  loque- 
+rentur  suaviter  et  devote,  venit  splendor  quidam  plane 
+transiens  inler  ambos;  cumque  socius  ejus  quaereret 
+ab  eo,  quid  essel,  respondit:  «  Dimitte  ire  ».  Erat 
+autem  tunc  ibi  quidam  frater  religiosus  et  sanctus,  cui 
+Deus  revelaverat  de  secretis  suis.  Nara  paulo  ante- 
+quam  eveniret  hoc  eidem  beato  fratri  Aegidio,  ille 
+viderat  in  somnis,  quod,  ubi  cella  beati  fratris  Aegidii 
+construcla  erat,  ibi  sol  oriebatur  et  ibi  ad  occasum 
+
+
+•  B  «  interpellale  in  ». 
+-  B  «  eiim  B. 
+
+
+—  49  — 
+
+vergebat;  qui  postea  videns  beatiim  fratren^j  Aegidiiim 
+mulalione  dextrae  Excelsi  mirabiliter  immutalum 
+novo  spiritu  gratiae  dixit  ei:  «  Porta  suaviter  filium 
+vlrginis  ^  ». 
+
+10.  Postmodum  bealus  frater  Aegidius  studuit 
+omni  qua  poterat  sollicitudine  servare  gratiam  a  Do- 
+mino  sibi  datam ;  dicebat  enim,  super  omnem  gra- 
+tiam  et  virtutem  esse  scire  ^  custodire  gratiam  a 
+Domino  sibi  datam  ^.  Ex  tunc  etiam  fuit  et  erat 
+semper  in  cella  solilarius,  vigilans,  jejunans,  orans 
+et  ab  omni  opere  et  sermone  malo  se  custodire  sol- 
+licitus  *.  Si  quando  autem  aliquis  voluit  beato  fratri 
+Aegidio  referre  de  alio  quidpiam  mali,  dicebat  sibi 
+hoc  verbum:  «  Nolo,  inquit,  scire  peccatum  alterius»; 
+et  dicebat  referenti :  «  Cave,  frater,  ne  videas  aliquid 
+«  contrarium,  non  ad  utilitatem  tuam  ^  -^. 
+
+11.  Hunc  ergo  servum  bonum  et  in  modico 
+sibi  fidelem  reperiens  Dominus  digne  ipsi  majora 
+commislt;  cui  in  tantum  gratiam  sibi  datam  aug- 
+menlavit,  quod  liomi[jibus  non  poterat  amplius  oc- 
+cullari.  Nam  si  quis  cum  eo  Iractasset  de  gloria  Do- 
+
+
+'  Anal.  Franc.  III.  pjig.  97,  9S  ;  Boll.  n.   12,  96. 
+
+^  In  n  (leest  «  scire  ». 
+
+•"*  U  addit:  t  haec  cst  sunima  ».  Ileiii  dixil:  «  Aposloli, 
+poslqiiam  recepenint  donum  Spirilus  sancli,  centies  et  millies 
+pliis  portaverunl  orius  majus  ad  suslinenduni  iriliulaliones  el 
+ad  custodiendam   {^raliam  sibi  dalani  ». 
+
+*  U:   «  cuslodiens  sollicilus  ». 
+
+*  Anal.  Franc.  III.  pag.  98;  Boll.  n.  12. 
+
+4 
+
+
+—  oO  — 
+
+rnini  et  de  ejus  dulcedine  sive  de  paradiso,  slatim 
+rapiebatur  ^  nec  se  movebat  de  loco.  Proinde  sub- 
+traxit  se  non  solum  a  familiaritate  saecularium,  sed 
+etiam  a  fratribus  suis  et  aliis  religiosis.  Dicebat  enim: 
+«  Securius  est  hominibus,  salvare  animam  suam  cum 
+«  paucis  quam  cum  multis;  hoc  est  esse  solitarium 
+«  et  vacare  Deo  et  animae  suae;  solus  enim  Do- 
+«  minus,  qui  creavit  animam,  est  amicus  ejus  et 
+«t  non  alius  ».  Unde  experienlia  loquebatur  dicens: 
+«  0  quam  spirituale  donum  est,  cui  datum  est  co- 
+((  gnoscere  animam  suam !  Solus,  inquit,  Deus  co- 
+«  gnoscit  eam,  et  cui  voluerit  revelare  ».  Et  ideo 
+de  seipso  dicebat:  «  Si  sanctus  Petrus  et  sanctus 
+«  Paulus  descenderent  de  coelo  et  dicerent  mihi, 
+((  ut  satisfacerem  ^  personis  volentibus  mihi  loqui, 
+«  non  crederem  eis  ».  Item  dicebat:  «  Qui  melius 
+«  facit  faciem  animae  suae,  melius  facit  faciem  anima- 
+«  rum  amicorum  suorum  ».  Iterum  dicebat:  «  iMul- 
+«  las  consolationes  et  visitationes  Domini  potest  homo 
+«  amittere  culpa  sua,  quas  in  perpetuum  non  recu- 
+«  perabit ».  Unde  exemplum  ponebat  de  illis  qui 
+ludunt  ad  taxiilos,  quia  pro  uno  puncto  taxillorum, 
+quod  est  ita  parvum,  amittit  homo  mulla  quando- 
+que;  sic  pro  levi  peccato,  si  nescierit  se  custodire, 
+perdit  homo  magnum  lucrum  animae  suae  ^. 
+
+Item  dicebat  beatus  Franciscus:  «  Scriptum  est: 
+cave,  ne  ridendo  amiltas,   quod    plangendo   lucralus 
+
+
+'  Anal.  Franc.  III.  pag.  98;  Pisanus  fol.  lAI);  Boil.  n.  12. 
+Mta  B  el  C;  A:  o  quod  salisfiRcir  possem  ». 
+3  Anal.  Franc.  III.  pag.  98;  Boll.  n.   12. 
+
+
+Dl     — 
+
+
+es  ^  ».  El  ideo,  quia  beatiis  fraler  Aegidius  a  prin- 
+cipio  conversionis  suae  requiem  non  dedit  lempori- 
+bus  suis,  sed  vacabal  Deo  ^  et  animae  suae,  et  invenit 
+gratiam  coram  eo  et  ab  ipso  honorari  meruit,  ut 
+videtur  de  serretis  coelestibus,  quae  a  tempore  beali 
+Francisci  paucis  fuisse  data  putamus  ^. 
+
+12.  Dixit  semel  frater  Aegidius  quibusdam  hoc 
+verbum  vulgare*^:  «  Propter  illud,  quod  homo  potest, 
+
+
+^  A:  Item  dicebal:  a  Dixil  bealus  Franciscus  scriptum:  cave, 
+ne  ridendo  amiltas,  quod  piangendo  lucraius  es  ». 
+
+-  B:   «  vacare  Deo  semper». 
+
+^  B  addit  fol.  147  b:  «  sicui  enim  quibusdam  IValribus  re- 
+tulit,  unde  dicebat:  Gum  magno  timore  et  cautela  oportet  cu- 
+stodire  secreta  Domini  et  thesaurum  suum.  Explicit  de  S.  fralre 
+Aegidio.  Quomodo  domna  lacoba  de  Seplemsoliis  visiiavit  fratrem 
+Aegidium  »;  deinde  a  qualiter  fraier  Aegidius  extraxit  dubium 
+ix  quodam  magistro  Praedicalore »;  «  quomodo  fr.  lacobus  de 
+Massa  petivit  a  fratre  Aegidio,  qualiter  se  haberel  in  raptu  »; 
+«  de  revelatione  facia  in  cordibus  sancti  Aegidii  el  sancli  Lu- 
+dovici  regis  »;  finitur  «  ad  laudem  et  gloriam  Domini  nostri 
+Jesu  Chrisli,  qui  esl  benedictus  in  saecula.  Anien  ».  Sequitur 
+«  De  Septone  el  commendatione  ejusdem  loci.  Commendabat 
+sanclus  Aegidius  locum  ».... 
+
+*  In  codice  B  caput  hoc  incip't:  «  Cum  sanctus  fiater  Ae- 
+gidius  slaret  Perusii,  domna  lacoba  de  Seplemsoliis  nobilis  Bo- 
+mana  et  devolissima  fratriim  venit  videre  cum.  Poslea  super- 
+venit  fr.  Gardeanus  (!)  de  ordine  Friilrum  Minoium  valde  s|)i- 
+ritualis,  ut  ali(|uod  bonum  verbiiui  ab  eo  aiidiret.  Praedicto 
+ergo  cum  aliis  fratribus  asiantibus  dixit  fr.  Aegidius  hoc  verbiim 
+viilgare  »;  secjiiitur  rolloqnium  illud  multo  fuRJus,  (\l  u  a  vis, 
+(|iiod  oslendam  libi  clariiis  »  idcni  li.dMlnr,  (|ii<)d  ((hIcx  A  siib 
+hoc  numero  habel. 
+
+
+—  o2  — 
+
+venit  ad  illud,  quod  non  vull  ».  Cui  objecil  Guar- 
+dianus  ibidem  astans  probando,  quod  homo  nihil 
+potest  ex  se,  et  multiplici  ratione,  quarum  recito 
+unam  tantum,  et  hoc  sic:  «  Posse  praesupponit  esse, 
+«  unde  talis  est  operalio  rei,  quale  est  esse  ejus,  sicut 
+«  ignis  calefacit,  quia  est  calidus;  sed  homo  est  ex  se 
+«  nihil,  propter  quod  dicit  Aposlolus:  qui  pulat  se  ali- 
+«  quid  esse,  cum  nihil  sit,  ipse  se  seducit;  quod  au- 
+«  tem  non  est,  nihil  potest;  ergo  homo  nihil  potest » 
+et  cetera,  et  fecit  XIll  rationes,  quas  fraler  Aegidius 
+pulcherrime  fructificavit.  Ad  hanc  respondit  sic  di- 
+cens:  «  Frater  Guardiane,  non  loquor  de  esse  ho- 
+«  minis  ante  creationem,  quia  tunc  verum  est,  quia 
+«  nihil  est,  et  tunc  nihil  facere  potest;  sed  loquorde 
+((  esse  hominis  post  creationem,  cui  Deus  dedit  libe- 
+«  rum  arbitrium,  propler  quod  possum  mereri  bonis 
+«  consentiendo  et  demereri  dissentiendo;  ideo  male 
+«  dixisti  et  fecisti  mihi  fallaciam,  quia  r\\ulus  aposlo- 
+«  his  non  loquitur  ibi  de  nihilo  substantiae  vel  de 
+«  nihilo  potentiae,  sed  de  nihilo  merilorum,  sicut  dicit 
+«alibi:  ,si  caritalem  non  habuero,  nihil  sum*».Et 
+iterum  ail:  «  Vis  quod  ostendam  tibi  clarius,  quod 
+«  creatura  aliquid  potest»?  Ei  ascendens  super  quan- 
+dam  arcam  clamavit  voce  terribili:  «  0  damnate, 
+«  qui  jaces  in  inferno  »!  et  ipsemet  respondit  voce  lu- 
+gubri  in  persona  damnati  quodam  modo  horrendo 
+et  timendo,  ita  quod  omnes  exlerruit:  «  Hou  vae! 
+«  heu!  heu!»  clamans  et  ejulans.  Et  frater  Aegidius: 
+«  Dicas  inquit  nobis,  quare  ivisti  ad  infernum»,  re- 
+spondit:  «  Quia  mala,  quae  polui  vitare,  non  vitavi, 
+«  et  bona,  quae  potui  operari,  dimisi  »,  et  inlerrogans 
+
+
+-  o3  - 
+
+illuni  dicebal:  «  Qnid  velles  facere,  si  permitteret 
+«  tibi  tempns  poenitentiae,  o  damnate  captiveile  »?  el 
+respondit  in  persona  ejus:  «  Totum  mundum  pau- 
+«  lalim,  paulatim  post  me  projicerem,  si  aelernam 
+«f  poenam  evadere  possem,  quia  illud  haberet  finem, 
+«  sed  mea  damnatio  manet  in  aeternum  ».  Et  vertens 
+se  ad  fratrem  Guardianum  dicebat:  « Audis,  frater 
+«  Guardiane,  quod  creatura  aliquid  potest»?  Post  haec 
+dixit  fratri  Guardiano:  «  Dicas,  utrum  aquae  gulla 
+«  cadens  in  mare  imponat  nomen  suum  mari,  an  mare 
+«gutlae»,  et  respondit,  quod  tam  substantia  quam 
+nomen  absorberetur  et  indueret  nomen  maris  ^  Et 
+hoc  diclo  frater  Aegidius  coram  omnibns  illic  astan- 
+tibus  fuit  raplus;  inteliexit  enim,  quod  natura  hu- 
+mana,  quae  est  respectu  Dei  quasi  gutta,  absorpta 
+fuit  in  mari  magno,  imo  infinito,  divinitatis  in  in- 
+carnatione  Domini  noslri  Jesu  Christi,  qui  est  bene- 
+dictus  in  saeciila  ^ 
+
+13.  De  Seplone  el  commendalione  ejusdem  locL 
+
+Commendaijat   beatus  fraler  Aegidius   locum  de 
+
+Septone  propter  misericordiam  Domini  et  gratiam  et 
+
+magnain  praerogalivam,  quam  ostendit  ei    in    prae- 
+
+
+'  IJ:  «qiiod  lam  rnodica  substanlia  gullae  afiuaii  absorbe- 
+relur  ei  induil  ». 
+
+-  Anal.  Fianc.  III.  pa;;.  \01  ferc  idem  sub  «  iJe  (iiiudain 
+rapiu  mirabili  coram  Jacoba  de  Scplemsoliis  ■;  Pisanus  fol. 
+LIV  b;  IU)\\.  91,  92.  9.'J.  MaximH  habeliir  diversilas  in  scri- 
+b<'nd<)  nomine  fralris;  codcx  A  dicil  «  fraler  (iuardianus  »,  codex 
+li  plures  liabei  lecliones,  Moll.  «  (iuardiis  »,  Pi.saiius  w  (ierardi- 
+nus  »;  conf.  Anal.  Kranc.  I.  c.  paj,'.   102,  noUi  3. 
+
+
+—   o4  — 
+
+diclo  loco,  siiper  omnia  loca  et  citramarina  et  ul- 
+tramarina,  sex  ^  locis  ultramarinis  exceplis,  quibus 
+el  hunc  comparabat,  el  dicebat,  quod  ad  hunc  locum 
+deberent  homines  accedere  cum  majore  reverentia  et 
+devotione;  quam  ad  sanctum  Angelum  et  ad  sanctum 
+Petrum  et  sanctum  Nicolaum  vel  ad  aliquem  locum 
+citramarinum,  cum  sit  major  dominus  quam  servus, 
+el  Christus  sit  major,  quam  alii  sancti ;  dicebatque, 
+quod  similis  huic  loco  esse  polest,  major  aulem 
+esse  non  potest;  cumque  talia  diceret,  respondit  so- 
+cius  ejus  dicens  sibi :  «  Pater!  magnum  fuit,  quod 
+«  accidit  in  monle  Alvernae  beato  Francisco  de  Sera- 
+«  phini;  nobilis  etiam  fuit  virgo  beata  Chrislina  et 
+«  sancta  Catharina  ^,  multae  aliae  virgines  el  sancti 
+«  per  provincias  ».  Ad  hoc  bealus  frater  Aegidius 
+«  dixit:  Fili,  non  est  aliquid  creatura  in  compara- 
+«  lione  Crealoris  ^  ". 
+
+14.  Alia  vice  fuil  frater  Gratianus^,  socius  ejus, 
+fraler  Jacobus,  fraler  Andreas  de  Burgundia  cum 
+beato  fratre  Aegidio,  et  dixit  idem  frater  Gratianus 
+dicto  fratri  Andreae:  «  Invenitur  in  sacra  Scriptura, 
+«  quod  Dominus  noster  Jesus  Christus  apparuerit  ali- 
+«  cui  citra  mare  post  resurrectionem  suam»?  Hoc 
+autem  dixit  volenAscire   in   veritate,   si   aliquid  ad 
+
+
+I 
+
+
+^   13:   «  VII  locis.. 
+
+-  A:  «  Nobilis  eliam  virgo  fuit  sancta  chrisliana  Katharina  ». 
+•■^  Anal.  Franc.  III.   i)ag.  98,  99;   Pisanus    fol.   LVa;    Boll. 
+n.  97. 
+
+*  A:  «  cum  essenl  fraier  Aegidius,  Graiianus  ». 
+
+
+—  5o  — 
+
+hoc  responderet  beatus  frater  Aegidius.  Tunc  statim 
+respondit  cum  exclamatione  magna  dicens:  «  Dicis 
+«  tu,  si  apparuil  Dominus  citra  mare?  immo  apparuit 
+«  minus  quam  duodecim  dietis  a  loco  isto  ».  Dixit 
+idem  frater  Andreas:  «  Ubi,  pater,  fuit  hoc  »?  respon- 
+dit  bealus  frater  Aegidius:  «  Quod  vides,  vides; 
+quod  autem  audis,  audis  »:  Dixit  etiam  idem  frater 
+Andreas:  «  Bene  invenitur  apparuisse  Dominum  beato 
+Petro  prope  Romam  in  loco,  qui  dicitur:  Domine 
+quo  vadis  »?  respondit  beatus  frater  Aegidius:  «  Non 
+"  dico  de  hoc  loco,  quia  multo  majus  fuit  hoc,  quod 
+«  dico,  quam  illud.  Scio  enim,  inquit,  talem  locum, 
+«  ubi  fecit  Dominus  maiora,  quam  usque  nunc  fecit 
+^<  citra  mare  alicui,  de  quo  ego  audiverim ;  potuit 
+«  autem  Deus  fecisse  aliqua,  quae  non  audivi;  sed  de 
+«  his,  quae  audivi,  hoc  fuit  majus,  quam  fecerit  hu- 
+«  manilati  ».  Dixit  ei  idem  frater  Andreas:  «  Magna 
+«  fecit  Deus  beato  Petro  Romae  et  beato  Francisco 
+«  Assisii,  magna  valde  sunt  haec,  quae  dicis,  si  sunt 
+«  majora  ilIis».Cui  beatus  frater  Aegidius  respondit: 
+«  Verum  est,  quod  illa  magna  fuerunt,  sed  aliud  sunt 
+opera  Domini,  aliud  ipse  Dominus»,  et  slalim  sub- 
+junxit:  «  Oculi  tui  amabiles,  aures  tuae  inenarrabi- 
+les;  alia  autem  tua  ^  sunt  nimis  magna  ».  Dixit 
+ei  frater  Andreas:  «  Kt  ubi  est  il^  locus»,  cui  bea- 
+tus  frater  Aegidius  respondil:  «»od  vides,  vides; 
+quod  autem  audis,  audis  ».  I^isle.wlixil:  «  Fuisti  ad- 
+huc  Clusii»?  dixit  frater  Ancheas:  «  Non,  sed  vidi  con- 
+
+
+In  A  :   «  .'ilia  aiilem  (ri.'i  ». 
+
+
+—  56  — 
+
+tratam  illam  »;  respondit  frater  Aegidius:  «  Bene  «;  et 
+subjunxit:  «  Scis  tu,  quando  facta  sunt  haec  mn- 
+gna  »?  cui  respondit  frater  Andreas:  «  Et  quando»? 
+dixit  beatus  frater  Aegidius:  «  Eo  anno,  quo  migra- 
+vit  sanctus  Franciscus,  et  duraverunt  a  tertia  die 
+ante  Nativitatera  Domini  usque  ad  vigiliam  Epipha- 
+niae»;  dixit  ei  frater  Andreas:  «  Duravit  hoc  fa- 
+ctum,  quod  tu  dicis,  tanlo  tempore  continue  vel  in- 
+terpolate»?  cui  respondit  beatus  fraler  Aegidius: 
+«  Non  continue,  sed  per  vices  tantum  fuit  de  die  et 
+nocte».  Postea  dixit:  a  Ego  processi  multum  in  hisce 
+verbis».  Dixit  ei  frater  Andreas:  «  Credo,  quod  Do- 
+«  minus  vult,  quod  ahquando  dicant  servi  sui  aliqua 
+«  secreta  ad  utihtatem  ahorum  »;  cui  frater  Aegidius 
+respondit:  «  Non  fuit  in  iho  facto  mea  culpa;  mul- 
+«  tum  enim  tunc  rogavi  Dominum,  et  dixi  ei,  quod 
+«  non  decebat  me  ita  magna,  sed  ipse  est  Dominus 
+«  et  facit,  quod  placet  sibi  ^  ». 
+
+lo.  De  visione,  quam  hahuil  in  monte  Pesii- 
+lano  2. 
+
+Alia  vice  dixit  frater  Andreas  beato  fratri  Ae- 
+gidio:  «  Magna  fecit  Dominus  in  monte  Alverniae 
+«  beato  Francisco».  Respondit  beatus  frater  Aegidius: 
+«  nescio  talem  montem  citra  mare,  qualis  est  mons 
+Pesulanus».  Dixit  ei  fraler  Andreas:  «  Nonne  tibi 
+videtur  magnum  valde,  si  angelus  apparuit  alicui »? 
+
+
+1  Anal.  Franc.  III.  piig.  99;  Pisanus  LlVb;  Boll.  n.  <  6. 
+
+2  «  Mons  Pesulanus  »  est  mons  prope  Celonam  situs,  qui 
+nunc  «  mons  S.  Fr;incisci  »  vocalur. 
+
+
+—  57  — 
+
+Dixit  beatus  frater  Aegidius:  «  Miror  de  le,  frater 
+((  Andreas,  quia  si  non  esset  coelum  neque  lerra  ne- 
+«  que  angeli  neque  archangeli  neque  aliqua  crea- 
+«  tura,  non  esset  minor  magniludo  Dei  propter 
+tf  hoc.  Unde  hoc  est  magnum  factum,  quando  ap- 
+«  paret  Dominus  ».  Dixit  ei  frater  Andreas:  «  Vel- 
+«  lem,  quod  fieret  una  valde  puichra  ecclesia,  ubi 
+«  fecit  Dominus  ila  magna  ».  Respondit  beatus  frater 
+Aegidius:  «0  quam  bene  dicis  »?  Dixit  ei  frater 
+Andreas:  «  Quale  vocabuhim  deberet  habere  vel  im- 
+poni  ecclesiae»,  cui  respondit  beatus  frater  Aegidius: 
+«  Vocabulum  festi  ^  Penlecostes » .  Dixit  ei  frater  An- 
+dreas:  «  Credis  tu,  quod  Spiritus  sanctus  venerit  in 
+«  aliquem  postea,.  sicut  venit  in  Apostolis  in  Pente- 
+«  coste,  hoc  est  in  igne»?  Respondit  beatus  frater 
+Aegidius:  « Si  ego  glorifico  meipsum,  gloria  mea 
+«  nihil  est  »,  et  addidit:  «  Non  dicamus  plus  de  ista 
+0  maleria  ».  0  sancte  Aegidi  et  revera  sanctissime, 
+cui  Dominus  tantam  gloriam  conferre  dignatus  est! 
+Etenim  in  persona  alterius  de  teipso  loquebaris  ^  di- 
+cens:  «  Reatus  Paulus  inquit,  bis  se  fuisse  raptum, 
+sive  in  corpore,  sive  extra  corpus,  adjungens:  nescio, 
+Deus  scit:  sed  quid^,  si  aliquem  Dominus  cerlum 
+de  hoc  redderet  ■*  »>. 
+
+
+'  A  :   «  fecisli  » . 
+
+^  B:   «  de  se  lo(|ijens  loqiicbaliir  ». 
+*  In  B:  (Jeesl  o  (jiiid  ». 
+
+'  .\n.il.  Franc.  III.  pag.  90  lin.  39;  Pis.  LVa;  Ikjll.  n.  07; 
+monlem  vocanl  «  Pesulum  ». 
+
+
+—  o8  — 
+
+16.  De  quadam  tribulatione  diaboli,  quam  sibi 
+fecit  in  loco  de  Septone  ^ 
+
+Cum  jam  ad  diem  obilns  sui  appropinquaret 
+bealus  frater  Aegidius,  ut  post  laborem  et  cerlamen 
+requiem  et  coronam  Dominus  sibi  daret,  adbuc  plus 
+more  solito  coepit  impugnari,  ut  probatus  per  omnia 
+ostenderelur.  Nam  cum  quadam  nocte  post  longas 
+orationes  quietem  vellel  facere  post.  laborem,  dae- 
+mon  cepit  eum  et  in  loco  tam  arcto  locavit,  ut  non 
+possel  abquantulum  se  movere.  Cumque  sic  existens 
+anxietate  maxima  laboraret,  ut  surgeret,  frater  Gra- 
+lianus  sibi  serviens  coepit  aliquantulum  hoc  audire. 
+Cum  vero  magis  cellae  appropinquaret,  et  audivit 
+ipsum  clarius  forliter  anxiantem.  Cumque  sic  audi- 
+ret,  intra  seipsum  coepit  cogitare  et  dicere:  «  Si 
+accedis  propius  et  erit  in  oratione,  ipsum  orare  per- 
+mittas;  si  autem  aliter  erit,  videbis,  quid  est»?  Et 
+his  dictis  usque  ad  ostium  cellae  ivit  et  coepit  au- 
+scultare;  cumque  audiret  eum  sic  laborantem,  allo- 
+quitur  ipsum  et  ait:  «  Quid  habes  pater  »?  At  ille: 
+«  Veni,  fili  mi,  veni  »;  qui  videns  ostium  et  aperire 
+non  valens  dixit:  «  Quid  est  hoc,  quod  aperire  non 
+possum»?  Et  sanclus  Aegidius:  «  Firma  fortiter  fili  et 
+ostium  aperias  velociter  ^  ».  Intransque  cellae  porti- 
+cum,  ubi  sanctus  Aegidius  jacebat,  ipsum  totis  vi- 
+ribus  erigere  nitebatur  et  non  valens,  dixit  sanctus 
+
+
+^  B:  «  quam  fecil  sibi  diaboliis  prope  morlem  ». 
+
+-  I)  addil:  «  nam  ego  sum  oslio  appodintus  ab  hoslibus, 
+non  possum  surgere;  qui  dum  fortitudine  adjutus  impellens 
+fortiter  ostium  aperuit  violenter;  intransque». 
+
+
+—  59  — 
+
+Aegidius:  «  Fili,  dimittamus  in  manu  Domini  »;  quod 
+ille  licet  invitus  annuit  sancto  Aegidio,  et  cum  sic 
+aliquantulum  dimisisset,  viriliter  cepit  ipsum  et  ex- 
+traxit  de  loco  tam  arcto.  Et  postquam  aliquantulum 
+quievisset,  dixit  socio  suo:  «  Quare  nititur  diabolus 
+tantum  divina  beneficia  impedire»?  et  ait  socio  suo: 
+«  Bene  fecisti,  fili,  inquit,  quod  ad  me  venisti,  Domi- 
+«  nus  retribuat  tibi »;  et  dixit  ei  socius  suus:  «  Quare 
+«  hoc  fecisti,  pater?  cur  non  vocasti  me?  qualem,  in- 
+«  quit,  conscienliam  potuissemus  habere,  si  mortuus 
+«  fuisses?  nam  tibi  et  nobis  valde  reprehensibile  fuis- 
+«  set  »;  cui  beatus  Aegidius  respondit:  «  Quid  tibi, 
+«  fili,  si  fit  vindicta  de  inimicis  meis?  quare  igitur, 
+«  inquit,  insidiatur  tanlum  diabolus  beneficiis  Dei? 
+«  et  si  semel  hoc  esset,  bis  vel  ter,  portabile  esset, 
+«  sed  semper  nititur;  sed  hoc  scito  pro  firmo,  quod 
+«  quanto  plus  nititur  moleslare,  lanto  plus  inferius 
+«  descendel,  quia  resistit  Deo.  Non  enim,  inquit,  meum 
+«  principium  fiiit  servire  Deo,  sed  Dei;  et  finis  erit 
+«  simili  modo  per  misericordiam  suam  ^  ». 
+
+17.  De  alia  tribulalione,  fjuam  diaholus  sibi 
+fecil  in  loco  de  Seplone. 
+
+Item,  cum  quadam  nocte  beatus  frater  Aegidius 
+oraret  ad  Dominnm,  daemon  voluit  impedire  beneficium 
+a  Domino  sibi  minislratnrn;  ad  cujus  terrorem  valde 
+perterritus  coepit  terribilibiis  vocibus  clamare  el  di- 
+cere:    «  Succurrile,   fratres,   succurrite  »!   ad    quam 
+
+
+'  Anfil.  Franc.  III.  pag.   III,   112;    Pis.uius    fol.  LV  n,    ubi 
+(licilur:   t  scd  divina  grnlia  Inndcrn  cxivii  »;  Holi.  n.   100. 
+
+
+—  60  — 
+
+vocem  frater  Gralianus  excilatns,  qni  erat  prope  enm 
+in  quadam  cella,  surrexil  velociter  et  ivit  ad  eum 
+clamans  et  dicens  forliler:  «  iNe  timeas,  ne  timeas, 
+pater!  ego  enim  succurro  tibi  ».  Et  accedens  ad 
+cellam  ejus  dixil:  «  Quid  habuisti  paler»?  Qui  dixit: 
+«  Ne  cures,  fili,  ne  cures  »;  et  fr.  Gratianus  respon- 
+dit:  «  Dimitte  me,  inquit,  esse  juxta  te,  ex  quo  tantum 
+persequitur  inimicus».  Cui  pater  respondit:  «  Domi- 
+«  nus  relribuat  tibi,  fili;  nam  bene  fecisli,  quia  venisti 
+«c  ad  me;  vade,  inquit,  et  revertere  ad  iocum  tuum  ». 
+Cum  autem  vellet  de  sero  post  comestionem  redire 
+ad  cellam,  dicebat:  «  Exspecto  martyrium  ^  ». 
+
+18.  De  consolatione  divma,  quam  habuit  in 
+eodem  loco. 
+
+Cum  esset  prope  obitum  suum,  quadam  vice 
+cum  reverteretur  a  cella  gaudio  indicibili  plenus 
+cuidam  socio  suo  dixit:  «  Fili,  quid  tibi  videlur, 
+«c  quid  sit  hoc?  Ego  enim  inveni  unum  magnum  the- 
+«  saurum  tam  lucidissimum  et  splendidissimum,  quod 
+<c  lingua  carnea  exprimere  non  possum.  Ego  devasto, 
+cc  fili,  ego  devasto;  sed  dicas,  fili,  benedicaris  ^  a  Deo, 
+«  quid  tibi  videtar »?  Et  saepius  hoc  iterabal;  erat 
+enim,  cum  hoc  dicerel,  tanto  gaudio  et  odore  ple- 
+nus,  quod  quasi  Spiritu  sancto  ebrius  videbatur.  Cui 
+cum  quidanj  fraler  diceret,  ut  veniret  et  cibum  su- 
+meret,  respondit:  «  Hic  est  optimus  cibus,   fili  »;  et 
+
+
+'  Anal.  Franc.  III.    pag.    112    lin.  26;    Pisanus    fol.   LVa; 
+Boll.  pas.  24  i  n.   100. 
+
+-  H:   «  si  benedicaris  » 
+
+
+—  61  — 
+
+quasi  eum  tenlans  frater  respondil:  « In  lalibus  non 
+«  est  curandum,  pater,  veni,  veni,  ut  comedas».  Et 
+sanctus  non  leviter  ferens  responsum  fratris  ait: 
+«  Non  bene  dixisli,  frater;  polius  enim  voluissem, 
+«  si  tam  gravem  alapam  mihi  dedisses,  quod  sanguis 
+«  exisset».  Credendum  est,  quod  illa  sanclissima  ani- 
+ma  jam  sentiret,  quod  dilectus  suus  vellet  extrahere 
+eam  de  tabernaculo  suo  ad  fruendum  illum  gloriosis- 
+simum  thesaurum  in  coelis,  quem  ab  inilio  suae  con- 
+versionis  meruit  invenire  et  custodire ;  nam  istam 
+mortem,  quam  praedixit  et  ex  multo  tempore  deside- 
+ravit,  ex  hoc  Dominus  adimplevit  desiderium  suum  K 
+
+19.  De  dulccdine,  quam  in  contemplatione 
+hahuit. 
+
+Cum  quadam  vice  quidam  frater  dicerei  ei, 
+quod  beatus  Franciscus  dixisset,  quod  servus  Dei 
+semper  debet  desiderare  mori  et  fmire  morle  mar- 
+tyrii,  ipse  respondit:  «  Ego,  inquit,  nolo  mori  meliori 
+morte  quam  de  contemplatione  »;  imo  quodam  tem- 
+pore,  cum  ex  desiderio  martyrii  pro  Christi  amore 
+iverat  ad  Saracenos,  postquam  reversus  fuit  et  me- 
+ruit  ascendere  ad  culmen  contemplationis,  ait:  «  No- 
+luissem  tunc  mori  moite  martyrii  ^  ». 
+
+^O.  De  Iran-sita  et  ejus  morte. 
+Prope  obitum   suum   coepit   fortiter   febricilare 
+et  ex  nimia  anxietale  lussis  et  dolore  capitis  et  pe- 
+
+'  Anal.  Fraric.  III.  pag.   112,   II .'i;  Boll,  ii.  •.)«). 
+''  Anal.  Franc.  III.  \)ii<^.   11.3;   IJoll.  n.  1)9. 
+
+
+—  6^2  — 
+
+ctoris  non  polerat  comedere  neque  (Jormire  neque 
+quiescere,  sed  super  lectum  fralres  die  noctuque 
+porlabant  eum,  ut  quietem  inveniret.  In  vigilia  vero 
+S.  Geurgii  martyris  nocte  illa  hora  matutinali,  cum 
+fratres  eum  sic  portarent,  posuerunl  eum  super  le- 
+ctum,  et  sic  quasi  sine  tractu  clausis  oculis  et  ore 
+rapta  est  ilia  sanctissima  anima  ad  supernam  pa- 
+triam. 
+
+0  sancte  Aegidi  sanclissime,  qui  eodem  die,  quo 
+Dominus  te  inspiravit  et  adduxit  ad  bealum  Fran- 
+ciscum,  ut  imitareris  eum,  et  ipse  te  illo  die  induit 
+vestimento  religionis,  revolutis  quinquaginta  duobus 
+annis,  iilo  eodem  die  Dominus  te  perduxil  ad  so- 
+cietatem  civium  supernoriun ! 
+
+Quaedam  vero  sancta  persona  vidit  tunc  per  vi- 
+sionem,  quod  Dominus  cum  mililia  angelorum  et  ani- 
+marum  sanctarum  obviavit  et  occurrit  illi  in  aera  el 
+cum  honore  et  cantico  angelorum   assumpsit  eam  ^ 
+
+21.  Seplem  valde  laudabilia  et  salutaria  hal3uit 
+in  se  beatus  frater  Aegidius:  a  principio  suae  con- 
+versionis  et  usque  in  finem  mortis  magis  ac  magis 
+perfectior  extilit,  propter  quae  creditur  Dominus  larga 
+benedictionis  manu  gratiam  muitiplicasse  in  eo  et 
+donis  potioribus  eum  abundasse  -.  Primum  est,  quod 
+ipse  fuit  vaide  (ideiis,  imo  fidelissimus  et  catholicus; 
+secundum,  quod  fuit  reverens;  terlium,  devotus;  quar- 
+
+
+^  Anal.  Franc.  III.   i)ng    113    lin.   31    et  lli;   Pisanus   fol. 
+LVa;  Boll.  n.   101. 
+
+^  B  addit  «  et  ampliasse  ». 
+
+
+—  6S  — 
+
+tuQi,  pius  et  compaliens';  quintum,  sollicitus;  sextum, 
+obediens;  septimum,  gratissimus  Deo  et  liominibus 
+fuit  de  beneficiis  sibi  collatis  ^. 
+
+Claruit  et  miraculis  plurimis  in  vita  sua.  Et  qui 
+scripsit,  expertus  est  hoc  in  seipso 
+
+
+3 
+
+
+Incipiunt  quaedam  verba  fratris  Aegidii 
+valde  notabilia. 
+
+De  caulela  verborum  "^ .  \)\\\i  beatus  frater  Ae- 
+gidius:  Provide  verba,  ut  ante  veniant  ad  limam, 
+quam  ad  linguam.  Cave  autem  a  multiloquio,  quia, 
+qui  multis  ulitur  verbis,  ofTendit  animam  suam.  Nul- 
+lum  despicias  propter  quietem  conscientiae.  Te  et 
+tua  non  laudes,  quia  hoc  est  vituperabile.  Cordis  ar- 
+cana  non  publices,  quia  hoc  stultum  el  stullorum  esl. 
+
+l)e  suhjeclione  et  humiliiate.  Majori  noli  con- 
+tradicere,  sed  sine  contentione  et  murmuratione  slude 
+humiliter  obedire,  et  sine  obedientia  nihil  facere 
+praesumas.  Fuge  scire  aliorum  peccata,  quia  inde  ca- 
+ritas  refrigescil  ^.  Saepe  ventila  factum  tuum,  utrum 
+sis  in  bono  statu,  an  non. 
+
+
+'   (j :   €  palieiis  ». 
+
+*  Pisanus  fol.  LV  a,  lioll.  n.  Hi;  Pisaiuis  et  Codex  C  se- 
+cundum  el  lerlium  inverluru. 
+
+■*  B:  €  Claruit  ctiam  in  iiiiiliis  iiiiriiculis  iii  vila  paritcr  el 
+iii  morle;  el  qiii  hoc   SLTipsil,  cxpertiis  est  in  scipso.  Amen  ». 
+
+'  Tiiuli  desunt  in  A;  habenlur  in  B  in  marglnc. 
+
+'^  IJ:   «  minuitur  •. 
+
+
+—  64  — 
+
+De  fuga  saecularium.  Cave  summo  sUidio  ab 
+aspectu  virorum  ac  mulierum  et  eliaai  creatura- 
+rum  irrationabilium,  qnia  inducunl  curiositatem  et 
+cordis  siccitalera.  Aures  et  <.s  similiter  claude  a 
+murmuralione  et  detractione  \  et  quidquid  tamen 
+praeter  Deum  audis,  non  sapias  et  audire  non  cures. 
+
+De  custodia  cordis.  Orani  custodia  custodi  cor 
+luura,  ut  nihil  cogites,  nihil  velis,  nihil  desideres, 
+nihil  ames  nisi  vitam  aeternara,  ut  possis  dicere  cura 
+Propheta:  «  Unam  pelii  a  Doraino,  hanc  requirara  ^ «. 
+Omnia  postpone,  et  da  oblivioni :  primo  parentes 
+exemplo  Chrisli,  qui  matrem  suara  coraraendavit 
+loanni;  secundo  honores  fuge  Chrisli  exeraplo,  qui 
+fugit,  qui  noluit  ab  aliis  effici  rex;  tertio,  delicias 
+exemplo  Christi,  qui  pannis  vilibus  involutus  est  et 
+redinatus  in  praesepio;  quarto,  araicitias  et  faniilia- 
+ritates  exeraplo  Christi,  qui  aliquando  raorabatur  in 
+desertis  locis  ^. 
+
+De  paupertate  diligenda.  Dilige  paupertalem, 
+ut  Christum  pauperem  valeas  iraitari  et  liberius  ^ 
+possis  Doraino  vacare;  nihil  curiosura  tecura  portes, 
+quia  circa  talia  cor  raultura  evagatur. 
+
+De  fuga  rumorum.  Rumores  inuliles  fuge,  quia 
+in  his  lalibus  voluntas  horainis  raultura  variatur. 
+Saepius  intra  quolidie  ad  orationera;  et  si  sera[:)er 
+dura  oraveris,  Durainus  visitaverit  cor  tuura,  bene  ^ 
+
+^  In  A  deesi  «  a  delraclione  >. 
+
+2  Ps.  XXVI,  4. 
+
+3  Deest  in  B  a   t  qui  fugil  —  qni  aHquando  ». 
+*  A:   «  libenlius  ». 
+
+5  In  B  deest  «  bene  »;  loco  o  el  si  »  iegilur  «  ut  si  >. 
+
+
+—  6d  — 
+
+et  si  non  semper,  exspecta  enm  et  pulsa  cum  cor- 
+dis  contritione  dicendo:  «  0  Domine,  ego  sum  falsus 
+religiosus,  hypocrita,  superbus  S  vanagloriosus  et  in- 
+gratus  beneficiis  tuis»;  et  sic  te  humiliando  Dominus 
+cor  tuum  visitabit  et  illuminabit,  quia  ^  de  sputo 
+et  lulo  Dominus  caecum  a  nativitate  illuminavit. 
+
+De  memoria  dominicae  passionis.  Quotidie  in 
+hora  nona  vel  aliqua  alia  hora  secreto  recordare  in 
+amaritudine  animae  tuae  passionem  Domini  tui  et 
+peccata  tua  et  proximorum.  Post  completorium  esto 
+sollicitus  orare.  Tempore  orationis  locum  secretum 
+quaere  exemplo  Christi,  qui  erat  in  desertis  [oerno- 
+ctans  in  oratione.  Nemini  multum  loquaris,  nisi  illis, 
+qui  in  tua  pugna  juvare  te  possunt.  Fuge  omnes, 
+qui  tuo  certamini  contradicunt. 
+
+Commendatio  paupertatis.  0  sancta  paupertas! 
+qui  te  imilantur,  tu  es  eis  porta  paradisi  et  regni 
+coelorum. 
+
+De  angelis.  Quatuor  acciderunt  illis  angelis,  qui 
+noluerunt  stare:  Propter  dilectionera  odium;  propter 
+pulchriludinem  turpitudo;  propler  slabilitatem  ruina; 
+propter  beatitudinem  poena  ^. 
+
+
+*  B:  «  fraliibus  »  loco  «  supeibiis  ». 
+
+'  In  B  deest  «  el  sic  te  humiliando  —  quia  ». 
+
+'  In  A  addilur  «  Usque  modo  scripsimus  aliqua,  (quae) 
+nolavil  fraler  sanclus  socius  beali  Francisci.  Amodo  scribemus 
+aliqua,  qiiac  nolaverunl  «orii  cl  familiares  ejiisdem  snncli  fra- 
+iris  Aegidii,  dc  miiltis  pauca  v;ilde  nolabilia  ».  In  B  iiiver- 
+sio  est  facla;  hir  sequuniur  «  Septem  valde  laudabilia  el  salu- 
+laria  ». 
+
+5 
+
+
+APPENDIX 
+
+
+YITA  SANCTI  FRATRIS  AEGIDII. 
+
+1.  Quando  iste  sanctus  pater  fraler  Aegidius 
+voluit  intrare  ordlnem,  a  Domino  inspiratus  ivit  ad 
+sanctam  Mariam  de  Porliuncula,  ubi  morabatur 
+sanctus  Franciscus  et  procidit  ante  pedes  ejus,  quem 
+cum  interrogasset  sanctus  Franciscus,  quid  quaere- 
+ret,  respondit:  «  Volo  esse  vobiscum  amore  Dei  », 
+cui  sanctus  Franciscus:  «  Magnum  fecit  tibi  Domi- 
+«  nus  donum ;  esto,  inquit,  quod  imperator  venisset 
+«  Assisium  et  vellet  aliquem  de  civitate  illa  in  suum 
+«  militem  vel  camerarium,  multi  essent,  qui  hoc  affec- 
+«  larent;  quanto  magis  reputare  deberes  donum,  quod 
+«  de  his  omnibus  Dominus  te  elegit  et  vocavit  ad  cu- 
+«  riam  suam  ».  Post  haec  procurata  tunica  Assisii  in- 
+duit  eum  beatus  Franciscus  (l  et  :2)  ^ 
+
+2.  Fuit  autem  sanctus  Aegidius  contenlus  una 
+lunica,  et  cum  iret  in  peregrinationem  ad  sanctum  Ja- 
+cobum  et  obviaret  cuidam  pauperi  homini,  pietate 
+motus  caputium  exuit  de  tunica  et  dedit  illi;  et  sic 
+
+
+^  Niimeri  isti  designanl  vitae  majoris  paragraphos,  ex  qui- 
+bus  haec  excerpla  sunt. 
+
+
+—  67  — 
+
+ambiilavit  XX  diebus  sine  capulio  et   reversus  esl 
+tandem  Assisium  (3). 
+
+3.  Et  quia  devotissimus  homo  eral  et  catholi- 
+cus,  ivit  in  peregrinationem  ad  sanclum  Angelum 
+et  sanclum  Nicolaum  de  Bari.  Vadens  ergo  sic  per 
+mundum,  hortabalur  homines,  ut  timerent  et  ama- 
+rent  Creatorem  coeh  et  terrae  et  facerent  poeniten- 
+tiam  de  peccatis  suis  (4). 
+
+4.  Ivit  etiam  ullra  mare  et  visitavit  terram  san- 
+ctam,  et  cum  fecisset  moram  apud  civitatem  Anco- 
+nilanam,  ut  non  comederel  panem  suum  otiosum, 
+porlabat  aquam  de  longe  de  fonte,  portans  magnum 
+vas  in  humero  suo,  et  ibat  per  civitatem  dicens 
+hominibus  et  mulieribus,  ut  acciperent  aquam  et 
+darent  sibi  panem  amore  Dei.  Non  verecundabatur 
+servus  Dei  excelsi  humiliare  se  et  inclinare  se  ad 
+omne  opus  servile  et  honestum  propter  bonum  ex- 
+emplum,  ut  de  labore  manuum  suarum  comederet. 
+Nam,  cum  visitaret  quodam  lempore  dominum  Ni- 
+colaum  Cardinalem  et  episcopum  Tusculanum,  ipse 
+ibat  ad  adjuvandum  homines  ad  colligendum  olivas  et 
+ad  alia  servitia,  et  accipiebat  pro  labore  suo  panem, 
+et  sic  apporlabat  ad  domum  Cardinalis,  et  cum  di- 
+cerel  sibi  domirms  Cardinalis,  ut  tanquam  pauper 
+manducarel  de  pane  sno,  ipse  dicebat:  ^  Labores 
+fiianuuFH  elc.  ».  Sic  bealus  Franciscus  docuit  primo 
+fialres  suos,  et  in  regula  fecit  scribi  et  in  tcsla- 
+menlo  suo  prope  morlem  confirmari  (o). 
+
+5.  Revertente  autem  d(;  [leregrinatione  sua  con- 
+siiJerans  bealus  Kranciscus  per  S[)irilinn  sanrlum, 
+quod  fraler  Aegidius  esset  liomo  Dci  «!t  bnni  cxcm- 
+
+
+—  68  — 
+
+pli,  gavisiis  valde  dixit  ei,  ut  pergeret,  quo  vellel, 
+cui  sanctus  Aegidius  respondit,  quod  in  tam  libera 
+obedientia  ire  et  vivere  nolebat. 
+
+Cum  slaret  in  eremitorio  Fabrione  in  planilie 
+Perusii,  quadam  nocte  in  oralione  lanta  fuit  divina 
+consolatione  repletus,  quod  visum  fuit,  quod  Do- 
+minus  vellet  educere  animam  suam  extra  corpus, 
+ut  lucide  videret  de  secretis  suis,  et  ul  magis  ani- 
+maret  ipsum  ad  operandum  et  laborandum  in  ser- 
+vitio  Dei;  et  sic  coepit  sentire  a  pedibus,  qualiter  mo- 
+riebatur  corpus,  donec  anima  exivit.  Et  anima  extra 
+corpus,  sicut  placuit  Creatori  nostro,  qui  ipsam  mi- 
+sit  in  corpus,  prae  nimia  pulchriludine  sua,  qua 
+decoraverat  eam  Spiritus  sanctus,  delectabatur  respi- 
+cere  semetipsam;  erat  subtilissima  et  lucidissima  su- 
+per  aestimalionem,  sicut  ipse  retulit  prope  mortem 
+suam.  Tunc  rapta  est  illa  sanctissima  anima  contem- 
+plando  secreta  coelestia,  quae  nulli  revelavit.  Unde 
+dixit:  «  Beatus  homo,  qui  scit  custodire  et  conser- 
+vare  secreta  Dei  >>  (6). 
+
+6.  Anno  autem  nono  ^  conversionis  suae,  quo 
+scilicet  beatus  Franciscus  migravit,  venit  cum  socio 
+suo  ad  eremum  de  Cetona,  qui  est  in  episcopatn 
+Clusino  in  provincia  Thusciae,  ibique  quadragesi- 
+mam  beati  Martini  ferventer  fecerunt,  ubi  sanctus 
+Aegidius  in  somnis  vidit  beatum  Franciscum  dixit- 
+que  ei :  «  Vellem  loqui  inter  me  et  te»;  cui  respon- 
+dit  sanctus  Franciscus;  «  Stude  tibi,  si   vis  mecum 
+
+
+^  Piilet  esse  errorem;  viia  major  recte:  «  anno  XVIIl  ». 
+
+
+—  69  — 
+
+loqui  ».  Cumque  ideai  in  oralione  et  devotione  ma- 
+xima  tribus  diebus  ante  Xativitatem  Domini  in  nocte 
+oraret,  apparuil  sibi  Dominus  visibiliter  oculis  cor- 
+poreis,  in  qua  apparitione  fraler  Aegidius  prae  ni- 
+mio  odore  voces  emittebat  immensas,  videbaturque  ei 
+humanitate  deficere,  quia  talia  non  poterat  sustinere, 
+magnumque  fratribus  de  loco  suis  vocibus  immit- 
+tebat  limorem  subitoque  repletus  est  odore  ineffabili 
+et  duicedine  cordis  immensa.  Fuit  autem  in  tanta 
+ac  tali  dulcedine  indicibiii  et  jubilo  tam  suavi  et 
+odore  Dei  tribus  diebus  ante  Nativitatem  Domini 
+usque  post  Epipbaniam  non  coiitinue,  sed  interpo- 
+latim  in  die  et  nocte;  non  enim  poterat  susti- 
+nere  humanitas,  cum  apparebat  immensa  claritas, 
+orabalque  ad  Deum  instanter,  ut  sibi  non  imponeret 
+tantum  bonum,  et  allegabat,  quod  non  erat  ad  hoc 
+aptus  pro  eo,  quia  homo  erat  idiota  et  simplex  et 
+sine  litteris  et  rusticus;  quanto  autem  se  reputa- 
+bat  indignum  amplius,  lanto  plus  Dominus  suam 
+gratiam  augmentabat,  dixitque  in  fine:  «  Sicut  Domi- 
+nus  insufflavit  in  Apostolos,  ita  insufflavit  in  eum  » 
+(8  et  9). 
+
+7.  Studebat  autem,  qua  poterat,  sollicitudine  cu- 
+stodire  graliam  a  Deo  sibi  datam;  dicebat  enim: 
+<(  Super  omnern  gratiam  et  virtutem  haec  summa 
+»  est,  videlicet  sequi  virtutes  et  custodire  gratiam  sibi 
+'(  dalam  ».  Ex  tunc  autem  fuit  semper  in  cella  solita- 
+rius,  vigilans,  orans,  jejunans  et  ab  oiuni  opere  malo 
+et  sermone  se  cuslodire  sollicitus;  et  si  (|uis  alius 
+sibi  vellel  referre  quodpiam  m;di  de  alio,  dicebat 
+hoc  verbum:    «  .Nolo   scire   [)eccatum   alterius  »;   et 
+
+
+—  70  — 
+
+dicebat  referenti :  «  Cave,  frater,   ne  videas  aiiquid 
+conlrariiim,  nec  usquam  ad  bonum  luum  »  (10). 
+
+S.  Huic  autem  patri  in  tanlum  Dominus  gra- 
+tiam  augmentavit,  quod  hominibus  non  poterat  oc- 
+cultari  amplius.  Nam,  si  quis  cum  eo  traclaret  de 
+gloria  Domini  ejusque  dulcedine  sive  de  paradiso, 
+slatim  rapiebatur,  nec  etiam  se  movebat  de  loco. 
+Proinde  se  subtraxit  non  solum  a  familiaritale  sae- 
+cularium,  sed  etiam  a  fralribus  suis  et  aliis  religiosis. 
+Dicebat  enim:  «  Securius  est  homini  salvare  animam 
+«  suam  cum  paucis,  quam  cum  multis.  Hoc  est  esse 
+«  solitarium,  videlicet  vacare  Deo  et  animae  snae, 
+«  quia  solus  Dominus,  qui  creavit  animam,  est  amicus 
+«  ejus,  el  non  alius»;  unde  experientia  loquebatur  di- 
+cens:  «  0  quam  spirituale  donum  et  praerogativa 
+«  gratiarum,  cui  datum  est  animam  cognoscere!  So- 
+«  lus,  inquit,  Deus  cognoscit  eam,  et  cui  voluerit 
+«  revelare  ».  Et  ideo  de  se  ipso  dicebat:  «  Si  sanctus 
+«  Petrus  et  sanctus  Paulus  descenderent  de  coelo  et 
+«  dicerent  miiii,  ut  satisfacerem  personibus  volentibus 
+«  mihi  loqui,  non  crederem  eis».  Item  dicebat:  «  Qui 
+«  melius  facit  faciem  animae  suae,  melius  facit  faciem 
+«  amicorum  »;  et  iterum:  «  Multas  consolationes  et  vi- 
+«  sitationes  Domini  potest  homo  amitlere  culpa  sua,  et 
+«  in  perpetuum  non  recuperabil  eas».  Unde  exemplum 
+ponebat  de  illis,  qui  ludunt  ad  taxillos;  quia  pro 
+uno  punclo  taxillorum,  quod  est  parvum  ita,  amittit 
+quandoque  homo  multa,  sic  pro  levi  peccato,  si  ne- 
+scieril  se  cuslodire,  perdit  homo  magnum  hicrum 
+animae  suae.  Idem  dicebat  beatus  Franciscus,  unde 
+scriptum  est :  «  Cave  ne  ridendo  amittas,  quod  plan- 
+
+
+—  71   — 
+
+«  gendo  lucratus  es  »;  unde  dicebat  iste  frater  Ae- 
+gidius :  «  Cum  magno  timore  et  cautela  oporlet  cu- 
+«  stodire  secreta  Dei  et  thesaurum  suum  ^  »  (11). 
+
+9.  Interrogavit  frater  Andreas  semel  fratrem 
+Aegidium :  «  Credis,  quod  Spiritus  sanclus  in  ali- 
+«  quem  venerit  postea,  sicut  venit  in  Apostolis  in  Pen- 
+«  tecoste,  hoc  est,  in  igne»?  Respondit  sanctus  Aegi- 
+dius?  »  Si  ego  glorifico  me  ipsum,  gloria  mea  nihil 
+est  1),  et  addidil:  « Non  dicamus  modo  pUis  de  ista 
+materia  »  (15). 
+
+10.  Istum  sanctum  patrem  multum  daemones 
+molestabant,  unde  ipse  pater  dicebat  socio  suo  de 
+diabolo:  «  Quanto  plus  nitilur  molestare  me,  tanto 
+«  plus  descendet  inferius,  quia  resistit  Deo.  Non  enim, 
+« inquit,  fuit  principium  meum  servire  Deo;  sed 
+«  mediuin  et  finis  erit  simili  modo.  Non  est  mirum, 
+«  si  daemon  persequitur  peccatorem  tantum,  cum  scial 
+«  ipsum  de  peccato  natum  et  conceptum,  quia  videt 
+«  eum  ascendere  ad  locum  illum,  unde  cecidit  ipse  ». 
+Cum  rediit  ad  cellam  quodam  sero  post  comestio- 
+nem,  dixit:  «  In  riocte  exspecto  marlyrium  »  (16 
+et  17). 
+
+11.  Quadam  vice  cum  quidam  frater  diceret  ei, 
+quod  beatus  Franciscus  dixisset,  quod  servus  Dei 
+semper  deberet  desiderare  mori  morte  marlyrii,  ipse 
+respondit  dicens:  «  Ego  nolo  mori  moite  martyrii 
+meliore,  quam  de  contemplalione  ».  Item  quodam 
+tempore,  cum  ex  desiderio  martyrii  propter  Christi 
+
+
+'  Haec  ullima  (lesunl  in  A.  scd  lialjcnlur  in  FJ. 
+
+
+—  72  — 
+
+amorem  iverit  ad  Saracenos,  postqiiam  reversus  fuit 
+et  meruit  ascendere  ad  culmen  contemplationis,  ait: 
+«  Noluissem  tunc  mori  morle  martyrii  »  (19). 
+
+Prope  autem  obitum  suum  coepit  fortiter  fe- 
+bricitare,  et  ex  nimia  anxietate  lussis  et  dolore  ca- 
+pitis  et  pecloris  non  poterat  comedere  et  quiescere, 
+sed  super  lectum  portabant  eum  fralres  die  noctu- 
+que,  ut  quietem  inveniret.  Vigilia  vero  sancti  Geor- 
+gii  Martyris  nocte  illa  hora  matutinali,  cum  fralres 
+sic  eum  super  lectum  portarent,  posuerunt  super  le- 
+ctum  caput  ejus,  et,  quasi  videretur  quiescere,  sine 
+tractu  clausis  oculis  et  ore  rapta  est  illa  sanclissima 
+anima  ad  supernam  patriam ;  et  illo  die,  quo  reli- 
+gionem  intravit,  revolutis  LIl  annis  et  illo  eodem  die 
+migravit  ad  Dominum,  sepultus  Perusii  in  domo  fra- 
+trum  intra  ecclesiam  (20). 
+
+Septem  valde  laudabilia  fuerunt  el  salutaria 
+et  perfecta  habuit  in  se  sanctus  Aegidius  a  princi- 
+pio  conversionis  suae  et  quotidie  usque  ad  mortem 
+magis  ac  magis  perfectiora.  Primum,  quia  fidelissi- 
+mus  et  calholicus  fuit;  secundum,  devotus  Deo;  ter- 
+tium,  reverens;  quartum,  pius  et  patiens;  quintum, 
+soUicilus;  sextum,  obediens;  septimum,  gratissimus 
+Deo  et  hominibus  fuit  de  beneficiis  sibi  collatis  (21). 
+
+Expliciunt  in  compendio  verba  et  vita  beati  Ae- 
+gidii,  quam  bealus  Leo  descripsit. 
+
+
+B. 
+
+
+DUO  OPUSCULA  DE  S.  P.  FRANCISCO. 
+
+
+mXRODUCTIO 
+
+
+I.   De  teslimoniis,   quae  primiim  saeculum 
+Franciscanum  hisce  opusculis  praebet. 
+
+Fralrem  Leonem  aliqua  de  S.  P.  Francisco  scri- 
+psisse  fr.  Petrus  loannis  Olivi  (y  1298),  B.  Fran- 
+ciscus  Fabrianensis  (j  1322),  fr.  Ubertinus  Casa- 
+lensis,  fr.  Angelus  Clarenus  (y  1337)  aliique  tra- 
+diderunt. 
+
+1.  In  Expositione  regulae,  cap.  X.,  frater  Olivi 
+scribit:  «  In  ceduiis  fratris  Leonis,  quas  de  liis,  quae 
+<«  de  patre  nostro  tanquam  ejus  singularis  socius  vi- 
+«  derat  et  audierat,  conscripsit,  legitur  quod  qui- 
+«  dam  frater  laicus  petiit  a  beato  Francisco,  quod 
+«  posset  psallerium  habere  et  discere.  Cui  beatus 
+«  pater  respondit,  quod  ipse  aliquan<lo  similem  de 
+«  discendo  tentationem  liabueral,  cumque  super  hoc 
+«  Deum  orarel  el  orando  consilium  Dei  requireret, 
+«  fuit  sibi  dictum  a  Christo:  ,Vobis  datum  est  nosse 
+«  myslerium  regni  Dei,  celeris  autem  in  parabolis*  '  >». 
+
+
+'  Firmamenlum  Ordinis  Minorum,  pars  Mi.  fol.  123. 
+
+
+—  76  — 
+
+2.  Beatus  Franciscus  Fabricmensis  apud  Wad- 
+dingum  de  fratre  Leone  dicit :  «  Quem  fratrem  Leo- 
+«  nem  ego  vidi  et  scripta  ejus  legi,  quae  recollegit  de 
+<c  diclis  et  vita  sanclissimi  patris  noslri  Francisci  ^  ». 
+
+3.  Angelus  Clarenus  de  Cingoli  tam  in  sua 
+«  Hisloria  cle  septem  tribulationibus  Ordinis  Mino- 
+rum  »,  quam  in  «  Expositione  regulae  Fratrum  Mi- 
+norum»,  saepius  utitur  scriptis  fratris  Leonis.  Scribit 
+in  priore  opere:  «  Vitam  pauperis  et  humilis  viri 
+«  Dei  Francisci,  trium  Ordinum  fundatoris,  quatuor 
+«  solemnes  personae  scripserunt,fratresvidelicetscien- 
+«  tia  et  sanctitate  praeclari :  Joannes  et  Thomas  de 
+«  Celano,  frater  Bonaventura,  unus  post  beatum  Fran- 
+«c  ciscum  Generalis  iMinister,  et  vir  mirae  simplici- 
+«  tatis  et  sanctitatis,  frater  Leo  ejusdem  sancti 
+«  sociiis.  Has  quatuor  descriptiones  seu  historias,  qui 
+«  legerit  et  perspexerit  dihgenter,  ex  his,  quae  in 
+« eis  narrantur,  ipsius  seraphici  viri  vocationem, 
+«  conversationem,  sanctitatem,  innocentiam,  vitam  et 
+«  intentionem  ejus  primam  et  ultimam  poterit  ex 
+«  parte  cognoscere  ^  ». 
+
+
+^  Waddingus  t.  IV.  pagj  277:  «  De  supradiclo  fralre  Pe- 
+tro  Cathanii,  quod  fuit  Generalis  Minister,  habelur  ex  diclis  fra- 
+tris  Leonis».  Cum  te.xlus  ipsius  beali  Francisci  non  habeaiur, 
+de  sensu  horuni  verborum  dirficulter  judicari  potest;  dicta  fra- 
+tris  Leonis,  quae  habemus,  piuries  quidem  referunt,  tempore 
+S.  Francisci  alium  jam  fuisse  Minislrum,  sed  nomen  ipsius  haud 
+addunt. 
+
+-  Conf.  Anal.  noll.  l.  XIX.  pag.  32i;  notandum,  verba 
+«  primam  el  ultimam  inteniionem  »  desumpta  esse  ex  opusculo, 
+quod  hic  priori  loco  ponetur. 
+
+
+^. 
+
+
+—   7/    — 
+
+In  eodem  opere,  «  iribulatione  prima  ^  »,  legi- 
+mus:  «  Nam  cum  redisset  de  partibus  ultramari- 
+«  nis,  minister  quidam  loquebatur  cum  eo,  ul  fra- 
+<f  ter  Leo  refert,  de  capitalo  paupertatis,  ut  beati 
+«  Francisci  voluntatem  et  intellectum  inde  plene  co- 
+«gnosceret;  et  dixit  ad  eum  beatus  Franciscus: 
+,  Ego  paupertatis  capitulum  ita  inlelligo,  sicut  s.  Evan- 
+,  gelii  et  regulae  verba  ad  litteram  sonant:  quod 
+,  fratres  nihil  habeant,  nec  habere  debeant  nisi  ve- 
+,  stimentum  cum  chorda  et  femoralibus,  et  calcea- 
+,  menta,  qui  necessitate  coguntur,  portare  possunt, 
+,  sicut  in  regula  continetur*.  Et  dixit  ad  eum  Mini- 
+'<  ster:  ,Quid  faciam  ego.  qui  habeo  tot  libros,  qui 
+,  valent  bene  50  libras'  ?  Hoc  dicebat,  quia  volebat 
+«  eos  habere  de  sua  conscientia,  eo  quod  remorsu 
+«  conscientiae  tot  libros  habebat,  cum  sciret,  eum 
+«  ita  stricte  intelligere  capitulum  paupertatis.  Dixit 
+«  vero  ad  eum  beatus  Franciscus:  ,Frater!  nec  pos- 
+,  sum,  nec  debeo  facere  et  venire  contra  conscien- 
+,  tiam  meam  et  perfectionem  sancti  Evangelii,  quam 
+,  promisimus,  propter  libros  tuos*.  Audiens  haec  mi- 
+«  nister  efTectus  est  tristis;  videns  autem  beatus 
+«  Franciscus  illum  esse  ita  turbatum,  dixit  ad  eum 
+«  cum  magno  fervore  spiritus  in  persona  omnium 
+«  fratrum:  ,V'os  fratres  minores  ab  homiriibus  vultis 
+,  videri  et  vocari  observatores  sancti  Evangelii  et 
+,  operibus  vultis  habere  loculos' «. 
+
+4.  Saepissime  vero  scriptis  fratris  Leonis  usus 
+est  fr.  Ubertinus  (kisaleims.  \\\   libro  «  Arbor  vi- 
+
+
+•  riod.   i/67  nrchivi  S.  Isidori  dc  rilic,  fol.  on. 
+
+
+—  78  — 
+
+tae  crucipxae  lesu  r> ,  qiiem  anno  1305  in  monte 
+Alvernae  composuit  ^  multa  ex  scriptis  fratris  Leo- 
+nis  posuit;  ejusque  «  Responsio  sanctissimo  'patri 
+domino  nostro  domino  Clementi  divina  providentia 
+papae  quinto  tradenda  »  ac  «  Declaratio,  quam 
+donat  officio  sanctissimi  patris  domini  nostri  summi 
+pontificis  humiliter  obediens  ei,  vocatus  et  requisi- 
+tus  ah  ipso  »,  praecipue  scriptis  fratris  Leonis  inni- 
+luntur  ^. 
+
+Duo  vero  distinguit  Ubertinus  scripta  fr.  Leo- 
+nis.  «  Quod  autem  sic  intenderet  »,  dicil  in  Declara- 
+lione,  «  beatus  Franciscus  quoad  omnia,  quae  in  ista 
+«  responsione  ipsum  dico  intendere,  licet  multa  pa- 
+«  teant  per  regulam  et  testamentum  et  legendam 
+«  ipsius  ^,  omnia  tamen  patent  per  sua  verba  expressa. 
+
+
+^  Adhibuimus  editioneni  Veneliis  anno  1 485  factam.  Legi- 
+tur  ibi  in  Prologo  primo  fol.  aiijb:  a  Terminavi  in  vigilia 
+a  Michaelis  Archangeii  anni  praesentis  MCCCV'  a  felicissimo  orlu 
+((  veri  solis  lesu.  A  mea  vero  vili  conversione  anno  XXXll  »; 
+et  fol.  D  iiiiiij  a:  «  0  quanlae  reverentiae  locus  iste  sacer  mons 
+a  Alvernae!...  vere  locus  iste  esl  domus  Dei  et  porla  coeli;  vere 
+a  locus  spiritualls  incendii,  quem  illi  duo  seraph  magnus  et  par- 
+«  vus  voluerunt  sua  praesentia  inflammare.  0  misera  et  gelida 
+a  anima  mea!  cui  indigne  concessum  esl  habitare  in  fornace 
+«  coelestis  incendii,  et  ibi  de  flammeo  lesu  et  ab  ipso  inflam- 
+«  malo  Francisco  insipido  stilo  scribere  »! 
+
+-  Conf.  Ehrle,  Zur  Vorgeschichte  des  Concils  von  Vienne, 
+in  Archiv  fiir  Litteralur-und  Kirchengeschichte  des  Miltelalters, 
+T.  III  png.  51   et  162. 
+
+^  Ubertinus  adhibuil  legendam  S.  Bonav.;  conf.  Arbor  fol. 
+E  ij  b:  a  Conlinetur  III.  cap.  legendae,  quod  S.  famulus  Christi 
+Franciscus  scripsit  sibi  el  fratribus  suis  simplicibus  verbis  for- 
+
+
+—  79  — 
+
+«  quae  per  sanctum  virum  Leonem  ejus  socium  tam 
+<t  de  mandato  sancti  patris,  quam  etiam  de  devotione 
+((  praedicli  fratris  fuerunt  solemniter  conscripta  in 
+«  liby^o,  qui  habetur  in  armario  fratrum  de  As- 
+«  sisio,  et  in  rotulis  ejus,  quos  apud  me  habeo,  manu 
+-<  ejusdem  fratris  Leonis  conscriptis,  in  quibus 
+<(  optime  beali  Francisci  intentio  quoad  paupertatem 
+ft  regulae  declaralur...  Et  non  sunt  nec  fuerunt  sol- 
+«  liciti  praelati  hujus  ordinis,  sic  illum  librum  de 
+«  intentione  patris  eSi/«  diffundere,  sicul  privilegia  ^  ». 
+5.  Quaeritur  jam,  ubi  illa  ab  Olivi,  Angelo  Cla- 
+reno,  Ubertino  Casalensi  cilata  verba  fratris  Leonis 
+inveniantur.  Desumpta  sunt  omnia  ex  duobus  istius 
+opuscuhs,  de  quibus  jam  in  specie  agendum. 
+
+II.  De  duobus  fratris  Leonis  opusculis 
+quae  scripsit  de  S.  P.  Francisco. 
+
+A.  De  priore  opuscr.lo: 
+«  Liber  de  Inlentione  Sancti  Francisci  ». 
+
+1.  In  codice  1/73  archivi  S.  Isidori  ^  habetur  fol. 
+19b  —  24 b  opusculum,  cui  titulus:  «  Sanctissimi 
+«  Patris  yostri  Francisci  Intentio  Regulae;  ipsius 
+
+
+niulam  vilae...  •,  conf.  Leg.  major  c.  III.  n.  8;  ibidem  dicit 
+Ubert.:  «  Dicitur  IV.  cap.  legendae,  quod...  fuit  Dei  revelatione 
+commonitiis  in  visione  dc  inicis  panum  »,  conf.  Leg.  major 
+c.  iV.  n.   M. 
+
+>  L.  c.  pag.  168. 
+
+*  Esl  idem  codex,  in  qiio  habetur  compendiiim  vitae  B. 
+Aogidii. 
+
+
+—  80  — 
+
+«  ve?'a  declaratio,  cjuam  scripsit  frater  Leo  ejus- 
+«  dem  socius  ». 
+
+2.  OpusculuQi  esse  integrum  testatur  Uberti- 
+nus  Casalensis,  qui  libro  «  Arbor  vitae  crucifixae 
+lesu  »  (I.  V.  c.  V.  c<  lesus  Franciscum  generans  ») 
+dat  opusculi  summarium.  Uti  notae  in  calce  editio- 
+nis  nostrae  appositae  accurate  indicant,  Ubertinus 
+loco  citato  ponit  omnes  opusculi  paragraphos,  ordi- 
+nem  earum  servat,  nihil  addil,  verba  fratris  Leonis 
+plerumque  retinet,  phira  solum  contrahit;  v.  g.  fol. 
+D  ij  b  dicit:  «  Post  verba  iila  dicit  sanctus  frater 
+«  Leo,  quod  bis  in  duobus  locis  cum  mirabihbus 
+«  modis,  quos  omitto,  negavit  licentiam  uni  novilio 
+«  tenendi  psalterium  ».  Incipit  Ubertini  summarium 
+fol.  D  ij  a:  «  Qualis  fuerit  intentio  Francisci  in  pau- 
+«  pertate  servanda,  ipse  ostendit...  quae  verba  cum 
+«  suo  latino  hic  mterpono,  sicut  sanctus  pater  socius 
+«  beati  Francisci  multum  continuus,  frater  Leo  manu 
+«  sua  conscripsit  ».  Cessat  vero  summarium  iisdem 
+verbis,  quibus  opuscuhim  ipsum,  additque  Uberti- 
+nus:  « Hucusque  verba  sancli  Leonis.  Ex  quibus 
+«  clare  patet,  quam  perfectissimus  zelator  fuit  altis- 
+«  simae  pauperlatis  ». 
+
+3.  Ex  Ubertino  etiam  aliqua  scimus  de  tempore 
+et  causa,  quae  movit  fr.  Leonem  opusculum  compo- 
+nere.  Loco  Declarationis  jam  citato  dicit  Ubertinus: 
+0  Quod  autem  sic  intenderet  beatus  Franciscus..., 
+«  patet  per  sua  verba  expressa,  quae  per  sanctum 
+«  virum  Leonem  ejus  socium  tam  de  mandato  san- 
+«  cti  patris,  quam  etiam  de  deootione  praedicti  fra- 
+«  tris  fuerunt  solemniter  conscripta  ». 
+
+
+—  81   — 
+
+4.  Ulililatem  et  praestantiam  libri  ipse  luculen- 
+ter  edocebit,  quare  nihil  de  hoc  addendum  puto. 
+
+B.  De  altero  opusculo: 
+«  Verba,  quae  scripsit  frater  Leo  » . 
+
+1.  \n  dicto  codice  1/73  S.  Isidori  opusculum 
+prius  sequilur  fol.  24b  —  26a  alterum,  cui  tiluhis: 
+«  Verba,  quae  scripsit  socius  beati  Francisci,  vi- 
+«  ilelicet  fraler  Leo,  qui  fuit  vir  verae  simplicita' 
+«  tis  et  sanctilatis,  quae  ipsius  regulae  intentionem 
+«  ct  sensum  perfecte  declarant  et  sincere  ac  fide- 
+«  iiter  manifestant  »  . 
+
+2.  Cum  opuscuh  praecedentis  Ubertinus  nobis 
+teslimonium  perhibuit,  hoc  allerum  opusculum  ge- 
+nuinum  teslalur  //•.  Angelus  Clarenus,  qui  totum 
+inseruit  capiti  6.  F.xposilionis  regulae  \  Incipit  Cla- 
+renus  «  sicul  frater  Leo  scribil»  et  singulas  opusculi 
+paragraphos  verbis  «  et  subdil»,  «  et  addit»,  « et 
+infert »  conjungil.  Praeler  paucas  in  calce  addendas 
+variantes  duae  inler  codicem  et  Clarenum  hic  me- 
+moranlur  difTerenliae. 
+
+Paragraphus  lerlia  codicis  1/73  deest  apud  Cla- 
+renum ;  referunlur  ista  paragrapho  laudes  S.  P.  Fran- 
+cisci  de  regula  Fratriim  Minorum,  quas  eliam  habel 
+legenda  secunda  Celaiiensis  (pars  III.  c.  135). 
+
+
+'  Tonf.  (lo  ipsa  Wadd.,  Scriptores  Orcrinis  Miiioi  iim  |);i^r  22. 
+{j<*\  snmus  codice  1/65  nrchivi  S.  Isidori,  iii  (juo  opiisculimi  lia- 
+b«;lur  fol,   i1  u  sf|f|. 
+
+0 
+
+
+—  82  — 
+
+E  conlra  in  codice  1/73  deest  paragraphus  ul- 
+tima  Clareni,  qua  ponuntur  verba  S.  Francisci  de 
+non  quaerendis  privilegiis;  quod  idem  vero  refert 
+Ubertinus  in  sua  Responsione,  qui  ad  finem  addii : 
+«  Haec  sunt  scripta  de  manu  fratris  Leonis  viri  san- 
+«  ctissimi  et  ideo  individui  socii  beati  Francisci,  sicut 
+«  ab  ore  ejus  audiebat,  quae  ego  legi  ^». 
+
+3.  In  libro  «  Arbor  vitae  4;r|&pxae  Jesu  »  hoc 
+alterum  fralris  Leonis  opusculuijfexhibetur  cum  ti- 
+tnlo  «  Rotuli  manu  fratris  ledBb  conscripti » .  Lo- 
+qiiitur  ibi  fol.  E  iij  a  de  Rotulis,  «  quos  commenda- 
+«  vit  frater  Leo  in  monaslerio  sanctae  Clarae  custo- 
+«  diendos  ad  futuram  memoriam  »,  et  pergil :  «  Nar- 
+ravil  aulem  et  scripsit  sic  frater  Leo  >•  ;  deinde  pa- 
+ragraphum  quartam  opusculi  noslri  propriis  verbis 
+proponit,  ad  cujus  finem  addit:  «  Haec  teslalur  ille 
+sanctus  frater  Leo,  qui  praesens  fuit  ad  omnia». 
+
+4.  Eodem  loco  Ubertinus  refert:  « Cum  mulio 
+«  dolore  audivi  illos  Rolulos  fuisse  dislractos  et  for- 
+«  sitan  perditos,  maxime  quosdam  ex  eis »  ;  id  quod 
+confirmare  videtur  parvus  paragraphorum  numerus, 
+qui  tum  in  codice  1/73,  lum  apud  Clarenum  habelur. 
+
+
+^  Loco  ultimae  paragraphi  habenlur  in  codice  1/73  tres 
+narraliones  (sunt  Spec.  cap.  52,  79,  85),  quae  apud  Uberlinum 
+et  Clarenum  non  inveniuntur,  quare  hic  omissae  sunt. 
+
+
+I 
+
+
+SA^sCTISSIJII  PATRIS  NOSTRI  FRA^^CISCI 
+INTENTIO  REGCLAIi 
+
+[Ipsius  vera  deckiratio,   quarn  scripsit 
+frater  Leo  ejus  socius. 
+
+Et  nota,  qiu)(l  beatus  Frariciscus  fecit  tres  regu- 
+las,  videlicet  illam,  quain  confirmavit  sibi  Papa  In- 
+nocentius  sine  bulla;  postea  fecit  aliam  breviorem, 
+haec  perdita  fuit;  postea  fecit  illam,  quam  Papa  Ho- 
+norius  confirmavit  cum  bulla,  de  qua  regula  multa 
+fuerunt  ejecta  per  ministros  contra  voluntalem  beati 
+Francisci,  sicut  inferius  continetur.]  ^ 
+
+1.  Frater  IVicerius  de  Marchia  Anconilana,  no- 
+bilis  parenlela,  sed  nobilior  sanctitate,  quem  beatus 
+Franciscus  magno  diligebat  aflectu,  cum  quoiHlam 
+jaceret  infirrnus  in  palatio  episcopi  Assisinatis,  visi- 
+tavit  bcaluiii  Franciscum,  fjui  intei'  aba,  quae  de 
+slatu    religionis   et  observanlia   regulae   supradictae 
+
+
+'  Qiijie  in  iincis  ponniUiir,  in  codice  coloic  nibro  siint 
+scripla.  Loco  «  haec  pcrdila  fiiit  »  (ita  Speculiim  pcrf.  pag.  I.) 
+codex:  «  liac  praedicta  fuit  ». 
+
+
+—  84  — 
+
+loculiis  est  ciim  bealo  Francisco,  de  hoc  quoqne  in- 
+lerrogavit  eum  dicens:  «  Dic  mihi,  Pater,  inlentionem 
+«  luam,  quam  habes  modo  et  credis  habere  usque  in 
+«  diem  mortis  tuae,  ul  valeam  certificari  de  intentione 
+«  tua  et  voUintate  prima  et  ultima,  utrum  nos  fratres 
+«  clerici,  qui  tot  libros  habemus,  possumus  habere, 
+«  licet  dicamus,  quod  sint  religionis». 
+
+Dixit  ei  beatus  Franciscus:  «  Dico  libi,  fraler, 
+«  quod  haec  fuit  mea  voluntas,  et  est  prima  et  ul- 
+«  tima  inlenlio,  si  fratres  mihi  credidissent,  quod 
+«  nullus  frater  deberet  habere  nisi  vestimenlum,  sicut 
+«  regula  noslra  nobis  concedit,  cum  cingulo  et  fe- 
+«  moralibus  ^ 
+
+2.  Unde  quadam  vice  dixit:  «  Religio  et  vita  Fra- 
+«  trum  Minorum  est  quidam  pusillus  grex,  quem  filius 
+!'  Dei  in  hac  novissima  hora  Palri  suo  postulavit  di- 
+«  cens:  ,Domine  Paler!  vellem,  quod  faceres  et  dares 
+,  mihi  quendam  populum  novum  el  hun  ''^m  in  hac 
+
+
+^  Ideiii  Spec.  perf.  cap.  2  (semper  cilatur  sec.  ed.  a  Sa- 
+batier  faclam);  Uberliiuis,  Arbor  v.  cr.  Jesii,  fol.  D  i„  i  pergit: 
+«  Ilaec  est  responsio  Saiicti;  postea  dixit  saiicliis  fralor  Leo, 
+qtiod  beatiis  Franciscus  dixit,  sicut  per  revelalionem  acceperat, 
+quod  religio  fralrum  »,  sicul  supra  sub  2.  —  L.'  c.  fol.  E  iij  b 
+idem  aliis  verbis  legilur:  «  Ex  iiis,  quae  dicta  sunl  supra  de 
+verbis  sancti  fralris  Leonis,  quomodo  respondit  fratri  Ricerio 
+el  minislro  et  novitio  petenti  psalterium,  palel,  quod  non  fuit 
+intentio  beali  Francisci,  quod  fratres  haberent  tot  salmos  libro- 
+rum  ad  nsum  proprnun  »,  quae  ullima  verba  explicant  volun- 
+latem  sancti  Francisci  (in  ed.  Venel.  pro  «  salmos  librorum  » 
+legiiur  «  salmos  labornm  »). 
+
+
+—  85  — 
+
+,  novissima  hora,  qni  esset  dissimilis  in  humilitate 
+,  et  paupertate  ab  omnibus  aliis,  qui  praecesserunt, 
+,  et  esset  contentus  habere  me  soium'.  Et  ait  Pater 
+«  dilecto  filio  suo:  ,Fili  mi !  factum  est,  quod  postu- 
+lasti'  ». 
+
+3.  Unde  dicebat  beatus  Franciscus,  quod  ideo  vo- 
+luit  Dominus,  quod  vocarentur  Fratres  Minores,  quia 
+iste  est  populus,  quem  filius  Dei  suo  patri  postula- 
+vit;  unde  ipsemet  filius  Dei  de  ipsis  dicit  in  Evan- 
+gelio:  «Nolite  timere  pusillus  grex,  quia  complacuit 
+<(  l*atri  vestro  dare  vobis  regnum  coelorum  »  ;  el 
+iterum :  «Quod  uni  ex  his  minimis  meis  fecislis,  mihi 
+«  fecistis  ».  Quod  licet  de  pauperibus  spiritualibus 
+omnibus  hoc  dixisset  Dominus,  praecipue  tamen 
+praedixit  religionem  Fratrum  Minorum  esse  venturam 
+in  ecclesia  sua  ' ;  sicut  revelatum  fuit  beato  Fran- 
+cisco,  ut  deberet  vocari  religio  Fratrum  Minorum; 
+et  ila.scr  \  fecit  in  ipsa  regula  et  portavit  eam  do-, 
+mino  Pa^;..e  Innocenlio;  et  ipse  approbavit  et  con- 
+cessit  et  postea  in  concilio  ^  omnibus  annunliavil; 
+et  ait  b(|atus  Franciscus:  « iNon  est  magnum,  si  Do- 
+«  minus  voluil  habere  quendam  populum  parvum 
+«  inter  ceteros  alios,  qui  praecesserunt,  qui  esset 
+«  contentus  habero  ipsum  solum  altissimum  el  glo- 
+«  riosum  ^ » . 
+
+
+'  Ub.  pergil:  «  Poslca  sancltis  frater  Leo  movet  quacslio- 
+nem  diceiis:  Si  vero  aliquis  fratcr  volucrit...  »,  uli  sub  i. 
+
+'  Sabalicr  I.  c.  pag.  52  lin.  8:   «  in  consisloiio  ». 
+
+'  Num.  2  ct  3  in  Spec.  pcif.,  rap.  26,  ubi  nonnulla  ad- 
+(iunlur. 
+
+
+—  86  — 
+
+4.  Si  vero  aliquis  fraler  voluerit  dicere,  cur 
+bealus  Franciscus  lempore  suo  islam  striclam  pau- 
+pertatem,  sicut  fratri  Ricerio  dixit,  non  fecit  obser- 
+vare  et  observandam  non  mandavit:  Nos,  qui  cum 
+ipso  fiiimus,  respondemus,  sicut  ab  ore  ejus  audi- 
+vimus,  quod  ipse  fratribus  hoc  et  alia  plura  dixit 
+ac  in  regula  scribi  fecit,  quam  ^  cum  assidua  ora- 
+tione  et  meditatione  a  Domino  postulabat  pro  utili- 
+tate  religionis  affirmans  eam  penitus  esse  Domini 
+voluntatem.  Sed,  postquam  ea  oslendebat  eis,  gravia 
+et  importabilia  videbantur,  ignorantes  tunc,  quae 
+ventura  essent  in  religione  post  morlem  ejus.  El  quia 
+multum  timebat  scandalum  in  se  et  in  fratribus, 
+nolebat  cum  ipsis  conlendere^;  sed  condescendebat, 
+licet  rjon  voluntarie,  voluntatibus  fratrum,  et  coram 
+Domino  se  excusabat.  Sed,  ut  non  reverteretur  ad 
+Deum  vacuum  verbum  suum,  quod  in  ore  ejus  ponebat 
+pro  utilitate  fratrum,  volebat  in  se  implere,  ut  merce- 
+dem  suam  a  Domino  inde  consequeretur,  et  ad  ulti- 
+mum  in  hoc  quiescebat,  et  consolabatur  spiritus  eius  -'. 
+
+Exemplum  cujusdam  Ministri. 
+
+5.  Cum  quodam  tempore,  quando  de  ullrama- 
+rinis  partibus  reversus  fnit,  quidam   minister  loque- 
+
+
+'  Ub.  et  Spec:  «  qiiae  ». 
+
+-  Ub.  pergit:  «  sed  coram  Deo  se  excusabal.  Kem  dixil  idem, 
+quod  quodam  tempore  quidam  minisler  pelebat  intellectum 
+beali  Francisci  de  capitulo  paupertatis.  Respondit  bcalus  Fran- 
+ciscus:  ,Ego  sic  intelligere  volo'»,  ut  supra  num.  6. 
+
+'  Num.  4  liabelur  in  Spec.  in  secunda  parte  cap.  2  (pag. 
+G  lin.  9  —  pag.  7  lin.  2). 
+
+
+—  87  — 
+
+balur,  seciim  de  capitnlo  pauperlatis,  volens  inde  co- 
+gnoscere  voluntalem  et  inlellectum,  maxime  quia 
+tunc  erat  scriptnm  in  regula  quoddam  caput  de 
+prohibitionibus  sancti  Evangelii:  « Nihil  tuleritis  in 
+via»  etc.  Et  respondens  beatus  Franciscus  ail:  «  Ego 
+"  sic  intelligere  volo,  quod  fratres  nihil  habere  de- 
+"  beant  praeter  vestimentum  cum  corda  et  femorali- 
+«  bus,  sicut  in  regula  continetur,  et,  qui  necessitate 
+«  coguntur,  possint  porlare  calceamenta  ». 
+
+Et  ,dixit  ad  enm  minister :  «  Quid  faciam  ego, 
+«  qui  habeo  lot  libros,  qui  valeant  magis,  quam  quin- 
+«  qu:ginta  libras  »  ^  ?  Haec  autem  dicebat,  quia  vole- 
+bat  eos  habere  de  conscientia  ejus,  maxime,  quia  cum 
+reprehensione  ^  .  conscientiae  habebat  tot  libros  et 
+sciret  beatum  Franciscum  ita  stricte^  intelligere  caput 
+pauperlatis. 
+
+Et  dixit  ad  enm  beatus  Franciscus :  «  Frater  1 
+«  non  debeo  nec  possum  venire  contra  conscientiam 
+«  meam  et  professionem  sancti  Evangelii,  quam  pro- 
+«  fessi  sumus »  ;  unde  hoc  dicente  bealo  Francisco 
+minister  factus  est  iristis.  Videns  autem  beatus  Fran- 
+ciscus  illum  esse  turbatum,  cum  magno  fervore  spi- 
+ritus  dixit  ad  eum  in  persona  omnium  fralrum : 
+«  Vos  Fratres  iMinores  ab  hominibus  vultis  vocari  et 
+«  videri  observalores  sancti  Evangelii  et  in  operibus 
+«  liabere  loculos  ^  »  ! 
+
+
+*  Aiigelijs  Claiomis  I.  c. :  «  bene  quinquaginla  libras  ». 
+■^  Ciareniis:   ureniorsii*. 
+
+^  L'b. :  «  inlrinsece  ». 
+
+*  Spec.  cap.  3  el  Ub.  I.  c:   «  viiilis  videri  ct  vocari  ». — 
+Conr.  L'b.  Hesponsio  pag.  1"). 
+
+
+—  88  — 
+
+6.  Verum,  licel  ministri  scirent,  qiiod  seciindum 
+regulam  fralres  tenerentur  sanctum  Evangelium  ob- 
+servare,  fecerunt  ^  tamen  removeri  de  regula  illud 
+capitulum,  ubi  dicebatur:  Nihil  tuleritis  in  via  », 
+credentes  se  propter  hoc  non  teneri  ab  observaii- 
+tiam  perfectionis  sancti  Evangelii.  Quapropter  beatus 
+Franciscus  cognoscens  hoc  per  Spirilum  sanclum 
+coram  fratribus  quibusdam  dixit:  «  Putant  fratres 
+«  ministri  Dominum  et  me  decipere  ?  Immo,  ut  sciant 
+«  omnes  fralres  se  teneri  ad  observandam  perfectio- 
+«  nem  sancti  Evangelii,  in  principio  et  in  fine  re- 
+«  gulae  volo,  quod  sit  scriplum,  quod  fratres  lenean- 
+«  lur  sanctum  Evangelium  observare  Domini  noslri 
+«  Jesu  Christi ;  et  ut  fratres  sint  inexcusabiles  coram 
+«  Domino,  quae  Dominus  pro  salute  et  utilitate  ani- 
+«  mae  meae  et  fratrum  posuit  in  ore  raeo,  ex  quo 
+«  ipsis  annuntiavi  et  annuntio,  volo  ipsis  operibus 
+ff  ostendere  et  Domino  cooperante  versus  in  finem 
+«  observare  »  ;  unde  ipse  ad  litteram  sanctum  Evan- 
+gelium  observavit  a  principio,  ex  quo  fratres  habere 
+coepit  usque  in  diem  mortis  suae  ^. 
+
+7.  Similiter  quodam  tempore  fuit  quidam  nu- 
+vilius  ^  in  religione,  qui  sciebat  legere  psallerium, 
+licet  non  bene,   et  quia  libenter  legebat,  impetravit 
+
+
+^  Ub.:  «  licet  minisUT  sciret  fecenini  ». 
+
+^  Conf.  Spec.  cap.  3;  Ub.  pergit:  «  Similiter  dicit  fraler 
+Leo,  quod  beatus  Franciscus  nolebat,  quod  fralres  essent  cupidi 
+de  scieniia  et  de  libris,  sed  volebat  »,  uii  sub  n.  7. 
+
+'  Oiivi  1.  c:  «  quidam  fraler  laicus  ». 
+
+
+—  89  — 
+
+licenliam  a  Minislro  Generali  habendi  psalterinn:i,  et 
+Minister  id  concessit.  Sed  ille  nolebat  illud  habere, 
+nisi  prius  haberet  inde  licentiam  a  beato  Francisco, 
+maxime  quia  aiidierat  quod  bealus  Franciscus  no- 
+lebat,  quod  fratres  essent  cupidi  de  scientia  et  li- 
+bris  ^ ;  sed  voluit  et  fratribus  praedicabat,  ut  fratres 
+studerent  haberc  ^  puram  et  sanctam  simplicitatem, 
+oralionem  sanctam  et  dominam  pauperlatem,  in  qui- 
+bus  aedificaverunt  sancti  et  primi  fratres,  et  hanc 
+credebat,  securiorem  esse  viam  pro  salute  animac. 
+Non  de^ciebal^  scientiam  sanclam  ;  immo  eos,  qiii 
+erant  sapienles  in  religione,  et  omnes  sapientes  ni- 
+mio  venerabalur  alTectu,  quemadmodum  ipse  testa- 
+tur  in  leslamento  suo  dicens :  «  Omnes  theologos, 
+«  et  qui  minislrant  verba  divina,  debemus  honorare 
+«  et  venerari,  quia  minislrant  nobis  spirilum  et  vi- 
+«  lam  ».  Sed  fulurum  perspiciens  cognovit  per  Spi- 
+ritum  sanclum  et  etiam  mulloties  fralribus  dixit, 
+quod  multi  fralres  sub  occasione  aedificandi  alios 
+dimitterent  vocationem  suam,  videlicet  puram  et 
+sanctam  simplicitat«Mn,  orationem  sanctam  et  domi- 
+nam  nostram  pauperlalem,  et  accidet  illis,  quod, 
+unde  crediderunt  poslea  magis  imbui  devotione  et 
+accendi  ad  amorem  Domini  propler  inlelleclum  sci'i- 
+plurarum,  inde  occasionaliler  remanebunt  intus  fri- 
+gidi  et  vacui ;  et  sic  ad  pristinam  suam  vocationem 
+
+
+*  llucusque  Spec.  cap.  4,  reliqua  cap.  72;  conf.   pag.  13 
+nol.  ». 
+
+'  Spcc.  pag.   142:   «  fundari  sujxr  ». 
+
+*  Ub.;  €  non  ul  despicerel »;  conf.  cod.  Val.  i3o4  fol.  30  b 
+el  Spec.  pag.  13  nol.  '. 
+
+
+—  90  — 
+
+reverti  non  polerunt,  maxime  qnia  amiserunt  tem- 
+pus  vivendi  secundum  vocationem  suam  ^ ;  et  timeo, 
+ne  id,  quod  videbantur  habere,  hoc  auferalur  ab 
+eis,  qui  dimiserunt  vocationem  siiam. 
+
+8.  Et  dicebat :  «  Multi  sunt,  qui  totum  sludium 
+«  suum  et  sollicitudinem  suam  die  noctuque  ponunt 
+«  in  scientia,  dimittentes  vocationem  suam,  sanctam 
+«  et  devotam  orationem.  Cumque  aliquando  populo 
+«  praedicaverint  et  noverint  aliquos  inde  aedificari 
+«  vel  ad  poenilentiam  converti,  inflantur  vel  se 
+«  extollunt  de  lucro  alieno,  quia,  quos  credunt  suis 
+«  verbis  aedificari  vel  ad  poenilenliam  converti,  Do- 
+«  minus  aedificat  et  convertit  orationibus  sanctorum 
+«  fratrum,  licet  illud  ipsi  ignorenl,  quia  sic  est  vo- 
+«  luntas  Domini,  ut  illud  non  advertant,  ne  inde 
+«  superbiant. 
+
+«  Isti  sunt  mei  fratres,  mililes  labulae  rotun- 
+«  dae,  qui  lalilant  in  remotis  et  in  desertis  locis, 
+«  ut  diligenlius  vacent  orationi  et  medilalioni,  sua 
+«  et  aliorum  peccata  ploranles,  quorum  sanctitas  a 
+«  Deo  cognoscitui"  et  aliquando  fratribus  et  homini- 
+«  bus  ignoratur.  Et  cum  animae  ipsorum  Deo  ab 
+«  angelis  repraesentabuntur  ^ ,  tunc  Dominus  ostendet 
+«  illis  fruclum  et  mercedem  laborum  suorum,  vide- 
+«  licet  mullas  animas,  quae  illorum  orationibus  sal- 
+«  valae   sunt,  dicens   illis:    ,Filii,  ecce  lales  animae 
+
+
+^  llb.  peigil:  «  Nam  miilli  sunt,  qiii  tolum  sludium...  », 
+uli  sub  n.  8. 
+
+2  Ub.  pergil:  «  Postea  dicil  idem  sanctus  fralei-  Leo,  quod 
+fratres  omnes  »,  uli  sub  n.  9. 
+
+
+—  91    — 
+
+,  salvatae  sunt  vestris  orationibus,  et  quia  sn- 
+,  per  pauca  fuislis  fideies,  super  multa  vos  consti- 
+.  luam' »  etc. 
+
+9.  Unde  propterea  dicebat  beatus  Franciscus  su- 
+per  illo  verbo:  «  Sterilis  peperit  ^  plurimos,  et  quae 
+«  multos  habebat  filios,  infirmata  est»,  sterilem  esse 
+dicebat  bonum  religiosum,  qui  orationibus  et  virtu- 
+tibus  se  et  alios  aedificat.  Haec  verba  saepe  dicebat 
+coram  fralribus  in  collatione  suorum  verborluu,  et 
+maxime  ad  capilulum  fratrum  apud  sanctam  Ma- 
+riam  de  Portiuncula  coram  ministris  et  aliis  fratri- 
+bus^.  Unde  omnes  fratres  tam  ministros^,  quam 
+praedicatores  informabat  ad  opera  dicens  eis,  quod 
+propter  praelationis  oflicium  *  et  sollicitudinem  prae- 
+dicandi  omnino  non  deberent  dimittere  sanctam  et 
+devotam  orationem,  ire  pro  eleemosyna,  et  ope- 
+rari  manibus  suis,  sicut  et  alii  fralres,  propter  bo- 
+num  exemplum  et  lucrum  animarum  suarum  et 
+aliorum.  Unde  ipse  tanquam  fidelis  zelalor  et  imi- 
+tator  Christi,  dum  corpore  fuit  sanus,  operabatur  ^ 
+in  se,  quod  docebat  fratres  suos  ^. 
+
+
+'  In  cod.  deesl  «  pepeiit  ». 
+
+-'  Spec.  pag.  U.-i:  «  corjini  ministris  el  aiiis  fralribiis,  mo- 
+ximc  in  capitiilo  i^^enciaJi  ». 
+
+^  Ub. :  «  Minores  ». 
+
+'  lia  Speculiim  pa^^  1i6;  codex  et  Ub:  «  praclaliones  ct 
+oniciiim  ». 
+
+'■  Ub.:   «  imf)eraijal  »  . 
+
+*"'  Spec.  haec  ca|).  73  libcriiis  proponit;  Ub.  ct  codex  con- 
+vcniinit.  Dcinde  pergit  Ub.:   «  Post  ^crlia  illa  (li<it  sanctus  Cra- 
+
+
+—  9^2  — 
+
+Exemplum    Novilii. 
+
+10.  Ciimque  ille  novilius,  de  quo  supra  dictum 
+est,  in  quodani  eremitorio  moraretur,  accidit,  ul 
+adveniret  illuc  bealus  Franciscus.  Cui  quadam  die 
+fraler  locutus  est  dicens:  «^  Pater !  milii  magna  con- 
+« solatio  esset  habere  psalterium  ;  sed  licet  Genera- 
+«  lis  illud  concedere  mihi  vellet,  volo  illud  habere 
+«  de  conscientia  ».  Cui  beatus  Franciscus  dedit  tale 
+responsum  dicens:  «  Carolus  imperalor,  Holandus  et 
+«  Oliverius  et  omnes  palatini  et  robusti  viri,  qui 
+«  potentes  fuerunt  in  proelio,  persequenles  infideles 
+«  cum  multo  sudore  et  labore  usque  ad  mortem, 
+«  habuerunt  de  illis  gloriosam  et  memorialem  vi- 
+«  ctoriam  et  ad  ultimum  ipsi  facti  martyres  mortui 
+«  sunt  pro  fide  Christi  in  certamine;  et  multi  sunt, 
+<»  qui  sola  narratione  eorum,  quae  illi  fecerunt,  vo- 
+«  lunt  recipere  horiorem  et  humanam  laudem  ^  ». 
+
+De  eodem. 
+
+11.  Alia  vice,  cum  sederet  beatus  Franciscus  ad 
+ignem,  dum   calefaceret  se,  et  ipse  iterum  locutus 
+
+
+«  ler  Lco,  qiiod  bis  in  duobus  locis  cum  niirabilibus  modis, 
+«  quos  omiiio,  negavit  liceniiam  uni  noviiio  lenendi  psalle- 
+«  rium,  in  secunda  vice  dixit  illi  novitio:  Ego  jam  tenlatus 
+«  fui  »,  uli  sub  u.   II. 
+
+^  Num.  10  habetur  in  cap.  4  Spec.  lin.  9  sqq.,  quod  ex- 
+plicationem  addit;  conf.  Ub.  Hesponsio,  pag.  75. 
+
+
+—  93  — 
+
+est  ei  de  psalterio.  Et  dixit  ad  eum  bealns  Franci- 
+scus :  «  Postquam  habueris  psalterium,  concupisces 
+«  et  voles  breviarium ;  postquam  habebis  brevia- 
+«  rinm,  sedebis  in  calhedra,  tanquam  magnus  prae- 
+«  latus  dicens  fratri  tuo:  Apporta  mihi  breviarium». 
+Et  sic  diceiis  cum  magno  fervore»spiritus  tulit  cum 
+manu  de  cinere  et  posuit  super  caput  duc^ndo  ma- 
+num  per  caput  in  circuilu.  tanquam  qui  lavat  caput, 
+sic  dicens  sibimetipsi :  «  Ego  breviarium  !  ego  bre- 
+viariutn  »  !  et  sic  dicens  multoties  reiteravit  verbum 
+istud :  «  Ego  breviarium  »> !  ducendo  manum  per  ca- 
+put,  et  stupefactus  et  verecundatus  est  frater  ille. 
+Postea  dixit  ei  beatus  Franciscus:  «  Ego  simili- 
+«  ter  tentalus  fui  habere  libros,  sed  ut  de  hoc  co- 
+«  gnoscerem  Domini  voluntatem,  tuli  librum,  ubi 
+«  eranl  Evangelia  Domini  scripta,  et  oravi  Domi- 
+«  num,  ut  in  ipsa  apertione  libri  suam  volunta- 
+«  tem  de  his  mihi  ostendere  dignarelur ;  et  ora- 
+«  tione  rinila  in  prima  apertione  hbri  occurrit  mihi 
+«  illud  verbum  sancti  Evangelii  :  ^  Vobis  dalum  est 
+,  nosse  myslerium  regni  Dei,  ceteris  aulem  in  pa- 
+,ra(jolis')y.  Et  ait:  «  Tot  sunt,  qui  libenler  ascen- 
+<■  derent  ad  scienliam,  quod  beatus  erit,  qui  se 
+«  fecerit  slerilem  amoie  Domini  Dei  ^  ". 
+
+De  supradicto  Novitio. 
+
+m , 
+
+12.  Postea  elapsis  [)luril)iis  mensibus,  cum  essel 
+boatus  Franciscus  apiid  ecclesiam  sanctae  Mariae  de 
+
+
+Spec.  cfjp.  \  (piig.   1 1). 
+
+
+—  1)4  — 
+
+Portiuncnla  juxla  cellam  post  donuim  in  via,  el  ille 
+JVale-  loculus  est  iternm  sibi  de  psalterio,  cui  bea- 
+tus  Franclscus  dixil:  «  Vade  et  faclas  illud,  sicut 
+^c  dixerit  tibi  mifiister  tuu§  v  ;  quo  audito  frater  ille 
+coepit  i  dire  vi  m,  uii^^enerat.  LJeatus  autem 
+Franciscus  rernanihs  irSSSf  cbepit  considerare  id, 
+Cjuod  dlSPirAt  illi  fratii.  et^lim  clamavit  post  ipsum 
+dicens:  u  Exspecla,  frater,^xspecta  »  !  et  sic  ivit  ad 
+Ipsum  dicens^illi  :  «  R^vertere  mecum,  frater!  et 
+'i;^ostende*mih'  locum,  ubi  dixi  tibi,  quod  faceres 
+«  (je  psaltorio,  ^iQ||t  dicaj^et  libi  minisler  ti^»:  et 
+pe  veniens  ad  locum,  ubi  dixerat  illi  verbura  illud, 
+^beatus 'Frnnciscus.  incMn^vit  se  coram  fratre  el  sta- 
+t'm  genufleyo  dixit:  «  Mea  culpa  »  ;  cum,  quicum- 
+(/  }  vult  es^-  .^rater -Minor,  non  debet  habere  nisi 
+lunicam,  sicut  regula  concedit  sibi,  et  femoralia  et,  qui 
+necess^tafce  coguntuiV*  p^sint  portare  calceamenla. 
+Fnde,  ^^gotquot  fraWcs  veniebant  ad  eum  pro 
+buju  no(^  adbabendum  ^ljifcim  ejus,  tale  respon- 
+sum  ^hibebat  elP^.  Qua[iir^^r  dicebat :  «  Tanlum 
+«  scit  de  scie  .ti"  hnmo  religioL,ii>,  quantum  ipse  ope- 
+«  ratur ;  Imlur  est  b(^us  ovsA,  quantum  et  ipse 
+«  operatur  »,  ac  si  diSeret,  boSf  arbor  non  in  alio, 
+quam  in  fruotu  Cflinoscitur  ^ 
+* 
+
+i'Ub.;   «  necessitalo  ve!  infirmilale  »;  Spec.  pag.  12:  «  nia- 
+nifesia  necess'  ite»;  anteA-Spec.:^  tnnieam  el  cordam  ». 
+0^.--  Ub.  pergii:  a  liem  narrat  jpism  fr.  Leo,  quod  dum  pater 
+sanctus  jaceret  in  phlatio,  d>.|quo  dicluni  est   supra,   infirmus, 
+unus  dfe  sociis  «...    .li  sub  n.  13. 
+
+3  Spoc.  hisce  cohcludit  cap.  4 ;  ulti    a  verba  ibi   exhiben- 
+lur  l^j^modof  «  NaiH  actor  ex  ffctu    ognoscitur  ». 
+
+
+r 
+
+
+—  95  — 
+
+
+De  socio  beaii  Francisci.      ' :   •  ^ 
+
+_   *  ;.      •]* 
+
+13.    Ciim    manereth/in   cocler»r  palatio  infirmus 
+bealns  Franciscus,  quMfe  die  di:,it  ei  unm  de  sociis  ,   - 
+ejus:    «  Paler !    ignosc^BRii,    qlo^iain,  quae  dicere 
+«  libi  volo,  jam  plures  fral»es  consider?i|Pfunt »,  et 
+ait:  «  Tu  scis,  quemamodum  per  gratiam  Dei  olim 
+«  viguit  in  slatu  puritalis»et  perfecipnis  tola  reiigii^,    ^ 
+«  quomodo  sc.  universi  fratres  cui     ferwre  siDiyi^us 
+«  et  sollicitudine   in   omojbus  ^servabgnt^  sanltam     ^- 
+'<  paupertalem,  videlicet  fn  parMS  et  pauperculi^.aeT 
+«  dificiis,  in  parvis  el  pauperculi^.utensiJjbog,  in  paiir' 
+«  vis   et   pauperculis   libris  et   in  .!)Hupefculis  vesti-  ^  -^f 
+«  mentis,  et  sicut  in  his,  ita  et  inl  dljis  exterior-jius  »' 
+«  unius   erant   voluntatis,    solficiti   ^servar*   omnia 
+«  quae  perlinent  ad  noslrarrf  perfectioneme^rvocatio- 
+«  nem  el  bonum  exempplm  ;  et  sic^rant  uVianimes 
+«  in  dilectione  Dei^l|Jjfc)ximi.  Nunc  au)|^m    ;  parvo    ^  % 
+«  tempore   coepit  ^Ps»  perfecti^jfcissimiliteijtvariari, 
+«  licet  multi  fralr^..  dicant,  ut  excui^^nt  fratres,  pijjo- 
+«  pler   multitii  liij^   hoc^on   poi^e  a  fratribus  ob- 
+«  servari,  immo  Mnlti  fratr^s  credunt  de  liis  magis,    , 
+«  quam    de   supradictis  populuf^  aedificari,  et  ipSis 
+«  videtur   ma<,'is  honeste  propter  illa  iffvere  et  con^* 
+«  versari;  unde  qifUsi  pro  niliilo  repulant  viain  sim- 
+«  plicilatis  et   huiusimxli    panpertat^ir.,'  quae  fuerat 
+«  initium   et   fiindamerilum   nostrjie  religionis;\fllia- 
+«  propler  hoc  co  usideranfcs  credimus,  quod^tibi  (\h 
+«  pliceat;   sed    pjiirimum   admir^irnur,  si  iibi  displi- 
+«  cet,  cur  sustinf-s,  et  non  corrigis».*?        ^ 
+
+
+—  96  — 
+
+Beatus  Kranciscus  dixit  ad  euni :  «  Dominus  in- 
+"  (lulgeat  tibi,  fraler,  quoniain  vis  esse  mihi  conlrarius 
+«  et  adversarius,  et  vis  me  implicare  in  his,  quae  non 
+«  perlinentad  officium  meum  ».  Et  aitei:  «  Usquequo 
+«  habui  odkium  fratrum,  et  fratres  manserunt  in  vo- 
+«  catione  et  professione  sua,  licet  ab  inilio  meae  con- 
+«  versionis  ad  Christum  infirmus  fuerim,  cum  parva 
+«  mea  sollicitudine  eis  satisfaciebam  exemplo  et  prae- 
+«  (licatione.  Sed  postquam  consideravi,  quod  Dominus 
+«  numerum  fralrum  quotidie  multiplicaret,  et  ipsi 
+«  ()ropter  tepiditatem  et  inopiam  spiritus  a  via  recla 
+«  et  secura,  per  quam  solili  erant  ambulare,  decli- 
+«  nare  inciperent,  et  per  ampliorem  viam,  sicut  di- 
+«  xisti,  incederent,  non  atlendentes  suam  professio- 
+«  nem  el  bonum  exemplum,  nec  dimitterent  ^  iler, 
+«  (juod  jam  coeperant,  propter  praedicationem  meam 
+«  ct  exemplum  meum,  recommendavi  Domino  et  mi- 
+«'  nistris  fralrum  religionem.  Quoniam,  licet  lempore, 
+«  ([uo  renuntiavi  et  dimisi  otricium  fralrum,  coram 
+"  fratribus  me  exctisarem  in  capitulo  generali,  quod 
+«  (jropter  infirmilatem  meam  de  ipsis  curare  et  sol- 
+«  licitudinem  habere  non  possem,  tamen  modo,  si 
+«  secundum  volunlatem  meam  fralres  ambularenl, 
+«  ()ropler  ipsorum  consolationem  nollem,  quod  alium 
+«  ministrum  praeter  me  haberent,  usque  in  diem 
+«  mortis  meae.  Quoniam,  ex  quo  fidelis  et  bonus 
+"  subditus  volunlatem  sui  praelati  cognoscit  et  ob- 
+«  servat,    parvam    sollicitudinem    praelalum    oporlet 
+
+
+*  Ub.;  a  dimiltere  »;  Spec.  pag.  I3S:  a  Nec   volebanl   di- 
+miltere»;  Spec.  pergil:  «  iler  periculosum  et  morliferum  ». 
+
+
+—  97  — 
+
+«  habere  de  illo.  Immo  tantam  gauderem  et  conso- 
+«  lationem  haberem  de  fratrum  bonilate  propter  lu- 
+«  crum  meum  et  lucrum  ipsorum,  quod,  si  jacerem 
+«  in  lecto  infirmus,  non  gravaret  me  satisfacere  eis». 
+
+Et  ait:  «  Meum  officium  est  spiritnale,  videlicet 
+«  praelatio  super  fratres,  quare  debeo  dominari  vi- 
+«  liis  et  ea  emendare.  Unde,  si  vitiis  dominari  et  ea 
+«  emendare  non  valeo  praedicatione  et  exemplo,  nolo 
+« carnifex  fieri  ad  percutiendum  et  flagellandum, 
+«  sicut  potestates  huius  saeculi.  Sed  confido  in  Do- 
+«  mino,  quod  adhuc  inimici  invisibiles,  qui  sunt  ca- 
+«  staldi  Domini  ad  puniendum  illos  in  hoc  saeculo 
+«  et  in  futuro,  qui  transgrediuntur  mandata  Dei,  su- 
+«  munl  de  ipsis  vindictam,  facienles  ipsos  corrigi  ab 
+«  hominibus  hujus  saeculi  ad  improperium  et  ve- 
+«  recundiam  ipsorum,  et  revertentur  ad  vocationem 
+«  et  professionem  suam. 
+
+«  Verumtamen  usque  in  diem  mortis  meae 
+«  exemplo  et  operatione  non  cessabo  docere  fratres, 
+«  ambulare  per  viam,  quam  miM  Dominus  ostendit 
+"  et  ego  ostendi  eis  et  ipsos  informavi,  ut  sint  inexcu- 
+«  sabiles  coram  Deo,  et  ego  coram  ipso  de  ipsis  et 
+«  de  me  non  tenear  reddere  ulterius  rationem  ^ ». 
+
+14.  Lnde  tunc  B.  Franciscus  in  testamento  suo  fe- 
+cil  scribi,  quod  omnes  domus  fratrum  ex  lulo  et  lignis 
+deberent  construi  in  signum  paupertatis  sanctae  et 
+humilitalis,    et    quod   ecclesiae,   quae   pro   fralribus 
+
+
+*  Conf.  Spec.  c.  71,  iibi  niimerus  13  nonnullis  verbis  mu- 
+(alis  habclur. 
+
+
+—  98  - 
+
+construunlur,  essent  parvae.  Immo  voluit,  ut  lioc 
+inciperet  primo  reformari  et  maxime  de  domibus 
+ex  lignis  et  luto  constructis,  et  de  omnibus  aliis 
+bonis  exemplis  in  loeo  sanctae  Mariae  de  Portiun- 
+cula,  quae  fuit  primus  locus,  ubi,  postquam  fratres 
+manserunt,  coepit  Dominus  multiplicare  fratres,  ut 
+in  aeternum  esset  hoc  memoriale  ceteris  fralribus,  qui 
+sunt  venluri  et  erunt  ad  religionem  ^ 
+
+l^.  Sed  quidam  fratres  dixerunt  ei,  quod  non 
+videbatur  eis  bonum,  quod  domus  fratrum  deberent 
+conslrui  ex  luto  et  lignis,  cum  plerisque  ^  provin- 
+ciis  cariora  sint  ligna  lapidibus.  Bealus  Franciscus 
+nolebat  contendere  cum  eis,  quoniam  erat  valde  in- 
+firmus  et  quasi  jam  prope  morlem,  quia  parum 
+poslea  vixit.  Unde  scripsit  postea  in  testamento  suo: 
+«  Caveant  fratres  sibi,  ut  ecclesias  et  habiiacula  et 
+«  omnia  alia,  quae  pro  ipsis  construunlur,  penitus 
+((  non  recipiant,  nisi  essent,  sicut  decet  sanctam  pau- 
+((  pertalem,  quam  in  regula  promisimus,  semper  ibi 
+«  hospilanles,  sicut  advenae  et  peregrini ». 
+
+16.  Nos  vero,  qui  cum  ipso  fuimus,  quando 
+scripsit  regulam  et  fecit^  omnia  alia  sua  scripta,  te- 
+stimonium  perhibemus,  quod  plura  scripsit  in  re- 
+gula  et  aliis  suis  scriptis,  de  quibus  fratres  quidam 
+
+
+^  Ub.  n.   1 4  habet  uli  supra ;  Spcc.  cap.   I  I  (pag.   26   lin. 
+I  —  pag.  28  lin.  3)  nonnuUa  aliter  exliibet. 
+
+2  Ub. :  a  multisn;  Spec.  pag.  28:  «  aliquibus». 
+^  Ub.  et  Spec. :  «  fere  ». 
+
+
+—  99  — 
+
+fneriint  sibi  conlrarii,  et  maxirae  praelati  \  Unde 
+accidit,  quod  in  his,  in  quibiis  fralres  fuerunt  con- 
+trarii  beato  Francisco  in  vila  sua,  nunc  post  mortem 
+ejus  essent  valde  utilia  toti  religioni. 
+
+Sed,  quia  ipse  multum  limebat  scandalum,  con- 
+descendebat,  licet  involuntarie,  voluntatibus  fratrum  ; 
+sed  saepe  dicebat  hunc  sermonem:  «  Vae  ilhs  fra- 
+«  tribus !  qui  sunt  mihi  contrarii  de  hoc,  quod  co- 
+<(  gnosco,  quod  volunlas  Domini  est  pro  majori  uti- 
+«  lilate  religionis,  hcet  invitus  condescendam  volun- 
+«  tati  eorum  ».  Unde  saepe  dicebat  sociis  suis :  «  \n 
+«  hoc  est  dolor  meus  et  afflictio  mea,  quod  ea,  quae 
+«  cum  mullo  labore  orationis  et  medilationis  a  Do- 
+«  mino  per  misericordiam  suam  obtineo  pro  utilitate 
+(i  praesenti  et  futura  tolius  religionis,  et  ab  ipso  sum 
+«  cerlificatus,  quod  secundum  ejus  voluntatem  sunt, 
+«  et  aliqui  fratres  ex  sublimitale  '^  et  providentia 
+«  suae  scientiae  evacuant  et  sunt  mihi  contrarii  di- 
+«centes:  Isla  sunt  tenenda  et  observanda,  et  ista 
+«  non  ^  » . 
+
+Sed  quia,  ut  dictum  est,  multnm  timebat  scan- 
+daium,  mulla  permiltebat  et  in  mullis  condescende- 
+bat  voluntalibus  eorum,  quae  non  erant  secundum 
+volunlalem  suam  *. 
+
+
+'  Spec.  addit  «  el  scienliiJli  noslri »;  deinde  pergil:  «  qiiae 
+hodie  essenl  valdc  ulilia  el  necessaria  loti  reli^ioni  ». 
+
+'  UIj.:  «  auclorilale  •;  Spec:  «  cx  aiicloi-itale  suae  scien- 
+liae  el  falsae  providenliae  * . 
+
+'  Ilic  cessal  cap.   1 1   Speciili. 
+
+*  Ub.  addit:  «  llncnsque  vcrha  sancti  Leonis  »> . 
+
+
+VERBA  S.  R  FRANCISCI 
+
+
+[Isla  verba  scripsit  socius  beati  Francisci,  videlicet 
+frater  Leo,  qui  fuit  vir  verae  simplicitatis  et  sancli- 
+tatis,  quae  ipsius  regulae  intentionem  et  sensum  per- 
+fecte  deciarant  et  sincere  ac  fideliter  manifestant.]  ^ 
+
+1.  Item  dicebat  beatus  Franciscus  frequenter 
+verba  ista  fratribus :  «  Non  fui  unquam  latro  et  de 
+c(  eleemosynis,  quae  pauperum  sunt  haereditas,  sem- 
+«  per  minus  accepi,  quam  me  contingeret,  ne  de- 
+c(  fraudarentur  alii  pauperes  sorte  sua,  quia  contra- 
+«  rium  facere  furtum  essel^». 
+
+
+^  Verba  illa,  quae  in  codice  colore  rubro  sunt  scripla,  hic 
+in  iincis  ponuntur. 
+
+2  Clarenus,  Exp.  reg.  fol.  43  a :  «  Unde,  sicut  fraler  Leo 
+«  scribit,  beatus  Franciscus  volebat,  quod  summe  fratres  cave- 
+«  rent  reci|iere  vel  peiere  aliquid,  quod  excederel  limiles  pro- 
+«  missae  paupertatis,  quare  dicebal  frairlbus  frequenter  verba 
+aista:  Non  fui  lalro  unquam,  id  est.  de  eleemosinis,  quae  pau- 
+«  perum  sunt  liaeredilas,  semper  minus  accepi,  quam  me  con- 
+«  tingeret,  ne  defraudarenlur  alii  paupercs  sorle  sua,  quia,  qui 
+«  contrarium  faceret,  furtum  facerel.  Et  subdii,  cum  fralres 
+«  minisiri  » ;  uli  suDij^^k^jibi^njirti^A^T"  Conf.  Spec.  cap.  12. 
+
+
+^^^  —    •'iv 
+LIBRARY  y 
+
+
+—  101   — 
+
+2.  Cum  fralres  niinislri  suaderent  ei,  quod 
+aliquid  concederet  saltem  in  communi,  ut  tanta  mul- 
+tiludo  ^  haberet,  ad  quod  recurreret,  Sanclus  in  ora- 
+tione  invocavit  Chrislum  et  super  hoc  consuluit  eum, 
+qui  statim  respondit,  quod  omnia  auferret  in  spe- 
+ciali  et  in  communi  dicens,  quod  ista  est  familia 
+sua,  cui  semper  esset  paratus  providere,  quantum- 
+cumque  cresceret,  et  semper  eam  foveret,  quamdiu 
+in  ipso  speraret  ^ 
+
+3.  Item  dicebat  fratribus:  «  Noveritis,  fratres, 
+«  regulam  esse  hbrum  vitae,  spem  salutis,  medul- 
+«  iam  evangelii,  viam  perfectionis,  clavem  paradisi, 
+«  pactum  aelerni  foederis  -^ ». 
+
+4.  Cum  beatus  Franciscus  *  esset  in  quodam 
+monte  cum  fratre  Leoiie  de  Assisio  et  fratre  Bonizo 
+de  Bononia  ad  faciendum  regulam,  quae  perdita  erat, 
+quam    Chrislo   docente   conscribi  fecil^,    congregati 
+
+
+*  Clarenus  addil :  «  quae  conveniebat  in  capilulis  ». 
+
+^  Spec.  cap.  13:  «  Ego  auferam  omnia  in  speciali  el  com- 
+((  muni ;  huic  enim  familiae  semper  ero  paratus  providere, 
+«  quaniumcumque  crescaf,  et  sempcr  eam  fovebo,  quamdiu 
+<  sperabit  in  mc  ». 
+
+'  Conf.  II.  Ccl.  p.  III.  cap.   135  el  Spec.  cop.  76. 
+
+*  Clarenus  fol.  43  b  :  a  Ki  infert,  cum  H.  Franciscus  »  ..., 
+uli  supra  sub  4. 
+
+^  Spec.  cap.  \  :  «  Postquam  vero  secunda  regulii,  quam 
+«  fecit  beatus  Franciscus,  perdita  fuit,  ascendit  in  (picndam 
+«  monlem  cum  fr.  Leone  de  Assisio  et  fr.  Bonyzo  dc  Hononia, 
+«  ul  facerct  aliam  rcgidam,  (piam  Chrislo  doccntc  scribi  fecit ». 
+
+
+—   10^2  — 
+
+minislri  quampliires  ad  fralrem  Eliam,  qni  erat  vi- 
+cariiis  beati  Francisci,  dixerunt  sibi :  Audivimus, 
+«  quod  isle  frater  Franciscus  facit  unam  novam  re- 
+«  gulam;  timemus,  ne  faciat  ita  asperam,  quod  non 
+«  possimus  eam  servare.  Volumus,  quod  vadas  ad 
+«  eum  et  dicas  ei,  quod  nos  nolumus  esse  obligali 
+«  ad  illam  regulam ;  faciat  pro  se  et  non  pro  nobis  ». 
+Quibus  frater  Elias  respondit,  quod  nolebat  ire  ti- 
+mens  reprebensionem  fratris  Francisci.  Tunc  illis 
+instanlibus,  quod  iret,,  dixit  se  nolle  ire  sine  ipsis, 
+et  lunc  omnes  iverunt.  Et,  cum  esset  frater  Elias 
+cum  dictis  minislris  prope  locum,  ubi  stabat  beatus 
+Franciscus,  vocavit  eum  ;  quo  respondente  et  vidente 
+ministros  praedictos  dixit  frater  Franciscus:  «  Quid 
+«  volunt  isti  fratres  »  ?  et  frater  Elias  respondit :  « Isti 
+«  sunt  ministri,  qui  audientes,  quod  tu  facis  novam 
+«  regulam,  et  timenles,  quod  facias  nimis  asperam, 
+«  dicunt  et  prolestantur,  quod  nolunt  ad  eam  esse 
+«  obligati ;  facias  pro  te,  non  pro  eis». 
+
+Tunc  beatus  Franciscus  vertit  faciem  suam  ver- 
+sus  coelum  et  loquebatur  Christo  sic :  « Domine ! 
+«  nonne  bene  dixi  tibi,  quod  non  crederent  tibi »  ? 
+Tunc  audita  est  vox  Christi  in  aere  respondentis : 
+«  Francisce,  nihil  est  in  regula  de  tuo,  sed  totum 
+«  est  meum,  quidquid  ibi  est.  Et  volo,  quod  regula 
+«  sic  observetur  ad  litleram,  ad  litteram,  sine  glossa, 
+«  sine  glossa,  sine  glossa  ^  ».  Et  addidil :  «  Ego  scio. 
+
+
+^  Idem  Spcc.  pag.  i  lin.  3  el  4  ;  Clareiuis  I.  c:  «  ad  lil- 
+leram,  ad  lilleram,  ad  litleram,  sine  glossa  ».  —  Faloci,  Mi- 
+sccll.    Francisc.   vol.    \'ll.    pag.  186  scribit :     «  II  papa  di  Avi- 
+
+
+—  108  — 
+
+«  quantiim  polest  humana  iniirmitas,  et  quantum 
+«  volo  eos  adjuvare ;  qui  nolunt  eam  observare, 
+«  exeant  de  ordine  ». 
+
+Tunc  beatus  Franciscus  vertit  se  ad  fratres  11- 
+los  et  dixit  eis:  «  Audistis  ?  audislis  ?  vultis,  quod 
+«  ilerum  faciam  vobis  dici  >>  ?  Tunc  minislri  illi  con- 
+fusi  et  seipsos  increpantes  recesserunt. 
+
+0.  Cum  beatus  Franciscus  esset  in  capitulo  ge- 
+nerali,    quod    celebratum    est   Assisii   et  dictum  est 
+
+
+gnone  il  30.  Dec.  1317  ordino  di  procedere  contro  coioro  i 
+quali...,  rcgiilam  ordinis  Fratruni  Minurum,  quam  sanctus  Fran- 
+ciscus  instiiuit,  se  proHlcri  et  ad  literam  observareconfingunt'... 
+Ebljcne  dalla  Corziuncola  e^^s^ome  prolesta  lo  Speculum,  nel 
+quale  il  primo  capitolo  narrs^^della  voce  di  Crislo,  che  racco- 
+mando  la  regola  observari  ad  lilteram,  ad  litteram,  ad  lilleram  ». 
+Duo  respondeniur : 
+
+1.  Conslituiio  loannis  XXII.  «  Sancta  Romana  »  de  30  Dec. 
+1317  non  u(jit  de  Fratribus  Minoribus,  sed  de  a  nonnullis 
+prophanae  muliitudinis  viris,  qui  vulgariter  fralicelli  seu  fratres 
+de  j)aupcre  viia  aiil  bizocchi  sive  beghini  vcl  aliis  nominibus 
+nunciipanlur  »,  quorum  «  pluiimi  regulam  ordinis  Iratrum  Mi- 
+noruu)  se  profiicri  ct  ad  litteram  observare  connngunl,  qiiam- 
+quam  sub  obedieniia  generalis  vel  provincialium  ministrorum 
+ipsiiis  ordinis  non  morentiir  »  ;  nec  quidfjuam  dicta  constilutio 
+contra  obserialionem  regulae  «  ad  lilteram  »  dicit. 
+
+2.  Vocem  Christi  regulae  observationem  o  ad  litieram  » 
+commendantem  non  esse  invenlam  w  dalla  Porziuncula  come 
+protef^ti  n  conlra  (•oiistitiilioncin  islam  aiino  \?>\1  emanalam, 
+jam  lesiatur  Ubcrtiniis,  (jui  candem  nairalioneni  et  vocem 
+rcfert  in  suo  iibro  «  Arbor  vitae  cruciflxae  Jesii  »  lol.  1-^  iij  a, 
+(pjcm  anno  I30o  scripsil.  Absquc  fiindamento  Faloci  addit:  «  lid 
+c  su  quesla  falsa  riga  chc  «';  redalla  iiilla  Top^Ma  ». 
+
+
+—    104  — 
+
+capitulum  textoriorum  \  et  fuerunt  ibi  quiuMe  mil- 
+lia  fralrum,  quamplures  sapientes  et  in  scientil  docti, 
+ad  dominum  Cardinalem,  qui  fuit  poslea  Papa  Gre- 
+gorius,  qui  erat  praesens  in  capitulo,  dixerunt,  quod 
+suaderet  beato  Francisco,  quod  sequeretur  consilia 
+dictorum  fratrum  sapientum  et  permitteret  se  duci 
+interdum  ab  eis,  allegantes  regulam  beati  Benedicli, 
+Augustini  et  Bernardi,  qui  docent  sic  et  sic  ordinale 
+vivere.  Tunc  bealus  Franciscus  audita  admonitione 
+Cardinalis  super  hoc,  accepit  Cardinalem  per  manum 
+et  duxit  eum  ad  fratres  congregalos  in  capitulo  et 
+locntus  est  sic  fralribus  :  «  Fratres  mei !  fralres  mei ! 
+«  Dominus  vocavit  me  per  viam  humilitatis  et  osten- 
+«  dit  mihi  viam  simpicilatis,  et  nolo  quod  nomine- 
+«  tls  mihi  regulam  aliquam  neque  sancti  Auguslini, 
+«  neque  sancti  Benedicti,  neque  sancti  Bernardi.  Et 
+«  dixit  mihi  Dominus,  quod  volebat,  quod  ego  essem 
+«  unus  novellus  pazzus^  in  mundo;  et  noluit  nos 
+«  ducere  Dominus  per  aliam  viam,  quam  per  istam 
+"  sapienliam  ;  sed  per  vestram  scientiam  et  sapien- 
+«  tiam  Deus  vos  confundet.  Sed  ego  confidb  in  ca- 
+«  slaldis  Domini,  quod  per  ipsos  vos  puniet,  et  ad- 
+«  huc  redibitis  ad  slatum  vestrum  ad  vestrum  vitu- 
+«  perium,  velitis,  nolitis  ^  ». 
+
+
+^  Codex  1/65:  «  ministroriim  »  ;  Spec.  pag.  131:  «  sto- 
+rioriim  »  (ilal.  «  delle  stuoie»). 
+
+^  Spec.  pag.  132:  «  unum  novelium  paclum  » ;  Clarenus: 
+<(  palzus  sive  slullus  ». 
+
+^  Idem  Clarenus  fol.  44  a  incipiens;  «  Et  addidit:  Cum 
+bealus  Franciscus»,  et  Spec.  cap.  68. 
+
+
+-"  -    lOo  — 
+
+6i^jteram  dixerunt  aliqiii  fratres  beato  Franci- 
+sco  ^ :  «  Pater,  nonne  vides,  quod  aliquando  episcopi 
+"  non  permjttunt  nos  praedicare,  et  pluribus  diebus 
+«  permittunt  nos  stare  in  una  terra  otiosos,  ante- 
+"  quam  possimus  populo  praedicare  ?  Et  melius  es- 
+«  set,  quod  tu  impetrares,  quod  fratres  haberent 
+«  privilegium  a  papa  libere  praedicandi,  et  esset 
+«  salus  animarum  «.  Quibus  ipse  respondit  cum  ma- 
+gna  reprehensione  dicens:  «  Vos,  fratres  minores,  non 
+«  cognoscitis  voluntatem  Dei,  et  non  permiltitis  me 
+«  convertere  et  aedificare  totum  mundum,  sicut 
+«  Deus  vull,  quuniam  voluntas  Dei  est,  sicut  ego 
+«  volo,  quod  propter  humilitalem  et  patientiam  et 
+«  bona  opera  et  reverentiam  populum  aedificemus 
+«  el  convertamus  praelatos ;  et,  cum  ipsi  viderint 
+«  sanctam  vitam  nostram  et  humilitatem  et  subje- 
+«  ctionem  et  reverentiam  ad  eos,  ipsi  rogabunt  nos, 
+«  quod  praedicemus  et  convertamus  populum,  et  ipsi 
+«  vocabunt  melius  ^  quam  privilegia,  quae  vultis, 
+«  quae  vos  ducent  ad  superbiam.  Et,  si  fueritis  se- 
+«  parati  ab  omni  avarilia  et  superbia,  et,  si  populum 
+«  induxeritis,  quod  reddant  ecclesiis  jura  sua  et 
+«  revereantur  et  honorent  praelalos  et  clerum,  ipsi 
+«  rogabunt    vos,    quod   audiatis   confessiones   populi 
+
+
+'  Haec  in  codice  1/73  yrcli.  S.  Isid.  deesse  jam  diximus; 
+habenlur  apud  Clarenum  I.  c,  qui  incipit:  a  El  infert,  ilerum 
+dixerunl  aliqui  fralrcs»,  ri  apud  Urberlinum,  Responsio  pag. 
+53;  conf.  Spcc.  cap.  oO. 
+
+'  Spec.  pag.  86  lin.  6:  «  ipsum  vocabunt » ;  Ub. :  «  ipsi 
+vocabuni  vobis  »>. 
+
+
+—  106  — 
+
+«  sui,  licet  de  hoc  non  debealis  curare,  quia,  si  con- 
+«  versi  fuerint,  bene  invenient  confessores.  Ego  pro 
+a  me  volo  hoc  privilegium  a  Domino,  nuUum  scili- 
+a  cet  ab  homine  habere  privileginm,  nisi  omnibus 
+«  reverentiam  facere  et  per  observantiam  et  obedienl- 
+«  tiam  sanctae  regulae  et  bonis  exemplis,  pUis  quam 
+«  verbis,  ad  eum  convertere  universos». 
+
+Ubertinus  Casalensis  addit:  «  Haec  sunt  scripta 
+(.  de  manu  fralris  Leonis,  viri  sanciissimi  et  ideo  in- 
+o  dividui  socii  beati  Francisci,  sicut  ab  ore  ejus  au- 
+u  diebat,  quae  ego  iegi,  et  ab  anliquis  patribns  nostris 
+«  audivi  ». 
+
+
+INDEX 
+
+
+r    1 
+
+
+Praefaiio Pag.      5 
+
+A.  Vita  B.  Aegidii  Assisiatis. 
+
+Introductio. 
+
+I.  De  auctorc  luijus  vilae .     »       9 
+
+II.  De  relalione  ipsius  ad  vilas  B.  Aegi9ii  saeculo  XiV. 
+
+scriptas »11 
+
+III.  De  relatione  ipsius  ad   alia,   quae   fratri   I.eoni  at- 
+
+Iribuunlur,  scripta »15 
+
+a)  De  Speculo  perfectionis »     15 
+
+b)  De  Legenda  a  trium  sociorum  » »18 
+
+c)  De  epistola  ad  Ministrum  Generalem  anno  1246 
+
+mlssa »28 
+
+IV.  De  relatione  hujus  vilae   ad   scripta   Celanensis  et 
+legendam  S.  Bonaventurae »34 
+
+Vita  B.  Aegidii »37 
+
+Verbn  B.  Aegidii  »03 
+
+Appendix »66 
+
+B.  Duo  Opuscula  de  S.  P.  Francisco. 
+
+Introductio. 
+
+I.  De  teslimoniis,  quae  primum  saccuium  Franciscanum 
+
+hisce  opusculis  praebei »75 
+
+II.  De  duobiis  Opusculis  in  specie »79 
+
+a)  Do  Libro  de  Inlenlione  S.  Francisci     ...»     79 
+
+b)  De  Verbis,  (piae  scripsit  frater  Leo.     ...»     81 
+
+S.  P.  Francisci  Intentio  regulao »83 
+
+Verba  S.  P.  Francisci »100 
+
+
+*  Index  porsonftriim  et  locorurn  in  fino  partis  II. 
+
+
+IMPRIMATLB. 
+
+Dalum  Florentiae  ex  Curia  Archieplscopali, 
+die  8  Februarii  1901. 
+
+Can.  IWaximilianus  Novelli,  Vic.  Glis. 
+
+
+Ex  parle  Ordinis  nihil  obstat, 
+quoQiinus  imprimalur. 
+
+Romae  ad  S.  Anlonium,  die  25  Januarii  1901. 
+
+Fr.  Aloysius  Lauer,  Min.  Glis  0.  F.  M. 
+
+
+7  l;-.40 
+
+a70 
+
+
+/ 
+
+g^^ 
+
+
+Documaita  antiqua  f ranciscana.     E  lidit 
+Leonardus  Lemmens. 
+
+^-  ^  7:573' 
+
+aTI 
+
+PONTlFtCAL   JNST»TUT€^ 
+
+OF    MEDIAEVAL  STUDIE^ 
+
+ee  QUEENS  PARK 
+
+CORONTO  5.    CANADA^ 
+
+

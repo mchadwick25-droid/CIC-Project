@@ -1,0 +1,20 @@
+source_file: smith_christian-mission-in-africa-le-zoute-1926_1926.txt
+assignments:
+- row_id: smith_christian-mission-in-africa-le-zoute-1926_1926--international-conference-at-le-zoute-1926-recommendations
+  work: 'International Conference at Le Zoute 1926, recommendations and resolutions (in Smith, The Christian Mission in Africa)'
+  author: smith
+  locus: 'lines 5372-6336'
+  atlas_ids:
+  - the-ecumenical-movement-and-the-wcc
+  role: tradition
+  confidence: assigned
+  note: 'The conference''s own formal text; the rest of the book is Smith''s interpretation, by his own preface.'
+- row_id: smith_christian-mission-in-africa-le-zoute-1926_1926--smith-the-christian-mission-in-africa-on-the-prophet-harris
+  work: 'Smith, The Christian Mission in Africa: on the prophet Harris'
+  author: smith
+  locus: 'lines 2250-2269'
+  atlas_ids:
+  - african-initiated-churches-harrist-aladura-zioni
+  role: context
+  confidence: assigned
+  note: 'A missionary writer''s passing comment of 1926; no words of Harris.'

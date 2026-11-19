@@ -1,0 +1,12 @@
+source_file: brosset_deux-historiens-armeniens-kiracos-oukhtanes-fra_1870.txt
+assignments:
+- row_id: brosset_deux-historiens-armeniens-kiracos-oukhtanes-fra_1870--ukhtanes-separation-of-the-georgians-french-brosset-1870
+  work: 'Ukhtanes, History, part 2: the separation of the Georgians from the Armenians, French (Brosset 1870)'
+  author: brosset
+  locus: 'Ukhtanes part 2 from about OCR line 28822; add 12 to OCR line numbers'
+  atlas_ids:
+  - armenian-christianity-before-the-bagratids
+  - georgian-christianity
+  role: context
+  confidence: provisional
+  note: 'An Armenian bishop of the tenth century tells the break of 607-609 and copies letters of the time. He writes three centuries later and from the Armenian side.'

@@ -32,7 +32,7 @@ exchange:
     the moment he feels the fast has done something, he is taught to say
     that it was not he, but the grace of God with him. Both halves are
     commanded. Cassian set it down as the elders' teaching, not his own:
-    perfection cannot be gained without these labours, and by these labours
+    perfection cannot be gained without these labors, and by these labors
     alone, without the grace of God, no one can attain it. The will always
     remains free in a man; and it is weak; and the help of God is needed by
     it every day and hour. The argument came to us as a story. Two friends
@@ -64,7 +64,7 @@ substance, neither adopted nor refused as a label, and no later
 verdict-word (semi-Pelagian, Massilian) enters the turn because the
 participant did not bring one. Every claim greppable: "Not I, but the
 grace of God with me" as the sentence a monk is taught to say, both
-halves of Inst. XII (perfection not gained without these labours, nor by
+halves of Inst. XII (perfection not gained without these labors, nor by
 them alone without grace), and the two refusals (grace "dispensed in
 accordance with the desert of each man"; God willing "only some instead
 of all to be saved") are gallic.term.grace's informational sense; "the

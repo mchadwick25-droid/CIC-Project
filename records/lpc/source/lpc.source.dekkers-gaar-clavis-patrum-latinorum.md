@@ -12,7 +12,7 @@ confidence:
   evidentiary_weight: illustrative
   formation_confidence: Widely Accepted
   divergence_note: This Registry's own first genuine Type L entry (Period Lexicon, per the Template's
-    own definition -- a Latin-keyed catalogue of the very corpus this world draws on). Flagged for priority
+    own definition -- a Latin-keyed catalog of the very corpus this world draws on). Flagged for priority
     second-opinion review before it supports any specific claim.
 sources: []
 relations: []
@@ -28,7 +28,7 @@ rights_status: in-copyright; never vendored, consultation-only, per Source_Acqui
   primary editions and secondary scholarship alike, per that same rule. Cited and consulted by this build,
   never quoted as licensed vendored material.
 attribution_status: attributed
-discovery_channel: WebSearch (Brepols's own series record and library catalogues).
+discovery_channel: WebSearch (Brepols's own series record and library catalogs).
 external_ids:
   lpc_source_registry_row: 57
 ---

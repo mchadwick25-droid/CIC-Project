@@ -59,7 +59,7 @@ require closing it.
 
 WHAT DOES NOT SURVIVE. There is no Donatist chronicle of Arles, no
 Donatist administrative account of any of these rulings, no
-documentary self-defence of any kind. This world's external forces reach
+documentary self-defense of any kind. This world's external forces reach
 us almost entirely through the acting or allied party's own record of
 them - which means the story of what Constantine did to this communion
 is told by the side he decided for.

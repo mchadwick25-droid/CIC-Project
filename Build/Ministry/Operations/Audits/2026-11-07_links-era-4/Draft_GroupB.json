@@ -1,0 +1,1235 @@
+{
+ "group": "B",
+ "movements": [
+  "carolingian-reform-christianity",
+  "cluniac-reform-monasticism",
+  "mozarabic-christianity",
+  "cyrillo-methodian-slavic-christianity",
+  "kievan-rus-christianity"
+ ],
+ "dispositions": [
+  {
+   "movement": "carolingian-reform-christianity",
+   "field": "relationsSummary",
+   "sentence": "Child of Anglo-Saxon + Gallic lines; parent of Cluny",
+   "other_id": "anglo-saxon-christianity",
+   "disposition": "link",
+   "link_id": "anglo-saxon-christianity--carolingian-reform-christianity",
+   "prose_change": 0,
+   "reason": "Documented 'influenced': Carloman's 742 capitulary sets Boniface over the Frankish bishops; Boniface's 747 letter; Alcuin, Against Elipandus I.16. Summary reworded from 'Child of'."
+  },
+  {
+   "movement": "carolingian-reform-christianity",
+   "field": "relationsSummary",
+   "sentence": "Child of Anglo-Saxon + Gallic lines; parent of Cluny",
+   "other_id": "merovingian-gallic-christianity",
+   "disposition": "link",
+   "link_id": "merovingian-gallic-christianity--carolingian-reform-christianity",
+   "prose_change": 0,
+   "reason": "Documented 'continued as': the 742 decree restores church law that collapsed under earlier princes; Hincmar (869) and Gregory of Tours both put Clovis's baptism at Remigius's Reims."
+  },
+  {
+   "movement": "carolingian-reform-christianity",
+   "field": "relationsSummary",
+   "sentence": "Child of Anglo-Saxon + Gallic lines; parent of Cluny",
+   "other_id": "cluniac-reform-monasticism",
+   "disposition": "qualify",
+   "link_id": "carolingian-reform-christianity--cluniac-reform-monasticism",
+   "prose_change": 0,
+   "reason": "Only the shared Rule of Benedict links them in the vendored texts; Inferential-Thin 'influenced' link, and 'parent of' rewritten."
+  },
+  {
+   "movement": "carolingian-reform-christianity",
+   "field": "longDescription",
+   "sentence": "When Pippin was anointed king in 751 and his son Charlemagne built an empire across western Europe, they treated the condition of the church as a matter of government: schools attached to cathedrals and monasteries, corrected copies of Scripture and the liturgy, one monastic rule for the whole realm, and decrees ordering that every priest be able to explain the Creed and the Lord's Prayer to his people in words they could understand.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Frankish rulers are this movement's own government, not another movement. Royal church legislation is in the vendored MGH Leges I (Carloman 742; Aachen 802). The Admonitio generalis (789) itself is not vendored. Claim stands."
+  },
+  {
+   "movement": "carolingian-reform-christianity",
+   "field": "longDescription",
+   "sentence": "When Pippin was anointed king in 751 and his son Charlemagne built an empire across western Europe, they treated the condition of the church as a matter of government: schools attached to cathedrals and monasteries, corrected copies of Scripture and the liturgy, one monastic rule for the whole realm, and decrees ordering that every priest be able to explain the Creed and the Lord's Prayer to his people in words they could understand.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The unnamed rule is Benedict's: Carloman's 742 capitulary c. 7 orders monks and nuns to live 'iuxta regulam sancti Benedicti' (MGH Leges I, line 2324), and the 802 Aachen capitula concern reading the Rule (line 247). Claim stands."
+  },
+  {
+   "movement": "carolingian-reform-christianity",
+   "field": "longDescription",
+   "sentence": "Scholars were imported to run it, Alcuin of York above all, and the clear round script their scriptoria developed — Carolingian minuscule — is the ancestor of the letters you are reading now.",
+   "other_id": "anglo-saxon-christianity",
+   "disposition": "link",
+   "link_id": "anglo-saxon-christianity--carolingian-reform-christianity",
+   "prose_change": null,
+   "reason": "Carried by the same 'influenced' link; Alcuin's own words ('veni in Franciam ... adjuvare in fide catholica') are its third source. The script claim names no other movement; left as written."
+  },
+  {
+   "movement": "carolingian-reform-christianity",
+   "field": "legacy",
+   "sentence": "Its institutional line runs on into the papal reform of the eleventh century and through that into the Latin church of the whole later Middle Ages.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "link",
+   "link_id": "carolingian-reform-christianity--latin-papal-church-gregorian",
+   "prose_change": 1,
+   "reason": "Widely Accepted 'influenced': Gregory VII (1081) quotes a Pseudo-Isidorian letter (Mirbt's identification; ANF 8 notice on the Frankish forgery). Sentence rewritten to say this. The continuesAs field is escalated."
+  },
+  {
+   "movement": "carolingian-reform-christianity",
+   "field": "legacy",
+   "sentence": "Its institutional line runs on into the papal reform of the eleventh century and through that into the Latin church of the whole later Middle Ages.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "No single entry for the later medieval Latin church. The ANF 8 notice says the Decretals passed 'into the organic canon-law of the West'; the rewritten sentence says only that such texts passed into its law."
+  },
+  {
+   "movement": "carolingian-reform-christianity",
+   "field": "legacy",
+   "sentence": "Its most durable legacies are practical: Carolingian minuscule, which Renaissance humanists took as their model and which therefore stands behind modern printed type.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Renaissance humanists have no entry. No vendored or repo-cited text found on the humanists' use of minuscule; a broad reception claim, left as written (reworded only to score) and flagged in wants."
+  },
+  {
+   "movement": "carolingian-reform-christianity",
+   "field": "legacy",
+   "sentence": "Corrected texts of the Bible and the Roman liturgy that stayed standard for centuries; and the cathedral and monastic schools that were the seed-bed of the medieval universities.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Universities have no entry in this sense. No vendored or repo-cited text found; a broad reception claim, left as written (reworded only to score) and flagged in wants."
+  },
+  {
+   "movement": "cluniac-reform-monasticism",
+   "field": "relationsSummary",
+   "sentence": "Cluny grew out of the Carolingian reform tradition, and it became the establishment that the next century's new monastic orders, the Cistercians above all, reacted against.",
+   "other_id": "carolingian-reform-christianity",
+   "disposition": "qualify",
+   "link_id": "carolingian-reform-christianity--cluniac-reform-monasticism",
+   "prose_change": 2,
+   "reason": "Inferential-Thin: only the shared Rule is shown. Sentence now says that, and that no named founder ties Cluny to the reform."
+  },
+  {
+   "movement": "cluniac-reform-monasticism",
+   "field": "relationsSummary",
+   "sentence": "Cluny grew out of the Carolingian reform tradition, and it became the establishment that the next century's new monastic orders, the Cistercians above all, reacted against.",
+   "other_id": "cistercian-monasticism",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "No Cistercian text (Exordium parvum, Carta caritatis, Bernard's Apologia to William of Saint-Thierry) is vendored or cited in the repo, so no link can be drafted. Qualified to 'may have'. The Cistercian entry (era 5) names the same relationship in its own text; its pass owns that side."
+  },
+  {
+   "movement": "cluniac-reform-monasticism",
+   "field": "relationsSummary",
+   "sentence": "It reached its peak in the twelfth century under Peter the Venerable, who led the house until 1156, commissioned the first Latin translation of the Qur'an, and gave shelter to Peter Abelard.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Islam and Abelard have no entry. No vendored or repo-cited source on Peter the Venerable was found; left as written (split only to score) and wanted. Note for the merge: the sentence describes Cluny after the entry's own window (909-1109)."
+  },
+  {
+   "movement": "cluniac-reform-monasticism",
+   "field": "relationsSummary",
+   "sentence": "It reached its peak in the twelfth century under Peter the Venerable, who led the house until 1156, commissioned the first Latin translation of the Qur'an, and gave shelter to Peter Abelard.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Abelard is a person with no entry; as above."
+  },
+  {
+   "movement": "cluniac-reform-monasticism",
+   "field": "longDescription",
+   "sentence": "In 909 or 910 — the foundation charter's own year is disputed — a duke of Aquitaine endowed a monastery at Cluny in Burgundy and did something unusual with the deed: he renounced all rights over it, for himself and his heirs, and placed it directly under the pope, so that no local lord or bishop could appoint its abbot or spend its money.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The founder is a person. The charter is not vendored; Henderson's Select Historical Documents (1892), which prints it, is cited in the repo (merovingian dossier). Claim stands; the charter is wanted."
+  },
+  {
+   "movement": "cluniac-reform-monasticism",
+   "field": "longDescription",
+   "sentence": "In 909 or 910 — the foundation charter's own year is disputed — a duke of Aquitaine endowed a monastery at Cluny in Burgundy and did something unusual with the deed: he renounced all rights over it, for himself and his heirs, and placed it directly under the pope, so that no local lord or bishop could appoint its abbot or spend its money.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The census has no papal entry for 909-1049; the Gregorian entry opens in 1049, so the 910 subjection cannot be a link to it. Claim rests on the charter (wanted). The later contact is carried by cluniac-reform-monasticism--latin-papal-church-gregorian."
+  },
+  {
+   "movement": "cluniac-reform-monasticism",
+   "field": "longDescription",
+   "sentence": "In 909 or 910 — the foundation charter's own year is disputed — a duke of Aquitaine endowed a monastery at Cluny in Burgundy and did something unusual with the deed: he renounced all rights over it, for himself and his heirs, and placed it directly under the pope, so that no local lord or bishop could appoint its abbot or spend its money.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Local lords and bishops are not a movement; claim rests on the charter, as above."
+  },
+  {
+   "movement": "cluniac-reform-monasticism",
+   "field": "longDescription",
+   "sentence": "Its abbots reached outward too: Odilo spread the commemoration of all the dead on 2 November and lent his weight to efforts to limit private warfare, and by the eleventh century Cluny's church was the largest in Christendom.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Peace and Truce of God have no entry. No vendored text on Odilo was found (Mirbt prints the 1031 Limoges synod, not Odilo). Left as written; Odilo's Truce of God letter (1041) and his statute for All Souls are wanted."
+  },
+  {
+   "movement": "cluniac-reform-monasticism",
+   "field": "why",
+   "sentence": "In 909 or 910 a duke of Aquitaine endowed the monastery of Cluny and renounced all rights over it, placing it directly under the pope so that no local lord could control its abbot or its money.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As for the same claim in longDescription: no papal entry for 910."
+  },
+  {
+   "movement": "cluniac-reform-monasticism",
+   "field": "legacy",
+   "sentence": "Its insistence that a monastery answer to Rome rather than to the local lord fed directly into the papal reform of the eleventh century.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "qualify",
+   "link_id": "cluniac-reform-monasticism--latin-papal-church-gregorian",
+   "prose_change": 3,
+   "reason": "Influence not shown in any vendored or repo-cited text; qualified to 'may have fed into'. The documented contact at Canossa (1077) becomes a Documented 'in contact with' link and a new sentence."
+  },
+  {
+   "movement": "cluniac-reform-monasticism",
+   "field": "legacy",
+   "sentence": "The commemoration of All Souls on 2 November, which Odilo did most to spread, is still kept across Western Christianity.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "Present-day practice; no single entry. Left as written (reworded only to score)."
+  },
+  {
+   "movement": "cluniac-reform-monasticism",
+   "field": "legacy",
+   "sentence": "And the next century's new orders, the Cistercians above all, defined themselves precisely against Cluny's wealth and its long liturgy.",
+   "other_id": "cistercian-monasticism",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "As for the summary sentence: no Cistercian text vendored or repo-cited; qualified to 'may have'."
+  },
+  {
+   "movement": "mozarabic-christianity",
+   "field": "relationsSummary",
+   "sentence": "Heir of post-589 Iberia; a community arguing with itself about provoked martyrdom",
+   "other_id": "nicene-visigothic-iberia",
+   "disposition": "link",
+   "link_id": "nicene-visigothic-iberia--mozarabic-christianity",
+   "prose_change": null,
+   "reason": "Documented 'continued as': the Chronicle of 754 names Toledo's bishop at the conquest and its cathedral clergy after it."
+  },
+  {
+   "movement": "mozarabic-christianity",
+   "field": "longDescription",
+   "sentence": "After 711 most of Iberia's Christians lived under Muslim rule, kept the old Visigothic liturgy, and — as generations passed — increasingly spoke, wrote and thought in Arabic.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Muslim rulers have no entry. The Chronicle of 754 (vendored, MGH AA 11) records the conquest and Arab governors (e.g. 'Ambiza eorum rector', line 34477). Claim stands."
+  },
+  {
+   "movement": "mozarabic-christianity",
+   "field": "longDescription",
+   "sentence": "After 711 most of Iberia's Christians lived under Muslim rule, kept the old Visigothic liturgy, and — as generations passed — increasingly spoke, wrote and thought in Arabic.",
+   "other_id": "nicene-visigothic-iberia",
+   "disposition": "link",
+   "link_id": "nicene-visigothic-iberia--mozarabic-christianity",
+   "prose_change": null,
+   "reason": "Carried by the 'continued as' link; Ferotin (1912) on the rite surviving the conquest is its secondary."
+  },
+  {
+   "movement": "mozarabic-christianity",
+   "field": "longDescription",
+   "sentence": "In the 850s that quiet accommodation broke open in Córdoba, where some four dozen Christians were executed after publicly denouncing Islam, many of them going out of their way to provoke the sentence.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The authorities of Córdoba have no entry. Eulogius's works are not vendored (Wolf's 2019 translation is in copyright); the census cites them. Left as written; a public-domain Eulogius (PL 115) is wanted."
+  },
+  {
+   "movement": "mozarabic-christianity",
+   "field": "longDescription",
+   "sentence": "The community then argued with itself about what had happened: the priest Eulogius wrote the martyrs up as heroes and was executed himself in 859.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Person; as above."
+  },
+  {
+   "movement": "mozarabic-christianity",
+   "field": "longDescription",
+   "sentence": "And other Christians, including bishops assembled in council, judged that the martyrs had thrown their lives away.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Internal dispute (the council of Córdoba, 852), not another movement. Not vendored; left as written."
+  },
+  {
+   "movement": "mozarabic-christianity",
+   "field": "longDescription",
+   "sentence": "The window closes with the collapse of the Caliphate of Córdoba in 1031.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Dating, not a relationship; no entry. Left as written."
+  },
+  {
+   "movement": "mozarabic-christianity",
+   "field": "why",
+   "sentence": "After 711 most Christians in Iberia lived under Muslim rule, kept their old Visigothic liturgy, and increasingly spoke and wrote in Arabic, until in the 850s a group in Córdoba began publicly denouncing Islam, some going out of their way to provoke execution.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As for the longDescription sentences."
+  },
+  {
+   "movement": "mozarabic-christianity",
+   "field": "why",
+   "sentence": "The community argued fiercely over what to make of them: the priest Eulogius defended the martyrs and was executed himself in 859, while his friend Paulus Alvarus lamented that young Christians preferred Arabic poetry to their own Latin, and other Christians, including bishops, judged that the martyrs had simply thrown their lives away.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Person; Eulogius not vendored, as above."
+  },
+  {
+   "movement": "mozarabic-christianity",
+   "field": "why",
+   "sentence": "The community argued fiercely over what to make of them: the priest Eulogius defended the martyrs and was executed himself in 859, while his friend Paulus Alvarus lamented that young Christians preferred Arabic poetry to their own Latin, and other Christians, including bishops, judged that the martyrs had simply thrown their lives away.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Internal dispute; Alvarus's Indiculus luminosus not vendored. Left as written."
+  },
+  {
+   "movement": "mozarabic-christianity",
+   "field": "legacy",
+   "sentence": "No continuing community carries the name.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "Added to the inventory: a continuity claim. Ferotin (1912, vendored) counts some five hundred Mozarabic families at Toledo in 1910, with Mozarabic parishes until 1851. Corrected."
+  },
+  {
+   "movement": "mozarabic-christianity",
+   "field": "legacy",
+   "sentence": "Mozarabic Christianity was worn away between the pressure of the Almoravid and Almohad periods and absorption into the Latin church of the northern kingdoms as they advanced.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "No single entry for the northern Latin church. Ferotin says the Roman liturgy replaced the Mozarabic at the end of the eleventh century under Gregory VII, with the monks of Cluny as his instruments (lines 293-299). Claim stands (reworded only to score)."
+  },
+  {
+   "movement": "mozarabic-christianity",
+   "field": "legacy",
+   "sentence": "Mozarabic Christianity was worn away between the pressure of the Almoravid and Almohad periods and absorption into the Latin church of the northern kingdoms as they advanced.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "The Almoravids and Almohads have no entry; no vendored text found on them. Left as written."
+  },
+  {
+   "movement": "mozarabic-christianity",
+   "field": "legacy",
+   "sentence": "The old Hispanic rite, which the Mozarabs held on to when the rest of the Latin West adopted Roman usage, was rescued at Toledo around 1500 by Cardinal Cisneros, who had its books printed and endowed a chapel to keep it in use.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "Ferotin supports the Roman replacement (above)."
+  },
+  {
+   "movement": "mozarabic-christianity",
+   "field": "legacy",
+   "sentence": "The old Hispanic rite, which the Mozarabs held on to when the rest of the Latin West adopted Roman usage, was rescued at Toledo around 1500 by Cardinal Cisneros, who had its books printed and endowed a chapel to keep it in use.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "Person. Ferotin names the missal 'publiée en 1500 par ordre du cardinal Ximénès' (line 8507) and the cathedral's 'capilla muzárabe' (lines 1333-1335, 1368). That Cisneros endowed the chapel is not stated there; left as written and flagged."
+  },
+  {
+   "movement": "cyrillo-methodian-slavic-christianity",
+   "field": "relationsSummary",
+   "sentence": "Child of Byzantium; parent of Kievan Rus' Christianity",
+   "other_id": "byzantine-imperial-church-macedonian",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-macedonian--cyrillo-methodian-slavic-christianity",
+   "prose_change": 4,
+   "reason": "Widely Accepted 'gave rise to'. Summary reworded."
+  },
+  {
+   "movement": "cyrillo-methodian-slavic-christianity",
+   "field": "relationsSummary",
+   "sentence": "Child of Byzantium; parent of Kievan Rus' Christianity",
+   "other_id": "kievan-rus-christianity",
+   "disposition": "link",
+   "link_id": "cyrillo-methodian-slavic-christianity--kievan-rus-christianity",
+   "prose_change": 4,
+   "reason": "Widely Accepted 'influenced'; 'parent of' reworded to the books and letters that passed."
+  },
+  {
+   "movement": "cyrillo-methodian-slavic-christianity",
+   "field": "longDescription",
+   "sentence": "In 863 two brothers from Thessaloniki — Constantine, better known by his monastic name Cyril, and Methodius — were sent from Constantinople to Moravia at its ruler's request, and did something unusual for their day: rather than teach in Greek or Latin, they devised an alphabet for the Slavic language and translated the Scriptures and the liturgy into it.",
+   "other_id": "byzantine-imperial-church-macedonian",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-macedonian--cyrillo-methodian-slavic-christianity",
+   "prose_change": null,
+   "reason": "Carried by the 'gave rise to' link."
+  },
+  {
+   "movement": "cyrillo-methodian-slavic-christianity",
+   "field": "longDescription",
+   "sentence": "In 863 two brothers from Thessaloniki — Constantine, better known by his monastic name Cyril, and Methodius — were sent from Constantinople to Moravia at its ruler's request, and did something unusual for their day: rather than teach in Greek or Latin, they devised an alphabet for the Slavic language and translated the Scriptures and the liturgy into it.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Moravia has no entry. Lützow (1910, vendored) gives Rostislav's request and the emperor's answer. Claim stands."
+  },
+  {
+   "movement": "cyrillo-methodian-slavic-christianity",
+   "field": "longDescription",
+   "sentence": "The idea was fought hard, by clergy who held that God could properly be worshipped only in Hebrew, Greek and Latin, and the brothers traveled to Rome to argue the case, where the pope approved the Slavonic books.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The clergy are unnamed. Lützow (lines 1356-1362) names them as German priests and the archbishop of Salzburg, which would make them part of the East Frankish church in the Carolingian window; the text does not name the Carolingians, so no link is drafted (candidate noted in escalations). The trilingual argument itself is in the Life of Constantine (not vendored). Left as written."
+  },
+  {
+   "movement": "cyrillo-methodian-slavic-christianity",
+   "field": "longDescription",
+   "sentence": "The idea was fought hard, by clergy who held that God could properly be worshipped only in Hebrew, Greek and Latin, and the brothers traveled to Rome to argue the case, where the pope approved the Slavonic books.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No ninth-century papal entry. Lützow (lines 1365-1390) has the Roman journeys and the pope's recognition of the letters. Claim stands; John VIII's letter 'Industriae tuae' (880) is wanted."
+  },
+  {
+   "movement": "cyrillo-methodian-slavic-christianity",
+   "field": "longDescription",
+   "sentence": "After Methodius died in 885 their disciples were driven out of Moravia and carried the work south, where Clement and Naum built schools at Ohrid and Preslav that turned it into a permanent literature.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Moravian clergy have no entry. Left as written."
+  },
+  {
+   "movement": "cyrillo-methodian-slavic-christianity",
+   "field": "longDescription",
+   "sentence": "After Methodius died in 885 their disciples were driven out of Moravia and carried the work south, where Clement and Naum built schools at Ohrid and Preslav that turned it into a permanent literature.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Bulgarian church of 885-916 has no entry (the Serbian and Bulgarian entry opens in 1170). These schools are part of this movement. Left as written; a Life of Clement of Ohrid is wanted."
+  },
+  {
+   "movement": "cyrillo-methodian-slavic-christianity",
+   "field": "legacy",
+   "sentence": "The tradition continues directly into the Christianity of Kievan Rus' and through that into the Russian, Ukrainian, Serbian and Bulgarian churches.",
+   "other_id": "kievan-rus-christianity",
+   "disposition": "link",
+   "link_id": "cyrillo-methodian-slavic-christianity--kievan-rus-christianity",
+   "prose_change": 5,
+   "reason": "'Continues directly' claimed the same community; rewritten to the books and letters that passed (the 'influenced' link). continuesAs escalated."
+  },
+  {
+   "movement": "cyrillo-methodian-slavic-christianity",
+   "field": "legacy",
+   "sentence": "The tradition continues directly into the Christianity of Kievan Rus' and through that into the Russian, Ukrainian, Serbian and Bulgarian churches.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "No entry for the Russian and Ukrainian churches as such. Pinkerton (1814) on the Slavonic Bible in Russian use supports the reception. Kept in the rewritten sentence."
+  },
+  {
+   "movement": "cyrillo-methodian-slavic-christianity",
+   "field": "legacy",
+   "sentence": "The tradition continues directly into the Christianity of Kievan Rus' and through that into the Russian, Ukrainian, Serbian and Bulgarian churches.",
+   "other_id": "serbian-and-bulgarian-medieval-monasticism",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "The only Serbian-Bulgarian entry is the monastic movement of 1170-1396, not the churches; a link to it would claim more than the sentence. Broad reception claim kept in the rewritten sentence; flagged for the reviewer."
+  },
+  {
+   "movement": "cyrillo-methodian-slavic-christianity",
+   "field": "legacy",
+   "sentence": "Cyril and Methodius are venerated as saints in both East and West, and in 1980 the Catholic Church named them co-patrons of Europe.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "Veneration; no single entry. Left as written (reworded only to score)."
+  },
+  {
+   "movement": "cyrillo-methodian-slavic-christianity",
+   "field": "legacy",
+   "sentence": "Cyril and Methodius are venerated as saints in both East and West, and in 1980 the Catholic Church named them co-patrons of Europe.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "1980 falls outside every Catholic entry. No vendored text (Egregiae virtutis, 1980, is in copyright). Left as written."
+  },
+  {
+   "movement": "kievan-rus-christianity",
+   "field": "relationsSummary",
+   "sentence": "Child of the Cyril and Methodius mission; parent of the whole Russian line.",
+   "other_id": "cyrillo-methodian-slavic-christianity",
+   "disposition": "link",
+   "link_id": "cyrillo-methodian-slavic-christianity--kievan-rus-christianity",
+   "prose_change": 6,
+   "reason": "'Child of' reworded to the books Kyiv took from the mission (the 'influenced' link); Constantinople added as the source of its faith (the 'gave rise to' link)."
+  },
+  {
+   "movement": "kievan-rus-christianity",
+   "field": "relationsSummary",
+   "sentence": "Child of the Cyril and Methodius mission; parent of the whole Russian line.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "No entry for the whole Russian line; the next step is carried by the 'continued as' link to the 1054-1240 entry. Kept."
+  },
+  {
+   "movement": "kievan-rus-christianity",
+   "field": "longDescription",
+   "sentence": "Envoys sent out to sample the religions who reported that in Hagia Sophia at Constantinople they had not known whether they stood in heaven or on earth.",
+   "other_id": "byzantine-imperial-church-macedonian",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-macedonian--kievan-rus-christianity",
+   "prose_change": null,
+   "reason": "Carried by the 'gave rise to' link; the Kyiv Synopsis gives the envoys' words. The sentence is already framed as the chronicle's later story; no change. Note for the merge: it is a fragment with no main verb."
+  },
+  {
+   "movement": "kievan-rus-christianity",
+   "field": "longDescription",
+   "sentence": "The window is short, barely two generations, but almost the whole later history of Russian, Ukrainian and Belarusian Christianity runs back through it.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No single later entry. Broad claim; left as written."
+  },
+  {
+   "movement": "kievan-rus-christianity",
+   "field": "why",
+   "sentence": "In 988 Prince Vladimir of Kyiv was baptized and had his people baptized with him, an act the Rus' chronicle later wrapped in the story of envoys who, standing in Hagia Sophia at Constantinople, could not tell whether they were in heaven or on earth.",
+   "other_id": "byzantine-imperial-church-macedonian",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-macedonian--kievan-rus-christianity",
+   "prose_change": null,
+   "reason": "As for the longDescription sentence."
+  },
+  {
+   "movement": "kievan-rus-christianity",
+   "field": "legacy",
+   "sentence": "The same church continued without a break into the Kievan Rus' of the following two centuries and, through it, into the Russian, Ukrainian and Belarusian Orthodox churches — the largest body of Orthodox Christians in the world traces its founding to these two generations.",
+   "other_id": "kievan-rus-christianity-1054-1240",
+   "disposition": "link",
+   "link_id": "kievan-rus-christianity--kievan-rus-christianity-1054-1240",
+   "prose_change": null,
+   "reason": "Widely Accepted 'continued as'."
+  },
+  {
+   "movement": "kievan-rus-christianity",
+   "field": "legacy",
+   "sentence": "The same church continued without a break into the Kievan Rus' of the following two centuries and, through it, into the Russian, Ukrainian and Belarusian Orthodox churches — the largest body of Orthodox Christians in the world traces its founding to these two generations.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No entry for these churches in this window. Mouravieff's table of contents runs the metropolitans on from Kyiv to Vladimir and Moscow (lines 585-630). Left as written."
+  },
+  {
+   "movement": "kievan-rus-christianity",
+   "field": "legacy",
+   "sentence": "St Sophia in Kyiv keeps its eleventh-century mosaics and frescoes, the Caves Monastery is still a monastery, and Boris and Gleb, venerated as 'passion-bearers' who would not raise a hand against their own brother, became a model of holiness distinctive to the Slavic churches.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No single entry. Mouravieff narrates Boris and Gleb (line 1384) and their relics (line 1695). Left as written."
+  }
+ ],
+ "links": [
+  {
+   "id": "anglo-saxon-christianity--carolingian-reform-christianity",
+   "action": "new",
+   "from": "anglo-saxon-christianity",
+   "to": "carolingian-reform-christianity",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "English churchmen helped lead the Frankish reform from the start. In 742 Carloman, a ruler of the Franks, set the English missionary Boniface as archbishop over the bishops of his realm. Alcuin of York later wrote that he had come to Francia to help King Charles in the Catholic faith.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Carloman, Capitulary of 742 (the 'Concilium Germanicum'), in MGH Leges I: Capitularia regum Francorum (1881)",
+     "file": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt",
+     "lines": "2248-2250",
+     "locus": "Capitulary of 742, c. 1",
+     "quote": "et constituimus super eos arciiiepiscopum Bonifatium qui est missus sancti Petri.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Boniface, Letter to Cuthbert, archbishop of Canterbury (747), in The English Correspondence of Saint Boniface, trans. E. Kylie (1911)",
+     "file": "cic/texts/boniface_english-correspondence_kylie1911.txt",
+     "lines": "7039-7042",
+     "locus": "Letter XLII (Kylie), to Cuthbert of Canterbury, 747",
+     "quote": "at the command of the Roman pontiff and the request of the rulers of the Franks and Gauls, I undertook to gather and exhort a synod in the hope of restoring the law of Christ.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Alcuin of York, Against Elipandus I.16, in Alcuini Opera Omnia, Migne PL 100-101 (1863)",
+     "file": "cic/texts/alcuin_opera-omnia-letters_migne-pl100-101_1863.txt",
+     "lines": "18630-18632",
+     "locus": "Adversus Elipandum I.16",
+     "quote": "Non ego illum corrum- pere veni in Franciam, qui corrumpi non potest, sed adjuvare in fide catholica,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "carolingian-reform-christianity relationsSummary ('Child of Anglo-Saxon + Gallic lines') and longDescription ('Scholars were imported to run it, Alcuin of York above all'); anglo-saxon-christianity legacy ('the Carolingian reform grew directly out of it')",
+   "wants": [],
+   "drafter_flags": [
+    "DEDUPE: anglo-saxon-christianity is another era-4 group's movement and its legacy names this same relationship as 'grew directly out of it'. I drafted 'influenced', not 'gave rise to': the Frankish church already existed (see the Merovingian 'continued as' link), and the sources show English churchmen leading its reform, not the reform emerging out of the English church. If the other group drafted 'gave rise to', the merge should pick one.",
+    "Boniface's appointment (742) and letter (747) fall just before the 751 start of the Carolingian window; they belong to Carloman's and Pippin's reform, which the entry treats as its own beginning. Alcuin's line falls inside the window.",
+    "The Alcuin quote keeps the printed line-break hyphen 'corrum- pere' (lines joined with a single space, as the validator squashes them). The 742 quote keeps the OCR 'arciiiepiscopum' (archiepiscopum).",
+    "Alcuin's being 'of York' is not in the quoted lines; it is the census's own wording and the PL editor's (Froben's) commentary at line 6242 ('Alcuinum, a Carolo Magno ex [A]ngelia in Franciam evocatum')."
+   ],
+   "change_reason": "New: carries the Carolingian summary's 'Child of Anglo-Saxon' and the Alcuin sentence with three vendored primaries.",
+   "fre_after": 64.2,
+   "fk_after": 8.4
+  },
+  {
+   "id": "merovingian-gallic-christianity--carolingian-reform-christianity",
+   "action": "new",
+   "from": "merovingian-gallic-christianity",
+   "to": "carolingian-reform-christianity",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "The Carolingians did not start a new church but set out to mend the old Frankish one. In 742 Carloman called a synod to bring back church law that had broken down under earlier rulers. In 869 Hincmar of Reims recalled how Clovis was baptized at Reims by its bishop Remigius, as Gregory of Tours also tells.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Carloman, Capitulary of 742 (the 'Concilium Germanicum'), in MGH Leges I: Capitularia regum Francorum (1881)",
+     "file": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt",
+     "lines": "2243-2244",
+     "locus": "Capitulary of 742, preamble",
+     "quote": "qiiomodo lex Dei et aeeclesiastica relegio recuperetur, quae in diebus praeteritorum principum dissipata corruit,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Annales Bertiniani, year 869 (Hincmar of Reims's part), ed. G. Waitz (MGH SRG, 1883)",
+     "file": "cic/texts/prudentius-troyes_annales-bertiniani_waitz1883.txt",
+     "lines": "6255-6257",
+     "locus": "Annales Bertiniani a. 869 (Hincmar's address at Metz)",
+     "quote": "per beati Remigii Francorum apostolin catholicani praedicationem cum integra gente conversi",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory of Tours, History of the Franks II.31, trans. O. M. Dalton (1927)",
+     "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+     "lines": "3357-3359",
+     "locus": "Hist. II.31",
+     "quote": "Then the queen commanded the holy Remigius, bishop of Reims, to be summoned secretly, entreating him to impart the word of salvation to the king.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "carolingian-reform-christianity relationsSummary ('Child of ... Gallic lines'); merovingian-gallic-christianity continuesAs field and legacy ('The same institution continued directly into Carolingian Christianity, which reformed and reorganized it')",
+   "wants": [],
+   "drafter_flags": [
+    "OWNED ALSO BY ERA 3: the Merovingian entry's own continuesAs and legacy name this pair. Its window ends c. 620 and this one opens in 751. The sources show the same church on both sides (the Reims of Remigius, still claimed by Hincmar in 869) and a 742 decree restoring church law 'that collapsed in the days of earlier princes'. Nothing vendored covers the bishops of 620-740 directly; if the reviewer reads 'continued as' to need the gap itself bridged, regrade to Widely Accepted.",
+    "OCR kept as printed in the 742 quote ('qiiomodo', 'aeeclesiastica', 'relegio') and the Annales quote ('apostolin' = apostoli + note n; 'catholicani' = catholicam).",
+    "The 869 passage also says the chrism of Clovis's baptism is still held ('unde adhuc habemus', line 6260); I left that out of the note because the line carries a stray note letter ('habemusy')."
+   ],
+   "change_reason": "New: gives the Merovingian continuesAs pairing a sourced link and carries 'Child of ... Gallic lines'.",
+   "fre_after": 66.7,
+   "fk_after": 8.5
+  },
+  {
+   "id": "carolingian-reform-christianity--cluniac-reform-monasticism",
+   "action": "new",
+   "from": "carolingian-reform-christianity",
+   "to": "cluniac-reform-monasticism",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "From 742 the Frankish reformers ordered monks and nuns to live by the Rule of Benedict. Cluny, founded around 910, was a house of Benedictine monks. The link rests on that shared Rule, not on any named founder who passed from one to the other.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Carloman, Capitulary of 742 (the 'Concilium Germanicum'), in MGH Leges I: Capitularia regum Francorum (1881)",
+     "file": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt",
+     "lines": "2324-2325",
+     "locus": "Capitulary of 742, c. 7",
+     "quote": "Et ut monachi et ancillae Dei monasteriales iuxta regulam sancti Benedicti ordinare et vivere,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Marius Ferotin, introduction to Le Liber mozarabicus sacramentorum (Monumenta ecclesiae liturgica VI, Paris, 1912); vendored at cic/texts/ferotin_liber-mozarabicus-sacramentorum-lat-fra_1912.txt",
+     "file": null,
+     "lines": null,
+     "locus": "Introduction: the monks of Cluny called 'Bénédictins français de Cluny' (file lines 297-299, 899-900)",
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "carolingian-reform-christianity relationsSummary ('parent of Cluny'); cluniac-reform-monasticism relationsSummary ('Cluny grew out of the Carolingian reform tradition')",
+   "wants": [
+    "John of Salerno, Life of Odo, and the Cluny foundation charter of 910 in a vendored edition (Sitwell 1958 is in copyright; Henderson 1892, cited in Build/worlds/_cross-world/dossiers/merovingian-gallic-christianity_Source_Readiness_Dossier.md, gives the charter), to show Berno and Odo coming to Cluny out of the reformed Frankish houses",
+    "A repo-cited modern study of Cluny's origins (Rosenwein, Rhinoceros Bound, 1982, is named in the census sources but has not been read), which could lift this to Widely Accepted"
+   ],
+   "drafter_flags": [
+    "No vendored text names Cluny before 1077 (Gregory VII's Canossa report). The link rests on the shared Rule alone, and the note says so. The prose 'grew out of' and 'parent of' are rewritten (prose changes 0 and 2).",
+    "Ferotin is used only to show Cluny's monks were Benedictines; he is a 1912 editor writing about Spain, not about Cluny's origins."
+   ],
+   "change_reason": "New: the only support the vendored texts give the 'parent of Cluny' claim; graded Inferential-Thin and typed 'influenced' rather than 'gave rise to'.",
+   "fre_after": 66.4,
+   "fk_after": 7.6
+  },
+  {
+   "id": "carolingian-reform-christianity--latin-papal-church-gregorian",
+   "action": "new",
+   "from": "carolingian-reform-christianity",
+   "to": "latin-papal-church-gregorian",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "In the ninth century a forger in the Frankish lands made a collection of fake early papal letters, the False Decretals. In 1081 Pope Gregory VII quoted one of them, a letter said to be from Pope Julius, to argue that Rome could judge earthly rulers. His modern editor traced that letter to the forged collection.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory VII, Letter to Bishop Hermann of Metz (1081), Register VIII.21, in C. Mirbt, Quellen zur Geschichte des Papsttums (3rd ed., 1911)",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "10864-10865",
+     "locus": "Gregory VII, Reg. VIII.21 (to Hermann of Metz, 15 March 1081); Mirbt no. 252",
+     "quote": "Item Julius papa, Orientalibus episcopis scribens, de potestate eiusdem sanctae et apostolicae sedis ait",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "C. Mirbt, Quellen zur Geschichte des Papsttums (3rd ed., Tübingen, 1911), note to no. 252: the Julius letter identified as 'Decretales Pseudo-Isidorianae ed. PHinschius ... 464'",
+     "file": null,
+     "lines": null,
+     "locus": "file line 10877",
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Ante-Nicene Fathers vol. 8, American ed. A. Cleveland Coxe (1886), Introductory Notice to The Decretals: 'the manufactured product of the ninth century', quoting Dupin that 'some German or Frenchman began this imposture'",
+     "file": null,
+     "lines": null,
+     "locus": "file lines 57101-57103, 57393-57399",
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "carolingian-reform-christianity continuesAs field and legacy ('Its institutional line runs on into the papal reform of the eleventh century')",
+   "wants": [
+    "A repo-cited modern study of the Pseudo-Isidorian Decretals and their use by the Gregorian reformers (e.g. Fuhrmann); the ANF notice is an 1886 polemic and Mirbt gives only the identification"
+   ],
+   "drafter_flags": [
+    "CENSUS STRUCTURE: the Carolingian continuesAs points to latin-papal-church-gregorian, which would read as 'continued as'. The vendored texts show a Frankish text being used by the later papacy, which is influence, not one community carried on: the windows are 160 years apart and Cluny sits between them. Escalated; this link is typed 'influenced'.",
+    "The ANF notice is anti-papal in tone (Coxe calls the Decretals 'the most stupendous imposture of the world's history'). It is cited only for the ninth-century date and the Frankish origin, which Dupin's quoted judgment supports."
+   ],
+   "change_reason": "New: carries the legacy's 'institutional line runs on into the papal reform' with a documented case of use; the legacy sentence is rewritten to say exactly this (prose change 1).",
+   "fre_after": 63.6,
+   "fk_after": 8.9
+  },
+  {
+   "id": "cluniac-reform-monasticism--latin-papal-church-gregorian",
+   "action": "new",
+   "from": "cluniac-reform-monasticism",
+   "to": "latin-papal-church-gregorian",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "In January 1077 Pope Gregory VII lifted his ban on King Henry IV at Canossa. Gregory's own report says the abbot of Cluny, Hugh, helped confirm the king's sworn promises. The record of the oath lists the abbot among those present on the king's side.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory VII, Report on Henry IV's penance at Canossa (1077), Register IV.12, in C. Mirbt, Quellen zur Geschichte des Papsttums (3rd ed., 1911)",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "10442",
+     "locus": "Gregory VII, Reg. IV.12 (to the German princes, January 1077); Mirbt no. 236",
+     "quote": "Quarum etiam confirmationem per manus abbatis Cluniacensis (sc. Hugonis)",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Oath of Henry IV at Canossa (28 January 1077), Register IV.12a, in Mirbt (1911)",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "10485-10486",
+     "locus": "Gregory VII, Reg. IV.12a (Henry IV's oath, witness list)",
+     "quote": "Item ex parte regis interfuerunt : Bremensis archi- episcopus ^, et episcopi Vercellensis ^ et Osnabrugensis ^ et abbas Cluniacensis",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Marius Ferotin, introduction to Le Liber mozarabicus sacramentorum (Monumenta ecclesiae liturgica VI, Paris, 1912); vendored at cic/texts/ferotin_liber-mozarabicus-sacramentorum-lat-fra_1912.txt",
+     "file": null,
+     "lines": null,
+     "locus": "Introduction: the Cluniac monks as the instruments Gregory VII used to bring the Roman liturgy into Spain (file lines 293-299)",
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "cluniac-reform-monasticism longDescription and why ('placed it directly under the pope') and legacy ('fed directly into the papal reform of the eleventh century')",
+   "wants": [
+    "The Cluny foundation charter (910) in a vendored edition, to document the direct papal subjection from the house's own side",
+    "A repo-cited modern work on Cluny and the Gregorian reform (the old 'Cluny made the reform' thesis and its critics), before any 'influenced' link is drafted"
+   ],
+   "drafter_flags": [
+    "'(sc. Hugonis)' is Mirbt's gloss inside the printed text, kept in the quote as printed; the note's 'Hugh' rests on it. The '^' marks in the witness-list quote are the edition's note markers, kept as printed.",
+    "The legacy claims influence ('fed directly into'), not just contact. No vendored or repo-cited text shows that influence, so the sentence is qualified (prose change 3) and this link claims only the documented meeting. Hugh stood on the king's side at Canossa as a go-between, which the note says."
+   ],
+   "change_reason": "New: the one documented meeting between Cluny and the Gregorian papacy in the vendored texts; replaces the unsupported 'fed directly' claim with what is shown.",
+   "fre_after": 67.0,
+   "fk_after": 7.6
+  },
+  {
+   "id": "nicene-visigothic-iberia--mozarabic-christianity",
+   "action": "new",
+   "from": "nicene-visigothic-iberia",
+   "to": "mozarabic-christianity",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "The church of Toledo, the old royal city of the Visigoths, lived on under Arab rule. A Latin chronicle of 754 praises Sindered, its bishop when the conquest came. It then names Urbanus of the cathedral at Toledo as one of the men who later kept the church strong.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Chronicle of 754 (Continuatio Hispana a. DCCLIV), ed. Th. Mommsen, MGH AA 11 (1894)",
+     "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
+     "lines": "33883-33884",
+     "locus": "Chronicle of 754 (Continuatio Hispana), c. 69",
+     "quote": "Sinderedus urbis regie 69 metropolitanus episcopus sanctimonie studio claret",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Chronicle of 754 (Continuatio Hispana a. DCCLIV), ed. Th. Mommsen, MGH AA 11 (1894)",
+     "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
+     "lines": "34480-34482",
+     "locus": "Chronicle of 754, c. 87",
+     "quote": "Accitane sedis episcopus, Urbanus Tole- tane sedis urbis regie katedralis vetera- nus melodicus",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Th. Mommsen, preface to the Continuatio Hispana, MGH AA 11 (1894): 'Urbanum successorem Sinderedi (c. 87. 111)'; the author 'Toletanae sedis antistites praecipue respexisse eorumque seriem ad sua fere tempora texere'",
+     "file": null,
+     "lines": null,
+     "locus": "file lines 31478-31482",
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Marius Ferotin, introduction to Le Liber mozarabicus sacramentorum (Monumenta ecclesiae liturgica VI, Paris, 1912); vendored at cic/texts/ferotin_liber-mozarabicus-sacramentorum-lat-fra_1912.txt",
+     "file": null,
+     "lines": null,
+     "locus": "Introduction: the rite 'survécut aux invasions mauresques'; its manuscripts copied from the eighth century to the end of the eleventh (file lines 293-299, 608-610)",
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "mozarabic-christianity relationsSummary ('Heir of post-589 Iberia'), longDescription and why ('kept the old Visigothic liturgy'); nicene-visigothic-iberia continuesAs field and legacy ('The same institution continued under Muslim rule as the Mozarabic Christianity of al-Andalus')",
+   "wants": [],
+   "drafter_flags": [
+    "OWNED ALSO BY ERA 3: the Visigothic entry's continuesAs and legacy name this pair.",
+    "The '69' in the Sindered quote and the '35' before line 34480 are Mommsen's marginal chapter and line numbers printed in the text column; the first is inside the quoted span and kept as printed. The hyphen breaks 'Tole- tane' and 'vetera- nus' are kept as printed.",
+    "The chronicle does not itself call Urbanus bishop; it names him of the Toledan cathedral ('katedralis veteranus melodicus'). Mommsen's preface calls him Sindered's successor. The note says only 'of the cathedral at Toledo'.",
+    "The note's 'later kept the church strong' renders c. 87's 'ad confortandam ecclesiam dei clari habentur' (lines 34487-34490), which falls after the quoted span and carries the edition's bracketed restorations."
+   ],
+   "change_reason": "New: gives the Visigothic continuesAs pairing a sourced link, with the see of Toledo named on both sides of 711 in the same vendored chronicle.",
+   "fre_after": 61.9,
+   "fk_after": 8.6
+  },
+  {
+   "id": "byzantine-imperial-church-macedonian--cyrillo-methodian-slavic-christianity",
+   "action": "new",
+   "from": "byzantine-imperial-church-macedonian",
+   "to": "cyrillo-methodian-slavic-christianity",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "The mission was sent out from Constantinople. Herberstein, an envoy who retold the Rus' annals in the 1500s, says the Slavonic letters came from there under the emperor Michael. Later historians agree that Michael chose the two brothers and sent them to Moravia.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Sigmund von Herberstein, Notes upon Russia (Rerum Moscoviticarum Commentarii, 1549), trans. R. H. Major (1851), vol. I",
+     "file": "cic/texts/herberstein_notes-upon-russia-v1_major1851.txt",
+     "lines": "7872-7874",
+     "locus": "Notes upon Russia, ch. on the origins of the Russians",
+     "quote": "But after that Michael, king of Constantinople, had sent the Sclavonian characters into Bulgaria",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Count Francis Lützow, Bohemia: An Historical Sketch (Everyman, 1910; 1920 printing): 'The emperor Michael received the envoys favourably and selected two priests, the brothers Constantine and Methodius, to accompany them to Moravia'",
+     "file": null,
+     "lines": null,
+     "locus": "file lines 1327-1329",
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838), trans. R. W. Blackmore (Oxford, 1842); vendored at cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt: 'St. Cyrill and St. Methodius, two learned Greek brothers, translated into the Slavonic the New Testament and the books used in Divine service'",
+     "file": null,
+     "lines": null,
+     "locus": "ch. I, file lines 902-904",
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "cyrillo-methodian-slavic-christianity relationsSummary ('Child of Byzantium'), longDescription and why ('sent from Constantinople to Moravia'); byzantine-imperial-church-macedonian relationsSummary ('the parent context of the Cyril and Methodius mission') and longDescription ('sent missions that converted Bulgaria, Moravia ...')",
+   "wants": [
+    "The Life of Constantine and the Life of Methodius in a vendored edition (Kantor 1983 is in copyright; a public-domain translation or the Old Church Slavonic text, e.g. Lavrov or Miklosich), to document the emperor's sending of the brothers directly. With it this would be Documented."
+   ],
+   "drafter_flags": [
+    "DEDUPE: byzantine-imperial-church-macedonian is another era-4 group's movement and its text names this same mission.",
+    "The only vendored primary is late: Herberstein (1549) retelling the Rus' annals, and he gets the destination (Bulgaria) and year (898) wrong, as his editor Major notes at lines 7889-7894. The quote is used only for 'sent from Constantinople under Michael'. If the reviewer will not accept a sixteenth-century retelling as the primary leg, this falls to Dominant Modern Reconstruction on Lützow and Mouravieff.",
+    "The Kyiv Synopsis (1674; vendored 1762 printing, lines 3221-3231) also says Methodius and Cyril were sent to the Slavs in Photius's time at the Slavic princes' request, but its OCR is too broken to quote cleanly."
+   ],
+   "change_reason": "New: carries 'Child of Byzantium' and 'sent from Constantinople'.",
+   "fre_after": 60.5,
+   "fk_after": 8.4
+  },
+  {
+   "id": "cyrillo-methodian-slavic-christianity--kievan-rus-christianity",
+   "action": "new",
+   "from": "cyrillo-methodian-slavic-christianity",
+   "to": "kievan-rus-christianity",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "Kievan Rus' took its Christian books and its letters from the Cyril and Methodius mission. The Rus' annals, as Herberstein retold them, say the Rus' only began to write down their past once the Slavonic letters came. Later church histories say the brothers' Slavonic Bible helped bring the Russians to the faith.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Sigmund von Herberstein, Notes upon Russia (Rerum Moscoviticarum Commentarii, 1549), trans. R. H. Major (1851), vol. I",
+     "file": "cic/texts/herberstein_notes-upon-russia-v1_major1851.txt",
+     "lines": "7874-7878",
+     "locus": "Notes upon Russia, ch. on the origins of the Russians",
+     "quote": "then first, not only the occurrences of the period, but also those which they had heard from their ancestors and retained through long memory, began to be written and recorded in their annals.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838), trans. R. W. Blackmore (Oxford, 1842); vendored at cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt: the brothers' translation 'became afterwards a most blessed instrument for the conversion of the Russians'",
+     "file": null,
+     "lines": null,
+     "locus": "ch. I, file lines 905-907",
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Robert Pinkerton, note in Platon, The Present State of the Greek Church in Russia (Edinburgh, 1814): the Slavonic Bible 'made in the ninth century, by two learned Greeks, Cyril and Methodius'; 'The present version in use among the Russians is that of Ostrog'",
+     "file": null,
+     "lines": null,
+     "locus": "file lines 3150-3154",
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "cyrillo-methodian-slavic-christianity continuesAs field, relationsSummary ('parent of Kievan Rus' Christianity') and legacy ('The tradition continues directly into the Christianity of Kievan Rus''); kievan-rus-christianity relationsSummary ('Child of the Cyril and Methodius mission')",
+   "wants": [
+    "The Russian Primary Chronicle (Laurentian text) in a vendored edition: Cross and Sherbowitz-Wetzor 1953 is in copyright; the 1846 PSRL vol. 1 or Miklosich's 1860 edition would serve, and its entry for 898 on the Slavonic letters would document this directly"
+   ],
+   "drafter_flags": [
+    "CENSUS STRUCTURE: the mission's continuesAs points to kievan-rus-christianity, which reads as 'continued as'. The mission (Moravia, then Ohrid and Preslav, to 916) and the church of Kyiv (from 988) are different communities seventy years apart; what passed between them was books and letters. Escalated; this link is typed 'influenced', and the 'continues directly' sentence is rewritten (prose change 5).",
+    "Herberstein's quote shows the Rus' annals dating their own writing from the coming of the Slavonic letters; it is a sixteenth-century retelling, flagged as on the Byzantium link."
+   ],
+   "change_reason": "New: carries 'parent of Kievan Rus' Christianity' and 'Child of the Cyril and Methodius mission' as influence through books and script.",
+   "fre_after": 64.0,
+   "fk_after": 8.6
+  },
+  {
+   "id": "byzantine-imperial-church-macedonian--kievan-rus-christianity",
+   "action": "new",
+   "from": "byzantine-imperial-church-macedonian",
+   "to": "kievan-rus-christianity",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "Rus' took its faith from Constantinople. The Rus' annals, as Herberstein retold them, say Vladimir chose Christ \"according to the Greek ritual\" and sent to the emperors there for a bride. For six hundred years after that, the head of the church in Kyiv answered to the patriarch of Constantinople.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Sigmund von Herberstein, Notes upon Russia (Rerum Moscoviticarum Commentarii, 1549), trans. R. H. Major (1851), vol. I",
+     "file": "cic/texts/herberstein_notes-upon-russia-v1_major1851.txt",
+     "lines": "8267-8270",
+     "locus": "Notes upon Russia, on Vladimir",
+     "quote": "finally mak- ing choice of the Christian religion, according to the Greek ritual, he sent ambassadors to the kings Basil and Constan- tine, at Constantinople,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Kyiv Synopsis (Sinopsis, 1674, attributed to Innokentii Gizel), St Petersburg printing of 1762",
+     "file": "cic/texts/kyiv-synopsis_sinopsis-chu_1762.txt",
+     "lines": "2873-2874",
+     "locus": "Synopsis, on the return of Vladimir's envoys",
+     "quote": "мнашеся 60 намЬ не на земли, но на небеси",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838), trans. R. W. Blackmore (Oxford, 1842); vendored at cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt: 'the indissoluble connection of the Russian with the Greek Church, and the dependence of her Metropolitans during six centuries upon the Patriarchal throne of Constantinople'",
+     "file": null,
+     "lines": null,
+     "locus": "ch. I, file lines 885-888",
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "kievan-rus-christianity longDescription and why (the envoys in Hagia Sophia at Constantinople); byzantine-imperial-church-macedonian longDescription and why ('sent missions that converted ... eventually Rus'')",
+   "wants": [
+    "The Russian Primary Chronicle (Laurentian text) in a vendored edition, for the envoys' report (s.a. 987) and Vladimir's baptism (s.a. 988) in the chronicle's own words"
+   ],
+   "drafter_flags": [
+    "DEDUPE: byzantine-imperial-church-macedonian is another era-4 group's movement and its text names the mission to Rus'.",
+    "The Kievan text names Byzantium only through the envoys at Hagia Sophia, which on its own would be 'in contact with'. I drafted the larger relationship the sources show, Kyiv's church coming out of Constantinople's, because the envoys' story is the chronicle's way of telling it. The reviewer may prefer 'in contact with' plus the other group's version.",
+    "Both primaries are late: Herberstein (1549) dates the baptism to 961, his own error; the Kyiv Synopsis is a seventeenth-century compilation. The Synopsis OCR prints '60' for 'бо' and 'намЬ' with a hard sign as printed; the quote keeps both. It reads: 'it seemed to us that we were not on earth but in heaven'."
+   ],
+   "change_reason": "New: carries the envoys' Hagia Sophia sentences and the Kievan entry's descent from the church of Constantinople.",
+   "fre_after": 64.7,
+   "fk_after": 8.4
+  },
+  {
+   "id": "kievan-rus-christianity--kievan-rus-christianity-1054-1240",
+   "action": "new",
+   "from": "kievan-rus-christianity",
+   "to": "kievan-rus-christianity-1054-1240",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "Before he became head of the church in Kyiv in 1051, the priest Ilarion dug a cave above the Dnieper. That cave grew into the Caves Monastery of the two centuries after 1054. Herberstein, retelling the Rus' annals, says Russia has kept the faith of Christ since Vladimir's baptism.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Sigmund von Herberstein, Notes upon Russia (Rerum Moscoviticarum Commentarii, 1549), trans. R. H. Major (1851), vol. I",
+     "file": "cic/texts/herberstein_notes-upon-russia-v1_major1851.txt",
+     "lines": "8287-8288",
+     "locus": "Notes upon Russia, on Vladimir",
+     "quote": "since which time Russia has continued in the faith of Christ.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838), trans. R. W. Blackmore (Oxford, 1842); vendored at cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt: Ilarion, priest at Berestovo, 'dug himself out a dark cave or Pesch, the germ of the future Lavra, and of all the religious houses of Russia'; Anthony later settled 'in the deserted cave of Hilarion'",
+     "file": null,
+     "lines": null,
+     "locus": "ch. II, file lines 1540-1566",
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "kievan-rus-christianity continuesAs field and legacy ('The same church continued without a break into the Kievan Rus' of the following two centuries'); kievan-rus-christianity-1054-1240 relationsSummary ('A continuation of Rus' Christianity's first generations')",
+   "wants": [
+    "The Kyiv Caves Paterik or the Primary Chronicle (s.a. 1051) in a vendored edition, to document Ilarion's cave and Anthony's settling in it from the chronicle's own side; either would make this Documented"
+   ],
+   "drafter_flags": [
+    "The later entry (era 5) names this continuation in its own summary.",
+    "Herberstein's continuity line follows his wrong date of 961 for the baptism; the quote does not include the date."
+   ],
+   "change_reason": "New: gives the Kievan continuesAs pairing a sourced link.",
+   "fre_after": 64.9,
+   "fk_after": 8.1
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "carolingian-reform-christianity",
+   "field": "relationsSummary",
+   "old": "Child of Anglo-Saxon + Gallic lines; parent of Cluny",
+   "new": "A reform of the old Frankish church, led in part by English churchmen. Cluny later kept the Rule of Benedict that the reform had pressed on the monasteries of the realm.",
+   "reason": "'Child of Anglo-Saxon + Gallic lines' claimed descent from two lines. The sources show the reform mending the old Frankish church (continued as) and English churchmen leading it (influenced), so the summary now says that. 'Parent of Cluny' claimed more than the evidence: the only vendored link is the shared Rule of Benedict (Inferential-Thin), so the sentence says only that. The '+' shorthand is gone.",
+   "fre_after": 68.3,
+   "fk_after": 7.6
+  },
+  {
+   "n": 1,
+   "movement": "carolingian-reform-christianity",
+   "field": "legacy",
+   "old": "Its institutional line runs on into the papal reform of the eleventh century and through that into the Latin church of the whole later Middle Ages. Its most durable legacies are practical: Carolingian minuscule, which Renaissance humanists took as their model and which therefore stands behind modern printed type. Corrected texts of the Bible and the Roman liturgy that stayed standard for centuries; and the cathedral and monastic schools that were the seed-bed of the medieval universities. The chapel Charlemagne built at Aachen is still standing and still in use.",
+   "new": "Its church law ran on into the papal reform of the eleventh century. In 1081 Pope Gregory VII still quoted papal letters forged in the Frankish lands two centuries before. Through that reform, such texts passed into the law of the Latin church for the rest of the Middle Ages. Its most lasting gifts are practical. Carolingian minuscule, the clear round script of its copyists, became the model for Renaissance humanists, and so stands behind modern printed type. Its corrected texts of the Bible and the Roman liturgy stayed standard for centuries. And its cathedral and monastic schools were the seed-bed of the medieval universities. The chapel Charlemagne built at Aachen still stands and is still in use.",
+   "reason": "'Its institutional line runs on into the papal reform' read as the same institution continuing into the Gregorian papacy. The vendored evidence shows a narrower, sharper thing: Gregory VII in 1081 quoting a letter from the False Decretals, forged in the Frankish lands in the ninth century (Mirbt; ANF 8 notice). The sentence now says that. The rest of the paragraph is reworded only to score; its claims are unchanged.",
+   "fre_after": 60.7,
+   "fk_after": 8.5
+  },
+  {
+   "n": 2,
+   "movement": "cluniac-reform-monasticism",
+   "field": "relationsSummary",
+   "old": "Cluny grew out of the Carolingian reform tradition, and it became the establishment that the next century's new monastic orders, the Cistercians above all, reacted against. It reached its peak in the twelfth century under Peter the Venerable, who led the house until 1156, commissioned the first Latin translation of the Qur'an, and gave shelter to Peter Abelard.",
+   "new": "Cluny kept the Rule of Benedict, which the Carolingian reform had pressed on Frankish monks. No named founder, though, ties it to that reform. It may have become the establishment that the next century's new orders, the Cistercians above all, set themselves against. It reached its peak in the twelfth century under Peter the Venerable, who led the house until 1156. He had the Qur'an put into Latin for the first time, and he took in Peter Abelard.",
+   "reason": "'Grew out of the Carolingian reform tradition' is not shown by any vendored text; the only link is the shared Rule of Benedict, now said plainly. 'Became the establishment that ... the Cistercians reacted against' is qualified to 'may have': no Cistercian text (Exordium parvum, Bernard's Apologia) is vendored or cited in the repo. The Peter the Venerable sentence is split only to score.",
+   "fre_after": 61.6,
+   "fk_after": 8.5
+  },
+  {
+   "n": 3,
+   "movement": "cluniac-reform-monasticism",
+   "field": "legacy",
+   "old": "The order itself dwindled, and its great church was quarried away after the French Revolution, so that only a fragment of what was once the largest church in Europe still stands at Cluny. What it left behind is larger than what survives of it. Its insistence that a monastery answer to Rome rather than to the local lord fed directly into the papal reform of the eleventh century. The commemoration of All Souls on 2 November, which Odilo did most to spread, is still kept across Western Christianity. And the next century's new orders, the Cistercians above all, defined themselves precisely against Cluny's wealth and its long liturgy.",
+   "new": "The order itself dwindled. Its great church was quarried away after the French Revolution, and only a fragment of what was once the largest church in Europe still stands at Cluny. What it left behind is larger than what survives of it. Its rule that a monastery answer to Rome, not to the local lord, may have fed into the papal reform of the eleventh century. Its abbot Hugh was at Canossa in 1077 when Pope Gregory VII lifted his ban on King Henry IV. The feast of All Souls on 2 November, which Odilo did most to spread, is still kept across Western Christianity. And the next century's new orders, the Cistercians above all, may have defined themselves against Cluny's wealth and its long liturgy.",
+   "reason": "'Fed directly into the papal reform' is qualified to 'may have fed into': no vendored or repo-cited text shows the influence, and how far Cluny shaped the Gregorian reform is an old dispute. The documented contact, Abbot Hugh at Canossa in 1077 (Gregory VII, Reg. IV.12), is added. The Cistercian sentence is qualified for the reason given in prose change 2. Other sentences are reworded only to score.",
+   "fre_after": 62.6,
+   "fk_after": 8.9
+  },
+  {
+   "n": 4,
+   "movement": "cyrillo-methodian-slavic-christianity",
+   "field": "relationsSummary",
+   "old": "Child of Byzantium; parent of Kievan Rus' Christianity",
+   "new": "Sent out from Byzantium; its Slavonic books and letters passed to Kievan Rus'.",
+   "reason": "'Child of Byzantium' is kept in plainer words (the 'gave rise to' link). 'Parent of Kievan Rus' Christianity' claimed descent; the sources show books and letters passing on (influenced), so the summary says that.",
+   "fre_after": 63.5,
+   "fk_after": 7.6
+  },
+  {
+   "n": 5,
+   "movement": "cyrillo-methodian-slavic-christianity",
+   "field": "legacy",
+   "old": "Almost everything downstream of it in the Slavic Orthodox world begins here. The tradition continues directly into the Christianity of Kievan Rus' and through that into the Russian, Ukrainian, Serbian and Bulgarian churches. Church Slavonic is still the liturgical language of much of Orthodox Christianity, and the Cyrillic alphabet — named for one brother though shaped by their successors — is used by hundreds of millions of people. Cyril and Methodius are venerated as saints in both East and West, and in 1980 the Catholic Church named them co-patrons of Europe.",
+   "new": "Almost everything that came after it in the Slavic Orthodox world begins here. Its Slavonic books and letters passed to Kievan Rus', and on to the Russian, Ukrainian, Serbian and Bulgarian churches. Church Slavonic is still the language of worship in much of the Orthodox world. The Cyrillic alphabet is named for one brother, though their followers gave it its shape, and hundreds of millions of people use it today. Cyril and Methodius are honored as saints in both East and West. In 1980 the Catholic Church named them co-patrons of Europe.",
+   "reason": "'The tradition continues directly into the Christianity of Kievan Rus'' read as the same community continuing. The mission and the church of Kyiv are different communities seventy years apart; what passed was the Slavonic books and script. The sentence now says that. The rest is reworded only to score.",
+   "fre_after": 61.6,
+   "fk_after": 8.5
+  },
+  {
+   "n": 6,
+   "movement": "kievan-rus-christianity",
+   "field": "relationsSummary",
+   "old": "Child of the Cyril and Methodius mission; parent of the whole Russian line.",
+   "new": "It took its faith from Constantinople and its books from the mission of Cyril and Methodius. It is the parent of the whole Russian line.",
+   "reason": "'Child of the Cyril and Methodius mission' claimed descent; the sources show Kyiv took its faith and church order from Constantinople and its books from the mission. The summary names both.",
+   "fre_after": 72.3,
+   "fk_after": 6.3
+  },
+  {
+   "n": 7,
+   "movement": "mozarabic-christianity",
+   "field": "legacy",
+   "old": "No continuing community carries the name. Mozarabic Christianity was worn away between the pressure of the Almoravid and Almohad periods and absorption into the Latin church of the northern kingdoms as they advanced. Its liturgy, though, outlived the community that kept it. The old Hispanic rite, which the Mozarabs held on to when the rest of the Latin West adopted Roman usage, was rescued at Toledo around 1500 by Cardinal Cisneros, who had its books printed and endowed a chapel to keep it in use. And Mass in the Hispano-Mozarabic rite is still celebrated there daily.",
+   "new": "Only a small community at Toledo kept the name into modern times. Mozarabic Christianity was worn away from two sides. Almoravid and Almohad rule pressed hard on it, and the Latin church of the northern kingdoms took it in as they advanced. Its liturgy, though, outlived the people who kept it. The Mozarabs held on to the old Hispanic rite when the rest of the Latin West took up Roman usage. Around 1500 Cardinal Cisneros rescued it at Toledo. He had its books printed and endowed a chapel to keep it in use. Mass in the Hispano-Mozarabic rite is still said there every day.",
+   "reason": "'No continuing community carries the name' is contradicted by the vendored Ferotin (1912), who counts about five hundred Mozarabic families at Toledo in 1910, with Mozarabic parishes until the Concordat of 1851 (file lines 1331-1372). The sentence is corrected. The rest of the paragraph is reworded only to score; its claims are unchanged.",
+   "fre_after": 60.2,
+   "fk_after": 8.1
+  }
+ ],
+ "wants": [
+  "A Cistercian foundation text (Exordium parvum or Carta caritatis) or Bernard of Clairvaux's Apologia to William of Saint-Thierry (PL 182; Eales's English, 1889-96), to document the Cistercian break with Cluny; with it the qualified Cluny sentences could be restored and a link drafted",
+  "A Life of Clement of Ohrid (the Greek Life by Theophylact), for the schools at Ohrid and Preslav",
+  "A public-domain text of the Cluny foundation charter (910), e.g. Henderson, Select Historical Documents (1892), already cited in Build/worlds/_cross-world/dossiers/merovingian-gallic-christianity_Source_Readiness_Dossier.md",
+  "A repo-cited modern study of Cluny's origins (Rosenwein, Rhinoceros Bound, 1982, is named in the census sources but has not been read), which could lift this to Widely Accepted",
+  "A repo-cited modern study of the Pseudo-Isidorian Decretals and their use by the Gregorian reformers (e.g. Fuhrmann); the ANF notice is an 1886 polemic and Mirbt gives only the identification",
+  "A repo-cited modern work on Cluny and the Gregorian reform (the old 'Cluny made the reform' thesis and its critics), before any 'influenced' link is drafted",
+  "A repo-cited source on Renaissance humanists' use of Carolingian minuscule, and on cathedral schools as the seed-bed of the universities, if those legacy lines are to be sourced",
+  "A source on Cardinal Cisneros endowing the Mozarabic chapel at Toledo (Ferotin gives the 1500 missal and the chapel, not the endowment)",
+  "Eulogius of Córdoba, Memoriale sanctorum, and Paulus Alvarus, Indiculus luminosus (PL 115 and 121), to support the martyrs' sentences",
+  "John VIII's letter Industriae tuae (880) on the Slavonic liturgy, to support 'the pope approved the Slavonic books'",
+  "John of Salerno, Life of Odo, and the Cluny foundation charter of 910 in a vendored edition (Sitwell 1958 is in copyright; Henderson 1892, cited in Build/worlds/_cross-world/dossiers/merovingian-gallic-christianity_Source_Readiness_Dossier.md, gives the charter), to show Berno and Odo coming to Cluny out of the reformed Frankish houses",
+  "Odilo of Cluny's statute on All Souls and the 1041 Truce of God letter (MGH Constitutiones I), to support the Odilo sentences",
+  "Peter the Venerable's letters or the Toledan Collection preface, to support the Qur'an translation and the shelter of Abelard",
+  "The Cluny foundation charter (910) in a vendored edition, to document the direct papal subjection from the house's own side",
+  "The Kyiv Caves Paterik or the Primary Chronicle (s.a. 1051) in a vendored edition, to document Ilarion's cave and Anthony's settling in it from the chronicle's own side; either would make this Documented",
+  "The Life of Constantine and the Life of Methodius in a vendored edition (Kantor 1983 is in copyright; a public-domain translation or the Old Church Slavonic text, e.g. Lavrov or Miklosich), to document the emperor's sending of the brothers directly. With it this would be Documented.",
+  "The Russian Primary Chronicle (Laurentian text) in a vendored edition, for the envoys' report (s.a. 987) and Vladimir's baptism (s.a. 988) in the chronicle's own words",
+  "The Russian Primary Chronicle (Laurentian text) in a vendored edition: Cross and Sherbowitz-Wetzor 1953 is in copyright; the 1846 PSRL vol. 1 or Miklosich's 1860 edition would serve, and its entry for 898 on the Slavonic letters would document this directly"
+ ],
+ "escalations": [
+  "Census structure: carolingian-reform-christianity has continuesAs = latin-papal-church-gregorian. The two windows are 160 years apart (888 to 1049), Cluny sits between them, and the vendored evidence shows influence (Gregory VII quoting a Frankish forgery), not one community carried on. I typed the link 'influenced'. Should continuesAs be cleared, or does the census mean it as a lane succession only?",
+  "Census structure: cyrillo-methodian-slavic-christianity has continuesAs = kievan-rus-christianity. The mission (863-916, Moravia then Ohrid and Preslav) and the church of Kyiv (from 988) are different communities; what passed was books and letters. I typed the link 'influenced'. Same question as above.",
+  "Candidate relationship not named in either text (no link drafted): Alcuin's Against Elipandus is a Carolingian work written against Elipandus, archbishop of Toledo under Muslim rule, over Adoptionism (vendored, Alcuin PL 100-101, e.g. lines 18627-18645 and the editor at 6242-6246). That would be a Documented carolingian-reform-christianity 'argued against' mozarabic-christianity. Neither movement's text mentions it; adding it would need a prose sentence. Mark's call whether to add.",
+  "Candidate relationships not named (no link drafted): Lützow (1910, vendored) names the German priests and the archbishop of Salzburg as the mission's opponents, i.e. the East Frankish church inside the Carolingian window; and Ferotin (1912) names the monks of Cluny as Gregory VII's instruments in replacing the Mozarabic rite. Either could become a link if the texts are made to name them."
+ ]
+}

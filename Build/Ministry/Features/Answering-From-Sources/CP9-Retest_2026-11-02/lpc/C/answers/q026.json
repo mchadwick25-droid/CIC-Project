@@ -1,0 +1,121 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.term.heresy"
+   ],
+   "sentence": "What we never settled is the nearest answer: whether a baptism given outside our one church counts at all."
+  },
+  {
+   "record_ids": [
+    "lpc.term.heresy",
+    "lpc.witness.answerability-as-ground"
+   ],
+   "sentence": "We answered it twice, a century and a half apart, in opposite ways."
+  },
+  {
+   "record_ids": [
+    "lpc.term.heresy"
+   ],
+   "sentence": "Cyprian's council said it does not count, and Augustine said it was given, though it did no good there."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.answerability-as-ground"
+   ],
+   "sentence": "Our later bishop judged the earlier answer wrong, but he never put the man who gave it outside our communion."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ],
+   "sentence": "A second question stayed open as well: the confessors held that their suffering gave them standing to ask peace for the lapsed, and the church answered with a name set down and examined before the congregation."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ],
+   "sentence": "We have never found where those two become one settled rule, and we do not expect to."
+  }
+ ],
+ "citations": [
+  "lpc.term.heresy",
+  "lpc.witness.answerability-as-ground",
+  "lpc.witness.confessor-claim-vs-regulated-peace"
+ ],
+ "group": "A",
+ "id": "q026",
+ "net_sentences": [
+  {
+   "draft": "What we never settled is the nearest answer: whether a baptism given outside our one church counts at all [[lpc.term.heresy]] [[as:paraphrase]].",
+   "sentence": "What we never settled is the nearest answer: whether a baptism given outside our one church counts at all.",
+   "tags": [
+    "lpc.term.heresy"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We answered it twice, a century and a half apart, in opposite ways [[lpc.term.heresy]] [[lpc.witness.answerability-as-ground]] [[as:paraphrase]].",
+   "sentence": "We answered it twice, a century and a half apart, in opposite ways.",
+   "tags": [
+    "lpc.term.heresy",
+    "lpc.witness.answerability-as-ground"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Cyprian's council said it does not count, and Augustine said it was given, though it did no good there [[lpc.term.heresy]] [[as:paraphrase]].",
+   "ratio": 0.88,
+   "sentence": "Cyprian's council said it does not count, and Augustine said it was given, though it did no good there.",
+   "tags": [
+    "lpc.term.heresy"
+   ],
+   "verdict": "ok",
+   "why": "grounded 88% in own tagged records"
+  },
+  {
+   "draft": "Our later bishop judged the earlier answer wrong, but he never put the man who gave it outside our communion [[lpc.witness.answerability-as-ground]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Our later bishop judged the earlier answer wrong, but he never put the man who gave it outside our communion.",
+   "tags": [
+    "lpc.witness.answerability-as-ground"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "A second question stayed open as well: the confessors held that their suffering gave them standing to ask peace for the lapsed, and the church answered with a name set down and examined before the congregation [[lpc.witness.confessor-claim-vs-regulated-peace]] [[as:paraphrase]].",
+   "sentence": "A second question stayed open as well: the confessors held that their suffering gave them standing to ask peace for the lapsed, and the church answered with a name set down and examined before the congregation.",
+   "tags": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We have never found where those two become one settled rule, and we do not expect to [[lpc.witness.confessor-claim-vs-regulated-peace]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "We have never found where those two become one settled rule, and we do not expect to.",
+   "tags": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [],
+ "raw_text": "What we never settled is the nearest answer: whether a baptism given outside our one church counts at all [[lpc.term.heresy]] [[as:paraphrase]]. We answered it twice, a century and a half apart, in opposite ways [[lpc.term.heresy]] [[lpc.witness.answerability-as-ground]] [[as:paraphrase]]. Cyprian's council said it does not count, and Augustine said it was given, though it did no good there [[lpc.term.heresy]] [[as:paraphrase]]. Our later bishop judged the earlier answer wrong, but he never put the man who gave it outside our communion [[lpc.witness.answerability-as-ground]] [[as:paraphrase]]. A second question stayed open as well: the confessors held that their suffering gave them standing to ask peace for the lapsed, and the church answered with a name set down and examined before the congregation [[lpc.witness.confessor-claim-vs-regulated-peace]] [[as:paraphrase]]. We have never found where those two become one settled rule, and we do not expect to [[lpc.witness.confessor-claim-vs-regulated-peace]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": null,
+ "text": "What we never settled is the nearest answer: whether a baptism given outside our one church counts at all. We answered it twice, a century and a half apart, in opposite ways. Cyprian's council said it does not count, and Augustine said it was given, though it did no good there. Our later bishop judged the earlier answer wrong, but he never put the man who gave it outside our communion. A second question stayed open as well: the confessors held that their suffering gave them standing to ask peace for the lapsed, and the church answered with a name set down and examined before the congregation. We have never found where those two become one settled rule, and we do not expect to.",
+ "voice_set_aside": false
+}

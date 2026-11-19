@@ -4,7 +4,7 @@ assignments:
   - row_id: john-ephesus_lives-eastern-saints-po17_brooks1923--lives-of-the-eastern-saints-i
     work: "Lives of the Eastern Saints (I)"
     author: john-ephesus
-    locus: "whole fascicule"
+    locus: "file lines 156-17448, the first fascicle; Petit's Florence documents (17449-49934) and the Arabic Synaxary (from 49935) follow in the same file"
     atlas_ids:
       - syriac-orthodox-west-syriac-christianity
     role: tradition
@@ -32,7 +32,7 @@ assignments:
   - row_id: john-ephesus_lives-eastern-saints-po17_brooks1923--synaxaire-arabe-jacobite-v-basset
     work: "Le Synaxaire arabe jacobite, V (months Baounah to Mesore), ed. and tr. R. Basset (bound in this PO volume): the Coptic church's calendar notices of Dioscorus, Timothy, Theodosius, Benjamin and the murder of Proterius"
     author: john-ephesus
-    locus: "the Synaxaire arabe section (raw file lines ~49000-64550)"
+    locus: "the Synaxaire arabe section (raw file lines 49935-~64550)"
     atlas_ids:
       - cyrilline-miaphysite-egyptian-christianity
     role: transmission
@@ -45,7 +45,7 @@ assignments:
   - row_id: john-ephesus_lives-eastern-saints-po17_brooks1923--synaxaire-arabe-jacobite-v-basset--voice
     work: 'Le Synaxaire arabe jacobite, V (months Baounah to Mesore), ed. and tr. R. Basset (bound in this PO volume): the Coptic church''s calendar notices of Dioscorus, Timothy, Theodosius, Benjamin and the murder of Proterius'
     author: john-ephesus
-    locus: the Synaxaire arabe section (raw file lines ~49000-64550)
+    locus: the Synaxaire arabe section (raw file lines 49935-~64550)
     atlas_ids:
     - coptic-christianity-fatimid-to-mamluk
     role: tradition
@@ -55,7 +55,8 @@ assignments:
     work: 'Documents relatifs au concile de Florence, Documents VI-XXIV: Oeuvres anticonciliaires de Marc
       d''Ephese (Greek texts edited and translated into French by Louis Petit)'
     author: mark-of-ephesus
-    locus: whole volume
+    locus: 'file lines 17449-49934: the second fascicle (Tome XVII pp. 307-524), heading at 17453; the
+      Lives of the Eastern Saints (lines 156-17448) and the Arabic Synaxary (from 49935) are other works'
     atlas_ids:
     - byzantine-church-palaiologan
     role: tradition

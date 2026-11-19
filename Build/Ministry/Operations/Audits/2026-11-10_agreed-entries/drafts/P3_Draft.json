@@ -1,0 +1,3090 @@
+{
+ "entries": [
+  {
+   "id": "gregory-the-great",
+   "atlasId": "TBD",
+   "era": 3,
+   "name": "Gregory the Great",
+   "shortName": "Gregory",
+   "informalName": "Pope Gregory I",
+   "dates": "c. 578-604",
+   "start": 578,
+   "end": 604,
+   "region": "Rome and Constantinople",
+   "placeLabel": "Rome",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Rome",
+     "placeId": "Q220",
+     "pleiadesId": "423025"
+    }
+   ],
+   "regions": [
+    "Mediterranean"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Rich. The Library holds ten of his own works on the shelf of the Roman church of his age. They include the Pastoral Rule, the Moralia on Job, the Dialogues, and his letters in English and in Latin.",
+   "floorNote": "Not in question.",
+   "relationsSummary": "Gregory is told within The Roman Church in the Age of Gregory the Great, the entry named for his years as bishop. Where he wrote to other churches or sent men to them, that entry's links name him.",
+   "why": "Gregory was a monk first. Then he was the pope's envoy at Constantinople, and from 590 the bishop of Rome. Between those duties he wrote books the Latin West read for centuries. Among them are the Pastoral Rule, the Moralia on Job and the Dialogues.",
+   "entry": null,
+   "teaser": "Rome and Constantinople, c. 578 to 604. A monk made bishop against his will in a city struck by plague, who kept writing while he governed it.",
+   "longDescription": "Gregory came from a Roman family of rank. When his father died, he kept only a small part of what he inherited. He founded six monasteries in Sicily, and a seventh in his own house on the Caelian hill in Rome. He entered that one as a monk, and later became its abbot.\n\nHe was not left there long. The pope made him a deacon and sent him to Constantinople as his envoy, probably from 578 to 585. There he met Leander, bishop of Seville. At Leander's urging he began the Moralia, a long commentary on the Book of Job.\n\nIn 590 Pope Pelagius II died of the disease then raging in Rome, and the clergy and people chose Gregory to follow him. He did not want the office. His biographers say he wrote to the emperor and begged him not to confirm the choice. He was ordained on 3 September 590.\n\nHis pen did not stop while he governed. The Pastoral Rule teaches bishops how to govern souls, which it calls the art of arts. The Dialogues gather the lives and miracles of the saints of Italy, Benedict among them. In his last months gout left him at times hardly able to speak, yet he still wrote letters. He died on 12 March 604.",
+   "voices": [
+    "Gregory the Great — monk, papal envoy at Constantinople, and from 590 bishop of Rome, whose own books and letters survive",
+    "Leander of Seville - his friend from the Constantinople years, at whose urging he began the Moralia"
+   ],
+   "legacy": "His Pastoral Rule outlived him by centuries. A Carolingian list told canons to know 'the pastoral book', and King Alfred had it put into English to send to every bishop in his kingdom. His Dialogues hold the only life of Benedict there is. Everything he did as bishop of Rome is told in the entry for his church.",
+   "documentedStories": [],
+   "kind": "person",
+   "toldWithin": "roman-church-gregorian",
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "william-tyndale",
+   "atlasId": "TBD",
+   "era": 7,
+   "name": "William Tyndale",
+   "shortName": "Tyndale",
+   "informalName": "William Tyndale",
+   "dates": "c. 1525-1536",
+   "start": 1525,
+   "end": 1536,
+   "region": "England, then Cologne, Worms and Antwerp",
+   "placeLabel": "England and beyond",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "England",
+     "placeId": "Q21"
+    }
+   ],
+   "regions": [
+    "North Europe"
+   ],
+   "lane": "6 Protestant & Evangelical",
+   "laneLabel": "Protestant & Evangelical",
+   "laneOrder": 6,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Good, for one man. The Library holds two volumes of his own writing, shelved with the English Reformation as its forerunner. They hold his treatises and the prologues to his Bible, with Foxe's account of his life and death.",
+   "floorNote": "Not in question.",
+   "relationsSummary": "Tyndale is told within the English Reformation, as its forerunner. His work came before that reform's start in the 1530s, and his use of Luther is carried on the Wittenberg link.",
+   "why": "William Tyndale put the New Testament into English and printed it abroad. It was in the press by 1525, years before Henry VIII broke with Rome in the 1530s. So he stands before the English Reformation, as its forerunner, and died at the stake in 1536.",
+   "entry": null,
+   "teaser": "Worms and Antwerp, 1525 to 1536. An English scholar in exile who wanted a ploughboy to know the Scriptures, and died at the stake for his books.",
+   "longDescription": "Tyndale was born near the Welsh border and studied at Oxford, then at Cambridge. John Foxe tells of a quarrel with a learned priest. Tyndale said that, if God spared his life, he would make a boy who drives the plough know more of the Scripture than the priest did.\n\nHe went abroad to print his New Testament. It was in the press at Cologne in 1525, until an enemy of Luther found out the work. Tyndale moved to Worms and printed it there. A report of 1526 said six thousand copies had been printed.\n\nCopies were smuggled into England. In February 1526 Cardinal Wolsey watched baskets of books burn at St Paul's in London. Tyndale said copies of his own book were among them.\n\nHe kept writing in exile. The Obedience of a Christian Man came out in 1528, and in 1530 he printed his version of the five books of Moses. In 1535 an Englishman named Henry Philips won his trust at Antwerp. Philips pointed him out to the officers who seized him.\n\nHe was condemned under the emperor's decree. At Vilvoorde in 1536 he was strangled at the stake, and his body was burned. Foxe gives his last words: 'Lord, open the king of England's eyes.'",
+   "voices": [
+    "William Tyndale — translator and writer in exile, whose treatises and prologues the Library holds",
+    "John Foxe - the martyrologist whose Acts and Monuments keep the story of his life and death"
+   ],
+   "legacy": "Before the year of his death was out, the king's own printer issued Tyndale's New Testament in England. His name was printed on its title page. Much of his Prologue to Romans comes from Luther's own preface, so England's debt to Wittenberg runs through him. The reform he did not live to see is told in the English Reformation's own entry.",
+   "documentedStories": [],
+   "kind": "person",
+   "toldWithin": "the-english-reformation-and-elizabethan-settleme",
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "thomas-a-kempis",
+   "atlasId": "TBD",
+   "era": 6,
+   "name": "Thomas à Kempis",
+   "shortName": "Thomas à Kempis",
+   "informalName": "Thomas Hemerken of Kempen",
+   "dates": "1406-1471",
+   "start": 1406,
+   "end": 1471,
+   "region": "Mount St Agnes near Zwolle, and Deventer",
+   "placeLabel": "Mount St Agnes · Deventer",
+   "modernCountries": [
+    {
+     "country": "Netherlands",
+     "countryId": "Q55",
+     "place": "Netherlands",
+     "placeId": "Q55"
+    }
+   ],
+   "regions": [
+    "North Europe"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Rich. The Library holds fourteen of his own works on the Devotio Moderna shelf. They include his chronicle, his lives of the founders and his sermons, with the Imitation credited to him.",
+   "floorNote": "Not in question.",
+   "relationsSummary": "Thomas is told within the Devotio Moderna. That movement formed him. The Imitation's reach to the Jesuits is shown on the movement's own link.",
+   "why": "Thomas was made a canon of Mount St Agnes near Zwolle in 1406, and he stayed in that small house until he died in 1471. He copied books, wrote its chronicle and the lives of the movement's founders, and wrote little books for the young. The Imitation of Christ is credited to him, though that has long been disputed.",
+   "entry": null,
+   "teaser": "Mount St Agnes, 1406 to 1471. A canon who copied books in one small house all his life, and who is credited with the most copied Christian book after the Bible.",
+   "longDescription": "Thomas Hemerken was born in the town of Kempen, in the diocese of Cologne, and his name means 'of Kempen'. As a youth he heard Florentius Radewijns at Deventer. When Thomas was twenty, Florentius sent him to the new house of Mount St Agnes. Its prior was Thomas's own brother, John of Kempen.\n\nHe was invested as a canon there in 1406, after six years of probation. He stayed for the rest of his life, and for a time served as sub-prior. He copied a whole Bible for the house, and many other books for its use and for sale.\n\nHe also wrote. His chronicle records Mount St Agnes year by year. His lives of Gerard Groote, Florentius and their followers keep the movement's memory of its founders. A brother of the house praised his little books for the young as plain in style but mighty in matter.\n\nThe Imitation of Christ is credited to him. Johannes Busch, a canon of Windesheim in Thomas's own day, names him as its author. An early English translator, William Atkynson, gave it to Jean Gerson of Paris instead. In 1886 William Benham, who put it into English, argued that Thomas had only copied it. The question is still argued.\n\nHe died in 1471, in his ninety-second year. He had been a priest for more than fifty-seven years.",
+   "voices": [
+    "Thomas à Kempis — canon of Mount St Agnes, chronicler of his house and biographer of the movement's founders",
+    "Johannes Busch - canon of Windesheim, whose chronicle names Thomas as the author of the Imitation",
+    "An unnamed brother of Mount St Agnes - who carried Thomas's chronicle on past 1471 and wrote the notice of his death"
+   ],
+   "legacy": "His lasting work is a book. The Imitation was read far beyond the houses, and Ignatius of Loyola kept it on his desk, as the Devotio Moderna's entry tells. His chronicle and lives remain an inside record of the movement's houses.",
+   "documentedStories": [],
+   "kind": "person",
+   "toldWithin": "devotio-moderna-brethren-of-the-common-life",
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "john-wyclif",
+   "atlasId": "TBD",
+   "era": 6,
+   "name": "John Wyclif",
+   "shortName": "Wyclif",
+   "informalName": "John Wycliffe",
+   "dates": "c. 1360-1384",
+   "start": 1360,
+   "end": 1384,
+   "region": "Oxford and Lutterworth, England",
+   "placeLabel": "England",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "England",
+     "placeId": "Q21"
+    }
+   ],
+   "regions": [
+    "North Europe"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Rich. The Library holds twelve of his own works on the Lollardy shelf, in Latin and in English. The Bible made by his circle stands beside them.",
+   "floorNote": "Not in question.",
+   "relationsSummary": "Wyclif is told within Lollardy, the movement that grew from his teaching. His pull on Jan Hus and the church's case against him are carried on Lollardy's links.",
+   "why": "John Wyclif spent most of his life as a scholar at Oxford, and his last years as parish priest of Lutterworth. His opinions were condemned by the pope in 1377 and by an English synod in 1382, yet he died free, in his own parish.",
+   "entry": null,
+   "teaser": "Oxford and Lutterworth, c. 1360 to 1384. A scholar who took on the friars, the pope and the teaching of the Mass, and whose followers outlived him by more than a century.",
+   "longDescription": "Wyclif, also spelled Wycliffe, made his name at Oxford. From about 1360 he argued there against the friars. His 1845 editor says Balliol College chose him as its head in the same years.\n\nHe also served the king. In 1374 he went to Bruges as one of the royal envoys, to protest against English church posts going to foreigners named by the pope. The crown then gave him the parish of Lutterworth in Leicestershire.\n\nIn June 1377 the pope sent letters to England against his opinions. In 1382 Archbishop Courtenay called a synod in London to judge them. As it met, an earthquake shook the city, and some there took it as a warning from Heaven. Courtenay read it the other way, and the synod went on.\n\nHis circle made the English Bible that bears his name. Its editors in 1850 thought the New Testament was probably his own work. They gave much of the Old Testament to his helper Nicholas Hereford.\n\nOn 29 December 1384, as he gave out the bread at Mass, he was struck by paralysis. He died two days later.",
+   "voices": [
+    "John Wyclif — Oxford theologian and rector of Lutterworth, whose Latin and English works the Library holds",
+    "Nicholas Hereford - the helper to whom an early note gives much of the Old Testament in the English Bible of Wyclif's circle"
+   ],
+   "legacy": "His books crossed Europe. In Prague, Jan Hus took paragraph after paragraph from Wyclif's book on the Church. In 1415 the Council of Constance condemned Wyclif's errors, more than thirty years after his death. In England his teaching grew into Lollardy, whose story is told in its own entry.",
+   "documentedStories": [],
+   "kind": "person",
+   "toldWithin": "lollardy",
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "martin-luther",
+   "atlasId": "TBD",
+   "era": 7,
+   "name": "Martin Luther",
+   "shortName": "Luther",
+   "informalName": "Martin Luther",
+   "dates": "1517-1546",
+   "start": 1517,
+   "end": 1546,
+   "region": "Wittenberg, Saxony",
+   "placeLabel": "Saxony",
+   "modernCountries": [
+    {
+     "country": "Germany",
+     "countryId": "Q183",
+     "place": "Saxony",
+     "placeId": "Q1202"
+    }
+   ],
+   "regions": [
+    "North Europe"
+   ],
+   "lane": "6 Protestant & Evangelical",
+   "laneLabel": "Protestant & Evangelical",
+   "laneOrder": 6,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Very rich. The Library holds forty-seven of his own works on the Wittenberg shelf. They include his treatises, catechisms and letters, and his Table Talk.",
+   "floorNote": "Not in question.",
+   "relationsSummary": "Luther is told within Lutheran Wittenberg and its congregations. That tradition grew from his protest of 1517. His quarrels and ties with other churches are shown on that entry's links.",
+   "why": "Martin Luther was a miner's son from Eisleben, and a friar who taught at Wittenberg. Before the emperor he would not take back his books, and he put the Bible into German.",
+   "entry": null,
+   "teaser": "Wittenberg, 1517 to 1546. A friar and teacher whose letter against the sale of indulgences began a movement that still bears his name.",
+   "longDescription": "Luther was born at Eisleben in 1483. His father was a poor miner. He became an Augustinian friar and taught theology at Wittenberg.\n\nOn 31 October 1517 he wrote to the archbishop of Mainz about the indulgences sold under the archbishop's name. His theses of the same day said the indulgence preachers were in error. A later story says he also nailed the theses to the castle church door. It comes from an account written after his death, and historians still disagree about it.\n\nIn June 1520 a papal bull condemned his teaching. In April 1521 he stood before the emperor Charles V at the Diet of Worms. He refused to take anything back unless Scripture showed him he was wrong. Then he was hidden at the Wartburg castle. There he began what an 1885 historian called the great work of his life, a German Bible from the original text.\n\nHe went on writing for twenty-five years more: sermons, hymns, letters, and in 1529 a Small and a Large Catechism. He died on 18 February 1546.",
+   "voices": [
+    "Martin Luther — Augustinian friar and Wittenberg professor whose letter of 1517 began the movement told in Lutheran Wittenberg",
+    "Johann Aurifaber - Luther's disciple, who first gave his Table Talk to the world"
+   ],
+   "legacy": "The Lutheran churches grew from his work, and their story is told in the Wittenberg entry and those after it. His Small Catechism is still learned by heart at home. His hymn tunes began a line of church music that runs to Bach. Many links across the tree concern him, from friends and foes alike.",
+   "documentedStories": [],
+   "kind": "person",
+   "toldWithin": "lutheran-wittenberg-and-its-congregations",
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "john-calvin",
+   "atlasId": "TBD",
+   "era": 7,
+   "name": "John Calvin",
+   "shortName": "Calvin",
+   "informalName": "Jean Calvin",
+   "dates": "1536-1564",
+   "start": 1536,
+   "end": 1564,
+   "region": "Geneva, with Basel and Strasbourg",
+   "placeLabel": "Geneva",
+   "modernCountries": [
+    {
+     "country": "Switzerland",
+     "countryId": "Q39",
+     "place": "Geneva",
+     "placeId": "Q71",
+     "pleiadesId": "177528"
+    }
+   ],
+   "regions": [
+    "North Europe"
+   ],
+   "lane": "6 Protestant & Evangelical",
+   "laneLabel": "Protestant & Evangelical",
+   "laneOrder": 6,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Rich. The Library holds twelve of his own works on the shelf of the Reformed cities. They include the Institutes, his two books on Genesis, the Geneva catechism and three volumes of his letters.",
+   "floorNote": "Not in question.",
+   "relationsSummary": "Calvin is told within the Reformed cities of Zurich and Geneva. He did not found that tradition, which began under Zwingli at Zurich in 1519. His dealings with other churches are carried on its links.",
+   "why": "John Calvin came to Geneva in 1536. Zwingli had begun Zurich's reform seventeen years before, and the two men never met. He was a French exile, the author of the Institutes, and a pastor whose letters survive.",
+   "entry": null,
+   "teaser": "Basel, Strasbourg and Geneva, 1536 to 1564. A French exile who hoped to live quietly as a scholar, and was held in Geneva to build its church.",
+   "longDescription": "Calvin was born at Noyon in France in 1509. He studied law and theology at Paris, Orleans and Bourges. Persecution drove him out of France, and he went to the Swiss lands.\n\nAt Basel, as he later wrote, he was living 'retired and unknown'. There in 1536 he published the first known edition of the Institutes of the Christian Religion. Soon after, passing through Geneva, he was held there by William Farel and made one of its ministers.\n\nHis first years in Geneva ended in exile. He went to Strasbourg, where the second edition of the Institutes came out in 1539. In 1541 Geneva called him back, and his letters of that year show how much he dreaded the return.\n\nThe church order he then gave the city is told in the Reformed cities' entry. His own work went on in commentaries, letters and new editions of the Institutes. He hoped Michael Servetus would be sentenced to death, though he asked that the punishment be made less severe. In 1553 Geneva burned him. He died on 27 May 1564.",
+   "voices": [
+    "John Calvin — French exile, author of the Institutes and pastor at Geneva, whose Institutes, commentaries and letters survive",
+    "William Farel - the Genevan preacher who held him in the city in 1536"
+   ],
+   "legacy": "The Reformed churches that grew from Zurich and Geneva are told in their own entries. His name became a label for that whole family. In 1672 a synod of the Greek church met at Jerusalem 'against the Calvinists'. A Dutch teacher at Utrecht, asked if his church held Calvin's views, said yes, but Calvin was not its head.",
+   "documentedStories": [],
+   "kind": "person",
+   "toldWithin": "the-reformed-cities-zurich-and-geneva",
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "ignatius-of-loyola",
+   "atlasId": "TBD",
+   "era": 7,
+   "name": "Ignatius of Loyola",
+   "shortName": "Ignatius",
+   "informalName": "Saint Ignatius Loyola",
+   "dates": "1521-1556",
+   "start": 1521,
+   "end": 1556,
+   "region": "Loyola and Manresa, then Paris and Rome",
+   "placeLabel": "Paris · Rome",
+   "modernCountries": [
+    {
+     "country": "France",
+     "countryId": "Q142",
+     "place": "Paris",
+     "placeId": "Q90"
+    },
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Rome",
+     "placeId": "Q220",
+     "pleiadesId": "423025"
+    }
+   ],
+   "regions": [
+    "Mediterranean"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Rich. The Library holds ten of his own works on the Jesuit shelf. They include the life he dictated, the Spiritual Exercises and his letters.",
+   "floorNote": "Not in question.",
+   "relationsSummary": "Ignatius is told within the Society of Jesus, the order that grew from him and his companions. His men at Trent and his debt to the Imitation of Christ are carried on its links.",
+   "why": "Ignatius was a soldier, a beggar, a pilgrim and a student before he founded anything. He told his own story late, dictating it to a younger Jesuit between 1553 and 1555.",
+   "entry": null,
+   "teaser": "Pamplona to Rome, 1521 to 1556. A wounded soldier who read the lives of the saints on his sickbed, begged his way to Jerusalem, and ended in Rome at the head of a new order.",
+   "longDescription": "Ignatius was born in 1491 at the castle of Loyola, and grew up a page and then a soldier. At the siege of Pamplona a cannon ball broke one of his legs. In his slow recovery he read the lives of Christ and the saints, because the house had no other books.\n\nHe set out as a pilgrim. At Manresa he lived on the alms he begged each day. He reached Jerusalem, but he could not stay there. So he went back to school, to be better fitted to help souls.\n\nAt Paris he took his master's degree in March 1534. Francis Xavier and Peter Faber were his fellow students there. He and his companions meant to spend their lives in Jerusalem. If they could not, they would offer themselves to the pope.\n\nNo ship could take them, so they went to Rome. In 1540 Pope Paul III approved their Society. From Rome Ignatius sent out letters and instructions, among them orders for his men at the Council of Trent in 1546. He died on 31 July 1556.",
+   "voices": [
+    "Ignatius of Loyola — soldier, pilgrim and founder, whose Spiritual Exercises, letters and dictated life survive",
+    "Luis Gonzalez da Camara - the younger Jesuit who took down his life story from 1553 to 1555"
+   ],
+   "legacy": "The Society of Jesus is his lasting work, and its story is told in its own entry. His Spiritual Exercises shaped everyone the order trained. His dictated life is still the main record of how he changed.",
+   "documentedStories": [],
+   "kind": "person",
+   "toldWithin": "the-society-of-jesus",
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "john-wesley",
+   "atlasId": "TBD",
+   "era": 8,
+   "name": "John Wesley",
+   "shortName": "Wesley",
+   "informalName": "John Wesley",
+   "dates": "1735-1791",
+   "start": 1735,
+   "end": 1791,
+   "region": "Britain, with Georgia",
+   "placeLabel": "Britain",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Britain",
+     "placeId": "Q23666",
+     "pleiadesId": "20419"
+    }
+   ],
+   "regions": [
+    "North Europe"
+   ],
+   "lane": "6 Protestant & Evangelical",
+   "laneLabel": "Protestant & Evangelical",
+   "laneOrder": 6,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Rich. The Library holds sixteen of his own works on the Methodist shelf. They include his journal in eight volumes, his sermons and his tracts.",
+   "floorNote": "Not in question.",
+   "relationsSummary": "Wesley is told within the Methodist revival, which grew from his preaching and his societies. What he took from Moravians, Pietists, Puritans and Luther is carried on its links.",
+   "why": "John Wesley kept a journal for fifty-five years, from his voyage to Georgia in 1735 until October 1790. It shows a priest who preached in the open air and looked on all the world as his parish.",
+   "entry": null,
+   "teaser": "England and Georgia, 1735 to 1791. An Oxford priest whose heart was 'strangely warmed', who took the gospel into the fields and called the world his parish.",
+   "longDescription": "John Wesley was a priest of the Church of England, trained at Oxford. In 1735 he sailed for the colony of Georgia. He wrote that he went not to escape want, nor to gain riches or honour, but to save his soul. The mission did not go well, as the revival's entry tells.\n\nBack in London, in March 1738, the Moravian Peter Böhler convinced him that he lacked saving faith. On 24 May he went, unwillingly, to a meeting in Aldersgate Street, where someone was reading Luther's preface to Romans. There, he wrote, 'I felt my heart strangely warmed.' He now trusted in Christ alone for his salvation.\n\nMany pulpits were closed to him. On 2 April 1739, at Bristol, he 'submitted to be more vile' and preached in the open air. Told that he had no right to preach in other men's parishes, he answered that he had none of his own. 'I look upon all the world as my parish,' he wrote.\n\nHe gathered his hearers into societies, and the revival's entry tells what they became. He read widely and judged for himself. In 1741 he read Luther's book on Galatians and called it shallow and confused. He kept his journal until October 1790, and died in 1791.",
+   "voices": [
+    "John Wesley — priest, preacher and organizer, whose journal runs from 1735 to 1790",
+    "Peter Böhler - the Moravian who, by Wesley's own account, convinced him in 1738 that he lacked saving faith"
+   ],
+   "legacy": "The Methodist churches grew from the societies he gathered, and their story runs on from the Methodist revival's entry. His journal records the revival from inside, day by day, for more than fifty years. He told his preachers to urge all believers to 'go on to perfection'. Holiness writers of the 1800s took up that teaching and called it his.",
+   "documentedStories": [],
+   "kind": "person",
+   "toldWithin": "the-methodist-revival",
+   "reviewStatus": "AI-checked"
+  }
+ ],
+ "fact_table": [
+  {
+   "entry": "gregory-the-great",
+   "field": "sourcing",
+   "sentence": "Rich. The Library holds ten of his own works on the shelf of the Roman church of his age.",
+   "file": null,
+   "work": "cic/corpus-map/roman-church-gregorian.yaml, rows with author gregory or gregory-great and role tradition (10 distinct works, counted 2026-11-10)",
+   "locus": "",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "sourcing",
+   "sentence": "They include the Pastoral Rule, the Moralia on Job, the Dialogues, and his letters in English and in Latin.",
+   "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+   "lines": "22083",
+   "quote": "The Book of Pastoral Rule, and Selected Epistles, of Gregory the Great.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "sourcing",
+   "sentence": "They include the Pastoral Rule, the Moralia on Job, the Dialogues, and his letters in English and in Latin.",
+   "file": "cic/texts/gregory-great_moralia-in-job-books-i-x_bliss1844.txt",
+   "lines": "18",
+   "quote": "Moralia",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "sourcing",
+   "sentence": "They include the Pastoral Rule, the Moralia on Job, the Dialogues, and his letters in English and in Latin.",
+   "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
+   "lines": "1",
+   "quote": "The Dialogues of Saint Gregory",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "sourcing",
+   "sentence": "They include the Pastoral Rule, the Moralia on Job, the Dialogues, and his letters in English and in Latin.",
+   "file": "cic/texts/gregory-great_registrum-epistolarum-t2-pars1-libri-8-9-lat_ewald-hartmann1893.txt",
+   "lines": "1",
+   "quote": "Registrum",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "relationsSummary",
+   "sentence": "Gregory is told within The Roman Church in the Age of Gregory the Great, the entry named for his years as bishop.",
+   "file": null,
+   "work": "census roman-church-gregorian.name",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "why",
+   "sentence": "Gregory was a monk first. Then he was the pope's envoy at Constantinople, and from 590 the bishop of Rome.",
+   "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+   "lines": "22765",
+   "quote": "which he himself entered as a monk",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "why",
+   "sentence": "Gregory was a monk first. Then he was the pope's envoy at Constantinople, and from 590 the bishop of Rome.",
+   "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+   "lines": "22817",
+   "quote": "afterwards sent to Constantinople to be the pope’s",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "why",
+   "sentence": "Gregory was a monk first. Then he was the pope's envoy at Constantinople, and from 590 the bishop of Rome.",
+   "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+   "lines": "22900-22901",
+   "quote": "the whole clergy and people of Rome concurred in electing Gregory to the popedom",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "why",
+   "sentence": "Between those duties he wrote books the Latin West read for centuries. Among them are the Pastoral Rule, the Moralia on Job and the Dialogues.",
+   "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+   "lines": "24034-24035",
+   "quote": "intending, as he says, to send a copy to every bishop in his Kingdom",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "why",
+   "sentence": "Between those duties he wrote books the Latin West read for centuries. Among them are the Pastoral Rule, the Moralia on Job and the Dialogues.",
+   "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
+   "lines": "2",
+   "quote": "Wherein He Entreateth of the Lives",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "teaser",
+   "sentence": "Rome and Constantinople, c. 578 to 604. A monk made bishop against his will in a city struck by plague, who kept writing while he governed it.",
+   "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+   "lines": "22912-22913",
+   "quote": "He was most unwilling to undertake the task.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "teaser",
+   "sentence": "Rome and Constantinople, c. 578 to 604. A monk made bishop against his will in a city struck by plague, who kept writing while he governed it.",
+   "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+   "lines": "22898",
+   "quote": "who fell a victim to an epidemic disease then raging",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "teaser",
+   "sentence": "Rome and Constantinople, c. 578 to 604. A monk made bishop against his will in a city struck by plague, who kept writing while he governed it.",
+   "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+   "lines": "23869-23870",
+   "quote": "shew no abatement of his care for all the Churches, or his activity in correspondence",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "longDescription",
+   "sentence": "Gregory came from a Roman family of rank.",
+   "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+   "lines": "22740-22741",
+   "quote": "He dressed, at any rate, conformably to his rank",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "longDescription",
+   "sentence": "When his father died, he kept only a small part of what he inherited.",
+   "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+   "lines": "22760-22761",
+   "quote": "he kept but a small part of the patrimony that came to him",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "longDescription",
+   "sentence": "He founded six monasteries in Sicily, and a seventh in his own house on the Caelian hill in Rome.",
+   "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+   "lines": "22762-22763",
+   "quote": "of which he endowed six in Sicily, and one, dedicated to St. Andrew, on the site of his own house",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "longDescription",
+   "sentence": "He entered that one as a monk, and later became its abbot.",
+   "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+   "lines": "22765-22766",
+   "quote": "which he himself entered as a monk, and of which he was eventually elected abbot.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "longDescription",
+   "sentence": "The pope made him a deacon and sent him to Constantinople as his envoy, probably from 578 to 585.",
+   "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+   "lines": "22817",
+   "quote": "afterwards sent to Constantinople to be the pope’s",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "longDescription",
+   "sentence": "The pope made him a deacon and sent him to Constantinople as his envoy, probably from 578 to 585.",
+   "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+   "lines": "22832-22833",
+   "quote": "Gregory remained at Constantinople for several years, probably from",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "longDescription",
+   "sentence": "There he met Leander, bishop of Seville.",
+   "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+   "lines": "22852-22853",
+   "quote": "He also formed at this time the intimate acquaintance of Leander, Bishop of Seville",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "longDescription",
+   "sentence": "At Leander's urging he began the Moralia, a long commentary on the Book of Job.",
+   "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+   "lines": "22855-22856",
+   "quote": "It was at his instigation that he began, while at Constantinople, the",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "longDescription",
+   "sentence": "In 590 Pope Pelagius II died of the disease then raging in Rome, and the clergy and people chose Gregory to follow him.",
+   "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+   "lines": "22898-22899",
+   "quote": "who fell a victim to an epidemic disease then raging on the 8th of February,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "longDescription",
+   "sentence": "In 590 Pope Pelagius II died of the disease then raging in Rome, and the clergy and people chose Gregory to follow him.",
+   "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+   "lines": "22900-22901",
+   "quote": "the whole clergy and people of Rome concurred in electing Gregory to the popedom",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "longDescription",
+   "sentence": "He did not want the office.",
+   "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+   "lines": "22912-22913",
+   "quote": "He was most unwilling to undertake the task.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "longDescription",
+   "sentence": "His biographers say he wrote to the emperor and begged him not to confirm the choice.",
+   "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+   "lines": "22915",
+   "quote": "he sent at the same time a letter imploring him to withhold it",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "longDescription",
+   "sentence": "He was ordained on 3 September 590.",
+   "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+   "lines": "22938-22939",
+   "quote": "there at once ordained, on the 3rd of September",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "longDescription",
+   "sentence": "His pen did not stop while he governed.",
+   "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+   "lines": "23869-23870",
+   "quote": "shew no abatement of his care for all the Churches, or his activity in correspondence",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "longDescription",
+   "sentence": "The Pastoral Rule teaches bishops how to govern souls, which it calls the art of arts.",
+   "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+   "lines": "24182",
+   "quote": "since the government of souls is the art of arts",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "longDescription",
+   "sentence": "The Dialogues gather the lives and miracles of the saints of Italy, Benedict among them.",
+   "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
+   "lines": "2",
+   "quote": "Wherein He Entreateth of the Lives",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "longDescription",
+   "sentence": "The Dialogues gather the lives and miracles of the saints of Italy, Benedict among them.",
+   "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
+   "lines": "5566-5567",
+   "quote": "for he wrote a rule for his monks, both excellent for discretion",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "longDescription",
+   "sentence": "In his last months gout left him at times hardly able to speak, yet he still wrote letters.",
+   "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+   "lines": "23870-23872",
+   "quote": "his excessive affliction from gout, leaving him sometimes hardly able to speak",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "longDescription",
+   "sentence": "He died on 12 March 604.",
+   "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+   "lines": "23866-23867",
+   "quote": "on the 12th of March,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "longDescription",
+   "sentence": "He died on 12 March 604.",
+   "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+   "lines": "23867",
+   "quote": "604) Gregory died.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "legacy",
+   "sentence": "His Pastoral Rule outlived him by centuries.",
+   "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+   "lines": "24034-24035",
+   "quote": "intending, as he says, to send a copy to every bishop in his Kingdom",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "legacy",
+   "sentence": "A Carolingian list told canons to know 'the pastoral book', and King Alfred had it put into English to send to every bishop in his kingdom.",
+   "file": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt",
+   "lines": "16128",
+   "quote": "Librum pastoralem* canonici atque librum officiorum;",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "legacy",
+   "sentence": "A Carolingian list told canons to know 'the pastoral book', and King Alfred had it put into English to send to every bishop in his kingdom.",
+   "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+   "lines": "24033-24035",
+   "quote": "made a translation, or rather paraphrase, of it in the West Saxon tongue, intending, as he says, to send a copy to every bishop in his Kingdom",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "gregory-the-great",
+   "field": "legacy",
+   "sentence": "His Dialogues hold the only life of Benedict there is.",
+   "file": null,
+   "work": "census roman-church-gregorian.relationsSummary",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "sourcing",
+   "sentence": "Good, for one man. The Library holds two volumes of his own writing, shelved with the English Reformation as its forerunner.",
+   "file": null,
+   "work": "cic/corpus-map/the-english-reformation-and-elizabethan-settleme.yaml, rows with author tyndale and role antecedent (2 works, counted 2026-11-10)",
+   "locus": "",
+   "grade": "Documented"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "sourcing",
+   "sentence": "They hold his treatises and the prologues to his Bible, with Foxe's account of his life and death.",
+   "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+   "lines": "8",
+   "quote": "Tyndale's own works in modernised spelling",
+   "grade": "Documented"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "relationsSummary",
+   "sentence": "Tyndale is told within the English Reformation, as its forerunner.",
+   "file": null,
+   "work": "census the-english-reformation-and-elizabethan-settleme.name",
+   "grade": "Documented"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "relationsSummary",
+   "sentence": "His work came before that reform's start in the 1530s, and his use of Luther is carried on the Wittenberg link.",
+   "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+   "lines": "1007",
+   "quote": "was in the press in 1525",
+   "grade": "Documented"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "relationsSummary",
+   "sentence": "His work came before that reform's start in the 1530s, and his use of Luther is carried on the Wittenberg link.",
+   "file": null,
+   "work": "census the-english-reformation-and-elizabethan-settleme.longDescription",
+   "grade": "Documented"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "why",
+   "sentence": "William Tyndale put the New Testament into English and printed it abroad.",
+   "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+   "lines": "1169-1170",
+   "quote": "six thousand copies of the new Testament in the English tongue had been printed at Worms;",
+   "grade": "Documented"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "why",
+   "sentence": "It was in the press by 1525, years before Henry VIII broke with Rome in the 1530s.",
+   "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+   "lines": "1007",
+   "quote": "was in the press in 1525",
+   "grade": "Documented"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "why",
+   "sentence": "It was in the press by 1525, years before Henry VIII broke with Rome in the 1530s.",
+   "file": null,
+   "work": "census the-english-reformation-and-elizabethan-settleme.longDescription",
+   "grade": "Documented"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "why",
+   "sentence": "So he stands before the English Reformation, as its forerunner, and died at the stake in 1536.",
+   "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+   "lines": "3331",
+   "quote": "Vilvorden, in the year 1536",
+   "grade": "Documented"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "teaser",
+   "sentence": "Worms and Antwerp, 1525 to 1536. An English scholar in exile who wanted a ploughboy to know the Scriptures, and died at the stake for his books.",
+   "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+   "lines": "3251-3252",
+   "quote": "he would cause a boy that driveth the plough to",
+   "grade": "Documented"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "teaser",
+   "sentence": "Worms and Antwerp, 1525 to 1536. An English scholar in exile who wanted a ploughboy to know the Scriptures, and died at the stake for his books.",
+   "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+   "lines": "3331",
+   "quote": "Vilvorden, in the year 1536",
+   "grade": "Documented"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "longDescription",
+   "sentence": "Tyndale was born near the Welsh border and studied at Oxford, then at Cambridge.",
+   "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+   "lines": "384-385",
+   "quote": "he was born about the borders of Wales, and brought up from a child in the university of Oxford",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "longDescription",
+   "sentence": "Tyndale was born near the Welsh border and studied at Oxford, then at Cambridge.",
+   "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+   "lines": "398",
+   "quote": "removed from thence to the university of Cambridge",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "longDescription",
+   "sentence": "John Foxe tells of a quarrel with a learned priest.",
+   "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+   "lines": "627-628",
+   "quote": "in communing and disputing with him he drave him to that issue",
+   "grade": "Documented"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "longDescription",
+   "sentence": "Tyndale said that, if God spared his life, he would make a boy who drives the plough know more of the Scripture than the priest did.",
+   "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+   "lines": "633-635",
+   "quote": "that if God spared him life, ere manj years he would cause a boj that driveth the plough to know more of the scripture than he did.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "longDescription",
+   "sentence": "It was in the press at Cologne in 1525, until an enemy of Luther found out the work.",
+   "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+   "lines": "1007",
+   "quote": "was in the press in 1525",
+   "grade": "Documented"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "longDescription",
+   "sentence": "It was in the press at Cologne in 1525, until an enemy of Luther found out the work.",
+   "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+   "lines": "1065",
+   "quote": "Tyndale and an associate4 in Cologne, in 1525",
+   "grade": "Documented"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "longDescription",
+   "sentence": "Tyndale moved to Worms and printed it there.",
+   "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+   "lines": "1199",
+   "quote": "For when he got to Worms",
+   "grade": "Documented"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "longDescription",
+   "sentence": "A report of 1526 said six thousand copies had been printed.",
+   "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+   "lines": "1169-1170",
+   "quote": "six thousand copies of the new Testament in the English tongue had been printed at Worms;",
+   "grade": "Documented"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "longDescription",
+   "sentence": "Copies were smuggled into England.",
+   "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+   "lines": "1073",
+   "quote": "under cover of other goods",
+   "grade": "Documented"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "longDescription",
+   "sentence": "In February 1526 Cardinal Wolsey watched baskets of books burn at St Paul's in London.",
+   "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+   "lines": "1214",
+   "quote": "cardinal Wolsey went to St Paul's",
+   "grade": "Documented"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "longDescription",
+   "sentence": "Tyndale said copies of his own book were among them.",
+   "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+   "lines": "1218-1219",
+   "quote": "Tyndale tells us, that in this fire they burnt copies of his version of the word of God.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "longDescription",
+   "sentence": "The Obedience of a Christian Man came out in 1528, and in 1530 he printed his version of the five books of Moses.",
+   "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+   "lines": "8",
+   "quote": "The Obedience of a Christian Man, 1527-8",
+   "grade": "Documented"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "longDescription",
+   "sentence": "The Obedience of a Christian Man came out in 1528, and in 1530 he printed his version of the five books of Moses.",
+   "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+   "lines": "8",
+   "quote": "the Preface to the Five Books of Moses, 1530",
+   "grade": "Documented"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "longDescription",
+   "sentence": "In 1535 an Englishman named Henry Philips won his trust at Antwerp.",
+   "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+   "lines": "2864",
+   "quote": "whose name was Henry Philips",
+   "grade": "Documented"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "longDescription",
+   "sentence": "Philips pointed him out to the officers who seized him.",
+   "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+   "lines": "2969-2971",
+   "quote": "pointed with his finger over master Tyndale's head down to him, that the officers, which sat at the door, might see that it was he whom they should take",
+   "grade": "Documented"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "longDescription",
+   "sentence": "He was condemned under the emperor's decree.",
+   "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+   "lines": "3322",
+   "quote": "demned by virtue of the emperor's decree",
+   "grade": "Documented"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "longDescription",
+   "sentence": "At Vilvoorde in 1536 he was strangled at the stake, and his body was burned.",
+   "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+   "lines": "3329",
+   "quote": "strangled first by the hangman, and afterward with fire con",
+   "grade": "Documented"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "longDescription",
+   "sentence": "Foxe gives his last words: 'Lord, open the king of England's eyes.'",
+   "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+   "lines": "3332-3333",
+   "quote": "Lord, open the king of England's eyes",
+   "grade": "Documented"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "legacy",
+   "sentence": "Before the year of his death was out, the king's own printer issued Tyndale's New Testament in England.",
+   "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+   "lines": "3340-3342",
+   "quote": "came forth from the press of the king's own printer ; and that volume was a folio Testament, Tyndale's own version",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "legacy",
+   "sentence": "His name was printed on its title page.",
+   "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+   "lines": "3343",
+   "quote": "scribed name of William Tyndale openly set forth on its title",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "legacy",
+   "sentence": "Much of his Prologue to Romans comes from Luther's own preface, so England's debt to Wittenberg runs through him.",
+   "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+   "lines": "30816-30817",
+   "quote": "for the greater part of it is in fact a paraphrase, and sometimes a literal translation, of Luther's preface to the Romans,",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "william-tyndale",
+   "field": "legacy",
+   "sentence": "The reform he did not live to see is told in the English Reformation's own entry.",
+   "file": null,
+   "work": "census the-english-reformation-and-elizabethan-settleme.longDescription",
+   "grade": "Documented"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "sourcing",
+   "sentence": "Rich. The Library holds fourteen of his own works on the Devotio Moderna shelf.",
+   "file": null,
+   "work": "cic/corpus-map/devotio-moderna-brethren-of-the-common-life.yaml, rows with author kempis and role tradition (14 distinct works, counted 2026-11-10)",
+   "locus": "",
+   "grade": "Documented"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "sourcing",
+   "sentence": "They include his chronicle, his lives of the founders and his sermons, with the Imitation credited to him.",
+   "file": "cic/texts/kempis_chronicle-of-mount-st-agnes_arthur1906.txt",
+   "lines": "231",
+   "quote": "The Chronicle of Mount St. Agnes is the only work of Thomas a Kempis of",
+   "grade": "Documented"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "sourcing",
+   "sentence": "They include his chronicle, his lives of the founders and his sermons, with the Imitation credited to him.",
+   "file": "cic/texts/kempis_founders-of-the-new-devotion_arthur1905.txt",
+   "lines": "1",
+   "quote": "The Founders of the New Devotion: Being the Lives of Gerard",
+   "grade": "Documented"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "relationsSummary",
+   "sentence": "Thomas is told within the Devotio Moderna. That movement formed him.",
+   "file": null,
+   "work": "census devotio-moderna-brethren-of-the-common-life.voices",
+   "grade": "Documented"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "why",
+   "sentence": "Thomas was made a canon of Mount St Agnes near Zwolle in 1406, and he stayed in that small house until he died in 1471.",
+   "file": "cic/texts/kempis_chronicle-of-mount-st-agnes_arthur1906.txt",
+   "lines": "1189",
+   "quote": "In the year of the Lord 1406, on the Feast of Corpus Christi",
+   "grade": "Documented"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "why",
+   "sentence": "Thomas was made a canon of Mount St Agnes near Zwolle in 1406, and he stayed in that small house until he died in 1471.",
+   "file": "cic/texts/kempis_chronicle-of-mount-st-agnes_arthur1906.txt",
+   "lines": "241",
+   "quote": "which a Kempis died",
+   "grade": "Documented"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "why",
+   "sentence": "He copied books, wrote its chronicle and the lives of the movement's founders, and wrote little books for the young.",
+   "file": "cic/texts/kempis_chronicle-of-mount-st-agnes_arthur1906.txt",
+   "lines": "3426-3427",
+   "quote": "he wrote that complete copy of the Bible which we use, and also many other books for the use of the House, and for sale.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "why",
+   "sentence": "He copied books, wrote its chronicle and the lives of the movement's founders, and wrote little books for the young.",
+   "file": "cic/texts/kempis_founders-of-the-new-devotion_arthur1905.txt",
+   "lines": "2",
+   "quote": "Groote, Florentius Radewin and Their Followers",
+   "grade": "Documented"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "why",
+   "sentence": "He copied books, wrote its chronicle and the lives of the movement's founders, and wrote little books for the young.",
+   "file": "cic/texts/kempis_chronicle-of-mount-st-agnes_arthur1906.txt",
+   "lines": "3427-3428",
+   "quote": "Likewise he composed divers little books for the edification of the young",
+   "grade": "Documented"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "why",
+   "sentence": "The Imitation of Christ is credited to him, though that has long been disputed.",
+   "file": "cic/texts/busch_chronicon-windeshemense-lat_grube1886.txt",
+   "lines": "5414-5415",
+   "quote": "de imitacione Christi cum aliis,",
+   "grade": "Contested"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "why",
+   "sentence": "The Imitation of Christ is credited to him, though that has long been disputed.",
+   "file": "cic/texts/kempis_imitation-of-christ_benham1886.txt",
+   "lines": "488-489",
+   "quote": "There seems no doubt that this must be a mistake",
+   "grade": "Contested"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "teaser",
+   "sentence": "Mount St Agnes, 1406 to 1471. A canon who copied books in one small house all his life, and who is credited with the most copied Christian book after the Bible.",
+   "file": "cic/texts/kempis_chronicle-of-mount-st-agnes_arthur1906.txt",
+   "lines": "3426",
+   "quote": "he wrote that complete copy of the Bible which we use",
+   "grade": "Documented"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "teaser",
+   "sentence": "Mount St Agnes, 1406 to 1471. A canon who copied books in one small house all his life, and who is credited with the most copied Christian book after the Bible.",
+   "file": null,
+   "work": "census devotio-moderna-brethren-of-the-common-life.why",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "longDescription",
+   "sentence": "Thomas Hemerken was born in the town of Kempen, in the diocese of Cologne, and his name means 'of Kempen'.",
+   "file": "cic/texts/kempis_chronicle-of-mount-st-agnes_arthur1906.txt",
+   "lines": "3414-3415",
+   "quote": "died our most beloved Brother Thomas Hemerken, who was born in the city of Kempen, in the diocese of Cologne.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "longDescription",
+   "sentence": "Thomas Hemerken was born in the town of Kempen, in the diocese of Cologne, and his name means 'of Kempen'.",
+   "file": "cic/texts/kempis_chronicle-of-mount-st-agnes_arthur1906.txt",
+   "lines": "1924",
+   "quote": "the second was Brother Thomas of Kempen, the Sub-Prior",
+   "grade": "Documented"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "longDescription",
+   "sentence": "As a youth he heard Florentius Radewijns at Deventer.",
+   "file": "cic/texts/kempis_chronicle-of-mount-st-agnes_arthur1906.txt",
+   "lines": "3419",
+   "quote": "In the days of his youth he was an hearer of Florentius at Deventer",
+   "grade": "Documented"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "longDescription",
+   "sentence": "When Thomas was twenty, Florentius sent him to the new house of Mount St Agnes.",
+   "file": "cic/texts/kempis_chronicle-of-mount-st-agnes_arthur1906.txt",
+   "lines": "3419-3421",
+   "quote": "by whom also he was sent, when twenty years old, to his own brother, who at that time was Prior of Mount St. Agnes.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "longDescription",
+   "sentence": "Its prior was Thomas's own brother, John of Kempen.",
+   "file": "cic/texts/kempis_chronicle-of-mount-st-agnes_arthur1906.txt",
+   "lines": "1193",
+   "quote": "brother to John of Kempen the first Prior.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "longDescription",
+   "sentence": "He was invested as a canon there in 1406, after six years of probation.",
+   "file": "cic/texts/kempis_chronicle-of-mount-st-agnes_arthur1906.txt",
+   "lines": "1189",
+   "quote": "In the year of the Lord 1406, on the Feast of Corpus Christi",
+   "grade": "Documented"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "longDescription",
+   "sentence": "He was invested as a canon there in 1406, after six years of probation.",
+   "file": "cic/texts/kempis_chronicle-of-mount-st-agnes_arthur1906.txt",
+   "lines": "3421-3422",
+   "quote": "From this same brother he received his investiture after six years of probation",
+   "grade": "Documented"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "longDescription",
+   "sentence": "He stayed for the rest of his life, and for a time served as sub-prior.",
+   "file": "cic/texts/kempis_chronicle-of-mount-st-agnes_arthur1906.txt",
+   "lines": "1924",
+   "quote": "the second was Brother Thomas of Kempen, the Sub-Prior",
+   "grade": "Documented"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "longDescription",
+   "sentence": "He copied a whole Bible for the house, and many other books for its use and for sale.",
+   "file": "cic/texts/kempis_chronicle-of-mount-st-agnes_arthur1906.txt",
+   "lines": "3426-3427",
+   "quote": "he wrote that complete copy of the Bible which we use, and also many other books for the use of the House, and for sale.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "longDescription",
+   "sentence": "His chronicle records Mount St Agnes year by year.",
+   "file": "cic/texts/kempis_chronicle-of-mount-st-agnes_arthur1906.txt",
+   "lines": "231",
+   "quote": "The Chronicle of Mount St. Agnes is the only work of Thomas a Kempis of",
+   "grade": "Documented"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "longDescription",
+   "sentence": "His lives of Gerard Groote, Florentius and their followers keep the movement's memory of its founders.",
+   "file": "cic/texts/kempis_founders-of-the-new-devotion_arthur1905.txt",
+   "lines": "1",
+   "quote": "The Founders of the New Devotion: Being the Lives of Gerard",
+   "grade": "Documented"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "longDescription",
+   "sentence": "A brother of the house praised his little books for the young as plain in style but mighty in matter.",
+   "file": "cic/texts/kempis_chronicle-of-mount-st-agnes_arthur1906.txt",
+   "lines": "3428-3429",
+   "quote": "which books were plain and simple in style, but mighty in the matter thereof",
+   "grade": "Documented"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "longDescription",
+   "sentence": "The Imitation of Christ is credited to him.",
+   "file": null,
+   "work": "census devotio-moderna-brethren-of-the-common-life.voices",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "longDescription",
+   "sentence": "Johannes Busch, a canon of Windesheim in Thomas's own day, names him as its author.",
+   "file": "cic/texts/busch_chronicon-windeshemense-lat_grube1886.txt",
+   "lines": "5414-5415",
+   "quote": "de imitacione Christi cum aliis,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "longDescription",
+   "sentence": "An early English translator, William Atkynson, gave it to Jean Gerson of Paris instead.",
+   "file": "cic/texts/kempis_earliest-english-translation-de-imitatione-christi-enm_ingram1893.txt",
+   "lines": "1178",
+   "quote": "by the right worshypfulle doctor master lohn Gerson,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "longDescription",
+   "sentence": "In 1886 William Benham, who put it into English, argued that Thomas had only copied it.",
+   "file": "cic/texts/kempis_imitation-of-christ_benham1886.txt",
+   "lines": "519-520",
+   "quote": "and thence arose the erroneous notion that he was its author",
+   "grade": "Contested"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "longDescription",
+   "sentence": "The question is still argued.",
+   "file": "cic/texts/kempis_earliest-english-translation-de-imitatione-christi-enm_ingram1893.txt",
+   "lines": "1183",
+   "quote": "I believe neither in the authorship of the Chancellor Gerson,",
+   "grade": "Contested"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "longDescription",
+   "sentence": "He died in 1471, in his ninety-second year.",
+   "file": "cic/texts/kempis_chronicle-of-mount-st-agnes_arthur1906.txt",
+   "lines": "241",
+   "quote": "which a Kempis died",
+   "grade": "Documented"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "longDescription",
+   "sentence": "He died in 1471, in his ninety-second year.",
+   "file": "cic/texts/kempis_chronicle-of-mount-st-agnes_arthur1906.txt",
+   "lines": "3415",
+   "quote": "He was in the ninety-second year",
+   "grade": "Documented"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "longDescription",
+   "sentence": "He had been a priest for more than fifty-seven years.",
+   "file": "cic/texts/kempis_chronicle-of-mount-st-agnes_arthur1906.txt",
+   "lines": "3417",
+   "quote": "likewise he had been a Priest for above fifty-seven years.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "legacy",
+   "sentence": "The Imitation was read far beyond the houses, and Ignatius of Loyola kept it on his desk, as the Devotio Moderna's entry tells.",
+   "file": "cic/texts/ignatius-loyola_scripta-de-sancto-ignatio-tomus01-lat-spa-ita_1904.txt",
+   "lines": "24345-24346",
+   "quote": "quam nouum Testamentum et Thomam de Kempis",
+   "grade": "Documented"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "legacy",
+   "sentence": "The Imitation was read far beyond the houses, and Ignatius of Loyola kept it on his desk, as the Devotio Moderna's entry tells.",
+   "file": null,
+   "work": "census devotio-moderna-brethren-of-the-common-life.legacy",
+   "grade": "Documented"
+  },
+  {
+   "entry": "thomas-a-kempis",
+   "field": "legacy",
+   "sentence": "His chronicle and lives remain an inside record of the movement's houses.",
+   "file": "cic/texts/kempis_chronicle-of-mount-st-agnes_arthur1906.txt",
+   "lines": "237",
+   "quote": "which is of considerable importance to students of the movement known as",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "john-wyclif",
+   "field": "sourcing",
+   "sentence": "Rich. The Library holds twelve of his own works on the Lollardy shelf, in Latin and in English.",
+   "file": null,
+   "work": "cic/corpus-map/lollardy.yaml, rows with author wyclif and role tradition (12 distinct works, counted 2026-11-10)",
+   "locus": "",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wyclif",
+   "field": "sourcing",
+   "sentence": "The Bible made by his circle stands beside them.",
+   "file": "cic/texts/wyclif_de-ecclesia-lat_loserth1886.txt",
+   "lines": "1",
+   "quote": "Ecclesia",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wyclif",
+   "field": "sourcing",
+   "sentence": "The Bible made by his circle stands beside them.",
+   "file": "cic/texts/wyclif_select-english-works-v1_arnold1869.txt",
+   "lines": "1",
+   "quote": "English",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wyclif",
+   "field": "sourcing",
+   "sentence": "The Bible made by his circle stands beside them.",
+   "file": "cic/texts/wycliffite-bible_forshall-madden1850.txt",
+   "lines": "2319",
+   "quote": "This translation might probably be the work of Wycliffe himself",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wyclif",
+   "field": "relationsSummary",
+   "sentence": "Wyclif is told within Lollardy, the movement that grew from his teaching.",
+   "file": null,
+   "work": "census lollardy.why",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wyclif",
+   "field": "why",
+   "sentence": "John Wyclif spent most of his life as a scholar at Oxford, and his last years as parish priest of Lutterworth.",
+   "file": "cic/texts/wyclif_tracts-and-treatises_vaughan1845.txt",
+   "lines": "1107",
+   "quote": "In the year 1360 WyclifFe began his disputes with the Mendi",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wyclif",
+   "field": "why",
+   "sentence": "John Wyclif spent most of his life as a scholar at Oxford, and his last years as parish priest of Lutterworth.",
+   "file": "cic/texts/wyclif_tracts-and-treatises_vaughan1845.txt",
+   "lines": "2001",
+   "quote": "rectory of Lutterworth, in Leicestershire, became vacant.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wyclif",
+   "field": "why",
+   "sentence": "His opinions were condemned by the pope in 1377 and by an English synod in 1382, yet he died free, in his own parish.",
+   "file": "cic/texts/wyclif_tracts-and-treatises_vaughan1845.txt",
+   "lines": "2253-2254",
+   "quote": "concerning certain false and dangerous opinions said to be holden and promulgated by John de Wycliffe",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wyclif",
+   "field": "why",
+   "sentence": "His opinions were condemned by the pope in 1377 and by an English synod in 1382, yet he died free, in his own parish.",
+   "file": "cic/texts/wyclif_tracts-and-treatises_vaughan1845.txt",
+   "lines": "3805-3806",
+   "quote": "Courtney adopted mea- sures to convene a synod",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wyclif",
+   "field": "why",
+   "sentence": "His opinions were condemned by the pope in 1377 and by an English synod in 1382, yet he died free, in his own parish.",
+   "file": "cic/texts/wyclif_tracts-and-treatises_vaughan1845.txt",
+   "lines": "4766",
+   "quote": "his devout spirit passed to the world of rest.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wyclif",
+   "field": "teaser",
+   "sentence": "Oxford and Lutterworth, c. 1360 to 1384. A scholar who took on the friars, the pope and the teaching of the Mass, and whose followers outlived him by more than a century.",
+   "file": "cic/texts/wyclif_tracts-and-treatises_vaughan1845.txt",
+   "lines": "1107",
+   "quote": "In the year 1360 WyclifFe began his disputes with the Mendi",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wyclif",
+   "field": "teaser",
+   "sentence": "Oxford and Lutterworth, c. 1360 to 1384. A scholar who took on the friars, the pope and the teaching of the Mass, and whose followers outlived him by more than a century.",
+   "file": null,
+   "work": "census lollardy.longDescription",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wyclif",
+   "field": "longDescription",
+   "sentence": "Wyclif, also spelled Wycliffe, made his name at Oxford.",
+   "file": null,
+   "work": "census lollardy.voices",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wyclif",
+   "field": "longDescription",
+   "sentence": "From about 1360 he argued there against the friars.",
+   "file": "cic/texts/wyclif_tracts-and-treatises_vaughan1845.txt",
+   "lines": "1107",
+   "quote": "In the year 1360 WyclifFe began his disputes with the Mendi",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "john-wyclif",
+   "field": "longDescription",
+   "sentence": "His 1845 editor says Balliol College chose him as its head in the same years.",
+   "file": "cic/texts/wyclif_tracts-and-treatises_vaughan1845.txt",
+   "lines": "1266",
+   "quote": "newly-elected warden of Baliol",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "john-wyclif",
+   "field": "longDescription",
+   "sentence": "In 1374 he went to Bruges as one of the royal envoys, to protest against English church posts going to foreigners named by the pope.",
+   "file": "cic/texts/wyclif_tracts-and-treatises_vaughan1845.txt",
+   "lines": "1913-1914",
+   "quote": "Wycliffe reached that city in August, 1374",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wyclif",
+   "field": "longDescription",
+   "sentence": "In 1374 he went to Bruges as one of the royal envoys, to protest against English church posts going to foreigners named by the pope.",
+   "file": "cic/texts/wyclif_tracts-and-treatises_vaughan1845.txt",
+   "lines": "1902-1903",
+   "quote": "which, by means of this custom of provisors, had passed into the hands of foreigners.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wyclif",
+   "field": "longDescription",
+   "sentence": "The crown then gave him the parish of Lutterworth in Leicestershire.",
+   "file": "cic/texts/wyclif_tracts-and-treatises_vaughan1845.txt",
+   "lines": "2004",
+   "quote": "and the royal patronage was again exercised in favour of",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wyclif",
+   "field": "longDescription",
+   "sentence": "In June 1377 the pope sent letters to England against his opinions.",
+   "file": "cic/texts/wyclif_tracts-and-treatises_vaughan1845.txt",
+   "lines": "2252-2253",
+   "quote": "In the month of June, 1377, several letters were sent to England by the pontiff",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wyclif",
+   "field": "longDescription",
+   "sentence": "In 1382 Archbishop Courtenay called a synod in London to judge them.",
+   "file": "cic/texts/wyclif_tracts-and-treatises_vaughan1845.txt",
+   "lines": "3805-3806",
+   "quote": "Courtney adopted mea- sures to convene a synod",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wyclif",
+   "field": "longDescription",
+   "sentence": "As it met, an earthquake shook the city, and some there took it as a warning from Heaven.",
+   "file": "cic/texts/wyclif_tracts-and-treatises_vaughan1845.txt",
+   "lines": "3822",
+   "quote": "shaken with an earthquake, and the courage of some of the parties",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wyclif",
+   "field": "longDescription",
+   "sentence": "Courtenay read it the other way, and the synod went on.",
+   "file": "cic/texts/wyclif_tracts-and-treatises_vaughan1845.txt",
+   "lines": "3826-3827",
+   "quote": "But the ready genius of Courtney gave a different meaning to the incident",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wyclif",
+   "field": "longDescription",
+   "sentence": "His circle made the English Bible that bears his name.",
+   "file": "cic/texts/wycliffite-bible_forshall-madden1850.txt",
+   "lines": "2408",
+   "quote": "the Old Testament was taken in hand by one of Wycliffe’s coadjutors",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "john-wyclif",
+   "field": "longDescription",
+   "sentence": "Its editors in 1850 thought the New Testament was probably his own work.",
+   "file": "cic/texts/wycliffite-bible_forshall-madden1850.txt",
+   "lines": "2319",
+   "quote": "This translation might probably be the work of Wycliffe himself",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "john-wyclif",
+   "field": "longDescription",
+   "sentence": "They gave much of the Old Testament to his helper Nicholas Hereford.",
+   "file": "cic/texts/wycliffite-bible_forshall-madden1850.txt",
+   "lines": "2412",
+   "quote": "assigning the translation to Nicholas de Hereford",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wyclif",
+   "field": "longDescription",
+   "sentence": "On 29 December 1384, as he gave out the bread at Mass, he was struck by paralysis.",
+   "file": "cic/texts/wyclif_tracts-and-treatises_vaughan1845.txt",
+   "lines": "4761-4763",
+   "quote": "he is said to have been employed in administering the bread of the eucharist, when assailed by his last sickness.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "john-wyclif",
+   "field": "longDescription",
+   "sentence": "On 29 December 1384, as he gave out the bread at Mass, he was struck by paralysis.",
+   "file": "cic/texts/wyclif_tracts-and-treatises_vaughan1845.txt",
+   "lines": "4764-4765",
+   "quote": "This happened on the twenty-ninth of December",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wyclif",
+   "field": "longDescription",
+   "sentence": "He died two days later.",
+   "file": "cic/texts/wyclif_tracts-and-treatises_vaughan1845.txt",
+   "lines": "4765-4766",
+   "quote": "on the thirty-first day of that month, his devout spirit passed to the world of rest.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wyclif",
+   "field": "legacy",
+   "sentence": "In Prague, Jan Hus took paragraph after paragraph from Wyclif's book on the Church.",
+   "file": "cic/texts/hus_de-ecclesia-the-church_schaff1915.txt",
+   "lines": "1514-1515",
+   "quote": "Huss appropriated paragraph after paragraph from his predecessor",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "john-wyclif",
+   "field": "legacy",
+   "sentence": "In 1415 the Council of Constance condemned Wyclif's errors, more than thirty years after his death.",
+   "file": "cic/texts/council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt",
+   "lines": "2570-2571",
+   "quote": "sedit concilium super erroribus magistri Johannis Wiclef, Anglici defuncti",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wyclif",
+   "field": "legacy",
+   "sentence": "In England his teaching grew into Lollardy, whose story is told in its own entry.",
+   "file": null,
+   "work": "census lollardy.longDescription",
+   "grade": "Documented"
+  },
+  {
+   "entry": "martin-luther",
+   "field": "sourcing",
+   "sentence": "Very rich. The Library holds forty-seven of his own works on the Wittenberg shelf.",
+   "file": null,
+   "work": "cic/corpus-map/lutheran-wittenberg-and-its-congregations.yaml, rows with author luther and role tradition (47 distinct works, counted 2026-11-10)",
+   "locus": "",
+   "grade": "Documented"
+  },
+  {
+   "entry": "martin-luther",
+   "field": "sourcing",
+   "sentence": "They include his treatises, catechisms and letters, and his Table Talk.",
+   "file": "cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt",
+   "lines": "990",
+   "quote": "LETTER TO THE ARCHBISHOP ALBRECHT OF MAINZ",
+   "grade": "Documented"
+  },
+  {
+   "entry": "martin-luther",
+   "field": "sourcing",
+   "sentence": "They include his treatises, catechisms and letters, and his Table Talk.",
+   "file": "cic/texts/luther_table-talk_bell1886.txt",
+   "lines": "95",
+   "quote": "Luther’s Table-Talk",
+   "grade": "Documented"
+  },
+  {
+   "entry": "martin-luther",
+   "field": "relationsSummary",
+   "sentence": "Luther is told within Lutheran Wittenberg and its congregations. That tradition grew from his protest of 1517.",
+   "file": null,
+   "work": "census lutheran-wittenberg-and-its-congregations.longDescription",
+   "grade": "Documented"
+  },
+  {
+   "entry": "martin-luther",
+   "field": "why",
+   "sentence": "Martin Luther was a miner's son from Eisleben, and a friar who taught at Wittenberg.",
+   "file": "cic/texts/luther_table-talk_bell1886.txt",
+   "lines": "96-97",
+   "quote": "Luther was born at Eisleben in 1483, and his father, a poor miner",
+   "grade": "Documented"
+  },
+  {
+   "entry": "martin-luther",
+   "field": "why",
+   "sentence": "Martin Luther was a miner's son from Eisleben, and a friar who taught at Wittenberg.",
+   "file": "cic/texts/luther_first-principles-reformation_wace-buchheim1885.txt",
+   "lines": "2459",
+   "quote": "the meek Augustinian monk",
+   "grade": "Documented"
+  },
+  {
+   "entry": "martin-luther",
+   "field": "why",
+   "sentence": "Before the emperor he would not take back his books, and he put the Bible into German.",
+   "file": "cic/texts/luther_first-principles-reformation_wace-buchheim1885.txt",
+   "lines": "2462-2463",
+   "quote": "Luther's public refusal to recant unless convinced of his error through the Scriptures",
+   "grade": "Documented"
+  },
+  {
+   "entry": "martin-luther",
+   "field": "why",
+   "sentence": "Before the emperor he would not take back his books, and he put the Bible into German.",
+   "file": "cic/texts/luther_first-principles-reformation_wace-buchheim1885.txt",
+   "lines": "2600",
+   "quote": "the translation of the Bible from the original text",
+   "grade": "Documented"
+  },
+  {
+   "entry": "martin-luther",
+   "field": "teaser",
+   "sentence": "Wittenberg, 1517 to 1546. A friar and teacher whose letter against the sale of indulgences began a movement that still bears his name.",
+   "file": "cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt",
+   "lines": "990",
+   "quote": "LETTER TO THE ARCHBISHOP ALBRECHT OF MAINZ",
+   "grade": "Documented"
+  },
+  {
+   "entry": "martin-luther",
+   "field": "teaser",
+   "sentence": "Wittenberg, 1517 to 1546. A friar and teacher whose letter against the sale of indulgences began a movement that still bears his name.",
+   "file": null,
+   "work": "census lutheran-wittenberg-and-its-congregations.legacy",
+   "grade": "Documented"
+  },
+  {
+   "entry": "martin-luther",
+   "field": "longDescription",
+   "sentence": "Luther was born at Eisleben in 1483. His father was a poor miner.",
+   "file": "cic/texts/luther_table-talk_bell1886.txt",
+   "lines": "96-97",
+   "quote": "Luther was born at Eisleben in 1483, and his father, a poor miner",
+   "grade": "Documented"
+  },
+  {
+   "entry": "martin-luther",
+   "field": "longDescription",
+   "sentence": "He became an Augustinian friar and taught theology at Wittenberg.",
+   "file": "cic/texts/luther_first-principles-reformation_wace-buchheim1885.txt",
+   "lines": "2459",
+   "quote": "the meek Augustinian monk",
+   "grade": "Documented"
+  },
+  {
+   "entry": "martin-luther",
+   "field": "longDescription",
+   "sentence": "He became an Augustinian friar and taught theology at Wittenberg.",
+   "file": null,
+   "work": "census lutheran-wittenberg-and-its-congregations.longDescription",
+   "grade": "Documented"
+  },
+  {
+   "entry": "martin-luther",
+   "field": "longDescription",
+   "sentence": "On 31 October 1517 he wrote to the archbishop of Mainz about the indulgences sold under the archbishop's name.",
+   "file": "cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt",
+   "lines": "990",
+   "quote": "LETTER TO THE ARCHBISHOP ALBRECHT OF MAINZ",
+   "grade": "Documented"
+  },
+  {
+   "entry": "martin-luther",
+   "field": "longDescription",
+   "sentence": "On 31 October 1517 he wrote to the archbishop of Mainz about the indulgences sold under the archbishop's name.",
+   "file": "cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt",
+   "lines": "1014-1015",
+   "quote": "Papal indulgences for the building of St. Peter's are circulating under your most distinguished name,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "martin-luther",
+   "field": "longDescription",
+   "sentence": "His theses of the same day said the indulgence preachers were in error.",
+   "file": "cic/texts/luther_works-v1-selected_jacobs-spaeth1915.txt",
+   "lines": "1230",
+   "quote": "Therefore those preachers of indulgences are in error",
+   "grade": "Documented"
+  },
+  {
+   "entry": "martin-luther",
+   "field": "longDescription",
+   "sentence": "A later story says he also nailed the theses to the castle church door.",
+   "file": "cic/texts/luther_table-talk_bell1886.txt",
+   "lines": "101-103",
+   "quote": "he had nailed his ninety-five propositions against indulgences to the church door at the castle",
+   "grade": "Contested"
+  },
+  {
+   "entry": "martin-luther",
+   "field": "longDescription",
+   "sentence": "It comes from an account written after his death, and historians still disagree about it.",
+   "file": null,
+   "work": "census lutheran-wittenberg-and-its-congregations.longDescription",
+   "grade": "Contested"
+  },
+  {
+   "entry": "martin-luther",
+   "field": "longDescription",
+   "sentence": "In June 1520 a papal bull condemned his teaching.",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "15391",
+   "quote": "Die Bannandrohung gegen Luther (1520).",
+   "grade": "Documented"
+  },
+  {
+   "entry": "martin-luther",
+   "field": "longDescription",
+   "sentence": "In April 1521 he stood before the emperor Charles V at the Diet of Worms.",
+   "file": "cic/texts/luther_first-principles-reformation_wace-buchheim1885.txt",
+   "lines": "2464-2465",
+   "quote": "on the evening of the 18th of April",
+   "grade": "Documented"
+  },
+  {
+   "entry": "martin-luther",
+   "field": "longDescription",
+   "sentence": "He refused to take anything back unless Scripture showed him he was wrong.",
+   "file": "cic/texts/luther_first-principles-reformation_wace-buchheim1885.txt",
+   "lines": "2462-2463",
+   "quote": "Luther's public refusal to recant unless convinced of his error through the Scriptures",
+   "grade": "Documented"
+  },
+  {
+   "entry": "martin-luther",
+   "field": "longDescription",
+   "sentence": "Then he was hidden at the Wartburg castle.",
+   "file": "cic/texts/luther_first-principles-reformation_wace-buchheim1885.txt",
+   "lines": "2564",
+   "quote": "hide himself at the Wartburg",
+   "grade": "Documented"
+  },
+  {
+   "entry": "martin-luther",
+   "field": "longDescription",
+   "sentence": "There he began what an 1885 historian called the great work of his life, a German Bible from the original text.",
+   "file": "cic/texts/luther_first-principles-reformation_wace-buchheim1885.txt",
+   "lines": "2599-2600",
+   "quote": "the great work of his life, the translation of the Bible from the original text",
+   "grade": "Documented"
+  },
+  {
+   "entry": "martin-luther",
+   "field": "longDescription",
+   "sentence": "He went on writing for twenty-five years more: sermons, hymns, letters, and in 1529 a Small and a Large Catechism.",
+   "file": "cic/texts/book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt",
+   "lines": "2",
+   "quote": "the Small and Large Catechisms, Martin Luther, 1529",
+   "grade": "Documented"
+  },
+  {
+   "entry": "martin-luther",
+   "field": "longDescription",
+   "sentence": "He went on writing for twenty-five years more: sermons, hymns, letters, and in 1529 a Small and a Large Catechism.",
+   "file": "cic/texts/luther_hymns_bacon-allen.txt",
+   "lines": "3",
+   "quote": "Luther",
+   "grade": "Documented"
+  },
+  {
+   "entry": "martin-luther",
+   "field": "longDescription",
+   "sentence": "He died on 18 February 1546.",
+   "file": "cic/texts/luther_first-principles-reformation_wace-buchheim1885.txt",
+   "lines": "3599",
+   "quote": "had died on the 18th of February, 1546",
+   "grade": "Documented"
+  },
+  {
+   "entry": "martin-luther",
+   "field": "legacy",
+   "sentence": "The Lutheran churches grew from his work, and their story is told in the Wittenberg entry and those after it.",
+   "file": null,
+   "work": "census lutheran-wittenberg-and-its-congregations.legacy",
+   "grade": "Documented"
+  },
+  {
+   "entry": "martin-luther",
+   "field": "legacy",
+   "sentence": "His Small Catechism is still learned by heart at home.",
+   "file": null,
+   "work": "census lutheran-wittenberg-and-its-congregations.legacy",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "martin-luther",
+   "field": "legacy",
+   "sentence": "His hymn tunes began a line of church music that runs to Bach.",
+   "file": null,
+   "work": "census lutheran-wittenberg-and-its-congregations.legacy",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "john-calvin",
+   "field": "sourcing",
+   "sentence": "Rich. The Library holds twelve of his own works on the shelf of the Reformed cities.",
+   "file": null,
+   "work": "cic/corpus-map/the-reformed-cities-zurich-and-geneva.yaml, rows with author calvin and role tradition (12 distinct works, counted 2026-11-10)",
+   "locus": "",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-calvin",
+   "field": "sourcing",
+   "sentence": "They include the Institutes, his two books on Genesis, the Geneva catechism and three volumes of his letters.",
+   "file": "cic/texts/calvin_institutes-christian-religion-vol1_beveridge1845.txt",
+   "lines": "211",
+   "quote": "printed at Basle in 1536",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-calvin",
+   "field": "sourcing",
+   "sentence": "They include the Institutes, his two books on Genesis, the Geneva catechism and three volumes of his letters.",
+   "file": "cic/texts/calvin_geneva-catechism_waterman1815.txt",
+   "lines": "3",
+   "quote": "Catechism",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-calvin",
+   "field": "relationsSummary",
+   "sentence": "Calvin is told within the Reformed cities of Zurich and Geneva.",
+   "file": null,
+   "work": "census the-reformed-cities-zurich-and-geneva.voices",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-calvin",
+   "field": "relationsSummary",
+   "sentence": "He did not found that tradition, which began under Zwingli at Zurich in 1519.",
+   "file": null,
+   "work": "census the-reformed-cities-zurich-and-geneva.longDescription",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-calvin",
+   "field": "why",
+   "sentence": "John Calvin came to Geneva in 1536. Zwingli had begun Zurich's reform seventeen years before, and the two men never met.",
+   "file": null,
+   "work": "census the-reformed-cities-zurich-and-geneva.entry.tile",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-calvin",
+   "field": "why",
+   "sentence": "He was a French exile, the author of the Institutes, and a pastor whose letters survive.",
+   "file": "cic/texts/calvin_commentaries-genesis-vol1_king1847.txt",
+   "lines": "1328-1329",
+   "quote": "Having left his own country on account of persecutions",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-calvin",
+   "field": "why",
+   "sentence": "He was a French exile, the author of the Institutes, and a pastor whose letters survive.",
+   "file": "cic/texts/calvin_institutes-christian-religion-vol1_beveridge1845.txt",
+   "lines": "211",
+   "quote": "printed at Basle in 1536",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-calvin",
+   "field": "why",
+   "sentence": "He was a French exile, the author of the Institutes, and a pastor whose letters survive.",
+   "file": "cic/texts/calvin_letters-vol1_bonnet1858.txt",
+   "lines": "1",
+   "quote": "Letters",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-calvin",
+   "field": "teaser",
+   "sentence": "Basel, Strasbourg and Geneva, 1536 to 1564. A French exile who hoped to live quietly as a scholar, and was held in Geneva to build its church.",
+   "file": "cic/texts/calvin_institutes-christian-religion-vol1_beveridge1845.txt",
+   "lines": "245",
+   "quote": "While I was living at Basle, retired and unknown",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-calvin",
+   "field": "teaser",
+   "sentence": "Basel, Strasbourg and Geneva, 1536 to 1564. A French exile who hoped to live quietly as a scholar, and was held in Geneva to build its church.",
+   "file": "cic/texts/calvin_institutes-christian-religion-vol1_beveridge1845.txt",
+   "lines": "1664-1665",
+   "quote": "was detained by Farel, and appointed one of its ministers",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-calvin",
+   "field": "longDescription",
+   "sentence": "Calvin was born at Noyon in France in 1509.",
+   "file": "cic/texts/calvin_commentaries-genesis-vol1_king1847.txt",
+   "lines": "1325",
+   "quote": "Born at Noyon in the year 1509",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-calvin",
+   "field": "longDescription",
+   "sentence": "He studied law and theology at Paris, Orleans and Bourges.",
+   "file": "cic/texts/calvin_commentaries-genesis-vol1_king1847.txt",
+   "lines": "1326-1328",
+   "quote": "he pursued the studies of Law and of Theology in the Universities of Paris, Orleans, and Bourges.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-calvin",
+   "field": "longDescription",
+   "sentence": "Persecution drove him out of France, and he went to the Swiss lands.",
+   "file": "cic/texts/calvin_commentaries-genesis-vol1_king1847.txt",
+   "lines": "1328-1329",
+   "quote": "Having left his own country on account of persecutions, he went into Switzerland.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-calvin",
+   "field": "longDescription",
+   "sentence": "At Basel, as he later wrote, he was living 'retired and unknown'.",
+   "file": "cic/texts/calvin_institutes-christian-religion-vol1_beveridge1845.txt",
+   "lines": "245",
+   "quote": "While I was living at Basle, retired and unknown",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-calvin",
+   "field": "longDescription",
+   "sentence": "There in 1536 he published the first known edition of the Institutes of the Christian Religion.",
+   "file": "cic/texts/calvin_institutes-christian-religion-vol1_beveridge1845.txt",
+   "lines": "210-211",
+   "quote": "It is admitted on all hands, that the earliest edition extant is that which was printed at Basle in 1536",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-calvin",
+   "field": "longDescription",
+   "sentence": "Soon after, passing through Geneva, he was held there by William Farel and made one of its ministers.",
+   "file": "cic/texts/calvin_institutes-christian-religion-vol1_beveridge1845.txt",
+   "lines": "1664-1665",
+   "quote": "was detained by Farel, and appointed one of its ministers",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-calvin",
+   "field": "longDescription",
+   "sentence": "His first years in Geneva ended in exile.",
+   "file": "cic/texts/calvin_institutes-christian-religion-vol1_beveridge1845.txt",
+   "lines": "1669",
+   "quote": "having driven him again into exile",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-calvin",
+   "field": "longDescription",
+   "sentence": "He went to Strasbourg, where the second edition of the Institutes came out in 1539.",
+   "file": "cic/texts/calvin_institutes-christian-religion-vol1_beveridge1845.txt",
+   "lines": "1670-1671",
+   "quote": "he returned to Strasburg, where the Second Edition was at length completed, and published in 1539.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-calvin",
+   "field": "longDescription",
+   "sentence": "In 1541 Geneva called him back, and his letters of that year show how much he dreaded the return.",
+   "file": "cic/texts/calvin_letters-vol1_bonnet1858.txt",
+   "lines": "962",
+   "quote": "which Calvin feels in prospect of his returning to Geneva",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-calvin",
+   "field": "longDescription",
+   "sentence": "The church order he then gave the city is told in the Reformed cities' entry.",
+   "file": null,
+   "work": "census the-reformed-cities-zurich-and-geneva.longDescription",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-calvin",
+   "field": "longDescription",
+   "sentence": "His own work went on in commentaries, letters and new editions of the Institutes.",
+   "file": "cic/texts/calvin_institutes-christian-religion-vol1_beveridge1845.txt",
+   "lines": "490",
+   "quote": "the Second Edition",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-calvin",
+   "field": "longDescription",
+   "sentence": "He hoped Michael Servetus would be sentenced to death, though he asked that the punishment be made less severe.",
+   "file": "cic/texts/calvin_letters-vol2_bonnet1858.txt",
+   "lines": "19433-19434",
+   "quote": "I hope that sentence of death will at least be passed upon him",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-calvin",
+   "field": "longDescription",
+   "sentence": "He hoped Michael Servetus would be sentenced to death, though he asked that the punishment be made less severe.",
+   "file": "cic/texts/calvin_letters-vol2_bonnet1858.txt",
+   "lines": "19434-19435",
+   "quote": "but I desire that the severity of the punishment may be mitigated.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-calvin",
+   "field": "longDescription",
+   "sentence": "In 1553 Geneva burned him.",
+   "file": "cic/texts/calvin_opera-omnia-vol8-lat-fra_baum-cunitz1870.txt",
+   "lines": "54713",
+   "quote": "Vendredy 27 iour doctobre",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-calvin",
+   "field": "longDescription",
+   "sentence": "He died on 27 May 1564.",
+   "file": "cic/texts/calvin_commentaries-genesis-vol1_king1847.txt",
+   "lines": "1333-1334",
+   "quote": "He died in the year 1564, on the 27th May.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-calvin",
+   "field": "legacy",
+   "sentence": "The Reformed churches that grew from Zurich and Geneva are told in their own entries.",
+   "file": null,
+   "work": "census the-reformed-cities-zurich-and-geneva.legacy",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-calvin",
+   "field": "legacy",
+   "sentence": "In 1672 a synod of the Greek church met at Jerusalem 'against the Calvinists'.",
+   "file": "cic/texts/dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt",
+   "lines": "332-334",
+   "quote": "THE SYNOD OF JERUSALEM AGAINST THE CALVINISTS",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-calvin",
+   "field": "legacy",
+   "sentence": "A Dutch teacher at Utrecht, asked if his church held Calvin's views, said yes, but Calvin was not its head.",
+   "file": "cic/texts/voetius_catechisatie-heidelbergschen-catechismus-v1-nld_kuyper1891.txt",
+   "lines": "20625",
+   "quote": "maer daerom en is hy ons hooft niet.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ignatius-of-loyola",
+   "field": "sourcing",
+   "sentence": "Rich. The Library holds ten of his own works on the Jesuit shelf.",
+   "file": null,
+   "work": "cic/corpus-map/the-society-of-jesus.yaml, rows with author ignatius-loyola and role tradition (10 distinct works, counted 2026-11-10)",
+   "locus": "",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ignatius-of-loyola",
+   "field": "sourcing",
+   "sentence": "They include the life he dictated, the Spiritual Exercises and his letters.",
+   "file": "cic/texts/ignatius-loyola_autobiography_oconor1900.txt",
+   "lines": "140",
+   "quote": "This account of the life of St. Ignatius, dictated by himself",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ignatius-of-loyola",
+   "field": "sourcing",
+   "sentence": "They include the life he dictated, the Spiritual Exercises and his letters.",
+   "file": "cic/texts/ignatius-loyola_spiritual-exercises_mullan1914.txt",
+   "lines": "1",
+   "quote": "Spiritual Exercises",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ignatius-of-loyola",
+   "field": "relationsSummary",
+   "sentence": "Ignatius is told within the Society of Jesus, the order that grew from him and his companions.",
+   "file": null,
+   "work": "census the-society-of-jesus.voices",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ignatius-of-loyola",
+   "field": "why",
+   "sentence": "Ignatius was a soldier, a beggar, a pilgrim and a student before he founded anything.",
+   "file": "cic/texts/ignatius-loyola_autobiography_oconor1900.txt",
+   "lines": "2180",
+   "quote": "Captain of Infantry, was wounded by a cannon ball",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ignatius-of-loyola",
+   "field": "why",
+   "sentence": "Ignatius was a soldier, a beggar, a pilgrim and a student before he founded anything.",
+   "file": "cic/texts/ignatius-loyola_autobiography_oconor1900.txt",
+   "lines": "640",
+   "quote": "At Manresa he lived on the alms that he daily begged.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ignatius-of-loyola",
+   "field": "why",
+   "sentence": "He told his own story late, dictating it to a younger Jesuit between 1553 and 1555.",
+   "file": "cic/texts/ignatius-loyola_autobiography_oconor1900.txt",
+   "lines": "140",
+   "quote": "This account of the life of St. Ignatius, dictated by himself",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ignatius-of-loyola",
+   "field": "teaser",
+   "sentence": "Pamplona to Rome, 1521 to 1556. A wounded soldier who read the lives of the saints on his sickbed, begged his way to Jerusalem, and ended in Rome at the head of a new order.",
+   "file": "cic/texts/ignatius-loyola_autobiography_oconor1900.txt",
+   "lines": "2186-2187",
+   "quote": "he read the lives of the saints and of Christ",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ignatius-of-loyola",
+   "field": "teaser",
+   "sentence": "Pamplona to Rome, 1521 to 1556. A wounded soldier who read the lives of the saints on his sickbed, begged his way to Jerusalem, and ended in Rome at the head of a new order.",
+   "file": "cic/texts/ignatius-loyola_autobiography_oconor1900.txt",
+   "lines": "640",
+   "quote": "At Manresa he lived on the alms that he daily begged.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ignatius-of-loyola",
+   "field": "teaser",
+   "sentence": "Pamplona to Rome, 1521 to 1556. A wounded soldier who read the lives of the saints on his sickbed, begged his way to Jerusalem, and ended in Rome at the head of a new order.",
+   "file": "cic/texts/society-of-jesus_institutum-societatis-iesu-v1-lat_1892.txt",
+   "lines": "1554",
+   "quote": "Regimini militantis, 27 Sept. 1540.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ignatius-of-loyola",
+   "field": "longDescription",
+   "sentence": "Ignatius was born in 1491 at the castle of Loyola, and grew up a page and then a soldier.",
+   "file": "cic/texts/ignatius-loyola_autobiography_oconor1900.txt",
+   "lines": "2176-2178",
+   "quote": "Ignatius was born, in 1491, at the chateau of Loyola, and at fifteen years of age he was a page in the court of King Ferdinand, and then a soldier",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ignatius-of-loyola",
+   "field": "longDescription",
+   "sentence": "At the siege of Pamplona a cannon ball broke one of his legs.",
+   "file": "cic/texts/ignatius-loyola_autobiography_oconor1900.txt",
+   "lines": "371",
+   "quote": "until a cannon ball of the enemy broke one of his legs",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ignatius-of-loyola",
+   "field": "longDescription",
+   "sentence": "In his slow recovery he read the lives of Christ and the saints, because the house had no other books.",
+   "file": "cic/texts/ignatius-loyola_autobiography_oconor1900.txt",
+   "lines": "2186-2188",
+   "quote": "he read the lives of the saints and of Christ, as these were the books given to him in place of the novels he had asked for, as no others were in the house.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ignatius-of-loyola",
+   "field": "longDescription",
+   "sentence": "At Manresa he lived on the alms he begged each day.",
+   "file": "cic/texts/ignatius-loyola_autobiography_oconor1900.txt",
+   "lines": "640",
+   "quote": "At Manresa he lived on the alms that he daily begged.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ignatius-of-loyola",
+   "field": "longDescription",
+   "sentence": "He reached Jerusalem, but he could not stay there.",
+   "file": "cic/texts/ignatius-loyola_autobiography_oconor1900.txt",
+   "lines": "1190-1191",
+   "quote": "When Ignatius understood that God did not wish him to remain at Jerusalem",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ignatius-of-loyola",
+   "field": "longDescription",
+   "sentence": "So he went back to school, to be better fitted to help souls.",
+   "file": "cic/texts/ignatius-loyola_autobiography_oconor1900.txt",
+   "lines": "1192-1193",
+   "quote": "enter upon a course of study in order to be better fitted to save souls.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ignatius-of-loyola",
+   "field": "longDescription",
+   "sentence": "At Paris he took his master's degree in March 1534.",
+   "file": "cic/texts/ignatius-loyola_autobiography_oconor1900.txt",
+   "lines": "2222-2223",
+   "quote": "At the University of Paris, in 1534, on the 14th of March, St. Ignatius received the degree of Master of Arts",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ignatius-of-loyola",
+   "field": "longDescription",
+   "sentence": "Francis Xavier and Peter Faber were his fellow students there.",
+   "file": "cic/texts/ignatius-loyola_autobiography_oconor1900.txt",
+   "lines": "2225-2226",
+   "quote": "St. Ignatius, St. Francis Xavier, Peter Faber",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ignatius-of-loyola",
+   "field": "longDescription",
+   "sentence": "He and his companions meant to spend their lives in Jerusalem.",
+   "file": "cic/texts/ignatius-loyola_autobiography_oconor1900.txt",
+   "lines": "1884-1885",
+   "quote": "then to Jerusalem, where they would pass their whole life in helping souls.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ignatius-of-loyola",
+   "field": "longDescription",
+   "sentence": "If they could not, they would offer themselves to the pope.",
+   "file": "cic/texts/ignatius-loyola_autobiography_oconor1900.txt",
+   "lines": "1886-1887",
+   "quote": "they were to return to Rome and offer themselves to the Sovereign Pontiff",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ignatius-of-loyola",
+   "field": "longDescription",
+   "sentence": "No ship could take them, so they went to Rome.",
+   "file": "cic/texts/ignatius-loyola_autobiography_oconor1900.txt",
+   "lines": "2075-2076",
+   "quote": "as no means could be had of journeying to Jerusalem, they set out on their way to Rome",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ignatius-of-loyola",
+   "field": "longDescription",
+   "sentence": "In 1540 Pope Paul III approved their Society.",
+   "file": "cic/texts/society-of-jesus_institutum-societatis-iesu-v1-lat_1892.txt",
+   "lines": "1554",
+   "quote": "Regimini militantis, 27 Sept. 1540.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ignatius-of-loyola",
+   "field": "longDescription",
+   "sentence": "From Rome Ignatius sent out letters and instructions, among them orders for his men at the Council of Trent in 1546.",
+   "file": "cic/texts/ignatius-loyola_letters-instructions-v1_oleary-goodier1914.txt",
+   "lines": "3957",
+   "quote": "Instructions for the Journey to Trent.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ignatius-of-loyola",
+   "field": "longDescription",
+   "sentence": "He died on 31 July 1556.",
+   "file": "cic/texts/ignatius-loyola_autobiography_oconor1900.txt",
+   "lines": "2530",
+   "quote": "St. Ignatius died July 31, 1556.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ignatius-of-loyola",
+   "field": "legacy",
+   "sentence": "The Society of Jesus is his lasting work, and its story is told in its own entry.",
+   "file": null,
+   "work": "census the-society-of-jesus.legacy",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ignatius-of-loyola",
+   "field": "legacy",
+   "sentence": "His Spiritual Exercises shaped everyone the order trained.",
+   "file": null,
+   "work": "census the-society-of-jesus.longDescription",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "ignatius-of-loyola",
+   "field": "legacy",
+   "sentence": "His dictated life is still the main record of how he changed.",
+   "file": "cic/texts/ignatius-loyola_autobiography_oconor1900.txt",
+   "lines": "141",
+   "quote": "considered by the Bollandists the most valuable record of the great",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "sourcing",
+   "sentence": "Rich. The Library holds sixteen of his own works on the Methodist shelf.",
+   "file": null,
+   "work": "cic/corpus-map/the-methodist-revival.yaml, rows with author wesley-j or wesley-john and role tradition (16 distinct works, counted 2026-11-10)",
+   "locus": "",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "sourcing",
+   "sentence": "They include his journal in eight volumes, his sermons and his tracts.",
+   "file": "cic/texts/wesley-j_journal-v8_curnock1909.txt",
+   "lines": "2",
+   "quote": "John Wesley (1703-1791); edited by Nehemiah Curnock",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "sourcing",
+   "sentence": "They include his journal in eight volumes, his sermons and his tracts.",
+   "file": "cic/texts/wesley-j_sermons-v1_1771.txt",
+   "lines": "1",
+   "quote": "Sermons",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "relationsSummary",
+   "sentence": "Wesley is told within the Methodist revival, which grew from his preaching and his societies.",
+   "file": null,
+   "work": "census the-methodist-revival.voices",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "why",
+   "sentence": "John Wesley kept a journal for fifty-five years, from his voyage to Georgia in 1735 until October 1790.",
+   "file": "cic/texts/wesley-j_journal-v1_curnock1909.txt",
+   "lines": "5029",
+   "quote": "took boat 1 for Gravesend, in order to embark for",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "why",
+   "sentence": "John Wesley kept a journal for fifty-five years, from his voyage to Georgia in 1735 until October 1790.",
+   "file": "cic/texts/wesley-j_journal-v8_curnock1909.txt",
+   "lines": "8358-8359",
+   "quote": "Wesley himself broke off suddenly, on October 24, 1790",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "why",
+   "sentence": "It shows a priest who preached in the open air and looked on all the world as his parish.",
+   "file": "cic/texts/wesley-j_journal-v2_curnock1909.txt",
+   "lines": "10851",
+   "quote": "proclaimed in the highways the glad tidings of",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "why",
+   "sentence": "It shows a priest who preached in the open air and looked on all the world as his parish.",
+   "file": "cic/texts/wesley-j_journal-v2_curnock1909.txt",
+   "lines": "13807-13808",
+   "quote": "I look upon all the world as my parish",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "teaser",
+   "sentence": "England and Georgia, 1735 to 1791. An Oxford priest whose heart was 'strangely warmed', who took the gospel into the fields and called the world his parish.",
+   "file": "cic/texts/wesley-j_journal-v1_curnock1909.txt",
+   "lines": "27071",
+   "quote": "I felt my heart strangely warmed.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "teaser",
+   "sentence": "England and Georgia, 1735 to 1791. An Oxford priest whose heart was 'strangely warmed', who took the gospel into the fields and called the world his parish.",
+   "file": "cic/texts/wesley-j_journal-v2_curnock1909.txt",
+   "lines": "10851",
+   "quote": "proclaimed in the highways the glad tidings of",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "teaser",
+   "sentence": "England and Georgia, 1735 to 1791. An Oxford priest whose heart was 'strangely warmed', who took the gospel into the fields and called the world his parish.",
+   "file": "cic/texts/wesley-j_journal-v2_curnock1909.txt",
+   "lines": "13807-13808",
+   "quote": "I look upon all the world as my parish",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "longDescription",
+   "sentence": "John Wesley was a priest of the Church of England, trained at Oxford.",
+   "file": null,
+   "work": "census the-methodist-revival.longDescription",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "longDescription",
+   "sentence": "In 1735 he sailed for the colony of Georgia.",
+   "file": "cic/texts/wesley-j_journal-v1_curnock1909.txt",
+   "lines": "5029",
+   "quote": "took boat 1 for Gravesend, in order to embark for",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "longDescription",
+   "sentence": "He wrote that he went not to escape want, nor to gain riches or honour, but to save his soul.",
+   "file": "cic/texts/wesley-j_journal-v1_curnock1909.txt",
+   "lines": "5030-5031",
+   "quote": "Our end in leaving our native country was not to avoid want",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "longDescription",
+   "sentence": "He wrote that he went not to escape want, nor to gain riches or honour, but to save his soul.",
+   "file": "cic/texts/wesley-j_journal-v1_curnock1909.txt",
+   "lines": "5034",
+   "quote": "singly this — to save our souls",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "longDescription",
+   "sentence": "The mission did not go well, as the revival's entry tells.",
+   "file": null,
+   "work": "census the-methodist-revival.longDescription",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "longDescription",
+   "sentence": "Back in London, in March 1738, the Moravian Peter Böhler convinced him that he lacked saving faith.",
+   "file": "cic/texts/wesley-j_journal-v1_curnock1909.txt",
+   "lines": "16216-16218",
+   "quote": "clearly convinced of unbelief, of the want of that faith whereby alone we are saved.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "longDescription",
+   "sentence": "On 24 May he went, unwillingly, to a meeting in Aldersgate Street, where someone was reading Luther's preface to Romans.",
+   "file": "cic/texts/wesley-j_journal-v1_curnock1909.txt",
+   "lines": "26957",
+   "quote": "In the evening I went very unwillingly to a society in",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "longDescription",
+   "sentence": "On 24 May he went, unwillingly, to a meeting in Aldersgate Street, where someone was reading Luther's preface to Romans.",
+   "file": "cic/texts/wesley-j_journal-v1_curnock1909.txt",
+   "lines": "26958",
+   "quote": "where one was reading Luther's preface to",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "longDescription",
+   "sentence": "On 24 May he went, unwillingly, to a meeting in Aldersgate Street, where someone was reading Luther's preface to Romans.",
+   "file": "cic/texts/wesley-j_journal-v1_curnock1909.txt",
+   "lines": "27037",
+   "quote": "Luther's Preface ' on May 24.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "longDescription",
+   "sentence": "There, he wrote, 'I felt my heart strangely warmed.'",
+   "file": "cic/texts/wesley-j_journal-v1_curnock1909.txt",
+   "lines": "27071",
+   "quote": "I felt my heart strangely warmed.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "longDescription",
+   "sentence": "He now trusted in Christ alone for his salvation.",
+   "file": "cic/texts/wesley-j_journal-v1_curnock1909.txt",
+   "lines": "27071-27072",
+   "quote": "I felt I did trust in Christ, Christ alone for salvation",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "longDescription",
+   "sentence": "Many pulpits were closed to him.",
+   "file": null,
+   "work": "census the-methodist-revival.longDescription",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "longDescription",
+   "sentence": "On 2 April 1739, at Bristol, he 'submitted to be more vile' and preached in the open air.",
+   "file": "cic/texts/wesley-j_journal-v2_curnock1909.txt",
+   "lines": "10850",
+   "quote": "Mon. 2. — At four in the afternoon I submitted to be more",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "longDescription",
+   "sentence": "On 2 April 1739, at Bristol, he 'submitted to be more vile' and preached in the open air.",
+   "file": "cic/texts/wesley-j_journal-v2_curnock1909.txt",
+   "lines": "10851",
+   "quote": "proclaimed in the highways the glad tidings of",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "longDescription",
+   "sentence": "On 2 April 1739, at Bristol, he 'submitted to be more vile' and preached in the open air.",
+   "file": "cic/texts/wesley-j_journal-v2_curnock1909.txt",
+   "lines": "10834",
+   "quote": "Bristol precisely as he opened his pastoral",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "longDescription",
+   "sentence": "Told that he had no right to preach in other men's parishes, he answered that he had none of his own.",
+   "file": "cic/texts/wesley-j_journal-v2_curnock1909.txt",
+   "lines": "13791-13792",
+   "quote": "seeing I have now no parish of my own, nor probably ever shall.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "longDescription",
+   "sentence": "'I look upon all the world as my parish,' he wrote.",
+   "file": "cic/texts/wesley-j_journal-v2_curnock1909.txt",
+   "lines": "13807-13808",
+   "quote": "I look upon all the world as my parish",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "longDescription",
+   "sentence": "He gathered his hearers into societies, and the revival's entry tells what they became.",
+   "file": null,
+   "work": "census the-methodist-revival.longDescription",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "longDescription",
+   "sentence": "In 1741 he read Luther's book on Galatians and called it shallow and confused.",
+   "file": "cic/texts/wesley-j_journal-v2_curnock1909.txt",
+   "lines": "28337-28338",
+   "quote": "that he is quite shallow in his remarks on many passages, and muddy and confused almost",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "longDescription",
+   "sentence": "He kept his journal until October 1790, and died in 1791.",
+   "file": "cic/texts/wesley-j_journal-v8_curnock1909.txt",
+   "lines": "8358-8359",
+   "quote": "Wesley himself broke off suddenly, on October 24, 1790",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "longDescription",
+   "sentence": "He kept his journal until October 1790, and died in 1791.",
+   "file": "cic/texts/wesley-j_journal-v8_curnock1909.txt",
+   "lines": "2",
+   "quote": "John Wesley (1703-1791)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "legacy",
+   "sentence": "The Methodist churches grew from the societies he gathered, and their story runs on from the Methodist revival's entry.",
+   "file": null,
+   "work": "census the-methodist-revival.legacy",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "legacy",
+   "sentence": "His journal records the revival from inside, day by day, for more than fifty years.",
+   "file": "cic/texts/wesley-j_journal-v8_curnock1909.txt",
+   "lines": "8358-8359",
+   "quote": "Wesley himself broke off suddenly, on October 24, 1790",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "legacy",
+   "sentence": "He told his preachers to urge all believers to 'go on to perfection'.",
+   "file": "cic/texts/wesley-j_large-minutes_1850.txt",
+   "lines": "1106-1107",
+   "quote": "Strongly and explicitly exhort all believers to go on to perfection.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-wesley",
+   "field": "legacy",
+   "sentence": "Holiness writers of the 1800s took up that teaching and called it his.",
+   "file": null,
+   "work": "census the-methodist-revival--the-holiness-movement.note (link)",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "devotio-moderna-brethren-of-the-common-life",
+   "field": "longDescription",
+   "sentence": "Its houses kept their own chronicles.",
+   "file": "cic/texts/busch_chronicon-windeshemense-lat_grube1886.txt",
+   "lines": "398-399",
+   "quote": "Die erste Geschichte dieses Hauses erzählt uns Busch in seinem Chron. Windesh.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "devotio-moderna-brethren-of-the-common-life",
+   "field": "longDescription",
+   "sentence": "Johannes Busch wrote the chronicle of Windesheim, and Thomas à Kempis that of Mount St Agnes.",
+   "file": "cic/texts/busch_chronicon-windeshemense-lat_grube1886.txt",
+   "lines": "1542",
+   "quote": "Im achzehnten Lebensjahre trat Busch in Windesheim ein",
+   "grade": "Documented"
+  },
+  {
+   "entry": "devotio-moderna-brethren-of-the-common-life",
+   "field": "longDescription",
+   "sentence": "Johannes Busch wrote the chronicle of Windesheim, and Thomas à Kempis that of Mount St Agnes.",
+   "file": "cic/texts/kempis_chronicle-of-mount-st-agnes_arthur1906.txt",
+   "lines": "231",
+   "quote": "The Chronicle of Mount St. Agnes is the only work of Thomas a Kempis of",
+   "grade": "Documented"
+  },
+  {
+   "entry": "devotio-moderna-brethren-of-the-common-life",
+   "field": "longDescription",
+   "sentence": "One such gathering became the Imitation of Christ.",
+   "file": null,
+   "work": "census devotio-moderna-brethren-of-the-common-life.longDescription",
+   "grade": "Documented"
+  },
+  {
+   "entry": "devotio-moderna-brethren-of-the-common-life",
+   "field": "longDescription",
+   "sentence": "It is credited to Thomas à Kempis of Mount St Agnes near Zwolle, though its authorship is disputed.",
+   "file": "cic/texts/busch_chronicon-windeshemense-lat_grube1886.txt",
+   "lines": "5414-5415",
+   "quote": "de imitacione Christi cum aliis,",
+   "grade": "Contested"
+  },
+  {
+   "entry": "devotio-moderna-brethren-of-the-common-life",
+   "field": "longDescription",
+   "sentence": "It is credited to Thomas à Kempis of Mount St Agnes near Zwolle, though its authorship is disputed.",
+   "file": "cic/texts/kempis_imitation-of-christ_benham1886.txt",
+   "lines": "488-489",
+   "quote": "There seems no doubt that this must be a mistake",
+   "grade": "Contested"
+  },
+  {
+   "entry": "devotio-moderna-brethren-of-the-common-life",
+   "field": "why",
+   "sentence": "That habit produced the Imitation of Christ, the most copied Christian book after the Bible.",
+   "file": null,
+   "work": "census devotio-moderna-brethren-of-the-common-life.why",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "devotio-moderna-brethren-of-the-common-life",
+   "field": "why",
+   "sentence": "It is credited to Thomas à Kempis, though its authorship is disputed.",
+   "file": "cic/texts/busch_chronicon-windeshemense-lat_grube1886.txt",
+   "lines": "5414-5415",
+   "quote": "de imitacione Christi cum aliis,",
+   "grade": "Contested"
+  },
+  {
+   "entry": "devotio-moderna-brethren-of-the-common-life",
+   "field": "why",
+   "sentence": "It is credited to Thomas à Kempis, though its authorship is disputed.",
+   "file": "cic/texts/kempis_imitation-of-christ_benham1886.txt",
+   "lines": "488-489",
+   "quote": "There seems no doubt that this must be a mistake",
+   "grade": "Contested"
+  }
+ ],
+ "neighbor_changes": [
+  {
+   "id": "devotio-moderna-brethren-of-the-common-life",
+   "set": {
+    "longDescription": "It began with Geert Grote, a wealthy and worldly scholar of Deventer. He gave up his career and opened his own house to a group of devout women. Then he began preaching repentance in the towns of the IJssel valley. After his death in 1384 his followers organized. The Brothers and Sisters of the Common Life lived together and paid their way by copying books and other ordinary work. They took no vows and did not leave ordinary society. Beside them stood a stricter branch, the canons of Windesheim. Its houses kept their own chronicles. Johannes Busch wrote the chronicle of Windesheim, and Thomas à Kempis that of Mount St Agnes. What held them together was less a doctrine than a method: a plain, inward and orderly devotion. They had the habit of keeping a rapiarium, a personal notebook of gathered passages to return to. One such gathering became the Imitation of Christ. It is credited to Thomas à Kempis of Mount St Agnes near Zwolle, though its authorship is disputed. The houses also took in schoolboys and shaped the Latin schools of towns like Deventer and Zwolle. That is how the movement's way of shaping lives reached far more people than ever joined it.",
+    "why": "Geert Grote gave up a rich career to gather devout men and women into shared homes. They lived in common without ever taking vows, and paid their way by copying books by hand. Each kept a private notebook of passages to return to, called a rapiarium. That habit produced the Imitation of Christ, the most copied Christian book after the Bible. It is credited to Thomas à Kempis, though its authorship is disputed. Their schools shaped Erasmus. Ignatius of Loyola, who founded the Jesuits, kept the Imitation on his desk. His Spiritual Exercises tell those who make them to read it."
+   },
+   "reason": "Ruling 6 (Windesheim, C), 2026-11-09: the entry's text gains a line that its houses kept their own chronicle. Two sentences inserted after the Windesheim sentence. Review round 1 (RP-S6): the Imitation sentence in longDescription and in why now says the book is credited to Thomas and its authorship disputed, to match the Kempis page's Contested tag; the why also gains the accent on 'à'. Nothing else changed."
+  },
+  {
+   "id": "rhineland-mysticism-and-the-friends-of-god--devotio-moderna-brethren-of-the-common-life",
+   "kind": "edge",
+   "set": {
+    "note": "Johannes Busch kept the chronicle of the Windesheim canons. He tells how their prior, at the council of Constance, gladly visited the cell of the friar who wrote the Clock of Eternal Wisdom. The chronicle's 1886 editor names that friar as Henry Suso. A 1902 editor of Thomas à Kempis lists Suso among the writers Thomas took sayings from."
+   },
+   "reason": "Link note edit: validate-census.mjs requires the note or a quote to name the person exactly; the note spelled 'Thomas a Kempis' without the accent, so concerns: thomas-a-kempis would fail. Only the accent changes."
+  }
+ ],
+ "links": [
+  {
+   "id": "lutheran-wittenberg-and-its-congregations--the-methodist-revival",
+   "from": "lutheran-wittenberg-and-its-congregations",
+   "to": "the-methodist-revival",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In May 1738 John Wesley went, against his will, to a meeting in Aldersgate Street, London. Someone was reading Luther's preface to Romans, and there Wesley felt his heart 'strangely warmed'. Yet in 1741 he read Luther's book on Galatians and called it shallow and confused.",
+   "concerns": "john-wesley",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Wesley, Journal, ed. Nehemiah Curnock, vol. 1 (1909)",
+     "file": "cic/texts/wesley-j_journal-v1_curnock1909.txt",
+     "locus": "Journal, 24 May 1738",
+     "quote": "In the evening I went very unwillingly to a society in Aldersgate Street,1 where one was reading Luther's preface to the Epistle to the Romans?",
+     "license": "public-domain",
+     "lines": "26957-26959"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Wesley, Journal, ed. Nehemiah Curnock, vol. 1 (1909)",
+     "file": "cic/texts/wesley-j_journal-v1_curnock1909.txt",
+     "locus": "Journal, 24 May 1738",
+     "quote": "I felt my heart strangely warmed.",
+     "license": "public-domain",
+     "lines": "27071"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Wesley, Journal, ed. Nehemiah Curnock, vol. 2 (1909)",
+     "file": "cic/texts/wesley-j_journal-v2_curnock1909.txt",
+     "locus": "Journal, 15 June 1741",
+     "quote": "that he is quite shallow in his remarks on many passages, and muddy and confused almost, on all ;",
+     "license": "public-domain",
+     "lines": "28337-28339"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  }
+ ],
+ "retire_links": [],
+ "concerns": [
+  {
+   "link_id": "early-benedictine-italian-monasticism--roman-church-gregorian",
+   "concerns": "gregory-the-great"
+  },
+  {
+   "link_id": "roman-church-gregorian--anglo-saxon-christianity",
+   "concerns": "gregory-the-great"
+  },
+  {
+   "link_id": "roman-church-gregorian--byzantine-imperial-church-justinianic",
+   "concerns": "gregory-the-great"
+  },
+  {
+   "link_id": "desert-monasticism--roman-church-gregorian",
+   "concerns": "gregory-the-great"
+  },
+  {
+   "link_id": "roman-church-gregorian--donatism",
+   "concerns": "gregory-the-great"
+  },
+  {
+   "link_id": "byzantine-imperial-church-justinianic--roman-church-gregorian",
+   "concerns": "gregory-the-great"
+  },
+  {
+   "link_id": "merovingian-gallic-christianity--roman-church-gregorian",
+   "concerns": "gregory-the-great"
+  },
+  {
+   "link_id": "nicene-visigothic-iberia--roman-church-gregorian",
+   "concerns": "gregory-the-great"
+  },
+  {
+   "link_id": "latin-africa-under-byzantium--roman-church-gregorian",
+   "concerns": "gregory-the-great"
+  },
+  {
+   "link_id": "roman-church-gregorian--carolingian-reform-christianity",
+   "concerns": "gregory-the-great"
+  },
+  {
+   "link_id": "roman-church-gregorian--late-anglo-saxon-christianity",
+   "concerns": "gregory-the-great"
+  },
+  {
+   "link_id": "insular-irish-monastic-christianity--roman-church-gregorian",
+   "concerns": "gregory-the-great"
+  },
+  {
+   "link_id": "lutheran-wittenberg-and-its-congregations--the-english-reformation-and-elizabethan-settleme",
+   "concerns": "william-tyndale",
+   "also_names": "martin-luther"
+  },
+  {
+   "link_id": "rhineland-mysticism-and-the-friends-of-god--devotio-moderna-brethren-of-the-common-life",
+   "concerns": "thomas-a-kempis",
+   "needs": "the note edit in neighbor_changes (accent on 'à')"
+  },
+  {
+   "link_id": "latin-papal-church-avignon-to-lateran-v--lollardy",
+   "concerns": "john-wyclif"
+  },
+  {
+   "link_id": "lollardy--the-hussite-and-bohemian-brethren-movement",
+   "concerns": "john-wyclif"
+  },
+  {
+   "link_id": "the-anabaptist-movements--lutheran-wittenberg-and-its-congregations",
+   "concerns": "martin-luther"
+  },
+  {
+   "link_id": "lutheran-wittenberg-and-its-congregations--the-reformed-cities-zurich-and-geneva",
+   "concerns": "martin-luther"
+  },
+  {
+   "link_id": "rhineland-mysticism-and-the-friends-of-god--lutheran-wittenberg-and-its-congregations",
+   "concerns": "martin-luther"
+  },
+  {
+   "link_id": "the-hussite-and-bohemian-brethren-movement--lutheran-wittenberg-and-its-congregations",
+   "concerns": "martin-luther"
+  },
+  {
+   "link_id": "lutheran-wittenberg-and-its-congregations--latin-papal-church-avignon-to-lateran-v",
+   "concerns": "martin-luther"
+  },
+  {
+   "link_id": "lutheran-wittenberg-and-its-congregations--the-tridentine-church",
+   "concerns": "martin-luther"
+  },
+  {
+   "link_id": "the-tridentine-church--lutheran-wittenberg-and-its-congregations",
+   "concerns": "martin-luther"
+  },
+  {
+   "link_id": "lutheran-wittenberg-and-its-congregations--scandinavian-reformation-kingdoms",
+   "concerns": "martin-luther"
+  },
+  {
+   "link_id": "lutheran-wittenberg-and-its-congregations--schwenckfelders",
+   "concerns": "martin-luther"
+  },
+  {
+   "link_id": "latin-pastoral-congregational-christianity--the-reformed-cities-zurich-and-geneva",
+   "concerns": "john-calvin"
+  },
+  {
+   "link_id": "antiochene-exegetical-christianity-chrysostom-ce--the-reformed-cities-zurich-and-geneva",
+   "concerns": "john-calvin"
+  },
+  {
+   "link_id": "the-reformed-cities-zurich-and-geneva--latin-papal-church-gregorian",
+   "concerns": "john-calvin"
+  },
+  {
+   "link_id": "the-reformed-cities-zurich-and-geneva--the-scottish-reformation-and-kirk",
+   "concerns": "john-calvin"
+  },
+  {
+   "link_id": "the-reformed-cities-zurich-and-geneva--the-huguenots",
+   "concerns": "john-calvin"
+  },
+  {
+   "link_id": "the-reformed-cities-zurich-and-geneva--the-english-reformation-and-elizabethan-settleme",
+   "concerns": "john-calvin"
+  },
+  {
+   "link_id": "the-reformed-cities-zurich-and-geneva--dutch-further-reformation-and-refuge-culture",
+   "concerns": "john-calvin"
+  },
+  {
+   "link_id": "the-reformed-cities-zurich-and-geneva--anti-trinitarian-currents-servetus-polish-brethr",
+   "concerns": "john-calvin"
+  },
+  {
+   "link_id": "orthodoxy-under-the-ottomans-parish-millet-and-n--the-reformed-cities-zurich-and-geneva",
+   "concerns": "john-calvin"
+  },
+  {
+   "link_id": "the-reformed-cities-zurich-and-geneva--orthodoxy-under-the-ottomans-parish-millet-and-n",
+   "concerns": "john-calvin"
+  },
+  {
+   "link_id": "orthodoxy-under-the-ottomans-1650-1821--the-reformed-cities-zurich-and-geneva",
+   "concerns": "john-calvin"
+  },
+  {
+   "link_id": "devotio-moderna-brethren-of-the-common-life--the-society-of-jesus",
+   "concerns": "ignatius-of-loyola",
+   "also_names": "thomas-a-kempis"
+  },
+  {
+   "link_id": "the-society-of-jesus--the-tridentine-church",
+   "concerns": "ignatius-of-loyola"
+  },
+  {
+   "link_id": "the-methodist-revival--the-holiness-movement",
+   "concerns": "john-wesley"
+  },
+  {
+   "link_id": "the-remonstrants-and-dort--the-methodist-revival",
+   "concerns": "john-wesley"
+  },
+  {
+   "link_id": "german-pietism-spener-francke-halle--the-methodist-revival",
+   "concerns": "john-wesley"
+  },
+  {
+   "link_id": "the-moravian-church-at-herrnhut--the-methodist-revival",
+   "concerns": "john-wesley"
+  },
+  {
+   "link_id": "puritanism--the-methodist-revival",
+   "concerns": "john-wesley"
+  },
+  {
+   "link_id": "restoration-georgian-church-of-england--the-methodist-revival",
+   "concerns": "john-wesley"
+  },
+  {
+   "link_id": "restoration-georgian-church-of-england--the-methodist-revival--2",
+   "concerns": "john-wesley"
+  },
+  {
+   "link_id": "english-old-dissent--the-methodist-revival",
+   "concerns": "john-wesley"
+  },
+  {
+   "link_id": "quietist-controversy-molinos-guyon--the-methodist-revival",
+   "concerns": "john-wesley"
+  },
+  {
+   "link_id": "camisard-prophetism--the-methodist-revival",
+   "concerns": "john-wesley"
+  },
+  {
+   "link_id": "the-methodist-revival--the-missionary-movement-s-native-churches-seramp",
+   "concerns": "john-wesley"
+  }
+ ],
+ "wants": [
+  "Gregory the Great: a vendored English text of John the Deacon's or Paul the Deacon's Life of Gregory, so the story of his election and his letter to the emperor rests on the medieval lives directly and not only on Barmby's 1895 summary.",
+  "Martin Luther: a vendored critical source on the theses-door story (for example Iserloh's argument and its answers), so the Contested tag carries both sides from texts in the Library rather than from the Wittenberg census text.",
+  "John Wyclif: a vendored modern life (or Shirley's Fasciculi Zizaniorum, 1858) for the Blackfriars synod of 1382 and his Balliol headship; the page rests on Vaughan (1845), whose 'warden' is the older word for the Master.",
+  "Ignatius of Loyola: a vendored source for his election as general of the Society (1541), so the page can say he led it, not only that he wrote from Rome."
+ ],
+ "flags": [
+  "Calvin keeps concerns on latin-pastoral-congregational-christianity--the-reformed-cities-zurich-and-geneva and antiochene-exegetical-christianity-chrysostom-ce--the-reformed-cities-zurich-and-geneva (coordinator ruling on RP-B1); P1 and P2 drop theirs.",
+  "Two existing links name two of my persons; concerns takes one ID, so I chose one each: devotio-moderna--the-society-of-jesus -> ignatius-of-loyola (also names Thomas à Kempis); lutheran-wittenberg--the-english-reformation -> william-tyndale (also names Luther). Coordinator to confirm.",
+  "rhineland-mysticism--devotio-moderna: its note spelled 'Thomas a Kempis' without the accent, so concerns: thomas-a-kempis needs the note edit now carried in neighbor_changes (accent only).",
+  "Library thread (do not edit cic/corpus-map here): ruling 6 says Busch's Chronicon Windeshemense joins the Devotio Moderna shelf. cic/corpus-map/devotio-moderna-brethren-of-the-common-life.yaml already lists busch_chronicon-windeshemense-lat_grube1886.txt, but with role: context; the ruling wants it role: tradition (edit the _staging source, then re-merge).",
+  "Contested authorship of the Imitation: per review round 1 (RP-S6), the Devotio Moderna neighbor change now qualifies the Imitation sentence in both longDescription and why ('credited to Thomas à Kempis ... though its authorship is disputed'), matching the Kempis page's Contested tag. This touches another thread's text; the coordinator ruled it in.",
+  "Spelling: Lollardy's census text uses 'Wycliffe'; its links use 'Wyclif'. The person entry is 'John Wyclif' with informalName 'John Wycliffe' and says 'also spelled Wycliffe', so concerns validation passes on the links.",
+  "William Tyndale: Antwerp, Worms and Vilvoorde have no place IDs in any census entry, so modernCountries carries England only; region names the continental places.",
+  "Calvin and Luther pages: their homes are Built & Live; nothing in those worlds' files was touched. The Calvin page's 'came to Geneva in 1536' and 'never met Zwingli' match the world tile; the Luther page's Contested theses-door line matches the Wittenberg census text.",
+  "New link lutheran-wittenberg-and-its-congregations--the-methodist-revival (influenced, Documented, concerns john-wesley): the Methodist revival's relationsSummary does not mention Luther; its owner may add a clause (two-way check).",
+  "Person dates are working years: Gregory from his Constantinople years (c. 578); Tyndale from his New Testament in press (1525); Kempis from his investiture (1406); Wyclif from his Oxford disputes (c. 1360); Luther 1517; Calvin from the first Institutes (1536); Ignatius from his wound and conversion (1521); Wesley from the Georgia voyage, when his journal begins (1735)."
+ ]
+}

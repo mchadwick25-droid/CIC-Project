@@ -1,0 +1,235 @@
+{
+ "changes": [
+  {
+   "movement": "palestinian-ascetic-monasticism-early",
+   "field": "relationsSummary",
+   "paragraph": 0,
+   "old": "Egyptian in origin: Hilarion learned the life from Antony. It is the forerunner of the Chalcedonian monasteries of the Judean desert and Gaza, which begin about 450, where this leaves off.",
+   "new": "Its roots are in Egypt: Hilarion learned the life from Antony. It leads on to the Chalcedonian monasteries of the Judean desert and Gaza. Those start about 450, where this one leaves off.",
+   "fre_before": 39.3,
+   "fre_after": 66.5,
+   "fk_after": 6.6,
+   "notes": "'Egyptian in origin' rendered 'Its roots are in Egypt'."
+  },
+  {
+   "movement": "palestinian-ascetic-monasticism-early",
+   "field": "longDescription",
+   "paragraph": 0,
+   "old": "Hilarion came back to Gaza from Egypt in about 306, having spent time with Antony, and settled in the coastal scrub near the town he had been born in. What grew around him was recognisably Egyptian and recognisably not: monks living alone or in twos in a landscape of villages and roads rather than deep desert, close enough to the Christian and pagan populations of the coast to be constantly interrupted. In the Judean hills, Chariton founded a different arrangement at Pharan around the same decades - a laura, where solitaries lived apart through the week and came together on Sundays, which became the characteristic Palestinian form. Pilgrims passed through all of it constantly on the way to the holy places, and some of them stayed. Jerome, writing from Bethlehem, gave the movement its literature in a Life of Hilarion. He also wrote a Life of Malchus, a Syrian monk taken by Saracen raiders. Both are shaped to teach rather than to record, which leaves the period better known for its stories than for what it actually taught.",
+   "new": "Hilarion came back to Gaza from Egypt in about 306, after time spent with Antony. He settled in the coastal scrub near the town where he was born. What grew around him was recognizably Egyptian, and recognizably not. Monks lived alone or in twos among villages and roads rather than in deep desert. They were close enough to the Christian and pagan people of the coast to be interrupted all the time. In the Judean hills, in about the same decades, Chariton founded a different arrangement at Pharan. This was a laura, where solitaries lived apart through the week and came together on Sundays. It became the typical Palestinian form. Pilgrims passed through all of it constantly on the way to the holy places, and some of them stayed. Jerome, writing from Bethlehem, gave the movement its literature in a Life of Hilarion. He also wrote a Life of Malchus, a Syrian monk taken by Saracen raiders. Both are shaped to teach rather than to record. So the period is better known for its stories than for what it actually taught.",
+   "fre_before": 47.7,
+   "fre_after": 63.5,
+   "fk_after": 7.8,
+   "notes": ""
+  },
+  {
+   "movement": "palestinian-ascetic-monasticism-early",
+   "field": "why",
+   "paragraph": 0,
+   "old": "Hilarion, a disciple of Antony's, returned home to Gaza around 306 and settled in the coastal scrub, living as a solitary within reach of the villages, roads, and pilgrims of the coast rather than deep desert. In the Judean hills, Chariton founded a different pattern at Pharan, the laura, where solitaries lived apart through the week and gathered only on Sundays — the arrangement that later shaped the great monasteries of the Judean desert. Jerome told the story of a lonelier life still, farther north, in his Life of Malchus, a Syrian monk carried off by raiders.",
+   "new": "Hilarion, a disciple of Antony's, went home to Gaza around 306 and settled in the coastal scrub. He lived alone, but within reach of the villages, roads, and pilgrims of the coast rather than in deep desert. In the Judean hills, Chariton founded another pattern at Pharan, called the laura. There monks lived apart through the week and met only on Sundays. That way of life later shaped the great monasteries of the Judean desert. Jerome told the story of a lonelier life still, farther north, in his Life of Malchus, a Syrian monk carried off by raiders.",
+   "fre_before": 37.6,
+   "fre_after": 64.0,
+   "fk_after": 8.4,
+   "notes": ""
+  },
+  {
+   "movement": "palestinian-ascetic-monasticism-early",
+   "field": "legacy",
+   "paragraph": 0,
+   "old": "The laura - solitaries through the week, community on Sunday - became the Palestinian form and passed into the great Judean desert monasteries of Euthymius and Sabas in the following century, and from there into the Byzantine monastic tradition. Jerome's Life of Hilarion also did something more particular. Written about 390, it followed his own Life of Paul and the Latin Life of Antony, and helped make the saint's life a Latin literary form.",
+   "new": "The laura became the Palestinian form: monks alone through the week, together on Sunday. In the next century it passed into the great Judean desert monasteries of Euthymius and Sabas. From there it passed into the Byzantine monastic tradition. Jerome's Life of Hilarion did a more specific thing too. He wrote it about 390, after his own Life of Paul and the Latin Life of Antony. It helped make the saint's life a form of Latin writing.",
+   "fre_before": 32.7,
+   "fre_after": 61.5,
+   "fk_after": 7.8,
+   "notes": "'did something more particular' rendered 'did a more specific thing too'; 'helped make the saint's life a Latin literary form' rendered 'a form of Latin writing'."
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "field": "relationsSummary",
+   "paragraph": 0,
+   "old": "Jerome served as secretary to Damasus of Rome. He had earlier written to Damasus that he kept communion only with 'the chair of Peter'. The creed received at Chalcedon in 451 came from the council of 381, where bishops of the Cappadocian churches took part.",
+   "new": "Jerome served as secretary to Damasus of Rome. He had earlier written to Damasus that he kept communion only with 'the chair of Peter'. The creed received at Chalcedon in 451 came from the council of 381. Bishops of the Cappadocian churches took part in that council.",
+   "fre_before": 58.5,
+   "fre_after": 61.9,
+   "fk_after": 7.4,
+   "notes": ""
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "field": "longDescription",
+   "paragraph": 1,
+   "old": "Three answers competed for where final authority over the church now actually lay, and this Christian tradition's own window closes without settling which was right. Rome traced its authority to Peter; Constantinople claimed rank because it sat beside the throne — a claim the Council of Chalcedon extended in 451 over the protest of Rome's own delegates, at the same council that received, as the last word on Christ's two natures, a letter Leo of Rome had written two years before. Ambrose of Milan staked a third claim entirely: that the emperor stood inside the church, not over it. He said those exact words from inside his own basilica in 386, besieged by the soldiers of a Homoian imperial court that wanted the building for its own worship. He would not give it up, and his congregation stayed inside with him. Augustine, then living in Milan, later wrote that they were 'prepared to die with their bishop'. He also wrote that at this time Milan's people began to sing hymns and psalms in the Eastern way. That custom, he says, lasted and spread to almost all congregations elsewhere. Four years later Ambrose proved the same claim again, against Theodosius himself, refusing the emperor the sacrament until he did public penance for a massacre at Thessalonica.",
+   "new": "Three answers competed over where final authority in the church now lay, and this Christian tradition's own window closes without settling which was right. Rome traced its authority to Peter. Constantinople claimed rank because it sat beside the throne. The Council of Chalcedon extended that claim in 451, over the protest of Rome's own delegates. The same council also received a letter Leo of Rome had written two years before. It took that letter as the last word on Christ's two natures. Ambrose of Milan staked a third, quite different claim: the emperor stood inside the church, not over it. He said those exact words in 386, from inside his own basilica. Soldiers of a Homoian imperial court were besieging it, because the court wanted the building for its own worship. He would not give it up, and his congregation stayed inside with him. Augustine, then living in Milan, later wrote that they were 'prepared to die with their bishop'. He also wrote that at this time Milan's people began to sing hymns and psalms in the Eastern way. That custom, he says, lasted and spread to almost all congregations elsewhere. Four years later Ambrose proved the same claim again, against Theodosius himself. He refused the emperor the sacrament until he did public penance for a massacre at Thessalonica.",
+   "fre_before": 50.8,
+   "fre_after": 61.2,
+   "fk_after": 8.3,
+   "notes": "'staked a third claim entirely' rendered 'a third, quite different claim'; the Chalcedon/Leo clause split into two sentences, claim unchanged."
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "field": "legacy",
+   "paragraph": 2,
+   "old": "Its physical inheritance is still standing. The basilica, a Roman public hall rather than a temple, was the form the emperors paid for, and it remains the basic shape of church buildings across Europe. A quieter inheritance survives from the same crisis. During the siege of 386, Ambrose's congregation began singing psalms 'after the manner of the Eastern Church'. Augustine, then living in Milan, says the custom was 'retained from then till now'. He adds that 'almost all' congregations 'throughout the rest of the world' copied it.",
+   "new": "Its physical inheritance is still standing. The basilica was the form the emperors paid for. It was a Roman public hall rather than a temple, and it remains the basic shape of church buildings across Europe. A quieter inheritance survives from the same crisis. During the siege of 386, Ambrose's congregation began singing psalms 'after the manner of the Eastern Church'. Augustine, then living in Milan, says the custom was 'retained from then till now'. He adds that 'almost all' congregations 'throughout the rest of the world' copied it.",
+   "fre_before": 57.5,
+   "fre_after": 60.4,
+   "fk_after": 8.0,
+   "notes": ""
+  },
+  {
+   "movement": "persian-church-of-the-east-early",
+   "field": "longDescription",
+   "paragraph": 0,
+   "old": "East of the Roman frontier, in the Persian Empire, were Christian communities that had never lived under a Christian emperor and never would. And Constantine's conversion made their position worse rather than better, since it let the Sassanian court read them as a Roman fifth column. The long persecution under Shapur II from about 340 killed clergy and laity in numbers this church remembered in a whole literature of martyr acts, its own head among them. The catholicos Shemon bar Sabbae was executed in the 340s after refusing to collect a punitive double tax from Christians to fund the war against Rome. When toleration eventually came, the church organized itself deliberately. A synod at Seleucia-Ctesiphon in 410 gave it a legal structure and a recognized head, and a further synod in 424 declared that its bishops would answer to no authority outside Persia. It worshipped in Syriac and shared the learning of Edessa. Persian students there read Theodore of Mopsuestia's commentaries once they were put into Syriac, and the church's later teachers made his Antiochene way of reading their own. And it was already becoming the church that would carry Christianity along the trade roads to India, Central Asia, and China.",
+   "new": "East of the Roman frontier, in the Persian Empire, lived Christians who had never had a Christian emperor and never would. When Constantine turned Christian, it made things worse for them, not better. It let the Sassanian court read them as a Roman fifth column. Under Shapur II, a long persecution began about 340. It killed clergy and lay people in numbers this church remembered in a whole literature of martyr acts. Among the dead was the church's own head, the catholicos Shemon bar Sabbae. He was put to death in the 340s after he would not collect a punitive double tax from Christians to fund the war against Rome. When toleration came at last, the church set up its own order by design. A synod at Seleucia-Ctesiphon in 410 gave it a legal structure and a recognized head. A further synod in 424 said its bishops would answer to no power outside Persia. Its worship was in Syriac, and it shared the learning of Edessa. Persian students there read Theodore of Mopsuestia's commentaries once they were put into Syriac. The church's later teachers made his Antiochene way of reading their own. And it was already becoming the church that would carry Christianity along the trade roads to India, Central Asia, and China.",
+   "fre_before": 42.8,
+   "fre_after": 64.0,
+   "fk_after": 8.1,
+   "notes": "'organized itself deliberately' rendered 'set up its own order by design'; 'no authority outside Persia' rendered 'no power outside Persia'; 'executed' rendered 'put to death'."
+  },
+  {
+   "movement": "ambrosian-milan-standalone",
+   "field": "relationsSummary",
+   "paragraph": 0,
+   "old": "Ambrose's Milan was the seat of the western court, and its bishop argued with that court in public. His claim that the emperor is within the church, not above it, is one of the three answers told in Imperial and Juridical Christianity.",
+   "new": "Ambrose's Milan was the seat of the western court, and its bishop argued with that court in public. He claimed that the emperor is within the church, not above it. That claim is one of the three answers told in Imperial and Juridical Christianity.",
+   "fre_before": 60.6,
+   "fre_after": 67.0,
+   "fk_after": 7.6,
+   "notes": ""
+  },
+  {
+   "movement": "ambrosian-milan-standalone",
+   "field": "legacy",
+   "paragraph": 0,
+   "old": "Milan still keeps the Ambrosian Rite. Its own calendar, chant, and order of worship, distinct from the Roman Rite used almost everywhere else in the Latin church, and the largest surviving non-Roman Western rite. Hymns attributed to Ambrose are still sung, and the congregational hymn-singing he made famous during the basilica occupation had a very long afterlife. Within two generations, a Greek historian, Theodoret, was retelling his stand against Theodosius. Ambrose had already stated the rule himself. A Christian ruler stands within the church, not above it. And his preaching, by Augustine's own account, is a large part of the reason the West got Augustine at all. The church he founded in the 380s still stands on its site in Milan — rebuilt in Romanesque form eight centuries later — with his remains beneath its altar.",
+   "new": "Milan still keeps the Ambrosian Rite, with its own calendar, chant, and order of worship. It is distinct from the Roman Rite used almost all over the Latin church, and it is the largest surviving non-Roman Western rite. Hymns said to be by Ambrose are still sung. The people's hymn-singing he made famous when his flock held the basilica had a very long afterlife. Within two generations, a Greek historian, Theodoret, was telling again the story of his stand against Theodosius. Ambrose had stated the rule himself: a Christian ruler stands within the church, not above it. And by Augustine's own account, Ambrose's preaching is a large part of the reason the West got Augustine at all. The church he founded in the 380s still stands on its site in Milan, with his remains beneath its altar. It was rebuilt in Romanesque form eight centuries later.",
+   "fre_before": 54.0,
+   "fre_after": 65.0,
+   "fk_after": 8.3,
+   "notes": "Fixed a sentence fragment ('Its own calendar, chant...') by joining it to the first sentence. 'basilica occupation' rendered 'when his flock held the basilica'; 'attributed to Ambrose' rendered 'said to be by Ambrose'."
+  },
+  {
+   "movement": "gallic-nicene-episcopate",
+   "field": "relationsSummary",
+   "paragraph": 0,
+   "old": "The other half of fourth-century Gaul, beside Gallic monastic Christianity. This was an episcopate resisting an imperial creed, not a monastery. The two touch at one point that matters. Martin of Tours was Hilary's disciple, and the monastic world grew up in the Gaul these bishops defended.",
+   "new": "This is the other half of fourth-century Gaul, beside Gallic monastic Christianity. It was a body of bishops resisting an imperial creed, not a monastery. The two touch at one point that matters. Martin of Tours was Hilary's disciple, and the monastic world grew up in the Gaul these bishops defended.",
+   "fre_before": 55.4,
+   "fre_after": 60.2,
+   "fk_after": 8.1,
+   "notes": "'episcopate' rendered 'a body of bishops'; sentence-initial fragment made whole ('This is the other half...')."
+  },
+  {
+   "movement": "gallic-nicene-episcopate",
+   "field": "legacy",
+   "paragraph": 0,
+   "old": "Hilary's De Trinitate gave Latin theology its first full-scale treatment of the doctrine. Augustine, who wrote the second, quotes it by name. The Gallic rejection of Ariminum also mattered in practice. Sulpicius Severus, writing some forty years later, says Hilary alone freed Gaul from heresy. Two centuries on, Gregory of Tours told how a light from Hilary's church at Poitiers led the Frankish king Clovis against the Arian Goths. Gregory saw it as Hilary's help against the heretics he had fought. And Hilary ordained Martin, which ties these bishops to the monastic Gaul that grew up beside them.",
+   "new": "Hilary's De Trinitate gave Latin theology its first full study of the Trinity. Augustine, who wrote the second, quotes it by name. Gaul's refusal of the council of Ariminum also had real effects. Writing some forty years on, Sulpicius Severus says Hilary alone freed Gaul from heresy. Two centuries on, Gregory of Tours told how a light from Hilary's church at Poitiers led the Frankish king Clovis against the Arian Goths. Gregory saw the light as Hilary's help against the heretics he had fought. Hilary also ordained Martin. That ties these bishops to the Gaul of the monks that grew up beside them.",
+   "fre_before": 54.0,
+   "fre_after": 60.7,
+   "fk_after": 8.0,
+   "notes": "Glosses added for clarity, check them: 'the doctrine' made explicit as 'the Trinity', and 'Ariminum' as 'the council of Ariminum'. 'full-scale treatment' rendered 'full study'."
+  },
+  {
+   "movement": "gallic-monastic-ascetic-christianity",
+   "field": "relationsSummary",
+   "paragraph": 0,
+   "old": "Drew on Egyptian desert monasticism through Cassian, who had lived among the Egyptian monks before founding his houses at Marseilles. It fed the Merovingian Gallic church that follows it. One eighth-century Irish account also traces a line from Cassian and Lérins to Irish monasticism.",
+   "new": "It drew on the desert monks of Egypt through Cassian, who had lived among them before he set up his houses at Marseilles. It fed the Merovingian Gallic church that follows it. One Irish account from the eighth century also traces a line from Cassian and Lérins to the monks of Ireland.",
+   "fre_before": 47.8,
+   "fre_after": 67.6,
+   "fk_after": 8.2,
+   "notes": "Sentence-initial fragment made whole ('It drew on...'). 'Egyptian desert monasticism' rendered 'the desert monks of Egypt'; 'Irish monasticism' rendered 'the monks of Ireland'."
+  },
+  {
+   "movement": "gallic-monastic-ascetic-christianity",
+   "field": "legacy",
+   "paragraph": 0,
+   "old": "Cassian's Conferences became the West's standing handbook of the interior life: Benedict's Rule commends them by name and prescribes them as daily reading, which carried them into every Benedictine house in Europe. Vincent's test - what has been believed everywhere, always, by everyone - is still quoted in arguments about doctrinal development sixteen centuries later. Lérins itself is still a monastery, on the island off Cannes it has occupied since about 410. Martin became the patron saint of France and one of the most widely venerated saints in the medieval West, with thousands of churches carrying his name; and the Gallic objection to Augustine on grace, argued from Marseilles, was still being fought over at the Reformation.",
+   "new": "Cassian's Conferences became the West's standing handbook of the inner life. Benedict's Rule praises them by name and sets them as daily reading. That carried them into every Benedictine house in Europe. Vincent, a monk of Lérins, set out a test about 434 in his Commonitory: what has been believed everywhere, always, by everyone. Sixteen centuries later, it is still quoted in debates about how doctrine develops. Lérins itself is still a monastery, on the island off Cannes where it has stood since about 410. Martin became the patron saint of France. He was one of the most widely honored saints of the medieval West, and thousands of churches carry his name. The case Gaul made against Augustine on grace was argued from Marseilles. It was still being fought over at the Reformation.",
+   "fre_before": 33.5,
+   "fre_after": 60.4,
+   "fk_after": 8.1,
+   "notes": "Vincent introduced as 'a monk of Lérins' with his Commonitory dated about 434, per extra_reason. Check that the 434 date and the work title match the Drafting_Record. 'commends them by name' rendered 'praises them by name'; 'venerated' rendered 'honored'."
+  },
+  {
+   "movement": "pelagianism",
+   "field": "legacy",
+   "paragraph": 0,
+   "old": "There was never a Pelagian church, and the movement left no institution — but the argument it forced has never closed. Answering it, Augustine worked out the Western doctrines of original sin, prevenient grace, and predestination in the form that Aquinas, Luther, Calvin, and the Jansenists would all later fight over, so that a good deal of the shape of Western theology is the shape of this quarrel. \"Pelagian\" also survives as one of Christianity's most durable insults, thrown at anyone suspected of making salvation a matter of human effort. Usually by people who have never read a line of Pelagius, since so little of him survives to read. A few of his works did come through under Jerome's name. Augustine already knew one of them, the Letter to Demetrias, as Pelagius's own, yet it was still printed among Jerome's works in the nineteenth century.",
+   "new": "There was never a Pelagian church, and the movement left no institution. But the argument it forced has never closed. To answer it, Augustine worked out the Western doctrines of original sin, prevenient grace, and predestination. He gave them the form that Aquinas, Luther, Calvin, and the Jansenists would all later fight over. So a good deal of the shape of Western theology is the shape of this quarrel. \"Pelagian\" also lives on as one of Christianity's most lasting insults. It is thrown at anyone thought to make salvation a matter of human effort, usually by people who have never read a line of Pelagius, since so little of him survives to read. A few of his works did come through under Jerome's name. Augustine knew in his own day that one of them, the Letter to Demetrias, was Pelagius's own. Yet it was still printed among Jerome's works in the nineteenth century.",
+   "fre_before": 44.4,
+   "fre_after": 60.8,
+   "fk_after": 8.6,
+   "notes": "Fixed a sentence fragment ('Usually by people...') by joining it to the sentence before. 'Augustine already knew one of them... as Pelagius's own' rendered 'Augustine knew in his own day that one of them... was Pelagius's own'."
+  },
+  {
+   "movement": "pelagianism",
+   "field": "longDescription",
+   "paragraph": 0,
+   "old": "Pelagius was a British-born ascetic teacher who came to Rome in the late fourth century and found the Christianity of the capital slack. People excusing their sins on the grounds that human nature simply could not do better. His answer was that God does not command the impossible: if Scripture tells you to be perfect, then you can be, and the excuse is a lie. Around that conviction gathered a movement of serious, high-minded Christians, including the combative Caelestius and later the bishop Julian of Eclanum, who pushed the argument into hard questions about infant baptism, inherited guilt, and whether grace is help or takeover. Augustine of Hippo fought them for the last twenty years of his life. The African councils condemned them in 418 and the Council of Ephesus did so again in 431, and almost everything Pelagius himself wrote survives only in fragments, in his opponents' quotations, or misfiled for centuries under another man's name.",
+   "new": "Pelagius was a British-born ascetic teacher. He came to Rome in the late fourth century and found the faith of the capital slack. People there made excuses for their sins, on the grounds that human nature simply could not do better. His answer was that God does not command the impossible. If Scripture tells you to be perfect, then you can be, and the excuse is a lie. Serious, high-minded Christians rallied to that belief and formed a movement. It included the combative Caelestius and, later, the bishop Julian of Eclanum. They pushed the argument into hard questions about infant baptism, inherited guilt, and whether grace is help or takeover. Augustine of Hippo fought them for the last twenty years of his life. The African councils condemned them in 418, and the Council of Ephesus did so again in 431. Almost all that Pelagius himself wrote survives only in fragments, in what his foes quoted, or misfiled for centuries under another man's name.",
+   "fre_before": 42.9,
+   "fre_after": 62.0,
+   "fk_after": 8.3,
+   "notes": "Fragment fixed: 'People there made excuses for their sins, on the grounds that...'. 'the Christianity of the capital' rendered 'the faith of the capital'; 'in his opponents' quotations' rendered 'in what his foes quoted'."
+  },
+  {
+   "movement": "pneumatomachian-current",
+   "field": "longDescription",
+   "paragraph": 0,
+   "old": "By about 360 the argument had moved. A body of churchmen in Constantinople and Asia Minor had come to accept, or nearly accept, that the Son is of one being with the Father - and then declined to say the same of the Holy Spirit, who they held was a creature, or at best a ministering spirit of some third order. Their opponents called them Pneumatomachians, Spirit-fighters. The historian Socrates named them after Macedonius, a deposed bishop of Constantinople, but he also says the party was named after Marathonius of Nicomedia. Basil of Caesarea wrote On the Holy Spirit in about 375 to answer them, and did it carefully: he argued the Spirit's divinity largely from how the church already prayed and baptized rather than from a bare proof-text. Gregory of Nyssa wrote against them too. The Council of Constantinople in 381 settled it by expanding the creed's third article, which had previously said almost nothing about the Spirit, into the clauses still recited every week.",
+   "new": "By about 360 the debate had moved on. A body of churchmen in Constantinople and Asia Minor had come to accept, or nearly accept, that the Son is of one being with the Father. But they would not say the same of the Holy Spirit. They held that the Spirit was a creature, or at best a ministering spirit of some third order. Their critics called them Pneumatomachians, Spirit-fighters. The historian Socrates named them after Macedonius, a deposed bishop of Constantinople. But he also says the party was named after Marathonius of Nicomedia. Basil of Caesarea wrote On the Holy Spirit in about 375 to answer them, and he did it with care. He argued the Spirit's divinity mostly from how the church already prayed and baptized, rather than from a bare proof-text. Gregory of Nyssa wrote against them too. The Council of Constantinople in 381 settled the matter. It filled out the creed's third article, which until then had said almost nothing about the Spirit. The result is the clauses still said each week.",
+   "fre_before": 42.2,
+   "fre_after": 61.5,
+   "fk_after": 8.0,
+   "notes": "'opponents' rendered 'critics'; 'declined to say' rendered 'would not say'; the final sentence split ('The result is the clauses still said each week')."
+  },
+  {
+   "movement": "apollinarian-christianity",
+   "field": "relationsSummary",
+   "paragraph": 0,
+   "old": "Not an Arian position at all - Apollinaris was Athanasius' ally against Arianism, and arrived at this by pressing the unity of Christ too hard. The question he raised, how much of a human being Christ became, ran on into the councils of Ephesus and Chalcedon.",
+   "new": "This was not an Arian position at all. Apollinaris had stood with Athanasius against Arianism, and he came to his view by pressing the unity of Christ too hard. The question he raised, how much of a human being Christ became, ran on into the councils of Ephesus and Chalcedon.",
+   "fre_before": 44.9,
+   "fre_after": 61.3,
+   "fk_after": 8.8,
+   "notes": "Sentence-initial fragment made whole ('This was not an Arian position at all')."
+  },
+  {
+   "movement": "apollinarian-christianity",
+   "field": "longDescription",
+   "paragraph": 0,
+   "old": "Apollinaris of Laodicea was on the right side of the Arian controversy - a friend of Athanasius, a defender of Nicaea, and by all accounts a formidable scholar. The position that took his name came from pressing the unity of Christ harder than anyone else dared. If Christ is one, Apollinaris reasoned, then there cannot be two minds in him competing; so the divine Word must occupy the place a human rational soul would hold, and Christ has a human body and its animating life but not a human mind. It was condemned at a council in Rome in the 370s, and again by name at Constantinople in 381. Gregory of Nazianzus wrote the reply that stuck, in a letter to a priest named Cledonius: what is not assumed is not healed. If Christ did not take a human mind, then the human mind - the part that most needs it - is not saved. Apollinaris' followers kept his works in circulation under other men's names, which is why some of them survive at all.",
+   "new": "Apollinaris of Laodicea was on the right side of the Arian controversy. He was a friend of Athanasius, a defender of Nicaea, and by all accounts a formidable scholar. The position that took his name came from pressing the unity of Christ harder than anyone else dared. If Christ is one, Apollinaris reasoned, then there cannot be two minds competing in him. So the divine Word must take the place a human rational soul would hold. Christ has a human body and its animating life, but not a human mind. This view was condemned at a council in Rome in the 370s, and again by name at Constantinople in 381. Gregory of Nazianzus wrote the reply that stuck, in a letter to a priest named Cledonius: what is not assumed is not healed. If Christ did not take a human mind, then the human mind, the part that most needs it, is not saved. Apollinaris' followers kept his works in circulation under other men's names, which is why some of them survive at all.",
+   "fre_before": 54.9,
+   "fre_after": 63.6,
+   "fk_after": 8.7,
+   "notes": ""
+  },
+  {
+   "movement": "apollinarian-christianity",
+   "field": "why",
+   "paragraph": 0,
+   "old": "Apollinaris of Laodicea was an ally of Athanasius and a defender of Nicaea who pressed the unity of Christ so hard that he left no room in him for a human mind: the divine Word, he argued, took the place a human rational soul would otherwise hold. Gregory of Nazianzus gave the reply that stuck, in a letter to the priest Cledonius: what is not assumed is not healed, so a Christ without a human mind could not save the human mind. His teaching was condemned at Rome in the 370s and by name at Constantinople in 381. His own writings survived mostly because his followers kept circulating them under other men's names.",
+   "new": "Apollinaris of Laodicea was an ally of Athanasius and a defender of Nicaea. He pressed the unity of Christ so hard that he left no room in him for a human mind. The divine Word, he argued, took the place a human rational soul would hold. Gregory of Nazianzus gave the reply that stuck, in a letter to the priest Cledonius: what is not assumed is not healed. So a Christ without a human mind could not save the human mind. Apollinaris' teaching was condemned at Rome in the 370s and by name at Constantinople in 381. His own writings survived mostly because his followers kept passing them around under other men's names.",
+   "fre_before": 50.0,
+   "fre_after": 61.4,
+   "fk_after": 8.7,
+   "notes": ""
+  },
+  {
+   "movement": "apollinarian-christianity",
+   "field": "legacy",
+   "paragraph": 0,
+   "old": "Gregory's principle - what is not assumed is not healed - became one of the load-bearing rules of Christian theology, and is still quoted in arguments that have nothing to do with Apollinaris. The controversy also shaped the next century. At Ephesus in 431 the bishops heard Cyril's letter saying the Word took flesh \"animated by a rational soul.\" At Chalcedon in 451 they defined Christ as truly man, with a rational soul and a body.",
+   "new": "Gregory's principle, what is not assumed is not healed, became a load-bearing rule of Christian thought. It is still quoted in debates that have nothing to do with Apollinaris. The quarrel also shaped the next hundred years. At Ephesus in 431 the bishops heard a letter from Cyril. It said the Word took flesh \"animated by a rational soul.\" At Chalcedon in 451 their definition called Christ truly man, with a rational soul and a body.",
+   "fre_before": 50.4,
+   "fre_after": 61.0,
+   "fk_after": 7.9,
+   "notes": "'the next century' rendered 'the next hundred years'; 'defined Christ as' rendered 'their definition called Christ'."
+  }
+ ]
+}

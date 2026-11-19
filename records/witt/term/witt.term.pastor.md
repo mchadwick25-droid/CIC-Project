@@ -78,7 +78,7 @@ senses:
   informational: 'Our Large Catechism is addressed ''to all pastors and preachers, that they should daily
     exercise themselves in the catechism,'' and rebukes them: ''very negligent... some from great and
     high art... but others from sheer laziness''; ''shameful gluttons... who ought to be more properly
-    swineherds and dog-tenders than care-takers of souls and pastors.'' They are owed honour and a living
+    swineherds and dog-tenders than care-takers of souls and pastors.'' They are owed honor and a living
     -- ''what hearers owe their pastors'' -- and they starve where nobles let parishes decay. They are
     married: ''our priests were desirous to avoid these open scandals, they married wives.'''
   evidential: Attested at the catechism's own address and rebuke, and the confession's account of clerical
@@ -90,7 +90,7 @@ senses:
 quick_meaning: A called, married leader. We honor him. We also rebuke him, in print, when lazy.
 distortion_risk: high
 use_note:
-  means: "Pastor meant a called and usually married office-holder whom the catechism both addresses and rebukes, owed honour and a decent living by the congregation."
+  means: "Pastor meant a called and usually married office-holder whom the catechism both addresses and rebukes, owed honor and a decent living by the congregation."
   not_for:
     - "the pastor as a settled professional clergyman"
     - "calling as a general concept, which sits in witt.term.calling"

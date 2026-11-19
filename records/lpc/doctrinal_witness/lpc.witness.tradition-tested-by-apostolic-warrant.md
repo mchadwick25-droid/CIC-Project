@@ -66,7 +66,6 @@ text: We do not agree among ourselves on one test for whether a practice of ours
   A custom kept everywhere in the Church may fairly be presumed apostolic, even where no apostle's own
   writing says so. We give you both tests, because both are ours. In this very dispute, Augustine used
   his test on one practice. He held that not baptizing again someone baptized among heretics came down
-  from the apostles. Elsewhere he said the same of baptizing infants. Neither test traces the road back,
-  or the teaching before the water, to the apostles.
+  from the apostles. Elsewhere he said the same of baptizing infants.
 ---
 Grounded directly in Cyprian, Epistle 73, and Augustine, On Baptism V.23 -- both verified against the vendored XML at the line numbers above. Answers F4-E's own question about how a practice's apostolic origin would be tested, using material this world's own corpus actually contains. This dispute does not itself trace catechesis, preaching, or reconciliation to the apostles by name -- that remains a genuine absence, narrowed in lpc.limit.apostolic-origin-undefended. Within this dispute, Augustine's test traces non-rebaptism itself to the apostles (On Baptism II.7.10, V.23); outside it, infant baptism (IV.24.32); see lpc.witness.baptism-traced-to-the-apostles.

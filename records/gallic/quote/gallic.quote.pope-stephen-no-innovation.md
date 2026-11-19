@@ -19,7 +19,7 @@ confidence:
     accuracy is beyond what this record can verify.
 sources:
 - source_id: gallic.source.vincent-commonitory
-  locus: "Commonitory ch. 6 [16] (npnf211 div iii.vii, file lines 12527-12528): Vincent quotes Pope Stephen's rule against novelty"
+  locus: "Commonitory ch. 6 [16] (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 12527-12528; div iii.vii): Vincent quotes Pope Stephen's rule against novelty"
   license: public-domain
 retrieval:
   tier: 2

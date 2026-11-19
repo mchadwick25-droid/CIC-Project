@@ -1,0 +1,125 @@
+{
+ "draft": "At Nisibis, a baptistery still stands where we worshipped, and its own inscription dates it securely to the years of our bishop and the siege [[syr.dw.remains]] [[as:paraphrase]].\n\nThe baptistery is the only building of ours from those years that can be dated securely [[syr.dw.remains]] [[as:paraphrase]].\n\nAt Edessa, almost nothing remains, because the modern city sits directly on the ancient one [[syr.dw.remains]] [[as:paraphrase]].\n\nThe church the flood destroyed lives only in a chronicler's line [[syr.dw.remains]] [[as:paraphrase]].\n\nThe Chronicle of Edessa, in its year-513 flood entry, records: [[quote:syr.quote.the-temple-of-the-church-of-the-christians]]\n\nWe cannot be sure that flood line stood in the first record and was not added later [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].\n\nWhat is known of us comes from a few things: our letters date themselves to the year, and our hymns were copied by later hands into books that still exist [[syr.dw.remains]] [[as:paraphrase]].\n\nA short city chronicle was drawn out of real archives [[syr.dw.remains]] [[as:paraphrase]].\n",
+ "ending": "clean",
+ "final": "At Nisibis, a baptistery still stands where we worshipped, and its own inscription dates it securely to the years of our bishop and the siege.\n\nThe baptistery is the only building of ours from those years that can be dated securely.\n\nThe church the flood destroyed lives only in a chronicler's line.\n\nThe Chronicle of Edessa, in its year-513 flood entry, records: “And they destroyed the temple of the church of the Christians. More than two thousand men were killed in that event. The waters came upon many of them suddenly as they slept in the night, and they drowned. The city was filled with the sound of mourning.”\n\nWe cannot be sure that flood line stood in the first record and was not added later.\n\nWhat is known of us comes from a few things: our letters date themselves to the year, and our hymns were copied by later hands into books that still exist.\n\nA short city chronicle was drawn out of real archives.",
+ "group": "A",
+ "offered": [
+  "syr.dw.remains",
+  "syr.story.qyama-morning",
+  "syr.quote.the-temple-of-the-church-of-the-christians",
+  "syr.quote.the-scribes-and-the-prefects-over-the-archives",
+  "syr.gravity.covenant-life",
+  "syr.contested.edessa-origins",
+  "syr.dw.corpus-and-its-edges",
+  "syr.story.abgar-addai-legend",
+  "syr.quote.abgar-letter",
+  "syr.quote.chronicle-flood-line"
+ ],
+ "placements": [
+  {
+   "decision": "keep",
+   "judgement": {
+    "fit": "partly",
+    "limit_stated": true,
+    "reason": "It shows a church building stood and was destroyed, but it is a written line and not physical remains of the gathering place."
+   },
+   "record_id": "syr.quote.the-temple-of-the-church-of-the-christians"
+  }
+ ],
+ "question": "What physical evidence would remain of your community's gathering place?",
+ "question_id": "q021",
+ "read": {
+  "dropped": [],
+  "status": "clean",
+  "unsupported": {}
+ },
+ "rewrite": null,
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "At Nisibis, a baptistery still stands where we worshipped, and its own inscription dates it securely to the years of our bishop and the siege.",
+   "tags": [
+    "syr.dw.remains"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The baptistery is the only building of ours from those years that can be dated securely.",
+   "tags": [
+    "syr.dw.remains"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The church the flood destroyed lives only in a chronicler's line.",
+   "tags": [
+    "syr.dw.remains"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 3,
+   "placed": true,
+   "placed_id": "syr.quote.the-temple-of-the-church-of-the-christians",
+   "reason": "placed by code",
+   "sentence": "The Chronicle of Edessa, in its year-513 flood entry, records: “And they destroyed the temple of the church of the Christians. More than two thousand men were killed in that event. The waters came upon many of them suddenly as they slept in the night, and they drowned. The city was filled with the sound of mourning.”",
+   "tags": [
+    "syr.quote.the-temple-of-the-church-of-the-christians"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We cannot be sure that flood line stood in the first record and was not added later.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "What is known of us comes from a few things: our letters date themselves to the year, and our hymns were copied by later hands into books that still exist.",
+   "tags": [
+    "syr.dw.remains"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "A short city chronicle was drawn out of real archives.",
+   "tags": [
+    "syr.dw.remains"
+   ]
+  }
+ ],
+ "shipped_by_net": "At Nisibis, a baptistery still stands where we worshipped, and its own inscription dates it securely to the years of our bishop and the siege.\n\nThe baptistery is the only building of ours from those years that can be dated securely.\n\nThe church the flood destroyed lives only in a chronicler's line.\n\nThe Chronicle of Edessa, in its year-513 flood entry, records: “And they destroyed the temple of the church of the Christians. More than two thousand men were killed in that event. The waters came upon many of them suddenly as they slept in the night, and they drowned. The city was filled with the sound of mourning.”\n\nWe cannot be sure that flood line stood in the first record and was not added later.\n\nWhat is known of us comes from a few things: our letters date themselves to the year, and our hymns were copied by later hands into books that still exist.\n\nA short city chronicle was drawn out of real archives.",
+ "sub_question": "C12.S8"
+}

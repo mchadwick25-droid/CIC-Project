@@ -1,0 +1,21 @@
+source_file: newton-b-w_thoughts-on-the-apocalypse_2nd-ed1853.txt
+assignments:
+- row_id: newton-b-w_thoughts-on-the-apocalypse_2nd-ed1853--thoughts-on-the-apocalypse-second-edition
+  work: Thoughts on the Apocalypse; second edition
+  author: newton-b-w
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - plymouth-brethren-and-dispensational-formation
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1853
+    end: 1853
+    source: 'the printing''s own title page: line 47, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1853
+    source: line 47, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 259, Benjamin Wills Newton: his own writing.'

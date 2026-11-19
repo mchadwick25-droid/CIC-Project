@@ -1,0 +1,13 @@
+source_file: froude_remains-pt2-v2_1839.txt
+assignments:
+- row_id: froude_remains-pt2-v2_1839--froude-remains-pt2-v2
+  work: 'Froude, Remains, part the second, vol. II (1839)'
+  author: froude
+  locus: 'the History at OCR lines 393-22559; the appendices at 22560-26403; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-oxford-movement-and-anglo-catholic-revival
+  role: tradition
+  confidence: provisional
+  language: eng
+  date: {start: 1839, end: 1839, source: "title page: 1839", formation_confidence: Documented}
+  note: 'Froude''s history of Becket''s quarrel with Henry II, built from the letters. The editors say parts in large type and the bracketed notes are another hand''s.'

@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Dominant Modern Reconstruction
-  divergence_note: This record synthesises Doc_01 through the World Profile and rzg_World_Capsule_Core.md
+  divergence_note: This record synthesizes Doc_01 through the World Profile and rzg_World_Capsule_Core.md
     rather than reading a text directly, so verification runs via those documents' own authority, not
     via a primary source reopened here. Doc_01 SS4's own close-call finding (one world, two strands,
     confirmed rather than self-resolved) is this world's own most consequential synthetic judgment,

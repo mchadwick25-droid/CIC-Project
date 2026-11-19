@@ -1,0 +1,193 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.term.predestination-election"
+   ],
+   "sentence": "To us God is the one who chose, before the world began and by his own free will alone, who would be saved."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "sentence": "That choice rests on nothing foreseen or earned in the one chosen."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "sentence": "We hold it as the ground of a settled life, not as a threat."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "sentence": "Whoever is joined to Christ by true faith already has, in that faith itself, the only evidence of election anyone is given."
+  },
+  {
+   "record_ids": [
+    "rzg.term.predestination-election"
+   ],
+   "sentence": "Both Zurich and Geneva held this, Geneva as a full system and Zurich more briefly, as pastoral comfort."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "sentence": "Its fullest later form rests mostly on Calvin and Beza, and we do not smooth that over."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "sentence": "We take our knowledge of God from the text, and we hold that it is corrected only by itself."
+  },
+  {
+   "record_ids": [
+    "rzg.quote.taught-better-from-scripture"
+   ],
+   "sentence": "In today's English, Huldrych Zwingli says: “I, Ulrich Zwingli, declare that I have preached the articles and opinions below in the good city of Zurich. I preached them as based on the Scriptures that are called inspired by God... Where my present understanding of these Scriptures is not correct, I will let myself be taught better. But I will be taught only from these same Scriptures.”"
+  },
+  {
+   "record_ids": [
+    "rzg.term.the-lords-supper-spiritual-presence"
+   ],
+   "sentence": "Christ is truly given, by the Spirit, to whoever receives him believing."
+  }
+ ],
+ "citations": [
+  "rzg.gravity.sovereignty-of-god-predestination-election",
+  "rzg.quote.taught-better-from-scripture",
+  "rzg.term.predestination-election",
+  "rzg.term.the-lords-supper-spiritual-presence",
+  "rzg.witness.what-we-have-of-christ"
+ ],
+ "group": "A",
+ "id": "q006",
+ "net_sentences": [
+  {
+   "draft": "To us God is the one who chose, before the world began and by his own free will alone, who would be saved [[rzg.term.predestination-election]][[as:paraphrase]].",
+   "sentence": "To us God is the one who chose, before the world began and by his own free will alone, who would be saved.",
+   "tags": [
+    "rzg.term.predestination-election"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "That choice rests on nothing foreseen or earned in the one chosen [[rzg.gravity.sovereignty-of-god-predestination-election]][[as:paraphrase]].",
+   "sentence": "That choice rests on nothing foreseen or earned in the one chosen.",
+   "tags": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We hold it as the ground of a settled life, not as a threat [[rzg.gravity.sovereignty-of-god-predestination-election]][[as:paraphrase]].",
+   "sentence": "We hold it as the ground of a settled life, not as a threat.",
+   "tags": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Whoever is joined to Christ by true faith already has, in that faith itself, the only evidence of election anyone is given [[rzg.gravity.sovereignty-of-god-predestination-election]][[as:paraphrase]].",
+   "sentence": "Whoever is joined to Christ by true faith already has, in that faith itself, the only evidence of election anyone is given.",
+   "tags": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Both Zurich and Geneva held this, Geneva as a full system and Zurich more briefly, as pastoral comfort [[rzg.term.predestination-election]][[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Both Zurich and Geneva held this, Geneva as a full system and Zurich more briefly, as pastoral comfort.",
+   "tags": [
+    "rzg.term.predestination-election"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Its fullest later form rests mostly on Calvin and Beza, and we do not smooth that over [[rzg.gravity.sovereignty-of-god-predestination-election]][[as:paraphrase]].",
+   "ratio": 0.88,
+   "sentence": "Its fullest later form rests mostly on Calvin and Beza, and we do not smooth that over.",
+   "tags": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "verdict": "ok",
+   "why": "grounded 88% in own tagged records"
+  },
+  {
+   "draft": "We take our knowledge of God from the text, and we hold that it is corrected only by itself [[rzg.witness.what-we-have-of-christ]][[as:paraphrase]].",
+   "sentence": "We take our knowledge of God from the text, and we hold that it is corrected only by itself.",
+   "tags": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Huldrych Zwingli wrote: [[quote:rzg.quote.taught-better-from-scripture]]",
+   "placed_quote": "rzg.quote.taught-better-from-scripture",
+   "sentence": "In today's English, Huldrych Zwingli says: “I, Ulrich Zwingli, declare that I have preached the articles and opinions below in the good city of Zurich. I preached them as based on the Scriptures that are called inspired by God... Where my present understanding of these Scriptures is not correct, I will let myself be taught better. But I will be taught only from these same Scriptures.”",
+   "tags": [
+    "rzg.quote.taught-better-from-scripture"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Christ is truly given, by the Spirit, to whoever receives him believing [[rzg.term.the-lords-supper-spiritual-presence]][[as:paraphrase]].",
+   "sentence": "Christ is truly given, by the Spirit, to whoever receives him believing.",
+   "tags": [
+    "rzg.term.the-lords-supper-spiritual-presence"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "rzg.limit.dentiere-and-womens-voice",
+  "rzg.witness.a-narrow-true-church",
+  "rzg.witness.what-we-have-of-christ",
+  "rzg.term.predestination-election",
+  "rzg.story.first-zurich-disputation",
+  "rzg.quote.taught-better-from-scripture",
+  "rzg.gravity.sovereignty-of-god-predestination-election",
+  "rzg.witness.one-supper-two-poles",
+  "rzg.term.the-lords-supper-spiritual-presence",
+  "rzg.quote.mass-not-a-sacrifice",
+  "rzg.quote.signs-and-things-signified",
+  "rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus"
+ ],
+ "raw_text": "To us God is the one who chose, before the world began and by his own free will alone, who would be saved [[rzg.term.predestination-election]][[as:paraphrase]]. That choice rests on nothing foreseen or earned in the one chosen [[rzg.gravity.sovereignty-of-god-predestination-election]][[as:paraphrase]]. We hold it as the ground of a settled life, not as a threat [[rzg.gravity.sovereignty-of-god-predestination-election]][[as:paraphrase]]. Whoever is joined to Christ by true faith already has, in that faith itself, the only evidence of election anyone is given [[rzg.gravity.sovereignty-of-god-predestination-election]][[as:paraphrase]]. Both Zurich and Geneva held this, Geneva as a full system and Zurich more briefly, as pastoral comfort [[rzg.term.predestination-election]][[as:paraphrase]]. Its fullest later form rests mostly on Calvin and Beza, and we do not smooth that over [[rzg.gravity.sovereignty-of-god-predestination-election]][[as:paraphrase]]. We take our knowledge of God from the text, and we hold that it is corrected only by itself [[rzg.witness.what-we-have-of-christ]][[as:paraphrase]]. Huldrych Zwingli wrote: [[quote:rzg.quote.taught-better-from-scripture]]\nChrist is truly given, by the Spirit, to whoever receives him believing [[rzg.term.the-lords-supper-spiritual-presence]][[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [
+   "rzg.quote.taught-better-from-scripture"
+  ],
+  "removed": [],
+  "repaired": [
+   {
+    "draft": "Huldrych Zwingli wrote: [[quote:rzg.quote.taught-better-from-scripture]]",
+    "lead_in": "In today's English, Huldrych Zwingli says",
+    "unresolved": [
+     {
+      "detail": "wrote",
+      "kind": "genre"
+     }
+    ],
+    "why": "lead-in stated a detail no source document supports; replaced by code's"
+   }
+  ]
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C2.S2",
+ "text": "To us God is the one who chose, before the world began and by his own free will alone, who would be saved. That choice rests on nothing foreseen or earned in the one chosen. We hold it as the ground of a settled life, not as a threat. Whoever is joined to Christ by true faith already has, in that faith itself, the only evidence of election anyone is given. Both Zurich and Geneva held this, Geneva as a full system and Zurich more briefly, as pastoral comfort. Its fullest later form rests mostly on Calvin and Beza, and we do not smooth that over. We take our knowledge of God from the text, and we hold that it is corrected only by itself. In today's English, Huldrych Zwingli says: “I, Ulrich Zwingli, declare that I have preached the articles and opinions below in the good city of Zurich. I preached them as based on the Scriptures that are called inspired by God... Where my present understanding of these Scriptures is not correct, I will let myself be taught better. But I will be taught only from these same Scriptures.”\n\nChrist is truly given, by the Spirit, to whoever receives him believing.",
+ "voice_set_aside": false
+}

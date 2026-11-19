@@ -1,0 +1,119 @@
+{
+ "round": 1,
+ "scope": [
+  "p1/Draft.json: polycarp-of-smyrna, methodius-of-olympus, pamphilus-of-caesarea, lactantius",
+  "p2/Draft.json: paula-of-rome, constantine-the-great, basil-of-caesarea, gregory-of-nazianzus"
+ ],
+ "verdict": "revise",
+ "findings": [
+  {
+   "id": "R1",
+   "target": "pamphilus-of-caesarea",
+   "field": "sourcing, voices, relationsSummary, flags, fact_table rows 78, 90, 116",
+   "severity": "blocking",
+   "problem": "Breaks Ruling B. The entry says 'No work is certainly his' (sourcing) and 'with no work certainly his own' (voices), and the drafter's flag says 'I did not count the Apology as his own words'. Mark ruled (Decision-Log 2026-11-10, P2-G3b, B) that the jointly written Apology counts as his own words, with Jerome's denial as the other side. relationsSummary also gives the wrong reason for the home ('since on the common account he studied at Alexandria'): the ruling places him there because the Library shelves his work there. Fact row 90 and the home flag still say the home is provisional and 'Mark to choose', which the ruling has settled.",
+   "evidence": "Decision-Log.md 'The later-worlds people ruled (P2-G3b)', B: 'a jointly written work count as their own words ... Pamphilus is told within the catechetical school, where the Library shelves his work.' npnf201 36974-36976: 'the Apology in his behalf written by us and Pamphilus ... We prepared this carefully and did the work jointly'. corpus-map alexandria-catechetical.yaml 7617-7618: row 'Pamphilus' Defence of Origen (Rufinus' translation)'.",
+   "fix": "sourcing: 'Thin. His own words survive in one work, the Apology for Origen. Eusebius says the two of them wrote it jointly; Jerome later denied that Pamphilus wrote it. The Library shelves Rufinus's preface to his Latin version of its first book. It also holds notes on Acts that many give to him and others to Euthalius. Eusebius and Jerome supply most of his story.' voices[0]: 'Pamphilus — presbyter and book collector at Caesarea, who wrote the Apology for Origen with Eusebius'. relationsSummary first sentence: 'Told within the Alexandrian teachers, whose Library shelf holds his Apology for Origen.' (the Alexandria study can stay as a second sentence). Delete fact row 90's 'Mark to choose' basis and the home and own-words flags; replace them with the ruling citation."
+  },
+  {
+   "id": "R2",
+   "target": "paula-of-rome",
+   "field": "sourcing, voices[0], fact_table row 0, flags",
+   "severity": "blocking",
+   "problem": "Breaks Ruling B. sourcing says 'The Library holds no work of hers. One letter goes out in her name and her daughter's, but Jerome wrote it for them.' voices says 'the Library holds no work of her own'. The flag says the entry 'does not call it her own words'. Mark ruled that Letter XLVI, issued in her name, counts as her own words. Fact row 0 rests on the count's pre-ruling own_words line.",
+   "evidence": "Decision-Log.md P2-G3b, B: 'A letter issued in a person's name and a jointly written work count as their own words ... Paula and Pamphilus get entries.' npnf206 8732-8740: 'Letter XLVI. Paula and Eustochium to Marcella ... The date of the letter is a.d. 386. It is written from Bethlehem'. Census meta.notes: a named voice counts on 'a document issued or signed in their name'.",
+   "fix": "sourcing: 'Thin for her own voice, rich for her life. Her own words survive in one letter, Letter 46, sent from Bethlehem in 386 in her name and her daughter Eustochium's. It urges their friend Marcella to join them. The Library's editor says Jerome wrote it for them. Nearly all else we know comes from Jerome's Letter 108, written soon after she died.' voices[0]: 'Paula of Rome — whose letter to Marcella, sent with her daughter, the Library holds among Jerome's letters'. Replace fact row 0 with npnf206 8732-8737 and drop the flag."
+  },
+  {
+   "id": "R3",
+   "target": "pamphilus-of-caesarea",
+   "field": "sourcing (fact_table row 80)",
+   "severity": "substantial",
+   "problem": "'It also holds the first book of the Apology for Origen, in Rufinus's Latin' is not true of the Library. The vendored npnf203 holds only Rufinus's preface to his translation and his epilogue (On the Adulteration of the Works of Origen), not the text of the book. Row 80's anf06 quote says what survives in the world ('we possess now only the first book'), not what the Library holds.",
+   "evidence": "npnf203 44590-44600: 'The Prefaces ... to the Apology of Pamphilus for Origen, together with the Book on the Adulteration of Origen's Writings are given in this volume'. npnf203 45080-45134: the div 'Translation of Pamphilus' Defence of Origen' is an editor's notice followed by Rufinus's Preface to Macarius. anf06 16923-16924: 'Of this Apology we possess now only the first book, and that, too, only in the faulty Latin version of Rufinus.'",
+   "fix": "As in R1: 'The Library shelves Rufinus's preface to his Latin version of its first book.' Add a want: the text of Book 1 of the Apology (Rufinus's Latin, or an English version). Optional context row: npnf203 45128-45131, the editor's note: 'There seems however no reason to doubt, notwithstanding Jerome's violent protestations, that Pamphilus was associated with Eusebius throughout the work'."
+  },
+  {
+   "id": "R4",
+   "target": "paula-of-rome",
+   "field": "concerns: desert-monasticism--hieronymian-ascetic-literary",
+   "severity": "substantial",
+   "problem": "The flagged choice does not hold up. The link is about how the Hieronymian circle came to know Egyptian monasticism: Marcella hears of Antony and Pachomius from Athanasius, and Jerome writes on Antony. All three source quotes are Jerome's words. Only one is about Paula's act. The brief's rule ('choose the one whose words or acts its sources quote') points to Jerome, who is already a person entry and whose concerns release 29 left unset. It does not point to Paula.",
+   "evidence": "Census edge desert-monasticism--hieronymian-ascetic-literary: sources Jerome Letter 127 sec. 5 (Marcella, Pachomius), Letter 108 sec. 14 (Paula in the cells), Letter 22 sec. 36 (Antony); note opens 'Jerome says Marcella ... heard of Antony from Athanasius'.",
+   "fix": "Remove this concerns entry. Leave the link's concerns null, and list it in flags as a link that names Paula but is about the circle."
+  },
+  {
+   "id": "R5",
+   "target": "pamphilus-of-caesarea",
+   "field": "floorNote (fact_table row 84)",
+   "severity": "minor",
+   "problem": "'Jerome says Pamphilus wrote only short letters' drops Jerome's own attribution. He puts the claim in Eusebius's mouth.",
+   "evidence": "npnf203 53981-53982: 'But, since Eusebius himself says that Pamphilus wrote nothing except some short letters to his friends'.",
+   "fix": "'Jerome, citing Eusebius, says Pamphilus wrote nothing but some short letters to friends.'"
+  },
+  {
+   "id": "R6",
+   "target": "basil-of-caesarea",
+   "field": "longDescription para 3 (and para 1 'the blessed Gregory')",
+   "severity": "minor",
+   "problem": "'He says it rests on the tradition of Gregory' comes straight after a paragraph naming his brother Gregory and his friend Gregory. A reader will take it for one of them. The Gregory meant is Gregory the Wonder-worker, bishop of Neocaesarea, and the Library names him at this passage.",
+   "evidence": "npnf208 14637-14638: 'Gregory, bishop of Neocæsarea, known as Gregorius Thaumaturgus, or Gregory the Wonder-worker'; 14688-14690: 'one of the institutions of Gregory is the very form of the doxology'. The census link anatolian-church-third-century--cappadocian-nicene-pastoral-monastic-tradition says 'Gregory the Wonderworker'.",
+   "fix": "Para 3: 'He says it comes down from Gregory the Wonder-worker, the old bishop of Neocaesarea.' Para 1: 'She had kept the words of Gregory the Wonder-worker ...' Add a fact row on npnf208 14637-14638."
+  },
+  {
+   "id": "R7",
+   "target": "paula-of-rome",
+   "field": "legacy para 2 (Sor Juana rendering)",
+   "severity": "minor",
+   "problem": "The rendering of 'siendo hija de vn S. Gerónimo, y de vna Santa Paula, que era degenerar de tan doctos Padres ser idiota la hija' adds 'shame'. 'Degenerar' means to fall below one's parents. It also turns her statement about herself into one about 'a nun' in general.",
+   "evidence": "juana-ines-de-la-cruz_fama-y-obras-posthumas-spa_castorena1700.txt 6675-6678 ('siendo Moja ... debía ... profeßar letras; y mas, siendo hija de vn S. Gerónimo, y de vna Santa Paula, q era degenerar de tan Doctos Padres ser idiota la hija').",
+   "fix": "'Sor Juana says that she, a nun and \"daughter of a St. Jerome and of a Santa Paula\", would fall short of such learned parents if she stayed ignorant.' The 7469-7471 rendering ('my most holy Mother Paula', learned in Hebrew, Greek and Latin) is sound."
+  },
+  {
+   "id": "R8",
+   "target": "basil-of-caesarea",
+   "field": "legacy para 1 (Mark of Ephesus rendering)",
+   "severity": "minor",
+   "problem": "'quotes \"Basilius Magnus\" on prayers for Pentecost' misreads the Latin. Mark cites Basil's own prayers, the ones recited by custom at Pentecost. He does not quote Basil on the subject of those prayers. 'Basilius Magnus' is also the Latin translator's form, not Mark's own Greek.",
+   "evidence": "patrologia-orientalis-tomus15 2931-2933: 'tum etiam quae Basilius Magnus in orationibus suis ad Pentecosten pro more recitandis'.",
+   "fix": "'Mark of Ephesus cites what Basil the Great says in his own prayers, which were said each year at Pentecost.'"
+  },
+  {
+   "id": "R9",
+   "target": "lactantius",
+   "field": "why",
+   "severity": "minor",
+   "problem": "'Jerome says Diocletian called him to Nicomedia' says more than Jerome does. Jerome says only that he was summoned in Diocletian's reign. longDescription has it right.",
+   "evidence": "npnf203 41035: 'during the reign of Diocletian summoned to Nicomedia'.",
+   "fix": "'Jerome says he was called to Nicomedia in the reign of Diocletian.'"
+  },
+  {
+   "id": "R10",
+   "target": "polycarp-of-smyrna",
+   "field": "longDescription para 1",
+   "severity": "minor",
+   "problem": "'Irenaeus saw Polycarp at Smyrna in his early youth' adds the place. Irenaeus says only that he saw him in his early youth.",
+   "evidence": "anf01 39858-39860: 'appointed bishop of the Church in Smyrna, whom I also saw in my early youth'.",
+   "fix": "'Irenaeus saw Polycarp in his early youth.'"
+  },
+  {
+   "id": "R11",
+   "target": "methodius-of-olympus",
+   "field": "legacy para 1",
+   "severity": "minor",
+   "problem": "'a Greek commentary on Revelation' adds 'Greek'. Nikon's text calls the passage only 'the gloss'.",
+   "evidence": "nikon_replies 21560-21583: 'The gloss: ... But the great Methodius explains her to be the holy Church ... It will be well to recite the very words of St. Methodius'.",
+   "fix": "'... quote a gloss on Revelation that gives Methodius's words.'"
+  },
+  {
+   "id": "R12",
+   "target": "constantine-the-great",
+   "field": "longDescription para 1",
+   "severity": "minor",
+   "problem": "'Constantine first appears in this story in 312' is process narration about the tree, not about him. It reads as a tell.",
+   "evidence": "Fact row 65 grounds 312 only in the census people-row year.",
+   "fix": "Open with the event: 'In 312 Constantine began to tolerate the church. Later he and Licinius met at Milan.' (The census home record's why field gives 312.)"
+  }
+ ],
+ "checked": "Ran check_draft.py on both drafts: 'check done', with no READ-FAIL and no QUOTE-MISS. Read the release 29 review brief, the drafting brief and both Decision-Log rulings (release 29 C; P2-G3b A to C). Record shape: compared each entry's key list and order with origen (all identical), the status fields with origen (all identical), and era, lane, laneLabel, laneOrder and regions with each home record. Departures are Polycarp, Pamphilus and Lactantius regions, each set from the person's own places, which the brief allows. Every modernCountries object exactly matches an existing census object, Pleiades included. Lactantius's empty list is right, since the census has no Nicomedia, Trier or Gaul entry. New ids are not in movements or retiredMovements. Dates: each checked against its fact row. Census-year starts (Polycarp 110, Methodius 290, Lactantius 303, Constantine 312) are stated as the census's, and every row stays in start-year order. Facts: opened the vendored files at the cited lines for every claim that a short quote could not carry alone (Irenaeus III.3.4; Schaff on 155 and 167; Socrates and Sozomen on Victor and Anicetus; Methodius's sees and death; Photius; Nikon's gloss and Palmer's index note, which concerns pseudo-Methodius's Revelationes and not the Banquet passage; Jerome De vir. ill. 75 and Apol. c. Ruf. on Pamphilus; anf06 and npnf203 notices on the Apology; the npnf203 'Defence of Origen' div; the Lactantius address to Constantine; the Calvin letter; the Basil doxology and Thaumaturgus note; Letter 204; the Gregory Nazianzen life on 380 to 383; the Southwell and Montague contexts; the Lausiac passage; Letter XLVI headnote; the Chronica minora Jerusalem passage; the Sor Juana Spanish). concerns: read every link_naming_person note and the full sources of the assigned and borderline links. No existing value is overwritten. Namesake exclusions (Methodius the missionary and the patriarch, Constantine V, and others) are correct, and the Lactantius, Constantine, Basil and Gregory assignments are sound. The Paula one is not (R4). rows: each replaced item is the person, and Paula's and Pamphilus's added items are right, since neither has an existing item. Renderings: Lactantius's Latin, Michael's French, the Chronica minora Latin and the Sor Juana 'Madre' line are sound. R7 and R8 give corrected renderings. legacy: every paragraph uses 'names', 'cites' or 'quotes', none claims influence, and each draft's counted traditions appear. Readability judged by eye. The prose is plain and in voice, with one meta-tell (R12). No new links drafted, correctly."
+}

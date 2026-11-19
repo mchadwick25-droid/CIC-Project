@@ -1,0 +1,267 @@
+{
+ "links": [
+  {
+   "id": "early-benedictine-italian-monasticism--cluniac-reform-monasticism",
+   "fits": "yes: both sources are secondary (Hunter Blair 1907, Gasquet's introduction, printed 1925), no quote, no primary. Rosenwein, Rhinoceros Bound (1982) is named on the cluniac-reform-monasticism movement, but for what Cluniac ritual meant socially and for Odo's Gerald, not for Cluny's use of the Rule.",
+   "edits": [
+    {
+     "field": "confidence",
+     "new": "Inferential-Thin"
+    },
+    {
+     "field": "note",
+     "new": "Two Benedictine editors of the Rule draw on the later customs of Cluny to explain how it was lived. They are Oswald Hunter Blair, in 1907, and Cardinal Gasquet. Gasquet calls the Rule practically the only rule for monks in the West from the ninth to the twelfth century. This rests on these two early twentieth-century editors, not on Cluny's own texts. No modern study is at hand."
+    }
+   ],
+   "readability": {
+    "fre": 66.1,
+    "fk": 7.4
+   },
+   "old_note": "Two Benedictine editors of the Rule draw on the later customs of Cluny to explain how it was lived. They are Oswald Hunter Blair, in 1907, and Cardinal Gasquet. Gasquet calls it practically the only rule for monks in the West from the ninth to the twelfth century. The case rests on these two editors, not on Cluny's own texts.",
+   "wanted_study": "A modern study of Cluny's customaries and how they used and adapted the Rule of Benedict, tenth to twelfth centuries. Named in the repo: Barbara H. Rosenwein, Rhinoceros Bound: Cluny in the Tenth Century (Penn, 1982), on the cluniac-reform-monasticism movement's sources and its Gerald of Aurillac story in cic-website/data/world-census.json; cited there for other matters, not read."
+  },
+  {
+   "id": "roman-church-gregorian--late-anglo-saxon-christianity",
+   "fits": "yes: Barmby 1895 and Sweet's 1871 EETS edition, both secondary, neither vendored, no quote. No modern study of Alfred's Pastoral Care is named anywhere in records/, Build/ or cic/ (only reception mentions in Build/worlds/rcg Doc_01/Doc_02/Step0, with no study).",
+   "edits": [
+    {
+     "field": "confidence",
+     "new": "Inferential-Thin"
+    },
+    {
+     "field": "note",
+     "new": "King Alfred had Gregory's Pastoral Rule put into West Saxon English. He said he meant to send a copy to each bishop in his kingdom. This rests on two older works: an 1871 edition of Alfred's English text, and James Barmby, Gregory's translator, writing in 1895. No modern study is at hand."
+    }
+   ],
+   "readability": {
+    "fre": 65.6,
+    "fk": 7.2
+   },
+   "old_note": "King Alfred had Gregory's Pastoral Rule put into West Saxon English. He said he meant to send a copy to each bishop in his kingdom. We have this from James Barmby, Gregory's translator, who wrote in 1895.",
+   "wanted_study": "A modern study of King Alfred's translation program and his Old English Pastoral Care, with its preface and the copies sent to the bishops, late ninth century. No such book is named in the repo."
+  },
+  {
+   "id": "cyrillo-methodian-slavic-christianity--kievan-rus-christianity",
+   "fits": "yes: three secondary accounts (Herberstein 1549, Pinkerton 1814, Mouravieff 1838/1842); their quotes are verified but none is a primary showing the passage of books and letters to Rus'. Franklin and Shepard (1996) and Vlasto (1970) are named on the two movements as general histories, not cited for this reading.",
+   "edits": [
+    {
+     "field": "confidence",
+     "new": "Inferential-Thin"
+    },
+    {
+     "field": "note",
+     "new": "Kievan Rus' took its Christian books and its letters from the Cyril and Methodius mission. Mouravieff, a Russian church historian writing in 1838, says the brothers' Slavonic Bible later helped win the Russians to the faith. Herberstein retold the Rus' annals in 1549. He says the Rus' began to write down their past once the Slavonic letters came. This rests on these later accounts and one more from 1814. No modern study is at hand."
+    }
+   ],
+   "readability": {
+    "fre": 72.5,
+    "fk": 6.1
+   },
+   "old_note": "Kievan Rus' took its Christian books and its letters from the Cyril and Methodius mission. Mouravieff, a Russian church historian writing in 1838, says the brothers' Slavonic Bible later helped win the Russians to the faith. Herberstein retold the Rus' annals in 1549. He says the Rus' began to write down their past once the Slavonic letters came.",
+   "wanted_study": "A modern study of how the Church Slavonic books and the Slavonic letters reached Rus', tenth to eleventh centuries. Named in the repo, as general histories cited for other matters and not read: Simon Franklin and Jonathan Shepard, The Emergence of Rus 750-1200 (Longman, 1996), on the kievan-rus-christianity movement; A. P. Vlasto, The Entry of the Slavs into Christendom (Cambridge, 1970), on the cyrillo-methodian-slavic-christianity movement (both in cic-website/data/world-census.json)."
+  },
+  {
+   "id": "latin-papal-church-gregorian--the-humiliati--2",
+   "fits": "yes, with a doubt: Catholic Encyclopedia 1910 and Giussano's Life (English 1884, translator's note citing Tiraboschi 1766), no quote, no primary. Frances Andrews, The Early Humiliati (1999) is named in the repo, but only on a Borromeo story (movement tridentine-parish-renewal-borromean-milan) and only for 'the order's decline and suppression', not for Innocent III's approval or the growth in Milan.",
+   "edits": [
+    {
+     "field": "confidence",
+     "new": "Inferential-Thin"
+    },
+    {
+     "field": "note",
+     "new": "Pope Innocent III approved the Humiliati around 1200, and many later popes confirmed them. The order then grew fast. In the province of Milan alone it soon had more than two hundred houses. This rests on two older accounts, from 1884 and 1910. No modern study is at hand."
+    }
+   ],
+   "readability": {
+    "fre": 70.6,
+    "fk": 5.7
+   },
+   "old_note": "Pope Innocent III approved the Humiliati around 1200, and many later popes confirmed them. The order then grew fast. In the province of Milan alone it soon had more than two hundred houses.",
+   "wanted_study": "A modern study of the papal approval of the Humiliati around 1201 and their spread in Lombardy, late twelfth and thirteenth centuries. Named in the repo: Frances Andrews, The Early Humiliati (Cambridge, 1999), on the tridentine-parish-renewal-borromean-milan movement's story 'The Humiliati Try to Shoot the Archbishop at Prayer' in cic-website/data/world-census.json, cited there for the order's decline and suppression, not read."
+  },
+  {
+   "id": "russian-church-nikon-to-holy-synod--the-old-believers--3",
+   "fits": "yes: Conybeare 1921 and Blackmore's 1842 notes, both secondary; quotes verified but no primary (the 1800 rules in the Polnoe sobranie zakonov are in the link's own wants, not vendored). Crummey and Michels on the-old-believers are not cited for Edinoverie; the Old Believers dossier says nothing in the Library covers it.",
+   "edits": [
+    {
+     "field": "confidence",
+     "new": "Inferential-Thin"
+    },
+    {
+     "field": "note",
+     "new": "In 1799 Old Believers in Moscow asked the official church for priests and holy oil. Metropolitan Plato looked over their sixteen terms, and in 1800 Tsar Paul I approved them. The terms let them keep the old books under priests of the church. The arrangement came to be called Edinoverie. This rests on two older accounts, from 1842 and 1921. No modern study is at hand."
+    }
+   ],
+   "readability": {
+    "fre": 72.2,
+    "fk": 5.8
+   },
+   "old_note": "In 1799 Old Believers in Moscow asked the official church for priests and holy oil. Metropolitan Plato looked over their sixteen terms, and in 1800 Tsar Paul I approved them. The terms let them keep the old books under priests of the church. The arrangement came to be called Edinoverie.",
+   "wanted_study": "A modern study of the founding of Edinoverie in 1799-1800 and its sixteen terms, with Metropolitan Plato's part, late eighteenth to early nineteenth century. No book in the repo is cited for it."
+  },
+  {
+   "id": "russian-church-nikon-to-holy-synod--the-kyiv-mohyla-orthodox-revival",
+   "fits": "yes: Mouravieff (1838, trans. 1842) and Pelesz 1880, both secondary; quotes verified, no primary (the patriarchs' letters are not vendored). Ševčenko (1984), Charipova (2006) and Plokhy (2001) are on the Mohyla movement for its schooling and churches, not the 1686 change.",
+   "edits": [
+    {
+     "field": "confidence",
+     "new": "Inferential-Thin"
+    },
+    {
+     "field": "note",
+     "new": "In the 1680s the church of Kyiv passed under the patriarch of Moscow. Patriarch Joachim installed Gideon as its metropolitan, or senior bishop. Two Eastern patriarchs then confirmed the change by letter. A Greek Catholic history of 1880 says that after the peace of 1686, Kyiv became a plain diocese of Moscow. This rests on that history and a Russian one of 1838. No modern study is at hand."
+    }
+   ],
+   "readability": {
+    "fre": 68.8,
+    "fk": 6.4
+   },
+   "old_note": "In the 1680s the church of Kyiv passed under the patriarch of Moscow. Patriarch Joachim installed Gideon as its metropolitan, or senior bishop. Two Eastern patriarchs then confirmed the change by letter. A Greek Catholic history of 1880 says that after the peace of 1686, Kyiv became a plain diocese of Moscow.",
+   "wanted_study": "A modern study of the Kyiv metropolitanate's passing to the Moscow patriarchate, 1685-1686, with the Eastern patriarchs' letters. No such book is named in the repo."
+  },
+  {
+   "id": "russian-church-nikon-to-holy-synod--ruthenian-uniate-18th-century",
+   "fits": "yes (stays Dominant): Skinner is cited in cic-website/data/world-census.json, movement ruthenian-uniate-18th-century, documentedStories 'The Ukase of 1794' (22 April 1794 - 1796), with the note 'The reunion campaign of 1794–1796 from the Russian and Uniate sources'. That story names Archbishop Viktor Sadkovsky and the priests sent with officials and soldiers, the same events as the link. The same short form appears on that movement's 'The Bohohlasnyk at Pochaiv' story; the long form ('...: Uniate and Orthodox Conflict in Eighteenth-Century Poland, Ukraine, Belarus, and Russia (DeKalb, IL, 2009)') is on its 'Uman, June 1768' story. The short form is the one cited for 1794. Note unchanged: it names the two Greek Catholic historians but does not say the link rests on them alone.",
+   "edits": [
+    {
+     "field": "sources",
+     "new": [
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Michael Harasiewicz, Annales Ecclesiae Ruthenae (Lviv, 1862)",
+       "file": "cic/texts/harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt",
+       "lines": "38950-38952",
+       "locus": "Annales, under Catherine II",
+       "quote": "praefatus Árchieppus \"Victor sub die 26. Maji 1794. in Sluck impressam publicabat encyclieam epistolam ad univer- .gum clerum et populum unitum directam,",
+       "license": "public-domain"
+      },
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Michael Harasiewicz, Annales Ecclesiae Ruthenae (Lviv, 1862)",
+       "file": "cic/texts/harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt",
+       "lines": "38965-38967",
+       "locus": "Annales, under Catherine II",
+       "quote": "ac ubi vel minima pars communita- tis ad id prona inveniebatur, illico Ecclesiani parochialem recipiebant, illique praeficiebant presbyterum nonunitum,",
+       "license": "public-domain"
+      },
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Julian Pelesz, Geschichte der Union der ruthenischen Kirche mit Rom, vol. 2 (Vienna, 1880)",
+       "file": "cic/texts/pelesz_geschichte-der-union-bd2-deu_1880.txt",
+       "lines": "41274-41275",
+       "locus": "vol. 2, the union under Catherine II",
+       "quote": "Im Jahre 1794 stellte der Synod dem Erzbischof von Minsk, Victor Sadkowski, Priester zur Verfügung",
+       "license": "public-domain"
+      },
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Julian Pelesz, Geschichte der Union der ruthenischen Kirche mit Rom, vol. 2 (Vienna, 1880)",
+       "file": "cic/texts/pelesz_geschichte-der-union-bd2-deu_1880.txt",
+       "lines": "41250-41254",
+       "locus": "vol. 2, the union under Catherine II",
+       "quote": "Jahre 1795 hat Catharina in mehreren Ukasen befohlen, dass alle Jene, deren Vorfahren erstnach dem Jahre 1595, also vor 200 Jahren, die Union angenommen hatten, zum Schisma zurückkehren.",
+       "license": "public-domain"
+      },
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Barbara Skinner, The Western Front of the Eastern Church (DeKalb, IL, 2009)"
+      }
+     ]
+    }
+   ],
+   "readability": {
+    "fre": null,
+    "fk": null,
+    "note": "note unchanged"
+   },
+   "wanted_study": null
+  },
+  {
+   "id": "armenian-christianity-era-8--armenian-apostolic-church-era-8",
+   "fits": "yes (stays Dominant): Frazee is cited in cic-website/data/world-census.json, movement armenian-christianity-era-8, documentedStories 'The Priest Gomidas at Parmakkapı', with the note 'The Armenian Catholic struggle in Constantinople, with the Avedik affair and Gomidas.' That is the same event as the link. A short form, 'Charles A. Frazee, Catholics and Sultans (Cambridge, 1983)', is on the same movement's 'The Leper Island' story for Mekhitar's flight; the long form is the one cited for Avedik. Note unchanged: it does not say the link rests on old accounts alone.",
+   "edits": [
+    {
+     "field": "sources",
+     "new": [
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Michael Chamich, History of Armenia, tr. Johannes Avdall (Calcutta, 1827), vol. II",
+       "file": "cic/texts/chamich_history-of-armenia-v2_avdall1827.txt",
+       "lines": "21303-21310",
+       "locus": "ch. XXII, the patriarch Avietick",
+       "quote": "having presumed to levy a fine without cause upon an Armenian attached to the suite of the French ambassador, the latter complained | of ‘him to the government.",
+       "license": "public-domain"
+      },
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Michael Chamich, History of Armenia, tr. Johannes Avdall (Calcutta, 1827), vol. II",
+       "file": "cic/texts/chamich_history-of-armenia-v2_avdall1827.txt",
+       "lines": "21311-21314",
+       "locus": "ch. XXII, the patriarch Avietick",
+       "quote": "thirty of the most considerable amongst the Armenians preferred a complaint to the Vizier, ‘charging Avietick with an abuse of power to an extraordinary extent.",
+       "license": "public-domain"
+      },
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Michael Chamich, History of Armenia, tr. Johannes Avdall (Calcutta, 1827), vol. II",
+       "file": "cic/texts/chamich_history-of-armenia-v2_avdall1827.txt",
+       "lines": "21314-21319",
+       "locus": "ch. XXII, the patriarch Avietick",
+       "quote": "The Vizier upon these two complaints summoned the patriarch before him, and asking him how he durst presume to annoy the French ambassador by persecuting one of his suite, ordered him to be bastinadoed, then to be stripped of his patriarchal robes,",
+       "license": "public-domain"
+      },
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Jacobus Issaverdens, Armenia and the Armenians, vol. II: ecclesiastical history (Venice, 1875)",
+       "file": "cic/texts/issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt",
+       "lines": "10006-10009",
+       "locus": "pp. 270-271, on the patriarch Avedik",
+       "quote": "ordered him to be bastinadoed, then to be stripped of his patriarchal robes and to be banished to the island of Tenedos.",
+       "license": "public-domain"
+      },
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Malachia Ormanian, The Church of Armenia, tr. G. Marcar Gregory (London, 1912)",
+       "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+       "lines": "4473-4475",
+       "locus": "ch. XVIII, A Survey of the Eighteenth Century, p. 85",
+       "quote": "The Catholics, in their turn, took advantage of the influence of the French ambassadors to coerce the patriarchate.",
+       "license": "public-domain"
+      },
+      {
+       "kind": "secondary",
+       "source_id": null,
+       "work": "Charles A. Frazee, Catholics and Sultans: The Church and the Ottoman Empire, 1453–1923 (Cambridge, 1983)"
+      }
+     ]
+    }
+   ],
+   "readability": {
+    "fre": null,
+    "fk": null,
+    "note": "note unchanged"
+   },
+   "wanted_study": null
+  }
+ ],
+ "doubts": [
+  "Humiliati: Frances Andrews, The Early Humiliati (1999), is named in the repo and by its subject is the obvious test of this reading, but it is cited only for the order's decline and suppression and has not been read. Thin is right under the ruling's words; 'No modern study is at hand' is literally true of what the repo cites for this reading, but Mark may prefer the note not imply the repo knows of none.",
+  "Cluny: Gasquet's introduction is in the 1925 Chatto and Windus printing, but the vendored file's header (cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt) says it is 'scholarship of 1909'. The note therefore says 'early twentieth-century editors' and gives no year for Gasquet, rather than '1925'. Also changed 'Gasquet calls it' to 'Gasquet calls the Rule' to remove an ambiguity; his line (file lines 580-581) is about the Rule.",
+  "Alfred: Sweet (1871) is an edition of Alfred's own Old English text, which would hold the primary evidence (Alfred's preface) if vendored; the note calls it 'an 1871 edition of Alfred's English text' rather than an account. Sweet is now named in the note by date only.",
+  "Kievan Rus': Herberstein (1549) is older than the 19th/early-20th-century class the ruling names; Mark listed the link, so it is applied. The note's first sentence still states the tie as fact; the added sentences say what it rests on. Pinkerton (1814) is now mentioned by year.",
+  "Edinoverie: the 1842 source (Blackmore's notes, 'only three or four have ... returned') supports none of the note's stated facts; 'two older accounts, from 1842 and 1921' describes the sources list, but the note's facts rest on Conybeare 1921 alone.",
+  "Skinner and Frazee are cited only in documentedStories marked 'from reference summaries; primary text not yet read'. Adding them meets the brief's rule (repo-cited, same events) but no one has read them; verification_state is left as it is (verified-direct describes the quoted older sources).",
+  "verification_state and citation_specificity on the six were not changed (not asked). The Cluny, Alfred and Humiliati links stay named-not-rechecked/C; the other three stay verified-direct/A."
+ ]
+}

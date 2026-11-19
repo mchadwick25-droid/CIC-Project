@@ -1,0 +1,201 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.witness.why-the-children-too"
+   ],
+   "sentence": "Among us belonging was not a chosen step: we held a whole believing city, infants included from birth, to be the covenant shape Scripture describes."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.why-the-children-too"
+   ],
+   "sentence": "Some who had once stood with our founder held that only a believer's own chosen profession makes a true member."
+  },
+  {
+   "record_ids": [
+    "rzg.force.anabaptist-schism"
+   ],
+   "sentence": "Their first baptisms came on 21 January 1525 at Felix Manz's house in Zurich, when Conrad Grebel baptized Georg Blaurock."
+  },
+  {
+   "record_ids": [
+    "rzg.force.anabaptist-schism"
+   ],
+   "sentence": "Blaurock then baptized the others present, and the split ran through our founding community from within."
+  },
+  {
+   "record_ids": [
+    "rzg.term.consistory"
+   ],
+   "sentence": "At Geneva, belonging meant answering to the Consistory, a body of pastors and lay elders that held daily conduct to account."
+  },
+  {
+   "record_ids": [
+    "rzg.quote.seniors-selected-from-the-people"
+   ],
+   "sentence": "John Calvin set down his reading of Paul's governors: “By these governors I mean elders chosen from the people. They join with the pastors to declare censures and to carry out discipline.”"
+  },
+  {
+   "record_ids": [
+    "rzg.term.consistory"
+   ],
+   "sentence": "Zurich had no such body, and its council ruled church and city directly."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.what-we-have-not-agreed"
+   ],
+   "sentence": "Who held the final word over discipline, we never settled between our two cities."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "sentence": "What belonging cost an ordinary citizen, day by day, has not reached us in our own words."
+  }
+ ],
+ "citations": [
+  "rzg.force.anabaptist-schism",
+  "rzg.limit.ordinary-daily-practice",
+  "rzg.quote.seniors-selected-from-the-people",
+  "rzg.term.consistory",
+  "rzg.witness.what-we-have-not-agreed",
+  "rzg.witness.why-the-children-too"
+ ],
+ "group": "A",
+ "id": "q023",
+ "net_sentences": [
+  {
+   "draft": "Among us belonging was not a chosen step: we held a whole believing city, infants included from birth, to be the covenant shape Scripture describes [[rzg.witness.why-the-children-too]] [[as:paraphrase]].",
+   "sentence": "Among us belonging was not a chosen step: we held a whole believing city, infants included from birth, to be the covenant shape Scripture describes.",
+   "tags": [
+    "rzg.witness.why-the-children-too"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Some who had once stood with our founder held that only a believer's own chosen profession makes a true member [[rzg.witness.why-the-children-too]] [[as:paraphrase]].",
+   "sentence": "Some who had once stood with our founder held that only a believer's own chosen profession makes a true member.",
+   "tags": [
+    "rzg.witness.why-the-children-too"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Their first baptisms came on 21 January 1525 at Felix Manz's house in Zurich, when Conrad Grebel baptized Georg Blaurock [[rzg.force.anabaptist-schism]] [[as:paraphrase]].",
+   "ratio": 0.92,
+   "sentence": "Their first baptisms came on 21 January 1525 at Felix Manz's house in Zurich, when Conrad Grebel baptized Georg Blaurock.",
+   "tags": [
+    "rzg.force.anabaptist-schism"
+   ],
+   "verdict": "ok",
+   "why": "grounded 92% in own tagged records"
+  },
+  {
+   "draft": "Blaurock then baptized the others present, and the split ran through our founding community from within [[rzg.force.anabaptist-schism]] [[as:paraphrase]].",
+   "sentence": "Blaurock then baptized the others present, and the split ran through our founding community from within.",
+   "tags": [
+    "rzg.force.anabaptist-schism"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "At Geneva, belonging meant answering to the Consistory, a body of pastors and lay elders that held daily conduct to account [[rzg.term.consistory]] [[as:paraphrase]].",
+   "ratio": 0.77,
+   "sentence": "At Geneva, belonging meant answering to the Consistory, a body of pastors and lay elders that held daily conduct to account.",
+   "tags": [
+    "rzg.term.consistory"
+   ],
+   "verdict": "ok",
+   "why": "grounded 77% in own tagged records"
+  },
+  {
+   "draft": "John Calvin set down his reading of Paul's governors: [[quote:rzg.quote.seniors-selected-from-the-people]]",
+   "placed_quote": "rzg.quote.seniors-selected-from-the-people",
+   "sentence": "John Calvin set down his reading of Paul's governors: “By these governors I mean elders chosen from the people. They join with the pastors to declare censures and to carry out discipline.”",
+   "tags": [
+    "rzg.quote.seniors-selected-from-the-people"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "Zurich had no such body, and its council ruled church and city directly [[rzg.term.consistory]] [[as:paraphrase]].",
+   "sentence": "Zurich had no such body, and its council ruled church and city directly.",
+   "tags": [
+    "rzg.term.consistory"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Who held the final word over discipline, we never settled between our two cities [[rzg.witness.what-we-have-not-agreed]] [[as:paraphrase]].",
+   "ratio": 0.88,
+   "sentence": "Who held the final word over discipline, we never settled between our two cities.",
+   "tags": [
+    "rzg.witness.what-we-have-not-agreed"
+   ],
+   "verdict": "ok",
+   "why": "grounded 88% in own tagged records"
+  },
+  {
+   "draft": "What belonging cost an ordinary citizen, day by day, has not reached us in our own words [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].",
+   "sentence": "What belonging cost an ordinary citizen, day by day, has not reached us in our own words.",
+   "tags": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "rzg.witness.what-we-have-not-agreed",
+  "rzg.story.calvins-journey-to-zurich",
+  "rzg.story.first-zurich-disputation",
+  "rzg.quote.seniors-selected-from-the-people",
+  "rzg.force.perrinist-crisis",
+  "rzg.witness.why-the-children-too",
+  "rzg.force.anabaptist-schism"
+ ],
+ "raw_text": "Among us belonging was not a chosen step: we held a whole believing city, infants included from birth, to be the covenant shape Scripture describes [[rzg.witness.why-the-children-too]] [[as:paraphrase]]. Some who had once stood with our founder held that only a believer's own chosen profession makes a true member [[rzg.witness.why-the-children-too]] [[as:paraphrase]]. Their first baptisms came on 21 January 1525 at Felix Manz's house in Zurich, when Conrad Grebel baptized Georg Blaurock [[rzg.force.anabaptist-schism]] [[as:paraphrase]]. Blaurock then baptized the others present, and the split ran through our founding community from within [[rzg.force.anabaptist-schism]] [[as:paraphrase]]. At Geneva, belonging meant answering to the Consistory, a body of pastors and lay elders that held daily conduct to account [[rzg.term.consistory]] [[as:paraphrase]]. John Calvin set down his reading of Paul's governors: [[quote:rzg.quote.seniors-selected-from-the-people]] [[as:paraphrase]]. Zurich had no such body, and its council ruled church and city directly [[rzg.term.consistory]] [[as:paraphrase]]. Who held the final word over discipline, we never settled between our two cities [[rzg.witness.what-we-have-not-agreed]] [[as:paraphrase]]. What belonging cost an ordinary citizen, day by day, has not reached us in our own words [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "rzg.quote.seniors-selected-from-the-people": [
+    {
+     "detail": "Paul",
+     "kind": "name",
+     "snippet": "pronouncing censures and exercising discipline Calvin reads Paul's governors as elders chosen from the people who join the pas",
+     "span": "record rzg.quote.seniors-selected-from-the-people"
+    },
+    {
+     "detail": "governor",
+     "kind": "role",
+     "snippet": "By these governors I mean elders chosen from the people. They join with the pa",
+     "span": "record rzg.quote.seniors-selected-from-the-people"
+    }
+   ]
+  },
+  "placed": [
+   "rzg.quote.seniors-selected-from-the-people"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C12.S6",
+ "text": "Among us belonging was not a chosen step: we held a whole believing city, infants included from birth, to be the covenant shape Scripture describes. Some who had once stood with our founder held that only a believer's own chosen profession makes a true member. Their first baptisms came on 21 January 1525 at Felix Manz's house in Zurich, when Conrad Grebel baptized Georg Blaurock. Blaurock then baptized the others present, and the split ran through our founding community from within. At Geneva, belonging meant answering to the Consistory, a body of pastors and lay elders that held daily conduct to account. John Calvin set down his reading of Paul's governors: “By these governors I mean elders chosen from the people. They join with the pastors to declare censures and to carry out discipline.”. Zurich had no such body, and its council ruled church and city directly. Who held the final word over discipline, we never settled between our two cities. What belonging cost an ordinary citizen, day by day, has not reached us in our own words.",
+ "voice_set_aside": false
+}

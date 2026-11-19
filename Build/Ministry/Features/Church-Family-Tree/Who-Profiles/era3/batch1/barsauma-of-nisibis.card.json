@@ -1,0 +1,107 @@
+{
+  "name": "Barsauma of Nisibis",
+  "otherNames": [
+    "Bar Sauma",
+    "Barsumas"
+  ],
+  "knownFor": "Bishop of Nisibis on the Persian frontier, who held a synod at Beth Lapat against the catholicos Babai, then retracted it in letters to Babai's successor Acacius of Seleucia-Ctesiphon, and who welcomed Narsai of Nisibis and helped him found the school of Nisibis.",
+  "dates": "At the school of Edessa still in 449 and expelled in 457, by Jean-Baptiste Chabot's note; bishop through King Peroz, by Chabot, or from 435, by the later writers Addai Scher cites; the synod of Beth Lapat in April 484 and the reconciliation in August 485, by Chabot's reckoning. Chabot says his death year is unknown and came after 491",
+  "place": "Edessa; Nisibis; Beth Lapat; Beth Edrai",
+  "tradition": "The Church of the East under Persia",
+  "role": "Bishop of Nisibis",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Letters to the catholicos Acacius and to the bishops",
+      "about": "six letters kept in the Synodicon orientale, five to Acacius and one, from Barsauma and his bishops, to five bishops, retracting the synod of Beth Lapat and reporting drought, raids and unrest at Nisibis; in Chabot's French"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The compiler of the Synodicon orientale left the synod of Beth Lapat out of the synods of the Fathers, because Barsauma himself had annulled it; the compiler kept his letters of retraction instead.",
+      "R. H. Connolly, translating Narsai, writes that the founding of the school of Nisibis by Narsai and his friend Barsauma, bishop of the city, began the formation of \"what is now known as the Nestorian Church\"."
+    ],
+    "remembered": [
+      "Barhadbeshabba 'Arbaia, of his own church, praises his quick mind; the Cause of the Foundation of the Schools, by Barhadbeshabba, bishop of Halwan, says he \"composa lui aussi beaucoup d'homélies\".",
+      "Bar Hebraeus, a hostile Syriac Orthodox chronicler, calls him blasphemous and charges him with Babai's death and with killing those who refused his teaching.",
+      "Jean-Baptiste Chabot regrets the loss of the rest of the letters \"du fougueux évêque de Nisibe\", the fiery bishop of Nisibis."
+    ]
+  },
+  "uncertain": [
+    "Much of his story comes from writers of other churches or centuries later. Bar Hebraeus, a Syriac Orthodox chronicler of the 1200s, is hostile, and Chabot calls him very inaccurate on Barsauma. Mari ibn Sulayman wrote in the 1100s. Barhadbeshabba 'Arbaia, of Barsauma's own church, is friendly. His own six letters are the nearest witness.",
+    "When he became bishop is disputed. Chabot puts it after his expulsion from Edessa in 457; Abbeloos and Lamy, editing Bar Hebraeus, cite Simeon of Beth Arsham for the same. Addai Scher cites Elias and Ebedjesu of Nisibis for 435, and Abbeloos and Lamy note a Vatican manuscript with that date.",
+    "That he caused Babai's death rests on later writers. Bar Hebraeus says so, and Chabot says Bar Hebraeus took the story, without naming it, from the letter of Maruta of Tagrit, written from oral tradition more than a century and a half later. Mari ibn Sulayman tells of the accusation and a report that Barsauma soon regretted it. 'Amr says Barsauma sent Babai's letter to the king unopened and the physician Gabriel twisted it. Barsauma's own letters say only that Satan stirred up a quarrel between them.",
+    "His marriage is told two ways. Mari says he married a nun and made marriage lawful for bishops and priests. Bar Hebraeus calls her a concubine kept in his cell.",
+    "That he spread his teaching by force with the king's troops is Chabot's reading of the later writers, and Chabot hedges his remark that the king made him governor of the city. The count of 7,700 dead is a report Bar Hebraeus repeats.",
+    "The quarrel with Narsai over Barsauma's wife is told by Barhadbeshabba 'Arbaia, and later by Mari and Bar Hebraeus. All say the two were reconciled.",
+    "Chabot says the year of his death is unknown, after 491. Bar Hebraeus gives two reports: that nuns of Tur Abdin killed him with the keys of their cells, or that his tomb was shown in the church of Mar Jacob at Nisibis.",
+    "Not the archimandrite Barsauma at Ephesus in 449 and Chalcedon, nor Barsauma of Susa."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letters to Acacius and to the bishops, in the Synodicon orientale (ed. and tr. J.-B. Chabot)",
+        "language": "French translation",
+        "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Cause of the Foundation of the Schools (tr. Addai Scher)",
+        "author": "Barhadbeshabba 'Arbaia, bishop of Halwan",
+        "date": null,
+        "language": "French translation",
+        "file": "cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt"
+      },
+      {
+        "title": "Ecclesiastical History, the life of Narsai (tr. François Nau)",
+        "author": "Barhadbeshabba 'Arbaia",
+        "date": null,
+        "language": "French translation",
+        "file": "cic/texts/po09_barhadbeshabba-ecclesiastical-history-part2-and-others-fra_1913.txt"
+      },
+      {
+        "title": "On the patriarchs of the East (tr. Henricus Gismondi)",
+        "author": "Mari ibn Sulayman",
+        "date": null,
+        "language": "Latin translation",
+        "file": "cic/texts/mari-ibn-sulayman_de-patriarchis-nestorianorum-commentaria-pars-prior-ara-lat_gismondi1899.txt"
+      },
+      {
+        "title": "Ecclesiastical Chronicle, volume III (tr. J.-B. Abbeloos and T. J. Lamy)",
+        "author": "Bar Hebraeus",
+        "date": null,
+        "language": "Latin translation",
+        "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt"
+      },
+      {
+        "title": "The Liturgical Homilies of Narsai, introduction (R. H. Connolly)",
+        "author": "R. H. Connolly",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/narsai_liturgical-homilies_connolly1909.txt"
+      },
+      {
+        "title": "On the patriarchs of the East, part two (tr. Henricus Gismondi)",
+        "author": "'Amr ibn Matta",
+        "date": null,
+        "language": "Latin translation",
+        "file": "cic/texts/amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt"
+      },
+      {
+        "title": "Chronicle, volume II (tr. J.-B. Chabot)",
+        "author": "Michael the Syrian",
+        "date": null,
+        "language": "French translation",
+        "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt"
+      },
+      {
+        "title": "Le christianisme dans l'empire perse sous la dynastie sassanide",
+        "author": "Jérôme Labourt",
+        "date": null,
+        "language": "French",
+        "file": "cic/texts/labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904.txt"
+      }
+    ]
+  }
+}

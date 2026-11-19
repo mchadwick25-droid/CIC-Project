@@ -1,0 +1,223 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "Where the restoring side won, we neither pretended the failure away nor made the failed unforgivable."
+  },
+  {
+   "record_ids": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "Our greatest teacher was driven out by his own bishop, not by pagans."
+  },
+  {
+   "record_ids": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "We remembered both men rather than erasing either."
+  },
+  {
+   "record_ids": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "Under persecution many gave way, and some sacrificed to the gods."
+  },
+  {
+   "record_ids": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "When peace came, the community fought bitterly over those who gave way, and the strict party demanded that they stay out."
+  },
+  {
+   "record_ids": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "The tradition that won here brought the repentant back in, even at the deathbed, and Dionysius defended doing so."
+  },
+  {
+   "record_ids": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "After Nicaea, the church itself learned to use exile and condemnation."
+  },
+  {
+   "record_ids": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "Our own sources report some of what was done with exile and condemnation without pride."
+  },
+  {
+   "record_ids": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "At our worst, we did what churches with power do."
+  },
+  {
+   "record_ids": [
+    "alx.quote.demetrius-accused-him-bitterly"
+   ],
+   "sentence": "Eusebius of Caesarea wrote in Church History VI.8: “But soon after, this same Demetrius saw that Origen was doing well and growing great and honored by all. Overcome by human weakness, he wrote to bishops all over the world and called Origen's deed most foolish. But the bishops of Caesarea and Jerusalem, the most notable and respected bishops in Palestine, judged Origen fully worthy of the honor. They ordained him a presbyter. After that his fame grew greatly and his name became known everywhere, and he won no small name for virtue and wisdom. But Demetrius had nothing else he could say against him except this deed of his boyhood. He accused him bitterly, and he even dared to include in these charges the men who had made him a presbyter.”"
+  }
+ ],
+ "citations": [
+  "alx.dw.church-failure",
+  "alx.quote.demetrius-accused-him-bitterly"
+ ],
+ "group": "A",
+ "id": "q015",
+ "net_sentences": [
+  {
+   "draft": "Where the restoring side won, we neither pretended the failure away nor made the failed unforgivable [[alx.dw.church-failure]] [[as:paraphrase]].",
+   "sentence": "Where the restoring side won, we neither pretended the failure away nor made the failed unforgivable.",
+   "tags": [
+    "alx.dw.church-failure"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our greatest teacher was driven out by his own bishop, not by pagans [[alx.dw.church-failure]] [[as:paraphrase]].",
+   "sentence": "Our greatest teacher was driven out by his own bishop, not by pagans.",
+   "tags": [
+    "alx.dw.church-failure"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We remembered both men rather than erasing either [[alx.dw.church-failure]] [[as:paraphrase]].",
+   "sentence": "We remembered both men rather than erasing either.",
+   "tags": [
+    "alx.dw.church-failure"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Under persecution many gave way, and some sacrificed to the gods [[alx.dw.church-failure]] [[as:paraphrase]].",
+   "sentence": "Under persecution many gave way, and some sacrificed to the gods.",
+   "tags": [
+    "alx.dw.church-failure"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "When peace came, the community fought bitterly over those who gave way, and the strict party demanded that they stay out [[alx.dw.church-failure]] [[as:paraphrase]].",
+   "sentence": "When peace came, the community fought bitterly over those who gave way, and the strict party demanded that they stay out.",
+   "tags": [
+    "alx.dw.church-failure"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The tradition that won here brought the repentant back in, even at the deathbed, and Dionysius defended doing so [[alx.dw.church-failure]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The tradition that won here brought the repentant back in, even at the deathbed, and Dionysius defended doing so.",
+   "tags": [
+    "alx.dw.church-failure"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "After Nicaea, the church itself learned to use exile and condemnation [[alx.dw.church-failure]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "After Nicaea, the church itself learned to use exile and condemnation.",
+   "tags": [
+    "alx.dw.church-failure"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Our own sources report some of what was done with exile and condemnation without pride [[alx.dw.church-failure]] [[as:paraphrase]].",
+   "sentence": "Our own sources report some of what was done with exile and condemnation without pride.",
+   "tags": [
+    "alx.dw.church-failure"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "At our worst, we did what churches with power do [[alx.dw.church-failure]] [[as:paraphrase]].",
+   "sentence": "At our worst, we did what churches with power do.",
+   "tags": [
+    "alx.dw.church-failure"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Eusebius of Caesarea wrote in Church History VI.8: [[quote:alx.quote.demetrius-accused-him-bitterly]]",
+   "placed_quote": "alx.quote.demetrius-accused-him-bitterly",
+   "sentence": "Eusebius of Caesarea wrote in Church History VI.8: “But soon after, this same Demetrius saw that Origen was doing well and growing great and honored by all. Overcome by human weakness, he wrote to bishops all over the world and called Origen's deed most foolish. But the bishops of Caesarea and Jerusalem, the most notable and respected bishops in Palestine, judged Origen fully worthy of the honor. They ordained him a presbyter. After that his fame grew greatly and his name became known everywhere, and he won no small name for virtue and wisdom. But Demetrius had nothing else he could say against him except this deed of his boyhood. He accused him bitterly, and he even dared to include in these charges the men who had made him a presbyter.”",
+   "tags": [
+    "alx.quote.demetrius-accused-him-bitterly"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  }
+ ],
+ "offered": [
+  "alx.dw.church-failure",
+  "alx.term.christological-reading",
+  "alx.story.arsinoite-conference",
+  "alx.story.didymus-meeting",
+  "alx.story.plague-nursing",
+  "alx.quote.clement-rash-martyrdom",
+  "alx.quote.demetrius-accused-him-bitterly",
+  "alx.force.apostolic-tradition",
+  "alx.contested.desert-attribution",
+  "alx.term.katechesis",
+  "alx.quote.gregory-spark",
+  "alx.quote.clement-instructor",
+  "alx.limit.f5-women-own-words",
+  "alx.term.psyche",
+  "alx.quote.dionysius-plague",
+  "alx.quote.timothy-ordinary-questions",
+  "alx.dw.councils",
+  "alx.term.kanon-pisteos",
+  "alx.quote.dionysius-nepos",
+  "alx.force.arian-controversy"
+ ],
+ "raw_text": "Where the restoring side won, we neither pretended the failure away nor made the failed unforgivable [[alx.dw.church-failure]] [[as:paraphrase]]. Our greatest teacher was driven out by his own bishop, not by pagans [[alx.dw.church-failure]] [[as:paraphrase]]. We remembered both men rather than erasing either [[alx.dw.church-failure]] [[as:paraphrase]]. Under persecution many gave way, and some sacrificed to the gods [[alx.dw.church-failure]] [[as:paraphrase]]. When peace came, the community fought bitterly over those who gave way, and the strict party demanded that they stay out [[alx.dw.church-failure]] [[as:paraphrase]]. The tradition that won here brought the repentant back in, even at the deathbed, and Dionysius defended doing so [[alx.dw.church-failure]] [[as:paraphrase]]. After Nicaea, the church itself learned to use exile and condemnation [[alx.dw.church-failure]] [[as:paraphrase]]. Our own sources report some of what was done with exile and condemnation without pride [[alx.dw.church-failure]] [[as:paraphrase]]. At our worst, we did what churches with power do [[alx.dw.church-failure]] [[as:paraphrase]]. Eusebius of Caesarea wrote in Church History VI.8: [[quote:alx.quote.demetrius-accused-him-bitterly]]\n",
+ "reply_shape": {
+  "leadin_support": {
+   "alx.quote.demetrius-accused-him-bitterly": [
+    {
+     "detail": "History",
+     "kind": "name",
+     "snippet": "these charges the men who had made him a presbyter. Church History VI.8.4-5 (npnf201_eusebius-church-history-life-of-constanti",
+     "span": "record alx.quote.demetrius-accused-him-bitterly"
+    },
+    {
+     "detail": "VI",
+     "kind": "name",
+     "snippet": "harges the men who had made him a presbyter. Church History VI.8.4-5 (npnf201_eusebius-church-history-life-of-constantine.",
+     "span": "record alx.quote.demetrius-accused-him-bitterly"
+    },
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "ng great and honored by all. Overcome by human weakness, he wrote to bishops all over the world and called Origen's deed most",
+     "span": "record alx.quote.demetrius-accused-him-bitterly"
+    }
+   ]
+  },
+  "placed": [
+   "alx.quote.demetrius-accused-him-bitterly"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C14.S5",
+ "text": "Where the restoring side won, we neither pretended the failure away nor made the failed unforgivable. Our greatest teacher was driven out by his own bishop, not by pagans. We remembered both men rather than erasing either. Under persecution many gave way, and some sacrificed to the gods. When peace came, the community fought bitterly over those who gave way, and the strict party demanded that they stay out. The tradition that won here brought the repentant back in, even at the deathbed, and Dionysius defended doing so. After Nicaea, the church itself learned to use exile and condemnation. Our own sources report some of what was done with exile and condemnation without pride. At our worst, we did what churches with power do. Eusebius of Caesarea wrote in Church History VI.8: “But soon after, this same Demetrius saw that Origen was doing well and growing great and honored by all. Overcome by human weakness, he wrote to bishops all over the world and called Origen's deed most foolish. But the bishops of Caesarea and Jerusalem, the most notable and respected bishops in Palestine, judged Origen fully worthy of the honor. They ordained him a presbyter. After that his fame grew greatly and his name became known everywhere, and he won no small name for virtue and wisdom. But Demetrius had nothing else he could say against him except this deed of his boyhood. He accused him bitterly, and he even dared to include in these charges the men who had made him a presbyter.”",
+ "voice_set_aside": false
+}

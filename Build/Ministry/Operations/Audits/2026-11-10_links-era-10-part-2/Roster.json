@@ -1,0 +1,200 @@
+[
+ {
+  "atlasId": "IX.4",
+  "id": "african-initiated-churches-harrist-aladura-zioni",
+  "name": "African-Initiated Churches (Harrist; Aladura; Zionist/ZCC; Kimbanguist)",
+  "lane": "Africa"
+ },
+ {
+  "atlasId": "IX.7",
+  "id": "catholic-lay-renewal-worlds-catholic-worker-foco",
+  "name": "Catholic Lay Renewal Traditions (Catholic Worker; Focolare; Charismatic Renewal; L'Arche)",
+  "lane": "Latin West & Catholicism"
+ },
+ {
+  "atlasId": "IX.8",
+  "id": "latin-american-base-communities",
+  "name": "Latin American Base Communities",
+  "lane": "Latin West & Catholicism"
+ },
+ {
+  "atlasId": "IX.9",
+  "id": "emigre-orthodoxy-and-the-paris-school",
+  "name": "Emigre Orthodoxy & the Paris School",
+  "lane": "Greek East & Orthodoxy"
+ },
+ {
+  "atlasId": "IX.10",
+  "id": "the-coptic-monastic-and-sunday-school-revival",
+  "name": "The Coptic Monastic & Sunday-School Revival",
+  "lane": "Africa"
+ },
+ {
+  "atlasId": "IX.14",
+  "id": "ecumenical-community-worlds-taize-and-iona",
+  "name": "Ecumenical Community Traditions - Taize & Iona",
+  "lane": "Latin West / Protestant \u2014 bridge"
+ },
+ {
+  "atlasId": "IX.15",
+  "id": "oneness-pentecostalism",
+  "name": "Oneness Pentecostalism",
+  "lane": "Non-Nicene Traditions"
+ },
+ {
+  "atlasId": "IX.16",
+  "id": "iglesia-ni-cristo-the-way-international-unificat",
+  "name": "The Way International; Unification Church; La Luz del Mundo",
+  "lane": "Non-Nicene Traditions"
+ },
+ {
+  "atlasId": "IX.17",
+  "id": "branch-davidians-and-apocalyptic-splinters",
+  "name": "Branch Davidians & Apocalyptic Splinters",
+  "lane": "Non-Nicene Traditions"
+ },
+ {
+  "atlasId": "IX.19",
+  "id": "the-sayfo-and-the-syriac-diaspora",
+  "name": "The Sayfo & the Syriac Diaspora",
+  "lane": "Syriac East & Asia"
+ },
+ {
+  "atlasId": "IX.20",
+  "id": "modern-ethiopian-and-eritrean-christianity",
+  "name": "Modern Ethiopian & Eritrean Christianity",
+  "lane": "Africa"
+ },
+ {
+  "atlasId": "IX.21",
+  "id": "the-ukrainian-greek-catholic-underground",
+  "name": "The Ukrainian Greek Catholic Underground",
+  "lane": "Greek East / Latin West \u2014 bridge"
+ },
+ {
+  "atlasId": "IX.22",
+  "id": "the-russian-new-martyrs-and-the-catacomb-church",
+  "name": "The Russian New Martyrs & the Catacomb Church",
+  "lane": "Greek East & Orthodoxy"
+ },
+ {
+  "atlasId": "IX.23",
+  "id": "the-post-vatican-ii-parish-world",
+  "name": "The Post-Vatican-II Parish Tradition",
+  "lane": "Latin West & Catholicism"
+ },
+ {
+  "atlasId": "IX.25",
+  "id": "african-diaspora-and-reverse-mission-churches-in",
+  "name": "African Diaspora & Reverse-Mission Churches in Europe",
+  "lane": "Africa"
+ },
+ {
+  "atlasId": "IX.27",
+  "id": "the-armenian-church-after-the-genocide-medz-yegh",
+  "name": "The Armenian Church after the Genocide (Medz Yeghern)",
+  "lane": "Caucasus"
+ },
+ {
+  "atlasId": "IX.39",
+  "id": "the-malankara-churches-orthodox-and-jacobite",
+  "name": "The Malankara Churches \u2014 Orthodox & Jacobite",
+  "lane": "Syriac East & Asia"
+ },
+ {
+  "atlasId": "IX.40",
+  "id": "the-georgian-orthodox-church-restored",
+  "name": "The Georgian Orthodox Church Restored",
+  "lane": "Caucasus"
+ },
+ {
+  "atlasId": "IX.47",
+  "id": "the-catholic-church-pius-x-to-the-council",
+  "name": "The Catholic Church \u2014 Pius X to the Eve of the Council",
+  "lane": "Latin West & Catholicism"
+ },
+ {
+  "atlasId": "IX.48",
+  "id": "american-orthodoxy-autocephaly-and-the-convert-wave",
+  "name": "American Orthodoxy \u2014 Autocephaly & the Convert Wave",
+  "lane": "Greek East & Orthodoxy"
+ },
+ {
+  "atlasId": "IX.51",
+  "id": "iglesia-ni-cristo",
+  "name": "Iglesia ni Cristo",
+  "lane": "Non-Nicene Traditions"
+ },
+ {
+  "atlasId": "IX.56",
+  "id": "the-liturgical-movement",
+  "name": "The Liturgical Movement",
+  "lane": "Latin West / Protestant \u2014 bridge"
+ },
+ {
+  "atlasId": "IX.59",
+  "id": "the-catholic-church-in-africa-twentieth-century",
+  "name": "The Catholic Church in Africa in the Twentieth Century",
+  "lane": "Africa / Latin West \u2014 bridge"
+ },
+ {
+  "atlasId": "IX.61",
+  "id": "sudanese-christianity-through-the-civil-wars",
+  "name": "Sudanese Christianity through the Civil Wars",
+  "lane": "Africa"
+ },
+ {
+  "atlasId": "IX.62",
+  "id": "latin-american-catholicism-twentieth-century",
+  "name": "Latin American Catholicism in the Twentieth Century",
+  "lane": "Latin West & Catholicism"
+ },
+ {
+  "atlasId": "IX.65",
+  "id": "chinese-catholicism-twentieth-century",
+  "name": "Chinese Catholicism \u2014 the First Chinese Bishops to the Divided Church",
+  "lane": "Latin West & Catholicism"
+ },
+ {
+  "atlasId": "IX.66",
+  "id": "philippine-catholicism-twentieth-century",
+  "name": "Philippine Catholicism in the Twentieth Century",
+  "lane": "Latin West & Catholicism"
+ },
+ {
+  "atlasId": "IX.67",
+  "id": "philippine-independent-church-twentieth-century",
+  "name": "The Philippine Independent Church in the Twentieth Century",
+  "lane": "Latin West / Protestant \u2014 bridge"
+ },
+ {
+  "atlasId": "IX.69",
+  "id": "the-russian-orthodox-church-council-patriarchate-and-reunion",
+  "name": "The Russian Orthodox Church \u2014 Council, Patriarchate and Reunion",
+  "lane": "Greek East & Orthodoxy"
+ },
+ {
+  "atlasId": "IX.70",
+  "id": "polish-catholicism-wyszynski-and-john-paul-ii",
+  "name": "Polish Catholicism \u2014 Wyszy\u0144ski and John Paul II",
+  "lane": "Latin West & Catholicism"
+ },
+ {
+  "atlasId": "IX.71",
+  "id": "orthodoxy-in-the-communist-balkans",
+  "name": "Orthodoxy in the Communist Balkans \u2014 the Serbian, Romanian, Bulgarian and Albanian Churches",
+  "lane": "Greek East & Orthodoxy"
+ },
+ {
+  "atlasId": "IX.72",
+  "id": "the-greek-church-and-the-ecumenical-patriarchate",
+  "name": "The Greek Church and the Ecumenical Patriarchate in the Twentieth Century",
+  "lane": "Greek East & Orthodoxy"
+ },
+ {
+  "atlasId": "IX.73",
+  "id": "the-romanian-greek-catholic-church-suppression-and-return",
+  "name": "The Romanian Greek Catholic Church \u2014 Suppression and Return",
+  "lane": "Greek East / Latin West \u2014 bridge"
+ }
+]

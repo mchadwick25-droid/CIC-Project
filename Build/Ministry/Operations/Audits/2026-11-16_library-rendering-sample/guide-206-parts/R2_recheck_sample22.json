@@ -1,0 +1,231 @@
+{
+ "parts": [
+  {
+   "lines": [
+    262,
+    393
+   ],
+   "group": "fixed-substantial",
+   "verdict": "sound",
+   "findings": []
+  },
+  {
+   "lines": [
+    7922,
+    8049
+   ],
+   "group": "fixed-substantial",
+   "verdict": "sound",
+   "findings": []
+  },
+  {
+   "lines": [
+    8538,
+    8652
+   ],
+   "group": "whose-view-changed",
+   "verdict": "sound",
+   "findings": []
+  },
+  {
+   "lines": [
+    10615,
+    10692
+   ],
+   "group": "whose-view-changed",
+   "verdict": "sound",
+   "findings": []
+  },
+  {
+   "lines": [
+    7739,
+    7830
+   ],
+   "group": "whose-view-changed",
+   "verdict": "sound",
+   "findings": []
+  },
+  {
+   "lines": [
+    8485,
+    8537
+   ],
+   "group": "whose-view-changed",
+   "verdict": "sound",
+   "findings": []
+  },
+  {
+   "lines": [
+    3888,
+    4037
+   ],
+   "group": "whose-view-changed",
+   "verdict": "sound",
+   "findings": []
+  },
+  {
+   "lines": [
+    12914,
+    13000
+   ],
+   "group": "whose-view-changed",
+   "verdict": "sound",
+   "findings": []
+  },
+  {
+   "lines": [
+    1797,
+    1922
+   ],
+   "group": "whose-view-changed",
+   "verdict": "sound",
+   "findings": []
+  },
+  {
+   "lines": [
+    5698,
+    5857
+   ],
+   "group": "whose-view-changed",
+   "verdict": "minor",
+   "findings": [
+    {
+     "fault": 1,
+     "severity": "minor",
+     "detail": "5845-5848: 'Ook elders, waar Stahl in zijne analogiën tusschen puritanisme en revolutie, m. i., misschien te ver gaat, stelt hij, te midden van schijnbare verwantschap, de tegenstrijdigheid der beginselen in het licht.' Groen's point is praise: even where Stahl perhaps goes too far, he still shows the principles are opposed. The covers keeps only the criticism, so it reads as if Groen faults Stahl for likening Puritanism to revolution.",
+     "fix": "Groen adds that even where Stahl perhaps goes too far in likening Puritanism to revolution, he still shows their principles are opposed."
+    }
+   ]
+  },
+  {
+   "lines": [
+    15972,
+    16117
+   ],
+   "group": "whose-view-changed",
+   "verdict": "minor",
+   "findings": [
+    {
+     "fault": 2,
+     "severity": "minor",
+     "detail": "16003-16004 'Zeer mogelijk is het dat Guizot te zeer op het pays légal gelet ... heeft' and 16031-16033 'Het is zeer mogelijk dat Guizot wèl zou hebben gedaan door ... het initiatief te nemen, en dat ... het gezag zich nog eenigen tijd zou hebben gehandhaafd.' Groen's doubt about the franchise view comes with this concession; the covers gives the doubt alone, so it reads flatter than he wrote.",
+     "fix": "Groen doubts this. He grants that a wider franchise might have kept the government a while longer, but he separates occasion from cause. The aim, he says, was again the theories of 1789."
+    }
+   ]
+  },
+  {
+   "lines": [
+    8997,
+    9089
+   ],
+   "group": "whose-view-changed",
+   "verdict": "sound",
+   "findings": []
+  },
+  {
+   "lines": [
+    7310,
+    7407
+   ],
+   "group": "fresh",
+   "verdict": "sound",
+   "findings": []
+  },
+  {
+   "lines": [
+    4586,
+    4651
+   ],
+   "group": "fresh",
+   "verdict": "minor",
+   "findings": [
+    {
+     "fault": 2,
+     "severity": "minor",
+     "detail": "4638-4640 'In de verbastering der europesche Staten was aanleiding genoeg om, zoo hervormende wijsheid ontbrak, schrikbarende uitbarsting te bewerken.' Groen's concession holds only if reforming wisdom was lacking; the covers drops this condition.",
+     "fix": "He grants that, without reforming wisdom, the abuses alone could have caused an upheaval with ruined castles and fallen thrones."
+    }
+   ]
+  },
+  {
+   "lines": [
+    16409,
+    16487
+   ],
+   "group": "fresh",
+   "verdict": "sound",
+   "findings": []
+  },
+  {
+   "lines": [
+    465,
+    613
+   ],
+   "group": "fresh",
+   "verdict": "sound",
+   "findings": []
+  },
+  {
+   "lines": [
+    9299,
+    9421
+   ],
+   "group": "fresh",
+   "verdict": "minor",
+   "findings": [
+    {
+     "fault": 4,
+     "severity": "minor",
+     "detail": "9347-9355: Groen answers the statesmen's reasoning: it is sound only if the compass is true, 'Want indien het kompas bedriegelijk en de theorie valsch is ...', 'Gij wilt op verstandige manier dwaas zijn'; and 9356-9366 their work keeps the historic only in outward forms and names. The covers gives the statesmen's view ('Sober statesmen ...') without his rebuttal; the first sentence ('the doctrine has not been given up') only partly carries his stand.",
+     "fix": "Statesmen blame only the application and try again with caution. Groen answers that if the theory is false, this is only being foolish in a reasoned way; old forms return with the new spirit inside them."
+    }
+   ]
+  },
+  {
+   "lines": [
+    1073,
+    1142
+   ],
+   "group": "fresh",
+   "verdict": "sound",
+   "findings": []
+  },
+  {
+   "lines": [
+    16281,
+    16408
+   ],
+   "group": "fresh",
+   "verdict": "sound",
+   "findings": []
+  },
+  {
+   "lines": [
+    5197,
+    5383
+   ],
+   "group": "fresh",
+   "verdict": "sound",
+   "findings": []
+  },
+  {
+   "lines": [
+    5948,
+    5987
+   ],
+   "group": "fresh",
+   "verdict": "sound",
+   "findings": []
+  },
+  {
+   "lines": [
+    16617,
+    16716
+   ],
+   "group": "fresh",
+   "verdict": "sound",
+   "findings": []
+  }
+ ],
+ "overall": "The revision fixed the fault types it targeted. Every logged change in the two previously failed parts and in the ten whose-view parts is borne out by the Dutch, and none introduced a new error. No view is now given to the wrong person, no long footnote is left out, and no covers sentence runs past 25 words. Four minor findings remain: a dropped condition or concession, one criticism of Stahl kept while the praise in the same sentence was dropped, and one rebuttal by Groen not stated. In this sample the guide is accurate enough to rely on as a finding guide."
+}

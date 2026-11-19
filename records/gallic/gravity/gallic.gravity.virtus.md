@@ -19,7 +19,7 @@ confidence:
     Evidentiary weight set to contested because the gravity's own substance is a competition inside
     the record - Cassian against Sulpitius, with Eucherius's own Latin (Inferential/Thin wording)
     complicating the south from within - and because whether Sulpitius's virtus-organized Vita is
-    modelled on the Vita Antonii (a question Stancliffe raises; her study is not read for this
+    modeled on the Vita Antonii (a question Stancliffe raises; her study is not read for this
     build) is an open question this record does not settle. This gravity organizes the northern literature completely, but
     rests on one voice - Sulpitius's own - which is why it is held at Tensional rather than
     Primary, whatever its reach within the north.

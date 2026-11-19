@@ -1,0 +1,1052 @@
+{
+ "round": 1,
+ "fixes": [
+  {
+   "finding": "R1-01",
+   "what_changed": "Two prose changes on anglo-saxon-christianity: relationsSummary 'It became a parent of the Carolingian reform' -> 'Its churchmen later helped lead the Carolingian reform'; legacy's 'the Carolingian reform grew directly out of it' -> 'its missionaries in Germany, Boniface above all, helped the Carolingian kings reform the Frankish church'. The legacy paragraph is split into shorter sentences so it scores.",
+   "reason": "Agreed. Both claimed descent; the link is 'influenced'. Now matches the Carolingian side ('led in part by English churchmen')."
+  },
+  {
+   "finding": "R1-02",
+   "what_changed": "Both Kievan links regraded Widely Accepted -> Dominant Modern Reconstruction. Herberstein moved from primary to a secondary entry described as a sixteenth-century retelling; verification_state named-not-rechecked; notes say when each writer wrote.",
+   "reason": "One rule for all four links, the merge's own: a 1549 retelling that misplaces the mission (Bulgaria, 898) and misdates the baptism (961) cannot be the primary for ninth- and tenth-century events. The two Macedonian links already stand at Dominant Modern Reconstruction on the same ground. The README should record the rule: a sixteenth- or seventeenth-century retelling (Herberstein 1549, Kyiv Synopsis 1674) is not a primary for ninth- or tenth-century events."
+  },
+  {
+   "finding": "R1-03",
+   "what_changed": "Added Theodosius's canon (patriarch 853-858) as the earlier-side primary, three quotes from Assemani BO III.2 lines 34471-34485: the metropolitan of India among the far-off metropolitans who must send letters of communion to the patriarch every sixth year. Note rewritten to name the office on both sides. Widely Accepted stands.",
+   "reason": "Better than the proposed fix. The reviewer offered the Malabar chronicle, but it was written after 1580 (it narrates Mar Abraham's arrival in 1580, Mingana 2257-2261) and Mingana calls the tradition 'very late'. By the R1-02 rule it cannot carry ninth-century facts. Theodosius falls inside the 849-1054 window and is the canon's own text (carried in Abdisho's collection, quoted by Trigault, printed by Assemani), which is the normal way East Syriac canons survive, not a retelling."
+  },
+  {
+   "finding": "R1-04",
+   "what_changed": "Link early-benedictine-italian-monasticism--late-anglo-saxon-christianity removed (never published, so no retirement entry). late-anglo-saxon-christianity.relationsSummary qualified: 'are known for rebuilding its monasteries on the Rule of Benedict'.",
+   "reason": "Searched cic/texts (Regularis Concordia, Æthelwold, Dunstan, Oswald, Edgar, the Anglo-Saxon Chronicle) and the repo's secondary citations. Nothing vendored touches the tenth-century refounding. Blair 2005 and Mayr-Harting are cited only on the earlier entry, with no passage seen. Foxe and Gasquet do not touch the tie. So per the guidance the link goes. The why and longDescription narrate the reform as standard history and are left for the open rule (escalation)."
+  },
+  {
+   "finding": "R1-05",
+   "what_changed": "paulicians--bogomils note: last two sentences replaced so the note states both sides ('Older historians, and some modern ones, built a line ... Others point out that the Armenian sources show no dualism, and doubt the line. No Paulician or Bogomil text settles it.'). Obolensky 1948 and Stoyanov 2000 added as repo-cited secondaries.",
+   "reason": "Agreed. Contested now names the disagreement without settling it, and no longer says more than the census's own note on Garsoian."
+  },
+  {
+   "finding": "R1-06",
+   "what_changed": "heraclian--paulicians note: Constantine V sentence dropped; the note rests on Rački's account of the persecution under Michael I (811-813). Evans removed from sources, Rački's locus narrowed to 856-857 with his words.",
+   "reason": "Took the drop option. Evans, the only source for the Thrace transfer, thought the emperor may have favored them, so the transfer does not show an act against them. Rewording it with the caveat would leave a sentence that works against the link's type."
+  },
+  {
+   "finding": "R1-07",
+   "what_changed": "Link kept and rewritten: rests on Skara on both sides (founded in Sigfrid's time; in 1529-30 its provost was chosen bishop and confirmed by the Uppsala council), states the Danish break (bishops jailed in 1536, superintendents in each diocese from 1537, with the 1537 Ordinatio as a primary), Lund dropped. scandinavian-conversion-christianity.legacy qualified: no 'existed continuously ever since'; Sweden 'often kept the old sees and cathedrals and reformed them'; 'Denmark broke more sharply. In 1536 it jailed its bishops and handed their work to new men.'",
+   "reason": "Chose on the evidence: Anjou shows the same Swedish see and chapter carried through the Reformation, and also shows the Danish bishops imprisoned (14087-14088) and replaced (14168-14169). So the link can stand as thin, if it says where the line broke. The four-century gap remains escalation 1."
+  },
+  {
+   "finding": "R1-08",
+   "what_changed": "macedonian--after-1054 note: 'runs on with no break' replaced by 'names them in order. It runs from Photius ... to the patriarchs who served under the emperor Manuel in the twelfth.'",
+   "reason": "Agreed: the vendored OCR loses the tenth- to twelfth-century entries, so it cannot show 'no break'."
+  },
+  {
+   "finding": "R1-09",
+   "what_changed": "heraclian--macedonian note: 'Photius, patriarch from 858, wrote that at the council of 787 the iconoclasts were defeated.'",
+   "reason": "Agreed; now follows Photius's words at 2239-2241."
+  },
+  {
+   "finding": "R1-10",
+   "what_changed": "bagratid--cilicia: added Matthew's lines 4943-4945 on Peter holding the office with the patrimony 'donné par nos souverains'; note gains the sentence 'When Peter held that office, Matthew adds, it had rich lands given by the Armenian kings.'",
+   "reason": "Agreed. The quoted see is now shown inside the Bagratid window as well as after it."
+  },
+  {
+   "finding": "R1-11",
+   "what_changed": "abbasids--st-thomas note rewritten around Timothy (c. 800) and Theodosius's canon of the 850s; the post-1580 Malabar chronicle dropped as a primary; no date given for the plates.",
+   "reason": "Better than the proposed fix. The reviewer's note kept the late chronicle and dated the plates 'about 849'. The chronicle falls under the R1-02 rule, and Mingana, the only vendored source on the plates, dates the deed 'about the year 824' (3857). Theodosius (853-858) puts the tie inside both entries' windows, which was the point of the finding."
+  },
+  {
+   "finding": "R1-12",
+   "what_changed": "heraclian--iconophile note: 'Later historians write that the emperor then pressed the monks to obey. Many fled, they say, and some were killed.'",
+   "reason": "Agreed: the persecution rests on Sinclair and Harnack in Percival's excursus, not on the 754 curse."
+  },
+  {
+   "finding": "R1-13",
+   "what_changed": "mozarabic-christianity.legacy: 'Its liturgy, though, outlasted most of the people who had kept it.'",
+   "reason": "Agreed; no longer contradicts the Toledo community in the sentence before."
+  },
+  {
+   "finding": "R1-14",
+   "what_changed": "cluniac-reform-monasticism.relationsSummary: 'No named founder, though, ties it to that reform.' dropped; first sentence and the Peter the Venerable sentence split to score; held Cistercian sentence's subject made explicit ('Cluny may have become'), hedge unchanged.",
+   "reason": "Better than the proposed wording, which still has the project talk about its own holdings ('no source here shows'). The remaining first sentence claims only the shared Rule, which is exactly what the Inferential-Thin link carries. The Cistercian 'may have' sentences are held for the standard-history rule (escalation)."
+  },
+  {
+   "finding": "R1-15",
+   "what_changed": "medieval-irish-christianity.why: 'The church in Ireland from 664, the year of the Synod of Whitby, to 1169, when the Anglo-Norman invasion began.' medieval-welsh-christianity.why: 'The church in Wales from 768, when the Britons took up the Roman Easter, to the English conquest of 1282.'",
+   "reason": "Agreed, with one change: 'Anglo-Norman invasion' rather than 'English invasion' for 1169. Whitby and 768 are in the continued-as notes' own sources."
+  },
+  {
+   "finding": "R1-16",
+   "what_changed": "relationsSummary rewritten for paulicians ('The Byzantine emperors moved them from their homes in large numbers. Most of what we know of them comes from their enemies.'), byzantine-imperial-church-macedonian (recast as sentences; 'parent context' and 'receives the 1054 schism itself' gone; 'It ends with the break of 1054.') and byzantine-imperial-church-heraclian-iconoclast (recast as sentences; 'as rivals inside' gone). Bagratid left for escalation 14.",
+   "reason": "Agreed. The two Byzantine summaries were colon-and-semicolon lists that could not score, so they became sentences; no fact added beyond the old summary and the movement's own why."
+  },
+  {
+   "finding": "R1-17",
+   "what_changed": "bogomils.legacy: 'Historians trace the movement on into the Bogomils of the Balkans in the 1100s and 1200s. It died out only under Ottoman rule and pressure from both Catholics and Orthodox.' Two later sentences reworded only to make the paragraph score ('claimed the link'; 'that survives was written by someone who opposed it').",
+   "reason": "Agreed. Also dropped 'continued in the Balkans for centuries', which made the same claim."
+  },
+  {
+   "finding": "R1-18",
+   "what_changed": "Iviron note: 'Brosset ... puts the founding at about 976, though others date it to between 980 and 983.' Iconophile-Athonite note: 'No source shows Athos's founders taking up the Stoudite way, so this line is thin.'",
+   "reason": "Agreed. The 980-983 dating is the Georgian entry's own; no vendored text carries it, so the note offers it as another dating, not as fact (flagged)."
+  }
+ ],
+ "links": [
+  {
+   "id": "cyrillo-methodian-slavic-christianity--kievan-rus-christianity",
+   "action": "regrade",
+   "from": "cyrillo-methodian-slavic-christianity",
+   "to": "kievan-rus-christianity",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Kievan Rus' took its Christian books and its letters from the Cyril and Methodius mission. Mouravieff, a Russian church historian writing in 1838, says the brothers' Slavonic Bible later helped win the Russians to the faith. Herberstein retold the Rus' annals in 1549. He says the Rus' began to write down their past once the Slavonic letters came.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838), trans. R. W. Blackmore (Oxford, 1842); vendored at cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt: the brothers' translation 'became afterwards a most blessed instrument for the conversion of the Russians'",
+     "file": null,
+     "lines": null,
+     "locus": "ch. I, file lines 905-907",
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Robert Pinkerton, note in Platon, The Present State of the Greek Church in Russia (Edinburgh, 1814): the Slavonic Bible 'made in the ninth century, by two learned Greeks, Cyril and Methodius'; 'The present version in use among the Russians is that of Ostrog'",
+     "file": null,
+     "lines": null,
+     "locus": "file lines 3150-3154",
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Sigmund von Herberstein, Notes upon Russia (Rerum Moscoviticarum Commentarii, 1549), trans. R. H. Major (1851), vol. I: a sixteenth-century retelling of the Rus' annals, used here as a later account, not as a primary for the ninth century: the Rus' annals 'began to be written and recorded' after Michael 'had sent the Sclavonian characters into Bulgaria' (which the same passage dates [898])",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/herberstein_notes-upon-russia-v1_major1851.txt lines 7871-7878"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "wants": [
+    "The Russian Primary Chronicle (Laurentian text) in a vendored public-domain edition (PSRL vol. 1, 1846, or Miklosich 1860); its entry on the Slavonic letters would let this be graded on a primary"
+   ],
+   "drafter_flags": [
+    "Herberstein moved from primary to a later-account secondary under the same rule the merge applied to the two Macedonian links: a 1549 retelling that misplaces the mission (Bulgaria, 898) cannot carry the facts leg of Widely Accepted. I reread Herberstein 7871-7878, Mouravieff 903-908 and Pinkerton 3150-3154; the readings in the work fields are verbatim.",
+    "All support is now nineteenth-century or earlier secondary (Mouravieff 1838, Pinkerton 1814, Herberstein 1549), which is the open question on Dominant Modern Reconstruction resting on old secondaries (escalation 10)."
+   ],
+   "change_reason": "R1-02: regraded Widely Accepted to Dominant Modern Reconstruction. Herberstein (1549) is no longer the primary; the same rule now decides all four Byzantine/Slavic/Rus' links. Note says when each writer wrote.",
+   "fre_after": 65.7,
+   "fk_after": 7.6
+  },
+  {
+   "id": "kievan-rus-christianity--kievan-rus-christianity-1054-1240",
+   "action": "regrade",
+   "from": "kievan-rus-christianity",
+   "to": "kievan-rus-christianity-1054-1240",
+   "type": "continued as",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Before he became head of the church in Kyiv in 1051, the priest Ilarion dug a cave above the Dnieper. Mouravieff, a Russian church historian writing in 1838, calls that cave the seed of the Caves Monastery and of every religious house in Russia. Herberstein retold the Rus' annals in 1549. He says Russia has kept the faith of Christ since Vladimir's baptism.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (1838), trans. R. W. Blackmore (Oxford, 1842); vendored at cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt: Hilarion, priest at Berestoff, 'dug himself out a dark cave or Pesch, the germ of the future Lavra, and of all the religious houses of Russia'; Anthony later settled 'in the deserted cave of Hilarion'; Hilarion chosen metropolitan, margin date 1051",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "ch. II, file lines 1497-1498, 1541-1566"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Sigmund von Herberstein, Notes upon Russia (Rerum Moscoviticarum Commentarii, 1549), trans. R. H. Major (1851), vol. I: a sixteenth-century retelling of the Rus' annals, used here as a later account, not as a primary: Vladimir's baptism, 'since which time Russia has continued in the faith of Christ' (the same sentence dates the baptism 6469 (961))",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/herberstein_notes-upon-russia-v1_major1851.txt lines 8282-8288"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "wants": [
+    "The Kyiv Caves Paterik or the Primary Chronicle (s.a. 1051) in a vendored edition, which would document Ilarion's cave and Anthony's settling in it from the Rus' side"
+   ],
+   "drafter_flags": [
+    "Herberstein moved from primary to a later-account secondary, as on the cyrillo-methodian/kievan link: his continuity line follows a wrong date (961) for the baptism.",
+    "Mouravieff's 1051 for Hilarion is a margin date in the vendored file (line 1498, OCR '105 1.').",
+    "Old-secondary Dominant Modern Reconstruction: escalation 10."
+   ],
+   "change_reason": "R1-02: regraded Widely Accepted to Dominant Modern Reconstruction under the one rule for Herberstein; Mouravieff's own words ('the germ of the future Lavra') now carried in the note.",
+   "fre_after": 66.1,
+   "fk_after": 7.8
+  },
+  {
+   "id": "st-thomas-christians-of-india--st-thomas-christians-1300-1517",
+   "action": "rewrite",
+   "from": "st-thomas-christians-of-india",
+   "to": "st-thomas-christians-1300-1517",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "In the 850s a church law of the patriarch Theodosius told the far-off metropolitans, India's among them, to write to him every six years. A Malabar manuscript of 1301 names Jacob, metropolitan of 'the holy see of the Apostle St. Thomas'. At Kollam in the fourteenth century, the papal envoy Marignolli found the pepper gardens owned by 'the Christians of St. Thomas'. Few texts survive from the centuries between, so the line rests on place, name and office.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Canon of the patriarch Theodosius (853-858) on the distant metropolitans, from Abdisho's Summa canonum synodalium (II.6.19) as quoted by Nicolas Trigault, printed in J. S. Assemani, Bibliotheca Orientalis III.2 (1728)",
+     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt",
+     "lines": "34471",
+     "locus": "Bibl. Orient. III.2, p. DXVII",
+     "quote": "fimul habetur Canon Tlicodofii Patriarchx’ in ha:c verba.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Canon of the patriarch Theodosius (853-858) on the distant metropolitans, from Abdisho's Summa canonum synodalium (II.6.19) as quoted by Nicolas Trigault, printed in J. S. Assemani, Bibliotheca Orientalis III.2 (1728)",
+     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt",
+     "lines": "34477-34478",
+     "locus": "Bibl. Orient. III.2, p. DXVII",
+     "quote": "Sic etiam Epifiopi ma- gna Provincia , nimirum reliqui Metropoli ta Cbina , India , Pafes ,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Canon of the patriarch Theodosius (853-858) on the distant metropolitans, from Abdisho's Summa canonum synodalium (II.6.19) as quoted by Nicolas Trigault, printed in J. S. Assemani, Bibliotheca Orientalis III.2 (1728)",
+     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt",
+     "lines": "34484-34485",
+     "locus": "Bibl. Orient. III.2, p. DXVII",
+     "quote": "mittant literas confenfionis (ideji, comm'anionis) ad Patriar- cham femelfepcto quoque anno .",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Colophon of a Syriac lectionary copied at Shingala in Malabar, 1301 (Vat. Syr. 22; trans. Mingana)",
+     "file": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
+     "lines": "3533-3535",
+     "locus": "Mingana 1926, p. 61",
+     "quote": "And in the time of bishop Mar Jacob, Metropolitan and director of the holy see of the Apostle St. Thomas, that is to say, our director and the director of all the holy Church of Christian India.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John of Marignolli, Recollections of Eastern Travel (trans. Yule, rev. Cordier)",
+     "file": "cic/texts/cathay-and-the-way-thither_vol3-missionary-friars-pegolotti-marignolli_yule-cordier1914.txt",
+     "lines": "11061-11063",
+     "locus": "Marignolli, at Columbum",
+     "quote": "nor are the Saracens the proprietors but the Christians of St. Thomas. And these latter are the masters of the public steel-yard,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "A. Mingana, The Early Spread of Christianity in India (Bulletin of the John Rylands Library 10.2, 1926), vendored as cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "source_id": null,
+     "locus": "file lines 1694-1696 (Theodosius names the archbishops of India), 3533-3535 (the 1301 colophon)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "wants": [],
+   "drafter_flags": [
+    "Earlier side now on Theodosius's canon (patriarch 853-858, inside the 849-1054 window): the metropolitan of India among the distant metropolitans who must send letters of communion to the patriarch every sixth year. It is the canon's own text as carried in Abdisho's collection (c. 1300), quoted by Trigault and printed by Assemani; that is the normal transmission of East Syriac canons, unlike Herberstein's retelling. Flagged so the reviewer can test the distinction.",
+    "I did not use the Malabar chronicle the reviewer proposed: it was written after 1580 (it narrates Mar Abraham's arrival in 1580, Mingana 2257-2261) and Mingana calls the tradition 'very late'. Under the rule applied in R1-02, a sixteenth-century retelling cannot carry ninth-century facts.",
+    "Assemani OCR kept as printed: 'Tlicodofii Patriarchx'', 'Epifiopi ma- gna', 'Metropoli ta Cbina', 'femelfepcto' (semel sexto). 'every six years' renders 'semel sexto quoque anno'.",
+    "The 1301 colophon wraps across 3533-3535."
+   ],
+   "change_reason": "R1-03: added an earlier-side primary inside the entry's own window (Theodosius's canon), so Widely Accepted now rests on the see shown on both sides; note names the office on each side.",
+   "fre_after": 61.3,
+   "fk_after": 7.9
+  },
+  {
+   "id": "early-benedictine-italian-monasticism--late-anglo-saxon-christianity",
+   "action": "remove",
+   "from": "early-benedictine-italian-monasticism",
+   "to": "late-anglo-saxon-christianity",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "Dunstan, Oswald and Æthelwold were bishops of the late Anglo-Saxon church, as the reformer John Foxe recalled. A modern editor of Benedict's Rule says English nuns and others kept the Rule and had it put into English. Neither source tells of the refounding in the tenth century. So this tie rests on thin evidence.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John Foxe, Acts and Monuments, vol. 4 (ed. Cattley and Townsend, 1837)",
+     "file": "cic/texts/foxe_acts-and-monuments-v4_cattley-townsend1837.txt",
+     "lines": "10969-10971",
+     "quote": "Thus Odo, Dunstan, Oswold, Ethelwold, Adel- lnus, and Lanfranc, although they fetched their palls afterward from"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. A. Gasquet, introduction to The Rule of Saint Benedict (1925)",
+     "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
+     "lines": "593-595",
+     "quote": "For the benefit of nuns in England who followed the Rule, and of others, the work was several times translated into English during the"
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "wants": [
+    "The Regularis Concordia (c. 970) in a public-domain edition or translation",
+    "Æthelwold's Old English account of King Edgar's establishment of monasteries, or Wulfstan of Winchester's Life of Æthelwold",
+    "The Anglo-Saxon Chronicle (s.a. 964) in a vendored edition"
+   ],
+   "drafter_flags": [
+    "Searched cic/texts for the Regularis Concordia, Æthelwold, Dunstan, Oswald, Edgar's refoundations and the Anglo-Saxon Chronicle: none vendored. Hits are Foxe v4 10969 (king-made bishops and palls), Mirk's Festial (a Dunstan miracle), Gasquet 588-597 (English nuns and a seventh-century English manuscript of the Rule), the Benedictional of St Æthelwold named in a footnote (Gardner 700). None touches the tenth-century refounding.",
+    "Repo-cited secondaries checked: Blair 2005 and Mayr-Harting 1991 are cited on the earlier Anglo-Saxon entry, but no repo text describes either on the tenth-century reform, and I have not seen a passage. Citing them would be naming a work for a claim I cannot check."
+   ],
+   "change_reason": "R1-04: removed. Neither source bears on the relationship and no vendored or repo-cited source does. The link was never published (new this era), so no retirement entry. The relationsSummary sentence that named it is qualified (prose change); the why and longDescription narrate the reform as standard history and are held for the open rule (escalations)."
+  },
+  {
+   "id": "paulicians--bogomils",
+   "action": "rewrite",
+   "from": "paulicians",
+   "to": "bogomils",
+   "type": "influenced",
+   "confidence": "Contested",
+   "note": "Peter of Sicily, a Byzantine envoy at Tephrike around 870, wrote that the Paulicians meant to send preachers to Bulgaria. Older historians, and some modern ones, built a line from them to the Bogomils on reports like this. Others point out that the Armenian sources show no dualism, and doubt the line. No Paulician or Bogomil text settles it.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Franjo Rački, Bogomili i Patareni, Rad JAZU VII (1869), pp. 98-99",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt lines 812-866"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Arthur J. Evans, Through Bosnia and the Herzegovina on Foot (1877), Historical Review, pp. xxix-xxx",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/evans_through-bosnia-and-the-herzegovina-on-foot_1877.txt lines 1086-1104"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Dimitri Obolensky, The Bogomils: A Study in Balkan Neo-Manichaeism (Cambridge, 1948)",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "repo-cited: census bogomils sources (note: the classic monograph, its 'Neo-Manichaean' framing); not read"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Yuri Stoyanov, The Other God: Dualist Religions from Antiquity to the Cathar Heresy (Yale, 2000)",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "repo-cited: census bogomils sources (note: modern synthesis of the dualist line); not read"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Nina G. Garsoian, The Paulician Heresy (1967)",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "repo-cited: census paulicians sources (note: argues the Greek and Armenian source-traditions diverge, the Armenian lacking the dualism); not read"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Carl Dixon, The Paulicians: Heresy, Persecution and Warfare on the Byzantine Frontier, c. 750-880 (Brill, 2022)",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "repo-cited: census paulicians sources (note: recasts the Paulicians as broadly conventional Christians); not read"
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "wants": [],
+   "drafter_flags": [
+    "For the line: Rački 1869 and Evans 1877 (read: Rački 812-822 dates Peter's stay to 868, Evans 1099-1104 to 870; 'around 870' covers both), and Obolensky 1948 and Stoyanov 2000 as the census's own source notes describe them. Against: Garsoian 1967 (Armenian evidence lacks the dualism) and Dixon 2022 (conventional Christians), as the census notes describe them. I have read none of the four modern works; the note's two middle sentences rest on those repo descriptions.",
+    "Contested now states both sides and settles neither."
+   ],
+   "change_reason": "R1-05: the last sentence no longer settles the dispute; the note names both sides, and Obolensky and Stoyanov are added as the modern holders of the line.",
+   "fre_after": 62.3,
+   "fk_after": 8.2
+  },
+  {
+   "id": "byzantine-imperial-church-heraclian-iconoclast--paulicians",
+   "action": "rewrite",
+   "from": "byzantine-imperial-church-heraclian-iconoclast",
+   "to": "paulicians",
+   "type": "argued against",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Franjo Rački, a Croatian historian writing in 1869, tells of a persecution of the Paulicians under the emperor Michael I, from 811 to 813. He says it failed to root them out. This rests on his history alone.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Franjo Rački, Bogomili i Patareni, Rad JAZU VII (1869), p. 99: 'Nastala proti njim progonstva za cara Mihajla (811 — 13) ... niesu jih mogla izkorieniti'",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt lines 856-857"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Carl Dixon, The Paulicians: Heresy, Persecution and Warfare on the Byzantine Frontier, c. 750-880 (Brill, 2022)",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "repo-cited: census paulicians sources (note: recasts the Paulicians as broadly conventional Christians); not read"
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "wants": [
+    "Theophanes, Chronographia (de Boor, 1883), for Michael I's measures against the Paulicians",
+    "Peter of Sicily, Historia Manichaeorum (Gieseler, 1846, or PG 104)"
+   ],
+   "drafter_flags": [
+    "Constantine V's transfer of Paulicians into Thrace dropped: Evans (1085-1092), the only source for it, says the emperor 'had perhaps some sympathies with the heretics' and that the move gave them 'every facility' for their mission, so it does not show an act against them. Evans removed from the sources, as nothing left in the note rests on him.",
+    "Rački's 'progonstva' (persecutions) under Michael I is the core; Theodora's persecution of 845, in the same sentence, falls after this entry ends (843).",
+    "Old-secondary Dominant Modern Reconstruction (Rački 1869) with Dixon 2022 unread: escalation 10."
+   ],
+   "change_reason": "R1-06: dropped the Constantine V sentence, which its own source undercuts; the Michael I persecution carries the type.",
+   "fre_after": 67.8,
+   "fk_after": 6.8
+  },
+  {
+   "id": "scandinavian-conversion-christianity--scandinavian-reformation-kingdoms",
+   "action": "rewrite",
+   "from": "scandinavian-conversion-christianity",
+   "to": "scandinavian-reformation-kingdoms",
+   "type": "continued as",
+   "confidence": "Inferential-Thin",
+   "note": "The see of Skara in Sweden dates from Sigfrid, the missionary who baptized King Olof Skötkonung, the historian Anjou writes. Its bishop left in 1529. The cathedral's provost, Sven, was chosen in his place, and a church council at Uppsala backed him in 1530. Denmark broke harder. In 1536 the bishops in Copenhagen were jailed, and the church law of 1537 set a superintendent over each diocese instead. This rests on one history from the 1850s, with four centuries between the two ends, so the line is thin.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "L. A. Anjou, The History of the Reformation in Sweden (1850-51), trans. H. M. Mason (1859)",
+     "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt",
+     "lines": "992-994",
+     "quote": "The bishopric of Skara, to which Vcrmland and Dais- land belonged, dates its origin from the time of Sigfrid, who baptized king Olof Skotkonung,"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "L. A. Anjou, The History of the Reformation in Sweden (1850-51), trans. H. M. Mason (1859)",
+     "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt",
+     "lines": "11660-11661",
+     "quote": "After bishop Magnus of Skara, in 1529, abandoned his see, it was placed under the care of its provost, master Sven,",
+     "locus": "Anjou, ch. on the Swedish sees, 1529-1530"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "L. A. Anjou, The History of the Reformation in Sweden (1850-51), trans. H. M. Mason (1859)",
+     "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt",
+     "lines": "11667-11670",
+     "quote": "as in Skara was the case with the abovenamed master Sven, whose election was still further fortified by the recognition of the council, which, in 1530, sat at Upsala.",
+     "locus": "Anjou, ch. on the Swedish sees, 1529-1530"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "L. A. Anjou, The History of the Reformation in Sweden (1850-51), trans. H. M. Mason (1859)",
+     "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt",
+     "lines": "14087-14088",
+     "quote": "The bishops then present in Kupenham were immediately imprisoned.",
+     "locus": "Anjou, ch. on the Reformation in Denmark and Norway, 1536"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "L. A. Anjou, The History of the Reformation in Sweden (1850-51), trans. H. M. Mason (1859)",
+     "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt",
+     "lines": "14168-14169",
+     "quote": "the superintendents who were now put in the places of the bishops,",
+     "locus": "Anjou, ch. on the Reformation in Denmark and Norway, 1537"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ordinatio ecclesiastica Regnorum Daniae et Norvegiae (Copenhagen, 1537), 'De Superintendentibus et Praepositis'",
+     "file": "cic/texts/danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537.txt",
+     "lines": "3408-3409",
+     "locus": "Ordinatio 1537, De Superintendentibus",
+     "quote": "conſeruatores in ſingulis diqceſibus ſin⸗ guli ſint /",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "wants": [
+    "A medieval list of the bishops of Skara (Scriptores rerum Suecicarum medii aevi)",
+    "Adam of Bremen, Gesta Hammaburgensis, for the sees founded before 1104",
+    "A vendored source for Norway's and Iceland's sees across the Reformation"
+   ],
+   "drafter_flags": [
+    "Kept, on the evidence: Anjou shows the same Swedish see and chapter on both sides (Skara founded in Sigfrid's time; its chapter's provost chosen bishop in 1529 and confirmed by the Uppsala council of 1530). The note now says plainly that in Denmark the line of bishops broke.",
+    "Lund sentence dropped, as the reviewer asked: Lund's archbishop in 1517 says nothing about the Reformation church.",
+    "The Ordinatio is in heavy long-s OCR: 'diqceſibus' (dioecesibus) and the line-end '⸗' kept as printed. It is the one primary here, and it shows only the target side: one superintendent in each diocese.",
+    "Still spans 1104 to 1527 with no entry between: escalation 1 (census structure) stands. Anjou's 'Kupenham' (Copenhagen) as printed.",
+    "Anjou's 'abandoned his see' is rendered 'left'."
+   ],
+   "change_reason": "R1-07: no longer claims an unbroken line across the Danish break. Rests on Skara on both sides of the Reformation, states the Danish break of 1536-37, drops Lund.",
+   "fre_after": 65.1,
+   "fk_after": 7.7
+  },
+  {
+   "id": "byzantine-imperial-church-macedonian--byzantine-church-after-1054",
+   "action": "rewrite",
+   "from": "byzantine-imperial-church-macedonian",
+   "to": "byzantine-church-after-1054",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Michael Cerularius was patriarch of Constantinople when the pope's envoys came in 1054. He kept the post until 1058. A later Byzantine list of the city's patriarchs names them in order. It runs from Photius in the ninth century to the patriarchs who served under the emperor Manuel in the twelfth.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Humbert of Silva Candida, Brevis et succincta commemoratio (1054), printed in Mirbt, Quellen zur Geschichte des Papsttums, 3rd ed. (1911), no. 227",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+     "lines": "9899",
+     "locus": "no. 227, the legates' writings against Michael",
+     "quote": "maxime contra scripta Michaelis Constantinopohtani episcopi",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Nikephoros Kallistos Xanthopoulos, Enarratio de episcopis Byzantii et de patriarchis Constantinopolitanis (Latin version), in Migne, PG 147 (1865)",
+     "file": "cic/texts/nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt",
+     "lines": "20806-20808",
+     "locus": "Enarratio, entry for Photius (second Latin copy)",
+     "quote": "Photius aute primus 3 secretis, qui monachus effectus est. subeodem Micliaele Ebrioso , et Dasi- lio Macedone, a quo expulsus est,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Nikephoros Kallistos Xanthopoulos, Enarratio de episcopis Byzantii et de patriarchis Constantinopolitanis (Latin version), in Migne, PG 147 (1865)",
+     "file": "cic/texts/nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt",
+     "lines": "20962-20964",
+     "locus": "Enarratio, entry for Theodotus II (twelfth century)",
+     "quote": "Theodotus monachus et abbas monasterii Sancte Christi: Resurrectionis, sub imperatore Manucle annis 2.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Nikephoros Kallistos Xanthopoulos, Enarratio de episcopis Byzantii et de patriarchis Constantinopolitanis (Latin version), in Migne, PG 147 (1865)",
+     "file": "cic/texts/nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt",
+     "lines": "20970-20971",
+     "locus": "Enarratio, entry for Luke Chrysoberges (twelfth century)",
+     "quote": "Lucas monzchus Chrvsoberges, sub eodem Ma- nucle, annis 15, meusibus 3.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia (trans. R. W. Blackmore, 1842), note to p. 21",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt lines 16005-16007"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "wants": [],
+   "drafter_flags": [
+    "The vendored PG 147 OCR loses the patriarchs from about 956 to the twelfth century (after the entry for Theophylact, d. 956, the next Latin entry legible is the twelfth-century one at 20962); 'names them in order' describes the printed list, not a span the OCR shows. The 1054 link point is Humbert's 'Michaelis Constantinopolitani episcopi' (Mirbt 9899)."
+   ],
+   "change_reason": "R1-08: dropped 'runs on with no break', which the vendored copy cannot show.",
+   "fre_after": 61.5,
+   "fk_after": 7.7
+  },
+  {
+   "id": "byzantine-imperial-church-heraclian-iconoclast--byzantine-imperial-church-macedonian",
+   "action": "rewrite",
+   "from": "byzantine-imperial-church-heraclian-iconoclast",
+   "to": "byzantine-imperial-church-macedonian",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "The see of Constantinople ran on through 843 with no break. A later Byzantine list of its patriarchs names John, an iconoclast whom the empress Theodora threw out. Next it names Methodius, a monk. Photius, patriarch from 858, wrote that at the council of 787 the iconoclasts were defeated.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Nikephoros Kallistos Xanthopoulos, Enarratio de episcopis Byzantii et de patriarchis Constantinopolitanis (Latin version), in Migne, PG 147 (1865)",
+     "file": "cic/texts/nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt",
+     "lines": "20792-20795",
+     "locus": "Enarratio, entry for John VII the Grammarian (second Latin copy)",
+     "quote": "Joannes, sivc Jannes sortilegus lcotomaehus, aunis 8, mcusibus 2, suh. Theophilo, et. usque ad principium imperi; M.c5aelis. οὐ Tleodaca, ἃ qua depositus cst.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Nikephoros Kallistos Xanthopoulos, Enarratio de episcopis Byzantii et de patriarchis Constantinopolitanis (Latin version), in Migne, PG 147 (1865)",
+     "file": "cic/texts/nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt",
+     "lines": "20797-20800",
+     "locus": "Enarratio, entry for Methodius I (second Latin copy)",
+     "quote": "Methoili:s sanctissimus monachus, preshytee, ot antea. episcopus Cyzici, deinde vero. Constan- tinopolis, annis à, mensibus 2, snb Michaele et Theodora,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Photius, Bibliotheca, codex 20 (trans. J. H. Freese, The Library of Photius, 1920)",
+     "file": "cic/texts/photius_library-v1_freese1920.txt",
+     "lines": "2239-2241",
+     "locus": "Bibl. cod. 20",
+     "quote": "Read the Acts of the seventh council,^ at the sessions of which the iconoclasts were defeated and the orthodox faith shone with increased brightness.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "J. H. Freese, The Library of Photius, vol. I (SPCK, 1920), introduction: table of the patriarchs of Constantinople",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/photius_library-v1_freese1920.txt lines 1228-1292"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Adolf Harnack, History of Dogma, vol. IV, p. 328; quoted in Percival's excursus on the reception of Nicaea II, NPNF ser. 2 vol. 14 (1900)",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/npnf214_seven-ecumenical-councils.xml lines 41546-41571"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "wants": [],
+   "drafter_flags": [
+    "Photius 2239-2241: 'at the sessions of which the iconoclasts were defeated'."
+   ],
+   "change_reason": "R1-09: the Photius sentence now follows his own words.",
+   "fre_after": 62.7,
+   "fk_after": 7.4
+  },
+  {
+   "id": "bagratid-armenian-christianity--armenian-cilicia",
+   "action": "rewrite",
+   "from": "bagratid-armenian-christianity",
+   "to": "armenian-cilicia",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Matthew of Edessa says Khatchig, head of the Armenian church, died in exile in 1065. He grieved for the lost crown of the Bagratid kings and for the high office handed down from Saint Gregory. When Peter held that office, Matthew adds, it had rich lands given by the Armenian kings. Later Matthew shows Basil in the same office, leaving Ani with his bishops in the early 1100s.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Matthew of Edessa, Chronicle (on the year 1065), quoted in French by É. Dulaurier, introduction to Recueil des historiens des croisades, Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "4932-4933",
+     "locus": "RHC Doc. arm. I, Introduction, p. LXIV",
+     "quote": "« Cette même année (1065), dit-il, mourut l'éminent catholicos Khatchig, après avoir siégé six-ans en pays étranger.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Matthew of Edessa, Chronicle (on the year 1065), in Dulaurier's French, RHC Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "4941-4943",
+     "locus": "RHC Doc. arm. I, Introduction, p. LXIV",
+     "quote": "la couronne arrachée à la dynastie des Bagratides, le royaume assujetti aux Grecs perfides, le suprême pontificat, héritage de saint Grégoire lHuminateur, dégradé par la pauvreté.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Matthew of Edessa, Chronicle (on the year 1065), in Dulaurier's French, RHC Documents arméniens I (1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "4943-4945",
+     "locus": "RHC Doc. arm. I, Introduction, p. LXIV",
+     "quote": "Car lorsque le seigneur Pierre exer- çait ces hautes fonctions, 11 avait'à sa disposition le riche patrimoine donné par nos souverains aux catholicos,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Matthew of Edessa, Chronicle, part III, ch. XXX (trans. Dulaurier, RHC Documents arméniens I, 1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "16873-16874",
+     "locus": "Matthew of Edessa III.30 (RHC p. 70)",
+     "quote": "Cette même année, le catholicos d'Arménie, le seigneur Basile, étant parti de la ville d'Ani, escorté de tous ses serviteurs, de nobles, d'évêques",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Édouard Dulaurier, introduction to Recueil des historiens des croisades, Documents arméniens I (Paris, 1869)",
+     "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+     "lines": "4981-4982",
+     "quote": "Enfin, en 1147, Grégoire III dit le Bahlavouni ou le Parthe, ayant acheté le château de Hrom-Gla de la veuve de Josselin le jeune,",
+     "locus": "RHC Doc. arm. I, Introduction, p. LXV",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "wants": [],
+   "drafter_flags": [
+    "New quote 4943-4945 places the office inside the Bagratid window: Peter (catholicos 1019-1058) holding the patrimony 'donné par nos souverains'. OCR '11 avait'à' (il avait à) kept as printed. Peter's years are standard and not in the quoted lines; the note gives none."
+   ],
+   "change_reason": "R1-10: added Matthew's lines on Peter, so the quoted see is shown on both sides; note says so.",
+   "fre_after": 68.6,
+   "fk_after": 7.8
+  },
+  {
+   "id": "church-of-the-east-under-the-abbasids--st-thomas-christians-of-india",
+   "action": "rewrite",
+   "from": "church-of-the-east-under-the-abbasids",
+   "to": "st-thomas-christians-of-india",
+   "type": "in contact with",
+   "confidence": "Widely Accepted",
+   "note": "Around 800 the head of the church, Timothy, named the Indians among the peoples in his care. In the 850s a later head, Theodosius, made a church law for the far-off metropolitans, India's among them. Each was to write to the patriarch every six years. Mingana read the bishop's name on the Kollam copper plates as Sabrisho.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Timothy I, letter to the monks of Mar Maron (trans. Mingana from his own manuscript)",
+     "file": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
+     "lines": "1688-1691",
+     "locus": "Mingana 1926, p. 34",
+     "quote": "among the Indians, the Chinese, the Tibetans, the Turks, and in all the provinces under the jurisdiction of this Patriarchal See,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Canon of the patriarch Theodosius (853-858) on the distant metropolitans, from Abdisho's Summa canonum synodalium (II.6.19) as quoted by Nicolas Trigault, printed in J. S. Assemani, Bibliotheca Orientalis III.2 (1728)",
+     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt",
+     "lines": "34477-34478",
+     "locus": "Bibl. Orient. III.2, p. DXVII",
+     "quote": "Sic etiam Epifiopi ma- gna Provincia , nimirum reliqui Metropoli ta Cbina , India , Pafes ,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Canon of the patriarch Theodosius (853-858) on the distant metropolitans, from Abdisho's Summa canonum synodalium (II.6.19) as quoted by Nicolas Trigault, printed in J. S. Assemani, Bibliotheca Orientalis III.2 (1728)",
+     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt",
+     "lines": "34484-34485",
+     "locus": "Bibl. Orient. III.2, p. DXVII",
+     "quote": "mittant literas confenfionis (ideji, comm'anionis) ad Patriar- cham femelfepcto quoque anno .",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "A. Mingana, The Early Spread of Christianity in India (Bulletin of the John Rylands Library 10.2, 1926), vendored as cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "source_id": null,
+     "locus": "file lines 1694-1696 (Theodosius names the archbishops of India), 3891-3899 (Sabrisho on the Kollam plates)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "wants": [],
+   "drafter_flags": [
+    "Theodosius (853-858) is inside both entries' windows, so the tie now shows in these centuries, which was the reviewer's point. Same transmission flag as on the St Thomas continued-as link (Abdisho via Trigault via Assemani).",
+    "Dropped the Malabar chronicle as a primary: it was written after 1580 (Mingana 2257-2261), so under the R1-02 rule it cannot carry ninth-century facts. The reviewer's suggested 'of about 849' for the plates is not used: Mingana, the only vendored source on them, dates the deed 'about the year 824' (3857), so the note gives no date.",
+    "Timothy's letter (c. 800) predates both windows; it stays as background to the Theodosius canon."
+   ],
+   "change_reason": "R1-11: replaced the post-1580 chronicle with Theodosius's canon of the 850s, so the dated contact falls inside both entries.",
+   "fre_after": 67.7,
+   "fk_after": 7.4
+  },
+  {
+   "id": "byzantine-imperial-church-heraclian-iconoclast--iconophile-byzantine-monasticism",
+   "action": "rewrite",
+   "from": "byzantine-imperial-church-heraclian-iconoclast",
+   "to": "iconophile-byzantine-monasticism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 754 a council called by the emperor Constantine V banned holy images. At its close the bishops cursed John of Damascus as a teacher of impiety, calling him by his family name, Mansur. Later historians write that the emperor then pressed the monks to obey. Many fled, they say, and some were killed.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Iconoclast council of Hieria (754), closing acclamations, as preserved in the acts of the Second Council of Nicaea (787), Session VI (NPNF ser. 2 vol. 14)",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "39454",
+     "locus": "Hieria 754, acclamations (Nicaea II, Act VI)",
+     "quote": "The divine Kings Constantine and Leo said:",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Iconoclast council of Hieria (754), closing acclamations, as preserved in the acts of the Second Council of Nicaea (787), Session VI (NPNF ser. 2 vol. 14)",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "39464-39465",
+     "locus": "Hieria 754, acclamations (Nicaea II, Act VI)",
+     "quote": "You have destroyed the heresies of Germanus [of Constantinople], George and Mansur",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Iconoclast council of Hieria (754), closing acclamations, as preserved in the acts of the Second Council of Nicaea (787), Session VI (NPNF ser. 2 vol. 14)",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "39469-39471",
+     "locus": "Hieria 754, acclamations (Nicaea II, Act VI)",
+     "quote": "To the betrayer of Christ and the enemy of the Empire, to the teacher of impiety, the perverter of Scripture, Mansur, anathema!",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "C. J. Hefele, History of the Councils, vol. V, p. 308; quoted in Percival's excursus, NPNF ser. 2 vol. 14 (1900)",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/npnf214_seven-ecumenical-councils.xml lines 39497-39521"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. M. Sinclair, article on the emperor Constantine V, Smith and Wace, Dictionary of Christian Biography; quoted in H. R. Percival's excursus on the synod of 754, NPNF ser. 2 vol. 14 (1900)",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/npnf214_seven-ecumenical-councils.xml lines 39530-39550 (the file prints the article as 'sub voce Constantinus VI')"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Adolf Harnack, History of Dogma, vol. V (Eng. tr.), p. 325; quoted in Percival's excursus, NPNF ser. 2 vol. 14 (1900)",
+     "file": null,
+     "lines": null,
+     "quote": null,
+     "locus": "vendored: cic/texts/npnf214_seven-ecumenical-councils.xml lines 39552-39575"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "wants": [],
+   "drafter_flags": [
+    "The persecution of the monks rests on Sinclair and Harnack as quoted in Percival's excursus (npnf214 39530-39575); the note now says so. The Documented core is the 754 curse (39464-39471)."
+   ],
+   "change_reason": "R1-12: the last sentence is now attributed to later historians, so a reader does not take it as shown by the 754 text.",
+   "fre_after": 60.9,
+   "fk_after": 8.1
+  },
+  {
+   "id": "athonite-and-comnenian-byzantine-monasticism--georgian-revival-tao-klarjeti",
+   "action": "rewrite",
+   "from": "athonite-and-comnenian-byzantine-monasticism",
+   "to": "georgian-revival-tao-klarjeti",
+   "type": "in contact with",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Georgian monks founded the monastery of Iviron on Mount Athos in the late 900s. Brosset, a historian writing in 1849, puts the founding at about 976, though others date it to between 980 and 983. He says its scholars put the holy books and the best Greek theology into Georgian.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Marie-Félicité Brosset, Histoire de la Géorgie, première partie, introduction (St Petersburg, 1849)",
+     "file": "cic/texts/brosset_histoire-de-la-georgie-pt1-fra_1849.txt",
+     "lines": "2896-2898",
+     "quote": "enfin l'histoire de S. Ewthym et celle de la fondation du couvent Ibérien du mont Athos, vers l'an 976, nous servent de points de repère;",
+     "locus": "Brosset 1849, Introduction, p. LVIII",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Marie-Félicité Brosset, Histoire de la Géorgie, première partie, introduction (1849)",
+     "file": "cic/texts/brosset_histoire-de-la-georgie-pt1-fra_1849.txt",
+     "lines": "2965",
+     "quote": "C'est sous Bagrat III que le couvent Ibérien du mont Atbos vit fleurir les sa-",
+     "locus": "Brosset 1849, Introduction, p. LX",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-direct",
+   "wants": [],
+   "drafter_flags": [
+    "The 980-983 dating is the one the Georgian entry's own prose gives; no vendored text carries it (Brosset gives 'vers l'an 976', 2896-2898). Stated as another dating, not as fact."
+   ],
+   "change_reason": "R1-18(1): the two datings a reader meets are now named together.",
+   "fre_after": 66.2,
+   "fk_after": 7.8
+  },
+  {
+   "id": "iconophile-byzantine-monasticism--athonite-and-comnenian-byzantine-monasticism",
+   "action": "rewrite",
+   "from": "iconophile-byzantine-monasticism",
+   "to": "athonite-and-comnenian-byzantine-monasticism",
+   "type": "continued as",
+   "confidence": "Inferential-Thin",
+   "note": "Stoudios, the house Theodore led, still had its monks two centuries later. The Philokalia's compilers name Niketas Stethatos, a priest-monk there around 1030, as a close disciple of Symeon the New Theologian. No source shows Athos's founders taking up the Stoudite way, so this line is thin.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Second Council of Nicaea (787), Acts, Session I (NPNF ser. 2 vol. 14)",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "38728-38730",
+     "locus": "Nicaea II, Act I (Sabbas of Stoudios)",
+     "quote": "Sabbas, the most reverend hegumenus of the monastery of the Studium, said: According to the Apostolic precepts and the Ecumenical Synods he is worthy to be received back.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Philokalia (compiled by Macarius of Corinth and Nikodemos the Hagiorite, 1782), vol. 2 (Athens, 1893), the compilers' notice on Niketas Stethatos",
+     "file": "cic/texts/philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt",
+     "lines": "23139-23144",
+     "locus": "Philokalia II, prefatory notice to Niketas Stethatos",
+     "quote": "Ἰχήτας ὁ Ὁσιώτατος Πρεσόύτε-- ρος τῆς Στουδίων Μονῆς, ὁ хо! Στηθᾶτος ἐπιχαλούμενος, Ἦν ἐν ἔτει ἀπὸ Χριστοῦ χιλιοστῷ τρια- χοστῷ, μαθητὴς χρηματίσας Συ - μεὼν τοῦ νέου Θεολόγου",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "R1-18(2): 'No text we hold' (the project speaking of its holdings) becomes 'No source shows'.",
+   "fre_after": 63.1,
+   "fk_after": 8.3
+  }
+ ],
+ "prose_changes": [
+  {
+   "movement": "anglo-saxon-christianity",
+   "field": "relationsSummary",
+   "old": "Born of two missions, one from Rome and one from Ireland, which settled their quarrel over Easter at Whitby in 664. It became a parent of the Carolingian reform.",
+   "new": "Born of two missions, one from Rome and one from Ireland, which settled their quarrel over Easter at Whitby in 664. Its churchmen later helped lead the Carolingian reform.",
+   "reason": "R1-01: 'a parent of' claimed descent; the link is 'influenced' (English churchmen leading the Frankish reform: Carloman's capitulary of 742, Boniface, Alcuin).",
+   "fre_after": 62.7,
+   "fk_after": 8.0
+  },
+  {
+   "movement": "anglo-saxon-christianity",
+   "field": "legacy",
+   "old": "The same church continued: this story runs straight on into the late Anglo-Saxon church that survived the Viking wars and was rebuilt under Alfred and the reforming bishops. Beyond that succession, it left the books. The Lindisfarne Gospels and the Codex Amiatinus came out of these monasteries. Bede's history shaped how the English told their own story for a thousand years and gave the Western world the habit of dating years from the Incarnation; and the mission into Germany reorganized the continental church so thoroughly that the Carolingian reform grew directly out of it.",
+   "new": "The same church continued. Its story runs straight on into the late Anglo-Saxon church. That church survived the Viking wars and was rebuilt under Alfred and the reforming bishops. Beyond that succession, it left the books. The Lindisfarne Gospels and the Codex Amiatinus came out of these monasteries. Bede's history shaped how the English told their own story for a thousand years. It also gave the Western world the habit of dating years from the Incarnation. And its missionaries in Germany, Boniface above all, helped the Carolingian kings reform the Frankish church.",
+   "reason": "R1-01: 'the Carolingian reform grew directly out of it' claimed descent; the link is 'influenced'. The long sentence is split so the paragraph scores.",
+   "fre_after": 60.4,
+   "fk_after": 7.7
+  },
+  {
+   "movement": "late-anglo-saxon-christianity",
+   "field": "relationsSummary",
+   "old": "It came through the Viking age and revived under Alfred. Then the bishops Dunstan, Aethelwold and Oswald rebuilt its monasteries on the Benedictine rule. This was England's own reform, in the same century as Cluny's. It ends at the Norman Conquest of 1066.",
+   "new": "It came through the Viking age and revived under Alfred. The bishops Dunstan, Aethelwold and Oswald are known for rebuilding its monasteries on the Rule of Benedict. This was England's own reform, in the same century as Cluny's. It ends at the Norman Conquest of 1066.",
+   "reason": "R1-04: the link to Benedict's Italian monasticism is removed, because no vendored or repo-cited source touches the tenth-century refounding (the Regularis Concordia and Æthelwold's writings are not vendored). The sentence now states the bishops' reputation rather than asserting the tie. The fact itself is not in scholarly doubt, so this is a holding form until the standard-history rule is decided (escalations).",
+   "fre_after": 63.8,
+   "fk_after": 7.2
+  },
+  {
+   "movement": "scandinavian-conversion-christianity",
+   "field": "legacy",
+   "old": "These conversions became the national churches of Denmark, Norway, Sweden and Iceland, which have existed continuously ever since. Often the same dioceses and the same cathedral sites, reformed rather than replaced at the Reformation. The period left a physical record too. The Jelling stones still stand in Denmark, hundreds of Christian rune stones survive across Sweden, and St Olaf's shrine at Nidaros made Trondheim the great pilgrimage destination of the medieval north. Iceland's later saga writers also preserved the memory of the conversion in the words of the converted rather than of the missionaries.",
+   "new": "These conversions founded what became the national churches of Denmark, Norway, Sweden and Iceland. In Sweden the Reformation often kept the old sees and cathedrals and reformed them. Denmark broke more sharply. In 1536 it jailed its bishops and handed their work to new men. The period left a physical record too. The Jelling stones still stand in Denmark, and hundreds of Christian rune stones survive across Sweden. St Olaf's shrine at Nidaros made Trondheim the great goal of pilgrims in the medieval north. Iceland's later saga writers also kept the memory of the conversion. They told it in the words of the converted, not of the missionaries.",
+   "reason": "R1-07: 'existed continuously ever since' and an unqualified 'reformed rather than replaced' sat against the Reformation entry's own 'decisive break in 1536/37'. Anjou shows Skara carried through in Sweden and the Danish bishops jailed in 1536 and replaced by superintendents in 1537.",
+   "fre_after": 61.9,
+   "fk_after": 7.6
+  },
+  {
+   "movement": "mozarabic-christianity",
+   "field": "legacy",
+   "old": "Only a small community at Toledo kept the name into modern times. Mozarabic Christianity was worn away from two sides. Almoravid and Almohad rule pressed hard on it, and the Latin church of the northern kingdoms took it in as they advanced. Its liturgy, though, outlived the people who kept it. The Mozarabs held on to the old Hispanic rite when the rest of the Latin West took up Roman usage. Around 1500 Cardinal Cisneros rescued it at Toledo. He had its books printed and endowed a chapel to keep it in use. Mass in the Hispano-Mozarabic rite is still said there every day.",
+   "new": "Only a small community at Toledo kept the name into modern times. Mozarabic Christianity was worn away from two sides. Almoravid and Almohad rule pressed hard on it, and the Latin church of the northern kingdoms took it in as they advanced. Its liturgy, though, outlasted most of the people who had kept it. The Mozarabs held on to the old Hispanic rite when the rest of the Latin West took up Roman usage. Around 1500 Cardinal Cisneros rescued it at Toledo. He had its books printed and endowed a chapel to keep it in use. Mass in the Hispano-Mozarabic rite is still said there every day.",
+   "reason": "R1-13: the old sentence contradicted the one before it (a community at Toledo kept the name into modern times; Ferotin 1347-1372).",
+   "fre_after": 61.2,
+   "fk_after": 8.0
+  },
+  {
+   "movement": "cluniac-reform-monasticism",
+   "field": "relationsSummary",
+   "old": "Cluny kept the Rule of Benedict, which the Carolingian reform had pressed on Frankish monks. No named founder, though, ties it to that reform. It may have become the establishment that the next century's new orders, the Cistercians above all, set themselves against. It reached its peak in the twelfth century under Peter the Venerable, who led the house until 1156. He had the Qur'an put into Latin for the first time, and he took in Peter Abelard.",
+   "new": "Cluny kept the Rule of Benedict. The Carolingian reform had pressed that Rule on Frankish monks. Cluny may have become the establishment that the next century's new orders, the Cistercians above all, set themselves against. It reached its peak in the twelfth century under Peter the Venerable. He led the house until 1156. He had the Qur'an put into Latin for the first time, and he took in Peter Abelard.",
+   "reason": "R1-14: 'No named founder, though, ties it to that reform' was a remark about the evidence inside the movement's summary, and read oddly beside the why, which names the founding duke. Dropped rather than reworded (the reviewer's 'no source here shows' would still be the project talking about its holdings): the first sentence already claims only a shared Rule, which is what the link carries. To make the paragraph score, the first sentence and the Peter the Venerable sentence are split, and the held Cistercian sentence's subject is made explicit ('Cluny may have become', since 'It' would now read as the reform); its hedge is unchanged. The two Cistercian 'may have' sentences are untouched and held for the standard-history rule (escalations).",
+   "fre_after": 61.5,
+   "fk_after": 7.5
+  },
+  {
+   "movement": "medieval-irish-christianity",
+   "field": "why",
+   "old": "Ireland from the end of the Insular and Irish Monastic Christianity entry in 664 to 1169.",
+   "new": "The church in Ireland from 664, the year of the Synod of Whitby, to 1169, when the Anglo-Norman invasion began.",
+   "reason": "R1-15: the stub showed readers an internal phrase ('the end of the ... entry'). 664 and Whitby are in the Irish continued-as note's own source (Bede IV.4).",
+   "fre_after": 62.9,
+   "fk_after": 9.2
+  },
+  {
+   "movement": "medieval-welsh-christianity",
+   "field": "why",
+   "old": "Wales from the end of the British and Welsh Christianity entry in 768 to 1282.",
+   "new": "The church in Wales from 768, when the Britons took up the Roman Easter, to the English conquest of 1282.",
+   "reason": "R1-15: the stub showed readers an internal phrase. The 768 Easter is in the Welsh continued-as note's own source (Annales Cambriae, a. 768).",
+   "fre_after": 75.8,
+   "fk_after": 7.2
+  },
+  {
+   "movement": "paulicians",
+   "field": "relationsSummary",
+   "old": "Deported en masse by Byzantium - also a victim story",
+   "new": "The Byzantine emperors moved them from their homes in large numbers. Most of what we know of them comes from their enemies.",
+   "reason": "R1-16: 'also a victim story' was a cataloguing fragment. 'Known mostly through their enemies' is the movement's own legacy and sources (the hostile Greek dossier).",
+   "fre_after": 72.6,
+   "fk_after": 5.9
+  },
+  {
+   "movement": "byzantine-imperial-church-macedonian",
+   "field": "relationsSummary",
+   "old": "The church of the restored icons: Photius's two patriarchates and the Photian schism, the Filioque dispute opening, the missions to Bulgaria (864) and the Slavs (the parent context of the Cyril and Methodius mission); receives the 1054 schism itself.",
+   "new": "The church of the restored icons. It saw Photius twice made patriarch, the Photian schism, and the first round of the Filioque dispute. It sent missions to Bulgaria in 864 and, with Cyril and Methodius, to the Slavs. It ends with the break of 1054.",
+   "reason": "R1-16: 'the parent context of' and 'receives the 1054 schism itself' were cataloguing fragments; the list is recast as sentences so the summary scores.",
+   "fre_after": 83.8,
+   "fk_after": 4.2
+  },
+  {
+   "movement": "byzantine-imperial-church-heraclian-iconoclast",
+   "field": "relationsSummary",
+   "old": "The church of the crisis centuries: Heraclius's wars, the monothelete compromise and its collapse, Maximus the Confessor's resistance, the iconoclast emperors as rivals inside (Hieria 754, 338 bishops), with the Iconophile monastic movement as its persecuted counterpart; ends at the Triumph of Orthodoxy (843).",
+   "new": "The church of the crisis centuries. Heraclius fought his wars, and his compromise on the will of Christ failed against the stand of Maximus the Confessor. Then the iconoclast emperors turned on holy images. Councils backed them, such as Hieria in 754, where 338 bishops met. The monks who defended the icons were the ones they persecuted. It ends with the Triumph of Orthodoxy in 843.",
+   "reason": "R1-16: 'the iconoclast emperors as rivals inside' was a cataloguing fragment; the list is recast as sentences so the summary scores. Every fact is the old summary's or the movement's own why.",
+   "fre_after": 63.2,
+   "fk_after": 7.0
+  },
+  {
+   "movement": "bogomils",
+   "field": "legacy",
+   "old": "The movement continued in the Balkans for centuries — its story runs on directly into the Bogomil communities of the twelfth and thirteenth centuries — before disappearing under Ottoman rule and Catholic and Orthodox pressure alike. Its most discussed legacy is a claimed influence on the Cathars of southern France and northern Italy. Medieval writers asserted the connection, and historians still argue about how much of it is real. What it did not leave is a text of its own. Every surviving account of Bogomil belief was written by someone opposing it.",
+   "new": "Historians trace the movement on into the Bogomils of the Balkans in the 1100s and 1200s. It died out only under Ottoman rule and pressure from both Catholics and Orthodox. Its most discussed legacy is a claimed influence on the Cathars of southern France and northern Italy. Medieval writers claimed the link, and historians still argue about how much of it is real. What it did not leave is a text of its own. Every account of Bogomil belief that survives was written by someone who opposed it.",
+   "reason": "R1-17: 'runs on directly' was stronger than its Dominant Modern Reconstruction link, whose note says no Bogomil text shows the line.",
+   "fre_after": 61.2,
+   "fk_after": 8.4
+  }
+ ],
+ "escalations": [
+  "Standard history with no vendored text (era-2 escalation 3; era-4 escalations 2 and 9), still open. It now bears on three places this round: (a) late-anglo-saxon-christianity: the relationsSummary is qualified to 'are known for rebuilding its monasteries on the Rule of Benedict' as a holding form, while the why and longDescription still state the tenth-century refounding outright; (b) cluniac-reform-monasticism: the two Cistercian 'may have' sentences hedge a fact that is not in scholarly doubt; (c) the removed Benedictine link could return as Documented if the Regularis Concordia is vendored. Needs Mark's ruling on whether such facts are stated, hedged or sourced to a named standard history.",
+  "Dominant Modern Reconstruction resting on old secondaries (era-4 escalation 10). After R1-02 the two Kievan links rest on Mouravieff (1838), Pinkerton (1814) and Herberstein (1549, now as a later account), and after R1-06 the Paulician persecution link rests on Rački (1869) with Dixon (2022) unread. Same question as the Macedonian links: does the label mean 'rests on secondary works only', or should these wait for the vendored Primary Chronicle and Theophanes? Not changed here.",
+  "Census structure (era-4 escalation 1): the Scandinavian continued-as still spans 1104 to 1527 with no entry between. It now rests on Skara on both sides and states the Danish break, but whether it should stand before a medieval Scandinavian entry exists is Mark's call.",
+  "Transmission of East Syriac canons: R1-03 and R1-11 now use the canon of Theodosius (853-858) as a primary, though the vendored text is the canon as carried in Abdisho's collection (c. 1300), quoted by Trigault and printed by Assemani (1728). I treat a canon's own text in its collection as a primary, unlike a later retelling such as Herberstein. If Mark or the reviewer draws the line differently, both links fall to Dominant Modern Reconstruction on Mingana.",
+  "Bagratid relationsSummary 'absorbs the story of Caucasian Albania's catholicosate after 705' left as is, for era-4 escalation 14 (which entry owns Albania after 705)."
+ ]
+}

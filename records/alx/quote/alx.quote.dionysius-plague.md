@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.eusebius-historia-ecclesiastica
-  locus: VII.22 (npnf201 lines 41084-41090; Dionysius's festal letter quoted verbatim by Eusebius)
+  locus: "VII.22 (cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml, lines 41084-41090; Dionysius's festal letter quoted verbatim by Eusebius)"
   license: public-domain
 - source_id: alx.source.dionysius-extant-fragments
   locus: 'the same letter, in a different translation, in the collected fragments - ANF06
@@ -30,7 +30,7 @@ retrieval:
   retrieve_when:
   - "participant asks what happened in an epidemic and what Christians did"
   - "participant asks how they cared for the dying and buried the dead"
-  - "participant asks what outsiders noticed about their behaviour in a crisis"
+  - "participant asks what outsiders noticed about their behavior in a crisis"
 relations:
 - type: associated-with
   target: alx.story.plague-nursing
@@ -59,6 +59,29 @@ use_note:
     - "an outsider's report, when this is the bishop praising his own flock"
   years: {from: 260, to: 260}
   status: reviewed
+reading_card:
+  setting: Dionysius, bishop of Alexandria, writing to his churches before Easter during a plague; Eusebius
+    quotes it.
+  source_says: For Christians the plague was a test. Most nursed the sick and died with them, a death
+    'lacking nothing of martyrdom'.
+  historians_conclude:
+    text: The construction record rates Eusebius's word-for-word quotations, as here, above his own narration.
+    confidence: Documented
+  contributes: It shows care for the dying as witness, close to martyrdom.
+  whose_view: A bishop praising his own flock. He says 'most', not all, and frames the pagans sharply.
+  open: McGiffert dates it before Easter 263 and doubts it was a regular festal letter.
+  reads_differently_today: '''Brethren'' means the whole community, women and men. It is the translation''s
+    period word, not a sign only men nursed.'
+  sources:
+    setting: alx.source.eusebius-historia-ecclesiastica, HE VII.22.1, npnf201 lines 41017-41030
+    source_says: alx.source.eusebius-historia-ecclesiastica, HE VII.22.6-10, npnf201 lines 41058-41110
+    historians_conclude: 'Build/worlds/alx/Doc_02_Source_Ecology.md §3.6 (Eusebius: lower risk for verbatim
+      quotation of documents); alx.source.eusebius-historia-ecclesiastica, work field; level from alx.quote.dionysius-plague
+      confidence.formation_confidence (Documented)'
+    contributes: alx.term.martys; alx.term.agape
+    whose_view: alx.quote.dionysius-plague, use_note.not_for; alx.story.plague-nursing, absent_detail
+    open: McGiffert's note to HE VII.22.1, npnf201 lines 41020-41030; alx.story.plague-nursing, absent_detail
+    reads_differently_today: alx.quote.dionysius-plague, modern_lens_note
 ---
 Dionysius's own words on the plague of c. 260 - what the community DID
 when death filled the city. This is Eusebius's strong mode (verbatim

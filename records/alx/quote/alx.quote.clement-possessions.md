@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: alx.source.clement-quis-dives
-  locus: 16 (anf02 lines 56546-56556)
+  locus: "16 (cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml, lines 56548-56558)"
   license: public-domain
 text: For he who holds possessions, and gold, and silver, and houses, as the gifts of God; and ministers
   from them to the God who gives them for the salvation of men; and knows that he possesses them more
@@ -59,6 +59,32 @@ use_note:
     - "evidence of how ordinary Alexandrian Christians actually handled money, rather than one teacher's sermon"
   years: {from: 180, to: 215}
   status: reviewed
+reading_card:
+  setting: Clement, in his treatise on the rich man, on the gospel's call to sell all.
+  source_says: Selling all means casting out the soul's passions, not wealth. Wealth is a tool, good or
+    bad by the user's choice.
+  historians_conclude:
+    text: The construction record finds care for widows, orphans and the poor attested here, as the giver
+      reordered toward God.
+    confidence: Widely Accepted
+  contributes: It shows money held as a gift for others, part of the soul's change.
+  whose_view: One teacher addressing the wealthy, not a record of ordinary Christians' money.
+  open: He also warns the rich that trusting they are saved does not save them.
+  reads_differently_today: '''Poor in spirit'' is the Beatitude''s phrase for an inner posture, not lack
+    of money. So a rich person can be poor in spirit.'
+  complicated_by:
+  - alx.limit.faith-alone-later-frame
+  - alx.quote.couches-and-trenchers-and-bowls
+  sources:
+    setting: alx.source.clement-quis-dives, work field; Quis Dives Salvetur 14-16, anf02 lines 56500-56520
+    source_says: alx.source.clement-quis-dives, Quis Dives Salvetur 14-15, anf02 lines 56500-56535
+    historians_conclude: Build/worlds/alx/Doc_05_Ecological_Reconstruction.md §5 (Care as ministry) and
+      its construction note
+    contributes: alx.gravity.soul-transformation; alx.term.agape
+    whose_view: alx.quote.clement-possessions, use_note.not_for; Build/worlds/alx/Doc_02_Source_Ecology.md
+      §3.2
+    open: alx.limit.faith-alone-later-frame, statement and sources (Quis Dives 27-29)
+    reads_differently_today: alx.quote.clement-possessions, modern_lens_note
 ---
 The rich-man sermon's center: wealth held as gift and ministry, not as
 master. Serves F5-T (how did you look at money and poverty) and F4-T

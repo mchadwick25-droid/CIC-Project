@@ -1,0 +1,123 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.witness.answerability-as-ground"
+   ],
+   "sentence": "As we understand ourselves, a particular people is placed in a particular man's care, and he will be asked what became of them."
+  },
+  {
+   "record_ids": [
+    "lpc.term.the-flock"
+   ],
+   "sentence": "The flock is the particular people one bishop is given in one place, and the flock can press him face to face."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ],
+   "sentence": "When a member had failed, we wanted the name set down, then examined before the whole congregation and weighed with its judgment."
+  },
+  {
+   "record_ids": [
+    "lpc.term.certificates-letters-of-peace"
+   ],
+   "sentence": "Cyprian wanted each certificate of peace to name the person."
+  },
+  {
+   "record_ids": [
+    "lpc.term.certificates-letters-of-peace"
+   ],
+   "sentence": "Some certificates named one person and then asked peace for his friends too, without naming them."
+  }
+ ],
+ "citations": [
+  "lpc.term.certificates-letters-of-peace",
+  "lpc.term.the-flock",
+  "lpc.witness.answerability-as-ground",
+  "lpc.witness.confessor-claim-vs-regulated-peace"
+ ],
+ "group": "G",
+ "id": "q085",
+ "net_sentences": [
+  {
+   "draft": "As we understand ourselves, a particular people is placed in a particular man's care, and he will be asked what became of them [[lpc.witness.answerability-as-ground]] [[as:paraphrase]].",
+   "sentence": "As we understand ourselves, a particular people is placed in a particular man's care, and he will be asked what became of them.",
+   "tags": [
+    "lpc.witness.answerability-as-ground"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The flock is the particular people one bishop is given in one place, and the flock can press him face to face [[lpc.term.the-flock]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The flock is the particular people one bishop is given in one place, and the flock can press him face to face.",
+   "tags": [
+    "lpc.term.the-flock"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "When a member had failed, we wanted the name set down, then examined before the whole congregation and weighed with its judgment [[lpc.witness.confessor-claim-vs-regulated-peace]] [[as:paraphrase]].",
+   "sentence": "When a member had failed, we wanted the name set down, then examined before the whole congregation and weighed with its judgment.",
+   "tags": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Cyprian wanted each certificate of peace to name the person [[lpc.term.certificates-letters-of-peace]] [[as:paraphrase]].",
+   "sentence": "Cyprian wanted each certificate of peace to name the person.",
+   "tags": [
+    "lpc.term.certificates-letters-of-peace"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Some certificates named one person and then asked peace for his friends too, without naming them [[lpc.term.certificates-letters-of-peace]] [[as:paraphrase]].",
+   "sentence": "Some certificates named one person and then asked peace for his friends too, without naming them.",
+   "tags": [
+    "lpc.term.certificates-letters-of-peace"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "lpc.witness.confessor-claim-vs-regulated-peace",
+  "lpc.term.confessor",
+  "lpc.story.celerinus-writes-to-lucian",
+  "lpc.quote.pardon-through-a-wicked-clergyman",
+  "lpc.quote.such-a-one-with-his-friends",
+  "lpc.force.confessors-claim-to-grant-peace",
+  "lpc.witness.answerability-as-ground",
+  "lpc.story.election-of-cyprian",
+  "lpc.story.the-psalms-on-the-wall",
+  "lpc.quote.all-sins-against-us-are-to-be-forgiven",
+  "lpc.quote.dash-the-little-ones-against-the-rock",
+  "lpc.force.inherited-latin-theological-vocabulary",
+  "cic:npnf107_augustine-homilies-john-soliloquies.xml:iii.ii/line628#01"
+ ],
+ "raw_text": "We have no word of our bishops on that saying before us, so we can tell you only what we hold about being known [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]]. As we understand ourselves, a particular people is placed in a particular man's care, and he will be asked what became of them [[lpc.witness.answerability-as-ground]] [[as:paraphrase]]. The flock is the particular people one bishop is given in one place, and the flock can press him face to face [[lpc.term.the-flock]] [[as:paraphrase]].\n\nWhen a member had failed, we wanted the name set down, then examined before the whole congregation and weighed with its judgment [[lpc.witness.confessor-claim-vs-regulated-peace]] [[as:paraphrase]]. Cyprian wanted each certificate of peace to name the person [[lpc.term.certificates-letters-of-peace]] [[as:paraphrase]]. Some certificates named one person and then asked peace for his friends too, without naming them [[lpc.term.certificates-letters-of-peace]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [
+   {
+    "draft": "We have no word of our bishops on that saying before us, so we can tell you only what we hold about being known [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]].",
+    "sentence": "We have no word of our bishops on that saying before us, so we can tell you only what we hold about being known.",
+    "why": "states an absence that no record it cites states"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C5.S8",
+ "text": "As we understand ourselves, a particular people is placed in a particular man's care, and he will be asked what became of them. The flock is the particular people one bishop is given in one place, and the flock can press him face to face.\n\nWhen a member had failed, we wanted the name set down, then examined before the whole congregation and weighed with its judgment. Cyprian wanted each certificate of peace to name the person. Some certificates named one person and then asked peace for his friends too, without naming them.",
+ "voice_set_aside": false
+}

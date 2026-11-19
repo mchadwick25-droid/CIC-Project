@@ -1,0 +1,1222 @@
+{
+ "rows": {
+  "melitian-schism": [
+   {
+    "name": "Melitius of Lycopolis",
+    "year": 306,
+    "voice": 0,
+    "source": {
+     "work": "Schedule presented by Meletius to Alexander, in Athanasius, Defence against the Arians 71 (NPNF 2/4)",
+     "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+     "lines": "25347",
+     "quote": "I, Meletius of Lycopolis, Lucius of Antinopolis,"
+    }
+   },
+   {
+    "name": "Arsenius",
+    "year": 332,
+    "voice": 4,
+    "source": {
+     "work": "Letter of Arsenius to Athanasius, in Athanasius, Defence against the Arians 69 (NPNF 2/4)",
+     "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+     "lines": "25197-25198",
+     "quote": "Being earnestly desirous of peace and union with the Catholic Church"
+    }
+   },
+   {
+    "name": "Callistus",
+    "year": 335,
+    "voice": 3,
+    "source": {
+     "work": "Letter of Callistus to Apa Paiéous and Patabeit, P. Lond. 1914, Bell's translation",
+     "file": "cic/texts/bell_jews-christians-egypt-meletian-papyri_1924.txt",
+     "lines": "4687-4688",
+     "quote": "We wish you to know the events which have occurred here ;"
+    }
+   }
+  ],
+  "cyrilline-miaphysite-egyptian-christianity": [
+   {
+    "name": "Athanasius of Alexandria",
+    "year": 328,
+    "voice": 0,
+    "source": {
+     "work": "Athanasius, Defence against the Arians 63 (NPNF 2/4)",
+     "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+     "lines": "24967",
+     "quote": "and that a certain Bishop named Arsenius had been murdered by me."
+    }
+   },
+   {
+    "name": "Cyril of Alexandria",
+    "year": 412,
+    "voice": 1,
+    "author": "cyril_alexandria",
+    "held": "cyril-alexandria_three-epistles-grc-eng_pusey1872--three-epistles-cyrilline"
+   },
+   {
+    "name": "Dioscorus of Alexandria",
+    "year": 444,
+    "voice": 2,
+    "source": {
+     "work": "Acts of the Second Synod of Ephesus (449), Syriac acts, Perry's English",
+     "file": "cic/texts/council-of-ephesus-449_second-synod-of-ephesus-syriac-acts_perry1881.txt",
+     "lines": "9180",
+     "quote": "That you do not shout of yourselves alone."
+    }
+   },
+   {
+    "name": "Timothy Aelurus",
+    "year": 457,
+    "voice": 3,
+    "author": "timothy-aelurus",
+    "held": "timothy-aelurus_widerlegung-der-lehre-von-chalcedon-xcl_ter-mekerttschian-ter-minassiantz1908--timothy-aelurus-refutation-miaphysite"
+   },
+   {
+    "name": "Severus of Antioch",
+    "year": 518,
+    "voice": 4,
+    "author": "severus-of-antioch",
+    "held": "severus-of-antioch_select-letters-book6-part1_brooks1903--egypt-letters-reconciling-groups"
+   },
+   {
+    "name": "Theodosius I of Alexandria",
+    "year": 535,
+    "voice": 5,
+    "source": {
+     "work": "Epistle of Theodosius to Severus, in Zachariah of Mitylene, Chronicle IX.24 (Hamilton and Brooks)",
+     "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+     "lines": "14103-14104",
+     "quote": "O being beloved by me above all things, rock of Christ, and guardian of the pure faith who cannot be shaken"
+    }
+   },
+   {
+    "name": "John of Nikiu",
+    "year": 690,
+    "voice": 7,
+    "author": "john-nikiu",
+    "held": "john-nikiu_chronicle_charles1916--the-chronicle-of-john-bishop-of-nikiu"
+   }
+  ],
+  "luciferians": [
+   {
+    "name": "Lucifer of Cagliari",
+    "year": 355,
+    "voice": 0,
+    "source": {
+     "work": "Lucifer of Cagliari, Moriendum esse pro Dei filio 1 (Hartel, CSEL 14)",
+     "file": "cic/texts/lucifer-cagliari_opuscula-lat_hartel1886-csel14.txt",
+     "lines": "15820-15821",
+     "quote": "Decuerat  quidem,  Constanti  imperator,  nihil  iam  tecum de  diuinis  retractare  scripturis,"
+    }
+   },
+   {
+    "name": "Marcellinus",
+    "year": 383,
+    "voice": 2,
+    "source": {
+     "work": "Marcellinus and Faustinus, Libellus precum (Collectio Avellana 2), Marcellinus's subscription",
+     "file": "cic/texts/collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt",
+     "lines": "7632-7633",
+     "quote": "ego Marcellinus presbyter optans felicissimo imperio uestro securam quietem"
+    }
+   },
+   {
+    "name": "Faustinus",
+    "year": 383,
+    "voice": 3,
+    "source": {
+     "work": "Marcellinus and Faustinus, Libellus precum (Collectio Avellana 2), Faustinus's subscription",
+     "file": "cic/texts/collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt",
+     "lines": "7635",
+     "quote": "Faustinus, qui non possum dignus uocari presbyter dei"
+    }
+   }
+  ],
+  "carthusians-later-middle-ages": [
+   {
+    "name": "Nicholas Love",
+    "year": 1410,
+    "voice": 0,
+    "source": {
+     "work": "Nicholas Love, The Mirror of the Blessed Life of Jesus Christ (Powell 1908)",
+     "file": "cic/texts/love_mirror-of-the-blessed-life-of-jesus-christ-enm_powell1908.txt",
+     "lines": "12004-12005",
+     "quote": "here lawheth the lollarde and Ikorneth holy chirche in allegeaunce of fuche myracles"
+    }
+   },
+   {
+    "name": "Grenehalgh",
+    "year": 1499,
+    "voice": 2,
+    "source": {
+     "work": "Colophon of Trinity College, Cambridge, MS 354 of the Scale of Perfection, as transcribed by Underhill (1923)",
+     "file": "cic/texts/hilton_scale-of-perfection_underhill1923.txt",
+     "lines": "1792-1793",
+     "quote": "quod  Grenehalgh  eiusdem  domus  professus indigna  manu  sua."
+    }
+   }
+  ],
+  "carthusians-london-charterhouse-and-exile": [
+   {
+    "name": "Maurice Chauncy",
+    "year": 1534,
+    "voice": 3,
+    "source": {
+     "work": "Maurice Chauncy, Historia aliquot martyrum, quoted in English by John Morris (1872)",
+     "file": "cic/texts/morris-john_troubles-of-our-catholic-forefathers-ser1_1872.txt",
+     "lines": "1264-1265",
+     "quote": "Being  deprived  of  a Prior  exterior  to  ourselves,  every  man’s conscience  was  his  Prior."
+    }
+   }
+  ],
+  "swedish-lutherans-of-new-sweden": [
+   {
+    "name": "Charles Springer",
+    "year": 1693,
+    "voice": 0,
+    "source": {
+     "work": "Springer's letter of 1693 to Postmaster Thelin, written for the Swedes, in Acrelius, History of New Sweden (Reynolds 1874)",
+     "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+     "lines": "11650-11651",
+     "quote": "we in our simple manner will circumstantially and truthfully relate."
+    }
+   },
+   {
+    "name": "Israel Acrelius",
+    "year": 1749,
+    "voice": 1,
+    "source": {
+     "work": "Israel Acrelius, History of New Sweden, author's preface (Reynolds 1874)",
+     "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+     "lines": "1283-1284",
+     "quote": "The  love  of  my  foster-land  ;  a  loving  remembrance  of  my  former dearly  beloved  Parishioners  ;"
+    }
+   }
+  ],
+  "english-unitarianism": [
+   {
+    "name": "Theophilus Lindsey",
+    "year": 1774,
+    "voice": 0,
+    "source": {
+     "work": "Theophilus Lindsey, Sermon at the opening of the chapel in Essex Street (1774)",
+     "file": "cic/texts/lindsey_sermon-at-the-opening-of-the-chapel-in-essex-street_1774.txt",
+     "lines": "1195-1196",
+     "quote": "that we may be at liberty to worſhip God alone"
+    }
+   },
+   {
+    "name": "Joseph Priestley",
+    "year": 1774,
+    "voice": 1,
+    "source": {
+     "work": "Joseph Priestley, Memoirs written by himself (1806)",
+     "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+     "lines": "3483-3485",
+     "quote": "I  now write  a  pamphlet  annually  in  defence  of  the  unitarian doctrine  against  all  my  opponents."
+    }
+   },
+   {
+    "name": "Thomas Belsham",
+    "year": 1789,
+    "voice": 2,
+    "source": {
+     "work": "Thomas Belsham, Memoirs of Lindsey, chapter on American Unitarianism (Boston reprint 1815)",
+     "file": "cic/texts/belsham_american-unitarianism-brief-history_1815.txt",
+     "lines": "458-460",
+     "quote": "It was with great pleasure that Mr. Lindsey received information in the year 1786, from a respectable correspondent,"
+    }
+   }
+  ],
+  "hutterite-brethren": [
+   {
+    "name": "Jakob Hutter",
+    "year": 1533,
+    "voice": 0,
+    "source": {
+     "work": "Jakob Hutter, last letter to the Moravian church, quoted from the manuscript in Wolkan's notes to the Geschicht-Buch (1923)",
+     "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+     "lines": "10593-10594",
+     "quote": "Weiter, ir meine lieben vnd auserwelten B. vnd S., ir meine lieben kindlein, laß ich euch abermal wissen, wie es pmb vns hie steet."
+    }
+   },
+   {
+    "name": "Peter Riedemann",
+    "year": 1533,
+    "voice": 1,
+    "source": {
+     "work": "Peter Riedemann, Rechenschaft, quoted by Beck, Geschichts-Bücher der Wiedertäufer (1883)",
+     "file": "cic/texts/hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883.txt",
+     "lines": "562-563",
+     "quote": "fängt  man  an  des  Herrn  Wort auf  das  treulichste  zu  handeln,"
+    }
+   }
+  ],
+  "mennonites-and-amish-after-1650": [
+   {
+    "name": "Thieleman J. van Braght",
+    "year": 1659,
+    "voice": 0,
+    "source": {
+     "work": "Thieleman J. van Braght, prayer prefixed to the Martyrs Mirror, dated Dort 23 July 1659 (English of 1886)",
+     "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+     "lines": "564-566",
+     "quote": "so that I may become like unto Thy dearest friends, my slain fellow brethren and sisters,"
+    }
+   }
+  ],
+  "melkite-greek-catholic-church-after-1815": [
+   {
+    "name": "Maximos III Mazloum",
+    "year": 1833,
+    "voice": 0,
+    "source": {
+     "work": "Maximos Mazloum's declaration condemning the synod of Qarqafe, 15 October 1835 (Mansi 46)",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+     "lines": "92376-92377",
+     "quote": "Massimo per la miserieordia di Dio patriarca di Antiochia e di tutto il Levante."
+    }
+   },
+   {
+    "name": "Agapios Riachi",
+    "year": 1859,
+    "voice": 1,
+    "source": {
+     "work": "Letter of the conciliabulum of Zahle, 1859, in the French its four bishops sent to Rome (Mansi 46)",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+     "lines": "111826-111828",
+     "quote": "Pour prendre soin des àmes, nous nous sommes trouvés obligés de leur donner des prétres pour les administrer,"
+    }
+   }
+  ]
+ },
+ "decisions": [
+  {
+   "movement": "melitian-schism",
+   "voice": 0,
+   "name": "Melitius of Lycopolis",
+   "individual": true,
+   "backing": "source",
+   "reason": "Issued document in his name (the schedule of his clergy he handed to Alexander, 327), as preserved by Athanasius (year: the split began c.306 per voices line; last active 327, the schedule)"
+  },
+  {
+   "movement": "melitian-schism",
+   "voice": 1,
+   "name": "John Archaph",
+   "individual": true,
+   "backing": "none",
+   "reason": "No writing of his own in the Library; known only from Sozomen, Athanasius and letters written to him (Pinnes's letter, Constantine's summons)."
+  },
+  {
+   "movement": "melitian-schism",
+   "voice": 2,
+   "name": "Apa Paieous",
+   "individual": true,
+   "backing": "none",
+   "reason": "The Hathor letters are addressed to him; the one letter (P. Lond. 1921) whose address reads 'From Paiéous' is doubted by Bell himself (bell_jews...1924.txt 6885-6912), so the authorship is disputed. Not Aurelius Pageus of P. Lond. 1913, whom Bell keeps distinct (line 3941)."
+  },
+  {
+   "movement": "melitian-schism",
+   "voice": 4,
+   "name": "Arsenius",
+   "individual": true,
+   "backing": "source",
+   "reason": "His own letter of submission (c.332), issued with his presbyters and deacons (joint); NPNF dates it 'probably 332' (line 21772-21788); last active at Tyre 335"
+  },
+  {
+   "movement": "melitian-schism",
+   "voice": 3,
+   "name": "Callistus",
+   "individual": true,
+   "backing": "source",
+   "reason": "His own letter (P. Lond. 1914), in Bell's English (year: Bell dates it 334 or 335, 'more probably the latter', line 3463-3465)"
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "voice": 0,
+   "name": "Athanasius of Alexandria",
+   "individual": true,
+   "backing": "source",
+   "reason": "His own writing (year: bishop from 328, voices line; last 373). Planned person athanasius-of-alexandria has its home in alexandria-catechetical, not here, so he is a named voice on this row"
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "voice": 1,
+   "name": "Cyril of Alexandria",
+   "individual": true,
+   "backing": "held",
+   "reason": "Shelf row, author cyril_alexandria: his second and third letters to Nestorius (year: bishop from 412)"
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "voice": 2,
+   "name": "Dioscorus of Alexandria",
+   "individual": true,
+   "backing": "source",
+   "reason": "His own spoken words in the verbatim synod minutes of 449 (year: patriarch from 444; died in exile 454)"
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "voice": 3,
+   "name": "Timothy Aelurus",
+   "individual": true,
+   "backing": "held",
+   "reason": "Shelf row, author timothy-aelurus: his Refutation of Chalcedon (year: chosen bishop 457)"
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "voice": 4,
+   "name": "Severus of Antioch",
+   "individual": true,
+   "backing": "held",
+   "reason": "Shelf row, author severus-of-antioch (year: 518, exile to Egypt per voices line; patriarch from 512)"
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "voice": 5,
+   "name": "Theodosius I of Alexandria",
+   "individual": true,
+   "backing": "source",
+   "reason": "His own letter to Severus, given whole in the Chronicle (year: patriarch from 535). Chosen over the shelf row (Encomium on St Michael), which is only 'attributed to' him"
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "voice": 6,
+   "name": "Benjamin I",
+   "individual": true,
+   "backing": "none",
+   "reason": "No work or quoted words of his own in the Library; known through the History of the Patriarchs and John of Nikiu (narration only)."
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "voice": 7,
+   "name": "John of Nikiu",
+   "individual": true,
+   "backing": "held",
+   "reason": "Shelf row, author john-nikiu: his Chronicle (year: bishop by c.690; last active c.700, estimate)"
+  },
+  {
+   "movement": "luciferians",
+   "voice": 0,
+   "name": "Lucifer of Cagliari",
+   "individual": true,
+   "backing": "source",
+   "reason": "His own pamphlet to Constantius (year: exile from 355; died 371 per Jerome's Chronicle as cited in the draft)"
+  },
+  {
+   "movement": "luciferians",
+   "voice": 1,
+   "name": "Hilary the deacon",
+   "individual": true,
+   "backing": "none",
+   "reason": "Known only through Jerome's Dialogue against the Luciferians; no words of his own in the Library. (Not the Ambrosiaster attribution, which is disputed and not on any shelf for this entry.)"
+  },
+  {
+   "movement": "luciferians",
+   "voice": 2,
+   "name": "Marcellinus",
+   "individual": true,
+   "backing": "source",
+   "reason": "His own subscription to the petition of 383/384 (jointly signed; year: the petition, line 5309)"
+  },
+  {
+   "movement": "luciferians",
+   "voice": 3,
+   "name": "Faustinus",
+   "individual": true,
+   "backing": "source",
+   "reason": "His own subscription to the petition of 383/384 (jointly signed; the draft's fact_table cites this line)"
+  },
+  {
+   "movement": "luciferians",
+   "voice": 4,
+   "name": "Ephesius",
+   "individual": true,
+   "backing": "none",
+   "reason": "Named in the petition as the group's bishop at Rome; no words of his own in the Library."
+  },
+  {
+   "movement": "carthusians-later-middle-ages",
+   "voice": 0,
+   "name": "Nicholas Love",
+   "individual": true,
+   "backing": "source",
+   "reason": "His own writing: one of the anti-Lollard notes he added to his English Mirror (year: 'before 1410', Powell line 170-173; last 1424, died as prior, well known)"
+  },
+  {
+   "movement": "carthusians-later-middle-ages",
+   "voice": 1,
+   "name": "Richard Methley",
+   "individual": true,
+   "backing": "none",
+   "reason": "The Latin Cloud is only 'probably' his (McCann line 632-634: disputed) and is not itself in the Library; no other words of his are vendored."
+  },
+  {
+   "movement": "carthusians-later-middle-ages",
+   "voice": 2,
+   "name": "Grenehalgh",
+   "individual": true,
+   "backing": "source",
+   "reason": "His own signed colophon of 1499 ('with his unworthy hand'), as transcribed by Underhill (year: 1499; last c.1530, estimate)"
+  },
+  {
+   "movement": "carthusians-later-middle-ages",
+   "voice": 3,
+   "name": "William Tregoose",
+   "individual": true,
+   "backing": "none",
+   "reason": "He copied the Douce Cloud manuscript; the Latin note in it is only 'perhaps by the same scribe' (McCann line 4728-4729), so no words are surely his."
+  },
+  {
+   "movement": "carthusians-london-charterhouse-and-exile",
+   "voice": 0,
+   "name": "John Houghton",
+   "individual": true,
+   "backing": "none",
+   "reason": "His words survive in the Library only as reported speech in Chauncy's history (via Morris 1872); his own note of the questions and answers is described, not quoted."
+  },
+  {
+   "movement": "carthusians-london-charterhouse-and-exile",
+   "voice": 1,
+   "name": "William Exmew",
+   "individual": true,
+   "backing": "none",
+   "reason": "No words of his own in the Library; known through Chauncy and Morris."
+  },
+  {
+   "movement": "carthusians-london-charterhouse-and-exile",
+   "voice": 2,
+   "name": "William Horne",
+   "individual": true,
+   "backing": "none",
+   "reason": "No words of his own in the Library; known through Morris's account."
+  },
+  {
+   "movement": "carthusians-london-charterhouse-and-exile",
+   "voice": 3,
+   "name": "Maurice Chauncy",
+   "individual": true,
+   "backing": "source",
+   "reason": "His own written history, quoted by Morris (year: the oath of 1534; died at Bruges 2 July 1581, Morris line 1622-1623)"
+  },
+  {
+   "movement": "new-france-mission-born-christianity",
+   "voice": 0,
+   "name": "Membertou",
+   "individual": true,
+   "backing": "none",
+   "reason": "Every word of his in the Library is speech reported by a Jesuit in the Relations, not his own writing or an issued document."
+  },
+  {
+   "movement": "new-france-mission-born-christianity",
+   "voice": 1,
+   "name": "Noël Negabamat",
+   "individual": true,
+   "backing": "none",
+   "reason": "Every word of his in the Library is speech reported by a Jesuit in the Relations, not his own writing or an issued document."
+  },
+  {
+   "movement": "new-france-mission-born-christianity",
+   "voice": 2,
+   "name": "Jean Baptiste Etinechkavat",
+   "individual": true,
+   "backing": "none",
+   "reason": "Every word of his in the Library is speech reported by a Jesuit in the Relations, not his own writing or an issued document."
+  },
+  {
+   "movement": "new-france-mission-born-christianity",
+   "voice": 3,
+   "name": "Charles Meiachkawat",
+   "individual": true,
+   "backing": "none",
+   "reason": "Every word of his in the Library is speech reported by a Jesuit in the Relations, not his own writing or an issued document."
+  },
+  {
+   "movement": "new-france-mission-born-christianity",
+   "voice": 4,
+   "name": "Joseph Chihwatenhwa",
+   "individual": true,
+   "backing": "none",
+   "reason": "Every word of his in the Library is speech reported by a Jesuit in the Relations, not his own writing or an issued document."
+  },
+  {
+   "movement": "swedish-lutherans-of-new-sweden",
+   "voice": 0,
+   "name": "Charles Springer",
+   "individual": true,
+   "backing": "source",
+   "reason": "Letter he wrote in the congregations' name (joint; Acrelius line 11622-11630 says he was urged to write it). Year 1693; died 1738 (well known, not read from the Library)"
+  },
+  {
+   "movement": "swedish-lutherans-of-new-sweden",
+   "voice": 1,
+   "name": "Israel Acrelius",
+   "individual": true,
+   "backing": "source",
+   "reason": "His own history, preface (year: provost from 1749 per voices line; died 1800)"
+  },
+  {
+   "movement": "english-unitarianism",
+   "voice": 4,
+   "name": "John Biddle",
+   "individual": true,
+   "backing": "none",
+   "reason": "The Library holds only his 1653 English of another man's Life of Socinus; its preface 'To the Reader' is unsigned, so no words are surely his own."
+  },
+  {
+   "movement": "english-unitarianism",
+   "voice": 0,
+   "name": "Theophilus Lindsey",
+   "individual": true,
+   "backing": "source",
+   "reason": "His own sermon of 17 April 1774 (year: 1774; died 1808)"
+  },
+  {
+   "movement": "english-unitarianism",
+   "voice": 1,
+   "name": "Joseph Priestley",
+   "individual": true,
+   "backing": "source",
+   "reason": "His own memoirs (year: 1774, alongside Lindsey's opening; died 1804)"
+  },
+  {
+   "movement": "english-unitarianism",
+   "voice": 2,
+   "name": "Thomas Belsham",
+   "individual": true,
+   "backing": "source",
+   "reason": "His own narrative in the Memoirs of Lindsey chapter, reprinted unaltered (year: Hackney divinity tutor from 1789, Priestley line 4109; died 1829)"
+  },
+  {
+   "movement": "english-unitarianism",
+   "voice": 3,
+   "name": "Joshua Toulmin",
+   "individual": true,
+   "backing": "none",
+   "reason": "No work of his own is in the Library; he is only named (Racovian Catechism preface; General Baptist minutes)."
+  },
+  {
+   "movement": "hutterite-brethren",
+   "voice": 0,
+   "name": "Jakob Hutter",
+   "individual": true,
+   "backing": "source",
+   "reason": "His own letter, as printed by Wolkan from the manuscript (year: leader of the community from 1533, well known; burned 1536)"
+  },
+  {
+   "movement": "hutterite-brethren",
+   "voice": 1,
+   "name": "Peter Riedemann",
+   "individual": true,
+   "backing": "source",
+   "reason": "His own Rechenschaft, quoted by Beck; the vendored Rechenschaft itself is too garbled by OCR to quote (year: jailed at Nuremberg 1533 per voices line; died 1556)"
+  },
+  {
+   "movement": "mennonites-and-amish-after-1650",
+   "voice": 0,
+   "name": "Thieleman J. van Braght",
+   "individual": true,
+   "backing": "source",
+   "reason": "His own signed prayer (year: dated 1659; died 1664)"
+  },
+  {
+   "movement": "mennonites-and-amish-after-1650",
+   "voice": 1,
+   "name": "The publishers of the English edition of 1886",
+   "individual": false,
+   "backing": "none",
+   "reason": "A group of publishers, not a named individual."
+  },
+  {
+   "movement": "melkite-greek-catholic-church-after-1815",
+   "voice": 0,
+   "name": "Maximos III Mazloum",
+   "individual": true,
+   "backing": "source",
+   "reason": "Issued document in his name, 'written with our own hand' (year: patriarch from 1833; died 1855)"
+  },
+  {
+   "movement": "melkite-greek-catholic-church-after-1815",
+   "voice": 1,
+   "name": "Agapios Riachi",
+   "individual": true,
+   "backing": "source",
+   "reason": "Jointly signed letter of four bishops, he first among them, in their own French (year: 1859)"
+  }
+ ],
+ "people_index": [
+  {
+   "name": "Melitius of Lycopolis",
+   "movement": "melitian-schism",
+   "year": 306,
+   "last_year": 327,
+   "author": null,
+   "aliases": [
+    "Melitius of Lycopolis",
+    "Meletius of Lycopolis",
+    "Meletius Lycopolitanus",
+    "Mélèce de Lycopolis",
+    "Meletios von Lykopolis",
+    "Melitios"
+   ]
+  },
+  {
+   "name": "John Archaph",
+   "movement": "melitian-schism",
+   "year": 325,
+   "last_year": 335,
+   "author": null,
+   "aliases": [
+    "John Archaph",
+    "John Arcaph",
+    "Johannes Archaph",
+    "Jean Arcaph",
+    "Ioannes Arcaph"
+   ]
+  },
+  {
+   "name": "Apa Paieous",
+   "movement": "melitian-schism",
+   "year": 334,
+   "last_year": 340,
+   "author": null,
+   "aliases": [
+    "Apa Paieous",
+    "Paiéous",
+    "Apa Paiéou",
+    "Paieous son of Dikaios"
+   ]
+  },
+  {
+   "name": "Arsenius",
+   "movement": "melitian-schism",
+   "year": 332,
+   "last_year": 335,
+   "author": null,
+   "aliases": [
+    "Arsenius of Hypsele",
+    "Arsenius Hypselitanus",
+    "Arsène d'Hypsélé",
+    "Arsenios von Hypsele"
+   ]
+  },
+  {
+   "name": "Callistus",
+   "movement": "melitian-schism",
+   "year": 335,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Callistus the Melitian monk",
+    "Kallistos (P. Lond. 1914)"
+   ]
+  },
+  {
+   "name": "Athanasius of Alexandria",
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "year": 328,
+   "last_year": 373,
+   "author": null,
+   "aliases": [
+    "Athanasius of Alexandria",
+    "Athanasius Alexandrinus",
+    "Athanase d'Alexandrie",
+    "Athanasius von Alexandrien",
+    "Athanasius the Apostolic",
+    "Ἀθανάσιος"
+   ]
+  },
+  {
+   "name": "Cyril of Alexandria",
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "year": 412,
+   "last_year": 444,
+   "author": "cyril_alexandria",
+   "aliases": [
+    "Cyril of Alexandria",
+    "Cyrillus Alexandrinus",
+    "Cyrille d'Alexandrie",
+    "Kyrill von Alexandrien",
+    "Pillar of Faith",
+    "Κύριλλος Ἀλεξανδρείας"
+   ]
+  },
+  {
+   "name": "Dioscorus of Alexandria",
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "year": 444,
+   "last_year": 454,
+   "author": null,
+   "aliases": [
+    "Dioscorus of Alexandria",
+    "Dioscore d'Alexandrie",
+    "Dioscorus Alexandrinus",
+    "Dioskoros"
+   ]
+  },
+  {
+   "name": "Timothy Aelurus",
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "year": 457,
+   "last_year": 477,
+   "author": "timothy-aelurus",
+   "aliases": [
+    "Timotheus Aelurus",
+    "Timothée Élure",
+    "Timotheos Ailuros",
+    "Timothy the Cat"
+   ]
+  },
+  {
+   "name": "Severus of Antioch",
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "year": 518,
+   "last_year": 538,
+   "author": "severus-of-antioch",
+   "aliases": [
+    "Severus Antiochenus",
+    "Sévère d'Antioche",
+    "Severus of Antioch",
+    "Severos von Antiochien"
+   ]
+  },
+  {
+   "name": "Theodosius I of Alexandria",
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "year": 535,
+   "last_year": 566,
+   "author": null,
+   "aliases": [
+    "Theodosius of Alexandria",
+    "Théodose d'Alexandrie",
+    "Theodosius Alexandrinus"
+   ]
+  },
+  {
+   "name": "Benjamin I",
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "year": 623,
+   "last_year": 662,
+   "author": null,
+   "aliases": [
+    "Benjamin of Alexandria",
+    "Patriarch Benjamin",
+    "Benjamin I of Alexandria"
+   ]
+  },
+  {
+   "name": "John of Nikiu",
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "year": 690,
+   "last_year": 700,
+   "author": "john-nikiu",
+   "aliases": [
+    "John of Nikiou",
+    "Jean de Nikiou",
+    "Johannes von Nikiu",
+    "John, Bishop of Nikiu"
+   ]
+  },
+  {
+   "name": "Lucifer of Cagliari",
+   "movement": "luciferians",
+   "year": 355,
+   "last_year": 371,
+   "author": null,
+   "aliases": [
+    "Lucifer of Cagliari",
+    "Lucifer Calaritanus",
+    "Lucifer de Cagliari",
+    "Lucifer von Cagliari",
+    "Lucifero di Cagliari"
+   ]
+  },
+  {
+   "name": "Hilary the deacon",
+   "movement": "luciferians",
+   "year": 355,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Hilarius diaconus",
+    "Hilary the Deacon",
+    "Hilaire le diacre"
+   ]
+  },
+  {
+   "name": "Marcellinus",
+   "movement": "luciferians",
+   "year": 383,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Marcellinus presbyter",
+    "Marcellinus the Luciferian",
+    "Marcellin et Faustin"
+   ]
+  },
+  {
+   "name": "Faustinus",
+   "movement": "luciferians",
+   "year": 383,
+   "last_year": 384,
+   "author": null,
+   "aliases": [
+    "Faustinus presbyter",
+    "Faustinus Luciferianus",
+    "Faustin le luciférien"
+   ]
+  },
+  {
+   "name": "Ephesius",
+   "movement": "luciferians",
+   "year": 383,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Ephesius episcopus",
+    "Ephesius Luciferian bishop of Rome"
+   ]
+  },
+  {
+   "name": "Nicholas Love",
+   "movement": "carthusians-later-middle-ages",
+   "year": 1410,
+   "last_year": 1424,
+   "author": null,
+   "aliases": [
+    "Nicholas Love",
+    "Nicolas Love",
+    "Nicholas Love of Mount Grace",
+    "Nicolaus Love"
+   ]
+  },
+  {
+   "name": "Richard Methley",
+   "movement": "carthusians-later-middle-ages",
+   "year": 1480,
+   "last_year": 1528,
+   "author": null,
+   "aliases": [
+    "Richard Methley",
+    "Richard Furth",
+    "Ricardus Methley"
+   ]
+  },
+  {
+   "name": "Grenehalgh",
+   "movement": "carthusians-later-middle-ages",
+   "year": 1499,
+   "last_year": 1530,
+   "author": null,
+   "aliases": [
+    "James Grenehalgh",
+    "Jacobus Grenehalgh",
+    "Greenhalgh of Sheen",
+    "J. Grenehalgh"
+   ]
+  },
+  {
+   "name": "William Tregoose",
+   "movement": "carthusians-later-middle-ages",
+   "year": 1514,
+   "last_year": 1514,
+   "author": null,
+   "aliases": [
+    "William Tregoose",
+    "Wm. Tregoose"
+   ]
+  },
+  {
+   "name": "John Houghton",
+   "movement": "carthusians-london-charterhouse-and-exile",
+   "year": 1531,
+   "last_year": 1535,
+   "author": null,
+   "aliases": [
+    "John Houghton",
+    "Saint John Houghton",
+    "Joannes Houghton",
+    "Prior Houghton"
+   ]
+  },
+  {
+   "name": "William Exmew",
+   "movement": "carthusians-london-charterhouse-and-exile",
+   "year": 1534,
+   "last_year": 1535,
+   "author": null,
+   "aliases": [
+    "William Exmew",
+    "Blessed William Exmew",
+    "Gulielmus Exmew"
+   ]
+  },
+  {
+   "name": "William Horne",
+   "movement": "carthusians-london-charterhouse-and-exile",
+   "year": 1537,
+   "last_year": 1541,
+   "author": null,
+   "aliases": [
+    "William Horne",
+    "Blessed William Horne",
+    "Brother William Horne"
+   ]
+  },
+  {
+   "name": "Maurice Chauncy",
+   "movement": "carthusians-london-charterhouse-and-exile",
+   "year": 1534,
+   "last_year": 1581,
+   "author": null,
+   "aliases": [
+    "Maurice Chauncy",
+    "Mauritius Chauncaeus",
+    "Maurice Chauncey",
+    "Dom Maurice Chauncy"
+   ]
+  },
+  {
+   "name": "Membertou",
+   "movement": "new-france-mission-born-christianity",
+   "year": 1610,
+   "last_year": 1611,
+   "author": null,
+   "aliases": [
+    "Membertou",
+    "Henri Membertou",
+    "Henry Membertou"
+   ]
+  },
+  {
+   "name": "Noël Negabamat",
+   "movement": "new-france-mission-born-christianity",
+   "year": 1638,
+   "last_year": 1666,
+   "author": null,
+   "aliases": [
+    "Noël Negabamat",
+    "Noel Negabamat",
+    "Negabamat",
+    "Noël Tekouerimat"
+   ]
+  },
+  {
+   "name": "Jean Baptiste Etinechkavat",
+   "movement": "new-france-mission-born-christianity",
+   "year": 1640,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Jean Baptiste Etinechkavat",
+    "Etinechkavat",
+    "Jean-Baptiste Etinechkaouat"
+   ]
+  },
+  {
+   "name": "Charles Meiachkawat",
+   "movement": "new-france-mission-born-christianity",
+   "year": 1640,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Charles Meiachkawat",
+    "Meiachkawat",
+    "Charles Meiaskwat"
+   ]
+  },
+  {
+   "name": "Joseph Chihwatenhwa",
+   "movement": "new-france-mission-born-christianity",
+   "year": 1637,
+   "last_year": 1640,
+   "author": null,
+   "aliases": [
+    "Joseph Chihwatenhwa",
+    "Joseph Chiwatenhwa",
+    "Chiwatenhwa",
+    "Joseph Chihoatenhwa"
+   ]
+  },
+  {
+   "name": "Charles Springer",
+   "movement": "swedish-lutherans-of-new-sweden",
+   "year": 1693,
+   "last_year": 1738,
+   "author": null,
+   "aliases": [
+    "Charles Springer",
+    "Carl Springer",
+    "Karl Christophersson Springer"
+   ]
+  },
+  {
+   "name": "Israel Acrelius",
+   "movement": "swedish-lutherans-of-new-sweden",
+   "year": 1749,
+   "last_year": 1800,
+   "author": null,
+   "aliases": [
+    "Israel Acrelius",
+    "Acrelius",
+    "Israël Acrelius"
+   ]
+  },
+  {
+   "name": "John Biddle",
+   "movement": "english-unitarianism",
+   "year": 1653,
+   "last_year": 1662,
+   "author": null,
+   "aliases": [
+    "John Biddle",
+    "John Bidle",
+    "Joannes Bidellus",
+    "Biddle the Socinian"
+   ]
+  },
+  {
+   "name": "Theophilus Lindsey",
+   "movement": "english-unitarianism",
+   "year": 1774,
+   "last_year": 1808,
+   "author": null,
+   "aliases": [
+    "Theophilus Lindsey",
+    "Theophilus Lindsay",
+    "Mr. Lindsey"
+   ]
+  },
+  {
+   "name": "Joseph Priestley",
+   "movement": "english-unitarianism",
+   "year": 1774,
+   "last_year": 1804,
+   "author": null,
+   "aliases": [
+    "Joseph Priestley",
+    "Dr. Priestley",
+    "Josephus Priestley"
+   ]
+  },
+  {
+   "name": "Thomas Belsham",
+   "movement": "english-unitarianism",
+   "year": 1789,
+   "last_year": 1829,
+   "author": null,
+   "aliases": [
+    "Thomas Belsham",
+    "Mr. Belsham",
+    "Belsham of Essex Street"
+   ]
+  },
+  {
+   "name": "Joshua Toulmin",
+   "movement": "english-unitarianism",
+   "year": 1777,
+   "last_year": 1815,
+   "author": null,
+   "aliases": [
+    "Joshua Toulmin",
+    "Dr. Toulmin",
+    "Doctor Toulmin"
+   ]
+  },
+  {
+   "name": "Jakob Hutter",
+   "movement": "hutterite-brethren",
+   "year": 1533,
+   "last_year": 1536,
+   "author": null,
+   "aliases": [
+    "Jakob Hutter",
+    "Jacob Hutter",
+    "Jakob Huter",
+    "Jakob Hueter",
+    "Jacob Huter"
+   ]
+  },
+  {
+   "name": "Peter Riedemann",
+   "movement": "hutterite-brethren",
+   "year": 1533,
+   "last_year": 1556,
+   "author": null,
+   "aliases": [
+    "Peter Riedemann",
+    "Peter Rideman",
+    "Peter Ridemann",
+    "Peter Riedeman",
+    "Petrus Riedemann"
+   ]
+  },
+  {
+   "name": "Thieleman J. van Braght",
+   "movement": "mennonites-and-amish-after-1650",
+   "year": 1659,
+   "last_year": 1664,
+   "author": null,
+   "aliases": [
+    "Thieleman J. van Braght",
+    "Tieleman Jansz van Braght",
+    "Thieleman Janszoon van Braght",
+    "T. J. van Braght",
+    "Tilemann van Braght"
+   ]
+  },
+  {
+   "name": "Maximos III Mazloum",
+   "movement": "melkite-greek-catholic-church-after-1815",
+   "year": 1833,
+   "last_year": 1855,
+   "author": null,
+   "aliases": [
+    "Maximos III Mazloum",
+    "Maximus Mazlum",
+    "Maxime III Mazloum",
+    "Massimo Mazlum",
+    "Maximos Mazlum"
+   ]
+  },
+  {
+   "name": "Agapios Riachi",
+   "movement": "melkite-greek-catholic-church-after-1815",
+   "year": 1859,
+   "last_year": null,
+   "author": null,
+   "aliases": [
+    "Agapios Riachi",
+    "Agapius Riachi",
+    "Agapios Riachy",
+    "Agapius Riak"
+   ]
+  }
+ ],
+ "empty_reasons": {
+  "new-france-mission-born-christianity": "Its named people speak in the Library only through the Jesuits who wrote their words down, so no one here is shown in his own words yet."
+ },
+ "flags": [
+  "melitian-schism / Arsenius: joint — the letter is from 'Arsenius ... together with the Presbyters and Deacons'; preserved inside Athanasius's own dossier",
+  "melitian-schism / Callistus: the quote is Bell's 1924 English translation of the Greek papyrus, not the Greek",
+  "melitian-schism / Callistus: aliases are weak (a common name); a mention count by name will over-count",
+  "cyrilline-miaphysite-egyptian-christianity / Athanasius: a planned person entry exists (athanasius-of-alexandria, home alexandria-catechetical); listed here as a named voice by source, as R12 did on the Aksumite row. If the person card should replace him here, swap to {\"person\": \"athanasius-of-alexandria\"}",
+  "cyrilline-miaphysite-egyptian-christianity / Theodosius I: backed by source (his letter to Severus in Zachariah IX.24) rather than the held Encomium, whose authorship is only 'attributed' — reverses R36's choice",
+  "luciferians / Marcellinus, Faustinus: joint — both back on their own subscriptions to the one petition (Libellus precum, 383/384)",
+  "luciferians / Marcellinus, Faustinus: bare Latin names are common; aliases are only usable with 'presbyter' or 'Luciferian' context",
+  "carthusians-later-middle-ages / Grenehalgh: the only own words are a one-line scribal colophon, transcribed with OCR damage; the Christian name James is not in the voices line",
+  "carthusians-london-charterhouse-and-exile / Maurice Chauncy: the quote is Morris's English of Chauncy's Latin history; the history itself is not vendored",
+  "carthusians-london-charterhouse-and-exile: entry exists only in D2/Draft.json, not in Draft_optionA.json",
+  "carthusians-london-charterhouse-and-exile / Maurice Chauncy: alias collision — the Library holds Charles Chauncy (1743-1784 New England works); never count a bare 'Chauncy'",
+  "new-france-mission-born-christianity: Noël Negabamat's alias 'Noël Tekouerimat' is a later spelling recorded in modern scholarship, not checked in the Library",
+  "swedish-lutherans-of-new-sweden / Charles Springer: joint — the letter speaks as 'we', for the Swedish congregations",
+  "english-unitarianism / Joshua Toulmin: alias collision with Joshua Toulmin Smith (English Gilds editor, 1870); count 'Joshua Toulmin' only when not followed by 'Smith'",
+  "english-unitarianism / Priestley year 1774 is an ordering estimate tied to the movement's start; his first Unitarian pamphlet is not dated from the Library",
+  "hutterite-brethren / Jakob Hutter: OCR 'pmb' for 'vmb' is kept as printed in the file",
+  "hutterite-brethren / Peter Riedemann: quote is via Beck's paraphrase-frame '(schreibt Riedemann)', a direct quotation of the Rechenschaft, not checked against the Fraktur scan",
+  "melkite-greek-catholic-church-after-1815 / Agapios Riachi: joint — one of four signing bishops; OCR 'àmes', 'prétres' kept as printed",
+  "neighbor_changes carthusian-life, the-anabaptist-movements, melkite-greek-catholic-church set continuesAs/longDescription only, no voices: no rows"
+ ]
+}

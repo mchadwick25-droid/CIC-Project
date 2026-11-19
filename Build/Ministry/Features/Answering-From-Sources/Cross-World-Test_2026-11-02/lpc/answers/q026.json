@@ -1,0 +1,178 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.term.heresy"
+   ],
+   "sentence": "What we never settled was whether a baptism given outside our one church counts at all."
+  },
+  {
+   "record_ids": [
+    "lpc.term.heresy"
+   ],
+   "sentence": "We answered that question twice, in two different ways, a century and a half apart."
+  },
+  {
+   "record_ids": [
+    "lpc.term.heresy"
+   ],
+   "sentence": "Cyprian's council said such a baptism did not count, while Augustine said it was given, though it did no good there."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.communion-over-separation"
+   ],
+   "sentence": "Augustine argued at book length that the ruling of Cyprian's council was wrong."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.communion-over-separation",
+    "lpc.witness.answerability-as-ground"
+   ],
+   "sentence": "Yet Augustine never put Cyprian outside our communion."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.answerability-as-ground"
+   ],
+   "sentence": "We do not pretend that being answerable for someone makes this question easy."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.confessor-claim-vs-regulated-peace",
+    "lpc.term.confessor"
+   ],
+   "sentence": "The confessors held that their suffering gave them standing to ask peace for the lapsed."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ],
+   "sentence": "The church answered that a name must be set down, then examined before the whole congregation."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ],
+   "sentence": "We hold both as real, and we have never found the place where they become one settled rule."
+  }
+ ],
+ "citations": [
+  "lpc.term.confessor",
+  "lpc.term.heresy",
+  "lpc.witness.answerability-as-ground",
+  "lpc.witness.communion-over-separation",
+  "lpc.witness.confessor-claim-vs-regulated-peace"
+ ],
+ "group": "A",
+ "id": "q026",
+ "net_sentences": [
+  {
+   "draft": "What we never settled was whether a baptism given outside our one church counts at all [[lpc.term.heresy]] [[as:paraphrase]].",
+   "sentence": "What we never settled was whether a baptism given outside our one church counts at all.",
+   "tags": [
+    "lpc.term.heresy"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We answered that question twice, in two different ways, a century and a half apart [[lpc.term.heresy]] [[as:paraphrase]].",
+   "ratio": 0.89,
+   "sentence": "We answered that question twice, in two different ways, a century and a half apart.",
+   "tags": [
+    "lpc.term.heresy"
+   ],
+   "verdict": "ok",
+   "why": "grounded 89% in own tagged records"
+  },
+  {
+   "draft": "Cyprian's council said such a baptism did not count, while Augustine said it was given, though it did no good there [[lpc.term.heresy]] [[as:paraphrase]].",
+   "ratio": 0.82,
+   "sentence": "Cyprian's council said such a baptism did not count, while Augustine said it was given, though it did no good there.",
+   "tags": [
+    "lpc.term.heresy"
+   ],
+   "verdict": "ok",
+   "why": "grounded 82% in own tagged records"
+  },
+  {
+   "draft": "Augustine argued at book length that the ruling of Cyprian's council was wrong [[lpc.witness.communion-over-separation]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Augustine argued at book length that the ruling of Cyprian's council was wrong.",
+   "tags": [
+    "lpc.witness.communion-over-separation"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Yet Augustine never put Cyprian outside our communion [[lpc.witness.communion-over-separation]] [[lpc.witness.answerability-as-ground]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Yet Augustine never put Cyprian outside our communion.",
+   "tags": [
+    "lpc.witness.communion-over-separation",
+    "lpc.witness.answerability-as-ground"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We do not pretend that being answerable for someone makes this question easy [[lpc.witness.answerability-as-ground]] [[as:paraphrase]].",
+   "sentence": "We do not pretend that being answerable for someone makes this question easy.",
+   "tags": [
+    "lpc.witness.answerability-as-ground"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "A second tension never became one rule.",
+   "sentence": "A second tension never became one rule.",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "The confessors held that their suffering gave them standing to ask peace for the lapsed [[lpc.witness.confessor-claim-vs-regulated-peace]] [[lpc.term.confessor]] [[as:paraphrase]].",
+   "sentence": "The confessors held that their suffering gave them standing to ask peace for the lapsed.",
+   "tags": [
+    "lpc.witness.confessor-claim-vs-regulated-peace",
+    "lpc.term.confessor"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The church answered that a name must be set down, then examined before the whole congregation [[lpc.witness.confessor-claim-vs-regulated-peace]] [[as:paraphrase]].",
+   "sentence": "The church answered that a name must be set down, then examined before the whole congregation.",
+   "tags": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We hold both as real, and we have never found the place where they become one settled rule [[lpc.witness.confessor-claim-vs-regulated-peace]] [[as:paraphrase]].",
+   "sentence": "We hold both as real, and we have never found the place where they become one settled rule.",
+   "tags": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [],
+ "raw_text": "What we never settled was whether a baptism given outside our one church counts at all [[lpc.term.heresy]] [[as:paraphrase]]. We answered that question twice, in two different ways, a century and a half apart [[lpc.term.heresy]] [[as:paraphrase]]. Cyprian's council said such a baptism did not count, while Augustine said it was given, though it did no good there [[lpc.term.heresy]] [[as:paraphrase]].\n\nAugustine argued at book length that the ruling of Cyprian's council was wrong [[lpc.witness.communion-over-separation]] [[as:paraphrase]]. Yet Augustine never put Cyprian outside our communion [[lpc.witness.communion-over-separation]] [[lpc.witness.answerability-as-ground]] [[as:paraphrase]]. We do not pretend that being answerable for someone makes this question easy [[lpc.witness.answerability-as-ground]] [[as:paraphrase]].\n\nA second tension never became one rule. The confessors held that their suffering gave them standing to ask peace for the lapsed [[lpc.witness.confessor-claim-vs-regulated-peace]] [[lpc.term.confessor]] [[as:paraphrase]]. The church answered that a name must be set down, then examined before the whole congregation [[lpc.witness.confessor-claim-vs-regulated-peace]] [[as:paraphrase]]. We hold both as real, and we have never found the place where they become one settled rule [[lpc.witness.confessor-claim-vs-regulated-peace]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C17.S4",
+ "text": "What we never settled was whether a baptism given outside our one church counts at all. We answered that question twice, in two different ways, a century and a half apart. Cyprian's council said such a baptism did not count, while Augustine said it was given, though it did no good there.\n\nAugustine argued at book length that the ruling of Cyprian's council was wrong. Yet Augustine never put Cyprian outside our communion. We do not pretend that being answerable for someone makes this question easy.\n\nA second tension never became one rule. The confessors held that their suffering gave them standing to ask peace for the lapsed. The church answered that a name must be set down, then examined before the whole congregation. We hold both as real, and we have never found the place where they become one settled rule.",
+ "voice_set_aside": false
+}

@@ -38,6 +38,25 @@ works:
 
     '
   source_file: malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt
+- row_id: marco-polo_book-of-ser-marco-polo-v1_yule-cordier1903--marco-polo-the-book-of-ser-marco-polo-vol-i-yule-cordier-1903
+  work: Marco Polo, The Book of Ser Marco Polo, vol. I (Yule-Cordier 1903)
+  author: marco-polo
+  locus: the whole volume; the Nestorian passages at Mosul (from about OCR line 18113), Tenduc
+    (30581-31294) and elsewhere; add 11 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: A Venetian merchant's lay account of the Mongol world, including the Nestorians, dictated
+    in this window.
+  source_file: marco-polo_book-of-ser-marco-polo-v1_yule-cordier1903.txt
+- row_id: marco-polo_book-of-ser-marco-polo-v2_yule-cordier1903--marco-polo-the-book-of-ser-marco-polo-vol-ii-yule-cordier-1903
+  work: Marco Polo, The Book of Ser Marco Polo, vol. II (Yule-Cordier 1903)
+  author: marco-polo
+  locus: the whole volume; the Christian monument at Si-ngan fu from about OCR line 2864;
+    add 11 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: The second volume, with the Chinese cities and the Nestorians there.
+  source_file: marco-polo_book-of-ser-marco-polo-v2_yule-cordier1903.txt
 - row_id: rhc-armeniens_documents-armeniens-t2-latins-et-francais-fra_academie1906--recueil-des-historiens-des-croisades-documents-armeniens-ii-2
   work: 'Recueil des historiens des croisades, Documents arméniens II: Hayton and the Latin
     sources on Armenia'

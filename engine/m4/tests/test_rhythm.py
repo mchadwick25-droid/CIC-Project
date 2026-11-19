@@ -11,6 +11,7 @@ from engine.m4.evidence import QUESTION_KINDS, assemble_evidence, render_evidenc
 from engine.m4.rhythm import RhythmTally, asks_for_the_words, tally_from_transcript
 from engine.m4.turn_prep import (
     LEXICON_LINE,
+    LIMIT_LINE,
     NO_NEW_FIGURE_LINE,
     QUOTE_DUE_LINE,
     REFER_BACK_LINE,
@@ -245,6 +246,7 @@ def test_the_figure_the_question_asks_about_is_not_held_back_by_the_gate():
 def test_the_lexicon_line_is_present_for_every_kind(kind):
     assert LEXICON_LINE == "Use the world's own words for what it held."
     assert LEXICON_LINE in _prepare([], kind=kind).turn_directive
+    assert LIMIT_LINE in _prepare([], kind=kind).turn_directive
     assert LEXICON_LINE in _prepare(_transcript(_voice(quotes=["fix.quote.a"])), kind=kind).turn_directive
 
 
@@ -299,3 +301,9 @@ def test_the_tally_adds_no_field_to_the_session_state():
     from engine.m4.projection import SessionState
 
     assert not [name for name in SessionState.__dataclass_fields__ if any(w in name for w in ("rhythm", "voiced", "tally", "figures_introduced"))]
+
+
+def test_the_due_line_lets_the_voice_place_none_when_none_answers_the_ask():
+    assert "place none" in QUOTE_DUE_LINE
+    assert "Place one of them in full" not in QUOTE_DUE_LINE
+    assert QUOTE_DUE_LINE in _prepare([]).turn_directive

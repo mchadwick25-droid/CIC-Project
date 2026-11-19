@@ -17,9 +17,7 @@ confidence:
     written.
 sources:
 - source_id: gallic.source.cassian-conferences-part-iii
-  locus: "Preface III (npnf211 div iv.vi.i, file lines 42305-42325): Cassian's description of
-    Gallic monks receiving the authors of the Conferences into their own cells, as living
-    instruction"
+  locus: "Preface III (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 42312-42325; div iv.vi.i): Cassian's description of Gallic monks receiving the authors of the Conferences into their own cells, as living instruction"
   license: public-domain
 retrieval:
   tier: 3
@@ -50,7 +48,7 @@ modern_lens_note: >-
   teacher, read and talked with, in a country where the anchorite's road has no well-worn path of
   its own to follow yet.
 modern_rendering: >-
-  Your earlier efforts and labours have made a special contribution to this. The brothers are
+  Your earlier efforts and labors have made a special contribution to this. The brothers are
   already prepared and practiced in these exercises. So they can more readily receive the
   precepts and institutes of the Elders. They can receive into their cells the authors of the
   Conferences, together with the actual volumes of the Conferences. In a way, they can talk with

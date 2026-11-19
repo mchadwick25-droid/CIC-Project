@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.jerome-ep45
-  locus: sec. 3
+  locus: "sec. 3 (cic/texts/npnf206_jerome-principal-works.xml, lines 8636-8641)"
   license: public-domain
 text: 'Before I became acquainted with the family of the saintly Paula, all Rome
   resounded with my praises. Almost every one concurred in judging me worthy of the
@@ -37,7 +37,7 @@ use_note:
   means: "Jerome, leaving Rome in August 385, claims that before he knew Paula's family all Rome praised him and judged him worthy of the episcopate."
   not_for:
     - "a confirmed fact that Jerome was a candidate to become bishop of Rome"
-    - "a neutral account of why he left Rome rather than his aggrieved self-defence"
+    - "a neutral account of why he left Rome rather than his aggrieved self-defense"
   years: {from: 382, to: 385}
   status: reviewed
 ---

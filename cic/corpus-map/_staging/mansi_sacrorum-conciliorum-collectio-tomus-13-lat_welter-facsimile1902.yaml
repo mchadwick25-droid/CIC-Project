@@ -1,0 +1,12 @@
+source_file: mansi_sacrorum-conciliorum-collectio-tomus-13-lat_welter-facsimile1902.txt
+assignments:
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-13-lat_welter-facsimile1902--mansi-xiii-the-second-council-of-nicaea-787-sessions-iv-viii
+  work: 'Mansi XIII, the Second Council of Nicaea (787), sessions IV-VIII, definition and canons'
+  author: council-of-nicaea-787
+  locus: 'about OCR lines 744-83064; add 12 to OCR line numbers'
+  atlas_ids:
+  - byzantine-imperial-church-heraclian-iconoclast
+  - iconophile-byzantine-monasticism
+  role: tradition
+  confidence: provisional
+  note: 'The second half of the council''s acts, with its definition and canons. Only the Latin can be read in this OCR. The later councils in the volume are not placed.'

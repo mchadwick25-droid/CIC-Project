@@ -41,7 +41,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - what these monks feared most, or why "lukewarm" was so serious
-  - what happened to a monk who lost his fervour, or why old age was no guarantee
+  - what happened to a monk who lost his fervor, or why old age was no guarantee
   - participant uses "lukewarm," "burnout," "losing zeal," "backsliding," or "cooling off"
   - the steward's cupboard, the elders who "pass their old age in a lukewarmness," Sarabaites "cast down into hell," or Salvian's Revelation 3
   prefer_instead:
@@ -98,7 +98,7 @@ senses:
     their institution"; the renunciant "aglow with spiritual fervour" who, "when he has cooled down,"
     wants his money back is the case in point. Pinufius charges the newly received: "do not grow cold
     after the examples of the lukewarmness of many." It is one of discretion's two ditches, and it
-    explains why a grey head is no elder: the majority "pass their old age in a lukewarmness which they
+    explains why a gray head is no elder: the majority "pass their old age in a lukewarmness which they
     contracted in youth ... and so obtain authority ... simply from the number of their years." Even
     the Church's first days are remembered by it - the common life held "when the fervent faith of the
     few had not yet grown lukewarm by being dispersed among the many." And grace answers it: "if He
@@ -107,7 +107,7 @@ senses:
     between is a lukewarm Christian and hateful to the Lord."
   evidential: >-
     Cassian (Institutes II.5, IV.4, IV.6, IV.33, IV.38; Conferences II.2, II.13, XIII.11, XVIII.7);
-    Salvian (IV.19, within his licence, nothing grace-related drawn); Sulpitius only obliquely (Brictio,
+    Salvian (IV.19, within his license, nothing grace-related drawn); Sulpitius only obliquely (Brictio,
     Dialogues III.15). The Latin lemma is not supplied against the text.
   personal: >-
     We measure a monk by temperature. Our deepest fear is not damnation but cooling: the bright start
@@ -116,15 +116,15 @@ senses:
     Tours, Brictio sneering at his master's visions is what a cooled disciple looks like from outside.
   translational: >-
     'Lukewarm - you mean a bit half-hearted, burned out?' - no: a spiritual disease that damns, the
-    deserter's condition and the false elder's old age, measured against a fervour that even the
+    deserter's condition and the false elder's old age, measured against a fervor that even the
     apostolic Church lost by dispersion; the clothes we kept in the steward's cupboard were kept
     against exactly this.
 quick_meaning: >-
-  The monk's typical failure: he grew cold. It could damn him, and grey hair was no guarantee against
+  The monk's typical failure: he grew cold. It could damn him, and gray hair was no guarantee against
   it.
 distortion_risk: high
 use_note:
-  means: "Lukewarmness meant the monk's characteristic failure, cooling rather than apostasy, a disease of temperature that damns and that a grey head does not cure."
+  means: "Lukewarmness meant the monk's characteristic failure, cooling rather than apostasy, a disease of temperature that damns and that a gray head does not cure."
   not_for:
     - "mild disapproval, half-heartedness, or burnout as an understandable phase"
     - "the specific noonday assault on the cell, which sits in gallic.term.accidie"

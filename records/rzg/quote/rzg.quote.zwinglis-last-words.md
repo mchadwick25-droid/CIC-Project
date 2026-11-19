@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: rzg.source.zwingli-latin-works-vol1
-  locus: Myconius, 'Original Life of Zwingli' SS12, lines approx. 1592-1593
+  locus: "Myconius, 'Original Life of Zwingli' SS12 (cic/texts/zwingli_latin-works-correspondence-vol1_jackson1912.txt, lines 1592-1593)"
   license: public-domain
 relations:
 - type: associated-with

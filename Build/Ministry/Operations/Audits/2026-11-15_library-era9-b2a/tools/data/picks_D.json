@@ -1,0 +1,658 @@
+[
+ {
+  "row": "263-266",
+  "person": "Taiping figures (Feng Yunshan, Yang Xiuqing, Hong Rengan, Roberts)",
+  "serves": "Meadows: early Hong Xiuquan, Hamberg extracts, Roberts",
+  "ia_id": "chinesetheirrebe00mead",
+  "local": "/tmp/claude-0/-home-user-CIC-Project/39e3938f-160e-5665-9646-ae4332ae3602/scratchpad/gD/dl/chinesetheirrebe00mead_djvu.txt",
+  "title_page_words": "THE CHINESE AND THEIR REBELLIONS, viewed in connection with their national philosophy, ethics, legislation, and administration",
+  "author_as_printed": "THOMAS TAYLOR MEADOWS, Chinese Interpreter in H. M. Civil Service",
+  "editor_translator_as_printed": null,
+  "place_publisher_as_printed": "LONDON: SMITH, ELDER & CO. 65, CORNHILL. BOMBAY: SMITH, TAYLOR & CO.",
+  "imprint_year": 1856,
+  "imprint_read_at": "OCR line 82-87",
+  "first_published": "1856",
+  "host_rights": {
+   "possible-copyright-status": "absent",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "eng",
+  "bytes": 1773919,
+  "listed": 1773919,
+  "match": true,
+  "words": 261115,
+  "ocr_quality": "clean",
+  "divisions": "chapters with index (index near line 2181-2305)",
+  "text_start_line": null,
+  "text_end_line": null,
+  "editorial_matter": "not mapped",
+  "mixed_voices": "narrative with quoted documents",
+  "wanted_passages": [
+   {
+    "what": "Hung with Mr Roberts; Hamberg's book discussed and extracts",
+    "ocr_lines": "6596-6720, 9097-9150, 9512ff, 11442-11450"
+   }
+  ],
+  "front_and_back": "Google/Internet Archive scan notice at front; not mapped further",
+  "undated_basis": null,
+  "cautions": "Hamberg's own book is NOT here, only extracts and discussion",
+  "library_stamps_or_reprint_signs": "no reprint notice found by grep (reprint/kessinger/forgotten/nabu/bibliolife/classic reprint/microfilm); library stamps only"
+ },
+ {
+  "row": "263-266",
+  "person": "Taiping figures",
+  "serves": "Brine: Hamberg narrative, Fung-yun-san, Yang-siu-tshin, Roberts letter, Hung-jin",
+  "ia_id": "taepingrebellio00bringoog",
+  "local": "/tmp/claude-0/-home-user-CIC-Project/39e3938f-160e-5665-9646-ae4332ae3602/scratchpad/gD/dl/taepingrebellio00bringoog_djvu.txt",
+  "title_page_words": "THE TAEPING REBELLION IN CHINA; A NARRATIVE OF ITS RISE AND PROGRESS. BASED UPON ORIGINAL DOCUMENTS",
+  "author_as_printed": "COMMANDER LINDESAY BRINE, R.N., F.R.G.S.",
+  "editor_translator_as_printed": null,
+  "place_publisher_as_printed": "LONDON: JOHN MURRAY, ALBEMARLE STREET",
+  "imprint_year": 1862,
+  "imprint_read_at": "OCR line 107-111",
+  "first_published": "1862",
+  "host_rights": {
+   "possible-copyright-status": "NOT_IN_COPYRIGHT",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "eng",
+  "bytes": 815284,
+  "listed": 815284,
+  "match": true,
+  "words": 135485,
+  "ocr_quality": "fair (some OCR noise)",
+  "divisions": "chapters; contents ~ line 514",
+  "text_start_line": null,
+  "text_end_line": null,
+  "editorial_matter": "not mapped",
+  "mixed_voices": "narrative with quoted documents",
+  "wanted_passages": [
+   {
+    "what": "Hamberg's narrative (Chap IV), Fung-yun-san, Roberts, Yang-siu-tshin",
+    "ocr_lines": "3095-3200, 3505-3600, 3641-3740, 3934"
+   }
+  ],
+  "front_and_back": "Google/Internet Archive scan notice at front; not mapped further",
+  "undated_basis": null,
+  "cautions": "Document extracts embedded",
+  "library_stamps_or_reprint_signs": "no reprint notice found by grep (reprint/kessinger/forgotten/nabu/bibliolife/classic reprint/microfilm); library stamps only"
+ },
+ {
+  "row": "263-266",
+  "person": "Taiping figures",
+  "serves": "Lindley vol 2: Kan-wang (Hong Rengan) chapter, Roberts at Nanking",
+  "ia_id": "tipingtienkwohhi02lind",
+  "local": "/tmp/claude-0/-home-user-CIC-Project/39e3938f-160e-5665-9646-ae4332ae3602/scratchpad/gD/dl/tipingtienkwohhi02lind_djvu.txt",
+  "title_page_words": "TI-PING TIEN-KWOH; THE HISTORY OF THE TI-PING REVOLUTION, including a narrative of the author's personal adventures ... VOLUME II",
+  "author_as_printed": "LIN-LE (Augustus F. Lindley)",
+  "editor_translator_as_printed": null,
+  "place_publisher_as_printed": "LONDON: DAY & SON (LIMITED), LITHOGRAPHERS & PUBLISHERS, GATE STREET, LINCOLN'S INN FIELDS",
+  "imprint_year": 1866,
+  "imprint_read_at": "page image leaf 6 (OCR line 119 reads '1866' as '1«66')",
+  "first_published": "1866",
+  "host_rights": {
+   "possible-copyright-status": "NOT_IN_COPYRIGHT",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "eng",
+  "bytes": 1043142,
+  "listed": 1043142,
+  "match": true,
+  "words": 150674,
+  "ocr_quality": "fair",
+  "divisions": "contents from line ~290",
+  "text_start_line": null,
+  "text_end_line": null,
+  "editorial_matter": "not mapped",
+  "mixed_voices": "narrative with quoted documents",
+  "wanted_passages": [
+   {
+    "what": "Kan-wang",
+    "ocr_lines": "342, 2450-2460, 2578-2622, 5648-5680, 6899-6937 (Roberts)"
+   }
+  ],
+  "front_and_back": "Google/Internet Archive scan notice at front; not mapped further",
+  "undated_basis": null,
+  "cautions": "Volume II only; vol I already held",
+  "library_stamps_or_reprint_signs": "no reprint notice found by grep (reprint/kessinger/forgotten/nabu/bibliolife/classic reprint/microfilm); library stamps only"
+ },
+ {
+  "row": "282",
+  "person": "Niijima Jo",
+  "serves": "his Life and Letters",
+  "ia_id": "lifelettersofjos00hardiala",
+  "local": "/tmp/claude-0/-home-user-CIC-Project/39e3938f-160e-5665-9646-ae4332ae3602/scratchpad/gD/dl/lifelettersofjos00hardiala_djvu.txt",
+  "title_page_words": "LIFE AND LETTERS OF JOSEPH HARDY NEESIMA",
+  "author_as_printed": "ARTHUR SHERBURNE HARDY",
+  "editor_translator_as_printed": null,
+  "place_publisher_as_printed": "BOSTON AND NEW YORK: HOUGHTON, MIFFLIN AND COMPANY",
+  "imprint_year": 1891,
+  "imprint_read_at": "title page prints no year; copyright notice OCR line 57",
+  "first_published": "1891",
+  "host_rights": {
+   "possible-copyright-status": "NOT_IN_COPYRIGHT",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "eng",
+  "bytes": 706048,
+  "listed": 706048,
+  "match": true,
+  "words": 109604,
+  "ocr_quality": "clean",
+  "divisions": "chapters I-... 1843-1865 onward, contents line ~114",
+  "text_start_line": null,
+  "text_end_line": null,
+  "editorial_matter": "not mapped",
+  "mixed_voices": "narrative with quoted documents",
+  "wanted_passages": [
+   {
+    "what": "letters throughout",
+    "ocr_lines": "whole text"
+   }
+  ],
+  "front_and_back": "Google/Internet Archive scan notice at front; not mapped further",
+  "undated_basis": "(a) copyright notice OCR line 57: 'Copyright, 1891, ARTHUR SHERBURNE HARDY' ; catalogue date 1891",
+  "cautions": "year from copyright notice",
+  "library_stamps_or_reprint_signs": "no reprint notice found by grep (reprint/kessinger/forgotten/nabu/bibliolife/classic reprint/microfilm); library stamps only"
+ },
+ {
+  "row": "282",
+  "person": "Niijima Jo",
+  "serves": "shorter Life by Davis",
+  "ia_id": "sketchoflifeofre00davirich",
+  "local": "/tmp/claude-0/-home-user-CIC-Project/39e3938f-160e-5665-9646-ae4332ae3602/scratchpad/gD/dl/sketchoflifeofre00davirich_djvu.txt",
+  "title_page_words": "A SKETCH OF THE LIFE OF REV. JOSEPH HARDY NEESIMA, LL.D., President of Doshisha, Kyoto, prepared by Rev. J. D. Davis, D.D.",
+  "author_as_printed": "Rev. J. D. Davis, D.D.",
+  "editor_translator_as_printed": null,
+  "place_publisher_as_printed": "Tokyo: for sale by Z. P. Maruya & Co., Limited; Yokohama, Shanghai & Singapore, Kelly & Walsh",
+  "imprint_year": "1890",
+  "imprint_read_at": "title page OCR line 86 reads '1800' (garbled); preface dated OCR line 142 'Doshisha, Kyoto, February, 1890.'; catalogue date 1890 (host date; marc not run)",
+  "first_published": "1890",
+  "host_rights": {
+   "possible-copyright-status": "NOT_IN_COPYRIGHT",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "eng",
+  "bytes": 242765,
+  "listed": 242765,
+  "match": true,
+  "words": 37804,
+  "ocr_quality": "fair; title-page year garbled in OCR, leaf 9 is a blank verso, title page is next leaf (not viewed)",
+  "divisions": "chapters",
+  "text_start_line": null,
+  "text_end_line": null,
+  "editorial_matter": "not mapped",
+  "mixed_voices": "narrative with quoted documents",
+  "wanted_passages": [
+   {
+    "what": "life",
+    "ocr_lines": "whole"
+   }
+  ],
+  "front_and_back": "Google/Internet Archive scan notice at front; not mapped further",
+  "undated_basis": "(b-partial) dated preface OCR line 142; marc not run",
+  "cautions": "Imprint year NOT read from page image; preface date is the basis. Verify leaf before vendoring",
+  "library_stamps_or_reprint_signs": "no reprint notice found by grep (reprint/kessinger/forgotten/nabu/bibliolife/classic reprint/microfilm); library stamps only"
+ },
+ {
+  "row": "283",
+  "person": "Uchimura Kanzo",
+  "serves": "his own diary, English",
+  "ia_id": "diaryofjapanesec00uchirich",
+  "local": "/tmp/claude-0/-home-user-CIC-Project/39e3938f-160e-5665-9646-ae4332ae3602/scratchpad/gD/dl/diaryofjapanesec00uchirich_djvu.txt",
+  "title_page_words": "THE DIARY OF A JAPANESE CONVERT, by Kanzo Uchimura",
+  "author_as_printed": "KANZO UCHIMURA",
+  "editor_translator_as_printed": null,
+  "place_publisher_as_printed": "NEW YORK: FLEMING H. REVELL COMPANY; Tokyo: Keiseisha",
+  "imprint_year": 1895,
+  "imprint_read_at": "title page prints no year in OCR (lines 30-45); copyright OCR line 105",
+  "first_published": "1895",
+  "host_rights": {
+   "possible-copyright-status": "NOT_IN_COPYRIGHT",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "eng",
+  "bytes": 410010,
+  "listed": 410010,
+  "match": true,
+  "words": 61462,
+  "ocr_quality": "clean",
+  "divisions": "chapters from diary; introduction by J. D. Davis dated Oct 1895",
+  "text_start_line": null,
+  "text_end_line": null,
+  "editorial_matter": "not mapped",
+  "mixed_voices": "narrative with quoted documents",
+  "wanted_passages": [
+   {
+    "what": "conversion diary",
+    "ocr_lines": "whole"
+   }
+  ],
+  "front_and_back": "Google/Internet Archive scan notice at front; not mapped further",
+  "undated_basis": "(a) OCR line 105 'Copyright, 1895. by Fleming H. Revell Company'",
+  "cautions": "American edition of How I Became a Christian",
+  "library_stamps_or_reprint_signs": "no reprint notice found by grep (reprint/kessinger/forgotten/nabu/bibliolife/classic reprint/microfilm); library stamps only"
+ },
+ {
+  "row": "288/289",
+  "person": "Minh Mang edict of 1833",
+  "serves": "Louvet La Cochinchine religieuse vol 2: Minh-mang's 1833 edict",
+  "ia_id": "lacochinchinerel02louv",
+  "local": "/tmp/claude-0/-home-user-CIC-Project/39e3938f-160e-5665-9646-ae4332ae3602/scratchpad/gD/dl/lacochinchinerel02louv_djvu.txt",
+  "title_page_words": "LA COCHINCHINE RELIGIEUSE, TOME SECOND",
+  "author_as_printed": "L.-E. LOUVET, missionnaire apostolique de la Congregation des Missions Etrangeres",
+  "editor_translator_as_printed": null,
+  "place_publisher_as_printed": "PARIS: ERNEST LEROUX, EDITEUR",
+  "imprint_year": 1885,
+  "imprint_read_at": "OCR line ~64",
+  "first_published": "1885",
+  "host_rights": {
+   "possible-copyright-status": "absent",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "fre",
+  "bytes": 1216908,
+  "listed": 1216908,
+  "match": true,
+  "words": 161539,
+  "ocr_quality": "fair",
+  "divisions": "chapters",
+  "text_start_line": null,
+  "text_end_line": null,
+  "editorial_matter": "not mapped",
+  "mixed_voices": "narrative with quoted documents",
+  "wanted_passages": [
+   {
+    "what": "1833 edict",
+    "ocr_lines": "4473-4480 ('il lanca, en 1833, un edit ... defend de faire contre eux de nouvelles poursuites'); also 8471, 9480"
+   }
+  ],
+  "front_and_back": "Google/Internet Archive scan notice at front; not mapped further",
+  "undated_basis": null,
+  "cautions": "Tome 2 only; tome 1 = lacochinchinerel01louv located",
+  "library_stamps_or_reprint_signs": "no reprint notice found by grep (reprint/kessinger/forgotten/nabu/bibliolife/classic reprint/microfilm); library stamps only"
+ },
+ {
+  "row": "288/289",
+  "person": "Minh Mang edict of 1833",
+  "serves": "Launay Histoire generale vol 2",
+  "ia_id": "cihm_54001",
+  "local": "/tmp/claude-0/-home-user-CIC-Project/39e3938f-160e-5665-9646-ae4332ae3602/scratchpad/gD/dl/cihm_54001_djvu.txt",
+  "title_page_words": "HISTOIRE GENERALE DE LA SOCIETE DES MISSIONS-ETRANGERES par Adrien Launay, TOME DEUXIEME",
+  "author_as_printed": "ADRIEN LAUNAY",
+  "editor_translator_as_printed": null,
+  "place_publisher_as_printed": "PARIS: TEQUI, LIBRAIRE-EDITEUR",
+  "imprint_year": 1894,
+  "imprint_read_at": "OCR line 40-54",
+  "first_published": "1894",
+  "host_rights": {
+   "possible-copyright-status": "absent",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "fre",
+  "bytes": 1314460,
+  "listed": 1314460,
+  "match": true,
+  "words": 201773,
+  "ocr_quality": "fair (microfiche scan)",
+  "divisions": "",
+  "text_start_line": null,
+  "text_end_line": null,
+  "editorial_matter": "not mapped",
+  "mixed_voices": "narrative with quoted documents",
+  "wanted_passages": [
+   {
+    "what": "edict dated 6 January 1833",
+    "ocr_lines": "47300-47330"
+   }
+  ],
+  "front_and_back": "Google/Internet Archive scan notice at front; not mapped further",
+  "undated_basis": null,
+  "cautions": "Tome 2; tomes 1 and 3 located: cihm_54000, cihm_54002 (downloaded)",
+  "library_stamps_or_reprint_signs": "no reprint notice found by grep (reprint/kessinger/forgotten/nabu/bibliolife/classic reprint/microfilm); library stamps only"
+ },
+ {
+  "row": "289",
+  "person": "Minh Mang",
+  "serves": "Shortland, English",
+  "ia_id": "persecutionsofan00shoriala",
+  "local": "/tmp/claude-0/-home-user-CIC-Project/39e3938f-160e-5665-9646-ae4332ae3602/scratchpad/gD/dl/persecutionsofan00shoriala_djvu.txt",
+  "title_page_words": "[THE PERSECUTIONS OF ANNAM: a history of Christianity in Cochin China and Tonking]",
+  "author_as_printed": "JOHN R. SHORTLAND, M.A., Canon of Plymouth",
+  "editor_translator_as_printed": null,
+  "place_publisher_as_printed": "LONDON: BURNS AND OATES",
+  "imprint_year": 1875,
+  "imprint_read_at": "OCR lines ~10-26 ('1875')",
+  "first_published": "1875",
+  "host_rights": {
+   "possible-copyright-status": "NOT_IN_COPYRIGHT",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "eng",
+  "bytes": 797155,
+  "listed": 797155,
+  "match": true,
+  "words": 125003,
+  "ocr_quality": "fair",
+  "divisions": "",
+  "text_start_line": null,
+  "text_end_line": null,
+  "editorial_matter": "not mapped",
+  "mixed_voices": "narrative with quoted documents",
+  "wanted_passages": [
+   {
+    "what": "Minh-mang, 41 mentions; edict lines not located",
+    "ocr_lines": "grep Minh"
+   }
+  ],
+  "front_and_back": "Google/Internet Archive scan notice at front; not mapped further",
+  "undated_basis": null,
+  "cautions": "edict text lines not confirmed",
+  "library_stamps_or_reprint_signs": "no reprint notice found by grep (reprint/kessinger/forgotten/nabu/bibliolife/classic reprint/microfilm); library stamps only"
+ },
+ {
+  "row": "304",
+  "person": "Edwin W. Clark",
+  "serves": "account by his wife",
+  "ia_id": "cornerinindia00clar",
+  "local": "/tmp/claude-0/-home-user-CIC-Project/39e3938f-160e-5665-9646-ae4332ae3602/scratchpad/gD/dl/cornerinindia00clar_djvu.txt",
+  "title_page_words": "A CORNER IN INDIA",
+  "author_as_printed": "Mary Mead Clark",
+  "editor_translator_as_printed": null,
+  "place_publisher_as_printed": "Philadelphia: American Baptist Publication Society",
+  "imprint_year": 1907,
+  "imprint_read_at": "OCR lines 55-61, copyright 1907 line 80",
+  "first_published": "1907",
+  "host_rights": {
+   "possible-copyright-status": "The Library of Congress is unaware of any copyright restrictions for this item.",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "eng",
+  "bytes": 271563,
+  "listed": 271563,
+  "match": true,
+  "words": 40694,
+  "ocr_quality": "clean",
+  "divisions": "",
+  "text_start_line": null,
+  "text_end_line": null,
+  "editorial_matter": "not mapped",
+  "mixed_voices": "narrative with quoted documents",
+  "wanted_passages": [
+   {
+    "what": "Naga mission under Dr Clark",
+    "ocr_lines": "155-160, 502"
+   }
+  ],
+  "front_and_back": "Google/Internet Archive scan notice at front; not mapped further",
+  "undated_basis": null,
+  "cautions": "Life of the mission rather than a biography of Clark",
+  "library_stamps_or_reprint_signs": "no reprint notice found by grep (reprint/kessinger/forgotten/nabu/bibliolife/classic reprint/microfilm); library stamps only"
+ },
+ {
+  "row": "304",
+  "person": "Edwin W. Clark",
+  "serves": "jubilee papers",
+  "ia_id": "assammissionofam00amer",
+  "local": "/tmp/claude-0/-home-user-CIC-Project/39e3938f-160e-5665-9646-ae4332ae3602/scratchpad/gD/dl/assammissionofam00amer_djvu.txt",
+  "title_page_words": "THE ASSAM MISSION OF THE AMERICAN BAPTIST MISSIONARY UNION: papers and discussions of the jubilee conference",
+  "author_as_printed": "American Baptist ... Assam Mission",
+  "editor_translator_as_printed": null,
+  "place_publisher_as_printed": "not read",
+  "imprint_year": 1887,
+  "imprint_read_at": "host date only; title page not read",
+  "first_published": "1887",
+  "host_rights": {
+   "possible-copyright-status": "NOT_IN_COPYRIGHT",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "eng",
+  "bytes": 690476,
+  "listed": 690476,
+  "match": true,
+  "words": 103429,
+  "ocr_quality": "not sampled",
+  "divisions": "",
+  "text_start_line": null,
+  "text_end_line": null,
+  "editorial_matter": "not mapped",
+  "mixed_voices": "narrative with quoted documents",
+  "wanted_passages": [
+   {
+    "what": "Clark named",
+    "ocr_lines": "307,370,412,532,555"
+   }
+  ],
+  "front_and_back": "Google/Internet Archive scan notice at front; not mapped further",
+  "undated_basis": null,
+  "cautions": "IMPRINT NOT VERIFIED from title page: do not vendor without checking",
+  "library_stamps_or_reprint_signs": "no reprint notice found by grep (reprint/kessinger/forgotten/nabu/bibliolife/classic reprint/microfilm); library stamps only"
+ },
+ {
+  "row": "303",
+  "person": "Thomas Jones (Khasi)",
+  "serves": "dictionary entry only",
+  "ia_id": "biographicaldic00evangoog",
+  "local": "/tmp/claude-0/-home-user-CIC-Project/39e3938f-160e-5665-9646-ae4332ae3602/scratchpad/gD/dl/biographicaldic00evangoog_djvu.txt",
+  "title_page_words": "BIOGRAPHICAL DICTIONARY OF MINISTERS AND PREACHERS OF THE WELSH CALVINISTIC METHODIST BODY",
+  "author_as_printed": "Joseph Evans",
+  "editor_translator_as_printed": null,
+  "place_publisher_as_printed": "D. O'Brien Owen, C. M. Book Agency (preface dated Denbigh, October 1907, OCR line 220)",
+  "imprint_year": 1907,
+  "imprint_read_at": "preface date line 220; title-page year not viewed",
+  "first_published": "1907",
+  "host_rights": {
+   "possible-copyright-status": "NOT_IN_COPYRIGHT",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "eng",
+  "bytes": 901080,
+  "listed": 901080,
+  "match": true,
+  "words": 154605,
+  "ocr_quality": "fair",
+  "divisions": "alphabetical entries",
+  "text_start_line": null,
+  "text_end_line": null,
+  "editorial_matter": "not mapped",
+  "mixed_voices": "narrative with quoted documents",
+  "wanted_passages": [
+   {
+    "what": "Jones, Rev Thomas, Khassia",
+    "ocr_lines": "19923-19995"
+   }
+  ],
+  "front_and_back": "Google/Internet Archive scan notice at front; not mapped further",
+  "undated_basis": "(b-partial) dated preface OCR line 220",
+  "cautions": "Entry is thin (~35 lines); not a Life at length. Marc not run. Mark must decide",
+  "library_stamps_or_reprint_signs": "no reprint notice found by grep (reprint/kessinger/forgotten/nabu/bibliolife/classic reprint/microfilm); library stamps only"
+ },
+ {
+  "row": "311",
+  "person": "Liang Fa",
+  "serves": "Morrison Memoirs vol 2: Leang-Afa letters and interview",
+  "ia_id": "memoirsoflifelab02morr",
+  "local": "/tmp/claude-0/-home-user-CIC-Project/39e3938f-160e-5665-9646-ae4332ae3602/scratchpad/gD/dl/memoirsoflifelab02morr_djvu.txt",
+  "title_page_words": "MEMOIRS OF THE LIFE AND LABOURS OF ROBERT MORRISON, D.D. ... compiled by his widow, with critical notices of his Chinese works by Samuel Kidd, VOL. II",
+  "author_as_printed": "Mrs Morrison (widow) ",
+  "editor_translator_as_printed": null,
+  "place_publisher_as_printed": "LONDON: LONGMAN, ORME, BROWN, GREEN, AND LONGMANS",
+  "imprint_year": 1839,
+  "imprint_read_at": "OCR line ~55-70 'MDCCCXXXIX'",
+  "first_published": "1839",
+  "host_rights": {
+   "possible-copyright-status": "NOT_IN_COPYRIGHT",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "eng",
+  "bytes": 1566295,
+  "listed": 1566295,
+  "match": true,
+  "words": 233093,
+  "ocr_quality": "fair",
+  "divisions": "",
+  "text_start_line": null,
+  "text_end_line": null,
+  "editorial_matter": "not mapped",
+  "mixed_voices": "narrative with quoted documents",
+  "wanted_passages": [
+   {
+    "what": "Leang-Afa",
+    "ocr_lines": "15584-15670, 17747ff, 10524"
+   }
+  ],
+  "front_and_back": "Google/Internet Archive scan notice at front; not mapped further",
+  "undated_basis": null,
+  "cautions": "Vol 2 only; Afa is scattered, not a Life",
+  "library_stamps_or_reprint_signs": "no reprint notice found by grep (reprint/kessinger/forgotten/nabu/bibliolife/classic reprint/microfilm); library stamps only"
+ },
+ {
+  "row": "311",
+  "person": "Liang Fa",
+  "serves": "Wylie Memorials: Afa's works",
+  "ia_id": "memorialsofprote00wyli",
+  "local": "/tmp/claude-0/-home-user-CIC-Project/39e3938f-160e-5665-9646-ae4332ae3602/scratchpad/gD/dl/memorialsofprote00wyli_djvu.txt",
+  "title_page_words": "MEMORIALS OF PROTESTANT MISSIONARIES TO THE CHINESE",
+  "author_as_printed": "A. Wylie",
+  "editor_translator_as_printed": null,
+  "place_publisher_as_printed": "Shanghai (American Presbyterian Mission Press)",
+  "imprint_year": 1867,
+  "imprint_read_at": "OCR line 47",
+  "first_published": "1867",
+  "host_rights": {
+   "possible-copyright-status": "NOT_IN_COPYRIGHT",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "eng",
+  "bytes": 934321,
+  "listed": 934321,
+  "match": true,
+  "words": 138583,
+  "ocr_quality": "fair",
+  "divisions": "",
+  "text_start_line": null,
+  "text_end_line": null,
+  "editorial_matter": "not mapped",
+  "mixed_voices": "narrative with quoted documents",
+  "wanted_passages": [
+   {
+    "what": "Afa's works",
+    "ocr_lines": "1019-1023, 1700-1775"
+   }
+  ],
+  "front_and_back": "Google/Internet Archive scan notice at front; not mapped further",
+  "undated_basis": null,
+  "cautions": "Afa is an entry among 350+; place-publisher read from memory? not verified",
+  "library_stamps_or_reprint_signs": "no reprint notice found by grep (reprint/kessinger/forgotten/nabu/bibliolife/classic reprint/microfilm); library stamps only"
+ },
+ {
+  "row": "207",
+  "person": "Kiai Sadrach",
+  "serves": "Adriaanse, Sadrach's Kring",
+  "ia_id": "MN41568ucmf_0",
+  "local": "/tmp/claude-0/-home-user-CIC-Project/39e3938f-160e-5665-9646-ae4332ae3602/scratchpad/gD/dl/MN41568ucmf_0_djvu.txt",
+  "title_page_words": "SADRACH'S KRING, door L. Adriaanse, Dienaar des Woords te Utrecht, afgezonden tot den Zendingsdienst te Poerworedjo",
+  "author_as_printed": "L. ADRIAANSE",
+  "editor_translator_as_printed": null,
+  "place_publisher_as_printed": "LEIDEN. - D. DONNER",
+  "imprint_year": 1899,
+  "imprint_read_at": "OCR lines ~64 and ~75 (reads 1899 and 1890, conflicting); page image leaf 10 shows Voorwoord dated 'Zomermaand 1899'; marc 260 'Leiden : D. Donner, 1899.'",
+  "first_published": "1899",
+  "host_rights": {
+   "possible-copyright-status": "absent",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "dut",
+  "bytes": 1202837,
+  "listed": 1202837,
+  "match": true,
+  "words": 170829,
+  "ocr_quality": "fair",
+  "divisions": "INHOUD line 22021",
+  "text_start_line": null,
+  "text_end_line": null,
+  "editorial_matter": "not mapped",
+  "mixed_voices": "narrative with quoted documents",
+  "wanted_passages": [
+   {
+    "what": "Sadrach's circle",
+    "ocr_lines": "whole"
+   }
+  ],
+  "front_and_back": "Google/Internet Archive scan notice at front; not mapped further",
+  "undated_basis": "(b) leaf 10 'Utrecht, Zomermaand 1899' ; marc line 008 '000125s1899' 260 'Leiden : D. Donner, 1899.'",
+  "cautions": "Microform scan, Dutch; Voorwoord by P. J. W. K.",
+  "library_stamps_or_reprint_signs": "no reprint notice found by grep (reprint/kessinger/forgotten/nabu/bibliolife/classic reprint/microfilm); library stamps only"
+ },
+ {
+  "row": "207",
+  "person": "Kiai Sadrach",
+  "serves": "Coolsma: De zendingseeuw voor Neederlandsch Oost-Indie, Sadrach pages",
+  "ia_id": "dezendingseeuwv00coolgoog",
+  "local": "/tmp/claude-0/-home-user-CIC-Project/39e3938f-160e-5665-9646-ae4332ae3602/scratchpad/gD/dl/dezendingseeuwv00coolgoog_djvu.txt",
+  "title_page_words": "DE ZENDINGSEEUW VOOR NEEDERLANDSCH OOST-INDIE",
+  "author_as_printed": "S. Coolsma",
+  "editor_translator_as_printed": null,
+  "place_publisher_as_printed": "Utrecht: C.H.E. Breijer",
+  "imprint_year": 1901,
+  "imprint_read_at": "OCR line 104-150 ('1901.'); preface dated Rotterdam 24 Aug 1901 line 321",
+  "first_published": "1901",
+  "host_rights": {
+   "possible-copyright-status": "NOT_IN_COPYRIGHT",
+   "licenseurl": "absent",
+   "rights": "absent",
+   "access-restricted-item": "absent"
+  },
+  "language": "dut",
+  "bytes": 4415631,
+  "listed": 4415631,
+  "match": true,
+  "words": 618712,
+  "ocr_quality": "fair",
+  "divisions": "index line 108286 'Sadrach-Christenen, 196-198'",
+  "text_start_line": null,
+  "text_end_line": null,
+  "editorial_matter": "not mapped",
+  "mixed_voices": "narrative with quoted documents",
+  "wanted_passages": [
+   {
+    "what": "Sadrach",
+    "ocr_lines": "19907, 19981-19983, 20642, 20767"
+   }
+  ],
+  "front_and_back": "Google/Internet Archive scan notice at front; not mapped further",
+  "undated_basis": null,
+  "cautions": "Very large book, Sadrach is a minor part (91 mentions); optional",
+  "library_stamps_or_reprint_signs": "no reprint notice found by grep (reprint/kessinger/forgotten/nabu/bibliolife/classic reprint/microfilm); library stamps only"
+ }
+]

@@ -884,3 +884,50 @@ Status: OPEN for an independent recheck and the unrendered quotes.
 Justin's Dialogue 80 is removed from the spoken statement (it read as a verdict on a bereaved visitor's belief) and stays in `not_for` and the divergence note. Clement's 'by God's grace' is restored. A stray line break inside the spoken text is fixed. Awaiting a fourth read.
 
 Status: OPEN for the fourth read.
+
+### OG-44. Neighbour re-confirmation requested by the Latin Apologists (`latap`) Doc_01, 2026-10-29.
+
+Doc_01 of the Latin Apologists (Atlas I.43; `Build/worlds/latap/`) names this world as a built neighbour. The shared material is Tertullian's *Apology* and *Against Marcion*, which this world holds as `register: etic` outside corroboration (`pahc.source.tertullian-apologeticus`, `pahc.source.tertullian-adversus-marcionem`), and the triangulation with *Apology* 39 in `pahc.source.lucian-peregrinus`. One record, `pahc.force.systematic-theological-mode-elsewhere`, says the *Apology* opens a body of confident Latin defense; the Latin Apologists' Step 0 does not adopt that framing, because on one of the two datings of Minucius Felix's *Octavius* that work comes first. In the Latin Apologists both works are the world's own voice. This world is asked to re-confirm the shared boundary from its own side. No record here is edited by that request.
+
+Status: OPEN. Owner: this world's thread.
+
+### OG-45. Homepage card clamp truncates the new pahc text, 2026-11-03.
+
+A change that updated the pahc homepage text shipped with an explicit known display issue: the homepage card's 3-line clamp truncates the new text (commit `dc1646a7`). A later change (`fb1827f8`) reported that its attempted fix did not work and restated the three remaining options. The defect is open. Layout and screen work waits until the system works (Settled Items Register row 3). The statement of the rule that a commit shipping an unfixed defect says so, and that a failed fix says so, stays in the Voice Style Guide.
+
+Status: OPEN. Owner: the website thread.
+
+### OG-46. Open points removed from pahc documents when their commentary was cleaned, 2026-11-03.
+
+Removed from the live documents as open points; the questions stay open here.
+
+1. Doc_05 (Ecological Reconstruction), former line 139: "Consistent with Open Item 2's treatment of the oikos citations (Section 10), this citation should likewise be formally logged as a new Source Registry consideration before Doc_06 or Doc_07 rely on it as established, since it is not currently a Doc_02 Registry row." Doc_09 line 236 argues the lyre/harp passage falls under existing Registry row P03, so the point may already be settled there. It needs a decision from the world's thread.
+2. Doc_08 (Forces Document), former line 359: "This is carried forward as an open item rather than resolved here (see Section 9)." The document now says "Section 9 records this gap."
+3. Doc_07 line 212 cited "Doc_04, Open Item 1" for a quotation that sits in Doc_04 section 6, item 4. The citation now reads "Doc_04 §6, item 4". Recorded as a citation correction.
+4. Phase 6 Facilitation Brief, Revision 4: the dropped clause "(Round 1 above covered only B1–B6)" is kept in the Decision-Log entry for this cleanup.
+
+Status: OPEN for items 1 and 2. Owner: this world's thread.
+
+### OG-47. Every quote rendering reviewed by Opus against the edition, 2026-11-04.
+
+The `rendering-review` gate found 25 pahc renderings with no named Opus review file. An independent Opus reviewer read all 25 against each record's `text` and the edition text in `cic/texts/` at its locus. Round 1 failed four: three P1 and one P2. In `appointed-to-be-read`, the editor's "[merely]" was voiced as Athanasius's own words. In `they-appointed-those-already-mentioned`, the editor's "[ministers]" was voiced as Clement's own. In `asia-rejected-new-prophecy`, "they were thrown out" read as if the faithful were the ones expelled. In `polycrates-to-victor` (P2), the elision in `text` was dropped, so two separate passages read as one. All four were re-rendered by Opus and passed a second independent Opus reader. The lens note of `asia-rejected-new-prophecy` and the use_note of `they-appointed-those-already-mentioned` were corrected to match. A later check found that the round-2 rendering of `polycrates-to-victor` began "So I am not frightened", adding a cause the edition does not state. The "So" was removed, along with the body note that defended it, and a third independent Opus reader passed the record. Per-record log: `Review-Artifacts/Rendering_Review_Log_25_2026-11-03.md`. The `m1:rendering-review/pahc` waiver is removed; the gate reports 0 for pahc (25 → 0).
+
+Status: CLOSED. Owner: Library record-defects thread.
+
+### OG-48. Every verbatim quote names its exact lines, 2026-11-04.
+
+All 25 pahc verbatim quotes with no line span in their locus now name one: `cic/texts/<file>, lines N-M`. The span is the one the independent Opus reviewer found in the batch review table (see the entry "Every quote rendering reviewed by Opus against the edition", 2026-11-04). The `quote-locus` gate checks each, and all 25 match. Where a locus already held a rough pointer for the same file, the exact span replaces it. `polycrates-to-victor` now cites lines 72578-72623 and keeps "the letter begins at line 72521" as a labeled pointer.
+
+Status: CLOSED. Owner: Library record-defects thread.
+
+### OG-49. Polycrates record's note stated two elisions and a rough line, 2026-11-04.
+
+The body note of `polycrates-to-victor` said the text has "two elisions" and pointed to "anf08 line 72582". The text holds one elision, marked "...", after "coming of the Lord". The other clause is given in full once its endnote marker is left out. The note now says this, and it names the exact span, `cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml`, lines 72578-72623, which is the span the locus cites.
+
+Status: CLOSED. Owner: Library record-defects thread.
+
+### OG-50. Hermas "Mandate N" references found no source passage, 2026-11-04.
+
+The source-window resolver read "Mandate 9" and "Mandate 4" as names to match in a title. The vendored edition (`cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml`) titles them "Commandment Ninth." and "Commandment Fourth.". Before PR #1512 these references landed in the Visions; after it they were not located. The resolver now reads a "Mandate" as the edition's "Commandment", so the four records that cite them get the right passage (lines 2377-2431 and 1881-2046).
+
+Status: CLOSED. Owner: V7 test thread.

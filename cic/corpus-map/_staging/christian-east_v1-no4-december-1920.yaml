@@ -1,0 +1,24 @@
+source_file: christian-east_v1-no4-december-1920.txt
+assignments:
+- row_id: christian-east_v1-no4-december-1920--whole
+  work: 'The Christian East, volume I, number 4 (December, 1920)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1920, end: 1920, source: "masthead: 'December, 1920'", formation_confidence: Documented}
+  note: 'One number of the quarterly, by many writers. The Eastern documents it prints are in the journal''s English unless a row says otherwise.'
+- row_id: christian-east_v1-no4-december-1920--basil-of-nicaea-report-on-the-massacre-of-nicaea-1920
+  work: 'Basil, Bishop of Nicaea, report to the locum tenens Dorotheos on the destruction at Nicaea (1920), in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 39-505; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-greek-church-and-the-ecumenical-patriarchate
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1920, end: 1920, source: "signed at Kios, September 25th, 1920 (OCR lines 500-505)", formation_confidence: Documented}
+  note: 'A bishop''s own report, addressed to the locum tenens, in English; the print names no translator.'

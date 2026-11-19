@@ -1,0 +1,972 @@
+[
+ {
+  "cid": "C002",
+  "name": "Aurelian",
+  "traditions": {
+   "nicene-visigothic-iberia": {
+    "labels": {
+     "nicene-visigothic-iberia#0": "N",
+     "nicene-visigothic-iberia#1": "E",
+     "nicene-visigothic-iberia#2": "N",
+     "nicene-visigothic-iberia#3": "N",
+     "nicene-visigothic-iberia#4": "N",
+     "nicene-visigothic-iberia#5": "S",
+     "nicene-visigothic-iberia#6": "N",
+     "nicene-visigothic-iberia#7": "E",
+     "nicene-visigothic-iberia#8": "N",
+     "nicene-visigothic-iberia#9": "N"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt",
+     "line": 116504,
+     "text": "Aurelianus regnat annis vi. Iste Ro- manorum imperium bellando peae ad.fines priores perduxit"
+    }
+   },
+   "merovingian-gallic-christianity": {
+    "labels": {
+     "merovingian-gallic-christianity#0": "N",
+     "merovingian-gallic-christianity#1": "S",
+     "merovingian-gallic-christianity#2": "N",
+     "merovingian-gallic-christianity#3": "N",
+     "merovingian-gallic-christianity#4": "N",
+     "merovingian-gallic-christianity#5": "N",
+     "merovingian-gallic-christianity#6": "N",
+     "merovingian-gallic-christianity#7": "N",
+     "merovingian-gallic-christianity#8": "N",
+     "merovingian-gallic-christianity#9": "N"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+     "line": 4965,
+     "text": "The ancients relate that Dijon was built by the Emperor Aurelian."
+    }
+   },
+   "british-welsh-christianity": {
+    "labels": {
+     "british-welsh-christianity#0": "N",
+     "british-welsh-christianity#1": "N",
+     "british-welsh-christianity#2": "N",
+     "british-welsh-christianity#3": "N",
+     "british-welsh-christianity#4": "N",
+     "british-welsh-christianity#5": "N",
+     "british-welsh-christianity#6": "N",
+     "british-welsh-christianity#7": "N",
+     "british-welsh-christianity#8": "N",
+     "british-welsh-christianity#9": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Council of Orleans (Concil. Aurelian.), Aurelianus of Arles, Aurelianus envoy of Clovis, Caelius Aurelianus, Paul Aurelian of Brittany, Ambrosius Aurelianus, consul Aurelianus (400), Aurelianum = Orleans.",
+  "editorial_notes": "Mommsen consular table, Acta Sanctorum footnote on Polycarp, Dalton/MGH notes, Samson of Dol introduction, Wasserschleben introduction.",
+  "comment": "Visigothic S is Isidore's Chronicon entry (PL83, not the Historia section named in the shelf locus); Gregory's Dijon sentence (Dalton translation, text not note) is the only Merovingian S. Visigothic #1 is Victor/Jerome consular table in Mommsen, not Isidore/Biclaro section."
+ },
+ {
+  "cid": "C012",
+  "name": "Priscillian",
+  "traditions": {
+   "nicene-visigothic-iberia": {
+    "labels": {
+     "nicene-visigothic-iberia#0": "S",
+     "nicene-visigothic-iberia#1": "S",
+     "nicene-visigothic-iberia#2": "U",
+     "nicene-visigothic-iberia#3": "S",
+     "nicene-visigothic-iberia#4": "S",
+     "nicene-visigothic-iberia#5": "S",
+     "nicene-visigothic-iberia#6": "S",
+     "nicene-visigothic-iberia#7": "S",
+     "nicene-visigothic-iberia#8": "S",
+     "nicene-visigothic-iberia#9": "S"
+    },
+    "clean_passages": 6,
+    "best_quote": {
+     "file": "isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt",
+     "line": 116945,
+     "text": "Priscillianus, aceusan- te Itacio, a Maximo tyranno gladio czeditur"
+    }
+   },
+   "shakers": {
+    "labels": {
+     "shakers#0": "S",
+     "shakers#1": "S",
+     "shakers#2": "S",
+     "shakers#3": "S",
+     "shakers#4": "S",
+     "shakers#5": "S",
+     "shakers#6": "S",
+     "shakers#7": "S"
+    },
+    "clean_passages": 6,
+    "best_quote": {
+     "file": "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt",
+     "line": 13675,
+     "text": "In consequence of which, in the year 384, Priscillian and many more were put to death."
+    }
+   },
+   "byzantine-imperial-church-justinianic": {
+    "labels": {
+     "byzantine-imperial-church-justinianic#0": "S",
+     "byzantine-imperial-church-justinianic#1": "U",
+     "byzantine-imperial-church-justinianic#2": "S",
+     "byzantine-imperial-church-justinianic#3": "U",
+     "byzantine-imperial-church-justinianic#4": "S",
+     "byzantine-imperial-church-justinianic#5": "S",
+     "byzantine-imperial-church-justinianic#6": "S",
+     "byzantine-imperial-church-justinianic#7": "S"
+    },
+    "clean_passages": 5,
+    "best_quote": {
+     "file": "npnf212_leo-great-gregory-great.xml",
+     "line": 3729,
+     "text": "Accordingly it is not Dictinius but Priscillian that they read"
+    }
+   }
+  },
+  "namesake_notes": "none",
+  "editorial_notes": "",
+  "comment": "Visigothic: three distinct Braga/Hispana anathemas (Manichaeus-substance, souls-cast-down, Sabellius-paraclete) counted once each across Bruns and collectio duplicates; two Isidore Chronicon entries; Isidore epitome \"Priscillianus agnoscitur\" counted once (Etymologiae and Mommsen apparatus-line 43135 are the same entry). Contexts 2 (Continuatio Chronicorum Hieronymianorum, line 1132) is not a shelved work, labelled U. Shakers: Testimony passages are the Ministry-authored text, partly quoting Robinson/Mosheim inside the work; counted S. Byzantine: Leo Ep. 15 to Turribius (NPNF translation); #5 and #6 are one paragraph (p67). Byzantine #1 and #3 are other works in the Mommsen file (Continuatio, Isidore), not the Victor section, so not S."
+ },
+ {
+  "cid": "C022",
+  "name": "Priscilla",
+  "traditions": {
+   "imperial-juridical-christianity": {
+    "labels": {
+     "imperial-juridical-christianity#0": "N",
+     "imperial-juridical-christianity#1": "N",
+     "imperial-juridical-christianity#2": "N",
+     "imperial-juridical-christianity#3": "N",
+     "imperial-juridical-christianity#4": "N",
+     "imperial-juridical-christianity#5": "S",
+     "imperial-juridical-christianity#6": "N",
+     "imperial-juridical-christianity#7": "N",
+     "imperial-juridical-christianity#8": "S",
+     "imperial-juridical-christianity#9": "N"
+    },
+    "clean_passages": 2,
+    "best_quote": {
+     "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+     "line": 29268,
+     "text": "the women that followed him, Priscilla and Maximilla, were prophetesses of Montanus"
+    }
+   },
+   "syriac-orthodox-west-syriac-christianity": {
+    "labels": {
+     "syriac-orthodox-west-syriac-christianity#0": "S",
+     "syriac-orthodox-west-syriac-christianity#1": "N",
+     "syriac-orthodox-west-syriac-christianity#2": "N",
+     "syriac-orthodox-west-syriac-christianity#3": "S",
+     "syriac-orthodox-west-syriac-christianity#4": "N",
+     "syriac-orthodox-west-syriac-christianity#5": "E",
+     "syriac-orthodox-west-syriac-christianity#6": "N",
+     "syriac-orthodox-west-syriac-christianity#7": "N",
+     "syriac-orthodox-west-syriac-christianity#8": "N",
+     "syriac-orthodox-west-syriac-christianity#9": "N"
+    },
+    "clean_passages": 2,
+    "best_quote": {
+     "file": "michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt",
+     "line": 14812,
+     "text": "A cette époque florissaient les fausses prophétesses Priscilla et Maximilla^ en Phrygie"
+    }
+   },
+   "syriac-renaissance": {
+    "labels": {
+     "syriac-renaissance#0": "S",
+     "syriac-renaissance#1": "N",
+     "syriac-renaissance#2": "N",
+     "syriac-renaissance#3": "N",
+     "syriac-renaissance#4": "N",
+     "syriac-renaissance#5": "N",
+     "syriac-renaissance#6": "N",
+     "syriac-renaissance#7": "N",
+     "syriac-renaissance#8": "N",
+     "syriac-renaissance#9": "N"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt",
+     "line": 14812,
+     "text": "A cette époque florissaient les fausses prophétesses Priscilla et Maximilla^ en Phrygie"
+    }
+   }
+  },
+  "namesake_notes": "Prisca = the Prisca collectio canonum / early Latin version (many hits, all N); Priscilla/Prisca wife of Aquila in Acts (Chrysostom, Eusebius) is a different person.",
+  "editorial_notes": "Translator notes in NPNF Seven Councils (Prisca variants); Chabot footnotes and variant apparatus on the council list (Prisca, Ps.-Denys readings).",
+  "comment": "Imperial-juridical S = Eusebius HE V (Priscilla and Maximilla; Serapion letter on the demon in Priscilla). Syriac Orthodox S = Michael tome I (Phrygia prophetesses) and tome II (Montanus, Maximilla and Priscilla with gold plates, same Justinianic episode). Syriac renaissance shelves tome I only."
+ },
+ {
+  "cid": "C032",
+  "name": "Bardaisan",
+  "traditions": {
+   "syriac-orthodox-west-syriac-christianity": {
+    "labels": {
+     "syriac-orthodox-west-syriac-christianity#0": "E",
+     "syriac-orthodox-west-syriac-christianity#1": "S",
+     "syriac-orthodox-west-syriac-christianity#2": "S",
+     "syriac-orthodox-west-syriac-christianity#3": "S",
+     "syriac-orthodox-west-syriac-christianity#4": "E",
+     "syriac-orthodox-west-syriac-christianity#5": "S",
+     "syriac-orthodox-west-syriac-christianity#6": "E",
+     "syriac-orthodox-west-syriac-christianity#7": "S",
+     "syriac-orthodox-west-syriac-christianity#8": "S",
+     "syriac-orthodox-west-syriac-christianity#9": "E"
+    },
+    "clean_passages": 3,
+    "best_quote": {
+     "file": "barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt",
+     "line": 4223,
+     "text": "Daisan autem nomen est fluvii Edessam al- luentis, a quo vocatus est Bardesanes"
+    }
+   },
+   "the-church-of-the-east-under-persia": {
+    "labels": {
+     "the-church-of-the-east-under-persia#0": "S",
+     "the-church-of-the-east-under-persia#1": "U",
+     "the-church-of-the-east-under-persia#2": "E",
+     "the-church-of-the-east-under-persia#3": "S",
+     "the-church-of-the-east-under-persia#4": "E",
+     "the-church-of-the-east-under-persia#5": "S",
+     "the-church-of-the-east-under-persia#6": "U",
+     "the-church-of-the-east-under-persia#7": "E",
+     "the-church-of-the-east-under-persia#8": "S",
+     "the-church-of-the-east-under-persia#9": "E"
+    },
+    "clean_passages": 3,
+    "best_quote": {
+     "file": "chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+     "line": 14407,
+     "text": "il deploya un grand zele contre les adeptes de Manes, 1'hypocrite, d'Arius, le charlatan, et de Bardesane, le falsificateur."
+    }
+   },
+   "persian-church-of-the-east-early": {
+    "labels": {
+     "persian-church-of-the-east-early#0": "S",
+     "persian-church-of-the-east-early#1": "E",
+     "persian-church-of-the-east-early#2": "E",
+     "persian-church-of-the-east-early#3": "E",
+     "persian-church-of-the-east-early#4": "S",
+     "persian-church-of-the-east-early#5": "E",
+     "persian-church-of-the-east-early#6": "E",
+     "persian-church-of-the-east-early#7": "S",
+     "persian-church-of-the-east-early#8": "E",
+     "persian-church-of-the-east-early#9": "S"
+    },
+    "clean_passages": 3,
+    "best_quote": {
+     "file": "chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+     "line": 14573,
+     "text": "On raconte dans certaines histoires que Bardesane avait compose un evan- gile en desaccord avec la doctrine"
+    }
+   }
+  },
+  "namesake_notes": "none (Bardesanes is also used for the sage-name; Prisca-type confusions absent).",
+  "editorial_notes": "Chabot and Abbeloos-Lamy footnotes, Nau table of contents/index (PO 8, PO 9), Hilgenfeld/Merx citations in the Persian martyr acts commentary, Parisot and Sachau introductions, Scher/Nau footnote on Bardesane death year.",
+  "comment": "Please read per-context labels as follows. Syriac Orth: #0 and #6 Michael footnotes (E), #4 TOC (E), #9 Abbeloos-Lamy footnote on birth date (E); John of Ephesus #1/#2/#7/#8 are ONE passage (same text in two editions, one run of sentences) counted once. Church of East: #1 and #6 (Guidi Latin) fall in the Chronicon Miscellaneum, not the Khuzistan Chronicle the shelf names, so U not S. Persian early: Seert #4 and #7 are one passage; shelf has no Guidi."
+ },
+ {
+  "cid": "C042",
+  "name": "Antony",
+  "traditions": {
+   "late-medieval-lay-parish-piety": {
+    "labels": {
+     "late-medieval-lay-parish-piety#0": "E",
+     "late-medieval-lay-parish-piety#1": "N",
+     "late-medieval-lay-parish-piety#2": "N",
+     "late-medieval-lay-parish-piety#3": "U",
+     "late-medieval-lay-parish-piety#4": "N",
+     "late-medieval-lay-parish-piety#5": "N",
+     "late-medieval-lay-parish-piety#6": "U",
+     "late-medieval-lay-parish-piety#7": "E",
+     "late-medieval-lay-parish-piety#8": "N",
+     "late-medieval-lay-parish-piety#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "the-english-reformation-and-elizabethan-settleme": {
+    "labels": {
+     "the-english-reformation-and-elizabethan-settleme#0": "E",
+     "the-english-reformation-and-elizabethan-settleme#1": "N",
+     "the-english-reformation-and-elizabethan-settleme#2": "N",
+     "the-english-reformation-and-elizabethan-settleme#3": "N",
+     "the-english-reformation-and-elizabethan-settleme#4": "U",
+     "the-english-reformation-and-elizabethan-settleme#5": "N",
+     "the-english-reformation-and-elizabethan-settleme#6": "N",
+     "the-english-reformation-and-elizabethan-settleme#7": "N",
+     "the-english-reformation-and-elizabethan-settleme#8": "U",
+     "the-english-reformation-and-elizabethan-settleme#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "the-reformed-cities-zurich-and-geneva": {
+    "labels": {
+     "the-reformed-cities-zurich-and-geneva#0": "N",
+     "the-reformed-cities-zurich-and-geneva#1": "N",
+     "the-reformed-cities-zurich-and-geneva#2": "N",
+     "the-reformed-cities-zurich-and-geneva#3": "N",
+     "the-reformed-cities-zurich-and-geneva#4": "N",
+     "the-reformed-cities-zurich-and-geneva#5": "N",
+     "the-reformed-cities-zurich-and-geneva#6": "N",
+     "the-reformed-cities-zurich-and-geneva#7": "N",
+     "the-reformed-cities-zurich-and-geneva#8": "N",
+     "the-reformed-cities-zurich-and-geneva#9": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Overwhelmingly namesakes: Antony Fitzharberd, Antony Catisby, Sir Antony Browne, Sir Antony Cook, Antony Ager, Antony of Bourbon, Antony Froment, Antony Calvin, Antony de Mouvans, Antony Maillet and other personal names; Sainct Antony's in the Horsfare (York, a place/church); Antony's pit (Bristol, grave plot).",
+  "editorial_notes": "Binney introduction list of parish stores (Morebath #0), Surtees Prymer editor note on a manuscript (#7), Hobhouse index line.",
+  "comment": "No S. The Lynn gild ordinance (late-medieval #3), Morebath accounts \"Sent Antony\" (#4, #8 in Reformation; Morebath store) and the \"Antony Crosse\" at St Mary at Hill are very probably devotion to Anthony the Great, but the text never says which Anthony (Padua is possible), so U rather than S."
+ },
+ {
+  "cid": "C052",
+  "name": "Nino",
+  "traditions": {
+   "georgian-revival-tao-klarjeti": {
+    "labels": {
+     "georgian-revival-tao-klarjeti#0": "E",
+     "georgian-revival-tao-klarjeti#1": "S",
+     "georgian-revival-tao-klarjeti#2": "S",
+     "georgian-revival-tao-klarjeti#3": "S",
+     "georgian-revival-tao-klarjeti#4": "E",
+     "georgian-revival-tao-klarjeti#5": "S",
+     "georgian-revival-tao-klarjeti#6": "S",
+     "georgian-revival-tao-klarjeti#7": "S",
+     "georgian-revival-tao-klarjeti#8": "S",
+     "georgian-revival-tao-klarjeti#9": "E"
+    },
+    "clean_passages": 7,
+    "best_quote": {
+     "file": "studia-biblica-et-ecclesiastica-v5-life-of-st-nino_wardrop1903.txt",
+     "line": 606,
+     "text": "When St. Nino heard all this from Sara the Niamphori she offered thanks and blessing to God"
+    }
+   },
+   "the-society-of-jesus": {
+    "labels": {
+     "the-society-of-jesus#0": "N",
+     "the-society-of-jesus#1": "N",
+     "the-society-of-jesus#2": "N",
+     "the-society-of-jesus#3": "N",
+     "the-society-of-jesus#4": "N",
+     "the-society-of-jesus#5": "N",
+     "the-society-of-jesus#6": "N",
+     "the-society-of-jesus#7": "N",
+     "the-society-of-jesus#8": "N",
+     "the-society-of-jesus#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "english-old-dissent": {
+    "labels": {
+     "english-old-dissent#0": "N",
+     "english-old-dissent#1": "N",
+     "english-old-dissent#2": "N",
+     "english-old-dissent#3": "N",
+     "english-old-dissent#4": "N",
+     "english-old-dissent#5": "N",
+     "english-old-dissent#6": "N",
+     "english-old-dissent#7": "N",
+     "english-old-dissent#8": "N",
+     "english-old-dissent#9": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Christiana = Latin/Spanish/Italian adjective \"Christian\" (doctrina Christiana, Res Christiana) throughout the Jesuit works; Christiana in Bunyan Pilgrim's Progress Part II is a fictional character; Trigault title and Calamy Latin are not the person.",
+  "editorial_notes": "Georgian: Wardrop title-page metadata (#0), Armenian-version variant footnote (#4), running head (#9).",
+  "comment": "Only the Georgian shelf has clean passages (7 distinct narrative passages from the Life of Nino translation). Jesuit and Old Dissent hits are all the word or a fictional namesake."
+ },
+ {
+  "cid": "C062",
+  "name": "Basil",
+  "traditions": {
+   "byzantine-church-palaiologan": {
+    "labels": {
+     "byzantine-church-palaiologan#0": "S",
+     "byzantine-church-palaiologan#1": "N",
+     "byzantine-church-palaiologan#2": "S",
+     "byzantine-church-palaiologan#3": "N",
+     "byzantine-church-palaiologan#4": "U",
+     "byzantine-church-palaiologan#5": "N",
+     "byzantine-church-palaiologan#6": "N",
+     "byzantine-church-palaiologan#7": "U",
+     "byzantine-church-palaiologan#8": "S",
+     "byzantine-church-palaiologan#9": "S"
+    },
+    "clean_passages": 4,
+    "best_quote": {
+     "file": "symeon-thessalonica_opera-omnia-pg155-grc-lat_migne1866.txt",
+     "line": 50766,
+     "text": "qui, ut magnus Basilius dicit, antitypa sunt et oblata, ut Christi corpus et sanguis liant."
+    }
+   },
+   "hesychasm-and-the-palamite-synthesis": {
+    "labels": {
+     "hesychasm-and-the-palamite-synthesis#0": "S",
+     "hesychasm-and-the-palamite-synthesis#1": "N",
+     "hesychasm-and-the-palamite-synthesis#2": "U",
+     "hesychasm-and-the-palamite-synthesis#3": "S",
+     "hesychasm-and-the-palamite-synthesis#4": "N",
+     "hesychasm-and-the-palamite-synthesis#5": "N",
+     "hesychasm-and-the-palamite-synthesis#6": "E",
+     "hesychasm-and-the-palamite-synthesis#7": "S",
+     "hesychasm-and-the-palamite-synthesis#8": "N",
+     "hesychasm-and-the-palamite-synthesis#9": "U"
+    },
+    "clean_passages": 3,
+    "best_quote": {
+     "file": "palamas_opera-omnia-pg151-grc-lat_migne1865.txt",
+     "line": 16732,
+     "text": "ἀλλὰ τὴν δεσποτικὴν. μόνην φωνὴν ἐπειπόντα, ἦν, δὴ καὶ Βασίλειος ὁ μέγας Εὺ- νομίῳ προήνεγχε"
+    }
+   },
+   "orthodoxy-under-the-ottomans-parish-millet-and-n": {
+    "labels": {
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#0": "S",
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#1": "E",
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#2": "S",
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#3": "N",
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#4": "S",
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#5": "S",
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#6": "N",
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#7": "N",
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#8": "E",
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#9": "N"
+    },
+    "clean_passages": 3,
+    "best_quote": {
+     "file": "dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt",
+     "line": 1577,
+     "text": "Thus the divine Basil observeth. Human souls Christ calleth a vineyard, about which He hath set as a hedge,"
+    }
+   }
+  },
+  "namesake_notes": "Basil. / ed. Basil. = Basel (many hits in notes and elenchi); Basil of Seleucia (Isauria); the sebastos Basil (kyr Basileios) in the patriarchal acts; a nephew Basil of the patriarch (Historia patriarchica); the iconoclast-era Saint Basil in Nikodemos vol. 2; Basilius Kargaduris (Lambros).",
+  "editorial_notes": "Migne notes citing Basel editions, Schaff footnote, Gass German introduction (Cabasilas), Thomas Smith Latin commentary in the Lucaris appendix.",
+  "comment": "Byzantine reaches only 4. Several Basil hits sit outside the shelved locus: PG152 line 728 is Manuel Calecas (Dominican, Contra Graecos), not the patriarchal diplomata from line 81575 (U in Byzantine #4 and Hesychasm #2, #9); PO15 #7 is the Latin deputies cedula (other side). Mark of Ephesus Latin version in PO17 (#2) counted S as a translation of his Capita syllogistica. Kokkinos (Palamas PG151) lines 16355 and 16732 are two separate passages. Ottoman #0/#5 are one Mogila Confession citation in two Kimmel editions. Philokalia #3 (line 1989) author not pinned, shelved work text."
+ },
+ {
+  "cid": "C072",
+  "name": "Vigilantius",
+  "traditions": {
+   "latin-papal-church-avignon-to-lateran-v": {
+    "labels": {
+     "latin-papal-church-avignon-to-lateran-v#0": "S",
+     "latin-papal-church-avignon-to-lateran-v#1": "U",
+     "latin-papal-church-avignon-to-lateran-v#2": "S",
+     "latin-papal-church-avignon-to-lateran-v#3": "U",
+     "latin-papal-church-avignon-to-lateran-v#4": "S",
+     "latin-papal-church-avignon-to-lateran-v#5": "U",
+     "latin-papal-church-avignon-to-lateran-v#6": "S",
+     "latin-papal-church-avignon-to-lateran-v#7": "S",
+     "latin-papal-church-avignon-to-lateran-v#8": "U",
+     "latin-papal-church-avignon-to-lateran-v#9": "S"
+    },
+    "clean_passages": 3,
+    "best_quote": {
+     "file": "bullarium-franciscanum_v5-lat_eubel1898.txt",
+     "line": 66310,
+     "text": "incidunt in damnatam haeresim Vigilantii hae¬ retici damnati, qui dixit ac dogmatizavit"
+    }
+   },
+   "lutheran-wittenberg-and-its-congregations": {
+    "labels": {
+     "lutheran-wittenberg-and-its-congregations#0": "S",
+     "lutheran-wittenberg-and-its-congregations#1": "S",
+     "lutheran-wittenberg-and-its-congregations#2": "S",
+     "lutheran-wittenberg-and-its-congregations#3": "S",
+     "lutheran-wittenberg-and-its-congregations#4": "S",
+     "lutheran-wittenberg-and-its-congregations#5": "S",
+     "lutheran-wittenberg-and-its-congregations#6": "S",
+     "lutheran-wittenberg-and-its-congregations#7": "S",
+     "lutheran-wittenberg-and-its-congregations#8": "S",
+     "lutheran-wittenberg-and-its-congregations#9": "S"
+    },
+    "clean_passages": 2,
+    "best_quote": {
+     "file": "melanchthon_apology-augsburg-confession_bente-dau1921.txt",
+     "line": 7384,
+     "text": "They quote also Jerome against Vigilantius. \"On this field\" [in this matter], they say, \"eleven hundred years ago, Jerome overcame Vigilantius.\""
+    }
+   },
+   "the-society-of-jesus": {
+    "labels": {
+     "the-society-of-jesus#0": "S",
+     "the-society-of-jesus#1": "U",
+     "the-society-of-jesus#2": "S",
+     "the-society-of-jesus#3": "S",
+     "the-society-of-jesus#4": "S",
+     "the-society-of-jesus#5": "U",
+     "the-society-of-jesus#6": "S"
+    },
+    "clean_passages": 4,
+    "best_quote": {
+     "file": "campion_rationes-decem-ten-reasons-lat-eng_rickaby1914.txt",
+     "line": 5592,
+     "text": "Vigilantius, who would not have the Saints prayed to; and Jovinian, who put marriage on a level"
+    }
+   }
+  },
+  "namesake_notes": "none; every hit is the Vigilantius opposed by Jerome.",
+  "editorial_notes": "None counted as E. Not-S (U) hits are outside the shelved section: Mansi lines 112089-112339 sit in the Council of Sens 1528, not Lateran V or Pisa; Mirbt line 20468 is document 414 (Bellarmine), outside docs 307-333; Canisius marginal source references and a margin gloss (#1, #5) are printer/translator apparatus.",
+  "comment": "Counts are conservative: Bullarium #0/#4/#7 is one continuous argument (one passage); Gerson #6/#9 are one reply (one passage) plus #2; Lutheran Apology passage appears in three editions (Bensow Swedish, Jacobs, Bente-Dau) = one passage, plus Olavus Petri. Gerson hits at lines ~64543-64686 are in a poverty tract in the same Du Pin volume, not one of the named schism treatises, counted S as Gerson own text. Latin papal could be argued up to 5 if each sentence were its own passage."
+ },
+ {
+  "cid": "C082",
+  "name": "Geiseric",
+  "traditions": {
+   "merovingian-gallic-christianity": {
+    "labels": {
+     "merovingian-gallic-christianity#0": "E",
+     "merovingian-gallic-christianity#1": "E",
+     "merovingian-gallic-christianity#2": "S",
+     "merovingian-gallic-christianity#3": "E",
+     "merovingian-gallic-christianity#4": "E",
+     "merovingian-gallic-christianity#5": "E",
+     "merovingian-gallic-christianity#6": "S",
+     "merovingian-gallic-christianity#7": "E",
+     "merovingian-gallic-christianity#8": "E",
+     "merovingian-gallic-christianity#9": "E"
+    },
+    "clean_passages": 2,
+    "best_quote": {
+     "file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "line": 43521,
+     "text": "he sent to king Genseric by his followers, as I learned from the preface to the work,"
+    }
+   },
+   "latin-africa-under-byzantium": {
+    "labels": {
+     "latin-africa-under-byzantium#0": "U",
+     "latin-africa-under-byzantium#1": "U",
+     "latin-africa-under-byzantium#2": "U",
+     "latin-africa-under-byzantium#3": "U",
+     "latin-africa-under-byzantium#4": "U",
+     "latin-africa-under-byzantium#5": "U",
+     "latin-africa-under-byzantium#6": "U",
+     "latin-africa-under-byzantium#7": "U",
+     "latin-africa-under-byzantium#8": "E",
+     "latin-africa-under-byzantium#9": "E"
+    },
+    "clean_passages": 0
+   },
+   "roman-church-gregorian": {
+    "labels": {
+     "roman-church-gregorian#0": "E",
+     "roman-church-gregorian#1": "E",
+     "roman-church-gregorian#2": "E",
+     "roman-church-gregorian#3": "E",
+     "roman-church-gregorian#4": "E",
+     "roman-church-gregorian#5": "E"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "none; all hits are Geiseric the Vandal king.",
+  "editorial_notes": "Dalton translator notes and Arndt-Krusch footnotes on Gregory of Tours; Fredegar apparatus note (14th-c. hand); Halm word index to Victor of Vita (lines 8469, 9376); Gardner footnotes to the Dialogues (all six Roman hits).",
+  "comment": "Latin Africa under Byzantium: hits #0,#2-#7 are Victor of Vita (Historia persecutionis, Vandal-era), which the shelf does not list for this file (only Corippus from line ~10546), and #1 is in Marcellinus Comes, not the Victor of Tunnuna section; all labelled U (not S) for that reason. If the coordinator shelves Victor of Vita they would be genuine S passages (about 6 distinct). Merovingian S = Gennadius chs. 78 and the Prosper entry, NPNF translation."
+ },
+ {
+  "cid": "C092",
+  "name": "Sabas",
+  "traditions": {
+   "russian-church-nikon-to-holy-synod": {
+    "labels": {
+     "russian-church-nikon-to-holy-synod#0": "N",
+     "russian-church-nikon-to-holy-synod#1": "N",
+     "russian-church-nikon-to-holy-synod#2": "N",
+     "russian-church-nikon-to-holy-synod#3": "N",
+     "russian-church-nikon-to-holy-synod#4": "N",
+     "russian-church-nikon-to-holy-synod#5": "N",
+     "russian-church-nikon-to-holy-synod#6": "N",
+     "russian-church-nikon-to-holy-synod#7": "N",
+     "russian-church-nikon-to-holy-synod#8": "N",
+     "russian-church-nikon-to-holy-synod#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "coptic-christianity-under-early-islam": {
+    "labels": {
+     "coptic-christianity-under-early-islam#0": "N",
+     "coptic-christianity-under-early-islam#1": "N",
+     "coptic-christianity-under-early-islam#2": "N",
+     "coptic-christianity-under-early-islam#3": "N",
+     "coptic-christianity-under-early-islam#4": "N"
+    },
+    "clean_passages": 0
+   },
+   "armenian-cilicia": {
+    "labels": {
+     "armenian-cilicia#0": "N",
+     "armenian-cilicia#1": "N",
+     "armenian-cilicia#2": "N",
+     "armenian-cilicia#3": "N",
+     "armenian-cilicia#4": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Sabbas = the envoy Sabbas, kellar of the Chudov monastery, sent by the tsar in 1666 (Ligarides history; all ten hits); \"couvent de saint Sabbas\" at Rome in the synaxary is a monastery named for the saint (place), not the person; Sabas I = a manuscript siglum.",
+  "editorial_notes": "Palmer notes inside the Ligarides file, Basset/Bayan manuscript description (Sabas I).",
+  "comment": "No S in any tradition. The Rome monastery of St Sabbas is named for him but the text does not mean the saint himself, so N under the brief."
+ },
+ {
+  "cid": "C102",
+  "name": "Vigilius",
+  "traditions": {
+   "nicene-visigothic-iberia": {
+    "labels": {
+     "nicene-visigothic-iberia#0": "U",
+     "nicene-visigothic-iberia#1": "U",
+     "nicene-visigothic-iberia#2": "E",
+     "nicene-visigothic-iberia#3": "E",
+     "nicene-visigothic-iberia#4": "N",
+     "nicene-visigothic-iberia#5": "E",
+     "nicene-visigothic-iberia#6": "U",
+     "nicene-visigothic-iberia#7": "N",
+     "nicene-visigothic-iberia#8": "E",
+     "nicene-visigothic-iberia#9": "E"
+    },
+    "clean_passages": 0
+   },
+   "roman-church-gregorian": {
+    "labels": {
+     "roman-church-gregorian#0": "E",
+     "roman-church-gregorian#1": "E",
+     "roman-church-gregorian#2": "E",
+     "roman-church-gregorian#3": "S",
+     "roman-church-gregorian#4": "S",
+     "roman-church-gregorian#5": "E",
+     "roman-church-gregorian#6": "E",
+     "roman-church-gregorian#7": "E",
+     "roman-church-gregorian#8": "E",
+     "roman-church-gregorian#9": "E"
+    },
+    "clean_passages": 2,
+    "best_quote": {
+     "file": "npnf212_leo-great-gregory-great.xml",
+     "line": 35722,
+     "text": "After the Pope Vigilius of illustrious memory, having been appointed in the royal city"
+    }
+   },
+   "latin-papal-church-avignon-to-lateran-v": {
+    "labels": {
+     "latin-papal-church-avignon-to-lateran-v#0": "N",
+     "latin-papal-church-avignon-to-lateran-v#1": "S",
+     "latin-papal-church-avignon-to-lateran-v#2": "U",
+     "latin-papal-church-avignon-to-lateran-v#3": "N",
+     "latin-papal-church-avignon-to-lateran-v#4": "U",
+     "latin-papal-church-avignon-to-lateran-v#5": "N",
+     "latin-papal-church-avignon-to-lateran-v#6": "N",
+     "latin-papal-church-avignon-to-lateran-v#7": "E",
+     "latin-papal-church-avignon-to-lateran-v#8": "E"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "gerson_opera-omnia-tomus-2-pars-1-tractatus-ad-schisma-lat_dupin1706.txt",
+     "line": 14053,
+     "text": "trufionesxLi. Qiiorum primum fchifma inccepit An- primus, Vigilius primus , Martinus primus, Leo ter-"
+    }
+   }
+  },
+  "namesake_notes": "Bishop Vigilius and presbyter Vigilius as signers (Toledo III, PL72 #4, #7); Vigilius (modern author, Mirbt bibliographies on Pius X decrees; 3 hits); Vigilius the deacon / vicar in Gregory index (Ewald-Hartmann).",
+  "editorial_notes": "Caspari German notes on Martin of Braga (Vigilius letter to Profuturus), Migne/Arevalo notes in PL72 and PL80, Ewald-Hartmann regests, apparatus and indexes, Gardner notes/index, Mirbt names index (lines 34083, 38739).",
+  "comment": "Visigothic has no S: Marcellinus Comes entries (#1, #6) are not the Isidore/Biclaro sections; PL80 #0 (Epistola IV, line 21501) lies outside the Sisebut/Braulio/Paulus works; #9 is an editorial note on Pyrrhus. Papal: Mansi line 4402 is under the running head Basel Council, not Florence (U); Gerson #1 lists \"Vigilius primus\" among popes of schisms (counted S, he is the only pope of that name) while #4 (\"Vigilius vel Eugenius\", 848) is unclear. Gregorian S = NPNF Gregory letters (Bk VII-ish letter on the Fifth Council; Bk IX letter on Aurelius) in translation."
+ },
+ {
+  "cid": "C112",
+  "name": "Aidan",
+  "traditions": {
+   "medieval-welsh-christianity": {
+    "labels": {
+     "medieval-welsh-christianity#0": "N",
+     "medieval-welsh-christianity#1": "N",
+     "medieval-welsh-christianity#2": "N",
+     "medieval-welsh-christianity#3": "N",
+     "medieval-welsh-christianity#4": "N",
+     "medieval-welsh-christianity#5": "N",
+     "medieval-welsh-christianity#6": "N",
+     "medieval-welsh-christianity#7": "N",
+     "medieval-welsh-christianity#8": "N",
+     "medieval-welsh-christianity#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "the-tridentine-church": {
+    "labels": {
+     "the-tridentine-church#0": "S",
+     "the-tridentine-church#1": "U",
+     "the-tridentine-church#2": "S",
+     "the-tridentine-church#3": "S",
+     "the-tridentine-church#4": "S",
+     "the-tridentine-church#5": "S",
+     "the-tridentine-church#6": "S",
+     "the-tridentine-church#7": "S"
+    },
+    "clean_passages": 5,
+    "best_quote": {
+     "file": "roman-breviary_bute1908.txt",
+     "line": 61592,
+     "text": "They sent him a man called Aidan, a monk of great meekness and godliness, from the monastery of St Columba"
+    }
+   }
+  },
+  "namesake_notes": "Welsh shelf: Aedan/Aidanus/Maidoc the disciple of St David (Rees Lives; Maedoc of Ferns); Aidan map Gabran, king of Dal Riata (Annales Cambriae and its editor notes).",
+  "editorial_notes": "Tridentine: none counted as E; Roman Missal (England 1843) calendar line (#1) left U, an English calendar table whose wording is the translator's.",
+  "comment": "Tridentine reaches 5 only if calendar and rubric mentions count: the clearly narrative S passages are 2 (martyrology entry 31 Aug, #2/#3; lesson on Oswald and Aidan, #5/#6); the other three are Bute's calendar line (#0) and two rubrics (#4 Vespers, #7 commemoration), which are the Breviary's own text but are not statements about him. Shelf locus names only Martyrology entries for 24/27 Oct, but the file is the whole Roman Breviary (Bute 1908), so treated as shelved."
+ },
+ {
+  "cid": "C122",
+  "name": "Patriarch Tarasios",
+  "traditions": {
+   "hesychasm-and-the-palamite-synthesis": {
+    "labels": {
+     "hesychasm-and-the-palamite-synthesis#0": "U",
+     "hesychasm-and-the-palamite-synthesis#1": "U",
+     "hesychasm-and-the-palamite-synthesis#2": "U",
+     "hesychasm-and-the-palamite-synthesis#3": "U",
+     "hesychasm-and-the-palamite-synthesis#4": "E",
+     "hesychasm-and-the-palamite-synthesis#5": "U",
+     "hesychasm-and-the-palamite-synthesis#6": "E"
+    },
+    "clean_passages": 0
+   },
+   "russian-church-nikon-to-holy-synod": {
+    "labels": {
+     "russian-church-nikon-to-holy-synod#0": "S",
+     "russian-church-nikon-to-holy-synod#1": "U",
+     "russian-church-nikon-to-holy-synod#2": "S",
+     "russian-church-nikon-to-holy-synod#3": "E",
+     "russian-church-nikon-to-holy-synod#4": "S",
+     "russian-church-nikon-to-holy-synod#5": "S"
+    },
+    "clean_passages": 4,
+    "best_quote": {
+     "file": "ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873.txt",
+     "line": 15418,
+     "text": "Jor we remember the words of the patriarch Tarasius, who said in his Apologeticon"
+    }
+   },
+   "byzantine-church-palaiologan": {
+    "labels": {
+     "byzantine-church-palaiologan#0": "U",
+     "byzantine-church-palaiologan#1": "S",
+     "byzantine-church-palaiologan#2": "U",
+     "byzantine-church-palaiologan#3": "S",
+     "byzantine-church-palaiologan#4": "U"
+    },
+    "clean_passages": 2,
+    "best_quote": {
+     "file": "chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866.txt",
+     "line": 69498,
+     "text": "Divinus Tarasius, Coustan!inopulis patriarcha, ju episto'a ad Orientis pont fices, que incipit,"
+    }
+   }
+  },
+  "namesake_notes": "none; all hits are Tarasius of Constantinople (the Nicephorus Callistus patriarch list is also him).",
+  "editorial_notes": "Migne Latin notes in the Nicephorus Callistus Historia file (#4, #6); Palmer table-of-contents entry (Nikon replies #3).",
+  "comment": "Several hits lie outside shelved sections: PG152 lines 1189, 14281, 38139 are Manuel Calecas (Latin polemic against the Greeks), not the patriarchal diplomata from line 81575; the Nicephorus Callistus Historia (lines ~20-22k) precedes the shelved Hesychast works from line 28911. Nikon replies #1 is Nikon's own reply quoting a gloss, while the shelf names Ligarides' answers there. Russian S = four distinct passages in Ligarides history; Palaiologan S = Plusiadenos (PG159, Greek/Latin) twice."
+ },
+ {
+  "cid": "C132",
+  "name": "Gudit",
+  "traditions": {
+   "lollardy": {
+    "labels": {
+     "lollardy#0": "N",
+     "lollardy#1": "N",
+     "lollardy#2": "N",
+     "lollardy#3": "N",
+     "lollardy#4": "N",
+     "lollardy#5": "N",
+     "lollardy#6": "N",
+     "lollardy#7": "N",
+     "lollardy#8": "N",
+     "lollardy#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "the-anabaptist-movements": {
+    "labels": {
+     "the-anabaptist-movements#0": "N",
+     "the-anabaptist-movements#1": "N",
+     "the-anabaptist-movements#2": "N",
+     "the-anabaptist-movements#3": "N",
+     "the-anabaptist-movements#4": "N",
+     "the-anabaptist-movements#5": "N",
+     "the-anabaptist-movements#6": "N",
+     "the-anabaptist-movements#7": "N",
+     "the-anabaptist-movements#8": "N",
+     "the-anabaptist-movements#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "the-english-reformation-and-elizabethan-settleme": {
+    "labels": {
+     "the-english-reformation-and-elizabethan-settleme#0": "N",
+     "the-english-reformation-and-elizabethan-settleme#1": "N",
+     "the-english-reformation-and-elizabethan-settleme#2": "N",
+     "the-english-reformation-and-elizabethan-settleme#3": "N",
+     "the-english-reformation-and-elizabethan-settleme#4": "N",
+     "the-english-reformation-and-elizabethan-settleme#5": "N",
+     "the-english-reformation-and-elizabethan-settleme#6": "N",
+     "the-english-reformation-and-elizabethan-settleme#7": "N",
+     "the-english-reformation-and-elizabethan-settleme#8": "N",
+     "the-english-reformation-and-elizabethan-settleme#9": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Every hit is Judith: the biblical heroine/book of Judith (Wyclif, Wycliffite Bible, Homilies, Latimer, Hooker, Dirk Philips, Hutterite chronicle, Zurich letters), or Anabaptist women named Judith. Only the alias Judith matched; Gudit, Yodit, Esato do not appear in these contexts.",
+  "editorial_notes": "Forshall-Madden preface/glossary and Vaughan introduction mention Judith as a translated book.",
+  "comment": "No S anywhere; the Ethiopian queen (Gudit) is not named in any later-tradition shelf text here."
+ },
+ {
+  "cid": "C142",
+  "name": "Gerard",
+  "traditions": {
+   "recusant-english-catholicism": {
+    "labels": {
+     "recusant-english-catholicism#0": "N",
+     "recusant-english-catholicism#1": "N",
+     "recusant-english-catholicism#2": "N",
+     "recusant-english-catholicism#3": "N",
+     "recusant-english-catholicism#4": "N",
+     "recusant-english-catholicism#5": "N",
+     "recusant-english-catholicism#6": "N",
+     "recusant-english-catholicism#7": "N",
+     "recusant-english-catholicism#8": "N",
+     "recusant-english-catholicism#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "the-society-of-jesus": {
+    "labels": {
+     "the-society-of-jesus#0": "N",
+     "the-society-of-jesus#1": "N",
+     "the-society-of-jesus#2": "N",
+     "the-society-of-jesus#3": "N",
+     "the-society-of-jesus#4": "N",
+     "the-society-of-jesus#5": "N",
+     "the-society-of-jesus#6": "E",
+     "the-society-of-jesus#7": "N",
+     "the-society-of-jesus#8": "N",
+     "the-society-of-jesus#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "devotio-moderna-brethren-of-the-common-life": {
+    "labels": {
+     "devotio-moderna-brethren-of-the-common-life#0": "N",
+     "devotio-moderna-brethren-of-the-common-life#1": "N",
+     "devotio-moderna-brethren-of-the-common-life#2": "N",
+     "devotio-moderna-brethren-of-the-common-life#3": "N",
+     "devotio-moderna-brethren-of-the-common-life#4": "N",
+     "devotio-moderna-brethren-of-the-common-life#5": "N",
+     "devotio-moderna-brethren-of-the-common-life#6": "N",
+     "devotio-moderna-brethren-of-the-common-life#7": "N",
+     "devotio-moderna-brethren-of-the-common-life#8": "N",
+     "devotio-moderna-brethren-of-the-common-life#9": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Father John Gerard S.J. (Gunpowder Plot narrative, Morris), Miles Gerard priest-martyr, Theodoric Gerard S.J. (Ignatius letters, Salmeron), Gerard Groote, Gerard Zerbolt of Zutphen, \"Gerard's goods\" (Ignatius), Gerard in Chalcedon catalogue references.",
+  "editorial_notes": "Thwaites footnote 3 to Jesuit Relations vol. 11 (Knights Hospitallers, \"one Gerard\", d. 1118) is the only mention of the Hospitaller Gerard; it is an editor's note (E), not the Jesuit text.",
+  "comment": "No S. The only context about the right Gerard (Hospitaller, Jesuit Relations v11 line 10106) is editorial; Devotio Moderna hits are title lines and chapter headings for Gerard Groote."
+ },
+ {
+  "cid": "C152",
+  "name": "Ewostatewos",
+  "traditions": {
+   "german-pietism-spener-francke-halle": {
+    "labels": {
+     "german-pietism-spener-francke-halle#0": "N",
+     "german-pietism-spener-francke-halle#1": "N",
+     "german-pietism-spener-francke-halle#2": "N",
+     "german-pietism-spener-francke-halle#3": "N",
+     "german-pietism-spener-francke-halle#4": "N",
+     "german-pietism-spener-francke-halle#5": "N",
+     "german-pietism-spener-francke-halle#6": "N"
+    },
+    "clean_passages": 0
+   },
+   "orthodoxy-under-the-ottomans-1650-1821": {
+    "labels": {
+     "orthodoxy-under-the-ottomans-1650-1821#0": "N",
+     "orthodoxy-under-the-ottomans-1650-1821#1": "E",
+     "orthodoxy-under-the-ottomans-1650-1821#2": "E",
+     "orthodoxy-under-the-ottomans-1650-1821#3": "N",
+     "orthodoxy-under-the-ottomans-1650-1821#4": "N",
+     "orthodoxy-under-the-ottomans-1650-1821#5": "N"
+    },
+    "clean_passages": 0
+   },
+   "russian-church-nikon-to-holy-synod": {
+    "labels": {
+     "russian-church-nikon-to-holy-synod#0": "N",
+     "russian-church-nikon-to-holy-synod#1": "N",
+     "russian-church-nikon-to-holy-synod#2": "N",
+     "russian-church-nikon-to-holy-synod#3": "N",
+     "russian-church-nikon-to-holy-synod#4": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Only the alias Eustathius matched, always a different person: Eustathius of Thessalonica the grammarian (Bengel Gnomon), the martyr Eustathius Placidas (Paul of Aleppo), Eustathius of Antioch, Eustathius of Sebaste, a bishop of the Synod of Parthenia (Kimmel marginal).",
+  "editorial_notes": "Kimmel marginal source citation \"Eustathius Synod. Parthen.\" in the Jerusalem Synod acts (E, and a different Eustathius anyway).",
+  "comment": "Ewostatewos of Sara'e (Ethiopian) is not named in any of these shelves."
+ },
+ {
+  "cid": "C162",
+  "name": "Robert Bellarmine",
+  "traditions": {
+   "restoration-georgian-church-of-england": {
+    "labels": {
+     "restoration-georgian-church-of-england#0": "E",
+     "restoration-georgian-church-of-england#1": "S",
+     "restoration-georgian-church-of-england#2": "S",
+     "restoration-georgian-church-of-england#3": "S",
+     "restoration-georgian-church-of-england#4": "S",
+     "restoration-georgian-church-of-england#5": "U",
+     "restoration-georgian-church-of-england#6": "S",
+     "restoration-georgian-church-of-england#7": "S",
+     "restoration-georgian-church-of-england#8": "S",
+     "restoration-georgian-church-of-england#9": "S"
+    },
+    "clean_passages": 8,
+    "best_quote": {
+     "file": "bellarmine_notes-of-the-church_1688.txt",
+     "line": 6789,
+     "text": "that Cardinal Bellarmin's Fourth Note of the Church were as true as we have proved it falſe"
+    }
+   },
+   "port-royal-jansenism": {
+    "labels": {
+     "port-royal-jansenism#0": "E",
+     "port-royal-jansenism#1": "S",
+     "port-royal-jansenism#2": "S",
+     "port-royal-jansenism#3": "S",
+     "port-royal-jansenism#4": "S",
+     "port-royal-jansenism#5": "E",
+     "port-royal-jansenism#6": "E",
+     "port-royal-jansenism#7": "E",
+     "port-royal-jansenism#8": "E",
+     "port-royal-jansenism#9": "E"
+    },
+    "clean_passages": 2,
+    "best_quote": {
+     "file": "pascal_provincial-letters_mcrie1856.txt",
+     "line": 13240,
+     "text": "the following axiom of Cardinal Bellarmine, a member of your Society: “General and lawful councils are incapable of error in defining the"
+    }
+   }
+  },
+  "namesake_notes": "none; every hit is Cardinal Robert Bellarmine.",
+  "editorial_notes": "Library header lines (Notes of the Church #0, a misattribution note); Stewart introduction and notes on the French Provincial Letters (#0, #5-#9), which the shelf excludes.",
+  "comment": "Port-Royal: Pascal's two Bellarmine passages (general councils cannot err in doctrine but can in fact; the axiom on Jesuit probabilism) each appear in M'Crie English and Stewart French, so 2 distinct passages (#1/#2 and #3/#4). Georgian: 6 passages in the Notes of the Church tract; Barlow #1 and #3 are citations of De Romano Pontifice inside Barlow's commentary (counted), #5 is OCR-garbled (U)."
+ }
+]

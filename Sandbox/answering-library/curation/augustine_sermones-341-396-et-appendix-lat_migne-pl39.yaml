@@ -1,0 +1,209 @@
+file: augustine_sermones-341-396-et-appendix-lat_migne-pl39.txt
+scheme: Maurist sermons 341-396 addressed by the Roman numeral in each heading (sermoNNN); the Appendix of doubtful and spurious sermons addressed by its own sermon numbers 1-317 (appendix-sermoNNN), first sermon being appendix-sermo001; unnumbered fragments addressed by heading line (fragment-lineN) and the Eraclius sermon by its heading text and line; sermons 351, 361 and 362 are divided further at their printed CAPUT headings (sermoNNN/caputNN) because they would otherwise run over 5,000 words, and the other sermons that print CAPUT headings stay whole
+curator: Sonnet 5.5
+status: sampled-ok
+rules:
+- id: sermon
+  pattern: ^(?:[*•,.] )?(?:SERMO|SEHMO|SEKMO|SF\.RMO|SEUMO|SE11M0|SEIt\.MO|SERJIO|SEIl\.MO|SEItMO|SF\.HMO|SKU\.MO|SF\.IlMO|SEilMO|SfcRMO|SF\.IIMO|SEIIMO|SERSIO|SEK1IO) (?P<n>[IVXLCivxclUHYGJ1n.!]+) ?(?:[*•‘’“»■"'(\[{<]|[0-9,] [({]| fa\))
+  lines:
+  - [227, 16289]
+  locus: sermo{n|int:3}
+  number: n
+  ocr_map: &id001 {'1': I, l: I, i: I, U: II, H: II, Y: V, G: C, J: I, n: II, .: '', '!': I}
+  fixes:
+  - line: 10048
+    set: {n: CCCLXIII}
+- id: caput
+  parent: sermon
+  pattern: ^(?i:caput) (?P<c>[IVXLCivxlcYJH1]+|PRIMUM)[.,]? ?[—-]
+  lines:
+  - [3173, 4165]
+  - [7655, 8508]
+  - [8510, 10047]
+  locus: caput{c|int:2}
+  number: c
+  ocr_map: {'1': I, l: I, i: I, Y: V, J: I, H: II}
+  fixes:
+  - line: 8783
+    quote: CAPUT VIU.
+    set: {c: VIII}
+- id: fragment
+  pattern: ^(?:Item )?(?:ex|Ex) (?:eodem )?[Ss]ermone\b(?P<h>.*)$
+  lines:
+  - [16459, 17554]
+  locus: fragment-line{line}
+- id: appendix-first
+  pattern: '^SERMO PRIMUS '
+  lines:
+  - [17590, 17590]
+  locus: appendix-sermo001
+- id: appendix-sermon
+  pattern: ^(?:[*•,.] )?(?:SERMO|SEHMO|SEKMO|SF\.RMO|SEUMO|SE11M0|SEIt\.MO|SERJIO|SEIl\.MO|SEItMO|SF\.HMO|SKU\.MO|SF\.IlMO|SEilMO|SfcRMO|SF\.IIMO|SEIIMO|SERSIO|SEK1IO) (?P<n>[IVXLCivxclUHYGJ1n.!]+) ?(?:[*•‘’“»■"'(\[{<]|[0-9,] [({]| fa\))
+  lines:
+  - [17591, 69868]
+  - [69870, 72546]
+  locus: appendix-sermo{n|int:3}
+  number: n
+  ocr_map: *id001
+  fixes:
+  - line: 19715
+    quote: ',fc)'
+    set: {n: XI}
+  - line: 28010
+    quote: 'LV1M'
+    set: {n: LVIII}
+  - line: 35593
+    quote: 'SERMO Ct'
+    set: {n: CI}
+  - line: 37693
+    quote: 'SF.RM3CX'
+    set: {n: CX}
+  - line: 37846
+    quote: 'CXf'
+    set: {n: CXI}
+  - line: 47165
+    quote: 'CIAVI'
+    set: {n: CLXVI}
+  - line: 47193
+    quote: 'CIA VII'
+    set: {n: CLXVII}
+  - line: 47270
+    quote: 'CIAVIII'
+    set: {n: CLXVIII}
+  - line: 54507
+    quote: '(XXIX'
+    set: {n: CCXIX}
+  - line: 54808
+    quote: '(XXXI'
+    set: {n: CCXXI}
+  - line: 59838
+    quote: 'CCf.il'
+    set: {n: CCLII}
+  - line: 66478
+    quote: 'CCCXXXVI'
+    set: {n: CCLXXXVI}
+  - line: 66699
+    quote: 'C6LXXXV1I'
+    set: {n: CCLXXXVII}
+  - line: 67899
+    quote: 'CCXCM'
+    set: {n: CCXCIII}
+  - line: 69869
+    quote: 'CCUI'
+    set: {n: CCCII}
+  - line: 71199
+    quote: 'CCf.lX'
+    set: {n: CCCIX}
+divisions:
+- {start_line: 16290, locus: sermo-s-presbyteri-eraclii-line16290}
+ignore:
+- pattern: '^(?:\S{1,6} )?(?:S\. AUGUSTINI EPISCOPI )?SERMO(?: [IVXLCivxclUHYPTrfGKd1nJ.!]{1,14})?\.?(?: (?=[A-Za-z]*[0-9«%$&])[0-9A-Za-z«»%$&]{1,6})?[ ,.]*$'
+  kind: running-head
+  lines:
+  - [228, 72546]
+- pattern: '^(?:\S{1,6} )?A[A-Za-z]{2}ENDIX[.,]?(?: \S{1,6})?[ ,.]*$'
+  kind: running-head
+  lines:
+  - [17591, 72546]
+- pattern: '^(?:[0-9]{1,4} )?S\. AUGUSTINI EPISCOPI(?: [0-9A-Za-z*]{1,5})?$'
+  kind: running-head
+  lines:
+  - [228, 72546]
+- pattern: ^SERMO XXXV»\.$
+  kind: running-head
+  lines:
+  - [24749, 24749]
+- pattern: ^SERMO Cl»\.$
+  kind: running-head
+  lines:
+  - [44267, 44267]
+- pattern: ^SERMO CCCXI\. '$
+  kind: running-head
+  lines:
+  - [71601, 71601]
+- pattern: ^SERMO S\. PRESBYTERI ERACL1I\.
+  kind: running-head
+  lines:
+  - [16205, 16205]
+- pattern: ^Digitized by
+  kind: scanner-mark
+  lines:
+  - [11, 88332]
+- pattern: ^Google$
+  kind: scanner-mark
+  lines:
+  - [11, 88332]
+- pattern: ^[0-9]{1,4}$
+  kind: page-number
+  lines:
+  - [228, 72546]
+apparatus:
+- lines: [11, 226]
+  kind: front
+  locus: front
+- lines: [10361, 10369]
+  kind: front
+  locus: sermones-dubii-title
+- lines: [16442, 16458]
+  kind: front
+  locus: fragmenta-title
+- lines: [17561, 17589]
+  kind: front
+  locus: appendix-title
+- lines: [38568, 38572]
+  kind: front
+  locus: appendix-classis2-title
+- lines: [49578, 49582]
+  kind: front
+  locus: appendix-classis3-title
+- lines: [56469, 56475]
+  kind: front
+  locus: appendix-classis4-title
+- lines: [88160, 88333]
+  kind: notes
+  locus: colophon
+- lines: [72547, 88159]
+  kind: index
+  locus: index
+evidence:
+- {line: 24446, quote: 'SERMO XXXV (a).'}
+- {line: 71553, quote: 'SERMO CCCXI (a).'}
+- {line: 227, quote: SERMO CCCXL1 * (a).}
+- {line: 768, quote: SERMO CCCXL11 * (6).}
+- {line: 5863, quote: SERMO CCCLV! * (a).}
+- {line: 7581, quote: SEIt.MO CCCLX * (a).}
+- {line: 8509, quote: SERMO CCCLXU * (a).}
+- {line: 10048, quote: SERMO CCCI.Xlll * (a).}
+- {line: 11284, quote: SEKMO CCCLXVII ‘ (a).}
+- {line: 13949, quote: 'SERMO CCC.LXXXII1'' (a). »''* me*, ego pestilenti® tu*. Retribuebant, Inquit,'}
+- {line: 16071, quote: SERMO CGCXC1V (a).}
+- {line: 16138, quote: SERMO CCCXCV («).}
+- {line: 16224, quote: SERMO CCCXCVI («).}
+- {line: 16290, quote: SERMO S. PRESBYTERI ER AGLII 3}
+- {line: 16444, quote: SERMONUM QUORUMDAM}
+- {line: 16459, quote: 'Ex Sermone contra Pelagianos, in Eugypii tomo 2,'}
+- {line: 17590, quote: SERMO PRIMUS (a).}
+- {line: 19715, quote: 'SERMO XI ,fc).'}
+- {line: 28010, quote: SERMO LV1M (a).}
+- {line: 33404, quote: SERMO LXXXVII! (a).}
+- {line: 35593, quote: SERMO Ct (a).}
+- {line: 37693, quote: SF.RM3CX (a). '}
+- {line: 37846, quote: SERMO CXf (a).}
+- {line: 41711, quote: SERMO CXXXin (a).}
+- {line: 47165, quote: SERMO CIAVI (o).}
+- {line: 47193, quote: SERMO CIA VII (d).}
+- {line: 47270, quote: SERMO CIAVIII (a).}
+- {line: 49997, quote: SERMO GXC (a).}
+- {line: 50170, quote: SERMO CXCH (a).}
+- {line: 54507, quote: SERMO (XXIX (a).}
+- {line: 54808, quote: SERMO (XXXI (n).}
+- {line: 59838, quote: SERMO CCf.il (c).}
+- {line: 66457, quote: '•MS SERMO CCLXXXVI. 12?«'}
+- {line: 66478, quote: SERMO CCCXXXVI (a).}
+- {line: 66699, quote: SERMO C6LXXXV1I (a).}
+- {line: 67899, quote: SERMO CCXCM (a).}
+- {line: 69869, quote: SERMO CCUI (a).}
+- {line: 71199, quote: SEHMO CCf.lX («).}
+- {line: 72433, quote: 'SERMO CCCXVIl (a),'}
+- {line: 72547, quote: INDEX RERUM.}
+- {line: 88160, quote: FINIS TOMI QUINTI.}

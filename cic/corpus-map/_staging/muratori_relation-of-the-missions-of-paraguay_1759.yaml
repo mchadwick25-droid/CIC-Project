@@ -1,0 +1,13 @@
+source_file: muratori_relation-of-the-missions-of-paraguay_1759.txt
+assignments:
+- row_id: muratori_relation-of-the-missions-of-paraguay_1759--muratori-relation-of-the-missions-of-paraguay-english
+  work: 'Muratori, A Relation of the Missions of Paraguay (English from the French, 1759)'
+  author: muratori
+  locus: 'the chapters at OCR lines 833-10202; Cattaneo''s letters at 10217-13618; the extract from Florentin de Bourges at 13619-14274; add 12 to OCR line numbers'
+  atlas_ids:
+  - society-of-jesus-1650-1814
+  role: context
+  confidence: provisional
+  language: eng
+  date: {start: 1759, end: 1759, source: "title page: 'M.DCC.LIX.'", formation_confidence: Documented}
+  note: 'A translation of a translation: the French translator says he cut and reordered Muratori, and the English follows the French. Use the Italian of 1743 to quote Muratori or Cattaneo; use this to read them in English.'

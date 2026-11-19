@@ -70,7 +70,7 @@ senses:
     the objection was that his consecrator, Felix of Aptungi, had been a traditor -- so the whole line running
     out of that consecration was held defective at its root. The Acta Purgationis Felicis (314), Felix's own hearing,
     is the founding documentary record of the charge.
-  evidential: 'Documented at its core on cross-voice grounds, not on Augustine''s characterisation alone: Petilian
+  evidential: 'Documented at its core on cross-voice grounds, not on Augustine''s characterization alone: Petilian
     of Constantina argues the doctrine in his own quoted words, and the Maximianist affair presupposes it independently.
     What is Augustine-mediated is the argumentative texture -- the step-by-step reasoning as this record can now
     reconstruct it. Optatus''s Appendix supplies the Felix documents, and Doc_02 SS1 places even those inside

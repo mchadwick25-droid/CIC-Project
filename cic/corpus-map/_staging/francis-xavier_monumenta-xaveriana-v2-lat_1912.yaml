@@ -8,6 +8,8 @@ assignments:
   - the-society-of-jesus
   role: context
   confidence: assigned
+  language: spa-lat-por
+  date: {formation_confidence: unknown, checked: "title page (file line 76 'TOMUS SECUNDUS', Madrid 1912 imprint) and the front matter; the volume mixes writings of different years and states no span"}
   note: 'Testimony about Xavier by his companions and early biographers, in the original languages. It
     is witness to Xavier and not Xavier''s own voice. Primary original evidence for the movement, quotable
     once each wording is checked against the page image: the scan is legible with occasional letter-level

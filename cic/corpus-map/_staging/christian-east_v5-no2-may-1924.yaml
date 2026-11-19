@@ -1,0 +1,24 @@
+source_file: christian-east_v5-no2-may-1924.txt
+assignments:
+- row_id: christian-east_v5-no2-may-1924--whole
+  work: 'The Christian East, volume V, number 2 (May, 1924)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1924, end: 1924, source: "masthead: 'May, 1924'", formation_confidence: Documented}
+  note: 'One number of the quarterly, by many writers. The Eastern documents it prints are in the journal''s English unless a row says otherwise.'
+- row_id: christian-east_v5-no2-may-1924--anthony-of-kiev-answer-to-evdokim-1923
+  work: 'Anthony, Metropolitan of Kiev, answer to the Metropolitan Evdokim (1923), in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 596-678; add 12 to OCR line numbers'
+  atlas_ids:
+  - emigre-orthodoxy-and-the-paris-school
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1923, end: 1923, source: "it answers a letter dated September 12th, 1923 (OCR lines 520-521)", formation_confidence: Documented}
+  note: 'His own answer, in English; the print names no translator. Line 596 opens with the editors'' words ''The following answer was sent by the Metropolitan Antonios''. Evdokim''s letter stands before it at OCR lines 520-594.'

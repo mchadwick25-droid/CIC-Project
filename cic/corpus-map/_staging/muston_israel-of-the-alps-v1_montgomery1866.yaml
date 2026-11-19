@@ -1,0 +1,12 @@
+source_file: muston_israel-of-the-alps-v1_montgomery1866.txt
+assignments:
+- row_id: muston_israel-of-the-alps-v1_montgomery1866--the-israel-of-the-alps-vol-1-muston-1866
+  work: 'Alexis Muston, The Israel of the Alps, vol. I, tr. Montgomery (London, 1866)'
+  author: muston
+  locus: 'the whole volume; add 12 to OCR line numbers for this file''s own'
+  atlas_ids:
+  - the-waldensian-reformed-union
+  - waldensians-in-the-alps
+  role: context
+  confidence: provisional
+  note: 'A Protestant pastor''s history, written in 1850 after these entries'' windows, about them. It quotes Waldensian documents; Muston''s own prose is a nineteenth-century historian''s.'

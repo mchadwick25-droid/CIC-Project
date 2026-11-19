@@ -1,0 +1,1440 @@
+{
+ "group": "C",
+ "movements": [
+  "latin-papal-church-avignon-to-lateran-v",
+  "franciscan-order-era-6",
+  "observant-reform-and-popular-preaching",
+  "fraticelli-spiritual-franciscan-rigorists"
+ ],
+ "links": [
+  {
+   "id": "franciscan-order-era-6--observant-reform-and-popular-preaching",
+   "action": "new",
+   "from": "franciscan-order-era-6",
+   "to": "observant-reform-and-popular-preaching",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "In 1438 the pope confirmed a letter from William of Casale, head of the whole order. It made one of his friars, Bernardino of Siena, vicar of the order's houses in Italy set up 'under the holy name of observance'. The historian Henry Charles Lea traced these strict houses to 1368. That year the head of the order asked for a hermitage at Brugliano for Paoluccio Trinci and his men.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Eugenius IV, Ad futuram rei memoriam (1 September 1438), confirming William of Casale's letter making Bernardino of Siena vicar general of the Observants; Bullarium Franciscanum, nova series I, no. 385, ed. Huntemann (1929)",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "34646-34648",
+     "locus": "no. 385",
+     "quote": "quod dilectus filius Guillelmus de Ca- sali, sacrae theologiae professor et generalis minister ipsius ordinis,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Same letter, Bullarium Franciscanum, nova series I, no. 385",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "34650-34653",
+     "locus": "no. 385",
+     "quote": "Bernardinum de Senis, eiusdem ordinis profes- sorem, omnium et singularum domorum et con- ventuum Italiae dicti ordinis sub sacro observan- tiae nomine constitutarum ipsius vicarium fecit,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Henry Charles Lea, A History of the Inquisition of the Middle Ages, vol. III (1888), ch. III 'The Fraticelli'",
+     "file": "cic/texts/lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt",
+     "lines": "8211-8213",
+     "locus": "vol. III p. 172",
+     "quote": "In 1368 the General Farignano chanced to attend a pro- vincial chapter at Foligno, and was persuaded to ask of Ugolino a spot called BruUiano,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "franciscan-order-era-6 relationsSummary ('Conventual/Observant polarization'; 'the Observant wing are its two named branches'), longDescription and why ('Observants, who from 1368 built up reformed houses'); observant-reform-and-popular-preaching longDescription and why ('spread across the Franciscans'); franciscan-order-era-6 legacy ('the Observant reform that grew out of the crisis')",
+   "wants": [
+    "Wadding, Annales Minorum, ann. 1368 (nos. 10-13), the source Lea cites for Brugliano; a public-domain edition is a verified lead in the Franciscan dossiers and would give the 1368 grant a primary text"
+   ],
+   "drafter_flags": [
+    "Held item 'The Franciscan order and the Observants, held for P2-L6' (Open-Gaps, 2026-11-08): quote re-verified at Bullarium Franciscanum NS I lines 34646-34653; it is split in two to stay under 40 words.",
+    "Relation to the era-5 link the-franciscan-movement--observant-reform-and-popular-preaching (influenced): that link carries the founder's Rule passed across 1300 (the 1440 letter's 'sub observantia regulae beati Francisci'). This one carries the institutional birth: Observant houses as houses of the order, under its own minister general. Different pairs, different claims; no duplicate. The era-5 link also quotes lines 34650-34653; both uses are correct, but a reviewer may prefer the era-5 link to rest on its 1440 quote alone.",
+    "Lea is a secondary of 1888, vendored and read at the lines; OCR prints 'BruUiano'. Lea gives the general as 'Farignano' (Tommaso da Frignano)."
+   ],
+   "change_reason": "New: drafted in era 5 and dropped there because both ends are era 6; held for this pass."
+  },
+  {
+   "id": "franciscan-order-era-6--fraticelli-spiritual-franciscan-rigorists",
+   "action": "new",
+   "from": "franciscan-order-era-6",
+   "to": "fraticelli-spiritual-franciscan-rigorists",
+   "type": "broke with",
+   "confidence": "Documented",
+   "note": "After Pope Clement V died, friars at Narbonne and Béziers left the order's unity and the obedience of their superiors, says the order's own dossier on the case. Angelo Clareno, the Spirituals' historian, tells the other side. The friars of the order handed twenty-five of them to the inquisitor, and four were burned.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Dossier of the Franciscan Community on the Narbonne and Béziers 'rebels', part IV ch. 1, ed. Franz Ehrle, 'Zur Vorgeschichte des Concils von Vienne', Archiv für Literatur- und Kirchengeschichte des Mittelalters III (1887)",
+     "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887.txt",
+     "lines": "1582-1583",
+     "locus": "ALKG III p. 36",
+     "quote": "ab ordinis unitate et suorum superiorum obedientia recesserunt",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Angelo Clareno, Historia septem tribulationum ordinis Minorum, ed. Franz Ehrle, Archiv für Literatur- und Kirchengeschichte des Mittelalters II (1886)",
+     "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd2-deu-lat_1886.txt",
+     "lines": "7855-7858",
+     "locus": "ALKG II p. 146",
+     "quote": "illos autem XXV tradiderunt in manibus inquisitoris, ex quibus quatuor com- busti sunt pro eo, quod asserebant regulam s. Francisci esse idem, quod ewangelium Christi;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "fraticelli-spiritual-franciscan-rigorists relationsSummary ('Rupture inside the Franciscan family'); franciscan-order-era-6 relationsSummary ('the Spirituals crisis'; 'the Fraticelli ... its two named branches') and longDescription ('The Spirituals ... were ordered to conform; four were burned')",
+   "wants": [],
+   "drafter_flags": [
+    "Symmetric type: ids in alphabetical order (franciscan < fraticelli).",
+    "The order's side is a contents list of a Community dossier; Ehrle prints it from a manuscript. It says 'eodem summo pontifice ex hac vita vocato' (OCR 'voeato', not quoted), i.e. after Clement V's death; the year is not in the quote, so the note gives none.",
+    "Clareno names the agents only as 'fratres'; the note says 'the friars of the order', which his context (the order's prisons, 'iusticie ordinis') supports."
+   ],
+   "change_reason": "New."
+  },
+  {
+   "id": "franciscan-order-era-6--fraticelli-spiritual-franciscan-rigorists--2",
+   "action": "new",
+   "from": "franciscan-order-era-6",
+   "to": "fraticelli-spiritual-franciscan-rigorists",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "The order's head, Michael of Cesena, sent two friars to Pope John XXII with five requests. The first asked that the fraticelli's way of life be wiped out. A cardinal wrote in 1335 that John had banned the sect at the friars' request.",
+   "outcome": "At the friars' own request, Pope John XXII banned the fraticelli and their way of life for good, on pain of being cut off from the church.",
+   "outcome_basis": "a",
+   "outcome_locus": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887.txt:1634-1637",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Dossier of the Franciscan Community, part IV ch. 7, ed. Franz Ehrle, ALKG III (1887)",
+     "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887.txt",
+     "lines": "1619",
+     "locus": "ALKG III p. 37",
+     "quote": "missi a reverendo patre fratre Michaele generali ministro",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Same dossier, part IV ch. 7",
+     "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887.txt",
+     "lines": "1621-1622",
+     "locus": "ALKG III p. 37",
+     "quote": "ibi scriptas, in quarum prima petitur, quod status fratricellorum cassetur;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Cardinal Gaucelinus, letter of 19 June 1335 (Paris, BN lat. 10981), quoted by Ehrle in his note, ALKG III (1887)",
+     "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887.txt",
+     "lines": "1634-1635",
+     "locus": "ALKG III p. 37 n. 1",
+     "quote": "Ad instantiam fratrum ordinis minorum fel. rec. Joannes papa XXII revocavit et perpetue prohibitioni subiecit sectam et statum Fratricellorum,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "franciscan-order-era-6 longDescription ('The Spirituals, who wanted the Rule kept to the letter, were ordered to conform'); fraticelli-spiritual-franciscan-rigorists relationsSummary ('Rupture inside the Franciscan family')",
+   "wants": [],
+   "drafter_flags": [
+    "Separate from the broke-with link on the same pair: that one is the rupture both sides recorded; this one is the order's own petition against the fraticelli by name, with its own evidence.",
+    "Line 1620 of the first quote's span carries an OCR margin number; the quote is taken from text that avoids it. The cardinal's letter is a later witness (1335), quoted in a modern editor's note."
+   ],
+   "change_reason": "New."
+  },
+  {
+   "id": "latin-papal-church-avignon-to-lateran-v--fraticelli-spiritual-franciscan-rigorists",
+   "action": "new",
+   "from": "latin-papal-church-avignon-to-lateran-v",
+   "to": "fraticelli-spiritual-franciscan-rigorists",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1317 Pope John XXII struck at the people 'commonly called fraticelli' in his decree Sancta Romana. He ruled their sect void and wiped it out. In 1432 Pope Eugenius IV gave the friar John of Capistrano powers to root out the 'fraticelli de la opinione'.",
+   "outcome": "Pope John XXII's decree Sancta Romana of 1317 banned the fraticelli for good, and cut off from the church anyone who kept to their sect.",
+   "outcome_basis": "a",
+   "outcome_locus": "cic/texts/bullarium-franciscanum_v5-lat_eubel1898.txt:25393-25399",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John XXII, Sancta Romana atque universalis ecclesia (30 December 1317), Bullarium Franciscanum V, no. 297, ed. Eubel (1898)",
+     "file": "cic/texts/bullarium-franciscanum_v5-lat_eubel1898.txt",
+     "lines": "25331-25333",
+     "locus": "no. 297",
+     "quote": "viri, qui vulgariter « fraticelli > seu « fratres de paupere vita » aut « bizzochi » sive « beghini » vel aliis nominibus nuncupantur,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Same decree, no. 297",
+     "file": "cic/texts/bullarium-franciscanum_v5-lat_eubel1898.txt",
+     "lines": "25394-25397",
+     "locus": "no. 297",
+     "quote": "et, quatenus de facto processerunt, de consilio et auctoritate praemissis revocamus omnino ac per¬ petuae prohibitioni subiicimus et ab ecclesia Dei penitus abolemus,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Eugenius IV to John of Capistrano (1 May 1432), Bullarium Franciscanum, nova series I, no. 63, ed. Huntemann (1929)",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "14802-14804",
+     "locus": "no. 63",
+     "quote": "quaedam secta haereti- corum nefanda, quae fraticelli « de la opinione » vulgariter nuncupatur,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "fraticelli-spiritual-franciscan-rigorists longDescription and why ('John XXII ordered the strictest friars to conform'; 'Those who would not submit became the fraticelli'; 'A ... trial at Rome in the 1460s'); franciscan-order-era-6 longDescription ('were ordered to conform')",
+   "wants": [
+    "Stefano Infessura, Diario della città di Roma (1467), for Paul II's public penance of the fraticelli at Rome, which Lea cites; would let the end of the fraticelli rest on a primary"
+   ],
+   "drafter_flags": [
+    "OCR keeps '« fraticelli >' (mismatched guillemet) and 'per¬ petuae' (line-end hyphen mark) exactly as printed.",
+    "Sancta Romana also names beguins and bizzochi; the note quotes only the fraticelli name. The Beguine/beghard condemnation at Vienne is a different, existing link."
+   ],
+   "change_reason": "New."
+  },
+  {
+   "id": "latin-papal-church-avignon-to-lateran-v--franciscan-order-era-6",
+   "action": "new",
+   "from": "latin-papal-church-avignon-to-lateran-v",
+   "to": "franciscan-order-era-6",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In December 1322 Pope John XXII ruled that the goods given to the Friars Minor no longer belonged to the Roman church. In 1328 he ordered the arrest of the minister general, Michael of Cesena, and William of Ockham, who had fled his court. Days later he removed Michael from office.",
+   "outcome": "In 1322 Pope John XXII gave up the Roman church's claim to own the friars' goods, and let no one run them in its name.",
+   "outcome_basis": "c",
+   "outcome_locus": "cic/texts/bullarium-franciscanum_v5-lat_eubel1898.txt:38692-38696",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John XXII, Ad conditorem canonum (8 December 1322), editor's heading, Bullarium Franciscanum V, no. 486, ed. Eubel (1898)",
+     "file": "cic/texts/bullarium-franciscanum_v5-lat_eubel1898.txt",
+     "lines": "38692-38694",
+     "locus": "no. 486",
+     "quote": "Declarat, bonorum in ordine Min. acquisitorum domi¬ nium non amplius ad ecclesiam Romanam, sed ad ordi¬ nem ipsum spectare,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John XXII, Ad conditorem canonum, text, Bullarium Franciscanum V, no. 486",
+     "file": "cic/texts/bullarium-franciscanum_v5-lat_eubel1898.txt",
+     "lines": "40381-40385",
+     "locus": "no. 486",
+     "quote": "nullum ius seu dominium aliquod occasione ordinationis praedictae seu cuiuslibet alterius a quocumque praedecessorum nostrorum super hoc specialiter editae sanctae Romanae ecclesiae acqui¬ ratur,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John XXII, letter of 28 May 1328, editor's calendar, Bullarium Franciscanum V, no. 711",
+     "file": "cic/texts/bullarium-franciscanum_v5-lat_eubel1898.txt",
+     "lines": "3122-3124",
+     "locus": "no. 711 (calendar)",
+     "quote": "Michaelem de Caesena, Bonagratiam de Pergamo, Guilelmum de Occham ord. Min., a curia Romana fugitivos, capi iubet.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John XXII, letter of 6 June 1328, editor's calendar, Bullarium Franciscanum V, no. 714",
+     "file": "cic/texts/bullarium-franciscanum_v5-lat_eubel1898.txt",
+     "lines": "3130",
+     "locus": "no. 714 (calendar)",
+     "quote": "Michaelem de Caesena privat ministeriatu generali ord. Min.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "franciscan-order-era-6 longDescription and why ('in 1323 John XXII declared it heretical ... which put the order's own official self-understanding on the wrong side of the law'; 'Michael of Cesena fled the papal court with William of Ockham rather than accept it')",
+   "wants": [],
+   "drafter_flags": [
+    "The two 1328 items are Eubel's calendar entries for the papal letters, read in the same edition; the full text of no. 714 is at lines 54483 onward.",
+    "Cum inter nonnullos (1323, no. 518, line 41928) is the decree the movement text describes, but it names no order, so it is not used as evidence of an act against the order; it supports the prose fix ('to insist', for 'pertinaciter affirmare').",
+    "OCR keeps the line-end mark '¬' in two quotes exactly as printed."
+   ],
+   "change_reason": "New."
+  },
+  {
+   "id": "franciscan-order-era-6--latin-papal-church-avignon-to-lateran-v",
+   "action": "new",
+   "from": "franciscan-order-era-6",
+   "to": "latin-papal-church-avignon-to-lateran-v",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "On 14 January 1323 Bonagratia of Bergamo, speaking for the Order of Friars Minor, appealed against the pope's new ruling on the order's goods. He did so before John XXII and the cardinals at Avignon. In 1335 William of Ockham, a friar who had fled the papal court, argued that John had died a heretic.",
+   "outcome_considered": "The sources show the appeal changed nothing, and the flight led to sentences on single men, not a ruling that changed the order or the papacy.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bonagratia of Bergamo, appeal against Ad conditorem canonum (14 January 1323), printed in Eubel's notes, Bullarium Franciscanum V (1898)",
+     "file": "cic/texts/bullarium-franciscanum_v5-lat_eubel1898.txt",
+     "lines": "39264-39265",
+     "locus": "no. 486, note",
+     "quote": "ibi frater Bonagratia de Pergamo procurator et procuratorio nomine ordinis fratrum Minorum,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Same appeal",
+     "file": "cic/texts/bullarium-franciscanum_v5-lat_eubel1898.txt",
+     "lines": "39270-39271",
+     "locus": "no. 486, note",
+     "quote": "infrascriptum libellum provocationis et appellationis sive supplicationis,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "William of Ockham, Contra Iohannem XXII (1335), ed. Richard Scholz, Unbekannte kirchenpolitische Streitschriften II (1914)",
+     "file": "cic/texts/scholz_unbekannte-kirchenpolitische-streitschriften-v2-lat_1914.txt",
+     "lines": "22837-22838",
+     "locus": "p. 396",
+     "quote": "Et postmodum ostendetur, quod ipsis non obstan- tibus est censendus dies suos in pravitate heretica finivisse.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "franciscan-order-era-6 longDescription and why ('Michael of Cesena fled the papal court with William of Ockham rather than accept it'); fraticelli-spiritual-franciscan-rigorists legacy ('the friars who fled the papal court over it — William of Ockham among them')",
+   "wants": [
+    "Michael of Cesena's appeals of 1328 and his protest of 1338 in a public-domain Latin text (Carlini 1912 prints some; the Goldast Monarchia is a verified lead), for the minister general's own voice"
+   ],
+   "drafter_flags": [
+    "Bonagratia appeals 'procuratorio nomine ordinis', so this is the order's act, not a faction's. Ockham writes as a Michaelist after his flight; whether the Michaelists still count as the order after 1328 is a framing question, flagged in the Franciscan dossier as open.",
+    "Ockham's tract argues heresy chiefly over the beatific vision, not poverty; the note says only 'died a heretic'."
+   ],
+   "change_reason": "New."
+  },
+  {
+   "id": "latin-papal-church-avignon-to-lateran-v--the-tridentine-church",
+   "action": "new",
+   "from": "latin-papal-church-avignon-to-lateran-v",
+   "to": "the-tridentine-church",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "In 1546 the Council of Trent enforced a penalty on unapproved religious books 'imposed in a canon of the last Council of Lateran'. In 1551 it renewed and enlarged a law that Pope Clement V had issued at the Council of Vienne. The same church carried its own laws across 1517.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Council of Trent, Session IV (8 April 1546), Decree on the edition and use of the sacred books, trans. J. Waterworth (1848)",
+     "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt",
+     "lines": "12521-12522",
+     "locus": "Sess. IV",
+     "quote": "under pain of the anathema and fine imposed in a canon of the last Council of Lateran",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Council of Trent, Session XIV (25 November 1551), Decree on reformation, ch. 6, trans. Waterworth",
+     "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt",
+     "lines": "16908-16910",
+     "locus": "Sess. XIV, de ref. c. 6",
+     "quote": "pursuant to the constitution of Clement V., published in the Council of Vienne, and beginning Quoniam,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "latin-papal-church-avignon-to-lateran-v legacy ('the same church, reorganized by the Council of Trent a generation later'); the movement's continuesAs points to the-tridentine-church",
+   "wants": [],
+   "drafter_flags": [
+    "'Continued as' is an interpretation; the evidence is legal continuity (Trent enforcing Lateran V and renewing Vienne). Graded Documented on the era-5 precedent latin-papal-church-gregorian--latin-papal-church-avignon-to-lateran-v. A reviewer may prefer Widely Accepted.",
+    "The era-7 session may draft the same pair from the Tridentine side; merge so only one stands."
+   ],
+   "change_reason": "New: the census continuation had no link."
+  },
+  {
+   "id": "latin-papal-church-avignon-to-lateran-v--catholic-church-ancien-regime",
+   "action": "new",
+   "from": "latin-papal-church-avignon-to-lateran-v",
+   "to": "catholic-church-ancien-regime",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "The French clergy appealed to the Council of Constance in their Articles, which Rome turned down in 1682. They held that its decrees on the power of general councils, made in its fourth and fifth sessions, still stand firm. A papal decree condemned the Articles in 1690.",
+   "outcome_considered": "The Articles take up Constance's decrees, which is a teaching taken up and does not count. The 1690 condemnation is Rome's act against the Articles, not a result of the influence.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Articles of the French clergy (Gallican Articles), art. 2, Denzinger, Enchiridion symbolorum, ed. Bannwart (1911), no. 1323",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "23508-23509",
+     "locus": "Dz 1323",
+     "quote": "simul valeant atque immota consistant sanctae oecumenicae Synodi CONSTANTIENSIS a Sede Apostolica comprobata",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Same article",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "23513",
+     "locus": "Dz 1323",
+     "quote": "quae sessione quarta et quinta continentur",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Denzinger, heading to nos. 1322-1326",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "23464-23466",
+     "locus": "Dz 1322-1326, heading",
+     "quote": "Articuli (erronei) cleri Gallicani (de potestate Pontificis) '^ [Damnati in Constit. «Inter muhiplices», 4. Aug, 1690.]",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "latin-papal-church-avignon-to-lateran-v legacy ('The conciliar claim ... resurfacing in Gallicanism')",
+   "wants": [],
+   "drafter_flags": [
+    "Gallicanism has no movement of its own; catholic-church-ancien-regime carries 'the Gallican Articles' in its text, so it is the party.",
+    "The 1682 date comes from Denzinger's footnote ('Reiecti ab Innocentio XI ... 11. Apr. 1682', line 23484), read but not quoted; the third quote keeps OCR 'muhiplices' and the stray '^'."
+   ],
+   "change_reason": "New."
+  }
+ ],
+ "dispositions": [
+  {
+   "movement": "latin-papal-church-avignon-to-lateran-v",
+   "field": "relationsSummary",
+   "sentence": "Seven popes at Avignon (1309-1377); the Great Western Schism (1378-1417) healed at Constance (Martin V, 1417);",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Dates and events inside the papacy's own story. Martin V's election at Constance is the movement's own history."
+  },
+  {
+   "movement": "latin-papal-church-avignon-to-lateran-v",
+   "field": "relationsSummary",
+   "sentence": "Basel and the conciliar contest (Haec sancta, Frequens [S on decree specifics]); the Renaissance papacy;",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "The conciliar contest is internal to this movement (Constance and Basel are its councils). '[S on decree specifics]' is a build note: removed in the rewrite."
+  },
+  {
+   "movement": "latin-papal-church-avignon-to-lateran-v",
+   "field": "relationsSummary",
+   "sentence": "Fifth Lateran closes 16 March 1517.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "A date."
+  },
+  {
+   "movement": "latin-papal-church-avignon-to-lateran-v",
+   "field": "relationsSummary",
+   "sentence": "Carries inside its story: conciliarism, the Templar trial, Catherine of Siena and Bridget of Sweden (the Avignon-era prophetic women), the Pragmatic Sanction, and the converso context (1391 pogroms, 1478 Inquisition, 1492 expulsion - carried as context with process honesty, never endorsement)",
+   "other_id": "military-religious-orders-templars-hospitallers",
+   "disposition": "existing",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--military-religious-orders-templars-hospitallers",
+   "prose_change": 0,
+   "reason": "The Templar trial is carried by the existing Documented link (Vox in excelso, 1312, Mirbt 13649-13651); checked and correct."
+  },
+  {
+   "movement": "latin-papal-church-avignon-to-lateran-v",
+   "field": "relationsSummary",
+   "sentence": "Carries inside its story: conciliarism, the Templar trial, Catherine of Siena and Bridget of Sweden (the Avignon-era prophetic women), the Pragmatic Sanction, and the converso context (1391 pogroms, 1478 Inquisition, 1492 expulsion - carried as context with process honesty, never endorsement)",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Catherine of Siena and Bridget of Sweden are persons with no movement of their own. Checked: Catherine's letters to Gregory XI urge 'your return to Rome' (catherine-of-siena_selected-letters_scudder1905.txt line 5211); Bridget's revelations are vendored (birgitta_revelations-enm_cumming1929.txt). Kept, with 'who pressed the popes to return to Rome' from the voices list."
+  },
+  {
+   "movement": "latin-papal-church-avignon-to-lateran-v",
+   "field": "relationsSummary",
+   "sentence": "Carries inside its story: conciliarism, the Templar trial, Catherine of Siena and Bridget of Sweden (the Avignon-era prophetic women), the Pragmatic Sanction, and the converso context (1391 pogroms, 1478 Inquisition, 1492 expulsion - carried as context with process honesty, never endorsement)",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "The Pragmatic Sanction has no movement. Checked: Fifth Lateran's Pastor aeternus (19 December 1516) strikes it down as the work of the Basel 'conciliabulum' (Denzinger 740, lines 17496-17504)."
+  },
+  {
+   "movement": "latin-papal-church-avignon-to-lateran-v",
+   "field": "relationsSummary",
+   "sentence": "Carries inside its story: conciliarism, the Templar trial, Catherine of Siena and Bridget of Sweden (the Avignon-era prophetic women), the Pragmatic Sanction, and the converso context (1391 pogroms, 1478 Inquisition, 1492 expulsion - carried as context with process honesty, never endorsement)",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Conciliarism is this movement's own internal contest; no other movement. Gallicanism, its later heir, is a separate link (legacy)."
+  },
+  {
+   "movement": "latin-papal-church-avignon-to-lateran-v",
+   "field": "relationsSummary",
+   "sentence": "Carries inside its story: conciliarism, the Templar trial, Catherine of Siena and Bridget of Sweden (the Avignon-era prophetic women), the Pragmatic Sanction, and the converso context (1391 pogroms, 1478 Inquisition, 1492 expulsion - carried as context with process honesty, never endorsement)",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "The converso crisis (1391, 1478, 1492) names no census movement and is context, not lineage. 'Carried as context with process honesty, never endorsement' is a build note: removed. The three dates are standard facts with no vendored source; left under the open Open-Gaps item 'Well-known facts with no vendored source'."
+  },
+  {
+   "movement": "latin-papal-church-avignon-to-lateran-v",
+   "field": "longDescription",
+   "sentence": "In 1309 Clement V settled the papal court at Avignon, and for nearly seventy years the popes governed the Latin church from the Rhône rather than the Tiber, building the largest Gothic palace in Europe and an administration to match.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The movement's own history."
+  },
+  {
+   "movement": "latin-papal-church-avignon-to-lateran-v",
+   "field": "longDescription",
+   "sentence": "The return to Rome in 1377 produced something worse.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The movement's own history."
+  },
+  {
+   "movement": "latin-papal-church-avignon-to-lateran-v",
+   "field": "longDescription",
+   "sentence": "A disputed election the following year left two popes, an attempt to fix it in 1409 left three, and the schism divided every kingdom, university and religious order in the West for a generation.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The schism divided the papacy itself. 'Every ... religious order' names no single movement; not a lineage claim."
+  },
+  {
+   "movement": "latin-papal-church-avignon-to-lateran-v",
+   "field": "longDescription",
+   "sentence": "It was ended not by a pope but by a council.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Constance is this movement's own council."
+  },
+  {
+   "movement": "latin-papal-church-avignon-to-lateran-v",
+   "field": "longDescription",
+   "sentence": "Constance, which removed the rival claimants, elected Martin V in 1417, and declared that a general council holds its authority immediately from Christ.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Constance's decree is the movement's own act. The Hussite and Lollard condemnations at Constance are not named here; they stand as existing links on B's side (latin-papal-church-avignon-to-lateran-v--lollardy, --the-hussite-and-bohemian-brethren-movement)."
+  },
+  {
+   "movement": "latin-papal-church-avignon-to-lateran-v",
+   "field": "longDescription",
+   "sentence": "The decades after that were a contest over whether that was true, settled in the papacy's favor by the 1440s.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Internal contest. Checked: Denzinger's note (lines 16208-16215) has Eugenius IV rejecting Constance's claim in 1439."
+  },
+  {
+   "movement": "latin-papal-church-avignon-to-lateran-v",
+   "field": "longDescription",
+   "sentence": "The popes who followed rebuilt Rome, founded the Vatican Library, commissioned the Sistine Chapel and began the new St Peter's.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Buildings and patronage; no other movement."
+  },
+  {
+   "movement": "latin-papal-church-avignon-to-lateran-v",
+   "field": "longDescription",
+   "sentence": "The Fifth Lateran Council, which decreed a program of reform that changed very little, closed on 16 March 1517 — seven months before Luther's theses.",
+   "other_id": "lutheran-wittenberg-and-its-congregations",
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'Seven months before Luther's theses' is a date set beside a date, not a claim that one movement acted on the other. A papal act against Luther (Exsurge Domine, 1520) belongs to the Tridentine era."
+  },
+  {
+   "movement": "latin-papal-church-avignon-to-lateran-v",
+   "field": "why",
+   "sentence": "In 1309 the popes moved their court to Avignon for nearly seventy years, and when they finally returned to Rome a disputed election left the Latin church with two rival popes, then three.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The movement's own history."
+  },
+  {
+   "movement": "latin-papal-church-avignon-to-lateran-v",
+   "field": "why",
+   "sentence": "The schism was ended not by a pope but by the Council of Constance, which deposed the rivals, elected Martin V in 1417, and declared that a general council holds its authority directly from Christ, a claim the papacy spent the next generation working to defeat.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Constance is the movement's own council; the papacy's fight against its claim is internal."
+  },
+  {
+   "movement": "latin-papal-church-avignon-to-lateran-v",
+   "field": "why",
+   "sentence": "The Renaissance popes who followed rebuilt Rome around the Vatican Library, the Sistine Chapel, and the new St Peter's, and the Fifth Lateran Council closed its own reform program, having changed very little, just seven months before Luther posted his theses.",
+   "other_id": "lutheran-wittenberg-and-its-congregations",
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the long description: a date beside Luther's theses, no link claimed."
+  },
+  {
+   "movement": "latin-papal-church-avignon-to-lateran-v",
+   "field": "legacy",
+   "sentence": "This is a continuous institution: the same church, reorganized by the Council of Trent a generation later, is the Roman Catholic Church of today.",
+   "other_id": "the-tridentine-church",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--the-tridentine-church",
+   "prose_change": 9,
+   "reason": "New Documented 'continued as' (the census continuation had no link): Trent enforces a Fifth Lateran canon (Sess. IV, 1546) and renews Clement V's Vienne constitution (Sess. XIV, 1551). The era-7 session may draft the same pair; merge."
+  },
+  {
+   "movement": "latin-papal-church-avignon-to-lateran-v",
+   "field": "legacy",
+   "sentence": "Its material legacy from these centuries is unmissable — the papal palace at Avignon, the Vatican Library, the Sistine Chapel, the basilica of St Peter's begun in 1506.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 9,
+   "reason": "Buildings; no relationship."
+  },
+  {
+   "movement": "latin-papal-church-avignon-to-lateran-v",
+   "field": "legacy",
+   "sentence": "Its constitutional legacy is quieter and longer-running.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 9,
+   "reason": "Framing sentence."
+  },
+  {
+   "movement": "latin-papal-church-avignon-to-lateran-v",
+   "field": "legacy",
+   "sentence": "The conciliar claim that a general council can judge a pope was defeated but never quite died, resurfacing in Gallicanism, in later Catholic reform movements, and in the arguments around the First Vatican Council four and a half centuries afterward.",
+   "other_id": "catholic-church-ancien-regime",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--catholic-church-ancien-regime",
+   "prose_change": 9,
+   "reason": "Gallicanism: new Documented 'influenced' link; the Gallican Articles (Denzinger 1323) appeal to Constance's fourth and fifth sessions. catholic-church-ancien-regime carries the Articles in its text."
+  },
+  {
+   "movement": "latin-papal-church-avignon-to-lateran-v",
+   "field": "legacy",
+   "sentence": "The conciliar claim that a general council can judge a pope was defeated but never quite died, resurfacing in Gallicanism, in later Catholic reform movements, and in the arguments around the First Vatican Council four and a half centuries afterward.",
+   "other_id": null,
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 9,
+   "reason": "'In later Catholic reform movements' names no movement and has no vendored or repo-cited source; clause removed."
+  },
+  {
+   "movement": "latin-papal-church-avignon-to-lateran-v",
+   "field": "legacy",
+   "sentence": "The conciliar claim that a general council can judge a pope was defeated but never quite died, resurfacing in Gallicanism, in later Catholic reform movements, and in the arguments around the First Vatican Council four and a half centuries afterward.",
+   "other_id": "catholic-church-long-nineteenth-century",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 9,
+   "reason": "Vatican I has no movement of its own; the era-9 Catholic church carries it, and it is the same church, not a separate party to influence. Checked: Pastor aeternus (1870) rejects any appeal from the pope to a council 'as to an authority higher' (Denzinger 1830, lines 29864-29867). The sentence now says that; no link drawn, since the decree does not name Constance."
+  },
+  {
+   "movement": "latin-papal-church-avignon-to-lateran-v",
+   "field": "legacy",
+   "sentence": "And the reforms that the fifteenth century's councils repeatedly voted and failed to enforce were still outstanding when Luther wrote.",
+   "other_id": "lutheran-wittenberg-and-its-congregations",
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 9,
+   "reason": "Unfinished reform 'when Luther wrote' is context, not a lineage claim."
+  },
+  {
+   "movement": "franciscan-order-era-6",
+   "field": "relationsSummary",
+   "sentence": "The order in the period between the earlier Franciscan movement (ending 1300) and the 1517 division: the Spirituals crisis (Marseille burnings 1318), Conventual/Observant polarization, Leo X's Ite vos (29 May 1517) splitting the family in two; the Fraticelli and the Observant wing are its two named branches.",
+   "other_id": "the-franciscan-movement",
+   "disposition": "existing",
+   "link_id": "the-franciscan-movement--franciscan-order-era-6",
+   "prose_change": null,
+   "reason": "Carried by the existing Documented 'continued as' link; checked and correct."
+  },
+  {
+   "movement": "franciscan-order-era-6",
+   "field": "relationsSummary",
+   "sentence": "The order in the period between the earlier Franciscan movement (ending 1300) and the 1517 division: the Spirituals crisis (Marseille burnings 1318), Conventual/Observant polarization, Leo X's Ite vos (29 May 1517) splitting the family in two; the Fraticelli and the Observant wing are its two named branches.",
+   "other_id": "fraticelli-spiritual-franciscan-rigorists",
+   "disposition": "link",
+   "link_id": "franciscan-order-era-6--fraticelli-spiritual-franciscan-rigorists",
+   "prose_change": null,
+   "reason": "'The Spirituals crisis (Marseille burnings 1318)': new Documented 'broke with' (both sides recorded: the order's dossier, Clareno's history)."
+  },
+  {
+   "movement": "franciscan-order-era-6",
+   "field": "relationsSummary",
+   "sentence": "The order in the period between the earlier Franciscan movement (ending 1300) and the 1517 division: the Spirituals crisis (Marseille burnings 1318), Conventual/Observant polarization, Leo X's Ite vos (29 May 1517) splitting the family in two; the Fraticelli and the Observant wing are its two named branches.",
+   "other_id": "observant-reform-and-popular-preaching",
+   "disposition": "link",
+   "link_id": "franciscan-order-era-6--observant-reform-and-popular-preaching",
+   "prose_change": null,
+   "reason": "'Conventual/Observant polarization': new Documented 'gave rise to' (the held item from era 5)."
+  },
+  {
+   "movement": "franciscan-order-era-6",
+   "field": "relationsSummary",
+   "sentence": "The order in the period between the earlier Franciscan movement (ending 1300) and the 1517 division: the Spirituals crisis (Marseille burnings 1318), Conventual/Observant polarization, Leo X's Ite vos (29 May 1517) splitting the family in two; the Fraticelli and the Observant wing are its two named branches.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Conventuals have no movement of their own; they are the order's main body in this entry."
+  },
+  {
+   "movement": "franciscan-order-era-6",
+   "field": "relationsSummary",
+   "sentence": "The order in the period between the earlier Franciscan movement (ending 1300) and the 1517 division: the Spirituals crisis (Marseille burnings 1318), Conventual/Observant polarization, Leo X's Ite vos (29 May 1517) splitting the family in two; the Fraticelli and the Observant wing are its two named branches.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Leo X's division of the order in 1517 is a papal act on the order's own government. It fits none of the six link types (no new body emerges from the papacy, nothing is argued). The fact is checked: the Quaracchi preface to Glassberger (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt lines 536-541) and Lea (lines 8278-8281). Ite vos itself is wanted. Raised as an escalation."
+  },
+  {
+   "movement": "franciscan-order-era-6",
+   "field": "relationsSummary",
+   "sentence": "The order in the period between the earlier Franciscan movement (ending 1300) and the 1517 division: the Spirituals crisis (Marseille burnings 1318), Conventual/Observant polarization, Leo X's Ite vos (29 May 1517) splitting the family in two; the Fraticelli and the Observant wing are its two named branches.",
+   "other_id": "fraticelli-spiritual-franciscan-rigorists",
+   "disposition": "link",
+   "link_id": "franciscan-order-era-6--fraticelli-spiritual-franciscan-rigorists",
+   "prose_change": null,
+   "reason": "'The Fraticelli ... its named branches': the branch is a rupture; carried by the broke-with link. The descent itself is the era-5 link the-franciscan-movement--fraticelli-spiritual-franciscan-rigorists."
+  },
+  {
+   "movement": "franciscan-order-era-6",
+   "field": "relationsSummary",
+   "sentence": "The order in the period between the earlier Franciscan movement (ending 1300) and the 1517 division: the Spirituals crisis (Marseille burnings 1318), Conventual/Observant polarization, Leo X's Ite vos (29 May 1517) splitting the family in two; the Fraticelli and the Observant wing are its two named branches.",
+   "other_id": "observant-reform-and-popular-preaching",
+   "disposition": "link",
+   "link_id": "franciscan-order-era-6--observant-reform-and-popular-preaching",
+   "prose_change": null,
+   "reason": "'The Observant wing': carried by the new gave-rise-to link."
+  },
+  {
+   "movement": "franciscan-order-era-6",
+   "field": "longDescription",
+   "sentence": "By 1300 the Franciscans were an enormous international order with universities, libraries and buildings, and a founder who had told them to own nothing.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "The order's own condition."
+  },
+  {
+   "movement": "franciscan-order-era-6",
+   "field": "longDescription",
+   "sentence": "The strain broke in the 1310s and 20s.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "Framing."
+  },
+  {
+   "movement": "franciscan-order-era-6",
+   "field": "longDescription",
+   "sentence": "The Spirituals, who wanted the Rule kept to the letter, were ordered to conform; four were burned at Marseille in 1318 for refusing.",
+   "other_id": "fraticelli-spiritual-franciscan-rigorists",
+   "disposition": "link",
+   "link_id": "franciscan-order-era-6--fraticelli-spiritual-franciscan-rigorists--2",
+   "prose_change": 3,
+   "reason": "'Ordered to conform': the order's own petition against the fraticelli (new Documented argued-against, with outcome), and the rupture (broke-with)."
+  },
+  {
+   "movement": "franciscan-order-era-6",
+   "field": "longDescription",
+   "sentence": "The Spirituals, who wanted the Rule kept to the letter, were ordered to conform; four were burned at Marseille in 1318 for refusing.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--fraticelli-spiritual-franciscan-rigorists",
+   "prose_change": 3,
+   "reason": "The papal side of 'ordered to conform; four were burned': new Documented papacy argued against the fraticelli (Sancta Romana). The burning by papal command is in the order's dossier (ehrle-denifle bd3 lines 1782-1790)."
+  },
+  {
+   "movement": "franciscan-order-era-6",
+   "field": "longDescription",
+   "sentence": "And in 1323 John XXII declared it heretical to teach that Christ and the apostles had owned nothing at all, which put the order's own official self-understanding on the wrong side of the law.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--franciscan-order-era-6",
+   "prose_change": 3,
+   "reason": "New Documented papacy argued against the order (Ad conditorem canonum, 1322; Michael deposed, 1328). 'To teach' corrected to 'to insist' (Cum inter nonnullos, 'pertinaciter affirmare')."
+  },
+  {
+   "movement": "franciscan-order-era-6",
+   "field": "longDescription",
+   "sentence": "The minister general Michael of Cesena fled the papal court with William of Ockham rather than accept it.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "franciscan-order-era-6--latin-papal-church-avignon-to-lateran-v",
+   "prose_change": 3,
+   "reason": "New Documented order argued against the papacy (Bonagratia's appeal in the order's name, 1323; Ockham's tract, 1335). The flight is shown by Eubel's calendar no. 711."
+  },
+  {
+   "movement": "franciscan-order-era-6",
+   "field": "longDescription",
+   "sentence": "The argument did not end so much as change shape, into a long polarization between Conventuals, who accepted the order's endowments and urban convents, and Observants, who from 1368 built up reformed houses keeping the Rule strictly.",
+   "other_id": "observant-reform-and-popular-preaching",
+   "disposition": "link",
+   "link_id": "franciscan-order-era-6--observant-reform-and-popular-preaching",
+   "prose_change": 3,
+   "reason": "Carried by the gave-rise-to link. Conventuals: no movement of their own."
+  },
+  {
+   "movement": "franciscan-order-era-6",
+   "field": "longDescription",
+   "sentence": "Leo X ended the pretense of a single order on 29 May 1517, dividing the family formally in two.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "Leo X's division of the order in 1517 is a papal act on the order's own government. It fits none of the six link types (no new body emerges from the papacy, nothing is argued). The fact is checked: the Quaracchi preface to Glassberger (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt lines 536-541) and Lea (lines 8278-8281). Ite vos itself is wanted. Raised as an escalation."
+  },
+  {
+   "movement": "franciscan-order-era-6",
+   "field": "why",
+   "sentence": "By 1300 the Franciscans were an enormous international order with universities and libraries, built by a founder who had told them to own nothing, a strain that broke in the 1310s and 20s when Pope John XXII ordered the strictest friars to conform and had four burned at Marseille in 1318 for refusing.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--fraticelli-spiritual-franciscan-rigorists",
+   "prose_change": 4,
+   "reason": "Ordered to conform, four burned: carried by the papacy argued against the fraticelli."
+  },
+  {
+   "movement": "franciscan-order-era-6",
+   "field": "why",
+   "sentence": "The order's minister general, Michael of Cesena, fled the papal court with the philosopher William of Ockham rather than accept John XXII's ruling that owning nothing at all was itself heretical.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "franciscan-order-era-6--latin-papal-church-avignon-to-lateran-v",
+   "prose_change": 4,
+   "reason": "Michael's flight: order argued against the papacy. The old clause misstated the ruling ('owning nothing at all was itself heretical'); corrected."
+  },
+  {
+   "movement": "franciscan-order-era-6",
+   "field": "why",
+   "sentence": "The argument reshaped into a long split between Conventuals, who kept the order's endowments, and Observants, who rebuilt strict Rule-keeping from 1368, until Pope Leo X divided the family formally in two in 1517.",
+   "other_id": "observant-reform-and-popular-preaching",
+   "disposition": "link",
+   "link_id": "franciscan-order-era-6--observant-reform-and-popular-preaching",
+   "prose_change": 4,
+   "reason": "Observants: gave-rise-to link."
+  },
+  {
+   "movement": "franciscan-order-era-6",
+   "field": "why",
+   "sentence": "The argument reshaped into a long split between Conventuals, who kept the order's endowments, and Observants, who rebuilt strict Rule-keeping from 1368, until Pope Leo X divided the family formally in two in 1517.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "Leo X's division of the order in 1517 is a papal act on the order's own government. It fits none of the six link types (no new body emerges from the papacy, nothing is argued). The fact is checked: the Quaracchi preface to Glassberger (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt lines 536-541) and Lea (lines 8278-8281). Ite vos itself is wanted. Raised as an escalation."
+  },
+  {
+   "movement": "franciscan-order-era-6",
+   "field": "legacy",
+   "sentence": "The order is still here, and still divided along the line drawn in 1517.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "The order's own state today."
+  },
+  {
+   "movement": "franciscan-order-era-6",
+   "field": "legacy",
+   "sentence": "The Order of Friars Minor and the Conventual Franciscans both date their separate legal existence from that bull, and the Capuchins broke away from the Observants a decade later, making three.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "No movement for the modern Friars Minor, Conventuals or Capuchins (no-entry). 'The Capuchins broke away from the Observants' has no vendored source for the breakaway; Trent (Waterworth lines 22140-22146) shows them beside the Observants by 1563. Qualified. 'From that bull' becomes 'from that year' (Ite vos not vendored; Quaracchi preface lines 536-541)."
+  },
+  {
+   "movement": "franciscan-order-era-6",
+   "field": "legacy",
+   "sentence": "Beyond the family, the poverty controversy left a real intellectual inheritance.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "Framing."
+  },
+  {
+   "movement": "franciscan-order-era-6",
+   "field": "legacy",
+   "sentence": "The arguments about use, ownership and right worked out in it, above all by Ockham, fed into later Western thinking about property and about the limits of authority.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "'Fed into later Western thinking about property' names no movement and has no vendored or repo-cited source. Qualified to what Ockham's vendored writings show (Scholz 1914)."
+  },
+  {
+   "movement": "franciscan-order-era-6",
+   "field": "legacy",
+   "sentence": "And the Observant reform that grew out of the crisis became one of the main engines of Catholic renewal in the century that followed.",
+   "other_id": "the-tridentine-church",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "'One of the main engines of Catholic renewal' (the Tridentine church) has no vendored or repo-cited source; no link. Replaced by what Lea shows: the Observants given the order's head under Leo X (lines 8278-8281)."
+  },
+  {
+   "movement": "observant-reform-and-popular-preaching",
+   "field": "relationsSummary",
+   "sentence": "A merge/split test vs. the mendicant traditions, in the Phase One record's own style; the Spanish observance’s context includes the converso crisis (1391-1492) - carried as context with process honesty, never endorsement",
+   "other_id": null,
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "'A merge/split test vs. the mendicant traditions, in the Phase One record's own style' is a build note, not a claim; removed."
+  },
+  {
+   "movement": "observant-reform-and-popular-preaching",
+   "field": "relationsSummary",
+   "sentence": "A merge/split test vs. the mendicant traditions, in the Phase One record's own style; the Spanish observance’s context includes the converso crisis (1391-1492) - carried as context with process honesty, never endorsement",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "The converso crisis names no movement; kept as context in plain words. 'Carried as context with process honesty, never endorsement' is a build note: removed."
+  },
+  {
+   "movement": "observant-reform-and-popular-preaching",
+   "field": "longDescription",
+   "sentence": "The Observance began as an argument inside the religious orders: that the Rule should be kept as it was written, not as generations of dispensation had relaxed it.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Defines the movement."
+  },
+  {
+   "movement": "observant-reform-and-popular-preaching",
+   "field": "longDescription",
+   "sentence": "It started small, with Paoluccio Trinci's handful of friars at Brugliano in 1368, and spread across the Franciscans, Dominicans, Augustinians and Benedictines alike, until reformed houses formed rival provinces alongside the unreformed ones.",
+   "other_id": "franciscan-order-era-6",
+   "disposition": "link",
+   "link_id": "franciscan-order-era-6--observant-reform-and-popular-preaching",
+   "prose_change": null,
+   "reason": "'Spread across the Franciscans': carried by the new gave-rise-to link (Bullarium Franciscanum NS I no. 385; Lea for Brugliano 1368)."
+  },
+  {
+   "movement": "observant-reform-and-popular-preaching",
+   "field": "longDescription",
+   "sentence": "It started small, with Paoluccio Trinci's handful of friars at Brugliano in 1368, and spread across the Franciscans, Dominicans, Augustinians and Benedictines alike, until reformed houses formed rival provinces alongside the unreformed ones.",
+   "other_id": "the-dominican-order",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Dominican movement ends in 1300; the Dominican Observance is later and has no movement of its own. Checked: Lea (lines 9979-9980) names San Marco 'the convent of the Observantine Dominicans' under Savonarola. No link: no era-6 Dominican movement exists to join."
+  },
+  {
+   "movement": "observant-reform-and-popular-preaching",
+   "field": "longDescription",
+   "sentence": "It started small, with Paoluccio Trinci's handful of friars at Brugliano in 1368, and spread across the Franciscans, Dominicans, Augustinians and Benedictines alike, until reformed houses formed rival provinces alongside the unreformed ones.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Augustinians and Benedictines have no movement. Checked: Busch's Liber de reformatione (busch_chronicon-windeshemense-lat_grube1886.txt lines 28409-28423) has the Benedictine abbot of Bursfelde visiting Windesheim to see 'veram regularis observancie formam'. That shows Benedictines and Augustinian canons; no vendored source names the Augustinian friars' observance."
+  },
+  {
+   "movement": "observant-reform-and-popular-preaching",
+   "field": "longDescription",
+   "sentence": "Its public face was preaching.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The movement's own practice."
+  },
+  {
+   "movement": "observant-reform-and-popular-preaching",
+   "field": "longDescription",
+   "sentence": "Bernardino of Siena drew whole towns into the piazza for sermon cycles that ran for weeks.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The movement's own practice."
+  },
+  {
+   "movement": "observant-reform-and-popular-preaching",
+   "field": "longDescription",
+   "sentence": "The forty-five sermons he preached at Siena in 1427 were taken down as he spoke by a listener in the crowd, asides and audience reactions included, which is about as close as anyone gets to hearing a medieval sermon rather than reading one.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Bernardino's 1427 sermons are vendored (Banchi, three volumes); not a relationship."
+  },
+  {
+   "movement": "observant-reform-and-popular-preaching",
+   "field": "longDescription",
+   "sentence": "John of Capistrano did the same across central Europe.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The movement's own practice."
+  },
+  {
+   "movement": "observant-reform-and-popular-preaching",
+   "field": "longDescription",
+   "sentence": "The movement's darker side belongs in the same account: Capistrano's preaching also drove the persecution of Jewish communities, most notoriously at Breslau in 1453.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Jewish communities have no movement. No vendored or repo-cited source holds the Breslau trial of 1453 (the Franciscan dossiers list Capistrano's letters and the Breslau records as not found). Not qualified here: weakening a documented persecution on a missing file would mislead; raised as an escalation and listed in wants."
+  },
+  {
+   "movement": "observant-reform-and-popular-preaching",
+   "field": "why",
+   "sentence": "The Observance began small, with Paoluccio Trinci's handful of friars keeping the Rule strictly at Brugliano in 1368, before spreading across the Franciscans, Dominicans, Augustinians, and Benedictines alike.",
+   "other_id": "franciscan-order-era-6",
+   "disposition": "link",
+   "link_id": "franciscan-order-era-6--observant-reform-and-popular-preaching",
+   "prose_change": null,
+   "reason": "As in the long description."
+  },
+  {
+   "movement": "observant-reform-and-popular-preaching",
+   "field": "why",
+   "sentence": "The Observance began small, with Paoluccio Trinci's handful of friars keeping the Rule strictly at Brugliano in 1368, before spreading across the Franciscans, Dominicans, Augustinians, and Benedictines alike.",
+   "other_id": "the-dominican-order",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As in the long description."
+  },
+  {
+   "movement": "observant-reform-and-popular-preaching",
+   "field": "why",
+   "sentence": "The Observance began small, with Paoluccio Trinci's handful of friars keeping the Rule strictly at Brugliano in 1368, before spreading across the Franciscans, Dominicans, Augustinians, and Benedictines alike.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Augustinians, Benedictines: as in the long description."
+  },
+  {
+   "movement": "observant-reform-and-popular-preaching",
+   "field": "why",
+   "sentence": "Its public face was mass preaching: the forty-five sermons Bernardino of Siena gave in 1427 were taken down live by a listener in the crowd, asides and all, about as close as anyone gets to hearing rather than reading a medieval sermon.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The movement's own practice."
+  },
+  {
+   "movement": "observant-reform-and-popular-preaching",
+   "field": "why",
+   "sentence": "Its legacy is mixed: it left behind the low-interest pawn-banks called monti di pietà, still trading today, but John of Capistrano's preaching also drove the persecution of Jewish communities, most notoriously at Breslau in 1453.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Monti di pietà: not a relationship. Breslau: as in the long description (escalated)."
+  },
+  {
+   "movement": "observant-reform-and-popular-preaching",
+   "field": "legacy",
+   "sentence": "The Observance won.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Framing."
+  },
+  {
+   "movement": "observant-reform-and-popular-preaching",
+   "field": "legacy",
+   "sentence": "When Leo X divided the Franciscans in 1517 the Observants took the larger share and the order's leadership, and the reforming impulse ran on into the Capuchins a decade later.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Leo X's division of the order in 1517 is a papal act on the order's own government. It fits none of the six link types (no new body emerges from the papacy, nothing is argued). The fact is checked: the Quaracchi preface to Glassberger (glassberger_chronica-analecta-franciscana-v2-lat_1887.txt lines 536-541) and Lea (lines 8278-8281). Ite vos itself is wanted. Raised as an escalation. 'Took the larger share' has no source; the sentence now says 'the order's leadership' (Lea)."
+  },
+  {
+   "movement": "observant-reform-and-popular-preaching",
+   "field": "legacy",
+   "sentence": "When Leo X divided the Franciscans in 1517 the Observants took the larger share and the order's leadership, and the reforming impulse ran on into the Capuchins a decade later.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Capuchins: no movement. 'The reforming impulse ran on into the Capuchins' has no vendored source; qualified to what Trent's decree shows (Waterworth lines 22140-22146)."
+  },
+  {
+   "movement": "observant-reform-and-popular-preaching",
+   "field": "legacy",
+   "sentence": "The same reformed-against-unreformed pattern shaped the Dominicans and Augustinians too, and Observant houses became a seedbed of the Catholic reform of the following century.",
+   "other_id": "the-dominican-order",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "As in the long description (Lea, Observantine Dominicans). Augustinians: no movement."
+  },
+  {
+   "movement": "observant-reform-and-popular-preaching",
+   "field": "legacy",
+   "sentence": "The same reformed-against-unreformed pattern shaped the Dominicans and Augustinians too, and Observant houses became a seedbed of the Catholic reform of the following century.",
+   "other_id": "the-tridentine-church",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "'Observant houses became a seedbed of the Catholic reform' has no vendored or repo-cited source; clause removed."
+  },
+  {
+   "movement": "observant-reform-and-popular-preaching",
+   "field": "legacy",
+   "sentence": "Two smaller things passed into ordinary use and outlived the movement: the monti di pietà, low-interest municipal pawn-banks promoted by Observant friars from the 1460s as an alternative to ruinous lending — the one established at Siena in 1472 still trades as a bank today.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Monti di pietà: an institution, not a movement. The Siena bank of 1472 is a standard fact with no vendored source (Open-Gaps 'Well-known facts with no vendored source'). Fifth Lateran's decree on the montes pietatis is in Denzinger (heading line 17490), not used here."
+  },
+  {
+   "movement": "observant-reform-and-popular-preaching",
+   "field": "legacy",
+   "sentence": "And the radiant IHS monogram Bernardino held up at the end of his sermons, which became a fixture of Catholic devotional art.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Devotional art."
+  },
+  {
+   "movement": "fraticelli-spiritual-franciscan-rigorists",
+   "field": "relationsSummary",
+   "sentence": "Rupture inside the Franciscan family",
+   "other_id": "franciscan-order-era-6",
+   "disposition": "link",
+   "link_id": "franciscan-order-era-6--fraticelli-spiritual-franciscan-rigorists",
+   "prose_change": null,
+   "reason": "New Documented 'broke with'. The order's own argued-against (petition to abolish the fraticelli) is a second link on the pair. The descent is the era-5 link the-franciscan-movement--fraticelli-spiritual-franciscan-rigorists."
+  },
+  {
+   "movement": "fraticelli-spiritual-franciscan-rigorists",
+   "field": "longDescription",
+   "sentence": "The Franciscans had argued for a century about how literally to take Francis's poverty, and in the 1310s and 20s the argument was closed by force.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "Framing."
+  },
+  {
+   "movement": "fraticelli-spiritual-franciscan-rigorists",
+   "field": "longDescription",
+   "sentence": "John XXII ordered the strictest friars to conform, had four of them burned at Marseille in 1318 for refusing, and in 1323 declared it heretical to hold that Christ and the apostles had owned nothing at all.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--fraticelli-spiritual-franciscan-rigorists",
+   "prose_change": 6,
+   "reason": "Ordered to conform, four burned, 1323 ruling: carried by the papacy argued against the fraticelli. The burning by papal command: ehrle-denifle bd3 lines 1782-1790; Gui's manual lines 9018-9020. 'To hold' becomes 'to insist'."
+  },
+  {
+   "movement": "fraticelli-spiritual-franciscan-rigorists",
+   "field": "longDescription",
+   "sentence": "Turning a devotional ideal into a condemned proposition.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "A fragment; made a whole sentence."
+  },
+  {
+   "movement": "fraticelli-spiritual-franciscan-rigorists",
+   "field": "longDescription",
+   "sentence": "Those who would not submit became the fraticelli, 'little brothers', a name their prosecutors used as a legal category as much as a description.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--fraticelli-spiritual-franciscan-rigorists",
+   "prose_change": 6,
+   "reason": "'A name their prosecutors used': Sancta Romana's 'vulgariter fraticelli' and Eugenius IV's 1432 letter are the prosecutors' usage."
+  },
+  {
+   "movement": "fraticelli-spiritual-franciscan-rigorists",
+   "field": "longDescription",
+   "sentence": "They survived for another century and a half in the Marches of Ancona, in Provence and in scattered Italian and Greek communities, supported by lay sympathizers.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "Lay sympathizers name no movement. Checked: Sancta Romana names Italy, Sicily, Provence, Narbonne and Toulouse; Eugenius IV's 1432 letter has them 'in plerisque mundi partibus'."
+  },
+  {
+   "movement": "fraticelli-spiritual-franciscan-rigorists",
+   "field": "longDescription",
+   "sentence": "Among them the beguins of Languedoc, who venerated the burned friars as martyrs and were hunted for it.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "The beguins of Languedoc are not the-beguines (a different group) and have no movement. Checked: Gui's manual (lines 9018-9030) has them calling the four burned friars 'martires gloriosos'. Fragment made whole."
+  },
+  {
+   "movement": "fraticelli-spiritual-franciscan-rigorists",
+   "field": "longDescription",
+   "sentence": "A major trial at Rome in the 1460s effectively ended them.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "'A major trial at Rome in the 1460s effectively ended them' goes past the evidence: Lea (lines 8493-8497, 8505-8508) has a public penance at Rome in 1467 under Paul II and a last trace in 1471. Rewritten to that; the papal acts against the fraticelli are carried by the argued-against link."
+  },
+  {
+   "movement": "fraticelli-spiritual-franciscan-rigorists",
+   "field": "why",
+   "sentence": "When Pope John XXII ordered the strictest Franciscans to give up their insistence on absolute poverty, four who refused were burned at Marseille in 1318, and in 1323 he declared it heretical to believe Christ and the apostles had owned nothing at all.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "latin-papal-church-avignon-to-lateran-v--fraticelli-spiritual-franciscan-rigorists",
+   "prose_change": 7,
+   "reason": "As in the long description."
+  },
+  {
+   "movement": "fraticelli-spiritual-franciscan-rigorists",
+   "field": "why",
+   "sentence": "Those who still would not submit, called fraticelli, survived for another century and a half in scattered communities across Italy and Provence, supported by lay sympathizers such as the beguins of Languedoc, who venerated the burned friars as martyrs and were hunted for it in turn.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "Lay sympathizers and beguins: as in the long description."
+  },
+  {
+   "movement": "fraticelli-spiritual-franciscan-rigorists",
+   "field": "why",
+   "sentence": "A trial at Rome in the 1460s finally ended them.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "As in the long description: the 1467 penance, not a trial that ended them."
+  },
+  {
+   "movement": "fraticelli-spiritual-franciscan-rigorists",
+   "field": "legacy",
+   "sentence": "No community survived and no church descends from them.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 8,
+   "reason": "No descendant claimed."
+  },
+  {
+   "movement": "fraticelli-spiritual-franciscan-rigorists",
+   "field": "legacy",
+   "sentence": "What survived was the argument.",
+   "other_id": null,
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 8,
+   "reason": "Framing."
+  },
+  {
+   "movement": "fraticelli-spiritual-franciscan-rigorists",
+   "field": "legacy",
+   "sentence": "The poverty controversy forced both sides into working out theories of ownership, use and right that fed directly into later Western thinking about property, and the friars who fled the papal court over it — William of Ockham among them — turned the quarrel into political philosophy.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 8,
+   "reason": "'Fed directly into later Western thinking about property' names no movement and has no vendored or repo-cited source; removed."
+  },
+  {
+   "movement": "fraticelli-spiritual-franciscan-rigorists",
+   "field": "legacy",
+   "sentence": "The poverty controversy forced both sides into working out theories of ownership, use and right that fed directly into later Western thinking about property, and the friars who fled the papal court over it — William of Ockham among them — turned the quarrel into political philosophy.",
+   "other_id": "latin-papal-church-avignon-to-lateran-v",
+   "disposition": "link",
+   "link_id": "franciscan-order-era-6--latin-papal-church-avignon-to-lateran-v",
+   "prose_change": 8,
+   "reason": "'The friars who fled the papal court, William of Ockham among them': these are the order's head and his party, carried by franciscan-order-era-6--latin-papal-church-avignon-to-lateran-v (Ockham's Contra Iohannem XXII is one of its sources)."
+  },
+  {
+   "movement": "fraticelli-spiritual-franciscan-rigorists",
+   "field": "legacy",
+   "sentence": "It also left the beguins of Languedoc, remembered now almost entirely through the interrogations that destroyed them, and it left the poverty question itself, which kept returning inside the Franciscan family every time it reformed.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 8,
+   "reason": "Beguins of Languedoc: known through Gui's manual and the Toulouse sentences (both vendored)."
+  },
+  {
+   "movement": "fraticelli-spiritual-franciscan-rigorists",
+   "field": "legacy",
+   "sentence": "It also left the beguins of Languedoc, remembered now almost entirely through the interrogations that destroyed them, and it left the poverty question itself, which kept returning inside the Franciscan family every time it reformed.",
+   "other_id": "observant-reform-and-popular-preaching",
+   "disposition": "not-a-claim",
+   "link_id": null,
+   "prose_change": 8,
+   "reason": "'The poverty question ... kept returning inside the Franciscan family every time it reformed' is a general reckoning, not a link. Lea (lines 8526-8532) holds that the Observants ended the fraticelli by offering ascetics a safe home; the fraticelli text does not name the Observants, so no link is drawn."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "latin-papal-church-avignon-to-lateran-v",
+   "field": "relationsSummary",
+   "old": "Seven popes at Avignon (1309-1377); the Great Western Schism (1378-1417) healed at Constance (Martin V, 1417); Basel and the conciliar contest (Haec sancta, Frequens [S on decree specifics]); the Renaissance papacy; Fifth Lateran closes 16 March 1517. Carries inside its story: conciliarism, the Templar trial, Catherine of Siena and Bridget of Sweden (the Avignon-era prophetic women), the Pragmatic Sanction, and the converso context (1391 pogroms, 1478 Inquisition, 1492 expulsion - carried as context with process honesty, never endorsement)",
+   "new": "Seven popes at Avignon, 1309 to 1377. The Great Western Schism, 1378 to 1417, ended at Constance with the election of Martin V. Then came Basel and the fight over whether a council stands above the pope, as the decrees Haec sancta and Frequens had claimed. The Renaissance papacy followed, and the Fifth Lateran Council closed on 16 March 1517. The story also takes in the Templar trial, and Catherine of Siena and Bridget of Sweden, who pressed the popes to go back to Rome. It takes in the Pragmatic Sanction too, and Spain's converso crisis: the pogroms of 1391, the Inquisition of 1478 and the expulsion of 1492.",
+   "reason": "The old summary carried build notes ('[S on decree specifics]', 'carried as context with process honesty, never endorsement', 'Carries inside its story'). They are removed. Every event the old summary named is kept, in plain sentences. 'Who pressed the popes to return to Rome' comes from the voices list and is shown by Catherine's letters to Gregory XI (catherine-of-siena_selected-letters_scudder1905.txt, line 5211, 'your return to Rome'). 'Healed' becomes 'ended'; long sentences split for reading level.",
+   "fre_after": 60.5,
+   "fk_after": 9.0
+  },
+  {
+   "n": 1,
+   "movement": "observant-reform-and-popular-preaching",
+   "field": "relationsSummary",
+   "old": "A merge/split test vs. the mendicant traditions, in the Phase One record's own style; the Spanish observance’s context includes the converso crisis (1391-1492) - carried as context with process honesty, never endorsement",
+   "new": "A reform of the friars' orders that began inside the Franciscan order in 1368 and spread to other orders. In Spain it worked against the background of the converso crisis, from the pogroms of 1391 to the expulsion of 1492.",
+   "reason": "The old summary was a build note ('A merge/split test vs. the mendicant traditions, in the Phase One record's own style'; 'carried as context with process honesty, never endorsement'). Rewritten as a public summary. 'Began inside the Franciscan order' is carried by the new link franciscan-order-era-6--observant-reform-and-popular-preaching. The converso context is kept as context.",
+   "fre_after": 62.3,
+   "fk_after": 9.2
+  },
+  {
+   "n": 2,
+   "movement": "observant-reform-and-popular-preaching",
+   "field": "legacy",
+   "old": "The Observance won. When Leo X divided the Franciscans in 1517 the Observants took the larger share and the order's leadership, and the reforming impulse ran on into the Capuchins a decade later. The same reformed-against-unreformed pattern shaped the Dominicans and Augustinians too, and Observant houses became a seedbed of the Catholic reform of the following century. Two smaller things passed into ordinary use and outlived the movement: the monti di pietà, low-interest municipal pawn-banks promoted by Observant friars from the 1460s as an alternative to ruinous lending — the one established at Siena in 1472 still trades as a bank today. And the radiant IHS monogram Bernardino held up at the end of his sermons, which became a fixture of Catholic devotional art.",
+   "new": "The Observance won. When Leo X divided the Franciscans in 1517, the Observants took the order's leadership. By the 1560s the Capuchins stood beside them. The Council of Trent then let other friars own land and buildings, but not these two. The same pattern of reformed against unreformed shaped the Dominicans and Augustinians too. Two smaller things passed into ordinary use and outlived the movement. One is the monti di pietà, low-interest town pawn-banks that Observant friars promoted from the 1460s as an answer to ruinous lending. The one founded at Siena in 1472 still trades as a bank today. The other is the radiant IHS monogram that Bernardino held up at the end of his sermons. It became a fixture of Catholic devotional art.",
+   "reason": "Three changes. 'Took the larger share' is not in any vendored or repo-cited source; Lea (lea_..._v3_1888.txt lines 8278-8281) shows Leo X giving the Observants the general minister, so the sentence says 'the order's leadership'. 'The reforming impulse ran on into the Capuchins' has no vendored source for the Capuchins' origin; Trent's decree (council-of-trent_canons-and-decrees_waterworth1848.txt lines 22140-22146) shows Capuchins and Observants side by side as the two Franciscan families still barred from real property, so the sentence says only that. 'Observant houses became a seedbed of the Catholic reform' has no vendored or repo-cited source and is removed. Long sentences split for reading level.",
+   "fre_after": 62.2,
+   "fk_after": 7.7
+  },
+  {
+   "n": 3,
+   "movement": "franciscan-order-era-6",
+   "field": "longDescription",
+   "old": "By 1300 the Franciscans were an enormous international order with universities, libraries and buildings, and a founder who had told them to own nothing. The strain broke in the 1310s and 20s. The Spirituals, who wanted the Rule kept to the letter, were ordered to conform; four were burned at Marseille in 1318 for refusing. And in 1323 John XXII declared it heretical to teach that Christ and the apostles had owned nothing at all, which put the order's own official self-understanding on the wrong side of the law. The minister general Michael of Cesena fled the papal court with William of Ockham rather than accept it. The argument did not end so much as change shape, into a long polarization between Conventuals, who accepted the order's endowments and urban convents, and Observants, who from 1368 built up reformed houses keeping the Rule strictly. Leo X ended the pretense of a single order on 29 May 1517, dividing the family formally in two.",
+   "new": "By 1300 the Franciscans were a huge international order, with universities, libraries and buildings. Yet their founder had told them to own nothing. The strain broke in the 1310s and 20s. The Spirituals, who wanted the Rule kept to the letter, were ordered to conform, and four were burned at Marseille in 1318 for refusing. Then in 1323 John XXII declared it heretical to insist that Christ and the apostles had owned nothing at all. That put the order's own official view of itself on the wrong side of the law. The head of the order, Michael of Cesena, fled the papal court with William of Ockham rather than accept it. The argument did not end so much as change shape. It became a long split between two wings. The Conventuals accepted the order's endowments and town convents. The Observants, from 1368, built up reformed houses that kept the Rule strictly. Leo X ended the pretense of a single order on 29 May 1517, and divided the family formally in two.",
+   "reason": "Cum inter nonnullos (Bullarium Franciscanum V, no. 518, lines 41928-41930) makes it heretical 'pertinaciter affirmare', to insist stubbornly, not simply to teach. Made exact; the long sentence split in two. Whole field rewritten in shorter sentences for reading level, with plainer words in places ('huge' for 'enormous', 'view of itself' for 'self-understanding'); no other fact changed.",
+   "fre_after": 66.7,
+   "fk_after": 7.4
+  },
+  {
+   "n": 4,
+   "movement": "franciscan-order-era-6",
+   "field": "why",
+   "old": "By 1300 the Franciscans were an enormous international order with universities and libraries, built by a founder who had told them to own nothing, a strain that broke in the 1310s and 20s when Pope John XXII ordered the strictest friars to conform and had four burned at Marseille in 1318 for refusing. The order's minister general, Michael of Cesena, fled the papal court with the philosopher William of Ockham rather than accept John XXII's ruling that owning nothing at all was itself heretical. The argument reshaped into a long split between Conventuals, who kept the order's endowments, and Observants, who rebuilt strict Rule-keeping from 1368, until Pope Leo X divided the family formally in two in 1517.",
+   "new": "By 1300 the Franciscans were a huge international order with universities and libraries, yet their founder had told them to own nothing. The strain broke in the 1310s and 20s. Pope John XXII ordered the strictest friars to conform, and had four burned at Marseille in 1318 for refusing. The head of the order, Michael of Cesena, fled the papal court with the philosopher William of Ockham. He would not accept John's ruling that it was heretical to insist Christ and the apostles had owned nothing at all. The argument turned into a long split. The Conventuals kept the order's endowments, while the Observants rebuilt strict Rule-keeping from 1368. In 1517 Pope Leo X divided the family formally in two.",
+   "reason": "The old sentence misstated the ruling: John XXII did not make owning nothing heretical. Cum inter nonnullos (Bullarium Franciscanum V, no. 518, lines 41928-41930) makes it heretical to insist that Christ and the apostles owned nothing. Whole field rewritten in shorter sentences for reading level.",
+   "fre_after": 60.4,
+   "fk_after": 8.5
+  },
+  {
+   "n": 5,
+   "movement": "franciscan-order-era-6",
+   "field": "legacy",
+   "old": "The order is still here, and still divided along the line drawn in 1517. The Order of Friars Minor and the Conventual Franciscans both date their separate legal existence from that bull, and the Capuchins broke away from the Observants a decade later, making three. Beyond the family, the poverty controversy left a real intellectual inheritance. The arguments about use, ownership and right worked out in it, above all by Ockham, fed into later Western thinking about property and about the limits of authority. And the Observant reform that grew out of the crisis became one of the main engines of Catholic renewal in the century that followed.",
+   "new": "The order is still here, and still divided along the line drawn in 1517. The Order of Friars Minor and the Conventual Franciscans both date their separate legal existence from that year. By the 1560s the Capuchins stood beside them as a third Franciscan family. Beyond the family, the poverty quarrel left a real body of thought. Ockham above all carried its arguments about use, ownership and right into writing on the limits of papal and imperial power. And the Observant reform that grew up inside the order went on to win its leadership in 1517.",
+   "reason": "Three qualifications. 'The Capuchins broke away from the Observants a decade later' has no vendored source for the breakaway; Trent's decree of 1563 (Waterworth lines 22140-22146) names the Capuchins beside the Observants, so the sentence says that. 'Fed into later Western thinking about property' names no party and has no vendored or repo-cited source; Ockham's own writings on papal and imperial power are vendored (scholz_..._v2-lat_1914.txt, contents lines 163-177), so the sentence says what they show. 'One of the main engines of Catholic renewal' has no source and is replaced by what Lea shows (the Observants given the general minister under Leo X, lines 8278-8281). 'From that bull' becomes 'from that year': Ite vos is not vendored; the Quaracchi preface to Glassberger (lines 536-541) dates the two orders from 1517.",
+   "fre_after": 61.3,
+   "fk_after": 8.6
+  },
+  {
+   "n": 6,
+   "movement": "fraticelli-spiritual-franciscan-rigorists",
+   "field": "longDescription",
+   "old": "The Franciscans had argued for a century about how literally to take Francis's poverty, and in the 1310s and 20s the argument was closed by force. John XXII ordered the strictest friars to conform, had four of them burned at Marseille in 1318 for refusing, and in 1323 declared it heretical to hold that Christ and the apostles had owned nothing at all. Turning a devotional ideal into a condemned proposition. Those who would not submit became the fraticelli, 'little brothers', a name their prosecutors used as a legal category as much as a description. They survived for another century and a half in the Marches of Ancona, in Provence and in scattered Italian and Greek communities, supported by lay sympathizers. Among them the beguins of Languedoc, who venerated the burned friars as martyrs and were hunted for it. A major trial at Rome in the 1460s effectively ended them.",
+   "new": "The Franciscans had argued for a century about how literally to take Francis's poverty. In the 1310s and 20s the argument was closed by force. John XXII ordered the strictest friars to conform, and had four of them burned at Marseille in 1318 for refusing. In 1323 he declared it heretical to insist that Christ and the apostles had owned nothing at all. A devotional ideal had become a condemned idea. Those who would not submit became the fraticelli, the 'little brothers'. Their prosecutors used the name as a legal label as much as a description. They lasted another century and a half in the Marches of Ancona, in Provence and in scattered Italian and Greek communities. Lay friends kept them going. Among these were the beguins of Languedoc, who honored the burned friars as martyrs and were hunted for it. In 1467 Pope Paul II had a group of them brought to Rome for public penance. Within a few years the last traces of them are gone.",
+   "reason": "'A major trial at Rome in the 1460s effectively ended them' goes past the vendored evidence: Lea (lines 8493-8497, 8505-8508) describes a public penance at Rome in 1467 and a last trace in 1471, with no great trial. Rewritten to that. 'To hold' becomes 'to insist' (Cum inter nonnullos, 'pertinaciter affirmare'). Two sentence fragments made whole. The Marseille burning by papal command is in the order's dossier (ehrle-denifle bd3 lines 1782-1790) and Gui's manual (lines 9018-9020).",
+   "fre_after": 64.2,
+   "fk_after": 7.7
+  },
+  {
+   "n": 7,
+   "movement": "fraticelli-spiritual-franciscan-rigorists",
+   "field": "why",
+   "old": "When Pope John XXII ordered the strictest Franciscans to give up their insistence on absolute poverty, four who refused were burned at Marseille in 1318, and in 1323 he declared it heretical to believe Christ and the apostles had owned nothing at all. Those who still would not submit, called fraticelli, survived for another century and a half in scattered communities across Italy and Provence, supported by lay sympathizers such as the beguins of Languedoc, who venerated the burned friars as martyrs and were hunted for it in turn. A trial at Rome in the 1460s finally ended them.",
+   "new": "Pope John XXII ordered the strictest Franciscans to give up their stand on absolute poverty. Four who refused were burned at Marseille in 1318. In 1323 he declared it heretical to insist that Christ and the apostles had owned nothing at all. Those who still would not submit were called fraticelli. They lasted another century and a half in scattered communities across Italy and Provence. Lay friends kept them going, among them the beguins of Languedoc, who honored the burned friars as martyrs and were hunted for it in turn. After a public penance at Rome in 1467, they fade from sight.",
+   "reason": "As in the long description: 'a trial at Rome in the 1460s finally ended them' becomes the 1467 penance Lea describes (lines 8493-8497); 'to believe' becomes 'to insist'. Long sentences split.",
+   "fre_after": 60.9,
+   "fk_after": 8.3
+  },
+  {
+   "n": 8,
+   "movement": "fraticelli-spiritual-franciscan-rigorists",
+   "field": "legacy",
+   "old": "No community survived and no church descends from them. What survived was the argument. The poverty controversy forced both sides into working out theories of ownership, use and right that fed directly into later Western thinking about property, and the friars who fled the papal court over it — William of Ockham among them — turned the quarrel into political philosophy. It also left the beguins of Languedoc, remembered now almost entirely through the interrogations that destroyed them, and it left the poverty question itself, which kept returning inside the Franciscan family every time it reformed.",
+   "new": "No community survived and no church descends from them. What survived was the argument. The poverty quarrel pushed both sides to work out what it means to own a thing, to use it, and to have a right to it. The friars who fled the papal court over it, William of Ockham among them, turned the quarrel into political thought. It also left the beguins of Languedoc, known now almost wholly through the questioning that destroyed them. And it left the poverty question itself. That question kept coming back inside the Franciscan family each time it reformed.",
+   "reason": "'Fed directly into later Western thinking about property' names no party and has no vendored or repo-cited source; removed. Ockham's political writings against John XXII are vendored (Scholz 1914), so that clause stays. Long sentence split.",
+   "fre_after": 66.3,
+   "fk_after": 7.5
+  },
+  {
+   "n": 9,
+   "movement": "latin-papal-church-avignon-to-lateran-v",
+   "field": "legacy",
+   "old": "This is a continuous institution: the same church, reorganized by the Council of Trent a generation later, is the Roman Catholic Church of today. Its material legacy from these centuries is unmissable — the papal palace at Avignon, the Vatican Library, the Sistine Chapel, the basilica of St Peter's begun in 1506. Its constitutional legacy is quieter and longer-running. The conciliar claim that a general council can judge a pope was defeated but never quite died, resurfacing in Gallicanism, in later Catholic reform movements, and in the arguments around the First Vatican Council four and a half centuries afterward. And the reforms that the fifteenth century's councils repeatedly voted and failed to enforce were still outstanding when Luther wrote.",
+   "new": "This is a continuous institution. The same church, reorganized by the Council of Trent a generation later, is the Roman Catholic Church of today. Its material legacy from these centuries is hard to miss: the papal palace at Avignon, the Vatican Library, the Sistine Chapel, and St Peter's, begun in 1506. Its legacy in church law is quieter and has lasted longer. The claim that a general council can judge a pope was beaten but never quite died. In 1682 the French clergy appealed to the rulings of Constance in their Gallican Articles. In 1870 the First Vatican Council turned the claim down once more. And the reforms the councils of the 1400s kept voting for, and failed to enforce, were still waiting when Luther wrote.",
+   "reason": "'In later Catholic reform movements' names no party and has no vendored or repo-cited source; removed. Gallicanism is now carried by the new link latin-papal-church-avignon-to-lateran-v--catholic-church-ancien-regime (Denzinger 1323). Vatican I's rejection of any appeal from the pope to a council 'as to an authority higher' is Denzinger 1830 (lines 29864-29867). Long sentence split. Whole field rewritten in shorter sentences for reading level; 'constitutional legacy' becomes 'legacy in church law'.",
+   "fre_after": 61.9,
+   "fk_after": 8.4
+  }
+ ],
+ "wants": [
+  "Wadding, Annales Minorum, ann. 1368 (nos. 10-13), the source Lea cites for Brugliano; a public-domain edition is a verified lead in the Franciscan dossiers and would give the 1368 grant a primary text",
+  "Stefano Infessura, Diario della città di Roma (1467), for Paul II's public penance of the fraticelli at Rome, which Lea cites; would let the end of the fraticelli rest on a primary",
+  "Michael of Cesena's appeals of 1328 and his protest of 1338 in a public-domain Latin text (Carlini 1912 prints some; the Goldast Monarchia is a verified lead), for the minister general's own voice",
+  "Leo X, Ite vos (29 May 1517), in a public-domain Latin edition (Bullarium Romanum, Turin edition, vol. V, or Wadding, Annales Minorum, vol. XVI), for the division of the order",
+  "John of Capistrano's report and the Breslau trial records of 1453 (or Peter Eschenloer's Breslau chronicle) in a public-domain edition, for the Observant persecution of the Jews of Breslau",
+  "A public-domain primary for the Capuchins' break from the Observants (e.g. Boverius, Annales Capuccinorum, 1632), for the Franciscan and Observant legacy sentences",
+  "A public-domain primary for the Dominican Observance (Raymond of Capua's reform letters of 1390), for the Observant text's Dominican clause"
+ ],
+ "escalations": [
+  "C: Method question, not a ruling to make here. Leo X's Ite vos (1517) divided the Franciscan order; Martin V, Eugenius IV and the councils also set the Observants' government. These papal acts on another movement's internal order fit none of the six link types (not 'argued against', not 'gave rise to'). Recorded as not-a-claim in five places. Should the method add a way to carry them, or leave them in prose? For Mark.",
+  "C: The Observant text says John of Capistrano's preaching drove the persecution of the Jews of Breslau in 1453 (longDescription and why). No vendored or repo-cited source holds it; the Franciscan dossiers list the Breslau records as not found. The rule says qualify or remove, but weakening or deleting a documented persecution for want of a file would mislead and soften the movement's dark side, which the text carries on purpose. Left unchanged and escalated; the source is in wants.",
+  "C: Wrong, not just unsupported (fixed in a sentence each): the Franciscan 'why' said John XXII ruled 'that owning nothing at all was itself heretical'; the 1323 decree makes it heretical to insist that Christ and the apostles owned nothing. The fraticelli texts said a 'major trial at Rome in the 1460s' ended them; Lea has a public penance in 1467 and a last trace in 1471."
+ ],
+ "self_check": "grep -iE 'we hold|we have|we've|not checked|vendored|repo|census|entry|record|edge|grade|our source|text we|no text we' over every link note, outcome and prose_changes.new: 0 hits ([]). Two earlier hits ('fade/vanish from the record' in the fraticelli description and why) were reworded before this run. All 23 primary and vendored-secondary quotes re-checked verbatim at their stated lines with whitespace squashed, as tools/validate-census.mjs does: 23 of 23 pass. Every note, outcome and changed field scored with engine.m7.turn_readability.score_turn: all at Reading Ease 60 or more and FK 10 or less. Every 'old' matches the live field exactly. No new link id is already on main."
+}

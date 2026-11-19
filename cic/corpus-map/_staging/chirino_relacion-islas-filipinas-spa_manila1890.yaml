@@ -23,4 +23,6 @@ assignments:
   - the-society-of-jesus
   role: tradition
   confidence: assigned
+  language: spa
+  date: {start: 1604, end: 1604, source: "the reprint reproduces the first-edition imprint, file line 236: \"Roma Año MDCIV\"", formation_confidence: Documented}
   note: The Society's own first account of its Philippine mission, in the Spanish written.

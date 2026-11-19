@@ -1,0 +1,522 @@
+[
+ {
+  "id": "azusa-street-and-early-pentecostalism",
+  "atlasId": "IX.1",
+  "name": "Azusa Street & Early Pentecostalism",
+  "dates": "1906-1920s",
+  "grade": "CD (Contemporary-Documented); newest dated item 2019, newest verified 2019",
+  "evidence": "World Christian Encyclopedia, 3rd ed. (2019): independent counter for the Pentecostal family, cited at IX.11 and IX.15; verified; Pew, Global Christianity (Dec 2011): independent survey; verified; Anderson, An Introduction to Pentecostalism, 2nd ed. (2013/14): survey scholarship; verified; Espinosa, William J. Seymour (2014): history of the revival; [S]."
+ },
+ {
+  "id": "the-1904-07-revival-family-wales-mukti-india-pyo",
+  "atlasId": "IX.2",
+  "name": "The 1904-07 Revival Family (Wales; Mukti India; Pyongyang Korea)",
+  "dates": "1904-1910",
+  "grade": "none (no dated item after 2010 is in the repo)",
+  "evidence": "No dated source after 2010 attests the Welsh, Indian or Korean churches the revivals left; Oak, The Making of Korean Christianity (2013): history of 1876-1915; [S]."
+ },
+ {
+  "id": "the-east-african-revival-balokole",
+  "atlasId": "IX.3",
+  "name": "The East African Revival (Balokole)",
+  "dates": "1930s-1970s",
+  "grade": "none (no dated item after 2010 is in the repo)",
+  "evidence": "Peterson (2012) and Ward & Wild-Wood, The East African Revival: History and Legacies (2012): independent scholarship; verified. The repo does not record what they say of the fellowships after 2010."
+ },
+ {
+  "id": "african-initiated-churches-harrist-aladura-zioni",
+  "atlasId": "IX.4",
+  "name": "African-Initiated Churches (Harrist; Aladura; Zionist/ZCC; Kimbanguist)",
+  "dates": "1880s-c. 2010",
+  "grade": "CD (Contemporary-Documented); newest dated item 2021, newest verified 2021",
+  "evidence": "The Kimbanguist church's exclusion from the World Council of Churches (2021): an act of an independent body; verified (census IX.4 floorNote); World Christian Encyclopedia, 3rd ed. (2019): counter for AIC adherence; verified. Its ZCC and Kimbanguist figures rest on the churches' own reports (census source note); Mokoko Gampiot, Kimbanguism (2017): scholarship; verification not recorded [S]."
+ },
+ {
+  "id": "the-chinese-church-indigenous-and-suffering",
+  "atlasId": "IX.5",
+  "name": "The Chinese Church - Indigenous & Suffering",
+  "dates": "1920s-c. 2010",
+  "grade": "CD (Contemporary-Documented); newest dated item 2011, newest verified 2011",
+  "evidence": "Pew, Global Christianity (2011), about 67 million: independent counter; verified. The year its estimate describes is not pinned; Bays, A New History of Christianity in China (2012): history; [S]."
+ },
+ {
+  "id": "catholic-lay-renewal-worlds-catholic-worker-foco",
+  "atlasId": "IX.7",
+  "name": "Catholic Lay Renewal Traditions (Catholic Worker; Focolare; Charismatic Renewal; L'Arche)",
+  "dates": "1930s-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2023, none verified",
+  "evidence": "L'Arche International, Summary Report of the independent inquiry (22 Feb 2020): own voice; [S]; Commission d'etude independante, Emprise et abus, report to L'Arche International (30 Jan 2023): independent commission, commissioned and published by the movement; [S]; L'Arche International, statement on Thomas Philippe (2016): own voice; [S]; Catholic Worker, Focolare, Charismatic Renewal: no dated source after 2010."
+ },
+ {
+  "id": "latin-american-base-communities",
+  "atlasId": "IX.8",
+  "name": "Latin American Base Communities",
+  "dates": "1960s-1990s",
+  "grade": "none (no dated item after 2010 is in the repo)",
+  "evidence": "Romero's canonization (2018): an act of the Catholic Church, not a base-community record; [S]; Kelly (2013), Whelan (2016): history of the 1970s; verification not recorded [S]."
+ },
+ {
+  "id": "emigre-orthodoxy-and-the-paris-school",
+  "atlasId": "IX.9",
+  "name": "Emigre Orthodoxy & the Paris School",
+  "dates": "1920s-1970s",
+  "grade": "none (no dated item after 2010 is in the repo)",
+  "evidence": "No dated source after 2010 attests St Sergius, St Vladimir's or the OCA; Arjakovsky (2013), Gallaher (2013): history; [S]; Adjacent only: IX.48's Hanegraaff (2017) and Slagle (2011) attest North American Orthodoxy, not this lineage."
+ },
+ {
+  "id": "the-coptic-monastic-and-sunday-school-revival",
+  "atlasId": "IX.10",
+  "name": "The Coptic Monastic & Sunday-School Revival",
+  "dates": "1940s-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2019, newest verified 2017",
+  "evidence": "Bishop Suriel, Habib Girgis (SVS Press, 2017): the church's own voice, a Coptic bishop's study; verified. The study is of Habib Girgis, who died in 1951, so it does not describe the present by itself. The 21 Libya martyrs entered in the church's synaxarium (2015): own voice; [S]; Girgis canonized (2013): own voice; [S]; Mosebach, The 21 (ET 2019): literary journalism; [S]."
+ },
+ {
+  "id": "global-south-pentecostal-christianity",
+  "atlasId": "IX.11",
+  "name": "Global South Pentecostal Christianity",
+  "dates": "1910-c. 2010",
+  "grade": "CD (Contemporary-Documented); newest dated item 2019, newest verified 2019",
+  "evidence": "World Christian Encyclopedia, 3rd ed. (2019): counter; verified; Pew, Global Christianity (2011): verified; Anderson, 2nd ed. (2014): verified; Seoul Central District Court judgment on Cho Yong-gi (20 Feb 2014): court record on Yoido's founder; verification not recorded [S]."
+ },
+ {
+  "id": "persecuted-church-worlds-of-the-communist-era-in",
+  "atlasId": "IX.12",
+  "name": "Persecuted-Church Traditions of the Communist Era (Initsiativniki Baptists; Romania's Lord's Army)",
+  "dates": "1945-1991",
+  "grade": "none (no dated item after 2010 is in the repo)",
+  "evidence": "No dated source after 2010."
+ },
+ {
+  "id": "messianic-judaism",
+  "atlasId": "IX.13",
+  "name": "Messianic Judaism",
+  "dates": "1960s-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2013, newest verified 2013",
+  "evidence": "Pew US Jewish survey (2013), touching Messianic self-identification: independent survey; figures [S]; Rudolph & Willitts, Introduction to Messianic Judaism (2013): movement scholars; verified."
+ },
+ {
+  "id": "ecumenical-community-worlds-taize-and-iona",
+  "atlasId": "IX.14",
+  "name": "Ecumenical Community Traditions - Taize & Iona",
+  "dates": "1938/1940-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2023, none verified",
+  "evidence": "Taize: succession from Brother Alois to Brother Matthew (2023), the community's own dated announcement; [S]; Iona: no dated source after 2010."
+ },
+ {
+  "id": "oneness-pentecostalism",
+  "atlasId": "IX.15",
+  "name": "Oneness Pentecostalism",
+  "dates": "1913-c. 2010",
+  "grade": "CD (Contemporary-Documented); newest dated item 2019, newest verified 2019",
+  "evidence": "World Christian Encyclopedia, 3rd ed. (2019): Oneness aggregate; verified; UPCI Manual, issued annually: own voice; annual issuance verified in the 2026-08 sources run; edition year not pinned [S]; Ramirez, Migrating Faith (2015): history; [S]."
+ },
+ {
+  "id": "iglesia-ni-cristo-the-way-international-unificat",
+  "atlasId": "IX.16",
+  "name": "The Way International; Unification Church; La Luz del Mundo",
+  "dates": "1926-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2022, none verified",
+  "evidence": "La Luz del Mundo: Los Angeles Superior Court sentencing record (8 Jun 2022) and California DOJ releases (2019; 2022): court and state record; verified-adjacent; La Luz del Mundo, official statements (June 2022): own voice; [S]; Unification Church: Moon d. 2012; the Sanctuary Church schism (2015); [S]; The Way International: Statement of Beliefs undated [S]; no dated source after 2010."
+ },
+ {
+  "id": "progressive-christianity-a-broad-label-not-one-m",
+  "atlasId": "IX.18",
+  "name": "Progressive Christianity (a broad label, not one movement)",
+  "dates": "c. 1990-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2011, none verified",
+  "evidence": "ProgressiveChristianity.org '8 Points', revised 2011: own voice of one network; [S]; Hollinger, After Cloven Tongues of Fire (2013): history; [S]; Pew and PRRI landscape data do not measure the label."
+ },
+ {
+  "id": "the-sayfo-and-the-syriac-diaspora",
+  "atlasId": "IX.19",
+  "name": "The Sayfo & the Syriac Diaspora",
+  "dates": "1915-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2015, none verified",
+  "evidence": "Sayfo centenary commemoration records (2015): own voice; [S]; Atto, Hostages in the Homeland, Orphans in the Diaspora (2011): diaspora scholarship; [S]; Let Them Not Return (2017): scholarship on 1915; verified; not a record of the churches today."
+ },
+ {
+  "id": "modern-ethiopian-and-eritrean-christianity",
+  "atlasId": "IX.20",
+  "name": "Modern Ethiopian & Eritrean Christianity",
+  "dates": "1900-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2022, none verified",
+  "evidence": "Ethiopian Orthodox Tewahedo Church: patriarchal reconciliation (2018), church record; [S]; Eritrean Orthodox Church: Patriarch Antonios held until his death (2022), per church factions and rights monitors; [S]; Binns (2017): history; [S]."
+ },
+ {
+  "id": "the-ukrainian-greek-catholic-underground",
+  "atlasId": "IX.21",
+  "name": "The Ukrainian Greek Catholic Underground",
+  "dates": "1946-1989",
+  "grade": "none (no dated item after 2010 is in the repo)",
+  "evidence": "Slipyj, Spomyny, ed. Datsko & Horiacha (Lviv-Rome, 2014): an edition of the metropolitan's memoirs; publisher not stated; [S]; Plokhy (2015): history; [S]; Census legacy calls the church 'now the largest of the Eastern Catholic churches': undated, no counter."
+ },
+ {
+  "id": "the-russian-new-martyrs-and-the-catacomb-church",
+  "atlasId": "IX.22",
+  "name": "The Russian New Martyrs & the Catacomb Church",
+  "dates": "1917-1991",
+  "grade": "none (no dated item after 2010 is in the repo)",
+  "evidence": "Jubilee Council canonization (Aug 2000) and Act of Canonical Communion (17 May 2007): in era; No dated source after 2010; nothing on catacomb or True Orthodox remnants."
+ },
+ {
+  "id": "the-post-vatican-ii-parish-world",
+  "atlasId": "IX.23",
+  "name": "The Post-Vatican-II Parish Tradition",
+  "dates": "1962-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2021, none verified",
+  "evidence": "Traditionis Custodes (2021): papal own voice; [S]; Romero's canonization (2018): a Catholic Church act (IX.8 row); [S]."
+ },
+ {
+  "id": "lausanne-era-global-evangelicalism",
+  "atlasId": "IX.24",
+  "name": "Lausanne-Era Global Evangelicalism",
+  "dates": "1974-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2024, none verified",
+  "evidence": "Seoul Statement (2024): own voice; [S]; lausanne.org text of the Covenant, indexed in the 2026-08 sources run: an access date, not a dated statement; Stanley (2013): history; [S]."
+ },
+ {
+  "id": "african-diaspora-and-reverse-mission-churches-in",
+  "atlasId": "IX.25",
+  "name": "African Diaspora & Reverse-Mission Churches in Europe",
+  "dates": "1960s-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2013, none verified",
+  "evidence": "Adogame, The African Christian Diaspora: New Currents and Emerging Trends (2013): independent scholarship; [S]."
+ },
+ {
+  "id": "ratana-church-and-pacific-adjustment-movements",
+  "atlasId": "IX.26",
+  "name": "Ratana Church & Pacific Adjustment Movements",
+  "dates": "1925-c. 2010",
+  "grade": "none (no dated item after 2010 is in the repo)",
+  "evidence": "No dated source after 2010. Newman (2006) is the newest; Te Ara is undated in the repo."
+ },
+ {
+  "id": "the-armenian-church-after-the-genocide-medz-yegh",
+  "atlasId": "IX.27",
+  "name": "The Armenian Church after the Genocide (Medz Yeghern)",
+  "dates": "1915-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2015, newest verified 2015",
+  "evidence": "Canonization of the genocide's victims, Etchmiadzin (23 Apr 2015): own voice; the event web-verified per the census row, document details [S]; Kevorkian (2011), Suny (2015): history; [S]."
+ },
+ {
+  "id": "dispensational-prophecy-culture",
+  "atlasId": "IX.29",
+  "name": "Dispensational Prophecy Culture",
+  "dates": "c. 1875-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2023, none verified",
+  "evidence": "Hummel, The Rise and Fall of Dispensationalism (2023): independent scholarship; [S]. The repo does not record what it says of the present; Marsden, 3rd ed. (2022): history; verified."
+ },
+ {
+  "id": "the-megachurch-and-seeker-movement",
+  "atlasId": "IX.30",
+  "name": "The Megachurch & Seeker Movement",
+  "dates": "c. 1975-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2022, none verified",
+  "evidence": "Independent Advisory Group, report on Willow Creek Community Church (28 Feb 2019): independent review of one named church; [S]; Hillsong's governance crises (2021-22): journalism; [S]; Zacharias investigation report (9 Feb 2021): concerns an apologetics ministry, not a megachurch; [S]; Hartford Institute megachurch research: undated in the repo."
+ },
+ {
+  "id": "the-narrative-kingdom-renewal-the-bible-as-one-s",
+  "atlasId": "IX.32",
+  "name": "The Narrative-Kingdom Renewal (the Bible as one story fulfilled in Jesus)",
+  "dates": "c. 1990-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2020, newest verified 2014",
+  "evidence": "BibleProject founded 2014: verified; its site indexed in the 2026-08 sources run (access date); BibleProject annual reports (2014-): own voice; [S]; Christianity Today reporting on BibleProject (2018-2020): journalism; [S]; McKnight, The King Jesus Gospel (2011): verified."
+ },
+ {
+  "id": "fundamentalism-1910-1970s",
+  "atlasId": "IX.33",
+  "name": "Fundamentalism",
+  "dates": "c. 1910-1970s",
+  "grade": "none (no dated item after 2010 is in the repo)",
+  "evidence": "No dated source after 2010 attests separatist fundamentalist bodies; Marsden, 3rd ed. (2022): history; verified."
+ },
+ {
+  "id": "the-mainline-century-liberal-and-neo-orthodox",
+  "atlasId": "IX.35",
+  "name": "The Mainline Century — Liberal Protestantism & Neo-Orthodoxy",
+  "dates": "c. 1900-1990",
+  "grade": "none (no dated item after 2010 is in the repo)",
+  "evidence": "Hollinger, After Cloven Tongues of Fire (2013): history of the liberal-Protestant trajectory; [S]; No dated source after 2010 on the mainline bodies."
+ },
+ {
+  "id": "new-calvinism-young-restless-reformed",
+  "atlasId": "IX.36",
+  "name": "New Calvinism (Young, Restless, Reformed)",
+  "dates": "c. 1998-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2023, newest verified 2021",
+  "evidence": "Acts 29 continued after removing Driscoll and Mars Hill (Aug 2014): verified; The Rise and Fall of Mars Hill (Christianity Today, 2021): journalism; verified; Vermurlen, Reformed Resurgence (2020): independent scholarship; [S]; Together for the Gospel held its last conference (2022): one carrier ended; [S]; Hansen, Timothy Keller (2023): [S]."
+ },
+ {
+  "id": "indonesian-christianity-the-independent-century",
+  "atlasId": "IX.37",
+  "name": "Indonesian Christianity — the Independent Century",
+  "dates": "1906-c. 2010",
+  "grade": "none (no dated item after 2010 is in the repo)",
+  "evidence": "No dated source after 2010. Aritonang & Steenbrink (2008) [S] is the newest."
+ },
+ {
+  "id": "northeast-india-and-mar-thoma-twentieth-century",
+  "atlasId": "IX.38",
+  "name": "Northeast India & the Mar Thoma Church — the 20th Century",
+  "dates": "1906-c. 2010",
+  "grade": "none (no dated item after 2010 is in the repo)",
+  "evidence": "No dated source after 2010. Frykenberg (2008) [S] is the newest."
+ },
+ {
+  "id": "the-malankara-churches-orthodox-and-jacobite",
+  "atlasId": "IX.39",
+  "name": "The Malankara Churches — Orthodox & Jacobite",
+  "dates": "1912-c. 2010",
+  "grade": "CD (Contemporary-Documented); newest dated item 2017, newest verified 2017",
+  "evidence": "Supreme Court of India, K.S. Varghese v. St Peter's and St Paul's Syrian Orthodox Church (3 Jul 2017): court record with both churches' parties; verified; Catholicate centenary literature (2012): own voice; [S]."
+ },
+ {
+  "id": "the-georgian-orthodox-church-restored",
+  "atlasId": "IX.40",
+  "name": "The Georgian Orthodox Church Restored",
+  "dates": "1917-c. 2010",
+  "grade": "none (no dated item after 2010 is in the repo)",
+  "evidence": "No dated source after 2010 on the church's present. Grdzelidze et al. (2006) is the newest scholarship; the 2022 Orthodox History web article concerns 1917."
+ },
+ {
+  "id": "churches-of-christ-twentieth-century",
+  "atlasId": "IX.41",
+  "name": "Churches of Christ",
+  "dates": "1906-c. 2010",
+  "grade": "none (no dated item after 2010 is in the repo)",
+  "evidence": "No dated source after 2010. Stone-Campbell Encyclopedia (2004) is the newest."
+ },
+ {
+  "id": "disciples-of-christ-and-independent-christian-churches",
+  "atlasId": "IX.42",
+  "name": "Disciples of Christ & the Independent Christian Churches",
+  "dates": "1906-c. 2010",
+  "grade": "none (no dated item after 2010 is in the repo)",
+  "evidence": "No dated source after 2010. Stone-Campbell Encyclopedia (2004) is the newest."
+ },
+ {
+  "id": "the-black-church-in-the-twentieth-century",
+  "atlasId": "IX.43",
+  "name": "The Black Church in the Twentieth Century",
+  "dates": "1906-c. 2010",
+  "grade": "none (no dated item after 2010 is in the repo)",
+  "evidence": "No dated source after 2010. The 2001-02 trial records and McWhorter (2001) are the newest."
+ },
+ {
+  "id": "seventh-day-adventist-church-twentieth-century",
+  "atlasId": "IX.44",
+  "name": "The Seventh-day Adventist Church in the 20th Century",
+  "dates": "1906-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2019, none verified",
+  "evidence": "Census: Desmond Ford 'remained an Adventist member until his death in 2019': census statement; verification not recorded [S]; 'Some twenty-two million members by its own count': undated."
+ },
+ {
+  "id": "charismatic-renewal-and-the-jesus-movement",
+  "atlasId": "IX.45",
+  "name": "Charismatic Renewal & the Jesus Movement",
+  "dates": "1960-1980s",
+  "grade": "none (no dated item after 2010 is in the repo)",
+  "evidence": "No dated source after 2010 attests Calvary Chapel, the Vineyard or the renewal fellowships; Frisbee memoir (2012), Eskridge (2013): history; [S]."
+ },
+ {
+  "id": "the-ecumenical-movement-and-the-wcc",
+  "atlasId": "IX.46",
+  "name": "The Ecumenical Movement & the World Council of Churches",
+  "dates": "1921-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2021, newest verified 2021",
+  "evidence": "The council's exclusion of the Kimbanguist church (2021): the WCC's own act; verified (IX.4 record); Sjollema, Never Bow to Racism (WCC, 2015): published by the council; [S]."
+ },
+ {
+  "id": "the-catholic-church-pius-x-to-the-council",
+  "atlasId": "IX.47",
+  "name": "The Catholic Church — Pius X to the Eve of the Council",
+  "dates": "1906-1962",
+  "grade": "CR (Contemporary-Reported); newest dated item 2021, none verified",
+  "evidence": "Traditionis Custodes (2021): papal own voice; [S] (IX.23); Romero's canonization (2018): [S] (IX.8)."
+ },
+ {
+  "id": "american-orthodoxy-autocephaly-and-the-convert-wave",
+  "atlasId": "IX.48",
+  "name": "American Orthodoxy — Autocephaly & the Convert Wave",
+  "dates": "1970-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2017, newest verified 2017",
+  "evidence": "Hank Hanegraaff received by chrismation, St Nektarios Greek Orthodox Church, Charlotte (9 Apr 2017): a public figure's public act; verified; Slagle, The Eastern Church in the Spiritual Marketplace (2011): independent fieldwork; verified (CD as of 2011)."
+ },
+ {
+  "id": "hebrew-roots-and-torah-observance-movements",
+  "atlasId": "IX.49",
+  "name": "Hebrew Roots & Torah-Observance Movements",
+  "dates": "c. 1990s-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2011, none verified",
+  "evidence": "First Fruits of Zion statements on the cost of its 2009 change, dated 2010-11 [S]: own voice; 119 Ministries, c. 2010: [S]."
+ },
+ {
+  "id": "the-christian-right",
+  "atlasId": "IX.50",
+  "name": "The Christian Right",
+  "dates": "1979-c. 2010",
+  "grade": "CD (Contemporary-Documented); newest dated item 2025, newest verified 2025",
+  "evidence": "Andrew R. Lewis, The Rights Turn in Conservative Christian Politics (Cambridge University Press, 2017), a study of its present-day advocacy and opinion: independent scholarship; verified. Washington Examiner, on the Faith & Freedom Coalition's Road to Majority conference (26 June 2025; the conference met 26-28 June): independent news; verified."
+ },
+ {
+  "id": "iglesia-ni-cristo",
+  "atlasId": "IX.51",
+  "name": "Iglesia ni Cristo",
+  "dates": "1914-c. 2010",
+  "grade": "none (no dated item after 2010 is in the repo)",
+  "evidence": "Succession to Eduardo Manalo (2009): in era; [S]; The church's own history page, indexed in the 2026-08 survey run: an access date, not a dated statement; Pasugo from 1939: dated articles not yet cited [S]."
+ },
+ {
+  "id": "the-anglican-communion-twentieth-century",
+  "atlasId": "IX.52",
+  "name": "The Anglican Communion in the Twentieth Century",
+  "dates": "1906-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2022, newest verified 2022",
+  "evidence": "Vatican News, 'Fifteenth Lambeth Conference kicks off in Canterbury' (July 2022): independent news; verified."
+ },
+ {
+  "id": "the-rescue-mission-movement",
+  "atlasId": "IX.54",
+  "name": "The Rescue Mission Movement",
+  "dates": "1906-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2024, newest verified 2024",
+  "evidence": "Citygate Network press release (8 October 2024), describing itself as 'a movement of nearly 300 rescue missions and faith-based organizations': own voice; verified as reported in a search result."
+ },
+ {
+  "id": "the-christian-homeschool-movement",
+  "atlasId": "IX.55",
+  "name": "The Christian Homeschool Movement",
+  "dates": "1983-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2025, newest verified 2025",
+  "evidence": "Michael Farris, 'A Tribute to Dr. James Dobson', HSLDA (21 August 2025): own voice; verified. Reason (19 November 2025), on homeschooling's growth in 2024-25: independent news, not specific to Christian homeschooling; verified."
+ },
+ {
+  "id": "the-third-wave-and-the-vineyard",
+  "atlasId": "IX.57",
+  "name": "The Third Wave & the Vineyard",
+  "dates": "1982-c. 2010",
+  "grade": "CD (Contemporary-Documented); newest dated item 2017, newest verified 2017",
+  "evidence": "Jon Bialecki, A Diagram for Fire (University of California Press, 2017), an ethnography of Vineyard churches: independent scholarship; verified."
+ },
+ {
+  "id": "promise-keepers-and-the-christian-mens-movement",
+  "atlasId": "IX.58",
+  "name": "Promise Keepers & the Christian Men's Movement",
+  "dates": "1990-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2021, newest verified 2021",
+  "evidence": "K-LOVE News, report of the Promise Keepers event at AT&T Stadium, Arlington, Texas (16 July 2021), nearly 30,000 men: independent broadcaster; verified."
+ },
+ {
+  "id": "the-catholic-church-in-africa-twentieth-century",
+  "atlasId": "IX.59",
+  "name": "The Catholic Church in Africa in the Twentieth Century",
+  "dates": "1906-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2011, newest verified 2011",
+  "evidence": "Pew Research Center, Global Christianity (19 December 2011), sub-Saharan Christian population 1910-2010: independent research; verified. Its Catholic regional table is not confirmed."
+ },
+ {
+  "id": "sudanese-christianity-through-the-civil-wars",
+  "atlasId": "IX.61",
+  "name": "Sudanese Christianity through the Civil Wars",
+  "dates": "1955-2005",
+  "grade": "CD (Contemporary-Documented); newest dated item 2018, newest verified 2018",
+  "evidence": "Jesse A. Zink, Christianity and Catastrophe in South Sudan (Baylor, 2018): independent scholarship; publisher, year and subject confirmed from the Journal of Ecclesiastical History review (72.1, 2021) and the author's page."
+ },
+ {
+  "id": "latin-american-catholicism-twentieth-century",
+  "atlasId": "IX.62",
+  "name": "Latin American Catholicism in the Twentieth Century",
+  "dates": "1906-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2025, none verified",
+  "evidence": "ACI Prensa (2025), on celebrations in the United States of the 25th anniversary of the Mexican martyrs' canonization: Catholic news agency; verification not recorded."
+ },
+ {
+  "id": "protestantism-in-latin-america",
+  "atlasId": "IX.63",
+  "name": "Protestantism in Latin America",
+  "dates": "1916-c. 2010",
+  "grade": "none (no dated item after 2010 is in the repo)",
+  "evidence": "No dated item after 2010 is staged for the councils or churches of this family."
+ },
+ {
+  "id": "korean-protestantism-twentieth-century",
+  "atlasId": "IX.64",
+  "name": "Korean Protestantism in the Twentieth Century",
+  "dates": "1907-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2025, none verified",
+  "evidence": "Asia Economy (asiae.co.kr), on a memorial to the pastor Ju Gi-cheol opened in May 2025: journalism; verification not recorded [S]."
+ },
+ {
+  "id": "chinese-catholicism-twentieth-century",
+  "atlasId": "IX.65",
+  "name": "Chinese Catholicism — the First Chinese Bishops to the Divided Church",
+  "dates": "1906-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2026, none verified",
+  "evidence": "Leo XIV, video message to a conference on China (5 November 2026), vatican.va: the Catholic Church's own word; verification not recorded [S]. A report on the centenary of the six bishops of 1926 (chinaaid.org, 2026): journalism; [S]."
+ },
+ {
+  "id": "philippine-catholicism-twentieth-century",
+  "atlasId": "IX.66",
+  "name": "Philippine Catholicism in the Twentieth Century",
+  "dates": "1906-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2026, none verified",
+  "evidence": "Catholic Bishops' Conference of the Philippines, statement on EDSA's fortieth anniversary (18 February 2026), as reported by Interaksyon and Philstar: the church's own word, reported by journalism; verification not recorded [S]."
+ },
+ {
+  "id": "philippine-independent-church-twentieth-century",
+  "atlasId": "IX.67",
+  "name": "The Philippine Independent Church in the Twentieth Century",
+  "dates": "1906-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2025, none verified",
+  "evidence": "anglican.ink, on the Episcopal Church in the Philippines and the IFI marking the concordat's anniversary (20 March 2025): journalism; verification not recorded [S]."
+ },
+ {
+  "id": "japanese-christianity-after-1906",
+  "atlasId": "IX.68",
+  "name": "Japanese Christianity after 1906",
+  "dates": "1906-c. 2010",
+  "grade": "none (no dated item after 2010 is in the repo)",
+  "evidence": "uccj.org publishes both confessions as the church's current standards; the pages carry no date: own voice; verified as pages, undated."
+ },
+ {
+  "id": "the-russian-orthodox-church-council-patriarchate-and-reunion",
+  "atlasId": "IX.69",
+  "name": "The Russian Orthodox Church — Council, Patriarchate and Reunion",
+  "dates": "1917-c. 2010",
+  "grade": "none (no dated item after 2010 is in the repo)",
+  "evidence": "Act of Canonical Communion (17 May 2007): own voice, in era; verified. No dated source after 2010 on the church's present was read."
+ },
+ {
+  "id": "polish-catholicism-wyszynski-and-john-paul-ii",
+  "atlasId": "IX.70",
+  "name": "Polish Catholicism — Wyszyński and John Paul II",
+  "dates": "1918-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2026, none verified",
+  "evidence": "Vatican News (Polish), Archbishop Wojda on the 70th anniversary of the Jasna Góra Vows (August 2026): journalism; search listing only [S]."
+ },
+ {
+  "id": "orthodoxy-in-the-communist-balkans",
+  "atlasId": "IX.71",
+  "name": "Orthodoxy in the Communist Balkans — the Serbian, Romanian, Bulgarian and Albanian Churches",
+  "dates": "1920-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2025, none verified",
+  "evidence": "Romanian centenary of the first patriarch's enthronement (Orthodox Times, 2025): journalism; search listing only [S]; Bulgarian Orthodox Church, 70th-anniversary statement on the patriarchate (2023): own voice; search listing only [S]."
+ },
+ {
+  "id": "the-greek-church-and-the-ecumenical-patriarchate",
+  "atlasId": "IX.72",
+  "name": "The Greek Church and the Ecumenical Patriarchate in the Twentieth Century",
+  "dates": "1906-c. 2010",
+  "grade": "none (no dated item after 2010 is in the repo)",
+  "evidence": "No dated source after 2010 on the Church of Greece or the Ecumenical Patriarchate was read."
+ },
+ {
+  "id": "the-romanian-greek-catholic-church-suppression-and-return",
+  "atlasId": "IX.73",
+  "name": "The Romanian Greek Catholic Church — Suppression and Return",
+  "dates": "1948-c. 2010",
+  "grade": "CR (Contemporary-Reported); newest dated item 2025, none verified",
+  "evidence": "Local reporting on Blaj cathedral (2025): journalism; not verified [S]."
+ }
+]

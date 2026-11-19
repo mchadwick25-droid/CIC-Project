@@ -10,6 +10,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
+    locus_ids: [whole-file]
+    language: deu
+    date: {start: 1926, end: 1926, source: "poschmann_abendlaendische-kirchenbusse-deu_1928.txt: Vorwort (file line 140) says 'die Drucklegung der schon im Sommer 1926 abgeschlossenen Untersuchung' was delayed (lines 143-145), so the work was finished in summer 1926 and printed in 1928 (Vorwort signed 11 February 1928, line 160; imprimaturs 8 September 1926 and 10 March 1928)", formation_confidence: Documented}
     note: >
       Modern (1928) German scholarship, role context, not tradition. Not a primary source and not a
       witness to any ancient text. Penance teaching and practice in the Western churches at the close

@@ -1,0 +1,11 @@
+source_file: launay_histoire-des-missions-de-chine-kouy-tcheou-t1-fra_1907.txt
+assignments:
+- row_id: launay_histoire-des-missions-de-chine-kouy-tcheou-t1-fra_1907--histoire-des-missions-de-chine-kouy-tcheou-tome-i-launay-1907
+  work: "Histoire des missions de Chine: Kouy-tcheou, tome I (Launay, 1907)"
+  author: launay
+  locus: "the whole volume; add 12 to OCR line numbers for this file's own"
+  atlas_ids:
+  - chinese-catholicism-1650-1906
+  role: context
+  confidence: provisional
+  note: "A missionary society's history of a Chinese mission, naming its Chinese priests; an outsider's account written in 1907, just after this entry's window."

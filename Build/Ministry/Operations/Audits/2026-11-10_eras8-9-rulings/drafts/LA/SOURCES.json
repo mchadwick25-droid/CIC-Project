@@ -1,0 +1,62 @@
+{
+ "phillippo": {
+  "url": "https://archive.org/download/jamaicaitspastpr00phil/jamaicaitspastpr00phil_djvu.txt",
+  "accessed": "2026-11-10",
+  "work": "James M. Phillippo, Jamaica: Its Past and Present State (Philadelphia: Campbell; New York: Saxton & Miles, 1843)"
+ },
+ "bleby": {
+  "url": "https://archive.org/download/b24870109/b24870109_djvu.txt",
+  "accessed": "2026-11-10",
+  "work": "Henry Bleby, Death Struggles of Slavery, 3rd ed. (London, 1868)"
+ },
+ "hinton": {
+  "url": "https://archive.org/download/memoirofwilliamk00hint/memoirofwilliamk00hint_djvu.txt",
+  "accessed": "2026-11-10",
+  "work": "John Howard Hinton, Memoir of William Knibb, Missionary in Jamaica, 2nd ed. (London: Houlston and Stoneman, 1849)"
+ },
+ "wallbridge": {
+  "url": "https://archive.org/download/demeraramartyrme00wall/demeraramartyrme00wall_djvu.txt",
+  "accessed": "2026-11-10",
+  "work": "Edwin Angel Wallbridge, The Demerara Martyr: Memoirs of the Rev. John Smith, Missionary to Demerara (London: Gilpin, 1848)"
+ },
+ "euclides": {
+  "url": "https://archive.org/download/004518-completo/004518_COMPLETO_djvu.txt",
+  "accessed": "2026-11-10",
+  "work": "Euclydes da Cunha, Os Sertões (Campanha de Canudos), 3rd corrected ed. (Rio de Janeiro: Laemmert, 1905)"
+ },
+ "vieira": {
+  "url": "https://archive.org/download/mariarosamystica00viei/mariarosamystica00viei_djvu.txt",
+  "accessed": "2026-11-10",
+  "work": "António Vieira, Maria Rosa Mystica (Lisbon: Miguel Deslandes, 1686)"
+ },
+ "antonil": {
+  "url": "https://archive.org/download/culturaeopulenci00anto/culturaeopulenci00anto_djvu.txt",
+  "accessed": "2026-11-10",
+  "work": "André João Antonil, Cultura e opulencia do Brasil (Lisbon: Officina Real Deslandesiana, 1711)"
+ },
+ "thomson": {
+  "url": "https://archive.org/download/lettersonmorala00thomgoog/lettersonmorala00thomgoog_djvu.txt",
+  "accessed": "2026-11-10",
+  "work": "James Thomson, Letters on the Moral and Religious State of South America (London, 1827)"
+ },
+ "bustamante": {
+  "url": "https://archive.org/download/cuadrohistorico01bustgoog/cuadrohistorico01bustgoog_djvu.txt",
+  "accessed": "2026-11-10",
+  "work": "Carlos María de Bustamante, Cuadro histórico de la revolución mexicana (Mexico: J. Mariano Lara, 1843), one volume"
+ },
+ "morelos": {
+  "url": "https://archive.org/download/autografosindit00moregoog/autografosindit00moregoog_djvu.txt",
+  "accessed": "2026-11-10",
+  "work": "Genaro García, ed., Documentos inéditos ó muy raros para la historia de México, tomo XII: Autógrafos inéditos de Morelos y causa que se le instruyó (México: Bouret, 1907), the Inquisition's case of 1815"
+ },
+ "frias": {
+  "url": "https://archive.org/download/tomchicnovelahi00frgoog/tomchicnovelahi00frgoog_djvu.txt",
+  "accessed": "2026-11-10",
+  "work": "Heriberto Frías, Tomóchic: Novela histórica mexicana (1906 edition; Editorial de Valades)"
+ },
+ "bustamante_meta": {
+  "url": "https://archive.org/metadata/cuadrohistorico01bustgoog",
+  "accessed": "2026-11-10",
+  "work": "archive.org catalog record of Carlos María de Bustamante, Cuadro histórico de la revolución mexicana (Mexico: J. Mariano Lara, 1843)"
+ }
+}

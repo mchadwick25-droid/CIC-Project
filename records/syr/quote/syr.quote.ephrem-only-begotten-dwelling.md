@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: syr.source.ephrem-three-homilies
-  locus: On Our Lord, opening
+  locus: "On Our Lord, opening (cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml, lines 22306-22309)"
   license: public-domain
 text: the only-begotten departed from [being] with Deity and took up His abode in the Virgin; that by
   a common manner of birth, though only-begotten, He might become the brother of many.

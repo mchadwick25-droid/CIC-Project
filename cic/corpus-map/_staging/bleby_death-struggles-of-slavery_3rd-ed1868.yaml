@@ -1,0 +1,22 @@
+source_file: bleby_death-struggles-of-slavery_3rd-ed1868.txt
+assignments:
+- row_id: bleby_death-struggles-of-slavery_3rd-ed1868--death-struggles-of-slavery-a-narrative-of-facts-and
+  work: 'Death Struggles of Slavery: a narrative of facts and incidents, which occurred in a British colony, during'
+  author: bleby
+  locus: Edward Hylton's account of Sam Sharpe's meeting and the oath at lines 5515-5609; Sharpe's execution and
+    the author's last conversation with him at lines 5826-5894; the rest not mapped
+  atlas_ids:
+  - caribbean-churches-of-slavery-and-emancipation
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1868
+    end: 1868
+    source: 'the printing''s own title page: line 40 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1868
+    source: line 40 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 rows 246 and 248, Samuel Sharpe and Henry Bleby: Bleby''s narrative.'

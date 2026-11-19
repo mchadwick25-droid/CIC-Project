@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.chalcedon-acts
-  locus: Session II extract (npnf214 lines 19996-20002)
+  locus: "Session II extract (cic/texts/npnf214_seven-ecumenical-councils.xml, lines 19996-20000)"
   license: public-domain
 text: 'After the reading of the foregoing epistle, the most reverend bishops cried out: This is the
   faith of the fathers, this is the faith of the Apostles. So we all believe, thus the orthodox believe.

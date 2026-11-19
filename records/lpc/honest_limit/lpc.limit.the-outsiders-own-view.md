@@ -32,7 +32,7 @@ relations:
 - type: associated-with
   target: lpc.witness.constantine-did-not-corrupt
 statement: Were we really hiding in catacombs, and what would an outsider have found strangest about us?
-  On these two, I cannot answer from inside our own record. What did our neighbours actually say about
+  On these two, I cannot answer from inside our own record. What did our neighbors actually say about
   us? A Roman official named Demetrianus once blamed us for the wars, plague, and famine troubling the
   world, for refusing to worship the old gods -- that much we do have, in Cyprian's own reply to him.
   Did Constantine corrupt what we were? Augustine never asks it in those words. But when a Donatist bishop
@@ -42,7 +42,7 @@ why_sources_cannot_answer: 'Checked directly against lpc.force.standing-legal-co
   and lpc.force.illegal-to-established-shift: neither states a position on catacombs or an outsider''s
   own strangeness-perception. This world''s Cyprian phase is pre-Constantine, and its Augustine phase engages
   church-state pressure only through the Donatist-schism/coercion material already tagged F6-T/F6-P, not
-  through a general outsider''s-eye account of Christian strangeness. What our neighbours said is answered
+  through a general outsider''s-eye account of Christian strangeness. What our neighbors said is answered
   separately and directly by An Address to Demetrianus (lpc.witness.blamed-for-the-worlds-troubles); whether
   Constantine corrupted the church is not asked in those words in our own record, but Augustine answers
   the charge behind it in Answer to Petilian II SSSS202-205, calling Constantine no foe to the Christian

@@ -1,0 +1,42 @@
+{
+ "round": 2,
+ "scope": "Targeted recheck of Round 1 findings RP-B1, RP-S1 to S6 and RP-M1 to M16 on P1/P2/P3 person drafts, plus the coordinator rulings (Calvin concerns, the shared status for told-within-none persons, the dropped Athanasius to II.1 link).",
+ "verdict": "approve",
+ "findings": [
+  {
+   "id": "RP2-M1",
+   "target": "link antiochene-exegetical-christianity-chrysostom-ce--the-church-of-the-east-under-persia--2",
+   "field": "sources[0]",
+   "severity": "minor",
+   "problem": "RP-M8 added Bazaar line 4406 as the link's primary source, the §54 heading 'and there were not two Sons but one by an union.' That line is about doctrine. It shows the text exists, but not that the Church of the East kept it. The custody still rests on the editors, which is honest and enough for Widely Accepted, so this is not substantial.",
+   "evidence": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt 4405-4406 (chapter heading); custody facts at 372-376 (secondary).",
+   "fix": "Optional: replace it with a line of the Syriac text or the colophon, if the file holds one. Otherwise label the primary 'the Syriac-derived text itself (chapter heading)' so it is not read as evidence of custody."
+  }
+ ],
+ "resolved": {
+  "RP-B1": "Resolved. P1 and P2 dropped theirs, and P3 keeps john-calvin on both links. A script check over all three drafts' concerns arrays and link records finds no link claimed twice, and every concerns link_id exists.",
+  "RP-S1": "Resolved. The garden of his lodging in Milan is cited to npnf101 12800-12801. The voice from a neighbouring house is quoted verbatim at 13107-13110. Schaff is kept only for the date.",
+  "RP-S2": "Resolved. Nestorius why now reads 'one Syriac copy, kept by the Church of the East ... Western scholars found it only in the 1890s' (Driver-Hodgson 333-340, 372-376).",
+  "RP-S3": "Resolved. The teaser now ends 'died in his own city'.",
+  "RP-S4": "Resolved. The note attributes the list to the Sardica letter; the quote runs 24210-24214 and the letter's heading (23998) is added. The longDescription now rests on the Four Discourses (40860).",
+  "RP-S5": "Resolved. The link is Inferential-Thin. The Jovinian page rows on the same editors' summaries are graded to match and attributed in the prose ('By the editors' account').",
+  "RP-S6": "Resolved. Both the home longDescription and the home why now say 'credited to Thomas à Kempis, though its authorship is disputed', matching the person page. The accent fix on the Rhineland link note is sound, and is needed for the validator's name match.",
+  "RP-M1": "Resolved (964-966).",
+  "RP-M2": "Resolved.",
+  "RP-M3": "Resolved; the page now states the two sourced dates and no count.",
+  "RP-M4": "Resolved; the new row is at chronicle 1193.",
+  "RP-M5": "Resolved.",
+  "RP-M6": "Resolved; the note now names Bakurios, cited at 864-865.",
+  "RP-M7": "Resolved.",
+  "RP-M8": "Resolved. Kind is now secondary and the legacy line hedges the Bedjan date. See RP2-M1 for the new primary.",
+  "RP-M9": "Resolved. Bazaar 4406 now supports the denial, and the open question is attributed to Bethune-Baker 1908 (line 310).",
+  "RP-M10": "Resolved. 'He served as a deacon. The sources differ on where he was ordained.'",
+  "RP-M11": "Resolved. Ambrose's page names the sentence on Jovinian, graded to match the link.",
+  "RP-M12": "Resolved.",
+  "RP-M13": "Resolved. The mitigation clause is cited at 19434-19435. Declining 'milder death than fire' is sound, since the letter does not specify the form.",
+  "RP-M14": "Resolved. Both persons are Pre-Survey Candidate with statusWord 'Told within no tradition', pending Mark.",
+  "RP-M15": "Resolved. The template openings are cut across P1, P2 and P3, and the remaining openings carry required content.",
+  "RP-M16": "Resolved. Floor notes, dashes and shelf counts are fixed, and Calvin's letters are corrected from four volumes to three."
+ },
+ "checked": "check_draft.py on all three rebuilt drafts: clean, so every new or changed quote is verbatim at its lines and every paragraph is within the reading target. Read each Revision_Round1.json. Inspected the changed fields of each finding in the rebuilt Draft.json. Opened the new citations at their lines: Confessions 13105-13110, Bazaar 4400-4407, and the rows for Four Discourses, Irenaeus 39866, Bethune-Baker 310, chronicle 1193 and Calvin 19434-19435. Ran a concerns collision check across all three drafts. The dropped alexandria-catechetical--cyrilline link: Athanasius's new relationsSummary line rests on D1's II.1 text, which is consistent with the ruling. Not re-reviewed: anything the revisions did not touch."
+}

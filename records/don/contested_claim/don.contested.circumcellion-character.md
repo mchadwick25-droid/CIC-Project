@@ -63,7 +63,7 @@ use_note:
   means: "Whether the hostile portrait of the Circumcellions as itinerant, marginal and violent is accurate is contested: Shaw reads it as overstated, Frend accepts more."
   not_for:
     - "a claim that the hostile portrait is settled as accurate"
-    - "a claim that Shaw's corrective reading is settled in its favour"
+    - "a claim that Shaw's corrective reading is settled in its favor"
     - "a claim that anything beyond the group's bare existence is independently corroborated"
     - "a claim that the Circumcellions are known to have killed themselves, which rests only on hostile charges (don.contested.augustine-precipice-charge)"
   years: {from: 311, to: 439}

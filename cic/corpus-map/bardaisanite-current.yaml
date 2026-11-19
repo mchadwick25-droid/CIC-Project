@@ -7,8 +7,51 @@ works:
   work: 'Bardesan: The Book of the Laws of Divers Countries'
   author: bardesan
   locus: div2 9.16
+  locus_ids:
+  - ix.xvi/line74792
+  - ix.xvi/notes
+  - ix.xvi/line74824
+  - ix.xvi/line74847
+  - ix.xvi/line74871
+  - ix.xvi/line74893
+  - ix.xvi/line74912
+  - ix.xvi/line74944
+  - ix.xvi/line74965
+  - ix.xvi/line74981
+  - ix.xvi/line75006
+  - ix.xvi/line75038
+  - ix.xvi/line75064
+  - ix.xvi/line75108
+  - ix.xvi/line75131
+  - ix.xvi/line75162
+  - ix.xvi/line75183
+  - ix.xvi/line75215
+  - ix.xvi/line75253
+  - ix.xvi/line75276
+  - ix.xvi/line75303
+  - ix.xvi/line75321
+  - ix.xvi/line75355
+  - ix.xvi/line75383
+  - ix.xvi/line75400
+  - ix.xvi/line75424
+  - ix.xvi/line75446
+  - ix.xvi/line75501
+  - ix.xvi/line75529
+  - ix.xvi/line75548
+  - ix.xvi/line75567
+  - ix.xvi/line75584
+  - ix.xvi/line75606
+  - ix.xvi/line75629
+  - ix.xvi/line75656
+  - ix.xvi/line75712
+  - ix.xvi/line75755
+  - ix.xvi/line75772
+  - ix.xvi/line75802
+  - ix.xvi/line75831
+  - ix.xvi/line75872
   role: tradition
   confidence: assigned
+  language: eng
   note: Bardaisan of Edessa (154-222), the first named voice of Edessene Christianity; the
     dialogue on fate and freedom was penned by his disciple Philippus, which the note records
     rather than minting a second slug. Bardaisan's later condemnation is a fact about him

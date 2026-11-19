@@ -17,8 +17,7 @@ confidence:
     themselves received from the Fathers, not invented by Cassian or by Egypt itself.
 sources:
 - source_id: gallic.source.cassian-institutes
-  locus: "Preface (npnf211 div iv.ii, file lines 16442-16446): Cassian describing the Egyptian and
-    Palestinian customs as themselves handed down by the Fathers"
+  locus: "Preface (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 16444-16446; div iv.ii): Cassian describing the Egyptian and Palestinian customs as themselves handed down by the Fathers"
   license: public-domain
 retrieval:
   tier: 2

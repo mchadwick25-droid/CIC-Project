@@ -1,0 +1,180 @@
+{
+ "changes": [
+  {
+   "movement": "donatism",
+   "field": "relationsSummary",
+   "paragraph": 0,
+   "old": "The rival of the Latin pastoral church of Carthage and Hippo, from which it split over the same persecution. Its bishop Donatus asked what the emperor had to do with the church, the reverse of the church-state alliance of Imperial and Juridical Christianity. And it baptized again those who came over from the other side. Basil of Caesarea, by contrast, wrote that the old rule was to accept the baptism of schismatics.",
+   "new": "This was the rival of the Latin pastoral church of Carthage and Hippo. The two split over the same persecution. Its bishop Donatus asked what the emperor had to do with the church. That was the reverse of the church-state alliance of Imperial and Juridical Christianity. It also baptized again those who came over from the other side. Basil of Caesarea, by contrast, wrote that the old rule was to accept the baptism of schismatics.",
+   "fre_before": 57.4,
+   "fre_after": 63.7,
+   "fk_after": 7.5,
+   "notes": "Fragment 'The rival of...' made a full sentence ('This was the rival...'); 'from which it split' restated as 'The two split'."
+  },
+  {
+   "movement": "donatism",
+   "field": "longDescription",
+   "paragraph": 1,
+   "old": "The empire did not stay neutral. In 347, imperial commissioners sent to force the two churches into one communion met resistance in Numidia; a bishop named Marculus was seized, paraded through several towns, and thrown from a cliff called Novapetra. His church honored him and others killed with him as martyrs, and its own account of his death survives. A rural movement called the circumcellions appears in Optatus's account of these same years. An imperial law of 412 fined them as a class of their own, so they were a real, legally distinct group. But almost everything said about what they did comes from opponents who had reason to make them look like a mob. What the record will support is existence and a name; what it will not support, cleanly, is character.",
+   "new": "The empire did not stay neutral. In 347, imperial commissioners came to force the two churches into one communion, and they met resistance in Numidia. A bishop named Marculus was seized, paraded through several towns, and thrown from a cliff called Novapetra. His church honored him and others killed with him as martyrs, and its own account of his death survives. A rural movement called the circumcellions appears in Optatus's account of these same years. An imperial law of 412 fined them as a class of their own, so they were a real, legally distinct group. But almost everything said about what they did comes from opponents, who had reason to make them look like a mob. The record will support that they existed and had a name. It will not cleanly support a picture of their character.",
+   "fre_before": 58.0,
+   "fre_after": 62.7,
+   "fk_after": 8.3,
+   "notes": "Closing claim restated: 'What the record will support is existence and a name; what it will not support, cleanly, is character' -> 'The record will support that they existed and had a name. It will not cleanly support a picture of their character.' Check the hedge strength is unchanged."
+  },
+  {
+   "movement": "donatism",
+   "field": "longDescription",
+   "paragraph": 2,
+   "old": "The same communion that refused any emperor's standing to say which church was the true one turned to imperial power three times when it served the case — appealing to Constantine in 313, to Julian in 361, and, in the 390s, to the same machinery it condemned everywhere else, against its own breakaway Maximianist bishops. In 411 the emperor finally ordered the whole dispute settled at law: two hundred and seventy-nine of this communion's bishops met roughly two hundred and eighty-six of the rival church's before an imperial judge at Carthage, refused the chairs he offered them, and argued for three days. The verdict went against them, and the laws that followed took their churches by name. The sources say little about the communion under the Vandals, but it was still there under Byzantine rule. In 535 Justinian's law for Africa barred Donatists from holding services. The last surviving word on it comes from Pope Gregory the Great. His letters of the 590s pressed for an inquiry into Donatist rebaptism in Numidia.",
+   "new": "This church denied that any emperor had the standing to say which church was the true one. Yet it turned to imperial power three times when that served its case. It appealed to Constantine in 313 and to Julian in 361. In the 390s it turned the same machinery it condemned everywhere else against its own breakaway bishops, the Maximianists. In 411 the emperor finally ordered the whole dispute settled at law. Two hundred and seventy-nine of its bishops met roughly two hundred and eighty-six from the rival church before an imperial judge at Carthage. They refused the chairs he offered them and argued for three days. The verdict went against them, and the laws that followed took their churches by name. The sources say little about this church under the Vandals, but it was still there under Byzantine rule. In 535 Justinian's law for Africa barred Donatists from holding services. The last surviving word on it comes from Pope Gregory the Great. His letters of the 590s pressed for an inquiry into Donatist rebaptism in Numidia.",
+   "fre_before": 45.7,
+   "fre_after": 60.1,
+   "fk_after": 8.5,
+   "notes": "'this communion' -> 'this church' / 'its'; 'refused any emperor's standing to say' -> 'denied that any emperor had the standing to say'; 'its own breakaway Maximianist bishops' -> 'its own breakaway bishops, the Maximianists'."
+  },
+  {
+   "movement": "donatism",
+   "field": "longDescription",
+   "paragraph": 0,
+   "old": "In 311 or 312 — the sources support both years and this record does not choose between them — Caecilian was elected bishop of Carthage and consecrated by Felix of Aptungi, a man accused of surrendering the Scriptures to be burned under the recent persecution. A rival party would not accept a bishop ordained by a traditor's hand: they consecrated Majorinus beside him instead, not in his place, and from Majorinus's successor Donatus the movement took its name. The doctrine at stake was narrow and absolute: a sacrament's validity rises and falls on the giver's own unbroken purity, so a tainted ordination gives nothing, and everyone it touches must be washed again by a hand that can be trusted. This was never a dispute over the Trinity or Christ's divinity — both parties held the same Nicene faith — but over who could validly give what the church gives, and for a century, across much of Roman Africa, this was simply the larger of the two churches, with its own bishops, its own basilicas, and its own councils contesting the same towns as its rival.",
+   "new": "Caecilian was elected bishop of Carthage in 311 or 312. The sources support both years, and neither can be ruled out. He was consecrated by Felix of Aptungi. Felix was accused of handing over the Scriptures to be burned in the recent persecution. A rival party would not accept a bishop ordained by the hand of such a traditor. They made Majorinus bishop beside him instead, not in his place, and from Majorinus's successor Donatus the movement took its name. The doctrine at stake was narrow and absolute. A sacrament's validity rises and falls on the giver's own unbroken purity. So a tainted ordination gives nothing, and everyone it touches must be washed again by a hand that can be trusted. This was never a fight over the Trinity or whether Christ was God, for both sides held the same Nicene faith. The quarrel was over who could validly give what the church gives. For a century, across much of Roman Africa, this was simply the larger of the two churches. It had its own bishops, its own basilicas, and its own councils, and it fought its rival for the same towns.",
+   "fre_before": 23.9,
+   "fre_after": 60.6,
+   "fk_after": 8.4,
+   "notes": "extra_reason fixed: 'this record does not choose between them' -> 'The sources support both years, and neither can be ruled out.' Reviewer: check 'neither can be ruled out' does not overstate the sources. Also: 'surrendering' -> 'handing over'; 'traditor' now follows the description of the act it names; 'consecrated Majorinus' -> 'made Majorinus bishop'; 'Christ's divinity' -> 'whether Christ was God'; 'parties' -> 'sides'; 'contesting the same towns as its rival' -> 'fought its rival for the same towns'."
+  },
+  {
+   "movement": "hieronymian-ascetic-literary",
+   "field": "longDescription",
+   "paragraph": 0,
+   "old": "In the early 380s, Jerome arrived in Rome and joined a circle of ascetic, scripturally serious women already meeting around the widow Marcella on the Aventine. Paula, another widow, and her daughters Blaesilla and Eustochium belonged to the same circle, and all of them took Jerome as their teacher — a caustic, brilliant scholar with a gift for making enemies. In 384 Blaesilla took up the severe fasting Jerome taught and was dead within four months. At her funeral, Jerome reports, people in the crowd muttered that the monks should be stoned or thrown in the Tiber. His consolation letter to the grieving Paula admits that the whole letter was written in tears.",
+   "new": "In the early 380s, Jerome arrived in Rome. There he joined a circle of ascetic women, serious about Scripture, who already met around the widow Marcella on the Aventine. Paula, another widow, and her daughters Blaesilla and Eustochium belonged to the same circle. All of them took Jerome as their teacher, a caustic, brilliant scholar with a gift for making enemies. In 384 Blaesilla took up the severe fasting Jerome taught, and within four months she was dead. At her funeral, Jerome reports, people in the crowd muttered that the monks should be stoned or thrown in the Tiber. In his letter of comfort to the grieving Paula, he admits that he wrote the whole letter in tears.",
+   "fre_before": 48.6,
+   "fre_after": 60.4,
+   "fk_after": 9.0,
+   "notes": "'consolation letter' -> 'letter of comfort'; 'ascetic, scripturally serious women' -> 'ascetic women, serious about Scripture'."
+  },
+  {
+   "movement": "hieronymian-ascetic-literary",
+   "field": "longDescription",
+   "paragraph": 2,
+   "old": "Not one word any of these women wrote in her own hand has survived; what is known of them comes only through Jerome's letters, or through others describing letters now lost. In the community's last years, an attack tied to the Pelagian dispute set fire to the Bethlehem monasteries. Eustochium and her niece Paula sent Rome an account of it. Pope Innocent, writing to the bishop of Jerusalem, praised the \"wonderful clemency\" with which they had left the attacker's name untold.",
+   "new": "Not one word that any of these women wrote in her own hand has survived. What is known of them comes only through Jerome's letters, or through others who describe letters now lost. In the community's last years, an attack tied to the Pelagian dispute set fire to the Bethlehem monasteries. Eustochium and her niece Paula sent Rome an account of it. Writing to the bishop of Jerusalem, Pope Innocent praised the \"wonderful clemency\" with which they had left the attacker's name untold.",
+   "fre_before": 55.7,
+   "fre_after": 61.6,
+   "fk_after": 8.8,
+   "notes": ""
+  },
+  {
+   "movement": "hieronymian-ascetic-literary",
+   "field": "legacy",
+   "paragraph": 0,
+   "old": "The Vulgate became the Bible of the Latin West for over a thousand years — the text medieval theology argued from, the text later translators worked from or against, and the text the Council of Trent declared authentic in 1546. Its rise was not immediate or uncontested. Augustine quoted Jerome's Hebrew version at times, but he never gave it the old version's authority. Writing after Jerome's death, he granted that even the Jews judged the work faithful, yet 'the churches of Christ judge that no one should be preferred to the authority' of the Seventy translators. In the 590s, Pope Gregory the Great still drew on both the new Latin version and the old.",
+   "new": "The Vulgate became the Bible of the Latin West for over a thousand years. Medieval theology argued from it, and later translators worked from it or against it. In 1546 the Council of Trent declared it the authentic text. Its rise was not immediate or uncontested. Augustine quoted Jerome's Hebrew version at times, but he never gave it the old version's authority. Writing after Jerome's death, he granted that even the Jews judged the work faithful. Yet, he wrote, 'the churches of Christ judge that no one should be preferred to the authority' of the Seventy translators. In the 590s, Pope Gregory the Great still drew on both the new Latin version and the old.",
+   "fre_before": 53.4,
+   "fre_after": 62.5,
+   "fk_after": 8.1,
+   "notes": "'declared authentic' -> 'declared it the authentic text'; 'he wrote' added outside the quotation, which is unchanged character for character."
+  },
+  {
+   "movement": "hieronymian-ascetic-literary",
+   "field": "legacy",
+   "paragraph": 1,
+   "old": "Its principle mattered as much as its content. Jerome insisted on going back to the Hebrew rather than resting on the Greek. Later scholars of the Renaissance and Reformation made the same kind of appeal to the original languages, and in the end they turned it on the Vulgate itself.",
+   "new": "Its principle mattered as much as its content. Jerome insisted on going back to the Hebrew instead of resting on the Greek. Scholars of the Renaissance and Reformation later made the same kind of appeal to the original languages. In the end, they turned it on the Vulgate itself.",
+   "fre_before": 59.6,
+   "fre_after": 63.2,
+   "fk_after": 7.5,
+   "notes": ""
+  },
+  {
+   "movement": "jerusalem-liturgical-pilgrimage-christianity",
+   "field": "relationsSummary",
+   "paragraph": 0,
+   "old": "A near neighbor of Jerome's circle at Bethlehem, whose members worshipped at Jerusalem's holy places even as Jerome wrote that heaven was as near from Britain.",
+   "new": "This was a near neighbor of Jerome's circle at Bethlehem. Its members worshipped at the holy places of Jerusalem. Yet Jerome wrote that heaven was as near from Britain.",
+   "fre_before": 37.3,
+   "fre_after": 62.8,
+   "fk_after": 6.9,
+   "notes": "'even as' -> 'Yet' (new sentence)."
+  },
+  {
+   "movement": "jerusalem-liturgical-pilgrimage-christianity",
+   "field": "longDescription",
+   "paragraph": 0,
+   "old": "Once Constantine's builders uncovered what they took to be the tomb of Christ and raised a great church complex over it in the 330s, Jerusalem became something no other city was. A place where the events of the gospel could be commemorated on the day and at the spot they were believed to have happened. Its clergy built a liturgy out of exactly that — Palm Sunday as an actual procession down the Mount of Olives with branches in hand, the veneration of the Cross on Good Friday, an all-night vigil at the tomb at Easter. And the crowds who came to see it wrote home about what they saw. One of those visitors, a woman from the Latin west named Egeria, kept a detailed travel diary in the early 380s recording precisely what was done and when. The manuscript disappeared for centuries. It was found again at Arezzo, in Italy, in 1883, and it remains the single most valuable eyewitness account of early Christian worship anywhere. What makes this community hard to pin down is the very thing that made it distinctive. It was always part settled and part passing through — resident clergy and monks, local Christians, and a constant flow of pilgrims from every corner of the Christian world.",
+   "new": "Constantine's builders uncovered what they took to be the tomb of Christ, and in the 330s they raised a great church complex over it. From then on Jerusalem was something no other city was. Here the events of the gospel could be marked on the day and at the spot they were believed to have happened. Its clergy built a liturgy out of exactly that. Palm Sunday became an actual procession down the Mount of Olives with branches in hand. Good Friday brought the veneration of the Cross, and Easter an all-night vigil at the tomb. The crowds who came to see it wrote home about what they saw. One of those visitors was a woman from the Latin west named Egeria. In the early 380s she kept a detailed travel diary of exactly what was done and when. The manuscript disappeared for centuries. It was found again at Arezzo, in Italy, in 1883, and it remains the single most valuable eyewitness account of early Christian worship anywhere. What makes this community hard to pin down is the very thing that made it distinctive. It was always part settled and part passing through: resident clergy and monks, local Christians, and a constant flow of pilgrims from every corner of the Christian world.",
+   "fre_before": 54.6,
+   "fre_after": 64.6,
+   "fk_after": 8.3,
+   "notes": "'commemorated' -> 'marked'. The 330s date stays attached to raising the church complex, not to the uncovering, as in the original. Fragment 'A place where...' made a full sentence."
+  },
+  {
+   "movement": "jerusalem-liturgical-pilgrimage-christianity",
+   "field": "why",
+   "paragraph": 0,
+   "old": "Once Constantine's builders raised a great church complex over what they took to be the tomb of Christ in the 330s, Jerusalem's clergy built a liturgy out of commemorating the gospel on the actual day and at the actual place it happened — a Palm Sunday procession down the Mount of Olives with branches in hand, the veneration of the Cross on Good Friday, an all-night vigil at the tomb at Easter. A western pilgrim named Egeria kept a detailed diary in the early 380s recording exactly what was done and when. The manuscript was lost for centuries and found again at Arezzo, in Italy, in 1883.",
+   "new": "In the 330s Constantine's builders raised a great church complex over what they took to be the tomb of Christ. Jerusalem's clergy then built a liturgy that marked the gospel on the actual day and at the actual place it happened. They held a Palm Sunday procession down the Mount of Olives with branches in hand. They venerated the Cross on Good Friday and kept an all-night vigil at the tomb at Easter. A western pilgrim named Egeria kept a detailed diary in the early 380s of exactly what was done and when. The manuscript was lost for centuries and found again at Arezzo, in Italy, in 1883.",
+   "fre_before": 41.7,
+   "fre_after": 64.0,
+   "fk_after": 8.8,
+   "notes": "'commemorating' -> 'marked'; the liturgy list became two sentences with 'They held' / 'They venerated ... and kept'."
+  },
+  {
+   "movement": "jerusalem-liturgical-pilgrimage-christianity",
+   "field": "legacy",
+   "paragraph": 0,
+   "old": "Jerusalem's calendar became everyone's calendar. Keeping Holy Week as a sequence of days, each commemorating a specific event — the Palm Sunday procession, Maundy Thursday, the Good Friday veneration of the Cross, the Easter vigil — spread west from here, and it is still how most of the Christian world keeps Easter. So did the idea of pilgrimage itself as a Christian practice, and with it the habit of building churches that copy the shape of Jerusalem's holy places. The lectures of Cyril, bishop of Jerusalem, remain a primary source for how baptism and communion were explained to newcomers in the fourth century. Egeria's diary is read wherever early liturgy is studied.",
+   "new": "Jerusalem's calendar became everyone's calendar. Holy Week came to be kept as a run of days, each one marking its own event. There was the Palm Sunday procession, Maundy Thursday, the Good Friday veneration of the Cross, and the Easter vigil. That way of keeping it spread west from here, and it is still how most of the Christian world keeps Easter. The idea of pilgrimage itself as a Christian practice spread too. With it came the habit of building churches that copy the shape of Jerusalem's holy places. Cyril was bishop of Jerusalem. His lectures are still a primary source for how the church explained baptism and communion to newcomers in the fourth century. Egeria's diary is read wherever early liturgy is studied.",
+   "fre_before": 40.7,
+   "fre_after": 60.5,
+   "fk_after": 8.2,
+   "notes": "'specific event' -> 'its own event'; Cyril sentence split; 'how baptism and communion were explained' -> 'how the church explained baptism and communion' (agent made explicit; check acceptable)."
+  },
+  {
+   "movement": "priscillianist-asceticism",
+   "field": "longDescription",
+   "paragraph": 0,
+   "old": "In the 370s a Spanish layman named Priscillian began teaching a severe ascetic Christianity in the western provinces — fasting, celibacy, retreat to the countryside for study and prayer, lay men and women reading Scripture together outside the bishops' supervision. And it spread fast enough to alarm the Spanish and Gallic bishops, who condemned the movement at a council in Saragossa around 380. His supporters responded by making him bishop of Ávila. He went to Rome and Milan to clear himself, and was turned away by both bishops, Ambrose of Milan among them. His opponents called his teaching the heresy of the Gnostics, accused him of sorcery, and carried the case to the imperial court. Later churchmen likened it to Manichaeism. Around 385, at Trier, the usurping emperor Magnus Maximus had Priscillian and several companions tried and put to death. So far as anyone can tell, the first time a Christian state executed Christians over belief. It shocked people at the time. Martin of Tours had begged the emperor not to shed the blood of the accused. A secular ruler, he said, had no place judging a church case. The bishops who had pressed the charges were disgraced for it.",
+   "new": "In the 370s a Spanish layman named Priscillian began teaching a severe ascetic Christianity in the western provinces. It meant fasting, celibacy, and retreat to the countryside for study and prayer. Lay men and women read Scripture together, outside the bishops' oversight. It spread fast enough to alarm the bishops of Spain and Gaul. They condemned it at a council in Saragossa around 380. His supporters answered by making him bishop of Ávila. He went to Rome and Milan to clear himself, and was turned away by both bishops, Ambrose of Milan among them. His opponents called his teaching the heresy of the Gnostics, accused him of sorcery, and took the case to the emperor's court. Later churchmen likened it to Manichaeism. Around 385, at Trier, the usurping emperor Magnus Maximus had Priscillian and several companions tried and put to death. So far as anyone can tell, it was the first time a Christian state executed Christians over belief. It shocked people at the time. Martin of Tours had begged the emperor not to shed the blood of the accused. A secular ruler, he said, had no place judging a church case. The bishops who had pressed the charges were disgraced for it.",
+   "fre_before": 53.2,
+   "fre_after": 60.2,
+   "fk_after": 8.2,
+   "notes": "'imperial court' -> 'emperor's court'; 'supervision' -> 'oversight'; 'Spanish and Gallic bishops' -> 'bishops of Spain and Gaul'; 'responded' -> 'answered'; fragment 'So far as anyone can tell, the first time...' made a full sentence. 'condemned the movement' -> 'condemned it'."
+  },
+  {
+   "movement": "priscillianist-asceticism",
+   "field": "why",
+   "paragraph": 0,
+   "old": "In the 370s the Spanish layman Priscillian taught a severe asceticism — fasting, celibacy, retreat to the countryside, lay men and women reading Scripture together outside the bishops' supervision — that spread fast enough to alarm the Spanish and Gallic bishops. His opponents called it the heresy of the Gnostics, accused him of sorcery, and carried the case to the imperial court. Around 385 the usurping emperor Magnus Maximus had him and several companions tried and executed at Trier. It was apparently the first time a Christian state put Christians to death over belief. Martin of Tours objected to churchmen taking a doctrinal quarrel to an executioner, and begged the emperor to spare the accused.",
+   "new": "In the 370s the Spanish layman Priscillian taught a severe ascetic life. It meant fasting, celibacy, and retreat to the countryside. Lay men and women read Scripture together, outside the bishops' oversight. It spread fast enough to alarm the bishops of Spain and Gaul. His opponents called it the heresy of the Gnostics and accused him of sorcery. They took the case to the emperor's court. Around 385 Magnus Maximus, an emperor who had seized the throne, had him and several companions tried at Trier and put to death. It was apparently the first time a Christian state put Christians to death over belief. Martin of Tours objected to churchmen who took a quarrel over doctrine to the executioner. He begged the emperor to spare the accused.",
+   "fre_before": 37.6,
+   "fre_after": 61.8,
+   "fk_after": 7.8,
+   "notes": "'the usurping emperor Magnus Maximus' -> 'Magnus Maximus, an emperor who had seized the throne'; 'a severe asceticism' -> 'a severe ascetic life'; 'doctrinal quarrel' -> 'quarrel over doctrine'; 'an executioner' -> 'the executioner'; 'imperial court' -> 'emperor's court'."
+  },
+  {
+   "movement": "anomoean-eunomian-christianity",
+   "field": "relationsSummary",
+   "paragraph": 0,
+   "old": "The radical wing of the fourth-century Arian controversy, and a different party from the Homoians it is usually filed with. The break began at Constantinople in 360, when a Homoian council deposed Aetius. This is who the Cappadocians wrote against, and who Constantinople I anathematized by name.",
+   "new": "This was the radical wing of the Arian dispute in the fourth century. It was a different party from the Homoians, though it is usually filed with them. The break began at Constantinople in 360. That year a Homoian council deposed Aetius. This is the party the Cappadocians wrote against. It is also the one the First Council of Constantinople formally cursed by name.",
+   "fre_before": 37.9,
+   "fre_after": 61.9,
+   "fk_after": 7.2,
+   "notes": "'Arian controversy' -> 'Arian dispute'; 'Constantinople I anathematized by name' -> 'the First Council of Constantinople formally cursed by name' (check 'formally cursed' is an acceptable plain rendering of 'anathematized'; the term itself is kept in the longDescription)."
+  },
+  {
+   "movement": "anomoean-eunomian-christianity",
+   "field": "longDescription",
+   "paragraph": 0,
+   "old": "In the 350s a deacon at Antioch named Aetius began teaching the Arian case in its sharpest possible form. Where others said the Son was like the Father, or like him in all things, Aetius said he was unlike him - anomoios - in essence, and argued it with a formal rigor that made his opponents call him a sophist and an atheist. His pupil and secretary Eunomius carried the position further and gave it its most confident claim: that God's essence is simply ingeneracy, that this can be stated, and that a human being can therefore know God's essence as God knows it himself. Eunomius was made bishop of Cyzicus in 360 and driven out within a year. The break with the Homoians began at Constantinople in the same year, when their council confirmed the Homoian creed and deposed Aetius. Within a few years Eunomius and Aetius had broken away entirely, so filing the two parties together misreads the controversy. It was against these men, and against that claim about knowing God, that Basil, Gregory of Nyssa and Gregory of Nazianzus wrote some of the most demanding theology of the century. The Council of Constantinople in 381 anathematized Eunomians by name in its first canon, imperial law suppressed their assemblies, and the sect faded through the fifth century.",
+   "new": "In the 350s a deacon at Antioch named Aetius began teaching the Arian case in its sharpest possible form. Others said the Son was like the Father, or like him in all things. Aetius said he was unlike him - anomoios - in essence. He argued it with a formal rigor that made his opponents call him a sophist and an atheist. His pupil and secretary Eunomius carried the position further. He gave it its most confident claim. God's essence, he said, is simply ingeneracy. This, he held, can be stated, and so a human being can know God's essence as God knows it himself. Eunomius was made bishop of Cyzicus in 360 and driven out within a year. The break with the Homoians began at Constantinople in the same year. Their council there confirmed the Homoian creed and deposed Aetius. Within a few years Eunomius and Aetius had broken away entirely, so to file the two parties together is to misread the dispute. Basil, Gregory of Nyssa and Gregory of Nazianzus wrote some of the most demanding theology of the century against these men, and against that claim about knowing God. The Council of Constantinople in 381 anathematized Eunomians by name in its first canon. Imperial law banned their meetings, and the sect faded through the fifth century.",
+   "fre_before": 45.8,
+   "fre_after": 60.9,
+   "fk_after": 8.3,
+   "notes": "'suppressed their assemblies' -> 'banned their meetings'; 'filing the two parties together misreads the controversy' -> 'to file the two parties together is to misread the dispute'; Eunomius's claims kept attributed to him ('he said', 'he held'). 'ingeneracy' is still not glossed, as in the original."
+  }
+ ]
+}

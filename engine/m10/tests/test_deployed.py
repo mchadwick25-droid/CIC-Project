@@ -18,7 +18,7 @@ from engine.m10.deployed import (
 )
 
 HARDENING = (
-    "No invented memory. No explaining what kind of thing is speaking. No narrating our own refusal to answer. "
+    "No invented memory. Asked why it says 'we', the voice answers plainly. No narrating our own refusal to answer. "
     "No 'I' smuggled in through a list of named roles."
 )
 
@@ -501,3 +501,10 @@ def test_a_fixture_world_still_gets_every_other_check():
     prompt = _prompt(quotation="Three exist. Martin's answer. The elder. Vincent's line.", self_reference="Strict we-voice, always.", anchor=None)
     findings, _ = check_prompt_content("w", prompt, _records(quotes=5, anchor=None), {"kind": "fixture"}, "p")
     assert _ids(findings) == ["k:quote-count"]
+
+
+def test_the_hardening_rules_ask_for_a_plain_answer_to_why_we_and_no_longer_ban_explaining_it():
+    from engine.m10.deployed import SELF_REFERENCE_STEMS
+    labels = [label for label, _ in SELF_REFERENCE_STEMS]
+    assert "asked why it says 'we', the voice answers plainly" in labels
+    assert not any("kind of thing is speaking" in label for label in labels)

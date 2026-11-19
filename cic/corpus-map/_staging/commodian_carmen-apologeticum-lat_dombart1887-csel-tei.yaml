@@ -21,4 +21,11 @@ assignments:
       ; ready to quote once each quote is verified verbatim against this
       file, with the raw CSEL 15 scan (commodian_carmina-lat_dombart-csel15.txt) as the check on
       the printed page. CC BY-SA 4.0, so attribution and share-alike travel with any quotation.
+    locus_ids:
+    - CTS urn:cts:latinLit:stoa0096.stoa004.opp-lat2
+    - no textpart divisions in the file; verse lines are carried by <lb n="..."/> (n=1 to 955 where numbered)
+    language: lat
+    date:
+      formation_confidence: unknown
+      checked: 'date window as first recorded: mainstream: mid-third century to 313; Harnack: not before c. 260 and probably after the persecution of Diocletian; minority: fifth century (Brewer); source: Dombart 1887 preface; Harnack 1904; Monceaux 1901 III; Sub-claim: that he used Cyprian, Tertullian and Minucius (so is later than they) is Widely Accepted.; first recorded confidence: Contested'
 

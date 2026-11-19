@@ -1,11 +1,11 @@
 Title: Historie der Wiedergebohrnen, oder Exempel gottseliger, so bekannt- und benannt- als unbekannt- und unbenannter Christen, männlichen und weiblichen Geschlechts, allerley Ständen, wie dieselbe erst von Gott gezogen und bekehret, und nach vielen Kämpffen und Ängsten durch Gottes Geist und Wort zum Glauben und Ruh ihres Gewissens gebracht seynd; V. Theil
 Creator: Johann Henrich Reitz (1655-1720), compiler
-Publisher: No place given: 'Gedruckt im Jahr Christi 1715'
-Publication Date: 1715
-Rights: Public Domain (published 1715, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)
+Publisher: No place given: 'Gedruckt im Jahr Christi 1717' (the title page, read on the page image; the OCR at file line 51 reads 1715)
+Publication Date: 1717
+Rights: Public Domain (published 1717, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)
 Language: deu
 Source: Internet Archive item 10070755bsb (https://archive.org/details/10070755bsb), the item's own 10070755bsb_djvu.txt full-text OCR derivative; contributing library per the item metadata: not named in the item metadata; host metadata date: 1717. Fetched directly (curl/urllib, raw bytes) by the Library thread (Era VIII pass), 2026-10-23. sha256 of the raw fetched bytes: 23a35576ca12e57a3a0da1f13c490f3f6f24340ae230bc3b0789161212ad9300.
-Provenance note: Header prepended by the Library thread; nothing else altered, no OCR error corrected, nothing retyped. Bavarian State Library scan; Fraktur OCR with the long s kept, readable. Part five; the host dates it 1717 with its companions, the title page 1715.
+Provenance note: Header prepended by the Library thread; nothing else altered, no OCR error corrected, nothing retyped. Bavarian State Library scan; Fraktur OCR with the long s kept, readable. Part five; the host dates it 1717 with its companions, and the title page prints 1717.
 Content note: Part five of Reitz's conversion-narrative collection, with a preface that cites Burnet's lives; narratives of named and unnamed Christians of both sexes.
 
 ---

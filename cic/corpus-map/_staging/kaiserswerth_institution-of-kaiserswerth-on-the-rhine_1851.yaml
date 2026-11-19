@@ -1,0 +1,21 @@
+source_file: kaiserswerth_institution-of-kaiserswerth-on-the-rhine_1851.txt
+assignments:
+- row_id: kaiserswerth_institution-of-kaiserswerth-on-the-rhine_1851--the-institution-of-kaiserswerth-on-the-rhine-for-the
+  work: The Institution of Kaiserswerth on the Rhine, for the practical training of deaconesses, under the direction
+  author: kaiserswerth
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - the-reveil-and-inner-mission-awakening
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1851
+    end: 1851
+    source: 'the printing''s own title page: OCR line 10, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1851
+    source: OCR line 10, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 223, the Fliedners: an English account of Kaiserswerth.'

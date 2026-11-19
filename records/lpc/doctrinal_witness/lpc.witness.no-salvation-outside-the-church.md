@@ -93,7 +93,6 @@ text: 'Cyprian wrote that there is no salvation outside the Church. He wrote it 
   us. He told him what awaits those who will not believe. On the day of judgment, he wrote, "an ever-burning
   Gehenna will burn up the condemned." There will be no "respite or end to their torments." Yet he pressed
   the same man to turn while he lived. "To him who still remains in this world," he wrote, "no repentance
-  is too late." He did not write of people who never heard of Christ. We do not claim to know what he
-  would have said of them.'
+  is too late."'
 ---
 Grounded directly in Cyprian, Epistle LXXII to Jubaianus, section 21 (ANF numbering; Oxford and Hartel 73), and On the Unity of the Church, section 6, and To Demetrianus, sections 24 and 25 -- verified against the vendored files at the lines above. The quoted phrases are the ANF English word for word. An ANF editor's bracketed note after "out of the Church," in Epistle LXXII, which says the maxim "has been terribly misunderstood and cruelly abused," is not Cyprian's and is left out. On the Unity of the Church section 6 lies outside sections 4 and 5, the passage whose two recensions are the subject of lpc.contested.de-unitate-recensions. The sources give no date for either passage in this record. To Demetrianus is addressed to a pagan; its two passages are quoted whole, and the sentences after section 24, on bodies kept in infinite tortures, are left out. The Latin of Epistle LXXII is OCR text with misreads.

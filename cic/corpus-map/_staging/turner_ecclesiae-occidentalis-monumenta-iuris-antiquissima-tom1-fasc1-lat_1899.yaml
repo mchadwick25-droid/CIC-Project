@@ -9,6 +9,8 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
+    language: lat
+    date: {formation_confidence: unknown, checked: "the row points at file lines 18788-18793, a heading naming a 419 session, in an 1899 edition of canon collections; no work with its own dated window is identified there"}
     note: >
       A modern (1899) edition of the Latin versions of the Greek canons. It does not print the
       African canons or the Registri Ecclesiae Carthaginensis Excerpta. Registry row 237.

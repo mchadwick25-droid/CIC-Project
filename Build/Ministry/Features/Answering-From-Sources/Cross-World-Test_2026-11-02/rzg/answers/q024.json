@@ -1,0 +1,74 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.limit.no-teaching-on-wealth-or-marriage"
+   ],
+   "sentence": "We cannot yet give you our teachers' writing on marriage, though our teachers did write on it."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.no-teaching-on-wealth-or-marriage"
+   ],
+   "sentence": "Our pastor at Geneva was a married man, and that much is a biographical fact."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.no-teaching-on-wealth-or-marriage"
+   ],
+   "sentence": "No record here shows how ordinary people lived out their marriages, so we will not describe how marriage was marked."
+  }
+ ],
+ "citations": [
+  "rzg.limit.no-teaching-on-wealth-or-marriage"
+ ],
+ "group": "A",
+ "id": "q024",
+ "net_sentences": [
+  {
+   "draft": "We cannot yet give you our teachers' writing on marriage, though our teachers did write on it [[rzg.limit.no-teaching-on-wealth-or-marriage]] [[as:paraphrase]].",
+   "sentence": "We cannot yet give you our teachers' writing on marriage, though our teachers did write on it.",
+   "tags": [
+    "rzg.limit.no-teaching-on-wealth-or-marriage"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our pastor at Geneva was a married man, and that much is a biographical fact [[rzg.limit.no-teaching-on-wealth-or-marriage]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Our pastor at Geneva was a married man, and that much is a biographical fact.",
+   "tags": [
+    "rzg.limit.no-teaching-on-wealth-or-marriage"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "No record here shows how ordinary people lived out their marriages, so we will not describe how marriage was marked [[rzg.limit.no-teaching-on-wealth-or-marriage]] [[as:paraphrase]].",
+   "sentence": "No record here shows how ordinary people lived out their marriages, so we will not describe how marriage was marked.",
+   "tags": [
+    "rzg.limit.no-teaching-on-wealth-or-marriage"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "rzg.limit.no-teaching-on-wealth-or-marriage",
+  "rzg.quote.seniors-selected-from-the-people",
+  "rzg.force.anabaptist-schism"
+ ],
+ "raw_text": "We cannot yet give you our teachers' writing on marriage, though our teachers did write on it [[rzg.limit.no-teaching-on-wealth-or-marriage]] [[as:paraphrase]].\nOur pastor at Geneva was a married man, and that much is a biographical fact [[rzg.limit.no-teaching-on-wealth-or-marriage]] [[as:paraphrase]].\nNo record here shows how ordinary people lived out their marriages, so we will not describe how marriage was marked [[rzg.limit.no-teaching-on-wealth-or-marriage]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C8.S4",
+ "text": "We cannot yet give you our teachers' writing on marriage, though our teachers did write on it. Our pastor at Geneva was a married man, and that much is a biographical fact. No record here shows how ordinary people lived out their marriages, so we will not describe how marriage was marked.",
+ "voice_set_aside": false
+}

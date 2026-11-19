@@ -1,0 +1,26 @@
+{
+ "round": 3,
+ "kind": "targeted recheck",
+ "verdict": "revise",
+ "counts": {
+  "blocking": 0,
+  "substantial": 1,
+  "minor": 0,
+  "links_checked": 12,
+  "prose_changes_checked": 27,
+  "retired_links_checked": 1,
+  "quotes_rechecked": 60
+ },
+ "fabrication_found": false,
+ "notes": "Scope: the round 2 fixes, the re-application after the merge of main (4cae5c09), and ruling 1's fields; no new full review. (1) R2-01: early-benedictine-italian-monasticism.legacy in the census equals Revision_Round2's 'new' exactly. The sentence now reads 'An earthquake later brought it down, and Allied bombing in 1944 is reported to have destroyed it.' It adds no claim, and ruling 6's guard is met. score_turn: FRE 64.8, FK 7.3, no failures (FK sits under the grade-8 floor, which is a floor worth staying above, not a fail). The 1944 want is in Revision_Round2's wants. R2-02: both Huntemann note-1 sources sit after the no. 1007 entries and before the preface, as written. Both quotes match the file verbatim (whitespace-normalized): 79964-79965 'Item similis bulla de verbo ad verbum, excepto quod ubi superius est hoc vocabulum witramontanis in alia', and 80034 'est cismontanis et econtra;'. The note and outcome stand as written: note FRE 63.7, FK 8.4; outcome FRE 69.5, FK 9.3, 24 words, no failures. (2) Re-application: every link and prose change in Draft_Ruling2/5/6, Revision_Round1 (less n=12) and Revision_Round2 was checked against the census, with the last record winning where two touch the same item (R6 n=3/4/5/10/11/13/15 are superseded by Revision_Round1 and Revision_Round2). That is 12 links and 27 fields; all match. The two retypes (byzantine-church-after-1054--kievan-rus-christianity-1054-1240; latin-papal-church-gregorian--the-carmelites) are now 'in contact with'. The Ite vos link (franciscan-order-era-6--latin-papal-church-avignon-to-lateran-v--2) and the papal-church-to-Observants link match. Two links differ only in that the census pads quote-less secondary sources with null file/lines/locus/quote/license; no content differs. The retired link latin-papal-church-avignon-to-lateran-v--inquisition-record-sects-adamites-and-kin is gone from edges and is in retiredLinks, replaced by the free-spirit link. All 60 quotes on the 12 links match their files at the stated lines. Ruling 1's rename is in place: name 'The Church of the East — Timur's Catastrophe and the Northern Remnant', region 'Mesopotamia, then the Upper Tigris and the Hakkari-Van-Urmia triangle', placeLabel 'Upper Tigris · Hakkari-Van-Urmia triangle', informalName 'The Northern Remnant of Asia's Great Church', and the schism statusDescription reads 'after Timur'. (3) See R3-01. (4) node tools/validate-census.mjs: 300 movements, 445 edges, 10 eras, 0 errors, and the same 2 shortName warnings as before. Not a finding, outside ruling 1's named fields: the schism movement's own region 'Mesopotamia, Hakkari; Rome' and placeLabel 'Mesopotamia · Hakkari and beyond' (dates 1517-1650) were era 7's and were untouched by the rulings. Ruling 1 named the Timur movement's place label, not this one. Whether either patriarchal line sat in Hakkari before 1650 is the same question as the era 7 schism-to-Chaldean note's 'Later writers disagree', so it is left to era 7's own record. Round cap: this is the third review on this work. R3-01 comes from the merge, not from the round 2 revision, and its fix is one sentence. Under the cap, a fix applied as written here should not need a fourth review round. If it is contested, it escalates to Mark.",
+ "findings": [
+  {
+   "id": "R3-01",
+   "severity": "substantial",
+   "target": "movement church-of-the-east-schism-of-1552 (relationsSummary), ruling 1",
+   "problem": "Ruling 1 orders 'the era 7 schism summary to match' the rename, because 'Hakkari outran the sources': the late-fifteenth-century patriarchs sat at Gazarta and Mosul, and only the survivors were in the Hakkari mountains. When era 7 rewrote the summary, it turned the old movement name ('Told within the Church of the East, Timur to Hakkari') into a place claim: 'The story grows out of the Church of the East of Timur's age and the Hakkari mountains.' That sentence says the 1552 schism grew out of the Hakkari mountains, which is the reading ruling 1 rejected. It also brings back the declined name by another route. The movement's own longDescription puts the sixteenth-century patriarchate in 'the mountains and plains of Mesopotamia', not Hakkari. The branch's pre-merge text ('Told within the Church of the East after Timur') had matched the ruling. Dropping Revision_Round1 n=12 at the merge also dropped that match.",
+   "evidence": "Decision-Log 2026-11-08 ruling 1 (lines 436-441). Era 7 Draft_GroupG.json prose change ('old' ... 'Told within the Church of the East, Timur to Hakkari'; 'new' ... 'and the Hakkari mountains'). Census church-of-the-east-schism-of-1552.longDescription. Revision_Round1 n=12 'new'.",
+   "proposed_fix": "relationsSummary: replace 'The story grows out of the Church of the East of Timur's age and the Hakkari mountains.' with 'The story grows out of the Church of the East after Timur.' This matches the statusDescription's wording and adds no claim. Field after the change: FRE 60.7, FK 7.8, no failures (score_turn). Leave the rest of era 7's rewrite as it stands."
+  }
+ ]
+}

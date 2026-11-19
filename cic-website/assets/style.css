@@ -1,5 +1,3 @@
-/* Church in Conversation — public site stylesheet
-   Brand system: CiC_UX_Design_Brand_Brief_V1_0.md / Messaging & Branding Kit V0.2 */
 
 :root {
   --parchment: #F7F3EB;
@@ -54,7 +52,6 @@ a:hover { color: var(--gold-leaf); }
   top: 1rem;
 }
 
-/* Header */
 header.site-header {
   border-bottom: 1px solid var(--rule);
   background: var(--vellum);
@@ -77,9 +74,6 @@ header.site-header {
 }
 .brand img { width: 34px; height: 34px; }
 
-/* "Arriving" mark motion — Logo & Motion Brief V1.0 (Build/Ministry/Technology).
-   Binding: plays once per page arrival, then the breath continues; the dot
-   never enters the ring; no interaction reacts to the cursor. */
 .arriving-mark svg { display: block; width: 34px; height: 34px; }
 .arriving-mark .arriving-ring {
   fill: none; stroke: currentColor; stroke-width: 11; stroke-linecap: round;
@@ -117,18 +111,7 @@ header.site-header {
   font-size: 1.2rem;
   letter-spacing: 0.01em;
 }
-/* Logo, wordmark, the three feature buttons, and the site nav all in one
-   row: the nav collapses into a "Menu" dropdown since all four don't fit
-   alongside the rest in one row at this header's own 60rem width. */
 .menu { position: relative; margin-left: auto; }
-/* Centered in the space actually available between the logo and the menu
-   button, not naive full-row-width centering (that ignores the wordmark's
-   and menu button's own widths and can visually collide with the
-   wordmark). Grid's max-content/1fr/max-content sizes the outer two
-   columns to the wordmark's and menu's own content exactly, so the
-   middle column is whatever's genuinely left, with no risk of
-   overlapping either side -- only turned on above the width where the
-   whole row fits unwrapped. */
 @media (min-width: 1000px) {
   .site-header .wrap { display: grid; grid-template-columns: max-content 1fr max-content; column-gap: 1rem; }
   .menu { margin-left: 0; }
@@ -155,11 +138,6 @@ header.site-header {
 }
 .menu-caret { width: 0.65rem; height: 0.65rem; flex: 0 0 auto; transition: transform 0.15s ease; }
 .menu-toggle[aria-expanded="true"] .menu-caret { transform: rotate(180deg); }
-/* top: 100% with zero gap to the button, margin-top for the visual gap
-   instead -- any gap via `top` alone is a dead zone the pointer crosses
-   with no element under it, which drops :hover before the pointer
-   reaches the menu. The ::before bridges that margin-top gap so :hover
-   survives the crossing. */
 nav.site-nav {
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 0.9rem;
@@ -192,7 +170,6 @@ nav.site-nav a {
 nav.site-nav a:hover, nav.site-nav a:focus-visible { background: rgba(42,37,33,0.06); }
 nav.site-nav a[aria-current="page"] { color: var(--madder); }
 
-/* Hero */
 .hero {
   max-width: 60rem;
   margin: 0 auto;
@@ -243,7 +220,6 @@ nav.site-nav a[aria-current="page"] { color: var(--madder); }
 .btn.secondary { background: transparent; color: var(--madder); }
 .btn.secondary:hover { background: rgba(161,62,43,0.07); }
 
-/* Sections */
 .narration { display: flex; align-items: center; gap: .55rem; flex-wrap: wrap; margin: .3rem 0 .8rem; }
 .narration audio { display: block; height: 1.9rem; max-width: 220px; width: 220px; flex: 0 0 auto; }
 .narration-disclosure { font-size: .78rem; color: var(--muted); margin: 0; }
@@ -277,7 +253,6 @@ section.page-section:first-child { border-top: none; }
 .page-section p { margin: 0 0 1.1rem; }
 .page-section p:last-child { margin-bottom: 0; }
 
-/* Convictions list */
 ol.convictions {
   list-style: none;
   margin: 0;
@@ -311,7 +286,6 @@ ol.convictions li::before {
 ol.convictions h3 { margin: 0 0 0.35rem; font-size: 1.1rem; }
 ol.convictions p { color: var(--muted); margin: 0; }
 
-/* Callout / status box */
 .callout {
   background: var(--vellum);
   border: 1px solid var(--rule);
@@ -332,7 +306,6 @@ ol.convictions p { color: var(--muted); margin: 0; }
   margin: 0 0 0.5rem;
 }
 
-/* World strip on home */
 .worlds-strip {
   max-width: 60rem;
   margin: 0 auto;
@@ -376,7 +349,6 @@ ol.convictions p { color: var(--muted); margin: 0; }
   color: var(--muted);
 }
 
-/* Footer */
 footer.site-footer {
   border-top: 1px solid var(--rule);
   background: var(--vellum);
@@ -402,9 +374,6 @@ header.site-header, footer.site-footer, .world-card, .callout { background: #1E1
 nav.site-nav a { color: #F1E9DD; }
 .hero p.lede, .page-section p, footer.site-footer, footer.site-footer a { color: #B8AEA1; }
 :root { --rule: rgba(241,233,221,0.16); --muted: #B8AEA1; }
-/* --madder/--gold-leaf stay unchanged (button fills need the darker value for
-   contrast against light text) - these overrides lighten the SAME hues only
-   where they're used as text/border color on the near-black background. */
 a, .hero .eyebrow, .page-section .eyebrow, .btn.secondary,
 ol.convictions li::before, .world-card .name { color: #E08C74; }
 a:hover { color: #F0A98F; }

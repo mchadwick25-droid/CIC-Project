@@ -1,0 +1,834 @@
+[
+ {
+  "cid": "C007",
+  "name": "Marcella",
+  "traditions": {
+   "anti-trinitarian-currents-servetus-polish-brethr": {
+    "labels": {
+     "anti-trinitarian-currents-servetus-polish-brethr#0": "N",
+     "anti-trinitarian-currents-servetus-polish-brethr#1": "N",
+     "anti-trinitarian-currents-servetus-polish-brethr#2": "N",
+     "anti-trinitarian-currents-servetus-polish-brethr#3": "N",
+     "anti-trinitarian-currents-servetus-polish-brethr#4": "N"
+    },
+    "clean_passages": 0
+   },
+   "carolingian-reform-christianity": {
+    "labels": {
+     "carolingian-reform-christianity#0": "N",
+     "carolingian-reform-christianity#1": "N",
+     "carolingian-reform-christianity#2": "N",
+     "carolingian-reform-christianity#3": "N",
+     "carolingian-reform-christianity#4": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Marcelle/Marcella: Socinus's 'Marcelle' is a vocative addressing his male opponent Marcellus (Squarcialupus); Alcuin's 'Sancte Marcelle' is a litany invocation of a male saint Marcellus.",
+  "editorial_notes": "none counted",
+  "comment": "Both traditions are pure namesake/vocative hits on masculine Marcellus; zero clean passages."
+ },
+ {
+  "cid": "C017",
+  "name": "Aristides of Athens",
+  "traditions": {
+   "latin-apologists": {
+    "labels": {
+     "latin-apologists#0": "E",
+     "latin-apologists#1": "N",
+     "latin-apologists#2": "N",
+     "latin-apologists#3": "N",
+     "latin-apologists#4": "N",
+     "latin-apologists#5": "N",
+     "latin-apologists#6": "N",
+     "latin-apologists#7": "E",
+     "latin-apologists#8": "E",
+     "latin-apologists#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "hieronymian-ascetic-literary": {
+    "labels": {
+     "hieronymian-ascetic-literary#0": "N",
+     "hieronymian-ascetic-literary#1": "E",
+     "hieronymian-ascetic-literary#2": "N",
+     "hieronymian-ascetic-literary#3": "N",
+     "hieronymian-ascetic-literary#4": "E",
+     "hieronymian-ascetic-literary#5": "E",
+     "hieronymian-ascetic-literary#6": "N",
+     "hieronymian-ascetic-literary#7": "S"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "jerome_eusebii-chronici-canones-lat_fotheringham1923.txt",
+     "line": 42532,
+     "text": "et Aristides Atheniensis noster philo- sophus libros pro Christiana religione Hadria-"
+    }
+   },
+   "syriac-edessa-nisibis": {
+    "labels": {
+     "syriac-edessa-nisibis#0": "N",
+     "syriac-edessa-nisibis#1": "N",
+     "syriac-edessa-nisibis#2": "E",
+     "syriac-edessa-nisibis#3": "E",
+     "syriac-edessa-nisibis#4": "E",
+     "syriac-edessa-nisibis#5": "N",
+     "syriac-edessa-nisibis#6": "E"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Aristides the Just (Athenian statesman, in Lactantius, Tertullian, Jerome Chronicle entries and Jerome's letter on Socrates' wife Myron); Aristides sent by Tiberius to Abgar in the Doctrine of Addai (a different Roman envoy, Armenian 'Artidias'); Aristides addressed in Africanus's letter mentioned in De viris illustribus.",
+  "editorial_notes": "Waltzing and Oehler apparatus and index citations (Aristides, apol.), Fotheringham critical apparatus, Otto's prolegomena note, Harris's commentary, Phillips's footnote on the name, NPNF table of contents and chapter heading.",
+  "comment": "Only one clean passage in the shelved Jerome work given: Chronicle 'Aristides Atheniensis noster philosophus libros pro Christiana religione Hadriano dedere'. The real S passage in Jerome's De viris illustribus ch. XX (npnf203 file line 39913, 'Aristides, a most eloquent Athenian philosopher...') is not among the supplied contexts: the supplied context 4 is only its chapter-title attribute and 1 is the table of contents, both labelled E. If the coordinator adds DVI ch. XX, count would be 2."
+ },
+ {
+  "cid": "C027",
+  "name": "Athenagoras of Athens",
+  "traditions": {
+   "syriac-edessa-nisibis": {
+    "labels": {
+     "syriac-edessa-nisibis#0": "E",
+     "syriac-edessa-nisibis#1": "E",
+     "syriac-edessa-nisibis#2": "E",
+     "syriac-edessa-nisibis#3": "E",
+     "syriac-edessa-nisibis#4": "E",
+     "syriac-edessa-nisibis#5": "E",
+     "syriac-edessa-nisibis#6": "E",
+     "syriac-edessa-nisibis#7": "E",
+     "syriac-edessa-nisibis#8": "E",
+     "syriac-edessa-nisibis#9": "E"
+    },
+    "clean_passages": 0
+   },
+   "desert-monasticism": {
+    "labels": {
+     "desert-monasticism#0": "E",
+     "desert-monasticism#1": "E",
+     "desert-monasticism#2": "E",
+     "desert-monasticism#3": "E",
+     "desert-monasticism#4": "E",
+     "desert-monasticism#5": "E",
+     "desert-monasticism#6": "E",
+     "desert-monasticism#7": "E"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "none",
+  "editorial_notes": "Syriac shelf: Otto's Latin prolegomena and notes to Tatian (plus OCR provenance note). Desert shelf: Newman's notes on Athanasius (NPNF 204), discussing Athenagoras and Bull.",
+  "comment": "All contexts are modern editor or scholar prose; no passage of the shelved works names Athenagoras."
+ },
+ {
+  "cid": "C037",
+  "name": "Gregory Thaumaturgus",
+  "traditions": {
+   "apollinarian-christianity": {
+    "labels": {
+     "apollinarian-christianity#0": "E",
+     "apollinarian-christianity#1": "E",
+     "apollinarian-christianity#2": "E",
+     "apollinarian-christianity#3": "E",
+     "apollinarian-christianity#4": "E",
+     "apollinarian-christianity#5": "E",
+     "apollinarian-christianity#6": "E",
+     "apollinarian-christianity#7": "E",
+     "apollinarian-christianity#8": "E",
+     "apollinarian-christianity#9": "E"
+    },
+    "clean_passages": 0
+   },
+   "cappadocian-nicene-pastoral-monastic-tradition": {
+    "labels": {
+     "cappadocian-nicene-pastoral-monastic-tradition#0": "E",
+     "cappadocian-nicene-pastoral-monastic-tradition#1": "E",
+     "cappadocian-nicene-pastoral-monastic-tradition#2": "E",
+     "cappadocian-nicene-pastoral-monastic-tradition#3": "E",
+     "cappadocian-nicene-pastoral-monastic-tradition#4": "E",
+     "cappadocian-nicene-pastoral-monastic-tradition#5": "E",
+     "cappadocian-nicene-pastoral-monastic-tradition#6": "E",
+     "cappadocian-nicene-pastoral-monastic-tradition#7": "E",
+     "cappadocian-nicene-pastoral-monastic-tradition#8": "E",
+     "cappadocian-nicene-pastoral-monastic-tradition#9": "E"
+    },
+    "clean_passages": 0
+   },
+   "imperial-juridical-christianity": {
+    "labels": {
+     "imperial-juridical-christianity#0": "E",
+     "imperial-juridical-christianity#1": "E",
+     "imperial-juridical-christianity#2": "S",
+     "imperial-juridical-christianity#3": "E",
+     "imperial-juridical-christianity#4": "E",
+     "imperial-juridical-christianity#5": "E",
+     "imperial-juridical-christianity#6": "S",
+     "imperial-juridical-christianity#7": "E",
+     "imperial-juridical-christianity#8": "E"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "line": 14004,
+     "text": "Gregory Thaumaturgus (the Wonder-Worker).</i></p>"
+    }
+   }
+  },
+  "namesake_notes": "none",
+  "editorial_notes": "Lietzmann's German introduction and manuscript descriptions; Clarke's and Moore's introductions and footnotes (Gregory of Nyssa); Schwartz-Mommsen contents and page heads; McGiffert footnotes; Percival's note on penitential stations quoting Gregory.",
+  "comment": "Only S: Sozomen HE VII.27 chapter 'Of Gregory Thaumaturgus (the Wonder-Worker)', whose body text (Gregory of Pontus, disciple of Origen) is Sozomen's own. Contexts 2 and 6 are the same chapter (title attribute and printed heading) = 1 passage. The heading itself might be a translator's/transmitter's addition, so treat as thin: 1 passage."
+ },
+ {
+  "cid": "C047",
+  "name": "Eusebius of Caesarea",
+  "traditions": {
+   "byzantine-imperial-church-justinianic": {
+    "labels": {
+     "byzantine-imperial-church-justinianic#0": "N",
+     "byzantine-imperial-church-justinianic#1": "E",
+     "byzantine-imperial-church-justinianic#2": "S",
+     "byzantine-imperial-church-justinianic#3": "N",
+     "byzantine-imperial-church-justinianic#4": "N",
+     "byzantine-imperial-church-justinianic#5": "E",
+     "byzantine-imperial-church-justinianic#6": "S",
+     "byzantine-imperial-church-justinianic#7": "N",
+     "byzantine-imperial-church-justinianic#8": "N",
+     "byzantine-imperial-church-justinianic#9": "U"
+    },
+    "clean_passages": 2,
+    "best_quote": {
+     "file": "evagrius-scholasticus_ecclesiastical-history_walford1846.txt",
+     "line": 8861,
+     "text": "history of Eusebius Pamphili, who cites the epistle verbatim. Such, however, is the averment and belief"
+    }
+   },
+   "aquileian-christianity": {
+    "labels": {
+     "aquileian-christianity#0": "E",
+     "aquileian-christianity#1": "N",
+     "aquileian-christianity#2": "N",
+     "aquileian-christianity#3": "E",
+     "aquileian-christianity#4": "N"
+    },
+    "clean_passages": 0
+   },
+   "the-church-of-the-east-under-persia": {
+    "labels": {
+     "the-church-of-the-east-under-persia#0": "S",
+     "the-church-of-the-east-under-persia#1": "S",
+     "the-church-of-the-east-under-persia#2": "S",
+     "the-church-of-the-east-under-persia#3": "S",
+     "the-church-of-the-east-under-persia#4": "E"
+    },
+    "clean_passages": 4,
+    "best_quote": {
+     "file": "barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt",
+     "line": 13444,
+     "text": "avait Eusèbe de Césarée, qui fit le comput du Chronicon ‘. Α sa mort,"
+    }
+   }
+  },
+  "namesake_notes": "Greek 'Εὐσέβιος' hits: Eusebius of Dorylaeum, Eusebius of Pelusium, Eusebius presbyter of Constantinople (Justinian Novel), deacon Eusebius of Alexandria, Eusebius bishop of Laodicea.",
+  "editorial_notes": "Migne's author index and Latin note on Cosmas (Dorotheus volume), Schwartz-Mommsen apparatus and metadata, Scher footnote.",
+  "comment": "Byzantine: S are Evagrius (English Walford) twice naming Eusebius Pamphili. Context 9 (Dorotheus PG88 line 26757) is Cosmas Indicopleustes's text, outside the shelved John the Faster section, so labelled U; context 5 is Montfaucon's note quoting Cosmas, E. Church of the East: Barhadbeshabba's Eusebius of Caesarea mentions at lines 13444, 13447, 13545, 14252; 13444 and 13447 are adjacent sentences in one paragraph (conservative count 3)."
+ },
+ {
+  "cid": "C057",
+  "name": "Constantius II",
+  "traditions": {
+   "orthodoxy-under-the-ottomans-1650-1821": {
+    "labels": {
+     "orthodoxy-under-the-ottomans-1650-1821#0": "S",
+     "orthodoxy-under-the-ottomans-1650-1821#1": "S",
+     "orthodoxy-under-the-ottomans-1650-1821#2": "N",
+     "orthodoxy-under-the-ottomans-1650-1821#3": "N",
+     "orthodoxy-under-the-ottomans-1650-1821#4": "S",
+     "orthodoxy-under-the-ottomans-1650-1821#5": "S",
+     "orthodoxy-under-the-ottomans-1650-1821#6": "N",
+     "orthodoxy-under-the-ottomans-1650-1821#7": "N",
+     "orthodoxy-under-the-ottomans-1650-1821#8": "S",
+     "orthodoxy-under-the-ottomans-1650-1821#9": "S"
+    },
+    "clean_passages": 6,
+    "best_quote": {
+     "file": "nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt",
+     "line": 19928,
+     "text": "τους ανθρώπους. Ό οέ Κωνστάντιος ό υιός τοϋ μεγάλου Κωνσταντίνου [χετέοερεν άπό τάς Θή-"
+    }
+   },
+   "orthodoxy-under-the-ottomans-parish-millet-and-n": {
+    "labels": {
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#0": "S",
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#1": "S",
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#2": "N",
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#3": "E",
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#4": "N",
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#5": "S",
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#6": "S",
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#7": "N",
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#8": "S",
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#9": "S"
+    },
+    "clean_passages": 6,
+    "best_quote": {
+     "file": "nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt",
+     "line": 19928,
+     "text": "τους ανθρώπους. Ό οέ Κωνστάντιος ό υιός τοϋ μεγάλου Κωνσταντίνου [χετέοερεν άπό τάς Θή-"
+    }
+   },
+   "the-kollyvades-and-greek-renewal": {
+    "labels": {
+     "the-kollyvades-and-greek-renewal#0": "S",
+     "the-kollyvades-and-greek-renewal#1": "S",
+     "the-kollyvades-and-greek-renewal#2": "S",
+     "the-kollyvades-and-greek-renewal#3": "S",
+     "the-kollyvades-and-greek-renewal#4": "S",
+     "the-kollyvades-and-greek-renewal#5": "S",
+     "the-kollyvades-and-greek-renewal#6": "S",
+     "the-kollyvades-and-greek-renewal#7": "S",
+     "the-kollyvades-and-greek-renewal#8": "S",
+     "the-kollyvades-and-greek-renewal#9": "S"
+    },
+    "clean_passages": 10,
+    "best_quote": {
+     "file": "nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt",
+     "line": 19928,
+     "text": "τους ανθρώπους. Ό οέ Κωνστάντιος ό υιός τοϋ μεγάλου Κωνσταντίνου [χετέοερεν άπό τάς Θή-"
+    }
+   }
+  },
+  "namesake_notes": "Κωνστάντιος as a bishop name: bishop of Chalcedon, of Rhodes, of Trikka (Sathas), Patriarch Constantios I (Gedeon), Constantios who came to a church in 1700 (Bekker).",
+  "editorial_notes": "Gennadius PG160 hit (context 3) is a Greek/Latin excerpt from Malaxos's patriarchal history reproduced by the editor with Lambecius notes, not Gennadius's own text.",
+  "comment": "All S hits are in Nikodemos's Synaxaristes (Greek) and refer to the emperor Constantius II (Arian, exiling Athanasius, son of Constantine). Counted literally by separate sentences; several are adjacent within one saint's life (v2 lines 4789/4793; 14689/14703/14706). Counting by paragraph/entry: 5 (Ottoman 1650, parish-millet) and 8 (Kollyvades). The same two files serve all three traditions, so these are not independent."
+ },
+ {
+  "cid": "C067",
+  "name": "Melania the Elder",
+  "traditions": {
+   "hieronymian-ascetic-literary": {
+    "labels": {
+     "hieronymian-ascetic-literary#0": "N",
+     "hieronymian-ascetic-literary#1": "E",
+     "hieronymian-ascetic-literary#2": "E",
+     "hieronymian-ascetic-literary#3": "N",
+     "hieronymian-ascetic-literary#4": "E",
+     "hieronymian-ascetic-literary#5": "N",
+     "hieronymian-ascetic-literary#6": "N",
+     "hieronymian-ascetic-literary#7": "S",
+     "hieronymian-ascetic-literary#8": "E",
+     "hieronymian-ascetic-literary#9": "N"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "line": 49967,
+     "text": "astonishing action of his in relation to Melania, which I must not pass by in silence because of the shame which those who hear it may feel."
+    }
+   },
+   "merovingian-gallic-christianity": {
+    "labels": {
+     "merovingian-gallic-christianity#0": "S",
+     "merovingian-gallic-christianity#1": "E",
+     "merovingian-gallic-christianity#2": "E",
+     "merovingian-gallic-christianity#3": "S",
+     "merovingian-gallic-christianity#4": "S",
+     "merovingian-gallic-christianity#5": "E",
+     "merovingian-gallic-christianity#6": "E"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+     "line": 1306,
+     "text": "31 (40). Melania, a noble matron dwelling in Rome, went - of her piety to Jerusalem, leaving herson Urbanusat Rome. In"
+    }
+   }
+  },
+  "namesake_notes": "Augustine letters 124-126 (Albina, Pinianus and Melania) concern Melania the Younger, granddaughter of the Elder.",
+  "editorial_notes": "NPNF editors' introductions (Fremantle) on the Jerome-Rufinus quarrel, NPNF table of contents and title attributes, MGH apparatus, Leo/Krusch index, Dalton's footnotes on Gregory of Tours.",
+  "comment": "Hieronymian: only S is Rufinus's Apology ch. 26 (Melania, granddaughter of Consul Marcellinus, first Roman lady to visit Jerusalem), Rufinus text within the file; context 4 is its title attribute. Merovingian: Gregory of Tours HF I.40 (Latin and Dalton's English, chapter list entry) is one passage."
+ },
+ {
+  "cid": "C077",
+  "name": "Emeritus",
+  "traditions": {
+   "the-huguenots": {
+    "labels": {
+     "the-huguenots#0": "N",
+     "the-huguenots#1": "N",
+     "the-huguenots#2": "N",
+     "the-huguenots#3": "N",
+     "the-huguenots#4": "N",
+     "the-huguenots#5": "N",
+     "the-huguenots#6": "N",
+     "the-huguenots#7": "N",
+     "the-huguenots#8": "N",
+     "the-huguenots#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "church-of-the-desert-huguenots": {
+    "labels": {
+     "church-of-the-desert-huguenots#0": "N",
+     "church-of-the-desert-huguenots#1": "N",
+     "church-of-the-desert-huguenots#2": "N",
+     "church-of-the-desert-huguenots#3": "N",
+     "church-of-the-desert-huguenots#4": "N",
+     "church-of-the-desert-huguenots#5": "N",
+     "church-of-the-desert-huguenots#6": "N",
+     "church-of-the-desert-huguenots#7": "N",
+     "church-of-the-desert-huguenots#8": "N",
+     "church-of-the-desert-huguenots#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "merovingian-gallic-christianity": {
+    "labels": {
+     "merovingian-gallic-christianity#0": "N",
+     "merovingian-gallic-christianity#1": "N",
+     "merovingian-gallic-christianity#2": "N",
+     "merovingian-gallic-christianity#3": "N",
+     "merovingian-gallic-christianity#4": "N",
+     "merovingian-gallic-christianity#5": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "In Quick's Synodicon 'Emeritus' is the English title of retired pastors; in Merovingian texts Emeritus is bishop of Embrun (Ebredunensis, 6th c.) and a Spanish bishop in the Elvira list; one 'Emeritus miles' verse.",
+  "editorial_notes": "none",
+  "comment": "No hit refers to the Donatist Emeritus of Caesarea."
+ },
+ {
+  "cid": "C087",
+  "name": "Vardan Mamikonian",
+  "traditions": {
+   "armenian-cilicia-after-the-kingdom": {
+    "labels": {
+     "armenian-cilicia-after-the-kingdom#0": "E",
+     "armenian-cilicia-after-the-kingdom#1": "N",
+     "armenian-cilicia-after-the-kingdom#2": "N",
+     "armenian-cilicia-after-the-kingdom#3": "E",
+     "armenian-cilicia-after-the-kingdom#4": "E",
+     "armenian-cilicia-after-the-kingdom#5": "E",
+     "armenian-cilicia-after-the-kingdom#6": "N",
+     "armenian-cilicia-after-the-kingdom#7": "E",
+     "armenian-cilicia-after-the-kingdom#8": "E",
+     "armenian-cilicia-after-the-kingdom#9": "E"
+    },
+    "clean_passages": 0
+   },
+   "armenian-cilicia": {
+    "labels": {
+     "armenian-cilicia#0": "E",
+     "armenian-cilicia#1": "N",
+     "armenian-cilicia#2": "E",
+     "armenian-cilicia#3": "E",
+     "armenian-cilicia#4": "E",
+     "armenian-cilicia#5": "N",
+     "armenian-cilicia#6": "E",
+     "armenian-cilicia#7": "E",
+     "armenian-cilicia#8": "E",
+     "armenian-cilicia#9": "E"
+    },
+    "clean_passages": 0
+   },
+   "armenian-christianity-era-8": {
+    "labels": {
+     "armenian-christianity-era-8#0": "E",
+     "armenian-christianity-era-8#1": "N",
+     "armenian-christianity-era-8#2": "N",
+     "armenian-christianity-era-8#3": "S",
+     "armenian-christianity-era-8#4": "N",
+     "armenian-christianity-era-8#5": "N",
+     "armenian-christianity-era-8#6": "N",
+     "armenian-christianity-era-8#7": "S",
+     "armenian-christianity-era-8#8": "N",
+     "armenian-christianity-era-8#9": "S"
+    },
+    "clean_passages": 3,
+    "best_quote": {
+     "file": "issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt",
+     "line": 2304,
+     "text": "three grandsons, Vartan , Hemayag and Hamazasbiau, went to the Greek division of"
+    }
+   }
+  },
+  "namesake_notes": "Vartan/Vardan in the Cilician documents is the historian Vardan Areveltsi (Vartan the Great) or Vartan of Tarsus or Anazarbe; in Mechitarist texts Vartan is Ter Vartan, D. Vartan (priests) or the Var(da)piet historian; Zakaria's Vardan is the historian or a courier or a vartabed.",
+  "editorial_notes": "Académie des inscriptions editors' table of contents, footnotes and biographical notes on the historian Vartan; Brosset's note.",
+  "comment": "Era-8 S: Issaverdens Armenia and the Armenians v2 (St Isaac takes St Mesrob and his three grandsons Vartan, Hemayag and Hamazasbian; Vartan accompanies Mesrob to Theodosius and is made generalissimo) and Nurikhan (McQuillan): General Vardan, saint and martyr, in the 5th century. Contexts 3 and 7 are one narrative a few lines apart (conservative count 2). Both authors are modern Mekhitarists writing as the tradition's voice. No Cilician hit is clean."
+ },
+ {
+  "cid": "C097",
+  "name": "Theodora",
+  "traditions": {
+   "byzantine-church-palaiologan": {
+    "labels": {
+     "byzantine-church-palaiologan#0": "E",
+     "byzantine-church-palaiologan#1": "U",
+     "byzantine-church-palaiologan#2": "N",
+     "byzantine-church-palaiologan#3": "N",
+     "byzantine-church-palaiologan#4": "U",
+     "byzantine-church-palaiologan#5": "E",
+     "byzantine-church-palaiologan#6": "E",
+     "byzantine-church-palaiologan#7": "N",
+     "byzantine-church-palaiologan#8": "E",
+     "byzantine-church-palaiologan#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "hesychasm-and-the-palamite-synthesis": {
+    "labels": {
+     "hesychasm-and-the-palamite-synthesis#0": "N",
+     "hesychasm-and-the-palamite-synthesis#1": "E",
+     "hesychasm-and-the-palamite-synthesis#2": "U",
+     "hesychasm-and-the-palamite-synthesis#3": "U",
+     "hesychasm-and-the-palamite-synthesis#4": "U",
+     "hesychasm-and-the-palamite-synthesis#5": "N",
+     "hesychasm-and-the-palamite-synthesis#6": "U",
+     "hesychasm-and-the-palamite-synthesis#7": "N",
+     "hesychasm-and-the-palamite-synthesis#8": "U",
+     "hesychasm-and-the-palamite-synthesis#9": "U"
+    },
+    "clean_passages": 0
+   },
+   "the-ethiopian-monastic-flowering": {
+    "labels": {
+     "the-ethiopian-monastic-flowering#0": "E",
+     "the-ethiopian-monastic-flowering#1": "N",
+     "the-ethiopian-monastic-flowering#2": "N",
+     "the-ethiopian-monastic-flowering#3": "N",
+     "the-ethiopian-monastic-flowering#4": "N",
+     "the-ethiopian-monastic-flowering#5": "U",
+     "the-ethiopian-monastic-flowering#6": "N",
+     "the-ethiopian-monastic-flowering#7": "U",
+     "the-ethiopian-monastic-flowering#8": "N",
+     "the-ethiopian-monastic-flowering#9": "S"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907.txt",
+     "line": 35686,
+     "text": "<le rimperatrice Ta'odr4 {Theodora) qui aiinait Dieu. Et celle-ci ecrivit unc"
+    }
+   }
+  },
+  "namesake_notes": "Theodora of Alexandria, Theodora the virgin and her sisters, Abbess Theodora (Ethiopian Synaxarium), St Theodora (Cabasilas encomium, Palamas PG150), Theodora Palaiologina painted with Michael VIII (Chalcocondyles volume), Theodorus Gaza misread by OCR.",
+  "editorial_notes": "Brooks's introduction to John of Ephesus Lives, Syropoulos/Creyghton notes, Migne editorial matter, Budge contents list.",
+  "comment": "Ambiguity: the candidate spans two empresses (Justinian's wife, d. 548, and the iconophile regent of 842-867). U marks genuine empress-Theodora mentions that fall outside the shelved locus: Nicephorus Callistus's Historia in PG147 (Justinian and Theodora, the cross, patriarch list under Michael and Theodora), the Malaxos excerpt in the Gennadius PG160 volume, PO15 matter after Petit's fascicle, and the Arabic synaxary part of PO1 before Guidi's Ethiopian fascicle (Theodora and Severus). Only clean passage: Guidi's Ethiopian Synaxarium French text, empress Ta'odra (Theodora) writing a letter to Justinian's court. Several shelf file names do not match the work described for them."
+ },
+ {
+  "cid": "C107",
+  "name": "Columba",
+  "traditions": {
+   "medieval-irish-christianity": {
+    "labels": {
+     "medieval-irish-christianity#0": "E",
+     "medieval-irish-christianity#1": "E",
+     "medieval-irish-christianity#2": "E",
+     "medieval-irish-christianity#3": "E",
+     "medieval-irish-christianity#4": "E",
+     "medieval-irish-christianity#5": "S",
+     "medieval-irish-christianity#6": "E",
+     "medieval-irish-christianity#7": "E",
+     "medieval-irish-christianity#8": "E",
+     "medieval-irish-christianity#9": "E"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt",
+     "line": 10063,
+     "text": "O rofothi^:?^ Colum Cille [fo. 10. b. i] Híí, luidh ior cuairt proieipta fo"
+    }
+   },
+   "latin-papal-church-avignon-to-lateran-v": {
+    "labels": {
+     "latin-papal-church-avignon-to-lateran-v#0": "N",
+     "latin-papal-church-avignon-to-lateran-v#1": "N",
+     "latin-papal-church-avignon-to-lateran-v#2": "N",
+     "latin-papal-church-avignon-to-lateran-v#3": "N",
+     "latin-papal-church-avignon-to-lateran-v#4": "N",
+     "latin-papal-church-avignon-to-lateran-v#5": "N",
+     "latin-papal-church-avignon-to-lateran-v#6": "N",
+     "latin-papal-church-avignon-to-lateran-v#7": "N",
+     "latin-papal-church-avignon-to-lateran-v#8": "N",
+     "latin-papal-church-avignon-to-lateran-v#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "the-tridentine-church": {
+    "labels": {
+     "the-tridentine-church#0": "S",
+     "the-tridentine-church#1": "N",
+     "the-tridentine-church#2": "E",
+     "the-tridentine-church#3": "E",
+     "the-tridentine-church#4": "E",
+     "the-tridentine-church#5": "E",
+     "the-tridentine-church#6": "E"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "roman-breviary_bute1908.txt",
+     "line": 61594,
+     "text": "monastery of St Columba in the island of Iona ; and to him Oswald gave a"
+    }
+   }
+  },
+  "namesake_notes": "Papal shelf: 'Columba' is the dove of the Holy Spirit (Birgitta), the abbey S. Maria de Columba, notary Johannes de Columba, St Columba the virgin (Burchard); Breviary context 1 is Columba the virgin martyr of Cordoba.",
+  "editorial_notes": "Stokes's introduction, notes and apparatus (many hits), Bute's footnotes.",
+  "comment": "Medieval Irish: one S, the Irish text of the Life of Colum Cille in the Book of Lismore (line 10063); all others are Stokes's introduction/notes. Tridentine: one S, the Breviary lesson on Aidan 'from the monastery of St Columba in the island of Iona'."
+ },
+ {
+  "cid": "C117",
+  "name": "Boniface",
+  "traditions": {
+   "latin-papal-church-avignon-to-lateran-v": {
+    "labels": {
+     "latin-papal-church-avignon-to-lateran-v#0": "N",
+     "latin-papal-church-avignon-to-lateran-v#1": "N",
+     "latin-papal-church-avignon-to-lateran-v#2": "N",
+     "latin-papal-church-avignon-to-lateran-v#3": "N",
+     "latin-papal-church-avignon-to-lateran-v#4": "N",
+     "latin-papal-church-avignon-to-lateran-v#5": "N",
+     "latin-papal-church-avignon-to-lateran-v#6": "N",
+     "latin-papal-church-avignon-to-lateran-v#7": "N",
+     "latin-papal-church-avignon-to-lateran-v#8": "N",
+     "latin-papal-church-avignon-to-lateran-v#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "franciscan-order-era-6": {
+    "labels": {
+     "franciscan-order-era-6#0": "N",
+     "franciscan-order-era-6#1": "N",
+     "franciscan-order-era-6#2": "N",
+     "franciscan-order-era-6#3": "N",
+     "franciscan-order-era-6#4": "N",
+     "franciscan-order-era-6#5": "N",
+     "franciscan-order-era-6#6": "N",
+     "franciscan-order-era-6#7": "N",
+     "franciscan-order-era-6#8": "N",
+     "franciscan-order-era-6#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "fraticelli-spiritual-franciscan-rigorists": {
+    "labels": {
+     "fraticelli-spiritual-franciscan-rigorists#0": "N",
+     "fraticelli-spiritual-franciscan-rigorists#1": "N",
+     "fraticelli-spiritual-franciscan-rigorists#2": "N",
+     "fraticelli-spiritual-franciscan-rigorists#3": "N",
+     "fraticelli-spiritual-franciscan-rigorists#4": "N",
+     "fraticelli-spiritual-franciscan-rigorists#5": "N",
+     "fraticelli-spiritual-franciscan-rigorists#6": "N",
+     "fraticelli-spiritual-franciscan-rigorists#7": "N",
+     "fraticelli-spiritual-franciscan-rigorists#8": "N",
+     "fraticelli-spiritual-franciscan-rigorists#9": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "All hits are popes Boniface II, VIII, IX, a Franciscan Fr Bonifacius in Gaul, Bonifacius de Castro Lolario and similar; none is the apostle of Germany (Winfrid).",
+  "editorial_notes": "Catalogue notes, Ehrle's German text, Sabatier introduction.",
+  "comment": "No Winfrid/Boniface of Mainz anywhere; zero clean."
+ },
+ {
+  "cid": "C127",
+  "name": "Cyril",
+  "traditions": {
+   "orthodoxy-under-the-ottomans-parish-millet-and-n": {
+    "labels": {
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#0": "N",
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#1": "N",
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#2": "N",
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#3": "N",
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#4": "N",
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#5": "N",
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#6": "N",
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#7": "N",
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#8": "N",
+     "orthodoxy-under-the-ottomans-parish-millet-and-n#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "orthodoxy-under-the-ottomans-1650-1821": {
+    "labels": {
+     "orthodoxy-under-the-ottomans-1650-1821#0": "N",
+     "orthodoxy-under-the-ottomans-1650-1821#1": "N",
+     "orthodoxy-under-the-ottomans-1650-1821#2": "N",
+     "orthodoxy-under-the-ottomans-1650-1821#3": "N",
+     "orthodoxy-under-the-ottomans-1650-1821#4": "N",
+     "orthodoxy-under-the-ottomans-1650-1821#5": "N",
+     "orthodoxy-under-the-ottomans-1650-1821#6": "N",
+     "orthodoxy-under-the-ottomans-1650-1821#7": "N",
+     "orthodoxy-under-the-ottomans-1650-1821#8": "N",
+     "orthodoxy-under-the-ottomans-1650-1821#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "byzantine-church-palaiologan": {
+    "labels": {
+     "byzantine-church-palaiologan#0": "N",
+     "byzantine-church-palaiologan#1": "N",
+     "byzantine-church-palaiologan#2": "N",
+     "byzantine-church-palaiologan#3": "N",
+     "byzantine-church-palaiologan#4": "N",
+     "byzantine-church-palaiologan#5": "N",
+     "byzantine-church-palaiologan#6": "N",
+     "byzantine-church-palaiologan#7": "N",
+     "byzantine-church-palaiologan#8": "N",
+     "byzantine-church-palaiologan#9": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "All hits are other Cyrils: Cyril of Alexandria, of Jerusalem, Cyril Lucaris, Cyril of Berroia, Cyril of Heraclea, Cyril of Side, St Cyrillus the Minor monastery; metadata titles naming Cyril Lucar.",
+  "editorial_notes": "Catalogue/title metadata and Schaff's contents list.",
+  "comment": "No Constantine-Cyril the Slav apostle; zero clean."
+ },
+ {
+  "cid": "C137",
+  "name": "Olaf Haraldsson",
+  "traditions": {
+   "the-moravian-church-at-herrnhut": {
+    "labels": {
+     "the-moravian-church-at-herrnhut#0": "U",
+     "the-moravian-church-at-herrnhut#1": "N",
+     "the-moravian-church-at-herrnhut#2": "N",
+     "the-moravian-church-at-herrnhut#3": "N",
+     "the-moravian-church-at-herrnhut#4": "N",
+     "the-moravian-church-at-herrnhut#5": "N",
+     "the-moravian-church-at-herrnhut#6": "N",
+     "the-moravian-church-at-herrnhut#7": "N",
+     "the-moravian-church-at-herrnhut#8": "U",
+     "the-moravian-church-at-herrnhut#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "lutheran-wittenberg-and-its-congregations": {
+    "labels": {
+     "lutheran-wittenberg-and-its-congregations#0": "N",
+     "lutheran-wittenberg-and-its-congregations#1": "N",
+     "lutheran-wittenberg-and-its-congregations#2": "N",
+     "lutheran-wittenberg-and-its-congregations#3": "N",
+     "lutheran-wittenberg-and-its-congregations#4": "N",
+     "lutheran-wittenberg-and-its-congregations#5": "N",
+     "lutheran-wittenberg-and-its-congregations#6": "N",
+     "lutheran-wittenberg-and-its-congregations#7": "N",
+     "lutheran-wittenberg-and-its-congregations#8": "N"
+    },
+    "clean_passages": 0
+   },
+   "the-society-of-jesus": {
+    "labels": {
+     "the-society-of-jesus#0": "N",
+     "the-society-of-jesus#1": "N",
+     "the-society-of-jesus#2": "N",
+     "the-society-of-jesus#3": "N",
+     "the-society-of-jesus#4": "N",
+     "the-society-of-jesus#5": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Olaus Tryggvason (Cranz), king Olaus of Denmark 1386, Bishop Olaus 1246, Olaus Lange, Olaus Petri and other Swedish reformers, Olaus Magnus, Nicolaus Olah, St Olaus churches and cloisters.",
+  "editorial_notes": "none",
+  "comment": "Cranz contexts 0 and 8 refer to an unspecified 'king Olaus' (Greenland; probably Tryggvason) and are U; none clearly Olaf Haraldsson."
+ },
+ {
+  "cid": "C147",
+  "name": "Dominic de Guzmán",
+  "traditions": {
+   "the-society-of-jesus": {
+    "labels": {
+     "the-society-of-jesus#0": "N",
+     "the-society-of-jesus#1": "N",
+     "the-society-of-jesus#2": "S",
+     "the-society-of-jesus#3": "N",
+     "the-society-of-jesus#4": "N",
+     "the-society-of-jesus#5": "N",
+     "the-society-of-jesus#6": "N",
+     "the-society-of-jesus#7": "N",
+     "the-society-of-jesus#8": "N",
+     "the-society-of-jesus#9": "N"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "nadal_epistolae-v4-lat_1905.txt",
+     "line": 7213,
+     "text": "lesus in orbem xianum. inuexit. Habuit diuus Franciscus, tum diuus Dominicus, socios, quos primum uocauit, qui etiam simul"
+    }
+   },
+   "latin-papal-church-avignon-to-lateran-v": {
+    "labels": {
+     "latin-papal-church-avignon-to-lateran-v#0": "N",
+     "latin-papal-church-avignon-to-lateran-v#1": "N",
+     "latin-papal-church-avignon-to-lateran-v#2": "N",
+     "latin-papal-church-avignon-to-lateran-v#3": "N",
+     "latin-papal-church-avignon-to-lateran-v#4": "N",
+     "latin-papal-church-avignon-to-lateran-v#5": "N",
+     "latin-papal-church-avignon-to-lateran-v#6": "N",
+     "latin-papal-church-avignon-to-lateran-v#7": "N",
+     "latin-papal-church-avignon-to-lateran-v#8": "N",
+     "latin-papal-church-avignon-to-lateran-v#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "franciscan-order-era-6": {
+    "labels": {
+     "franciscan-order-era-6#0": "S",
+     "franciscan-order-era-6#1": "S",
+     "franciscan-order-era-6#2": "E",
+     "franciscan-order-era-6#3": "E",
+     "franciscan-order-era-6#4": "E",
+     "franciscan-order-era-6#5": "S",
+     "franciscan-order-era-6#6": "E",
+     "franciscan-order-era-6#7": "E",
+     "franciscan-order-era-6#8": "N",
+     "franciscan-order-era-6#9": "E"
+    },
+    "clean_passages": 3,
+    "best_quote": {
+     "file": "glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+     "line": 2113,
+     "text": "quem a Deo ostensa sibi visio familiarem sibi fecit. Qui videlicet Dominicus ab ipso Pontifice redire ad suos fratres et cum eis eligere aliquam regulam approbatam iube-"
+    }
+   }
+  },
+  "namesake_notes": "Dominicus as other men: Dominicus Palancha, Numaglius, Ciaccia, Loredanus, Cubelles, Cardinal Ginnasius, Bouhours, Mansi's forename Joannes Dominicus, Dominicus Doria and others; Dominicus Parisiensis and Pisanus (friars).",
+  "editorial_notes": "Mansi/Mirbt catalogue titles, Ehrle's German prose (Spirituals), apparatus gloss on Joachim/Dominic/Francis, Ehrle footnote quoting Olivi, Sabatier's table of contents and French introduction.",
+  "comment": "Jesuit: Nadal's own text on Francis and Dominic as founders who petitioned Innocent III and Honorius III. Franciscan S: Glassberger (Dominic at the 1215 Lateran Council; his death in 1221) and an edited Spiritual text in Ehrle Archiv Bd 3 ('Scio quod hoc non fecisset beatus Dominicus'), which is a source text inside a modern journal, so the coordinator may exclude it (then 2)."
+ },
+ {
+  "cid": "C157",
+  "name": "Julius II",
+  "traditions": {
+   "lutheran-wittenberg-and-its-congregations": {
+    "labels": {
+     "lutheran-wittenberg-and-its-congregations#0": "E",
+     "lutheran-wittenberg-and-its-congregations#1": "E",
+     "lutheran-wittenberg-and-its-congregations#2": "E",
+     "lutheran-wittenberg-and-its-congregations#3": "E",
+     "lutheran-wittenberg-and-its-congregations#4": "E",
+     "lutheran-wittenberg-and-its-congregations#5": "E"
+    },
+    "clean_passages": 0
+   },
+   "the-reformed-cities-zurich-and-geneva": {
+    "labels": {
+     "the-reformed-cities-zurich-and-geneva#0": "E",
+     "the-reformed-cities-zurich-and-geneva#1": "E",
+     "the-reformed-cities-zurich-and-geneva#2": "E",
+     "the-reformed-cities-zurich-and-geneva#3": "S",
+     "the-reformed-cities-zurich-and-geneva#4": "E"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "zwingli_latin-works-correspondence-vol1_jackson1912.txt",
+     "line": 2461,
+     "text": "together the envoys of His HoHness the Pope, Julius II., the Emperor, the Cardinal of Santa Potentiana [Schinner] (Dele-"
+    }
+   }
+  },
+  "namesake_notes": "none",
+  "editorial_notes": "Jacobs/Spaeth editors' footnotes and introduction to Luther; Jackson/Heller footnotes to Zwingli; Bonnet's note to Calvin.",
+  "comment": "Only S: Zwingli's own 'Account of the Italian Campaign of 1512' naming the Pope Julius II. Zwingli vol1 line 2060 ('Vicar of Christ, Julius Second'), 2483 and 3367 ('doings of Julius') are further S passages in the same work not matched by the supplied alias contexts. Luther hits are all editors' notes."
+ }
+]

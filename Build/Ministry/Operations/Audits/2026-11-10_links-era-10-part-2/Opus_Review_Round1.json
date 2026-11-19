@@ -1,0 +1,152 @@
+{
+ "round": 1,
+ "verdict": "revise",
+ "findings": [
+  {
+   "id": "R1-1",
+   "severity": "substantial",
+   "link_or_field": "orthodoxy-after-1821-balkan-autocephalies--the-greek-church-and-the-ecumenical-patriarchate (sources, grade)",
+   "problem": "Both primaries are the World Council of Churches' profile page of the Church of Greece. That page is the council's descriptive summary of another church, not the Church of Greece's or the Patriarchate's own text. Under the era 10 rule a summary never counts, and the WCC is not either body named on the link. Part 1 used WCC pages only for the council's own 'Member Since' record and its own history. With the profile set aside, the 1850 and 1928 facts rest on nothing read, and the link has only Frazee (1821-1852) and Leustean (1945-91), both named and not read. Neither covers the passage across 1906.",
+   "evidence": "Raw fetch of https://www.oikoumene.org/member-churches/church-of-greece (2026-11-10): both quotes are verbatim, inside the council's general profile ('The \"Church of Greece\" emerged with the founding of the autocephalous Orthodox Church in Greece in 1850 ... Christianity was first brought ... by the Apostle Paul'). It is a handbook-style profile, not a document of either church.",
+   "fix": "Preferred: replace the two WCC-profile primaries with a text of the Church of Greece or the Ecumenical Patriarchate read online (for example the 1850 Synodal Tomos or the 1928 Patriarchal and Synodal Act, or the Church of Greece's own history page), with quotes, and keep Widely Accepted. If none can be opened: remove the two WCC sources, regrade to Dominant Modern Reconstruction on Frazee (named, repo-cited), add the 1850 Tomos and the 1928 Act to wants, and replace the note with: \"In 1850 a synod at Constantinople made the Church of Greece a church that ran itself. Charles Frazee's study of 1969 tells how that came about. The same church carried on into the new century.\" (FRE 75.2.)"
+  },
+  {
+   "id": "R1-2",
+   "severity": "substantial",
+   "link_or_field": "the-russian-orthodox-church-council-patriarchate-and-reunion--american-orthodoxy-autocephaly-and-the-convert-wave (grade)",
+   "problem": "Widely Accepted needs a secondary work for the consensus reading. The only secondary is Erickson, Orthodox Christians in America. It is not cited anywhere in the repo (grep finds no hit outside this audit folder) and was confirmed in this run only by an Open Library record. Under the era 10 rule such a study supports nothing beyond its title. So the grade has no secondary behind it, and the drafter's own flag says the grade rests on the two primaries alone. That is the case Open-Gaps 148 leaves open for Mark: a body's own text with no study.",
+   "evidence": "grep -rn 'Orthodox Christians in America' records Build cic cic-website: 0 hits outside the part 2 folder. Open Library page fetched: bibliographic record only. Tomos (archdiocese.ca/node/298) and OCA history (oca.org) quotes verified verbatim by raw fetch.",
+   "fix": "Read and quote a passage of a study on the 1970 autocephaly (for example a preview page of Erickson, or any repo-cited history of the Metropolia), with url and accessed, and keep Widely Accepted. If no passage can be read, do not apply the link at Widely Accepted: hold it as a draft under Open-Gaps 148 (a body's own dated text with no study), and add Erickson's book to wants."
+  },
+  {
+   "id": "R1-3",
+   "severity": "substantial",
+   "link_or_field": "emigre-orthodoxy-and-the-paris-school--american-orthodoxy-autocephaly-and-the-convert-wave (grade)",
+   "problem": "Widely Accepted rests on one secondary, Arjakovsky's The Way. That study covers the Paris thinkers and their journal from 1925 to 1940. It cannot carry the consensus reading of the move to New York in 1948-1959, which the note is about. The drafter flags this as the weakest point. The seminary's own page shows the move, but the method needs a secondary for Widely Accepted.",
+   "evidence": "Census sources for the émigré entry give the work as 'The Way: Religious Thinkers of the Russian Emigration in Paris and Their Journal' (period 1925-1940 in the drafter's own citation). svots.edu 'Our History' raw fetch: both quotes verbatim.",
+   "fix": "Add a secondary that covers the handoff: a repo-cited study, or a study whose passage on the Paris teachers at St Vladimir's is read and quoted online in this run. If none, hold the link under Open-Gaps 148 as for the Russian church to American Orthodoxy link, and add such a study to wants. Do not keep Widely Accepted on Arjakovsky alone."
+  },
+  {
+   "id": "R1-4",
+   "severity": "substantial",
+   "link_or_field": "the-liturgical-movement--the-anglican-communion-twentieth-century (note)",
+   "problem": "The new note uses a map word ('This line rests on that study alone'). It also says nothing about the relationship the link claims. It describes a book's layout instead, and that layout was not seen in this run but taken from the census trace's reading of the table of contents.",
+   "evidence": "Note: 'John Fenwick and Bryan Spinks tell the liturgical movement's history across several churches. In their 1995 study the Anglican churches have a part of their own. This line rests on that study alone.' Drafter flag: 'the book itself was not read'.",
+   "fix": "Replace the note with: \"John Fenwick and Bryan Spinks trace the liturgical movement through many churches in the twentieth century. Their study of 1995 gives the Anglican churches a chapter of their own. The tie rests on their study alone.\" (FRE 64.5). The grade stays Dominant Modern Reconstruction, and Fenwick and Spinks stay named-not-rechecked."
+  },
+  {
+   "id": "R1-5",
+   "severity": "substantial",
+   "link_or_field": "the-russian-orthodox-church-council-patriarchate-and-reunion--the-ukrainian-greek-catholic-underground (note, grade)",
+   "problem": "(a) The note's first fact, that the Lviv synod of March 1946 folded the Ukrainian church into the Russian Orthodox Church, is in no listed source that was read. The drafter says so. The only primary, the 2016 text, speaks of 'this gathering', its 'tragic decisions' and a 'pseudo-synod'. Widely Accepted needs a primary for the underlying facts. (b) The second and third sentences report the Ukrainian church's position in 2016 in the present tense ('calls', 'says'). That puts a post-2010 stance in a note. (c) 'the attacks on it that came after' is not in the text, which says only that the Moscow church 'was an instrument of persecution'. (d) The text is signed 'on behalf of the participants of the International Conference', so it is a conference statement, not the Moscow church's own text. The arrow runs from Moscow, but no Moscow text or act is on the link.",
+   "evidence": "Raw fetch of archives.ugcc.ua (2026-11-10): both quotes verbatim. The page is dated 'Tuesday, 29 March 2016' and signed 'Kyiv, 17 March 2016 On behalf of the participants of the International Conference ...'. No passage on the page states what the 1946 gathering decided.",
+   "fix": "Regrade to Dominant Modern Reconstruction resting on Bociurkiw (repo-cited, named). Keep the 2016 statement as a later source and flag its date. Replace the note with: \"In March 1946 a synod at Lviv, held under Soviet rule, folded the Ukrainian Greek Catholic Church into the Russian Orthodox Church. Bohdan Bociurkiw's study of the church and the Soviet state tells how it was done.\" (FRE 61.7, longest sentence 22 words). Put the 1946 sobor's own acts in wants."
+  },
+  {
+   "id": "R1-6",
+   "severity": "substantial",
+   "link_or_field": "ecumenical-community-worlds-taize-and-iona longDescription (two-way check)",
+   "problem": "Prose change J 2 rewrites the relationsSummary's 'Deliberate heirs of monastic lines' as unsupported: 'No source shows what either took from the older monastic houses.' The disposition says no source shows either community setting out to inherit a monastic line. But the longDescription's first sentence makes the same claim and has no disposition: 'Two communities, founded two years apart, that set out to be modern heirs of the old monastic ones.' An unsupported relationship claim is left standing as fact, and the entry now contradicts itself.",
+   "evidence": "Census longDescription of ecumenical-community-worlds-taize-and-iona, first sentence. The dispositions for this movement cover the relationsSummary, legacy and two other longDescription sentences, not this one.",
+   "fix": "Add a 'qualify' disposition and replace the sentence with: \"Two communities, founded two years apart, built a shared life of work and prayer.\" (FRE 71.8). Rescore the field."
+  },
+  {
+   "id": "R1-7",
+   "severity": "minor",
+   "link_or_field": "the-malankara-churches-orthodox-and-jacobite--the-sayfo-and-the-syriac-diaspora (note)",
+   "problem": "The note calls Abdul Messiah II 'the patriarch of Antioch' in 1912 as plain fact. His standing in 1912 was disputed, and the drafter flags it. The only source read is the Malankara Orthodox side's own history. The note should say whose account it is. Major status and outcome are correct: the 1975 excommunication of the church's head, and the split that followed, meet step 4b (a church head excluded by an authority; a split into two bodies).",
+   "evidence": "mosckottayam.com 'Church History' raw fetch: '... by Patriarch Ignatius Abdul Messiah II ... Unfortunately, this led to a schism ...'; '... in 1975 ... an excommunication from the Patriarch of Antioch of His Holiness Catholicos Baselios Augen, which led to the creation of two factions again.'",
+   "fix": "Replace the note's first sentence with: \"The Malankara Orthodox Church's own history says that in 1912 Patriarch Abdul Messiah II made Baselios Paulose I its head.\" Keep the rest. The note scores FRE 66.6."
+  },
+  {
+   "id": "R1-8",
+   "severity": "minor",
+   "link_or_field": "the-catholic-church-pius-x-to-the-council--chinese-catholicism-twentieth-century (major.kind)",
+   "problem": "major.kind is 'council-law', but Ad Apostolorum Principis is a papal encyclical, not a council or canon. Part 1's review made the same point on Mortalium Animos (R1-17). The major call and the outcome are correct. Section 39 rules that bishops consecrated against Rome's orders have no power to teach or govern, which is a ruling that excludes a group.",
+   "evidence": "vatican.va raw fetch: section 39 quote verbatim.",
+   "fix": "Set major.kind to 'rule-changed'."
+  },
+  {
+   "id": "R1-9",
+   "severity": "minor",
+   "link_or_field": "the-liturgical-movement--the-post-vatican-ii-parish-world (outcome)",
+   "problem": "'The council ordered the whole liturgy to be restored' overstates art. 21, which says the Church 'desires to undertake ... a general restoration of the liturgy'. The major call itself is right: art. 36.2 widens the use of the mother tongue, a rule changed by a council.",
+   "evidence": "Sacrosanctum Concilium art. 21 and art. 36.2, raw fetch, verbatim.",
+   "fix": "Replace the outcome with: \"The council called for a general restoration of the liturgy. It also let people use their own language more often in the Mass and the sacraments.\" (FRE 60.2)."
+  },
+  {
+   "id": "R1-10",
+   "severity": "minor",
+   "link_or_field": "the-post-vatican-ii-parish-world--latin-american-catholicism-twentieth-century (note)",
+   "problem": "'It went on to Medellín.' The Bogotá homily, the only listed source, does not mention Medellín. Every fact in a note must come from a listed source.",
+   "evidence": "Raw fetch of the Spanish homily of 24 August 1968: no occurrence of 'Medellín'. The 1999 address on link nineteenth-century-latin-american-catholicism--latin-american-catholicism-twentieth-century names 'Medellín (1968)'.",
+   "fix": "Either add the 1999 address as a primary with its quote 'the four General Conferences of the Latin American Episcopate celebrated in Rio de Janeiro (1955), Medellín (1968), Puebla (1979) and Santo Domingo (1992)', or replace the note with: \"In August 1968 Pope Paul VI opened the Latin American bishops' meeting at Bogotá. He pointed them to the council's teaching in Gaudium et Spes. He asked them to give priests' councils and pastoral councils the shape the council wanted.\" (FRE 63.5)."
+  },
+  {
+   "id": "R1-11",
+   "severity": "minor",
+   "link_or_field": "the-anglican-communion-twentieth-century--african-initiated-churches-harrist-aladura-zioni (note)",
+   "problem": "The note does not state the relationship the link claims: that a church grew out of Anglican people. It says Spartas grew up Anglican and turned to the African Orthodox Church. It does not say that Anglicans followed him, which the source shows ('he welcomed the Ugandan Anglicans').",
+   "evidence": "dacb.org/stories/uganda/spartas-reuben raw fetch: '... Spartas, however, insisted that he wanted to be Orthodox when he welcomed the Ugandan Anglicans ...'.",
+   "fix": "Replace the note with: \"Reuben Spartas Mukasa grew up in the Anglican church of Uganda. Later he joined the African Orthodox Church and brought Anglicans in Uganda into it. In 1946 he went to Alexandria. There the patriarch made him trustee of the church in Uganda.\" (FRE 60.2). Add the 'welcomed the Ugandan Anglicans' sentence as a quote on the Hayes source."
+  },
+  {
+   "id": "R1-12",
+   "severity": "minor",
+   "link_or_field": "american-orthodoxy-autocephaly-and-the-convert-wave legacy (prose change I 4)",
+   "problem": "The rewritten field keeps entry-structure language: 'The self-rule of 1970 marks the close of the Paris emigrants' story and the start of this one. St Vladimir's Seminary stands where the two meet.' 'This one' means this entry, and 'the close of the story' is the map's periodizing, not a historical fact. The Paris school did not end in 1970.",
+   "evidence": "Drafting record prose change I 4 'new'. The svots.edu page supports Schmemann's and Meyendorff's part in the autocephaly ('like Fr. Alexander Schmemann, he was instrumental in obtaining self-rule').",
+   "fix": "Replace those two sentences with: \"The self-rule of 1970 owed much to teachers who had come from Paris. They taught at St Vladimir's Seminary in New York.\" The field then scores FRE 64.9."
+  },
+  {
+   "id": "R1-13",
+   "severity": "minor",
+   "link_or_field": "Online_Quote_Check.json: the two UNCONFIRMED Fortuny (wrldrels.org) quotes on oneness-pentecostalism--iglesia-ni-cristo-the-way-international-unificat",
+   "problem": "The site did not serve this reviewer a CAPTCHA. A plain curl on 2026-11-10 returned the article itself (HTML, 109,565 bytes). Both quotes are verbatim there, and so are the post date (5 June 2016) and the update (26 October 2023). The quotes are now independently confirmed, so neither the remove fix nor the strip-quotes fix is needed. The link's grade (Dominant Modern Reconstruction, two scholars read online, the church's own disagreement stated) and its note are sound.",
+   "evidence": "Page text: 'Members and authorities of the church do not identify themselves as Pentecostals. The latter are viewed as small religious groups divided among themselves. However, because of its origin, development, ritual and doctrine I classify this church in this way.' ... 'Post Date: 5 June 2016 Update: 26 October 2023'.",
+   "fix": "Keep the source and both quotes. In Online_Quote_Check.json, mark the two items as confirmed by the round 1 reviewer's raw fetch (2026-11-10, curl, page served without CAPTCHA)."
+  },
+  {
+   "id": "R1-14",
+   "severity": "minor",
+   "link_or_field": "catholic-lay-renewal-worlds-catholic-worker-foco relationsSummary (prose change G 3)",
+   "problem": "'Lay Catholics started four movements in the 1900s.' The phrase 'in the 1900s' can mean the decade 1900-1909. All four dates fall from 1933 to 1967.",
+   "evidence": "The new text itself gives 1933, 1943, 1964 and 1967.",
+   "fix": "Replace 'in the 1900s' with 'in the twentieth century'. The field scores FRE 65.2."
+  },
+  {
+   "id": "R1-15",
+   "severity": "minor",
+   "link_or_field": "the-post-vatican-ii-parish-world as an endpoint (links the-tridentine-church--the-post-vatican-ii-parish-world and the-post-vatican-ii-parish-world--latin-american-catholicism-twentieth-century)",
+   "problem": "Group G recorded in Open-Gaps 148 that the parish entry does not stand for Rome after 1962, and held two links as no-entry for that reason. Group J uses the same entry as the endpoint for a papal law (Summorum Pontificum) and a papal homily (Bogotá 1968). Both uses can be defended on the entry's own scope: the 2007 rule governs parish celebration of the older Missal, and the parish entry calls itself 'the Second Vatican Council as it was lived in parishes'. But the record does not say so, and it treats the same question in two ways.",
+   "evidence": "Open-Gaps 148 (commit 8bca7dcd4); drafter flags on links 42 and 49.",
+   "fix": "Add one line to each of the two links' drafter_flags saying why the parish entry fits that act on its own scope. Add a cross-reference under Open-Gaps 148 naming the two links, so the census owner's ruling covers them."
+  },
+  {
+   "id": "R1-16",
+   "severity": "minor",
+   "link_or_field": "the-optina-elders-and-russian-ascetic-renewal--the-russian-new-martyrs-and-the-catacomb-church (kept note)",
+   "problem": "This kept note, unchanged from main, carries a map word: 'so this line rests on a thin inference'. The record reviews it as an existing link and keeps it. Under CLAUDE.md, a PR that edits a live file also removes the commentary already in it.",
+   "evidence": "Kept link note on main.",
+   "fix": "Replace 'so this line rests on a thin inference' with 'so the tie rests on a thin inference'. The rest is unchanged. As a rewrite of an existing link, the id stays the same."
+  },
+  {
+   "id": "R1-17",
+   "severity": "minor",
+   "link_or_field": "dispositions (two-way bookkeeping)",
+   "problem": "Five kept links have no disposition that points to them by link_id. They are: african-initiated-churches-harrist-aladura-zioni--global-south-pentecostal-christianity, ruthenian-greek-catholic-polotsk-to-galicia--the-ukrainian-greek-catholic-underground, alaskan-mission-herman-veniaminov--american-orthodoxy-autocephaly-and-the-convert-wave, insular-irish-monastic-christianity--ecumenical-community-worlds-taize-and-iona, and the-catholic-church-pius-x-to-the-council--the-ecumenical-movement-and-the-wcc. Each is named in the text, so this is not a missing relationship. But the README's 'every link named in text' list cannot be read off the dispositions.",
+   "evidence": "Reviewer script: for each record link, look for a disposition with link_id equal to its id.",
+   "fix": "Set link_id on the matching 'kept-as-is' or 'link' disposition for each of the five, or list them in the README's link-to-text direction with the sentence that names them."
+  }
+ ],
+ "checks": {
+  "mechanics": "Applied the record with my own code (census keys id, from, to, type, confidence, note, outcome, sources, citation_specificity, verification_state). 33 new links appended, 2 rewrites replaced by id (Armenian: note only; Tridentine: grade, sources, note, outcome), 17 keeps identical to main, 17 prose changes each matched its field exactly. node tools/validate-census.mjs <applied> --base cic-website/data/world-census.json --atlas cft-website/index.html: 1 error, 'links changed but meta.release.number did not', as expected (2 shortName warnings already on main). 322 movements, 644 edges.",
+  "kept_and_part1": "All 17 keeps are byte-identical to main. Neither rewritten link was a part 1 link: both are unchanged between 26a588694^ and main. No part 1 link is redrawn. No census link that touches a part 2 movement is missing from the record.",
+  "sources_refetched": "All 38 online URLs on new and changed links were fetched raw by curl (archive.org via its djvu.txt; the two PDFs via pdftotext). Every online quote on those links (107 plus the 2 Fortuny) is verbatim after whitespace and quotation-mark normalization. I read the context for: mosckottayam (1912, 1975); WCC Church of Greece and Ecumenical Patriarchate; Analogia (1943, the tomos, Stalin); Trigo p. 49 (confirmed on the PDF's running head); Houteff 1SR (the quotes are under PREFACE and 1SR 11.2, not an 'Introduction'); the WCC 1969 minutes; DACB Tile, Spartas and Adejobi; the 1947 Project Canterbury correspondence (Binsted's suggestions, art. 20, the P.S. 'read and approved'); St Macarius ('twelve monks'); svots; archeveche.eu (decrees of 8 April 1921); saint-serge.net; azbyka Joseph 1930 (the 1927 declaration discussed); UGCC 2016; the 1999, 2005 and 1968 papal texts; Summorum Pontificum and the letter; Sacrosanctum Concilium; Mediator Dei; Ad Apostolorum Principis; CBCP 2007; Bitter Winter. Library quotes (Philipos, Ormanian, Bullarium) pass the validator's file check.",
+  "named_studies": "Repo-cited (grep outside this folder): Frazee, Leustean, Hastings, Frykenberg, Newport, Tabor and Gallagher, Lernoux, Burdick, ter Haar, Adogame, Welbourn, Achútegui and Bernad, Pecklers, Fenwick and Spinks, Pospielovsky, Bociurkiw, Meinardus, Ramet, Ramírez, Kévorkian, O'Malley, Madsen, González and González, Schumacher, Arjakovsky. Read and quoted in the run: Trigo, Lursmanashvili, Lipschutz and Rasmussen, Hayes, Ogunewu, Introvigne, Fortuny, Rojas, Mazyrin, Christianity Today 1969. Title only: Erickson (Open Library; not in the repo; see R1-2) and Saunders 1970 (carries nothing; the grade does not rest on it). DACB and WRSP profiles are authored scholarly references; part 1 used DACB the same way.",
+  "major_calls": "Malankara and Antioch 1975: major, correct (a church head excommunicated and a split). Georgia and Russia 1943, resting on a study's report: acceptable. Step 4b asks that one of the link's own listed sources show the act, and a study read online is a listed source. Dominant Modern Reconstruction is the right grade. Georgian tomos: major, correct. The study's timing ('immediately after the collapse of the Soviet Union', under Demetrios I, who died in October 1991) is wrong on its own terms, and the note rightly gives no year. Pius X to Chinese Catholicism: major, correct (R1-8 on kind only). Tridentine to post-Vatican II at Widely Accepted on Summorum Pontificum: correct. The 2007 law is itself the act, Art. 2 changes a rule, the 1570 bull is held in the Library, and the 2007 date is inside 2010. Anglican to Philippine Independent Church: major, correct. The church's supreme bodies formally adopted the Declaration on Binsted's advice and set aside the 1903 rules (art. 20). That is a rule changed by an authority, not a text merely taken up. Liturgical movement to post-Vatican II: major, correct (R1-9 on wording). Judged minor and agreed: liturgical movement to Pius X (Mediator Dei warns and restates the rubrics), Russian church to the Ukrainian underground (no listed source shows the act), Pius X church to Latin America (CELAM set up at the bishops' request), and post-Vatican II to Latin America.",
+  "later_papal_texts": "Benedict XVI 2005 (CELAM 1955), John Paul II 1999 (1899 to 1968) and the CBCP 2007 (Barlin 1902-06) are each the body's own dated official statement about its own past. That fits the letter of the rule (an official statement), and each sits beside a named secondary, so Widely Accepted holds. They are recollections, not documents of the time. The CELAM founding decree and the 1899 council's acts would be stronger, and belong on wants. Summorum Pontificum 2007 is a primary for its own 2007 act, not for earlier events.",
+  "prose": "All 17 changed fields score FRE 60 or more on score_turn (lowest 60.4, oneness relationsSummary). No sentence is over 25 words. The prose adds no map words, and several remove them. I checked the facts against the sources: the Etchmiadzin founding is on armenianchurch.org Overview ('founded in 301-303'); Schmemann's part in the autocephaly is on svots.edu; Houteff's church 'rejected it' follows the entry's own longDescription. Problems are in R1-6, R1-12 and R1-13.",
+  "two_way": "Every relationship in Inventory.json matches a disposition. My own scan of the four fields of the 33 movements against every other movement's names found one unrecorded claim (R1-6). Every new or changed link is named in at least one of its movements' fields. The new rows' parent links named in Open-Gaps 140 are all drawn, except Kollyvades to the Greek church, which was removed with a reason."
+ }
+}

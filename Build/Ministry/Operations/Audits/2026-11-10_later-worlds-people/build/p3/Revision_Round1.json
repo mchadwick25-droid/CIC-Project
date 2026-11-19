@@ -1,0 +1,42 @@
+[
+ {
+  "id": "B4",
+  "action": "fixed",
+  "what": "floorNote set to 'Not in question.' for Patrick, Justinian and Bede. Patrick's dates caveat moved to sourcing (review's wording). Justinian's hostile-sources sentence moved to sourcing. Bede's caveat moved to sourcing (see M7). Fact rows retargeted to sourcing."
+ },
+ {
+  "id": "B7",
+  "action": "fixed",
+  "what": "Deleted the last two sentences of Justinian's legacy (the preface and the Coptic writers) and the fact row behind them."
+ },
+ {
+  "id": "M1",
+  "action": "fixed",
+  "what": "Justinian longDescription: preface rendering replaced with the review's text, including 'given by mercy from above' and 'rules over human things and takes care of them'. Fact rows rebuilt from the Latin lines (the Greek column interleaves, so the quote is split in two)."
+ },
+ {
+  "id": "M4",
+  "action": "fixed",
+  "what": "Bede legacy: Middle English rendering now ends 'and take up falsehood and uphold it'; fact-row sentences updated, the 'meyntene it' row already covered the clause."
+ },
+ {
+  "id": "M5",
+  "action": "fixed",
+  "what": "Bede longDescription: 'He became a deacon in his nineteenth year and a priest in his thirtieth.' Fact-row sentences updated."
+ },
+ {
+  "id": "M6",
+  "action": "fixed",
+  "what": "Patrick: (a) legacy now says 'among the Scots, that is, the Irish', with a new row on Nennius's gloss at the Palladius passage ('the Scots (the Irish)'); (b) 'His own letter, the earlier witness, says six.' replaces the both-accounts sentence, with a row for Nennius being a compilation of c. 829; (c) modernCountries gains the United Kingdom / Ireland row (Q145, Q22890), copied from the home record, with a census fact row."
+ },
+ {
+  "id": "M7",
+  "action": "fixed",
+  "what": "Bede sourcing carries the review's caveat: practically the only record of England to 732, so much of it rests on him alone; not neutral about the Britons. Fact row quote changed to Jane's 'only authority for the history of England from the Saxon invasion to the year 732'."
+ },
+ {
+  "id": "M8",
+  "action": "fixed",
+  "what": "Justinian why: 'In Russia, the case against Patriarch Nikon cites his laws.' Fact-row sentence updated."
+ }
+]

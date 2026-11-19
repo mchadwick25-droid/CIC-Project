@@ -1,0 +1,13 @@
+source_file: christian-east_v6-no2-june-1925.txt
+assignments:
+- row_id: christian-east_v6-no2-june-1925--whole
+  work: 'The Christian East, volume VI, number 2 (June, 1925)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1925, end: 1925, source: "masthead: 'June, 1925'", formation_confidence: Documented}
+  note: 'One number of the quarterly, by many writers. The Eastern documents it prints are in the journal''s English unless a row says otherwise.'

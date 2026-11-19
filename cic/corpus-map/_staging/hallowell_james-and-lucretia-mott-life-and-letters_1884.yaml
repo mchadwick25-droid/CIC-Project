@@ -1,0 +1,21 @@
+source_file: hallowell_james-and-lucretia-mott-life-and-letters_1884.txt
+assignments:
+- row_id: hallowell_james-and-lucretia-mott-life-and-letters_1884--james-and-lucretia-mott-life-and-letters-edited-by-their
+  work: 'James and Lucretia Mott: Life and Letters; edited by their granddaughter, Anna Davis Hallowell'
+  author: hallowell
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - nineteenth-century-quakerism-separations
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1884
+    end: 1884
+    source: 'the printing''s own title page: line 55, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1884
+    source: line 55, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 244, Lucretia Mott: a Life with her letters.'

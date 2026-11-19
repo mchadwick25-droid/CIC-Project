@@ -1,0 +1,936 @@
+{
+ "group": "B",
+ "movements": [
+  "alexandria-catechetical",
+  "apocryphal-and-pseudepigraphal-literature",
+  "palestinian-church-pre-constantinian",
+  "anatolian-church-third-century"
+ ],
+ "dispositions": [
+  {
+   "movement": "alexandria-catechetical",
+   "field": "relationsSummary",
+   "sentence": "A contested influence on Desert Monasticism, real at one disputed point and denied as a general continuation",
+   "other_id": "desert-monasticism",
+   "disposition": "link",
+   "link_id": "alexandria-catechetical--desert-monasticism",
+   "prose_change": null,
+   "reason": "Existing Contested link; the summary already states the dispute."
+  },
+  {
+   "movement": "alexandria-catechetical",
+   "field": "relationsSummary",
+   "sentence": "scholarship parent of the Bethlehem Circle",
+   "other_id": "hieronymian-ascetic-literary",
+   "disposition": "link",
+   "link_id": "alexandria-catechetical--hieronymian-ascetic-literary",
+   "prose_change": null,
+   "reason": "Existing Documented link (Jerome, Preface to Job). 'Bethlehem Circle' is Jerome's circle, the hieronymian entry."
+  },
+  {
+   "movement": "alexandria-catechetical",
+   "field": "longDescription",
+   "sentence": "Origen ... moving his teaching to Caesarea around 231.",
+   "other_id": "palestinian-church-pre-constantinian",
+   "disposition": "link",
+   "link_id": "alexandria-catechetical--palestinian-church-pre-constantinian",
+   "prose_change": null,
+   "reason": "Existing link (Eusebius HE 6.26)."
+  },
+  {
+   "movement": "alexandria-catechetical",
+   "field": "longDescription",
+   "sentence": "Nepos, a bishop out in the Egyptian countryside at Arsinoe, wrote a book refuting the allegorists ... brought them back around.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Nepos and Dionysius are people, not census movements. Supported by Eusebius HE 7.24 (npnf201 lines 41287-41295 Nepos's 'Refutation of Allegorists'; 41344-41352 Arsinoe; 41357-41359 three days; 41374-41380 Coracion recants). One nuance: Dionysius says Nepos 'has gone to rest before us' (41316-41317), so the three days were with his followers, which the prose's 'Nepos's own community' allows."
+  },
+  {
+   "movement": "alexandria-catechetical",
+   "field": "legacy",
+   "sentence": "Basil of Caesarea and Gregory of Nazianzus compiled an anthology of his writings",
+   "other_id": "cappadocian-nicene-pastoral-monastic-tradition",
+   "disposition": "link",
+   "link_id": "alexandria-catechetical--cappadocian-nicene-pastoral-monastic-tradition",
+   "prose_change": 10,
+   "reason": "New link on Socrates HE IV.26 and Gregory Ep. 115. Prose qualified: the project's own records hold the compilation attribution as Contested."
+  },
+  {
+   "movement": "alexandria-catechetical",
+   "field": "legacy",
+   "sentence": "Ambrose ... read him closely even when they were careful about saying so.",
+   "other_id": "ambrosian-milan-standalone",
+   "disposition": "link",
+   "link_id": "alexandria-catechetical--ambrosian-milan-standalone",
+   "prose_change": null,
+   "reason": "New link on Jerome Ep. 84.7 (npnf206 19268-19272)."
+  },
+  {
+   "movement": "alexandria-catechetical",
+   "field": "legacy",
+   "sentence": "Jerome read him closely even when they were careful about saying so.",
+   "other_id": "hieronymian-ascetic-literary",
+   "disposition": "link",
+   "link_id": "alexandria-catechetical--hieronymian-ascetic-literary",
+   "prose_change": null,
+   "reason": "Existing link; Jerome's own reserve is carried by hieronymian--alexandria (argued against, Ep. 84)."
+  },
+  {
+   "movement": "alexandria-catechetical",
+   "field": "legacy",
+   "sentence": "The tradition also fed directly into Egyptian monasticism, giving the desert its intellectual vocabulary.",
+   "other_id": "desert-monasticism",
+   "disposition": "qualify",
+   "link_id": "alexandria-catechetical--desert-monasticism",
+   "prose_change": 11,
+   "reason": "The flat claim contradicts the existing Contested link and the desert entry's own summary. Rewritten to state the dispute (Rubenson's reading vs. Athanasius, Vita Antonii 1, npnf204 31216-31218)."
+  },
+  {
+   "movement": "anatolian-church-third-century",
+   "field": "relationsSummary",
+   "sentence": "The ground the Cappadocian tradition grows out of and knows it",
+   "other_id": "cappadocian-nicene-pastoral-monastic-tradition",
+   "disposition": "link",
+   "link_id": "anatolian-church-third-century--cappadocian-nicene-pastoral-monastic-tradition",
+   "prose_change": null,
+   "reason": "Existing Documented link; 'knows it' is Basil's own claim in Ep. 204.6."
+  },
+  {
+   "movement": "anatolian-church-third-century",
+   "field": "relationsSummary",
+   "sentence": "Basil's grandmother Macrina was formed by Gregory Thaumaturgus' disciples, and Basil appeals to his practice as precedent.",
+   "other_id": "cappadocian-nicene-pastoral-monastic-tradition",
+   "disposition": "qualify",
+   "link_id": "anatolian-church-third-century--cappadocian-nicene-pastoral-monastic-tradition",
+   "prose_change": 12,
+   "reason": "Basil says only that Macrina taught him Gregory's words, kept in memory (npnf208 37062-37065); no vendored text says she was formed by his disciples. The precedent half is documented by De Spiritu Sancto 29.74 (14689-14691), now added to the link."
+  },
+  {
+   "movement": "anatolian-church-third-century",
+   "field": "relationsSummary",
+   "sentence": "Origen's reach runs through it in both directions - Gregory was his devoted pupil, Methodius his first serious critic.",
+   "other_id": "alexandria-catechetical",
+   "disposition": "link",
+   "link_id": "alexandria-catechetical--anatolian-church-third-century; anatolian-church-third-century--alexandria-catechetical",
+   "prose_change": 12,
+   "reason": "Both directions carried by existing links. 'First' softened: no vendored text shows Methodius was the first."
+  },
+  {
+   "movement": "anatolian-church-third-century",
+   "field": "longDescription",
+   "sentence": "He had fallen in with Origen at Caesarea instead, stayed five years, and left with a farewell address ...",
+   "other_id": "alexandria-catechetical",
+   "disposition": "link",
+   "link_id": "alexandria-catechetical--anatolian-church-third-century",
+   "prose_change": 13,
+   "reason": "Pupilage documented (Eusebius HE 6.30). Prose qualified: the address's authorship is Contested in records/alx/source/alx.source.gregory-address-to-origen.md and in the link note."
+  },
+  {
+   "movement": "anatolian-church-third-century",
+   "field": "longDescription",
+   "sentence": "... and became the first substantial critic of Origen, whose most devoted pupil had been Gregory.",
+   "other_id": "alexandria-catechetical",
+   "disposition": "link",
+   "link_id": "anatolian-church-third-century--alexandria-catechetical",
+   "prose_change": 14,
+   "reason": "Existing argued-against link (Jerome DVI 83; Photius 234). 'First' softened to 'one of the first'."
+  },
+  {
+   "movement": "anatolian-church-third-century",
+   "field": "longDescription",
+   "sentence": "a Christian rewriting of Plato's Symposium",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Plato is not a movement. Supported: ANF06 editor's note, lines 29827-29828 ('some of the ideas borrowed from the Symposium of Plato'), and 29861-29862 (Gregorion answers to Diotima)."
+  },
+  {
+   "movement": "anatolian-church-third-century",
+   "field": "why",
+   "sentence": "Gregory of Neocaesarea, a devoted pupil of Origen, wrote a canonical letter ...",
+   "other_id": "alexandria-catechetical",
+   "disposition": "link",
+   "link_id": "alexandria-catechetical--anatolian-church-third-century",
+   "prose_change": null,
+   "reason": "Existing link."
+  },
+  {
+   "movement": "anatolian-church-third-century",
+   "field": "why",
+   "sentence": "became Origen's first serious critic before dying in the persecution around 311.",
+   "other_id": "alexandria-catechetical",
+   "disposition": "link",
+   "link_id": "anatolian-church-third-century--alexandria-catechetical",
+   "prose_change": 15,
+   "reason": "Existing link; 'first' softened as above."
+  },
+  {
+   "movement": "anatolian-church-third-century",
+   "field": "why",
+   "sentence": "Methodius of Olympus rewrote Plato's Symposium as a Christian dialogue",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As the longDescription item: ANF06 29827-29828."
+  },
+  {
+   "movement": "anatolian-church-third-century",
+   "field": "legacy",
+   "sentence": "The Cappadocian tradition claims descent from this ground explicitly, and Basil cites Gregory's practice as precedent when he wants to argue that something is old.",
+   "other_id": "cappadocian-nicene-pastoral-monastic-tradition",
+   "disposition": "link",
+   "link_id": "anatolian-church-third-century--cappadocian-nicene-pastoral-monastic-tradition",
+   "prose_change": null,
+   "reason": "Existing link, rewritten to add De Spiritu Sancto 29.74. Basil to the Neocaesareans also calls Gregory one of 'the founders of your Church' (npnf208 36903)."
+  },
+  {
+   "movement": "anatolian-church-third-century",
+   "field": "legacy",
+   "sentence": "Gregory's Canonical Epistle entered the received canon-law collections of the East and is still there.",
+   "other_id": "byzantine-imperial-church-heraclian-iconoclast",
+   "disposition": "link",
+   "link_id": "anatolian-church-third-century--byzantine-imperial-church-heraclian-iconoclast",
+   "prose_change": null,
+   "reason": "New link on Trullo canon 2 (npnf214 26731-26745). 'Still there' is a modern fact; NPNF 14 itself prints the Epistle among the received canons (43239)."
+  },
+  {
+   "movement": "anatolian-church-third-century",
+   "field": "legacy",
+   "sentence": "And Methodius' Banquet is the foundation of the Christian literature of virginity - everything Ambrose, Jerome and Gregory of Nyssa later wrote on the subject is downstream of it ...",
+   "other_id": "ambrosian-milan-standalone",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 16,
+   "reason": "No vendored text shows Ambrose using the Banquet. 'Foundation' and 'began there' are contradicted by earlier vendored works: Tertullian, On the Veiling of Virgins (anf04 2667) and Cyprian, On the Dress of Virgins (anf05 42953)."
+  },
+  {
+   "movement": "anatolian-church-third-century",
+   "field": "legacy",
+   "sentence": "(same sentence) Jerome",
+   "other_id": "hieronymian-ascetic-literary",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 16,
+   "reason": "Jerome names the Banquet in a catalogue (DVI 83, npnf203 41096-41099); no vendored text shows him using it on virginity (his Methodius references in npnf206 9759, 16539 concern Porphyry). Naming in a catalogue is not influence, so no link."
+  },
+  {
+   "movement": "anatolian-church-third-century",
+   "field": "legacy",
+   "sentence": "(same sentence) Gregory of Nyssa",
+   "other_id": "cappadocian-nicene-pastoral-monastic-tradition",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 16,
+   "reason": "No vendored text shows Gregory of Nyssa using the Banquet; the one editor's mention (npnf205 1174) concerns resurrection, not virginity."
+  },
+  {
+   "movement": "palestinian-church-pre-constantinian",
+   "field": "relationsSummary",
+   "sentence": "It bridges alexandria-catechetical, whose greatest teacher moved here",
+   "other_id": "alexandria-catechetical",
+   "disposition": "link",
+   "link_id": "alexandria-catechetical--palestinian-church-pre-constantinian",
+   "prose_change": 0,
+   "reason": "Existing link. Prose change only removes the printed internal identifiers."
+  },
+  {
+   "movement": "palestinian-church-pre-constantinian",
+   "field": "relationsSummary",
+   "sentence": "and jerusalem-liturgical-pilgrimage-christianity, which begins where this ends.",
+   "other_id": "jerusalem-liturgical-pilgrimage-christianity",
+   "disposition": "link",
+   "link_id": "palestinian-church-pre-constantinian--jerusalem-liturgical-pilgrimage-christianity",
+   "prose_change": 0,
+   "reason": "Existing Inferential-Thin 'continued as' link; prose claims only sequence."
+  },
+  {
+   "movement": "palestinian-church-pre-constantinian",
+   "field": "longDescription",
+   "sentence": "When Origen left Alexandria for good around 231 he went to Caesarea ...",
+   "other_id": "alexandria-catechetical",
+   "disposition": "link",
+   "link_id": "alexandria-catechetical--palestinian-church-pre-constantinian",
+   "prose_change": null,
+   "reason": "Existing link."
+  },
+  {
+   "movement": "palestinian-church-pre-constantinian",
+   "field": "longDescription",
+   "sentence": "Up the road at Jerusalem, Bishop Alexander had built a library of his own and was collecting letters and records",
+   "other_id": "jerusalem-liturgical-pilgrimage-christianity",
+   "disposition": "out-of-scope",
+   "link_id": "palestinian-church-pre-constantinian--jerusalem-liturgical-pilgrimage-christianity",
+   "prose_change": null,
+   "reason": "Alexander (bishop c. 212-250) belongs to this movement, not to the Jerusalem entry that starts c. 325. His library is already the evidence of the existing continued-as and imperial-juridical links (HE 6.20, npnf201 35440-35443)."
+  },
+  {
+   "movement": "palestinian-church-pre-constantinian",
+   "field": "longDescription",
+   "sentence": "Julius Africanus - soldier, scholar, and correspondent of Origen",
+   "other_id": "alexandria-catechetical",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Both men sit inside this movement's own story (Origen at Caesarea, Africanus at Emmaus). The correspondence is real: 'A Letter to Origen from Africanus About the History of Susanna', anf06 35052; Eusebius HE 6.31 (npnf201 36687-36693)."
+  },
+  {
+   "movement": "palestinian-church-pre-constantinian",
+   "field": "longDescription",
+   "sentence": "Then the persecution came.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The state is not a movement."
+  },
+  {
+   "movement": "palestinian-church-pre-constantinian",
+   "field": "longDescription",
+   "sentence": "Eusebius ... afterwards used the library to write the history of the church.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "palestinian-church-pre-constantinian--imperial-juridical-christianity",
+   "prose_change": null,
+   "reason": "Existing link (HE 6.20). Not in the inventory; added."
+  },
+  {
+   "movement": "palestinian-church-pre-constantinian",
+   "field": "why",
+   "sentence": "When Origen left Alexandria for Caesarea around 231 ...",
+   "other_id": "alexandria-catechetical",
+   "disposition": "link",
+   "link_id": "alexandria-catechetical--palestinian-church-pre-constantinian",
+   "prose_change": null,
+   "reason": "Existing link."
+  },
+  {
+   "movement": "palestinian-church-pre-constantinian",
+   "field": "legacy",
+   "sentence": "The Hexapla, Origen's six-column Old Testament, sat here",
+   "other_id": "alexandria-catechetical",
+   "disposition": "out-of-scope",
+   "link_id": "alexandria-catechetical--palestinian-church-pre-constantinian",
+   "prose_change": null,
+   "reason": "Echoes the existing Origen-to-Caesarea link; the Hexapla is Origen's work kept in this movement's library."
+  },
+  {
+   "movement": "palestinian-church-pre-constantinian",
+   "field": "legacy",
+   "sentence": "... until the Arab conquest and was consulted by Jerome.",
+   "other_id": "hieronymian-ascetic-literary",
+   "disposition": "link",
+   "link_id": "palestinian-church-pre-constantinian--hieronymian-ascetic-literary",
+   "prose_change": 1,
+   "reason": "New link on Jerome DVI 75 and Apol. adv. Ruf. III.12. Prose qualified: no vendored text shows Jerome using the Hexapla itself or the Hexapla lasting to the Arab conquest."
+  },
+  {
+   "movement": "palestinian-church-pre-constantinian",
+   "field": "legacy",
+   "sentence": "Eusebius' Church History quotes documents that survive nowhere else, and it was written from shelves Pamphilus and Alexander had assembled",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "palestinian-church-pre-constantinian--imperial-juridical-christianity",
+   "prose_change": null,
+   "reason": "Existing link. Not in the inventory; added."
+  },
+  {
+   "movement": "palestinian-church-pre-constantinian",
+   "field": "legacy",
+   "sentence": "And Africanus' chronicle is the foundation Eusebius built his own chronology on, which in turn became the frame every medieval universal history used.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Africanus and Eusebius both belong to this movement; the medieval histories are not a named movement. Not in the inventory; added for completeness. Not checked further."
+  },
+  {
+   "movement": "apocryphal-and-pseudepigraphal-literature",
+   "field": "relationsSummary",
+   "sentence": "Its natural relation to every other early entry is that they read it.",
+   "other_id": "alexandria-catechetical",
+   "disposition": "qualify",
+   "link_id": "apocryphal-and-pseudepigraphal-literature--alexandria-catechetical",
+   "prose_change": 2,
+   "reason": "'Every' cannot be shown, and 'entry' is internal language. One reader is now documented by a new link (Origen, Comm. Matt. X.17, anf09 30601-30607)."
+  },
+  {
+   "movement": "apocryphal-and-pseudepigraphal-literature",
+   "field": "longDescription",
+   "sentence": "the Testaments of the Twelve Patriarchs, the Life of Adam and Eve, the Testament of Abraham are Jewish works that survive because Christian scribes kept copying them",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "Judaism is not a movement. For the Testaments the Jewish origin is disputed: the ANF08 editor reads the author as a Christian (lines 632-655), and the project's own river-prototype data calls the question unresolved. The other two are kept as Jewish per the project's transmission ruling (Build/worlds/_cross-world/NEEDS-RULING.md line 40)."
+  },
+  {
+   "movement": "apocryphal-and-pseudepigraphal-literature",
+   "field": "longDescription",
+   "sentence": "Pseudo-Matthew and its Carolingian abridgement that carried Mary's childhood into the Latin West",
+   "other_id": "carolingian-reform-christianity",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "The sentence dates a text; it does not relate the Carolingian reform movement to this one, so no link. 'Carolingian' is in no vendored or repo-cited source; ANF08 (35995-36002) says only 'later date and a different author' and its passage into the Legenda Aurea."
+  },
+  {
+   "movement": "apocryphal-and-pseudepigraphal-literature",
+   "field": "longDescription",
+   "sentence": "The Dormition narratives that gave the church the Assumption, the tour-of-hell apocalypses that shaped medieval visions of the afterlife",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No movement party. Narratives vendored (Passing of Mary, anf08 56463; Assumption of Mary notice, 36537-36542: 'not later than the fourth century', condemned by the Gelasian decree). Revelation of Paul vendored (anf08 55024); Augustine knew and rejected it (anf09 10960-10966). Their medieval reception is not documented in vendored texts; left as is and listed under wants."
+  },
+  {
+   "movement": "apocryphal-and-pseudepigraphal-literature",
+   "field": "longDescription",
+   "sentence": "Thomas in India",
+   "other_id": "st-thomas-christians-of-india",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The text names the setting of a story, not the St Thomas Christians, and claims no relation to them. Any link would belong to that era-4 entry's own text."
+  },
+  {
+   "movement": "apocryphal-and-pseudepigraphal-literature",
+   "field": "why",
+   "sentence": "Some of these works, like the Testaments of the Twelve Patriarchs, were originally Jewish texts",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "As the longDescription item: the example swapped for the Life of Adam and Eve."
+  },
+  {
+   "movement": "apocryphal-and-pseudepigraphal-literature",
+   "field": "legacy",
+   "sentence": "Marian devotion in both East and West rests substantially on the Protevangelium of James: Anna and Joachim, the presentation in the Temple, the ox and the ass ...",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "No movement party. Supported for Anna, Joachim and the Temple (Protevangelium, anf08 36612-36745; editor notes the feasts of Joachim and Anna, 36622, 36649). Factual error corrected: the ox and the ass are in Pseudo-Matthew ch. 14 (37907-37909), not the Protevangelium."
+  },
+  {
+   "movement": "apocryphal-and-pseudepigraphal-literature",
+   "field": "legacy",
+   "sentence": "The apocryphal Acts supplied medieval art and legend with most of what it knew about the apostles' deaths.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "No movement party. The deaths are in the vendored Acts (anf08 47557-47561 Peter head down; 48752 Philip by the ankles); the medieval reception is not in any vendored text, so stated as likely."
+  },
+  {
+   "movement": "apocryphal-and-pseudepigraphal-literature",
+   "field": "legacy",
+   "sentence": "And the Jewish pseudepigrapha in this collection are the reason a large body of Second Temple literature exists at all",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 8,
+   "reason": "Judaism is not a movement. Narrowed to what the collection shows; the wider claim has no vendored or repo-cited source."
+  }
+ ],
+ "links": [
+  {
+   "id": "alexandria-catechetical--cappadocian-nicene-pastoral-monastic-tradition",
+   "action": "new",
+   "from": "alexandria-catechetical",
+   "to": "cappadocian-nicene-pastoral-monastic-tradition",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "The fifth-century historian Socrates says Basil and Gregory of Nazianzus studied Origen's works and drew their reading of Scripture from them. They then used Origen against the Arians. Around 382 Gregory sent a friend the Philocalia of Origen, an anthology tradition credits to the two of them.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "cappadocian.source.church-historians-socrates-sozomen-theodoret",
+     "work": "Socrates, Church History IV.26 (Of Basil of Caesarea, and Gregory of Nazianzus)",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "13913-13915",
+     "locus": "HE IV.26",
+     "quote": "they procured Origen’s works, and drew from them the right interpretation of the sacred Scriptures;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "cappadocian.source.church-historians-socrates-sozomen-theodoret",
+     "work": "Socrates, Church History IV.26",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "13920-13922",
+     "locus": "HE IV.26",
+     "quote": "these two confuted them, and clearly proved that their opponents did not at all understand the reasoning of Origen.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory of Nazianzus, Letter 115 (to Theodore of Tyana)",
+     "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+     "lines": "47450-47451",
+     "locus": "Ep. 115",
+     "quote": "we send you the volume of the Philocalia of Origen, containing a selection of passages useful to students of literature.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "alexandria-catechetical legacy (Basil and Gregory of Nazianzus and Origen's writings); not named in the Cappadocian text, which is enough under the either-side rule",
+   "wants": [],
+   "drafter_flags": [
+    "The project's own records hold the Basil-Nazianzen compilation of the Philocalia as Contested (records/cappadocian/source/cappadocian.source.origen-philocalia.md), so the note credits it to tradition. The link rests on Socrates, not on the compilation.",
+    "The English of Ep. 115 does not name Basil; the Greek quoted in NPNF 8 (npnf208 lines 1474-1490) adds 'and the same from holy Basil', but its line-by-line markup made me quote the English instead."
+   ],
+   "change_reason": "New: the alexandria legacy names this relationship and no link carried it."
+  },
+  {
+   "id": "alexandria-catechetical--ambrosian-milan-standalone",
+   "action": "new",
+   "from": "alexandria-catechetical",
+   "to": "ambrosian-milan-standalone",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In a letter of 400, Jerome says Ambrose had lately taken over Origen's work on the six days of creation. He adds that Ambrose's version followed Hippolytus and Basil more than Origen.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jerome, Letter 84 (To Pammachius and Oceanus), section 7",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "19268-19269",
+     "locus": "Ep. 84.7",
+     "quote": "Recently also Ambrose appropriated his <i>Six Days’ Work</i>,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jerome, Letter 84 (To Pammachius and Oceanus), section 7",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "19270-19272",
+     "locus": "Ep. 84.7",
+     "quote": "but in such a way that it expressed the views of Hippolytus and Basil rather than of Origen.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "alexandria-catechetical legacy ('Ambrose ... read him closely even when they were careful about saying so')",
+   "wants": [
+    "Ambrose's own Hexaemeron or Exposition of Luke in a vendored edition, to show the use from Ambrose's side (NPNF 10 has only the editor's statement, lines 825-827 and 1210-1211)"
+   ],
+   "drafter_flags": [
+    "One witness, and a partisan one: Jerome writes in the Origenist quarrel. He says Ambrose used Origen's book but made it say more of Hippolytus and Basil. Reviewer may prefer Widely Accepted with the NPNF 10 introduction as the secondary; I did not find that introduction cited in records/ as a secondary work (Romestin appears only as translator in ijc source records)."
+   ],
+   "change_reason": "New: the alexandria legacy names this relationship and no link carried it."
+  },
+  {
+   "id": "palestinian-church-pre-constantinian--hieronymian-ascetic-literary",
+   "action": "new",
+   "from": "palestinian-church-pre-constantinian",
+   "to": "hieronymian-ascetic-literary",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Jerome says Pamphilus copied most of Origen's works by hand, and that the copies were still in the library at Caesarea. He owned twenty-five volumes in Pamphilus's hand. Writing against Rufinus, he says he found Eusebius's Apology for Origen in that library.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "hal.source.jerome-de-viris",
+     "work": "Jerome, On Illustrious Men, ch. 75 (Pamphilus)",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "40960-40966",
+     "locus": "DVI 75",
+     "quote": "he transcribed the greater part of the works of Origen with his own hand and these are still preserved in the library at Cæsarea.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "hal.source.jerome-apology-rufinus",
+     "work": "Jerome, Apology against Rufinus III.12",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "54979-54980",
+     "locus": "Apol. adv. Ruf. III.12",
+     "quote": "in the library of Cæsarea I found the six volumes of Eusebius’ Apology for Origen.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "palestinian-church-pre-constantinian legacy (Jerome and the Caesarea library; sentence rewritten in prose change 1)",
+   "wants": [
+    "A text in which Jerome says he consulted the Hexapla at Caesarea (e.g. his Commentary on Titus 3.9), not vendored"
+   ],
+   "drafter_flags": [
+    "The twenty-five volumes are in DVI 75 at lines 40962-40964, inside the cited range but outside the quote, because an editor's note interrupts the sentence."
+   ],
+   "change_reason": "New: the palestinian legacy names Jerome using this library and no link carried it."
+  },
+  {
+   "id": "anatolian-church-third-century--byzantine-imperial-church-heraclian-iconoclast",
+   "action": "new",
+   "from": "anatolian-church-third-century",
+   "to": "byzantine-imperial-church-heraclian-iconoclast",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In 692 the Council in Trullo at Constantinople confirmed a list of older church canons as binding. The list includes the canons of Gregory the Wonderworker, bishop of Neocaesarea.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Council in Trullo (Quinisext, 692), Canon 2",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "26731-26732",
+     "locus": "Trullo can. 2",
+     "quote": "But we set our seal likewise upon all the other holy canons set forth by our holy and blessed Fathers,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Council in Trullo (Quinisext, 692), Canon 2",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "26744-26745",
+     "locus": "Trullo can. 2",
+     "quote": "of Gregory the Wonder-worker, Bishop of Neocæsarea;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "anatolian legacy ('Gregory's Canonical Epistle entered the received canon-law collections of the East'); the Heraclian text names 'the canons issued at Constantinople in 692'",
+   "wants": [],
+   "drafter_flags": [
+    "The inventory suggested imperial-juridical-christianity (312-451); the documenting act is the 692 council, which the Heraclian entry's own text names, so the link goes there."
+   ],
+   "change_reason": "New: the anatolian legacy names this relationship and no link carried it."
+  },
+  {
+   "id": "apocryphal-and-pseudepigraphal-literature--alexandria-catechetical",
+   "action": "new",
+   "from": "apocryphal-and-pseudepigraphal-literature",
+   "to": "alexandria-catechetical",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In his Commentary on Matthew, Origen reports a tradition from the Gospel of Peter and the Book of James, now called the Protevangelium. It says the brothers of Jesus were Joseph's sons by an earlier wife. Origen shares its aim of honouring Mary's virginity.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "alx.source.origen-comm-matthew",
+     "work": "Origen, Commentary on Matthew X.17",
+     "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+     "lines": "30601-30602",
+     "locus": "Comm. Matt. X.17",
+     "quote": "But some say, basing it on a tradition in the Gospel according to Peter,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "alx.source.origen-comm-matthew",
+     "work": "Origen, Commentary on Matthew X.17",
+     "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+     "lines": "30604",
+     "locus": "Comm. Matt. X.17",
+     "quote": "or “The Book of James,”",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "alx.source.origen-comm-matthew",
+     "work": "Origen, Commentary on Matthew X.17",
+     "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+     "lines": "30605-30607",
+     "locus": "Comm. Matt. X.17",
+     "quote": "that the brethren of Jesus were sons of Joseph by a former wife, whom he married before Mary.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "apocryphal relationsSummary (rewritten in prose change 2 to name Origen and the Book of James)",
+   "wants": [],
+   "drafter_flags": [
+    "Identification of 'the Book of James' with the Protevangelium is the ANF editor's (note at line 30604, 'Protevangelium Jacobi, c. 9'); it is standard. 'Shares its aim' rests on lines 30607-30612 ('And I think it in harmony with reason...')."
+   ],
+   "change_reason": "New: gives the apocryphal entry's 'they read it' one documented reader."
+  },
+  {
+   "id": "anatolian-church-third-century--cappadocian-nicene-pastoral-monastic-tradition",
+   "action": "rewrite",
+   "from": "anatolian-church-third-century",
+   "to": "cappadocian-nicene-pastoral-monastic-tradition",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Writing to the Neocaesareans around 375, Basil says his grandmother Macrina, who came from their city, taught him the words of Gregory the Wonderworker. He offers this as proof that his faith is sound. In On the Holy Spirit he defends a form of doxology as one Gregory handed down.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "cappadocian.source.basil-letters-general-corpus",
+     "work": "Basil of Caesarea, Letter 204 (To the Neocaesareans), §6",
+     "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+     "lines": "37062-37065",
+     "locus": "Ep. 204.6",
+     "quote": "I mean the celebrated Macrina who taught me the words of the blessed Gregory; which, as far as memory had preserved down to her day, she cherished herself, while she fashioned and formed me, while yet a child, upon the doctrines of piety.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "cappadocian.source.basil-on-the-holy-spirit",
+     "work": "Basil of Caesarea, On the Holy Spirit 29.74",
+     "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+     "lines": "14689-14691",
+     "locus": "De Spiritu Sancto 29.74",
+     "quote": "Now one of the institutions of Gregory is the very form of the doxology to which objection is now made, preserved by the Church on the authority of his tradition;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "anatolian relationsSummary and legacy (Macrina; Basil citing Gregory's practice as precedent)",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Added On the Holy Spirit 29.74, which documents the 'Basil appeals to his practice as precedent' half of the prose; note extended by one sentence. Type, grade and ID unchanged."
+  },
+  {
+   "id": "alexandria-catechetical--desert-monasticism",
+   "action": "keep",
+   "named_in_text": "alexandria relationsSummary and legacy (legacy rewritten in prose change to match the Contested grade); desert-monasticism relationsSummary"
+  },
+  {
+   "id": "alexandria-catechetical--hieronymian-ascetic-literary",
+   "action": "keep",
+   "named_in_text": "alexandria relationsSummary ('scholarship parent of the Bethlehem Circle') and legacy (Jerome read him); hieronymian relationsSummary ('Descends scripturally from Alexandria's Origen')"
+  },
+  {
+   "id": "coptic-christianity-under-early-islam--alexandria-catechetical",
+   "action": "keep",
+   "named_in_text": "not named in either text; proposed a two-sentence addition to the alexandria legacy (prose change on the desert sentence, second paragraph)"
+  },
+  {
+   "id": "greek-apologists-second-century--alexandria-catechetical",
+   "action": "keep",
+   "named_in_text": "greek-apologists longDescription ('Clement and Origen at Alexandria took much further'). Note: that sentence names Justin's 'seeds' argument, while the link's evidence is Clement naming Tatian; the README wants list already records that no vendored Alexandrian text names Justin's argument. That prose is outside Group B."
+  },
+  {
+   "id": "alexandria-catechetical--anatolian-church-third-century",
+   "action": "keep",
+   "named_in_text": "anatolian relationsSummary, longDescription and why (Gregory as Origen's pupil)"
+  },
+  {
+   "id": "alexandria-catechetical--palestinian-church-pre-constantinian",
+   "action": "keep",
+   "named_in_text": "alexandria longDescription (move to Caesarea c. 231); palestinian relationsSummary, longDescription and why"
+  },
+  {
+   "id": "alexandria-catechetical--aquileian-christianity",
+   "action": "keep",
+   "named_in_text": "aquileian relationsSummary (Rufinus and Origen in Latin); not in the alexandria text, which is enough under the either-side rule"
+  },
+  {
+   "id": "anatolian-church-third-century--alexandria-catechetical",
+   "action": "keep",
+   "named_in_text": "anatolian relationsSummary, longDescription and why (Methodius as Origen's critic)"
+  },
+  {
+   "id": "hieronymian-ascetic-literary--alexandria-catechetical",
+   "action": "keep",
+   "named_in_text": "hieronymian relationsSummary ('the same legacy this circle later fractured over with Rufinus'); alexandria legacy only hints ('careful about saying so')"
+  },
+  {
+   "id": "palestinian-church-pre-constantinian--jerusalem-liturgical-pilgrimage-christianity",
+   "action": "keep",
+   "named_in_text": "palestinian relationsSummary ('which begins where this ends'); the prose claims succession in time, consistent with the Inferential-Thin grade"
+  },
+  {
+   "id": "palestinian-church-pre-constantinian--imperial-juridical-christianity",
+   "action": "keep",
+   "named_in_text": "palestinian longDescription and legacy (Eusebius wrote the Church History from Pamphilus's and Alexander's shelves)"
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "palestinian-church-pre-constantinian",
+   "field": "relationsSummary",
+   "old": "It bridges alexandria-catechetical, whose greatest teacher moved here, and jerusalem-liturgical-pilgrimage-christianity, which begins where this ends.",
+   "new": "It bridges the Alexandrian school, whose greatest teacher moved here, and the Jerusalem church of liturgy and pilgrimage, which begins where this ends.",
+   "reason": "The sentence printed two internal identifiers to readers; names replace them. Relationships unchanged (both carried by existing links).",
+   "fre_before": 37.4,
+   "fre_after": 57.1
+  },
+  {
+   "n": 1,
+   "movement": "palestinian-church-pre-constantinian",
+   "field": "legacy",
+   "old": "The Hexapla, Origen's six-column Old Testament, sat here until the Arab conquest and was consulted by Jerome.",
+   "new": "The Hexapla, Origen's six-column Old Testament, sat here. Jerome later searched these shelves and treasured copies of Origen made in Pamphilus's own hand.",
+   "reason": "No vendored text shows Jerome consulting the Hexapla itself, or the Hexapla surviving to the Arab conquest. Jerome's own words show him using the Caesarea library and owning Pamphilus's copies (De viris 75; Apology against Rufinus III.12).",
+   "fre_before": 28.2,
+   "fre_after": 31.7
+  },
+  {
+   "n": 2,
+   "movement": "apocryphal-and-pseudepigraphal-literature",
+   "field": "relationsSummary",
+   "old": "Its natural relation to every other early entry is that they read it.",
+   "new": "Its natural relation to the other early movements is that many of them read it. Origen, for one, knew the Protevangelium as the Book of James.",
+   "reason": "'Every other early entry' cannot be shown and 'entry' is internal language. Origen naming the Book of James (Comm. Matt. X.17) is the one reading now carried by a link.",
+   "fre_before": 50.6,
+   "fre_after": 54.6
+  },
+  {
+   "n": 3,
+   "movement": "apocryphal-and-pseudepigraphal-literature",
+   "field": "longDescription",
+   "old": "And a third body is not Christian in origin at all: the Testaments of the Twelve Patriarchs, the Life of Adam and Eve, the Testament of Abraham are Jewish works that survive because Christian scribes kept copying them, sometimes with Christian passages worked in, after Judaism itself had let them go.",
+   "new": "And a third body is not Christian in origin at all: the Life of Adam and Eve and the Testament of Abraham are Jewish works that survive because Christian scribes kept copying them, sometimes with Christian passages worked in, after Judaism itself had let them go. The Testaments of the Twelve Patriarchs may belong here too, but scholars still argue whether it began as a Jewish book or a Christian one.",
+   "reason": "The Testaments' origin is disputed: the vendored ANF08 editor reads its author as a Christian (lines 632-655), and the project's own map data calls the question unresolved.",
+   "fre_before": 40.9,
+   "fre_after": 44.0
+  },
+  {
+   "n": 4,
+   "movement": "apocryphal-and-pseudepigraphal-literature",
+   "field": "longDescription",
+   "old": "Pseudo-Matthew and its Carolingian abridgement that carried Mary's childhood into the Latin West",
+   "new": "Pseudo-Matthew and its later Latin abridgement that carried Mary's childhood into the Latin West",
+   "reason": "No vendored or repo-cited source dates the Gospel of the Nativity of Mary to the Carolingian age; ANF08 (lines 35995-36002) says only that it is later, by another author, and passed into the Legenda Aurea.",
+   "fre_before": 44.0,
+   "fre_after": 44.5
+  },
+  {
+   "n": 5,
+   "movement": "apocryphal-and-pseudepigraphal-literature",
+   "field": "why",
+   "old": "Some of these works, like the Testaments of the Twelve Patriarchs, were originally Jewish texts",
+   "new": "Some of these works, like the Life of Adam and Eve, were originally Jewish texts",
+   "reason": "Same reason as the Testaments change above: its Jewish origin is disputed, so it should not be the example.",
+   "fre_before": 32.3,
+   "fre_after": 34.9
+  },
+  {
+   "n": 6,
+   "movement": "apocryphal-and-pseudepigraphal-literature",
+   "field": "legacy",
+   "old": "Marian devotion in both East and West rests substantially on the Protevangelium of James: Anna and Joachim, the presentation in the Temple, the ox and the ass, all of it entered the calendar and the iconography from a book the church never accepted as scripture.",
+   "new": "Marian devotion in both East and West rests substantially on the Protevangelium of James. Anna and Joachim and the presentation in the Temple entered the calendar and the iconography from it, a book the church never accepted as scripture. The ox and the ass at the manger come from Pseudo-Matthew, a later Latin retelling.",
+   "reason": "Factual correction: the ox and the ass are not in the Protevangelium; they appear in Pseudo-Matthew ch. 14 (ANF08 lines 37907-37909).",
+   "fre_before": 32.7,
+   "fre_after": 43.6
+  },
+  {
+   "n": 7,
+   "movement": "apocryphal-and-pseudepigraphal-literature",
+   "field": "legacy",
+   "old": "The apocryphal Acts supplied medieval art and legend with most of what it knew about the apostles' deaths.",
+   "new": "The apocryphal Acts tell how the apostles died: Peter crucified head down, Philip hung by his ankles. Medieval art and legend probably took most of what it knew of those deaths from them.",
+   "reason": "The deaths are in the vendored Acts (ANF08 47557-47561, 48752); no vendored text documents the medieval reception, so it is stated as likely.",
+   "fre_before": 43.6,
+   "fre_after": 48.2
+  },
+  {
+   "n": 8,
+   "movement": "apocryphal-and-pseudepigraphal-literature",
+   "field": "legacy",
+   "old": "And the Jewish pseudepigrapha in this collection are the reason a large body of Second Temple literature exists at all - preserved, ironically, by the tradition that had parted from the one that produced it.",
+   "new": "And the Jewish pseudepigrapha in this collection survive only because Christians copied them - preserved, ironically, by the tradition that had parted from the one that produced it.",
+   "reason": "Narrowed to what the collection itself shows; 'a large body of Second Temple literature' is a wider claim no vendored text states.",
+   "fre_before": 48.2,
+   "fre_after": 48.3
+  },
+  {
+   "n": 9,
+   "movement": "alexandria-catechetical",
+   "field": "legacy",
+   "old": "Origen's textual scholarship set the standard for taking the original languages seriously; Basil of Caesarea and Gregory of Nazianzus compiled an anthology of his writings, and Ambrose and Jerome read him closely even when they were careful about saying so.",
+   "new": "Origen's textual scholarship set the standard for taking the original languages seriously. Basil of Caesarea and Gregory of Nazianzus studied his books, and tradition credits them with an anthology of his writings. Ambrose and Jerome read him closely even when they were careful about saying so.",
+   "reason": "The project's own records hold the Basil-Nazianzen compilation of the Philocalia as Contested (records/cappadocian/source/cappadocian.source.origen-philocalia.md). Their study of Origen is documented (Socrates HE IV.26).",
+   "fre_before": 7.6,
+   "fre_after": 38.6
+  },
+  {
+   "n": 10,
+   "movement": "alexandria-catechetical",
+   "field": "legacy",
+   "old": "The tradition also fed directly into Egyptian monasticism, giving the desert its intellectual vocabulary.",
+   "new": "Whether the tradition also fed Egyptian monasticism is still argued. One modern reading finds Origen's ideas in Antony's letters. Athanasius tells instead of a boy raised at home by Christian parents.\n\nThe church of Alexandria itself remembered the school in two minds. Its History of the Patriarchs, compiled centuries later, condemns Origen's books but honours Dionysius as patriarch.",
+   "reason": "The flat claim contradicted the existing Contested link to desert monasticism; rewritten to match it. Second paragraph names the existing Coptic 'argued against' link, which neither text named.",
+   "fre_before": -12.8,
+   "fre_after": 39.6,
+   "fre_after_each_paragraph": [
+    43.5,
+    39.6
+   ]
+  },
+  {
+   "n": 11,
+   "movement": "anatolian-church-third-century",
+   "field": "relationsSummary",
+   "old": "Basil's grandmother Macrina was formed by Gregory Thaumaturgus' disciples, and Basil appeals to his practice as precedent. Origen's reach runs through it in both directions - Gregory was his devoted pupil, Methodius his first serious critic.",
+   "new": "Basil's grandmother Macrina taught him Gregory Thaumaturgus' words, and Basil appeals to Gregory's practice as precedent. Origen's reach runs through it in both directions - Gregory was his devoted pupil, Methodius one of his first serious critics.",
+   "reason": "Basil says Macrina taught him Gregory's words (Ep. 204.6); no vendored text says she was formed by Gregory's disciples. 'First' critic is not shown by any vendored text.",
+   "fre_before": 32.7,
+   "fre_after": 35.4
+  },
+  {
+   "n": 12,
+   "movement": "anatolian-church-third-century",
+   "field": "longDescription",
+   "old": "He had fallen in with Origen at Caesarea instead, stayed five years, and left with a farewell address that is one of the warmest descriptions of a teacher anyone wrote in antiquity.",
+   "new": "He had fallen in with Origen at Caesarea instead and stayed five years. The farewell address that bears his name is one of the warmest descriptions of a teacher anyone wrote in antiquity, though some scholars doubt he wrote it.",
+   "reason": "The address's authorship is Contested in the project's own records (alx.source.gregory-address-to-origen: Nautin disputed it) and in the existing link note.",
+   "fre_before": 43.7,
+   "fre_after": 48.5
+  },
+  {
+   "n": 13,
+   "movement": "anatolian-church-third-century",
+   "field": "longDescription",
+   "old": "and became the first substantial critic of Origen, whose most devoted pupil had been Gregory.",
+   "new": "and became one of the first substantial critics of Origen, whose most devoted pupil had been Gregory.",
+   "reason": "Methodius's criticism is documented (Jerome DVI 83; Photius 234); that he was the first is not shown by any vendored text.",
+   "fre_before": 48.5,
+   "fre_after": 48.7
+  },
+  {
+   "n": 14,
+   "movement": "anatolian-church-third-century",
+   "field": "why",
+   "old": "and became Origen's first serious critic before dying in the persecution around 311.",
+   "new": "and became one of Origen's first serious critics before dying in the persecution around 311.",
+   "reason": "Same as above.",
+   "fre_before": 25.0,
+   "fre_after": 25.9
+  },
+  {
+   "n": 15,
+   "movement": "anatolian-church-third-century",
+   "field": "legacy",
+   "old": "And Methodius' Banquet is the foundation of the Christian literature of virginity - everything Ambrose, Jerome and Gregory of Nyssa later wrote on the subject is downstream of it, and its argument that chastity is a form of freedom rather than a deprivation began there.",
+   "new": "And Methodius' Banquet is an early landmark of the Christian literature of virginity, a whole dialogue in its praise. Tertullian and Cyprian had already written about virgins. Jerome knew the Banquet by name, but how much he, Ambrose or Gregory of Nyssa drew from it is hard to show.",
+   "reason": "'Foundation' and 'began there' are contradicted by earlier vendored works (Tertullian, On the Veiling of Virgins, ANF04 2667; Cyprian, On the Dress of Virgins, ANF05 42953). No vendored text shows Ambrose or Gregory of Nyssa using the Banquet; Jerome names it (DVI 83).",
+   "fre_before": 28.8,
+   "fre_after": 47.6
+  }
+ ],
+ "wants": [
+  "A text in which Jerome says he consulted the Hexapla at Caesarea (Commentary on Titus 3.9, or his Psalms commentary), and any source for the Hexapla surviving there until the Arab conquest",
+  "Ambrose's Hexaemeron or Exposition of Luke in a vendored edition, to show his use of Origen from his own side",
+  "A text by Ambrose, Jerome or Gregory of Nyssa that uses or names Methodius's Banquet on virginity",
+  "Any text saying Basil's grandmother Macrina was taught by Gregory Thaumaturgus's disciples (Basil says only that she kept his words)",
+  "A repo-cited modern work on the origin of the Testaments of the Twelve Patriarchs (Jewish with Christian additions, or Christian on Jewish sources)",
+  "A repo-cited modern work dating the Gospel of the Nativity of Mary (the 'Carolingian abridgement')",
+  "The Golden Legend or another medieval text, to document the medieval reception of the apocryphal Acts' martyrdoms, the Dormition narratives and the Revelation of Paul",
+  "The Greek text of Gregory of Nazianzus, Letter 115, in clean form, to quote 'and the same from holy Basil' (in NPNF 8 it is split one word per line)"
+ ],
+ "escalations": [
+  "Doc-hygiene outside Group B, flagged not touched: nine other movements print raw movement IDs to readers in their relationsSummary: greek-apologists-second-century, antiochene-church-third-century, roman-church-third-century, danubian-latin-christianity, palestinian-ascetic-monasticism-early, aquileian-christianity, gallic-nicene-episcopate, bardaisanite-current, roman-church-gregorian. I fixed only palestinian-church-pre-constantinian.",
+  "The project holds conflicting statuses for the Philocalia's compilers: records/alx/source/alx.source.origen-philocalia.md has attribution_status 'attributed', while the Cappadocian records and Source Registry row 81 hold it Contested. I followed Contested in the prose. Mark may want one ruling.",
+  "No 'wrong' dispositions. Two qualifies correct factual errors rather than unsupported claims: the ox and the ass (Pseudo-Matthew, not the Protevangelium) and the Banquet as the 'foundation' of virginity literature (Tertullian and Cyprian wrote earlier). Each fix is one sentence."
+ ]
+}

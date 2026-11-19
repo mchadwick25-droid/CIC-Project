@@ -1,0 +1,156 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.witness.restless-heart-and-the-unrepentant-enemy"
+   ],
+   "sentence": "We know that restlessness, and Augustine named it: the heart is restless for God."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.restless-heart-and-the-unrepentant-enemy"
+   ],
+   "sentence": "Augustine opened the story of his own life with a restless heart."
+  },
+  {
+   "record_ids": [
+    "lpc.quote.the-old-man-nailed-to-the-cross-speaks"
+   ],
+   "sentence": "Augustine also wrote of the old self, and he did not hide how unsettled that self is: “‘O God, my God, look on me. Why have You forsaken me, far from my salvation?’ (verse 1). Far from my salvation, because ‘salvation is far from sinners.’ ‘The words of my sins.’ These are not the words of righteousness. They are the words of my sins. For it is the old self nailed to the Cross that speaks. It does not even know why God has forsaken it. Or it may be read this way: the words of my sins are far from my salvation.”"
+  },
+  {
+   "record_ids": [
+    "lpc.witness.the-pattern-we-are-modelled-on"
+   ],
+   "sentence": "Augustine taught that Christ's death, burial, rising and ascent were the pattern for the believer's life."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.the-pattern-we-are-modelled-on"
+   ],
+   "sentence": "We are buried with him in the water, and we walk in a life made new."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ],
+   "sentence": "We have never found the place where the confessors' claim and the church's process become one rule, and we do not expect to."
+  }
+ ],
+ "citations": [
+  "lpc.quote.the-old-man-nailed-to-the-cross-speaks",
+  "lpc.witness.confessor-claim-vs-regulated-peace",
+  "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+  "lpc.witness.the-pattern-we-are-modelled-on"
+ ],
+ "group": "A",
+ "id": "q019",
+ "net_sentences": [
+  {
+   "draft": "We know that restlessness, and Augustine named it: the heart is restless for God [[lpc.witness.restless-heart-and-the-unrepentant-enemy]] [[as:paraphrase]].",
+   "ratio": 0.86,
+   "sentence": "We know that restlessness, and Augustine named it: the heart is restless for God.",
+   "tags": [
+    "lpc.witness.restless-heart-and-the-unrepentant-enemy"
+   ],
+   "verdict": "ok",
+   "why": "grounded 86% in own tagged records"
+  },
+  {
+   "draft": "Augustine opened the story of his own life with a restless heart [[lpc.witness.restless-heart-and-the-unrepentant-enemy]] [[as:paraphrase]].",
+   "sentence": "Augustine opened the story of his own life with a restless heart.",
+   "tags": [
+    "lpc.witness.restless-heart-and-the-unrepentant-enemy"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Augustine also wrote of the old self, and he did not hide how unsettled that self is: [[quote:lpc.quote.the-old-man-nailed-to-the-cross-speaks]]",
+   "placed_quote": "lpc.quote.the-old-man-nailed-to-the-cross-speaks",
+   "sentence": "Augustine also wrote of the old self, and he did not hide how unsettled that self is: “‘O God, my God, look on me. Why have You forsaken me, far from my salvation?’ (verse 1). Far from my salvation, because ‘salvation is far from sinners.’ ‘The words of my sins.’ These are not the words of righteousness. They are the words of my sins. For it is the old self nailed to the Cross that speaks. It does not even know why God has forsaken it. Or it may be read this way: the words of my sins are far from my salvation.”",
+   "tags": [
+    "lpc.quote.the-old-man-nailed-to-the-cross-speaks"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Augustine taught that Christ's death, burial, rising and ascent were the pattern for the believer's life [[lpc.witness.the-pattern-we-are-modelled-on]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Augustine taught that Christ's death, burial, rising and ascent were the pattern for the believer's life.",
+   "tags": [
+    "lpc.witness.the-pattern-we-are-modelled-on"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We are buried with him in the water, and we walk in a life made new [[lpc.witness.the-pattern-we-are-modelled-on]] [[as:paraphrase]].",
+   "sentence": "We are buried with him in the water, and we walk in a life made new.",
+   "tags": [
+    "lpc.witness.the-pattern-we-are-modelled-on"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Some questions among us never settled either.",
+   "sentence": "Some questions among us never settled either.",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "We have never found the place where the confessors' claim and the church's process become one rule, and we do not expect to [[lpc.witness.confessor-claim-vs-regulated-peace]] [[as:paraphrase]].",
+   "sentence": "We have never found the place where the confessors' claim and the church's process become one rule, and we do not expect to.",
+   "tags": [
+    "lpc.witness.confessor-claim-vs-regulated-peace"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+  "lpc.term.confessor",
+  "lpc.term.schism",
+  "lpc.story.the-plague-and-the-enemies",
+  "lpc.story.celerinus-writes-to-lucian",
+  "lpc.quote.earlier-councils-corrected-by-later",
+  "lpc.quote.all-sins-against-us-are-to-be-forgiven",
+  "lpc.force.recurring-contest-failed-member",
+  "lpc.contested.compel-coercion-development",
+  "lpc.witness.confessor-claim-vs-regulated-peace",
+  "lpc.term.certificates-letters-of-peace",
+  "lpc.quote.consider-who-was-there",
+  "lpc.quote.such-a-one-with-his-friends",
+  "lpc.witness.the-pattern-we-are-modelled-on",
+  "lpc.quote.the-old-man-nailed-to-the-cross-speaks",
+  "lpc.quote.the-wretched-woman-and-mercy"
+ ],
+ "raw_text": "We know that restlessness, and Augustine named it: the heart is restless for God [[lpc.witness.restless-heart-and-the-unrepentant-enemy]] [[as:paraphrase]]. Augustine opened the story of his own life with a restless heart [[lpc.witness.restless-heart-and-the-unrepentant-enemy]] [[as:paraphrase]].\n\nAugustine also wrote of the old self, and he did not hide how unsettled that self is: [[quote:lpc.quote.the-old-man-nailed-to-the-cross-speaks]]\n\nAugustine taught that Christ's death, burial, rising and ascent were the pattern for the believer's life [[lpc.witness.the-pattern-we-are-modelled-on]] [[as:paraphrase]]. We are buried with him in the water, and we walk in a life made new [[lpc.witness.the-pattern-we-are-modelled-on]] [[as:paraphrase]].\n\nSome questions among us never settled either. We have never found the place where the confessors' claim and the church's process become one rule, and we do not expect to [[lpc.witness.confessor-claim-vs-regulated-peace]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "lpc.quote.the-old-man-nailed-to-the-cross-speaks": [
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "d Augustine of Hippo Augustine of Hippo, Expositions on the Book of Psalms (Enarrationes in Psalmos), Nicene and Post-Nicene",
+     "span": "record lpc.source.augustine-expositions-on-the-psalms"
+    }
+   ]
+  },
+  "placed": [
+   "lpc.quote.the-old-man-nailed-to-the-cross-speaks"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C14.S8",
+ "text": "We know that restlessness, and Augustine named it: the heart is restless for God. Augustine opened the story of his own life with a restless heart.\n\nAugustine also wrote of the old self, and he did not hide how unsettled that self is: “‘O God, my God, look on me. Why have You forsaken me, far from my salvation?’ (verse 1). Far from my salvation, because ‘salvation is far from sinners.’ ‘The words of my sins.’ These are not the words of righteousness. They are the words of my sins. For it is the old self nailed to the Cross that speaks. It does not even know why God has forsaken it. Or it may be read this way: the words of my sins are far from my salvation.”\n\nAugustine taught that Christ's death, burial, rising and ascent were the pattern for the believer's life. We are buried with him in the water, and we walk in a life made new.\n\nSome questions among us never settled either. We have never found the place where the confessors' claim and the church's process become one rule, and we do not expect to.",
+ "voice_set_aside": false
+}

@@ -1,0 +1,168 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.outsiders-empire"
+   ],
+   "sentence": "No, we were not hiding in catacombs, which is another city's story."
+  },
+  {
+   "record_ids": [
+    "syr.dw.outsiders-empire"
+   ],
+   "sentence": "In Edessa a church building stood early enough to be destroyed in the great flood, and the city's own chronicle records it as plainly as it records palaces."
+  },
+  {
+   "record_ids": [
+    "syr.dw.outsiders-empire"
+   ],
+   "sentence": "On the frontier, believers gathered openly on the first day of the week."
+  },
+  {
+   "record_ids": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "sentence": "That chronicle line is the oldest dated word about us, though we cannot be sure it stood in the first record and was not added later."
+  },
+  {
+   "record_ids": [
+    "syr.dw.cost-distance"
+   ],
+   "sentence": "On the Persian side the danger was real: being known as a Christian made you a suspect, then you were taxed, then hunted."
+  },
+  {
+   "record_ids": [
+    "syr.dw.cost-distance"
+   ],
+   "sentence": "It fell hardest on clergy and on members of the covenant."
+  },
+  {
+   "record_ids": [
+    "syr.dw.outsiders-empire"
+   ],
+   "sentence": "When Rome's emperor became a Christian, the church on the Persian side paid for it, as the charge laid against Simeon shows."
+  },
+  {
+   "record_ids": [
+    "syr.dw.remains"
+   ],
+   "sentence": "Of the church the flood destroyed, almost nothing is left, because the modern city sits directly on the ancient one."
+  },
+  {
+   "record_ids": [
+    "syr.dw.remains"
+   ],
+   "sentence": "At Nisibis a baptistery still stands, and its own inscription dates it securely to the years of our bishop and the siege."
+  }
+ ],
+ "citations": [
+  "syr.dw.corpus-and-its-edges",
+  "syr.dw.cost-distance",
+  "syr.dw.outsiders-empire",
+  "syr.dw.remains"
+ ],
+ "group": "A",
+ "id": "q013",
+ "net_sentences": [
+  {
+   "draft": "No, we were not hiding in catacombs, which is another city's story [[syr.dw.outsiders-empire]] [[as:paraphrase]].",
+   "sentence": "No, we were not hiding in catacombs, which is another city's story.",
+   "tags": [
+    "syr.dw.outsiders-empire"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "In Edessa a church building stood early enough to be destroyed in the great flood, and the city's own chronicle records it as plainly as it records palaces [[syr.dw.outsiders-empire]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "In Edessa a church building stood early enough to be destroyed in the great flood, and the city's own chronicle records it as plainly as it records palaces.",
+   "tags": [
+    "syr.dw.outsiders-empire"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "On the frontier, believers gathered openly on the first day of the week [[syr.dw.outsiders-empire]] [[as:paraphrase]].",
+   "sentence": "On the frontier, believers gathered openly on the first day of the week.",
+   "tags": [
+    "syr.dw.outsiders-empire"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "That chronicle line is the oldest dated word about us, though we cannot be sure it stood in the first record and was not added later [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].",
+   "sentence": "That chronicle line is the oldest dated word about us, though we cannot be sure it stood in the first record and was not added later.",
+   "tags": [
+    "syr.dw.corpus-and-its-edges"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "On the Persian side the danger was real: being known as a Christian made you a suspect, then you were taxed, then hunted [[syr.dw.cost-distance]] [[as:paraphrase]].",
+   "ratio": 0.9,
+   "sentence": "On the Persian side the danger was real: being known as a Christian made you a suspect, then you were taxed, then hunted.",
+   "tags": [
+    "syr.dw.cost-distance"
+   ],
+   "verdict": "ok",
+   "why": "grounded 90% in own tagged records"
+  },
+  {
+   "draft": "It fell hardest on clergy and on members of the covenant [[syr.dw.cost-distance]] [[as:paraphrase]].",
+   "sentence": "It fell hardest on clergy and on members of the covenant.",
+   "tags": [
+    "syr.dw.cost-distance"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "When Rome's emperor became a Christian, the church on the Persian side paid for it, as the charge laid against Simeon shows [[syr.dw.outsiders-empire]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "When Rome's emperor became a Christian, the church on the Persian side paid for it, as the charge laid against Simeon shows.",
+   "tags": [
+    "syr.dw.outsiders-empire"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Of the church the flood destroyed, almost nothing is left, because the modern city sits directly on the ancient one [[syr.dw.remains]] [[as:paraphrase]].",
+   "sentence": "Of the church the flood destroyed, almost nothing is left, because the modern city sits directly on the ancient one.",
+   "tags": [
+    "syr.dw.remains"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "At Nisibis a baptistery still stands, and its own inscription dates it securely to the years of our bishop and the siege [[syr.dw.remains]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "At Nisibis a baptistery still stands, and its own inscription dates it securely to the years of our bishop and the siege.",
+   "tags": [
+    "syr.dw.remains"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "syr.term.catholicos"
+ ],
+ "raw_text": "No, we were not hiding in catacombs, which is another city's story [[syr.dw.outsiders-empire]] [[as:paraphrase]].\nIn Edessa a church building stood early enough to be destroyed in the great flood, and the city's own chronicle records it as plainly as it records palaces [[syr.dw.outsiders-empire]] [[as:paraphrase]].\nOn the frontier, believers gathered openly on the first day of the week [[syr.dw.outsiders-empire]] [[as:paraphrase]].\nThat chronicle line is the oldest dated word about us, though we cannot be sure it stood in the first record and was not added later [[syr.dw.corpus-and-its-edges]] [[as:paraphrase]].\nOn the Persian side the danger was real: being known as a Christian made you a suspect, then you were taxed, then hunted [[syr.dw.cost-distance]] [[as:paraphrase]].\nIt fell hardest on clergy and on members of the covenant [[syr.dw.cost-distance]] [[as:paraphrase]].\nWhen Rome's emperor became a Christian, the church on the Persian side paid for it, as the charge laid against Simeon shows [[syr.dw.outsiders-empire]] [[as:paraphrase]].\nOf the church the flood destroyed, almost nothing is left, because the modern city sits directly on the ancient one [[syr.dw.remains]] [[as:paraphrase]].\nAt Nisibis a baptistery still stands, and its own inscription dates it securely to the years of our bishop and the siege [[syr.dw.remains]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C9.S1",
+ "text": "No, we were not hiding in catacombs, which is another city's story. In Edessa a church building stood early enough to be destroyed in the great flood, and the city's own chronicle records it as plainly as it records palaces. On the frontier, believers gathered openly on the first day of the week. That chronicle line is the oldest dated word about us, though we cannot be sure it stood in the first record and was not added later. On the Persian side the danger was real: being known as a Christian made you a suspect, then you were taxed, then hunted. It fell hardest on clergy and on members of the covenant. When Rome's emperor became a Christian, the church on the Persian side paid for it, as the charge laid against Simeon shows. Of the church the flood destroyed, almost nothing is left, because the modern city sits directly on the ancient one. At Nisibis a baptistery still stands, and its own inscription dates it securely to the years of our bishop and the siege.",
+ "voice_set_aside": false
+}

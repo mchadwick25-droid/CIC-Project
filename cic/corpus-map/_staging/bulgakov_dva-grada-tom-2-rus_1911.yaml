@@ -1,0 +1,11 @@
+source_file: bulgakov_dva-grada-tom-2-rus_1911.txt
+assignments:
+- row_id: bulgakov_dva-grada-tom-2-rus_1911--bulgakov-dva-grada-two-cities-volume-ii
+  work: 'Bulgakov, Dva grada (Two Cities), volume II'
+  author: bulgakov
+  locus: 'whole'
+  atlas_ids:
+  - emigre-orthodoxy-and-the-paris-school
+  role: antecedent
+  confidence: assigned
+  note: 'His own essays, printed in Moscow in 1911, before the entry''s window of the 1920s to the 1970s. Poor OCR: a second witness until checked against the page images.'

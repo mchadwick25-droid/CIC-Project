@@ -1,0 +1,48 @@
+source_file: priscillian_quae-supersunt-lat_schepss1889-csel18.txt
+
+authors_ruled:
+  orosius:
+    kind: metadata-omission
+    evidence: >
+      The volume's title page reads "Accedit Orosii Commonitorium de errore Priscillianistarum et
+      Origenistarum": Paulus Orosius, the Spanish presbyter writing to Augustine in 414.
+    from_file: priscillian_quae-supersunt-lat_schepss1889-csel18.txt
+
+assignments:
+  - row_id: priscillian_quae-supersunt-lat_schepss1889-csel18--wurzburg-tractates
+    work: "Priscillian and his circle, the eleven Wurzburg tractates (Schepss, CSEL 18)"
+    author: priscillian
+    locus: "Tractates I-XI with the Benedictio super fideles, OCR lines 2785-7714 (Liber apologeticus at 2785, Liber ad Damasum at 4314); add 12 for this file's own line numbers"
+    atlas_ids:
+      - priscillianist-asceticism
+    role: tradition
+    confidence: provisional
+    note: >
+      The movement's own writings, found at Wurzburg and first printed here: the apology to the
+      bishops and the letter to Damasus written in his own defence, with tractates on Easter, Exodus
+      and the Psalms. Whether every tractate is Priscillian's own or a follower's is disputed; Schepss
+      prints them under his name. Second witness for quotation until checked against the page image:
+      readable Latin with frequent letter misreadings.
+  - row_id: priscillian_quae-supersunt-lat_schepss1889-csel18--canones-pauli
+    work: "Priscillian's Canons on the letters of Paul, in Peregrinus's revision (Schepss, CSEL 18)"
+    author: priscillian
+    locus: "Canones from OCR line 7715 to about 10120; add 12 for this file's own line numbers"
+    atlas_ids:
+      - priscillianist-asceticism
+    role: tradition
+    confidence: provisional
+    note: >
+      Priscillian's ninety canons summarising the teaching of Paul's letters, known in the revised
+      form a later bishop, Peregrinus, gave them to make them safe for Catholic use. His work in
+      another's revision; second witness only.
+  - row_id: priscillian_quae-supersunt-lat_schepss1889-csel18--orosius-commonitorium
+    work: "Orosius, Commonitorium de errore Priscillianistarum et Origenistarum (Schepss, CSEL 18)"
+    author: orosius
+    locus: "from OCR line 10134; Augustine's reply from 10462; add 12 for this file's own line numbers"
+    atlas_ids:
+      - priscillianist-asceticism
+    role: context
+    confidence: provisional
+    note: >
+      A contemporary opponent's report to Augustine (414) on the Priscillianists of Spain. The view
+      from outside; second witness only.

@@ -1,0 +1,11 @@
+source_file: euthymius-tarnovo_werke-des-patriarchen-von-bulgarien-chu-deu_kaluzniacki1901.txt
+assignments:
+- row_id: euthymius-tarnovo_werke-des-patriarchen-von-bulgarien-chu-deu_kaluzniacki1901--euthymius-of-tarnovo-life-of-hilarion-of-moglena-kaluzniacki-1901
+  work: 'Euthymius of Tarnovo, Life of Hilarion of Moglena (Kaluzniacki 1901)'
+  author: euthymius-tarnovo
+  locus: 'OCR lines 6946-8385; add 12 to OCR line numbers'
+  atlas_ids:
+  - serbian-and-bulgarian-medieval-monasticism
+  role: tradition
+  confidence: assigned
+  note: "The patriarch's own writing, in Church Slavonic only; no translation is held. No census entry is the Bulgarian church of his day."

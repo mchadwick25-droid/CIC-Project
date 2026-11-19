@@ -1,0 +1,11 @@
+source_file: dominican-general-chapters_acta-capitulorum-generalium-v6-1601-1628-lat_reichert1902.txt
+assignments:
+- row_id: dominican-general-chapters_acta-capitulorum-generalium-v6-1601-1628-lat_reichert1902--acta-capitulorum-generalium-ordinis-praedicatorum-vol-vi-1601-1628
+  work: "Acta capitulorum generalium Ordinis Praedicatorum, vol. VI (1601-1628)"
+  author: dominican-general-chapters
+  locus: "the acts from about OCR line 247; add 12 to OCR line numbers for this file's own"
+  atlas_ids:
+  - the-tridentine-church
+  role: tradition
+  confidence: provisional
+  note: "The order's own legislation in its general chapters, 1601-1628. Within this entry's window (1517-1650)."

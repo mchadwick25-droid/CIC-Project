@@ -45,7 +45,7 @@ The compiled statement says "in public, more than once, when we were
 pressed": Vita SS72-80 has Antony disputing publicly with Greek
 philosophers on more than one occasion, beyond the single Arian
 confrontation at SS69. The compiled statement opens "We do not have a
-good answer," matching the fleet's own strict we-voice discipline
+good answer," matching the fleet's own we-voice for the tradition's perspective
 (fleet-voice/EXEMPLAR-TRANSCRIPT.md v4, restated in
 desert.voice.craft's own flavor_notes), which reserves "I" for a named,
 attributed figure's own quoted words or the one sanctioned self-naming

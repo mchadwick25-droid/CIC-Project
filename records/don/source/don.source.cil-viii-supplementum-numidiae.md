@@ -23,6 +23,7 @@ work: 'Corpus Inscriptionum Latinarum, vol. VIII, Supplementum, Pars II: Inscrip
 edition: 'Berlin: Reimer, 1894; vendored as cic/texts/cil8-supplementum-numidiae_cagnat-schmidt1894.txt'
 citation: 'Corpus Inscriptionum Latinarum, vol. VIII, Supplementum, Pars II: Inscriptionum Provinciae Numidiae Latinarum Supplementum, ed. Rene Cagnat and Johannes Schmidt (Berlin: Reimer, 1894)'
 kind: vendored
+shelf_row: cil8-supplementum-numidiae_cagnat-schmidt1894--corpus-inscriptionum-latinarum-viii-supplementum
 rights_status: "public-domain; vendored, identity and provenance directly confirmed (the vendored file's own provenance header states Public Domain)"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge / field knowledge / 2026-09-01; file identity and contents
@@ -31,4 +32,4 @@ discovery_channel: builder-prior-knowledge / field knowledge / 2026-09-01; file 
 external_ids:
   don_source_registry_row: 48
 ---
-The instrument that moved Registry row 27's Deo laudes claim off a recognized-category generality and onto specific catalogued inscriptions, and in doing so cleared that row's own standing priority-review flag. An acquisition that changed an evidentiary status rather than merely adding a volume.
+The instrument that moved Registry row 27's Deo laudes claim off a recognized-category generality and onto specific cataloged inscriptions, and in doing so cleared that row's own standing priority-review flag. An acquisition that changed an evidentiary status rather than merely adding a volume.

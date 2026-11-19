@@ -1,0 +1,21 @@
+source_file: mcdonald-searles_life-of-rev-john-s-inskip_1885.txt
+assignments:
+- row_id: mcdonald-searles_life-of-rev-john-s-inskip_1885--the-life-of-rev-john-s-inskip-president-of-the-national
+  work: The Life of Rev. John S. Inskip, President of the National Association for the Promotion of Holiness
+  author: mcdonald-searles
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - the-holiness-movement
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1885
+    end: 1885
+    source: the copyright notice at lines 74-76 ('in the year 1885, by McDonald & Gill')
+    formation_confidence: Documented
+  edition_date:
+    year: 1885
+    source: the copyright notice at lines 74-76 ('in the year 1885, by McDonald & Gill')
+    formation_confidence: Documented
+  note: 'Era 9 row 235, John S. Inskip: a Life told by others.'

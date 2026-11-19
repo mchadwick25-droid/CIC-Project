@@ -1,0 +1,11 @@
+source_file: international-missionary-council_jerusalem-meeting-1928-v5_1928.txt
+assignments:
+- row_id: international-missionary-council_jerusalem-meeting-1928-v5_1928--the-jerusalem-meeting-of-the-international-missionary
+  work: 'The Jerusalem Meeting of the International Missionary Council 1928, volume 5'
+  author: international-missionary-council
+  locus: 'whole'
+  atlas_ids:
+  - the-ecumenical-movement-and-the-wcc
+  role: tradition
+  confidence: assigned
+  note: 'The meeting''s own printed report; many voices.'

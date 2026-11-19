@@ -10,6 +10,7 @@ import pytest
 from engine.m1.loader import RECORDS_ROOT, load_world_records
 from engine.m4 import evidence, grounding_net, turn_prep
 from engine.m4.tests import live11_replay
+from engine.m4.quote_placement import REPAIR_LEAD_IN_UNNAMED
 from engine.m5.routing import Directive
 
 _MARKER = re.compile(r"\[\[\s*quote\s*:\s*([a-z0-9_.-]+)\s*\]\]")
@@ -77,30 +78,23 @@ def test_an_unnamed_lead_in_is_still_refused():
     assert offered == "Antony"
 
 
-def _dropped_for_the_name(run):
-    """The quotes the replay drops only because the lead-in did not name
-    the speaker, and whether the offered name would have placed them."""
+def _repaired_for_the_name(run):
+    """The quotes whose lead-in did not name the speaker in the replay, and
+    whether code's lead-in placed each of them."""
     out = []
     for turn, result in live11_replay.run_all(run):
-        records = live11_replay.records(turn["world"])
-        index = grounding_net.QuotationIndex(records)
-        for cut in result["first_net"]["reply_shape"]["removed"]:
-            found = _MARKER.search(cut["draft"])
-            if not found or cut["why"] != grounding_net.REASON_SPEAKER_UNNAMED:
-                continue
-            record = records[found.group(1)]
-            offered = turn_prep._offered_speaker(evidence._with_quote_index({"id": record["id"], "record_type": "quote"}, records))
-            composed = f"{offered} wrote: “{record['modern_rendering']}” [[{record['id']}]]"
-            out.append((turn["world"], turn["q"], record["id"],
-                        grounding_net.placed_quote_refusal(composed, records, index, record["id"]) is None))
+        shape = result["first_net"]["reply_shape"]
+        for repair in (r for r in shape["repaired"] if r["why"] == REPAIR_LEAD_IN_UNNAMED):
+            found = _MARKER.search(repair["draft"])
+            out.append((turn["world"], turn["q"], found.group(1), found.group(1) in shape["placed"]))
     return out
 
 
 @pytest.mark.parametrize("run, replies", [("eleven-world-test", 9), ("retest", 2)])
-def test_every_quote_dropped_for_its_name_places_with_the_offered_name(run, replies):
-    dropped = _dropped_for_the_name(run)
-    assert all(placed for *_where, placed in dropped)
-    assert len({(world, q) for world, q, _rid, _placed in dropped}) == replies
+def test_every_quote_whose_lead_in_named_no_speaker_places_with_codes_lead_in(run, replies):
+    repaired = _repaired_for_the_name(run)
+    assert all(placed for *_where, placed in repaired)
+    assert len({(world, q) for world, q, _rid, _placed in repaired}) == replies
 
 
 @pytest.mark.parametrize("world, quote_id, lead", [

@@ -36,6 +36,7 @@ retrieval:
   - participant asks how Augustine could say Cyprian's council was wrong
   - participant asks whether a council could correct an earlier council
   - participant asks what 'plenary councils' meant to Augustine
+  - participant asks whether bishops or church councils could get things wrong, and what stood above them
   prefer_instead:
   - participant wants Cyprian's own view of councils -- lpc.quote.bishop-of-bishops gives that
 claim_guards:

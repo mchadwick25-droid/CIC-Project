@@ -34,6 +34,7 @@ retrieval:
   - participant asks about John 6:29, 'this is the work of God, that ye believe on him whom he hath sent'
   - participant asks what Augustine meant by 'believe, and thou hast eaten'
   - participant asks how Augustine read the Lord's talk of food that lasts
+  - participant asks whether believing in the one God sent was itself the work God asked of people
   prefer_instead: []
 claim_guards:
 - The passage does not speak of the Eucharist or of eating the flesh and drinking the blood; it speaks

@@ -1,0 +1,1147 @@
+{
+  "lateran-council-649": {
+    "claims": [
+      {
+        "claim": "The Gospels were set out in the church called the Constantinian; the first session is dated III Nones October, eighth indiction, ninth year of Constans",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt l.88652-88658, 88719-88723",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Bishops and priests sat, deacons and clergy stood",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt l.82077-82079 (Book of the Popes, as reprinted in Mansi)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The synod met by the sacred order and canonical care of Martin",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt l.88644-88645",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Duchesne dates the five sessions to 5, 8, 17, 19 and 31 October 649",
+        "witness": "liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt l.162758-162760",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The Ekthesis confesses one will of Christ and forbids speaking of one or two operations",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt l.100115-100119, 100474-100477, 100584-100587",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Paul of Constantinople's letter to Pope Theodore: one will of Christ",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt l.102688-102691, 103114-103116",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Typos forbids any dispute about one will or two",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt l.103612-103626, 103680-103687",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Constans was Heraclius's grandson",
+        "witness": "theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt l.60843 ('Constans Heraclii nepos')",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Martin: Paul persuaded the emperor to issue the Typos to destroy catholic teaching, and overturned the Roman see's altar in the house of Placidia",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt l.89929-89957",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Book of the Popes counts 105 bishops",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt l.82048-82052; liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt l.161960",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Bede: the synod of the blessed Pope Martin and 105 bishops; John brought its decision to be copied at Wearmouth",
+        "witness": "bede_ecclesiastical-history-english-people_giles1903.txt l.10398-10407",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The attendance list names 105 bishops and one priest besides Martin; the subscriptions repeat them in order with three later signers",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt l.88794-88949, 114801-115403 (each name-and-see line counted in the Latin column)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Theophanes: 150 bishops (Goar's Latin); 110 (Anastasius's Latin version)",
+        "witness": "theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt l.60747-60751, 116623-116628",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Maurus of Ravenna was represented by Maurus of Cesena and the priest Deusdedit, and wrote that army and people kept him home for fear of raids",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt l.88796-88799, 90372-90380",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Stephen of Dor presented his petition, telling how Sophronius sent him to the apostolic see",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt l.91063-91075, 91435-91470",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Greek abbots and monks asked to enter and Martin admitted them",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt l.92084-92103",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The synod said the Typos had a good aim but a force at odds with it",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt l.103827-103829",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Canon 18 anathematizes Theodore of Pharan, Cyrus, Sergius, Pyrrhus and Paul, the Ekthesis and the Typos, and again Severus and Theodosius",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt l.114416-114547 (l.114429-114430, 114462-114465, 114497-114512)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Martin asked Amandus to have Sigebert send bishops to carry the acts to the emperor",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt l.116989-117024",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Duchesne: copies went to the emperor, Philadelphia, Carthage and Maastricht, with an encyclical",
+        "witness": "liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt l.162763-162776",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Constans, furious, had Martin and Maximus brought to Constantinople, tortured and exiled to Cherson",
+        "witness": "theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt l.60843-60850",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "At Bizya, Theodosius said the Roman synod lacked force, being held without the emperor's order",
+        "witness": "maximus-confessor_relatio-motionis-disputatio-bizyae-grc-lat_migne-pg90.txt l.9570-9590",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Hatfield received the synod held in Rome under Martin",
+        "witness": "bede_ecclesiastical-history-english-people_giles1903.txt l.10322-10336",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Theophanes files the affair under the nineteenth year of Heraclius",
+        "witness": "Binius, mansi tomus 10 l.117102-117103",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Martin died in exile at Cherson",
+        "witness": "the account by one of his clergy, mansi tomus 10 l.88330-88336",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "The number of bishops",
+        "sides": "105: the acts' attendance list and signatures (Mansi l.88794-88949, 114801-115403), the editors' heading (l.88609-88616), the Book of the Popes (l.82051-82052), Bede (l.10403), Binius from the signatures (l.117331-117333). 150: Theophanes in Goar's Latin (l.60749-60750). 110: Anastasius's Latin version of Theophanes (l.116628), which Binius quotes (l.117107).",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Whether Maximus the Confessor was present",
+        "sides": "Theophanes: he came from Africa and fired Martin's zeal (l.60747-60750), not that he sat. Fabricius, modern: he took part (PG 90 l.280-281). A 'Maximus monachus' signs the monks' petition (Mansi l.92672), beside a margin note that the Greek manuscript lacks the signatures (l.92483-92487). Binius: the acts make no mention of Maximus (l.117109-117110).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether the synod was held without the emperor's consent",
+        "sides": "Theodosius at Bizya, hostile, in a record from Maximus's side: held 'injussu imperatoris' (PG 90 l.9579-9582). The acts say Martin called it, and name no imperial order. W. D. Foulke, modern: Martin's appointment lacked the emperor's confirmation (paul-the-deacon_history-of-the-langobards_foulke1907.txt l.9938-9939). Binius, against: Constans first confirmed Martin's election in the usual way, then asked him to approve the Typos (Mansi tomus 10 l.117080-117094).",
+        "formation_confidence": "Widely Accepted"
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "An account of the synod from the side of one will",
+        "note": "Not held; the condemned documents survive only as read into the acts in Latin."
+      },
+      {
+        "detail": "A readable Greek text of the acts",
+        "note": "The Greek column of the held Mansi is too poorly read to quote."
+      },
+      {
+        "detail": "Hefele's narrative of the synod",
+        "note": "Not held; the held Hefele volumes end at 451."
+      },
+      {
+        "detail": "A Roman tradition entry for 649",
+        "note": "The census has no Roman entry between 604 and 1049, so the convening church has no tradition id."
+      }
+    ]
+  },
+  "synod-of-whitby-664": {
+    "claims": [
+      {
+        "claim": "Easter was once kept twice in one year at Oswy's court; the king had kept the feast while Queen Eanfleda and her followers were still keeping Palm Sunday; the queen followed the custom of Kent, with her priest Romanus",
+        "witness": "Bede III.25 (bede_ecclesiastical-history-english-people_giles1903.txt l.7888-7903; 'it is said')",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Oswy, taught and baptized by the Scots, 'thought nothing better than what they taught'",
+        "witness": "Bede III.25 (bede_ecclesiastical-history-english-people_giles1903.txt l.7924-7928)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Bede finished his History in 731",
+        "witness": "Bede V.23 (bede_ecclesiastical-history-english-people_giles1903.txt l.15188-15192)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Stephen was of Wilfrid's household; his Life was written within a few years of Wilfrid's death in 709; he came north with Wilfrid in 669",
+        "witness": "James Raine, preface (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt (Stephen, Life of Wilfrid) l.1676-1684, 1755-1770)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The controversy concerned Easter, the tonsure and other church matters; a synod was agreed at Streaneshalch, where the abbess Hild presided",
+        "witness": "Bede III.25 (bede_ecclesiastical-history-english-people_giles1903.txt l.7955-7962; Latin, Plummer l.21394-21396)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The kings, father and son, came; Colman with his Irish clergy; Agilbert with the priests Agatho and Wilfrid; James and Romanus on their side; Hild and her followers for the Scots, as was Cedd, interpreter for both parties",
+        "witness": "Bede III.25 (bede_ecclesiastical-history-english-people_giles1903.txt l.7962-7970)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Stephen names Hild as present, the two kings, the bishops Colman and Agilbert, and the priests Agatho and Wilfrid",
+        "witness": "Stephen 10 (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt (Stephen, Life of Wilfrid) l.5070-5087, 5138-5140)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Agilbert was bishop of the West Saxons and by nation a Frank, who had lived long in Ireland",
+        "witness": "Bede III.7 and III.25 (bede_ecclesiastical-history-english-people_giles1903.txt l.6119-6121, 7947-7952)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Oswy opened: those who served one God should observe the same rule of life",
+        "witness": "Bede III.25 (bede_ecclesiastical-history-english-people_giles1903.txt l.7974-7983)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Colman: he kept the Easter received from the elders who sent him as bishop, the Easter of John the Evangelist",
+        "witness": "Bede III.25 (bede_ecclesiastical-history-english-people_giles1903.txt l.7984-7993); Stephen 10 (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt (Stephen, Life of Wilfrid) l.5128-5136)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Agilbert asked that Wilfrid speak in his stead, since he could explain it better in English than Agilbert by an interpreter",
+        "witness": "Bede III.25 (bede_ecclesiastical-history-english-people_giles1903.txt l.7995-8001)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Wilfrid spoke for the Easter kept at Rome, where Peter and Paul were buried, and called the Picts and the Britons the accomplices in obstinacy of the Irish party (polemic)",
+        "witness": "Bede III.25 (bede_ecclesiastical-history-english-people_giles1903.txt l.8002-8021)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The exchange on the keys: 'It is true, O king!' ... 'None.'; Peter 'is the door-keeper, whom I will not contradict'; all present gave their assent",
+        "witness": "Bede III.25 (bede_ecclesiastical-history-english-people_giles1903.txt l.8194-8218)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Oswy, smiling, asked the whole synod whether Columba or Peter was greater in heaven, and the synod answered with one voice; the king then ruled for Peter",
+        "witness": "Stephen 10 (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt (Stephen, Life of Wilfrid) l.5152-5155, 5196-5200)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Bede dates the disputation to 664, the twenty-second year of Oswy and the thirtieth of the Irish bishops among the English",
+        "witness": "Bede III.26 (bede_ecclesiastical-history-english-people_giles1903.txt l.8236-8241)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Agilbert went home; Colman took those who would not accept the Catholic Easter and the tonsure and went back to consult his people; Cedd accepted the Catholic Easter",
+        "witness": "Bede III.26 (bede_ecclesiastical-history-english-people_giles1903.txt l.8225-8236)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Eata was made abbot of Lindisfarne at Colman's request, for the king much loved Colman; Colman took part of Aidan's bones",
+        "witness": "Bede III.26 (bede_ecclesiastical-history-english-people_giles1903.txt l.8259-8272)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Colman went with the Irish of Lindisfarne and about thirty English to Iona, then Inishbofin, then founded Mayo for the English",
+        "witness": "Bede IV.4 (bede_ecclesiastical-history-english-people_giles1903.txt l.9195-9232)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Wilfrid was chosen bishop and consecrated by Agilbert at Compiègne",
+        "witness": "Stephen 11 (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt (Stephen, Life of Wilfrid) l.5207-5220); Bede III.28 (bede_ecclesiastical-history-english-people_giles1903.txt l.8440-8450)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Iona adopted the catholic rites under Abbot Dunchad about eighty years after it sent Aidan",
+        "witness": "Bede V.22 (bede_ecclesiastical-history-english-people_giles1903.txt l.14979-15031)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Bede of the departed Irish teachers: their whole care 'was to serve God, not the world — to feed the soul, and not the belly'",
+        "witness": "Bede III.26 (bede_ecclesiastical-history-english-people_giles1903.txt l.8292-8297)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The first Easter among the Saxons, and later the change of Easter among the Britons under Elbodug",
+        "witness": "Annales Cambriae (annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt l.2764, 2984-2986; years 665 and 768 by the editor)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The southern Irish had taken the Roman Easter before Whitby; the northern Irish, Picts, Iona and Welsh changed later",
+        "witness": "Charles Plummer, introduction (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt l.2770-2783)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Columbanus trusted the Easter reckoning of his homeland and Anatolius over Victorius",
+        "witness": "paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt l.20279-20483, 20791-20796",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "What Wilfrid argued",
+        "sides": "Bede: the practice of Rome and the whole world, Peter, the law and Gospel, Anatolius (bede_ecclesiastical-history-english-people_giles1903.txt l.8002-8192). Stephen: the 318 fathers of Nicaea and the nineteen-year cycle, and the practice of the apostolic see and nearly the whole world (l.5149); it is the king who raises Peter (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt (Stephen, Life of Wilfrid) l.5142-5155).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "How the ruling came",
+        "sides": "Bede: Oswy questions Colman and Wilfrid, both agree on the keys, and the king rules; then all assent (l.8194-8218). Stephen: Oswy, smiling, asks the whole synod, which answers with one voice; then he rules (l.5152-5200). Both have Oswy rule for Peter.",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Hild's side",
+        "sides": "Bede: she and her followers were for the Scots (l.7966-7967). Stephen: present, with no side (l.5081-5083). Eadmer, twelfth century and dependent, calls her patroness of Colman's party (Raine l.15944-15945). The Mansi heading, held at her request, has no ancient witness (mansi tomus 11 l.7654).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Why Colman left",
+        "sides": "Bede: to consult his people what was to be done (l.8227-8233). Stephen, partisan for Wilfrid: for fear of his own country, leaving his see to a better man (l.5202-5205).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Synod or conference",
+        "sides": "Bede and Stephen call it a synod (Giles l.7958; Raine l.5155). Severinus Binius, in Mansi's note, calls it a collatio, since not all the province's bishops were summoned (mansi tomus 11 l.8053-8058).",
+        "formation_confidence": "Widely Accepted"
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Acts, canons or a list of those present",
+        "note": "None exist or are held; the synod is known through Bede and Stephen. No witness counts those present."
+      },
+      {
+        "detail": "Who called the synod",
+        "note": "Bede and Stephen name no one; Bede says only 'it was agreed'."
+      },
+      {
+        "detail": "Month or day",
+        "note": "No held source gives one."
+      },
+      {
+        "detail": "An Irish, Ionan or British account of the meeting",
+        "note": "Not held; the Irish case at the synod reaches us only through Bede and Stephen. Cummian's Easter letter, the Annals of Ulster and the Anglo-Saxon Chronicle are not held. Columbanus's Easter letters are held, in PL 80 (paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt l.20270-20483, 20758-20796)."
+      },
+      {
+        "detail": "An argument about the tonsure at the synod",
+        "note": "Neither witness reports one."
+      },
+      {
+        "detail": "Any words of Hild at the synod",
+        "note": "No account gives her a word."
+      }
+    ]
+  },
+  "third-council-of-constantinople-680": {
+    "claims": [
+      {
+        "claim": "Session XV is dated 26 April, ninth indiction; at the Zeuxippus baths a dead man was set on a silver bier; Polychronius laid his statement of faith on him for many hours, whispering, and said he could not raise him; the people cried anathema to the new Simon",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-11-lat_welter-facsimile1901.txt l.57296-57301, 57905-57943",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The first session met on 7 November, ninth indiction, with the emperor presiding in the hall of the palace called Trullus",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-11-lat_welter-facsimile1901.txt l.22000-22008; Percival, npnf214_seven-ecumenical-councils.xml l.24572-24596",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The pope's envoys: for forty-six years bishops of Constantinople taught one will and one operation",
+        "witness": "npnf214_seven-ecumenical-councils.xml l.24645-24657",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Agatho: the Roman church has never erred from the path of the apostolic tradition",
+        "witness": "npnf214_seven-ecumenical-councils.xml l.24936-24941",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Macarius and his party: they held what they received from the fathers and from Sergius, Paul, Pyrrhus, Peter, Honorius and Cyrus",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-11-lat_welter-facsimile1901.txt l.22497-22524",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Macarius: 'one will and one theandric operation'",
+        "witness": "npnf214_seven-ecumenical-councils.xml l.25682-25687",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Macarius: not even if cut limb from limb and thrown into the sea",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-11-lat_welter-facsimile1901.txt l.35453-35458",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The synod cried out to throw out the new Dioscorus, depose him and strip him of his pallium",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-11-lat_welter-facsimile1901.txt l.36066-36076",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "George of Constantinople accepted Agatho's letters",
+        "witness": "npnf214_seven-ecumenical-councils.xml l.25660-25664",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Session XIII anathematized Honorius 'because of what we found written by him to Sergius'",
+        "witness": "npnf214_seven-ecumenical-councils.xml l.25708-25717",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The definition: 'two natural wills and two natural operations', the human will 'subject to his divine and omnipotent will'",
+        "witness": "npnf214_seven-ecumenical-councils.xml l.25860-25870",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The emperor signed the decrees with his own hand",
+        "witness": "npnf214_seven-ecumenical-councils.xml l.26145-26150",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Counts: 150 (Book of the Popes); 289 (Theophanes); 250 (Michael the Syrian); under 300 with 174 signatures (Percival)",
+        "witness": "liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt l.165717; theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt l.65259-65261; michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt l.34484-34487; npnf214_seven-ecumenical-councils.xml l.24574-24576",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Leo II to the emperor: Honorius tried to overturn the spotless faith by profane betrayal (a margin reading: allowed it to be stained)",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-11-lat_welter-facsimile1901.txt l.68856-68866",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Leo II to the bishops of Spain: Honorius fed the flame of heresy by neglect",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-11-lat_welter-facsimile1901.txt l.102060-102070",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Agatho died on 10 January 681, by Duchesne's reckoning",
+        "witness": "liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt l.166644-166645, 167033",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Toledo XIV, in the fifth year of Ervig, received the acts so far as they do not depart from earlier councils, and set them after Chalcedon",
+        "witness": "collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt l.51318-51324, 51514-51533",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Michael: Macarius was exiled to Rome and imprisoned to the end of his life; thus came in the pernicious heresy of Maximus",
+        "witness": "michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt l.34514-34523",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Percival: the Liber Diurnus oath, taken by each new pope from the fifth to the eleventh century, cursed Honorius",
+        "witness": "npnf214_seven-ecumenical-councils.xml l.26270-26280",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "The number of bishops",
+        "sides": "Book of the Popes: 150 (l.165717); Paul the Deacon copies it. Theophanes: 289 (l.65259-65261); Eutychius: 289 by his own sum (nicholas-mystikos_epistolae-with-eutychius-alexandrinus-pg111-grc-lat_migne1863.txt l.85490-85551). Michael the Syrian: 250 (l.34486). Percival: under 300, 174 signatures (l.24574-24576). No count of the held list was made.",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether Honorius taught one will",
+        "sides": "The acts condemn him (Sessions XIII, XVI, XVIII and the letters). John IV, 641: he meant no contrary wills (denzinger_enchiridion-symbolorum-lat_bannwart1911.txt l.9293-9312). Maximus: the letter meant one human will without contrariety (Mansi note, l.53043-53110). Agatho's letter omits him (l.25303-25306). Leo II: betrayal (l.68856-68866) and neglect (l.102060-102070). Baronius: the name inserted; Percival answers (l.26208-26216).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether George of Constantinople accepted",
+        "sides": "The acts: he accepted (l.25660-25664). Michael the Syrian: the primates of Constantinople and Antioch refused and were deposed (l.34490-34493). Paul the Deacon: George stirred up the heresy and was rebuked (paul-the-deacon_history-of-the-langobards_foulke1907.txt l.11253-11257, 11283); Foulke calls it a mistake (l.11262-11265).",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The opening date",
+        "sides": "The acts: 7 November (Mansi l.22004). Book of the Popes: 22 November (l.165715); Duchesne: its dates are nearly all false (l.167013).",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Whether the Maronites held to one will after the council",
+        "sides": "Eutychius calls Macarius a Maronite (nicholas-mystikos_epistolae-with-eutychius-alexandrinus-pg111-grc-lat_migne1863.txt l.84948-84955); William of Tyre: the sixth synod was gathered against them (william-tyre_historia-rerum-in-partibus-transmarinis-gestarum-v2-lat-fra_rhc1844.txt l.26970-26974); Michael the Syrian: under Marwan they confessed one will (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt l.39339-39342). Al-Duwayhi: the charge rests on Eutychius (duwayhi_tarikh-al-taifa-al-maruniyya-ara_shartuni189x.txt l.2855-2856). The acts name no Maronites.",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The date of Leo II's letter to the emperor",
+        "sides": "Mirbt: September to December 682 (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt l.8038). Duchesne: 7 May 683 (l.167074).",
+        "formation_confidence": "Contested"
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "A text of the party of one will outside its opponents' records",
+        "note": "None found; Michael the Syrian, who takes Macarius's side, reports his argument but not his words; Honorius's letter survives through these acts."
+      },
+      {
+        "detail": "A count of the signatures made from the held list",
+        "note": "Not made; the 174 is Percival's."
+      },
+      {
+        "detail": "Hefele's narrative of the council",
+        "note": "Not held; he reaches us only as Percival quotes him."
+      },
+      {
+        "detail": "A Roman tradition entry for 680",
+        "note": "The census has no Roman entry between 604 and 1049."
+      }
+    ]
+  },
+  "quinisext-council-692": {
+    "claims": [
+      {
+        "claim": "The emperor signed first; the next place, 'Locus sanctissimi papae Romani', was left blank; then Paul of Constantinople, Peter of Alexandria, Anastasius of Jerusalem and George of Antioch",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-11-lat_welter-facsimile1901.txt l.95160-95184; Percival, npnf214_seven-ecumenical-councils.xml l.26442-26445",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The council met in the domed hall of the palace called the Trullus",
+        "witness": "npnf214_seven-ecumenical-councils.xml l.26398-26400 (Fleury, in Percival)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Hefele dates the council between 1 September 691 and 1 September 692 from the indiction in canon 3",
+        "witness": "npnf214_seven-ecumenical-councils.xml l.26430-26437",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "The fifth and sixth councils made no canons; the bishops met at the emperor's command and wrote sacred canons; they ask him to seal them with his signature",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-11-lat_welter-facsimile1901.txt l.89568-89577, 89686-89692, 89719-89721 (the address)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Percival counts 211 signers, bishops or representatives of bishops",
+        "witness": "npnf214_seven-ecumenical-councils.xml l.26442-26446",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Basil of Gortyna signed as holding the place of the church of Rome in every synod; whether Rome had sent him there is no information",
+        "witness": "npnf214_seven-ecumenical-councils.xml l.26452-26459",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Book of the Popes: the envoys of the apostolic see came and, deceived, signed",
+        "witness": "liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt l.170878-170879",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Percival: the West was not really represented at all",
+        "witness": "npnf214_seven-ecumenical-councils.xml l.26375-26376",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Canon 13 keeps clerical marriages against the Roman rule",
+        "witness": "npnf214_seven-ecumenical-councils.xml l.27469-27500, 27507-27509",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Canon 55 forbids the Roman Saturday fast in Lent",
+        "witness": "npnf214_seven-ecumenical-councils.xml l.29015-29023",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Canon 32: in the region of Armenia 'they offer wine only on the Holy Table'; deposition for any bishop or presbyter who will not mix water with it",
+        "witness": "npnf214_seven-ecumenical-councils.xml l.28131-28136, 28170-28177",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Canon 36: Constantinople has 'equal privileges with the see of Old Rome', second after it",
+        "witness": "npnf214_seven-ecumenical-councils.xml l.28314-28318",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The canons were sent to Rome in six volumes; Sergius would not receive them or let them be opened and read, and rejected them as invalid",
+        "witness": "liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt l.170978-170986",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Justinian sent Zacharias to bring the pope to the imperial city; the soldiers of Ravenna and the Pentapolis would not permit it; Zacharias hid under the pope's bed and was driven from Rome",
+        "witness": "liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt l.170986-170995, 171264-171276; Paul the Deacon VI.11, paul-the-deacon_history-of-the-langobards_foulke1907.txt l.11506-11514",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "John VII returned the volumes uncorrected, fearful in human weakness",
+        "witness": "liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt l.174285-174291, 174584-174586",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Tarasius at Nicaea II: the same fathers met under Justinian and set forth the canons; 'And let no one doubt concerning them'",
+        "witness": "npnf214_seven-ecumenical-councils.xml l.39050-39058",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "In 1054 Niketas cited canon 13 as the sixth synod's; the reply under Humbert's name says the apostolic see never accepted those chapters",
+        "witness": "will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt l.12948-12963, 13831-13834",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Stephen of Taron: the synod of Manazkert required the sacrament without leaven and without water",
+        "witness": "stepanos-taron_armenische-geschichte-deu_gelzer-burckhardt1907.txt l.3720-3737",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Ormanian dates the synod of Manazkert to 726",
+        "witness": "ormanian_church-of-armenia_gregory1912.txt l.2934-2939",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Stephen of Taron's history runs to 1005",
+        "witness": "stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt l.440-442 (Macler)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Serpos: the Trullan synod was gathered by the Greeks without authority or the pope's consent, a pseudo-synod; its canons rebuke the Armenians without anathematizing the nation",
+        "witness": "serpos_dissertazione-due-dubbi-armeni-cattolici-ita_1783.txt l.1027-1080",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Percival: the bishops were not the same as the Sixth Council's, as the subscriptions show; his note on Tarasius's speech calls it an error",
+        "witness": "npnf214_seven-ecumenical-councils.xml l.26420-26422, 39050-39055",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "The year of the council",
+        "sides": "Hefele, in Percival: between 1 September 691 and 1 September 692 (l.26430-26437). Fleury: 692 (l.26385). Duchesne: 692 (LP l.172486). Pedalion: 691 (nikodemos-hagiorite_pedalion-canons-grc_1886.txt l.22318). Theophanes: the second year of Justinian's restored reign (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt l.65636-65641); Goar says he errs. Tarasius's 'four or five years' after the Sixth Council (l.39053), which Percival rejects.",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The number of bishops",
+        "sides": "Percival, after Hefele: 211 signers (l.26445-26446). Fleury: 211 (l.26387). Balsamon and Zonaras, as the Pedalion reports: 227; the Synodicon: 240 (Pedalion l.22398; Mansi l.98350-98354; the Mansi preface reports 227 as the Greeks' count, l.88684-88685). Mansi's preface: after eight leading signers, the signatures of 205 bishops (mansi tomus 11 l.89062-89081).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether Rome was represented",
+        "sides": "Book of the Popes: the envoys signed, deceived (l.170878-170879). Duchesne: they signed and were disowned, their names struck out (l.172488-172497). Percival: the West was not really represented (l.26375-26376). Mansi's preface: no one present in the pope's name (l.88686-88688). Basil of Gortyna signed as holding Rome's place (l.26452-26459). Pedalion: Basil of Gortyna and a bishop of Ravenna held Rome's place (l.22399-22400), against the blank place for Ravenna (Percival l.26451-26452; Mansi l.89074-89075).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "How many patriarchs signed",
+        "sides": "The signatures: four, with Anastasius of Jerusalem (Mansi l.95160-95184). The Book of the Popes: three, of Constantinople, Alexandria and Antioch (l.170981-170982). Percival thinks it probable they were present.",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether later popes accepted the canons",
+        "sides": "Book of the Popes: John VII returned them uncorrected; Constantine's life does not name them. Percival: a middle course under Constantine (l.26466-26468). Foulke, after Hodgkin: probably accepted (paul-the-deacon_history-of-the-langobards_foulke1907.txt l.12156-12157). Duchesne: the John VII episode is otherwise unknown (l.175180-175188).",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Whether the bishops were those of the Sixth Council",
+        "sides": "Tarasius, 787: the same (l.39053-39058). Percival: not the same (l.26420-26422). Mansi's preface: only forty-three the same (l.89082-89085).",
+        "formation_confidence": "Contested"
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Minutes or debates",
+        "note": "None held; the record is the address, the canons and the signatures."
+      },
+      {
+        "detail": "A month or day",
+        "note": "No held source gives one."
+      },
+      {
+        "detail": "An Armenian answer from the time",
+        "note": "None held. The first held Armenian answer is Giovanni de Serpos's of 1783 (serpos_dissertazione-due-dubbi-armeni-cattolici-ita_1783.txt l.1027-1080), an Armenian Catholic who calls the council a false synod and says its canons rebuke the Armenians without anathematizing the nation."
+      },
+      {
+        "detail": "A letter of Sergius I",
+        "note": "Not held; his refusal reaches us in his biographer's words."
+      },
+      {
+        "detail": "Hefele's volume on this council and Bede's chronicle",
+        "note": "Not held; Hefele reaches us only as Percival quotes him, and Bede's 'erratic synod' only through Sirmond's preface to Theodore the Studite."
+      },
+      {
+        "detail": "A Roman tradition entry for 692",
+        "note": "The census has no Roman entry between 604 and 1049, so Rome's refusal is told in the outcome without a tradition id."
+      }
+    ]
+  },
+  "second-council-of-nicaea-787": {
+    "claims": [
+      {
+        "claim": "In the Holy Apostles, the bishops began to read the Scriptures while the rulers watched; the guards burst in with drawn swords threatening to kill the patriarch and bishops; bishops of their mind went out shouting 'Vicimus'; the synod was dissolved",
+        "witness": "theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt l.123628-123662 (Anastasius's Latin); Goar's Latin l.83377-83610",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Hieria council had 338 bishops",
+        "witness": "npnf214_seven-ecumenical-councils.xml l.39245-39246; theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt l.77050-77055",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Hieria decree, in Percival's summary mostly from Hefele: the image of Christ either depicts the Godhead or separates the body; the only admissible figure is bread and wine",
+        "witness": "npnf214_seven-ecumenical-councils.xml l.39206-39211, 39300-39307",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Tarasius demanded an ecumenical council with legates from Rome and the East, since the Christians of the East decline communion",
+        "witness": "npnf214_seven-ecumenical-councils.xml l.38485-38498",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The council met by the will of Constantine and Irene, at Nicaea in the church named Sophia",
+        "witness": "npnf214_seven-ecumenical-councils.xml l.39640-39648",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Book of the Popes: about 350 bishops; the acts translated into Latin and kept in the library",
+        "witness": "liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt l.204381-204386",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Michael the Monk: about 350 fathers, Plato among them",
+        "witness": "theodore-studite_opera-omnia-pg99-grc-lat_migne1860.txt l.8834-8836 (OCR 'precentos')",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Theophanes: first session at Holy Wisdom, Nicaea, on 11 October; in November the decree read at the Magnaura and signed by the emperor and his mother",
+        "witness": "theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt l.123690-123698; Goar l.83770-83778",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Duchesne: eight sessions from 25 September to 22 October 787",
+        "witness": "liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt l.207927-207928",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Session I: penitent bishops received; Tarasius on calumniators become advocates",
+        "witness": "npnf214_seven-ecumenical-councils.xml l.38543-38733",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Session IV: 'Shall we not weep when we see an image of our crucified Lord?'",
+        "witness": "npnf214_seven-ecumenical-councils.xml l.38999-39030",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The decree: images given honourable reverence, not latria; the honour passes to the prototype",
+        "witness": "npnf214_seven-ecumenical-councils.xml l.39729-39754",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Duchesne: the Latin translation shocked the Frankish clergy and moved Charlemagne to fight the council",
+        "witness": "liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt l.207933-207935",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Frankfurt 794 rejected the Greek synod as anathematizing those who would not give images service or adoration as to the Trinity",
+        "witness": "capitulatio-de-partibus-saxoniae_pertz1881.txt l.5607-5609, 5630-5631; annales-regni-francorum_kurze1895.txt l.6580-6604",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Hefele: the Franks misjudged through false translation and misunderstanding",
+        "witness": "npnf214_seven-ecumenical-councils.xml l.38983-38992",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Constantine of Constantia reserved the worship of adoration to the Trinity",
+        "witness": "npnf214_seven-ecumenical-councils.xml l.38975-38977",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Paris 825: Charlemagne's chapters sent by Angilbert; Hadrian answered; Nicaea had erred",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-14-lat_welter-facsimile1902.txt l.45066-45131",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "In 843 the council gained firm authority",
+        "witness": "nikephoros-cp_opera-with-vita-stephani-iunioris-pg100-grc-lat_migne1860.txt l.103895-103900",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Photius: at its sessions the iconoclasts were defeated",
+        "witness": "photius_library-v1_freese1920.txt l.2236-2241",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "After Irene's death in 803 several iconoclast rulers held the throne",
+        "witness": "Percival, npnf214_seven-ecumenical-councils.xml l.41520-41523",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "The day of the broken meeting at the Holy Apostles",
+        "sides": "Goar's Latin of Theophanes: 17 August, ninth indiction (l.83399-83400). Anastasius's Latin: 7 August (l.123640).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The dates of the sessions",
+        "sides": "Theophanes: first session 11 October (l.123692-123695). Duchesne: eight sessions, 25 September to 22 October (LP l.207927-207928). No held act gives a session date. Editor's note in Migne PG 99: begun 8 Kalends October (24 September), indiction 11, 787 (theodore-studite_opera-omnia-pg99-grc-lat_migne1860.txt l.69540-69541). W. M. Sinclair, quoted by Percival: seven sittings (npnf214 l.39596-39597).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether the Eastern envoys were sent by their patriarchs",
+        "sides": "The acts: they brought letters from the East (l.38527-38531). Theodore the Studite, 826, as Percival quotes him from Neale: brought by our deputies, not sent (l.41526-41536); he later changed his view.",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether the Franks misread the council",
+        "sides": "Frankfurt c.2 (CAP l.5607-5609). Hefele via Percival: false translation (l.38983-38992). Boretius, citing Hefele: 'non recte iudicavit' (CAP l.5680-5682); one witness, not two. Duchesne (LP l.207933-207935). Paris 825 still rejects adoration (M14 l.45079-45080).",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Who wrote the Caroline Books",
+        "sides": "Percival inclines to Alcuin (l.41658-41664); Froben denies it (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt l.92603-92760). Not held.",
+        "formation_confidence": "Contested"
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "The full acts and the list of signatures",
+        "note": "Mansi tomus 12-13 are not held; no count of names is possible."
+      },
+      {
+        "detail": "The Caroline Books, Hadrian's reply to Charlemagne and Ignatius's Life of Tarasius",
+        "note": "Not held."
+      },
+      {
+        "detail": "An anno Domini year for the broken meeting",
+        "note": "Theophanes dates it by the world-year 6278, the rulers' sixth year and the ninth indiction; it fell the year before the council at Nicaea."
+      },
+      {
+        "detail": "A Roman tradition entry for 787",
+        "note": "The census has no Roman entry between 604 and 1049."
+      }
+    ]
+  },
+  "councils-of-constantinople-861-880": {
+    "claims": [
+      {
+        "claim": "Eighth session, the Nones of November, Basil's third year, third indiction, Basil presiding",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-16-lat_welter-facsimile1902.txt l.14036-14049",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "At Basil's command the pledges Photius took from great and small, down to leather-workers, fishmongers, wood-sellers and needle-makers, with the books against Nicholas and the acts against Ignatius, were cast into the fire",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-16-lat_welter-facsimile1902.txt l.14204-14250",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Greek text of 861 is lost",
+        "witness": "liber-pontificalis_texte-introduction-commentaire-t2-lat-fra_duchesne1892.txt l.51685-51693 (Duchesne)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Hadrian II ordered every copy of 867's acts burned; copies burned at Rome and by the council",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-16-lat_welter-facsimile1902.txt l.2370-2385; liber-pontificalis_texte-introduction-commentaire-t2-lat-fra_duchesne1892.txt l.53562-53575, 53815-53818",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Photius was made patriarch from a layman in six days",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-16-lat_welter-facsimile1902.txt l.23526-23537 (Nicetas)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Nicholas sent Radoald and Zacharias only to inquire",
+        "witness": "liber-pontificalis_texte-introduction-commentaire-t2-lat-fra_duchesne1892.txt l.49600-49604",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Seventy-two perjured witnesses; Ignatius stripped; Procopius cried 'Indignus' and Zacharias and Radoald with him",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-16-lat_welter-facsimile1902.txt l.24170-24171, 24270-24282 (Nicetas)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Nicholas's Roman synod deposed Zacharias and condemned Radoald",
+        "witness": "liber-pontificalis_texte-introduction-commentaire-t2-lat-fra_duchesne1892.txt l.49826-49835; prudentius-troyes_annales-bertiniani_waitz1883.txt l.3955-3963",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Boris was baptized and asked for clergy from Louis and Nicholas",
+        "witness": "prudentius-troyes_annales-bertiniani_waitz1883.txt l.5183-5230",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Photius's encyclical: the Latins fell on Bulgaria like a wild boar on the Lord's vineyard; they taught the Spirit proceeds from the Son also",
+        "witness": "will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt l.3478-3483, 3808-3812",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Photius's council of 867 condemned and anathematized Nicholas",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-15-lat_welter-facsimile1902.txt l.85709-85711 (Metrophanes); mansi_sacrorum-conciliorum-collectio-tomus-16-lat_welter-facsimile1902.txt l.1139-1145 (Anastasius)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Anastasius: about a thousand forged signatures, only twenty-one bishops agreeing",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-16-lat_welter-facsimile1902.txt l.1210-1215",
+        "witness_kind": "participant",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Basil put Photius out",
+        "witness": "liber-pontificalis_texte-introduction-commentaire-t2-lat-fra_duchesne1892.txt l.53410-53412",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Hadrian asked for a numerous council with his envoys presiding",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-16-lat_welter-facsimile1902.txt l.2365-2368",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Canon 4: Photius never was nor is a bishop",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-16-lat_welter-facsimile1902.txt l.16926-16958",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Nicetas: 102 bishops",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-16-lat_welter-facsimile1902.txt l.26091-26092",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Three days after the last session the Eastern vicars assigned Bulgaria to Constantinople over the Roman envoys' protest",
+        "witness": "liber-pontificalis_texte-introduction-commentaire-t2-lat-fra_duchesne1892.txt l.53945-53975, 54320-54345; mansi_sacrorum-conciliorum-collectio-tomus-16-lat_welter-facsimile1902.txt l.1750-1785",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "John VIII asked that the synod held against Photius in Hadrian's time be null and void",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-17-18-lat_welter-facsimile1902.txt l.37735-37740",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Photius presided at the second session of 879, with the Roman envoys",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-17-18-lat_welter-facsimile1902.txt l.41143-41148",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The definition of 879-880: nothing taken away, nothing added, nothing changed, nothing corrupted",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-17-18-lat_welter-facsimile1902.txt l.52975-52981",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Pedalion: 383 fathers at 879; the council called eighth by the Latins, the one against Photius, was rejected by the one for Photius",
+        "witness": "nikodemos-hagiorite_pedalion-canons-grc_1886.txt l.34522, 14340-14348",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Mark of Ephesus at Florence: the council of 879, also called the eighth, rescinded the acts against Photius; in the great church of Constantinople an anathema is read on all written or said against the holy patriarchs Photius and Ignatius",
+        "witness": "mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt l.53634-53664, 53780-53802",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Will: Photius died in 891",
+        "witness": "will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt l.3988-3992",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Basil put Photius out and restored Ignatius to the patriarch's palace",
+        "witness": "liber-pontificalis_texte-introduction-commentaire-t2-lat-fra_duchesne1892.txt l.53408-53409; Hincmar, Annales Bertiniani l.7148 ('Ignatium restituentes', of the council)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The seventeen canons of the synod of 861 in the Holy Apostles",
+        "witness": "nikodemos-hagiorite_pedalion-canons-grc_1886.txt l.33300, 33392 ff.",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Pedalion's editors: the synod in the Holy Apostles met in 861 and issued its canons at its second meeting; its minutes are not found; it said nothing against Photius",
+        "witness": "nikodemos-hagiorite_pedalion-canons-grc_1886.txt l.33222-33228, 33296-33300, 33335-33345",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "The number at 861",
+        "sides": "Binius: 318, 'ut ipsi jactabant', as they boasted (mansi_sacrorum-conciliorum-collectio-tomus-15-lat_welter-facsimile1902.txt l.63831, 63849-63850). Pedalion: 318, after Dositheos (nikodemos-hagiorite_pedalion-canons-grc_1886.txt l.33224). Nicholas I: the Byzantines claimed nearly Nicaea's number (mansi_sacrorum-conciliorum-collectio-tomus-15-lat_welter-facsimile1902.txt l.18456-18458).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The number at 869-870",
+        "sides": "Acts, ninth session: more than a hundred (M16 l.36866-36892). Nicetas: 102 (l.26091-26092); the Greek tract: 102 (l.41349-41351). Binius: 101 signers (l.48269-48288). Not counted for this profile.",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The number at 879-880",
+        "sides": "Pedalion: 383 (l.34522); Binius after Baronius: 383 (M17 l.38451-38452). Nilus: 380 (l.38862-38866). Greek tract: 380, doubting it (M16 l.43262-43282).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Which council is the eighth ecumenical",
+        "sides": "Latins: 869-870 (Pedalion l.14346-14348; Will l.16709-16714). Nilus: 879 (M17 l.38862). Mark of Ephesus: 879 (M31 l.53653-53656). Pedalion: both only improperly ecumenical (l.14340-14348). Leo IX: seven councils (Will l.16687-16690).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether the sixth and seventh sessions of 879-880 are genuine",
+        "sides": "Unsigned note in Mansi: forged by Photius (M17 l.52604-52628). Nilus reports the definition (l.38880-38895).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether John VIII later anathematized Photius",
+        "sides": "Binius after Baronius, and Formosus's letter as Binius quotes it (M17 l.38375-38425); Will (l.3980-3987). No letter of John's own held.",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "The month of the council of 861",
+        "sides": "Pagi, reckoning from Nicetas's Pentecost (25 May 861) and the Libellus synodicus, 'post Pascha anni Chr. 861' (M15 l.63995-64010).",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Why Nicholas's envoys of 861 came",
+        "sides": "The Book of the Popes: to inquire into Ignatius's removal (l.49600-49604); also on images (l.48974-48975). The Pedalion: against the iconoclasts (l.33227-33228).",
+        "formation_confidence": "Contested"
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "The minutes of 861",
+        "note": "Lost; Duchesne says the Greek does not survive. A shortened Latin version in Cardinal Deusdedit's collection is not held. The seventeen canons are held in the Pedalion (nikodemos-hagiorite_pedalion-canons-grc_1886.txt l.33300, 33392 ff.)."
+      },
+      {
+        "detail": "The acts of 867",
+        "note": "Burned by order; none survive."
+      },
+      {
+        "detail": "A count of the held signature lists of 869-870 and 879-880",
+        "note": "Not made for this profile."
+      },
+      {
+        "detail": "Hergenröther's and Dvornik's studies of Photius; Photius's letters and Mystagogy",
+        "note": "Not held."
+      },
+      {
+        "detail": "A Roman tradition entry for 861-880",
+        "note": "The census has no Roman entry between 604 and 1049."
+      }
+    ]
+  }
+}

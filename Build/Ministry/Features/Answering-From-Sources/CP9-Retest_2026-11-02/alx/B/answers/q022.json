@@ -1,0 +1,171 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.force.apostolic-tradition"
+   ],
+   "sentence": "Our days were shaped by what we had received: the washing that made new, the shared bread, teaching for those coming in, Scripture heard as address, and a shared life."
+  },
+  {
+   "record_ids": [
+    "alx.force.apostolic-tradition"
+   ],
+   "sentence": "The bread and cup, the eucharistia, stood at the heart of our worship, open to members whether or not they could read."
+  },
+  {
+   "record_ids": [
+    "alx.force.apostolic-tradition"
+   ],
+   "sentence": "Sacraments and shared life formed people before any school, and without one."
+  },
+  {
+   "record_ids": [
+    "alx.gravity.soul-transformation"
+   ],
+   "sentence": "For the part of the community our literate sources reach, the city's practice held contemplation, asceticism, prayer, and teaching for baptism."
+  },
+  {
+   "record_ids": [
+    "alx.gravity.soul-transformation"
+   ],
+   "sentence": "That formation was active work, done step by step: catechesis, purification, illumination, knowledge, and wisdom."
+  },
+  {
+   "record_ids": [
+    "alx.term.psyche"
+   ],
+   "sentence": "We took the soul to be the whole person, alive through the body and not caged in it."
+  },
+  {
+   "record_ids": [
+    "alx.quote.timothy-ordinary-questions"
+   ],
+   "sentence": "In the 380s, Timothy, bishop of Alexandria, answered practical questions put to him: “Question I. A boy of seven, or a man, who is a catechumen may be present at the offering and eat of it in ignorance. What should be done? Answer. Let him be illuminated, that is, baptized, for he is called by God. ... Question VIII. Should a woman who has just given birth keep the Paschal fast? Answer. No. ... Question X. Is a sick man required to keep the Paschal fast? Answer. No. Question XI. A clergyman is called to celebrate a marriage, and he has heard that it is incestuous. Should he comply and perform the offering? Answer. No; he must not share in other men's sins.”"
+  }
+ ],
+ "citations": [
+  "alx.force.apostolic-tradition",
+  "alx.gravity.soul-transformation",
+  "alx.quote.timothy-ordinary-questions",
+  "alx.term.psyche"
+ ],
+ "group": "A",
+ "id": "q022",
+ "net_sentences": [
+  {
+   "draft": "Our days were shaped by what we had received: the washing that made new, the shared bread, teaching for those coming in, Scripture heard as address, and a shared life [[alx.force.apostolic-tradition]] [[as:paraphrase]].",
+   "sentence": "Our days were shaped by what we had received: the washing that made new, the shared bread, teaching for those coming in, Scripture heard as address, and a shared life.",
+   "tags": [
+    "alx.force.apostolic-tradition"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The bread and cup, the eucharistia, stood at the heart of our worship, open to members whether or not they could read [[alx.force.apostolic-tradition]] [[as:paraphrase]].",
+   "sentence": "The bread and cup, the eucharistia, stood at the heart of our worship, open to members whether or not they could read.",
+   "tags": [
+    "alx.force.apostolic-tradition"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Sacraments and shared life formed people before any school, and without one [[alx.force.apostolic-tradition]] [[as:paraphrase]].",
+   "sentence": "Sacraments and shared life formed people before any school, and without one.",
+   "tags": [
+    "alx.force.apostolic-tradition"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "For the part of the community our literate sources reach, the city's practice held contemplation, asceticism, prayer, and teaching for baptism [[alx.gravity.soul-transformation]] [[as:paraphrase]].",
+   "sentence": "For the part of the community our literate sources reach, the city's practice held contemplation, asceticism, prayer, and teaching for baptism.",
+   "tags": [
+    "alx.gravity.soul-transformation"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "That formation was active work, done step by step: catechesis, purification, illumination, knowledge, and wisdom [[alx.gravity.soul-transformation]] [[as:paraphrase]].",
+   "sentence": "That formation was active work, done step by step: catechesis, purification, illumination, knowledge, and wisdom.",
+   "tags": [
+    "alx.gravity.soul-transformation"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We took the soul to be the whole person, alive through the body and not caged in it [[alx.term.psyche]] [[as:paraphrase]].",
+   "sentence": "We took the soul to be the whole person, alive through the body and not caged in it.",
+   "tags": [
+    "alx.term.psyche"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "In the 380s, Timothy, bishop of Alexandria, answered practical questions put to him: [[quote:alx.quote.timothy-ordinary-questions]]",
+   "placed_quote": "alx.quote.timothy-ordinary-questions",
+   "sentence": "In the 380s, Timothy, bishop of Alexandria, answered practical questions put to him: “Question I. A boy of seven, or a man, who is a catechumen may be present at the offering and eat of it in ignorance. What should be done? Answer. Let him be illuminated, that is, baptized, for he is called by God. ... Question VIII. Should a woman who has just given birth keep the Paschal fast? Answer. No. ... Question X. Is a sick man required to keep the Paschal fast? Answer. No. Question XI. A clergyman is called to celebrate a marriage, and he has heard that it is incestuous. Should he comply and perform the offering? Answer. No; he must not share in other men's sins.”",
+   "tags": [
+    "alx.quote.timothy-ordinary-questions"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "alx.limit.f5-women-own-words",
+  "alx.term.psyche",
+  "alx.story.plague-nursing",
+  "alx.quote.timothy-ordinary-questions",
+  "alx.gravity.soul-transformation",
+  "alx.force.apostolic-tradition",
+  "alx.force.knowing-impulse",
+  "alx.limit.faith-alone-later-frame",
+  "alx.term.pneuma-hagion",
+  "alx.quote.athanasius-death-trampled-down",
+  "alx.gravity.martyrdom-contemplative-tension",
+  "alx.gravity.speculative-doctrinal-tension"
+ ],
+ "raw_text": "Our days were shaped by what we had received: the washing that made new, the shared bread, teaching for those coming in, Scripture heard as address, and a shared life [[alx.force.apostolic-tradition]] [[as:paraphrase]]. The bread and cup, the eucharistia, stood at the heart of our worship, open to members whether or not they could read [[alx.force.apostolic-tradition]] [[as:paraphrase]]. Sacraments and shared life formed people before any school, and without one [[alx.force.apostolic-tradition]] [[as:paraphrase]]. For the part of the community our literate sources reach, the city's practice held contemplation, asceticism, prayer, and teaching for baptism [[alx.gravity.soul-transformation]] [[as:paraphrase]]. That formation was active work, done step by step: catechesis, purification, illumination, knowledge, and wisdom [[alx.gravity.soul-transformation]] [[as:paraphrase]]. We took the soul to be the whole person, alive through the body and not caged in it [[alx.term.psyche]] [[as:paraphrase]]. In the 380s, Timothy, bishop of Alexandria, answered practical questions put to him: [[quote:alx.quote.timothy-ordinary-questions]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "alx.quote.timothy-ordinary-questions": [
+    {
+     "detail": "Alexandria",
+     "kind": "name",
+     "snippet": "swer. No; he must not share in other men's sins. Timothy of Alexandria, Canonical Answers, Questions I, VIII, X, XI (npnf214, ) Q",
+     "span": "record alx.quote.timothy-ordinary-questions"
+    },
+    {
+     "detail": "bishop",
+     "kind": "role",
+     "snippet": ". No; he must not be partaker of other men’s sins. Timothy, bishop of Alexandria, answers practical questions on a catechumen",
+     "span": "record alx.quote.timothy-ordinary-questions"
+    }
+   ]
+  },
+  "placed": [
+   "alx.quote.timothy-ordinary-questions"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C12.S1",
+ "text": "Our days were shaped by what we had received: the washing that made new, the shared bread, teaching for those coming in, Scripture heard as address, and a shared life. The bread and cup, the eucharistia, stood at the heart of our worship, open to members whether or not they could read. Sacraments and shared life formed people before any school, and without one. For the part of the community our literate sources reach, the city's practice held contemplation, asceticism, prayer, and teaching for baptism. That formation was active work, done step by step: catechesis, purification, illumination, knowledge, and wisdom. We took the soul to be the whole person, alive through the body and not caged in it. In the 380s, Timothy, bishop of Alexandria, answered practical questions put to him: “Question I. A boy of seven, or a man, who is a catechumen may be present at the offering and eat of it in ignorance. What should be done? Answer. Let him be illuminated, that is, baptized, for he is called by God. ... Question VIII. Should a woman who has just given birth keep the Paschal fast? Answer. No. ... Question X. Is a sick man required to keep the Paschal fast? Answer. No. Question XI. A clergyman is called to celebrate a marriage, and he has heard that it is incestuous. Should he comply and perform the offering? Answer. No; he must not share in other men's sins.”.",
+ "voice_set_aside": false
+}

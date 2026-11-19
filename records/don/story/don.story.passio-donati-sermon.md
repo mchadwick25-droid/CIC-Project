@@ -74,7 +74,7 @@ text: >-
   with a tribune named Marcellinus. The sermon says the bishop Caecilian
   pressed them on. Soldiers seized a basilica. What had been a house of
   prayer became, in the sermon's own bitter phrase, a place of feasting
-  and licence. A boy, a catechumen not yet baptized, lay dying inside it
+  and license. A boy, a catechumen not yet baptized, lay dying inside it
   and begged those around him - help me, a catechumen. Whether he received
   what he asked is not what the sermon lingers over. That he asked it, in
   that place, at that hour, is.

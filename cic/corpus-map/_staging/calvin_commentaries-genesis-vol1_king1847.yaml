@@ -13,6 +13,11 @@ assignments:
       - the-reformed-cities-zurich-and-geneva
     role: tradition
     confidence: assigned
+    locus_ids: [whole-file]
+    language: eng
+    date: {end: 1554, formation_confidence: Widely Accepted, source: 'calvin_commentaries-genesis-vol1_king1847.txt line 990: oN GENESIS', start: 1554}
+    translator: {formation_confidence: Documented, name: Rev. John King, source: 'calvin_commentaries-genesis-vol1_king1847.txt line 291: BY THE REV. JOHN KING, M.A'}
+    edition_date: {formation_confidence: Documented, source: 'calvin_commentaries-genesis-vol1_king1847.txt line 313: M.DCCC.XLVII.', year: 1847}
     note: >
       Calvin's own exegetical voice, trans. Rev. John King (Edinburgh:
       Calvin Translation Society, 1847) - a distinct register from the

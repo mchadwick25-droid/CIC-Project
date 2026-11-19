@@ -1,0 +1,11 @@
+source_file: anna-komnene_alexias-grc_reifferscheid1884.txt
+assignments:
+- row_id: anna-komnene_alexias-grc_reifferscheid1884--anna-komnene-alexias-greek-reifferscheid-1884
+  work: Anna Komnene, Alexias, Greek (Reifferscheid 1884)
+  author: anna-komnene
+  locus: the whole item; the Bogomils and Basil in book XV, chapters 8-10, from about OCR line 25040; add 12 to OCR line numbers
+  atlas_ids:
+  - balkan-bogomil-continuation
+  role: context
+  confidence: provisional
+  note: A Byzantine secular historian's account of Alexios and the Bogomils, written inside this window; she is Orthodox and writes in praise of her father.

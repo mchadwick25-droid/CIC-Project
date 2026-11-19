@@ -1,0 +1,15 @@
+source_file: bonaventure_life-of-saint-francis-legenda-maior_salter1904.txt
+
+assignments:
+  - row_id: bonaventure_life-of-saint-francis-legenda-maior_salter1904--legenda-maior
+    work: "Bonaventure, Legenda maior (The Life of Saint Francis), English (Salter 1904)"
+    author: bonaventure
+    locus: "the Prologue from OCR line 266 to the end of the Miracles, before the translator's note at 9880; add 11 for this file's own line numbers"
+    atlas_ids:
+      - the-franciscan-movement
+    role: tradition
+    confidence: assigned
+    note: >
+      The order's official Life of its founder, written by its Minister General (1260-1263) and made
+      the only approved Life in 1266. Bonaventure's own writing and the order's own account of
+      Francis. Clean English OCR.

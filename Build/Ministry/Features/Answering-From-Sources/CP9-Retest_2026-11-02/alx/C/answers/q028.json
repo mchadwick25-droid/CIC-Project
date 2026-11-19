@@ -1,0 +1,177 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.dw.one-church"
+   ],
+   "sentence": "We kept a real boundary around what we belonged to: one baptism, one bread, the scriptures, and the rule of faith."
+  },
+  {
+   "record_ids": [
+    "alx.dw.one-church"
+   ],
+   "sentence": "The boundary was kept by argument and exclusion from communion, and after Nicaea by harder tools."
+  },
+  {
+   "record_ids": [
+    "alx.quote.clement-schoolmaster"
+   ],
+   "sentence": "Clement wrote in Stromateis I.5: “Perhaps, too, philosophy was given to the Greeks directly and in the first place, until the Lord should call the Greeks. For philosophy was a guardian to bring the Greek mind to Christ, as the law was for the Hebrews. So philosophy was a preparation. It paved the way for the one who is made perfect in Christ.”"
+  },
+  {
+   "record_ids": [
+    "alx.contested.origen-positions"
+   ],
+   "sentence": "Whether Origen held the restoration of all things as settled doctrine is contested, since his texts survive through Rufinus and Jerome."
+  },
+  {
+   "record_ids": [
+    "alx.limit.faith-alone-later-frame"
+   ],
+   "sentence": "Our teachers spoke of both faith and works, and said we must love God and our neighbour and do the Father's will."
+  },
+  {
+   "record_ids": [
+    "alx.term.autexousia"
+   ],
+   "sentence": "The soul has a real power to turn toward God or away, and God does not compel it."
+  },
+  {
+   "record_ids": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "For our own who fell under persecution, the tradition that won here brought the repentant back in, even at the deathbed."
+  }
+ ],
+ "citations": [
+  "alx.contested.origen-positions",
+  "alx.dw.church-failure",
+  "alx.dw.one-church",
+  "alx.limit.faith-alone-later-frame",
+  "alx.quote.clement-schoolmaster",
+  "alx.term.autexousia"
+ ],
+ "group": "A",
+ "id": "q028",
+ "net_sentences": [
+  {
+   "draft": "We kept a real boundary around what we belonged to: one baptism, one bread, the scriptures, and the rule of faith [[alx.dw.one-church]] [[as:paraphrase]].",
+   "sentence": "We kept a real boundary around what we belonged to: one baptism, one bread, the scriptures, and the rule of faith.",
+   "tags": [
+    "alx.dw.one-church"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The boundary was kept by argument and exclusion from communion, and after Nicaea by harder tools [[alx.dw.one-church]] [[as:paraphrase]].",
+   "ratio": 0.88,
+   "sentence": "The boundary was kept by argument and exclusion from communion, and after Nicaea by harder tools.",
+   "tags": [
+    "alx.dw.one-church"
+   ],
+   "verdict": "ok",
+   "why": "grounded 88% in own tagged records"
+  },
+  {
+   "draft": "Clement wrote in Stromateis I.5: [[quote:alx.quote.clement-schoolmaster]]",
+   "placed_quote": "alx.quote.clement-schoolmaster",
+   "sentence": "Clement wrote in Stromateis I.5: “Perhaps, too, philosophy was given to the Greeks directly and in the first place, until the Lord should call the Greeks. For philosophy was a guardian to bring the Greek mind to Christ, as the law was for the Hebrews. So philosophy was a preparation. It paved the way for the one who is made perfect in Christ.”",
+   "tags": [
+    "alx.quote.clement-schoolmaster"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "Whether Origen held the restoration of all things as settled doctrine is contested, since his texts survive through Rufinus and Jerome [[alx.contested.origen-positions]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Whether Origen held the restoration of all things as settled doctrine is contested, since his texts survive through Rufinus and Jerome.",
+   "tags": [
+    "alx.contested.origen-positions"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Our teachers spoke of both faith and works, and said we must love God and our neighbour and do the Father's will [[alx.limit.faith-alone-later-frame]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Our teachers spoke of both faith and works, and said we must love God and our neighbour and do the Father's will.",
+   "tags": [
+    "alx.limit.faith-alone-later-frame"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The soul has a real power to turn toward God or away, and God does not compel it [[alx.term.autexousia]] [[as:paraphrase]].",
+   "sentence": "The soul has a real power to turn toward God or away, and God does not compel it.",
+   "tags": [
+    "alx.term.autexousia"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "For our own who fell under persecution, the tradition that won here brought the repentant back in, even at the deathbed [[alx.dw.church-failure]] [[as:paraphrase]].",
+   "sentence": "For our own who fell under persecution, the tradition that won here brought the repentant back in, even at the deathbed.",
+   "tags": [
+    "alx.dw.church-failure"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "alx.dw.church-failure",
+  "alx.dw.doubt",
+  "alx.term.autexousia",
+  "alx.term.episkopos",
+  "alx.quote.clement-schoolmaster",
+  "alx.gravity.learning-community-tension",
+  "alx.contested.origen-positions",
+  "alx.limit.faith-alone-later-frame",
+  "alx.term.mysterion",
+  "alx.quote.athanasius-death-trampled-down",
+  "alx.gravity.learning-formation",
+  "alx.gravity.martyrdom-contemplative-tension",
+  "alx.gravity.speculative-doctrinal-tension"
+ ],
+ "raw_text": "We kept a real boundary around what we belonged to: one baptism, one bread, the scriptures, and the rule of faith [[alx.dw.one-church]] [[as:paraphrase]]. The boundary was kept by argument and exclusion from communion, and after Nicaea by harder tools [[alx.dw.one-church]] [[as:paraphrase]]. Clement wrote in Stromateis I.5: [[quote:alx.quote.clement-schoolmaster]] [[as:paraphrase]]. Whether Origen held the restoration of all things as settled doctrine is contested, since his texts survive through Rufinus and Jerome [[alx.contested.origen-positions]] [[as:paraphrase]]. Our teachers spoke of both faith and works, and said we must love God and our neighbour and do the Father's will [[alx.limit.faith-alone-later-frame]] [[as:paraphrase]]. The soul has a real power to turn toward God or away, and God does not compel it [[alx.term.autexousia]] [[as:paraphrase]]. For our own who fell under persecution, the tradition that won here brought the repentant back in, even at the deathbed [[alx.dw.church-failure]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "alx.quote.clement-schoolmaster": [
+    {
+     "detail": "Stromateis",
+     "kind": "name",
+     "snippet": "ing the way for him who is perfected in Christ. Clement, in Stromateis I.5, suggests philosophy was given to the Greeks as a schoo",
+     "span": "record alx.quote.clement-schoolmaster"
+    },
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "the teacher whose books survive, though almost nothing of his life does c. 150 (tr",
+     "span": "record alx.figure.clement"
+    }
+   ]
+  },
+  "placed": [
+   "alx.quote.clement-schoolmaster"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C11.S5",
+ "text": "We kept a real boundary around what we belonged to: one baptism, one bread, the scriptures, and the rule of faith. The boundary was kept by argument and exclusion from communion, and after Nicaea by harder tools. Clement wrote in Stromateis I.5: “Perhaps, too, philosophy was given to the Greeks directly and in the first place, until the Lord should call the Greeks. For philosophy was a guardian to bring the Greek mind to Christ, as the law was for the Hebrews. So philosophy was a preparation. It paved the way for the one who is made perfect in Christ.”. Whether Origen held the restoration of all things as settled doctrine is contested, since his texts survive through Rufinus and Jerome. Our teachers spoke of both faith and works, and said we must love God and our neighbour and do the Father's will. The soul has a real power to turn toward God or away, and God does not compel it. For our own who fell under persecution, the tradition that won here brought the repentant back in, even at the deathbed.",
+ "voice_set_aside": false
+}

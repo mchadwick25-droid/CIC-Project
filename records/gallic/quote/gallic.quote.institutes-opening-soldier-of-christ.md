@@ -17,8 +17,7 @@ confidence:
     idiom as the frame for everything that follows about dress and discipline.
 sources:
 - source_id: gallic.source.cassian-institutes
-  locus: "Institutes I.1 (npnf211 div iv.iii.i.i, file lines 16571-16573): the second sentence of
-    Book I, chapter 1, right after its own preface, on the monk as a soldier of Christ"
+  locus: "Institutes I.1 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 16571-16573; div iv.iii.i.i): the second sentence of Book I, chapter 1, right after its own preface, on the monk as a soldier of Christ"
   license: public-domain
 retrieval:
   tier: 2

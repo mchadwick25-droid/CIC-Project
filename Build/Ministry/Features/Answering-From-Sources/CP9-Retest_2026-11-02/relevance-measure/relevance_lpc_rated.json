@@ -1,0 +1,392 @@
+[
+ {
+  "id": "q001-p1",
+  "relevant": "no",
+  "note": "Psalm exposition on suffering witnesses; no transmission path"
+ },
+ {
+  "id": "q001-p2",
+  "relevant": "no",
+  "note": "Donatist baptism debate"
+ },
+ {
+  "id": "q001-p3",
+  "relevant": "no",
+  "note": "baptism and righteousness, not sources about Jesus"
+ },
+ {
+  "id": "q002-p1",
+  "relevant": "no",
+  "note": "anti-Pelagian argument on flesh and spirit"
+ },
+ {
+  "id": "q002-p2",
+  "relevant": "partly",
+  "note": "exposition of Jesus's teaching on giving and lending"
+ },
+ {
+  "id": "q002-p3",
+  "relevant": "no",
+  "note": "prayer in his name; not who Jesus was"
+ },
+ {
+  "id": "q003-p1",
+  "relevant": "no",
+  "note": "motives for crime"
+ },
+ {
+  "id": "q003-p2",
+  "relevant": "no",
+  "note": "infant illumination and baptism"
+ },
+ {
+  "id": "q003-p3",
+  "relevant": "no",
+  "note": "classes of liars"
+ },
+ {
+  "id": "q004-p1",
+  "relevant": "no",
+  "note": "concupiscence and marriage"
+ },
+ {
+  "id": "q004-p2",
+  "relevant": "partly",
+  "note": "Son of the Father only, not of the Spirit; Trinity speaking"
+ },
+ {
+  "id": "q004-p3",
+  "relevant": "yes",
+  "note": "inseparable works of the Trinity in the incarnation; Son not son of the Spirit"
+ },
+ {
+  "id": "q005-p1",
+  "relevant": "partly",
+  "note": "scripture canon above bishops' letters and councils"
+ },
+ {
+  "id": "q005-p2",
+  "relevant": "partly",
+  "note": "council versus custom of the Church"
+ },
+ {
+  "id": "q005-p3",
+  "relevant": "no",
+  "note": "canon on clergy discipline appeals, not doctrine"
+ },
+ {
+  "id": "q006-p1",
+  "relevant": "partly",
+  "note": "simplicity of God's nature in Trinity"
+ },
+ {
+  "id": "q006-p2",
+  "relevant": "no",
+  "note": "Habakkuk prophecy read of Christ"
+ },
+ {
+  "id": "q006-p3",
+  "relevant": "no",
+  "note": "Cain typology against the Jews"
+ },
+ {
+  "id": "q007-p1",
+  "relevant": "no",
+  "note": "motives for crime"
+ },
+ {
+  "id": "q007-p2",
+  "relevant": "no",
+  "note": "infant illumination"
+ },
+ {
+  "id": "q007-p3",
+  "relevant": "no",
+  "note": "classes of liars"
+ },
+ {
+  "id": "q008-p1",
+  "relevant": "yes",
+  "note": "unbaptized infant punished for sin it never did"
+ },
+ {
+  "id": "q008-p2",
+  "relevant": "yes",
+  "note": "infants guilty from the beginning and need a Saviour"
+ },
+ {
+  "id": "q008-p3",
+  "relevant": "no",
+  "note": "editor's summary of a sinlessness treatise"
+ },
+ {
+  "id": "q009-p1",
+  "relevant": "no",
+  "note": "editor's summary of a treatise"
+ },
+ {
+  "id": "q009-p2",
+  "relevant": "no",
+  "note": "sermon on forgiveness"
+ },
+ {
+  "id": "q009-p3",
+  "relevant": "no",
+  "note": "Donatist council argument"
+ },
+ {
+  "id": "q010-p1",
+  "relevant": "partly",
+  "note": "miracles read for their figurative meaning"
+ },
+ {
+  "id": "q010-p2",
+  "relevant": "partly",
+  "note": "scripture records few examples for the reader's instruction"
+ },
+ {
+  "id": "q010-p3",
+  "relevant": "partly",
+  "note": "psalm read as prophecy fulfilled in Christ"
+ },
+ {
+  "id": "q011-p1",
+  "relevant": "no",
+  "note": "editors' notice"
+ },
+ {
+  "id": "q011-p2",
+  "relevant": "no",
+  "note": "editor's introduction to City of God"
+ },
+ {
+  "id": "q011-p3",
+  "relevant": "no",
+  "note": "modern editor on Augustine's exegesis"
+ },
+ {
+  "id": "q012-p1",
+  "relevant": "partly",
+  "note": "custom, apostolic authority and plenary council beside scripture"
+ },
+ {
+  "id": "q012-p2",
+  "relevant": "yes",
+  "note": "canonical scripture holds paramount authority"
+ },
+ {
+  "id": "q012-p3",
+  "relevant": "partly",
+  "note": "authority of scripture alongside reason"
+ },
+ {
+  "id": "q013-p1",
+  "relevant": "no",
+  "note": "editor's summary"
+ },
+ {
+  "id": "q013-p2",
+  "relevant": "no",
+  "note": "Origen on daily sacrifices"
+ },
+ {
+  "id": "q013-p3",
+  "relevant": "no",
+  "note": "sermon on forgiveness"
+ },
+ {
+  "id": "q014-p1",
+  "relevant": "no",
+  "note": "editor's summary"
+ },
+ {
+  "id": "q014-p2",
+  "relevant": "partly",
+  "note": "canon on bishop's authority over clergy and appeal"
+ },
+ {
+  "id": "q014-p3",
+  "relevant": "partly",
+  "note": "canon on appeal against a bishop's sentence"
+ },
+ {
+  "id": "q015-p1",
+  "relevant": "no",
+  "note": "personal forgiveness, not community failure"
+ },
+ {
+  "id": "q015-p2",
+  "relevant": "no",
+  "note": "forgiving those who repent"
+ },
+ {
+  "id": "q015-p3",
+  "relevant": "no",
+  "note": "Cain typology"
+ },
+ {
+  "id": "q016-p1",
+  "relevant": "no",
+  "note": "teaching on giving"
+ },
+ {
+  "id": "q016-p2",
+  "relevant": "no",
+  "note": "Cyprian and plenary council"
+ },
+ {
+  "id": "q016-p3",
+  "relevant": "no",
+  "note": "editor's summary"
+ },
+ {
+  "id": "q017-p1",
+  "relevant": "partly",
+  "note": "appeal to apostolic tradition as the fountain"
+ },
+ {
+  "id": "q017-p2",
+  "relevant": "partly",
+  "note": "church custom confirmed by plenary council"
+ },
+ {
+  "id": "q017-p3",
+  "relevant": "partly",
+  "note": "custom traced to apostles' authority"
+ },
+ {
+  "id": "q018-p1",
+  "relevant": "no",
+  "note": "editor's summary"
+ },
+ {
+  "id": "q018-p2",
+  "relevant": "partly",
+  "note": "catechumens and receiving baptism"
+ },
+ {
+  "id": "q018-p3",
+  "relevant": "no",
+  "note": "infant twins argument about grace"
+ },
+ {
+  "id": "q019-p1",
+  "relevant": "no",
+  "note": "forgiveness and pardon"
+ },
+ {
+  "id": "q019-p2",
+  "relevant": "partly",
+  "note": "do not despair; the Father gives good things to those who ask"
+ },
+ {
+  "id": "q019-p3",
+  "relevant": "no",
+  "note": "summary of a book on blessedness"
+ },
+ {
+  "id": "q020-p1",
+  "relevant": "partly",
+  "note": "baptized person spiritually reformed into a new man"
+ },
+ {
+  "id": "q020-p2",
+  "relevant": "yes",
+  "note": "birth of Christians is in baptism"
+ },
+ {
+  "id": "q020-p3",
+  "relevant": "yes",
+  "note": "regeneration of the second birth in baptism"
+ },
+ {
+  "id": "q021-p1",
+  "relevant": "no",
+  "note": "psalm on false witness"
+ },
+ {
+  "id": "q021-p2",
+  "relevant": "no",
+  "note": "psalm read of Christ"
+ },
+ {
+  "id": "q021-p3",
+  "relevant": "no",
+  "note": "Romans 7 quotation"
+ },
+ {
+  "id": "q022-p1",
+  "relevant": "partly",
+  "note": "daily bread, food and covering, contentment"
+ },
+ {
+  "id": "q022-p2",
+  "relevant": "no",
+  "note": "Exodus typology"
+ },
+ {
+  "id": "q022-p3",
+  "relevant": "partly",
+  "note": "ordinary food sanctified by prayer; catechumens' sacrament"
+ },
+ {
+  "id": "q023-p1",
+  "relevant": "partly",
+  "note": "choosing God over worldly portions"
+ },
+ {
+  "id": "q023-p2",
+  "relevant": "no",
+  "note": "psalm on the Bride's inward beauty"
+ },
+ {
+  "id": "q023-p3",
+  "relevant": "partly",
+  "note": "Augustine's struggle before conversion"
+ },
+ {
+  "id": "q024-p1",
+  "relevant": "yes",
+  "note": "goods of marriage: offspring, fidelity, sacramental bond"
+ },
+ {
+  "id": "q024-p2",
+  "relevant": "no",
+  "note": "index entries"
+ },
+ {
+  "id": "q024-p3",
+  "relevant": "partly",
+  "note": "defence of married chastity"
+ },
+ {
+  "id": "q025-p1",
+  "relevant": "no",
+  "note": "measuring time"
+ },
+ {
+  "id": "q025-p2",
+  "relevant": "no",
+  "note": "the Word as beginning"
+ },
+ {
+  "id": "q025-p3",
+  "relevant": "no",
+  "note": "definition of the true"
+ },
+ {
+  "id": "q028-p1",
+  "relevant": "no",
+  "note": "Cain typology, not eternal fate"
+ },
+ {
+  "id": "q028-p2",
+  "relevant": "no",
+  "note": "arguing with a pagan inquirer"
+ },
+ {
+  "id": "q028-p3",
+  "relevant": "no",
+  "note": "forgiveness"
+ }
+]

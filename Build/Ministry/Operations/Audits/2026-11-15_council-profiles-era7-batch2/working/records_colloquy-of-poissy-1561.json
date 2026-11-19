@@ -1,0 +1,776 @@
+{
+ "claims": [
+  {
+   "claim": "The 1580 title page of the Ecclesiastical History names no author",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.110-130",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "The History was long credited to Beza; Reuss asks whether he wrote it and finds the tradition's foundations anything but solid",
+   "witness": "beza_histoire-ecclesiastique-t3-fra_baum-cunitz-reuss1889.txt l.785-800",
+   "witness_kind": "modern reconstruction",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Reuss thought Beza did not compile the History himself but directed it closely and contributed his memories of the Colloquy of Poissy",
+   "witness": "beza_histoire-ecclesiastique-t3-fra_baum-cunitz-reuss1889.txt l.2002-2010",
+   "witness_kind": "modern reconstruction",
+   "formation_confidence": "Dominant Modern Reconstruction"
+  },
+  {
+   "claim": "Baum and Cunitz show the History's Poissy chapter copying La Place's Commentaires word for word in places",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27739-27740",
+   "witness_kind": "modern reconstruction",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "The History is a Reformed narrative, polemical in places, e.g. calling most prelates incapable of treating religion",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.26874-26875",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Baum and Cunitz say Beza's speech of 9 September was probably first printed under his own care a few days after the colloquy",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27881-27882",
+   "witness_kind": "modern reconstruction",
+   "formation_confidence": "Dominant Modern Reconstruction"
+  },
+  {
+   "claim": "On 9 September, about noon, the court gathered in the great refectory of the nuns at Poissy",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27647-27648",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "The king sat with Orleans and Navarre on his right, and the queen mother and the Queen of Navarre on his left",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27647-27652",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "Three cardinals sat on each side of the hall, and below them thirty-six bishops and archbishops, with clergy and doctors behind",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27652-27680",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Sarpi gives six cardinals on 9 September. The OCR reads 'second of September'; the passage describes the session of 9 September",
+   "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.42787-42788",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Pallavicino gives five cardinals besides the legate and forty bishops who had come for the Estates",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.42003-42007",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "The History says twelve ministers came with 22 deputies of the provincial churches, brought in by the Duke of Guise",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27840-27843",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Sarpi says the Protestant ministers were fourteen",
+   "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.42731-42733",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "The ministers stood bare-headed at the barrier, and Beza, chosen by the others, spoke",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27863-27864",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "Beza wished that all might with one voice sing a hymn to the Lord and hold out hands to one another",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28097-28100",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Beza's printed speech: Christ's body is as far from the bread and wine as the highest heaven from the earth",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28509-28517",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "The History's narrative: Christ's body, though truly offered and given in the Supper, was as far from the bread as heaven from earth",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28709-28713",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "The prelates began to murmur; some said 'Blasphemavit', others rose to leave",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28713-28718",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "Tournon asked the king and queen that Beza be silenced or allowed to withdraw",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28719-28722",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "The History: the king did not stir, and Beza finished his speech",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28722-28727",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Sarpi: Beza spoke with such heat that he was commanded to conclude",
+   "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.42836-42838",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Languet, in a note by Baum and Cunitz, says they let Beza finish",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28771-28773",
+   "witness_kind": "modern reconstruction",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Catherine, on 14 September, says she nearly silenced Beza but held back; known through a note by Baum and Cunitz from Le Laboureur",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28780-28812",
+   "witness_kind": "modern reconstruction",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Beza gave the confession of the Reformed churches to the king",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28726-28744",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "Sarpi says Beza spoke after praying on his knee",
+   "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.42820-42822",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Inferential-Thin"
+  },
+  {
+   "claim": "After the first session the prelates resolved that Lorraine, helped by Despence, would answer on the Church and the Supper only. A counter-confession would follow, with condemnation for refusal. The History gives no date; dated 10 September by Baum and Cunitz from Vermigli's letter (HE1 l.29024-29027)",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28999-29013",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "The second session was on 16 September in the same hall",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.29165-29167",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "Lorraine told the king he was the Church's son, not its lord; a member, not its head",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.29239-29242",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "The prelates' assembly received the Society of Jesus on Monday 15 September as a college, not a new order, on condition it take another title",
+   "witness": "lainez_epistolae-et-acta-v8-lat_1917.txt l.39599-39605",
+   "witness_kind": "acts",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "The royal letters of 1562 call the Poissy meeting the 'assemblée du clergé et concile national'",
+   "witness": "lainez_epistolae-et-acta-v8-lat_1917.txt l.39599-39601",
+   "witness_kind": "acts",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "The legate, Cardinal of Ferrara, came to court on 19 September, by Vermigli's Relatio in a note by Baum and Cunitz",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.30472-30475",
+   "witness_kind": "modern reconstruction",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "The History says Lainez (called 'Lieva') was in the legate's train; the editors correct the name",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.30495-30503",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "Lainez's editors date his arrival at Paris on 17 September and at Saint-Germain on 19 September",
+   "witness": "lainez_epistolae-et-acta-v6-lat_1915.txt l.184-187",
+   "witness_kind": "modern reconstruction",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "On 24 September the History gives five cardinals, fifteen or sixteen doctors, some bishops, and twelve ministers only",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.30593-30630",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Polanco dates the third meeting to Wednesday 24 September; his editors' note reads 24 September 1561",
+   "witness": "lainez_epistolae-et-acta-v6-lat_1915.txt l.3607-3632",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Polanco says on Friday 26 September the same five cardinals came, with 25 bishops, and the queen mother despite the rain",
+   "witness": "lainez_epistolae-et-acta-v6-lat_1915.txt l.3653-3662",
+   "witness_kind": "participant",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Polanco says Ferrara and Tournon would not attend these disputations",
+   "witness": "lainez_epistolae-et-acta-v6-lat_1915.txt l.3700-3702",
+   "witness_kind": "participant",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Martyr spoke in Italian on 26 September, at the queen's wish, Polanco says",
+   "witness": "lainez_epistolae-et-acta-v6-lat_1915.txt l.3730-3733",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Lainez spoke in Italian, always turning his speech to the queen, for about three quarters of an hour, Polanco says",
+   "witness": "lainez_epistolae-et-acta-v6-lat_1915.txt l.3745-3749",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Lainez: it is not for the queen, nor for temporal princes, to handle matters of faith; they belong to the pope and the general council",
+   "witness": "lainez_epistolae-et-acta-v8-lat_1917.txt l.37500-37508",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Lainez: with the general council open, such meetings were neither fitting nor lawful",
+   "witness": "lainez_epistolae-et-acta-v8-lat_1917.txt l.37506-37508",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Lainez's copy was begun by Codreto and finished by Polanco, with Lainez's own corrections, the editors say",
+   "witness": "lainez_epistolae-et-acta-v8-lat_1917.txt l.37450-37453",
+   "witness_kind": "modern reconstruction",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Coudret says Polanco was present",
+   "witness": "lainez_epistolae-et-acta-v6-lat_1915.txt l.3965",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Polanco's letter is printed from his own drafts, the editors say",
+   "witness": "lainez_epistolae-et-acta-v6-lat_1915.txt l.3619",
+   "witness_kind": "modern reconstruction",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "The ministers' declaration of 26 September says they speak for a million people in France, Switzerland, Poland, Germany, England and Scotland",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.32498-32501",
+   "witness_kind": "acts",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Lorraine produced a paper that proved a copy of a Württemberg preachers' confession of 1559",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.32150-32156",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "The History says Lorraine sent for Augsburg-confession ministers 'afin de les divifer'",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.29115-29118",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Inferential-Thin"
+  },
+  {
+   "claim": "The History says the third conference, the last, went without order or secretaries",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33009-33013",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "At Catherine's order two bishops (Montluc, Du Val) and three doctors (Despence, Salignac, Boutelier) conferred with five ministers (Martyr, Beza, Des Gallars, Marlorat, L'Espine)",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33193-33203",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "The conference met on 29 September; Baum and Cunitz correct the text's date",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33187-33205",
+   "witness_kind": "modern reconstruction",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "On 1 October the statement was recast at Despence's urging",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33351-33356",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "The statement says Christ in the Supper truly gives the substance of his body and blood",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33383-33395",
+   "witness_kind": "acts",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "The History says Lorraine said he had never believed otherwise; Des Gallars agrees, Beza's letter of 4 October is silent",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33400-33449",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "The formula went to Poissy on 4 October and was rejected as captious on 9 October",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33432-33440",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "The prelates' conclusion found the statement not only insufficient but captious, with errors",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33690-33694",
+   "witness_kind": "acts",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Unless Beza and his company at once confessed and signed the Catholic confession, they would not be heard again",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33703-33711",
+   "witness_kind": "acts",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "The conclusion asks that they be barred from the realm under the king's penalty. There had been but one God, one king, one faith and one law",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33711-33720",
+   "witness_kind": "acts",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "The Catholic confession says Christ's body and blood are present really and transubstantially under the species of bread and wine",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33722-33729",
+   "witness_kind": "acts",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "The canons' preamble: the king summoned the prelates of the Gallican Church to Poissy, pending the general council",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33925-33930",
+   "witness_kind": "acts",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "The canons submit all decrees to the pope",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33939-33960",
+   "witness_kind": "acts",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "The first canon treats the naming and examination of bishops",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33965-34000",
+   "witness_kind": "acts",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "The last canon tells the faithful to abhor Luther, Zwingli and Calvin as heresiarchs",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.35106-35110",
+   "witness_kind": "acts",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "The canons close 'Acta Poissiaci ... 1561. Pridie Idus Oct.', in Languet's Latin given by Baum and Cunitz",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.35136-35140",
+   "witness_kind": "acts",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "After 9 October the ministers could never obtain a debate on their confession, the History says",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33740-33743",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "The prelates dismissed their doctors on 13 October and went home",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33868-33872",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "The German theologians reached Paris on 19 October, Baum and Cunitz say",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33797-33799",
+   "witness_kind": "modern reconstruction",
+   "formation_confidence": "Dominant Modern Reconstruction"
+  },
+  {
+   "claim": "Catherine: the two meetings brought only confusion of disputes upon disputes, more discord than union",
+   "witness": "french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710.txt l.25542-25548",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "After Lorraine's reply, Catherine thought it good that the prelates enter a gracious colloquy with the ministers on their confession (the two meetings fit the sessions of 24 and 26 September, which Polanco dates)",
+   "witness": "french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710.txt l.25539-25548",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Catherine's smaller conference of five or six did not please the other prelates",
+   "witness": "french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710.txt l.25550-25557",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Catherine: nothing in the canons can remedy the troubles",
+   "witness": "french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710.txt l.25572-25574",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Catherine will await the next general council, not knowing what to expect of it",
+   "witness": "french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710.txt l.25598-25602",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Catherine's letter is dated at Saint-Germain, October 1561, signed CATERINE; the OCR of the day reads 'iS.'",
+   "witness": "french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710.txt l.25619-25621",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "The heading above Catherine's letter is Aymon's",
+   "witness": "french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710.txt l.25497-25511",
+   "witness_kind": "modern reconstruction",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Sarpi: the Pope was very glad the colloquy was dissolved without doing anything",
+   "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.42969-42971",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "Pallavicino: neither side surrendered, and each claimed a kind of victory",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.42041-42043",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "Pallavicino: French Catholics blamed the colloquy for the Huguenots' freedom to profess their faith openly",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.42066-42070",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "Pallavicino: no national council was agreed. Catholics thought it an insult to the general council; the Reformed knew French prelates would not grant them equal judging power",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.41991-41999",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "Bonnet: the colloquy everywhere increased the audacity of the Reformed",
+   "witness": "calvin_letters-vol4_bonnet1858.txt l.11032-11033",
+   "witness_kind": "modern reconstruction",
+   "formation_confidence": "Dominant Modern Reconstruction"
+  },
+  {
+   "claim": "The Edict of January suspended penalties for Reformed meetings by day outside the towns. It did so until the general council decided or the king ordered otherwise",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.37078-37084",
+   "witness_kind": "acts",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "The Edict's reason: awaiting God's grace to reunite the subjects in one fold",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.37069-37073",
+   "witness_kind": "acts",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "The Edict also forbids preaching inside the towns, by day or night",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.37065-37067",
+   "witness_kind": "acts",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Waterworth: the articles proposed at Poissy were secretly submitted to canonists at Trent in 1562, to be examined",
+   "witness": "council-of-trent_canons-and-decrees_waterworth1848.txt l.9099-9102; for \"canonists\", l.7353-7358, 9761-9762, 10501-10502",
+   "witness_kind": "modern reconstruction",
+   "formation_confidence": "Dominant Modern Reconstruction"
+  },
+  {
+   "claim": "Pallavicino reports Lorraine at Trent, 1563: the clergy and Estates gathered at Poissy were held back with great difficulty",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-tomo3-libri17-24-ita_classici-sacri1846.txt l.53712-53715",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "A 1607 letter the diary's editor gives to James Melvill (the attribution in square brackets) cites the Colloquy of Poissy as a warning against colloquies",
+   "witness": "melville-james_autobiography-and-diary_pitcairn1842.txt l.33940, 33951, 33964-33969",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Melville's letter is in the 1607 continuation of his diary",
+   "witness": "melville-james_autobiography-and-diary_pitcairn1842.txt l.33905",
+   "witness_kind": "modern reconstruction",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Bersier: in 1872 the synod president opened a session with Beza's confession of sins first read at Poissy",
+   "witness": "bersier_histoire-du-synode-general-de-l-eglise-reformee-t1-fra_1872.txt l.3640-3643",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "The July assembly resolved again to call the prelates to Poissy. The ministers would have safe-conduct to be heard, to see whether they could be reunited to the Roman Church",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.25995-26000",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "Baum and Cunitz say that assembly's deliberations ran from 23 June to 11 July",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.25796-25801",
+   "witness_kind": "modern reconstruction",
+   "formation_confidence": "Dominant Modern Reconstruction"
+  },
+  {
+   "claim": "The History says the assembly made the Edict of July",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.25830-25834",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "Bretagne, speaking for the Third Estate, asked the king to call a free and lawful national council and preside over it",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.26214-26528",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "A further list of requests at the Estates asks for a free and lawful national council, as already promised",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.26768-26792",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "L'Hospital, in the History's summary: the king granted a safe-conduct hoping a friendly conference would profit, so no one could say they were condemned unheard",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27790-27801",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "The ministers asked that bishops not be their judges, being the other party, and that all be decided by the word of God alone",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27114-27124",
+   "witness_kind": "acts",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "The king: 'je vous ay fait affembler'",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27684-27686",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "Martyr and Beza were sent for by letters of the King of Navarre; Martyr from Zurich, Beza from Geneva",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.25999-26004",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "Des Gallars had been pastor of the London church for two years, the editors say",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.26972-26973",
+   "witness_kind": "modern reconstruction",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "The History names fourteen ministers in all",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.26918-27006",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "Baum and Cunitz count La Tour as the twelfth minister and the lay deputies as 22",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27017-27018",
+   "witness_kind": "modern reconstruction",
+   "formation_confidence": "Dominant Modern Reconstruction"
+  },
+  {
+   "claim": "Polanco names the five cardinals of 24 September as Lorraine, Armagnac, Bourbon, Chatillon and Guise",
+   "witness": "lainez_epistolae-et-acta-v8-lat_1917.txt l.37199-37203",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "The queen gave the ministers her word that the clergy would not be their judges, with the Admiral present",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27620-27634",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Widely Accepted"
+  },
+  {
+   "claim": "The title of one early edition of Beza's speech, listed by Baum and Cunitz, calls 9 September a Tuesday",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27894-27899",
+   "witness_kind": "modern reconstruction",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "The ministers' first petition is dated 17 August in the History",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27011",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Languet wrote on 1 August that the bishops' assembly had begun three days before. Brulart gives 1 August; De Thou 10 August, which the editors reject",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.26025-26037",
+   "witness_kind": "modern reconstruction",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Polanco's 26 September formula reads 'substantialiter'; the History prints a French statement without it",
+   "witness": "lainez_epistolae-et-acta-v8-lat_1917.txt l.37338-37344",
+   "witness_kind": "participant",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Pallavicino is of the Society of Jesus (title)",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.1",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Lainez is called general of the Society of Jesus by Pallavicino",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.42056-42057",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Calvin advised Beza by letter, 10 and 24 September 1561",
+   "witness": "calvin_letters-vol4_bonnet1858.txt l.10166-10250",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Crespin's notice nearly reproduces La Place's narrative, Benoît says",
+   "witness": "crespin_histoire-des-martyrs-t3-fra_benoit-lelievre1889.txt l.27503-27510",
+   "witness_kind": "modern reconstruction",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Beza was minister at Geneva then",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.26003-26004",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Beza's printed speech: believers are made partakers of Christ's body and blood in a spiritual way and through faith, as truly as they see the sacraments",
+   "witness": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28523-28529",
+   "witness_kind": "participant",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Sarpi was a Venetian friar of the Servite order",
+   "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.675-678",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Pallavicino's history sets out to refute a false history published under the name Pietro Soave Polano (Sarpi) (title)",
+   "witness": "pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.1",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  },
+  {
+   "claim": "Sarpi writes against the papal power: the council confirmed the 'exorbitant power' of the See of Rome",
+   "witness": "sarpi_history-of-the-council-of-trent_brent1676.txt l.8820-8836",
+   "witness_kind": "later narrative",
+   "formation_confidence": "Documented"
+  }
+ ],
+ "contested_claims": [
+  {
+   "claim": "Who wrote the Ecclesiastical History",
+   "sides": "Credited to Beza by long tradition and by the Library catalogue (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.2); the 1580 title page names no author (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.110-130) | Reuss: Beza directed it and gave his Poissy memories but did not compile it (beza_histoire-ecclesiastique-t3-fra_baum-cunitz-reuss1889.txt l.2002-2010) | Soldan and Heppe, cited by Reuss, deny Beza wrote it (beza_histoire-ecclesiastique-t3-fra_baum-cunitz-reuss1889.txt l.1629-1648)",
+   "formation_confidence": "Contested",
+   "note": "The entry never calls the History Beza's; it prints his speech as participant words."
+  },
+  {
+   "claim": "How many bishops came",
+   "sides": "36 bishops and archbishops on 9 September: the History (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27678-27679) | 40 bishops: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.42006) | 25 bishops on 26 September: Polanco (lainez_epistolae-et-acta-v6-lat_1915.txt l.3662)",
+   "formation_confidence": "Contested",
+   "note": "No signed list is held; the counts are for different days."
+  },
+  {
+   "claim": "How many cardinals came",
+   "sides": "Six on 9 September: the History (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27652-27678) and Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.42788) | Five besides the legate: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.42004-42005) | Five on 24 and 26 September: the History (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.30595) and Polanco (lainez_epistolae-et-acta-v6-lat_1915.txt l.3659-3661)",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "How many ministers came",
+   "sides": "Twelve with 22 deputies: the History (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27840-27841) | Fourteen: Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.42733); the History names fourteen (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.26918-27006) | Baum and Cunitz count Martyr and Beza on top of twelve (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27017-27018)",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Whether Beza was stopped on 9 September",
+   "sides": "He was told to conclude: Sarpi (sarpi_history-of-the-council-of-trent_brent1676.txt l.42836-42838) | The king did not stir and Beza finished: the History (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28722-28727); Languet, in a note (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28771-28773); Catherine of 14 September says she nearly silenced him but held back (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28785-28812) | Brulart, in a note, says he was interrupted and lost his thread (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28736-28741)",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Beza's words on the bread",
+   "sides": "'du pain & du vin ... le plus haut ciel': the printed speech (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28515-28517) | 'du pain ... le haut des cieux', with the concessive 'combien qu'il nous fust véritablement offert & communiqué': the History's narrative (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.28709-28713)",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Whether the ministers came in at the start of 9 September",
+   "sides": "After Tournon spoke: the History (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27838-27842) | From the beginning: La Place and De Serres, as Baum and Cunitz cite them (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27845-27850)",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "What Beza gave in writing on 26 September",
+   "sides": "A Latin formula with 'substantialiter': Polanco (lainez_epistolae-et-acta-v8-lat_1917.txt l.37338-37344) | A French statement without it; the Latin from a private meeting the ministers would not rely on: the History (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.32566-32572; beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33132-33155)",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Whether Lorraine approved the formula of 1 October",
+   "sides": "He said he had never believed otherwise: the History (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33400-33405); Des Gallars, in a note (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33445-33449) | Beza's letter of 4 October says nothing of it, Baum and Cunitz note (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33444)",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "When the prelates' assembly opened",
+   "sides": "Languet, 1 August: begun three days before, called for 20 July | Brulart: 1 August | De Thou: 10 August, rejected by the editors (all in Baum and Cunitz, beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.26025-26037; beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.26890-26897) | Sarpi: 'In August' (sarpi_history-of-the-council-of-trent_brent1676.txt l.42729)",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "The date of the ministers' first petition",
+   "sides": "17 August: the History (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27011) | 10 August: Goulart | 12 August: Beza's letter of 22 August (both in Baum and Cunitz, beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27036-27047)",
+   "formation_confidence": "Contested"
+  },
+  {
+   "claim": "Whether the legate was present at the colloquy",
+   "sides": "Ferrara and Tournon would not attend the disputations: Polanco (lainez_epistolae-et-acta-v6-lat_1915.txt l.3700-3702) | Ferrara's own claim that his face gave the Catholic doctors strength: Pallavicino (pallavicino_istoria-del-concilio-di-trento-parte2-ita_1664.txt l.46462-46468)",
+   "formation_confidence": "Contested"
+  }
+ ],
+ "absent_details": [
+  {
+   "detail": "Joint, signed acts of the colloquy",
+   "note": "None held. The ministers asked for secretaries on each side (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.27129-27131); the History says the last conference went without secretaries (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.33009-33011). Dossier searched HE1, LAI6, LAI8, Aymon, Pallavicino part 2 and Sarpi for 'secretaire', 'procès-verbal', 'acta colloquii', and all cic/texts for 'Pissiac|Poissiac|Possiac|Pisciac|Pinciac|Poyss|Poisi|Poissi|Poifli|Poifsì'."
+  },
+  {
+   "detail": "A full list or signed count of the prelates",
+   "note": "Not held. Polanco's editors refer to Prat, not held (lainez_epistolae-et-acta-v6-lat_1915.txt l.3695). Searched as above."
+  },
+  {
+   "detail": "Beza's and Vermigli's letters from Poissy, Vermigli's Relatio, Languet's letters, Brulart's journal, La Place, De Thou, Sattler's Sommaire and Catherine's letter of 14 September",
+   "note": "Not held; they reach us only through Baum and Cunitz's, Bonnet's and Benoît's notes. Dossier searched `ls cic/texts` for languet, conde, thou, place, sattler, hottinger, vermigli, espence, castelnau, popeliniere, serres, goulart."
+  },
+  {
+   "detail": "The day of Catherine's October letter",
+   "note": "The OCR reads 'iS.' (french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710.txt l.25620), perhaps 18; not read with certainty. The entry says October 1561."
+  },
+  {
+   "detail": "Any held statement that the colloquy ended the hope of a common French church",
+   "note": "No held text says it. Dossier searched HE1 for 'eglise nationale|une mesme Eglise' and Bonnet's Calvin letters for 'national church|common church'. The crown's edict still hoped for 'une mefme bergerie' (beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt l.37071-37072). The scan's summary is not used."
+  },
+  {
+   "detail": "A census place id for Poissy",
+   "note": "No census row has Poissy; a full-census search for 'poiss' finds only Époisses. The entry gives France (Q142) only."
+  },
+  {
+   "detail": "Santa Croce's nunciature letters on the September sessions",
+   "note": "Aymon's letters of the nuncio begin on 15 October 1561 (french-reformed-synods_tous-les-synodes-nationaux-t1-fra_aymon1710.txt l.894) and say nothing of the sessions; dossier searched Aymon for 'colloqu|conferen'."
+  }
+ ]
+}

@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Widely Accepted
-  divergence_note: Documented as Basil's own argument and catalogue; kept at Widely Accepted rather than
+  divergence_note: Documented as Basil's own argument and catalog; kept at Widely Accepted rather than
     Documented because how far this reasoning was the era's shared common property, versus Basil's own
     forensic innovation built for this specific doxology fight, remains an open scholarly question this
     record does not resolve.
@@ -52,9 +52,9 @@ false_friend:
 senses:
   informational: 'Pressed to justify his doxology against critics who called it an innovation, Basil argued
     that not everything the church holds arrived in writing -- and the unwritten is not therefore negotiable.
-    He catalogued examples: facing east, standing (not kneeling) on the Lord''s day, the threefold immersion
+    He cataloged examples: facing east, standing (not kneeling) on the Lord''s day, the threefold immersion
     at baptism, the words of the invocation.'
-  evidential: Documented as Basil's own argument and catalogue, in On the Holy Spirit's unwritten-customs
+  evidential: Documented as Basil's own argument and catalog, in On the Holy Spirit's unwritten-customs
     chapters. How far this argument was common property across the era versus his own forensic innovation
     for this specific fight is a fair, open scholarly question -- flagged, not resolved.
   personal: The same authors who argued this way were saturated in Scripture and argued from it constantly

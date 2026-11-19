@@ -1,0 +1,37 @@
+{
+ "muratori": {
+  "url": "https://archive.org/download/A118051/A118051_djvu.txt",
+  "accessed": "2026-11-10",
+  "work": "Lodovico Antonio Muratori, Il cristianesimo felice nelle missioni de' padri della Compagnia di Gesù nel Paraguai (Venice: Pasquali, 1743)"
+ },
+ "clarke": {
+  "url": "https://archive.org/download/cardinallaviger01clargoog/cardinallaviger01clargoog_djvu.txt",
+  "accessed": "2026-11-10",
+  "work": "Richard F. Clarke, ed., Cardinal Lavigerie and the African Slave Trade (London: Longmans, Green, 1889)"
+ },
+ "comboni": {
+  "url": "https://archive.org/download/bub_gb_PmnxiMyev9UC/bub_gb_PmnxiMyev9UC_djvu.txt",
+  "accessed": "2026-11-10",
+  "work": "Daniele Comboni, Piano per la rigenerazione dell'Africa (Rome: Propaganda Fide press, 1867)"
+ },
+ "nilles": {
+  "url": "https://archive.org/download/symbolaeadillus00nillgoog/symbolaeadillus00nillgoog_djvu.txt",
+  "accessed": "2026-11-10",
+  "work": "Nicolaus Nilles, Symbolae ad illustrandam historiam ecclesiae orientalis in terris coronae S. Stephani, vol. 1 (Innsbruck: Rauch, 1886)"
+ },
+ "launay1893": {
+  "url": "https://archive.org/download/mgrretordetleton00laun/mgrretordetleton00laun_djvu.txt",
+  "accessed": "2026-11-10",
+  "work": "Adrien Launay, Mgr Retord et le Tonkin catholique, 1831-1858 (1893)"
+ },
+ "lettres3": {
+  "url": "https://archive.org/download/lettresdifiantes03jesu/lettresdifiantes03jesu_djvu.txt",
+  "accessed": "2026-11-10",
+  "work": "Lettres édifiantes et curieuses concernant l'Asie, l'Afrique et l'Amérique, vol. III, Chine (Paris: Société du Panthéon littéraire, 1843)"
+ },
+ "cathen3": {
+  "url": "https://archive.org/download/catholicencyclop0003char/catholicencyclop0003char_djvu.txt",
+  "accessed": "2026-11-10",
+  "work": "The Catholic Encyclopedia, vol. 3 (New York: Robert Appleton Company, 1908), article 'China', djvu OCR text, archive.org item catholicencyclop0003char"
+ }
+}

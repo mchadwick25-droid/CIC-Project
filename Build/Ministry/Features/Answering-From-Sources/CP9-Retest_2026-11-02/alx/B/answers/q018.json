@@ -1,0 +1,196 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.term.katechesis",
+    "alx.term.baptism"
+   ],
+   "sentence": "People joined us through katechesis, the long, staged teaching given to those preparing for baptism, and then through baptism itself."
+  },
+  {
+   "record_ids": [
+    "alx.term.katechesis"
+   ],
+   "sentence": "The teaching went step by step, over a long time."
+  },
+  {
+   "record_ids": [
+    "alx.term.katechesis"
+   ],
+   "sentence": "It was tested teaching, the way a life was remade."
+  },
+  {
+   "record_ids": [
+    "alx.term.pistis"
+   ],
+   "sentence": "Faith began as the soul's first real turn toward God, and it could stand beside unresolved questions."
+  },
+  {
+   "record_ids": [
+    "alx.term.baptism"
+   ],
+   "sentence": "Baptism was not a ceremony announcing a choice already made."
+  },
+  {
+   "record_ids": [
+    "alx.term.baptism"
+   ],
+   "sentence": "It was a real crossing, in the body, into the new life."
+  },
+  {
+   "record_ids": [
+    "alx.dw.apostolic"
+   ],
+   "sentence": "Baptism, the bread and cup, and the scriptures read aloud were our general, unobjected practice."
+  },
+  {
+   "record_ids": [
+    "alx.gravity.soul-transformation"
+   ],
+   "sentence": "Our teachers named stages in the formation that followed: catechesis, purification, illumination, knowledge and wisdom."
+  },
+  {
+   "record_ids": [
+    "alx.gravity.soul-transformation"
+   ],
+   "sentence": "That formation is active work, done step by step."
+  },
+  {
+   "record_ids": [
+    "alx.gravity.soul-transformation"
+   ],
+   "sentence": "Those stages are attested for the part of our community that literate sources reach, and whether they held for everyone stays open."
+  }
+ ],
+ "citations": [
+  "alx.dw.apostolic",
+  "alx.gravity.soul-transformation",
+  "alx.term.baptism",
+  "alx.term.katechesis",
+  "alx.term.pistis"
+ ],
+ "group": "A",
+ "id": "q018",
+ "net_sentences": [
+  {
+   "draft": "People joined us through katechesis, the long, staged teaching given to those preparing for baptism, and then through baptism itself [[alx.term.katechesis]][[alx.term.baptism]][[as:paraphrase]].",
+   "sentence": "People joined us through katechesis, the long, staged teaching given to those preparing for baptism, and then through baptism itself.",
+   "tags": [
+    "alx.term.katechesis",
+    "alx.term.baptism"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The teaching went step by step, over a long time [[alx.term.katechesis]][[as:paraphrase]].",
+   "sentence": "The teaching went step by step, over a long time.",
+   "tags": [
+    "alx.term.katechesis"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "It was tested teaching, the way a life was remade [[alx.term.katechesis]][[as:paraphrase]].",
+   "sentence": "It was tested teaching, the way a life was remade.",
+   "tags": [
+    "alx.term.katechesis"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Faith began as the soul's first real turn toward God, and it could stand beside unresolved questions [[alx.term.pistis]][[as:paraphrase]].",
+   "sentence": "Faith began as the soul's first real turn toward God, and it could stand beside unresolved questions.",
+   "tags": [
+    "alx.term.pistis"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Baptism was not a ceremony announcing a choice already made [[alx.term.baptism]][[as:paraphrase]].",
+   "sentence": "Baptism was not a ceremony announcing a choice already made.",
+   "tags": [
+    "alx.term.baptism"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "It was a real crossing, in the body, into the new life [[alx.term.baptism]][[as:paraphrase]].",
+   "sentence": "It was a real crossing, in the body, into the new life.",
+   "tags": [
+    "alx.term.baptism"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Baptism, the bread and cup, and the scriptures read aloud were our general, unobjected practice [[alx.dw.apostolic]][[as:paraphrase]].",
+   "sentence": "Baptism, the bread and cup, and the scriptures read aloud were our general, unobjected practice.",
+   "tags": [
+    "alx.dw.apostolic"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our teachers named stages in the formation that followed: catechesis, purification, illumination, knowledge and wisdom [[alx.gravity.soul-transformation]][[as:paraphrase]].",
+   "sentence": "Our teachers named stages in the formation that followed: catechesis, purification, illumination, knowledge and wisdom.",
+   "tags": [
+    "alx.gravity.soul-transformation"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "That formation is active work, done step by step [[alx.gravity.soul-transformation]][[as:paraphrase]].",
+   "sentence": "That formation is active work, done step by step.",
+   "tags": [
+    "alx.gravity.soul-transformation"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Those stages are attested for the part of our community that literate sources reach, and whether they held for everyone stays open [[alx.gravity.soul-transformation]][[as:paraphrase]].",
+   "sentence": "Those stages are attested for the part of our community that literate sources reach, and whether they held for everyone stays open.",
+   "tags": [
+    "alx.gravity.soul-transformation"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "alx.dw.original-sin",
+  "alx.term.katechesis",
+  "alx.term.baptism",
+  "alx.story.didymus-meeting",
+  "alx.quote.a-doctrine-they-would-not-have-taught",
+  "alx.gravity.soul-transformation",
+  "alx.force.johannine-logos",
+  "alx.force.philonic-inheritance",
+  "alx.dw.apostolic",
+  "alx.term.mysterion",
+  "alx.quote.athanasius-fountains",
+  "alx.term.pistis",
+  "alx.quote.clement-instructor",
+  "alx.gravity.martyrdom-contemplative-tension",
+  "alx.gravity.speculative-doctrinal-tension"
+ ],
+ "raw_text": "People joined us through katechesis, the long, staged teaching given to those preparing for baptism, and then through baptism itself [[alx.term.katechesis]][[alx.term.baptism]][[as:paraphrase]]. The teaching went step by step, over a long time [[alx.term.katechesis]][[as:paraphrase]]. It was tested teaching, the way a life was remade [[alx.term.katechesis]][[as:paraphrase]]. Faith began as the soul's first real turn toward God, and it could stand beside unresolved questions [[alx.term.pistis]][[as:paraphrase]]. Baptism was not a ceremony announcing a choice already made [[alx.term.baptism]][[as:paraphrase]]. It was a real crossing, in the body, into the new life [[alx.term.baptism]][[as:paraphrase]]. Baptism, the bread and cup, and the scriptures read aloud were our general, unobjected practice [[alx.dw.apostolic]][[as:paraphrase]]. Our teachers named stages in the formation that followed: catechesis, purification, illumination, knowledge and wisdom [[alx.gravity.soul-transformation]][[as:paraphrase]]. That formation is active work, done step by step [[alx.gravity.soul-transformation]][[as:paraphrase]]. Those stages are attested for the part of our community that literate sources reach, and whether they held for everyone stays open [[alx.gravity.soul-transformation]][[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C7.S1",
+ "text": "People joined us through katechesis, the long, staged teaching given to those preparing for baptism, and then through baptism itself. The teaching went step by step, over a long time. It was tested teaching, the way a life was remade. Faith began as the soul's first real turn toward God, and it could stand beside unresolved questions. Baptism was not a ceremony announcing a choice already made. It was a real crossing, in the body, into the new life. Baptism, the bread and cup, and the scriptures read aloud were our general, unobjected practice. Our teachers named stages in the formation that followed: catechesis, purification, illumination, knowledge and wisdom. That formation is active work, done step by step. Those stages are attested for the part of our community that literate sources reach, and whether they held for everyone stays open.",
+ "voice_set_aside": false
+}

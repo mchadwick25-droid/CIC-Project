@@ -1,0 +1,11 @@
+source_file: gerard-de-frachet_lives-of-the-brethren_conway1924.txt
+assignments:
+- row_id: gerard-de-frachet_lives-of-the-brethren_conway1924--gerard-de-frachet-the-lives-of-the-brethren-english-conway-1924
+  work: Gerard de Frachet, The Lives of the Brethren, English (Conway 1924)
+  author: gerard-de-frachet
+  locus: the whole volume
+  atlas_ids:
+  - the-dominican-order
+  role: tradition
+  confidence: provisional
+  note: An English translation of the Vitae fratrum.

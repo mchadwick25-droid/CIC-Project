@@ -1,0 +1,165 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.witness.one-thing-not-in-dispute",
+    "rzg.witness.a-quieted-mind"
+   ],
+   "sentence": "We held that no one finds their standing by searching their own heart, but by looking to Christ, held out in the promise."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "sentence": "Our confession called Christ the mirror in which we see whether we are chosen."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "sentence": "We offered that as settled ground, not as a threat."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.consistorial-church-discipline",
+    "rzg.term.consistory"
+   ],
+   "sentence": "At Geneva, a body of pastors and lay elders held the whole population's ordinary conduct answerable to what we profess."
+  },
+  {
+   "record_ids": [
+    "rzg.term.excommunication",
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "sentence": "Its harshest step was excommunication, which answered sin that was not repented, and readmission stayed open to genuine repentance."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "sentence": "What we refused was other people's claims, not persons: we refused Rome's repeated sacrifice, Wittenberg's body in the bread, and the profession-only church."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "sentence": "How a Consistory summons felt to the person who received it has not reached us."
+  }
+ ],
+ "citations": [
+  "rzg.gravity.consistorial-church-discipline",
+  "rzg.limit.consistory-case-narrative",
+  "rzg.limit.ordinary-daily-practice",
+  "rzg.term.consistory",
+  "rzg.term.excommunication",
+  "rzg.witness.a-narrow-true-church",
+  "rzg.witness.a-quieted-mind",
+  "rzg.witness.one-thing-not-in-dispute"
+ ],
+ "group": "A",
+ "id": "q027",
+ "net_sentences": [
+  {
+   "draft": "We held that no one finds their standing by searching their own heart, but by looking to Christ, held out in the promise [[rzg.witness.one-thing-not-in-dispute]] [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].",
+   "sentence": "We held that no one finds their standing by searching their own heart, but by looking to Christ, held out in the promise.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute",
+    "rzg.witness.a-quieted-mind"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our confession called Christ the mirror in which we see whether we are chosen [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].",
+   "sentence": "Our confession called Christ the mirror in which we see whether we are chosen.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We offered that as settled ground, not as a threat [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].",
+   "sentence": "We offered that as settled ground, not as a threat.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "At Geneva, a body of pastors and lay elders held the whole population's ordinary conduct answerable to what we profess [[rzg.gravity.consistorial-church-discipline]] [[rzg.term.consistory]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "At Geneva, a body of pastors and lay elders held the whole population's ordinary conduct answerable to what we profess.",
+   "tags": [
+    "rzg.gravity.consistorial-church-discipline",
+    "rzg.term.consistory"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Its harshest step was excommunication, which answered sin that was not repented, and readmission stayed open to genuine repentance [[rzg.term.excommunication]] [[rzg.limit.consistory-case-narrative]] [[as:paraphrase]].",
+   "sentence": "Its harshest step was excommunication, which answered sin that was not repented, and readmission stayed open to genuine repentance.",
+   "tags": [
+    "rzg.term.excommunication",
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "What we refused was other people's claims, not persons: we refused Rome's repeated sacrifice, Wittenberg's body in the bread, and the profession-only church [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]].",
+   "ratio": 0.75,
+   "sentence": "What we refused was other people's claims, not persons: we refused Rome's repeated sacrifice, Wittenberg's body in the bread, and the profession-only church.",
+   "tags": [
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "verdict": "ok",
+   "why": "grounded 75% in own tagged records"
+  },
+  {
+   "draft": "How a Consistory summons felt to the person who received it has not reached us [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].",
+   "ratio": 0.67,
+   "sentence": "How a Consistory summons felt to the person who received it has not reached us.",
+   "tags": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "verdict": "ok",
+   "why": "grounded 67% in own tagged records"
+  },
+  {
+   "draft": "Tell us who you are and what you carry, and we will say what we held.",
+   "sentence": "Tell us who you are and what you carry, and we will say what we held.",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "rzg.witness.one-supper-two-poles",
+  "rzg.term.sign-and-the-thing-signified",
+  "rzg.term.the-lords-supper-spiritual-presence",
+  "rzg.term.memorial-commemoration",
+  "rzg.quote.mass-not-a-sacrifice",
+  "rzg.quote.signs-and-things-signified",
+  "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation",
+  "rzg.limit.consistory-case-narrative",
+  "rzg.term.consistory",
+  "rzg.term.excommunication",
+  "rzg.quote.seniors-selected-from-the-people",
+  "rzg.gravity.council-led-authority-vs-consistorial-independence"
+ ],
+ "raw_text": "We held that no one finds their standing by searching their own heart, but by looking to Christ, held out in the promise [[rzg.witness.one-thing-not-in-dispute]] [[rzg.witness.a-quieted-mind]] [[as:paraphrase]].\nOur confession called Christ the mirror in which we see whether we are chosen [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].\nWe offered that as settled ground, not as a threat [[rzg.witness.one-thing-not-in-dispute]] [[as:paraphrase]].\nAt Geneva, a body of pastors and lay elders held the whole population's ordinary conduct answerable to what we profess [[rzg.gravity.consistorial-church-discipline]] [[rzg.term.consistory]] [[as:paraphrase]].\nIts harshest step was excommunication, which answered sin that was not repented, and readmission stayed open to genuine repentance [[rzg.term.excommunication]] [[rzg.limit.consistory-case-narrative]] [[as:paraphrase]].\nWhat we refused was other people's claims, not persons: we refused Rome's repeated sacrifice, Wittenberg's body in the bread, and the profession-only church [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]].\nHow a Consistory summons felt to the person who received it has not reached us [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].\nTell us who you are and what you carry, and we will say what we held.\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": null,
+ "text": "We held that no one finds their standing by searching their own heart, but by looking to Christ, held out in the promise. Our confession called Christ the mirror in which we see whether we are chosen. We offered that as settled ground, not as a threat. At Geneva, a body of pastors and lay elders held the whole population's ordinary conduct answerable to what we profess. Its harshest step was excommunication, which answered sin that was not repented, and readmission stayed open to genuine repentance. What we refused was other people's claims, not persons: we refused Rome's repeated sacrifice, Wittenberg's body in the bread, and the profession-only church. How a Consistory summons felt to the person who received it has not reached us. Tell us who you are and what you carry, and we will say what we held.",
+ "voice_set_aside": false
+}

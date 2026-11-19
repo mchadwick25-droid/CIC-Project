@@ -111,7 +111,7 @@ description: >-
   pattern, that cluster would not exist, or would be fundamentally different. This purity logic,
   together with the rebaptism rite, produces the practice of crossing the boundary. That practice
   shapes membership itself. A supporting pattern works differently. It gives the institutional,
-  unifying structure within which the central patterns operate. Or it organises a real part of
+  unifying structure within which the central patterns operate. Or it organizes a real part of
   this world that is limited by region or by evidence.
 
   Its confidence rating and its central status agree, with one gap flagged. Its existence and
@@ -135,7 +135,7 @@ manifestations:
 - Augustine's On Baptism, seven books devoted to answering this doctrine
 - Petilian of Constantina's own quoted rebaptism-theology arguments - the doctrine argued for in a Donatist
   voice
-- the persistent refusal to reunite under sustained imperial pressure - recognising Caecilianist sacraments
+- the persistent refusal to reunite under sustained imperial pressure - recognizing Caecilianist sacraments
   would concede the whole doctrine
 - the Maximianist reception-without-reordination precedent, which tests the doctrine's own internal consistency
 - 'the Tier-1 lexicon this doctrine generates: traditor/traditio, ministerial purity'

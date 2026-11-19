@@ -21,6 +21,7 @@ edition: Nicene and Post-Nicene Fathers, 2nd series, vol. 3 (Theodoret, Jerome, 
   Ernest Cushing Richardson, ed. Schaff and Wace, vendored as cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml
 citation: Ernest Cushing Richardson, dating notes to Gennadius, De Viris Illustribus, Nicene and Post-Nicene Fathers, 2nd series, vol. 3, ed. Schaff and Wace
 kind: vendored
+shelf_row: npnf203_theodoret-jerome-gennadius-rufinus--gennadius-lives-of-illustrious-men-continuation-3
 rights_status: "public-domain; vendored, rights confirmed as part of this world's own corpus-map assignment"
 attribution_status: attributed
 discovery_channel: builder-direct-read; Source Registry row 42; the passage or text at issue was read

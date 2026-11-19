@@ -1,0 +1,11 @@
+{
+ "slice": "AS1",
+ "round": 3,
+ "verdict": "approve",
+ "blocking": [],
+ "substantial": [],
+ "minor": [],
+ "quotes_checked": 175,
+ "quotes_failed": [],
+ "notes": "Targeted recheck of the saved Draft.json. R2-S1 closed: Lettres édifiantes is cited as 1843, Société du Panthéon littéraire, with accents, in sources and SOURCES.json; 1838 appears nowhere; accents are restored for Launay and Marnas. Unaccented copies remain only in flags, which do not reach the census. R2-S2 closed: the CE note names the 1865 instruction. m1 closed: \"born long ago from the inspiration of\". m3 closed: Whitehouse is now typed secondary. m2 concerns the change map, not the data. check_draft.py on my raw: 175 quotes, 0 misses; the READ-FAILs are only the frozen first paragraphs of VIII.45 and VIII.21."
+}

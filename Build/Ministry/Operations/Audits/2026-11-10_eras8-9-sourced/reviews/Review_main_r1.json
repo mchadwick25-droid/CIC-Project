@@ -1,0 +1,40 @@
+{
+ "slice": "G89c-main (Open-Gaps 185 regrades; Open-Gaps 191 VOC continued-as link)",
+ "round": 1,
+ "verdict": "approve",
+ "blocking": [],
+ "substantial": [],
+ "minor": [
+  {
+   "id": "MA-m1",
+   "where": "link southern-african-mission-churches--the-moravian-church-at-herrnhut, sources[1] (Hamilton)",
+   "problem": "The Hamilton clause supports the link, but only through the book's subject. It says Schmidt labored 'at the southern end of the continent' and does not name the Brethren or Herrnhut. Two sentences earlier on the same page, the source ties the Cape mission to Herrnhut in so many words.",
+   "evidence": "historyofmission00hami_djvu.txt (re-fetched; byte-identical to raw/hamilton1901.txt) lines 1251-1253: 'As soon as the call reached Hcrrnhut.^ ^George Sclimi(ltj_who ... volunteered promptly'; lines 1260-1261: 'grantc<l Schmidt permission to sail to the Cape.'",
+   "fix": "Add a second Hamilton source entry, locus 'ch. I, Schmidt sent from Herrnhut', quote 'As soon as the call reached Hcrrnhut.^ ^George Sclimi(ltj_who', with an OCR flag. Keep the existing quote. The grade stays Widely Accepted."
+  },
+  {
+   "id": "MA-m2",
+   "where": "link southern-african-mission-churches--the-moravian-church-at-herrnhut, verification_state",
+   "problem": "verification_state changes from 'verified-direct' to 'verified-online' because of the raw online quote. That is correct, but the draft does not say so; a frozen link field is changed silently.",
+   "evidence": "world-census.json edges: current value 'verified-direct'.",
+   "fix": "Add to the link's ruling or a flag: 'verification_state verified-direct to verified-online: the grade now rests on a raw online secondary quote.'"
+  },
+  {
+   "id": "MA-m3",
+   "where": "link protestant-churches-of-the-voc-world--indonesian-christianity, note sentence 3",
+   "problem": "'The tree tells no years of the Moluccan church between 1815 and 1861' is slightly off. VIII.26 itself names Joseph Kam's work in the Moluccas 'from 1815' (in its people and sources). What is missing is an entry whose span covers 1815-1861.",
+   "evidence": "world-census.json, indonesian-christianity: people line 'Joseph Kam — the Dutch pastor whose work in the Moluccas from 1815 revived the older island churches left over from the Company era'.",
+   "fix": "'No entry in the tree spans the years 1815 to 1861.'"
+  },
+  {
+   "id": "MA-m4",
+   "where": "fact_table (empty); neighbor_changes AP5 livingEvidence",
+   "problem": "The new factual sentences (three link notes, the relations line and the living basis) have no fact_table rows, which the drafting brief requires. Each is in fact supported by the link quotes. Separately, the living basis keeps descentConfidence 'Dominant Modern Reconstruction' on the same Aritonang ch. 9 sentence that the new link grades Widely Accepted. That holds only because the descent grade also covers the unread step from the Moluccan church to today. Keeping group 'own' rather than 'line' is right: the line's carrier (the independent century, evidenced by HKBP) is not the Company church's heir. But the basis should say why the two grades differ.",
+   "evidence": "Drafting_Brief.md: 'Every factual sentence has a fact_table row'. The 'line' pattern elsewhere sets descentConfidence equal to the link grade (e.g. palestinian-church-pre-constantinian).",
+   "fix": "Add fact_table rows that point each sentence to its link quote. In the basis, after 'not yet read from a source', add: 'The descent grade is lower than the link's because it reaches past 1861 to today's church; the tree does not carry this entry's living mark through the Batak line of the entry it continues in.'"
+  }
+ ],
+ "quotes_checked": 8,
+ "quotes_failed": [],
+ "notes": "All four raw texts were re-fetched from their URLs into rev-LA/raw. The Catholic Encyclopedia vol. 3, Hamilton 1901 and Aritonang & Steenbrink 2008 copies are byte-identical to the drafter's raw files. Every quote was found verbatim: the CE 'China' quote, Hamilton, both Aritonang quotes, and the three Lettres édifiantes quotes (no raw_file, so the checker marks them unchecked; I found them in the re-fetched lettresdifiantes03jesu_djvu.txt). The Periodical Accounts quote is at file line 7259. (a) CE 'China' (1908): the sentence sits in the K'ang-hi section and goes on 'the question of rites ... did not impair their credit during the reign of K'ang-hi'. It supports 'in contact with' between Chinese Catholicism and the Society of Jesus inside both rows' dates. Hamilton supports Schmidt's Moravian mission at the Cape (see MA-m1 for a quote that names Herrnhut). Each link has a primary witness plus a public-domain secondary read online, so Widely Accepted is the most allowed for the Chinese link, whose primary is also a raw online text. The Moravian link does have a Library primary checked verified-direct (Periodical Accounts 1790, line 7259). That quote is the Moravians' own account of their own Cape mission, and the earlier slice review held it at Inferential-Thin as not carrying the tie to AF-5's other churches. Open-Gaps 185 asks for Widely Accepted, and going to Documented would be a regrade beyond the ruling, so Widely Accepted is right here. Neither secondary is contested. 'A Catholic study of 1908' for an encyclopedia article is loose; 'A Catholic reference work of 1908' would be exact, but this is not a finding. (b) Aritonang ch. 9 ('rehabilitation of the life of the church as a consequence of ... the moral bankruptcy of the VOC') and ch. 6 ('the Church of the Moluccas was revitalised') carry continuity of the same church after 1815. 'Continued as' at Widely Accepted with the 1815-1861 gap named follows the coordinator's ruling on Open-Gaps 191 exactly. AP5's continuesAs, relations line and living basis match the link, and the validator's living rules are satisfied (living true, own grade 'none', descentConfidence with a basis). The relations line's two added sentences are supported. check_draft.py: no READ-FAIL, no new quote failures."
+}

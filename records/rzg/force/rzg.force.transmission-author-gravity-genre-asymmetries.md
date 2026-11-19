@@ -19,14 +19,10 @@ relations:
   target: rzg.gravity.sovereignty-of-god-predestination-election
 name: Transmission - the Author-Gravity and genre asymmetries within this world's own self-transmission
 kind: ongoing
-description: 'This world''s own record transmitted itself through its own tradition''s continuing institutional
-  life, not through a hostile party''s own refutation literature. Within that self-transmission, two distinct
-  asymmetries hold: Calvin''s own vendored corpus is roughly four times Zwingli''s by volume; and institutional
-  daily-practice material (the 1541 Ordinances, the Genevan Psalter, Geneva''s own consistory registers)
-  remains almost entirely unvendored for both cities alike. Documented as this world''s own central evidentiary
-  condition. This transmission pattern is the specific mechanism behind G1''s own Confidence/Gravity Cross-Check
-  divergence - the asymmetry is a fact about what survived to be copied and reprinted, not about which
-  strand held the doctrine more centrally.'
+description: |-
+  This world's record came down through its own church's ongoing life, not through the books of those who wrote against it. Within that, two things are uneven. In the texts this project holds, Calvin's writings are about four times Zwingli's in size. And the records of daily church life are almost all absent from the texts held here, for both cities alike. Those are the 1541 Ordinances, the Genevan Psalter, and Geneva's own consistory registers. This is documented, and it is the main fact about this world's evidence.
+
+  The gap in size is part of what lies behind a split in the first gravity, predestination and election (G1). Both strands hold its core belief. But its fully worked-out form is found mostly in Calvin and Beza. The gap in size is not the whole cause. The texts that survive also differ in kind. The Second Helvetic Confession (1566) speaks of predestination in a pastoral way, with Christ at the center. Calvin's Institutes set it out as a system. So the split is partly about what survived to be copied, and partly a real difference in how the two strands taught. It does not show that either strand held the belief more centrally.
 manifestations:
 - our own record does not reflect on its own future survival directly - no surviving voice narrates which
   of its own texts it expected to outlast it

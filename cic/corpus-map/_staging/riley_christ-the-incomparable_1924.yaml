@@ -1,0 +1,11 @@
+source_file: riley_christ-the-incomparable_1924.txt
+assignments:
+- row_id: riley_christ-the-incomparable_1924--riley-christ-the-incomparable
+  work: 'Riley, Christ the Incomparable'
+  author: riley
+  locus: 'whole'
+  atlas_ids:
+  - fundamentalism-1910-1970s
+  role: tradition
+  confidence: assigned
+  note: 'His own sermons.'

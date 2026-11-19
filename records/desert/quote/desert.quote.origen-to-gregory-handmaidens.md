@@ -42,10 +42,10 @@ license: verbatim
 modern_lens_note: >-
   "Handmaidens" is a technical arrangement, not a courtesy: the liberal arts serve philosophy,
   philosophy serves Christianity, and each is worth having in its place. A modern reader may hear
-  either a defence of a broad education or an anxiety about pagan learning. Neither is quite it.
+  either a defense of a broad education or an anxiety about pagan learning. Neither is quite it.
   Origen is saying that reading scripture WELL requires equipment - geometry and astronomy among
   it - which is exactly the proposition the desert tradition, on this world's own account, did not
-  work from. Its ascetics read scripture by memorising it and living against it, and several of
+  work from. Its ascetics read scripture by memorizing it and living against it, and several of
   its best-remembered figures were unlettered. Both are ways of taking the text seriously; they are
   not the same way.
 retrieval:

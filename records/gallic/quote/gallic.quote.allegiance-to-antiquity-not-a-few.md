@@ -17,8 +17,7 @@ confidence:
     the Egyptian fathers rejected sackcloth.
 sources:
 - source_id: gallic.source.cassian-institutes
-  locus: "Institutes I.2 (npnf211 div iv.iii.i.ii, file lines 16668-16672): Cassian's own statement
-    that allegiance is owed to antiquity and consent, not to a few individuals' own inventions"
+  locus: "Institutes I.2 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 16668-16672; div iv.iii.i.ii): Cassian's own statement that allegiance is owed to antiquity and consent, not to a few individuals' own inventions"
   license: public-domain
 retrieval:
   tier: 2

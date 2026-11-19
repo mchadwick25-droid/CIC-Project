@@ -1,0 +1,75 @@
+{
+  "name": "Sulpicius Severus",
+  "otherNames": [
+    "Sulpitius Severus",
+    "Severus the presbyter, surnamed Sulpitius"
+  ],
+  "knownFor": "Presbyter of Aquitaine who knew Martin of Tours and wrote his Life, then the Dialogues and a Chronicle of the world that closes with the trial of Priscillian of Abila.",
+  "dates": "Born about 363 and died, \"as is generally supposed\", in 420, by Alexander Roberts's dating; born after 353 and died about 410, by Ernest Cushing Richardson's note to Gennadius of Marseilles",
+  "place": "Aquitaine; Tours, where he visited Martin",
+  "tradition": "Gallic Monastic-Ascetic Christianity",
+  "role": "Presbyter and writer",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Life of St. Martin",
+      "about": "the life of Martin, bishop of Tours, finished before Martin died, drawn partly from Martin himself and partly from those who lived with him"
+    },
+    {
+      "title": "Dialogues",
+      "about": "talks between Postumianus and Gallus, with Sulpicius as judge, on the monks of the East and on Martin"
+    },
+    {
+      "title": "Sacred History, or Chronicle",
+      "about": "two books from the Creation to his own day, ending with the trial of Priscillian at Trèves and its aftermath"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Paulinus of Nola, in a letter Alexander Roberts quotes, says Martin \"has obtained a historian worthy of his faith and of his life\".",
+      "Archdeacon Farrar, quoted by Roberts, credits Sulpicius's style with Martin's fame: \"his name was known from Armenia to Egypt more widely than that of any other monk or bishop of his day.\""
+    ],
+    "remembered": [
+      "Gennadius of Marseilles says he \"wrote small books which are far from despicable.\"",
+      "Roberts says he \"has been called\" \"the Christian Sallust\", and quotes J. J. Scaliger: \"He is the purest of all the ecclesiastical writers.\"",
+      "Roberts also finds him \"over-credulous in his acceptance of the miraculous\", and says that in the Chronicle \"Sulpitius is not always a trustworthy\" authority."
+    ]
+  },
+  "uncertain": [
+    "Gennadius of Marseilles says that \"In his old age, he was led astray by the Pelagians\", and then kept silent until death to atone. Alexander Roberts, his translator, says some ancient writers make the charge, but finds \"there is no ground for any such conclusion\" in his writings.",
+    "Editors differ on his dates. Roberts gives about 363 to 420. Ernest Cushing Richardson, in a note to Gennadius, gives after 353 to about 410.",
+    "Roberts tells of a career at the bar, a young wife who died early, a turn to a life apart about 392 and a father who opposed it. He names no source for these, and the sources used here do not give them. Roberts's note calls Bassula, to whom Sulpicius writes, his mother-in-law.",
+    "Gennadius says he wrote many letters to his sister. The two letters to Claudia, his sister, stand among the doubtful letters, and Roberts says Halm judged most of the letters spurious.",
+    "The sources used here hold none of Paulinus of Nola's own letters. His words reach us through Roberts's introduction."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Life of St. Martin, Letters, Dialogues and Sacred History, translated by Alexander Roberts",
+        "language": "English translation",
+        "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml"
+      },
+      {
+        "title": "Sulpicii Severi libri qui supersunt, edited by Karl Halm",
+        "language": "Latin",
+        "file": "cic/texts/sulpicius-severus_libri-qui-supersunt-chronica-vita-martini-lat_halm1866-csel1.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Lives of Illustrious Men, chapter 19",
+        "author": "Gennadius of Marseilles",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Life and Writings of Sulpitius Severus",
+        "author": "Alexander Roberts",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml"
+      }
+    ]
+  }
+}

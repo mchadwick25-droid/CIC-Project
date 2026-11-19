@@ -1,0 +1,20 @@
+source_file: international-review-of-missions_v17_1928.txt
+assignments:
+- row_id: international-review-of-missions_v17_1928--thompson-the-ivory-coast-a-study-in-modern-missionary-method
+  work: 'Thompson, "The Ivory Coast: A Study in Modern Missionary Method" (International Review of Missions, 1928)'
+  author: international-review-of-missions
+  locus: 'lines 42344-43158'
+  atlas_ids:
+  - african-initiated-churches-harrist-aladura-zioni
+  role: context
+  confidence: assigned
+  note: 'A Wesleyan mission secretary''s account. Harris''s last charge is given at second hand, through the missionary Benoit.'
+- row_id: international-review-of-missions_v17_1928--the-international-review-of-missions-volume-17-1928
+  work: 'The International Review of Missions, volume 17 (1928)'
+  author: international-review-of-missions
+  locus: 'whole'
+  atlas_ids:
+  - the-ecumenical-movement-and-the-wcc
+  role: tradition
+  confidence: assigned
+  note: 'The International Missionary Council''s own quarterly; each article is its writer''s, not the Council''s.'

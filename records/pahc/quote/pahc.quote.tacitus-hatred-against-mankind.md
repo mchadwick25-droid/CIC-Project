@@ -23,9 +23,7 @@ confidence:
     attribution is made on internal evidence, stated in its header.
 sources:
 - source_id: pahc.source.tacitus-annals
-  locus: >-
-    Annals 15.44, in the translation standardly identified as Church and Brodribb (1876)
-    (cic/texts/tacitus_annals-15-44_church-brodribb1876.txt)
+  locus: "Annals 15.44, in the translation standardly identified as Church and Brodribb (1876) (cic/texts/tacitus_annals-15-44_church-brodribb1876.txt, line 68)"
   license: public-domain
 text: >-
   Consequently, to get rid of the report, Nero fastened the guilt and inflicted the most exquisite

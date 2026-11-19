@@ -1,0 +1,11 @@
+source_file: innocent-iv_bulla-depositionis-in-mgh-constitutiones-2-lat_weiland1896.txt
+assignments:
+- row_id: innocent-iv_bulla-depositionis-in-mgh-constitutiones-2-lat_weiland1896--innocent-iv-bull-deposing-frederick-ii-at-lyon-1245-and-the
+  work: 'Innocent IV, bull deposing Frederick II at Lyon (1245), and the Relatio de concilio Lugdunensi (MGH Constitutiones II)'
+  author: innocent-iv
+  locus: 'nos. 400 and 401, from about OCR line 40576; add 12 to OCR line numbers'
+  atlas_ids:
+  - latin-papal-church-gregorian
+  role: tradition
+  confidence: provisional
+  note: 'The council''s best-known act in the pope''s own words, with a contemporary report of the sessions. The council''s other constitutions are not here.'

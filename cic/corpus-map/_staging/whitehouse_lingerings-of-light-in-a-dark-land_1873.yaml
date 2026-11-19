@@ -67,6 +67,8 @@ assignments:
   - the-society-of-jesus
   role: context
   confidence: provisional
+  language: eng
+  date: {formation_confidence: unknown, checked: "file header and title page; no dated preface or first-edition statement is made"}
   note: >-
     Hostile outside account of the Jesuit colleges and prelates; placed on subject, not read through.
 - row_id: whitehouse_lingerings-of-light-in-a-dark-land_1873--lingerings-of-light-in-a-dark-land-chapters-xiii-xv
@@ -92,3 +94,21 @@ assignments:
   note: >-
     Covers the arrival of Mar Gregory and the alliance with the Jacobites after 1665; placed on subject,
     not read through.
+- row_id: whitehouse_lingerings-of-light-in-a-dark-land_1873--the-1861-chaldean-metropolitan-at-thrissur
+  work: 'Whitehouse, Lingerings of Light in a Dark Land (1873): the 1858 deputation to Mosul and the Chaldean metropolitan of 1861'
+  author: whitehouse
+  locus: file line about 17502 ('returned triumphantly in 1861, with the man they wanted'); the Syrian Catholics' appeal to the Chaldean Patriarch, Mar Joseph, at about 14192
+  atlas_ids:
+  - church-of-the-east-chaldean-consolidation
+  role: context
+  confidence: provisional
+  note: An Anglican chaplain's account, a dozen years after the event, of the Chaldean bishop the Romo-Syrian party brought to Malabar in 1861. The view from outside; it predates the 1874 mission of Elias Mellus. The eras 8-9 sweep holds the Thrissur Chaldean body (AP7).
+- row_id: whitehouse_lingerings-of-light-in-a-dark-land_1873--st-thomas-christians-two-obediences-context
+  work: "Lingerings of Light in a Dark Land (1873), with its appendices"
+  author: whitehouse
+  locus: "whole book, and Appendices B, D and E"
+  atlas_ids:
+  - st-thomas-christians-two-obediences
+  role: context
+  confidence: provisional
+  note: "An English chaplain's history of the Syrian church, with documents in its appendices; the census entry's source. Written in 1873, after this entry's window."

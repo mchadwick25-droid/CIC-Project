@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: cappadocian.source.basil-on-the-holy-spirit
-  locus: "On the Holy Spirit, ch. 10, sec. 25 (npnf208_basil-letters-select-works.xml)"
+  locus: "On the Holy Spirit, ch. 10, sec. 25 (cic/texts/npnf208_basil-letters-select-works.xml, lines 10636-10645)"
   license: public-domain
 text: >-
   But we will not slacken in our defence of the truth. We will not

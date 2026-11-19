@@ -1,0 +1,2067 @@
+{
+ "stepanos-of-taron": {
+  "claims": [
+   {
+    "claim": "At Khladsor: Pétros, \"vieillard\", who all his life passed the nights \"les bras étendus, à verser des larmes et à gémir\"; under Father Basil the brothers took \"qu'un seul repas par jour\", fresh water only \"le samedi et le dimanche, durant la sainte quarantaine\"; \"M'étant trouvé auprès d'eux pendant le carême, c'est là que j'ai écrit ces quelques mots de souvenirs, marquant les dates aussi bien que possible\"",
+    "witness": "MAC (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt), l.3975-3998; GEL (stepanos-taron_armenische-geschichte-deu_gelzer-burckhardt1907.txt) l.6360-6367",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"le canton de Derdjan\" has \"le monastère appelé Khladsor\"; Macler's note: \"Canton de la Haute Arménie\"",
+    "witness": "MAC (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt), l.3971-3972, l.3999-4000",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Colophon: AE 453, the 30th year of Vasil, 15th of Gagik, 13th of \"le seigneur Sargis\"; \"C'est sur les ordres de celui-ci que ... j'ai écrit, avec ma faible intelligence, ce livre de souvenirs historiques\"; Macler's note: 453 E. A. = 20 March 1004 to 19 March 1005",
+    "witness": "MAC (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt), l.15154-15165, l.15198-15199; GEL (stepanos-taron_armenische-geschichte-deu_gelzer-burckhardt1907.txt) l.10658-10670",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The History in three books; Book III from 887 to 1005, from the start of the Bagratid dynasty",
+    "witness": "MAC (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt), l.440-447; ZAK (zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt) l.26016-26017",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Macler: \"Asolik est l'historiographe des rois arméniens de la [dynastie] Bagratouni (Bagratide) qui régnèrent à Ani\"",
+    "witness": "MAC (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt), l.975-977",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Macler: \"il faut se résoudre d'avance à rester dans cette quasi ignorance, plutôt que de chercher à y remédier par des hypothèses aventureuses\"",
+    "witness": "MAC (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt), l.686-690",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Emin (Russian translation, 1864), via Macler: surnamed Taronetsi \"parce qu'il était originaire du Tarôn\", and Asolik because skilled in church chant; Mélik David bey: \"le petit conteur\", which \"exclurait toute idée de chants religieux\"",
+    "witness": "MAC (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt), l.383-384, l.698-703, l.716-724",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "\"Dans notre jeunesse, nous avons vu nous-même quelques-uns de ces [Pères], qui étaient déjà avancés en âge, et nous avons goûté la douce nourriture de leurs paroles\" (GEL: \"in unserer Kindheit\"); the list includes \"Anania, le grand philosophe, moine [du monastère] de Narek\"",
+    "witness": "MAC (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt), l.4302-4316, l.4346-4348; GEL (stepanos-taron_armenische-geschichte-deu_gelzer-burckhardt1907.txt) l.6486-6487",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The fathers, \"par l'ordre du seigneur Anania\", decided that those \"baptisées dans la foi de Chalcédoine\" be baptized again, because the Chalcedonians deny \"que Dieu ait été corporellement sur la croix et ait subi la mort\"; \"Quant à nous, nous reconnaissons dans le Verbe véritable Dieu qui s'est uni au corps humain, et c'est ce Dieu qui a subi la passion et a été crucifié pour nous\"",
+    "witness": "MAC (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt), l.4350-4363",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Macler: the first Armenian writer \"en qui l'on puisse se fier pour ce qui concerne les dates qu'il cite\"",
+    "witness": "MAC (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt), l.1014-1028",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Alishan's manuscript (Mekhitarist library, Venice): \"et en ces jours mourut le père du couvent, Étienne, qui [est] aussi Asinik [scan]\", when the Persians took Kars; Alishan gives no account of the manuscript; Macler: the only fitting invasion is 1021, so \"Asolik mourut en 1091\" (scan; = 1021); Alishan is cited from his Armenian works (\"Alichan (Hayapatoum ...)\", \"Aÿrarat\"), the basis for \"an Armenian scholar\"; the manuscript was in \"la bibliothèque des PP. Mkhitharistes de Saint-Lazare près Venise\"",
+    "witness": "MAC (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt), l.788, l.870-903",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Brosset: the work ends in AE 458 [scan] = 1004; at least two interpolations; \"on ne sait pas\" when the author died",
+    "witness": "ZAK (zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt), l.26016-26020",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Malkhasiants: birth and death dates unknown; born after 927",
+    "witness": "MAC (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt), l.759-766",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "At the end he asks readers to remember him \"dans vos prières\" so that he may be judged worthy \"de chanter des cantiques de louanges à la gloire de la très sainte et consubstantielle Trinité\"",
+    "witness": "MAC (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt), l.15231-15237",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He wrote amid \"les fonctions sacrées que tu m'as prescrites\", unnamed",
+    "witness": "MAC (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt), l.15222-15224",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Neumann: \"the learned Asolnik\", \"Armenian chronicler of the tenth century\"",
+    "witness": "EGH (eghishe_history-of-vartan-and-the-armenian-war_neumann1830.txt), l.798-799",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gregory Magistros asks for \"le commentaire de Jérémie le Prophète, qu'a écrit l'heureux vieillard, très vieux, Asolik\"; \"Gette lettre n'est pas datée\" (scan); Emin cites a passage of Gregory \"d'après lequel Étienne de Tarôn était vieux entre 1041 et 1 057\" (scan; l.751-752 give \"entre 1041 et 1045\"); the card gives no year for the letter",
+    "witness": "MAC (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt), l.711-712, l.751-752, l.951-958",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Emin: Gregory Magistros's letter puts Asolik alive \"entre 1041 et 1045\"; \"on devra reconnaitre qu'il mourut âgé d'environ 1 17 où 129 ans\" (scan: 117 or 129); Malkhasiants: such longevity \"parait tout à fait invraisemblable\"; Macler: \"Emin, se basant sur un passage de Grégoire Majistros, fait mourir Asohik entre 1041 et 1045. Mais le même Grégoire a écrit jusqu' en 1097 [scan], et l'on [pourrait] aussi bien dire qu Étienne de Tarôn était encore vivant à cette date\"",
+    "witness": "MAC (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt), l.740-745, l.752-756, l.759-764",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Alishan: Gregory Magistros names him Asolnik, \"et on croit nil était chantre et marie du Tarôn\" (scan garbled at \"marie\"; the card reads only \"a cantor from Taron\" and notes the garbling)",
+    "witness": "MAC (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt), l.788-791",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Garegin Zarbhanalean, \"Histoire de la littérature arménienne ancienne (Venise, 1897)\": \"il fit ses études à Ani, qu'il fut ordonné prêtre\"; Macler: \"ne fait pas grandement avancer la question\"",
+    "witness": "MAC (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt), l.768-776",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Manuscripts: Malkhasiants lists them, \"au nombre de neuf\"; editions by \"Chahnazariants, à Paris, en 1859\" and \"en 1885, à Pétrograd, par les soins de M. Malkhasiants\"",
+    "witness": "MAC (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt), l.222-234, l.370-378",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Translations: \"en russe par Emin, en 1864\"; \"En 1883 parut la première partie de la traduction francaise par Dulaurier ; le volume comprend les livres I et II\"; the present translation Book III; German by Gelzer and Burckhardt, Leipzig 1907 (scan)",
+    "witness": "MAC (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt), l.383-398, l.404-407",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Tomb tradition: Indjidjian reports \"la tradition arménienne prétend voir à Mouch, dans le cimetière du couvent des Saints-Apôtres, les tombeaux d'Étienne Asolik de Tarôn\"; Macler: \"cette tradition a besoin d'être vue de très près\"",
+    "witness": "MAC (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt), l.905-913",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Brosset: \"il paraît renfermer au moins deux interpolations, aux ch. xv et xlviii [scan xuvm] de la 3e partie\"",
+    "witness": "ZAK (zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt), l.26017-26018",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Taron a district: \"le canton de Tarôn\" (in Stepanos's text)",
+    "witness": "MAC (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt), l.6276",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ani: the Bagratids \"régnèrent à Ani\"; Sargis \"transfère le siège catholical à Ani en la même année\" (992), Macler's note citing Ormanian (scan)",
+    "witness": "MAC (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt), l.975-976, l.15210-15214",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Book III \"du début de la dynastie bagratide\", from about 887; \"Asolik au contraire cite rarement un fait historique sans l'accompagner des données chronologiques les plus exactes\"",
+    "witness": "MAC (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt), l.437-441, l.1028-1030",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Brosset cites Asolic repeatedly for dates and events, e.g. \"Asolic, l. II, ch. 2, dit que Mahomet ... parut en l'année arménienne 68\"; \"Asolic, loc. cit., dit qu'Achot reçut la royauté en 888\" (scan)",
+    "witness": "KART (kartlis-tskhovreba_histoire-de-la-georgie-pt1-histoire-ancienne-fra_brosset1849.txt), l.12038-12040, l.13891, l.13906-13907",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "A note signed (J. M.) in Chabot's edition, on Manazkert: \"Sur ce concile, cf. le récit d'Etienne Asolik, trad. Dulaurier, p. 131\"",
+    "witness": "CHAB (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt), l.38282-38284",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Chamich (Avdall): \"the historian Stephen Taronensis, called also Asolik or Asolnik, who by order of the pontiff wrote a history of Armenia from its origin to the year of our Lord 1000\"",
+    "witness": "CHAM (chamich_history-of-armenia-v2_avdall1827.txt), l.5200-5204",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Conybeare: \"The historian Stephanos Asolik, who wrote between A.D. 991 and 19190\" (scan); Macler: \"M. Conybeare (Rituale Armenorum, p. xxxiii) estime qu'Étienne Asolik dut écrire son histoire entre 991 et 1019\"",
+    "witness": "CONY (rituale-armenorum-lectionary_conybeare1905.txt), l.2580; MAC (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt), l.799-801",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Meaning of Asolik",
+    "sides": [
+     "Emin: skilled in church chant (MAC l.700-702)",
+     "Mélik David bey: the little storyteller (MAC l.716-724)"
+    ]
+   },
+   {
+    "claim": "His death",
+    "sides": [
+     "Alishan's manuscript with Macler's synchronism: 1021 (MAC l.879-903)",
+     "Malkhasiants: unknown (MAC l.764-766); Brosset: no one knows (ZAK l.26019-26020)",
+     "Emin: between 1041 and 1045, from Gregory Magistros's letter (MAC l.752-754); rejected by Malkhasiants for the age it implies (MAC l.762-764) and answered by Macler (MAC l.754-756)"
+    ]
+   },
+   {
+    "claim": "Which Anania ordered the second baptism",
+    "sides": [
+     "Macler: the catholicos Anania of Mokq, not the vardapet Anania of Narek (MAC l.4392-4394)",
+     "The text names Anania of Narek among the teachers who ruled (MAC l.4314-4316, l.4350-4351)"
+    ]
+   },
+   {
+    "claim": "Where the History ends",
+    "sides": [
+     "Text read as Senekerim's twenty years, to 1023-1024 (MAC l.844-848)",
+     "Malkhasiants: one year, ending 1004-1005 (MAC l.849-866)",
+     "Chamich (Avdall): to the year 1000 (CHAM l.5200-5203)",
+     "Conybeare: written between 991 and 1019 (CONY l.2580, scan 19190; MAC l.799-801)"
+    ]
+   },
+   {
+    "claim": "One Stephen or two",
+    "sides": [
+     "Alishan's list: Asolik vardapet and Stephannos Taronetsi the historian (MAC l.788-797)",
+     "Macler doubts the list and treats them as one (MAC l.812-813)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth year and place, family, teachers, ordination, office under Sargis",
+    "note": "No held source gives them beyond his name and modern notices. Searched all cic/texts for asolik, asolnik, asoghik, assoghig, taronetsi, stepanos, Stephanos von Taron, Étienne de Tarôn, Stephen of Taron. Family: the only line near it is Alishan's \"chantre et marie du Tarôn\" (MAC l.791), garbled in the scan; it does not establish that he was married, and the card does not say so."
+   },
+   {
+    "detail": "Armenian original",
+    "note": "Not held; only the German and French translations, and two short English quotations by later authors."
+   },
+   {
+    "detail": "Commentary on Jeremiah",
+    "note": "Not held; Macler says none survives (MAC l.924-927)."
+   },
+   {
+    "detail": "Burial",
+    "note": "Only the tradition of a tomb at Mush, reported by Indjidjian, which Macler doubts (MAC l.905-916); claim above."
+   }
+  ]
+ },
+ "eulogius-of-cordoba": {
+  "claims": [
+   {
+    "claim": "Taken to the palace, \"ad regis consiliarios\"; \"unus ex ipsis, illi familiarissime notus\": \"Si $tulti , inquit, et idioke in hanc mortis deſflendam ruinam devecti sunt, tu sapientix: decore precinctus ... Dic tantum\" ... \"verbo in hora hujus tuz necessitalis, et postea ... ubi potueris, ulere fide. Promittimus te nuspiam Þ jnquirendum\" \"Cui beatissimus martyr subridens\" ... \"cepit eis Evangelii #terni verbum porrigere\"; \"Qui illico eum nolentes audire, gladio jubent transfigi\" (scan) [Alvarus's own account; single witness]",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), Alvarus's Life, l.57655-57703",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ruler called \"8ub rege Mahomad\" / \"Habdarraghmanis regis Arabum\"; the brief and card say Muslim emirs (modern term for these kings) (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), l.56729-56731, l.68023-68027; Memoriale III heading l.64144-64145",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Life is by Alvarus: \"VITA rs. PASSIO AUCTORE ALVARO CORDUBENSI\"; friends from youth: \"a primz2vo adolescenue flore ... uno vinculo concordi innexi\"; first met at Speraindeo's: \"Ii eum primitus videre merui\"; written \"pro annuo ſestivitatis suz recursu\"; hagiographic (\"martyr Dei excelse\", miracles of the dove and the lights) (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), l.56735-56738, l.56779-56782, l.56867-56872, l.57350-57352, l.57763-57773, l.57787",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "For most of his life Alvarus is the only witness: a note calls the Life \"hoc unico Alvari testimonio\" for the election; no other held narrative of the arrest, trial and death (all-file search, see absent_details)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), note l.57359-57361",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "\"Cordube civitatis patriciz (2) senatorum traduce natus\"; \"sancli ac beatissimi Zoyli zde deserviens, et in ejusdem collegio clericorum\"; \"diaconii ministerio fungitur, alque in brevi ... gradu presbyterii sublimatur\", \"cum jam annos * juvenlutis allingeret\" (scan) [Alvarus's own account; single witness]",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), l.56818-56822, l.56896-56900",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Memoriale letter \"ALVare EvLocirs\": \"Olim, mi frater, tranquillitate vegelatus domegtica\"; after \"martyrio beati Isaac\" crowds went \"in forum\" ... \"descendere, ac premissa fidei confessione, hostem\" ... \"Eeclesiz delestari\"; those honoring Isaac were \"omnes, tam clerici quam laici\"; then \"iracundia tyranni sxvientis 0mnes exlerriti ... gententias mvLant, delrabunt, maledicunt\", \"paucis admodum\" excepted; \"nisus Sum buic insistere operi\"; \"ut ... ſuturis generationibus teslimonium, ®* aut mendacii inſamiam, aut laudis ab eis Susciperem litulum\"; nearly done when jailed, finished in prison (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), l.59166-59219",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"plerisque nostrorum ... verum non esse videbatur martyrium, quod non ... aliquod ostentaret miraculum\"; answer: \"Signa namque virtutum nec omnibus data, nec passim quocunque lempore sunt exercenda\" (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), Memoriale I, l.60408-60443",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Precedents of martyrs who offered themselves (\"multique alii sponte $e obtulerunt\") (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), Memoriale I, l.61054-61083",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Perfectus dated \"anno incarnationis ... octingentesimo quinquagesimo\"",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), Memoriale II.1, l.61733-61738",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"Reccaſredus episcopus $nper ecclesias et clericos quasi turbo violentus insiluit : omnesque sacerdoltes, quos potuit, carcerali vinculo alligavit. Inter quos ut electus aries ducitur, et cum pontifice $vo vel aliis sacerdotibus vincitur\" (scan) [Alvarus's own account; single witness]",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), Alvarus's Life, l.56979-56985",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Letter to Wiliesindus from prison: \"anno prasenti, qui est era octingentesima octuagesima nona ... retrudens carcere episcopos , presbyteros, abbates\"; \"Floram et Mariam, nobiscum ... in ergastulum detruserunt\"; \"Data decimo septimo Kalendas Decembris\" (15 November 851) (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), l.68012-68014, l.68355-68364, l.68530-68550",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Alvarus: \"Ibi sanctis virginibus Florz et Mariz pro ſide comprehensis illud Documentum Martyriale uno libro composuit\"; Eulogius: \"librum Documentum Martyrii condimus ; eisque jam pene a proposilo suasione quorumdam labentibus\"; sent first to Alvarus: \"priusquam earumdem virginum adiret obtutus, twe elimari cum judicio volui ; ne forte ... repugnaret cachoticoe dog inati\" (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), l.56986-56989, l.67682-67688, l.65913-65922",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"illz octavo Kalendas Decembris expleverunt martyrium; $sacerdotes vero Domini tertio Kalendarum earumdem $olutionem adepti Sun\" (scan) [Alvarus's own account; single witness]",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), Alvarus's Life, l.56996-57001",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Leocritia \"ex gentilium ſzce progenita\", baptized in secret through Litiosa; sent word \"bealissimo Eulogio ... vel sorori «jus Anuloni, virgini Deo dicatz\" and fled to them; the hiding place \"presidi ... indicatur\"; both taken (\"una pariter comprehendentes\") before \"iniquo przsidi et seelerato judici\" (scan) [Alvarus's own account; single witness]",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), Alvarus's Life, l.57422-57433, l.57474-57497, l.57529-57545",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Answer to the judge: \"Preses, ordo nobis predicationis injunctus est ... ut disquirentibus a nobis lumen fidei porrigamus ... Hoc 83cerdolibus competit\" (scan) [Alvarus's own account; single witness]",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), Alvarus's Life, l.57596-57603",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"cervicem mucroni tetendit\"; \"Complevit mariyrium svam quinto Idus Martii, die $abbato, hora nona\" (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), Alvarus's Life, l.57732-57735",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Year: title \"passus eff ara DCCcxcvnl, anno Incarnationis Domini 859, 8ub rege Mahomad\" (scan \"DCCcxcvnl\"); Morales: the era was \"varie in margine signata\"; he fixed it \"ex astronomica nostra ratione supputdndi\" and corrected the king's name from Abderrahman to Mahomad \"quod ex ejusdem libro tertio constat ... et Alvarus etiam ipsum regem Mahomad nominat\"; Morales edited Eulogius \"8&culo xvi\" (Lorenzana's notice)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), l.56729-56732, l.56696-56711, l.56575-56577",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Toledo list: \"Sanetus Eulogius Cordubensis (859), ; elec:us auno 859, quo martyr. obiit\", appendix \"ARCHIEPISCOPI TOLETANI VETERES. Ex Editione Grialii\" (scan)",
+    "witness": "PL83 (isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt), l.123210-123216, l.123284-123290",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Burial: \"Cujus beatissimi caput alio die curiositas\" ... \"Christanorum redemit, corporis vero reliquias tertis die collegit, et 5b umbra_deatiagim} martyris Zoyli tumoulavit\" (scan garbled); Leocritia \"guarta post ejus martyrii die exstitit decollata\", buried \"in basilica s8ancti Genesi martyris\" [Alvarus's own account; single witness]",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), Alvarus's Life, l.57689-57722",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Election: \"post divine memorize Wistremiri, Toletanz sedis episcopi, in eamdem $sedem ab omnibus comprovincialibus et confinitimis episcopis electus\"; \"rerum obviantium adversitate impediti, alium sibi eo vivente interdixerunt eligere\"; no year (scan) [Alvarus's own account; single witness]",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), Alvarus's Life, l.57314-57326",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Fabricius: archbishopric \"nentiquam idoneis arqumentis constat\"; the note answers \"Ex hoc unico Alvari testimonio\" (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), note l.57359-57366",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Journey north: \"fratres meos Alvarum et Isidorum\" exiled \"apud (5) Hludovicum regem Bajoariz\"; at Pamplona; stayed at Toledo with \"Wistremirum episcopum\"; Alvarus: \"occasione fratrum $uorum\" (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), l.68012-68030, l.68180-68191; Alvarus l.57168-57178",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "At Leyre: \"Cum essem olim in Pampilonensi oppido positus, (2) et apud Legerense cenobium demorarer ... historiolam absque auctoris nomine reperi\" (in the Apologeticus) (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), l.69144-69149",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Apologeticus: martyrs Rudericus and Salomon died \"tertio Idus Martias, (19) zra pcccxcy\" (scan \"pcccxcy\"); editor \"Scriptus anno $57\"; argues again (\"iterum adversus eos hoc opere insurgit\") against Christians who \"martyribus ultro sese judicibus ... offerentibus detrahebant\"; the editors' copy: \"Erat autem mizere corruptum exemplar\" (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), l.68565-68614, l.69845-69850",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Reccafred: Morales, \"nunquam Receadredi hujus meminit\" (Eulogius); \"tis mus conjicere : Reccaffredus metropolitanus uit episcopus\"; jailed \"epiScopum Cordubensem,: cujus nomen nusquam proditur\"; note citing Flórez's Hisp. Sacr.: \"presulem Hispanensem totius Betice metropolilanum\"; \"Sanlus nominabatur hic episcopus, qui preſuit Cordubz ante annum 850 ad usque 861\" (scan \"Sanlus\")",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), scholia l.58297-58310, notes l.58334-58347",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Council: Eulogius, \"praesenti concilio episcoporum\"; decree \"inhibitum esse martyrium\", \"verumlamem allegorice edita\"; Mansi heading \"CONCILIABULUM CORDUBENSE ... anno Domini DCCCLII\"; note: \"teftatur in Evlogium {choliaftes, quem ... Baronius anno 851 ... feguitur\" (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), Memoriale II, l.64069-64075, l.64120-64136; MANSI14 (mansi_sacrorum-conciliorum-collectio-tomus-14-lat_welter-facsimile1902.txt), l.102256-102262, l.102314-102319",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Brothers: Tamayo, in his elogium, called Paulus Alvarus \"ut quidam credunt, sancti Eulogii fratrem\" and in his notes \"hunc nostrum confundere non dubitavit cum Alvaro, Eulogii fratre\"; Tamayo: \"non carnis nexu, sed contubernii vinculo\"; Antonio: \"fratrem vere germanum Eulogii alterum Alvarum\"; Tamayo is the author of the \"Martyrologio Hispano\" (scan)",
+    "witness": "ALV (paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt), Antonio's notice, l.31675-31716",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Feast 20 September in Usuard and the Roman martyrology; Morales: confusion with \"sancti Eulogii presbyteri (ejus qui inter priscos eremi cultores insignis ſuit)\"; note: \"rectius Baronius, Alvarum $ecutus, retrahendum censuit\"; hymn \"IN DIEM S. EULOGII. V IDUS MARTII\" (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), l.58815-58830, l.58893-58901, l.57937-57938",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Manuscripts: Morales, \"Vite duo habuimus exemplatia\": one \"in vetustissimo Ovetensi\" with the works, one lent by \"Michael Ruizius Azagra\", \"litteris Gothicis\"; Lorenzana compared the Morales and Schott (Frankfurt) editions (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), l.56575-56590, l.56667-56690",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Oviedo, the note: \"Postea Dulcidius ... Ovetum cum _eis intravit die nona Januarii anni 884\"; Morales: kept at Oviedo in the \"meram Sanctam vocant\" [Cameram Sanctam]; he handled the casket \"anno Domini 1572, cum Philippus Il\" sent him (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), l.58996-58998, l.58832-58848, l.58933-58945",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Morales: Usuard dedicated his work to Charlemagne (\"Carolo Magno suum Martyrologii opus dicaverit\"), so \"vix credibile est divo Eulogio superstitem fuisse\"; \"Restat ut aliquis ... operi nostrales hos martyres superaddiderit\"; Ado of Vienne \"-rat profecte divi Eulogii libros\" [scan cut] (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), Morales, l.58865-58891",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Epitaph: \"Hic recubat lepidus martyr, doctorque reſulgens Eulogius\"; Antonio lists after the Life \"Hymnus in diem S. Eulogii ... atque item epitaphium ejusdem\" among Alvarus's works (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), l.58118-58124; ALV (paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt), l.31533-31538",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Lorenzana: Eulogius may be set beside Cyprian (\"catera Eulogium Cypriano ſacile exequaverim\"); Baronius: \"Eulogium cum Documentum Ycriberet, in pyzide Spiritus 8ancili calamum intinxisse\" (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), Lorenzana's notice, l.56527-56560",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Headings: \"SANCTI EULOGTII ARCHIEPISCOPI TOLETANI ET MARTYRIS\" (editorial); Latin name \"Eulogius Cordubensis\" in later notes (\"Divus Eulogius Cordubensis, presbyter et doctor\") and the Toledo list (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), l.56725-56728, l.75577; PL83 (isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt), l.123287, l.123289",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Memoriale in three books (Book I l.59688, II l.61711, III l.64360)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), l.59143-59149, l.59688, l.61711, l.64360",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Chronicle quoted in the note: a priest sent \"cum epistolis ad Cordobensem regem\" \"Septembrio mense, unde adhucusque non est reversus Novembrio discurrente. Sic auctor, qui hoc scribebat mense anni 883\" (scan garbled before \"urbis presbyterum\")",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), note, l.58985-58996",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Oviedo lessons for the feast of the translation: \"Rex Alfonsus (quotus fuerit non referunt) Dulcidium quemdam legatum\" ... the bodies brought to Oviedo (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), l.58958-58975",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Note b: \"Labitur Morales ... eum vixisse sub Carolo cognomento Calvo, atque huic opus suum nuncupavisse circa annum 875, proindeque sexdecim annis post obitum Eulogii\" (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), note, l.58905-58911",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Year of death",
+    "sides": [
+     "Alvarus: Saturday, 11 March, no year (EUL l.57734-57735)",
+     "Life's title as fixed by Morales from astronomical reckoning: era 897, AD 859 (EUL l.56729-56732, l.56696-56706)",
+     "Toledo list from Grial's edition: 859 (PL83 l.123287-123290)"
+    ]
+   },
+   {
+    "claim": "Year and fact of the Toledo election",
+    "sides": [
+     "Alvarus: elected, never consecrated, no year (EUL l.57314-57326)",
+     "Toledo list: elected 859 (PL83 l.123289-123290)",
+     "Fabricius: no good argument for it, answered by the note (EUL l.57359-57366)"
+    ]
+   },
+   {
+    "claim": "Year of the council of Cordoba",
+    "sides": [
+     "Mansi heading: 852 (MANSI14 l.102257-102262)",
+     "Morales, followed by Baronius: 851 (MANSI14 l.102314-102319)"
+    ]
+   },
+   {
+    "claim": "Reccafred's see",
+    "sides": [
+     "Morales: a metropolitan, by conjecture (EUL l.58303-58304)",
+     "Note citing Flórez: bishop of Seville (EUL l.58334-58338)",
+     "Eulogius never names him (EUL l.58297-58301)"
+    ]
+   },
+   {
+    "claim": "Were Alvarus and Isidore blood brothers",
+    "sides": [
+     "Tamayo: brothers by shared life (ALV l.31703-31706)",
+     "Antonio: blood brothers (ALV l.31706-31716)"
+    ]
+   },
+   {
+    "claim": "Feast day",
+    "sides": [
+     "11 March: Alvarus's hymn; Baronius (EUL l.57937-57938, l.58897-58901)",
+     "20 September: Usuard, Roman martyrology, Cordoba breviary, explained by Morales as confusion (EUL l.58815-58830)"
+    ]
+   },
+   {
+    "claim": "Was Eulogius's brother Alvarus the same man as Paulus Alvarus",
+    "sides": [
+     "Tamayo: one man (ALV l.31683-31691)",
+     "Antonio: two men; the brother Alvarus was another man (ALV l.31706-31716)"
+    ]
+   },
+   {
+    "claim": "Did Usuard himself enter the Cordoban martyrs in his martyrology",
+    "sides": [
+     "Morales: no; Usuard wrote for Charlemagne, so someone else added them (EUL l.58865-58874)",
+     "Note in Lorenzana's edition: Usuard wrote under Charles the Bald, about 875, after Eulogius's death (EUL l.58905-58911)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth year, age, dates of diaconate and priesthood, year of the journey north",
+    "note": "No held line gives them. Searched all cic/texts for eulog, e\\s?[uv]\\s?l\\s?o\\s?g\\s?i, evlog, Eulogius of Cord, Euloge de Cord, Eulogio de C, against cord[uo][bv]|toled|alvar|leocrit|memorial|apologetic|wiliesind|pampilon|mozarab."
+   },
+   {
+    "detail": "Who buried him",
+    "note": "Alvarus credits \"curiositas Christianorum\" (EUL l.57689-57710). No held line says Alvarus buried him; the census story's \"he buried his friend\" has no held source."
+   },
+   {
+    "detail": "Any non-Christian or Arabic witness to his death",
+    "note": "Ibn Hayyan is not held; no Arabic source in cic/texts names him in the same searches."
+   },
+   {
+    "detail": "Held English text of his words",
+    "note": "None. All own words are Latin and told in modern words; van Braght (1886) only cites his works."
+   },
+   {
+    "detail": "Date Alvarus wrote the Life",
+    "note": "No held line dates it; only \"pro annuo festivitatis suæ recursu\" and after the burial (EUL l.57350-57352, l.57878-57879)."
+   }
+  ]
+ },
+ "paulus-alvarus": {
+  "claims": [
+   {
+    "claim": "Eulogius: \"cum atrium (5) serenissimi preceploris nostri * Alyari toto in Scripturarum scientia Occiduo laudati ... petivissem , reperi coram eo militem Christi Aurelium, consultum agonizandi quzrentem\"; Alvarus \"Patrum exemplis instituens, jubet primo conslantie vires perpendere ... et utrum imminentia magis nossel ſerre, quam declinare $upplicia\"; \"doctor egregius, et lemporis nostri ſons sapientliz profluus\" (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), Memoriale II, l.63245-63257",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eulogius his closest friend: the Life addresses \"amicissimum nobis patronum\"; \"Ut non sit, inquis, alter Alvarus quam Eulogius\"; Lorenzana's notice: \"ab Alvaro Cardubensi ejus ſamiliarissimo\" (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), l.57758-57759, l.57791-57810, l.56571-56572",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Layman: \"ille sacerdolii ornatus munere ... altius evolabat ; (2) ego luxuriz et voluptalis luto confeclus, terralenus repens hactenus trahor\"; Antonio: \"conditionemque status sui laicalis et seculo hærentis\"; Morales: \"homo laicus\" (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), l.56782-56786, l.56714-56717; ALV (paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt), Antonio, l.30980-30982",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Cordoba: headings \"ALVARO CORDUBENSI\"; Life \"AUCTORE ALVARO CORDUBENSI\"; ruled by \"8ub rege Mahomad\" (modern: emirs) (scan)",
+    "witness": "ALV (paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt), l.43652; EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), l.56729-56738",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Schooling: \"Nam et abbatem ... Speraindeum ... sZ2pius invisebat\"; \"Ii eum primitus videre merui ... Eram namque jam dicti jllustrissimi viri auditorum\"; \"epistolatim in invicem egimus, et rbythmicis versibus nos laudibus mulcebamus\"; \"volumina conderemus, quz posltea zlas matura 3 abolenda, ne in posleros remanerent, decrevit\" (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), Life, l.56866-56895",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eulogius became deacon and priest: \"diaconii ministerio fungitur, alque in brevi ... gradu presbyterii sublimatur\" (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), l.56896-56900",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Antonio: \"De Alvari obitu nibil habemus certi\"; note (e): Flórez \"ad annum Christ $61 [scan; 861], aut circa id tempus Alvari exitum reſert\"; \"pseudo-Lnitprandus dixerit (a) obiisse Cordube $anctum virum patricium Alvarum quarto die mensis Maii ra cuvn, Christi vero 869\"; \"Hiec sunt Toletanze apotheoses\" (scan)",
+    "witness": "ALV (paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt), l.31629-31630, l.31660-31680",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Notice: \"PAULUS ALVARUS CORDUBENSIS, NOTITIA HISTORICA. ( Apun Antonium, Bibliotheea Hispana vetus, tom. II, p. 473.\"; \"nostrarum rerum\" (Spanish) (scan)",
+    "witness": "ALV (paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt), l.30864-30873, l.31541",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hebrew: Antonio, \"si non alius est auctor epistole ... ſateri opus est, de genere Hebræorum esse eum\"; Alvarus to Eleazar: \"an ego, qui et ſide et genere Hebræus sum? ... Nempe pater meus Abraham est\" (scan)",
+    "witness": "ALV (paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt), Antonio, l.30896-30920",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Goth: \"videtur et mihi Gothum se esse allirmare\"; Alvarus: \"Mortem contemuunt laudalo vulaere Getes\" (Alvarus: \"Virgilium audi\"); the edition's notes: \"Falso tribuuntur hi versus Virgilio\", \"False tribuuntur hi versus Virgilio\"; \"quasi ludens jactaverit Gothicam ſerociam\"; \"quidquid de sürpe sit Gothica, an Hebræa\" (scan)",
+    "witness": "ALV (paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt), Antonio, l.30926-30950, l.31047-31049; notes l.31057, l.40470",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Eleazar: \"Gallus Eleazar ſuit natione, sed Hebræus fide ex Christiano\"; note: \"Eleazarum suggillat, Gallum natione et Hebraum file ex Christiano\"; heading \"TRANSGRESSORI © DIRECTS\" ... \"Dilecto mihi EL AZxko Al vanus\"; the book's owner \"cancellavit\" lines and cut out a leaf (scan)",
+    "witness": "ALV (paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt), l.31481-31497, l.37891-37894, l.37918-37919",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Letter to Eleazar: \"Tram oclingentesimam sepluagesimam octavam, quæ nunc agitur, anno incarnalionis Domini octingentesimo quadragesimo\" (scan)",
+    "witness": "ALV (paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt), l.38525-38533",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Indiculus: \"in hoc Incarnationis Domini anno — octingentesimo quinquagesimo quarto, et æra que currit „ octingentesima nonagesima secunda\" (scan)",
+    "witness": "ALV (paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt), l.42247-42251",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Antonio's summary: \"deſensio illorum qui Cordube sese marty rio non perquisiti obtulerunt ... dein prophetiarum de Mahomelo ... explicatio\"; \"cujus' auctor\" ... \"ſuisse creditur\"; second book \"desideratur\" (scan)",
+    "witness": "ALV (paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt), l.31332-31336, l.31047-31050, l.43706-43708",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Authorship: Morales first denied it (\"verbum de Talos ſactum\" [scan, for Eulogio] not found), later \"hunc nostro librum adjudicavit\"; Antonio: \"Jure quidem; ipse enim siylus ... idem utriusque tempus ... necnon et mentio in Eulogii Vita\"; Higuera's Luitprand: \"Bonitus, epiScopus Toletanns\"; his Julian: \"WiSlremirns\" (scan)",
+    "witness": "ALV (paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt), Antonio, l.31102-31130",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Lament: \"Nonne omnes 4 juvenes Christiani ... Arabico eloquio sublimati, volumina Chaldæorum avidiesime tractant\"; \"vix inveniatur unus in milleno hominum numero, qui salutatorias fratri possit rationabiliter dirigere litieras\"; \"linguam » suam nesciunt Chri\" ... \"$tianl, et lingnam propriam non advertunt Latini\" (split across columns) (scan)",
+    "witness": "ALV (paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt), Indiculus, l.43650-43695",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Death of Eulogius: \"plevit mariyrium svam quinto Idus Martii, die $abbato, hora nona\"; year 859 from Morales's \"astronomica nostra ratione\"; Morales edited \"8&culo xvi\" (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), l.57734-57735, l.56696-56706, l.56575-56577",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Life written \"pro annuo ſestivitatis suz recursu\"; \"non audita et dubia, sed visa et per me probata retexere\" (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), l.57350-57352; ALV (paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt), l.30983-30985",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Burial: \"caput alio die curiositas\" ... \"Christanorum redemit, corporis vero reliquias tertis die collegit, et 5b umbra_deatiagim} martyris Zoyli tumoulavit\" [Alvarus's own account; single witness] (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), l.57689-57710",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Address: \"Ergo, martyr Dei excelse (1), dulcis nomine Enlogi, Alvarum tuum clamantem intende\"; \"Ceric ego $um ille, quem tecum unitum esse dice\" ... \"Ut non sit, inquis, alter Alvarus quam Eulogius\" (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), l.57787-57810",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Other names: \"proprio nomine Alvarum Paulum $e ipse vocal in plerisque epislolis\"; \"Flavii et Aurelii cognominibus ab his qui litteras ei dabant, compellatus\"; heading \"Aurelio Flavio, ALvaro inlustrique viro\" (scan)",
+    "witness": "ALV (paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt), l.31042-31046, l.33347-33348",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Letters: to John of Seville, \"Eo tempore quo Elipandi lues vesano ſurore nostram vastabat provinciam\"; to Speraindeo (heading); to Saul: \"mortis agens confinium , pcenitentiz postularem remedium\"; Antonio: Saul \"Abnuit abgolvere Alvarum ... Iusuper pseudoepiscopi cujusdam partibus adbesisse Alvarum innuit\" (scan)",
+    "witness": "ALV (paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt), l.35278-35287, l.36600-36603, l.37521-37539, l.31449-31455",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Election evidence: \"Ex hoc unico Alvari testimonio quo constal Eulogium electum fuisse presulem Toletanum\" (scan)",
+    "witness": "EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), note l.57359-57361",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hymn and epitaph listed with the Life: \"Hymnus in diem S. Eulogii ... atque item epitaphium ejusdem\"; the Life \"Morales edidit, et post cum Schotus\" (scan)",
+    "witness": "ALV (paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt), Antonio, l.31524-31538",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Noble birth: \"Ait Morales illustri cum genere ortum Corduba ſuisse, aique idcirco Serenitatis et Serenissimi veca-\" ... \"bulo compellatum ab Eulogio\"; Antonio: \"alius omnino quam hodiernus est stylus erat illius temporis\" (scan)",
+    "witness": "ALV (paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt), l.30884-30894, l.30949-30954",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Marriage: Antonio, \"Conjugio autem astrictum ſuisse Alvarum, Joannes Hispalensis ei scribens innuere ... videtur\"; John: \"Salutare præsumo per os vestrum omnem decorem domus vestræ\"; Morales: \"conjugio, quantum conjicere dutur, innexus\"; note: \". Sed Noralhs, icolaus Antonius et Henricus Fes eum credunt corjugio astrictum ... parum 'firma judicamus illorum argumenta\" (scan)",
+    "witness": "ALV (paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt), l.30993-30998, l.33964-33968; EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), l.56717-56718, l.57211-57217",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Liber Scintillarum: Antonio's text, \"incipit liber Scintillarum Alrari Cordubensis\" (Sahagún codex); note (c) to the notice, citing \"Florezium tom. XI. pag. 47\": other codices \"Venerabili Beda tribui\", \"Joanni Deſensori\", \"Cas8ioloro\" (scan)",
+    "witness": "ALV (paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt), l.31544-31551; note (c), l.31611-31615, l.31638-31646",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Codex: \"codex quidam Ecclesiæ Condubensis\" ... \"quem vidit M\" [Morales, scan cut]; \"Codicem alium Toletanæ Ecclesiæ Thomas Tamaius laudat\"; Antonio: \"Nos inde ... habemus exemplum, transcriptum ex altero nobis communicato ex ... cardinalis Barberini Romana bibliotheca\", given to Barberini at Madrid, \"Matriti, dum ... legatus\", \"ab eodem Thoma Tamaio de Vargas, regio chronographo\"; the copy's title: \"e codice pervetusto Ecclesiæ Cordubensis litteris gothicis exarato\" (scan)",
+    "witness": "ALV (paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt), l.31019-31036, l.31058-31075",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Flórez: letters cited \"apud Florezium in Hispania Sacra tom. XI\"",
+    "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt), l.106502-106509; ALV (paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt), l.31464",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Alcuin editors: Elipandus \"facile traxit in errorem suum nonnullos Covdubenses, ut testatur Paulus Alvarus Cordubensis in epistola ad ... Joannem Spalensem\" (scan)",
+    "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt), l.106502-106509",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Tamayo: \"Martyrologio Hi$pano hac die uti sanctum invexcrit\"; Julian: \"sanctum et sanctitatis opinione Corduba florentem\" (scan)",
+    "witness": "ALV (paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt), l.31675-31685",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Escorial gloss, in note (c) to Antonio's notice: \"in margine autem habetur hac nota antiqua manu et Gothici saporis : ALVARUS. Nunquam legisse me ... novem ordines angelorum\"; \"que forsan ex Alvaro nostro descendit\" (scan)",
+    "witness": "ALV (paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt), note (c), l.31611-31615, l.31646-31655",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Brother confusion: Tamayo, in his elogium, called Paulus Alvarus \"ut quidam credunt, sancti Eulogii fratrem\" and in his notes \"hunc nostrum confundere non dubitavit cum Alvaro, Eulogii ſratre, qui una cum altero utriusque fratre Isidoro in Germania peregrinati sunt\"; Tamayo: \"non carnis nexu, sed contubernii vinculo\"; Antonio: friendship \"non utique consangui nitatis\", \"fratrem vere germanum Eulogii alterum Alvarum\"; Eulogius: \"fratres meos Alvarum et Isidorum\" ... \"apud (5) Hludovicum regem Bajoariz\" (scan)",
+    "witness": "ALV (paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt), l.31683-31716; EUL (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt), l.68016-68020",
+    "formation_confidence": "Contested"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Hebrew or Gothic descent",
+    "sides": [
+     "Hebrew: Alvarus's letter to Eleazar, accepted by Antonio only if the letter is his (ALV l.30896-30920)",
+     "Goth: Antonio's reading of the Getae quotation, perhaps in jest (ALV l.30926-30946)",
+     "Antonio leaves both open (ALV l.31047)"
+    ]
+   },
+   {
+    "claim": "Was he married",
+    "sides": [
+     "Yes, by inference from John of Seville's greeting: Antonio; Morales; Flórez (ALV l.30993-30998; EUL l.56717-56718, l.57211-57214)",
+     "Doubted: the note in Lorenzana's edition (EUL l.57214-57217)"
+    ]
+   },
+   {
+    "claim": "Author of the Indiculus luminosus",
+    "sides": [
+     "Not Alvarus: Morales's first view (ALV l.31104-31107)",
+     "Alvarus: Morales's later History; Antonio (ALV l.31107-31120)",
+     "Bonitus or Wistremir: Higuera's chronicles (ALV l.31121-31130)"
+    ]
+   },
+   {
+    "claim": "Author of the Liber Scintillarum",
+    "sides": [
+     "Alvarus: Sahagún codex (ALV l.31547-31551)",
+     "Bede, Defensor, Cassiodorus: other codices, in note (c) to Antonio's notice (ALV l.31638-31642)"
+    ]
+   },
+   {
+    "claim": "Date of his death",
+    "sides": [
+     "Unknown: Antonio (ALV l.31629-31630)",
+     "About 861: Flórez, in a note (ALV l.31660-31662)",
+     "4 May 869: pseudo-Luitprand, rejected by Antonio (ALV l.31673-31677)"
+    ]
+   },
+   {
+    "claim": "Year of Eulogius's death (as given in the Alvarus profile)",
+    "sides": [
+     "Alvarus: Saturday 11 March, no year (EUL l.57734)",
+     "Morales: 859 by astronomical reckoning (EUL l.56696-56706)"
+    ]
+   },
+   {
+    "claim": "Was Eulogius's brother Alvarus the same man as Paulus Alvarus",
+    "sides": [
+     "Tamayo: one man (ALV l.31683-31691)",
+     "Antonio: two men; the brother Alvarus was another man (ALV l.31706-31716)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth year, birthplace beyond Cordoba, parents, office, burial",
+    "note": "No held source gives them. Searched all cic/texts for paul(us|i|o|um)? (alvar|albar), alvar(us|i|o|um) cordub, albar(us|o|i), alvaro de c[oó]rdoba, paul albar, alvarus of cordo, alvare de cordoue, alvar near eulog, and whole-word alvar(us|o|i|um) checked for cordub/eulog/eleazar/speraind/indicul/elipand/scintill/mozarab within 2 lines."
+   },
+   {
+    "detail": "Who Eleazar was beyond Antonio's note",
+    "note": "No held line identifies him further; the profile does not join him to anyone named in other files."
+   },
+   {
+    "detail": "That Alvarus buried Eulogius",
+    "note": "No held line. The Life credits \"curiositas Christianorum\" (EUL l.57689-57710)."
+   },
+   {
+    "detail": "Nicolás Antonio's own dates",
+    "note": "Not given in the held notice (ALV l.30864-30873); the profile gives his role only."
+   },
+   {
+    "detail": "Held English text of his words",
+    "note": "None held; all told in modern words."
+   },
+   {
+    "detail": "Year of the illness and the letters to Saul",
+    "note": "Not given (ALV l.37521-37537, l.31441-31455)."
+   }
+  ]
+ },
+ "theodore-abu-qurrah": {
+  "claims": [
+   {
+    "claim": "Letter X heading: \"Brief, als Antwort auf eine Frage, welchen der heilige Abu Qurra an einen Freund schrieb, der Jakobit war und auf seine antwortliche Erwiderung hin orthodox ivurde\" (scan); X 1: \"Du hast uns, 0 unser Bruder dü'l-FadP David, in der heiligen Stadt getroffen, weil wir und du durch den Beistand Gottes dort zusammentrafen, um das Gebet an den heiligen Stätten zu verrichten\" (scan)",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.12029-12038",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "David's question: \"wieso man seit dem Konzil von Chalzedon nicht mehr sagt, Christus habe eine Natur, und wie man diesen von jenem Konzil definierten Satz: „Christus ist zwei Na-turen\" hören kann, ohne ... zwei getrennte Personen zu folgern\"; he asks for an explanation \"die der Lehrweise der Dialektiker entspricht und durch kräftige und zutreffende Analogien bestätigt wird\"",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.12040-12061",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Graf: X written \"auf Wunsch eines Monophysiten, der mit Abu Qurra an den heiligen Stätten in Jerusalem zusammengetroffen war\"; X 36 names \"den Jakobiten David\"; X is an Arabic work translated by Graf (\"Zehntes Mimar\")",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.519-524, l.750-751, l.12025-12029",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Graf dates X loosely: \"Es käme für die Abfassungszeit des Briefes also etwa das Zeitalter der genannten Kalifen in Betracht\" (Harun ar-Rasid and al-Mamün)",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.538-556",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Theodore under Muslim rule: \"Der Autor steht eben politisch unter islamischer Macht, lebt unter Mohammedanern\"; Chalcedonian: Michael calls him \"ein Chalzedonenser\"; Abu Ra'ita counts the followers of Chalcedon among \"Abu Qurra und seiner Partei\"",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.597-599, l.914-915, l.886-889",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Headings: \"In allen arabischen, mit Ausnahme von III und X, ist er Bischof von Charrän\"; title page \"Bisehofs von Harrän\" (scan); Graf: \"Später wurde er Bischof von Charrän in Mesopotamien\"",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.666-668, l.69-70, l.1152-1153",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Graf, \"Pl'airer in Obergessertshauseii\" (scan), Paderborn 1910; translation of the Arabic works (\"Literarhistorische Untersuchungen und Übersetzung\")",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.75-88",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Graf: \"Ferner ist Abu Qurra, soweit bis jetzt bekannt, der erste christliche Autor, der sich der arabischen Sprache bediente\"",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.743-745",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Graf: \"Seine Lebenszeit fällt ungefähr in die Jahre zwischen 740 und 820\"; title \"(ca. 740—820)\"",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.1157-1158, l.81",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Peeters: \"Theodorus ille abü Qurra, ... Carrharum episcopus, Graecis Latinisque diclus Abucara, qui dimidiato circiter octavo saeculo natus, ante annum 520 videtur obiisse\" (scan; 520 for 820); he cites Graf 1910",
+    "witness": "PEETERS (peeters_histoires-monastiques-georgiennes-in-analecta-bollandiana-36-37-lat-fra_1917-1919.txt), l.865-869",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Floruit c. 770: Fabricius \"clarus ſuit circa a. C. 770\"; Gallandi \"Floruit circa annum 770\"; Migne running head \"ANNO DOMINI DCCLXX\"",
+    "witness": "PG97 (theodore-abu-qurrah_opuscula-with-andrew-crete-malalas-pg97-grc-lat_migne1860.txt), l.121554, l.122203, l.121459",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Edessa: \"Er nennt nämlich Hdessa (ar-Ruhä) ... „unsere Stadt\" (XI 23). Die nächstliegende Bedeutung des pronomen possessivum läßt den Schluß zu, daß Abu Qurra Edessa als seine Vaterstadt bezeichnen will\" (scan); XI 23: \"in unserer besonders gesegneten Stadt Edessa\"; Michael: \"ein Mann aus Edessa\"",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.507-513, l.16703-16705, l.914",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Mar Saba: \"Es steht indes fest, daß Abu Qurra einen Teil seines Lebens in der ... Laura des hl. Sabas zugebracht ... Denn auf dieses Kloster geht die handschriftliche Überlieferung aller seiner arabischen Werke zurück\"; \"Kloster des hl. Sabas bei Jerusalem\"",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.737-743, l.1149",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Graf doubts the Sabas line at X 36: \"Weil sich jedoch eine offenkundige Glosse eines Kopisten unmittelbar anschließt ... so ist nicht ausgeschlossen, daß auch schon die Nennung des Heiligen selbst sich als eine Interpolation des Schreibers darstellt\"",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.750-762; text l.14045-14049",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Le Quien (ed. Paris 1712): Theodore \"sancti Joannis Damasceni auditor fuerat\" and took down dialogue 18 \"ex ore Joannis nostri\"; John's \"discipulos ... Theodorum Abucaram (Carorum episcopum)\"",
+    "witness": "PG94 (john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860.txt), l.116606-116614, l.641-643, l.920-925",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Pupil of John also: Fabricius \"Joannis Damasceni, cirea a. C. 756 defuncti (6), discipulus\"; Gallandi \"Discipulus et auditor ſuit Joannis Damasceni\"; Mai notice: \"Turrianus aliquoties Damasceni discipulum nominat\"; Franciscus Turrianus translated opuscula (\"Veriit prater Genebrardum Franciscus Turrianus\" (scan))",
+    "witness": "PG97 (theodore-abu-qurrah_opuscula-with-andrew-crete-malalas-pg97-grc-lat_migne1860.txt), l.121547-121548, l.122201, l.122058-122059, l.121569",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Graf: \"Direkte Zeugnisse dafür, daß er ein Schüler des heil. Johannes von Damaskus war, fehlen\"; the heading διὰ φωνῆς Ἰωάννου \"ist aber so lange von wenig Belang, als nicht die Echtheit dieses und ähnlicher Dialoge erwiesen ist\"; John \"vor 754, nach den neuesten Untersuchungen von Vailhe am 4. Dezember 749 gestorben\"; Abu Qurra \"müßte ... ein außergewöhnlich hohes Alter erreicht haben\"; \"persönlichen oder auch nur literarischen Einfluß\"",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.675-693, l.727-741",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Abu Ra'ita: Jacobite contemporary (\"ein Theologe der jakobitischen Sekte\"), \"Abu Räita Chabib ibn Chadma aus Takrit\", letters in \"Cod. Paris. ar. 169 (geschr. 1654)\"",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.785-793",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Letter 3: the patrician wants him to come \"damit eine Zusammenkunft stattfinde zwischen Abu Qurra, dem Weisen, und mir\"; \"Dein Brief ... hat mich angetroffen gefangen und gebunden und in der Unmöglichkeit, eilends deinem Befehle zu entsprechen\"; \"Es ist Eliän, der Diakon, ein naher Verwandter von mir ... daß er mein Schreiben ... vorlese in dreimaliger Wiederholung vor der Unterredung des Abu Qurra\"",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.799-814, l.839-844",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Abu Ra'ita: \"Ich erkenne den Abu Qurra, den Philosophen\"; deceit \"damit sie ihn nicht für einen offenen Nestorianer halten\"; \"der Lügner und Irrlehrer Nestorius\"; also \"O Weiser\", \"Gelehrten\"; complains of \"die Beschimpfung und Anklage des Abu Qurra\" over adding \"Gekreuzigte\" to the \"Heilig\"",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.850-882",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Letter 4 addressed to \"Abu '1-Chabbäs, den Patrizier, Asüchä ibn Sinbät\" (scan); Graf: \"Der Zeit nach kann hier nur Asut, Sohn des Sembat, 804—824, in Betracht kommen\", of the Bagratid house, dates from Samuel of Ani",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.846-849, l.1021-1040",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Opusc. IV heading (Latin, Migne): \"Epistola continens fidem orthodoxam, missa a bealo Thoma patriarcha Hierosolymitano ad hereticos in Armenia, Arabice dictata a Theo- ro, cognomento Abucara, episcopo Carum, et a Michaele presbytero et syncello Ecclesie llie- rosolymilane, in Grecum sermonem translata, der quem et missa est\" (scan); the Mai notice's Greek-Latin form: \"Arabice dictata a Theodoro cognomento Abucara episcopo Carorum, et a me minimo presbytero Michaele et syncello Eeclesiæ Hierosolymitane in Cræcum sermonem translala, per quem et missa est\" (scan)",
+    "witness": "PG97 (theodore-abu-qurrah_opuscula-with-andrew-crete-malalas-pg97-grc-lat_migne1860.txt), l.126170-126176; Mai notice l.122137-122144",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Graf: heading rendered \"der Bischof von KaQai war\"; Syncellus = \"Sekretär\"; Michael syncellus from 811 \"kaum zwei Jahre\"; \"Somit dürfte die Abfassungszeit jenes Sendschreibens ... in die Jahre 811 bis 813 fallen\"; Thomas \"ca. 807 bis 821\"",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.610-617, l.625-626, l.648-664",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Fabricius: Thomas \"patriarchatum haud obtinuit ante a. C. 802\"; Mai notice: Thomas \"paulo post septimum concilium illi Ecelesiæ præſuit\"",
+    "witness": "PG97 (theodore-abu-qurrah_opuscula-with-andrew-crete-malalas-pg97-grc-lat_migne1860.txt), l.121575-121576, l.122135-122136",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Michael the Syrian (\"gest. 1199\"), \"Der monophysitische Historiograph ... mit jakobitischer Parteifärbung\"; Graf cites Chabot \"Tome III. fasc. 1. p. 495\"; story via Graf's German only (held Chabot covers Books I-XI)",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.904-909, l.981-986",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Michael via Graf: \"Im Jahre 1125 ging ein Mann aus Edessa, ein Chalze- donensermit Namen Theodorikus (TheödoriqT), und Fuggälä^ beigenannt, nachdem er wenige Zeit Bischof von Charrän gewesen war und ... von seinem Patriarchen Theodoret diszipliniert wurde\"; to Alexandria, then Armenia, to \"Asüd, dem Patrizier\"; Cyriakus sent \"den Archidiakon Nonnus von Nisibis\"; \"Nonnus, ein junger Mann\"; \"Puggälä schon in der ersten Sitzung gebrochen\"; \"ging fort mit Schande\" (scan)",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.914-965",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Graf: Michael \"nicht in allweg zuverlässig\"; matching points: \"1. Er stammte aus Edessa. 2. Er war Bischof von Charrän\" ... \"6. ... persönlichem Verkehre mit dem armenischen Patrizier Asüd\"; rejected: \"die Absetzung durch den Patriarchen, die erfolglose Reise nach Alexandrien, die Niederlage in der Diskussion ... verrät ... einseitig-tendenziösen Charakter\"; \"1125 Gr. = 813 D\"",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.978-1008, l.1016-1017, l.1061-1067",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Puggala: \"Puggälä bedeutet nämlich „Rettighändler\" ... und ist eine absichtlich verdrehte Übersetzung und Mißdeutung von qurra\"; Graf: \"unter verändertem Namen\"",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.1116-1126, l.900-902",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Vardan via Ter-Minassiantz via Graf: the Syrian deacon \"Nana ... gegen den Chalzedoniker Epikur gekämpft und ihn besiegt\"; Epikur \"wollte den Fürsten Asot Bagratuni zum Abfall zum Bekenntnis von Chalzedon veranlassen\"; \"Epikur ist Abu Q.urra, Nana ist Nonnus, und Buret ist Abu Räita (H. Goussen ...)\"",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.1073-1091",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Barhebraeus via Graf: \"bis zur Zeit des Maximus, eines Mönches, des Theodoriqi des Charraniten und des Johannes des Damaszeners\"",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.1098-1108",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "XI heading names \"der heilige Anha Theodorus, Bischof von Charrdn\" (scan, across a line break); Kap. I: \"o unser Bruder Anba Janah\", \"viele Christen die Verehrung der Bilder Christi, unseres Gottes, verlassen\", because \"die Gegner des Christentums und namentlich diejenigen, welche vorgeben, ein von Gott geoffenbartes Buch zu besitzen, die Christen ... des Götzendienstes ziehen ... und sie verspotteten\"; Graf: \"Bischof war letzterer jedenfalls\"; \"anbä\" probably a copyist's",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.14061-14065, l.14077-14130, l.14094-14114",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Close of XI: \"Nimm an diese Gabe von unserer Armseligkeit, unser Bruder Anba Jannah! ... Gedenke unser immerfort in deinen Gebeten und rufe Christus an, daß er ... uns in Wahrheit zu einem Bilde von sich mache, das, hier in unserer Seele aufgestellt, wie in einem blanken Spiegel geschaut wird\"",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.16946-16958",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Graf on XI: Muslim critics treated \"mit welcher Zurückhaltung und Schonung\"; \"Invektiven gegen die Juden\"; Jews and Moslems mock (\"Verspottung seitens der Juden und Moslime\")",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.557-583",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Pre-787: Theodore cites the first six councils and never the seventh \"(787) ... selbst da nicht, wo er es unter keinen Umständen hätte übergehen können, in seiner dem Bilderkult gewidmeten Verteidigungsschrift (XI)\"; \"Demnach fällt wenigstens ein Teil seiner schriftstellerischen Tätigkeit schon vor das Jahr 787\"; XI allows \"eine noch weniger bestimmte Fixierung\"",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.478-491, l.557-559",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Name: \"Abu Qurra — dies die richtige Lesung für die gräzisierte Form — ... der „Vater der Erquickung\" bedeutet\"",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.463-465",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Latin form \"THEODORUS ABUCARA CARUM EPISCOPUS\"",
+    "witness": "PG97 (theodore-abu-qurrah_opuscula-with-andrew-crete-malalas-pg97-grc-lat_migne1860.txt), l.121462-121465",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "See: some manuscripts read Xaρράν, Graf l.319-322; Mai notice: \"quidam ... Xaþp&v exprimunt, ut ... in codice Vaticano 492\" (scan); Harles note (5): Charan \"placuit Colelerio, et ante Cotelerium Turriano\"; Gallandi: \"Alii Charræ in Mesopolamia episcoputu facjunt, ut Cotelerius, Turrianus, Itigius\"; Le Quien \"Quidni posterioris hujus civitatis præsul Theodorus noster fuerit\" (Cara trans Jordanem); Fabricius \"cui in ea non audeo assentiri\"; Gallandi \"tanti non est apud Fabricium\"",
+    "witness": "PG97 (theodore-abu-qurrah_opuscula-with-andrew-crete-malalas-pg97-grc-lat_migne1860.txt), l.122126-122128, l.121595-121596, l.122199-122201, l.121482-121493; PG94 (john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860.txt) l.116620-116622; GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt) l.319-322",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Caria: Gretser (scan) \"Arbitror enim Theodorum nostrum Alucaram, alium non ſuisse, quam illum, qui cum Photianas partes contra Ignatium ... rzsulem $ecuins ſuisset\" ... \"in ovtava synodo cecume- nie> admissi piaculi veniam impetravit\"; his dilemma: \"aut Abncaram ſerme adhne puerum Damasceno operam dedisse, aut octogesimum -ztatis annum 4longe transcendisse\"; Assemani: \"Caries amem fuit Archiepifeopus, & i Photio Sedis Conllantinopolitanx incubatore , cujus partes aliquando (cquutus cil\" (scan; read Cariae autem ... sequutus est)",
+    "witness": "PG97 (theodore-abu-qurrah_opuscula-with-andrew-crete-malalas-pg97-grc-lat_migne1860.txt), l.122322-122339; ASSEMANI (assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt) l.99466-99471",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Against the Caria identification: Fabricius \"haud dubie distinguendus\"; Le Quien \"verisimile prorsus non est\"; Mai notice \"assentior Turriano\"; Graf: \"stützt sich ohne ernstere Begründung allein auf den rätselhaften Zusatz Φωτίου\" in opusc. XL, \"nur einige Zeilen umfassenden\"",
+    "witness": "PG97 (theodore-abu-qurrah_opuscula-with-andrew-crete-malalas-pg97-grc-lat_migne1860.txt), l.121554-121558, l.122148-122150; PG94 (john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860.txt) l.116610-116614; GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt) l.340-343",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "al-Ma'mun disputations: manuscripts Paris ar. 70, 198, 215 and Karshuni copies; Renaudot: \"Abuco- rx,qui vulgo a Grxeis Abucaras dicitur, Difputatio Apologetica pro Religione Chriftiana coram Almamohe Califa\" (scan); Graf: identity \"ist rundweg zu verneinen\", the debate's \"Geschichtlichkeit und Tatsächlichkeit\" also rejected; whether he debated the caliph \"kann weder bewiesen noch schlechthin verneint werden\"",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.3700-3724, l.3871-3887, l.3965-3967; RENAUDOT (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.23595-23597",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Manuscripts: BL manuscript \"die aus dem Sabaskloster bei Jerusalem stammt und i. J. 877 geschrieben ist\", printed by J. Arendzen; Basilius Finan's copy \"im Monat Juni des Jahres 1735 (sie)\" from an exemplar dated \"6559 unseres Vaters Adam (==1051 D)\"",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.367-372, l.395-435",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gretser: \"Im Jahre 1606 veröffentlichte der gelehrte Ingolstädter Jesuit Jakob Gretscher zum erstenmal 42 griechische Opuscula\"; Gallandi: \"Tria et xl ejus opuscula circumferuntur\"",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.275-277; PG97 (theodore-abu-qurrah_opuscula-with-andrew-crete-malalas-pg97-grc-lat_migne1860.txt) l.122206",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Georgian Life of John and Euthymius: Euthymius translated \"Balahvarum, Abucuram, nonnullosque alios libros ex hiberico sermone in graecum\"; Graf: Euthymius \"vom Berge Athos (gest. 1028)\"",
+    "witness": "PEETERS (peeters_histoires-monastiques-georgiennes-in-analecta-bollandiana-36-37-lat-fra_1917-1919.txt), l.839-840; GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt) l.4161-4164",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Euthymius of Tyre and Sidon: \"im Jahre 1720 mit größeren Auszügen aus dem Mimar über die kirchliche Lehrautorität ... die Notwendigkeit der Union mit der römischen Kirche begründete\"; Graf found no earlier citation (\"weder auf eine namentliche Zitation noch eine schweigend gemachte Benutzung\")",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.4103-4115",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Petavius quoted by Newman's note: \"Petav. de Trin. ii. 5. n. 7, quotes the following passage from Theodorus Abucara, ‘Since the Son’s generation does but signify His having His existence from the Father, which He has ever, therefore He is ever begotten.\"",
+    "witness": "NPNF (npnf204_athanasius-select-works-letters.xml), l.42149-42152",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Grotius quotes \"Theodore Abucara, Bishop of the Carians, Discussion xv. Chap. v.\" (Leiden 1617, tr. Foster 1889)",
+    "witness": "GROTIUS (grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt), l.12316-12321",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Graf: \"Nur sein Ruf als gewiegter Disputator ist geblieben, sogar bei gegnerischen Geschichtschreibern ... Seine Werke selbst haben auf einheimischem Boden nicht fortgelebt\"",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.4086-4091",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Georgian Mar Saba history via Goussen: \"Theodor Abukara, die jüngste Frucht des gesegneten Saba, der Erzhirte Syriens und der Wundertater Bab\\'loniens\" (scan)",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.773-777, l.816-818",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gretser: \"doetus est, argutus, elegans, invictusque monstrorum domitor\" (scan)",
+    "witness": "PG97 (theodore-abu-qurrah_opuscula-with-andrew-crete-malalas-pg97-grc-lat_migne1860.txt), l.122248-122249",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "His see",
+    "sides": [
+     "Harran (Charran, Carrhae) in Mesopotamia: the Arabic headings, Turrianus, Cotelier, Ittig, Graf (GRAF l.666-668, 1152; PG97 l.121595-121596, 122199-122201)",
+     "Cara beyond the Jordan: Le Quien (PG94 l.116620-116622); Fabricius does not agree (PG97 l.121493)",
+     "Caria: Gretser and Assemani (PG97 l.122322-122339; ASSEMANI l.99466-99471)"
+    ]
+   },
+   {
+    "claim": "Same man as Theodore of Caria of the council of 869",
+    "sides": [
+     "Yes: Gretser, Assemani (PG97 l.122322-122339; ASSEMANI l.99466-99471)",
+     "No: Fabricius, the Mai notice, Le Quien, Graf (PG97 l.121554-121558, 122148-122150; PG94 l.116610-116614; GRAF l.340-343)",
+     "Turrianus, reported both ways: Le Quien says he took the two for one man (PG94 l.116610-116611); the Mai notice follows him in keeping them apart (PG97 l.122124-122125, 122148-122150)"
+    ]
+   },
+   {
+    "claim": "Pupil of John of Damascus",
+    "sides": [
+     "Yes: Turrianus, Fabricius, Le Quien, Gallandi, from the heading of dialogue 18 (PG97 l.121547-121548, 122058-122059, 122201; PG94 l.116606-116614)",
+     "No direct proof; chronology strained; influence personal or literary: Graf (GRAF l.675-693, 727-741)"
+    ]
+   },
+   {
+    "claim": "Defeat by Nonnus of Nisibis in Armenia",
+    "sides": [
+     "Yes: Michael the Syrian, Jacobite, partisan, via Graf (GRAF l.914-965); Vardan via Ter-Minassiantz, via Graf (GRAF l.1077-1086)",
+     "Rejected as one-sided: Graf (GRAF l.1061-1067)"
+    ]
+   },
+   {
+    "claim": "Debates before the caliph al-Ma'mun",
+    "sides": [
+     "His: several manuscripts; Renaudot lists one (GRAF l.3700-3724; RENAUDOT l.23595-23597)",
+     "Spurious, and not historical in that form; whether he ever debated the caliph can be neither proved nor denied: Graf (GRAF l.3871-3887, 3965-3967)"
+    ]
+   },
+   {
+    "claim": "Thomas of Jerusalem's dates (bearing on the letter to the Armenians)",
+    "sides": [
+     "c. 807-821: Graf (GRAF l.625-626)",
+     "not before 802: Fabricius (PG97 l.121575-121576)",
+     "soon after the council of 787: the Mai notice (PG97 l.122135-122136)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "birth date, parents, family",
+    "note": "No held source gives them; Graf's c. 740 is 'ungefähr' (GRAF l.1157-1158), Peeters 'circiter'. Searched all of cic/texts for abu qurr*, abucar*, abukar/abukur, Ἀβουκαρ, qurra/kurra variants, Theodor* with Harran/Charran, Pugg/Pygl/Nonnus/Asoud."
+   },
+   {
+    "detail": "date of entry to Mar Saba; ordination or consecration date and consecrator; length of episcopate",
+    "note": "None held; Graf's 'Später' (l.1152) is undated. No held line gives 795 or 'c. 810' for the bishopric (census people[1] and sources[1])."
+   },
+   {
+    "detail": "death date, place, burial; feast day",
+    "note": "None held; Graf 'ungefähr ... 820', Peeters 'videtur'."
+   },
+   {
+    "detail": "Michael the Syrian Book XII, Abu Ra'ita's letters, Barhebraeus, Vardan, the Georgian Mar Saba history",
+    "note": "Not held. Held Chabot covers Books I-XI only (grep for Pygl/Puggal/Théodoriq/Aboucara finds nothing; 'Nonnus' hits are namesakes). These are known only through Graf's German."
+   },
+   {
+    "detail": "any early Life",
+    "note": "None held."
+   }
+  ]
+ },
+ "stephen-of-mar-saba": {
+  "claims": [
+   {
+    "claim": "Raiders: \"sed pecuniarum huc caussa advenimus : unum e duobus eligendum superest : ut aut pecuniam exhibeatis nobis (summam indicabant) aut sagittis nostris interimamini\"",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.51229-51233",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Monks: \"humiles sumus et pauperes; adeoque ab omni specie affluentiz destituti, ut ne panem quidem habeamus ad satietatem\" (scan)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.51234-51237",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"immanem sagittarum imbrem jaculari, neque desistere prius quam pharetras vacuassent : ita e Patribus triginta circiter sauciati sunt\"",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.51243-51247",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"ad cellas digressi sunt grandibus saxis comminuentes ostia\"; \"interim dum horum incuriosi nos curabamus saucios Fratres, quos graviter pressos afflictosque in proximam deportantes cellam, et infixa jacula extrahentes, nihilo levius ipsis mceroris compassionisque telo transfixa gerebamus pectora\" (scan)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.51249-51257",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eyewitness: \"quam propriis ipse conspexi oculis, utpote unus eorum, qui sacram hauc Lauram inhabitantes ibidem reperti sunt in illa funesta eorumdem irruptione\" (scan); Greek \"ἧς αὐτόπτης xal θεάτης γέγονα εἷς ὧν τῶν τὸν εὐαγῆ ταύτην λαῦραν ... οἰκούντων\" (scan); margin \"oculatus Lestis\" (scan)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.50539-50542, l.50594; l.229174-229176",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Greek title: \"τῶν ἀναιρεθέντων ὑπὸ τῶν βαρθάρων ἤγουν Σαραχήνων ἐν τῇ ᾿ ... μεγίστῃ Λαύρᾳ τοῦ\" (scan); heading \"IN LAURA S. SAB/E PROPE ... HIEROSOYLYMAM\" (scan)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.229124-229133; l.50248-50257",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Laura of cells and church: the raiders go \"ad cellas\" and debate burning \"de ecclesia\"; the narrator's gloss of laura as cells around a church rests on these lines",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.51249-51250, l.51274-51286",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "The Greek title names no author; the prologue and body never give the author's name (see absent_details)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.229124-229131, l.50503-50548",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bollandists' heading: \"ACTA MARTYRII Auctore Stephano Monacho Sabaita\"",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.50493-50496",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"Sabaitam hunc Stephanum ... auctorem fuisse hujus narrationis constat ez Vita, alterius: similiter. Sabaitze Stephani, quem Thaumaturgum et S. Joannis Damasceni .Nepoiem dictum videbimus ad xut vel xiv Julii\" (scan)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.50429-50433",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "\"In illa autem. Vita noster hic Stephanus Laurse totius decus et ornamentum nuncupatur\" (scan)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.50433-50435",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "\"Hierosolymitanum | Typicum etiam. festivam illius commemorationem xxvii. Octobris faciendam prascribit, Poetze titulo ipsum a priori distingwens\" (scan)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.50435-50438",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Wonderworker died before the raid: \"Alioqui prius ille e vivis excesserat, quam hzc tempestas in Lauram incurreret\" (scan)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.50443-50444",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Index: \"Stephanus monachus Sabaita Thawmaturgus, et nepos S. Joannis Damasceni\" and \"Stephanus monachus Sabaita, poeta, scriptor Martyrii xx monachorum\" (scan)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.241961-241965",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bollandists edited the Acta Sanctorum; file header: \"Joannes Bollandus, G. Henschenius and D. Papebrochius\"; copy made \"anno 1662\"",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), file header l.1-3; l.50419-50424",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Abbot's order: \"Verum.ego quid faciam? ... abdere atque coarctare meipsum intra silentii secreta maluerim : sed sancti Pvzesidis imperio urgeor ... grave atque inevitabile inobedientiz periculum pertimesce\" (scan); \"qualem optimus hie Pastor Basilius a nostra tenuitate conteri voluit\"; margin \"He,ume»i sui Basilii mandaio hanc historiam svribat\" (scan); Greek \"ἱεροῦ δὲ Ἰ]Ποιμένος ἐπιτόγματι χελευόμενος\" (scan)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.50524-50536, l.50585-50591; l.229159-229162",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Purpose: \"ne scilicet tanta virtus ae fortitudo Christiana talium virorum pro veritate certantium cum tempore przterfluens evanescat\" (scan)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.50542-50545",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Year: \"A nno, ab orbe condito, sexies millesimo ducentesimo octogesimo octavo ... septingentesimo octogesimo octavo, Indietione quinta; cum Hierosolymitang Ecclesi: beatissimus Patriarcha Elias, et magnam hane Lauram ... Dasilius venerabilis gubernaret\" (scan); Greek \"ἑξακισχιλιοστῷ διαχοσιοστῷ ὀγδοηχοστῷ ὀγδόῳ ... ἑπτοακοσιοστοῦ ὀγδοηκοστοῦ ὀγδόου, ᾿Ινδιχτιῶνος πέμπτης\" (scan)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.50556-50557, l.50600-50624; l.229190-229198",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bollandists' text: \"Hoc (juxta ea qua ad. Theophanis | Chronologiam notavimus) annum. nobis pccxcvi signant\" (scan: DCCXCVI = 796); \"nam. Alecandrinz Fre annis octo ram communem subsequenti, adjiciendus est annus unus, Phocz, ob caussam ibi explicatam. detractus, itaque ad. Indictionem indicatam. pervenitur\" (scan): the commentary goes on to add one year to the Alexandrian count to reach the fifth indiction, which the volume's essay on Theophanes makes 797",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.50454-50460",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Bollandists' margin: \"statim post r€5i gestam, scilicet post Pascha anni 797\" (scan), beside \"S. Stephanus Poeta\" (the margin dates the writing, soon after the raid; read so, it puts the raid in 797)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.50373-50387",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Essay on Theophanes's chronology, opening the volume (\"OBSERVATIONES PERQUAM UTILES AD 5. THEOPHANIS CHRONOGRAPHIAM\" (scan)); Theophanes is \"Magni-agri in Sigriana Hegumeni Confessorisque\" (scan); \"vide xx Martii probatum in Martyribus Sabaitis\"; the writer counted by the Alexandrian era \"et annum unum ex more omisisset computare\"; \"cum quinta Indictio annum nostrum pccxcvir signet\" (scan: DCCXCVII = 797)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.667, l.1116-1118, l.2736-2750",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Chronological index: \"INDEX CHRONOLOGICUS TOMI III MARTII\"; \". 797 Martyres xx mon: chi Laurg S. Sabze\" (scan)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.9259, l.9493",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Note e on Christopher (\"Testor Christophorum ... ex. Persica infructuosaque oleastro\"): \"anno Christi 189, quando Pascha incidit in 19 Aprilis septennio ante horum Patrum passionem\" (scan: 189 for 789)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.53420-53424, l.53478-53480",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Graf: \"Dem im März 796 oder 797 durch Beduinen angerichteten Blutbad, dem zwanzig Mönche zum Opfer fielen, entkam er\"",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), l.645-647",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Day: \"Martyres suos in diem xx Muti, id est, Majoris hebdomada feriam quintam\" (scan: Muti for Martii); Acts margin \"cum. passi sint Patres feria ὃ kcbd. sanctas\" (scan)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.50486-50487, l.50563-50567",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "When he wrote: \"Statim autem. scripsisse opinamur post. barbarorum discessum, reverso üd monasterium. qui abfuerat Hegwmeno Basilie\" (scan)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.50438-50441",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Sergius: \"Damascenus igitur ... quis, cui Sergius nomen ... cum nosset ibidem in profundo locum, in quo sacrarum rerum nonnulla ad ecclesiam pertinentia recondita fuerant ... timuit ne forte sustinend: tormentorum violentize ... impar humana imbecillitas secretum revelaret\" (scan); margin \"ne vasa ecclesia cogatur prodere\"; \"Ideoque vir beatus consultius credidit fugam capessere\"",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.51696-51725",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Sergius caught: \"Ego quidem ad imperium vestrum heud quaquam illuc usque redibo\" (scan); \"prout Fratrum quidam eum eo deprehensus narravit, postquam illo ezeso rediisset\" (scan); \"beatique viri cervicem percussit\"",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.51721-51757",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Patricius: \"de illis septem [ totidera enim numerabantur]\"; \"Patricius nomine ... ego pro vobis periculum hodie mortemque subeo : ego pro vestra libertate crudelium barbarorum manibus ipse me trado\" (scan)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.51893-51907",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Cave: \"in idem antrum immissis Patribus, copiosiorem quam antea excitavere fumum\"; \"fumi vehementiam minime sustinentes, sanctas animas Christo Domino commendarunt, numero decem et octo reperti\"",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.52205-52215",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nineteenth: \"adjunxerunt ad ipsos decimum nonum Abbatem Sergium, cui antea diximus caput rescissum\"",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.52338-52345",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Twentieth: an elder whose hand was wounded by a sword refused amputation, \"renuit omnino curationem : unde putrefactis carnibus ... sanctisque appositus Martyribus vicenarium numerum adimplevit\" (scan)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.52740-52753",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Martyrs though killed for money: \"Sancti quoque Patres in monte a Sina atque Raitho occisi nonne, quas non habebant pecunias postulati, injustissime sunt à barbaris jugulati ? Atqui ne in minimo quidem eorum diversa causa est ab his\"",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.52683-52690",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Close: \"Quin et. indigni famuli vestri reminiscimini, despicabiles vobis sermonis sui primitias offerentis, atque accinentis hymnos\" (scan); Greek \"τοῦ ἀναξίου ὑμῶν οἰκέτου, τοῦ ἀναξίαν ὑμῖν τοῦ λόγου τὴν ἀπάρχην προσενηνοχότος xal ὕμνους ὑφαίνοντος\" (scan)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.53326-53328; l.231576-231578",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Written for reading in church: \"quam scribendis temere se sermonibus ingerant, quos in ecclesia sacrisque conventibus necesse sit recitari\"; Stephen counts himself among such writers: \"Equidem horum omnium me insimulandum cognoscens\" (scan)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.50512-50514, l.50524-50525",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Self-description: \"Quod si praeterea indoctus aliquisatque eloquentiz expers fuerit\" (scan); margin \"Eacusat quod peecator eL i.do.ius\" (scan)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.50517-50519, l.50576-50579",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Civil war: \"in regione Palesünorum inter Saracenorum Tribus civile bellum exortum est ingens\" (scan)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.50622-50625",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Codex: \"descripsimus anno 1662 ex probatissimo annorum. plusquam sexcentorum codice Petri Seguleri Cancellarii Franciz ... cui codici utinam par. alius repertus fuisset, ad. supplendas foliorum hinc inde deficientium lacunas\" (scan); \"Deest folium in MS.\"",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.50420-50427, l.51554",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Latin as the Bollandists' translation: the Acts printed \"ex MS Graeco Petri Seguiery Cancellarii Francia\"; Greek in the appendix \"ex Codice Membraneo MS. Petri Seguierii Cancellarii Franciz\" (scan)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.50496-50500; l.229131-229138",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Canon: \"POEMA DE IISDEM ... ez: Magnis Menzis. auctore eodem Stephano Sabaita\"; acrostic \"ὝΜμνοις γεραίρω Μάρτυρας ὁμοτρόπους. Morwm eorumdem. Martyres hymnis cano\" (scan; no name)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.53483-53493",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "\"Nam Canones p«r Officium ecclesiasticum. distributos. composuit Stephanus Sabaita idem qui acta conscripsit\" (scan)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.50414-50417",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Menaia office: \"ut totum hujus diei Officium in. Menzis excusis, adaptatum unis hisce inveniatur\" (scan)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.50302-50304",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Raiders' identity: Menologion of Canisius \"Certamen SS. Patrum interfectorum ab JEthiopibus\" (scan); \"Fuere quidem ZEthiopes sive Mauri (sic enim in Typico nominantur hoc loco) aliqua ez parte ministri czdis, sed mom soli; auctores vero nullo modo : quippe qui nihil egerint nisi coram dominis suis \"d rabibus\" (scan)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.50320-50328",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Nikodemos, 20 March, the Sabaite fathers: \"τους άθεους Αιθίοπας, τους χαλουμένους Μαύρους ή Μωρούς\" (scan); no author named",
+    "witness": "NIK (nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900.txt), l.5248-5274",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nikodemos, 28 October: \"ΣΤΕΦΑΝΟΥ τοϋ Σαΰΰαίτου, τοΰ χαϊ 'Κταοχύιχου γενομέγον\" (scan, for Σαββαΐτου ... Ἐπισκόπου); \"ήκμαζεν έν ετει ψ/ (790)\"; \"εΐσελθών δηλαδή εις τήν Λαύραν τοϋ μεγάλου πατρός Σάββα\" (scan); \"ήξιώθη καί τοϋ χαρίσματος της άρχιερωσύνης\" (scan); no link to the Passion; the Typikon's feast for the Poet is 27 October (AASS l.50435-50438)",
+    "witness": "NIK1 (nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt), l.23272-23299, l.23319",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nikodemos's dates \"(1748/9-1809)\"; Synaxaristes vol. 2, March to August, catalogued 1900",
+    "witness": "NIK (nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900.txt), file header l.1-4",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hearsay marked: \"Non abscondam silentio quod mihi fide dignissimus Presbyter enarravit\" (scan); Sergius's words via a brother (see above)",
+    "witness": "AASS (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt), l.53066-53067; l.51750-51751",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Graf's book: \"Die arabischen Schriften des Theodor Abû Qurra\", translated by Georg Graf, 1910",
+    "witness": "GRAF (theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt), file header l.1-4",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "The year of the raid",
+    "sides": [
+     "The Acts: AM 6288 by the church reckoning, AD 788, indiction 5 (AASS l.50556-50557, l.50600-50624; Greek l.229190-229198)",
+     "The Bollandists: 797, the year of the fifth indiction, in the volume's essay on Theophanes (AASS l.2736-2750), its chronological index (l.9493) and their margin, which has Stephen writing just after Easter of 797 (l.50373-50387); one figure in their commentary reads DCCXCVI, 796, in the scan, and the passage goes on to add one year to reach the fifth indiction (l.50454-50460); their note e puts Christopher's death in 789 (scan 189), seven years before the twenty's passion, and names no year for the twenty (l.53478-53480)",
+     "Georg Graf, 1910: March 796 or 797 (GRAF l.645-647)"
+    ]
+   },
+   {
+    "claim": "The author's name and identity",
+    "sides": [
+     "The held Acts, Greek and Latin, never name their author (AASS l.229124-229131, l.50503-50548)",
+     "The Bollandists: Stephen the Sabaite, the Poet, on the witness of the unheld Life of Stephen the Wonderworker, from whom they distinguish him (AASS l.50429-50438, l.50496, l.241961-241965)"
+    ]
+   },
+   {
+    "claim": "Who the killers were",
+    "sides": [
+     "The Menologion of Canisius and the Typikon: Ethiopians or Moors, as the Bollandists report (AASS l.50320-50325); Nikodemos: Ethiopians called Moors (NIK l.5248-5274)",
+     "The Bollandists: Ethiopians at most some of the killers, under Arab masters (AASS l.50324-50328); the Greek title: barbarians, that is, Saracens (l.229127); Graf: Bedouin (GRAF l.645-646)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "An author's name inside the Acts",
+    "note": "Read the Greek title (AASS l.229124-229136), the Latin prologue (l.50503-50548) and the closing prayer (l.53318-53332): no name. The name is the Bollandists' heading (l.50496)."
+   },
+   {
+    "detail": "The name Mansur for this man",
+    "note": "Searched all cic/texts for \\bMan[sṣ](o?u|ū)r\\b, Μανσο[υύ]ρ, منصور, Mansurus. AASS has only the Latin words mansurus/mansura; elsewhere Mansur names John of Damascus (e.g. PG100 l.128562). Dropped."
+   },
+   {
+    "detail": "Kinship with John of Damascus",
+    "note": "No held line makes the author John's relative; the Bollandists give the nephew as Stephen the Wonderworker, a different man (AASS l.50429-50433, l.241961-241965)."
+   },
+   {
+    "detail": "The Life of Stephen the Wonderworker",
+    "note": "Promised by the Bollandists for July (AASS l.50432-50433); not in cic/texts (searched Thaumaturg… Stephan, Στέφαν… Σαβα, Stephan… Saba)."
+   },
+   {
+    "detail": "Birth, family, age, office, death, burial",
+    "note": "Searched all of cic/texts for Stephan/Stephanus/Stefanos/Στέφαν/Étienne/اسطفان with Saba/Sabas/Sabaita/Σαββαΐτ/Mar Saba, with Poeta/ποιητ/melod/hymnograph and with Thaumaturg, including OCR line splits: nothing for the author. Namesakes: the Wonderworker (PG94 l.5332-5335, l.35211; PG99 l.72016, l.72454; Papadopoulos-Kerameus t.4 l.12941-12962); a 28 October Stephen the Sabaite, a disciple of Saint Sabas by Le Quien (PG94 l.8858-8860), and a bishop flourishing in 790 by Nikodemos, vol. 1 l.23272-23316, who does not tie him to the account."
+   },
+   {
+    "detail": "An English translation, and Georgian or Arabic versions",
+    "note": "None held in cic/texts."
+   }
+  ]
+ },
+ "ishoyahb-iii": {
+  "claims": [
+   {
+    "claim": "Vision: \"when he was lying on the bed of his holiness, half asleep* and half awake, a vision in which a large eagle, strong of body and long of pinions, and having many eaglets upon his back, went forth from the martyrium where Rabban Jacob was buried, and flew away from the monastery towards the north\"",
+    "witness": "TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.6755-6761",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "\"he called for the sacristan by the hand of his disciple\"; the sacristan: \"A short time ago the head of the monastery and Beriz Sur^n came with seventy men, and they took the body of Rabban Jacob and departed\" (scan)",
+    "witness": "TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.6766-6787",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Ishoyahb \"wished to build a school near his cell\"; the monks: \"in this monastery a school shall not be built, for if thou dost build a school here, we shall all depart\"",
+    "witness": "TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.5860; TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.6618-6620",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "\"he rose up on that day and wrote to the holy men to come back to their monastery. And he departed to Kuphlana his village, and he built there the school which he had prepared to build in this monastery\"",
+    "witness": "TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.6792-6795",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Beth 'Abhe in the Mosul district: \"sepultus est in coenobio Ba'abae in ditione mosulensi\"; Jacob its founder: Sahdona \"disciple de Jacques, fon- dateur du couvent de Beith 'Abe\"",
+    "witness": "MARI (mari-ibn-sulayman_de-patriarchis-nestorianorum-commentaria-pars-prior-ara-lat_gismondi1899.txt), l.13492-13493; SEERT2 (chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919.txt), l.34464-34465",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Title page: \"BISHOP OF MARGA A. D. 840\"; \"Mar Isho'-yahbh of our convent\"; \"it came down by tradition, and was handed on to us by those men who were before us in this monastery\"; \"according to* what I have learned from others by the tradition which hath come down\" (scan); Labourt: Thomas \"écrit entre 832 et 850\"; Assemani: Thomas \"nono saeculo ineunte claruit\" (scan: \"nono foculo iueun- te\")",
+    "witness": "TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.94; TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.5733-5752; TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.5688-5690; TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.5750-5751; LABOURT (labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904.txt), l.17234-17235; ASS31 (assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt), l.78622-78626",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Of Adiabene: \"the holy M&r Isho'- yahbh of Adiabene arose as Catholicus\" (scan); Seert: \"I.s6'yahl) d'Adiai)enc metropolitain dc .Mossoul\" (scan); Elias: \"Yesu'yahb Adiabenus\"",
+    "witness": "TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.5782-5783; SEERT2 (chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919.txt), l.34489-34490; ELI (elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910.txt), l.3627",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"the disciple of Rabban, and the son of the good and honourable man of worthy memory, Bastohmagh, the nobleman from Kuphlana,* a city of Adiabene\" (scan)",
+    "witness": "TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.5495-5498",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "School of Nisibis: \"Hic ex eorum numero fuit , qui ex schola nisibena prodiere\" (scan); Duval: \"in schola celebri Nisibena litteris studuit\"",
+    "witness": "AMR (amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt), l.13285; DUV (ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905.txt), l.105-106",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bishop of Nineveh, then metropolitan: \"Prius Xinives episcopus, deinde Mosuli inctropolita ordinatus est\" (scan); Duval: \"Mosulae urbis episcopus primo et post aliquot annos Arbelorum et Mosulae metropolita factus est\"; Thomas: \"the believ- ing men who were in Nineveh chose as governor and head of the pasture of their city\"",
+    "witness": "AMR (amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt), l.13286-13287; DUV (ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905.txt), l.106-107; TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.5460-5462",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Embassy (Thomas): \"Mar Isho'-yahbh being obedient to the command of the good King Sheroe,* gathered together\" (scan); \"and with them were also our holy Ish6*-yahbh of Nineveh, and Sahdoni\" (scan); Duval: \"Anno 63o, cum amico suo Sah- dona urbis Mah6ze-d’Are\\van episcopo, comes datus est patriar- chae Iso^ahb II, quem regina Persarum Boran, ad Heraclium imperatorem, legatum de pace componenda mittebat\" (scan)",
+    "witness": "TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.5552-5553; TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.5632-5633; DUV (ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905.txt), l.108-111",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "\"Now when Isho'-yahbh^ of Gedhila had become Catholicus\" (scan); Budge: \"Isho'-yahbh 11. He sat from A. D. 628—644\" (scan)",
+    "witness": "TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.5459-5483; TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.5483-5484",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Anonymous chronicle: \"misit prudenter Mar [so*yabh catholicum ad Heraclium, pacis cum eo ineundae gratia. Eum catholicum comi-\" \"tabantur Cyriacus nisibenus nec non Gabriel urbis Karkha Gara- maeorum et Marüthà urbis Gustra\" (scan); Guidi: \"a monacho quodam nesto- rano, annis cireiter 670-680 compositum fuisse\" (scan); \"in regione Traq vel Khüzistan floruisse opinatur Noeldeke\" (scan)",
+    "witness": "GUIDI (chronica-minora-pars-prior-versio-lat_guidi1903.txt), l.2342-2345; GUIDI (chronica-minora-pars-prior-versio-lat_guidi1903.txt), l.1593-1597",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Seert: Boran \"demanda au Catho- licos Isoyahb d'aller vers TEmpereur\" (scan); \"accompagne de metropolitains et d'eveques\"; Scher: \"Thomas de Marga (lib. II, c. 4) place a tort cette ambassade sous Siroi\"; Budge: \"The Persian Mission of peace was despatched by Boran\"",
+    "witness": "SEERT2 (chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919.txt), l.30795-30814; SEERT2 (chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919.txt), l.30813-30814; TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.5557",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Duval: \"cum Sahdona fidem nestorianam de Incarnationis mysterio respuisset\"; \"Sahdonae sententiam acriter impugnavit Iso^ahb pluresque adversus eam epistulas conscripsit, ita ut e sede sua deiciendi Sahdonae revera causa luit\" (scan, for fuit); \"cum amico suo Sah- dona\"; Budge: \"Among the letters of Mar Isho*- yahbh are five which relate to Sahdona\" (scan)",
+    "witness": "DUV (ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905.txt), l.108-122; TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.5793-5794",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Thomas: \"Sahdona wrote books for those who denied* the correctness of the opinion that there are two natures and two persons in one created form. And when the holy M&r Isho'- yahbh of Adiabene arose as Catholicus, he expelled Sahdona from the Church\" (scan)",
+    "witness": "TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.5779-5784",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Seert: \"qui etait son ami, lui rcprocha sa cou- duite\" (scan); \"Mar Emmoh, ayant eu connaissance de leur condiiite, la condamna\" (scan); \"11 convocjua les Peres k Karkha de Guedan, les excommunia tous deux, deposa .Sahdoua de son episcopat\" (scan); Scher's note: \"non a Apaniee, ainsi que le dil Thomas de Marga\" and \"mais bieii en Perse, grAce aux disciples de Hnana\" (scan)",
+    "witness": "SEERT2 (chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919.txt), l.34468-34494; SEERT2 (chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919.txt), l.34466-34468",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Chronicle of Seert: \"anonymous Arabic compilation, dated by scholars between the 9th and 11th centuries\" (file header)",
+    "witness": "SEERT2 (chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919.txt), l.3-4",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Election (Amr): \"Quum autcrn Maremes obiisset, ipse ad ele- clioncm una cum palribus convcnit\" (scan); \"ne thronum invaderet\"; \"Rem tibi committimus, ut qiiemcumquc volucris, eligas\" (scan); \"quum subscriptiones eorura in teslimo- nium accepisset\" (scan); \"mihi porro ncmo ex prae>enli coelu aeque dignus videtur\" (scan); \"atqne ego\" (scan)",
+    "witness": "AMR (amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt), l.13287-13294",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Amr: \"Erat hic pater senex, doctus, probus, forti prae- ditus fidc ac zclo, indole prava\" (scan)",
+    "witness": "AMR (amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt), l.13282-13284",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Amr ibn Matta \"(fourteenth century)\" (file header); the catalogue runs \"usque ad lioc tempus [neinpe obilus Jaballahae ter-\" (scan, to the death of Yahballaha III)",
+    "witness": "AMR (amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt), l.2; AMR (amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt), l.11228",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Mari: \"ab electorum suf- fragiis designatus, Madainae constitutus est patriarcha iuxta praescriptum\"; Mari \"(twelfth century)\" (file header); his latest dated death: \"anni graecorum 1459\"",
+    "witness": "MARI (mari-ibn-sulayman_de-patriarchis-nestorianorum-commentaria-pars-prior-ara-lat_gismondi1899.txt), l.13481-13482; MARI (mari-ibn-sulayman_de-patriarchis-nestorianorum-commentaria-pars-prior-ara-lat_gismondi1899.txt), l.2; MARI (mari-ibn-sulayman_de-patriarchis-nestorianorum-commentaria-pars-prior-ara-lat_gismondi1899.txt), l.9488",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Own letter, Part III no. I: \"Ad Isaac Nisibenuji, de erectione sua ad Catholicatum\" (scan); \"in spe debili quam posuit populus Domini super virum infirmum qui sum\"",
+    "witness": "DUV (ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905.txt), l.7609-7626; DUV (ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905.txt), l.7625-7626",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Accession placings: Amr \"anno quinto •Otmani chaliphae, ac graocorum 9()2\" (scan, 962); Elias \"institutus est anno 4° regni 2 'Uthman\" (scan); Assemani \"ordinatus ri? Tatriarcba Modaitue an- no quinte Otbmani Cbalipb*\" (scan) \"qui in annum ChriilU 650. incidit\" (scan); Lamy \"Jesujabus Adiabenus successerit Maremi anno 647 vel 648, non 650 ut vult Assemanus\"; Budge \"He sat as Catholicus from A. D. 647—658\"; Budge \"On the death of Mar-emmeh 644 — 647, he was elected Catholicus\"; Sachau \"Jesujabh III., 647 — 658\"; Mingana \"(650-660)\"; Mackenzie \"Patriarch from 650 to 660\"; Yule \"(a.d. 650-660)\"; Jugie \"(650-660)\"; Duval \"Cum diem supremum anno 6 kj obiissel Maremmeh\" (scan, year unreadable)",
+    "witness": "AMR (amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt), l.13193; ELI (elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910.txt), l.3629; ASS31 (assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt), l.20391-20393; BH3 (barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt), l.7536-7537; TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.5519; TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.3535-3536; ARB (chronicle-of-arbela_die-chronik-von-arbela-deu_sachau1915.txt), l.1167; MING (mingana_early-spread-of-christianity-in-india_mingana1926.txt), l.1531; MAC (mackenzie_christianity-in-travancore_1901.txt), l.469; YULE (marco-polo_book-of-ser-marco-polo-v2_yule-cordier1903.txt), l.24215; PO19 (john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926.txt), l.19092; DUV (ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905.txt), l.124",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Death placings: Duval \"Anno 658 mortuus est lso'ynlib patriarcha Ill\" (scan); Budge \"sat until 657—658\"; Amr \"obiit anno graec. 971\"; Elias \"obiit anno 3° regui 'Ali\" (scan); Assemani \"Adjabenus obiit anno Clirirti ' icxcentefimo fexagefimo\" (scan, 660) and \"ab anno Cbrirti 650. ad annum d5o\" (scan, 660); Lamy \"Deces- sit autem, Denha maphriani munus apud Jaoobi- tas gerente, adeoque ante annum 660 quo Denha obiit\" (scan); Yule \"who died A. D. 660\"; Whitehouse \"(who died A.D. 660)\"; Bar Hebraeus \"Eo tempore, mortuus est Jesujabus tertius\" (no year)",
+    "witness": "DUV (ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905.txt), l.146-147; TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.3536-3537; AMR (amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt), l.13203; ELI (elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910.txt), l.3630-3631; ASS32 (assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt), l.3907; ASS31 (assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt), l.20329; BH3 (barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt), l.7520-7540; YULE (marco-polo_book-of-ser-marco-polo-v2_yule-cordier1903.txt), l.22472; WH (whitehouse_lingerings-of-light-in-a-dark-land_1873.txt), l.3181; BH3 (barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt), l.7520-7521",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Term: Elias \"vixit in catholicatu 9 annos et 3 menses\"; Amr \"Officio functus annis quinque supra quadraginta\" and \"Sederat annis sep^teiri- ^^_ mejisJbus tribus\" (scan)",
+    "witness": "ELI (elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910.txt), l.3630; AMR (amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt), l.13202-13208; AMR (amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt), l.13206-13208",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Bar Hebraeus (\"1226-1286\", file header): \"Hie\" resti- tit oithodoxis Mossuli ecclesiam sedi- ficare volentibus, multam pecuniam erogavit per dona quae judicibus obtulit , et sedificium impedivit\" (scan)",
+    "witness": "BH3 (barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt), l.7414; BH3 (barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt), l.4",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Lamy: \"Rem fusius narrat ipse Jesujabus Adiabenus in Epist. ad Oabrielem\" (scan); Duval: \"cum Iacobitis, qui iamdudum Assyriam invase- rant, multum pugnavit metropolita\"",
+    "witness": "BH3 (barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt), l.7434-7435; DUV (ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905.txt), l.116-117",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Arabs: \"Atqui Arabes isti (|iiil»us lerraruui imperium hac tempestate largitus est Deus, en apud nos sunt, ut nostis; nec solum cliristiannm religionem non impugnant, verum etiam fidem nostram commendant, sacerdotes sanclosque Domini nostri honorant, et in ecclesias coenobiaque beneficia conferunt\" (scan)",
+    "witness": "DUV (ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905.txt), l.8715-8719",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mazunaye: \"cum Arabes, ut ipsi Mazunaei fatentur, eos non compulerint ut suam religionem desererent, sed iusscrinl eos dimidium bo- norum suorum duntaxat cedere\" (scan); Duval \"Mazunaeorum\"; Assemani \"Maruanitarum\" and \"Maruanitariim , hoc cli urbis Maru incola'\" (scan); Mingana \"the country of Mazon, and not Ceylon or India\"; \"Mazon ( = Oman)\"",
+    "witness": "DUV (ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905.txt), l.8722-8724; DUV (ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905.txt), l.8602; ASS31 (assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt), l.23999; ASS31 (assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt), l.23107; MING (mingana_early-spread-of-christianity-in-india_mingana1926.txt), l.1666-1667; MING (mingana_early-spread-of-christianity-in-india_mingana1926.txt), l.956",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "India letter (Mingana's English): \"Simeon, Metropolitan of Riwardashir\"; \"as you closed the door of the episcopal ordination in the face of the many peoples of India\"; \"the episcopal succession has been interrupted in India, and this country has since sat in darkness\"; Duval: \"Simcon. urbis Beu ardasir, in Perside, mctropolita\" (scan)",
+    "witness": "MING (mingana_early-spread-of-christianity-in-india_mingana1926.txt), l.1553-1567; MING (mingana_early-spread-of-christianity-in-india_mingana1926.txt), l.1565-1567; DUV (ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905.txt), l.145-146",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Qatar letter (Mingana's English): \"like a man on whom is laid the burden of spiritual fatherhood, which in the Church of God is understood to extend to all\"",
+    "witness": "MING (mingana_early-spread-of-christianity-in-india_mingana1926.txt), l.1676-1677",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bishops sent: \"duos episcopos Huzaeorum ad eos qui in Perside commorantur rursus allegavi, tolidemque epi-\" \"scopos Mesenensium ad vestros\" (scan); \"donec formaretur in iis Christus\"; Mari: \"iter suscepit illumque ad suam obedientiara adduxit\" (scan); Budge: \"Our knowledge of the reasons of the dispute is limited\"",
+    "witness": "DUV (ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905.txt), l.9211-9215; MARI (mari-ibn-sulayman_de-patriarchis-nestorianorum-commentaria-pars-prior-ara-lat_gismondi1899.txt), l.13489; TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.6806-6807",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Kalah/Colon: Duval \"usque ad id quod vocatur Qalah\"; Assemani \"ufque ad Colon\" (scan); Mingana \"I believe with Reinaud\" \"that the Kalah has a connection with Ceylon\", Cordier \"representing in a general way the modern Singapore or Malacca\"; Yule \"Coilum, Kaulam, or, as we now write it, Quilon\"; Whitehouse \"Colon Quilon )\" (scan); Mackenzie \"as far as Quilon\"",
+    "witness": "DUV (ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905.txt), l.8746; ASS32 (assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt), l.3891; MING (mingana_early-spread-of-christianity-in-india_mingana1926.txt), l.1619-1630; YULE (marco-polo_book-of-ser-marco-polo-v2_yule-cordier1903.txt), l.22469; WH (whitehouse_lingerings-of-light-in-a-dark-land_1873.txt), l.3184-3185; MAC (mackenzie_christianity-in-travancore_1901.txt), l.471",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "China: \"Ante hunc y rm. a. BUt. Jefujabum fub cognomine Gadalenfi annoChrirti crjiJ. prxdicatores Evangelii in ipfumSinarum regnum penetrafle\" (scan); Seert: \"CXll. — llisToiiiK i)K Mau 1s6'y.\\hb...\" \"Lc rcstc itunKjue.\" (scan, Le reste manque)",
+    "witness": "ASS32 (assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt), l.3907-3909; SEERT2 (chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919.txt), l.34502-34503",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Letters: \"Epistulae supersunt hodie evi\" (scan; cvi = 106) in \"tres paries\" (scan): as bishop, as metropolitan, as patriarch; codex \"syr. CLVII; is codex, St. E. Assemano indice, saeculo decimo exaratus est, sed antiquior videtur et for- san ad finem saeculi octavi referendus\"",
+    "witness": "DUV (ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905.txt), l.218-223",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Duval: \"Auctoris nostri epistulae eximium exemplum huius scribendi generis apud Syros praebent\"; \"lingua syriaca adhuc pura vigente, et nondum sermone arabico detrusa\"",
+    "witness": "DUV (ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905.txt), l.211-214",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Office: Amr \"ordinavilque ofiicium per anni circuluui, uti nunc se habet\" (scan); Thomas: \"as before the time of Mar Isho^-yahbh of Adiabene^ the Catholicus, the orders of the services were performed in a confused* manner in every place\" (scan); \"to Mar Isho'-yahbh in arranging the Canons of the Hudhra\"; Duval \"Recognitio Breviarii nestoriani Hudra\"",
+    "witness": "AMR (amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt), l.13194-13195; TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.13041-13044; TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.8278-8279; DUV (ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905.txt), l.166",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Rites: \"Ordo baptismi\"; \"ordo con- secrationis altaris\"; \"ordo absolutionis apostatarum et haereticorum\"; \"lortasse adseribenda est liturgia de baptismo, quae apud Asse- mam, Bibi, orienl III, i, p. 1 1 1 , I§o'yahb 1 ° attributa est\" (scan)",
+    "witness": "DUV (ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905.txt), l.176-191",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Deathbed: \"it appeareth to me that of all our contemporaries it is most fitting that George should be Catholicus\"; \"he had not distinctly stated which George\"; Amr: \"utrum eorum designasset patres ignoraverunt\"; \"Ei voro adversatus est sodalis eius metropolita Nisibis\" (scan)",
+    "witness": "TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.7973-7983; TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.7979-7980; AMR (amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt), l.13219-13222; AMR (amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt), l.13222",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"the golden ' Book of the Gospels which our Mar Isho'-yahbh/ the blessed in everything, had bequeathed to this our monastery\" (scan)",
+    "witness": "TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.10244-10246",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mari: \"Eius tempore non pauci floruerunt doctores, ac annales ecclesiastici conscribi coepti sunt\"",
+    "witness": "MARI (mari-ibn-sulayman_de-patriarchis-nestorianorum-commentaria-pars-prior-ara-lat_gismondi1899.txt), l.13491-13492",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Antioch casket: \"saw a white marble casket upon which was the sign of the adorable Cross\"; \"some of the bones and portions of the bodies of the blessed Apostles\"; \"for he stole it and brought it with him here\"",
+    "witness": "TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.5656-5684",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Burial (Amr): \"SepuHu.'? est\" \"Jesujabus Mad;'.inae projie Mar Jacobum eius patronum\" (scan)",
+    "witness": "AMR (amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt), l.13204-13206",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Places: \"ordinatus osl patriarcha, Modainae\" (scan); \"ex regione Hazzae [nunc notae nomine Ar- bela\" (scan); Gismondi: bracketed words are Sliba's own, \"quae ei prae Amro propria sunt uncinis inclusa\"; Amr \"Jesujdbiis hazzensis\" (scan); Mari \"Jesujabus hazzensis\"; Duval \"Iso'yahb Adiabenus\"; Assemani \"Jefujabus Adjabenus\" (scan)",
+    "witness": "AMR (amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt), l.13282-13295, l.6398-6400; MARI (mari-ibn-sulayman_de-patriarchis-nestorianorum-commentaria-pars-prior-ara-lat_gismondi1899.txt), l.13481; DUV (ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905.txt), l.103; ASS31 (assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt), l.20320",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Apamea: \"when those holy men who went to the terri- tory of the Greeks (Asia Minor) were in the land of Apamea,^\" (scan)",
+    "witness": "TOM (thomas-of-marga_book-of-governors-v2-english_budge1893.txt), l.5699-5701",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Letters' themes: \"epistulae adversus Sahdonam, et adversus Simeonem, urbis Rewardasir metropo- litam, episcoposque Qataraeos ad sinum Persicum\"",
+    "witness": "DUV (ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905.txt), l.230-232",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether he went on the peace mission to Heraclius",
+    "sides": [
+     "Thomas of Marga: he went, with Sahdona (TOM l.5632-5633); Duval follows, 630 (DUV l.108-111)",
+     "Anonymous chronicle, c. 670-680 by Guidi (GUIDI l.1593-1594): names only Cyriacus of Nisibis, Gabriel of Karkha, Marutha of Gustra (GUIDI l.2343-2344); Seert names no companions (SEERT2 l.30801-30802)"
+    ]
+   },
+   {
+    "claim": "Who sent the mission",
+    "sides": [
+     "Thomas of Marga: King Sheroe (TOM l.5519-5520)",
+     "Anonymous chronicle (Guidi) and Seert: Queen Boran (GUIDI l.2341-2342; SEERT2 l.30790-30796); Budge, Duval and Scher agree (TOM l.5557-5558; DUV l.108-111; SEERT2 l.30814)"
+    ]
+   },
+   {
+    "claim": "Where Sahdona lapsed and who removed him",
+    "sides": [
+     "Thomas of Marga: at Apamea; Ishoyahb as catholicus expelled him (TOM l.5764-5784)",
+     "Seert: Ishoyahb as metropolitan rebuked him; Maremmeh condemned him at Karkha (SEERT2 l.34488-34495); Scher: in Persia, not at Apamea (SEERT2 l.34467-34469)"
+    ]
+   },
+   {
+    "claim": "Year of election",
+    "sides": [
+     "647 or 648: Lamy (BH3 l.7529-7537); 647: Budge (TOM l.5519), Sachau (ARB l.1167)",
+     "Uthman's 4th year: Elias (ELI l.3628)",
+     "Uthman's 5th year, AG 962: Amr (AMR l.13193); = 650: Assemani (ASS31 l.20391-20394); 650: Mingana, Mackenzie, Yule, Jugie"
+    ]
+   },
+   {
+    "claim": "Year of death",
+    "sides": [
+     "657-658: Budge (TOM l.3536); 658: Duval (DUV l.146), Sachau (ARB l.1167)",
+     "AG 971: Amr (AMR l.13202-13203); 3rd year of Ali: Elias (ELI l.3629-3630)",
+     "660: Assemani (ASS32 l.3904-3905), Yule, Whitehouse, Mackenzie, Mingana, Jugie; before 660: Lamy (BH3 l.7537-7540)"
+    ]
+   },
+   {
+    "claim": "Years in office",
+    "sides": [
+     "9 years 3 months: Elias (ELI l.3628-3629)",
+     "Amr: seven(?) years 3 months (scan) and 45 years of service (AMR l.13200-13201, 13206-13207)"
+    ]
+   },
+   {
+    "claim": "End of the Simeon affair",
+    "sides": [
+     "Mari: Ishoyahb went himself and brought Simeon to obedience (MARI l.13488-13490)",
+     "His letters: the quarrel still open, bishops sent (DUV l.9213-9223)"
+    ]
+   },
+   {
+    "claim": "The place Qalah/Kalah/Colon",
+    "sides": [
+     "Duval Qalah (DUV l.8746); Mingana Kalah, linked to Ceylon (MING l.1607-1621)",
+     "Assemani Colon (ASS32 l.3891); Yule, Whitehouse, Mackenzie: Quilon",
+     "Cordier, reported by Mingana: Malacca or Singapore (MING l.1625-1627)"
+    ]
+   },
+   {
+    "claim": "The lapsed people",
+    "sides": [
+     "Duval: Mazunaye (DUV l.8602); Mingana: Mazon, Oman (MING l.1665-1667, 956)",
+     "Assemani: Maruanitae, of Merv (ASS31 l.23999, 23107)"
+    ]
+   },
+   {
+    "claim": "Bribery at Mosul",
+    "sides": [
+     "Bar Hebraeus, rival church: he bribed judges to stop the church (BH3 l.7414-7417)",
+     "Lamy: Ishoyahb tells the affair in his letter to Gabriel (BH3 l.7434-7435); not checked against DUV"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth year, age at death, year made bishop or metropolitan, family beyond his father",
+    "note": "Searched all cic/texts, case-insensitive, for i[sš]o.?['ʿ‘*]?\\s?ya[h]?b, isho.?yab, jesu.?jab, iesuiab, jesuyab, jefujab|jefuiab, yesu'yahb, ichoyahb, yeshuyab, jesujabh, yahbh, Bastom, Kuphlan, Kuflan, Adiab. None given."
+   },
+   {
+    "detail": "English of the Arabs passage",
+    "note": "Only Duval's Latin (DUV l.8715-8719) and Assemani's (ASS31 l.24111-24116); no English held. Told in modern words."
+   },
+   {
+    "detail": "Seert's chapter on him",
+    "note": "Lost: \"Le reste manque\" (SEERT2 l.34502-34503)."
+   },
+   {
+    "detail": "Any link to the 635 China mission",
+    "note": "No held source ties Ishoyahb III to it; Assemani ties it to Ishoyahb II of Gedhala (ASS32 l.3905-3907)."
+   },
+   {
+    "detail": "His rites",
+    "note": "Duval lists manuscripts (DUV l.173-186). Badger's English baptism office is held (badger_nestorians-and-their-rituals-v2_1852.txt) but grep for yahb, jesu, isho found no attribution to him."
+   },
+   {
+    "detail": "Sabhr-isho' Rostam's history of him",
+    "note": "Named by Thomas (TOM l.9414-9416); not held."
+   }
+  ]
+ },
+ "al-tabari": {
+  "claims": [
+   {
+    "claim": "Name on the title pages: \"ANNALES QUOS SCRIPSIT ... ABU DJAFAR MOHAMMED IBN DJARIR AT-TABARI\" (T4 scan reads \"JIBN\" at l.49); edited \"CUM ALIIS\" by \"M. J. DE GOEJE\"; vol. IV \"RECENSUERUNT P. DE JONG ET E. PRYM\" (scan \"zr\"), Brill 1890; vol. V \"RECENSUIT E. PRYM\", 1893",
+    "witness": "T4 (tabari_annales-prima-series-iv-ara-lat_de-goeje1890.txt), l.44-80; T5 (tabari_annales-prima-series-v-ara-lat_de-goeje1893.txt), l.65-95",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Later summary printed in the edition names him: ابو جعفر / ابن جرير فى هذه السنفة* عن رواية سيف بن عير (scan; = Abu Ja'far ibn Jarir, in this year, on the report of Sayf ibn Umar); the editor's note: \"Hanc relationem nonnisi IA ... et Now. praebent\"; the manuscript gap marked \"(locus vacuus)\"; IA = Ibn al-Athir (\"lAthir\" (scan), T5 l.5838)",
+    "witness": "T5 (tabari_annales-prima-series-v-ara-lat_de-goeje1893.txt), l.6590-6609, 5838",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Elias's Latin translation: \"Annus 275 iniit ... Abu Ga'far al Tabari\"; \"Annus 302 iniit ... Abii Ga'far al Tabari\" (scan); editors list \"arabici Annales Al Tabari\" among Elias's sources",
+    "witness": "ELIAS (elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910.txt), l.126-128, 7329-7330, 7666-7668",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Year 31 (Argumentum \"Annus 31\", l.898; \"Mors Jazdadjirdi apud Merw ... Variae de ejus exitu traditiones\", l.910-912). Third telling, opened وقال o^ / بل سار يزدجد من كرمان (scan; \"others said: rather Yazdegerd went from Kerman\"): the miller (صاحب الرحى) offers him food; when he dozed, قم اليه بفأس له فضرب بها عامته فقتله (scan; rose with his axe and struck his head and killed him); took his clothes and belt والقى جيفته فى ... الذقٌ كان تدورم عاثه رحاه (scan; threw the body into the river whose water turned his mill)",
+    "witness": "T5 (tabari_annales-prima-series-v-ara-lat_de-goeje1893.txt), l.898, 910-912, 23978-24030",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Same telling: [news of] يردجرد reached رجلا من اعل الأفواز كان مطرانًا de‏ مرو يقال» له ايلياء (scan; a man of al-Ahwaz who was metropolitan of Merv, called Iliya); he gathered من النصارى; Yazdegerd ابن شهربار ... كسرى ... شهريار ... المومنة ... عرفتم حقها واحسانها (scan; son of Shahriyar son of Kisra; Shahriyar [son of Shirin] the believer, whose right and kindness you know); ريدت ان ابنى له ناوسا (scan; I want to build him a tomb); النصارى امرنا لامرك ايها المطران (the Christians: our command follows yours, O metropolitan); فامر المطران فبنى (the metropolitan ordered and built); carried the coffin من النصارى على عوانقم (scan; on their shoulders) to الناووس",
+    "witness": "T5 (tabari_annales-prima-series-v-ara-lat_de-goeje1893.txt), l.24031-24052",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Second telling: the body caught on a branch (فتعلف بعود); اسقف مرو ... لثمه فى ... طيكسان ... وجعله فى تابوت ... فوضعه فى ... كان يكون جلس» الاسقف فيه (scan; the bishop of Merv wrapped it in a taylasan, put it in a coffin and laid it in a [vault] where the bishop used to sit). First telling: اسقف مرو ... جسد يودجد من اللمرغاب ... تابوت (scan; the bishop of Merv [took] Yazdegerd's body from the Murghab ... coffin)",
+    "witness": "T5 (tabari_annales-prima-series-v-ara-lat_de-goeje1893.txt), l.23721, 23967-23975",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ginzel: \"Der Bagdader Chronist Tabari (224 — 310 d. Hedschra) gilt als der verlässlichste aller mohamedanischen Annalisten und hat vorwiegend eigene Erlebnisse oder ihm verbürgte Begebenheiten aufgezeichnet\"; author \"Von F.K. Ginzeı [scan], Astronom am Recheninstitut der Königlichen Sternwarte\"; volume of the Berlin Academy (\"ZU BERLIN\", l.192), 1887",
+    "witness": "GINZEL (wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt), l.192, 15611-15620, 15784-15789",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Ginzel's eclipse test: Tabari's report \"Im Jahre 281, wie es heisst, kam ... ein Bericht aus Debil' über eine Verfinsterung des Mondes\"; \"Elias von Nisibis (scan \"Nisibis®\") setzt die Finsterniss, sonst völlig mit Tabari übereinstimmend, in das Jahr 280 d.H.\"; on Tabari's date \"eine ganz unbedeutende und in Debil unsichtbare Mondfinsterniss\", while \"stimmt völlig mit den angegebenen Umständen überein jene vom 14. Schauwäl 280\" (scan \"ı4.\")",
+    "witness": "GINZEL (wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt), l.15874-15899",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Hitti: \"The most illustrious writer on history after al-Baladhuri was at-Tabari (d. 310). According to al-Fihrist and ibn-Khallikan, he traveled in Egypt, Syria and al-'Irak in quest of learning and died in Baghdad.\"",
+    "witness": "HITTI (baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt), l.911-914",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Hitti, translator: The Origins of the Islamic State (Futuh al-Buldan), 1916; the al-Baladhuri profile (batch8) gives the same identification",
+    "witness": "HITTI (baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt), title; batch8/al-baladhuri.card.json",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hitti: \"the Arabian authors exercised very little power of analysis, criticism, comparison or inference\"; \"At-Tabari, in the introduction to his great work, gives expression to that principle, where, conscious of the exception that many of his readers might take to some of his reports, he pleads, \" We only transmit to others what has been transmitted to us.\"\" (note: \"Vol. i, p. 7, ed. De Goeje\")",
+    "witness": "HITTI (baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt), l.612-619, 634",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hitti: \"The first to undertake such a history was at-Tabari\" (scan \"at-fabari\"); \"The annalistic method of at-Tabari was followed by ibn-al-Athir and abu-l-Fida\" (scan \"abu- 1-Fida\"); al-Mas'udi's system \"did not win so much favor as that of at-Tabari\"",
+    "witness": "HITTI (baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt), l.708-727",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Hitti: al-Mada'ini's two works \"are lost and are known only by excerpts through al-Baladhuri, at-Tabari and Yakut\"",
+    "witness": "HITTI (baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt), l.858-861",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hira, year 12 (Argumentum \"Annus 12\", l.331; \"Híra oppugnatur. Duces (Arabum christianorum) ad conditiones deditionis accedunt\", l.377-378); chain: كتب الى السرى عن شعيب عن سيف (l.1502) and حذثنى عبى عن سيف (l.1465); Khalid's commanders besiege the castles; [they entered] الدور والديرات و واكثروا القاتل فنادى / القسيسون والرعبان يا اعل القصور ما يقتلنا غيركم (scan; the houses and monasteries, and killed much; the priests and monks cried: people of the castles, none but you is getting us killed); the leaders came out; Khalid: اختاروا واحدة من ثلث أن تدخلوا فى ديننا ... او للزية ... أو المنابذة (choose one of three: enter our religion, or the jizya, or war); فقال بل نعطيك (rather we give you); peace for مأثة الف وتسعين الفا (190,000)",
+    "witness": "T4 (tabari_annales-prima-series-iv-ara-lat_de-goeje1890.txt), l.331, 377-378, 1458-1533",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Khalid named in full: \"Chálid ibn al-Walid\" (Argumentum)",
+    "witness": "T4 (tabari_annales-prima-series-iv-ara-lat_de-goeje1890.txt), l.331",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Other Hira report: Qabisa ibn Iyas, whom Kisra set over Hira after al-Nu'man: بل نقيم على ديننا ونعطيك ... على تسعين الف دربم (scan; we stay in our religion and give you ... 90,000 dirhams); followed by قال ابو جعفر واما عشام بن ... (Abu Ja'far said: as for Hisham ibn [Muhammad] ...)",
+    "witness": "T4 (tabari_annales-prima-series-iv-ara-lat_de-goeje1890.txt), l.697-727",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Najran, year 13: chain عن السرئ بن يحيى عن / عيب بن ... عن سيف بن عبرك (scan); Umar بعت يَعْلَى بن أُمَيّة الى اليمن ... باجلاء اهل تجن (scan; to expel the people of Najran); لا ينك بجزيرة العرب دينان (scan; two religions are not to be left in the Arabian peninsula); Argumentum: \"Nadjràni incolas christianos ex Arabia relegare jubetur\"",
+    "witness": "T4 (tabari_annales-prima-series-iv-ara-lat_de-goeje1890.txt), l.498-503, 6086-6098",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Jerusalem, year 15 (Argumentum \"Annus 15\", l.195; \"Hierosolyma se subjicit ... Tractatus cum incolis Hierosolymae\", l.223-224): at al-Jabiya (بانجابية); هذا ما اعطى عبد / الله عبر امير ... ايلياء من الأمان ... امنا ... واموالع ولكنائسم وصابادم ... وسائر ملّتها / لا تسكن كنائسع ولا ... ولا ينتقصم منها ... ولا من صليبم ... على دينع (scan; the safe-conduct the servant of God Umar, Commander of the Faithful, gave the people of Aelia: safety for themselves, their goods, churches, crosses and the rest of their religion; their churches not to be lived in, nor [destroyed], nor diminished, nor their crosses; [not forced] in their religion); ولا يسكن باياياء معقة ... من اليهن (scan; no one of the Jews to live with them in Aelia)",
+    "witness": "T5 (tabari_annales-prima-series-v-ara-lat_de-goeje1893.txt), l.195, 223-224, 6618-6627",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Editors on the Jerusalem text: \"Modjir ad-din ... et Sojuti\" (scan) compared throughout; \"IH om.; supplevi e Modj.\"; \"Verba haec spuria esse, non sine causa opinatus est de Goeje\"; no patriarch named in the terms (see absent_details)",
+    "witness": "T5 (tabari_annales-prima-series-v-ara-lat_de-goeje1893.txt), l.6630-6645, 6666-6672",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Conquest reports through Sayf: Hira (T4 l.1465, 1502), Najran (T4 l.6088-6089), Jerusalem per the later summary (T5 l.6597-6598) and per Mujir al-Din and al-Suyuti's fuller chain وعن سيف (T5 l.6632-6635); others e.g. T4 l.2292, T5 l.10883",
+    "witness": "T4 (tabari_annales-prima-series-iv-ara-lat_de-goeje1890.txt), l.1465, 1502, 6088-6089; T5 (tabari_annales-prima-series-v-ara-lat_de-goeje1893.txt), l.6597-6598, 6632-6635",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Born about two centuries after the events: arithmetic from Ginzel's 224 against the annals' years 12-31 (T4 l.331; T5 l.898)",
+    "witness": "GINZEL (wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt), l.15786-15787",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Tafsir: \"Tabari, in his great commentary on the Koran, reproduces a tradition according to which these verses allude to an incident amongst the Parsees\" (scan \"repro duces\") and another \"according to which they bear on \"Daniel and his men\"\"; most interpreters prefer the Najran reading: \"This, no doubt, is the interpretation preferred by the majority\"; \"even the Muhammadan interpreters do not agree, at least not unanimously\"",
+    "witness": "MOBERG (book-of-the-himyarites-syr-eng_moberg1924.txt), l.2817-2825",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Leiden plan: \"Appendix eontinens [scan] Tabarii opus- eulum [scan] de testibus traditionum\"",
+    "witness": "T4 (tabari_annales-prima-series-iv-ara-lat_de-goeje1890.txt), l.108-111",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Evetts: \"The great history of At-Tabari had also formed the subject of our author's studies\"; the text: \"according to the testimony of the history of At-Tabari\"",
+    "witness": "EVETTS (abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt), l.621-623, 15053-15055",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Quatremère quoting al-Maqrizi (\"« La bibliothèque deskhalifes (2), dit Macrizy\" (scan), l.14025; source note \"Ms, Arab. 678 C\", l.14033): the caliph \"Aziz\"; \"plus de vingt exemplaires de cette chronique, du nombre desquels il y en avoit un écrit de la main de l'auteur\" (scan \"il j en\"); al-Maqrizi's death: \"AL-MAKRIZi (died A. H. 845 = A. D. 1441)\" (scan), EVETTS l.15213",
+    "witness": "QUATREMERE (quatremere_memoires-geographiques-et-historiques-sur-l-egypte-tome2-fra_quatremere1811.txt), l.14025-14053; EVETTS (abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt), l.15213",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Prym's note on the page of the second Merv telling (branch, vault): \"Narratori duas inter se diversas relationes confusas esse perspicuum est\" (scan \"confu- sas\"); the page's end runs into the third telling (وقال o^ / بل سار يزدجد, l.23973-23974)",
+    "witness": "T5 (tabari_annales-prima-series-v-ara-lat_de-goeje1893.txt), l.23967-23974, 23986-23987",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Second Hira report (Qabisa, 90,000): chain at l.673-674, حدتنا ابن auum قل سآ سلمة عن ابن / hos enl صا بن كيسان (scan; the name after Salama illegible; then Salih ibn Kaysan), with no new chain before l.727; elsewhere in T4 Salama's chain reaches Ibn Ishaq: \"دنآ als عن ابن اسحاق\" (scan, l.5549) and \"سلمة عن حيد بن اسحاق\" (scan for Muhammad ibn Ishaq, l.6769). The identification at l.673-674 is a reading of the chain pattern",
+    "witness": "T4 (tabari_annales-prima-series-iv-ara-lat_de-goeje1890.txt), l.673-674, 697-727, 5549, 6769",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Michael the Syrian, in Chabot's French: \"Alors, Yezdegerd, dernier roi des Perses\" (card knownFor and brief: \"the last Persian king\")",
+    "witness": "MICHAEL (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt), l.32600",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hitti's \"golden rule\": \"what has been once well said need not be told again\" (card uncertain[1])",
+    "witness": "HITTI (baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt), l.614-616",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Hira's tribute",
+    "sides": [
+     "190,000 (dirhams implied), Sayf's report via al-Sari and Shu'ayb (T4 l.1502-1533)",
+     "90,000 dirhams, the Qabisa ibn Iyas report (T4 l.725), by a chain through Salama whose next name is illegible in the scan (T4 l.673-674); Salama's chain elsewhere in T4 reaches Ibn Ishaq (l.5549, 6769)"
+    ]
+   },
+   {
+    "claim": "Who buried Yazdegerd at Merv, and how",
+    "sides": [
+     "The bishop of Merv takes the body from the Murghab (T5 l.23721)",
+     "The body catches on a branch; the bishop of Merv lays it in a vault where he used to sit (T5 l.23967-23975)",
+     "The metropolitan Iliya, of al-Ahwaz, has a tomb built and the Christians carry the coffin (T5 l.24031-24052)"
+    ]
+   },
+   {
+    "claim": "The year of the Debil eclipse-and-earthquake report",
+    "sides": [
+     "al-Tabari: 281, \"wie es heisst\" (GINZEL l.15879)",
+     "Elias of Nisibis: 280; Ginzel's eclipse canon agrees with 280 (GINZEL l.15892-15899)"
+    ]
+   },
+   {
+    "claim": "How far his reports can be trusted",
+    "sides": [
+     "Ginzel: counted the most reliable Muslim annalist, recording mostly what he lived through or had vouched (GINZEL l.15787-15789)",
+     "Hitti: Arab authors exercised \"very little power of analysis, criticism, comparison or inference\", a principle his preface states (HITTI l.612-619)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birthplace, family, teachers, legal school, travel dates, burial, cause or day of death",
+    "note": "No held source gives them. Searched all cic/texts (case-insensitive) for tabar[iîīy], Ṭabar, Thabari, Tabary, Taberi, Tabarii, ibn Djarir/Jarir/Jarîr, Abu/Abou Dja'far/Djafar/Ga'far, Zotenberg, Nöldeke Tabari, Tafsir, with born/né/geboren/natus/Amul near them."
+   },
+   {
+    "detail": "Christian-era years for his birth and death (839, 923)",
+    "note": "In no held file. Ginzel (GINZEL l.15786-15787) and Hitti (HITTI l.912) give only 224 and 310 of the hijra; neither converts them."
+   },
+   {
+    "detail": "A patriarch of Jerusalem (Sophronius) in the Jerusalem terms",
+    "note": "T5 searched for صفرونيوس, بطرك, البطريك, بطريق, Sophron, patriarch: the one Arabic hit (l.5750, تبطرك) is a verb, not a patriarch."
+   },
+   {
+    "detail": "Arabic of the Annals outside years late 11 to 32 of the hijra",
+    "note": "Only T4 (Arabic from l.617) and T5 are held; series I vols. 1-3 and series II-III are not. No English, French or German translation of the Annals is held."
+   },
+   {
+    "detail": "The Tafsir and the work on witnesses of traditions",
+    "note": "Named only (MOBERG l.2821, 2856; T4 l.108-111); neither text held."
+   },
+   {
+    "detail": "A judgment of Sayf ibn Umar's reliability",
+    "note": "No held source on these lines weighs Sayf; none is given."
+   }
+  ]
+ },
+ "ibn-ishaq": {
+  "claims": [
+   {
+    "claim": "The emigrants before the Negus, \"der auch seine Bischöfe mit ihren Büchern um sich versammelt hatte\" (scan: \"batte\"); first audience (l.9374-9376); Ja'far, \"Djafar, der Sohn Abu Talibs\" (l.9378-9379); at the second audience, next morning (\"Am andern Morgen\", l.9438; \"Der N'adjaschi schickte nach ihnen\", l.9441-9442, scan), Ja'far: \"er ist ein Diener Gottes, sein Gesandter, sein Geist, und sein Wort, das er der Jungfrau Mariam eingegeben hat\"; the Negus picks up \"ein Stückchen Holz\": Jesus son of Mary is not more than what you said by this bit of wood; the patricians murmur; \"ihr seid sicher in meinem Lande\"",
+    "witness": "WEIL (ibn-ishaq_leben-mohammeds-nach-ibn-hischam-deu_weil1864.txt), l.9374-9379 (first audience), l.9438-9459 (second audience, next morning)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The account is Umm Salama's, \"Gattin Mohammed's\", told as one of the emigrants (\"Als wir nach Abissynien\"), through al-Zuhri and Abu Bakr ibn Abd al-Rahman (card: \"a wife of Muhammad\"; Weil gives no time for the marriage)",
+    "witness": "WEIL (ibn-ishaq_leben-mohammeds-nach-ibn-hischam-deu_weil1864.txt), l.9301-9304",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Weil: Ibn Ishak \"lebte in der ersten Hälfte des zweiten Jahrhunderts der Hidjrah\" (scan \"lebte in i.' der ersten\"); \"galt bei seinen Zeitgenossen sowohl als bei nachfolgenden Gelehrten als ein ausgezeichneter und zuverlässiger Traditionssammler, wenn auch Neid und Sektenhass ibn [scan] zu verdächtigen suchte\" (a reputation Weil reports); Weil's own judgment: \"Wir können ihn als den treuen Ausdruck der zu seiner Zeit über Mohammed cnrsirendenUeberlieferung [scan] betrachten\"; \"dürfen es nicht ihm anrechnen, wenn wir Manches von ihm als historische Tbatsache [scan] Berichtete in das Gebiet der Sage verweisen müssen\"",
+    "witness": "WEIL (ibn-ishaq_leben-mohammeds-nach-ibn-hischam-deu_weil1864.txt), l.140-148",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Hitti: the Sira \"written for al-Mansur by ibn-Ishak (d. 151/767)\", held \"only in the recension of ibn-Hisham (d. 213/834)\"",
+    "witness": "HITTI (baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt), l.665-669",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Evetts's note: \"Ibn Ishak, who died A.H. i5i = A.D. 768\" (scan; the note carries no \"(A. J. B.)\" mark, which marks Butler's notes)",
+    "witness": "EVETTS (abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt), l.5637-5640",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hitti: the tradition of al-Madinah \"as represented by Muhammad ibn-Ishak and al-Wakidi\", \"more reliable than that of al-'Irak\"; Hitti groups the tradition by region and does not say where Ibn Ishaq lived (card place)",
+    "witness": "HITTI (baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt), l.646-652",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Weil: not the author's original but Ibn Hisham's reworking (died 213 AH); kept \"nicht nur ihrem Hauptinhalte nach, sondern selbst im wörtlichen Ausdruck\"",
+    "witness": "WEIL (ibn-ishaq_leben-mohammeds-nach-ibn-hischam-deu_weil1864.txt), l.148-156",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Ibn Hisham will leave out much Ibn Ishak gives where Muhammad is not mentioned, verses unknown to experts, \"Dinge, welche hässlich zu erzählen sind, oder Manchen webe [scan] thun\", or what al-Bakka'i did not confirm; in one poem \"zwei Worte geändert\"",
+    "witness": "WEIL (ibn-ishaq_leben-mohammeds-nach-ibn-hischam-deu_weil1864.txt), l.284-296, l.21166-21169",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The text passed from Ibn Ishaq to Ziyad al-Bakka'i, from whom Ibn Hisham had it",
+    "witness": "WEIL (ibn-ishaq_leben-mohammeds-nach-ibn-hischam-deu_weil1864.txt), l.256-258",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"Der erste Ort, in welchem der christliche Glaube Wurzel fasste, war Nadjran\"; the town idolaters \"bis ein Mann Namens Feimijun sich dort niederliess und sie zu seinem Glauben bekehrte\"",
+    "witness": "WEIL (ibn-ishaq_leben-mohammeds-nach-ibn-hischam-deu_weil1864.txt), l.985-989; Arabic WUE (ibn-ishaq_sirat-rasul-allah-ibn-hisham-text-pt1-ara_wuestenfeld1858.txt) l.31393-31395 (scan)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Faymiyun's story is Wahb ibn Munabbih's, through al-Mughira ibn Abi Labid: \"ein frommer, eifriger Christ\", \"ein Zimmermann und Maurer\", later sold as a slave in Najran; \"Diess ist die Tradition des Wahb Ibn Munabbah, nach dem Berichte der Bewohner von Nadjran\" (scan \"Ihn\")",
+    "witness": "WEIL (ibn-ishaq_leben-mohammeds-nach-ibn-hischam-deu_weil1864.txt), l.993-1001, l.1066-1067, l.1092-1093",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "After the second account, from Muhammad ibn Ka'b al-Qurazi: \"Gott weiss welche die Richtige ist\"",
+    "witness": "WEIL (ibn-ishaq_leben-mohammeds-nach-ibn-hischam-deu_weil1864.txt), l.1181-1183",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Dhu Nuwas (Jusuf) offered the Christians of Najran Judaism or death and killed \"etwa 20,000\" in a trench",
+    "witness": "WEIL (ibn-ishaq_leben-mohammeds-nach-ibn-hischam-deu_weil1864.txt), l.979-982, l.1184-1189",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Najran Christians at Medina said, \"wie alle Christen [scan \"\\rie alle\"], Jesus ist Gott, ein Sohn Gottes, und der Dritte von drei\"",
+    "witness": "WEIL (ibn-ishaq_leben-mohammeds-nach-ibn-hischam-deu_weil1864.txt), l.16966-16967 (delegation from l.16884)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Moberg: Ibn Ishaq's account, \"preserved by Ibn Hisham and Tabari\", vivid and \"rather fantastic\"; he cannot see in the Arabic narratives \"anything that suggests an independent Muhammadan tradition of historical value\"; their facts owed to the Acta, save the king's death in the sea, which suggests the Book of the Himyarites (l.2708-2710)",
+    "witness": "MOBERG (book-of-the-himyarites-syr-eng_moberg1924.txt), l.2628-2639, l.2692-2712",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Weil's translation, made so that non-orientalists could read \"die älteste uns erhaltene, von einem Mohammedaner verfasste aosföhrliche [scan] Biographie Mohammed's\"",
+    "witness": "WEIL (ibn-ishaq_leben-mohammeds-nach-ibn-hischam-deu_weil1864.txt), l.127-138",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Al-Baladhuri quotes ibn-Ishak eleven times; Hitti conjectures from the longer isnad that he had them through later reporters",
+    "witness": "HITTI (baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt), l.850-857",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Ibn Ishaq marks reports he does not vouch for: \"wie man glaubt\" (Bahira)",
+    "witness": "WEIL (ibn-ishaq_leben-mohammeds-nach-ibn-hischam-deu_weil1864.txt), l.5128, l.5157",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Al-Baladhuri, in Hitti's English: at 'Ain at-Tamr Khalid \"found certain persons in a church whom he took captives\"; among them \"(4) Yasar, a grandfather of Muhammad ibn- Ishak — the author of as-Sirah — and a freedman of Kais ibn-Makhramah ibn-al-Muttalib ibn-' Abd-Manaf\" (scan); Hitti's note on as-Sirah: \"The biography of the Prophet from which ibn-Hisham's was abridged\"",
+    "witness": "HITTI (baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt), l.15759-15791, 15805-15806",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The nisba in Ibn Hisham's chain: \"Zijad Ibn Abd Allah Albakkaij berichtet, nacKMoh. I. Ishak Almuttalabij\" (scan); also \"I. Ishak Almuttalibi\" (l.3285) and \"Mohammed I. Ishak Almuttalebi\" (l.24250)",
+    "witness": "WEIL (ibn-ishaq_leben-mohammeds-nach-ibn-hischam-deu_weil1864.txt), l.300-301, 3285, 24250",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Waraqa ibn Naufal, a Christian of Mecca: Khadija \"gieng zu ihrem Vetter Warakal.Naufal [scan], welcher Christ geworden war, die heilige Schrift gelesen\"; at the Kaaba \"begegnete ihm [Muhammad] Waraka\", who kissed him on the forehead (l.6686-6705); Waraka passes Bilal under torture and says \"ja, bei Gott, Bilal, einzig, einzig\" (l.8883-8884); also \"Waraka I. Naufal ... dieser war Christ geworden\" (l.4532, told by his sister) and \"Waraka, der ein gelehrter Christ war\" (l.5368)",
+    "witness": "WEIL (ibn-ishaq_leben-mohammeds-nach-ibn-hischam-deu_weil1864.txt), l.4532-4533, 5365-5369, 6686-6705, 8883-8884",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"Empörung der Abissynier gegen den Nadjaschi\" (scan \"EmpSrnng ... Nadjascbi\"), from Djafar I. Mohammed after his father: the Abyssinians said \"Du hast Dich von unserm Glauben losgesagt\"; the Negus wrote \"ich bekenne, dass es keinen Gott gibt ausser Gott, dass Mohammed sein Diener ist und sein Gesandter, dass Jesus sein Diener ist und sein Gesandter und sein Geist und sein Wort\" (l.9573-9576); he put the paper in \"die rechte Seite seines Oberkleids\" (l.9577-9578); the Abyssinians: \"Du hast unsern Glauben verlassen und Jesus einen Diener genannt\" (scan \"onsem\"), \"Wir sagen, er ist Gottes Sohn\" (l.9588-9591); he laid \"seine Hand auf die Brust\" and said \"ich bekenne, dass Isa, der Sohn Mariams nichts Anderes als diess war, er meinte damit, als in der Schrift, auf welche er seine Hand gelegt, ausgesprochen war\" (l.9591-9594); \"Die Abissynier gaben sich aber zufrieden, und giengen auseinander\" (l.9594-9595)",
+    "witness": "WEIL (ibn-ishaq_leben-mohammeds-nach-ibn-hischam-deu_weil1864.txt), l.9565-9597",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hitti on al-Baladhuri: \"The year 279/892 saw his death\" (card otherNames[1], legacy/traces[3])",
+    "witness": "HITTI (baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt), l.742",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether Ibn Hisham kept Ibn Ishaq's wording",
+    "sides": [
+     "Weil: kept in substance and wording, additions marked (WEIL l.151-171)",
+     "Ibn Hisham's own statement of omissions (WEIL l.284-296) and of two words changed in one poem (WEIL l.21166-21169)"
+    ]
+   },
+   {
+    "claim": "The value of his Najran and Abyssinia account",
+    "sides": [
+     "Weil: a faithful expression of the tradition of his time, though some of it belongs to legend, not to be held against him (WEIL l.144-148)",
+     "Moberg: no independent historical value; drawn from the Acta (MOBERG l.2692-2712)"
+    ]
+   },
+   {
+    "claim": "The Christian year of his death",
+    "sides": [
+     "Hitti: 151/767 (HITTI l.667)",
+     "Evetts's note: A.H. 151 = A.D. 768 (EVETTS l.5639-5640)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth, birthplace, parents, teachers, travels, place of death, burial",
+    "note": "No held source gives them. Searched all cic/texts for ibn Ishaq/Ishak/Ishâk/Isḥāq, Ibn Hisham/Hischam, Sira/Sirat/Sirah, and the Arabic forms in WUE. His grandfather Yasar is named by al-Baladhuri, in Hitti's English (HITTI l.15789-15791)."
+   },
+   {
+    "detail": "The original text before Ibn Hisham",
+    "note": "Not held; Weil and Hitti say it does not survive (WEIL l.148-150; HITTI l.667-669)."
+   },
+   {
+    "detail": "Arabic of the Negus and Medina passages",
+    "note": "WUE holds part 1 only; these passages are held in Weil's German."
+   },
+   {
+    "detail": "English of his work",
+    "note": "None held; only Moberg's and Hitti's English about him."
+   },
+   {
+    "detail": "Named early critics",
+    "note": "Weil names no one behind the envy and sectarian hatred; no held line names them."
+   }
+  ]
+ }
+}

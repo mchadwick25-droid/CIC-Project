@@ -1,7 +1,7 @@
 """The session event log store (Artifact-3 SS1). DECIDED default is managed
 Postgres (single primary, PITR enabled) - that's an infra/deployment
-decision (Artifact-6 SS3 topology: RDS Postgres) this build thread doesn't
-need to make today to build and prove the log's actual guarantees
+decision (Artifact-6 SS3 topology: RDS Postgres) this module doesn't
+need to make to build and prove the log's actual guarantees
 (ordering, idempotency, "any instance can serve any session"). SQLite here
 is a DECIDABLE dev/test stand-in, same pattern as M2's placeholder FAISS
 vectors: the schema below is deliberately close to Artifact-3's Postgres DDL
@@ -140,9 +140,8 @@ class Store:
         """Delete every event of every session whose latest event is older
         than `cutoff` (ISO-8601, compared as text like list_session_ids),
         except a session `is_exempt` says to keep. Returns the number of
-        sessions deleted. The 90-day conversation retention (System Hub
-        decision 34) calls this daily; the edge supplies `is_exempt` for
-        conversations a signed-in person saved (the accounts change order),
+        sessions deleted. The 90-day conversation retention calls this daily; the edge
+        supplies `is_exempt` for conversations a signed-in person saved,
         and by default none is exempt."""
         with self._connect() as conn:
             stale = [sid for (sid,) in conn.execute(

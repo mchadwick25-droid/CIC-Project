@@ -1,0 +1,13 @@
+=== Documented-story narration  ===
+504 stories in unbuilt movements; 0 up to date; 1 to generate, 1538 characters
+=== PAID RUN, settings as actually used ===
+approved run  : Release 50 fixes: re-record the eleven and Nicaea's story (Mark, 2026-11-17, 'Approved', cap 14,500 credits)   char cap: 1600
+voice id      : onegjDE2z0mQtp1g0HK7
+model         : eleven_v4
+output format : mp3_44100_64
+settings      : {"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true}
+items         : 1   characters: 1538
+===========================================
+  ok: council-of-nicaea-325-0 voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 chars=1538 cost=746 bytes=823004
+
+1/1 generated. credits charged (character-cost headers): 746

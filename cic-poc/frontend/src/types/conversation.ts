@@ -21,6 +21,22 @@ export interface SourceReference {
   locus: string | null;
   rights_status: string | null;
   edition?: string | null;
+  // Story, quote and term cards: the vendored text spans (file under cic/texts and
+  // line range) the locus cites, for a click-through to the source document.
+  vendored?: { file: string; lines: string; label: string | null }[];
+  // Who translated or edited the vendored edition and the year its own file
+  // states, from the source's corpus-map row. A fact set (name or year) or
+  // an unknown that says where it was looked for; null when the row has none.
+  translator?: EditionFact | null;
+  edition_date?: EditionFact | null;
+}
+
+export interface EditionFact {
+  name?: string;
+  year?: number;
+  source?: string;
+  formation_confidence: string;
+  checked?: string;
 }
 
 export interface SourceCard {
@@ -32,6 +48,18 @@ export interface SourceCard {
   // speaker; the source reference is in `sources`.
   spoken_rendering?: string | null;
   speaker?: string | null;
+  // Quote card template B: the edition's own words and the original-language
+  // spans held in the vendored texts, beside the spoken rendering.
+  edition_words?: string | null;
+  // Set when the edition's words are in a language other than English (a Latin-only quote).
+  edition_language?: string | null;
+  original?: { label: string; file: string; lines: string }[];
+  // Story cards carry the record's one-line meaning, narrative tier, heart and long telling;
+  // the display reads them as it is given the room.
+  means?: string | null;
+  narrative_tier?: number | null;
+  heart?: string | null;
+  telling_long?: string | null;
   // engine/m4/citation_cards.py's own modern_term enrichment: present only
   // when record_type is "modern_term" - the plain-English sense of a
   // modern word the Facilitator bridged away from the voice, plus the
@@ -79,8 +107,18 @@ export interface GlossUsed {
   matched_name: string;
   plain_meaning: string | null;
   quick_meaning: string | null;
+  world_word: string | null;
+  // The whole translational block: shown only for a term not yet split into
+  // heard_today and meant_here.
   translational_sense: string | null;
+  // Both set, or both null.
+  heard_today: string | null;
+  meant_here: string | null;
   false_friend: string[];
+  distortion_risk: 'low' | 'medium' | 'high' | null;
+  confidence: Record<string, unknown> | null;
+  // The term record's own sources, with any vendored span.
+  rests_on: SourceReference[];
   sourced_by: SourceReference[];
 }
 

@@ -1,0 +1,14 @@
+source_file: juarros_compendio-historia-ciudad-de-guatemala-t2-spa_1809.txt
+assignments:
+- row_id: juarros_compendio-historia-ciudad-de-guatemala-t2-spa_1809--juarros-compendio-de-la-historia-de-la-ciudad-de-guatemala-tomo-ii-180
+  work: Juarros, Compendio de la historia de la ciudad de Guatemala, tomo II (1809)
+  author: juarros
+  locus: the Bethlemites at OCR 10208-10485; Cancuc at 25115-25200; add 12 to OCR line numbers for this
+    file's own
+  atlas_ids:
+  - colonial-latin-american-devotional-catholicism
+  role: tradition
+  confidence: provisional
+  note: A Guatemalan priest's history of his city and church, within this entry's window. The church's
+    own record, and the Spanish side's account of the Cancuc rising of 1712 (LA8-10, held for sources),
+    not the movement's own voice.

@@ -9,6 +9,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
+    locus_ids: [whole-file]
+    language: lat
+    date: {formation_confidence: unknown, checked: "P1 and the npnf108 introduction give no date for the Expositions of the Psalms; the sermons were given over many years"}
     note: >
       Latin original (Migne's 1861 Maurist-text printing, not a modern
       critical edition) standing behind the already-vendored NPNF1-08 English
@@ -17,3 +20,5 @@ assignments:
       an original-language witness. One appendix (an alternate Psalm 14
       exposition) is flagged by the Maurist editors themselves as not Augustine's
       own -- see this file's own header.
+    translator: {name: "none (Latin edition); editor: the Benedictines of Saint-Maur (Maurist recension), published by Jacques-Paul Migne (PL 36-37)", source: "augustine_enarrationes-in-psalmos-lat_migne-pl36-37.txt line 2: Benedictine Maurist fathers (17th-c. recension); Jacques-Paul Migne (Editor/Publisher, Patrologia Latina)", formation_confidence: Documented}
+    edition_date: {year: 1861, source: "augustine_enarrationes-in-psalmos-lat_migne-pl36-37.txt line 4: Publication Date: 1861", formation_confidence: Documented}

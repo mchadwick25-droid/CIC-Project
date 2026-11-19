@@ -137,7 +137,7 @@ modern_contrast: >-
   A modern reader meets this argument under a label - "semi-Pelagian," a sixteenth-century coinage that
   appears in our files only in the editors' apparatus - and expects a school dispute about
   predestination. What Cassian records is a man worried, at prayer, that his effort might count for
-  nothing; an elder who shortens the office to answer him; a farmer's field that needs both ploughing
+  nothing; an elder who shortens the office to answer him; a farmer's field that needs both plowing
   and rain. The doctrine sat inside the formation life as a question about whether the practices
   accomplish anything, before anyone across the sea reported it as a party's position.
 use_note:

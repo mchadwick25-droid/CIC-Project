@@ -1,0 +1,164 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.passage.fa48439aa66e"
+   ],
+   "sentence": "Augustine writes that Origen believed even the devil and his angels would be freed from their torments, and that the Church condemned Origen for this and other errors."
+  },
+  {
+   "record_ids": [
+    "lpc.passage.fa48439aa66e"
+   ],
+   "sentence": "Augustine writes that Origen held they would first suffer severe and prolonged pains, then be delivered and joined to the holy angels."
+  },
+  {
+   "record_ids": [
+    "lpc.passage.fa48439aa66e"
+   ],
+   "sentence": "Augustine writes of tender-hearted Christians who suppose that those the just Judge sends to hell will be delivered after a fixed term, longer or shorter by each man's sin."
+  },
+  {
+   "record_ids": [
+    "lpc.passage.fa48439aa66e"
+   ],
+   "sentence": "Augustine writes that Origen was even more indulgent than these Christians."
+  },
+  {
+   "record_ids": [
+    "lpc.passage.fa48439aa66e"
+   ],
+   "sentence": "Augustine writes that the Church did not condemn Origen without reason, above all for his theory of endless turns between happiness and misery."
+  },
+  {
+   "record_ids": [
+    "lpc.passage.fa48439aa66e"
+   ],
+   "sentence": "Augustine writes that this theory cost Origen even his name for mercy, since it gave the saints real miseries to expiate their sins and a false happiness."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "sentence": "Among us, Augustine taught that the punishment of the lost has no end, and he answered those who doubted it."
+  }
+ ],
+ "citations": [
+  "lpc.passage.fa48439aa66e",
+  "lpc.witness.punishment-without-end"
+ ],
+ "group": "B",
+ "id": "q029",
+ "net_sentences": [
+  {
+   "draft": "Augustine writes that Origen believed even the devil and his angels would be freed from their torments, and that the Church condemned Origen for this and other errors [[lpc.passage.fa48439aa66e]] [[as:paraphrase]].",
+   "ratio": 0.82,
+   "sentence": "Augustine writes that Origen believed even the devil and his angels would be freed from their torments, and that the Church condemned Origen for this and other errors.",
+   "tags": [
+    "lpc.passage.fa48439aa66e"
+   ],
+   "verdict": "ok",
+   "why": "grounded 82% in own tagged records"
+  },
+  {
+   "draft": "Augustine writes that Origen held they would first suffer severe and prolonged pains, then be delivered and joined to the holy angels [[lpc.passage.fa48439aa66e]] [[as:paraphrase]].",
+   "ratio": 0.69,
+   "sentence": "Augustine writes that Origen held they would first suffer severe and prolonged pains, then be delivered and joined to the holy angels.",
+   "tags": [
+    "lpc.passage.fa48439aa66e"
+   ],
+   "verdict": "ok",
+   "why": "grounded 69% in own tagged records"
+  },
+  {
+   "draft": "Augustine writes of tender-hearted Christians who suppose that those the just Judge sends to hell will be delivered after a fixed term, longer or shorter by each man's sin [[lpc.passage.fa48439aa66e]] [[as:paraphrase]].",
+   "ratio": 0.81,
+   "sentence": "Augustine writes of tender-hearted Christians who suppose that those the just Judge sends to hell will be delivered after a fixed term, longer or shorter by each man's sin.",
+   "tags": [
+    "lpc.passage.fa48439aa66e"
+   ],
+   "verdict": "ok",
+   "why": "grounded 81% in own tagged records"
+  },
+  {
+   "draft": "Augustine writes that Origen was even more indulgent than these Christians [[lpc.passage.fa48439aa66e]] [[as:paraphrase]].",
+   "ratio": 0.83,
+   "sentence": "Augustine writes that Origen was even more indulgent than these Christians.",
+   "tags": [
+    "lpc.passage.fa48439aa66e"
+   ],
+   "verdict": "ok",
+   "why": "grounded 83% in own tagged records"
+  },
+  {
+   "draft": "Augustine writes that the Church did not condemn Origen without reason, above all for his theory of endless turns between happiness and misery [[lpc.passage.fa48439aa66e]] [[as:paraphrase]].",
+   "ratio": 0.58,
+   "sentence": "Augustine writes that the Church did not condemn Origen without reason, above all for his theory of endless turns between happiness and misery.",
+   "tags": [
+    "lpc.passage.fa48439aa66e"
+   ],
+   "verdict": "ok",
+   "why": "grounded 58% in own tagged records"
+  },
+  {
+   "draft": "Augustine writes that this theory cost Origen even his name for mercy, since it gave the saints real miseries to expiate their sins and a false happiness [[lpc.passage.fa48439aa66e]] [[as:paraphrase]].",
+   "ratio": 0.56,
+   "sentence": "Augustine writes that this theory cost Origen even his name for mercy, since it gave the saints real miseries to expiate their sins and a false happiness.",
+   "tags": [
+    "lpc.passage.fa48439aa66e"
+   ],
+   "verdict": "ok",
+   "why": "grounded 56% in own tagged records"
+  },
+  {
+   "draft": "Among us, Augustine taught that the punishment of the lost has no end, and he answered those who doubted it [[lpc.witness.punishment-without-end]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Among us, Augustine taught that the punishment of the lost has no end, and he answered those who doubted it.",
+   "tags": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "What we hold of Origen's belief is Augustine's report of it, and Augustine does not say here who condemned Origen or when [[lpc.passage.fa48439aa66e]] [[as:paraphrase]].",
+   "ratio": 0.33,
+   "sentence": "What we hold of Origen's belief is Augustine's report of it, and Augustine does not say here who condemned Origen or when.",
+   "tags": [
+    "lpc.passage.fa48439aa66e"
+   ],
+   "verdict": "withhold",
+   "why": "specific claim (proper-noun:['augustine', \"augustine's\", 'origen', \"origen's\"]) only 33% grounded in its own tags"
+  }
+ ],
+ "offered": [
+  "lpc.witness.punishment-without-end",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.term.catechesis",
+  "lpc.term.libellatici-sacrificati",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.story.election-of-cyprian",
+  "lpc.quote.an-ever-burning-gehenna",
+  "lpc.quote.the-life-and-the-death-shall-both-be-without-end",
+  "lpc.witness.infants-and-the-sin-of-another",
+  "lpc.quote.the-mildest-condemnation-of-all",
+  "lpc.quote.the-mildest-punishment-of-all",
+  "lpc.witness.no-salvation-outside-the-church",
+  "lpc.quote.no-salvation-out-of-the-church",
+  "lpc.quote.left-doubtful-a-kind-of-purgatorial-fire",
+  "lpc.force.recurring-contest-failed-member",
+  "lpc.passage.fa48439aa66e"
+ ],
+ "raw_text": "Augustine writes that Origen believed even the devil and his angels would be freed from their torments, and that the Church condemned Origen for this and other errors [[lpc.passage.fa48439aa66e]] [[as:paraphrase]]. Augustine writes that Origen held they would first suffer severe and prolonged pains, then be delivered and joined to the holy angels [[lpc.passage.fa48439aa66e]] [[as:paraphrase]]. Augustine writes of tender-hearted Christians who suppose that those the just Judge sends to hell will be delivered after a fixed term, longer or shorter by each man's sin [[lpc.passage.fa48439aa66e]] [[as:paraphrase]]. Augustine writes that Origen was even more indulgent than these Christians [[lpc.passage.fa48439aa66e]] [[as:paraphrase]]. Augustine writes that the Church did not condemn Origen without reason, above all for his theory of endless turns between happiness and misery [[lpc.passage.fa48439aa66e]] [[as:paraphrase]]. Augustine writes that this theory cost Origen even his name for mercy, since it gave the saints real miseries to expiate their sins and a false happiness [[lpc.passage.fa48439aa66e]] [[as:paraphrase]]. Among us, Augustine taught that the punishment of the lost has no end, and he answered those who doubted it [[lpc.witness.punishment-without-end]] [[as:paraphrase]]. What we hold of Origen's belief is Augustine's report of it, and Augustine does not say here who condemned Origen or when [[lpc.passage.fa48439aa66e]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C3.S3",
+ "text": "Augustine writes that Origen believed even the devil and his angels would be freed from their torments, and that the Church condemned Origen for this and other errors. Augustine writes that Origen held they would first suffer severe and prolonged pains, then be delivered and joined to the holy angels. Augustine writes of tender-hearted Christians who suppose that those the just Judge sends to hell will be delivered after a fixed term, longer or shorter by each man's sin. Augustine writes that Origen was even more indulgent than these Christians. Augustine writes that the Church did not condemn Origen without reason, above all for his theory of endless turns between happiness and misery. Augustine writes that this theory cost Origen even his name for mercy, since it gave the saints real miseries to expiate their sins and a false happiness. Among us, Augustine taught that the punishment of the lost has no end, and he answered those who doubted it. What we hold of Origen's belief is Augustine's report of it, and Augustine does not say here who condemned Origen or when.",
+ "voice_set_aside": false
+}

@@ -52,9 +52,9 @@ relations:
   target: witt.term.comfort
 plain_meaning: Grace is God's free favor toward us. We do not earn it or deserve it. Faith receives it,
   and at the altar we say, 'I cannot doubt I have a gracious God.'
-world_word: grace -- 'a gracious God,' free favour received by faith
+world_word: grace -- 'a gracious God,' free favor received by faith
 false_friend:
-- grace pictured as a substance infused into us, or as mere leniency, rather than a favour known in a
+- grace pictured as a substance infused into us, or as mere leniency, rather than a favor known in a
   person
 senses:
   informational: >-
@@ -66,12 +66,12 @@ senses:
   evidential: Attested across the household catechism, the sermons, and our own hymnody.
   personal: This is our word for what faith receives and what justification names as free.
   translational: >-
-    Do not hear grace as a substance poured in or as leniency; we mean a favour freely given, received
+    Do not hear grace as a substance poured in or as leniency; we mean a favor freely given, received
     by faith, known as a gracious God -- a person, not a quantity.
 quick_meaning: God's free favor, not earned. Received by faith alone.
 distortion_risk: high
 use_note:
-  means: "Grace meant God's free favour toward the sinner, received by faith, so that the believer says 'I cannot doubt I have a gracious God.'"
+  means: "Grace meant God's free favor toward the sinner, received by faith, so that the believer says 'I cannot doubt I have a gracious God.'"
   not_for:
     - "grace as a substance infused into us, or as mere leniency"
     - "justification's technical shape, which sits in witt.term.justification"

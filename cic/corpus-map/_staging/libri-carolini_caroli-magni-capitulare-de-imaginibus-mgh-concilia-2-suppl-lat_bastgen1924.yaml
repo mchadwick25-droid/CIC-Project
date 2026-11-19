@@ -1,0 +1,20 @@
+source_file: libri-carolini_caroli-magni-capitulare-de-imaginibus-mgh-concilia-2-suppl-lat_bastgen1924.txt
+assignments:
+- row_id: libri-carolini_caroli-magni-capitulare-de-imaginibus-mgh-concilia-2-suppl-lat_bastgen1924--libri-carolini-the-caroline-books-latin-bastgen-1924
+  work: 'Libri Carolini (the Caroline Books), Latin (Bastgen 1924)'
+  author: libri-carolini
+  locus: 'the work from about OCR line 192; add 12 to OCR line numbers'
+  atlas_ids:
+  - carolingian-reform-christianity
+  role: tradition
+  confidence: provisional
+  note: 'The Frankish court''s own book against the council of 787. It answers a Latin version of the acts, so it also shows how the council was read in the West.'
+- row_id: libri-carolini_caroli-magni-capitulare-de-imaginibus-mgh-concilia-2-suppl-lat_bastgen1924--libri-carolini-as-the-frankish-reply-to-nicaea-ii
+  work: 'Libri Carolini, as the Frankish reply to Nicaea II'
+  author: libri-carolini
+  locus: 'the work from about OCR line 192; add 12 to OCR line numbers'
+  atlas_ids:
+  - byzantine-imperial-church-heraclian-iconoclast
+  role: context
+  confidence: provisional
+  note: 'An outside witness to the council of 787, written against it from a faulty Latin version of its acts.'

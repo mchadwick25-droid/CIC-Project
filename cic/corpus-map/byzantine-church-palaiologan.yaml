@@ -3,6 +3,15 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: byzantine-church-palaiologan
 works:
+- row_id: akty-istoricheskie_t1-1334-1598-rus_arkheograficheskaia-kommissiia1841--moscow-s-letters-on-isidore-and-the-council-of-florence-akty-istoricheskie-i-as-an-outside-report
+  work: Moscow's letters on Isidore and the Council of Florence (Akty istoricheskie I), as
+    an outside report
+  author: akty-istoricheskie
+  locus: about OCR lines 8370-8780; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: A letter from Moscow to the patriarch of Constantinople about the union.
+  source_file: akty-istoricheskie_t1-1334-1598-rus_arkheograficheskaia-kommissiia1841.txt
 - row_id: sphrantzes-cananus-anagnostes_chronicles-grc-lat_bekker1838--john-anagnostes-de-thessalonicensi-excidio-narratio-greek-2
   work: John Anagnostes, De Thessalonicensi excidio narratio, Greek with Latin
   author: anagnostes
@@ -214,6 +223,42 @@ works:
 
     '
   source_file: historia-politica-et-patriarchica-constantinopoleos_grc-lat_bekker1849.txt
+- row_id: ibn-battuta_voyages-v1-ara-fra_defremery-sanguinetti1853--ibn-battuta-travels-vol-1-defremery-and-sanguinetti
+  work: Ibn Battuta, Travels, vol. 1 (Defremery and Sanguinetti)
+  author: ibn-battuta
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: A Muslim traveller of 1325-1354, an outside witness. Read in the editors' French.
+    Not read in depth; which volume holds Constantinople and Malabar was not checked.
+  source_file: ibn-battuta_voyages-v1-ara-fra_defremery-sanguinetti1853.txt
+- row_id: ibn-battuta_voyages-v2-ara-fra_defremery-sanguinetti1854--ibn-battuta-travels-vol-2-defremery-and-sanguinetti
+  work: Ibn Battuta, Travels, vol. 2 (Defremery and Sanguinetti)
+  author: ibn-battuta
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: A Muslim traveller of 1325-1354, an outside witness. Read in the editors' French.
+    Not read in depth; which volume holds Constantinople and Malabar was not checked.
+  source_file: ibn-battuta_voyages-v2-ara-fra_defremery-sanguinetti1854.txt
+- row_id: ibn-battuta_voyages-v3-ara-fra_defremery-sanguinetti1855--ibn-battuta-travels-vol-3-defremery-and-sanguinetti
+  work: Ibn Battuta, Travels, vol. 3 (Defremery and Sanguinetti)
+  author: ibn-battuta
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: A Muslim traveller of 1325-1354, an outside witness. Read in the editors' French.
+    Not read in depth; which volume holds Constantinople and Malabar was not checked.
+  source_file: ibn-battuta_voyages-v3-ara-fra_defremery-sanguinetti1855.txt
+- row_id: ibn-battuta_voyages-v4-ara-fra_defremery-sanguinetti1858--ibn-battuta-travels-vol-4-defremery-and-sanguinetti
+  work: Ibn Battuta, Travels, vol. 4 (Defremery and Sanguinetti)
+  author: ibn-battuta
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: A Muslim traveller of 1325-1354, an outside witness. Read in the editors' French.
+    Not read in depth; which volume holds Constantinople and Malabar was not checked.
+  source_file: ibn-battuta_voyages-v4-ara-fra_defremery-sanguinetti1858.txt
 - row_id: chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866--cardinal-isidore-of-kiev-letter-to-all-the-faithful-on-the
   work: Cardinal Isidore of Kiev, letter to all the faithful on the fall of Constantinople,
     Latin, in Migne PG 159
@@ -273,7 +318,9 @@ works:
   work: 'Documents relatifs au concile de Florence, Documents VI-XXIV: Oeuvres anticonciliaires
     de Marc d''Ephese (Greek texts edited and translated into French by Louis Petit)'
   author: mark-of-ephesus
-  locus: whole volume
+  locus: 'file lines 17449-49934: the second fascicle (Tome XVII pp. 307-524), heading at
+    17453; the Lives of the Eastern Saints (lines 156-17448) and the Arabic Synaxary (from
+    49935) are other works'
   role: tradition
   confidence: assigned
   note: 'Tier: same time-place. The Patrologia Orientalis volume 17 on the shelf is a mixed

@@ -9,6 +9,8 @@ assignments:
       - the-society-of-jesus
     role: tradition
     confidence: assigned
+    language: spa-ita-lat
+    date: {start: 1536, end: 1556, source: "title page of Tomus Primus, file line 81: \"1536-1556\"", formation_confidence: Documented}
     note: >
       Lainez's own letters and acts (Lainez was the 2nd Superior General; this first tomus covers 1536-1556, before his own generalate began in 1558). This Latin primary material is PD and available. Per the Library's non-English-primary-evidence rule
       (Build/worlds/_cross-world/LIBRARY-DECISION-LOG.md), this Latin

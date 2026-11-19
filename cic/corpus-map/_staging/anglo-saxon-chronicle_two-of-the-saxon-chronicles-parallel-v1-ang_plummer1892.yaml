@@ -1,0 +1,12 @@
+source_file: anglo-saxon-chronicle_two-of-the-saxon-chronicles-parallel-v1-ang_plummer1892.txt
+assignments:
+- row_id: anglo-saxon-chronicle_two-of-the-saxon-chronicles-parallel-v1-ang_plummer1892--the-anglo-saxon-chronicle-old-english-plummer-1892
+  work: 'The Anglo-Saxon Chronicle, Old English (Plummer 1892)'
+  author: anglo-saxon-chronicle
+  locus: 'whole text; add 12 to OCR line numbers'
+  atlas_ids:
+  - anglo-saxon-christianity
+  - late-anglo-saxon-christianity
+  role: tradition
+  confidence: provisional
+  note: 'Annals of the English kingdoms, kept in English churches. The early entries were compiled later from Bede and other sources. Quote the Old English from the page image; the OCR loses the special letters.'

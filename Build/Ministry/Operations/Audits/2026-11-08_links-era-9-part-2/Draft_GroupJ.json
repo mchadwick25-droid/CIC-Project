@@ -1,0 +1,688 @@
+{
+ "group": "J",
+ "movements": [
+  "korean-catholic-origins",
+  "japanese-christianity-hidden-emergence-meiji",
+  "philippine-catholicism-gomburza-to-aglipay",
+  "taiping-heavenly-kingdom"
+ ],
+ "dispositions": [
+  {
+   "movement": "korean-catholic-origins",
+   "field": "relationsSummary",
+   "sentence": "It stands as a precursor to the Protestant missions that later took root in Korea.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "No source shows the Catholic church shaping the Protestant missions; no census entry covers Korea's Protestant missions as such (the 1904-07 revival entry covers only the revival and does not name the Catholics). Rewritten to the order in time (Grayson)."
+  },
+  {
+   "movement": "korean-catholic-origins",
+   "field": "relationsSummary",
+   "sentence": "The Korean Catholic Church was self-founded by lay Confucian scholars before any priest arrived, a singular case of lay initiative in Catholic history.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Self-statement, no other party; supported by Baker with Rausch and the entry's own sources. Shortened in the same prose change for reading level only."
+  },
+  {
+   "movement": "korean-catholic-origins",
+   "field": "longDescription",
+   "sentence": "In the late eighteenth century a circle of Confucian scholars near Seoul studied Chinese-language Catholic books, convinced themselves, and sent one of their number, Yi Sung-hun, to Beijing to be baptized in 1784.",
+   "other_id": "china-mission-born-christianity",
+   "disposition": "link",
+   "link_id": "china-mission-born-christianity--korean-catholic-origins",
+   "prose_change": null,
+   "reason": "Inventory missed it: the Chinese Catholic books are the Ming Jesuit literature. DMR 'influenced' on Baker with Rausch and Grayson; nothing vendored."
+  },
+  {
+   "movement": "korean-catholic-origins",
+   "field": "longDescription",
+   "sentence": "In the late eighteenth century a circle of Confucian scholars near Seoul studied Chinese-language Catholic books, convinced themselves, and sent one of their number, Yi Sung-hun, to Beijing to be baptized in 1784.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Yi Sung-hun's baptism in Beijing, 1784: a person and a place. No census entry covers the Beijing church of the 1780s (the Ming mission ends 1650; the long-nineteenth-century Catholic entry starts 1815). Supported by Baker with Rausch and Grayson (repo-cited)."
+  },
+  {
+   "movement": "korean-catholic-origins",
+   "field": "why",
+   "sentence": "Korea is the only country where the Catholic Church began without a missionary: in the late eighteenth century a circle of Confucian scholars near Seoul studied Chinese-language Catholic books, convinced themselves, and sent Yi Sung-hun to Beijing to be baptized in 1784.",
+   "other_id": "china-mission-born-christianity",
+   "disposition": "link",
+   "link_id": "china-mission-born-christianity--korean-catholic-origins",
+   "prose_change": null,
+   "reason": "Same claim as the longDescription; carried by the same link."
+  },
+  {
+   "movement": "korean-catholic-origins",
+   "field": "longDescription",
+   "sentence": "The Choson state read it as treason against the Confucian order, and the church spent a century under persecution, with something on the order of ten thousand Korean Catholics killed in successive purges between 1801 and 1866, until a treaty with France in 1886 finally brought the killing to an end.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Choson state and France are states, not census movements. The persecutions are in the entry's own primary sources (the Sinyu to Pyongin persecution records) and Baker with Rausch; the 1886 treaty as the end of the persecution era is in the entry's own status note."
+  },
+  {
+   "movement": "korean-catholic-origins",
+   "field": "why",
+   "sentence": "The Choson state read it as treason against the Confucian order, and roughly ten thousand Korean Catholics were killed in successive purges between 1801 and 1866.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "State, not a movement; supported as above."
+  },
+  {
+   "movement": "korean-catholic-origins",
+   "field": "legacy",
+   "sentence": "In 1984 Pope John Paul II canonized 103 of its martyrs in Seoul itself rather than in Rome, and further beatifications followed in 2014.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The papacy in 1984 and 2014 falls outside the long-nineteenth-century Catholic entry (to 1906), and no era-10 Catholic entry is named. The 1984 Seoul canonization and the 2014 Seoul beatification are public record; no vendored text covers them."
+  },
+  {
+   "movement": "japanese-christianity-hidden-emergence-meiji",
+   "field": "relationsSummary",
+   "sentence": "On 17 March 1865, Urakami villagers revealed themselves at Ōura, and roughly 30,000 hidden believers came forward in the months that followed.",
+   "other_id": "kirishitan-japan",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Era 7 owns it: the Kirishitan Japan entry's text names the hidden believers' two-and-a-half centuries, and the era-7 session has drafted kirishitan-japan 'gave rise to' this entry."
+  },
+  {
+   "movement": "japanese-christianity-hidden-emergence-meiji",
+   "field": "longDescription",
+   "sentence": "They were descendants of Christians driven underground in the 1600s, who had kept baptism, prayers and a liturgical calendar for over two hundred years without a single priest.",
+   "other_id": "kirishitan-japan",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Era 7 owns it: the Kirishitan Japan entry's text names the hidden believers' two-and-a-half centuries, and the era-7 session has drafted kirishitan-japan 'gave rise to' this entry."
+  },
+  {
+   "movement": "japanese-christianity-hidden-emergence-meiji",
+   "field": "why",
+   "sentence": "On 17 March 1865 a group of villagers walked into a newly opened church in Nagasaki and quietly told the priest their hearts were the same as his, descendants of Christians driven underground more than two centuries earlier who had kept baptism, prayer and a liturgical calendar with no priest at all.",
+   "other_id": "kirishitan-japan",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Era 7 owns it: the Kirishitan Japan entry's text names the hidden believers' two-and-a-half centuries, and the era-7 session has drafted kirishitan-japan 'gave rise to' this entry."
+  },
+  {
+   "movement": "japanese-christianity-hidden-emergence-meiji",
+   "field": "longDescription",
+   "sentence": "On 17 March 1865, weeks after a French church opened in Nagasaki's foreign settlement, a group of villagers from nearby Urakami came in, and one woman quietly told the priest that the hearts of all present were the same as his, and asked where the statue of Mary was.",
+   "other_id": "catholic-church-long-nineteenth-century",
+   "disposition": "link",
+   "link_id": "catholic-church-long-nineteenth-century--japanese-christianity-hidden-emergence-meiji",
+   "prose_change": null,
+   "reason": "Inventory said 'not census'; the long-nineteenth-century Catholic entry covers the French mission church. DMR 'in contact with' on Turnbull."
+  },
+  {
+   "movement": "japanese-christianity-hidden-emergence-meiji",
+   "field": "why",
+   "sentence": "On 17 March 1865 a group of villagers walked into a newly opened church in Nagasaki and quietly told the priest their hearts were the same as his, descendants of Christians driven underground more than two centuries earlier who had kept baptism, prayer and a liturgical calendar with no priest at all.",
+   "other_id": "catholic-church-long-nineteenth-century",
+   "disposition": "link",
+   "link_id": "catholic-church-long-nineteenth-century--japanese-christianity-hidden-emergence-meiji",
+   "prose_change": null,
+   "reason": "The same meeting; carried by the same link."
+  },
+  {
+   "movement": "japanese-christianity-hidden-emergence-meiji",
+   "field": "longDescription",
+   "sentence": "Catholic parishes rebuilt around the emerging hidden communities, Protestant bands of samurai-class students at Yokohama, Kumamoto and Sapporo, and a Russian Orthodox mission that Nikolai of Japan had begun in 1861 and staffed largely with Japanese clergy.",
+   "other_id": "catholic-church-long-nineteenth-century",
+   "disposition": "link",
+   "link_id": "catholic-church-long-nineteenth-century--japanese-christianity-hidden-emergence-meiji",
+   "prose_change": null,
+   "reason": "Catholic parishes: the Catholic Church of the period. Carried by the Oura link; see its flag on the type."
+  },
+  {
+   "movement": "japanese-christianity-hidden-emergence-meiji",
+   "field": "longDescription",
+   "sentence": "Catholic parishes rebuilt around the emerging hidden communities, Protestant bands of samurai-class students at Yokohama, Kumamoto and Sapporo, and a Russian Orthodox mission that Nikolai of Japan had begun in 1861 and staffed largely with Japanese clergy.",
+   "other_id": "russian-church-synodal-century",
+   "disposition": "link",
+   "link_id": "russian-church-synodal-century--japanese-christianity-hidden-emergence-meiji",
+   "prose_change": null,
+   "reason": "DMR 'gave rise to' on Nakamura and Mullins; both part-2 texts name it."
+  },
+  {
+   "movement": "japanese-christianity-hidden-emergence-meiji",
+   "field": "longDescription",
+   "sentence": "Catholic parishes rebuilt around the emerging hidden communities, Protestant bands of samurai-class students at Yokohama, Kumamoto and Sapporo, and a Russian Orthodox mission that Nikolai of Japan had begun in 1861 and staffed largely with Japanese clergy.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Yokohama, Kumamoto and Sapporo bands have no census entry (no part-1 movement covers Meiji Japan). Named in the entry's own sourcing note (the records of the Protestant bands); Mullins's Handbook (repo-cited) covers them."
+  },
+  {
+   "movement": "japanese-christianity-hidden-emergence-meiji",
+   "field": "relationsSummary",
+   "sentence": "Protestant bands grew alongside, including Uchimura Kanzo's Mukyōkai movement founded in 1901, and Nikolai's Russian Orthodox mission dated from 1861.",
+   "other_id": "russian-church-synodal-century",
+   "disposition": "link",
+   "link_id": "russian-church-synodal-century--japanese-christianity-hidden-emergence-meiji",
+   "prose_change": null,
+   "reason": "Nikolai's mission: same link."
+  },
+  {
+   "movement": "japanese-christianity-hidden-emergence-meiji",
+   "field": "relationsSummary",
+   "sentence": "Protestant bands grew alongside, including Uchimura Kanzo's Mukyōkai movement founded in 1901, and Nikolai's Russian Orthodox mission dated from 1861.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Mukyōkai and the Protestant bands have no census entry in either part. Uchimura's own writings are named in the entry's sourcing; Mullins (repo-cited). Uchimura's Mukyōkai magazine dates from 1901."
+  },
+  {
+   "movement": "japanese-christianity-hidden-emergence-meiji",
+   "field": "legacy",
+   "sentence": "Doshisha and other mission-founded universities, the Orthodox cathedral in Tokyo that Nikolai built, and a Catholic community around Nagasaki that is still the largest in the country.",
+   "other_id": "russian-church-synodal-century",
+   "disposition": "link",
+   "link_id": "russian-church-synodal-century--japanese-christianity-hidden-emergence-meiji",
+   "prose_change": null,
+   "reason": "Nikolai's cathedral: same link. Doshisha and the Nagasaki Catholic community are institutions, not census movements."
+  },
+  {
+   "movement": "japanese-christianity-hidden-emergence-meiji",
+   "field": "relationsSummary",
+   "sentence": "Some, the Kakure, chose to stay separate from the visible church.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Kakure have no census entry. Supported by Turnbull and Whelan (repo-cited), who distinguish the Kakure from the returning communities."
+  },
+  {
+   "movement": "japanese-christianity-hidden-emergence-meiji",
+   "field": "longDescription",
+   "sentence": "Not all the hidden Christians rejoined: some, the Kakure, kept the tradition exactly as they had received it, and remain separate to this day.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Kakure have no census entry. Supported by Turnbull and Whelan (repo-cited), who distinguish the Kakure from the returning communities."
+  },
+  {
+   "movement": "japanese-christianity-hidden-emergence-meiji",
+   "field": "why",
+   "sentence": "Not everyone who surfaced rejoined the visible church; some, the Kakure, chose to keep the faith exactly as they had received it, and remain separate to this day.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Kakure have no census entry. Supported by Turnbull and Whelan (repo-cited), who distinguish the Kakure from the returning communities."
+  },
+  {
+   "movement": "japanese-christianity-hidden-emergence-meiji",
+   "field": "relationsSummary",
+   "sentence": "The Urakami community faced a final persecution until 1873.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Japanese state is not a census movement. The deportation and 1873 release are in Turnbull (repo-cited) and the Meiji records named in the prototype story sources."
+  },
+  {
+   "movement": "japanese-christianity-hidden-emergence-meiji",
+   "field": "longDescription",
+   "sentence": "The government's ban was still in force, and the Urakami villagers were deported and held until 1873.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Japanese state is not a census movement. The deportation and 1873 release are in Turnbull (repo-cited) and the Meiji records named in the prototype story sources."
+  },
+  {
+   "movement": "japanese-christianity-hidden-emergence-meiji",
+   "field": "legacy",
+   "sentence": "The hidden Christians' story became the basis of a UNESCO World Heritage listing of Nagasaki-region sites in 2018, and it has had a long literary afterlife, most famously in Endo Shusaku's novel Silence.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "UNESCO and Endo's novel are not census movements. The 2018 listing (Hidden Christian Sites in the Nagasaki Region) is public record; Silence (1966) is set in the 1630s persecution that began the hiding, which the sentence's 'literary afterlife' fairly covers."
+  },
+  {
+   "movement": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "relationsSummary",
+   "sentence": "Grew out of the secularization controversy and the 1872 Gomburza executions, which fed directly into the Philippine independence movement.",
+   "other_id": "philippine-catholicism-era-8",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Era 8 owns it: the era-8 Philippine entry's text names the native-clergy question 'building toward the crisis of 1872', Gomburza and the 1902 church. For its owner: Blair & Robertson v50 (lines 8438-8445, Pardo de Tavera's note) records Burgos, Zamora and Gomez executed after the Cavite rising, but dates it 1870, not 1872."
+  },
+  {
+   "movement": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "relationsSummary",
+   "sentence": "Grew out of the secularization controversy and the 1872 Gomburza executions, which fed directly into the Philippine independence movement.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The independence movement has no census entry. Supported by Schumacher, Revolutionary Clergy (repo-cited); the executions themselves are in vendored Blair & Robertson v50, lines 8438-8445."
+  },
+  {
+   "movement": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "relationsSummary",
+   "sentence": "The Iglesia Filipina Independiente was proclaimed in 1902 as the Spanish colonial-era church question came to a head, and it later adopted a trinitarian Declaration of Faith in 1947.",
+   "other_id": "catholic-church-long-nineteenth-century",
+   "disposition": "link",
+   "link_id": "catholic-church-long-nineteenth-century--philippine-catholicism-gomburza-to-aglipay",
+   "prose_change": null,
+   "reason": "The 1902 church's break with Rome: carried by the 'broke with' link. The 1947 Declaration is the church's own text, named in the era-10 survey; no census party."
+  },
+  {
+   "movement": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "Spanish friars had run the Philippine church for three centuries, and the century's great church fight was over whether Filipinos could run their own parishes.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The religious orders have no census entry. Supported by Blair & Robertson v50 (vendored), whose Pardo de Tavera notes describe the friars' hold on the parishes, and Schumacher."
+  },
+  {
+   "movement": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "The secularization campaign — transferring parishes from Spanish religious orders to diocesan clergy, most of them native-born — turned into a national grievance, and in 1872, after a mutiny at the Cavite arsenal, three priests who had championed it were garrotted: Mariano Gomez, Jose Burgos and Jacinto Zamora, remembered ever since by the single name Gomburza.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Persons, not movements. Vendored Blair & Robertson v50 lines 8438-8445 record the three executed after the Cavite Arsenal rising (with the date given as 1870, an error in that note; 1872 is the date in Schumacher's documentary history of Burgos, repo-cited)."
+  },
+  {
+   "movement": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "Their execution did more for the independence movement than their campaign ever had; Jose Rizal dedicated his second novel to their memory.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Rizal and the Gomburza priests are persons. El Filibusterismo (1891) carries the dedication; not vendored (wanted). The judgment on the execution's effect is Schumacher's reading (repo-cited)."
+  },
+  {
+   "movement": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "why",
+   "sentence": "The 1872 garrotting of three priests, Mariano Gomez, Jose Burgos and Jacinto Zamora, remembered together as Gomburza, did more to fuel the independence movement than their campaign for Filipino-run parishes ever had; Jose Rizal dedicated his second novel to their memory.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Rizal and the Gomburza priests are persons. El Filibusterismo (1891) carries the dedication; not vendored (wanted). The judgment on the execution's effect is Schumacher's reading (repo-cited)."
+  },
+  {
+   "movement": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "When Spanish rule ended, part of the church went with it.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Spanish state is not a census movement. The friars' departure in 1898 is in Schumacher and Achútegui and Bernad (repo-cited)."
+  },
+  {
+   "movement": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "In 1902 the labor organizer Isabelo de los Reyes proclaimed an Iglesia Filipina Independiente and named the former revolutionary chaplain Gregorio Aglipay its head, and for a few years a substantial minority of Filipino Catholics followed it.",
+   "other_id": "catholic-church-long-nineteenth-century",
+   "disposition": "link",
+   "link_id": "catholic-church-long-nineteenth-century--philippine-catholicism-gomburza-to-aglipay",
+   "prose_change": null,
+   "reason": "The new church's break with Rome: 'broke with' link, DMR on Achútegui and Bernad, Schumacher."
+  },
+  {
+   "movement": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "why",
+   "sentence": "Three decades later a labor organizer, Isabelo de los Reyes, proclaimed an independent Philippine church and put the former revolutionary chaplain Gregorio Aglipay at its head.",
+   "other_id": "catholic-church-long-nineteenth-century",
+   "disposition": "link",
+   "link_id": "catholic-church-long-nineteenth-century--philippine-catholicism-gomburza-to-aglipay",
+   "prose_change": null,
+   "reason": "The new church's break with Rome: 'broke with' link, DMR on Achútegui and Bernad, Schumacher."
+  },
+  {
+   "movement": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "legacy",
+   "sentence": "The Catholic Church it broke from remained the country's majority faith and, over the following decades, got what the secularization campaign had asked for: a Filipino hierarchy drawn from Filipino clergy.",
+   "other_id": "catholic-church-long-nineteenth-century",
+   "disposition": "link",
+   "link_id": "catholic-church-long-nineteenth-century--philippine-catholicism-gomburza-to-aglipay",
+   "prose_change": null,
+   "reason": "'The Catholic Church it broke from' names the rupture: 'broke with' link. The later Filipino hierarchy falls after 1906 and needs no link."
+  },
+  {
+   "movement": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "legacy",
+   "sentence": "The Iglesia Filipina Independiente is still a functioning church, and since 1961 has been in full communion with the Episcopal Church and the wider Anglican Communion.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Episcopal Church has no census entry for this period. The 1961 concordat of full communion is public record, but no vendored or repo-cited source carries it (the only other repo copy is the atlas prototype's copy of this same text). Kept, not qualified, because it is not in doubt; flagged in wants."
+  },
+  {
+   "movement": "taiping-heavenly-kingdom",
+   "field": "relationsSummary",
+   "sentence": "a reference point for the later history of China's native churches.",
+   "other_id": "the-chinese-church-indigenous-and-suffering",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Era 10 (not run; ours). No vendored or repo-cited source shows the Taiping shaping the 1920s Chinese churches, and that entry does not name the Taiping. Clause removed; the field is rewritten from its telegraphic form."
+  },
+  {
+   "movement": "taiping-heavenly-kingdom",
+   "field": "relationsSummary",
+   "sentence": "Hong Xiuquan founds the God Worshippers; the Heavenly Kingdom declared 1851, Nanjing taken 1853, falls 1864; roughly 20 million dead - the century's largest Christianity-adjacent movement and its largest catastrophe,",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Hygiene: telegraphic note rewritten as prose; 'Hong founds' corrected to Hong and Feng Yunshan per the longDescription. Facts per Spence and Reilly (repo-cited)."
+  },
+  {
+   "movement": "taiping-heavenly-kingdom",
+   "field": "longDescription",
+   "sentence": "After one failure he collapsed into a delirium and saw visions he could not interpret until, years later, he reread a Christian tract handed to him in the street.",
+   "other_id": "the-missionary-movement-s-native-churches-seramp",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Part 1 owns it: the Missionary Movement's Native Churches entry names Liang Fa's tract and Hong; part-1 Group D drafted that link (DMR 'influenced', Spence and Reilly)."
+  },
+  {
+   "movement": "taiping-heavenly-kingdom",
+   "field": "longDescription",
+   "sentence": "The war fought to destroy them was among the deadliest in human history, with estimates of the dead running to twenty million, and when Nanjing fell in 1864 Hong was already dead and the kingdom went with him.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Qing state is not a census movement. The death toll and Hong's death before the fall of Nanjing are in Spence (repo-cited)."
+  },
+  {
+   "movement": "taiping-heavenly-kingdom",
+   "field": "legacy",
+   "sentence": "The Qing dynasty was permanently weakened by the war and by the regional armies raised to win it; the lower Yangtze countryside took generations to recover.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "State, not a movement. Spence and Reilly (repo-cited)."
+  },
+  {
+   "movement": "taiping-heavenly-kingdom",
+   "field": "legacy",
+   "sentence": "And Chinese officials and villagers alike had been handed a reason to associate Christianity with rebellion and mass death, a suspicion that later missionaries met everywhere they went.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census party (officials, villagers and missionaries in general). Supported by Spence and Reilly (repo-cited); the Roberts letters in the prototype's story sources show the missionaries' own turn against the movement."
+  },
+  {
+   "movement": "taiping-heavenly-kingdom",
+   "field": "legacy",
+   "sentence": "Later Chinese revolutionaries, Sun Yat-sen among them, looked back on the Taiping as forerunners, and the movement remains a fixture of Chinese historical memory and museum display.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Sun Yat-sen and later revolutionaries are not census movements. Spence (repo-cited) treats the Taiping's afterlife in revolutionary memory."
+  }
+ ],
+ "links": [
+  {
+   "id": "china-mission-born-christianity--korean-catholic-origins",
+   "action": "new",
+   "from": "china-mission-born-christianity",
+   "to": "korean-catholic-origins",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Korea's first Catholics were scholars who taught themselves from Catholic books written in Chinese. Some of those books came from the Jesuits who worked in Ming China, such as Matteo Ricci. A study by Don Baker and Franklin Rausch tells this story.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Don Baker with Franklin Rausch, Catholics and Anti-Catholicism in Chosŏn Korea (Honolulu, 2017)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "James Huntley Grayson, Korea: A Religious History, rev. ed. (London, 2002)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Cambridge History of Christianity vol. 8, ch. 30 'Christianity in East Asia: China, Korea and Japan' (Bays & Grayson)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "korean-catholic-origins longDescription and why ('studied Chinese-language Catholic books')",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "Books read by a later community; no council, split or rule change."
+   },
+   "wants": [
+    "Matteo Ricci, Tianzhu shiyi (The True Meaning of the Lord of Heaven, 1603), in a public-domain edition, with a public-domain record of its reading in Choson Korea (e.g. Charles Dallet, Histoire de l'Église de Corée, 1874, which uses Daveluy's materials)"
+   ],
+   "drafter_flags": [
+    "Inventory missed this: the Korean text names 'Chinese-language Catholic books' but no movement. The Ming China mission entry (era 7) does not mention Korea, so the era-9 text alone names it and it is ours.",
+    "That Ricci's and other Ming Jesuit works were among the books the Korean circle read is the standard account; I have not seen Baker and Rausch's or Grayson's pages. Some of the books the Koreans read were later (Qing-era) works, which is why the note says 'some'.",
+    "Trigault's De Christiana expeditione (vendored) documents Ricci's Chinese writings but says nothing about Korea, so it cannot carry this link."
+   ],
+   "change_reason": "New. The longDescription's Chinese-language Catholic books get a link to the Ming China mission at the grade repo-cited scholarship supports."
+  },
+  {
+   "id": "russian-church-synodal-century--japanese-christianity-hidden-emergence-meiji",
+   "action": "new",
+   "from": "russian-church-synodal-century",
+   "to": "japanese-christianity-hidden-emergence-meiji",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "In 1861 a Russian priest named Nikolai came to the port of Hakodate. From there he built up a Japanese Orthodox Church, led mostly by Japanese priests. A book by Kennosuke Nakamura tells his story.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Kennosuke Nakamura, Senkyōshi Nikorai to Meiji Nihon (Tokyo, 1996)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Mark R. Mullins, ed., Handbook of Christianity in Japan (Leiden, 2003)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "japanese-christianity-hidden-emergence-meiji relationsSummary, longDescription and legacy (Nikolai's Russian Orthodox mission, 1861; the Tokyo cathedral); also russian-church-synodal-century relationsSummary ('Sent missions ... to Japan (from 1861, under Nikolai)')",
+   "wants": [
+    "A public-domain English or Russian account of Nikolai's Japan mission (e.g. his reports to the Holy Synod, or the mission's annual reports before 1912)"
+   ],
+   "drafter_flags": [
+    "Both movements are part 2 and both texts name it; drafted per the cross-group rule. Duplicates resolve at merge.",
+    "'Gave rise to' covers only the Orthodox strand of a three-strand entry (Catholic, Protestant, Orthodox); the note says so by naming the Orthodox church. A reviewer may prefer this as partial.",
+    "Nakamura and Mullins are cited in the repo (atlas prototype, Japanese entry's story sources); I have not seen their pages. No primary is vendored, so Documented is out of reach.",
+    "Nikolai came in 1861 as chaplain to the Russian consulate; the Synod's formal mission dates from about 1870. The entry's 'begun in 1861' is the usual shorthand; I left it."
+   ],
+   "change_reason": "New. The Orthodox mission named three times in the Japanese entry gets a link to the Russian Church at the grade repo-cited scholarship supports."
+  },
+  {
+   "id": "catholic-church-long-nineteenth-century--japanese-christianity-hidden-emergence-meiji",
+   "action": "new",
+   "from": "catholic-church-long-nineteenth-century",
+   "to": "japanese-christianity-hidden-emergence-meiji",
+   "type": "in contact with",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "On 17 March 1865 villagers from Urakami came into the new French church at Oura in Nagasaki. They told its priest, Bernard Petitjean, that they shared his faith. Stephen Turnbull's study of Japan's hidden Christians tells the story.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Stephen Turnbull, The Kakure Kirishitan of Japan: A Study of Their Development, Beliefs and Rituals to the Present Day (Richmond, 1998)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Christal Whelan, trans., The Beginning of Heaven and Earth: The Sacred Book of Japan's Hidden Christians (Honolulu, 1996), introduction",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Mark R. Mullins, ed., Handbook of Christianity in Japan (Leiden, 2003)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "japanese-christianity-hidden-emergence-meiji longDescription ('weeks after a French church opened in Nagasaki's foreign settlement ... told the priest'; 'Catholic parishes rebuilt around the emerging hidden communities') and why",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "A meeting and a return to communion; no council, split or rule change in the cited sources."
+   },
+   "wants": [
+    "Bernard Petitjean's letter of March 1865 reporting the Oura meeting, in a public-domain printing (e.g. Annales de la Propagation de la Foi, 1865-66, or Francisque Marnas, La 'Religion de Jésus' ressuscitée au Japon, 1896)"
+   ],
+   "drafter_flags": [
+    "Inventory wrong: it said the Catholic parishes have 'no census entry for this period'. The Catholic Church of the Long Nineteenth Century (1815-1906) covers them; its text names missionary Catholicism only in general, so the Japanese text alone names this.",
+    "Type choice: 'in contact with' claims only the documented meeting. Many hidden Christians then rejoined the Catholic Church, so a reviewer may argue for a 'gave rise to' on the Catholic strand. I kept the smaller claim because the Japanese entry is itself the meeting of the two, not a body that grew out of the missionaries.",
+    "Turnbull, Whelan and Mullins are cited in the repo (atlas prototype); pages not seen. Petitjean's name comes from the prototype's story drawn from them; the entry itself says only 'the priest'."
+   ],
+   "change_reason": "New. The 1865 Oura meeting named in the Japanese entry gets an 'in contact with' link to the Catholic Church of the period."
+  },
+  {
+   "id": "catholic-church-long-nineteenth-century--philippine-catholicism-gomburza-to-aglipay",
+   "action": "new",
+   "from": "catholic-church-long-nineteenth-century",
+   "to": "philippine-catholicism-gomburza-to-aglipay",
+   "type": "broke with",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "In 1899 the archbishop of Manila cut the priest Gregorio Aglipay off from the church. In 1902 a labor leader set up a Philippine church free of Rome and made Aglipay its head. Many Filipino Catholics left to join it, as two Jesuit writers, Achútegui and Bernad, record.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Pedro S. de Achútegui and Miguel A. Bernad, Religious Revolution in the Philippines: The Life and Church of Gregorio Aglipay, 1860–1960, vol. 1 (Manila, 1960)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John N. Schumacher, Revolutionary Clergy: The Filipino Clergy and the Nationalist Movement, 1850–1903 (Quezon City, 1981)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "philippine-catholicism-gomburza-to-aglipay legacy ('The Catholic Church it broke from'); also relationsSummary, longDescription and why (the 1902 Iglesia Filipina Independiente)",
+   "wants": [
+    "Archbishop Bernardino Nozaleda's decree excommunicating Aglipay (29 April 1899) and the Iglesia Filipina Independiente's founding proclamation (August 1902), in public-domain printings; either would show the rupture from one side",
+    "Leo XIII, Quae mari sinico (1902), on the reorganization of the Philippine church, if it names the schism"
+   ],
+   "drafter_flags": [
+    "Only part of this entry broke with Rome: the entry covers the whole Philippine church, most of which stayed Catholic. The note names the break as the new church's, not the whole entry's. A reviewer may prefer to wait for a separate Iglesia Filipina Independiente entry.",
+    "Both sides' acts (the 1899 excommunication, the 1902 proclamation) are printed in Achútegui and Bernad per the repo's own source notes; I have not seen them and none is vendored, so Documented is out of reach.",
+    "The 1899 excommunication is of Aglipay alone, before the 1902 church existed; it is in the note as the Catholic side's act, not as the rupture itself.",
+    "Isabelo de los Reyes appears in vendored Blair & Robertson v49 (line 9117) only as a writer on the 1762 revolts, not as founder of the church."
+   ],
+   "change_reason": "New. The legacy's 'the Catholic Church it broke from' gets a 'broke with' link at the grade repo-cited scholarship supports."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "korean-catholic-origins",
+   "field": "relationsSummary",
+   "old": "The Korean Catholic Church was self-founded by lay Confucian scholars before any priest arrived, a singular case of lay initiative in Catholic history. Roughly ten thousand martyrs died in the persecutions that followed. It stands as a precursor to the Protestant missions that later took root in Korea.",
+   "new": "Korea's Catholic Church was begun by lay scholars before any priest came. That makes it a rare case in the church's long history. Roughly ten thousand of its people died as martyrs in the persecutions that followed. Protestant missionaries came to Korea a hundred years after it began, from 1884.",
+   "reason": "'It stands as a precursor to the Protestant missions' implies a line from one to the other. No vendored or repo-cited source shows the Catholic church shaping the Protestant missions, and no census entry covers those missions as such. The sentence now states only the order in time: Horace Allen arrived in 1884, as the 1904-07 revival entry and Grayson's history record. The first sentence is shortened for reading level; the longDescription keeps 'the only country where the Catholic Church began without a missionary'."
+  },
+  {
+   "n": 1,
+   "movement": "taiping-heavenly-kingdom",
+   "field": "relationsSummary",
+   "old": "Hong Xiuquan founds the God Worshippers; the Heavenly Kingdom declared 1851, Nanjing taken 1853, falls 1864; roughly 20 million dead - the century's largest Christianity-adjacent movement and its largest catastrophe, a reference point for the later history of China's native churches.",
+   "new": "Hong Xiuquan and his cousin Feng Yunshan gathered the God Worshippers in Guangxi. In 1851 they declared the Heavenly Kingdom. They took Nanjing in 1853 and held it until 1864. The war to crush them cost some twenty million lives. It was the largest movement of the century built on Christian ideas, and its worst disaster. It left no church behind. But it left many Chinese wary of Christianity, and later missionaries met that fear everywhere.",
+   "reason": "The field was a telegraphic note, not public prose; rewritten in full sentences. 'Hong Xiuquan founds the God Worshippers' corrected to Hong and Feng Yunshan, as the longDescription says. 'A reference point for the later history of China's native churches' removed: no vendored or repo-cited source supports it, and the Chinese church entry does not name the Taiping. Replaced with the supported consequence the legacy already states (Spence, Reilly)."
+  }
+ ],
+ "wants": [
+  "Theodore Hamberg, The Visions of Hung-Siu-tshuen, and Origin of the Kwang-si Insurrection (Hong Kong, 1854), public domain: Hong Xiuquan's own account of his visions and the tract",
+  "José Rizal, El Filibusterismo (Ghent, 1891), public domain: the dedication to Gomez, Burgos and Zamora",
+  "Archbishop Bernardino Nozaleda's decree against Aglipay (29 April 1899) and the Iglesia Filipina Independiente's founding proclamation (August 1902), in public-domain printings",
+  "Bernard Petitjean's letter of March 1865 on the Oura meeting, in a public-domain printing (Annales de la Propagation de la Foi, 1865-66; or Francisque Marnas, La 'Religion de Jésus' ressuscitée au Japon, 1896)",
+  "Charles Dallet, Histoire de l'Église de Corée (Paris, 1874), public domain: the Korean church's origins and persecutions from Daveluy's materials; and Matteo Ricci, Tianzhu shiyi (1603), in a public-domain edition",
+  "A public-domain account of Nikolai's Japan mission (his reports to the Holy Synod, or the mission's annual reports before 1912)",
+  "A citable source for the Iglesia Filipina Independiente's 1961 concordat of full communion with the Episcopal Church"
+ ],
+ "escalations": []
+}

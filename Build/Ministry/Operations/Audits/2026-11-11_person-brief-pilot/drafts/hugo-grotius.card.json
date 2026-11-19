@@ -1,0 +1,69 @@
+{
+ "known_for": "Dutch jurist on the Remonstrant side who defended Christ's death as a satisfaction in his 1617 answer to Socinus.",
+ "role": "Jurist and writer",
+ "key_works": [
+  {
+   "title": "Defence of the Catholic Faith concerning the Satisfaction of Christ",
+   "about": "answers Socinus in ten chapters, first printed at Leiden in 1617"
+  },
+  {
+   "title": "On the Law of War and Peace",
+   "about": "his work on international law"
+  },
+  {
+   "title": "On the Truth of the Christian Religion",
+   "about": "his defence of the faith, which English readers prized"
+  }
+ ],
+ "legacy_traces": [
+  "Reformed writers who opposed him still borrowed from him. Heidegger took the idea of God as ruler of the universe to answer Socinus, and Turretin used the same phrase, though each meant something other than Grotius did.",
+  "The Dutch Arminians went another way. Episcopius, Curcellaeus and Limborch said God could forgive without any satisfaction, and put the need for the cross in God's will, not in a ruler's duty.",
+  "In England, Archbishop Tillotson stood first among the Arminians who largely took up his theory. In New England, Jonathan Edwards, then a pastor at New Haven, may have read him, since Grotius's example of Zaleucus turns up in Edwards's third sermon on the atonement, and Samuel Hopkins took up the governmental idea completely."
+ ],
+ "legacy_remembered": [
+  "In 1692 Bishop Burnet wrote that Grotius's book on the truth of the Christian religion, with its notes, ought to be read and almost learned by heart.",
+  "Richard Baxter wrote against him in The Grotian Religion Discovered, in answer to Thomas Pierce, whose chief aim was to defend Grotius.",
+  "In Holland, once the Arminians were condemned at Dort, he shared the ban laid on them, and even as a commentator he was often met with prejudice and hostility."
+ ],
+ "uncertain": [
+  "Why Grotius was condemned is not clear. Mosheim, who tells of the sentence, says the pretext and the charges are unknown to him. Hoogerbeets, the pensionary of Leyden, was imprisoned with him.",
+  "Grotius himself never calls his view the governmental theory. The name came later, and he speaks instead of God acting as ruler."
+ ],
+ "written_about": [
+  {
+   "title": "Historical Introduction to the Defence of the Catholic Faith",
+   "author": "Frank Hugh Foster",
+   "date": "1889",
+   "language": "English",
+   "file": "cic/texts/grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt"
+  },
+  {
+   "title": "Memoirs of Simon Episcopius",
+   "author": "Calder",
+   "date": "1838",
+   "language": "English",
+   "file": "cic/texts/calder_memoirs-of-simon-episcopius_1838.txt"
+  },
+  {
+   "title": "Articles of the Synod of Dort, with the history of events",
+   "author": "Scott (quoting Mosheim)",
+   "date": "1831",
+   "language": "English",
+   "file": "cic/texts/synod-of-dort_articles-with-history-of-events_scott1831.txt"
+  },
+  {
+   "title": "Discourse of the Pastoral Care",
+   "author": "Gilbert Burnet",
+   "date": "1692",
+   "language": "English",
+   "file": "cic/texts/burnet_discourse-of-the-pastoral-care_1692.txt"
+  },
+  {
+   "title": "Reliquiae Baxterianae",
+   "author": "Richard Baxter",
+   "date": "1696",
+   "language": "English",
+   "file": "cic/texts/baxter_reliquiae-baxterianae_sylvester1696.txt"
+  }
+ ]
+}

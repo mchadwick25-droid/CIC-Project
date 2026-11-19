@@ -31,3 +31,12 @@ assignments:
   note: 'The co-author''s share of the narrative; same mission, same outside view.
 
     '
+- row_id: carli_viaggio-nel-regno-del-congo-ita_guattini1671--kongo-christianity-after-1650-context
+  work: "Viaggio nel regno del Congo (1671)"
+  author: carli
+  locus: "whole book"
+  atlas_ids:
+  - kongo-christianity-after-1650
+  role: context
+  confidence: provisional
+  note: "Two Capuchins' account of their Kongo mission, printed 1671. The census entry's source; a missionaries' view."

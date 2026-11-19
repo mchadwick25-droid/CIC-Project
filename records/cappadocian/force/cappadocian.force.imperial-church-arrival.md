@@ -27,19 +27,12 @@ relations:
 name: "The imperial church's arrival (peace, councils, court formulas) [1A - initiating/external]"
 kind: initiating
 matrix_cell: 1A
-description: >-
-  Constantine's defeat of Licinius (324) ends persecution in the East; Nicaea (325) convenes with imperial
-  patronage - the region's bishops subscribe; from then on doctrine's public fortunes run through councils
-  summoned, formulas favored, and bishops installed or exiled by reigns (Doc_08 Cell 1A, Force 1A-1).
-  WORLD'S OWN EXPERIENCE (Layer 2): the storm ended and a stranger weather began - the kings now called the
-  bishops together, and the faith of the 318 fathers was written, and then, bewilderingly, the same palaces
-  that had honored it pressed other words in its place. The world learned early that a council could be
-  God's gift and a court's tool, sometimes in the same decade. Grounded in the era's own credal
-  loyalty-language and documented synod-weariness; where inner reception outruns testimony, Reported-
-  Experience Status applies. FORMATION IMPACT (Layer 3): created the situation-gravity (Primary 3/Gravity 3)
-  outright; made the confession a contested inheritance rather than a settled possession - which drove
-  Primary 1/Gravity 1's precision and the distributed, portable authority-structure (Doc_07 2C); planted the
-  lifelong wariness of courts and synods in the world's own voice.
+description: |-
+  Constantine's defeat of Licinius in 324 ended persecution in the East. The council of Nicaea met in 325 under imperial patronage, and the region's bishops signed. From then on, the fate of doctrine in public ran through the reigns. Reigns called councils, favored formulas, and put bishops in or sent them into exile.
+
+  In the world's own experience, the storm ended and a stranger weather began. The kings now called the bishops together, and the faith of the 318 fathers was written down. Then, to the world's bewilderment, the same palaces that had honored it pressed other words in its place. The world learned early that a council could be God's gift and a court's tool, sometimes in the same decade. This picture rests on the era's own words of loyalty to the creed, and on how tired of synods it was known to be. Where the inner life goes beyond what witnesses say, it is given as the world's own understanding, not checked as history.
+
+  For formation, this force created outright the gravity of the contested church under the contested empire. It made the confession a contested inheritance, not a settled possession. That drove the Triune confession to be precise. It also gave authority a spread-out, portable shape. It planted a lifelong wariness of courts and synods in the world's own voice.
 manifestations:
 - Constantine's defeat of Licinius (324), ending persecution in the East
 - Nicaea (325) convening with imperial patronage, the region's bishops subscribing

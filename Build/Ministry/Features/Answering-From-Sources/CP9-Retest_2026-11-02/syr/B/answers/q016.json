@@ -1,0 +1,189 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.one-church"
+   ],
+   "sentence": "We knew ourselves as one people across two empires, wherever Christians lived, called after the one name of Christ."
+  },
+  {
+   "record_ids": [
+    "syr.dw.one-church"
+   ],
+   "sentence": "We did not have denominations, not as the word is now meant."
+  },
+  {
+   "record_ids": [
+    "syr.dw.one-church"
+   ],
+   "sentence": "Our streets held rival communities who also invoked Christ: Marcion's people, Bardaisan's circle, and later Mani's missionaries."
+  },
+  {
+   "record_ids": [
+    "syr.dw.one-church"
+   ],
+   "sentence": "We would not share their communion, and we answered their teaching by name, in prose and in song."
+  },
+  {
+   "record_ids": [
+    "syr.dw.one-church"
+   ],
+   "sentence": "We held to one God, the whole of Scripture, and the body's resurrection."
+  },
+  {
+   "record_ids": [
+    "syr.quote.blc-one-name"
+   ],
+   "sentence": "Bardaisan, as his disciple Philip records him, spoke of that one name: “And what shall we say of the new race of us Christians, whom Christ at his coming planted in every country and in every region? For see - wherever we are, we are all called by the one name of Christ: Christians. On one day, the first of the week, we gather together.”"
+  },
+  {
+   "record_ids": [
+    "syr.term.catholicos"
+   ],
+   "sentence": "Our Persian bishops were many and contested, and no one used the title Catholicos in our years."
+  }
+ ],
+ "citations": [
+  "syr.dw.one-church",
+  "syr.quote.blc-one-name",
+  "syr.term.catholicos"
+ ],
+ "group": "A",
+ "id": "q016",
+ "net_sentences": [
+  {
+   "draft": "We knew ourselves as one people across two empires, wherever Christians lived, called after the one name of Christ [[syr.dw.one-church]] [[as:paraphrase]].",
+   "ratio": 0.91,
+   "sentence": "We knew ourselves as one people across two empires, wherever Christians lived, called after the one name of Christ.",
+   "tags": [
+    "syr.dw.one-church"
+   ],
+   "verdict": "ok",
+   "why": "grounded 91% in own tagged records"
+  },
+  {
+   "draft": "We did not have denominations, not as the word is now meant [[syr.dw.one-church]] [[as:paraphrase]].",
+   "sentence": "We did not have denominations, not as the word is now meant.",
+   "tags": [
+    "syr.dw.one-church"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our streets held rival communities who also invoked Christ: Marcion's people, Bardaisan's circle, and later Mani's missionaries [[syr.dw.one-church]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Our streets held rival communities who also invoked Christ: Marcion's people, Bardaisan's circle, and later Mani's missionaries.",
+   "tags": [
+    "syr.dw.one-church"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We would not share their communion, and we answered their teaching by name, in prose and in song [[syr.dw.one-church]] [[as:paraphrase]].",
+   "sentence": "We would not share their communion, and we answered their teaching by name, in prose and in song.",
+   "tags": [
+    "syr.dw.one-church"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We held to one God, the whole of Scripture, and the body's resurrection [[syr.dw.one-church]] [[as:paraphrase]].",
+   "sentence": "We held to one God, the whole of Scripture, and the body's resurrection.",
+   "tags": [
+    "syr.dw.one-church"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Bardaisan, as his disciple Philip records him, spoke of that one name: [[quote:syr.quote.blc-one-name]]",
+   "placed_quote": "syr.quote.blc-one-name",
+   "sentence": "Bardaisan, as his disciple Philip records him, spoke of that one name: “And what shall we say of the new race of us Christians, whom Christ at his coming planted in every country and in every region? For see - wherever we are, we are all called by the one name of Christ: Christians. On one day, the first of the week, we gather together.”",
+   "tags": [
+    "syr.quote.blc-one-name"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "Our Persian bishops were many and contested, and no one used the title Catholicos in our years [[syr.term.catholicos]] [[as:paraphrase]].",
+   "ratio": 0.88,
+   "sentence": "Our Persian bishops were many and contested, and no one used the title Catholicos in our years.",
+   "tags": [
+    "syr.term.catholicos"
+   ],
+   "verdict": "ok",
+   "why": "grounded 88% in own tagged records"
+  },
+  {
+   "draft": "Which church do you have in mind?",
+   "sentence": "Which church do you have in mind?",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "syr.dw.one-church",
+  "syr.term.catholicos",
+  "syr.story.abgar-addai-legend",
+  "syr.quote.blc-one-name",
+  "syr.gravity.covenant-life",
+  "syr.gravity.persecution-endurance",
+  "syr.force.transmission-ending",
+  "syr.contested.edessa-origins",
+  "syr.dw.authority-lived",
+  "syr.story.simeon-martyrdom",
+  "syr.quote.sozomen-melodies",
+  "syr.quote.basil-credits-a-syrian",
+  "syr.limit.f5-enslaved",
+  "syr.limit.f5-women-own-words",
+  "syr.dw.apostolic",
+  "syr.quote.ephrem-keeper-of-strangers",
+  "syr.quote.palladius-hospitaller",
+  "syr.dw.corpus-and-its-edges",
+  "syr.story.edessa-flood-201",
+  "syr.quote.chronicle-flood-line",
+  "syr.quote.abgar-letter"
+ ],
+ "raw_text": "We knew ourselves as one people across two empires, wherever Christians lived, called after the one name of Christ [[syr.dw.one-church]] [[as:paraphrase]]. We did not have denominations, not as the word is now meant [[syr.dw.one-church]] [[as:paraphrase]]. Our streets held rival communities who also invoked Christ: Marcion's people, Bardaisan's circle, and later Mani's missionaries [[syr.dw.one-church]] [[as:paraphrase]]. We would not share their communion, and we answered their teaching by name, in prose and in song [[syr.dw.one-church]] [[as:paraphrase]]. We held to one God, the whole of Scripture, and the body's resurrection [[syr.dw.one-church]] [[as:paraphrase]]. Bardaisan, as his disciple Philip records him, spoke of that one name: [[quote:syr.quote.blc-one-name]] [[as:paraphrase]]. Our Persian bishops were many and contested, and no one used the title Catholicos in our years [[syr.term.catholicos]] [[as:paraphrase]]. Which church do you have in mind?\n",
+ "reply_shape": {
+  "leadin_support": {
+   "syr.quote.blc-one-name": [
+    {
+     "detail": "Philip",
+     "kind": "name",
+     "snippet": "y, the first of the week, we assemble ourselves together In Philip's record, the Book of the Laws of Countries, Bardaisan descri",
+     "span": "record syr.quote.blc-one-name"
+    },
+    {
+     "detail": "disciple",
+     "kind": "role",
+     "snippet": "Ev. 6.10) confirms title and anti-fatalist purpose Philip, disciple of Bardaisan (dialogue with Bardaisan of Edessa, 154-222 CE",
+     "span": "record syr.source.bardaisan-book-of-laws"
+    }
+   ]
+  },
+  "placed": [
+   "syr.quote.blc-one-name"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S4",
+ "text": "We knew ourselves as one people across two empires, wherever Christians lived, called after the one name of Christ. We did not have denominations, not as the word is now meant. Our streets held rival communities who also invoked Christ: Marcion's people, Bardaisan's circle, and later Mani's missionaries. We would not share their communion, and we answered their teaching by name, in prose and in song. We held to one God, the whole of Scripture, and the body's resurrection. Bardaisan, as his disciple Philip records him, spoke of that one name: “And what shall we say of the new race of us Christians, whom Christ at his coming planted in every country and in every region? For see - wherever we are, we are all called by the one name of Christ: Christians. On one day, the first of the week, we gather together.”. Our Persian bishops were many and contested, and no one used the title Catholicos in our years. Which church do you have in mind?",
+ "voice_set_aside": false
+}

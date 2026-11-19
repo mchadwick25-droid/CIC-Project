@@ -1,0 +1,19 @@
+=== Tree narration  ===
+619 movements total
+8 skipped - no longDescription to narrate
+12 skipped - built world with its own orientation.story, recorded in its Representative's voice
+250 skipped - person, recorded only in a person run (--people)
+0 already narrated and current (use --force to regenerate)
+1 stale - recorded from text that has since changed, re-voiced this run
+1 to generate this run, 2994 characters total
+=== PAID RUN, settings as actually used ===
+approved run     : Release 50 fixes: re-record the eleven and Nicaea's story (Mark, 2026-11-17, 'Approved', cap 14,500 credits)   char cap: 3000
+default voice id : onwK4e9ZLuTAKqWW03F9
+output format    : mp3_44100_64
+model            : eleven_multilingual_v2
+settings         : {"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true}
+items            : 1   characters: 2994 text, 2994 sent
+===========================================
+  ok: council-of-nicaea-325 voice=onwK4e9ZLuTAKqWW03F9 model=eleven_multilingual_v2 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=2994 sent=2994 cost=1452 request-id=pjGzG4N4YypUVWpxDCQr
+
+1/1 generated. credits charged (character-cost headers): 1452

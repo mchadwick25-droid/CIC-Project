@@ -1,0 +1,125 @@
+{
+ "changes": [
+  {
+   "movement": "syriac-edessa-nisibis",
+   "field": "relationsSummary",
+   "paragraph": 0,
+   "old": "Parent of the Church of the East and the Syriac Orthodox Church. Their translators later carried Greek philosophy and medicine into Arabic, and from there back to Europe.",
+   "new": "It is the parent of the Church of the East and the Syriac Orthodox Church. Their translators later carried Greek philosophy and medicine into Arabic. From there, that learning came back to Europe.",
+   "fre_before": 56.7,
+   "fre_after": 64.9,
+   "fk_after": 6.9,
+   "facts_check": "Both lineages, translators, Greek philosophy and medicine, Arabic, return to Europe kept; split only."
+  },
+  {
+   "movement": "latin-pastoral-congregational-christianity",
+   "field": "legacy",
+   "paragraph": 0,
+   "old": "The North African church itself did not survive. The Vandals took the province in the 430s. After the Arab conquest of the seventh century, Latin Christianity there slowly died out. What it left behind is the working vocabulary of Western church life. Cyprian's letters became foundational for Western understandings of the bishop's office and the unity of the church. Later, the Donatists quoted them in their own defense. Augustine's sermons shaped Christian preaching for well over a thousand years, and the catechumenate and penitential practice worked out in these congregations became the pattern for Western sacramental discipline. In Geneva, Calvin wrote that he could fill a whole volume with Augustine's words on God's choice of the saved. Latin Christianity's basic assumptions about what a local church is were largely formed in these two African towns.",
+   "new": "The North African church itself did not survive. The Vandals took the province in the 430s. The Arab conquest came in the seventh century. After it, Latin Christianity there slowly died out. What it left behind is the working vocabulary of Western church life. Cyprian's letters laid the ground for how the West thinks about the bishop's office and the unity of the church. Later, the Donatists quoted them in their own defense. Augustine's sermons shaped Christian preaching for well over a thousand years. These congregations also worked out the catechumenate, the training of new believers before baptism. They worked out the practice of penance too. Both became the pattern for Western sacramental discipline. In Geneva, Calvin wrote that he could fill a whole book with Augustine's words on God's choice of the saved. Latin Christianity's basic ideas about what a local church is took shape largely in these two African towns.",
+   "fre_before": 47.5,
+   "fre_after": 60.3,
+   "fk_after": 7.8,
+   "facts_check": "Checked each item: Vandals 430s, Arab conquest 7th c., Cyprian letters (bishop's office, unity), Donatists, Augustine sermons 1000+ yrs, catechumenate, penance, Calvin/Geneva, two towns; catechumenate glossed, no new fact."
+  },
+  {
+   "movement": "marcion-marcionism",
+   "field": "why",
+   "paragraph": 0,
+   "old": "Marcion, a wealthy shipowner from Sinope, concluded that the strict, law-giving God of the Hebrew Scriptures and the merciful Father revealed by Jesus could not be the same being. The Roman church expelled him, traditionally in 144, and returned his money. He then built a rival network of congregations with its own edited Scripture - a version of Luke and ten letters of Paul, stripped of what he judged to be Jewish corruption.",
+   "new": "Marcion was a wealthy shipowner from Sinope. He concluded that the God of the Hebrew Scriptures was strict and gave the law. The Father whom Jesus revealed was merciful. To Marcion, these could not be the same being. The Roman church expelled him and gave back his money. By tradition, this happened in 144. He then built a rival network of churches with its own edited Scripture. It held a version of Luke and ten letters of Paul. He had stripped them of what he judged to be Jewish corruption.",
+   "fre_before": 48.5,
+   "fre_after": 76.1,
+   "fk_after": 5.1,
+   "facts_check": "Sinope shipowner, two-God claim, expulsion 'traditionally' 144, money returned, rival congregations, Luke + ten Pauline letters, 'what he judged' kept."
+  },
+  {
+   "movement": "valentinian-and-other-gnostic-christianities",
+   "field": "longDescription",
+   "paragraph": 0,
+   "old": "Valentinus was an Alexandrian teacher who came to Rome around 136. Tertullian says he hoped to become a bishop, and broke with the church when a confessor was chosen instead. He and the students who carried his name — Ptolemy, Heracleon, Theodotus — taught that the visible world was made not by the highest God but by a lesser craftsman, that human beings carry within them a spark of the divine that has fallen into matter, and that Christ came to bring the knowledge that wakes it up. Along with related currents around teachers like Basilides, they mostly did not build rival churches: they sat in ordinary congregations and offered their teaching as the deeper meaning available to those ready for it, which is precisely what alarmed bishops like Irenaeus, whose five-volume Against Heresies of about 180 was written to drag the system into the open and refute it. For eighteen centuries they were known almost entirely through such opponents — until 1945, when farmers digging near Nag Hammadi in Upper Egypt turned up a sealed jar of papyrus codices in Coptic, including the Gospel of Truth, giving these currents their own voice for the first time since antiquity.",
+   "new": "Valentinus was a teacher from Alexandria who came to Rome around 136. Tertullian says he hoped to become a bishop. When a confessor, someone who had suffered for the faith, was chosen instead, he broke with the church. His students Ptolemy, Heracleon and Theodotus carried his name. He and these students taught that the highest God did not make the visible world. A lesser craftsman made it. Human beings carry within them a spark of the divine that has fallen into matter. Christ came to bring the knowledge that wakes it up. They, and related currents around teachers like Basilides, mostly did not build rival churches. They sat in ordinary congregations. They offered their teaching as the deeper meaning, open to those ready for it. That is precisely what alarmed bishops like Irenaeus. Around 180 he wrote Against Heresies, in five volumes, to drag the system into the open and refute it. For eighteen centuries, these groups were known almost entirely through such opponents. Then, in 1945, farmers digging near Nag Hammadi in Upper Egypt found a sealed jar. Inside were papyrus books, or codices, in Coptic. Among them was the Gospel of Truth. For the first time since antiquity, these currents had their own voice.",
+   "fre_before": 32.7,
+   "fre_after": 63.7,
+   "fk_after": 7.2,
+   "facts_check": "Rome c.136, Tertullian's report, confessor (glossed), three students, craftsman/spark/knowledge, Basilides, 'mostly' kept, Irenaeus five volumes c.180, Nag Hammadi 1945, Coptic codices, Gospel of Truth kept."
+  },
+  {
+   "movement": "manichaeism",
+   "field": "longDescription",
+   "paragraph": 0,
+   "old": "Mani was born in Mesopotamia in 216 and raised in a sect of baptizers before breaking with it after what he described as revelations from his heavenly twin. He taught that reality is the battleground of two co-eternal principles, Light and Darkness, that particles of light are trapped in the material world, and that a strict ascetic discipline sets them free. Almost uniquely among founders of his era he wrote his own scriptures and had them translated deliberately, intending a faith that could absorb and supersede Christianity, Zoroastrianism and Buddhism at once. And for a time it worked, spreading from Persia across the Roman Empire and eastward along the Silk Road into Central Asia and China. His followers divided into the Elect, who kept the full discipline, and the Hearers, who supported them and lived ordinary lives. Augustine of Hippo was a Hearer for roughly nine years before his conversion, and spent much of his later career arguing against the teachers he had once sat under. Mani himself died in custody under the Persian king Bahram I in the 270s.",
+   "new": "Mani was born in Mesopotamia in 216. He was raised in a sect of baptizers. He broke with it after what he described as revelations from his heavenly twin. He taught that reality is the battleground of two principles, Light and Darkness, which have both always existed. Particles of light are trapped in the material world. A strict discipline of self-denial sets them free. Almost alone among founders of his era, he wrote his own scriptures. He also had them translated on purpose. He meant his faith to absorb and replace Christianity, Zoroastrianism and Buddhism at once. For a time, it worked. The faith spread from Persia across the Roman Empire. It also spread east along the Silk Road into Central Asia and China. His followers divided into two groups. The Elect kept the full discipline. The Hearers supported them and lived ordinary lives. Augustine of Hippo was a Hearer for roughly nine years before his conversion. He spent much of his later career arguing against the teachers he had once sat under. Mani himself died in custody under the Persian king Bahram I in the 270s.",
+   "fre_before": 43.0,
+   "fre_after": 65.5,
+   "fk_after": 6.7,
+   "facts_check": "216, baptizers, heavenly twin, co-eternal (plain gloss), ascetic (glossed), 'almost uniquely', translation, three faiths, spread routes, Elect/Hearers, Augustine 'roughly nine', Bahram I 270s kept."
+  },
+  {
+   "movement": "manichaeism",
+   "field": "why",
+   "paragraph": 0,
+   "old": "Mani, born in Mesopotamia in 216, broke from the sect of baptizers that raised him after what he described as revelations from his heavenly twin, and went on to teach that the world is a battleground between eternal Light and Darkness in which sparks of light lie trapped in matter. He wrote his own scriptures and had them deliberately translated, and his faith spread from Persia all the way to China. Augustine of Hippo followed it as a Hearer for nine years before his conversion.",
+   "new": "Mani was born in Mesopotamia in 216. A sect of baptizers raised him. He broke from them after what he described as revelations from his heavenly twin. He went on to teach that the world is a battleground between eternal Light and Darkness. In it, sparks of light lie trapped in matter. He wrote his own scriptures and had them translated on purpose. His faith spread from Persia all the way to China. Augustine of Hippo followed it as a Hearer for nine years before his conversion.",
+   "fre_before": 49.5,
+   "fre_after": 72.0,
+   "fk_after": 5.9,
+   "facts_check": "Sentence-by-sentence match: 216, baptizers, twin, Light/Darkness, trapped sparks, scriptures translated, Persia to China, Augustine nine years."
+  },
+  {
+   "movement": "manichaeism",
+   "field": "legacy",
+   "paragraph": 0,
+   "old": "In the West it was hunted by emperors and by the church and had largely vanished by the sixth century, though the word 'Manichaean' survived for centuries afterwards as an insult aimed at anyone thought too fond of dualism. In the East it lasted far longer. Many Uyghur Turks of Central Asia followed it, and it persisted in southern China for many centuries. Because Mani wrote his own books, and because manuscripts have been recovered over the last century from Turfan in western China, from Medinet Madi in Egypt, and in the miniature Cologne Mani Codex, this is one of the few extinct ancient religions that can now be read substantially in its own words rather than only through its enemies.",
+   "new": "In the West, emperors and the church hunted it down. It had largely vanished by the sixth century. Yet the word 'Manichaean' survived for centuries afterwards. It became an insult aimed at anyone thought too fond of dualism, the belief that two opposed powers divide the world. In the East it lasted far longer. Many Uyghur Turks of Central Asia followed it, and it held on in southern China for many centuries. Mani wrote his own books. Over the last century, manuscripts have also been recovered from Turfan in western China and from Medinet Madi in Egypt. There is also the tiny Cologne Mani Codex. Because of all this, it is one of the few extinct ancient religions that can now be read largely in its own words. It is no longer known only through its enemies.",
+   "fre_before": 42.6,
+   "fre_after": 64.5,
+   "fk_after": 7.4,
+   "facts_check": "West decline by 6th c., 'Manichaean' insult (quote kept, dualism glossed), Uyghurs, southern China, Turfan, Medinet Madi, Cologne Mani Codex, 'substantially' -> 'largely', enemies kept."
+  },
+  {
+   "movement": "montanism-the-new-prophecy",
+   "field": "legacy",
+   "paragraph": 0,
+   "old": "No church descends from the New Prophecy. Under Justinian in the sixth century the empire moved to crush it. Procopius says the Montanists of Phrygia shut themselves in their churches and set them alight. Its own writings were destroyed. What remains is a handful of quoted oracles plus a body of Phrygian gravestone inscriptions whose Montanist identity is itself argued over. That is the honest difficulty: the surviving evidence runs overwhelmingly through the three named prophets and through their enemies, and whether an independent community voice survives anywhere is not yet settled. What outlasted the movement is the set of questions it forced: whether prophecy continued after the apostles, who may authorize it, and how a church distinguishes genuine inspiration from enthusiasm. Critics of later revivals have reached for the comparison. In 1743 Charles Chauncy likened the cries and falling down of the Great Awakening to the Montanists of old. No historical line connects any later movement to it.",
+   "new": "No church descends from the New Prophecy. In the sixth century, under Justinian, the empire moved to crush it. Procopius says the Montanists of Phrygia shut themselves in their churches and set them alight. Its own writings were destroyed. What remains is a handful of quoted oracles. There are also inscriptions on graves in Phrygia. But whether they are Montanist is itself argued over. That is the honest problem. Almost all the surviving evidence comes through two sources: the three named prophets, and their enemies. Does the community's own voice survive anywhere? That is not yet settled. What outlasted the movement are the questions it forced. Did prophecy go on after the apostles? Who may authorize it? How does a church tell genuine inspiration from enthusiasm? Critics of later revivals have reached for the comparison. In 1743 Charles Chauncy likened the cries and falling down of the Great Awakening to the Montanists of old. No line of descent links any later movement to it.",
+   "fre_before": 42.5,
+   "fre_after": 61.7,
+   "fk_after": 6.9,
+   "facts_check": "No descent, Justinian, Procopius 'says', destroyed writings, oracles, gravestones still 'argued over', 'not yet settled', three questions, Chauncy 1743, no historical line kept."
+  },
+  {
+   "movement": "anatolian-church-third-century",
+   "field": "relationsSummary",
+   "paragraph": 0,
+   "old": "The ground the Cappadocian tradition grows out of and knows it: Basil's grandmother Macrina taught him Gregory Thaumaturgus' words, and Basil appeals to Gregory's practice as precedent. Origen's reach runs through it in both directions - Gregory was his devoted pupil, Methodius one of his first serious critics.",
+   "new": "This is the ground the Cappadocian tradition grows from, and it knows it. Basil's grandmother Macrina taught him the words of Gregory Thaumaturgus. Basil points to Gregory's practice as a precedent. Origen's reach runs through it both ways. Gregory was his devoted pupil. Methodius was one of his first serious critics.",
+   "fre_before": 35.4,
+   "fre_after": 60.5,
+   "fk_after": 6.9,
+   "facts_check": "Macrina, Gregory Thaumaturgus, precedent, Origen both directions, Gregory pupil, Methodius early critic kept."
+  },
+  {
+   "movement": "anatolian-church-third-century",
+   "field": "longDescription",
+   "paragraph": 0,
+   "old": "Gregory of Neocaesarea went south to study law and came back a bishop. He had fallen in with Origen at Caesarea instead and stayed five years. The farewell address that bears his name is one of the warmest descriptions of a teacher anyone wrote in antiquity, though some scholars doubt he wrote it. What he did in Pontus after that is mostly legend - the story that he found seventeen Christians in the city and left seventeen pagans is a century later than he is - but one document survives that is not legend at all. When Gothic raiders came through in the 250s, Gregory wrote a canonical letter working out what to do about Christians who had looted alongside them, or informed, or kept what the raiders left: a bishop dealing with a wrecked province, case by case. A generation later and further south, Methodius, bishop of Olympus in Lycia, wrote the Banquet of the Ten Virgins - a Christian rewriting of Plato's Symposium in which ten women take turns praising chastity - and became one of the first substantial critics of Origen, whose most devoted pupil had been Gregory. He died in the persecution around 311.",
+   "new": "Gregory of Neocaesarea went south to study law and came back a bishop. Instead of law, he had fallen in with Origen at Caesarea and stayed five years. A farewell address bears his name. It is one of the warmest pictures of a teacher that anyone wrote in antiquity, though some scholars doubt that he wrote it. What he did in Pontus after that is mostly legend. One story says he found seventeen Christians in the city and left seventeen pagans. But that story comes from a century after his time. One document survives, though, that is not legend at all. When Gothic raiders came through in the 250s, Gregory wrote a canonical letter, a letter of church rules. It worked out what to do about Christians who had looted alongside the raiders, or informed, or kept what the raiders left. It shows a bishop dealing with a wrecked province, case by case. A generation later and further south, Methodius was bishop of Olympus in Lycia. He wrote the Banquet of the Ten Virgins, a Christian rewriting of Plato's Symposium. In it, ten women take turns praising chastity. He also became one of the first substantial critics of Origen, whose most devoted pupil had been Gregory. Methodius died in the persecution around 311.",
+   "fre_before": 48.7,
+   "fre_after": 64.1,
+   "fk_after": 7.6,
+   "facts_check": "Law study, Origen at Caesarea five years, address authorship doubt, seventeen-Christians legend a century later, Gothic 250s letter (glossed), cases, Methodius/Olympus/Lycia, Banquet, Symposium, critic, c.311 kept."
+  },
+  {
+   "movement": "anatolian-church-third-century",
+   "field": "why",
+   "paragraph": 0,
+   "old": "Gregory of Neocaesarea, a devoted pupil of Origen, wrote a canonical letter working out, case by case, what to do with Christians who had looted alongside Gothic raiders in the 250s. A generation later, Methodius of Olympus rewrote Plato's Symposium as a Christian dialogue in which ten women take turns praising chastity, and became one of Origen's first serious critics before dying in the persecution around 311.",
+   "new": "Gregory of Neocaesarea was a devoted pupil of Origen. In the 250s, some Christians looted with Gothic raiders. Gregory wrote a canonical letter, a letter of rules for the church, about them. It worked out what to do with them, case by case. Methodius of Olympus came a generation later. He turned Plato's Symposium into a Christian dialogue. In it, ten women take turns to praise chastity. He also became one of the first serious critics of Origen. Then he died in the persecution around 311.",
+   "fre_before": 25.9,
+   "fre_after": 60.9,
+   "fk_after": 7.1,
+   "facts_check": "Pupil of Origen, 250s looting with Goths, canonical letter (glossed), case by case, Methodius a generation later, Symposium dialogue, ten women, critic, c.311 kept."
+  }
+ ]
+}

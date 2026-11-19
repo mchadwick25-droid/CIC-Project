@@ -1,0 +1,22 @@
+source_file: coolsma_de-zendingseeuw-voor-nederlandsch-oost-indie-nld_1901.txt
+assignments:
+- row_id: coolsma_de-zendingseeuw-voor-nederlandsch-oost-indie-nld_1901--de-zendingseeuw-voor-nederlandsch-oost-indie
+  work: De Zendingseeuw voor Nederlandsch Oost-Indië
+  author: coolsma
+  locus: Sadrach at Karangdjoso, the Inspector's visit and a sketch of his life, at lines 21497-21642; the rest
+    not mapped
+  atlas_ids:
+  - indonesian-christianity
+  role: context
+  confidence: provisional
+  language: nld
+  date:
+    start: 1901
+    end: 1901
+    source: 'the printing''s own title page: line 62 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1901
+    source: line 62 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 207, Kiai Sadrach: a Dutch mission history.'

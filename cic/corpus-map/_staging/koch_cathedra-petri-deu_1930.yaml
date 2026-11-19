@@ -10,6 +10,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: assigned
+    locus_ids: [whole-file]
+    language: deu
+    date: {start: 1930, end: 1930, source: "koch_cathedra-petri-deu_1930.txt: Vorwort (file line 178) signed 'München, im Mai 1930.' (line 284); this is the preface date", formation_confidence: Documented}
     note: >
       Modern (1930) German scholarship, role context, not tradition. Not a primary source and not a
       witness to any ancient text. New studies on the beginnings of the Roman primacy, answering

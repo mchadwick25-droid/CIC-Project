@@ -1,0 +1,329 @@
+{
+ "draft": "Some of our claims stand firm, and some we hold open [[lpc.gravity.conciliar-authority-theory]] [[lpc.contested.grace-pelagius-characterization]] [[as:paraphrase]]. That each bishop held a theory of council power, in his own words, is solidly attested [[lpc.gravity.conciliar-authority-theory]] [[as:paraphrase]]. Cyprian's formula stands at length in the preface to the council of 256 [[lpc.gravity.conciliar-authority-theory]] [[as:paraphrase]]. He states the same freedom of each bishop in his letters to Jubaianus and Magnus, and in the letter he and his council sent to Stephen [[lpc.gravity.conciliar-authority-theory]] [[as:paraphrase]]. The evidence that these theories shaped much of our life is much weaker [[lpc.gravity.conciliar-authority-theory]] [[as:paraphrase]]. Both theories appear only in bishops' writing, and nothing shows either one at work among ordinary clergy [[lpc.gravity.conciliar-authority-theory]] [[as:paraphrase]]. That is a limit of the search so far, not a proven absence [[lpc.gravity.conciliar-authority-theory]] [[as:paraphrase]]. Whether Augustine was fair to Pelagius stays open, since we have only his side [[lpc.contested.grace-pelagius-characterization]] [[as:paraphrase]]. Pelagius's own words do not survive among our sources [[lpc.contested.grace-pelagius-characterization]] [[as:paraphrase]]. Where our two oldest accounts differ, we say so and do not settle it, as with two early texts that tell the death of Cyprian: [[story:lpc.story.the-death-of-cyprian:short]]\n",
+ "ending": "rewritten",
+ "final": "Some of our claims stand firm, and some we hold open. That each bishop held a theory of council power, in his own words, is solidly attested. Cyprian's formula stands at length in the preface to the council of 256. Cyprian states the same freedom of each bishop in his letters to Jubaianus and Magnus, and in the letter Cyprian and his council sent to Stephen. The evidence that the theories of Cyprian and Augustine shaped much of our life is much weaker. Both theories appear only in bishops' writing, and nothing shows either one at work among ordinary clergy. The lack of any sign among ordinary clergy is a limit of the search so far, not a proven absence. Whether Augustine was fair to Pelagius stays open, since we have only Augustine's side. Pelagius's own words do not survive among our sources.",
+ "group": "A",
+ "offered": [
+  "lpc.witness.almsgiving-quenches-sin",
+  "lpc.term.communion",
+  "lpc.story.the-death-of-cyprian",
+  "lpc.quote.he-covered-his-eyes-with-his-own-hand",
+  "lpc.quote.the-trees-and-the-trembling-executioner",
+  "lpc.gravity.conciliar-authority-theory",
+  "lpc.contested.grace-pelagius-characterization"
+ ],
+ "placements": [
+  {
+   "decision": "drop",
+   "judgement": {
+    "fit": "partly",
+    "limit_stated": false,
+    "reason": "It shows how two sources differ and the difference is left open, but it does not say how much of the community's claims survive scrutiny."
+   },
+   "record_id": "lpc.story.the-death-of-cyprian"
+  }
+ ],
+ "question": "If a modern scholar examined your claims, how much would survive rigorous scrutiny?",
+ "question_id": "q009",
+ "read": {
+  "dropped": [
+   "lpc.story.the-death-of-cyprian"
+  ],
+  "status": "rewrite",
+  "unsupported": {
+   "9": {
+    "problem": "added_detail",
+    "reason": "The record says two early texts, not 'our two oldest accounts', and gives no general practice of leaving differences open.",
+    "supported": false
+   }
+  }
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.gravity.conciliar-authority-theory",
+    "lpc.contested.grace-pelagius-characterization"
+   ],
+   "sentence": "Some of our claims stand firm, and some we hold open.",
+   "tags": [
+    "lpc.gravity.conciliar-authority-theory",
+    "lpc.contested.grace-pelagius-characterization"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.gravity.conciliar-authority-theory"
+   ],
+   "sentence": "That each bishop held a theory of council power, in his own words, is solidly attested.",
+   "tags": [
+    "lpc.gravity.conciliar-authority-theory"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.gravity.conciliar-authority-theory"
+   ],
+   "sentence": "Cyprian's formula stands at length in the preface to the council of 256.",
+   "tags": [
+    "lpc.gravity.conciliar-authority-theory"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.gravity.conciliar-authority-theory"
+   ],
+   "sentence": "Cyprian states the same freedom of each bishop in his letters to Jubaianus and Magnus, and in the letter Cyprian and his council sent to Stephen.",
+   "tags": [
+    "lpc.gravity.conciliar-authority-theory"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.gravity.conciliar-authority-theory"
+   ],
+   "sentence": "The evidence that the theories of Cyprian and Augustine shaped much of our life is much weaker.",
+   "tags": [
+    "lpc.gravity.conciliar-authority-theory"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.gravity.conciliar-authority-theory"
+   ],
+   "sentence": "Both theories appear only in bishops' writing, and nothing shows either one at work among ordinary clergy.",
+   "tags": [
+    "lpc.gravity.conciliar-authority-theory"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.gravity.conciliar-authority-theory"
+   ],
+   "sentence": "The lack of any sign among ordinary clergy is a limit of the search so far, not a proven absence.",
+   "tags": [
+    "lpc.gravity.conciliar-authority-theory"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.contested.grace-pelagius-characterization"
+   ],
+   "sentence": "Whether Augustine was fair to Pelagius stays open, since we have only Augustine's side.",
+   "tags": [
+    "lpc.contested.grace-pelagius-characterization"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.contested.grace-pelagius-characterization"
+   ],
+   "sentence": "Pelagius's own words do not survive among our sources.",
+   "tags": [
+    "lpc.contested.grace-pelagius-characterization"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Some of our claims stand firm, and some we hold open.",
+   "tags": [
+    "lpc.gravity.conciliar-authority-theory",
+    "lpc.contested.grace-pelagius-characterization"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "That each bishop held a theory of council power, in his own words, is solidly attested.",
+   "tags": [
+    "lpc.gravity.conciliar-authority-theory"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Cyprian's formula stands at length in the preface to the council of 256.",
+   "tags": [
+    "lpc.gravity.conciliar-authority-theory"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "He states the same freedom of each bishop in his letters to Jubaianus and Magnus, and in the letter he and his council sent to Stephen.",
+   "tags": [
+    "lpc.gravity.conciliar-authority-theory"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The evidence that these theories shaped much of our life is much weaker.",
+   "tags": [
+    "lpc.gravity.conciliar-authority-theory"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Both theories appear only in bishops' writing, and nothing shows either one at work among ordinary clergy.",
+   "tags": [
+    "lpc.gravity.conciliar-authority-theory"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "That is a limit of the search so far, not a proven absence.",
+   "tags": [
+    "lpc.gravity.conciliar-authority-theory"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Whether Augustine was fair to Pelagius stays open, since we have only his side.",
+   "tags": [
+    "lpc.contested.grace-pelagius-characterization"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 8,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Pelagius's own words do not survive among our sources.",
+   "tags": [
+    "lpc.contested.grace-pelagius-characterization"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 9,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Where our two oldest accounts differ, we say so and do not settle it, as with two early texts that tell the death of Cyprian:",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 10,
+   "placed": true,
+   "placed_id": "lpc.story.the-death-of-cyprian",
+   "reason": "placed by code",
+   "sentence": "Two early texts tell how our great bishop Cyprian was put to death on 14 September: a life by his deacon Pontius, and the Acta.",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 11,
+   "placed": true,
+   "placed_id": "lpc.story.the-death-of-cyprian",
+   "reason": "placed by code",
+   "sentence": "On his last night all his people kept watch at the door of the house where he was held.",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 12,
+   "placed": true,
+   "placed_id": "lpc.story.the-death-of-cyprian",
+   "reason": "placed by code",
+   "sentence": "Sentenced as an enemy of the gods, Cyprian said, Thanks be to God, and the believers cried out to be beheaded with him.",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 13,
+   "placed": true,
+   "placed_id": "lpc.story.the-death-of-cyprian",
+   "reason": "placed by code",
+   "sentence": "The texts differ on the cloth over his eyes: Pontius says he bound it himself, while in the Acta two clergy named Julianus tied it.",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 14,
+   "placed": true,
+   "placed_id": "lpc.story.the-death-of-cyprian",
+   "reason": "placed by code",
+   "sentence": "And so the blessed Cyprian suffered martyrdom.",
+   "tags": [
+    "lpc.story.the-death-of-cyprian"
+   ]
+  }
+ ],
+ "shipped_by_net": "Some of our claims stand firm, and some we hold open. That each bishop held a theory of council power, in his own words, is solidly attested. Cyprian's formula stands at length in the preface to the council of 256. He states the same freedom of each bishop in his letters to Jubaianus and Magnus, and in the letter he and his council sent to Stephen. The evidence that these theories shaped much of our life is much weaker. Both theories appear only in bishops' writing, and nothing shows either one at work among ordinary clergy. That is a limit of the search so far, not a proven absence. Whether Augustine was fair to Pelagius stays open, since we have only his side. Pelagius's own words do not survive among our sources. Where our two oldest accounts differ, we say so and do not settle it, as with two early texts that tell the death of Cyprian:\n\nTwo early texts tell how our great bishop Cyprian was put to death on 14 September: a life by his deacon Pontius, and the Acta.\n\nOn his last night all his people kept watch at the door of the house where he was held.\n\nSentenced as an enemy of the gods, Cyprian said, Thanks be to God, and the believers cried out to be beheaded with him.\n\nThe texts differ on the cloth over his eyes: Pontius says he bound it himself, while in the Acta two clergy named Julianus tied it.\n\nAnd so the blessed Cyprian suffered martyrdom.",
+ "sub_question": "C16.S2"
+}

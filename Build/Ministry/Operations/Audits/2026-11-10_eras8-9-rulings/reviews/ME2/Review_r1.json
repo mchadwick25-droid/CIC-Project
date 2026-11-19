@@ -1,0 +1,118 @@
+{
+ "slice": "ME2",
+ "round": 1,
+ "verdict": "revise",
+ "blocking": [],
+ "substantial": [
+  {
+   "id": "S1",
+   "where": "old-believers-after-1815.longDescription[last paragraph]",
+   "problem": "Misreads the source. Conybeare's 'that day' refers back to the proclamation of 17 April 1905, not to 25 August. The draft's sentence makes 25 August the holy day.",
+   "evidence": "conybeare 6619-6623: 'Since the proclamation of liberty of conscience on April 17th, 1905, the Popovtsy have redoubled their energy, and in a Synod held on August 25th of that year decreed that that day should be for ever feasted as a holy day in their Church.'",
+   "fix": "Replace with: 'On 25 August 1905 a synod of the priestly branch met. It ordered that the day of the decree be kept as a holy day for ever.' (FRE 86, FK 4.4). Update fact33's sentence to match."
+  },
+  {
+   "id": "S2",
+   "where": "romanian-greek-catholic-church-1698-1815.longDescription (paragraphs 3, 6, 7); romanian-greek-catholic-church-1815-1906.longDescription (paragraphs 1, 4, 5); link romanian-greek-catholic-church-1815-1906--the-romanian-greek-catholic-church-suppression-and-return.note",
+   "problem": "Coordinator's rule: an English rendering of a non-English quote that reaches the census must have its original beside it there; fact_table does not reach the census. Several renderings appear with no original. (a) The 1701 synod, rendered from Latin ('the eighth year is now turning...'). (b) Klein's answer, rendered from Romanian ('how do you want me to calm the people...'). (c) Maria Theresa's 'that false monk' (acel pseudo-monach impostor). (d) Era 9: 'spoiled the ancestral law' (stricată legea strămoșească), 'a plain political alliance of two confessions against a third' (o simplă alianță politică între două confesiuni...), 'the Romanian united province of Alba Iulia' (Provincia nostră românească unită mitropolitană de Alba-Iulia) and 'must stay untouched' (să rămână neatinse). Klein's rendering also drops words. He said the rights must be promised 'and actually given' to us (să ni se promită și să ni se dea faptice). The draft says only that 'they' must be promised the rights.",
+   "evidence": "bunea_klein: 'Dacă vreţi cu mijlóce blânde, atunci este de lipsă să ni se promită si să ni se dea faptice drepturile, cari le cerem pe basa diplomelor.' nilles: 'Octarus jam volvitur annus, quod opera ac solertia Patrum S. J., Albae-Juliae degen- tium, de unione cum Sancta Homano-catholica Ecclcsia agere coepimus.' grama1: 'ne-a „stricată legea strămoșăscă“'; '...o simplă, alianță - politică intre dóuë confesiuni spre a se apera in contra la a treia'. Bauhofer is not affected: its quotes come from the published English translation (Craig, 1854), which is the source text itself. Conybeare, Ormanian, Pinkerton and the CE are in English.",
+   "fix": "For each quoted rendering, put the original, verbatim as the scan prints it, in the same field: either in brackets after the rendering, or as the quote with the rendering after it. Example for Klein: 'Asked to calm the movement, he answered: „Cum vreţi să liniştesc spiritele: cu mijlóce blânde ori cu mijlóce violente?“ In a plain rendering: how do you want me to calm the people, with mild means or with force? If with mild means, he said, the rights asked for on the basis of the diplomas must be promised to us and truly given.' (FRE 75, FK 7.5). Mark it as a rendering. Do the same for the 1701 synod (Latin), 'pseudo-monach impostor' (rendered 'that impostor, the false monk'), and the four era 9 phrases. If an original is too damaged to sit in prose, turn the rendering into plain reported speech with no quotation-like wording."
+  },
+  {
+   "id": "S3",
+   "where": "link russian-church-synodal-century--old-believers-after-1815 (VIII.31 → ME-5, 'argued against'), and the existing census link russian-church-synodal-century--the-old-believers (VIII.31 → VII.7, 'argued against', Widely Accepted)",
+   "problem": "The new link fits its evidence. Its type and grade are right, and VIII.31's own relationsSummary names 'the separate Old Believer Belokrinitsa hierarchy, founded in 1846', so the two-way check calls for it. But the census already has VIII.31 → VII.7 'argued against'. All of that link's evidence comes after 1815: Mouravieff 1842 on the conversions of 1839, and Pobedonostsev. VII.7 ends in 1815, so the old link was aimed at VII.7 only because no later row existed. With ME-5 in, the same relationship now shows twice, once to the wrong era. Neither the draft nor its flags deal with this. It is the same question RV-A raised for VII.19 → VI.11.",
+   "evidence": "Census edge russian-church-synodal-century--the-old-believers: quotes from Mouravieff lines 19637-19692 (1839 statistics) and Conybeare 5810-5816 (Pobedonostsev). VIII.31 dates 1815-1906; VII.7 dates 1666-1815.",
+   "fix": "The coordinator decides; it changes a frozen link beyond the bare words of G89-38. Recommended: name it as a change order under G89-6 a. Retire the VIII.31 → VII.7 'argued against' link with replacedBy pointing to the new link. Move its Library quotes into the new link (Mouravieff's are primary and verified-direct, so the link may be graded Documented). If the coordinator declines, keep both links and log the mis-aimed old link in Open-Gaps. Either way, add a flag."
+  },
+  {
+   "id": "S4",
+   "where": "ME-8, holds (missing item)",
+   "problem": "A ruled item is neither drafted nor held. The record's ME-8 recommendation (§6, and §2's Recommendation column for ME-8) says to name the Carpathian Ruthenian union (Uzhhorod 1646; Mukachevo) as a named line in VII.28 / VIII.38. Mark took every recommendation. Slices.md gives VII.28 and VIII.38 to no slice, so the line is about to fall through.",
+   "evidence": "§2 ME-8 row: '...the Carpathian Ruthenian union as a line in VII.28 / VIII.38'. §6 ME-8 Recommendation: 'Name the Carpathian Ruthenian union ... as a named line in VII.28 / VIII.38 (the Ruthenian rows), not here.' The Mukachevo date is [S].",
+   "fix": "Add a hold: {item: 'ME-8: the Carpathian Ruthenian union (Uzhhorod 1646; Mukachevo) as a named line in VII.28 / VIII.38', g89: 'G89-41 a', reason: 'Named by the record as a line in the Ruthenian rows; those rows are in no slice; the Mukachevo date is [S].', waits_for: 'A slice given VII.28 / VIII.38 (or a later pass), and Nilles's Munkács entries re-read.'}. Tell the coordinator."
+  },
+  {
+   "id": "S5",
+   "where": "link polish-and-lithuanian-catholicism-under-the-partitions--polish-catholicism-wyszynski-and-john-paul-ii.note",
+   "problem": "Unsupported sentence. 'Historians follow one church across the break' rests on Kłoczowski and Porter-Szűcs, which are named but not read and carry no quote. The only quote is the CE's list of provinces.",
+   "evidence": "The link's sources 2 and 3 have quote null. cathen_12181a gives only 'There are at present in Poland four ecclesiastical provinces: at Gnesen, Lemberg, Mohileff, and Warsaw.'",
+   "fix": "Replace the note with: 'The Catholic Encyclopedia names the archbishop of Gnesen as head of the church in Poland. It lists four church provinces there in 1911. The later entry tells the Polish church from 1918.' (FRE 67, FK 6.4)."
+  }
+ ],
+ "minor": [
+  {
+   "id": "m1",
+   "where": "the-old-believers.relationsSummary (VII.7, frozen)",
+   "problem": "Ruled change, judged: the change is allowed and kept small. The record's overlap note tells the change order to check this line. Replacing the post-1815 sentence with a pointer to the new continuation, which now carries 1846, is what that check requires. It is not a substantial change beyond the ruling. Two small points remain. The pointer drops the name of the Belaya Krinitsa hierarchy. And the new sentence alone scores FRE 48 and FK 11.1, failing the bar, so the drafter's flag that every added sentence clears the bar is not quite right. The paragraph's READ-FAIL comes from the frozen first two sentences (FRE 27 alone), as claimed.",
+   "evidence": "Frozen relationsSummary scored alone: FRE 27, FK 13.2. Pointer sentence: FRE 48, FK 11.1.",
+   "fix": "'The next entry tells how the priestly Old Believers got bishops of their own in 1846, at Belaya Krinitsa.' (FRE 66, FK 8.5)."
+  },
+  {
+   "id": "m2",
+   "where": "armenian-christianity-zartonk.longDescription[3] (VIII.32, ME-15 line)",
+   "problem": "'The bull was forced on the Chaldeans in 1869' is Chaldean history. It goes beyond the ME-15 line in the Armenian row.",
+   "evidence": "cathen_03559a: 'it was imposed upon the Chaldeans in 1869.'",
+   "fix": "Cut the sentence. Keep the Labourt source note."
+  },
+  {
+   "id": "m3",
+   "where": "armenian-christianity-zartonk.longDescription[2] (ME-14 line)",
+   "problem": "'set how the catholicos dealt with the patriarchal office' misreads Ormanian. The 'patriarchal administration' he means is the catholicos's own; it is not a second office.",
+   "evidence": "ormanian 4757-4761: 'the regulation (pologenia) which was specially enacted (1836) for the purpose of establishing connection with the patriarchal administration'.",
+   "fix": "'In 1836 a Russian rule, the Polozhenie, tied the catholicos's administration to the state.'"
+  },
+  {
+   "id": "m4",
+   "where": "polish-and-lithuanian-catholicism-under-the-partitions.longDescription[3]",
+   "problem": "'Lithuania suffered most' overstates the source. The CE says only that measures were 'peculiarly energetic' there.",
+   "evidence": "cathen_12181a: 'Peculiarly energetic measures were taken against the Catholic Church in Lithuania.'",
+   "fix": "'The measures were harshest in Lithuania.' Add the quote to the fact table."
+  },
+  {
+   "id": "m5",
+   "where": "hungarian-and-transylvanian-protestantism-1650-1815.longDescription[1]",
+   "problem": "'to convict Protestant pastors' narrows the source, which says 'the Protestants'.",
+   "evidence": "cathen_07547a: 'a special court for the conviction of the Protestants'.",
+   "fix": "'...a special court at Presburg to try Protestants.'"
+  },
+  {
+   "id": "m6",
+   "where": "hungarian-and-transylvanian-protestantism-1650-1815.statusDescription",
+   "problem": "The tier is not named, though the brief asks for the tier and the window.",
+   "evidence": "statusWord 'Researched — viable, secondary'.",
+   "fix": "'Tiered Viable, secondary (Tier 2) on one Protestant history and one Catholic study. Its window runs from 1650 to 1815. Not yet reviewed.'"
+  },
+  {
+   "id": "m7",
+   "where": "hungarian-and-transylvanian-protestantism-1650-1815.longDescription (edict paragraph)",
+   "problem": "Edict date: both dates are named, each with its source, which handles the disagreement. But the sources describe different acts. Bauhofer's 24 October is the day the edict was 'forwarded to all the bishops'; the CE's 25 October is the day it was 'issued'. The sentence should say so, so the two dates do not read as a bare conflict.",
+   "evidence": "bauhofer: 'on the 24th of October, 1781, when the Edict of Toleration was forwarded to all the bishops of Hungary'; cathen_07547a: 'was issued 25 October, 1781'.",
+   "fix": "'The Catholic Encyclopedia says it was issued on 25 October.' Also capitalize 'Catholic Encyclopedia' in the last paragraph, and in the ME-10 link note."
+  },
+  {
+   "id": "m8",
+   "where": "old-believers-after-1815.longDescription[3]",
+   "problem": "The unsealing date of 3 May 1883 is Conybeare's alone, and other accounts of the Rogozhskoe altars differ (reviewer's knowledge, [S]). He also says Sapelkin, a member of the sect, asked Philaret for the reconsecration. The draft makes Philaret the one who acted.",
+   "evidence": "conybeare 5765-5777.",
+   "fix": "'Conybeare says its altars stayed sealed until 3 May 1883.' Optionally: 'At the request of one of their own, Sapelkin, Metropolitan Philaret made one chapel...'."
+  },
+  {
+   "id": "m9",
+   "where": "holds (ME-8 era 9 → IX.73; ME-10 → IX.70)",
+   "problem": "The two new 'continued as' links cross unfilled years, 1906-1948 and 1906-1918, that no row covers. Gaps are to be tracked, not left quiet.",
+   "evidence": "IX.73 starts 1948; IX.70 starts 1918.",
+   "fix": "One hold for each gap, for the era 10 owner."
+  },
+  {
+   "id": "m10",
+   "where": "link romanian-greek-catholic-church-1815-1906--the-romanian-greek-catholic-church-suppression-and-return",
+   "problem": "Widely Accepted, while the note says 'no study has been read' and the tie rests on the see's name. That is defensible for a plain identity of see, but Dominant Modern Reconstruction would fit the stated basis better. The Mahieu source has no quote and should carry its state.",
+   "evidence": "citation_specificity C; Mahieu quote null.",
+   "fix": "Keep Widely Accepted and drop 'no study has been read', since the tie rests on the see's own names, or grade it DMR. Mark Mahieu named-not-rechecked."
+  }
+ ],
+ "quotes_checked": 124,
+ "quotes_failed": [],
+ "notes": "Sources re-fetched independently with curl into review/ME2/raw/ (Nilles, Bunea 1900, Grama and Bunea 1893, Bauhofer, CE 03559a, 05230a, 07547a, 12181a; CE HTML stripped by my own script). The four archive.org texts are byte-identical to the drafter's copies. check_draft.py on my fetch: 124 quotes. 9 QUOTE-MISS-RAW, all on CE pages, and each one, checked in context, is whitespace my tag-stripping left before punctuation ('Church .'). The words are present verbatim in every case. No quote failed. Library quotes (Conybeare, Pinkerton, Ormanian) were checked by the checker at their lines, and I read about 30 of them in context.\n\nThe two READ-FAILs are frozen text. VII.7 relationsSummary: the frozen original scores FRE 27 alone; VIII.32 longDescription[0], FRE 14. Both are carried unchanged (VIII.32's paragraph was string-compared to the census). The drafter's added paragraphs clear the bar, except the VII.7 pointer sentence (m1).\n\nJudgments asked for:\n(1) ME-8 era 9 row. G89-41 a says 'an era 9 row or named line'. The §6 recommendation makes it a row 'once a Romanian study is opened, or a named line until then', and it names Augustin Bunea as the example of such a study. Grama and Bunea 1893 is that study (a Bunea work, an 'apologetic' study, from Blaj). So the condition for a row is met by the record's own words. There is no era 9 home for a line in any case. The source carries what the row says: the metropolitan province and its four dioceses, coordinate with Esztergom; reactivation in the 1850s (the scan prints 1855; '1850s' is the safe wording, and the hold names 1853 [S]); the synods of 1872 and 1882; the rite clause; the Densușianu quarrel. One nuance: Densușianu's 'political alliance' view reaches the book through an unnamed Blaj man's memory of a private talk, though the book then says he set it out in Gazeta no. 67. 'The book reports' is fair. Tier 2, the thin sourcing stated plainly, and the holds are right. Row accepted.\n(2) Sources beyond the record. Bunea 1900 and Grama and Bunea 1893 are public domain, opened raw and flagged, as the drafting brief allows. The record itself lists Bunea as wanted. The record cites CE 'Hungary' (V for its 1848 sentence). Using more sentences from a cited source opened raw is within the rule. The Bauhofer attribution, [S] in the record, is confirmed by archive.org metadata (creator 'Bauhofer, János György, 1806-1864'). Optionally write 'János György Bauhofer' in sourcing.\n(3) VII.7 relationsSummary. See m1: the change is within the record's instruction to check that line, so it is not substantial.\n(4) VIII.31 → ME-5. See S3.\n(5) Living evidence moved from VII.7 to ME-5. Correct under the coordinator's rule. ME-5 is the latest Old Believer row and holds its own CR evidence; VII.7 names it as carrier. No census row names VII.7 as carrier, so nothing becomes doubly carried. ME-8 (both rows) → IX.73 and ME-10 → IX.70 are valid carriers: each is living with its own grade and is not carried. ME-9 is living with own grade 'none' and has a wants entry, as ruled. modernCountries IDs all exist in the census (Q159, Q212, Q218, Q39473, Q36). Hungary, Lithuania and Slovakia go to one Open-Gaps item, as ruled.\n(6) Edict date 24 vs 25 October. Both are named with their sources; see m7 for wording.\n(7) Blaj 1853/1855. Handled correctly: '1850s' in prose, and the hold names both dates.\n(8) ME-10 as parent of IX.70. Right by G89-40 a (continuesAs plus a 'continued as' link). Only the note needs fixing (S5); the gap goes on record (m9).\nME-8 ↔ RV-1: drafted once only, by RV-A (scratchpad/LIV/RVA/Draft.json, id romanian-greek-catholic-church-1698-1815--society-of-jesus-1650-1814). Its from-id matches ME-8's era 8 id exactly, and ME2 has no duplicate. ME-8's own Jesuit line is in its row, as G89-41 asks. Holds ME-6, ME-20, ME-9 era 9 are present.\nNo metered model calls; no repo files edited; no git."
+}

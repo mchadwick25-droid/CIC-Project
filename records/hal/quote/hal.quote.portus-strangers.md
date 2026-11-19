@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.jerome-ep77
-  locus: sec. 10
+  locus: "sec. 10 (cic/texts/npnf206_jerome-principal-works.xml, lines 17716-17718)"
   license: public-domain
 text: 'The whole world knows that a home for strangers has been established at Portus;
   and Britain has learned in the summer what Egypt and Parthia knew in the spring.'
@@ -28,14 +28,14 @@ modern_lens_note: '"Strangers" here means travelers and pilgrims in need of hosp
 retrieval:
   tier: 2
   retrieve_when:
-  - "participant asks what they did for travellers, pilgrims and the poor"
+  - "participant asks what they did for travelers, pilgrims and the poor"
   - "participant asks how far their reputation reached"
 use_note:
   means: "Jerome's letter on Fabiola says a home for strangers had been established at Portus and its fame had spread from Egypt and Parthia to Britain."
   not_for:
     - "a claim that this home was the same institution as Fabiola's hospital for the sick"
     - "a literal measure of the hospice's fame rather than eulogy"
-    - "a claim that 'strangers' means the general public rather than travellers and pilgrims"
+    - "a claim that 'strangers' means the general public rather than travelers and pilgrims"
   years: {from: 395, to: 400}
   status: reviewed
 ---

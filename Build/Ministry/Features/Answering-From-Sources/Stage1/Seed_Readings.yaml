@@ -1,0 +1,213 @@
+# The reading of the seeded-defect candidates (goldset/seeds.py), 2026-10-29,
+# by the specialist and gold set thread. A candidate enters a test only if it
+# is listed here as accepted. Accepted means: it is a real defect of the stated
+# type against its binding, it reads like a sentence a Representative could
+# say, and it does not give itself away by broken grammar. A repair changes
+# grammar or capitals only, never meaning, and is recorded.
+# Candidates not listed were read and rejected: narrative events turned into
+# "beliefs", broken grammar the rule left behind, lexicon flags that are not a
+# reading of the word, and outsider words whose content the tradition shared.
+accepted:
+  dropped_negation:
+    - sd-28708607802d
+    - sd-a80ff458fa61
+    - sd-ef03c49a3cd5
+    - sd-1bcd46dadb49
+    - sd-5575d77daaf4
+    - sd-4c32f350c129
+    - sd-8ee440cc104f
+    - sd-de3ebd569bea
+    - sd-132d7337684a
+    - sd-f6ba9d2fa19d
+    - sd-b0c2ed38a4be
+    - sd-8ab9c5b3d2fe
+    - sd-3548644f5e3d
+    - sd-feece36bee79
+    - sd-85bb0b89b727
+  attribution_inflation:
+    - sd-7e63d68afe1c
+    - sd-a72f6673f473
+    - sd-b1f79e212b16
+    - sd-6a3ae61d869e
+    - id: sd-db04d8c816e2
+      repair: "We all agreed that Christian emperors are happy not for long reigns or victories, which pagans also had, but if they rule justly, humbly, and for God."
+    - sd-1f9437848bf2
+    - sd-306e1f19d88c
+    - sd-3f47252121e2
+    - sd-686076cd725a
+    - sd-7aabc5ab51e4
+    - sd-e97748a0b1c3
+    - sd-fcfa1765f1e8
+    - sd-d3483be593d2
+    - sd-2804c49334ce
+    - id: sd-3c7a0251dbbd
+      repair: "Every one of us believed that Moses predates all Greek writers, so philosophers and poets took their ideas on the soul and judgment from the prophets."
+  false_friend:
+    - id: sd-971e1b4d1a52
+      repair: "For us, excommunication meant a purely spiritual or symbolic gesture with no real consequence for the person excluded."
+    - sd-c89f1f6ed058
+    - id: sd-991d95b03b78
+      repair: "Pistis was, quite simply, certainty with no unresolved questions."
+    - sd-0197c7aeafc9
+    - sd-88ab741d42df
+    - sd-f2ff304fa820
+    - sd-4a7ae0b99c46
+    - sd-03be9e583c55
+    - sd-84e7b25e55d6
+    - sd-476541aa1779
+    - id: sd-4c4febdc9366
+      repair: "When we spoke of the memorial, we meant an empty ceremony with no real content, a merely symbolic gesture we no longer take seriously."
+    - id: sd-2aa7dff317e8
+      repair: "Tahwyata was, quite simply, a sermon: a preached homily in the ordinary sense."
+    - id: sd-72d2944b2fef
+      repair: "For us, cheironaxia meant a menial day-job kept separate from the spiritual life."
+    - sd-aa4e23541865
+    - sd-6f44b6233631
+  embedded_voice:
+    - sd-3f7190ed6280
+    - sd-654b4b2da0cb
+    - sd-bb92c68837ed
+    - sd-76c539079309
+    - sd-69626d50ec7b
+  control:
+    - sd-4da7daaa74a7
+    - sd-620bda10ead4
+    - sd-81c268094f19
+    - sd-cb5f541eed4d
+    - sd-d55f0f88286b
+    - sd-344667396735
+    - sd-409edf1e0d4a
+    - sd-ead4f30dcbef
+    - sd-47d750cf33ab
+    - sd-49bca0c2e24f
+    - sd-531d92beed2b
+    - sd-aca006211512
+    - sd-ead059e297d9
+    - sd-565efc623911
+    - sd-69f501e91c91
+    - sd-48932ab53c35
+    - sd-683e09f7d368
+    - sd-9e3fd29a6dd5
+    - sd-d0a0043601de
+    - sd-edb9b3a4d004
+    - sd-f3ebc7f38536
+    - sd-0d6107558df1
+    - sd-8c52de2bbfe6
+    - sd-f9efcbbf49cf
+    - sd-9a037c0607ff
+    - sd-0602fe53607b
+    - sd-37158761afa3
+    - sd-f649dcd4d6de
+    - sd-a74f25d0dc31
+    - sd-6afa3011af41
+    - sd-c098f27703c5
+    - sd-e39f87b35019
+    - sd-ed2c93f52404
+    - sd-ff32ecfb6a94
+    - sd-2257ab803e1f
+    - sd-c606eb9173f0
+    - sd-d5fbc32d63b6
+    - sd-63ca98e75360
+    - sd-6b57a55b05cf
+    - sd-6ead35b83b6a
+    - sd-a38bb3353fdb
+    - sd-e814ebe6a745
+    - sd-fd85b589ea03
+    - sd-32c41030e307
+    - sd-f607e608f5cd
+    - sd-d82f0b63adb3
+    - sd-4df412b5c918
+    - sd-dca5d5e2daed
+    - sd-91a50650766a
+    - sd-a0c292f75427
+    - sd-8be05b7f5621
+    - sd-a649a3bd95df
+    - sd-10bdba93f2b3
+    - sd-aca1466774db
+    - sd-77a1a5bf8743
+    - sd-3ca0a4ba6802
+    - sd-32743c7b8c45
+    - sd-c009ee8ca8ed
+    - sd-e280db86c159
+    - sd-45b6f666b8d3
+    - sd-be81473c7d33
+    - sd-24557be7aa18
+    - sd-49fdb2505552
+    - sd-9f4fc39c4e36
+    - sd-f729ccc9443c
+    - sd-15524f4abc14
+    - sd-7dd3c58b5b08
+    - sd-6e8e2ea3aeff
+    - sd-1197ffa8b241
+    - sd-39dfa79afea5
+    - sd-86010dc3369a
+    - sd-cb6bfc47682d
+    - sd-f3454694148f
+    - sd-4ceda8779aa8
+    - sd-26b363cee0bb
+    - sd-5d7a461aa62c
+    - sd-d63ca73e5c85
+    - sd-33c50407a867
+# Written by hand from an interlocutor's or outsider's words inside a quote
+# record, because the fixed rule only reaches etic records.
+authored:
+  - seed_type: embedded_voice
+    world: lpc
+    records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+    bindings: [{kind: record, id: lpc.quote.not-to-be-refused-to-any-one-born-of-man}]
+    sentence: "In our council we held that a newborn should not be baptized and made holy before the eighth day."
+    construction: "the view Cyprian answers (the correspondent's 'you say ... before the eighth day'), voiced as the council's own"
+  - seed_type: embedded_voice
+    world: lpc
+    records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+    bindings: [{kind: record, id: lpc.quote.very-many-make-moan-over-the-eternal-punishment}]
+    sentence: "We did not believe that the torments of the lost would really be endless."
+    construction: "the view of the 'very many' Augustine calls vain, voiced as the tradition's own"
+  - seed_type: embedded_voice
+    world: cappadocian
+    records_commit: a44355f47a9f6e5f516b7713d1e2917550e4a9d9
+    bindings: [{kind: record, id: cappadocian.quote.julian-galilaeans}]
+    sentence: "We told our teachers plainly that if they rejected the gods of the classics, they should go to the churches of the Galilaeans and expound Matthew and Luke there."
+    construction: "Julian's rescript against Christian teachers, voiced as the tradition's own instruction"
+  - seed_type: embedded_voice
+    world: cappadocian
+    records_commit: a44355f47a9f6e5f516b7713d1e2917550e4a9d9
+    bindings: [{kind: record, id: cappadocian.quote.basil-on-the-doxology-challenge}]
+    sentence: "We held that the two forms of the doxology brought in terms that were novel and contradicted each other."
+    construction: "the charge of Basil's attackers ('they said I was introducing terms that were novel and ... mutually contradictory'), voiced as the tradition's own"
+  - seed_type: embedded_voice
+    world: cappadocian
+    records_commit: a44355f47a9f6e5f516b7713d1e2917550e4a9d9
+    bindings: [{kind: record, id: cappadocian.quote.spirit-numbered-with-father-and-son}]
+    sentence: "We held that the Holy Spirit belongs to the nature of a ministering spirit, and is not to be ranked with the Father."
+    construction: "the opponents' view Basil reports ('push him down to the nature of a ministering spirit'), voiced as the tradition's own"
+  - seed_type: embedded_voice
+    world: cappadocian
+    records_commit: a44355f47a9f6e5f516b7713d1e2917550e4a9d9
+    bindings: [{kind: record, id: cappadocian.quote.what-is-the-written-source}]
+    sentence: "We objected that the doxology lacked written authority."
+    construction: "the opponents' objection Basil answers ('if they object to our doxology on the ground that it lacks written authority'), voiced as the tradition's own"
+  - seed_type: embedded_voice
+    world: lpc
+    records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+    bindings: [{kind: record, id: lpc.quote.no-salvation-out-of-the-church}]
+    sentence: "We declared that heretics killed while confessing Christ outside the Church were martyrs."
+    construction: "the view of the 'defenders and advocates of heretics' Cyprian rejects, voiced as the tradition's own"
+  - seed_type: embedded_voice
+    world: witt
+    records_commit: 1a716fe86fc084a46b5241dfac5952be65a0c30d
+    bindings: [{kind: record, id: witt.quote.article-ii-of-original-sin}]
+    sentence: "We taught that a person can be justified before God by his own strength and reason."
+    construction: "the Pelagians' argument the article condemns, voiced as the tradition's own"
+  - seed_type: embedded_voice
+    world: witt
+    records_commit: 1a716fe86fc084a46b5241dfac5952be65a0c30d
+    bindings: [{kind: record, id: witt.quote.article-ix-of-baptism}]
+    sentence: "We taught that children are saved without baptism."
+    construction: "the Anabaptists' view the article condemns, voiced as the tradition's own"
+  - seed_type: embedded_voice
+    world: witt
+    records_commit: 1a716fe86fc084a46b5241dfac5952be65a0c30d
+    bindings: [{kind: record, id: witt.quote.christs-return-to-judgment}]
+    sentence: "We taught that the punishments of the condemned and of the devils will come to an end."
+    construction: "the Anabaptists' view the article condemns, voiced as the tradition's own"

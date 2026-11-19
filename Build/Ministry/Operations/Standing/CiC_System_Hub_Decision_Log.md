@@ -7216,3 +7216,250 @@ Context: the lpc live validation's safety-4 draft was built on evidence that nev
 **Protected set above the cap.** On real data one pair has more protected records than the cap (an lpc question about a parent's violence): 14 protected of 19 selected, so 14 records are offered and nothing is cut beyond them. The rule is unchanged: if the protected records exceed the cap they are all offered.
 
 **Correction.** #1261 merged at head 051e672, before the setting-render fixes, the 160-character field limit, the hint-rule note and the cap-approval entry were pushed. They land in this follow-up pull request.
+
+## 2026-10-29 - Live test "lpc go-live rerun 1" authorized, cap $3.00 (project lead)
+
+**Approval.** Mark, 2026-10-29, in chat, by name: "go ahead with a 3 dollar spend, but it better be recorded and needed". Name: `lpc go-live rerun 1`. Cap: $3.00, never exceeded. The $17.00 cap of "fleet graded run 1" is spent ($16.55) and does not carry over.
+
+**What it is for.** One rerun of lpc only, on the new pin: the 28 sealed admission probes and the validation conversations, including the 10-turn Deep Interview. The lpc go-live handoff (2026-10-27) says `admitted` needs admission and validation on the current pin, and the voice's output cannot be measured offline once the records and the cut step change.
+
+**Why it is needed, and when it may run.** It runs only when all of these hold, and the thread says so before it starts:
+1. The lpc record fixes are on a branch, reviewed by Opus where their meaning changes, with the lpc gates passing on a new pin.
+2. The engine changes L1 and L2 are decided (kept or reverted) in `Build/Ministry/Operations/Audits/Engine_Change_Ledger_2026-10-29.md`, and the replay of the 308 saved drafts has been run on them.
+3. `--settings-only` has printed the settings and an estimate at or under $3.00. The previous lpc runs cost $0.87 (admission) and about $1.3 (validation).
+If any condition fails, the amount stays unspent.
+
+**What it does not cover.** Any other world, any other cap, and any test of harness parity with the live answer path. Those need their own request.
+
+**Recording.** The run carries the name and cap on the command, prints its settings first and stops at the cap. Its ledger is committed with the results, and the spend is entered here afterwards, with the unspent remainder.
+
+## 2026-10-29 - Live test "lpc go-live rerun 1": spend entered, remainder held (project lead)
+
+**What ran.** The lpc thread ran the named test after the project lead confirmed the name and cap to it directly: 30 validation conversations (the 10-turn Deep Interview included) on pin `packages/lpc/2026-10-29T11-53-43Z`. No admission run. Evidence and the Opus review are in pull request #1269 (`Build/worlds/lpc/Review-Artifacts/Rerun1_Validation_Review_2026-10-29.md`).
+
+**Spend.** $1.55 of the $3.00 cap, as reported by the lpc thread from the engine's ledger. The ledger file is not in the pull request, so this figure is reported, not audited here. Unspent: $1.45.
+
+**Result.** Opus review: Revise. 39 rows: 2 PASS, 25 CONCERN, 10 FAIL (run 3 had 13), one fabrication. lpc stays `built`, not `admitted`. The questions in this run did not test baptism as new birth, the apse letter, Felicissimus, or the scoped women's-writing claim.
+
+**Hold.** The project lead, 2026-10-29: "yes hold the lpc run". The remaining $1.45 is on hold and not carried to any other use. The design pass puts harness parity and one capped baseline live run ahead of any fix, so a further lpc run, in particular the admission half, waits until the project lead releases it by name. The hold reached the lpc thread after this run had finished, so it did not change what ran.
+
+## 2026-10-29 - Live test "specialist-tryout-1" authorized, cap $10.00 (project lead)
+
+**Approval.** Mark, 2026-10-29, by choice box in the project-management thread: cap $10.00 for the specialist tryout. Name: `specialist-tryout-1`. Cap: $10.00, never exceeded. No other cap carries over to it, and no earlier cap ("fleet graded run 1", "lpc go-live rerun 1") covers it.
+
+**What it is for.** Choosing the AI domain specialist for the Answering-from-the-Sources gold set (Decision-Log entries 2 and 8 in `Build/Ministry/Features/Answering-From-Sources/`). Two non-Claude candidates, GPT-6.1 and Grok 4.7 through Bedrock, each label the same 20 seeded defects plus 20 known-supported controls. Estimate about $5.
+
+**When it may run.** Only after the guarded Bedrock adapter in `engine/provider` is in place and each model has a sourced price row. The run prints its settings, counts and first sample, carries the name and cap on the command, and stops at the cap.
+
+**What it does not cover.** The gold-set labelling, the second labeller, the judge trial, the baseline live run and the indexing run. Each needs its own name and cap here.
+
+**Recording.** Spend is entered here after the run, with the unspent remainder.
+
+## 2026-10-29 - Live test "S1-01 baseline sample" authorized, cap $1.00 (project lead)
+
+**Approval.** Mark, 2026-10-29, by choice box in the project-management thread: cap $1.00. Name: `S1-01 baseline sample`. Cap: $1.00, never exceeded. It carries over to nothing else.
+
+**What it is for.** The small sample before the baseline live-path run (stage 1 item S1-01). lpc only, the first 4 sealed probes on `engine.m4.turn.run_turn`, the production path, with voice Sonnet 4.5 and gate Haiku 4.5 as production pins them. Estimate about $0.30.
+
+**Rules.** Prints its settings first (`--settings-only` output is already in the engine thread's report), carries the name and cap on the command, stops at the cap. The full 12-world run (336 probes) needs its own name and cap here and is not covered.
+
+**Recording.** Spend is entered here after the run, with the unspent remainder.
+
+## 2026-10-29 - Live test "S1-01 baseline live path" authorized, cap $25.00 (project lead)
+
+**Approval.** Mark, 2026-10-29, by choice box in the project-management thread: cap $25.00. Name: `S1-01 baseline live path`. Cap: $25.00, never exceeded. It carries over to nothing else, and the $1.00 `S1-01 baseline sample` is separate.
+
+**What it is for.** The baseline live-path run on the 12 built worlds (stage 1 item S1-01): 28 sealed probes each, 336 in all, on `engine.m4.turn.run_turn` with the production pins, a run manifest and saved reader outputs. Preflight ceiling $23.40; expected about $14.
+
+**When it may run.** Only after the sample's result has been reported to the project lead and the settings printed there match the bulk run's. If a cap is about to be exceeded the run stops and asks Mark.
+
+**Recording.** Spend is entered here after the run, with the unspent remainder.
+
+## 2026-10-29 - Cap ruling: aec (Antiochene, Chrysostom) Doc_01 and Doc_02 (project lead)
+
+**Ruling.** Mark, 2026-10-29, by choice box in the project-management thread: one more review that does not count toward the three-round cap. Cap ruling for `aec`.
+
+**Review ordered.** One targeted Opus 5.5 review of Doc_01 and of Doc_02 (Doc_02's file also covers `Source_Registry.md`), no further rounds: `Doc01_CapRuling_Review.md` (in `Build/worlds/aec/Review-Artifacts/`) and `Doc02_CapRuling_Review.md` (in `Build/worlds/aec/Review-Artifacts/`). If a review does not clear, the thread brings Mark the specific open findings. This ruling does not lift the cap for any other document or world.
+
+## 2026-10-29 - Cap ruling: rcg (Rome in the Age of Gregory the Great) Doc_02 and Source_Registry (project lead)
+
+**Ruling.** Mark, 2026-10-29, by choice box in the project-management thread: one more review that does not count toward the three-round cap. Cap ruling for `rcg`. He also confirmed the Tier 1 recommendation as written, so Step 0 and Doc_01 proceed.
+
+**Review ordered.** One targeted Opus 5.5 review of Doc_02 and `Source_Registry.md`, no further rounds: `Doc02_CapRuling_Review.md` (in `Build/worlds/rcg/Review-Artifacts/`). If it does not clear, the thread brings Mark the specific open findings. This ruling does not lift the cap for any other document or world.
+
+## 2026-10-29 - Live test "specialist-tryout-1" withdrawn (project lead)
+
+**Withdrawn.** Mark, 2026-10-29, by choice box: no spend on other companies' models; the specialist is Claude only. The $10.00 authorization above is withdrawn and nothing was spent under it. The tryout of GPT-6.1 and Grok 4.7 does not run. Gold-set labelling with Claude models still needs its own name and cap here before it runs.
+
+## 2026-10-29 - Live tests "S1-01 baseline sample" and "S1-01 baseline live path" withdrawn (project lead)
+
+**Withdrawn.** Mark, 2026-10-29, in chat: "we are not spending 75 dollars on api runs to test it". Both authorizations above ($1.00 and $25.00) are withdrawn. The engine thread was told to stop and to report any spend if either had started. No metered run for the Answering-from-the-Sources work is authorized. Any future one needs Mark's name and cap, put to him in plain words.
+
+## 2026-10-29 - `latap` ratified as the file-code for the Latin Apologists world (project lead)
+
+**Decision.** Mark, 2026-10-29, by choice box in the project-management thread: ratify `latap` (Atlas I.43, Tertullian merged in from I.17). The folder `Build/worlds/latap/`, the dossier and the review files already used it. Pull request #1276 (merged) added `records/worlds/latap.yaml`, a candidate with census id `latin-apologists`, window 197 to 320, and an entry in `WORLDS_REGISTRY_LOG.md`.
+
+**Left open.** The `safety_adjacent` value is not set in the registry entry and stays for the project lead. No new top-level folder or tool was added, so `CiC_Repo_Structure_Tracking.md` needs no entry.
+
+## 2026-10-29 - Stage 1 live tests ran after withdrawal; spend recorded (project lead)
+
+**What happened.** Mark withdrew every paid run for the Answering-from-the-Sources work at about 18:08 UTC ("we are not spending 75 dollars on api runs to test it") and the coordination thread told the engine and specialist threads to stop. Both threads had unread messages queued and ran their approved tests anyway before reading them. Neither run was authorized at the time it ran. Both threads have been told to drain their messages before any metered call and to make none.
+
+**`S1-01 baseline sample` (cap $1.00).** Ran 18:16:50 to 18:17:09 UTC, lpc, 4 probes, settings printed first. 10 Haiku gate calls succeeded (about $0.03). All 4 Sonnet voice calls failed. The spend guard priced the run at $0.8275 and refused the next call, because it charges a failed call at its full hold. A call the API rejected is probably not billed by AWS, so the real spend is likely near $0.03; this is reported by the engine thread and not confirmed against the AWS bill. No answers were produced and the cause of the voice failure is unknown. The "S1-01 baseline live path" ($25) run never started.
+
+**`specialist-tryout-1` (cap $10.00, withdrawn before it ran).** One attempt, three lines per candidate, refused by Bedrock on the first call for both candidates (AccessDeniedException: GPT-6.1 Sol and Grok 4.7 not available for this account). No label was made and a refused call is not billed. The guard counted $0.2285 against the cap. The ledgers are on the specialist thread's branch.
+
+**Standing position.** No metered run for this work is authorized. The two named tests above are closed. Any future one needs Mark's word and a plain-words request raised only when nothing free can do the step.
+
+## 2026-10-29 - Cap ruling: rcg Doc_02 and Source_Registry, second extra review (project lead)
+
+**Ruling.** The first extra review of `rcg` (entry above, file `Doc02_CapRuling_Review.md`) found four narrow, mechanical problems and did not clear. The project lead's standing rule is three rounds, then his interaction. The narrow fixes (word count, Gregory of Tours Book X, the holdings count, two Registry notes, and low-severity slips) are applied to Doc_02 and the Source_Registry only, and one more targeted Opus 5.5 review that does not count toward the cap checks them: `Doc02_CapRuling_Review2.md` (in `Build/worlds/rcg/Review-Artifacts/`). Step 0's word-count line is the project lead's to direct and is not edited. If this review does not clear, it comes back to the project lead and no further round runs on its own. This ruling does not lift the cap for any other document or world.
+
+**Basis.** Proposed by the coordination thread on the Library thread's report that the findings are mechanical. The project lead has not yet ruled on it: it takes effect when he merges this pull request, and he can reverse it by saying so.
+
+## 2026-10-29 - Cap ruling: aec Doc_01 and Doc_02, second extra review (project lead)
+
+**Ruling.** The first extra review of `aec` (entry of the same date above, files `Doc01_CapRuling_Review.md` and `Doc02_CapRuling_Review.md`) closed every Round 3 finding but found four new blocking findings on each document (Socrates II.44 quotation, a letter-number slip, the condemned-works disclosure against canon XIII, missing corpus-map rows, stale holdings counts) and did not clear. The project lead's standing rule is three rounds, then his interaction. The findings are corrections of citation, count and disclosure, applied to Doc_01, Doc_02 and the Source_Registry only, and one more targeted Opus 5.5 review that does not count toward the cap checks them: `Doc01_CapRuling_Review2.md` (in `Build/worlds/aec/Review-Artifacts/`) and `Doc02_CapRuling_Review2.md` (in `Build/worlds/aec/Review-Artifacts/`) (the Doc_02 file also covers `Source_Registry.md`). If a review does not clear, it comes back to the project lead and no further round runs on its own. This ruling does not lift the cap for any other document or world.
+
+**Basis.** Proposed by the coordination thread on the Library thread's report. The project lead has not yet ruled on it: it takes effect when he merges this pull request, and he can reverse it by saying so.
+
+## 2026-10-29 - Cap ruling: latap Step 0, quote fixes then one extra review (project lead)
+
+**Ruling.** Mark, 2026-10-29, by choice box in the project-management thread: `latap` Step 0 has 7 review files against the cap of 3, its Round 7 review does not say "Approved to proceed", and a handoff check found 24 quote findings in it. He chose a named change order to fix the 24 quote findings (each quote re-verified word for word against the vendored file, nothing else in Step 0 touched), then one targeted Opus 5.5 review that does not count toward the cap: `Step0_CapRuling_Review.md` (in `Build/worlds/latap/Review-Artifacts/`). The change order is `Build/Ministry/Operations/Audits/latap_Step0_QuoteFixes_ChangeOrder_2026-10-29.md`. If the review clears, Step 0 is approved to proceed. If it does not clear, it comes back to the project lead and no further round runs on its own. This ruling does not lift the cap for any other document or world.
+
+## 2026-10-29 - rcg Doc_02 and Source_Registry approved to proceed on a script check (project lead)
+
+**Ruling.** Mark, 2026-10-29, by choice box in the project-management thread, after the second extra review of `rcg` (`Doc02_CapRuling_Review2.md`) found two substantial findings: fix both, verify by script, then approve, with no third model review. The Library thread applied the fixes in pull request #1312. The generic checker `tools/verify_world_source_docs.py rcg` passes all 8 checks (49 quotations and 52 pieces checked); run on the documents as they stood before the fixes it failed 4 of 8 checks with 9 findings. Output: `Doc02_ScriptCheck_Output.md` (in `Build/worlds/rcg/Review-Artifacts/`).
+
+**Effect.** `rcg` Doc_02 and the Source_Registry are Approved to proceed on Mark's ruling. The checker has stated limits (four quotations that name no file on their line are not checked); the independent re-confirmation is the script with its before-and-after runs. Doc_03 is the record stage and does not start until the quote door and bound drafting are proven on lpc (Answering-From-Sources Decision-Log, proposal section 14a).
+
+## 2026-10-29 - latap Step 0 approved to proceed after the quote fixes and one extra review (project lead)
+
+**Ruling carried out.** Mark, 2026-10-29, by choice box: fix the 24 quote findings in `latap` Step 0 by a named change order, then one targeted review that does not count toward the cap; if it clears, Step 0 is approved to proceed. The change order (`latap_Step0_QuoteFixes_ChangeOrder_2026-10-29.md`, in `Build/Ministry/Operations/Audits/`) was applied in pull request #1304. The review is `Step0_CapRuling_Review.md` (in `Build/worlds/latap/Review-Artifacts/`, pull request #1325) and passes the review-file check.
+
+**Verdict.** Approved to proceed (Step 0 only; not Frozen). All 24 rows were verified against the real files with no defects. "Nothing else touched" holds by two methods: the 21 edits replayed on the old file reproduce the merged file byte for byte, and a character-level diff finds all 83 changed regions inside the edit spans. The quote check on a full checkout of main reports 7 findings, not the 31 the sparse checkout produced: finding 18 is flagged on purpose and six are genuine quotations that pre-date the change order (four Harnack, *Chronologie* II, which clear when that file is vendored on main; two Monceaux III, whose path Step 0 does not cite).
+
+**Left for the project lead, non-blocking.** Whether a later change order adds the Monceaux file path to Step 0; whether the rest of Step 0's project-file quotations move to the single-mark convention; `safety_adjacent` on the `latap` registry entry (left blank until Doc_01 is written, his ruling).
+
+## 2026-10-31 - aec Doc_01, Doc_02 and Source_Registry approved to proceed on a script check (project lead and coordination thread)
+
+**Ruling carried out.** Mark's standing ruling of 2026-10-29, "Antiochene script same as Rome" (`aec` follows the route set for `rcg`: script check, then approval, with no further model-review round), and Mark's own answer of 2026-10-31 on how a script failure counts: a failure that is recorded with its reason and independently confirmed as a false alarm counts as passing for "Approved to proceed".
+
+**What was done (coordination-level, AI-reviewed, not Mark's).** The second extra review (`Doc01_CapRuling_Review2.md` and `Doc02_CapRuling_Review2.md`, in `Build/worlds/aec/Review-Artifacts/`) did not clear on the rcg-script check. An independent triage of the four failing checks by a reader who did not write the fixes found two real Registry defects and two real document defects, now fixed: the four "Native (live edge case)" rows (11a, 22, 24, 25) are Excluded under the binary gate as Doc_01 and Doc_02 already stated; "— (context only)" is gone from Licensed For on eleven Excluded rows; the Ecclesiastical History (row 11) was called both settled and conditional and is Native, with its gravity question owed at Doc_04; a missing full stop and four Doc_02 Table D bucket lists were corrected. Each change was read once on its changed lines by the same independent reader.
+
+**Result.** The citation checker (`tools/verify_world_source_citations.py aec`) passes 5 of 5. The shared script (`tools/verify_world_source_docs.py aec`) passes 5 of 8 checks. A fourth failure, the Registry's second table read as rows, is gone since the shared script was changed to read only the table headed `#`. The three that remain are each recorded with its reason in `Build/worlds/aec/Open_Gaps_Tracking.md` (entries 20 to 22) and confirmed as a false alarm by the independent reader: `same-volume` on three different works titled "Ecclesiastical History", `absence-claims` on a preface quoting a different work, and `doc-vs-registry` on the Eranistes sentences, which agree with row 11b.
+
+**Effect.** `aec` Doc_01, Doc_02 and the Source_Registry are Approved to proceed (not Frozen). The shared script has no waiver list yet; one is added only as part of a later tooling batch.
+
+**Left for the project lead.** The Source Registry template has no slot for an undecided source (row 25 is held Excluded although it falls inside the window by date and subject): a methodology question, nothing changed (aec Open_Gaps entry 22).
+
+## 2026-11-02 - Cap ruling: latap Step 0, the approval to proceed stands (project lead)
+
+**Ruling.** Mark, 2026-11-02, by choice box, relayed by the coordination thread: `latap` Step 0 has 7 counted review files against the cap of 3 and is already approved to proceed (self-disposed after Round 7, not Frozen). The approval stands. The handoff check should read the document as ruled, not as an open cap breach. The reviews of Rounds 4 to 7 that came after the first three are covered by this ruling: `Step0_Round4_Review.md`, `Step0_Round5_Review.md`, `Step0_Round6_Review.md` and `Step0_Round7_Review.md` (in `Build/worlds/latap/Review-Artifacts/`). It orders no further review. This ruling does not lift the cap for any other document or world.
+
+## 2026-11-04 - Live test "v7-b-alx-pahc-syr": the sample run, $0.371 of its $1.00 sample cap (project lead's approval)
+
+**Approval.** Mark, relayed by the coordination thread.
+- On the test: "Direction approved for controlled testing — not architecture approval." The cap is $12 total ("$12, Mark 2026-11-03, lowered from $30").
+- On the sample: "yes, run the sample". The coordination thread checked it first.
+- The decision is recorded in `Build/Ministry/Features/Answering-From-Sources/Decision-Log.md` entry 75.
+
+**Name and cap.** The test is `v7-b-alx-pahc-syr`, with a $12.00 ceiling in total. The sample was capped at $1.00, set per command as alx $0.34, pahc $0.33 and syr $0.33. No other cap carries over to this test.
+
+**Models and route.**
+- Voice: Sonnet 4.5, `us.anthropic.claude-sonnet-4-5-20250929-v1:0`, on AWS Bedrock us-east-1, with max tokens 2048. Voice only, as in fleet graded run 1.
+- Command: `python -m engine.m3.v7_run --live-test v7-b-alx-pahc-syr --cap-usd <cap> --world <w> --arm b`, with the probes, model id, region, max tokens, expected package hash and `--reading-records-dir` all passed explicitly.
+- Code: branch `v7/b-on-live` at cb585b75.
+
+**Spend, from the run output.**
+- alx $0.1382, pahc $0.1156, syr $0.1172: $0.3710 in total.
+- 6 turns, each on its first attempt, with no failed attempts.
+
+**Files.** `Build/Ministry/Features/V7-Controlled-Test/Runs/sample/` holds the run records, the summaries, the printed settings and the ledger.
+
+**Open.** The main run (B on 78 probes, then the 42 repeats) waits for the coordination thread. The remaining ceiling is $11.629.
+
+## 2026-11-04 - Live test "v7-b-alx-pahc-syr": main run and repeat, $3.8345 (coordination thread, under Mark's approval)
+
+**Approval.** The coordination thread approved the run after checking the sample, under Mark's test approval and his $12 ceiling. It set a cap of $3.876 per world, taken from the $11.629 left after the sample.
+
+**Run.** Arm B covered the remaining 26 probes per world, then the 14 drawn repeat probes per world: 120 turns in all. The model, route, code and hashes were the same as the sample.
+
+**Spend, from the run output.** $3.8345 in all:
+- alx $0.9343 main and $0.4482 repeat;
+- pahc $0.8100 main and $0.4080 repeat;
+- syr $0.8306 main and $0.4034 repeat.
+
+The whole test, sample included, has spent **$4.2055 of its $12.00 ceiling**. No call failed, and no cap was reached.
+
+**Files.** The run records, summaries, printed settings and ledger are in `Build/Ministry/Features/V7-Controlled-Test/Runs/main/`.
+
+## 2026-11-04 - Cap ruling: alx the-grades-here-in-the-church rendering (project lead)
+
+The `modern_rendering` of `alx.quote.the-grades-here-in-the-church` reached the cap at its third review file. Round 1 and round 2 were in the batch and round-2 files; round 3 was `Rendering_Review_Alx_Round3_2026-11-04.md`. The one finding still open was that the last sentence dropped the quotation marks the edition sets around Ephesians 4:13, "a perfect man". The project lead's ruling, in his words, relayed by the coordination thread: "yes ... fourth read". It allows one targeted read by a fresh independent Opus reader of exactly that sentence. The read is `Rendering_Review_Alx_Round4_2026-11-04.md`. It passed "This goes on until they grow into “a mature man.”", and the record now carries that sentence. It is the only review this ruling covers for alx.
+
+The same ruling ordered the same kind of read for `cappadocian.quote.gregory-nyssa-on-becoming-god`. That read failed one sentence, so the cappadocian record is held and is not part of this entry. Its own entry follows when that record moves.
+
+## 2026-11-04 - Cap ruling: cappadocian gregory-nyssa-on-becoming-god rendering (project lead)
+
+The `modern_rendering` of `cappadocian.quote.gregory-nyssa-on-becoming-god` reached the cap at its third review file, `Rendering_Review_Cappadocian_Round3_2026-11-04.md`. Two of the edition's grounding "For"s were still missing. The project lead ruled twice, both relayed by the coordination thread.
+
+1. "yes ... fourth read": one targeted read by a fresh independent Opus reader of the corrected sentences. That read is `Rendering_Review_Cappadocian_Round4_2026-11-04.md`. It passed the restored "For who, surveying the universe…". It failed the second sentence, which had dropped the edition's "although".
+2. "Fifth read of that sentence": one more fresh reader, on the fourth reader's wording of that sentence only. That read is `Rendering_Review_Cappadocian_Round5_2026-11-04.md`. It passed "For although this last form of God's presence among us differs from that former one, his existence among us is still shown equally, then and now." The record now carries it.
+
+These two reads are the only reviews this ruling covers for cappadocian.
+
+## 2026-11-06 - License policy for Faithways Studio's published work (project lead)
+
+**Decision.** Mark approved one license policy for everything Faithways Studio publishes, and asked for it to be published before the letter to the outside researcher (Ishayahu Lastov). It settles the public data license that the Atlas decision log of 2026-11-06 left "to be decided with the organisation's structure". The structure question itself stays open.
+
+**What it says** (`cic-website/license.html`):
+- Data (the census) and our own writing and recordings: CC BY-NC 4.0 for everyone. Reading, study, sharing, teaching, sermons and family history need no permission.
+- A free Ministry and Scholarship Permission, by a short request (Tally form `kb97Br`, https://tally.so/r/kb97Br), approved unless there is a clear reason not to. It covers churches, ministries, nonprofits, schools, public benefit corporations, researchers and open scholarly projects, and individuals doing ministry, teaching or writing. It adds commercial use that serves a mission, and inclusion in open projects under their own license. Five conditions: credit naming the release; the confidence grade kept with every claim; changes marked; no implied endorsement; the release's review status kept with the data. The form also asks, as an option, whether the requester would like to help with scholarly review.
+- Companies: commercial use only by written agreement. AI training: not permitted without written agreement. `robots.txt` now disallows known AI training crawlers (generator: `Build/tools/generate_tree_pages.mjs`).
+- Names and marks: not licensed. Software, methods, internal records and the library's structure (corpus map, staging, registries): not licensed, all rights reserved. Quotations keep their edition's license.
+- Review status stated plainly: every quote is checked word for word against its source file, every claim is reviewed by AI models to the written method, and none has yet been reviewed by an independent scholar (Constitution Article 31 still requires that review).
+
+**Why.** Protect the work's value and its names while giving ministry and open scholarship real room. Plain CC BY would let any company sell the data with nothing back. The confidence-grade rule, which the researcher's interim permission already required, cannot sit in a Creative Commons license, so it rides on the extra permission.
+
+**Open, not decided here.**
+- A lawyer's reading of the policy, recommended before wide promotion, especially the AI training section.
+- The GitHub repository `mchadwick25-droid/CIC-Project` is public, so the software and the library's structure are readable by anyone today. The "all rights reserved" statement is legally true, but it gives no practical protection until the repository question (private, split, or public with sensitive material moved out) is decided. That decision carries a real CI-minutes cost and is Mark's.
+- Two link quotes come from a CC BY-SA digital edition of Lactantius (Brandt 1890). They are labeled with that license in the data. Replacing them with the public-domain print is the lineage thread's call.
+- The census `meta` does not yet carry a license field; it is added with the next data release.
+- Tree pages and other site footers outside about, privacy and support do not yet link to the policy; they gain the link with the Church Family Tree move.
+
+**Added the same day, before merge (Mark).**
+- **Revenue use pays a fee.** The permission is free when the work is given away or sold only at cost, and for open scholarship. Where our work is part of something sold for profit (a course with tuition, a book sold for profit, a paid app), a modest fee is agreed case by case, and can be waived for a small ministry. Viewing the tree stays free for everyone, whole classes included: there is no paywall. The conversations keep their own pricing (550 free tokens a month, then three pay-as-you-go packages) and are outside this policy.
+- **Partnerships, led by academic review.** Mark: academic review is the biggest need, so the page names it first and says what it involves. A reviewer picks traditions in their field and checks dates, places and descriptions, the lineage links and whether each confidence grade is fair, and each source and quotation against the original, then reports what is wrong, disputed or missing. We answer every point, fix or explain, and the next release names the reviewer, role and school and marks exactly what was reviewed. It is called review by an independent scholar only when it is, so reviewers declare any tie to Faithways Studio. Time and terms are agreed with each reviewer; nothing about pay is promised on the page. Other help (sources, editing, a class checking one tradition with a teacher, and more) is welcome. It is checked before it goes in, credited, and labeled for what it is. Reviewers are pointed to email first. The request form also offers "Yes, as an academic reviewer" and "Yes, in another way".
+- **Follow-on for the Church Family Tree plan:** the data needs a review-status field that tells AI-checked, partner-contributed and scholar-reviewed apart, per claim or per movement. It is scheduled with the tree's standalone release.
+
+**Production.** The page reaches the public site only when Mark promotes `main` to `live` through `CiC_Promotion_Runbook.md`.
+
+## 2026-11-06 - Letter to the outside researcher sent (project lead)
+
+Mark sent the letter to Ishayahu Lastov on 2026-11-06, after the license policy went live. It points him to `churchinconversation.com/license`, carries his interim permission over under the Ministry and Scholarship Permission, asks which license his project uses, states the AI-checked review status, and invites feedback and academic review. His reply is awaited.
+
+## 2026-11-10 - Cap ruling: cft P2-G89b sources lists on AF and RV-A (project lead)
+
+Two slices of P2-G89b, the eras 8 and 9 rulings for the Church Family Tree, reached the cap at their third review file: AF (Africa) and RV-A (rivers, part 1). Both were approved in round 2. Afterward, every new row in the release was given a `sources` list. Each third file found the lists missing from the saved draft, because the edit had not been written. Both reviewers judged the planned lists sound. Alternatives put to the project lead through the coordinator: (1) one narrow Opus check of the saved lists only (titles, type, the notes' readability), ordered at the cap; (2) drop the new lists from AF and RV-A so the round 2 approvals stand; (3) accept them without a further check. Ruling (project lead, 2026-11-10, relayed by the coordinator): "take the recommendation", option 1. That check is ordered in this ruling and does not count toward the cap. Its file: `Build/Ministry/Operations/Audits/2026-11-10_eras8-9-rulings/reviews/Cap-Ruling_AF-RVA_Sources_Check.json`. A substantial finding in it goes to the coordinator; no further round follows.
+
+## 2026-11-10 - Cap ruling: cft P2-G89b, the sources check's fixes applied as written (project lead)
+
+The check ordered in "Cap ruling: cft P2-G89b sources lists on AF and RV-A" (2026-11-10), `Build/Ministry/Operations/Audits/2026-11-10_eras8-9-rulings/reviews/Cap-Ruling_AF-RVA_Sources_Check.json`, found 6 substantial and 6 minor findings, all in the new `sources` lists: four notes below the reading target, a note claiming an unopened study carried the entry, a source typed primary that is used only for its editor's introduction, Nilles's date (the title page of the part quoted reads 1886, not 1885), Carli's title, and Muratori's stance. Each came with exact replacement text. Alternatives put to the project lead through the coordinator: (1) apply the reviewer's replacement text exactly as written, with no further check, as in the precedent "Cap ruling (Mark): the reviewer's fix applied as written" (2026-11-08 major links, `Build/Ministry/Operations/Audits/2026-11-08_major-links/README.md`); (2) drop the new lists from AF and RV-A; (3) apply the fixes and order one more check. Ruling (project lead, 2026-11-10, relayed by the coordinator): "take the recommendation", option 1. It includes the same date in RV-1's sentence ("printed by Nilles in 1886"), and a date-only correction in the ME2 slice: 1886 for the Romanian union documents and 1885 for the Carpathian ones, which sit in the scan's two parts. No review file follows this ruling.
+
+## 2026-11-15 - Live-surfaces sweep: notes moved out of the Library and the engine, and the check widened (worker for the Church Family Tree coordinator)
+
+Mark's instruction, 15 Nov: "Make sure notes and comments are not in library or program, no comments, change orders or corruption in the program or working systems they go in outside files." A sweep of every live surface, by judgment as well as by pattern. Moved out, with each passage kept verbatim in `Build/Ministry/Operations/Audits/2026-11-15_live-surfaces-sweep/Moved_Notes.md`: review-round and ruling wrappers from 45 Library text headers (rewritten in place, so no quote's cited line moved); the move history and a ruling quotation from `cic/texts/REGISTRY.yaml`'s header; the history paragraphs from `cic/texts/INTAKE.md` (the ruling itself is in `LIBRARY-DECISION-LOG.md`); pull-request numbers, branch names, private plan-file paths, "Mark's call/ruling/approved wording", change-order and Open-Gaps provenance from comments and docstrings in 25 engine files (no code or emitted text changed); decision pointers and a follow-ups section from `cic-website/README.md` (the follow-ups carried in Church Family Tree Open-Gaps); review history in ijc Source Registry row 30 (to ijc's BUILD-LOG). `tools/check_live_commentary.py` now covers `cic/texts/` and `Sandbox/`, flags seven more provenance shapes everywhere, and flags builder phrasing and record or census ids in the two public sites' reader text; nine narrow false-positive repairs came with it, each tested. Known open lines on the public sites that wait on Mark or on Release 45 are registered as four `ACCEPTED_OPEN` waivers, each with its owner (Open-Gaps 280 or Release 45): a waived line reports and never fails, and every `--enforce` run fails on a waiver that matches nothing any more (`R1_changes.md` section 7). CI's sparse checkout now adds the files the waivers and the record-slug rule read (`--sparse-paths`). Not changed, and listed for Mark in `R1_changes.md` section 5: census wording outside the stories, the story source notes, spoken record fields, record bodies (the schema's designed place for build notes), REGISTRY.yaml's append-only notes, three Library header rights lines, method documents, and the Sandbox sample card.
+
+## 2026-11-16 - Cap ruling: Church Family Tree, Polycarp clean write
+
+The Polycarp of Smyrna clean write (`Build/Ministry/Operations/Audits/2026-11-16_polycarp-clean-write/`) reached the cap at round 3. Its review files are `R1_review.md`, `R2_recheck.md` and `R3_recheck.md`. Round 3 passed with nothing blocking. The project lead read it and ordered a fourth draft: "add the century and a stronger opening and ending". The recheck of that draft is `R4_recheck.md`. It is the only review this ruling covers.
+
+## 2026-11-16 - Cap ruling: Church Family Tree, Polycarp clean write, round 5
+
+After round 4 (`R4_recheck.md`, PASS), the project lead read it and asked "does it tell the impact … or legacy". It did not: round 4 used about four of the sheet's 19 impact lines. He ruled "1, rebalance and run round 5". The recheck of round 5 is `R5_recheck.md`. It is the only review this ruling covers.
+
+## 2026-11-16 - Cap ruling: Church Family Tree, Polycarp clean write, fresh cold write
+
+Round 5 (`R5_recheck.md`) returned REVISE: the legacy was given words but not weight. The project lead ruled "1, fresh writer cold". A new writer works from only the one-page standard and the writer's sheet, and sees none of the five drafts or their reviews. This is a fresh cycle with its own three-round cap. Its first review is `Cold_R1_review.md`.

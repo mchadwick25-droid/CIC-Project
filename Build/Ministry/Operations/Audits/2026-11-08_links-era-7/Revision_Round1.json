@@ -1,0 +1,2168 @@
+{
+ "round": 1,
+ "fixes": [
+  {
+   "finding": "R1-01",
+   "action": "checked; no change needed",
+   "detail": "The re-applied census now keeps file, lines, locus, quote and license on secondaries. The nine links with duplicate entries all read correctly: each repeated work now carries a distinct locus (McGlothlin 406-407, 2745-2748, 2775-2779 on anabaptist--baptists; 2695-2699, 2739-2742 on puritanism--baptists; Brumbaugh, Brandt, Anjou, Rees, Waterworth, Mouravieff, Assemani likewise). No two secondaries on any era-7 link are identical. Every era-7 secondary quote with a locus was checked by hand (whitespace squashed, substring at the stated lines): all pass, as do all primaries. Field-by-field comparison with the Drafting_Record finds no difference except six kept links whose record entries carry no sources."
+  },
+  {
+   "finding": "R1-02",
+   "action": "regraded, note and prose rewritten",
+   "detail": "kongo--antonian regraded to Inferential-Thin; Thornton is not vendored, so it stays named-not-rechecked. Reviewer's note and relationsSummary wording used."
+  },
+  {
+   "finding": "R1-03",
+   "action": "regraded, note and prose rewritten",
+   "detail": "kirishitan--hidden-Christians regraded to Inferential-Thin (Turnbull and Whelan not vendored). Reviewer's note. Qualifier 'Later studies hold' applied to kirishitan relationsSummary and why and the label's legacy, and also to the label's why and the Japan teaser, which state the same claim (went past the reviewer's list for the two-way check)."
+  },
+  {
+   "finding": "R1-04",
+   "action": "regraded, note rewritten",
+   "detail": "new-spain--colonial regraded to Inferential-Thin (Mills not vendored). Reviewer's note."
+  },
+  {
+   "finding": "R1-05",
+   "action": "four outcomes dropped; Emden source dropped; class question to Mark",
+   "detail": "Outcome and outcome_locus removed from lutheran--scandinavian, geneva--scottish, geneva--huguenots, geneva--dutch, with the reviewer's outcome_considered. The Emden source is removed from geneva--dutch (the note never used it). The class ruling is in for_open_gaps."
+  },
+  {
+   "finding": "R1-06",
+   "action": "outcome dropped",
+   "detail": "tridentine--carmelite: reviewer's outcome_considered."
+  },
+  {
+   "finding": "R1-07",
+   "action": "outcome dropped",
+   "detail": "kyiv--brest: reviewer's outcome_considered."
+  },
+  {
+   "finding": "R1-08",
+   "action": "seven notes rewritten",
+   "detail": "All seven use the reviewer's text except lutheran--geneva (contact): neither listed source dates the colloquy, so 'In October 1529' is dropped and the year 1530 goes to Zwingli's dedicatory letter, which its work string dates. Every note scores FRE >= 60 and FK <= 10. The kyiv--brest note also corrects who met whom (checked against Susza 3735-3746)."
+  },
+  {
+   "finding": "R1-09",
+   "action": "five new continued-as links; dispositions corrected; Brest summary qualified",
+   "detail": "(a) russian-stoglav--russian-nikon, Documented: Paul of Aleppo and Ligarides both show Nikon chosen to succeed Patriarch Joseph. (b) brest--ruthenian-uniate-18th-century, Widely Accepted: the 1728 letter of the Latin bishop of Lutsk and Brest to Metropolitan Leo Kiszka, keeping Urban VIII's brief, printed by Harasiewicz, with Harasiewicz's list of metropolitans from 1596 to 1772; the Lviv clause is replaced by the eighteenth-century line. (c) armenian-new-julfa--armenian-era-8, Widely Accepted: Zakaria (Jacob of Julfa succeeds Philippos) with Ormanian (1655-1680, and the line through the 1700s). (d) ottoman--ottoman-1650-1821, Documented: the Synod of Jerusalem (1672) sets out and commends the synods of 1638 and 1642 as its church's own. (e) tridentine--ancien-regime, Documented: the Paris provincial assembly of 1699 says France received Trent's faith without exception, and not yet all its discipline. Dispositions 266, 267, 245, 253 (out-of-scope) and 278 (not-a-relationship) changed; new dispositions for the Ottoman and Tridentine legacy sentences."
+  },
+  {
+   "finding": "R1-10",
+   "action": "prose rewritten",
+   "detail": "Anabaptist relationsSummary: reviewer's wording."
+  },
+  {
+   "finding": "R1-11",
+   "action": "two links copied from era 6; eight shared ids compared",
+   "detail": "Both disputed ids now carry era 6's Documented version exactly (sources re-checked). For the Ethiopian link, Mendes is in era 6's own version. For the Church of the East, era 6's Mingana 1504 and Masius 'Simeone Mama' tie the line by name; this branch's extra Masius (1551) and Wigram were not added since the note does not use them. See era6_shared."
+  },
+  {
+   "finding": "R1-12",
+   "action": "narration removed",
+   "detail": "(1) tridentine--post-vatican-ii: last sentence now 'This rests on the 1570 bull alone, so the tie is thin.' (improved on the proposal, which still spoke of quoting). (2) scandinavian-conversion: reviewer's four-sentence note. (3) Sevcenko work string cleaned; note's last sentence deleted. (4) Ludolf on ethiopian--jesuits and jesuits--ethiopian, and Lamy on coe-schism--chaldean, now carry file, lines, locus and quote; on ethiopian-monastic--ethiopian and coe-timur--coe-schism the era-6 copies carry neither. (5) Zurich-Geneva legacy: reviewer's wording. Also found and fixed one hit the review missed: the Fuller source on english--family-of-love had the locus string 'cited in Build/worlds/... line 63'."
+  },
+  {
+   "finding": "R1-13",
+   "action": "two notes split; rest flagged",
+   "detail": "english--tridentine and english--recusant: reviewer's text. Other notes over three sentences are trimmed where touched (scandinavian-conversion to four); the untouched five-sentence notes are in for_open_gaps."
+  },
+  {
+   "finding": "R1-14",
+   "action": "note and quote fixed",
+   "detail": "geneva--huguenots: reviewer's note; the second Calvin quote is now lines 1981-1983 and includes Peter Gilbert."
+  },
+  {
+   "finding": "R1-15",
+   "action": "source added, note fixed",
+   "detail": "geneva--dutch: Voetius dedication, lines 906-907, 'Professor DER H. Theologie tot Utrecht.'; first sentence now 'Gisbertus Voetius was professor of theology at Utrecht.'"
+  },
+  {
+   "finding": "R1-16",
+   "action": "two outcomes reworded",
+   "detail": "Humiliati and recusant: reviewer's wording; Humiliati outcome_locus now 92832-92843."
+  },
+  {
+   "finding": "R1-17",
+   "action": "note fixed",
+   "detail": "ambrosian--borromean: reviewer's note; 'in 386' removed."
+  },
+  {
+   "finding": "R1-18",
+   "action": "note fixed",
+   "detail": "tridentine--anabaptists: reviewer's note; grade Documented and outcome unchanged."
+  },
+  {
+   "finding": "R1-19",
+   "action": "flagged to the owning thread",
+   "detail": "Listed in for_open_gaps. The one fragment in a field this revision rewrote (Family of Love longDescription) is fixed."
+  },
+  {
+   "finding": "R1-20",
+   "action": "year dropped from prose",
+   "detail": "Fuller is not vendored. '1580' removed from the Family of Love longDescription and why; both fields re-split to pass readability. Fuller's work string no longer asserts the year; its narration locus cleared."
+  },
+  {
+   "finding": "R1-21",
+   "action": "loci added",
+   "detail": "st-thomas--northeast: Whitehouse 9991-9994 and Howard 3054-3058 with quotes. ethiopian-monastic--ethiopian: resolved by the era-6 copy, which has no Ludolf."
+  }
+ ],
+ "links": [
+  {
+   "id": "kongo-christianity-afonso-to-1650--the-antonian-movement-in-kongo",
+   "action": "rewrite",
+   "from": "kongo-christianity-afonso-to-1650",
+   "to": "the-antonian-movement-in-kongo",
+   "type": "gave rise to",
+   "confidence": "Inferential-Thin",
+   "note": "The Kongo church began when Portuguese ships arrived in 1491, a report of 1591 says. Dona Beatriz Kimpa Vita's movement rose inside Kongo from 1704. How far it grew out of that older church rests on one modern study, so the tie is thin.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John Thornton, The Kongolese Saint Anthony: Dona Beatriz Kimpa Vita and the Antonian Movement, 1684-1706 (Cambridge, 1998)"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Duarte Lopes and Filippo Pigafetta, A Report of the Kingdom of Congo (1591), trans. Margarite Hutchinson (1881)",
+     "file": "cic/texts/lopes_report-of-the-kingdom-of-congo_hutchinson1881.txt",
+     "lines": "3511-3514",
+     "locus": "Book II",
+     "quote": "At laft, the fhips arrived with the expected means, which was in the year 1491 of our era, and anchored at the mouth of the Zaire.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "fre": 71.2,
+   "fk": 6.7,
+   "change_reason": "R1-02: Thornton was not read, so it cannot raise the grade. Regraded to Inferential-Thin; Thornton stays listed (named-not-rechecked) and a read of Thornton at a locus stays in wants. The note now says only what Lopes shows and attributes the tie to one modern study."
+  },
+  {
+   "id": "kirishitan-japan--japanese-christianity-hidden-emergence-meiji",
+   "action": "rewrite",
+   "from": "kirishitan-japan",
+   "to": "japanese-christianity-hidden-emergence-meiji",
+   "type": "gave rise to",
+   "confidence": "Inferential-Thin",
+   "note": "A Franciscan report of the 1620s says the ban of 1614 sent every missionary out of Japan. The English trader Richard Cocks noted the same thing in 1615. The tie to the hidden Christians found in 1865 rests on modern studies alone, so it is thin.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Luis Sotelo, O.F.M., memorial (Latin, after 1622), in Léon Pagès, Histoire de la religion chrétienne au Japon, seconde partie: Annexes (1870)",
+     "file": "cic/texts/pages_histoire-religion-chretienne-japon-annexes-fra_1870.txt",
+     "lines": "6913-6914",
+     "locus": "annex, running head 'Mémorial Sotelo'",
+     "quote": "religiosi quoque omnes generali Imperatoris edicto relegati;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Richard Cocks, Diary, 1615-1617, ed. Edward Maunde Thompson (Hakluyt Society, 1883), vol. I",
+     "file": "cic/texts/cocks_diary-v1_thompson1883.txt",
+     "lines": "2588-2590",
+     "locus": "Diary, August 1615",
+     "quote": "he hath formerly banished all Christians out of his dominions: I meane all fryres, monkes, jesuists, and pristes.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Stephen Turnbull, The Kakure Kirishitan of Japan: A Study of Their Development, Beliefs and Rituals to the Present Day (Richmond, 1998)"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Christal Whelan, trans., The Beginning of Heaven and Earth: The Sacred Book of Japan's Hidden Christians (Honolulu, 1996), introduction"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "named-not-rechecked",
+   "fre": 72.3,
+   "fk": 6.7,
+   "change_reason": "R1-03: Turnbull and Whelan were not read and are not vendored, so they cannot raise the grade. Regraded to Inferential-Thin; both stay listed as named-not-rechecked. The note no longer reports what the two scholars argue."
+  },
+  {
+   "id": "new-spain-and-andes-mission-born-christianity--colonial-latin-american-devotional-catholicism",
+   "action": "rewrite",
+   "from": "new-spain-and-andes-mission-born-christianity",
+   "to": "colonial-latin-american-devotional-catholicism",
+   "type": "continued as",
+   "confidence": "Inferential-Thin",
+   "note": "Motolinia tells of the first friars baptizing many people in Mexico from 1524. A century later, the friar Thomas Gage saw Indian towns in Guatemala run their own groups for the saints. The tie rests on these two accounts, a century apart.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Motolinia, Historia de los indios de la Nueva España (1914 ed.)",
+     "file": "cic/texts/motolinia_historia-de-los-indios-de-la-nueva-espana-spa_sanchez-garcia1914.txt",
+     "lines": "8541-8542",
+     "locus": "Tratado II",
+     "quote": "despues que fueron muchos los Indios bautizados, llamaronlos Espafioles.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Thomas Gage, The English-American his Travail by Sea and Land (London, 1648)",
+     "file": "cic/texts/gage_english-american-new-survey-of-the-west-indias_1648.txt",
+     "lines": "11083-11085",
+     "locus": "ch. on the Indian towns of Guatemala",
+     "quote": "also to every Company or Sodality of the Saints, or Virgin, there are two or three, whom they call Mayordomo's, who gather about the Towne Almes for the maintaining of the Sodality;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Kenneth Mills, 'The naturalisation of Andean Christianities', The Cambridge History of Christianity, vol. 6, ch. 27"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "fre": 65.0,
+   "fk": 7.6,
+   "change_reason": "R1-04: Mills is not vendored and was not read, so it cannot carry Widely Accepted. Regraded to Inferential-Thin; Mills stays listed (named-not-rechecked). The note drops 'Historians read these as one church' and says the tie rests on two accounts a century apart."
+  },
+  {
+   "id": "lutheran-wittenberg-and-its-congregations--scandinavian-reformation-kingdoms",
+   "action": "rewrite",
+   "from": "lutheran-wittenberg-and-its-congregations",
+   "to": "scandinavian-reformation-kingdoms",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "King Christian III's church law of 1537 says he sent its draft to Martin Luther, and the Wittenberg teachers approved it. In 1593 a church council met at Uppsala. It bound Sweden to the old, true and unchanged Augsburg Confession of 1530.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ordinatio ecclesiastica Regnorum Daniae et Norvegiae (Copenhagen, 1537)",
+     "file": "cic/texts/danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537.txt",
+     "lines": "109-112",
+     "locus": "king's preface",
+     "quote": "Danc acceptam miſimus ad Reuerendʒ patrem Doctorem Martinum Lutherũ /",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ordinatio ecclesiastica Regnorum Daniae et Norvegiae (Copenhagen, 1537)",
+     "file": "cic/texts/danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537.txt",
+     "lines": "118-122",
+     "locus": "king's preface",
+     "quote": "Is cum alite qui Wittenbergæ ſũt Theolo gis eam appꝛo⸗ bauit.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ordinatio ecclesiastica Regnorum Daniae et Norvegiae (Copenhagen, 1537)",
+     "file": "cic/texts/danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537.txt",
+     "lines": "102-106",
+     "locus": "king's preface",
+     "quote": "Conuocatis igitur Doctoꝛibus et pꝛœ dicatoꝛibus GEccleſiarum ex Dante Regno z Ducatibus noſtris mandaui⸗ mus vt ordinationẽ aliquã ſacram nobis conſcriberent.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Decision of the Uppsala Synod (Upsala mötes beslut, 1593), in Oscar Bensow, Svenska kyrkans bekännelseskrifter (1912)",
+     "file": "cic/texts/bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt",
+     "lines": "31003-31004",
+     "locus": "Uppsala mötes beslut (1593), preamble",
+     "quote": "efter Christi börd 1593 på söndagen Esto mihi, som var then 25 februari!, här i Upsala till at göra en förening",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Decision of the Uppsala Synod (Upsala mötes beslut, 1593), in Oscar Bensow, Svenska kyrkans bekännelseskrifter (1912)",
+     "file": "cic/texts/bensow_svenska-kyrkans-bekannelseskrifter-swe_bensow1912.txt",
+     "lines": "31032-31034",
+     "locus": "Uppsala mötes beslut (1593), second article",
+     "quote": "Thernäst bejake och vederkännes [bekänna] vi oss alldeles vele hölle vidh the Apostoliske, Niceniske och Athanasii symbola, såsom och vidh then äldste, rätte och oförrandrede Ausburgiske confession,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "outcome_considered": "A church body adopted the other side's text or order by its own vote: a text taken up, which the stricter test excludes, as for Trent's Vulgate decree and the patriarchs' 1643 decree.",
+   "fre": 72.2,
+   "fk": 6.4,
+   "change_reason": "R1-05: outcome and outcome_locus dropped; the Uppsala council's adoption of the Augsburg Confession is a text taken up by vote. Class ruling sent to Mark (for_open_gaps). Note and sources unchanged."
+  },
+  {
+   "id": "the-reformed-cities-zurich-and-geneva--the-scottish-reformation-and-kirk",
+   "action": "rewrite",
+   "from": "the-reformed-cities-zurich-and-geneva",
+   "to": "the-scottish-reformation-and-kirk",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "John Knox studied in Geneva and went to preach to the English exiles at Frankfurt at John Calvin's command. He then went back to Geneva, and from there, by way of Dieppe, to Scotland.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Knox, The History of the Reformation in Scotland, Book I, in The Works of John Knox, vol. 1, ed. David Laing",
+     "file": "cic/texts/knox_works-v1_laing1895.txt",
+     "lines": "6571-6575",
+     "locus": "Knox, History of the Reformation, Book I",
+     "quote": "When he left England, then he passed to Geneva, and thare remaned at his privat study,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Knox, The History of the Reformation in Scotland, Book I, in The Works of John Knox, vol. 1, ed. David Laing",
+     "file": "cic/texts/knox_works-v1_laing1895.txt",
+     "lines": "6574-6575",
+     "locus": "Knox, History of the Reformation, Book I",
+     "quote": "at the commandiment of that notable servand of God, JOHNE CALVYNE.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Knox, The History of the Reformation in Scotland, Book I, in The Works of John Knox, vol. 1, ed. David Laing",
+     "file": "cic/texts/knox_works-v1_laing1895.txt",
+     "lines": "6588",
+     "locus": "Knox, History of the Reformation, Book I",
+     "quote": "returned to Geneva, from thense to Deape, and thairafter to Scotland,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts of the General Assembly of the Church of Scotland, in The Booke of the Universall Kirk of Scotland, 1560-1602, ed. Alexander Peterkin (1839)",
+     "file": "cic/texts/kirk-of-scotland_booke-of-the-universall-kirk-1560-1602_peterkin1839.txt",
+     "lines": "1201-1211",
+     "locus": "General Assembly, Session Fifth, December 1562",
+     "quote": "It is concluded, That ane uniforme order sail be taken or keeped in ministration of the Sacraments, and solemnization of Mariages and Buriall of the Dead, according to the Kirk of Geneva.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "G. W. Sprott and Thomas Leishman (eds.), The Book of Common Order of the Church of Scotland ... and the Directory (1868), introduction",
+     "file": "cic/texts/kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt",
+     "lines": "604-606",
+     "locus": "Introduction",
+     "quote": "The Book of Geneva thus remodelled is known as Knox's Liturgy, or ' Book of Common Order,' and it embodied the law of the Church as to worship from 1564 till 1645."
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "outcome_considered": "A church body adopted the other side's text or order by its own vote: a text taken up, which the stricter test excludes, as for Trent's Vulgate decree and the patriarchs' 1643 decree.",
+   "fre": 75.1,
+   "fk": 7.0,
+   "change_reason": "R1-05: outcome and outcome_locus dropped; the General Assembly's order 'according to the Kirk of Geneva' is a practice taken up by vote. Class ruling sent to Mark. Note and sources unchanged."
+  },
+  {
+   "id": "the-reformed-cities-zurich-and-geneva--the-huguenots",
+   "action": "rewrite",
+   "from": "the-reformed-cities-zurich-and-geneva",
+   "to": "the-huguenots",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Calvin wrote from Geneva in May 1559, just before the French churches met in synod at Paris. His letter names the ministers Geneva was sending to help them. Two of them were a man called Arnold and Peter Gilbert.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Calvin, letter DXXXIV (Geneva, 17 May 1559), in Letters of John Calvin, ed. Jules Bonnet, vol. IV (1858)",
+     "file": "cic/texts/calvin_letters-vol4_bonnet1858.txt",
+     "lines": "1939-1942",
+     "locus": "Letter DXXXIV, heading",
+     "quote": "DXXXIV.— To M. DE CoLONGES. Preliminaries of the Synod of Paris — Sending of several ministers. Geneva, 17th 3Iay, 1559.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Calvin, letter DXXXIV (Geneva, 17 May 1559), in Letters of John Calvin, ed. Jules Bonnet, vol. IV (1858)",
+     "file": "cic/texts/calvin_letters-vol4_bonnet1858.txt",
+     "lines": "1981-1983",
+     "locus": "Letter DXXXIV",
+     "quote": "Arnold is substituted in his place, a man well versed in polite letters ; — though Peter Gilbert has not the advantages of a liberal education,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Philip Schaff, headnote to the Confessio Fidei Gallicana, in The Creeds of Christendom, vol. III (1877)",
+     "file": "cic/texts/schaff_gallican-confession-fra-eng_1877.txt",
+     "lines": "14-15",
+     "locus": "headnote",
+     "quote": "This Confession was prepared by Calvin and his pnpil, De Cuandiett, revised and approved by a synod at Paris, 1559,"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "outcome_considered": "A church body adopted the other side's text or order by its own vote: a text taken up, which the stricter test excludes, as for Trent's Vulgate decree and the patriarchs' 1643 decree.",
+   "fre": 69.3,
+   "fk": 6.7,
+   "change_reason": "R1-05: outcome dropped (a synod approving a Geneva-drafted confession is a text taken up; its evidence was also an editor's headnote). R1-14: the note now names two different men, 'a man called Arnold' and Peter Gilbert, and the second Calvin quote is extended to lines 1981-1983 so that Peter Gilbert is inside it. Schaff's headnote stays as a secondary for the influence itself (Calvin drafted the confession)."
+  },
+  {
+   "id": "the-reformed-cities-zurich-and-geneva--dutch-further-reformation-and-refuge-culture",
+   "action": "rewrite",
+   "from": "the-reformed-cities-zurich-and-geneva",
+   "to": "dutch-further-reformation-and-refuge-culture",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Gisbertus Voetius was professor of theology at Utrecht. His lessons on the Heidelberg Catechism were printed in 1662. Asked if the Dutch Reformed held Calvin's views, he said yes, but Calvin was not their head.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gisbertus Voetius, Catechisatie over den Heidelbergschen Catechismus (Poudroyen's edition of 1662, reissued by A. Kuyper, 1891), vol. 1, dedication to Voetius",
+     "file": "cic/texts/voetius_catechisatie-heidelbergschen-catechismus-v1-nld_kuyper1891.txt",
+     "lines": "906-907",
+     "locus": "dedication",
+     "quote": "Professor DER H. Theologie tot Utrecht.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gisbertus Voetius, Catechisatie over den Heidelbergschen Catechismus (Poudroyen's edition of 1662, reissued by A. Kuyper, 1891), vol. 1",
+     "file": "cic/texts/voetius_catechisatie-heidelbergschen-catechismus-v1-nld_kuyper1891.txt",
+     "lines": "20622-20623",
+     "locus": "lessons on the name of Christian",
+     "quote": "V. Maer , seggen sy , ghy gevoelt in de stucken der Religie als Calvinus?",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gisbertus Voetius, Catechisatie over den Heidelbergschen Catechismus (Poudroyen's edition of 1662, reissued by A. Kuyper, 1891), vol. 1",
+     "file": "cic/texts/voetius_catechisatie-heidelbergschen-catechismus-v1-nld_kuyper1891.txt",
+     "lines": "20625",
+     "locus": "lessons on the name of Christian",
+     "quote": "A. Dat is soo , maer daerom en is hy ons hooft niet.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "outcome_considered": "A church body adopted the other side's text or order by its own vote: a text taken up, which the stricter test excludes, as for Trent's Vulgate decree and the patriarchs' 1643 decree.",
+   "fre": 63.5,
+   "fk": 7.2,
+   "change_reason": "R1-05: outcome dropped (Emden's catechism rule is a text taken up, half of it the Heidelberg, not Geneva's) and the Emden source removed, since the note never used it. R1-15: added the dedication line naming Voetius professor of theology at Utrecht (lines 906-907), and the first sentence now says only that."
+  },
+  {
+   "id": "the-tridentine-church--carmelite-reform-and-spanish-mystics",
+   "action": "rewrite",
+   "from": "the-tridentine-church",
+   "to": "carmelite-reform-and-spanish-mystics",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Teresa of Ávila wrote that before each new house she first sought the local bishop's consent, 'according to the decree of the council'. She also tells how Trent's decree on hermits made the hermit Mariano want to appeal to Rome. After she showed him her rule, he joined her reform.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Teresa of Avila, The Book of the Foundations, trans. David Lewis, ed. Benedict Zimmerman (1913)",
+     "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+     "lines": "13766-13768",
+     "locus": "Foundations ch. 24 (the Seville foundation)",
+     "quote": "for in founding the other monasteries the first thing I sought was the sanction of the ordinary, according to the decree of the council.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Teresa of Avila, The Book of the Foundations, trans. David Lewis, ed. Benedict Zimmerman (1913)",
+     "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+     "lines": "10025-10032",
+     "locus": "Foundations 17.8",
+     "quote": "When the holy Council of Trent had been held, and when the decree came forth by which all hermits were to be brought under the discipline of the regular orders, Mariano wished to go to Rome,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Teresa of Avila, The Book of the Foundations, trans. David Lewis, ed. Benedict Zimmerman (1913), editor's note quoting Mariano's letter of 7 May 1571",
+     "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+     "lines": "10053-10054",
+     "locus": "note to Foundations 17",
+     "quote": "Your servant in the Lord Doctor Mariano Azaro, Italian, Discalced Carmelite friar,’",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Benedict Zimmerman, introduction to Teresa of Avila, The Book of the Foundations, trans. Lewis (1913)",
+     "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+     "lines": "1209-1213",
+     "quote": "until the Council of Trent radically changed these matters. They had been so ingrained in the minds and customs of the times that the introduction of the Reform decreed by the Council taxed the ingenuity of the General to the utmost.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "outcome_considered": "Teresa followed a decree of the Council in her own foundations; a practice taken up by one person, with no act of an authority in the listed lines.",
+   "fre": 69.8,
+   "fk": 7.7,
+   "change_reason": "R1-06: outcome dropped. Teresa following the Council's decree is a practice taken up by one person; no act of an authority is in the listed lines."
+  },
+  {
+   "id": "the-kyiv-mohyla-orthodox-revival--the-union-of-brest-and-ruthenian-greek-catholic-",
+   "action": "rewrite",
+   "from": "the-kyiv-mohyla-orthodox-revival",
+   "to": "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In his own notes Petro Mohyla called the union a wicked falling away from the faith. In August 1628 a synod at the Caves monastery in Kyiv sent envoys to Meletius Smotrytsky. They asked about his Apology, a book that leaned toward Rome. The envoy told him the synod held the whole book to be against the faith and wicked.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Petro Mohyla, autograph notes (tales of miracles and notable events), in Arkhiv Iugo-Zapadnoi Rossii, part 1, vol. 7 (Kyiv, 1887)",
+     "file": "cic/texts/arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887.txt",
+     "lines": "2961-2962",
+     "locus": "Mohyla's notes",
+     "quote": "егда  въ  Россіи  попущеніемъ  Божіимъ  злоче- стивое  отступство,  глаголемое ,  унія*  множитися  нача,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jakub Susza, Saulus et Paulus Ruthenae unionis (Rome, 1666; ed. Martynov, Brussels, 1864), quoting Smotrytsky's Protestatio",
+     "file": "cic/texts/susza_saulus-et-paulus-ruthenae-unionis-lat_martynov1864.txt",
+     "lines": "3741-3752",
+     "locus": "Life of Smotrytsky, the Kyiv synod of 1628",
+     "quote": "Subdidit qusBsitor, synoduma capite ad calcem censere eam contrariam et im- piam.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The same work, a letter from Rome dated 6 April 1628",
+     "file": "cic/texts/susza_saulus-et-paulus-ruthenae-unionis-lat_martynov1864.txt",
+     "lines": "3701-3703",
+     "locus": "Life of Smotrytsky",
+     "quote": "uihil ex istis partibus Sanctitati Suae signi- « ficari potuisse gratius, quam conversionem Me- « letii.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "outcome_considered": "An envoy's report of a synod's verdict on one man's book, from the other side; no canon, condemnation of the union or lasting result is shown.",
+   "fre": 61.4,
+   "fk": 8.4,
+   "change_reason": "R1-07: outcome dropped; an envoy's report, from the other side, of a synod's verdict on one man's book is not a canon or a lasting result. R1-08: note rewritten (FRE was 59.97); it also corrects 'a synod met Smotrytsky': Susza (3735-3746) says he was refused entry to the Caves monastery and four priests were sent to him at St Michael's."
+  },
+  {
+   "id": "waldensians-in-the-alps--the-waldensian-reformed-union",
+   "action": "rewrite",
+   "from": "waldensians-in-the-alps",
+   "to": "the-waldensian-reformed-union",
+   "type": "continued as",
+   "confidence": "Contested",
+   "note": "In 1532 the Waldensian churches of the Alpine valleys chose to hold their worship in the open. Their confession of that year says its teaching was handed down from father to son. Scholars disagree whether this shows an unbroken line back to the old Waldensians, or a later reading of the past.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Samuel Morland, The History of the Evangelical Churches of the Valleys of Piemont (1658), the Waldensian Confession of Faith of 1532",
+     "file": "cic/texts/morland_history-evangelical-churches-piemont_1658.txt",
+     "lines": "7947-7949",
+     "locus": "Book I, 'A brief Confession of Faith', 1532",
+     "quote": "containing  the  fum  of  the Dodrine,  which  was  taught  them  from  father  to  fon  according  to  the Word  of  God",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Jean-Paul Perrin, History of the Old Waldenses anterior to the Reformation (English translation, 1624; Philadelphia 1847)",
+     "file": "cic/texts/perrin_history-ancient-christians-valleys-alps_1847.txt",
+     "lines": "5232-5234",
+     "locus": "Part I, Book II",
+     "quote": "That  persecution  lasted  till  the  year  1532,  when  they  resolved to  order  their  churches  in  such  manner,  that  that  exercise,  which  was  before performed  in  covert,  might  be  manifest  to  every  one",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Gabriel Audisio, The Waldensian Dissent: Persecution and Survival, c.1170-c.1570 (Cambridge University Press, 1999)"
+    },
+    {
+     "kind": "secondary",
+     "work": "Euan Cameron, The Reformation of the Heretics: The Waldenses of the Alps 1480-1580 (Oxford, 1984)"
+    },
+    {
+     "kind": "secondary",
+     "work": "Euan Cameron, Waldenses: Rejections of Holy Church in Medieval Europe (Blackwell, 2000)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "fre": 70.1,
+   "fk": 7.7,
+   "change_reason": "R1-08: note rewritten for readability (was FRE 56.9). Sources, grade and type unchanged."
+  },
+  {
+   "id": "lutheran-wittenberg-and-its-congregations--the-anabaptist-movements",
+   "action": "rewrite",
+   "from": "lutheran-wittenberg-and-its-congregations",
+   "to": "the-anabaptist-movements",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1530 the Lutheran side named and condemned the Anabaptists in the Augsburg Confession. It rejects their view that children should not be baptized. It also rejects their rule that a Christian may not serve as a judge or ruler.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "witt.source.melanchthon-augsburg-confession",
+     "work": "Philipp Melanchthon, The Augsburg Confession (1530), English",
+     "file": "cic/texts/melanchthon_augsburg-confession_anon-pg275.txt",
+     "lines": "314-315",
+     "locus": "Art. IX, Of Baptism",
+     "quote": "They condemn the Anabaptists, who reject the baptism of children, and say that children are saved without Baptism.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "witt.source.melanchthon-augsburg-confession",
+     "work": "Philipp Melanchthon, The Augsburg Confession (1530), English",
+     "file": "cic/texts/melanchthon_augsburg-confession_anon-pg275.txt",
+     "lines": "418-419",
+     "locus": "Art. XVI, Of Civil Affairs",
+     "quote": "They condemn the Anabaptists who forbid these civil offices to Christians.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "outcome_considered": "The Augsburg Confession is a statement of faith presented at a diet; the listed lines show no council, law or ruler's act against the Anabaptists.",
+   "fre": 65.7,
+   "fk": 7.3,
+   "change_reason": "R1-08: note rewritten for readability (was FRE 41.6). Sources, grade and type unchanged."
+  },
+  {
+   "id": "latin-pastoral-congregational-christianity--the-reformed-cities-zurich-and-geneva",
+   "action": "rewrite",
+   "from": "latin-pastoral-congregational-christianity",
+   "to": "the-reformed-cities-zurich-and-geneva",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In his Institutes, Calvin calls on Augustine as his guide on grace and on God's choice of the saved. He says he could fill a whole book with Augustine's words alone and need no others.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "rzg.source.calvin-institutes-books2-3",
+     "work": "John Calvin, Institutes of the Christian Religion, vol. 2 (Beveridge translation, 1845)",
+     "file": "cic/texts/calvin_institutes-christian-religion-vol2_beveridge1845.txt",
+     "lines": "25388-25391",
+     "locus": "Inst. III.22 (on election)",
+     "quote": "Were we disposed to frame an entire volume out of Augustine, it were easy to show the reader that I have no occasion to use any other words than his",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "rzg.source.calvin-institutes-books2-3",
+     "work": "John Calvin, Institutes of the Christian Religion, vol. 2 (Beveridge translation, 1845)",
+     "file": "cic/texts/calvin_institutes-christian-religion-vol2_beveridge1845.txt",
+     "lines": "25379-25381",
+     "locus": "Inst. III.22 (on election)",
+     "quote": "Let the testimony of Augustine prevail with those who willingly acquiesce in the authority of the Fathers",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "outcome_considered": "A teaching taken up by a later writer, which the outcome test excludes.",
+   "fre": 73.0,
+   "fk": 7.4,
+   "change_reason": "R1-08: note rewritten for readability (was FRE 51.9). Sources, grade and type unchanged."
+  },
+  {
+   "id": "the-anabaptist-movements--lutheran-wittenberg-and-its-congregations",
+   "action": "rewrite",
+   "from": "the-anabaptist-movements",
+   "to": "lutheran-wittenberg-and-its-congregations",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "The Hutterite chronicle names Luther and Zwingli. It says they laid bare the faults of the popes, but then leaned on worldly rulers and human help. This is the view of one Anabaptist group, in a chronicle kept over many years.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Geschicht-Buch der Hutterischen Brüder (Wolkan, 1923)",
+     "file": "cic/texts/hutterite-brethren_geschicht-buch-deu_wolkan1923.txt",
+     "lines": "5347-5349",
+     "locus": "the chronicle's opening account of Luther and Zwingli",
+     "quote": "aber dargegen kein besseres aufgericht, sondern alsbald sie sich an den weltlichen Gewalt gehängt, auf menschlich Hilf vertröstet",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "outcome_considered": "A chronicle's judgment; no institutional act follows from it in the listed source.",
+   "fre": 69.2,
+   "fk": 7.0,
+   "change_reason": "R1-08: note rewritten for readability (was FRE 44.3). Sources, grade and type unchanged."
+  },
+  {
+   "id": "lutheran-wittenberg-and-its-congregations--the-reformed-cities-zurich-and-geneva",
+   "action": "rewrite",
+   "from": "lutheran-wittenberg-and-its-congregations",
+   "to": "the-reformed-cities-zurich-and-geneva",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Zwingli made the long journey to Marburg to meet Luther and Melanchthon and talk about the Lord's Supper. Two Zurich writers tell of it: Zwingli himself, who in 1530 recalled the sermon he preached there, and his friend Myconius.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "rzg.source.zwingli-latin-works-vol1",
+     "work": "Oswald Myconius, Life of Huldreich Zwingli (written in Latin, 1532), in Zwingli, Latin Works and Correspondence, vol. 1",
+     "file": "cic/texts/zwingli_latin-works-correspondence-vol1_jackson1912.txt",
+     "lines": "1343-1345",
+     "locus": "Myconius, Life of Zwingli, ch. XI",
+     "quote": "He made also the long journey to Marburg, to the colloquy with Luther and Melanchthon upon the Lord's Supper.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Zwingli, On the Providence of God, dedicatory letter to Philip of Hesse (1530)",
+     "file": "cic/texts/zwingli_latin-works-correspondence-vol2_hinke1922.txt",
+     "lines": "6753-6754",
+     "locus": "Dedicatory letter to Philip of Hesse",
+     "quote": "the sermon that I delivered in your castle at Marburg.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "outcome_considered": "The listed sources show the colloquy took place, not any agreement, rule or split that came out of it.",
+   "fre": 62.9,
+   "fk": 9.2,
+   "change_reason": "R1-08: note rewritten for readability (was FRE 54.2). Improved on the proposed text: neither listed source dates the colloquy, so 'In October 1529' is dropped, and the year 1530 now belongs to Zwingli's dedicatory letter, which the work string dates. It also keeps the note to two sentences and clears the word 'record' from it."
+  },
+  {
+   "id": "lutheran-wittenberg-and-its-congregations--the-reformed-cities-zurich-and-geneva--2",
+   "action": "rewrite",
+   "from": "lutheran-wittenberg-and-its-congregations",
+   "to": "the-reformed-cities-zurich-and-geneva",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "The Lutheran Formula of Concord of 1577 has a chapter on the Lord's Supper. It names the 'Zwinglian teachers' and says they broke away when the Augsburg Confession was first read out. The chapter then condemns the 'Sacramentarians'.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "witt.source.book-of-concord",
+     "work": "Formula of Concord, Epitome, chapter VII (Of the Lord's Supper), in The Book of Concord (Jacobs, 1911)",
+     "file": "cic/texts/book-of-concord_symbolical-books-evangelical-lutheran-church_jacobs1911.txt",
+     "lines": "26604-26607",
+     "locus": "Epitome VII, opening paragraph",
+     "quote": "Although the Zwinglian teachers are not to be reckoned i among the theologians who acknowledge and profess the Augs- burg Confession, as they separated from them when this Con- fession was presented",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "outcome_considered": "The Formula is a confession of faith; its line that the Zwinglians 'separated' is a claim about the past, not an institutional act shown in the listed source.",
+   "fre": 64.0,
+   "fk": 7.4,
+   "change_reason": "R1-08: note rewritten for readability (was FRE 54.8). Sources, grade and type unchanged."
+  },
+  {
+   "id": "russian-church-stoglav-to-nikon--russian-church-nikon-to-holy-synod",
+   "action": "new",
+   "from": "russian-church-stoglav-to-nikon",
+   "to": "russian-church-nikon-to-holy-synod",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Paul of Aleppo went to Moscow with the patriarch of Antioch. He writes that when Patriarch Joseph died, the clergy all voted to make Nikon patriarch. Paisius Ligarides, who later led the case against Nikon, also says Nikon was chosen to follow Joseph.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Paul of Aleppo, The Travels of Macarius, Patriarch of Antioch (Arabic, 1650s), trans. F. C. Belfour, vol. I (1836)",
+     "file": "cic/texts/paul-of-aleppo_travels-of-macarius-v1_belfour1836.txt",
+     "lines": "18921-18923",
+     "locus": "on the bringing of the Saint's relics to Moscow",
+     "quote": "Just before the arrival of the Saint happened the death of the Patriarch Joseph, and it was the unanimous vote of the Assembly of the Clergy to make Nicon Patriarch",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Paisius Ligarides, History of the Condemnation of the Patriarch Nicon, trans. William Palmer, The Patriarch and the Tsar, vol. III (1873)",
+     "file": "cic/texts/ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873.txt",
+     "lines": "5414-5415",
+     "locus": "chap. V, entrance upon the subject",
+     "quote": "the man elected to succeed him was Nicon, who was then metro- politan of Novgorod, the first see in rank after the patriarchal,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "fre": 60.5,
+   "fk": 8.4,
+   "change_reason": "R1-09(a): new 'continued as' link for the continuation the relationsSummary names (continuesAs russian-church-nikon-to-holy-synod). Two primaries show the one patriarchal see passing from Joseph to Nikon: Paul of Aleppo, who was in Moscow in the 1650s, and Ligarides, Nikon's prosecutor. Mouravieff (repo-cited) agrees but is not needed."
+  },
+  {
+   "id": "the-union-of-brest-and-ruthenian-greek-catholic---ruthenian-uniate-18th-century",
+   "action": "new",
+   "from": "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "to": "ruthenian-uniate-18th-century",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "In 1728 the Latin bishop of Lutsk and Brest wrote to Leo Kiszka, 'Metropolitan of Kyiv and all Rus'. He promised to keep a rule of Pope Urban VIII that kept Ruthenians from moving to the Latin rite. The historian Harasiewicz lists Kiszka among the heads of this church in communion with Rome since the union of 1596.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Stephen Boguslaw Rupniewski, Latin bishop of Lutsk and Brest, pastoral letter on keeping the Ruthenian rite (1728), printed in Michael Harasiewicz, Annales Ecclesiae Ruthenae (Lviv, 1862)",
+     "file": "cic/texts/harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt",
+     "lines": "19758-19760",
+     "locus": "the letter's opening; Harasiewicz's heading dates it 1728",
+     "quote": "Stephanus Boguslaus a Rupniow in Januszowice Ru- pniewski Dei et Apostolieae Sedis Gratia Episcopus Luce- oriensis et Brestensis.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Stephen Boguslaw Rupniewski, pastoral letter (1728), in Harasiewicz, Annales Ecclesiae Ruthenae (1862)",
+     "file": "cic/texts/harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt",
+     "lines": "19764-19765",
+     "locus": "the letter, address",
+     "quote": "signanter Illmo et Remo. Domino Leoni Kiszka Metropolitano Kijoviensi et totius Russiae",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Stephen Boguslaw Rupniewski, pastoral letter (1728), in Harasiewicz, Annales Ecclesiae Ruthenae (1862)",
+     "file": "cic/texts/harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt",
+     "lines": "19769-19772",
+     "locus": "the letter",
+     "quote": "Et sicuti ante nunquam admis- simus, ita nec deinceps admittemus transitum Ruthenorum ad latinum ritum, eum id nobis prohiberi non ignoremus per Breve S. M. Urbani VIII.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Michael Harasiewicz, Annales Ecclesiae Ruthenae (Lviv, 1862), list of the metropolitans after the union",
+     "file": "cic/texts/harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt",
+     "lines": "13288-13291",
+     "locus": "documents on the union in later times, opening",
+     "quote": "Post unionem in Synodo Bresteusi anno 1596 renovatam usque ad primam Polouiae divisionem auno 1772 praeerant Hierarehiae Ruthenae, communionem cum 8. Sede Romana ha- benti, sequentes Metropolitae:",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Michael Harasiewicz, Annales Ecclesiae Ruthenae (Lviv, 1862), list of the metropolitans after the union",
+     "file": "cic/texts/harasiewicz_annales-ecclesiae-ruthenae-lat_1862.txt",
+     "lines": "13296",
+     "locus": "the same list",
+     "quote": "Leo I1 Kiszka 1713;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "fre": 65.5,
+   "fk": 8.8,
+   "change_reason": "R1-09(b): new 'continued as' link for the line the relationsSummary names (continuesAs ruthenian-uniate-18th-century). The 1728 letter, printed by Harasiewicz, addresses Leo Kiszka as metropolitan of Kyiv and keeps Urban VIII's brief in force; Harasiewicz's list (repo text, read at a locus) runs the metropolitans in communion with Rome from the union of 1596 to Kiszka and on to 1772. Widely Accepted, not Documented: the letter does not itself name the union, so the reading that this is the same church rests on Harasiewicz."
+  },
+  {
+   "id": "armenian-christianity-new-julfa--armenian-christianity-era-8",
+   "action": "new",
+   "from": "armenian-christianity-new-julfa",
+   "to": "armenian-christianity-era-8",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "Zakaria, a deacon who wrote in the 1600s, says Jacob of Julfa came after Catholicos Philippos as head of the church. The historian Ormanian dates Jacob's rule from 1655 to 1680. He then follows the line of chief patriarchs on through the 1700s.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Zakaria of Kanaker, Mémoires historiques sur les Sofis, French translation by M.-F. Brosset, Collection d'historiens arméniens, vol. 2 (St Petersburg, 1876)",
+     "file": "cic/texts/zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt",
+     "lines": "3214-3216",
+     "locus": "the saints of Kanaker: Philippos",
+     "quote": "Jacob de Djoulfa, qui succéda au catholicos Philippos, emmena au saint Edchmiadzin l’évêque son homonyme",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Malachia Ormanian, The Church of Armenia, trans. G. Marcar Gregory (London, 1912)",
+     "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+     "lines": "4373-4374",
+     "locus": "ch. XV",
+     "quote": "Hacob IV. of Djoulfa (1655-1680), who suc ceeded him, followed in the same path.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Malachia Ormanian, The Church of Armenia, trans. G. Marcar Gregory (London, 1912)",
+     "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+     "lines": "4578-4581",
+     "locus": "ch. XV",
+     "quote": "The ten supreme patriarchs who succeeded Yeghiazar of Aintab, from Nahapet of Edessa (1691-1705) to Hacob V. of Schamakhi (1759-1763),",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "fre": 67.1,
+   "fk": 7.3,
+   "change_reason": "R1-09(c): new 'continued as' link for the continuation the legacy names (continuesAs armenian-christianity-era-8); the disposition was 'not-a-relationship'. Zakaria (primary, a deacon of the 1600s) shows the see passing from Philippos to Jacob of Julfa; Ormanian (repo-cited, read at loci) dates Jacob 1655-1680 and runs the line on through the 1700s. Widely Accepted: the primary carries the see across 1650, the secondary carries it into the later period."
+  },
+  {
+   "id": "orthodoxy-under-the-ottomans-parish-millet-and-n--orthodoxy-under-the-ottomans-1650-1821",
+   "action": "new",
+   "from": "orthodoxy-under-the-ottomans-parish-millet-and-n",
+   "to": "orthodoxy-under-the-ottomans-1650-1821",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "In 1672 a synod met at Jerusalem under Patriarch Dositheus. It set out the acts of two earlier synods against the chapters of Cyril Lucaris, held in 1638 and 1642. It said they 'most plainly shew the Orthodoxy of the Eastern Church,' and it praised their sentence.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Acts and Decrees of the Synod of Jerusalem (1672), under Dositheus, Patriarch of Jerusalem, trans. J. N. W. B. Robertson (1899)",
+     "file": "cic/texts/dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt",
+     "lines": "4132-4135",
+     "locus": "Shield of Orthodoxy, on the synods of 1638 and 1642",
+     "quote": "These are the enactments of the two Synods against Cyril, which most plainly shew the Orthodoxy of the Eastern Church. The latter was held at Jassy in Moldavia,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Acts and Decrees of the Synod of Jerusalem (1672), trans. Robertson (1899)",
+     "file": "cic/texts/dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt",
+     "lines": "4171-4172",
+     "locus": "Shield of Orthodoxy, on the synods of 1638 and 1642",
+     "quote": "And the first was held under Cyril of Berrhoea, Patriarch of Constantinople,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Acts and Decrees of the Synod of Jerusalem (1672), trans. Robertson (1899), the synodal decree of 1638 as the Acts give it",
+     "file": "cic/texts/dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt",
+     "lines": "3440-3441",
+     "locus": "decree of the Synod of Constantinople (1638), dating",
+     "quote": "In the year of salvation 1638, on the 24th [day] of September, the seventh Indiction.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Acts and Decrees of the Synod of Jerusalem (1672), trans. Robertson (1899), the synodal letter of 1642 as the Acts give it",
+     "file": "cic/texts/dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt",
+     "lines": "3894-3895",
+     "locus": "synodal letter of 1642, dating",
+     "quote": "In the year of salvation 1642, in the month of May, the tenth Indiction.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Acts and Decrees of the Synod of Jerusalem (1672), trans. Robertson (1899)",
+     "file": "cic/texts/dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt",
+     "lines": "4201-4205",
+     "locus": "Shield of Orthodoxy, on the synods of 1638 and 1642",
+     "quote": "These Synods we do not indeed blame for passing a just sentence against him, but rather we commend them as having opportunely and nobly contended for the Orthodox faith,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "fre": 67.5,
+   "fk": 7.6,
+   "change_reason": "R1-09(d): new 'continued as' link for the continuation the legacy names (continuesAs orthodoxy-under-the-ottomans-1650-1821); there was no disposition. The Synod of Jerusalem of 1672, the era-8 entry's own landmark, sets out the acts of the synods of 1638 and 1642 against Lucaris's chapters and claims them as its church's own: the same church acting across 1650, in its own words."
+  },
+  {
+   "id": "the-tridentine-church--catholic-church-ancien-regime",
+   "action": "new",
+   "from": "the-tridentine-church",
+   "to": "catholic-church-ancien-regime",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "In 1699 the bishops of the Paris province met to accept a ruling by Pope Innocent XII. Their archbishop said the church of France had received 'the faith of the Council of Trent' without exception. Trent's rules for church order, he added, were not yet received everywhere there.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Procès-verbal of the provincial assembly of the bishops of the province of Paris (13 May 1699), printed with Innocent XII's brief Cum alias (Paris, 1699)",
+     "file": "cic/texts/innocent-xii_cum-alias-with-fenelon-mandement-lat-fra_1699.txt",
+     "lines": "2007-2011",
+     "locus": "Paris assembly, the archbishop's remarks",
+     "quote": "la Foy du Concile de Trente ayant été e reçûë fans exception , comme fans formalitez, ‘ dans l’Eglifc de France , quoique la difeipline n’y . foit pas encore gencralement reçûë ;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Procès-verbal of the provincial assembly of the bishops of the province of Paris (1699), heading",
+     "file": "cic/texts/innocent-xii_cum-alias-with-fenelon-mandement-lat-fra_1699.txt",
+     "lines": "1411-1419",
+     "locus": "Paris assembly, heading",
+     "quote": "PROCES VERBAL D E L’ASSEMBLE’E PROVINCIALE DES EVEQUES' D E LA PROVINCE DE PARIS,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "fre": 64.9,
+   "fk": 8.1,
+   "change_reason": "R1-09(e): new 'continued as' link for the continuation the legacy names (continuesAs catholic-church-ancien-regime); until now only an Inferential-Thin link to era 10 carried 'that framework governed Catholic life'. The Paris provincial assembly of 1699 says the French church received Trent's faith without exception, and also that Trent's discipline was not yet generally received there; the note keeps that limit."
+  },
+  {
+   "id": "the-ethiopian-monastic-flowering--ethiopian-christianity-gragn-to-fasilides",
+   "action": "rewrite",
+   "from": "the-ethiopian-monastic-flowering",
+   "to": "ethiopian-christianity-gragn-to-fasilides",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "In the 1520s a Portuguese priest, Francisco Alvares, saw the king bury the abbot of Debra Libanos and pick a new one. He says that post was the highest in the land after the bishop. A hundred years later the Jesuit Afonso Mendes still traced the monks to Tekle Haymanot and to Eustatheus.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Francisco Alvares, Narrative of the Portuguese Embassy to Abyssinia, 1520-1527 (trans. Stanley, 1881), ch. 66",
+     "file": "cic/texts/alvares_narrative-of-the-portuguese-embassy-to-abyssinia_stanley1881.txt",
+     "lines": "7618-7621",
+     "locus": "ch. lxvi, the monastery of Debra Libanos",
+     "quote": "This Ichee of this monastery is the greatest prelate there is in these kingdoms, exclusive of the Abima Marcos, who is over all.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Afonso Mendes, Expeditio Aethiopica, book I (ed. Beccari, 1908)",
+     "file": "cic/texts/mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt",
+     "lines": "6550-6555",
+     "locus": "Expeditio Aethiopica I, the Ethiopian monks",
+     "quote": "Hi deinde in duas acies sunt divisi, qua- rum illustrior et faecundior sub Teclae Haymanot et Ichegue, idest, Abbatis Generalis ipsius successoris signis, in celebri Xaoae cae- nobio, dicto Debra Libanos,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "fre": 62.8,
+   "fk": 8.9,
+   "change_reason": "R1-11: copied exactly from the era-6 branch (origin/claude/p2-l6-links-era-6) so that both branches publish one version of this id. Era 6's Documented is the better-evidenced: Mendes (1620s-30s) names the monks of Debra Libanos under Tekle Haymanot's successor, which is the continuity itself; Alvares gives the 1520s end. Lobo and Ludolf were not added: the note does not use them. This also clears R1-21 and R1-12(4) for this id (Ludolf with no locus)."
+  },
+  {
+   "id": "church-of-the-east-timur-to-hakkari--church-of-the-east-schism-of-1552",
+   "action": "rewrite",
+   "from": "church-of-the-east-timur-to-hakkari",
+   "to": "church-of-the-east-schism-of-1552",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "A history sent with the bishops' letter of 1504 says the patriarch Elijah died and Simon took his place. The scholar Andreas Masius wrote in the 1550s that the patriarch Simeon Mama had died and a rival, Sulaka, was chosen. In Assemani's list of 1725, Simeon's nephew takes the seat in 1552 while Sulaka goes to Rome.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the bishops of India (1490-1504), with their letter of 1504 to the patriarch, trans. A. Mingana (1926) from the Syriac printed in Assemani, Bibl. Orient. III.1",
+     "file": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt",
+     "lines": "1866-1868",
+     "locus": "Mingana 1926, p. 38",
+     "quote": "before its arival the Catholicos Mar Elijah died, and was buried in the Church of St. Miskainta of Mosul. He was succeeeded by Mar Simon, the Catholicos and Patriarch.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Andreas Masius, letter to Ogier Ghiselin de Busbecq (1550s), as quoted in J. S. Assemani, Bibliotheca Orientalis III.1 (1725)",
+     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt",
+     "lines": "56347-56350",
+     "locus": "Bibl. Orient. III.1, on the Gospel lectionary of 1539",
+     "quote": "ut weriua Simeone Mama ipforum Tatriareba, atque alio Sulacbafve Siud nomine eleBo , ne $inus quidem effet Metropolitanus reliquus,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "J. S. Assemani, Bibliotheca Orientalis III.1 (Rome, 1725), list of the patriarchs of the East",
+     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt",
+     "lines": "101042-101047",
+     "locus": "Bibl. Orient. III.1, series patriarcharum, nos. 91-92",
+     "quote": "Simeon qui & Dcnha , co- gnomento Bar-Mama , Simeonis cu- jus fupri fafla eft mentio, ex fratre nepos, anno Chrifti IJ52. Sedem invafit , quum catholici Sulakam monachum fibi Patriarcham a Ro-",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "J. S. Assemani, Bibliotheca Orientalis III.1 (Rome, 1725), list of the patriarchs of the East",
+     "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt",
+     "lines": "101065-101071",
+     "locus": "Bibl. Orient. III.1, series patriarcharum",
+     "quote": "Romam ut Ii Romano Pontifice confecraretur , petiit , quo pervenit die 18. Novembris anni Grzcorum 1864. Chrifti 1552.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "fre": 61.7,
+   "fk": 9.1,
+   "change_reason": "R1-11: copied exactly from the era-6 branch (origin/claude/p2-l6-links-era-6) so that both branches publish one version of this id. Era 6's Documented is the better-evidenced: Mingana's 1504 history (Elijah succeeded by Simon) and Masius naming 'Simeone Mama' tie the patriarch who died to the earlier line by name, and Assemani's list shows his nephew taking the seat in 1552. This branch's Masius quote (vol. 1, 1719) adds only the year 1551, and Wigram (1929) is a later secondary; neither was added, since the note does not use them. This also clears R1-12(4) for this id (Lamy with no locus)."
+  },
+  {
+   "id": "the-tridentine-church--the-post-vatican-ii-parish-world",
+   "action": "rewrite",
+   "from": "the-tridentine-church",
+   "to": "the-post-vatican-ii-parish-world",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "In 1570 Pope Pius V issued the Roman Missal, reformed under a decree of the Council of Trent. It stayed the standard Mass book until the Second Vatican Council's liturgy decree of 1963 ordered the rite revised. This rests on the 1570 bull alone, so the tie is thin.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius V, bull Quo primum tempore (14 July 1570), in Cherubini, Magnum bullarium Romanum, vol. 2",
+     "file": "cic/texts/bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini.txt",
+     "lines": "87956-87958",
+     "locus": "heading of the bull",
+     "quote": "Miffalis Romani, ad rité Miffas celebrandas ex Con- cilii Tridentini decreto reformati , approbatio, & aliorum abolitio.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius V, bull Quo primum tempore (14 July 1570), in Cherubini, Magnum bullarium Romanum, vol. 2",
+     "file": "cic/texts/bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini.txt",
+     "lines": "88306-88307",
+     "locus": "dating",
+     "quote": "ANNO 1570.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John W. O'Malley, What Happened at Vatican II (Harvard, 2008)"
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "outcome_considered": "Quo primum is the Tridentine side's own act; no listed source shows the Vatican II revision, so no lasting outcome can be drawn from them.",
+   "fre": 69.9,
+   "fk": 7.3,
+   "change_reason": "R1-12(1): last sentence ('cited here by name only') was build narration. Improved on the proposed 'The 1963 decree is named but not quoted', which still talks about quoting: the note now just says the tie rests on the 1570 bull alone."
+  },
+  {
+   "id": "scandinavian-conversion-christianity--scandinavian-reformation-kingdoms",
+   "action": "rewrite",
+   "from": "scandinavian-conversion-christianity",
+   "to": "scandinavian-reformation-kingdoms",
+   "type": "continued as",
+   "confidence": "Inferential-Thin",
+   "note": "The historian Anjou traces the see of Skara in Sweden to Sigfrid, the missionary who baptized King Olof Skötkonung. When its bishop left in 1529, the provost Sven was chosen, and a council at Uppsala backed him in 1530. Denmark broke harder: in 1536 its bishops were jailed, and the church law of 1537 set a superintendent over each diocese. This rests on one history from the 1850s, so the tie is thin.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "L. A. Anjou, The History of the Reformation in Sweden (1850-51), trans. H. M. Mason (1859)",
+     "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt",
+     "lines": "992-994",
+     "quote": "The bishopric of Skara, to which Vcrmland and Dais- land belonged, dates its origin from the time of Sigfrid, who baptized king Olof Skotkonung,"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "L. A. Anjou, The History of the Reformation in Sweden (1850-51), trans. H. M. Mason (1859)",
+     "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt",
+     "lines": "11660-11661",
+     "quote": "After bishop Magnus of Skara, in 1529, abandoned his see, it was placed under the care of its provost, master Sven,",
+     "locus": "Anjou, ch. on the Swedish sees, 1529-1530"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "L. A. Anjou, The History of the Reformation in Sweden (1850-51), trans. H. M. Mason (1859)",
+     "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt",
+     "lines": "11667-11670",
+     "quote": "as in Skara was the case with the abovenamed master Sven, whose election was still further fortified by the recognition of the council, which, in 1530, sat at Upsala.",
+     "locus": "Anjou, ch. on the Swedish sees, 1529-1530"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "L. A. Anjou, The History of the Reformation in Sweden (1850-51), trans. H. M. Mason (1859)",
+     "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt",
+     "lines": "14087-14088",
+     "quote": "The bishops then present in Kupenham were immediately imprisoned.",
+     "locus": "Anjou, ch. on the Reformation in Denmark and Norway, 1536"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "L. A. Anjou, The History of the Reformation in Sweden (1850-51), trans. H. M. Mason (1859)",
+     "file": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt",
+     "lines": "14168-14169",
+     "quote": "the superintendents who were now put in the places of the bishops,",
+     "locus": "Anjou, ch. on the Reformation in Denmark and Norway, 1537"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ordinatio ecclesiastica Regnorum Daniae et Norvegiae (Copenhagen, 1537), 'De Superintendentibus et Praepositis'",
+     "file": "cic/texts/danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537.txt",
+     "lines": "3408-3409",
+     "locus": "Ordinatio 1537, De Superintendentibus",
+     "quote": "conſeruatores in ſingulis diqceſibus ſin⸗ guli ſint /",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "fre": 64.6,
+   "fk": 8.6,
+   "change_reason": "R1-12(2) and R1-13: 'four centuries between the two ends' was link-talk and the note ran to six sentences; now four, using the proposed text. Facts unchanged and all from the listed Anjou loci and the 1537 ordinance."
+  },
+  {
+   "id": "the-society-of-jesus--the-kyiv-mohyla-orthodox-revival",
+   "action": "rewrite",
+   "from": "the-society-of-jesus",
+   "to": "the-kyiv-mohyla-orthodox-revival",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Historians say the Kyiv college was built on the pattern of the Jesuit colleges in Poland. In 1883 Stefan Golubev wrote that its school learning and its style of speech came straight from Western colleges, the Jesuit ones above all.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "S. T. Golubev, Kievskii mitropolit Petr Mogila i ego spodvizhniki, vol. 1 (Kyiv, 1883)",
+     "file": "cic/texts/golubev_petr-mogila-i-ego-spodvizhniki-t1-rus_1883.txt",
+     "lines": "18351-18355",
+     "locus": "On the Mohyla college in the Lavra",
+     "quote": "тотъ внёшнй блескъ схоластической науки, т риторическя Фразы и »хитрор$е‹, которые были присущи за- падно-европейскимъ, въ особенности 1езуитекимъ коллемямъ,—есразу же пустили глубове корни и",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Robert Pinkerton, preliminary memoir to Platon, The Present State of the Greek Church in Russia (Edinburgh, 1814)",
+     "file": "cic/texts/platon_present-state-of-the-greek-church-in-russia_pinkerton1814.txt",
+     "lines": "660-663",
+     "locus": "Preliminary memoir",
+     "quote": "on  the  foundation  of  an academy  at  Kieff,  after  the  manner  of  the  Po- lish schools,  the  Latin  became  the  classical  lan- guage,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Ihor Sevcenko, 'The Many Worlds of Peter Mohyla', Harvard Ukrainian Studies (1984)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "outcome_considered": "A school model taken up by Orthodox Kyiv, with no act of any authority behind it in the listed sources.",
+   "fre": 61.2,
+   "fk": 9.6,
+   "change_reason": "R1-12(3): Sevcenko's work string cleared of '(cited in this movement's own source list; not read)'; it stays named-not-rechecked and does not raise the grade, which rests on Golubev and Pinkerton, both read at loci. The note's last sentence (an unsupported claim about what is in print) is deleted."
+  },
+  {
+   "id": "ethiopian-christianity-gragn-to-fasilides--the-society-of-jesus",
+   "action": "rewrite",
+   "from": "ethiopian-christianity-gragn-to-fasilides",
+   "to": "the-society-of-jesus",
+   "type": "broke with",
+   "confidence": "Documented",
+   "note": "A Jesuit history gives the emperor's words ending the Catholic years: 'we restore you the Faith of your Fore-Fathers.' The Jesuit Jerome Lobo wrote that his order was 'expelled in 1634'. He says the court planned to hand the priests over to the Turks.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Balthazar Telles, The Travels of the Jesuits in Ethiopia (English, London 1710)",
+     "file": "cic/texts/telles_travels-of-the-jesuits-in-ethiopia_1710.txt",
+     "lines": "18963-18964",
+     "locus": "Book II, the restoration proclamation",
+     "quote": "at length Proclamation was made in these Words, Hear, Hear, we first. gave you this Faith,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Balthazar Telles, The Travels of the Jesuits in Ethiopia (English, London 1710)",
+     "file": "cic/texts/telles_travels-of-the-jesuits-in-ethiopia_1710.txt",
+     "lines": "18967",
+     "locus": "Book II, the restoration proclamation",
+     "quote": "for which Reason we restore you the Faith of your Fore- Fathers.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jerome Lobo, S.J., A Voyage to Abyssinia, Samuel Johnson's English from Le Grand's French (1735)",
+     "file": "cic/texts/lobo_voyage-to-abyssinia_johnson1735.txt",
+     "lines": "1667-1669",
+     "locus": "Lobo's introduction",
+     "quote": "Sultan Segued, who called us into his dominions in the year 1625, from whence we were expelled in 1634.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jerome Lobo, S.J., A Voyage to Abyssinia, Samuel Johnson's English from Le Grand's French (1735)",
+     "file": "cic/texts/lobo_voyage-to-abyssinia_johnson1735.txt",
+     "lines": "3657-3658",
+     "locus": "the expulsion",
+     "quote": "At length they came to a resolution of giving us up to the Turks,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Hiob Ludolf, A New History of Ethiopia, English of J. P. (London, 1682)",
+     "file": "cic/texts/ludolf_new-history-of-ethiopia_jp1682.txt",
+     "lines": "10027-10030",
+     "locus": "Book III, on Susenyos and the Jesuits",
+     "quote": "For the Nobility of the Kingdom! took it in great disdain to: see their Ancient Reli- gion chang'd; atid-that - the Patriarch of Alexandria should be deserted",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "fre": 75.4,
+   "fk": 6.6,
+   "change_reason": "R1-12(4): Ludolf's '(file ...)' moved into the file field, with a locus and quote (lines 10027-10030: the nobles' anger that the patriarch of Alexandria was deserted). Note and grade unchanged."
+  },
+  {
+   "id": "the-society-of-jesus--ethiopian-christianity-gragn-to-fasilides",
+   "action": "rewrite",
+   "from": "the-society-of-jesus",
+   "to": "ethiopian-christianity-gragn-to-fasilides",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Jesuit priests argued against Ethiopian teaching in public debates. A Jesuit history says the emperor, won over, let all his people take up 'the Faith the Fathers preach'd'. It adds that many great men took the Catholic faith in public.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Balthazar Telles, The Travels of the Jesuits in Ethiopia (English, London 1710)",
+     "file": "cic/texts/telles_travels-of-the-jesuits-in-ethiopia_1710.txt",
+     "lines": "15957-15959",
+     "locus": "Book II, the emperor's conversion",
+     "quote": "The Emperor, and many more be- ing now convinc'd of the Truth ot the Catholick Faith, aud many great Men publickly professing it.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Balthazar Telles, The Travels of the Jesuits in Ethiopia (English, London 1710)",
+     "file": "cic/texts/telles_travels-of-the-jesuits-in-ethiopia_1710.txt",
+     "lines": "15971-15973",
+     "locus": "Book II, the emperor's conversion",
+     "quote": "Proclamation should be made, to give Leave to all Per- sous to embrace the Faith the Fathers preach d, and had been justi- yd in the publick Disputations, which was accordingly done.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Hiob Ludolf, A New History of Ethiopia, English of J. P. (London, 1682)",
+     "file": "cic/texts/ludolf_new-history-of-ethiopia_jp1682.txt",
+     "lines": "10018-10022",
+     "locus": "Book III, on Susenyos and the Jesuits",
+     "quote": "About the same time Peter Pays a Jesuic; arriving in Ha- bessmia, at the Request of the King went to Court, and so oblig'd him with several Discourses concerning Martcers as well Ecclesiastical as Civil , that at farst privately, chen publickly he embrac'd the Latin Religion,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "outcome_considered": "The emperor's decrees for the Catholic faith followed the debates, but his own proclamation of 1632 reversed them and no decree lasted. The lasting rupture is carried by the separate 'broke with' link. A bishop's excommunication of converts does not count.",
+   "fre": 64.3,
+   "fk": 7.6,
+   "change_reason": "R1-12(4): Ludolf's '(file ...)' moved into the file field, with a locus and quote (lines 10018-10022: Paez's discourses win the king to the Latin faith). Note and grade unchanged."
+  },
+  {
+   "id": "church-of-the-east-schism-of-1552--church-of-the-east-chaldean-consolidation",
+   "action": "rewrite",
+   "from": "church-of-the-east-schism-of-1552",
+   "to": "church-of-the-east-chaldean-consolidation",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "Two patriarchs of the Church of the East still ruled in the 1800s, one in the Hakkari mountains and one on the plain near Mosul. English visitors writing in 1852 and 1892 traced both to the disputed election of the sixteenth century. Later writers disagree about which line came from Sulaqa.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "George Percy Badger, The Nestorians and their Rituals, vol. 1 (1852), chap. XI",
+     "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+     "lines": "7901-7903",
+     "locus": "chap. XI",
+     "quote": "According  to  their  account,  this  Shimoon  was  recognized  by them,  and  from  him  the  patriarchate  has  descended  to  the  pre- sent occupant  Mar  Shimoon,  the  eleventh  of  that  name.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. J. Maclean and W. H. Browne, The Catholicos of the East and his People (1892), Introductory",
+     "file": "cic/texts/maclean-browne_catholicos-of-the-east-and-his-people_1892.txt",
+     "lines": "807-809",
+     "locus": "Introductory",
+     "quote": "A disputed succession to the patriarchate divided them into two parts in the sixteenth century.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. J. Maclean and W. H. Browne, The Catholicos of the East and his People (1892), Introductory",
+     "file": "cic/texts/maclean-browne_catholicos-of-the-east-and-his-people_1892.txt",
+     "lines": "815-818",
+     "locus": "Introductory",
+     "quote": "This last body, after many fluctuations, has allied itself with the Church of Rome, and is known as the “ Uniat Chaldean Church.”",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "T. J. Lamy, appendix 'Primates Orientis' to Bar Hebraeus, Chronicon Ecclesiasticum, vol. 3, ed. Abbeloos and Lamy (Louvain, 1877), series III of the patriarchs, heading",
+     "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt",
+     "lines": "29300-29302",
+     "locus": "Primates Orientis, series III, heading",
+     "quote": "III. Series patriarcharum Chaldceorum S. Sedi unitorum et recentiorum Nestorianorum .",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "T. J. Lamy, appendix 'Primates Orientis' to Bar Hebraeus, Chronicon Ecclesiasticum, vol. 3, ed. Abbeloos and Lamy (Louvain, 1877), series III, first entry",
+     "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt",
+     "lines": "29309-29310",
+     "locus": "Primates Orientis, series III, Sulaka",
+     "quote": "Joannes Sulaka, alias Siud vel Said, ab anno 1551-1555.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. A. Wigram, The Assyrians and their Neighbours (1929), chap. VII",
+     "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+     "lines": "7459-7461",
+     "locus": "chap. VII",
+     "quote": "Thereafter, there were two lines of Patriarchs of the East, the ‘“‘Shimun” line in the mountains, and the ‘‘Elia” line in the plain.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "fre": 64.2,
+   "fk": 8.4,
+   "change_reason": "R1-12(4): Lamy's '(file ..., lines 29078-29460)' replaced by two loci with quotes: the heading of series III, which runs Sulaka's line on to the 'recentiorum Nestorianorum' (the side of the disagreement the note names), and Sulaka's entry. Note and grade unchanged."
+  },
+  {
+   "id": "the-english-reformation-and-elizabethan-settleme--the-tridentine-church",
+   "action": "rewrite",
+   "from": "the-english-reformation-and-elizabethan-settleme",
+   "to": "the-tridentine-church",
+   "type": "broke with",
+   "confidence": "Documented",
+   "note": "Henry VIII's orders of 1536 told the clergy to keep the laws that ended the Pope's 'usurped power' in England. Under Mary I, in 1555, London parishes prayed for the Pope again. In 1562 John Jewel wrote that the English had left Rome and gave thanks for it. In 1570 Pope Pius V cut Elizabeth off from the church.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "First Royal Injunctions of Henry VIII (1536), in Visitation Articles and Injunctions, vol. II, ed. W. H. Frere and W. M. Kennedy (1910)",
+     "file": "cic/texts/church-of-england_visitation-articles-injunctions-v2-1536-1558_frere-kennedy1910.txt",
+     "lines": "458-461",
+     "locus": "First Royal Injunctions (1536), 1",
+     "quote": "all and singular laws and statutes1 of this realm made for the abolishing and extirpation of the Bishop of Rome's pretensed and usurped power and jurisdiction within this realm,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Edmund Bonner, Injunctions for London Diocese (1555), the form of bidding prayer, in Visitation Articles and Injunctions, vol. II, ed. Frere and Kennedy (1910)",
+     "file": "cic/texts/church-of-england_visitation-articles-injunctions-v2-1536-1558_frere-kennedy1910.txt",
+     "lines": "18839-18841",
+     "locus": "Bonner's Injunctions (1555), bidding prayer",
+     "quote": "the good estate of our most holy father the Pope, Paul the fourth of that name, with the whole college of Cardinals,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius V, Regnans in Excelsis (1570), English column, in Thomas Barlow, Brutum Fulmen (1681)",
+     "file": "cic/texts/barlow_brutum-fulmen_1681.txt",
+     "lines": "2779-2783",
+     "locus": "Regnans in Excelsis, section 3",
+     "quote": "declare the aforefaid Elszabeth , being an Heretick,. and a favourer of Hereticks, and her Adherents in the matters aforefaid, to:have incurred the fen- tence of Anathema’, and to be cut off fromthe Unity of the",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Jewel, The Apology of the Church of England (1562), trans. Anne Bacon (1564), ed. Henry Morley (1888)",
+     "file": "cic/texts/jewel_apology-of-the-church-of-england_bacon-morley1888.txt",
+     "lines": "2573-2575",
+     "locus": "Apology, Part IV",
+     "quote": "It is true; we have departed from them, and for so doing we both give thanks to Almighty God, and greatly rejoice on our own behalf.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "fre": 77.5,
+   "fk": 5.9,
+   "change_reason": "R1-13: the 28-word last sentence split in two (proposed text). Sources and grade unchanged."
+  },
+  {
+   "id": "the-english-reformation-and-elizabethan-settleme--recusant-english-catholicism",
+   "action": "rewrite",
+   "from": "the-english-reformation-and-elizabethan-settleme",
+   "to": "recusant-english-catholicism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "The Act of Uniformity of 1559 fined anyone who stayed away from the parish church twelve pence each time. In January 1586 a London court found priests guilty of treason. They had been made priests in France by the Pope's authority and had then stayed in England.",
+   "outcome": "In 1586 London courts found priests guilty of treason under a law of the last parliament. Their crime was being made priests abroad and then staying in England.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Act of Uniformity (1559), in Liturgical Services of the Reign of Queen Elizabeth, ed. W. K. Clay (1847)",
+     "file": "cic/texts/church-of-england_liturgical-services-elizabeth-1559_clay1847.txt",
+     "lines": "2859-2861",
+     "locus": "Act of Uniformity (1559)",
+     "quote": "And also upon pain that every person so offending shall forfeit for every such offence .xii. d. to be levied by the Churchwardens of the parish,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Record of the sessions of oyer and terminer at the Old Bailey, 19 January 1585 [1586], in Unpublished Documents relating to the English Martyrs, vol. I, ed. J. H. Pollen (Catholic Record Society, 1908)",
+     "file": "cic/texts/catholic-record-society_unpublished-documents-english-martyrs-v1_pollen1908.txt",
+     "lines": "15384-15386",
+     "locus": "Document XLIII",
+     "quote": "Nicholas Devorax alias Woodfen condempned for treason in being made a Seminarie priest at Reymes in ffrance by authoritie of the B. of Rome",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "outcome_locus": "Unpublished Documents relating to the English Martyrs I (Pollen 1908), lines 15381-15402: the Old Bailey sessions of January and April 1586.",
+   "fre": 73.2,
+   "fk": 6.8,
+   "change_reason": "R1-13: the 26-word sentence split. R1-16: the outcome no longer opens 'Under the new law' with no law named; it names the law of the last parliament, as the Old Bailey record does (lines 15385-15388)."
+  },
+  {
+   "id": "the-tridentine-church--the-humiliati",
+   "action": "rewrite",
+   "from": "the-tridentine-church",
+   "to": "the-humiliati",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1571 Pope Pius V shut down the order of Humiliati brothers by bull. The bull names Cardinal Charles Borromeo as the order's protector, sent to reform it. The bull did not cover the women's houses.",
+   "outcome": "The bull put an end to the order of Humiliati brothers. It did away with its offices, its rules and its rights.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius V, bull abolishing the Order of the Humiliati, 1571, in Cherubini, Magnum bullarium Romanum, vol. 2",
+     "file": "cic/texts/bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini.txt",
+     "lines": "92832-92835",
+     "locus": "Bullarium Romanum 2, Pius V, const. 119",
+     "quote": "extinguimus & abolemus Ordinem pradi- &ortm Fratrum Humiliatorum",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius V, bull abolishing the Order of the Humiliati, 1571, in Cherubini, Magnum bullarium Romanum, vol. 2",
+     "file": "cic/texts/bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini.txt",
+     "lines": "92588-92591",
+     "locus": "Bullarium Romanum 2, Pius V, const. 119, § 1",
+     "quote": "CA- ROLUS Tit. S. Praxedis presbyter Cardinalis Bor- romaus hujus Ordinis Prote&or, & Apoftolice Se- dis delegatus",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Catholic Encyclopedia, vol. 7 (1910), 'Humiliati' (newadvent.org/cathen/07543a.htm)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "outcome_locus": "Bullarium Romanum 2, Pius V const. 119, lines 92832-92843 ('extinguimus & abolemus Ordinem ... Fratrum Humiliatorum, & officium Praepositi Generalis ... necnon omnia & quaecumque statuta ... & pariter privilegia & indulta'), within twelve lines of the listed quote.",
+   "fre": 66.9,
+   "fk": 6.8,
+   "change_reason": "R1-16: the outcome repeated the note word for word and did not name the result; it now names it (the order, its offices, rules and rights abolished), from the bull's lines 92832-92843."
+  },
+  {
+   "id": "ambrosian-milan-standalone--tridentine-parish-renewal-borromean-milan",
+   "action": "rewrite",
+   "from": "ambrosian-milan-standalone",
+   "to": "tridentine-parish-renewal-borromean-milan",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "Borromeo's biographer says Milan had always kept the Ambrosian rite. Borromeo revised its Missal and let no one depart from it, because it was so old. Augustine says Ambrose's church began to sing hymns 'after the manner of the Eastern Church.' How much of the later rite goes back to Ambrose is unclear.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Giovanni Pietro Giussano, The Life of St. Charles Borromeo (Italian 1610; English version, 1884)",
+     "file": "cic/texts/giussano_life-of-st-charles-borromeo-v1_1884.txt",
+     "lines": "19307-19309",
+     "locus": "Book IV (1577, the first Sunday of Lent)",
+     "quote": "The Church of Milan, which has always kept to the Ambrosian rite, had never changed the original prac- tice.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Giovanni Pietro Giussano, The Life of St. Charles Borromeo (Italian 1610; English version, 1884)",
+     "file": "cic/texts/giussano_life-of-st-charles-borromeo-v2_1884.txt",
+     "lines": "11891-11895",
+     "locus": "Book VIII (his care for worship)",
+     "quote": "He reformed the Ambrosian Missal, and was par- ticular in observing that rite himself, and reviving its ancient glory, and would not allow any deviation from it, on account of its antiquity",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Augustine, Confessions IX.7.15, NPNF 1st ser. vol. 1",
+     "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+     "lines": "13770-13773",
+     "locus": "Conf. IX.7.15",
+     "quote": "At this time it was instituted that, after the manner of the Eastern Church, hymns and psalms should be sung, lest the people should pine away in the tediousness of sorrow;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "outcome_considered": "Borromeo's revision of the Ambrosian Missal is Milan's own liturgical act; it keeps an inherited rite rather than resulting from any act of Ambrose's Milan, and the descent of the rite from Ambrose's day is itself uncertain.",
+   "fre": 69.4,
+   "fk": 6.9,
+   "change_reason": "R1-17: 'in 386' removed; Augustine's quoted lines say only 'At this time'. The note now quotes what he says."
+  },
+  {
+   "id": "the-tridentine-church--the-anabaptist-movements",
+   "action": "rewrite",
+   "from": "the-tridentine-church",
+   "to": "the-anabaptist-movements",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In March 1547 the Council of Trent condemned anyone who said that those baptized as babies must be baptized again as adults. The canon does not name the Anabaptists. A Mennonite martyr book quotes a writer who says they were hunted 'first especially in popedom.' It says about six hundred died at Ensisheim alone.",
+   "outcome": "In March 1547 the Council of Trent condemned all who taught that a child baptized at birth must be baptized again.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Council of Trent, Session VII (3 March 1547), in The Canons and Decrees of the Council of Trent, trans. J. Waterworth (1848)",
+     "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt",
+     "lines": "14055-14057",
+     "locus": "Session VII, heading",
+     "quote": "SESSION THE SEVENTH, Celebrated on the third day of the month of March, MDXLVII.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Council of Trent, Session VII (3 March 1547), in The Canons and Decrees of the Council of Trent, trans. J. Waterworth (1848)",
+     "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt",
+     "lines": "14242-14246",
+     "locus": "Session VII, Canons on Baptism, canon XIII",
+     "quote": "If anyone saith that little children, for that they have not actual faith,* are not, after having received bap tism, to be reckoned amongst the faithful ; and that, for this cause, they are to be rebaptised when they have attained to years of discretion ;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Thieleman J. van Braght, The Bloody Theater, or Martyrs Mirror (1660), trans. Joseph F. Sohm (1886)",
+     "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+     "lines": "60490-60491",
+     "locus": "Martyrs Mirror, note after the account of the early martyrs",
+     "quote": "were persecuted with great tyranny; first especially in popedom.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Thieleman J. van Braght, The Bloody Theater, or Martyrs Mirror (1660), trans. Joseph F. Sohm (1886)",
+     "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+     "lines": "60497-60499",
+     "locus": "Martyrs Mirror, same note",
+     "quote": "They were put to death in many places ; at Ensis- heim alone about six hundred were slain,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Thieleman J. van Braght, The Bloody Theater, or Martyrs Mirror (1660), trans. Joseph F. Sohm (1886)",
+     "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+     "lines": "58939-58942",
+     "locus": "Martyrs Mirror, Michael Sattler (1527), the sentence",
+     "quote": "In the case of the Governor of his Imperial Majesty versus Michael Sattler, judgment is passed, that Michael Sattler shall be delivered to the executioner,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "outcome_locus": "Waterworth, Canons and Decrees of Trent, lines 14055-14057 (Session VII, 3 March 1547) and 14242-14248 (canon XIII on baptism).",
+   "fre": 61.5,
+   "fk": 8.0,
+   "change_reason": "R1-18: the note no longer folds the martyr book into Trent's act. The Martyrs Mirror lines are now attributed as the compiler quoting another writer; the Documented grade stands on canon XIII, which condemns the rebaptizing that gives the group its name. Outcome unchanged."
+  },
+  {
+   "id": "the-english-reformation-and-elizabethan-settleme--family-of-love-and-spiritualists-franck-niclaes",
+   "action": "rewrite",
+   "from": "the-english-reformation-and-elizabethan-settleme",
+   "to": "family-of-love-and-spiritualists-franck-niclaes",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1579 the English preacher John Knewstub printed an attack on the Family of Love. That same year, John Strype later wrote, the bishop of Norwich hunted Familists and put some in prison. A 1606 reply to the Familists notes royal orders issued against their founder.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Knewstub, A Confutation of monstrous and horrible Heresies, taught by H. N. and embraced of a number, who call themselves the Familie of Loue (London, 1579)",
+     "file": "cic/texts/knewstub-john_confutation-of-monstrous-heresies-familie-of-loue_dawson1579.txt",
+     "lines": "1066-1068",
+     "locus": "Knewstub, Confutation, opening",
+     "quote": "Ofthis sort are the ynlouely companie of them that call themselues the Familie of loue,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A Supplication of the Family of Love ... examined and confuted (1606)",
+     "file": "cic/texts/family-of-love_supplication-examined-and-confuted_1606.txt",
+     "lines": "1373-1375",
+     "locus": "Supplication examined, 'The Examination' of one section",
+     "quote": ". Proclamations hauecomeourexprelly against H. N.and his scandalous inventions;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John Strype, Annals of the Reformation, vol. II, part II (1824 Oxford ed.)",
+     "file": "cic/texts/strype_annals-of-the-reformation-v2-pt2_1824.txt",
+     "lines": "14914-14918",
+     "locus": "Book II, ch. XVII, anno 1579",
+     "quote": "The sect called the family of love appeared"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Thomas Fuller, The Church History of Britain, vol. IV, ed. J. S. Brewer (1845), editor's footnote on the proclamation against the Family of Love",
+     "locus": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "outcome_considered": "The listed lines show a confutation, one bishop's imprisonments and a passing mention of proclamations. The text of the 1580 proclamation is not among them, and one bishop's acts do not meet the test.",
+   "fre": 65.0,
+   "fk": 7.8,
+   "change_reason": "R1-20: Fuller is not vendored and was not read, so it stays named-not-rechecked and its year 1580 is no longer stated in the prose (prose changes). Its locus string 'cited in Build/worlds/... line 63' was build narration, so the locus is cleared and the work string no longer asserts the year. Note and grade unchanged; the 1580 proclamation stays in wants."
+  },
+  {
+   "id": "st-thomas-christians-under-portuguese-pressure-d--northeast-india-revivals-and-the-mar-thoma-refor",
+   "action": "rewrite",
+   "from": "st-thomas-christians-under-portuguese-pressure-d",
+   "to": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "In 1787 'all the Church people of Malankara' signed a document recalling their forefathers' oath at Mattancherry. In 1869 a priest of the Great Church at Kottayam told the same story of his church. He wrote that a bishop from Antioch won back 'the now existing Syrian churches' after 1685.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Document of the Church people of Malankara assembled at Angamaly, 1 February 1787, in English translation, printed in Thomas Whitehouse, Lingerings of Light in a Dark Land (1873), Appendix E",
+     "file": "cic/texts/whitehouse_lingerings-of-light-in-a-dark-land_1873.txt",
+     "lines": "19286-19289",
+     "locus": "Appendix E, heading",
+     "quote": "THE DOCUMENT signed by all the Church people of Malankara (beginning with Angamdle) who were assembled in the Large Church of Anga- mdle, on the first of February (old reckoning) in the year of our Lord, 1787,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Document of the Church people of Malankara assembled at Angamaly, 1 February 1787, in English translation, printed in Thomas Whitehouse, Lingerings of Light in a Dark Land (1873), Appendix E",
+     "file": "cic/texts/whitehouse_lingerings-of-light-in-a-dark-land_1873.txt",
+     "lines": "19303-19305",
+     "locus": "Appendix E",
+     "quote": "Upon this our forefathers assembled at Muttan- cherry, and took an oath that neither they themselves, nor their descendants, should ever have anything to do with the Paulists.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Edavalikel Philipos, The Syrian Christians of Malabar, ed. G. B. Howard (1869), answer to Q. 69",
+     "file": "cic/texts/philipos_syrian-christians-of-malabar_howard1869.txt",
+     "lines": "2159-2161",
+     "locus": "Q. 69",
+     "quote": "After  this,  in  1685,  Mar  Evanious  the  Bishop  came from  Antioch,  and  with  much  difficulty  redeemed  the  now existing  Syrian  churches  from  the  Portuguese;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Thomas Whitehouse, Lingerings of Light in a Dark Land (1873), narrative chapter on the Syrian church after 1653",
+     "file": "cic/texts/whitehouse_lingerings-of-light-in-a-dark-land_1873.txt",
+     "lines": "9991-9994",
+     "locus": "narrative, the oath at Muttancherry",
+     "quote": "Upon this their fore- fathers assembled at Muttancherry, and there took a solemn oath that neither they, nor their descendants, would have anything more to do with the Paulists;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "George Broadley Howard, The Christians of St. Thomas and their Liturgies (1864), chap. III",
+     "file": "cic/texts/howard_christians-of-st-thomas-and-their-liturgies_1864.txt",
+     "lines": "3054-3058",
+     "locus": "chap. III, the oath of 1653",
+     "quote": "in the year 1653, fifty- four years after the Synod of Diamper had been held, a number of their leading men assembled in the church of Alan ghat, and there solemnly bound themselves by oath,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "fre": 63.1,
+   "fk": 8.3,
+   "change_reason": "R1-21: Whitehouse and Howard now carry a locus and quote each (Whitehouse 9991-9994, the oath at Muttancherry; Howard 3054-3058, the oath of 1653), so a reader can see they were read. Note and grade unchanged."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "kongo-christianity-afonso-to-1650",
+   "field": "relationsSummary",
+   "old": "Grew from the Portuguese mission of 1491. In 1547 Portugal sent Jesuits to help its bishop. The prophetic movement of Dona Beatriz, from 1704, later grew out of it.",
+   "new": "Grew from the Portuguese mission of 1491. In 1547 Portugal sent Jesuits to help its bishop. The prophetic movement of Dona Beatriz, from 1704, may have grown out of it, as one modern study holds.",
+   "reason": "R1-02: the Dona Beatriz sentence stated as fact a tie that rests on one unread modern study (link now Inferential-Thin). Reviewer's wording.",
+   "fre_after": 71.8,
+   "fk_after": 5.9
+  },
+  {
+   "n": 1,
+   "movement": "kirishitan-japan",
+   "field": "relationsSummary",
+   "old": "Grew from the Jesuit mission of 1549; the prohibition of 1614 drove its communities underground, where hidden believers kept a transmitted faith for roughly two hundred and fifty years without a priest.",
+   "new": "Grew from the Jesuit mission of 1549. The ban of 1614 drove its communities underground. Later studies hold that hidden believers kept the faith for about two hundred and fifty years without a priest.",
+   "reason": "R1-03: the 250-year hidden survival rests on modern studies not read here (link now Inferential-Thin); qualified. Reviewer's wording; it also splits a 33-word sentence.",
+   "fre_after": 69.1,
+   "fk_after": 6.3
+  },
+  {
+   "n": 2,
+   "movement": "kirishitan-japan",
+   "field": "why",
+   "old": "In Japan, a Jesuit mission from 1549 gathered a large Christian population before a savage prohibition drove the survivors underground. Hidden believers kept a transmitted faith alive for roughly two hundred and fifty years without a single priest, and their villages are now a World Heritage site.",
+   "new": "In Japan, a Jesuit mission from 1549 gathered a large Christian population. Then a savage ban drove the survivors underground. Later studies hold that hidden believers kept the faith alive for about 250 years with no priest at all. Their villages are now a World Heritage site.",
+   "reason": "R1-03: same qualifier as the relationsSummary. The old field scored FRE 38.2, so the whole paragraph is split into shorter sentences to reach the target; facts unchanged.",
+   "fre_after": 63.8,
+   "fk_after": 7.2
+  },
+  {
+   "n": 3,
+   "movement": "kirishitan-japan",
+   "field": "teaser",
+   "old": "Japan, 1549 to 1650: a church that grew fast, was outlawed, and survived underground for two and a half centuries.",
+   "new": "Japan, 1549 to 1650: a church that grew fast, was outlawed and went underground. Later studies hold it lasted there for two and a half centuries.",
+   "reason": "R1-03 (two-way): the teaser stated the same unread claim ('survived underground for two and a half centuries') as fact. Not one of the four relationship fields, but public text on the same claim; qualified the same way.",
+   "fre_after": 74.8,
+   "fk_after": 5.8
+  },
+  {
+   "n": 4,
+   "movement": "mission-born-christianities-kirishitan-japan-kon",
+   "field": "why",
+   "old": "In Kongo, King Afonso I adopted the faith and left letters in his own voice; in Japan, a savage prohibition drove Christian communities underground, where hidden believers kept a transmitted faith alive for roughly two hundred and fifty years without a single priest. Almost everything else written about these communities came from missionaries' own pens, which makes whose story survives — the mission's or the converts' — a real and open question.",
+   "new": "In Kongo, King Afonso I took up the faith and left letters in his own voice. In Japan, a savage ban drove Christian communities underground. Later studies hold that hidden believers kept the faith alive there for two and a half centuries, with no priest. Almost everything else about these communities was written by missionaries. So whose story survives, the mission's or the converts', is a real and open question.",
+   "reason": "R1-03 (two-way): the label's why states the same hidden-survival claim as fact; the reviewer named the legacy but this field carries it too. Qualified. The old field scored FRE 28.7, so it is split into shorter sentences; facts unchanged.",
+   "fre_after": 60.9,
+   "fk_after": 8.2
+  },
+  {
+   "n": 5,
+   "movement": "mission-born-christianities-kirishitan-japan-kon",
+   "field": "legacy",
+   "old": "These are among the first steps of Christianity as a faith of the whole world, and several of them were never broken. The hidden Christians of Japan kept a faith handed down for about two hundred and fifty years with no priests. Their villages are now a UNESCO World Heritage site. Latin American and Philippine Catholicism grew straight out of this time, with their processions, brotherhoods and local saints. Kongo's Christians may also have shaped the beliefs of enslaved Africans in the Americas. But the writings of this time do not show it.",
+   "new": "These are among the first steps of Christianity as a faith of the whole world, and several of them were never broken. Later studies hold that the hidden Christians of Japan kept a faith handed down for about two hundred and fifty years with no priests. Their villages are now a UNESCO World Heritage site. Latin American and Philippine Catholicism grew straight out of this time, with their processions, brotherhoods and local saints. Kongo's Christians may also have shaped the beliefs of enslaved Africans in the Americas. But the writings of this time do not show it.",
+   "reason": "R1-03: qualifier on the hidden-believers sentence, as the reviewer asked.",
+   "fre_after": 61.3,
+   "fk_after": 8.7
+  },
+  {
+   "n": 6,
+   "movement": "the-anabaptist-movements",
+   "field": "relationsSummary",
+   "old": "Lutheran, Reformed and Catholic churches all condemned them. Catholic lands hunted them hardest. They led the way for the free churches that came later, such as the Baptists.",
+   "new": "Lutheran, Reformed and Catholic churches all condemned them. Catholic lands hunted them hardest. Later free churches such as the Baptists shared some of their beliefs. How much they owed them is still argued.",
+   "reason": "R1-10: 'They led the way for the free churches' stated a Contested tie as fact; the drafted 'qualify' disposition was never carried out. Reviewer's wording.",
+   "fre_after": 62.6,
+   "fk_after": 6.6
+  },
+  {
+   "n": 7,
+   "movement": "the-reformed-cities-zurich-and-geneva",
+   "field": "legacy",
+   "old": "Reformed and Presbyterian churches around the world descend from these two cities. Four traditions shown on their own on this map took their pattern from them. They are the Scottish Kirk, the Huguenots, the Dutch Reformed and English Puritanism. Beyond belief, the everyday heritage is a style. The churches are plain and whitewashed, with the pulpit in the middle. Whole congregations sing the psalms in their own tongue. And elected elders lead the church, not bishops.",
+   "new": "Reformed and Presbyterian churches around the world descend from these two cities. Four traditions took their pattern from them. They are the Scottish Kirk, the Huguenots, the Dutch Reformed and English Puritanism. Beyond belief, the everyday heritage is a style. The churches are plain and whitewashed, with the pulpit in the middle. Whole congregations sing the psalms in their own tongue. And elected elders lead the church, not bishops.",
+   "reason": "R1-12(5): 'shown on their own on this map' was build narration. Reviewer's wording.",
+   "fre_after": 60.7,
+   "fk_after": 7.2
+  },
+  {
+   "n": 8,
+   "movement": "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "field": "relationsSummary",
+   "old": "A communion born inside an argument, where the pull between East and West was part of daily life. It was the sibling and rival of the Kyiv-Mohyla Orthodox revival. Its line runs on to the Lviv underground church of the twentieth century.",
+   "new": "A communion born inside an argument, where the pull between East and West was part of daily life. It was the sibling and rival of the Kyiv-Mohyla Orthodox revival. Its line runs on into the Greek Catholic church of the eighteenth century.",
+   "reason": "R1-09(b): the twentieth-century Lviv clause had no link and no source; the line is now drawn to the next period only (new 'continued as' link to ruthenian-uniate-18th-century). The legacy field still tells the later survival.",
+   "fre_after": 66.4,
+   "fk_after": 7.6
+  },
+  {
+   "n": 9,
+   "movement": "family-of-love-and-spiritualists-franck-niclaes",
+   "field": "longDescription",
+   "old": "Some of the Reformation's most radical figures concluded that no visible church was worth joining at all. Sebastian Franck, a former priest turned printer and chronicler, held that the true church had been invisible since the apostles and that God's word was spoken inwardly to individuals of every nation. Hendrik Niclaes, a merchant in the Low Countries, went further and founded one. The Family of Love, a secretive fellowship whose members were expected to conform outwardly to whatever church their country required while holding their real convictions inside. Familists were hunted by royal proclamation in England in 1580. And precisely because they conformed so well, historians still argue about how many there were and how long they lasted.",
+   "new": "Some of the Reformation's most radical figures decided that no visible church was worth joining at all. Sebastian Franck, a former priest who became a printer and chronicler, held that the true church had been hidden since the apostles. God's word, he said, spoke inwardly to people of every nation. Hendrik Niclaes, a merchant in the Low Countries, went further and founded a fellowship of his own. This was the Family of Love, a secret group whose members outwardly obeyed whatever church their country required. They kept their real beliefs to themselves. Familists were hunted by royal proclamation in England. And because they blended in so well, historians still argue about how many there were and how long they lasted.",
+   "reason": "R1-20: the year 1580 rested only on Fuller's editor (not vendored, not read), so it is dropped, as the reviewer proposed. The old field scored FRE 45.3 and held a sentence fragment ('The Family of Love, a secretive fellowship ...', listed in R1-19), so the paragraph is re-split to reach the target; facts unchanged.",
+   "fre_after": 61.2,
+   "fk_after": 8.5
+  },
+  {
+   "n": 10,
+   "movement": "family-of-love-and-spiritualists-franck-niclaes",
+   "field": "why",
+   "old": "Sebastian Franck concluded that the true church had been invisible since the apostles, with God's word spoken inwardly to people of every nation rather than housed in any institution. Hendrik Niclaes went further and built a secret fellowship, the Family of Love, whose members conformed outwardly to whatever church their country demanded while keeping their real convictions hidden — so well hidden that England hunted them by royal proclamation in 1580.",
+   "new": "Sebastian Franck decided that the true church had been hidden from sight since the apostles. To him, God's word spoke inwardly to people of every nation, not through any church. Hendrik Niclaes went further and built a secret group, the Family of Love. Its members outwardly obeyed whatever church their land required, but kept their real beliefs to themselves. They hid them so well that England hunted them by royal proclamation.",
+   "reason": "R1-20: year 1580 dropped, as above. The old field scored FRE 24.7 (two sentences of 30 and 42 words), so it is re-split; facts unchanged.",
+   "fre_after": 64.9,
+   "fk_after": 7.7
+  }
+ ],
+ "dispositions_changed": [
+  {
+   "drafting_record_index": 266,
+   "movement": "russian-church-stoglav-to-nikon",
+   "field": "relationsSummary",
+   "sentence": "What followed — Patriarch Nikon's liturgical reforms of the 1650s and the resulting schism — belongs to the next chapter of this story.",
+   "other_id": "russian-church-nikon-to-holy-synod",
+   "old_disposition": "out-of-scope",
+   "disposition": "link",
+   "link_id": "russian-church-stoglav-to-nikon--russian-church-nikon-to-holy-synod",
+   "prose_change": null,
+   "reason": "R1-09(a): one end is era 7, so it is in scope. Carried by the new 'continued as' link (Paul of Aleppo; Ligarides)."
+  },
+  {
+   "drafting_record_index": 267,
+   "movement": "russian-church-stoglav-to-nikon",
+   "field": "longDescription",
+   "sentence": "All of this stands immediately before the liturgical corrections of the 1650s that would tear the church apart.",
+   "other_id": "the-old-believers",
+   "old_disposition": "out-of-scope",
+   "disposition": "link",
+   "link_id": "russian-church-stoglav-to-nikon--the-old-believers",
+   "prose_change": null,
+   "reason": "R1-09: one end is era 7, so it is in scope; the 'tear the church apart' sentence is carried by the existing link to the Old Believers (and the new continuation)."
+  },
+  {
+   "drafting_record_index": 245,
+   "movement": "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "field": "relationsSummary",
+   "sentence": "parent of the twentieth-century Lviv underground church",
+   "other_id": "the-ukrainian-greek-catholic-underground",
+   "old_disposition": "out-of-scope",
+   "disposition": "qualify",
+   "link_id": "the-union-of-brest-and-ruthenian-greek-catholic---ruthenian-uniate-18th-century",
+   "prose_change": 8,
+   "reason": "R1-09(b): in scope (one end era 7). The line is now drawn to the eighteenth-century church by a new 'continued as' link; the twentieth-century Lviv clause, which no source here carries, is removed."
+  },
+  {
+   "drafting_record_index": 253,
+   "movement": "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "field": "legacy",
+   "sentence": "Suppressed by the Russian Empire in the nineteenth century and again by the Soviet Union in 1946, the Ukrainian church survived underground and re-emerged in 1989",
+   "other_id": "the-ukrainian-greek-catholic-underground",
+   "old_disposition": "out-of-scope",
+   "disposition": "link",
+   "link_id": "the-union-of-brest-and-ruthenian-greek-catholic---ruthenian-uniate-18th-century",
+   "prose_change": null,
+   "reason": "R1-09: in scope (one end era 7). The later survival is carried by the continuation chain, starting with the new link to the eighteenth-century church; later steps belong to the era-8 and era-9 links."
+  },
+  {
+   "drafting_record_index": 278,
+   "movement": "armenian-christianity-new-julfa",
+   "field": "legacy",
+   "sentence": "The Armenian Apostolic Church continues, with Etchmiadzin still its mother see",
+   "other_id": "armenian-christianity-era-8",
+   "old_disposition": "not-a-relationship",
+   "disposition": "link",
+   "link_id": "armenian-christianity-new-julfa--armenian-christianity-era-8",
+   "prose_change": null,
+   "reason": "R1-09(c): a continuation the text names is a relationship. Carried by the new 'continued as' link (Zakaria; Ormanian)."
+  },
+  {
+   "drafting_record_index": null,
+   "movement": "orthodoxy-under-the-ottomans-parish-millet-and-n",
+   "field": "legacy",
+   "sentence": "This is the church that came through. The Ecumenical Patriarchate is still at the Phanar in Istanbul.",
+   "other_id": "orthodoxy-under-the-ottomans-1650-1821",
+   "old_disposition": null,
+   "disposition": "link",
+   "link_id": "orthodoxy-under-the-ottomans-parish-millet-and-n--orthodoxy-under-the-ottomans-1650-1821",
+   "prose_change": null,
+   "reason": "R1-09(d): no disposition existed. Carried by the new 'continued as' link (Synod of Jerusalem, 1672)."
+  },
+  {
+   "drafting_record_index": null,
+   "movement": "the-tridentine-church",
+   "field": "legacy",
+   "sentence": "That framework governed Catholic life until the Second Vatican Council of 1962-65 revised it",
+   "other_id": "catholic-church-ancien-regime",
+   "old_disposition": null,
+   "disposition": "link",
+   "link_id": "the-tridentine-church--catholic-church-ancien-regime",
+   "prose_change": null,
+   "reason": "R1-09(e): carried into the next period by the new 'continued as' link (Paris assembly, 1699); the step to Vatican II stays on the existing Inferential-Thin link."
+  },
+  {
+   "drafting_record_index": 31,
+   "movement": "the-anabaptist-movements",
+   "field": "relationsSummary",
+   "sentence": "Persecuted by Lutheran, Reformed, and Catholic traditions alike - a loud tension in the sources; parent of the free-church line",
+   "other_id": "the-baptists",
+   "old_disposition": "qualify",
+   "disposition": "qualify",
+   "link_id": "the-anabaptist-movements--the-baptists",
+   "prose_change": 6,
+   "reason": "R1-10: the qualification is now carried out in the text."
+  },
+  {
+   "drafting_record_index": 210,
+   "movement": "kongo-christianity-afonso-to-1650",
+   "field": "relationsSummary",
+   "sentence": "the later prophetic movement of Dona Beatriz (1704) is its own entry",
+   "other_id": "the-antonian-movement-in-kongo",
+   "old_disposition": "link",
+   "disposition": "qualify",
+   "link_id": "kongo-christianity-afonso-to-1650--the-antonian-movement-in-kongo",
+   "prose_change": 0,
+   "reason": "R1-02: link regraded to Inferential-Thin; the sentence now says 'may have grown out of it, as one modern study holds'."
+  },
+  {
+   "drafting_record_index": 214,
+   "movement": "kirishitan-japan",
+   "field": "relationsSummary",
+   "sentence": "where hidden believers kept a transmitted faith for roughly two hundred and fifty years without a priest",
+   "other_id": "japanese-christianity-hidden-emergence-meiji",
+   "old_disposition": "link",
+   "disposition": "qualify",
+   "link_id": "kirishitan-japan--japanese-christianity-hidden-emergence-meiji",
+   "prose_change": 1,
+   "reason": "R1-03: link regraded to Inferential-Thin; sentence qualified ('Later studies hold')."
+  },
+  {
+   "drafting_record_index": 216,
+   "movement": "kirishitan-japan",
+   "field": "why",
+   "sentence": "Hidden believers kept a transmitted faith alive for roughly two hundred and fifty years without a single priest",
+   "other_id": "japanese-christianity-hidden-emergence-meiji",
+   "old_disposition": "link",
+   "disposition": "qualify",
+   "link_id": "kirishitan-japan--japanese-christianity-hidden-emergence-meiji",
+   "prose_change": 2,
+   "reason": "R1-03: as above."
+  },
+  {
+   "drafting_record_index": 203,
+   "movement": "mission-born-christianities-kirishitan-japan-kon",
+   "field": "legacy",
+   "sentence": "The hidden Christians of Japan kept a transmitted faith for roughly two hundred and fifty years without priests",
+   "other_id": "japanese-christianity-hidden-emergence-meiji",
+   "old_disposition": "link",
+   "disposition": "qualify",
+   "link_id": "kirishitan-japan--japanese-christianity-hidden-emergence-meiji",
+   "prose_change": 5,
+   "reason": "R1-03: as above."
+  },
+  {
+   "drafting_record_index": null,
+   "movement": "mission-born-christianities-kirishitan-japan-kon",
+   "field": "why",
+   "sentence": "hidden believers kept a transmitted faith alive for roughly two hundred and fifty years without a single priest",
+   "other_id": "japanese-christianity-hidden-emergence-meiji",
+   "old_disposition": null,
+   "disposition": "qualify",
+   "link_id": "kirishitan-japan--japanese-christianity-hidden-emergence-meiji",
+   "prose_change": 4,
+   "reason": "R1-03 (two-way): the same claim in the label's why had no disposition; qualified."
+  }
+ ],
+ "for_open_gaps": [
+  "Outcome test, adoption by vote (2026-11-08, for Mark): does a church body adopting another side's confession, catechism or worship order by its own vote count as 'a rule ... changed by an authority' (major), or as 'a text taken up' (minor)? Era-7 review round 1 (R1-05) ruled it a text taken up. This revision dropped the four outcomes on lutheran--scandinavian (Uppsala 1593), geneva--scottish (General Assembly 1562), geneva--huguenots (Paris synod 1559) and geneva--dutch (Emden 1571). If Mark rules the class counts, all six links of the class get outcomes alike, including hieronymian--tridentine (Trent's Vulgate decree) and kyiv--ottoman (the patriarchs' 1643 decree on Mohyla's Confession).",
+  "Era-7 prose fragments (2026-11-08, R1-19, doc hygiene for the owning thread unless Mark folds it in): sentence fragments left by an earlier sentence split remain in Dutch longDescription, Remonstrants, Waldensian union, Czech, Zurich-Geneva longDescription (two), English Reformation longDescription (two), Scottish longDescription, Huguenots legacy, Recusant longDescription and legacy, Puritanism longDescription (two), Jesuits longDescription, Ottoman longDescription, Philippines longDescription, Kyiv-Mohyla longDescription (two), Carmelite longDescription (two) and Tridentine legacy. The Family of Love fragment is fixed in this revision because that field was rewritten for R1-20.",
+  "Era-7 long link notes (2026-11-08, R1-13): notes over the brief's three sentences that this revision did not otherwise touch, among them anabaptist--baptists (5) and puritanism--baptists (5), should be trimmed when next touched. The scandinavian-conversion note is now four sentences.",
+  "Era 6 and era 7 shared link ids (2026-11-08, R1-11): after this revision two of the eight shared ids match era 6 exactly (ethiopian-monastic--ethiopian, coe-timur--coe-schism). Six differ in note and sources though not in type or grade: rhineland--lutheran, hussite--czech, byzantine-palaiologan--ottoman, armenian-cilicia--new-julfa, st-thomas-1300--st-thomas, and waldensians--waldensian-union (equal before this revision; its note was rewritten here for R1-08 readability). One published id must hold one version, so whichever branch merges second must reconcile these six.",
+  "Era 6 and era 7 overlapping claims under different ids (2026-11-08): the era-6 branch carries era-6/era-7 links this branch does not (devotio-moderna--jesuits, english-mystics--recusant, english--late-medieval-lay-parish-piety, lollardy--english, hussite--lutheran, latin-papal--tridentine, muscovite-monastic--russian-stoglav), and this branch carries two era 6 does not (lutheran--latin-papal, franciscan-order-era-6--new-spain). The merge should check each pair for a duplicate or contradictory claim, e.g. latin-papal--tridentine (era 6) against lutheran--latin-papal (era 7).",
+  "Census validator (2026-11-08): tools/validate-census.mjs checks quotes only on primary sources, so secondary quotes with a locus (now kept by the R1-01 apply fix) go unchecked. All era-7 secondary quotes were checked by hand in this revision and pass. The validator should check secondary quotes too.",
+  "Wants carried from era-7 review round 1 (2026-11-08): John Thornton, The Kongolese Saint Anthony (1998), read at a locus (kongo--antonian is Inferential-Thin until then); Stephen Turnbull (1998) or Christal Whelan (1996) read at a locus (kirishitan--hidden-Christians); Kenneth Mills, Cambridge History of Christianity vol. 6 ch. 27 (new-spain--colonial); the English royal proclamation against the Family of Love (dated 1580 only by Fuller's editor)."
+ ],
+ "era6_shared": [
+  {
+   "id": "waldensians-in-the-alps--the-waldensian-reformed-union",
+   "equals_era6": false,
+   "differs_in": [
+    "note"
+   ],
+   "type_grade_same": true
+  },
+  {
+   "id": "rhineland-mysticism-and-the-friends-of-god--lutheran-wittenberg-and-its-congregations",
+   "equals_era6": false,
+   "differs_in": [
+    "note",
+    "sources"
+   ],
+   "type_grade_same": true
+  },
+  {
+   "id": "the-hussite-and-bohemian-brethren-movement--czech-churches-last-century",
+   "equals_era6": false,
+   "differs_in": [
+    "note",
+    "sources"
+   ],
+   "type_grade_same": true
+  },
+  {
+   "id": "byzantine-church-palaiologan--orthodoxy-under-the-ottomans-parish-millet-and-n",
+   "equals_era6": false,
+   "differs_in": [
+    "note",
+    "sources"
+   ],
+   "type_grade_same": true
+  },
+  {
+   "id": "armenian-cilicia-after-the-kingdom--armenian-christianity-new-julfa",
+   "equals_era6": false,
+   "differs_in": [
+    "note",
+    "sources"
+   ],
+   "type_grade_same": true
+  },
+  {
+   "id": "st-thomas-christians-1300-1517--st-thomas-christians-under-portuguese-pressure-d",
+   "equals_era6": false,
+   "differs_in": [
+    "note",
+    "sources"
+   ],
+   "type_grade_same": true
+  },
+  {
+   "id": "the-ethiopian-monastic-flowering--ethiopian-christianity-gragn-to-fasilides",
+   "equals_era6": true,
+   "differs_in": [],
+   "type_grade_same": true
+  },
+  {
+   "id": "church-of-the-east-timur-to-hakkari--church-of-the-east-schism-of-1552",
+   "equals_era6": true,
+   "differs_in": [],
+   "type_grade_same": true
+  }
+ ]
+}

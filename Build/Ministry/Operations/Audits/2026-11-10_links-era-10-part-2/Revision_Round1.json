@@ -1,0 +1,107 @@
+{
+ "round": 1,
+ "fixes": [
+  {
+   "finding": "R1-1",
+   "action": "fixed",
+   "what": "Re-sourced on the Church of Greece's own history page, 'History of the Church of Greece in the 20th century', published by the church's Apostoliki Diakonia (apostoliki-diakonia.gr/?p=33931, signed Grigorios Papathomas, posted 19 November 2018), opened raw by curl. Two verbatim quotes replace the two WCC-profile quotes: the 1850 Patriarchal and Synodal Tome, and the 1928 Act with the New Territories' metropolises. Widely Accepted kept, with Frazee and Leustean as the named secondaries. New note: 'In 1850 the Patriarchate at Constantinople made the Church of Greece a church that ran itself. An act of 1928 brought the bishops of northern Greece into it. Their dioceses still belonged to the Patriarchate.' (FRE 70.1, FK 6.2.) The '35 dioceses' figure is dropped because the page does not give it. The 1928 Act is added to wants. The disposition reason is updated.",
+   "why": "The reviewer's preferred fix: the church's own history page could be opened raw. Neither the 1850 Tomos nor the 1928 Act could be opened as a clean text. ecclesia.gr and ecclesiagreece.gr have no history page, and the Diptycha PDF returns 404. The page is dated 2018, which is flagged; it supports only the 1850 and 1928 facts."
+  },
+  {
+   "finding": "R1-2",
+   "action": "fixed",
+   "what": "Added a study read at the passage: Michael Plekon, 'The Liturgy of Life: Alexander Schmemann', Religions 7 (2016), art. 127, open access under CC BY. The PDF was fetched raw from mdpi-res.com and read with pdftotext. Quote (section 1, p. 2): 'After much effort, against much resistance both internationally and at home, the Russian Church granted autocephaly or ecclesiastical autonomy to the former Russian Metropolia in America in 1970.' Widely Accepted kept. Erickson is still title-only, and the flags now say the grade does not rest on him. The note is unchanged.",
+   "why": "The reviewer's first option. The passage covers the 1970 grant by the Russian Church to its former Metropolia, which is the act and the descent the link claims. The article is dated 2016, which is flagged; it supports only the 1970 fact."
+  },
+  {
+   "finding": "R1-3",
+   "action": "fixed",
+   "what": "Added Plekon (2016), read raw at the passage, with two quotes from p. 2. The first: 'There was a sense of frustration with an essentially ethnic definition of Orthodoxy that eventually led him, as well as John Meyendorff and others, to America.' The second: 'Schmemann came with his family in 1951 and began what would be a long career as a professor and dean of St. Vladimir’s Theological Seminary.' Widely Accepted kept. Arjakovsky is now flagged as support for the Paris side only. The met want is dropped. The note is unchanged.",
+   "why": "The reviewer's first option: a study covering the move to St Vladimir's, read and quoted online in this run. The same page says Schmemann studied and taught at St Sergius before he left."
+  },
+  {
+   "finding": "R1-4",
+   "action": "fixed",
+   "what": "Note replaced with the reviewer's text (FRE 64.5, FK 7.2). Grade and named-not-rechecked status unchanged. A flag added.",
+   "why": "As given."
+  },
+  {
+   "finding": "R1-5",
+   "action": "fixed",
+   "what": "Regraded to Dominant Modern Reconstruction on Bociurkiw (repo-cited, named). Note replaced with the reviewer's text (FRE 61.7, FK 9.1, longest sentence 22 words). The 2016 text is kept as a later source. Its work label now says it is a conference participants' statement, signed first by Sviatoslav Shevchuk; the signature block was re-read raw. verification_state is now named-not-rechecked and citation_specificity C, because the link rests on a study named and not read. The sobor's acts were already on wants. Flags and the disposition reason are updated.",
+   "why": "As given. The verification state follows the brief: the claim the link rests on was not read online."
+  },
+  {
+   "finding": "R1-6",
+   "action": "fixed",
+   "what": "Added prose change J 4 and a 'qualify' disposition for the longDescription's first sentence, pointing to the kept Insular Irish link. The first sentence is now the reviewer's text: 'Two communities, founded two years apart, built a shared life of work and prayer.' The rest of the field had to change too. Rescored whole, with only the first sentence changed, the field fails (FRE 47.1, FK 12.5, one sentence of 42 words). So the other sentences are cut shorter with every fact kept. The whole field now scores FRE 62.6, FK 7.2, longest sentence 17 words.",
+   "why": "The task asks every changed prose field to meet the target as a whole field."
+  },
+  {
+   "finding": "R1-7",
+   "action": "fixed",
+   "what": "The note's first sentence is now the reviewer's text: 'The Malankara Orthodox Church's own history says that in 1912 Patriarch Abdul Messiah II made Baselios Paulose I its head.' The old second and third sentences are joined ('The church then split, as one side backed the new head and the other the patriarch.') so the note keeps to the method's three sentences. FRE 64.2, FK 8.4. The superseded flag is replaced.",
+   "why": "The reviewer's sentence as given. The join is needed only for the method's one-to-three-sentence rule; no fact changes."
+  },
+  {
+   "finding": "R1-8",
+   "action": "fixed",
+   "what": "major.kind set to 'rule-changed'. A flag added.",
+   "why": "As given."
+  },
+  {
+   "finding": "R1-9",
+   "action": "fixed",
+   "what": "Outcome replaced with the reviewer's text (FRE 60.2, FK 8.1). The major reason's 'ordered the rites restored' is changed to 'called for a general restoration of the rites' to match.",
+   "why": "As given. The reason field carried the same overstatement."
+  },
+  {
+   "finding": "R1-10",
+   "action": "fixed",
+   "what": "Took the second option: note replaced with the reviewer's text without Medellín (FRE 63.5, FK 7.6). change_reason no longer names Medellín.",
+   "why": "The note now rests only on the Bogotá homily it cites. No new source was needed."
+  },
+  {
+   "finding": "R1-11",
+   "action": "fixed-differently",
+   "what": "Note: 'Reuben Spartas Mukasa grew up in the Anglican church of Uganda. Later he turned to the African Orthodox Church. In 1946 he went to Alexandria, where the patriarch made him trustee of the church in Uganda.' (FRE 62.1, FK 7.5.) The 'welcomed the Ugandan Anglicans' sentence is not added as a quote, and the note does not say he brought Anglicans in. A flag explains why.",
+   "why": "The DACB page was re-read raw. In context the sentence answers Patriarch Meletios's advice to wait for an Orthodox-Anglican union: 'Spartas, however, insisted that he wanted to be Orthodox when he welcomed the Ugandan Anglicans'. It does not plainly say Anglicans followed him, so 'brought Anglicans in Uganda into it' would go past the source. The note states the person who passed from the Anglican church and led the turn in Uganda. That is the 'gave rise to' claim the source shows."
+  },
+  {
+   "finding": "R1-12",
+   "action": "fixed",
+   "what": "In prose change I 4 (legacy), the two sentences are replaced with the reviewer's text: 'The self-rule of 1970 owed much to teachers who had come from Paris. They taught at St Vladimir's Seminary in New York.' The field scores FRE 64.9, FK 6.9. The reason is extended.",
+   "why": "As given. svots.edu supports the claim, and so does Plekon (2016), who calls Schmemann 'one of the principal architects' of the 1970 status. The field's existing note on Slagle's study (2011) was reviewed in round 1 and is unchanged."
+  },
+  {
+   "finding": "R1-13",
+   "action": "fixed-differently",
+   "what": "Source and both quotes kept, with a flag on the link recording the confirmation. The reviser's own raw curl on 2026-11-10 also returned the article (109,565 bytes), with both quotes and the post date verbatim. Online_Quote_Check.json is not edited.",
+   "why": "This revision may write only Drafting_Record.json and Revision_Round1.json. Marking the two items confirmed in Online_Quote_Check.json is handed to the lead."
+  },
+  {
+   "finding": "R1-14",
+   "action": "fixed",
+   "what": "In prose change G 3, 'in the 1900s' is now 'in the twentieth century'. FRE 65.2, FK 6.2. The reason is extended.",
+   "why": "As given."
+  },
+  {
+   "finding": "R1-15",
+   "action": "fixed-differently",
+   "what": "Added one flag line to each of the two links. The Tridentine to post-Vatican II flag cites Summorum Pontificum Art. 5, §1 (parish priests and stable groups), re-read raw on vatican.va. The post-Vatican II to Latin America flag cites the homily's charge on priests' and pastoral councils. Each flag says why the parish entry fits that act on its own scope, how this differs from the joint declarations held as no-entry, and that the census owner's ruling on Open-Gaps 148 covers the link. The Open-Gaps cross-reference itself is not written.",
+   "why": "Open-Gaps 148 lives in Build/Ministry/Features/Church-Family-Tree/Open-Gaps.md, outside this revision's two-file write scope. The lead should append the cross-reference there. It names the links the-tridentine-church--the-post-vatican-ii-parish-world and the-post-vatican-ii-parish-world--latin-american-catholicism-twentieth-century, under the subject 'joint declarations and no entry for Rome after 1962' (2026-11-10)."
+  },
+  {
+   "finding": "R1-16",
+   "action": "fixed",
+   "what": "In the kept Optina to New Martyrs note, 'so this line rests on a thin inference' is now 'so the tie rests on a thin inference' (FRE 64.4, FK 7.8). The action is now 'rewrite'. Id, from, to, type, grade and sources are unchanged: checked against main on the applied census, where only 'note' differs. change_reason and the disposition reason are updated.",
+   "why": "As given. The link is unchanged in id, from, to and type, which is the condition the task set."
+  },
+  {
+   "finding": "R1-17",
+   "action": "fixed",
+   "what": "Disposition 148 (Taizé relationsSummary, qualify) now carries link_id for the Insular Irish link. Four dispositions are added, each with link_id and the sentence that names the link. Global-south Pentecostal relationsSummary ('Africa's own prayer churches'): out-of-scope, part 1. Ukrainian underground relationsSummary ('a continuation of the Union of Brest'): link, the last step of the continued-as chain. Alaskan mission legacy ('the ancestor of today's Orthodox Church in America'): out-of-scope, era 9. Ecumenical movement relationsSummary ('In 1928 Pope Pius XI ruled ...'): out-of-scope, part 1. The new R1-6 disposition also points to the Insular Irish link. Every record link can now be found by link_id.",
+   "why": "The reviewer's first option. Two of the naming sentences are in part 1 texts and one is in an era 9 text, so those three are marked out-of-scope, with the owner named."
+  }
+ ]
+}

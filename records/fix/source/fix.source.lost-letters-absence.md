@@ -22,6 +22,7 @@ discovery_channel: "authored for the stage-0.6 fixture, alongside fix.search.los
 external_ids: {}
 citation: "The Witness Scroll: the absence of letters from Testland's outlying households (fixture)"
 kind: absence
+shelf_row: fixture-synthetic--witness-scroll
 absence_probes:
   - "letters from the outlying households"
   - "correspondence from the borderlands"

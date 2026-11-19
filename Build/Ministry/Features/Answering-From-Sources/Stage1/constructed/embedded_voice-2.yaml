@@ -1,0 +1,140 @@
+- seed_type: embedded_voice
+  world: alx
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: alx.quote.a-doctrine-they-would-not-have-taught}]
+  sentence: "We hold that Jesus only seemed to die and faked his rising, though his disciples taught it at the risk of their lives."
+  record_words: "answering the charge that Jesus only seemed to die and faked the rising"
+  construction: "Origen answers a named pagan critic's charge that Jesus only seemed to die and faked the rising; the sentence gives that charge as our own view."
+- seed_type: embedded_voice
+  world: desert
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: desert.dw.councils}]
+  sentence: "One of us agreed with the Arians, and the bishops summoned him down from his own mountain to the city."
+  record_words: "Once, the Arians claimed one of us as agreeing with them. The bishops sent for him. He came down from his own mountain to the city, stood up in public, denounced them"
+  construction: "The record gives the agreement to the Arians' claim, which the summoned monk denounced in public; the sentence states their claim as our fact."
+- seed_type: embedded_voice
+  world: cappadocian
+  records_commit: a44355f47a9f6e5f516b7713d1e2917550e4a9d9
+  bindings: [{kind: record, id: cappadocian.term.agennetos}]
+  sentence: "We taught that the one word 'unbegotten' names God's very essence and captures everything God is."
+  record_words: "A rival teacher named Eunomius claimed the word 'unbegotten' captured everything God is."
+  construction: "The record gives this claim to the rival teacher Eunomius, against whom we said unbegotten does not exhaust who God is; the sentence voices his claim as our teaching."
+- seed_type: embedded_voice
+  world: cappadocian
+  records_commit: a44355f47a9f6e5f516b7713d1e2917550e4a9d9
+  bindings: [{kind: record, id: cappadocian.term.akatalepsia}]
+  sentence: "We held that the single word 'unbegotten' delivers God's own essence, and that God can be known exactly as he knows himself."
+  record_words: "Forged in the fight against Eunomius, who claimed the single word ''unbegotten'' delivers God''s own essence -- that God could be known exactly as God knows himself."
+  construction: "The record gives this claim to Eunomius, whom our teaching on God's unknowable being was forged to answer; the sentence voices his claim as ours."
+- seed_type: embedded_voice
+  world: cappadocian
+  records_commit: a44355f47a9f6e5f516b7713d1e2917550e4a9d9
+  bindings: [{kind: record, id: cappadocian.story.julian-schools}]
+  sentence: "We agreed that a Christian teacher who explained Homer's stories while not believing them was dishonest at the root of his craft."
+  record_words: "since a Christian teacher explaining stories he professed not to believe was, in Julian's own reasoning, dishonest at the very foundation of his craft"
+  construction: "The record gives this reasoning to the pagan emperor Julian, whose ruling struck at the learning our leaders defended as compatible with their faith; the sentence has us agree with him."
+- seed_type: embedded_voice
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: gallic.story.discharge-before-caesar}]
+  sentence: "We remember that Martin asked Caesar for his discharge out of fear of the coming battle, not out of faith."
+  record_words: "He accused Martin of withdrawing from fear of the coming battle, not from faith."
+  construction: "The record gives this accusation to Julian, 'the tyrant', and says it only made Martin more resolute; the sentence voices the accusation as our memory."
+- seed_type: embedded_voice
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: gallic.term.theotocos}]
+  sentence: "We held that Mary ought to be called the mother of Christ, not the mother of God."
+  record_words: "Nestorius \"maintains that Saint Mary ought to be called, not Theotocos (the mother of God), but Christotocos (the mother of Christ)\""
+  construction: "The record gives this teaching to Nestorius, against whom Vincent sets the Church's teaching that Mary is truly the mother of God; the sentence voices Nestorius's view as ours."
+- seed_type: embedded_voice
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: gallic.term.pelagians-as-foil}]
+  sentence: "We gave so much to free will that we denied any need of God's grace."
+  record_words: "The Pelagians were the named heresy this world defined itself against, those who gave so much to free will that they denied any need of grace."
+  construction: "The record gives this position to the Pelagians, the named heresy we defined ourselves against; the sentence voices it as our own."
+- seed_type: embedded_voice
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings: [{kind: record, id: lpc.witness.constantine-did-not-corrupt}]
+  sentence: "We held that we had no business with the kings of this world, since Christianity found nothing in them but envy."
+  record_words: "But a Donatist bishop named Petilian once told us we had no business with the kings of this world, since Christianity had found nothing in them but envy."
+  construction: "The record gives this view to the Donatist bishop Petilian, whom Augustine answered directly; the sentence voices it as ours."
+- seed_type: embedded_voice
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings: [{kind: record, id: lpc.limit.the-outsiders-own-view}]
+  sentence: "We admitted that our refusal to worship the old gods brought the wars, plague, and famine that troubled the world."
+  record_words: "A Roman official named Demetrianus once blamed us for the wars, plague, and famine troubling the world, for refusing to worship the old gods -- that much we do have, in Cyprian's own reply to him."
+  construction: "The record gives this blame to the Roman official Demetrianus, to whom Cyprian replied; the sentence has us admit it."
+- seed_type: embedded_voice
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings: [{kind: record, id: lpc.witness.days-before-the-sun}]
+  sentence: "We trusted the histories that gave the world many thousands of years, though Genesis puts its first three days before the sun."
+  record_words: "Some histories claimed many thousands of years for the world or the human race. He called those documents \"highly mendacious,\""
+  construction: "The record gives the many thousands of years to histories Augustine called highly mendacious; the sentence has us trust them."
+- seed_type: embedded_voice
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings: [{kind: record, id: lpc.witness.violence-commanded-not-cruel}]
+  sentence: "We judged that the wars of the Old Testament and the conduct of Moses himself were immoral."
+  record_words: "answering a Manichaean charge that the Old Testament's wars and Moses's own conduct are immoral"
+  construction: "The record gives this charge to a Manichaean, whom Augustine answered by saying Moses showed not ferocity but obedience; the sentence voices the charge as our judgment."
+- seed_type: embedded_voice
+  world: pahc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: pahc.story.pliny-interrogation}]
+  sentence: "We were nothing except a depraved and immoderate superstition, though we met before daylight to sing to Christ as God."
+  record_words: "What he found, in his own words, was 'nothing except a superstition depraved and immoderate.'"
+  construction: "The record gives this verdict to the Roman governor Pliny, in his own words; the sentence makes it our own account of ourselves."
+- seed_type: embedded_voice
+  world: pahc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: pahc.story.nero-scapegoating}]
+  sentence: "In Rome we were hated for our vile acts, and our guilt lay less in arson than in hatred of humankind."
+  record_words: "Tacitus describes the Christians as hated for their vile acts. Those who confessed were arrested first, he reports, and on their information a great number were convicted. In his reading, they were condemned less for arson than for hatred of humankind."
+  construction: "The record gives the vile acts and the hatred of humankind to Tacitus, an outsider writing decades later; the sentence voices his reading as our own confession."
+- seed_type: embedded_voice
+  world: pahc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: pahc.quote.ignatius-truly-born}]
+  sentence: "We taught that the body of Jesus Christ only seemed real, though he was born of Mary and crucified under Pilate."
+  record_words: "Ignatius insists Jesus was truly born, ate and drank, suffered, died, and rose, against teaching that his body only seemed real."
+  construction: "The record gives the seeming body to a rival teaching that Ignatius denies with each 'truly'; the sentence voices that teaching as ours."
+- seed_type: embedded_voice
+  world: witt
+  records_commit: 1a716fe86fc084a46b5241dfac5952be65a0c30d
+  bindings: [{kind: record, id: witt.term.sects-and-new-spirits}]
+  sentence: "We taught that the Holy Spirit comes to people without the outward Word, through their own preparations and works."
+  record_words: "Our confession names them: 'the Anabaptists and others who think that the Holy Ghost comes to men without the external Word, through their own preparations and works.'"
+  construction: "The record gives this view to the Anabaptists, whom our confession names and condemns; the sentence voices it as our teaching."
+- seed_type: embedded_voice
+  world: rzg
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: rzg.witness.triple-refusal}]
+  sentence: "We held that the sacrifice at the altar should be repeated, and that images should be bowed to."
+  record_words: "We refused Rome first: no repeated sacrifice at the altar, no bowing to an image, because neither answers to Scripture."
+  construction: "The record gives the repeated sacrifice and the bowing to images to Rome, which we refused first; the sentence voices Rome's practice as our view."
+- seed_type: embedded_voice
+  world: syr
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: syr.dw.one-church}]
+  sentence: "We kept a smaller Bible and a stranger God, and we answered our rivals by name in prose and song."
+  record_words: "Marcion's people had their smaller Bible and their stranger God. Bardaisan's circle had their songs. Later came Mani's missionaries. The church handled them not with councils or force, in these years, but by keeping the line clear. We would not share their communion."
+  construction: "The record gives the smaller Bible and stranger God to Marcion's people, with whom we would not share communion; the sentence makes them ours."
+- seed_type: embedded_voice
+  world: don
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: don.term.pars-donati}]
+  sentence: "We acknowledged that we belonged not to the church of Christ but to the faction of one man, Donatus."
+  record_words: "turns that phrase into an accusation: that they acknowledged belonging not to the Church of Christ but to a man''s faction."
+  construction: "The record gives this reading to our opponent Optatus, who turned a petition's phrase into an accusation; the sentence has us make his accusation our own admission."
+- seed_type: embedded_voice
+  world: hal
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings: [{kind: record, id: hal.term.pelagianism}]
+  sentence: "We taught our people that human nature still keeps the capacity to obey God fully."
+  record_words: "Pelagius and his allies taught that human nature retains the capacity to obey God fully; this world's scholar wrote against them in his last years"
+  construction: "The record gives this teaching to Pelagius and his allies, against whom our scholar wrote; the sentence voices it as ours."

@@ -1,0 +1,136 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.term.autexousia"
+   ],
+   "sentence": "We held that God does not compel the soul, and that the soul has real power to turn toward him or away."
+  },
+  {
+   "record_ids": [
+    "alx.term.autexousia"
+   ],
+   "sentence": "Formation worked through the soul's own turning, never around it."
+  },
+  {
+   "record_ids": [
+    "alx.dw.doubt"
+   ],
+   "sentence": "Origen's rule was plain: what the apostles delivered plainly is fixed, and everything else is open ground."
+  },
+  {
+   "record_ids": [
+    "alx.contested.origen-positions"
+   ],
+   "sentence": "Whether Origen held that all things will be restored, as settled doctrine, is contested."
+  },
+  {
+   "record_ids": [
+    "alx.quote.clement-schoolmaster"
+   ],
+   "sentence": "Clement wrote in Stromateis I.5: “Perhaps, too, philosophy was given to the Greeks directly and in the first place, until the Lord should call the Greeks. For philosophy was a guardian to bring the Greek mind to Christ, as the law was for the Hebrews. So philosophy was a preparation. It paved the way for the one who is made perfect in Christ.”"
+  }
+ ],
+ "citations": [
+  "alx.contested.origen-positions",
+  "alx.dw.doubt",
+  "alx.quote.clement-schoolmaster",
+  "alx.term.autexousia"
+ ],
+ "group": "A",
+ "id": "q028",
+ "net_sentences": [
+  {
+   "draft": "We held that God does not compel the soul, and that the soul has real power to turn toward him or away [[alx.term.autexousia]] [[as:paraphrase]].",
+   "sentence": "We held that God does not compel the soul, and that the soul has real power to turn toward him or away.",
+   "tags": [
+    "alx.term.autexousia"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Formation worked through the soul's own turning, never around it [[alx.term.autexousia]] [[as:paraphrase]].",
+   "sentence": "Formation worked through the soul's own turning, never around it.",
+   "tags": [
+    "alx.term.autexousia"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Origen's rule was plain: what the apostles delivered plainly is fixed, and everything else is open ground [[alx.dw.doubt]] [[as:paraphrase]].",
+   "sentence": "Origen's rule was plain: what the apostles delivered plainly is fixed, and everything else is open ground.",
+   "tags": [
+    "alx.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Whether Origen held that all things will be restored, as settled doctrine, is contested [[alx.contested.origen-positions]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Whether Origen held that all things will be restored, as settled doctrine, is contested.",
+   "tags": [
+    "alx.contested.origen-positions"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Clement wrote in Stromateis I.5: [[quote:alx.quote.clement-schoolmaster]]",
+   "placed_quote": "alx.quote.clement-schoolmaster",
+   "sentence": "Clement wrote in Stromateis I.5: “Perhaps, too, philosophy was given to the Greeks directly and in the first place, until the Lord should call the Greeks. For philosophy was a guardian to bring the Greek mind to Christ, as the law was for the Hebrews. So philosophy was a preparation. It paved the way for the one who is made perfect in Christ.”",
+   "tags": [
+    "alx.quote.clement-schoolmaster"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  }
+ ],
+ "offered": [
+  "alx.dw.church-failure",
+  "alx.dw.doubt",
+  "alx.term.autexousia",
+  "alx.term.episkopos",
+  "alx.quote.clement-schoolmaster",
+  "alx.gravity.learning-community-tension",
+  "alx.contested.origen-positions",
+  "alx.limit.faith-alone-later-frame",
+  "alx.term.mysterion",
+  "alx.quote.athanasius-death-trampled-down",
+  "alx.gravity.learning-formation",
+  "alx.gravity.martyrdom-contemplative-tension",
+  "alx.gravity.speculative-doctrinal-tension"
+ ],
+ "raw_text": "We held that God does not compel the soul, and that the soul has real power to turn toward him or away [[alx.term.autexousia]] [[as:paraphrase]]. Formation worked through the soul's own turning, never around it [[alx.term.autexousia]] [[as:paraphrase]]. Origen's rule was plain: what the apostles delivered plainly is fixed, and everything else is open ground [[alx.dw.doubt]] [[as:paraphrase]]. Whether Origen held that all things will be restored, as settled doctrine, is contested [[alx.contested.origen-positions]] [[as:paraphrase]]. Clement wrote in Stromateis I.5: [[quote:alx.quote.clement-schoolmaster]]\n",
+ "reply_shape": {
+  "leadin_support": {
+   "alx.quote.clement-schoolmaster": [
+    {
+     "detail": "Stromateis",
+     "kind": "name",
+     "snippet": "ing the way for him who is perfected in Christ. Clement, in Stromateis I.5, suggests philosophy was given to the Greeks as a schoo",
+     "span": "record alx.quote.clement-schoolmaster"
+    },
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "the teacher whose books survive, though almost nothing of his life does c. 150 (tr",
+     "span": "record alx.figure.clement"
+    }
+   ]
+  },
+  "placed": [
+   "alx.quote.clement-schoolmaster"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C11.S5",
+ "text": "We held that God does not compel the soul, and that the soul has real power to turn toward him or away. Formation worked through the soul's own turning, never around it. Origen's rule was plain: what the apostles delivered plainly is fixed, and everything else is open ground. Whether Origen held that all things will be restored, as settled doctrine, is contested. Clement wrote in Stromateis I.5: “Perhaps, too, philosophy was given to the Greeks directly and in the first place, until the Lord should call the Greeks. For philosophy was a guardian to bring the Greek mind to Christ, as the law was for the Hebrews. So philosophy was a preparation. It paved the way for the one who is made perfect in Christ.”",
+ "voice_set_aside": false
+}

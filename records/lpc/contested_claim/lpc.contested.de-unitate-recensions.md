@@ -39,7 +39,7 @@ relations:
 - type: associated-with
   target: lpc.term.schism
 claim: De Unitate 4-5 survives in a single authorial text, and the version of chapters 4-5 commonly called
-  the 'Primacy Text' -- reading more favourably toward Roman primacy than the alternative recension --
+  the 'Primacy Text' -- reading more favorably toward Roman primacy than the alternative recension --
   is a later interpolation into Cyprian's own original wording, not evidence of anything Cyprian himself
   wrote or revised.
 held_against:

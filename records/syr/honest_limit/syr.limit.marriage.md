@@ -27,7 +27,7 @@ statement: 'You ask what marriage meant to our people - our weddings, our homes.
 why_sources_cannot_answer: 'The surviving corpus is clerical-ascetic: marriage appears mainly as the state
   the covenanter forgoes, and no in-window text describes this world''s own wedding practice or married
   household life in any detail. The one surviving survey of marriage customs in the region is the comparandum
-  dialogue''s ethnographic catalogue, not a description of Christian practice.'
+  dialogue''s ethnographic catalog, not a description of Christian practice.'
 nearest_material:
 - syr.term.qyama
 - syr.dw.cost-distance
@@ -40,7 +40,7 @@ use_note:
   not_for:
     - "a claim describing this world's Christian wedding customs"
     - "a claim that most people did not marry, or that marriage was disparaged"
-    - "a claim treating the regional comparandum's marriage catalogue as Christian practice"
+    - "a claim treating the regional comparandum's marriage catalog as Christian practice"
   years: {from: 200, to: 410}
   status: reviewed
 ---

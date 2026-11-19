@@ -1,0 +1,222 @@
+{
+  "round": 1,
+  "kind": "full",
+  "verdict": "revise",
+  "counts": {
+    "blocking": 0,
+    "substantial": 5,
+    "minor": 20
+  },
+  "fabrication_found": false,
+  "findings": [
+    {
+      "id": "R1-01",
+      "severity": "substantial",
+      "target": "church-of-the-east-under-the-mongols--st-thomas-christians-1300-1517 (type, grade)",
+      "problem": "Graded Widely Accepted for 'in contact with'. The only evidence is the 1301 colophon. It honors the patriarch and the Indian metropolitan, but it records no meeting, letter or exchange, and the type's own test excludes overlap alone. The one secondary (Mingana 3519-3520) only introduces the colophon ('which informs us that it was written in A.D. 1301'). It gives no consensus reading of contact, so Widely Accepted has nothing to stand on. The note already admits 'no letter or meeting from these years survives'. The same colophon already carries the published Widely Accepted continuation st-thomas-christians-of-india--st-thomas-christians-1300-1517 (Mingana 3533-3535, Jacob). Era 4's in-contact link to the Abbasid church was Widely Accepted on a patriarch's law addressed to India's metropolitan, which is a real exchange. This one has none.",
+      "evidence": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt:3519-3531 (colophon: 'in the time of ... Mar Yahb Alaha V., the Turk'); census edge st-thomas-christians-of-india--st-thomas-christians-1300-1517 (cites 3533-3535); Drafting_Brief type table ('Overlapping dates alone do NOT qualify').",
+      "proposed_fix": "Set confidence to 'Inferential-Thin'. Keep specificity A and verified-direct. Replace the note with: 'In 1301 a scribe in Malabar finished a book of Paul's letters for the church. His closing note names the patriarch Yahballaha, 'the Turk', as head of the Church of the East, and Jacob as metropolitan of India. It shows the Indian church honoring its patriarch, but no letter or meeting from these years survives, so the tie rests on this note alone.' (Reading Ease 65.8, FK 9.2.) Remove the option of folding it into the continuation only if Mark prefers no link; the St Thomas relationsSummary names the tie, so a thin link is the honest form."
+    },
+    {
+      "id": "R1-02",
+      "severity": "substantial",
+      "target": "latin-papal-church-avignon-to-lateran-v--the-bosnian-church (grade)",
+      "problem": "Graded Documented. Neither quoted letter names the Bosnian Church. Urban V writes of 'heretici' in Bosnia (Theiner 22706-22707). Nicholas V calls one lord, Stephen, 'perfidus patarenus' in a bull about his attack on Dubrovnik (32370). That these words mean the krstjani is a reading the drafter flagged as 'the standard reading, not something the letters say'. Era-5 precedent (R1-03 and the Dominican and Carmelite links) holds such links at Widely Accepted when an editor or secondary, not the primary, supplies the identification. A vendored, repo-read secondary does supply it here: Evans (1877) says 'Patarenes' is the name Roman writers always gave Bosnia's dissenters.",
+      "evidence": "cic/texts/theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863.txt:22706-22707, 32366-32374; cic/texts/evans_through-bosnia-and-the-herzegovina-on-foot_1877.txt:1825-1826 ('Patarenes,' the name by which the Bogomiles of Bosnia and other Sclavonic lands are always called by Roman writers); 1716 ('Patarenes, as Roman ecclesiastics begin to call the Bogomiles').",
+      "proposed_fix": "Set confidence to 'Widely Accepted'. Add Evans 1877, lines 1825-1826, as kind 'secondary' with the quote above. Replace the note with: 'About 1370 Pope Urban V wrote that many heretics lived in Bosnia. He told the archbishops of Split and Dubrovnik to cut off from the church anyone who sheltered them or traded with them. In 1451 Pope Nicholas V called the Bosnian lord Stephen a 'faithless Patarene'. An 1877 history says Roman writers always gave that name to the dissenters of Bosnia.' (Reading Ease 62.8, FK 8.2.) The note does not take up Evans's Bogomil label, which the movement text rejects."
+    },
+    {
+      "id": "R1-03",
+      "severity": "substantial",
+      "target": "latin-papal-church-avignon-to-lateran-v--inquisition-record-sects-adamites-and-kin (outcome)",
+      "problem": "The outcome fails the major-links test. Its institutional act is the Council of Vienne's condemnation of 1311-12. That act was laid on the beguines and beghards, decades before this movement's window. The published links latin-papal-church-avignon-to-lateran-v--the-beguines and --free-spirit-heresy already carry it. The cited locus (Denzinger 14788-14793) is only the editor's heading. Denzinger prints the eight errors but no sentence of condemnation in these lines. The outcome's second sentence, the 1367 questioning of one man, is an inquisitor's hearing, not a council, a split or a changed rule.",
+      "evidence": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt:14786-14830 (heading, errors 471-475, footnote 'CIC Clem. V, 3, 3'; no condemnation clause); census edges latin-papal-church-avignon-to-lateran-v--the-beguines, latin-papal-church-avignon-to-lateran-v--free-spirit-heresy; Drafting_Record escalation A (the two Free Spirit entries overlap).",
+      "proposed_fix": "Remove 'outcome', 'outcome_basis' and 'outcome_locus'. Add outcome_considered: 'The council's decree of 1311-12 was laid on beguines and beghards, before this group's time, and is carried on their own links. The 1367 hearing questioned one man and changed no rule.'"
+    },
+    {
+      "id": "R1-04",
+      "severity": "substantial",
+      "target": "latin-papal-church-avignon-to-lateran-v--inquisition-record-sects-adamites-and-kin (note)",
+      "problem": "The note ends 'He added that such answers were often forced.' That is Wattenbach's general caution. His verdict on this case runs the other way: here the answers 'go far beyond the questions' and the man 'seems truly convinced'. Giving only the caution leads the reader to think Wattenbach judged Hartmann's answers forced. The drafter flagged this. The cited source says the opposite of what the note implies, so this is misleading, not just incomplete.",
+      "evidence": "cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt:5717-5723 ('weil oft genug die Bejahung solcher Fragepunkte erzwungen ist. Aber hier gehen die Antworten weit hinaus über die Fragepunkte ... Der Inquisit scheint ... von der Wahrheit seines Wahnes wirklich überzeugt zu sein').",
+      "proposed_fix": "Extend the Wattenbach secondary to lines 5717-5722 (quote: 'Aber hier gehen die Antworten weit hinaus über die Fragepunkte, und ent- halten eine Fülle ganz individueller Züge.' at 5719-5721). Replace the note with: 'In December 1367 at Erfurt, a beghard called John Hartmann was questioned by Walter Kerling, named by the pope's authority to try heresy. Kerling put to him the first article of Ad nostrum, a decree of the Council of Vienne. In 1887 Wilhelm Wattenbach noted that the questions kept to the decree point by point. Such answers, he wrote, were often forced. But he judged that Hartmann's answers went far beyond the questions, and that the man seemed to believe them.' (Reading Ease 67.6, FK 7.7.)"
+    },
+    {
+      "id": "R1-05",
+      "severity": "substantial",
+      "target": "maronite-christianity-era-6 (longDescription, why, relationsSummary); the-ethiopian-monastic-flowering (longDescription, why); st-thomas-christians-1300-1517 (longDescription, why); the-english-mystics-and-devout.legacy",
+      "problem": "Well-known plain facts that are not relationships between movements were removed for want of a vendored source. These are the Mamluk campaigns against the Kesrwan around 1305, the harrying of the Ewostathians and the council of 1450, the St Thomas Christians' privileges from Hindu rulers and their own headman, and Julian's commemoration in the Church of England calendar. Eras 2 to 5 left facts of this kind standing as written, pending Mark's open method question (Open-Gaps 24 and 52). Era 5 kept, for example, Lateran IV's dress rule for Jews and Muslims, the Lavra's founding and John Paul II's words of 2001. Removing these facts applies an answer Mark has not given. The era-6 pass is also inconsistent with itself. Group A left Kempe's life facts and the Devotio houses' closing standing under the open item, and group C left the Breslau sentence. Group E said so in its own escalation ('the merge should apply one rule to both'), and the merge did not settle it. The removals that touch relationships between movements are correctly qualified and are not part of this finding. These include the Carthusians and Julian, the Waldensian union with the Methodists, the Capuchins, Florence's repudiation, Tabor's bishop, the Bosnian absorption and the reception claims.",
+      "evidence": "Build/Ministry/Features/Church-Family-Tree/Open-Gaps.md items 24 and 52; Drafting_Record escalations A ('Open ruling, not new ... Left, as era 5 did') and E ('the merge should apply one rule to both'); prose_changes 3, 33, 34, 41-45.",
+      "proposed_fix": "Restore, with their wants kept. (1) maronite-christianity-era-6.longDescription, after 'they had communities on Cyprus as well.' insert: 'The fourteenth century opened badly. Around 1305 Mamluk armies struck the Kesrwan and drove Christians from their homes.' (Whole field Reading Ease 62.8, FK 8.0.) maronite why: change 'They survived this era largely by being hard to reach.' to 'They survived Mamluk campaigns against the Kesrwan around 1305, and the rest of this era, largely by being hard to reach.' The Kesrwan may stay out of the relationsSummary, which is about relations. (2) the-ethiopian-monastic-flowering.longDescription: replace 'The Ewostathians kept Saturday as well as Sunday as a Sabbath. The court chronicle of the emperor Zara Yaqob says he ordered the old Sabbath kept as holy as Sunday.' with 'The Ewostathians kept Saturday as well as Sunday as a Sabbath. They were hunted for it for generations. Then the emperor Zara Yaqob gave way at a council in 1450. His court chronicle says he ordered the old Sabbath kept as holy as Sunday.' (Whole field Reading Ease 62.3, FK 7.5.) In the why, after 'The Ewostathians kept Saturday as well as Sunday as a Sabbath.' insert 'They were hunted for it for generations, until a council in 1450.' (3) st-thomas-christians-1300-1517.longDescription: after 'The community was no small minority on the margins.' insert 'It was an established trading group of high standing, with privileges from Hindu rulers and a headman of its own.' (Whole field Reading Ease 66.2, FK 7.6.) In the why, change 'The community was a trading group of high standing that owned the pepper gardens around Kollam.' to 'The community was a trading group of high standing, with privileges from local Hindu rulers. Its people owned the pepper gardens around Kollam.' (4) the-english-mystics-and-devout.legacy: after 'Both are now among the most read of all medieval English religious books.' insert 'Julian is remembered each May in the Church of England's calendar.' Then add the era-6 cases to Open-Gaps item 'Well-known facts with no vendored source' as a dated sub-entry. List these four and the cases already left standing: Kempe's life facts, the Devotio closings, Julian's cell, Capistrano and Breslau 1453, the 1317 Dongola inscription, and Ite vos."
+    },
+    {
+      "id": "R1-06",
+      "severity": "minor",
+      "target": "hesychasm-and-the-palamite-synthesis.longDescription",
+      "problem": "Two sentence fragments remain: 'Sitting alone, controlling the breath, and repeating the Jesus Prayer until it continued of itself — and some of them reported seeing an uncreated light.' and 'Nicholas Cabasilas, a layman of Thessalonica, who wrote The Life in Christ to show ...'. The field also scores Reading Ease 41.2 and FK 12.9. The pass rewrote this movement's relationsSummary and legacy but left this field.",
+      "evidence": "census hesychasm-and-the-palamite-synthesis.longDescription (unchanged from origin/main).",
+      "proposed_fix": "Replace the field with: 'On Mount Athos monks had long practiced hesychia, or stillness. They sat alone, held the breath steady, and repeated the Jesus Prayer until it went on by itself. Some of them said they saw an uncreated light. The Calabrian scholar Barlaam mocked the practice. Gregory Palamas, an Athonite monk who later became archbishop of Thessalonica, answered him in the Triads. God cannot be known in his essence, he argued, and yet he is truly given in his energies. So what the praying monk meets is God himself, not some created stand-in. The argument ran for two decades. Councils at Constantinople in 1341, 1347 and 1351 settled it in Palamas's favor, and the hesychast view became the standard of Orthodox theology. Beside it stands a very different voice. Nicholas Cabasilas, a layman of Thessalonica, wrote The Life in Christ. He showed that the same life in God came through the sacraments to people who would never enter a monastery.' (Reading Ease 60.2, FK 8.1; no fact added or dropped.)"
+    },
+    {
+      "id": "R1-07",
+      "severity": "minor",
+      "target": "hesychasm-and-the-palamite-synthesis.relationsSummary (prose change 25)",
+      "problem": "The rewritten summary says 'Parent of the Philokalia line'. 'Parent' claims descent, but the link it rests on is 'influenced' (texts gathered and translated). This is new text from this pass.",
+      "evidence": "census edge hesychasm-and-the-palamite-synthesis--the-hesychast-revival-paisius-and-the-philokalia (influenced).",
+      "proposed_fix": "'Heir of the Athonite line. Its writings fed the Philokalia of the 1700s, which the Optina elders took up in the 1800s.' (Reading Ease 76.5.)"
+    },
+    {
+      "id": "R1-08",
+      "severity": "minor",
+      "target": "lollardy.relationsSummary; lollardy--the-english-reformation-and-elizabethan-settleme (grade, settled)",
+      "problem": "On the grade question: Documented holds on the type's own test. The later side names and uses the earlier one's work. Foxe claims the 1520-21 Lincoln households as gospel professors 'before the name of Luther was heard' (16703-16712) and lists Wyclif, Thorpe and Cobham as forerunners of 'these days of reformation' (42039-42050). Tyndale names Wyclif (29439), and Bishop Tonstal attests evangelicals printing Wyclif in English (53512-53513). This matches the published hussite--lutheran precedent, where Luther names Hus. Contested would need a source for the sceptical side, and none is vendored or repo-cited. The dispute over how far the movement fed the Reformation is stated in the note. But the summary still reads 'Contested influence line to the English Reformation'. That is a label, not a sentence, and it now reads as a grade that contradicts the link.",
+      "evidence": "cic/texts/foxe_acts-and-monuments-v4_cattley-townsend1837.txt:16703-16716, 42039-42050, 53510-53516; cic/texts/tyndale_doctrinal-treatises_walter1848.txt:29439.",
+      "proposed_fix": "Keep the link Documented. Replace the relationsSummary with: 'Later English Protestants claimed the Lollards as their own. How far the Lollards fed the English break with Rome is still argued.' (Reading Ease 76.5, FK 5.3.)"
+    },
+    {
+      "id": "R1-09",
+      "severity": "minor",
+      "target": "terminal-christian-nubia.relationsSummary",
+      "problem": "Build narration in a public field: '(a possible Queen Gaua c. 1520s carried as live-scholarship nuance)'. The field is also a label string (Reading Ease 46.0). It is an era-6 movement, and CLAUDE.md asks the pass to remove commentary it finds in a live file.",
+      "evidence": "census terminal-christian-nubia.relationsSummary.",
+      "proposed_fix": "'The end of Christian Nubia. In 1317 Dongola's throne hall became a mosque, and the kingdom of Makuria broke apart. The smaller kingdom of Dotawo lasted until King Joel, named in a document of 1484. Then the written record falls silent. A queen may have ruled there in the 1520s, but this is uncertain.' (Reading Ease 72.6.)"
+    },
+    {
+      "id": "R1-10",
+      "severity": "minor",
+      "target": "franciscan-order-era-6.relationsSummary",
+      "problem": "This is cataloguing language: 'The order in the period between the earlier Franciscan movement (ending 1300) and the 1517 division' and 'its two named branches'. It is one 47-word label (Reading Ease 9.7). It is the only field of this movement the pass left unchanged.",
+      "evidence": "census franciscan-order-era-6.relationsSummary.",
+      "proposed_fix": "'The Franciscan order from 1300 to its division in 1517. The Spirituals were crushed, and four were burned at Marseille in 1318. Conventuals and Observants then pulled apart, until Pope Leo X split the order in two on 29 May 1517. The fraticelli broke away from it, and the Observants grew up inside it.' (Reading Ease 64.9.)"
+    },
+    {
+      "id": "R1-11",
+      "severity": "minor",
+      "target": "late-medieval-lay-parish-piety.relationsSummary",
+      "problem": "Map talk in public text: 'every other tradition on this map reaches only at its edges'.",
+      "evidence": "census late-medieval-lay-parish-piety.relationsSummary.",
+      "proposed_fix": "'This is the faith of ordinary lay people. Most other traditions touch this daily life only at the edges. Something like it was built again a generation later, in the parish life of Carlo Borromeo's Milan.' (Reading Ease 58.4 against 23.0 before; the name 'Borromeo' holds it under 60 in so short a field.)"
+    },
+    {
+      "id": "R1-12",
+      "severity": "minor",
+      "target": "inquisition-record-sects-adamites-and-kin.relationsSummary",
+      "problem": "The public field is '-'. Two new links now touch the movement, the Taborites and the papal inquisitors. The drafter flagged this for the merge, and it was not done.",
+      "evidence": "census inquisition-record-sects-adamites-and-kin.relationsSummary; Drafting_Record escalation A.",
+      "proposed_fix": "'Known only from those who condemned them. The Taborites wiped out the Adamites in 1421. Papal judges of heresy put the list of errors from the Council of Vienne to the men they questioned.' (Reading Ease 64.9.)"
+    },
+    {
+      "id": "R1-13",
+      "severity": "minor",
+      "target": "late-medieval-lay-parish-piety.longDescription; inquisition-record-sects-adamites-and-kin.legacy; armenian-cilicia-after-the-kingdom.legacy",
+      "problem": "Sentence fragments remain in unchanged era-6 fields: 'The mass seen from the nave, ... the church ale that funded the roof.'; 'Churchwardens — ordinary laymen, elected and accountable to their neighbors. Collected and spent the money ...'; 'That a confident, detailed list ... anybody's faith.'; 'The two sees still in communion with one another.'",
+      "evidence": "census fields named (unchanged from origin/main).",
+      "proposed_fix": "Parish longDescription, first five sentences: 'For most people in late-medieval England, Christianity was the parish. It meant the mass seen from the nave, the yearly round of feasts and processions, and the guild you joined. It meant the light you paid to keep burning before an image, and the church ale that funded the roof. It was not passive. Churchwardens were ordinary laymen, elected and accountable to their neighbors. They collected and spent the money, and their accounts show ...' (the rest unchanged). Inquisition legacy, last two sentences: 'What they left instead is a warning that historians now take seriously. A sure, detailed list of what a group believed can come from the way it was made, and not from anybody's faith.' Armenian legacy: 'The two sees are still in communion with one another.'"
+    },
+    {
+      "id": "R1-14",
+      "severity": "minor",
+      "target": "muscovite-monastic-christianity.relationsSummary (prose change 29); the-bosnian-church.legacy (prose change 32)",
+      "problem": "Two new sentences make universal claims about scholarship and the sources that are really reports on what we hold. 'Though only one modern history draws that line' is not true of the field. The Old Believers' own entry, and much of the literature, puts the schism's roots in Muscovy. 'No surviving text shows where the rest went' speaks for every surviving text. Both are build narration in disguise.",
+      "evidence": "census the-old-believers.relationsSummary ('The Old Believers grew out of Muscovite Christianity'); muscovite-monastic-christianity--the-old-believers (one source, Conybeare 1921).",
+      "proposed_fix": "Muscovite: 'Child of the Kievan and hesychast lines. Its way of prayer came back in the nineteenth-century elders of Optina. The Old Believers' schism may also have roots in its church. A 1921 history of the Russian dissenters traces it there.' (Reading Ease 69.8.) Bosnian: 'Many seem to have become Muslims; the sources at hand do not show where the rest went.'"
+    },
+    {
+      "id": "R1-15",
+      "severity": "minor",
+      "target": "latin-papal-church-avignon-to-lateran-v--maronite-christianity-era-6 (outcome length)",
+      "problem": "The outcome is 30 words. The rule is under 30.",
+      "evidence": "Outcome rule (major-links, 2026-11-08).",
+      "proposed_fix": "'In 1445 a bull of Pope Eugenius IV took the Maronites of Cyprus into union. It said no one was to call their bishop, priests or people heretics.' (28 words; Reading Ease 70.9.)"
+    },
+    {
+      "id": "R1-16",
+      "severity": "minor",
+      "target": "hesychasm-and-the-palamite-synthesis--byzantine-church-palaiologan (outcome)",
+      "problem": "The outcome meets the test: a synod condemned Barlaam's charges, basis (a). But it opens 'In 1341'. No source on the link gives the year. Migne's heading reads only 'TOMUS SYNODICUS I', and the drafter flagged that the year comes from the movement text. The rule requires every fact in an outcome to come from a source on the link.",
+      "evidence": "cic/texts/palamas_opera-omnia-pg151-grc-lat_migne1865.txt:14255-14300, 14786-14824 (no date in the tome's printed lines).",
+      "proposed_fix": "'A synod at Constantinople ruled for the hesychast monks. It said Barlaam would be cut off from the church unless he repented.' (Reading Ease 64.9.) The note may keep 1341, which the movement text already asserts. Add a dated witness (Kantakouzenos or Gregoras) to wants."
+    },
+    {
+      "id": "R1-17",
+      "severity": "minor",
+      "target": "byzantine-church-palaiologan--muscovite-monastic-christianity (outcome wording)",
+      "problem": "On the question raised: the 1448 outcome is shown by the link's own source. Mouravieff (on the link, read at 3946-3957) has Basil convoke the bishops, who 'instituted Jonah as metropolitan of all Russia'. That is a practice changed by an authority, basis (c). But 'They did not wait for Constantinople to install him' is off. Mouravieff says they did wait, five years, and then acted.",
+      "evidence": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt:3946-3957 ('Waiting more favourable circumstances, St. Jonah governed the Church for five years without being synodically appointed').",
+      "proposed_fix": "'In 1448 the Russian bishops made Jonah their chief bishop. They did it on their own, and no longer waited for the Greeks.' (Reading Ease 88.0.)"
+    },
+    {
+      "id": "R1-18",
+      "severity": "minor",
+      "target": "muscovite-monastic-christianity--russian-church-stoglav-to-nikon (note); latin-papal-church-avignon-to-lateran-v--armenian-cilicia-after-the-kingdom (note)",
+      "problem": "Herberstein note: 'He met its chief bishop' is not in the source. Herberstein says only that while he was envoy, Bartholomew was metropolitan. Armenian note: 'the king had asked the pope' follows a sentence naming King Constantine. Martène names Leo, an earlier king, so the reader takes the request as Constantine's.",
+      "evidence": "cic/texts/herberstein_notes-upon-russia-v1_major1851.txt:9806-9808; cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-25-1300-1344-lat_welter-facsimile1903.txt:109790 ('Leo rex Armenorum').",
+      "proposed_fix": "Herberstein: 'Herberstein, the emperor's envoy, came to Moscow in 1517. While he was there, he says, the chief bishop was a holy man he calls Bartholomew. Daniel later took his place. Herberstein says such bishops were once chosen by a meeting of bishops, abbots and priors.' (Reading Ease 70.7.) Armenian: 'In 1341 Pope Benedict XII sent the Armenians a long list of errors he said they held. A council of the Armenian church met in 1342 under the catholicos Mekhitar and King Constantine to answer it. An eighteenth-century editor adds that an earlier king, Leo, had asked the pope for help against the Saracens. He was told to renounce the errors first.' (Reading Ease 66.5.)"
+    },
+    {
+      "id": "R1-19",
+      "severity": "minor",
+      "target": "franciscan-order-era-6--fraticelli-spiritual-franciscan-rigorists (note); franciscan-order-era-6--fraticelli-spiritual-franciscan-rigorists--2 (outcome)",
+      "problem": "The note's first sentence is 28 words, and one outcome sentence is 27. The limit is about 25.",
+      "evidence": "Sentence counts of the published text.",
+      "proposed_fix": "Note: 'After Pope Clement V died, friars at Narbonne and Béziers left the order's unity and the obedience of their superiors. So says the order's own dossier on the case. Angelo Clareno, the Spirituals' historian, tells the other side. The friars of the order handed twenty-five of them to the inquisitor, and four were burned.' Outcome: 'At the friars' own request, Pope John XXII banned the fraticelli and their way of life for good. Anyone who kept to it was cut off from the church.'"
+    },
+    {
+      "id": "R1-20",
+      "severity": "minor",
+      "target": "source kinds: latin-papal-church-avignon-to-lateran-v--franciscan-order-era-6; --rhineland-mysticism-and-the-friends-of-god; --inquisition-record-sects-adamites-and-kin; --catholic-church-ancien-regime; byzantine-church-palaiologan--latin-papal-church-avignon-to-lateran-v",
+      "problem": "Several entries listed as 'primary' are editors' headings or calendar summaries. They are Eubel's calendar entries 3122-3124 and 3130 and his heading 38692-38694, Denzinger's headings 15162, 14788, 14792-14793 and 23464-23466, and Mirbt's heading 14255. Era-5 R1-03 treated editorial headings as secondary. No grade changes, since each link has a text quote as well. But the arrest and deposition of Michael of Cesena, the date 27 March 1329 and the 1690 condemnation rest on editors.",
+      "evidence": "Lines cited in the problem.",
+      "proposed_fix": "Change these entries to kind 'secondary'. Keep their lines and quotes."
+    },
+    {
+      "id": "R1-21",
+      "severity": "minor",
+      "target": "latin-papal-church-avignon-to-lateran-v--catholic-church-ancien-regime (sources)",
+      "problem": "The note's 'which Rome turned down in 1682' rests on Denzinger's footnote, which the drafter read but did not list.",
+      "evidence": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt:23483 ('Reiecti ab Innocentio Al per htteras in forma Brevis 11. Apr. 1682,').",
+      "proposed_fix": "Add line 23483 as a secondary source with that quote. The note can stand."
+    },
+    {
+      "id": "R1-22",
+      "severity": "minor",
+      "target": "st-thomas-christians-1300-1517.relationsSummary",
+      "problem": "'One of the few provinces of the Church of the East that Timur's campaigns never reached' conflicts with the corrected Church of the East text, 'The one province Timur never reached'. Calling the Hakkari remnant a province Timur never reached is not what that text says. The field also scores Reading Ease 40.5.",
+      "evidence": "census church-of-the-east-timur-to-hakkari.longDescription and why.",
+      "proposed_fix": "'A note in a book copied in 1301 shows the community still tied to its patriarch in Mesopotamia. A delegation in 1490 and a letter in 1504 show the tie held later too. Timur's armies never reached this province.' (Reading Ease 65.4.)"
+    },
+    {
+      "id": "R1-23",
+      "severity": "minor",
+      "target": "church-of-the-east-timur-to-hakkari (name, teaser)",
+      "problem": "On the 'Hakkari' question: the fields now agree with the sources. Survivors held out in the Hakkari mountains, around Van and Urmia, while the late-15th-century patriarchs lived at Gazarta and Mosul. The name '... and the Hakkari Remnant' can stand as a name for the surviving communities. The teaser goes further than the sources: 'the collapse ... into a handful of highland valleys'. The patriarch at Mosul and on the upper Tigris contradicts it. A rename is census structure and Mark's call.",
+      "evidence": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt:1799-1802, 1866-1867; census church-of-the-east-timur-to-hakkari.teaser; Drafting_Record escalation E.",
+      "proposed_fix": "Teaser: 'From Mesopotamia to the Kurdish mountains, 1317 to 1517. The most widely spread church of the Middle Ages shrinks to a remnant on the upper Tigris and in the highland valleys.' (Reading Ease 63.8.) Log the name question in Open-Gaps for Mark; no rename in this pass."
+    },
+    {
+      "id": "R1-24",
+      "severity": "minor",
+      "target": "observant-reform-and-popular-preaching (longDescription, why): the Capistrano and Breslau sentence",
+      "problem": "On the question raised: leave it standing as written. It is not a relationship between census movements; Jewish communities have no movement. No vendored or repo-cited source holds it, so it falls under the open item 'Well-known facts with no vendored source', which eras 2 to 5 left in place. Group C was right not to weaken it. The only fault is the record: the case must be logged under that item, which R1-05 also asks for. The why sentence carrying it is 35 words long, but that field is unchanged and is covered by R1-25.",
+      "evidence": "Drafting_Record escalation C (Breslau); wants entry 'John of Capistrano's report and the Breslau trial records of 1453'.",
+      "proposed_fix": "No text change. Add the case to the era-6 sub-entry of Open-Gaps 'Well-known facts with no vendored source'."
+    },
+    {
+      "id": "R1-25",
+      "severity": "minor",
+      "target": "unchanged era-6 fields below the reading-level target",
+      "problem": "These fields were not edited in this pass and still fail Reading Ease 60 or FK 10. Rhineland longDescription and why. Devotio longDescription. Hesychasm why. Lollardy longDescription and why. Hussite longDescription and why. Ethiopian relationsSummary and legacy. Muscovite legacy. Observant longDescription and why. Lay parish piety why and legacy. Inquisition longDescription and why. Papacy longDescription and why. Byzantine Palaiologan longDescription and why. Alpine Waldensians relationsSummary, longDescription and why. Church of the East relationsSummary. Nubia longDescription, why and legacy. Bosnian relationsSummary, longDescription and why. Armenian legacy. Maronite legacy. St Thomas legacy. This pass's scope is the links and the text naming them, so this is not a fault of the pass. It should not go quiet, though.",
+      "evidence": "engine.m7.turn_readability.score_turn over each field of the census as it now stands.",
+      "proposed_fix": "Log in Open-Gaps: 'Era-6 movement fields below the reading-level target (2026-11-08)', listing these fields, for a readability pass. No change in this round."
+    }
+  ],
+  "two_way_gaps": [
+    "the-old-believers.relationsSummary (not an era-6 movement) says it 'grew out of Muscovite Christianity'; the only link is muscovite-monastic-christianity--the-old-believers, influenced, Inferential-Thin. For the era-7/8 pass to qualify, or to draw a sourced link from the era-7 Russian church.",
+    "inquisition-record-sects-adamites-and-kin.relationsSummary is '-' though two new links touch it (R1-12). The links are named in its longDescription and why, so the gap is in that field only.",
+    "the-waldensian-reformed-union (era 7) legacy still carries the Methodist union and the South American church that this pass and era 5 removed from the earlier Waldensian entries (escalation B). For the era-7 pass.",
+    "the-church-of-the-east-schism-of-1552.relationsSummary ('Told within the Church of the East, Timur to Hakkari') leans on the Hakkari title (R1-23). For the era-7 pass, if Mark renames.",
+    "All 43 new links name their text in named_in, and I checked each against the census fields. All 21 earlier links touching era-6 movements are named in one end's text: Joachim is in the joachimite-current legacy, the Templars in the papacy summary, the Carthusians in the English mystics summary. The other relationships named in era-6 text have a link, a qualification, a removal or a stated no-entry or not-a-claim reason in the dispositions. One exception is R1-05: there the removals were the wrong disposition for plain facts."
+  ],
+  "quotes_rechecked": 150,
+  "notes": "Method. A script compared every one of the 150 sourced quotes in the 43 new links against its file at the cited lines, joining wrapped lines with single spaces. All 150 match. Separately, I read each quote in context, a few lines either side, for all 43 links, and judged whether it shows the relationship and not just the events. The census edges and the drafting record agree field for field for all 43 links. No pre-existing edge was changed or removed. Scope holds: every new link has an era-6 end. Symmetric links are in alphabetical order. Each pair with two links (Hussites and Taborites; the order and the fraticelli; the papacy and the Franciscan order) carries two separately evidenced claims. No duplicate has the same type and direction as a published link. Questions put to me: (1) Lollardy to the English Reformation: Documented holds, as hussite--lutheran did (R1-08). (2) Tabor 1452 meets the outcome test, basis (c). Lützow 10147-10149, on the link and read, has the regent forcibly impose the Utraquist service, which is a practice changed by an authority. Lützow calls George regent at 10132-10133. (3) Florence meets the test, basis (c). Laetentur caeli is a council's settlement, not a letter, and Leonard (54517-54518) shows the union proclaimed at Constantinople in 1452. (4) The 1448 Jonah outcome is shown by its own source, but needs rewording (R1-17). (5) Leave the Capistrano and Breslau sentence standing and log it (R1-24). (6) The hesychasm fragments are real, and the field also fails readability (R1-06). (7) Group E's removals of plain facts are inconsistent with era-5 practice and with groups A and C, so restore them and log them (R1-05). Group E's corrections that follow its sources are right and stay: the patriarchs at Gazarta and Mosul, not a mountain village; family succession dated by the sixteenth century; and the Roman record on the Maronites' one-will teaching. (8) Hakkari: the fields are now correct, the teaser overstates, and the name is Mark's call (R1-23). Other checks that passed. Ethiopian and Armenian 'continued as' stay Documented on the era-5 precedent (R1-11), under which later texts can carry a continuity if the note says they are late. Both notes say so: Mendes 'a hundred years later', Zakaria 'wrote in the 1600s'. Maronite 'continued as' stays Documented: Michael about 1195, Hetum 1307 and Lateran V 1516 show the community on both sides of 1300. The era-5 St Thomas continuation was held lower because of a centuries-long gap that is not present here. The Waldensian (1487 bull; Embrun 1489 within 60 lines, Perrin 4635-4645), Eckhart, Sancta Romana, Ad conditorem, Basel 1434 (communion mandate 18638-18641), Edward VI 1547 and Maronite 1445 outcomes all meet the test. The outcome_considered entries are sound. Bosnia (a ruling in a letter), Benedict XII and Gallican 1690 (an act of the later papacy, not of this one) are correctly left without outcomes. No fabrication was found. The group-C corrections of John XXII's ruling ('to insist', from pertinaciter affirmare) and of the fraticelli's end (Lea 8493-8508: penance at Rome 1467, last trace 1471) are right. The Taborite rewrite's Rosenberg and Koranda details check out against Bartošek 64521-64533, Lützow 1914 14300-14301 and Lützow 1920 10149-10151. Marignolli at Kollam checks out at the cathay vol. 3 file 11061-11063. The Muscovite land-quarrel rewrite checks out at Mouravieff 4479-4488. Proposed public text was scored with engine.m7.turn_readability.score_turn; scores are given in each finding. Round 2 should be a targeted recheck of R1-01 to R1-23 only."
+}

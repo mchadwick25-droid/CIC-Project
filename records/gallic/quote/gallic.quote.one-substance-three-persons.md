@@ -22,7 +22,7 @@ confidence:
     (gallic.source.cassian-de-incarnatione); nothing here is drawn from them.
 sources:
 - source_id: gallic.source.vincent-commonitory
-  locus: "Commonitory ch. 13 [37] (npnf211 div iii.xiv, file lines 13059-13060): the one-sentence summary Vincent gives 'to unfold this same doctrine more distinctly and explicitly again and again'"
+  locus: "Commonitory ch. 13 [37] (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 13059-13060; div iii.xiv): the one-sentence summary Vincent gives 'to unfold this same doctrine more distinctly and explicitly again and again'"
   license: public-domain
 retrieval:
   tier: 2

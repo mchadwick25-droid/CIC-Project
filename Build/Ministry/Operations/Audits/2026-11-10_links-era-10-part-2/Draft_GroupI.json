@@ -1,0 +1,884 @@
+{
+ "group": "I",
+ "movements": [
+  "oneness-pentecostalism",
+  "polish-catholicism-wyszynski-and-john-paul-ii",
+  "american-orthodoxy-autocephaly-and-the-convert-wave",
+  "orthodoxy-in-the-communist-balkans",
+  "the-armenian-church-after-the-genocide-medz-yegh",
+  "the-romanian-greek-catholic-church-suppression-and-return",
+  "sudanese-christianity-through-the-civil-wars",
+  "iglesia-ni-cristo-the-way-international-unificat"
+ ],
+ "dispositions": [
+  {
+   "movement": "oneness-pentecostalism",
+   "field": "relationsSummary",
+   "sentence": "Oneness Pentecostalism grew directly out of the wider Pentecostal movement that followed the Azusa Street revival.",
+   "other_id": "azusa-street-and-early-pentecostalism",
+   "disposition": "link",
+   "link_id": "azusa-street-and-early-pentecostalism--oneness-pentecostalism",
+   "prose_change": 1,
+   "reason": "Existing link kept: part 1 drew and merged it. Sentence reworded only for reading level (prose change 1)."
+  },
+  {
+   "movement": "oneness-pentecostalism",
+   "field": "relationsSummary",
+   "sentence": "Two other traditions trace back to the same roots: the True Jesus Church, founded in Beijing in 1917, and La Luz del Mundo in Mexico, which descends from the same 1914 Mexican Apostolic revival.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "The True Jesus Church has no movement of its own; part 1's Chinese church entry tells it. The claim of shared Pentecostal roots holds: Introvigne's review of Melissa Inouye's True Jesus (Bitter Winter, 10 Oct 2019, opened raw) says 'In 1915, Wei was introduced to Berntsen and quickly joined the Apostolic Faith Church', and that Berntsen came to Pentecostal faith after reading of Azusa Street. Kept, reworded. A link from Azusa Street to the Chinese church would be part 1's; flagged."
+  },
+  {
+   "movement": "oneness-pentecostalism",
+   "field": "relationsSummary",
+   "sentence": "Two other traditions trace back to the same roots: the True Jesus Church, founded in Beijing in 1917, and La Luz del Mundo in Mexico, which descends from the same 1914 Mexican Apostolic revival.",
+   "other_id": "iglesia-ni-cristo-the-way-international-unificat",
+   "disposition": "link",
+   "link_id": "oneness-pentecostalism--iglesia-ni-cristo-the-way-international-unificat",
+   "prose_change": 1,
+   "reason": "New 'gave rise to' link. 'Descends from the same 1914 Mexican Apostolic revival' qualified: the scholars read show the founder came to faith among Oneness believers (the I.E.C.E.), linked to Romanita Carbajal only through one contact, Rosa Murillo; descent from the 1914 revival itself is not shown."
+  },
+  {
+   "movement": "oneness-pentecostalism",
+   "field": "longDescription",
+   "sentence": "In October 1916 the Assemblies of God adopted its Statement of Fundamental Truths, an explicitly trinitarian confession, and the ministers who could not sign it left — so the rupture stands documented in each side's own words.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "The Assemblies of God has no movement. Its 1916 Minutes (IFPHC PDF, opened by part 1 and re-read here from the raw copy) record the council adopting its Statement of Fundamental Truths item by item (the OCR copy is too damaged to quote here). No Oneness body's own text of the break was opened, so 'documented in each side's own words' is taken out; the departure itself is kept on Reed (repo-cited)."
+  },
+  {
+   "movement": "oneness-pentecostalism",
+   "field": "longDescription",
+   "sentence": "The Iglesia Apostólica de la Fe en Cristo Jesús grew from it.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "No movement of its own. Kept: the census pass verified it on the Apostolic Assembly's own 'Brief History' (aaofcj.com) and a Dialnet article (P2-E10h trace, register edit IX.15); not reopened here. Sentence kept word for word inside the rewritten field."
+  },
+  {
+   "movement": "oneness-pentecostalism",
+   "field": "why",
+   "sentence": "When the Assemblies of God adopted an explicitly trinitarian statement of faith in 1916, the ministers who could not sign it left and formed their own bodies, among them the interracial Pentecostal Assemblies of the World, long led by G. T. Haywood.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No movement for these bodies. Flagged, not changed: 'formed their own bodies, among them' the Pentecostal Assemblies of the World sits uneasily with the long description, which says that body was 'Oneness from 1916' (it existed before). No source on its founding date was opened in this run, so the sentence is left for the reviewer."
+  },
+  {
+   "movement": "oneness-pentecostalism",
+   "field": "legacy",
+   "sentence": "Two seams run outward from this story. The True Jesus Church, founded in Beijing in 1917, shares the same Pentecostal roots; and La Luz del Mundo in Mexico descends from the same Mexican Apostolic revival of 1914.",
+   "other_id": "iglesia-ni-cristo-the-way-international-unificat",
+   "disposition": "link",
+   "link_id": "oneness-pentecostalism--iglesia-ni-cristo-the-way-international-unificat",
+   "prose_change": 2,
+   "reason": "Same two claims as the summary: the True Jesus Church sentence kept (Introvigne 2019 on Inouye); the La Luz del Mundo sentence qualified to what the scholars show."
+  },
+  {
+   "movement": "polish-catholicism-wyszynski-and-john-paul-ii",
+   "field": "relationsSummary",
+   "sentence": "One tells the Catholic Church from Pius X to the Council.",
+   "other_id": "the-catholic-church-pius-x-to-the-council",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A pointer to where the Rome-centered story is told; it claims no relationship between the movements."
+  },
+  {
+   "movement": "polish-catholicism-wyszynski-and-john-paul-ii",
+   "field": "relationsSummary",
+   "sentence": "The other tells the parish after the Second Vatican Council.",
+   "other_id": "the-post-vatican-ii-parish-world",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A pointer to where the Rome-centered story is told; it claims no relationship between the movements."
+  },
+  {
+   "movement": "polish-catholicism-wyszynski-and-john-paul-ii",
+   "field": "relationsSummary",
+   "sentence": "The Greek Catholic churches of the old Polish-Lithuanian lands are a separate line.",
+   "other_id": "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The sentence denies a line rather than claiming one; it marks the Greek Catholic line as separate. No link."
+  },
+  {
+   "movement": "polish-catholicism-wyszynski-and-john-paul-ii",
+   "field": "relationsSummary",
+   "sentence": "Lithuania's underground Chronicle of the Catholic Church is also told here.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Chronicle has no movement; it is a named line inside this entry. Its dates rest on the Chronicle's own archive site (Global Sweep E12, verified in the census pass)."
+  },
+  {
+   "movement": "polish-catholicism-wyszynski-and-john-paul-ii",
+   "field": "longDescription",
+   "sentence": "The Light-Life movement began with a first oasis retreat in 1954, led by Father Franciszek Blachnicki.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A lay movement inside this church, with no movement of its own. Supported by the IPN brochure on Blachnicki (Global Sweep E2, evidence 7, verified in the census pass)."
+  },
+  {
+   "movement": "polish-catholicism-wyszynski-and-john-paul-ii",
+   "field": "longDescription",
+   "sentence": "On 18 November 1965, in Rome, the Polish bishops sent a message to their German brother bishops.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The German bishops have no movement. The letter's date, drafter and signatories rest on dzieje.pl (Global Sweep E2, evidence 2, verified in the census pass)."
+  },
+  {
+   "movement": "polish-catholicism-wyszynski-and-john-paul-ii",
+   "field": "longDescription",
+   "sentence": "On 2 June 1979 Wojtyła, now Pope John Paul II, preached in Victory Square in Warsaw.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "An event in this church, not a relationship to another movement. The homily's words rest on Benedict XVI's 2006 Warsaw homily on vatican.va (Global Sweep E2, evidence 3)."
+  },
+  {
+   "movement": "american-orthodoxy-autocephaly-and-the-convert-wave",
+   "field": "relationsSummary",
+   "sentence": "American Orthodoxy grew from immigrant parishes into an American church, receiving autocephaly in 1970 — the institutional handoff from the Paris émigré generation that built St Vladimir's Seminary.",
+   "other_id": "emigre-orthodoxy-and-the-paris-school",
+   "disposition": "link",
+   "link_id": "emigre-orthodoxy-and-the-paris-school--american-orthodoxy-autocephaly-and-the-convert-wave",
+   "prose_change": 3,
+   "reason": "New 'influenced' link. 'The Paris émigré generation that built St Vladimir's Seminary' qualified: the seminary was not founded by the Paris teachers; its own page shows Schmemann coming from St Sergius in 1951 and helping to establish the self-ruling church in 1970."
+  },
+  {
+   "movement": "american-orthodoxy-autocephaly-and-the-convert-wave",
+   "field": "relationsSummary",
+   "sentence": "In 1987 the Evangelical Orthodox Church, a group of former evangelical leaders, was received into the Antiochian Archdiocese.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "Neither body has a movement. Christianity Today, 6 Feb 1987 (opened raw), reports 'The 1,800-member Evangelical Orthodox Church (EOC) will soon join the historic Antiochian Orthodox Church (AOC).' Kept, reworded for reading level. The longDescription's 'seventeen parishes' was not re-checked; flagged."
+  },
+  {
+   "movement": "american-orthodoxy-autocephaly-and-the-convert-wave",
+   "field": "relationsSummary",
+   "sentence": "Japan's Orthodox Church is told in the entry on Japanese Christianity after 1906.",
+   "other_id": "japanese-christianity-after-1906",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "A pointer to where another story is told; no relationship claimed. Reworded for reading level."
+  },
+  {
+   "movement": "american-orthodoxy-autocephaly-and-the-convert-wave",
+   "field": "legacy",
+   "sentence": "It receives the Paris school's handoff: the autocephaly of 1970 is the institutional close of the émigré generation's story and the opening of this one, and St Vladimir's Seminary sits at the join.",
+   "other_id": "emigre-orthodoxy-and-the-paris-school",
+   "disposition": "link",
+   "link_id": "emigre-orthodoxy-and-the-paris-school--american-orthodoxy-autocephaly-and-the-convert-wave",
+   "prose_change": 4,
+   "reason": "Carried by the new 'influenced' link. Reworded for reading level."
+  },
+  {
+   "movement": "american-orthodoxy-autocephaly-and-the-convert-wave",
+   "field": "legacy",
+   "sentence": "It was also one of the destinations named in the published accounts of people leaving evangelical churches, and this map wires that relation on those published accounts rather than on any guess about motives.",
+   "other_id": "deconstruction-and-ex-vangelical-communities",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "The relation it describes was a link to the Deconstruction and Ex-vangelical entry, retired on 2026-11-08 because all its dated anchors fall after 2010. No such link exists, so the sentence claims what is not there, in map-process words. Removed. Gillquist's Becoming Orthodox (1989) stays in the long description."
+  },
+  {
+   "movement": "orthodoxy-in-the-communist-balkans",
+   "field": "relationsSummary",
+   "sentence": "It carries on from Orthodoxy after 1821, the National Churches.",
+   "other_id": "orthodoxy-after-1821-balkan-autocephalies",
+   "disposition": "link",
+   "link_id": "orthodoxy-after-1821-balkan-autocephalies--orthodoxy-in-the-communist-balkans",
+   "prose_change": null,
+   "reason": "New 'continued as' link on the Romanian and Bulgarian churches' own histories, read online."
+  },
+  {
+   "movement": "orthodoxy-in-the-communist-balkans",
+   "field": "relationsSummary",
+   "sentence": "The Church of Greece and the Ecumenical Patriarchate have their own entry.",
+   "other_id": "the-greek-church-and-the-ecumenical-patriarchate",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A pointer; the two entries are siblings, not linked to each other. Group G owns the Greek entry's own link to the 1821 entry."
+  },
+  {
+   "movement": "orthodoxy-in-the-communist-balkans",
+   "field": "relationsSummary",
+   "sentence": "Romania's Lord's Army is told in the entry on the persecuted churches of the communist era.",
+   "other_id": "persecuted-church-worlds-of-the-communist-era-in",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A pointer to where the Lord's Army is told; the next sentence calls it a renewal movement inside the Romanian church. No link claimed. Part 1 owns that entry."
+  },
+  {
+   "movement": "orthodoxy-in-the-communist-balkans",
+   "field": "relationsSummary",
+   "sentence": "The Romanian Greek Catholic Church, dissolved in 1948, has its own entry.",
+   "other_id": "the-romanian-greek-catholic-church-suppression-and-return",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A pointer. The relation behind it (the Orthodox church's take-over of the Greek Catholic buildings) is judged under the Greek Catholic entry's own sentence."
+  },
+  {
+   "movement": "orthodoxy-in-the-communist-balkans",
+   "field": "longDescription",
+   "sentence": "In Bucharest a prayer movement called the Burning Bush met at the Antim monastery from about 1945.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A named line inside this church, with no movement. Dates rest on Stanciu 2025 (Global Sweep E3a, evidence 7, verified in the census pass)."
+  },
+  {
+   "movement": "the-armenian-church-after-the-genocide-medz-yegh",
+   "field": "relationsSummary",
+   "sentence": "This is the modern continuation of one of Christianity's oldest churches, tracing back to antiquity in the Caucasus, and it shares a history of suffering under Soviet rule with other churches from the region.",
+   "other_id": "armenian-christianity-zartonk",
+   "disposition": "link",
+   "link_id": "armenian-christianity-zartonk--the-armenian-church-after-the-genocide-medz-yegh",
+   "prose_change": null,
+   "reason": "Existing 'continued as' link kept, note rewritten to take out a post-2010 date."
+  },
+  {
+   "movement": "the-armenian-church-after-the-genocide-medz-yegh",
+   "field": "relationsSummary",
+   "sentence": "This is the modern continuation of one of Christianity's oldest churches, tracing back to antiquity in the Caucasus, and it shares a history of suffering under Soviet rule with other churches from the region.",
+   "other_id": "the-georgian-orthodox-church-restored",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A parallel, not a relationship: no exchange between the churches is claimed. No link."
+  },
+  {
+   "movement": "the-armenian-church-after-the-genocide-medz-yegh",
+   "field": "longDescription",
+   "sentence": "The Holy See of Cilicia relocated to Antelias in Lebanon in 1930.",
+   "other_id": "armenian-cilicia-after-the-kingdom",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A move inside the same church, whose chain of 'continued as' links already runs from the Cilician entries to this one. The Mother See's own Overview (opened raw) lists 'Catholicosate of the Great House of Cilicia (Antelias, Lebanon)' in the church's structure. The 1930 date itself was not re-read (the Catholicosate's site refused access); in wants."
+  },
+  {
+   "movement": "the-armenian-church-after-the-genocide-medz-yegh",
+   "field": "longDescription",
+   "sentence": "Etchmiadzin, the mother see, continued inside the Soviet Union under severe constraint; Catholicos Khoren I was killed in 1938.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Mother See has no movement of its own. Kept; the death of Khoren I in 1938 is marked unverified in the census sources (Sources_E, '[S]') and was not checked here. Flagged, in wants."
+  },
+  {
+   "movement": "the-armenian-church-after-the-genocide-medz-yegh",
+   "field": "longDescription",
+   "sentence": "In the Cold War the two sees divided along the politics of the diaspora, a division dated to 1956 whose records both sides kept.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A split inside one church, not a link between movements. Flagged: the 1956 date and 'whose records both sides kept' rest on items the census sources mark unverified ('[S]'). Not rewritten without a source; for the reviewer."
+  },
+  {
+   "movement": "the-armenian-church-after-the-genocide-medz-yegh",
+   "field": "legacy",
+   "sentence": "The Caucasus lane on this map runs from the fourth century straight through to it.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "A map-layout note in public text. Rewritten in words: the Mother See's own Overview dates its founding to 301-303, so the church's line is stated from its own text."
+  },
+  {
+   "movement": "the-romanian-greek-catholic-church-suppression-and-return",
+   "field": "relationsSummary",
+   "sentence": "The Ukrainian Greek Catholic Underground tells the same pattern in Ukraine.",
+   "other_id": "the-ukrainian-greek-catholic-underground",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A parallel and a pointer; no exchange between the two churches is claimed. Group H owns the Ukrainian entry's matching pointer."
+  },
+  {
+   "movement": "the-romanian-greek-catholic-church-suppression-and-return",
+   "field": "relationsSummary",
+   "sentence": "The Orthodox Church of Romania, which took over most of this church's buildings, is told in the entry on the Balkan Orthodox churches under communism.",
+   "other_id": "orthodoxy-in-the-communist-balkans",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No link drawn. The text makes the state the actor (Decree 358 of 1948); the census pass verified the buildings' transfer (jurnalul.ro). A link from the Orthodox church would need its own acts of October 1948 (the Cluj assembly and the Holy Synod's reception of Greek Catholic clergy), not opened in this run. In wants."
+  },
+  {
+   "movement": "the-romanian-greek-catholic-church-suppression-and-return",
+   "field": "legacy",
+   "sentence": "Its suppression came two years after the Lviv synod that dissolved the Ukrainian Greek Catholic Church in 1946.",
+   "other_id": "the-ukrainian-greek-catholic-underground",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A dated parallel told in the Ukrainian entry's own text (March 1946); no relation between the churches claimed."
+  },
+  {
+   "movement": "the-romanian-greek-catholic-church-suppression-and-return",
+   "field": "legacy",
+   "sentence": "Two years later, in April 1950, a 'sobor' at Prešov did the same in Czechoslovakia.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Czechoslovak Greek Catholic Church has no movement. Supported by Coranič, JEH 72.3 (2021) (Global Sweep E8, verified in the census pass): Prešov 'sobor', 28 April 1950."
+  },
+  {
+   "movement": "sudanese-christianity-through-the-civil-wars",
+   "field": "relationsSummary",
+   "sentence": "The ancient Christian kingdoms of Nubia stood on the same land, but no line runs from them to this story.",
+   "other_id": "makurian-nubian-christianity",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The sentence denies a line; the gate ruled a 'same land' note only (Global Sweep C7, G-86 a). No link, correctly."
+  },
+  {
+   "movement": "sudanese-christianity-through-the-civil-wars",
+   "field": "longDescription",
+   "sentence": "Jesse Zink has told how many Dinka people embraced Anglican faith in that war.",
+   "other_id": "the-anglican-communion-twentieth-century",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A study of conversion inside this entry's own Anglican body, not a relation between two movements. Zink's book is confirmed (author page and JEH review, P2-E10h trace, item ZI). Not a membership link: the Sudanese entry is a regional window across churches, not one church body on a council's roll."
+  },
+  {
+   "movement": "iglesia-ni-cristo-the-way-international-unificat",
+   "field": "relationsSummary",
+   "sentence": "La Luz del Mundo grew out of the Oneness Pentecostal movement.",
+   "other_id": "oneness-pentecostalism",
+   "disposition": "link",
+   "link_id": "oneness-pentecostalism--iglesia-ni-cristo-the-way-international-unificat",
+   "prose_change": 6,
+   "reason": "New 'gave rise to' link. Sentence qualified to say scholars draw the line and the church rejects the Pentecostal label (Fortuny)."
+  },
+  {
+   "movement": "iglesia-ni-cristo-the-way-international-unificat",
+   "field": "relationsSummary",
+   "sentence": "Iglesia ni Cristo has its own entry.",
+   "other_id": "iglesia-ni-cristo",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A pointer; Iglesia ni Cristo is group G's movement."
+  }
+ ],
+ "links": [
+  {
+   "id": "azusa-street-and-early-pentecostalism--oneness-pentecostalism",
+   "from": "azusa-street-and-early-pentecostalism",
+   "to": "oneness-pentecostalism",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "In 1914 Pentecostal ministers from many missions and churches formed a general council. By 1916 they were arguing over the words to say at baptism. The council told them not to fight over it. Historians trace the Oneness movement to this quarrel.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Preamble and Resolution of Constitution, Hot Springs, Ark., April 2-12, 1914, as reprinted in Minutes of the General Council of the Assemblies of God, St. Louis, Mo., Oct. 1-7, 1916",
+     "url": "https://archives.ifphc.org/DigitalPublications/USA/Assemblies%20of%20God%20USA/Minutes%20General%20Council/Unregistered/1916/FPHC/1916.pdf",
+     "accessed": "2026-11-10",
+     "locus": "PDF p. 2, Preamble and Resolution of Constitution",
+     "quote": "That we recognize ourselves as a GENERAL COUNCIL of Pentecostal (Spirit Baptized) saints from local Churches of God in Christ, Assemblies of God, and various Apostolic Faith Missions and Churches",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Minutes of the General Council of the Assemblies of God, St. Louis, Mo., Oct. 1-7, 1916",
+     "url": "https://archives.ifphc.org/DigitalPublications/USA/Assemblies%20of%20God%20USA/Minutes%20General%20Council/Unregistered/1916/FPHC/1916.pdf",
+     "accessed": "2026-11-10",
+     "locus": "PDF p. 8, 'Resolution on Baptismal Formula'",
+     "quote": "RESOLVED, That since the words in Matth. 28:19 and the words in Acts 2:38 were both inspired of God, we hereby disapprove of contending for the one to the exclusion of or as against the other, because confusion and a party spirit are sure to follow such unscriptural conduct.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "David A. Reed, 'In Jesus' Name': The History and Beliefs of Oneness Pentecostals (Deo, 2008)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "action": "keep",
+   "named_in_text": [
+    "oneness-pentecostalism relationsSummary ('grew directly out of the wider Pentecostal movement that followed the Azusa Street revival')",
+    "azusa-street-and-early-pentecostalism relationsSummary ('It gave rise to Oneness Pentecostalism.')"
+   ],
+   "wants": [],
+   "drafter_flags": [
+    "Part 1 drew and merged this link (inventory: part1_owned, part1_drew_link). Not redrawn here."
+   ],
+   "change_reason": "Kept unchanged: part 1 owns and has already merged it; its note, grade and sources were reviewed in part 1."
+  },
+  {
+   "id": "alaskan-mission-herman-veniaminov--american-orthodoxy-autocephaly-and-the-convert-wave",
+   "from": "alaskan-mission-herman-veniaminov",
+   "to": "american-orthodoxy-autocephaly-and-the-convert-wave",
+   "type": "gave rise to",
+   "confidence": "Inferential-Thin",
+   "note": "The Russian diocese for the Aleutian Islands and Russian America, set up by 1842, may be the root of the later Orthodox Church in America. A list of 1842 shows the diocese being founded, but nothing of it after that. So the line to the later church is thin.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, tr. R. W. Blackmore (Oxford, 1842), translator's note on the dioceses (1842)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "19190-19193",
+     "locus": "Notes, list of sees, translator's addition of 1842",
+     "quote": "To the above list are further to be added the following dioceses, which have been erected since 1830: — 1. Simbirsk; 2. Polotsk; 3. Tomsk; 4. The Aleoutine Islands, Kamschatka, and Russian America ;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "keep",
+   "named_in_text": [
+    "alaskan-mission-herman-veniaminov (era 9) text; the era 10 text does not name the Alaskan mission"
+   ],
+   "wants": [],
+   "drafter_flags": [
+    "Era 9's link: only the earlier movement's text names it, so it is left as era 9 drew it.",
+    "For a later pass: the OCA's own page (Jillions, 'The Tomos of Autocephaly: Forty-Six Years Later', oca.org, 7 April 2016, opened raw this run) says: 'What had begun in 1794 as the remotest mission of the Russian Church was now added to the list of fourteen other Orthodox autocephalous churches.' That is the church's own claim of continuity from the 1794 mission and could lift this link above Inferential-Thin.",
+    "The era 10 text says Orthodoxy 'came to North America with immigrants'. The OCA's own page puts its start in the 1794 Alaskan mission. Not wrong beyond a sentence, but the two entries read differently; flagged, not rewritten."
+   ],
+   "change_reason": "Kept unchanged: era 9 owns it. Flagged a church-body text that could raise it."
+  },
+  {
+   "id": "armenian-christianity-zartonk--the-armenian-church-after-the-genocide-medz-yegh",
+   "from": "armenian-christianity-zartonk",
+   "to": "the-armenian-church-after-the-genocide-medz-yegh",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "Malachia Ormanian, once patriarch of Constantinople, wrote a book on his church that came out in English in 1912. He showed it still run by a national assembly, and put its people at about four million. Historians follow the same church through the genocide of 1915.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Malachia Ormanian, The Church of Armenia, tr. G. Marcar Gregory (London, 1912)",
+     "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+     "lines": "6916-6919",
+     "locus": "ch. on the lay element in administration",
+     "quote": "By virtue of this constitution, the chief direction of affairs was entrusted to a national assembly invested with legislative powers and control,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Malachia Ormanian, The Church of Armenia, tr. G. Marcar Gregory (London, 1912)",
+     "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+     "lines": "9028-9029",
+     "locus": "ch. 'The External Aspect', p. 213",
+     "quote": "To-day they are no more than four millions.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Raymond Kévorkian, The Armenian Genocide: A Complete History (I.B. Tauris, 2011)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "rewrite",
+   "named_in_text": [
+    "the-armenian-church-after-the-genocide-medz-yegh relationsSummary ('the modern continuation of one of Christianity's oldest churches')",
+    "armenian-christianity-zartonk legacy"
+   ],
+   "wants": [
+    "The Catholicosate of Cilicia's own account of the move to Antelias (1930); the Catholicosate's site (armenianorthodoxchurch.org) refused raw access (403) in this run."
+   ],
+   "drafter_flags": [
+    "The old note named Kévorkian's history as a '2011 history'. A note may not carry anything after 2010, so the date and title were taken out of the note; the book stays as the secondary source.",
+    "Not raised: Documented would need an in-era text of the church after 1915 held in the Library. The Mother See's own Overview page (armenianchurch.org/en/Overview, opened raw) lists 'Catholicosate of the Great House of Cilicia (Antelias, Lebanon)' within the one church, which supports continuity, but it is undated and online."
+   ],
+   "change_reason": "Note rewritten only to remove a post-2010 date ('2011 history'); from, to, type, grade and sources unchanged."
+  },
+  {
+   "id": "orthodoxy-after-1821-balkan-autocephalies--orthodoxy-in-the-communist-balkans",
+   "action": "new",
+   "old_index": null,
+   "from": "orthodoxy-after-1821-balkan-autocephalies",
+   "to": "orthodoxy-in-the-communist-balkans",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "Romania's Orthodox Church won self-rule from Constantinople in 1885. In 1925 its own synod made that same church a patriarchate. Bulgaria's church began as an exarchate in 1870. In 1953 it was named a patriarchate.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Romanian Patriarchate, 'History of the Romanian Orthodox Church' (patriarhia.ro; the church's own account, undated page, copyright 2026)",
+     "url": "https://patriarhia.ro/en/history-of-the-romanian-orthodox-church/",
+     "accessed": "2026-11-10",
+     "locus": "section 'The Romanian Orthodox Church between 1859-1944'",
+     "quote": "the Ecumenical Patriarchate granted autocephaly to the Romanian Orthodox Church on April 25, 1885",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Romanian Patriarchate, 'History of the Romanian Orthodox Church' (patriarhia.ro; the church's own account, undated page, copyright 2026)",
+     "url": "https://patriarhia.ro/en/history-of-the-romanian-orthodox-church/",
+     "accessed": "2026-11-10",
+     "locus": "section 'The Romanian Orthodox Church between 1859-1944'",
+     "quote": "On February 4, 1925, the Holy Synod decided to elevate the Romanian Orthodox Church to the rank of Patriarchate",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bulgarian Orthodox Church - Bulgarian Patriarchate, 'История' (bg-patriarshia.bg; the church's own history page, undated; in Bulgarian)",
+     "url": "https://bg-patriarshia.bg/history",
+     "accessed": "2026-11-10",
+     "locus": "section on the Bulgarian Exarchate (1870)",
+     "quote": "След дълги перипетии на 27 февруари 1870г. султан Абдул Азис подписва ферман за учредяването на самостоятелна българска църковна структура под формата на екзархия, полузависима от Вселенската цариградска патриаршия.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bulgarian Orthodox Church - Bulgarian Patriarchate, 'История' (bg-patriarshia.bg; the church's own history page, undated; in Bulgarian)",
+     "url": "https://bg-patriarshia.bg/history",
+     "accessed": "2026-11-10",
+     "locus": "section on the Third Church-People's Council (May 1953)",
+     "quote": "Така на 10 май 1953г. БПЦ официално е провъзгласена за патриаршия, а за патриарх е избран Пловдивският митрополит Кирил.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Pedro Ramet (ed.), Eastern Christianity and Politics in the Twentieth Century (Duke University Press, 1988)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Lucian N. Leustean (ed.), Eastern Christianity and the Cold War, 1945-91 (Routledge, 2010)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "orthodoxy-in-the-communist-balkans relationsSummary ('It carries on from Orthodoxy after 1821, the National Churches. That entry ends in 1906.')",
+    "orthodoxy-after-1821-balkan-autocephalies legacy ('the Bulgarian, Serbian and Romanian patriarchates all date their modern independence to this century')"
+   ],
+   "wants": [
+    "The Serbian Orthodox Church's own account of the 1920 unification and the Tomos of 19 February 1922 (spc.rs refused a secure connection in this run).",
+    "An in-era text held in the Library (for example the 1925 Romanian law or the 1953 Bulgarian council's acts) would be needed for Documented; none is vendored."
+   ],
+   "drafter_flags": [
+    "Both church pages are undated web pages written after 2010 about earlier events; they support the pre-2010 facts only.",
+    "Bulgarian quotes renderings: 1870: 'After long trials, on 27 February 1870 Sultan Abdulaziz signed a firman founding a self-governing Bulgarian church body in the form of an exarchate, semi-dependent on the Ecumenical Patriarchate of Constantinople.' 1953: 'Thus on 10 May 1953 the BOC was officially proclaimed a patriarchate, and Metropolitan Kiril of Plovdiv was elected patriarch.' (my renderings).",
+    "The Serbian leg rests on no source opened in this run, so the note names only Romania and Bulgaria. The Albanian leg is not covered.",
+    "Ramet and Leustean are cited in the census entry's own legacy; named, not reopened here, so their support is for the consensus reading only.",
+    "Romanian page: the HTML puts a tag between 'Patriarchate' and the following comma; the quote stops before that boundary so a tag-stripping check matches."
+   ],
+   "change_reason": "New link. The era 10 text says it carries on from the 1821 entry; each church's own history shows the same church across the 1906 boundary (Romania 1885 to 1925; Bulgaria 1870 to 1953). Capped at Widely Accepted: read online, nothing in the Library."
+  },
+  {
+   "id": "emigre-orthodoxy-and-the-paris-school--american-orthodoxy-autocephaly-and-the-convert-wave",
+   "action": "new",
+   "old_index": null,
+   "from": "emigre-orthodoxy-and-the-paris-school",
+   "to": "american-orthodoxy-autocephaly-and-the-convert-wave",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "Alexander Schmemann taught at St Sergius in Paris until 1951. That year he moved to St Vladimir's Seminary in New York. In 1970 he helped set up the Orthodox Church in America as a self-ruling church.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "St Vladimir's Orthodox Theological Seminary, faculty page 'Protopresbyter Alexander Schmemann' (svots.edu; the seminary's own page, undated)",
+     "url": "https://svots.edu/people/protopresbyter-alexander-schmemann",
+     "accessed": "2026-11-10",
+     "locus": "biography, paragraphs 2-4",
+     "quote": "Ordained to the Orthodox priesthood in 1946, he taught church history at St Sergius until 1951, when he was invited to join the faculty of St Vladimir's in New York.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "St Vladimir's Orthodox Theological Seminary, faculty page 'Protopresbyter Alexander Schmemann' (svots.edu; the seminary's own page, undated)",
+     "url": "https://svots.edu/people/protopresbyter-alexander-schmemann",
+     "accessed": "2026-11-10",
+     "locus": "biography, paragraph on 1970",
+     "quote": "In 1970, he was active in the establishment of the Orthodox Church in America as an autocephalous church, which at that time became officially independent from the Russian Orthodox Church, and dedicated itself to the unity of Orthodox ethnic jurisdictions in this country.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Jillions, 'The Tomos of Autocephaly: Forty-Six Years Later', Orthodox Church in America, Headline News, 7 April 2016 (oca.org)",
+     "url": "https://www.oca.org/News/headline-news/the-tomos-of-autocephaly-forty-six-years-later",
+     "accessed": "2026-11-10",
+     "locus": "paragraph 2",
+     "quote": "edited at that time by the late Protopresbyter John Meyendorff, one of the architects of the OCA’s autocephaly.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Jillions, 'The Tomos of Autocephaly: Forty-Six Years Later', Orthodox Church in America, Headline News, 7 April 2016 (oca.org)",
+     "url": "https://www.oca.org/News/headline-news/the-tomos-of-autocephaly-forty-six-years-later",
+     "accessed": "2026-11-10",
+     "locus": "paragraph 3",
+     "quote": "On April 10, 1970, the Holy Synod of the Russian Orthodox Church proclaimed the autocephaly of the “Metropolia.”",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Antoine Arjakovsky, The Way: Religious Thinkers of the Russian Emigration in Paris and Their Journal (University of Notre Dame Press, ET 2013)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "american-orthodoxy-autocephaly-and-the-convert-wave relationsSummary ('the institutional handoff from the Paris émigré generation') and legacy ('It receives the Paris school's handoff')",
+    "emigre-orthodoxy-and-the-paris-school longDescription ('Alexander Schmemann, John Meyendorff — carried the work to America') and legacy"
+   ],
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "The 1970 grant was an act of the Moscow synod, not an act of either side on the other; the link claims teachers and ideas carried across, which is influence taken up, not an institutional result of the relation. Reviewer to confirm."
+   },
+   "wants": [
+    "Alexander Schmemann's own dated writing on autocephaly (for example 'A Meaningful Storm', St Vladimir's Theological Quarterly 15, 1971, listed on the SVS bibliography page) to rest the link on his words.",
+    "A study read in passage on the Paris emigrants' part in the OCA's autocephaly; the one secondary named here is repo-cited for the Paris story and not read for this point."
+   ],
+   "drafter_flags": [
+    "Shared pair with group H (emigre-orthodoxy-and-the-paris-school is H's movement and its legacy names the same handoff). Reconcile so the pair is drawn once.",
+    "Type chosen as 'influenced', not 'gave rise to': the American church did not emerge out of the Paris community; named teachers moved into it. The OCA page dates Moscow's grant of autocephaly to 10 April 1970; Moscow's own act is J's to link from the Russian church entry.",
+    "Meyendorff's own Paris training is not shown by any source opened here, so the note does not claim it.",
+    "Arjakovsky is cited in the repo for the Paris emigration (Sources_E); named only. Its fit for the American handoff is unconfirmed, so the Widely Accepted grade leans on the two church-body texts. The reviewer may prefer Dominant Modern Reconstruction or an open study."
+   ],
+   "change_reason": "New link. Both texts name the handoff; the seminary's and the OCA's own pages show Schmemann moving from St Sergius to St Vladimir's and helping to establish the self-ruling church in 1970."
+  },
+  {
+   "id": "oneness-pentecostalism--iglesia-ni-cristo-the-way-international-unificat",
+   "action": "new",
+   "old_index": null,
+   "from": "oneness-pentecostalism",
+   "to": "iglesia-ni-cristo-the-way-international-unificat",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Scholars trace La Luz del Mundo to Oneness Pentecostal believers in northern Mexico. Its founder, Eusebio Joaquín González, met them through his wife. He was baptized in late 1925. The church does not call itself Pentecostal.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Massimo Introvigne, 'From Thunderclaps to Temples: The Origins of La Luz del Mundo', Bitter Winter, 1 December 2025 (a paper given at the CESNUR 2025 conference, Cape Town)",
+     "url": "https://bitterwinter.org/from-thunderclaps-to-temples-the-origins-of-la-luz-del-mundo/",
+     "accessed": "2026-11-10",
+     "locus": "paragraph on Elisa Flores and Rosa Murillo",
+     "quote": "Rosa introduced Elisa to the Iglesia Evangélica Cristiana Espiritual (I.E.C.E.), part of the Oneness Pentecostal tradition, which rejected the Trinity and baptized in Jesus’ name only.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Massimo Introvigne, 'From Thunderclaps to Temples: The Origins of La Luz del Mundo', Bitter Winter, 1 December 2025 (a paper given at the CESNUR 2025 conference, Cape Town)",
+     "url": "https://bitterwinter.org/from-thunderclaps-to-temples-the-origins-of-la-luz-del-mundo/",
+     "accessed": "2026-11-10",
+     "locus": "paragraphs on Borrego, Saulo and Silas",
+     "quote": "Through Elisa, Eusebio met Francisco Borrego Martínez, leader of the I.E.C.E., and two eccentric prophets: Antonio Muñoz (Saulo) and Francisco Flores (Silas).",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Massimo Introvigne, 'From Thunderclaps to Temples: The Origins of La Luz del Mundo', Bitter Winter, 1 December 2025 (a paper given at the CESNUR 2025 conference, Cape Town)",
+     "url": "https://bitterwinter.org/from-thunderclaps-to-temples-the-origins-of-la-luz-del-mundo/",
+     "accessed": "2026-11-10",
+     "locus": "paragraph on the baptism",
+     "quote": "Silas baptized Eusebio in late 1925.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Massimo Introvigne, 'From Thunderclaps to Temples: The Origins of La Luz del Mundo', Bitter Winter, 1 December 2025 (a paper given at the CESNUR 2025 conference, Cape Town)",
+     "url": "https://bitterwinter.org/from-thunderclaps-to-temples-the-origins-of-la-luz-del-mundo/",
+     "accessed": "2026-11-10",
+     "locus": "paragraph on the early 1940s",
+     "quote": "Many early converts came from Oneness Pentecostalism, bringing a penchant for schism.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Patricia Fortuny Loret de Mola, 'La Luz del Mundo', World Religions and Spirituality Project (wrldrels.org), posted 5 June 2016, updated 26 October 2023",
+     "url": "https://wrldrels.org/?p=3249",
+     "accessed": "2026-11-10",
+     "locus": "Doctrines/Beliefs, paragraph 1",
+     "quote": "Members and authorities of the church do not identify themselves as Pentecostals.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Patricia Fortuny Loret de Mola, 'La Luz del Mundo', World Religions and Spirituality Project (wrldrels.org), posted 5 June 2016, updated 26 October 2023",
+     "url": "https://wrldrels.org/?p=3249",
+     "accessed": "2026-11-10",
+     "locus": "Doctrines/Beliefs, paragraph 1",
+     "quote": "However, because of its origin, development, ritual and doctrine I classify this church in this way.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Daniel Ramírez, Migrating Faith: Pentecostalism in the United States and Mexico in the Twentieth Century (University of North Carolina Press, 2015)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "iglesia-ni-cristo-the-way-international-unificat relationsSummary ('La Luz del Mundo grew out of the Oneness Pentecostal movement.')",
+    "oneness-pentecostalism relationsSummary and legacy (La Luz del Mundo shares the roots)"
+   ],
+   "wants": [
+    "La Luz del Mundo's own dated account of its founding and of Aarón's baptism (lldm.org refused raw access, 403, in this run). With it the link could rest on the church's own text.",
+    "Patricia Fortuny Loret de Mola's own studies of La Luz del Mundo, read in passage."
+   ],
+   "drafter_flags": [
+    "No church-body primary was opened: La Luz del Mundo's own site refused access. The link rests on two scholars read online, so it is graded Dominant Modern Reconstruction, not Widely Accepted.",
+    "The church's own view differs from the scholars' label: Fortuny reports that its members and leaders do not call themselves Pentecostal, and she classifies it so on origin, rite and doctrine. The note says so plainly. The reviewer may judge this Contested instead.",
+    "Introvigne also says Silas baptized Eusebio with a Trinitarian formula, which Aarón had 'corrected' by rebaptism in Jesus' name in 1938. The baptizer's Oneness credentials are therefore not shown; the line runs through the I.E.C.E. contact and early converts.",
+    "Both scholars' pages are dated after 2010 (2016/2023 and 2025); they support pre-2010 facts only. Bitter Winter is a CESNUR magazine; the piece is a conference paper by a named scholar. WRSP is an authored scholarly profile, not an encyclopedia mirror; the reviewer should confirm both count.",
+    "The target is a three-body entry; the link concerns La Luz del Mundo only, as the note says.",
+    "Ramírez is repo-cited (Sources_E, oneness-pentecostalism) for 'the Apostolic-borderlands wing'; named only, not read."
+   ],
+   "change_reason": "New link. Both texts name the descent; two scholars read online show the founder's entry through Oneness Pentecostal circles in 1925, and the church's own refusal of the label is recorded."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "oneness-pentecostalism",
+   "field": "longDescription",
+   "old": "In April 1913, at the Arroyo Seco camp meeting, R. E. McAlister preached on baptism and observed that the baptisms recorded in Acts are performed in the name of Jesus. The following year Frank Ewart and Glenn Cook baptized one another on that basis, and the question tore through the young Pentecostal movement. In October 1916 the Assemblies of God adopted its Statement of Fundamental Truths, an explicitly trinitarian confession, and the ministers who could not sign it left — so the rupture stands documented in each side's own words. Several bodies followed. The Pentecostal Assemblies of the World is the oldest, Oneness from 1916, and was interracial through decades in which other Pentecostal bodies separated by race; the separations of 1924, and the racial dimension of the 1945 merger, are part of its own telling, and G. T. Haywood was among its leaders. The United Pentecostal Church International was formed by a merger vote on 25 September 1945 and published its Articles of Faith in a Manual reissued each year. In Mexico the Apostolic revival began in 1914. Romanita Carbajal de Valenzuela had become a Pentecostal in Los Angeles, and that year she returned to Villa Aldama in Chihuahua. The Iglesia Apostólica de la Fe en Cristo Jesús grew from it.",
+   "new": "In April 1913, at the Arroyo Seco camp meeting, R. E. McAlister preached on baptism. He noted that the baptisms in the book of Acts are done in the name of Jesus. The next year Frank Ewart and Glenn Cook baptized each other on that basis. The question tore through the young Pentecostal movement. In October 1916 the Assemblies of God adopted its Statement of Fundamental Truths, a plainly trinitarian creed. The ministers who could not sign it left. Several bodies followed. The oldest is the Pentecostal Assemblies of the World, Oneness from 1916, and G. T. Haywood was among its leaders. For decades it had Black and white members together, while other Pentecostal bodies split by race. Its own telling includes the splits of 1924 and the part race played in the merger of 1945. The United Pentecostal Church International was formed by a merger vote on 25 September 1945. It printed its Articles of Faith in a Manual each year. In Mexico the Apostolic revival began in 1914. Romanita Carbajal de Valenzuela had become a Pentecostal in Los Angeles. That year she went home to Villa Aldama in Chihuahua. The Iglesia Apostólica de la Fe en Cristo Jesús grew from it.",
+   "reason": "'So the rupture stands documented in each side's own words' taken out: only the Assemblies of God side (its 1916 Minutes) was read, and the clause narrates process. Whole paragraph rewritten for reading level (it scored FRE 46); every fact kept."
+  },
+  {
+   "n": 1,
+   "movement": "oneness-pentecostalism",
+   "field": "relationsSummary",
+   "old": "Oneness Pentecostalism grew directly out of the wider Pentecostal movement that followed the Azusa Street revival. Two other traditions trace back to the same roots: the True Jesus Church, founded in Beijing in 1917, and La Luz del Mundo in Mexico, which descends from the same 1914 Mexican Apostolic revival.",
+   "new": "Oneness Pentecostalism grew out of the wider Pentecostal movement that came after the Azusa Street revival. Two other churches share those roots. One is the True Jesus Church, founded in Beijing in 1917. The other is La Luz del Mundo in Mexico. Its founder came to faith among Oneness believers there in the 1920s.",
+   "reason": "La Luz del Mundo's descent 'from the same 1914 Mexican Apostolic revival' qualified to what the scholars read show (the founder came to faith among Oneness believers, 1925). True Jesus Church kept (Introvigne 2019 on Inouye). 'Directly' dropped as an interpretation. Rewritten for reading level (FRE 33)."
+  },
+  {
+   "n": 2,
+   "movement": "oneness-pentecostalism",
+   "field": "legacy",
+   "old": "By 2010 these were living churches with congregations worldwide. Their distinguishing practice — baptism in the name of Jesus — was what a visitor noticed first. Their scale was hard to fix: the figures in circulation were the bodies' own, without an independent count to check them against. Two seams run outward from this story. The True Jesus Church, founded in Beijing in 1917, shares the same Pentecostal roots; and La Luz del Mundo in Mexico descends from the same Mexican Apostolic revival of 1914.",
+   "new": "By 2010 these were living churches with congregations worldwide. Their mark, baptism in the name of Jesus, was what a visitor noticed first. Their size was hard to fix. The figures in use were the bodies' own, with no outside count to check them. Two other churches share these roots. The True Jesus Church was founded in Beijing in 1917. The founder of La Luz del Mundo in Mexico came to faith among Oneness believers.",
+   "reason": "Same two claims as the summary, qualified the same way; 'Two seams run outward from this story' dropped. Reading level kept above the floor."
+  },
+  {
+   "n": 3,
+   "movement": "american-orthodoxy-autocephaly-and-the-convert-wave",
+   "field": "relationsSummary",
+   "old": "American Orthodoxy grew from immigrant parishes into an American church, receiving autocephaly in 1970 — the institutional handoff from the Paris émigré generation that built St Vladimir's Seminary. In 1987 the Evangelical Orthodox Church, a group of former evangelical leaders, was received into the Antiochian Archdiocese. A newer stream of converts followed. Several overlapping jurisdictions operated on the same soil in 2010, an anomaly by Orthodoxy's own canons. Japan's Orthodox Church is told in the entry on Japanese Christianity after 1906.",
+   "new": "Orthodox Christians came to North America in immigrant parishes. In time their church became one of its own. It won full self-rule in 1970. Alexander Schmemann, who had taught in Paris, helped bring that about from his seminary in New York. In 1987 a group of former evangelical leaders brought their churches into the Antiochian Orthodox fold. More converts came after them. By 2010 several Orthodox church bodies served the same ground. By the church's own rules, that was out of order. Japan's Orthodox Church is told with the story of Japanese Christians after 1906.",
+   "reason": "'The Paris émigré generation that built St Vladimir's Seminary' qualified to Schmemann's part, from the seminary's own page. Rewritten for reading level (FRE 12); the Antiochian reception, the overlapping jurisdictions and the Japan pointer kept."
+  },
+  {
+   "n": 4,
+   "movement": "american-orthodoxy-autocephaly-and-the-convert-wave",
+   "field": "legacy",
+   "old": "In 2010 this was a living edge of a very old church. It was jurisdictionally plural, with several overlapping jurisdictions on the same soil. That was an anomaly by Orthodoxy's own canons and a fact of North American life. It receives the Paris school's handoff: the autocephaly of 1970 is the institutional close of the émigré generation's story and the opening of this one, and St Vladimir's Seminary sits at the join. It was also one of the destinations named in the published accounts of people leaving evangelical churches, and this map wires that relation on those published accounts rather than on any guess about motives. The one dedicated scholarly study, Amy Slagle's fieldwork, was published later, in 2011.",
+   "new": "In 2010 this was a living edge of a very old church. Several jurisdictions overlapped on the same soil. That broke Orthodoxy's own canons, yet it was a fact of North American life. The self-rule of 1970 marks the close of the Paris emigrants' story and the start of this one. St Vladimir's Seminary stands where the two meet. The one dedicated scholarly study, Amy Slagle's fieldwork, came out later, in 2011.",
+   "reason": "The sentence on 'published accounts' and 'this map wires that relation' removed: the link it names belonged to a movement retired on 2026-11-08 and does not exist; it was map-process language. The rest kept and rewritten for reading level (FRE 39)."
+  },
+  {
+   "n": 5,
+   "movement": "the-armenian-church-after-the-genocide-medz-yegh",
+   "field": "legacy",
+   "old": "In 2010 the church was alive in Armenia and in a diaspora larger than the church at home. It was one of the oldest continuously existing churches anywhere. The Caucasus lane on this map runs from the fourth century straight through to it. The Cold War split between Etchmiadzin and Antelias had eased by 2010, but it shaped generations of diaspora life. And the whole record of this century has to be handled the way its own communities handled it: as living memory, not distant history.",
+   "new": "In 2010 the church was alive in Armenia and in a diaspora larger than the church at home. It was one of the oldest churches anywhere with an unbroken life. Its Mother See at Etchmiadzin dates its founding to the early fourth century. The Cold War split between Etchmiadzin and Antelias had eased by 2010. But it shaped the life of the diaspora for generations. And the record of this century has to be handled the way its own people handled it: as living memory, not distant history.",
+   "reason": "Map-layout sentence ('The Caucasus lane on this map') rewritten in words, from the Mother See's own Overview (founded 301-303). Rest kept, split for reading level."
+  },
+  {
+   "n": 6,
+   "movement": "iglesia-ni-cristo-the-way-international-unificat",
+   "field": "relationsSummary",
+   "old": "Three separately founded bodies share this entry. They did not share a confession, and each body's own texts carry its own finding. La Luz del Mundo grew out of the Oneness Pentecostal movement. Iglesia ni Cristo has its own entry.",
+   "new": "Three separately founded bodies share this entry. They did not share a creed, and each body's own texts carry its own finding. Scholars trace La Luz del Mundo to the Oneness Pentecostal movement. The church itself does not call itself Pentecostal. Iglesia ni Cristo has its own entry.",
+   "reason": "'Grew out of' qualified to a scholars' reading, with the church's own rejection of the Pentecostal label (Fortuny, WRSP). Reading level kept above the floor."
+  }
+ ],
+ "wants": [
+  "La Luz del Mundo's own dated account of its founding and of the founder's baptism (lldm.org refused access): would let the Oneness link rest on the church's own text.",
+  "The Serbian Orthodox Church's own account of the 1920 unification and the Tomos of 1922 (spc.rs refused a secure connection).",
+  "The Catholicosate of Cilicia's own history of its move to Antelias in 1930 (armenianorthodoxchurch.org refused access, 403).",
+  "A source for Catholicos Khoren I's death in 1938 and for the 1956 division between Etchmiadzin and Antelias, both marked unverified in the census sources.",
+  "The Romanian Orthodox Church's own acts of October 1948 on receiving the Greek Catholic clergy and churches, and the text of Decree 358/1948 (legislatie.just.ro refused a connection): needed before any link between the Romanian Orthodox and Greek Catholic entries.",
+  "Alexander Schmemann's own dated writing on the 1970 autocephaly (for example 'A Meaningful Storm', St Vladimir's Theological Quarterly 15, 1971).",
+  "A source for the founding date of the Pentecostal Assemblies of the World, to settle the 'why' sentence that has it formed after 1916.",
+  "Any in-era text of these churches held in the Library: none is vendored for 1906-2010 in this group, so no link here can be Documented."
+ ],
+ "escalations": [
+  "None that changes a method rule. Two items for the reviewer, not escalations: (1) the La Luz del Mundo link rests on two scholars read online, one in a CESNUR magazine and one in the WRSP profiles; whether those venues count as studies is a reading of the era 10 evidence rule worth confirming; (2) the Armenian long description's 1956 division 'whose records both sides kept' rests on unverified items, but it is one clause, so it is flagged, not escalated.",
+  "Coordination: the Paris emigration to American Orthodoxy pair is shared with group H (both texts name it). Draw it once.",
+  "For part 1 or a later whole-set pass: the Oneness text names the True Jesus Church's Pentecostal roots (Azusa Street via Bernt Berntsen). A link from Azusa Street to the Chinese church entry would be part 1's; none exists."
+ ]
+}

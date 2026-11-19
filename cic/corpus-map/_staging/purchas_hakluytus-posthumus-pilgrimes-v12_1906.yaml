@@ -24,6 +24,8 @@ assignments:
       - the-society-of-jesus
     role: context
     confidence: assigned
+    language: eng
+    date: {formation_confidence: unknown, checked: "file header and chapter headings; Purchas's 1625 compilation is not dated in the lines read, and the 1906 reprint date dates the edition only"}
     note: >
       The Society's own account of its China mission as English readers of 1625 received
       it, through Purchas's abridgement and commentary. Context, not tradition, because the

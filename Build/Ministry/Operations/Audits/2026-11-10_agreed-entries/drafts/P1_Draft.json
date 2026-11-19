@@ -1,0 +1,1679 @@
+{
+ "entries": [
+  {
+   "id": "augustine-of-hippo",
+   "atlasId": "TBD",
+   "era": 2,
+   "kind": "person",
+   "toldWithin": "latin-pastoral-congregational-christianity",
+   "name": "Augustine of Hippo",
+   "shortName": "Augustine",
+   "informalName": "Augustine",
+   "dates": "386-430",
+   "start": 386,
+   "end": 430,
+   "region": "Hippo Regius, Milan",
+   "placeLabel": "Hippo Regius · Milan",
+   "modernCountries": [
+    {
+     "country": "Algeria",
+     "countryId": "Q262",
+     "place": "Hippo Regius",
+     "placeId": "Q858024",
+     "pleiadesId": "305090"
+    },
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Milan",
+     "placeId": "Q490"
+    }
+   ],
+   "regions": [
+    "Africa",
+    "Mediterranean"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Very rich. The Library holds 106 of his own works on the shelf of the Latin Pastoral Congregations: sermons, letters, treatises, and the Confessions. Possidius, his friend and fellow bishop, wrote his Life.",
+   "floorNote": "Not in question. He wrote On the Trinity and stood with the Nicene faith.",
+   "relationsSummary": "He is told within the Latin Pastoral Congregations, as their bishop at Hippo. For many years he argued with the Manichaeans and the Donatists. Then he took on the followers of Pelagius.",
+   "why": "Augustine is the most fully recorded pastor of the ancient world. A teacher of rhetoric, he came to faith in a garden in Milan in 386. He then served one African town as priest and bishop until he died there in 430, with the Vandals at its walls.",
+   "entry": null,
+   "teaser": "Hippo Regius, 386 to 430 CE: a teacher of rhetoric who became a bishop. He preached to one African town for most of his life, and argued with half the Christian world.",
+   "longDescription": "Augustine was born at Tagaste in 354. From his nineteenth year he followed the Manichaeans for nine years. He taught rhetoric at Carthage, and then at Rome and Milan. In Milan he went to hear Ambrose preach. In September 386 he sat in the garden of the house where he lodged in Milan. A child's voice from a nearby house chanted 'Take up and read', and he turned to Christ. Ambrose baptized him at Easter 387.\n\nBack in Africa, the people of Hippo Regius made him a priest in 391, against his will. In 395 he became bishop there. He stayed in that town for the rest of his life.\n\nMuch of his writing was argument. He answered the Manichaeans he had once joined, among them their teacher Faustus. He argued for years with the Donatist church that stood beside his own, and met its bishops at Carthage in 411. Later he wrote against Pelagius on grace and human nature. Julian of Eclanum called the Catholic party Manichaeans, and Augustine answered him in four books.\n\nAfter the Goths sacked Rome in 410, pagans blamed the Christians for the disaster. In 413 Augustine began the City of God in answer, and he finished it in 426. He died at Hippo on 28 August 430, in the third month of the Vandal siege.",
+   "voices": [
+    "Augustine of Hippo — bishop of Hippo Regius for thirty-five years, and the most extensively documented working pastor of the ancient world",
+    "Possidius of Calama — Augustine's friend and fellow bishop, who wrote his biography and cataloged his works"
+   ],
+   "legacy": "Later churches kept coming back to him. Around 550, Facundus of Hermiane called him the 'most wise and most famous teacher of the churches of Christ'. In Geneva, Calvin wrote that he could fill a whole book with Augustine's words alone. Port-Royal took its view of grace from him, and Cornelius Jansen named his own book Augustinus. Rome condemned five propositions said to come from that book in 1653. People still argue over what Augustine taught on grace.",
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "cyprian-of-carthage",
+   "atlasId": "TBD",
+   "era": 1,
+   "kind": "person",
+   "toldWithin": "latin-pastoral-congregational-christianity",
+   "name": "Cyprian of Carthage",
+   "shortName": "Cyprian",
+   "informalName": "Cyprian",
+   "dates": "248-258",
+   "start": 248,
+   "end": 258,
+   "region": "Carthage",
+   "placeLabel": "Carthage",
+   "modernCountries": [
+    {
+     "country": "Tunisia",
+     "countryId": "Q948",
+     "place": "Carthage",
+     "placeId": "Q6343",
+     "pleiadesId": "314921"
+    }
+   ],
+   "regions": [
+    "Africa",
+    "Mediterranean"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Rich. The Library holds 35 of his own works on the shelf of the Latin Pastoral Congregations: letters and treatises in Latin, French and English, and the Life by his deacon Pontius.",
+   "floorNote": "Not in question. His quarrel with Rome was over baptism given outside the church, not over the faith itself.",
+   "relationsSummary": "He is told within the Latin Pastoral Congregations, as bishop of Carthage. He refused to take in Novatian's envoys. He argued with Stephen of Rome over baptism. Later the Donatists quoted him to defend their own break.",
+   "why": "Cyprian led the church of Carthage through persecution, plague and schism, and his letters are the fullest record of how a third-century church was run. He read Tertullian every day and called him 'the master'.",
+   "entry": null,
+   "teaser": "Carthage, 248 to 258 CE: a teacher of rhetoric made bishop two years after his baptism. He held his church together by letter, and he died by the sword.",
+   "longDescription": "Cyprian was trained as a rhetorician and became a Christian around 246. Two years later the people of Carthage pressed him to become their bishop. Some older presbyters objected. He held the office until his death in 258.\n\nWhen Decius ordered everyone to sacrifice in 250, Cyprian went into hiding. The clergy of Rome attacked him for it in a letter. From his hiding place he kept running his church by letter. Many of his people had sacrificed, and he had to decide how to take them back.\n\nWhen plague struck, he gathered his people and preached on mercy. It was nothing great, he said, to care only for their own. God sends sun and rain to all, and a child of God should do the same.\n\nHe fought hard for the unity of the church. 'He can no longer have God for his Father, who has not the Church for his mother,' he wrote. He refused the envoys of Novatian, a rival bishop at Rome. In 255 he and a council of African bishops told Stephen of Rome that people coming from heresy must be baptized. Stephen disagreed, and Cyprian called it his error.\n\nUnder Valerian he was arrested and beheaded outside Carthage in 258. The crowd was so large that some climbed the trees to watch.",
+   "voices": [
+    "Cyprian of Carthage — bishop through persecution and plague, whose letters are the fullest surviving picture of how a third-century congregation actually ran",
+    "Pontius the Deacon — Cyprian's deacon, who wrote an account of his bishop's life and death"
+   ],
+   "legacy": "Both sides of a later split claimed him. The Donatists kept quoting his letters and his council to defend their break. Augustine asked them why. Augustine himself said Cyprian was wrong about baptism. But he never doubted the man. Around 550, Facundus still cited 'blessed Cyprian, bishop of Carthage and martyr'. In 533, Procopius reports, the people of Carthage loved Cyprian above all other holy men.",
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "irenaeus-of-lyon",
+   "atlasId": "TBD",
+   "era": 1,
+   "kind": "person",
+   "toldWithin": "post-apostolic-house-church",
+   "name": "Irenaeus of Lyon",
+   "shortName": "Irenaeus",
+   "informalName": "Irenaeus",
+   "dates": "c. 177-190",
+   "start": 177,
+   "end": 190,
+   "region": "Lyon",
+   "placeLabel": "Lyon",
+   "modernCountries": [
+    {
+     "country": "France",
+     "countryId": "Q142",
+     "place": "Lyon",
+     "placeId": "Q456"
+    }
+   ],
+   "regions": [
+    "Mediterranean"
+   ],
+   "lane": "Origin (pre-lane)",
+   "laneLabel": "Origin — before the lanes divide",
+   "laneOrder": 0,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Moderate. Against Heresies survives whole in Latin and English, and fragments of his lost writings survive too. Both sit on the Household-Church shelf. Most of what is known of his life comes from Eusebius.",
+   "floorNote": "Not in question. He wrote more than a century before the Nicene Creed.",
+   "relationsSummary": "He is told within the Household Churches of the years after the apostles. He wrote against the Valentinians and Marcion. He also listed Rome's bishops, to show where the apostles' teaching was kept.",
+   "why": "As a boy Irenaeus saw Polycarp of Smyrna. Later he led the church at Lyon in Gaul. His five books Against Heresies are the fullest answer to the Valentinians that we still have. He wrote them while Eleutherius was bishop of Rome.",
+   "entry": null,
+   "teaser": "Lyon, c. 177 to 190 CE: a bishop who had seen Polycarp as a boy, answering the Valentinians by asking which churches the apostles had taught.",
+   "longDescription": "As a boy, Irenaeus saw Polycarp, the bishop of Smyrna, who had been taught by apostles. Later he wrote that Polycarp always taught what he had learned from the apostles.\n\nAround 177 the Christians of Lyon in Gaul were in prison, awaiting death. They wrote to Eleutherius, bishop of Rome, and asked Irenaeus to carry the letter. They called him 'zealous for the covenant of Christ', a presbyter of their church. Their bishop Pothinus died with the martyrs, and Irenaeus took his place.\n\nHis great work, Against Heresies, was written while Eleutherius led the church of Rome. It sets out the teaching of the Valentinians and answers it at length. He named the bishops of Rome in order, from the apostles down to Eleutherius, who 'does now' hold the office. Polycarp, he adds, turned many at Rome away from the followers of Valentinus and Marcion.\n\nLater, Victor of Rome threatened to cut off the churches of Asia over the date of Easter. Irenaeus wrote for the churches of Gaul. He held that Easter belonged on the Lord's day, but he warned Victor not to cut off whole churches for keeping an ancient custom.",
+   "voices": [
+    "Irenaeus of Lyon — presbyter and then bishop of Lyon, who had heard Polycarp in his youth and wrote the five books Against Heresies",
+    "The martyrs of Lyon and Vienne — the imprisoned Christians who sent him to Rome with their letter, around 177"
+   ],
+   "legacy": "His list of Rome's bishops became a starting point for later arguments about who holds the apostles' teaching. Historians still weigh it. Peter Lampe argues that Rome had no single bishop in charge until about 189 to 199. His account of the Valentinians and of Marcion remains a main witness to both, but it is the witness of an opponent.",
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "jovinian",
+   "atlasId": "TBD",
+   "era": 2,
+   "kind": "person",
+   "toldWithin": null,
+   "name": "Jovinian",
+   "shortName": "Jovinian",
+   "informalName": "Jovinian",
+   "dates": "c. 390",
+   "start": 390,
+   "end": 390,
+   "region": "Rome",
+   "placeLabel": "Rome",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Rome",
+     "placeId": "Q220",
+     "pleiadesId": "423025"
+    }
+   ],
+   "regions": [
+    "Mediterranean"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Told within no tradition",
+   "statusDescription": "Everything known about him comes from the bishops who condemned him and the scholar who answered him. None of his own writing survives except where they quote it.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Thin and hostile. His own book is lost. Jerome quotes its main points in his two books Against Jovinianus, and a letter of Ambrose warns against two monks his editor takes for Jovinian's followers.",
+   "floorNote": "Not a Creed question, as far as the record goes. The points that were condemned are about virginity, marriage, fasting, sin after baptism and reward in heaven. Only his opponents report them.",
+   "relationsSummary": "Known only through Jerome and Ambrose, who both wrote against him. Their editors report that synods at Rome and Milan condemned his book about 390.",
+   "why": "Jovinian taught that a baptized wife is no lower in God's sight than a virgin, and that fasting is no better than eating with thanks. Rome and Milan condemned him, and Jerome answered him in two long books.",
+   "entry": null,
+   "teaser": "Rome, c. 390 CE: a monk who put off the monk's dress and said marriage was as good as virginity, known only from the men who condemned him.",
+   "longDescription": "Jovinian is known only through Jerome and Ambrose. No tradition on this map tells his story, and none of his own writing survives whole. What remains is what his opponents chose to quote.\n\nJerome's editor calls him a Roman monk, or rather a solitary, who put off the monk's dress and lived like other men. He wrote a book in Latin at Rome. Jerome quotes four points from it. Baptized virgins, widows and wives are of equal merit. Those reborn in baptism with full faith cannot be overthrown by the devil. Fasting is no better than eating with thanks. And all who keep their baptismal vow share one reward in heaven.\n\nPammachius, a friend of Jerome, brought the book to Siricius, bishop of Rome. By the editors' account, synods at Rome and at Milan condemned it about 390. Ambrose and his synod wrote back to Siricius to join the sentence. In a letter to the church at Vercelli, Ambrose warned against two monks who said there is 'no merit in abstinence' and none in virginity. His editor takes them for followers of Jovinian.\n\nIn 393 Jerome answered the book with two books of his own, Against Jovinianus. He calls Jovinian 'the Epicurus of Christianity'. Even Jerome's editor gives a warning here. He says Jerome's charges about the man's life are guesses drawn from his views. They are not known facts.",
+   "voices": [
+    "Jovinian — a Roman monk whose book is lost; his four main points survive only as Jerome quotes them",
+    "Jerome — who answered him in two books Against Jovinianus in 393",
+    "Ambrose of Milan — whose synod joined the sentence passed on him at Rome"
+   ],
+   "legacy": "His book is lost, and his side lost the argument. Jerome's reply survives. Jerome himself later wrote to Pammachius that some thought he had gone too far in those books, praising virginity and running down marriage.",
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "ambrose-of-milan",
+   "atlasId": "TBD",
+   "era": 2,
+   "kind": "person",
+   "toldWithin": "ambrosian-milan-standalone",
+   "name": "Ambrose of Milan",
+   "shortName": "Ambrose",
+   "informalName": "Ambrose",
+   "dates": "374-397",
+   "start": 374,
+   "end": 397,
+   "region": "Milan",
+   "placeLabel": "Milan",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Milan",
+     "placeId": "Q490"
+    }
+   ],
+   "regions": [
+    "Mediterranean"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Rich for one bishop. The Library holds nine of his own works on the shelf of Ambrose's Milan, including his letters, with the Life written by Paulinus of Milan.",
+   "floorNote": "Not in question. He was a leading defender of the Nicene faith against the Homoian bishops.",
+   "relationsSummary": "He is told within Ambrose's Milan, the city church he led as bishop. He argued with the court, with the Homoian bishops and with Priscillian. His synod joined the sentence on Jovinian, and he baptized Augustine.",
+   "why": "Ambrose was still a catechumen when the people of Milan acclaimed him bishop in 374. For twenty-three years he told emperors where their power stopped. He died in his city on Good Friday night, 397.",
+   "entry": null,
+   "teaser": "Milan, 374 to 397 CE: a man not yet baptized whom a crowd made bishop. He taught emperors that they stood within the church, not above it.",
+   "longDescription": "His father held high office in Gaul, and Ambrose was most likely born at Trier, around 340. In 374 Auxentius, the Homoian bishop of Milan, died. The people acclaimed Ambrose as bishop, though he was still a catechumen. He was baptized, and on 7 December 374 he was consecrated.\n\nHe argued in public with power. At Aquileia in 381 he questioned the Homoian bishop Palladius. In 386 he preached against Auxentius, a rival bishop, and declared him cast out. 'The Emperor is within the Church, not above it,' he said. In 388 he would not go to the altar until Theodosius dropped a case over a burned synagogue. After the massacre at Thessalonica in 390, he wrote that he dared not offer the sacrifice with the emperor present.\n\nHe also judged teachers. About 390, by his editor's account, he and a synod at Milan joined Rome's sentence on the monk Jovinian. In a letter to Vercelli he attacked two monks who said there is 'no merit in abstinence'.\n\nHe was also a preacher. Augustine, then a teacher of rhetoric, came to hear him. He wrote that he was led to Ambrose so that Ambrose might lead him to God. Ambrose baptized him at Easter 387.\n\nHe died on Good Friday night, 4 to 5 April 397. He was buried on Easter morning in his basilica at Milan.",
+   "voices": [
+    "Ambrose — the governor turned bishop, hymn-writer, and the first churchman to make an emperor do public penance",
+    "Paulinus of Milan — who wrote his Life"
+   ],
+   "legacy": "Milan still keeps the rite that bears his name, though how much of it goes back to him is unclear. His rule that a Christian emperor stands within the church, not above it, was his lasting word to power. And by Augustine's own account, Ambrose's preaching helped bring Augustine to God.",
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "jerome",
+   "atlasId": "TBD",
+   "era": 2,
+   "kind": "person",
+   "toldWithin": "hieronymian-ascetic-literary",
+   "name": "Jerome",
+   "shortName": "Jerome",
+   "informalName": "Jerome",
+   "dates": "374-420",
+   "start": 374,
+   "end": 420,
+   "region": "Bethlehem, Rome",
+   "placeLabel": "Bethlehem · Rome",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Rome",
+     "placeId": "Q220",
+     "pleiadesId": "423025"
+    }
+   ],
+   "regions": [
+    "Mediterranean"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Very rich, and nearly all in his own hand. The Library holds 17 of his own works on the Bethlehem Circle shelf: letters, lives, treatises and his catalog of Christian writers.",
+   "floorNote": "Not in question. He was a combative defender of the Nicene faith.",
+   "relationsSummary": "He is told within the Bethlehem Circle. He served it as teacher and translator. He broke with Rufinus over Origen. He wrote to Augustine for years, and he attacked Jovinian.",
+   "why": "Jerome put the Old Testament into Latin from the Hebrew at Bethlehem, in the work later called the Vulgate. His letters are also the main record of the Roman women who funded that life and shared it.",
+   "entry": null,
+   "teaser": "Rome and Bethlehem, 374 to 420 CE: a brilliant and quarrelsome scholar who gave the Latin West its Bible from the Hebrew.",
+   "longDescription": "Jerome was born at Stridon around 345, and he studied at Rome, where he was baptized. From 374 to 379 he lived in the desert of Chalcis. He wrote from 'the corner of the desert' between the Syrians and the Saracens. From the East he wrote to Damasus of Rome that he kept communion only with 'the chair of Peter'.\n\nFrom 382 to 385 he was at Rome, helping Damasus with his church letters. Damasus died in 384, and the next year Jerome left the city. In 386 he settled at Bethlehem.\n\nThere, from 391, he worked on a Latin Old Testament made from the Hebrew. Augustine urged him to translate from the Greek of the Seventy instead. Jerome kept to the Hebrew. In 393 he wrote two books against Jovinian.\n\nHe quarreled as hard as he wrote. He called Origen's teachings poisonous, and around 400 he broke for good with his old friend Rufinus over Origen. He died at Bethlehem on 20 September 420.",
+   "voices": [
+    "Jerome — the scholar and translator at the center of the Bethlehem Circle, whose letters carry nearly everything known of it",
+    "Rufinus of Aquileia — his friend from student days, and later his bitter opponent over Origen"
+   ],
+   "legacy": "His Latin Bible became the West's standard text, and in 1546 the Council of Trent declared the Vulgate authentic. His catalog, On Illustrious Men, keeps much of what is known about early Christian writers. It is how we know that Cyprian called Tertullian 'the master'.",
+   "reviewStatus": "AI-checked"
+  }
+ ],
+ "fact_table": [
+  {
+   "entry": "augustine-of-hippo",
+   "field": "sourcing",
+   "sentence": "The Library holds 106 of his own works on the shelf of the Latin Pastoral Congregations.",
+   "work": "cic/corpus-map/latin-pastoral-congregational-christianity.yaml, rows with author augustine and role tradition (106 distinct works, counted 2026-11-10)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "augustine-of-hippo",
+   "field": "sourcing",
+   "sentence": "Possidius, his friend and fellow bishop, wrote his Life.",
+   "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+   "lines": "1117-1118",
+   "quote": "according to his biographer Possidius he lived seventy-six years",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "augustine-of-hippo",
+   "field": "floorNote",
+   "sentence": "He wrote On the Trinity and stood with the Nicene faith.",
+   "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+   "lines": "3278-3279",
+   "quote": "Aug. writes the <i>Confessions</i>, and the <i>De Tinitate</i> against the Arians.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "augustine-of-hippo",
+   "field": "longDescription",
+   "sentence": "Augustine was born at Tagaste in 354.",
+   "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+   "lines": "3217",
+   "quote": "354.            Augustin born at Tagaste,",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "augustine-of-hippo",
+   "field": "longDescription",
+   "sentence": "From his nineteenth year he followed the Manichaeans for nine years.",
+   "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+   "lines": "6334-6336",
+   "quote": "During</span> this space of nine years, then, from my nineteenth to my eight and twentieth year, we went on seduced and seducing",
+   "grade": "Documented"
+  },
+  {
+   "entry": "augustine-of-hippo",
+   "field": "longDescription",
+   "sentence": "He taught rhetoric at Carthage.",
+   "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+   "lines": "3239-3240",
+   "quote": "Teaches Grammar at Tagaste; but soon returns to Carthage to teach Rhetoric",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "augustine-of-hippo",
+   "field": "longDescription",
+   "sentence": "and then at Rome and Milan.",
+   "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+   "lines": "1217-1219",
+   "quote": "abandoned the brilliant and lucrative vocation of a teacher of rhetoric, which he had followed in Rome and Milan",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "augustine-of-hippo",
+   "field": "longDescription",
+   "sentence": "In Milan he went to hear Ambrose preach.",
+   "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+   "lines": "8525-8526",
+   "quote": "To him was I unknowingly led by Thee, that by him I might knowingly be led to Thee.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "augustine-of-hippo",
+   "field": "longDescription",
+   "sentence": "In September 386",
+   "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+   "lines": "1195",
+   "quote": "in September of the year 386",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "augustine-of-hippo",
+   "field": "longDescription",
+   "sentence": "he sat in the garden of the house where he lodged in Milan.",
+   "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+   "lines": "12800-12801",
+   "quote": "There was a little garden belonging to our lodging, of which we had the use, as of the whole house;",
+   "grade": "Documented"
+  },
+  {
+   "entry": "augustine-of-hippo",
+   "field": "longDescription",
+   "sentence": "A child's voice from a nearby house chanted 'Take up and read', and he turned to Christ.",
+   "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+   "lines": "13107-13110",
+   "quote": "I heard the voice as of a boy or girl, I know not which, coming from a neighbouring house, chanting, and oft repeating, “Take up and read; take up and read.”",
+   "grade": "Documented"
+  },
+  {
+   "entry": "augustine-of-hippo",
+   "field": "longDescription",
+   "sentence": "Ambrose baptized him at Easter 387.",
+   "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+   "lines": "1213-1214",
+   "quote": "He received baptism from Ambrose in Milan on Easter Sunday, 387",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "augustine-of-hippo",
+   "field": "longDescription",
+   "sentence": "the people of Hippo Regius made him a priest in 391, against his will. In 395 he became bishop there.",
+   "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+   "lines": "1230-1231",
+   "quote": "Then, in 391, he was chosen presbyter against his will, by the voice of the people",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "augustine-of-hippo",
+   "field": "longDescription",
+   "sentence": "In 395 he became bishop there.",
+   "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+   "lines": "1234-1235",
+   "quote": "and in 395 he was elected bishop in the same city",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "augustine-of-hippo",
+   "field": "longDescription",
+   "sentence": "He answered the Manichaeans he had once joined, among them their teacher Faustus.",
+   "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml",
+   "lines": "4305",
+   "quote": "he was eloquent and clever, but had adopted the shocking tenets of the Manichæan heresy.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "augustine-of-hippo",
+   "field": "longDescription",
+   "sentence": "He argued for years with the Donatist church that stood beside his own, and met its bishops at Carthage in 411.",
+   "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+   "lines": "3293-3294",
+   "quote": "Takes a prominent part in a conference between the Catholic Bishops and the Donatists.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "augustine-of-hippo",
+   "field": "longDescription",
+   "sentence": "Later he wrote against Pelagius on grace and human nature.",
+   "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml",
+   "lines": "4667",
+   "quote": "To the other points which Pelagius makes them urge who argue against original sin",
+   "grade": "Documented"
+  },
+  {
+   "entry": "augustine-of-hippo",
+   "field": "longDescription",
+   "sentence": "Julian of Eclanum called the Catholic party Manichaeans, and Augustine answered him in four books.",
+   "work": "Existing link pelagianism--latin-pastoral-congregational-christianity, sources Retractations and Against Two Letters of the Pelagians I.4 ('He calls the catholics Manicheans,'), npnf105",
+   "grade": "Documented"
+  },
+  {
+   "entry": "augustine-of-hippo",
+   "field": "longDescription",
+   "sentence": "After the Goths sacked Rome in 410, pagans blamed the Christians for the disaster.",
+   "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml",
+   "lines": "767-768",
+   "quote": "having been stormed and sacked by the Goths under Alaric their king,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "augustine-of-hippo",
+   "field": "longDescription",
+   "sentence": "In 413 Augustine began the City of God in answer, and he finished it in 426.",
+   "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+   "lines": "3296-3297",
+   "quote": "Begins the composition of his great work <i>De Civitate Dei</i>, completed in 426.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "augustine-of-hippo",
+   "field": "longDescription",
+   "sentence": "He died at Hippo on 28 August 430, in the third month of the Vandal siege.",
+   "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+   "lines": "1334-1335",
+   "quote": "In the third month of the siege of Hippo, on the 28th of August, 430",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "augustine-of-hippo",
+   "field": "why",
+   "sentence": "A teacher of rhetoric, he came to faith in a garden in Milan in 386.",
+   "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+   "lines": "12800-12801",
+   "quote": "There was a little garden belonging to our lodging, of which we had the use, as of the whole house;",
+   "grade": "Documented"
+  },
+  {
+   "entry": "augustine-of-hippo",
+   "field": "legacy",
+   "sentence": "Around 550, Facundus of Hermiane called him the 'most wise and most famous teacher of the churches of Christ'.",
+   "work": "Existing link latin-pastoral-congregational-christianity--latin-africa-under-byzantium, Facundus, Pro defensione trium capitulorum I.4: 'sapientissimus atque clarissimus Ecclesiarum Christi magister Augustinus'",
+   "grade": "Documented"
+  },
+  {
+   "entry": "augustine-of-hippo",
+   "field": "legacy",
+   "sentence": "In Geneva, Calvin wrote that he could fill a whole book with Augustine's words alone.",
+   "work": "Existing link latin-pastoral-congregational-christianity--the-reformed-cities-zurich-and-geneva (Calvin, Institutes)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "augustine-of-hippo",
+   "field": "legacy",
+   "sentence": "Port-Royal took its view of grace from him, and Cornelius Jansen named his own book Augustinus. Rome condemned five propositions said to come from that book in 1653.",
+   "work": "Existing link latin-pastoral-congregational-christianity--port-royal-jansenism (Formulary of Alexander VII)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "augustine-of-hippo",
+   "field": "legacy",
+   "sentence": "People still argue over what Augustine taught on grace.",
+   "work": "Existing link gallic-monastic-ascetic-christianity--latin-pastoral-congregational-christianity (the Marseilles objection, c. 428) and the Jansenist dispute; stated as an open question, not a verdict",
+   "grade": "Contested"
+  },
+  {
+   "entry": "cyprian-of-carthage",
+   "field": "sourcing",
+   "sentence": "The Library holds 35 of his own works on the shelf of the Latin Pastoral Congregations.",
+   "work": "cic/corpus-map/latin-pastoral-congregational-christianity.yaml, rows with author cyprian and role tradition (35 distinct works, counted 2026-11-10)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "cyprian-of-carthage",
+   "field": "sourcing",
+   "sentence": "and the Life by his deacon Pontius.",
+   "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+   "lines": "28257-28258",
+   "quote": "persons who favoured him had climbed up into the branches of the trees",
+   "grade": "Documented"
+  },
+  {
+   "entry": "cyprian-of-carthage",
+   "field": "longDescription",
+   "sentence": "Cyprian was trained as a rhetorician and became a Christian around 246.",
+   "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+   "lines": "27513-27514",
+   "quote": "which led to his conversion <span class=\"sc\" id=\"iv.ii-p14.3\">a.d.</span> 246.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "cyprian-of-carthage",
+   "field": "longDescription",
+   "sentence": "Two years later the people of Carthage pressed him to become their bishop. Some older presbyters objected. He held the office until his death in 258.",
+   "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+   "lines": "27522-27524",
+   "quote": "not without great objections on the part of older presbyters, who saw themselves superseded by his promotion, the popular urgency constrained him to accept the office of Bishop of Carthage",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "cyprian-of-carthage",
+   "field": "longDescription",
+   "sentence": "When Decius ordered everyone to sacrifice in 250, Cyprian went into hiding. The clergy of Rome attacked him for it in a letter.",
+   "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+   "lines": "27560-27563",
+   "quote": "induced Cyprian to retire into concealment for a time; and his retreat gave occasion to a sharp attack upon his conduct, in a letter from the Roman to the Carthaginian clergy.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "cyprian-of-carthage",
+   "field": "longDescription",
+   "sentence": "From his hiding place he kept running his church by letter.",
+   "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+   "lines": "27565-27566",
+   "quote": "he wrote many letters from his place of concealment to the clergy and others at Rome and at Carthage",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "cyprian-of-carthage",
+   "field": "longDescription",
+   "sentence": "Many of his people had sacrificed, and he had to decide how to take them back.",
+   "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+   "lines": "30092",
+   "quote": "To the Clergy, Concerning Those Who are in Haste to Receive Peace. A.D. 250.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "cyprian-of-carthage",
+   "field": "longDescription",
+   "sentence": "When plague struck, he gathered his people and preached on mercy. It was nothing great, he said, to care only for their own. God sends sun and rain to all, and a child of God should do the same.",
+   "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+   "lines": "27961-27962",
+   "quote": "there was nothing wonderful in our cherishing our own people only with the needed attentions of love",
+   "grade": "Documented"
+  },
+  {
+   "entry": "cyprian-of-carthage",
+   "field": "longDescription",
+   "sentence": "'He can no longer have God for his Father, who has not the Church for his mother,' he wrote.",
+   "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+   "lines": "42321-42322",
+   "quote": "can no longer have God for his Father, who has not the Church for his mother.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "cyprian-of-carthage",
+   "field": "longDescription",
+   "sentence": "He refused the envoys of Novatian, a rival bishop at Rome.",
+   "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+   "lines": "32594-32596",
+   "quote": "that Novatian had been made bishop; disturbed by the wickedness of an unlawful ordination made in opposition to the Catholic Church",
+   "grade": "Documented"
+  },
+  {
+   "entry": "cyprian-of-carthage",
+   "field": "longDescription",
+   "sentence": "In 255 he and a council of African bishops told Stephen of Rome that people coming from heresy must be baptized.",
+   "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+   "lines": "38308-38309",
+   "quote": "when they come to us and to the Church which is one, ought to be baptized",
+   "grade": "Documented"
+  },
+  {
+   "entry": "cyprian-of-carthage",
+   "field": "longDescription",
+   "sentence": "Stephen disagreed, and Cyprian called it his error.",
+   "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+   "lines": "39084-39085",
+   "quote": "on the reading of which, you will more and more observe his error in endeavouring to maintain the cause",
+   "grade": "Documented"
+  },
+  {
+   "entry": "cyprian-of-carthage",
+   "field": "longDescription",
+   "sentence": "Under Valerian he was arrested and beheaded outside Carthage in 258.",
+   "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+   "lines": "27524-27526",
+   "quote": "office of Bishop of Carthage (<span class=\"sc\" id=\"iv.ii-p15.1\">a.d.</span> 248), which he held until his martyrdom (<span class=\"sc\" id=\"iv.ii-p15.2\">a.d.</span> 258).",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "cyprian-of-carthage",
+   "field": "longDescription",
+   "sentence": "The crowd was so large that some climbed the trees to watch.",
+   "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+   "lines": "28257-28258",
+   "quote": "persons who favoured him had climbed up into the branches of the trees",
+   "grade": "Documented"
+  },
+  {
+   "entry": "cyprian-of-carthage",
+   "field": "why",
+   "sentence": "He read Tertullian every day and called him 'the master'.",
+   "work": "Existing link tertullian-s-voice--latin-pastoral-congregational-christianity (Jerome, On Illustrious Men 53)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "cyprian-of-carthage",
+   "field": "legacy",
+   "sentence": "The Donatists kept quoting his letters and his council to defend their break. Augustine asked them why.",
+   "work": "Existing link latin-pastoral-congregational-christianity--donatism--2 (Augustine, De baptismo II)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "cyprian-of-carthage",
+   "field": "legacy",
+   "sentence": "Augustine himself said Cyprian was wrong about baptism. But he never doubted the man.",
+   "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+   "lines": "39065-39067",
+   "quote": "Stephen, for his part, had thought that they who endeavoured to annul the old custom about receiving heretics were to be excommunicated",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "cyprian-of-carthage",
+   "field": "legacy",
+   "sentence": "Around 550, Facundus still cited 'blessed Cyprian, bishop of Carthage and martyr'. In 533, Procopius reports, the people of Carthage loved Cyprian above all other holy men.",
+   "work": "Existing link latin-pastoral-congregational-christianity--latin-africa-under-byzantium (Facundus I.3; Procopius, Wars III.21)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "irenaeus-of-lyon",
+   "field": "sourcing",
+   "sentence": "Against Heresies survives whole in Latin and English, and fragments of his lost writings survive too. Both sit on the Household-Church shelf.",
+   "work": "cic/corpus-map/post-apostolic-house-church.yaml, rows anf01_apostolic-fathers-justin-irenaeus--against-heresies-books-i-v and --fragments-from-the-lost-writings-of-irenaeus",
+   "grade": "Documented"
+  },
+  {
+   "entry": "irenaeus-of-lyon",
+   "field": "sourcing",
+   "sentence": "Most of what is known of his life comes from Eusebius.",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "29697-29699",
+   "quote": "Eusebius states (<i>Hist. Eccl.</i>, v. 4) that he was, while yet a presbyter, sent with a letter",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "irenaeus-of-lyon",
+   "field": "longDescription",
+   "sentence": "As a boy, Irenaeus saw Polycarp, the bishop of Smyrna, who had been taught by apostles.",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "39859-39860",
+   "quote": "appointed bishop of the Church in Smyrna, whom I also saw in my early youth",
+   "grade": "Documented"
+  },
+  {
+   "entry": "irenaeus-of-lyon",
+   "field": "longDescription",
+   "sentence": "Later he wrote that Polycarp always taught what he had learned from the apostles.",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "39866",
+   "quote": "always taught the things which he had learned from the apostles",
+   "grade": "Documented"
+  },
+  {
+   "entry": "irenaeus-of-lyon",
+   "field": "longDescription",
+   "sentence": "Around 177 the Christians of Lyon in Gaul were in prison, awaiting death. They wrote to Eleutherius, bishop of Rome, and asked Irenaeus to carry the letter.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "27735-27736",
+   "quote": "have requested our brother and comrade Irenæus to carry this letter to you",
+   "grade": "Documented"
+  },
+  {
+   "entry": "irenaeus-of-lyon",
+   "field": "longDescription",
+   "sentence": "They called him 'zealous for the covenant of Christ', a presbyter of their church.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "27736-27737",
+   "quote": "as zealous for the covenant of Christ",
+   "grade": "Documented"
+  },
+  {
+   "entry": "irenaeus-of-lyon",
+   "field": "longDescription",
+   "sentence": "Their bishop Pothinus died with the martyrs, and Irenaeus took his place.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "27954-27955",
+   "quote": "Irenæus succeeded him in the episcopate of the church at Lyons.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "irenaeus-of-lyon",
+   "field": "longDescription",
+   "sentence": "Around 177 the Christians of Lyon in Gaul were in prison, awaiting death.",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "29701",
+   "quote": "bishop of Lyons, probably about <span class=\"sc\" id=\"ix.i-p22.1\">a.d.</span> 177",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "irenaeus-of-lyon",
+   "field": "longDescription",
+   "sentence": "His great work, Against Heresies, was written while Eleutherius led the church of Rome.",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "29702-29703",
+   "quote": "<i>Against Heresies</i> was, we learn, written during the episcopate of Eleutherus",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "irenaeus-of-lyon",
+   "field": "longDescription",
+   "sentence": "He named the bishops of Rome in order, from the apostles down to Eleutherius, who 'does now' hold the office.",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "39849-39851",
+   "quote": "Eleutherius does now, in the twelfth place from the apostles, hold the inheritance of the episcopate.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "irenaeus-of-lyon",
+   "field": "longDescription",
+   "sentence": "Polycarp, he adds, turned many at Rome away from the followers of Valentinus and Marcion.",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "39871-39873",
+   "quote": "He it was who, coming to Rome in the time of Anicetus caused many to turn away from the aforesaid heretics to the Church of God,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "irenaeus-of-lyon",
+   "field": "longDescription",
+   "sentence": "Later, Victor of Rome threatened to cut off the churches of Asia over the date of Easter. Irenaeus wrote for the churches of Gaul. He held that Easter belonged on the Lord's day, but he warned Victor not to cut off whole churches for keeping an ancient custom.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "31438-31440",
+   "quote": "maintained that the mystery of the resurrection of the Lord should be observed only on the Lord’s day. He fittingly admonishes Victor that he should not cut off whole churches of God",
+   "grade": "Documented"
+  },
+  {
+   "entry": "irenaeus-of-lyon",
+   "field": "legacy",
+   "sentence": "Peter Lampe argues that Rome had no single bishop in charge until about 189 to 199.",
+   "work": "Peter Lampe, From Paul to Valentinus (secondary, already cited on post-apostolic-house-church--roman-church-third-century)",
+   "grade": "Contested"
+  },
+  {
+   "entry": "irenaeus-of-lyon",
+   "field": "legacy",
+   "sentence": "His account of the Valentinians and of Marcion remains a main witness to both, but it is the witness of an opponent.",
+   "work": "candidates.md item 11 (Marcion, Valentinian and Ebionite entries use him as a hostile witness); existing links post-apostolic-house-church--marcion-marcionism and --valentinian-and-other-gnostic-christianities",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "jovinian",
+   "field": "longDescription",
+   "sentence": "Jerome's editor calls him a Roman monk, or rather a solitary, who put off the monk's dress and lived like other men.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "1383-1384",
+   "quote": "Jovinian was a Roman monk or, rather, solitary",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "jovinian",
+   "field": "longDescription",
+   "sentence": "who put off the monk's dress and lived like other men.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "1389-1390",
+   "quote": "He put off the monastic dress, and lived like other men",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "jovinian",
+   "field": "longDescription",
+   "sentence": "He wrote a book in Latin at Rome.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "33883-33884",
+   "quote": "had published at Rome a Latin treatise containing all, or part of the opinions here controverted",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "jovinian",
+   "field": "longDescription",
+   "sentence": "Baptized virgins, widows and wives are of equal merit.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "34070-34072",
+   "quote": "virgins, widows, and married women, who have been once passed through the laver of Christ, if they are on a par in other respects, are of equal merit.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "jovinian",
+   "field": "longDescription",
+   "sentence": "Those reborn in baptism with full faith cannot be overthrown by the devil.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "34074-34076",
+   "quote": "they who with full assurance of faith have been born again in baptism, cannot be overthrown by the devil.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "jovinian",
+   "field": "longDescription",
+   "sentence": "Fasting is no better than eating with thanks.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "34078-34080",
+   "quote": "that there is no difference between abstinence from food, and its reception with thanksgiving.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "jovinian",
+   "field": "longDescription",
+   "sentence": "And all who keep their baptismal vow share one reward in heaven.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "34082-34084",
+   "quote": "that there is one reward in the kingdom of heaven for all who have kept their baptismal vow.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "jovinian",
+   "field": "longDescription",
+   "sentence": "Pammachius, a friend of Jerome, brought the book to Siricius, bishop of Rome. By the editors' account, synods at Rome and at Milan condemned it about 390.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "33894-33896",
+   "quote": "Pammachius, Jerome’s friend, brought Jovinian’s book under the notice of Siricius, bishop of Rome, and it was shortly afterwards condemned in synods at that city and at Milan",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "jovinian",
+   "field": "longDescription",
+   "sentence": "Ambrose and his synod wrote back to Siricius to join the sentence.",
+   "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+   "lines": "1477-1479",
+   "quote": "Reply of St. Ambrose and a synod at Milan to the notification of Pope Siricius announcing the sentence of excommunication passed upon Jovinian and his followers.",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "jovinian",
+   "field": "longDescription",
+   "sentence": "In a letter to the church at Vercelli, Ambrose warned against two monks who said there is 'no merit in abstinence' and none in virginity.",
+   "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+   "lines": "44655-44656",
+   "quote": "there is no merit in abstinence, no grace in a frugal life, none in virginity",
+   "grade": "Documented"
+  },
+  {
+   "entry": "jovinian",
+   "field": "longDescription",
+   "sentence": "His editor takes them for followers of Jovinian.",
+   "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+   "lines": "44649-44650",
+   "quote": "two apostate monks, followers apparently of Jovinian, who was condemned by synods at Rome and Milan",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "jovinian",
+   "field": "longDescription",
+   "sentence": "In 393 Jerome answered the book with two books of his own, Against Jovinianus.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "33898-33899",
+   "quote": "who answered them in the present treatise in the year 393",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "jovinian",
+   "field": "longDescription",
+   "sentence": "He calls Jovinian 'the Epicurus of Christianity'.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "33935",
+   "quote": "Epicurus of Christianity.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "jovinian",
+   "field": "longDescription",
+   "sentence": "Even Jerome's editor gives a warning here. He says Jerome's charges about the man's life are guesses drawn from his views. They are not known facts.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "33933-33935",
+   "quote": "his imputations against his adversary must be taken as the inferences which he draws from his opinions.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "jovinian",
+   "field": "legacy",
+   "sentence": "Jerome himself later wrote to Pammachius that some thought he had gone too far in those books, praising virginity and running down marriage.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "9277-9278",
+   "quote": "books which I have written against Jovinian I have been excessive (so they say) in praise of virginity and in depreciation of marriage",
+   "grade": "Documented"
+  },
+  {
+   "entry": "jovinian",
+   "field": "legacy",
+   "sentence": "Jerome's reply survives.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "33922-33923",
+   "quote": "The treatise gives a remarkable specimen of Jerome’s system of interpreting Scripture",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ambrose-of-milan",
+   "field": "sourcing",
+   "sentence": "The Library holds nine of his own works on the shelf of Ambrose's Milan, including his letters, with the Life written by Paulinus of Milan.",
+   "work": "cic/corpus-map/ambrosian-milan-standalone.yaml (9 distinct works by ambrose, role tradition; one row by paulinus-milan)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ambrose-of-milan",
+   "field": "floorNote",
+   "sentence": "He was a leading defender of the Nicene faith against the Homoian bishops.",
+   "work": "Existing link ambrosian-milan-standalone--homoian-arian-christianity (Acts of Aquileia; Sermon against Auxentius)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ambrose-of-milan",
+   "field": "longDescription",
+   "sentence": "His father held high office in Gaul.",
+   "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+   "lines": "911-912",
+   "quote": "His father, likewise named Ambrosius, was prefect of the Gauls",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "ambrose-of-milan",
+   "field": "longDescription",
+   "sentence": "Ambrose was most likely born at Trier, around 340.",
+   "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+   "lines": "914-915",
+   "quote": "where probably St. Ambrose was born, as seems most likely, <span class=\"sc\" id=\"iii.v-p2.1\">a.d.</span> 340.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "ambrose-of-milan",
+   "field": "longDescription",
+   "sentence": "In 374 Auxentius, the Homoian bishop of Milan, died. The people acclaimed Ambrose as bishop, though he was still a catechumen.",
+   "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+   "lines": "955-957",
+   "quote": "although he was but a catechumen and so canonically unqualified, the multitude immediately elected him by acclamation.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "ambrose-of-milan",
+   "field": "longDescription",
+   "sentence": "He was baptized, and on 7 December 374 he was consecrated.",
+   "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+   "lines": "964-966",
+   "quote": "insisted on being baptized by a Catholic priest. Eight days later, December 7, <span class=\"sc\" id=\"iii.v-p10.1\">a.d.</span> 374, he was consecrated Bishop.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "ambrose-of-milan",
+   "field": "longDescription",
+   "sentence": "At Aquileia in 381 he questioned the Homoian bishop Palladius. In 386 he preached against Auxentius, a rival bishop, and declared him cast out.",
+   "work": "Existing link ambrosian-milan-standalone--homoian-arian-christianity",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ambrose-of-milan",
+   "field": "longDescription",
+   "sentence": "'The Emperor is within the Church, not above it,' he said.",
+   "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+   "lines": "42663-42664",
+   "quote": "For the Emperor is within the Church, not above it.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ambrose-of-milan",
+   "field": "longDescription",
+   "sentence": "In 388 he would not go to the altar until Theodosius dropped a case over a burned synagogue. After the massacre at Thessalonica in 390, he wrote that he dared not offer the sacrifice with the emperor present.",
+   "work": "Existing link ambrosian-milan-standalone--imperial-juridical-christianity (Letters 40, 41, 51)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ambrose-of-milan",
+   "field": "longDescription",
+   "sentence": "About 390, by his editor's account, he and a synod at Milan joined Rome's sentence on the monk Jovinian.",
+   "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+   "lines": "1477-1479",
+   "quote": "Reply of St. Ambrose and a synod at Milan to the notification of Pope Siricius announcing the sentence of excommunication passed upon Jovinian and his followers.",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "ambrose-of-milan",
+   "field": "longDescription",
+   "sentence": "In a letter to Vercelli he attacked two monks who said there is 'no merit in abstinence'.",
+   "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+   "lines": "44655-44656",
+   "quote": "there is no merit in abstinence, no grace in a frugal life, none in virginity",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ambrose-of-milan",
+   "field": "longDescription",
+   "sentence": "He wrote that he was led to Ambrose so that Ambrose might lead him to God. Ambrose baptized him at Easter 387.",
+   "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+   "lines": "8525-8526",
+   "quote": "To him was I unknowingly led by Thee, that by him I might knowingly be led to Thee.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ambrose-of-milan",
+   "field": "longDescription",
+   "sentence": "He died on Good Friday night, 4 to 5 April 397. He was buried on Easter morning in his basilica at Milan.",
+   "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+   "lines": "1116-1117",
+   "quote": "breathed his last, on Good Friday night, April 4–5,",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "ambrose-of-milan",
+   "field": "legacy",
+   "sentence": "Milan still keeps the rite that bears his name, though how much of it goes back to him is unclear.",
+   "work": "Existing link ambrosian-milan-standalone--tridentine-parish-renewal-borromean-milan (Giussano; Augustine, Confessions IX.7.15)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "jerome",
+   "field": "sourcing",
+   "sentence": "The Library holds 17 of his own works on the Bethlehem Circle shelf.",
+   "work": "cic/corpus-map/hieronymian-ascetic-literary.yaml (17 distinct works by jerome, role tradition)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "jerome",
+   "field": "floorNote",
+   "sentence": "He was a combative defender of the Nicene faith.",
+   "work": "Existing link hieronymian-ascetic-literary--homoian-arian-christianity (Dialogue against the Luciferians 19); wording follows the home entry's floorNote",
+   "grade": "Documented"
+  },
+  {
+   "entry": "jerome",
+   "field": "longDescription",
+   "sentence": "Jerome was born at Stridon around 345.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "2549",
+   "quote": "345. Jerome born at Stridon (Pannonia or Dalmatia).",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "jerome",
+   "field": "longDescription",
+   "sentence": "and he studied at Rome, where he was baptized.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "2580",
+   "quote": "363. To study at Rome. Baptism.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "jerome",
+   "field": "longDescription",
+   "sentence": "From 374 to 379 he lived in the desert of Chalcis.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "2691",
+   "quote": "374–79. In Desert of Chalcis.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "jerome",
+   "field": "longDescription",
+   "sentence": "He wrote from 'the corner of the desert' between the Syrians and the Saracens.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "4164-4166",
+   "quote": "in the corner of the desert which stretches between the Syrians and the Saracens",
+   "grade": "Documented"
+  },
+  {
+   "entry": "jerome",
+   "field": "longDescription",
+   "sentence": "From the East he wrote to Damasus of Rome that he kept communion only with 'the chair of Peter'.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "5049-5050",
+   "quote": "I communicate with none but your blessedness, that is with the chair of Peter.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "jerome",
+   "field": "longDescription",
+   "sentence": "From 382 to 385 he was at Rome, helping Damasus with his church letters.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "24189-24190",
+   "quote": "when I was helping Damasus bishop of Rome with his ecclesiastical correspondence,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "jerome",
+   "field": "longDescription",
+   "sentence": "From 382 to 385 he was at Rome.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "2776",
+   "quote": "382–85. At Rome.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "jerome",
+   "field": "longDescription",
+   "sentence": "Damasus died in 384.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "2929",
+   "quote": "384. Death of Damasus (December).",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "jerome",
+   "field": "longDescription",
+   "sentence": "and the next year Jerome left the city.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "2830",
+   "quote": "385. Leaves Rome (August); to Antioch (December).",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "jerome",
+   "field": "longDescription",
+   "sentence": "In 386 he settled at Bethlehem.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "2846",
+   "quote": "386. Through Palestine to Egypt, and settlement at Bethlehem.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "jerome",
+   "field": "longDescription",
+   "sentence": "There, from 391, he worked on a Latin Old Testament made from the Hebrew.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "3008",
+   "quote": "391. Vulgate version of Old Testament begun.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "jerome",
+   "field": "longDescription",
+   "sentence": "Augustine urged him to translate from the Greek of the Seventy instead.",
+   "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+   "lines": "32516-32518",
+   "quote": "I would much rather that you would furnish us with a translation of the Greek version of the canonical Scriptures known as the work of the Seventy translators.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "jerome",
+   "field": "longDescription",
+   "sentence": "In 393 he wrote two books against Jovinian.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "3057",
+   "quote": "393. Books against Jovinian.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "jerome",
+   "field": "longDescription",
+   "sentence": "He called Origen's teachings poisonous.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "19043-19045",
+   "quote": "His doctrines are poisonous, they are unknown to the Holy Scriptures, nay more, they do them violence.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "jerome",
+   "field": "longDescription",
+   "sentence": "around 400 he broke for good with his old friend Rufinus over Origen.",
+   "work": "Existing link aquileian-christianity--hieronymian-ascetic-literary--2 (Rufinus, Apology II; Jerome, Apology I.1)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "jerome",
+   "field": "longDescription",
+   "sentence": "He died at Bethlehem on 20 September 420.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "3447",
+   "quote": "420. Jerome dies (September 20) at Bethlehem.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "jerome",
+   "field": "legacy",
+   "sentence": "in 1546 the Council of Trent declared the Vulgate authentic.",
+   "work": "Existing link hieronymian-ascetic-literary--the-tridentine-church (Trent, Session IV)",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "jerome",
+   "field": "legacy",
+   "sentence": "It is how we know that Cyprian called Tertullian 'the master'.",
+   "work": "Existing link tertullian-s-voice--latin-pastoral-congregational-christianity (Jerome, On Illustrious Men 53)",
+   "grade": "Documented"
+  }
+ ],
+ "neighbor_changes": [
+  {
+   "id": "latin-pastoral-congregational-christianity",
+   "set": {
+    "longDescription": "This is the congregational life of Latin-speaking North Africa. It is the week in, week out work of a bishop with a flock, and the hard disputes that pressed on that work. Cyprian became bishop of Carthage around 248. When the emperor Decius ordered everyone to sacrifice, he went into hiding. He came back to the hardest pastoral problem of the age. Thousands of his own people had complied, and now they wanted back in.\n\nHe organized relief through the plague that still bears his name. He told his congregation to nurse pagan neighbors as well as their own. He refused communion to the envoys of Novatian, a rival bishop at Rome. He argued with Stephen of Rome over baptism given outside the church. He was beheaded outside Carthage in 258.\n\nA century and a half later, Augustine was bishop of Hippo Regius from 395 until his death in 430. He preached to the same congregation several times a week for thirty-five years, and stenographers took much of it down. Hundreds of those sermons survive. They argue, joke, scold and console actual people whose lives he knew.\n\nHis pastoral work ran through the great disputes of his day. A rival Donatist church stood in the same towns, and he argued with it for decades. He answered the Manichaeans, whom he had followed for nine years in his youth. In his last years he wrote against Pelagius and his followers on grace and human nature.\n\nBetween the two bishops lay the ordinary round. Catechumens were taught, and new believers were baptized at Easter. Penitents did public penance. The church cared for widows and the poor. And the bishop sat as judge in his own people's disputes."
+   },
+   "reason": "Ruling 10 (gap sweep, 2026-11-09): the census text is corrected to match the world's own Doc_01, which names the Donatist schism, Manichaeism and the Pelagian controversy among the world's historical pressures (Build/worlds/lpc/Doc_01_World_Identification_Boundaries_Orientation.md, section 2, 'Historical Pressures'). The old opening 'not the councils and not the controversies' is replaced; the controversies are named as pressing on the pastoral work, and Cyprian's quarrels with Novatian and Stephen are added, each with a link. The text is also split into short paragraphs to meet the reading target. Every other sentence keeps its existing substance. Census field only; the lpc world's files are not touched."
+  },
+  {
+   "id": "post-apostolic-house-church",
+   "set": {
+    "voices": [
+     "Ignatius, bishop of Antioch, wrote seven letters to congregations while he was marched toward Rome under armed guard, c. 107-117. Polycarp's own letter later speaks of him as already dead, though it admits not knowing the details of what happened.",
+     "Clement of Rome wrote on behalf of the Roman church to the Corinthians around the year 96, addressing a dispute over deposed leaders. The letter is the earliest Christian writing outside the New Testament to survive.",
+     "Polycarp of Smyrna was addressed as bishop by Ignatius, though his own letter never claims the title, opening only as 'Polycarp, and the presbyters with him.' He was put to death at Smyrna around 155; his own congregation recorded his death.",
+     "Justin Martyr was a philosopher who kept teaching Christianity as a school in Rome. He left the earliest detailed description of what their Sunday actually looked like.",
+     "Irenaeus had seen Polycarp at Smyrna as a boy, and later led the church at Lyon in Gaul. While Eleutherius was bishop of Rome he wrote five books Against Heresies, naming Rome's bishops in order down to his own day. His works sit on this tradition's Library shelf.",
+     "Most of these communities' hosts and householders are never named in the record. The gatherings met in their homes, but no record says whose.",
+     "Two enslaved women who served among these communities, called ministrae, are named only by their Roman interrogator's own word for their office — never by their own names. A governor had them tortured around the year 112 to learn what Christians did; it is the earliest outside evidence that women here held a formal title at all."
+    ]
+   },
+   "reason": "Ruling 11 (gap sweep, 2026-11-09): the entry's text gains one line naming Irenaeus. It is placed in voices (the full list is set, unchanged except for the new fifth line, after Justin), so that the Built & Live entry's longDescription (whose existing paragraphs score below the reading target) is not reopened. If the coordinator prefers longDescription, see flags for the sentence. Census field only."
+  },
+  {
+   "id": "tertullian-s-voice",
+   "set": {
+    "name": "Tertullian",
+    "informalName": "Tertullian of Carthage"
+   },
+   "reason": "Open-Gaps 136 (a): the entry is now a person entry (kind person, told within latin-apologists). 'Tertullian's Voice' names a movement-style record and reads as a label, not a person; every other person entry is named by the person. Name becomes 'Tertullian', informalName 'Tertullian of Carthage' (matching 'Augustine of Hippo', 'Cyprian of Carthage'). shortName 'Tertullian' and the ID stay."
+  }
+ ],
+ "links": [
+  {
+   "id": "latin-pastoral-congregational-christianity--roman-church-third-century",
+   "from": "latin-pastoral-congregational-christianity",
+   "to": "roman-church-third-century",
+   "type": "argued against",
+   "confidence": "Documented",
+   "concerns": "cyprian-of-carthage",
+   "note": "In 255 Cyprian and a council of African bishops wrote to Stephen of Rome. Those coming over from heretics, they said, must be baptized. Stephen replied that nothing new should be done, only hands laid on in penance. Cyprian sent his reply to Pompey and called it Stephen's error.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "lpc.source.cyprian-epistles",
+     "work": "Cyprian, Epistle 71 (ANF numbering), to Stephen, Concerning a Council",
+     "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+     "lines": "38308-38309",
+     "locus": "Ep. 71.1 (ANF) = Ep. 72 (Hartel)",
+     "quote": "when they come to us and to the Church which is one, ought to be baptized",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "lpc.source.cyprian-epistles",
+     "work": "Cyprian, Epistle 73 (ANF numbering), to Pompey, against the Epistle of Stephen",
+     "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+     "lines": "39094-39096",
+     "locus": "Ep. 73.1 (ANF) = Ep. 74 (Hartel)",
+     "quote": "If any one, therefore, come to you from any heresy whatever, let nothing be innovated (or done) which has not been handed down, to wit, that hands be imposed on him for repentance;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "lpc.source.cyprian-epistles",
+     "work": "Cyprian, Epistle 73 (ANF numbering), to Pompey",
+     "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+     "lines": "39084-39085",
+     "locus": "Ep. 73.1 (ANF) = Ep. 74 (Hartel)",
+     "quote": "on the reading of which, you will more and more observe his error in endeavouring to maintain the cause",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "hieronymian-ascetic-literary--jovinian",
+   "from": "hieronymian-ascetic-literary",
+   "to": "jovinian",
+   "type": "argued against",
+   "confidence": "Documented",
+   "concerns": "jerome",
+   "note": "In 393 Jerome answered Jovinian's book in two books. He says the brothers at Rome sent him the work and asked him to crush it. He quotes Jovinian's points, among them that baptized virgins, widows and wives are of equal merit.",
+   "sources": [
+    {
+     "kind": "primary",
+     "work": "Jerome, Against Jovinianus I.1 (trans. Fremantle, NPNF 2.6)",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "33927-33929",
+     "locus": "Adv. Jov. I.1",
+     "quote": "Very few days have elapsed since the holy brethren of Rome sent to me the treatises of a certain Jovinian with the request that I would reply to the follies contained in them",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "work": "Jerome, Against Jovinianus I.3 (trans. Fremantle, NPNF 2.6)",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "34070-34072",
+     "locus": "Adv. Jov. I.3",
+     "quote": "virgins, widows, and married women, who have been once passed through the laver of Christ, if they are on a par in other respects, are of equal merit.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "W. H. Fremantle, introduction to Against Jovinianus (NPNF 2.6, 1893)",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "33898-33899",
+     "quote": "who answered them in the present treatise in the year 393"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "ambrosian-milan-standalone--jovinian",
+   "from": "ambrosian-milan-standalone",
+   "to": "jovinian",
+   "type": "argued against",
+   "confidence": "Widely Accepted",
+   "concerns": "ambrose-of-milan",
+   "note": "About 390, Ambrose and a synod at Milan wrote back to Siricius of Rome. They joined his sentence on Jovinian. That letter is known here only from the editor's summary. In a letter to Vercelli, Ambrose attacks two monks who taught 'no merit in abstinence'. His editor takes them for Jovinian's men.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "H. de Romestin, list of the letters of St. Ambrose (NPNF 2.10, 1896), on Letter 42",
+     "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+     "lines": "1477-1479",
+     "quote": "Reply of St. Ambrose and a synod at Milan to the notification of Pope Siricius announcing the sentence of excommunication passed upon Jovinian and his followers."
+    },
+    {
+     "kind": "primary",
+     "work": "Ambrose, Letter 63 (To the Church at Vercelli), section 7 (trans. de Romestin, NPNF 2.10)",
+     "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+     "lines": "44655-44656",
+     "locus": "Ep. 63.7",
+     "quote": "there is no merit in abstinence, no grace in a frugal life, none in virginity",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "H. de Romestin, note to Ambrose, Letter 63.7 (NPNF 2.10, 1896)",
+     "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+     "lines": "44649-44650",
+     "quote": "two apostate monks, followers apparently of Jovinian, who was condemned by synods at Rome and Milan"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-via-authority"
+  },
+  {
+   "id": "imperial-juridical-christianity--jovinian",
+   "from": "imperial-juridical-christianity",
+   "to": "jovinian",
+   "type": "argued against",
+   "confidence": "Inferential-Thin",
+   "note": "Pammachius brought Jovinian's book to Siricius, bishop of Rome, and a synod at Rome condemned it about 390. Siricius then sent word of the sentence to Milan. His own letter is not held here; both facts come from the editors of Jerome and Ambrose.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "W. H. Fremantle, introduction to Against Jovinianus (NPNF 2.6, 1893)",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "33894-33896",
+     "quote": "Pammachius, Jerome’s friend, brought Jovinian’s book under the notice of Siricius, bishop of Rome, and it was shortly afterwards condemned in synods at that city and at Milan"
+    },
+    {
+     "kind": "secondary",
+     "work": "H. de Romestin, list of the letters of St. Ambrose (NPNF 2.10, 1896), on Letter 42",
+     "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+     "lines": "1478-1479",
+     "quote": "the notification of Pope Siricius announcing the sentence of excommunication passed upon Jovinian and his followers."
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "verified-via-authority"
+  }
+ ],
+ "concerns": [
+  {
+   "link_id": "latin-pastoral-congregational-christianity--pelagianism",
+   "concerns": "augustine-of-hippo",
+   "basis": "Augustine's own books against Pelagius."
+  },
+  {
+   "link_id": "latin-pastoral-congregational-christianity--donatism",
+   "concerns": "augustine-of-hippo",
+   "basis": "Augustine's book to the Donatists after 411; Optatus is a second, earlier voice."
+  },
+  {
+   "link_id": "latin-pastoral-congregational-christianity--manichaeism",
+   "concerns": "augustine-of-hippo",
+   "basis": "His nine Manichaean years and his Reply to Faustus."
+  },
+  {
+   "link_id": "pelagianism--latin-pastoral-congregational-christianity",
+   "concerns": "augustine-of-hippo",
+   "basis": "Julian's letters name Augustine; Pelagius objects to Augustine's prayer."
+  },
+  {
+   "link_id": "gallic-monastic-ascetic-christianity--latin-pastoral-congregational-christianity",
+   "concerns": "augustine-of-hippo",
+   "basis": "The Marseilles monks object to Augustine's writing on election."
+  },
+  {
+   "link_id": "latin-pastoral-congregational-christianity--gallic-monastic-ascetic-christianity",
+   "concerns": "augustine-of-hippo",
+   "basis": "Augustine answers them in On the Predestination of the Saints."
+  },
+  {
+   "link_id": "donatism--latin-pastoral-congregational-christianity--3",
+   "concerns": "augustine-of-hippo",
+   "basis": "Augustine takes up Tyconius' rules."
+  },
+  {
+   "link_id": "gallic-nicene-episcopate--latin-pastoral-congregational-christianity",
+   "concerns": "augustine-of-hippo",
+   "basis": "Augustine quotes Hilary in On the Trinity."
+  },
+  {
+   "link_id": "latin-pastoral-congregational-christianity--port-royal-jansenism",
+   "concerns": "augustine-of-hippo",
+   "basis": "Port-Royal's grace is Augustine's, by name."
+  },
+  {
+   "link_id": "latin-pastoral-congregational-christianity--hieronymian-ascetic-literary",
+   "concerns": "augustine-of-hippo",
+   "basis": "Augustine urges Jerome toward the Septuagint. Jerome is named too; Augustine is the actor."
+  },
+  {
+   "link_id": "ambrosian-milan-standalone--latin-pastoral-congregational-christianity",
+   "concerns": "augustine-of-hippo",
+   "basis": "Augustine's own account of Ambrose leading him to God. Ambrose is named too; see flags."
+  },
+  {
+   "link_id": "latin-pastoral-congregational-christianity--novatianism",
+   "concerns": "cyprian-of-carthage",
+   "basis": "Cyprian refuses Novatian's envoys; Augustine's line is a later echo."
+  },
+  {
+   "link_id": "latin-pastoral-congregational-christianity--donatism--2",
+   "concerns": "cyprian-of-carthage",
+   "basis": "The Donatists use Cyprian's letters and council."
+  },
+  {
+   "link_id": "tertullian-s-voice--latin-pastoral-congregational-christianity",
+   "concerns": "cyprian-of-carthage",
+   "basis": "Cyprian's daily reading of 'the master'."
+  },
+  {
+   "link_id": "latin-pastoral-congregational-christianity--latin-africa-under-byzantium",
+   "concerns": "cyprian-of-carthage",
+   "basis": "Two of three quotes are on Cyprian; Augustine is named too; see flags."
+  },
+  {
+   "link_id": "post-apostolic-house-church--marcion-marcionism",
+   "concerns": "irenaeus-of-lyon",
+   "basis": "Irenaeus's report of Polycarp against Marcion; Tertullian is a second witness, not the party."
+  },
+  {
+   "link_id": "post-apostolic-house-church--valentinian-and-other-gnostic-christianities",
+   "concerns": "irenaeus-of-lyon",
+   "basis": "Irenaeus dates Valentinus at Rome and is the opponent whose books answer him."
+  },
+  {
+   "link_id": "greek-apologists-second-century--latin-apologists",
+   "concerns": "tertullian-s-voice",
+   "basis": "Tertullian himself names Justin; the Latin end of the link is his act."
+  },
+  {
+   "link_id": "ambrosian-milan-standalone--aquileian-christianity",
+   "concerns": "ambrose-of-milan",
+   "basis": "Ambrose at the Council of Aquileia."
+  },
+  {
+   "link_id": "alexandria-catechetical--ambrosian-milan-standalone",
+   "concerns": "ambrose-of-milan",
+   "basis": "Ambrose's use of Origen's Six Days."
+  },
+  {
+   "link_id": "ambrosian-milan-standalone--imperial-juridical-christianity",
+   "concerns": "ambrose-of-milan",
+   "basis": "Ambrose against Theodosius."
+  },
+  {
+   "link_id": "ambrosian-milan-standalone--homoian-arian-christianity",
+   "concerns": "ambrose-of-milan",
+   "basis": "Ambrose against Palladius and Auxentius."
+  },
+  {
+   "link_id": "ambrosian-milan-standalone--priscillianist-asceticism",
+   "concerns": "ambrose-of-milan",
+   "basis": "Ambrose refuses Priscillian at Milan."
+  },
+  {
+   "link_id": "ambrosian-milan-standalone--tridentine-parish-renewal-borromean-milan",
+   "concerns": "ambrose-of-milan",
+   "basis": "The rite carried under Ambrose's name."
+  },
+  {
+   "link_id": "alexandria-catechetical--hieronymian-ascetic-literary",
+   "concerns": "jerome",
+   "basis": "Jerome's preface to Job."
+  },
+  {
+   "link_id": "cappadocian-nicene-pastoral-monastic-tradition--hieronymian-ascetic-literary",
+   "concerns": "jerome",
+   "basis": "Jerome calls Gregory his teacher."
+  },
+  {
+   "link_id": "danubian-latin-christianity--hieronymian-ascetic-literary",
+   "concerns": "jerome",
+   "basis": "Jerome on Victorinus."
+  },
+  {
+   "link_id": "aquileian-christianity--hieronymian-ascetic-literary",
+   "concerns": "jerome",
+   "basis": "Jerome among the Aquileia ascetics."
+  },
+  {
+   "link_id": "anatolian-church-third-century--hieronymian-ascetic-literary",
+   "concerns": "jerome",
+   "basis": "Jerome's catalog lists Methodius."
+  },
+  {
+   "link_id": "palestinian-church-pre-constantinian--hieronymian-ascetic-literary",
+   "concerns": "jerome",
+   "basis": "Jerome and the Caesarea library."
+  },
+  {
+   "link_id": "palestinian-ascetic-monasticism-early--hieronymian-ascetic-literary",
+   "concerns": "jerome",
+   "basis": "Jerome's Life of Hilarion."
+  },
+  {
+   "link_id": "hieronymian-ascetic-literary--alexandria-catechetical",
+   "concerns": "jerome",
+   "basis": "Jerome against Origen."
+  },
+  {
+   "link_id": "hieronymian-ascetic-literary--jerusalem-liturgical-pilgrimage-christianity",
+   "concerns": "jerome",
+   "basis": "Jerome's own line on Jerusalem."
+  },
+  {
+   "link_id": "hieronymian-ascetic-literary--imperial-juridical-christianity",
+   "concerns": "jerome",
+   "basis": "Jerome and Damasus."
+  },
+  {
+   "link_id": "aquileian-christianity--hieronymian-ascetic-literary--2",
+   "concerns": "jerome",
+   "basis": "Jerome's break with Rufinus."
+  },
+  {
+   "link_id": "hieronymian-ascetic-literary--homoian-arian-christianity",
+   "concerns": "jerome",
+   "basis": "Jerome's Dialogue against the Luciferians."
+  },
+  {
+   "link_id": "tertullian-s-voice--hieronymian-ascetic-literary",
+   "concerns": "jerome",
+   "basis": "Jerome's reading of Tertullian."
+  },
+  {
+   "link_id": "hieronymian-ascetic-literary--latin-pastoral-congregational-christianity",
+   "concerns": "jerome",
+   "basis": "Jerome and Augustine's letters; from-end person. Augustine is named too; see flags."
+  },
+  {
+   "link_id": "pelagianism--hieronymian-ascetic-literary",
+   "concerns": "jerome",
+   "basis": "The attack on Jerome's monasteries."
+  },
+  {
+   "link_id": "hieronymian-ascetic-literary--the-tridentine-church",
+   "concerns": "jerome",
+   "basis": "Trent's Vulgate as Jerome's version."
+  },
+  {
+   "link_id": "hieronymian-ascetic-literary--ebionite-nazoraean-current",
+   "concerns": "jerome",
+   "basis": "Jerome names the Ebionites and Nazarenes."
+  }
+ ],
+ "tertullian_link_reading": [
+  {
+   "link_id": "post-apostolic-house-church--marcion-marcionism",
+   "about_tertullian": false,
+   "reason": "Tertullian is a witness to what the Roman church did to Marcion; the party on the household-church end is that church, and Irenaeus's report of Polycarp. Concerns irenaeus-of-lyon."
+  },
+  {
+   "link_id": "post-apostolic-house-church--valentinian-and-other-gnostic-christianities",
+   "about_tertullian": false,
+   "reason": "Tertullian adds only that Rome expelled Valentinus more than once. The link rests on Irenaeus. Concerns irenaeus-of-lyon."
+  },
+  {
+   "link_id": "greek-apologists-second-century--valentinian-and-other-gnostic-christianities",
+   "about_tertullian": false,
+   "reason": "The link is Justin's act against the Valentinians; Tertullian is a later witness who lists Justin. No concerns (Justin has no person entry)."
+  },
+  {
+   "link_id": "greek-apologists-second-century--latin-apologists",
+   "about_tertullian": true,
+   "reason": "Tertullian himself names Justin as an earlier writer against heresy; the Latin end of the link is his own act. Concerns tertullian-s-voice."
+  }
+ ],
+ "retire_links": [],
+ "wants": [
+  "Ambrose, Letter 42 (the synod of Milan's reply to Siricius on Jovinian), in Latin (CSEL 82 or PL 16) or English: today it is known in the Library only from the NPNF editor's summary, so the ambrosian-milan-standalone--jovinian link stands at Widely Accepted.",
+  "Siricius, Letter 7 (to the church of Milan, announcing Jovinian's condemnation): needed to raise imperial-juridical-christianity--jovinian above Widely Accepted.",
+  "Augustine, Retractations II.22 and On Heresies 82 on Jovinian: the lpc shelf note says On the Good of Marriage (401) was written in the wake of the controversy. A vendored passage naming Jovinian would add Augustine as a third witness, which the ruling's wording ('known only through Jerome and Ambrose') would then need to reflect.",
+  "Possidius, Life of Augustine, a clean English or Latin text with stable chapters: the vendored Weiskotten OCR could anchor Augustine's ordination, library and death directly instead of through Schaff's prolegomena.",
+  "Paulinus of Milan, Life of Ambrose, chapters on the acclamation of 374: would let Ambrose's election rest on a primary source instead of de Romestin's prolegomena."
+ ],
+ "flags": [
+  "Jovinian status (coordinator ruling, review round 1, pending Mark): 'Pre-Survey Candidate' (chip and glyph psc), statusWord 'Told within no tradition', the same convention as Peter the Iberian. The statusDescription says why his record is thin: everything known comes from those who condemned him. 'Within Another World (A5)' does not fit, since toldWithin is null. If Mark rules a person-only status, both persons change together.",
+  "concerns is one person per link (validator checks a single string). Five links name two person entries: ambrosian-milan-standalone--latin-pastoral-congregational-christianity (Ambrose and Augustine; set to Augustine), hieronymian-ascetic-literary--latin-pastoral-congregational-christianity (Jerome and Augustine; set to Jerome, the from-end), latin-pastoral-congregational-christianity--hieronymian-ascetic-literary (set to Augustine), latin-pastoral-congregational-christianity--latin-africa-under-byzantium (Cyprian and Augustine; set to Cyprian), latin-pastoral-congregational-christianity--novatianism (Cyprian, with an Augustine echo; set to Cyprian). If the People view should draw these from both persons, P2-G2 needs concerns to take a list.",
+  "Tertullian's existing links still use tertullian-s-voice as an end (e.g. tertullian-s-voice--marcion-marcionism), while ruling 10b keeps a link on the tradition with concerns. This draft does not move them. Whether they should be re-homed onto latin-apologists with concerns tertullian-s-voice is for the coordinator; re-homing would retire and replace IDs.",
+  "tertullian-s-voice in data release 22 has no kind, toldWithin or reviewStatus. The planned list says it exists as the person model; P2-G2 should add kind 'person', toldWithin 'latin-apologists' and reviewStatus.",
+  "Irenaeus line for post-apostolic-house-church: placed in voices (see neighbor_changes). If longDescription is wanted instead, the sentence would be: 'Irenaeus, who had seen Polycarp at Smyrna as a boy, later led the church at Lyon and wrote five books Against Heresies.' Adding it to longDescription reopens paragraphs that already fail the reading target (FRE 38-53), which is a fix for the entry's owner, not this pass.",
+  "Irenaeus is placed in his home entry's lane (Origin, laneOrder 0), as Tertullian follows latin-apologists. His city, Lyon, is far from the home entry's places (Antioch, Asia Minor, Rome); the People row will sit him at the home entry's place.",
+  "Jerome: no census entry carries Bethlehem with IDs, so modernCountries holds Rome only, as the home entry does; placeLabel keeps 'Bethlehem · Rome'.",
+  "imperial-juridical-christianity--jovinian: drawn because Jovinian's page names Siricius' synod at Rome. No census entry names Siricius; the Rome of Damasus and Siricius is told in imperial-juridical-christianity (it carries the Jerome-Damasus link). If the coordinator judges Siricius' Rome to belong elsewhere, re-point the from end. Both sources are 1890s editors (secondary) with no primary held, so the link is Inferential-Thin, specificity C (review round 1, RP-S5).",
+  "Augustine's era is 2 (working years 386-430) though his home entry lpc is era 1 (246-430); Cyprian is era 1. Ambrose, Jerome and Jovinian are era 2; Irenaeus era 1.",
+  "Schaff's chronology table in NPNF 1.1 dates Augustine's ordination as presbyter to 389, while the same volume's prolegomena say 391. The page follows 391, which matches the lpc world's Doc_01 (391) and the lpc entry's 395 for bishop.",
+  "Augustine's legacy line 'People still argue over what Augustine taught on grace' is tagged Contested in the fact table; both sides are named in the existing Marseilles and Port-Royal links.",
+  "Ambrose's page avoids 'within the week' / 'eight days' for his consecration: the home entry says 'within the week' and Schaff's prolegomena say eight days after baptism. The page gives only the date, 7 December 374. The home entry's wording may want a check by its owner."
+ ]
+}

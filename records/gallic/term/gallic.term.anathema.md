@@ -26,7 +26,7 @@ retrieval:
   tier: 3
   retrieve_when:
   - what "anathema" means; how Vincent reads Galatians 1:8
-  - whether excommunication was practised
+  - whether excommunication was practiced
   - participant uses "anathema," "accursed," "excommunicate," "cast out"
   - Comm. chs. 8-9, ch. 16's list; the priest who would have anathematized a virgin
   prefer_instead:

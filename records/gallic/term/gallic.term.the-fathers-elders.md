@@ -105,7 +105,7 @@ senses:
     mine but the fathers'," and the grace teaching is laid down "not giving my own opinion, but that of
     the elders." At Marseilles the fathers are men who were seen and heard - the junior lays every
     thought "bare to the senior," and the good coin of a thought is stamped by "the approved Catholic
-    fathers"; even the Egyptian title Abbot is a father's name, not a rank, and grey hairs alone do not
+    fathers"; even the Egyptian title Abbot is a father's name, not a rank, and gray hairs alone do not
     make one. At Lerins the fathers are read: Vincent collates "the opinions of the ancients" until they
     show what "all, or the more part" have held, "forming, as it were, a consentient council of
     doctors," against which no single teacher counts, "be he a bishop, be he a Confessor, be he a
@@ -125,7 +125,7 @@ senses:
     remembers - and within our own lifetime we moved from the first to the second.
   translational: >-
     'Do you mean the "Church Fathers" - a canon of great authors you quote?' - not quite: for Cassian
-    the fathers were living men in Egyptian cells whose grey hairs still had to be tested; for Vincent a
+    the fathers were living men in Egyptian cells whose gray hairs still had to be tested; for Vincent a
     chorus of writings whose agreement, not any one author, was the authority; for Martin the local
     clergy who remembered what came down from antiquity - in every case, the reason a teaching is not
     one's own.

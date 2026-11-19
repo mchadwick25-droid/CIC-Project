@@ -1,0 +1,11 @@
+source_file: catholic-worker_v37-no2-june-1969.txt
+assignments:
+- row_id: catholic-worker_v37-no2-june-1969--the-catholic-worker-june-1969
+  work: 'The Catholic Worker, June 1969'
+  author: catholic-worker
+  locus: 'whole; Dorothy Day''s "On Pilgrimage", from lines 54 and 2794'
+  atlas_ids:
+  - catholic-lay-renewal-worlds-catholic-worker-foco
+  role: tradition
+  confidence: assigned
+  note: 'The movement''s own paper, one issue; many writers.'

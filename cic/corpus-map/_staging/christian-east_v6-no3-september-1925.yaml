@@ -1,0 +1,24 @@
+source_file: christian-east_v6-no3-september-1925.txt
+assignments:
+- row_id: christian-east_v6-no3-september-1925--whole
+  work: 'The Christian East, volume VI, number 3 (September, 1925)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1925, end: 1925, source: "masthead: 'September, 1925'", formation_confidence: Documented}
+  note: 'One number of the quarterly, by many writers. The Eastern documents it prints are in the journal''s English unless a row says otherwise.'
+- row_id: christian-east_v6-no3-september-1925--basil-iii-of-constantinople-eirenikon-to-the-archbishop-of-canterbury-1925
+  work: 'Basil III, Patriarch of Constantinople, eirenikon to the Archbishop of Canterbury (1925), in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 196-290; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-greek-church-and-the-ecumenical-patriarchate
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1925, end: 1925, source: "signed 'Basil of Constantinople' and dated 22nd July, 1925 (OCR lines 289-290)", formation_confidence: Documented}
+  note: 'The Patriarch''s own letter in English; the print names no translator. The heading is at OCR line 186 and the editors'' words ''We append the Eirenikon'' at 190-194. The Chronicle of the same number names him Basil III (OCR line 5662).'

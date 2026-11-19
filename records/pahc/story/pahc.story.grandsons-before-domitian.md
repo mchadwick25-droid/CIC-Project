@@ -50,7 +50,7 @@ text: 'Domitian was told that some of Jesus'' own family were still alive - gran
   had nine thousand denaria, and not in money either, but as the value of a piece of land of some thirty-nine
   plethra, out of which they still had to pay the dues, and that they lived by working it themselves.
   And they held out their hands to show him - the roughness of the skin, the corns raised by constant
-  labour. Then he asked them about Christ''s kingdom, what it was and when it would come, and they told
+  labor. Then he asked them about Christ''s kingdom, what it was and when it would come, and they told
   him it was not of this world or of the earth but belonged to heaven and the angels, and would appear
   at the end of time. Domitian passed no sentence. He treated them with contempt, as too mean to be worth
   his notice, and let them go; and he called off the persecution. When they were released, they became

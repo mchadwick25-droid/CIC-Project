@@ -1,0 +1,13 @@
+source_file: international-review-of-missions_v5_1916.txt
+assignments:
+- row_id: international-review-of-missions_v5_1916--whole
+  work: 'The International Review of Missions, Volume the Fifth (1916)'
+  author: international-review-of-missions
+  locus: 'whole'
+  atlas_ids:
+  - the-student-volunteer-movement-and-edinburgh-191
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1916, end: 1916, source: "title leaf: '1916'", formation_confidence: Documented}
+  note: 'A missionary quarterly edited by J. H. Oldham. The title leaf says that an article which speaks for the Continuation Committee will say so, and that otherwise the writer alone is responsible.'

@@ -1,0 +1,12 @@
+source_file: acta-sanctorum_martii-tomus-1-lat_palme1865.txt
+assignments:
+- row_id: acta-sanctorum_martii-tomus-1-lat_palme1865--clare-of-assisi-the-four-letters-to-agnes-of-prague-in
+  work: 'Clare of Assisi, the four letters to Agnes of Prague, in Tanner''s Latin (Acta Sanctorum March I)'
+  author: clare-assisi
+  locus: 'about OCR lines 136330-136900; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-franciscan-movement
+  role: tradition
+  confidence: assigned
+  note: "Clare's letters as the Bollandists printed them, in a Latin version made by Joannes Tannerus. A translation: the wording is the translator's, not hers, so no phrase is quoted as Clare's own Latin."
+  translator: {name: "Joannes Tannerus (Latin version of Clare's four letters to Agnes)", source: "acta-sanctorum_martii-tomus-1-lat_palme1865.txt line 135866: quas a se Latine redditas transmisit Joannes Tannerus", formation_confidence: Documented}

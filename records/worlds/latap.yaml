@@ -1,0 +1,7 @@
+kind: formation
+world_id: latin-apologists
+display_name: "The Latin Apologists"
+time_window: {start: 197, end: 320}
+place: "Carthage"
+state: candidate
+census_id: "latin-apologists"

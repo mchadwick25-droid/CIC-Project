@@ -3,7 +3,7 @@
 
 ## Structural note, read before the rest of this document
 
-This template's own instructions cite specific fixed section numbers in Doc_07 ("Section 2E" for Formation Logic, "Section 5" for the Integrative Observation), assuming a Doc_07 built around a standard A–E lens set (Emotional/Philosophical/Authority/Boundary/Formation Logic). This world's own Doc_07 does not use that fixed structure — per the Construction Framework's own explicit instruction that Doc_07's lens set is "world-derived, not fixed," this world's Doc_07 selected five lenses proportional to its own authority-contestation axis (Authority, Boundary, Formation Logic, Memory-and-Interpretive, Worship-and-Affective), a different shape than this template assumes. This is a real, disclosed template/Framework mismatch, not an error in either document — flagged here and in the Open Items below for System Hub, per this thread's own standing instruction to report rather than silently work around process gaps. Sections below map to Doc_07's actual content by substance, with the specific section cited each time, not to a "2E" or "Section 5" that does not exist in this world's own Doc_07.
+This template's own instructions cite specific fixed section numbers in Doc_07 ("Section 2E" for Formation Logic, "Section 5" for the Integrative Observation), assuming a Doc_07 built around a standard A–E lens set (Emotional/Philosophical/Authority/Boundary/Formation Logic). This world's own Doc_07 does not use that fixed structure — per the Construction Framework's own explicit instruction that Doc_07's lens set is "world-derived, not fixed," this world's Doc_07 selected five lenses proportional to its own authority-contestation axis (Authority, Boundary, Formation Logic, Memory-and-Interpretive, Worship-and-Affective), a different shape than this template assumes. This is a real, disclosed template/Framework mismatch, not an error in either document. Sections below map to Doc_07's actual content by substance, with the specific section cited each time, not to a "2E" or "Section 5" that does not exist in this world's own Doc_07.
 
 ---
 
@@ -211,7 +211,7 @@ This world's boundaries are drawn and enforced through the same juridical instru
 **How the Representative handles it:** "We can tell you what the councils decided and what the bishops wrote to one another. What an ordinary believer in Rome or Milan felt, watching these things unfold, is not something our own record kept — we do not speak as ones who know that from inside."
 
 **Domain:** the pagan boundary
-**Ecological basis:** this world's own life did concentrate real energy here (the Altar of Victory controversy is a documented, central episode) but this build's own current source base has not yet developed the same depth of coverage it has for the Homoian boundary specifically — a gap in this construction's own evidentiary reach, named rather than papered over (Doc_05 §5, Doc_07's own open item).
+**Ecological basis:** this world's own life did concentrate real energy here (the Altar of Victory controversy is a documented, central episode) but this build's own current source base has not yet developed the same depth of coverage it has for the Homoian boundary specifically — a gap in this construction's own evidentiary reach, named rather than papered over (Doc_05 §5).
 **How the Representative handles it:** "Our confrontation with the old gods' own defenders is real and part of our own record — but our tradition's deepest, most sustained boundary-work in this period was against a confession that shared our own scriptures, not against those who did not."
 
 **Domain:** the Homoian community's own interior life
@@ -224,14 +224,14 @@ This world's boundaries are drawn and enforced through the same juridical instru
 
 **Living tradition correspondence:** YES — Article 29 Living Tradition Status is **CONFIRMED**.
 
-**Which present-day tradition(s):** **CONFIRMED by the project lead (Mark Chadwick), in session, 2026-09-20: "Multiple traditions, partial claims."** This world's Strand A content has the most direct, traceable living-tradition continuity of any world yet confirmed in this project's portfolio, running forward into the present-day papacy's own claimed lineage; Strand B's content is comparably continuous with Eastern Orthodoxy's own historical self-understanding of Constantinople's status. Neither tradition holds an exclusive claim to continuity — each holds a partial and contested one, the same shape of finding already reached for `pahc` (confirmed 2026-07-08) and, with a single named heir rather than a plural one, for `alx` (confirmed 2026-07-17). Article 28 differentiation applies: the historical reconstruction is not a verdict on either modern communion's own present-day self-understanding.
+**Which present-day tradition(s):** **CONFIRMED by the project lead: "Multiple traditions, partial claims."** This world's Strand A content has the most direct, traceable living-tradition continuity of any world yet confirmed in this project's portfolio, running forward into the present-day papacy's own claimed lineage; Strand B's content is comparably continuous with Eastern Orthodoxy's own historical self-understanding of Constantinople's status. Neither tradition holds an exclusive claim to continuity — each holds a partial and contested one, the same shape of finding already reached for `pahc` and, with a single named heir rather than a plural one, for `alx`. Article 28 differentiation applies: the historical reconstruction is not a verdict on either modern communion's own present-day self-understanding.
 
 **Key divergences:** not yet developed — this is Representative Construction Notes work (Doc_01 §1), which this thread does not build, per its own stopping point before Step 10.
 
 **Figures of contested standing:** not yet developed, same reason.
 
 **Living Tradition Status Confirmation:**
-Status: **CONFIRMED (2026-09-20)**
+Status: **CONFIRMED**
 Confirmed by: Mark (project lead), via a direct, deliberated choice among four options ("Multiple traditions, partial claims"; "Catholic + Orthodox only"; "No living tradition"; "Defer to External Scholarly Review") — the same four-option framing already used for `pahc`'s own confirmation. This clears the Article 29 freeze-eligibility gate; **the world remains NOT frozen** (Article 31 External Scholarly Review is still outstanding, as is Representative-dependent validation — Step 10 has not begun).
 
 **Cross-reference:** no Representative Construction Notes document exists yet for this world — Step 10 has not begun, per this thread's own launch instructions.

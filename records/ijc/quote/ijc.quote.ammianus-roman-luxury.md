@@ -24,7 +24,7 @@ confidence:
     verified-via-authority rather than verified-direct.
 sources:
 - source_id: ijc.source.ammianus-marcellinus
-  locus: "Res Gestae XXVII.3.14-15"
+  locus: "Res Gestae XXVII.3.14-15 (cic/texts/ammianus-marcellinus_roman-history_yonge1862.txt, lines 23191-23207)"
   license: public-domain
 text: 'I do not deny, when I consider the ostentation that reigns at Rome, that those who desire such
   rank and power may be justified in labouring with all possible exertion and vehemence to obtain their

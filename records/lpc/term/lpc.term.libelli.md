@@ -19,7 +19,7 @@ relations:
 use_note:
   means: "A libellus said you had made the pagan offering; some bought one without making it, and Cyprian still held them fallen."
   not_for:
-    - "a claim that it was a modern identity document or licence"
+    - "a claim that it was a modern identity document or license"
     - "a claim that the Latin word appears in the English volume, which renders it certificates"
     - "a claim that Latin libellus names only this paper"
   years: {from: 246, to: 258}
@@ -39,12 +39,13 @@ sources:
 - source_id: lpc.source.cyprian-de-lapsis
   locus: De Lapsis 27 -- 'libellis tamen conscientiam miscuerunt' (defiled their conscience with certificates);
     De Lapsis 28 -- 'nullo sacrificii aut libelli facinore constricti' (bound by no crime of sacrifice
-    or of certificate)
+    or of certificate); verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml,
+    lines 44357-44365 (section 27) and 44392-44394 (section 28); Latin at cic/texts/cyprian_de-lapsis-lat_hartel1868-csel3-tei.txt,
+    lines 1028-1030 and 1048-1049 (section 27) and 1070-1071 (section 28)
   license: public-domain
 - source_id: lpc.source.cyprian-epistles
   locus: Epistle LI (to Antonianus) 13 and 14 -- those who receive certificates are not to be put on
-    a par with those who have sacrificed; the plea of one who obtained a certificate and paid a price
-    for it
+    a par with those who have sacrificed; the plea of one who obtained a certificate and paid a price for it, 'I pay a price for this purpose'; verified directly against cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 33696-33716; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 7855-7887
   license: public-domain
 retrieval:
   tier: 2
@@ -54,7 +55,7 @@ retrieval:
   prefer_instead:
   - the participant is asking about the category of persons rather than the document itself -- ask about
     the lapsed instead
-  - 'also: this corpus uses the bare word certificate for two different documents travelling in opposite
+  - 'also: this corpus uses the bare word certificate for two different documents traveling in opposite
     directions -- this is the one the empire issued, which made a person lapsed'
   - the confessors' own letter of peace, which asks the church to take a person back, is a separate term
     (certificates) and a participant asking simply what a certificate was should be pointed to both
@@ -64,7 +65,7 @@ plain_meaning: 'Rome ordered a sacrifice. Some people paid for a paper saying th
 world_word: libelli
 distortion_risk: low
 false_friend:
-- a formal identity document or licence, in the modern administrative sense
+- a formal identity document or license, in the modern administrative sense
 senses:
   informational: 'The empire asked for a sacrifice, and then wrote down that one had been made. A demand
     satisfied with money rather than incense produced a class of people who had not, in their own minds,
@@ -75,9 +76,12 @@ senses:
     their conscience with certificates, and in his letter to Antonianus he writes of those who receive
     certificates and sets them beside those who sacrificed. The English calls it a certificate. The Latin
     word is libellus.
-  translational: A modern listener may picture a formal identity document or licence. We mean a compliance
+  translational: A modern listener may picture a formal identity document or license. We mean a compliance
     record produced by an empire-wide administrative demand, whose existence is exactly what made failure
     documentary and public rather than private.
+  heard_today: A modern listener may picture a formal identity document or license.
+  meant_here: We mean a compliance record produced by an empire-wide administrative demand, whose existence
+    is exactly what made failure documentary and public rather than private.
 quick_meaning: The libelli were papers saying a person had sacrificed. Some people bought one and never
   sacrificed. Holding that paper made a person one of the lapsed.
 ---

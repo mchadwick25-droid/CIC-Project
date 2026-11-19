@@ -1,0 +1,99 @@
+{
+  "name": "Pisentius of Coptos and John the Elder",
+  "otherNames": [
+    "Apa Pisentius, bishop and anchorite of the mountain of Tsenti",
+    "Pesenthius or Pesynthius, in W. E. Crum's English of the Epiphanius letters",
+    "John the Presbyter, the title's name for John"
+  ],
+  "knownFor": "Pisentius was bishop of Coptos in Upper Egypt, who hid in the mountain of Djeme when the Persians held Egypt. John, his disciple and servant, wrote his Life as a sermon for his feast day, and is a witness in it.",
+  "dates": "Late sixth and early seventh centuries. E. A. Wallis Budge says Pisentius flourished in the second half of the sixth century and the first half of the seventh, and guesses his birth about 550. Budge has him consecrated by the patriarch Damian some year between 570 and 603. The Life puts his flight while the Persians were masters of Egypt, which Budge's note dates to 616 by Theophanes, or three or four years later by modern reckoning. Pisentius died on 13 Epep, which Budge reckons as 7 July; John gives only \"this fifth year\" of the indiction, which does not fix the year. John wrote after the death, in a year no held source gives",
+  "place": "Coptos (Keft), on the east bank of the Nile in Upper Egypt, his see; the mountain of Tsenti near Coptos, where he lived as an anchorite; the region of Djeme, on the west bank at Thebes, where he hid twice",
+  "tradition": "The Church of Alexandria and Miaphysite Egypt",
+  "role": "Pisentius: monk, anchorite and bishop of Coptos. John: his disciple and servant, a presbyter, author of his Life",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "The Life of Bishop Pisentius, by John the Elder",
+      "about": "a sermon for the bishop's feast on 13 Epep, in the Sahidic Coptic of a manuscript copied in 1006. Held in E. A. Wallis Budge's English of 1913, with the Coptic"
+    },
+    {
+      "title": "Letters of Bishop Pesynthius",
+      "about": "letters to and from a bishop of that name among the papers of the monastery of Epiphanius at Thebes, in W. E. Crum's English. Crum warns that not every Pesenthius in them is the bishop"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Budge says Moses, whom Pisentius charged on his deathbed to keep his parchment books, was his successor as bishop. W. E. Crum asks whether a Moses called bishop and confessor was that successor.",
+      "A Memphitic version of the Life, published by Émile Amélineau, names John together with Moses, bishop of Keft, as its authors. In an appendix Budge translates the three of its episodes that his manuscript lacks, among them the story of the speaking mummy.",
+      "Abu Salih places a monastery of Saint Pisentius west of Kus, with his tomb."
+    ],
+    "remembered": [
+      "The Ethiopic Synaxarium keeps his death on 13 Hamle, as bishop of the city of Keft.",
+      "The Arabic Synaxary of the Coptic church, in René Basset's French, keeps his death on 13 Abib.",
+      "A discourse on the holy man Apa Onnophrius, in a manuscript of 1042, goes under the name of Apa Pisenthius of Mount Tsinti, in Budge's English."
+    ]
+  },
+  "uncertain": [
+    "The Life gives no year that can be fixed for any event. Budge guesses Pisentius was born about 550 and consecrated between 570 and 603. His introduction dates the Persian invasion to between 514 and 520, a century too early; his own note gives 616 or a few years later.",
+    "His year of death. The Life gives the day and the fifth year of the indiction, which Budge marks with a question mark. No held source gives the year.",
+    "The letter's nation. Pisentius's letter warns of the Barbarians and of a nation fierce of visage, and names none. Budge takes it to mean the Persians.",
+    "Who wrote the Life. The Sahidic title names John the Presbyter. The Memphitic title names John with Moses, bishop of Keft.",
+    "His youth. John tells the pillar of fire as something said. Budge says it is not known when or at what age Pisentius became a monk.",
+    "Budge's introduction names Elijah the Presbyter at the deathbed, where the Sahidic Life has Elisha."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Life of Bishop Pisentius, by John the Elder, in Coptic Apocrypha in the Dialect of Upper Egypt (tr. E. A. Wallis Budge)",
+        "author": "John the Elder; E. A. Wallis Budge (ed. and tr.)",
+        "date": "1913",
+        "language": "Sahidic Coptic and English translation",
+        "file": "cic/texts/coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913.txt"
+      },
+      {
+        "title": "The Monastery of Epiphanius at Thebes, part 2: Coptic ostraca and papyri",
+        "author": "W. E. Crum (ed. and tr.)",
+        "date": "1926",
+        "language": "Coptic and English translation",
+        "file": "cic/texts/monastery-of-epiphanius-thebes-pt2-coptic-ostraca_crum1926.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Coptic Apocrypha in the Dialect of Upper Egypt: introduction, notes and the Memphitic episodes",
+        "author": "E. A. Wallis Budge",
+        "date": "1913",
+        "language": "English",
+        "file": "cic/texts/coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913.txt"
+      },
+      {
+        "title": "The Churches and Monasteries of Egypt (tr. B. T. A. Evetts)",
+        "author": "Abu Salih",
+        "date": "1895",
+        "language": "English translation",
+        "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt"
+      },
+      {
+        "title": "The Book of the Saints of the Ethiopian Church, volumes 2 to 4",
+        "author": "E. A. Wallis Budge (tr.)",
+        "date": "1928",
+        "language": "English translation",
+        "file": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt"
+      },
+      {
+        "title": "Le synaxaire arabe jacobite, in Patrologia Orientalis 17",
+        "author": "René Basset (ed. and tr.)",
+        "date": "1923",
+        "language": "Arabic and French translation",
+        "file": "cic/texts/john-ephesus_lives-eastern-saints-po17_brooks1923.txt"
+      },
+      {
+        "title": "Miscellaneous Coptic Texts in the Dialect of Upper Egypt",
+        "author": "E. A. Wallis Budge (ed. and tr.)",
+        "date": "1915",
+        "language": "Sahidic Coptic and English translation",
+        "file": "cic/texts/miscellaneous-coptic-texts-upper-egypt_budge1915.txt"
+      }
+    ]
+  }
+}

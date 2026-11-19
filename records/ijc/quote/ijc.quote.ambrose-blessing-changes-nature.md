@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.ambrose-de-mysteriis
-  locus: "IX.50, IX.54 (npnf210 lines 33203-33205, 33263-33271)"
+  locus: "IX.50, IX.54 (cic/texts/npnf210_ambrose-select-works-letters.xml, lines 33203-33270: IX.50 at lines 33203-33205, IX.54 at lines 33263-33270)"
   license: public-domain
 text: 'Let us prove that this is not what nature made, but what the blessing consecrated, and the power of
   blessing is greater than that of nature, because by blessing nature itself is changed... The Lord Jesus

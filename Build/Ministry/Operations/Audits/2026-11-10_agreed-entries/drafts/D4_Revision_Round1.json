@@ -1,0 +1,11 @@
+[
+ {"finding_id": "M25", "action": "fixed",
+  "what": "hutterite-brethren longDescription paragraph 2 and its fact row now read 'Jakob Hutter led the community for more than two years.' (Wolkan clean scan line 10684, 'Er hat die Gemein Gottes in das dritte Jahr geregiert').",
+  "reason": "The phrase means into the third year of his own rule, about 1533-1535, not the community's third year."},
+ {"finding_id": "M26", "action": "fixed (dropped and re-sourced, not regraded)",
+  "what": "Every quote from the Martyrs Mirror scan's modern front matter (lines 103-128) is removed. Dropped: the 1742 and 1745 letters (longDescription), the 1748 and 1837 dates (why), Elkhart as the 1886 place, the Skippack ministers voice, the modern-preface phrase and the 2012 printing (legacy, livingEvidence). Re-sourced to public-domain text: the German printing to the Ephrata chronicle (lamech-agrippa 9608-9613); the 1886 English edition to the 1886 preface's own heading (line 68) and the title page (line 51); the new voice and legacy to the 1886 preface (lines 78-80). sourcing now says that from the 1700s only the Ephrata chronicle, an outside voice, tells of them. A new legacy sentence names the gap after 1890. All rows stay Documented because each now quotes a primary public-domain text.",
+  "reason": "The coordinator's rule: no quote from the in-copyright front matter. Dropping and re-sourcing removes the need for the reviewer's 'secondary' grade. The file's rights question is passed in flags for the coordinator to log in Open_Gaps_Tracking; I cannot edit the repo."},
+ {"finding_id": "M27", "action": "fixed",
+  "what": "livingEvidence.basis for mennonites-and-amish-after-1650 now says that the grade Documented covers the Mennonite line, and that the Amish descent is shown only by one mention in the 1890 Elkhart manual, pending the source pass. The grade stays Documented. The flag was updated to match.",
+  "reason": "This is the reviewer's first option. It keeps the grade true for the line the sources show and names the thin part plainly."}
+]

@@ -60,14 +60,25 @@ def test_a_nameless_claim_is_unverified_not_ruled_on():
     assert findings[0]["finding"].startswith("unverified:")
 
 
-def test_first_person_singular_is_flagged():
-    assert "pronoun" in _families(check_output("You are asking me to identify her.", history=[]))
+def test_i_for_the_voices_own_acts_in_the_conversation_is_not_flagged():
+    for text in ("You are asking me to identify her.", "I can tell you what we held.", "As I said earlier, we kept the fast.",
+                 "I remember you asked earlier about Rome.", "I recall you asked about the fast.", "I saw your question about Nicaea.",
+                 "I am the first to say that our records are thin.", "I am one of those who would rather name the gap.",
+                 "I am not sure our records reach that far.", "I'm a representative of Desert Monasticism."):
+        assert "pronoun" not in _families(check_output(text, history=[]))
+
+
+def test_the_voice_claiming_to_be_a_person_is_flagged():
+    for text in ("I am the bishop of this flock.", "I was a deacon in those years.", "I remember the day the council met.", "I saw him with my own eyes.",
+                 "I am Ignatius of Antioch.", "I, Ignatius, write to you.", "I was bishop of Antioch for many years.", "I served as bishop of this flock.",
+                 "I was present at Nicaea.", "I heard him preach.", "My own eyes saw the fire."):
+        assert "pronoun" in _families(check_output(text, history=[]))
 
 
 def test_a_quoted_figure_keeps_their_own_first_person():
     """The pronoun rule's own carve-out: a named figure's quoted words keep
     their original wording - that is a citation, not the voice speaking."""
-    text = 'She answered them: "It is I who am a man among you, and ye who are women".'
+    text = 'She answered them: "I was a deacon among you, and I saw it with my own eyes".'
     assert "pronoun" not in _families(check_output(text, history=[]))
 
 

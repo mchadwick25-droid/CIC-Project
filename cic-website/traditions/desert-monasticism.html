@@ -39,22 +39,11 @@ p{margin:0 0 1rem}
 .eyebrow{font-family:var(--sans);font-size:.8125rem;letter-spacing:.13em;text-transform:uppercase;color:var(--action);font-weight:600;margin:0 0 .6rem}
 .sans{font-family:var(--sans)}
 .muted{color:var(--muted)}
-/* Logo, wordmark, the three feature buttons, and the site nav all in one
-   row: the nav collapses into a "Menu" dropdown since all four don't fit
-   alongside the rest in one row at this header's own 1024px width. */
 .site-header{background:var(--surface);border-bottom:1px solid var(--rule)}
 .site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
 .wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
 .wordmark em{font-style:italic;font-weight:400}
 .menu{position:relative;margin-left:auto}
-/* Centered in the space actually available between the logo and the menu
-   button, not naive full-row-width centering (that ignores the wordmark's
-   and menu button's own widths and can visually collide with the
-   wordmark). Grid's max-content/1fr/max-content sizes the outer two
-   columns to the wordmark's and menu's own content exactly, so the
-   middle column is whatever's genuinely left, with no risk of
-   overlapping either side -- only turned on above the width where the
-   whole row fits unwrapped. */
 @media (min-width:1000px){
   .site-header .row{display:grid;grid-template-columns:max-content 1fr max-content;column-gap:1rem}
   .menu{margin-left:0}
@@ -64,11 +53,6 @@ p{margin:0 0 1rem}
 .menu-toggle:hover,.menu-toggle:focus-visible,.menu-toggle[aria-expanded="true"]{border-color:var(--action);color:var(--action)}
 .menu-caret{width:.65rem;height:.65rem;flex:0 0 auto;transition:transform .15s ease}
 .menu-toggle[aria-expanded="true"] .menu-caret{transform:rotate(180deg)}
-/* top:100% with zero gap to the button, not top:calc(100% + Xrem) -- any
-   real gap is a dead zone the pointer crosses with no element under it,
-   which drops :hover before the pointer reaches the menu. The ::before
-   bridges the .5rem visual gap so :hover survives the
-   crossing while keeping the breathing room. */
 .site-nav{font-family:var(--sans);font-size:.9rem;position:absolute;right:0;top:100%;margin-top:.5rem;display:none;flex-direction:column;gap:.1rem;background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding:.4rem;min-width:170px;box-shadow:0 12px 28px rgba(0,0,0,.4);z-index:30}
 .site-nav::before{content:"";position:absolute;left:0;right:0;bottom:100%;height:.5rem}
 .menu:hover .site-nav,.menu.open .site-nav{display:flex}
@@ -168,7 +152,6 @@ details.docstory-item[open] summary::before{transform:rotate(90deg)}
 .hl:hover .hl-note,.hl:focus .hl-note{display:block}
 @media (hover:none){.hl{cursor:pointer}}
 @media (max-width:600px){.hl-note{position:fixed;left:max(16px,env(safe-area-inset-left,0px));right:max(16px,env(safe-area-inset-right,0px));top:auto;bottom:calc(16px + env(safe-area-inset-bottom,0px));width:auto}}
-/* Wide layout: the page is about the tradition and fills the screen. */
 :root{--gold:#D9B35C}
 .site-header .row,.site-footer .row{max-width:none;padding-left:max(clamp(16px,3vw,56px),env(safe-area-inset-left,0px));padding-right:max(clamp(16px,3vw,56px),env(safe-area-inset-right,0px))}
 .door{padding-left:max(clamp(16px,3vw,56px),env(safe-area-inset-left,0px));padding-right:max(clamp(16px,3vw,56px),env(safe-area-inset-right,0px))}
@@ -238,7 +221,7 @@ main .page{max-width:none;padding-left:max(clamp(16px,3vw,56px),env(safe-area-in
   <div class="row">
     <a class="wordmark" href="../index.html">Church <em>in</em> Conversation</a>
     <nav class="feature-bar" aria-label="Main features">
-      <a class="feature-btn" href="../atlas-v3.html">Church Family Tree</a>
+      <a class="feature-btn" href="https://www.churchfamilytree.com/">Church Family Tree</a>
       <a class="feature-btn" href="../index.html#who">Conversation with One</a>
     </nav>
     <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
@@ -285,10 +268,10 @@ main .page{max-width:none;padding-left:max(clamp(16px,3vw,56px),env(safe-area-in
           <div><dt>Also known as</dt><dd>Abba and Amma; Anchorites; Koinonia</dd></div>
           <div><dt>Shaped by</dt><dd>Antony, Pachomius, Evagrius</dd></div>
           </dl>
-          <a class="tree" href="../tree/desert-monasticism.html">See it on the Church Family Tree &rarr;</a>
+          <a class="tree" href="https://www.churchfamilytree.com/tree/desert-monasticism">See it on the Church Family Tree &rarr;</a>
         </aside>
         <div class="meet" role="group" aria-label="Meet Papnoute">
-          <img src="../assets/portraits/desert.png" alt="Papnoute: an elderly man with a long white beard and a dark cap, in a plain grey robe, hands coiling a length of rope, painted against a warm neutral ground." width="573" height="573">
+          <img src="../assets/portraits/desert.png" alt="Papnoute: an elderly man with a long white beard and a dark cap, in a plain gray robe, hands coiling a length of rope, painted against a warm neutral ground." width="573" height="573">
           <p class="meet-name">Papnoute</p>
           <div class="acts">
             <a class="act primary" id="seat-begin" href="../talk.html?worlds=desert-monasticism&amp;mode=interview&amp;from=traditions%2Fdesert-monasticism.html" data-ask aria-label="Talk with Papnoute"><span class="disc"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 5h16v11H10l-5 4v-4H4z"/></svg></span>Talk</a>
@@ -357,7 +340,7 @@ main .page{max-width:none;padding-left:max(clamp(16px,3vw,56px),env(safe-area-in
       <details class="docstory-item" id="desert-monasticism-story-0">
       <summary><span class="docstory-title">Read the full account</span></summary>
       <div class="docstory"><div class="narration"><audio controls preload="none" src="../audio/worlds/desert-monasticism/docstory-desert.story.antony-call.mp3"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div><p><span class="hl" tabindex="0">Athanasius<span class="hl-note" role="tooltip"><b>Athanasius</b>Bishop of Alexandria, about 296 to 373. He was not a desert monk, and he wrote about Antony from outside.<small>Person</small></span></span> tells us that <span class="hl" tabindex="0">Antony<span class="hl-note" role="tooltip"><b>Antony</b>An Egyptian monk, about 251 to 356. Nearly all that is known of him comes from the Life that Athanasius wrote.<small>Person</small></span></span> was about eighteen or twenty when his parents died. That left him with a little sister and the care of the house.</p>
-      <p>Less than six months later, he was going into church as he always did. He was thinking of how the apostles had left everything to follow the Saviour. The Gospel was being read. He heard the Lord say to the rich man: &quot;If you want to be perfect, go and sell what you have and give to the poor. Then come and follow me, and you will have treasure in heaven.&quot;</p>
+      <p>Less than six months later, he was going into church as he always did. He was thinking of how the apostles had left everything to follow the Savior. The Gospel was being read. He heard the Lord say to the rich man: &quot;If you want to be perfect, go and sell what you have and give to the poor. Then come and follow me, and you will have treasure in heaven.&quot;</p>
       <p>Antony went out of the church at once, as though the passage had been read on his account. He gave the villagers his family&#39;s land, three hundred Egyptian field measures of good ground. He sold everything else he could move and gave the money to the poor, keeping back a little for his sister.</p>
       <p>Later he went into church again and heard the Lord say, &quot;Do not be anxious about tomorrow.&quot; He could stay no longer. He went out and gave the rest to the poor as well. He placed his sister with known and faithful virgins to be brought up. From then on he gave himself to a life of discipline outside his house, training himself with patience.</p>
       <p>In the next village lived an old man who had been a hermit from his youth. After Antony had seen him, he copied his devotion.</p></div>
@@ -384,8 +367,8 @@ main .page{max-width:none;padding-left:max(clamp(16px,3vw,56px),env(safe-area-in
       <summary><span class="docstory-title">Read the full account</span></summary>
       <div class="docstory"><div class="narration"><audio controls preload="none" src="../audio/worlds/desert-monasticism/docstory-desert.story.antony-withdrawal.mp3"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div><p><span class="hl" tabindex="0">Antony<span class="hl-note" role="tooltip"><b>Antony</b>An Egyptian monk, about 251 to 356. Nearly all that is known of him comes from the Life that Athanasius wrote.<small>Person</small></span></span> left the world in stages. First he lived near his own village, as all did who wished to train in those days. He had seen an old hermit in the next village and copied his devotion.</p>
       <p>Later he found a fort on the far side of the river. It had stood empty so long that it was full of creeping things. Antony crossed over and lived there, and the creatures, <span class="hl" tabindex="0">Athanasius<span class="hl-note" role="tooltip"><b>Athanasius</b>Bishop of Alexandria, about 296 to 373. He was not a desert monk, and he wrote about Antony from outside.<small>Person</small></span></span> wrote, fled at once as if someone were chasing them. He built up the entrance completely and stored six months of loaves. He found water inside. He stayed alone, never going out and never looking at anyone who came, and loaves were let down to him from above twice a year.</p>
-      <p>Friends who came were not let in. They often spent days and nights outside, and they heard what sounded like crowds clamouring within.</p>
-      <p>Nearly twenty years later he came out, and in time, Athanasius says, he was beset by many people and could not be still. Then a voice came to him from above and told him that, if he truly wanted quiet, he should go into the inner desert. He journeyed three days and three nights with Saracens, desert nomads, who were going that way. He came to a very lofty mountain, with a clear spring at its foot, a plain, and a few uncared-for palm trees. He recognised the place as his own home and stayed.</p></div>
+      <p>Friends who came were not let in. They often spent days and nights outside, and they heard what sounded like crowds clamoring within.</p>
+      <p>Nearly twenty years later he came out, and in time, Athanasius says, he was beset by many people and could not be still. Then a voice came to him from above and told him that, if he truly wanted quiet, he should go into the inner desert. He journeyed three days and three nights with Saracens, desert nomads, who were going that way. He came to a very lofty mountain, with a clear spring at its foot, a plain, and a few uncared-for palm trees. He recognized the place as his own home and stayed.</p></div>
       </details>
       </div>
       <div class="docstory-entry">
@@ -426,7 +409,7 @@ main .page{max-width:none;padding-left:max(clamp(16px,3vw,56px),env(safe-area-in
       <p class="teaser">A congregation at Scete meets to judge a brother who has done wrong. Abba Moses comes at last, carrying a basket of sand with a hole in it. He says the sand is his own sins running out behind him, and the congregation sets the brother free.</p>
       <details class="docstory-item" id="desert-monasticism-story-6">
       <summary><span class="docstory-title">Read the full account</span></summary>
-      <div class="docstory"><div class="narration"><audio controls preload="none" src="../audio/worlds/desert-monasticism/docstory-desert.story.moses-leaking-jug.mp3"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div><p>Our sayings tell of a brother at <span class="hl" tabindex="0">Scete<span class="hl-note" role="tooltip"><b>Scete</b>This is the same place as Scetis, a valley in northern Egypt. It is now called Wadi el Natrun.<small>Place · pleiades.stoa.org</small></span></span>, the camp of the monks, who committed an offence. A congregation met on the matter. They sent for <span class="hl" tabindex="0">Abba Moses<span class="hl-note" role="tooltip"><b>Abba Moses</b>An elder at Scete in the Syriac sayings. Abba means father, a title of respect for an elder.<small>Person</small></span></span>, but he refused to come. Then they sent the priest of the church to him, saying, &quot;Come. All the people are waiting for you.&quot; Moses got up and came.</p>
+      <div class="docstory"><div class="narration"><audio controls preload="none" src="../audio/worlds/desert-monasticism/docstory-desert.story.moses-leaking-jug.mp3"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div><p>Our sayings tell of a brother at <span class="hl" tabindex="0">Scete<span class="hl-note" role="tooltip"><b>Scete</b>This is the same place as Scetis, a valley in northern Egypt. It is now called Wadi el Natrun.<small>Place · pleiades.stoa.org</small></span></span>, the camp of the monks, who committed an offense. A congregation met on the matter. They sent for <span class="hl" tabindex="0">Abba Moses<span class="hl-note" role="tooltip"><b>Abba Moses</b>An elder at Scete in the Syriac sayings. Abba means father, a title of respect for an elder.<small>Person</small></span></span>, but he refused to come. Then they sent the priest of the church to him, saying, &quot;Come. All the people are waiting for you.&quot; Moses got up and came.</p>
       <p>He took a basket with a hole in it, filled it with sand, and carried it on his shoulders. Those who went out to meet him asked, &quot;What does this mean, father?&quot; He said the sand was &quot;my sins, running down behind me. I cannot see them.&quot; And today, he said, he had come to judge faults that were not his own.</p>
       <p>When they heard this, they set the brother free and said nothing more to him.</p></div>
       </details>
@@ -514,7 +497,7 @@ main .page{max-width:none;padding-left:max(clamp(16px,3vw,56px),env(safe-area-in
 
 <footer class="site-footer">
   <div class="row">
-    <span>&copy; 2026 Church in Conversation, part of Faithways Studio, Inc. Creating safe spaces to explore faith and the story of Jesus.</span>
+    <span>&copy; 2026 Faithways Studio, Inc., a Colorado public benefit corporation &middot; <a href="../license.html">License</a> &middot; <a href="../terms.html">Terms</a>. Creating safe spaces to explore faith and the story of Jesus.</span>
     <nav aria-label="Footer">
       <a href="../about.html">About</a>
       <a href="../privacy.html">Privacy</a>

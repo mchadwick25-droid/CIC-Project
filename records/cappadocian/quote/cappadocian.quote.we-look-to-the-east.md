@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: cappadocian.source.basil-on-the-holy-spirit
-  locus: "On the Holy Spirit, ch. 27, sec. 66 (npnf208_basil-letters-select-works.xml)"
+  locus: "On the Holy Spirit, ch. 27, sec. 66 (cic/texts/npnf208_basil-letters-select-works.xml, lines 14068-14081)"
   license: public-domain
 text: >-
   Thus we all look to the East at our prayers, but few of us know that we
@@ -40,9 +40,9 @@ relations:
 - type: associated-with
   target: cappadocian.dw.customs-from-the-apostles
 modern_rendering: >-
-  So we all look to the East when we pray, but few of us know that we are seeking our own
-  old country -- Paradise, which God planted in Eden, in the East. We pray standing on the
-  first day of the week, but not all of us know the reason.
+  So we all look to the East when we pray. But few of us know that we are seeking our
+  own old country, Paradise, which God planted in Eden, in the East. We pray standing on
+  the first day of the week, but we do not all know the reason.
 use_note:
   means: "Basil, in On the Holy Spirit, notes that all face east and stand to pray on Sunday though few know the reasons, citing these as unwritten customs."
   not_for:

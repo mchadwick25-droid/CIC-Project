@@ -1,0 +1,13 @@
+source_file: claret_apuntes-regimen-de-la-diocesis-santiago-de-cuba-spa_1863.txt
+assignments:
+- row_id: claret_apuntes-regimen-de-la-diocesis-santiago-de-cuba-spa_1863--claret-apuntes-para-el-regimen-de-la-diocesis-1863
+  work: Claret, Apuntes para el regimen de la diocesis (1863)
+  author: claret
+  locus: the whole book; add 12 to OCR line numbers for this file's own
+  atlas_ids:
+  - nineteenth-century-latin-american-catholicism
+  role: tradition
+  confidence: provisional
+  note: The archbishop of Santiago de Cuba's own rule for his diocese, with replies from the bishops of
+    Havana and Puerto Rico. The Cuban church's own voice under Spain. The eras 8-9 sweep holds Cuba and
+    Puerto Rico (LA8-8) for a line in this entry.

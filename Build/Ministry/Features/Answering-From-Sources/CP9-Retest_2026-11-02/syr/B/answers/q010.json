@@ -1,0 +1,152 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.term.raza-shrara"
+   ],
+   "sentence": "We read a thing in Scripture or in nature as a sign that shows a hidden truth."
+  },
+  {
+   "record_ids": [
+    "syr.term.raza-shrara"
+   ],
+   "sentence": "Such a sign we call a raza, and the truth it shows we call the shrara."
+  },
+  {
+   "record_ids": [
+    "syr.term.raza-shrara"
+   ],
+   "sentence": "The raza is bound to its truth, and no reader may pick it at will as a stand-in."
+  },
+  {
+   "record_ids": [
+    "syr.term.raza-shrara"
+   ],
+   "sentence": "The pair stands at the center of Ephrem's method of reading."
+  },
+  {
+   "record_ids": [
+    "syr.quote.on-a-certain-day-a-pearl"
+   ],
+   "sentence": "In today's English, Ephrem the Syrian says: “One day, my brothers, I picked up a pearl. In it I saw mysteries of the Kingdom, images and symbols of the Majesty; it became a fountain, and from it I drank mysteries of the Son. I set it, my brothers, on the palm of my hand so I could examine it. I went to look at it from one side, and it showed faces on every side. I discovered that the Son cannot be fully grasped, since he is wholly Light.”"
+  },
+  {
+   "record_ids": [
+    "syr.dw.apostolic"
+   ],
+   "sentence": "Beside this way of reading stood the one Gospel, which was already the standard when our sources begin."
+  }
+ ],
+ "citations": [
+  "syr.dw.apostolic",
+  "syr.quote.on-a-certain-day-a-pearl",
+  "syr.term.raza-shrara"
+ ],
+ "group": "A",
+ "id": "q010",
+ "net_sentences": [
+  {
+   "draft": "We read a thing in Scripture or in nature as a sign that shows a hidden truth [[syr.term.raza-shrara]] [[as:paraphrase]].",
+   "sentence": "We read a thing in Scripture or in nature as a sign that shows a hidden truth.",
+   "tags": [
+    "syr.term.raza-shrara"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Such a sign we call a raza, and the truth it shows we call the shrara [[syr.term.raza-shrara]] [[as:paraphrase]].",
+   "sentence": "Such a sign we call a raza, and the truth it shows we call the shrara.",
+   "tags": [
+    "syr.term.raza-shrara"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The raza is bound to its truth, and no reader may pick it at will as a stand-in [[syr.term.raza-shrara]] [[as:paraphrase]].",
+   "sentence": "The raza is bound to its truth, and no reader may pick it at will as a stand-in.",
+   "tags": [
+    "syr.term.raza-shrara"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The pair stands at the center of Ephrem's method of reading [[syr.term.raza-shrara]] [[as:paraphrase]].",
+   "ratio": 0.83,
+   "sentence": "The pair stands at the center of Ephrem's method of reading.",
+   "tags": [
+    "syr.term.raza-shrara"
+   ],
+   "verdict": "ok",
+   "why": "grounded 83% in own tagged records"
+  },
+  {
+   "draft": "Ephrem the Syrian wrote of a pearl in his first Pearl hymn: [[quote:syr.quote.on-a-certain-day-a-pearl]]",
+   "placed_quote": "syr.quote.on-a-certain-day-a-pearl",
+   "sentence": "In today's English, Ephrem the Syrian says: “One day, my brothers, I picked up a pearl. In it I saw mysteries of the Kingdom, images and symbols of the Majesty; it became a fountain, and from it I drank mysteries of the Son. I set it, my brothers, on the palm of my hand so I could examine it. I went to look at it from one side, and it showed faces on every side. I discovered that the Son cannot be fully grasped, since he is wholly Light.”",
+   "tags": [
+    "syr.quote.on-a-certain-day-a-pearl"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "Beside this way of reading stood the one Gospel, which was already the standard when our sources begin [[syr.dw.apostolic]] [[as:paraphrase]].",
+   "sentence": "Beside this way of reading stood the one Gospel, which was already the standard when our sources begin.",
+   "tags": [
+    "syr.dw.apostolic"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "syr.dw.apostolic",
+  "syr.term.raza-shrara",
+  "syr.quote.a-pearl-upon-the-palm",
+  "syr.gravity.covenant-life",
+  "syr.term.anti-jewish-polemic",
+  "syr.quote.on-a-certain-day-a-pearl",
+  "syr.dw.corpus-and-its-edges",
+  "syr.story.abgar-addai-legend",
+  "syr.story.edessa-flood-201",
+  "syr.quote.abgar-letter",
+  "syr.force.transmission-ending",
+  "syr.force.transmission-ongoing"
+ ],
+ "raw_text": "We read a thing in Scripture or in nature as a sign that shows a hidden truth [[syr.term.raza-shrara]] [[as:paraphrase]]. Such a sign we call a raza, and the truth it shows we call the shrara [[syr.term.raza-shrara]] [[as:paraphrase]]. The raza is bound to its truth, and no reader may pick it at will as a stand-in [[syr.term.raza-shrara]] [[as:paraphrase]]. The pair stands at the center of Ephrem's method of reading [[syr.term.raza-shrara]] [[as:paraphrase]]. Ephrem the Syrian wrote of a pearl in his first Pearl hymn: [[quote:syr.quote.on-a-certain-day-a-pearl]] [[as:paraphrase]]. Beside this way of reading stood the one Gospel, which was already the standard when our sources begin [[syr.dw.apostolic]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [
+   "syr.quote.on-a-certain-day-a-pearl"
+  ],
+  "removed": [],
+  "repaired": [
+   {
+    "draft": "Ephrem the Syrian wrote of a pearl in his first Pearl hymn: [[quote:syr.quote.on-a-certain-day-a-pearl]]",
+    "lead_in": "In today's English, Ephrem the Syrian says",
+    "unresolved": [
+     {
+      "detail": "wrote",
+      "kind": "genre"
+     }
+    ],
+    "why": "lead-in stated a detail no source document supports; replaced by code's"
+   }
+  ]
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C5.S2",
+ "text": "We read a thing in Scripture or in nature as a sign that shows a hidden truth. Such a sign we call a raza, and the truth it shows we call the shrara. The raza is bound to its truth, and no reader may pick it at will as a stand-in. The pair stands at the center of Ephrem's method of reading. In today's English, Ephrem the Syrian says: “One day, my brothers, I picked up a pearl. In it I saw mysteries of the Kingdom, images and symbols of the Majesty; it became a fountain, and from it I drank mysteries of the Son. I set it, my brothers, on the palm of my hand so I could examine it. I went to look at it from one side, and it showed faces on every side. I discovered that the Son cannot be fully grasped, since he is wholly Light.”. Beside this way of reading stood the one Gospel, which was already the standard when our sources begin.",
+ "voice_set_aside": false
+}

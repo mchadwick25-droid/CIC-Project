@@ -26,6 +26,7 @@ work: Letter LI, 'To Crispinus' (a.d. 399 or 400)
 edition: Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts/npnf101_augustine-confessions-letters.xml
 citation: Augustine of Hippo, Letter LI, 'To Crispinus', Nicene and Post-Nicene Fathers, Series I, vol. I
 kind: vendored
+shelf_row: npnf101_augustine-confessions-letters--letters-of-st-augustin-the-donatist-correspondence
 rights_status: "public-domain; vendored as part of the shared patristic library, rights basis established (the file's own provenance header states Public Domain)"
 attribution_status: attributed
 discovery_channel: direct text search and read against cic/texts/npnf101_augustine-confessions-letters.xml
@@ -33,4 +34,4 @@ discovery_channel: direct text search and read against cic/texts/npnf101_augusti
 external_ids:
   don_source_registry_row: 47
 ---
-Load-bearing for the finding Doc_01 SS4's whole Strand Determination turns on: the mainstream Donatist party received returning Maximianist clergy WITHOUT reordination or rebaptism, which is proof the mainstream party itself recognised Maximianist orders and sacraments as valid -- a shared formation pattern, not the distinct one Article 21 requires for strand status. Also direct testimony to the Donatist party's own use of the civil courts and armed force against the Maximianists, one of the three named qualifications on this world's otherwise dominant refusal-of-imperial-legitimacy pattern (Doc_01 SS5; Doc_07 SS4, SS6).
+Load-bearing for the finding Doc_01 SS4's whole Strand Determination turns on: the mainstream Donatist party received returning Maximianist clergy WITHOUT reordination or rebaptism, which is proof the mainstream party itself recognized Maximianist orders and sacraments as valid -- a shared formation pattern, not the distinct one Article 21 requires for strand status. Also direct testimony to the Donatist party's own use of the civil courts and armed force against the Maximianists, one of the three named qualifications on this world's otherwise dominant refusal-of-imperial-legitimacy pattern (Doc_01 SS5; Doc_07 SS4, SS6).

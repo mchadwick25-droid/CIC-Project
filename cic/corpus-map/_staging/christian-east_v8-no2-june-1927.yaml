@@ -1,0 +1,24 @@
+source_file: christian-east_v8-no2-june-1927.txt
+assignments:
+- row_id: christian-east_v8-no2-june-1927--whole
+  work: 'The Christian East, volume VIII, number 2 (June, 1927)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1927, end: 1927, source: "masthead: 'June, 1927'", formation_confidence: Documented}
+  note: 'One number of the quarterly, by many writers. The Eastern documents it prints are in the journal''s English unless a row says otherwise.'
+- row_id: christian-east_v8-no2-june-1927--anthony-of-karlovtsi-why-anglican-clergy-could-be-received-in-their-orders-1927
+  work: 'Anthony, Metropolitan, ''Why Anglican Clergy Could be Received in Their Orders'' (1927), in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 875-1454; add 12 to OCR line numbers'
+  atlas_ids:
+  - emigre-orthodoxy-and-the-paris-school
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1927, end: 1927, source: "printed in the number of June, 1927", formation_confidence: Documented}
+  note: 'His own statement, in English with no translator named; the by-line calls him President of the Synod of Karlovtsi. A running head of the next article stands inside the range at OCR line 1446.'

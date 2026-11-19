@@ -1,0 +1,12 @@
+source_file: zonaras_epitomae-historiarum-libri-xiii-xviii-t3-grc_buettner-wobst1897.txt
+assignments:
+- row_id: zonaras_epitomae-historiarum-libri-xiii-xviii-t3-grc_buettner-wobst1897--john-zonaras-epitome-of-histories-xiii-xviii-greek-buttner
+  work: 'John Zonaras, Epitome of Histories XIII-XVIII, Greek (Büttner-Wobst 1897)'
+  author: zonaras
+  locus: 'whole volume; add 12 to OCR line numbers'
+  atlas_ids:
+  - byzantine-imperial-church-macedonian
+  - byzantine-imperial-church-heraclian-iconoclast
+  role: context
+  confidence: provisional
+  note: 'A world chronicle written long after most of what it tells, so a later witness for these centuries.'

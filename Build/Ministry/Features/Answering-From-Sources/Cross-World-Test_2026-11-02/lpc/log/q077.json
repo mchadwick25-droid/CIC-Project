@@ -1,0 +1,141 @@
+{
+ "draft": "Most of what we have told you rests on what Cyprian and Augustine wrote themselves, in their own words [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]]. Two lay confessors, Celerinus and Lucian, also wrote letters to each other that survive [[lpc.core.latin-pastoral-congregational-christianity]] [[lpc.story.celerinus-writes-to-lucian]] [[as:paraphrase]].\n\nThe record is strongest where bishops wrote, and thinner everywhere else. Two named voices carry nearly all of our surviving record, and both are elite, male and clerical [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]]. The lapsed left nothing in their own words, so every account of them is a bishop's [[lpc.limit.the-lapsed-own-account]] [[as:paraphrase]]. From our two cities, no text that a woman wrote herself survives [[lpc.limit.womens-own-voice]] [[as:paraphrase]].\n\nSome single events rest on one witness. Possidius is the only witness to Augustine's last weeks, the psalms, the request and the ten days [[lpc.story.the-psalms-on-the-wall]] [[as:paraphrase]]. The death itself is corroborated by its date and the siege around it [[lpc.story.the-psalms-on-the-wall]] [[as:paraphrase]]. No second source gives the inside of that sickroom [[lpc.story.the-psalms-on-the-wall]] [[as:paraphrase]].\n\nBetween Cyprian's death in 258 and Augustine's ordination in 391, our own pastoral voice is quiet, as far as we have weighed it [[lpc.limit.the-silent-century]] [[as:paraphrase]]. A few old sermons may come from those years, and we have not yet weighed them [[lpc.limit.the-silent-century]] [[as:paraphrase]].\n",
+ "ending": "rewritten",
+ "final": "Two named voices carry nearly all of our surviving record, and both are elite, male and clerical. The lapsed left nothing in their own words, so every account of them is a bishop's. Between Cyprian's death in 258 and Augustine's ordination in 391, our own pastoral voice is quiet, as far as we have weighed it.",
+ "group": "F",
+ "offered": [
+  "lpc.limit.the-silent-century",
+  "lpc.witness.almsgiving-quenches-sin",
+  "lpc.story.the-psalms-on-the-wall",
+  "lpc.story.celerinus-writes-to-lucian",
+  "lpc.quote.love-and-do-what-thou-wilt",
+  "lpc.quote.earlier-councils-corrected-by-later",
+  "lpc.force.corpus-outliving-the-world",
+  "lpc.witness.no-salvation-outside-the-church",
+  "lpc.term.schism",
+  "lpc.quote.an-ever-burning-gehenna",
+  "lpc.quote.no-salvation-out-of-the-church",
+  "lpc.force.donatist-schism"
+ ],
+ "placements": [],
+ "question": "How much of what you've told me would hold up in a university library?",
+ "question_id": "q077",
+ "read": {
+  "dropped": [],
+  "status": "rewrite",
+  "unsupported": {
+   "0": {
+    "problem": "other",
+    "reason": "The record says both bishops speak in their own words but does not say most of what was told rests on them, and the voice is told not to say its words trace to records.",
+    "supported": false
+   }
+  }
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ],
+   "sentence": "Two named voices carry nearly all of our surviving record, and both are elite, male and clerical.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.limit.the-lapsed-own-account"
+   ],
+   "sentence": "The lapsed left nothing in their own words, so every account of them is a bishop's.",
+   "tags": [
+    "lpc.limit.the-lapsed-own-account"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.limit.the-silent-century"
+   ],
+   "sentence": "Between Cyprian's death in 258 and Augustine's ordination in 391, our own pastoral voice is quiet, as far as we have weighed it.",
+   "tags": [
+    "lpc.limit.the-silent-century"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Most of what we have told you rests on what Cyprian and Augustine wrote themselves, in their own words.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ]
+  },
+  {
+   "decision": "withhold_unbound",
+   "label": null,
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": "no valid binding",
+   "sentence": "The record is strongest where bishops wrote, and thinner everywhere else.",
+   "tags": []
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Two named voices carry nearly all of our surviving record, and both are elite, male and clerical.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The lapsed left nothing in their own words, so every account of them is a bishop's.",
+   "tags": [
+    "lpc.limit.the-lapsed-own-account"
+   ]
+  },
+  {
+   "decision": "withhold_unbound",
+   "label": null,
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": "no valid binding",
+   "sentence": "Some single events rest on one witness.",
+   "tags": []
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Between Cyprian's death in 258 and Augustine's ordination in 391, our own pastoral voice is quiet, as far as we have weighed it.",
+   "tags": [
+    "lpc.limit.the-silent-century"
+   ]
+  }
+ ],
+ "shipped_by_net": "Most of what we have told you rests on what Cyprian and Augustine wrote themselves, in their own words.\n\nThe record is strongest where bishops wrote, and thinner everywhere else. Two named voices carry nearly all of our surviving record, and both are elite, male and clerical. The lapsed left nothing in their own words, so every account of them is a bishop's.\n\nSome single events rest on one witness.\n\nBetween Cyprian's death in 258 and Augustine's ordination in 391, our own pastoral voice is quiet, as far as we have weighed it.",
+ "sub_question": "C16.S1"
+}

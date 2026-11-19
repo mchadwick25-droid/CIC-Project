@@ -1,0 +1,75 @@
+{
+ "known_for": "Bishop of Nyssa who answered Eunomius on the Trinity and wrote on the soul, death and the resurrection.",
+ "role": "Bishop and theologian",
+ "key_works": [
+  {
+   "title": "The Great Catechism",
+   "about": "A reasoned statement of the faith, opening with the Trinity."
+  },
+  {
+   "title": "On the Soul and the Resurrection",
+   "about": "A dialogue in which his sister Macrina answers his questions about death."
+  },
+  {
+   "title": "Life of Macrina",
+   "about": "His account of his sister's life, holiness and death."
+  }
+ ],
+ "legacy_traces": [
+  "Theodoret copied a passage from his sermon on Abraham into a collection of witnesses from the Fathers.",
+  "In 553 the emperor Justinian's letter to the council at Constantinople named him among the holy Fathers whose writings on the true faith it followed.",
+  "In 692 the council in Trullo set its seal on the canons of Gregory, Bishop of Nyssa, and his canonical letter to Letoius, bishop of Melitene, stands among them."
+ ],
+ "legacy_remembered": [
+  "Theodoret counted him and Basil among the foremost champions of piety in Cappadocia. He wrote that the brothers taught their own age and left their teaching in their writings as a goodly heritage.",
+  "Jerome heard Gregory read a work against Eunomius aloud, together with Gregory of Nazianzus."
+ ],
+ "uncertain": [
+  "Whether Gregory hoped that all would at last be restored is still argued. Those who doubt it point to his sermons On the Poor, On the Beatitudes and Against Usurers, which speak of eternal punishment. Others answer that a sermon meant to stir its hearers weighs less than a careful dialogue.",
+  "A later tradition says he married a woman named Theosebeia. Nicephorus Callistus first tells it, in the thirteenth century. It seems to rest on two passages: a letter of Gregory of Nazianzus that calls a Theosebeia a priest's yokefellow, and Gregory's own complaint in On Virginity that he is cut off from virginity. None of his writings speaks of her as his wife."
+ ],
+ "written_about": [
+  {
+   "title": "Introduction to The Life of St. Macrina",
+   "author": "W. K. Lowther Clarke",
+   "date": "1916",
+   "language": "English",
+   "file": "cic/texts/gregory-nyssa_life-of-macrina_clarke1916.txt"
+  },
+  {
+   "title": "Select Writings and Letters of Gregory, Bishop of Nyssa, Prolegomena (Nicene and Post-Nicene Fathers, series 2, vol. 5)",
+   "author": "William Moore and Henry Austin Wilson",
+   "date": "1892",
+   "language": "English",
+   "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt"
+  },
+  {
+   "title": "Letter to Gregory of Nyssa on his turn to rhetoric (Letter I, Section 2)",
+   "author": "Gregory of Nazianzus",
+   "date": null,
+   "language": "English translation",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml"
+  },
+  {
+   "title": "Ecclesiastical History, on the Cappadocian bishops",
+   "author": "Theodoret",
+   "date": null,
+   "language": "English translation",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+  },
+  {
+   "title": "Lives of Illustrious Men, chapter 128",
+   "author": "Jerome",
+   "date": "392",
+   "language": "English translation",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+  },
+  {
+   "title": "Acts and canons of the councils of 553 and 692",
+   "author": "The councils",
+   "date": null,
+   "language": "English translation",
+   "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+  }
+ ]
+}

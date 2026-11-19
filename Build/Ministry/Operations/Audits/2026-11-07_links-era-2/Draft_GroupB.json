@@ -1,0 +1,2030 @@
+{
+ "group": "B",
+ "movements": [
+  "cappadocian-nicene-pastoral-monastic-tradition",
+  "antiochene-exegetical-christianity-chrysostom-ce",
+  "imperial-juridical-christianity",
+  "armenian-christianity-conversion-era",
+  "persian-church-of-the-east-early"
+ ],
+ "dispositions": [
+  {
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "field": "relationsSummary",
+   "sentence": "Trinitarian and pneumatological theology paired with charitable-ascetic practice; Jerome heard Gregory of Nazianzus teach, and this Christian tradition argued directly, by name, against the Eunomians and the deniers of the Spirit's divinity.",
+   "other_id": "hieronymian-ascetic-literary",
+   "disposition": "link",
+   "link_id": "cappadocian-nicene-pastoral-monastic-tradition--hieronymian-ascetic-literary",
+   "prose_change": null,
+   "reason": "Existing Documented link (Jerome, De vir. ill. 117; Ep. 52.8); kept."
+  },
+  {
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "field": "relationsSummary",
+   "sentence": "Trinitarian and pneumatological theology paired with charitable-ascetic practice; Jerome heard Gregory of Nazianzus teach, and this Christian tradition argued directly, by name, against the Eunomians and the deniers of the Spirit's divinity.",
+   "other_id": "anomoean-eunomian-christianity",
+   "disposition": "link",
+   "link_id": "cappadocian-nicene-pastoral-monastic-tradition--anomoean-eunomian-christianity",
+   "prose_change": null,
+   "reason": "Existing Documented link; kept."
+  },
+  {
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "field": "relationsSummary",
+   "sentence": "Trinitarian and pneumatological theology paired with charitable-ascetic practice; Jerome heard Gregory of Nazianzus teach, and this Christian tradition argued directly, by name, against the Eunomians and the deniers of the Spirit's divinity.",
+   "other_id": "pneumatomachian-current",
+   "disposition": "link",
+   "link_id": "cappadocian-nicene-pastoral-monastic-tradition--pneumatomachian-current",
+   "prose_change": null,
+   "reason": "Existing Documented link; kept."
+  },
+  {
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "field": "longDescription",
+   "sentence": "Basil's own preaching indicted the region's grain-hoarders by name and built a hospital, hostel, and workhouse complex outside Caesarea after the famine of 368 — a genuine, near-unprecedented undertaking, though not, as later legend sometimes claims, the first of its kind anywhere.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Grain-hoarders have no census entry. 'By name' is not supported; Gregory of Nazianzus, Or. 43, says Basil opened their stores by his word."
+  },
+  {
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "field": "longDescription",
+   "sentence": "Before that, he had already spent years answering a more radical ascetic ferment loose in the region — households dissolved, slaves urged to leave their masters, fasts kept against the church's own feasts — not by condemning the impulse but by giving it a rule, an obedience, and an open door for guests instead.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Eustathian ascetics have no census entry. The ferment is supported by the Gangra canons (NPNF 2.14, e.g. the canon on teaching a slave to despise his master); Basil's answer by a rule is his Asceticon (Morison 1912, vendored). No change."
+  },
+  {
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "field": "longDescription",
+   "sentence": "Gregory of Nazianzus carried the argument to Constantinople, where the creed most Christians still recite took its final shape in 381.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "cappadocian-nicene-pastoral-monastic-tradition--imperial-juridical-christianity",
+   "prose_change": null,
+   "reason": "New in-contact link: Gregory of Nazianzus given the churches of Constantinople (Sozomen VII.5); Helladius and Gregory of Nyssa named in CTh 16.1.3 and given Pontus at the council (Socrates V.8)."
+  },
+  {
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "field": "longDescription",
+   "sentence": "The years were not peaceful throughout: this Christian tradition buried its own martyr, Eupsychius of Caesarea, executed under Julian in 362, and endured a hostile imperial church under Valens that drove Gregory of Nyssa briefly into exile.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Julian has no census entry. Eupsychius's martyrdom under Julian is in Sozomen V.11 (NPNF 2.2). The sentence is rewritten for the Valens clause (prose change 1)."
+  },
+  {
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "field": "longDescription",
+   "sentence": "The years were not peaceful throughout: this Christian tradition buried its own martyr, Eupsychius of Caesarea, executed under Julian in 362, and endured a hostile imperial church under Valens that drove Gregory of Nyssa briefly into exile.",
+   "other_id": "homoian-arian-christianity",
+   "disposition": "link",
+   "link_id": "homoian-arian-christianity--cappadocian-nicene-pastoral-monastic-tradition",
+   "prose_change": 1,
+   "reason": "New Widely Accepted link (Basil Epp. 225, 239; NPNF 7 headnote). 'Briefly' corrected to the 376-378 span."
+  },
+  {
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "field": "legacy",
+   "sentence": "Their labor on the language — one being, three persons — became the standard grammar of Christian talk about God in East and West alike and stands behind the creed recited in most churches on Sunday, though the tidy story of a fully agreed \"Cappadocian settlement\" is itself contested by modern scholars, who read more real variation between the three than the textbook version allows.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A reception claim, not a lineage; the sentence already states the modern dispute. No change."
+  },
+  {
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "field": "legacy",
+   "sentence": "Basil's rules for communal ascetic life remain foundational for Eastern Orthodox monasticism, and his hospital-and-hostel complex for the sick and destitute is often named among the ancestors of the Christian hospital, though no physical trace of the complex itself has ever been securely identified.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "General reception claim. Morison, St Basil and his Rule (1912, vendored), calls Basil 'the Father of Eastern Monasticism'. No change."
+  },
+  {
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "field": "legacy",
+   "sentence": "Basil's rules for communal ascetic life remain foundational for Eastern Orthodox monasticism, and his hospital-and-hostel complex for the sick and destitute is often named among the ancestors of the Christian hospital, though no physical trace of the complex itself has ever been securely identified.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Already hedged ('often named among'); the project's term record cappadocian.term.basileias carries the same caution. No change."
+  },
+  {
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "field": "legacy",
+   "sentence": "All four are venerated as saints across the Orthodox, Catholic, Anglican, and Lutheran calendars, and Gregory of Nazianzus is one of only three figures the Eastern church calls simply \"the Theologian.\"",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Calendar fact, not a lineage. No change."
+  },
+  {
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "field": "relationsSummary",
+   "sentence": "Historical-literal exegesis, set against Alexandria's allegorical method; Theodore of Mopsuestia's own contested status is noted here on the record.",
+   "other_id": "alexandria-catechetical",
+   "disposition": "link",
+   "link_id": "antiochene-exegetical-christianity-chrysostom-ce--alexandria-catechetical",
+   "prose_change": 5,
+   "reason": "New Documented link (Facundus III.6 on Theodore's book against Origen; Socrates VI.3; Sozomen VIII.2). The broad contrast is marked as disputed."
+  },
+  {
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "field": "relationsSummary",
+   "sentence": "Historical-literal exegesis, set against Alexandria's allegorical method; Theodore of Mopsuestia's own contested status is noted here on the record.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "Theodore is inside this movement. 'Noted here on the record' is process language; rewritten."
+  },
+  {
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "field": "longDescription",
+   "sentence": "John Chrysostom, trained in rhetoric by the pagan orator Libanius and in Scripture by Diodore of Tarsus, preached in Antioch through the 380s and 390s to congregations of tradesmen, householders, and slaves: on money, on anger, on how you treat your servants, on the theater and the racetrack, on almsgiving as a matter of justice rather than generosity.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Libanius has no entry; Socrates VI.3 and Sozomen VIII.2 support it. No change."
+  },
+  {
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "field": "longDescription",
+   "sentence": "John Chrysostom, trained in rhetoric by the pagan orator Libanius and in Scripture by Diodore of Tarsus, preached in Antioch through the 380s and 390s to congregations of tradesmen, householders, and slaves: on money, on anger, on how you treat your servants, on the theater and the racetrack, on almsgiving as a matter of justice rather than generosity.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Diodore is inside this movement; Socrates VI.3 and Sozomen VIII.2 support it. No change."
+  },
+  {
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "field": "longDescription",
+   "sentence": "In 387, after the city's crowds smashed the imperial statues and Antioch waited to learn whether it would be destroyed in reprisal, he preached the sermons On the Statues to a terrified population.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The crowd and the city, not the church, faced the emperor. The Homilies on the Statues are vendored (NPNF 1.9). No link; no change."
+  },
+  {
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "field": "longDescription",
+   "sentence": "At the end of 397 he was taken to Constantinople and made its archbishop, where he preached the same way to the imperial court, which is roughly why he died in exile in 407.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "antiochene-exegetical-christianity-chrysostom-ce--imperial-juridical-christianity",
+   "prose_change": null,
+   "reason": "New in-contact link (Socrates VI.2); the exile is the separate link imperial-juridical-christianity--antiochene-exegetical-christianity-chrysostom-ce (Socrates VI.18)."
+  },
+  {
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "field": "why",
+   "sentence": "Where Alexandria's teachers hunted for a hidden spiritual sense beneath Scripture, Antioch's insisted on what the words actually said, and pressed hard on what that demanded of their listeners.",
+   "other_id": "alexandria-catechetical",
+   "disposition": "link",
+   "link_id": "antiochene-exegetical-christianity-chrysostom-ce--alexandria-catechetical",
+   "prose_change": null,
+   "reason": "Same link. The why sentence states what Socrates and Sozomen say of Antioch; left unchanged."
+  },
+  {
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "field": "why",
+   "sentence": "John Chrysostom preached that way through the 380s and 390s to Antioch's tradesmen, householders, and slaves — on money, anger, and how they treated their own servants — and in 387, after crowds smashed the imperial statues, preached his sermons On the Statues to a city waiting to learn whether it would be destroyed in reprisal.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same as the statues clause in the longDescription."
+  },
+  {
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "field": "why",
+   "sentence": "Taken to Constantinople in 397 to preach the same way to the imperial court, he died in exile a decade later.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--antiochene-exegetical-christianity-chrysostom-ce",
+   "prose_change": null,
+   "reason": "The exile link (Socrates VI.18), with the contact link for the call to Constantinople."
+  },
+  {
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "field": "legacy",
+   "sentence": "They were quarried for medieval preaching, printed early and often in the Reformation era — Reformed and Lutheran preachers alike claimed him as an ancestor of expository preaching.",
+   "other_id": "the-reformed-cities-zurich-and-geneva",
+   "disposition": "link",
+   "link_id": "antiochene-exegetical-christianity-chrysostom-ce--the-reformed-cities-zurich-and-geneva",
+   "prose_change": 6,
+   "reason": "New Documented link (Calvin, Institutes II.2.4, II.2.11). The 'ancestor of expository preaching' claim is qualified."
+  },
+  {
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "field": "legacy",
+   "sentence": "They were quarried for medieval preaching, printed early and often in the Reformation era — Reformed and Lutheran preachers alike claimed him as an ancestor of expository preaching.",
+   "other_id": "lutheran-wittenberg-and-its-congregations",
+   "disposition": "link",
+   "link_id": "antiochene-exegetical-christianity-chrysostom-ce--lutheran-wittenberg-and-its-congregations",
+   "prose_change": 6,
+   "reason": "New Documented link (Augsburg Confession XXIV; Apology XII). Same qualification."
+  },
+  {
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "field": "legacy",
+   "sentence": "They were quarried for medieval preaching, printed early and often in the Reformation era — Reformed and Lutheran preachers alike claimed him as an ancestor of expository preaching.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "Medieval preaching has no entry and no vendored or repo-cited source; the clause is removed."
+  },
+  {
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "field": "legacy",
+   "sentence": "And the eucharistic liturgy that carries his name is still the ordinary Sunday rite of the Eastern Orthodox churches.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The text says only that the liturgy 'carries his name'; vendored (Neale, Eastern liturgies). No change."
+  },
+  {
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "field": "legacy",
+   "sentence": "The Antiochene way of reading, insisting that a text means what it meant to those who first heard it, is the ancestor of the historical-grammatical method that later Western biblical scholarship made standard.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "No source for the genealogy; restated as a likeness."
+  },
+  {
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "field": "legacy",
+   "sentence": "Theodore of Mopsuestia was condemned at Constantinople in 553, more than a century after his death, and much of his work survives only in Syriac translation preserved by the Church of the East.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Theodore is inside this movement; the condemnation is the new link from the Justinianic church."
+  },
+  {
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "field": "legacy",
+   "sentence": "Theodore of Mopsuestia was condemned at Constantinople in 553, more than a century after his death, and much of his work survives only in Syriac translation preserved by the Church of the East.",
+   "other_id": "byzantine-imperial-church-justinianic",
+   "disposition": "link",
+   "link_id": "byzantine-imperial-church-justinianic--antiochene-exegetical-christianity-chrysostom-ce",
+   "prose_change": null,
+   "reason": "New Documented link (Constantinople II, capitulum XII)."
+  },
+  {
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "field": "legacy",
+   "sentence": "Theodore of Mopsuestia was condemned at Constantinople in 553, more than a century after his death, and much of his work survives only in Syriac translation preserved by the Church of the East.",
+   "other_id": "the-church-of-the-east-under-persia",
+   "disposition": "link",
+   "link_id": "antiochene-exegetical-christianity-chrysostom-ce--the-church-of-the-east-under-persia",
+   "prose_change": null,
+   "reason": "New Documented link (Barhadbeshabba; Synod of 585)."
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "field": "relationsSummary",
+   "sentence": "Damasus's own secretary was Jerome, who carried Rome's claims into the next generation's ascetic-literary circles; the Nicene settlement received at Chalcedon in 451 is the same creed the Cappadocian churches had helped work out a generation earlier.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Damasus belongs to this movement, so no link of its own; the Jerome tie is carried by hieronymian-ascetic-literary--imperial-juridical-christianity."
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "field": "relationsSummary",
+   "sentence": "Damasus's own secretary was Jerome, who carried Rome's claims into the next generation's ascetic-literary circles; the Nicene settlement received at Chalcedon in 451 is the same creed the Cappadocian churches had helped work out a generation earlier.",
+   "other_id": "hieronymian-ascetic-literary",
+   "disposition": "link",
+   "link_id": "hieronymian-ascetic-literary--imperial-juridical-christianity",
+   "prose_change": 2,
+   "reason": "New in-contact link (Jerome Epp. 15, 123). 'Carried Rome's claims into the next generation' is unsupported and qualified."
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "field": "relationsSummary",
+   "sentence": "Damasus's own secretary was Jerome, who carried Rome's claims into the next generation's ascetic-literary circles; the Nicene settlement received at Chalcedon in 451 is the same creed the Cappadocian churches had helped work out a generation earlier.",
+   "other_id": "cappadocian-nicene-pastoral-monastic-tradition",
+   "disposition": "link",
+   "link_id": "cappadocian-nicene-pastoral-monastic-tradition--imperial-juridical-christianity",
+   "prose_change": 2,
+   "reason": "Contact at the council of 381 is documented; 'helped work out' the creed and 'a generation earlier' are not, and are qualified."
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "field": "longDescription",
+   "sentence": "Then, between Constantine's toleration in 313 and Theodosius's legislation at the century's end, it became first protected, then privileged, then the empire's official religion — and had to work out, very fast, what to do with that.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Constantine is part of this movement. Plain description; no change."
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "field": "longDescription",
+   "sentence": "Then, between Constantine's toleration in 313 and Theodosius's legislation at the century's end, it became first protected, then privileged, then the empire's official religion — and had to work out, very fast, what to do with that.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Theodosius is part of this movement; CTh 16.1.2 (380) is vendored. No change."
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "field": "longDescription",
+   "sentence": "Rome traced its authority to Peter; Constantinople claimed rank because it sat beside the throne — a claim the Council of Chalcedon extended in 451 over the protest of Rome's own delegates, at the same council that received, as the last word on Christ's two natures, a letter Leo of Rome had written two years before.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Roman see in 312-451 has no separate census entry; it sits inside this movement. No change."
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "field": "longDescription",
+   "sentence": "Rome traced its authority to Peter; Constantinople claimed rank because it sat beside the throne — a claim the Council of Chalcedon extended in 451 over the protest of Rome's own delegates, at the same council that received, as the last word on Christ's two natures, a letter Leo of Rome had written two years before.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Constantinople's see sits inside this movement; Socrates V.8 gives canon 3 of 381. No change."
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "field": "longDescription",
+   "sentence": "Rome traced its authority to Peter; Constantinople claimed rank because it sat beside the throne — a claim the Council of Chalcedon extended in 451 over the protest of Rome's own delegates, at the same council that received, as the last word on Christ's two natures, a letter Leo of Rome had written two years before.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Chalcedon is this movement's own council; canon 28 and the Roman legates' objection are in NPNF 2.14. No change."
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "field": "longDescription",
+   "sentence": "Rome traced its authority to Peter; Constantinople claimed rank because it sat beside the throne — a claim the Council of Chalcedon extended in 451 over the protest of Rome's own delegates, at the same council that received, as the last word on Christ's two natures, a letter Leo of Rome had written two years before.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Rome's legates (Paschasinus, Lucentius) object in the Chalcedon acts, NPNF 2.14. No change."
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "field": "longDescription",
+   "sentence": "Rome traced its authority to Peter; Constantinople claimed rank because it sat beside the throne — a claim the Council of Chalcedon extended in 451 over the protest of Rome's own delegates, at the same council that received, as the last word on Christ's two natures, a letter Leo of Rome had written two years before.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Leo's Tome received: 'Peter has spoken thus through Leo' (NPNF 2.14). No change."
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "field": "longDescription",
+   "sentence": "Ambrose of Milan staked a third claim entirely: that the emperor stood inside the church, not over it.",
+   "other_id": "ambrosian-milan-standalone",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Ambrose said 'the Emperor is within the Church, not above it' against Valentinian II's Homoian court (Sermon against Auxentius 36). That pair is ambrosian-milan-standalone and homoian-arian-christianity (groups C and E); the ambrosian why and longDescription name the 386 basilica refusal."
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "field": "longDescription",
+   "sentence": "He said those exact words from inside his own basilica in 386, besieged by the soldiers of a Homoian imperial court that wanted the building for its own worship.",
+   "other_id": "homoian-arian-christianity",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same: the siege is an Ambrose-Homoian relationship, named in the ambrosian why and longDescription."
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "field": "longDescription",
+   "sentence": "It was there, waiting through the night, that Milan's people first sang hymns the way the Eastern churches did, a custom that, by that eyewitness's account, never stopped and spread to churches across the world.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "The Eastern churches have no entry here. Augustine was in the city, not in the basilica (Confessions IX.7); 'eyewitness' and 'through the night' are qualified."
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "field": "longDescription",
+   "sentence": "Four years later Ambrose proved the same claim again, against Theodosius himself, refusing the emperor the sacrament until he did public penance for a massacre at Thessalonica.",
+   "other_id": "ambrosian-milan-standalone",
+   "disposition": "link",
+   "link_id": "ambrosian-milan-standalone--imperial-juridical-christianity",
+   "prose_change": null,
+   "reason": "New argued-against link (Ambrose Ep. 51.13 to Theodosius)."
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "field": "longDescription",
+   "sentence": "The same sacramental refusal that later humbled an emperor over Thessalonica had already been used once before, two years earlier, for the opposite end: protecting a bishop who had incited a mob to burn a synagogue at Callinicum from having to pay for it, and leaving the burned community no recourse at all.",
+   "other_id": "ambrosian-milan-standalone",
+   "disposition": "link",
+   "link_id": "ambrosian-milan-standalone--imperial-juridical-christianity",
+   "prose_change": null,
+   "reason": "Same link (Ambrose Epp. 40.6 and 41.28 on Callinicum). The Jewish community of Callinicum has no census entry; Ambrose's own letters support the account."
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "field": "why",
+   "sentence": "Between Constantine's toleration of the church in 312 and the Council of Chalcedon in 451, bishops went from outlaws to office-holders beside a throne - and never agreed among themselves whether Rome, Constantinople, or a bishop's own moral standing held the final word.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Constantine is part of this movement. The date '312' for toleration conflicts with the longDescription's 313; escalated to the entry owner, not changed here."
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "field": "legacy",
+   "sentence": "The argument it started — where a ruler's authority over the church ends and the church's over the ruler begins — runs on through the medieval investiture disputes, the Reformation's territorial settlements, and every later fight about established churches and their disestablishment.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A recurring question, not a lineage between communities. No link; no change."
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "field": "legacy",
+   "sentence": "The argument it started — where a ruler's authority over the church ends and the church's over the ruler begins — runs on through the medieval investiture disputes, the Reformation's territorial settlements, and every later fight about established churches and their disestablishment.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same as the investiture clause. No link; no change."
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "field": "legacy",
+   "sentence": "Waiting through the siege night in 386, Ambrose's besieged congregation began singing psalms 'after the manner of the Eastern Church' — and Augustine, who was there, says the custom was 'retained from then till now' and copied by 'almost all' congregations 'throughout the rest of the world.'",
+   "other_id": "ambrosian-milan-standalone",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "The hymn custom is Ambrose's congregation's; the ambrosian legacy names it. The 'Augustine, who was there' wording is corrected here (prose change 4)."
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "field": "legacy",
+   "sentence": "Waiting through the siege night in 386, Ambrose's besieged congregation began singing psalms 'after the manner of the Eastern Church' — and Augustine, who was there, says the custom was 'retained from then till now' and copied by 'almost all' congregations 'throughout the rest of the world.'",
+   "other_id": "latin-pastoral-congregational-christianity",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "Augustine appears as a witness, not as a party to a relationship with this movement. No link."
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "field": "legacy",
+   "sentence": "Waiting through the siege night in 386, Ambrose's besieged congregation began singing psalms 'after the manner of the Eastern Church' — and Augustine, who was there, says the custom was 'retained from then till now' and copied by 'almost all' congregations 'throughout the rest of the world.'",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "The Eastern churches' custom is attested only through Augustine, Confessions IX.7."
+  },
+  {
+   "movement": "armenian-christianity-conversion-era",
+   "field": "relationsSummary",
+   "sentence": "Formed via Cappadocia and Syriac Edessa",
+   "other_id": "cappadocian-nicene-pastoral-monastic-tradition",
+   "disposition": "link",
+   "link_id": "cappadocian-nicene-pastoral-monastic-tradition--armenian-christianity-conversion-era",
+   "prose_change": null,
+   "reason": "New Widely Accepted link (Moses of Khoren III.16, III.39; Ormanian 1912)."
+  },
+  {
+   "movement": "armenian-christianity-conversion-era",
+   "field": "relationsSummary",
+   "sentence": "Formed via Cappadocia and Syriac Edessa",
+   "other_id": "syriac-edessa-nisibis",
+   "disposition": "link",
+   "link_id": "syriac-edessa-nisibis--armenian-christianity-conversion-era",
+   "prose_change": null,
+   "reason": "New Documented link (Koriun)."
+  },
+  {
+   "movement": "armenian-christianity-conversion-era",
+   "field": "longDescription",
+   "sentence": "Armenia's own tradition holds that it was the first kingdom to adopt Christianity as its official religion, when Gregory the Illuminator — imprisoned for years in a pit, by the telling — converted King Trdat and the court around the turn of the fourth century.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Trdat and Gregory: the text already frames this as Armenia's own tradition. Agathangelos is not vendored (wanted)."
+  },
+  {
+   "movement": "armenian-christianity-conversion-era",
+   "field": "longDescription",
+   "sentence": "An entire national church built from nothing, catechized at first in Greek and Syriac because Armenian had no script of its own, until the monk Mesrop Mashtots devised an alphabet around 405 and the church set about putting the Bible and the liturgy into the people's own language.",
+   "other_id": "syriac-edessa-nisibis",
+   "disposition": "link",
+   "link_id": "syriac-edessa-nisibis--armenian-christianity-conversion-era",
+   "prose_change": null,
+   "reason": "Koriun shows Syriac translation work and the Edessa mission; Ormanian says the Bible and rites were read in Greek and Syriac."
+  },
+  {
+   "movement": "armenian-christianity-conversion-era",
+   "field": "longDescription",
+   "sentence": "An entire national church built from nothing, catechized at first in Greek and Syriac because Armenian had no script of its own, until the monk Mesrop Mashtots devised an alphabet around 405 and the church set about putting the Bible and the liturgy into the people's own language.",
+   "other_id": "cappadocian-nicene-pastoral-monastic-tradition",
+   "disposition": "link",
+   "link_id": "cappadocian-nicene-pastoral-monastic-tradition--armenian-christianity-conversion-era",
+   "prose_change": null,
+   "reason": "The Greek side runs through Caesarea's schools (Ormanian 1912; Moses III.16)."
+  },
+  {
+   "movement": "armenian-christianity-conversion-era",
+   "field": "longDescription",
+   "sentence": "An entire national church built from nothing, catechized at first in Greek and Syriac because Armenian had no script of its own, until the monk Mesrop Mashtots devised an alphabet around 405 and the church set about putting the Bible and the liturgy into the people's own language.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Mashtots is inside this movement; Koriun supports the alphabet story."
+  },
+  {
+   "movement": "armenian-christianity-conversion-era",
+   "field": "longDescription",
+   "sentence": "That translation, made under the catholicos Sahak Partev, is still called by Armenians the Queen of Translations, and it did more than any royal decree to make Christianity Armenian rather than imported.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Sahak is inside this movement; Koriun supports his translation work. The epithet 'Queen of Translations' has no vendored source; escalated, not changed."
+  },
+  {
+   "movement": "armenian-christianity-conversion-era",
+   "field": "longDescription",
+   "sentence": "The story of these years ends at the battle of Avarayr in 451, where Armenian nobles fought a Persian attempt to impose Zoroastrianism.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Sasanian state has no census entry; Elishe (Neumann 1830) supports Avarayr and the Persian demand."
+  },
+  {
+   "movement": "armenian-christianity-conversion-era",
+   "field": "why",
+   "sentence": "Because Armenian had no script of its own, the church first taught in Greek and Syriac, until the monk Mesrop Mashtots devised an alphabet around 405 so Scripture and liturgy could be rendered into Armenian, a translation still called the Queen of Translations.",
+   "other_id": "syriac-edessa-nisibis",
+   "disposition": "link",
+   "link_id": "syriac-edessa-nisibis--armenian-christianity-conversion-era",
+   "prose_change": null,
+   "reason": "Same link as the longDescription."
+  },
+  {
+   "movement": "armenian-christianity-conversion-era",
+   "field": "why",
+   "sentence": "Because Armenian had no script of its own, the church first taught in Greek and Syriac, until the monk Mesrop Mashtots devised an alphabet around 405 so Scripture and liturgy could be rendered into Armenian, a translation still called the Queen of Translations.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Koriun supports it."
+  },
+  {
+   "movement": "armenian-christianity-conversion-era",
+   "field": "why",
+   "sentence": "By its own tradition, Armenia became the first kingdom to make Christianity its official religion, after Gregory the Illuminator — said to have spent years imprisoned in a pit — converted King Trdat and his court.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Already framed as Armenia's own tradition."
+  },
+  {
+   "movement": "armenian-christianity-conversion-era",
+   "field": "why",
+   "sentence": "The story closes at Avarayr in 451, where Armenian nobles died resisting a Persian attempt to impose Zoroastrianism.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Elishe supports it."
+  },
+  {
+   "movement": "armenian-christianity-conversion-era",
+   "field": "legacy",
+   "sentence": "The Armenian Apostolic Church is a living communion of several million people with a worldwide diaspora, still using the alphabet Mashtots made and the liturgical language it created.",
+   "other_id": "armenian-christianity-after-avarayr",
+   "disposition": "link",
+   "link_id": "armenian-christianity-conversion-era--armenian-christianity-after-avarayr",
+   "prose_change": null,
+   "reason": "New continued-as link (Elishe on the catholicos Joseph before and after the battle)."
+  },
+  {
+   "movement": "armenian-christianity-conversion-era",
+   "field": "legacy",
+   "sentence": "Armenian manuscript illumination and the carved cross-stones called khachkars grew from the same root.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Art-historical claim, not a lineage. No change."
+  },
+  {
+   "movement": "persian-church-of-the-east-early",
+   "field": "relationsSummary",
+   "sentence": "Direct heir of the Syriac tradition's Nisibis side",
+   "other_id": "syriac-edessa-nisibis",
+   "disposition": "link",
+   "link_id": "syriac-edessa-nisibis--persian-church-of-the-east-early",
+   "prose_change": null,
+   "reason": "Existing Documented continued-as link; kept."
+  },
+  {
+   "movement": "persian-church-of-the-east-early",
+   "field": "longDescription",
+   "sentence": "East of the Roman frontier, in the Persian Empire, were Christian communities that had never lived under a Christian emperor and never would.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Describes Roman rule, not a tie to the imperial church. The only documented church-to-church tie is the existing in-contact link (Marutha, 410)."
+  },
+  {
+   "movement": "persian-church-of-the-east-early",
+   "field": "longDescription",
+   "sentence": "And Constantine's conversion made their position worse rather than better, since it let the Sassanian court read them as a Roman fifth column.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The actor is the Sasanian court, which has no entry. Sozomen II.9 says Symeon was charged as 'a friend of the Cæsar of the Romans'; the Acts of Simeon call Christians 'Gesinnungsgenossen des Kaisers' (Braun 1915). No change."
+  },
+  {
+   "movement": "persian-church-of-the-east-early",
+   "field": "longDescription",
+   "sentence": "And Constantine's conversion made their position worse rather than better, since it let the Sassanian court read them as a Roman fifth column.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same sources. No change."
+  },
+  {
+   "movement": "persian-church-of-the-east-early",
+   "field": "longDescription",
+   "sentence": "The long persecution under Shapur II from about 340 killed clergy and laity in numbers this church remembered in a whole literature of martyr acts, its own head among them.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Shapur II has no entry; Sozomen II.9-14 and Braun's acts support the persecution. No change."
+  },
+  {
+   "movement": "persian-church-of-the-east-early",
+   "field": "longDescription",
+   "sentence": "The catholicos Shemon bar Sabbae was executed in the 340s after refusing to collect a punitive double tax from Christians to fund the war against Rome.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Shemon is inside this movement. The Acts of Simeon (Braun 1915) give the double head tax, his refusal and the king's war needs. No change."
+  },
+  {
+   "movement": "persian-church-of-the-east-early",
+   "field": "longDescription",
+   "sentence": "The catholicos Shemon bar Sabbae was executed in the 340s after refusing to collect a punitive double tax from Christians to fund the war against Rome.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The war is the Persian state's against Rome, not an act of the imperial church. No link."
+  },
+  {
+   "movement": "persian-church-of-the-east-early",
+   "field": "longDescription",
+   "sentence": "It worshipped in Syriac, thought in the exegetical idiom it shared with Edessa and Antioch, and was already becoming the church that would carry Christianity along the trade roads to India, Central Asia, and China.",
+   "other_id": "syriac-edessa-nisibis",
+   "disposition": "link",
+   "link_id": "syriac-edessa-nisibis--persian-church-of-the-east-early",
+   "prose_change": 8,
+   "reason": "Shared Syriac learning is carried by the existing continued-as link; the sentence is rewritten for the Antioch clause."
+  },
+  {
+   "movement": "persian-church-of-the-east-early",
+   "field": "longDescription",
+   "sentence": "It worshipped in Syriac, thought in the exegetical idiom it shared with Edessa and Antioch, and was already becoming the church that would carry Christianity along the trade roads to India, Central Asia, and China.",
+   "other_id": "antiochene-exegetical-christianity-chrysostom-ce",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 8,
+   "reason": "No vendored text shows the pre-451 Persian church in Antioch's idiom. Rewritten to what Barhadbeshabba shows; the documented Antiochene tie is antiochene-exegetical-christianity-chrysostom-ce--the-church-of-the-east-under-persia."
+  },
+  {
+   "movement": "persian-church-of-the-east-early",
+   "field": "longDescription",
+   "sentence": "It worshipped in Syriac, thought in the exegetical idiom it shared with Edessa and Antioch, and was already becoming the church that would carry Christianity along the trade roads to India, Central Asia, and China.",
+   "other_id": "the-church-of-the-east-on-the-silk-road",
+   "disposition": "link",
+   "link_id": "persian-church-of-the-east-early--the-church-of-the-east-under-persia",
+   "prose_change": 8,
+   "reason": "A forward-looking descent claim; its first step is the new continued-as link. Later steps belong to the later entries' passes."
+  },
+  {
+   "movement": "persian-church-of-the-east-early",
+   "field": "why",
+   "sentence": "This church lived east of the Roman frontier, in the Persian Empire, and Constantine's conversion of Rome made its position worse rather than better, since it let the Persian court treat Christians as a Roman foothold.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same as the longDescription clause: the Sasanian court's suspicion, supported by Sozomen II.9."
+  },
+  {
+   "movement": "persian-church-of-the-east-early",
+   "field": "why",
+   "sentence": "Under Shapur II, the catholicos Shemon bar Sabbae was executed in the 340s after refusing to collect a punitive tax on Christians to help fund the war against Rome.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Supported by Sozomen II.9-10 and the Acts of Simeon."
+  },
+  {
+   "movement": "persian-church-of-the-east-early",
+   "field": "why",
+   "sentence": "Under Shapur II, the catholicos Shemon bar Sabbae was executed in the 340s after refusing to collect a punitive tax on Christians to help fund the war against Rome.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Persian state against Rome; no link."
+  },
+  {
+   "movement": "persian-church-of-the-east-early",
+   "field": "legacy",
+   "sentence": "It became the Church of the East, which for centuries had the widest geographical reach of any Christian body on earth, with bishops in India, Central Asia, and Tang-dynasty China.",
+   "other_id": "the-church-of-the-east-under-persia",
+   "disposition": "link",
+   "link_id": "persian-church-of-the-east-early--the-church-of-the-east-under-persia",
+   "prose_change": null,
+   "reason": "New continued-as link (Synod of Dadisho, 424)."
+  },
+  {
+   "movement": "persian-church-of-the-east-early",
+   "field": "legacy",
+   "sentence": "It became the Church of the East, which for centuries had the widest geographical reach of any Christian body on earth, with bishops in India, Central Asia, and Tang-dynasty China.",
+   "other_id": "st-thomas-christians-of-india",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "India's bishops belong to the later Church of the East; the-church-of-the-east-under-persia's relationsSummary names the St Thomas Christians."
+  },
+  {
+   "movement": "persian-church-of-the-east-early",
+   "field": "legacy",
+   "sentence": "It became the Church of the East, which for centuries had the widest geographical reach of any Christian body on earth, with bishops in India, Central Asia, and Tang-dynasty China.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Tang China belongs to the later Church of the East (Silk Road entry). No change."
+  },
+  {
+   "movement": "persian-church-of-the-east-early",
+   "field": "legacy",
+   "sentence": "Its descendants are living communities today — the Assyrian Church of the East and the Ancient Church of the East, along with the Chaldean Catholic Church and the Syro-Malabar Church of Kerala.",
+   "other_id": "church-of-the-east-chaldean-consolidation",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A modern-descendant claim reached through several later entries; no direct link from a 300-451 entry. The later entries' passes carry each step."
+  },
+  {
+   "movement": "persian-church-of-the-east-early",
+   "field": "legacy",
+   "sentence": "Its descendants are living communities today — the Assyrian Church of the East and the Ancient Church of the East, along with the Chaldean Catholic Church and the Syro-Malabar Church of Kerala.",
+   "other_id": "church-of-the-east-chaldean-consolidation",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same."
+  },
+  {
+   "movement": "persian-church-of-the-east-early",
+   "field": "legacy",
+   "sentence": "Its descendants are living communities today — the Assyrian Church of the East and the Ancient Church of the East, along with the Chaldean Catholic Church and the Syro-Malabar Church of Kerala.",
+   "other_id": "st-thomas-christians-of-india",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same; the Kerala tie is named by the-church-of-the-east-under-persia's own text."
+  },
+  {
+   "movement": "persian-church-of-the-east-early",
+   "field": "legacy",
+   "sentence": "And its liturgy, including the ancient eucharistic prayer of Addai and Mari, is still in use.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Liturgical fact; the Liturgy of Addai and Mari is vendored (persian corpus map). No change."
+  },
+  {
+   "movement": "persian-church-of-the-east-early",
+   "field": "legacy",
+   "sentence": "Translators from this Christian tradition put Greek philosophy and medicine into Syriac and then Arabic, which is much of how that inheritance reached the medieval world.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The translators are the later Church of the East's (the-church-of-the-east-under-persia's legacy makes the same claim). No change here."
+  },
+  {
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "field": "legacy",
+   "sentence": "(no sentence) existing link to Apollinarian Christianity",
+   "other_id": "apollinarian-christianity",
+   "disposition": "link",
+   "link_id": "cappadocian-nicene-pastoral-monastic-tradition--apollinarian-christianity",
+   "prose_change": null,
+   "reason": "Not named in the Cappadocian text; existing Documented link kept on its evidence (Gregory, Ep. 101)."
+  }
+ ],
+ "links": [
+  {
+   "id": "cappadocian-nicene-pastoral-monastic-tradition--hieronymian-ascetic-literary",
+   "action": "keep",
+   "from": "cappadocian-nicene-pastoral-monastic-tradition",
+   "to": "hieronymian-ascetic-literary",
+   "type": "influenced",
+   "confidence": "Documented",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Sound. Both quotes re-checked in the files (De vir. ill. 117; Ep. 52.8). The Cappadocian relationsSummary names it."
+  },
+  {
+   "id": "cappadocian-nicene-pastoral-monastic-tradition--anomoean-eunomian-christianity",
+   "action": "keep",
+   "from": "cappadocian-nicene-pastoral-monastic-tradition",
+   "to": "anomoean-eunomian-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Sound. All three quotes re-checked (Nyssa's letter to Peter; Or. 27 heading). Named in the Cappadocian relationsSummary."
+  },
+  {
+   "id": "cappadocian-nicene-pastoral-monastic-tradition--pneumatomachian-current",
+   "action": "keep",
+   "from": "cappadocian-nicene-pastoral-monastic-tradition",
+   "to": "pneumatomachian-current",
+   "type": "argued against",
+   "confidence": "Documented",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Sound. All three quotes re-checked (Nyssa, Against the Macedonians; Basil, On the Holy Spirit 24)."
+  },
+  {
+   "id": "cappadocian-nicene-pastoral-monastic-tradition--apollinarian-christianity",
+   "action": "keep",
+   "from": "cappadocian-nicene-pastoral-monastic-tradition",
+   "to": "apollinarian-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Sound. Both quotes re-checked in Gregory's Letter 101. Not named in the Cappadocian text, but documented."
+  },
+  {
+   "id": "anatolian-church-third-century--cappadocian-nicene-pastoral-monastic-tradition",
+   "action": "keep",
+   "from": "anatolian-church-third-century",
+   "to": "cappadocian-nicene-pastoral-monastic-tradition",
+   "type": "influenced",
+   "confidence": "Documented",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Era-1 link, reviewed in two rounds; both quotes re-checked (Basil Ep. 204.6; On the Holy Spirit 29.74). Nothing wrong found."
+  },
+  {
+   "id": "alexandria-catechetical--cappadocian-nicene-pastoral-monastic-tradition",
+   "action": "keep",
+   "from": "alexandria-catechetical",
+   "to": "cappadocian-nicene-pastoral-monastic-tradition",
+   "type": "influenced",
+   "confidence": "Documented",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Era-1 link, reviewed in two rounds; all quotes re-checked. The Philocalia credit rests on the NPNF editors (settled ruling, 2026-11-07)."
+  },
+  {
+   "id": "imperial-juridical-christianity--anomoean-eunomian-christianity",
+   "action": "keep",
+   "from": "imperial-juridical-christianity",
+   "to": "anomoean-eunomian-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Sound. CTh 16.5.8, 16.5.11 and the 381 canon re-checked in the files."
+  },
+  {
+   "id": "imperial-juridical-christianity--pneumatomachian-current",
+   "action": "keep",
+   "from": "imperial-juridical-christianity",
+   "to": "pneumatomachian-current",
+   "type": "argued against",
+   "confidence": "Documented",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Sound. Canon 1 (381) and CTh 16.5.11 re-checked."
+  },
+  {
+   "id": "imperial-juridical-christianity--apollinarian-christianity",
+   "action": "keep",
+   "from": "imperial-juridical-christianity",
+   "to": "apollinarian-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Sound. Canon 1 (381) and CTh 16.5.14 re-checked."
+  },
+  {
+   "id": "imperial-juridical-christianity--gallic-nicene-episcopate",
+   "action": "keep",
+   "from": "imperial-juridical-christianity",
+   "to": "gallic-nicene-episcopate",
+   "type": "argued against",
+   "confidence": "Widely Accepted",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Quotes re-checked (Hilary, De synodis 2 and 78). Kept, with a classification question escalated: the act is Constantius II's, whose church could as well be filed as Homoian."
+  },
+  {
+   "id": "gallic-nicene-episcopate--imperial-juridical-christianity",
+   "action": "keep",
+   "from": "gallic-nicene-episcopate",
+   "to": "imperial-juridical-christianity",
+   "type": "argued against",
+   "confidence": "Widely Accepted",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Quote re-checked (De synodis 78). Sound as graded."
+  },
+  {
+   "id": "palestinian-church-pre-constantinian--imperial-juridical-christianity",
+   "action": "keep",
+   "from": "palestinian-church-pre-constantinian",
+   "to": "imperial-juridical-christianity",
+   "type": "influenced",
+   "confidence": "Documented",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Era-1 link; both quotes re-checked (HE 6.20). Nothing wrong found."
+  },
+  {
+   "id": "latin-apologists--imperial-juridical-christianity",
+   "action": "keep",
+   "from": "latin-apologists",
+   "to": "imperial-juridical-christianity",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Era-1 link; quote re-checked (De vir. ill. 80). Inferential-Thin grade is honest."
+  },
+  {
+   "id": "imperial-juridical-christianity--homoian-arian-christianity",
+   "action": "keep",
+   "from": "imperial-juridical-christianity",
+   "to": "homoian-arian-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Sound. CTh 16.5.8, 16.5.11 and the 381 canon and preface re-checked."
+  },
+  {
+   "id": "imperial-juridical-christianity--donatism",
+   "action": "keep",
+   "from": "imperial-juridical-christianity",
+   "to": "donatism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Era-1 link; all three Optatus quotes re-checked. Nothing wrong found."
+  },
+  {
+   "id": "donatism--imperial-juridical-christianity",
+   "action": "keep",
+   "from": "donatism",
+   "to": "imperial-juridical-christianity",
+   "type": "argued against",
+   "confidence": "Widely Accepted",
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": "",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Era-1 link; quote re-checked (Optatus III, line 1904). Widely Accepted for a hostile report is right."
+  },
+  {
+   "id": "imperial-juridical-christianity--persian-church-of-the-east-early",
+   "action": "keep",
+   "from": "imperial-juridical-christianity",
+   "to": "persian-church-of-the-east-early",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Era-1 link; both Synodicon quotes re-checked (410 preface; canon XII). Nothing wrong found."
+  },
+  {
+   "id": "imperial-juridical-christianity--montanism-the-new-prophecy",
+   "action": "keep",
+   "from": "imperial-juridical-christianity",
+   "to": "montanism-the-new-prophecy",
+   "type": "argued against",
+   "confidence": "Documented",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Era-1 link; both Life of Constantine quotes re-checked (III.64, III.65)."
+  },
+  {
+   "id": "imperial-juridical-christianity--novatianism",
+   "action": "keep",
+   "from": "imperial-juridical-christianity",
+   "to": "novatianism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Era-1 link; both Nicaea canon 8 quotes re-checked."
+  },
+  {
+   "id": "imperial-juridical-christianity--novatianism--2",
+   "action": "keep",
+   "from": "imperial-juridical-christianity",
+   "to": "novatianism",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Era-1 link; all three Socrates quotes re-checked (I.10, I.13)."
+  },
+  {
+   "id": "imperial-juridical-christianity--ebionite-nazoraean-current",
+   "action": "keep",
+   "from": "imperial-juridical-christianity",
+   "to": "ebionite-nazoraean-current",
+   "type": "argued against",
+   "confidence": "Documented",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Era-1 link, deliberately filed under the Constantinian church (reviewer agreed); all quotes re-checked."
+  },
+  {
+   "id": "syriac-edessa-nisibis--persian-church-of-the-east-early",
+   "action": "keep",
+   "from": "syriac-edessa-nisibis",
+   "to": "persian-church-of-the-east-early",
+   "type": "continued as",
+   "confidence": "Documented",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Era-1 link; all six quotes re-checked (Chronicle of Edessa 17 and 24; Gwynn; Barhadbeshabba; Synod of 410). It carries the Persian relationsSummary's 'direct heir' claim."
+  },
+  {
+   "id": "antiochene-church-third-century--antiochene-exegetical-christianity-chrysostom-ce",
+   "action": "keep",
+   "from": "antiochene-church-third-century",
+   "to": "antiochene-exegetical-christianity-chrysostom-ce",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Era-1 link; quote re-checked (De vir. ill. 77). The Inferential-Thin grade states the gap honestly."
+  },
+  {
+   "id": "cappadocian-nicene-pastoral-monastic-tradition--imperial-juridical-christianity",
+   "action": "new",
+   "from": "cappadocian-nicene-pastoral-monastic-tradition",
+   "to": "imperial-juridical-christianity",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Sozomen says Theodosius gave Gregory of Nazianzus charge of the churches of Constantinople. In July 381 an imperial law named Helladius of Caesarea and Gregory of Nyssa among the bishops whose communion marked a Catholic church. Socrates says the council of 381 gave the two men charge of the diocese of Pontus.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.sozomen-he",
+     "work": "Sozomen, Church History VII.5, chapter heading (trans. Hartranft, NPNF 2.2)",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "40632-40634",
+     "locus": "HE VII.5",
+     "quote": "Gregory, the Theologian, receives from Theodosius the Government of the Churches.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "lpc.source.codex-theodosianus-latin-library-transcription",
+     "work": "Codex Theodosianus 16.1.3 (law of 30 July 381)",
+     "file": "cic/texts/codex-theodosianus_latinlibrary.txt",
+     "lines": "6887",
+     "locus": "CTh 16.1.3",
+     "quote": "in pontica dioecesi helladio episcopo caesariensi et otreio meliteno et gregorio episcopo nysseno",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.sozomen-he",
+     "work": "Sozomen, Church History VII.9 (trans. Hartranft, NPNF 2.2)",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "40959-40961",
+     "locus": "HE VII.9",
+     "quote": "communion with Helladius, bishop of the church of Cæsarea in Cappadocia; with Gregory, bishop of Nyssa; and with Otreinus, bishop of Melitine;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.socrates-he",
+     "work": "Socrates, Church History V.8 (trans. Zenos, NPNF 2.2)",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "15174-15175",
+     "locus": "HE V.8",
+     "quote": "obtained the patriarchate of the diocese of Pontus in conjunction with Gregory Basil’s brother, bishop of Nyssa",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "cappadocian longDescription (Gregory of Nazianzus at Constantinople, 381); imperial-juridical relationsSummary (the creed of 381 and the Cappadocian churches)",
+   "wants": [],
+   "drafter_flags": [
+    "The link documents contact and imperial favor, not authorship of the creed of 381. No vendored text says the Cappadocians drafted it; the imperial relationsSummary is qualified to match.",
+    "The Socrates quote starts mid-sentence because the line before it carries a page-break tag inside the sentence."
+   ],
+   "change_reason": "New link for the Constantinople-381 relationship that both texts name."
+  },
+  {
+   "id": "homoian-arian-christianity--cappadocian-nicene-pastoral-monastic-tradition",
+   "action": "new",
+   "from": "homoian-arian-christianity",
+   "to": "cappadocian-nicene-pastoral-monastic-tradition",
+   "type": "argued against",
+   "confidence": "Widely Accepted",
+   "note": "Around 375 the imperial vicar of Pontus ordered Gregory of Nyssa to stand trial on charges of mishandling church money. Basil then wrote that his opponents 'have expelled my brother from Nyssa' and installed a rival. That those opponents were Valens's anti-Nicene party is the reading of the 1894 editors of Gregory of Nazianzus's letters.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "cappadocian.source.basil-letters-general-corpus",
+     "work": "Basil of Caesarea, Letter 225 (To Demosthenes), placed in 375 (trans. Jackson, NPNF 2.8)",
+     "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+     "lines": "39550-39553",
+     "locus": "Ep. 225",
+     "quote": "your excellency, moved by the reproaches of Philochares, ordered my brother and fellow-minister Gregory to be haled before your judgment seat.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "cappadocian.source.basil-letters-general-corpus",
+     "work": "Basil of Caesarea, Letter 239 (To Eusebius of Samosata) (trans. Jackson, NPNF 2.8)",
+     "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+     "lines": "40975",
+     "locus": "Ep. 239",
+     "quote": "They have expelled my brother from Nyssa,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "C. G. Browne and J. E. Swallow, headnote to Gregory of Nazianzus, Letters 72-74, in Nicene and Post-Nicene Fathers, 2nd series, vol. 7 (1894)",
+     "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+     "lines": "46295-46297",
+     "quote": "When S. Gregory was consecrated Bishop of Nyssa the Imperial Throne was occupied by Valens, an ardent Arian, whose mind was bent on the destruction of the Nicene Faith."
+    },
+    {
+     "kind": "secondary",
+     "work": "C. G. Browne and J. E. Swallow, same headnote (NPNF 2.7, 1894)",
+     "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+     "lines": "46308",
+     "quote": "Thereupon Valens banished him,"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "cappadocian longDescription (a hostile imperial church under Valens drove Gregory of Nyssa into exile)",
+   "wants": [
+    "Gregory of Nyssa's own letters on his deposition and return (Epp. 6, 18, 22 in later numbering), in a vendored edition, to give his side",
+    "A repo-cited modern study of Valens's church policy, to replace the 1894 editors as the secondary for the Homoian reading"
+   ],
+   "drafter_flags": [
+    "Classification question, escalated: the existing link imperial-juridical-christianity--gallic-nicene-episcopate files Constantius II's exile of Hilary under the imperial church, while this link files Valens's action against Gregory under the Homoian church. One rule is needed for anti-Nicene imperial acts of 337-378.",
+    "Basil names the vicar Demosthenes and rival bishops, not 'Homoians'. Grade held at Widely Accepted because the party label rests on the editors' headnote."
+   ],
+   "change_reason": "New link for the relationship the Cappadocian text names; prose 'briefly' corrected (prose change 1)."
+  },
+  {
+   "id": "hieronymian-ascetic-literary--imperial-juridical-christianity",
+   "action": "new",
+   "from": "hieronymian-ascetic-literary",
+   "to": "imperial-juridical-christianity",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Writing from the East to Damasus of Rome, Jerome said he kept communion only with 'the chair of Peter'. He later recalled helping Damasus with his church letters, answering questions sent by councils of East and West.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jerome, Letter 15 (To Pope Damasus), §2 (trans. Fremantle, NPNF 2.6)",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "5049-5050",
+     "locus": "Ep. 15",
+     "quote": "As I follow no leader save Christ, so I communicate with none but your blessedness, that is with the chair of Peter.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jerome, Letter 123 (To Ageruchia), §10 (trans. Fremantle, NPNF 2.6)",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "24189-24190",
+     "locus": "Ep. 123.10",
+     "quote": "when I was helping Damasus bishop of Rome with his ecclesiastical correspondence,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "imperial-juridical relationsSummary (Damasus's secretary was Jerome)",
+   "wants": [],
+   "drafter_flags": [
+    "The relationsSummary's further claim, that Jerome 'carried Rome's claims into the next generation's ascetic-literary circles', is not shown by these texts; it is qualified (prose change 2). No influence link is drafted."
+   ],
+   "change_reason": "New link for the Damasus-Jerome relationship the imperial text names."
+  },
+  {
+   "id": "ambrosian-milan-standalone--imperial-juridical-christianity",
+   "action": "new",
+   "from": "ambrosian-milan-standalone",
+   "to": "imperial-juridical-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 388 Ambrose wrote to Theodosius against his order that a bishop rebuild a burned synagogue at Callinicum. He would not go to the altar until the emperor promised to drop the case. In 390, after the massacre at Thessalonica, he wrote that he dared not offer the sacrifice with Theodosius present.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.ambrose-epistles",
+     "work": "Ambrose, Letter 40 (To Theodosius), §6 (trans. de Romestin, NPNF 2.10)",
+     "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+     "lines": "43163-43165",
+     "locus": "Ep. 40.6",
+     "quote": "A report was made by the military Count of the East that a synagogue had been burnt, and that this was done at the instigation of the Bishop.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.ambrose-epistles",
+     "work": "Ambrose, Letter 41 (To his sister), §28 (trans. de Romestin, NPNF 2.10)",
+     "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+     "lines": "43989-43990",
+     "locus": "Ep. 41.28",
+     "quote": "And so I went to the altar, whither I should not have gone unless he had given me a distinct promise.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.ambrose-epistles",
+     "work": "Ambrose, Letter 51 (To Theodosius after the massacre at Thessalonica), §13 (trans. de Romestin, NPNF 2.10)",
+     "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+     "lines": "44183",
+     "locus": "Ep. 51.13",
+     "quote": "I dare not offer the sacrifice if you intend to be present.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "imperial-juridical longDescription (Thessalonica; Callinicum); ambrosian why and longDescription (Thessalonica)",
+   "wants": [],
+   "drafter_flags": [
+    "The ambrosian relationsSummary (group C) says Ambrose is 'folded into the Imperial-Juridical tradition as one of its three phases'. If that is the census's intent, this link is a link of a movement to its own container; flagged for the merge.",
+    "Ambrose's 386 sentence 'the Emperor is within the Church, not above it' (Sermon against Auxentius 36) was said against Valentinian II's Homoian court, so it belongs to the ambrosian-Homoian pair, not here."
+   ],
+   "change_reason": "New link for the Ambrose-Theodosius confrontations the imperial text names."
+  },
+  {
+   "id": "syriac-edessa-nisibis--armenian-christianity-conversion-era",
+   "action": "new",
+   "from": "syriac-edessa-nisibis",
+   "to": "armenian-christianity-conversion-era",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Koriun, who worked among Mesrop Mashtots's translators, says King Vramshapuh sent Mashtots to Syrian Mesopotamia in search of an alphabet. Sahak and Mashtots later sent two pupils to Edessa to translate the Scriptures into Armenian from the Syriac.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Koriun, Life of Mesrop, French trans. J.-R. Emine, in Langlois, Collection des historiens de l'Arménie II (1869)",
+     "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt",
+     "lines": "3573-3574",
+     "locus": "Koriun, the search for the alphabet",
+     "quote": "il envoya Mesrob avec ses disciples dans la Mésopotamie de Syrie.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Koriun, Life of Mesrop (Emine, in Langlois II, 1869)",
+     "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt",
+     "lines": "3808-3810",
+     "locus": "Koriun, the translators sent to Edessa",
+     "quote": "ils envoyèrent deux de leurs disciples, Eznig (3) et Joseph (4), dans la ville d'Édesse,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Koriun, Life of Mesrop (Emine, in Langlois II, 1869), the same sentence continued after the page's footnotes",
+     "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt",
+     "lines": "3839-3840",
+     "locus": "Koriun, the translators sent to Edessa",
+     "quote": "nouveau en arménien les Saintes-Écritures sur le texte syriaque,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Malachia Ormanian, The Church of Armenia, trans. G. Marcar Gregory (1912)",
+     "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+     "lines": "1944-1945",
+     "quote": "The Bible and the rituals were read in the Greek and Syriac languages."
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "armenian relationsSummary (formed via Syriac Edessa); longDescription and why (catechized at first in Syriac)",
+   "wants": [],
+   "drafter_flags": [
+    "Langlois's text is rough OCR and the quotes keep its footnote markers '(3)' and '(4)'. The Edessa sentence is split by a page of footnotes, so it is quoted in two parts; the second part begins mid-sentence ('[de] nouveau').",
+    "Whether Langlois printed the long or the short recension of Koriun was not checked."
+   ],
+   "change_reason": "New link for the Syriac relationship the Armenian text names."
+  },
+  {
+   "id": "cappadocian-nicene-pastoral-monastic-tradition--armenian-christianity-conversion-era",
+   "action": "new",
+   "from": "cappadocian-nicene-pastoral-monastic-tradition",
+   "to": "armenian-christianity-conversion-era",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "Moses of Khoren says the young Nerses, later head of the Armenian church, was then studying at Caesarea in Cappadocia. He also notes that a later head was installed without the archbishop of Caesarea, which implies that earlier heads had been. Moses's own date is disputed, between the fifth and the eighth century.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Moses of Khoren, History of Armenia III.16, French trans. in Langlois, Collection des historiens de l'Arménie II (1869)",
+     "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt",
+     "lines": "20944-20945",
+     "locus": "Hist. III.16",
+     "quote": "qui étudiait alors à Césarée,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Moses of Khoren, History of Armenia III.39 (Langlois II, 1869)",
+     "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt",
+     "lines": "22694-22695",
+     "locus": "Hist. III.39",
+     "quote": "place de Nersès, sans l'intervention du grand ar- chevêque de Césarée",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Malachia Ormanian, The Church of Armenia, trans. G. Marcar Gregory (1912)",
+     "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+     "lines": "1872-1875",
+     "quote": "the famous schools of Caesarea in Cappadocia and of Edessa in Osroene were the only centres of enlightenment accessible to Armenia at that time."
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "armenian relationsSummary (formed via Cappadocia); longDescription and why (catechized at first in Greek)",
+   "wants": [
+    "Faustus of Byzantium (Buzand), History III-IV, and Agathangelos, History of the Armenians (Langlois tome I, 1867), which report the consecration of Gregory and his successors at Caesarea; Langlois tome II's note cites Faustus III.12 and 16, but tome I is not vendored",
+    "A repo-cited modern study (e.g. Garsoian) on the Armenian church's tie to Caesarea"
+   ],
+   "drafter_flags": [
+    "Gregory the Illuminator's own consecration at Caesarea (c. 302 or 314) falls before the Cappadocian entry's window (from 325), so the link rests on Nerses's time, not Gregory's.",
+    "The second Moses quote keeps the file's line-break hyphen ('ar- chevêque').",
+    "Ormanian (1912) is a former Armenian patriarch writing a church history: a dated secondary, not modern consensus. The grade could fall to Dominant Modern Reconstruction if a reviewer does not accept him as the consensus voice."
+   ],
+   "change_reason": "New link for the Cappadocian relationship the Armenian text names."
+  },
+  {
+   "id": "armenian-christianity-conversion-era--armenian-christianity-after-avarayr",
+   "action": "new",
+   "from": "armenian-christianity-conversion-era",
+   "to": "armenian-christianity-after-avarayr",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Elishe names Joseph, bishop of Ararat, first among the bishops who answered the Persian court's letter before Avarayr. After the battle, Joseph appears among the clergy the Persians held in chains. His 1830 translator notes that Joseph, a disciple of Sahak and Mashtots, had led the church since 441.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Elishe, History of Vartan and the Armenian War, trans. C. F. Neumann (1830)",
+     "file": "cic/texts/eghishe_history-of-vartan-and-the-armenian-war_neumann1830.txt",
+     "lines": "1719",
+     "locus": "the bishops' reply",
+     "quote": "Joseph, Bishop of Airarat.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Elishe, History of Vartan, trans. Neumann (1830)",
+     "file": "cic/texts/eghishe_history-of-vartan-and-the-armenian-war_neumann1830.txt",
+     "lines": "4701",
+     "locus": "the prisoners after the battle",
+     "quote": "brought before him Sahag, bishop of the Rheshdunians, the holy Joseph,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "C. F. Neumann, notes to his translation of Elishe (1830)",
+     "file": "cic/texts/eghishe_history-of-vartan-and-the-armenian-war_neumann1830.txt",
+     "lines": "5771-5772",
+     "quote": "Joseph was a disciple of Sahag the Great, and of Mesrob, and succeeded the latter as Katholikos of Armenia, in the year 441."
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "armenian legacy (the Armenian Apostolic Church as the living descendant)",
+   "wants": [],
+   "drafter_flags": [
+    "A period split of one church at 451. The tie of Joseph to Sahak and Mashtots comes from the translator's note; Elishe himself shows Joseph leading the bishops before and after the battle."
+   ],
+   "change_reason": "New continued-as link for the period split the Armenian legacy names."
+  },
+  {
+   "id": "persian-church-of-the-east-early--the-church-of-the-east-under-persia",
+   "action": "new",
+   "from": "persian-church-of-the-east-early",
+   "to": "the-church-of-the-east-under-persia",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "In 424 the Persian bishops met under the catholicos Dadisho. Its acts call Isaac and Yahbalaha, the catholicoi who led the synods of 410 and 420, 'our masters and fathers'. The same synod ruled that Eastern bishops could not appeal over their head to the Western patriarchs.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodicon orientale, Synod of Dadisho (424), ed. and trans. Chabot (1902)",
+     "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+     "lines": "18780",
+     "locus": "Synod of Dadisho (424)",
+     "quote": "synodes de nos maitres et pères les saints catholicos Mar Isaac et Mar Yahbalaha",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodicon orientale, Synod of Dadisho (424), ruling on appeals (Chabot 1902)",
+     "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+     "lines": "19310-19311",
+     "locus": "Synod of Dadisho (424)",
+     "quote": "« Que les Orientaux ne «pourront se plaindre devant les patriarches occidentaux de leur patriarche.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodicon orientale, Synod of Dadisho (424), closing line (Chabot 1902)",
+     "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+     "lines": "19431",
+     "locus": "Synod of Dadisho (424)",
+     "quote": "FIN DU SYNODE DE MAR DADISO , CATHOLICOS.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "persian legacy (it became the Church of the East); the-church-of-the-east-under-persia longDescription (the 424 synod)",
+   "wants": [],
+   "drafter_flags": [
+    "The two entries' windows overlap (300-451 and 424-651). The link marks the same see carried across the split; a reviewer may prefer to align the dates."
+   ],
+   "change_reason": "New continued-as link for the descent the Persian legacy names."
+  },
+  {
+   "id": "antiochene-exegetical-christianity-chrysostom-ce--alexandria-catechetical",
+   "action": "new",
+   "from": "antiochene-exegetical-christianity-chrysostom-ce",
+   "to": "alexandria-catechetical",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Facundus of Hermiane, a sixth-century defender of Theodore, names a book On Allegory and History that Theodore wrote against Origen. The book itself is lost. Socrates and Sozomen say Theodore's teacher Diodore kept to the literal sense of Scripture and avoided allegory.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Facundus of Hermiane, In Defense of the Three Chapters III.6, PL 67 (Migne 1865)",
+     "file": "cic/texts/facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt",
+     "lines": "47465-47467",
+     "locus": "Pro defensione III.6",
+     "quote": "Theodorus in Lbro de allegoria et historia quem eontra Origenem scripsit (unde et odium Origenianorum incurrit)",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.socrates-he",
+     "work": "Socrates, Church History VI.3 (trans. Zenos, NPNF 2.2)",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "17184-17185",
+     "locus": "HE VI.3",
+     "quote": "wrote many treatises, in which he limited his attention to the literal sense of scripture, avoiding that which was mystical.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.sozomen-he",
+     "work": "Sozomen, Church History VIII.2 (trans. Hartranft, NPNF 2.2)",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "42696-42698",
+     "locus": "HE VIII.2",
+     "quote": "left many books of his own writings in which he explained the significance of the sacred words and avoided allegory.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Heinrich Kihn, Theodor von Mopsuestia und Junilius Africanus als Exegeten (Freiburg, 1880), table of contents",
+     "file": "cic/texts/kihn_theodor-von-mopsuestia-junilius-africanus-instituta-lat-deu_1880.txt",
+     "lines": "393-394",
+     "quote": "Be- kämpfung des Origenes durch die Antiochener"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "antiochene relationsSummary and why (Antioch's reading set against Alexandria's allegory)",
+   "wants": [
+    "Theodore of Mopsuestia's surviving comments against allegory (e.g. the Commentary on Galatians 4:24, Swete 1880) in a vendored edition",
+    "Frances Young, Biblical Exegesis and the Formation of Christian Culture (1997), actually read, for the modern dispute over how sharp the Antioch-Alexandria contrast was"
+   ],
+   "drafter_flags": [
+    "The Facundus quote keeps the PL 67 OCR errors 'Lbro' (libro) and 'eontra' (contra).",
+    "The link claims only the named polemic against Origen. The project's Antiochene world already tags the broad literal-versus-allegorical contrast Contested (Build/Ministry/Operations/Audits/aec_Superseded_Claims.md, 3.3); the relationsSummary is qualified to say so.",
+    "Theodore's book is known only through Facundus, writing about 120 years later; a reviewer may prefer Widely Accepted."
+   ],
+   "change_reason": "New link for the relationship the Antiochene text names."
+  },
+  {
+   "id": "antiochene-exegetical-christianity-chrysostom-ce--imperial-juridical-christianity",
+   "action": "new",
+   "from": "antiochene-exegetical-christianity-chrysostom-ce",
+   "to": "imperial-juridical-christianity",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Socrates says the imperial court chose John Chrysostom as bishop of Constantinople. The chamberlain Eutropius made Theophilus of Alexandria consecrate him or face trial. An imperial law of 381 had already named Diodore of Tarsus among the bishops whose communion marked a Catholic church.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.socrates-he",
+     "work": "Socrates, Church History VI.2 (trans. Zenos, NPNF 2.2)",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "17097-17098",
+     "locus": "HE VI.2",
+     "quote": "The court however gave the preference to John:",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.socrates-he",
+     "work": "Socrates, Church History VI.2 (trans. Zenos, NPNF 2.2)",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "17106-17108",
+     "locus": "HE VI.2",
+     "quote": "bidding him ‘choose between ordaining John, and undergoing a trial on the charges made against him.’",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "lpc.source.codex-theodosianus-latin-library-transcription",
+     "work": "Codex Theodosianus 16.1.3 (law of 30 July 381)",
+     "file": "cic/texts/codex-theodosianus_latinlibrary.txt",
+     "lines": "6887",
+     "locus": "CTh 16.1.3",
+     "quote": "in orientis partibus pelagio episcopo laodicensi et diodoro episcopo tarsensi",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "antiochene longDescription and why (taken to Constantinople to preach to the imperial court)",
+   "wants": [],
+   "drafter_flags": [
+    "Contact only. The hostile end of the relationship is a separate link, imperial-juridical-christianity--antiochene-exegetical-christianity-chrysostom-ce."
+   ],
+   "change_reason": "New link for the court relationship the Antiochene text names."
+  },
+  {
+   "id": "imperial-juridical-christianity--antiochene-exegetical-christianity-chrysostom-ce",
+   "action": "new",
+   "from": "imperial-juridical-christianity",
+   "to": "antiochene-exegetical-christianity-chrysostom-ce",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "After two synods condemned John Chrysostom, the emperor barred him from his church. Two months later, Socrates writes, 'a decree of the emperor sent him into exile'.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.socrates-he",
+     "work": "Socrates, Church History VI.18 (trans. Zenos, NPNF 2.2)",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "18487-18489",
+     "locus": "HE VI.18",
+     "quote": "the emperor therefore sent to tell John that he could not go to the church, because two Synods had condemned him.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.socrates-he",
+     "work": "Socrates, Church History VI.18 (trans. Zenos, NPNF 2.2)",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "18496-18497",
+     "locus": "HE VI.18",
+     "quote": "after which a decree of the emperor sent him into exile.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "antiochene longDescription and why (preaching to the court led to his death in exile)",
+   "wants": [],
+   "drafter_flags": [
+    "The deposing synods were led by Theophilus of Alexandria, whose own census home in 403 is unclear (alexandria-catechetical ends 400; the Cyrilline entry starts 451). Only the emperor's act is linked here."
+   ],
+   "change_reason": "New link for the exile the Antiochene text names."
+  },
+  {
+   "id": "byzantine-imperial-church-justinianic--antiochene-exegetical-christianity-chrysostom-ce",
+   "action": "new",
+   "from": "byzantine-imperial-church-justinianic",
+   "to": "antiochene-exegetical-christianity-chrysostom-ce",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "The Council of Constantinople in 553 condemned Theodore of Mopsuestia by name, more than a century after his death. Its twelfth canon anathematizes anyone who defends him or calls his exegesis orthodox.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Second Council of Constantinople (553), Capitulum XII (NPNF 2.14)",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "23903-23905",
+     "locus": "Constantinople II, cap. 12",
+     "quote": "anyone defends the impious Theodore of Mopsuestia, who has said that the Word of God is one person, but that another person is Christ,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Second Council of Constantinople (553), Capitulum XII (NPNF 2.14)",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "23937-23939",
+     "locus": "Constantinople II, cap. 12",
+     "quote": "if anyone does not anathematize him or his impious writings, as well as all those who protect or defend him, or who assert that his exegesis is orthodox,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "antiochene legacy (Theodore condemned at Constantinople in 553); byzantine-imperial-church-justinianic why (the 553 council)",
+   "wants": [],
+   "drafter_flags": [
+    "The first quote begins after the canon's opening word 'If', which sits inside a markup span on the line."
+   ],
+   "change_reason": "New link for the 553 condemnation the Antiochene text names."
+  },
+  {
+   "id": "antiochene-exegetical-christianity-chrysostom-ce--the-church-of-the-east-under-persia",
+   "action": "new",
+   "from": "antiochene-exegetical-christianity-chrysostom-ce",
+   "to": "the-church-of-the-east-under-persia",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Barhadbeshabba, writing about 600, says Theodore's commentaries were translated into Syriac at Edessa, where future Persian bishops studied them. In 585 a synod of the Church of the East defended 'the books and the teaching of saint Theodore' against his critics.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Barhadbeshabba 'Arbaya, The Cause of the Foundation of the Schools, French trans. Scher, PO 4 (1908)",
+     "file": "cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt",
+     "lines": "20547-20548",
+     "locus": "Cause, on Qiyore at Edessa",
+     "quote": "Les commentaires de Théodore ayant été traduits en syriaque et ayant passé à l'assemblée d'Édesse, Cyoré jouit du repos avec tous ses disciples.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Barhadbeshabba, The Cause of the Foundation of the Schools (Scher 1908)",
+     "file": "cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt",
+     "lines": "20550-20551",
+     "locus": "Cause, on Qiyore at Edessa",
+     "quote": "ils furent versés dans l'interprétation des livres divins et dans leur tradition, et ils étudièrent les écrits de l’Interprète.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodicon orientale, Synod of Isho'yahb I (585), canon 2 heading (Chabot 1902)",
+     "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+     "lines": "26570-26571",
+     "locus": "Synod of 585, can. 2",
+     "quote": "Apologie pour les livres et la doctrine de saint Théodore, et réfatation des hérétiques qui lui firent une réputation mensongère.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodicon orientale, Synod of Isho'yahb I (585), canon 2 (Chabot 1902)",
+     "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+     "lines": "26584-26585",
+     "locus": "Synod of 585, can. 2",
+     "quote": "Pendant sa vie il brillait parmi les véritables docteurs, et après sa mort son nom devint cher,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "antiochene legacy (Theodore's work preserved in Syriac by the Church of the East)",
+   "wants": [
+    "A vendored Syriac-only work of Theodore (e.g. Mingana's Catechetical Homilies, 1932-33, if public domain) to document 'survives only in Syriac' directly"
+   ],
+   "drafter_flags": [
+    "Chabot's OCR prints the canon number as 'CaNoN 11' (canon II) and the word 'réfatation'; the quote keeps the file's spelling.",
+    "The students Barhadbeshabba names (Narsai, Barsauma, Ma'na) became bishops after 451, so the link goes to the later Church of the East, not the early Persian church."
+   ],
+   "change_reason": "New link for the Syriac preservation of Theodore the Antiochene legacy names."
+  },
+  {
+   "id": "antiochene-exegetical-christianity-chrysostom-ce--the-reformed-cities-zurich-and-geneva",
+   "action": "new",
+   "from": "antiochene-exegetical-christianity-chrysostom-ce",
+   "to": "the-reformed-cities-zurich-and-geneva",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Calvin's Institutes quote Chrysostom with delight: 'The foundation of our philosophy is humility.' Calvin also faults him and the other Greek Fathers for giving the human will too much power.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "rzg.source.calvin-institutes-books2-3",
+     "work": "John Calvin, Institutes of the Christian Religion II.2.11 (trans. Beveridge, 1845)",
+     "file": "cic/texts/calvin_institutes-christian-religion-vol1_beveridge1845.txt",
+     "lines": "18508-18510",
+     "locus": "Inst. II.2.11",
+     "quote": "I have always been exceedingly delighted with the words of Chrysostom, \" The foundation of our philosophy is humility ;\"",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "rzg.source.calvin-institutes-books2-3",
+     "work": "John Calvin, Institutes II.2.4 (trans. Beveridge, 1845)",
+     "file": "cic/texts/calvin_institutes-christian-religion-vol1_beveridge1845.txt",
+     "lines": "18126-18128",
+     "locus": "Inst. II.2.4",
+     "quote": "the Greek Fathers, above others, and especially Chrysostom, have exceeded due bounds in extolling the powers of the human will,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "antiochene legacy (Reformed preachers claimed Chrysostom)",
+   "wants": [
+    "Calvin's preface to the French edition of Chrysostom's homilies (Calvini Opera 9), to document the claim about expository preaching"
+   ],
+   "drafter_flags": [
+    "The Institutes show use and critique, not a claim of ancestry for expository preaching; the legacy sentence is qualified (prose change 6).",
+    "Section numbers II.2.4 and II.2.11 are read from the Beveridge text's own numbering; the record rzg.source.calvin-institutes-books2-3 covers Books 2-3."
+   ],
+   "change_reason": "New link for the Reformed reception the Antiochene legacy names."
+  },
+  {
+   "id": "antiochene-exegetical-christianity-chrysostom-ce--lutheran-wittenberg-and-its-congregations",
+   "action": "new",
+   "from": "antiochene-exegetical-christianity-chrysostom-ce",
+   "to": "lutheran-wittenberg-and-its-congregations",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "The Augsburg Confession of 1530 cites Chrysostom as a witness to the early church's shared Communion. Melanchthon's Apology of the Confession quotes his saying: contrition in the heart, confession in the mouth, humility in the work.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "witt.source.melanchthon-augsburg-confession",
+     "work": "Augsburg Confession, Article XXIV (Of the Mass) (Project Gutenberg English text)",
+     "file": "cic/texts/melanchthon_augsburg-confession_anon-pg275.txt",
+     "lines": "880-881",
+     "locus": "CA XXIV",
+     "quote": "Chrysostom says that the priest stands daily at the altar, inviting some to the Communion and keeping back others.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "witt.source.melanchthon-apology-of-the-augsburg-confession",
+     "work": "Philip Melanchthon, Apology of the Augsburg Confession, Article XII (trans. Bente and Dau, 1921)",
+     "file": "cic/texts/melanchthon_apology-augsburg-confession_bente-dau1921.txt",
+     "lines": "6319-6320",
+     "locus": "Apol. XII",
+     "quote": "Likewise Chrysostom says: In the heart, contrition; in the mouth, confession; in the work, entire humility.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "antiochene legacy (Lutheran preachers claimed Chrysostom)",
+   "wants": [],
+   "drafter_flags": [
+    "Both are doctrinal citations, not preaching. No vendored Lutheran text claims Chrysostom as an ancestor of expository preaching; the legacy sentence is qualified (prose change 6)."
+   ],
+   "change_reason": "New link for the Lutheran reception the Antiochene legacy names."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "field": "longDescription",
+   "old": "Basil's own preaching indicted the region's grain-hoarders by name and built a hospital, hostel, and workhouse complex outside Caesarea after the famine of 368 — a genuine, near-unprecedented undertaking, though not, as later legend sometimes claims, the first of its kind anywhere.",
+   "new": "Basil's own preaching indicted the region's grain-hoarders and moved them to open their stores. After the famine of 368 he built a hospital, hostel, and workhouse complex outside Caesarea. It was a genuine, near-unprecedented undertaking, though not, as later legend sometimes claims, the first of its kind anywhere.",
+   "reason": "No vendored text has Basil name the hoarders. Gregory of Nazianzus (Or. 43, NPNF 2.7) says he 'opened the stores of those who possessed them' by his word; Jackson's prolegomena (NPNF 2.8) say the same. The sentence also made 'preaching' the subject of 'built'."
+  },
+  {
+   "n": 1,
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "field": "longDescription",
+   "old": "The years were not peaceful throughout: this Christian tradition buried its own martyr, Eupsychius of Caesarea, executed under Julian in 362, and endured a hostile imperial church under Valens that drove Gregory of Nyssa briefly into exile.",
+   "new": "The years were not peaceful throughout. This Christian tradition buried its own martyr, Eupsychius of Caesarea, executed under Julian in 362. Under Valens, a hostile church party had Gregory of Nyssa deposed, and he lived in exile until 378.",
+   "reason": "'Briefly' is not what the sources show and clashes with the entry's own voices text ('exiled under Valens for years'): Basil's letters date the deposition to about 376, and the NPNF 7 headnote dates his return to Valens's death in 378."
+  },
+  {
+   "n": 2,
+   "movement": "imperial-juridical-christianity",
+   "field": "relationsSummary",
+   "old": "Damasus's own secretary was Jerome, who carried Rome's claims into the next generation's ascetic-literary circles; the Nicene settlement received at Chalcedon in 451 is the same creed the Cappadocian churches had helped work out a generation earlier.",
+   "new": "Jerome served as secretary to Damasus of Rome. He had earlier written to Damasus that he kept communion only with 'the chair of Peter'. The creed received at Chalcedon in 451 came from the council of 381, where bishops of the Cappadocian churches took part.",
+   "reason": "Jerome's letters show the secretaryship and his loyalty to 'the chair of Peter' (Epp. 15, 123), not that he carried Rome's claims into later circles. No vendored text says the Cappadocians helped work out the creed of 381, and 381 is seventy years before Chalcedon, not 'a generation'. Socrates V.8 and CTh 16.1.3 show them at and favored by the council."
+  },
+  {
+   "n": 3,
+   "movement": "imperial-juridical-christianity",
+   "field": "longDescription",
+   "old": "He would not give it up, and his congregation stayed inside with him — prepared, an eyewitness later wrote, to die with their bishop. It was there, waiting through the night, that Milan's people first sang hymns the way the Eastern churches did, a custom that, by that eyewitness's account, never stopped and spread to churches across the world.",
+   "new": "He would not give it up, and his congregation stayed inside with him. Augustine, then living in Milan, later wrote that they were 'prepared to die with their bishop'. He also wrote that at this time Milan's people began to sing hymns and psalms in the Eastern way. That custom, he says, lasted and spread to almost all congregations elsewhere.",
+   "reason": "Augustine was not inside the basilica. Confessions IX.7 says his mother kept watch there, while 'we ... were yet moved by the astonished and disturbed city'. He was a witness in the city, not an eyewitness of the siege, and he does not mention a night."
+  },
+  {
+   "n": 4,
+   "movement": "imperial-juridical-christianity",
+   "field": "legacy",
+   "old": "Waiting through the siege night in 386, Ambrose's besieged congregation began singing psalms 'after the manner of the Eastern Church' — and Augustine, who was there, says the custom was 'retained from then till now' and copied by 'almost all' congregations 'throughout the rest of the world.'",
+   "new": "During the siege of 386, Ambrose's congregation began singing psalms 'after the manner of the Eastern Church'. Augustine, then living in Milan, says the custom was 'retained from then till now'. He adds that 'almost all' congregations 'throughout the rest of the world' copied it.",
+   "reason": "Same correction as the longDescription: Confessions IX.7 places Augustine in the city, not in the basilica, and mentions no night. The four quoted phrases are unchanged and appear verbatim in the NPNF 1.1 text."
+  },
+  {
+   "n": 5,
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "field": "relationsSummary",
+   "old": "Historical-literal exegesis, set against Alexandria's allegorical method; Theodore of Mopsuestia's own contested status is noted here on the record.",
+   "new": "Historical-literal exegesis, set against Alexandria's allegorical method, though scholars dispute how sharp the contrast was. Theodore of Mopsuestia wrote against Origen, was condemned in 553, and was defended by the Church of the East as its 'Interpreter'.",
+   "reason": "'Noted here on the record' is cataloguing language. The project's Antiochene world already tags the broad literal-versus-allegorical contrast Contested (aec_Superseded_Claims 3.3). Theodore's book against Origen (Facundus III.6), the 553 canon and the 585 synod's defense are all in vendored texts."
+  },
+  {
+   "n": 6,
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "field": "legacy",
+   "old": "They were quarried for medieval preaching, printed early and often in the Reformation era — Reformed and Lutheran preachers alike claimed him as an ancestor of expository preaching.",
+   "new": "Reformation writers quoted him too. Calvin prized his saying that humility is 'the foundation of our philosophy', though he thought Chrysostom gave the human will too much power. The Augsburg Confession of 1530 cited him on how the early church shared Communion.",
+   "reason": "No vendored or repo-cited source shows medieval quarrying, early printing, or a Reformed or Lutheran claim of ancestry for expository preaching. Calvin's Institutes (II.2.4, II.2.11) and the Augsburg Confession (XXIV) show the use that is documented."
+  },
+  {
+   "n": 7,
+   "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+   "field": "legacy",
+   "old": "The Antiochene way of reading, insisting that a text means what it meant to those who first heard it, is the ancestor of the historical-grammatical method that later Western biblical scholarship made standard.",
+   "new": "The Antiochene way of reading insisted that a text means what it meant to those who first heard it. Later Western biblical scholarship made a similar historical-grammatical method standard, though no direct line between the two has been traced.",
+   "reason": "'Is the ancestor of' is a genealogical claim no vendored or repo-cited source supports. The likeness of method is fair to state; the descent is not."
+  },
+  {
+   "n": 8,
+   "movement": "persian-church-of-the-east-early",
+   "field": "longDescription",
+   "old": "It worshipped in Syriac, thought in the exegetical idiom it shared with Edessa and Antioch, and was already becoming the church that would carry Christianity along the trade roads to India, Central Asia, and China.",
+   "new": "It worshipped in Syriac and shared the learning of Edessa. Persian students there read Theodore of Mopsuestia's commentaries once they were put into Syriac, and the church's later teachers made his Antiochene way of reading their own. And it was already becoming the church that would carry Christianity along the trade roads to India, Central Asia, and China.",
+   "reason": "No vendored text shows the Persian church before 451 sharing Antioch's exegetical idiom. Barhadbeshabba (Cause of the Schools) shows Persian students at Edessa studying Theodore in Syriac; the synod of 585 shows the later church adopting him."
+  }
+ ],
+ "wants": [
+  "A repo-cited modern study (e.g. Garsoian) on the Armenian church's tie to Caesarea",
+  "A repo-cited modern study of Valens's church policy, to replace the 1894 editors as the secondary for the Homoian reading",
+  "A source for the epithet 'Queen of Translations' for the Armenian Bible (the census uses it; no vendored or repo-cited text does)",
+  "A vendored Syriac-only work of Theodore (e.g. Mingana's Catechetical Homilies, 1932-33, if public domain) to document 'survives only in Syriac' directly",
+  "Agathangelos, History of the Armenians, and Faustus of Byzantium, in Langlois, Collection des historiens de l'Arménie, tome I (1867): verified on archive.org by the Library thread, not vendored",
+  "Calvin's preface to the French edition of Chrysostom's homilies (Calvini Opera 9), to document the claim about expository preaching",
+  "Faustus of Byzantium (Buzand), History III-IV, and Agathangelos, History of the Armenians (Langlois tome I, 1867), which report the consecration of Gregory and his successors at Caesarea; Langlois tome II's note cites Faustus III.12 and 16, but tome I is not vendored",
+  "Frances Young, Biblical Exegesis and the Formation of Christian Culture (1997), actually read, for the modern dispute over how sharp the Antioch-Alexandria contrast was",
+  "Gregory of Nyssa's own letters on his deposition and return (Epp. 6, 18, 22 in later numbering), in a vendored edition, to give his side",
+  "Theodore of Mopsuestia's surviving comments against allegory (e.g. the Commentary on Galatians 4:24, Swete 1880) in a vendored edition"
+ ],
+ "escalations": [
+  "Classification of anti-Nicene imperial acts, 337-378 (cross-movement ruling). The existing link imperial-juridical-christianity--gallic-nicene-episcopate files Constantius II's exile of Hilary under the imperial church; the new link homoian-arian-christianity--cappadocian-nicene-pastoral-monastic-tradition files Valens's deposition of Gregory of Nyssa under the Homoian church. One rule should govern both.",
+  "Group C's ambrosian-milan-standalone relationsSummary says Ambrose is 'folded into the Imperial-Juridical tradition as one of its three phases', yet the census keeps him as his own entry, and this draft links him to the imperial church (argued against). Flagged for the merge and group C; not touched.",
+  "Cappadocian entry tile (entry.tile, not a field this pass edits) says Basil preached against the hoarders 'and named them'. No vendored text says he named them; the longDescription is corrected (prose change 0). The tile needs the same fix by its owner.",
+  "imperial-juridical-christianity why says 'Constantine's toleration of the church in 312'; its longDescription says 313. The 313 date matches the letter of Milan; 312 is the Milvian Bridge. Left for the entry owner.",
+  "persian-church-of-the-east-early (300-451) and the-church-of-the-east-under-persia (424-651) overlap by 27 years; the new continued-as link crosses the overlap. Date alignment is a census-structure decision.",
+  "armenian-christianity-conversion-era calls Sahak's Bible 'the Queen of Translations' twice; no vendored or repo-cited source carries the epithet. Not a lineage claim, so left for the entry owner."
+ ]
+}

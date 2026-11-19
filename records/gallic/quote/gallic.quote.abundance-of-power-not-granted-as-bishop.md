@@ -17,8 +17,7 @@ confidence:
     before. Reported speech at one remove, addressed by Gallus to Sulpitius within the dialogue.
 sources:
 - source_id: gallic.source.sulpitius-dialogues-ii-iii
-  locus: "Dialogues II.4 (npnf211 div ii.iv.ii.iv, file lines 4038-4043): Gallus telling Sulpitius
-    what Martin used to say about having less power as bishop than he remembered having before"
+  locus: "Dialogues II.4 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 4038-4043; div ii.iv.ii.iv): Gallus telling Sulpitius what Martin used to say about having less power as bishop than he remembered having before"
   license: public-domain
 retrieval:
   tier: 2

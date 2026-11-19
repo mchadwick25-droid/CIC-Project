@@ -1,0 +1,1313 @@
+[
+ {
+  "id": "cistercian-monasticism",
+  "atlasId": "IV.1",
+  "era": 5,
+  "name": "Cistercian Monasticism",
+  "dates": "1098-1300",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "IV.1",
+    "id": "cistercian-monasticism",
+    "era": 5,
+    "living": true,
+    "end": 1300,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "II.6 influenced this [Inferential-Thin] (II.6 = Early Benedictine / Italian Monasticism, c. 500-604)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1) — rich across the whole range this survey looks for: formation documents, Bernard's sermons, Aelred on friendship, the lay-brother world and the chapter statutes. Its window ends at 1300, the era boundary - a scoping choice, not a claim that the tradition itself stopped there.",
+  "relationsSummary": "A plainer reform of Benedictine life, begun at Cîteaux in 1098. Bernard's writings fed later Western prayer.",
+  "why": "In 1098 a group of monks walked out of the abbey of Molesme. They went to keep the Rule of St Benedict plainly at Cîteaux, with bare churches, manual labor and no elaborate liturgy. The reform grew fast after Bernard of Clairvaux joined in 1113. Much of the actual work was done by lay brothers, the conversi, who farmed the order's granges beside the choir monks. Bernard's sermons and Aelred of Rievaulx's writing on friendship stayed among the most-read spiritual works in the West for centuries.",
+  "legacy": "The order is still here. Cistercian and Trappist houses keep the same rule today. Its buildings became a style of their own: the bare, unpainted, finely shaped church that architects still simply call Cistercian. Fontenay in Burgundy survives almost whole. Its writers were read for centuries. Bernard's sermons on the Song of Songs and Aelred's Spiritual Friendship fed a warm, loving strand of Western prayer. Two hundred years on, the English writers Richard Rolle and Walter Hilton still quoted Bernard by name. And the granges left a mark on European farming, on water and on the clearing of land that outlasted the monks who worked them."
+ },
+ {
+  "id": "carthusian-life",
+  "atlasId": "IV.2",
+  "era": 5,
+  "name": "Carthusian Life",
+  "dates": "1084 onward",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [
+   {
+    "id": "carthusians-later-middle-ages",
+    "atlasId": "V.24",
+    "living": false,
+    "confidence": "Widely Accepted"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "V.24",
+    "id": "carthusians-later-middle-ages",
+    "era": 6,
+    "living": false,
+    "end": 1534,
+    "weakestLink": "Widely Accepted"
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Tiered Viable, secondary (Tier 2). Its own defining silence - whether it leaves enough breadth for a full tradition - is the honest reason it is not Tier 1. Its deliberately few personalities are its formation logic, not a sourcing failure.",
+  "relationsSummary": "A hermit life of cell and silence in the Latin West, kept in much the same shape since 1084",
+  "why": "In 1084 Bruno of Cologne left a career teaching at Reims to build a life of near-total silence in the Alps above Grenoble, each monk alone in his own cell with a small garden. Guigo II's short treatise, the Ladder of Monks, describes reading, meditating, praying and resting in God, and became one of the most widely used accounts of prayer in the Western church. The order deliberately produced almost no public figures, and has kept substantially the same shape for nine hundred years.",
+  "legacy": "The order is still living and still small, which is exactly what it intended. Its longest reach is Guigo II's Ladder of Monks. Its four steps of reading, meditating, praying and resting in God were put into English in the fourteenth century. The author of The Cloud of Unknowing seems to have known them. The pattern is still taught today, often by people who have never heard of the Carthusians. The charterhouse plan, a great cloister ringed by single cells and gardens, became a familiar building type across Europe. Several former charterhouses now serve as museums and galleries. The monks of the Grande Chartreuse still make a liqueur, which keeps the name in everyday use long after most people forgot what it belonged to."
+ },
+ {
+  "id": "canons-regular-victorine-school",
+  "atlasId": "IV.3",
+  "era": 5,
+  "name": "Canons Regular / Victorine School",
+  "dates": "1108-1246",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "IV.3",
+    "id": "canons-regular-victorine-school",
+    "era": 5,
+    "living": false,
+    "end": 1246,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this influenced IV.4 [Widely Accepted] (IV.4 = The Franciscan Movement, 1209-1300)"
+  ],
+  "statusDescription": "Tiered Viable, secondary (Tier 2) — rich textually, moderate in community texture. Its real test is distinctiveness from the Cistercian and university traditions. The window runs from 1108 to 1246, and the Premonstratensians belong inside this canons-regular family rather than as their own entry.",
+  "relationsSummary": "A bridge between the cloister and the schools. The reformed canons that Norbert founded in 1120 or 1121, known as Premonstratensians, belong to the same family.",
+  "why": "Canons regular lived under a rule like monks but kept working in the world — serving churches, running hospitals, teaching — and the abbey of Saint-Victor in Paris became the movement's greatest school after William of Champeaux withdrew there in 1108. Hugh of St Victor argued that every art and science, rightly ordered, leads toward wisdom, while Richard of St Victor mapped the stages of contemplation more carefully than anyone before him in the Latin West. Adam of St Victor supplied the abbey's own sung liturgy, the sequences that outlasted the school itself.",
+  "legacy": "The abbey is gone, but the way of life is not. Canons regular still exist, and Norbert's Premonstratensians remain an order today. The Victorines' real bequest was intellectual. Hugh taught that the arts and sciences belong inside the search for God. Richard mapped contemplation stage by stage. Nearly everyone who wrote on prayer in the later Middle Ages read them and borrowed from them. Bonaventure followed Richard closely, and so did the English mystics of the fourteenth century. And the abbey's sequences stayed in the liturgy long after the school that wrote them had gone quiet."
+ },
+ {
+  "id": "the-franciscan-movement",
+  "atlasId": "IV.4",
+  "era": 5,
+  "name": "The Franciscan Movement",
+  "dates": "1209-1300",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [
+   {
+    "id": "franciscan-order-era-6",
+    "atlasId": "V.19",
+    "living": false,
+    "confidence": "Documented"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "V.19",
+    "id": "franciscan-order-era-6",
+    "era": 6,
+    "living": false,
+    "end": 1517,
+    "weakestLink": "Documented"
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "IV.5 in contact with this [Widely Accepted] (IV.5 = The Dominican Order, 1216-1300)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1), immense in scale. Its layered-hagiography problem is carried rather than resolved — sources here need careful handling. Its lay third order belongs inside its own story. The later entry that receives it carries only the Fraticelli splinter and the Observant reform, a gap still open for a fuller account.",
+  "relationsSummary": "Sibling and rival of the Dominicans, and parent of the Spirituals. Its lay third order, the Order of Penance, dates from 1221. Later the Observants kept its rule to the letter.",
+  "why": "Francis of Assisi gave away a merchant's inheritance to preach and care for lepers in the streets of Italy's fast-growing towns, and by 1209 the friars who joined him owned nothing, begged, and worked rather than withdrawing behind monastery walls. Clare of Assisi built the movement's women's branch and wrote the first monastic rule known to have been composed by a woman. Within a generation of Francis's death in 1226 the order was fighting bitterly over how literally his poverty had been meant, a quarrel serious enough that his own brothers rewrote his life story more than once.",
+  "legacy": "The Franciscans are still one of the largest religious families in the world, in several branches, with a lay third order alongside them. Beyond the order, the movement changed the ordinary furniture of Western devotion: the Christmas crib, which Francis is credited with staging at Greccio in 1223. The Stations of the Cross, spread through Europe largely by Franciscans; an affectionate attention to Christ's humanity and to the poor; and a strand of Christian language about creation — the Canticle of the Creatures, with its brother sun and sister moon. That is quoted constantly to this day. The basilica raised over Francis's tomb at Assisi carries some of the most famous fresco cycles in European art."
+ },
+ {
+  "id": "the-dominican-order",
+  "atlasId": "IV.5",
+  "era": 5,
+  "name": "The Dominican Order",
+  "dates": "1216-1300",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "IV.5",
+    "id": "the-dominican-order",
+    "era": 5,
+    "living": true,
+    "end": 1300,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this in contact with IV.4 [Widely Accepted] (IV.4 = The Franciscan Movement, 1209-1300)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1) on a rich base — constitutions, formation treatises, and sworn canonization-inquest testimonies, which give it an unusually direct evidentiary footing for the era.",
+  "relationsSummary": "Sibling-rival of the Franciscans; parent of the German convent-mysticism tradition",
+  "why": "Dominic de Guzmán, a Spanish cathedral canon, concluded that the church was losing arguments with dissenters because its preachers traveled with baggage while their opponents walked and fasted — so he built an order backwards from that single purpose: friars trained in theology, poor and mobile, planted immediately in the new universities at Paris and Bologna. Its 1216 constitution even ruled that the order's own rule did not bind under sin, so it could never get in the way of study. The order's convents of women, especially in the German lands, became one of the few places in medieval Europe where women wrote theology and were read.",
+  "legacy": "The Dominicans are still here, and much of what they built outlasted the century. The constitutional machinery of elected superiors and representative chapters, a permanent commitment to study as itself a form of religious life, and the university theology that Albert the Great and Thomas Aquinas produced inside the order and that still anchors Catholic thought. Their German convents fed the mystical writing associated with Meister Eckhart, Johannes Tauler and Henry Suso. The order also supplied the church with much of its inquisitorial personnel, which belongs to the same inheritance and is not separable from it. The rosary's spread through Europe was carried largely by Dominicans, though the traditional story that Dominic himself received it is legend rather than history."
+ },
+ {
+  "id": "athonite-and-comnenian-byzantine-monasticism",
+  "atlasId": "IV.6",
+  "era": 5,
+  "name": "Athonite & Comnenian Byzantine Monasticism",
+  "dates": "c. 963-1300",
+  "lane": "Greek East & Orthodoxy",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "iconophile-byzantine-monasticism",
+    "atlasId": "III.6",
+    "confidence": "Inferential-Thin"
+   }
+  ],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "IV.6",
+    "id": "athonite-and-comnenian-byzantine-monasticism",
+    "era": 5,
+    "living": true,
+    "end": 1300,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this influenced V.4 [Documented] (V.4 = Hesychasm & the Palamite Synthesis, c. 1300-1400)",
+   "this influenced VII.8 [Documented] (VII.8 = The Hesychast Revival - Paisius & the Philokalia, 1746-1815)",
+   "this influenced IV.15 [Inferential-Thin] (IV.15 = The Georgian Golden Age, c. 1000-1245)",
+   "this gave rise to IV.16 [Dominant Modern Reconstruction] (IV.16 = Serbian & Bulgarian Medieval Monasticism, c. 1170-1396)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1) as the era's Orthodox monastic anchor and the parent of hesychasm. One sourcing nuance, stated here rather than smoothed over: Symeon the New Theologian's corpus is Constantinopolitan - the entry's Comnenian half - not Athos proper. Its start, c. 963, precedes the era, which the standing rule on early starts allows.",
+  "relationsSummary": "Perhaps heir of the monks who fought for icons, though the tie is thin; its way of prayer fed hesychasm",
+  "why": "In 963 the monk Athanasios founded the Great Lavra on Mount Athos with imperial backing, and the peninsula grew into a federation of monasteries each governed by its own written charter, a typikon setting down everything from diet to liturgy. In Constantinople in the same period, Symeon the New Theologian preached that God could be known directly and consciously, in experienced light, and was pushed out of his monastery for insisting on it. Between them, these houses shaped the disciplines of interior prayer that the next century would gather up and name hesychasm.",
+  "legacy": "Mount Athos never stopped. Its monasteries have been lived in without a break since this period, and their own charters still govern them. It is one of very few places on the whole map of Christian history where a visitor can find something doing today what it did a thousand years ago. The ways of prayer formed here fed straight into hesychasm and the Palamite theology of the next century. From there they passed into the whole later prayer life of Orthodoxy: the Jesus Prayer, and in time the Philokalia. Monks formed on Athos also carried its life outward. Anthony, who began the Caves Monastery at Kyiv, had taken his vows on the Holy Mountain. At Iviron, the Georgian house on Athos, monks put scripture and Greek books of theology into Georgian."
+ },
+ {
+  "id": "the-beguines",
+  "atlasId": "IV.7",
+  "era": 5,
+  "name": "The Beguines",
+  "dates": "c. 1190-1310",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "IV.7",
+    "id": "the-beguines",
+    "era": 5,
+    "living": false,
+    "end": 1310,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Tiered Strong (Tier 1), and the flagship for this census's marginalized-voices duty. Hadewijch, Mechthild of Magdeburg and Marguerite Porete are first-person women's voices, the rarest commodity in the atlas, all in verified modern translation. Its window ends in 1310, Porete's burning, crossing the era boundary once - a principled straddle, not an artifact.",
+  "relationsSummary": "A lay women's movement that fitted none of the church's usual forms. Church leaders suspected it. In 1312 the Council of Vienne condemned errors it laid on beguines.",
+  "why": "From the late twelfth century, women across the Low Countries and the Rhineland lived religious lives with no vows, no rule and no enclosure. They kept their own property or worked in cloth, and they nursed the sick. Many lived in walled courtyard communities called beguinages. Some of them wrote, and that is what makes them extraordinary. Hadewijch left visions and letters. Mechthild of Magdeburg wrote the Flowing Light of the Godhead, and Marguerite Porete the Mirror of Simple Souls. These are among the very few medieval accounts of religious life told from the inside, by the women who lived it. Porete was burned in Paris in 1310. Two years later the Council of Vienne condemned errors it laid on beguines and beghards.",
+  "legacy": "The beguinages themselves outlasted the suppression by centuries. Whole courtyard quarters in Bruges, Leuven and other Flemish towns still stand, lived in and intact, and are now protected as world heritage. The writing survived too, though not always under its author's name. Porete's Mirror circulated anonymously for six hundred years and was read as an orthodox devotional classic until scholars identified it as hers in the twentieth century. Hadewijch and Mechthild are read today as major theologians in their own right, and the movement as a whole has become one of the standard reference points in the history of women's religious life."
+ },
+ {
+  "id": "the-waldensians",
+  "atlasId": "IV.8",
+  "era": 5,
+  "name": "The Waldensians",
+  "dates": "c. 1173 onward",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [
+   {
+    "id": "waldensians-in-the-alps",
+    "atlasId": "V.16",
+    "living": false,
+    "confidence": "Widely Accepted"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.10",
+    "id": "the-waldensian-reformed-union",
+    "era": 7,
+    "living": true,
+    "end": 1655,
+    "weakestLink": "Contested"
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Tiered Viable, secondary (Tier 2), and the map's clearest dissent-that-survived thread. Its evidence splits by period - inquisition registers early, genuine internal literature later; the Liber Antiheresis is Latin-only, and how well it represents the movement is contested. Its continuing thread jumps a 1300-1517 gap, left open for a later entry to close.",
+  "relationsSummary": "Dissenters condemned in 1184. They held on in the Alpine valleys. In 1532 the Waldensians there joined the Reformed churches. Scholars disagree about how far it was one unbroken line.",
+  "why": "Around 1173 a rich merchant of Lyon named Valdes gave away his property. He had parts of Scripture put into the language people actually spoke, and he began preaching in the streets. His confession of faith was wholly orthodox. He was condemned in 1184 only for preaching without a license. Driven from the cities, the movement held on in the Alpine valleys between France and Italy. It lived through three and a half centuries of persecution there, with its own traveling ministers and its own books. In 1532 its leaders met the Reformers at Chanforan and joined the Reformed churches. That carried a line of protest from twelfth-century Lyon into the Reformation. Scholars disagree, though, about how unbroken that line was.",
+  "legacy": "The Waldensian church is still here. It joined the Reformed churches at Chanforan in 1532, and it lives on as the Waldensian Evangelical Church, based in the same valleys of Piedmont. It is one of the very few medieval movements condemned by Rome that never died out. It never had to be pieced together from its enemies' files. Its long habit of Scripture in the people's own tongue, and of preaching by lay people, came before the Reformation and then joined it."
+ },
+ {
+  "id": "zagwe-and-early-solomonic-ethiopian-christianity",
+  "atlasId": "IV.9",
+  "era": 5,
+  "name": "Zagwe Ethiopian Christianity",
+  "dates": "c. 1137-1270",
+  "lane": "Africa",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "post-aksumite-ethiopian-christianity",
+    "atlasId": "III.21",
+    "confidence": "Documented"
+   }
+  ],
+  "successors": [
+   {
+    "id": "the-ethiopian-monastic-flowering",
+    "atlasId": "V.7",
+    "living": true,
+    "confidence": "Documented"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.25",
+    "id": "ethiopian-christianity-gragn-to-fasilides",
+    "era": 7,
+    "living": true,
+    "end": 1650,
+    "weakestLink": "Documented"
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Tiered Viable, secondary (Tier 2) — moderate in sourcing here and richer in the next era, so its work in this window is holding the spine. The window ends at 1270, the Solomonic restoration, avoiding a 30-year overlap with the entry that follows it.",
+  "relationsSummary": "Continuation of Aksum; formal dependence on the Coptic patriarchate",
+  "why": "Under the Zagwe kings, the Ethiopian church kept its head bishop, the abun, on loan. He was a monk sent from the Coptic patriarch in Egypt, though the kingdom itself was fully free. The Zagwe are best known for eleven churches carved downward into solid rock at Lalibela. Several are named after holy places, such as Golgotha and Bethlehem. In 1270 Yekuno Amlak pushed the Zagwe aside. His line, the Solomonic kings, leaned on the Kebra Nagast to justify its rule for the next seven centuries.",
+  "legacy": "The Ethiopian Orthodox Tewahedo Church is one of the largest ancient churches in the world today, and it runs in an unbroken line through this period. Lalibela's churches are not ruins: they are working parish churches, with priests and pilgrims, and remain one of the great pilgrimage destinations of African Christianity. The Solomonic claim launched in these years shaped Ethiopian politics until 1974, when the last emperor to bear the title Lion of Judah was deposed."
+ },
+ {
+  "id": "maronite-christianity",
+  "atlasId": "IV.10",
+  "era": 5,
+  "name": "Maronite Christianity",
+  "dates": "c. 1100-1300",
+  "lane": "Syriac East & Asia",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [
+   {
+    "id": "maronite-christianity-era-6",
+    "atlasId": "V.22",
+    "living": false,
+    "confidence": "Documented"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "V.22",
+    "id": "maronite-christianity-era-6",
+    "era": 6,
+    "living": false,
+    "end": 1517,
+    "weakestLink": "Documented"
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Tiered Marginal/deferred (Tier 3): thin-to-moderate early, and much of its early history is later reconstruction under polemical pressure, stated here plainly rather than softened. Its window starts at 1100, with an earlier origin noted, rather than reaching back to c. 685 on tradition-internal evidence alone.",
+  "relationsSummary": "West Syriac liturgical family; unique early union with Rome",
+  "why": "The Maronites take their name from the Syriac monk Maron, and by the medieval period were a distinct West Syriac church whose monasteries and hermitages were cut straight into the cliffs of Mount Lebanon. Their early history is unusually hard to recover, because much of what is told about it was written later, under argument over whether the community had once held that Christ had only one will. When the crusaders arrived, the Maronites entered communion with Rome — William of Tyre describes the union around 1182, and in 1215 the patriarch Jeremiah al-Amshitti traveled to Rome for the Fourth Lateran Council to settle its terms.",
+  "legacy": "The Maronite Church is very much alive. It is one of the largest Eastern Catholic churches and the largest Christian community in Lebanon. It also has a worldwide diaspora. The union begun here has held for eight centuries. It joined communion with the pope to a Syriac liturgy and a patriarch of the church's own. Later Eastern Catholic churches would share that pattern. The Qadisha valley, where monks carved their monasteries and hermit cells into the cliffs, is still a place of pilgrimage. It is protected as world heritage."
+ },
+ {
+  "id": "military-religious-orders-templars-hospitallers",
+  "atlasId": "IV.11",
+  "era": 5,
+  "name": "Military-Religious Orders (Templars, Hospitallers)",
+  "dates": "1120-1291",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "IV.11",
+    "id": "military-religious-orders-templars-hospitallers",
+    "era": 5,
+    "living": false,
+    "end": 1291,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "IV.1 influenced this [Dominant Modern Reconstruction] (IV.1 = Cistercian Monasticism, 1098-1300)"
+  ],
+  "statusDescription": "Tiered Viable, secondary (Tier 2) — institutionally rich with a thin interior voice; the Templar trial testimony is coerced, not read here as inside evidence. Whether this is a tradition or an institution is a real, open question, alongside the question of holy violence its note on the doctrinal floor names.",
+  "relationsSummary": "These orders fused monastic vows with arms, something the church had never authorized before, and Bernard of Clairvaux wrote their defense, In Praise of the New Knighthood. The Hospitallers continued after the fall of Acre in 1291, moving their base to Rhodes in 1310 and remaining there into the sixteenth century.",
+  "why": "The Hospitallers began as a hospital in Jerusalem caring for pilgrims. They called the sick 'our lords the sick', and only later took on a military role. The Templars began as knights guarding the pilgrim roads and were given a monastic rule at the Council of Troyes in 1129. Bernard of Clairvaux defended this joining of vows and arms in his In Praise of the New Knighthood. He argued that a knight who killed in this cause was not a homicide but a 'malicide', a killer of evil. Both orders grew rich running castles, estates and banking networks. After Acre fell in 1291, the Templars were arrested and tortured into confession. In 1312 Pope Clement V abolished their order.",
+  "legacy": "One of the two orders is still going. The Hospitallers moved to Rhodes, then Malta, and continue today as the Sovereign Military Order of Malta, a hospitaller body with a legal personality of its own, alongside Protestant orders of St John in Britain and Germany out of which St John Ambulance grew — the medical vocation outlived the military one by many centuries. The Templars did not survive, and their destruction left a very long afterlife in legend and conspiracy writing that has almost nothing to do with the historical order. What both left physically is architecture. Castles across the eastern Mediterranean and Iberia, and round churches in Europe built in imitation of the Holy Sepulchre, of which London's Temple Church is the best known."
+ },
+ {
+  "id": "cathars-albigensians",
+  "atlasId": "IV.12",
+  "era": 5,
+  "name": "Cathars / Albigensians",
+  "dates": "c. 1143-1321",
+  "lane": "Non-Nicene Traditions",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "IV.12",
+    "id": "cathars-albigensians",
+    "era": 5,
+    "living": false,
+    "end": 1321,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "IV.5 argued against this [Documented] (IV.5 = The Dominican Order, 1216-1300)"
+  ],
+  "statusDescription": "Carries a named creedal question for a future survey to answer - stated as a question, not a verdict.",
+  "relationsSummary": "Target of a papal crusade from 1209 and then of the inquisition. Together these destroyed them.",
+  "why": "From the 1140s, communities in Languedoc with their own ministers and their own initiation rite taught that the visible material world was not the good God's making, a dualism that placed them outside the councils' Christianity. In 1209 the papacy launched a crusade against them, and at the siege of Montségur in 1244 roughly two hundred of their ministers walked into a fire rather than recant; the last known Languedoc perfect, Guillaume Bélibaste, was burned in 1321. Almost everything known about them comes from the people who destroyed them, and historians still argue over how much of 'Catharism' was ever a coherent movement at all.",
+  "legacy": "Nothing of the movement itself survived; it was extinguished, and no continuing community descends from it. What it left behind belongs mostly to the people who suppressed it. The Albigensian Crusade attached Languedoc to the French crown, and the papal inquisition was built in the 1230s largely to deal with this problem and then became a permanent institution that long outlived its original target. In the modern Languedoc the Cathars have been rediscovered as regional heritage, and ruined hilltop castles are marketed as 'Cathar country', though the ruins standing today are mostly later rebuildings and the popular picture of the movement owes as much to romantic reconstruction as to the sources."
+ },
+ {
+  "id": "joachimite-current",
+  "atlasId": "IV.13",
+  "era": 5,
+  "name": "Joachimite Current",
+  "dates": "1202-1300",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "IV.13",
+    "id": "joachimite-current",
+    "era": 5,
+    "living": false,
+    "end": 1300,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this influenced IV.4 [Documented] (IV.4 = The Franciscan Movement, 1209-1300)"
+  ],
+  "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+  "relationsSummary": "Where it took root in communities, they were those of the Franciscan Spirituals.",
+  "why": "Joachim of Fiore, a Calabrian abbot, read history as moving through three ages — of the Father, the Son and the Holy Spirit, with the third not far off — and died in 1202 before any of it arrived. The current his reading started spread especially among Franciscans, who saw their own movement described in it, until a 1254 book making the claim explicit was condemned and the current fixed on 1260 as the year the new age would open. When the year passed without incident, the expectation did not simply vanish — it fed into the bitter Franciscan quarrel over poverty that followed.",
+  "legacy": "No community descends from it. What the current left behind is a habit of mind. The idea that history moves in ages, toward a coming age of the Spirit, kept coming back in Western thought long after anyone read Joachim himself. It came back in Franciscan reform movements, in radical politics, and in modern talk of a 'third age' or a new spiritual era. Joachim was still honored enough that Dante placed him in paradise. His abbey at San Giovanni in Fiore still stands and still holds his remains."
+ },
+ {
+  "id": "free-spirit-heresy",
+  "atlasId": "IV.14",
+  "era": 5,
+  "name": "'Free Spirit' Heresy",
+  "dates": "13th-14th c.",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "IV.14",
+    "id": "free-spirit-heresy",
+    "era": 5,
+    "living": false,
+    "end": 1400,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "The record is genuinely disputed. This entry carries the question, not a verdict.",
+  "relationsSummary": "Beguine suppression used it as a charge",
+  "why": "In 1312 the Council of Vienne's decree Ad nostrum listed eight errors said to belong to beguines and beghards in Germany. Their core claim was that a soul made perfect in this life needs neither the church nor the virtues any longer. Interrogators then went looking for people who held them. They found them, often because the questions supplied the answers. Robert Lerner's 1972 study concluded that no organized sect of this kind ever existed. What existed was a wide spectrum of mystical piety, much of it among beguines and beghards. There was also a charge that could be laid against any part of it. Marguerite Porete's own book, once separated from the label, has since been read as a serious work of theology.",
+  "legacy": "Nothing continued, because there was most likely nothing there to continue. What the episode left behind is the charge itself, which stayed available for two centuries afterwards against mystical writing and against religious women living outside enclosure. It also left one of the clearest lessons in the historian's craft: that a heresy can be manufactured out of a decree, a questionnaire and enough pressure. Marguerite Porete's book, once separated from the label, has been read since the twentieth century as a serious work of theology."
+ },
+ {
+  "id": "the-georgian-golden-age",
+  "atlasId": "IV.15",
+  "era": 5,
+  "name": "The Georgian Golden Age",
+  "dates": "c. 1000-1245",
+  "lane": "Caucasus",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "georgian-revival-tao-klarjeti",
+    "atlasId": "III.20",
+    "confidence": "Inferential-Thin"
+   }
+  ],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "IV.15",
+    "id": "the-georgian-golden-age",
+    "era": 5,
+    "living": true,
+    "end": 1245,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "IV.6 influenced this [Inferential-Thin] (IV.6 = Athonite & Comnenian Byzantine Monasticism, c. 963-1300)"
+  ],
+  "statusDescription": "Tiered Viable, secondary (Tier 2) — chronicles, typika, hymnography and the Gelati material give it a moderate base; the Georgian-language editions are an access limit. Its window ends in 1245, Queen Rusudan's death and the Mongol tributary submission, not the round number 1250.",
+  "relationsSummary": "This is the Georgian church, carried on from the monastic revival of Tao-Klarjeti. Georgian monks still lived on Mount Athos, among the Byzantine houses there.",
+  "why": "David IV, called the Builder, broke the Seljuk hold on Georgia at the battle of Didgori in 1121 and founded the monastery of Gelati in 1106 as an academy where philosophy, astronomy and rhetoric were taught alongside the liturgy, with the Neoplatonist Ioane Petritsi among its scholars. Under his great-granddaughter Tamar the kingdom reached its widest extent, with frescoed churches and a literature of its own. The age ended not through decline but through conquest, closing with the Mongol submission and Queen Rusudan's death in 1245.",
+  "legacy": "The Georgian Orthodox Church is still the national church of Georgia, in a line running straight through this period. Gelati survives, with its twelfth-century mosaic of the Virgin and centuries of wall painting, and David the Builder is buried at its gate. What the age produced in Georgian — the chronicles, the hymnody, the translations made at Gelati, and beside them Rustaveli's great secular poem — remains the foundation of the national literature. The hymn traditionally attributed to King Demetre I, 'Thou Art a Vineyard', is still sung in Georgian churches and concert halls today."
+ },
+ {
+  "id": "serbian-and-bulgarian-medieval-monasticism",
+  "atlasId": "IV.16",
+  "era": 5,
+  "name": "Serbian & Bulgarian Medieval Monasticism",
+  "dates": "c. 1170-1396",
+  "lane": "Greek East & Orthodoxy",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "IV.16",
+    "id": "serbian-and-bulgarian-medieval-monasticism",
+    "era": 5,
+    "living": true,
+    "end": 1396,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "IV.6 gave rise to this [Dominant Modern Reconstruction] (IV.6 = Athonite & Comnenian Byzantine Monasticism, c. 963-1300)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1) on a moderate-to-rich base with a native genre of its own — the zhitija, or royal saints' lives — alongside typika and chrysobulls. The editions are non-English, an access limit. Its window ends in 1396, running 96 years past the era's close. That is the era's longest overhang, and whether an overhang that long should be capped remains an open question.",
+  "relationsSummary": "Serbian monastic life grew out of the monasteries of Mount Athos, where Sava was a monk and the Serbian house of Hilandar was founded. These churches may also have carried hesychast prayer into the Slavic lands, but no source here shows it.",
+  "why": "In 1196 the Serbian ruler Stefan Nemanja gave up his throne to become a monk. He joined his son Rastko, already a monk on Mount Athos as Sava, and together they founded the Serbian house of Hilandar. In 1219 Sava won a self-governing Serbian church and became its first archbishop. In Bulgaria a restored patriarchate at Tarnovo gathered its own school of writers around the cult of hermits like John of Rila. Both churches may have carried hesychast prayer from Greek into the Slavic world and on to Russia, though no source quoted here shows it.",
+  "legacy": "Both churches survive, as the Serbian and Bulgarian Orthodox Churches. So do their buildings, which are among the most visited in the region. Nemanja is buried at Studenica, and Rila is still Bulgaria's largest monastery. Hilandar is still one of the twenty ruling monasteries of Mount Athos. The legacy in books outran the politics. The Tarnovo school's revised Slavonic texts, with the hesychast prayer inside them, may have traveled north to shape the church in Russia. No source quoted here shows the way it went. The zhitija, the lives of the royal saints, are still founding texts of Serbian writing."
+ },
+ {
+  "id": "kievan-rus-christianity-1054-1240",
+  "atlasId": "IV.19",
+  "era": 5,
+  "name": "Kievan Rus' Christianity, 1054-1240",
+  "dates": "1054-1240",
+  "lane": "Greek East & Orthodoxy",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "kievan-rus-christianity",
+    "atlasId": "III.8",
+    "confidence": "Inferential-Thin"
+   }
+  ],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "IV.19",
+    "id": "kievan-rus-christianity-1054-1240",
+    "era": 5,
+    "living": false,
+    "end": 1240,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "III.6 influenced this [Dominant Modern Reconstruction] (III.6 = Iconophile Byzantine Monasticism, 726-843)",
+   "IV.6 influenced this [Inferential-Thin] (IV.6 = Athonite & Comnenian Byzantine Monasticism, c. 963-1300)",
+   "this gave rise to V.8 [Documented] (V.8 = Muscovite Monastic Christianity, c. 1340-1517)"
+  ],
+  "statusDescription": "Proposed for a future survey; not yet reviewed.",
+  "relationsSummary": "A continuation of Rus' Christianity's first generations, centered on the Kyiv Caves Monastery, with native-born metropolitans appearing alongside the usual Greek ones sent from Constantinople. It ended with the Mongol sack of Kyiv in 1240.",
+  "why": "In the two centuries after Yaroslav the Wise died in 1054, the Kyiv Caves Monastery grew from a hermit's hillside cave — dug by Anthony — into a community under its abbot Theodosius, who gave it a Byzantine rule built on humility, manual work and care for the poor. Out of that monastery came bishops, chronicles and a native literature, even though the church was formally headed by Greek metropolitans sent from Constantinople. It ended abruptly when the Mongols sacked Kyiv in 1240.",
+  "legacy": "The Caves Monastery survived the sack and is still there. Today it is the Kyiv Pechersk Lavra, with underground passages full of relics, and one of the great monasteries of the Orthodox world. In our own century it is also claimed by rival Ukrainian churches. The writings this church left, above all the Primary Chronicle, are the founding record of East Slavic history. Boris and Gleb, princes honored as saints because they did not fight back, set a pattern of holiness of their own among the Slavs. Who inherits Kyiv's legacy — Kyiv, Moscow, or both — is a live political question to this day. The century of Mongol rule after 1240 left few records. What ran through it was the see of the metropolitan. It moved north to Vladimir and then to Moscow, and Moscow later claimed Kyiv's legacy as its own."
+ },
+ {
+  "id": "syriac-renaissance",
+  "atlasId": "IV.21",
+  "era": 5,
+  "name": "The Syriac Renaissance",
+  "dates": "1054-1300",
+  "lane": "Syriac East & Asia",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "syriac-orthodox-under-islam",
+    "atlasId": "III.17",
+    "confidence": "Documented"
+   }
+  ],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "IV.21",
+    "id": "syriac-renaissance",
+    "era": 5,
+    "living": false,
+    "end": 1300,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "II.2 influenced this [Documented] (II.2 = Syriac Orthodox (West Syriac) Christianity, 451-636)"
+  ],
+  "statusDescription": "Proposed for a future survey; not yet reviewed.",
+  "relationsSummary": "The West Syriac church's intellectual summit, reached under Muslim rule and during the crusader period. A later medieval decline followed.",
+  "why": "Living under Muslim rule, and for a while alongside the crusader states, the Syriac Orthodox Church produced its best writing in four hundred years in this period. Michael the Syrian, patriarch from 1166, compiled a world chronicle that quotes at length from earlier writers whose own books are otherwise lost, while Dionysius bar Salibi commented on the whole Bible and the liturgy. Gregory Bar Hebraeus, who died in 1286, wrote across history, theology, canon law, grammar, astronomy and medicine in both Syriac and Arabic, while serving as his church's chief bishop for the eastern provinces under Mongol rule.",
+  "legacy": "The Syriac Orthodox Church lives on today, with its patriarch now in Damascus and a large community abroad. The books written here are still read. Michael's chronicle and Bar Hebraeus's histories remain primary sources for anyone who studies the medieval Middle East. Bar Hebraeus also wrote a book of church law and a grammar of Syriac. Scholars see this period as the last great flowering of Syriac writing before a long decline."
+ },
+ {
+  "id": "the-carmelites",
+  "atlasId": "IV.23",
+  "era": 5,
+  "name": "The Carmelites",
+  "dates": "c. 1206-1300",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "IV.23",
+    "id": "the-carmelites",
+    "era": 5,
+    "living": false,
+    "end": 1300,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "IV.5 influenced this [Inferential-Thin] (IV.5 = The Dominican Order, 1216-1300)"
+  ],
+  "statusDescription": "Proposed for a future survey; not yet reviewed.",
+  "relationsSummary": "One of the mendicant orders alongside the Franciscans and Dominicans: hermits on Mount Carmel who received a rule of life from Albert, patriarch of Jerusalem, later approved as a formal Rule in 1247, after migrating west in the 1230s and 1240s as the crusader states contracted.",
+  "why": "Between 1206 and 1214, hermits living in a wadi on Mount Carmel asked Albert, the patriarch of Jerusalem, for a written way of life, and what he gave them was short and severe: separate cells, silence, work, daily Mass and constant meditation on the law of the Lord. As the crusader states contracted, the hermits moved into England, France and Italy, where their rule was adapted into a mendicant order and approved by Innocent IV in 1247. They kept the mountain in their name and, in later retellings, traced their origins all the way back to the prophet Elijah.",
+  "legacy": "The Carmelites are still here, and their greatest period was still ahead of them. The sixteenth-century Spanish reform that produced Teresa of Ávila and John of the Cross grew directly out of this rule, and their writings became the standard vocabulary of Western contemplative prayer. The brown scapular, one of the most widespread Catholic devotional objects, comes from the order. Though the story of its being handed to Simon Stock in a vision is a later legend rather than documented history. Albert's Rule itself remains the order's foundation text, one of the shortest and most durable religious rules in the Western church."
+ },
+ {
+  "id": "balkan-bogomil-continuation",
+  "atlasId": "IV.24",
+  "era": 5,
+  "name": "Balkan Bogomilism, 1054-1300",
+  "dates": "1054-1300",
+  "lane": "Non-Nicene Traditions",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "bogomils",
+    "atlasId": "III.13",
+    "confidence": "Dominant Modern Reconstruction"
+   }
+  ],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "IV.24",
+    "id": "balkan-bogomil-continuation",
+    "era": 5,
+    "living": false,
+    "end": 1300,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Proposed for a future survey, as the entry that carries an earlier register forward - the movement demonstrably continues; not yet reviewed.",
+  "relationsSummary": "A continuation of an earlier Bogomil current: Basil burned in the Hippodrome under Alexios I, Zigabenos wrote against them, Tarnovo anathematized them in 1211; claimed parent of the Cathars - a claim, not an established line of descent.",
+  "why": "By this period the Bogomils, who began in tenth-century Bulgaria, held no church buildings, no clergy in the ordinary sense and no sacraments as the wider church understood them, teaching that the material world and the visible church alike belonged to an evil power. Around 1100 the emperor Alexios I had a Bogomil teacher named Basil brought to Constantinople, drew out his beliefs by pretending to be a convert, and had him burned in the Hippodrome — a story his daughter Anna Komnene tells, and which the theologian Euthymios Zigabenos was commissioned to write up for refutation. A synod at Tarnovo anathematized them again in 1211, and not one line survives that a Bogomil wrote about themselves.",
+  "legacy": "Nothing continued, and almost nothing remains — no buildings, no books, no descendants. Their long afterlife is instead an argument. Medieval writers, and many modern ones, have treated the Bogomils as the source of the Western dualist movements, the Cathars especially, and the English word 'bugger' descends by way of 'Bulgar' from that association. Whether any actual line of transmission ran from the Balkans to Languedoc is disputed and probably unprovable. The Bosnian Church, often bundled in with them in older accounts, is now generally handled by scholars as a separate question."
+ },
+ {
+  "id": "latin-church-of-outremer",
+  "atlasId": "IV.25",
+  "era": 5,
+  "name": "The Latin Church of Outremer",
+  "dates": "1099-1291",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "IV.25",
+    "id": "latin-church-of-outremer",
+    "era": 5,
+    "living": false,
+    "end": 1291,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this in contact with IV.10 [Dominant Modern Reconstruction] (IV.10 = Maronite Christianity, c. 1100-1300)"
+  ],
+  "statusDescription": "Proposed for a future survey; not yet reviewed.",
+  "relationsSummary": "A transplanted Latin church with its own hierarchy. Latin patriarchs ruled at Jerusalem from 1099 and at Antioch, where the Greek patriarch withdrew about 1100 and a later one was thrown out in 1170. The Schism lived on the ground. The patriarchate moved to Acre in 1187 and fell with it in 1291.",
+  "why": "When the First Crusade took Jerusalem in 1099, the conquerors built a whole Latin church on top of an older Christian landscape. A Latin patriarch took the see. The canons of the Holy Sepulchre stood at its center, with a liturgy shaped by processions to the holy places themselves. Most of the people it ruled were not Latin. They were Greek, Syriac, Armenian and Muslim. Its dealings with them ran from workable peace to outright dispossession. When Jerusalem was lost in 1187 the patriarchate moved to Acre. When Acre fell in 1291, the church of Outremer ended with it.",
+  "legacy": "It left no lasting church in the East. When Acre fell, the Latin patriarch of Jerusalem kept the title but lost the diocese. It stayed that way for more than five centuries, until the see came back to life in 1847. What survived instead is stone and story. The church of the Holy Sepulchre, largely rebuilt in this period, is mostly the building pilgrims enter today. Crusader castles and churches from Acre to Cyprus are among the best-kept medieval buildings in the region. William of Tyre's history became the standard Western account of the crusades for centuries. Eastern Christians remembered Outremer in different ways, and that memory is part of the legacy too. A Syriac chronicle tells how the Latins threw a Greek patriarch out of Antioch. An Armenian history recalls how the Franks of Jerusalem made their bond with the Armenians stronger than ever."
+ },
+ {
+  "id": "the-humiliati",
+  "atlasId": "IV.27",
+  "era": 5,
+  "name": "The Humiliati",
+  "dates": "c. 1170-1300",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "IV.27",
+    "id": "the-humiliati",
+    "era": 5,
+    "living": false,
+    "end": 1300,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Proposed for a future survey; not yet reviewed.",
+  "relationsSummary": "Lay wool-workers who lived a life of penance. Later writers say they were condemned with the Waldensians in 1184, and then taken back into the church. If so, they are the Waldensians' mirror image: the same condemnation, the opposite outcome.",
+  "why": "In twelfth-century Lombardy, lay wool-workers and weavers took up plain dress and work with their hands. They refused the oaths and violence that feudal society expected, and called themselves the Humiliati, 'the humbled ones.' Later writers say they were condemned with the Waldensians in 1184 for preaching without leave. If so, they then took the opposite path. Pope Innocent III took them back around 1200 and made them three orders. Two were religious. The third was for married lay people who stayed in ordinary working life. They were a real presence in the towns of northern Italy for about two centuries. In 1571 a papal bull shut down the order of Humiliati brothers.",
+  "legacy": "No clear record survives of their lasting influence beyond their own two centuries. In 1571 a papal bull shut down the brothers' order, and with it the movement mostly lost its own identity. Some houses of Humiliati nuns lived on."
+ },
+ {
+  "id": "the-english-mystics-and-devout",
+  "atlasId": "V.1",
+  "era": 6,
+  "name": "The English Mystics and Devout",
+  "dates": "c. 1330-1440",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "V.1",
+    "id": "the-english-mystics-and-devout",
+    "era": 6,
+    "living": false,
+    "end": 1440,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "IV.1 influenced this [Documented] (IV.1 = Cistercian Monasticism, 1098-1300)",
+   "IV.2 influenced this [Inferential-Thin] (IV.2 = Carthusian Life, 1084 onward)",
+   "this influenced VI.7 [Documented] (VI.7 = Recusant English Catholicism, 1559-1650)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1) — rich, first-person and vernacular, carrying two women's voices; Margery Kempe's Book may be the atlas's best ordinary-believer document. Its window ends c. 1440, when the corpus's last major document was completed.",
+  "relationsSummary": "These writers drew on Bernard and on the canons of Saint Victor. Later, Carthusian monks and English Catholics in exile copied and kept their books.",
+  "why": "Julian of Norwich lived for decades shut in a cell beside a Norwich church. She kept on reworking her account of sixteen revelations. In the end it reached the line she is still known for: that all shall be well. Margery Kempe, a mother of fourteen, could not write. She told scribes a book about her pilgrimages, her weeping in public that she could not stop, and the questioning for heresy she came through. Julian's longer book was first printed in 1670, by an English monk named Serenus Cressy.",
+  "legacy": "The writings outlived their authors by way of a long silence. Margery Kempe's Book was known only from a few short printed extracts. Then, in 1934, the one surviving copy turned up in a family's private library. Julian's book lived on in just a handful of copies until Serenus Cressy printed it in 1670. Most people came to read it only in the twentieth century. Both are now among the most read of all medieval English religious books. Julian is remembered each May in the Church of England's calendar. Julian's cell was pulled down centuries ago. Its footings were found after bombing in the war, and the cell was built again. Once more it is a place people travel to pray in."
+ },
+ {
+  "id": "rhineland-mysticism-and-the-friends-of-god",
+  "atlasId": "V.2",
+  "era": 6,
+  "name": "Rhineland Mysticism & the Friends of God",
+  "dates": "c. 1300-1400",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "V.2",
+    "id": "rhineland-mysticism-and-the-friends-of-god",
+    "era": 6,
+    "living": false,
+    "end": 1400,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "IV.5 gave rise to this [Documented] (IV.5 = The Dominican Order, 1216-1300)",
+   "this influenced VI.1 [Documented] (VI.1 = Lutheran Wittenberg & Its Congregations, 1517-1580)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1) on a rich base of sermons and sister-books, with one nuance worth care. The sermons survive 'as delivered' only through listeners' transcripts, and the sister-books are collective women's memory rather than individual witness. Eckhart's condemnation stays, as its note on the doctrinal floor holds, an intra-Catholic language contest, carried rather than resolved.",
+  "relationsSummary": "Dominican line; feeds Devotio Moderna and (via Theologia Deutsch) Luther",
+  "why": "Dominican preachers here had to invent a German vocabulary for the inner life, one the language did not yet have. Meister Eckhart pushed it furthest. He spoke of a 'birth of God' within the soul, in terms that got him tried for heresy. After his death a papal bull condemned his teaching. Much of what survives does so because nuns wrote sermons down as they were preached, and wrote their own convents' sister-books. Out of the same circle came the Theologia Deutsch. Martin Luther printed it twice. He said it had taught him more about God than almost anything but the Bible and Augustine.",
+  "legacy": "Its influence ran far past its own century. In the Low Countries, the Devotio Moderna honored Henry Suso and drew on his books. The Theologia Deutsch reached Martin Luther, who printed it twice: a partial text in 1516 and a fuller one in 1518. He wrote that apart from the Bible and Augustine, no book had taught him more about God, Christ and man. Tauler's sermons went on being read by Catholics and Protestants alike for centuries. Eckhart, condemned after his death, was rediscovered in the nineteenth century. Since then philosophers, theologians and religious writers have read him, far outside the church that condemned him."
+ },
+ {
+  "id": "devotio-moderna-brethren-of-the-common-life",
+  "atlasId": "V.3",
+  "era": 6,
+  "name": "Devotio Moderna / Brethren of the Common Life",
+  "dates": "c. 1380-1517",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "V.3",
+    "id": "devotio-moderna-brethren-of-the-common-life",
+    "era": 6,
+    "living": false,
+    "end": 1517,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this influenced VI.11 [Documented] (VI.11 = The Society of Jesus, 1540-1650)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1) on a rich base — customaries, the brothers' and sisters' lives, rapiaria and the Imitation. It is also a rare both-directions ancestor, feeding Luther's schooling and Jesuit pedagogy alike. Its window ends in 1517, not the round number 1500, since its houses ran into the sixteenth century and dissolved under the Reformation.",
+  "relationsSummary": "Its Imitation of Christ shaped Jesuit prayer, and its schools taught Erasmus. A tie to Luther's schooling is uncertain.",
+  "why": "Geert Grote gave up a rich career to gather devout men and women into shared homes. They lived in common without ever taking vows, and paid their way by copying books by hand. Each kept a private notebook of passages to return to, called a rapiarium. That habit produced the Imitation of Christ, the most copied Christian book after the Bible. It is credited to Thomas à Kempis, though its authorship is disputed. Their schools shaped Erasmus. Ignatius of Loyola, who founded the Jesuits, kept the Imitation on his desk. His Spiritual Exercises tell those who make them to read it.",
+  "legacy": "The Imitation of Christ never stopped being read. After the Bible it is the most copied and printed Christian book of the era. It is still in print in dozens of languages. The movement's schools shaped people who then went in opposite directions. Erasmus was educated at Deventer. Luther may have spent a school year at Magdeburg in a house linked with the Brethren, but the tie is unsure. A century after the Imitation was written, Ignatius of Loyola kept it on his desk. His Spiritual Exercises tell those who make them to read it. The houses themselves did not outlast the century they helped bring about. Most closed during the Reformation."
+ },
+ {
+  "id": "hesychasm-and-the-palamite-synthesis",
+  "atlasId": "V.4",
+  "era": 6,
+  "name": "Hesychasm & the Palamite Synthesis",
+  "dates": "c. 1300-1400",
+  "lane": "Greek East & Orthodoxy",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "V.4",
+    "id": "hesychasm-and-the-palamite-synthesis",
+    "era": 6,
+    "living": true,
+    "end": 1400,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "IV.6 influenced this [Documented] (IV.6 = Athonite & Comnenian Byzantine Monasticism, c. 963-1300)",
+   "this influenced VII.8 [Documented] (VII.8 = The Hesychast Revival - Paisius & the Philokalia, 1746-1815)",
+   "this influenced V.8 [Documented] (V.8 = Muscovite Monastic Christianity, c. 1340-1517)",
+   "this influenced VIII.11 [Documented] (VIII.11 = The Optina Elders & Russian Ascetic Renewal, 1821-1906)"
+  ],
+  "statusDescription": "Tiered Viable, secondary (Tier 2) — theologically rich in Palamas's Triads, the synodal tomoi and Cabasilas as a lay-facing formation voice. It is narrower in communal texture than this era's strongest entries. Its institutional side belongs with the Palaiologan patriarchal entry, and it succeeds from the Athonite entry as a direct continuation.",
+  "relationsSummary": "Heir of the Athonite line. Its writings fed the Philokalia of the 1700s, which the Optina elders took up in the 1800s.",
+  "why": "Monks on Mount Athos practiced hesychia, or stillness. They sat in silence and repeated the Jesus Prayer, and some said they saw an uncreated light. The scholar Barlaam mocked the practice. Gregory Palamas defended it. God cannot be known in his essence, he argued, yet he is truly given in his energies. Church councils upheld his case between 1341 and 1351. Beside the monks, the layman Nicholas Cabasilas wrote The Life in Christ. He showed that the same life in God reached people who would never enter a monastery.",
+  "legacy": "It became, and remains, the mainstream of Orthodox theology and prayer. Palamas was declared a saint in 1368. The second Sunday of Great Lent is still kept in his memory across the Orthodox world. In 1782 the writings of its masters were gathered into one book, the Philokalia, and printed at Venice. Paisius Velichkovsky, an elder in Moldavia, put Palamas on prayer into Slavonic. In the 1800s the monks of Optina printed his work for Russian readers. Today many people pray the Jesus Prayer who have never heard of the old quarrel that defended it."
+ },
+ {
+  "id": "lollardy",
+  "atlasId": "V.5",
+  "era": 6,
+  "name": "Lollardy",
+  "dates": "c. 1380-1520",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "V.5",
+    "id": "lollardy",
+    "era": 6,
+    "living": false,
+    "end": 1520,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this influenced V.6 [Widely Accepted] (V.6 = The Hussite & Bohemian Brethren Movement, 1402-1517)",
+   "this influenced VI.4 [Documented] (VI.4 = The English Reformation & Elizabethan Settlement, 1530s-1650)"
+  ],
+  "statusDescription": "Tiered Viable, secondary (Tier 2) on an honest mix of sourcing — hostile trial records that nonetheless preserve ordinary artisans' and women's own stated beliefs, alongside real internal texts. Its note on the doctrinal floor asks whether the beliefs recorded are really the founder's own. Checked here, they clear it: the movement outgrew Wycliffe, and the beliefs the records preserve are scripture-centered rather than Wycliffe-centered.",
+  "relationsSummary": "Later English Protestants claimed the Lollards as their own. How far the Lollards fed the English break with Rome is still argued.",
+  "why": "Lollardy began with John Wycliffe, a scholar at Oxford. He attacked the wealth of the church and the power of the pope. His teaching grew into a movement carried mainly by ordinary people. Weavers, smiths, tailors, wives and widows met in each other's houses to read the Bible aloud in English. In 1401 England made burning the law for heresy. After a failed rising in 1414, the movement was driven underground. Yet the trial records made to convict Lollards ended up keeping some of the fullest accounts of what ordinary believers of the time thought. Around two hundred and fifty handwritten copies of the Wycliffite Bible still survive. That is more than of any other Middle English text.",
+  "legacy": "Historians still argue over whether Lollardy fed straight into the English Reformation. What is not in doubt is that Lollard households were still on trial in the 1520s. In 1521 the bishop of Lincoln questioned many around Amersham in Buckinghamshire. Some had learned from Wyclif's Wicket, a short English tract on the sacrament. The Protestant writer John Foxe said this was before Luther's name was heard there. The movement's most solid survival is its books. Around two hundred and fifty handwritten copies of the Wycliffite Bible still exist, more than of any other Middle English text. It is a strange sort of monument for a movement its enemies thought they had stamped out."
+ },
+ {
+  "id": "the-hussite-and-bohemian-brethren-movement",
+  "atlasId": "V.6",
+  "era": 6,
+  "name": "The Hussite & Bohemian Brethren Movement",
+  "dates": "1402-1517",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [
+   {
+    "id": "czech-churches-last-century",
+    "atlasId": "VI.24",
+    "living": false,
+    "confidence": "Documented"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.24",
+    "id": "czech-churches-last-century",
+    "era": 7,
+    "living": false,
+    "end": 1627,
+    "weakestLink": "Documented"
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this influenced VI.1 [Documented] (VI.1 = Lutheran Wittenberg & Its Congregations, 1517-1580)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1), and unique as a functioning non-Roman national church a century before Luther. Its Prague formation (1402–14) precedes Hus's burning; its renewal line runs forward to the Moravians at Herrnhut. Its Unitas segment still wants a later entry to carry it forward.",
+  "relationsSummary": "A working non-Roman national church a century before Luther. It took shape in Prague between 1402 and 1414, before Hus was burned. Hus drew heavily on the books of John Wyclif, the English thinker whose teaching also began Lollardy. Its stricter branch, the Unity of the Brethren, lived on into the 1600s. It was later renewed as the Moravian Church at Herrnhut in Saxony.",
+  "why": "Jan Hus preached reform in Czech for over ten years. Then in 1415 he was burned as a heretic. The shock turned a movement of the university into one of the whole nation. It was built around one demand: that ordinary lay people, not only priests, should receive the wine at communion. Hussite armies beat back crusade after crusade. In 1436 Bohemia won what no other medieval dissent ever had: legal recognition for its own church. A stricter branch, the Unity of the Brethren, was pacifist. By 1501 it had printed what is often called the first hymnbook in a European vernacular.",
+  "legacy": "It did not end in 1517. The Utraquist church and the Unity of the Brethren went on as Bohemia's non-Roman churches for another full century. They produced the Kralice Bible. Their last bishop, Jan Amos Comenius, became one of Europe's great reformers of schooling. Then the Habsburg crackdown of the 1620s drove them into exile. Remnants of the Unity lived on in secret and came back to light in 1722 at Herrnhut in Saxony, as the Moravian Church. That church still exists worldwide. In Bohemia the memory never went away. 6 July, the day Hus was burned, is a public holiday in the Czech Republic. And in 1520 Luther wrote that he had not yet found any errors in Hus's writings."
+ },
+ {
+  "id": "the-ethiopian-monastic-flowering",
+  "atlasId": "V.7",
+  "era": 6,
+  "name": "The Ethiopian Monastic Flowering",
+  "dates": "c. 1270-1517",
+  "lane": "Africa",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "zagwe-and-early-solomonic-ethiopian-christianity",
+    "atlasId": "IV.9",
+    "confidence": "Documented"
+   }
+  ],
+  "successors": [
+   {
+    "id": "ethiopian-christianity-gragn-to-fasilides",
+    "atlasId": "VI.25",
+    "living": true,
+    "confidence": "Documented"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.25",
+    "id": "ethiopian-christianity-gragn-to-fasilides",
+    "era": 7,
+    "living": true,
+    "end": 1650,
+    "weakestLink": "Documented"
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Tiered Strong (Tier 1), the atlas's strongest non-European medieval candidate on its own record — royal chronicles and saints' lives in quantity. Its royal sponsorship is a real condition on the sources, stated here rather than passed over. One nuance: Zara Yaqob's own writings are simultaneously an inside voice and a persecutor's voice toward the Estifanosites. Its window ends in 1517; the real break, the Gragn war, belongs to the next era.",
+  "relationsSummary": "This is the old Christian faith of Aksum and of the Zagwe kings. It was carried on under a new royal line, the Solomonic dynasty.",
+  "why": "In 1270 the Solomonic dynasty took the Ethiopian throne, and a wave of monks came with it. Tekle Haymanot and the followers of Ewostatewos led them, and they carried churches deep into newly won lands. The Ewostathians kept Saturday as well as Sunday as a Sabbath. The lives of their own saints say they were persecuted for it for generations. Then, at a council in 1450, the emperor Zara Yaqob gave way. His court chronicle says he ordered the old Sabbath kept as holy as Sunday. The same emperor wrote books of theology. He persecuted the monks of Estifanos when they refused to bow before Mary and the cross. It was all written down in Ge'ez: royal chronicles, saints' lives, hymns to Mary, and the Kebra Nagast. That book gave the dynasty its claim to come down from Solomon and Sheba.",
+  "legacy": "This is a living church. The Ethiopian Orthodox Tewahedo Church still keeps the outcome of the Sabbath argument. It still sings the hymns to Mary that Zara Yaqob's reign promoted, and it still worships in Ge'ez. Its great monasteries still trace themselves to the founders of these centuries. The manuscripts of the period include painted gospel books, gadl lives of the saints, and collections of hymns. Together they form one of the largest bodies of medieval Christian writing made outside Europe. The tradition came through the wars and upheavals of the next century. It lives on in today's church of tens of millions of members."
+ },
+ {
+  "id": "observant-reform-and-popular-preaching",
+  "atlasId": "V.9",
+  "era": 6,
+  "name": "Observant Reform & Popular Preaching",
+  "dates": "c. 1368-1517",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "V.9",
+    "id": "observant-reform-and-popular-preaching",
+    "era": 6,
+    "living": false,
+    "end": 1517,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "IV.4 influenced this [Documented] (IV.4 = The Franciscan Movement, 1209-1300)"
+  ],
+  "statusDescription": "Tiered Viable, secondary (Tier 2) on Bernardino's sermon-cycles taken down as spoken; the 1427 cycle has no complete English translation, an access limit. It is multi-founder and multi-order, its legitimacy resting on the Rule strictly observed - a test Savonarola alone would fail. Its window runs c. 1368 (Brugliano) to 1517 (Ite vos).",
+  "relationsSummary": "A reform of the friars' orders that began inside the Franciscan order in 1368 and spread to other orders. In Spain it worked against the background of the converso crisis, from the pogroms of 1391 to the expulsion of 1492.",
+  "why": "The Observance began small. In 1368 Paoluccio Trinci and a handful of friars kept the Rule strictly at Brugliano. Then it spread across the Franciscans, Dominicans, Augustinians and Benedictines alike. Its public face was preaching to great crowds. In 1427 Bernardino of Siena gave forty-five sermons, and a listener in the crowd took them down as he spoke, asides and all. It is about as close as anyone gets to hearing a medieval sermon, not just reading one. What it left is mixed. It left the low-interest pawn-banks called monti di pietà, which still trade today. But John of Capistrano also drove the persecution of Jewish communities. In 1447 the pope made him enforcer of the papal laws restricting Jews and Muslims in Italy. The most notorious case was at Breslau in 1453, where Jews were burned.",
+  "legacy": "The Observance won. When Leo X divided the Franciscans in 1517, the Observants took the order's leadership. By the 1560s the Capuchins stood beside them. The Council of Trent then let other friars own land and buildings, but not these two. The same pattern of reformed against unreformed shaped the Dominicans and Augustinians too. Two smaller things passed into ordinary use and outlived the movement. One is the monti di pietà, low-interest town pawn-banks that Observant friars promoted from the 1460s as an answer to ruinous lending. The one founded at Siena in 1472 still trades as a bank today. The other is the radiant IHS monogram that Bernardino held up at the end of his sermons. It became a fixture of Catholic devotional art."
+ },
+ {
+  "id": "late-medieval-lay-parish-piety",
+  "atlasId": "V.10",
+  "era": 6,
+  "name": "Late-Medieval Lay Parish Piety",
+  "dates": "c. 1400-1517",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "V.10",
+    "id": "late-medieval-lay-parish-piety",
+    "era": 6,
+    "living": false,
+    "end": 1517,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VI.4 argued against this [Documented] (VI.4 = The English Reformation & Elizabethan Settlement, 1530s-1650)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1) for reaching the constituency every other tradition reaches only at its edges. The evidence is rich but oblique — churchwardens' accounts, wills and primers show practice more than interior voice. Its link to Borromean Milan is exemplar, not a direct succession: a 43-year gap and a region jump separate them.",
+  "relationsSummary": "This is the faith of ordinary lay people, lived day by day. Most other traditions touch it only at the edges. A generation later, something like it was built again in Milan, in the parish life led by Carlo Borromeo.",
+  "why": "For most people in late-medieval England, Christianity was the parish. It was the mass seen from the nave and the guild joined. It was the light paid for before an image, and the church ale that funded the roof. Ordinary laymen elected as churchwardens managed the money. On their own initiative they rebuilt naves, raised towers and hired carvers. Cheap printed books of hours put the same daily prayers into any household that could afford them. Almost none of these people wrote about what they believed. What survives instead is the record of what they did with their money and their time.",
+  "legacy": "Much of it is still standing. In these decades the great parish churches of East Anglia, the Cotswolds and the West Country were built or rebuilt. Ordinary people paid for them. Their towers, painted screens and carved roofs are the largest things left anywhere of lay religion in the late Middle Ages. Most of the rest was taken apart on purpose. The English Reformation abolished the guilds and chantries. It whitewashed the paintings and broke up the images. So much of what is known of the old practice comes from accounts. They record first what was bought, and then how it was destroyed. Something like it was built again elsewhere. A generation later, the parish-centered faith of Carlo Borromeo's Milan ran on the same instincts under very different rules."
+ },
+ {
+  "id": "taborite-radicalism",
+  "atlasId": "V.11",
+  "era": 6,
+  "name": "Taborite Radicalism",
+  "dates": "1420-1452",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "V.11",
+    "id": "taborite-radicalism",
+    "era": 6,
+    "living": false,
+    "end": 1452,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "V.6 gave rise to this [Documented] (V.6 = The Hussite & Bohemian Brethren Movement, 1402-1517)",
+   "V.6 argued against this [Documented] (V.6 = The Hussite & Bohemian Brethren Movement, 1402-1517)"
+  ],
+  "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+  "relationsSummary": "The radical wing of the Hussite movement.",
+  "why": "In 1420 the most radical wing of the Hussite movement built a fortified town in southern Bohemia. They named it Tabor after the mountain of the Transfiguration, and expected Christ to return at any moment. When the world did not end, the community stayed. It stripped worship down to what it could find in scripture: no vestments, no purgatory, no cult of saints. For a time it held property in common under its own chosen bishop. Its wagon-fort armies broke crusade after crusade. Then, at Lipany in 1434, an alliance led by moderate Hussites destroyed the Taborite forces.",
+  "legacy": "As a church, nothing continued: Tabor's worship and its community of goods ended with its surrender. Under Jan Žižka its armies made the armed wagon fort the great weapon of the Hussite wars. Petr Chelčický, the lay thinker behind the Unity of the Brethren, held that all bloodshed is sin. The horrors of the Hussite wars may have hardened that belief. The Unity, founded a few years after Tabor's fall, chose to defend itself by prayer, not by arms as the Hussites had done. The town itself is still there."
+ },
+ {
+  "id": "fraticelli-spiritual-franciscan-rigorists",
+  "atlasId": "V.12",
+  "era": 6,
+  "name": "Fraticelli (Spiritual Franciscan rigorists)",
+  "dates": "14th-15th c.",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "V.12",
+    "id": "fraticelli-spiritual-franciscan-rigorists",
+    "era": 6,
+    "living": false,
+    "end": 1466,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "IV.4 gave rise to this [Documented] (IV.4 = The Franciscan Movement, 1209-1300)"
+  ],
+  "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+  "relationsSummary": "Rupture inside the Franciscan family",
+  "why": "Pope John XXII ordered the strictest Franciscans to give up their stand on absolute poverty. Four who refused were burned at Marseille in 1318. In 1323 he declared it heretical to insist that Christ and the apostles had owned nothing at all. Those who still would not submit were called fraticelli. They lasted another century and a half in scattered communities across Italy and Provence. Lay friends kept them going, among them the beguins of Languedoc, who honored the burned friars as martyrs and were hunted for it in turn. After a public penance at Rome in 1467, they fade from sight.",
+  "legacy": "No community survived and no church descends from them. What survived was the argument. The poverty quarrel pushed both sides to work out what it means to own a thing, to use it, and to have a right to it. The friars who fled the papal court over it, William of Ockham among them, turned the quarrel into political thought. It also left the beguins of Languedoc, known now almost wholly through the questioning that destroyed them. And it left the poverty question itself. That question kept coming back inside the Franciscan family each time it reformed."
+ },
+ {
+  "id": "inquisition-record-sects-adamites-and-kin",
+  "atlasId": "V.13",
+  "era": 6,
+  "name": "Inquisition-Record 'Sects' (Adamites and kin)",
+  "dates": "14th-15th c.",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "V.13",
+    "id": "inquisition-record-sects-adamites-and-kin",
+    "era": 6,
+    "living": false,
+    "end": 1500,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "The record is genuinely disputed. This entry carries the question, not a verdict.",
+  "relationsSummary": "These groups are known only from those who condemned them. The Taborites wiped out the Adamites in 1421.",
+  "why": "The Bohemian Adamites of 1421 left no voice of their own. Hostile chronicles describe them as a naked band on an island, who shared everything and waited for the end of the world. The Taborites wiped them out. The 'heresy of the Free Spirit' in Germany is a parallel case. Some of these people were certainly real. What they are recorded as believing may say more about their enemies than about them.",
+  "legacy": "Nothing institutional survives. In some cases there may have been nothing to survive, since several of these 'sects' may never have existed in the form the records describe. What they left instead is a warning that historians now take seriously. A sure, detailed list of what a group believed can come from the way it was made, and not from anybody's faith."
+ },
+ {
+  "id": "waldensians-in-the-alps",
+  "atlasId": "V.16",
+  "era": 6,
+  "name": "The Waldensians in the Alps",
+  "dates": "1300-1517",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "the-waldensians",
+    "atlasId": "IV.8",
+    "confidence": "Widely Accepted"
+   }
+  ],
+  "successors": [
+   {
+    "id": "the-waldensian-reformed-union",
+    "atlasId": "VI.10",
+    "living": true,
+    "confidence": "Contested"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.10",
+    "id": "the-waldensian-reformed-union",
+    "era": 7,
+    "living": true,
+    "end": 1655,
+    "weakestLink": "Contested"
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Proposed for a future survey, carrying an earlier Waldensian entry forward — an inherited thread that cannot simply be dropped. Not yet reviewed.",
+  "relationsSummary": "These were scattered communities. The barbes, lay preachers who went on foot, linked them together. They lived through Pope Innocent VIII's call to crusade in 1487, and the Cattaneo crusade that came after it. This thread leads to the Synod of Chanforan in 1532. There the Waldensians formally joined the Reformation.",
+  "why": "A century after they were condemned, the Waldensians had become something no medieval dissent was supposed to be. They were a lasting, organized church, kept out of sight. In public its members lived as Catholics of their parish, and in private as something else. The barbes held it together. They were preachers who went from place to place in pairs. They knew long parts of the Bible by heart in their own tongue. They carried small books copied by hand on a round of scattered households across the Alps. They survived a crusade Pope Innocent VIII called against them in 1487. In 1532 they joined the Protestant Reformation outright.",
+  "legacy": "They are one of the very few medieval dissenting movements still here. In 1532 the Waldensians of the Alps met at Chanforan in the Angrogna valley and joined the Protestant Reformation. The church that came out of it still exists as the Waldensian Evangelical Church. It is based in the same valleys. The valleys keep the memory alive in place names, in caves and hidden meeting places, and in museums the church runs."
+ },
+ {
+  "id": "terminal-christian-nubia",
+  "atlasId": "V.18",
+  "era": 6,
+  "name": "Terminal Christian Nubia (Late Makuria and Dotawo)",
+  "dates": "1054-c. 1484",
+  "lane": "Africa",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "makurian-nubian-christianity",
+    "atlasId": "III.18",
+    "confidence": "Documented"
+   }
+  ],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "V.18",
+    "id": "terminal-christian-nubia",
+    "era": 6,
+    "living": false,
+    "end": 1484,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Proposed for a future survey, as the entry that closes out an earlier one; which era it belongs to is still an open placement question. Not yet reviewed.",
+  "relationsSummary": "The end of Christian Nubia. In 1317 Dongola's throne hall became a mosque, and the kingdom of Makuria broke apart. The smaller kingdom of Dotawo lasted until King Joel, named in a document of 1484. Then the written record falls silent. A queen named Gaua may have ruled there in the 1520s, but this is uncertain.",
+  "why": "Christian Nubia had held the Nile above Egypt since the sixth century. It had cathedrals, bishops, and a literature written in Old Nubian, Greek and Coptic. Its ending took four centuries. In 1317 the throne hall of the royal palace at Dongola was turned into a mosque, and the kingdom of Makuria broke apart. A smaller kingdom that followed it, Dotawo, held on downstream. It still issued documents in Old Nubian under its own king and bishop. The last ruler anyone can name, King Joel, is recorded in 1484. After that the record simply falls silent. There was no conquest and no massacre, just a people who slowly became Muslim.",
+  "legacy": "No church continued, and no community carried the tradition forward. What survived is material, and it was very nearly lost as well. In the 1960s the Aswan High Dam was built. Before its lake covered the cathedral at Faras, an international rescue campaign lifted out the wall paintings. At Qasr Ibrim, very dry conditions kept a large archive of documents in Old Nubian, Greek, Coptic and Arabic. Because of that rescue, a Christian civilization that left no descendants is better known now than it was a century ago. Its paintings can be seen in museums in Warsaw and Khartoum."
+ },
+ {
+  "id": "franciscan-order-era-6",
+  "atlasId": "V.19",
+  "era": 6,
+  "name": "The Franciscan Order — Spirituals Crisis to the Great Division",
+  "dates": "1300-1517",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "the-franciscan-movement",
+    "atlasId": "IV.4",
+    "confidence": "Documented"
+   }
+  ],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "V.19",
+    "id": "franciscan-order-era-6",
+    "era": 6,
+    "living": false,
+    "end": 1517,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this gave rise to VI.13d [Documented] (VI.13d = Mission-Born Christianity in New Spain and the Andes, 1524-1650)"
+  ],
+  "statusDescription": "Proposed for a future survey, as this order's own entry for the era (an alternative placement, inside a later entry, is also on record). Not yet reviewed.",
+  "relationsSummary": "The Franciscan order from 1300 to its division in 1517. The Spirituals were crushed, and four were burned at Marseille in 1318. Conventuals and Observants then pulled apart, until Pope Leo X split the order in two on 29 May 1517. The fraticelli broke away from it, and the Observants grew up inside it.",
+  "why": "By 1300 the Franciscans were a huge international order with universities and libraries, yet their founder had told them to own nothing. The strain broke in the 1310s and 20s. Pope John XXII ordered the strictest friars to conform, and had four burned at Marseille in 1318 for refusing. The head of the order, Michael of Cesena, fled the papal court with the philosopher William of Ockham. He would not accept John's ruling that it was heretical to insist Christ and the apostles had owned nothing at all. The argument turned into a long split. The Conventuals kept the order's endowments, while the Observants rebuilt strict Rule-keeping from 1368. In 1517 Pope Leo X divided the family formally in two.",
+  "legacy": "The order is still here, and still divided along the line drawn in 1517. The Order of Friars Minor and the Conventual Franciscans both date their separate legal existence from that year. By the 1560s the Capuchins stood beside them as a third Franciscan family. Beyond the family, the poverty quarrel left a real body of thought. Ockham above all carried its arguments about use, ownership and right into writing on the limits of papal and imperial power. And the Observant reform that grew up inside the order went on to win its leadership in 1517."
+ },
+ {
+  "id": "the-bosnian-church",
+  "atlasId": "V.20",
+  "era": 6,
+  "name": "The Bosnian Church (Krstjani)",
+  "dates": "c. 1230s-1463",
+  "lane": "Greek East & Orthodoxy",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "V.20",
+    "id": "the-bosnian-church",
+    "era": 6,
+    "living": false,
+    "end": 1463,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Proposed for a future survey; which movement this actually identifies is a genuine, still-open debate, honestly carried rather than resolved. Its status, and whether it starts in the c. 1230s or at 1300, are both open questions. Not yet reviewed.",
+  "relationsSummary": "This was the independent church of medieval Bosnia. Rome condemned it as heretical, but its own kings defended it. It ended with the Ottoman conquest. Bosnia fell in 1463, and Gost Radin's will of 1466 is its last major surviving document. Most scholars today reject the old view that the church held the dualist faith of the Bogomils.",
+  "why": "Medieval Bosnia had a church of its own, between Catholic Hungary and Orthodox Serbia. Its members called themselves just krstjani, which means Christians. They worshipped in Slavonic. They were led by a djed, a 'grandfather', with gosts and starci beneath him. Rome condemned them as heretics again and again, while Bosnia's own kings protected them. But what they truly believed is still in real dispute. Since the 1970s most historians have rejected the old view that they were Bogomil dualists. The one major text written from inside is Gost Radin's will of 1466. It reads like ordinary Christianity. A cross is drawn down its margin.",
+  "legacy": "Nothing continued. After the Ottoman conquest the krstjani vanish from the written sources within a generation or two. Many seem to have become Muslims. Where the rest went is not clear. No later church claims descent from them. What remains is on parchment and stone. Charters and grave inscriptions name djeds and gosts. And there are the stećci, the great carved limestone tombstones of medieval Bosnia and its neighbors. Catholics and Orthodox raised those too, and the once-popular idea that they are a Bosnian Church monument is no longer accepted. The church's other legacy is the argument about it, which is still running."
+ },
+ {
+  "id": "maronite-christianity-era-6",
+  "atlasId": "V.22",
+  "era": 6,
+  "name": "Maronite Christianity — the Union Formalized",
+  "dates": "1300-1517",
+  "lane": "Syriac East & Asia",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "maronite-christianity",
+    "atlasId": "IV.10",
+    "confidence": "Documented"
+   }
+  ],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "V.22",
+    "id": "maronite-christianity-era-6",
+    "era": 6,
+    "living": false,
+    "end": 1517,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Proposed for a future survey, carrying an earlier entry forward to its defining event, inside this window; not yet reviewed.",
+  "relationsSummary": "The Maronites had long claimed union with Rome, and in this era Rome confirmed it twice. A papal bull of 7 August 1445 received the Maronites of Cyprus into union. It was issued at the Council of Florence, which had by then moved to Rome. In 1516 the patriarch's envoys pledged his obedience at the Fifth Lateran Council. The Maronites hold that they were never out of communion with Rome.",
+  "why": "The Maronites were a Syriac-speaking church of the Lebanese mountains, with a patriarch in the Qadisha valley. They survived Mamluk campaigns against the Kesrwan around 1305, and the rest of this era, largely by being hard to reach. Their monasteries and rock-cut hermit cells were tucked into places that armies found too costly to enter. Their long-claimed friendship with Rome was made formal in this era. In 1445 a papal bull received the Maronites of Cyprus into union with the Roman church. It was issued at the Council of Florence, which had by then moved to Rome. In 1516 the patriarch's envoys pledged his obedience at the Fifth Lateran Council. Unlike almost every other Eastern church, the Maronites hold that they were never out of communion with Rome at all.",
+  "legacy": "It is a living church. The Maronite Church is still in full communion with Rome. It is the largest Christian body in Lebanon, and it has members all over the world. Its patriarch still carries the title of Antioch. The Syriac liturgy of these centuries is still in use, in a later, fuller form. The Qadisha valley stayed the patriarch's refuge for centuries afterward, and its monasteries and hermitages are still there."
+ },
+ {
+  "id": "st-thomas-christians-1300-1517",
+  "atlasId": "V.23",
+  "era": 6,
+  "name": "St Thomas Christians, 1300-1517",
+  "dates": "1300-1517",
+  "lane": "Syriac East & Asia",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "st-thomas-christians-of-india",
+    "atlasId": "III.11",
+    "confidence": "Widely Accepted"
+   }
+  ],
+  "successors": [
+   {
+    "id": "st-thomas-christians-under-portuguese-pressure-d",
+    "atlasId": "VI.18",
+    "living": true,
+    "confidence": "Documented"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.18",
+    "id": "st-thomas-christians-under-portuguese-pressure-d",
+    "era": 7,
+    "living": true,
+    "end": 1665,
+    "weakestLink": "Documented"
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Proposed for a future survey, on the same honest-about-a-thin-window pattern as the St. Thomas Christians entry. It is not a direct continuation of an earlier entry - the eras are not adjacent, and the 1054-1300 gap between them stays disclosed. Not yet reviewed.",
+  "relationsSummary": "A note in a book copied in 1301 shows the community still tied to its patriarch in Mesopotamia. A delegation in 1490 and a letter in 1504 show the tie held later too. Timur's armies never reached this province.",
+  "why": "Christians on India's Malabar coast traced their founding to the apostle Thomas and worshipped in Syriac. They belonged to the Church of the East. They got their bishops from a patriarch far away in Mesopotamia. A book copied at Cranganore in 1301 is the oldest dated Syriac manuscript from India. It names the patriarch Yahballaha III, which shows the link still held. The community was a trading group of high standing, with privileges from local Hindu rulers. Its people owned the pepper gardens around Kollam. In 1490 a delegation went to the patriarch to ask for bishops. The bishops who came back wrote home in 1504. They described the community and the first Portuguese ships.",
+  "legacy": "The community is still here. After 1517 came pressure from the Portuguese. Then came the Synod of Diamper in 1599 and the Coonan Cross revolt of 1653. Between them, these split the St Thomas Christians into the several churches they are now. They include the Syro-Malabar and Syro-Malankara Catholics, the Malankara Orthodox and Jacobite Syrian churches, the Mar Thoma Church and others. Together they have several million members, in Kerala and far beyond. Syriac is still used when they worship. The texts of this era already take it as known that the apostle Thomas founded the church. That is still how the community sees itself."
+ },
+ {
+  "id": "carthusians-later-middle-ages",
+  "atlasId": "V.24",
+  "era": 6,
+  "name": "The Carthusians — The Later Medieval Charterhouses",
+  "dates": "1300-1534",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "carthusian-life",
+    "atlasId": "IV.2",
+    "confidence": "Widely Accepted"
+   }
+  ],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "V.24",
+    "id": "carthusians-later-middle-ages",
+    "era": 6,
+    "living": false,
+    "end": 1534,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Proposed for later study. Not yet reviewed.",
+  "relationsSummary": "The same order as the first Carthusians, still keeping its old rule of the cell. In England its monks copied and kept the books of the English mystics, The Cloud of Unknowing and Walter Hilton's Scale of Perfection. Nicholas Love, prior of Mount Grace, attacked the Lollards in his life of Christ. In the Low Countries a Carthusian prior turned Geert Grote's life around, and Grote went on to found the New Devotion.",
+  "why": "The Carthusians lived alone in their cells, but they read and copied a great deal. In England they became keepers of the new books of prayer written in English. Their scribes copied The Cloud of Unknowing and Hilton's Scale of Perfection, wrote notes in them and passed them on. One of their priors put the life of Christ into plain English for readers who knew no Latin. Modern editors of the Cloud and the Scale still lean on copies made in their houses.",
+  "legacy": "The care of these houses still shapes how the English mystics are read. Evelyn Underhill based her 1923 edition of Hilton's Scale on the London Charterhouse copy. Justin McCann checked his 1924 text of the Cloud against the Latin version made at Mount Grace. Love's Mirror was copied again and again; its 1908 editor knew of twenty-three manuscripts. When the English houses fell under Henry VIII, some of the books are said to have gone with the monks into exile.\n\nThe end came in the 1530s, when Henry VIII made himself head of the church in England. In May 1535 John Houghton, prior of the London Charterhouse, was hanged at Tyburn with the priors of Beauvale and Axholme. Many of their brothers followed them to the scaffold or died in Newgate prison, and some escaped to found an English charterhouse at Bruges."
+ }
+]

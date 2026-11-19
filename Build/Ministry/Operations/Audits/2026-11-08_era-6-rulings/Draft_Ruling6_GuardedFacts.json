@@ -1,0 +1,1032 @@
+{
+ "part": "ruling 6",
+ "links": [],
+ "retired_links": [],
+ "prose_changes": [
+  {
+   "n": 1,
+   "movement": "observant-reform-and-popular-preaching",
+   "field": "why",
+   "old": "The Observance began small. In 1368 Paoluccio Trinci and a handful of friars kept the Rule strictly at Brugliano. Then it spread across the Franciscans, Dominicans, Augustinians and Benedictines alike. Its public face was preaching to great crowds. In 1427 Bernardino of Siena gave forty-five sermons, and a listener in the crowd took them down as he spoke, asides and all. It is about as close as anyone gets to hearing a medieval sermon, not just reading one. What it left is mixed. It left the low-interest pawn-banks called monti di pietà, which still trade today. But John of Capistrano's preaching also drove the persecution of Jewish communities. The most notorious case was at Breslau in 1453.",
+   "new": "The Observance began small. In 1368 Paoluccio Trinci and a handful of friars kept the Rule strictly at Brugliano. Then it spread across the Franciscans, Dominicans, Augustinians and Benedictines alike. Its public face was preaching to great crowds. In 1427 Bernardino of Siena gave forty-five sermons, and a listener in the crowd took them down as he spoke, asides and all. It is about as close as anyone gets to hearing a medieval sermon, not just reading one. What it left is mixed. It left the low-interest pawn-banks called monti di pietà, which still trade today. But John of Capistrano also drove the persecution of Jewish communities. In 1447 the pope made him enforcer of the papal laws restricting Jews and Muslims in Italy. The most notorious case was at Breslau in 1453, where Jews were burned.",
+   "reason": "Ruling 6 guard (persecution). The Breslau sentence is now sourced: Nicholas V's letter of June 1447 (Bullarium Franciscanum n.s. I, n. 1072) makes Capistrano enforcer of the decrees restricting Jews and Muslims in Italy, and Lea's index (vol. III) records Jews 'burned by Capistrano in Breslau'. 'Preaching' is dropped because neither source shows the preaching as the cause; the burning and the 1447 commission are added because the sources show them. Nothing is softened.",
+   "fre_after": 64.3,
+   "fk_after": 7.4
+  },
+  {
+   "n": 2,
+   "movement": "observant-reform-and-popular-preaching",
+   "field": "longDescription",
+   "old": "The Observance began as an argument inside the religious orders. Its friars said the Rule should be kept as it was written. It should not be kept as years of exceptions had relaxed it. It started small, with Paoluccio Trinci's handful of friars at Brugliano in 1368. Then it spread across the Franciscans, Dominicans, Augustinians and Benedictines alike. In the end, reformed houses formed rival provinces beside the unreformed ones. Its public face was preaching. Bernardino of Siena drew whole towns into the square to hear him for weeks on end. In 1427 he preached forty-five sermons at Siena. A listener in the crowd took them down as he spoke, with his asides and the crowd's reactions. It is about as close as anyone gets to hearing a medieval sermon, not just reading one. John of Capistrano did the same across central Europe. The movement's dark side belongs in the same story. Capistrano's preaching also drove the persecution of Jewish communities. The most notorious case was at Breslau in 1453.",
+   "new": "The Observance began as an argument inside the religious orders. Its friars said the Rule should be kept as it was written. It should not be kept as years of exceptions had relaxed it. It started small, with Paoluccio Trinci's handful of friars at Brugliano in 1368. Then it spread across the Franciscans, Dominicans, Augustinians and Benedictines alike. In the end, reformed houses formed rival provinces beside the unreformed ones. Its public face was preaching. Bernardino of Siena drew whole towns into the square to hear him for weeks on end. In 1427 he preached forty-five sermons at Siena. A listener in the crowd took them down as he spoke, with his asides and the crowd's reactions. It is about as close as anyone gets to hearing a medieval sermon, not just reading one. John of Capistrano did the same across central Europe. The movement's dark side belongs in the same story. Capistrano also drove the persecution of Jewish communities. In 1447 the pope made him enforcer of the papal laws restricting Jews and Muslims in Italy. The most notorious case was at Breslau in 1453, where Jews were burned.",
+   "reason": "Same change as the why field, for the same reason (ruling 6, Breslau sourced).",
+   "fre_after": 62.9,
+   "fk_after": 7.4
+  },
+  {
+   "n": 3,
+   "movement": "early-benedictine-italian-monasticism",
+   "field": "legacy",
+   "old": "The Rule became the standard for monks in the West. Carolingian reformers made it the norm across the Frankish empire. It stands behind the Cluniacs, the Cistercians and the Benedictine congregations that keep it today. Its language of stability, obedience and moderation reached far beyond the cloister. So did the way it built the day around fixed hours of prayer, and both passed into the West's habits of work and time. Monte Cassino itself was destroyed again and again — by Lombards, by Saracens, by earthquake, and by Allied bombing in 1944 — and rebuilt every time. Monks live there now.",
+   "new": "The Rule became the standard for monks in the West. Carolingian reformers made it the norm across the Frankish empire. It stands behind the Cluniacs, the Cistercians and the Benedictine congregations that keep it today. Its language of stability, obedience and moderation reached far beyond the cloister. So did the way it built the day around fixed hours of prayer, and both passed into the West's habits of work and time. Monte Cassino itself was destroyed again and again, and rebuilt every time. Paul the Deacon tells how the Lombards sacked it. Later records add the Saracens, an earthquake, and Allied bombing in 1944. Monks live there now.",
+   "reason": "Ruling 6 guard (violence charged to the Saracens and the Allies). The Lombard sack is sourced (Paul the Deacon IV.17); the Saracen attack, the earthquake and the bombing of 1944 have no source in the Library, so they are stated as what later records report. The rebuilding and today's monks stand as plain facts.",
+   "fre_after": 65.1,
+   "fk_after": 7.1
+  },
+  {
+   "n": 4,
+   "movement": "late-anglo-saxon-christianity",
+   "field": "why",
+   "old": "The Viking wars nearly destroyed English Christianity, and when Alfred of Wessex set out to rebuild it, he complained he could barely find a priest south of the Thames able to translate a Latin letter, so he launched a program translating essential books into English instead. A century later the bishops Dunstan, Æthelwold and Oswald refounded the monasteries on the Benedictine rule, and Ælfric wrote well over a hundred English sermons so ordinary congregations could hear careful teaching in their own tongue, while Archbishop Wulfstan, preaching in 1014 as Danish invasions closed in, told the English their own sins had brought the disaster on them.",
+   "new": "In the Viking wars, by Alfred of Wessex's own account, England's churches were ravaged and burned. When he set out to rebuild, he complained he could barely find a priest south of the Thames able to translate a Latin letter. So he set out to put the books the clergy most needed into English. A century later the bishops Dunstan, Æthelwold and Oswald refounded the monasteries on the Rule of Benedict. Ælfric wrote English sermons, well over a hundred by his editors' count, so that ordinary people could hear sound teaching in their own tongue. Archbishop Wulfstan preached in 1014, as Danish invasions closed in. He told the English that their own sins had brought the disaster on them.",
+   "reason": "Ruling 6 guard (violence; a count). The ravaging of the churches is put in Alfred's own words, from his preface to the Pastoral Care (wanted). Aelfric's 'well over a hundred' is a count with no source in the Library, so it is given as his editors' count. Long sentences split to meet the reading target; no other fact changed.",
+   "fre_after": 62.1,
+   "fk_after": 8.8
+  },
+  {
+   "n": 5,
+   "movement": "late-anglo-saxon-christianity",
+   "field": "longDescription",
+   "old": "The Viking wars nearly killed English Christianity. Monasteries were destroyed, whole dioceses lapsed, and when Alfred of Wessex set out to rebuild he complained that he could hardly find a priest south of the Thames able to translate a Latin letter. His answer was a translation program — Gregory the Great's Pastoral Care and other essential books put into English so that clergy could read them at all. And the Chronicle begun in his reign is the first sustained history written in English. A century later a second rebuilding, led by the bishops Dunstan, Æthelwold and Oswald, refounded the monasteries on the Benedictine rule and produced an agreed customary for the whole country. The vernacular stayed central throughout: Ælfric wrote well over a hundred sermons in English so that ordinary congregations could hear careful teaching in their own tongue, and Archbishop Wulfstan, preaching in 1014 as the Danish invasions closed in, told the English that their own sins had brought the calamity on them. The Norman Conquest of 1066 ended the church's independent development.",
+   "new": "The Viking wars nearly killed English Christianity, by Alfred of Wessex's account. He wrote that the churches had been ravaged and burned. Whole dioceses lapsed. When Alfred set out to rebuild, he complained that he could hardly find a priest south of the Thames able to translate a Latin letter. His answer was a program of translation. Gregory the Great's Pastoral Care and other books the clergy needed were put into English, so that they could read them at all. And the Chronicle begun in his reign is the first sustained history written in English. A century later came a second rebuilding, led by the bishops Dunstan, Æthelwold and Oswald. They refounded the monasteries on the Rule of Benedict and drew up one agreed customary for the whole country. The English language stayed central throughout. Ælfric wrote sermons in English, well over a hundred by his editors' count, so that ordinary people could hear careful teaching in their own tongue. Archbishop Wulfstan preached in 1014 as the Danish invasions closed in. He told the English that their own sins had brought the calamity on them. The Norman Conquest of 1066 ended the church's independent growth.",
+   "reason": "As the why field: the destruction attributed to Alfred's account, the sermon count to his editors. Long sentences split to meet the reading target; no other fact changed.",
+   "fre_after": 60.5,
+   "fk_after": 8.3
+  },
+  {
+   "n": 6,
+   "movement": "scandinavian-conversion-christianity",
+   "field": "why",
+   "old": "Christianity came to Scandinavia through kings as much as missionaries — Harald Bluetooth raised a stone at Jelling claiming he had made the Danes Christian, and the Norwegian king Olaf Haraldsson was killed pressing the faith and venerated as a saint almost at once. Iceland took a different road: in the year 1000 the pagan law-speaker Þorgeir, after a night's deliberation, ruled at the island's own assembly that all Icelanders would be baptized, a whole community changing religion by public decision rather than by force.",
+   "new": "Christianity came to Scandinavia through kings as much as missionaries. Harald Bluetooth raised a stone at Jelling claiming he had made the Danes Christian. The Norwegian king Olaf Haraldsson was killed in battle. He was honored as a saint almost at once, and later writers made him a martyr for the faith. Iceland took a different road. In the year 1000 the pagan law-speaker Þorgeir thought it over for a night. Then he ruled at the island's own assembly that all Icelanders would be baptized. A whole people changed its faith by public decision rather than by force.",
+   "reason": "Ruling 6 guard (disputed). That Olaf Haraldsson was killed 'pressing the faith' is disputed: the battle of 1030 is now usually read as a revolt of his own magnates. The death in battle stands; the martyr reading is given as later writers' account. Sentences split to meet the reading target.",
+   "fre_after": 64.0,
+   "fk_after": 7.4
+  },
+  {
+   "n": 7,
+   "movement": "scandinavian-conversion-christianity",
+   "field": "longDescription",
+   "old": "Christianity came north in fits and starts over nearly three centuries. A Frankish monk named Anskar preached in Denmark and at Birka in Sweden in the 820s and 830s, with modest and short-lived results. Then came the kings — Harald Bluetooth, who set up a great carved stone at Jelling claiming that he had 'made the Danes Christian', and the two Olafs in Norway, whose methods included force and one of whom was killed in battle and venerated as a saint almost at once. Iceland took a different road: in the year 1000 the question was put to the Althing, the island's assembly, and the pagan law-speaker Þorgeir, after a night's deliberation, ruled that all Icelanders should be baptized, with some old practices tolerated privately for a time — a whole community changing religion by public decision rather than by conquest. The window closes in 1104, when the northern church received its own archbishopric at Lund and stopped being mission territory administered from Germany. The sagas that tell these stories most vividly were written down two centuries later.",
+   "new": "Christianity came north in fits and starts over nearly three centuries. A Frankish monk named Anskar preached in Denmark and at Birka in Sweden in the 820s and 830s, with modest and short-lived results. Then came the kings. Harald Bluetooth set up a great carved stone at Jelling claiming that he had 'made the Danes Christian'. In Norway there were the two Olafs. As the sagas tell it, their methods included force, and one of them was killed in battle and venerated as a saint almost at once. Iceland took a different road. In the year 1000 the question was put to the Althing, the island's assembly. The pagan law-speaker Þorgeir thought it over for a night. Then he ruled that all Icelanders should be baptized, though some old practices were allowed in private for a time. A whole community changed its religion by public decision rather than by conquest. The window closes in 1104, when the northern church received its own archbishop at Lund. It stopped being mission ground run from Germany. The sagas that tell these stories most vividly were written down two centuries later.",
+   "reason": "Ruling 6 guard (violence). The Olafs' forcible methods are stated as the sagas' account, the only witness, which the field already names. Lea (vol. III, lines 18975-18977) reads the sagas the same way for Olaf Tryggvason. Sentences split to meet the reading target.",
+   "fre_after": 67.5,
+   "fk_after": 7.2
+  },
+  {
+   "n": 8,
+   "movement": "iconophile-byzantine-monasticism",
+   "field": "why",
+   "old": "Twice over a century, Byzantine emperors tried to purge Christian worship of images, and both times monks led the resistance, arguing that a God who had become visible in a human being could rightly be painted. Stephen the Younger was killed for the argument in 765, and Theodore of Stoudios was beaten, imprisoned and exiled more than once before icons were restored for good in 843, a day still kept as the Triumph of Orthodoxy.",
+   "new": "Twice over a century, Byzantine emperors tried to purge Christian worship of images. Both times monks led the resistance. They argued that a God who had become visible in a human being could rightly be painted. Stephen the Younger's Life says he was killed for the argument in 765. Theodore of Stoudios, by his own letters' account, was beaten, imprisoned and exiled more than once. Icons were restored for good in 843, a day still kept as the Triumph of Orthodoxy.",
+   "reason": "Ruling 6 guard (violence). Neither Stephen's death nor Theodore's sufferings has a source in the Library; each is stated as what its own witness reports (Stephen's Life, Theodore's letters), both on the movement's source list. Sentences split to meet the reading target.",
+   "fre_after": 63.9,
+   "fk_after": 7.6
+  },
+  {
+   "n": 9,
+   "movement": "iconophile-byzantine-monasticism",
+   "field": "longDescription",
+   "old": "Twice over a century and more, the Byzantine court tried to purge Christian worship of images, and both times the strongest organized resistance came from the monasteries. The monks argued that because God had genuinely become a human being who could be seen, he could be depicted — that refusing the image was, in the end, refusing the Incarnation. And they paid for the argument. Stephen the Younger was killed in 765, and Theodore, abbot of the great Stoudios monastery in Constantinople, was beaten, imprisoned and exiled more than once while still producing letters, talks to his monks, and treatises on the holy icons. Images were restored once at the Council of Nicaea in 787 and finally in 843, a day the Orthodox churches still keep as the Triumph of Orthodoxy. One thing is worth knowing about the story as we have it. The winning side wrote the record, and the iconoclasts' own case survives almost entirely in quotations made by the people refuting it.",
+   "new": "Twice over a century and more, the Byzantine court tried to purge Christian worship of images. Both times the strongest organized resistance came from the monasteries. The monks argued that God had truly become a human being who could be seen, so he could be painted. To refuse the image was, in the end, to refuse the Incarnation. And they paid for the argument. Stephen the Younger, his Life says, was killed in 765. Theodore, abbot of the great Stoudios monastery in Constantinople, tells in his own letters how he was beaten, imprisoned and exiled more than once. Through it all he kept writing letters, talks to his monks, and treatises on the holy icons. Images were restored once at the Council of Nicaea in 787, and for good in 843. The Orthodox churches still keep that day as the Triumph of Orthodoxy. One thing is worth knowing about the story as we have it. The winning side wrote the record. The iconoclasts' own case survives almost entirely in quotations made by the people refuting it.",
+   "reason": "As the why field. Sentences split to meet the reading target; 'depicted' becomes 'painted'.",
+   "fre_after": 65.2,
+   "fk_after": 7.5
+  },
+  {
+   "n": 10,
+   "movement": "paulicians",
+   "field": "why",
+   "old": "Byzantine heresy hunters describe the Paulicians as rejecting the Old Testament, the cross and the sacraments, though whether that is what the movement itself believed or what its enemies needed it to believe cannot now be settled, since no Paulician account of their own faith survives. What is certain is what happened to them: after imperial campaigns killed and displaced them, survivors built a fortified state at Tephrike on the Byzantine frontier and raided imperial territory until it fell in 878.",
+   "new": "Byzantine heresy hunters say the Paulicians rejected the Old Testament, the cross and the sacraments. Whether they truly believed that, or their enemies needed them to, cannot now be settled. No account of their faith in their own words survives. What is certain is what happened to them. Imperial armies killed them and drove them from their homes. The survivors built a fortified state at Tephrike on the frontier. By Byzantine accounts they raided the empire's lands until it fell in 878.",
+   "reason": "Ruling 6 guard (violence). The imperial killing and uprooting is sourced (Evans 1877, lines 1092-1097, already cited on this movement's links). The Paulician raids are not in that source, so they are given as the Byzantine accounts' claim, in keeping with the field's own point that the record is hostile. Sentences split to meet the reading target.",
+   "fre_after": 62.4,
+   "fk_after": 7.4
+  },
+  {
+   "n": 11,
+   "movement": "paulicians",
+   "field": "longDescription",
+   "old": "The Paulicians appear in the record between the seventh and ninth centuries in Armenia and eastern Anatolia, and almost everything said about them was written by people trying to destroy them. Byzantine heresy-hunters describe a movement that rejected the Old Testament, the cross, the sacraments and the veneration of Mary, and held a dualist view of the world. Whether that is what the Paulicians believed, or what their enemies needed them to believe, cannot now be settled. What is not in doubt is what was done to them. Imperial campaigns killed and displaced them in large numbers, and the survivors built a fortified state of their own at Tephrike on the frontier, made common cause with the Arabs, and raided Byzantine territory until the fortress fell in 878. Later emperors deported whole Paulician populations to the Balkans.",
+   "new": "The Paulicians appear in the record from the seventh to the ninth century, in Armenia and eastern Anatolia. Almost everything said about them was written by people trying to destroy them. Byzantine heresy-hunters say the movement rejected the Old Testament, the cross, the sacraments and the honor paid to Mary. They say it held that the world was split between a good power and an evil one. Whether they truly believed that, or their enemies needed them to, cannot now be settled. What is not in doubt is what was done to them. Imperial armies killed and uprooted them in large numbers. The survivors built a fortified state of their own at Tephrike on the frontier, and made common cause with the Arabs. By Byzantine accounts they raided the empire's lands until the fortress fell in 878. Later emperors forced whole Paulician groups to move to the Balkans.",
+   "reason": "As the why field. Sentences split to meet the reading target; 'deported' kept in substance ('forced ... to move').",
+   "fre_after": 62.1,
+   "fk_after": 8.3
+  },
+  {
+   "n": 12,
+   "movement": "latin-papal-church-gregorian",
+   "field": "legacy",
+   "old": "It never stopped: this is the Roman Catholic Church. The shape the church took here is still, in large part, the shape it has. Its papal primacy is set in law. It has canon law run by trained lawyers, cardinals who elect the pope, and general councils that make law for the whole church. Fourth Lateran's rules on yearly confession and Easter communion shaped lay Catholic life for the next seven centuries. So did darker parts of the same program. The same council made Jews and Muslims in Christian lands wear marked dress. The machinery of inquisition took its lasting form in these decades. The Reformation would later protest against these same claims. John Calvin named Gregory VII as the pope who first won the popes the rank of emperors. The same church carried on into the next era, through Avignon and the Fifth Lateran Council.",
+   "new": "It never stopped: this is the Roman Catholic Church. The shape the church took here is still, in large part, the shape it has. Its papal primacy is set in law. It has canon law run by trained lawyers, cardinals who elect the pope, and general councils that make law for the whole church. Fourth Lateran's rules on yearly confession and Easter communion shaped lay Catholic life for the next seven centuries. So did darker parts of the same program. The same council's canons ordered Jews and Muslims in Christian lands to wear marked dress. The machinery of inquisition took its lasting form in these decades. The Reformation would later protest against these same claims. John Calvin named Gregory VII as the pope who first won the popes the rank of emperors. The same church carried on into the next era, through Avignon and the Fifth Lateran Council.",
+   "reason": "Ruling 6 guard (persecution: a law against Jews and Muslims). Canon 68 is not in the Library; the rule is stated as what the council's own canons ordered. Nothing is softened.",
+   "fre_after": 67.4,
+   "fk_after": 7.2
+  },
+  {
+   "n": 13,
+   "movement": "the-ethiopian-monastic-flowering",
+   "field": "why",
+   "old": "In 1270 the Solomonic dynasty took the Ethiopian throne, and a wave of monks came with it. Tekle Haymanot and the followers of Ewostatewos led them, and they carried churches deep into newly won lands. The Ewostathians kept Saturday as well as Sunday as a Sabbath. They were persecuted for it for generations, until the emperor Zara Yaqob gave way at a council in 1450. His court chronicle says he ordered the old Sabbath kept as holy as Sunday. The same emperor wrote books of theology. He persecuted the monks of Estifanos when they refused to bow before Mary and the cross. It was all written down in Ge'ez: royal chronicles, saints' lives, hymns to Mary, and the Kebra Nagast. That book gave the dynasty its claim to come down from Solomon and Sheba.",
+   "new": "In 1270 the Solomonic dynasty took the Ethiopian throne, and a wave of monks came with it. Tekle Haymanot and the followers of Ewostatewos led them, and they carried churches deep into newly won lands. The Ewostathians kept Saturday as well as Sunday as a Sabbath. The lives of their own saints say they were persecuted for it for generations, until the emperor Zara Yaqob gave way at a council in 1450. His court chronicle says he ordered the old Sabbath kept as holy as Sunday. The same emperor wrote books of theology. He persecuted the monks of Estifanos when they refused to bow before Mary and the cross. It was all written down in Ge'ez: royal chronicles, saints' lives, hymns to Mary, and the Kebra Nagast. That book gave the dynasty its claim to come down from Solomon and Sheba.",
+   "reason": "Ruling 6 guard (persecution). No source in the Library shows the persecution; it is stated as what the Ewostathians' own saints' lives report (Gadla Ewostatewos is on the movement's source list). The Sabbath practice and the council of 1450 stand as plain facts.",
+   "fre_after": 62.1,
+   "fk_after": 8.4
+  },
+  {
+   "n": 14,
+   "movement": "the-ethiopian-monastic-flowering",
+   "field": "longDescription",
+   "old": "In 1270 the Solomonic dynasty took the Ethiopian throne. It claimed descent from Solomon and the Queen of Sheba. A wave of monks came with it and carried churches deep into newly conquered lands. Two networks led the way: the houses Tekle Haymanot built in Shewa, and the northern houses of the followers of Ewostatewos. The bond between crown and cloister was contested throughout. The Ewostathians kept Saturday as well as Sunday as a Sabbath. They were persecuted for it for generations. Then, at a council in 1450, the emperor Zara Yaqob gave way. His court chronicle says he ordered the old Sabbath kept as holy as Sunday. Zara Yaqob wrote theology himself. He reordered the church and pressed devotion to Mary on it. When the monks of Estifanos refused to bow down before Mary and the cross, he persecuted them. All of it was written down in Ge'ez: royal chronicles, saints' lives, hymns to Mary, and the Kebra Nagast. That book gave the dynasty its Solomonic charter.",
+   "new": "In 1270 the Solomonic dynasty took the Ethiopian throne. It claimed descent from Solomon and the Queen of Sheba. A wave of monks came with it and carried churches deep into newly conquered lands. Two networks led the way: the houses Tekle Haymanot built in Shewa, and the northern houses of the followers of Ewostatewos. The bond between crown and cloister was contested throughout. The Ewostathians kept Saturday as well as Sunday as a Sabbath. The lives of their own saints say they were persecuted for it for generations. Then, at a council in 1450, the emperor Zara Yaqob gave way. His court chronicle says he ordered the old Sabbath kept as holy as Sunday. Zara Yaqob wrote theology himself. He reordered the church and pressed devotion to Mary on it. When the monks of Estifanos refused to bow down before Mary and the cross, he persecuted them. All of it was written down in Ge'ez: royal chronicles, saints' lives, hymns to Mary, and the Kebra Nagast. That book gave the dynasty its Solomonic charter.",
+   "reason": "As the why field.",
+   "fre_after": 62.3,
+   "fk_after": 7.6
+  },
+  {
+   "n": 15,
+   "movement": "the-english-mystics-and-devout",
+   "field": "longDescription",
+   "old": "Across a single century, a scattering of English men and women began writing about the inner life of prayer. They wrote in their own language rather than in Latin. Richard Rolle, the Yorkshire hermit, wrote the Fire of Love. Walter Hilton wrote the Scale of Perfection. An author whose name is lost wrote The Cloud of Unknowing. All of them wrote for recluses and devout lay people rather than for scholars. Two of the voices are women's. Julian of Norwich was an anchoress, enclosed in a cell beside a Norwich parish church. She spent decades revising an account of sixteen revelations she had received during a near-fatal illness. In the end she reached the line she is still known for: that all shall be well. Margery Kempe was a brewer's wife from Bishop's Lynn, a mother of fourteen who could not write. She dictated to scribes a book about her pilgrimages, her uncontrollable public weeping and the heresy examinations she survived. It is the closest thing the period leaves us to an ordinary believer's own life story. Carthusian monks copied The Cloud and Hilton's Scale and kept them safe.",
+   "new": "Across a single century, a scattering of English men and women began writing about the inner life of prayer. They wrote in their own language rather than in Latin. Richard Rolle, the Yorkshire hermit, wrote the Fire of Love. Walter Hilton wrote the Scale of Perfection. An author whose name is lost wrote The Cloud of Unknowing. All of them wrote for recluses and devout lay people rather than for scholars. Two of the voices are women's. Julian of Norwich was an anchoress, enclosed in a cell beside a Norwich parish church. She spent decades revising an account of sixteen revelations she had received during a near-fatal illness. In the end she reached the line she is still known for: that all shall be well. Margery Kempe was a brewer's wife from Bishop's Lynn who could not write. Her own book says she bore fourteen children. She dictated to scribes a book about her pilgrimages, her uncontrollable public weeping and the heresy examinations she survived. It is the closest thing the period leaves us to an ordinary believer's own life story. Carthusian monks copied The Cloud and Hilton's Scale and kept them safe.",
+   "reason": "Ruling 6 guard (a number). 'Fourteen' children is a count with no source in the Library; it is stated as what Margery's own Book says. The rest of the sentence stands.",
+   "fre_after": 65.5,
+   "fk_after": 7.3
+  },
+  {
+   "n": 16,
+   "movement": "observant-reform-and-popular-preaching",
+   "field": "sources",
+   "old": [
+    {
+     "work": "Bernardino of Siena, the 1427 Siena sermon cycle (reportatio of Benedetto di maestro Bartolomeo; standard ed. Delcorno, 1989, Italian)",
+     "type": "primary",
+     "note": "Forty-five vernacular sermons taken down as they were spoken, audience reactions included - close to a live recording of a medieval sermon. English translation exists only in selections."
+    },
+    {
+     "work": "John of Capistrano: letters, treatises, and eyewitness accounts of the 1451-56 central-European preaching tours",
+     "type": "primary",
+     "note": "Mass preaching at Vienna, Nuremberg, and Breslau. This includes the movement's darkest episode: at Breslau in 1453, Capistrano led the trial and burning of Jews on host-desecration charges. Those trial records are testimony extracted under coercion by the persecuting side, not neutral evidence. Largely untranslated (Acta Sanctorum; Hofer)."
+    },
+    {
+     "work": "The Observance as structure: Observant constitutions and statutes (e.g. the Martinian constitutions, 1430), vicariate records, Bernardino's Latin model-sermon collections",
+     "type": "primary",
+     "note": "The movement's institutional self-organization across Franciscan, Dominican, Augustinian, and Benedictine families. Latin editions only."
+    },
+    {
+     "work": "The reform's women in their own words: Colette of Corbie's Constitutions for the Poor Clares; Caterina Vigri of Bologna, The Seven Spiritual Weapons",
+     "type": "primary",
+     "note": "The Observance's female branch as authors, not subjects - a woman legislating a reform, and an Observant Poor Clare's own formation book."
+    },
+    {
+     "work": "James Mixson & Bert Roest (eds.), A Companion to Observant Reform in the Late Middle Ages and Beyond (Brill, 2015)",
+     "type": "secondary",
+     "note": "Current standard, cross-order by design. Treats Savonarola within the Observant frame - on his own he would not fit a movement defined by a single person, since the Observance was always broader than any one figure."
+    },
+    {
+     "work": "Cambridge History of Christianity vol. 4, ch. 29 'Observant reform in religious orders' (Roest); cf. ch. 30 'Public purity and discipline' (Rusconi)",
+     "type": "reference",
+     "note": "A dedicated chapter by the Companion's co-editor - a direct fit."
+    }
+   ],
+   "new": [
+    {
+     "work": "Bernardino of Siena, the 1427 Siena sermon cycle (reportatio of Benedetto di maestro Bartolomeo; standard ed. Delcorno, 1989, Italian)",
+     "type": "primary",
+     "note": "Forty-five vernacular sermons taken down as they were spoken, audience reactions included - close to a live recording of a medieval sermon. English translation exists only in selections."
+    },
+    {
+     "work": "John of Capistrano: letters, treatises, and eyewitness accounts of the 1451-56 central-European preaching tours",
+     "type": "primary",
+     "note": "Mass preaching at Vienna, Nuremberg, and Breslau. This includes the movement's darkest episode: at Breslau in 1453, Capistrano led the trial and burning of Jews on host-desecration charges. Those trial records are testimony extracted under coercion by the persecuting side, not neutral evidence. Largely untranslated (Acta Sanctorum; Hofer)."
+    },
+    {
+     "work": "The Observance as structure: Observant constitutions and statutes (e.g. the Martinian constitutions, 1430), vicariate records, Bernardino's Latin model-sermon collections",
+     "type": "primary",
+     "note": "The movement's institutional self-organization across Franciscan, Dominican, Augustinian, and Benedictine families. Latin editions only."
+    },
+    {
+     "work": "The reform's women in their own words: Colette of Corbie's Constitutions for the Poor Clares; Caterina Vigri of Bologna, The Seven Spiritual Weapons",
+     "type": "primary",
+     "note": "The Observance's female branch as authors, not subjects - a woman legislating a reform, and an Observant Poor Clare's own formation book."
+    },
+    {
+     "work": "James Mixson & Bert Roest (eds.), A Companion to Observant Reform in the Late Middle Ages and Beyond (Brill, 2015)",
+     "type": "secondary",
+     "note": "Current standard, cross-order by design. Treats Savonarola within the Observant frame - on his own he would not fit a movement defined by a single person, since the Observance was always broader than any one figure."
+    },
+    {
+     "work": "Cambridge History of Christianity vol. 4, ch. 29 'Observant reform in religious orders' (Roest); cf. ch. 30 'Public purity and discipline' (Rusconi)",
+     "type": "reference",
+     "note": "A dedicated chapter by the Companion's co-editor - a direct fit."
+    },
+    {
+     "work": "Bullarium Franciscanum, nova series, vol. I (1431-1455), ed. Ulric Hüntemann (Quaracchi, 1929)",
+     "type": "primary",
+     "note": "Papal letters of Bernardino's and Capistrano's years, in Latin. Among them is Nicholas V's letter of June 1447, which renews the decrees restricting Jews and Muslims in Italy and makes Capistrano their enforcer."
+    }
+   ],
+   "reason": "Adds the vendored primary that sources the Breslau sentences' 1447 clause. The list's shape (work, type, note) takes the entry as written.",
+   "fre_after": null,
+   "fk_after": null
+  },
+  {
+   "n": 17,
+   "movement": "anglo-saxon-christianity",
+   "field": "sources",
+   "old": [
+    {
+     "work": "Bede, Ecclesiastical History of the English People (ed./trans. Colgrave & Mynors, Oxford Medieval Texts, 1969; Penguin trans. also in print)",
+     "type": "primary",
+     "note": "The single richest narrative source of the era in the West; standard edition, cheap translations everywhere.",
+     "url": "https://en.wikipedia.org/wiki/Ecclesiastical_History_of_the_English_People"
+    },
+    {
+     "work": "The Letters of St Boniface (trans. Ephraim Emerton, 1940; repr. Columbia, 2000 with introduction by T. F. X. Noble)",
+     "type": "primary",
+     "note": "The Boniface circle's correspondence, including the women's letters (Leoba to Boniface)."
+    },
+    {
+     "work": "C. H. Talbot, The Anglo-Saxon Missionaries in Germany (1954): Lives of Willibrord, Boniface, Sturm, Leoba, Lebuin + the Hodoeporicon of Willibald",
+     "type": "primary",
+     "note": "English translations of the mission-circle hagiography, including Rudolf of Fulda's Life of Leoba - the fullest portrait of an Anglo-Saxon woman religious; on archive.org."
+    },
+    {
+     "work": "Henry Mayr-Harting, The Coming of Christianity to Anglo-Saxon England (3rd ed. 1991)",
+     "type": "secondary",
+     "note": "The classic synthesis of the conversion and the converging Roman/Irish streams."
+    },
+    {
+     "work": "John Blair, The Church in Anglo-Saxon Society (Oxford, 2005)",
+     "type": "secondary",
+     "note": "The modern ground-level account (minsters, landscape, ordinary practice) - counterweight to great-men narrative."
+    },
+    {
+     "work": "Cambridge History of Christianity, vol. 3, ch. 5: 'Germanic Christianities, 600-1100' (Lesley Abrams)",
+     "type": "reference",
+     "note": "From the vol. 3 TOC; covers the Anglo-Saxon world."
+    }
+   ],
+   "new": [
+    {
+     "work": "Bede, Ecclesiastical History of the English People (ed./trans. Colgrave & Mynors, Oxford Medieval Texts, 1969; Penguin trans. also in print)",
+     "type": "primary",
+     "note": "The single richest narrative source of the era in the West; standard edition, cheap translations everywhere.",
+     "url": "https://en.wikipedia.org/wiki/Ecclesiastical_History_of_the_English_People"
+    },
+    {
+     "work": "The Letters of St Boniface (trans. Ephraim Emerton, 1940; repr. Columbia, 2000 with introduction by T. F. X. Noble)",
+     "type": "primary",
+     "note": "The Boniface circle's correspondence, including the women's letters (Leoba to Boniface)."
+    },
+    {
+     "work": "C. H. Talbot, The Anglo-Saxon Missionaries in Germany (1954): Lives of Willibrord, Boniface, Sturm, Leoba, Lebuin + the Hodoeporicon of Willibald",
+     "type": "primary",
+     "note": "English translations of the mission-circle hagiography, including Rudolf of Fulda's Life of Leoba - the fullest portrait of an Anglo-Saxon woman religious; on archive.org."
+    },
+    {
+     "work": "Henry Mayr-Harting, The Coming of Christianity to Anglo-Saxon England (3rd ed. 1991)",
+     "type": "secondary",
+     "note": "The classic synthesis of the conversion and the converging Roman/Irish streams."
+    },
+    {
+     "work": "John Blair, The Church in Anglo-Saxon Society (Oxford, 2005)",
+     "type": "secondary",
+     "note": "The modern ground-level account (minsters, landscape, ordinary practice) - counterweight to great-men narrative."
+    },
+    {
+     "work": "Cambridge History of Christianity, vol. 3, ch. 5: 'Germanic Christianities, 600-1100' (Lesley Abrams)",
+     "type": "reference",
+     "note": "From the vol. 3 TOC; covers the Anglo-Saxon world."
+    },
+    {
+     "work": "Alcuin, poem on the sack of Lindisfarne (De rerum humanarum vicissitudine et clade Lindisfarnensis monasterii), in Migne, Patrologia Latina 100-101 (1863)",
+     "type": "primary",
+     "note": "Alcuin's lament to the bishop and monks of Lindisfarne for the day a pagan band came suddenly by ship. A contemporary witness to the raid that closes this period."
+    }
+   ],
+   "reason": "Adds the vendored primary that sources 'Viking raiders sacked Lindisfarne'. The list's shape (work, type, note) takes the entry as written.",
+   "fre_after": null,
+   "fk_after": null
+  }
+ ],
+ "facts": [
+  {
+   "movement": "aksumite-christianity-conversion-era",
+   "field": "why, longDescription, voices[1]",
+   "fact": "Ezana's conversion is shown on his coins, which drop the disc and crescent for the cross, 'one of the earliest such declarations by any state'.",
+   "class": "plain",
+   "reason": "Not a relationship; no violence or persecution; no count (a comparison is not a figure); undisputed numismatic fact.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 24 (2026-11-07), era 2",
+   "wanted_text": "listed (era 2 README, Wanted texts): Munro-Hay or another study of Aksumite coinage; Littmann, Deutsche Aksum-Expedition IV"
+  },
+  {
+   "movement": "aksumite-christianity-conversion-era",
+   "field": "legacy",
+   "fact": "The tie with Alexandria held roughly sixteen centuries, until the Ethiopian church received its own patriarch in the twentieth.",
+   "class": "plain",
+   "reason": "The span is worked out from two dates (the fourth-century consecration and 1959), not a count or size; undisputed.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 24 (2026-11-07), era 2",
+   "wanted_text": "listed (era 2 README, Wanted texts): a source for the Ethiopian patriarchate of 1959"
+  },
+  {
+   "movement": "cyrilline-miaphysite-egyptian-tradition",
+   "field": "why, longDescription",
+   "fact": "Most Egyptian Christians followed the Miaphysite hierarchy, worshipping increasingly in Coptic rather than Greek.",
+   "class": "plain",
+   "reason": "No violence, no figure (\"most\" is not a number); the gradual shift to Coptic in worship is undisputed. The sentence makes no claim that language caused the split, which is the disputed thesis.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 24 (2026-11-07), era 2",
+   "wanted_text": "not listed before; added to wants"
+  },
+  {
+   "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "field": "legacy",
+   "fact": "Orthodox monks still read the Ladder aloud every Lent.",
+   "class": "plain",
+   "reason": "Present-day practice; no violence, number or dispute.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 24, era 3 sub-entry (2026-11-07)",
+   "wanted_text": "not listed before; added to wants"
+  },
+  {
+   "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "field": "legacy",
+   "fact": "Dorotheus of Gaza is still standard reading for the spiritual life.",
+   "class": "plain",
+   "reason": "Reception fact; undisputed.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 24, era 3 sub-entry (2026-11-07)",
+   "wanted_text": "listed (era 3 README, Wanted texts): a clean text of Dorotheus's Instructions; a reception source added to wants"
+  },
+  {
+   "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "field": "legacy",
+   "fact": "Mar Saba and Saint Catherine's still have monks living in them.",
+   "class": "plain",
+   "reason": "Present-day fact; undisputed.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 24, era 3 sub-entry (2026-11-07)",
+   "wanted_text": "not listed before; added to wants"
+  },
+  {
+   "movement": "early-benedictine-italian-monasticism",
+   "field": "legacy",
+   "fact": "Monte Cassino was destroyed by Lombards, by Saracens, by earthquake and by Allied bombing in 1944, and rebuilt every time.",
+   "class": "guarded",
+   "reason": "Violence: charges the Lombards, the Saracens and the Allies with destroying the abbey.",
+   "resolution": "reported",
+   "logged_in": "Open-Gaps 24, era 3 sub-entry (2026-11-07)",
+   "wanted_text": "listed (era 3 README, Wanted texts): Leo of Ostia, Chronicle of Monte Cassino, for 883; a source for the earthquake and for 1944 added to wants",
+   "source": [
+    {
+     "kind": "primary",
+     "work": "Paul the Deacon, History of the Langobards IV.17 (trans. Foulke 1907)",
+     "file": "cic/texts/paul-the-deacon_history-of-the-langobards_foulke1907.txt",
+     "lines": "7805-7808",
+     "quote": "About this time the monastery of the blessed father\nBenedict w7hich was situated in the stronghold of Cas-\ninum (Monte Cassino) was attacked at night by the\nLangobards, 2 and although they plundered everything,",
+     "note": "Sources the Lombard sack only."
+    }
+   ],
+   "prose_change": 3
+  },
+  {
+   "movement": "gothic-and-vandal-homoian-christianity",
+   "field": "longDescription, legacy",
+   "fact": "Arian buildings still stand in Ravenna; the Arian Baptistery and Theodoric's palace church survive with their mosaics, including a panel where the Gothic court was scrubbed out.",
+   "class": "plain",
+   "reason": "Monument facts; altering a mosaic is not violence against anyone; undisputed.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 24, era 3 sub-entry (2026-11-07)",
+   "wanted_text": "listed (era 3 README, Wanted texts): Agnellus, Liber pontificalis ecclesiae Ravennatis; a present-day description added to wants"
+  },
+  {
+   "movement": "late-anglo-saxon-christianity",
+   "field": "why, longDescription",
+   "fact": "The Viking wars nearly destroyed English Christianity; monasteries were destroyed.",
+   "class": "guarded",
+   "reason": "Violence: charges the Viking armies with destroying the churches and monasteries.",
+   "resolution": "reported",
+   "logged_in": "Open-Gaps 24, era 4 sub-entry (2026-11-08); era 4 Drafting_Record escalations A and C",
+   "wanted_text": "listed (era 4 README, Wanted texts): Alfred's Old English Pastoral Care with his preface (Sweet 1871); the Anglo-Saxon Chronicle",
+   "prose_change": [
+    4,
+    5
+   ]
+  },
+  {
+   "movement": "late-anglo-saxon-christianity",
+   "field": "why, longDescription",
+   "fact": "Alfred complained he could hardly find a priest south of the Thames able to translate a Latin letter, and began a translation program.",
+   "class": "plain",
+   "reason": "No violence, no figure; undisputed.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 24, era 4 sub-entry (2026-11-08); era 4 Drafting_Record escalations A and C",
+   "wanted_text": "listed (era 4 README, Wanted texts): Alfred's Pastoral Care preface (Sweet 1871); Asser"
+  },
+  {
+   "movement": "late-anglo-saxon-christianity",
+   "field": "relationsSummary, why, longDescription",
+   "fact": "Dunstan, Aethelwold and Oswald refounded the monasteries on the Rule of Benedict and produced an agreed customary.",
+   "class": "plain",
+   "reason": "Undisputed; no violence or figure.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 24, era 4 sub-entry (2026-11-08); era 4 Drafting_Record escalations A and C",
+   "wanted_text": "listed (era 4 README, Wanted texts): the Regularis Concordia; Aethelwold's Old English account of Edgar's monasteries"
+  },
+  {
+   "movement": "late-anglo-saxon-christianity",
+   "field": "why, longDescription",
+   "fact": "Aelfric wrote well over a hundred English sermons.",
+   "class": "guarded",
+   "reason": "A number: a count of works.",
+   "resolution": "reported",
+   "logged_in": "Open-Gaps 24, era 4 sub-entry (2026-11-08); era 4 Drafting_Record escalations A and C",
+   "wanted_text": "listed (era 4 README, Wanted texts): Aelfric's Catholic Homilies (Thorpe 1844-46)",
+   "prose_change": [
+    4,
+    5
+   ]
+  },
+  {
+   "movement": "late-anglo-saxon-christianity",
+   "field": "why, longDescription",
+   "fact": "Archbishop Wulfstan preached in 1014, as the Danish invasions closed in, that the English had brought the disaster on themselves by their sins.",
+   "class": "plain",
+   "reason": "A dated sermon; the invasions are named as the setting, with no act charged to anyone; undisputed.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 24, era 4 sub-entry (2026-11-08); era 4 Drafting_Record escalations A and C",
+   "wanted_text": "listed (era 4 README, Wanted texts): Wulfstan's Sermo Lupi ad Anglos",
+   "source": [
+    {
+     "kind": "primary",
+     "work": "Wulfstan, homily of 1014, extract in Williams, Gildas (1899), \"References to Gildas in Ancient Writers\"",
+     "file": "cic/texts/gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899.txt",
+     "lines": "23899-23901",
+     "quote": "7. Wulfstan, or Wlstan, Archbishop of York (1002-1023), wrote\na book of Homilies in AngloSaxon ; the extract printed here is\ntaken from one of these Homilies, written in 1014 ; Napier's edition,",
+     "note": "Shows the 1014 homily; the plain fact needed no source, recorded because it was found."
+    }
+   ]
+  },
+  {
+   "movement": "anglo-saxon-christianity",
+   "field": "longDescription",
+   "fact": "The period closes on 8 June 793, when Viking raiders sacked Lindisfarne.",
+   "class": "guarded",
+   "reason": "Violence: charges the raiders with sacking a monastery. The date alone is not a number.",
+   "resolution": "sourced",
+   "logged_in": "Open-Gaps 24, era 4 sub-entry (2026-11-08); era 4 Drafting_Record escalations A and C",
+   "wanted_text": "listed (era 4 README, Wanted texts): the Anglo-Saxon Chronicle (D and E) for the date",
+   "source": [
+    {
+     "kind": "primary",
+     "work": "Alcuin, De rerum humanarum vicissitudine et clade Lindisfarnensis monasterii (PL 100-101, Migne 1863)",
+     "file": "cic/texts/alcuin_opera-omnia-letters_migne-pl100-101_1863.txt",
+     "lines": "64370-64371, 64673-64674",
+     "quote": "b De rerum humanarum vicissitudine et clade Lindis-\nfarnensis monasterii. ... Qua pagana manus, veniens a finibus orbis,\nNavigio subito littora nostra petit ;",
+     "note": "The poem gives no date; 8 June 793 is a plain date and stands."
+    }
+   ],
+   "prose_change": 17
+  },
+  {
+   "movement": "scandinavian-conversion-christianity",
+   "field": "why, longDescription",
+   "fact": "Harald Bluetooth raised a stone at Jelling claiming he had made the Danes Christian.",
+   "class": "plain",
+   "reason": "An inscription; undisputed.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 24, era 4 sub-entry (2026-11-08); era 4 Drafting_Record escalations A and C",
+   "wanted_text": "listed (era 4 README, Wanted texts): a public-domain reading of the Jelling inscription"
+  },
+  {
+   "movement": "scandinavian-conversion-christianity",
+   "field": "longDescription",
+   "fact": "The two Olafs in Norway used force.",
+   "class": "guarded",
+   "reason": "Violence: charges the two kings with forcible conversion.",
+   "resolution": "reported",
+   "logged_in": "Open-Gaps 24, era 4 sub-entry (2026-11-08); era 4 Drafting_Record escalations A and C",
+   "wanted_text": "listed (era 4 README, Wanted texts): Snorri, Heimskringla (Laing 1844); Adam of Bremen",
+   "source": [
+    {
+     "kind": "secondary",
+     "work": "Lea, A History of the Inquisition of the Middle Ages, vol. III (1888), citing Heimskringla",
+     "file": "cic/texts/lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt",
+     "lines": "18975-18977",
+     "quote": "Finnish  sorcerers.  Olaf  Tryggvesson  was  more  fortunate  in  one\nof  his  missionary  raids,  when  he  defeated  Eaud  the  Strong  and\ndrove  him  to  his  fastness  on  Godo  Island  in  the  Salten  Fiord — a",
+     "note": "Supports the sagas' picture of force for Olaf Tryggvason only; used as support for the reported wording, not as a source of the fact."
+    }
+   ],
+   "prose_change": 7
+  },
+  {
+   "movement": "scandinavian-conversion-christianity",
+   "field": "why",
+   "fact": "Olaf Haraldsson was killed pressing the faith and venerated as a saint almost at once.",
+   "class": "guarded",
+   "reason": "Disputed: that he died for pressing the faith is the martyr tradition; the battle of 1030 is now usually read as a revolt of his own magnates. Also violence.",
+   "resolution": "reported",
+   "logged_in": "Open-Gaps 24, era 4 sub-entry (2026-11-08); era 4 Drafting_Record escalations A and C",
+   "wanted_text": "listed (era 4 README, Wanted texts): Heimskringla",
+   "prose_change": 6
+  },
+  {
+   "movement": "scandinavian-conversion-christianity",
+   "field": "relationsSummary, why, longDescription",
+   "fact": "In 1000 the Althing, on the ruling of the law-speaker Thorgeir, decided that all Icelanders would be baptized.",
+   "class": "plain",
+   "reason": "Undisputed; no violence or figure.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 24, era 4 sub-entry (2026-11-08); era 4 Drafting_Record escalations A and C",
+   "wanted_text": "listed (era 4 README, Wanted texts): Ari Thorgilsson, Islendingabok"
+  },
+  {
+   "movement": "iconophile-byzantine-monasticism",
+   "field": "why, longDescription",
+   "fact": "Stephen the Younger was killed in 765.",
+   "class": "guarded",
+   "reason": "Violence: charges the iconoclast regime with killing him.",
+   "resolution": "reported",
+   "logged_in": "Open-Gaps 24, era 4 sub-entry (2026-11-08); era 4 Drafting_Record escalations A and C",
+   "wanted_text": "listed (era 4 README, Wanted texts): the Life of Stephen the Younger (PG 100); Theophanes (de Boor 1883)",
+   "prose_change": [
+    8,
+    9
+   ]
+  },
+  {
+   "movement": "iconophile-byzantine-monasticism",
+   "field": "why, longDescription",
+   "fact": "Theodore of Stoudios was beaten, imprisoned and exiled more than once.",
+   "class": "guarded",
+   "reason": "Persecution and violence. \"More than once\" is not a figure.",
+   "resolution": "reported",
+   "logged_in": "Open-Gaps 24, era 4 sub-entry (2026-11-08); era 4 Drafting_Record escalations A and C",
+   "wanted_text": "listed (era 4 README, Wanted texts): Theodore the Studite, letters (PG 99)",
+   "prose_change": [
+    8,
+    9
+   ]
+  },
+  {
+   "movement": "paulicians",
+   "field": "why, longDescription",
+   "fact": "Imperial campaigns killed and displaced the Paulicians in large numbers.",
+   "class": "guarded",
+   "reason": "Violence: charges the emperors with killing them. \"Large numbers\" is not a figure.",
+   "resolution": "sourced",
+   "logged_in": "Open-Gaps 24, era 4 sub-entry (2026-11-08); era 4 Drafting_Record escalations A and C",
+   "source": [
+    {
+     "kind": "secondary",
+     "work": "Evans, Through Bosnia and the Herzegovina on Foot (1877)",
+     "file": "cic/texts/evans_through-bosnia-and-the-herzegovina-on-foot_1877.txt",
+     "lines": "1092-1097, 1107",
+     "quote": "largely  inhabited  by  the  Bulgarian  Sclaves.  At  the  end  of  the\nninth  century,  when  the  persecution  of  Byzantium  had  pro-\nvoked the  Paulicians  of  Armenia  to  assert  their  independence,\nwhen  '  the  Roman  Emperor  fled  before  the  heretics  whom\nhis  mother  had  condemned  to  the  flames,'  and  Tephrice  became\nthe  capital  of  a  free-state  devoted  to  Gnostic  Christianity,  the ... The  fall  of  the  Paulician  free- state  of  Tephrice  synchronizes",
+     "note": "Already cited on this movement's links at lines 1086-1104. Evans quotes Gibbon. It shows the persecution, the burnings and the Tephrike state and its fall; not the raids, the Arab alliance or the year 878."
+    }
+   ],
+   "prose_change": [
+    10,
+    11
+   ]
+  },
+  {
+   "movement": "paulicians",
+   "field": "why, longDescription",
+   "fact": "The survivors built a state at Tephrike, made common cause with the Arabs, and held it until it fell in 878.",
+   "class": "plain",
+   "reason": "An alliance and a fall, with no act charged; the year is a date.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 24, era 4 sub-entry (2026-11-08); era 4 Drafting_Record escalations A and C",
+   "wanted_text": "listed (era 4 README, Wanted texts): Genesios or Theophanes Continuatus for 878; Peter of Sicily",
+   "source": [
+    {
+     "kind": "secondary",
+     "work": "Evans, Through Bosnia and the Herzegovina on Foot (1877)",
+     "file": "cic/texts/evans_through-bosnia-and-the-herzegovina-on-foot_1877.txt",
+     "lines": "1092-1097, 1107",
+     "quote": "largely  inhabited  by  the  Bulgarian  Sclaves.  At  the  end  of  the\nninth  century,  when  the  persecution  of  Byzantium  had  pro-\nvoked the  Paulicians  of  Armenia  to  assert  their  independence,\nwhen  '  the  Roman  Emperor  fled  before  the  heretics  whom\nhis  mother  had  condemned  to  the  flames,'  and  Tephrice  became\nthe  capital  of  a  free-state  devoted  to  Gnostic  Christianity,  the ... The  fall  of  the  Paulician  free- state  of  Tephrice  synchronizes",
+     "note": "Already cited on this movement's links at lines 1086-1104. Evans quotes Gibbon. It shows the persecution, the burnings and the Tephrike state and its fall; not the raids, the Arab alliance or the year 878."
+    }
+   ]
+  },
+  {
+   "movement": "paulicians",
+   "field": "why, longDescription",
+   "fact": "The Paulicians raided Byzantine territory.",
+   "class": "guarded",
+   "reason": "Violence charged to the Paulicians; not in the vendored Evans.",
+   "resolution": "reported",
+   "logged_in": "Open-Gaps 24, era 4 sub-entry (2026-11-08); era 4 Drafting_Record escalations A and C",
+   "wanted_text": "listed (era 4 README, Wanted texts): Peter of Sicily, Historia Manichaeorum; Theophanes",
+   "prose_change": [
+    10,
+    11
+   ]
+  },
+  {
+   "movement": "byzantine-imperial-church-macedonian",
+   "field": "legacy",
+   "fact": "The excommunications of 1054 were lifted in 1965 by Paul VI and Athenagoras together.",
+   "class": "plain",
+   "reason": "Undisputed; dates only.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 24, era 4 sub-entry (2026-11-08); era 4 Drafting_Record escalations A and C",
+   "wanted_text": "listed (era 4 README, Wanted texts): the 1965 joint declaration"
+  },
+  {
+   "movement": "byzantine-imperial-church-macedonian",
+   "field": "relationsSummary, why, longDescription",
+   "fact": "The Photian schism, and Photius's case against the Filioque.",
+   "class": "plain",
+   "reason": "Undisputed events; no violence or figure.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 24, era 4 sub-entry (2026-11-08); era 4 Drafting_Record escalations A and C"
+  },
+  {
+   "movement": "byzantine-imperial-church-macedonian",
+   "field": "why, longDescription, legacy",
+   "fact": "Photius cataloged nearly three hundred books.",
+   "class": "guarded",
+   "reason": "A number: a count of books. (In the same sentences as the logged Photius facts.)",
+   "resolution": "sourced",
+   "logged_in": "Open-Gaps 24, era 4 sub-entry (2026-11-08); era 4 Drafting_Record escalations A and C",
+   "source": [
+    {
+     "kind": "primary",
+     "work": "Photius, Bibliotheca, preface (trans. Freese 1920)",
+     "file": "cic/texts/photius_library-v1_freese1920.txt",
+     "lines": "1697, 1713",
+     "quote": "Register and enumeration of the books read by us, 279 in number, ... exactly 279. Accordingly, regarding the fulfilment of your"
+    }
+   ]
+  },
+  {
+   "movement": "cluniac-reform-monasticism",
+   "field": "relationsSummary, legacy",
+   "fact": "The Cistercians above all defined themselves against Cluny.",
+   "class": "guarded",
+   "reason": "Disputed, and a relationship between two movements, which ruling 6 does not reach.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 24, era 4 sub-entry (2026-11-08); era 4 Drafting_Record escalations A and C",
+   "wanted_text": "listed (era 4 README, Wanted texts): Bernard's Apologia; the Exordium parvum"
+  },
+  {
+   "movement": "the-carmelites",
+   "field": "relationsSummary, why, longDescription",
+   "fact": "The hermits moved west as the crusader states contracted.",
+   "class": "plain",
+   "reason": "Undisputed; no violence or figure.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 52 (2026-11-08); era 5 Drafting_Record escalations A, C, D, E",
+   "wanted_text": "listed (era 5 README, Wanted texts): the order's early chronicles or a repo-cited history"
+  },
+  {
+   "movement": "cistercian-monasticism",
+   "field": "why, longDescription",
+   "fact": "In 1098 the founders walked out of Molesme.",
+   "class": "plain",
+   "reason": "Undisputed; a date.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 52 (2026-11-08); era 5 Drafting_Record escalations A, C, D, E",
+   "wanted_text": "listed (era 5 README, Wanted texts): Exordium Parvum, Carta Caritatis (Guignard 1878)"
+  },
+  {
+   "movement": "athonite-and-comnenian-byzantine-monasticism",
+   "field": "why, longDescription",
+   "fact": "In 963 Athanasios founded the Great Lavra with imperial backing.",
+   "class": "plain",
+   "reason": "Undisputed; a date.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 52 (2026-11-08); era 5 Drafting_Record escalations A, C, D, E",
+   "wanted_text": "listed (era 5 README, Wanted texts): the Typikon of Athanasios and his Lives (Meyer 1894)"
+  },
+  {
+   "movement": "latin-papal-church-gregorian",
+   "field": "legacy",
+   "fact": "The Fourth Lateran Council made Jews and Muslims in Christian lands wear marked dress.",
+   "class": "guarded",
+   "reason": "Persecution: a discriminatory law against Jews and Muslims.",
+   "resolution": "reported",
+   "logged_in": "Open-Gaps 52 (2026-11-08); era 5 Drafting_Record escalations A, C, D, E",
+   "wanted_text": "listed (era 5 README, Wanted texts): Lateran IV, canon 68 (Mansi XXII)",
+   "source": [
+    {
+     "kind": "primary",
+     "work": "Nicholas V, letter of June 1447 (Bullarium Franciscanum n.s. I, n. 1072)",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "86068-86072",
+     "quote": "Saraceni cuiuscumque sexus et aetatis vel con-\nditionis distinctum habitum ac notoria signa,\nper quae evidenter a christianis cognosci pos-\nsint, ubique deferant et cum christianis non ha-\nbitent, sed segregati et separati inter se degant,",
+     "note": "Shows the marked-dress rule for Jews and Muslims being renewed in 1447. It does not name Lateran IV, so it does not source the 1215 canon."
+    }
+   ],
+   "prose_change": 12
+  },
+  {
+   "movement": "military-religious-orders-templars-hospitallers",
+   "field": "why, longDescription",
+   "fact": "The Templars were given a rule at the Council of Troyes in 1129.",
+   "class": "plain",
+   "reason": "Undisputed; a date.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 52 (2026-11-08); era 5 Drafting_Record escalations A, C, D, E",
+   "wanted_text": "listed (era 5 README, Wanted texts): the Rule of the Temple (Curzon 1886)"
+  },
+  {
+   "movement": "military-religious-orders-templars-hospitallers",
+   "field": "relationsSummary, legacy",
+   "fact": "The Hospitallers moved to Rhodes (1310), then Malta; the Order of Malta and the Protestant orders of St John, from which St John Ambulance grew, continue today.",
+   "class": "plain",
+   "reason": "Undisputed; dates only.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 52 (2026-11-08); era 5 Drafting_Record escalations A, C, D, E",
+   "wanted_text": "listed (era 5 README, Wanted texts): a repo-cited source on the orders of St John and St John Ambulance"
+  },
+  {
+   "movement": "latin-church-of-outremer",
+   "field": "legacy",
+   "fact": "William of Tyre's history became the standard Western account of the crusades for centuries.",
+   "class": "plain",
+   "reason": "Reception fact; undisputed.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 52 (2026-11-08); era 5 Drafting_Record escalations A, C, D, E",
+   "wanted_text": "listed (era 5 README, Wanted texts): a repo-cited work on William of Tyre's reception"
+  },
+  {
+   "movement": "joachimite-current",
+   "field": "legacy",
+   "fact": "Dante placed Joachim in paradise.",
+   "class": "plain",
+   "reason": "Undisputed.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 52 (2026-11-08); era 5 Drafting_Record escalations A, C, D, E",
+   "wanted_text": "listed (era 5 README, Wanted texts): Dante, Paradiso 12"
+  },
+  {
+   "movement": "cathars-albigensians",
+   "field": "legacy",
+   "fact": "The Albigensian Crusade attached Languedoc to the French crown.",
+   "class": "plain",
+   "reason": "The fact is the annexation; no act of violence is newly charged (the crusade is told elsewhere in the field). Undisputed.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 52 (2026-11-08); era 5 Drafting_Record escalations A, C, D, E",
+   "wanted_text": "listed (era 5 README, Wanted texts): the Treaty of Paris (1229)"
+  },
+  {
+   "movement": "balkan-bogomil-continuation",
+   "field": "legacy",
+   "fact": "The English word 'bugger' comes, by way of 'Bulgar', from the medieval association of the Bogomils with Western heresy.",
+   "class": "plain",
+   "reason": "Standard etymology; undisputed. (Open-Gaps 52 calls this \"the Waldensian name\"; the era 5 group C record names the three facts as Dante, Languedoc and this etymology.)",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 52 (2026-11-08); era 5 Drafting_Record escalations A, C, D, E",
+   "wanted_text": "not listed before; added to wants"
+  },
+  {
+   "movement": "byzantine-church-after-1054",
+   "field": "legacy",
+   "fact": "The sack of 1204 left a memory that shaped Orthodox attitudes to the West for centuries.",
+   "class": "plain",
+   "reason": "Undisputed; no new act charged.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 52 (2026-11-08); era 5 Drafting_Record escalations A, C, D, E",
+   "wanted_text": "listed (era 5 README, Wanted texts): Niketas Choniates for the sack; a reception source added to wants"
+  },
+  {
+   "movement": "byzantine-church-after-1054",
+   "field": "legacy",
+   "fact": "Pope John Paul II offered an apology for it in 2001.",
+   "class": "plain",
+   "reason": "A recorded public statement; not violence or a figure. The exact wording (\"apology\") is doubted by the era 5 drafter; see for_mark.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 52 (2026-11-08); era 5 Drafting_Record escalations A, C, D, E",
+   "wanted_text": "listed (era 5 README, Wanted texts): John Paul II's address in Athens, 4 May 2001"
+  },
+  {
+   "movement": "kievan-rus-christianity-1054-1240",
+   "field": "legacy",
+   "fact": "The Caves Monastery is claimed by rival Ukrainian churches.",
+   "class": "plain",
+   "reason": "A public present-day fact; undisputed that the claim exists.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 52 (2026-11-08); era 5 Drafting_Record escalations A, C, D, E",
+   "wanted_text": "listed (era 5 README, Wanted texts): a source for the dispute over the Kyiv Pechersk Lavra"
+  },
+  {
+   "movement": "kievan-rus-christianity-1054-1240",
+   "field": "legacy",
+   "fact": "Who inherits Kyiv's legacy is a live political question.",
+   "class": "plain",
+   "reason": "A present-day fact; undisputed that the question is live.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 52 (2026-11-08); era 5 Drafting_Record escalations A, C, D, E",
+   "wanted_text": "not listed before; added to wants"
+  },
+  {
+   "movement": "maronite-christianity-era-6",
+   "field": "why, longDescription",
+   "fact": "Mamluk campaigns against the Kesrwan around 1305 drove Christians from their homes.",
+   "class": "guarded",
+   "reason": "Violence: charges the Mamluk armies with driving out Christians.",
+   "resolution": "sourced",
+   "logged_in": "Open-Gaps 64 (2026-11-08); era 6 Revision_Round1 restored_facts",
+   "source": [
+    {
+     "kind": "primary",
+     "work": "Isṭifān al-Duwayhī, Tārīkh al-ṭā'ifa al-mārūniyya (ed. Shartūnī, Beirut 1890), quoting Ibn al-Ḥarīrī and Ibn Sibāṭ",
+     "file": "cic/texts/duwayhi_tarikh-al-ta-ifa-al-maruniyya-ara_shartuni1890.txt",
+     "lines": "4684, 4698, 4704",
+     "quote": "سنة ۱۳۰۷( ۵۲۰۷ ) ذکر ابن الريري وابن ساط انه في يوم الاشنين ... وانت الداثرة على الاعراء فهر بوا جرم واموامم واولادهم ونو * ۳۰ نفس‎ ... احدا من خاق الله صل الما .ربوا القرابا وقطعوا کردم و وهدموا البيع وقتاوا واسروا‎",
+     "note": "OCR kept as printed. Read: \"Year 1307 (707 AH): Ibn al-Hariri and Ibn Sibat record that on Monday...\" (4684; the march of the governor of Damascus, Aqqush al-Afram, follows on 4685-4686); the leaders \"fled with their women, goods and children\" (4698); the army \"laid waste the villages, cut down their vines, pulled down the churches (al-biya'), killed and took captive\" (4704). The preceding entry (4677-4682) gives the year before: the fatwa and the mustering of the Syrian armies. Duwayhi dates the main march 1307, the census \"around 1305\"; dates alone, not changed."
+    }
+   ]
+  },
+  {
+   "movement": "the-ethiopian-monastic-flowering",
+   "field": "why, longDescription",
+   "fact": "The Ewostathians were persecuted for their Sabbath for generations, until Zara Yaqob gave way at a council in 1450.",
+   "class": "guarded",
+   "reason": "Persecution. (The Sabbath practice and the council of 1450 are plain and stand.)",
+   "resolution": "reported",
+   "logged_in": "Open-Gaps 64 (2026-11-08); era 6 Revision_Round1 restored_facts",
+   "wanted_text": "listed (era 6 README, Wanted texts): Gadla Ewostatewos; the acts of the 1450 council; Taddesse Tamrat",
+   "prose_change": [
+    13,
+    14
+   ]
+  },
+  {
+   "movement": "st-thomas-christians-1300-1517",
+   "field": "why, longDescription",
+   "fact": "The St Thomas Christians were a trading group of high standing, with privileges from Hindu rulers and a headman of their own.",
+   "class": "plain",
+   "reason": "Undisputed; no violence or figure.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 64 (2026-11-08); era 6 Revision_Round1 restored_facts",
+   "wanted_text": "listed (era 6 README, Wanted texts): a repo-citable source for the privileges and headman"
+  },
+  {
+   "movement": "the-english-mystics-and-devout",
+   "field": "legacy",
+   "fact": "Julian is remembered each May in the Church of England's calendar.",
+   "class": "plain",
+   "reason": "Present-day fact; undisputed.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 64 (2026-11-08); era 6 Revision_Round1 restored_facts",
+   "wanted_text": "listed (era 6 README, Wanted texts): the Common Worship calendar"
+  },
+  {
+   "movement": "observant-reform-and-popular-preaching",
+   "field": "why, longDescription",
+   "fact": "John of Capistrano's preaching drove the persecution of Jewish communities, most notoriously at Breslau in 1453.",
+   "class": "guarded",
+   "reason": "Persecution.",
+   "resolution": "sourced",
+   "logged_in": "Open-Gaps 64 (2026-11-08); era 6 Revision_Round1 restored_facts",
+   "wanted_text": "listed (era 6 README, Wanted texts): Capistrano's report and the Breslau trial records of 1453, or Eschenloer's Breslau chronicle; Lea vol. II p. 549 added to wants",
+   "source": [
+    {
+     "kind": "primary",
+     "work": "Nicholas V, letter of June 1447 (Bullarium Franciscanum, nova series I, ed. Hüntemann 1929, n. 1072)",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "85929-85930",
+     "quote": "1072. Iohannem de Capistrano, O. F. M., deputat ex-\nsecutorem decretorum de iudaeis et Saracenis (’)."
+    },
+    {
+     "kind": "primary",
+     "work": "same letter, the rule it renews",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "86068-86072",
+     "quote": "Saraceni cuiuscumque sexus et aetatis vel con-\nditionis distinctum habitum ac notoria signa,\nper quae evidenter a christianis cognosci pos-\nsint, ubique deferant et cum christianis non ha-\nbitent, sed segregati et separati inter se degant,"
+    },
+    {
+     "kind": "primary",
+     "work": "same letter, the appointment",
+     "file": "cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt",
+     "lines": "86183-86186",
+     "quote": "mandentur, dilectum filium fratrem Iohannem\nde Capistrano, ordinis Minorum professorem,\nomnium praedictorum exsecutorem auctoritate\napostolica deputamus, instituimus et ordinamus,"
+    },
+    {
+     "kind": "secondary",
+     "work": "Lea, A History of the Inquisition of the Middle Ages, vol. III (1888), general index, entry \"Jews\"",
+     "file": "cic/texts/lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt",
+     "lines": "37341, 37378",
+     "quote": "Jews,  their  condition  in  southern  France,  i. ... burned  by  Capistrano  in  Breslau,  ii.  549.",
+     "note": "An index line only; the narrative it points to (vol. II, p. 549) is not in the Library. Lea vol. III is repo-cited (Observant source dossier; census)."
+    }
+   ],
+   "prose_change": [
+    1,
+    2,
+    16
+   ]
+  },
+  {
+   "movement": "the-bosnian-church",
+   "field": "longDescription",
+   "fact": "Rome from time to time sent friars against the Bosnian Church.",
+   "class": "guarded",
+   "reason": "Persecution: the friars were sent as inquisitors.",
+   "resolution": "sourced",
+   "logged_in": "Open-Gaps 64 (2026-11-08); era 6 Revision_Round1 restored_facts",
+   "wanted_text": "listed (era 6 README, Wanted texts): a clean edition of the Franciscan vicariate of Bosnia's founding documents",
+   "source": [
+    {
+     "kind": "primary",
+     "work": "Fermendžin, Acta Bosnae (1892), regest of Nicholas IV, 23 March 1291",
+     "file": "cic/texts/fermendzin_acta-bosnae-potissimum-ecclesiastica-lat_fermendzin1892.txt",
+     "lines": "1328-1331",
+     "quote": "\nXGYI.  1291,  23  Martii,  In  urbe  yeteri.\n\nNicolaus  PP.  lY.  ministro  ordinis  minorum  Proyinciae  Slayoniae  in-",
+     "note": "Boniface VIII repeats the order in 1298 (lines 1352-1357); Eugenius IV names James of the Marches inquisitor (line 10364). Regest form, Roman side only."
+    }
+   ]
+  },
+  {
+   "movement": "the-english-mystics-and-devout",
+   "field": "longDescription",
+   "fact": "Margery Kempe was a mother of fourteen.",
+   "class": "guarded",
+   "reason": "A number: a count of children.",
+   "resolution": "reported",
+   "logged_in": "Open-Gaps 64 (2026-11-08); era 6 Revision_Round1 restored_facts",
+   "wanted_text": "listed (era 6 README, Wanted texts): The Book of Margery Kempe in full",
+   "prose_change": 15
+  },
+  {
+   "movement": "the-english-mystics-and-devout",
+   "field": "longDescription, legacy",
+   "fact": "Margery was a brewer's wife who could not write, dictated her book, and its one copy turned up in 1934.",
+   "class": "plain",
+   "reason": "No violence or figure; dates only. (See for_mark on \"brewer's wife\".)",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 64 (2026-11-08); era 6 Revision_Round1 restored_facts",
+   "wanted_text": "listed (era 6 README, Wanted texts): The Book of Margery Kempe"
+  },
+  {
+   "movement": "the-english-mystics-and-devout",
+   "field": "legacy",
+   "fact": "Julian's cell was found after wartime bombing and built again.",
+   "class": "plain",
+   "reason": "No one is charged with the bombing; a place and a date.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 64 (2026-11-08); era 6 Revision_Round1 restored_facts",
+   "wanted_text": "not listed before; added to wants"
+  },
+  {
+   "movement": "devotio-moderna-brethren-of-the-common-life",
+   "field": "legacy",
+   "fact": "Most of the houses closed during the Reformation.",
+   "class": "plain",
+   "reason": "\"Most\" is not a figure; undisputed.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 64 (2026-11-08); era 6 Revision_Round1 restored_facts",
+   "wanted_text": "not listed before; added to wants"
+  },
+  {
+   "movement": "terminal-christian-nubia",
+   "field": "relationsSummary, why, longDescription",
+   "fact": "In 1317 the throne hall at Dongola became a mosque.",
+   "class": "plain",
+   "reason": "The conversion of a building, recorded by its inscription; undisputed; a date.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 64 (2026-11-08); era 6 Revision_Round1 restored_facts",
+   "wanted_text": "listed (era 6 README, Wanted texts): an edition of the 1317 Dongola inscription"
+  },
+  {
+   "movement": "franciscan-order-era-6",
+   "field": "relationsSummary, why, longDescription, legacy",
+   "fact": "Leo X divided the order with Ite vos on 29 May 1517.",
+   "class": "plain",
+   "reason": "Undisputed; a date.",
+   "resolution": "stands",
+   "logged_in": "Open-Gaps 64 (2026-11-08); era 6 Revision_Round1 restored_facts",
+   "wanted_text": "listed (era 6 README, Wanted texts): Ite vos (Bullarium Romanum, Turin ed. V; Wadding XVI)"
+  }
+ ],
+ "wants": [
+  "A source for the growing use of Coptic in Miaphysite worship after 451 (a public-domain history of the Coptic liturgy, or a repo-cited study)",
+  "A source showing the Ladder of Divine Ascent read in Orthodox monasteries in Lent (e.g. the Lenten Triodion, fourth Sunday, or a monastic typikon)",
+  "A source for the reception of Dorotheus of Gaza as standard monastic reading",
+  "A source for the present monastic communities at Mar Saba and Saint Catherine's, Sinai",
+  "A source for the earthquake (1349) and the Allied bombing (1944) of Monte Cassino",
+  "A present-day description of the Arian Baptistery and Sant'Apollinare Nuovo at Ravenna",
+  "An etymological dictionary in the Library (e.g. Skeat, Etymological Dictionary of the English Language, 1882) for 'bugger' from 'Bulgar'",
+  "A repo-cited study of the memory of 1204 in the Orthodox churches",
+  "A source for the present-day dispute over Kyiv's legacy between Kyiv and Moscow",
+  "Lea, A History of the Inquisition of the Middle Ages, vol. II (1888), p. 549 and following, for Capistrano at Breslau (only vol. III, whose index points there, is in the Library)",
+  "A public-domain account of St Julian's church, Norwich: the bombing in the war and the rebuilding of the cell",
+  "A source for the closing of the Devotio Moderna houses during the Reformation"
+ ],
+ "for_mark": [
+  "Breslau (the case you had in view). Two vendored texts carry it. Nicholas V's letter of June 1447 (Bullarium Franciscanum n.s. I, n. 1072, lines 85929-86186) renews the decrees restricting Jews and Muslims in Italy and makes Capistrano their enforcer. Lea's index (vol. III, lines 37341 and 37378) has 'Jews ... burned by Capistrano in Breslau, ii. 549'. Recommended: the sentences stand as sourced, with 'preaching' dropped (neither text shows it as the cause) and two sourced details added: the 1447 commission and the burning. Option b: keep the old two sentences word for word, sourced as they are. Option c: name Lea in the text. The weak point is that the Breslau witness is one index line; the page it points to is not in the Library (wanted).",
+  "John Paul II, 2001 (byzantine-church-after-1054 legacy). Left as written as a plain fact. The era 5 drafter doubts that 'apology' is his word; my own unchecked memory is that he spoke of deep regret and asked forgiveness. No text in the Library settles it, so nothing is changed; the Athens address is wanted.",
+  "Margery Kempe, 'a brewer's wife' (the-english-mystics-and-devout). Not part of this ruling's guard, but standard accounts, from her own Book, say she ran a brewery herself. Unchecked here, since the Book is not in the Library. For the entry owner.",
+  "Alfred, 'could barely find a priest south of the Thames'. His preface, as usually translated, says he could not remember a single one south of the Thames. The softer wording is not wrong in direction; left for the entry owner.",
+  "Date spans ('roughly sixteen centuries', 'nearly eight hundred years later', 'nearly three centuries') are read here as dates, not numbers, since each is worked out from two dates. If you want them guarded as figures, three sentences are affected."
+ ],
+ "notes": "Ruling 6 applied to the logged set only: Open-Gaps 24 (era 2, with its era 3 and era 4 sub-entries), 52 (era 5) and 64 (era 6), with the specific sentences taken from the era audits' Drafting_Record escalations and the era 6 Revision_Round1 restored_facts. 53 facts: 35 plain (stand; wanted text confirmed listed, or added to wants where it was not) and 18 guarded. Of the guarded: 6 sourced (Breslau, Lindisfarne, the Paulicians' persecution, Photius's 279 books, the Kesrwan campaigns, the friars sent to Bosnia), 11 stated as what is reported, each naming its witness (Monte Cassino, the Viking destruction per Alfred, Aelfric's count per his editors, the Olafs per the sagas, Olaf's martyrdom per later writers, Stephen per his Life, Theodore per his letters, the Paulician raids per Byzantine accounts, Lateran IV per its canons, the Ewostathians per their saints' lives, Margery's fourteen per her Book), and 1 (Cluny and the Cistercians) left as already qualified, because it is a relationship and outside this ruling. 'Reported' never weakens a documented act into doubt: no 'alleged', no 'may have'. Movement texts carry no inline citations, so the sources are recorded per fact here. Two sources were added to movement source lists, whose shape (work, type, note) takes them: the Bullarium Franciscanum on the Observant movement and Alcuin's Lindisfarne poem on the Anglo-Saxon movement (prose changes 16-17, field 'sources'; no readability score). The Maronite and Bosnian movements have no source list, so Duwayhi and Fermendzin are recorded here only. Every changed field scores Reading Ease >= 60 and FK <= 10. The era 4 fields (late Anglo-Saxon, Scandinavian, iconophile, Paulician) failed the target before this change, so their long sentences were split to pass; no other fact in them was changed. Quotes are copied from the files at the stated lines, OCR as printed. Near the logged set but outside it, not touched: 'hundreds of Christian rune stones' (scandinavian legacy, a count); Zara Yaqob's persecution of the Estifanos monks (Ethiopian why and longDescription)."
+}

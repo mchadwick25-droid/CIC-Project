@@ -163,9 +163,14 @@ def test_the_voice_is_told_not_to_say_the_quote_before_it_is_placed():
     ("desert", 4, "It is Christ who works them, by means of those who believe in him."),  # Antony unnamed
     ("ijc", 3, "Eusebius of Caesarea, who was at the council, hesitated before he signed"),  # Socrates' words
 ])
-def test_a_quote_whose_lead_in_does_not_name_its_speaker_is_not_placed(world, q, lead):
-    assert (grounding_net.REASON_SPEAKER_UNNAMED, lead) in _removed(world, q)
-    assert _replayed(world, q)["first_net"]["reply_shape"]["placed"] == []
+def test_a_quote_whose_lead_in_does_not_name_its_speaker_is_placed_under_codes_lead_in(world, q, lead):
+    # the voice's lead-in goes and code writes one that names the speaker
+    # and the repair is recorded with the voice's draft
+    shape = _replayed(world, q)["first_net"]["reply_shape"]
+    assert len(shape["placed"]) == 1
+    assert [r for r in shape["repaired"] if lead.rstrip(".") in r["draft"]]
+    assert all(r["lead_in"].startswith("In today's English, ") for r in shape["repaired"])
+    assert (grounding_net.REASON_SPEAKER_UNNAMED, lead) not in _removed(world, q)
 
 
 @pytest.mark.parametrize("run", list(live11_replay.RUNS))
@@ -232,13 +237,14 @@ def test_syr_has_no_post_window_year_left_in_what_its_voice_is_offered():
     assert findings == []
 
 
-# ---- 6. 'we', not 'I' -----------------------------------------------------
+# ---- 6. 'we' for the tradition, 'I' in the conversation ------------------
 
 
-def test_the_pronoun_rule_answers_a_question_put_to_you_as_we():
+def test_the_pronoun_rule_gives_the_traditions_perspective_as_we_and_the_conversation_as_i():
     shape = shape_text()
-    assert "The exception is that one naming sentence, not a license for 'I'." in shape
-    assert "'what we would want you to understand', 'we believed it because'" in shape
+    assert "not a license for 'I'" not in shape
+    assert "('we believed it because', 'what we would want you to understand')" in shape
+    assert "'I' is for the voice's own acts in this conversation" in shape
 
 
 # ---- 7. Q1 and Q2 reach their world's own evidence ------------------------
@@ -300,10 +306,13 @@ def test_every_rebuilt_retest_draft_puts_every_recorded_sentence_back():
 def test_the_replay_over_all_42_retest_drafts():
     counts = live11_replay.summary(live11_replay.run_all(RUN), RUN)
     assert counts["turns"] == 42
-    # recorded on 14 October: 20 cuts, 8 overcuts, 10 placed, 2 unnamed
-    assert counts["cuts"] == 18
+    # code writes the lead-in for a quote whose lead-in names no speaker,
+    # so 2 quotes are placed that were cut. The absence rule then withholds 3
+    # more: alx Q5, hal Q3 and pahc Q2, each a stated absence with no record
+    # behind it.
+    assert counts["cuts"] == 19
     # still cut: ijc Q2's creed clauses, ijc Q3's homoios phrases and desert
     # Q5's reworded saying, which the records they cite do not hold as theirs
     assert counts["overcuts_still_cut"] == 3
-    assert counts["placed_quotes"] == 7 and counts["placed_without_speaker_named"] == 0
+    assert counts["placed_quotes"] == 9 and counts["placed_without_speaker_named"] == 0
     assert counts["degraded_sent"] == 0 and counts["stray_punctuation_sentences"] == 0

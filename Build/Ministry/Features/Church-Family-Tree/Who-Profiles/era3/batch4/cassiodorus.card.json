@@ -1,0 +1,103 @@
+{
+  "name": "Cassiodorus",
+  "otherNames": [
+    "Cassiodorus Senator",
+    "Magnus Aurelius Cassiodorus Senator (Hodgkin's form)",
+    "\"the Senator\" (in Jordanes)"
+  ],
+  "knownFor": "A Roman statesman in the service of the Gothic kings of Italy who wrote their letters, then founded the monastery of Vivarium and wrote for its monks a guide to sacred and secular reading.",
+  "dates": "Consul in the year Theodor Mommsen numbers 514, by his own chronicle; praetorian prefect from the year Thomas Hodgkin gives as 533. He wrote on spelling in his ninety-third year, by his own word. Hodgkin, following Trithemius, puts his birth about 480 and his death in 575",
+  "place": "Italy, at the Gothic court in Ravenna and at Rome; later Vivarium, near Scyllacium (Squillace) in the far south, where Hodgkin says his family came from",
+  "tradition": "The Roman Church in the Age of Gregory the Great",
+  "role": "Statesman; founder of the monastery of Vivarium; writer",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Variae",
+      "about": "twelve books of the letters he wrote for the Gothic kings and, as prefect, in his own name"
+    },
+    {
+      "title": "Institutions of Divine and Secular Learning (Institutiones)",
+      "about": "a guide for the monks of Vivarium to the reading of Scripture and its commentators, and to the liberal arts"
+    },
+    {
+      "title": "Exposition of the Psalms (Expositio Psalmorum)",
+      "about": "a commentary on the Psalms, which by his own word he began at the time of his turn to the religious life"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "At Vivarium he set his monks to copy and bind books, and made them lamps that fed their own flame, a sundial and a water-clock for the work, as he describes in the Institutions.",
+      "With Pope Agapetus he planned a Christian school at Rome on the models of Alexandria and Nisibis; war stopped it, he says.",
+      "Jordanes says he condensed the twelve books of the Senator's History of the Goths, which is lost, into his own short work."
+    ],
+    "remembered": [
+      "Hodgkin calls him \"a statesman of considerable sagacity and of unblemished honour, a well-read scholar, and a devout Christian; but he was apt to crouch before the possessors of power however unworthy\".",
+      "Alcuin of York lists Cassiodorus among the authors in the library of York."
+    ]
+  },
+  "uncertain": [
+    "His years. No early source gives his birth or death. Hodgkin's 480 and 575 rest on Trithemius, a writer who died in 1516, whom Hodgkin calls \"a very late and somewhat unsatisfactory source\". Hugh Williams gives his death as 570, and Philipp Strauch as 563. The one fixed point is his own \"ninety-third year\", which no source dates.",
+    "His name. Mommsen and Hodgkin hold that Senator was his own name, not a title. Paul the Deacon, two centuries later, took it as a rank.",
+    "Whether he was abbot or a Benedictine. He names two abbots, Chalcedonius and Gerontius, in the Institutions. Hodgkin thinks he probably never formally held the office, though he allows that Trithemius, who says he was elected abbot, may preserve a true tradition. Hodgkin finds no mention of Benedict of Nursia in his writings.",
+    "His History of the Goths is lost. Jordanes says he condensed it after a three days' reading, which Hodgkin calls false.",
+    "Much of his life is told in his own letters, some written in the king's name in praise of himself, as Hodgkin notes.",
+    "Hodgkin's English of the Variae is condensed. Most letters are summaries; the preface to Book I and the letter on Scyllacium are given in full."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Letters of Cassiodorus (Variae, condensed tr. Thomas Hodgkin)",
+        "language": "English translation",
+        "file": "cic/texts/cassiodorus_variae-letters-hodgkin1886.txt"
+      },
+      {
+        "title": "Opera: Institutiones, Expositio in Psalterium, De orthographia, De anima (Patrologia Latina 70)",
+        "language": "Latin",
+        "file": "cic/texts/cassiodorus_opera-institutiones-pl70-lat_migne1847.txt"
+      },
+      {
+        "title": "Chronica (ed. Theodor Mommsen, Chronica minora II)",
+        "language": "Latin",
+        "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Introduction to The Letters of Cassiodorus, with the Anecdoton Holderi",
+        "author": "Thomas Hodgkin",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/cassiodorus_variae-letters-hodgkin1886.txt"
+      },
+      {
+        "title": "The Origin and Deeds of the Goths (tr. C. C. Mierow)",
+        "author": "Jordanes",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/jordanes_origin-and-deeds-of-the-goths_mierow1908.txt"
+      },
+      {
+        "title": "Preface to the Chronica",
+        "author": "Theodor Mommsen",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt"
+      },
+      {
+        "title": "Notes to Die Offenbarungen der Adelheid Langmann",
+        "author": "Philipp Strauch",
+        "date": null,
+        "language": "German",
+        "file": "cic/texts/langmann_offenbarungen-gmh_strauch1878.txt"
+      },
+      {
+        "title": "Notes to Gildas",
+        "author": "Hugh Williams",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899.txt"
+      }
+    ]
+  }
+}

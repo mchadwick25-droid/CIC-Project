@@ -1,0 +1,3997 @@
+Title: The Christian East, volume X, number 4 (Winter, 1929)
+Creator: The Christian East (many writers); the number as scanned has no cover leaf and names no editor
+Publisher: Not printed in the number as scanned, which has no cover leaf
+Publication Date: 1929 (masthead: 'Winter, 1929', OCR line 1)
+Rights: Public Domain (pd-us-by-date: published 1929); the archive.org record carries no rights field, so the printed date is the basis
+Language: eng
+Source: archive.org item per_christian-east_the-christian-east_winter-1929_10_4, full text from the item's own djvu.txt (per_christian-east_the-christian-east_winter-1929_10_4_djvu.txt). Fetched directly 2026-11-16 by the Library thread; the byte count of the downloaded file (142,343) equals the size archive.org lists for the djvu.txt.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1929, out of US copyright by date. OCR quality: Mostly clean English prose; running heads, page numbers and footnotes sit in the text, Greek is garbled, and plate leaves leave runs of junk lines. Word count of the host text: 24,260. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
+Content note: One number of the quarterly. Masthead at OCR line 1. Contents, by the OCR line of each heading: 'Chronicle and Causerie', with an eirenic letter from the new Ecumenical Patriarch to the Archbishop of Canterbury, October, 1929, and the Archbishop's reply (7); D. J. Chitty, 'The Spirit of Orthodox Christianity' (384); P. B. Anderson, 'The New Law on Religion in Russia' (1035); 'The Attitude of the Orthodox Church to the Faith and Order Movement', a speech at the Maloja meeting of the Continuation Committee by a professor whose surname the OCR drops ('Pror. Hamiccar S. D.D.', line 1457) (1453); C. B. Moss, 'An Impression of Valamo' (1733); on the ideas of Leo Tolstoi, translated from Naroden Straj by L. Patterson (1839); 'Pannykhida: or Office for the Faithful Departed', in W. J. Birkbeck's translation (2247); 'Our Books' (3029); 'A. and E.C.A. Notes' (3505). The text ends at 3632; advertisement leaves and an appeal follow, with '1930' at 3766 and 3844.
+
+______________________________________________________________________
+
+WINTER, 1929.] | | | (Vor. X. No. 4. 
+
+
+G@he Christian East 
+
+
+CHRONICLE AND CAUSERIE. 
+
+
+UR frontispiece is the reproduction of.an Ikon presented last 
+summer by the Patriarch and Synod of Constantinople 
+
+to Archbishop Lord Davidson, who has kindly allowed the 
+Ikon to be photographed especially for publication in The Christian 
+East. It is a graceful and significant gesture which thus pays 
+tribute to the long, consistent and fruitful labours of Archbishop 
+Davidson for the furtherance of Re-union between the Anglican 
+and Orthodox Communions. The presentation was made by the 
+Metropolitan Germanos of Thyatira, who at the same time handed 
+tothe Archbishop the following letter from the Gécumenical Patriarch: 
+
+
+‘“Most venerable Archbishop, formerly of Canterbury, our most 
+beloved brother in Christ, our Lord, Mgr. Randall, grace be to 
+you and peace from God the Father and Our Lord Jesus Christ. 
+
+It is our desire, on the occasion of your venerable Grace's retire- 
+ment from active ministry, to give some token of the deep honour 
+and love which our Church feels, and will always continue to feel, 
+towards Your Grace’s person, for all that Your Grace, in the 
+course of a Jong and honoured ministry, has done for the strength- | 
+ening of the relations between the Anglican and Orthodox Churches, 
+relations which, by the blessing of God, have, in the days of 
+Your Grace, been so far advanced ; and also for Your highly- 
+treasured good-will towards Orthodoxy, and in appreciation of — 
+the interest in our Church evinced by Your Grace. 
+
+Thereforé we, together with our Holy Synod, have decided to 
+send with this letter to Your Grace a small remembrance and 
+token of our honour and love, an Ikon of our Saviour Christ, which 
+we pray Your Grace kindly to accept. 
+
+May this holy Ikon (which is a copy made by the Josafaios 
+brotherhood of hagiographers on the Holy Mountain, from the 
+original in the Church of the Protatos, the work of the famous 
+Renaissance painter of Byzantine Art in the Holy. Mountain, 
+Manuel Panselenos) be a tangible sign, for all time, of the great 
+esteem in which our Church and we ourselves hold your sacred ~ 
+Grace, and, in general of the honour with which we regard the 
+Anglican Church. 
+
+May our Lord bountifully bestow His Grace upon Your Grace’s 
+head and vouchsafe to you many years of health and happiness.” 
+
+
+> 
+> 
+‘ 
+> 
+a 
+| 
+| 
+fs 
+
+
+330 THE CHRISTIAN EAST 
+
+
+. Eirenic Letter from the new (Ecumenical Patriarch to the 
+Archbishop of Canterbury :— | 
+
+
+Most reverend Archbishop of Canterbury and Primate of All 
+England, our beloved brother in Christ our God, Cosmo 
+Gordon Lang, Grace be to you and peace from God the Father 
+and Our Lord Jesus Christ. 
+
+
+It is with great pleasure that we follow the example of our Pre- 
+decessor and adhere to the custom, which, by the grace of Christ, 
+was recently introduced and now prevails, of reciprocally communi- 
+cating any changes taking place in the higher administration of either 
+Church. | | 
+
+Therefore, we are moved, by this present to announce to your 
+revered Grace and the Venerable Anglican Church our elevation, 
+by Ged’s Will and favour, to the most Holy Patriarchal and (Ecumen- 
+ical Throne of Constantinople, following the decease of our Venerable 
+Predecessor, the most Holy Patnarch Basil III, and we take this 
+opportunity to send to your Grace cordial greetings in Christ. 
+
+In expressing the great honour in which we hold the bonds of 
+brotherly relations, which promote the work of love and general 
+re-union of the Christian Churches and all Christians, and which, in 
+so far as regards our own Churches, have already by the Divine 
+Grace, passed beyond mere external cordiality, we gladly give you 
+our assurance that these bonds of relationship and rapprochement _ 
+with the venerable Anglican Church, in the love of Chnst and on 
+behalf of His work, will, during our tenure of this Holy See also be 
+
+_ diligently fostered and cherished, and that, for our part, at least, 
+nothing will be left undone that may make them closer and 
+stronger. | 
+
+Therefore, in the firm conviction that the venerable Anglican 
+Church and your revered Grace are of the same view and disposition, 
+
+_ we pray that our Lord and Saviour, who established one Holy Church 
+and desired that all who believe in Him “ may be one,” may bless 
+and prosper our mutual endeavour. 
+
+Furthermore, we beg to inform your Grace that, following on a 
+decision taken in common with our Holy Synod, we have renewed 
+the authority given to our beloved and Most Reverend Metropolitan 
+of Thyatira and Exarch of Western and Northern Europe, Mgr. 
+Germanos (who has worked so zealously and successfully and to our 
+mutual satisfaction for the strengthening of these relations between 
+
+_our Churches) who will therefore continue as the Permanent Kepre- 
+sentative of ourselves and our Church in all relations with your Grace 
+and the Anglican Church, and we pray that, in the future as in th 
+past, he may be afforded your-Grace’s love and confidence. — 
+
+_ Finally, we beseech our Lord that He may shower down the bless- 
+ings of His Grace upon the venerable Anglican Church, which nos. 
+as always, cherishes the love of Christ, and with divine zeal, labours 
+
+
+& 
+
+
+2 
+ee 
+é j 
+
+
+CHRONICLE AND CAUSERIE 331 
+
+
+for His work, as also upon your beloved Grace, both in your high and 
+holy Ministry and in all other things. 
+We remain, in love and great honour, 
+Your Venerable Grace's 
+
+
+October, 1929. 
+
+
+x 
+The Archbishop replied as follows -— 
+To His All Holiness, the Lord Photios, Gcumensa! Patnarch of 
+
+
+Constantinople, Our Venerable and Beloved Brother in Christ, 
+Grace to you and Peace through God 
+Lord Jesus Christ. 
+
+
+It is with great thankfulness that we have received the formal 
+
+
+* 
+
+
+announcement of your elevation to the august and most Holy Throne 
+of Constantinople, and we hasten to assure your All Holiness that 
+we and many faithful people in the Church over winch we have been 
+called to preside will be remembering you at this time in our thoughts 
+and prayers, desiring that you may ie » uphels in vour high office 
+by the Divine Grace, and strengthe there by the Holv 
+
+
+for the great tasks which lie before you. 
+
+
+We observe with great satisfaction the warm sympathy of vour All 
+Holiness towards the Anglican Church and with all that binds the 
+Church of England and the Holy Orthodox Churches ever more 
+
+
+closely, and we sincerely hope that during g the time of your patriarch- 
+ate and our primacy those ties may be strengthened anc drawn vet 
+closer still. 
+
+We are also delighted to senied hat you wr All Holiness with your 
+
+
+reverend Metropolitan of Germanos, whom 
+we hold in such high esteem as Representa of yourself and of 
+your Church in all relations with the Church of England. 
+
+Finally, at this beginning of another year, et us commend your All 
+Holiness and all the Holy Orthodox Churches of God to the Divine 
+Favour, and we pray that, through all the vicissitudes of these 
+dificult and anxious times, the Divine Guidance may make clear 
+
+
+~ 
+
+
+your path, to the Glory of God and to the fulfilment of His Holy 
+Will. 
+We remain, Your All Holiness, in love and preat honour, 
+Your beloved brother in Chn 
+(Signed) Cosmo CANTUAR 
+
+
+x 
+
+
+The Greek ecclesiastical Press gave impressive accounts of the 
+
+
+funeral of the late (Ecumenical Patrfirch. which took place in the 
+
+
+presence of a vast concourse of sitet be who from earbest dawn 
+thronged the precinct of the Patriarchal Church and the neaghbour- 
+
+
+ot 
+> 
+> * 
+* 
+
+
+» 
+
+
+132 THE CHRISTIAN EAST 
+
+
+ing streets. The priests of the Russian, Serbian and English parishes 
+attended, and took part in the stately service at the Patriarchal 
+Church before the body was carried to Baloukli for interment next 
+to the tomb of Joachim III. Orthodoxia thus describes the pro- 
+cession: ‘‘ First came the Patriarchal ushers, followed by two 
+deacons, one bearing a vial of wine and the other a salver with rusks. 
+
+
+These were followed by two lines of hexapteriga, after which came 
+
+
+six archimandrites. The hexapteriga of the Patriarchal Church 
+followed, and the Patriarchal choirs singing the processional funeral 
+hymn. Next came the clergy of the Patriarchate, and after them the 
+Metropolitans of Silivria, Myra, and Laodicea, with the Patriarch’s 
+deacons on both sides of them, carrying censers and the two-branched 
+and three-branched candlesticks. Finally came all the Metropolli- 
+tans, bishops, the Great totes yncets, © the Chief Secretary and the 
+Great Archimandrite.”’ 
+* * * * 
+
+The Ecumenical Throne was spared a long widowhood, and on 
+October 7th a unanimous decision elected the Metropolitan of 
+Derkos to succeed Basil III. He took the name of Photios and so 
+becomes Photios II. The new Ccumenical Patriarch is compara- 
+
+
+tively young—he is fifty-five years of age, and a man of intellectual 
+
+
+and spiritual powers well qualified to carry on the best traditions of 
+the (Ecumenical Patriarchate. At his enthronement he was thus 
+addressed in the Great Proclamation: ‘‘ The Sacred Body of Most 
+Holy Metropolitans having elected Your All-Holiness Archbishop 
+of Constantinople, New Rome and (Ecumenical Patriarch, summon 
+You, in conjunction with the holy clergy and with the acclamations 
+of the whole body of the Orthodox faithful, to ascend this most Holy 
+Apostolic and (cumenical Throne. Ascend therefore most Holy 
+Lord, its steps and adorn it to old age, as your predecessors adorned it, 
+Andrew the First-called, Gregory the Theologian, John Chrysostom, 
+Photios the Renowned, Michael Cerularius, Gennadius Scholarius, 
+Samuel the Byzantine, and the remainder of the august company 
+who by happy lot reigned gloriously as Patriarchs, and guide both 
+clergy and laity who are entrusted to You from on high into the 
+paths of salvation and the pastures of evangelical grace.’ And 
+when he was given the Pastoral Staff, these words were said: 
+
+
+- “ Receive this Staff which typifies the rod of Moses, that as he 
+
+
+divided the Red Sea and brought Israel of old safely to the Promised 
+Land, so You, leaning thereupon may lead the new Israel safe and 
+unharmed into the eternal Land of Promise. Be strong and of good 
+courage, for that You must give account to our God and Chief 
+Shepherd, Jesus Christ.”” The Patriarch replied “ I give thanks and 
+I pray that I may fulfil the expectations of the Church.” 
+
+It is no secret that the new Patriarch is keenly interested in the 
+Ke-union movement, and cordially disposed towards the Anglican 
+Communion. 
+
+
+>. 
+
+
+CHRONICLE AND CAUSERIE 133 
+
+
+Last October the clergy of the Metropolitan See of Thyatira met 
+in Conference under the Presidency of the Archbishop Germanos in 
+Paris.* The Conference lasted four full days, and opened with a 
+
+Pontifical Liturgy in which four priests took part. At each session — 
+a paper was read and discussion followed, after which the President 
+summed up and indicated points to which the committee should 
+direct its attention. This committee (ad hoc) then met and formu- 
+lated its conclusions in the shape of simple proposals. There were 
+five such papers: (I), ‘‘ The catechetical work of the priest abroad ”’ 
+(The Protopriest C. Callinicos of Manchester) ; (2), ‘‘ Preaching ; its 
+time, place, subject-matter and language’ (The Archimandrite T. 
+Paraskeuaides of Leipzig) ; (3), ““ Confession and the Eucharist, and 
+the Fast preceding it, from a practical point of view’”’ (The Archi- 
+mandrite J. Andreades of Munich) ; (4), ‘‘ The Service of the Divine 
+Liturgy ; the Celebrant. ‘The Service of Mattins with or without a 
+Reader ’’ (The Archimandrite A. Paradeises of Paris); (5), ‘“‘ The 
+social activity of the Greek priest abroad ’’ (The Great Archimandrite 
+M. Constantinides of London). The last day was occupied in hearing 
+and discussing the reports of the several committees, and the whole 
+Conference closed with the doxology and prayers of thanksgiving. 
+
+
+* * * * 
+
+
+Some of the finest examples of Russian ikonography have been on 
+view in London, and no doubt many of our readers have been to 
+South Kensington to see them. It was a splendid collection, which 
+showed the Russian ikon not only at its best, but also at the different 
+stages of its historical development. We imagine that few visitors 
+to the exhibition were disappointed, though they may have experi- 
+enced there a curious blending of enthusiasm and grief, of reverence 
+and indignation. For the collection was lent by the Soviet Govern- 
+ment. Why? We know what the Soviet Government thinks of the 
+Faith which created the ikons and inspired their painters. Is it 
+possible that while Bolshevism regards Christianity as an evil in 
+itself, yet thinks one of its characteristic products is so good as to be 
+worth fouring Europe with? As for the ikons themselves, if in a 
+sense the glory is departed in that they are now stripped of their 
+adornment of precious metal and stones, yet in a better sense the 
+glory is recovered, for many of them have been most, skilfully cleaned 
+and now reveal their first beauty as the painters left them. The 
+catalogue represents most of the ikons as having been brought from 
+such and such a Museum. It would be interesting to know how long 
+they have been in these Museums and where they were before ! 
+
+* * 
+
+
+The Sixth Anglo-Catholic Pilgrimage is announced to leave London 
+on April 29th, 1930, and the itinerary will include Egypt, Athens 
+and Constantinople, as well as the Holy Land, which is of course its 
+main objective. An excellent * Pilgrim's Manual ”’ (2s. 6d.) has been 
+
+
+is 
+j 
+F 
+| 
+‘ 
+> 
+| 
+> 
+4 
+* 
+3 
+; 
+= 
+
+
+134. THE CHRISTIAN EAST 
+
+
+edited by the Rev. G. N. Whittingham. The contents are mainly 
+devotional, but practical information, historical notes, and so’ on, 
+
+
+are added by various contributors. Many pilgrims in spirit as well 
+as pilgrims in fact will find this admirable little book of great value. 
+
+
+THE SPIRIT OF ORTHODOX CHRISTIANITY. 
+By the Rev. D. J. Cuitty. 
+
+
+(A Paper read before the Egyptian Fellowship of Unity. Cairo, 
+
+
+November 8th, 1929.) 
+
+
+‘OTH in Russian and in Syriac, “ Orthodoxy” (op0n do€a) 
+
+is translated not “right opinion,” but “right glory ’—right 
+worship., The sense given is incomplete, but significant. For it 
+means that here the criterion is not the head but the heart. But the 
+heart is not thought of as the seat of the emotions. It is the seat 
+of intellectual vision; the head can work out our understanding, 
+but-only the heart can open to us material for understanding. For 
+too long in the West the proud head of man has tried to do without 
+
+
+the heart, or to treat it as.merely the seat of the emotions, a useful 
+
+
+but dangerous servant. And inevitably the proud head of man 
+has lost its organic link with Reality and tried to replace it with 
+Logic. The work of Orthodoxy is to bring our minds down from 
+the lofty throne of the head, into the humility of the heart, where 
+Reality is to be found. _ 
+
+The humility of the heart—for the heart is in abasement before 
+the vastness of God: at the same time the Historic Facts of Christ 
+are seen with intense realism in the intimacy of the Holy Spirit 
+by which the heart finds in these facts its own royal freedom. 
+
+In Orthodoxy, Doctrine and Worship and Life are one. 
+
+In the West this is forgotten. The continued use of the Latin 
+language divorced doctrine from worship in such a way that 
+doctrine became a system of philosophy, and worship a system of 
+emotional expression, both superimposed upon life. 
+
+At the same time the fact that the priest alone commonly 
+understood the Liturgy made him the final authority in its 
+interpretation, 
+
+But the ideal of the Orthodox Church has always been that the 
+Liturgy should be in the language of the people. As a result, 
+their Liturgies being the great vehicles of doctrine, the people 
+learn their doctrine as they offer it in worship. So the understand- 
+ing is kept in its right dependence on the heart, and the worship 
+is saved from emotionalism. ‘Both are held to a reality, which ts 
+
+
+“known to be beyond understanding and above worship, but 
+
+
+intimately present-to both. The fulness of our religion. is. no 
+
+
+| 
+j 
+| 
+4 
+
+4 
+5 
+
+
+SPIRIT OF ORTHODOX CHRISTIANITY — 135 
+
+
+theory, but is known in prayer; and nothing can break such 
+knowledge. 
+
+Humility and awe have kept the Liturgy so balance d in the face 
+of Reality that no moment, however holy, comes forward out of 
+its proper proportion to blur the whole. The worshipper may 
+not notice it all while he is in Church, but he departs and this 
+unobtrusive thing goes on working its way into all his life. The 
+Liturgy becomes his ineffaceable background. 
+
+And, again, because the Liturgy belongs to the people, the 
+Liturgy itself is the final authority, and the peasant can on occasion 
+appeal to it against priest or scholar, and be justified. Seen on 
+a larger scale this means that neither Pope nor Patriarch, nor in 
+itself even an Gécumenical Council, have the final authority. Only 
+the actual consent of the people of the Church confirms their 
+decisions and proves them to be indeed the infallible voice of the 
+Church. 
+
+Again, in the West the individual authority of priest, bishop, 
+pope, encouraged a wrong kind of individualism which on the 
+whole only became more developed in the Reformation when every 
+man became his own Pope. Religion had become something 
+superimposed. Men tried to find the way out each in his own 
+heart. But the danger here is lest he should forget that the reality 
+he knows in his own heart is the same reality that reveals itself 
+to him in the world around him. The heart must not be an escape 
+from that world, only a fuller, closer entry into it. The nearer 
+you are to God, the nearer you are to your neighbour. And God 
+cannot be any man’s monopoly. To the Orthodox, Church Life 
+-and the Life of the Soul are seen to be really identical. It is 
+possible for some saints to live a full Church Life in real isolation, 
+without even the services of the Church, and with only one simple 
+_ prayer constantly repeated. But before this can be attained we 
+need to be very sure of our Church Life. 
+
+The Orthodox Church, which is the Church par excellence of 
+Liturgical worship, is also the Church par excellence of the 
+Hermits. | 
+
+We are afraid lest theology should obscure the simplicity of 
+Christ’s intimacy with us. Some men try to do without theology. 
+The Orthodox also understand this fear. But their answer as a 
+Church is to throw all the fulness of their theological thought into 
+their worship. Its very bulk suggests the awful fulness of God 
+and makes us afraid to dwell on any single point too long, -lest 
+it should upset the balance and simplicity of our. approach to and 
+worship of God.~ I have; an idea that many western’ ways of 
+meditatiqn are rather alien to the Orthodox spirit. 
+
+The Church is something intensely real and present and yet 
+something above us. For Orthodoxy is always based not on any 
+ste of a legal minimum to be required (Latin ideas on works 
+
+
+/ 
+
+
+i 
+
+
+7 
+q 
+3 
+| ‘ 
+i 
+i 
+| 
+{ 
+i 
+H 
+3 
+4 
+> 
+i > 
+2 
+~ 
+4 
+> 
+4 
+
+
+136 THE CHRISTIAN EAST | 
+
+
+of supererogation are contrary to the Orthodox spirit), but as a 
+maximum, an ideal which will always be above.us, but which 
+remains our necessary aim. . The individual cannot attain to it, 
+but he is anchored to it in the Church. The Orthodox speaks of 
+himself as a member of the Orthodox Church, but cannot think 
+of himself as individually an Orthodox or a Catholic, in isolation 
+from thought of the whole Church. Only the Church is truly 
+called Orthodox or Catholic. He is in the Church by the power 
+of the spirit holding him, the bonds of love. So it is that in the 
+Liturgy, the creed is introduced with the words, “Let us love one 
+another, that we may confess... . .”—for apart from the Life of 
+the Church no individual can mate a true confession of Faith; 
+even if he uses the same words, their meaning cannot be complete 
+except in the Life of the Church. Only this life does mean that 
+each member partakes of the intimacy of the Spirit. It is surely 
+incredible that for an Orthodox the question should arise, as it does 
+for the Latins, whether the mystical way of Union with God is 
+for all Christians, or is only possible for some. Of course, it must 
+be for all. 
+
+Again the fact that Orthodoxy is elicited, not imposed, means 
+surely that even had Adam not fallen, the Incarnation was the only 
+inevitable fulfilment of creation. Here again a Latin problem 
+would not arise for the Orthodox. This cosmic nature of 
+Orthodoxy, which comes not to snatch us away from creation, but 
+to save and glorify all creation, leads us on to the thought of 
+Orthodoxy as a religion which must attach great importance to its 
+historical nature. Christ took human nature, not that human 
+nature might be absorbed or lost in God, but that it might really 
+find its fulness in Him. This means that the body, the material 
+world, etc., can never be matters of indifference to the Orthodox. 
+
+This is why the historic and visible Unity of the Church can never 
+be a secondary matter to the Orthodox Church. For her, if at any 
+period there had ceased to be one Body retaining the fulness of — 
+the faith and the visible Unity of the Church, then at that period 
+the Incarnation of the one Christ would have ceased to be a present 
+fact. For the Church is the Risen Body of Christ still present 
+and incarnate. ; But of that I must speak more later. 
+
+The Orthodox Church is the Church of the Holy Places. This 
+is NO superstitious attachment, but the same attention to history. 
+To neglect them would be rather like neglecting the Bible. She 
+is at home in all the world and yet inevitably she does come back 
+to the Holy Places as we all come back to the homes of our 
+childhood, with a special love. And somehow if we lost that 
+special love, we should lose with it our power for loving any other 
+
+_ place in all the world. The Orthodox Church is alone really at 
+home in the Holy Places, and perhaps this is a symbol. It is 
+odd how to-day with the Srrepment 2 of Asia, we are beginning 
+
+
+| 
+
+| 
+
+
+SPIRIT OF ORTHODOX CHRISTIANITY 137 
+
+
+to see Jerusalem as really the Centre of the World, the one meeting- 
+place of East and West. And is it not likely that the Church 
+which has never been westernized, the Church of the land in which 
+Our Lord lived, would be the one most fitted to show how 
+Christianity is to acclimatize itself to India, China or Japan ? 
+Behind this, further, there is the fact that Orthodox understand- 
+ing of the Incarnation is such as to necessitate a deeper attention 
+to the Old Testament than has become common in the West. 
+
+
+And we might remember here how one of the traits of Orthodoxy © 
+
+
+is its power to search out dnd wait for the spark of truth in most 
+unexpected people. Here, at least, Christ has not ceased to live 
+with the publicans and sinners. Dostoievsky’s novels are a lesson 
+for us in this. 
+
+Every element in man’s character is of value for God, and no 
+method must be accepted which would prevent their free conversion, 
+God took our nature upon Him, not in order to lecPure us or to 
+impose a law, but to share all the fulness of our troubles and 
+temptations in order that He might save and glorify them all, not 
+by force but by their free awakening to His Light. 
+
+This utterness of the Incarnation is accepted uncompromisingly 
+by the spirit of Orthodoxy. It is often misunderstood, and here 
+are some of the deepest contrasts between Orthodoxy and the West. 
+It is the fact of which I have atready spoken when I was speaking 
+of Orthodoxy as fundamentally a religion of the people— 
+salvation is not handed down to us from above, but shared with 
+
+
+_us on our own level by the King of All. The Hierarchy depends 
+
+
+upon the reality of the whole Church, and the Laity is itself a 
+sort of priestly order. This is why Orthodoxy accepts, in order 
+to make Christian, the simple beliefs of country folk. It has no 
+need to be afraid of “superstition” since that also can be con- 
+verted; and only an un-Christlike presumption of the head—the 
+educated people—could abolish it. It accepts the folk-lore of 
+religion as of positive value among people who have no need to 
+make the western distinction between mystical and scientific reality. 
+And here also we must realize once more how “education” in our 
+sense is not seen as a primary necessity even for the clergy. It is 
+too apt to make of the clergy a higher class. And in their religion 
+no education could be as full or as well balanced as that provided 
+in their worship. The peasant priest or monk who remains a 
+peasant is a fulfilment of Christ’s principle of Incarnation. He 
+is one of the greatest assets of an Eastern Church. 
+As a counterpart to this, it is noticeable how many of the most 
+important theologians of the Orthodox Church are laymen. 
+Another result of this readiness of Orthodoxy to wait—to elicit 
+and never to force—is the absence of sentimentality. Each man in 
+being Orthodox must be true to himself. Orthodox people will 
+
+
+draw this distinction—that while Latinism fits all men into an _ 
+
+
+al 
+= 
+‘ 
+| 
+5 
+| 
+4 
+| > 
+| 
++ 
+* 
+ai 
+* 
+» 
+| 
+* 
+| 
+> 
+> 
+> 
+4 
+‘4 
+; 
+& 4 
+. 
+~ 
+. 
+‘ 
+* 
+> 
+
+
+138 THE CHRISTIAN EAST | 
+imposed system, Orthodoxy dem ands character, individuality, in 
+every man. ‘This is in some ways the source of its greatest diffi- 
+culties; but it is near to the greatest of its possessions. A man. 
+cannot be Orthodox save by a positive liberating act of his own 
+free will—there is no easy resignation, but a resignation by way 
+of an unending wrestling with God. An imposed religion depends 
+too much upon the power of emotions directed from without. 
+Orthodoxy has its emotions stirred only from within. This is why 
+we have noted in it the combination of fearlessness of emotions with 
+an intense cold-bloodedness. And at the same time it gives a 
+tremendous masculinity to Orthodoxy. We remember that the 
+starkness of the hermit ideal belongs in some degree to all Orthodox 
+people. 
+
+The principle of the Incarnation explains also the Orthodox 
+attitude- towards State and Nation, which has been grossly 
+‘misunderstood in western Europe. Orthodoxy cannot think that 
+the Church should be indifferent to political matters. For this 
+would mean that the Incarnation was concerned only with a part 
+of life, not with the whole. On the other hand, she can never. 
+take the Latin line of seeking independence of the State by making 
+herself a State, or ruler of States, for this would be for Our Lord 
+to accept in Gethsemane the defence of the twelve legions of angels. 
+The Church accepts Constantine as a Saint because in him was 
+brought into the open a real vision—that of the possibility of a 
+Christian State. She accepts the state in order to save and convert 
+and glorify it, while she is perfectly conscious of the dangers. So 
+she sends out her monks into the desert as a safeguard, in order 
+that if the State fall back in practice into its un-Christian life, she 
+also may be able, if necessary, to fall back imperceptably but 
+surely into the old martyr condition, which she has learnt in the 
+centuries of Persecution. She must always aim at a Christian 
+Empire, not an Imperial Church. Christ is King before He is 
+Priest, and so the King, layman as he is, and not the Bishop, is 
+so in a sense, the highest hierarch, the highest personal sacrament in 
+
+| the Church. Latins call this Caesaro-Papism, and it is full of 
+
+a dangers, but anything save an acceptance of it in spite of its dangers 
+
+must_be an abandonment of the full ideal of the Incarnation. Only 
+
+the Church must always retain the martyr background. It must 
+
+serve the State for the State’s sake by submission whether to 
+martyrdom or to honour. 
+
+This implies also that the Church must recognize the tremendous 
+Christian value lying behind those dangerous qualities of 
+
+nationalism and patriotism. The use of the language of the people 
+is one side of this. It means that Orthodoxy believes that universal 
+love is to be found through the full right development of home-love 
+in all men, not by a homeless cosmopolitanism. Jerusalem, which 
+is always the heart, not the head, of the Church, keeps alive the 
+
+
+| 
+
+} 
+
+; 
+
+j 
+
+q 
+
+3 
+
+| 
+
+
+SPIRIT OF ORTHODOX CHRISTIANITY 139: 
+
+
+- true historical internationalism without which objective Christianity 
+would be impossible. The example of the Russian Mission in 
+Japan is a tremendous example of the efficacy of this Orthodox 
+ideal. We know how strong is Russian Nationalism. But just 
+because he had-learnt the truth of Nationalism in Russia, the 
+Russian Bishop in Japan, when the Russo-Japanese war came, 
+authorized and encouraged prayers in the Japanese-Orthodox 
+
+
+Churches for the Japanese Army fighting against Russia. And 
+
+
+every Orthodox Russian will speak of this with pride. 
+
+But Orthodoxy is not the mere imitation of Christ. It is the 
+acceptance not only of His Cross, but of His Triumph. Christ 
+has risen from the Dead, by death trampling upon death. This 
+is the heart of Orthodox objectivity. Apart from it, Christ would 
+be another and greater Socrates. But in it the work of the 
+Incarnation bears fruit. “‘ He became man in order that man might 
+be deified.” The human nature which He took in all its fulness, 
+the death which He underwent is in all its fulness taken up, raised 
+in power, ascended into the very heart of the divine nature. Death 
+is swallowed up in victory. So all that went before, all the 
+suffering, is transformed from a mere moral story into a joyful 
+triumphant present fact. Calvary for all the intensity: of Orthodox 
+devotion to the Cross, is on one side in the Church which it shares 
+with the Tomb. We Westerners call that Church the Church of 
+the Holy Sepulchre, and wonder why the place of the Dead: Body 
+is more central in it than Calvary. Then we learn that to the 
+Orthodox, Greek or Arab, it has always inevitably been the Church 
+of the Resurrection; and the Tomb from which the Fire of the 
+Divine Life goes out to spread through all the world, is seen indeed 
+as on earth the true centre and source of the world’s life. Of 
+course, Calvary is on one side where death is swallowed up in 
+Victory. 
+
+Even in their thought of the Cross, the Orthodox emphasize 
+rather the agony in the Garden, the pain of Mary, the human 
+nature, standing at the Cross foot praying for the Resurrection, 
+than the triumph of the Crucified. 
+
+And it was not only He who rose from the Dead. He raised 
+with Him the Dead of olden times. And he communicates His 
+risen life to us. So the cross. that the Saints bear is no copy, but 
+Christ’s own Cross, brought to them by Himself in His risen life. 
+
+Christ has sent to us His Spirit to take us really literally up 
+into. His triumphant Life, even now while we are still living on 
+earth. And by this Gift the whole world for us, the whole of our 
+beings, is transfigured and transformed—so absolutely that the 
+Orthodox must think of this transfigured reality as the absolute 
+reality even here and now. His whole doctrine is taking for 
+Pranted this transfiguration realitv; it is true in the Spirit and 
+can onl¥ be believed or understood by those who will accept it on 
+
+
+} 
+
+
+~ 
+bd 
+4, 
+| 
+3 
+i 
+4 
+
+
+THE CHRISTIAN EAST 
+
+
+ches level. Ome of the deepest of Orthodox accusations against 
+———— the whole West m its following—is that owing to 
+lac ——— in the Resurrection, it has tried to drag 
+Christma strat Gown and back to the old pre-Resurrection level. 
+femee, western Scholastaism; and here also is the reason why 
+in the Oberammergau Passion Play people feel that something i is 
+
+romg when they come to the Resurrection. Here also is the 
+diference between eastern and western religious pictures. The 
+wesierm picture even at its most beautiful is moralist, a type of 
+human aspiration; the eastern Ikon even at its crudest is a window 
+through whach Heaven looks in upon us. 
+
+The whole world is transfi?ured and we in it. He became Man 
+that we might become Gad. The West is afraid of saying this. 
+But m ws the essemce of the matter, the only fulfilment of the 
+Imczrmation for the East. The Spirit makes us literally members 
+of Christ. Im us the Incarnation is continued and the Resurrection 
+extemds ms sphere. And He giveth not the Spirit by measure. As 
+im the Incarmation, so in the Gift of the Spirit, He gives without 
+
+
+reserve. He entress cmseif utterly to us, and that is why He 
+Our 
+
+
+lf we wooki understand the staggering absoluteness of the 
+Chaim Fah. we do well to remember Our Lord’s Baptism in 
+Jordam. I: ts termibly neglected in the West. To the East it is 
+the greatest revelation of 1 the Trinity. What ts happening here? 
+About the persom of Jesus is breaking out into man’s sight, not 
+a pacture of the Trinity, but the very fact of it. That Father's 
+proclsamimg Him, that pure dove-embodied spirit of the 
+
+ather’s love amd hallowing which now descends upon Him is no 
+new thing. Unseen a has been happening all through His life. 
+More tham that, present before us is the fact which is before 
+Abraham was, before the workd began to be created. Here in a 
+im tume rs the pure act which contzins and transcends al] time, 
+amd 2 mam ss the focus of ts manifestation. All that God is, is 
+revealed im ummediate reality upon the man Jesus. 
+
+Think om and wou find that this is always the Spirit's work. 
+When the Spart brooded on the face of the waters, when the Spirit 
+spake by the Prophets, when the Spirit overshadowed Mary, always 
+the Som remaimed the goal of the Spirit’s Work. The Spirit's 
+Wogk m creation ts always the framing and hallowing of the 
+Incarmatiom. Amd afterwards it continues so. When the Spirit 
+cescemded upon the Apostles, the Spirit was not merely sent by a 
+Christ remaiming aloof. The descent of the Spirit brought Christ 
+agaim to the Apostles by forming Him in them and making them 
+His bode. And upon this Body, as in Jordan, all that God is, is 
+shown forth to mam. Here is the astounding fact that just as our 
+Fuchanst is a rea! _Bartaking im the actual Last Supper, so the 
+Bapersm at each ome of us’ is the real paptiom of Our Lord in 
+
+
+of 
+I 
+| 
+| 
+
+
+SPIRIT OF CHRISTIANITY... 141 
+
+
+- Jordan, extended to us, and by the sveiineiaa through and upon us 
+
+
+of all that God is, our very human nature is really made divine. 
+So always in Christ’s. life, which we share in the Church, we 
+know the Holy. Spirit: descending, not from an aloof Christ upon 
+us, but from the Father upon Christ being made incarnate in us. 
+That is why Filtoque is really impossible for the Orthodox. 
+The overshadowing of the Spirit is the very essence of Orthodox 
+Church Life. To the Orthodox as for St. Irenzus, ‘ Where the 
+
+
+Spirit is, there is the Church; and where the Church is, there is 
+
+
+the Spirit.» No act of the Church is possible apart from the 
+Spirit. In the West the mechanical theory of the Sacrament 
+gives implicitly to the hierarchs—priests, bishops, or Pope—the 
+powers which only belong to the Spirit. The Pope defines 
+doctrine. The Bishop ordains a man, and his act is valid apart 
+from the question whether he has the authority of the Church. 
+The Priest consecrates the Eucharist by repeating a form of words 
+mechanically. But to the Orthodox only the Spirit is the criterion 
+of doctrine. ‘None but the Spirit can know the things of the 
+Church.” The priest or bishop in the performing of Sacraments 
+is but the tool of the Spirit, so that he says, not “I baptize... .,” 
+absolve but, “The servant of Christ, N., is baptized 
+etc.’ And in the Consecration of the Eucharist the recital of the 
+words of institution is but a proclamation of the right by which 
+we now can celebrate the Eucharist: it is only brought into the 
+fulness of present reality in answer to the invocation praying for 
+the descent of the Holy Spirit on us and on the Gifts, changing 
+them .. | 
+
+The word Sacrament is western. The eastern word is simply 
+Mysteries—Secrets—things which we know but don’t understand 
+—and that gives the real sense better. The reality of the Blood and 
+Body of Christ in the Eucharist is so intense for the Orthodox that 
+the Latin explanation of “trans-substantiation ” must offend him. 
+“ We believe,” a Russian said to me, “that it is the Flesh of Christ, 
+not the Meat of Christ.” It is his Risen Body, not the old 
+“natural,” untransfigured Body, that we receive. But the one 
+
+
+mystery is not to be thought of apart from the whole Church. The 
+
+
+Church is Christ’s Body, and the Eucharist is Christ’s Body; not 
+in a different manner, but as the heart of this same presence in the 
+Church, as the means by which the Life of the Church is preserved 
+and imparted in her members. The Orthodox approaching the 
+Sacrament prostrates himself. But as he goes away after partaking 
+he bows to none, for the heart of all Church life is at that moment 
+seated in him. : 
+
+But again it is not forgotten that even in the height of the 
+
+
+deification of man the distinction between human and divine is not. _ 
+
+
+blurred. At the heart of the Liturgy itself the priest, bending 
+
+
+j 
+. 
+; ‘ 
+| 
+. 
+« 
+> 
+» 4 
++2 
+i 
+| 
+‘ 
+> 
+> 
+ae 
+ins 
+
+
+142 _ THE CHRISTIAN EAST 
+
+
+before the consecrated Body and Blood, confesses to the Father, ‘‘we 
+bend not to Flesh and Blood, but to the fearful God.” 
+
+And as the Eucharist has no meaning apart from its place in the 
+Life of the whole Church, so it is also with all the mysteries of 
+the Church. How can the Secrets of the Church exist where the 
+fulness of the Church is not? So, while, e.g., Apostolic succession 
+is necessary in the Ministry, it is not enough. It must be 
+accompanied by the authority of the Church. So logically the 
+Orthodox position is even far more extreme than the Latin. 
+
+But the Spirit of the Church is not bound by human'logic, and 
+the Church can recognize outside her visible unity some kind of 
+continued life of the Spirit. So it is that she can if she likes 
+regard the gain of the fulness of Orthodoxy as itself completing 
+what was lacking in Sacraments received outside her Unity. This 
+is what is known as the principle of Economy. 
+
+And yet all that I have said has hardly touched upon the deepest 
+and truest Life of the Church. What, after all, is this Life, this 
+Family or Body? It is not just its earthly manifestation, but it 
+is the full content, behind that, of the invisible Church. It is the 
+sharing in one life of Angels, Archangels, Cherubim, and 
+Seraphim, of all the Saints of God, and of the faithful of all time. 
+This human manifestation is indeed at its core. The Virgin, the 
+type of that persistent purity in humanity which God took to 
+himself, is nearer to him than the Cherubim and the Seraphim. 
+And we who are in Christ, are of her flesh, “‘ Christ’s Mother is our 
+Mother, ever interceding for us.”’ All these we must remember 
+and venerate, for Christ is in them and they in Him. So to turn 
+to the Saints is not to be distracted from the Christ who told us, 
+“Inasmuch as ye did it unto one of the least of these my little 
+ones, ye did it unto me.” For heaven and earth are really one 
+in the Church and death forms no barrier to the concourse of our 
+prayers. Inthe Liturgy and in the Life of the Church on earth the 
+Kingdom of God which Christ brought is indeed present. But 
+always it is present expectantly. The Life of the Church never 
+forgets a present eschatological expectation of the day when the” 
+Kingdom of God shall break out in all its fulness. 
+
+
+THE NEW LAW ON RELIGION IN RUSSIA. 
+
+
+By P. B. ANDERSON. 
+URING the XIV. Congress of the Soviets in Moscow, 
+1929, the following change in the Constitution of the USSKk 
+was proposed by the Government. Article 4 was changed to read :— 
+
+
+“In order to provide the workers freedom of conscience, the 
+church is separate from the state and the school from the church, 
+
+
+4 
+
+
+LAW ON RELIGION IN RUSSIA 143 
+
+
+while for religious confession and anti- pro- 
+_ paganda is recognized for all citizens.” 
+The previous reading for Article 4 was as follows :— 
+
+‘‘In order to provide the workers actual freedom of conscience 
+the church is separated from the state and the school from the 
+church, whtle freedom for religious and anti-religious propaganda 1s 
+
+recognized for all citizens.” 
+
+
+"Interest centres in two points, what is meant in general by “ free- 
+
+
+dom of conscience ”’ and what interpretation should be given to the 
+words “‘ religious confession ’’ contained in the new reading, from the 
+peculiar point of view of Soviet jurisprudence. Fortunately, there 
+is such interpretation given in a publication of the People’s Com- 
+missariat of Justice (Gudulianov, Separation of Church from the 
+State, third edition, 1926), from which the following section may be. 
+quoted : — 
+
+
+‘“ Generally understood, religious freedom theoretically embraces 
+freedom of conscience and freedom of the cult. Full freedom of 
+conscience is considered by bourgeois theoreticians to be secured 
+if every citizen is granted : 
+
+Freedom for choice of religion, presuming also freedom to 
+
+establish new religious teachings. 
+
+Freedom for confession, including freedom for conducting 
+
+religious rites and freedom for preaching. 
+
+The exercise of civil and political rights without regard to 
+
+religious beliefs. 
+
+Freedom to have no religion. | 
+
+“ Ecclesiastical freedom similarly consists of three elements ; 
+
+(a) Freedom to establish new religious societies. 
+
+(b) Freedom for church organization and administration. 
+
+(c) Complete equality before the law of all existing religious 
+
+societies which do not pursue objectives in themselves contrary 
+to the law.”’ 
+
+‘ Our jurisprudence provides- the fullest measure of freedom 
+of conscience, however, not: in an objective but in a subjective 
+sense ; that is, the Soviet Government does not hinder any 
+individual citizen from believing in anything whatsoever, or from 
+believing in nothing whatsoever, so long as his actions are not 
+contrary to law and to the interests of other citizens.”’ 
+
+
+According to this interpretation, ‘‘ religious confession as pro- 
+vided in the new reading of the Constitution, will permit only rites 
+
+
+and preaching, the broader field of ‘‘ propaganda,” such as through — 
+
+
+printed matter, seemingly being open only to anti-religious. In this 
+quotation one finds also a significant distinction made between con- 
+science and actions; conscience is free but actions must conform 
+_ to law and to the interests of Communist society. 
+
+
+\ 
+\ 
+Ps 
+; 
+‘ 
+4 
+‘ 
+| 
+,* 
+s 4 
+. 
+‘ 
+: 4 
+‘ 
+i =. 
+ees 
+4 
+
+
+144 THE CHRISTIAN EAST 
+
+
+What is the law as regards religion, as distinguished from Con- 
+stitutional provisions ? Here again a clear answer is available for 
+on April 8th, 1929, a new law of 68 articles was promulgated which | 
+gathers up the substance and intent of the numerous laws, decrees, . 
+resolutions, instruction and court rulings which have served to guide ) 
+the religious actions of individuals and ecclesiastical bodies since 
+the revolution. A few quotations from this law will indicate the 
+range of activities in which the religious conscience may express 
+itself. 
+
+“Art. 2. Each citizen may be a member of only one religious | 
+(cult) union, 7.e., society or group.” 
+
+“ Art. 3. Religious societies and groups of believers do not | 
+have the rights of legal persons.” 
+
+‘Art. 17. Religious unions are forbidden: (a) to establish 
+mutual aid funds, co-operatives, producing unions, and in general 
+to use the property at their disposal for any other purpose than 
+the satisfying of religious needs ; (0) to give material aid to their 
+members ; to organize either special meetings for children, youth, 
+women, for prayer, or other purposes, or general meetings, groups, 
+circles, departments, Biblical, literary, handworking, labour, 
+religious study, etc., and also to organize excursions and children’s 
+playgrounds, to open libraries or reading rooms, to organize 
+sanitoriums and medical aid.”’ 
+
+‘“ Art. 18. Instruction in religion of whatever kind is not per- 
+mitted in state, public, or private schools and educational 
+institutions. Such instruction is permitted exclusively in special 
+theological courses opened by citizens of the USSR with the 
+special permission of the People’s Commissariat of the Interior of 
+the RSFSR.” 
+
+Art. 22. Religious assemblies (delegated bodies) and executive 
+organs elected by them do not have the rights of legal persons and, 
+furthermore, may not: (1) establish any kind of central treasury 
+for the collection of voluntary contributions of believers ; (2) fix 
+any kind of obligatory collection ; (3) possess property for the cult, 
+or receive such by contract, or acquire such by purchase or rent 
+quarters for meetings of prayer (divine service) ; (4) conclude any 
+sort of contract or agreement.” | 
+
+
+The question of religious instruction to children under eighteen 
+is dealt with by implication (Art. 17 and Art. 18) rather than explicitly 
+as in earlier legislation. This matter deserves explanation by quoting 
+from the statement of the People’s Commissariat of Justice (25th 
+September, 1924, No. 1168/3) summarizing — and giving the 
+ruling 1 in matter :— 
+
+
+People’s Commissariat of Education, 2 ard. April, 1921, also decr ee 
+
+
+j 
+
+
+| 
+cording to instruction of the People's ¢ 
+
+
+LAW ON RELIGION IN RUSSIA 145 
+of the Central Executive Committee, 18th June, 1921, and Art. 
+121 of the Civil Code, in connection with the separation of school 
+and church, it is forbidden to teach the so-called ‘law of God’ 
+(catechism) to children under 18 in state or private schools, or in 
+any place in the form of group study with children. However, 
+from Art. 9 of the decree regarding separation of church and state, 
+citizens may teach and be taught religion privately, and also from 
+the resolution of the People’s Commissariat of Education, 23rd 
+Apmil, 1921, it is clear that in the RSFSR parents are not pro- 
+hibited from teaching their children the so-called ‘ law of God.’ 
+Such instruction may be given either by the parents themselves, 
+or by persons invited by them to the house of the parent or teacher, 
+provided such instruction does not take the form of group study, 
+‘£5, study with more than three outside children brought into the 
+home.” 
+
+
+However, it is not sufficient to quote the Constitution and legis- 
+lation of the country if one is to understand the objectives of the 
+Soviet Government in altering the Constitution and promulgating 
+the new law. It is necessary to have also the light thrown on the 
+question by the speeches and articles of leading officials and by court 
+decisions rendered since the new law came into effect. Abundant 
+material of this character has been provided in the speeches delivered 
+before the XIV. Congress and in newspaper articles preparing for the 
+conference of the ‘‘ Godless Society,” called to meet in Moscow in 
+June. Thus Lunachersky, People’s Commissar of Education, in 
+his speech before the XIV. Congress gave the following 
+exposition :— 
+
+“ We are strongly criticized for having the slogan ‘ Non-religious 
+school,’ when we should have announced the slogan ‘ Anti-religious 
+school.’ I must call your attention to the fact that Lenin, who 
+from the very beginning insisted upon the separation of the 
+
+
+church from the school and upon throwing the fkons out of the | 
+
+
+schools, at the same time gave us the following statement of the 
+problem ; ‘since at the present time (1918) you cannot entirely 
+substitute unreligious teachers for teachers religiously-minded, 
+
+
+since at present our regime is not yet firm enough, since the_ 
+
+
+religiously-minded peasantry in case of atheist propaganda in the 
+schools would probably not send their children for study, and we 
+
+
+thereby would give new strength to the priests—be extremely » 
+
+
+careful.’ They may blame us, and perhaps properly, for being 
+careful too long, since our last circular, the ane. announcing the 
+un-religious school, has been issued only now when our regime stands 
+firmly established, when we no longer need fear the priests, when 
+
+the change from religious teachers to our atheistic teachers has 
+become -more nearly possible (if not in one year, at least in two 
+or three). We are now in such a favourable. position that we may, 
+
+
+\ 
+> 
+ie 
+j 
+$ 
+; 
+‘ 
+» 
+i 
+‘ 
+« 
+4 
+i 
+‘ 
+a 
+4 
+4 
+i 
+4 
+* 
+
+
+146 THE CHRISTIAN EAST 
+
+
+and indeed we must, turn and make an attack along this front. 
+All our cultural agencies, from the school to the theatres, from the 
+Academy of Science to the cabin-reading rooms, must be considered 
+by us as working on the front for the repulse of the religious danger 
+and, at the same time, as a means for curing the masses of this 
+evil disease.” 
+
+
+There were some who insisted that the Government should 
+immediately close all the churches and force religions out of existence. 
+~ They felt that the change in the Constitution represented no more 
+than week-kneed tolerance. To such critics a clear statement of the 
+Government’s purpose in changing the Constitution and an exposition 
+of its real attitude toward religion was given by Lunacharsky in an 
+article published in the Government organ Jzvestia, 8th June, 1929, 
+from which the following quotation is taken :— 
+
+
+‘ Religious tolerance is, of course, an element of liberalism, yet 
+it is proclaimed in our Constitution. This element of liberalism 
+is included by the Communist Party in its political and cultural 
+practice by no means by reason of its being in any way inclined 
+towards peace with any sort of popery, certainly not because of 
+any weakening in our hatred towards religion and our endeavour 
+to destroy it. On the contrary, by our religious tolerance we 
+simply conveniently limit the field of struggle and decline to use a 
+worthless weapon. Our country is still full of a great number 
+of various sorts of believers. To challenge them to a final decisive 
+battle to proclaim them persecuted because of “‘ prohibition of 
+faith ’’ would mean that we become supporters of the priests, 
+because by such means we would immediately cast a significant 
+part of these masses into the arms of the priests. . . . 
+
+“ Religion is like a nail; if you hit it on the head you simply 
+drive it deeper, and in the end may fasten it so tightly that you 
+cannot even grasp it with the pincers to draw it out. We need 
+
+_ pincers to get hold of religion, not to drive it in, but to pull‘it out 
+by the roots, and this can be done only by scientific propaganda, 
+moral and artistic education of the masses, in particular the 
+growing generation, by the reconstruction of habits, by the 
+injection of more and more science into all work, and especially 
+that of the peasants. Our Constitution does not speak of lessening 
+the struggle with religion ; it chooses for us the manner in which 
+we can most easily overthrow religion, if only we are able to be 
+energetic to the end. It permits the broadest kind of propaganda 
+of atheism. Our Party and the Soviet Government demand the 
+most intensive development of this propaganda of atheism, 
+including criticism of all religions and of all idealism.” 
+
+
+From these quotations it is plain that the Government desires 
+and intends to eliminate religion, but finds it expedient to proceed | 
+
+
+| 
+
+
+LAW ON RELIGION IN RUSSIA 147 
+
+
+tactfully and by educational methods. “The struggle against 
+religion is and must be the work of the masses,’ says Rykoff, 
+President of the Council of People’s Commissars, addressing the 
+XIV.Congress. Continuing, he explains that “ the new generation 
+which in great measure has grown up outside the influence of religious 
+poison, does much to spread this movement. We have not entered 
+that stage of anti- “Teligious propaganda when it is truly developing, 
+when its progress is.sure.’ 
+
+In addition to this consideration of the Constitution and laws of 
+the country and the attitude of Soviet leaders, it will help to deal also 
+with current court practice in applying the law in actual instances. 
+Since the case of the Yegorevsky Church bell has received the 
+greatest amount of attention in the Soviet press in recent weeks, it 
+may be described as an example. Details from the press are as 
+follows. The bell being broken and long unused, lying by the 
+roadside, the Metal Trust wished to make use of it, and an agent 
+took up the matter with the church warden. When the wagons came 
+to remove it, someone sounded the alarm, and in half an hour several 
+hundred peasants gathered. The cry was raised that the agents 
+had come to take away the church, and in short time the wagon- 
+drivers were beaten and had to run for safety. No one was seriously 
+wounded. A few days later, the excitement having subsided, 
+negotiations were reopened, and, according to the press, some of 
+the same peasants helped to load the bell for its removal by the 
+Metal Trust. 
+
+So much for the incident itself. The priest Krivandin, the church 
+warden Yudin, and lay-sister Tkechenkova, and a number of.others 
+were arrested, and the case came before the Moscow Provincial 
+Court, sitting in the village of Yegorevsky, about 2oth May, 1g29. On 
+the eighth day judgment was rendered, declaring that the gathering 
+of the peasants was not casual but prepared as an organized effort 
+to turn the people against the Soviet Government by playing on 
+their ignorance and superstition. Thus the lay-sister was charged 
+with counselling the peasants to hoard their grain because war was 
+- imminent. The following sentences were pronounced: the priest 
+
+
+and church warden, as principals in the organized effort, to be shot,. 
+
+
+the lay-sister condemned to eight years imprisonment in strict 
+isolation, eight others condemned to imprisonment for terms varying 
+from three to five years. 
+
+‘One may be startled at the severity of the sentence in this case, but 
+
+
+the incident must be viewed in light of a revolutionary ethic as well - 
+
+
+as revolutionary jurisprudence, and also in light of the present 
+advance along the “ religious front ’’ which we have described. The 
+procedure and arguments in the case were in full harmony with the 
+present policy to confine the practice of religion to its narrowest 
+possible limits, to educate the people away from religion, to work 
+on the principle that religion as such is counter-revolutionary, and, 
+
+
+@ 
+a 
+? 
+; 
+> 
+
+
+¥ 
+4 
+
+
+448 CHRISTIAN EAST 
+
+
+therefore, to punish infractors of the law on religion for politic al 
+as well as civil offence. 
+We quote again from Lunacharsky’s article (Izvestia, 8th June, 
+1929) :— 
+
+‘For us, politics does not mean the narrow field of struggle for 
+power. For us politics is our socialist constructive work as a 
+whole. Our conception of socialist reconstruction embraces most 
+fully the cultural uplifting of the masses, the uplifting of the 
+masses to a completely socialistic, truly scientific, that is to say, 
+atheistic materialistic culture. ... The church is not only an 
+enemy in the realm of culture and consequently also in politics ; 
+it is unalterably, inevitably and always, whatever it calls itself, 
+a definite political enemy. 
+
+
+THE ATTITUDE OF THE ORTHODOX CHURCH TO 
+THE FAITH AND ORDER MOVEMENT. | 
+
+
+(A Speech delivered by Pror. Hamiccar S. D.D., at 
+the Maloja meeting of the Continuation Committee.) 
+
+
+HAVE been asked to say something about the Faith and Order 
+
+movement in relation to present circumstances in Eastern 
+Orthodox circles; it is desired that I should give a statement of 
+what is being thought and said about our movement in these 
+circles, and further, what ought to be the nature of our work in the 
+immediate future. 
+
+I shall answer these questions with pleasure and [ think that. 
+from what I tell you, you will very easily understand first, why 
+the Orthodox Church has not yet taken any official action on the 
+Lausanne statements and secondly, why action in connection with 
+our movement has in the Orthodox churches not yet advanced 
+beyond the Declaration of the representatives of the Orthodox 
+Church which was laid before the Lausanne Conference. 
+
+The Orthodox Church has been among the first to show a very 
+vivid interest in the great movement for the Union of the Churches, 
+for which she constantly prays, repeating in every service a fervent 
+prayer to God, for the good estate of the Holy Churches of God 
+and the Union of them all. This interest is demonstrated in the 
+forming of Committees, as you have already heard from other 
+Orthodox delegates, and in the constant study of the questions 
+involved. 
+
+The peculiar situation of the Orthodox Church, however, does 
+not allow of rapid action in such questions. A long history of 
+‘trials and conflicts has prohibited to some degree the full 
+development of theology and doctrine beyond certain well-known 
+
+
+| 
+he 
+I 
+
+
+ATTITUDE OF ORTHODOX CHURCH 149 
+
+
+limits; a fact which has been very curiously commented upon by 
+some, even very wise, theologians in the West. 
+
+Further, the Great War has not méant (as in so many other cases) 
+the delivery of the Orthodox Church from her cross. The very 
+first of the Orthodox Churches, the Gicumenical Patriarchate, is 
+still under the oppression of the modernized Turk, an oppression 
+which has even demanded the blood of new martyrs; and the 
+revolution against the moral principles of humanity has subjected 
+to most bitter persecution the greatest part of the Orthodox Church 
+in the Russian territory, which has also paid and still pays very 
+heavily for its adherence to Christian ideals. 
+
+But in spite of all that, we are absolutely sure that we can clearly 
+see that we are standing at the beginning of a new period in the 
+history of the Orthodox Church. Interest in the earlier theological 
+development, on the basis of the ancient truths of the Christian 
+Church and interest in the possibility of the Union of the Churches, 
+as well as a very evident religious revival in Orthodox countries 
+similar to that in Germany of which Professor Hermelink told us last 
+evening, form, so to say, the pillars of the entrance to this new 
+period. Of course, neither the one nor the other are things that 
+could be demonstrated in a few days or even years. But the 
+attitude displayed towards those movements is itself quite eloquent. 
+The Orthodox Church has not been indifferent or even unfriendly 
+to the initiative taken from the other side in the movement towards 
+Union. On the contrary, the Orthodox Church was even ready 
+to take the initiative in a similar movement and it is worth while 
+remembering the Encyclical issued by the G¢cumenical Patriarchate 
+to the other churches of Christ 10 years ago, which dealt with the 
+possibility of forming a league of the Christian Churches which 
+
+
+would surely lead in the future to some understanding with a view . 
+
+
+to Union. Happily the idea has coincided with the beginning of 
+the Faith and Order movement and the Orthodox Church has 
+responded to the call of that movement in the most favourable way. 
+The Orthodox Church has, with other Churches, gladly accepted 
+the invitation and has with real pleasure extended the hand of 
+co-operation to the other Churches, and is trying through these 
+friendly relations to receive and to give first hand information about 
+the standpoint of faith of the several Churches and about the 
+
+
+distance which separates them. Of course, we cannot in so short 
+
+
+a time arrive at serious results. We must bear in mind that the, 
+comparatively speaking, few theological forces of the Orthodox 
+Church are at the moment systematically occupied in two directions, 
+first in clearing Orthodox Theology from any Catholic or Protestant 
+influence, which may possibly have affected it in earlier times, and 
+secondly, in digesting the existing differences between other 
+Churches. Orthodox theologians try to precise the actual distance 
+
+
+which now separates the several Churches, as well as to fix the. 
+
+
+‘ ese” 
+- 
+‘ 
+4 
+a + 
+| ' 
+3 
+| ‘ 
+| 
+i > 
+| 
+‘ 
+> 
+5 * 
+s 4 
+> 
+“4 
+| 
+
+
+& ~ 
+
+
+150 THE CHRISTIAN 
+
+
+maximum elasticity of their own Church, an elasticity which could 
+
+
+not extend beyond permitted limits the moment | hat the doctrine 
+of the real catholic and undivided Church comes into question. If 
+you will keep in mind these reasons you will be able to understand 
+why our movement is certainly followed in Orthodox circles with 
+the greatest interest and why the answers to the Lausanne state- 
+ments have not reached us yet. Furthermore, we must take into 
+consideration another great, and rather technical, difficulty of the 
+Orthodox Church in responding promptly to these statements, a 
+difficulty, which although technical, is of very great importance. 
+The Orthodox Church although it consists of a number of 
+autokephalous Churches has and feels its own Unity in the most 
+perfect way. Unity in the Orthodox Church is based on liberty, 
+but liberty does not in any case mean relaxation of the existing 
+Unity. The words of Eusebius to the ancient Churches, that 
+whenever all the Churches agree, then and then only they formulate 
+a dogma which is obligatory upon them all, have still, and it is 
+to be hoped will always have, an absolute value for the Orthodox 
+Church; and, therefore, the saying of St. Vincent of Lerins that 
+the true tradition is “ quod semper, ubique et ab omnibus creditum 
+
+
+_ est,” has still an absolute value also. That is why no Orthodox . 
+
+
+Church could separately express itself in matters of doctrine, unless 
+all the other Orthodox Churches, after general consideration, 
+demonstrated either through exchange of letters, or by. some 
+
+
+common Synod, gave an expression of mind which would represent 
+
+
+the real, true and authentic position of the whole Orthodox Church. 
+The question, therefore, of what has been thought and said about 
+our movement in Eastern Orthodox circles in relation to present 
+circumstances, is answered by the assurance that the most vivid 
+interest is taken in Our movement and that in due time we shall 
+have the official and authentic answer of the Orthodox Church, 
+which could not be expected before all the Orthodox Churches could 
+answer together. Of course, this does not prohibit the Orthodox 
+Church from collaborating in the movement with the other 
+Churches and from following the progress of the work, which no 
+
+
+- doubt for her also is of great educative value. 
+
+
+But allow me now to give you in a few words a fairly’ direct 
+answer to the question:—What ought to be the nature of our 
+work in the immediate future? I believe that in giving my own 
+personal point of view I shall give also the predominant ideas of 
+the various Orthodox circles on this point. I should like at this 
+juncture to express the desire for some amendment in the method 
+we have adopted, with a view to the nature of our work in the 
+immediate future. 
+
+At my first address at the Preliminary Conference in Geneva in 
+1920, I emphasized, that in trying to unite the Churches it would 
+be wise to follow the practical method of a repairing tailor rather 
+
+
+| 
+
+
+ATTITUDE OF ORTHODOX CHURCH I5I 
+
+
+than the abstract system at a theological scholar, We have before 
+us the problem of mending the once untorn mantle of Christ and 
+in my opinion it is much better and much more practical to begin 
+_by putting together the pieces which fit and then to try to mend 
+the rest of the pieces which do not fit. That is why I think that 
+although we have already achieved an excellent piece of work, we 
+should proceed in a “much better and perhaps quicker way, 
+if we tried by some special organization to bring together those 
+bodies which are more or less related and stand near each other. 
+The result of this would probably be a quicker organic union of 
+these related bodies, which would surely facilitate the general Union 
+of the Churches. _ I know that in many cases such a work is already 
+being undertaken’ independently of the Faith and Order movement, 
+but I would like to see it accomplished under its auspices and as a 
+part of its activities. Perhaps even the impression produced upon 
+public opinion in favour of our movement, which we must also 
+take into account, would be the deeper for the announcement of 
+an achieved union here and there among such related bodies. The 
+other method, of trying to arouse a consciousness of unity among 
+bodies differing entirely from each other, is not bad and in many 
+cases is very instructive and does offer.many unexpected surprises, 
+but the process is certain to take far too long a time. Perhaps the 
+Commission of Theologians we have already decided upon will take 
+into consideration also such a method of work and perhaps it would 
+help to expedite its business. May I be allowed to make a 
+proposition? Hitherto we have very wisely avoided involving the 
+Churches officially in our unfinished work, and we are pleased with 
+the work done by the several groups in discussing the material 
+issued to them. Would it not be of some practical value, if we 
+advanced a step nearer the official Churches and the heart of their 
+thinking, though without yet approaching their highest official 
+circles? Supposing we sent our material prepared for discussion to 
+the various officially organized Theological Schools or Seminaries 
+
+
+and asked them to discuss the material and give us their (unofficial — 
+
+
+if you like) answers? I know that in some cases this would be a 
+rather dangerous thing, but on the other hand in many cases we 
+should make some progress which otherwise we might wait for in 
+vain. 
+
+_In conclusion, as representing the Orthodox Church in this 
+gathering, I should like to add the expression of my firm belief 
+that if we adhere to the original basis of our work and movement, 
+that is to say, Faith in Jesus Christ as the Son of God our Lord 
+and Saviour, and if we are all inspired by Him with the necessary 
+Christian good will to each other we shall surely achieve the results 
+towards which we are all looking, because through His Holy Spirit 
+He will complete that wherein we still fail. 
+
+
+A 
+
+
+& 
+
+
+e\ TAM, 
+Art 
+a 
+| 
+> 
+| i 
+§ 
+4 
+, 
+
+
+‘ 
+
+
+“152, _ THE CHRISTIAN EAST 
+
+
+AN IMPRESSION OF VALAMO. 
+By CeB. Moss 
+
+
+FTER the night journey from Helsingfors to Viborg, and the 
+slow train through the forests, we arrived early in the after-. 
+noon at the little town of Sortavala, the residence of the 
+
+Orthodox Archbishop of Finland, and embarked on the steamer foi 
+the holy island. Lake Ladoga is the largest lake in Europe: the 
+Island of Valamo is thirty miles from Sortavala, and even then nowhere 
+near the middle of the lake. Away to our left was the coast of 
+Finland ; the further shore, quite invisible, for it was at least 60 miles 
+away, is in Soviet Russia. Far ahead appeared on the horizon, first 
+the cupola of the Skete, or Cell, of St. Nicolas, and behind it the 
+tower of the great Monastery of SS. Sergius and Germanos. Leaving 
+the Skete on our left, we entered a beautiful creek, on the left side of 
+which was the little pier, and the monks waiting to receive the 
+steamer. The Monastery possesses a large tourists’ hostel, in which 
+guests of both sexes are given simple (and very cheap) accommoda- ~ 
+tion. The visitor has a whitewashed room, containing a bed, a 
+washstand, and an ikon, and pays 2s. a night for it. 
+
+Valamo is twelve miles long, and it all belongs to the monks. 
+There are Finnish villages (Orthodox, of course), and a small garrison 
+of Finnish soldiers. Just as in Bnttany or Bavaria one constantly 
+finds wayside crucifixes, so in Valamo, on the winding roads through 
+the woods, one finds little shrines, with the double cross of the 
+Orthodox Church above, and ikons and lamps inside. The monas- 
+tery has eleven sketes, two on small islands, the rest on the large 
+island. The Skete of the New Jerusalem, perhaps six miles from 
+the monastery, contains a model of the Holy Sepulchre. At another 
+skete there was, not many years ago, a hermit, in memory of whom 
+the fish in the beautiful pool beside his cell may not be caught. 
+Here we saw the monk in charge, coming in with a large basket full 
+to the brim of wild strawberries. 
+
+I cannot describe the splendour of the monastery itself : its sky- 
+blue domes, its two great churches (one for summer and one for 
+winter), the treasures of vestments and church ornaments, the 
+hospital, the refectory. A Swedish lady said to me, “I have seen 
+the Orthodox Church in many parts of the world, but I never under- 
+stood it till T went to Valamo.’’ Here one sees the Orthodox Church, 
+not an exile in a strange land, nor a minority sharing the land with 
+others, but in full possession. The monastery has been there since 
+before the fourteenth century (some say, since the tenth), and there is 
+no other religion on the island: we are far from the modern world, 
+there -is not even a motor in Valamo. We seem to be living in the 
+company of the Russian saints, who are pictured, hundreds of them, 
+on either side of the stairs leading up to the church : climbing in a 
+
+
+| 
+|__| 
+
+
+THREE SNAPSHOTS TAKEN AT -VALAMO. 
+
+
+; 
+7 
+J : 
+_ y : 
+\ | 
+& 
+| | 
+4 
+
+
+| < 
+
+
+THE IDEAS OF LEO TOLSTOI 153 
+
+
+7 possession, headed by St. Vladimir and St. Olga, to the top, 
+where they are received by our Lord and:His Mother. 
+
+The Orthodox mission in Finland was originally in,the diocese of 
+Novgorod : it was afterwards transferred to Petrograd, and towards 
+the end of the nineteenth century the see of Finland was formed : 
+the present Archbishop is the sixth occupant of the see. The 
+Orthodox population is 67,000, of whom 55,000 are Finnish speaking. 
+In about half the parishes the liturgical language is Finnish. Swedish 
+services are held occasionally in some parishes. There is a seminary 
+at Sortavala with 14 students: they learn Greek, Latin, and Church 
+Slavonic, besides Russian and Finnish. Both men and money are 
+scarce : the people are poor, and the Church is troubled by hostile 
+propaganda, not from the Lutheran Church, which is friendly, but 
+from various sects, such as the Adventists, and also from sympathizers 
+with the regime across the border. 
+
+No new monasteries may be founded, and no one may be professed 
+in those already existing who is not a Finnish citizen. The Orthodox 
+Church is recognized and paid by the State, as well as the Lutheran. 
+Before the War there were 2,000 monks in Valamo : many were killed, 
+and it has been impossible to fill their places ; there are now only 300. 
+
+IT hope that English visitors, and especially English religious, will 
+goto Valamo. There is no place where the Orthodox Church can be 
+seen at greater advantage: and it is easily accessible. The third- 
+class fare to Helsingfors by boat is £5, and Valamo is less than 24 
+hours farther.. Crowds of Swedes, Germans and Americans go there ; 
+why not English pilgrims ? 
+
+
+THE LITERARY, RELIGIOUS AND PHILOSOPHI- 
+CAL IDEAS OF LEO TOLSTOI. ~ 
+
+
+Translated from Naroden Straj by Rev. L. Patterson, D.D. 
+
+
+_—. literary and artistic activity of Tolstoi begins from 1850 to 
+
+1856. He wrote Childhood, beyhood and youth ; 1heInvasion ; 
+The Morning of a Landowner; and The Cossacks. After 1856 he 
+went through his military course in the Caucasus, and reached 
+Petersburg, where he joined the society of writers, Turgenev, Gonch- 
+arov, Nekrasov, Ostrovsky, Grigorovich, Bielinsky, Drushinin, and 
+others. Up to this time Tolstoi was known as an artist, but from this 
+time forward he began to bring into his works a religious and pe 
+sophical element. 
+
+The literary tendencies and general conditions in Russia compelled 
+Tolstoi to reflect upon social, historical and_ religious problems, : 
+and to attempt a solution through the medium of his works. During 
+this time he wrote the novels, War and Peace, Anna Karenina, 
+
+
+¥ 
+> 
+A ? 
+} ‘ 
+* 
+* 
+a 
+: 
+4 
+* 
+. 
+¥ 
+> * 
+> 
+> * 
+* 
+> * 
+* 
+* 
+4 
+re 
+» 
+i 
+‘ 
+. - 
+
+
+154 ‘THE CHRISTIAN EAST 
+
+
+Resurrection, The Kreutzer Sonata, The Fruits of Enlightenment, 
+The Power of Darkness, Father Sergius, etc. | 
+
+In the second period of his creative activity, he studied thoroughly 
+Buddhism, and all Eastern religions, including Christianity, as he 
+read through the Old and New Testaments. He studied the teachings 
+of Socrates, Epictetus, Pascal, J. J. Rousseau, A. Conte, and Schopen- 
+hauer. Of the newer contemporary philosophers, Aug. Stern 
+attracted him with his paradoxical aphorisms. 
+
+In all his newer novels and tales, the heroes reflect seriously upon 
+the problems of life and death, on good or evil, on faith in God, on 
+social truth, and seek for their solution. 
+
+As a writer-realist, Tolstoi turns away from the subjective-psycho- 
+logical analysis of the old school, and leads his heroes to reflect them- 
+selves upon life, to study it objectively. He depicts the relations of 
+different classes, and leaves the reader to draw his own deductions. 
+So he is seriously concerned with the question of marriage and social 
+injustice. He has recourse to the help of religion, science, art, and ; 
+morals, and through these he seeks to facilitate the determination of 
+the questions of life. 
+
+During the month of August the following important event occurred 
+at Yasnaya Polyana. The coachman of the Tolstois found in the 
+neighbouring village pond a dead child. The whole of the Tolstoi 
+family was distressed by thisevent. Especially one of the daughters 
+of Leo Tolstoi was very much excited, suspecting that this dead child 
+belonged to a well-known widow of bad character. But the widow 
+stubbornly denied the accusation, and swore that she was not guilty 
+of this crime. They began to suspect other women. Leo Tolsto1 
+went out before dinner into the garden to walk about a little, but he 
+returned late with a weary and exhausted appearance. He went to 
+the village to the widow in question. Without persuading her in 
+any way, he heard her attentively, and said: ‘‘ If this murder is not 
+the work of your hands, then there is no suffering to inflict on you. 
+But if your misfortune has made you do it, then it must be very heavy, | 
+so heavy that there could be nothing heavier for you in your life.”’ 
+
+‘“ Ah, how heavy it is for me now, as if someone had crushed my 
+heart with a stone!” cried out the widow, with tears, and frankly 
+confessed before Leo Nikolaevich that she herself suffocated her little 
+child and threw it in the pond. 
+
+This actual fact was used by Tolstoi as the subject of his beautiful 
+drama, The Power of Darkness. 
+
+His great historical novel, War and Peace, with which the second 
+period of his literary activity was occupied, was written in the course 
+of five years (1864-69). In this the artistic creativeness of Tolstoi 
+reached its height. All critics confess that this novel is not an 
+ordinary literary production, but is a great epic, which comprises 
+Russian historical and social life, from the beginning of the last 
+century, in all its manifestations, from the most important historical 
+
+
+¢ 
+
+
+THE IDEAS OF LEO TOLSTOI 155 
+
+
+event, such as the defence of Leipzig and the burning of Moscow, to — 
+the commonest facts of life. The development of events serves only 
+as a pretext for the discussion of fundamental questions in the apHere 
+of history, politics and philosophy. 
+
+According to the character of their activities and convictions, the 
+heroes in this novel might be classified in four categories: In the 
+first category come Kuragin and Dolokov, men morally dissolute, 
+in whom all human feeling is wanting. They are ready to debase 
+the human worth of every man, to deprive him of honour, to strip 
+him to his shirt, and even to annihilate him completely. 
+
+The second category of heroes is represented by the adventurers 
+(carrieristi), such as Boris Trubetskoy and Berg, who only know how 
+to serve, to learn, and to live. To the third category the Rostovs — 
+are related. They are men capable of everything, they are easily 
+carried away, and fall for the minute under the influence of their 
+ideal passions, on the way to which stands sacrifice. To the fourth 
+category are related the men who have sufficiently developed their 
+rational and moral abilities through reading and reflection. They ask 
+themselves constantly, Why do we live? They look for the aim of 
+life ; they try to analyse, to define and explain their environment, 
+and likewise the phenomena ‘of their own inner life. Such are the 
+heroes: Volkonsky (the father, the daughter Maria, and the son 
+Andrei), and Peter Bezykhy. But assoonas they continue to remain 
+in the same abnormal conditions of life, then the aims outlined by 
+them appear ina propriate for their life, because they are artificial. 
+If in some way these theoretically excellent views are applied to life, 
+then instead of good they will bring evil. j 
+
+In the novel, Anna.Karenina, the heroine, although aware that 
+the way of the transgressor is hard, in the impulse of her passionate 
+love declares boldly to her husband Karenino that she is no longer his 
+_ wife, and that she loves Vronsky and belongs wholly to him. To her 
+great sorrow, however, she is deceived by Vronsky, and in the depths 
+of despair she lays her beautiful head under the heavy wheels of a 
+train. The other hero, Levin, is of a thoughtful nature. He con- 
+fesses that between the twentieth and thirtieth year of his life, instead 
+of overcoming and getting stronger, he lost his Christian faith, in 
+which he had been educated from a child by his orthodox parents. 
+For all this, Levin is a serious man. He puts the question to life, 
+“ How will it be explained once for all ? Whence has he come, why 
+does he exist, and for what does he strive? ’’ Before these hard 
+questions, he falls frequently into despair and disgust. In moments 
+of crisis and grief, when he cannot find any answer, his conscience iS 
+terribly pained, and he is ready even to do away with his life. In the 
+person of his wife, Kitty Levin, at last, he is evidently surprised 
+that there were still people in the world who keep everything unspoilt 
+in their souls, and live happily. And such are most people, if not the 
+whole Russian nation. Why, then, does he not rejoice in his family 
+
+
+2 
+| > 
+. 
+J 
+‘ 
+: 
+4 
+> 
+4 
+* 
+al 
+‘ 
+be 
+> 
+a 
+
+
+156 - | THE CHRISTIAN EAST 
+happiness, and be satisfied to pass his life with his beloved wife 
+Kitty and his son Dolya? How many there are of his learned | 
+
+
+friends, who do not trouble themselves with similar questions about | | | 
+life ? Levin explains them to himself thus: they are at peace not | _ 
+because they can find an answer to these questions, but because, | 
+being intellectually occupied with the discussion of various theories | | 
+about evolution, the eternity of matter, conservation of energy, etc., 
+they content themselves and do not worry about anything, they do 
+
+not ask for a definition of their life. | 
+
+From the year 1879 to the end of his life, L. N. Tolstoi gave up his 
+purely literary occupation, and devoted himself to philosophical | 
+considerations. In his work, What ts Art? he expresses himself 
+sceptically on the questions of esthetic pleasure and beauty. In the 
+book, Master and Workman, Tolstoi reviews the labour question and 
+the problems of labour and capital. 
+
+After many years of intellectual labour, he was impelled by the 
+desire to reap the harvest of truth, which he expected to learn from 
+life itself. Tolstoi passionately devoted himself to philosophy and 
+religious mysticism, as he hoped that at last he would find there the 
+required answer to the problems of life. With all his might he began 
+to seek an explanation of the questions, which, as he himself declared, 
+the people have thought out. He sought, but not only did he not 
+find anything, but he was convinced that all those who, like him, seek 
+something in knowledge, find only one “ something.” Tothe painful — | 
+questions : ‘‘ What will come out of all this, what am I doing to-day ; 
+what shall one do to-morrow, and, what will come out of all this life ? ”’ 
+for a long time he sought an answer, and at last he came to the con- 
+viction that all human knowledge does not give a satisfactory answer 
+to these questions. 
+
+From his early years Tolstoi had been engaged in abstract know- 
+4 ledge, later he was attracted by mathematics and the natural sciences. 
+
+Having studied the natural sciences, he came to the conclusion that 
+‘“ Everything develops itself, differentiates, and conditions itself, is . 
+_ perfected and guided by law. ‘Thou’ and ‘I’ are parts of the 
+whole. As you know, as far as you can, the whole, and as you know 
+the laws of its development, you know its place in that whole, and 
+itself.” With all these arguments, however, the principle and 
+essential question for Tolstoi, ‘‘ What am I with my desires?” 
+remained still without answer from the domain of science. He 
+turned to physiology, psychology, biology, sociology, and meta- 
+physics, but he found a striking poverty of thought and evidence. 
+There he found the greatest darkness and pretensions justified by 
+nothing, and unceasing contradictions of one thinker with others. 
+He saw that all knowledge, instead of solving, ignores the questions 
+of life. They say, ‘‘ To the fact that you are, and why you live, we 
+have no answer, and we are not interested in that. If you want to 
+know the laws of the body, their forms and relations of number and 
+
+
+§ 
+
+
+THE IDEALS OF LEO TOLSTOI 157 
+
+
+size, if you seek to know the laws of your own reason—to all this we 
+
+
+have no clear and living answers.”’ Accordingly, to the question, 
+
+
+x 
+
+
+“ Where am I, and why do I live ? ” the experimental.sciences reply » 
+
+
+to Tolstoi thus: “‘ In infinitely great space, and infinitely long time, 
+the combinations are infinite. When he starts from these funda- 
+mental positions, he interprets the laws of their visible changes, and 
+seeks to solve the question—Why do we live ?”’ 
+
+With such theories Tolstoi satisfied himself.for a certain time, but 
+the ‘* questions of life’ stirred again in his soul, the self-formed 
+theoriescrumbledtodust. At last he was convinced that, in order to 
+_ be able to answer the question, ‘‘ What sort of a thing is the life of the 
+whole, what is it in itself ?.’’ one must, before all things, understand 
+what sort of thing is the whole of this humanity, which consists of 
+people like to it, who, likewise, do not comprehend anything. Again, 
+he plunged into the sphere of the abstract sciences, metaphysics and 
+philosophy, and stops at the question, ' ‘Why am [and why is the 
+whole world ?’’ From this, says ‘Tolstoi, from which philosophy 
+exists, the torturing question has occupied the mind of man, but 
+his answer is ever the same, though he expresses it in various 
+forms. 
+
+‘“ The idea, substance, spint, and will is called by the philosopher 
+the essence of life, which is found in me and in everything which 
+exists, but why it is and whence it comes, philosophy cannot answer, 
+not even through the intelligence of the most genial thinker, and not 
+only is it not in a position to answer, but it only puts the essential 
+question in a composite form.”’. Tolstoi sought to know “ the sense 
+of life,’’ but the knowledge which philosophy gave him and according 
+to which it is seen that he is an atom in infinity, not only. did not 
+give him the sense, but destroyed all possibility of knowing: and com- 
+prehending the mysteries of that sense of life. 
+
+According to this principle, Tolstoi, as he was not able to satisty 
+himself with philosophy and metaphysics, turned to the sphere of 
+religion, and devoted himself to religious mysticism, to which Gogol, 
+Dostoevsky and other Russian writers were attracted. 
+
+If we analyse the religious and philosophical views of Leo N. Tolstot 
+we are convinced that he is not and cannot have been a Chnistian, 
+because he accepts fully the religious fundamentals of Buddhism. 
+His teaching about non-resistance to evil, and all his ethics, are 
+drawn from the ethical and religious system of Buddhism, which 
+may be expressed in these five commandments: (1) Not to kill 
+any living thing, (2) not to steal, (3) to keep absolute chastity, (4) not 
+to make use of spirituous liquors. Buddha (Sakya-Muni) preached 
+escape from the world and contempt of. everything which impels 
+us to think and act in life. 
+
+This teaching of Buddhism about escape from life was exactly 
+carried-out by Tolstoi himself. Only a few hours before the last 
+moments of his life, he was utterly depressed and exhausted, and 
+
+
+© @ @ * 
+
+
+% 
+| 
+
+1% 
+
+
+» 
+« + 
+] 
+i ~ 
+> 
+> * 
+4 
+4 
+i 
+* 
+» 
+’ 
+. 
+ad 
+‘ 
+» 
+‘ 
+‘ 
+5 
+4 
+v 
+
+
+158 THE CHRISTIAN EAST 
+
+
+secretly left his house at Yasnaya Polyana and travelled by himself 
+to die far away and alone. | 
+
+For Tolstoi Jesus Christ was ouly a great moralist and teacher of 
+mankind, but not the God-man, as the Christian Church teaches. He 
+rejects the Gospel miracles. On that account the excommunication 
+of Tolstoi, which the Russian Holy Synod pronounced, was fully 
+justified. 
+~ To what is the great and universal celebrity of L. N. Tolstoi due ? 
+
+
+As a novelist and writer, Tolstoi did not create a school, as, for » - 
+
+
+instance, Dostoevsky created with his profound psychological novels. 
+He did not create a philosophical system, such as all original thinkers: 
+have created. His teaching, as we have seen, is a revival of the old 
+ethical and religious teaching of pagan Buddhism. For all that, he 
+attracted readers with the youthful blaze of life-kindling questions 
+(social, economic, religious and ethical), with his bold effort to trans- 
+form life, to become a great reformer. 
+_ Rejecting the divine nature of Jesus Christ, he was opposed to the 
+
+Christian Church, while he attracted to himself the Russian nihilistic 
+intelligentsia. He joined battle with the monarchical régime andthe 
+capitalistic social order, because these systems, according to him, 
+were thesole barrier to mankind's tasting the joysof life. Fighting for 
+simplicity and sincerity in relations between men, he worked for the 
+protection of people from sordid toil, though actually in social rela- 
+tions he remained to the end of his life a landowner ; he upheld the 
+view that the perfection of society must be attained through the 
+education of personality. | 
+
+The Bolsheviks reject the fundamental principle of the world-view 
+of Tolstoi, and therefore for ten years they forbade the distribution of 
+his works. For all that, in 1928 they celebrated with festivities 
+his centenary, evidently because they have counted him as a fore- 
+runner of their activity in social reorganization. | 
+
+Instead of wasting their time, strength and abilities on Tolstoism, 
+our young writers will be more useful to their people and fatherland 
+if they devote themselves sincerely to studying the fundamental 
+truths of Christian teaching, because in that every worker of thought, 
+feeling, and truth, and likewise every toiling citizen, shall find health 
+and a lasting foundation for building up the future welfare of his 
+
+
+people. 
+
+
+_S 
+| 
+is | 
+| 
+
+
+* t 
+
+
+PANNYKHIDA 159 
+
+
+PANNYKHIDA: OR OFFICE FOR THE FAITHFUL 
+
+
+DEPARTED. 
+
+
+(In response to numerous requests we print below a translation of 
+the Russian Pannykhida. Both the translation and the notes 
+which precede it are by W. J]. Birkbeck, and are taken from a 
+booklet of his entitled ‘‘ Pannykhida,’’ which has been for some 
+time out of print. Wethank the English Church Union for per- 
+mission to reprint these extracts.) 
+
+
+T HE Holy Eastern Church in its public services has its daily, 
+iis weeklv, and its annual commemorations of the dead. The 
+daily commemorations occur principally in the Liturgy and in the 
+Mesonycticon, or daily midnight service.* The weekly Commemo- 
+ration of the dead takes place on Saturdays, all the offices of the 
+day, from Vespers on Friday evening down to Nones on Saturday 
+afternoon, being for the most part dedicated to this object in 
+commemoration of our Lord’s burial and descent into hell. In 
+each of the eight sets of Saturday services the Matins contain, in 
+addition to the Canons for the Martyrs and Confessors, a separate 
+Canon for the dead. These were written by Theophanes, Bishop 
+of Niceea in the eighth century. In addition to these, there are 
+several special commemorations of the dead in the course of the 
+year, somewhat analogous to All Souls’ Day in the West. The 
+principal of these take place on the Saturdays before Sexagesima 
+and..Pentecost.t On these days, instead of the ordinary Saturday 
+Matins being said at an early hour in the morning, a specially 
+Selemn Matins for the dead follows immediately upon Vespers of 
+
+
+the evening before, which, if sung in full, lasts all through the 
+
+
+night. Hence its name ravwyis, which is the word used in Greece 
+for the “all-night” vigil on the eves of Sundays and of great 
+festivals. In Russia they have translated this word in the latter 
+case, using its exact Slavonic equivalent, Vsiénoshchnaia; but they 
+have retained the word Pannykhida for Matins of the dead. 
+
+The principal daily, weekly, and yearly commemorations of the 
+dead which occur in the ordinary circle of the Eastern Divine office 
+have now been mentioned. But, in addition to these, special 
+Services for the Dead may be held at any time, either in the church 
+or in the churchyard, or in private houses. No one that has seen 
+anything of the Orthodox East can fail to be struck by this beautiful 
+custom. Services are always held on the third, ninth, and fortieth 
+
+
+* 1 have avoided the word ‘“ Nocturns’’ because, although the Mesonycticon 
+has often been compared to the Latin ‘‘ Nocturns’”’ or Matins,’’ and the Eastern 
+Orthron to Lauds, the former does not really present any analogy to any service 
+contained in the Western Breviary. The O7thron really includes -both the 
+Western Matins and Lauds, while the Mesonycticon is a service peculiar to the 
+East, and constructed upon an entirely different model to the Western “ Nocturns.” 
+_ t+ I must not omit also to mention the two magnificent prayers for the departed 
+said at the third of the three great genuflections which form such a striking 
+and solemn feature of the Vespers of Whitsun Day itself. 
+
+
+> 
+} 7 
+= 
+| | 
+* ‘ 
+> 
+4 
+> 
+3 
+4 
+4 
+| 
+q " 
+4 ; 
+4 
+: 
+> 
+i 
+v 
+
+
+THE CHRISTIAN EAST 
+
+
+days after a also upon anniversaries ; ‘but they may also~ | 
+be held at any other time, whenever and wherever the friends and 
+relatives of the departed may desire. In Greece they usually consist 
+of what is known of the Ac) for the dead, a short service which is 
+to be found at the beginning of the ordinary Burial Service in 
+the Euchologion, being placed there because it is always said before 
+the removal of the body from the house in which death took place | 
+to the church. When it is used on ordinary occasions in church | 
+in commemoration of the departed, it is said immediately after the 
+Liturgy, or Vespers or Matins. A small table is placed in the 
+middle of the nave, upon which stand the «gdAvBor or dish of boiled 
+wheat (or rice and raisins) mixed with honey, with a candle standing 
+in the middle. The corn signifies the resurrection of the dead, 
+whose bodies must be committed to the earth and see corruption, 
+in order hereafter to be raised in incorruption, just as the grain 
+is not quickened except it first be buried in the earth and die; while 
+the honey represents the sweetness of the joys of eternity. 
+
+In Russia, in addition to the Arr (or more usually instead of it) 
+a Pannykhida is said. This, as we have already seen, is Matins 
+for the dead, and, in fact, corresponds to the Dirge of the Middle 
+Ages. But when used as an extra devotion, it is considerably 
+shortened.* It is dithcult to say exactly how this development, 
+which is peculiar to Russia, took place, but, judging from some 
+of the rubrics which occur in the Slavonic Octoechos, where the 
+outline of the Service is given, it would seem that the custom 
+probably originated in the monasteries instituting additional 
+mavvuxides for the departed members of their communities to be 
+sung after Vespers on Friday, and that from the monasteries the 
+
+custom extended itself to the secular clergy and laity. 
+
+When sung in church the table with the x«oAvBov is used at the 
+Pannykhida just as it is at the Greek Arr}; the priest stands before 
+it vested in his chasuble, and holding a lighted candle; the deacon 
+stands by his side with the censer, and censes throughout the Service, 
+asking the blessing of the priest at the beginning of each Ectene. 
+During the singing of the Troparia upon the Verse “ Blessed art 
+thou, O Lord,” etc. (see below) the priest takes the censer from the 
+deacon, and gives him the lighted candle, and he then censes the 
+xoAvBov on all four sides, going round the table on which it stands, 
+the deacon in the meantime moving round it on the opposite side 
+to him .with the lighted candle. The priest then proceeds to the 
+sanctuary through the Royal Doors and censes first the altar, then 
+the icons of the saints, and then the congregation, signifying 
+thereby the communion of prayer which exists between the saints 
+
+
+* It would occupy much too much space to trace out the structure of the 
+Service, but even in its shortened form its derivation from Matins will at once 
+be recognized by those who are familiar with the Eastern rite. Mle cu of the 
+Service is, however, taken not from Matins, but from thé Airy.” 
+
+
+4 \ 
+
+
+PANNYKHIDA 161 
+
+
+‘in heaven, the faithful departed, and the living upon earth in the 
+Church which is the Body of Christ. The priest also censes when 
+he pronounces “the Dismissal ” at the end of the Service. If he 
+is officiating without a deacon, he holds the censer all the time. 
+The congregation present all hold lighted tapers throughout the 
+Service. 4 
+
+Coming now to, the doctrinal significance of the Pannykhida, 
+and comparing it with the offices for the dead which are used in 
+the West, the reader will at once be struck by one feature in which 
+they present a sharp contrast to those, not only of the Reformed, 
+but also of the Latin Communion. Iam referring to the numerous 
+petitions which occur in all Eastern offices for the dead to the Holy 
+Mother of God, and to the saints, that they will join their inter- 
+cessions to those of the Church upon earth on behalf of the 
+departed; whereas in the Latin Matins and Vespers for the Dead 
+nothing of the kind occurs; and even the Sub-Venite, which is 
+used at the burial of the dead, obviously refers to the soul at the 
+moment of death and burial. To the Easterns it seems absurd 
+that the Church upon earth should pray for the dead, and at the 
+same time should not ask for the prayers of “the spirits of just men 
+made perfect,’’ who, as members of the one Body of Christ, have 
+just as much interest as we in the destiny of every Christian soul, 
+or that “the incense ” should “ascend before the throne of God 
+with the prayers,’’ not “of all saints,’ but merely with the prayers 
+of those of the saints who happen still to be living here upon earth. 
+I am quite aware that any member of the Latin communion would 
+say that there was no reason whatever why such prayers should 
+not be used. Nevertheless the fact remains that they do not appear 
+in the Western rites. Even the Blessed Virgin is entirely ignored, 
+notwithstanding the fact that the doctrine concerning the second 
+Eve, and the bruising of the serpent’s head by the seed of the 
+woman, is assuredly inseparable from the “sure and certain hope ” 
+of the Church with regard to the faithful departed. 
+
+As a matter of fact, this distinction between the Eastern and 
+Western Offices for the Dead is by no means accidental, but 
+accurately corresponds to the essential difference which exists be- 
+tween the Eastern and Western conception of the nature of the 
+unity of the Catholic Church. The Roman Catholic stakes his 
+membership in the Communion of Saints upon the fact of his 
+submission to the occupant of the Primatial See of Christendom ; 
+whereas the Eastern feels himself to be spiritually united with the 
+Church upon earth because he is united with the whole Body and 
+its Divine Head. He emphatically denies that her Divine Founder 
+cut His Church up into sections, and that when He ascended into 
+heaven He constituted that section of it which He left upon earth 
+into a separate organism, over which (as Leo XIII. not long ago 
+told us) He “was obliged to designate a vicegerent ” 
+
+
+in order to 
+
+
+4 
+
+
+* 
+a 4 
+{ 
+a 
+> 
+| 
+4 
+~ 
+; 
+4 
+> 
+‘ 
+* 
+» ¢ 
+d 
+
+
+162 THE CHRISTIAN EAST 
+
+
+preserve the essential unity of the Church. Consequently, when 
+the Latin speaks of the Holy Catholic Church, he ordinarily means 
+the Roman Church at the present time, whereas the Eastern keeps 
+much more prominently before his mind the fact that the one Body 
+of Christ consists, as St. Chrysostom (in Ep. ad Ephes. iv. 4) puts | 
+it, of ‘the faithful from all parts of the world, who are, have been, | 
+and shall be.” And this difference in their habitual way of regard- 
+
+ing the Church is exactly reflected in their services for the dead. | 
+The Greek and Latin offices represent two entirely different ideas. | 
+The Latin service is the voice of the Church upon earth, and 
+represents the new relations which are supposed to have come into 
+
+existence between herself and her lately departed member. The - 
+Eastern Church, on the contrary, speaks in the name of the whole | 
+Church, living, departed, and yet to be born; and her services 
+represent the fact that, although the temporary conditions of her 
+lately departed member have changed, yet his relations to herself 
+are the same as they were before. 
+
+
+PANNYKHIDA. 
+
+
+Deacon. Sir, give the blessing. 
+
+Priest. Blessed be our God, always, now and ever, world without 
+end. . 
+
+Choir. Amen. 
+
+
+(Great Ektene of the Dead.) 
+
+
+Deacon. In peace let us make our supplications to the Lord. 
+
+Choir. Lord, have mercy (and so at the end of each petition). 
+
+Deacon. For the peace that is from above, and for the salvation 
+of our souls, let us make our supplications to the Lord. 
+
+For the remission of the sins of those of blessed memory who 
+have departed this life, let us make our supplications to the Lord. 
+
+For the servant of God, N., of everlasting memory, that He 
+may grant him rest, tranquility, and a blessed memorial, let us 
+make our supplications to the Lord. 
+
+That He may forgive him every sin, voluntary, or involuntary, 
+which he hath committed, let us make our supplications to the 
+Lord. 7 
+
+That he may appear uncondemned before the dreadful throne of 
+the Lord of glory, let us make our supplications to the Lord. 
+
+For them that mourn and are in grief, and look for the comfort 
+of Christ, let us make our supplications to the Lord. 
+
+That he may be set free from every infirmity, and from sorrow 
+and sighing, and that God may cause him to dwell in the light 
+of His countenance, let us make our supplications to the Lord. - 
+
+That the Lord our God-may assign unto his soul a place of light, 
+a place of refreshment, a place of repose, where all the just do 
+dwell, let us make our supplications to the Lord. 
+
+
+4 
+
+
+R 
+
+
+PANNYKHIDA 163 
+
+
+That he may be numbered amongst those that are in the bosom 
+of Abraham, of Isaae, and of Jacob; tet us make our supplications 
+the Lord. 
+
+That we may be preserved from all tribulation, wrath, and 
+necessity, let us make our supplications to the Lord. 
+
+Assist, save, pity, and protect us, O God, by Thy grace. 
+
+Having prayed for him, for God’s mercy and the kingdom of 
+heaven and the remission of his sins, let us also commend ourselves 
+and one another, and_all our life, to Christ our God. 
+
+Choir. To Thee, O Lord. | 
+
+Priest (aloud).* For Thou art the resurrection and the life, 
+and the repose of Thy servant, N., who ts fallen asleep, O Christ 
+our God; and unto Thee do we render glory, with Thine eternal 
+Father, and Thine all-holy, and good, and life-giving Spirit, now 
+and ever, world without end. | 
+
+Choir. Amen. 
+
+Deacon. (Tone Eight.) Alleluya! 
+
+Choir. Alleluya, Alleluya, Alleluya. 
+
+Alleluya, Alleluya, Alleluya. 
+Alleluya, Alleluya, Alleluya. 
+
+
+(Troparia. Tone Eight.) 
+
+[O Thou, that out of the depths of wisdom orderest all things 
+in love for man, and appointest unto all that which is profitable ; 
+do Thou, O Lord, the one Creator of the world, give rest unto the 
+souls of Thy servants, for in Thee have they set their hope, | that 
+has made us and fashioned us, and art our God. 
+
+(Glory be to the Father, and to the Son, and to the Holy Ghost : 
+Now and ever, world without end. Amen. 
+
+
+(To the Holy Mother of God.) 
+In thee we have a wall, and a haven, and an intercessor acceptable 
+
+
+to God, Whom thou didst bear, ]+ O maiden Mother of God, who 
+
+
+art the salvation of the faithful. 
+
+Blessed art Thou, O Lord: O teach’ me Thy statutes. + 
+
+The company of the Saints have found the well of life, and the 
+gate of Paradise: may I likewise find the way through repentance : 
+_I am the lost sheep: call me back, O Saviour, and save me. _ 
+
+Blessed art Thou, O Lord: O teach me Thy statutes. 
+
+Give rest, O God, to Thy servant; and appoint him to a place 
+in Paradise : where the company of the Saints, O Lord, and the 
+righteous shall shine forth as lights: give rest to Thy servant 
+that is fallen asleep: overlooking all his transgressions. 
+
+Glory be to the Father, and to the Son, and to the Holy Ghost. 
+
+Let us devoutly sing praises unto the threefold light of the one 
+
+
+* This is the termination of the prayer, ‘‘O God of spirits and of all flesh,”’ 
+which is said secretly by the priest during the recital of all the ectene, except 
+the last, in which case it is said aloud in full. 
+
+t The passages enclosed in square brackets are, except in monasteries, usually 
+omitted. 
+
+
+r 
+ate? 
+-* 
+4.4 
+> 
++ 
+. 
+> 
+* 
+| 
+a 
+
+é 
+
+4 
+
+¢ 
+
+a 
+
+
+164 THE CHRISTIAN EAST 
+
+
+a Godhead, crying, Holy art Thou, O Father eternal, and co-eternal © 
+Son, and Divine Spirit: enlighten us, who serve Thee in faith: 
+and deliver us from the fire everlasting. 
+
+Both now and ever, world without end. Amen. 
+
+
+(To the Holy Mother of God.) 
+v Hail, holy Virgin, that didst bear God in the flesh for the 
+salvation of all; and through whom the race of men found salva- 
+tion: through thee may we find Parenae O pure and blessed 
+Mother of God. 
+
+— Alleluya, Alleluya, Alleluya: Glory be to Thee, O God. 
+
+Alleluya, Alleluya, Alleluya: Glory be to Thee, O God. 
+
+Alleluya, Alleluya, Alleluya: Glory be to Thee, O God. 
+
+
+(Little Ektene of the Dead.) 
+
+Deacon. Again and again, let us make our supplications to the 
+Lord. 
+
+Choir. Lord, have mercy. 
+
+Deacon. Again we pray for the repose of N., the servant of ~ 
+God, that is fallen asleep, and that he may be forgiven every sin, 
+voluntary or involuntary, which he hath committed. 
+
+Choir. Lord, have mercy. 
+
+Deacon. May the Lord God place his soul where the just repose. 
+
+Choir. Lord, have mercy. 
+
+Deacon. The mercy of God, the kingdom of heaven, and the 
+remission of his sins, let us ask of Christ our immortal King and 
+God. 
+
+Choir. Grant, O Lord. 
+
+Deacon. Let us make our supplications to the Lord. 
+
+Choir. Lord, have mercy. 
+
+Priest. For Thou art the Resurrection and the Life, and the 
+repose of thy servant N., who is fallen asleep, O Christ our God; 
+and unto Thee do we render glory, with Thine eternal Father, and 
+Thy all-holy and = and life-giving Spirit, now, and ever, world 
+without end. 
+
+Choir. Amen. 
+
+
+(Troparia. Tone Six.) 
+
+[Give rest, O our Saviour, to Thy servant with the just, and 
+cause him to dwell within Thy courts, as it is written: overlooking, 
+as Thou art good, his transgressions, whether voluntary or 
+involuntary, and all that he hath committed in ignorance or with . 
+knowledge, O Thou lover of mankind. 
+
+Glory be to the Father, and to the Son, and to the Holy Ghost. ] 
+
+And all that he hath committed in ignorance or knowledge, O 
+Thou lover of mankind. . 
+
+{ Both now and ever, world without-end. Amen. 
+
+O Christ our God, Who didst rise upon the world from the | 
+Vi irgin,] and by her didst point out the sons of light, have mercy ~ 
+upon us. = 
+
+
+\ > 
+< 3 | 
+
+
+= 
+_ 
+
+
+PANNYKHIDA 
+
+
+Give rest, O.Lord, to the soul of Thy Servant that is fallen 
+asleep. 
+
+Give rest, O Lord, to the soul of Thy servant that is fallen 
+asleep. 
+
+Glory be to the Father, and to the Son, and to the Holy Ghost. 
+
+Both now and ever, world without end. Amen. 
+
+Give rest, O Lord, to the soul of Thy servant that is fallen 
+asleep. 
+
+Give rest, O Lord, to the soul “l Thy servant that is fallen 
+asleep. 
+
+Glory. Both now. 
+
+
+(Ode vi. Tone 8. The Heirmos.) 
+I will pour out my prayer unto the Lord, and unto Him will 
+I declare my sorrows: for my soul is full of trouble, and my life 
+
+
+draweth nigh unto hell: and, like Jonah, I pray: bring me up, —~- 
+
+
+O God, from corruption. 
+(Little Ektene.) 
+
+Deacon. Again and again, let us make our supplications to the 
+Lord. 
+
+Choir. Lord, have mercy. 
+
+Deacon. Again we pray for the repose of N., the servant of 
+God, that is fallen asleep, and that he may be forgiven every sin, 
+voluntary or involuntary, which he hath committed. 
+
+Choir. Lord, have mercy. 
+
+Deacon. May the Lord God place his soul where the just repose. 
+
+Choir. Lord, have mercy. 
+
+Deacon. The mercy of God, the kingdom of heaven, and the 
+remission of his sins, let 1 us ask of Christ, our immortal King and 
+God. . 
+
+Choir. Grant, O Lord. 
+
+Deacon. Let us make our supplications to the Lord. 
+
+Choir. Lord, have mercy. 
+
+
+Priest. For Thou art the Resurrection and the Life and the. 
+
+
+repose of Thy servant N., who is fallen asleep, O Christ our God; 
+and unto Thee do we render glory, with Thine eternal Father, and 
+Thy all-holy and good and We-giving Spirit, now, and ever, world 
+without end. 
+
+Choir, Amen. 
+
+(Contakion. Tone 8.) 
+
+Give rest to the soul of Thy servant, O Christ, with the saints, 
+where there is neither pain, nor sorrow, nor sighing, but life 
+unending. | 
+
+
+(C£cos.) 
+
+Thou only.art immortal that didst create and fashion man: but 
+we mortals are formed of earth, and unto the same earth shall we 
+come: even as Thou didst ordain, that didst fashion me and saidst 
+unto me, Dust thou art, and unto dust shalt thou return. Thither 
+
+
+. 
+19 
+ee 
+¢ 
+} 
+| 
+| 
+4 
+* 
+} 
+i 
+> 
+*.-% 
+; 
+} 
+j 
+
+
+Q 
+166 THE CHRISTIAN EAST 
+
+
+shall all we mortals go, making a lamentation over the grave, even 
+in the song: Alleluya, Alleluya, Alleluya. 
+Give rest, O Lord, to the soul of Thy servant that is fallen 
+asleep. 
+Give rest, O Lord, to the soul of am servant that is fallen 
+— | asleep. 
+Glory be to the Father, and to the Son, and to the Holy Ghost. 
+Both now and ever, world without end. Amen. 
+Give rest, O Lord, to the soul of Thy servant that is fallen 
+asleep. 
+Give rest, O Lord, to the soul of is servant that is fallen 
+asleep. 
+Glory. Both now. 
+
+
+(Ode ix. Tone 8. The Heirmos.) 
+“Heaven was astonished and the ends of the earth marvelled, for 
+_ that God manifested Himself in the flesh to men, and thy womb 
+contained that which the heavens cannot contain. Wherefore the 
+hosts of angels and men magnify thee, the Mother of God. 
+- Reader. Our Father, Which art in heaven, Hallowed be Thy 
+Name. Thy kingdom come. Thy will be done in earth, As it 
+is in heaven. Give us this day our daily bread. And forgive us 
+our trespasses, As we forgive them that trespass against us. And 
+lead us not into temptation; But deliver us from evil. 
+
+Priest. For Thine is the kingdom, and the power, and the glory, 
+of the Father and of the Son, and of the a Spirit, both now 
+and ever, world without end. 
+
+Choir. Amen. 
+
+
+(Troparia. Tone 8.) 
+
+With the spirits of just men made perfect® give rest, O Saviour, 
+to the soul of Thy servant, keeping it for that blessed life which 
+is from Thee, O Thou lover of mankind. 
+
+In Thy resting-place, O Lord, where all Thy saints repose, give 
+rest likewise to the soul of Thy servant, in that Thou alone art 
+immortal.+ 
+
+Glory be to the Father, and to the Son, and to the Holy Ghost. 
+
+Thou art the God that didst descend into hell, and didst loose 
+the bonds of those that were bound; do Thou also Thyself is 
+rest to the soul of Thy servant. 
+
+Both now and ever, world without end. . Amen. 
+
+
+(To the Holy Mother of God.) 
+O Virgin, who alone art pure and undefiled, who without spot 
+didst give birth to God, pray that his soul may be saved. 
+
+
+(Little Ektene.) 
+Deacon. Have mercy upon us, O God, according to Thy great 
+goodness, we pray Thee, hear us, and have mercy upon us. 
+
+
+* Slavonic: ‘ just men parted.” + Slavonic: " art a lover of mankind.” 
+
+
+| 
+
+
+PANNYKHIDA 167 
+
+
+Choir. Lord, have mercy. Lord, have mercy. Lord, have , 
+mercy. | ae 
+Deacon. Again we pray for the repose of N., the servant of 
+God, that is fallen asleep, and that he may be forgiven every sin, 
+voluntary or involuntary, which he hath committed. 
+Choir. Lord, have mercy. Lord, have mercy. Lord, have 
+mercy. 
+Deacon. May the Lord God place his soul where the just repose. 
+Choir. Lord, have mercy. Lord, have mercy. Lord, have 
+mercy. 
+Deacon. The mercy. of God, the kingdom of heayen, and the 
+
+
+remission of his sins, let us ask of Christ our immortal King and 
+God. 7 
+
+
+Choir. Grant, O Lord. 
+
+Deacon. Let us make our macoiicaticen to the Lord. 
+
+Choir. Lord, have mercy. 
+
+Priest. O God of spirits and of all flesh, Who hast. trodden 
+down death and brought to nought the power of the devil, and 
+hast bestowed life upon this world of Thine: do Thou Thyself, 
+
+_ O Lord, give rest to the soul of Thy servant N., who is fallen 
+asleep, in a place of light, in a place of pasture, in a place of 
+
+_ refreshment,* whence pain and sorrow and sighing have fled away. 
+Every sin which he hath committed in word or deed or thought; 
+forasmuch as Thou, O God, art good and lovest mankind, do Thou 
+forgive: for there is no man that liveth and sinneth not; for 
+Thou alone art without sin, Thy righteousness is an everlasting 
+righteousness, and Thy lawt is the truth. 
+
+For Thou art the resurrection, the life, and the repose of Thy 
+servant N., that is fallen asleep, O Christ our God, and to Thee 
+do we render glory, with Thine eternal Father, and Thy all-holy, 
+and good and life-giving Spirit, now, and ever, world without end. 
+
+Choir. Amen. 
+
+Deacon. Wisdom! 
+
+Priest. Most holy Mother of God, save us. 
+
+Choir. Thee who art more honourable than the Cherubim, and 
+more glorious, beyond compare, than the Seraphim, who without 
+spot didst bring forth God the Word, Thee, who art truly the 
+Mother of God, we magnify. 
+
+Priest. Glory to Thee, O Christ our God, who art our hope; 
+glory to Thee. 
+
+Choir. Glory be to the Father, and to the Son, and to the 
+Holy Ghost: both now and ever, world without end. Amen. 
+Lord, have mercy. / Lord, have mercy. Lord, have mercy. Give 
+thé blessing. 
+
+Priest. May Christ, our true God, who rose from. the dead, 
+by the prayers of his most pure Mother, of the holy and glorious 
+
+
+* Slavonic: repose.” + Slavonic: word.” 
+
+
+pe 
+* 
+‘ 
+| 
+| 
+4 « 
+@ 
+4 
+* 
+ts 
+‘ 
+4 
+| 
+. 
++ 
+* 
+* 
+4 
++ 
+a 
+| 
+» ? 
+> 
+| 
+. 
+
+
+| 
+
+
+168 - THE CHRISTIAN EAST 
+
+
+and all laudable praiusuerilis Apostles, of our reverend and God- | 
+
+bearing Fathers, and of all saints, cause the soul of His servant N.,, 
+departed from us, to dwell in the tabernacles of the just, to rest 
+in the bosom of Abraham, and to be numbered with the righteous, 
+
+and may He have mercy upon us, in that He is good, and the 
+lover of men. 
+
+Deacon. In a blessed falling asleep, grant everlasting rest, O 
+Lord, to Thy departed servant N., and make him to be had in 
+everlasting remembrance. 
+
+Choir. Everlasting remembrance, everlasting remembrance, 
+everlasting remembrance. 
+
+
+OUR BOOKS 
+
+
+INTRODUCTION TO DOGMATIC 
+THEOLOGY. 
+
+
+(V’vedenie v Pravoslavno Dogmatichno 
+Cur. GYAOOROV. iv. pp. 357. Sofia, 1926. 
+
+
+The present work, as the author states in his preface, is intended 
+to supply the need of the Orthodox Church for special introductions 
+to dogmatic theology. He does not deny that Macarius, Metro-- 
+politan of Moscow, Silvester, Bishop of Kiev, and Fr. N. 
+Malinovsky of Kharkov have written general introductions to 
+Orthodox theology, but he asserts that their works do not bear 
+a sufficiently dogmatic character. As far as we are able to judge, 
+
+the clear and comprehensive treatment of the subject by 
+Chr. Gyaoorov, lecturer in Dogmatic Theology at the Theological | 
+Seminary of Sofia, ought to supply the wants of theological 
+students, at least so far as the Orthodox Church in Bulgaria is 
+concerned. Unfortunately, the general ignorance of Slavonic © 
+languages will make this work less accessible to theological scholars 
+of the Anglican Church, just as the apparent unfamiliarity of the 
+writer with Anglican theology prevents him from referring, even in 
+the briefest manner, to more than two or three English books, 
+published, at the latest, about 1902. This, again, is a defect which 
+should be remedied in the near future. 
+
+The writer deals in five chapters with the meaning, character, and 
+history of dogmatic'theology. At the outset, he gives a clear and 
+full definition of the idea of Christian dogmas. “By Christian 
+. dogmas we must understand the theoretical truths of Christianity, 
+as they have been communicated to us in a supernatural manner 
+by Divine revelation, have been expounded and established by the 
+Orthodox Church and have a general and legally binding character 
+for all Orthodox Christians.” Divine revelation is objectively 
+represented by the dogmas of the Church, and_ subjectively 
+spiroprine’ by the aes or knowledge of the individual Christian. 
+
+
+OUR BOOKSHELF 169 
+
+
+The chief media of Divine revelation are Holy Scripture and Holy ~~~ 
+Tradition. But, while the indispensability of these primary | 
+sources will be recognized by all Christians, there is by no means 
+general agreement as to their character and value. We may all 
+
+_ believe in the progressive inspiration of the writers of the Old and 
+New Testaments, and of the teachers of the Christian Church, but 
+there is, at least in the Anglican Church, a reluctance to ascribe 
+
+infallibility either to Scripture or Tradition. We admit, as fully 
+as Luther did, that there are human as well as divine elements in 
+Holy Scripture, because it would be impossible otherwise to excuse 
+or explain the moral defects and historical errors which are apparent 
+to any serious student of the Bible. While no intelligent scholar 
+would reject tradition en bloc, it seems reasonable to argue that 
+early tradition is on the whole more reliable than later, and that, 
+in any case, tradition should be rejected, if it is unsupported, or 
+even contradicted by the testimony of Holy Scripture. In short, 
+we must be able to distinguish between true and false traditions, 
+as Christ appears to have done in the case of the Jewish Church. 
+
+Again, the majority of Anglican theologians are unwilling to 
+ascribe infallibility to any bishop or assembly of bishops of the 
+Catholic Church. Infallibility, according to Chr. Gyaoorov, is 
+proved by three facts (1) the divine institution of the Church, (2) 
+the continual presence of Christ in His Church, and (3) the guidance 
+of the Holy Spirit. He attributes an active and a passive sense to 
+infallibility. In the first case, it meant a real and true action of 
+God upon the individual person or assembly of persons, and in 
+the second, the veracity of the inspired records. We should reply 
+that, while we fully believe that Christ founded and the Holy Spirit 
+guides the Church, we are equally convinced that the leaders or 
+members of the Church, as human beings, must be imperfect and 
+fallible. Our 19th article clearly states that the Churches of 
+Jerusalem, Alexandria, Antioch, and Rome have erred in matters 
+of faith, and it would be both arrogant and absurd to assert that 
+the Church of England alone has been right at all stages of her 
+history. Again the 21st article admits that General Councils, as 
+assemblies of men, may and have erred in Divine things, and that 
+their decisions have no authority, unless they can be supported by | 
+Holy Scripture. An impartial study of the conduct of the first 
+four General Councils, not to mention the later, should convince 
+us that, more than once, human passions and prejudices have been 
+overruled by Divine Providence. Chr. Gyaoorov rejects, as 
+vigorously as the Anglican Church does, the infallibility of the 
+Bishop of Rome: why, then, should an assembly of bishops be 
+regarded as less fallible? Our firm conviction must be that the 
+Holy Spirit will guide us, .in spite of omiporaly 2 and relative errors, 
+into final and absolute truth. 
+
+If we believe in gradual progress towards sihhimaie truth, we must 
+
+
+* 
+; 
+A 
+2 acd 
+*, 
+4 
+> 
+> 
+> 
+> 
+4 
+» 
+* 
+* 
+> 
+* 
+* 
+> 
+‘ 
+" 
+» 
+. 
+> 
+
+
+THE ~CHRISTIAN EAST 
+
+
+postulate some development in Christian doctrine. Chr. Gyaoorov 
+examines in turn the respective theories of J. H. Newman, 
+J. Kaftan, A. Harnack, and V1. Soloviev. Newman held that the 
+fundamental immutable principles of Christian truths are Holy 
+Scripture and the rules of the faith. Dogmatic ideas, in their strife 
+with other ideas, are strengthened and perfected, without changing 
+the essence of their content; they absorb into themselves cognate 
+elements, just as Aaron’s rod swallowed up the rods of the 
+Egyptian magicians. Kaftan affirms that Christianity, according 
+to the will and predetermination of God, is the object of a historical 
+development in the Church. There are three chief stages in the 
+development of the Christian Church, the Eastern Orthodox, the 
+Roman Catholic, and the Evangelical Protestant. The Evangelical. 
+concept of the supreme good (Heilsgut) is the highest, because it 
+achieves a union between religion and morality in the life of man 
+in the world. Harnack holds that Church dogmas are strictly 
+formulated religious truths, and, in that sense, the Christians had 
+no dogmas till the beginning of the 4th century. The first dogma, 
+which began to be defined at the beginning of the 4th century, was 
+._. that of Christ as the premundane and personal Word of God. 
+Lastly, Soloviev affirms that the dogmas of the faith were not fully 
+developed and expounded in Divine revelation. The fundamental 
+truth, and first dogma of Christianity, is the truth of the Divinity of 
+Christ, the idea of Him as God-man and Saviour of mankind. 
+However, Gyaoorov does not admit the theory of dogmatic 
+development in the Church, but lays down three fundamental 
+propositions: (1) With Jesus Christ and His apostles Divine 
+revelation was completed. (2) There can be no limit between 
+dogmas of the faith and revelation, because their content is one and 
+the same. (3) The Church of Christ is endowed with supreme 4 
+Divine grace to be the infallible preserver and exponent of Divine 
+revelation. There can be no ambiguity, obscurity, or imperfection 
+in her teaching. 
+_ In the appropriation of Divine truths the relative merits of faith | 
+and knowledge must be considered. Faith is the capacity of 
+penetrating into the unseen spiritual world. In the proper sense 
+of the word, faith is not a special faculty, because its essence is 
+rooted in the three fundamental faculties of the human soul, reason, 
+will and feeling. It depends largely on the standpoint of the 
+individual theologian whether faith is regarded as an exercise of 
+the intellect or an activity of the will: but if we agree with St. 
+Augustine and St. Anselm, we may place faith before, if not 
+above knowledge. 
+Dogmatic theology may be divided into two parts, (a) teaching 
+about God in Himself, (b) teaching about God in relation to the 
+world. The sources of dogmatic theology are the symbols or. 
+creeds, the definitions of the General Councils, and the Catechisms. 
+
+
+¢ 
+
+
+OUR BOOKSHELF 171 
+
+
+of the various churches. Three special catechisms of the Orthodox 
+
+Church are mentioned by Chr. Gyaoorov, the Catechism of Peter 
+Mogila, Metropolitan of Kiev (1640), the Confession of 
+Dositheus, Patriarch of Jerusalem (1672) and the Catechism of 
+Philaret, Metropolitan of Moscow. The importance of: dogmatic 
+theology lies, positively, in its exposition of the Christian truths 
+of salvation and eternal life, and negatively in its opposition to 
+extreme mysticism, rationalism and philosophy, such as that of 
+Kant, which would reduce religion to a mere code of ethics. 
+~ Religion in its teaching about the love of God for man, is the true 
+foundation of morality. 
+
+Lastly, the history of dogmatic theology may be divided into 
+three periods, (1) from the beginning up to the Council of Nicza, 
+(2) the time of the General Councils (4th—8th Cent.), (3) from 
+the 8th Century to the present day. The last period ircludes the 
+history of Catholic, especially scholastic, theology, and Protestant 
+theology since the Reformation. As we have said before, the 
+author does not make any reference to modern works of. Anglican 
+theology, except in relation to the Creeds. We have no right to 
+complain of his ignorance of or indifference to the Anglican Church, 
+because most Anglican students are guilty of the same negligence 
+as to the teaching of the Orthodox Church. It is the earnest wish 
+of the reviewer that united conferences and diligent study of each 
+other’s works may lead to a better and deeper understanding 
+between the Anglican and the Orthodox Churches. 
+| Laks 
+
+
+THE HEAD CORNER-STONE. 
+(Piatra-din-capul-unghiulut.) 
+Theological Essays of GALA GALACTION, Bucharest, 1926. 
+
+
+These essays of a well-known Roumanian theologian have more 
+
+than a local or temporary interest. Though they were written in 
+the first place in opposition to the Protestant teaching of Teodor 
+Popescu, formerly priest of the Church of St. Stephen (Cuibu-cu- 
+Barza), they contain a clear and vigorous exposition of the 
+Orthodox faith. Gala Galaction maintains throughout a strictly 
+conservative attitude towards Christian doctrine, which deserves our 
+respect, even if it does not in every case compel our assent. 
+_ The writer declares that the Resurrection of Jesus Christ is the 
+_ Alpha and Omega of our faith and theology, and appeals to the 
+witness of Prof. Harnack’s book, Das Wesen des Christentums, on 
+this point. The Resurrection is a miracle which demonstrates 
+another, the descent of the Holy Spirit, who proceeds from the 
+Father, and abides with us. By our Lord’s Baptismal commission 
+after His Resurrection the priests of the church are made teachers, 
+stewards of the holy mysteries (i.e., the seven sacraments), and 
+pastors of the Ree committed to their charge. 
+
+
+‘ 
+
+
+e 
+» 
+‘ 
+* 
+‘ 
+‘ 
+4 
+* 
+> 
+" 
+. 
+4 
+» 
+. 
+‘ 
+j 
+> 
+
+
+172 THE CHRISTIAN EAST 
+
+
+Gala Galaction’s Eucharistic doctrine does not appear to differ 
+from the Roman official teaching in any essenttal point. He quotes 
+St. John of Damascus and the Epistle of the Patriarchs of the 
+Eastern Church to show that the bread and wine are changed or 
+transubstantiated into the Body and Blood of Christ. Thus the 
+Real Presence in the Blessed Sacrament guaranteed our Lord’s 
+promise that He will be with us to the end of the world. 
+
+Like all other Orthodox writers, Galaction affirms that the two 
+sources of the doctrine of the Church are Holy Scripture and Holy 
+Tradition. The Protestants have rejected the authority of tradition, 
+and many of them have undermined the authority of Scripture by | 
+rationalistic criticism. 
+
+The writer complains that Teodor Popescu eliminated the inter- 
+cession of the Blessed Virgin Mary and of the Saints from the 
+divine liturgy. He affirms his belief in her intercession as well as 
+her corporal assumption into heaven. The 7th G<cumenical council 
+is quoted as an authority for the veneration and the invocation of 
+the Saints. 
+
+A long list of Protestant errors is compared with Orthodox truth, 
+and their teaching is condemned. Most Anglican theologians can 
+plead not guilty of the extreme views expressed by Continental 
+Protestants, but they would admit that the Black Rubric, which the 
+writer reprobates, does not fairly represent the Eucharistic doctrine 
+of the Church of England. Among other Protestant teachings, 
+Gala Galaction denounces the Calvinistic assurance of Salvation, 
+and objects to the Protestant interpretation of justification by faith, 
+which consists not in the complete purification of the individual 
+soul, but only in the forgiveness of sins. We may feel that the 
+writer of these essays has hardly estimated the positive values of 
+
+
+Protestantism, but we admire his sincerity and devotion to the 
+Orthodox faith. | 
+
+
+LP. 
+
+
+THE CATECHISM OF THE ORTHODOX -CHRISTIAN. 
+(Catehismul creztinului ortodox.) 
+By Fr. J. MIHALcEscu, Priest of Amza Church, Bucharest, 1927. 
+
+
+This is.a short and simple summary of the teaching of the 
+Orthodox Church. The writer holds that the Orthodox Church is 
+the Via Media between Romanism and Protestantism, in the sense 
+that Papists and Protestants have erred in opposite directions, while 
+the Orthodox Church has preserved the truth, pure and undefiled. 
+
+The teaching of the Catechism is arranged under the heads of 
+the three theological virtues, Faith, Hope, and Love. 
+
+The two sources of Divine revelation, set forth in the Creeds, are 
+Holy Scripture and Holy Tradition. The Protestants do not 
+recognize Holy Tradition as a source Fi faith, white the Papists 
+
+
+» 
+; 
+| 
+a 
+
+| 
+, 
+
+
+OUR BOOKSHELF | 173 
+
+
+regard the Pope as the living’ tradition. The writer severely con- 
+demns both Papists and Protestants for the doctrine of the Double 
+Procession, which, he says, is a great error or heresy, of which 
+we must beware. In the clause on the Church he deals with the 
+seven sacraments. He admits that some Protestants do regard 
+“Penance as a Sacrament, but he condemns them for holding 
+Lutheran, Calvinistic or Zwinglian views of the Holy Communion. 
+Again, Protestants admit only a general priesthood, and the pastors 
+are simply ministers chosen by the people. It is evident that the 
+writer is not acquainted with Anglican teaching on these subjects. 
+Christian hope is expressed in the Lord’s Prayer and the nine 
+Beatitudes, while Christian love is shown when we keep the ten 
+commandments. The moral law may be also considered in relation 
+to sin and virtue. The writer discusses briefly the seven capital 
+sins and the four cardinal virtues. By the practice of these virtues, 
+or by following the evangelical counsels of poverty, chastity, and 
+obedience, man may reach the goal of Christian perfection. | Apart 
+from certain dogmatic statements, there is much in this little 
+handbook which may be commended to Christians of all 
+communions. LF. 
+
+
+GLASNIK (October). 
+
+
+The Editor of Glasnik, Prof. Dr. D. Yakshich, contributes an 
+important article on the subject of Confirmation (Miropomazanye), 
+in which he compares the Eastern and Western (or Roman) 
+practices as regards the age, mintster, form, and character of 
+Confirmation. Inthe West children are not confirmed before seven 
+years of age, and wait till their twelfth; confirmation in the East 
+follows immediately after baptism. The Roman Catechism and 
+Canon Law teach that the chrism must be consecrated by a bishop, 
+even if it is administered by a priest according to an apostelic indult : 
+the chrism in the East is blessed by the bishop, but administered 
+by the priest. The Roman formula is, “I sign thee with the sign 
+
+of the cross, and strengthen thee with the chrism of salvation,” 
+and the forehead only is anointed. The Eastern formula, “The | 
+seal of the gift of the Holy Spirit,” is taken from Holy Scripture 
+(2 Cor. I. 21, 22). Lastly, the Roman Catechism and the gth 
+Canon of the Council of Trent affirm the indelible character of the 
+‘Sacrament, but the Orthodox Church cannot admit this claim, which 
+is not attested by Holy Scripture or the tradition of the Fathers. 
+This is a useful contribution to Christian doctrine. L.P. 
+
+
+ORIENTALIA CHRISTIANA. 
+Vol. XVI.3. No. 57 December, 1929. 
+
+
+The scholarly contributors to the collection of texts and studies 
+entitled Orientalia Christiana are rendering a signal service 
+to historical research and theological scholarship. However much 
+
+
+> " 
+‘ 
+~ i 
+4 
+> 
+> 
+. 
+> 
+> 
+> 
+j 
+
+
+174 THE CHRISTIAN EAST 
+
+
+opinions may differ as to the value of doctrinal controversies or the 
+need for proposals of ecclesiastical re-union, there can be no doubt 
+that exact knowledge of the facts under discussion and accurate 
+texts of the available records are pre-eminently desirable. On 
+these grounds we welcome the publication of the official declaration 
+of the Latins on Purgatory at the Council of Florence in 1438. 
+Prof. Hoffmann, of the Papal Oriental Institute at Rome, has made 
+a fresh study of the available MSS., and has attempted to 
+reconstruct the Latin text of the conciliar documents. 
+
+Prof. Hoffmann acknowledges his debt to his predecessor in this 
+field of research, Mgr. L. Petit, who published in Patrologia 
+Orientalis XV (1920), a Greek MS. (15th Cent.), found in the 
+Ambrosian Library, of the declaration of the Latins, and by its 
+side the Latin text of Horatius Justinianus, Librarian of the Vatican 
+(1638), who, as Prof. Hoffmann thinks, gave the text written down 
+by Andreas de S. Cruce, the Latin historian of the Council of 
+Florence, and preserved in the Vatican MS. (Lat. 4119). Prof. 
+Hoffmann mentions two copies of this archetype, Corsin. 779 
+(Accademia dei Lincei, Rome), and Cracov, 104 (Metropolitan- 
+archiv, Cracow), and adds to them Marc. Lat. III. 96, from the 
+Library of San Marco at Venice. He proceeds to point out that 
+the declaration of the Latins is dependent on the works of Thomas 
+Aquinas, e.g., Tractatus contra errores Grecorum, and the Fathers, 
+especially St. Gregory of Nyssa and St. John of Damascus in the 
+East, and St. Augustine and St. Gregory the Great in the West, 
+and that their arguments are based mainly on the proof-texts, 2 
+Mace. XII. 46., St. Matt. XII. 32, and I Cor. III. 15. We can 
+only say in passing that the first two passages may be quoted to 
+justify prayers for the departed or to confirm the hope of forgiveness 
+of sins in the future life, but there is very little to suggest a belief 
+in the ignis purgatorius. The Pauline passage has been the crux 
+of commentators, but we are not bound to take it as referring to any 
+painful probation in the intermediate state. | 
+
+Prof. Hoffmann prints the Greek text, given by Mgr. Petit, and 
+the text of Horatius Justinianus, as well as a conjectural Latin text 
+in parallel columns, and then concludes his investigation by re- 
+producing a revised Latin text, based on the above-mentioned 
+MSS., which presents a clear and continuous form of the 
+
+We must not omit to mention two facsimile plates in the 
+Appendix. Prof, Hoffmann reproduces the Jist of the signatures 
+of the Greek members of the Council of Florence, affixed to the 
+Goiden Bull of Union and another document preserved in the 
+Biblioteca Laurenziana at Florence. Our attention is at once 
+arrested by the large and sprawling signature of John Palzologos 
+
+in Christ our God faithful king and emperor of the Romans, but 
+other signatures are worthy of note, such as Ignatius, Metropolitan 
+
+
+‘ 
+4 
+> 
+
+
+OUR BOOKSHELF 175 
+
+
+of Turnovo (Bulgaria), Damianus and Constantinus of Moldoval- 
+
+lachia, and Avraam, Bishop of Susdal (in Cyrillic characters 
+This is a clear proof of the representative character of the Orthodox 
+deputation to the Council, and throws into strong relief the almos: 
+unanimous ‘rejection of the proposed terms of reunion. The 
+Council of Florence was wrecked on a compromise, and may seme 
+
+as a warning for future experiments in ecclesiastical diplomacy. 
+
+A. AND E.C.A. NOTES. 
+E Metropolitan Germanos— of Thyatira—_has hencared ani 
+delighted us by accepting the position of Orthodox Presidezt 
+of the Association in succession to the late Metropolitan Agathaszel 
+If anything can add to our satisfaction at this event it s the Rt 
+that His Grace of Thyatira has a knowledge of the Anglican Cesn- 
+munion such as few Orthodox Prelates possess. His acceptance is 
+no mere gesture of goodwill based on inadequate knowledge. Arch- 
+bishop Germanos sees clearly the line between seactical p pelitic and 
+an ulusory ideal, between what can be done albeit with great<ifieulty 
+and what is inherently out of the question. That he has become 
+one of the official Heads of our Association is at the present juncture 
+as significant as it is —— 
+
+While Mons. N. eniade was in England during the Autumn he 
+addressed several meetings arranged by the Association as well as 
+those organized by others to forward his primary purpese of raising 
+funds for the Russian Academy in Paris. In particular his visit to 
+Dublin was the occasion of the definite formation of an Insh Branch 
+of the A.and E.C.A. We shall give further iit of this umportant 
+matter in a subsequent issue. 
+
+* 
+
+Among recent A. and E.C.A. meetings was a gathering o! 
+seventy men in the Parish Hall of the Church of the Ascenston, 
+Lavender Hill; and a couple of excellent meetings 2t the Church 
+of the Annunciation, Bryanston Street, have led to the foundmmg o 
+‘‘ Marble Arch Circle,” which has its quarterly imtercession servic 
+for the work of the Association. 
+
+Things are progressing at St. Clement's, near Eastcpeap. [he 
+Tuesday 12.20 Low Mass with Hymns and intercessiens for Re-umon 
+and for the Russian Church started in September with a congrega- 
+tion of two! The average attendance is now wel] to Its teens 
+This is encouraging growth certainly, but with such @ special object 
+a small church like St. Clement’s ought to be full every Tuesday. 
+During the Patronal Festival Fr. Behr ootached at St. Clement's 
+
+_ and Mr. St. George gave a Lecture on Ikons. Canon Douglas gave 
+addresses during Advent on ‘‘ The Way to Re-union,” and the Rev. 
+
+
+G. N. Whittingham on “ Pilgrimage.” 
+
+
+v 
+
+
+é 
++ 
+= 
+
+
+\ 
+
+. 
+
+
+176 THE CHRISTIAN EAST 
+
+An outstanding: event in the connexion of St. Clement’ s with the 
+A. and E.C.A. was the High Mass of Requiem for the late Ecumenical 
+Patriarch on October 29th. The catafalque was surmounted by 
+an Orthodox mitre, cross and ikon, and the choir parts of the service 
+and the Absolutions were sung by two priest cantors. The Church 
+was filled by a congregation of both Orthodox and Anglicans. The 
+
+
+“** Counsellor of the Greek Legation attended and the other Orthodox 
+
+ Legations were represented also. The Bishop of Willesden represented 
+
+_.. the Bishop of London, the Metropolitan of Thyatira the Archimandrite 
+and the of the Nussian Church were present. 
+
+
+axpress our sympathy “with the Greek in London 
+
+
+. nn‘ thé death of Fr. Moschovakis, in whom they lose a faithful priest 
+'*’ wi rhinistered to them for many years. Others also will miss 
+
+
+Ris xindly and venerable. presence at the services in St. Sophia’s. 
+Some: months before his death Fr. had retired from 
+
+
+, , active work. His successor, to whom we offer a hearty welcome 
+... té‘London, is the Archimandrite Meletios Torakis. After finishing 
+_ his career in the Theological School at Halki, the Archimandrite 
+
+
+Meletios returned to his native island of Crete, where he became 
+the representative of his bishop, and was engaged in academic work 
+at Canea until he was invited to London. 
+
+
+* * * 
+
+Within the last few months the Association has circularized all the 
+Rural Deans in England and Wales asking that the following resolu- 
+tion may be put to their Chapters or Conferences or both :— 
+
+‘ That this Chapter/Conference recognising the Orthodox Church 
+to be truly a part of the Historic Church of Christ possessing, in 
+common with ourselves, Apostolic Order, Jurisdiction, Faith and 
+Sacraments; and realizing the vital importance of the Re-union of 
+the separated parts of the Catholic Church, and the peculiarly 
+favourable opportunities of advance open at this time in the 
+direction of the Eastern-Orthodox Church ; expresses its con- 
+viction that the furtherance of closer relations between the Anglican 
+and the Orthodox Churches, as part of the general work of Re-union, 
+has a claim upon the active support of Churchmen ; and further- 
+more it respectfully expresses the hope that the Archbishops and 
+Bishops of the Anglican Communion assembled in Conference at — 
+Lambeth will take such measures as may seem good to them to 
+give the rapprochement between ourselves and the Orthodox 
+Church their encouragement and support.” 
+
+
+Replies have been received so far from about 120 Rural Deaneries 
+to say that the Resolution has been carried, often unanimously, 
+and we hope that many more yet will come in. The final result will 
+be forwarded to Lambeth in due course. The Resolution is one 
+that might usefully be put to other assemblies also, and that Secretary 
+would be glad to hear particulars of meetings at which it is carried. 
+
+
+J826 16 
+
+
+2. 
+
+
+‘ 
+j ‘ 
+i 
+. 
+4} 
+° 
+; 
+‘ 
+« 
+i. 4 
+* 
+> 
+
+
+— 
+. 
+AS 
+- 
+’ 
+& 
+xt 
+. 
+« 
+t 
+ey 
+he 
+Le 
+W 
+r 
+~ 
+5 
+A 
+4 
+ihe 
+a 
+or 
+; 
+
+
+> 
+Ie 
+‘ 
+: 
+| 
+> 
+xf 
+‘ 
+y 
+ar. 
+i 
+4 
+oF 
+} 
+wis. 
+: 
+” 
+- 
+4 
+
+
+Titer 
+
+
+ae? 
+ate 
+
+
+RY 
+
+
+AN 
+B 
+the 
+
+
+HISTORY 
+Burial of 
+
+
+TISPIECE 
+LIT 
+
+FROM 
+
+
+2 FRON 
+I 
+CHU 
+
+
+OUR 
+
+
+D. 
+
+
+Dk. 
+ONARY 
+CHURCE. 
+8. The Service 
+
+
+By 
+
+
+dated 
+
+
+“MISS 
+
+
+‘ 
+; 
+. 
+« 
+> 
+j he 
+- 
+- 
+q 
+a 
+
+
+‘ 
+
+
+May 30th —June 7th, 1930. 
+
+
+In view of the prominence now being given to the 
+
+
+question of Unity, the Anglo-Catholic Congress Council 
+
+
+Ff decided at their last session to observe the nine days between 
+the Feasts of Ascension and Pentecost as a Novena of 
+= | Prayer for the Reunion of Christendom, and requested the A.C.C. 
+Pilgrimage Association to make the necessary arrangements. 
+
+
+we 
+
+
+It is suggested that a daily Mass be offered with this 
+intention; a High Mass or Mass with singing on one , 
+morning during the Novena; and also a special evening 
+service with sermon, in order to draw attention to the great 
+
+
+importance of the sacred cause of Reunion. 
+
+
+Priests who are willing to take part in’ observing. the 
+Novena are asked to send a postcard giving the name of 
+
+
+the church and particulars of the services arranged, to 
+
+
+* 
+
+
+THE Rev. G. NAPIER WHITTINGHAM, 
+238, Abbey House, Victoria Street, 
+London, S.W.1. 
+
+
+‘ 
+
+
+| 
+; 
+Novena: for the Reun shriste 
+: _ Novena for the Reunion of Christendom 
+| 
+| 
+4 
+| 
+
+
+j 
+» 
+bad 
+; 
+
+} 
+
+‘ 
+} 
+. 
+
+
+St. Clement’s of Prayer 
+
+
+Lcague for Russia. 
+
+
+The Church of Russia has been suffering persecution for a decade. The 
+situation grows no better. It is if possible worse. 
+
+
+New and more stringent laws for the suppression of religion have been 
+made, and during this year, 1930, a drastic, relentless, and (they hope) 
+final effort is to be made TO STAMP OUT ALL RELIGIOUS 
+FAITH IN SOVIET RUSSIA. 
+
+
+{t will fail. But are we going to be mere witnesses of its failure, specta- 
+tors nd nothing more ? 
+
+
+When the Church of Russia emerges triumphant from her appalling 
+martyrdom, let us all at Jeast be able to remember that in her hour of 
+trial she had the support of our prayers. 
+
+
+We need organized prayer as well as organized protest. 
+
+
+Will you enrol your name in the “St. Clement’s League of Prayer for 
+~ Russia”? » Will you, if a priest, ask your people to do so ? 
+
+
+THIS IS NOT “A NEW SOCIETY.” THERE IS NO 
+SUBSCRIPTION.* 
+
+
+The League will continue to exist as long as may be needful but no one | 
+joining binds himself to the undertaking to pray for more than one year ; 
+though the undertaking may of course be renewed. 
+
+
+It involves nothing but the promise to say the prayer as set forth below, 
+daily, in union with the offering of Intercession for Russia at the 
+Church of St. Clement near Eastcheap, London. 
+
+
+Say the Prayer when you will and where you will, but say it daily 
+
+
+for the Christian people be Russia on their fight for the common Faith 
+of 
+
+
+*1f you like to enclose a few stamps towards expenses of prifting and postage they will be 
+gratefully accepted 
+
+
+Keep This Side. 
+
+
+“St. CLEMENT'S LEAGUE 
+OF PRAYER FoR RUSSIA.” 
+DAILY PRAYER. 
+
+O GOD, 
+
+Our Refuge and Strength, 
+
+
+Who arta very present help in trouble; 
+
+
+Detach this side and send to— | 
+j 
+1 
+! 
+HAVE MERCY 
+4 
+! 
+
+
+Rev. R. M. FRENCH, 
+66, Holland Road, 
+London. W.14, 
+
+
+Please enrol my name in — 
+“St. CLEMENT'S) LEAGUE 
+OF PRAYER FOR RUSSIA.” 
+I promise to say the Prayer 
+opposite, or Our Father, for the 
+persecuted Church in Russia, 
+daily for12months fromthis date. 
+
+
+beseech Thee— 
+UPON TITE CHURCH IN RUSSIA, 
+| in her hour of need. 
+| Deliver ber 
+by Thy most mighty protection 
+from tyranny 
+and the dangers that beset her, 
+and grant her people rest : 
+through Christ our Lord. 
+AMEN. 
+
+
+(or Our Father). 
+
+
+_ (Flease say; Rev, Mr., Mrs. ov Miss). 
+
+
+| I enrolled my name the 
+
+
+day of 193 
+
+
+At St. CLEMENT'S near EASTCHEAP: 
+
+
+| Intercessions: Daily at 12-10. 
+
+| The Holy Sacrifice : Tuesdays 12-20: 
+
+
+f 7 A ‘ 
+
+
+Date | 
+
+
+ANEMES AMSMAAT ,, 
+
+
+& 
+
+
+| 
+
+
+| 
+' | | 
+* » 
+| 
+| 
+| 
+\ 
+SS 
+| 
+
+

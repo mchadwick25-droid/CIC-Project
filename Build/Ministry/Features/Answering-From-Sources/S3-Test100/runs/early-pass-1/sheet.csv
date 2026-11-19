@@ -1,0 +1,107 @@
+id,group,cluster,route,words,fk,fre,sentences_shipped,cuts,cut_reasons,orphan_flags,quotes_placed,leadins_repaired,stories_placed,answer_records_placed,citations,fit_judge,fit_drops,fit_to_question,answers_question_asked,rigor,accessibility,craft,focus,fabrication,pass_fail,still_works,judge_citation_recall,judge_verifier,adjudicated_label
+q001,A,,voice_with_directive,192,8.9,62.7,9,0,,0,1,0,0,0,6,lpc.quote.let-us-too-be-beheaded-with-him: off_point,1,off_point,yes,pass,pass,pass,fail,none,fail,,8/8,8/8,8/8 sentences supported
+q002,A,,voice_with_directive,181,7.5,77.1,5,0,,0,1,0,0,0,3,lpc.quote.boast-in-nothing-since-nothing-is-our-own: off_point,1,off_point,partly,weak,pass,pass,weak,minor,fail,,3/3,3/3,3/3 sentences supported
+q003,A,,voice_with_directive,212,7.4,76.3,7,0,,0,1,0,0,0,2,lpc.quote.believe-and-thou-hast-eaten-already: partly,0,partly,yes,pass,pass,pass,pass,none,pass,,5/6,6/6,6/6 sentences supported
+q004,A,,voice_with_directive,255,7.1,76.5,9,0,,0,1,1,0,0,3,lpc.quote.bishop-of-bishops: off_point,1,off_point,partly,weak,pass,pass,fail,minor,fail,,3/4,3/4,3/4 sentences supported
+q005,A,,voice_with_directive,369,8.2,64.9,11,0,,0,1,1,0,0,4,lpc.quote.earlier-councils-corrected-by-later: fits,0,fits,yes,pass,weak,weak,pass,none,pass,,7/8,7/8,7/8 sentences supported
+q006,A,,voice_with_directive,239,4.7,88.3,11,0,,0,1,0,0,0,5,lpc.quote.no-one-has-the-love-of-god-from-himself: partly,0,fits,yes,pass,pass,pass,pass,none,pass,,5/5,5/5,5/5 sentences supported
+q007,A,,voice_with_directive,204,6.3,80.5,9,0,,0,1,1,0,0,5,lpc.quote.longing-expectation-is-a-prayer-for-me: off_point,1,off_point,partly,weak,pass,pass,weak,none,pass,,6/6,6/6,6/6 sentences supported
+q008,A,,voice_with_directive,210,6.3,74.8,9,3,gives a quote record's words without placing it x3,1,1,0,0,0,2,lpc.quote.not-his-own-sins-but-the-sins-of-another: fits,0,fits,yes,pass,pass,pass,pass,none,pass,,7/8,7/8,7/8 sentences supported
+q009,A,,voice_with_directive,165,8.8,63.8,9,1,words attributed without a placed quote x1,0,0,0,0,0,1,,0,none_placed,partly,pass,pass,weak,pass,minor,pass,,2/7,2/7,2/7 sentences supported
+q010,A,,voice_with_directive,226,7.9,75.6,7,0,,0,1,0,0,0,2,lpc.quote.let-it-be-the-office-of-love-to-feed-the-flock: partly,0,off_point,partly,weak,pass,pass,weak,minor,fail,,0/4,0/4,0/4 sentences supported
+q011,A,,voice_with_directive,263,4.7,84.8,11,0,,0,1,0,0,0,3,lpc.quote.david-himself-hath-been-sent-to-thee: partly,0,partly,partly,weak,pass,pass,pass,minor,pass,,4/5,4/5,4/5 sentences supported
+q012,A,,voice_with_directive,337,7.8,66.3,9,0,,0,1,0,0,0,3,lpc.quote.earlier-councils-corrected-by-later: fits,0,fits,yes,pass,weak,pass,pass,none,pass,,6/7,5/7,5/7 sentences supported
+q013,A,,voice_with_directive,235,6.7,74.7,8,0,,0,1,0,0,0,4,lpc.quote.left-doubtful-a-kind-of-purgatorial-fire: off_point,1,off_point,yes,pass,pass,pass,fail,none,fail,,4/5,4/5,4/5 sentences supported
+q014,A,,voice_with_directive,260,6.1,75.8,12,0,,0,1,0,0,0,7,lpc.quote.before-even-a-deacon: partly,1,partly,yes,pass,pass,pass,weak,none,pass,,8/8,8/8,8/8 sentences supported
+q015,A,,voice_with_directive,282,6.2,80.1,11,0,,0,1,0,0,0,6,lpc.quote.before-even-a-deacon: fits,0,fits,yes,pass,pass,pass,pass,none,pass,,7/7,7/7,7/7 sentences supported
+q016,A,,voice_with_directive,210,5.9,76.2,10,0,,0,1,0,0,0,4,lpc.quote.stewards-and-future-bishops: off_point,1,partly,yes,pass,pass,pass,weak,none,pass,,3/5,3/5,3/5 sentences supported
+q017,A,,voice_with_directive,263,7.7,65.7,11,0,,0,1,0,0,0,5,lpc.quote.not-his-own-sins-but-the-sins-of-another: partly,0,partly,yes,pass,pass,pass,pass,none,pass,,5/6,5/6,5/6 sentences supported
+q018,A,,voice_with_directive,262,5.6,82.4,11,1,words attributed without a placed quote x1,0,1,0,0,0,5,lpc.quote.before-even-a-deacon: partly,0,partly,partly,weak,pass,pass,weak,minor,pass,,8/9,8/9,8/9 sentences supported
+q019,A,,voice_with_directive,295,5.7,81.5,10,0,,0,1,0,0,0,4,lpc.quote.the-wretched-woman-and-mercy: off_point,1,partly,yes,pass,pass,pass,weak,none,pass,,6/7,6/7,6/7 sentences supported
+q020,A,,voice_with_directive,234,5.6,79.3,11,0,,0,1,0,0,0,3,lpc.quote.let-your-creed-be-a-mirror: partly,0,partly,yes,weak,pass,pass,weak,minor,pass,,7/7,7/7,7/7 sentences supported
+q021,A,,voice_with_directive,125,7.7,76.7,6,0,,0,0,0,0,0,1,,0,fits,yes,pass,pass,pass,pass,minor,pass,,0/3,0/3,0/3 sentences supported
+q022,A,,voice_with_directive,201,5.9,78.8,7,2,gives a quote record's words without placing it x2,0,1,0,0,0,3,lpc.quote.not-his-own-sins-but-the-sins-of-another: off_point,1,off_point,partly,pass,pass,weak,weak,none,pass,,5/6,6/6,5/6 sentences supported
+q023,A,,voice_with_directive,325,7.5,66.2,17,0,,0,1,0,8,0,5,lpc.story.hundred-thousand-sesterces: partly; lpc.quote.thousands-of-certificates-daily: off_point,1,partly,partly,weak,weak,weak,weak,minor,pass,,4/5,5/5,5/5 sentences supported
+q024,A,,voice_with_directive,318,5.1,81.5,9,0,,0,1,0,0,0,2,lpc.quote.love-and-do-what-thou-wilt: off_point,1,off_point,partly,weak,pass,pass,weak,minor,pass,,4/5,3/5,4/5 sentences supported
+q025,A,,voice_with_directive,255,7.7,68.6,9,0,,0,1,0,0,0,3,lpc.quote.thousands-of-certificates-daily: off_point,1,off_point,partly,weak,pass,weak,weak,minor,pass,,4/5,3/5,3/5 sentences supported
+q026,A,,voice_with_directive,161,7.2,72.3,10,0,,0,0,0,0,0,4,,0,fits,yes,weak,pass,pass,pass,minor,pass,,4/6,3/6,3/6 sentences supported
+q027,A,,voice_with_directive,287,6.7,78.7,9,0,,0,1,0,0,0,5,lpc.quote.before-even-a-deacon: partly,1,partly,yes,pass,pass,pass,pass,none,pass,,4/6,4/6,4/6 sentences supported
+q028,A,,voice_with_directive,350,7.4,71.8,11,1,gives a quote record's words without placing it x1,0,1,0,0,0,4,lpc.quote.no-salvation-out-of-the-church: fits,0,fits,yes,pass,pass,pass,pass,none,pass,,8/9,8/9,8/9 sentences supported
+q029,B,C3,voice_with_directive,188,8.1,70.8,9,1,gives a quote record's words without placing it x1,1,1,0,0,0,3,lpc.quote.the-mildest-condemnation-of-all: off_point,1,partly,yes,pass,pass,pass,weak,none,pass,,4/5,4/5,4/5 sentences supported
+q030,B,C3,voice_with_directive,164,6.9,75.2,10,2,gives a quote record's words without placing it x2,1,0,0,0,0,2,,0,fits,yes,pass,pass,pass,pass,none,pass,,6/7,6/7,6/7 sentences supported
+q031,B,C4,voice_with_directive,164,5.8,77.9,6,0,,0,1,0,0,0,4,lpc.quote.two-hear-one-scorns-one-rises: partly,0,partly,yes,weak,pass,pass,pass,none,pass,,5/5,5/5,5/5 sentences supported
+q032,B,C13,voice_with_directive,148,6.4,75.2,5,0,,0,1,0,0,0,1,lpc.quote.very-many-make-moan-over-the-eternal-punishment: off_point,1,off_point,yes,pass,pass,pass,weak,none,pass,,1/1,1/1,1/1 sentences supported
+q033,B,C16,voice_with_directive,210,5.7,76.3,7,0,,0,1,0,0,0,2,lpc.quote.peter-may-baptize-but-this-is-he-that-baptizeth: off_point,1,off_point,yes,pass,pass,pass,weak,none,pass,,0/4,0/4,0/4 sentences supported
+q034,B,C16,voice_with_directive,132,4.6,83.8,5,0,,0,1,0,0,0,3,lpc.quote.two-hear-one-scorns-one-rises: off_point,1,off_point,yes,pass,pass,pass,weak,none,pass,,1/3,1/3,1/3 sentences supported
+q035,B,C16,voice_with_directive,203,7.1,72.2,8,0,,0,1,0,0,0,4,lpc.quote.clamour-and-tears: partly,0,fits,yes,pass,pass,pass,pass,minor,pass,,3/5,2/5,2/5 sentences supported
+q036,B,C16,voice_with_directive,145,8.0,74.3,7,0,,0,0,0,0,0,3,,0,none_placed,partly,pass,pass,weak,pass,none,pass,,3/3,3/3,3/3 sentences supported
+q037,B,C6,voice_with_directive,110,5.6,76.6,4,0,,0,1,0,0,0,3,lpc.quote.one-good-shepherd-not-many: fits,0,fits,yes,pass,pass,pass,pass,none,pass,,3/3,3/3,3/3 sentences supported
+q038,B,C4,voice_with_directive,147,3.9,92.9,4,0,,0,1,0,0,0,2,lpc.quote.no-one-has-the-love-of-god-from-himself: partly,0,fits,yes,pass,pass,pass,pass,none,pass,,2/2,2/2,2/2 sentences supported
+q039,B,C9,voice_with_directive,47,6.3,70.7,2,1,tells an offered story without placing it x1,0,1,0,0,0,1,lpc.quote.thanks-be-to-god: fits,0,fits,yes,pass,pass,pass,pass,none,pass,,2/2,2/2,2/2 sentences supported
+q040,B,C4,voice_with_directive,193,6.9,77.3,6,0,,0,1,0,0,0,2,lpc.quote.no-repentance-is-too-late: fits,0,fits,yes,pass,pass,pass,pass,minor,pass,,3/4,3/4,3/4 sentences supported
+q041,B,C10,voice_with_directive,292,6.1,77.5,13,0,,0,1,0,8,0,2,lpc.story.hundred-thousand-sesterces: fits; lpc.quote.christ-redeemed-in-our-captive-brethren: fits,0,fits,yes,pass,pass,weak,weak,none,pass,,2/3,2/3,2/3 sentences supported
+q042,B,C2,voice_with_directive,97,4.0,88.1,4,0,,0,1,0,0,0,2,lpc.quote.the-sermon-and-the-readings-are-daily-bread: off_point,1,partly,partly,weak,pass,pass,pass,none,pass,,2/3,2/3,2/3 sentences supported
+q043,B,C9,voice_with_directive,39,8.4,69.9,2,2,quote record not in this turn's evidence x1; story record not offered for placement this turn x1,0,0,0,0,0,1,,0,none_placed,no,weak,pass,weak,fail,none,fail,,1/3,1/3,1/3 sentences supported
+q044,B,C12,voice_with_directive,178,7.2,69.4,8,0,,0,1,0,4,0,3,lpc.story.the-psalms-on-the-wall: fits; lpc.quote.he-slept-with-his-fathers: fits,0,fits,yes,pass,pass,pass,pass,none,pass,,3/3,3/3,3/3 sentences supported
+q045,B,C14,voice_with_directive,174,5.6,80.8,5,0,,0,1,0,0,0,4,lpc.quote.peter-the-sick-man-and-the-physician: fits,0,fits,yes,pass,pass,pass,pass,none,pass,,4/4,4/4,4/4 sentences supported
+q046,B,C7,voice_with_directive,55,7.7,72.9,3,1,quote record not in this turn's evidence x1,0,0,0,0,0,2,,0,off_point,no,weak,pass,pass,weak,minor,fail,,2/4,3/4,3/4 sentences supported
+q047,B,C14,voice_with_directive,48,4.8,81.9,4,1,quote record not in this turn's evidence x1,0,0,0,0,0,2,,0,none_placed,no,weak,pass,weak,weak,none,fail,,3/4,3/4,3/4 sentences supported
+q048,B,C6,voice_with_directive,37,5.3,89.7,2,3,quote record not in this turn's evidence x1; story record not offered for placement this turn x1; tagged to a quote record that has not been placed x1,0,0,0,0,0,1,,0,none_placed,no,weak,pass,weak,fail,none,fail,,2/4,2/4,2/4 sentences supported
+q049,C,C9,voice_with_directive,462,5.9,79.6,19,0,,0,1,0,15,0,2,lpc.story.numidicus: fits; lpc.quote.numidicus-remained-unwillingly: fits,0,fits,yes,pass,pass,weak,weak,none,pass,,2/3,2/3,2/3 sentences supported
+q050,C,C9,voice_with_directive,173,5.6,76.9,14,1,introduction names someone the story does not x1,0,0,0,12,0,1,lpc.story.numidicus: fits,0,fits,yes,pass,pass,pass,pass,none,pass,,1/2,2/2,1/2 sentences supported
+q051,C,C6,voice_with_directive,191,6.9,73.7,7,0,,0,1,0,0,0,4,lpc.quote.shepherd-wounded-in-the-flock: off_point,1,partly,yes,pass,pass,weak,weak,minor,pass,,1/6,3/6,3/6 sentences supported
+q052,C,C6,voice_with_directive,264,5.7,79.3,11,0,,0,1,0,4,0,4,lpc.story.election-of-cyprian: fits; lpc.quote.ye-belong-to-my-care: off_point,1,partly,yes,weak,pass,pass,weak,minor,pass,,4/6,4/6,4/6 sentences supported
+q053,C,C7,voice_with_directive,278,6.1,76.2,16,0,,0,1,0,8,0,3,lpc.story.celerinus-writes-to-lucian: fits; lpc.quote.grieve-with-me-for-my-sister: fits,0,fits,yes,pass,pass,weak,weak,minor,pass,,1/5,1/5,1/5 sentences supported
+q054,C,C14,voice_with_directive,231,5.8,79.4,11,0,,0,1,0,0,0,4,lpc.quote.grieve-with-me-for-my-sister: partly,0,fits,yes,pass,pass,pass,pass,minor,pass,,5/7,5/7,5/7 sentences supported
+q055,C,C10,voice_with_directive,209,6.1,77.9,7,1,tagged to a quote record that has not been placed x1,0,1,0,0,0,2,lpc.quote.a-hundred-thousand-sesterces: fits,0,fits,yes,pass,pass,pass,pass,none,pass,,2/5,2/5,2/5 sentences supported
+q056,C,C10,voice_with_directive,194,5.9,77.2,7,0,,0,1,0,0,0,2,lpc.quote.a-hundred-thousand-sesterces: fits,0,fits,yes,pass,pass,pass,pass,minor,pass,,0/3,1/3,1/3 sentences supported
+q057,C,C9,voice_with_directive,461,6.1,75.2,28,1,introduction names someone the story does not x1,0,1,0,24,0,2,lpc.story.the-death-of-cyprian: fits; lpc.quote.o-blessed-people-of-the-church: partly,0,fits,yes,pass,pass,pass,weak,none,pass,,3/4,3/4,3/4 sentences supported
+q058,C,C12,voice_with_directive,330,5.9,80.6,10,0,,0,1,0,4,0,2,lpc.story.the-psalms-on-the-wall: partly; lpc.quote.the-psalms-hung-upon-the-wall: partly,0,partly,partly,pass,pass,weak,weak,none,pass,,2/4,3/4,3/4 sentences supported
+q059,C,C12,voice_with_directive,296,6.4,74.5,15,0,,0,1,0,8,0,4,lpc.story.the-plague-and-the-enemies: fits; lpc.quote.it-becomes-us-to-answer-to-our-birth: partly,0,fits,yes,pass,pass,pass,pass,none,pass,,4/5,4/5,4/5 sentences supported
+q060,C,C9,voice_with_directive,270,6.0,75.0,15,1,introduction names someone the story does not x1,0,1,0,8,0,2,lpc.story.the-plague-and-the-enemies: fits; lpc.quote.good-done-to-all-not-only-the-household: fits,0,fits,yes,pass,weak,pass,pass,none,pass,,3/4,3/4,3/4 sentences supported
+q061,C,C14,voice_with_directive,208,6.7,75.5,9,1,words attributed without a placed quote x1,0,1,0,4,0,2,lpc.story.the-psalms-on-the-wall: fits; lpc.quote.he-slept-with-his-fathers: off_point,1,fits,yes,pass,pass,pass,pass,none,pass,,2/4,2/4,2/4 sentences supported
+q062,C,C7,voice_with_directive,187,8.6,67.1,5,1,story record not offered for placement this turn x1,0,1,0,0,0,2,lpc.quote.clamour-and-tears: off_point,1,partly,yes,weak,pass,pass,weak,minor,pass,,3/4,2/4,2/4 sentences supported
+q063,D,C15,voice_with_directive,248,6.5,78.2,8,0,,0,1,0,0,0,2,lpc.quote.not-his-own-sins-but-the-sins-of-another: off_point,1,partly,partly,weak,pass,pass,weak,minor,pass,,4/5,4/5,4/5 sentences supported
+q064,D,C15,voice_with_directive,177,4.7,82.4,8,1,words attributed without a placed quote x1,0,1,0,0,0,5,lpc.quote.apart-in-heart-united-in-body: off_point,1,partly,yes,pass,pass,pass,pass,none,pass,,4/6,4/6,3/6 sentences supported
+q065,D,C15,voice_with_directive,226,3.8,88.4,4,0,,0,1,0,0,0,3,lpc.quote.love-and-do-what-thou-wilt: off_point,1,off_point,partly,weak,pass,weak,weak,none,pass,,2/4,2/4,2/4 sentences supported
+q066,D,C15,voice_with_directive,209,4.5,89.3,8,0,,0,1,0,0,0,3,lpc.quote.the-creed-first-then-the-prayer: off_point,1,partly,partly,pass,pass,pass,pass,none,pass,,4/5,4/5,4/5 sentences supported
+q067,D,C16,voice_with_directive,162,7.6,69.0,8,1,tells an offered story without placing it x1,0,1,0,0,0,6,lpc.quote.he-slept-with-his-fathers: off_point,1,off_point,yes,pass,pass,pass,weak,none,pass,,6/7,6/7,6/7 sentences supported
+q068,D,C16,voice_with_directive,358,7.4,70.3,15,0,,0,1,0,8,0,5,lpc.story.celerinus-writes-to-lucian: partly; lpc.quote.such-a-one-with-his-friends: off_point,1,partly,yes,pass,pass,pass,weak,none,pass,,4/5,4/5,4/5 sentences supported
+q069,D,C8,voice_with_directive,255,6.4,75.8,10,0,,0,1,0,0,0,4,lpc.quote.o-blessed-people-of-the-church: off_point,1,off_point,yes,pass,pass,pass,weak,none,pass,,7/8,7/8,7/8 sentences supported
+q070,D,C17,voice_with_directive,124,3.5,86.6,6,0,,0,1,0,0,0,4,lpc.quote.let-your-creed-be-a-mirror: off_point,1,partly,yes,pass,pass,pass,pass,none,pass,,3/3,3/3,3/3 sentences supported
+q071,E,C2,voice_with_directive,147,6.2,76.8,7,0,,0,1,0,0,0,4,lpc.quote.longing-expectation-is-a-prayer-for-me: off_point,1,off_point,partly,weak,pass,weak,fail,minor,fail,,4/4,4/4,4/4 sentences supported
+q072,E,C6,voice_with_directive,152,10.5,53.2,8,0,,0,0,0,0,0,5,,0,fits,yes,weak,pass,pass,pass,minor,pass,,5/5,5/5,5/5 sentences supported
+q073,E,C11,voice_with_directive,143,8.0,69.2,8,0,,0,0,0,0,0,3,,0,partly,yes,pass,pass,pass,pass,none,pass,,5/5,5/5,5/5 sentences supported
+q074,E,C11,voice_with_directive,207,6.0,78.2,6,2,tells an offered story without placing it x2,0,1,0,0,0,2,lpc.quote.a-hundred-thousand-sesterces: off_point,1,off_point,partly,weak,pass,weak,weak,minor,pass,,3/5,3/5,3/5 sentences supported
+q075,E,C15,voice_with_directive,244,6.2,76.0,10,0,,0,1,0,0,0,4,lpc.quote.apart-in-heart-united-in-body: off_point,1,partly,yes,pass,pass,pass,weak,none,pass,,4/6,4/6,4/6 sentences supported
+q076,E,C15,voice_with_directive,161,7.8,67.5,10,0,,0,0,0,0,0,4,,0,unresolved,yes,pass,pass,pass,pass,none,pass,,5/5,5/5,5/5 sentences supported
+q077,F,C16,voice_with_directive,167,7.3,69.4,11,0,,0,0,0,0,0,6,,0,none_placed,yes,weak,pass,pass,pass,minor,pass,,5/7,5/7,5/7 sentences supported
+q078,F,C16,voice_with_directive,178,6.8,74.8,11,1,placed quote does not match its record x1,0,0,0,0,0,5,,0,fits,yes,pass,pass,pass,pass,none,pass,,6/8,7/8,7/8 sentences supported
+q079,F,C16,voice_with_directive,228,6.7,73.8,9,1,tells an offered story without placing it x1,0,1,1,0,0,3,lpc.quote.the-paper-itself: off_point,1,partly,partly,weak,pass,weak,weak,minor,pass,,6/6,6/6,6/6 sentences supported
+q080,F,C16,voice_with_directive,172,9.1,67.9,4,2,tells an offered story without placing it x2,0,1,0,0,0,3,lpc.quote.bishop-of-bishops: partly,0,fits,yes,weak,pass,pass,pass,minor,pass,,5/5,4/5,5/5 sentences supported
+q081,F,C17,voice_with_directive,350,7.8,68.9,11,0,,0,1,0,0,0,4,lpc.quote.no-salvation-out-of-the-church: partly,0,fits,yes,pass,pass,pass,pass,none,pass,,6/7,7/7,7/7 sentences supported
+q082,G,C1,voice_with_directive,218,4.8,82.1,8,0,,0,1,0,0,0,2,lpc.quote.the-old-man-nailed-to-the-cross-speaks: off_point,1,off_point,partly,weak,pass,pass,weak,minor,pass,,5/5,5/5,5/5 sentences supported
+q083,G,C3,voice_with_directive,105,6.9,72.4,7,0,,0,0,0,0,0,1,,0,none_placed,yes,pass,pass,pass,weak,none,pass,,2/2,2/2,2/2 sentences supported
+q084,G,C5,voice_with_directive,116,5.2,83.5,4,1,quote record's speaker named without its placed quote x1,0,1,0,0,0,2,lpc.quote.believe-and-thou-hast-eaten-already: partly,0,partly,partly,pass,pass,pass,weak,none,pass,,1/3,2/3,1/3 sentences supported
+q085,G,C5,voice_with_directive,245,6.2,78.2,8,0,,0,1,0,0,0,3,lpc.quote.such-a-one-with-his-friends: off_point,1,off_point,partly,weak,pass,pass,weak,minor,pass,,5/5,5/5,5/5 sentences supported
+q086,H,C17,voice_with_directive,0,,,0,0,,0,0,0,0,0,0,,0,none_placed,no,pass,fail,fail,fail,none,fail,,0/0,0/0,0/0 sentences supported
+q087,H,C17,voice_with_directive,318,6.3,78.4,7,0,,0,1,0,0,0,3,lpc.quote.numidicus-remained-unwillingly: partly,0,partly,yes,pass,pass,pass,pass,none,pass,,2/4,2/4,2/4 sentences supported
+q088,H,C17,voice_with_directive,61,5.6,76.6,3,2,tells an offered story without placing it x2,0,1,0,0,0,1,lpc.quote.let-us-too-be-beheaded-with-him: off_point,1,off_point,partly,pass,pass,pass,weak,none,pass,,3/3,3/3,3/3 sentences supported
+q089,H,C17,voice_with_directive,268,6.8,74.9,9,0,,0,1,0,0,0,2,lpc.quote.such-a-one-with-his-friends: partly,0,fits,yes,pass,pass,pass,pass,none,pass,,2/3,2/3,2/3 sentences supported
+q090,I,C1,voice_with_directive,169,4.8,88.1,7,0,,0,1,0,0,0,2,lpc.quote.believe-and-thou-hast-eaten-already: partly,0,partly,partly,pass,pass,pass,pass,none,pass,,5/6,6/6,6/6 sentences supported
+q091,I,C11,voice_with_directive,253,5.7,78.9,10,0,,0,1,0,0,0,4,lpc.quote.david-himself-hath-been-sent-to-thee: off_point,1,partly,yes,weak,pass,pass,weak,none,pass,,3/6,3/6,3/6 sentences supported
+q092,I,C4,voice_with_directive,201,4.3,88.4,9,0,,0,1,0,0,0,6,lpc.quote.no-one-has-the-love-of-god-from-himself: partly,1,fits,yes,pass,pass,pass,pass,none,pass,,7/8,7/8,7/8 sentences supported
+q093,I,C7,voice_with_directive,220,5.8,79.6,8,0,,0,1,0,0,0,5,lpc.quote.apart-in-heart-united-in-body: off_point,1,partly,partly,pass,pass,pass,weak,none,pass,,4/5,4/5,4/5 sentences supported
+q094,J,C1,voice_with_directive,206,5.3,83.1,5,0,,0,1,0,0,0,2,lpc.quote.the-wretched-woman-and-mercy: partly,0,partly,yes,pass,pass,pass,pass,none,pass,,2/3,2/3,2/3 sentences supported
+q095,J,C2,voice_with_directive,231,7.8,70.4,9,0,,0,1,0,0,0,4,lpc.quote.bishop-of-bishops: off_point,1,off_point,partly,weak,pass,pass,weak,minor,pass,,6/6,6/6,6/6 sentences supported
+q096,J,C5,voice_with_directive,114,6.9,74.5,7,0,,0,0,0,0,0,2,,0,partly,yes,pass,pass,pass,weak,none,pass,,2/3,2/3,2/3 sentences supported
+q097,J,C8,voice_with_directive,117,7.2,66.6,6,0,,0,1,0,0,0,3,lpc.quote.remember-me-at-the-lords-altar: off_point,1,off_point,partly,weak,pass,pass,weak,none,pass,,4/4,4/4,4/4 sentences supported
+q098,J,C8,voice_with_directive,204,6.7,76.7,8,0,,0,1,0,0,0,4,lpc.quote.the-case-set-before-the-bishop: off_point,1,partly,yes,pass,pass,pass,pass,minor,pass,,3/5,4/5,4/5 sentences supported
+q099,J,C13,voice_with_directive,148,4.4,83.8,6,0,,0,1,0,0,0,2,lpc.quote.let-your-creed-be-a-mirror: off_point,1,off_point,partly,pass,pass,pass,weak,none,pass,,1/2,1/2,1/2 sentences supported
+q100,J,C13,voice_with_directive,221,5.6,78.0,17,0,,0,0,0,8,0,2,lpc.story.the-plague-and-the-enemies: off_point,1,off_point,partly,weak,pass,weak,weak,minor,pass,,4/4,3/4,4/4 sentences supported
+q101,K,C8,voice_with_directive,128,7.5,73.9,7,0,,0,0,0,0,0,2,,0,none_placed,yes,pass,pass,pass,pass,none,pass,,1/2,1/2,1/2 sentences supported
+q102,K,C9,voice_with_directive,194,6.2,79.8,6,0,,0,1,0,0,0,2,lpc.quote.many-have-learned-to-offer-the-other-cheek: partly,0,partly,yes,pass,pass,pass,pass,none,pass,,5/5,5/5,5/5 sentences supported
+q103,K,C12,voice_with_directive,98,6.8,75.3,6,0,,0,0,0,0,0,1,,0,none_placed,yes,pass,pass,pass,pass,minor,pass,,3/3,3/3,3/3 sentences supported
+q104,K,C9,voice_with_directive,150,6.0,76.2,11,0,,0,0,0,8,0,1,lpc.story.the-plague-and-the-enemies: off_point,1,partly,yes,pass,pass,pass,pass,none,pass,,0/0,0/0,0/0 sentences supported
+q105,K,C10,voice_with_directive,183,6.1,76.0,13,0,,0,0,0,8,0,2,lpc.story.hundred-thousand-sesterces: partly,0,partly,partly,pass,pass,pass,pass,none,pass,,2/2,2/2,2/2 sentences supported
+q106,K,C5,voice_with_directive,211,3.9,86.3,8,0,,0,1,0,0,0,1,lpc.quote.dash-the-little-ones-against-the-rock: fits,0,fits,yes,weak,pass,pass,pass,minor,pass,,3/4,3/4,3/4 sentences supported

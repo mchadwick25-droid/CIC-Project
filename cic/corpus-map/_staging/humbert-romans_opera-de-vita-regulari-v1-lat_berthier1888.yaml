@@ -1,0 +1,11 @@
+source_file: humbert-romans_opera-de-vita-regulari-v1-lat_berthier1888.txt
+assignments:
+- row_id: humbert-romans_opera-de-vita-regulari-v1-lat_berthier1888--humbert-of-romans-opera-de-vita-regulari-vol-1-berthier-1888
+  work: Humbert of Romans, Opera de vita regulari, vol. 1 (Berthier 1888)
+  author: humbert-romans
+  locus: the whole volume
+  atlas_ids:
+  - the-dominican-order
+  role: tradition
+  confidence: provisional
+  note: The master general's own writings on the life of the order. His Legenda sancti Dominici was not found in public-domain print.

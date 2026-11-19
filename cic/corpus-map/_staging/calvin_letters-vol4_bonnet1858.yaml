@@ -10,6 +10,11 @@ assignments:
       - the-reformed-cities-zurich-and-geneva
     role: tradition
     confidence: assigned
+    locus_ids: [whole-file]
+    language: eng
+    date: {end: 1564, formation_confidence: Documented, source: 'calvin_letters-vol4_bonnet1858.txt line 17443: Pauis, 1534.; calvin_letters-vol4_bonnet1858.txt line 16760: Geneva, 2nd May, 1564.', start: 1534}
+    translator: {formation_confidence: Documented, name: Marcus Robert Gilchrist, source: 'calvin_letters-vol4_bonnet1858.txt line 75: MARCUS ROBERT GILCHRIST.'}
+    edition_date: {formation_confidence: Documented, source: 'calvin_letters-vol4_bonnet1858.txt line 84: in the year 1858', year: 1858}
     note: >
       Continues Calvin's correspondence into his later years - this
       volume's own cumulative index (which references entries across all

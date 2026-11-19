@@ -19,8 +19,7 @@ confidence:
     record carries the editor's own reading as his, not as this record's independent finding.
 sources:
 - source_id: gallic.source.npnf-editorial-apparatus
-  locus: "Appendix III, Note on Section 85, Page 156 (npnf211 div iii.xxxvii, file lines 14887-14900):
-    the editor's reading of Vincent's own handling of Celestine's letter"
+  locus: "Appendix III, Note on Section 85, Page 156 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 14887-14900; div iii.xxxvii): the editor's reading of Vincent's own handling of Celestine's letter"
   license: public-domain
 retrieval:
   tier: 3

@@ -76,7 +76,7 @@ description: >-
   a destiny, and wary of wanting it. It made every founding story a capture. It made the world's
   ending a change in how it spoke, not a collapse. It also roots the world's own sense of time
   running out in the founding voices. Vincent's 'awful expectation' is the motive of a man who has
-  come into the harbour and means to stay. Cassian's 'fear of hell' (Conf. XI.6) is the beginner's
+  come into the harbor and means to stay. Cassian's 'fear of hell' (Conf. XI.6) is the beginner's
   restraint inside the house. This is a thin motif, found in both houses, and it stands apart from
   the barbarian force.
 manifestations:

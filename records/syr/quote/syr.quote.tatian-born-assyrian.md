@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: syr.source.tatian-address-to-greeks
-  locus: 'ch. XLII, Concluding Statement as to the Author (anf02, line 7460)'
+  locus: "ch. XLII, Concluding Statement as to the Author (cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml, lines 7457-7464)"
   license: public-domain
 text: These things, O Greeks, I Tatian, a disciple of the barbarian philosophy, have composed for you.
   I was born in the land of the Assyrians, having been first instructed in your doctrines, and afterwards

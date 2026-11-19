@@ -1,0 +1,72 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "sentence": "Our own two voices are bishops, and what comes down through them is mostly what a bishop saw and decided."
+  }
+ ],
+ "citations": [
+  "lpc.limit.ordinary-interior-life"
+ ],
+ "group": "A",
+ "id": "q025",
+ "net_sentences": [
+  {
+   "draft": "Our own two voices are bishops, and what comes down through them is mostly what a bishop saw and decided [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]].",
+   "ratio": 0.88,
+   "sentence": "Our own two voices are bishops, and what comes down through them is mostly what a bishop saw and decided.",
+   "tags": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "verdict": "ok",
+   "why": "grounded 88% in own tagged records"
+  },
+  {
+   "draft": "Which outside record do you have in mind?",
+   "sentence": "Which outside record do you have in mind?",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "lpc.limit.the-silent-century",
+  "lpc.witness.answerability-as-ground",
+  "lpc.term.communion",
+  "lpc.term.grace",
+  "lpc.story.celerinus-writes-to-lucian",
+  "lpc.story.the-death-of-cyprian",
+  "lpc.quote.an-ever-burning-gehenna",
+  "lpc.force.corpus-outliving-the-world",
+  "lpc.limit.ordinary-interior-life",
+  "lpc.story.the-plague-and-the-enemies",
+  "lpc.quote.good-done-to-all-not-only-the-household",
+  "lpc.witness.confessor-claim-vs-regulated-peace",
+  "lpc.quote.thousands-of-certificates-daily"
+ ],
+ "raw_text": "Our own two voices are bishops, and what comes down through them is mostly what a bishop saw and decided [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]]. Pontius and the Acta both tell the death of Cyprian, and they agree on the core but differ on who tied the cloths over his eyes [[lpc.story.the-death-of-cyprian]] [[as:paraphrase]]. We state that difference and do not settle it [[lpc.story.the-death-of-cyprian]] [[as:paraphrase]]. Which outside record do you have in mind?\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [
+   {
+    "draft": "Pontius and the Acta both tell the death of Cyprian, and they agree on the core but differ on who tied the cloths over his eyes [[lpc.story.the-death-of-cyprian]] [[as:paraphrase]].",
+    "sentence": "Pontius and the Acta both tell the death of Cyprian, and they agree on the core but differ on who tied the cloths over his eyes.",
+    "why": "tells an offered story without placing it"
+   },
+   {
+    "draft": "We state that difference and do not settle it [[lpc.story.the-death-of-cyprian]] [[as:paraphrase]].",
+    "sentence": "We state that difference and do not settle it.",
+    "why": "tells an offered story without placing it"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C16.S1",
+ "text": "Our own two voices are bishops, and what comes down through them is mostly what a bishop saw and decided. Which outside record do you have in mind?",
+ "voice_set_aside": false
+}

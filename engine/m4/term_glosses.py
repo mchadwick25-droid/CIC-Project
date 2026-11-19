@@ -48,6 +48,8 @@ term record fleet-wide that predates the field, defaults to "technical"
 """
 import re
 
+from engine.m4.citation_cards import resolve_source_card
+
 
 def _matchable_forms(term_record: dict) -> list[str]:
     """Every string a voice would actually say for this term's world_word.
@@ -184,6 +186,10 @@ def find_glosses_used(text: str, citations: list[dict], repository_records: dict
 
     out = []
     for pos, record, matched_name in hits:
+        senses = record.get("senses") or {}
+        heard, meant = senses.get("heard_today"), senses.get("meant_here")
+        split = all(isinstance(v, str) and v.strip() for v in (heard, meant))
+        card = resolve_source_card(record["id"], repository_records) or {}
         sentence = next((c for c in citations if matched_name in c.get("sentence", "")), None)
         sourced_by = [source for card in (sentence.get("sources") or [] if sentence else []) for source in card["sources"]]
         out.append(
@@ -193,8 +199,14 @@ def find_glosses_used(text: str, citations: list[dict], repository_records: dict
                 "text_start": pos,
                 "plain_meaning": record.get("plain_meaning"),
                 "quick_meaning": record.get("quick_meaning"),
-                "translational_sense": (record.get("senses") or {}).get("translational"),
+                "world_word": record.get("world_word"),
+                "translational_sense": senses.get("translational"),
+                "heard_today": heard if split else None,
+                "meant_here": meant if split else None,
                 "false_friend": record.get("false_friend") or [],
+                "distortion_risk": record.get("distortion_risk"),
+                "confidence": record.get("confidence"),
+                "rests_on": card.get("sources") or [],
                 "sourced_by": sourced_by,
             }
         )

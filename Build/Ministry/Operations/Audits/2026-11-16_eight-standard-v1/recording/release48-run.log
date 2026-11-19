@@ -1,0 +1,25 @@
+=== PAID RUN, settings as actually used ===
+approved run     : The ten bar briefs, data release 48; Mark 2026-11-16: then they all pass, move forward   char cap: 20500
+person voice id  : MFZUKuGQUsGJPQjTS4wC   (kind "person", every item)
+output format    : mp3_44100_128
+model            : eleven_v4
+settings         : {"stability":0.85,"similarity_boost":0.88,"style":0.05,"use_speaker_boost":true,"speed":0.95}
+audio tags       : open [calmly], before the last sentence [warmly], between paragraphs [pause], 7 respellings
+items            : 10   characters: 19069 text, 19751 sent
+===========================================
+  ok: origen voice=MFZUKuGQUsGJPQjTS4wC model=eleven_v4 format=mp3_44100_128 settings={"stability":0.85,"similarity_boost":0.88,"style":0.05,"use_speaker_boost":true,"speed":0.95} chars=1869 sent=1982 cost=961 request-id=6c9bqeykI21YZO7MOgIz
+  ok: athanasius-of-alexandria voice=MFZUKuGQUsGJPQjTS4wC model=eleven_v4 format=mp3_44100_128 settings={"stability":0.85,"similarity_boost":0.88,"style":0.05,"use_speaker_boost":true,"speed":0.95} chars=2031 sent=2089 cost=1013 request-id=W4CHGjvcv06QwRijAXeK
+  ok: gregory-of-nyssa voice=MFZUKuGQUsGJPQjTS4wC model=eleven_v4 format=mp3_44100_128 settings={"stability":0.85,"similarity_boost":0.88,"style":0.05,"use_speaker_boost":true,"speed":0.95} chars=1670 sent=1721 cost=834 request-id=qoCOnk5rJUJmpOx1M4Jd
+  ok: ephrem-the-syrian voice=MFZUKuGQUsGJPQjTS4wC model=eleven_v4 format=mp3_44100_128 settings={"stability":0.85,"similarity_boost":0.88,"style":0.05,"use_speaker_boost":true,"speed":0.95} chars=1918 sent=1969 cost=955 request-id=OKSwqBqfF60nJilypZmL
+  ok: john-chrysostom voice=MFZUKuGQUsGJPQjTS4wC model=eleven_v4 format=mp3_44100_128 settings={"stability":0.85,"similarity_boost":0.88,"style":0.05,"use_speaker_boost":true,"speed":0.95} chars=2051 sent=2105 cost=1021 request-id=rckZbrSOGzh20UJLyjTW
+  ok: methodius-of-olympus voice=MFZUKuGQUsGJPQjTS4wC model=eleven_v4 format=mp3_44100_128 settings={"stability":0.85,"similarity_boost":0.88,"style":0.05,"use_speaker_boost":true,"speed":0.95} chars=1780 sent=1873 cost=908 request-id=6WtLvmhjDpw45urfv6QV
+  ok: constantine-the-great voice=MFZUKuGQUsGJPQjTS4wC model=eleven_v4 format=mp3_44100_128 settings={"stability":0.85,"similarity_boost":0.88,"style":0.05,"use_speaker_boost":true,"speed":0.95} chars=2021 sent=2111 cost=1024 request-id=HAv4tJmlhIJCMccKfgET
+  ok: gregory-of-nazianzus voice=MFZUKuGQUsGJPQjTS4wC model=eleven_v4 format=mp3_44100_128 settings={"stability":0.85,"similarity_boost":0.88,"style":0.05,"use_speaker_boost":true,"speed":0.95} chars=1875 sent=1939 cost=940 request-id=AEZW4v7O7B9NUQMAowYK
+  ok: benedict-of-nursia voice=MFZUKuGQUsGJPQjTS4wC model=eleven_v4 format=mp3_44100_128 settings={"stability":0.85,"similarity_boost":0.88,"style":0.05,"use_speaker_boost":true,"speed":0.95} chars=1931 sent=1982 cost=961 request-id=JMDcqbSH777yEKIJ8nsF
+  ok: gregory-of-tours voice=MFZUKuGQUsGJPQjTS4wC model=eleven_v4 format=mp3_44100_128 settings={"stability":0.85,"similarity_boost":0.88,"style":0.05,"use_speaker_boost":true,"speed":0.95} chars=1923 sent=1980 cost=960 request-id=yN5vqzZ1Bdt6dFctATYC
+
+10/10 generated. credits charged (character-cost headers): 9577
+
+Balance before 247,585; after 257,162; moved 9,577, matching the charged 9,577. No gap since the Athanasius sample (it ended at 247,585).
+Text: the census longDescription on claude/cft-release-48 after #1705 merged (df9d3c13), the ten approved by Mark (2026-11-16: "then they all pass, move forward and make sure we don't drift from this quality and rigor").
+Lengths: Origen 1:59, Methodius 1:56, Constantine 2:08, Athanasius 2:14, Ephrem 2:01, Gregory of Nazianzus 1:54, Gregory of Nyssa 1:47, John Chrysostom 2:13, Gregory of Tours 1:58, Benedict 1:59.

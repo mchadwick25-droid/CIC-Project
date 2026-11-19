@@ -14,7 +14,7 @@ confidence:
   formation_confidence: Documented
   divergence_note: 'Doc_08 §3 Force 2A-4: Documented -- Doc_01 §2, §6; Registry rows 22, 23. The Manichaean
     half is named and not developed as its own candidate gravity, per Doc_04 §7 item 4 -- a stated limit
-    rather than a judgement that the Manichaean pressure was slight, and this record does not treat that
+    rather than a judgment that the Manichaean pressure was slight, and this record does not treat that
     limit as a confidence divergence in the Pelagian half''s own Documented rating.'
 sources:
 - source_id: lpc.source.augustine-anti-manichaean-corpus
@@ -51,7 +51,7 @@ description: >-
 
   The Manichaean half is named here but not developed. We never tested it on its own as one of this
   world's own central concerns, because our own vocabulary study had not turned up a term specific
-  enough to test. That is a stated limit of the analysis, not a judgement that the Manichaean pressure
+  enough to test. That is a stated limit of the analysis, not a judgment that the Manichaean pressure
   was slight.
 manifestations:
 - Manichaeism, an organized rival system Augustine belonged to for roughly nine years before his conversion

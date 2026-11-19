@@ -1,0 +1,595 @@
+{
+  "second-council-of-constantinople-553": {
+    "claims": [
+      {
+        "claim": "Before the council, the question whether it was right to anathematize the dead was answered by Eutychius, then apocrisiarius to the bishop of Amasea, from King Josiah, who 'broke up the sepulchres of those who had long been dead'; Justinian made him bishop of Constantinople on Menas's death",
+        "witness": "Evagrius, Ecclesiastical History IV.38 (evagrius-scholasticus_ecclesiastical-history_walford1846.txt l.9536-9556)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Three Chapters were Theodore of Mopsuestia, Theodoret's writings against Cyril, and the letter of Ibas of Edessa to Maris the Persian",
+        "witness": "Bossuet, as printed by Percival (npnf214 l.22886-22889); the sentence (npnf214 l.23669-23672)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The followers of Nestorius were attempting to introduce their impiety through Theodore, Theodoret's writings and the letter said to be by Ibas",
+        "witness": "Sentence (npnf214 l.23333-23338); the emperor's letter (npnf214 l.23091-23095)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Facundus wrote because Chalcedon's attackers, the Acephali, were working to have the letter of Ibas, which that synod judged catholic, and Theodore and some writings of Theodoret, who upheld Leo's Tome there, condemned; he wrote the work to the emperor at Constantinople",
+        "witness": "Facundus, Pro defensione trium capitulorum, preface (facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt l.41872-41882)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Vigilius and the Western bishops feared the occasion would be used to destroy the authority of Chalcedon",
+        "witness": "Bossuet, as printed by Percival (npnf214 l.22943-22945)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The synod met at the emperor's bidding",
+        "witness": "Sentence (npnf214 l.23339-23341); Victor of Tunnuna, 'Constantinopolim synodus Iustiniani principis praecepto colligitur' (mommsen1894 l.19130)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The synod opened on 5 May 553 in the Secretarium of the cathedral, without the pope's assent, with Eutychius presiding, Apollinaris of Alexandria, Domninus of Antioch, three bishops for Eustochius of Jerusalem and 145 other metropolitans and bishops",
+        "witness": "Hefele, as printed by Percival (npnf214 l.22877-22883); Duchesne (duchesne1886 l.152024-152026) for the date",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "The emperor's letter to the council is dated 'IV. Nones of May' in the twenty-seventh year of Justinian",
+        "witness": "Emperor's letter, Session I (npnf214 l.23176-23178)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Vigilius refused to attend: 'In vain we sent several commands to him to take part in the synod' (Hefele's condensed digest of the emperor's letter)",
+        "witness": "Emperor's letter, in Hefele's digest (npnf214 l.23069-23071, 23124-23130); Session VII (l.23214-23215); Evagrius IV.38 (walford1846 l.9556-9557); Michael the Syrian IX (chabot1901 l.19066-19075, 6757-6768)",
+        "witness_kind": "acts",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Vigilius issued the Constitutum, dated 'prid. Iduum Maiarum' in Justinian's 27th year at Constantinople, refusing to condemn Theodore or let anyone else: 'eum nostra non audemus condemnare sententia sed nec ab alio quoquam condemnari concedimus'",
+        "witness": "Constitutum (collectio-avellana v1 guenther1895 l.22362-22364, 24223-24225); Günther gives 14 May 553 (l.603-604)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Constitutum is signed by Vigilius, sixteen bishops, a seventeenth by proxy (Zachaeus for Valentinus), and three Roman clergy, Theophanius, Pelagius and Peter; Primasius of Hadrumetum among the bishops",
+        "witness": "Constitutum subscriptions (guenther1895 l.24106-24221), as counted for this profile",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "At the emperor's minute, Vigilius's name was to be no more inserted in the holy diptychs; the synod replied that it would preserve unity to the Apostolic See of ancient Rome",
+        "witness": "Session VII (npnf214 l.23273-23288), from the Paris manuscript; 'This speech is not found in full in any other ms' (l.23188-23189)",
+        "witness_kind": "acts",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "'We therefore anathematize the Three Chapters before-mentioned'",
+        "witness": "Sentence (npnf214 l.23669-23673)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Fourteen anathemas; XI names Origen with Arius, Eunomius, Macedonius, Apollinaris, Nestorius and Eutyches; XII to XIV condemn defenders of Theodore, Theodoret's writings and the letter of Ibas",
+        "witness": "Capitula (npnf214 l.23699-23979; XI at l.23853-23855); Evagrius, 'fourteen chapters' (walford1846 l.9623)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Some of the most injurious things to the memory of Vigilius are found only in the Paris manuscript; the Constantinople copy had been tampered with",
+        "witness": "Percival, excursus on genuineness (npnf214 l.23002-23010)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Vigilius's letter to Eutychius, dated 'VI. Id. Dec.', condemns and anathematizes Theodore and the other Chapters; doubted by Harduin, but 'the learned have not generally been of this mind but have accepted the letter as genuine'",
+        "witness": "Decretal letter and note, in Percival (npnf214 l.24336-24344, 24443-24444, 24490-24492)",
+        "witness_kind": "participant",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Vigilius died in Sicily on his way home; Victor adds that he died under the excommunication of the whole African church",
+        "witness": "Book of the Popes (loomis1916 l.11916-11918); Victor of Tunnuna (mommsen1894 l.19213-19215); Percival (npnf214 l.24498-24499)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Rusticus, a Roman deacon, and Felix, abbot of Gillitanum, who opposed the decrees in writing, were exiled to the Thebaid; Frontinus was exiled to Antinoe; Victor himself was sent to Egypt for defending the Chapters",
+        "witness": "Victor of Tunnuna (mommsen1894 l.19137-19141, 19146-19148, 19194-19199)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pelagius, once a defender of the Three Chapters, returned from exile at Justinian's persuasion, condemned them and was ordained bishop of Rome",
+        "witness": "Victor of Tunnuna (mommsen1894 l.19220-19225); his signature on the Constitutum (guenther1895 l.24217)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The African opposition died out by 559; Milan was in schism until 571; in Istria a schism continued till the Council of Aquileia in 700",
+        "witness": "Percival (npnf214 l.24515-24526)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Pelagius II wrote to Elias and the bishops of Istria pressing them over the Three Chapters",
+        "witness": "Registrum, Appendix III (ewald-hartmann1895 l.19852-20184; editors' date l.19842)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "A synod of the Church of the East gave a canon in defense of the books and teaching of 'saint Théodore', the Interpreter, against men 'dans le temps actuel ... qui s'intitulent orthodoxes'; the canon names no council",
+        "witness": "Synodicon orientale, synod of Ishoyahb I, canon on Theodore (chabot1902 l.26570-26600); Chabot dates the synod to the summer of 585 (l.26035-26071, 26550)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Gregory the Great venerated the fifth council, and told Constantius of Milan that the synod 'called by many the fifth' did nothing 'with respect to the faith, but only with respect to persons'",
+        "witness": "Gregory, Letter I.25 (npnf212 l.31921-31925); to Constantius (npnf212 l.40144-40151)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Labourt: Ishoyahb's creed of 585 argues 'contre tous les partisans byzantins ou persans du cinquième concile œcuménique'; the Theodore canon's opponents 'C'étaient les partisans de Henana d'Adiabène'",
+        "witness": "Labourt (labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904.txt l.15582-15589, 15699-15719)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "In the 26th year of Justinian, 864 of the Greeks, a synod called the Fifth met in the imperial city with three patriarchs, Eutychius, Apollinaris and Domninus; Vigilius was in the city but did not come; the synod confirmed the anathema on Origen, which Justinian had pronounced, and condemned Theodore, Theodoret and the letter of Ibas",
+        "witness": "Michael the Syrian, Chronicle IX, tr. Chabot (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt l.19002-19095; also l.6757-6768)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Gregory wrote to Constantius of Milan, who had held back a letter to Queen Theodelinda because it named the fifth synod",
+        "witness": "Gregory, to Constantius (npnf212 l.40141-40151)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Gregory 'in vain endeavoured, either by remonstrance or by trying to enlist the emperor's aid, to bring back the Istrian bishops to conformity'",
+        "witness": "Barmby's introduction (npnf212 l.22455-22462)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Whether the council condemned Origen with fifteen special anathemas",
+        "sides": "Evagrius: Origen was condemned (walford1846 l.9623-9630; Percival l.24016). Michael the Syrian: the synod confirmed the anathema on Origen that Justinian had pronounced (chabot1901 l.19089-19091). Hefele: the fifteen belong to a synod at Constantinople of 543 (npnf214 l.24040-24042). Percival: undecided on the fifteen (l.23989-23991), though Origen's name in anathema XI is not to be doubted (l.23985-23987).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether Vigilius was present",
+        "sides": "The acts: he refused (npnf214 l.23129-23130, 23214-23215); Evagrius (l.9556-9557) and Michael the Syrian (chabot1901 l.19072-19075, 6757-6768) agree. Victor of Tunnuna lists him among the patriarchs present (mommsen1894 l.19131).",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "How many bishops attended",
+        "sides": "Hefele: three patriarchs, three for Jerusalem and 145 others (npnf214 l.22879-22883). A Vienna manuscript: 165, which Walch, Döllinger and Hefele distrust (l.24008-24015). No ancient count held.",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether Vigilius's letter giving way is genuine",
+        "sides": "Harduin, after Garnerius: supposititious. Percival's note: the learned have accepted it (npnf214 l.24336-24343).",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "When Vigilius died",
+        "sides": "Victor: under the year Mommsen gives as 557 (l.19213). Percival: end of 554 or start of 555 (npnf214 l.24512-24513). Duchesne, from a Verona catalog: 7 June 555 (duchesne1886 l.152254-152255).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Who presided",
+        "sides": "Hefele: Eutychius (npnf214 l.22879-22880). The editor's note in npnf212: the condemnation was forced on the church 'by the Emperor in the said Council under his presidency' (npnf212 l.22438-22439). The quaestor Constantine spoke for the emperor in Session VII (npnf214 l.23270-23276).",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Whether Vigilius consented to the meeting",
+        "sides": "Hefele: opened without the assent of the Pope (npnf214 l.22877-22878). Evagrius: he gave his assent in writing to the assembling but declined attendance (walford1846 l.9556-9557). The sentence: he gave his consent in writing to be present (npnf214 l.23344-23346).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether the Church of the East's synod of 585 answered the council",
+        "sides": "Labourt: Ishoyahb's creed argues against the fifth council's partisans (l.15582-15589). The Theodore canon names no council, and Labourt takes it as aimed at Henana's followers (l.15699-15719).",
+        "formation_confidence": "Inferential-Thin"
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "The full acts",
+        "note": "Mansi tomus 9 is not held; the English extracts in npnf214 are all the Library has of the council's own record."
+      },
+      {
+        "detail": "A list of those present",
+        "note": "No subscription list is held; the count is Hefele's."
+      },
+      {
+        "detail": "The date of the closing session",
+        "note": "The sentence is headed Collation VIII with no date in the held extracts."
+      },
+      {
+        "detail": "Western and African bishops at the council",
+        "note": "No held source counts them."
+      },
+      {
+        "detail": "The Judicatum of 548",
+        "note": "Its text is not held; it is known from Bossuet and Loomis and from fragments Günther notes inside the Constitutum."
+      }
+    ]
+  },
+  "third-council-of-toledo-589": {
+    "claims": [
+      {
+        "claim": "A three-day fast was proclaimed; on 'die octavo iduum majarum' the bishops took their places after prayer and 'ecce in medio eorum adfuit serenissimus princeps', who prayed with them",
+        "witness": "Toledo III acts (collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt l.36612-36620)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The king told them 'quanto tempore in errore Arianorum laborasset Hispania'",
+        "witness": "acts l.36620-36621",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The council is dated 'anno regnante quarto ... domino Recaredo rege, die viii iduum majarum era DCXXVII' (OCR 'viri', 'pcxxvir'), held in the royal city of Toledo by bishops 'totius Hispaniae vel Galliae'",
+        "witness": "acts l.36598-36601",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The year 589",
+        "witness": "Percival (npnf214 l.13695-13698); Barmby (npnf212 l.32580-32583)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The king had ordered all the bishops of his realm to meet ('in unum convenire mandasset'); John: the synod gathered 'praecepto principis Reccaredi'",
+        "witness": "acts l.36603-36604; John of Biclaro (mommsen1894 l.20391-20392)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The held text's heading reads 'SEXAGINTA DUORUM EPISCOPORUM'; Migne's John reads 'numero lxii', Mommsen's 'numero LXXII'",
+        "witness": "acts l.36593; PL72 l.65083; mommsen1894 l.20392",
+        "witness_kind": "acts",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The tomus was received from the king and read aloud by a notary ('pronuntiante notario clara voce')",
+        "witness": "acts l.36631-36632",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The tomus confesses the Holy Spirit 'a Patre et Filio procedere'; the third anathema repeats it",
+        "witness": "acts l.36661-36662, 36909-36911",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Queen Baddo signed: 'Ego Baddo gloriosa regina hanc fidem quam credidi et suscepi, mea manu de toto corde subscripsi'",
+        "witness": "acts l.36780-36782",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Twenty-three articles of condemnation (the twenty-third the closing subscription) by the converted bishops, clergy and nobles; the first on 'qui fidem et communionem ab Ario venientem, et hucusque a nobis retentam' still holds it; the fifteenth on rebaptism; the sixteenth on the 'libellum detestabilem duodecimo anno Leovigildi regis a nobis editum', with its 'gloria Patri per Filium in Spiritu Sancto'",
+        "witness": "acts l.36900-37017 (I at l.36900-36903; XV at l.36962-36964; XVI at l.36965-36971)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Eight former Arian bishops sign the profession: Ugnas, Ubiligisclus, Murila, Sunnila, Gardingus, Bechila, Arvitus, Froisclus",
+        "witness": "acts l.37118-37170, and again in the subscriptions (l.38077-38230)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Masona of Mérida signs first after the king, then Euphemius of Toledo and Leander of Seville",
+        "witness": "acts l.38029-38063",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "In the held list, sixty-two bishops sign in person and five through deputies, with Pantardus signing also for Nitigisius of Lugo",
+        "witness": "acts l.38029-38306, as counted for this profile; the scan is damaged at l.38040-38048 and 38235-38257",
+        "witness_kind": "acts",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Canon II: the creed of Constantinople to be recited 'voce clara a populo' before the Lord's Prayer, after the form of the Eastern churches; IX: former Arian churches to the Catholic bishop; XIV: Jews may not have Christian wives, concubines or slaves; XVI: against idolatry 'per omnem Hispaniam sive Galliam'",
+        "witness": "acts l.37357-37396, 37530-37532, 37647-37649, 37680-37681",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The king's edict confirms the council: 'nulli contemnere liceat'; signed 'Flavius Recaredus rex hanc deliberationem quam cum sancta definivimus synodo confirmans subscripsi'",
+        "witness": "acts l.37918-37921, 38029-38031",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Leovigild's envoy Agilan said it 'was a wrong opinion of the ancient bishops which asserted the Son equal to the Father'; Gregory calls him 'a man of poor wits'",
+        "witness": "Gregory of Tours V.43, tr. Dalton (dalton1927 l.10196-10204)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Leovigild's synod at Toledo ruled that those coming 'de Romana religione ad nostram catholicam fidem' should not be rebaptized",
+        "witness": "John of Biclaro (PL72 l.64847-64855; mommsen1894 l.20149)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Reccared became Catholic 'primo regni sui anno mense X'",
+        "witness": "John of Biclaro (mommsen1894 l.20313-20314)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'Summa tamen synodalis negotii penes sanctum Leandrum Hispalensis ecclesiae episcopum et beatissimum Eutropium monasterii Servitani abbatem fuit'",
+        "witness": "John of Biclaro (mommsen1894 l.20398-20399; PL72 l.65088-65093)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "John compares Reccared to Constantine at Nicaea and Marcian at Chalcedon: at Nicaea the heresy was condemned 'radicibus non amputatis'; at Toledo, after long killings of Catholics, it was 'ita radicitus amputata' that it would not spring up again",
+        "witness": "John of Biclaro (mommsen1894 l.20400-20410)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sunna and Seggo sought the throne; Uldila the bishop plotted with Queen Goswintha, who was 'catholicis semper infesta'",
+        "witness": "John of Biclaro (PL72 l.64969-64972, 64996-65001; mommsen1894 l.20328-20342)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "After the council the duke Argimund sought the throne; he was beaten, 'turpiter decalvatus', had his right hand cut off and rode an ass through Toledo",
+        "witness": "John of Biclaro (PL72 l.65064-65080; mommsen1894 l.20429-20436)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Gregory to Leander: 'I cannot, however, at all fully express in words my joy on having learnt that our common son, the most glorious King Rechared, has been converted'",
+        "witness": "Gregory, Letter I.43, tr. Barmby (npnf212 l.32576-32578)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Isidore: through Leander's faith and work 'populi gentis Gothorum ab Ariana insania ad fidem catholicam' returned",
+        "witness": "Isidore, De viris illustribus (PL83 l.122773-122776)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Leander's homily is printed after the acts; 'Deest haec homilia in A. et E. 3.'",
+        "witness": "acts l.38309-38343",
+        "witness_kind": "acts",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Dalton: 'His speech on that occasion was composed by Leander'",
+        "witness": "Dalton's note to Gregory of Tours IX.15 (dalton1927 l.29212-29215)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "A letter in Reccared's name to Gregory tells the conversion; Barmby: 'The genuineness of this letter is considered doubtful'",
+        "witness": "npnf213 l.2251-2262",
+        "witness_kind": "participant",
+        "formation_confidence": "Contested"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "How many bishops attended",
+        "sides": "Sixty-two: the heading of the held text (acts l.36593) and Migne's John of Biclaro (PL72 l.65083). Seventy-two: Mommsen's John (mommsen1894 l.20392).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Who led the council",
+        "sides": "The acts name no president; Masona signs first (acts l.38033). John of Biclaro: the business lay with Leander and Eutropius (mommsen1894 l.20398-20399).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "How and when Reccared became Catholic",
+        "sides": "The acts: not many days after his father's death (l.36620-36623). John of Biclaro: tenth month of his first year (mommsen1894 l.20313). Gregory of Tours: after a debate of the two sides' bishops (dalton1927 l.18168-18211). Barmby and Gardner: 587.",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whose words the king's speech at the council was",
+        "sides": "The acts: the king's, his book of faith read by a notary (l.36628-36632). Dalton, citing Labbe: 'His speech on that occasion was composed by Leander' (dalton1927 l.29212-29215).",
+        "formation_confidence": "Contested"
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "A Homoian account from Visigothic Spain",
+        "note": "None is held; the booklet of Leovigild's twelfth year survives only as the acts condemn it."
+      },
+      {
+        "detail": "An English translation of the acts",
+        "note": "None held; Percival translates only canon II. The brief and entry tell the Latin in modern words."
+      },
+      {
+        "detail": "An anno Domini date in an ancient source",
+        "note": "The acts give era 627 and the king's fourth year; 589 is the editors' reckoning."
+      }
+    ]
+  },
+  "council-of-dvin-609": {
+    "claims": [
+      {
+        "claim": "Movses consecrated Kiurion, a priest of the catholicate's monastery, as catholicos of the Iberians; shortly before Movses's death Kiurion came to doubt the orthodox faith and recognized the Council of Chalcedon; Movses often rebuked him without success",
+        "witness": "Stephen of Taron (stepanos-taron_armenische-geschichte-deu_gelzer-burckhardt1907.txt l.3000-3007)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Abraham took every pains with the realm of the Iberians, could not convert them, drew the spiritual sword and anathematized them with the assent of all the Armenians",
+        "witness": "Stephen of Taron (gelzer-burckhardt1907 l.3097-3101)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Kurion, trained and raised to office under the Armenian patriarchate, sought to secede to Constantinople 'in order to win the imperial favour'",
+        "witness": "Ormanian (ormanian_church-of-armenia_gregory1912.txt l.2719-2724)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "The Georgian church, with Kurion at its head, 'definitely accepted the Chalcedonian faith, and became part of the Greek Church'; 'The synod of Douine (609) ratified this secession'",
+        "witness": "Ormanian (l.2734-2738)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Movses died in 604; the see, vacant for three years, was administered by Vertanes; Abraham was 'elected on April 3oth, 607' and 'presided at the Council of Douine against the Georgians in 609'",
+        "witness": "Ormanian, list of patriarchs (l.9747-9755)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "In 580 the Georgians asked Moses to choose their pontiff; he appointed Gurion, a Georgian already a bishop in Armenia, who had Chalcedon's acts and Leo's Tome brought from Constantinople and translated",
+        "witness": "Issaverdens (issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt l.3646-3665)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Abraham 'had previously written thrice to him'; Gurion replied, 'I am astonished that you are at variance with all other churches of Christ'",
+        "witness": "Issaverdens (l.3693-3699)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Abraham convoked a synod of bishops at Duin, which anathematized Gurion 'and all those who accepted it', isolating the Armenians from all who approved the council",
+        "witness": "Issaverdens (l.3700-3712)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Gurion complained to Maurice, who called Greek and Armenian bishops to Constantinople; Abraham sent Vertanes and Gregory with nineteen bishops from the Greek division; Chalcedon was declared orthodox; Vertanes and Gregory refused",
+        "witness": "Issaverdens (l.3714-3729)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Maurice set up Yohan as catholicos over the Greek part of Armenia; Abraham resided at Duin",
+        "witness": "Stephen of Taron (gelzer-burckhardt1907 l.3103-3106)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "In a debate before King Khosrow, 'le catholicos de Géorgie et d'Albanie' held Chalcedon's side with many bishops of the Greek region",
+        "witness": "Sebeos, tr. Macler (sebeos_histoire-d-heraclius-fra_macler1904.txt l.7438-7443)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The secession took place at the council of Dovin, 'tenu en 596'; the chronology of the P. and Ac. text is 'entièrement fausse'",
+        "witness": "Brosset, note to Samuel of Ani (zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt l.22668-22672)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "About 580 the Georgians drew near to the Greeks and 'séparèrent à jamais des Arméniens sous le rapport religieux'; Abraham's letter to Gourion was known to Brosset through Ukhtanes",
+        "witness": "Brosset (kartlis-tskhovreba_histoire-de-la-georgie-pt1-histoire-ancienne-fra_brosset1849.txt l.9695-9701)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Dvin, 'the chief city of Persian Armenia', seat of the catholicos",
+        "witness": "Syriac chronicle known as Zachariah's (zachariah-rhetor_chronicle_hamiltonbrooks1899.txt l.16316-16317)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The event had 'unpleasant consequences for the Georgian Church' when, under Russian rule in the nineteenth century, it was absorbed by the Russian church",
+        "witness": "Ormanian (l.2739-2747)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "An Albanian patriarch, Nerses Bakour, 'tempted by the example of Kurion', inclined to communion with the Greek church",
+        "witness": "Ormanian (l.2902-2907), under the patriarch Eghia (703-717)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Samuel of Ani's table: 'Les Ibériens, ayant adopté l'hérésie de Chalcédoine, se séparèrent'; Brosset calls the chronology 'entièrement fausse'",
+        "witness": "Brosset's note (brosset1876 l.22668-22670)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Issaverdens calls Gurion a most learned and pious man (OCR 'tiod' for 'and'); his house, San Lazzaro, was founded by Mekhitar, who 'had to yield to the demands of the Roman Curia'",
+        "witness": "Issaverdens (l.3652-3654); Ormanian (l.4491-4495)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Brosset's statements on the Georgian turn to the Greeks about 580 are drawn from Tchamitch",
+        "witness": "Brosset 1849 (l.9695-9697)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "The year of the council",
+        "sides": "Ormanian: 609, after Abraham's election on 30 April 607 (l.2737-2738, 9753-9755). Brosset 1876: 596, citing the medieval Armenian historians Kirakos and Ukhtanes, neither held (l.22669-22671). Issaverdens and Stephen of Taron: no year. Brosset 1849 dates a letter of Abraham to 595 (l.9690-9691). The census edge gives 596 to 609. Stephen of Taron (gelzer-burckhardt1907 l.3103-3105) and Issaverdens (l.3688-3690, 3714-3717) set Abraham's quarrel under Maurice; Barmby dates Phocas's accession to November 602 (npnf212 l.23779-23781).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Why Kyrion accepted Chalcedon",
+        "sides": "Ormanian: 'in order to win the imperial favour' (l.2723-2724). Stephen of Taron: he came to doubt the orthodox faith (l.3003-3005). Issaverdens: after examining Chalcedon's acts and Leo's Tome (l.3656-3665). Kyrion himself, in Issaverdens: Chalcedon's creed is the same as the three councils' (l.3695-3699).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether Gregory the Great's letter to Quiricus, bishop in Hiberia, is to Kyrion",
+        "sides": "The census story says so. The editors of the Register date it 601 (l.12142) and, weighing Ireland, Pontic Iberia and Spain, write 'Equidem puto de Hiberia Pontica agi' (ewald-hartmann1895 l.12165-12170); they do not name Kyrion.",
+        "formation_confidence": "Inferential-Thin"
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "The acts of the council",
+        "note": "Not held in any form."
+      },
+      {
+        "detail": "The letters between Abraham and Kyrion",
+        "note": "Not held; known only through Issaverdens's paraphrase and Brosset's mention of Ukhtanes."
+      },
+      {
+        "detail": "Ukhtanes, History of the Schism of the Georgians",
+        "note": "Not held; named only in Brosset's notes."
+      },
+      {
+        "detail": "The bishops at the council",
+        "note": "No held source counts or names them."
+      },
+      {
+        "detail": "A Georgian account of Kyrion",
+        "note": "None held; the Georgian chronicle in Brosset's French does not name him."
+      },
+      {
+        "detail": "A ban on communion, marriage or trade",
+        "note": "None found in a held source."
+      }
+    ]
+  }
+}

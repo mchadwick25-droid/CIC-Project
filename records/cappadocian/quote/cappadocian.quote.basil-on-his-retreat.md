@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: cappadocian.source.basil-letters-general-corpus
-  locus: "Letter XIV (To Gregory his friend, on his choice of a Pontic retreat) (npnf208_basil-letters-select-works.xml)"
+  locus: "Letter XIV (To Gregory his friend, on his choice of a Pontic retreat) (cic/texts/npnf208_basil-letters-select-works.xml, lines 24024-24032)"
   license: public-domain
 text: >-
   What need to tell of the exhalations from the earth, or the breezes
@@ -50,17 +50,16 @@ relations:
 - type: associated-with
   target: cappadocian.dw.stillness-and-the-summons
 modern_rendering: >-
-  Why bother describing the scents rising off the earth, or the
-  breezes from the river? Someone else might go on about the flowers
-  and the birdsong, but I have no leisure for that. The real glory of
-  this place is that, fertile as it is for every kind of produce, the
-  sweetest crop it grows me is quiet. It isn't just free of the city's
-  noise - hardly anyone even passes through, except the occasional
-  hunter.
+  Why should I tell of the vapors rising from the earth, or the breezes from the river?
+  Another person might admire the many flowers and the singing birds. But I have no
+  leisure for such thoughts. Still, the chief praise of the place is this. Well suited
+  to produce of every kind, it grows what is to me the sweetest produce of all: quiet.
+  Indeed, it is not only free of the bustle of the city. Even travelers hardly ever come
+  there, except a hunter who happens by.
 use_note:
-  means: "Basil's Letter XIV to Gregory praises his Pontic riverside retreat for its quietness, far from the city and travellers."
+  means: "Basil's Letter XIV to Gregory praises his Pontic riverside retreat for its quietness, far from the city and travelers."
   not_for:
-    - "the era's classic defence of fleeing church office, which is Gregory of Nazianzus's Oration 2, not this letter"
+    - "the era's classic defense of fleeing church office, which is Gregory of Nazianzus's Oration 2, not this letter"
     - "proof that Basil found and kept a settled hermit's life"
     - "a method for quieting an anxious mind, which neither this letter nor cappadocian.dw.stillness-and-the-summons supplies"
   years: {from: 358, to: 359}

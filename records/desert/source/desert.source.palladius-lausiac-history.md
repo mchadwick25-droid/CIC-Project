@@ -23,6 +23,7 @@ work: "Lausiac History, c. 419-420 - retrospective monastic history addressed to
 edition: "trans. W. K. Lowther Clarke (SPCK, 1918), vendored as cic/texts/palladius_lausiac-history_clarke1918.txt (prologue at file line 185; Pachomius/Tabennesiots chapter XXXII at line 397)"
 citation: Palladius of Galatia, Lausiac History, trans. W. K. Lowther Clarke (SPCK, 1918)
 kind: vendored
+shelf_row: palladius_lausiac-history--lausiac-history
 work_id: palladius-lausiac-history
 rights_status: public-domain
 attribution_status: attributed

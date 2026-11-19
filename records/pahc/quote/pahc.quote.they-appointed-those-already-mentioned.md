@@ -16,14 +16,13 @@ confidence:
     Documented as the letter's own argument, written from Rome to Corinth in a live dispute over deposed presbyters. It is advocacy for one side, and the ANF editor notes at this very sentence that the key word is 'much controverted' and the text may be corrupt.
 sources:
 - source_id: pahc.source.first-clement
-  locus: >-
-    First Epistle to the Corinthians, ch. XLIV (anf01_apostolic-fathers-justin-irenaeus.xml)
+  locus: "First Epistle to the Corinthians, ch. XLIV (cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml, lines 1922-1930)"
   license: public-domain
 text: >-
   For this reason, therefore, inasmuch as they had obtained a perfect fore-knowledge of this, they appointed those [ministers] already mentioned, and afterwards gave instructions, that when these should fall asleep, other approved men should succeed them in their ministry.
-modern_rendering: So, for this reason, because they knew this fully in advance, they appointed the ministers
-  named before. Later they gave instructions. When these men died, other approved men were to follow them
-  in their ministry.
+modern_rendering: So, for this reason, because they knew this fully in advance, they appointed those
+  named before. Later they gave instructions that, when these men died, other approved men should follow
+  them in their ministry.
 speaker_or_author: the letter known as First Clement, to the church at Corinth
 license: verbatim
 modern_lens_note: >-
@@ -38,7 +37,7 @@ relations:
 - type: associated-with
   target: pahc.witness.how-we-know
 use_note:
-  means: "Clement says the apostles, foreseeing strife over the office of oversight, appointed ministers and directed that approved men succeed them after death."
+  means: "Clement says the apostles, foreseeing strife over the office of oversight, appointed those already mentioned and directed that approved men succeed them after death."
   not_for:
     - "a claim resting on a secure text, when the key clause is much controverted and possibly corrupt"
     - "a neutral account rather than advocacy for one side of the Corinthian dispute"

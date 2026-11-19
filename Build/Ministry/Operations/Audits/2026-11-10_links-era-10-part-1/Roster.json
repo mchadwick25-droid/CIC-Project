@@ -1,0 +1,230 @@
+[
+ {
+  "atlasId": "IX.1",
+  "id": "azusa-street-and-early-pentecostalism",
+  "name": "Azusa Street & Early Pentecostalism",
+  "lane": "Global Revival & Pentecostal"
+ },
+ {
+  "atlasId": "IX.2",
+  "id": "the-1904-07-revival-family-wales-mukti-india-pyo",
+  "name": "The 1904-07 Revival Family (Wales; Mukti India; Pyongyang Korea)",
+  "lane": "Global Revival & Pentecostal"
+ },
+ {
+  "atlasId": "IX.3",
+  "id": "the-east-african-revival-balokole",
+  "name": "The East African Revival (Balokole)",
+  "lane": "Global Revival & Pentecostal"
+ },
+ {
+  "atlasId": "IX.5",
+  "id": "the-chinese-church-indigenous-and-suffering",
+  "name": "The Chinese Church - Indigenous & Suffering",
+  "lane": "Global Revival & Pentecostal"
+ },
+ {
+  "atlasId": "IX.6",
+  "id": "the-confessing-church",
+  "name": "The Confessing Church",
+  "lane": "Protestant & Evangelical"
+ },
+ {
+  "atlasId": "IX.11",
+  "id": "global-south-pentecostal-christianity",
+  "name": "Global South Pentecostal Christianity",
+  "lane": "Global Revival & Pentecostal"
+ },
+ {
+  "atlasId": "IX.12",
+  "id": "persecuted-church-worlds-of-the-communist-era-in",
+  "name": "Persecuted-Church Traditions of the Communist Era (Initsiativniki Baptists; Romania's Lord's Army)",
+  "lane": "Greek East / Protestant \u2014 span"
+ },
+ {
+  "atlasId": "IX.13",
+  "id": "messianic-judaism",
+  "name": "Messianic Judaism",
+  "lane": "Global Revival & Pentecostal"
+ },
+ {
+  "atlasId": "IX.18",
+  "id": "progressive-christianity-a-broad-label-not-one-m",
+  "name": "Progressive Christianity (a broad label, not one movement)",
+  "lane": "Cross-Family"
+ },
+ {
+  "atlasId": "IX.24",
+  "id": "lausanne-era-global-evangelicalism",
+  "name": "Lausanne-Era Global Evangelicalism",
+  "lane": "Global Revival & Pentecostal"
+ },
+ {
+  "atlasId": "IX.26",
+  "id": "ratana-church-and-pacific-adjustment-movements",
+  "name": "Ratana Church & Pacific Adjustment Movements",
+  "lane": "Global Revival & Pentecostal"
+ },
+ {
+  "atlasId": "IX.28",
+  "id": "the-emerging-church-and-post-evangelical-movemen",
+  "name": "The Emerging Church & Post-Evangelical Movement",
+  "lane": "Protestant & Evangelical"
+ },
+ {
+  "atlasId": "IX.29",
+  "id": "dispensational-prophecy-culture",
+  "name": "Dispensational Prophecy Culture",
+  "lane": "Protestant & Evangelical"
+ },
+ {
+  "atlasId": "IX.30",
+  "id": "the-megachurch-and-seeker-movement",
+  "name": "The Megachurch & Seeker Movement",
+  "lane": "Protestant & Evangelical"
+ },
+ {
+  "atlasId": "IX.32",
+  "id": "the-narrative-kingdom-renewal-the-bible-as-one-s",
+  "name": "The Narrative-Kingdom Renewal (the Bible as one story fulfilled in Jesus)",
+  "lane": "Protestant & Evangelical"
+ },
+ {
+  "atlasId": "IX.33",
+  "id": "fundamentalism-1910-1970s",
+  "name": "Fundamentalism",
+  "lane": "Protestant & Evangelical"
+ },
+ {
+  "atlasId": "IX.34",
+  "id": "the-social-gospel",
+  "name": "The Social Gospel",
+  "lane": "Protestant & Evangelical"
+ },
+ {
+  "atlasId": "IX.35",
+  "id": "the-mainline-century-liberal-and-neo-orthodox",
+  "name": "The Mainline Century \u2014 Liberal Protestantism & Neo-Orthodoxy",
+  "lane": "Protestant & Evangelical"
+ },
+ {
+  "atlasId": "IX.36",
+  "id": "new-calvinism-young-restless-reformed",
+  "name": "New Calvinism (Young, Restless, Reformed)",
+  "lane": "Protestant & Evangelical"
+ },
+ {
+  "atlasId": "IX.37",
+  "id": "indonesian-christianity-the-independent-century",
+  "name": "Indonesian Christianity \u2014 the Independent Century",
+  "lane": "Protestant & Evangelical"
+ },
+ {
+  "atlasId": "IX.38",
+  "id": "northeast-india-and-mar-thoma-twentieth-century",
+  "name": "Northeast India & the Mar Thoma Church \u2014 the 20th Century",
+  "lane": "Syriac East / Protestant \u2014 bridge"
+ },
+ {
+  "atlasId": "IX.41",
+  "id": "churches-of-christ-twentieth-century",
+  "name": "Churches of Christ",
+  "lane": "Protestant & Evangelical"
+ },
+ {
+  "atlasId": "IX.42",
+  "id": "disciples-of-christ-and-independent-christian-churches",
+  "name": "Disciples of Christ & the Independent Christian Churches",
+  "lane": "Protestant & Evangelical"
+ },
+ {
+  "atlasId": "IX.43",
+  "id": "the-black-church-in-the-twentieth-century",
+  "name": "The Black Church in the Twentieth Century",
+  "lane": "Protestant & Evangelical"
+ },
+ {
+  "atlasId": "IX.44",
+  "id": "seventh-day-adventist-church-twentieth-century",
+  "name": "The Seventh-day Adventist Church in the 20th Century",
+  "lane": "Protestant & Evangelical"
+ },
+ {
+  "atlasId": "IX.45",
+  "id": "charismatic-renewal-and-the-jesus-movement",
+  "name": "Charismatic Renewal & the Jesus Movement",
+  "lane": "Global Revival & Pentecostal"
+ },
+ {
+  "atlasId": "IX.46",
+  "id": "the-ecumenical-movement-and-the-wcc",
+  "name": "The Ecumenical Movement & the World Council of Churches",
+  "lane": "Protestant & Evangelical"
+ },
+ {
+  "atlasId": "IX.49",
+  "id": "hebrew-roots-and-torah-observance-movements",
+  "name": "Hebrew Roots & Torah-Observance Movements",
+  "lane": "Global Revival & Pentecostal"
+ },
+ {
+  "atlasId": "IX.50",
+  "id": "the-christian-right",
+  "name": "The Christian Right",
+  "lane": "Protestant & Evangelical"
+ },
+ {
+  "atlasId": "IX.52",
+  "id": "the-anglican-communion-twentieth-century",
+  "name": "The Anglican Communion in the Twentieth Century",
+  "lane": "Protestant & Evangelical"
+ },
+ {
+  "atlasId": "IX.54",
+  "id": "the-rescue-mission-movement",
+  "name": "The Rescue Mission Movement",
+  "lane": "Protestant & Evangelical"
+ },
+ {
+  "atlasId": "IX.55",
+  "id": "the-christian-homeschool-movement",
+  "name": "The Christian Homeschool Movement",
+  "lane": "Protestant & Evangelical"
+ },
+ {
+  "atlasId": "IX.57",
+  "id": "the-third-wave-and-the-vineyard",
+  "name": "The Third Wave & the Vineyard",
+  "lane": "Global Revival & Pentecostal"
+ },
+ {
+  "atlasId": "IX.58",
+  "id": "promise-keepers-and-the-christian-mens-movement",
+  "name": "Promise Keepers & the Christian Men's Movement",
+  "lane": "Protestant & Evangelical"
+ },
+ {
+  "atlasId": "IX.60",
+  "id": "the-church-struggle-against-apartheid",
+  "name": "The Church Struggle against Apartheid",
+  "lane": "Protestant & Evangelical"
+ },
+ {
+  "atlasId": "IX.63",
+  "id": "protestantism-in-latin-america",
+  "name": "Protestantism in Latin America",
+  "lane": "Protestant & Evangelical"
+ },
+ {
+  "atlasId": "IX.64",
+  "id": "korean-protestantism-twentieth-century",
+  "name": "Korean Protestantism in the Twentieth Century",
+  "lane": "Protestant & Evangelical"
+ },
+ {
+  "atlasId": "IX.68",
+  "id": "japanese-christianity-after-1906",
+  "name": "Japanese Christianity after 1906",
+  "lane": "Protestant & Evangelical"
+ }
+]

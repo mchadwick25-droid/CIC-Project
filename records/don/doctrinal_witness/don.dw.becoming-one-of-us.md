@@ -176,7 +176,7 @@ answered from this world's strongest documented ground, and the other
 three (prayer, the meal, fasting) are answered by handing over the actual
 fragments and naming them as fragments.
 
-The discipline answer deliberately refuses to harmonise
+The discipline answer deliberately refuses to harmonize
 `don.story.council-of-cirta`, `don.story.bagai-reconciliation` and
 `don.story.tyconius-condemnation` into a policy. `don.term.reception-without-reordination`
 is explicit that the Donatist side's own reasoning "does not survive in

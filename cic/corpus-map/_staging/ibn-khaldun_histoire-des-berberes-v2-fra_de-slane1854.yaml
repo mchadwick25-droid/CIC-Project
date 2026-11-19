@@ -1,0 +1,11 @@
+source_file: ibn-khaldun_histoire-des-berberes-v2-fra_de-slane1854.txt
+assignments:
+- row_id: ibn-khaldun_histoire-des-berberes-v2-fra_de-slane1854--ibn-khaldun-histoire-des-berberes-vol-2-de-slane
+  work: 'Ibn Khaldun, Histoire des Berberes, vol. 2 (de Slane)'
+  author: ibn-khaldun
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - coptic-christianity-fatimid-to-mamluk
+  role: context
+  confidence: assigned
+  note: "An outside witness. No census entry covers Mamluk Egypt and Syria or the Maghreb after 1300, so the work sits on this entry. Not read in depth for its passages on Christians."

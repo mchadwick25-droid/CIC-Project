@@ -15,6 +15,38 @@ works:
 
     '
   source_file: acosta_natural-and-moral-history-of-the-indies-v2_grimston-markham1880.txt
+- row_id: antonil_cultura-e-opulencia-do-brasil-por_1711--antonil-cultura-e-opulencia-do-brasil
+  work: Antonil, Cultura e opulencia do Brasil (1711)
+  author: antonil
+  locus: the four parts at OCR lines 187-8754; on the slaves and their teaching at 828-882
+    and 1318-1579; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: por
+  date:
+    start: 1710
+    end: 1711
+    source: licences of 12 December 1710 to 6 March 1711 (OCR lines 351-410); title page 'Anno
+      de 1711'
+    formation_confidence: Documented
+  note: A handbook of Brazil's sugar, tobacco, gold and cattle, with counsel to mill owners
+    on the teaching and treatment of the enslaved.
+  source_file: antonil_cultura-e-opulencia-do-brasil-por_1711.txt
+- row_id: barros_vida-do-apostolico-padre-antonio-vieyra-por_1746--barros-vida-do-padre-antonio-vieyra
+  work: André de Barros, Vida do apostolico padre Antonio Vieyra (1746)
+  author: barros
+  locus: Livros I-V at OCR lines 1099-32571; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: por
+  date:
+    start: 1745
+    end: 1746
+    source: licences of 21 May 1745 and November 1746 (about OCR lines 166-870); title page
+      'M.D.CC.XLVI.'
+    formation_confidence: Documented
+  note: A Jesuit's Life of Vieira in five books. Its subject is Vieira; its voice is Barros.
+  source_file: barros_vida-do-apostolico-padre-antonio-vieyra-por_1746.txt
 - row_id: juana-ines-de-la-cruz_fama-y-obras-posthumas-spa_castorena1700--aprobacion-and-life-of-sor-juana-fama-y-obras-posthumas-1700
   work: Aprobacion and life of Sor Juana (Fama y obras posthumas, 1700)
   author: calleja-diego
@@ -27,6 +59,37 @@ works:
 
     '
   source_file: juana-ines-de-la-cruz_fama-y-obras-posthumas-spa_castorena1700.txt
+- row_id: code-noir_recueil-des-reglemens-colonies-francoises-fra_prault1767--code-noir-edict-of-march-1685
+  work: 'Le Code noir: the Edict of March 1685 (Prault 1767 collection)'
+  author: code-noir
+  locus: OCR lines 1272-2393; add 12 to OCR line numbers
+  role: context
+  confidence: needs-ruling
+  language: fra
+  date:
+    start: 1685
+    end: 1685
+    source: 'the edict''s own date line: ''au mois de Mars mil six cens quatre-vingt cinq''
+      (OCR lines 2381-2385)'
+    formation_confidence: Documented
+  note: The king's edict on the policing of the French islands of America, in 60 articles.
+    The crown's voice, not the church's.
+  source_file: code-noir_recueil-des-reglemens-colonies-francoises-fra_prault1767.txt
+- row_id: code-noir_recueil-des-reglemens-colonies-francoises-fra_prault1767--code-noir-edict-of-march-1724-louisiana
+  work: 'Le Code noir: the Edict of March 1724 for Louisiana (Prault 1767 collection)'
+  author: code-noir
+  locus: OCR lines 11063-12459; add 12 to OCR line numbers
+  role: context
+  confidence: needs-ruling
+  language: fra
+  date:
+    start: 1724
+    end: 1724
+    source: 'the edict''s own date line: ''au mois de Mars ... mil sept cens vingt-quatre''
+      (OCR lines 12456-12459)'
+    formation_confidence: Documented
+  note: The same law recast for Louisiana.
+  source_file: code-noir_recueil-des-reglemens-colonies-francoises-fra_prault1767.txt
 - row_id: faber-fw_life-of-saint-rose-of-lima_1855--the-life-of-saint-rose-of-lima-faber-s-series-1847-american
   work: The Life of Saint Rose of Lima (Faber's series, 1847; American edition 1855)
   author: faber-fw
@@ -64,6 +127,26 @@ works:
 
     '
   source_file: gage_english-american-new-survey-of-the-west-indias_1648.txt
+- row_id: garcia-de-la-concepcion_historia-bethlehemitica-spa_1723--garcia-de-la-concepcion-historia-bethlehemitica-1723
+  work: Garcia de la Concepcion, Historia Bethlehemitica (1723)
+  author: garcia-de-la-concepcion
+  locus: the three books from OCR line 1913; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: assigned
+  note: The Bethlemites' official history, commissioned by their procurator general, with
+    the order's Constitutions and their approval told in it. The order's own voice.
+  source_file: garcia-de-la-concepcion_historia-bethlehemitica-spa_1723.txt
+- row_id: garcia-pelaez_memorias-historia-reyno-de-guatemala-t2-spa_1852--garcia-pelaez-memorias-para-la-historia-del-antiguo-reyno-de-guatemala
+  work: Garcia Pelaez, Memorias para la historia del antiguo Reyno de Guatemala, tomo II (1852)
+  author: garcia-pelaez
+  locus: Chapter LXVIII at OCR lines 6955-7142; add 12 to OCR line numbers for this file's
+    own
+  role: context
+  confidence: provisional
+  note: The archbishop of Guatemala's archival history of the colonial kingdom, written 140
+    years after Cancuc. A later witness for this entry; the Spanish church's side of the rising,
+    not the movement's own voice.
+  source_file: garcia-pelaez_memorias-historia-reyno-de-guatemala-t2-spa_1852.txt
 - row_id: hansen_vita-mirabilis-et-mors-pretiosa-rosae-de-s-maria-lat_1664--vita-mirabilis-et-mors-pretiosa-rosae-de-s-maria-limensis
   work: Vita mirabilis et mors pretiosa Rosae de S. Maria Limensis (1664)
   author: hansen
@@ -89,6 +172,49 @@ works:
 
     '
   source_file: juana-ines-de-la-cruz_fama-y-obras-posthumas-spa_castorena1700.txt
+- row_id: juarros_compendio-historia-ciudad-de-guatemala-t2-spa_1809--juarros-compendio-de-la-historia-de-la-ciudad-de-guatemala-tomo-ii-180
+  work: Juarros, Compendio de la historia de la ciudad de Guatemala, tomo II (1809)
+  author: juarros
+  locus: the Bethlemites at OCR 10208-10485; Cancuc at 25115-25200; add 12 to OCR line numbers
+    for this file's own
+  role: tradition
+  confidence: provisional
+  note: A Guatemalan priest's history of his city and church, within this entry's window.
+    The church's own record, and the Spanish side's account of the Cancuc rising of 1712 (LA8-10,
+    held for sources), not the movement's own voice.
+  source_file: juarros_compendio-historia-ciudad-de-guatemala-t2-spa_1809.txt
+- row_id: montalvo_vida-admirable-pedro-de-san-jose-betancur-spa_1683--montalvo-vida-admirable-del-hermano-pedro-de-san-joseph-betancur-rome-
+  work: Montalvo, Vida admirable del hermano Pedro de San Joseph Betancur (Rome 1683)
+  author: montalvo
+  locus: the Life from about OCR line 87; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: assigned
+  note: The earliest Life of Pedro de San Jose Betancur, founder of the Bethlemite company
+    at Guatemala, written sixteen years after his death. Colonial devotional Catholicism's
+    own hagiography. The eras 8-9 sweep holds the Bethlemites (LA8-9) for a line in this entry.
+  source_file: montalvo_vida-admirable-pedro-de-san-jose-betancur-spa_1683.txt
+- row_id: moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797--moreau-de-saint-mery-description-de-la-partie-francaise-de-saint-domin
+  work: Moreau de Saint-Mery, Description de la partie francaise de Saint-Domingue, tome 1
+    (1797)
+  author: moreau-de-saint-mery
+  locus: the parish-by-parish description; add 12 to OCR line numbers for this file's own
+  role: context
+  confidence: provisional
+  note: A colonial jurist's parish-by-parish description of French Saint-Domingue, with the
+    Capuchin, Jesuit and Dominican missions. The view from outside the church, written just
+    before 1804. The eras 8-9 sweep holds Haiti before 1804 (LA8-6) as a line in this entry.
+  source_file: moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797.txt
+- row_id: moreau-de-saint-mery_description-partie-francaise-saint-domingue-t2-fra_1797--moreau-de-saint-mery-description-de-la-partie-francaise-de-saint-domin
+  work: Moreau de Saint-Mery, Description de la partie francaise de Saint-Domingue, tome 2
+    (1797)
+  author: moreau-de-saint-mery
+  locus: the parish-by-parish description; add 12 to OCR line numbers for this file's own
+  role: context
+  confidence: provisional
+  note: A colonial jurist's parish-by-parish description of French Saint-Domingue, with the
+    Capuchin, Jesuit and Dominican missions. The view from outside the church, written just
+    before 1804. The eras 8-9 sweep holds Haiti before 1804 (LA8-6) as a line in this entry.
+  source_file: moreau-de-saint-mery_description-partie-francaise-saint-domingue-t2-fra_1797.txt
 - row_id: motolinia_historia-de-los-indios-de-la-nueva-espana-spa_sanchez-garcia1914--historia-de-los-indios-de-la-nueva-espana-2
   work: Historia de los indios de la Nueva Espana (written 1536-1541)
   author: motolinia
@@ -171,6 +297,114 @@ works:
 
     '
   source_file: toro_compendio-vida-juan-macias-spa_1689.txt
+- row_id: vieira_cartas-tomo1-por_1735--vieira-cartas-tomo-1
+  work: Vieira, Cartas, tomo 1 (1735)
+  author: vieira
+  locus: Cartas I-CXXXXI at OCR lines 873-16398; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: por
+  date:
+    start: 1647
+    end: 1674
+    source: the first letter is dated September 1647 (OCR line 919) and the last Rome, 3 June
+      1674 (16243)
+    formation_confidence: Documented
+  note: Vieira's own letters to ministers, nobles and fellow Jesuits, first printed in 1735.
+    His voice; the editors' choice of letters.
+  source_file: vieira_cartas-tomo1-por_1735.txt
+- row_id: vieira_cartas-tomo2-por_1735--vieira-cartas-tomo-2
+  work: Vieira, Cartas, tomo 2 (1735)
+  author: vieira
+  locus: the letters at OCR lines 377-16219; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: por
+  date:
+    formation_confidence: unknown
+    checked: the title page and licences (OCR lines 23-375) date the print to 1734-1735; the
+      dates of the first and last letters were not read
+  note: Vieira's own letters to ministers, nobles and fellow Jesuits, first printed in 1735.
+    His voice; the editors' choice of letters.
+  source_file: vieira_cartas-tomo2-por_1735.txt
+- row_id: vieira_maria-rosa-mystica-parte1-por_1686--vieira-maria-rosa-mystica-part-1-sermons-i-xv
+  work: 'Vieira, Maria Rosa Mystica, part 1: sermons I-XV (1686)'
+  author: vieira
+  locus: sermons at OCR lines 311-45951; sermon XIV at 40117; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: por
+  date:
+    start: 1633
+    end: 1686
+    source: 'sermon XIV''s heading: ''Anno de 1633'' (OCR lines 40119-40121); title page ''M.
+      DC. LXXXVI.''; licences of 1685-1686 at 83-232'
+    formation_confidence: Documented
+  note: The preacher's Rosary sermons in his own Portuguese. Sermon XIV is headed as preached
+    to the brotherhood of the Blacks of a sugar mill in Bahia.
+  source_file: vieira_maria-rosa-mystica-parte1-por_1686.txt
+- row_id: vieira_maria-rosa-mystica-parte2-por_1688--vieira-maria-rosa-mystica-part-2-sermons-xvi-xxx
+  work: 'Vieira, Maria Rosa Mystica, part 2: sermons XVI-XXX (1688)'
+  author: vieira
+  locus: sermons at OCR lines 458 to about 43754; sermon XX at 12831, XXVII at 33001; add
+    12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: por
+  date:
+    start: 1688
+    end: 1688
+    source: 'title page: ''Anno M. DC. LXXXVIII''; licences of 1686-1687 at about OCR lines
+      113-330'
+    formation_confidence: Documented
+  note: The second half of the Rosary sermons. Sermons XX and XXVII speak of the Blacks, the
+    enslaved and their brotherhood.
+  source_file: vieira_maria-rosa-mystica-parte2-por_1688.txt
+- row_id: vieira_sermoens-parte12-por_1699--vieira-sermoens-parte-12
+  work: Vieira, Sermoens, parte duodécima (Lisbon, 1699)
+  author: vieira
+  locus: the sermons at OCR lines 563-32594; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: por
+  date:
+    start: 1699
+    end: 1699
+    source: 'title page: 1699; the sermon headings give the years they were preached'
+    formation_confidence: Documented
+  note: The Jesuit preacher's sermons as printed at Lisbon in 1699; the Society's licence
+    in the front matter is dated from Bahia. A printed text may differ from what was preached.
+  source_file: vieira_sermoens-parte12-por_1699.txt
+- row_id: vieira_sermoens-parte5-por_1689--vieira-sermoens-parte-5
+  work: Vieira, Sermoens, quinta parte (Lisbon, 1689)
+  author: vieira
+  locus: the sermons at OCR lines 521-46831; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: por
+  date:
+    start: 1689
+    end: 1689
+    source: 'title page: 1689; the sermon headings give the years they were preached'
+    formation_confidence: Documented
+  note: The Jesuit preacher's sermons as printed at Lisbon in 1689; the Society's licence
+    in the front matter is dated from Bahia. A printed text may differ from what was preached.
+  source_file: vieira_sermoens-parte5-por_1689.txt
+- row_id: vieira_sermoens-parte3-por_1683--vieira-sermoens-parte-3
+  work: Vieira, Sermoens, terceira parte (Lisbon, 1683)
+  author: vieira
+  locus: the sermons at OCR lines 610-40190; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: por
+  date:
+    start: 1683
+    end: 1683
+    source: 'title page: 1683; the sermon headings give the years they were preached'
+    formation_confidence: Documented
+  note: The Jesuit preacher's sermons as printed at Lisbon in 1683; the Society's licence
+    in the front matter is dated from Bahia. A printed text may differ from what was preached.
+  source_file: vieira_sermoens-parte3-por_1683.txt
 - row_id: villagomez_sumario-probanzas-canonizacion-toribio-mogrovejo-spa_lima1662--sumario-y-memorial-ajustado-de-las-probanzas-cause-of
   work: Sumario y memorial ajustado de las probanzas, cause of Toribio de Mogrovejo (Lima,
     1662)

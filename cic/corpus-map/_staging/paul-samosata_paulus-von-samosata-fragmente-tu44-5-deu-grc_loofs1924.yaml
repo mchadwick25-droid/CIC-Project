@@ -1,0 +1,11 @@
+source_file: paul-samosata_paulus-von-samosata-fragmente-tu44-5-deu-grc_loofs1924.txt
+assignments:
+- row_id: paul-samosata_paulus-von-samosata-fragmente-tu44-5-deu-grc_loofs1924--paul-of-samosata-fragments-loofs-1924
+  work: 'Paul of Samosata, the fragments, with the letter of Hymenaeus (Loofs 1924)'
+  author: paul-samosata
+  locus: 'the texts from about OCR line 16747; add 12 to OCR line numbers'
+  atlas_ids:
+  - antiochene-church-third-century
+  role: tradition
+  confidence: assigned
+  note: "The bishop's own words as his opponents quoted them, with the letter the bishops sent him. Which fragments are his is disputed; Loofs argues each case. The Greek OCR is garbled, so quote only after checking the page."

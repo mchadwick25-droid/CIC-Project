@@ -14,9 +14,9 @@ Source: Internet Archive item johnwyclifsdever00buddiala
   2026-09-25, this session.
 Provenance note: Body text unaltered including its own OCR errors
   (Latin). Wyclif Society Latin Works series, vol. 21 - Wyclif's own
-  core argument for scripture's supreme authority. Per this
-  project's own INTAKE.md rule, Latin text is a second witness, never
-  primary evidence for a Representative.
+  core argument for scripture's supreme authority. A clean public-domain original can
+  be primary evidence; scan quality
+  decides quotability, not language (cic/texts/INTAKE.md).
 
 JOHN  WYCLIF'S 
 

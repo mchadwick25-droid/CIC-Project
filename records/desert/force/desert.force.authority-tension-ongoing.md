@@ -70,4 +70,4 @@ source for the identical claim. The Apophthegmata locus and the
 sayings-tradition manifestation carry that source's own compiler
 screen. The father-elder observation is Pachomian Lives-tradition
 content (Doc_05 SS1; Doc_07 SS3, per Doc_08's own Cell 2B-i Layer 2
-citation), not the Apophthegmata's, and is channelled accordingly.
+citation), not the Apophthegmata's, and is channeled accordingly.

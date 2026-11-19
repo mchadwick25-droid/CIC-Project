@@ -8,6 +8,9 @@ assignments:
   - the-hussite-and-bohemian-brethren-movement
   role: tradition
   confidence: assigned
+  locus_ids: [whole-file]
+  language: ces
+  date: {start: 1440, end: 1443, source: "Smetánka's preface (file line 424): the Net of Faith was written 'za bezkráloví po smrti Albrechta rakouského, v letech 1440-1443', as Goll showed; the OCR reads the years as '1 440-1 M33' and the end year is read as 1443", formation_confidence: Widely Accepted}
   note: Chelčický's Net of Faith in the Czech he wrote, in a 1912 edition from the 1521 printing. It is
     the main Czech source for the pacifist, anti-Constantinian thinker whom the Unity of the Brethren
     drew on, and is the Czech original beside the census's Chelčický lead. Primary original evidence in

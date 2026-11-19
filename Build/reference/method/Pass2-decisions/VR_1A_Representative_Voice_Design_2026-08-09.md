@@ -1,8 +1,8 @@
-# Decision — Representative Voice Design (2026-08-09)
+# Decision — Representative Voice Design
 
-**From Mark, 2026-08-09 — the third and governing insight of the day's
+**The third and governing insight of the day's
 sequence** (north star → Writing Standard → Conversation Palette →
-Composition System → this). His own closing judgment, adopted: this is
+Composition System → this). The closing judgment, adopted: this is
 closer to the actual problem than the broader conversation-system
 specification. **The world is already doing the scholarly work. The
 Representative's craft is selection + voice + conversational judgment.**

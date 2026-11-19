@@ -28,6 +28,7 @@ edition: Nicene and Post-Nicene Fathers, Series I, vol. I, vendored as cic/texts
   split from a 168-letter volume by its own div3 markup
 citation: 'Augustine of Hippo, Donatist correspondence: Letters XXIII, XLIII, XLIV, LIII, LXXVI, LXXXVII, LXXXVIII, LXXXIX, XCIII, CXXXIX, CLXXIII, Nicene and Post-Nicene Fathers, Series I, vol. I'
 kind: vendored
+shelf_row: npnf101_augustine-confessions-letters--letters-of-st-augustin-the-donatist-correspondence
 rights_status: "public-domain; vendored as part of the shared patristic library, rights basis established (the file's own provenance header states Public Domain)"
 attribution_status: attributed
 discovery_channel: 'corpus map / cic/corpus-map/donatism.yaml / 2026-09-01; Letter LXXXVII and Letter

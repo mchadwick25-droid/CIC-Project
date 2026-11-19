@@ -9,6 +9,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
+    locus_ids: [whole-file]
+    language: lat
+    date: {formation_confidence: unknown, checked: "Augustine sermon collection with no single composition window: P1 lists the sermons without a date, the volume header (cic/texts) gives none, and no lpc record states one"}
     note: >
       Later sermons in the Maurist text. The Appendix that follows Sermo 396 is the Maurists'
       own collection of doubtful and spurious sermons and is not Augustine's voice; it is not

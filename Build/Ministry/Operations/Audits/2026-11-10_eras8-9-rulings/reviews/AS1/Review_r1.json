@@ -1,0 +1,160 @@
+{
+ "slice": "AS1",
+ "round": 1,
+ "verdict": "revise",
+ "blocking": [],
+ "substantial": [
+  {
+   "id": "S1",
+   "where": "link church-of-the-east-three-patriarchates--st-thomas-christians-two-obediences.outcome",
+   "problem": "The outcome makes this 'in contact with' link major, but no act of the kinds step 4b lists is in its sources. A bishop arriving is not a council or synod condemning a group, a prelate deposed, a split into a separate body, or a rule changed by an authority. The outcome itself says the result came to nothing: those who joined him went back to their former parties.",
+   "evidence": "CFT_Phase2_Links_Era_Launch_2026-11-07.md step 4b (the institutional acts that count). Whitehouse App. D, lines 19247-19253: 'In 1708, by the direction of Mar Alea, Gabriel, a Nestorian bishop, arrived' ... 'Those who joined him returned to their former parties after his death.' The Documented grade is sound: App. D is a Library primary, verified-direct.",
+   "fix": "Remove `outcome`. Keep the link as a minor 'in contact with', Documented, with the same note and sources. Delete the drafter flag that calls it major."
+  },
+  {
+   "id": "S2",
+   "where": "chinese-catholicism-1650-1906.longDescription (paragraph on the 1860s instruction)",
+   "problem": "Wrong province. The draft says the Holy Office instruction 'dealt with trouble in Yunnan'. The instruction is addressed to the vicar apostolic of Hunan and speaks of the faithful 'in Hunnanensi provincia'.",
+   "evidence": "Collectanea I, cic/texts/propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907.txt lines 118022-118027: 'Instr. S. C. S. Officii 1663 — (Ad Vic. Apr. Huw-NAN) — ... circa difficultates in quibus versantur fideles in Hunnanensi provincia.' No fact-table row supports 'Yunnan'.",
+   "fix": "Replace with: 'A Holy Office instruction of the 1860s dealt with trouble in Hunan.' Add a fact-table row citing lines 118022-118027 for the province."
+  },
+  {
+   "id": "S3",
+   "where": "chinese-catholicism-1650-1906.relationsSummary; longDescription (paragraph on 1659 and 1658)",
+   "problem": "The draft gets the Paris Foreign Missions Society's dates wrong, three times. (1) 'Priests of the Paris Foreign Missions Society served in it from the 1660s' says more than the source does. The cited quote is about the first party leaving Paris in 1665. The same passage dates the Society's first priests in China's provinces to Pallu in Fujian, 1679-84; Cotolendi, named for Nanking, died on the way. (2) 'In 1658 Rome had named two priests of that Society' calls Pallu and Lambert members of a Society the encyclopedia says began only with the Paris seminary of 1663-64. (3) 'It was addressed to priests of the Society of Foreign Missions' repeats the 1907 editor's heading as if it were a fact of 1659.",
+   "evidence": "CE vol. 3 (1908) 'China', raw/cathen3.txt about lines 123725-123755 (re-fetched): 'By a Brief of 17 August, 1658, Alexander VII nominated Francois Pallu ... and Pierre de la Motte Lambert ... a suitable site in Paris (16 March, 1663), and the directors took possession 27 Oct., 1664. This was the beginning of the Société des Missions Etrangères ... The first departure from the Paris seminary took place 8 Nov., 1665 ... The Missions Etrangères had priests at Nan-king (Cotolendi died on the journey ...); in the province of Fu-kien (Pallu, 1679-84; Charles Maigrot, 1697-1707)'. Collectanea line 8157: '(Ad Vicarios App. Societatis Mission. ad Exteros)'.",
+   "fix": "relationsSummary: 'Priests of the Paris Foreign Missions Society served in its provinces from about 1680.' longDescription: 'In 1659 Propaganda sent an instruction to these new vicars apostolic. It asked: \"...\"' Then: 'In 1658 Rome had named two French priests, Pallu and Lambert de la Motte, vicars apostolic for China and the lands near it. The seminary they asked for opened in Paris in 1663 and 1664. The encyclopedia calls it the beginning of the Paris Foreign Missions Society.' Each new fact gets a fact-table row from cathen3 at the passage above."
+  },
+  {
+   "id": "S4",
+   "where": "neighbor_changes korean-catholic-origins (VIII.21).longDescription, new paragraphs (G89-2 a)",
+   "problem": "The new sentences rest on a source the row does not hold, and the reader cannot tell what 'the encyclopedia' is. VIII.21's text never introduces an encyclopedia, and its `sources` list (works with type and note) has no entry for it. The drafter's flag also names the wrong article: the 1866 passage is in the article 'China', not 'Corea'.",
+   "evidence": "Census VIII.21 `sources` lists six works, none of them the Catholic Encyclopedia. raw/cathen3.txt about lines 122945-122960 sits inside the 'CHINA' article (running head 'CHINA', page 671 follows): 'Korea, already ill-famed ... was the scene of a terrible persecution in 1866; Bishop Berneux, with Fathers ... were all decapitated. Of the flourishing establishment of the Missions Etrangères de Paris, there were left only Fathers Ridel ..., Féron, and Calais.'",
+   "fix": "Rewrite the second new paragraph to open: 'In 1866, says the Catholic Encyclopedia of 1908, two bishops and seven priests of the Society were beheaded in the March persecution.' Add one entry to VIII.21's `sources`, shaped like its others: {\"work\": \"The Catholic Encyclopedia, vol. 3 (New York, 1908), article 'China'\", \"type\": \"reference\", \"note\": \"A Catholic reference work, read in a public-domain copy; it names the martyrs of 1866 and the three priests of the Paris Society who were left.\"}. Record it under the G89-2 (a) line, and correct the flag to the article 'China'."
+  },
+  {
+   "id": "S5",
+   "where": "link kirishitan-japan--japans-hidden-christians (confidence)",
+   "problem": "The grade goes up with no new evidence for the window. The tree already grades this same tie Inferential-Thin, on the same Sotelo quote, 'because the tie ... rests on modern studies alone'. This draft calls it Widely Accepted, adding only Marnas (1896), an outsider's study written thirty years after the window. Its own livingEvidence still rates the descent Inferential-Thin, 'because no text from inside the communities covers these years', and its flag admits 'nothing dated between 1650 and 1865 was read'. The tree would then show one tie at two grades. The record says AP3's Section A is 'not assessable on a dated statement'.",
+   "evidence": "Census edge kirishitan-japan--japanese-christianity-hidden-emergence-meiji: 'gave rise to', Inferential-Thin, note 'The tie to the hidden Christians found in 1865 rests on modern studies alone, so it is thin.' Draft AP3 livingEvidence.descentConfidence 'Inferential-Thin'. Record §5 AP3 Section A.",
+   "fix": "Set the confidence to Inferential-Thin. Add a closing sentence to the note: 'No text from inside the communities between 1650 and 1865 has been read, so the tie is thin.' The AP3 to VIII.45 link can stay Widely Accepted: the 1865 letters show the villagers coming forward."
+  },
+  {
+   "id": "S6",
+   "where": "st-thomas-christians-two-obediences (relationsSummary, longDescription, floorNote): two-way check",
+   "problem": "The prose names a relationship that has no link and no qualifying sentence: Rome governing the Catholic party. It says 'The other kept to Rome, under Carmelite bishops at Verapoly' and 'The pope sent Carmelite bishops to Verapoly to govern the Old Christians'. The Angamaly paper of 1787 writes to Rome and Portugal. Era 8's Catholic row is VII.19 (catholic-church-ancien-regime). No link VII.19 to AP1 is drafted here or in RV-A's revised draft, though RV-A drafted VII.19 to AP2 for the same kind of tie. VI.18 has a matching link from the Tridentine church.",
+   "evidence": "Whitehouse App. D lines 19221 ('After these things came another Carmelite bishop, sent by the pope') and 19225-19227 ('from that time the pope has regularly sent bishops to Verapoly'), Library primary. Census edge the-tridentine-church--st-thomas-christians-under-portuguese-pressure-d. LIV/RVA draft: catholic-church-ancien-regime--chinese-catholicism-1650-1906.",
+   "fix": "Draft catholic-church-ancien-regime--st-thomas-christians-two-obediences, 'in contact with', Documented, verified-direct, on App. D lines 19221 and 19225-19227. Suggested note: 'The community's own history says the pope sent Carmelite bishops to Verapoly. From then on, it says, the pope regularly sent bishops there to govern the Old Christians.' Leave `outcome` off unless a quote shows a rule changed by Rome."
+  },
+  {
+   "id": "S7",
+   "where": "chinese-catholicism-1650-1906, japans-hidden-christians, japanese-christianity-hidden-emergence-meiji (VIII.45): rendered quotations",
+   "problem": "Six English renderings appear in quotation marks or are marked '(our rendering)', with no original anywhere in what reaches the census. The fact table holds the originals, but apply_g89b.py does not carry fact_table into the census, and none of the three new rows has a `sources` list. The Drafting Brief says 'Non-English quotes keep the original beside the rendering.' No census row uses '(our rendering)' today. The draft already does it right once: 'Sancta Maria no gozowa doko?' sits beside its rendering.",
+   "evidence": "AP2: 'For what is more absurd than to carry France, Spain, Italy or any other part of Europe into China?' (Latin at Collectanea lines 8195-8197); 'virgins' (French at lettres3 'qu'on leur donne le nom de vierges'). AP3: 'The heart of all of us here is the same as yours' (Marnas: 'Notre cœur à nous tous, qui sommes ici, est le même que le vôtre.'). VIII.45: 'born long ago of the inspiration of Alexandre de Rhodes' (Marnas: 'née jadis à l'inspiration d'Alexandre de Rhodes'). apply_g89b.py copies entry fields only; fact_table is not merged.",
+   "fix": "For each, put the original beside the rendering in the prose, as with the Sancta Maria line. Example: 'One said, with her hand on her heart: \"Notre cœur à nous tous ... est le même que le vôtre\", \"The heart of all of us here is the same as yours\" (our rendering).' Or drop the quotation marks and paraphrase. For VIII.45, paraphrasing ('which, he said, owed its birth to Alexandre de Rhodes') keeps the line inside the ruling with no new field. Better still, give AP1, AP2 and AP3 a `sources` list in the shape VI.18 and IX.65 use, with each original in its note."
+  }
+ ],
+ "minor": [
+  {
+   "id": "m1",
+   "where": "japans-hidden-christians.why",
+   "problem": "'almost every village had a chief of prayer and a baptizer' says more than Marnas, who has 'almost everywhere ... the same order' but 'in most villages ... two chiefs'. The longDescription has it right ('Most villages had two chiefs').",
+   "evidence": "Marnas I (raw, re-fetched): 'Presque partout les chrétiens avaient une organisation identique. Dans la plupart des villages, il existait deux principaux chefs.'",
+   "fix": "'In 1865, Marnas says, most villages had a chief of prayer and a baptizer.'"
+  },
+  {
+   "id": "m2",
+   "where": "japans-hidden-christians.longDescription",
+   "problem": "'about noon' is not what the source says.",
+   "evidence": "Marnas: 'Le vendredi, 17 mars, vers midi et demi'.",
+   "fix": "'On 17 March 1865, at about half past twelve, ...'"
+  },
+  {
+   "id": "m3",
+   "where": "chinese-catholicism-1650-1906.longDescription (1755)",
+   "problem": "'letting Mass be sung in Chinese' — the ruling says celebrated, not sung.",
+   "evidence": "Collectanea lines 41925-41929: 'in solemnitatibus lingua sinensi Missam celebrari permiserit'.",
+   "fix": "'for letting Mass be said in Chinese on feast days.'"
+  },
+  {
+   "id": "m4",
+   "where": "chinese-catholicism-1650-1906.longDescription (1766, 1860s)",
+   "problem": "The narrator uses the sources' word 'pagans' ('pagan neighbors' tables', 'Pagans, angry at a treaty') as its own.",
+   "evidence": "Collectanea 52457 'gentilium', 118026 'paganos'.",
+   "fix": "'their non-Christian neighbors' tables'; 'Non-Christians, the instruction says, were angry at a treaty and carved or drew crosses on the roads ...'"
+  },
+  {
+   "id": "m5",
+   "where": "relationsSummary of all three rows; chinese-catholicism-1650-1906.livingEvidence.basis",
+   "problem": "'This row' is internal wording. The census says 'This entry' (25 uses; 'This row' 0 in prose that leads a sentence).",
+   "evidence": "Census prose count.",
+   "fix": "Replace 'This row' / \"This row's\" with 'This entry' / \"This entry's\"."
+  },
+  {
+   "id": "m6",
+   "where": "japans-hidden-christians.statusWord",
+   "problem": "'Researched — viable, secondary' sits with 'Tiered Strong (Tier 1)'. In the census, 55 rows pair 'Tiered Strong (Tier 1)' with 'strong candidate'. The record tiers AP3 Tier 1.",
+   "evidence": "Record §5 AP3 'Tier: Tier 1'; census statusWord counts.",
+   "fix": "statusWord 'Researched — strong candidate'. Keep the thin-evidence wording in statusDescription."
+  },
+  {
+   "id": "m7",
+   "where": "st-thomas-christians-two-obediences.longDescription and sourcing",
+   "problem": "'the English chaplain Claudius Buchanan' and 'an English visitor's account': Buchanan was Scottish-born, and no source read here calls him English.",
+   "evidence": "No fact-table row supports 'English' for Buchanan.",
+   "fix": "'the British visitor Claudius Buchanan'; 'a British visitor's account of 1806'."
+  },
+  {
+   "id": "m8",
+   "where": "Draft flags and drafter_flags",
+   "problem": "Three flags contradict the draft. The VI.13c to AP2 link's flag says VI.13c's continuesAs 'is not set here', but neighbor_changes sets it. The MEP flag places the VIII.21 sentences in the article 'Corea' (they are in 'China'). The VI.13b to AP3 flag says the grade follows the Inferential-Thin reading, then gives Widely Accepted.",
+   "evidence": "neighbor_changes china-mission-born-christianity; raw/cathen3.txt about line 122950.",
+   "fix": "Correct the three flags (and see S4 and S5)."
+  },
+  {
+   "id": "m9",
+   "where": "st-thomas-christians-two-obediences.longDescription ('A priest of Kottayam, writing in 1869 ...'); link to VIII.27",
+   "problem": "Philipos 1869 is marked [S] in the record ('present, not read this run'). The drafter read it at its lines, and the census already cites it on VI.18 to VIII.27, so the use is sound. The flags do not say so.",
+   "evidence": "Record §5 AP1 Evidence; census edge VI.18 to VIII.27.",
+   "fix": "Add a flag: Philipos read at lines 2159-2160 and 2593-2595 (Library), already cited by the census."
+  },
+  {
+   "id": "m10",
+   "where": "neighbor_changes korean-catholic-origins (VIII.21)",
+   "problem": "'two bishops and seven priests' is a correct count of the nine names (Berneux and Daveluy; de Bretenières, Beaulieu, Dorie, Pourthié, Petitnicolas, Aumaître, Huin), all 'decapitated'. But the encyclopedia gives the names, not the total.",
+   "evidence": "raw/cathen3.txt, China article, the 1866 passage.",
+   "fix": "Covered by S4's wording ('two bishops and seven priests of the Society were beheaded'), or: 'the encyclopedia names two bishops and seven priests who were beheaded.'"
+  },
+  {
+   "id": "m11",
+   "where": "chinese-catholicism-1650-1906.legacy",
+   "problem": "It rests on the encyclopedia's 'to-day', which is 1908, after the row's 1906 end.",
+   "evidence": "CE: 'to-day they are spread over a great portion of the Chinese Empire'.",
+   "fix": "'The church outlived the edicts. Its story goes on in the entry on Chinese Catholicism after 1906.'"
+  },
+  {
+   "id": "m12",
+   "where": "chinese-catholicism-1650-1906.longDescription",
+   "problem": "The Ricci sentences come after the bull of 1742, which breaks the order of the story. And statusDescription says 'the Jesuits' letters', when one letter (de Mailla's) is used.",
+   "evidence": "Draft paragraph order; sourcing says 'a Jesuit's letter'.",
+   "fix": "Move the Ricci sentences to just after 'Rome later turned against the rites.', before Maigrot. statusDescription: 'a Jesuit's letter'."
+  },
+  {
+   "id": "m13",
+   "where": "links VI.18 to VIII.27 and VI.13b to VIII.45 (existing, not changed)",
+   "problem": "Both older links now skip the new rows. VI.18 to VIII.27 rests on the 1787, 1869 and 1847 texts, which all fall in AP1's window or later, and AP1 to VIII.27 repeats its 1847 quote. VI.13b to VIII.45 still says the tie rests on modern studies alone. Leaving them is within the ruling, which names only continued-as re-routes. It leaves two paths each way.",
+   "evidence": "Census edges; Drafting Brief continuesAs rule.",
+   "fix": "No change in this slice. The coordinator logs it for P2-L11 or a later pass, the same question RV-A raised about VII.19 to VI.11."
+  },
+  {
+   "id": "m14",
+   "where": "chinese-catholicism-1650-1906.livingEvidence carrier",
+   "problem": "The carrier IX.65 passes the validator: it is living, not carried, and grade CR. But its own evidence reads 'none verified'. VI.13c already rests on it.",
+   "evidence": "Census IX.65 livingEvidence.",
+   "fix": "No change here. Tell the coordinator, for P2-V."
+  }
+ ],
+ "quotes_checked": 172,
+ "quotes_failed": [],
+ "notes": "Ruling fidelity on the points asked.\n(1) AP2 as one era 8 row, 1650-1906: allowed. G89-23 (a) reads 'A China-church row, 1650-1906 (or two segments)', and Mark took G89-6 sub-question 2 (i), 'A new row may cross an era line'. AP4 and ME-2 were split only because their own recommendations, G89-25 (b) and G89-39 (a), chose a split; G89-23 does not. The Slices note ('if only the era 8 part enters, keep the id and set the dates the part covers') assumes the whole row. The Drafting Brief's 'nothing after 1815 in an era 8 history' is read as a row's own window, as VII.32 (1650-1890) does. The cost of one row: AP2 cannot carry continuesAs to IX.65, because an era 8 to era 10 field fails the validator. The 'continued as' link stands without the field. VII.32 has none either. Two segments would avoid this; it is an option, not a defect.\n(2) The era 9 condition ('after one verified era 9 source'): met. CE 1908 'China' was opened raw (public domain, flagged) and verifies the 1844-46 toleration and the 1900 killings, the examples the record gives. A Library primary of the era 9 window also sits in the row: the Holy Office instruction of 1865 (fix its province, S2).\n(3) AP3, era 8, 1650-1865: G89-26 (a) is 'One row, 1650-1865, crossing the era 8/9 line'. Sub-question (i) is taken, and the floorNote states that A5 reading and leaves the Kakure question to VIII.45. continuesAs AP3 to VIII.45 (era 8 to 9) is valid.\n(4) continuesAs and retirement: no 'continued as' link has to be retired. The census edges show VI.13c with no continued-as link at all (only Jesuits to VI.13c 'gave rise to' and VI.13c to VIII.21 'influenced'), so nothing to IX.65 needs replacedBy. VI.13b to VIII.45 and VI.18 to VIII.27 / IX.39 are 'gave rise to', and the brief retires only 'continued as'. None of VI.13c, VI.13b or VI.18 had continuesAs set before. So the neighbor changes that set it (to AP2, AP3, AP1) need no retirement. VI.13c is not on AS1's edit list, but the HANDOVER living plan names it for this slice's AP2, and no other slice touches it. Its continuesAs fits the brief's rule (the record treats it as the same China church). Accepted, with m8.\n(5) MEP (G89-2 a): named in AP2, VIII.21 and VIII.45 as ruled (AP4 is AS2's). The VIII.45 line names Marnas 1896 in its own prose, and VIII.45 has no `sources` field, so its source is in the row; only the rendered quote's original is missing (S7). VIII.21 lacks its source (S4).\n(6) 'Two bishops and seven priests': the count is correct (m10).\n(7) ME-1 to AP1: Documented is sound (App. D, a Library primary in translation, verified-direct). The outcome is not (S1). The ME1 draft has no copy of this link, so it is drafted once.\n(8) Living: all three rows are living by carrier. AP1: IX.39 (settled, CD, verified) and IX.38 (CR, verified). AP2: IX.65 (CR; m14). AP3: IX.68 (CR, verified). Each carrier is living, holds its own evidence and is not itself carried, so the validator rule at tools/validate-census.mjs lines 209-219 passes. AP3's descentConfidence Inferential-Thin matches VI.13b. VI.13c's new basis drops the stale 'no entry between 1650 and 1906', as the HANDOVER plan asks.\n(9) RV-1 to AP2: rightly not drafted here. RV-A's revised draft (scratchpad LIV/RVA/Draft.json) now carries society-of-jesus-1650-1814--chinese-catholicism-1650-1906 and catholic-church-ancien-regime--chinese-catholicism-1650-1906. AS1 must not draft them again. AP2's two-way check is met once RV-A ships them.\n(10) Holds AP7, AP11 and AP15 are all present and match the record.\nIndependent check. I re-fetched all five raw texts with curl into review/AS1/raw (archive.org returned 500 twice, then served them). Each is byte-identical to the drafter's copy. check_draft.py against my fetch: 172 quotes, 0 misses; 72 paragraphs. The only READ-FAILs are the frozen first paragraphs of VIII.45 (FRE 44) and VIII.21 (FRE 48), carried unchanged; the new values begin with the census text exactly. I also read about 30 passages in context (Collectanea 1656, 1659, 1755, 1766, 1865; de Mailla 1723-24; CE China 1692, 1724-48, 1811-1870, 1866 Korea, the Boxer bishops, the MEP history; Launay 1658; Marnas on 1666, the village offices, 1603, the Creed, 17 March and the 3,800; Buchanan 1806; Whitehouse App. D, App. E and ch. XII). That reading found S2 and S3 and m1 to m3. Nothing is invented; no blocking finding. Prose otherwise reads clearly, in the sources' own imagery ('lived by the favor of the court and the text of edicts', 'no bishop but our own'), with no AI tells."
+}

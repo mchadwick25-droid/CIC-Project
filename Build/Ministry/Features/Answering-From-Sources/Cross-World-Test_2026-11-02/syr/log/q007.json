@@ -1,0 +1,223 @@
+{
+ "draft": "Yes: our faith was questioned, and it kept growing [[syr.dw.doubt]] [[as:paraphrase]]. Faith, our sage taught, is a building that rests on one foundation stone and goes up piece by piece [[syr.dw.doubt]] [[as:paraphrase]]. Fasting, prayer and love are each added like courses of stone [[syr.dw.doubt]] [[as:paraphrase]]. A building is not finished in a day [[syr.dw.doubt]] [[as:paraphrase]].\n\nWhat we distrusted was not the struggling believer [[syr.dw.doubt]] [[as:paraphrase]]. We distrusted the prying scrutinizer, who would take the Godhead apart like a problem to be solved [[syr.dw.doubt]] [[as:paraphrase]]. We did not run from hard challenges [[syr.dw.doubt]] [[as:paraphrase]]. A debater taunted our sage that his prayers would have stopped the persecution if his faith were true [[syr.dw.doubt]] [[as:paraphrase]]. Our sage says the taunt troubled him, and he answered it from Scripture [[syr.dw.doubt]] [[as:paraphrase]]. A private inner crisis of doubt is not something we wrote about [[syr.dw.doubt]] [[as:paraphrase]].\n\nFor the one who prays into silence, our pastoral craft was the medicine of penitence [[syr.dw.penitence-prayer]] [[as:paraphrase]]. Everyone in this war gets wounded, and the only fatal mistake is hiding the wound until it gets worse [[syr.dw.penitence-prayer]] [[as:paraphrase]]. We were told to confess to one who can help, and the physician must not turn you away [[syr.dw.penitence-prayer]] [[as:paraphrase]]. We did not pretend the silence away [[syr.dw.penitence-prayer]] [[as:paraphrase]]. Aphrahat closed Demonstration X with these words: [[quote:syr.quote.as-a-stonecutter-i-have-brought-stones]]\n",
+ "ending": "clean",
+ "final": "Yes: our faith was questioned, and it kept growing. Faith, our sage taught, is a building that rests on one foundation stone and goes up piece by piece. Fasting, prayer and love are each added like courses of stone. A building is not finished in a day.\n\nWhat we distrusted was not the struggling believer. We distrusted the prying scrutinizer, who would take the Godhead apart like a problem to be solved. We did not run from hard challenges. A debater taunted our sage that his prayers would have stopped the persecution if his faith were true. Our sage says the taunt troubled him, and he answered it from Scripture. A private inner crisis of doubt is not something we wrote about.\n\nFor the one who prays into silence, our pastoral craft was the medicine of penitence. Everyone in this war gets wounded, and the only fatal mistake is hiding the wound until it gets worse. We were told to confess to one who can help, and the physician must not turn you away. We did not pretend the silence away. Aphrahat closed Demonstration X with these words: “These things are not enough by themselves. Hear them from me without quarreling, and ask about them among brothers who are open to persuasion. Whatever you hear that truly builds up, receive. Whatever builds up strange teachings, overthrow and demolish completely. For quarreling cannot build anything up. But I, my beloved, like a stonecutter have brought stones for the building. Let wise architects carve them out and set them in the building. Everyone who labors on the building will receive a reward from the Lord of the house.”",
+ "group": "A",
+ "offered": [
+  "syr.dw.doubt",
+  "syr.story.ephrem-roll-and-vine",
+  "syr.quote.as-a-stonecutter-i-have-brought-stones",
+  "syr.force.frontier-plural-milieu",
+  "syr.dw.penitence-prayer",
+  "syr.quote.aphrahat-medicine-penitence",
+  "syr.limit.ritual-sequence",
+  "syr.dw.adam-grace",
+  "syr.term.qyama",
+  "syr.term.ihidaya",
+  "syr.quote.dem6-visit-the-sick",
+  "syr.force.qyama-commitment"
+ ],
+ "placements": [
+  {
+   "decision": "keep",
+   "judgement": {
+    "fit": "partly",
+    "limit_stated": true,
+    "reason": "It urges open enquiry without quarreling but also commands overthrowing strange teachings, so it bears only in part on room for struggling belief."
+   },
+   "record_id": "syr.quote.as-a-stonecutter-i-have-brought-stones"
+  }
+ ],
+ "question": "Was there space in your community for someone who struggled to believe?",
+ "question_id": "q007",
+ "read": {
+  "dropped": [],
+  "status": "clean",
+  "unsupported": {}
+ },
+ "rewrite": null,
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Yes: our faith was questioned, and it kept growing.",
+   "tags": [
+    "syr.dw.doubt"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Faith, our sage taught, is a building that rests on one foundation stone and goes up piece by piece.",
+   "tags": [
+    "syr.dw.doubt"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Fasting, prayer and love are each added like courses of stone.",
+   "tags": [
+    "syr.dw.doubt"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "A building is not finished in a day.",
+   "tags": [
+    "syr.dw.doubt"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "What we distrusted was not the struggling believer.",
+   "tags": [
+    "syr.dw.doubt"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We distrusted the prying scrutinizer, who would take the Godhead apart like a problem to be solved.",
+   "tags": [
+    "syr.dw.doubt"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We did not run from hard challenges.",
+   "tags": [
+    "syr.dw.doubt"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "A debater taunted our sage that his prayers would have stopped the persecution if his faith were true.",
+   "tags": [
+    "syr.dw.doubt"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 8,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our sage says the taunt troubled him, and he answered it from Scripture.",
+   "tags": [
+    "syr.dw.doubt"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 9,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "A private inner crisis of doubt is not something we wrote about.",
+   "tags": [
+    "syr.dw.doubt"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 10,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "For the one who prays into silence, our pastoral craft was the medicine of penitence.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 11,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Everyone in this war gets wounded, and the only fatal mistake is hiding the wound until it gets worse.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 12,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We were told to confess to one who can help, and the physician must not turn you away.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 13,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We did not pretend the silence away.",
+   "tags": [
+    "syr.dw.penitence-prayer"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 14,
+   "placed": true,
+   "placed_id": "syr.quote.as-a-stonecutter-i-have-brought-stones",
+   "reason": "placed by code",
+   "sentence": "Aphrahat closed Demonstration X with these words: “These things are not enough by themselves. Hear them from me without quarreling, and ask about them among brothers who are open to persuasion. Whatever you hear that truly builds up, receive. Whatever builds up strange teachings, overthrow and demolish completely. For quarreling cannot build anything up. But I, my beloved, like a stonecutter have brought stones for the building. Let wise architects carve them out and set them in the building. Everyone who labors on the building will receive a reward from the Lord of the house.”",
+   "tags": [
+    "syr.quote.as-a-stonecutter-i-have-brought-stones"
+   ]
+  }
+ ],
+ "shipped_by_net": "Yes: our faith was questioned, and it kept growing. Faith, our sage taught, is a building that rests on one foundation stone and goes up piece by piece. Fasting, prayer and love are each added like courses of stone. A building is not finished in a day.\n\nWhat we distrusted was not the struggling believer. We distrusted the prying scrutinizer, who would take the Godhead apart like a problem to be solved. We did not run from hard challenges. A debater taunted our sage that his prayers would have stopped the persecution if his faith were true. Our sage says the taunt troubled him, and he answered it from Scripture. A private inner crisis of doubt is not something we wrote about.\n\nFor the one who prays into silence, our pastoral craft was the medicine of penitence. Everyone in this war gets wounded, and the only fatal mistake is hiding the wound until it gets worse. We were told to confess to one who can help, and the physician must not turn you away. We did not pretend the silence away. Aphrahat closed Demonstration X with these words: “These things are not enough by themselves. Hear them from me without quarreling, and ask about them among brothers who are open to persuasion. Whatever you hear that truly builds up, receive. Whatever builds up strange teachings, overthrow and demolish completely. For quarreling cannot build anything up. But I, my beloved, like a stonecutter have brought stones for the building. Let wise architects carve them out and set them in the building. Everyone who labors on the building will receive a reward from the Lord of the house.”",
+ "sub_question": "C14.S4"
+}

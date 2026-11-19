@@ -3,6 +3,138 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: russian-church-synodal-century
 works:
+- row_id: adoratskii_pravoslavnaia-missiia-v-kitae-vyp1-1685-1745-rus_1887--adoratskii-pravoslavnaia-missiia-v-kitae-vyp-1-1685-1745-russian-kazan
+  work: Adoratskii, Pravoslavnaia missiia v Kitae, vyp. 1 (1685-1745), Russian (Kazan 1887)
+  author: adoratskii
+  locus: the whole issue; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The Russian church's own history of its Peking mission, written by a hieromonk from
+    the Synod's archives in 1887. Placed on its date of writing. The eras 8-9 sweep holds
+    the Peking mission and the Albazinians (AP11) for a line in this entry. Second witness
+    only.
+  source_file: adoratskii_pravoslavnaia-missiia-v-kitae-vyp1-1685-1745-rus_1887.txt
+- row_id: adoratskii_pravoslavnaia-missiia-v-kitae-vyp2-1745-1808-rus_1887--adoratskii-pravoslavnaia-missiia-v-kitae-vyp-2-1745-1808-russian-kazan
+  work: Adoratskii, Pravoslavnaia missiia v Kitae, vyp. 2 (1745-1808), Russian (Kazan 1887)
+  author: adoratskii
+  locus: the whole issue; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The Russian church's own history of its Peking mission, written by a hieromonk from
+    the Synod's archives in 1887. Placed on its date of writing. The eras 8-9 sweep holds
+    the Peking mission and the Albazinians (AP11) for a line in this entry. Second witness
+    only.
+  source_file: adoratskii_pravoslavnaia-missiia-v-kitae-vyp2-1745-1808-rus_1887.txt
+- row_id: dukhobors_zhivotnaia-kniga-dukhobortsev-rus_bonch-bruevich1909--the-dukhobors-living-book-zhivotnaia-kniga-russian-bonch-bruevich-1909
+  work: The Dukhobors' Living Book (Zhivotnaia kniga), Russian (Bonch-Bruevich 1909)
+  author: dukhobors
+  locus: the psalms from OCR line 10199 and the questions and answers from about 23939; add
+    12 to OCR line numbers for this file's own
+  role: context
+  confidence: provisional
+  note: The Dukhobors' own psalms and catechism, as they recited them, written down by Bonch-Bruevich
+    from their own singers. Their own voice; placed here as the view from outside the synodal
+    church because the spiritual Christians have no census entry yet (ME-6, held for Section
+    A body by body). Second witness only.
+  source_file: dukhobors_zhivotnaia-kniga-dukhobortsev-rus_bonch-bruevich1909.txt
+- row_id: feofan_bogougodnaia-zhizn-voobshche-rus_2nd-ed1899--18591866
+  work: БОГОУГОДНАЯ ЖИЗНЬ ВООБЩЕ. СЛОВА ЕПИСКОПА ФЕОФАНА. (Изъ словъ къ Тамбовской и Владимірской
+    паствамъ 1859—1866
+  author: feofan
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: rus
+  date:
+    start: 1859
+    end: 1866
+    source: 'the printing''s own title page: line 53 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1899
+    source: line 53 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 295, Theophan the Recluse: sermons on the godly life.'
+  source_file: feofan_bogougodnaia-zhizn-voobshche-rus_2nd-ed1899.txt
+- row_id: feofan_slova-k-tambovskoi-pastve-rus_1861--work
+  work: Слова къ Тамбовской паствѣ Феофана, Епископа Тамбовскаго и Шацкаго
+  author: feofan
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: rus
+  date:
+    start: 1859
+    end: 1861
+    source: 'the printing''s own title page: line 50 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1861
+    source: line 50 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 295, Theophan the Recluse: his sermons to the Tambov flock.'
+  source_file: feofan_slova-k-tambovskoi-pastve-rus_1861.txt
+- row_id: filimonov_materialy-dlia-biografii-arkhimandrita-makariia-rus_1888--work
+  work: Матеріалы для біографіи основателя Алтайской миссіи архимандрита Макарія
+  author: filimonov
+  locus: the whole volume; not mapped
+  role: context
+  confidence: provisional
+  language: rus
+  date:
+    start: 1888
+    end: 1888
+    source: 'the printing''s own title page: line 51 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1888
+    source: line 51 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 296, Makary (Glukharev): materials for his biography.'
+  source_file: filimonov_materialy-dlia-biografii-arkhimandrita-makariia-rus_1888.txt
+- row_id: ioann-kronshtadtskii_my-life-in-christ_goulaeff1897--my-life-in-christ-or-moments-of-spiritual-serenity-and
+  work: MY LIFE IN CHRIST; or Moments of Spiritual Serenity and Contemplation, of Reverent
+    Feeling, of Earnest
+  author: ioann-kronshtadtskii
+  locus: translator's preface, telling of Father John, at lines 148-378; the author's note
+    at lines 383-399; the rest not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1897
+    end: 1897
+    source: 'the printing''s own title page: line 71 of this file, on the title page'
+    formation_confidence: Documented
+  translator:
+    name: E. E. Goulaeff
+    source: the title page
+    formation_confidence: Documented
+  edition_date:
+    year: 1897
+    source: line 71 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 297, John of Kronstadt: extracts from his diary, in English.'
+  source_file: ioann-kronshtadtskii_my-life-in-christ_goulaeff1897.txt
+- row_id: ioann-kronshtadtskii_moia-zhizn-vo-khriste-t1-rus_1891--work
+  work: Моя жизнь во Христе, или минуты духовнаго трезвенія и созерцанія, благоговѣйнаго чувства,
+    душевнаго
+  author: ioann-kronshtadtskii
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: rus
+  date:
+    start: 1891
+    end: 1891
+    source: 'the printing''s own title page: line 65 of this file, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1891
+    source: line 65 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 297, John of Kronstadt: extracts from his diary, in Russian, vol. 1.'
+  source_file: ioann-kronshtadtskii_moia-zhizn-vo-khriste-t1-rus_1891.txt
 - row_id: mouravieff_history-of-the-church-of-russia_blackmore1842--a-history-of-the-church-of-russia-1838-english-1842-2
   work: A History of the Church of Russia (1838; English 1842)
   author: mouravieff
@@ -24,6 +156,25 @@ works:
     after 1815 is its entry; the English is Blackmore's 1845 translation, not Schaff's. Clean
     English OCR.
   source_file: schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt
+- row_id: pravoslavie-v-iaponii_pravoslavie-v-iaponii-rus_1889--work
+  work: ПРАВОСЛАВІЕ ВЪ ЯПОНІИ
+  author: pravoslavie-v-iaponii
+  locus: Publisher's note at OCR lines 29-82; the letter at OCR lines 88-990; add 12 to OCR
+    line numbers; the rest not mapped
+  role: context
+  confidence: provisional
+  language: rus
+  date:
+    start: 1889
+    end: 1889
+    source: 'the printing''s own title page: OCR line 16, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1889
+    source: OCR line 16, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 198, Nikolai of Japan: a Russian account of the Japan mission.'
+  source_file: pravoslavie-v-iaponii_pravoslavie-v-iaponii-rus_1889.txt
 - row_id: spiritual-regulation_dukhovnyi-reglament-rus_sinodalnaia-tipografiia1856--1721-with-the-1722-2
   work: Духовный регламент (1721) with the Прибавление (1722)
   author: spiritual-regulation
@@ -33,3 +184,25 @@ works:
   note: The Regulation stayed in force until 1917; the 1856 reprint is the Synodal century's
     own; provisional for that world.
   source_file: spiritual-regulation_dukhovnyi-reglament-rus_sinodalnaia-tipografiia1856.txt
+- row_id: tolstoy_kingdom-of-god-is-within-you-v1_garnett1894--tolstoy-the-kingdom-of-god-is-within-you-vol-i-garnett-s-english-1894
+  work: Tolstoy, The Kingdom of God is Within You, vol. I (Garnett's English, 1894)
+  author: tolstoy
+  locus: the whole volume, Chapter I from OCR line 399; add 11 to OCR line numbers for this
+    file's own
+  role: context
+  confidence: provisional
+  note: Tolstoy's own case for non-resistance and against the state church (1893). The view
+    from outside the synodal church; volume I of two. Clean English OCR.
+  source_file: tolstoy_kingdom-of-god-is-within-you-v1_garnett1894.txt
+- row_id: tolstoy_what-i-believe_popoff1885--tolstoy-what-i-believe-popoff-s-english-1885
+  work: Tolstoy, What I Believe (Popoff's English, 1885)
+  author: tolstoy
+  locus: the whole book, chapters from OCR line 203; add 11 to OCR line numbers for this file's
+    own
+  role: context
+  confidence: provisional
+  note: 'Tolstoy''s own account of the faith he set against the church, written 1884; the
+    synodal church excommunicated him in 1901. Placed as the view from outside the synodal
+    church. The Tolstoyans have no census entry yet: the eras 8-9 sweep holds them (ME-20)
+    for a Section A ruling on a dated text, which this is. Clean English OCR.'
+  source_file: tolstoy_what-i-believe_popoff1885.txt

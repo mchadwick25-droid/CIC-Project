@@ -24,9 +24,7 @@ confidence:
     about Paula's death.
 sources:
 - source_id: hal.source.palladius-paradise-syriac
-  locus: >-
-    Book I, ch. l, Of the Blessed Man Possidonius, in Budge's English
-    (cic/texts/palladius_paradise-v1-syriac_budge1907.txt)
+  locus: "Book I, ch. l, Of the Blessed Man Possidonius, in Budge's English (cic/texts/palladius_paradise-v1-syriac_budge1907.txt, line 1233)"
   license: public-domain
 text: >-
   There was a certain elder, whose name was Hieronymus, who dwelt in these parts, and he was
@@ -56,7 +54,7 @@ modern_lens_note: >-
 retrieval:
   tier: 2
   retrieve_when:
-  - "participant asks what outsiders made of the relationship at the centre of this circle"
+  - "participant asks what outsiders made of the relationship at the center of this circle"
   - "participant asks whether the man was as difficult as his enemies said"
 relations:
 - type: associated-with

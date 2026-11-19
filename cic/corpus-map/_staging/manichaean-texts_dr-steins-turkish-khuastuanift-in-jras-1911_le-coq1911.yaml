@@ -1,0 +1,11 @@
+source_file: manichaean-texts_dr-steins-turkish-khuastuanift-in-jras-1911_le-coq1911.txt
+assignments:
+- row_id: manichaean-texts_dr-steins-turkish-khuastuanift-in-jras-1911_le-coq1911--khuastuanift-manichaean-confession-english-le-coq-1911
+  work: 'The Khuastuanift, the Manichaean hearers'' confession, Turkish with English translation (Le Coq 1911)'
+  author: manichaean-texts
+  locus: 'the paper from about OCR line 15378; add 11 to OCR line numbers'
+  atlas_ids:
+  - manichaeism
+  role: tradition
+  confidence: assigned
+  note: "The lay Manichaeans' own confession of sins, in English. The manuscripts are of the 8th-10th centuries."

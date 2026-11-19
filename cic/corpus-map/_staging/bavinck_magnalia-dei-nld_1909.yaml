@@ -1,0 +1,23 @@
+source_file: bavinck_magnalia-dei-nld_1909.txt
+assignments:
+- row_id: bavinck_magnalia-dei-nld_1909--magnalia-dei-onderwijzing-in-de-christelijke-religie-naar
+  work: 'Magnalia Dei: Onderwijzing in de Christelijke Religie naar Gereformeerde Belijdenis door Dr. H. Bavinck,'
+  author: bavinck
+  locus: Voorrede at OCR lines 78-202; Section 23, De gemeente van Christus, at OCR lines 24684-26138; add 12 to
+    OCR line numbers; the rest not mapped
+  atlas_ids:
+  - dutch-neo-calvinism-secession-churches
+  role: tradition
+  confidence: assigned
+  language: nld
+  date:
+    start: 1909
+    end: 1909
+    source: 'the printing''s own title page: OCR line 75, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1909
+    source: OCR line 75, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 194, Herman Bavinck: his own summary of doctrine, in Dutch (not the Dogmatiek). The tradition''s
+    own text, printed in 1909, three years after the entry''s window closes.'

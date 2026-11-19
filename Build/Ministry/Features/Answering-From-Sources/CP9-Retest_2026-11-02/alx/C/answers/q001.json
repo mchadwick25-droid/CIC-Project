@@ -1,0 +1,181 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.dw.apostolic"
+   ],
+   "sentence": "We knew Jesus through what the apostles handed down, kept in baptism, the bread and cup, scripture read aloud, and the rule of faith."
+  },
+  {
+   "record_ids": [
+    "alx.dw.apostolic"
+   ],
+   "sentence": "Origen said the church's teaching was passed on in orderly succession from the apostles, and that only teaching agreeing with it is to be trusted."
+  },
+  {
+   "record_ids": [
+    "alx.term.catechetical-school"
+   ],
+   "sentence": "The other path ran through teachers and students."
+  },
+  {
+   "record_ids": [
+    "alx.term.didaskalos"
+   ],
+   "sentence": "Authority there rested on the wisdom the community could see in a teacher, not on a title."
+  },
+  {
+   "record_ids": [
+    "alx.quote.clement-bee"
+   ],
+   "sentence": "Clement wrote this at the opening of the Stromateis: “He was the true Sicilian bee. He gathered the spoil of the flowers in the prophetic and apostolic meadow. And he produced in the souls of his listeners a deathless element of knowledge.”"
+  },
+  {
+   "record_ids": [
+    "alx.term.catechetical-school"
+   ],
+   "sentence": "What is well attested is a remembered line of teachers and students, and whether a formal school stood behind it is disputed."
+  },
+  {
+   "record_ids": [
+    "alx.dw.apostolic"
+   ],
+   "sentence": "Our practice ran unbroken as far back as our own memory reached."
+  },
+  {
+   "record_ids": [
+    "alx.dw.apostolic"
+   ],
+   "sentence": "Between the apostles and our first witnesses lies a gap our sources do not fill."
+  }
+ ],
+ "citations": [
+  "alx.dw.apostolic",
+  "alx.quote.clement-bee",
+  "alx.term.catechetical-school",
+  "alx.term.didaskalos"
+ ],
+ "group": "A",
+ "id": "q001",
+ "net_sentences": [
+  {
+   "draft": "We knew Jesus through what the apostles handed down, kept in baptism, the bread and cup, scripture read aloud, and the rule of faith [[alx.dw.apostolic]] [[as:paraphrase]].",
+   "ratio": 0.85,
+   "sentence": "We knew Jesus through what the apostles handed down, kept in baptism, the bread and cup, scripture read aloud, and the rule of faith.",
+   "tags": [
+    "alx.dw.apostolic"
+   ],
+   "verdict": "ok",
+   "why": "grounded 85% in own tagged records"
+  },
+  {
+   "draft": "Origen said the church's teaching was passed on in orderly succession from the apostles, and that only teaching agreeing with it is to be trusted [[alx.dw.apostolic]] [[as:paraphrase]].",
+   "ratio": 0.7,
+   "sentence": "Origen said the church's teaching was passed on in orderly succession from the apostles, and that only teaching agreeing with it is to be trusted.",
+   "tags": [
+    "alx.dw.apostolic"
+   ],
+   "verdict": "ok",
+   "why": "grounded 70% in own tagged records"
+  },
+  {
+   "draft": "The other path ran through teachers and students [[alx.term.catechetical-school]] [[as:paraphrase]].",
+   "sentence": "The other path ran through teachers and students.",
+   "tags": [
+    "alx.term.catechetical-school"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Authority there rested on the wisdom the community could see in a teacher, not on a title [[alx.term.didaskalos]] [[as:paraphrase]].",
+   "sentence": "Authority there rested on the wisdom the community could see in a teacher, not on a title.",
+   "tags": [
+    "alx.term.didaskalos"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Clement wrote this at the opening of the Stromateis: [[quote:alx.quote.clement-bee]]",
+   "placed_quote": "alx.quote.clement-bee",
+   "sentence": "Clement wrote this at the opening of the Stromateis: “He was the true Sicilian bee. He gathered the spoil of the flowers in the prophetic and apostolic meadow. And he produced in the souls of his listeners a deathless element of knowledge.”",
+   "tags": [
+    "alx.quote.clement-bee"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "What is well attested is a remembered line of teachers and students, and whether a formal school stood behind it is disputed [[alx.term.catechetical-school]] [[as:paraphrase]].",
+   "sentence": "What is well attested is a remembered line of teachers and students, and whether a formal school stood behind it is disputed.",
+   "tags": [
+    "alx.term.catechetical-school"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our practice ran unbroken as far back as our own memory reached [[alx.dw.apostolic]] [[as:paraphrase]].",
+   "sentence": "Our practice ran unbroken as far back as our own memory reached.",
+   "tags": [
+    "alx.dw.apostolic"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Between the apostles and our first witnesses lies a gap our sources do not fill [[alx.dw.apostolic]] [[as:paraphrase]].",
+   "sentence": "Between the apostles and our first witnesses lies a gap our sources do not fill.",
+   "tags": [
+    "alx.dw.apostolic"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "alx.dw.councils",
+  "alx.story.arsinoite-conference",
+  "alx.quote.dionysius-nepos",
+  "alx.dw.church-failure",
+  "alx.term.catechetical-school",
+  "alx.term.didaskalos",
+  "alx.quote.clement-bee",
+  "alx.gravity.learning-formation",
+  "alx.force.post-nicene-authority-shift",
+  "alx.force.teacher-bishop-ongoing",
+  "alx.gravity.learning-community-tension",
+  "alx.gravity.soul-transformation"
+ ],
+ "raw_text": "We knew Jesus through what the apostles handed down, kept in baptism, the bread and cup, scripture read aloud, and the rule of faith [[alx.dw.apostolic]] [[as:paraphrase]].\nOrigen said the church's teaching was passed on in orderly succession from the apostles, and that only teaching agreeing with it is to be trusted [[alx.dw.apostolic]] [[as:paraphrase]].\nThe other path ran through teachers and students [[alx.term.catechetical-school]] [[as:paraphrase]].\nAuthority there rested on the wisdom the community could see in a teacher, not on a title [[alx.term.didaskalos]] [[as:paraphrase]].\nClement wrote this at the opening of the Stromateis: [[quote:alx.quote.clement-bee]]\nWhat is well attested is a remembered line of teachers and students, and whether a formal school stood behind it is disputed [[alx.term.catechetical-school]] [[as:paraphrase]].\nOur practice ran unbroken as far back as our own memory reached [[alx.dw.apostolic]] [[as:paraphrase]].\nBetween the apostles and our first witnesses lies a gap our sources do not fill [[alx.dw.apostolic]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "alx.quote.clement-bee": [
+    {
+     "detail": "Stromateis",
+     "kind": "name",
+     "snippet": "rers a deathless element of knowledge. Clement, opening the Stromateis, praises his final teacher, whom he does not name here and",
+     "span": "record alx.quote.clement-bee"
+    },
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "the teacher whose books survive, though almost nothing of his life does c. 150 (tr",
+     "span": "record alx.figure.clement"
+    }
+   ]
+  },
+  "placed": [
+   "alx.quote.clement-bee"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C1.S5",
+ "text": "We knew Jesus through what the apostles handed down, kept in baptism, the bread and cup, scripture read aloud, and the rule of faith. Origen said the church's teaching was passed on in orderly succession from the apostles, and that only teaching agreeing with it is to be trusted. The other path ran through teachers and students. Authority there rested on the wisdom the community could see in a teacher, not on a title. Clement wrote this at the opening of the Stromateis: “He was the true Sicilian bee. He gathered the spoil of the flowers in the prophetic and apostolic meadow. And he produced in the souls of his listeners a deathless element of knowledge.”\n\nWhat is well attested is a remembered line of teachers and students, and whether a formal school stood behind it is disputed. Our practice ran unbroken as far back as our own memory reached. Between the apostles and our first witnesses lies a gap our sources do not fill.",
+ "voice_set_aside": false
+}

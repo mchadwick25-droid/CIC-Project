@@ -1,0 +1,1342 @@
+{
+ "group": "B",
+ "movements": [
+  "the-english-reformation-and-elizabethan-settleme",
+  "the-scottish-reformation-and-kirk",
+  "puritanism",
+  "recusant-english-catholicism",
+  "the-huguenots"
+ ],
+ "dispositions": [
+  {
+   "movement": "the-english-reformation-and-elizabethan-settleme",
+   "field": "relationsSummary",
+   "sentence": "Shaped by Lutheran and Reformed influences taking root in England",
+   "other_id": "lutheran-wittenberg-and-its-congregations",
+   "disposition": "link",
+   "link_id": "lutheran-wittenberg-and-its-congregations--the-english-reformation-and-elizabethan-settleme",
+   "prose_change": 0,
+   "reason": "Tyndale defends Luther by name (1528); Walter (1848) shows his Prologue to Romans is mostly Luther's preface; Cranmer's examination (1555). Widely Accepted."
+  },
+  {
+   "movement": "the-english-reformation-and-elizabethan-settleme",
+   "field": "relationsSummary",
+   "sentence": "Shaped by Lutheran and Reformed influences taking root in England",
+   "other_id": "the-reformed-cities-zurich-and-geneva",
+   "disposition": "link",
+   "link_id": "the-reformed-cities-zurich-and-geneva--the-english-reformation-and-elizabethan-settleme",
+   "prose_change": 0,
+   "reason": "Calvin to Somerset (1548); Jewel to Martyr in Zurich (1562). Documented."
+  },
+  {
+   "movement": "the-english-reformation-and-elizabethan-settleme",
+   "field": "relationsSummary",
+   "sentence": "the parent of both the Anglican tradition",
+   "other_id": "restoration-georgian-church-of-england",
+   "disposition": "link",
+   "link_id": "the-english-reformation-and-elizabethan-settleme--restoration-georgian-church-of-england",
+   "prose_change": 0,
+   "reason": "Inventory guessed victorian-church-of-england (era 9); the next period of the same church is the Restoration church (era 8). The 1662 Act of Uniformity cites the Elizabethan book. 'Parent' becomes 'carried on as'."
+  },
+  {
+   "movement": "the-english-reformation-and-elizabethan-settleme",
+   "field": "relationsSummary",
+   "sentence": "the dissenting Protestant churches that broke from it",
+   "other_id": "english-old-dissent",
+   "disposition": "qualify",
+   "link_id": "puritanism--english-old-dissent",
+   "prose_change": 0,
+   "reason": "The dissenting churches came out of the Puritan wing, not the settlement as such; the same evidence (Baxter, Smyth) would double up on two links. The sentence now routes through Puritanism, carried by the Puritan links to Old Dissent and the Baptists."
+  },
+  {
+   "movement": "the-english-reformation-and-elizabethan-settleme",
+   "field": "relationsSummary",
+   "sentence": "Its story extends through the Stuart century, from the 1604 Hampton Court Conference to the Westminster Assembly.",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Scope of the story, not a tie to another movement. Lightly reworded for reading level."
+  },
+  {
+   "movement": "the-english-reformation-and-elizabethan-settleme",
+   "field": "longDescription",
+   "sentence": "Henry VIII's break with Rome in the 1530s",
+   "other_id": "the-tridentine-church",
+   "disposition": "link",
+   "link_id": "the-english-reformation-and-elizabethan-settleme--the-tridentine-church",
+   "prose_change": null,
+   "reason": "Henry's injunctions of 1536 (English side); Pius V's bull of 1570 and Jewel's Apology of 1562 record the rupture from both sides. Documented."
+  },
+  {
+   "movement": "the-english-reformation-and-elizabethan-settleme",
+   "field": "longDescription",
+   "sentence": "back to Rome under Mary I",
+   "other_id": "the-tridentine-church",
+   "disposition": "link",
+   "link_id": "the-english-reformation-and-elizabethan-settleme--the-tridentine-church",
+   "prose_change": null,
+   "reason": "Carried in the same link: Bonner's bidding prayer for Pope Paul IV (1555). Not a separate relationship."
+  },
+  {
+   "movement": "the-english-reformation-and-elizabethan-settleme",
+   "field": "legacy",
+   "sentence": "It became the Church of England, and through it the worldwide Anglican Communion.",
+   "other_id": "restoration-georgian-church-of-england",
+   "disposition": "link",
+   "link_id": "the-english-reformation-and-elizabethan-settleme--restoration-georgian-church-of-england",
+   "prose_change": 1,
+   "reason": "Same continuation as the summary. The Anglican Communion is a later growth with no single census movement; kept as a general reckoning."
+  },
+  {
+   "movement": "the-english-reformation-and-elizabethan-settleme",
+   "field": "legacy",
+   "sentence": "The dissenting traditions that later broke away from it, Puritan, Congregational and Baptist, are equally its children.",
+   "other_id": "puritanism",
+   "disposition": "link",
+   "link_id": "the-english-reformation-and-elizabethan-settleme--puritanism",
+   "prose_change": 1,
+   "reason": "Puritanism grew from the English church's own clergy (the Admonition's 'compelled by subscription'; Field and Wilcox, 'two clergy'). Documented. 'Broke away' did not fit the Puritans, so the sentence is rewritten."
+  },
+  {
+   "movement": "the-english-reformation-and-elizabethan-settleme",
+   "field": "legacy",
+   "sentence": "The dissenting traditions that later broke away from it, Puritan, Congregational and Baptist, are equally its children.",
+   "other_id": "english-old-dissent",
+   "disposition": "qualify",
+   "link_id": "puritanism--english-old-dissent",
+   "prose_change": 1,
+   "reason": "Routed through the Puritan wing, as in the summary."
+  },
+  {
+   "movement": "the-english-reformation-and-elizabethan-settleme",
+   "field": "legacy",
+   "sentence": "The dissenting traditions that later broke away from it, Puritan, Congregational and Baptist, are equally its children.",
+   "other_id": "the-baptists",
+   "disposition": "qualify",
+   "link_id": "puritanism--the-baptists",
+   "prose_change": 1,
+   "reason": "Routed through the Puritan wing: Smyth renounced his orders from the bishop of Lincoln and McGlothlin traces the Separatists to Puritans."
+  },
+  {
+   "movement": "the-scottish-reformation-and-kirk",
+   "field": "relationsSummary",
+   "sentence": "Child of Geneva",
+   "other_id": "the-reformed-cities-zurich-and-geneva",
+   "disposition": "link",
+   "link_id": "the-reformed-cities-zurich-and-geneva--the-scottish-reformation-and-kirk",
+   "prose_change": 2,
+   "reason": "Typed 'influenced', not 'gave rise to': the sources show the Kirk adopting Geneva's order (Assembly act of December 1562; the English Congregation at Geneva's confession). 'Child of' becomes 'Shaped by'."
+  },
+  {
+   "movement": "the-scottish-reformation-and-kirk",
+   "field": "relationsSummary",
+   "sentence": "distinct national-covenantal formation logic (a real uniqueness test)",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Not a relationship; '(a real uniqueness test)' is build commentary in a live field and is removed in the rewrite."
+  },
+  {
+   "movement": "the-scottish-reformation-and-kirk",
+   "field": "longDescription",
+   "sentence": "In 1560 the Scottish Parliament abolished papal authority",
+   "other_id": "the-tridentine-church",
+   "disposition": "link",
+   "link_id": "the-scottish-reformation-and-kirk--the-tridentine-church",
+   "prose_change": null,
+   "reason": "The Act of 24 August 1560 printed in Knox's History. 'Argued against', not 'broke with': no Roman answer is vendored."
+  },
+  {
+   "movement": "the-scottish-reformation-and-kirk",
+   "field": "longDescription",
+   "sentence": "adopted a Reformed confession of faith",
+   "other_id": "the-reformed-cities-zurich-and-geneva",
+   "disposition": "link",
+   "link_id": "the-reformed-cities-zurich-and-geneva--the-scottish-reformation-and-kirk",
+   "prose_change": null,
+   "reason": "Same influence link. The Scots Confession itself does not name Geneva; the Genevan tie is carried by the 1562 act and the service book."
+  },
+  {
+   "movement": "the-scottish-reformation-and-kirk",
+   "field": "why",
+   "sentence": "Scotland's kirk sessions kept records even denser than Geneva's, mostly over small quarrels between neighbors who then had to keep living side by side.",
+   "other_id": "the-reformed-cities-zurich-and-geneva",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A comparison of record survival, not a tie between the two churches. Flag: no vendored or repo-cited source makes the density comparison; the Geneva consistory registers (rzg.source.geneva-consistory-registers) and the Kirk records are both vendored but nobody has counted them against each other. Left for reviewer."
+  },
+  {
+   "movement": "the-scottish-reformation-and-kirk",
+   "field": "legacy",
+   "sentence": "It became the Church of Scotland, and through emigration and mission the worldwide Presbyterian family.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movement for a later Church of Scotland or the Presbyterian family. The Nelson printing of 1877 (London, Edinburgh and New York) of the Westminster standards 'of publick authority in the Church of Scotland' supports the continuity; the spread through emigration rests on no single vendored text and is kept as a general reckoning."
+  },
+  {
+   "movement": "the-huguenots",
+   "field": "relationsSummary",
+   "sentence": "Grew directly out of Calvin's Geneva",
+   "other_id": "the-reformed-cities-zurich-and-geneva",
+   "disposition": "link",
+   "link_id": "the-reformed-cities-zurich-and-geneva--the-huguenots",
+   "prose_change": 3,
+   "reason": "Calvin's letter sending a minister to Montélimar (1560) and Schaff's headnote on Calvin's draft of the French Confession. Widely Accepted; 'directly' dropped."
+  },
+  {
+   "movement": "the-huguenots",
+   "field": "relationsSummary",
+   "sentence": "became one of history's clearest examples of a persecuted community scattering into exile across an entire continent",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "The persecuting party is the French crown, which has no census movement. Fontaine's memoir (vendored) prints the Edict of Nantes and its revocation and records refugees in England."
+  },
+  {
+   "movement": "the-huguenots",
+   "field": "longDescription",
+   "sentence": "In 1559 delegates met secretly in Paris to adopt a confession of faith and a book of discipline, creating a national church inside a Catholic kingdom.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Catholic kingdom is the French state, not a census movement. The Paris synod of 1559 is in Schaff's headnote and in Quick's and Aymon's synod collections."
+  },
+  {
+   "movement": "the-huguenots",
+   "field": "longDescription",
+   "sentence": "the St Bartholomew's Day massacres of August 1572",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Crowds and crown have no census movement. Baxter (vendored) recalls 'the French massacre' on Bartholomew Day; Crespin's tome 3 covers 1572."
+  },
+  {
+   "movement": "the-huguenots",
+   "field": "longDescription",
+   "sentence": "then the slow erosion of that edict until Louis XIV revoked it in 1685",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The crown has no census movement; the Edict of Fontainebleau (1685) is printed in Fontaine's memoir appendix."
+  },
+  {
+   "movement": "the-huguenots",
+   "field": "longDescription",
+   "sentence": "into England, the Dutch Republic, Prussia, Switzerland, South Africa and the American colonies",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Places, not movements. England: Fontaine's memoir records French Protestant refugees there. The Dutch Republic of 1685 falls after the Dutch Further Reformation movement ends (1650), so the inventory's link to it is not drawn; no other census movement holds the refuge of 1685."
+  },
+  {
+   "movement": "the-huguenots",
+   "field": "legacy",
+   "sentence": "The tradition still exists in France, in the united Protestant church that grew out of it",
+   "other_id": "church-of-the-desert-huguenots",
+   "disposition": "link",
+   "link_id": "the-huguenots--church-of-the-desert-huguenots",
+   "prose_change": null,
+   "reason": "The Desert synods of 1718 and 1726 hold to the old discipline and confession. Documented."
+  },
+  {
+   "movement": "the-huguenots",
+   "field": "legacy",
+   "sentence": "congregations founded in London, Berlin, Amsterdam, Cape Town and Charleston",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movement for the refugee congregations. Only the English refuge is in a vendored text (Fontaine); Berlin, Amsterdam, Cape Town and Charleston rest on no vendored source. Kept as a general reckoning; wanted: refugee church records."
+  },
+  {
+   "movement": "recusant-english-catholicism",
+   "field": "relationsSummary",
+   "sentence": "echoing how the earliest Christians met and organized in private homes centuries before institutional churches existed",
+   "other_id": "post-apostolic-house-church",
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "An analogy ('echoing'), with no claim of descent or influence across fourteen centuries. No link."
+  },
+  {
+   "movement": "recusant-english-catholicism",
+   "field": "longDescription",
+   "sentence": "English Catholics who would not attend their parish church were fined as recusants",
+   "other_id": "the-english-reformation-and-elizabethan-settleme",
+   "disposition": "link",
+   "link_id": "the-english-reformation-and-elizabethan-settleme--recusant-english-catholicism",
+   "prose_change": null,
+   "reason": "Act of Uniformity (1559), twelve pence for each absence. Documented."
+  },
+  {
+   "movement": "recusant-english-catholicism",
+   "field": "longDescription",
+   "sentence": "And from 1585 it was treason for a priest ordained abroad even to set foot in the country.",
+   "other_id": "the-english-reformation-and-elizabethan-settleme",
+   "disposition": "link",
+   "link_id": "the-english-reformation-and-elizabethan-settleme--recusant-english-catholicism",
+   "prose_change": null,
+   "reason": "Same link: the Old Bailey record of January 1586 condemns seminary priests for treason under the new statute. The statute itself is wanted."
+  },
+  {
+   "movement": "recusant-english-catholicism",
+   "field": "legacy",
+   "sentence": "English Catholicism continued unbroken through the penal years and re-emerged legally in the nineteenth century",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movement for later English Catholicism. Challoner's Memoirs of Missionary Priests (to 1684) and Garden of the Soul (1755), both vendored, show the community carrying on. The nineteenth-century legal return and the canonization of 1970 are in no vendored source; flagged, kept as plain fact."
+  },
+  {
+   "movement": "puritanism",
+   "field": "relationsSummary",
+   "sentence": "Child of Geneva",
+   "other_id": "the-reformed-cities-zurich-and-geneva",
+   "disposition": "link",
+   "link_id": "the-reformed-cities-zurich-and-geneva--puritanism",
+   "prose_change": 4,
+   "reason": "The Admonition cites Beza's epistle and prints Beza's and Gualter's letters. Typed 'influenced'."
+  },
+  {
+   "movement": "puritanism",
+   "field": "relationsSummary",
+   "sentence": "the English settlement's tensions",
+   "other_id": "the-english-reformation-and-elizabethan-settleme",
+   "disposition": "link",
+   "link_id": "the-english-reformation-and-elizabethan-settleme--puritanism",
+   "prose_change": 4,
+   "reason": "Puritanism grew from the church's own clergy. Documented."
+  },
+  {
+   "movement": "puritanism",
+   "field": "relationsSummary",
+   "sentence": "parent of the evangelical line",
+   "other_id": "the-evangelical-awakening-in-new-england",
+   "disposition": "link",
+   "link_id": "puritanism--the-evangelical-awakening-in-new-england",
+   "prose_change": 4,
+   "reason": "Edwards quotes Shepard (1746). Typed 'influenced'; 'parent' becomes 'fed'."
+  },
+  {
+   "movement": "puritanism",
+   "field": "longDescription",
+   "sentence": "Puritans were the English Protestants who thought the Elizabethan settlement had stopped halfway.",
+   "other_id": "the-english-reformation-and-elizabethan-settleme",
+   "disposition": "link",
+   "link_id": "puritanism--the-english-reformation-and-elizabethan-settleme",
+   "prose_change": null,
+   "reason": "The Admonition of 1572. Documented."
+  },
+  {
+   "movement": "puritanism",
+   "field": "longDescription",
+   "sentence": "Pressed at home, thousands sailed for New England from 1630.",
+   "other_id": "the-english-reformation-and-elizabethan-settleme",
+   "disposition": "link",
+   "link_id": "the-english-reformation-and-elizabethan-settleme--puritanism--2",
+   "prose_change": null,
+   "reason": "'Pressed at home' names the church's pressure: James I at Hampton Court; Field and Wilcox jailed. Documented."
+  },
+  {
+   "movement": "puritanism",
+   "field": "longDescription",
+   "sentence": "Pressed at home, thousands sailed for New England from 1630.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "New England's churches before 1734 have no census movement. Winthrop's journal (vendored) begins with the 1630 crossing; 'thousands' is not counted in it."
+  },
+  {
+   "movement": "puritanism",
+   "field": "longDescription",
+   "sentence": "Those who stayed came to dominate the Long Parliament and the Westminster Assembly",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Neither is a census movement. The Westminster standards are vendored (Nelson 1877)."
+  },
+  {
+   "movement": "puritanism",
+   "field": "longDescription",
+   "sentence": "after the Restoration of 1660 were ejected from the Church of England altogether",
+   "other_id": "restoration-georgian-church-of-england",
+   "disposition": "link",
+   "link_id": "puritanism--restoration-georgian-church-of-england",
+   "prose_change": null,
+   "reason": "Act of Uniformity of 1662 and Baxter's account of Bartholomew Day. 'Broke with', both sides recorded."
+  },
+  {
+   "movement": "puritanism",
+   "field": "why",
+   "sentence": "Puritans thought the English Reformation had stopped halfway",
+   "other_id": "the-english-reformation-and-elizabethan-settleme",
+   "disposition": "link",
+   "link_id": "puritanism--the-english-reformation-and-elizabethan-settleme",
+   "prose_change": null,
+   "reason": "As in the long description."
+  },
+  {
+   "movement": "puritanism",
+   "field": "why",
+   "sentence": "Pressed at home, thousands carried that habit across the Atlantic to New England from 1630.",
+   "other_id": "the-english-reformation-and-elizabethan-settleme",
+   "disposition": "link",
+   "link_id": "the-english-reformation-and-elizabethan-settleme--puritanism--2",
+   "prose_change": null,
+   "reason": "As in the long description; New England itself is no-entry."
+  },
+  {
+   "movement": "puritanism",
+   "field": "legacy",
+   "sentence": "English Congregationalism, Presbyterianism and much of the Baptist tradition come straight out of it",
+   "other_id": "english-old-dissent",
+   "disposition": "link",
+   "link_id": "puritanism--english-old-dissent",
+   "prose_change": 5,
+   "reason": "Baxter, raised in a home called Puritan, silenced in 1662 with the Nonconformists. Documented."
+  },
+  {
+   "movement": "puritanism",
+   "field": "legacy",
+   "sentence": "English Congregationalism, Presbyterianism and much of the Baptist tradition come straight out of it",
+   "other_id": "the-baptists",
+   "disposition": "link",
+   "link_id": "puritanism--the-baptists",
+   "prose_change": 5,
+   "reason": "Smyth and McGlothlin. Widely Accepted."
+  },
+  {
+   "movement": "puritanism",
+   "field": "legacy",
+   "sentence": "and so does the culture of early New England, including Harvard, founded in 1636 to train its ministers",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census movement. Hosmer's note to Winthrop's journal dates the college's founding by the General Court to October 1636; 'to train its ministers' is not in that note. Kept."
+  },
+  {
+   "movement": "puritanism",
+   "field": "legacy",
+   "sentence": "Bunyan's Pilgrim's Progress, written by a man formed in that tradition",
+   "other_id": null,
+   "disposition": "not-a-relationship",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "A person's formation, not a tie between movements. Bunyan's Grace Abounding (vendored) names his Bedford pastor Mr. Gifford."
+  },
+  {
+   "movement": "puritanism",
+   "field": "legacy",
+   "sentence": "And its insistence on personal conversion runs directly into the evangelical revivals of the following century.",
+   "other_id": "the-evangelical-awakening-in-new-england",
+   "disposition": "link",
+   "link_id": "puritanism--the-evangelical-awakening-in-new-england",
+   "prose_change": 5,
+   "reason": "Edwards quoting Shepard. 'Runs directly into' becomes 'fed', with the tie named."
+  }
+ ],
+ "links": [
+  {
+   "id": "lutheran-wittenberg-and-its-congregations--the-english-reformation-and-elizabethan-settleme",
+   "action": "new",
+   "from": "lutheran-wittenberg-and-its-congregations",
+   "to": "the-english-reformation-and-elizabethan-settleme",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "William Tyndale's book The Obedience of a Christian Man, printed in 1528, defends Martin Luther by name. His editor showed in 1848 that Tyndale's Prologue to Romans is mostly Luther's own preface. At his trial in 1555, Thomas Cranmer was told he had once been a Lutheran, and he granted that he had changed his mind.",
+   "outcome_considered": "The sources show Tyndale borrowing from Luther and Cranmer's change of mind. No council, law or rule follows from them in the cited passages.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "William Tyndale, The Obedience of a Christian Man (1528), in Doctrinal Treatises, ed. Henry Walter (1848)",
+     "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+     "lines": "16024-16026",
+     "locus": "Obedience of a Christian Man",
+     "quote": "And because that all the world knoweth that Martin Luther slayeth no man, but killeth only with the spiritual sword, the word of God,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Thomas Cranmer, Examination at Oxford before Brokes (September 1555), in Miscellaneous Writings and Letters, ed. J. E. Cox (1846)",
+     "file": "cic/texts/cranmer_miscellaneous-writings-and-letters_cox1846.txt",
+     "lines": "21211-21212",
+     "locus": "Examination before Brokes (Dr Martin speaking)",
+     "quote": "Then from a Lutheran ye became a Zwinglian, which is the vilest heresy of all in the high mystery of the sacrament ;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Thomas Cranmer, Examination at Oxford before Brokes (September 1555), in Miscellaneous Writings and Letters, ed. J. E. Cox (1846)",
+     "file": "cic/texts/cranmer_miscellaneous-writings-and-letters_cox1846.txt",
+     "lines": "21216",
+     "locus": "Examination before Brokes (Cranmer's reply)",
+     "quote": "I grant that then I believed otherwise than I do now;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Henry Walter, introduction to Tyndale's Prologue to Romans, in Tyndale, Doctrinal Treatises (Parker Society, 1848)",
+     "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+     "lines": "30816-30817",
+     "quote": "for the greater part of it is in fact a paraphrase, and sometimes a literal translation, of Luther's preface to the Romans,",
+     "license": "public-domain",
+     "locus": "Editor's introduction to the Prologue to Romans"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "the-english-reformation-and-elizabethan-settleme relationsSummary ('Shaped by Lutheran ... influences taking root in England')",
+   "drafter_flags": [
+    "Graded Widely Accepted, not Documented: Tyndale names Luther and defends him, and Cranmer's accuser calls him a former Lutheran, but the direct proof of borrowing (Tyndale's Prologue set against Luther's preface) is Walter's 1848 demonstration, a secondary reading in a vendored file. Luther's preface to Romans itself was not compared line by line.",
+    "Tyndale wrote in exile (Antwerp); he is counted with the English Reformation because his books were written for and smuggled into England. Cranmer's 'I grant' admits a change of belief on the sacrament, not the label 'Lutheran' itself."
+   ],
+   "change_reason": "New. Sources the summary's 'Lutheran influences taking root in England'.",
+   "fre": 62.8,
+   "fk": 8.9
+  },
+  {
+   "id": "the-reformed-cities-zurich-and-geneva--the-english-reformation-and-elizabethan-settleme",
+   "action": "new",
+   "from": "the-reformed-cities-zurich-and-geneva",
+   "to": "the-english-reformation-and-elizabethan-settleme",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In 1548 John Calvin wrote from Geneva to praise the Protector Somerset for his reform of worship in England. In 1562 Bishop John Jewel told Peter Martyr in Zurich that England's teaching did not differ from his 'by a nail's breadth.' Archbishop Parker also cited Martyr and Bullinger when he argued for the rules.",
+   "outcome_considered": "Letters of advice and agreement. No canon, law or act of the English church is shown in the cited lines.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "rzg.source.calvin-letters-vol2",
+     "work": "John Calvin, letter CCXXIX to the Protector Somerset (Geneva, 22 October 1548), in Letters of John Calvin, vol. II, ed. Jules Bonnet (1858)",
+     "file": "cic/texts/calvin_letters-vol2_bonnet1858.txt",
+     "lines": "8740-8743",
+     "locus": "Letter CCXXIX",
+     "quote": "We have all reason to be thankful to our God and Father, that he has been pleased to employ you in so excellent a work as that of setting up the purity and right order of his worship in England by your means,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Jewel to Peter Martyr (Salisbury, 7 February 1562), Letter XLIII, in The Zurich Letters, first series, ed. Hastings Robinson (1842)",
+     "file": "cic/texts/zurich-letters_first-series-1558-1579_robinson1842.txt",
+     "lines": "5765-5767",
+     "locus": "Zurich Letters, Letter XLIII",
+     "quote": "for as to matters of doctrine, we have pared every thing away to the very quick, and do not differ from your doctrine by a naiFs breadth ;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. H. Frere and C. E. Douglas, introduction to Puritan Manifestoes (1907)",
+     "file": "cic/texts/admonition-to-parliament_puritan-manifestoes_frere-douglas1907.txt",
+     "lines": "1102-1104",
+     "quote": "Parker had then cited foreign leaders, on the side of conformity, — first old opinions of Bucer and Martyr, and at a later stage contemporary letters of Bullinger and Gualter",
+     "license": "public-domain",
+     "locus": "Introduction"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "the-english-reformation-and-elizabethan-settleme relationsSummary ('Shaped by ... Reformed influences taking root in England')",
+   "drafter_flags": [
+    "Jewel's quote keeps the OCR 'naiFs' (nail's) as printed. The note says 'Zurich and Strasbourg leaders' for Bucer, Martyr, Bullinger and Gualter: Bucer was at Strasbourg; strictly the editors name the men, not the cities. Reviewer may prefer 'Swiss and Rhineland reformers'."
+   ],
+   "change_reason": "New. Sources the summary's 'Reformed influences taking root in England'.",
+   "fre": 61.2,
+   "fk": 9.1
+  },
+  {
+   "id": "the-english-reformation-and-elizabethan-settleme--restoration-georgian-church-of-england",
+   "action": "new",
+   "from": "the-english-reformation-and-elizabethan-settleme",
+   "to": "restoration-georgian-church-of-england",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "The Act of Uniformity of 1662 begins by recalling the Prayer Book that Parliament made the law in Elizabeth's first year. It put that order back in place after what it called 'the late unhappy Troubles.'",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Act of Uniformity (1662), printed in The Book of Common Prayer (Oxford, 1706)",
+     "file": "cic/texts/church-of-england_book-of-common-prayer_oxford1706.txt",
+     "lines": "600-604",
+     "locus": "Act of Uniformity (1662), preamble",
+     "quote": "WHereas In the Firft Year of the late Qjeen Elizabeth, there was one uniform Order of Common Service and Prayer, and of the Adminiftration of Sacraments, Rites and Ceremonies in the Church of England,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Act of Uniformity (1662), printed in The Book of Common Prayer (Oxford, 1706)",
+     "file": "cic/texts/church-of-england_book-of-common-prayer_oxford1706.txt",
+     "lines": "632-634",
+     "locus": "Act of Uniformity (1662), preamble",
+     "quote": "great mifehiefs and inconveniences, during the timps of the late unhappy Troubles have arifenand grown",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "the-english-reformation-and-elizabethan-settleme relationsSummary ('the parent of ... the Anglican tradition') and legacy ('It became the Church of England')",
+   "drafter_flags": [
+    "Other end is in era 8 (no era-6 duplicate check needed)",
+    "The inventory guessed victorian-church-of-england (era 9) for 'the Anglican tradition'; the next period of the same church is restoration-georgian-church-of-england, so the continuation runs there.",
+    "'of the civil wars' in the note glosses the Act's 'late unhappy Troubles'; the Act itself does not name the wars. Reviewer may cut the gloss.",
+    "Quotes keep the OCR long-s and misreads ('Qjeen', 'timps', 'arifenand') exactly as printed."
+   ],
+   "change_reason": "New. The Elizabethan church carried on as the Restoration church; the 1662 Act ties the two books together.",
+   "fre": 70.1,
+   "fk": 6.5
+  },
+  {
+   "id": "the-english-reformation-and-elizabethan-settleme--puritanism",
+   "action": "new",
+   "from": "the-english-reformation-and-elizabethan-settleme",
+   "to": "puritanism",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "The Admonition to the Parliament of 1572 speaks for ministers forced to sign their assent to the Prayer Book. Its authors, John Field and Thomas Wilcox, were two clergy of the English church. They were sent to Newgate prison that July.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "An Admonition to the Parliament (1572), in Puritan Manifestoes, ed. W. H. Frere and C. E. Douglas (1907)",
+     "file": "cic/texts/admonition-to-parliament_puritan-manifestoes_frere-douglas1907.txt",
+     "lines": "2507-2509",
+     "locus": "A View of Popish Abuses, preface",
+     "quote": "yet now being compelled by subscription to allowe the same, and to confesse it, not to be against the worde of God in any point but tollerable :",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. H. Frere and C. E. Douglas, introduction to Puritan Manifestoes (1907)",
+     "file": "cic/texts/admonition-to-parliament_puritan-manifestoes_frere-douglas1907.txt",
+     "lines": "557-559",
+     "quote": "On July 7 two clergy, John Field and Thomas Wilcox, were sent to Newgate on the charge of being its writers*;",
+     "license": "public-domain",
+     "locus": "Introduction"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "puritanism relationsSummary ('Child of ... the English settlement's tensions'); the-english-reformation-and-elizabethan-settleme legacy ('dissenting traditions ... Puritan ... are equally its children')",
+   "drafter_flags": [
+    "The secondary quote keeps the editors' footnote star ('writers*;') as printed."
+   ],
+   "change_reason": "New. Puritanism grew from the English church's own clergy.",
+   "fre": 72.7,
+   "fk": 6.4
+  },
+  {
+   "id": "puritanism--the-english-reformation-and-elizabethan-settleme",
+   "action": "new",
+   "from": "puritanism",
+   "to": "the-english-reformation-and-elizabethan-settleme",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "The Admonition to the Parliament of 1572 told Parliament that England was still far from 'a church rightly reformed.' It called the Prayer Book an imperfect book, picked out of the Mass book.",
+   "outcome_considered": "Its two authors were jailed, but no law, canon or synod condemning the Puritans appears in the listed sources. The 1604 promise of a new Bible translation is a text taken up, which the test excludes.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "An Admonition to the Parliament (1572), in Puritan Manifestoes, ed. W. H. Frere and C. E. Douglas (1907)",
+     "file": "cic/texts/admonition-to-parliament_puritan-manifestoes_frere-douglas1907.txt",
+     "lines": "1874-1877",
+     "locus": "An Admonition to the Parliament",
+     "quote": "we in England are so fare of, from having a church rightly reformed, ac- cordyng to the prescript of Gods worde, that as yet we are not ^ come to the outwarde face of the same.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "An Admonition to the Parliament (1572), in Puritan Manifestoes, ed. W. H. Frere and C. E. Douglas (1907)",
+     "file": "cic/texts/admonition-to-parliament_puritan-manifestoes_frere-douglas1907.txt",
+     "lines": "2510-2511",
+     "locus": "A View of Popish Abuses, preface",
+     "quote": "that this boke is an unperfecte booke, culled & picked out of A that popishe dunghil, the ^ IMasse booke full of all abhominations.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "puritanism longDescription ('thought the Elizabethan settlement had stopped halfway') and why ('thought the English Reformation had stopped halfway')",
+   "drafter_flags": [
+    "Quotes keep the edition's marginal-note carets (^), the line-break hyphen 'ac- cordyng' and the stray OCR 'A' and 'IMasse' exactly as printed."
+   ],
+   "change_reason": "New. Sources 'stopped halfway'.",
+   "fre": 69.6,
+   "fk": 7.7
+  },
+  {
+   "id": "the-english-reformation-and-elizabethan-settleme--puritanism--2",
+   "action": "new",
+   "from": "the-english-reformation-and-elizabethan-settleme",
+   "to": "puritanism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "At Hampton Court in January 1604, King James heard the Puritan case against the Prayer Book. Leaving the room, he said he would make them conform 'or I will harry them out of this Land.' In 1572 the authors of the Admonition had been sent to prison.",
+   "outcome_considered": "A king's threat and the jailing of two men. No canon, law or deprivation order appears in the cited lines; the canons of 1604 are not in the listed sources.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "William Barlow, The Summe and Substance of the Conference at Hampton Court (1604), reprint of 1804",
+     "file": "cic/texts/barlow-william_summe-and-substance-hampton-court-conference_1804.txt",
+     "lines": "2882-2885",
+     "locus": "Second day of the conference",
+     "quote": "If this be all, quoth he, that they have to fay, IJJiallmake them conform themfelves, or I will harry them out of this Land, or elfe do worfe.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. H. Frere and C. E. Douglas, introduction to Puritan Manifestoes (1907)",
+     "file": "cic/texts/admonition-to-parliament_puritan-manifestoes_frere-douglas1907.txt",
+     "lines": "557-559",
+     "quote": "On July 7 two clergy, John Field and Thomas Wilcox, were sent to Newgate on the charge of being its writers*;",
+     "license": "public-domain",
+     "locus": "Introduction"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "puritanism longDescription and why ('Pressed at home')",
+   "drafter_flags": [
+    "Second link on this ordered pair (the first is 'gave rise to'); each rests on different evidence.",
+    "Barlow wrote the conformist account; the king's words are as Barlow reported them. Quote keeps the OCR long-s and 'IJJiallmake'."
+   ],
+   "change_reason": "New. Sources 'Pressed at home'.",
+   "fre": 80.9,
+   "fk": 5.8
+  },
+  {
+   "id": "the-english-reformation-and-elizabethan-settleme--the-tridentine-church",
+   "action": "new",
+   "from": "the-english-reformation-and-elizabethan-settleme",
+   "to": "the-tridentine-church",
+   "type": "broke with",
+   "confidence": "Documented",
+   "note": "Henry VIII's orders of 1536 told the clergy to keep the laws that ended the Pope's 'usurped power' in England. Under Mary I, in 1555, London parishes prayed for the Pope again. In 1562 John Jewel wrote that the English had left Rome and gave thanks for it, and in 1570 Pope Pius V cut Elizabeth off from the church.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "First Royal Injunctions of Henry VIII (1536), in Visitation Articles and Injunctions, vol. II, ed. W. H. Frere and W. M. Kennedy (1910)",
+     "file": "cic/texts/church-of-england_visitation-articles-injunctions-v2-1536-1558_frere-kennedy1910.txt",
+     "lines": "458-461",
+     "locus": "First Royal Injunctions (1536), 1",
+     "quote": "all and singular laws and statutes1 of this realm made for the abolishing and extirpation of the Bishop of Rome's pretensed and usurped power and jurisdiction within this realm,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Edmund Bonner, Injunctions for London Diocese (1555), the form of bidding prayer, in Visitation Articles and Injunctions, vol. II, ed. Frere and Kennedy (1910)",
+     "file": "cic/texts/church-of-england_visitation-articles-injunctions-v2-1536-1558_frere-kennedy1910.txt",
+     "lines": "18839-18841",
+     "locus": "Bonner's Injunctions (1555), bidding prayer",
+     "quote": "the good estate of our most holy father the Pope, Paul the fourth of that name, with the whole college of Cardinals,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius V, Regnans in Excelsis (1570), English column, in Thomas Barlow, Brutum Fulmen (1681)",
+     "file": "cic/texts/barlow_brutum-fulmen_1681.txt",
+     "lines": "2779-2783",
+     "locus": "Regnans in Excelsis, section 3",
+     "quote": "declare the aforefaid Elszabeth , being an Heretick,. and a favourer of Hereticks, and her Adherents in the matters aforefaid, to:have incurred the fen- tence of Anathema’, and to be cut off fromthe Unity of the",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Jewel, The Apology of the Church of England (1562), trans. Anne Bacon (1564), ed. Henry Morley (1888)",
+     "file": "cic/texts/jewel_apology-of-the-church-of-england_bacon-morley1888.txt",
+     "lines": "2573-2575",
+     "locus": "Apology, Part IV",
+     "quote": "It is true; we have departed from them, and for so doing we both give thanks to Almighty God, and greatly rejoice on our own behalf.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "the-english-reformation-and-elizabethan-settleme longDescription ('Henry VIII's break with Rome in the 1530s'; 'back to Rome under Mary I')",
+   "drafter_flags": [
+    "The Rome-side witness is Pius V's bull (1570), printed inside Barlow's hostile 1681 tract; Paul III's bull against Henry VIII (1538) is in the same file in Latin only with garbled OCR, so it is not quoted. Wanted: a clean edition of Paul III's bull and the Act of Supremacy (1534).",
+    "The Regnans quote ends mid-clause at the column break ('cut off fromthe Unity of the'); the next words ('Body of Chrift') sit on line 2786 after blank lines. Reviewer may extend lines to 2779-2786.",
+    "Mary I's return to Rome is shown only by Bonner's bidding prayer for Paul IV (1555); Pole's absolution of the realm (1554) is not quoted.",
+    "'Apology, Part IV' is the conventional division; the edition's own part heading was not checked."
+   ],
+   "change_reason": "New. A rupture recorded by both sides.",
+   "fre": 73.1,
+   "fk": 7.7
+  },
+  {
+   "id": "the-reformed-cities-zurich-and-geneva--the-scottish-reformation-and-kirk",
+   "action": "new",
+   "from": "the-reformed-cities-zurich-and-geneva",
+   "to": "the-scottish-reformation-and-kirk",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "A book of worship used by the Kirk prints its confession as the one 'used in the English Congregation at Geneva.' It says the Church of Scotland received and approved it. John Knox had been one of that Geneva congregation's ministers.",
+   "outcome": "In 1562 the General Assembly made one rule for all its churches. They must follow the order of the Kirk of Geneva for the sacraments, weddings and burials.",
+   "outcome_locus": "Booke of the Universall Kirk (Peterkin 1839), lines 1200-1211: Session Fifth, holden the last of December 1562.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts of the General Assembly, December 1562, in The Booke of the Universall Kirk of Scotland, ed. Alexander Peterkin (1839)",
+     "file": "cic/texts/kirk-of-scotland_booke-of-the-universall-kirk-1560-1602_peterkin1839.txt",
+     "lines": "1208-1211",
+     "locus": "Assembly of December 1562, Session Fifth",
+     "quote": "It is concluded, That ane uniforme order sail be taken or keeped in ministration of the Sacraments, and solemnization of Mariages and Buriall of the Dead, according to the Kirk of Geneva.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Book of Common Order of the Church of Scotland, ed. G. W. Sprott (1868)",
+     "file": "cic/texts/kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt",
+     "lines": "3803-3808",
+     "locus": "The Confession of Faith, heading",
+     "quote": "CONFESSION OF FAITH Used in the English Congregation at Geneva : RECEIVED AND APPROVED BY THE CHURCH OF SCOTLAND.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "G. W. Sprott, introduction to The Book of Common Order (1868)",
+     "file": "cic/texts/kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868.txt",
+     "lines": "569-572",
+     "quote": "Knox was chosen one of its ministers, and the draft of the Liturgy prepared by him and others at Frankfort, was published at Geneva in 1556 for its use.",
+     "license": "public-domain",
+     "locus": "Introduction"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "the-scottish-reformation-and-kirk relationsSummary ('Child of Geneva') and longDescription ('adopted a Reformed confession of faith')",
+   "drafter_flags": [
+    "also named in the-reformed-cities-zurich-and-geneva (relationsSummary, legacy: 'Parent of the Scottish ... traditions')",
+    "Outcome counts as a rule changed by an authority (the Assembly's act). Reviewer to confirm it is an institutional act, not a practice merely taken up.",
+    "The heading quote keeps the edition's capitals and spaced colon; the 'THE' on line 3801 is not in the quote.",
+    "Geneva's English congregation is a refugee church in Geneva, not Calvin's own; the Assembly act names 'the Kirk of Geneva' directly."
+   ],
+   "change_reason": "New. Sources 'Child of Geneva' (qualified to 'Shaped by Geneva') and the Reformed confession.",
+   "fre": 63.7,
+   "fk": 7.9,
+   "outcome_fre": 64.7,
+   "outcome_fk": 7.6
+  },
+  {
+   "id": "the-scottish-reformation-and-kirk--the-tridentine-church",
+   "action": "new",
+   "from": "the-scottish-reformation-and-kirk",
+   "to": "the-tridentine-church",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In August 1560 the Scottish Parliament ruled that the Pope should have no power in the realm from then on. Anyone who sought a title or right from him could be banished and lose any office.",
+   "outcome": "The Act of 1560 ended the Pope's power in Scotland by law, on pain of banishment.",
+   "outcome_locus": "Knox, Works vol. II (Laing), lines 5162-5187: the Act for abolishing the jurisdiction of the Pope.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Act for Abolishing the Jurisdiction of the Pope (Scottish Parliament, 24 August 1560), in John Knox, History of the Reformation, Works vol. II, ed. David Laing (1895)",
+     "file": "cic/texts/knox_works-v2_laing1895.txt",
+     "lines": "5172-5175",
+     "locus": "Act for Abolishing the Jurisdictioun of the Pape",
+     "quote": "Thairfoir hes statut and ordainit, that the Bischope of Rome, [callit the Paip,] have na jurisdictioun nor authoritie [with]in this Realme in tymes cuming;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "the-scottish-reformation-and-kirk longDescription ('In 1560 the Scottish Parliament abolished papal authority')",
+   "drafter_flags": [
+    "Typed 'argued against', not 'broke with': no Roman document answering the Scottish act is vendored. Wanted: a papal or curial response to the Scottish settlement of 1560.",
+    "The actor is the Scottish Parliament, which the movement's own text treats as part of the Scottish Reformation. The square brackets are Laing's and are kept as printed."
+   ],
+   "change_reason": "New. Sources the abolition of papal authority.",
+   "fre": 75.5,
+   "fk": 7.1,
+   "outcome_fre": 73.2,
+   "outcome_fk": 6.8
+  },
+  {
+   "id": "the-reformed-cities-zurich-and-geneva--the-huguenots",
+   "action": "new",
+   "from": "the-reformed-cities-zurich-and-geneva",
+   "to": "the-huguenots",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "In April 1560 Calvin wrote to the church at Montélimar that Geneva was sending it a minister. Philip Schaff writes that Calvin and his student Chandieu drew up the French confession of faith. A synod at Paris approved it in 1559.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Calvin, letter DLVIII to the Church of Montélimar (Geneva, April 1560), in Letters of John Calvin, vol. IV, ed. Jules Bonnet (1858)",
+     "file": "cic/texts/calvin_letters-vol4_bonnet1858.txt",
+     "lines": "4579-4582",
+     "locus": "Letter DLVIII",
+     "quote": "Now as we have been informed that it was necessary to send you a man of competent learning and prudence, we have requested the bearer of the present letter to take upon him this office,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Philip Schaff, headnote to the Gallican Confession, The Creeds of Christendom vol. III (1877)",
+     "file": "cic/texts/schaff_gallican-confession-fra-eng_1877.txt",
+     "lines": "14-15",
+     "quote": "This Confession was prepared by Calvin and his pnpil, De Cuandiett, revised and approved by a synod at Paris, 1559,",
+     "license": "public-domain",
+     "locus": "Headnote"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "the-huguenots relationsSummary ('Grew directly out of Calvin's Geneva')",
+   "drafter_flags": [
+    "also named in the-reformed-cities-zurich-and-geneva (relationsSummary, legacy)",
+    "Widely Accepted, not Documented: Calvin's letter shows one pastor sent; the confession's Genevan drafting rests on Schaff's headnote. French Protestantism also had roots before Calvin (not in these texts), so 'directly' is dropped from the summary.",
+    "Schaff's OCR 'pnpil' and 'De Cuandiett' (de Chandieu) are kept in the quote; the quote starts after the headnote's opening bracket."
+   ],
+   "change_reason": "New. Sources 'Grew ... out of Calvin's Geneva'.",
+   "fre": 68.5,
+   "fk": 7.0
+  },
+  {
+   "id": "the-huguenots--church-of-the-desert-huguenots",
+   "action": "new",
+   "from": "the-huguenots",
+   "to": "church-of-the-desert-huguenots",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "In 1718 a synod that met in secret in the south of France vowed to keep the old rules of the French Reformed churches. In 1726 the first national synod of the Desert met. It told every pastor, elder and member to accept the confession those churches had made long ago.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synod of Languedoc and the Cévennes (7 February 1718), in Les Synodes du Désert, vol. I, ed. Edmond Hugues (1885)",
+     "file": "cic/texts/french-reformed-synods_synodes-du-desert-t1-fra_hugues1885.txt",
+     "lines": "3318-3320",
+     "locus": "Synode du Languedoc et Cévennes, 1718, art. 1",
+     "quote": "félon la règle de la difcipline eccléfiaftique des églifes réformées de France, à laquelle nous nous conformons le mieux qu'il nous eft poffible.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "First national synod of the Desert (Vivarais, 16 May 1726), in Les Synodes du Désert, vol. I, ed. Edmond Hugues (1885)",
+     "file": "cic/texts/french-reformed-synods_synodes-du-desert-t1-fra_hugues1885.txt",
+     "lines": "5349-5351",
+     "locus": "Premier Synode national, 1726, art. I",
+     "quote": "Tous les pafteurs, propofants, anciens & fidèles recevront la con- feiïion de foi dreffée autrefois par les églifes réformées de ce royaume",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "the-huguenots legacy ('The tradition still exists in France, in the united Protestant church that grew out of it')",
+   "drafter_flags": [
+    "Other end is in era 8 (no era-6 duplicate check needed)",
+    "Quotes keep Hugues's original spelling with f for long s ('difcipline', 'pafteurs') and the OCR 'feiïion' exactly as printed; the second quote runs across the line-break hyphen 'con- feiïion'."
+   ],
+   "change_reason": "New. The Desert church kept the Huguenot confession and discipline.",
+   "fre": 69.4,
+   "fk": 7.6
+  },
+  {
+   "id": "the-english-reformation-and-elizabethan-settleme--recusant-english-catholicism",
+   "action": "new",
+   "from": "the-english-reformation-and-elizabethan-settleme",
+   "to": "recusant-english-catholicism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "The Act of Uniformity of 1559 fined anyone who stayed away from the parish church twelve pence each time. In January 1586 a London court found priests guilty of treason for being made priests in France by the Pope's authority and then staying in England.",
+   "outcome": "Under the new law, London courts found priests guilty of treason for being made priests abroad and then staying in England.",
+   "outcome_locus": "Unpublished Documents relating to the English Martyrs I (Pollen 1908), lines 15381-15402: the Old Bailey sessions of January and April 1586.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Act of Uniformity (1559), in Liturgical Services of the Reign of Queen Elizabeth, ed. W. K. Clay (1847)",
+     "file": "cic/texts/church-of-england_liturgical-services-elizabeth-1559_clay1847.txt",
+     "lines": "2859-2861",
+     "locus": "Act of Uniformity (1559)",
+     "quote": "And also upon pain that every person so offending shall forfeit for every such offence .xii. d. to be levied by the Churchwardens of the parish,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Record of the sessions of oyer and terminer at the Old Bailey, 19 January 1585 [1586], in Unpublished Documents relating to the English Martyrs, vol. I, ed. J. H. Pollen (Catholic Record Society, 1908)",
+     "file": "cic/texts/catholic-record-society_unpublished-documents-english-martyrs-v1_pollen1908.txt",
+     "lines": "15384-15386",
+     "locus": "Document XLIII",
+     "quote": "Nicholas Devorax alias Woodfen condempned for treason in being made a Seminarie priest at Reymes in ffrance by authoritie of the B. of Rome",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "recusant-english-catholicism longDescription and why ('fined as recusants'; 'from 1585 it was treason for a priest ordained abroad even to set foot in the country')",
+   "drafter_flags": [
+    "The 1559 Act fines every absentee, not Catholics by name; the court record names the seminary priests. The statute of 1585 itself is not vendored (wanted); its effect is shown by the court record, which cites 'the Session of the last parliament'.",
+    "The record is dated 'xixth of Januarie 1585', old style; Pollen's running head dates it 1586. The note says January 1586."
+   ],
+   "change_reason": "New. Sources the fines and the 1585 treason law.",
+   "fre": 65.0,
+   "fk": 9.5,
+   "outcome_fre": 76.7,
+   "outcome_fk": 7.8
+  },
+  {
+   "id": "the-reformed-cities-zurich-and-geneva--puritanism",
+   "action": "new",
+   "from": "the-reformed-cities-zurich-and-geneva",
+   "to": "puritanism",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "The Admonition to the Parliament of 1572 sends the Archbishop of York to read the 'learned Epistle' Theodore Beza wrote him. Letters from Beza, a minister at Geneva, and from Rudolph Gualter of Zurich were printed with it. They gave the Puritan case the weight of two famous names.",
+   "outcome_considered": "Foreign letters cited and printed in support. No council, law or rule follows from them in the listed sources.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "An Admonition to the Parliament (1572), in Puritan Manifestoes, ed. W. H. Frere and C. E. Douglas (1907)",
+     "file": "cic/texts/admonition-to-parliament_puritan-manifestoes_frere-douglas1907.txt",
+     "lines": "3160-3162",
+     "locus": "A View of Popish Abuses, art. 19",
+     "quote": "We refer him to that learned Epistle, which Beza wrote unto him aboute these matters.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Theodore Beza, letter of 1566, printed with the Admonition, in Puritan Manifestoes (1907)",
+     "file": "cic/texts/admonition-to-parliament_puritan-manifestoes_frere-douglas1907.txt",
+     "lines": "4181-4182",
+     "locus": "Beza's letter, subscription",
+     "quote": "Theodore Beza minister of the word in the Church of Geneve.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Rudolph Gualter, letter of 11 September 1566, printed with the Admonition, in Puritan Manifestoes (1907)",
+     "file": "cic/texts/admonition-to-parliament_puritan-manifestoes_frere-douglas1907.txt",
+     "lines": "3624",
+     "locus": "Gualter's letter, subscription",
+     "quote": "Rodolphe Gualter, Minister of the Churche of God at Tigurin.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. H. Frere and C. E. Douglas, introduction to Puritan Manifestoes (1907)",
+     "file": "cic/texts/admonition-to-parliament_puritan-manifestoes_frere-douglas1907.txt",
+     "lines": "1097-1100",
+     "quote": "in the eyes of the men of the time they were important as adding to the plea the support of Gualter and Beza, two of the leaders of foreign protestantism, whose names carried great weight.",
+     "license": "public-domain",
+     "locus": "Introduction"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "puritanism relationsSummary ('Child of Geneva')",
+   "drafter_flags": [
+    "also named in the-reformed-cities-zurich-and-geneva (relationsSummary, legacy)",
+    "'Tigurin' is the Latin name for Zurich; the note says Zurich. The 'art. 19' locus is inferred from the numbered article that follows ('20.'); reviewer may simplify to 'A View of Popish Abuses'."
+   ],
+   "change_reason": "New. Sources 'Child of Geneva' (qualified to 'Shaped by Geneva').",
+   "fre": 60.2,
+   "fk": 8.8
+  },
+  {
+   "id": "puritanism--restoration-georgian-church-of-england",
+   "action": "new",
+   "from": "puritanism",
+   "to": "restoration-georgian-church-of-england",
+   "type": "broke with",
+   "confidence": "Documented",
+   "note": "The Act of Uniformity of 1662 took away the posts of every minister who would not state his assent to the Prayer Book. Richard Baxter wrote that on St Bartholomew's Day, 24 August 1662, about 1,800 or 2,000 ministers 'were silenced and cast out.'",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Act of Uniformity (1662), printed in The Book of Common Prayer (Oxford, 1706)",
+     "file": "cic/texts/church-of-england_book-of-common-prayer_oxford1706.txt",
+     "lines": "813-817",
+     "locus": "Act of Uniformity (1662)",
+     "quote": "negleft or re- fufe to do the fame within the Time afore faid, or (in cafe cf fuch Impediment) within one Month after fuch Impediment removed, (hall IpfofaClo be deprived of all his Spiritual Promotions",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Richard Baxter, Reliquiae Baxterianae (1696), abridged ed. J. M. Lloyd Thomas (1925)",
+     "file": "cic/texts/baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925.txt",
+     "lines": "10801-10803",
+     "locus": "Part Two, 1662",
+     "quote": "When Bartholomew Day came, about one thousand eight hundred or two thousand ministers were silenced and cast out.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "puritanism longDescription ('after the Restoration of 1660 were ejected from the Church of England altogether')",
+   "drafter_flags": [
+    "Other end is in era 8 (no era-6 duplicate check needed)",
+    "The Act of 1662 binds all ministers, not Puritans by name; Baxter records the ejection from the ejected side. Baxter says the ejected were 'called all by the name of Presbyterians' (line 10563).",
+    "The Act quote keeps the OCR long-s, 're- fufe' and 'IpfofaClo' as printed."
+   ],
+   "change_reason": "New. Sources the ejection of 1662.",
+   "fre": 66.4,
+   "fk": 7.3
+  },
+  {
+   "id": "puritanism--english-old-dissent",
+   "action": "new",
+   "from": "puritanism",
+   "to": "english-old-dissent",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "Richard Baxter grew up in a home that neighbors mocked as Puritan. In 1662 he was silenced with nearly two thousand other ministers. His memoir shows them going on as Nonconformists, and some kept preaching until they were put in prison.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Richard Baxter, Reliquiae Baxterianae (1696), abridged ed. J. M. Lloyd Thomas (1925)",
+     "file": "cic/texts/baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925.txt",
+     "lines": "2394-2396",
+     "locus": "Part One, childhood",
+     "quote": "But when I heard them call my father Puritan it did much to cure me and alienate me from them;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Richard Baxter, Reliquiae Baxterianae (1696), abridged ed. J. M. Lloyd Thomas (1925)",
+     "file": "cic/texts/baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925.txt",
+     "lines": "10801-10803",
+     "locus": "Part Two, 1662",
+     "quote": "When Bartholomew Day came, about one thousand eight hundred or two thousand ministers were silenced and cast out.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Richard Baxter, Reliquiae Baxterianae (1696), abridged ed. J. M. Lloyd Thomas (1925)",
+     "file": "cic/texts/baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925.txt",
+     "lines": "10843-10845",
+     "locus": "Part Two, Conformists and Nonconformists",
+     "quote": "Hereupon those ministers that would not cease preaching were thrust into prisons,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "puritanism legacy ('English Congregationalism, Presbyterianism ... come straight out of it'); the-english-reformation-and-elizabethan-settleme legacy and relationsSummary ('dissenting ... churches that broke from it')",
+   "drafter_flags": [
+    "Other end is in era 8 (no era-6 duplicate check needed)",
+    "Baxter's 'Puritan' line is about his father; Baxter himself is the link's named person. A second witness (Philip Henry's diaries, vendored) was not quoted.",
+    "The third quote ends at a comma mid-sentence (the sentence continues 'and censured (some of them) the rest'); reviewer may prefer to extend."
+   ],
+   "change_reason": "New. Old Dissent grew from the Puritan ministers ejected in 1662.",
+   "fre": 66.4,
+   "fk": 7.3
+  },
+  {
+   "id": "puritanism--the-baptists",
+   "action": "new",
+   "from": "puritanism",
+   "to": "the-baptists",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "John Smyth gave up the orders he had taken from the bishop of Lincoln. In 1911 W. J. McGlothlin wrote that some Puritans left the English church to found their own churches, and that Smyth's flock at Gainsborough was one. In Amsterdam around 1609 it became the first English Baptist church.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Smyth, Paralleles, Censures, Observations (1609), in The Works of John Smyth, vol. II, ed. W. T. Whitley (1915)",
+     "file": "cic/texts/smyth_works-v2_whitley1915.txt",
+     "lines": "8956-8959",
+     "locus": "Paralleles, Censures, Observations",
+     "quote": "For I vtterly renounce your orders which I had from Wicka prelate of Lincolne, when I was chosen Fellow of Christs College in Cambridg:",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. J. McGlothlin, Baptist Confessions of Faith (1911)",
+     "file": "cic/texts/mcglothlin_baptist-confessions-of-faith_1911.txt",
+     "lines": "2695-2699",
+     "quote": "Some English Puritans came, in the latter part of the sixteenth century, to regard the English Church as un- scriptural, hopelessly corrupt, and incapable of reform. They, therefore, left it and set up independent congre- gations,",
+     "license": "public-domain",
+     "locus": "English Baptist confessions, introduction"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. J. McGlothlin, Baptist Confessions of Faith (1911)",
+     "file": "cic/texts/mcglothlin_baptist-confessions-of-faith_1911.txt",
+     "lines": "2739-2742",
+     "quote": "In 1608 or 1609 John Smyth, the pastor of the second church at Amsterdam, and a large part of his congregation had come to recognize the unscripturalness of infant baptism",
+     "license": "public-domain",
+     "locus": "English Baptist confessions, introduction"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "puritanism legacy ('much of the Baptist tradition come straight out of it'); the-english-reformation-and-elizabethan-settleme legacy ('Baptist ... equally its children')",
+   "drafter_flags": [
+    "Other end is in era 8 (no era-6 duplicate check needed)",
+    "also named in the-baptists (relationsSummary: 'grew out of Puritan-Separatist ferment')",
+    "Widely Accepted: Smyth's own words show him leaving the English church's orders; the Puritan-Separatist descent is McGlothlin's reading. Smyth's own Puritan years are in Whitley's vol. I biography, not vendored (wanted).",
+    "'first English Baptist church' paraphrases McGlothlin's 'thus organizing the first English Baptist or Anabaptist' (line 2752, beyond the quoted lines); reviewer may add those lines."
+   ],
+   "change_reason": "New. The Baptists' Separatist roots.",
+   "fre": 82.9,
+   "fk": 4.1
+  },
+  {
+   "id": "puritanism--the-evangelical-awakening-in-new-england",
+   "action": "new",
+   "from": "puritanism",
+   "to": "the-evangelical-awakening-in-new-england",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "John Winthrop's journal says that Thomas Shepard came to Massachusetts in October 1635, with other ministers. In 1746 Jonathan Edwards quoted from Shepard's book on the ten virgins. He did so in his study of true and false faith.",
+   "outcome_considered": "A later writer quoting an earlier one, which the test excludes. No council or rule follows in the listed sources.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Winthrop, Journal, vol. I, ed. J. K. Hosmer (1908)",
+     "file": "cic/texts/winthrop_journal-v1_hosmer1908.txt",
+     "lines": "7664-7666",
+     "locus": "Journal, October 1635",
+     "quote": "Here arrived two great ships, the Defence and the Abigail , with Mr. Wilson, pastor of Boston, Mr. Shepard, Mr. Jones, and other ministers ;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jonathan Edwards, A Treatise concerning Religious Affections (Boston, 1746)",
+     "file": "cic/texts/edwards_treatise-concerning-religious-affections_kneeland1746.txt",
+     "lines": "10143",
+     "locus": "Religious Affections, Part III",
+     "quote": "Mr. Shepard, in his Parable of the ten Virgins, Part II. p. 15. ſays,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in": "puritanism relationsSummary ('parent of the evangelical line') and legacy ('its insistence on personal conversion runs directly into the evangelical revivals')",
+   "drafter_flags": [
+    "Other end is in era 8 (no era-6 duplicate check needed)",
+    "also named in the-evangelical-awakening-in-new-england (relationsSummary: 'grew out of New England Puritanism')",
+    "Edwards also quotes Flavel and Shepard elsewhere in the treatise (lines 3924, 3985), but the OCR there is garbled; line 10143 is the clean one. The quote keeps the long s ('ſays'). 'Part III' locus not checked against the edition's own heading.",
+    "'Parent of' in the summary is typed 'influenced', not 'gave rise to': seventy years separate the two, and the awakening's own text says it grew out of New England Puritanism (its own era-8 drafting may prefer 'gave rise to')."
+   ],
+   "change_reason": "New. Sources 'parent of the evangelical line' (qualified to 'fed').",
+   "fre": 66.3,
+   "fk": 7.1
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "the-english-reformation-and-elizabethan-settleme",
+   "field": "relationsSummary",
+   "old": "Shaped by Lutheran and Reformed influences taking root in England, and the parent of both the Anglican tradition and the dissenting Protestant churches that broke from it. Its story extends through the Stuart century, from the 1604 Hampton Court Conference to the Westminster Assembly.",
+   "new": "Shaped by Lutheran and Reformed influences taking root in England. It carried on as the Church of England, and its Puritan wing gave rise to the churches that later broke away. Its story runs through the Stuart century, from the Hampton Court Conference of 1604 to the Westminster Assembly.",
+   "reason": "'Parent of the Anglican tradition' becomes the continuation into the Restoration church (the 1662 Act cites the Elizabethan book). The dissenting churches came out of its Puritan wing (Baxter; Smyth, with McGlothlin), so the sentence routes them through Puritanism. The long first sentence is split and the last lightly reworded for reading level.",
+   "fre_after": 60.2,
+   "fk_after": 8.8
+  },
+  {
+   "n": 1,
+   "movement": "the-english-reformation-and-elizabethan-settleme",
+   "field": "legacy",
+   "old": "It became the Church of England, and through it the worldwide Anglican Communion. Its most far-reaching bequest is verbal: the cadences of the Book of Common Prayer and of the King James Bible of 1611 shaped English-language worship, and phrases from both — 'till death us do part', 'ashes to ashes, dust to dust' — passed into ordinary speech far beyond any church. The dissenting traditions that later broke away from it, Puritan, Congregational and Baptist, are equally its children.",
+   "new": "It became the Church of England, and through it the worldwide Anglican Communion. Its most far-reaching gift is in words. The rhythms of the Book of Common Prayer and of the King James Bible of 1611 shaped worship in English. Phrases from both, like 'till death us do part' and 'ashes to ashes, dust to dust', passed into everyday speech far beyond any church. Puritanism grew up inside it. The Congregational, Presbyterian and Baptist churches that later stood outside it grew out of that Puritan wing.",
+   "reason": "Puritanism did not break away as a church: its ministers were ejected in 1662, and the Baptists had left earlier. The sources show both lines coming from Puritan ministers, so the last sentence says so. The middle sentences are split for reading level; their content is unchanged.",
+   "fre_after": 68.3,
+   "fk_after": 7.3
+  },
+  {
+   "n": 2,
+   "movement": "the-scottish-reformation-and-kirk",
+   "field": "relationsSummary",
+   "old": "Child of Geneva; distinct national-covenantal formation logic (a real uniqueness test)",
+   "new": "Shaped by Geneva, whose order of worship its Assembly took up in 1562. What set it apart was national: a whole people bound to God by a public oath.",
+   "reason": "'Child of Geneva' claims descent; the sources show influence (the General Assembly's act of December 1562 and the Geneva service book). '(a real uniqueness test)' was build commentary inside a live field and is removed. The fragment becomes two sentences.",
+   "fre_after": 68.7,
+   "fk_after": 7.1
+  },
+  {
+   "n": 3,
+   "movement": "the-huguenots",
+   "field": "relationsSummary",
+   "old": "Grew directly out of Calvin's Geneva, and became one of history's clearest examples of a persecuted community scattering into exile across an entire continent.",
+   "new": "Grew out of Calvin's Geneva, which wrote its creed and sent it pastors. Hunted at home, its people later fled across Europe and beyond, in one of history's clearest cases of a church driven into exile.",
+   "reason": "'Directly' outruns the evidence; French Protestant roots older than Geneva are not in these texts. The clause now names what the sources show: Calvin's draft of the confession and a pastor sent from Geneva. The long sentence is split for reading level.",
+   "fre_after": 64.0,
+   "fk_after": 8.8
+  },
+  {
+   "n": 4,
+   "movement": "puritanism",
+   "field": "relationsSummary",
+   "old": "Child of Geneva + the English settlement's tensions; parent of the evangelical line",
+   "new": "Shaped by Geneva and grown inside the English church, which it thought only half reformed. Its stress on a personal turn to God later fed the revival in New England.",
+   "reason": "'Child of Geneva' becomes influence (Beza's and Gualter's letters printed with the Admonition); 'parent of the evangelical line' becomes influence (Edwards quoting Shepard), seventy years on. The fragment with '+' is rewritten as plain sentences.",
+   "fre_after": 67.5,
+   "fk_after": 7.6
+  },
+  {
+   "n": 5,
+   "movement": "puritanism",
+   "field": "legacy",
+   "old": "Puritanism did not survive as a church of its own, but it left more behind than most movements that did. English Congregationalism, Presbyterianism and much of the Baptist tradition come straight out of it, and so does the culture of early New England, including Harvard, founded in 1636 to train its ministers. Its books stayed in print — Bunyan's Pilgrim's Progress, written by a man formed in that tradition, became one of the most widely read books in English. And its insistence on personal conversion runs directly into the evangelical revivals of the following century.",
+   "new": "Puritanism did not survive as a church of its own, but it left more behind than most that did. English Congregationalism, Presbyterianism and much of the Baptist tradition came straight out of it. So did the culture of early New England, including Harvard, founded in 1636 to train its ministers. Its books stayed in print. Bunyan's Pilgrim's Progress, by a man formed in that tradition, became one of the most read books in English. And its call to a personal turn to God fed the revivals of the next century: in New England, Jonathan Edwards still quoted the Puritan Thomas Shepard.",
+   "reason": "'Runs directly into' claimed more than the evidence; the source shows Edwards quoting Shepard in 1746, and the sentence now names that tie. Other sentences are lightly shortened for reading level; their content is unchanged.",
+   "fre_after": 63.0,
+   "fk_after": 8.6
+  }
+ ],
+ "wants": [
+  "Paul III's bull against Henry VIII (1538) in a clean edition; the Brutum Fulmen copy is Latin only with garbled OCR.",
+  "The Act of Supremacy (1534) and the Act Restraining Appeals (1533), for the English side of the Henrician break.",
+  "The statute 27 Eliz. c. 2 (1585) against Jesuits and seminary priests, in a vendored statute collection.",
+  "A papal or curial response to the Scottish Parliament's act of August 1560, to test a 'broke with' type for the Kirk and Rome.",
+  "W. T. Whitley, The Works of John Smyth, vol. I (1915), with Whitley's biography of Smyth's Puritan years at Lincoln and Gainsborough.",
+  "Luther's preface to Romans (1522, or Jonas's Latin of 1523), to set against Tyndale's Prologue line by line.",
+  "Records of the French refugee churches (London Threadneedle Street, Berlin, Amsterdam, Cape Town, Charleston) for the Huguenot legacy.",
+  "A source for the legal return of English Catholicism (Relief Acts 1778-1829; hierarchy 1850) and the canonization of 1970."
+ ],
+ "escalations": []
+}

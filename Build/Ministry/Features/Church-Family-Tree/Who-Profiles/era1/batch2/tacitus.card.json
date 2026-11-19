@@ -1,0 +1,81 @@
+{
+  "name": "Tacitus",
+  "otherNames": [
+    "Cornelius Tacitus"
+  ],
+  "label": "Outside witness",
+  "knownFor": "A Roman historian whose Annals tell how Nero blamed the Christians for the fire of Rome, and name Christus as executed under Pontius Pilate.",
+  "dates": "Wrote after 96, the year his history reached",
+  "tradition": "Outside the church",
+  "role": "Roman historian",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Annals, Book 15, chapter 44",
+      "about": "the fire of Rome, Nero's punishment of the Christians, and Christus under Pilate"
+    },
+    {
+      "title": "Histories",
+      "about": "cited by Tertullian of Carthage for what Tacitus said of the Jews; not held in the Library"
+    }
+  ],
+  "legacy": {
+    "remembered": [
+      "Tertullian of Carthage, defending the Christians, calls him \"most loquacious in falsehood\" for his account of the Jews.",
+      "Sulpicius Severus, born in Aquitania about 363, retold Nero's tortures of the Christians in nearly the same words.",
+      "John Rolfe, who translated Suetonius, says Tacitus found no follower until Ammianus Marcellinus."
+    ]
+  },
+  "uncertain": [
+    "Tacitus does not say where he learned about Christus.",
+    "Gibbon, and later Schiller, held that Nero's victims were the Jews as a whole, and that Tacitus was wrong to call them Christians. Arthur McGiffert, who translated Eusebius of Caesarea in 1890, disagreed, noting that Josephus says nothing of an attack on the Jews under Nero.",
+    "The Library holds one chapter of the Annals. Nothing in it shows what Tacitus says elsewhere.",
+    "The English is the translation standardly identified as Church and Brodribb's of 1876. The file itself names no translator."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Annals, Book 15, chapter 44 (in the translation standardly identified as Church and Brodribb)",
+        "language": "English",
+        "file": "cic/texts/tacitus_annals-15-44_church-brodribb1876.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Apology, chapter 16; To the Nations, Book 1, chapter 11",
+        "author": "Tertullian of Carthage",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf03_tertullian.xml"
+      },
+      {
+        "title": "Church History, Book 2, chapter 25, with McGiffert's notes",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Sacred History, Book 2, chapter 29",
+        "author": "Sulpicius Severus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml"
+      },
+      {
+        "title": "Roman History, translator's preface (Ammianus's history began in 96, \"where Tacitus and Suetonius end\")",
+        "author": "Charles Duke Yonge",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/ammianus-marcellinus_roman-history_yonge1862.txt"
+      },
+      {
+        "title": "The Life and Works of Suetonius (introduction)",
+        "author": "John C. Rolfe",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt"
+      }
+    ]
+  }
+}

@@ -54,3 +54,30 @@ def test_the_stories_and_quotes_section_asks_for_a_full_quote_a_retelling_and_no
     assert "one quote in full" in section and "modern rendering" in section
     assert "directive asks for a quote" in section
     assert "retelling" in section and "never merely named" in section
+
+
+def _pronoun_rule():
+    return shape.shape_text().split("## Pronoun rule", 1)[1].split("\n## ", 1)[0]
+
+
+def test_the_pronoun_rule_keeps_we_for_the_tradition_and_i_for_the_conversation():
+    rule = _pronoun_rule()
+    assert "Strict we-voice, always" not in rule
+    assert "'We' is for the tradition's own perspective" in rule
+    assert "'I' is for the voice's own acts in this conversation" in rule
+
+
+def test_the_pronoun_rule_names_what_the_sources_name_and_claims_to_be_no_person():
+    rule = _pronoun_rule()
+    assert "wherever the sources name them" in rule
+    assert "never claims to be a bishop or any other person" in rule
+
+
+def test_the_pronoun_rule_keeps_the_identity_line_at_most_once_per_turn_and_answers_why_we_plainly():
+    rule = _pronoun_rule()
+    assert "'I am a representative of'" in rule and "at most once per turn" in rule
+    assert "Asked why it says 'we', the voice answers plainly" in rule
+
+
+def test_the_pronoun_rule_no_longer_bans_explaining_what_is_speaking():
+    assert "kind of thing is speaking" not in _pronoun_rule()

@@ -16,7 +16,7 @@ confidence:
     statement of his method, internally dated to 434 (Doc_01 §2.3).
 sources:
 - source_id: gallic.source.vincent-commonitory
-  locus: "Commonitory ch. 2 [6] (npnf211 div iii.iii, file lines 12185-12190): Vincent's rule for distinguishing true Catholic faith from heresy"
+  locus: "Commonitory ch. 2 [6] (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 12185-12190; div iii.iii): Vincent's rule for distinguishing true Catholic faith from heresy"
   license: public-domain
 retrieval:
   tier: 1

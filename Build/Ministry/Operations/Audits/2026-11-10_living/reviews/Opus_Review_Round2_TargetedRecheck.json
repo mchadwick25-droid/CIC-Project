@@ -1,0 +1,157 @@
+{
+ "verdict": "revise",
+ "summary": "Revise, narrowly. Round 1 is substantially fixed. Of 38 findings (several split by id), all are applied except R1-35. Three are only partly fixed: R1-05 (VII.6's history-page sentence is uncited), R1-27 (Kongo's presentBody, and its openQuestion now that CO-3 is ruled) and R1-18 (carriers fixed, but the copied link grade was left; see CO-2). R1-35 not applied leaves things weaker, not wrong. The dates were confirmed on the saved pages. II.6, II.8 and III.24 honestly read 'newest verified none'. Where a quote lacks its date, the date sits elsewhere on the same saved page. The revision's own additions hold: the CO-1 rewording, the Black Church and Indonesian descent removals, and the six remaining CD grades. The one new defect is the R1-29 dependency note, now false on 17 decisions after CO-1. Jerusalem against Antioch: the difference is principled and the record supports it. Antioch's rivals (Melkite 1724, Syriac Orthodox) come out of its own community. Jerusalem's only other line in the record is the Latin one from 1099. But both descentBases rest on uncited or wrong facts and need rewording. Melkite Arabic Christianity should match Antioch (Contested). New France must follow the Kongo and CO-3 treatment. Era 10 (12 entries): every basis matches its evidence and every grade is rightly CR. No item earns CD: the independent items are journalism, partner or trade-press reports, and Pew classification lists. The layout-inferred dates on mospat.ru, cogic.org and hkbp.or.id are acceptable: each is the item's own stamp beside the quoted headline. Two citation defects: the Moscow Times URL is wrong (the date is right), and the Mar Thoma own-voice item comes from a staging host. Totals: 9 substantial, 5 cosmetic, no new change orders.",
+ "findings": [
+  {
+   "id": "R2-01",
+   "atlasId": "III.8, IV.19, V.8, VI.23, VI.13b, VI.20, VII.21, VII.28, VIII.12, VIII.1, VIII.3, VIII.31, VIII.38, VIII.11, VIII.27, VIII.26, VIII.45",
+   "severity": "substantial",
+   "problem": "Stale after CO-1. R1-29 and R1-15 set 'Its carrier holds no dated present-day item. The mark waits on change order CO-1.' on these 17 decisions. era10_evidence_apply.json now gives every one of their carriers (Russian Orthodox Church, UGCC Underground, Greek Church and Ecumenical Patriarchate, Japanese Christianity after 1906, Black Church, Churches of Christ, Disciples, Northeast India and Mar Thoma, Indonesian Christianity) dated, verified items graded CR. The openQuestion is now false.",
+   "fix": {
+    "openQuestion (each listed id)": null
+   }
+  },
+  {
+   "id": "R2-02",
+   "atlasId": "VI.13a",
+   "severity": "substantial",
+   "problem": "Partly fixed (R1-27). The basis now says no dated record ties a church today to the kingdom's church, but presentBody still names 'Catholic dioceses of the old Kongo region', which rests on nothing in the record. The openQuestion still points to CO-3 as pending. The lead has now ruled CO-3: the flag stays living, graded none, with a wanted note. Grade and wanted already match that ruling.",
+   "fix": {
+    "presentBody": null,
+    "openQuestion": null
+   }
+  },
+  {
+   "id": "R2-03",
+   "atlasId": "VI.31",
+   "severity": "substantial",
+   "problem": "Inconsistent with R1-27 and the CO-3 ruling. New France is the other CO-3 row: no end, no dated item, and entry text that stops at 1650. Yet it keeps an Inferential-Thin descent grade, and its presentBody names the Wendake community. Its own openQuestion says no source in hand shows that link. That grades a descent claim the record does not make. Kongo had the same grade removed.",
+   "fix": {
+    "descentConfidence": null,
+    "descentBasis": null,
+    "presentBody": null,
+    "outcome": "kept"
+   }
+  },
+  {
+   "id": "R2-04",
+   "atlasId": "VII.6",
+   "severity": "substantial",
+   "problem": "Partly fixed (R1-05). The last basis sentence, that the UCC's history page names Congregational churches with Puritan New England roots, rests on a page that is not an evidence item. Under the never-invent rule every basis claim needs an entry text, a cited item or a tree link. The page is saved (scratchpad agents/revise1/pages/ucc_hist.html) and it carries the line. It only has to be cited. An undated item can support the historical tie. The dated constitution item still carries the R2 date.",
+   "fix": {
+    "evidenceItems (append)": {
+     "kind": "own-voice",
+     "title": "History of the United Church of Christ",
+     "publisher": "United Church of Christ",
+     "date": null,
+     "url": "the history page's URL as fetched",
+     "page": "pages/ucc_hist.html",
+     "quote": "Two of these were the Congregational Churches of the English Reformation with Puritan New England roots in America",
+     "verified": "true only if check_quotes.py finds it in the saved page and a fresh fetch"
+    },
+    "evidence": "append ' | History of the United Church of Christ, United Church of Christ (undated): own-voice; verified. <url>'",
+    "basis (if the quote does not verify)": "An episode of a living tradition. The entry's own text says the awakening ran through New England's old parish churches. The tree has no entry for those churches after about 1760.",
+    "presentBody (if the quote does not verify)": null,
+    "verdict/grade (if the quote does not verify)": "keep living only if the lead accepts the constitution item alone; otherwise revert to the R1-05 openQuestion branch"
+   }
+  },
+  {
+   "id": "R2-05",
+   "atlasId": "III.2",
+   "severity": "substantial",
+   "problem": "Not covered by the CO-2 ruling's application. R1-18 fixed the carriers. But the descent grade is still the copied 'gave rise to' link level (Dominant Modern Reconstruction), and the descentBasis says so ('The tree links it ... at the same level'). The ruling says line descent grades now judge descent itself. On that test this is the Antioch shape: one communion split in the 1700s into two living churches that each stand in its line. The entry's own legacy says so. Antioch (I.42) is now Contested. A 'reconstruction' grade misstates a split as doubt about the evidence.",
+   "fix": {
+    "descentConfidence": "Contested",
+    "descentBasis": "The entry's own text says the communion lives on in three churches. After a split in the 1700s, the Greek Orthodox and Melkite Greek Catholic churches each stand in its line."
+   }
+  },
+  {
+   "id": "R2-06",
+   "atlasId": "I.15",
+   "severity": "substantial",
+   "problem": "The reviser's note: Jerusalem (Widely Accepted) and Antioch (Contested) are graded unlike each other. The difference is right in kind and the record supports it. Antioch's rivals come out of its own community. The Melkite split entry dates the Melkite patriarchate to the 1724 split and says both churches are alive. The Syriac Orthodox entry names a Syriac Orthodox Church of Antioch with its own patriarch. Jerusalem's only other title-holder in the record is the Latin line. The Outremer entry dates it from 1099 ('Latin patriarchs ruled at Jerusalem from 1099') and says it left no lasting church in the East. So no rival line from the ancient community appears. But Jerusalem's descentBasis rests on nothing cited: the Jerusalem entry never mentions a Latin patriarchate. 'The Greek line is the older institution' is likewise uncited. Ground it in the tree's own Outremer entry and keep the grade.",
+   "fix": {
+    "descentConfidence": "Widely Accepted",
+    "descentBasis": "A Latin line also holds a Jerusalem title, but the tree's Outremer entry dates it from 1099. No rival line from the ancient church appears in the record."
+   }
+  },
+  {
+   "id": "R2-07",
+   "atlasId": "I.42",
+   "severity": "substantial",
+   "problem": "The grade is right, but the descentBasis is unsupported and partly wrong. 'Several patriarchates (Greek Orthodox, Syriac Orthodox, Melkite, Maronite and Latin) hold titles of Antioch': no entry, item or link names a Maronite patriarch of Antioch. The Latin title is not held today. The Outremer entry gives only the crusade-era Latin patriarchs. 'The other bodies dispute whose line it is' describes beliefs, not records (R4). Use the two rivals the tree itself names.",
+   "fix": {
+    "descentBasis": "More than one church has a patriarch of Antioch today. The tree's own entries name the Melkite Greek Catholic Church, from a split in 1724, and the Syriac Orthodox Church of Antioch."
+   }
+  },
+  {
+   "id": "R2-08",
+   "atlasId": "era 10: the-russian-orthodox-church-council-patriarchate-and-reunion; the-russian-new-martyrs-and-the-catacomb-church",
+   "severity": "substantial",
+   "problem": "Wrong citation. The Moscow Times item is cited at https://www.themoscowtimes.com/2026/08/05/russian-patriarch-mocks-priest-for-questioning-churchs-patriotism with date 2025-02-12. The saved page's canonical URL and published time are 2025/02/12 ...-a87963 (article:published_time 2025-02-12T16:06). The cited path carries a different date that is not the article's own. The date is right; the URL is not. A reader who checks it sees two dates.",
+   "fix": {
+    "evidence (both ids, item 2 url)": "https://www.themoscowtimes.com/2025/02/12/russian-patriarch-mocks-priest-for-questioning-churchs-patriotism-a87963",
+    "then": "re-run the quote check on that URL; the grade stays CR"
+   }
+  },
+  {
+   "id": "R2-09",
+   "atlasId": "era 10: northeast-india-and-mar-thoma-twentieth-century",
+   "severity": "substantial",
+   "problem": "The own-voice item comes from uatwp.marthoma.in, whose own canonical tag names that host. It is a user-acceptance-test (staging) copy of the site, not the church's published site. The live marthoma.in page (saved as mt2.html) does not carry the quoted line. A staging server is not a dated record the church published. Its date is also only the year inside an election title. The basis also says 'A church body', but the entry covers the Northeast India churches as well as Mar Thoma. The Black Church and Indonesian bases word that case as 'one of the bodies the entry names'. The 2013 Madhyamam report still meets R2 and gives CR on its own.",
+   "fix": {
+    "evidence": "Maramon Convention, Asia’s biggest Christian meet, begins, Madhyamam Online (2013-02-11): independent; verified. https://madhyamamonline.com/en/node/8985",
+    "grade": "CR (Contemporary-Reported); newest dated item 2013, newest verified 2013",
+    "basis": "Church bodies with no recorded end. The mark rests on a dated 2013 news report on the Mar Thoma Syrian Church, one of the bodies the entry names.",
+    "alternative": "if a dated item on marthoma.in itself verifies in both methods, cite it in place of the staging page and keep the current grade, with the basis's first sentence changed to 'Church bodies with no recorded end.' and 'one of the bodies the entry names' added"
+   }
+  },
+  {
+   "id": "R2-10",
+   "atlasId": "era 10: mospat.ru (Russian Orthodox Church, Catacomb Church); cogic.org (Black Church); hkbp.or.id (Indonesian Christianity)",
+   "severity": "cosmetic",
+   "problem": "Dates inferred from page layout are acceptable as dated items. Each date is the item's own stamp, printed in the same list entry as the quoted headline, and is not a page-wide or fetch date. The stamps are mospat '... Primate of the Orthodox Church of Jerusalem 05.11.2026', cogic 'By koinoniacafe October 22, 2026' (and the quote itself says 2026), and hkbp '10/11/2026'. These are rotating news lists, though, and the quotes leave the stamp out, so a later re-check cannot tie the date to the line. The other item on each is dated on its own, so nothing rests on the layout date alone.",
+   "fix": {
+    "quote (each)": "extend the quote to take in the adjacent date stamp, e.g. 'His Holiness Patriarch Kirill meets with the Primate of the Orthodox Church of Jerusalem 05.11.2026', and re-run the quote check"
+   }
+  },
+  {
+   "id": "R2-11",
+   "atlasId": "era 10: the-russian-new-martyrs-and-the-catacomb-church",
+   "severity": "cosmetic",
+   "problem": "'which honors the new martyrs' describes practice in general terms. The entry's own text gives the record: the Moscow patriarchate canonized them in August 2000.",
+   "fix": {
+    "basis": "An episode of a living tradition. The mark rests on the Russian Orthodox Church, which canonized the new martyrs in 2000, as the entry's own text says. No dated record of the catacomb communities is cited."
+   }
+  },
+  {
+   "id": "R2-12",
+   "atlasId": "I.27",
+   "severity": "cosmetic",
+   "problem": "After the R1-26 fallback the basis says the community has stood there since about 410. But the openQuestion ('a community refounded on the same site') and wanted ('documents the gap') assume a refounding. The reviser found the abbey's own undated history page speaking of a 'reopening'. Under the CO-4 ruling that question belongs in Open-Gaps. The decision should point there rather than carry a contradicting question.",
+   "fix": {
+    "openQuestion": "The abbey's own history page speaks of a reopening. Whether the community broke is logged for the entry's owner in Open-Gaps (Lérins entry text, 2026-11-10).",
+    "wanted": "A dated history of the abbey that says whether the community ever broke."
+   }
+  },
+  {
+   "id": "R2-13",
+   "atlasId": "I.39",
+   "severity": "cosmetic",
+   "problem": "Stale after R1-09. 'A dated source linking a present church to the Caesarea school' belongs to the old school reading. The entry is now a line entry for the church of Palestine.",
+   "fix": {
+    "wanted": null
+   }
+  },
+  {
+   "id": "R2-14",
+   "atlasId": "III.23",
+   "severity": "cosmetic",
+   "problem": "descentBasis sentence runs to 29 words.",
+   "fix": {
+    "descentBasis": "The Church in Wales names the dioceses of St Asaph, Bangor, St Davids and Llandaff on its site. No fetched source states that they continue the medieval sees."
+   }
+  }
+ ],
+ "changeOrders": []
+}

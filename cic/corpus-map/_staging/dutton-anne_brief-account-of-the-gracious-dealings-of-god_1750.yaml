@@ -1,0 +1,24 @@
+source_file: dutton-anne_brief-account-of-the-gracious-dealings-of-god_1750.txt
+assignments:
+- row_id: dutton-anne_brief-account-of-the-gracious-dealings-of-god_1750--dutton-brief-account-three-parts
+  work: 'Dutton, A Brief Account of the Gracious Dealings of God, Parts I-III with the Appendix (1750)'
+  author: dutton-anne
+  locus: 'Part I from OCR line 242; Part II from 4159; Part III from 13871; the Appendix at 19469 to about 23440; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-baptists
+  role: tradition
+  confidence: provisional
+  language: eng
+  date: {start: 1743, end: 1750, source: "Part II's own imprint reads 1743 (OCR line 4218); the general title page reads 1750 (line 77)", formation_confidence: Documented}
+  note: 'Her own account of God''s dealings with her and of the tracts she wrote. The title page gives initials, ''A. D.''; the name is the record''s.'
+- row_id: dutton-anne_brief-account-of-the-gracious-dealings-of-god_1750--dutton-letter-on-printing-by-a-woman
+  work: 'Dutton, a letter on the lawfulness of printing any thing written by a woman (1750 printing)'
+  author: dutton-anne
+  locus: 'the letter at OCR lines 23554-24020, its title at 23481-23547; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-baptists
+  role: tradition
+  confidence: provisional
+  language: eng
+  date: {start: 1750, end: 1750, source: "printed here with the Brief Account of 1750; her list numbers the letter as tract XIV (OCR line 18639), so it was printed earlier, in a year the book does not give", formation_confidence: Documented}
+  note: 'Her defense of writing for print as a woman, addressed to ministers who objected. Signed ''A. D.'''

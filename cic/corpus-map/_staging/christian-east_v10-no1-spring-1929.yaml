@@ -1,0 +1,20 @@
+source_file: christian-east_v10-no1-spring-1929.txt
+assignments:
+- row_id: christian-east_v10-no1-spring-1929--the-christian-east-volume-x-number-1-spring-1929
+  work: 'The Christian East, volume X, number 1 (Spring, 1929)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  note: 'An Anglican quarterly on the Eastern churches; many writers, and the documents it prints are in translation.'
+- row_id: christian-east_v10-no1-spring-1929--the-christian-east-volume-x-number-1-spring-1929-on-the
+  work: 'The Christian East, volume X, number 1 (Spring, 1929): on the Bulgarian church'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - orthodoxy-in-the-communist-balkans
+  role: context
+  confidence: assigned
+  note: 'An Anglican journal''s reports on the Bulgarian church; an outside witness.'

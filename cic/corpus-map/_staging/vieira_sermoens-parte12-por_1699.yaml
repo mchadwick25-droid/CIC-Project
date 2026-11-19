@@ -1,0 +1,14 @@
+source_file: vieira_sermoens-parte12-por_1699.txt
+assignments:
+- row_id: vieira_sermoens-parte12-por_1699--vieira-sermoens-parte-12
+  work: 'Vieira, Sermoens, parte duodécima (Lisbon, 1699)'
+  author: vieira
+  locus: 'the sermons at OCR lines 563-32594; add 12 to OCR line numbers'
+  atlas_ids:
+  - colonial-latin-american-devotional-catholicism
+  - society-of-jesus-1650-1814
+  role: tradition
+  confidence: provisional
+  language: por
+  date: {start: 1699, end: 1699, source: "title page: 1699; the sermon headings give the years they were preached", formation_confidence: Documented}
+  note: 'The Jesuit preacher''s sermons as printed at Lisbon in 1699; the Society''s licence in the front matter is dated from Bahia. A printed text may differ from what was preached.'

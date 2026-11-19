@@ -1,0 +1,214 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.term.raza-shrara",
+    "syr.dw.reading"
+   ],
+   "sentence": "We read Scripture for symbols, each one bound to the hidden truth it carries, a pair we named raza and shrara."
+  },
+  {
+   "record_ids": [
+    "syr.term.raza-shrara"
+   ],
+   "sentence": "A raza was never a stand-in that a reader picks at will."
+  },
+  {
+   "record_ids": [
+    "syr.dw.reading"
+   ],
+   "sentence": "So Eden was read toward the cross, Adam toward Christ, and the ark toward the church."
+  },
+  {
+   "record_ids": [
+    "syr.dw.reading"
+   ],
+   "sentence": "We did not read Genesis as science, though not because we doubted the text."
+  },
+  {
+   "record_ids": [
+    "syr.dw.reading"
+   ],
+   "sentence": "We read for something else, and a whole chapter's worth of meaning could be found in a single pearl."
+  },
+  {
+   "record_ids": [
+    "syr.quote.on-a-certain-day-a-pearl"
+   ],
+   "sentence": "In today's English, Ephrem the Syrian says: “One day, my brothers, I picked up a pearl. In it I saw mysteries of the Kingdom, images and symbols of the Majesty; it became a fountain, and from it I drank mysteries of the Son. I set it, my brothers, on the palm of my hand so I could examine it. I went to look at it from one side, and it showed faces on every side. I discovered that the Son cannot be fully grasped, since he is wholly Light.”"
+  },
+  {
+   "record_ids": [
+    "syr.term.ewangeliyon-da-mhallete",
+    "syr.dw.gospel-harmony"
+   ],
+   "sentence": "The Gospel we read in worship was one woven story, not four separate books."
+  },
+  {
+   "record_ids": [
+    "syr.dw.reading"
+   ],
+   "sentence": "Scripture was supreme among us, yet it always reached us through worship, the woven Gospel, our teachers, and the covenant's practice."
+  },
+  {
+   "record_ids": [
+    "syr.dw.reading"
+   ],
+   "sentence": "The book and the community that sang it were never rivals."
+  },
+  {
+   "record_ids": [
+    "syr.term.madrasha"
+   ],
+   "sentence": "Among us, doctrine was taught by singing it, in the teaching hymn we call the madrasha."
+  }
+ ],
+ "citations": [
+  "syr.dw.gospel-harmony",
+  "syr.dw.reading",
+  "syr.quote.on-a-certain-day-a-pearl",
+  "syr.term.ewangeliyon-da-mhallete",
+  "syr.term.madrasha",
+  "syr.term.raza-shrara"
+ ],
+ "group": "A",
+ "id": "q010",
+ "net_sentences": [
+  {
+   "draft": "We read Scripture for symbols, each one bound to the hidden truth it carries, a pair we named raza and shrara [[syr.term.raza-shrara]] [[syr.dw.reading]] [[as:paraphrase]].",
+   "sentence": "We read Scripture for symbols, each one bound to the hidden truth it carries, a pair we named raza and shrara.",
+   "tags": [
+    "syr.term.raza-shrara",
+    "syr.dw.reading"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "A raza was never a stand-in that a reader picks at will [[syr.term.raza-shrara]] [[as:paraphrase]].",
+   "sentence": "A raza was never a stand-in that a reader picks at will.",
+   "tags": [
+    "syr.term.raza-shrara"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "So Eden was read toward the cross, Adam toward Christ, and the ark toward the church [[syr.dw.reading]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "So Eden was read toward the cross, Adam toward Christ, and the ark toward the church.",
+   "tags": [
+    "syr.dw.reading"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We did not read Genesis as science, though not because we doubted the text [[syr.dw.reading]] [[as:paraphrase]].",
+   "ratio": 0.83,
+   "sentence": "We did not read Genesis as science, though not because we doubted the text.",
+   "tags": [
+    "syr.dw.reading"
+   ],
+   "verdict": "ok",
+   "why": "grounded 83% in own tagged records"
+  },
+  {
+   "draft": "We read for something else, and a whole chapter's worth of meaning could be found in a single pearl [[syr.dw.reading]] [[as:paraphrase]].",
+   "sentence": "We read for something else, and a whole chapter's worth of meaning could be found in a single pearl.",
+   "tags": [
+    "syr.dw.reading"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Ephrem the Syrian wrote in his first Pearl hymn: [[quote:syr.quote.on-a-certain-day-a-pearl]]",
+   "placed_quote": "syr.quote.on-a-certain-day-a-pearl",
+   "sentence": "In today's English, Ephrem the Syrian says: “One day, my brothers, I picked up a pearl. In it I saw mysteries of the Kingdom, images and symbols of the Majesty; it became a fountain, and from it I drank mysteries of the Son. I set it, my brothers, on the palm of my hand so I could examine it. I went to look at it from one side, and it showed faces on every side. I discovered that the Son cannot be fully grasped, since he is wholly Light.”",
+   "tags": [
+    "syr.quote.on-a-certain-day-a-pearl"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "The Gospel we read in worship was one woven story, not four separate books [[syr.term.ewangeliyon-da-mhallete]] [[syr.dw.gospel-harmony]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The Gospel we read in worship was one woven story, not four separate books.",
+   "tags": [
+    "syr.term.ewangeliyon-da-mhallete",
+    "syr.dw.gospel-harmony"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Scripture was supreme among us, yet it always reached us through worship, the woven Gospel, our teachers, and the covenant's practice [[syr.dw.reading]] [[as:paraphrase]].",
+   "sentence": "Scripture was supreme among us, yet it always reached us through worship, the woven Gospel, our teachers, and the covenant's practice.",
+   "tags": [
+    "syr.dw.reading"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The book and the community that sang it were never rivals [[syr.dw.reading]] [[as:paraphrase]].",
+   "sentence": "The book and the community that sang it were never rivals.",
+   "tags": [
+    "syr.dw.reading"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Among us, doctrine was taught by singing it, in the teaching hymn we call the madrasha [[syr.term.madrasha]] [[as:paraphrase]].",
+   "sentence": "Among us, doctrine was taught by singing it, in the teaching hymn we call the madrasha.",
+   "tags": [
+    "syr.term.madrasha"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "syr.dw.apostolic",
+  "syr.term.raza-shrara",
+  "syr.quote.a-pearl-upon-the-palm",
+  "syr.gravity.covenant-life",
+  "syr.term.anti-jewish-polemic",
+  "syr.quote.on-a-certain-day-a-pearl",
+  "syr.dw.corpus-and-its-edges",
+  "syr.story.abgar-addai-legend",
+  "syr.story.edessa-flood-201",
+  "syr.quote.abgar-letter",
+  "syr.force.transmission-ending",
+  "syr.force.transmission-ongoing"
+ ],
+ "raw_text": "We read Scripture for symbols, each one bound to the hidden truth it carries, a pair we named raza and shrara [[syr.term.raza-shrara]] [[syr.dw.reading]] [[as:paraphrase]].\nA raza was never a stand-in that a reader picks at will [[syr.term.raza-shrara]] [[as:paraphrase]].\nSo Eden was read toward the cross, Adam toward Christ, and the ark toward the church [[syr.dw.reading]] [[as:paraphrase]].\nWe did not read Genesis as science, though not because we doubted the text [[syr.dw.reading]] [[as:paraphrase]].\nWe read for something else, and a whole chapter's worth of meaning could be found in a single pearl [[syr.dw.reading]] [[as:paraphrase]].\nEphrem the Syrian wrote in his first Pearl hymn: [[quote:syr.quote.on-a-certain-day-a-pearl]]\nThe Gospel we read in worship was one woven story, not four separate books [[syr.term.ewangeliyon-da-mhallete]] [[syr.dw.gospel-harmony]] [[as:paraphrase]].\nScripture was supreme among us, yet it always reached us through worship, the woven Gospel, our teachers, and the covenant's practice [[syr.dw.reading]] [[as:paraphrase]].\nThe book and the community that sang it were never rivals [[syr.dw.reading]] [[as:paraphrase]].\nAmong us, doctrine was taught by singing it, in the teaching hymn we call the madrasha [[syr.term.madrasha]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [
+   "syr.quote.on-a-certain-day-a-pearl"
+  ],
+  "removed": [],
+  "repaired": [
+   {
+    "draft": "Ephrem the Syrian wrote in his first Pearl hymn: [[quote:syr.quote.on-a-certain-day-a-pearl]]",
+    "lead_in": "In today's English, Ephrem the Syrian says",
+    "unresolved": [
+     {
+      "detail": "wrote",
+      "kind": "genre"
+     }
+    ],
+    "why": "lead-in stated a detail no source document supports; replaced by code's"
+   }
+  ]
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C5.S2",
+ "text": "We read Scripture for symbols, each one bound to the hidden truth it carries, a pair we named raza and shrara. A raza was never a stand-in that a reader picks at will. So Eden was read toward the cross, Adam toward Christ, and the ark toward the church. We did not read Genesis as science, though not because we doubted the text. We read for something else, and a whole chapter's worth of meaning could be found in a single pearl. In today's English, Ephrem the Syrian says: “One day, my brothers, I picked up a pearl. In it I saw mysteries of the Kingdom, images and symbols of the Majesty; it became a fountain, and from it I drank mysteries of the Son. I set it, my brothers, on the palm of my hand so I could examine it. I went to look at it from one side, and it showed faces on every side. I discovered that the Son cannot be fully grasped, since he is wholly Light.”\n\nThe Gospel we read in worship was one woven story, not four separate books. Scripture was supreme among us, yet it always reached us through worship, the woven Gospel, our teachers, and the covenant's practice. The book and the community that sang it were never rivals. Among us, doctrine was taught by singing it, in the teaching hymn we call the madrasha.",
+ "voice_set_aside": false
+}

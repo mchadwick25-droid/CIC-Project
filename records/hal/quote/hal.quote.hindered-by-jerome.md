@@ -24,7 +24,7 @@ confidence:
     inspection, not by an automated gate.
 sources:
 - source_id: hal.source.palladius-lausiac
-  locus: ch. 41 (file lines 473-475)
+  locus: "ch. 41 (cic/texts/palladius_lausiac-history_clarke1918.txt, line 475)"
   license: public-domain
 text: 'Among them was the Roman lady Paula, mother of Toxotius, a woman of great
   distinction in the spiritual life. She was hindered by a certain Jerome from Dalmatia.
@@ -32,22 +32,22 @@ text: 'Among them was the Roman lady Paula, mother of Toxotius, a woman of great
   jealousy, having induced her to serve his own plan.'
 modern_rendering: >-
   Among them was the Roman lady Paula, mother of Toxotius, a woman of great distinction in
-  the spiritual life. A certain Jerome from Dalmatia held her back. She had great gifts and
-  was able to surpass everyone; but he held her back by his jealousy, for he had led her to
-  serve his own plan.
+  the spiritual life. A certain Jerome from Dalmatia held her back. She had great
+  abilities and was able to surpass everyone. But he held her back by his jealousy, having
+  led her to serve his own plan.
 speaker_or_author: 'Palladius of Galatia, Lausiac History 41 (trans. Clarke)'
 license: verbatim
 modern_lens_note: '"Jealousy" carries the older sense of envy over standing or advantage, not a personal or romantic sense.'
 retrieval:
   tier: 2
   retrieve_when:
-  - "participant asks what outsiders made of the relationship at the centre of this circle"
+  - "participant asks what outsiders made of the relationship at the center of this circle"
   - "participant asks whether a woman's own work was overshadowed by the man she funded"
 relations:
 - type: associated-with
   target: hal.quote.paula-escaped-his-envy
 use_note:
-  means: "Palladius's Lausiac History says Jerome's jealousy hindered Paula, who could have surpassed all, by inducing her to serve his own plan."
+  means: "Palladius's Lausiac History says Jerome hindered Paula, who could have surpassed all, by his jealousy, having induced her to serve his own plan."
   not_for:
     - "a settled verdict on the Paula-Jerome relationship; Palladius wrote from a milieu hostile to Jerome"
     - "this world's own voice; it is an outside, adverse witness"

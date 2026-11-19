@@ -1,0 +1,120 @@
+{
+ "draft": "The physical evidence we can point to comes from a letter, not from a trench [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]]. Augustine's Letter 126 to Albina, written in 411, describes an apse, a raised seating area for the clergy, steps, and a floor for the congregation [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]].\n\nSite reports and inscription collections for our region exist, but none has yet been read for what it shows of our worship [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]]. That material is unread, not absent [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]]. We also have no distinctive inscription tied to our worship [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]].\n\nThe church that Cyprian took over was already big enough to hold real factions, and to call councils of dozens of bishops [[lpc.force.organized-carthaginian-church]] [[as:paraphrase]]. Those councils met and left written acts [[lpc.force.organized-carthaginian-church]] [[as:paraphrase]]. Augustine later read those acts and argued with them [[lpc.force.organized-carthaginian-church]] [[as:paraphrase]].\n",
+ "ending": "clean",
+ "final": "The physical evidence we can point to comes from a letter, not from a trench. Augustine's Letter 126 to Albina, written in 411, describes an apse, a raised seating area for the clergy, steps, and a floor for the congregation.\n\nSite reports and inscription collections for our region exist, but none has yet been read for what it shows of our worship. That material is unread, not absent. We also have no distinctive inscription tied to our worship.\n\nThe church that Cyprian took over was already big enough to hold real factions, and to call councils of dozens of bishops. Those councils met and left written acts. Augustine later read those acts and argued with them.",
+ "group": "A",
+ "offered": [
+  "lpc.core.latin-pastoral-congregational-christianity",
+  "lpc.force.organized-carthaginian-church",
+  "lpc.limit.411-gesta-unread"
+ ],
+ "placements": [],
+ "question": "What physical evidence would remain of your community's gathering place?",
+ "question_id": "q021",
+ "read": {
+  "dropped": [],
+  "status": "clean",
+  "unsupported": {}
+ },
+ "rewrite": null,
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The physical evidence we can point to comes from a letter, not from a trench.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Augustine's Letter 126 to Albina, written in 411, describes an apse, a raised seating area for the clergy, steps, and a floor for the congregation.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Site reports and inscription collections for our region exist, but none has yet been read for what it shows of our worship.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "That material is unread, not absent.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We also have no distinctive inscription tied to our worship.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The church that Cyprian took over was already big enough to hold real factions, and to call councils of dozens of bishops.",
+   "tags": [
+    "lpc.force.organized-carthaginian-church"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Those councils met and left written acts.",
+   "tags": [
+    "lpc.force.organized-carthaginian-church"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Augustine later read those acts and argued with them.",
+   "tags": [
+    "lpc.force.organized-carthaginian-church"
+   ]
+  }
+ ],
+ "shipped_by_net": "The physical evidence we can point to comes from a letter, not from a trench. Augustine's Letter 126 to Albina, written in 411, describes an apse, a raised seating area for the clergy, steps, and a floor for the congregation.\n\nSite reports and inscription collections for our region exist, but none has yet been read for what it shows of our worship. That material is unread, not absent. We also have no distinctive inscription tied to our worship.\n\nThe church that Cyprian took over was already big enough to hold real factions, and to call councils of dozens of bishops. Those councils met and left written acts. Augustine later read those acts and argued with them.",
+ "sub_question": "C12.S8"
+}

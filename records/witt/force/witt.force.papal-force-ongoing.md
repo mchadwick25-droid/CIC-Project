@@ -46,7 +46,7 @@ relations:
 - type: associated-with
   target: witt.gravity.hearers-and-repeaters-of-words
 name: 'The papal force, ongoing: the Confutation, the persecution of married priests, the remembered compulsions,
-  1522-1531 [2A - ongoing/external]'
+  1522-1531'
 kind: ongoing
 matrix_cell: 2A
 description: 'After the bull, the papal force continues in three documented forms. The first is the Roman Confutation of 1530,

@@ -18,11 +18,7 @@ relations:
   target: rzg.gravity.council-led-authority-vs-consistorial-independence
 name: No internal fracture closes this world within the window
 kind: ending
-description: No internal fracture closing this world is attested within the window. The Zurich/Geneva
-  relationship is confirmed as one world, two strands, not a fracture into two; T1's own permanent, within-window
-  non-convergence is a held tension, not a rupture. Documented. This finding is what makes T1 a genuine
-  Tensional gravity rather than a resolved historical episode - its own permanent non-convergence is itself
-  the finding, not a gap in this document's own knowledge.
+description: "No internal fracture that closes this world is attested within the window. Zurich and Geneva are confirmed as one world with two strands, not a world split in two. On one question they never converged within the window: whether church discipline answers to the city council (Zurich) or stands apart from it (Geneva). This is the first tension (T1). Its lasting non-convergence is a held tension, not a rupture. This is documented. It is what makes T1 a real tensional gravity rather than a past episode that was settled. That non-convergence is itself the finding, not a gap in what is known."
 manifestations:
 - we were never one city, and we never pretended to be
 - 'we remain what we always were: one faith, arrived at twice'

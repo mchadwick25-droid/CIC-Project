@@ -21,7 +21,7 @@ confidence:
     independent claim.
 sources:
 - source_id: gallic.source.salvian-on-the-government-of-god
-  locus: "On the Government of God, Book VI.15 (Sanford 1930, pp. 183-184; file lines 8242-8261): the city's repeated destruction and the unburied dead"
+  locus: "On the Government of God, Book VI.15 (Sanford 1930, pp. 183-184; cic/texts/salvian_on-the-government-of-god_sanford1930.txt, lines 8241-8259): the city's repeated destruction and the unburied dead"
   license: public-domain
 retrieval:
   tier: 2

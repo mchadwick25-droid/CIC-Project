@@ -53,7 +53,7 @@ brackets - the translator's supplement for an ellipsis in the Syriac; the
 supplement is Budge's, not this world's. The text field keeps those bracket marks, showing Budge's
 supplement exactly as flagged rather than blending it into the sentence.
 
-The narrative around it - a brother's offence at Scete, the summons Moses
+The narrative around it - a brother's offense at Scete, the summons Moses
 first refused and then obeyed, the basket of sand carried on his
 shoulders - stands at the same locus and is carried by
 desert.story.moses-leaking-jug, which can now be verified against it
@@ -72,4 +72,4 @@ source is already carried in sources[] and divergence_note.
 
 `sources[].locus` also compiles into `quotes.json` (`build_quotes_json()` emits `sources` verbatim),
 so it is written as a plain description: it does not name a sibling record id or use build-process
-or licence-mechanics language.
+or license-mechanics language.

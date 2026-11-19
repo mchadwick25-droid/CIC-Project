@@ -1,0 +1,52 @@
+{
+  "name": "Pontius the Deacon",
+  "otherNames": [
+    "Pontius"
+  ],
+  "knownFor": "Deacon of Cyprian of Carthage, who shared his exile and wrote the Life and Passion of Cyprian.",
+  "dates": "Shared Cyprian's exile; Cyprian died in 258",
+  "place": "Carthage",
+  "tradition": "Latin Pastoral-Congregational Christianity",
+  "role": "Deacon and biographer",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "The Life and Passion of Cyprian",
+      "about": "Cyprian's conversion, his care in the plague, his exile and his death"
+    }
+  ],
+  "legacy": {
+    "remembered": [
+      "Jerome of Strido calls the Life \"a notable volume.\""
+    ]
+  },
+  "uncertain": [
+    "The Life does not name its author. Jerome is the witness that Pontius wrote it, and Wilhelm Hartel's Latin edition calls it commonly attributed to him.",
+    "Pontius writes as an admirer, and passes over Cyprian's life before his conversion.",
+    "Arthur Cleveland Coxe, in a note to the American edition, says Pontius is said to have died a martyr. Ernest Cushing Richardson, in a note to his translation of Jerome, gives his death as about 260. Neither gives a source.",
+    "Pontius says Cyprian sold his gardens for the poor. Otto Ritschl thought they were confiscated later and that Pontius mistook this for a sale. Archbishop Benson rejects that view and follows Pontius."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Life and Passion of Cyprian (tr. Ernest Wallis)",
+        "language": "English",
+        "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+      },
+      {
+        "title": "Vita Caecilii Cypriani (Latin, ed. Hartel)",
+        "language": "Latin",
+        "file": "cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Lives of Illustrious Men, 68",
+        "author": "Jerome of Strido",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      }
+    ]
+  }
+}

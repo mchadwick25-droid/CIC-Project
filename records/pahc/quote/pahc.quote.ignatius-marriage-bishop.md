@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: pahc.source.ignatius-letters
-  locus: "To Polycarp 5, shorter (middle) recension"
+  locus: "To Polycarp 5, shorter (middle) recension (cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml, lines 8734-8737)"
   license: public-domain
 text: "But it becomes both men and women who marry, to form their union with the approval of the bishop, that their marriage may be according to God, and not after their own lust. Let all things be done to the honour of God."
 modern_rendering: It is right for both men and women who marry to form their union with the bishop's approval.

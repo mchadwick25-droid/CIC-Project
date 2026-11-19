@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: pahc.source.first-clement
-  locus: "42"
+  locus: "42 (cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml, lines 1845-1860)"
   license: public-domain
 text: "The apostles have preached the Gospel to us from the Lord Jesus Christ; Jesus Christ [has done so] from God. Christ therefore was sent forth by God, and the apostles by Christ... And thus preaching through countries and cities, they appointed the first-fruits [of their labours], having first proved them by the Spirit, to be bishops and deacons of those who should afterwards believe."
 modern_rendering: The apostles preached the Gospel to us from the Lord Jesus Christ. Jesus Christ did

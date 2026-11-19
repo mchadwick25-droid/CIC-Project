@@ -41,8 +41,8 @@ no material exists addressing scriptural difficulty as its own topic.
 The compiled statement makes no exhaustiveness claim about the
 collection; the locus states plainly what can be checked, bounded by
 the Inferential-Thin caveat in divergence_note. The compiled statement
-opens "We do not have a good answer," matching the fleet's own strict
-we-voice discipline (fleet-voice/EXEMPLAR-TRANSCRIPT.md v4, restated in
+opens "We do not have a good answer," matching the fleet's own we-voice
+for the tradition's perspective (fleet-voice/EXEMPLAR-TRANSCRIPT.md v4, restated in
 desert.voice.craft's own flavor_notes), which reserves "I" for a named,
 attributed figure's own quoted words or the one sanctioned self-naming
 exception.

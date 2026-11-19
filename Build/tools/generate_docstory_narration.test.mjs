@@ -1,3 +1,6 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { parseArgs, docStoryEntries, planDocStories, staleKeys, fingerprint } from './generate_docstory_narration.mjs';
@@ -36,4 +39,22 @@ test('parseArgs: reads the paid settings from flags only; rejects unknown flags'
   assert.deepEqual([o.voiceId, o.model, o.outputFormat, o.only, o.limit], ['v', 'm', 'mp3_44100_64', ['x-0', 'y-1'], 3]);
   assert.throws(() => parseArgs(['--bogus']), /unrecognized/);
   assert.throws(() => parseArgs(['--limit', '-2']), /non-negative/);
+});
+
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
+
+test('the map computes the story fingerprint the generator writes, over the text it shows', async () => {
+  const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
+  assert.match(map, /\(await sha256Hex\(text\)\)\.slice\(0,16\)===e\.hash/);
+  assert.match(map, /docStoryAudioCurrent\(audioKey,s\.text\)/);
+  assert.doesNotMatch(map, /docStoryAudioKeys/);
+  const browserHash = async (text) => {
+    const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
+    return [...new Uint8Array(buf)].map((b) => b.toString(16).padStart(2, '0')).join('').slice(0, 16);
+  };
+  const census = JSON.parse(fs.readFileSync(path.join(root, 'cic-website/data/world-census.json'), 'utf8'));
+  for (const m of census.movements.slice(0, 40)) {
+    for (const s of m.documentedStories || []) assert.equal(await browserHash(s.text), fingerprint(s.text));
+  }
+  assert.equal(await browserHash('caf\u00e9 \u2014 ok'), fingerprint('caf\u00e9 \u2014 ok'));
 });

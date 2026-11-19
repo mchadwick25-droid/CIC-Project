@@ -9,6 +9,8 @@ assignments:
       - the-society-of-jesus
     role: tradition
     confidence: assigned
+    language: spa-lat-ita
+    date: {formation_confidence: unknown, checked: "title page (file line 58 'TOMUS PRIMUS', Madrid 1903 imprint) and the preface; the span of the letters is not stated on the title page, and the 1903 imprint dates the edition only"}
     note: >
       One volume of the full 12-vol. MHSI critical edition of Ignatius's
       ~7,000 letters, dwarfing the already-vendored ~24-letter

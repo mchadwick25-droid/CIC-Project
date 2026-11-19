@@ -1,0 +1,13 @@
+source_file: roberts-william_memoirs-of-hannah-more-v1_3rd-ed1835.txt
+assignments:
+- row_id: roberts-william_memoirs-of-hannah-more-v1_3rd-ed1835--roberts-memoirs-of-hannah-more-v1
+  work: 'Roberts, Memoirs of the Life and Correspondence of Mrs. Hannah More, vol. I: 1745-1785 (third edition, 1835)'
+  author: roberts-william
+  locus: 'Part I at OCR lines 2908-9687; Part II at 9688-19356; add 12 to OCR line numbers'
+  atlas_ids:
+  - restoration-georgian-church-of-england
+  role: context
+  confidence: provisional
+  language: eng
+  date: {start: 1835, end: 1835, source: "title page: 'MDCCCXXXV.', third edition", formation_confidence: Documented}
+  note: 'A Life built from her letters. Her own letters are a first-hand voice of the years to 1785; the frame, and the choice and cutting of the letters, are Roberts''s. Letters to her stand among them.'

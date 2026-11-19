@@ -1,0 +1,11 @@
+source_file: jacques-de-vitry_historia-orientalis-et-occidentalis-lat_1597.txt
+assignments:
+- row_id: jacques-de-vitry_historia-orientalis-et-occidentalis-lat_1597--jacques-de-vitry-historia-orientalis-and-occidentalis-douai-1597
+  work: Jacques de Vitry, Historia Orientalis and Occidentalis (Douai 1597)
+  author: jacques-de-vitry
+  locus: the whole volume
+  atlas_ids:
+  - latin-church-of-outremer
+  role: tradition
+  confidence: provisional
+  note: The bishop of Acre's own history of the east and the west, written inside this window.

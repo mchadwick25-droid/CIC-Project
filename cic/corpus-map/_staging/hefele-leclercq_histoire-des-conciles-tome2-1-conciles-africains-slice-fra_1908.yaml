@@ -9,5 +9,8 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
+    locus_ids: [whole-file]
+    language: fra
+    date: {formation_confidence: unknown, checked: "hefele-leclercq_histoire-des-conciles-tome2-1-conciles-africains-slice-fra_1908.txt: the header title reads 'nouvelle traduction francaise faite sur la deuxieme edition allemande', printed 1908 (title page, item lines 50-54); this is a French translation of a German work whose year the file does not state, and no preface dateline was found"}
     note: >
       Modern French account of the African councils. Registry row 247.

@@ -22,7 +22,7 @@ function figure(id: string, matchedName: string): FigureUsed {
 }
 
 function gloss(id: string, matchedName: string): GlossUsed {
-  return { id, matched_name: matchedName, plain_meaning: null, quick_meaning: null, translational_sense: null, false_friend: [], sourced_by: [] };
+  return { id, matched_name: matchedName, plain_meaning: null, quick_meaning: null, world_word: null, translational_sense: null, heard_today: null, meant_here: null, false_friend: [], distortion_risk: null, confidence: null, rests_on: [], sourced_by: [] };
 }
 
 // Joins sentences with one space, the way the engine's own reply text

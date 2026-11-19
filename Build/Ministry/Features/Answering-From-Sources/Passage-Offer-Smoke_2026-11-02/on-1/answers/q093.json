@@ -1,0 +1,116 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.witness.the-dying-and-the-pastors-post"
+   ],
+   "sentence": "Yes, and Augustine wrote that when ministers stay at their posts in danger, none are cheated of the communion of the Lord's body."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.remembered-at-the-altar"
+   ],
+   "sentence": "Augustine taught that gifts at the altar help only the baptized dead who earned that help in life."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "sentence": "What an ordinary believer felt walking up to the altar, our records do not give."
+  }
+ ],
+ "citations": [
+  "lpc.limit.ordinary-interior-life",
+  "lpc.witness.remembered-at-the-altar",
+  "lpc.witness.the-dying-and-the-pastors-post"
+ ],
+ "group": "I",
+ "id": "q093",
+ "net_sentences": [
+  {
+   "draft": "Yes, and Augustine wrote that when ministers stay at their posts in danger, none are cheated of the communion of the Lord's body [[lpc.witness.the-dying-and-the-pastors-post]] [[as:paraphrase]].",
+   "ratio": 0.83,
+   "sentence": "Yes, and Augustine wrote that when ministers stay at their posts in danger, none are cheated of the communion of the Lord's body.",
+   "tags": [
+    "lpc.witness.the-dying-and-the-pastors-post"
+   ],
+   "verdict": "ok",
+   "why": "grounded 83% in own tagged records"
+  },
+  {
+   "draft": "Augustine taught that gifts at the altar help only the baptized dead who earned that help in life [[lpc.witness.remembered-at-the-altar]] [[as:paraphrase]].",
+   "sentence": "Augustine taught that gifts at the altar help only the baptized dead who earned that help in life.",
+   "tags": [
+    "lpc.witness.remembered-at-the-altar"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "npnf101_augustine-confessions-letters.xml, writes of the sacrament as the body and blood of the Lord [[cic:npnf101_augustine-confessions-letters.xml:vii.1.LIV/line28543#02]] [[as:paraphrase]].",
+   "sentence": "npnf101_augustine-confessions-letters.xml, writes of the sacrament as the body and blood of the Lord [[cic:npnf101_augustine-confessions-letters.xml:vii.1.LIV/line28543#02]].",
+   "tags": [],
+   "verdict": "withhold",
+   "why": "specific claim (proper-noun:['liv'], number) with no citation tag"
+  },
+  {
+   "draft": "npnf101_augustine-confessions-letters.xml, writes that one who dares not take the sacrament every day and one who dares not omit it any day both wish to honour it [[cic:npnf101_augustine-confessions-letters.xml:vii.1.LIV/line28543#02]] [[as:paraphrase]].",
+   "sentence": "npnf101_augustine-confessions-letters.xml, writes that one who dares not take the sacrament every day and one who dares not omit it any day both wish to honour it [[cic:npnf101_augustine-confessions-letters.xml:vii.1.LIV/line28543#02]].",
+   "tags": [],
+   "verdict": "withhold",
+   "why": "specific claim (proper-noun:['liv'], number) with no citation tag"
+  },
+  {
+   "draft": "npnf105_augustine-anti-pelagian-writings.xml, writes that the Christians of Carthage call baptism salvation and the sacrament of the body of Christ life [[cic:npnf105_augustine-anti-pelagian-writings.xml:x.iii.xxxiv#01]] [[as:paraphrase]].",
+   "sentence": "npnf105_augustine-anti-pelagian-writings.xml, writes that the Christians of Carthage call baptism salvation and the sacrament of the body of Christ life [[cic:npnf105_augustine-anti-pelagian-writings.xml:x.iii.xxxiv#01]].",
+   "tags": [],
+   "verdict": "withhold",
+   "why": "specific claim (proper-noun:['carthage'], number) with no citation tag"
+  },
+  {
+   "draft": "What an ordinary believer felt walking up to the altar, our records do not give [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]].",
+   "sentence": "What an ordinary believer felt walking up to the altar, our records do not give.",
+   "tags": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "lpc.witness.answerability-as-ground",
+  "lpc.term.communion",
+  "lpc.story.the-death-of-cyprian",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.quote.christ-redeemed-in-our-captive-brethren",
+  "lpc.gravity.collegial-communion-preserved",
+  "lpc.force.augustine-engagement-cyprian-conciliar-acts",
+  "lpc.witness.communion-over-separation",
+  "lpc.quote.apart-in-heart-united-in-body",
+  "cic:npnf101_augustine-confessions-letters.xml:vii.1.LIV/line28543#02",
+  "cic:npnf105_augustine-anti-pelagian-writings.xml:x.iii.xxxiv#01"
+ ],
+ "raw_text": "Yes, and Augustine wrote that when ministers stay at their posts in danger, none are cheated of the communion of the Lord's body [[lpc.witness.the-dying-and-the-pastors-post]] [[as:paraphrase]]. We offered the sacrifice of the Mediator for our dead, and we gave alms in the church on their behalf [[lpc.witness.remembered-at-the-altar]] [[as:paraphrase]]. Augustine taught that gifts at the altar help only the baptized dead who earned that help in life [[lpc.witness.remembered-at-the-altar]] [[as:paraphrase]].\n\nAugustine's mother, Monica, asked her sons only to remember her at the Lord's altar, wherever they might be [[lpc.witness.remembered-at-the-altar]] [[as:paraphrase]].\n\nnpnf101_augustine-confessions-letters.xml, writes of the sacrament as the body and blood of the Lord [[cic:npnf101_augustine-confessions-letters.xml:vii.1.LIV/line28543#02]] [[as:paraphrase]]. npnf101_augustine-confessions-letters.xml, writes that one who dares not take the sacrament every day and one who dares not omit it any day both wish to honour it [[cic:npnf101_augustine-confessions-letters.xml:vii.1.LIV/line28543#02]] [[as:paraphrase]]. npnf105_augustine-anti-pelagian-writings.xml, writes that the Christians of Carthage call baptism salvation and the sacrament of the body of Christ life [[cic:npnf105_augustine-anti-pelagian-writings.xml:x.iii.xxxiv#01]] [[as:paraphrase]].\n\nWhat an ordinary believer felt walking up to the altar, our records do not give [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [
+   {
+    "draft": "We offered the sacrifice of the Mediator for our dead, and we gave alms in the church on their behalf [[lpc.witness.remembered-at-the-altar]] [[as:paraphrase]].",
+    "sentence": "We offered the sacrifice of the Mediator for our dead, and we gave alms in the church on their behalf.",
+    "why": "gives a quote record's words without placing it"
+   },
+   {
+    "draft": "Augustine's mother, Monica, asked her sons only to remember her at the Lord's altar, wherever they might be [[lpc.witness.remembered-at-the-altar]] [[as:paraphrase]].",
+    "sentence": "Augustine's mother, Monica, asked her sons only to remember her at the Lord's altar, wherever they might be.",
+    "why": "gives a quote record's words without placing it"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C7.S2",
+ "text": "Yes, and Augustine wrote that when ministers stay at their posts in danger, none are cheated of the communion of the Lord's body. Augustine taught that gifts at the altar help only the baptized dead who earned that help in life.\n\nnpnf101_augustine-confessions-letters.xml, writes of the sacrament as the body and blood of the Lord [[cic:npnf101_augustine-confessions-letters.xml:vii.1.LIV/line28543#02]]. npnf101_augustine-confessions-letters.xml, writes that one who dares not take the sacrament every day and one who dares not omit it any day both wish to honour it [[cic:npnf101_augustine-confessions-letters.xml:vii.1.LIV/line28543#02]]. npnf105_augustine-anti-pelagian-writings.xml, writes that the Christians of Carthage call baptism salvation and the sacrament of the body of Christ life [[cic:npnf105_augustine-anti-pelagian-writings.xml:x.iii.xxxiv#01]].\n\nWhat an ordinary believer felt walking up to the altar, our records do not give.",
+ "voice_set_aside": false
+}

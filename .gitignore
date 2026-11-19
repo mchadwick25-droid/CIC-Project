@@ -56,3 +56,9 @@ packages/*/*/**
 # (A path-level ignore can't express "only the pinned one" - the registry
 # decides that - so this stays a stated discipline with the audit's
 # cross-check, not a pattern.)
+
+# Answering-library pipeline output (segmenter passages, context lines, the derived index): rebuildable, never tracked
+Sandbox/answering-library/out/
+
+# Church Family Tree site, assembled by tools/build_tree_site.mjs
+/.build/

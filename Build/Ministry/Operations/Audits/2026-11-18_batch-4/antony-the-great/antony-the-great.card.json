@@ -1,0 +1,110 @@
+{
+  "otherNames": [
+    "Antony of Egypt",
+    "Antony the Abbot"
+  ],
+  "knownFor": "The Egyptian hermit whose withdrawal to the desert, and the Life written of him, drew monks after him and spread monasticism east and west.",
+  "datesNote": "Born 251, died 356, in Ernest Cushing Richardson's note to Jerome; the Life gives his age at death as \"near a hundred and five\"",
+  "placeNote": "Coma, near Heraclea in Egypt (Sozomen), and the Egyptian desert",
+  "role": "Hermit and father of the desert monks",
+  "keyWorks": [
+    {
+      "title": "Seven Letters",
+      "about": "letters in Coptic to various monasteries, which Jerome of Strido says were translated into Greek; none is held in this Library"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Monks who settled the Egyptian desert in his lifetime, so that the Life says \"the desert was colonised by monks.\"",
+      "A pattern of withdrawal that spread west. In his Confessions, Augustine of Hippo tells how two court officials read the Life and resolved to leave the court and serve God, and how hearing of Antony moved him."
+    ],
+    "remembered": [
+      "The Life of Antony, long read as the work of Athanasius of Alexandria, carried his name across the Latin West.",
+      "Jerome of Strido modeled his own Life of Hilarion on it, and Robertson notes it \"kindled the flame of monastic aspirations\" at Rome and across the West."
+    ]
+  },
+  "uncertain": [
+    "Antony's life is known chiefly from the Life of Antony, a work of praise. Archibald Robertson, its editor, grants there is \"idealisation, panegyric\" in it.",
+    "The Life's writer says he was Antony's attendant and \"poured water on his hands.\" Robertson notes that some manuscripts, Greek and Latin, make the attendant someone else, and that the text \"requires further sifting.\"",
+    "Who wrote the Life is disputed. The church has long given it to Athanasius of Alexandria. Robertson holds the dispute open but judges \"the external evidence for the Vita is too strong to allow us to set it aside as spurious.\" He also records that Gwatkin went so far as to pronounce that Antony \"never existed,\" and calls that far ahead of the evidence.",
+    "Jerome says Antony's seven Coptic letters were translated into Greek. None is held in this Library, so Antony's own voice cannot be checked here against the Life."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "Life of Antony (tr. H. Ellershaw; introduction by Archibald Robertson)",
+        "author": "attributed to Athanasius of Alexandria",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      },
+      {
+        "title": "Ecclesiastical History, Book 1, chapter 13 (Antony's birthplace of Coma)",
+        "author": "Sozomen",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "On Illustrious Men, chapter 88, with Richardson's note",
+        "author": "Jerome of Strido",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Confessions, Book 8, chapters 6 and 12 (Antony's Life read at the court)",
+        "author": "Augustine of Hippo",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf101_augustine-confessions-letters.xml"
+      },
+      {
+        "title": "Life of Antony, Greek, in Patrologia Graeca 26, ed. J.-P. Migne",
+        "author": "attributed to Athanasius of Alexandria",
+        "date": "1857",
+        "language": "Greek",
+        "file": "cic/texts/athanasius_opera-omnia-pg26-grc-lat_migne1857.txt"
+      },
+      {
+        "title": "Confessions, Latin, ed. Pius Knöll (CSEL 33)",
+        "author": "Augustine of Hippo",
+        "date": "1896",
+        "language": "Latin",
+        "file": "cic/texts/augustine_confessiones-lat_knoll-csel33.txt"
+      },
+      {
+        "title": "Oration 21, On the Great Athanasius, §5 (the Life as the laws of the monastic life)",
+        "author": "Gregory of Nazianzus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml"
+      }
+    ]
+  },
+  "briefReferences": [
+    "Life of Antony §1–2: the apostles who left all; the Gospel reading, the fields given to the villagers, the rest sold for the poor.",
+    "Life §3, §7: work with his hands, prayer, fasting.",
+    "Life, prologue, and Robertson's introduction: the authorship long credited to Athanasius, and the date, 356–362.",
+    "Life §12, §14–15: the deserted fort, the walled door; the door forced after nearly twenty years, when many wished to live as he did; he persuaded many and directed them as a father; \"the desert became a city of monks\" (Greek, PG 26).",
+    "Life §49–50: crowds and healings; three days into the desert to the mountain.",
+    "Life §69: against the Arians in Alexandria; the Son of God not created.",
+    "Life, prologue: a pattern for monks abroad.",
+    "Robertson's introduction: the Latin translation.",
+    "Life §81: Constantine and his sons wrote to him.",
+    "Augustine, Confessions VIII.6.14–15: Pontitianus, the two officials at Trier. VIII.12.29: the garden at Milan, Antony and the Gospel reading, the letters of Paul.",
+    "Gregory of Nazianzus, Oration 21 §5: the Life sets out the laws of the monastic life as a story.",
+    "Sozomen, Ecclesiastical History I.13: his disciples in Egypt, Libya, Palestine, Syria and Arabia."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "For I had heard this of Antony. He had come in by chance during the Gospel reading, and was urged on by it. It was as though the words read were spoken to him. 'Go, sell all that you have, give to the poor, and you will have treasure in heaven. And come, follow me.' By such a divine word he was at once turned to you.",
+      "printed": "audieram enim de Antonio, quod ex euangelica lectione, cui forte superuenerat, admonitus fuerit, tamquam sibi diceretur quod legebatur: uade, uende omnia, quae habes, da pauperibus et habebis thesaurum in caelis; et ueni, sequere me, et tali oraculo confestim ad te esse conuersum.",
+      "work": "Augustine, Confessions VIII.12.29, Latin, CSEL 33",
+      "file": "cic/texts/augustine_confessiones-lat_knoll-csel33.txt",
+      "lines": "13470-13501",
+      "uncertain": "\"Urged on\" renders admonitus, which means warned or prompted. The Pilkington English (npnf101, lines 13117-13124) reads \"he received the admonition as if what was read were addressed to him\". \"Divine word\" renders oraculum, which Pilkington gives as \"oracle\"; \"you\" is God, to whom the Confessions are addressed. The footnotes and page head between lines 13473 and 13501 are left out.",
+      "secondReading": "minor"
+    }
+  ]
+}

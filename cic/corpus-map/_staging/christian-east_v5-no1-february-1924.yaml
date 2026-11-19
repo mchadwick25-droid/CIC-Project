@@ -1,0 +1,35 @@
+source_file: christian-east_v5-no1-february-1924.txt
+assignments:
+- row_id: christian-east_v5-no1-february-1924--whole
+  work: 'The Christian East, volume V, number 1 (February, 1924)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1924, end: 1924, source: "masthead: 'February, 1924'", formation_confidence: Documented}
+  note: 'One number of the quarterly, by many writers. The Eastern documents it prints are in the journal''s English unless a row says otherwise.'
+- row_id: christian-east_v5-no1-february-1924--gregory-vii-of-constantinople-letter-to-the-archbishop-of-canterbury-1923
+  work: 'Gregory VII, Patriarch of Constantinople, letter to the Archbishop of Canterbury (1923), in English, in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 559-603; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-greek-church-and-the-ecumenical-patriarchate
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1923, end: 1923, source: "signed and dated December 21, 1923 (OCR line 603)", formation_confidence: Documented}
+  note: 'The English of the Patriarch''s letter, which the editors call ''the translation made by the Metropolitan himself'' (OCR lines 476-477). The Greek original stands before it at OCR lines 481-558, garbled in the OCR.'
+- row_id: christian-east_v5-no1-february-1924--anthony-of-kiev-the-orthodox-church-and-the-papacy-1923
+  work: 'Anthony, Metropolitan of Kiev, ''The Orthodox Church and the Papacy'' (1923), in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 1774-1829; add 12 to OCR line numbers'
+  atlas_ids:
+  - emigre-orthodoxy-and-the-paris-school
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1923, end: 1923, source: "the editors' note: translated from his synod's publication of 15/28 October (OCR lines 1770-1771); printed in the number of February, 1924", formation_confidence: Documented}
+  note: 'His own summary of a lecture given in Belgrade, in the journal''s translation; a summary, not the lecture. The heading is at OCR line 1757 and the editors'' note at 1763-1771.'

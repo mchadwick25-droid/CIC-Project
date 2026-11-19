@@ -1,0 +1,6 @@
+12 briefs; a move in more than 3 goes back to its writers
+ok    3  an unnamed opening, then the name revealed: justin-martyr, moses-the-black, third-council-of-toledo-589
+OVER  4  a setting slot (a time and a place stacked in one early sentence, or "in what is now" more than once): baudonivia, council-of-chalcedon-451, john-wyclif, thomas-a-kempis
+ok    1  the "Most of what we know" witness formula: alopen
+ok    1  a sentence opening with "Yet": john-wyclif
+OVER  7  an ending on a later writer or institution (a later time marker in the last two paragraphs): alopen, arius, narsai, pachomius, third-council-of-toledo-589, thomas-a-kempis, vardan-mamikonian

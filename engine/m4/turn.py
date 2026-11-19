@@ -48,7 +48,9 @@ from engine.m4.generation import stream_voice_turn
 from engine.m4 import citation_attach
 from engine.m4.citation_attach import attach_citations
 from engine.m4.citation_cards import resolve_citation_sources
+from engine.m4.absence_rule import check_absence
 from engine.m4.output_check import REASON_HORIZON, check_horizon, ungrounded_horizon_mentions
+from engine.m4.leadin_support import shelf_files
 from engine.m4.quote_placement import PlacementContext, place_quotes
 from engine.m4.story_placement import place_stories
 from engine.m4.recitation import DIRECTIVE_LINE, DemonstrationIndex
@@ -121,6 +123,7 @@ def run_gate(
     track_b_accumulator: dict | None = None,
     world_key: str | None = None,
     check_ins_shown: frozenset[str] | set[str] = frozenset(),
+    sub_question_catalogue: str | None = None,
 ) -> GateRun:
     """The gate half of run_turn, verbatim - see run_turn's docstring for
     the semantics of each input. world_key tags the two gate calls' usage
@@ -138,7 +141,7 @@ def run_gate(
     # which future actually completes first.
     with ThreadPoolExecutor(max_workers=2) as pool:
         safety_future = pool.submit(live_calls.call_safety, safety_client, safety_model_id, message=participant_message, recent_window=[], accumulator={})
-        reader_future = pool.submit(live_calls.call_reader, safety_client, safety_model_id, message=participant_message)
+        reader_future = pool.submit(live_calls.call_reader, safety_client, safety_model_id, message=participant_message, sub_question_catalogue=sub_question_catalogue)
         safety_outcome = safety_future.result()
         reader_outcome = reader_future.result()
 
@@ -338,7 +341,10 @@ def apply_net(
     every marker is removed with its sentence. quotable_texts are the words
     the participant side said, which a reply may repeat in quotation marks.
     net_result carries "reply_shape": the quote records placed, and each
-    sentence removed with why. Each sentence verdict, and each sentence
+    sentence removed with why, "repaired": each quote whose lead-in code
+    wrote because the voice's named no speaker or stated a detail no source
+    document supports, and "leadin_support": for each placed quote whose
+    lead-in states details, the source span supporting each. Each sentence verdict, and each sentence
     removed, carries "draft": the sentence as the voice wrote it, tags and
     quote marker included. Only ok-verdict sentences' tags become
     citations.
@@ -376,6 +382,7 @@ def apply_net(
             **shaped,
             "placed_sentences": {**stories["placed_sentences"], **shaped["placed_sentences"]},
             "placed_drafts": {**stories["placed_drafts"], **shaped["placed_drafts"]},
+            "story_lengths": stories["placed_lengths"],
         }
         removed = [*stories["removed"], *shaped["removed"]]
     tagged = shaped["text"]
@@ -399,6 +406,10 @@ def apply_net(
             if ungrounded_horizon_mentions(entry["sentence"], window_end, grounds):
                 entry.update(verdict="withhold", why=REASON_HORIZON)
                 going.append(entry)
+                continue
+            if why := check_absence(entry["sentence"], [repository_records[t] for t in entry["tags"] if t in repository_records]):
+                entry.update(verdict="withhold", why=why)
+                going.append(entry)
         if not going:
             break
         aligned = len(spans) == len(net_result["sentences"])
@@ -417,7 +428,12 @@ def apply_net(
     net_result["reply_shape"] = {
         "placed": list(dict.fromkeys(rid for sentence, rid in shaped["placed_sentences"].items() if sentence in shown)),
         "removed": removed,
+        "repaired": shaped.get("repaired", []),
     }
+    if support := {rid: spans for rid, spans in shaped.get("leadin_support", {}).items() if rid in net_result["reply_shape"]["placed"]}:
+        net_result["reply_shape"]["leadin_support"] = support
+    if story_lengths := {rid: length for rid, length in shaped.get("story_lengths", {}).items() if rid in net_result["reply_shape"]["placed"]}:
+        net_result["reply_shape"]["story_lengths"] = story_lengths
     text = grounding_net.shown_text(tagged, net_result["sentences"])
     citations = [
         {"sentence": s["sentence"], "record_ids": s["tags"]}
@@ -743,7 +759,7 @@ def _run_ordinary_voice_turn(
     placement = PlacementContext(
         offered=frozenset(prepared.offered_ids.get("quote", [])),
         voiced=frozenset(voiced_quotes), told_stories=frozenset(told_stories),
-        offered_stories=frozenset(prepared.offered_stories),
+        offered_stories=frozenset(prepared.offered_stories), shelf_files=shelf_files(world.world_key),
     )
     _net = functools.partial(
         apply_net, quotable_texts=echo_sources, placement=placement, window_end=(world.frame.get("time_window") or {}).get("end"),
@@ -1273,6 +1289,7 @@ def run_turn(
         track_b_accumulator=track_b_accumulator,
         world_key=world.world_key,
         check_ins_shown=check_ins_shown,
+        sub_question_catalogue=world.frame.get("subquestion_catalogue") if world.frame.get("subquestion_routing") else None,
     )
     usage_records = list(gate_run.usage_records)
     safety_outcome = gate_run.safety_outcome

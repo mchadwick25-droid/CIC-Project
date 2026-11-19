@@ -17,8 +17,7 @@ confidence:
     known for wonders, not a claim this record independently verifies.
 sources:
 - source_id: gallic.source.gennadius-de-viris-illustribus
-  locus: "ch. XIX (npnf203 div v.iv.xx, file lines 42539-42547): Gennadius's description of
-    Sulpitius's Life of St. Martin, and of Martin's own fame"
+  locus: "ch. XIX (cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml, lines 42545-42547; div v.iv.xx): Gennadius's description of Sulpitius's Life of St. Martin, and of Martin's own fame"
   license: public-domain
 retrieval:
   tier: 3

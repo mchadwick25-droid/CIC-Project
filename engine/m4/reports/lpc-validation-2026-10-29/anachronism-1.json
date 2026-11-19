@@ -1,0 +1,636 @@
+{
+  "voice_model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "safety_model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "region": "us-east-1",
+  "world_key": "lpc",
+  "manifest_hash": "sha256:1a0d32f13e4140a0a6a1e1cc3acc6bbf7d558ba240ce321a156420c3bd6c5eaa",
+  "package": "packages/lpc/2026-10-29T11-53-43Z",
+  "live_test": {
+    "name": "lpc go-live rerun 1",
+    "cap_usd": 3.0,
+    "route": "Bedrock, regional inference profile, us-east-1",
+    "model_ids": [
+      "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    ],
+    "priced_total_usd": 0.125689
+  },
+  "usage": [
+    {
+      "call_kind": "safety_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live rerun 1",
+      "input_tokens": 2257,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "reader_call",
+      "model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live rerun 1",
+      "input_tokens": 2095,
+      "output_tokens": 182,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    {
+      "call_kind": "voice_generation",
+      "model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock",
+      "world_key": "lpc",
+      "live_test": "lpc go-live rerun 1",
+      "input_tokens": 3646,
+      "output_tokens": 321,
+      "cache_creation_input_tokens": 24686,
+      "cache_read_input_tokens": 0
+    }
+  ],
+  "results": [
+    {
+      "id": "message-1",
+      "message": "What did your bishops decide at Chalcedon about Christ's two natures?",
+      "prior_turns_replayed": 0,
+      "result": {
+        "routing_action": "voice_with_directive",
+        "routing_reason": "ordinary turn",
+        "facilitator_events": [],
+        "voice_event": {
+          "speaker": "lpc",
+          "text": "We were not at Chalcedon. We do not know what happened after our years, and we say nothing of any church that comes after us.\n\nWhat we do hold about Christ is this. He is the only Son of God, our Lord, and that confession belongs to the one Godhead in three: Father, Son, and Holy Ghost. Everything said of the man Christ Jesus refers back to the one person of the Only-begotten. His death and rising are not facts we simply affirm and set aside. His crucifixion, burial, rising on the third day, ascension, and sitting at the Father's right hand were ordered so that our own life could be cut to their shape. We crucify our own flesh: that is his cross in us. We are buried with him in the water: that is his burial in us. We walk in a life made new: that is his rising in us.",
+          "citations": [
+            {
+              "sentence": "He is the only Son of God, our Lord, and that confession belongs to the one Godhead in three: Father, Son, and Holy Ghost.",
+              "record_ids": [
+                "lpc.witness.the-only-son-and-the-trinity"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.the-only-son-and-the-trinity",
+                  "record_type": "doctrinal_witness",
+                  "label": "For us, Jesus being God and the Trinity belong to one confession",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Chapter 56, 'The Holy Spirit and the Church' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21850-21866",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                      "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                      "author": null,
+                      "work": null,
+                      "locus": "Chapter 17, the conference at Hippo with Maximinus, 'a bishop of these Arians'; its records show 'what the Catholic Church maintains and teaches regarding the divine Trinity' -- verified directly against cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 2942-2950",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                      "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                      "author": null,
+                      "work": null,
+                      "locus": "the 1919 editor's introduction (not Possidius's text): the siege of Hippo by the Vandals and \"the Arian Geiseric\" -- verified directly against cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 468-477",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "Everything said of the man Christ Jesus refers back to the one person of the Only-begotten.",
+              "record_ids": [
+                "lpc.witness.the-only-son-and-the-trinity"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.the-only-son-and-the-trinity",
+                  "record_type": "doctrinal_witness",
+                  "label": "For us, Jesus being God and the Trinity belong to one confession",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Chapter 56, 'The Holy Spirit and the Church' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21850-21866",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                      "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                      "author": null,
+                      "work": null,
+                      "locus": "Chapter 17, the conference at Hippo with Maximinus, 'a bishop of these Arians'; its records show 'what the Catholic Church maintains and teaches regarding the divine Trinity' -- verified directly against cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 2942-2950",
+                      "rights_status": null,
+                      "edition": null
+                    },
+                    {
+                      "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                      "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                      "author": null,
+                      "work": null,
+                      "locus": "the 1919 editor's introduction (not Possidius's text): the siege of Hippo by the Vandals and \"the Arian Geiseric\" -- verified directly against cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 468-477",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "His crucifixion, burial, rising on the third day, ascension, and sitting at the Father's right hand were ordered so that our own life could be cut to their shape.",
+              "record_ids": [
+                "lpc.witness.the-pattern-we-are-modelled-on"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.the-pattern-we-are-modelled-on",
+                  "record_type": "doctrinal_witness",
+                  "label": "His death and rising are not facts we simply affirm and set aside",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Chapter 53, 'Christ's Cross and Burial, Resurrection, Ascension, and Sitting Down at the Right Hand of God, are Images of the Christian Life' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21778",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentence": "We walk in a life made new: that is his rising in us.",
+              "record_ids": [
+                "lpc.witness.the-pattern-we-are-modelled-on"
+              ],
+              "sources": [
+                {
+                  "record_id": "lpc.witness.the-pattern-we-are-modelled-on",
+                  "record_type": "doctrinal_witness",
+                  "label": "His death and rising are not facts we simply affirm and set aside",
+                  "sources": [
+                    {
+                      "source_id": "lpc.source.augustine-the-enchiridion",
+                      "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                      "author": null,
+                      "work": null,
+                      "locus": "Chapter 53, 'Christ's Cross and Burial, Resurrection, Ascension, and Sitting Down at the Right Hand of God, are Images of the Christian Life' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21778",
+                      "rights_status": null,
+                      "edition": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "glosses": [],
+          "figures_used": [],
+          "quote_offers": [],
+          "kind": "what_happened",
+          "offered_ids": {
+            "doctrinal_witness": [
+              "lpc.witness.apostolic-succession-of-bishops",
+              "lpc.witness.the-pattern-we-are-modelled-on"
+            ],
+            "term": [
+              "lpc.term.heresy"
+            ],
+            "story": [
+              "lpc.story.celerinus-writes-to-lucian",
+              "lpc.story.the-death-of-cyprian"
+            ],
+            "quote": [
+              "lpc.quote.bishop-of-bishops",
+              "lpc.quote.earlier-councils-corrected-by-later",
+              "lpc.quote.he-covered-his-eyes-with-his-own-hand",
+              "lpc.quote.numidicus-remained-unwillingly",
+              "lpc.quote.the-wretched-woman-and-mercy",
+              "lpc.quote.the-old-man-nailed-to-the-cross-speaks"
+            ],
+            "force": [
+              "lpc.force.augustine-engagement-cyprian-conciliar-acts"
+            ]
+          },
+          "attempts_meta": {
+            "empty_stream_retries": 0,
+            "r27_regenerated": false,
+            "self_revision": {
+              "ran": false,
+              "changed": false,
+              "draft_length": null,
+              "revised_length": null,
+              "fallback_reason": null,
+              "latency_seconds": 0.0
+            },
+            "citation_attach": {
+              "enabled": false,
+              "added": [],
+              "trail": []
+            },
+            "recitation_regenerated": false,
+            "recitation_retry_failed": false
+          },
+          "recited_demonstration": false,
+          "grounding": {
+            "sentences": [
+              {
+                "sentence": "We were not at Chalcedon.",
+                "tags": [],
+                "verdict": "withhold",
+                "why": "specific claim (proper-noun:['chalcedon']) with no citation tag",
+                "draft": "We were not at Chalcedon."
+              },
+              {
+                "sentence": "We do not know what happened after our years, and we say nothing of any church that comes after us.",
+                "tags": [
+                  "lpc.living-traditions"
+                ],
+                "verdict": "withhold",
+                "why": "unresolvable record id(s): ['lpc.living-traditions']",
+                "draft": "We do not know what happened after our years, and we say nothing of any church that comes after us [[lpc.living-traditions]]."
+              },
+              {
+                "sentence": "What we do hold about Christ is this.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "What we do hold about Christ is this."
+              },
+              {
+                "sentence": "He is the only Son of God, our Lord, and that confession belongs to the one Godhead in three: Father, Son, and Holy Ghost.",
+                "tags": [
+                  "lpc.witness.the-only-son-and-the-trinity"
+                ],
+                "verdict": "ok",
+                "why": "grounded 90% in own tagged records",
+                "ratio": 0.9,
+                "draft": "He is the only Son of God, our Lord, and that confession belongs to the one Godhead in three: Father, Son, and Holy Ghost [[lpc.witness.the-only-son-and-the-trinity]]."
+              },
+              {
+                "sentence": "Everything said of the man Christ Jesus refers back to the one person of the Only-begotten.",
+                "tags": [
+                  "lpc.witness.the-only-son-and-the-trinity"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0,
+                "draft": "Everything said of the man Christ Jesus refers back to the one person of the Only-begotten [[lpc.witness.the-only-son-and-the-trinity]]."
+              },
+              {
+                "sentence": "His death and rising are not facts we simply affirm and set aside.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "His death and rising are not facts we simply affirm and set aside."
+              },
+              {
+                "sentence": "His crucifixion, burial, rising on the third day, ascension, and sitting at the Father's right hand were ordered so that our own life could be cut to their shape.",
+                "tags": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ],
+                "verdict": "ok",
+                "why": "grounded 100% in own tagged records",
+                "ratio": 1.0,
+                "draft": "His crucifixion, burial, rising on the third day, ascension, and sitting at the Father's right hand were ordered so that our own life could be cut to their shape [[lpc.witness.the-pattern-we-are-modelled-on]]."
+              },
+              {
+                "sentence": "We crucify our own flesh: that is his cross in us.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "We crucify our own flesh: that is his cross in us."
+              },
+              {
+                "sentence": "We are buried with him in the water: that is his burial in us.",
+                "tags": [],
+                "verdict": "ok",
+                "why": "no checkable claim - interpretive/connective framing",
+                "draft": "We are buried with him in the water: that is his burial in us."
+              },
+              {
+                "sentence": "We walk in a life made new: that is his rising in us.",
+                "tags": [
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ],
+                "verdict": "ok",
+                "why": "tagged claim, shares ground with its own records",
+                "draft": "We walk in a life made new: that is his rising in us [[lpc.witness.the-pattern-we-are-modelled-on]]."
+              }
+            ],
+            "substantive_survives": true,
+            "truncated": false,
+            "paragraph_coverage": [
+              {
+                "sentence_count": 2,
+                "cited_record_ids": [
+                  "lpc.living-traditions"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "We were not at Chalcedon.",
+                    "tags": [
+                      "lpc.living-traditions"
+                    ],
+                    "verdict": "withhold",
+                    "why": "unresolvable record id(s): ['lpc.living-traditions']"
+                  }
+                }
+              },
+              {
+                "sentence_count": 8,
+                "cited_record_ids": [
+                  "lpc.witness.the-only-son-and-the-trinity",
+                  "lpc.witness.the-pattern-we-are-modelled-on"
+                ],
+                "wholly_uncited": false,
+                "inherited_from_preceding": false,
+                "inherited_verdicts": {
+                  "0": {
+                    "sentence": "What we do hold about Christ is this.",
+                    "tags": [
+                      "lpc.witness.the-only-son-and-the-trinity",
+                      "lpc.witness.the-pattern-we-are-modelled-on"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "3": {
+                    "sentence": "His death and rising are not facts we simply affirm and set aside.",
+                    "tags": [
+                      "lpc.witness.the-only-son-and-the-trinity",
+                      "lpc.witness.the-pattern-we-are-modelled-on"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "5": {
+                    "sentence": "We crucify our own flesh: that is his cross in us.",
+                    "tags": [
+                      "lpc.witness.the-only-son-and-the-trinity",
+                      "lpc.witness.the-pattern-we-are-modelled-on"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  },
+                  "6": {
+                    "sentence": "We are buried with him in the water: that is his burial in us.",
+                    "tags": [
+                      "lpc.witness.the-only-son-and-the-trinity",
+                      "lpc.witness.the-pattern-we-are-modelled-on"
+                    ],
+                    "verdict": "ok",
+                    "why": "tagged claim, shares ground with its own records"
+                  }
+                }
+              }
+            ],
+            "reply_shape": {
+              "placed": [],
+              "removed": [
+                {
+                  "sentence": "That council met in 451, and our years close in 430, with the siege of Hippo and Augustine's own death.",
+                  "why": "names something after the world's window closes that its own cited records do not",
+                  "draft": "That council met in 451, and our years close in 430, with the siege of Hippo and Augustine's own death [[lpc.core.latin-pastoral-congregational-christianity]]."
+                }
+              ]
+            }
+          },
+          "transparency": {
+            "world_key": "lpc",
+            "sentences": [
+              {
+                "index": 0,
+                "text_start": 0,
+                "text_end": 25
+              },
+              {
+                "index": 1,
+                "text_start": 26,
+                "text_end": 125
+              },
+              {
+                "index": 2,
+                "text_start": 127,
+                "text_end": 164
+              },
+              {
+                "index": 3,
+                "text_start": 165,
+                "text_end": 287
+              },
+              {
+                "index": 4,
+                "text_start": 288,
+                "text_end": 379
+              },
+              {
+                "index": 5,
+                "text_start": 380,
+                "text_end": 446
+              },
+              {
+                "index": 6,
+                "text_start": 447,
+                "text_end": 609
+              },
+              {
+                "index": 7,
+                "text_start": 610,
+                "text_end": 660
+              },
+              {
+                "index": 8,
+                "text_start": 661,
+                "text_end": 723
+              },
+              {
+                "index": 9,
+                "text_start": 724,
+                "text_end": 777
+              }
+            ],
+            "elements": [],
+            "references": [
+              {
+                "record_id": "lpc.witness.the-only-son-and-the-trinity",
+                "record_type": "doctrinal_witness",
+                "label": "For us, Jesus being God and the Trinity belong to one confession",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Chapter 56, 'The Holy Spirit and the Church' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21850-21866",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                    "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                    "author": null,
+                    "work": null,
+                    "locus": "Chapter 17, the conference at Hippo with Maximinus, 'a bishop of these Arians'; its records show 'what the Catholic Church maintains and teaches regarding the divine Trinity' -- verified directly against cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 2942-2950",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                    "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                    "author": null,
+                    "work": null,
+                    "locus": "the 1919 editor's introduction (not Possidius's text): the siege of Hippo by the Vandals and \"the Arian Geiseric\" -- verified directly against cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 468-477",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.witness.the-pattern-we-are-modelled-on",
+                "record_type": "doctrinal_witness",
+                "label": "His death and rising are not facts we simply affirm and set aside",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Chapter 53, 'Christ's Cross and Burial, Resurrection, Ascension, and Sitting Down at the Right Hand of God, are Images of the Christian Life' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21778",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "end_references": [
+              {
+                "record_id": "lpc.witness.the-only-son-and-the-trinity",
+                "record_type": "doctrinal_witness",
+                "label": "For us, Jesus being God and the Trinity belong to one confession",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Chapter 56, 'The Holy Spirit and the Church' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, lines 21850-21866",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                    "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                    "author": null,
+                    "work": null,
+                    "locus": "Chapter 17, the conference at Hippo with Maximinus, 'a bishop of these Arians'; its records show 'what the Catholic Church maintains and teaches regarding the divine Trinity' -- verified directly against cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 2942-2950",
+                    "rights_status": null,
+                    "edition": null
+                  },
+                  {
+                    "source_id": "lpc.source.possidius-vita-augustini-weiskotten1919",
+                    "citation": "Possidius of Calama, Sancti Augustini Vita Scripta a Possidio Episcopo (Life of Augustine), ed. and trans. Herbert T. Weiskotten (Princeton: Princeton University Press; London: Humphrey Milford, Oxford University Press, 1919)",
+                    "author": null,
+                    "work": null,
+                    "locus": "the 1919 editor's introduction (not Possidius's text): the siege of Hippo by the Vandals and \"the Arian Geiseric\" -- verified directly against cic/texts/possidius_vita-augustini_weiskotten1919.txt, lines 468-477",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              },
+              {
+                "record_id": "lpc.witness.the-pattern-we-are-modelled-on",
+                "record_type": "doctrinal_witness",
+                "label": "His death and rising are not facts we simply affirm and set aside",
+                "sources": [
+                  {
+                    "source_id": "lpc.source.augustine-the-enchiridion",
+                    "citation": "Augustine of Hippo, The Enchiridion (On Faith, Hope, and Love), Nicene and Post-Nicene Fathers, Series I, vol. III",
+                    "author": null,
+                    "work": null,
+                    "locus": "Chapter 53, 'Christ's Cross and Burial, Resurrection, Ascension, and Sitting Down at the Right Hand of God, are Images of the Christian Life' -- verified directly against cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml, line 21778",
+                    "rights_status": null,
+                    "edition": null
+                  }
+                ],
+                "world_key": "lpc",
+                "confidence": {
+                  "citation_specificity": "A",
+                  "divergence_note": null,
+                  "evidentiary_weight": "load-bearing",
+                  "formation_confidence": "Documented",
+                  "verification_state": "verified-direct"
+                }
+              }
+            ],
+            "unverified_claims": {
+              "count": 2,
+              "sentence_indexes": [
+                0,
+                1
+              ]
+            }
+          },
+          "degraded_by_net": false,
+          "output_defects": [],
+          "seat_identity_violations": [],
+          "seat_identity_guard_exhausted": false,
+          "seat_identity_cut": false,
+          "r27_enforcement_exhausted": false,
+          "reply_shape": {
+            "placed": [],
+            "removed": [
+              {
+                "sentence": "That council met in 451, and our years close in 430, with the siege of Hippo and Augustine's own death.",
+                "why": "names something after the world's window closes that its own cited records do not",
+                "draft": "That council met in 451, and our years close in 430, with the siege of Hippo and Augustine's own death [[lpc.core.latin-pastoral-congregational-christianity]]."
+              }
+            ]
+          },
+          "answer_record_fallback": null
+        },
+        "degraded": false
+      }
+    }
+  ],
+  "stopped_by_cap_at": null,
+  "crisis_append_proven": null
+}

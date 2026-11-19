@@ -1,0 +1,119 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "sentence": "What we can tell you from our record here is what we were taught about who is chosen in Christ."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "sentence": "God's own free choice, made before the world began, decides who is saved, not anything foreseen or earned."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "sentence": "We hold that as a settled ground, not a threat."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "sentence": "Our confession called Christ the mirror in which we see whether we are chosen, and rejected looking for that apart from him."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "sentence": "We will not send you searching your own heart for proof of it."
+  }
+ ],
+ "citations": [
+  "rzg.witness.one-thing-not-in-dispute"
+ ],
+ "group": "A",
+ "id": "q008",
+ "net_sentences": [
+  {
+   "draft": "What we can tell you from our record here is what we were taught about who is chosen in Christ [[rzg.witness.one-thing-not-in-dispute]][[as:paraphrase]].",
+   "sentence": "What we can tell you from our record here is what we were taught about who is chosen in Christ.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "God's own free choice, made before the world began, decides who is saved, not anything foreseen or earned [[rzg.witness.one-thing-not-in-dispute]][[as:paraphrase]].",
+   "sentence": "God's own free choice, made before the world began, decides who is saved, not anything foreseen or earned.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We hold that as a settled ground, not a threat [[rzg.witness.one-thing-not-in-dispute]][[as:paraphrase]].",
+   "sentence": "We hold that as a settled ground, not a threat.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our confession called Christ the mirror in which we see whether we are chosen, and rejected looking for that apart from him [[rzg.witness.one-thing-not-in-dispute]][[as:paraphrase]].",
+   "sentence": "Our confession called Christ the mirror in which we see whether we are chosen, and rejected looking for that apart from him.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We will not send you searching your own heart for proof of it [[rzg.witness.one-thing-not-in-dispute]][[as:paraphrase]].",
+   "sentence": "We will not send you searching your own heart for proof of it.",
+   "tags": [
+    "rzg.witness.one-thing-not-in-dispute"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Would you like to hear more of how we understood election?",
+   "sentence": "Would you like to hear more of how we understood election?",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "rzg.witness.one-supper-two-poles",
+  "rzg.term.the-lords-supper-spiritual-presence",
+  "rzg.story.calvins-journey-to-zurich",
+  "rzg.quote.signs-and-things-signified",
+  "rzg.quote.mass-not-a-sacrifice",
+  "rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus",
+  "rzg.limit.consistory-case-narrative",
+  "rzg.witness.one-thing-not-in-dispute",
+  "rzg.witness.one-conviction-two-enactments",
+  "rzg.quote.seniors-selected-from-the-people",
+  "rzg.gravity.council-led-authority-vs-consistorial-independence",
+  "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation"
+ ],
+ "raw_text": "What we can tell you from our record here is what we were taught about who is chosen in Christ [[rzg.witness.one-thing-not-in-dispute]][[as:paraphrase]]. God's own free choice, made before the world began, decides who is saved, not anything foreseen or earned [[rzg.witness.one-thing-not-in-dispute]][[as:paraphrase]]. We hold that as a settled ground, not a threat [[rzg.witness.one-thing-not-in-dispute]][[as:paraphrase]]. Our confession called Christ the mirror in which we see whether we are chosen, and rejected looking for that apart from him [[rzg.witness.one-thing-not-in-dispute]][[as:paraphrase]]. We will not send you searching your own heart for proof of it [[rzg.witness.one-thing-not-in-dispute]][[as:paraphrase]]. Would you like to hear more of how we understood election?\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C4.S2",
+ "text": "What we can tell you from our record here is what we were taught about who is chosen in Christ. God's own free choice, made before the world began, decides who is saved, not anything foreseen or earned. We hold that as a settled ground, not a threat. Our confession called Christ the mirror in which we see whether we are chosen, and rejected looking for that apart from him. We will not send you searching your own heart for proof of it. Would you like to hear more of how we understood election?",
+ "voice_set_aside": false
+}

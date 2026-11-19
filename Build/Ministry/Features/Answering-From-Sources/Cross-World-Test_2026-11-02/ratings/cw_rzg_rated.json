@@ -1,0 +1,506 @@
+[
+ {
+  "id": "q016-A",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "no",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Says it cannot see past 1650 yet asserts the convictions 'are still confessed'; long dash-nested sentence."
+ },
+ {
+  "id": "q028-A",
+  "answers_question": "partly",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Gives election and the refusal of Rome's sacramental claim, and says plainly the record does not settle the fate of outsiders."
+ },
+ {
+  "id": "q010-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Sound account of sola scriptura and the two methods; ends on a stray, unasked sentence about violent texts."
+ },
+ {
+  "id": "q014-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Antistes, the 1541 Consistory, the 1555 settlement and the Calvin rendering all match the records; the Dentiere aside is accurate."
+ },
+ {
+  "id": "q012-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Good answer, but the quote is cut off: 'Zwingli himself had said it plainly at the start:' leads into nothing."
+ },
+ {
+  "id": "q025-A",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier3",
+  "note": "Two unrelated lines about worship space; never takes up the false premise about a tortured source."
+ },
+ {
+  "id": "q009-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "no",
+  "community_voice": "no",
+  "accuracy": "tier3",
+  "note": "Accurate self-audit, but in build jargon ('vendored', 'in the base we hold'), and it both claims and disclaims the synthesis reading."
+ },
+ {
+  "id": "q023-B",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "States the gap honestly, then gives the Anabaptist break, which answers only indirectly."
+ },
+ {
+  "id": "q018-B",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Infant baptism, the Consistory and readmission are accurate, but it is not step by step and one sentence repeats."
+ },
+ {
+  "id": "q013-B",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Gives the record of Catholic pressure but never plainly says no; ends on an off-topic line about Jesus."
+ },
+ {
+  "id": "q026-B",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Names the civil force against the Anabaptists and the Consistory's limits, all within the record; it is unsettled only by implication."
+ },
+ {
+  "id": "q019-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Mirror-of-election answer matches the record; 'In today's English, Heinrich Bullinger says' is a report-style tell."
+ },
+ {
+  "id": "q027-B",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Turns the question into how wrongdoers were handled, which presumes the visitor is a wrongdoer."
+ },
+ {
+  "id": "q026-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Refugee strain from France and Marian England is supported; it names the missing texture honestly."
+ },
+ {
+  "id": "q016-B",
+  "answers_question": "no",
+  "depth": "flat",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "tier3",
+  "note": "Bare one-line refusal; does not say what the world holds about its hand-on past 1650."
+ },
+ {
+  "id": "q021-B",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "States the table and organ without marking them as inference, and adds off-topic Catholic pressure with an unsourced 1523-1599 span."
+ },
+ {
+  "id": "q017-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "No living chain, Scripture as the test, and Augustine as influence not identity, all as in the record."
+ },
+ {
+  "id": "q003-B",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Turns unbelief into election anxiety and repeats itself, but stays accurate."
+ },
+ {
+  "id": "q010-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Full and well grounded, but puts 'not from a chain of memory we do not possess' into Zwingli's mouth as his stated principle."
+ },
+ {
+  "id": "q018-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Asserts adults from outside 'would have received the same teaching', which no record holds; the Calvin paraphrase also runs on without a full stop."
+ },
+ {
+  "id": "q011-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "States the limit plainly, then gives the reading method and a fair inference marked 'perhaps'."
+ },
+ {
+  "id": "q005-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Both cities' processes and the Bolsec letters as one side's view are accurate; the Calvin paraphrase lacks a full stop."
+ },
+ {
+  "id": "q014-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Clear contrast of the two cities, but says the Consistory 'fought for decades' when the record gives 1541-1555."
+ },
+ {
+  "id": "q005-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Accurate on council, Consistory, Bolsec and Marburg evidence, though it reads as a list."
+ },
+ {
+  "id": "q009-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Overclaims that every doctrinal claim 'survives scrutiny completely'; the records say the Consensus contest rests on the builder's own judgment."
+ },
+ {
+  "id": "q028-B",
+  "answers_question": "no",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Answers about the Supper, not about the fate of those outside."
+ },
+ {
+  "id": "q020-A",
+  "answers_question": "no",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Never addresses 'born again'; talks about the Anabaptists and the daily-life gap instead."
+ },
+ {
+  "id": "q008-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Inherited fallen condition, then election and the mirror; consistent with the vendored Institutes and records."
+ },
+ {
+  "id": "q002-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Shared creedal Christ and the Supper refusals are consistent with the records and the Helvetic Confession."
+ },
+ {
+  "id": "q004-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Attributes the Spirit's procession 'from Father and Son' to Nicaea and Chalcedon; no record holds the Trinitarian detail."
+ },
+ {
+  "id": "q017-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Strong answer; blends the community's 'chain of memory' gloss into the founder's statement."
+ },
+ {
+  "id": "q001-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Text, not a living chain; founder's rule stated accurately."
+ },
+ {
+  "id": "q012-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "no",
+  "accuracy": "ok",
+  "note": "Quote is verbatim to the rendering, but the answer reads as a list of facts about Zwingli rather than a community speaking."
+ },
+ {
+  "id": "q007-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Doctrinal answer plus an honest limit on what was felt, matching the record."
+ },
+ {
+  "id": "q011-B",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "States the limit and the method, then drifts to election and the Supper tension."
+ },
+ {
+  "id": "q022-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "States the daily-life gap plainly and gives what is attested."
+ },
+ {
+  "id": "q015-B",
+  "answers_question": "partly",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Inverts the question to how wrongdoers were handled; the limit on cases is accurate."
+ },
+ {
+  "id": "q008-A",
+  "answers_question": "no",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Does not address inherited guilt; gives election and the Supper instead."
+ },
+ {
+  "id": "q024-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Asserts a refusal of required celibacy as a mark of the break with Rome, which the records do not hold (the limit gives only Calvin's marriage)."
+ },
+ {
+  "id": "q003-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "The 'Bullinger wrote:' quote is cut off, and 'not from a memory we do not possess' is put into Zwingli's mouth."
+ },
+ {
+  "id": "q025-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Corrects the false premise cleanly and keeps its inference from doctrine marked as inference."
+ },
+ {
+  "id": "q002-A",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Opens on Christ, then mostly turns to election and the 1549 formula."
+ },
+ {
+  "id": "q020-B",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier1",
+  "note": "Falsely says the community would not use 'born again' language; Calvin's Institutes teach regeneration at length."
+ },
+ {
+  "id": "q001-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Adds an unsourced position that the copies are not claimed error-free, and blends the 'chain of memory' gloss into the founder's rule."
+ },
+ {
+  "id": "q023-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Good costs at Zurich, Geneva and with the Anabaptists; 'It could call someone to account' has no stated subject."
+ },
+ {
+  "id": "q013-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier2",
+  "note": "Says no plainly, but 'Catholic orders held Fribourg' misstates the record (Jesuits established there), and it dates Geneva's open reform to 'the earliest years'."
+ },
+ {
+  "id": "q015-A",
+  "answers_question": "partly",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Mostly about how wrongdoers were handled, but admits its refusals cost people and names the missing registers."
+ },
+ {
+  "id": "q006-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Sovereignty, providence and the refusals are grounded; has a double-period typo and a slightly odd opening."
+ },
+ {
+  "id": "q024-B",
+  "answers_question": "yes",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Restates the marriage limit accurately."
+ },
+ {
+  "id": "q019-A",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Clear and grounded in the mirror image and election held as a settled ground."
+ },
+ {
+  "id": "q021-A",
+  "answers_question": "yes",
+  "depth": "rich",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Keeps the table, the organ and the absent images marked as reasoned from doctrine, and names what is missing."
+ },
+ {
+  "id": "q022-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Honest limit plus a brief Consistory/council contrast."
+ },
+ {
+  "id": "q027-A",
+  "answers_question": "partly",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Honest limit, but it reframes around discipline and the Calvin paraphrase lacks a full stop."
+ },
+ {
+  "id": "q007-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Matches the doubt-and-assurance limit; 'In today's English, Heinrich Bullinger says' is a report-style tell."
+ },
+ {
+  "id": "q006-B",
+  "answers_question": "yes",
+  "depth": "adequate",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "ok",
+  "note": "Election, providence and the two Supper statements 26 years apart are accurate and held unresolved."
+ },
+ {
+  "id": "q004-A",
+  "answers_question": "no",
+  "depth": "thin",
+  "plain": "yes",
+  "community_voice": "yes",
+  "accuracy": "tier3",
+  "note": "Answers about election and providence, not Christ's divinity or the Trinity."
+ }
+]

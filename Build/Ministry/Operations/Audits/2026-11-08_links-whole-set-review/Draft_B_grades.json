@@ -1,0 +1,1393 @@
+{
+ "theme": "GRD: consistency of type and grade across eras 1-9",
+ "checked": "All 577 links tabulated by type x grade x source shape x citation_specificity x verification_state. Read every quote of the 22 thin_with_verified_primary links, all 67 'gave rise to', all 90 'continued as', all 29 'broke with', all 51 Documented 'in contact with', all WA influenced/argued against/in contact with, 38 Documented links with short quotes, and all 65 secondary-only links. Compared relationship kinds across eras: council condemnation, period-split succession, mission sending, order reform branches, mother-church appointment of bishops, and lone nineteenth-century secondary. Grepped 209 secondary work strings for repo citation. Script-checked citation_specificity and verification_state against the sources, and re-verified 40+ restored secondary quotes verbatim against cic/texts.",
+ "findings": [
+  {
+   "fid": "GRD-01",
+   "kind": "other",
+   "severity": "substantial",
+   "links": [
+    "early-benedictine-italian-monasticism--cistercian-monasticism",
+    "byzantine-imperial-church-macedonian--athonite-and-comnenian-byzantine-monasticism",
+    "athonite-and-comnenian-byzantine-monasticism--kievan-rus-christianity-1054-1240",
+    "athonite-and-comnenian-byzantine-monasticism--the-georgian-golden-age",
+    "byzantine-church-after-1054--balkan-bogomil-continuation",
+    "byzantine-church-after-1054--kievan-rus-christianity-1054-1240"
+   ],
+   "eras": [
+    3,
+    4,
+    5
+   ],
+   "finding": "Six links rest only on a secondary work, yet carry citation_specificity A, and four carry verified-direct, while none of their sources has a file, lines or quote. They claim an exact line locus the record does not hold, so the claim cannot be re-checked. The era-5 drafts (Draft_GroupA/C/E and Drafting_Record) gave each secondary a vendored file, lines and a verbatim quote. Revision_Round1/Round2 rewrote the sources with only 'kind' and 'work', and the census took that copy. Eras 4, 7, 8 and 9 keep the same kind of vendored secondary with file, lines and quote (e.g. russian-church-nikon-to-holy-synod--the-old-believers--3, russian-church-synodal-century--russian-evangelicals-stundists, georgian-revival-tao-klarjeti--the-georgian-golden-age), and their A grades are backed by them. The visible symptom is two or three identical secondary entries on one link.",
+   "evidence": "Build/Ministry/Operations/Audits/2026-11-07_links-era-5/Revision_Round1.json (athonite...--kievan-rus...: sources [{kind, work}] only, cs A, verified-direct) vs Draft_GroupA.json (same link: file mouravieff...1842.txt lines 1557-1563 and 1599-1603 with quotes). I re-checked every restored quote against its file: all match. E.g. cic/texts/curzon_visits-to-monasteries-in-the-levant_1849.txt 8704-8705 'St. Laura was founded by Nicephorus Phocas, and restored by Neagulus, Waywode of Bessarabia.'; cic/texts/benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt 10527-10529 'the early constitu- tions both of the Carthusian and Cistercian Orders explicitly legislate for conversations at regular times.'",
+   "fix": {
+    "action": "edit",
+    "edits": [
+     {
+      "id": "early-benedictine-italian-monasticism--cistercian-monasticism",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "secondary",
+        "work": "D. Oswald Hunter Blair, note on the Rule's provisions for silence, in The Rule of St. Benedict (1907)",
+        "file": "cic/texts/benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt",
+        "lines": "10527-10529",
+        "locus": "editor's note",
+        "quote": "the early constitu- tions both of the Carthusian and Cistercian Orders explicitly legislate for conversations at regular times.",
+        "license": "public-domain"
+       }
+      ]
+     },
+     {
+      "id": "byzantine-imperial-church-macedonian--athonite-and-comnenian-byzantine-monasticism",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "secondary",
+        "work": "Robert Curzon, Visits to Monasteries in the Levant (1849), chapter on the Great Lavra",
+        "file": "cic/texts/curzon_visits-to-monasteries-in-the-levant_1849.txt",
+        "lines": "8704-8705",
+        "locus": "Mount Athos chapters, St Laura",
+        "quote": "St. Laura was founded by Nicephorus Phocas, and restored by Neagulus, Waywode of Bessarabia.",
+        "license": "public-domain"
+       }
+      ]
+     },
+     {
+      "id": "athonite-and-comnenian-byzantine-monasticism--kievan-rus-christianity-1054-1240",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "secondary",
+        "work": "A. N. Mouravieff, A History of the Church of Russia (1838; English trans. Blackmore, 1842), ch. 1",
+        "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+        "lines": "1557-1563",
+        "locus": "The first monasteries",
+        "quote": "An individual named Anthony, a native of Luhetch9, travelling abroad, visited Mount Athos, and conceived a desire to finish his days there in the monastic state : but the hegumen who gave him the tonsure,",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "A. N. Mouravieff, A History of the Church of Russia (1838; English trans. Blackmore, 1842), ch. 1",
+        "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+        "lines": "1599-1603",
+        "locus": "The first monasteries",
+        "quote": "wrote out for them the Rule of the Studium Monastery, the strictest of all in Constantinople,",
+        "license": "public-domain"
+       }
+      ]
+     },
+     {
+      "id": "athonite-and-comnenian-byzantine-monasticism--the-georgian-golden-age",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "secondary",
+        "work": "Marie-Félicité Brosset, introduction to Histoire de la Géorgie, première partie (1849)",
+        "file": "cic/texts/brosset_histoire-de-la-georgie-pt1-fra_1849.txt",
+        "lines": "2965-2967",
+        "locus": "Introduction",
+        "quote": "C'est sous Bagrat III que le couvent Ibérien du mont Atbos vit fleurir les sa- vants interprèles des livres saints et des plus belles productions de la théologie grecque,",
+        "license": "public-domain"
+       }
+      ]
+     },
+     {
+      "id": "byzantine-church-after-1054--balkan-bogomil-continuation",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "secondary",
+        "work": "Franjo Rački, 'Bogomili i Patareni', Rad Jugoslavenske akademije VII (Zagreb, 1869), retelling Anna Komnene, Alexiad 15",
+        "file": "cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt",
+        "lines": "1800-1801",
+        "locus": "Rad VII, on Alexios I and the Bogomils",
+        "quote": "Taj posao preuzeše u svoje ruke same glave obiju vlasti : car Aleksij i pa tri jarak Nikola;",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Franjo Rački, 'Bogomili i Patareni', Rad Jugoslavenske akademije VII (Zagreb, 1869), retelling Anna Komnene, Alexiad 15",
+        "file": "cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt",
+        "lines": "1735-1736",
+        "locus": "Rad VII, on Basil's burning",
+        "quote": "Ovo odobrivši napokon i sam Alexij poslije novih opomena naloži, da se lomača pripravi u trkalištu.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Franjo Rački, 'Bogomili i Patareni', Rad Jugoslavenske akademije VII (Zagreb, 1869)",
+        "file": "cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt",
+        "lines": "1810",
+        "locus": "Rad VII, on Zigabenos's commission",
+        "quote": "I za nju se pravovjerni car pobrinuo, povjeriv Evthymiju,",
+        "license": "public-domain"
+       }
+      ]
+     },
+     {
+      "id": "byzantine-church-after-1054--kievan-rus-christianity-1054-1240",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "secondary",
+        "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)",
+        "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+        "lines": "1802-1805",
+        "quote": "metropolitans themselves, who were always appointed at Con- stantinople, depended in spiritual matters upon the patriarch, and so preserved the infant Church of Russia in unbroken connection with the Church of Greece."
+       },
+       {
+        "kind": "secondary",
+        "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)",
+        "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+        "lines": "2296-2297",
+        "quote": "He was sent from Constantinople shortly before its capture by the crusaders,"
+       }
+      ]
+     }
+    ],
+    "retire": [],
+    "prose": [],
+    "readability": []
+   },
+   "doubts": "The Drafting Brief's source shape gives secondaries file/lines/quote = null. Eras 4, 7, 8 and 9 did not follow that letter for vendored secondaries, and the validator ignores secondary quotes. If Mark prefers the brief's letter, the fix instead sets these six to citation_specificity C (B where a chapter is named) and verification_state named-not-rechecked. Either way the current A/verified-direct with nothing behind it is wrong. Restoring is the root-cause fix because the era-5 pass did read these lines (its README says so). Restored entries come from the era-5 Drafting_Record or Draft_Group files. Each census secondary was matched by author to a drafted vendored secondary, and the matched file, lines, locus, quote and license were copied in. The census 'work' strings are unchanged. Whoever applies this should confirm each work string still names the matched passage, because the revision may have reworded a few. The quotes themselves all pass a verbatim check."
+  },
+  {
+   "fid": "GRD-02",
+   "kind": "other",
+   "severity": "minor",
+   "links": [
+    "iconophile-byzantine-monasticism--kievan-rus-christianity-1054-1240",
+    "bogomils--balkan-bogomil-continuation",
+    "cistercian-monasticism--the-english-mystics-and-devout",
+    "canons-regular-victorine-school--the-english-mystics-and-devout",
+    "canons-regular-victorine-school--the-franciscan-movement",
+    "carthusian-life--the-english-mystics-and-devout",
+    "the-carmelites--carmelite-reform-and-spanish-mystics",
+    "latin-papal-church-gregorian--the-carmelites",
+    "the-dominican-order--the-carmelites",
+    "latin-church-of-outremer--the-carmelites",
+    "latin-papal-church-gregorian--the-waldensians",
+    "latin-papal-church-gregorian--cathars-albigensians",
+    "balkan-bogomil-continuation--cathars-albigensians",
+    "joachimite-current--the-franciscan-movement",
+    "joachimite-current--franciscan-order-era-6",
+    "latin-papal-church-gregorian--joachimite-current",
+    "latin-papal-church-gregorian--latin-papal-church-avignon-to-lateran-v",
+    "latin-papal-church-gregorian--latin-church-of-outremer",
+    "latin-papal-church-avignon-to-lateran-v--military-religious-orders-templars-hospitallers",
+    "latin-church-of-outremer--byzantine-church-after-1054",
+    "kievan-rus-christianity-1054-1240--muscovite-monastic-christianity"
+   ],
+   "eras": [
+    4,
+    5,
+    6
+   ],
+   "finding": "The same era-5 revision stripped file, lines and quote from the vendored secondaries of these links too. Each also has a primary at a line locus, so grade, citation_specificity and verification_state stay valid. But the secondary loci the drafters checked are lost, unlike the same works in other eras (Mouravieff, Brosset, McCann, Zimmerman, Rački carry lines in eras 4, 7, 8, 9). Several links now show duplicate identical secondary entries.",
+   "evidence": "Same files as GRD-01. All restored quotes re-checked verbatim against their files by script (join wrapped lines with single spaces): all pass.",
+   "fix": {
+    "action": "edit",
+    "edits": [
+     {
+      "id": "iconophile-byzantine-monasticism--kievan-rus-christianity-1054-1240",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "secondary",
+        "source_id": null,
+        "work": "A. N. Mouravieff, A History of the Church of Russia (trans. R. W. Blackmore, 1842), ch. on the first monasteries",
+        "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+        "lines": "1600-1603",
+        "quote": "wrote out for them the Rule of the Studium Monastery, the strictest of all in Constantinople, which a monk, who came with George the new metropolitan, had brought with him from that city.",
+        "locus": "vendored: cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt lines 1599-1616"
+       }
+      ]
+     },
+     {
+      "id": "bogomils--balkan-bogomil-continuation",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "secondary",
+        "source_id": null,
+        "work": "Franjo Rački, Bogomili i Patareni, Rad JAZU VII (1869), pp. 94-95, 113-114",
+        "file": "cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt",
+        "lines": "514-517",
+        "quote": "da je dualistička sekta Bogomila imala u Carigradu svoju obćinu već polovicom XI stoljeća. Njezin naime starješina Vasilj, inače Petar, izpovjedio je oko god. 1111, da upravlja obćinom preko 40 godina, pa da je prije u njoj bio 15 godina.",
+        "locus": "Rad VII, on the Bogomils among the Greeks (citing Euthymios Zigabenos, Panoplia tit. 23)",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Rainerius Sacconi, Summa de Catharis (1250), the list of Cathar churches, as printed by Franjo Rački, Bogomili i Patareni, Rad JAZU VII (1869), p. 161",
+        "file": "cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt",
+        "lines": "4328-4330",
+        "locus": "Summa de Catharis, 'Quot sunt ecclesiae Catharorum'",
+        "quote": "Ecclesia Burgariae (Bulgariae), Ecclesia Dugunthiae (Dugranicae). Et omnes habuerunt originem de duabus ultimis.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "source_id": null,
+        "work": "Dimitri Obolensky, The Bogomils: A Study in Balkan Neo-Manichaeism (Cambridge, 1948)",
+        "file": null,
+        "lines": null,
+        "quote": null,
+        "locus": "repo-cited: census bogomils sources (note: still the standard narrative; its framing faces newer skepticism); not read"
+       }
+      ]
+     },
+     {
+      "id": "cistercian-monasticism--the-english-mystics-and-devout",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Richard Rolle, The Form of Perfect Living, rendered into modern English by Geraldine E. Hodgson (1910)",
+        "file": "cic/texts/rolle_form-of-perfect-living-and-other-prose-treatises_hodgson1910.txt",
+        "lines": "583-585",
+        "locus": "The Form of Perfect Living",
+        "quote": "And S. Bernard says: \"Fasting and waking hinder not spiritual goods, but help, if they be done with _discretion_; without that, they are vices.\"",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Walter Hilton, The Scale of Perfection, ed. Evelyn Underhill (1923)",
+        "file": "cic/texts/hilton_scale-of-perfection_underhill1923.txt",
+        "lines": "4964-4967",
+        "locus": "Scale of Perfection (on the command to love God with all the heart)",
+        "quote": "for this intent, as Saint Bernard sayeth, that we should know thereby our feebleness and then meekly cry mercy, and we shall have it.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Evelyn Underhill, introduction to Richard Rolle, The Fire of Love and The Mending of Life, ed. Frances M. M. Comper (1914)",
+        "file": "cic/texts/rolle_fire-of-love-and-mending-of-life_comper1914.txt",
+        "lines": "752-754",
+        "locus": "Introduction",
+        "quote": "here conforming to the doctrine of the three great masters of the spiritual life whose writings had influenced him most, St. Bernard, Richard of St, Victor, and St. Bonaventura.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Evelyn Underhill, introduction to Walter Hilton, The Scale of Perfection (1923)",
+        "file": "cic/texts/hilton_scale-of-perfection_underhill1923.txt",
+        "lines": "601-603",
+        "locus": "Introduction",
+        "quote": "as regards his mystical teaching further depends on St. Bernard and St. Bonaventura ;",
+        "license": "public-domain"
+       }
+      ]
+     },
+     {
+      "id": "canons-regular-victorine-school--the-english-mystics-and-devout",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Anonymous author of The Cloud of Unknowing, prologue to Denis Hid Divinity (his English version of the Mystical Theology), ed. Justin McCann (1924)",
+        "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+        "lines": "12899-12904",
+        "locus": "Denis Hid Divinity, prologue",
+        "quote": "I have not only followed the naked letter of the text, but for to declare the hardness of it, I have much followed the sentence of the Abbot of Saint Victor*, a noble and a worthy expositor of this same book.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Justin McCann, introduction to The Cloud of Unknowing and other Treatises (1924)",
+        "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+        "lines": "443-447",
+        "locus": "Introduction",
+        "quote": "Thomas, Abbot of St Andrew’s, Vercelli, from its foundation in 1219 until his death in 1246, a Canon Regular of the Congregation of St Victor,",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Justin McCann, introduction to The Cloud of Unknowing and other Treatises (1924)",
+        "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+        "lines": "540-546",
+        "locus": "Introduction",
+        "quote": "To him several chapters of the Cloud are very closely in- debted, and there are many incidental borrowings, some of which are mentioned in the notes to this edition. Moreover, the author’s Benjamin is a free rendering of Richard’s Benjamin Minor.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Evelyn Underhill, introduction to Walter Hilton, The Scale of Perfection (1923)",
+        "file": "cic/texts/hilton_scale-of-perfection_underhill1923.txt",
+        "lines": "606-608",
+        "locus": "Introduction (on Richard of St Victor)",
+        "quote": "From him Hilton, like the rest of the English school, takes his psychology en bloc.",
+        "license": "public-domain"
+       }
+      ]
+     },
+     {
+      "id": "canons-regular-victorine-school--the-franciscan-movement",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Bonaventure, Itinerarium mentis in Deum, cap. 5, as quoted in Justin McCann's note to The Cloud of Unknowing ch. 32 (1924)",
+        "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+        "lines": "3990-3993",
+        "locus": "Itinerarium 5 (Quaracchi vol. 5, p. 308), in McCann's note",
+        "quote": "Quoniam autem contingit contemplari Deum non solum extra nos et intra nos, verum etiam supra nos : extra per vestigium, intra per imaginem et supra per lumen",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Richard of St Victor, Benjamin Minor, cap. 55, as quoted in the same note",
+        "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+        "lines": "3995-3996",
+        "locus": "Benjamin Minor 55, in McCann's note",
+        "quote": "Extra nos corpo- ralia, intra nos spiritualia, supra nos divina.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Justin McCann, notes to The Cloud of Unknowing (1924)",
+        "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+        "lines": "3996-3998",
+        "locus": "note to the Cloud, on the three ways of seeing God",
+        "quote": "St Bonaventure in his mystical teaching is a disciple of Richard.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Justin McCann, notes to The Cloud of Unknowing (1924)",
+        "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+        "lines": "5849-5850",
+        "locus": "note to the Cloud, on the flash of light",
+        "quote": "St Bonaventure in his Itinerarium mentis in Deum follows Richard closely,",
+        "license": "public-domain"
+       }
+      ]
+     },
+     {
+      "id": "carthusian-life--the-english-mystics-and-devout",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "The Cloud of Unknowing, ch. 35, ed. Justin McCann (1924)",
+        "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+        "lines": "6387-6390",
+        "locus": "Cloud ch. 35",
+        "quote": "NEVERTHELESS there be means in the which a contemplative prentice should be occupied, the which be these: Lesson, Meditation, and Orison.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "The Cloud of Unknowing, ch. 35, ed. Justin McCann (1924)",
+        "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+        "lines": "6426-6427",
+        "locus": "Cloud ch. 35 (after a page break and footnote)",
+        "quote": "written in another book by another man much better than I can tell thee;",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Justin McCann, note to The Cloud of Unknowing ch. 35 (1924)",
+        "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+        "lines": "6399-6402",
+        "locus": "note to ch. 35",
+        "quote": "The book referred to is probably the Scala Claustralium of Guigo II, prior of the Grande Chartreuse towards the end of the twelfth century.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Justin McCann, note to The Cloud of Unknowing ch. 35 (1924)",
+        "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+        "lines": "6406-6409",
+        "locus": "note to ch. 35",
+        "quote": "It was translated into English in the fourteenth century as ‘‘ a ladder of four rungs, by the which ladder men may well climb to heaven ”",
+        "license": "public-domain"
+       }
+      ]
+     },
+     {
+      "id": "the-carmelites--carmelite-reform-and-spanish-mystics",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Teresa of Ávila, Life, ch. 36 §27, trans. David Lewis, ed. Benedict Zimmerman (1904)",
+        "file": "cic/texts/teresa-of-avila_life_lewis1904.txt",
+        "lines": "19258-19262",
+        "locus": "Life 36.27",
+        "quote": "We keep the rule of our Lady of Carmel, not the rule of the Mitigation, but as it was settled by Fr. Hugo, Cardinal of Santa Sabina, and given in the year 1248, in the fifth year of the pontificate of Innocent IV., Pope.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Benedict Zimmerman, note to the Rule, in Teresa of Ávila, The Book of the Foundations, trans. Lewis (1913)",
+        "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+        "lines": "22414-22415",
+        "locus": "note to the Rule's dating clause",
+        "quote": "IV correspond to 1247 not 1248 as is frequently, though erroneously, stated,",
+        "license": "public-domain"
+       }
+      ]
+     },
+     {
+      "id": "latin-papal-church-gregorian--the-carmelites",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Innocent IV, letter of confirmation of the Carmelite Rule (1247), trans. in Teresa of Ávila, The Book of the Foundations, Lewis (1913)",
+        "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+        "lines": "21980-21983",
+        "locus": "bull of Innocent IV, salutation",
+        "quote": "Innocent, bishop, servant of the servants of God, to His beloved children the prior and brethren, hermits of blessed Mary of Mount Carmel, health and the apostolic blessing.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Innocent IV, letter of confirmation of the Carmelite Rule (1247), same translation",
+        "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+        "lines": "22014-22017",
+        "locus": "bull of Innocent IV",
+        "quote": "We, consenting to your pious desires, do by our Apostolic authority confirm, and by the protection of these letters maintain, the explanation, mitigation, and correction aforesaid,",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Innocent IV, letter of confirmation of the Carmelite Rule (1247), same translation",
+        "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+        "lines": "22409-22410",
+        "locus": "bull of Innocent IV, dating clause",
+        "quote": "Given at Lyons, October 1, in the fifth year of our pontificate.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Benedict Zimmerman, note to the Rule, in The Book of the Foundations (1913)",
+        "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+        "lines": "22414-22415",
+        "locus": "note to the Rule's dating clause",
+        "quote": "IV correspond to 1247 not 1248 as is frequently, though erroneously, stated,",
+        "license": "public-domain"
+       }
+      ]
+     },
+     {
+      "id": "the-dominican-order--the-carmelites",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Hugh of Saint-Cher and William of Tortosa, letter to the Carmelites with the revised Rule (1247), in Innocent IV's confirmation, trans. Lewis (1913)",
+        "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+        "lines": "22021-22023",
+        "locus": "the delegates' letter, salutation",
+        "quote": "Friar Hugh, by the Divine compassion cardinal priest of Santa Sabina, and friar William, by the same compas- sion bishop of Tortosa,",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "same letter",
+        "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+        "lines": "22024-22026",
+        "locus": "the delegates' letter, salutation",
+        "quote": "the prior-general and the definitors of the general chapter of the order of the friars of blessed Mary of Mount Carmel,",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Innocent IV, letter of confirmation of the revised Carmelite Rule (1247), salutation, trans. Lewis (1913)",
+        "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+        "lines": "21980-21983",
+        "locus": "Innocent IV's confirmation, salutation",
+        "quote": "Innocent, bishop, servant of the servants of God, to His beloved children the prior and brethren, hermits of blessed Mary of Mount Carmel, health and the apostolic blessing.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Benedict Zimmerman, note to the Rule, in The Book of the Foundations (1913)",
+        "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+        "lines": "21999-22001",
+        "locus": "note to the bull",
+        "quote": "The Pope com- missioned Hugh of S. Cher, cardinal of Santa Sabina and the bishop of Tortosa, both Dominicans, to make the corrections required,",
+        "license": "public-domain"
+       }
+      ]
+     },
+     {
+      "id": "latin-church-of-outremer--the-carmelites",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Albert of Jerusalem, Rule for the hermits of Mount Carmel (1206-1214), opening, as revised in 1247 and kept by the nuns of Alcalá, trans. Lewis (1913)",
+        "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+        "lines": "22056-22061",
+        "locus": "Rule of Albert, salutation",
+        "quote": "Albert, by the grace of God patriarch of Jerusalem, to our beloved children in Christ, Brocard and the other brethren, hermits, who live under his obedience by the well of Elias on Mount Carmel, health in Jesus Christ, and the blessing of the Holy Ghost.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Benedict Zimmerman, note to the bull of Innocent IV, in The Book of the Foundations (1913)",
+        "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt",
+        "lines": "21995-21997",
+        "locus": "note to the bull",
+        "quote": "The primitive rule given by Albert, patriarch of Jerusalem, who was murdered in 1214, was confirmed by Honorius III in the year 1226.",
+        "license": "public-domain"
+       }
+      ]
+     },
+     {
+      "id": "latin-papal-church-gregorian--the-waldensians",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Gregory IX, formula of anathema against heretics (c. 1229-1231), in Denzinger-Bannwart, Enchiridion symbolorum, 11th ed. (1911), no. 444",
+        "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+        "lines": "14315-14317",
+        "locus": "Denzinger no. 444",
+        "quote": "Catharos , Patarenos , Pauperes de Lugduno, Passaginos, losepinos, Arnaldistas, Speronistas et alios, quibuscunque nominibus censeantur",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Bernard Gui, Manuel de l'inquisiteur, vol. 1 (ed. Mollat 1926), on the sect of the Waldensians, their origin",
+        "file": "cic/texts/bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926.txt",
+        "lines": "4897-4899",
+        "locus": "Part V, 'De secta Valdensium', ch. 1",
+        "quote": "et, moniti ut desiste- rent, inobedientes et contumaces effecti sunt; et exinde excommunicati ab illa civitate et patria sunt expulsi.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Bernard Gui, Manuel de l'inquisiteur, vol. 1 (ed. Mollat 1926), on the sect of the Waldensians, their origin",
+        "file": "cic/texts/bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926.txt",
+        "lines": "4900-4903",
+        "locus": "Part V, 'De secta Valdensium', ch. 1",
+        "quote": "Demum vero in quodam concilio, quod fuit Rome ante Lateranense concilium? celebratum, cum essent perti- naces, fuerunt scismatict judicati et deinde ut heretici condempnati.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Édouard Montet, Histoire littéraire des Vaudois du Piémont (Paris, 1885), ch. on the origins",
+        "file": "cic/texts/montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt",
+        "lines": "2230-2233",
+        "locus": "Montet 1885, on the 1184 and 1215 condemnations",
+        "quote": "le quatrième concile de Latran condamne irrévocablement Waldez comme hérétique et réitère l'ex- communication dont Lucius III a frappé ses partisans en 1184.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Édouard Montet, Histoire littéraire des Vaudois du Piémont (Paris, 1885), ch. on the origins",
+        "file": "cic/texts/montet_histoire-litteraire-des-vaudois-du-piemont-fra_1885.txt",
+        "lines": "2249-2250",
+        "locus": "Montet 1885, on the papal decrees against the Vaudois",
+        "quote": "« Ils s'arrogent le droit de prêcher, » avait dit Lucius III en 1184",
+        "license": "public-domain"
+       }
+      ]
+     },
+     {
+      "id": "latin-papal-church-gregorian--cathars-albigensians",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Third Lateran Council (1179), canon 27, in Denzinger-Bannwart, Enchiridion symbolorum, 11th ed. (1911), no. 401",
+        "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+        "lines": "13191-13195",
+        "locus": "Lateran III, canon 27 (Denzinger no. 401)",
+        "quote": "Eapropter, quia in Gas- conia, Albegesio et partibus Tolosanis et aliis locis ita haereticorum, quos aUi Catharos, aUi Patarenos, aUi PubUcanos, aUi aliis nominibus vocant, invaluit damnata perversitas",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Third Lateran Council (1179), canon 27, in Denzinger-Bannwart, Enchiridion symbolorum, 11th ed. (1911), no. 401",
+        "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+        "lines": "13198-13199",
+        "locus": "Lateran III, canon 27 (Denzinger no. 401)",
+        "quote": "eos et defensores et receptatores eoruni anathemati decernimus subiacere",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Gregory IX, formula of anathema against heretics (c. 1229-1231), in Denzinger-Bannwart, Enchiridion symbolorum, 11th ed. (1911), no. 444",
+        "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+        "lines": "14315-14317",
+        "locus": "Denzinger no. 444",
+        "quote": "Catharos , Patarenos , Pauperes de Lugduno, Passaginos, losepinos, Arnaldistas, Speronistas et alios, quibuscunque nominibus censeantur",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Jean-Paul Perrin, History of the Old Albigenses (1618; English translation 1624, Philadelphia 1847), Part II, Book I, ch. 3",
+        "file": "cic/texts/perrin_history-ancient-christians-valleys-alps_1847.txt",
+        "lines": "8363-8364",
+        "locus": "Part II, Book I, ch. 3",
+        "quote": "When pope Innocent had made ready his armies of crusaders, and dispersed them throughout the country of the Albigenses,",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Jean-Paul Perrin, History of the Old Albigenses (1618; English translation 1624, Philadelphia 1847), Part II, Book I, ch. 3",
+        "file": "cic/texts/perrin_history-ancient-christians-valleys-alps_1847.txt",
+        "lines": "8443-8444",
+        "locus": "Part II, Book I, ch. 3",
+        "quote": "That levy of pilgrims waa made in the year 1209.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Henry Charles Lea, A History of the Inquisition of the Middle Ages, vol. 3 (1888)",
+        "file": "cic/texts/lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt",
+        "lines": "1184-1186",
+        "locus": "vol. 3, ch. 1",
+        "quote": "In Provence and Lan- guedoc, especialljT-, his teachings found eager reception. Harried successively by the crusades and the Inquisition,",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Antonio Sennis (ed.), Cathars in Question (York Medieval Press, 2016)"
+       },
+       {
+        "kind": "secondary",
+        "work": "Cambridge History of Christianity vol. 4, ch. 12 'Christians and heretics' (Biller)"
+       }
+      ]
+     },
+     {
+      "id": "balkan-bogomil-continuation--cathars-albigensians",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Rainier Sacconi, Summa de Catharis et Pauperibus de Lugduno (c. 1250), on the sixteen Cathar churches, as printed in Franjo Rački, 'Bogomili i Patareni', Rad JAZU VII (1869)",
+        "file": "cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt",
+        "lines": "4328-4330",
+        "locus": "Sacconi, 'Quot sunt ecclesiae Catharorum' (Rački, Rad VII, notes to the Cathar churches)",
+        "quote": "Ecclesia Burgariae (Bulgariae), Ecclesia Dugunthiae (Dugranicae). Et omnes habuerunt originem de duabus ultimis.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Colophon of the Interrogatio Iohannis (the 'Secret Supper'), Carcassonne inquisition manuscript, as printed in Franjo Rački, 'Bogomili i Patareni', part 2, Rad JAZU X (1870)",
+        "file": "cic/texts/racki_bogomili-i-patareni-rad-x-hrv_jazu1870.txt",
+        "lines": "4661-4663",
+        "locus": "Rački, Rad X, on the books of the Bogomils and Patarenes",
+        "quote": "hoc est secretum hereticorum de Concorezio, portatum de Bulgaria Nazario suo episcopo, plenum erroribus.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Everwin of Steinfeld, letter to Bernard of Clairvaux (c. 1143), as printed in Franjo Rački, 'Bogomili i Patareni', Rad JAZU VII (1869), note",
+        "file": "cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt",
+        "lines": "474-476",
+        "locus": "Everwin, Ep. ad Bernardum (Mabillon, Vetera analecta III, 457), cited by Rački",
+        "quote": "Hane haeresim usque ad hac tempora occultatam fuisse a temporibus inartyrum, et pennansisse in Graecia et quibusdam aliis terris.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Franjo Rački, 'Bogomili i Patareni', Rad Jugoslavenske akademije VII (Zagreb, 1869)",
+        "file": "cic/texts/racki_bogomili-i-patareni-rad-vii-hrv_jazu1869.txt",
+        "lines": "2156-2157",
+        "locus": "Rad VII, on the Cathars and Patarenes to the end of the twelfth century",
+        "quote": "Zapadni je ogranak sekte ostao uviek u svezi sa svojim deblom.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Antonio Sennis (ed.), Cathars in Question (York Medieval Press, 2016)"
+       }
+      ]
+     },
+     {
+      "id": "joachimite-current--the-franciscan-movement",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Angelo Clareno, Historia septem tribulationum ordinis minorum (c. 1320s), fifth tribulation, Latin text printed by Franz Ehrle in Archiv für Literatur- und Kirchengeschichte des Mittelalters 2 (1886)",
+        "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd2-deu-lat_1886.txt",
+        "lines": "15462-15469",
+        "locus": "Historia, on the trial of John of Parma (Ehrle, Archiv 2, p. 276)",
+        "quote": "Fuit autem racio tercia | persecucionis duorum sermonum conscriptio faeta a duobus quibusdam fratris Johannis sociis b), quorum primus per excessum et, ut ita dicam, sine sale laudabat abbatis Joachim doctrinam pariter et personam,",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Henry Charles Lea, A History of the Inquisition of the Middle Ages, vol. 3 (1888), ch. 1",
+        "file": "cic/texts/lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt",
+        "lines": "1256-1258",
+        "locus": "vol. 3, ch. 1, 'The Spiritual Franciscans'",
+        "quote": "Prominent members of the Order had openly embraced the Joa- chitic doctrines, and his prophecies, genuine and spurious, were applied to all events as they occurred.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Henry Charles Lea, A History of the Inquisition of the Middle Ages, vol. 3 (1888), ch. 1",
+        "file": "cic/texts/lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt",
+        "lines": "758-759",
+        "locus": "vol. 3, ch. 1",
+        "quote": "in 1248 was succeeded by Giovanni Borelli, better known as John of Parma,",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Heinrich Denifle, 'Das Evangelium aeternum und die Commission zu Anagni', Archiv für Literatur- und Kirchengeschichte des Mittelalters 1 (1885)",
+        "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt",
+        "lines": "4073-4074",
+        "locus": "Denifle 1885, section 3",
+        "quote": "So betrachtete also Gerard die drei Hauptschriften Joachims als das Evangelium aetemum.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Heinrich Denifle, 'Das Evangelium aeternum und die Commission zu Anagni', Archiv für Literatur- und Kirchengeschichte des Mittelalters 1 (1885)",
+        "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt",
+        "lines": "3680-3682",
+        "locus": "Denifle 1885, section 2",
+        "quote": "Das Evangelium aetemum knüpft sich im Mittelalter nicht bloss an den Namen des Abtes Joachim, sondern auch an den des Franciscaners Gerard von Borge S. Donnino.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Marjorie Reeves, The Influence of Prophecy in the Later Middle Ages: A Study in Joachimism (Clarendon, 1969)"
+       }
+      ]
+     },
+     {
+      "id": "joachimite-current--franciscan-order-era-6",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Angelo Clareno, Historia septem tribulationum ordinis minorum (c. 1320s), fol. 42a, quoted by Franz Ehrle in Archiv für Literatur- und Kirchengeschichte des Mittelalters 2 (1886)",
+        "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd2-deu-lat_1886.txt",
+        "lines": "6185-6188",
+        "locus": "Historia, fol. 42a (Ehrle, Archiv 2, p. 115, note 2)",
+        "quote": "Denique tota prima pars prophecie sancti Cirilli, quam abbas Joachim immensis laudibus effert, fratrem Petrum Johannem principalissime tangit et sue nativitatis locum et ordinem.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Franz Ehrle, 'Die Spiritualen, ihr Verhältniss zum Franziskanerorden und zu den Fraticellen', Archiv für Literatur- und Kirchengeschichte des Mittelalters 2 (1886)",
+        "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd2-deu-lat_1886.txt",
+        "lines": "6354-6357",
+        "locus": "Ehrle 1886, on the historia tribulationum",
+        "quote": "Die ganze Berechnung und Eintheilung der tribulationes des Ordens beruht auf dem in spiritualistischen Kreisen weit verbreiteten Joachimismus, in welchen sich auch Angelo voll- ständig hineingelebt hatte.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Franz Ehrle, 'Petrus Johannis Olivi, sein Leben und seine Schriften', Archiv für Literatur- und Kirchengeschichte des Mittelalters 3 (1887)",
+        "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887.txt",
+        "lines": "27410-27411",
+        "locus": "Ehrle 1887, on Olivi's Apocalypse commentary",
+        "quote": "Es ist eben diese Postille die Apocalypse Joachims in ‘verbesserter’ spiritualistischer Auflage.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Georges Mollat (ed.), Bernard Gui, Manuel de l'inquisiteur, vol. 1 (1926), note on the Beguins' reading of Olivi",
+        "file": "cic/texts/bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926.txt",
+        "lines": "10797-10799",
+        "locus": "Mollat's note to Gui, Part V, the Beguins' interrogatory",
+        "quote": "Ce commentaire combinait les rêveries apocalyptiques de Joachim de Flore, moine calabrais, mort au début du xrr1° siècle, avec les élucubrations d’un frère Mineur,",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "David Burr, The Spiritual Franciscans: From Protest to Persecution in the Century after Saint Francis (Penn State, 2001)"
+       }
+      ]
+     },
+     {
+      "id": "latin-papal-church-gregorian--joachimite-current",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Fourth Lateran Council (1215), chapter 2, 'On the error of Abbot Joachim', in Denzinger-Bannwart, Enchiridion symbolorum, 11th ed. (1911), no. 431",
+        "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+        "lines": "13944-13946",
+        "locus": "Lateran IV, ch. 2 (Denzinger no. 431)",
+        "quote": "Damnamus ergo et reprobamus libellum seu tractatum, 39 (358) quem Abbas loachim edidit contra Magistrum Petrum Lombardum, de unitate seu essentia Trinitatis,",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Henry Charles Lea, A History of the Inquisition of the Middle Ages, vol. 3 (1888), ch. 1",
+        "file": "cic/texts/lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt",
+        "lines": "1401-1403",
+        "locus": "vol. 3, ch. 1, 'The Everlasting Gospel'",
+        "quote": "The commission which sat at Anagni in July, 1255, for its condemnation had a task over which there could be no debate,",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Heinrich Denifle, 'Das Evangelium aeternum und die Commission zu Anagni', Archiv für Literatur- und Kirchengeschichte des Mittelalters 1 (1885)",
+        "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt",
+        "lines": "3682-3684",
+        "locus": "Denifle 1885, section 2",
+        "quote": "Im Jahre 1254 veröffentlichte er eine Schrift unter dem Titel: Indrodu- ctorius in Evangelium aetemum.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Marjorie Reeves, The Influence of Prophecy in the Later Middle Ages: A Study in Joachimism (Clarendon, 1969)"
+       }
+      ]
+     },
+     {
+      "id": "latin-papal-church-gregorian--latin-papal-church-avignon-to-lateran-v",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Gregory VII, Dictatus Papae (1075), Register II.55a, in Mirbt, Quellen zur Geschichte des Papsttums, 3rd ed. (1911), no. 255",
+        "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+        "lines": "11209",
+        "locus": "Dictatus Papae 19",
+        "quote": "Quod a nemine ipse iudicari debeat.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Boniface VIII, bull Unam sanctam (18 November 1302), in Mirbt, Quellen, 3rd ed. (1911), no. 309",
+        "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+        "lines": "13593-13594",
+        "locus": "Unam sanctam",
+        "quote": "Ergo si deviat terrena potestas, iudicabitur a potestate spirituah; sed si deviat spiri- tuahs minor, a suo superiori; si vero suprema, a solo Deo, non ab homine poterit iudicari;",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Carl Mirbt (ed.), Quellen zur Geschichte des Papsttums, 3rd ed. (1911), editor's heading to nos. 307-309",
+        "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+        "lines": "13432",
+        "locus": "heading before no. 307",
+        "quote": "Papst Bonifatius VIIl. (1294—1303)."
+       }
+      ]
+     },
+     {
+      "id": "latin-papal-church-gregorian--latin-church-of-outremer",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Urban II, Council of Clermont (1095), canon 2, in Mirbt, Quellen, 3rd ed. (1911), no. 256",
+        "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+        "lines": "11226-11227",
+        "locus": "Clermont 1095, c. 2",
+        "quote": "Quicumque pro sola devotione, non pro honoris vel pecmiiae adeptione, ad li- berandam ecclesianiDei lerusalem profectus fuerit, iter illud pro omni poenitentia reputetur.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Édouard Dulaurier (ed.), notes to Matthew of Edessa, Chronicle, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+        "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+        "lines": "15578-15581",
+        "locus": "note to Matthew of Edessa, on the patriarchs of Antioch",
+        "quote": "Les croisés nommèrent à sa place Bernard de Valence, évêque d'Arta, en Épire, qui avail suivi à la croisade l'évêque du Puy, Adhémar, en qualité de chapelain."
+       },
+       {
+        "kind": "secondary",
+        "work": "Édouard Dulaurier (ed.), notes to Matthew of Edessa, Chronicle, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+        "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+        "lines": "15582-15584",
+        "locus": "note to Matthew of Edessa, on the patriarchs of Jerusalem",
+        "quote": "Lors de la prise de Jérusalem par les Franks, le patriarcat de cette ville fut donné à Daimbert où Dagobert,"
+       }
+      ]
+     },
+     {
+      "id": "latin-papal-church-avignon-to-lateran-v--military-religious-orders-templars-hospitallers",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Clement V, bull Vox in excelso (22 March 1312), in Mirbt, Quellen, 3rd ed. (1911), no. 310",
+        "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+        "lines": "13649-13651",
+        "locus": "Vox in excelso",
+        "quote": "districtius inhibentes, ne quis dictum ordinem de caetero intrare, vel eius habitum suscipere vel portare aut pro templario gerere se praesumat.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Carl Mirbt (ed.), Quellen, 3rd ed. (1911), heading and source line to no. 310",
+        "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+        "lines": "13621",
+        "locus": "headnote to no. 310",
+        "quote": "Bulle „Vox in excelso\"\" vom 22. März 1312:"
+       },
+       {
+        "kind": "secondary",
+        "work": "Carl Mirbt (ed.), Quellen, 3rd ed. (1911), heading to no. 310",
+        "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+        "lines": "13619",
+        "locus": "heading to no. 310",
+        "quote": "Papst Clemens T., Aufhebung des Templeiordens."
+       }
+      ]
+     },
+     {
+      "id": "latin-church-of-outremer--byzantine-church-after-1054",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Michael the Syrian, Chronicle (Armenian version), extract in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+        "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+        "lines": "45620-45623",
+        "locus": "the prince of Antioch's return from captivity",
+        "quote": "Il ramena de chez les Grecs, en qua- lité de patriarche d'Antioche, un nommé Athanase, et l'introduisit dans cette ville.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Michael the Syrian, Chronicle (Armenian version), extract in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+        "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+        "lines": "45622-45623",
+        "locus": "the prince of Antioch's return from captivity",
+        "quote": "Le patriarche frank Aimeric, témoin de cette intrusion, en sortit aussitôt pour venir se fixer à Koceïr“, et excommunia les habitants d'Antioche.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Michael the Syrian, Chronicle (Armenian version), extract in French, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+        "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+        "lines": "46510-46511",
+        "locus": "the earthquake at Antioch",
+        "quote": "Il leur dit : « Chassez avec « mépris le patriarche grec [Athanase|, qui est un intrus. »",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "Édouard Dulaurier (ed.), notes to Matthew of Edessa, Chronicle, in Recueil des historiens des croisades, Documents arméniens I (1869)",
+        "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt",
+        "lines": "15575-15578",
+        "locus": "note to Matthew of Edessa, on John, Greek patriarch of Antioch",
+        "quote": "Cependant, au bout de deux ans, Jean, voyant qu'un patriarche grec ne pouvait convenir dans une ville possédée par les Latins, se retira à Constantinople."
+       }
+      ]
+     },
+     {
+      "id": "kievan-rus-christianity-1054-1240--muscovite-monastic-christianity",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Synodal act of the patriarchate of Constantinople on the seat of the metropolitan of Kyiv and all Rus' (after 1353), in Miklosich and Müller, Acta patriarchatus Constantinopolitani, vol. 1 (1860), no. 158",
+        "file": "cic/texts/acta-et-diplomata-graeca_acta-patriarchatus-constantinopolitani-1315-1402-v1-grc-lat_miklosich-mueller1860.txt",
+        "lines": "16499-16500",
+        "locus": "no. 158, opening",
+        "quote": "τὸ Κύεβον ἐπονομαζόμενον, ἐν ᾧ ἦν ἄνω- ϑεν ἡ χαϑολικὴ ἐκχλησία τῆς μητροπόλεως,",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Synodal act of the patriarchate of Constantinople on the seat of the metropolitan of Kyiv and all Rus' (after 1353), in Miklosich and Müller, Acta patriarchatus Constantinopolitani, vol. 1 (1860), no. 158",
+        "file": "cic/texts/acta-et-diplomata-graeca_acta-patriarchatus-constantinopolitani-1315-1402-v1-grc-lat_miklosich-mueller1860.txt",
+        "lines": "16507",
+        "locus": "no. 158, the move to Vladimir",
+        "quote": "μετῴκησαν εἰς τὴν ἁγιωτάτην αὐτῆς ἐὀπκισχοπὴν Βλανδιμήρου,",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Synodal act of the patriarchate of Constantinople on the seat of the metropolitan of Kyiv and all Rus' (after 1353), in Miklosich and Müller, Acta patriarchatus Constantinopolitani, vol. 1 (1860), no. 158",
+        "file": "cic/texts/acta-et-diplomata-graeca_acta-patriarchatus-constantinopolitani-1315-1402-v1-grc-lat_miklosich-mueller1860.txt",
+        "lines": "16509-16511",
+        "locus": "no. 158, Theognostos and two before him",
+        "quote": "μετῴκισαν δὲ ἐν αὐτῇ τοῦτον τὸν τρόπον ὅ τε ἱεξρώτατος μητροπολίτης Ῥωσίας, «üóp Θεόγνωστος ἐχεῖνος, καὶ πρὸ αὐτοῦ ἕτεροι δύο,",
+        "license": "public-domain"
+       },
+       {
+        "kind": "primary",
+        "source_id": null,
+        "work": "Sigismund von Herberstein, Rerum Moscoviticarum commentarii (1549), trans. R. H. Major, Notes upon Russia, vol. 1 (Hakluyt Society, 1851)",
+        "file": "cic/texts/herberstein_notes-upon-russia-v1_major1851.txt",
+        "lines": "9762-9763",
+        "locus": "'Religion'",
+        "quote": "The metropolitan formerly resided in Kiev, afterwards in Vladimir, but now in Moscow.",
+        "license": "public-domain"
+       },
+       {
+        "kind": "secondary",
+        "work": "A. N. Mouravieff, A History of the Church of Russia (1838; trans. R. W. Blackmore, Oxford, 1842)",
+        "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+        "lines": "2689-2691",
+        "quote": "he transferred the ancient metropolitical throne to the new capital, still keeping the former title of metropolitan of Kieff and of all Russia ;"
+       }
+      ]
+     }
+    ],
+    "retire": [],
+    "prose": [],
+    "readability": []
+   },
+   "doubts": "Secondaries with no vendored file (Reeves, Burr, Sennis, Obolensky, CHC vol. 4) stay as work-only. Same brief-letter caveat as GRD-01. Restored entries come from the era-5 Drafting_Record or Draft_Group files. Each census secondary was matched by author to a drafted vendored secondary, and the matched file, lines, locus, quote and license were copied in. The census 'work' strings are unchanged. Whoever applies this should confirm each work string still names the matched passage, because the revision may have reworded a few. The quotes themselves all pass a verbatim check."
+  },
+  {
+   "fid": "GRD-03",
+   "kind": "other",
+   "severity": "minor",
+   "links": [
+    "kievan-rus-christianity--kievan-rus-christianity-1054-1240",
+    "cyrillo-methodian-slavic-christianity--kievan-rus-christianity"
+   ],
+   "eras": [
+    4
+   ],
+   "finding": "Two era-4 secondary-only links put their line loci and quoted words inside the 'work' and 'locus' strings, with file and lines null. Their citation_specificity A depends on loci that sit in free text, unlike every other vendored source, where file and lines are fields.",
+   "evidence": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt 905-907 ('...became afterwards a most blessed instrument for the conversion of the Russians'); platon_present-state-of-the-greek-church-in-russia_pinkerton1814.txt 3150-3154; herberstein_notes-upon-russia-v1_major1851.txt 7871-7878 and 8282-8288 ('since which time Russia has continued in the faith of Christ'). The words quoted in the work strings are in those lines.",
+   "fix": {
+    "action": "edit",
+    "edits": [
+     {
+      "id": "cyrillo-methodian-slavic-christianity--kievan-rus-christianity",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "secondary",
+        "source_id": null,
+        "work": "A. N. Mouravieff, A History of the Church of Russia (1838), trans. R. W. Blackmore (Oxford, 1842); vendored at cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt: the brothers' translation 'became afterwards a most blessed instrument for the conversion of the Russians'",
+        "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+        "lines": "905-907",
+        "locus": "ch. I, file lines 905-907",
+        "quote": null,
+        "license": null
+       },
+       {
+        "kind": "secondary",
+        "source_id": null,
+        "work": "Robert Pinkerton, note in Platon, The Present State of the Greek Church in Russia (Edinburgh, 1814): the Slavonic Bible 'made in the ninth century, by two learned Greeks, Cyril and Methodius'; 'The present version in use among the Russians is that of Ostrog'",
+        "file": "cic/texts/platon_present-state-of-the-greek-church-in-russia_pinkerton1814.txt",
+        "lines": "3150-3154",
+        "locus": "file lines 3150-3154",
+        "quote": null,
+        "license": null
+       },
+       {
+        "kind": "secondary",
+        "source_id": null,
+        "work": "Sigmund von Herberstein, Notes upon Russia (Rerum Moscoviticarum Commentarii, 1549), trans. R. H. Major (1851), vol. I: a sixteenth-century retelling of the Rus' annals, used here as a later account, not as a primary for the ninth century: the Rus' annals 'began to be written and recorded' after Michael 'had sent the Sclavonian characters into Bulgaria' (which the same passage dates [898])",
+        "file": "cic/texts/herberstein_notes-upon-russia-v1_major1851.txt",
+        "lines": "7871-7878",
+        "quote": null,
+        "locus": "vendored: cic/texts/herberstein_notes-upon-russia-v1_major1851.txt lines 7871-7878"
+       }
+      ]
+     },
+     {
+      "id": "kievan-rus-christianity--kievan-rus-christianity-1054-1240",
+      "field": "sources",
+      "new": [
+       {
+        "kind": "secondary",
+        "source_id": null,
+        "work": "A. N. Mouravieff, A History of the Church of Russia (1838), trans. R. W. Blackmore (Oxford, 1842); vendored at cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt: Hilarion, priest at Berestoff, 'dug himself out a dark cave or Pesch, the germ of the future Lavra, and of all the religious houses of Russia'; Anthony later settled 'in the deserted cave of Hilarion'; Hilarion chosen metropolitan, margin date 1051",
+        "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+        "lines": "1540-1542",
+        "quote": "The Metropolitan Hilarion when he was as yet only priest of the Church of the holy Apostles in Berestoff,",
+        "locus": "ch. II, file lines 1497-1498, 1541-1566"
+       },
+       {
+        "kind": "secondary",
+        "source_id": null,
+        "work": "Sigmund von Herberstein, Notes upon Russia (Rerum Moscoviticarum Commentarii, 1549), trans. R. H. Major (1851), vol. I: a sixteenth-century retelling of the Rus' annals, used here as a later account, not as a primary: Vladimir's baptism, 'since which time Russia has continued in the faith of Christ' (the same sentence dates the baptism 6469 (961))",
+        "file": "cic/texts/herberstein_notes-upon-russia-v1_major1851.txt",
+        "lines": "8282-8288",
+        "quote": null,
+        "locus": "vendored: cic/texts/herberstein_notes-upon-russia-v1_major1851.txt lines 8282-8288"
+       }
+      ]
+     }
+    ],
+    "retire": [],
+    "prose": [],
+    "readability": []
+   },
+   "doubts": "For cyrillo-methodian only file and lines are filled; the quote stays in the work string, since moving it would need trimming to clause boundaries. The kievan link takes the era-5 drafted Mouravieff quotes, which I verified."
+  },
+  {
+   "fid": "GRD-04",
+   "kind": "type-grade-inconsistency",
+   "severity": "substantial",
+   "links": [
+    "byzantine-imperial-church-macedonian--kievan-rus-christianity",
+    "iconophile-byzantine-monasticism--kievan-rus-christianity-1054-1240",
+    "athonite-and-comnenian-byzantine-monasticism--kievan-rus-christianity-1054-1240",
+    "byzantine-church-after-1054--kievan-rus-christianity-1054-1240",
+    "kievan-rus-christianity--kievan-rus-christianity-1054-1240",
+    "georgian-revival-tao-klarjeti--the-georgian-golden-age",
+    "athonite-and-comnenian-byzantine-monasticism--georgian-revival-tao-klarjeti",
+    "athonite-and-comnenian-byzantine-monasticism--the-georgian-golden-age",
+    "byzantine-church-after-1054--balkan-bogomil-continuation",
+    "byzantine-imperial-church-macedonian--cyrillo-methodian-slavic-christianity",
+    "byzantine-imperial-church-macedonian--athonite-and-comnenian-byzantine-monasticism",
+    "late-anglo-saxon-christianity--scandinavian-conversion-christianity",
+    "muscovite-monastic-christianity--the-old-believers",
+    "anti-trinitarian-currents-servetus-polish-brethr--the-remonstrants-and-dort"
+   ],
+   "eras": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "finding": "The same evidence shape gets two different grades. A link resting on one vendored nineteenth- or early-twentieth-century secondary account that states the tie, read at its lines, with no primary, is Dominant Modern Reconstruction in ten links. Those rest on Mouravieff 1838, Brosset 1849, Rački 1869 and Lutzow 1910, in eras 4-5. The same shape is Inferential-Thin in four links: Curzon 1849 (era 4, drafted in era 5), Anjou 1850 (era 4), Conybeare 1921 (era 6) and Rees 1818 (era 7). Era 5's review (R1-08) moved two links to DMR to match Mouravieff and Brosset, but Curzon in the same era-5 draft set stayed Thin. Several DMR notes say 'This rests on that one modern summary', which is the language of a thin grade. A lone 1838 church history is not plainly a 'dominant modern reconstruction' either.",
+   "evidence": "anjou...1859.txt 420-423 'The country was visited by teachers, at first from France, afterward chiefly from England'; racovian-catechism...rees1818.txt 3314-3320 'became amalgamated with the Remonstrants and the Mennonites'; conybeare_russian-dissenters_1921.txt 2244-2247 'Joseph Sanin, prior and founder of the Volokolam monastery and his disciples Daniel and Macarius'; curzon 8704-8705 (above). Each states its tie as plainly as Mouravieff 1557-1603 or Brosset 2965-2967. Era-5 Opus_Review_Round1.json R1-08 sets the DMR precedent.",
+   "fix": {
+    "action": "escalate_mark",
+    "edits": [],
+    "retire": [],
+    "prose": [],
+    "readability": []
+   },
+   "doubts": "The grade definitions do not say what a lone pre-modern secondary earns, so this needs one ruling, not case-by-case edits. Option A (recommended): Inferential-Thin for any link whose only support is one pre-1930 secondary account. That is the safer direction, never an upgrade, and the notes already say it rests on one account. It moves 10 links down. Option B: DMR for all, which moves 4 up and rewrites their 'thin' sentences. Option C: DMR only where the repo also cites a modern study for the same reading. Lutzow 1910 on the Moravian mission is borderline, because the event is famous but its own texts are not vendored."
+  },
+  {
+   "fid": "GRD-05",
+   "kind": "type-grade-inconsistency",
+   "severity": "minor",
+   "links": [
+    "byzantine-church-after-1054--kievan-rus-christianity-1054-1240"
+   ],
+   "eras": [
+    5
+   ],
+   "finding": "A mother church naming the head bishop of a daughter church is typed 'in contact with' in seven links. They are Coptic church to Aksumite, post-Aksumite and Zagwe Ethiopia (eras 4, 5, 9), Palaiologan Constantinople to Muscovite Rus' (era 6), and the Church of the East to the St Thomas Christians (eras 4-7). Only this link types the same tie 'influenced'. Its note shows nothing but jurisdiction: metropolitans named at Constantinople and answering to the patriarch, and Matthew sent from the city. No idea, text or practice is shown passing.",
+   "evidence": "Note: 'its chief bishops were named at Constantinople and answered to the patriarch there.' Mouravieff 1802-1805 'metropolitans themselves, who were always appointed at Con- stantinople, depended in spiritual matters upon the patriarch'. Compare byzantine-church-palaiologan--muscovite-monastic-christianity (in contact with, Documented: Alexis made metropolitan 1354).",
+   "fix": {
+    "action": "edit",
+    "edits": [
+     {
+      "id": "byzantine-church-after-1054--kievan-rus-christianity-1054-1240",
+      "field": "type",
+      "new": "in contact with"
+     }
+    ],
+    "retire": [],
+    "prose": [],
+    "readability": []
+   },
+   "doubts": "The ids are already in alphabetical order, as a symmetric type needs. The note needs no change. coptic-christianity-under-early-islam--makurian-nubian-christianity keeps 'influenced', since it also shows the Coptic alphabet passing on. the-church-of-the-east-under-persia--st-thomas-christians-of-india is also 'influenced' on a bishop 'appointed from Persia', but Cosmas does not tie that bishop to the Kerala church, so I leave it, already Inferential-Thin."
+  },
+  {
+   "fid": "GRD-06",
+   "kind": "type-grade-inconsistency",
+   "severity": "minor",
+   "links": [
+    "desert-monasticism--insular-irish-monastic-christianity",
+    "gallic-monastic-ascetic-christianity--insular-irish-monastic-christianity",
+    "palestinian-church-pre-constantinian--jerusalem-liturgical-pilgrimage-christianity",
+    "antiochene-church-third-century--antiochene-exegetical-christianity-chrysostom-ce",
+    "latin-apologists--imperial-juridical-christianity",
+    "syriac-edessa-nisibis--syriac-orthodox-west-syriac-christianity",
+    "desert-monasticism--roman-church-gregorian",
+    "pelagianism--hieronymian-ascetic-literary",
+    "aksumite-christianity--cyrilline-miaphysite-egyptian-christianity",
+    "the-church-of-the-east-under-persia--st-thomas-christians-of-india",
+    "carolingian-reform-christianity--cluniac-reform-monasticism",
+    "iconophile-byzantine-monasticism--athonite-and-comnenian-byzantine-monasticism",
+    "carthusian-life--the-english-mystics-and-devout",
+    "the-dominican-order--the-carmelites",
+    "latin-papal-church-gregorian--the-humiliati",
+    "church-of-the-east-under-the-mongols--st-thomas-christians-1300-1517",
+    "anti-trinitarian-currents-servetus-polish-brethr--early-american-unitarians-universalists",
+    "ambrosian-milan-standalone--tridentine-parish-renewal-borromean-milan",
+    "new-spain-and-andes-mission-born-christianity--colonial-latin-american-devotional-catholicism",
+    "the-baptists--the-missionary-movement-s-native-churches-seramp",
+    "colonial-latin-american-devotional-catholicism--nineteenth-century-latin-american-catholicism",
+    "the-optina-elders-and-russian-ascetic-renewal--the-russian-new-martyrs-and-the-catacomb-church",
+    "russian-church-nikon-to-holy-synod--alaskan-mission-herman-veniaminov",
+    "desert-monasticism--iconophile-byzantine-monasticism",
+    "alaskan-mission-herman-veniaminov--american-orthodoxy-autocephaly-and-the-convert-wave"
+   ],
+   "eras": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "finding": "verification_state is used two ways across eras. The Drafting Brief defines verified-direct as 'read the quoted lines ... and they show the claimed relationship'. Yet 22 Inferential-Thin links carry verified-direct, and their own notes say the quotes do not show the relationship. Fifty Widely Accepted links do the same. Most eras read it as 'the quoted lines were read and match'. Like cases elsewhere are marked otherwise. Thin links with read primary quotes are 'unverified' in eras 2 and 9 (desert-monasticism--iconophile..., alaskan-mission--american-orthodoxy...). Twenty-one WA links are 'named-not-rechecked' despite read primary quotes. Vendored secondaries read at lines are 'named-not-rechecked' in era 8 but 'verified-direct' in eras 4, 5 and 9. So the field does not tell a reader the same thing from era to era.",
+   "evidence": "Drafting_Brief.md 'Per-link fields'. Counts by script over cic-website/data/world-census.json: Thin by era and state (era 2: 5 verified-direct, 2 unverified, 1 named-not-rechecked; era 9: 1 / 2 / 1); WA 50 verified-direct, 21 named-not-rechecked.",
+   "fix": {
+    "action": "escalate_mark",
+    "edits": [],
+    "retire": [],
+    "prose": [],
+    "readability": []
+   },
+   "doubts": "This is a vocabulary ruling, not a per-link fix. Option A: keep the brief's meaning, so Thin, Contested and most WA links move off verified-direct, and Documented keeps it. Option B: redefine verified-direct as 'quoted lines read and matched', and set the outliers to it. The validator only ties verified-direct to Documented, so either option passes."
+  },
+  {
+   "fid": "GRD-07",
+   "kind": "other",
+   "severity": "minor",
+   "links": [
+    "alexandria-catechetical--desert-monasticism",
+    "gallic-monastic-ascetic-christianity--merovingian-gallic-christianity",
+    "palestinian-ascetic-monasticism-early--chalcedonian-monasticism-judean-desert-and-gaza",
+    "palestinian-church-pre-constantinian--jerusalem-liturgical-pilgrimage-christianity",
+    "aquileian-christianity--hieronymian-ascetic-literary",
+    "insular-irish-monastic-christianity--ecumenical-community-worlds-taize-and-iona",
+    "athonite-and-comnenian-byzantine-monasticism--georgian-revival-tao-klarjeti",
+    "the-beguines--free-spirit-heresy",
+    "athonite-and-comnenian-byzantine-monasticism--serbian-and-bulgarian-medieval-monasticism",
+    "the-tridentine-church--the-post-vatican-ii-parish-world",
+    "kongo-christianity-afonso-to-1650--the-antonian-movement-in-kongo",
+    "kirishitan-japan--japanese-christianity-hidden-emergence-meiji",
+    "the-black-church-in-america--the-black-church-in-the-twentieth-century"
+   ],
+   "eras": [
+    1,
+    2,
+    3,
+    5,
+    7,
+    9
+   ],
+   "finding": "citation_specificity is B or C on 13 links that carry at least one line-located verbatim quote, while about 480 like links are A. The scale says A means an exact passage with a line locus. An era-2 review already noted that one of them, C beside two line-located quotes, 'sit[s] oddly'.",
+   "evidence": "Script over the census: links with any source carrying lines + quote and citation_specificity != A (list in links). Build/Ministry/Operations/Audits (era-2 review text): 'Its stored citation_specificity C and verification_state unverified sit oddly beside two line-located quotes'.",
+   "fix": {
+    "action": "edit",
+    "edits": [
+     {
+      "id": "alexandria-catechetical--desert-monasticism",
+      "field": "citation_specificity",
+      "new": "A"
+     },
+     {
+      "id": "gallic-monastic-ascetic-christianity--merovingian-gallic-christianity",
+      "field": "citation_specificity",
+      "new": "A"
+     },
+     {
+      "id": "palestinian-ascetic-monasticism-early--chalcedonian-monasticism-judean-desert-and-gaza",
+      "field": "citation_specificity",
+      "new": "A"
+     },
+     {
+      "id": "palestinian-church-pre-constantinian--jerusalem-liturgical-pilgrimage-christianity",
+      "field": "citation_specificity",
+      "new": "A"
+     },
+     {
+      "id": "aquileian-christianity--hieronymian-ascetic-literary",
+      "field": "citation_specificity",
+      "new": "A"
+     },
+     {
+      "id": "insular-irish-monastic-christianity--ecumenical-community-worlds-taize-and-iona",
+      "field": "citation_specificity",
+      "new": "A"
+     },
+     {
+      "id": "athonite-and-comnenian-byzantine-monasticism--georgian-revival-tao-klarjeti",
+      "field": "citation_specificity",
+      "new": "A"
+     },
+     {
+      "id": "the-beguines--free-spirit-heresy",
+      "field": "citation_specificity",
+      "new": "A"
+     },
+     {
+      "id": "athonite-and-comnenian-byzantine-monasticism--serbian-and-bulgarian-medieval-monasticism",
+      "field": "citation_specificity",
+      "new": "A"
+     },
+     {
+      "id": "the-tridentine-church--the-post-vatican-ii-parish-world",
+      "field": "citation_specificity",
+      "new": "A"
+     },
+     {
+      "id": "kongo-christianity-afonso-to-1650--the-antonian-movement-in-kongo",
+      "field": "citation_specificity",
+      "new": "A"
+     },
+     {
+      "id": "kirishitan-japan--japanese-christianity-hidden-emergence-meiji",
+      "field": "citation_specificity",
+      "new": "A"
+     },
+     {
+      "id": "the-black-church-in-america--the-black-church-in-the-twentieth-century",
+      "field": "citation_specificity",
+      "new": "A"
+     }
+    ],
+    "retire": [],
+    "prose": [],
+    "readability": []
+   },
+   "doubts": "Some drafters may have meant the field to rate the source that carries the claim, which here is a work-only secondary. The scale does not say that, and the fleet does not use it that way, so I take A. If Mark rules otherwise in GRD-06, revisit this together."
+  }
+ ],
+ "checked_and_fine": [
+  "thin_with_verified_primary (22 links): read every quote. Each Thin grade is honest: the quotes show events, places or a name, not the claimed tie, and each note says so. No upgrade is warranted. Only the verification_state wording is at issue (GRD-06).",
+  "Cursus Scottorum tract: Thin for desert/Gallic monasticism to Irish (era 2) vs Documented for Irish to Merovingian (era 3). Consistent, because the era-3 link rests on Jonas of Bobbio (Columbanus founded Luxeuil, houses 'under Columban's rule'), with the tract only supporting it.",
+  "Same-office succession across a period split: Documented in eras 3-9 where a list or a person spans the split (Bar Hebraeus, Abu Salih, patriarch lists, Pius VII). The two Armenian WA links (before-Bagratids to Bagratid; after-Avarayr) are held down by the drafter because the table entry needs its year header to show the span. That is defensible, not an outlier.",
+  "palestinian-church-pre-constantinian--jerusalem (continued as, Thin) vs latin-papal-church-gregorian--avignon (Documented): the papal quotes name the Roman see on both sides. The Jerusalem quotes do not name Macarius's see; I checked the letter at npnf201 lines 64955-64975. The difference is in the evidence.",
+  "Mission sending ('gave rise to'): Documented in eras 3, 4, 7 and 9 where a dated text names the missionaries and their arrival or converts. the-baptists--the-missionary-movement-s-native-churches-seramp is Thin because Rippon 1793 shows the sending but not the arrival. No vendored text on Serampore was found (grep), so it is not an outlier.",
+  "Reform branches of orders: 'gave rise to' where the parent is in the same window (franciscan-order-era-6 to Observants), 'influenced' where the parent's window ended centuries before (the-carmelites, ending 1300, to the Teresian reform of 1562; the-franciscan-movement to Observants). The rule is applied consistently.",
+  "Council or authority condemning a group: 'argued against' (35) when one side's act is shown, 'broke with' (10) when both sides recorded the rupture. One-sided 'broke with' (1054, Schwenckfeld, Welsh Methodists) fits the brief's 'ideally from both sides'. The era-5 note on 1054 says plainly that only the Latin record is quoted.",
+  "Secondary works on WA/DMR/Contested links: 209 work strings checked by surname and title-word grep outside the census and link audits. 202 matched automatically; the other 7 (three Cambridge History chapters, Biller, Tarchnischvili, Sempad/Dulaurier, Sinclair via Percival) are cited in Build/ (river-prototype, dossiers, download-queue seed) or inside a vendored text. None is uncited.",
+  "Primary vs secondary role of 19th-century histories (Mouravieff, Herberstein, Ormanian, Brosset's editions): primary only where the writer is near-contemporary to the events (Mouravieff's Notes on the 1830s, Herberstein on 1517 Moscow, Ormanian on his own church c.1900), secondary for earlier centuries. The rule is consistent. Embedded documents (Zakaria of Kanaker, Samuel of Ani in Brosset; bulls in Harasiewicz) are rightly primary.",
+  "hieronymian-ascetic-literary--homoian-arian-christianity (Documented): the quote lacks the names Valens and Ursacius, but they stand in the same sentence at npnf206 32403-32409 (split by an endnote). The tie is shown, so this is not a grade issue.",
+  "Documented links with under-160-character quotes (38 checked): each quote names the other side or shows the act (a text naming Bardaisan, Marcion, Origen, Tatian or Justin; an anathema of Mansur; Symeon's work printed in the Philokalia). None shows only an event.",
+  "Shape outliers from feature_by_grade.json (prim2_sec0_A Thin x8, prim1_sec0_A Thin x3, prim2_sec1_A Thin x6) are the Thin links reviewed above. The quotes do not show the relationship, so shape alone did not decide the grade, rightly."
+ ]
+}

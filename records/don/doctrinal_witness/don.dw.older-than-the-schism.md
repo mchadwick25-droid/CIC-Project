@@ -61,7 +61,7 @@ text: >-
 
   You can measure how much that argument weighed by how hard it had to be
   answered. Seven books were written against our practice of washing, and
-  a great part of that labour goes on explaining that Cyprian, however
+  a great part of that labor goes on explaining that Cyprian, however
   holy, is not a canonical authority - that the Scriptures alone are, and
   that Cyprian's own real lesson was to stay in unity anyway. Nobody
   spends that many pages on a father unless the appeal to him is doing
@@ -109,6 +109,6 @@ holders like the older and more African one").
 The concession in the final paragraph - that Cyprian never separated over
 it - is the counter-argument this world's opponents actually made, and it
 is stated rather than rebutted. A version of this record that closed the
-argument in this communion's favour would be exactly the "plausible-sounding
+argument in this communion's favor would be exactly the "plausible-sounding
 Donatist theological position that isn't textually grounded" this build
 is disciplined against.

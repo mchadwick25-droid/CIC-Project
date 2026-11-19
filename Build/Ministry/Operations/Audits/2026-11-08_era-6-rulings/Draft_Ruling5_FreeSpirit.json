@@ -1,0 +1,211 @@
+{
+ "part": "ruling 5",
+ "links": [
+  {
+   "id": "latin-papal-church-avignon-to-lateran-v--free-spirit-heresy",
+   "action": "rewrite",
+   "from": "latin-papal-church-avignon-to-lateran-v",
+   "to": "free-spirit-heresy",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "The Council of Vienne in 1311-12 condemned eight errors about the perfect soul. One said that people who live 'in the spirit of liberty' owe no obedience to any human. Robert Lerner's 1972 study argued that no organized sect ever held them. In 1367 a papal judge at Erfurt put all eight to a beghard, John Hartmann, whose answers Wilhelm Wattenbach judged sincere in 1887.",
+   "outcome": "The Council of Vienne in 1311-12 ruled as error the claim that those who live in the spirit of liberty owe no human obedience.",
+   "outcome_basis": "(a) A council condemning a teaching: the Council of Vienne (Denzinger 14788) lists the decree's errors under 'Errores Beguardorum et Beguinarum' (14792-14793), error 3 being the one the outcome names (14808). The 1367 record cites the decree as standing law 'in Clementinis de hereticis' (Wattenbach 5795-5796).",
+   "outcome_locus": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt:14788,14792-14793,14808; cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt:5795-5796",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Council of Vienne, Ad nostrum, error 3, in Denzinger-Bannwart, Enchiridion symbolorum (1911), no. 473",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "14808",
+     "locus": "Denzinger 473",
+     "quote": "spiritu libertatis, non sunt humanae subiecti oboedientiae,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Council of Vienne, Ad nostrum, editor's heading in Denzinger-Bannwart (1911), no. 471",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "14792-14793",
+     "locus": "Denzinger 471",
+     "quote": "Errores Beguardorum et Beguinarum (de statu perfectionis)",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Council of Vienne (1311-12), editor's heading in Denzinger-Bannwart, Enchiridion symbolorum (1911), before no. 471",
+     "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt",
+     "lines": "14788",
+     "locus": "Denzinger, Council of Vienne",
+     "quote": "Conc. YIENNENSE 1311—1312.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Notarial record of the examination of John Hartmann before Walter Kerling, Erfurt, 26 December 1367, ed. Wilhelm Wattenbach (1887)",
+     "file": "cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt",
+     "lines": "5768",
+     "locus": "Instrument of 1367, dating clause",
+     "quote": "In nomine Domini Amen. Anno ejusdem' M° ece° Ixvij°,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Notarial record of the examination of John Hartmann before Walter Kerling, Erfurt, 26 December 1367, ed. Wilhelm Wattenbach (1887)",
+     "file": "cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt",
+     "lines": "5775-5778",
+     "locus": "Instrument of 1367, opening",
+     "quote": "coram venerabili viro et religioso fratre Waltero Corlink,’ ordinis Predicatorum, saere theologie professore® et inquisitore heretice pra- vitatis auetoritate apostolica in certis partibus Almannie deputato, quidam beghardus nomine Johannes’ Hartmanni",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Notarial record of the examination of John Hartmann before Walter Kerling, Erfurt, 26 December 1367, ed. Wilhelm Wattenbach (1887)",
+     "file": "cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt",
+     "lines": "5792-5793",
+     "locus": "Instrument of 1367, first question",
+     "quote": "Interrogatus a dieto Walthero' inquisitore, in quo consistat” libertas spiritus,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Notarial record of the examination of John Hartmann before Walter Kerling, Erfurt, 26 December 1367, ed. Wilhelm Wattenbach (1887)",
+     "file": "cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt",
+     "lines": "5795-5796",
+     "locus": "Instrument of 1367, question on the first article",
+     "quote": "et sie interrogatus a predicto inquisitore' de primo artieulo in Clementinis de? heretieis ‘Ad nostrum’,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Notarial record of the examination of John Hartmann before Walter Kerling, Erfurt, 26 December 1367, ed. Wilhelm Wattenbach (1887)",
+     "file": "cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt",
+     "lines": "5967",
+     "locus": "Instrument of 1367, question on the eighth article",
+     "quote": "Item de 8° artieulo qui ineipit: ‘Oetavo quod in elevacione’",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Wilhelm Wattenbach, Über die Secte der Brüder vom freien Geiste, Sitzungsberichte der Akademie der Wissenschaften zu Berlin (1887)",
+     "file": "cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt",
+     "lines": "4613",
+     "locus": "p. 517, title",
+     "quote": "Uber die Secte der Brüder vom freien Geiste.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Wilhelm Wattenbach, Über die Secte der Brüder vom freien Geiste, Sitzungsberichte der Akademie der Wissenschaften zu Berlin (1887)",
+     "file": "cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt",
+     "lines": "5701-5703",
+     "locus": "p. 537, commentary before the 1367 instrument",
+     "quote": "das Notariatsinstrument über das Verhör des Johannes Hart- manni aus Aschmansteten vor dem bekannten Walter Kerling” in Erfurt, am 26. December 1367.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Wilhelm Wattenbach, Über die Secte der Brüder vom freien Geiste, Sitzungsberichte der Akademie der Wissenschaften zu Berlin (1887)",
+     "file": "cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt",
+     "lines": "5717-5719",
+     "locus": "p. 537, commentary before the 1367 instrument",
+     "quote": "dass hier genau nach dem Schema der Clementinen V, 3, 3 gefragt wird, was ja einen gewissen Zweifel begründen kann, weil oft genug die Bejahung solcher Fragepunkte erzwungen ist.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Wilhelm Wattenbach, Über die Secte der Brüder vom freien Geiste, Sitzungsberichte der Akademie der Wissenschaften zu Berlin (1887)",
+     "file": "cic/texts/wattenbach_secte-der-brueder-vom-freien-geiste-sitzungsberichte-berlin-deu_1887.txt",
+     "lines": "5719-5723",
+     "locus": "p. 537, commentary before the 1367 instrument",
+     "quote": "Aber hier gehen die Antworten weit hinaus über die Fragepunkte, und ent- halten eine Fülle ganz individueller Züge. Der Inquisit scheint, wie das ja auch in anderen Fällen bezeugt wird, von der Wahrheit seines Wahnes wirklich überzeugt zu sein,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Robert E. Lerner, The Heresy of the Free Spirit in the Later Middle Ages (University of California Press, 1972)",
+     "source_id": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "change_reason": "Ruling 5 (2026-11-08): the 1367 Erfurt case moves here from the retired link to the inquisition-record sects. Wattenbach files it under the Free Spirit (his title, line 4613); Hartmann is a beghard (5778) questioned on 'libertas spiritus' (5793) and on all eight articles of Ad nostrum (5795-5796, 5967). Note extended by one sentence, giving Wattenbach's verdict that the answers were sincere (5719-5723) with his caution kept as a source (5717-5719). Denzinger heading 471 re-kinded secondary, as editorial (as R1-20 did on the retired link); Denzinger 14788 added for the council's date. Outcome kept: still true to Denzinger 14788-14808.",
+   "drafter_flags": [
+    "Note now four sentences, one over the drafting brief's one-to-three; the ruling allowed one added sentence.",
+    "'judged sincere' renders Wattenbach's 'von der Wahrheit seines Wahnes wirklich überzeugt' (5721-5723); his 'Wahn' (delusion) is his own hostile word and is not carried into the note."
+   ]
+  }
+ ],
+ "retired_links": [
+  {
+   "id": "latin-papal-church-avignon-to-lateran-v--inquisition-record-sects-adamites-and-kin",
+   "date": "2026-11-08",
+   "reason": "Ruling 5 (Decision-Log 2026-11-08): the 1367 Erfurt suspect belongs to the Free Spirit story, not to the Adamites and other groups of era 6; the case moves onto the papal church's link to the Free Spirit.",
+   "replacedBy": "latin-papal-church-avignon-to-lateran-v--free-spirit-heresy"
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 1,
+   "movement": "inquisition-record-sects-adamites-and-kin",
+   "field": "relationsSummary",
+   "old": "These groups are known only from those who condemned them. The Taborites wiped out the Adamites in 1421. In 1367 a papal judge of heresy put the Council of Vienne's list of errors to a man he questioned.",
+   "new": "These groups are known only from those who condemned them. The Taborites wiped out the Adamites in 1421.",
+   "reason": "The 1367 case moved to the Free Spirit link; the summary keeps only the Taborite tie.",
+   "fre_after": 63.8,
+   "fk_after": 6.5
+  },
+  {
+   "n": 2,
+   "movement": "inquisition-record-sects-adamites-and-kin",
+   "field": "why",
+   "old": "The Bohemian Adamites of 1421 left no voice of their own. Hostile chronicles describe them as a naked band on an island, who shared everything and waited for the end of the world. The Taborites wiped them out. The wider 'heresy of the Free Spirit' survives mainly through a list of errors condemned at the Council of Vienne. That list passed among inquisitors as a template. Since Robert Lerner's study of 1972, historians have concluded that the template made much of what later questioning 'found'. Some of these people were certainly real. What they are recorded as believing may say more about their questioners than about them.",
+   "new": "The Bohemian Adamites of 1421 left no voice of their own. Hostile chronicles describe them as a naked band on an island, who shared everything and waited for the end of the world. The Taborites wiped them out. The 'heresy of the Free Spirit' in Germany is a parallel case. Some of these people were certainly real. What they are recorded as believing may say more about their enemies than about them.",
+   "reason": "Keeps the Adamites; points to the Free Spirit as a parallel case in one sentence instead of retelling the Vienne template and Lerner.",
+   "fre_after": 63.8,
+   "fk_after": 7.3
+  },
+  {
+   "n": 3,
+   "movement": "inquisition-record-sects-adamites-and-kin",
+   "field": "longDescription",
+   "old": "Some of the 'sects' in the medieval record are known only from the documents that condemned them. Take the Bohemian Adamites of 1421. They are described as a naked band on an island in southern Bohemia, who shared everything and waited for the end of the world. They appear in the chronicles of people who despised them, and in the account of a later outside observer. The Taborites destroyed them, so no voice from inside survives at all. The wider 'heresy of the Free Spirit' works in much the same way. A list of errors condemned at the Council of Vienne passed among inquisitors as a template. Much of what later questioning 'found' matches that template closely. Since Robert Lerner's work in 1972, historians have concluded that a good deal of it was made by the questioning rather than found by it. Some of these people were certainly real, and some of what they were accused of may well have been true. But the evidence is one-sided. It was forced out of people, and shaped in advance by the questions.",
+   "new": "Some of the 'sects' in the medieval record are known only from the documents that condemned them. Take the Bohemian Adamites of 1421. They are described as a naked band on an island in southern Bohemia, who shared everything and waited for the end of the world. They appear in the chronicles of people who despised them, and in the account of a later outside observer. The Taborites destroyed them, so no voice from inside survives at all. The 'heresy of the Free Spirit' in Germany is a parallel case. Some of these people were certainly real, and some of what they were accused of may well have been true. But the evidence is one-sided. It comes from their enemies, and it may have been shaped by what those enemies expected to find.",
+   "reason": "Same split: the Free Spirit retelling becomes one pointer sentence. The closing line no longer says the evidence was 'forced out of people' by questions, which the Adamite sources (chronicles, and articles sent after the killing) do not show.",
+   "fre_after": 65.3,
+   "fk_after": 7.8
+  },
+  {
+   "n": 4,
+   "movement": "inquisition-record-sects-adamites-and-kin",
+   "field": "voices",
+   "old": [
+    "No voice from inside any of these groups survives. Every name we have — John of Brünn, the beguines interrogated at Schweidnitz in 1332, the Adamites of 1421 — reaches us only as a defendant in someone else's record, answering questions written before they were asked"
+   ],
+   "new": [
+    "No voice from inside any of these groups survives. The Adamites of 1421 reach us only through their enemies. Their beliefs come down as a list of errors that Žižka, the Taborite captain, sent to Prague after they were killed"
+   ],
+   "reason": "John of Brünn and the Schweidnitz beguines are Free Spirit defendants, already named on that movement. The Adamite voice line rests on Březová 54889-54894 (articles Žižka sent to Prague after the killing), cited on the Taborite link.",
+   "fre_after": 72.7,
+   "fk_after": 6.4
+  }
+ ],
+ "wants": [],
+ "for_mark": [
+  "The era 6 movement's 'sources' list still carries the Free Spirit interrogations (John of Brünn, Schweidnitz 1332) and Ad nostrum, and its 'sourcing' line reads 'Heresiological artifacts in the Free Spirit pattern'. Outside the four text fields, so left alone; they now support only the pointer sentence. Trim them in the same pass, or keep as support for the parallel?",
+  "Tension, not changed: the Free Spirit movement says 'the questions supplied the answers', while the 1367 note now gives Wattenbach's judgment that Hartmann's answers went far beyond the questions. Both can stand (Lerner's point is about an organized sect), but a reader meets them side by side."
+ ],
+ "notes": "Source check passed: Wattenbach's article is 'Über die Secte der Brüder vom freien Geiste' (line 4613); Hartmann is a beghard questioned on 'libertas spiritus' and on all eight articles of Ad nostrum; he says he spent nine years 'in der Geistesfreiheit' (5745-5746). The article is in the Berlin Academy's Sitzungsberichte for 1887, not in Ehrle-Denifle's Archiv as the task brief said. Two-way check: after the retirement the era 6 movement has one link (Taborites), and its text names that tie; the Free Spirit sentence is a comparison, not a claimed tie. The Free Spirit movement needs no new clause: its text already says interrogators put the decree's errors to people, and both its ties (beguines, papal church) stay linked."
+}

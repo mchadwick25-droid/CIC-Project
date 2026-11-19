@@ -1,8 +1,8 @@
-# Decision — 1A North Star and Readability Target (2026-08-09)
+# Decision — 1A North Star and Readability Target
 
-**Decided by:** Mark, in session, 2026-08-09.
+**Status:** decided.
 
-## The north star (1A's definition, in Mark's words)
+## The north star (1A's definition)
 
 > 1A is our ultimate goal without compromising 1B, and word count is a
 > minor piece of that. It is selecting words and sentence
@@ -52,7 +52,7 @@ earns its place when its meaning arrives with it (story first, term
 after — the bridge). Flavor is never a toll the reader pays to reach
 the truth.
 
-## Instruments added on this decision (2026-08-09)
+## Instruments added on this decision
 
 - `phase2_checkpoint.py` scorecard: **"readability B2 / FK 8-10 per
   emitted turn"** — scored; breaches listed per turn; band placement
@@ -79,9 +79,9 @@ far (mean OOV 18.6%, max 30.9% — `athanasius`, `chalcedon`,
 `constantinople`: the sees and councils that are his substance). The
 chancery voice pushes on accessibility exactly where the world's flavor
 is densest — which is precisely the tension this decision exists to
-manage, caught by the instrument on first contact.
+manage. The instrument surfaced it on first contact.
 
-## RULED — hard edge (Mark, 2026-08-09)
+## Hard edge
 
 > "hard edge, readability is the whole point"
 

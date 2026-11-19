@@ -1,0 +1,989 @@
+{
+ "socrates-of-constantinople": {
+  "claims": [
+   {
+    "claim": "Was the pupil in his youth at Constantinople of the grammarians Helladius and Ammonius, who fled Alexandria after the riots; Helladius boasted of killing nine men and Ammonius complained that Theophilus kept one statue to make paganism ridiculous",
+    "witness": "Socrates, Church History V.16 (npnf202 l.15680-15712)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Born and educated at Constantinople",
+    "witness": "Socrates V.24 (npnf202 l.16777-16778)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Wrote at the request of Theodore, 'O holy man of God'",
+    "witness": "Socrates VI Introduction (npnf202 l.16922-16923); II.1 (l.5675-5677); VII.48 (l.21609-21612)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Seven books from Constantine's proclamation to Theodosius's seventeenth consulship (439)",
+    "witness": "Socrates VII.48 (npnf202 l.21613-21620); year by Zenos's note (l.21589)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "First wrote Books I-II following Rufinus, then read Athanasius and revised them, adding the emperors' letters and bishops' decisions",
+    "witness": "Socrates II.1 (npnf202 l.5640-5683)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Chose a plain style so ordinary readers could follow the facts, and expected zealots to blame him for not calling bishops 'Most holy'",
+    "witness": "Socrates VI Introduction (npnf202 l.16926-16950)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Had stories from Auxanon, a very aged Novatian presbyter who went to Nicaea with Acesius as a youth, when Socrates was a mere youth",
+    "witness": "Socrates I.13 (npnf202 l.3855-3862)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Writes often and sympathetically of the Novatians",
+    "witness": "A. C. Zenos, Introduction (npnf202 l.941-1016), listing the passages",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Ended his history praying for the peace of the churches, since peace leaves historians nothing to write",
+    "witness": "Socrates VII.48 (npnf202 l.21604-21612)",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether Socrates was a Novatian",
+    "sides": "Yes: Baronius, Labbe and others after Nicephorus Callistus, as Zenos reports (npnf202 l.941-946). No, his sympathy is impartiality: Valesius and most later writers, as Zenos reports (l.1019-1035)."
+   },
+   {
+    "claim": "Whether Socrates was a lawyer",
+    "sides": "Yes: Valesius from internal grounds, and Zenos 'according to the preponderance of evidence' (npnf202 l.869-884). No evidence: Harnack, as Zenos reports (l.884-886); Hartranft calls it 'simply an uncertified tradition' (l.22055-22056)."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Parents, family and death",
+    "note": "Zenos says he nowhere mentions his parents (npnf202 l.697-699); no source used here gives his death."
+   },
+   {
+    "detail": "Year of birth",
+    "note": "Valesius's 379 is reasoned from his schooling; Zenos says only that he was born no earlier than 379 (npnf202 l.715-735)."
+   },
+   {
+    "detail": "Who Theodore was",
+    "note": "Zenos infers a presbyter from the address and rules out Theodore of Mopsuestia (npnf202 l.1250-1257); kept to the card."
+   }
+  ]
+ },
+ "mesrop-mashtots": {
+  "claims": [
+   {
+    "claim": "Preached in Koghten to people who kept remnants of pagan ways; preaching was hard because Armenian had no letters, and he prayed for them",
+    "witness": "Koriun, Life of Mesrop (Emine's French, Langlois 1869, l.3496-3505, 3518-3559)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Son of Vartan, from Daron; studied Greek literature as a child; served in the royal archives of the Arsacid kings; left to become a monk",
+    "witness": "Koriun (l.3439-3458); 'Daron' is OCR 'Baron' at l.3440, and Moses of Khoren III.67 names Daron as his native district (l.25362)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Koriun's Life is a disciple's account honouring a saint, with miracles (demons fleeing, a cross of light)",
+    "witness": "Koriun (l.3507-3512, 4251-4255, 4301); Koriun's own claim to eyewitness writing (l.4336-4341, 4369-4372)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Took the problem to Sahak; King Vramshapuh sent him to Syrian Mesopotamia; the Syrian bishop Daniel promised letters, but they could not form signs for Armenian",
+    "witness": "Koriun (l.3558-3585)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The letters appeared to him in his heart, as if a right hand wrote them on stone",
+    "witness": "Koriun (l.3586-3593, 3621-3625); a hagiographic report, told as Koriun's",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Made the letters with a hermit Rufinus, 'of Samos', who gave them their forms after the Greek alphabet",
+    "witness": "Koriun (l.3626-3633); the reading Samosata is Saint-Martin's (note, l.3671-3674) and Langlois's (l.3382, 3406-3407)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Translation began with the Proverbs of Solomon",
+    "witness": "Koriun (l.3634-3636)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Presented the letters to Sahak and King Vramshapuh, who rejoiced as if they were the divine Tables; Theodosius the Younger then reigned",
+    "witness": "Koriun (l.3643-3650)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gathered children and founded schools across Armenia",
+    "witness": "Koriun (l.3651-3656)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gave the Georgians an alphabet and renewed that of the Aghouank",
+    "witness": "Koriun (l.3657-3664, 3928-3929); his claim alone here",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Because the Persian governors allowed only Syriac learning, Sahak sent him to Theodosius and the patriarch Atticus; Atticus named him a preacher; schools opened in the Roman part of Armenia",
+    "witness": "Koriun (l.3697-3726, 3765-3776)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Fought the Borborides; those who would not yield were imprisoned, then burned, confined and expelled",
+    "witness": "Koriun (l.3779-3787)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "With Sahak, drove out a Theodore, excluded from the Council of Ephesus, who brought books following Nestorius, after letters from the council",
+    "witness": "Koriun (l.4098-4110); '[de Mopsueste]' is a bracketed addition in the French",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Died in the same year as Sahak, on the eighteenth of méhégan, in the New City in Ararat, after a few days' illness, blessing God and commending his pupils to him",
+    "witness": "Koriun (l.4213-4240, 4254-4255)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Born 361, died 441 aged eighty",
+    "witness": "A note in Langlois's edition (l.3475-3477); Koriun gives no years",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "The Armenian alphabet came to be called the 'caractères mesrobiens'",
+    "witness": "Langlois, Introduction (l.3044-3050)",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "The day, interval and place of his death",
+    "sides": "Koriun (l.4213-4228): the eighteenth of méhégan, in the tenth month after Sahak's death, in the New City in Ararat. Moses of Khoren III.67 (l.25335-25336) and Lazar of Pharp (l.37874-37878): the thirteenth of méhégan, six months after Sahak, at Vagharschabad, which Lazar calls the New City."
+   },
+   {
+    "claim": "Whether Mesrop was the first to make Armenian letters",
+    "sides": "Koriun (l.3575-3585): Daniel's help came to nothing and the letters were revealed to Mesrop. Lazar of Pharp (l.36299-36318): Daniel held Armenian letters, found insufficient to spell the language. Langlois, following Luc Indjidji (l.3053-3061), and the later writers he quotes (Assoghig, Samuel of Ani, Guiragos, Vartan, l.3130-3290): an older alphabet kept by Daniel existed, and Mesrop completed it."
+   },
+   {
+    "claim": "Where Rufinus came from",
+    "sides": "The text (l.3627): 'un solitaire de Samos'. Saint-Martin, as a note reports (l.3671-3674), and Langlois (l.3406-3407): Samosata in Syria; the copyists wrote Samos."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "The year the letters were made",
+    "note": "Koriun gives no year, only the reign of Theodosius the Younger. Lazar of Pharp has Mesrop a hermit until the fifth year of Vramshapuh (l.36202-36203); Vartan, quoted by Langlois, puts the letters in that fifth year (l.3178-3180). No held line gives 405."
+   },
+   {
+    "detail": "Writings of his own",
+    "note": "Koriun says he composed many discourses (l.3911-3925); none is held."
+   },
+   {
+    "detail": "Family beyond his father",
+    "note": "Koriun names only his father Vartan and a nephew Vartan; the Mamikonian descent is a supposition by Emin reported in a note (l.3477-3479). Kept to the card."
+   },
+   {
+    "detail": "An English or Armenian Life",
+    "note": "Only Emine's French translation is held."
+   }
+  ]
+ },
+ "cyril-of-alexandria": {
+  "claims": [
+   {
+    "claim": "At Ephesus in 431 his letter to Nestorius was read; he asked the council whether he had written 'rightly and blamelessly' in accordance with Nicaea, and the bishops one by one agreed",
+    "witness": "Acts of Ephesus, Session I (npnf214 l.15812-15828); the individual votes are given there in Henry Percival's bracketed summary",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "After Nestorius's letter was read and judged one by one, the council cried out 'we all anathematize Nestorius as a heretic'",
+    "witness": "Acts of Ephesus, Session I (npnf214 l.15840-15846)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nephew of Theophilus of Alexandria",
+    "witness": "Socrates VII.7 (npnf202 l.19102)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Theophilus died 15 October in the consulship Socrates names; a party backed the archdeacon Timothy and the commander Abundantius sided with him; on the third day Cyril held the see 'with greater power than Theophilus had ever exercised'",
+    "witness": "Socrates VII.7 (npnf202 l.19090-19114); the year 412 is the note in A. C. Zenos's edition (l.19093); the bracketed line that Cyril's partisans 'triumphed' is not in the Greek (note, l.19105-19108) and is not used",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He at once shut the Novatian churches of Alexandria and seized their vessels",
+    "witness": "Socrates VII.7 (npnf202 l.19119-19122)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "After a night attack in which Jews killed Christians, Cyril with a crowd took the synagogues and drove the Jews from the city",
+    "witness": "Socrates VII.13 (npnf202 l.19428-19448); one witness",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Monks of Nitria came to fight for Cyril; Ammonius stoned the prefect Orestes, died under torture, and Cyril had him honoured as a martyr, which 'the more sober-minded' rejected",
+    "witness": "Socrates VII.14 (npnf202 l.19484-19519)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "In March 415 a Christian crowd led by the reader Peter murdered Hypatia, rumoured to keep Orestes from reconciling with Cyril; Socrates says it brought great opprobrium on Cyril and the whole Alexandrian church",
+    "witness": "Socrates VII.15 (npnf202 l.19545-19592); year by the note in Zenos's edition; Socrates does not say Cyril ordered it",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Cyril's responsibility for Hypatia's death",
+    "witness": "Note in Zenos's edition (npnf202 l.19574-19589): Walch, Gibbon, Milman lean to guilt; Robertson indirect; Bright 'no party to this hideous deed'",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Socrates's severe censure of Cyril is more easily explained by his closeness to the Novatians",
+    "witness": "A. C. Zenos, Introduction (npnf202 l.1068-1081)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Anastasius, a presbyter Nestorius brought from Antioch, preached 'Let no one call Mary Theotocos', and Nestorius backed him",
+    "witness": "Socrates VII.32 (npnf202 l.20700-20740)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Cyril wrote that the Fathers 'ventured to call the holy Virgin, the Mother of God', not as if the Word began in her but because of her was born the body to which the Word was united",
+    "witness": "Cyril, Second Letter to Nestorius (npnf214 l.15789-15795)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Cyril's party at Ephesus proceeded before John of Antioch arrived; Nestorius's party met apart and deposed Cyril; John on arriving censured Cyril 'as the author of all this confusion'",
+    "witness": "Socrates VII.34 (npnf202 l.20895-20912); Nestorius's Bazaar has the council with John depose Cyril and Memnon (l.15200-15209)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nestorius charged Cyril with bribery, 'the gold of iniquity'",
+    "witness": "Nestorius, Bazaar of Heracleides (Driver-Hodgson l.15815-15817; heading l.15869); hostile; Driver and Hodgson note other evidence in letters of Acacius of Beroea and Epiphanius the archdeacon (l.15954-15956), not held",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Peace with John of Antioch in 433; Cyril's letter begins 'Let the heavens rejoice, and let the earth be glad'",
+    "witness": "Cyril to John (npnf214 l.19418-19424); year 433 by Blomfield Jackson's chronology (npnf203 l.4407-4409) and intro (l.4410-4413)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Died in 444",
+    "witness": "Blomfield Jackson (npnf203 l.4197); Canon Venables quoted by Jackson, 'June 9, or 27, 444' (l.38192-38193); Driver-Hodgson chronology (l.1441)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "At Chalcedon in 451 his letters to Nestorius and to John were read, and after Leo's Tome the bishops cried 'Everlasting be the memory of Cyril. Leo and Cyril taught the same thing'",
+    "witness": "Acts of Chalcedon, Session II (npnf214 l.19388-19396, 19995-20003)",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Cyril's responsibility for the murder of Hypatia",
+    "sides": "Socrates (VII.15): the deed brought shame on Cyril and his church, without saying he ordered it; Zenos explains the censure by Socrates's Novatian sympathies. The note in Zenos's edition: Walch, Gibbon and Milman lean to guilt; J. C. Robertson ascribes indirect responsibility; William Bright: 'no party to this hideous deed', though the men's passions were ones 'he had originally called out'."
+   },
+   {
+    "claim": "Whether Cyril won at Ephesus by bribery",
+    "sides": "Nestorius, Bazaar of Heracleides (hostile): Cyril did more than John 'when the gold of iniquity was exacted'; Driver and Hodgson point to letters of Acacius of Beroea and Epiphanius the archdeacon, not held. No held witness on Cyril's side answers the charge."
+   },
+   {
+    "claim": "Whether the Council of Ephesus received the Twelve Anathematisms",
+    "sides": "Henry Percival (npnf214 l.15880-15899): the Acts do not say the letter was read or the anathemas received, while no one disputes Chalcedon received them; he argues that those who defend John of Antioch cannot consistently deny the council adopted them (l.15899-15907), and reports that Hefele moved from 'merely read' to acceptance (l.15908-15912); the bracket in the acts extract (l.15855-15862) says Cyril's letter 'Cum Salvator noster' was read."
+   },
+   {
+    "claim": "Whether Theodoret wrote the letter on Cyril's death (Letter 180)",
+    "sides": "Against: Baronius (Jackson's note, l.38166-38172), Bright (l.38180-38187), Tillemont and Newman (as Venables reports, l.38193-38199). For or open: Garnerius (l.38172-38177); Venables, 'A painful suspicion ... still lingers'; Neander inclined to accept (l.38207)."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth, education and early life",
+    "note": "No source used here gives his birth year or his life before 412; Socrates says only that he was Theophilus's nephew."
+   },
+   {
+    "detail": "The Greek of the Five Tomes",
+    "note": "Held only in Pusey's English (1881); the brief quotes none of it."
+   },
+   {
+    "detail": "Letters of Acacius of Beroea and Epiphanius the archdeacon on the gifts sent to court",
+    "note": "Named by Driver and Hodgson as the other evidence for the bribery charge; not held in English here."
+   }
+  ]
+ },
+ "sozomen": {
+  "claims": [
+   {
+    "claim": "His grandfather and many ancestors fled under Julian",
+    "witness": "Sozomen, Church History V.15 (npnf202 l.36357-36360)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "His grandfather, of pagan parentage, was with Alaphion's family the first to become Christian in Bethelia near Gaza",
+    "witness": "Sozomen V.15 (npnf202 l.36360-36363)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The families were converted through the monk Hilarion, who drove a demon from Alaphion",
+    "witness": "Sozomen V.15 (npnf202 l.36372-36378), told as report ('It is said')",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "His grandfather was beloved in Ascalon and Gaza as an expounder of Scripture",
+    "witness": "Sozomen V.15 (npnf202 l.36380-36386)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'The other family' founded the first churches and monasteries there, and Sozomen saw some of its good men in his youth",
+    "witness": "Sozomen V.15 (npnf202 l.36386-36393); the family is probably Alaphion's, by Hartranft's note ('He probably means that of Alaphion', l.36388)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Was an advocate in the same court as his friend Aquilinus, healed at the Michaelium; the shrine helped Sozomen too",
+    "witness": "Sozomen II.3 (npnf202 l.28461-28469)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Dedicated the history to the emperor Theodosius and asked him to purify it by addition or elimination",
+    "witness": "Sozomen, Dedication (npnf202 l.26176-26188)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Planned to run to the emperor's seventeenth consulship (439) but stopped at 425",
+    "witness": "Sozomen, Dedication (npnf202 l.26188-26189); the years are Hartranft's note (l.26190-26192)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Searched laws, synod proceedings and letters, and warned that each party collected only the letters that favoured it",
+    "witness": "Sozomen I.1 (npnf202 l.26371-26395)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Wrote of the founders of monastic life so that others might follow their example",
+    "witness": "Sozomen I.1 (npnf202 l.26404-26415)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Used Socrates without naming him",
+    "witness": "Chester Hartranft, Introduction (npnf202 l.24592-24616); Zenos, 'according to the best authorities' (l.1667-1670)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Born between 370 and 380",
+    "witness": "Hartranft's guess (npnf202 l.21785-21793)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Wrote after June 443",
+    "witness": "Hartranft, from the Heraclea journey in the Dedication (npnf202 l.22394-22401)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "How Sozomen used Socrates",
+    "sides": "Hartranft lists three views (npnf202 l.24617-24624): that he plagiarized Socrates; that both used the same sources independently; that Socrates guided him to the sources. Hartranft finds the use sure and calls the charge of plagiarism 'wholly unfair' (l.24631-24635)."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His father, his own schooling and his death",
+    "note": "No source used here names his father or gives his death; Hartranft says only that his education was directed by monks."
+   },
+   {
+    "detail": "Books 1 to 4 in Greek",
+    "note": "The Library's Hussey Greek volume holds Books 5 to 9 only."
+   },
+   {
+    "detail": "The meaning of 'Salaminius'",
+    "note": "Hartranft says it cannot yet be determined (npnf202 l.21680-21681)."
+   }
+  ]
+ },
+ "theodoret-of-cyrrhus": {
+  "claims": [
+   {
+    "claim": "At Chalcedon the bishops shouted that he must anathematize Nestorius, refused to hear his papers, called him a heretic, and he at last said 'Anathema to Nestorius'",
+    "witness": "Acts of Chalcedon (Labbe iv. 621), as quoted by Blomfield Jackson, Prolegomena (npnf203 l.3302-3337)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bishop of Cyrrhus (Cyrus) in Syria",
+    "witness": "Gennadius 89 (npnf203 l.43761-43764); Theodoret's own letters (Letter 113, l.33165)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "His parents promised him to God before his conception; he lived in a monastery before his episcopate and was unwillingly consecrated",
+    "witness": "Theodoret, Letter 81, to the consul Nomus (npnf203 l.31440, 31496-31499); his own account, written to answer accusers",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Consecrated bishop in 423",
+    "witness": "Blomfield Jackson, Prolegomena (npnf203 l.2401-2402), following Tillemont's reckoning; Richardson's note to Gennadius 89 (l.43760)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Built porticoes, two large bridges, the baths and a conduit from the revenues of his see; brought eight villages of Marcionists into the church and was often stoned",
+    "witness": "Theodoret, Letter 81 (npnf203 l.31507-31515); his own account against accusers",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Did pastoral duty in eight hundred churches, the parishes of Cyrrhus",
+    "witness": "Theodoret, Letter 113, to Leo of Rome (npnf203 l.33031, 33165-33166)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nestorius was his close friend",
+    "witness": "Blomfield Jackson, Prolegomena III (npnf203 l.2713-2715); Jackson's account",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "John of Antioch and his friends asked Theodoret to refute Cyril's anathemas, after the Roman condemnation of Nestorius in August 430",
+    "witness": "Blomfield Jackson, Prolegomena III (npnf203 l.2716-2736)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Held that God the Word was not made flesh by change but took flesh, and called Mary theotokos because she bore man united to God",
+    "witness": "Theodoret, Counter-statement against Cyril's first anathema (npnf203 l.4705-4735)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He and Cyril 'were substantially at one'",
+    "witness": "Blomfield Jackson's own judgment (npnf203 l.2756)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Deposed in his absence by the second council of Ephesus in 449, Dioscorus of Alexandria condemning him for writing against Cyril and asking the emperors to have his treatises burned",
+    "witness": "Syriac acts of the session of 22 August 449, tr. S. G. F. Perry (perry1881 l.15586-15633, Dioscorus's sentence; l.15690-15850, the other bishops); the council's own record, from the side that held it",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Wrote to Leo that the bishop of Alexandria had condemned him with a pen while he was thirty-five days' march away, and awaited Rome's sentence",
+    "witness": "Theodoret, Letter 113 (npnf203 l.33136-33149, 33174)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Admitted to Chalcedon because Leo had restored his bishopric",
+    "witness": "Acts of Chalcedon as quoted by Jackson (npnf203 l.3236-3240); Jackson, 'reinstated at Chalcedon' (l.3511)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Leo wrote to him of their joint victory over Nestorius and Eutyches",
+    "witness": "Leo of Rome, Letter 120 (npnf212 l.10286-10297)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The council of Constantinople of 553 condemned what he wrote against the right faith and against Cyril's Twelve Chapters",
+    "witness": "Sentence of the council of 553 (npnf214 l.23655-23661); Jackson, Prolegomena VII (npnf203 l.3505-3512)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "His Church History begins where Eusebius's ends and opens comparing historians with painters",
+    "witness": "Theodoret, Church History I, Prologue (npnf203 l.5197-5222)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Born at Antioch in 393",
+    "witness": "Blomfield Jackson, Prolegomena I (npnf203 l.2337-2403), retelling Theodoret's Religious History (not held) and following Tillemont; Garnier 386, Möller 390",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Died in the reign of the emperor Leo, probably not after 458",
+    "witness": "Gennadius 89 (npnf203 l.43777-43778); Jackson's reasoning (l.3395-3412); Richardson's note gives 457 (l.43760)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether Theodoret changed his Christological views at Chalcedon",
+    "sides": "Bertram (1883), as Jackson reports: he changed them. Möller (Herzog XV), as Jackson reports: he kept them, though modified in expression under pressure (npnf203 l.3338-3342)."
+   },
+   {
+    "claim": "Whether Theodoret and Cyril really differed",
+    "sides": "Dioscorus and the bishops of 449 (Perry's Syriac acts) and the council of 553: his writings against Cyril were impious. Blomfield Jackson: the two 'were substantially at one' (npnf203 l.2756). William Bright, as Jackson quotes him: Theodoret 'uses a good deal of language which is prima facie Nestorian', but he and Cyril 'were essentially nearer to each other in belief than at the time they would have admitted' (l.2766-2771)."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "The Religious History",
+    "note": "Jackson's account of his parents, the hermits Peter and Macedonius and his birth at Antioch rests on Theodoret's Religious History, which the Library does not hold. Kept to the card."
+   },
+   {
+    "detail": "Year and place of death",
+    "note": "No held line dates it. Gennadius gives only the reign of the emperor Leo."
+   },
+   {
+    "detail": "The Chalcedon acts in their own edition",
+    "note": "The eighth-session scene is held only as Jackson quotes it from Labbe; the Library's npnf214 does not carry the session."
+   }
+  ]
+ },
+ "leo-of-rome": {
+  "claims": [
+   {
+    "claim": "In 452, with the consular Avienus and the former prefect Trygetius, he went as envoy to Attila, who was glad of the high priest's presence, forbade war and withdrew beyond the Danube promising peace",
+    "witness": "Prosper, Epitoma Chronicon 1367 (Mommsen l.54942-54957; Latin); favourable to Leo; year by Mommsen and Feltoe (npnf212 l.853-861)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "How far Leo's embassy turned Attila back",
+    "witness": "Prosper credits the bishop's presence and God's help; Feltoe (npnf212 l.848-861): Leo hardly mentions it, the story's substance is not to be doubted, and rumours of invasion at home are thought to have helped",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Nothing is known of his youth",
+    "witness": "Feltoe, Introduction (npnf212 l.410)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "After Xystus died, the Roman church waited more than forty days for the deacon Leo, then in Gaul reconciling Aetius and Albinus, and on his return he was ordained bishop",
+    "witness": "Prosper 1341 (Mommsen l.54627-54634); Feltoe (npnf212 l.461-477) gives 440 and 29 September",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Preached on an anniversary of his ordination that Peter 'has not abandoned the helm of the Church'",
+    "witness": "Leo, Sermon III.3 (npnf212 l.13430-13433)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "In 448 a synod at Constantinople under Flavian condemned Eutyches, an archimandrite",
+    "witness": "Feltoe (npnf212 l.555-587)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eutyches answered 'I confess that our Lord was of two natures before the union, but after the union I confess one nature'",
+    "witness": "Leo, Tome 6, quoting the synod record (npnf214 l.19938-19941)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Answered Flavian in 449 with the Tome: Christ born 'whole in what was his, whole in what was ours', each nature keeping its proper character",
+    "witness": "Leo, Tome (npnf214 l.19750, 19758-19760, tr. William Bright); date May-June 449 by Feltoe (npnf212 l.610-614)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gore: 'a Latin bishop, ignorant of Greek, defining the faith for Greek-speaking bishops'",
+    "witness": "Charles Gore, Leo the Great, quoted by Feltoe (npnf212 l.616-622)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "At Ephesus in 449 under Dioscorus the Tome was not read, Eutyches was restored and Flavian deposed",
+    "witness": "Feltoe (npnf212 l.636-664); the Syriac acts are not used here",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Leo called Ephesus 449 a meeting 'not of judges but of robbers'",
+    "witness": "Leo, Letter 95 to Pulcheria (npnf212 l.8640)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "At Chalcedon in 451 the Tome was read and the bishops cried 'Peter has spoken thus through Leo'",
+    "witness": "Acts of Chalcedon, Session II (npnf214 l.19995-20000); Feltoe (npnf212 l.754-756)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Refused to accept the twenty-eighth canon of Chalcedon, which gave Constantinople second place after Rome",
+    "witness": "Feltoe (npnf212 l.786-812)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "In 455 he met Geiseric outside the gates; his plea, God acting, softened the king, so Rome was spared fire, slaughter and torture but stripped of its wealth for fourteen days",
+    "witness": "Prosper (Mommsen l.55120-55125; Latin); Feltoe (npnf212 l.866-878)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Died late in 461 after twenty-one years as bishop",
+    "witness": "Feltoe (npnf212 l.903-904)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Christmas sermon: 'Christian, acknowledge thy dignity'",
+    "witness": "Leo, Sermon XXI.3 (npnf212 l.14608)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Born between 390 and 400",
+    "witness": "Feltoe's estimate (npnf212 l.400)",
+    "formation_confidence": "Inferential-Thin"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Why Attila withdrew in 452",
+    "sides": "Prosper: the king was glad of the bishop's presence and, with God's help, made peace. Feltoe: Leo's arguments were 'aided, it is thought, by rumours of threatened invasion at home', and Attila retired on condition of receiving Honoria with a dowry; Leo himself barely alludes to it."
+   },
+   {
+    "claim": "His birthplace",
+    "sides": "A tradition reported by Feltoe: Volaterrae in Etruria, his father a Tuscan named Quintian. Prosper and Leo speak of Rome as his patria. Feltoe: no city can claim it with certainty."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Family and youth",
+    "note": "Feltoe: 'Of his youth we know nothing'; his writings contain no allusion to his personal history."
+   },
+   {
+    "detail": "An English translation of Prosper's chronicle",
+    "note": "Held only in Mommsen's Latin, from an OCR scan; the brief tells Prosper in modern words and quotes none of his Latin."
+   },
+   {
+    "detail": "The acts of Ephesus 449",
+    "note": "Held in Syriac (Perry; Flemming-Hoffmann) but not used here; the 449 account follows Feltoe."
+   }
+  ]
+ },
+ "koriun": {
+  "claims": [
+   {
+    "claim": "Leon and Koriun came to Constantinople and joined Eznik, raised with them like a brother; they returned with authentic copies of the Scriptures, the Fathers and the canons of Nicaea and Ephesus",
+    "witness": "Koriun, Life of Mesrop (l.3848-3864)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "This Koriun is the author of the Life",
+    "witness": "Note 2 in Langlois's edition (l.3896); Lazar of Pharp (l.36214-36221) names Koriun, disciple of Mashtots, as author; the Life names Koriun only in the third person",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Wrote of men he saw with his own eyes, as an attentive witness of their preaching and a servant of these teachers, leaving out much and telling the chief things",
+    "witness": "Koriun (l.4336-4378)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Wrote to give an example to their spiritual children and to those who would teach the truth to their nation",
+    "witness": "Koriun (l.4390-4398)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Life is the main source for Armenian literary history from the late fourth century into the fifth",
+    "witness": "Langlois, Introduction (l.2762-2768)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Was made bishop of the Georgians by Sahak and is believed to have died in Georgia",
+    "witness": "Langlois, Introduction (l.2744-2760), who says nothing certain can be said",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Went to Byzantium with Leon of his own accord, moved by envy (scan 'TeuTie', most likely 'l'envie')",
+    "witness": "Moses of Khoren III (l.24627, 24659)",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Who asked Koriun to write the Life",
+    "sides": "Lazar of Pharp (l.36219-36221): King Vramshapuh. Langlois, Introduction (l.2762-2764, note at l.2789-2794): the patriarch Joseph, who held the see 441-452. The held French text names no patron."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth, family, dates and death",
+    "note": "The Life says nothing of them; Langlois says his contemporaries give no detail of his life after he left Armenia."
+   },
+   {
+    "detail": "The Armenian text and any English translation",
+    "note": "Only Emine's French, from the Mekhitarist edition of 1854 (l.2856-2866), is held."
+   },
+   {
+    "detail": "Other translations by him",
+    "note": "Langlois mentions translations Koriun worked on and the unsettled view that he translated Agathangelos (l.2762, 2845-2852); none is identified in a held line."
+   }
+  ]
+ },
+ "alexander-of-alexandria": {
+  "claims": [
+   {
+    "claim": "Dying, called for Athanasius, who was absent, and said 'O Athanasius, thou thinkest to escape, but thou wilt not escape'",
+    "witness": "Sozomen, Church History II.17 (npnf202 l.29346-29356), quoting a writer he calls 'Apolinarius, the Syrian' (l.29335); Hartranft's note: 'found nowhere else' (l.29336-29337)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Led the church of Alexandria after Achillas, in the time of Constantine; Arius was one of his presbyters",
+    "witness": "Theodoret I.1 (npnf203 l.5276-5284); Socrates I.5 (npnf202 l.2063-2072)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bishop from 312 to 326",
+    "witness": "Blomfield Jackson's note to Theodoret I.1 (npnf203 l.5280)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Socrates: Alexander spoke on the Trinity 'with perhaps too philosophical minuteness', and Arius took him for a Sabellian",
+    "witness": "Socrates I.5 (npnf202 l.2066-2076)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Theodoret: Arius was jealous when Alexander was made bishop",
+    "witness": "Theodoret I.1 (npnf203 l.5283-5285)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Sozomen: Alexander first let both sides debate and seemed to lean each way",
+    "witness": "Sozomen I.15 (npnf202 l.27576-27590); Hartranft's note calls it 'A doubtful and unsupported assertion' (l.27588)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Alexander at last put Arius out of the church",
+    "witness": "Socrates I.6 (npnf202 l.2127-2130); Theodoret I.1 (npnf203 l.5305-5308); Sozomen I.15 (npnf202 l.27597-27598)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "His circular letter says nearly a hundred bishops of Egypt and Libya condemned Arius, and warns against Eusebius of Nicomedia",
+    "witness": "Socrates I.6 (npnf202 l.2155-2168, 2209-2212); also npnf204 l.19121-19123",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The circular letter was drawn up by Athanasius",
+    "witness": "Newman's case, reported and judged strong by Archibald Robertson (npnf204 l.18916-18935); Kölling against",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "To Alexander of Constantinople he wrote that the Son was not made out of nothing, and that John shows 'the Father and the Son are inseparable'",
+    "witness": "Theodoret I.3 (npnf203 l.5506-5515)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Athanasius came to Nicaea 'as one of the retinue of Alexander'",
+    "witness": "Theodoret I.25 (npnf203 l.8005-8006)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Died five months after the Council of Nicaea",
+    "witness": "Theodoret I.25 (npnf203 l.7997-7998); Zenos's note to Socrates I.15 follows Theodoret (npnf202 l.3995-3998)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Died on 17 April 328",
+    "witness": "Index to the Festal Letters (npnf204 l.64076-64079), the year by Archibald Robertson's note (l.24797-24799)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Theodoret's praise: 'that admirable bishop, who had successfully withstood the blasphemies of Arius'",
+    "witness": "Theodoret I.25 (npnf203 l.7997-7998)",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "How the quarrel with Arius began",
+    "sides": "Socrates I.5: a lecture on the Trinity that Arius took for Sabellianism. Theodoret I.1: Arius's jealousy at Alexander's election. Sozomen I.15: debates in which Alexander seemed to waver, which Hartranft calls doubtful and unsupported."
+   },
+   {
+    "claim": "Who drew up the circular letter",
+    "sides": "Issued in Alexander's name (Socrates I.6). Newman, with Böhringer, holds Athanasius drew it up, and Robertson judges the case strong; Kölling argues against (npnf204 l.18916-18935)."
+   },
+   {
+    "claim": "When Alexander died",
+    "sides": "Theodoret I.25: five months after Nicaea (Zenos follows him, 325). Socrates I.15 and Sozomen II.17 place it after the recall of Eusebius and Theognis. Robertson, from the index to the Festal Letters: 17 April 328, reading Athanasius's 'five months' as marking the Meletian troubles (npnf204 l.24797-24804)."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth, family and age",
+    "note": "No source used here gives them."
+   },
+   {
+    "detail": "Philostorgius's claim that the Eusebians deposed him",
+    "note": "Philostorgius II.7 (Walford l.124), via Photius; Valesius in Walford's note 26 calls it false (l.568). Kept to the card."
+   }
+  ]
+ },
+ "eusebius-of-nicomedia": {
+  "claims": [
+   {
+    "claim": "Secundus of Ptolemais, going into exile after Nicaea, taunted Eusebius for signing and foretold his exile, which came within three months",
+    "witness": "Philostorgius I.9-10, in Photius's epitome (Walford l.102-108)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Philostorgius was on his side; his History survives only in Photius's hostile epitome",
+    "witness": "Walford's introduction (l.38-52)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Had been bishop of Berytus before Nicomedia",
+    "witness": "Alexander's circular letter in Socrates I.6 (npnf202 l.2159-2161); Socrates I.6 (l.2124-2126); Theodoret I.18 (npnf203 l.7486-7487)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Learned and held in high repute at the palace",
+    "witness": "Sozomen I.15 (npnf202 l.27625-27626)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Arius wrote to him as 'my fellow-Lucianist'; Philostorgius counts him among Lucian's pupils",
+    "witness": "Arius's letter in Theodoret I.4 (npnf203 l.6064); Philostorgius II.14 (Walford l.138)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Took up Arius's cause when Alexander put him out",
+    "witness": "Alexander's circular letter in Socrates I.6 (npnf202 l.2158-2168); Sozomen I.15 (l.27623-27640)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Wrote to Paulinus of Tyre that nothing is of the unbegotten's substance and urged him to win over Alexander",
+    "witness": "His letter in Theodoret I.5 (npnf203 l.6139-6203)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Constantine wrote against him to the Nicomedians, calling him 'the co-operator in the cruelty of the tyrants', and banished him with Theognis for receiving Alexandrians he had ordered seized",
+    "witness": "Constantine's letter in Theodoret I.19 (npnf203 l.7495-7560); hostile",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Would not accept the creed at Nicaea and was exiled for it",
+    "witness": "Socrates I.8 (npnf202 l.2950-2966); against Philostorgius I.9-10",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Signed the creed but not the anathema on Arius",
+    "witness": "Plea of Eusebius and Theognis in Socrates I.14 (npnf202 l.3942-3946)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Recalled from exile",
+    "witness": "Socrates I.14 (npnf202 l.3935-3937); Philostorgius II.7 (Walford l.124), after three years; 328 by Zenos's note (npnf202 l.3926-3927)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Constantius made him bishop of Constantinople",
+    "witness": "Socrates II.7 (npnf202 l.5883-5888); Theodoret I.18 (npnf203 l.7465-7474) and Philostorgius II.10 (Walford l.130) place it at Alexander of Constantinople's death, which Walford's note 31 calls a mistake (l.578)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Consecrated Ulfila",
+    "witness": "Philostorgius II.5 (Walford l.120) gives 'Eusebius'; identification by Duchesne, Histoire ancienne II (l.20994-20995)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Baptised Constantine",
+    "witness": "Blomfield Jackson's endnote 443 to Theodoret I.30 (npnf203 l.8288); Theodoret names no one",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Died soon after the synod of Antioch held in the fifth year after Constantine's death",
+    "witness": "Socrates II.8 (npnf202 l.5900-5935) and II.12 (l.6174-6176); Sozomen III.6 (l.31175); 341 by Zenos's note (l.5933)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Athanasius: 'Eusebius and his fellows have always been the supporters and associates of the impious heresy'",
+    "witness": "Athanasius, Encyclical Letter (npnf204 l.21241-21243); hostile",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether Eusebius signed the creed of Nicaea",
+    "sides": "Philostorgius I.9-10: he signed (Secundus's taunt); Walford's note 14 holds Socrates mistaken. Socrates I.8: one of five who would not accept it. His own plea (Socrates I.14): signed the creed, not the anathema."
+   },
+   {
+    "claim": "Why he was exiled after Nicaea",
+    "sides": "Constantine's letter (Theodoret I.19): for receiving Alexandrians he had ordered seized, and as a client of 'the tyrant'. Socrates I.8, I.14: for refusing to condemn Arius; Zenos says Socrates 'does not give the correct reason'."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth, family and age",
+    "note": "No source used here gives them."
+   },
+   {
+    "detail": "Constantine's will",
+    "note": "Philostorgius II.16 (Walford l.142) says it was entrusted to Eusebius; one witness, via Photius. Kept to the card."
+   },
+   {
+    "detail": "A held line giving the year of his death",
+    "note": "No ancient source used here gives a year; 341 is Zenos's reckoning from Socrates's consular dating."
+   }
+  ]
+ },
+ "ossius-of-cordoba": {
+  "claims": [
+   {
+    "claim": "Wrote to Constantius that he was a confessor under Maximian, refused to sign against Athanasius, and told him 'Intrude not yourself into Ecclesiastical matters'",
+    "witness": "His letter in Athanasius, History of the Arians 44 (npnf204 l.39251-39350); one witness, partisan",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Bishop for more than sixty years",
+    "witness": "Athanasius, History of the Arians 42 (npnf204 l.39202-39203)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Constantine sent him with a letter to Alexander and Arius",
+    "witness": "Socrates I.7 (npnf202 l.2459-2463); Sozomen I.16 (l.27653-27657, 27713)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "First in the Latin subscription lists of Nicaea",
+    "witness": "Gelzer, Hilgenfeld and Cuntz 1898 (l.4790-4794); Robertson: 'the lists are bad witnesses' (npnf204 l.2157-2159)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Most highly distinguished at Nicaea and first at Sardica",
+    "witness": "Theodoret II.12 in this edition (npnf203 l.9648-9651)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Presided at Nicaea",
+    "witness": "Athanasius, Defence of his Flight 5 (npnf204 l.36605-36606) and a note in Robertson's edition (l.20432) for; Percival (npnf214 l.790-793) against",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Opened the Canons of Sardica with a ban on bishops moving from a small city to another",
+    "witness": "Canons of Sardica, Canon I (npnf214 l.30585-30600)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Deposed by the eastern bishops at Sardica",
+    "witness": "Sozomen III.11 (npnf202 l.31472-31480)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Held a year at Sirmium, 'now a hundred years old', and broken into communion with Valens and Ursacius without signing against Athanasius",
+    "witness": "Athanasius, History of the Arians 45 (npnf204 l.39388-39408); partisan",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "After 'repeated stripes above measure' and plots against his kinsfolk, he 'yielded to them for a time'",
+    "witness": "Athanasius, Defence of his Flight 5 (npnf204 l.36613-36616); partisan",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Beaten and tortured at Sirmium until he signed their creed",
+    "witness": "Socrates II.31 (npnf202 l.8202-8213); II.29 places the council after the consulate of Sergius and Nigrinian (l.7861-7862); Sozomen IV.6 (l.32895-32900), 'as it is reported'",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Before death bore witness to the force used on him and anathematized the Arian heresy",
+    "witness": "Athanasius, History of the Arians 45 (npnf204 l.39409-39412)",
+    "formation_confidence": "Widely Accepted"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether he presided at Nicaea",
+    "sides": "Athanasius, Defence of his Flight 5, and a note in Robertson's edition (npnf204 l.20432): yes. Percival (npnf214 l.790-793): no evidence. Robertson: first on the extant list, but 'the lists are bad witnesses'. Theodoret: 'most highly distinguished'."
+   },
+   {
+    "claim": "What he yielded at Sirmium",
+    "sides": "Athanasius, History of the Arians 45: communion with Valens and Ursacius, but no signature against Athanasius. Socrates II.31 and Sozomen IV.6: he signed their creed under blows. Zenos notes Socrates confused the councils of Sirmium (npnf202 l.7900-7905)."
+   },
+   {
+    "claim": "When he died",
+    "sides": "Hefele, as Henry Percival quotes him: 'At the time of the Synod of Gangra Hosius was without doubt dead.' Cave, as Percival reports: his episcopate covered seventy years ending with 361. Pagi, as Percival reports: he may have attended the Synod of Gangra in 358 on his way back to Spain (npnf214 l.8435-8448)."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth, family, and an ancient witness to his death",
+    "note": "No ancient source used here gives his birth, family, or the year and place of his death. Henry Percival reports modern views on his death (npnf214 l.8435-8448), recorded as a contested claim."
+   },
+   {
+    "detail": "Names of his kinsfolk",
+    "note": "Athanasius speaks of conspiracies against his kinsfolk (npnf204 l.36614-36615); no source used here names them."
+   },
+   {
+    "detail": "The original language of his letter",
+    "note": "Held only in Athanasius's Greek, here in English; a note in Robertson's edition asks whether Athanasius translated it from Latin (l.39343-39346)."
+   }
+  ]
+ }
+}

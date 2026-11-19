@@ -1,0 +1,21 @@
+source_file: davis_sketch-of-the-life-of-rev-joseph-hardy-neesima_1890.txt
+assignments:
+- row_id: davis_sketch-of-the-life-of-rev-joseph-hardy-neesima_1890--a-sketch-of-the-life-of-rev-joseph-hardy-neesima-ll-d
+  work: A SKETCH OF THE LIFE OF REV. JOSEPH HARDY NEESIMA, LL.D., PRESIDENT OF DOSHISHA, KYOTO
+  author: davis
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - japanese-christianity-hidden-emergence-meiji
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1890
+    end: 1890
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n8; the OCR reads ''1800'''
+    formation_confidence: Documented
+  edition_date:
+    year: 1890
+    source: read on the scan's page image, leaf n8; the OCR reads '1800'
+    formation_confidence: Documented
+  note: 'Era 9 row 282, Niijima Jo: a sketch of his life by a colleague.'

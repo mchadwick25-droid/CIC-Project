@@ -306,9 +306,8 @@ def _names_for_world(entry: dict, *, include_representative: bool = True) -> lis
     Theophilus. Counted as a name of the TRADITION, that matched desert's
     records to the Reformed Cities and handed desert's voice "your own
     records already speak to it" on a tradition that arose eleven
-    centuries after its window closed (found by the tradition-pivot rule's
-    own build battery's own C-later-tradition probe,
-    engine/m4/reports/r37_build_battery.py).
+    centuries after its window closed (the tradition-pivot rule's own
+    build battery exercises this case in its C-later-tradition probe).
     A participant or another seat saying a Representative's name does
     refer to that seat, so every other caller keeps it."""
     names = []

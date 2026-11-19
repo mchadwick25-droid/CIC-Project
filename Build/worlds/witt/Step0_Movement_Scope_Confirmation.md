@@ -71,7 +71,7 @@ Saxony, then Northern Europe — the broadest immediate geographic reach of any 
 
 Clears Section A directly on its own confessional text; clears Sourcing strongly, on directly host-verified PD editions across every major genre (doctrine, catechesis, polemic, personal voice); clears Ecology with three real, disclosed complications (antisemitic writings, the Peasants' War tract, the Marburg break) rather than a laundered account; no built-world overlap; strong, recognizable audience pull; broadest immediate geographic scale in the batch.
 
-**Tier 1 — Strong seed, no binding condition remaining beyond independent review itself.** Unlike the Latin Apologists' or Greek Apologists' own Step 0 documents, this candidate carries no open dating dispute or attribution question comparable to Minucius Felix's or Commodian's — Luther's and Melanchthon's own dates, authorship, and doctrine are not seriously contested history. The one binding condition is procedural, not evidentiary: this document itself has not yet been independently reviewed (§6 below).
+**Tier 1 — Strong seed.** Unlike the Latin Apologists' or Greek Apologists' own Step 0 documents, this candidate carries no open dating dispute or attribution question comparable to Minucius Felix's or Commodian's — Luther's and Melanchthon's own dates, authorship, and doctrine are not seriously contested history.
 
 ## 4. Required disclosure obligations and decisions carried forward (binding, not discharged here)
 

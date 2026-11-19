@@ -1,0 +1,14 @@
+source_file: mozarabic-liturgy_missale-mixtum-pl85-lat_migne1862.txt
+assignments:
+- row_id: mozarabic-liturgy_missale-mixtum-pl85-lat_migne1862--the-mozarabic-missale-mixtum-pl-85
+  work: The Mozarabic Missale mixtum (PL 85)
+  author: mozarabic-liturgy
+  locus: the Missal after Leslie's preface at about OCR line 463; add 12 to OCR line numbers for this
+    file's own
+  atlas_ids:
+  - mozarabic-christianity
+  role: tradition
+  confidence: provisional
+  note: The Mozarabic community's own liturgy, much of it composed before 1031 and kept at Toledo after
+    the reconquest of 1085. Its own voice; the dating of individual prayers is the editors'. Second witness
+    only.

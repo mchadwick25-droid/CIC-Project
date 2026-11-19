@@ -1,0 +1,69 @@
+{
+ "round": 1,
+ "verdict": "revise",
+ "counts": {"blocking": 0, "substantial": 3, "minor": 3},
+ "checked": "All 77 diffed links (old vs new) against base_release17.json and the working census; every changed note and outcome; every added or restored secondary quote, by reading the vendored lines (Mouravieff 905-907, 1540-1552, 1599-1603, 1802-1805, 2296-2297; Pinkerton 3150-3152; Herberstein 7869-7879, 8280-8289; Chamich 21295-21336; Issaverdens 9970-10021) and by the validator's verbatim check on the rest; ruling-2 state for all 576 links (quote present vs verification_state); GRD-01/02/03 link lists against the census; the drafter's ruling1, ruling1_other_links, ruling4, ruling4_rejected and doubts; each added modern study grepped to its repo citation (census movement sources and documentedStories); an independent deposition/exile word sweep over judged-type links with no outcome; Decision-Log 2026-11-08 entries; Drafting Brief, launch prompt step 4b and method-page diffs; tools/validate-census.mjs and the new test; ci.yml. Ran: node tools/validate-census.mjs --base base_release17.json (0 errors, also with --atlas and --tree); node --test on both test files (11 pass, 0 fail); engine.m7.turn_readability.score_turn on every changed note, the outcome and the method paragraph; Build/tools/generate_tree_pages.mjs --out scratch to compare with the committed pages.",
+ "findings": [
+  {
+   "rid": "B1-01",
+   "severity": "substantial",
+   "links": ["cyrillo-methodian-slavic-christianity--kievan-rus-christianity"],
+   "finding": "Ruling 2 not applied to this link. Its three secondary sources now carry file, lines and a verbatim quote (all three pass the validator), but verification_state was left named-not-rechecked. It is the only link in the census with a quote and a state other than verified-direct (524 of 525 quoted links are verified-direct). Its GRD-03 twin, kievan-rus-christianity--kievan-rus-christianity-1054-1240, was filled the same way and moved to verified-direct. The hand fill evidently ran after the mechanical ruling-2 pass.",
+   "evidence": "cic-website/data/world-census.json, edge cyrillo-methodian-slavic-christianity--kievan-rus-christianity: sources[0] \"file\": \"cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt\", \"lines\": \"905-907\", \"quote\": \"This translation of the word of God became afterwards a most blessed instrument for the conversion of the Russians\" ... \"verification_state\": \"named-not-rechecked\"",
+   "required_fix": "\"verification_state\": \"verified-direct\""
+  },
+  {
+   "rid": "B1-02",
+   "severity": "substantial",
+   "links": ["byzantine-imperial-church-macedonian--athonite-and-comnenian-byzantine-monasticism"],
+   "finding": "The new note says Rosemary Morris \"says the same\", meaning that the Great Lavra was founded by Nicephorus Phocas. The repo does not show Morris saying that. It cites her on the movement only as a study of \"patrons, property, holy men\". It also lists her among the sources of a story whose own text (marked 'from reference summaries; primary text not yet read') says Athanasios built the Lavra with Phokas's gold. That supports Phocas as patron, which is enough for the ruling-1 upgrade. It does not support attributing the words 'founded by Phocas' to Morris. Keep the grade but stop putting that claim in her mouth.",
+   "evidence": "census movement athonite-and-comnenian-byzantine-monasticism, sources: \"Rosemary Morris, Monks and Laymen in Byzantium, 843-1118 (CUP, 1995)\", \"note\": \"Standard study of the monastic world's social ecosystem: patrons, property, holy men.\"; story 'The Founder Killed by His Own Church' text: \"been persuaded by his friend the general Nikephoros Phokas to build a communal monastery there, and when Phokas became emperor had accepted his gold to do it\"; edge note: \"But Rosemary Morris, a modern scholar, says the same in a book of 1995.\"",
+   "required_fix": "note = \"Robert Curzon was an English visitor to Athos in the 1830s. He cites an account from 1701: the Great Lavra 'was founded by Nicephorus Phocas', the emperor. That report is late and secondhand. But a modern study by Rosemary Morris, from 1995, tells how Phocas paid for the house that the monk Athanasios built.\" (score_turn: FRE 61.9, FK 7.9, longest sentence 22 words)"
+  },
+  {
+   "rid": "B1-03",
+   "severity": "substantial",
+   "links": ["bogomils--cathars-albigensians", "(all 77 changed links)"],
+   "finding": "The public surfaces were not rebuilt from release 18. The map's embedded census (cft-website/index.html) still carries release 17, including the retired link bogomils--cathars-albigensians with its old note. The committed tree pages still list it too (cft-website/tree/bogomils.html line 151). Running Build/tools/generate_tree_pages.mjs gives 14 tree pages that differ, plus method.html (the ruling-4 paragraph is not on the served page), data.html (release number) and about.html. Release 17 rebuilt the map and tree pages in the same pull request (commit bbf720de). Merged as it stands, the site would contradict its own data file.",
+   "evidence": "cft-website/tree/bogomils.html:151 '<li id=\"bogomils--cathars-albigensians\"><a href=\"cathars-albigensians.html\">Cathars / Albigensians</a> <span class=\"lineage-confidence\">Contested</span> — <span class=\"confidence-note\">Around 1250 the inquisitor Rainerius Sacconi, once a Cathar himself, listed the Cathar churches.'; cft-website/index.html embedded edge '\"id\": \"bogomils--cathars-albigensians\", \"from\": \"bogomils\", \"to\": \"cathars-albigensians\"'; generate_tree_pages.mjs output: 'diff -rq cft-website/tree <out>/cft-website/tree' gives 14 differing files.",
+   "required_fix": "After the data fixes, rebuild the map's embedded census and run node Build/tools/generate_tree_pages.mjs, the same way release 17 did. Commit the regenerated cft-website/index.html, cft-website/tree/*.html, method.html, data.html and about.html in this pull request."
+  },
+  {
+   "rid": "B1-04",
+   "severity": "minor",
+   "links": ["kievan-rus-christianity--kievan-rus-christianity-1054-1240"],
+   "finding": "The hand-filled Mouravieff quote is verbatim, but it is the opening clause of the passage and only places Hilarion as a priest at Berestoff. The link uses Mouravieff for the cave being the seed of the Caves Monastery and every Russian religious house, and that comes eleven lines later. The work string itself quotes those words, so the quote field should carry them.",
+   "evidence": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt:1551 'he   dug   himself  out  a  dark  cave    or   Pesch,  the  germ  of  - — '- —'; :1552 'the  future  Lavra,  and  of  all  the  religious  houses  of  Russia.'; census quote at 1540-1542: \"The Metropolitan Hilarion when he was as yet only priest of the Church of the holy Apostles in Berestoff,\"",
+   "required_fix": "sources[0] \"lines\": \"1552\", \"quote\": \"the future Lavra, and of all the religious houses of Russia.\" (or add a second Mouravieff entry with lines \"1551\", quote \"he dug himself out a dark cave or Pesch, the germ of\"; a scan artifact on line 1551 blocks a quote that spans both lines)"
+  },
+  {
+   "rid": "B1-05",
+   "severity": "minor",
+   "links": [],
+   "finding": "The public method paragraph says \"removing a church leader from office\". Ruling 4 covers a \"church head or prelate\". 'Church leader' commonly takes in priests and ministers, and the drafter rightly rejected those cases (Avvakum, the Admonition's authors, the ejected Puritan ministers, Origen, Aetius). The public text is wider than the ruling.",
+   "evidence": "Build/tools/tree_site_pages.json:216 \"It can also be any authority, church or state, removing a church leader from office.\"; Decision-Log 'Whole-set rulings' item 4: \"a church head or prelate deposed by any authority, church or state, counts as an institutional act\"",
+   "required_fix": "\"Any other link is major only when its own sources show an act of authority. That can be a council, canon, synod or law that condemned or shut out a group or its teaching. It can also be any authority, church or state, removing a bishop or other church head from office.\" (paragraph FRE 65.6, FK 8.4)"
+  },
+  {
+   "rid": "B1-06",
+   "severity": "minor",
+   "links": ["the-optina-elders-and-russian-ascetic-renewal--emigre-orthodoxy-and-the-paris-school"],
+   "finding": "Under the amended Drafting Brief, `named-not-rechecked` is the state 'for support with no quote', and `unverified` is for everything else. This link's only source is a secondary with no file, lines or quote, yet it stays `unverified`. It is the only unverified link in the census. The mechanical ruling-2 pass touched only verified-direct links, so this one was missed.",
+   "evidence": "Drafting_Brief.md (amended): \"`named-not-rechecked` for support with no quote; `unverified` otherwise.\"; census edge: sources [{\"kind\": \"secondary\", \"work\": \"Sergii Chetverikov, Optina Pustyn': istoricheskii ocherk (Paris: YMCA Press, 1926)\", \"file\": null, \"lines\": null, \"quote\": null}], \"verification_state\": \"unverified\"",
+   "required_fix": "\"verification_state\": \"named-not-rechecked\""
+  }
+ ],
+ "cleared": [
+  "Ruling 1, the 14 GRD-04 links: the six moves to Inferential-Thin follow from the repo evidence. For each, the modern studies on the Rus' and Georgian movements are cited for other matters, and I confirmed this by grep. The three that stay Thin (Anjou, Conybeare, Rees) have no modern study. Four stay DMR on a modern study the repo cites for the same reading: Franklin and Shepard ch. 7 'On the Caves Monastery' with the story text 'a rule from Constantinople'; Morris 1995 'On Tornike, Iviron'; Obolensky 1948 ch. 5 'On Basil and the Constantinopolitan Bogomils'; Dvornik 1970 on the mission. None of these adds a page number.",
+  "Ruling 1, 'one account': kievan-rus-christianity--kievan-rus-christianity-1054-1240 has Herberstein (1549) as well, so it is literally two accounts. But GRD-04, the finding Mark ruled on, named it in the class, and the new note says plainly that it 'rests on these two later accounts'. Links with two or more pre-1930 accounts outside the GRD-04 list (Cluny, Alfred, the Cyrillo-Methodian books in Rus', Humiliati, Edinoverie, Kyiv 1686) were rightly left alone and flagged for Mark.",
+  "Ruling 1, the other grade change: Alaskan mission Inferential-Thin to DMR. Oleksa 1992 and Black 2004 are repo-cited for the story whose text names the ten Valaam monks reaching Kodiak in 1794. The note keeps every old fact and says plainly that the 1842 list is silent on 1794.",
+  "Ruling 4: the Avedik outcome. Every fact is in the link's own Chamich (21303-21326) and Issaverdens (10006-10009) lines: the French envoy's complaint, the thirty leading Armenians, the vizier, the beating, the stripping of his robes and banishment to an island. The deposition was not reversed (Issaverdens 10009-10021). The outcome is 28 words, FRE 62.7, FK 8.0.",
+  "Ruling 4: the 17 rejected candidates were rightly rejected (not a prelate, soon reversed under P2-ML's separate ruling, a duplicate, or not an act of either side). An independent word sweep of the judged-type links with no outcome found no other deposition of a church head.",
+  "Ruling 5: bogomils--cathars-albigensians is retired with a date, a reason and replacedBy. balkan-bogomil-continuation--cathars-albigensians keeps Sacconi, the Interrogatio colophon, Everwin and Sennis, gains Rački 2156-2157 (on topic: the western branch stayed tied to its trunk), and stays Contested.",
+  "Ruling 3: all 21 GRD-02 links and the 6 GRD-01 links now carry restored secondary file, lines and quote. Each passes the validator's verbatim check, and the spot-read quotes are on the link's topic. The four GRD-03 hand-filled quotes are verbatim at their lines (B1-04 apart).",
+  "Ruling 2: apart from B1-01 and B1-06, every link's state matches the new meaning: 524 links with a quote are verified-direct, and 50 with no quote are named-not-rechecked.",
+  "Validator and tests: a secondary with none of file, lines and quote returns as before. A partial set errors. A full set is checked exactly like a primary (under cic/texts/, a line range in bounds, the quote verbatim). Primary checks are unchanged. The four tests exercise each branch. The CI path filter and the test step include the new file. 0 errors, 11/11 tests pass.",
+  "Decision-Log 'Whole-set rulings', the Drafting Brief amendments and launch prompt step 4b state rulings 1 to 5 as given, with no widening or narrowing. The brief's re-wording of named-not-rechecked ('support with no quote') follows necessarily from rulings 2 and 3.",
+  "Readability: every changed note scores FRE 60.2 to 69.5 and FK 6.5 to 7.8, with no sentence past 24 words. The method paragraph scores FRE 65.9, FK 8.1. Spelling is American, with no internal language and no AI tells."
+ ]
+}

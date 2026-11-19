@@ -8,6 +8,8 @@ assignments:
   - the-society-of-jesus
   role: tradition
   confidence: assigned
+  language: lat-spa
+  date: {formation_confidence: unknown, checked: "title page and front matter (Madrid 1919 imprint dates the edition only); the Exercises and the Directories are of different dates and no single window is stated"}
   note: 'Ignatius''s Exercises in the Spanish he wrote, printed beside the earliest Latin version and
     the Vulgata, with the early Directories. The Spanish text follows the autograph as the editors read
     it; the volume is a critical edition, so the Spanish is the editors'' text of Ignatius''s own manuscript.

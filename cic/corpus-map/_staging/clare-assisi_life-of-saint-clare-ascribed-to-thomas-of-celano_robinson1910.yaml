@@ -1,0 +1,11 @@
+source_file: clare-assisi_life-of-saint-clare-ascribed-to-thomas-of-celano_robinson1910.txt
+assignments:
+- row_id: clare-assisi_life-of-saint-clare-ascribed-to-thomas-of-celano_robinson1910--the-life-of-saint-clare-ascribed-to-thomas-of-celano-with-her-ru
+  work: The Life of Saint Clare ascribed to Thomas of Celano, with her Rule (Robinson 1910)
+  author: clare-assisi
+  locus: the whole volume
+  atlas_ids:
+  - the-franciscan-movement
+  role: tradition
+  confidence: provisional
+  note: The Legend of Clare, dated by the title to 1255-1261, with her Rule in an appendix. Her Letters to Agnes survive here only in the German version printed in the Seton volume (row 78); the Testament and the Process were not found in public-domain print.

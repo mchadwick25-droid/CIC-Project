@@ -1,0 +1,60 @@
+{
+  "name": "Marcellinus Comes",
+  "otherNames": [
+    "Marcellinus vir clarissimus comes",
+    "Marcellinus Illyricianus"
+  ],
+  "knownFor": "A Latin chronicler at Constantinople whose chronicle of the Eastern empire, from 379 to 534, tells church riots and quarrels in the capital from the side he calls orthodox.",
+  "dates": "His chronicle ran first to 518 and later to 534, in Theodor Mommsen's years for the consulships his preface names. Mommsen judges that he first issued it under the emperor Justin, before 527. A continuation to 548 is by another hand, in Mommsen's judgment",
+  "place": "Constantinople; by Cassiodorus's account, from Illyricum",
+  "tradition": "Byzantine Imperial Church (Justinianic)",
+  "role": "Chronicler; by Cassiodorus's report, a cancellarius, a court clerk, of Justinian before he became emperor",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Chronicle (Chronicon)",
+      "about": "a year-by-year Latin chronicle of the Eastern empire from 379 to 534, dated by indictions and consuls, carrying on the chronicle of Eusebius of Caesarea and Jerome"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "All the manuscripts come down from two early copies of nearly the author's own time, Mommsen says. One ends at 534, where the preface says it ends; the other runs on to 548, where it breaks off.",
+      "Cassiodorus names it after the chronicles of Eusebius of Caesarea and Jerome in his guide to Christian reading, and also names four books by Marcellinus on Constantinople and Jerusalem."
+    ],
+    "remembered": [
+      "Mommsen: \"orthodoxum odium quaevis pagina apud Marcellinum spirat\", hatred of heretics breathes from every page, above all against the followers of Nestorius.",
+      "Mommsen notes the writer's zeal for Justinian, which Cassiodorus also reports."
+    ]
+  },
+  "uncertain": [
+    "His life rests on Cassiodorus's short notice and the chronicle itself. Cassiodorus gives the court post as a report (\"fertur\"). The four books on Constantinople and Jerusalem that Cassiodorus names are not held.",
+    "The year 512 for the hymn riot, and every year of our reckoning, are Mommsen's. Marcellinus dates by indictions and consuls.",
+    "Mommsen reads Cassiodorus's words \"meliore condicione devotus\" to mean that Marcellinus left public life and became a cleric, before 527. This is Mommsen's reading.",
+    "The continuation from 534 to 548 is in one of the two families of manuscripts, and breaks off in 548. Mommsen gives it to another writer, since Cassiodorus does not know it and the preface does not mention it, and he thinks it was probably written in the East."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Chronicle of Marcellinus Comes (ed. Theodor Mommsen, Chronica minora II)",
+        "language": "Latin",
+        "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Preface to the Chronicle of Marcellinus",
+        "author": "Theodor Mommsen",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt"
+      },
+      {
+        "title": "Institutions, book 1, chapters 17 and 25",
+        "author": "Cassiodorus",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/cassiodorus_opera-institutiones-pl70-lat_migne1847.txt"
+      }
+    ]
+  }
+}

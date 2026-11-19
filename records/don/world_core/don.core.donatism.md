@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Dominant Modern Reconstruction
-  divergence_note: This record synthesises nine completed construction documents rather than reading a
+  divergence_note: This record synthesizes nine completed construction documents rather than reading a
     text directly, so verification runs via those documents' own authority, not via a primary source reopened
     here. Doc_07 SS7 names the synthesis's own central claim - that purity, once adopted, necessarily
     generates rite, memory, institution, and political posture as a single logical unfolding rather than
@@ -208,7 +208,7 @@ cautions: >-
 
   4) The Circumcellion split must be held. The group's existence is independently attested outside
   hostile polemic. Codex Theodosianus 16.5.52 fines circumcelliones ten pounds of silver, the only
-  rank of ten fined in silver rather than gold. But the group's characterisation is substantially
+  rank of ten fined in silver rather than gold. But the group's characterization is substantially
   shaped by that polemic, and the two must never be merged. Their own self-designation,
   agonistici, is confirmed absent from the Theodosian Code. Its source passage in Augustine
   remains unidentified.

@@ -1,0 +1,13 @@
+source_file: montalvo_vida-admirable-pedro-de-san-jose-betancur-spa_1683.txt
+assignments:
+- row_id: montalvo_vida-admirable-pedro-de-san-jose-betancur-spa_1683--montalvo-vida-admirable-del-hermano-pedro-de-san-joseph-betancur-rome-
+  work: Montalvo, Vida admirable del hermano Pedro de San Joseph Betancur (Rome 1683)
+  author: montalvo
+  locus: the Life from about OCR line 87; add 12 to OCR line numbers for this file's own
+  atlas_ids:
+  - colonial-latin-american-devotional-catholicism
+  role: tradition
+  confidence: assigned
+  note: The earliest Life of Pedro de San Jose Betancur, founder of the Bethlemite company at Guatemala,
+    written sixteen years after his death. Colonial devotional Catholicism's own hagiography. The eras
+    8-9 sweep holds the Bethlemites (LA8-9) for a line in this entry.

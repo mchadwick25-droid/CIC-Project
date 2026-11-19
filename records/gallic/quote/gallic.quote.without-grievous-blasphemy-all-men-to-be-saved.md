@@ -18,8 +18,7 @@ confidence:
     gallic.quote.chaeremon-three-stages-of-grace).
 sources:
 - source_id: gallic.source.cassian-conferences-part-ii
-  locus: "Conference XIII.7 (npnf211 div iv.v.iv.vii, file lines 37742-37759): Chaeremon's
-    argument that God cannot be imagined to will only some, rather than all, to be saved"
+  locus: "Conference XIII.7 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 37756-37759; div iv.v.iv.vii): Chaeremon's argument that God cannot be imagined to will only some, rather than all, to be saved"
   license: public-domain
 retrieval:
   tier: 2

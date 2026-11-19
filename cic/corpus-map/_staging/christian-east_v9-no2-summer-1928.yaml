@@ -1,0 +1,24 @@
+source_file: christian-east_v9-no2-summer-1928.txt
+assignments:
+- row_id: christian-east_v9-no2-summer-1928--whole
+  work: 'The Christian East, volume IX, number 2 (Summer, 1928)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1928, end: 1928, source: "masthead: 'Summer, 1928'", formation_confidence: Documented}
+  note: 'One number of the quarterly, by many writers. The Eastern documents it prints are in the journal''s English unless a row says otherwise.'
+- row_id: christian-east_v9-no2-summer-1928--nikolai-of-okhrida-the-sacraments-from-the-point-of-view-of-the-eastern-church-1928
+  work: 'Nikolai, Bishop of Okhrida, ''The Sacraments from the Point of View of the Eastern Church'' (1928), in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 2482-2725; add 12 to OCR line numbers'
+  atlas_ids:
+  - orthodoxy-in-the-communist-balkans
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1928, end: 1928, source: "printed in the number of Summer, 1928", formation_confidence: Documented}
+  note: 'The paper of ''the Right Reverend Nikolai, Bishop of Okhrida'', in English with no translator named.'

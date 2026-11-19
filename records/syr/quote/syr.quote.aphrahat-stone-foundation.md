@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: syr.source.aphrahat-select-demonstrations
-  locus: I.2
+  locus: "I.2 (cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml, lines 24606-24610)"
   license: public-domain
 text: Thus also the true Stone, our Lord Jesus Christ, is the foundation of all our faith. And on Him,
   on [this] Stone faith is based. And resting on faith all the structure rises until it is completed.

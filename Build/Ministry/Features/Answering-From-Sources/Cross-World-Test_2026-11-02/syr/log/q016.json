@@ -1,0 +1,205 @@
+{
+ "draft": "We did not have denominations, not as the word is now meant [[syr.dw.one-church]] [[as:paraphrase]].\n\nOur streets held rival communities who all invoked Christ, among them Marcion's people and Bardaisan's circle [[syr.dw.one-church]] [[as:paraphrase]].\n\nWe would not share their communion, and we answered their teaching by name, in prose and in song [[syr.dw.one-church]] [[as:paraphrase]].\n\nWe held to the wholeness we had received: one God, the whole of Scripture, and the body's resurrection [[syr.dw.one-church]] [[as:paraphrase]].\n\nThe word Catholicos, the later title for the head of the Persian church, was used by no one among us [[syr.term.catholicos]] [[as:paraphrase]].\n\nWe knew ourselves as part of one people, across two empires and beyond [[syr.dw.one-church]] [[as:paraphrase]].\n\nIn Philip's record of the Book of the Laws of Countries, Bardaisan spoke: [[quote:syr.quote.blc-one-name]]\n",
+ "ending": "rewritten",
+ "final": "We did not have denominations, not as the word is now meant. Our streets held rival communities who all invoked Christ, among them Marcion's people and Bardaisan's circle. We would not share communion with those rival communities, and we answered their teaching by name, in prose and in song. We held to the wholeness we had received: one God, the whole of Scripture, and the body's resurrection. The word Catholicos, the later title for the head of the Persian church, was used by no one among us. We knew ourselves as part of one people, across two empires and beyond.",
+ "group": "A",
+ "offered": [
+  "syr.dw.one-church",
+  "syr.term.catholicos",
+  "syr.story.abgar-addai-legend",
+  "syr.quote.blc-one-name",
+  "syr.gravity.covenant-life",
+  "syr.gravity.persecution-endurance",
+  "syr.force.transmission-ending",
+  "syr.contested.edessa-origins",
+  "syr.dw.authority-lived",
+  "syr.story.simeon-martyrdom",
+  "syr.quote.sozomen-melodies",
+  "syr.quote.basil-credits-a-syrian",
+  "syr.limit.f5-enslaved",
+  "syr.limit.f5-women-own-words",
+  "syr.dw.apostolic",
+  "syr.quote.ephrem-keeper-of-strangers",
+  "syr.quote.palladius-hospitaller",
+  "syr.dw.corpus-and-its-edges",
+  "syr.story.edessa-flood-201",
+  "syr.quote.chronicle-flood-line",
+  "syr.quote.abgar-letter"
+ ],
+ "placements": [
+  {
+   "decision": "drop",
+   "judgement": {
+    "fit": "off_point",
+    "limit_stated": false,
+    "reason": "The passage says Christians everywhere share one name and a first-day gathering; it does not say whether any present-day church continues the tradition."
+   },
+   "record_id": "syr.quote.blc-one-name"
+  }
+ ],
+ "question": "Does any present-day church continue your community's exact tradition?",
+ "question_id": "q016",
+ "read": {
+  "dropped": [
+   "syr.quote.blc-one-name"
+  ],
+  "status": "rewrite",
+  "unsupported": {}
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.one-church"
+   ],
+   "sentence": "We did not have denominations, not as the word is now meant.",
+   "tags": [
+    "syr.dw.one-church"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.one-church"
+   ],
+   "sentence": "Our streets held rival communities who all invoked Christ, among them Marcion's people and Bardaisan's circle.",
+   "tags": [
+    "syr.dw.one-church"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.one-church"
+   ],
+   "sentence": "We would not share communion with those rival communities, and we answered their teaching by name, in prose and in song.",
+   "tags": [
+    "syr.dw.one-church"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.one-church"
+   ],
+   "sentence": "We held to the wholeness we had received: one God, the whole of Scripture, and the body's resurrection.",
+   "tags": [
+    "syr.dw.one-church"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.term.catholicos"
+   ],
+   "sentence": "The word Catholicos, the later title for the head of the Persian church, was used by no one among us.",
+   "tags": [
+    "syr.term.catholicos"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "syr.dw.one-church"
+   ],
+   "sentence": "We knew ourselves as part of one people, across two empires and beyond.",
+   "tags": [
+    "syr.dw.one-church"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We did not have denominations, not as the word is now meant.",
+   "tags": [
+    "syr.dw.one-church"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our streets held rival communities who all invoked Christ, among them Marcion's people and Bardaisan's circle.",
+   "tags": [
+    "syr.dw.one-church"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We would not share their communion, and we answered their teaching by name, in prose and in song.",
+   "tags": [
+    "syr.dw.one-church"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We held to the wholeness we had received: one God, the whole of Scripture, and the body's resurrection.",
+   "tags": [
+    "syr.dw.one-church"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The word Catholicos, the later title for the head of the Persian church, was used by no one among us.",
+   "tags": [
+    "syr.term.catholicos"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We knew ourselves as part of one people, across two empires and beyond.",
+   "tags": [
+    "syr.dw.one-church"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 6,
+   "placed": true,
+   "placed_id": "syr.quote.blc-one-name",
+   "reason": "placed by code",
+   "sentence": "In Philip's record of the Book of the Laws of Countries, Bardaisan spoke: “And what shall we say of the new race of us Christians, whom Christ at his coming planted in every country and in every region? For see - wherever we are, we are all called by the one name of Christ: Christians. On one day, the first of the week, we gather together.”",
+   "tags": [
+    "syr.quote.blc-one-name"
+   ]
+  }
+ ],
+ "shipped_by_net": "We did not have denominations, not as the word is now meant.\n\nOur streets held rival communities who all invoked Christ, among them Marcion's people and Bardaisan's circle.\n\nWe would not share their communion, and we answered their teaching by name, in prose and in song.\n\nWe held to the wholeness we had received: one God, the whole of Scripture, and the body's resurrection.\n\nThe word Catholicos, the later title for the head of the Persian church, was used by no one among us.\n\nWe knew ourselves as part of one people, across two empires and beyond.\n\nIn Philip's record of the Book of the Laws of Countries, Bardaisan spoke: “And what shall we say of the new race of us Christians, whom Christ at his coming planted in every country and in every region? For see - wherever we are, we are all called by the one name of Christ: Christians. On one day, the first of the week, we gather together.”",
+ "sub_question": "C6.S4"
+}

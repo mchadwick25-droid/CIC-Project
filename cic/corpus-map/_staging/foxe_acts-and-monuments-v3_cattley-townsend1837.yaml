@@ -28,6 +28,8 @@ assignments:
       - the-hussite-and-bohemian-brethren-movement
     role: context
     confidence: assigned
+    language: eng
+    date: {formation_confidence: unknown, checked: "title page and editor's notes: a 1837-41 edition of a multi-section martyrology; the notes cite the 1563 edition but the file gives no first-edition year for the Hus section"}
     note: >
       Foxe's 16th-century English account of Hus, printed with his
       sources: a papal inquisitor's testimonial to Hus, the petitions

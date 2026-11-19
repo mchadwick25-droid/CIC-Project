@@ -1,0 +1,17 @@
+[
+ {
+  "id": "R2-1",
+  "status": "fixed",
+  "changed": "Constantine floorNote now 'Not in question. He called the bishops to the council at Nicaea.'; baptism paragraphs moved unchanged to end of sourcing, six fact rows set to field sourcing; new floorNote row for the Nicaea sentence; flag updated."
+ },
+ {
+  "id": "R2-2",
+  "status": "fixed",
+  "changed": "Constantine longDescription para 1 now 'Their edict gave Christians and all others the freedom...'; row 74 sentence updated."
+ },
+ {
+  "id": "R2-5",
+  "status": "fixed",
+  "changed": "Basil row 117 trimmed to what Letter 204 quotes; new row for npnf208 1020-1027 naming Gregory the Wonder-worker."
+ }
+]

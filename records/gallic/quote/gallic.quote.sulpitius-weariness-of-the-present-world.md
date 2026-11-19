@@ -16,9 +16,7 @@ confidence:
     first-person account of his state of mind before a vision of Martin.
 sources:
 - source_id: gallic.source.sulpitius-letters
-  locus: "Letter II, to the Deacon Aurelius (npnf211 div ii.iii.ii, file lines 2148-2154):
-    Sulpitius's own state of mind - hope, weariness, dread of judgment - before his vision of
-    Martin"
+  locus: "Letter II, to the Deacon Aurelius (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 2148-2154; div ii.iii.ii): Sulpitius's own state of mind - hope, weariness, dread of judgment - before his vision of Martin"
   license: public-domain
 retrieval:
   tier: 2

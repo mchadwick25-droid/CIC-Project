@@ -24,6 +24,8 @@ assignments:
   - the-society-of-jesus
   role: context
   confidence: provisional
+  language: eng
+  date: {formation_confidence: unknown, checked: "file header (1710 is the catalogue year of this English printing) and the opening text; the date of Telles's Portuguese original is not stated in the lines read"}
   note: >-
     The same account, read as the Jesuits' own mission narrative in Ethiopia. Placed on window and subject
     without reading the whole; a mission history written about Jesuit work and attributed to a Jesuit

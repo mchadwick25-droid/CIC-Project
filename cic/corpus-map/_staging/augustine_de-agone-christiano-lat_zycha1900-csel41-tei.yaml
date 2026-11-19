@@ -12,6 +12,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
+    locus_ids: [whole-file]
+    language: lat
+    date: {start: 396, end: 396, source: "NPNF 1 Prolegomena 'The Writings of St. Augustin' (npnf101_augustine-confessions-letters.xml, id iv.4, Schaff's list of Augustine's works): De agone Christiano (396)", formation_confidence: Widely Accepted}
     note: >
       Augustine's short instruction on the Christian struggle, whose opening line is 'Corona uictoriae
       non promittitur nisi certantibus'. No English translation of this work is vendored in this

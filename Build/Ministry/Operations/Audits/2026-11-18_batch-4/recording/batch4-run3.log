@@ -1,0 +1,28 @@
+=== Tree narration  ===
+619 movements total
+8 skipped - no longDescription to narrate
+12 skipped - built world with its own orientation.story, recorded in its Representative's voice
+349 skipped - not a person row (person run)
+0 already narrated and current (use --force to regenerate)
+9 stale - recorded from text that has since changed, re-voiced this run
+9 to generate this run, 22567 characters total
+=== PAID RUN, settings as actually used ===
+approved run     : Batch 4: the twelve reworked (Mark, 2026-11-18, 'record and finish the batches', cap 15,000 credits)   char cap: 23200
+person voice id  : onegjDE2z0mQtp1g0HK7   (kind "person", every item)
+output format    : mp3_44100_64
+model            : eleven_v4
+settings         : {"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true}
+audio tags       : open (none), before the last sentence (none), between paragraphs [pause], 7 respellings
+items            : 9   characters: 22567 text, 23108 sent
+===========================================
+  ok: marcion-of-pontus voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=2348 sent=2402 cost=1165 request-id=30gQOrLAzX30SHhQIBf7
+  ok: clement-of-alexandria voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=2342 sent=2420 cost=1173 request-id=Poq5POSfuwDgdo8RSK1d
+  ok: antony-the-great voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=2374 sent=2423 cost=1175 request-id=Zo4NWwKWxgM4x4ZFaEwR
+  ok: martin-of-tours voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=3198 sent=3270 cost=1585 request-id=8sqIZR36RKdtIyULuVvL
+  ok: benedict-of-nursia voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=2601 sent=2664 cost=1292 request-id=KxDeNNl16e5WfeERuw68
+  ok: columba voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=2576 sent=2630 cost=1275 request-id=nS6rfljuB5eI8Y0HaVhn
+  ok: radegund voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=2434 sent=2506 cost=1215 request-id=ESBL1sWZC5wL6hIYBxsO
+  ok: hild-of-whitby voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=2276 sent=2321 cost=1125 request-id=VorMhK5OgSit4SUDcP4r
+  ok: dhuoda voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=2418 sent=2472 cost=1199 request-id=DodKf0cExUDb3J1Y83Ti
+
+9/9 generated. credits charged (character-cost headers): 11204

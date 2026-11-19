@@ -81,14 +81,14 @@ tensions:
 text: 'Our bishops'' office was traced back to the apostles by name. It was done in two ways, by two different
   hands. Augustine, writing with two fellow bishops, did it most directly. A Donatist presbyter had claimed
   an "episcopal succession" for his own side. Augustine answered with the real one. He counted back from
-  the present bishop of Rome, Anastasius, through Siricius, Damasus, Liberius, and on down the list. He
+  the present bishop of Rome, Anastasius. He went through Siricius, Damasus, Liberius, and on down the list. He
   reached Linus, Peter''s own successor -- "In this order of succession no Donatist bishop is found."
-  Against a different Donatist opponent, Petilian, he named two chairs the same way: Peter''s own seat
+  Against a different Donatist opponent, Petilian, he named two chairs the same way. They were Peter''s own seat
   at Rome and James''s at Jerusalem. Each was still filled "to-day" by a living bishop. Cyprian wrote
-  a century and a half earlier. He did not draw up a name list of his own. He stated a principle instead.
+  a century and a half earlier. He stated a principle.
   From Peter onward, the ordering of bishops "through the changes of times and successions" carries the
-  Church itself forward. On a different occasion he said that choosing a bishop with the people present
-  is a practice handed down "from divine tradition and apostolic observance." Augustine supplies the names.
+  Church itself forward. On a different occasion he spoke of choosing a bishop with the people present.
+  It is a practice handed down "from divine tradition and apostolic observance." Augustine supplies the names.
   Cyprian supplies the principle and the practice they run on.'
 ---
 Grounded directly in Augustine, Letter LIII SS2 and Answer to Petilian II.51, and Cyprian, Epistles XXVI SS1 and LXVII SS5 -- all four verified against the vendored text at the line numbers above. Answers the residual half of F4-E's own question that lpc.limit.apostolic-origin-undefended had wrongly called a bare "general conviction, not a traced lineage": a traced lineage for the office of bishop itself does exist in this world's own corpus, in Augustine's hands (writing with Fortunatus and Alypius) most explicitly. What remains unanswered -- catechesis, the road back, and the teaching before the water, none traced to the apostles by name -- is narrowed in lpc.limit.apostolic-origin-undefended, not resolved here.

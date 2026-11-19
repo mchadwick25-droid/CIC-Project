@@ -1,0 +1,12 @@
+source_file: hadrian-i_epistolae-karolini-aevi-3-mgh-epistolae-5-lat_1899.txt
+assignments:
+- row_id: hadrian-i_epistolae-karolini-aevi-3-mgh-epistolae-5-lat_1899--hadrian-i-reply-to-charlemagne-on-the-images-latin-mgh
+  work: 'Hadrian I, reply to Charlemagne on the images, Latin (MGH Epistolae V, 1899)'
+  author: hadrian-i
+  locus: 'about OCR lines 707-5771; add 12 to OCR line numbers'
+  atlas_ids:
+  - carolingian-reform-christianity
+  - byzantine-imperial-church-heraclian-iconoclast
+  role: context
+  confidence: provisional
+  note: 'The pope''s answer, chapter by chapter, to the Frankish objections to the council of 787. It is Rome''s voice, so it stands as an outside witness on both the Frankish and the Byzantine entry.'

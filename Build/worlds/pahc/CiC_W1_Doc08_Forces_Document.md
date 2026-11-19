@@ -344,7 +344,7 @@ Connected forces:
 
 ### Cross-Strand Gravity Note
 
-The forces that cut across both strands are exactly the ones producing this world's two cross-strand-confirmed Primary gravities: Force 1A-1 (shared infrastructure/koine) and Force 1A-2 (shared eyewitness-loss crisis) bear on both Strand A and Strand B equally, which is why G02 and G07 are independently attested by voices from both strands (Doc_04, G02, G07). By contrast, Force 2B-3 (Martyrdom) and Force 2B-4 (Boundary-Drawing) are evidenced overwhelmingly by Strand A's own Ignatian material, which is exactly why G04 and G05 remain Strand-bound in Doc_04's own classification — the forces themselves are not shown to bear differently on the two strands so much as this world's surviving evidence for Strand B's own response to them (if any existed) simply was not developed anywhere in Doc_02 (Doc_04, Open Item 4).
+The forces that cut across both strands are exactly the ones producing this world's two cross-strand-confirmed Primary gravities: Force 1A-1 (shared infrastructure/koine) and Force 1A-2 (shared eyewitness-loss crisis) bear on both Strand A and Strand B equally, which is why G02 and G07 are independently attested by voices from both strands (Doc_04, G02, G07). By contrast, Force 2B-3 (Martyrdom) and Force 2B-4 (Boundary-Drawing) are evidenced overwhelmingly by Strand A's own Ignatian material, which is exactly why G04 and G05 remain Strand-bound in Doc_04's own classification — the forces themselves are not shown to bear differently on the two strands so much as this world's surviving evidence for Strand B's own response to them (if any existed) simply was not developed anywhere in Doc_02 (Doc_04 §6, item 4).
 
 ### What Forces Analysis Adds
 
@@ -356,7 +356,7 @@ Connection 2 (State Legal Precarity → Martyrdom) is the single most tightly co
 
 ### Where Forces Analysis Surfaced Gaps
 
-The Strand B side of Force 2B-3 and Force 2B-4 is a genuine, undeveloped gap: no force or gravity analysis in this build has established whether Rome's own communities experienced anything comparable to Strand A's martyrdom-meaning or anti-docetic boundary anxiety, or whether their absence from the record reflects a genuine difference in lived experience or simply an accident of which texts survived (Force 2B-2's own selection-effect finding makes the latter a live possibility, not merely a hedge). This is carried forward as an open item rather than resolved here (see Section 9).
+The Strand B side of Force 2B-3 and Force 2B-4 is a genuine, undeveloped gap: no force or gravity analysis in this build has established whether Rome's own communities experienced anything comparable to Strand A's martyrdom-meaning or anti-docetic boundary anxiety, or whether their absence from the record reflects a genuine difference in lived experience or simply an accident of which texts survived (Force 2B-2's own selection-effect finding makes the latter a live possibility, not merely a hedge). Section 9 records this gap.
 
 ---
 
@@ -420,7 +420,7 @@ The Shaw/Jones debate on whether a discrete Neronian persecution of Christians o
 
 ### Named-Tension Principle
 
-**Status:** CONFIRMED. Every scholarly tension already carried at full strength in Doc_01, Doc_02, and Doc_04 is carried forward unresolved here (see Section 7's own named list) — none is quietly resolved into a single consensus position for this document's own narrative convenience.
+**Status:** CONFIRMED. Every scholarly tension already carried at full strength in Doc_01, Doc_02, and Doc_04 is held open in this document (see Section 7's own named list) — none is quietly resolved into a single consensus position for this document's own narrative convenience.
 
 ### Cross-Cell Connection Principle
 

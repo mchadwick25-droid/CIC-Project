@@ -64,7 +64,7 @@ parents"); S3 opens "And again as he went into the church," with no
 interval given. The tensions field uses first-person phrasing,
 matching the register used across doctrinal_witness records. The
 compiled text opens "An outsider, we think, would have found...",
-matching the fleet's own strict we-voice discipline
+matching the fleet's own we-voice for the tradition's perspective
 (fleet-voice/EXEMPLAR-TRANSCRIPT.md v4, restated in
 desert.voice.craft's own flavor_notes).
 

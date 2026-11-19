@@ -1,0 +1,405 @@
+- seed_type: attribution_inflation
+  world: alx
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: alx.quote.the-grades-here-in-the-church
+  sentence: Our church taught that the ranks of bishops, presbyters and deacons imitate the glory of the angels.
+  record_words: Clement's speculation generalized as Alexandrian church order
+  construction: Clement gives this as his own opinion in Stromateis VI.13; the sentence makes it the teaching of the whole church.
+- seed_type: attribution_inflation
+  world: alx
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: alx.quote.clement-schoolmaster
+  sentence: All of us agreed that philosophy was a guardian to bring the Greek mind to Christ, as the law was for the Hebrews.
+  record_words: a claim that every Alexandrian Christian shared this view, when philosophy's standing was itself argued
+  construction: The record gives this as Clement's suggestion in Stromateis I.5; the sentence says everyone agreed.
+- seed_type: attribution_inflation
+  world: alx
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: alx.quote.no-sun-no-moon-no-sky
+  sentence: Our church taught that days without sun, moon or sky, and a God who plants a garden like a farmer, cannot be read literally.
+  record_words: Origen's reading generalized to all Alexandrian Christians
+  construction: The record gives this as Origen's argument in On First Principles IV.1.16; the sentence makes it the church's teaching.
+- seed_type: attribution_inflation
+  world: alx
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: alx.quote.origen-gospel-firstfruits
+  sentence: Our church ranked the Gospels as the firstfruits of all the Scriptures, and John's Gospel as the firstfruits of the Gospels.
+  record_words: a formal church ranking of the canon rather than one teacher's judgment
+  construction: The record gives this as Origen's judgment in his Commentary on John; the sentence makes it a ranking by the church.
+- seed_type: attribution_inflation
+  world: alx
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: alx.quote.gregory-spark
+  sentence: 'This is how we all came to faith: love was kindled in us like a spark, for the Holy Word and for our teacher.'
+  record_words: one student's experience generalized as how every pupil came to faith
+  construction: The record gives this as one student's account in the Address to Origen; the sentence makes it everyone's path.
+- seed_type: attribution_inflation
+  world: desert
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: desert.quote.the-deeds-of-christ-prove-him
+  sentence: We always answered the philosophers that the healings, the raisings and the other signs show that Christ's deeds prove him God.
+  record_words: a habit of argued apologetics among desert monks, drawn from one disputation
+  construction: The record gives one disputation of Antony with Greek philosophers; the sentence turns it into the monks' habit.
+- seed_type: attribution_inflation
+  world: desert
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: desert.quote.the-noonday-demon
+  sentence: We all called the demon of acedia the noonday demon, the heaviest to bear, besetting a monk from mid-morning to mid-afternoon.
+  record_words: the language of every desert monk, when it is Evagrius's own description
+  construction: The record gives this as Evagrius's own description in the Praktikos; the sentence makes it every monk's language.
+- seed_type: attribution_inflation
+  world: desert
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: desert.quote.the-kingdom-is-apatheia
+  sentence: We held that the Kingdom of Heaven is apatheia, the soul's freedom from passion, together with true knowledge of the things that exist.
+  record_words: what the desert generally believed, when it is Evagrius's own system
+  construction: The record gives this as Evagrius's own system; the sentence makes it what the desert held.
+- seed_type: attribution_inflation
+  world: desert
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: desert.quote.the-nous-beholds-its-own-radiance
+  sentence: Among us, the proof of apatheia was that the nous sees its own gentle radiance and stays calm before visions in sleep.
+  record_words: Evagrius's method as the whole desert's
+  construction: The record gives this test as Evagrius's in the Praktikos; the sentence makes it the whole community's.
+- seed_type: attribution_inflation
+  world: desert
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: desert.quote.the-eight-generic-thoughts
+  sentence: Our elders all taught that there are eight kinds of tempting thought, from gluttony to pride, and that their lingering is up to us.
+  record_words: what ordinary desert monks taught, when Evagrius is this world's least typical author
+  construction: The record gives the eight thoughts as Evagrius's teaching and warns he is the least typical author; the sentence makes it all the elders' teaching.
+- seed_type: attribution_inflation
+  world: desert
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: desert.quote.antony-nicene-formula
+  sentence: We monks all taught that the Son of God was not created, but was the eternal Word who always existed together with the Father.
+  record_words: a sign that desert monks generally held articulated Trinitarian theology
+  construction: The record gives this as Antony's teaching in Alexandria, as Athanasius reports it; the sentence makes it all the monks' teaching.
+- seed_type: attribution_inflation
+  world: don
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: don.quote.emeritus-magno-argumento
+  sentence: 'We always protested that truth is hidden by a great device: the other side puts forward a small part and keeps the rest silent.'
+  record_words: At the 411 Carthage conference, Emeritus protested
+  construction: The record gives one protest by Emeritus at the 411 conference; the sentence turns it into the communion's habit.
+- seed_type: attribution_inflation
+  world: don
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: don.quote.donatus-quid-est-imperatori
+  sentence: Whenever the emperor's men came among us, we always asked what business the emperor had with the church.
+  record_words: Donatus, as reported by his opponent Optatus, denied the emperor any business in the church when imperial almoners came to Carthage.
+  construction: The record gives one saying of Donatus on one occasion at Carthage; the sentence turns it into a standing habit of the whole communion.
+- seed_type: attribution_inflation
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: gallic.quote.not-an-author-but-a-keeper
+  sentence: All our teachers taught as keepers, not authors, holding what was entrusted to them rather than what they thought up themselves.
+  record_words: a description of how every Gallic teacher actually taught rather than Vincent's
+  construction: The record gives this as Vincent's counsel in the Commonitory; the sentence makes it how every teacher taught.
+- seed_type: attribution_inflation
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: gallic.quote.paphnutius-asks-for-a-plan-of-repentance
+  sentence: When we were falsely accused, we always asked for a course of penance rather than defend ourselves and be thought liars.
+  record_words: a rule that the falsely accused should always accept guilt, rather than one monk's choice
+  construction: The record gives one monk's choice, Paphnutius's, as Piamun tells it; the sentence makes it everyone's habit.
+- seed_type: attribution_inflation
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: gallic.quote.sulpitius-weariness-of-the-present-world
+  sentence: Alone in our cells, we all felt hope of the future, weariness of the present world and fear of judgment, rooted in remembering our sins.
+  record_words: a mood shared by every Gallic ascetic
+  construction: The record gives one man's described state of mind in Sulpitius's Letter II; the sentence makes it every ascetic's.
+- seed_type: attribution_inflation
+  world: gallic
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: gallic.quote.martin-refuses-the-donative
+  sentence: We all held that a soldier of Christ is not permitted to fight, and must not take the emperor's payment.
+  record_words: a rule binding every Christian soldier of the time
+  construction: The record gives Martin's own reply to Julian on one occasion; the sentence makes it the position of all.
+- seed_type: attribution_inflation
+  world: hal
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: hal.quote.always-at-his-books
+  sentence: In our house at Bethlehem we were always reading or writing, giving our whole hearts to our books, day and night.
+  record_words: a claim that the whole community, not Jerome alone, spent every hour at books
+  construction: The record describes Jerome alone at his books; the sentence makes it the whole community.
+- seed_type: attribution_inflation
+  world: hal
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: hal.quote.i-gather-the-rose-from-the-thorns
+  sentence: We all praised marriage only because it gives us virgins, as one gathers the rose from the thorns.
+  record_words: a claim that all Christians of this world, or even Jerome's own friends, accepted this ranking
+  construction: The record gives this as Jerome's own ranking in one letter; the sentence says everyone held it.
+- seed_type: attribution_inflation
+  world: hal
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: hal.quote.helmeted-preface
+  sentence: Our church held that whatever book is not found in the Hebrew list must be placed among the Apocryphal writings.
+  record_words: a claim that the church of his day, or the later Latin church, accepted Jerome's canon
+  construction: The record gives this as Jerome's rule in his own preface; the sentence makes it the church's position.
+- seed_type: attribution_inflation
+  world: hal
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: hal.quote.paula-hebrew-psalms
+  sentence: The women of our community learned Hebrew well enough to chant the psalms in it and speak it without a Latin accent.
+  record_words: a claim that all the women of the community learned Hebrew
+  construction: The record says this of Paula alone; the sentence widens it to all the women.
+- seed_type: attribution_inflation
+  world: hal
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: hal.quote.ever-let-the-bridegroom-sport-with-you
+  sentence: In our prayer and reading, each of us spoke with Christ the Bridegroom, in the images of the Song of Songs.
+  record_words: a description of every member's prayer life rather than Jerome's counsel to one consecrated virgin
+  construction: The record gives Jerome's counsel to one virgin, Eustochium; the sentence makes it every member's prayer life.
+- seed_type: attribution_inflation
+  world: hal
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: hal.quote.buried-beneath-the-church
+  sentence: We always chanted the psalms one after another, now in Greek, now in Latin, now in Syriac.
+  record_words: a claim that the community's ordinary daily worship was trilingual
+  construction: The record gives trilingual chanting during one week, at Paula's burial; the sentence turns it into a habit.
+- seed_type: attribution_inflation
+  world: ijc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: ijc.quote.no-power-but-of-god
+  sentence: Our church taught that all rule is God's appointment, binding priests and monks too, though not every ruler is chosen by God.
+  record_words: a claim that this is what the church as a whole taught rather than one preacher's reading
+  construction: The record gives this as one preacher's reading, Chrysostom's on Romans 13; the sentence makes it the church's teaching.
+- seed_type: attribution_inflation
+  world: ijc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: ijc.quote.ambrose-emperor-in-church
+  sentence: We always held that the emperor is a son of the Church, within the Church and not above it.
+  record_words: a claim that the formula states settled, uncontested practice rather than Ambrose's position preached under threat in a live standoff
+  construction: The record gives this as Ambrose's position, preached in the 386 standoff; the sentence makes it a standing belief of all.
+- seed_type: attribution_inflation
+  world: ijc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: ijc.quote.the-rewards-of-virginity-the-merits-of-widowhood
+  sentence: Our church taught that marriage is good and most people take it, but it reaches the camp of the saints by a longer route.
+  record_words: a claim that the ranking is neutral rather than the argument of a bishop persuading the church at Vercellae
+  construction: The record gives this as Ambrose's argument in one letter to Vercellae; the sentence makes it the church's teaching.
+- seed_type: attribution_inflation
+  world: ijc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: ijc.quote.ambrose-cannot-surrender
+  sentence: Whenever the emperor demanded a church, we always said that we could not give up the basilica, but must not fight.
+  record_words: During the 386 basilica crisis Ambrose tells his sister that he will not hand over the church building
+  construction: The record gives Ambrose's words on one occasion, the 386 crisis; the sentence turns them into a habit of the whole church.
+- seed_type: attribution_inflation
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings:
+  - kind: record
+    id: lpc.quote.bishop-of-bishops
+  sentence: We always said that none of us sets himself up as a bishop over bishops, and every bishop has his own right to judge.
+  record_words: At the council of 256, Cyprian says
+  construction: The record gives this as Cyprian's words at one council, in 256; the sentence turns it into a habit.
+- seed_type: attribution_inflation
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings:
+  - kind: record
+    id: lpc.quote.a-respite-from-their-torments
+  sentence: Our church taught that God's mercy may ease the torments of the damned, though it never ends their eternal punishment.
+  record_words: Augustine lets doubters suppose some relief for the damned
+  construction: The record gives this as Augustine's concession in one passage; the sentence makes it the church's teaching.
+- seed_type: attribution_inflation
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings:
+  - kind: record
+    id: lpc.quote.thank-offerings-for-the-very-good
+  sentence: We all taught that offerings for the baptized dead give thanks for the very good and seek mercy for the not very bad.
+  record_words: Augustine says gifts for the baptized dead give thanks for the very good
+  construction: The record gives this as Augustine's teaching; the sentence makes it everyone's.
+- seed_type: attribution_inflation
+  world: lpc
+  records_commit: fcd5768412b60ae64e58c639a5624979679bce6f
+  bindings:
+  - kind: record
+    id: lpc.quote.the-paper-itself
+  sentence: We always checked letters from Rome by the handwriting, the content and even the paper itself.
+  record_words: Cyprian checks a letter from the Roman clergy by its hand, its content and its paper, then sends it back.
+  construction: The record gives Cyprian checking one letter; the sentence turns it into a standing habit.
+- seed_type: attribution_inflation
+  world: pahc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: pahc.quote.hermas-doubting
+  sentence: In every household we taught that you must put doubting away and ask the Lord, for he remembers no wrongs.
+  record_words: a claim about how every household in this world handled doubt
+  construction: The record gives this as the Shepherd's word to Hermas in one text; the sentence makes it every household's teaching.
+- seed_type: attribution_inflation
+  world: pahc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: pahc.quote.ignatius-marriage-bishop
+  sentence: We always married with the bishop's approval, so that our marriages were according to God and not driven by lust.
+  record_words: a claim that every household actually sought the bishop's approval before marrying
+  construction: The record gives Ignatius's counsel to Polycarp; the sentence turns it into everyone's habit.
+- seed_type: attribution_inflation
+  world: pahc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: pahc.quote.the-memoirs-of-the-apostles-are-read
+  sentence: In every one of our churches, the memoirs of the apostles or the prophets were read on Sunday, as long as time allowed.
+  record_words: a claim that this practice was a rule observed in every church
+  construction: The record gives Justin's one description; the sentence makes it the rule in every church.
+- seed_type: attribution_inflation
+  world: pahc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: pahc.quote.two-ways-one-of-life-and-one-of-death
+  sentence: Every household among us taught newcomers the two ways, one of life and one of death.
+  record_words: a claim that every household in this world taught newcomers this way
+  construction: The record gives this as the Didache's teaching, one text; the sentence makes it every household's practice.
+- seed_type: attribution_inflation
+  world: pahc
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: pahc.quote.justin-flame-kindled
+  sentence: 'We all came to faith the same way: a flame was kindled in our souls, and we found this philosophy alone safe and useful.'
+  record_words: a claim that Justin's path to belief was typical of members without his education and leisure
+  construction: The record gives Justin's own conversion; the sentence makes it everyone's.
+- seed_type: attribution_inflation
+  world: rzg
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: rzg.quote.mass-not-a-sacrifice
+  sentence: In Zurich and Geneva we held that the mass is no sacrifice, but a remembrance of Christ's one sacrifice and an assurance of salvation.
+  record_words: a claim that this 1523 article is Zurich and Geneva's final, settled word on the Supper
+  construction: The record gives this as one 1523 article of Zwingli's; the sentence makes it the position of both churches.
+- seed_type: attribution_inflation
+  world: rzg
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: rzg.quote.taught-better-from-scripture
+  sentence: All of us declared that where our understanding was wrong, we would let ourselves be taught better, but only from Scripture.
+  record_words: I, Ulrich Zwingli, declare
+  construction: The record gives one man's declaration, Zwingli's; the sentence makes it everyone's.
+- seed_type: attribution_inflation
+  world: syr
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: syr.quote.basil-credits-a-syrian
+  sentence: We Syrians read the Spirit over the waters as cherishing them, the way a bird covers her eggs and warms them into life.
+  record_words: credits an unnamed Syrian with reading
+  construction: The record gives this reading as one unnamed Syrian's, credited by Basil; the sentence makes it all Syrians'.
+- seed_type: attribution_inflation
+  world: syr
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: syr.quote.tatian-barbaric-writings
+  sentence: We came to faith by meeting the old non-Greek writings, with their plain language, their excellent precepts and their one God.
+  record_words: a picture of how ordinary Syriac Christians came to faith
+  construction: The record gives Tatian's own conversion; the sentence makes it how the community came to faith.
+- seed_type: attribution_inflation
+  world: syr
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: syr.quote.ephrem-keeper-of-strangers
+  sentence: In every famine, we offered to keep a house for strangers, if the people trusted us with the means of relief.
+  record_words: reports Edessa's citizens hailing Ephrem during a famine
+  construction: The record gives Ephrem's offer in one famine at Edessa; the sentence turns it into a habit.
+- seed_type: attribution_inflation
+  world: syr
+  records_commit: fdfcf33dad0c7d0097fef62a3269ee8146c9a91a
+  bindings:
+  - kind: record
+    id: syr.quote.as-a-stonecutter-i-have-brought-stones
+  sentence: Our teachers all called themselves stonecutters, bringing stones for the building and leaving wise architects to carve and set them.
+  record_words: calling himself a stonecutter
+  construction: The record gives Aphrahat calling himself a stonecutter in one Demonstration; the sentence makes it all the teachers.
+- seed_type: attribution_inflation
+  world: witt
+  records_commit: 1a716fe86fc084a46b5241dfac5952be65a0c30d
+  bindings:
+  - kind: record
+    id: witt.quote.your-own-judges
+  sentence: Our church taught that peasants who rose up made themselves their own judges, against Christian law and natural law alike.
+  record_words: Luther, An Admonition to Peace (1525), the part addressed to the peasants
+  construction: The record gives this as Luther's argument in one tract of 1525; the sentence makes it the church's teaching.
+- seed_type: attribution_inflation
+  world: witt
+  records_commit: 1a716fe86fc084a46b5241dfac5952be65a0c30d
+  bindings:
+  - kind: record
+    id: witt.quote.as-when-one-must-kill-a-mad-dog
+  sentence: We taught that a proven rebel is outlawed, and anyone who can should strike him down, as one must kill a mad dog.
+  record_words: Luther, Against the Robbing and Murdering Hordes of Peasants (1525)
+  construction: The record gives this as Luther's words in one 1525 tract; the sentence makes it the community's teaching.
+- seed_type: attribution_inflation
+  world: witt
+  records_commit: 1a716fe86fc084a46b5241dfac5952be65a0c30d
+  bindings:
+  - kind: record
+    id: witt.quote.neither-court-nor-mercy
+  sentence: All of us agreed that rebellion deserves neither a trial nor mercy, whoever commits it.
+  record_words: Luther, An Open Letter Concerning the Hard Book Against the Peasants (1525)
+  construction: The record gives this as Luther's view in one open letter; the sentence says everyone agreed.

@@ -16,8 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: syr.source.bardaisan-book-of-laws
-  locus: >-
-    The Book of the Laws of Divers Countries, the 'new race of us Christians' passage (anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml)
+  locus: "The Book of the Laws of Divers Countries, the 'new race of us Christians' passage (cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml, lines 68966-68970)"
   license: public-domain
 text: And what shall we say of the new race of us Christians, whom Christ at His advent planted in every
   country and in every region? for, lo! wherever we are, we are all called after the one name of Christ—Christians.

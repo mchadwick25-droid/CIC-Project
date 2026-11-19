@@ -1,0 +1,14 @@
+source_file: cluny_recueil-des-chartes-t1-802-954-lat-fra_bernard-bruel1876.txt
+assignments:
+- row_id: cluny_recueil-des-chartes-t1-802-954-lat-fra_bernard-bruel1876--recueil-des-chartes-de-l-abbaye-de-cluny-vol-i-802-954
+  work: Recueil des chartes de l'abbaye de Cluny, vol. I (802-954)
+  author: cluny
+  locus: the charters from about OCR line 704; Bernon's at about 8332; add 12 to OCR line numbers for
+    this file's own
+  atlas_ids:
+  - cluniac-reform-monasticism
+  role: tradition
+  confidence: provisional
+  note: Cluny's own charters from its foundation in 910, the abbey's legal voice under its first abbots.
+    Within this entry's window (909-1109). The charters before 910 are of the estates that came to Cluny.
+    It also answers the Benedictine gap after 604 (Open-Gaps 158).

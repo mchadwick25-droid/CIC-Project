@@ -1,0 +1,223 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.decides"
+   ],
+   "sentence": "No standing court settled disputed belief among us; the right to decide was still being worked out."
+  },
+  {
+   "record_ids": [
+    "syr.dw.decides"
+   ],
+   "sentence": "We had bishops, and Nisibis remembered its line of them with love."
+  },
+  {
+   "record_ids": [
+    "syr.dw.decides"
+   ],
+   "sentence": "We had synods: our sage himself drafted a letter in the name of assembled bishops and clergy."
+  },
+  {
+   "record_ids": [
+    "syr.dw.decides"
+   ],
+   "sentence": "And we had teachers whose word carried because their teaching held."
+  },
+  {
+   "record_ids": [
+    "syr.dw.decides"
+   ],
+   "sentence": "In practice we met disputed belief with teaching, with answers in writing, and with our own boundary."
+  },
+  {
+   "record_ids": [
+    "syr.term.madrasha"
+   ],
+   "sentence": "Among us, doctrine was taught by singing it."
+  },
+  {
+   "record_ids": [
+    "syr.dw.decides"
+   ],
+   "sentence": "The Persian bishops fought over their own chief's claim to first place."
+  },
+  {
+   "record_ids": [
+    "syr.dw.decides"
+   ],
+   "sentence": "The persecution left the chief seat empty for twenty years."
+  },
+  {
+   "record_ids": [
+    "syr.dw.decides"
+   ],
+   "sentence": "Only at the very end of our years did a synod under royal protection give the Persian church a settled order."
+  },
+  {
+   "record_ids": [
+    "syr.dw.decides"
+   ],
+   "sentence": "What tells us this is teaching and letters, not a court record."
+  },
+  {
+   "record_ids": [
+    "syr.dw.remains"
+   ],
+   "sentence": "Our letters date themselves to the year, and our hymns were copied by later hands into books that still exist."
+  }
+ ],
+ "citations": [
+  "syr.dw.decides",
+  "syr.dw.remains",
+  "syr.term.madrasha"
+ ],
+ "group": "A",
+ "id": "q005",
+ "net_sentences": [
+  {
+   "draft": "No standing court settled disputed belief among us; the right to decide was still being worked out [[syr.dw.decides]] [[as:paraphrase]].",
+   "sentence": "No standing court settled disputed belief among us; the right to decide was still being worked out.",
+   "tags": [
+    "syr.dw.decides"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We had bishops, and Nisibis remembered its line of them with love [[syr.dw.decides]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "We had bishops, and Nisibis remembered its line of them with love.",
+   "tags": [
+    "syr.dw.decides"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We had synods: our sage himself drafted a letter in the name of assembled bishops and clergy [[syr.dw.decides]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "We had synods: our sage himself drafted a letter in the name of assembled bishops and clergy.",
+   "tags": [
+    "syr.dw.decides"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "And we had teachers whose word carried because their teaching held [[syr.dw.decides]] [[as:paraphrase]].",
+   "sentence": "And we had teachers whose word carried because their teaching held.",
+   "tags": [
+    "syr.dw.decides"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "In practice we met disputed belief with teaching, with answers in writing, and with our own boundary [[syr.dw.decides]] [[as:paraphrase]].",
+   "sentence": "In practice we met disputed belief with teaching, with answers in writing, and with our own boundary.",
+   "tags": [
+    "syr.dw.decides"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Among us, doctrine was taught by singing it [[syr.term.madrasha]] [[as:paraphrase]].",
+   "sentence": "Among us, doctrine was taught by singing it.",
+   "tags": [
+    "syr.term.madrasha"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The Persian bishops fought over their own chief's claim to first place [[syr.dw.decides]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The Persian bishops fought over their own chief's claim to first place.",
+   "tags": [
+    "syr.dw.decides"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The persecution left the chief seat empty for twenty years [[syr.dw.decides]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The persecution left the chief seat empty for twenty years.",
+   "tags": [
+    "syr.dw.decides"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Only at the very end of our years did a synod under royal protection give the Persian church a settled order [[syr.dw.decides]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Only at the very end of our years did a synod under royal protection give the Persian church a settled order.",
+   "tags": [
+    "syr.dw.decides"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "What tells us this is teaching and letters, not a court record [[syr.dw.decides]] [[as:paraphrase]].",
+   "sentence": "What tells us this is teaching and letters, not a court record.",
+   "tags": [
+    "syr.dw.decides"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our letters date themselves to the year, and our hymns were copied by later hands into books that still exist [[syr.dw.remains]] [[as:paraphrase]].",
+   "sentence": "Our letters date themselves to the year, and our hymns were copied by later hands into books that still exist.",
+   "tags": [
+    "syr.dw.remains"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "syr.dw.decides",
+  "syr.term.madrasha",
+  "syr.term.ewangeliyon-da-mhallete",
+  "syr.story.jacob-nicaea",
+  "syr.quote.permitted-to-erect-churches",
+  "syr.gravity.persecution-endurance",
+  "syr.contested.bardaisan-nicene-floor",
+  "syr.dw.gospel-harmony",
+  "syr.quote.ephrem-resurrection-pledge",
+  "syr.dw.reading",
+  "syr.story.edessa-flood-201",
+  "syr.quote.on-a-certain-day-a-pearl",
+  "syr.dw.remains",
+  "syr.quote.the-scribes-and-the-prefects-over-the-archives",
+  "syr.quote.the-temple-of-the-church-of-the-christians"
+ ],
+ "raw_text": "No standing court settled disputed belief among us; the right to decide was still being worked out [[syr.dw.decides]] [[as:paraphrase]]. We had bishops, and Nisibis remembered its line of them with love [[syr.dw.decides]] [[as:paraphrase]]. Our tradition remembers that one of them sat at the great council of Nicaea [[syr.dw.decides]] [[syr.story.jacob-nicaea]] [[as:paraphrase]]. We had synods: our sage himself drafted a letter in the name of assembled bishops and clergy [[syr.dw.decides]] [[as:paraphrase]]. And we had teachers whose word carried because their teaching held [[syr.dw.decides]] [[as:paraphrase]].\n\nIn practice we met disputed belief with teaching, with answers in writing, and with our own boundary [[syr.dw.decides]] [[as:paraphrase]]. Among us, doctrine was taught by singing it [[syr.term.madrasha]] [[as:paraphrase]]. The Persian bishops fought over their own chief's claim to first place [[syr.dw.decides]] [[as:paraphrase]]. The persecution left the chief seat empty for twenty years [[syr.dw.decides]] [[as:paraphrase]]. Only at the very end of our years did a synod under royal protection give the Persian church a settled order [[syr.dw.decides]] [[as:paraphrase]].\n\nWhat tells us this is teaching and letters, not a court record [[syr.dw.decides]] [[as:paraphrase]]. Our letters date themselves to the year, and our hymns were copied by later hands into books that still exist [[syr.dw.remains]] [[as:paraphrase]]. For Nicaea, no account of what our bishop said or did survives, and the signature lists are late reconstructions [[syr.story.jacob-nicaea]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [
+   {
+    "draft": "Our tradition remembers that one of them sat at the great council of Nicaea [[syr.dw.decides]] [[syr.story.jacob-nicaea]] [[as:paraphrase]].",
+    "sentence": "Our tradition remembers that one of them sat at the great council of Nicaea.",
+    "why": "tells an offered story without placing it"
+   },
+   {
+    "draft": "For Nicaea, no account of what our bishop said or did survives, and the signature lists are late reconstructions [[syr.story.jacob-nicaea]] [[as:paraphrase]].",
+    "sentence": "For Nicaea, no account of what our bishop said or did survives, and the signature lists are late reconstructions.",
+    "why": "tells an offered story without placing it"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S3",
+ "text": "No standing court settled disputed belief among us; the right to decide was still being worked out. We had bishops, and Nisibis remembered its line of them with love. We had synods: our sage himself drafted a letter in the name of assembled bishops and clergy. And we had teachers whose word carried because their teaching held.\n\nIn practice we met disputed belief with teaching, with answers in writing, and with our own boundary. Among us, doctrine was taught by singing it. The Persian bishops fought over their own chief's claim to first place. The persecution left the chief seat empty for twenty years. Only at the very end of our years did a synod under royal protection give the Persian church a settled order.\n\nWhat tells us this is teaching and letters, not a court record. Our letters date themselves to the year, and our hymns were copied by later hands into books that still exist.",
+ "voice_set_aside": false
+}

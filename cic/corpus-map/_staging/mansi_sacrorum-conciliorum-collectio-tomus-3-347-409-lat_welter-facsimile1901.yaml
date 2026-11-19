@@ -26,6 +26,8 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
+    language: lat
+    date: {start: 345, end: 348, source: "lauchert_kanones-altkirchlichen-concilien header contents list: Carthago I (c. 345-348); the Bruns header gives Carthage I-IV as 348-398", formation_confidence: Dominant Modern Reconstruction}
     note: >
       African council recorded in Mansi 3. Registry row 228.
   - row_id: mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901--codex-canonum-ecclesiae-africanae-in-mansi-tom-3
@@ -36,6 +38,8 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
+    language: lat
+    date: {start: 419, end: 419, source: "npnf214_seven-ecumenical-councils.xml div2 15.4 heading and text: the council of 25 May 419", formation_confidence: Documented}
     note: >
       Second Latin witness to the Code of Canons of the African Church already in the map from
       Bruns (Registry rows 26 and 202). Registry row 228.
@@ -47,6 +51,8 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
+    language: lat
+    date: {formation_confidence: unknown, checked: "mansi tomus 3 and 4 headers name the council by heading and file line but give no year; P1 and the Bruns/Lauchert headers do not match it to a dated council"}
     note: >
       African council recorded in Mansi 3. Registry row 228.
   - row_id: mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901--aurelius-s-carthage-synod-in-mansi-tom-3
@@ -57,6 +63,8 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: provisional
+    language: lat
+    date: {formation_confidence: unknown, checked: "mansi tomus 3 and 4 headers name the council by heading and file line but give no year; P1 and the Bruns/Lauchert headers do not match it to a dated council"}
     note: >
       African council recorded in Mansi 3. Registry row 228.
 

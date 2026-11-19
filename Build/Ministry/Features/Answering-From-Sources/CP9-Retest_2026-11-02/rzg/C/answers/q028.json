@@ -1,0 +1,178 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.term.predestination-election",
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "sentence": "We held that God's own free choice, made before the world began, decides who is saved."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "sentence": "Nothing foreseen or earned in the one chosen decides it."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "sentence": "We hold this as the ground of a settled life, not as a threat."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "sentence": "Whoever is joined to Christ by true faith already has, in that faith itself, the only evidence of election anyone is given."
+  },
+  {
+   "record_ids": [
+    "rzg.term.predestination-election"
+   ],
+   "sentence": "Both Zurich and Geneva held this, Geneva as a full system and Zurich more briefly, as pastoral comfort."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "sentence": "Its fullest, systematized form rests mostly on Calvin and Beza, and we do not smooth that into both cities teaching it equally."
+  },
+  {
+   "record_ids": [
+    "rzg.term.providence"
+   ],
+   "sentence": "We held God's care over everything he made to be continuous and active, not that of a distant first cause."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "sentence": "We counted the positions we refused as wrong, not merely different: Rome's repeated sacrifice and its images, Wittenberg's body in the bread, and a church gathered only by a believer's own chosen profession."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "sentence": "Each time we put one test to the reading, whether it holds against Scripture."
+  }
+ ],
+ "citations": [
+  "rzg.gravity.sovereignty-of-god-predestination-election",
+  "rzg.term.predestination-election",
+  "rzg.term.providence",
+  "rzg.witness.a-narrow-true-church"
+ ],
+ "group": "A",
+ "id": "q028",
+ "net_sentences": [
+  {
+   "draft": "We held that God's own free choice, made before the world began, decides who is saved [[rzg.term.predestination-election]] [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]].",
+   "sentence": "We held that God's own free choice, made before the world began, decides who is saved.",
+   "tags": [
+    "rzg.term.predestination-election",
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Nothing foreseen or earned in the one chosen decides it [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]].",
+   "sentence": "Nothing foreseen or earned in the one chosen decides it.",
+   "tags": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We hold this as the ground of a settled life, not as a threat [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]].",
+   "sentence": "We hold this as the ground of a settled life, not as a threat.",
+   "tags": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Whoever is joined to Christ by true faith already has, in that faith itself, the only evidence of election anyone is given [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]].",
+   "sentence": "Whoever is joined to Christ by true faith already has, in that faith itself, the only evidence of election anyone is given.",
+   "tags": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Both Zurich and Geneva held this, Geneva as a full system and Zurich more briefly, as pastoral comfort [[rzg.term.predestination-election]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Both Zurich and Geneva held this, Geneva as a full system and Zurich more briefly, as pastoral comfort.",
+   "tags": [
+    "rzg.term.predestination-election"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Its fullest, systematized form rests mostly on Calvin and Beza, and we do not smooth that into both cities teaching it equally [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]].",
+   "ratio": 0.67,
+   "sentence": "Its fullest, systematized form rests mostly on Calvin and Beza, and we do not smooth that into both cities teaching it equally.",
+   "tags": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "verdict": "ok",
+   "why": "grounded 67% in own tagged records"
+  },
+  {
+   "draft": "We held God's care over everything he made to be continuous and active, not that of a distant first cause [[rzg.term.providence]] [[as:paraphrase]].",
+   "sentence": "We held God's care over everything he made to be continuous and active, not that of a distant first cause.",
+   "tags": [
+    "rzg.term.providence"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We counted the positions we refused as wrong, not merely different: Rome's repeated sacrifice and its images, Wittenberg's body in the bread, and a church gathered only by a believer's own chosen profession [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]].",
+   "ratio": 0.94,
+   "sentence": "We counted the positions we refused as wrong, not merely different: Rome's repeated sacrifice and its images, Wittenberg's body in the bread, and a church gathered only by a believer's own chosen profession.",
+   "tags": [
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "verdict": "ok",
+   "why": "grounded 94% in own tagged records"
+  },
+  {
+   "draft": "Each time we put one test to the reading, whether it holds against Scripture [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]].",
+   "sentence": "Each time we put one test to the reading, whether it holds against Scripture.",
+   "tags": [
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "rzg.witness.one-supper-two-poles",
+  "rzg.term.sign-and-the-thing-signified",
+  "rzg.term.the-lords-supper-spiritual-presence",
+  "rzg.story.calvins-journey-to-zurich",
+  "rzg.quote.signs-and-things-signified",
+  "rzg.quote.mass-not-a-sacrifice",
+  "rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus",
+  "rzg.contested.zwinglis-remembrance-vs-negotiated-consensus",
+  "rzg.gravity.spiritual-presence-rejection-of-corporeal-sacrificial-mediation",
+  "rzg.passage.e7b555032919"
+ ],
+ "raw_text": "We held that God's own free choice, made before the world began, decides who is saved [[rzg.term.predestination-election]] [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]]. Nothing foreseen or earned in the one chosen decides it [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]]. We hold this as the ground of a settled life, not as a threat [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]]. Whoever is joined to Christ by true faith already has, in that faith itself, the only evidence of election anyone is given [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]]. Both Zurich and Geneva held this, Geneva as a full system and Zurich more briefly, as pastoral comfort [[rzg.term.predestination-election]] [[as:paraphrase]]. Its fullest, systematized form rests mostly on Calvin and Beza, and we do not smooth that into both cities teaching it equally [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]]. We held God's care over everything he made to be continuous and active, not that of a distant first cause [[rzg.term.providence]] [[as:paraphrase]]. We counted the positions we refused as wrong, not merely different: Rome's repeated sacrifice and its images, Wittenberg's body in the bread, and a church gathered only by a believer's own chosen profession [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]]. Each time we put one test to the reading, whether it holds against Scripture [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C3.S7",
+ "text": "We held that God's own free choice, made before the world began, decides who is saved. Nothing foreseen or earned in the one chosen decides it. We hold this as the ground of a settled life, not as a threat. Whoever is joined to Christ by true faith already has, in that faith itself, the only evidence of election anyone is given. Both Zurich and Geneva held this, Geneva as a full system and Zurich more briefly, as pastoral comfort. Its fullest, systematized form rests mostly on Calvin and Beza, and we do not smooth that into both cities teaching it equally. We held God's care over everything he made to be continuous and active, not that of a distant first cause. We counted the positions we refused as wrong, not merely different: Rome's repeated sacrifice and its images, Wittenberg's body in the bread, and a church gathered only by a believer's own chosen profession. Each time we put one test to the reading, whether it holds against Scripture.",
+ "voice_set_aside": false
+}

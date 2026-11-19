@@ -1,0 +1,238 @@
+{
+ "draft": "In our reading, scripture is God's main lesson, and the whole creation is his school [[alx.dw.god]] [[as:paraphrase]]. The slow healing of a soul is God's patient method [[alx.dw.god]] [[as:paraphrase]]. God's whole plan for saving creation unfolds through graduated teaching, centered on the Incarnation [[alx.term.oikonomia]] [[as:paraphrase]].\n\nIn the school tradition, learning was itself formation: study, inquiry, and the bond of teacher and student were the very path of the soul's change, not a preparation for it [[alx.gravity.learning-formation]] [[as:paraphrase]]. Learning as formation was strongest in the early and middle years, and it weakened late [[alx.gravity.learning-formation]] [[as:paraphrase]].\n\nClement, opening the Stromateis, praised his final teacher, whom he does not name there: [[quote:alx.quote.clement-bee]]\n\nSuffering too was read as part of the lesson, for it is the school's hardest classroom [[alx.dw.suffering]] [[as:paraphrase]]. The depth of the school's reading was given to the few, while breadth was owed to the whole worshipping community [[alx.gravity.learning-community-tension]] [[as:paraphrase]]. The school side of our record is well attested, and the community side is thinly attested [[alx.gravity.learning-community-tension]] [[as:paraphrase]].\n",
+ "ending": "rewritten",
+ "final": "In our reading, scripture is God's main lesson, and the whole creation is God's school. The slow healing of a soul is God's patient method. God's whole plan for saving creation unfolds through graduated teaching, centered on the Incarnation. In the school tradition, learning was itself formation: study, inquiry, and the bond of teacher and student were the very path of the soul's change, not a preparation for the soul's change. Learning as formation was strongest in the early and middle years, and weakened late. Suffering too was read as part of the lesson, for suffering is the school's hardest classroom. The school side of our record is well attested, and the community side is thinly attested.",
+ "group": "A",
+ "offered": [
+  "alx.dw.god",
+  "alx.term.oikonomia",
+  "alx.quote.clement-schoolmaster",
+  "alx.dw.suffering",
+  "alx.quote.clement-possessions",
+  "alx.term.ekklesia",
+  "alx.term.episkopos",
+  "alx.story.leonides-martyrdom",
+  "alx.quote.clement-bee",
+  "alx.gravity.learning-formation",
+  "alx.force.origen-demetrius-conflict",
+  "alx.force.post-nicene-authority-shift",
+  "alx.gravity.learning-community-tension"
+ ],
+ "placements": [
+  {
+   "decision": "drop",
+   "judgement": {
+    "fit": "partly",
+    "limit_stated": false,
+    "reason": "It praises a teacher who drew on prophetic and apostolic teaching but does not state the approach or purpose of reading."
+   },
+   "record_id": "alx.quote.clement-bee"
+  }
+ ],
+ "question": "Describe your community's approach and purpose in reading sacred texts.",
+ "question_id": "q010",
+ "read": {
+  "dropped": [
+   "alx.quote.clement-bee"
+  ],
+  "status": "rewrite",
+  "unsupported": {
+   "7": {
+    "problem": "added_detail",
+    "reason": "Record speaks of depth-formation given to the few, not the depth of the school's reading.",
+    "supported": false
+   }
+  }
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.dw.god"
+   ],
+   "sentence": "In our reading, scripture is God's main lesson, and the whole creation is God's school.",
+   "tags": [
+    "alx.dw.god"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.dw.god"
+   ],
+   "sentence": "The slow healing of a soul is God's patient method.",
+   "tags": [
+    "alx.dw.god"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.term.oikonomia"
+   ],
+   "sentence": "God's whole plan for saving creation unfolds through graduated teaching, centered on the Incarnation.",
+   "tags": [
+    "alx.term.oikonomia"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.gravity.learning-formation"
+   ],
+   "sentence": "In the school tradition, learning was itself formation: study, inquiry, and the bond of teacher and student were the very path of the soul's change, not a preparation for the soul's change.",
+   "tags": [
+    "alx.gravity.learning-formation"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.gravity.learning-formation"
+   ],
+   "sentence": "Learning as formation was strongest in the early and middle years, and weakened late.",
+   "tags": [
+    "alx.gravity.learning-formation"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.dw.suffering"
+   ],
+   "sentence": "Suffering too was read as part of the lesson, for suffering is the school's hardest classroom.",
+   "tags": [
+    "alx.dw.suffering"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.gravity.learning-community-tension"
+   ],
+   "sentence": "The school side of our record is well attested, and the community side is thinly attested.",
+   "tags": [
+    "alx.gravity.learning-community-tension"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "In our reading, scripture is God's main lesson, and the whole creation is his school.",
+   "tags": [
+    "alx.dw.god"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The slow healing of a soul is God's patient method.",
+   "tags": [
+    "alx.dw.god"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "God's whole plan for saving creation unfolds through graduated teaching, centered on the Incarnation.",
+   "tags": [
+    "alx.term.oikonomia"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "In the school tradition, learning was itself formation: study, inquiry, and the bond of teacher and student were the very path of the soul's change, not a preparation for it.",
+   "tags": [
+    "alx.gravity.learning-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Learning as formation was strongest in the early and middle years, and it weakened late.",
+   "tags": [
+    "alx.gravity.learning-formation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 5,
+   "placed": true,
+   "placed_id": "alx.quote.clement-bee",
+   "reason": "placed by code",
+   "sentence": "Clement, opening the Stromateis, praised his final teacher, whom he does not name there: “He was the true Sicilian bee. He gathered the spoil of the flowers in the prophetic and apostolic meadow. And he produced in the souls of his listeners a deathless element of knowledge.”",
+   "tags": [
+    "alx.quote.clement-bee"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Suffering too was read as part of the lesson, for it is the school's hardest classroom.",
+   "tags": [
+    "alx.dw.suffering"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The depth of the school's reading was given to the few, while breadth was owed to the whole worshipping community.",
+   "tags": [
+    "alx.gravity.learning-community-tension"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 8,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The school side of our record is well attested, and the community side is thinly attested.",
+   "tags": [
+    "alx.gravity.learning-community-tension"
+   ]
+  }
+ ],
+ "shipped_by_net": "In our reading, scripture is God's main lesson, and the whole creation is his school. The slow healing of a soul is God's patient method. God's whole plan for saving creation unfolds through graduated teaching, centered on the Incarnation.\n\nIn the school tradition, learning was itself formation: study, inquiry, and the bond of teacher and student were the very path of the soul's change, not a preparation for it. Learning as formation was strongest in the early and middle years, and it weakened late.\n\nClement, opening the Stromateis, praised his final teacher, whom he does not name there: “He was the true Sicilian bee. He gathered the spoil of the flowers in the prophetic and apostolic meadow. And he produced in the souls of his listeners a deathless element of knowledge.”\n\nSuffering too was read as part of the lesson, for it is the school's hardest classroom. The depth of the school's reading was given to the few, while breadth was owed to the whole worshipping community. The school side of our record is well attested, and the community side is thinly attested.",
+ "sub_question": "C5.S2"
+}

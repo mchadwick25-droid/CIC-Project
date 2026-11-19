@@ -1,0 +1,867 @@
+{
+ "pass": "P2-G89 Asia and the Pacific",
+ "date": "2026-11-10",
+ "verification_key": {
+  "V": "opened in this run, detail confirmed",
+  "V-s": "study's bibliographic details only",
+  "[S]": "snippet/summary/unopened",
+  "wanted": "searched, not found"
+ },
+ "breaks": {
+  "St Thomas Christians 1665-1815": "G89-AP1, enter",
+  "Catholic missions in China 1650-1793 and the Rites": "G89-AP2: China-church row, Jesuit court mission and Rites as named lines; not VI.11 continued, not an MEP row; Jesuit worldwide row is AP-X1 for the merge",
+  "Japan's hidden Christians 1650-1865": "G89-AP3, enter"
+ },
+ "candidates": [
+  {
+   "rank": 1,
+   "id": "G89-AP2",
+   "name": "Chinese Catholicism, 1650-1906: the court mission, the Rites controversy and the hidden provinces",
+   "kind": "church body",
+   "era": "8-9",
+   "dates": "1650-1906",
+   "regions": [
+    "Greater Asia"
+   ],
+   "countries": [
+    "China"
+   ],
+   "lane": "Latin West & Catholicism",
+   "logged_break": "Catholic missions in China 1650-1793 and the Chinese Rites controversy",
+   "sectionA": "clears (Catholic, Nicene)",
+   "B": {
+    "B1": "good for era 8; era 9 thin",
+    "B2": "strong",
+    "B3": "high",
+    "B4": "broad",
+    "B5": "large [S]"
+   },
+   "tier": "Tier 1",
+   "evidence": [
+    {
+     "item": "Collectanea S.C. de Propaganda Fide vol. I (1907), 1656 Holy Office reply, 1659 Instruction, 4 Oct 1726 reply, Ex quo 1742 note",
+     "where": "cic/texts/propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907.txt lines 7131-7490, 8120-8200, 18645-18763",
+     "state": "V"
+    },
+    {
+     "item": "De Mailla, Peking 16 Oct 1724, 'Proscription de la religion chretienne', Lettres edifiantes ed. Aime-Martin vol. 3 (1838)",
+     "where": "archive.org lettresdifiantes03jesu lines 41805-42690",
+     "state": "V"
+    },
+    {
+     "item": "Toleration edict passage, same volume (year OCR '1602', context 1692)",
+     "where": "line ~8717",
+     "state": "V passage / [S] year"
+    },
+    {
+     "item": "Bays, A New History of Christianity in China (2012)",
+     "where": "archive.org newhistoryofchri0000bays",
+     "state": "V-s"
+    },
+    {
+     "item": "Minamiki, The Chinese Rites Controversy (1985)",
+     "where": "archive.org chineseritescont0000mina",
+     "state": "V-s"
+    },
+    {
+     "item": "Mungello, The Forgotten Christians of Hangzhou (1994)",
+     "where": "archive.org forgottenchristi0000demu",
+     "state": "V-s"
+    },
+    {
+     "item": "Huang Bolu, Zhengjiao fengbao (1883); Chinese texts of the 1692 edict and 1723 memorial",
+     "state": "wanted"
+    },
+    {
+     "item": "1840s toleration, 1870 Tianjin, 1900 Boxer killings",
+     "state": "[S]"
+    }
+   ],
+   "living": "lives on in IX.65; n/a for this row",
+   "overlap": [
+    "VI.11",
+    "VI.13c",
+    "VII.19",
+    "VIII.7",
+    "VIII.21",
+    "IX.65"
+   ],
+   "recommendation": "enter: China-church row; Jesuit court mission and Rites as named lines; era 9 half after one verified era 9 source",
+   "gate": {
+    "q": "Where does China's Catholic story of 1650-1906 go?",
+    "options": {
+     "a": "China-church row 1650-1906 (or two segments), Jesuits and Rites as lines",
+     "b": "era 8 continuation of VI.11 plus a smaller China row from 1724",
+     "c": "named line in VII.19"
+    },
+    "recommended": "a"
+   }
+  },
+  {
+   "rank": 2,
+   "id": "G89-AP1",
+   "name": "The St Thomas Christians, 1665-1815: two obediences",
+   "kind": "church body",
+   "era": "8",
+   "dates": "1665-1815",
+   "regions": [
+    "Greater Asia"
+   ],
+   "countries": [
+    "India"
+   ],
+   "lane": "Syriac East & Asia",
+   "logged_break": "St Thomas Christians 1665-1815",
+   "sectionA": "clears on dated texts of both parties (App. D: Mar Evanius 1678, one nature, Holy Ghost equal)",
+   "B": {
+    "B1": "strong",
+    "B2": "strong",
+    "B3": "high",
+    "B4": "broad",
+    "B5": "mid"
+   },
+   "tier": "Tier 1",
+   "evidence": [
+    {
+     "item": "Whitehouse 1873 App. E, Angamaly document 1 Feb 1787",
+     "where": "cic/texts/whitehouse_lingerings-of-light-in-a-dark-land_1873.txt lines 19283-19415",
+     "state": "V"
+    },
+    {
+     "item": "Whitehouse App. D, 'Brief history ... preserved among themselves'",
+     "where": "lines 19012-19280",
+     "state": "V"
+    },
+    {
+     "item": "Whitehouse App. B notes; ch. XII (1665)",
+     "where": "lines 18815-18835; 11815-11865",
+     "state": "V"
+    },
+    {
+     "item": "Buchanan, Christian Researches in Asia (1811), Candenad 23 Nov 1806",
+     "where": "archive.org christianresearc0000clau",
+     "state": "V"
+    },
+    {
+     "item": "Raulin 1745; Sebastiani 1666/1672; Philipos 1869",
+     "where": "cic/texts/",
+     "state": "[S] (present, not read for this window)"
+    },
+    {
+     "item": "Brown 1956; Bayly 1989; Neill 1985",
+     "where": "archive.org",
+     "state": "V-s"
+    },
+    {
+     "item": "Varthamanappusthakam (Malayalam, c. 1790)",
+     "state": "wanted"
+    }
+   ],
+   "living": "through heirs (IX.39, IX.38, Syro-Malabar); n/a for row",
+   "overlap": [
+    "VI.18",
+    "VIII.27",
+    "IX.39"
+   ],
+   "recommendation": "enter (era 8 row, both parties)",
+   "gate": {
+    "q": "How should 1665-1815 enter?",
+    "options": {
+     "a": "one era 8 row, both parties",
+     "b": "extend VI.18 to 1815",
+     "c": "two rows, one per party"
+    },
+    "recommended": "a"
+   }
+  },
+  {
+   "rank": 3,
+   "id": "G89-AP4",
+   "name": "Vietnamese Catholicism, 1650-1906",
+   "kind": "church body",
+   "era": "8-9",
+   "dates": "1650-1906",
+   "regions": [
+    "Greater Asia"
+   ],
+   "countries": [
+    "Vietnam"
+   ],
+   "lane": "Latin West & Catholicism",
+   "logged_break": null,
+   "sectionA": "clears (Catholic; de Rhodes Cathechismus 1651)",
+   "B": {
+    "B1": "strong",
+    "B2": "strong",
+    "B3": "high (absent in every era)",
+    "B4": "broad",
+    "B5": "large (160-170k in West Tonkin 1832, V)"
+   },
+   "tier": "Tier 1",
+   "evidence": [
+    {
+     "item": "de Rhodes, Cathechismus (Rome: Propaganda, 1651), title page and licence 8 July 1651",
+     "where": "archive.org bub_gb_p8UC5ZZ21Q8C",
+     "state": "V (title page)"
+    },
+    {
+     "item": "Launay, Histoire generale de la Societe des Missions-Etrangeres I (1894)",
+     "where": "archive.org cihm_54000 lines 3407-3415, 8560-9410",
+     "state": "V"
+    },
+    {
+     "item": "Launay, Mgr Retord et le Tonkin catholique (1893)",
+     "where": "archive.org mgrretordetleton00laun lines 2735-2925",
+     "state": "V"
+    },
+    {
+     "item": "Collectanea I, 1675 Amantes Crucis; 1726 native priests",
+     "where": "cic/texts lines 13795; 18645-18660",
+     "state": "V"
+    },
+    {
+     "item": "Dutton, A Vietnamese Moses (UC Press 2017, OA)",
+     "where": "archive.org oapen-20.500.12657-31953",
+     "state": "V"
+    },
+    {
+     "item": "Philiphe Binh, Sach so sang chep cac viec (1822)",
+     "state": "wanted"
+    }
+   ],
+   "living": "yes; no dated item graded",
+   "overlap": [],
+   "recommendation": "enter (era 8 and era 9 segments)",
+   "gate": {
+    "q": "How should Vietnam's Catholics enter?",
+    "options": {
+     "a": "one row 1650-1906",
+     "b": "two segments split at 1815",
+     "c": "line in an MEP row"
+    },
+    "recommended": "b"
+   }
+  },
+  {
+   "rank": 4,
+   "id": "G89-AP3",
+   "name": "Japan's hidden Christians (Sempuku Kirishitan), 1650-1865",
+   "kind": "church body without clergy",
+   "era": "8-9",
+   "dates": "1650-1865",
+   "regions": [
+    "Greater Asia"
+   ],
+   "countries": [
+    "Japan"
+   ],
+   "lane": "Latin West & Catholicism",
+   "logged_break": "Japan's hidden Christians 1650-1865",
+   "sectionA": "not assessable on a dated statement; world-level per A5 as continuation of VI.13b",
+   "B": {
+    "B1": "adequate",
+    "B2": "strong",
+    "B3": "high",
+    "B4": "broad",
+    "B5": "small-mid (3,800 counted in 1865, V)"
+   },
+   "tier": "Tier 1",
+   "evidence": [
+    {
+     "item": "Marnas, La 'Religion de Jesus' ressuscitee au Japon I (1896)",
+     "where": "archive.org lareligiondejsus01marn lines 3345-3365, 21260-21290, 22180-22184, 22335-22362",
+     "state": "V"
+    },
+    {
+     "item": "Whelan, The Beginning of Heaven and Earth (1996)",
+     "where": "archive.org beginningofheave0000unse",
+     "state": "V-s"
+    },
+    {
+     "item": "Turnbull, The Kakure Kirishitan of Japan",
+     "where": "archive.org kakurekirishitan0000step",
+     "state": "V-s"
+    },
+    {
+     "item": "Urakawa Wasaburo, Kirishitan no fukkatsu (1927-28)",
+     "where": "NDL Search R100000136-I1970586434864565008",
+     "state": "V-s"
+    },
+    {
+     "item": "Mase-Hasegawa, on Tenchi hajimari no koto (2015)",
+     "where": "NDL Search",
+     "state": "V-s"
+    },
+    {
+     "item": "Tenchi hajimari no koto, Japanese text",
+     "state": "wanted"
+    }
+   ],
+   "living": "Kakure communities [S]; grade none",
+   "overlap": [
+    "VI.13b",
+    "VIII.45"
+   ],
+   "recommendation": "enter (one row 1650-1865 across the era line)",
+   "gate": {
+    "q": "How should the hidden centuries enter?",
+    "options": {
+     "a": "one row 1650-1865",
+     "b": "extend VIII.45 back",
+     "c": "extend VI.13b forward"
+    },
+    "recommended": "a"
+   }
+  },
+  {
+   "rank": 5,
+   "id": "G89-AP5",
+   "name": "Protestant churches of the VOC world: Moluccas, Batavia, Ceylon, 1650-1815",
+   "kind": "church body",
+   "era": "8",
+   "dates": "1650-1815",
+   "regions": [
+    "Greater Asia"
+   ],
+   "countries": [
+    "Indonesia",
+    "Sri Lanka"
+   ],
+   "lane": "Protestant & Evangelical",
+   "logged_break": null,
+   "sectionA": "clears (teachers bound to Heidelberg Catechism and Dutch Reformed Confession)",
+   "B": {
+    "B1": "good",
+    "B2": "good",
+    "B3": "mid-high",
+    "B4": "academic, learners",
+    "B5": "mid [S]"
+   },
+   "tier": "Tier 2",
+   "evidence": [
+    {
+     "item": "Aritonang & Steenbrink, A History of Christianity in Indonesia (Brill 2008, OA), ch. 5",
+     "where": "archive.org oapen-20.500.12657-45624 lines 5661-7100",
+     "state": "V"
+    },
+    {
+     "item": "Casie Chitty 1848, 1658 plakaat",
+     "where": "archive.org ASketchOfTheRiseAndProgress line ~609",
+     "state": "V"
+    },
+    {
+     "item": "Valentijn 1724-26; Leijdecker Malay Bible 1733; Campbell 1903",
+     "state": "[S]"
+    }
+   ],
+   "living": "heirs live [S]",
+   "overlap": [
+    "VIII.26"
+   ],
+   "recommendation": "enter, or named line in VIII.26",
+   "gate": {
+    "q": "Where does the VOC-era church go?",
+    "options": {
+     "a": "era 8 row",
+     "b": "line in VIII.26",
+     "c": "hold"
+    },
+    "recommended": "a"
+   }
+  },
+  {
+   "rank": 6,
+   "id": "G89-AP6",
+   "name": "The Catholics of Ceylon under Dutch rule and the Goan Oratorians, 1658-1806",
+   "kind": "church body",
+   "era": "8",
+   "dates": "1658-1806",
+   "regions": [
+    "Greater Asia"
+   ],
+   "countries": [
+    "Sri Lanka",
+    "India"
+   ],
+   "lane": "Latin West & Catholicism",
+   "logged_break": null,
+   "sectionA": "clears (Catholic)",
+   "B": {
+    "B1": "adequate",
+    "B2": "good",
+    "B3": "mid-high",
+    "B4": "Catholics, learners",
+    "B5": "mid (70,000 by 1717, V)"
+   },
+   "tier": "Tier 2",
+   "evidence": [
+    {
+     "item": "Casie Chitty, A Sketch of the Rise and Progress of the Catholic Church in Ceylon (Colombo 1848)",
+     "where": "archive.org ASketchOfTheRiseAndProgress lines 600-1140",
+     "state": "V"
+    },
+    {
+     "item": "Boudens, The Catholic Church in Ceylon under Dutch Rule (1957)",
+     "where": "archive.org catholicchurchin0000robr",
+     "state": "V-s"
+    }
+   ],
+   "living": "yes; no dated item",
+   "overlap": [],
+   "recommendation": "enter, or as first line of a wider South Asian Catholic row",
+   "gate": {
+    "q": "How should South Asian Latin Catholicism enter eras 8-9?",
+    "options": {
+     "a": "Ceylon row",
+     "b": "wider Padroado/Propaganda South Asia row 1650-1906",
+     "c": "hold"
+    },
+    "recommended": "b if one telling wanted; a is better evidenced"
+   }
+  },
+  {
+   "rank": 7,
+   "id": "G89-AP7",
+   "name": "Catholic St Thomas Christians and the Chaldean Syrian body, 1815-1906",
+   "kind": "church body",
+   "era": "9",
+   "dates": "1815-1906",
+   "regions": [
+    "Greater Asia"
+   ],
+   "countries": [
+    "India"
+   ],
+   "lane": "Syriac East & Asia",
+   "logged_break": null,
+   "sectionA": "clears [S on dated text]",
+   "B": {
+    "B1": "thin-adequate",
+    "B2": "good",
+    "B3": "mid-high",
+    "B4": "Eastern Catholics",
+    "B5": "large in Kerala [S]"
+   },
+   "tier": "Tier 2",
+   "evidence": [
+    {
+     "item": "Richards, The Indian Christians of St Thomas (1908)",
+     "where": "archive.org cu31924029361379 lines 2605-2660",
+     "state": "V"
+    },
+    {
+     "item": "Rae 1892",
+     "state": "[S]"
+    },
+    {
+     "item": "Chavara writings; Syro-Malabar sources",
+     "state": "wanted"
+    }
+   ],
+   "living": "yes [S]",
+   "overlap": [
+    "VIII.27",
+    "IX.39"
+   ],
+   "recommendation": "hold; then extend AP1 to 1906",
+   "gate": {
+    "q": "Where does the Catholic half go in era 9?",
+    "options": {
+     "a": "extend AP1 to 1906",
+     "b": "line in VIII.27",
+     "c": "hold"
+    },
+    "recommended": "c, then a"
+   }
+  },
+  {
+   "rank": 8,
+   "id": "G89-AP13",
+   "name": "Maori prophetic movements: Pai Marire and Ringatu, 1862-1906",
+   "kind": "cross-church movement",
+   "era": "9",
+   "dates": "1862-1906",
+   "regions": [
+    "Pacific"
+   ],
+   "countries": [
+    "New Zealand"
+   ],
+   "lane": "(beyond floor, register)",
+   "logged_break": null,
+   "sectionA": "not assessable; likely beyond floor [S]",
+   "four_marks": {
+    "beginning": "1862 / 1868 [S]",
+    "carriers": "Te Ua's prophets (V, Cowan)",
+    "name": "Pai Marire (V), Ringatu [S]",
+    "recognition": "Clark 1975 (V-s)"
+   },
+   "tier": "Tier 2",
+   "evidence": [
+    {
+     "item": "Cowan, The New Zealand Wars vol. 1 (1922)",
+     "where": "archive.org newzealandwarshi01cowa lines 11845-11905",
+     "state": "V"
+    },
+    {
+     "item": "Clark, 'Hauhau' (1975)",
+     "where": "archive.org hauhaupaimarires0000clar",
+     "state": "V-s"
+    },
+    {
+     "item": "Maori-language texts",
+     "state": "wanted"
+    }
+   ],
+   "living": "Ringatu Church [S]",
+   "overlap": [
+    "IX.26"
+   ],
+   "recommendation": "hold for a Maori source",
+   "gate": {
+    "q": "Where do the Maori prophetic churches go?",
+    "options": {
+     "a": "era 9 movement row (register)",
+     "b": "line in IX.26",
+     "c": "hold"
+    },
+    "recommended": "c, then a"
+   }
+  },
+  {
+   "rank": 9,
+   "id": "G89-AP9",
+   "name": "Karen Baptist movement, 1828-1906",
+   "kind": "church body",
+   "era": "9",
+   "dates": "1828-1906",
+   "regions": [
+    "Greater Asia"
+   ],
+   "countries": [
+    "Myanmar"
+   ],
+   "lane": "Protestant & Evangelical",
+   "logged_break": null,
+   "sectionA": "clears [S]",
+   "tier": "Tier 3",
+   "evidence": [
+    {
+     "item": "Mason, The Karen Apostle (1843; ed. 1847)",
+     "where": "archive.org karenapostleorme00maso lines 405-420, 2890-2900",
+     "state": "V"
+    }
+   ],
+   "overlap": [
+    "VIII.7"
+   ],
+   "recommendation": "named line in VIII.7",
+   "gate": {
+    "q": "Karen Baptists?",
+    "options": {
+     "a": "line in VIII.7",
+     "b": "own row",
+     "c": "hold"
+    },
+    "recommended": "a"
+   }
+  },
+  {
+   "rank": 10,
+   "id": "G89-AP8",
+   "name": "Tamil Lutheran church of Tranquebar and Tanjore after 1750",
+   "kind": "church body",
+   "era": "8",
+   "dates": "1706-1815",
+   "regions": [
+    "Greater Asia"
+   ],
+   "countries": [
+    "India"
+   ],
+   "lane": "Protestant & Evangelical",
+   "logged_break": null,
+   "sectionA": "clears [S on dated statement]",
+   "tier": "Tier 3",
+   "evidence": [
+    {
+     "item": "Fenger, History of the Tranquebar Mission (1863), Aaron ordained 28 Dec 1733",
+     "where": "archive.org historyoftranque00fengrich lines 5753-5850",
+     "state": "V"
+    },
+    {
+     "item": "Ziegenbalg 1718",
+     "where": "cic/texts",
+     "state": "present"
+    },
+    {
+     "item": "Neill 1985",
+     "state": "V-s"
+    }
+   ],
+   "overlap": [
+    "VII.2",
+    "VIII.7"
+   ],
+   "recommendation": "named line in VII.2",
+   "gate": {
+    "q": "Tamil Lutheran church?",
+    "options": {
+     "a": "line in VII.2",
+     "b": "own row",
+     "c": "carried"
+    },
+    "recommended": "a"
+   }
+  },
+  {
+   "rank": 11,
+   "id": "G89-AP10",
+   "name": "Cofradia de San Jose (Hermano Pule), 1832-1841",
+   "kind": "movement inside a church body",
+   "era": "9",
+   "dates": "1832-1841",
+   "regions": [
+    "Greater Asia"
+   ],
+   "countries": [
+    "Philippines"
+   ],
+   "lane": "Latin West & Catholicism",
+   "logged_break": null,
+   "four_marks": {
+    "beginning": "1832 [S]",
+    "carriers": "Tayabas peasants [S]",
+    "name": "Cofradia de San Jose [S]",
+    "recognition": "Ileto 1979 (V-s)"
+   },
+   "tier": "Tier 3",
+   "evidence": [
+    {
+     "item": "Ileto, Pasyon and Revolution (1979)",
+     "where": "archive.org pasyonrevolution00reyn",
+     "state": "V-s"
+    }
+   ],
+   "overlap": [
+    "VIII.39",
+    "VII.29"
+   ],
+   "recommendation": "hold; then line in VIII.39",
+   "gate": {
+    "q": "Cofradia?",
+    "options": {
+     "a": "line in VIII.39",
+     "b": "hold"
+    },
+    "recommended": "b, then a"
+   }
+  },
+  {
+   "rank": 12,
+   "id": "G89-AP15",
+   "name": "Korea 1884/1886-1906",
+   "kind": "church bodies",
+   "era": "9",
+   "dates": "1884-1906",
+   "regions": [
+    "Greater Asia"
+   ],
+   "countries": [
+    "South Korea",
+    "North Korea"
+   ],
+   "lane": "Protestant & Evangelical / Latin West & Catholicism",
+   "logged_break": null,
+   "tier": "Tier 3",
+   "evidence": [],
+   "overlap": [
+    "VIII.21",
+    "IX.2",
+    "IX.64"
+   ],
+   "recommendation": "hold; then named lines",
+   "gate": {
+    "q": "Korea 1884-1906?",
+    "options": {
+     "a": "named lines",
+     "b": "hold"
+    },
+    "recommended": "b, then a"
+   }
+  },
+  {
+   "rank": 13,
+   "id": "G89-AP12",
+   "name": "Colonial Australia and New Zealand churches, 1788-1906",
+   "kind": "church bodies",
+   "era": "9",
+   "dates": "1788-1906",
+   "regions": [
+    "Pacific"
+   ],
+   "countries": [
+    "Australia",
+    "New Zealand"
+   ],
+   "lane": "several",
+   "logged_break": null,
+   "tier": "Tier 3",
+   "evidence": [
+    {
+     "item": "Breward, A History of the Churches in Australasia (2001)",
+     "state": "V-s"
+    },
+    {
+     "item": "Suttor, Hierarchy and Democracy in Australia 1788-1870 (1965)",
+     "state": "V-s"
+    }
+   ],
+   "overlap": [
+    "VIII.41",
+    "VIII.29",
+    "VIII.30",
+    "VIII.34"
+   ],
+   "recommendation": "hold; then lines in parent rows",
+   "gate": {
+    "q": "Australasia?",
+    "options": {
+     "a": "lines in parent rows",
+     "b": "own row",
+     "c": "hold"
+    },
+    "recommended": "c, then a"
+   }
+  },
+  {
+   "rank": 14,
+   "id": "G89-AP11",
+   "name": "Russian Ecclesiastical Mission in Peking and the Albazinians",
+   "kind": "church body",
+   "era": "8-9",
+   "dates": "1685/1715-1906",
+   "regions": [
+    "Greater Asia"
+   ],
+   "countries": [
+    "China"
+   ],
+   "lane": "Greek East & Orthodoxy",
+   "logged_break": null,
+   "tier": "Tier 3",
+   "evidence": [
+    {
+     "item": "Widmer 1976",
+     "state": "[S]"
+    }
+   ],
+   "overlap": [
+    "VII.21",
+    "VIII.31"
+   ],
+   "recommendation": "hold",
+   "gate": {
+    "q": "Peking Orthodox?",
+    "options": {
+     "a": "line in VII.21/VIII.31",
+     "b": "hold"
+    },
+    "recommended": "b"
+   }
+  },
+  {
+   "rank": 15,
+   "id": "G89-AP14",
+   "name": "Pacific Christian kingdoms (Tahiti, Hawai'i, Tonga, Fiji, Samoa)",
+   "kind": "church bodies",
+   "era": "9",
+   "dates": "1797-1906",
+   "regions": [
+    "Pacific"
+   ],
+   "countries": [
+    "French Polynesia",
+    "United States",
+    "Tonga",
+    "Fiji",
+    "Samoa"
+   ],
+   "lane": "Protestant & Evangelical",
+   "logged_break": null,
+   "evidence": [
+    {
+     "item": "Ellis, Polynesian Researches (vol. 1 opened, not relevant)",
+     "state": "[S]"
+    }
+   ],
+   "overlap": [
+    "VIII.7"
+   ],
+   "recommendation": "carried by VIII.7",
+   "gate": {
+    "q": "Split a Pacific row from VIII.7?",
+    "options": {
+     "a": "leave in VIII.7",
+     "b": "split"
+    },
+    "recommended": "a"
+   }
+  },
+  {
+   "rank": null,
+   "id": "G89-AP-X1",
+   "name": "Society of Jesus era 8 continuation (cross-region)",
+   "kind": "church body (order)",
+   "era": "8",
+   "recommendation": "decide at merge; Asian evidence says no",
+   "overlap": [
+    "VI.11",
+    "VII.19"
+   ],
+   "gate": {
+    "q": "Jesuit era 8 row?",
+    "options": {
+     "a": "no; lines in local rows and VII.19",
+     "b": "worldwide row 1650-1814",
+     "c": "decide at merge"
+    },
+    "recommended": "c, leaning a"
+   }
+  },
+  {
+   "rank": null,
+   "id": "G89-AP-X2",
+   "name": "Missions Etrangeres de Paris / Propaganda (cross-region)",
+   "kind": "church body (society)",
+   "era": "8-9",
+   "recommendation": "carrier lines only",
+   "evidence": [
+    {
+     "item": "Launay 1894 vol. I, 13 May 1658",
+     "where": "archive.org cihm_54000 lines 3407-3415",
+     "state": "V"
+    }
+   ],
+   "gate": {
+    "q": "MEP row?",
+    "options": {
+     "a": "carrier lines only",
+     "b": "own row"
+    },
+    "recommended": "a"
+   }
+  }
+ ],
+ "carried": {
+  "Armenian merchant churches in India": "VI.28 (outline); Middle East pass",
+  "Taiping": "VIII.44",
+  "Philippines and Aglipayans": "VII.29, VIII.39",
+  "Japan 1865-1906": "VIII.45, VIII.31",
+  "Batak and Java": "VIII.26",
+  "Mar Thoma, Malankara, hill revivals": "VIII.27",
+  "China coast Protestants, CIM, Serampore, Pacific teachers": "VIII.7",
+  "Dalit mass movements": "era 10 GS-A3",
+  "Boxer year": "inside AP2 era 9 half and VIII.7"
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.born-again-endtimes"
+   ],
+   "sentence": "We would recognize the words born again at once, yet for us new birth was a public event in the church, celebrated in hymn, and not a private moment of conversion."
+  },
+  {
+   "record_ids": [
+    "syr.dw.born-again-endtimes"
+   ],
+   "sentence": "Our churches sang of baptism as a womb."
+  },
+  {
+   "record_ids": [
+    "syr.dw.born-again-endtimes"
+   ],
+   "sentence": "Our churches sang of the shining garments of the newly baptized, and of the sealing, the sign set on each one who came up from the water."
+  },
+  {
+   "record_ids": [
+    "syr.dw.born-again-endtimes"
+   ],
+   "sentence": "Our teachers called baptism a second birth, in which the believer receives the Holy Spirit."
+  },
+  {
+   "record_ids": [
+    "syr.dw.born-again-endtimes"
+   ],
+   "sentence": "We did not believe in anything like the rapture."
+  },
+  {
+   "record_ids": [
+    "syr.dw.born-again-endtimes"
+   ],
+   "sentence": "Our picture of the end was older: death's kingdom, which has ruled since Adam, had already been broken into by one Man."
+  },
+  {
+   "record_ids": [
+    "syr.dw.born-again-endtimes"
+   ],
+   "sentence": "At the end, the dead rise the way seed rises, and the Judge repays everyone what is due."
+  },
+  {
+   "record_ids": [
+    "syr.dw.born-again-endtimes"
+   ],
+   "sentence": "The sage wrote a whole letter on death and the last times, and there is no rapture in it."
+  },
+  {
+   "record_ids": [
+    "syr.dw.born-again-endtimes"
+   ],
+   "sentence": "What he preached was resurrection."
+  }
+ ],
+ "citations": [
+  "syr.dw.born-again-endtimes"
+ ],
+ "group": "A",
+ "id": "q020",
+ "net_sentences": [
+  {
+   "draft": "We would recognize the words born again at once, yet for us new birth was a public event in the church, celebrated in hymn, and not a private moment of conversion [[syr.dw.born-again-endtimes]] [[as:paraphrase]].",
+   "sentence": "We would recognize the words born again at once, yet for us new birth was a public event in the church, celebrated in hymn, and not a private moment of conversion.",
+   "tags": [
+    "syr.dw.born-again-endtimes"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our churches sang of baptism as a womb [[syr.dw.born-again-endtimes]] [[as:paraphrase]].",
+   "sentence": "Our churches sang of baptism as a womb.",
+   "tags": [
+    "syr.dw.born-again-endtimes"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our churches sang of the shining garments of the newly baptized, and of the sealing, the sign set on each one who came up from the water [[syr.dw.born-again-endtimes]] [[as:paraphrase]].",
+   "sentence": "Our churches sang of the shining garments of the newly baptized, and of the sealing, the sign set on each one who came up from the water.",
+   "tags": [
+    "syr.dw.born-again-endtimes"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our teachers called baptism a second birth, in which the believer receives the Holy Spirit [[syr.dw.born-again-endtimes]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Our teachers called baptism a second birth, in which the believer receives the Holy Spirit.",
+   "tags": [
+    "syr.dw.born-again-endtimes"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We did not believe in anything like the rapture [[syr.dw.born-again-endtimes]] [[as:paraphrase]].",
+   "sentence": "We did not believe in anything like the rapture.",
+   "tags": [
+    "syr.dw.born-again-endtimes"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our picture of the end was older: death's kingdom, which has ruled since Adam, had already been broken into by one Man [[syr.dw.born-again-endtimes]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Our picture of the end was older: death's kingdom, which has ruled since Adam, had already been broken into by one Man.",
+   "tags": [
+    "syr.dw.born-again-endtimes"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "At the end, the dead rise the way seed rises, and the Judge repays everyone what is due [[syr.dw.born-again-endtimes]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "At the end, the dead rise the way seed rises, and the Judge repays everyone what is due.",
+   "tags": [
+    "syr.dw.born-again-endtimes"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The sage wrote a whole letter on death and the last times, and there is no rapture in it [[syr.dw.born-again-endtimes]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The sage wrote a whole letter on death and the last times, and there is no rapture in it.",
+   "tags": [
+    "syr.dw.born-again-endtimes"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "What he preached was resurrection [[syr.dw.born-again-endtimes]] [[as:paraphrase]].",
+   "sentence": "What he preached was resurrection.",
+   "tags": [
+    "syr.dw.born-again-endtimes"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "syr.limit.f5-enslaved",
+  "syr.limit.f5-women-own-words",
+  "syr.dw.born-again-endtimes",
+  "syr.story.ephrem-famine-death",
+  "syr.quote.ephrem-keeper-of-strangers",
+  "syr.quote.palladius-hospitaller",
+  "syr.dw.suffering",
+  "syr.story.qyama-morning",
+  "syr.quote.aphrahat-persecuted-litany",
+  "syr.gravity.persecution-endurance"
+ ],
+ "raw_text": "We would recognize the words born again at once, yet for us new birth was a public event in the church, celebrated in hymn, and not a private moment of conversion [[syr.dw.born-again-endtimes]] [[as:paraphrase]].\n\nOur churches sang of baptism as a womb [[syr.dw.born-again-endtimes]] [[as:paraphrase]].\n\nOur churches sang of the shining garments of the newly baptized, and of the sealing, the sign set on each one who came up from the water [[syr.dw.born-again-endtimes]] [[as:paraphrase]].\n\nOur teachers called baptism a second birth, in which the believer receives the Holy Spirit [[syr.dw.born-again-endtimes]] [[as:paraphrase]].\n\nWe did not believe in anything like the rapture [[syr.dw.born-again-endtimes]] [[as:paraphrase]].\n\nOur picture of the end was older: death's kingdom, which has ruled since Adam, had already been broken into by one Man [[syr.dw.born-again-endtimes]] [[as:paraphrase]].\n\nAt the end, the dead rise the way seed rises, and the Judge repays everyone what is due [[syr.dw.born-again-endtimes]] [[as:paraphrase]].\n\nThe sage wrote a whole letter on death and the last times, and there is no rapture in it [[syr.dw.born-again-endtimes]] [[as:paraphrase]].\n\nWhat he preached was resurrection [[syr.dw.born-again-endtimes]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C4.S5",
+ "text": "We would recognize the words born again at once, yet for us new birth was a public event in the church, celebrated in hymn, and not a private moment of conversion.\n\nOur churches sang of baptism as a womb.\n\nOur churches sang of the shining garments of the newly baptized, and of the sealing, the sign set on each one who came up from the water.\n\nOur teachers called baptism a second birth, in which the believer receives the Holy Spirit.\n\nWe did not believe in anything like the rapture.\n\nOur picture of the end was older: death's kingdom, which has ruled since Adam, had already been broken into by one Man.\n\nAt the end, the dead rise the way seed rises, and the Judge repays everyone what is due.\n\nThe sage wrote a whole letter on death and the last times, and there is no rapture in it.\n\nWhat he preached was resurrection.",
+ "voice_set_aside": false
+}

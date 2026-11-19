@@ -1,0 +1,157 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.gravity.sovereignty-of-god-predestination-election",
+    "rzg.term.predestination-election"
+   ],
+   "sentence": "God's own free choice, made before the world existed, decides who is saved, and not anything foreseen or earned in the one chosen."
+  },
+  {
+   "record_ids": [
+    "rzg.term.predestination-election"
+   ],
+   "sentence": "Both Zurich and Geneva held this, Geneva as a full system and Zurich more briefly, as pastoral comfort."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "sentence": "We hold God's choice as the ground of a settled life, not as a threat."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "sentence": "Whoever is joined to Christ by true faith already has, in that faith itself, the only evidence of election anyone is given."
+  },
+  {
+   "record_ids": [
+    "rzg.term.providence"
+   ],
+   "sentence": "Providence is God's own continuous, active care over everything he made."
+  },
+  {
+   "record_ids": [
+    "rzg.term.providence"
+   ],
+   "sentence": "God is not a distant first cause who set the world going and stepped back."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "sentence": "Election's fullest systematic form rests mostly with Calvin and Beza, a divergence we disclose rather than smooth away."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "sentence": "We held the alternatives we refused to be wrong, not merely different, and each time we asked one question: does this reading hold against Scripture?"
+  }
+ ],
+ "citations": [
+  "rzg.gravity.sovereignty-of-god-predestination-election",
+  "rzg.term.predestination-election",
+  "rzg.term.providence",
+  "rzg.witness.a-narrow-true-church"
+ ],
+ "group": "A",
+ "id": "q004",
+ "net_sentences": [
+  {
+   "draft": "God's own free choice, made before the world existed, decides who is saved, and not anything foreseen or earned in the one chosen [[rzg.gravity.sovereignty-of-god-predestination-election]] [[rzg.term.predestination-election]] [[as:paraphrase]].",
+   "sentence": "God's own free choice, made before the world existed, decides who is saved, and not anything foreseen or earned in the one chosen.",
+   "tags": [
+    "rzg.gravity.sovereignty-of-god-predestination-election",
+    "rzg.term.predestination-election"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Both Zurich and Geneva held this, Geneva as a full system and Zurich more briefly, as pastoral comfort [[rzg.term.predestination-election]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Both Zurich and Geneva held this, Geneva as a full system and Zurich more briefly, as pastoral comfort.",
+   "tags": [
+    "rzg.term.predestination-election"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We hold God's choice as the ground of a settled life, not as a threat [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]].",
+   "sentence": "We hold God's choice as the ground of a settled life, not as a threat.",
+   "tags": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Whoever is joined to Christ by true faith already has, in that faith itself, the only evidence of election anyone is given [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]].",
+   "sentence": "Whoever is joined to Christ by true faith already has, in that faith itself, the only evidence of election anyone is given.",
+   "tags": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Providence is God's own continuous, active care over everything he made [[rzg.term.providence]] [[as:paraphrase]].",
+   "sentence": "Providence is God's own continuous, active care over everything he made.",
+   "tags": [
+    "rzg.term.providence"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "God is not a distant first cause who set the world going and stepped back [[rzg.term.providence]] [[as:paraphrase]].",
+   "sentence": "God is not a distant first cause who set the world going and stepped back.",
+   "tags": [
+    "rzg.term.providence"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Election's fullest systematic form rests mostly with Calvin and Beza, a divergence we disclose rather than smooth away [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]].",
+   "ratio": 0.85,
+   "sentence": "Election's fullest systematic form rests mostly with Calvin and Beza, a divergence we disclose rather than smooth away.",
+   "tags": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "verdict": "ok",
+   "why": "grounded 85% in own tagged records"
+  },
+  {
+   "draft": "We held the alternatives we refused to be wrong, not merely different, and each time we asked one question: does this reading hold against Scripture [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]]?",
+   "sentence": "We held the alternatives we refused to be wrong, not merely different, and each time we asked one question: does this reading hold against Scripture?",
+   "tags": [
+    "rzg.witness.a-narrow-true-church"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "rzg.witness.a-narrow-true-church",
+  "rzg.term.predestination-election",
+  "rzg.term.providence",
+  "rzg.quote.taught-better-from-scripture",
+  "rzg.gravity.sovereignty-of-god-predestination-election"
+ ],
+ "raw_text": "God's own free choice, made before the world existed, decides who is saved, and not anything foreseen or earned in the one chosen [[rzg.gravity.sovereignty-of-god-predestination-election]] [[rzg.term.predestination-election]] [[as:paraphrase]].\n\nBoth Zurich and Geneva held this, Geneva as a full system and Zurich more briefly, as pastoral comfort [[rzg.term.predestination-election]] [[as:paraphrase]].\n\nWe hold God's choice as the ground of a settled life, not as a threat [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]].\n\nWhoever is joined to Christ by true faith already has, in that faith itself, the only evidence of election anyone is given [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]].\n\nProvidence is God's own continuous, active care over everything he made [[rzg.term.providence]] [[as:paraphrase]].\n\nGod is not a distant first cause who set the world going and stepped back [[rzg.term.providence]] [[as:paraphrase]].\n\nElection's fullest systematic form rests mostly with Calvin and Beza, a divergence we disclose rather than smooth away [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]].\n\nWe held the alternatives we refused to be wrong, not merely different, and each time we asked one question: does this reading hold against Scripture [[rzg.witness.a-narrow-true-church]] [[as:paraphrase]]?\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C2.S3",
+ "text": "God's own free choice, made before the world existed, decides who is saved, and not anything foreseen or earned in the one chosen.\n\nBoth Zurich and Geneva held this, Geneva as a full system and Zurich more briefly, as pastoral comfort.\n\nWe hold God's choice as the ground of a settled life, not as a threat.\n\nWhoever is joined to Christ by true faith already has, in that faith itself, the only evidence of election anyone is given.\n\nProvidence is God's own continuous, active care over everything he made.\n\nGod is not a distant first cause who set the world going and stepped back.\n\nElection's fullest systematic form rests mostly with Calvin and Beza, a divergence we disclose rather than smooth away.\n\nWe held the alternatives we refused to be wrong, not merely different, and each time we asked one question: does this reading hold against Scripture?",
+ "voice_set_aside": false
+}

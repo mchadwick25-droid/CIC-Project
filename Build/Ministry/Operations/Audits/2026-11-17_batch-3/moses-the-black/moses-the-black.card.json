@@ -1,0 +1,116 @@
+{
+  "otherNames": [
+    "Moses the Ethiopian",
+    "Moses the Robber",
+    "Abba Moses"
+  ],
+  "knownFor": "A house-servant driven out for immorality and robbery who became a monk at Scete in Egypt, a priest and a teacher of seventy disciples.",
+  "datesNote": "Died at Scete aged seventy-five, by Palladius of Helenopolis. No source used here gives a year of his birth or death; Palladius wrote his history, by W. K. Lowther Clarke's note, in 419 or 420",
+  "placeNote": "Egypt; Scete",
+  "role": "Monk and priest",
+  "legacy": {
+    "traces": [
+      "Palladius of Helenopolis says he left seventy disciples.",
+      "Sayings of an Abba Moses, some of them naming him the Ethiopian, are kept in the Syriac book of the desert fathers translated by Wallis Budge."
+    ],
+    "remembered": [
+      "Palladius of Helenopolis: \"This was the manner of life of Moses the Ethiopian\".",
+      "Sozomen: \"he died at the age of seventy-five, leaving behind him numerous eminent disciples.\""
+    ]
+  },
+  "uncertain": [
+    "The murders he was said to have done, and his leading a robber band, come to Palladius of Helenopolis as report (\"they used to say\"). The Lausiac History is a book of holy lives and tells of demons and wonders.",
+    "Sozomen tells much the same story in much the same order, so he likely depends on Palladius and is no separate witness. He calls Moses \"an Egyptian\", where Palladius says \"an Ethiopian by race and black\".",
+    "There were several monks named Moses. W. K. Lowther Clarke notes that Cuthbert Butler tells them apart, and takes the robber for the Moses of the sayings, but many sayings name only Abba Moses. John Cassian's Abbot Moses spent his boyhood in the Thebaid near Antony, and Edgar Gibson, Cassian's translator, suggests he may be Moses the Libyan.",
+    "A saying tells that barbarians came to Scete and killed Abba Moses and the brothers who stayed with him. It does not name him the Ethiopian. Palladius says only that he died at Scete at seventy-five.",
+    "No source used here names his master, his family, or the bishop who made him a priest."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "The Lausiac History 19 (tr. W. K. Lowther Clarke)",
+        "author": "Palladius of Helenopolis",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/palladius_lausiac-history_clarke1918.txt"
+      },
+      {
+        "title": "Church History VI.29",
+        "author": "Sozomen",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "The Paradise of the Holy Fathers, vol. II, the sayings (tr. E. A. Wallis Budge)",
+        "author": "Compiled by 'Anan-Isho' of Beth 'Abhe",
+        "date": "1907",
+        "language": "English translation",
+        "file": "cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt"
+      },
+      {
+        "title": "Institutes and Conferences (tr. Edgar Gibson)",
+        "author": "John Cassian",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml"
+      },
+      {
+        "title": "The Book of the Saints of the Ethiopian Church, 24 Sane (tr. E. A. Wallis Budge)",
+        "author": "The Ethiopian Synaxarium",
+        "date": "1928",
+        "language": "English translation",
+        "file": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt"
+      }
+    ]
+  },
+  "briefReferences": [
+    "Lausiac History 19, tr. W. K. Lowther Clarke (palladius_lausiac-history_clarke1918.txt, 337): Moses numbered among the great ones of the fathers, a priest at Scete who left seventy disciples.",
+    "Lausiac History, Clarke's notes (palladius_lausiac-history_clarke1918.txt, 197 with note 713, and 657): Palladius first came to Alexandria in 388 and wrote in 419-420, the ground for around the year 400; the letter of Palladius the bishop to Lausus (18).",
+    "Lausiac History 19 (palladius_lausiac-history_clarke1918.txt, 333): a house-servant, an Ethiopian by race and black, driven out by his master for immorality and brigandage; said to go even the length of murder; his wicked acts told to show the virtue of his repentance; leader of a robber-band, as they used to say, with the Nile crossing.",
+    "Lausiac History 19 (palladius_lausiac-history_clarke1918.txt, 335): conscience-stricken by one of his adventures, he gave himself up to a monastery; the four robbers who attacked him in his cell, tied and carried to the church; they confessed, knew him for the far-famed robber, and renounced the world because of his conversion.",
+    "Lausiac History 19 (palladius_lausiac-history_clarke1918.txt, 337): his old habit of sexual incontinence, which as he himself testified almost made him give up; six years standing all night in his cell, unable to master it; Isidore, the priest of Scete, tells him his dreams have ceased and sends him to Communion; some two months later he no longer suffered anything.",
+    "The Paradise of the Holy Fathers, vol. II, saying 55, tr. E. A. Wallis Budge (anan-isho_paradise-v2-sayings_budge1907.txt, 164): the fathers at Scete treat him with contumely; he holds his peace, and afterwards says that although he was afraid he uttered not a word.",
+    "The Paradise of the Holy Fathers, vol. II, saying 477 (anan-isho_paradise-v2-sayings_budge1907.txt, 1028): the bishop, wishing to try him, has the clergy drive him out of the sacrarium, and outside he speaks against himself.",
+    "The Paradise of the Holy Fathers, vol. II, file header (anan-isho_paradise-v2-sayings_budge1907.txt, 7-8): 'Anan-Isho' of Beth 'Abhe, a 7th-century Syriac compiler, with older underlying material, the ground for sayings gathered in the 600s.",
+    "Lausiac History 19 (palladius_lausiac-history_clarke1918.txt, 337): he died at Scete seventy-five years old.",
+    "World census, desert monasticism: the desert fathers of Egypt."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "I am not allowed to hurt anyone. So what do you tell me to do with these?",
+      "printed": "Since I am not allowed to hurt anyone, what do you bid me do with these?",
+      "work": "Palladius of Helenopolis, Lausiac History 19, tr. W. K. Lowther Clarke",
+      "file": "cic/texts/palladius_lausiac-history_clarke1918.txt",
+      "lines": "335",
+      "secondReading": "minor",
+      "uncertain": "Rendered from Clarke's English; the Greek is not held. \"Since\" becomes \"So\", and \"bid\" becomes \"tell\"."
+    },
+    {
+      "modern": "If a man so great and powerful in robbery has feared God, why should we put off our salvation?",
+      "printed": "If he who was so great and powerful in brigandage has feared God, why should we defer our salvation?",
+      "work": "Palladius of Helenopolis, Lausiac History 19, tr. W. K. Lowther Clarke",
+      "file": "cic/texts/palladius_lausiac-history_clarke1918.txt",
+      "lines": "335",
+      "secondReading": "minor",
+      "uncertain": "Rendered from Clarke's English; the Greek is not held. \"Brigandage\" becomes \"robbery\", and \"defer\" becomes \"put off\"."
+    },
+    {
+      "modern": "Why does this Ethiopian come and go among us?",
+      "printed": "Why doth this Ethiopian come and go in our midst?",
+      "work": "The Paradise of the Holy Fathers, vol. II, saying 55, tr. E. A. Wallis Budge",
+      "file": "cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt",
+      "lines": "164",
+      "secondReading": "same"
+    },
+    {
+      "modern": "They have treated you rightly, you whose skin is dark and black. You shall not go back in as if you were a man.",
+      "printed": "They have treated thee rightly, O thou whose skin is dark and black; thou shalt not go back as if thou wert a [white] man.",
+      "work": "The Paradise of the Holy Fathers, vol. II, saying 477, tr. E. A. Wallis Budge",
+      "file": "cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt",
+      "lines": "1028",
+      "secondReading": "minor",
+      "uncertain": "Rendered from Budge's English; the Syriac is not held. Budge's \"[white]\" is his own bracketed supply, not a word he read in the Syriac, and is left out. A Latin parallel, Dorotheus of Gaza, Doctrina XIV, reads \"non homo\", not a man (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt, 136342-136344). \"Go back\" becomes \"go back in\": he has just been driven out of the sanctuary."
+    }
+  ]
+}

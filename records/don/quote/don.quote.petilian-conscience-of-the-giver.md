@@ -15,8 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: don.source.npnf104-prolegomena-analysis
-  locus: 'Chapter II, "An Analysis of Augustin''s Writings Against the Donatists": Petilian''s proposition
-    given in Latin and English, with the bracketed words'
+  locus: "Chapter II, \"An Analysis of Augustin's Writings Against the Donatists\": Petilian's proposition given in Latin and English, with the bracketed words (cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml, line 10280)"
   license: public-domain
 - source_id: don.source.augustine-answer-to-letters-of-petilian
   locus: Book II, chapters 3-4 (sections 6 and 8), the same proposition in shorter form, without the bracketed

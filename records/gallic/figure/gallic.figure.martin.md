@@ -21,7 +21,7 @@ confidence:
     year of his birth, of the cloak, of the discharge, and of the election are not given in the text
     (the emperor is "Julian Caesar," the monastery's founding "after 371" only in the editorial
     introduction). His death in 397 is the horizon's own fixed point. Whether Sulpitius's
-    virtus-organized Life is modelled on the Vita Antonii (Stancliffe, row 18, unread) is open and
+    virtus-organized Life is modeled on the Vita Antonii (Stancliffe, row 18, unread) is open and
     bears on how much of G6 is the north's own literary form, not on any fact about Martin.
 sources:
 - source_id: gallic.source.sulpitius-vita-martini
@@ -117,7 +117,7 @@ evidence, and this figure must not be made to speak for the south.
 
 Not built as stories, and not to be supplied from this record: the virgin who refused Martin (Dial.
 II.12 - Doc_09 §6 item 3, a recorded disagreement, carried forward unresolved); the two angels at the
-temple (Vita XIV); the dispelled rumour of a barbarian inroad (Vita XVIII); Sulpitius's own visit
+temple (Vita XIV); the dispelled rumor of a barbarian inroad (Vita XVIII); Sulpitius's own visit
 (Vita XXV). Everything after 397 - the basilica, the cult's growth, Gregory of Tours - is outside the
 window.
 

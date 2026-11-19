@@ -25,7 +25,7 @@ assignments:
   author: council-of-chalcedon-451
   locus: file line 784; the trial of Dioscorus in sessions I-III
   atlas_ids:
-  - cyrilline-miaphysite-egyptian-tradition
+  - cyrilline-miaphysite-egyptian-christianity
   role: context
   confidence: provisional
   note: The council that deposed Dioscorus, told in the winners' record; following the npnf214 context
@@ -35,7 +35,7 @@ assignments:
   author: council-of-ephesus-449
   locus: file line 77925
   atlas_ids:
-  - cyrilline-miaphysite-egyptian-tradition
+  - cyrilline-miaphysite-egyptian-christianity
   role: tradition
   confidence: provisional
   note: Dioscorus's council of 449, the Cyrilline-Alexandrian party's own synod, in the Greek acts preserved

@@ -1,0 +1,163 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "sentence": "What we hold on the origins of the world is Augustine's reading of the days of Genesis, in his City of God."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "sentence": "Augustine reasoned that ordinary days have morning and evening only by the sun's own rising and setting."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "sentence": "Yet Genesis reports the first three days before the sun existed, since the sun was made only on the fourth day."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "sentence": "Augustine named that difficulty honestly rather than explaining it away."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "sentence": "What kind of light made those days, and by what movement it made evening and morning, Augustine called beyond the reach of our senses."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "sentence": "We cannot understand how it was, Augustine said, and yet we must believe it."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "sentence": "On the age of the world, Augustine rejected histories that claimed many thousands of years for it, and called those documents plainly untrue."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "sentence": "By Scripture's own count, Augustine held, not 6,000 years had yet passed since the world began."
+  }
+ ],
+ "citations": [
+  "lpc.witness.days-before-the-sun"
+ ],
+ "group": "D",
+ "id": "q063",
+ "net_sentences": [
+  {
+   "draft": "What we hold on the origins of the world is Augustine's reading of the days of Genesis, in his City of God [[lpc.witness.days-before-the-sun]] [[as:paraphrase]].",
+   "ratio": 0.67,
+   "sentence": "What we hold on the origins of the world is Augustine's reading of the days of Genesis, in his City of God.",
+   "tags": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "verdict": "ok",
+   "why": "grounded 67% in own tagged records"
+  },
+  {
+   "draft": "Augustine reasoned that ordinary days have morning and evening only by the sun's own rising and setting [[lpc.witness.days-before-the-sun]] [[as:paraphrase]].",
+   "sentence": "Augustine reasoned that ordinary days have morning and evening only by the sun's own rising and setting.",
+   "tags": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Yet Genesis reports the first three days before the sun existed, since the sun was made only on the fourth day [[lpc.witness.days-before-the-sun]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Yet Genesis reports the first three days before the sun existed, since the sun was made only on the fourth day.",
+   "tags": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Augustine named that difficulty honestly rather than explaining it away [[lpc.witness.days-before-the-sun]] [[as:paraphrase]].",
+   "sentence": "Augustine named that difficulty honestly rather than explaining it away.",
+   "tags": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "What kind of light made those days, and by what movement it made evening and morning, Augustine called beyond the reach of our senses [[lpc.witness.days-before-the-sun]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "What kind of light made those days, and by what movement it made evening and morning, Augustine called beyond the reach of our senses.",
+   "tags": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We cannot understand how it was, Augustine said, and yet we must believe it [[lpc.witness.days-before-the-sun]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "We cannot understand how it was, Augustine said, and yet we must believe it.",
+   "tags": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "On the age of the world, Augustine rejected histories that claimed many thousands of years for it, and called those documents plainly untrue [[lpc.witness.days-before-the-sun]] [[as:paraphrase]].",
+   "ratio": 0.85,
+   "sentence": "On the age of the world, Augustine rejected histories that claimed many thousands of years for it, and called those documents plainly untrue.",
+   "tags": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "verdict": "ok",
+   "why": "grounded 85% in own tagged records"
+  },
+  {
+   "draft": "By Scripture's own count, Augustine held, not 6,000 years had yet passed since the world began [[lpc.witness.days-before-the-sun]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "By Scripture's own count, Augustine held, not 6,000 years had yet passed since the world began.",
+   "tags": [
+    "lpc.witness.days-before-the-sun"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "lpc.witness.the-only-son-and-the-trinity",
+  "lpc.term.catechesis",
+  "lpc.term.the-people",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.story.the-death-of-cyprian",
+  "lpc.quote.no-salvation-out-of-the-church",
+  "lpc.quote.two-hear-one-scorns-one-rises",
+  "lpc.force.augustine-engagement-cyprian-conciliar-acts",
+  "lpc.witness.infants-and-the-sin-of-another",
+  "lpc.term.grace",
+  "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+  "lpc.gravity.grace-and-human-incapacity"
+ ],
+ "raw_text": "What we hold on the origins of the world is Augustine's reading of the days of Genesis, in his City of God [[lpc.witness.days-before-the-sun]] [[as:paraphrase]].\n\nAugustine reasoned that ordinary days have morning and evening only by the sun's own rising and setting [[lpc.witness.days-before-the-sun]] [[as:paraphrase]]. Yet Genesis reports the first three days before the sun existed, since the sun was made only on the fourth day [[lpc.witness.days-before-the-sun]] [[as:paraphrase]].\n\nAugustine named that difficulty honestly rather than explaining it away [[lpc.witness.days-before-the-sun]] [[as:paraphrase]]. What kind of light made those days, and by what movement it made evening and morning, Augustine called beyond the reach of our senses [[lpc.witness.days-before-the-sun]] [[as:paraphrase]]. We cannot understand how it was, Augustine said, and yet we must believe it [[lpc.witness.days-before-the-sun]] [[as:paraphrase]].\n\nOn the age of the world, Augustine rejected histories that claimed many thousands of years for it, and called those documents plainly untrue [[lpc.witness.days-before-the-sun]] [[as:paraphrase]]. By Scripture's own count, Augustine held, not 6,000 years had yet passed since the world began [[lpc.witness.days-before-the-sun]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C15.S2",
+ "text": "What we hold on the origins of the world is Augustine's reading of the days of Genesis, in his City of God.\n\nAugustine reasoned that ordinary days have morning and evening only by the sun's own rising and setting. Yet Genesis reports the first three days before the sun existed, since the sun was made only on the fourth day.\n\nAugustine named that difficulty honestly rather than explaining it away. What kind of light made those days, and by what movement it made evening and morning, Augustine called beyond the reach of our senses. We cannot understand how it was, Augustine said, and yet we must believe it.\n\nOn the age of the world, Augustine rejected histories that claimed many thousands of years for it, and called those documents plainly untrue. By Scripture's own count, Augustine held, not 6,000 years had yet passed since the world began.",
+ "voice_set_aside": false
+}

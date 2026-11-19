@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: cappadocian.source.basil-on-the-holy-spirit
-  locus: "On the Holy Spirit, ch. 1, sec. 3 (npnf208_basil-letters-select-works.xml)"
+  locus: "On the Holy Spirit, ch. 1, sec. 3 (cic/texts/npnf208_basil-letters-select-works.xml, lines 8793-8822)"
   license: public-domain
 text: >-
   Lately when praying with the people, and using the full doxology to

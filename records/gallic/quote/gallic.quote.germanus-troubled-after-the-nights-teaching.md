@@ -22,7 +22,7 @@ confidence:
     own summary of it, not the teaching itself.
 sources:
 - source_id: gallic.source.cassian-conferences-part-ii
-  locus: "Conferences XIII.1 (npnf211 div iv.v.iv.i, file lines 37489-37505): the scruple that arose at morning service after the previous night's discussion, and Chaeremon's arrival"
+  locus: "Conferences XIII.1 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 37489-37505; div iv.v.iv.i): the scruple that arose at morning service after the previous night's discussion, and Chaeremon's arrival"
   license: public-domain
 retrieval:
   tier: 2

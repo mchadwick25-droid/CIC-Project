@@ -74,7 +74,7 @@ use_note:
   means: "Donatist bishops signed a petition 'of the party of Donatus'; Optatus read it as naming a man instead of Christ's church, which Donatists did not accept."
   not_for:
     - "a claim that Donatist is a neutral scholarly label with no side taken"
-    - "a claim that it was a founder-centred personality cult in the modern sectarian sense"
+    - "a claim that it was a founder-centered personality cult in the modern sectarian sense"
     - "a claim that it was the settled self-description, when the preferred self-naming appears to have run the other way"
   years: {from: 311, to: 439}
   status: reviewed

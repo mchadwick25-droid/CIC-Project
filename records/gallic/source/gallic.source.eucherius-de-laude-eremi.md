@@ -20,6 +20,7 @@ edition: Eucherius of Lyon, De Laude Eremi (to Hilary of Arles, c. 428), Latin, 
   Latina 50 (1846), vendored as cic/texts/eucherius-lyon_de-laude-eremi_migne-pl50.txt
 citation: Eucherius of Lyon, De Laude Eremi, to Hilary of Arles (c. 428), Latin text from Migne, Patrologia Latina 50 (1846)
 kind: vendored
+shelf_row: eucherius-lyon_de-laude-eremi_migne-pl50--de-laude-eremi-ad-hilarium-lirinensem-presbyterum-in-praise
 rights_status: "public-domain; vendored 2026-09-09 and independently rights-verified (archive.org public-domain/rights metadata directly checked; title, editor, date, and contents independently re-verified)"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 26; a specific named source (author, translator,
@@ -29,4 +30,4 @@ discovery_channel: builder-prior-knowledge; Source Registry row 26; a specific n
 external_ids:
   gallic_source_registry_row: 26
 ---
-The island as a harbour for the shipwrecked; the Egyptian fathers' 'crying signs' (Doc_04 G2/G6; gallicstory014's own Formation Ecology Connection). Latin only; not examined beyond location and identity here -- the specific rendered phrases used downstream (Doc_04, Doc_09) were located and read at their own build steps, each carrying Inferential-Thin wording status of its own, disclosed at those loci, not claimed here.
+The island as a harbor for the shipwrecked; the Egyptian fathers' 'crying signs' (Doc_04 G2/G6; gallicstory014's own Formation Ecology Connection). Latin only; not examined beyond location and identity here -- the specific rendered phrases used downstream (Doc_04, Doc_09) were located and read at their own build steps, each carrying Inferential-Thin wording status of its own, disclosed at those loci, not claimed here.

@@ -1,0 +1,203 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.limit.the-outsiders-own-view"
+   ],
+   "sentence": "Our own record cannot say whether believers hid in catacombs."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.the-outsiders-own-view"
+   ],
+   "sentence": "What an outsider found strangest about us, we cannot answer from inside our own record either."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.blamed-for-the-worlds-troubles"
+   ],
+   "sentence": "What we do hold is a neighbour's charge, because Cyprian wrote a whole reply to it."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.blamed-for-the-worlds-troubles",
+    "lpc.limit.the-outsiders-own-view"
+   ],
+   "sentence": "A Roman official named Demetrianus accused us of causing the wars, plague and famine of the world, by refusing to worship the old gods."
+  },
+  {
+   "record_ids": [
+    "lpc.witness.blamed-for-the-worlds-troubles"
+   ],
+   "sentence": "That charge reaches us in our own bishop's words, and the neighbour's own words do not survive."
+  },
+  {
+   "record_ids": [
+    "lpc.force.decian-persecution-libelli-system"
+   ],
+   "sentence": "The Decian persecution worked through certificates recording that the holder had sacrificed."
+  },
+  {
+   "record_ids": [
+    "lpc.force.decian-persecution-libelli-system"
+   ],
+   "sentence": "It demanded a recorded act of compliance more than it demanded that Christians give up their faith."
+  },
+  {
+   "record_ids": [
+    "lpc.term.libelli"
+   ],
+   "sentence": "Some people paid for a paper saying they had sacrificed, without sacrificing at all."
+  },
+  {
+   "record_ids": [
+    "lpc.quote.let-us-too-be-beheaded-with-him"
+   ],
+   "sentence": "The Acta Proconsularia of Cyprian records: “After this sentence the crowd of the brothers kept saying, ‘Let us be beheaded with him too.’ Because of this an uproar rose among the brothers, and a large crowd followed him.”"
+  }
+ ],
+ "citations": [
+  "lpc.force.decian-persecution-libelli-system",
+  "lpc.limit.the-outsiders-own-view",
+  "lpc.quote.let-us-too-be-beheaded-with-him",
+  "lpc.term.libelli",
+  "lpc.witness.blamed-for-the-worlds-troubles"
+ ],
+ "group": "A",
+ "id": "q013",
+ "net_sentences": [
+  {
+   "draft": "Our own record cannot say whether believers hid in catacombs [[lpc.limit.the-outsiders-own-view]] [[as:paraphrase]].",
+   "sentence": "Our own record cannot say whether believers hid in catacombs.",
+   "tags": [
+    "lpc.limit.the-outsiders-own-view"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "What an outsider found strangest about us, we cannot answer from inside our own record either [[lpc.limit.the-outsiders-own-view]] [[as:paraphrase]].",
+   "sentence": "What an outsider found strangest about us, we cannot answer from inside our own record either.",
+   "tags": [
+    "lpc.limit.the-outsiders-own-view"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "What we do hold is a neighbour's charge, because Cyprian wrote a whole reply to it [[lpc.witness.blamed-for-the-worlds-troubles]] [[as:paraphrase]].",
+   "ratio": 0.86,
+   "sentence": "What we do hold is a neighbour's charge, because Cyprian wrote a whole reply to it.",
+   "tags": [
+    "lpc.witness.blamed-for-the-worlds-troubles"
+   ],
+   "verdict": "ok",
+   "why": "grounded 86% in own tagged records"
+  },
+  {
+   "draft": "A Roman official named Demetrianus accused us of causing the wars, plague and famine of the world, by refusing to worship the old gods [[lpc.witness.blamed-for-the-worlds-troubles]] [[lpc.limit.the-outsiders-own-view]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "A Roman official named Demetrianus accused us of causing the wars, plague and famine of the world, by refusing to worship the old gods.",
+   "tags": [
+    "lpc.witness.blamed-for-the-worlds-troubles",
+    "lpc.limit.the-outsiders-own-view"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "That charge reaches us in our own bishop's words, and the neighbour's own words do not survive [[lpc.witness.blamed-for-the-worlds-troubles]] [[as:paraphrase]].",
+   "ratio": 0.83,
+   "sentence": "That charge reaches us in our own bishop's words, and the neighbour's own words do not survive.",
+   "tags": [
+    "lpc.witness.blamed-for-the-worlds-troubles"
+   ],
+   "verdict": "ok",
+   "why": "grounded 83% in own tagged records"
+  },
+  {
+   "draft": "The Decian persecution worked through certificates recording that the holder had sacrificed [[lpc.force.decian-persecution-libelli-system]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The Decian persecution worked through certificates recording that the holder had sacrificed.",
+   "tags": [
+    "lpc.force.decian-persecution-libelli-system"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "It demanded a recorded act of compliance more than it demanded that Christians give up their faith [[lpc.force.decian-persecution-libelli-system]] [[as:paraphrase]].",
+   "sentence": "It demanded a recorded act of compliance more than it demanded that Christians give up their faith.",
+   "tags": [
+    "lpc.force.decian-persecution-libelli-system"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Some people paid for a paper saying they had sacrificed, without sacrificing at all [[lpc.term.libelli]] [[as:paraphrase]].",
+   "sentence": "Some people paid for a paper saying they had sacrificed, without sacrificing at all.",
+   "tags": [
+    "lpc.term.libelli"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The Acta Proconsularia of Cyprian records: [[quote:lpc.quote.let-us-too-be-beheaded-with-him]]",
+   "placed_quote": "lpc.quote.let-us-too-be-beheaded-with-him",
+   "sentence": "The Acta Proconsularia of Cyprian records: “After this sentence the crowd of the brothers kept saying, ‘Let us be beheaded with him too.’ Because of this an uproar rose among the brothers, and a large crowd followed him.”",
+   "tags": [
+    "lpc.quote.let-us-too-be-beheaded-with-him"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "lpc.limit.the-outsiders-own-view",
+  "lpc.witness.blamed-for-the-worlds-troubles",
+  "lpc.term.libelli",
+  "lpc.story.the-death-of-cyprian",
+  "lpc.story.numidicus",
+  "lpc.quote.let-us-too-be-beheaded-with-him",
+  "lpc.quote.numidicus-remained-unwillingly",
+  "lpc.force.decian-persecution-libelli-system",
+  "lpc.witness.judged-on-the-life-lived-here",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.quote.left-doubtful-a-kind-of-purgatorial-fire",
+  "lpc.quote.not-his-own-sins-but-the-sins-of-another"
+ ],
+ "raw_text": "Our own record cannot say whether believers hid in catacombs [[lpc.limit.the-outsiders-own-view]] [[as:paraphrase]]. What an outsider found strangest about us, we cannot answer from inside our own record either [[lpc.limit.the-outsiders-own-view]] [[as:paraphrase]]. What we do hold is a neighbour's charge, because Cyprian wrote a whole reply to it [[lpc.witness.blamed-for-the-worlds-troubles]] [[as:paraphrase]]. A Roman official named Demetrianus accused us of causing the wars, plague and famine of the world, by refusing to worship the old gods [[lpc.witness.blamed-for-the-worlds-troubles]] [[lpc.limit.the-outsiders-own-view]] [[as:paraphrase]]. That charge reaches us in our own bishop's words, and the neighbour's own words do not survive [[lpc.witness.blamed-for-the-worlds-troubles]] [[as:paraphrase]]. The Decian persecution worked through certificates recording that the holder had sacrificed [[lpc.force.decian-persecution-libelli-system]] [[as:paraphrase]]. It demanded a recorded act of compliance more than it demanded that Christians give up their faith [[lpc.force.decian-persecution-libelli-system]] [[as:paraphrase]]. Some people paid for a paper saying they had sacrificed, without sacrificing at all [[lpc.term.libelli]] [[as:paraphrase]]. When Cyprian was sentenced, Pontius and the Acta both tell of his death, and they agree on the core [[lpc.story.the-death-of-cyprian]] [[as:paraphrase]]. The Acta Proconsularia of Cyprian records: [[quote:lpc.quote.let-us-too-be-beheaded-with-him]] [[as:paraphrase]]. No spectator in that crowd left an account of his own [[lpc.story.the-death-of-cyprian]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [
+   "lpc.quote.let-us-too-be-beheaded-with-him"
+  ],
+  "removed": [
+   {
+    "draft": "When Cyprian was sentenced, Pontius and the Acta both tell of his death, and they agree on the core [[lpc.story.the-death-of-cyprian]] [[as:paraphrase]].",
+    "sentence": "When Cyprian was sentenced, Pontius and the Acta both tell of his death, and they agree on the core.",
+    "why": "tells an offered story without placing it"
+   },
+   {
+    "draft": "No spectator in that crowd left an account of his own [[lpc.story.the-death-of-cyprian]] [[as:paraphrase]].",
+    "sentence": "No spectator in that crowd left an account of his own.",
+    "why": "tells an offered story without placing it"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C9.S1",
+ "text": "Our own record cannot say whether believers hid in catacombs. What an outsider found strangest about us, we cannot answer from inside our own record either. What we do hold is a neighbour's charge, because Cyprian wrote a whole reply to it. A Roman official named Demetrianus accused us of causing the wars, plague and famine of the world, by refusing to worship the old gods. That charge reaches us in our own bishop's words, and the neighbour's own words do not survive. The Decian persecution worked through certificates recording that the holder had sacrificed. It demanded a recorded act of compliance more than it demanded that Christians give up their faith. Some people paid for a paper saying they had sacrificed, without sacrificing at all. The Acta Proconsularia of Cyprian records: “After this sentence the crowd of the brothers kept saying, ‘Let us be beheaded with him too.’ Because of this an uproar rose among the brothers, and a large crowd followed him.”.",
+ "voice_set_aside": false
+}

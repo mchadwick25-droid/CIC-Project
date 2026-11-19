@@ -20,6 +20,7 @@ edition: King's 1888 translation, transcribed by Roger Pearse, vendored as cic/t
   and cic/texts/gregory-nazianzen_second-invective-against-julian_king1888.txt
 citation: Gregory of Nazianzus, Orations 4 and 5, First and Second Invectives Against Julian, trans. King (1888), transcribed by Roger Pearse
 kind: vendored
+shelf_row: gregory-nazianzen_first-invective-against-julian_king1888--first-invective-against-julian-the-emperor-oration-4
 rights_status: "public-domain; vendored and independently verified (identity, completeness, provenance) before vendoring"
 attribution_status: attributed
 discovery_channel: builder-prior-knowledge; Source Registry row 33; the file itself was independently

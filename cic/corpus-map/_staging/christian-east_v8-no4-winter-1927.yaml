@@ -1,0 +1,30 @@
+source_file: christian-east_v8-no4-winter-1927.txt
+assignments:
+- row_id: christian-east_v8-no4-winter-1927--the-christian-east-volume-viii-number-4-winter-1927
+  work: 'The Christian East, volume VIII, number 4 (Winter, 1927)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  note: 'An Anglican quarterly on the Eastern churches; many writers, and the documents it prints are in translation.'
+- row_id: christian-east_v8-no4-winter-1927--the-christian-east-volume-viii-number-4-winter-1927-on-the
+  work: 'The Christian East, volume VIII, number 4 (Winter, 1927): on the Russian church under persecution'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-russian-new-martyrs-and-the-catacomb-church
+  role: context
+  confidence: assigned
+  note: 'An Anglican journal''s reports on the Russian church under persecution; an outside witness.'
+- row_id: christian-east_v8-no4-winter-1927--metropolitan-sergius-letter-of-16-29-july-1927-in-the
+  work: 'Metropolitan Sergius, letter of 16/29 July 1927, in The Christian East'
+  author: christian-east
+  locus: 'lines 363-568'
+  atlas_ids:
+  - the-russian-new-martyrs-and-the-catacomb-church
+  - the-russian-orthodox-church-council-patriarchate-and-reunion
+  role: tradition
+  confidence: assigned
+  note: 'His own letter with the Synod''s signatures, in an English whose maker the print does not name; the journal says it prints it in full.'

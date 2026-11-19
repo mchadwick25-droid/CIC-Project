@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: ijc.source.leo-sermons
-  locus: Sermon LXXXII, ch. 1 (npnf212 lines 20995-21010)
+  locus: "Sermon LXXXII, ch. 1 (cic/texts/npnf212_leo-great-gregory-great.xml, lines 20998-21003)"
   license: public-domain
 text: These are they who promoted thee to such glory, that being made a holy nation, a chosen people,
   a priestly and royal state , and the head of the world through the blessed Peter's holy See thou didst

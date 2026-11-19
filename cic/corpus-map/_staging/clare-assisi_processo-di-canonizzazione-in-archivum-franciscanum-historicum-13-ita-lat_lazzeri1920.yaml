@@ -1,0 +1,11 @@
+source_file: clare-assisi_processo-di-canonizzazione-in-archivum-franciscanum-historicum-13-ita-lat_lazzeri1920.txt
+assignments:
+- row_id: clare-assisi_processo-di-canonizzazione-in-archivum-franciscanum-historicum-13-ita-lat_lazzeri1920--the-process-of-canonization-of-clare-of-assisi-italian
+  work: 'The process of canonization of Clare of Assisi, Italian version (Lazzeri, AFH 13, 1920)'
+  author: clare-assisi
+  locus: 'about OCR lines 30711-38400; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-franciscan-movement
+  role: tradition
+  confidence: provisional
+  note: 'The sworn words of the sisters of San Damiano and others, taken for the canonization. They survive in an Italian version, not the Latin record, so the wording is a translator''s.'

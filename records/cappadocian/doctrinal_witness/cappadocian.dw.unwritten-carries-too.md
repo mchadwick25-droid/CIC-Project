@@ -59,7 +59,7 @@ use_note:
   not_for:
     - "scripture and tradition set against each other as rival powers"
     - "a settled answer on whether the argument was inherited conviction or Basil's own forensic invention"
-    - "the catalogue of facing east and standing at prayer, which sits in cappadocian.quote.we-look-to-the-east"
+    - "the catalog of facing east and standing at prayer, which sits in cappadocian.quote.we-look-to-the-east"
   years: {from: 375, to: 375}
   status: reviewed
 ---

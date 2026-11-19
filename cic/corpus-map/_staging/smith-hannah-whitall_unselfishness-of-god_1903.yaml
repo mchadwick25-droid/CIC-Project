@@ -1,0 +1,21 @@
+source_file: smith-hannah-whitall_unselfishness-of-god_1903.txt
+assignments:
+- row_id: smith-hannah-whitall_unselfishness-of-god_1903--the-unselfishness-of-god-and-how-i-discovered-it-a-spiritual
+  work: 'The Unselfishness of God and How I Discovered It: a spiritual autobiography'
+  author: smith-hannah-whitall
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - the-holiness-movement
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1903
+    end: 1903
+    source: the copyright notice at lines 69-70 ('Copyright, 1903, by Fleming H. Revell Company')
+    formation_confidence: Documented
+  edition_date:
+    year: 1903
+    source: the copyright notice at lines 69-70 ('Copyright, 1903, by Fleming H. Revell Company')
+    formation_confidence: Documented
+  note: 'Era 9 row 234, Hannah Whitall Smith: her spiritual autobiography.'

@@ -1,0 +1,11 @@
+source_file: ramabai_high-caste-hindu-woman_1888.txt
+assignments:
+- row_id: ramabai_high-caste-hindu-woman_1888--ramabai-the-high-caste-hindu-woman
+  work: 'Ramabai, The High-Caste Hindu Woman'
+  author: ramabai
+  locus: 'whole; Bodley''s introduction is not hers'
+  atlas_ids:
+  - the-1904-07-revival-family-wales-mukti-india-pyo
+  role: antecedent
+  confidence: assigned
+  note: 'Her own words, written in 1887, before the entry''s window of 1904-1910 and before Mukti.'

@@ -18,6 +18,7 @@ work: "Dialogi I.8-9 (c. 404): Postumianus's account of visiting Bethlehem - 'th
 edition: "trans. Alexander Roberts, NPNF2-11, vendored as cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, div ids ii.iv.i.viii-ix"
 citation: Sulpitius Severus, Dialogi I.8-9, trans. Alexander Roberts, Nicene and Post-Nicene Fathers, 2nd series, vol. 11
 kind: vendored
+shelf_row: npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus-2
 rights_status: public-domain
 attribution_status: attributed
 discovery_channel: "located in the vendored corpus during this branch's step-2 pass - one of very few non-Jerome attestations of the Bethlehem community within the window; rights read from the file's own DC.Rights header (Public Domain, file line 76)"

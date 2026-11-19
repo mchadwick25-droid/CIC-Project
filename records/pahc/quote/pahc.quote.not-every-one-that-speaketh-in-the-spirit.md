@@ -16,8 +16,7 @@ confidence:
     Documented as the Didache's own rule, from a manual whose date and place are contested (see pahc.source.didache). What it evidences securely is that a community using this manual needed a test for prophets and settled on one.
 sources:
 - source_id: pahc.source.didache
-  locus: >-
-    The Teaching of the Twelve Apostles, ch. XI.8-9, in the ANF (Riddle) translation (anf07_lactantius-apostolic-constitutions-didache-liturgies.xml); the edition's interleaved footnotes and scriptural cross-references are removed from the text quoted here
+  locus: "The Teaching of the Twelve Apostles, ch. XI.8-9, in the ANF (Riddle) translation (cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml, lines 13026-13028); the edition's interleaved footnotes and scriptural cross-references are removed from the text quoted here"
   license: public-domain
 text: >-
   But not every one that speaketh in the Spirit is a prophet; but only if he hold the ways of the Lord. Therefore from their ways shall the false prophet and the prophet be known. And every prophet who ordereth a meal in the Spirit eateth not from it, except indeed he be a false prophet...

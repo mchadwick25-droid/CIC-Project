@@ -1,0 +1,22 @@
+source_file: darby_dialogues-on-the-essays-and-reviews_2nd-ed1863.txt
+assignments:
+- row_id: darby_dialogues-on-the-essays-and-reviews_2nd-ed1863--dialogues-on-the-essays-and-reviews-second-edition-revised
+  work: DIALOGUES ON THE ESSAYS AND REVIEWS. Second edition, revised
+  author: darby
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - plymouth-brethren-and-dispensational-formation
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1863
+    end: 1863
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n5; the OCR does not give it cleanly'
+    formation_confidence: Documented
+  edition_date:
+    year: 1863
+    source: read on the scan's page image, leaf n5; the OCR does not give it cleanly
+    formation_confidence: Documented
+  note: 'Era 9 row 181, John Nelson Darby: a book of his own, printed without his name. The title page names no
+    author; the archive.org record names Darby.'

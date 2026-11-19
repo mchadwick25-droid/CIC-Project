@@ -18,8 +18,7 @@ confidence:
     carries the claim as Salvian states it.
 sources:
 - source_id: gallic.source.salvian-on-the-government-of-god
-  locus: "V.5 (Sanford p. 142): Romans fleeing to the Goths and the Bagaudae, preferring barbarian
-    rule to Roman injustice"
+  locus: "V.5 (Sanford p. 142): Romans fleeing to the Goths and the Bagaudae, preferring barbarian rule to Roman injustice (cic/texts/salvian_on-the-government-of-god_sanford1930.txt, lines 6457-6459)"
   license: public-domain
 retrieval:
   tier: 2

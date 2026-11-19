@@ -106,7 +106,7 @@ works:
   confidence: assigned
   note: 'A standalone 1890 English publication of the Dordrecht Confession (1632) with the
     movement''s own catechism and sacramental forms - distinct from and independent of the
-    Confession''s reproduction inside the already-vendored Martyrs Mirror (van-braght_martyrs-mirror_sohm1886.txt).
+    Confession''s reproduction inside the already-vendored Martyrs Mirror (van-braght_martyrs-mirror_sohm-elkhart1886.txt).
 
     '
   source_file: dordrecht-confession_ministers-manual_elkhart1890.txt
@@ -336,20 +336,24 @@ works:
 
     '
   source_file: taeuferakten-wuerttemberg_quellen-geschichte-wiedertaeufer-1-deu_bossert1930.txt
-- row_id: van-braght_martyrs-mirror_sohm1886--the-bloody-theater-or-martyrs-mirror-of-the-defenseless
-  work: The Bloody Theater, or Martyrs' Mirror of the Defenseless Christians
+- row_id: van-braght_martyrs-mirror_sohm-elkhart1886--the-bloody-theatre-or-martyrs-mirror-of-the-defenseless
+  work: The Bloody Theatre, or Martyrs Mirror of the Defenseless Christians
   author: van-braght
   locus: whole text
   role: tradition
   confidence: assigned
-  note: 'Thieleman J. van Braght''s 1660 martyrological compilation, trans. Joseph F. Sohm
-    (1886 English edition) - embeds named primary documents including Michael Sattler''s trial
-    record and Anneken Jans''s prison testament. Assigned as one body per the corpus''s own
-    large-volume granularity rule; a future pass may want to split out the specific named
-    martyr accounts as separate works once a build thread reaches this material.
-
-    '
-  source_file: van-braght_martyrs-mirror_sohm1886.txt
+  language: eng
+  date:
+    start: 1659
+    end: 1660
+    source: 'van Braght''s Invocation dated ''Dort, July the 23d, 1659'' (file line 345) and
+      the title leaf: ''from the Edition of 1660'''
+    formation_confidence: Documented
+  note: 'Thieleman J. van Braght''s martyr book of 1660 in Joseph F. Sohm''s English, the
+    Elkhart printing of 1886. It embeds named documents in English: the articles against Michael
+    Sattler and his sentence (file lines 57853 to 58118) and the testament of Anna of Rotterdam
+    to her son (from file line 62960).'
+  source_file: van-braght_martyrs-mirror_sohm-elkhart1886.txt
 - row_id: vedder_balthasar-hubmaier_1905--balthasar-hubmaier-the-leader-of-the-anabaptists-incl
   work: 'Balthasar Hubmaier: The Leader of the Anabaptists (incl. Appendix: full translation
     of Hubmaier''s ''On the Sword,'' 1527)'

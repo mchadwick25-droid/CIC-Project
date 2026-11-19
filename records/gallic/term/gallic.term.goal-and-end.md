@@ -72,7 +72,7 @@ senses:
   informational: >-
     Abbot Moses will not begin a conference without it. "All the arts and sciences, said he, have some
     goal or mark; and end or aim of their own" - the farmer bears heat and frost for a harvest, the
-    merchant crosses seas for gain, the soldier serves for honour, "and our profession too has its own
+    merchant crosses seas for gain, the soldier serves for honor, "and our profession too has its own
     goal and end, for which we undergo all sorts of toils not merely without weariness but actually
     with delight." Then the two parts: "The end of our profession indeed ... is the kingdom of God or
     the kingdom of heaven: but the immediate aim or goal, is purity of heart, without which no one can

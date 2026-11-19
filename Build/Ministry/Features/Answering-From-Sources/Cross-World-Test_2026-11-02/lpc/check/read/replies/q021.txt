@@ -1,0 +1,11 @@
+{"sentences": [
+{"n": 1, "supported": true, "problem": null, "reason": "The core record says the material evidence is carried in a text, from a letter and not a trench."},
+{"n": 2, "supported": true, "problem": null, "reason": "The core record says Letter CXXVI to Albina (411) describes an apse, raised clergy seating, steps and a floor for the congregation."},
+{"n": 3, "supported": true, "problem": null, "reason": "The core record says site reports and inscription collections exist but none has been read for this world's worship."},
+{"n": 4, "supported": true, "problem": null, "reason": "The core record says the material evidence is unread, not absent."},
+{"n": 5, "supported": true, "problem": null, "reason": "The core record says it has no distinctive inscription tied to its worship."},
+{"n": 6, "supported": true, "problem": null, "reason": "The force record says Cyprian took over a church big enough to hold real factions that could call councils of dozens of bishops."},
+{"n": 7, "supported": true, "problem": null, "reason": "The force record speaks of the councils that met and left written acts."},
+{"n": 8, "supported": true, "problem": null, "reason": "The force record says those acts are what Augustine later read and argued with."}
+],
+"placed": []}

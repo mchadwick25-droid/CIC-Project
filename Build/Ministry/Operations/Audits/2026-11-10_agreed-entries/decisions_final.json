@@ -1,0 +1,213 @@
+{
+ "exclude_source_classes": [
+  "reported",
+  "attributed"
+ ],
+ "carthusian_option": "a",
+ "rows_drop": [
+  {
+   "movement": "russian-church-stoglav-to-nikon",
+   "name": "Metropolitan Macarius",
+   "why": "F1: the held row is a Life he compiled, not his own words"
+  }
+ ],
+ "field_overrides": [
+  {
+   "id": "john-wesley",
+   "set": {
+    "shortName": "John Wesley"
+   },
+   "reason": "'Wesley' alone also names Charles Wesley, a named voice in the same row."
+  },
+  {
+   "id": "thomas-a-kempis",
+   "set": {
+    "modernCountries": []
+   },
+   "reason": "No census entry has place IDs for Mount St Agnes or Deventer; the home entry also lists none. Open-Gaps."
+  },
+  {
+   "id": "carthusians-later-middle-ages",
+   "set": {
+    "modernCountries": [
+     {
+      "country": "France",
+      "countryId": "Q142",
+      "place": "Chartreuse",
+      "placeId": "Q1067900"
+     }
+    ]
+   },
+   "reason": "London has no place ID in the census; England is not on the label. Open-Gaps."
+  },
+  {
+   "id": "the-methodist-revival--the-holiness-movement",
+   "kind": "edge",
+   "set": {
+    "note": "In his Large Minutes, John Wesley told his preachers to urge all believers to 'go on to perfection'. He meant being saved from all sin, as love for God and neighbor fills the heart. Holiness writers of the 1800s took up this teaching and called it Wesley's own."
+   },
+   "reason": "Names John Wesley in full, so the link names the person it concerns; Charles Wesley shares the surname."
+  },
+  {
+   "id": "restoration-georgian-church-of-england--the-methodist-revival--2",
+   "kind": "edge",
+   "set": {
+    "note": "In 1785 John Wesley wrote that he had varied from the Church of England's discipline, though not from its doctrines, and only 'by constraint'. He had preached in the fields because the churches were shut to him. If anyone called this separating from the Church, he wrote, 'he may'. In 1795 the Methodist Conference let a chapel hold the Lord's Supper if its trustees, its leaders and the Conference agreed. It was a long step toward a separate church."
+   },
+   "reason": "Names John Wesley in full, so the link names the person it concerns; Charles Wesley shares the surname."
+  }
+ ],
+ "rows_patch": [
+  {
+   "movement": "aquileian-christianity",
+   "name": "Ambrose of Milan",
+   "set": {
+    "source": {
+     "work": "Gesta of the Council of Aquileia (381), in Maximinus' Dissertatio (Kauffmann 1899)",
+     "file": "cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt",
+     "lines": "14728",
+     "quote": "qui sunt consortes uestri?"
+    }
+   },
+   "why": "F2: the council record, not the editor's introduction"
+  },
+  {
+   "movement": "pelagianism",
+   "name": "Julian of Eclanum",
+   "set": {
+    "source": {
+     "work": "Julian of Eclanum, as quoted in Augustine's Unfinished Work against Julian iii.82, in B. B. Warfield's introduction (NPNF 1/5)",
+     "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml",
+     "lines": "827",
+     "quote": "faith that God creates men obnoxious to no sin, but full of natural innocence, and with capacity for voluntary virtues."
+    }
+   },
+   "why": "F8: names the primary text"
+  },
+  {
+   "movement": "gothic-and-vandal-homoian-christianity",
+   "name": "Ulfila",
+   "unset": [
+    "held",
+    "author"
+   ],
+   "set": {
+    "source": {
+     "work": "Auxentius of Durostorum, Letter on the Faith, Life and Death of Ulfila (Kauffmann 1899)",
+     "file": "cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt",
+     "lines": "7431",
+     "quote": "ego ulfila episkopus et confessor semper sie credidi et in hac fide sola"
+    }
+   },
+   "why": "F9: his own creed, as in the Homoian row, not his Bible translation"
+  },
+  {
+   "movement": "joachimite-current",
+   "name": "Gerard of Borgo San Donnino",
+   "set": {
+    "source": {
+     "work": "A gloss cited by the commission of Anagni, in Denifle, Archiv I (1885)",
+     "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt",
+     "lines": "3535-3536",
+     "quote": "regni vocat evangelium spirituale, quod b. Joannes vocat evangelium etemum"
+    }
+   },
+   "why": "F7: relabelled; attributed, preserved by the commission"
+  }
+ ],
+ "rows_add": [
+  {
+   "movement": "syriac-orthodox-under-islam",
+   "item": {
+    "name": "Dionysius of Tel Mahre",
+    "year": 818,
+    "voice": 1,
+    "source": {
+     "work": "Dionysius of Tel Mahre, a passage of his history kept by Michael the Syrian, Chronicle XI (trans. Chabot, 1901)",
+     "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt",
+     "lines": "36788-36790",
+     "quote": "J'ai pris ces choses des histoires de Daniel, fils de Samuel, du Tour 'Abdîn, mon grand-père maternel."
+    }
+   },
+   "why": "F3: wrongly left out; year 818, the start of his patriarchate (general reference), for ordering only"
+  }
+ ],
+ "notes_override": {
+  "apocryphal-and-pseudepigraphal-literature": "No one is shown. These books carry no author's name, or a borrowed one, so no real author can be named.",
+  "ebionite-nazoraean-current": "No one is shown. No leader of these groups is named in a source of their own. Their founder, Ebion, is most likely a name later writers made up.",
+  "armenian-christianity-before-the-bagratids": "No people have been added to this entry yet, so no one is shown.",
+  "medieval-irish-christianity": "No people have been added to this entry yet, so no one is shown.",
+  "medieval-welsh-christianity": "No people have been added to this entry yet, so no one is shown.",
+  "church-of-the-east-under-the-abbasids": "No people have been added to this entry yet, so no one is shown.",
+  "kongo-christianity-afonso-to-1650": "No people have been added to this entry yet, so no one is shown.",
+  "kirishitan-japan": "No people have been added to this entry yet, so no one is shown.",
+  "china-mission-born-christianity": "No people have been added to this entry yet, so no one is shown.",
+  "new-spain-and-andes-mission-born-christianity": "No people have been added to this entry yet, so no one is shown.",
+  "st-thomas-christians-of-india": "No one is shown. Tradition remembers Mar Sabor and Mar Proth. But no words from inside the church survive from these years.",
+  "paulicians": "No one is shown. We know every Paulician name from their enemies. Nothing a Paulician wrote is in the Library.",
+  "bogomils": "No one is shown. Nothing Bogomil wrote survives. The Library does not yet hold a readable copy of the sermon Cosmas the Priest wrote against his followers.",
+  "post-aksumite-ethiopian-christianity": "No one is shown. No one from these years can be named with confidence. The names later tradition gives cannot be checked.",
+  "free-spirit-heresy": "No one is shown. Marguerite Porete's book is not in the Library. The others are known only from the records of their trials.",
+  "balkan-bogomil-continuation": "No one is shown. No Bogomil words survive. The Library does not hold the hostile writers who named them.",
+  "the-humiliati": "No one is shown. The Humiliati were groups of lay people, organized by trade and town, and no founder or leader is named on record.",
+  "late-medieval-lay-parish-piety": "No one is shown. This is the faith of the ordinary parish. Its people appear by name in records, but they wrote nothing about themselves.",
+  "waldensians-in-the-alps": "No one is shown. Their preachers, the barbes, are seldom named, and then mostly by the men who put them on trial.",
+  "the-antonian-movement-in-kongo": "No one is shown. Beatriz Kimpa Vita's words survive only in reports by the men who condemned her. The Library does not hold those reports yet.",
+  "disciples-of-christ-and-independent-christian-churches": "No one is shown. This entry rests on councils, churches and documents, not on any one person's own words.",
+  "the-ecumenical-movement-and-the-wcc": "No one is shown. This entry rests on councils, churches and documents, not on any one person's own words.",
+  "the-anglican-communion-twentieth-century": "No one is shown. This entry rests on councils, churches and documents, not on any one person's own words.",
+  "the-church-struggle-against-apartheid": "No one is shown. This entry rests on councils, churches and documents, not on any one person's own words.",
+  "protestantism-in-latin-america": "No one is shown. This entry rests on councils, churches and documents, not on any one person's own words.",
+  "the-romanian-greek-catholic-church-suppression-and-return": "No one is shown. This entry rests on councils, churches and documents, not on any one person's own words.",
+  "new-france-mission-born-christianity": "No one is shown. The people named here speak in the Library only through the Jesuits who wrote their words down.",
+  "church-of-the-east-under-the-mongols": "No one is shown. Bar Sauma's own account of his journey survives only as another writer retold it.",
+  "coptic-christianity-under-early-islam": "No one is shown. The History of the Patriarchs is linked to Severus, but whether he wrote it is disputed."
+ },
+ "class_extra": {
+  "joachimite-current|Gerard of Borgo San Donnino": "attributed"
+ },
+ "held_class": {
+  "syriac-edessa-nisibis|Bardaisan": "reported",
+  "bardaisanite-current|Bardaisan of Edessa": "reported",
+  "alexandria-catechetical|Pantaenus": "reported",
+  "church-of-the-east-under-the-mongols|Rabban Bar Sauma": "reported",
+  "the-hesychast-revival-paisius-and-the-philokalia|Mitrofan": "reported",
+  "persian-church-of-the-east-early|Marutha of Maypherqat": "attributed",
+  "coptic-christianity-under-early-islam|Severus ibn al-Muqaffa'": "attributed",
+  "rhineland-mysticism-and-the-friends-of-god|Elsbeth Stagel": "attributed"
+ },
+ "ruled": {
+  "A": "a",
+  "B": "a",
+  "C": "a",
+  "D": "a",
+  "E": "a",
+  "by": "Mark, 2026-11-10"
+ },
+ "text_fixes": [
+  {
+   "id": "cyrilline-miaphysite-egyptian-christianity",
+   "old": "the Defence against the Arians, the Defence before Constantius,",
+   "new": "the ‘Defence against the Arians’, the ‘Defence before Constantius’,",
+   "why": "The NPNF titles keep their own spelling, quoted (Decision-Log 77)."
+  },
+  {
+   "id": "english-unitarianism",
+   "old": "in defence of",
+   "new": "in defense of",
+   "why": "American spelling in our own prose (Decision-Log 77)."
+  },
+  {
+   "id": "william-tyndale",
+   "old": "who drives the plough",
+   "new": "who drives the plow",
+   "why": "Paraphrase, not a quote: American spelling (Decision-Log 77)."
+  },
+  {
+   "id": "john-wesley",
+   "old": "riches or honour",
+   "new": "riches or honor",
+   "why": "Paraphrase, not a quote: American spelling (Decision-Log 77)."
+  }
+ ]
+}

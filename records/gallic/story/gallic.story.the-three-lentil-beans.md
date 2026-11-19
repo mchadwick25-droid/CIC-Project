@@ -63,7 +63,7 @@ narrative_tier_justification: >-
   (Doc_05 §4.1's three grades of sanction). Why not Tier 1: no eyewitness, no named actors, no date.
   Why not Tier 4: it is not a composite the builder assembled but a single transmitted anecdote in its
   own source's words. Reception fact: the custom is Eastern on Cassian's own placement, and Cassian
-  himself doubts any Gallic monk kept the fathers' rigour "unbroken even for a year" (Inst. IV.2); what
+  himself doubts any Gallic monk kept the fathers' rigor "unbroken even for a year" (Inst. IV.2); what
   is Gaul's own is that it was told this, and told it as an example.
 tellable_as: >-
   During a brother's week as cook, the steward finds three lentils on the floor. The abbot judges him a

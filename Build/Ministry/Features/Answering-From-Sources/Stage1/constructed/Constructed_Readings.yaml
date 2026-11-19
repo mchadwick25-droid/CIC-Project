@@ -1,0 +1,822 @@
+# Readings of the constructed gold-set candidates (goldset/constructed.py),
+# 2026-10-29. Each candidate file was written by one Claude Opus 5.5 subagent
+# from a fixed brief; each was read by a different Opus subagent, which saw only
+# the candidate list and the bound records, against the rules in the brief: the
+# defect is real, of its class and certain from the record's own words; there is
+# no second defect; the sentence reads naturally; the record is reviewed and fit
+# to judge against. Entries whose reason starts "Read again by the gold set
+# thread" were changed by the gold set thread after that reading, always from
+# accepted to rejected. A repair changes grammar only.
+candidates:
+- dropped_negation.yaml
+- attribution_inflation.yaml
+- attribution_inflation-2.yaml
+- false_friend.yaml
+- false_friend-2.yaml
+- embedded_voice.yaml
+- embedded_voice-2.yaml
+readings:
+  cx-572da2b51b9e:
+    verdict: accepted
+    reason: The letter places these books outside the Canon but appointed for newcomers; the sentence drops 'not' and the rest is supported.
+  cx-31e10e5ad711:
+    verdict: accepted
+    reason: Dionysius says he does not reject what he cannot comprehend; the sentence drops the negation, and leaving the greater part to faith is in the record.
+  cx-69900f041461:
+    verdict: accepted
+    reason: The record says 'the most of our brethren'; the sentence shifts most to all and is otherwise supported.
+  cx-3cbacc1b63f3:
+    verdict: accepted
+    reason: Timothy answers No to whether a sick man must keep the Paschal fast; the sentence reverses the answer.
+  cx-8cded1255f65:
+    verdict: rejected
+    reason: 'Read again by the gold set thread: "we teach" for one teacher''s sermon adds a widening beside the modal shift, a second defect.'
+  cx-e5e1eb50dee3:
+    verdict: accepted
+    reason: The Didache allows warm water if cold cannot be had; the sentence adds a negation that forbids it.
+  cx-4e73837b558a:
+    verdict: accepted
+    reason: The Shepherd says the Lord remembers no wrongs; the sentence drops the negation and keeps the compassion clause.
+  cx-bd361a557401:
+    verdict: accepted
+    reason: The record says the faithful met often and in many places; the sentence shifts this to only once, and the rejection of the teachings is in the record.
+  cx-e86d29bf424a:
+    verdict: accepted
+    reason: The Didache says not everyone who speaks in the Spirit is a prophet; the sentence drops the negation.
+  cx-ab25db9aa92c:
+    verdict: accepted
+    reason: Polycrates says his relatives always kept the day; the sentence weakens always to often, and seven bishops is in the record.
+  cx-bf8a6d9e4d4c:
+    verdict: accepted
+    reason: Jerome says he partially acquired Hebrew; the sentence makes it full mastery, and the continuing study is in the record.
+  cx-5421aeb20f36:
+    verdict: accepted
+    reason: Jerome says Paula spoke Hebrew without a trace of Latin pronunciation; the sentence drops the negation.
+  cx-0637eae35daf:
+    verdict: rejected
+    reason: 'Rule 1 and 2 fail: the record is Augustine''s etic opposing position, and the reversed sentence under ''our churches'' coincides with this world''s own Hebraica veritas commitment, so the item
+      mixes embedded voice with the negation and is not certainly false for this world.'
+  cx-998d0ec6618e:
+    verdict: accepted
+    reason: Jerome says recourse was had to Marcella in any dispute; the sentence weakens whenever to now and then.
+  cx-7ee493f4c6c2:
+    verdict: accepted
+    reason: Aphrahat says only One is innocent; the sentence shifts the quantifier to a few, keeping Christ among them.
+  cx-ff93f4ec47cf:
+    verdict: rejected
+    reason: 'Rule 2 fails: besides dropping ''not'', the sentence puts the fifth-century outsider Sozomen''s ''even now'' into the world''s own mouth, shifting the time frame beyond the world''s window.'
+  cx-63152ea2c153:
+    verdict: accepted
+    reason: Socrates says the magi were decimated, one in ten; the sentence makes it every one, and the church-building grant is in the record.
+  cx-09a2a9fdfc0c:
+    verdict: accepted
+    reason: Aphrahat has the preachers warn all in the covenant, and also the young men, virgins and those seeking holiness; the sentence narrows this to only the young men.
+  cx-c9ab5b9d2fce:
+    verdict: accepted
+    reason: The rule says a newcomer must not be received until three years are complete; the sentence reverses this to joining at once.
+  cx-29e4735ec47a:
+    verdict: accepted
+    reason: The rule says no one may wash his whole body except when sick; the sentence drops the negation and keeps the dark-talk clause correctly.
+  cx-46271ce259b4:
+    verdict: accepted
+    reason: Cassian says the Egyptians never kneel in these periods; the sentence reverses never to always.
+  cx-e9816d411c26:
+    verdict: accepted
+    reason: Evagrius says whether the thoughts disturb the soul is not up to us; the sentence drops the negation.
+  cx-67217d9a73a7:
+    verdict: accepted
+    reason: Piamun says two of the three kinds are admirable and the third to be avoided; the sentence makes all three admirable, and the Coenobites being most numerous is in the record.
+  cx-36136bb245c9:
+    verdict: accepted
+    reason: Moses says a monk without discretion is sure to go wrong; the sentence weakens this to may.
+  cx-582e2b036fc2:
+    verdict: accepted
+    reason: The record says Martin never again attended a synod; the sentence shifts never to now and then.
+  cx-9d84385e0700:
+    verdict: accepted
+    reason: Cassian says nobody can reach perfection by effort alone without grace; the sentence shifts nobody to a few.
+  cx-f053a7b762de:
+    verdict: accepted
+    reason: Gallus says Martin touched no one with his hands; the sentence drops that negation and keeps the no-rebuke clause.
+  cx-f7921c77bdf6:
+    verdict: accepted
+    reason: Chaeremon calls it grievous blasphemy to think God wills only some to be saved; the sentence reverses this into the teaching.
+  cx-c34740fe1af7:
+    verdict: accepted
+    reason: Stephen's rule is that nothing new be brought in; the sentence reverses it to permit new things.
+  cx-3c48f6fc4188:
+    verdict: accepted
+    reason: Ambrose says he cannot surrender the basilica but may not fight; the sentence drops the negation on fighting.
+  cx-10ef9582df73:
+    verdict: accepted
+    reason: Ambrose says the emperor is within the Church, not above it; the sentence reverses this and keeps 'son of the Church'.
+  cx-dcfc95c1bbcf:
+    verdict: accepted
+    reason: The Definition says Christ must be confessed in two natures; the sentence weakens must to may.
+  cx-3bd79cc568de:
+    verdict: accepted
+    reason: Ambrose says neither angel nor archangel can do away sin; the sentence drops the negation.
+  cx-eddac7f067f1:
+    verdict: accepted
+    reason: The edict grants liberty to Christians and all others; the sentence narrows it to Christians alone.
+  cx-c8da52fd3dc4:
+    verdict: accepted
+    reason: Cyprian says none of us sets himself up as bishop of bishops; the sentence drops the negation and keeps each bishop's right to judge.
+  cx-c947a23e4d41:
+    verdict: accepted
+    reason: Augustine says the Lord did not offer the other cheek to the servant; the sentence drops the negation.
+  cx-27689682b5e4:
+    verdict: accepted
+    reason: Augustine warns that no one should suppose daily grave sins are atoned daily by alms; the sentence asserts it.
+  cx-3041a08a6dca:
+    verdict: accepted
+    reason: Augustine leaves the purging fire an open question; the sentence makes it certain.
+  cx-9255e0cd9546:
+    verdict: accepted
+    reason: Augustine says the offerings do not assist the very bad dead but console the living; the sentence drops the negation.
+  cx-74c4395826dd:
+    verdict: accepted
+    reason: Cyprian reports the council ruled such penitents should be helped and given peace; the sentence weakens should to may.
+  cx-63f54241e493:
+    verdict: accepted
+    reason: Article VII says human rites need not be alike everywhere; the sentence makes it a requirement.
+  cx-6449146564fe:
+    verdict: accepted
+    reason: The Conclusion says nothing was received against Scripture or the Church Catholic; the sentence shifts nothing to a few things.
+  cx-3748394386a8:
+    verdict: rejected
+    reason: 'Read again by the gold set thread: the bound record is provisional, not a reviewed record.'
+  cx-8e15d7366efd:
+    verdict: accepted
+    reason: Zwingli's article says the mass is not a sacrifice but a remembrance; the sentence drops the negation.
+  cx-f7d3841ad4f0:
+    verdict: accepted
+    reason: The Consensus says we do not disjoin the reality from the signs; the sentence drops the negation.
+  cx-7cded1039df3:
+    verdict: accepted
+    reason: Record gives the angelic-grades reading as Clement's own opinion and says it shows how one teacher understood the offices; the sentence makes it the church's teaching.
+  cx-bd8f9d26ef3e:
+    verdict: rejected
+    reason: 'Rule 1: the record''s notes call this the charter line of the world''s own philosophy-and-faith posture, so the record partly presents it as the tradition''s and the inflation is not clean.'
+  cx-586fd33f62a4:
+    verdict: accepted
+    reason: Record gives the non-literal reading as Origen's argument against literalists in his own church; the sentence makes it the church's teaching.
+  cx-0a2f17701d9b:
+    verdict: rejected
+    reason: 'Rule 1: the record''s own notes say ''How the tradition ranked what it read'', so the record itself presents the ranking as the tradition''s.'
+  cx-182e90e8dec9:
+    verdict: rejected
+    reason: 'Rule 2 and 1: ''came to faith'' adds a conversion claim the passage (love kindled for the Word and the teacher) does not make, and the notes treat it as what this formation felt like.'
+  cx-de52439d82de:
+    verdict: accepted
+    reason: Record gives one disputation of Antony with the philosophers; the sentence turns it into a standing habit of the monks.
+  cx-c8876526877f:
+    verdict: rejected
+    reason: 'Rule 1: the voiced text says acedia ''is also called the noonday demon'', so the name is given as common usage and the core claim is partly supported.'
+  cx-9075d2a43846:
+    verdict: accepted
+    reason: Record gives the definition as Evagrius's own system and warns against taking it as what the desert believed; the sentence says 'we held'.
+  cx-b661a5f4779c:
+    verdict: accepted
+    reason: Record gives the three signs as Evagrius's test, not the whole desert's method; the sentence makes it the community's.
+  cx-2b889d080781:
+    verdict: accepted
+    reason: Record gives the eight thoughts as Evagrius's teaching and warns he is this world's least typical author; the sentence makes it all the elders' teaching.
+  cx-7ea18e0ee014:
+    verdict: accepted
+    reason: Record gives the formula as Antony's reported teaching at Alexandria and excludes it as a sign of the monks generally; the sentence makes it all the monks'.
+  cx-a0f25eb0dc0e:
+    verdict: rejected
+    reason: 'Read again by the gold set thread: the bound record is a draft, not a reviewed record.'
+  cx-1c7ceb933931:
+    verdict: rejected
+    reason: 'Read again by the gold set thread: the bound record is a draft, not a reviewed record.'
+  cx-c1f734a2ee04:
+    verdict: rejected
+    reason: 'Rule 1 and 2: the lens note says the line names the posture this whole world takes, and the sentence also turns Vincent''s ''bound to be'' prescription into a description of practice.'
+  cx-b5e0c23cca0a:
+    verdict: accepted
+    reason: Record gives one monk's choice, Paphnutius's, and excludes it as a rule; the sentence turns it into everyone's habit.
+  cx-a0aee6ba124a:
+    verdict: accepted
+    reason: Record gives Sulpitius's own state of mind in one letter and excludes it as a shared mood; the sentence makes it every ascetic's.
+  cx-d71a5eea3345:
+    verdict: rejected
+    reason: 'Rule 2: ''must not take the emperor''s payment'' changes the content; Martin refuses the donative only because he is leaving the service, not because taking it is wrong.'
+  cx-a8c220c47d69:
+    verdict: accepted
+    reason: Record describes Jerome alone at his books and excludes the whole community; the sentence widens it to the household.
+  cx-cfa88e659e07:
+    verdict: rejected
+    reason: 'Rule 1: the lens note calls this ''the honest shape of this world''s answer'', so the record itself presents the ranking as the world''s.'
+  cx-bd7f1aa6db79:
+    verdict: accepted
+    reason: Record gives the rule as Jerome's own list and says the Latin church did not follow it; the sentence makes it the church's position.
+  cx-70e8bf939598:
+    verdict: accepted
+    reason: Record says this of Paula (and notes Eustochium) and excludes all the women; the sentence widens it to the women of the community.
+  cx-3168e64bcf71:
+    verdict: rejected
+    reason: 'Rule 1 and 2: the notes present it as what Christ was to this world, and the sentence turns counsel to one virgin into a reported practice.'
+  cx-f357a42f29e1:
+    verdict: accepted
+    reason: Record gives trilingual chanting for one week at Paula's burial and excludes daily worship; the sentence turns it into a habit.
+  cx-bf793bae52e3:
+    verdict: accepted
+    reason: Record says this is one preacher's reading and no record may present it as what the church taught; the sentence does exactly that.
+  cx-c4e8b7b2af68:
+    verdict: accepted
+    reason: Record gives the formula as Ambrose's position preached in the 386 standoff, not settled practice; the sentence makes it a standing belief.
+  cx-7fc932988b5f:
+    verdict: rejected
+    reason: 'Rule 1: the lens note says ''That is this world''s answer about marriage'', so the record itself presents the ranking as the world''s.'
+  cx-c663812db9e6:
+    verdict: accepted
+    reason: Record gives Ambrose's words on one occasion in the 386 crisis; the sentence turns them into the church's habit.
+  cx-e63b1d9b2668:
+    verdict: rejected
+    reason: 'Rule 1: the record''s own first-person lens note calls this a working statement of how a council among us proceeds, inside a shared conviction.'
+  cx-ee6ca8724131:
+    verdict: rejected
+    reason: 'Rule 2: besides widening the speaker, ''taught'' turns Augustine''s ''let them suppose'' concession into settled teaching, which the claim guards forbid.'
+  cx-123a2c6ca610:
+    verdict: accepted
+    reason: Record gives the threefold account of offerings as Augustine's teaching; the sentence makes it what everyone taught.
+  cx-bdb9eeaf82df:
+    verdict: accepted
+    reason: Record gives Cyprian checking one letter; the sentence turns it into a standing habit.
+  cx-865677a8ed4b:
+    verdict: accepted
+    reason: Record gives the Shepherd's word to Hermas in one text and excludes every household; the sentence makes it every household's teaching.
+  cx-7e230f4f53ec:
+    verdict: rejected
+    reason: 'Rule 2: the sentence turns Ignatius''s ''it becomes'' counsel into a report that we always did it, a shift from ought to did on top of the widening.'
+  cx-0d7630872b18:
+    verdict: rejected
+    reason: 'Rule 1: the voiced text itself says ''all who live in cities or in the country gather'', so Justin presents the practice as general.'
+  cx-8664d3001d2e:
+    verdict: rejected
+    reason: 'Rule 1: the record says it is uncontested the manual was used to teach newcomers and calls it ''this world''s own'', so the practice is given as the world''s.'
+  cx-0b8404e0221f:
+    verdict: accepted
+    reason: Record gives Justin's own conversion and excludes it as typical; the sentence makes it everyone's path.
+  cx-e24a7e569010:
+    verdict: rejected
+    reason: 'Rule 1: the record''s first-person lens note calls this ''the single sharpest doctrine separating us from Rome'', presenting it as the tradition''s.'
+  cx-57e7403f8339:
+    verdict: accepted
+    reason: Record gives the declaration as Zwingli's own ('I, Ulrich Zwingli'); the sentence makes it everyone's.
+  cx-1b7f5526dcae:
+    verdict: rejected
+    reason: 'Rule 1: the voiced text itself says ''by "was borne" the Syrians, he says, understand'', so the reading is given as the Syrians''.'
+  cx-18b93dfbee72:
+    verdict: accepted
+    reason: Record gives Tatian's own conversion and excludes it as how ordinary Syriac Christians came to faith; the sentence makes it the community's.
+  cx-2409948f4144:
+    verdict: accepted
+    reason: Record gives Ephrem's offer in one famine at Edessa; the sentence turns it into a habit in every famine.
+  cx-bb57faf34eec:
+    verdict: accepted
+    reason: Record gives Aphrahat calling himself a stonecutter in one Demonstration; the sentence makes it all the teachers.
+  cx-2b4ba1b855ed:
+    verdict: accepted
+    reason: Record gives this as Luther's argument to the peasants in one 1525 tract; the sentence makes it the church's teaching.
+  cx-72b26d064fbb:
+    verdict: accepted
+    reason: Record gives this as Luther's words in one 1525 tract; the sentence makes it the community's teaching.
+  cx-42b4f063a242:
+    verdict: accepted
+    reason: Record gives this as Luther's view in one open letter and notes critics who objected; the sentence says everyone agreed.
+  cx-f768d1788723:
+    verdict: accepted
+    reason: The record gives Taor's refusal as hers alone and says she is the exception in her house, whose other women went out to church; the sentence makes it true of all our virgins.
+  cx-c1c3847103c8:
+    verdict: accepted
+    reason: The record gives the never-taken key as true of Talida's one house, unlike other women's houses; the sentence widens it to all our women's houses.
+  cx-65d0e6fadcea:
+    verdict: rejected
+    reason: 'Rule 1 fails: the world''s gravity received-not-invented shows the no-novelty rule stated again and again by Cassian, Vincent and Sulpitius, so ''we repeated the rule again and again'' is partly
+      true for the tradition.'
+  cx-b16770db3092:
+    verdict: rejected
+    reason: 'Rules 1 and 2 fail: widening Castor''s province to ''Gaul as a whole'' changes a fact (which places lacked monasteries) as well as who held the wish, and the world''s gravity egypt-as-measure
+      presents the wish for Egypt''s institutions as the south''s own.'
+  cx-1c032ef2c66a:
+    verdict: accepted
+    reason: The record gives the complaint of being expelled as unworthy as Archebius's alone, and its not_for rules out claiming all monk-bishops felt their office as a loss; the sentence gives it to all
+      of us made bishops.
+  cx-79b537cc104a:
+    verdict: accepted
+    reason: The record gives the warning to the princes as Luther's, in one 1525 tract; the sentence makes it the church's warning, with its content kept.
+  cx-449496308e6f:
+    verdict: accepted
+    reason: The record gives 'the time of the sword' as Luther's words to the rulers in one 1525 tract, and its own note supports the peasants-in-arms setting; the sentence makes it our teaching.
+  cx-b34058170afc:
+    verdict: accepted
+    reason: The record gives the concession and the warning as Luther's, opening one section of one 1525 tract; the sentence makes it the community's own position, with its content kept.
+  cx-f3bef7f3e665:
+    verdict: accepted
+    reason: The record gives one sum, collected from clergy and people, sent on one occasion for one group of captives; the sentence turns it into what our church did whenever believers were taken captive.
+  cx-2e3c87d61254:
+    verdict: accepted
+    reason: The record gives the precept as Augustine's, in one homily on 1 John, and does not present it as the church's teaching; the sentence makes it what our church taught.
+  cx-3717dc1cc744:
+    verdict: accepted
+    reason: The record and its linked witness keep the open question about a purging fire as Augustine's, in the Enchiridion; the sentence makes it what we held, with the open content kept.
+  cx-932417277bb1:
+    verdict: accepted
+    reason: The record and its linked witness give the mildest punishment as Augustine's judgment in the Enchiridion; the sentence makes it what we taught, with the content kept.
+  cx-f3385092edef:
+    verdict: rejected
+    reason: 'Rule 1 fails: the linked witness alx.dw.resurrection says ''we pointed first to... lives'' and gives the disciples'' courage argument as the world''s own ground, so the widened claim is partly
+      true.'
+  cx-083359183586:
+    verdict: rejected
+    reason: 'Rule 1 fails: the world''s own term autexousia and the doubt witness present the soul''s power to turn toward or away, and room for belief or disbelief, as the tradition''s widely held view,
+      so the widened claim is partly true.'
+  cx-6104389f5719:
+    verdict: accepted
+    reason: The record calls Ephrem's offer a one-time act in a single famine; the sentence makes it a habit of all our teachers in every famine, with nothing else added.
+  cx-6ecbd1aa109d:
+    verdict: rejected
+    reason: 'Rule 1 fails: the record''s notes say the bishops of Gaul were divided and the period argued with itself, so ''we held'' is partly true of one side of the tradition rather than certainly false.'
+  cx-7b41e84eb091:
+    verdict: accepted
+    reason: The record and its linked witness ('One of us, Justin, went further') keep the argument as Justin's own; the sentence makes it what we held, with the content kept.
+  cx-e5e8da5c172e:
+    verdict: accepted
+    reason: The record gives the disputing-to-learn as Marcella's alone, and its not_for rules out claiming women in general challenged teachers; the sentence widens it to all our women.
+  cx-aac963916f5b:
+    verdict: rejected
+    reason: 'Rule 1: the sentence just restates the lexicon flag (''warm feelings or affection'') as a definition of agape; no claim depends on a modern misreading of a source word.'
+  cx-bcc5e22f490d:
+    verdict: rejected
+    reason: 'Rule 1: it states the flagged financial sense as a definition of oikonomia; the error is spelled out, so a reader needs no modern misreading to see it.'
+  cx-94bd6e6349a6:
+    verdict: rejected
+    reason: 'Rule 1: it defines Logos with the flag (''logic, a method of argument''); this is a plain contradiction of the record''s definition, not a false friend at work.'
+  cx-3b8c56022f9f:
+    verdict: rejected
+    reason: 'Rule 1: it restates the flag ''someone who seeks death'' as what a martys is; the Greek word carries no modern English sense here, the gloss alone carries the error.'
+  cx-b922c3a7cbed:
+    verdict: rejected
+    reason: 'Rule 1: it states the flagged polytheistic sense as the meaning of theosis; nothing turns on reading a source word in a modern sense.'
+  cx-3b16a2508775:
+    verdict: rejected
+    reason: 'Rule 1: the appositive restates the flag (''apathy, not caring'') as a definition; the error is explicit, not carried by a modern reading of the word.'
+  cx-a32c06c184d6:
+    verdict: rejected
+    reason: 'Rule 1: only the appositive gloss (''abstract speculation'') is wrong and it is the lexicon flag stated as a definition; the rest of the claim is true.'
+  cx-88075c879866:
+    verdict: rejected
+    reason: 'Rule 1: it restates the flag (''depression, to be treated'') as a definition of penthos; a reader needs no modern misreading to see it contradicts the record.'
+  cx-deec01e40c72:
+    verdict: rejected
+    reason: 'Rule 2: besides the charity-as-almsgiving shift, ''We taught'' presents Evagrius''s Praktikos as the tradition''s teaching, which the record''s not_for and divergence note explicitly forbid
+      (attribution inflation).'
+  cx-5008e257e392:
+    verdict: accepted
+    reason: The quote's 'no charity left among the brethren' means love (rendering), and the sentence reads it as almsgiving; everything else matches the quote.
+  cx-0f5497fe3a36:
+    verdict: accepted
+    reason: The quote's 'anxious to raise' means wanting to (rendering 'wants'); the sentence reads it as nervous fear, and the rest of the comparison is supported.
+  cx-f0d71d38f5e2:
+    verdict: rejected
+    reason: 'Rule 1: it states the flagged later sense (''a priest who hears confession'') as the definition of confessor; the falsehood is explicit, not a misreading of a source word.'
+  cx-d21dcb00b017:
+    verdict: rejected
+    reason: 'Rule 1: it defines traditor by the flagged modern political sense; the error lies in the stated gloss, not in a claim that depends on reading a word.'
+  cx-7793697d56e9:
+    verdict: rejected
+    reason: 'Rule 1: the appositive ''the Roman Catholic denomination'' restates the flag outright; a reader needs no modern misreading to see the anachronism.'
+  cx-bd4028a40c35:
+    verdict: rejected
+    reason: 'Rule 1: the false content is carried by the spelled-out flag (''a fresh start and a renewal''), which plainly contradicts the record''s account of rebaptism; no misreading of the word is needed.'
+  cx-f6042392dcd2:
+    verdict: rejected
+    reason: 'Rule 1: it states the flag ''sloth as laziness'' as the definition of accidie.'
+  cx-2fac3395cd06:
+    verdict: rejected
+    reason: 'Rule 1: it defines discretion by the flag (''tact, confidentiality''); the error is a stated gloss, not a claim depending on the word.'
+  cx-1fa6098a8cb1:
+    verdict: rejected
+    reason: 'Rule 1: the appositive ''a trade to earn his living'' restates the flag ''a career'' as what the profession was; the error is spelled out rather than carried by the word.'
+  cx-510bc566ddd9:
+    verdict: rejected
+    reason: 'Rule 1: read with ''wit'' as humor the claim that the faith is not a matter for jokes is still true and nothing in the record contradicts it; it misses Vincent''s point but asserts nothing
+      false.'
+  cx-7f78df8273cd:
+    verdict: accepted
+    reason: The quote's 'you are anxious that' means eager (rendering 'You are eager'); the sentence reads it as worried and fearful, which is false, and the rest is supported.
+  cx-7634597be52e:
+    verdict: accepted
+    reason: The quote defines 'Catholic' as what comprehends all universally; the sentence reads it in the modern Roman sense and so asserts a false test, with nothing else added.
+  cx-37f1fa2dd71c:
+    verdict: rejected
+    reason: 'Rule 1: the appositive restates the flag ''a hospital'' as the definition of xenodochium; the error is a stated gloss.'
+  cx-3e748a393318:
+    verdict: rejected
+    reason: 'Rule 1: it simply asserts the flagged ''tourism'' sense for peregrinatio; the Latin word carries no modern sense here, the gloss alone carries the error.'
+  cx-d2214f31d956:
+    verdict: rejected
+    reason: 'Rules 1 and 3: read with ''peculiar'' as strange, the core claim (she spoke Hebrew with no Latin accent) stays true; the doubled ''strange, odd'' also reads as constructed.'
+  cx-6582c1b6754c:
+    verdict: rejected
+    reason: 'Rule 1: the phrase ''as a work in several volumes'' restates the flag as a gloss on Tome; no claim depends on a modern reading of the word.'
+  cx-622ce13f68b3:
+    verdict: rejected
+    reason: 'Rule 1: the record itself says the shouting was abuse (''Cast out the murderer'', ''Cast out the Jew''), so reading ''vulgar'' in its modern sense leaves the claim partly true rather than clearly
+      false.'
+  cx-813d35d18146:
+    verdict: rejected
+    reason: 'Rules 1 and 3: the core claim (each nature keeps its own property in one Person) stays true; the error is only the evaluative ''odd, strange'', a doubled wording that reads as constructed.'
+  cx-cd110d1e55b4:
+    verdict: rejected
+    reason: 'Rule 1: the appositive restates the flag ''a predictor of the future'' as what a prophetes was.'
+  cx-3516ae213f09:
+    verdict: rejected
+    reason: 'Rule 1: the false content is the flag ''a church building'' written out; the word ekklesia does not carry it, so a reader needs no modern misreading.'
+  cx-3ea74c25f3e6:
+    verdict: rejected
+    reason: 'Rule 1: it defines presbyteros by the flagged later sacramental priest; a stated gloss, not a false friend at work.'
+  cx-38ad07aee8e8:
+    verdict: rejected
+    reason: 'Rule 1: the record''s own personal sense says Bullinger wrote it in 1562 for his own use, so the claim is partly true; it also only restates the flag.'
+  cx-df34756a9cae:
+    verdict: rejected
+    reason: 'Rule 1: fatalism is not a modern sense of the word ''providence'' but a misinterpretation of the doctrine; the sentence is wrong without any word misreading.'
+  cx-70c27214315e:
+    verdict: rejected
+    reason: 'Rule 1: ''staged event'' is not a modern sense of ''disputation'' but a cynical historical reading; the claim is wrong without any word misreading.'
+  cx-ddbb497d715b:
+    verdict: rejected
+    reason: 'Rule 1: it states the flagged madrasa word-echo (''schools'') as the definition of madrashe.'
+  cx-3f4ec0a664c6:
+    verdict: rejected
+    reason: 'Rule 1: it defines raza by the flag ''a puzzle waiting to be solved''; the error is a stated gloss.'
+  cx-0ecc4fd91524:
+    verdict: rejected
+    reason: 'Rule 1: it defines ihidaye by the flag ''hermits, physical isolation''; the error is a stated gloss.'
+  cx-439be7ee74a9:
+    verdict: rejected
+    reason: 'Rule 1: ''We argued against indulgence'' is true; only the appositive, which restates the flag as a definition, is wrong.'
+  cx-0e22813d6f1b:
+    verdict: rejected
+    reason: 'Rule 1: the appositive restates the flag (a career one chooses or feels drawn to) as the meaning of calling.'
+  cx-8770be1b595e:
+    verdict: rejected
+    reason: 'Rule 1: it restates both halves of the flag as stated claims; ''marriage a lower road for weaker people'' is wrong to any reader of the record without a word misreading.'
+  cx-02c87febffc8:
+    verdict: rejected
+    reason: 'Rule 1: ''Faith brings comfort'' is true; only the appositive, which states the flag as a definition, is wrong.'
+  cx-a85d8c956567:
+    verdict: rejected
+    reason: 'Rule 1: the record says the pastor has precedence while in office, so the first clause is partly true, and ''kept that rank after deposed'' is a plain contradiction needing no word misreading.'
+  cx-e59f67209da9:
+    verdict: rejected
+    reason: 'Rule 1: ''through our suffrage and God''s judgment'' is true; only the appositive ''the ballots we cast'', the flag stated as a gloss, is wrong.'
+  cx-881acc816018:
+    verdict: rejected
+    reason: 'Rule 1: it states the flagged gradual-drift sense as the reason for the name; the error is a stated gloss.'
+  cx-7986a38bafc0:
+    verdict: accepted
+    reason: The quote's 'good conversation' means good way of life (bonis moribus); the sentence reads it as pleasant talk, and the rest matches the quote.
+  cx-bb502e04c046:
+    verdict: accepted
+    reason: The quote's 'root of charity' means love (rendering 'root of love'); the sentence reads it as almsgiving, and the rest matches the quote.
+  cx-18d9cab20995:
+    verdict: accepted
+    reason: The rendering gives 'industry' as hard work; reading it as commerce makes Dionysius love Nepos for business ventures, which the record never says.
+  cx-f8e29855eccb:
+    verdict: rejected
+    reason: 'Rule 1: ''puzzled over it'' is close to what the passage says (beyond his comprehension, he suspects a deeper sense), so the modern reading leaves the claim nearly true.'
+  cx-ffebf1ebb9a5:
+    verdict: accepted
+    reason: The lens note and not_for say paidagogos is a child's escort and guardian and bar 'teacher or headmaster'; calling philosophy a classroom teacher misstates the role.
+  cx-8998b1e4cb65:
+    verdict: accepted
+    reason: The lens note says 'Suffer' means permit; reading it as endure turns a permission to eat into a rule of hardship, which is false.
+  cx-a1916593eedc:
+    verdict: rejected
+    reason: 'Rule 1: the record never glosses ''religion'' as monastic life; the falsehood comes from swapping ''rule'' for ''doctrine'', a content shift rather than a word read in its modern sense.'
+  cx-a753bcc08914:
+    verdict: accepted
+    reason: The record shows 'the habit' is the garment the fathers confer, with the words said at the giving; 'everyday routine' is the modern sense and false.
+  cx-cd23949bc65b:
+    verdict: accepted
+    reason: '''Estate'' is rendered ''condition'' and the lens note reads it as her station; turning it into a small landholding asserts property the record does not describe.'
+  cx-dd51d1a3e319:
+    verdict: accepted
+    reason: The lens note says 'nakedness' is owning nothing; 'going without clothes' is false against the record.
+  cx-a86b08243203:
+    verdict: rejected
+    reason: 'Rule 1: shyness and fear overlap, and the record shows the old sense only through the one-word rendering, so the modern reading is nearly true and the contrast is not certain.'
+  cx-5255ea19bb7a:
+    verdict: accepted
+    reason: The whole passage turns on Martin taking communion with the Ithacian bishops; 'talk with' reads 'communicate' in its modern sense and is false.
+  cx-44f16eb99cc2:
+    verdict: accepted
+    reason: The rendering and context ('adopting this life', a monastery, 'under Christ's auspices') show 'the harbour of religion' is the religious life; reading it as conversion to the faith is false.
+  cx-3ea98b9aae8e:
+    verdict: rejected
+    reason: 'Rule 1: almsgiving is itself a work of charity, so the elder''s principle still nearly covers the claim; the modern reading does not make it clearly false.'
+  cx-1b607fa1cdcb:
+    verdict: rejected
+    reason: 'Rule 1: the record notes ''the same homeliness in his garments'' just before the quote, so saying he kept a monk''s belongings stays nearly true despite the older sense ''aims''.'
+  cx-b9279274d32c:
+    verdict: accepted
+    reason: The rendering, the use note and 'deemed powerful' show 'virtues' means Martin's miraculous powers; 'moral goodness' misstates what the raised man experienced.
+  cx-e00de5480c7f:
+    verdict: accepted
+    reason: '''Credit'' is rendered ''good name'' and sits beside ''defamer''; ''financial standing'' is the modern sense and false.'
+  cx-9db3cfdcac1e:
+    verdict: rejected
+    reason: 'Rules 1 and 3: the content (she could see with the eyes of faith) stays true, only the speech act shifts, and ''object that she could see'' reads as constructed.'
+  cx-3129f807dda3:
+    verdict: accepted
+    reason: The rendering gives 'sick with love'; 'tired of love' reverses the meaning, and the rest (Bridegroom's hand through the door, waking) is in the record, including 'one consecrated virgin'.
+  cx-3c73d1569f6c:
+    verdict: accepted
+    reason: '''Dumb'' is rendered ''struck speechless''; ''became stupid'' is the modern sense and false.'
+  cx-776786671b75:
+    verdict: accepted
+    reason: The lens note and not_for bar the denominational sense of 'Catholic' (here orthodox); 'Roman Catholic' imposes it and is anachronistic.
+  cx-6d3b71108c99:
+    verdict: accepted
+    reason: '''Overlook'' is rendered ''oversee''; ''ignore'' reverses Constantine''s claim of oversight.'
+  cx-4e827b44cb27:
+    verdict: accepted
+    reason: '''Entertained opinions'' is rendered ''held''; reading it as merely considering widens the law beyond what the record reports.'
+  cx-d6e69fd423ae:
+    verdict: accepted
+    reason: '''Cipher'' is rendered ''monogram'' and the lens note names the Chi-Rho; a ''secret code'' is the modern sense and false.'
+  cx-79206327a834:
+    verdict: rejected
+    reason: 'Rule 1: ''bored'' and ''weary'' lie close together for ''tediousness of sorrow'', so the modern reading leaves the claim nearly true.'
+  cx-cb5b96e4b7e0:
+    verdict: accepted
+    reason: '''Conjugal modesty'' is rendered ''chaste married life''; ''humility in marriage'' is the modern sense of modesty and false.'
+  cx-c0184b2ab5f2:
+    verdict: accepted
+    reason: The lens note and not_for say 'heroic metre' is hexameter verse, not heroic subject matter; 'poems in praise of heroes' is false.
+  cx-3e0dab0e1b25:
+    verdict: accepted
+    reason: The lens note says 'reasonably' means living by the Logos, and not_for bars goodness of any kind; 'fairly decent lives' is false.
+  cx-4ce8b740a4d8:
+    verdict: accepted
+    reason: '''Quickening'' is rendered ''brought him back to life''; ''hurrying him along'' is the modern sense and false.'
+  cx-ae454fccae5f:
+    verdict: accepted
+    reason: '''Proved'' is rendered ''testing''; reading ''proved them ... to be bishops'' as demonstration turns an appointment after testing into a showing that they already were bishops.'
+  cx-ae12aacfc3c5:
+    verdict: accepted
+    reason: '''Profitable'' is rendered ''useful''; ''financially rewarding'' is the modern sense and false.'
+  cx-38e56c8aae56:
+    verdict: accepted
+    reason: '''Fall asleep'' is rendered ''died'' and the use note says ''after death''; ''went to sleep'' is false.'
+  cx-e88cfec96fca:
+    verdict: accepted
+    reason: '''Fallen in with'' is rendered ''met''; ''agreed with the brothers in every part of the world'' is false in a letter defying Rome, and not_for bars a claim that everyone kept the same day.'
+  cx-aa62773eba3d:
+    verdict: accepted
+    reason: The rendering, use note and lens note say 'decimated' means one in ten put to death; 'nearly all wiped out' is the modern sense and false.
+  cx-2bf03deff020:
+    verdict: accepted
+    reason: '''Barbaric'' is rendered ''non-Greek''; ''savage writings'' is the modern sense and false against Tatian''s praise of them.'
+  cx-f843da88ae5f:
+    verdict: accepted
+    reason: The lens note says 'barbarian philosophy' is Tatian's name for Christianity, meaning non-Greek; 'brutish' is false.
+  cx-60891222199c:
+    verdict: accepted
+    reason: The lens note says 'cherished' renders a verb of brooding, as a bird over eggs; 'held dear' is the modern sense and false.
+  cx-050c0083a760:
+    verdict: accepted
+    reason: The lens note says 'lay about them' means strike out on every side; 'lounge about' reverses the instruction.
+  cx-12d9fba6e11b:
+    verdict: accepted
+    reason: The lens note says 'equity' means plain fairness, not money or shares; 'rights of ownership' is false.
+  cx-da8ce7790aa4:
+    verdict: accepted
+    reason: The image is chaff blown by the wind, rendered 'fly off'; 'foreign lands' reads 'abroad' in its modern sense and is false.
+  cx-5fac55562791:
+    verdict: accepted
+    reason: The rendering and lens note make 'the old man' the old self; 'an elderly man' is false.
+  cx-1003b38d9670:
+    verdict: accepted
+    reason: '''Preferring'' is rendered ''to place us in the government''; ''like some of us better'' is the modern sense and false.'
+  cx-41855bcad162:
+    verdict: accepted
+    reason: The divergence note says 'generous disposition' renders generosa indoles, 'a noble nature'; 'openhanded' is the modern sense and unsupported.
+  cx-31b6c1dc6306:
+    verdict: accepted
+    reason: The divergence note says 'connections' renders adfines, 'in-laws'; 'business contacts' is false.
+  cx-f7b3cffe3110:
+    verdict: accepted
+    reason: The divergence note, lens note and not_for say 'friends' means their own people, household and kin; 'companions' is the barred modern sense.
+  cx-86fbe94a4e7b:
+    verdict: accepted
+    reason: '''Confess'' is rendered ''declare'' and the lens note reads it as a founding confession, not modesty; ''owned up'' turns it into admitting a fault.'
+  cx-6c7b2700e33d:
+    verdict: accepted
+    reason: '''Out of Christ'' is rendered ''apart from Christ''; reading it as ''from Christ'' reverses the confession''s rejection.'
+  cx-2384d5770c0b:
+    verdict: rejected
+    reason: 'Rule 1: the record says Origen argues against literalists in his own church and warns against generalizing his reading to all Alexandrian Christians, so the tradition itself partly held the
+      literal reading.'
+  cx-dc9bab0989aa:
+    verdict: accepted
+    reason: The record gives 'first and highest creature' to Arius, answered by Nicaea's homoousios, while the tradition worshiped the Son as God's Word; the sentence voices Arius's teaching as ours.
+  cx-233abc6e9a89:
+    verdict: rejected
+    reason: 'Rule 1: the strict party is part of ''the community'' that fought over the lapsed, so the record is ambiguous about whether ''we'' excludes those who demanded exclusion.'
+  cx-44ba932a7f3c:
+    verdict: accepted
+    repair: We held that the hermit's life deserves no admiration, since living a life of perfection among people takes greater virtue than living in the desert.
+    reason: The claim belongs to the visitor whom Antony corrects; repair fixes the broken comparison only.
+  cx-ccb1f73b6b50:
+    verdict: rejected
+    reason: 'Rule 2: ''and without fear'' adds a manner of speaking the record never gives, a second change beside the embedded Arian saying.'
+  cx-e7365b45c42a:
+    verdict: accepted
+    reason: In the record these are the demon of acedia's words tempting the monk to leave his cell; the sentence gives them as our counsel.
+  cx-6bf361c5c6e5:
+    verdict: accepted
+    reason: The record gives the wheat-and-tares argument to the bishop of Hippo, answered by our bishop of Caesarea; the sentence makes it ours.
+  cx-d22769c09557:
+    verdict: accepted
+    reason: The record says the other side had to answer that Cyprian is not canonical and Scripture alone is; our case stood on Cyprian, so the sentence voices the opponents' answer.
+  cx-79a844680698:
+    verdict: accepted
+    reason: The record gives 'separation made us heretics' as Augustine's charge and says we denied being heretics; the sentence voices the charge as our view.
+  cx-667ebd81036e:
+    verdict: accepted
+    reason: The record gives the charge against the bishop to the other side, and Petilian rebuts rather than admits it; the sentence has us admit their charge.
+  cx-8d6898a40cb7:
+    verdict: accepted
+    reason: The doubt about Lucilla's martyr is Optatus's comment, our hostile opponent; the sentence voices it as our judgment.
+  cx-ff7ad64c158d:
+    verdict: accepted
+    reason: The record gives this attack on Martin to Brictio in a demon-driven rage, reported by men against him; the sentence voices it as ours.
+  cx-d509126aa508:
+    verdict: accepted
+    reason: The record gives these objections to a few hostile bishops whose 'madness' the people ridiculed, against the unanimous view that Martin was most worthy; the sentence voices them as ours.
+  cx-9f8db3c60f9b:
+    verdict: accepted
+    reason: Chaeremon names this as 'the profane notion of some' and the record expressly says the passage refuses it; the sentence voices it as our teaching.
+  cx-46fafb8c995f:
+    verdict: rejected
+    reason: 'Rule 2: beyond voicing Augustine''s outside judgment, the sentence drops his conditions (''if they are walking in that to which they have attained'') and makes God''s revealing unconditional.'
+  cx-df74b098102a:
+    verdict: rejected
+    reason: 'Read again by the gold set thread: the other voice is a modern editor''s inference and the record words that fix it are thin, so the defect is not certain.'
+  cx-af2f4b623005:
+    verdict: accepted
+    reason: The record gives the cowardice charge to the tyrant, which Martin answers by offering to stand unarmed; the sentence voices it as our judgment.
+  cx-d7c2b5029fe6:
+    verdict: accepted
+    reason: The record is an etic, hostile outsider's charge (Palladius), flagged as not this world's own voice; the sentence voices it as our admission.
+  cx-2fc5c589c757:
+    verdict: accepted
+    reason: The record is Palladius reporting Possidonius, an etic hostile account; the sentence voices it as our confession.
+  cx-3b1ed6d2a7c3:
+    verdict: accepted
+    reason: The record is Augustine's position, the case this world's Hebrew-truth commitment was argued against; the sentence voices it as our judgment.
+  cx-2d6a06fa35fe:
+    verdict: accepted
+    reason: The record gives the denunciation to the congregation at Oea, reported by the translation's chief critic; the sentence makes our scholar's own circle denounce his translation.
+  cx-88a88026b82d:
+    verdict: rejected
+    reason: 'Rule 1: the record says how far our scholar''s earlier sympathy for universal restoration went is unsettled and warns against claiming he never sympathized, so the tradition may have shared
+      the view.'
+  cx-c55ee78e1415:
+    verdict: accepted
+    reason: The record gives these words to the hostile Roman funeral crowd, speech against Jerome's circle; the sentence voices the crowd's demand as ours.
+  cx-553c41f0b04a:
+    verdict: rejected
+    reason: 'Rule 1: the objectors are Chrysostom''s own congregation, and Chrysostom grants the point (''Yes!''), so the tradition holds the content too.'
+  cx-c3f93fc3197d:
+    verdict: accepted
+    reason: The record gives this plea to Symmachus, the old religion's voice, whom Ambrose answered; the sentence voices it as ours.
+  cx-706969b65945:
+    verdict: accepted
+    reason: The record gives 'like the Father and no more' as the court's confession, which Ambrose and the people resisted; the sentence makes it ours.
+  cx-1a00fa130ccf:
+    verdict: rejected
+    reason: 'Rule 1: the record says Pontius turns each charge into praise (Cyprian did bear Christ''s standard, did teach against idols, did set an example), so the tradition embraces these names.'
+  cx-e2e4dc1845a5:
+    verdict: rejected
+    reason: 'Rule 1: Augustine allows the supposition rather than rejecting it, so the tradition does not clearly oppose the view; the shift from ''may suppose'' to ''taught'' is a modal shift, not an embedded
+      voice.'
+  cx-e5e9b7eed306:
+    verdict: rejected
+    reason: 'Rule 1 and 2: the tradition''s other records show Cyprian also judged baptism outside the Church invalid, and ''those who came over'' adds a detail the record lacks.'
+  cx-849378ab968c:
+    verdict: accepted
+    reason: Augustine warns against anyone supposing gross sins may be daily committed and daily atoned for by alms; the sentence voices that supposition as our teaching.
+  cx-a43520854239:
+    verdict: accepted
+    reason: The record gives this as the Roman official Demetrianus's charge, which Cyprian answered; the sentence voices it as our own view.
+  cx-4b4d32db2199:
+    verdict: rejected
+    reason: 'Rule 2: the opponents thought praising virginity condemned marriage, not that marriage is no real good; ''so we did not count marriage a real good'' changes their view''s content.'
+  cx-1e5aaecf3a83:
+    verdict: accepted
+    reason: This is the Roman governor Pliny's verdict after torturing two deaconesses; the sentence voices it as our own view.
+  cx-15fb36259b57:
+    verdict: rejected
+    reason: 'Rule 1: the forbidden reasoning is the community member''s own self-doubt, which the Shepherd puts in the reader''s mouth, not another party''s view.'
+  cx-9d62735b81ae:
+    verdict: accepted
+    reason: The record gives this view to Marcion and says 'we did not follow him there'; the sentence voices it as ours.
+  cx-c17eb52399a7:
+    verdict: accepted
+    reason: The record gives the 'tinker's day' mockery to enemies of the new preaching, which Hegenwald wrote to answer; the sentence voices it as ours.
+  cx-eb84549bb17c:
+    verdict: accepted
+    reason: The record sets 'their case' (the men who baptized each other as adults) against 'ours' (infants included); the sentence makes their case ours.
+  cx-88de7791a759:
+    verdict: accepted
+    reason: Bullinger's confession rejects those who seek out of Christ whether they are chosen; the sentence voices the rejected error as our teaching.
+  cx-e32a1ca16391:
+    verdict: accepted
+    reason: The record gives this taunt to a Jewish questioner whom Aphrahat judges a blasphemer; the sentence voices the taunt as ours.
+  cx-117394433541:
+    verdict: accepted
+    reason: The record gives the 'lesser or harsher god' as Marcion's teaching, which we held against; the sentence voices it as ours.
+  cx-848899f14293:
+    verdict: accepted
+    reason: The record gives love of Rome as the Persian court's accusation against our bishops; the sentence voices the accusation as our own account.
+  cx-b767e791ffa3:
+    verdict: rejected
+    reason: 'Rule 1: the record calls Luther''s denial his own claim and marks as Contested whether his tract really spared the surrendered, so it is unclear the tradition did not hold the accusers'' view.'
+  cx-508670d1f527:
+    verdict: accepted
+    reason: The record gives this teaching to the opponents we named and rejected while we baptized children; the sentence voices it as ours.
+  cx-617c6631ab92:
+    verdict: accepted
+    reason: The record gives this urging to an Italian leading Luther to Cajetan, whom Luther was warned not to trust; the sentence voices it as ours.
+  cx-06366a3b1b16:
+    verdict: rejected
+    reason: 'Rule 1: the princes and lords Luther warns are not clearly outside this world''s own church, so the record is ambiguous about whether ''we'' excludes them.'
+  cx-7390d838194b:
+    verdict: rejected
+    reason: 'Read again by the gold set thread: the joined though-clause reads as constructed, and the other party appears only in the locus and divergence note, not the record text.'
+  cx-a57b171d0046:
+    verdict: accepted
+    reason: The record gives the agreement only as the Arians' claim, which the summoned monk publicly denounced; the summons detail is supported.
+  cx-1ba17dd371a5:
+    verdict: accepted
+    reason: The term record gives the 'unbegotten names the whole essence' claim to Eunomius and states that we said it does not exhaust who God is.
+  cx-1a0427686397:
+    verdict: accepted
+    reason: The record gives the claim to Eunomius, against whom this world's teaching that God's being is beyond every mind was forged.
+  cx-f74e63065dcb:
+    verdict: accepted
+    reason: The dishonesty argument is explicitly 'Julian's own reasoning', and our leaders defended the learning as compatible with faith; the linked inner tension over dialectic does not share Julian's
+      argument.
+  cx-df076c74824c:
+    verdict: accepted
+    reason: The fear-not-faith motive is Julian's accusation, which the record says only made Martin more resolute and which he offered to disprove unarmed.
+  cx-eb6247aab56e:
+    verdict: accepted
+    reason: The Christotocos teaching is given to Nestorius, against whom Vincent sets the Church's teaching that Mary is truly the mother of God.
+  cx-c56f7e2f6c4f:
+    verdict: accepted
+    reason: The record names the Pelagians as the heresy we defined ourselves against and says 'Pelagius made grace unnecessary; we never did'.
+  cx-d8138dc39338:
+    verdict: accepted
+    reason: The no-business-with-kings view is the Donatist Petilian's, which Augustine answered by defending a right use of friendship with Christian kings.
+  cx-55fc8da569b9:
+    verdict: accepted
+    reason: The blame is Demetrianus's charge, which Cyprian answered in a reply; neither this record nor the linked witness has us admit it.
+  cx-ce00cbd29652:
+    verdict: rejected
+    reason: 'Read again by the gold set thread: the joined though-clause reads as constructed (rule 3).'
+  cx-ec6077ba6f4d:
+    verdict: accepted
+    reason: The immorality charge is the Manichaean's, answered by Augustine with 'not ferocity but obedience'; his youthful disturbance predates his holding the faith.
+  cx-4295f2a79ddb:
+    verdict: accepted
+    reason: The 'depraved and immoderate superstition' verdict is Pliny's in his own words; the pre-dawn hymn to Christ is supported.
+  cx-71e178eef6dd:
+    verdict: accepted
+    reason: The vile acts and the hatred of humankind are Tacitus's reading, an outsider's, which the record says came entirely from outside.
+  cx-98e7e7067abc:
+    verdict: accepted
+    reason: The seeming body is the rival teaching that each 'truly' in Ignatius denies; born of Mary and crucified under Pilate are in the text.
+  cx-3b5f4e9bcd15:
+    verdict: accepted
+    reason: Our confession attributes the Spirit-without-the-Word view to the Anabaptists and condemns it.
+  cx-f01fc2909700:
+    verdict: rejected
+    reason: 'Rule 1 fails: the record never states Rome''s position as Rome''s words; it gives only our own negated refusal (''no repeated sacrifice, no bowing to an image''), so the defect is a dropped
+      negation, not an embedded voice.'
+  cx-98e152aea1d8:
+    verdict: accepted
+    reason: The smaller Bible and stranger God belong to Marcion's people, with whom we would not share communion; the answering by name in prose and song is supported.
+  cx-6c0f7368cf75:
+    verdict: accepted
+    reason: The acknowledgement of a man's faction is Optatus's hostile reading of the petition, which the record says Donatists did not accept.
+  cx-ac5b61cf2cb2:
+    verdict: accepted
+    reason: The capacity-to-obey-fully teaching is given to Pelagius and his allies, against whom this world's scholar wrote.

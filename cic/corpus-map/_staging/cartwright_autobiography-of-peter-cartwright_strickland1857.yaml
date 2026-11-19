@@ -1,0 +1,22 @@
+source_file: cartwright_autobiography-of-peter-cartwright_strickland1857.txt
+assignments:
+- row_id: cartwright_autobiography-of-peter-cartwright_strickland1857--autobiography-of-peter-cartwright-the-backwoods-preacher
+  work: Autobiography of Peter Cartwright, the Backwoods Preacher; edited by W. P. Strickland
+  author: cartwright
+  locus: Cartwright's preface at lines 79-263; the rest not mapped
+  atlas_ids:
+  - the-second-great-awakening-and-camp-meeting-worl
+  - nineteenth-century-methodism
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1856
+    end: 1857
+    source: the copyright notice of 1856 and the title page's imprint year of 1857
+    formation_confidence: Documented
+  edition_date:
+    year: 1857
+    source: line 60, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 229, Peter Cartwright: his Autobiography.'

@@ -89,7 +89,7 @@ manifestations:
 - "The office 'no appointment of man's invention'; the fault of appointing 'ourselves Abbots before we have ... professed ourselves disciples' (Inst. II.3-4)"
 - "Vincent's 'universality, antiquity, consent' (Comm. ch. 2 [6]) and Stephen's 'Let there be no innovation' (ch. 6 [16])"
 - "'Not an author but a keeper, not a teacher but a disciple, not a leader but a follower' (Comm. ch. 22 [53])"
-- "Martin asking his elders whether any tradition had come down before honouring a tomb (Vita XI)"
+- "Martin asking his elders whether any tradition had come down before honoring a tomb (Vita XI)"
 ---
 Grounded in cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml (John Cassian, Sulpitius
 Severus, Vincent of Lérins). This description paraphrases the primary sources in its own voice;

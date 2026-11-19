@@ -1,0 +1,13 @@
+source_file: bellett_minor-prophets_1870.txt
+assignments:
+- row_id: bellett_minor-prophets_1870--bellett-minor-prophets
+  work: 'Bellett, The Minor Prophets (1870)'
+  author: bellett
+  locus: 'the whole book at OCR lines 82-3556; add 12 to OCR line numbers'
+  atlas_ids:
+  - plymouth-brethren-and-dispensational-formation
+  role: tradition
+  confidence: provisional
+  language: eng
+  date: {start: 1870, end: 1870, source: "title page: 1870", formation_confidence: Documented}
+  note: 'Bellett''s own meditations on Hosea to Malachi.'

@@ -1,0 +1,11 @@
+source_file: thomas-aquinas_opera-omnia-t11-summa-theologiae-lat_leonine1903.txt
+assignments:
+- row_id: thomas-aquinas_opera-omnia-t11-summa-theologiae-lat_leonine1903--thomas-aquinas-opera-omnia-leonine-edition-tomus-11-summa-theolo
+  work: Thomas Aquinas, Opera omnia, Leonine edition, tomus 11 (Summa theologiae, Tertia pars)
+  author: thomas-aquinas
+  locus: the whole volume
+  atlas_ids:
+  - the-dominican-order
+  role: tradition
+  confidence: provisional
+  note: The Summa theologiae in Thomas's Latin, inside this window. The volume also carries Cajetan's commentary, named on the title page, which is not shelved.

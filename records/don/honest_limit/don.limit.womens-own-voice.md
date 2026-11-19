@@ -46,7 +46,7 @@ nearest_material:
 - don.story.lucilla-consecration-dispute
 - don.witness.one-formation-aim
 use_note:
-  means: "Lucilla and an unnamed second woman stand at the centre of Donatist history, but neither's words survive; all that is known comes from men's pens."
+  means: "Lucilla and an unnamed second woman stand at the center of Donatist history, but neither's words survive; all that is known comes from men's pens."
   not_for:
     - "a claim that either woman's own account or motives survive"
     - "a claim that Lucilla's character is established beyond what the hostile source supports"

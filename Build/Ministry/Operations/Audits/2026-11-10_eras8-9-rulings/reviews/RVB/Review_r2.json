@@ -1,0 +1,55 @@
+{
+ "slice": "RV-B",
+ "round": 2,
+ "verdict": "revise",
+ "blocking": [],
+ "substantial": [
+  {
+   "id": "R2-S1",
+   "where": "moravian-church-after-1815.teaser",
+   "problem": "S5 is only partly fixed. The new teaser says 'In Jamaica, chapels filled on the first day of freedom.' The row's own why now says 'Full freedom waited four more years'. The teaser brings back the 1834/1838 flattening that S5 removed, and it contradicts LA8-1's 1838 midnight.",
+   "evidence": "Hamilton: 'Emancipation Day, August i, 1834 ...'; 'An appren- ticeship of four or six years ... was however inaugurated'.",
+   "fix": "'Moravian missions, 1815 to 1906. In Jamaica, chapels filled on Emancipation Day, 1834. A first baptism came beside an African lake.'"
+  }
+ ],
+ "minor": [
+  {
+   "id": "R2-M1",
+   "where": "raw/SOURCES.json",
+   "problem": "bleby1868 is quoted (the LA8-1 link and a fact row) but is not listed in raw/SOURCES.json.",
+   "evidence": "grep finds no bleby entry.",
+   "fix": "Add \"bleby1868\": {\"url\": \"https://archive.org/download/b24870109/b24870109_djvu.txt\", \"accessed\": \"2026-11-10\", \"work\": \"Henry Bleby, Death Struggles of Slavery, 3rd ed. (London, 1868), archive.org b24870109\"}."
+  },
+  {
+   "id": "R2-M2",
+   "where": "flags",
+   "problem": "Two flags are stale. The first LIVING flag still says arab-evangelical-churches 'stays living false'. The modernCountries flag still says Canada is omitted and names the place-label audit as a source of IDs.",
+   "evidence": "RV-4 is now living true (grade none). RV-5 carries Canada Q16. The coordinator's rule is census IDs only.",
+   "fix": "Rewrite both flags so they match the draft."
+  },
+  {
+   "id": "R2-M3",
+   "where": "moravian-church-after-1815.relationsSummary, last sentence",
+   "problem": "'missionaries of all three were tried and acquitted' is a little more than Bleby says. The Wesleyan Box was 'apprehended ... but he was discharged', and Knibb's case was 'never brought into court'. Hamilton supports a general 'tried ... and acquitted'.",
+   "evidence": "Bleby 1868 (my fetch).",
+   "fix": "'After the rising of 1831, missionaries of all three were arrested or tried, and none was convicted.'"
+  },
+  {
+   "id": "R2-M4",
+   "where": "link the-moravian-church-at-herrnhut--southern-african-mission-churches, quote",
+   "problem": "The quote carries the slur 'Hottentots'. The drafter's own round 1 flag says no link quote uses that word.",
+   "evidence": "Periodical Accounts 7255-7257.",
+   "fix": "Use 'having landed at the Cape, July gth, 1737' (line 7259) and set lines '7259'. The source names Schmidt at line 7250-7251, which can go in the locus."
+  },
+  {
+   "id": "R2-M5",
+   "where": "link id coptic-revival-under-cyril-iv--arab-evangelical-churches--2",
+   "problem": "The '--2' suffix is left over now that the first link of this pair is dropped.",
+   "evidence": "It is the only link for this pair.",
+   "fix": "Rename it to coptic-revival-under-cyril-iv--arab-evangelical-churches."
+  }
+ ],
+ "quotes_checked": 137,
+ "quotes_failed": [],
+ "notes": "Targeted recheck of the round 1 findings and the changed text. check_draft.py on my own fetch (review/RVB/raw, Bleby included, byte-identical to the drafter's): 137 quotes, all verbatim. The only READ-FAIL is the frozen VIII.7 paragraph 0. Fixed and confirmed: S1 (in contact with, from LA8-1, Inferential-Thin; the Hamilton and Bleby quotes re-verified), S2, S3, S4 (1890 and 1891 both stated; the line 9738 quote verified), S5 in why and paragraphs 2 and 3 (the apprenticeship and 1 December 1838 quotes verified; the teaser regressed, see R2-S1), S6 (preface and note both given, no move year; Beck lines 36325-36327 and 36333 verified), S7, S8, and M1 to M6 and M8 to M10. M7: new `sources` on VII.4, VII.32 and VIII.7 accepted, as the coordinator ruled. M11: the VII.4 → AF-5 link. 'In contact with' at Widely Accepted is acceptable. AF-5 (LIV/AF) tells Schmidt's 1737 mission as its own first strand, and VII.4 tells the same mission, so the tie is certain. 'Gave rise to' would claim the whole four-society row. The quote rests on one Library primary, verified-direct. Two-way: both rows' texts name it. Living: RV-4 is living true, group own, grade 'none', with a wants entry. That matches the coordinator's rule and validator line 207. RV-5 is unchanged. modernCountries: RV-5 now holds Germany and Canada (both census IDs). Jamaica, South Africa, Suriname and Tanzania are held for Open-Gaps, which fits the rule. No metered calls; no repo edits."
+}

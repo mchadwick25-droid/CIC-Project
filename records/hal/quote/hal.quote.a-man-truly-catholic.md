@@ -16,8 +16,7 @@ confidence:
     Contested as evidence about Jerome. Sulpitius Severus is writing in Gaul, admiringly and at a distance, inside the Origenist controversy - and the sentence records a REVERSAL, that a man thought to follow Origen now condemns him entirely. It is a contemporary's view of Jerome's standing, not Jerome's own account of it.
 sources:
 - source_id: hal.source.sulpitius-dialogues
-  locus: >-
-    Dialogues, Dialogue I.7 (npnf211_sulpitius-severus-vincent-lerins-cassian.xml)
+  locus: "Dialogues, Dialogue I.7 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 2859-2862)"
   license: public-domain
 text: >-
   This fact influenced me greatly, that Hieronymus, a man truly Catholic and most skillful in the holy law, was thought at first to have been a follower of Origen, yet now, above most others, went the length of condemning the whole of his writings.

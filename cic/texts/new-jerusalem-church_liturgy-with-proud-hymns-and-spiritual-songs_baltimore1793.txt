@@ -1,10 +1,10 @@
 Title: The Liturgy of the New Church, signified by the New Jerusalem in the Revelation; together with the forms for the administration of Baptism and the Holy Supper; and a Catechism for the use of the New Church; also, Hymns and Spiritual Songs, by the Rev. Mr. Joseph Proud, Minister of the New Church; the fourth edition
 Creator: The New Church (New Jerusalem Church); hymns by Joseph Proud
 Publisher: Baltimore: printed and sold by Samuel and John Adams, in Market-Street
-Publication Date: 1793
-Rights: Public Domain (published 1793, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)
+Publication Date: 1792
+Rights: Public Domain (published 1792, more than 95 years ago; public domain by date under the project's rolling rule; the item carries no rights field, so the date rule alone applies)
 Source: Internet Archive item liturgyour00newj (https://archive.org/details/liturgyour00newj), the item's own liturgyour00newj_djvu.txt full-text OCR derivative; contributing library per the item metadata: Princeton Theological Seminary Library; host metadata date: 1792. Fetched directly (curl/urllib, raw bytes) by the Library thread (Era VIII pass), 2026-10-23. sha256 of the raw fetched bytes: da60c3108d4118cf59f3389eb1048bcfe5c8a043a45066f0c7c1a88a56b182b0.
-Provenance note: Header prepended by the Library thread; nothing else altered, no OCR error corrected, nothing retyped. Princeton Theological Seminary scan, from the library of Louis FitzGerald Benson; usable OCR, the spine and cover garbled, the text readable with the long s as f. The host dates the item 1792; the title page reads 1793. A note in the preface says the third edition, printed in 1790 by Robert Hindmarsh in London, was 'calculated for the Kingdom of Great Britain only', and that this copy is altered for the United States.
+Provenance note: Header prepended by the Library thread; nothing else altered, no OCR error corrected, nothing retyped. Princeton Theological Seminary scan, from the library of Louis FitzGerald Benson; usable OCR, the spine and cover garbled, the text readable with the long s as f. The host dates the item 1792, and the title page prints 1792; the OCR at file line 299 reads 1793. A note in the preface says the third edition, printed in 1790 by Robert Hindmarsh in London, was 'calculated for the Kingdom of Great Britain only', and that this copy is altered for the United States.
 Content note: The New Church's order of worship as adopted in America: the liturgy with its confession to the Lord Jesus 'in his Divine Humanity', the forms for baptism and the holy supper, the catechism, and Proud's hymns, including hymns against the Calvinist doctrine.
 
 ---

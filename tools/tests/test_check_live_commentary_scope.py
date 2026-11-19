@@ -31,6 +31,8 @@ def repo(tmp_path, monkeypatch):
     _git(tmp_path, "add", "-A")
     _git(tmp_path, "commit", "-q", "-m", "base")
     monkeypatch.setattr(clc, "REPO", tmp_path)
+    # The real ACCEPTED_OPEN waivers name files this synthetic repo lacks.
+    monkeypatch.setattr(clc, "ACCEPTED_OPEN", ())
     return tmp_path
 
 

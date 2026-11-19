@@ -1,0 +1,4603 @@
+[
+{
+"cid": "C000",
+"name": "Jacob",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"the-reformed-cities-zurich-and-geneva": 0,
+"lollardy": 0,
+"the-anabaptist-movements": 0
+},
+"masked": {
+"the-reformed-cities-zurich-and-geneva": 1057,
+"lollardy": 786,
+"the-anabaptist-movements": 564,
+"syriac-orthodox-west-syriac-christianity": 304,
+"nicene-visigothic-iberia": 290,
+"the-quakers-religious-society-of-friends": 272,
+"radical-pietism-and-the-brethren-dunkers-ephrata": 241,
+"the-methodist-revival": 231,
+"the-society-of-jesus": 202,
+"the-baptists": 189,
+"merovingian-gallic-christianity": 188,
+"early-american-unitarians-universalists": 170,
+"the-tridentine-church": 168,
+"antiochene-exegetical-christianity-chrysostom-ce": 167,
+"schwenckfelders": 162,
+"dutch-further-reformation-and-refuge-culture": 159,
+"the-moravian-church-at-herrnhut": 131,
+"the-ethiopian-monastic-flowering": 130,
+"german-pietism-spener-francke-halle": 123,
+"the-scottish-reformation-and-kirk": 112,
+"the-church-of-the-east-on-the-silk-road": 109,
+"byzantine-church-palaiologan": 104,
+"the-english-reformation-and-elizabethan-settleme": 103,
+"the-church-of-the-east-under-persia": 94,
+"catholic-church-ancien-regime": 93,
+"church-of-the-east-under-the-abbasids": 91,
+"shakers": 90,
+"church-of-the-east-chaldean-consolidation": 85,
+"armenian-christianity-era-8": 85,
+"restoration-georgian-church-of-england": 84,
+"puritanism": 80,
+"insular-irish-monastic-christianity": 79,
+"hieronymian-ascetic-literary": 76,
+"lutheran-wittenberg-and-its-congregations": 75,
+"ethiopian-christianity-gragn-to-fasilides": 73,
+"rhineland-mysticism-and-the-friends-of-god": 72,
+"armenian-christianity-zartonk": 71,
+"the-evangelical-awakening-in-new-england": 65,
+"russian-church-nikon-to-holy-synod": 64,
+"the-welsh-revival-tradition": 64,
+"carolingian-reform-christianity": 64,
+"latin-africa-under-byzantium": 63,
+"zagwe-and-early-solomonic-ethiopian-christianity": 63,
+"coptic-christianity-under-early-islam": 61,
+"church-of-the-east-timur-to-hakkari": 60,
+"coptic-christianity-fatimid-to-mamluk": 60,
+"church-of-the-east-schism-of-1552": 60,
+"latin-papal-church-avignon-to-lateran-v": 58,
+"roman-church-gregorian": 57,
+"swedenborgian-new-church": 54,
+"anti-trinitarian-currents-servetus-polish-brethr": 51,
+"franciscan-order-era-6": 51,
+"gallic-nicene-episcopate": 49,
+"chalcedonian-monasticism-judean-desert-and-gaza": 47,
+"st-thomas-christians-under-portuguese-pressure-d": 46,
+"fraticelli-spiritual-franciscan-rigorists": 46,
+"the-english-mystics-and-devout": 44,
+"english-old-dissent": 43,
+"armenian-christianity-before-the-bagratids": 38,
+"late-medieval-lay-parish-piety": 38,
+"family-of-love-and-spiritualists-franck-niclaes": 37,
+"hesychasm-and-the-palamite-synthesis": 36,
+"waldensians-in-the-alps": 35,
+"byzantine-imperial-church-justinianic": 34,
+"carmelite-reform-and-spanish-mystics": 33,
+"church-of-the-desert-huguenots": 32,
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 31,
+"gallic-monastic-ascetic-christianity": 30,
+"the-remonstrants-and-dort": 29,
+"the-huguenots": 28,
+"byzantine-imperial-church-heraclian-iconoclast": 27,
+"medieval-welsh-christianity": 27,
+"the-malankara-churches-orthodox-and-jacobite": 26,
+"ambrosian-milan-standalone": 24,
+"the-waldensian-reformed-union": 23,
+"the-hussite-and-bohemian-brethren-movement": 23,
+"armenian-cilicia": 23,
+"the-kyiv-mohyla-orthodox-revival": 23,
+"syriac-renaissance": 22,
+"orthodoxy-under-the-ottomans-1650-1821": 22,
+"port-royal-jansenism": 20,
+"scandinavian-reformation-kingdoms": 19,
+"devotio-moderna-brethren-of-the-common-life": 18,
+"recusant-english-catholicism": 13,
+"georgian-revival-tao-klarjeti": 12,
+"british-welsh-christianity": 12,
+"ruthenian-uniate-18th-century": 11,
+"pelagianism": 11,
+"colonial-latin-american-devotional-catholicism": 10,
+"armenian-christianity-new-julfa": 10,
+"taborite-radicalism": 10,
+"armenian-cilicia-after-the-kingdom": 9,
+"apollinarian-christianity": 9,
+"the-waldensians": 9,
+"early-benedictine-italian-monasticism": 8,
+"iconophile-byzantine-monasticism": 7,
+"homoian-arian-christianity": 6,
+"melkite-arabic-christianity": 6,
+"tridentine-parish-renewal-borromean-milan": 6,
+"church-of-utrecht": 6,
+"russian-church-synodal-century": 5,
+"armenian-christianity-after-avarayr": 5
+}
+},
+{
+"cid": "C001",
+"name": "Paul of Samosata",
+"n5": 2,
+"n3": 2,
+"S": 12,
+"clean": {
+"desert-monasticism": 0,
+"imperial-juridical-christianity": 5,
+"antiochene-exegetical-christianity-chrysostom-ce": 7
+},
+"masked": {
+"desert-monasticism": 25,
+"imperial-juridical-christianity": 21,
+"antiochene-exegetical-christianity-chrysostom-ce": 20,
+"cyrilline-miaphysite-egyptian-christianity": 18,
+"syriac-orthodox-west-syriac-christianity": 17,
+"byzantine-imperial-church-justinianic": 9,
+"latin-africa-under-byzantium": 9,
+"the-church-of-the-east-under-persia": 7,
+"church-of-the-east-under-the-abbasids": 7,
+"merovingian-gallic-christianity": 7,
+"jerusalem-liturgical-pilgrimage-christianity": 6,
+"coptic-christianity-under-early-islam": 5,
+"nicene-visigothic-iberia": 5,
+"cappadocian-nicene-pastoral-monastic-tradition": 5,
+"byzantine-church-palaiologan": 5
+}
+},
+{
+"cid": "C002",
+"name": "Aurelian",
+"n5": 0,
+"n3": 0,
+"S": 2,
+"clean": {
+"nicene-visigothic-iberia": 1,
+"merovingian-gallic-christianity": 1,
+"british-welsh-christianity": 0
+},
+"masked": {
+"nicene-visigothic-iberia": 33,
+"merovingian-gallic-christianity": 24,
+"british-welsh-christianity": 23,
+"hieronymian-ascetic-literary": 17,
+"latin-africa-under-byzantium": 17,
+"imperial-juridical-christianity": 16,
+"the-anabaptist-movements": 12,
+"the-tridentine-church": 12,
+"byzantine-imperial-church-justinianic": 11,
+"the-church-of-the-east-under-persia": 10,
+"syriac-orthodox-west-syriac-christianity": 8,
+"the-waldensian-reformed-union": 7,
+"syriac-renaissance": 7,
+"gothic-and-vandal-homoian-christianity": 7,
+"insular-irish-monastic-christianity": 6,
+"latin-papal-church-avignon-to-lateran-v": 5,
+"medieval-welsh-christianity": 5,
+"cyrilline-miaphysite-egyptian-christianity": 5
+}
+},
+{
+"cid": "C003",
+"name": "Callistus",
+"n5": 0,
+"n3": 0,
+"S": 2,
+"clean": {
+"latin-pastoral-congregational-christianity": 2,
+"byzantine-church-palaiologan": 0,
+"hesychasm-and-the-palamite-synthesis": 0
+},
+"masked": {
+"latin-pastoral-congregational-christianity": 82,
+"byzantine-church-palaiologan": 47,
+"hesychasm-and-the-palamite-synthesis": 41,
+"syriac-orthodox-west-syriac-christianity": 31,
+"desert-monasticism": 19,
+"observant-reform-and-popular-preaching": 17,
+"franciscan-order-era-6": 17,
+"imperial-juridical-christianity": 13,
+"latin-papal-church-avignon-to-lateran-v": 12,
+"georgian-revival-tao-klarjeti": 11,
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 9,
+"antiochene-exegetical-christianity-chrysostom-ce": 8,
+"the-hesychast-revival-paisius-and-the-philokalia": 8,
+"byzantine-imperial-church-justinianic": 8,
+"the-kollyvades-and-greek-renewal": 7,
+"german-pietism-spener-francke-halle": 7,
+"orthodoxy-under-the-ottomans-1650-1821": 7,
+"the-society-of-jesus": 6,
+"the-ethiopian-monastic-flowering": 6,
+"maronite-christianity-era-6": 5,
+"the-church-of-the-east-under-persia": 5,
+"latin-papal-church-gregorian": 5,
+"nicene-visigothic-iberia": 5
+}
+},
+{
+"cid": "C004",
+"name": "Justina",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"czech-churches-last-century": 0,
+"the-tridentine-church": 0,
+"the-ethiopian-monastic-flowering": 0
+},
+"masked": {
+"czech-churches-last-century": 11,
+"the-tridentine-church": 9,
+"the-ethiopian-monastic-flowering": 6,
+"coptic-christianity-fatimid-to-mamluk": 6,
+"the-moravian-church-at-herrnhut": 5,
+"the-society-of-jesus": 5
+}
+},
+{
+"cid": "C005",
+"name": "Pulcheria",
+"n5": 0,
+"n3": 2,
+"S": 6,
+"clean": {
+"orthodoxy-under-the-ottomans-1650-1821": 3,
+"hesychasm-and-the-palamite-synthesis": 0,
+"the-kollyvades-and-greek-renewal": 3
+},
+"masked": {
+"orthodoxy-under-the-ottomans-1650-1821": 7,
+"hesychasm-and-the-palamite-synthesis": 6,
+"the-kollyvades-and-greek-renewal": 6,
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 6,
+"latin-africa-under-byzantium": 6,
+"nicene-visigothic-iberia": 5
+}
+},
+{
+"cid": "C006",
+"name": "Paula",
+"n5": 0,
+"n3": 0,
+"S": 1,
+"clean": {
+"the-scottish-reformation-and-kirk": 0,
+"late-medieval-lay-parish-piety": 0,
+"the-society-of-jesus": 1
+},
+"masked": {
+"the-scottish-reformation-and-kirk": 65,
+"late-medieval-lay-parish-piety": 33,
+"the-society-of-jesus": 28,
+"lutheran-wittenberg-and-its-congregations": 21,
+"the-tridentine-church": 21,
+"recusant-english-catholicism": 21,
+"puritanism": 18,
+"carolingian-reform-christianity": 17,
+"latin-papal-church-avignon-to-lateran-v": 14,
+"latin-africa-under-byzantium": 13,
+"nicene-visigothic-iberia": 12,
+"lollardy": 11,
+"chalcedonian-monasticism-judean-desert-and-gaza": 10,
+"philippine-catholicism-era-8": 10,
+"the-quakers-religious-society-of-friends": 8,
+"colonial-latin-american-devotional-catholicism": 8,
+"byzantine-imperial-church-heraclian-iconoclast": 8,
+"church-of-the-desert-huguenots": 8,
+"merovingian-gallic-christianity": 8,
+"the-hussite-and-bohemian-brethren-movement": 7,
+"byzantine-imperial-church-justinianic": 7,
+"the-church-of-the-east-under-persia": 5,
+"dutch-further-reformation-and-refuge-culture": 5,
+"catholic-church-ancien-regime": 5,
+"anti-trinitarian-currents-servetus-polish-brethr": 5
+}
+},
+{
+"cid": "C007",
+"name": "Marcella",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"anti-trinitarian-currents-servetus-polish-brethr": 0,
+"carolingian-reform-christianity": 0
+},
+"masked": {
+"anti-trinitarian-currents-servetus-polish-brethr": 5,
+"carolingian-reform-christianity": 5
+}
+},
+{
+"cid": "C008",
+"name": "Mesrop Mashtots",
+"n5": 0,
+"n3": 0,
+"S": 2,
+"clean": {
+"armenian-christianity-after-avarayr": 0,
+"church-of-caucasian-albania": 0,
+"armenian-christianity-era-8": 2
+},
+"masked": {
+"armenian-christianity-after-avarayr": 186,
+"church-of-caucasian-albania": 174,
+"armenian-christianity-era-8": 57,
+"armenian-christianity-zartonk": 44,
+"armenian-cilicia": 14,
+"coptic-christianity-under-early-islam": 10,
+"armenian-cilicia-after-the-kingdom": 8,
+"armenian-christianity-new-julfa": 7,
+"the-georgian-golden-age": 7,
+"armenian-christianity-before-the-bagratids": 6
+}
+},
+{
+"cid": "C009",
+"name": "Sahak Partev",
+"n5": 0,
+"n3": 0,
+"S": 6,
+"clean": {
+"armenian-christianity-before-the-bagratids": 2,
+"armenian-christianity-after-avarayr": 2,
+"church-of-caucasian-albania": 2
+},
+"masked": {
+"armenian-christianity-before-the-bagratids": 32,
+"armenian-christianity-after-avarayr": 9,
+"church-of-caucasian-albania": 9
+}
+},
+{
+"cid": "C010",
+"name": "Theodore of Mopsuestia",
+"n5": 0,
+"n3": 1,
+"S": 8,
+"clean": {
+"latin-africa-under-byzantium": 2,
+"byzantine-imperial-church-justinianic": 2,
+"syriac-orthodox-west-syriac-christianity": 4
+},
+"masked": {
+"latin-africa-under-byzantium": 115,
+"byzantine-imperial-church-justinianic": 24,
+"syriac-orthodox-west-syriac-christianity": 9,
+"church-of-the-east-chaldean-consolidation": 9,
+"the-church-of-the-east-on-the-silk-road": 5,
+"church-of-the-east-timur-to-hakkari": 5,
+"church-of-the-east-schism-of-1552": 5,
+"armenian-christianity-era-8": 5
+}
+},
+{
+"cid": "C011",
+"name": "Honoratus of Arles",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"roman-church-gregorian": 0,
+"merovingian-gallic-christianity": 0,
+"byzantine-imperial-church-justinianic": 0
+},
+"masked": {
+"roman-church-gregorian": 52,
+"merovingian-gallic-christianity": 27,
+"byzantine-imperial-church-justinianic": 21,
+"nicene-visigothic-iberia": 19,
+"latin-africa-under-byzantium": 17,
+"insular-irish-monastic-christianity": 6
+}
+},
+{
+"cid": "C012",
+"name": "Priscillian",
+"n5": 3,
+"n3": 3,
+"S": 17,
+"clean": {
+"nicene-visigothic-iberia": 6,
+"shakers": 6,
+"byzantine-imperial-church-justinianic": 5
+},
+"masked": {
+"nicene-visigothic-iberia": 23,
+"shakers": 8,
+"byzantine-imperial-church-justinianic": 8,
+"merovingian-gallic-christianity": 6
+}
+},
+{
+"cid": "C013",
+"name": "Theoderic the Great",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"roman-church-gregorian": 0,
+"devotio-moderna-brethren-of-the-common-life": 0,
+"carolingian-reform-christianity": 0
+},
+"masked": {
+"roman-church-gregorian": 30,
+"devotio-moderna-brethren-of-the-common-life": 21,
+"carolingian-reform-christianity": 21,
+"nicene-visigothic-iberia": 17,
+"the-anabaptist-movements": 10,
+"latin-papal-church-avignon-to-lateran-v": 7,
+"latin-africa-under-byzantium": 6,
+"the-tridentine-church": 5
+}
+},
+{
+"cid": "C014",
+"name": "Ignatius",
+"n5": 0,
+"n3": 0,
+"S": 2,
+"clean": {
+"the-society-of-jesus": 0,
+"byzantine-church-palaiologan": 1,
+"the-ethiopian-monastic-flowering": 1
+},
+"masked": {
+"the-society-of-jesus": 3231,
+"byzantine-church-palaiologan": 39,
+"the-ethiopian-monastic-flowering": 35,
+"st-thomas-christians-under-portuguese-pressure-d": 34,
+"melkite-greek-catholic-church": 33,
+"imperial-juridical-christianity": 33,
+"hesychasm-and-the-palamite-synthesis": 32,
+"syriac-orthodox-west-syriac-christianity": 31,
+"anti-trinitarian-currents-servetus-polish-brethr": 28,
+"russian-church-synodal-century": 26,
+"the-tridentine-church": 25,
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 25,
+"recusant-english-catholicism": 25,
+"orthodoxy-under-the-ottomans-1650-1821": 25,
+"the-anabaptist-movements": 22,
+"armenian-christianity-era-8": 22,
+"english-old-dissent": 21,
+"antiochene-exegetical-christianity-chrysostom-ce": 21,
+"latin-papal-church-avignon-to-lateran-v": 21,
+"puritanism": 21,
+"the-church-of-the-east-under-persia": 18,
+"philippine-catholicism-era-8": 18,
+"tridentine-parish-renewal-borromean-milan": 17,
+"philippine-catholicism": 17,
+"the-methodist-revival": 16,
+"the-english-reformation-and-elizabethan-settleme": 15,
+"russian-church-nikon-to-holy-synod": 14,
+"catholic-church-ancien-regime": 14,
+"latin-papal-church-gregorian": 13,
+"the-moravian-church-at-herrnhut": 12,
+"cyrilline-miaphysite-egyptian-christianity": 12,
+"church-of-utrecht": 12,
+"the-kyiv-mohyla-orthodox-revival": 12,
+"the-reformed-cities-zurich-and-geneva": 11,
+"the-malankara-churches-orthodox-and-jacobite": 11,
+"greek-apologists-second-century": 11,
+"port-royal-jansenism": 10,
+"german-pietism-spener-francke-halle": 8,
+"antiochene-church-third-century": 8,
+"persian-church-of-the-east-early": 8,
+"ruthenian-uniate-18th-century": 7,
+"devotio-moderna-brethren-of-the-common-life": 7,
+"alexandria-catechetical": 7,
+"church-of-the-east-chaldean-consolidation": 7,
+"byzantine-imperial-church-justinianic": 7,
+"british-welsh-christianity": 7,
+"hieronymian-ascetic-literary": 6,
+"the-quakers-religious-society-of-friends": 5,
+"desert-monasticism": 5,
+"latin-pastoral-congregational-christianity": 5
+}
+},
+{
+"cid": "C015",
+"name": "Polycarp of Smyrna",
+"n5": 0,
+"n3": 1,
+"S": 5,
+"clean": {
+"imperial-juridical-christianity": 3,
+"latin-pastoral-congregational-christianity": 0,
+"syriac-orthodox-west-syriac-christianity": 2
+},
+"masked": {
+"imperial-juridical-christianity": 53,
+"latin-pastoral-congregational-christianity": 33,
+"syriac-orthodox-west-syriac-christianity": 30,
+"the-anabaptist-movements": 24,
+"the-waldensian-reformed-union": 20,
+"latin-apologists": 18,
+"syriac-renaissance": 17,
+"the-moravian-church-at-herrnhut": 12,
+"cappadocian-nicene-pastoral-monastic-tradition": 10,
+"hieronymian-ascetic-literary": 9,
+"novatianism": 9,
+"church-of-the-east-chaldean-consolidation": 9,
+"byzantine-imperial-church-justinianic": 9,
+"the-church-of-the-east-under-persia": 8,
+"the-tridentine-church": 8,
+"church-of-the-east-timur-to-hakkari": 7,
+"nicene-visigothic-iberia": 7,
+"cyrilline-miaphysite-egyptian-christianity": 7,
+"donatism": 6,
+"latin-papal-church-avignon-to-lateran-v": 6,
+"merovingian-gallic-christianity": 6,
+"anti-trinitarian-currents-servetus-polish-brethr": 6,
+"church-of-the-east-schism-of-1552": 6,
+"the-english-reformation-and-elizabethan-settleme": 6,
+"hesychasm-and-the-palamite-synthesis": 5,
+"the-society-of-jesus": 5,
+"british-welsh-christianity": 5,
+"recusant-english-catholicism": 5
+}
+},
+{
+"cid": "C016",
+"name": "Quadratus",
+"n5": 0,
+"n3": 0,
+"S": 2,
+"clean": {
+"latin-pastoral-congregational-christianity": 0,
+"nicene-visigothic-iberia": 0,
+"hieronymian-ascetic-literary": 2
+},
+"masked": {
+"latin-pastoral-congregational-christianity": 21,
+"nicene-visigothic-iberia": 5,
+"hieronymian-ascetic-literary": 5
+}
+},
+{
+"cid": "C017",
+"name": "Aristides of Athens",
+"n5": 0,
+"n3": 0,
+"S": 1,
+"clean": {
+"latin-apologists": 0,
+"hieronymian-ascetic-literary": 1,
+"syriac-edessa-nisibis": 0
+},
+"masked": {
+"latin-apologists": 26,
+"hieronymian-ascetic-literary": 8,
+"syriac-edessa-nisibis": 8,
+"the-quakers-religious-society-of-friends": 6
+}
+},
+{
+"cid": "C018",
+"name": "Basilides",
+"n5": 1,
+"n3": 1,
+"S": 8,
+"clean": {
+"latin-apologists": 1,
+"latin-pastoral-congregational-christianity": 0,
+"alexandria-catechetical": 7
+},
+"masked": {
+"latin-apologists": 77,
+"latin-pastoral-congregational-christianity": 76,
+"alexandria-catechetical": 52,
+"montanism-the-new-prophecy": 50,
+"roman-church-third-century": 47,
+"cappadocian-nicene-pastoral-monastic-tradition": 35,
+"imperial-juridical-christianity": 17,
+"the-society-of-jesus": 16,
+"syriac-orthodox-west-syriac-christianity": 15,
+"novatianism": 15,
+"coptic-christianity-fatimid-to-mamluk": 12,
+"cyrilline-miaphysite-egyptian-christianity": 9,
+"the-ethiopian-monastic-flowering": 8,
+"nicene-visigothic-iberia": 7,
+"hieronymian-ascetic-literary": 7,
+"aquileian-christianity": 7,
+"desert-monasticism": 6,
+"jerusalem-liturgical-pilgrimage-christianity": 5
+}
+},
+{
+"cid": "C019",
+"name": "Valentinus",
+"n5": 1,
+"n3": 1,
+"S": 7,
+"clean": {
+"latin-papal-church-avignon-to-lateran-v": 1,
+"latin-apologists": 5,
+"latin-pastoral-congregational-christianity": 1
+},
+"masked": {
+"latin-papal-church-avignon-to-lateran-v": 163,
+"latin-apologists": 151,
+"latin-pastoral-congregational-christianity": 114,
+"montanism-the-new-prophecy": 104,
+"church-of-the-desert-huguenots": 77,
+"roman-church-third-century": 65,
+"antiochene-exegetical-christianity-chrysostom-ce": 43,
+"alexandria-catechetical": 42,
+"the-society-of-jesus": 38,
+"the-anabaptist-movements": 36,
+"apollinarian-christianity": 34,
+"the-church-of-the-east-under-persia": 28,
+"imperial-juridical-christianity": 26,
+"byzantine-imperial-church-justinianic": 19,
+"nicene-visigothic-iberia": 18,
+"cappadocian-nicene-pastoral-monastic-tradition": 18,
+"merovingian-gallic-christianity": 18,
+"czech-churches-last-century": 17,
+"anti-trinitarian-currents-servetus-polish-brethr": 15,
+"the-reformed-cities-zurich-and-geneva": 14,
+"desert-monasticism": 13,
+"cyrilline-miaphysite-egyptian-christianity": 13,
+"roman-church-gregorian": 13,
+"hieronymian-ascetic-literary": 12,
+"syriac-orthodox-west-syriac-christianity": 11,
+"the-huguenots": 9,
+"the-waldensian-reformed-union": 8,
+"the-tridentine-church": 8,
+"jerusalem-liturgical-pilgrimage-christianity": 8,
+"catholic-church-ancien-regime": 8,
+"syriac-edessa-nisibis": 8,
+"carolingian-reform-christianity": 8,
+"persian-church-of-the-east-early": 8,
+"maronite-christianity-era-6": 7,
+"latin-africa-under-byzantium": 7,
+"georgian-christianity": 6,
+"armenian-christianity-after-avarayr": 6,
+"st-thomas-christians-under-portuguese-pressure-d": 6,
+"church-of-caucasian-albania": 6,
+"palestinian-ascetic-monasticism-early": 5,
+"schwenckfelders": 5,
+"lutheran-wittenberg-and-its-congregations": 5,
+"coptic-christianity-under-early-islam": 5
+}
+},
+{
+"cid": "C020",
+"name": "Justin Martyr",
+"n5": 0,
+"n3": 0,
+"S": 1,
+"clean": {
+"byzantine-imperial-church-justinianic": 0,
+"syriac-edessa-nisibis": 1,
+"jerusalem-liturgical-pilgrimage-christianity": 0
+},
+"masked": {
+"byzantine-imperial-church-justinianic": 11,
+"syriac-edessa-nisibis": 9,
+"jerusalem-liturgical-pilgrimage-christianity": 8,
+"latin-pastoral-congregational-christianity": 8,
+"hieronymian-ascetic-literary": 6,
+"the-quakers-religious-society-of-friends": 5,
+"the-tridentine-church": 5
+}
+},
+{
+"cid": "C021",
+"name": "Montanus",
+"n5": 0,
+"n3": 0,
+"S": 1,
+"clean": {
+"latin-pastoral-congregational-christianity": 0,
+"the-anabaptist-movements": 1,
+"the-society-of-jesus": 0
+},
+"masked": {
+"latin-pastoral-congregational-christianity": 88,
+"the-anabaptist-movements": 42,
+"the-society-of-jesus": 42,
+"latin-apologists": 37,
+"imperial-juridical-christianity": 36,
+"the-huguenots": 26,
+"syriac-orthodox-west-syriac-christianity": 15,
+"hieronymian-ascetic-literary": 15,
+"nicene-visigothic-iberia": 12,
+"cappadocian-nicene-pastoral-monastic-tradition": 11,
+"palestinian-ascetic-monasticism-early": 9,
+"the-remonstrants-and-dort": 9,
+"merovingian-gallic-christianity": 9,
+"latin-papal-church-avignon-to-lateran-v": 7,
+"byzantine-imperial-church-justinianic": 7,
+"desert-monasticism": 6,
+"roman-church-third-century": 5,
+"latin-africa-under-byzantium": 5
+}
+},
+{
+"cid": "C022",
+"name": "Priscilla",
+"n5": 0,
+"n3": 0,
+"S": 5,
+"clean": {
+"imperial-juridical-christianity": 2,
+"syriac-orthodox-west-syriac-christianity": 2,
+"syriac-renaissance": 1
+},
+"masked": {
+"imperial-juridical-christianity": 40,
+"syriac-orthodox-west-syriac-christianity": 34,
+"syriac-renaissance": 31,
+"antiochene-exegetical-christianity-chrysostom-ce": 22,
+"latin-pastoral-congregational-christianity": 16,
+"latin-apologists": 15,
+"lollardy": 12,
+"cappadocian-nicene-pastoral-monastic-tradition": 10,
+"hieronymian-ascetic-literary": 8,
+"byzantine-imperial-church-justinianic": 8,
+"chalcedonian-monasticism-judean-desert-and-gaza": 7,
+"georgian-revival-tao-klarjeti": 7,
+"the-quakers-religious-society-of-friends": 6,
+"the-tridentine-church": 6,
+"roman-church-third-century": 5
+}
+},
+{
+"cid": "C023",
+"name": "Maximilla",
+"n5": 2,
+"n3": 2,
+"S": 17,
+"clean": {
+"palestinian-ascetic-monasticism-early": 10,
+"latin-apologists": 2,
+"imperial-juridical-christianity": 5
+},
+"masked": {
+"palestinian-ascetic-monasticism-early": 10,
+"latin-apologists": 7,
+"imperial-juridical-christianity": 6,
+"roman-church-third-century": 5,
+"hieronymian-ascetic-literary": 5,
+"latin-pastoral-congregational-christianity": 5
+}
+},
+{
+"cid": "C024",
+"name": "Melito of Sardis",
+"n5": 0,
+"n3": 0,
+"S": 2,
+"clean": {
+"the-society-of-jesus": 0,
+"syriac-orthodox-west-syriac-christianity": 2,
+"imperial-juridical-christianity": 0
+},
+"masked": {
+"the-society-of-jesus": 63,
+"syriac-orthodox-west-syriac-christianity": 9,
+"imperial-juridical-christianity": 8,
+"the-kollyvades-and-greek-renewal": 5,
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 5,
+"latin-pastoral-congregational-christianity": 5,
+"latin-africa-under-byzantium": 5,
+"orthodoxy-under-the-ottomans-1650-1821": 5
+}
+},
+{
+"cid": "C025",
+"name": "Heracleon",
+"n5": 0,
+"n3": 1,
+"S": 4,
+"clean": {
+"latin-apologists": 1,
+"latin-pastoral-congregational-christianity": 0,
+"roman-church-third-century": 3
+},
+"masked": {
+"latin-apologists": 12,
+"latin-pastoral-congregational-christianity": 7,
+"roman-church-third-century": 5
+}
+},
+{
+"cid": "C026",
+"name": "Tatian",
+"n5": 0,
+"n3": 0,
+"S": 2,
+"clean": {
+"latin-apologists": 1,
+"persian-church-of-the-east-early": 0,
+"imperial-juridical-christianity": 1
+},
+"masked": {
+"latin-apologists": 54,
+"persian-church-of-the-east-early": 49,
+"imperial-juridical-christianity": 25,
+"hieronymian-ascetic-literary": 14,
+"church-of-the-east-chaldean-consolidation": 11,
+"church-of-the-east-timur-to-hakkari": 10,
+"latin-pastoral-congregational-christianity": 10,
+"church-of-the-east-schism-of-1552": 10,
+"coptic-christianity-under-early-islam": 9,
+"byzantine-imperial-church-justinianic": 9,
+"roman-church-third-century": 8,
+"syriac-orthodox-west-syriac-christianity": 8,
+"the-church-of-the-east-under-persia": 7,
+"lutheran-wittenberg-and-its-congregations": 7,
+"desert-monasticism": 6,
+"armenian-cilicia": 6,
+"cyrilline-miaphysite-egyptian-christianity": 5
+}
+},
+{
+"cid": "C027",
+"name": "Athenagoras of Athens",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"syriac-edessa-nisibis": 0,
+"desert-monasticism": 0
+},
+"masked": {
+"syriac-edessa-nisibis": 85,
+"desert-monasticism": 8
+}
+},
+{
+"cid": "C028",
+"name": "Pantaenus",
+"n5": 0,
+"n3": 1,
+"S": 6,
+"clean": {
+"shakers": 4,
+"imperial-juridical-christianity": 2
+},
+"masked": {
+"shakers": 6,
+"imperial-juridical-christianity": 5
+}
+},
+{
+"cid": "C029",
+"name": "Clement of Alexandria",
+"n5": 0,
+"n3": 0,
+"S": 1,
+"clean": {
+"imperial-juridical-christianity": 1,
+"nicene-visigothic-iberia": 0,
+"cappadocian-nicene-pastoral-monastic-tradition": 0
+},
+"masked": {
+"imperial-juridical-christianity": 8,
+"nicene-visigothic-iberia": 5,
+"cappadocian-nicene-pastoral-monastic-tradition": 5
+}
+},
+{
+"cid": "C030",
+"name": "Serapion",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"imperial-juridical-christianity": 0,
+"desert-monasticism": 0,
+"antiochene-exegetical-christianity-chrysostom-ce": 0
+},
+"masked": {
+"imperial-juridical-christianity": 75,
+"desert-monasticism": 57,
+"antiochene-exegetical-christianity-chrysostom-ce": 17,
+"coptic-christianity-fatimid-to-mamluk": 13,
+"armenian-christianity-era-8": 12,
+"gallic-monastic-ascetic-christianity": 11,
+"syriac-orthodox-west-syriac-christianity": 11,
+"early-benedictine-italian-monasticism": 11,
+"armenian-christianity-zartonk": 11,
+"cyrilline-miaphysite-egyptian-christianity": 11,
+"the-ethiopian-monastic-flowering": 10,
+"the-church-of-the-east-under-persia": 7,
+"russian-church-synodal-century": 7,
+"byzantine-church-palaiologan": 7,
+"the-church-of-the-east-on-the-silk-road": 5,
+"coptic-christianity-under-early-islam": 5,
+"hieronymian-ascetic-literary": 5,
+"apollinarian-christianity": 5
+}
+},
+{
+"cid": "C031",
+"name": "Zephyrinus",
+"n5": 0,
+"n3": 2,
+"S": 6,
+"clean": {
+"latin-pastoral-congregational-christianity": 3,
+"imperial-juridical-christianity": 3
+},
+"masked": {
+"latin-pastoral-congregational-christianity": 27,
+"imperial-juridical-christianity": 12
+}
+},
+{
+"cid": "C032",
+"name": "Bardaisan",
+"n5": 0,
+"n3": 3,
+"S": 9,
+"clean": {
+"syriac-orthodox-west-syriac-christianity": 3,
+"the-church-of-the-east-under-persia": 3,
+"persian-church-of-the-east-early": 3
+},
+"masked": {
+"syriac-orthodox-west-syriac-christianity": 20,
+"the-church-of-the-east-under-persia": 12,
+"persian-church-of-the-east-early": 11,
+"armenian-christianity-after-avarayr": 9,
+"antiochene-exegetical-christianity-chrysostom-ce": 9,
+"church-of-the-east-timur-to-hakkari": 7,
+"syriac-renaissance": 7,
+"church-of-the-east-chaldean-consolidation": 7,
+"church-of-the-east-schism-of-1552": 7,
+"coptic-christianity-under-early-islam": 6,
+"donatism": 6,
+"merovingian-gallic-christianity": 6,
+"insular-irish-monastic-christianity": 5
+}
+},
+{
+"cid": "C033",
+"name": "Caius",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"imperial-juridical-christianity": 0,
+"restoration-georgian-church-of-england": 0,
+"latin-pastoral-congregational-christianity": 0
+},
+"masked": {
+"imperial-juridical-christianity": 33,
+"restoration-georgian-church-of-england": 27,
+"latin-pastoral-congregational-christianity": 21,
+"the-tridentine-church": 11,
+"syriac-orthodox-west-syriac-christianity": 10,
+"nicene-visigothic-iberia": 9,
+"latin-papal-church-avignon-to-lateran-v": 9,
+"lollardy": 9,
+"the-church-of-the-east-under-persia": 8,
+"hesychasm-and-the-palamite-synthesis": 8,
+"puritanism": 7,
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 7,
+"late-medieval-lay-parish-piety": 7,
+"the-english-reformation-and-elizabethan-settleme": 7,
+"orthodoxy-under-the-ottomans-1650-1821": 7,
+"the-kollyvades-and-greek-renewal": 6,
+"merovingian-gallic-christianity": 6,
+"byzantine-imperial-church-justinianic": 6,
+"byzantine-church-palaiologan": 6,
+"latin-papal-church-gregorian": 5
+}
+},
+{
+"cid": "C034",
+"name": "Minucius Felix",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"latin-africa-under-byzantium": 0,
+"byzantine-imperial-church-justinianic": 0,
+"nicene-visigothic-iberia": 0
+},
+"masked": {
+"latin-africa-under-byzantium": 12,
+"byzantine-imperial-church-justinianic": 9,
+"nicene-visigothic-iberia": 8,
+"gothic-and-vandal-homoian-christianity": 8,
+"latin-pastoral-congregational-christianity": 8
+}
+},
+{
+"cid": "C035",
+"name": "Hippolytus",
+"n5": 0,
+"n3": 0,
+"S": 1,
+"clean": {
+"the-society-of-jesus": 1,
+"church-of-the-desert-huguenots": 0,
+"latin-pastoral-congregational-christianity": 0
+},
+"masked": {
+"the-society-of-jesus": 105,
+"church-of-the-desert-huguenots": 74,
+"latin-pastoral-congregational-christianity": 72,
+"syriac-orthodox-west-syriac-christianity": 13,
+"latin-papal-church-avignon-to-lateran-v": 13,
+"imperial-juridical-christianity": 10,
+"the-huguenots": 9,
+"desert-monasticism": 8,
+"the-tridentine-church": 8,
+"hieronymian-ascetic-literary": 8,
+"antiochene-exegetical-christianity-chrysostom-ce": 8,
+"the-church-of-the-east-under-persia": 6,
+"cappadocian-nicene-pastoral-monastic-tradition": 6,
+"the-waldensian-reformed-union": 5,
+"nicene-visigothic-iberia": 5,
+"merovingian-gallic-christianity": 5,
+"carolingian-reform-christianity": 5,
+"persian-church-of-the-east-early": 5
+}
+},
+{
+"cid": "C036",
+"name": "Philip",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"the-tridentine-church": 0,
+"antiochene-exegetical-christianity-chrysostom-ce": 0,
+"english-old-dissent": 0
+},
+"masked": {
+"the-tridentine-church": 831,
+"antiochene-exegetical-christianity-chrysostom-ce": 412,
+"english-old-dissent": 331,
+"imperial-juridical-christianity": 279,
+"the-society-of-jesus": 165,
+"the-methodist-revival": 164,
+"late-medieval-lay-parish-piety": 140,
+"the-english-reformation-and-elizabethan-settleme": 136,
+"the-anabaptist-movements": 134,
+"latin-pastoral-congregational-christianity": 123,
+"lollardy": 101,
+"puritanism": 93,
+"the-reformed-cities-zurich-and-geneva": 92,
+"recusant-english-catholicism": 88,
+"the-baptists": 85,
+"schwenckfelders": 80,
+"anti-trinitarian-currents-servetus-polish-brethr": 80,
+"cyrilline-miaphysite-egyptian-christianity": 77,
+"church-of-the-desert-huguenots": 61,
+"the-quakers-religious-society-of-friends": 59,
+"catholic-church-ancien-regime": 47,
+"the-scottish-reformation-and-kirk": 46,
+"russian-church-nikon-to-holy-synod": 46,
+"radical-pietism-and-the-brethren-dunkers-ephrata": 45,
+"restoration-georgian-church-of-england": 45,
+"the-huguenots": 44,
+"early-american-unitarians-universalists": 41,
+"tridentine-parish-renewal-borromean-milan": 39,
+"latin-papal-church-avignon-to-lateran-v": 38,
+"carmelite-reform-and-spanish-mystics": 38,
+"russian-church-synodal-century": 35,
+"lutheran-wittenberg-and-its-congregations": 34,
+"swedenborgian-new-church": 34,
+"waldensians-in-the-alps": 33,
+"the-ethiopian-monastic-flowering": 31,
+"the-moravian-church-at-herrnhut": 28,
+"german-pietism-spener-francke-halle": 28,
+"merovingian-gallic-christianity": 28,
+"franciscan-order-era-6": 26,
+"byzantine-imperial-church-justinianic": 25,
+"orthodoxy-under-the-ottomans-1650-1821": 24,
+"st-thomas-christians-under-portuguese-pressure-d": 23,
+"fraticelli-spiritual-franciscan-rigorists": 23,
+"dutch-further-reformation-and-refuge-culture": 21,
+"the-waldensian-reformed-union": 20,
+"nicene-visigothic-iberia": 20,
+"carolingian-reform-christianity": 20,
+"armenian-christianity-era-8": 19,
+"cappadocian-nicene-pastoral-monastic-tradition": 18,
+"shakers": 17,
+"syriac-orthodox-west-syriac-christianity": 17,
+"jerusalem-liturgical-pilgrimage-christianity": 17,
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 17,
+"latin-africa-under-byzantium": 17,
+"coptic-christianity-under-early-islam": 16,
+"philippine-catholicism": 16,
+"desert-monasticism": 15,
+"roman-church-gregorian": 15,
+"hieronymian-ascetic-literary": 14,
+"insular-irish-monastic-christianity": 13,
+"coptic-christianity-fatimid-to-mamluk": 13,
+"the-kyiv-mohyla-orthodox-revival": 13,
+"the-remonstrants-and-dort": 12,
+"the-old-believers": 12,
+"gallic-nicene-episcopate": 12,
+"persian-church-of-the-east-early": 12,
+"ruthenian-uniate-18th-century": 11,
+"the-franciscan-movement": 11,
+"byzantine-church-palaiologan": 11,
+"the-hussite-and-bohemian-brethren-movement": 9,
+"armenian-christianity-zartonk": 9,
+"rhineland-mysticism-and-the-friends-of-god": 9,
+"ethiopian-christianity-gragn-to-fasilides": 8,
+"the-welsh-revival-tradition": 8,
+"family-of-love-and-spiritualists-franck-niclaes": 8,
+"church-of-the-east-chaldean-consolidation": 7,
+"the-church-of-the-east-under-persia": 6,
+"hesychasm-and-the-palamite-synthesis": 6,
+"devotio-moderna-brethren-of-the-common-life": 6,
+"the-evangelical-awakening-in-new-england": 6,
+"port-royal-jansenism": 6,
+"kirishitan-japan": 6,
+"chalcedonian-monasticism-judean-desert-and-gaza": 5,
+"church-of-the-east-timur-to-hakkari": 5,
+"anatolian-church-third-century": 5,
+"novatianism": 5,
+"medieval-welsh-christianity": 5,
+"the-english-mystics-and-devout": 5,
+"armenian-christianity-before-the-bagratids": 5,
+"church-of-the-east-schism-of-1552": 5,
+"zagwe-and-early-solomonic-ethiopian-christianity": 5
+}
+},
+{
+"cid": "C037",
+"name": "Gregory Thaumaturgus",
+"n5": 0,
+"n3": 0,
+"S": 1,
+"clean": {
+"apollinarian-christianity": 0,
+"cappadocian-nicene-pastoral-monastic-tradition": 0,
+"imperial-juridical-christianity": 1
+},
+"masked": {
+"apollinarian-christianity": 16,
+"cappadocian-nicene-pastoral-monastic-tradition": 12,
+"imperial-juridical-christianity": 9,
+"jerusalem-liturgical-pilgrimage-christianity": 5
+}
+},
+{
+"cid": "C038",
+"name": "Mani",
+"n5": 1,
+"n3": 1,
+"S": 10,
+"clean": {
+"cappadocian-nicene-pastoral-monastic-tradition": 2,
+"palestinian-ascetic-monasticism-early": 7,
+"the-society-of-jesus": 1
+},
+"masked": {
+"cappadocian-nicene-pastoral-monastic-tradition": 113,
+"palestinian-ascetic-monasticism-early": 65,
+"the-society-of-jesus": 55,
+"cyrilline-miaphysite-egyptian-christianity": 49,
+"syriac-orthodox-west-syriac-christianity": 37,
+"philippine-catholicism": 36,
+"the-church-of-the-east-under-persia": 32,
+"antiochene-exegetical-christianity-chrysostom-ce": 31,
+"imperial-juridical-christianity": 31,
+"hieronymian-ascetic-literary": 29,
+"church-of-the-east-chaldean-consolidation": 29,
+"coptic-christianity-under-early-islam": 28,
+"jerusalem-liturgical-pilgrimage-christianity": 28,
+"byzantine-imperial-church-justinianic": 24,
+"church-of-the-east-timur-to-hakkari": 23,
+"church-of-the-east-schism-of-1552": 23,
+"persian-church-of-the-east-early": 19,
+"the-ethiopian-monastic-flowering": 16,
+"chalcedonian-monasticism-judean-desert-and-gaza": 15,
+"coptic-christianity-fatimid-to-mamluk": 15,
+"the-evangelical-awakening-in-new-england": 12,
+"nicene-visigothic-iberia": 12,
+"st-thomas-christians-under-portuguese-pressure-d": 12,
+"the-reformed-cities-zurich-and-geneva": 11,
+"the-church-of-the-east-on-the-silk-road": 11,
+"donatism": 11,
+"merovingian-gallic-christianity": 11,
+"latin-africa-under-byzantium": 11,
+"desert-monasticism": 10,
+"byzantine-church-palaiologan": 10,
+"armenian-christianity-after-avarayr": 8,
+"philippine-catholicism-era-8": 8,
+"ambrosian-milan-standalone": 7,
+"the-huguenots": 7,
+"the-english-mystics-and-devout": 7,
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 7,
+"shakers": 6,
+"russian-church-nikon-to-holy-synod": 6,
+"lutheran-wittenberg-and-its-congregations": 6,
+"anti-trinitarian-currents-servetus-polish-brethr": 6,
+"church-of-caucasian-albania": 6,
+"the-english-reformation-and-elizabethan-settleme": 6,
+"latin-papal-church-avignon-to-lateran-v": 5,
+"armenian-cilicia": 5
+}
+},
+{
+"cid": "C039",
+"name": "Novatian",
+"n5": 1,
+"n3": 1,
+"S": 7,
+"clean": {
+"cappadocian-nicene-pastoral-monastic-tradition": 1,
+"imperial-juridical-christianity": 0,
+"ambrosian-milan-standalone": 6
+},
+"masked": {
+"cappadocian-nicene-pastoral-monastic-tradition": 52,
+"imperial-juridical-christianity": 35,
+"ambrosian-milan-standalone": 18,
+"hieronymian-ascetic-literary": 16,
+"latin-papal-church-avignon-to-lateran-v": 12,
+"byzantine-church-palaiologan": 10,
+"british-welsh-christianity": 8,
+"syriac-orthodox-west-syriac-christianity": 6,
+"syriac-renaissance": 5,
+"the-tridentine-church": 5,
+"merovingian-gallic-christianity": 5,
+"byzantine-imperial-church-justinianic": 5,
+"cyrilline-miaphysite-egyptian-christianity": 5
+}
+},
+{
+"cid": "C040",
+"name": "Cornelius",
+"n5": 0,
+"n3": 0,
+"S": 2,
+"clean": {
+"the-society-of-jesus": 0,
+"cappadocian-nicene-pastoral-monastic-tradition": 0,
+"recusant-english-catholicism": 2
+},
+"masked": {
+"the-society-of-jesus": 188,
+"cappadocian-nicene-pastoral-monastic-tradition": 80,
+"recusant-english-catholicism": 69,
+"imperial-juridical-christianity": 66,
+"the-anabaptist-movements": 63,
+"antiochene-exegetical-christianity-chrysostom-ce": 51,
+"byzantine-imperial-church-justinianic": 43,
+"nicene-visigothic-iberia": 42,
+"latin-africa-under-byzantium": 39,
+"gothic-and-vandal-homoian-christianity": 37,
+"the-reformed-cities-zurich-and-geneva": 35,
+"the-tridentine-church": 35,
+"the-remonstrants-and-dort": 35,
+"the-huguenots": 31,
+"latin-papal-church-avignon-to-lateran-v": 31,
+"donatism": 30,
+"the-baptists": 28,
+"shakers": 27,
+"the-methodist-revival": 27,
+"the-english-reformation-and-elizabethan-settleme": 26,
+"hieronymian-ascetic-literary": 24,
+"dutch-further-reformation-and-refuge-culture": 21,
+"lutheran-wittenberg-and-its-congregations": 17,
+"catholic-church-ancien-regime": 17,
+"the-church-of-the-east-under-persia": 16,
+"puritanism": 15,
+"the-waldensian-reformed-union": 14,
+"merovingian-gallic-christianity": 14,
+"anti-trinitarian-currents-servetus-polish-brethr": 12,
+"the-scottish-reformation-and-kirk": 11,
+"waldensians-in-the-alps": 11,
+"latin-papal-church-gregorian": 10,
+"lollardy": 9,
+"the-quakers-religious-society-of-friends": 8,
+"the-moravian-church-at-herrnhut": 8,
+"syriac-orthodox-west-syriac-christianity": 8,
+"jerusalem-liturgical-pilgrimage-christianity": 8,
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 8,
+"cyrilline-miaphysite-egyptian-christianity": 8,
+"ruthenian-uniate-18th-century": 7,
+"the-evangelical-awakening-in-new-england": 7,
+"the-ethiopian-monastic-flowering": 7,
+"church-of-utrecht": 7,
+"the-kyiv-mohyla-orthodox-revival": 7,
+"russian-church-synodal-century": 6,
+"the-hussite-and-bohemian-brethren-movement": 6,
+"insular-irish-monastic-christianity": 6,
+"port-royal-jansenism": 6,
+"armenian-christianity-era-8": 6,
+"roman-church-gregorian": 6,
+"orthodoxy-under-the-ottomans-1650-1821": 6,
+"chalcedonian-monasticism-judean-desert-and-gaza": 5,
+"coptic-christianity-under-early-islam": 5,
+"desert-monasticism": 5,
+"carolingian-reform-christianity": 5,
+"byzantine-church-palaiologan": 5,
+"persian-church-of-the-east-early": 5
+}
+},
+{
+"cid": "C041",
+"name": "Malchion",
+"n5": 0,
+"n3": 0,
+"S": 1,
+"clean": {
+"cappadocian-nicene-pastoral-monastic-tradition": 0,
+"imperial-juridical-christianity": 1
+},
+"masked": {
+"cappadocian-nicene-pastoral-monastic-tradition": 11,
+"imperial-juridical-christianity": 6
+}
+},
+{
+"cid": "C042",
+"name": "Antony",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"late-medieval-lay-parish-piety": 0,
+"the-english-reformation-and-elizabethan-settleme": 0,
+"the-reformed-cities-zurich-and-geneva": 0
+},
+"masked": {
+"late-medieval-lay-parish-piety": 95,
+"the-english-reformation-and-elizabethan-settleme": 40,
+"the-reformed-cities-zurich-and-geneva": 36,
+"the-huguenots": 19,
+"church-of-the-desert-huguenots": 19,
+"the-society-of-jesus": 18,
+"the-franciscan-movement": 17,
+"franciscan-order-era-6": 17,
+"fraticelli-spiritual-franciscan-rigorists": 17,
+"recusant-english-catholicism": 14,
+"the-tridentine-church": 12,
+"russian-church-nikon-to-holy-synod": 8,
+"devotio-moderna-brethren-of-the-common-life": 6,
+"the-remonstrants-and-dort": 5,
+"carmelite-reform-and-spanish-mystics": 5,
+"tridentine-parish-renewal-borromean-milan": 5,
+"the-methodist-revival": 5
+}
+},
+{
+"cid": "C043",
+"name": "Methodius of Olympus",
+"n5": 0,
+"n3": 0,
+"S": 2,
+"clean": {
+"russian-church-nikon-to-holy-synod": 2,
+"cappadocian-nicene-pastoral-monastic-tradition": 0,
+"orthodoxy-under-the-ottomans-1650-1821": 0
+},
+"masked": {
+"russian-church-nikon-to-holy-synod": 42,
+"cappadocian-nicene-pastoral-monastic-tradition": 27,
+"orthodoxy-under-the-ottomans-1650-1821": 20,
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 15,
+"hesychasm-and-the-palamite-synthesis": 11,
+"the-kollyvades-and-greek-renewal": 11,
+"russian-church-synodal-century": 8,
+"catholic-church-ancien-regime": 8,
+"imperial-juridical-christianity": 8,
+"byzantine-church-palaiologan": 8,
+"palestinian-ascetic-monasticism-early": 6,
+"hieronymian-ascetic-literary": 6
+}
+},
+{
+"cid": "C044",
+"name": "Arnobius of Sicca",
+"n5": 1,
+"n3": 1,
+"S": 5,
+"clean": {
+"antiochene-exegetical-christianity-chrysostom-ce": 0,
+"hieronymian-ascetic-literary": 5,
+"latin-papal-church-avignon-to-lateran-v": 0
+},
+"masked": {
+"antiochene-exegetical-christianity-chrysostom-ce": 31,
+"hieronymian-ascetic-literary": 8,
+"latin-papal-church-avignon-to-lateran-v": 8,
+"the-anabaptist-movements": 7,
+"cappadocian-nicene-pastoral-monastic-tradition": 7
+}
+},
+{
+"cid": "C045",
+"name": "Pamphilus",
+"n5": 0,
+"n3": 1,
+"S": 5,
+"clean": {
+"imperial-juridical-christianity": 2,
+"hieronymian-ascetic-literary": 3,
+"the-english-reformation-and-elizabethan-settleme": 0
+},
+"masked": {
+"imperial-juridical-christianity": 105,
+"hieronymian-ascetic-literary": 83,
+"the-english-reformation-and-elizabethan-settleme": 17,
+"syriac-orthodox-west-syriac-christianity": 12,
+"cappadocian-nicene-pastoral-monastic-tradition": 12,
+"byzantine-imperial-church-justinianic": 10,
+"anti-trinitarian-currents-servetus-polish-brethr": 8,
+"orthodoxy-under-the-ottomans-1650-1821": 8,
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 6,
+"aquileian-christianity": 6,
+"the-church-of-the-east-under-persia": 5,
+"chalcedonian-monasticism-judean-desert-and-gaza": 5,
+"catholic-church-ancien-regime": 5
+}
+},
+{
+"cid": "C046",
+"name": "Lactantius",
+"n5": 2,
+"n3": 2,
+"S": 13,
+"clean": {
+"gallic-monastic-ascetic-christianity": 1,
+"hieronymian-ascetic-literary": 7,
+"the-reformed-cities-zurich-and-geneva": 5
+},
+"masked": {
+"gallic-monastic-ascetic-christianity": 21,
+"hieronymian-ascetic-literary": 20,
+"the-reformed-cities-zurich-and-geneva": 17,
+"the-english-reformation-and-elizabethan-settleme": 17,
+"nicene-visigothic-iberia": 15,
+"latin-papal-church-avignon-to-lateran-v": 14,
+"the-anabaptist-movements": 9,
+"anti-trinitarian-currents-servetus-polish-brethr": 8,
+"latin-papal-church-gregorian": 6,
+"british-welsh-christianity": 6,
+"dutch-further-reformation-and-refuge-culture": 5
+}
+},
+{
+"cid": "C047",
+"name": "Eusebius of Caesarea",
+"n5": 0,
+"n3": 1,
+"S": 6,
+"clean": {
+"byzantine-imperial-church-justinianic": 2,
+"aquileian-christianity": 0,
+"the-church-of-the-east-under-persia": 4
+},
+"masked": {
+"byzantine-imperial-church-justinianic": 24,
+"aquileian-christianity": 6,
+"the-church-of-the-east-under-persia": 5,
+"chalcedonian-monasticism-judean-desert-and-gaza": 5
+}
+},
+{
+"cid": "C048",
+"name": "Constantine",
+"n5": 0,
+"n3": 0,
+"S": 3,
+"clean": {
+"syriac-orthodox-west-syriac-christianity": 2,
+"armenian-cilicia": 1,
+"armenian-cilicia-after-the-kingdom": 0
+},
+"masked": {
+"syriac-orthodox-west-syriac-christianity": 333,
+"armenian-cilicia": 330,
+"armenian-cilicia-after-the-kingdom": 303,
+"the-church-of-the-east-under-persia": 265,
+"byzantine-church-palaiologan": 132,
+"russian-church-nikon-to-holy-synod": 123,
+"byzantine-imperial-church-justinianic": 123,
+"syriac-renaissance": 114,
+"nicene-visigothic-iberia": 99,
+"orthodoxy-under-the-ottomans-1650-1821": 95,
+"coptic-christianity-fatimid-to-mamluk": 90,
+"coptic-christianity-under-early-islam": 76,
+"armenian-christianity-after-avarayr": 76,
+"church-of-caucasian-albania": 76,
+"merovingian-gallic-christianity": 75,
+"antiochene-exegetical-christianity-chrysostom-ce": 73,
+"the-english-reformation-and-elizabethan-settleme": 72,
+"armenian-christianity-era-8": 67,
+"shakers": 59,
+"byzantine-imperial-church-heraclian-iconoclast": 58,
+"latin-africa-under-byzantium": 56,
+"the-hussite-and-bohemian-brethren-movement": 55,
+"hesychasm-and-the-palamite-synthesis": 53,
+"armenian-christianity-new-julfa": 53,
+"lollardy": 47,
+"hieronymian-ascetic-literary": 43,
+"anomoean-eunomian-christianity": 42,
+"gothic-and-vandal-homoian-christianity": 40,
+"the-ethiopian-monastic-flowering": 38,
+"chalcedonian-monasticism-judean-desert-and-gaza": 35,
+"georgian-revival-tao-klarjeti": 35,
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 33,
+"franciscan-order-era-6": 33,
+"the-society-of-jesus": 31,
+"the-huguenots": 30,
+"russian-church-synodal-century": 29,
+"iconophile-byzantine-monasticism": 23,
+"aquileian-christianity": 23,
+"the-tridentine-church": 22,
+"british-welsh-christianity": 22,
+"the-georgian-golden-age": 22,
+"latin-papal-church-avignon-to-lateran-v": 21,
+"recusant-english-catholicism": 21,
+"the-anabaptist-movements": 20,
+"the-reformed-cities-zurich-and-geneva": 18,
+"insular-irish-monastic-christianity": 18,
+"church-of-the-east-chaldean-consolidation": 18,
+"roman-church-gregorian": 17,
+"medieval-welsh-christianity": 16,
+"the-kyiv-mohyla-orthodox-revival": 16,
+"lutheran-wittenberg-and-its-congregations": 15,
+"church-of-the-east-timur-to-hakkari": 14,
+"latin-papal-church-gregorian": 13,
+"the-church-of-the-east-on-the-silk-road": 12,
+"church-of-the-desert-huguenots": 12,
+"the-scottish-reformation-and-kirk": 11,
+"russian-church-stoglav-to-nikon": 10,
+"late-medieval-lay-parish-piety": 10,
+"gallic-monastic-ascetic-christianity": 9,
+"anglo-saxon-christianity": 9,
+"armenian-christianity-zartonk": 9,
+"church-of-the-east-schism-of-1552": 9,
+"dutch-further-reformation-and-refuge-culture": 7,
+"carolingian-reform-christianity": 7,
+"the-hesychast-revival-paisius-and-the-philokalia": 6
+}
+},
+{
+"cid": "C049",
+"name": "Donatus",
+"n5": 0,
+"n3": 0,
+"S": 2,
+"clean": {
+"hieronymian-ascetic-literary": 2,
+"latin-africa-under-byzantium": 0,
+"nicene-visigothic-iberia": 0
+},
+"masked": {
+"hieronymian-ascetic-literary": 61,
+"latin-africa-under-byzantium": 54,
+"nicene-visigothic-iberia": 44,
+"byzantine-imperial-church-justinianic": 36,
+"merovingian-gallic-christianity": 20,
+"carolingian-reform-christianity": 18,
+"roman-church-gregorian": 18,
+"the-anabaptist-movements": 16,
+"latin-papal-church-avignon-to-lateran-v": 16,
+"the-society-of-jesus": 13,
+"the-tridentine-church": 12,
+"insular-irish-monastic-christianity": 11,
+"lutheran-wittenberg-and-its-congregations": 9,
+"the-reformed-cities-zurich-and-geneva": 8,
+"gothic-and-vandal-homoian-christianity": 7,
+"the-english-reformation-and-elizabethan-settleme": 6
+}
+},
+{
+"cid": "C050",
+"name": "Pachomius",
+"n5": 0,
+"n3": 0,
+"S": 2,
+"clean": {
+"the-church-of-the-east-under-persia": 1,
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 0,
+"the-church-of-the-east-on-the-silk-road": 1
+},
+"masked": {
+"the-church-of-the-east-under-persia": 28,
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 22,
+"the-church-of-the-east-on-the-silk-road": 20,
+"the-ethiopian-monastic-flowering": 12,
+"merovingian-gallic-christianity": 6,
+"hesychasm-and-the-palamite-synthesis": 5,
+"byzantine-church-palaiologan": 5,
+"orthodoxy-under-the-ottomans-1650-1821": 5,
+"the-kyiv-mohyla-orthodox-revival": 5
+}
+},
+{
+"cid": "C051",
+"name": "Hilarion of Gaza",
+"n5": 1,
+"n3": 1,
+"S": 10,
+"clean": {
+"hieronymian-ascetic-literary": 9,
+"russian-church-nikon-to-holy-synod": 0,
+"russian-church-synodal-century": 1
+},
+"masked": {
+"hieronymian-ascetic-literary": 42,
+"russian-church-nikon-to-holy-synod": 29,
+"russian-church-synodal-century": 15,
+"byzantine-church-palaiologan": 14,
+"the-tridentine-church": 11,
+"syriac-orthodox-west-syriac-christianity": 5
+}
+},
+{
+"cid": "C052",
+"name": "Nino",
+"n5": 1,
+"n3": 1,
+"S": 7,
+"clean": {
+"georgian-revival-tao-klarjeti": 7,
+"the-society-of-jesus": 0,
+"english-old-dissent": 0
+},
+"masked": {
+"georgian-revival-tao-klarjeti": 247,
+"the-society-of-jesus": 240,
+"english-old-dissent": 209,
+"the-baptists": 208,
+"byzantine-imperial-church-justinianic": 111,
+"merovingian-gallic-christianity": 105,
+"nicene-visigothic-iberia": 90,
+"lollardy": 88,
+"the-union-of-brest-and-ruthenian-greek-catholic-": 83,
+"latin-africa-under-byzantium": 61,
+"byzantine-church-palaiologan": 59,
+"the-english-reformation-and-elizabethan-settleme": 55,
+"chalcedonian-monasticism-judean-desert-and-gaza": 53,
+"philippine-catholicism": 52,
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 39,
+"the-reformed-cities-zurich-and-geneva": 38,
+"the-georgian-golden-age": 36,
+"gothic-and-vandal-homoian-christianity": 22,
+"latin-papal-church-avignon-to-lateran-v": 21,
+"late-medieval-lay-parish-piety": 19,
+"syriac-orthodox-west-syriac-christianity": 17,
+"orthodoxy-under-the-ottomans-1650-1821": 17,
+"the-kyiv-mohyla-orthodox-revival": 17,
+"byzantine-imperial-church-heraclian-iconoclast": 16,
+"carolingian-reform-christianity": 16,
+"armenian-christianity-era-8": 15,
+"the-tridentine-church": 14,
+"franciscan-order-era-6": 14,
+"the-hussite-and-bohemian-brethren-movement": 13,
+"the-church-of-the-east-under-persia": 11,
+"hesychasm-and-the-palamite-synthesis": 11,
+"czech-churches-last-century": 11,
+"the-scottish-reformation-and-kirk": 10,
+"the-huguenots": 10,
+"anti-trinitarian-currents-servetus-polish-brethr": 9,
+"fraticelli-spiritual-franciscan-rigorists": 9,
+"shakers": 8,
+"dutch-further-reformation-and-refuge-culture": 8,
+"hieronymian-ascetic-literary": 8,
+"british-welsh-christianity": 8,
+"melkite-greek-catholic-church": 6,
+"russian-church-synodal-century": 6,
+"st-thomas-christians-under-portuguese-pressure-d": 6,
+"recusant-english-catholicism": 6,
+"the-quakers-religious-society-of-friends": 5,
+"gallic-nicene-episcopate": 5
+}
+},
+{
+"cid": "C053",
+"name": "Aphrahat",
+"n5": 0,
+"n3": 0,
+"S": 1,
+"clean": {
+"insular-irish-monastic-christianity": 0,
+"merovingian-gallic-christianity": 0,
+"the-church-of-the-east-under-persia": 1
+},
+"masked": {
+"insular-irish-monastic-christianity": 61,
+"merovingian-gallic-christianity": 61,
+"the-church-of-the-east-under-persia": 20,
+"church-of-the-east-timur-to-hakkari": 13,
+"church-of-the-east-chaldean-consolidation": 13,
+"church-of-the-east-schism-of-1552": 13,
+"antiochene-exegetical-christianity-chrysostom-ce": 8,
+"syriac-orthodox-west-syriac-christianity": 7,
+"syriac-renaissance": 6
+}
+},
+{
+"cid": "C054",
+"name": "Valens of Mursa",
+"n5": 1,
+"n3": 2,
+"S": 11,
+"clean": {
+"gallic-nicene-episcopate": 3,
+"antiochene-exegetical-christianity-chrysostom-ce": 8
+},
+"masked": {
+"gallic-nicene-episcopate": 16,
+"antiochene-exegetical-christianity-chrysostom-ce": 8
+}
+},
+{
+"cid": "C055",
+"name": "Didymus the Blind",
+"n5": 0,
+"n3": 0,
+"S": 1,
+"clean": {
+"syriac-orthodox-west-syriac-christianity": 0,
+"chalcedonian-monasticism-judean-desert-and-gaza": 1,
+"nicene-visigothic-iberia": 0
+},
+"masked": {
+"syriac-orthodox-west-syriac-christianity": 24,
+"chalcedonian-monasticism-judean-desert-and-gaza": 12,
+"nicene-visigothic-iberia": 11,
+"byzantine-imperial-church-justinianic": 8,
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 8,
+"latin-africa-under-byzantium": 7,
+"byzantine-church-palaiologan": 7,
+"orthodoxy-under-the-ottomans-1650-1821": 7,
+"byzantine-imperial-church-heraclian-iconoclast": 6,
+"syriac-renaissance": 5,
+"the-kollyvades-and-greek-renewal": 5,
+"lollardy": 5
+}
+},
+{
+"cid": "C056",
+"name": "Aetius of Antioch",
+"n5": 0,
+"n3": 0,
+"S": 1,
+"clean": {
+"byzantine-imperial-church-justinianic": 0,
+"merovingian-gallic-christianity": 1,
+"nicene-visigothic-iberia": 0
+},
+"masked": {
+"byzantine-imperial-church-justinianic": 70,
+"merovingian-gallic-christianity": 20,
+"nicene-visigothic-iberia": 17,
+"syriac-orthodox-west-syriac-christianity": 15,
+"chalcedonian-monasticism-judean-desert-and-gaza": 14,
+"gothic-and-vandal-homoian-christianity": 14,
+"latin-africa-under-byzantium": 14,
+"syriac-renaissance": 7,
+"british-welsh-christianity": 7
+}
+},
+{
+"cid": "C057",
+"name": "Constantius II",
+"n5": 3,
+"n3": 3,
+"S": 22,
+"clean": {
+"orthodoxy-under-the-ottomans-1650-1821": 6,
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 6,
+"the-kollyvades-and-greek-renewal": 10
+},
+"masked": {
+"orthodoxy-under-the-ottomans-1650-1821": 20,
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 18,
+"the-kollyvades-and-greek-renewal": 13,
+"byzantine-imperial-church-justinianic": 6
+}
+},
+{
+"cid": "C058",
+"name": "Martin of Tours",
+"n5": 0,
+"n3": 1,
+"S": 5,
+"clean": {
+"the-english-mystics-and-devout": 4,
+"merovingian-gallic-christianity": 1
+},
+"masked": {
+"the-english-mystics-and-devout": 9,
+"merovingian-gallic-christianity": 6
+}
+},
+{
+"cid": "C059",
+"name": "Eunomius of Cyzicus",
+"n5": 1,
+"n3": 2,
+"S": 11,
+"clean": {
+"byzantine-church-palaiologan": 4,
+"byzantine-imperial-church-justinianic": 2,
+"syriac-orthodox-west-syriac-christianity": 5
+},
+"masked": {
+"byzantine-church-palaiologan": 56,
+"byzantine-imperial-church-justinianic": 35,
+"syriac-orthodox-west-syriac-christianity": 25,
+"hesychasm-and-the-palamite-synthesis": 20,
+"hieronymian-ascetic-literary": 17,
+"latin-papal-church-avignon-to-lateran-v": 17,
+"the-church-of-the-east-under-persia": 15,
+"merovingian-gallic-christianity": 12,
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 11,
+"latin-africa-under-byzantium": 10,
+"syriac-renaissance": 6,
+"chalcedonian-monasticism-judean-desert-and-gaza": 5
+}
+},
+{
+"cid": "C060",
+"name": "Apollinaris of Laodicea",
+"n5": 0,
+"n3": 1,
+"S": 4,
+"clean": {
+"merovingian-gallic-christianity": 0,
+"byzantine-imperial-church-justinianic": 3,
+"latin-africa-under-byzantium": 1
+},
+"masked": {
+"merovingian-gallic-christianity": 108,
+"byzantine-imperial-church-justinianic": 66,
+"latin-africa-under-byzantium": 60,
+"hieronymian-ascetic-literary": 45,
+"syriac-orthodox-west-syriac-christianity": 33,
+"nicene-visigothic-iberia": 28,
+"carolingian-reform-christianity": 22,
+"byzantine-imperial-church-heraclian-iconoclast": 21,
+"latin-papal-church-avignon-to-lateran-v": 19,
+"chalcedonian-monasticism-judean-desert-and-gaza": 18,
+"the-church-of-the-east-under-persia": 17,
+"roman-church-gregorian": 12,
+"byzantine-church-palaiologan": 11,
+"coptic-christianity-fatimid-to-mamluk": 9,
+"coptic-christianity-under-early-islam": 7,
+"the-hussite-and-bohemian-brethren-movement": 6,
+"gothic-and-vandal-homoian-christianity": 6,
+"the-ethiopian-monastic-flowering": 6,
+"the-church-of-the-east-on-the-silk-road": 5,
+"hesychasm-and-the-palamite-synthesis": 5,
+"the-society-of-jesus": 5,
+"insular-irish-monastic-christianity": 5,
+"british-welsh-christianity": 5,
+"the-english-reformation-and-elizabethan-settleme": 5
+}
+},
+{
+"cid": "C061",
+"name": "Ephraim the Syrian",
+"n5": 0,
+"n3": 0,
+"S": 3,
+"clean": {
+"syriac-orthodox-west-syriac-christianity": 2,
+"the-church-of-the-east-under-persia": 1,
+"coptic-christianity-under-early-islam": 0
+},
+"masked": {
+"syriac-orthodox-west-syriac-christianity": 96,
+"the-church-of-the-east-under-persia": 90,
+"coptic-christianity-under-early-islam": 37,
+"catholic-church-ancien-regime": 19,
+"byzantine-imperial-church-justinianic": 19,
+"chalcedonian-monasticism-judean-desert-and-gaza": 16,
+"the-society-of-jesus": 15,
+"syriac-renaissance": 14,
+"armenian-christianity-before-the-bagratids": 14,
+"the-church-of-the-east-on-the-silk-road": 13,
+"armenian-christianity-era-8": 12,
+"latin-papal-church-avignon-to-lateran-v": 10,
+"church-of-the-east-timur-to-hakkari": 9,
+"church-of-the-east-chaldean-consolidation": 9,
+"coptic-christianity-fatimid-to-mamluk": 8,
+"ruthenian-uniate-18th-century": 7,
+"the-moravian-church-at-herrnhut": 7,
+"merovingian-gallic-christianity": 7,
+"st-thomas-christians-under-portuguese-pressure-d": 5,
+"insular-irish-monastic-christianity": 5,
+"church-of-the-east-schism-of-1552": 5
+}
+},
+{
+"cid": "C062",
+"name": "Basil",
+"n5": 0,
+"n3": 3,
+"S": 10,
+"clean": {
+"byzantine-church-palaiologan": 4,
+"hesychasm-and-the-palamite-synthesis": 3,
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 3
+},
+"masked": {
+"byzantine-church-palaiologan": 415,
+"hesychasm-and-the-palamite-synthesis": 278,
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 187,
+"the-english-reformation-and-elizabethan-settleme": 143,
+"russian-church-nikon-to-holy-synod": 137,
+"latin-africa-under-byzantium": 116,
+"orthodoxy-under-the-ottomans-1650-1821": 116,
+"syriac-orthodox-west-syriac-christianity": 98,
+"byzantine-imperial-church-justinianic": 97,
+"russian-church-synodal-century": 96,
+"merovingian-gallic-christianity": 93,
+"insular-irish-monastic-christianity": 83,
+"the-tridentine-church": 65,
+"the-hesychast-revival-paisius-and-the-philokalia": 59,
+"the-society-of-jesus": 49,
+"nicene-visigothic-iberia": 46,
+"the-kyiv-mohyla-orthodox-revival": 44,
+"chalcedonian-monasticism-judean-desert-and-gaza": 38,
+"byzantine-imperial-church-heraclian-iconoclast": 37,
+"st-thomas-christians-under-portuguese-pressure-d": 31,
+"the-kollyvades-and-greek-renewal": 30,
+"franciscan-order-era-6": 30,
+"british-welsh-christianity": 30,
+"fraticelli-spiritual-franciscan-rigorists": 30,
+"melkite-greek-catholic-church": 29,
+"the-reformed-cities-zurich-and-geneva": 27,
+"catholic-church-ancien-regime": 27,
+"armenian-christianity-before-the-bagratids": 27,
+"the-anabaptist-movements": 26,
+"the-ethiopian-monastic-flowering": 26,
+"roman-church-gregorian": 22,
+"the-church-of-the-east-under-persia": 21,
+"church-of-the-east-timur-to-hakkari": 20,
+"coptic-christianity-fatimid-to-mamluk": 19,
+"church-of-the-east-chaldean-consolidation": 18,
+"lutheran-wittenberg-and-its-congregations": 17,
+"coptic-christianity-under-early-islam": 17,
+"anti-trinitarian-currents-servetus-polish-brethr": 17,
+"recusant-english-catholicism": 16,
+"armenian-christianity-era-8": 15,
+"the-hussite-and-bohemian-brethren-movement": 14,
+"iconophile-byzantine-monasticism": 12,
+"the-scottish-reformation-and-kirk": 12,
+"dutch-further-reformation-and-refuge-culture": 12,
+"the-malankara-churches-orthodox-and-jacobite": 12,
+"the-old-believers": 12,
+"port-royal-jansenism": 12,
+"the-huguenots": 11,
+"late-medieval-lay-parish-piety": 11,
+"church-of-the-east-schism-of-1552": 11,
+"the-church-of-the-east-on-the-silk-road": 8,
+"hieronymian-ascetic-literary": 8,
+"german-pietism-spener-francke-halle": 8,
+"gothic-and-vandal-homoian-christianity": 8,
+"latin-papal-church-avignon-to-lateran-v": 8,
+"carolingian-reform-christianity": 8,
+"czech-churches-last-century": 8,
+"early-benedictine-italian-monasticism": 6,
+"melkite-arabic-christianity": 6,
+"armenian-christianity-zartonk": 6
+}
+},
+{
+"cid": "C063",
+"name": "Rufinus of Aquileia",
+"n5": 0,
+"n3": 0,
+"S": 1,
+"clean": {
+"byzantine-imperial-church-justinianic": 0,
+"syriac-orthodox-west-syriac-christianity": 1,
+"franciscan-order-era-6": 0
+},
+"masked": {
+"byzantine-imperial-church-justinianic": 34,
+"syriac-orthodox-west-syriac-christianity": 30,
+"franciscan-order-era-6": 30,
+"fraticelli-spiritual-franciscan-rigorists": 27,
+"the-franciscan-movement": 25,
+"british-welsh-christianity": 25,
+"merovingian-gallic-christianity": 22,
+"nicene-visigothic-iberia": 21,
+"latin-africa-under-byzantium": 21,
+"the-tridentine-church": 12,
+"gothic-and-vandal-homoian-christianity": 9,
+"russian-church-synodal-century": 8,
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 8,
+"orthodoxy-under-the-ottomans-1650-1821": 8,
+"the-kyiv-mohyla-orthodox-revival": 8,
+"georgian-revival-tao-klarjeti": 7,
+"roman-church-gregorian": 7,
+"syriac-renaissance": 5
+}
+},
+{
+"cid": "C064",
+"name": "Gregory of Nazianzus",
+"n5": 1,
+"n3": 2,
+"S": 13,
+"clean": {
+"the-english-reformation-and-elizabethan-settleme": 9,
+"byzantine-imperial-church-justinianic": 1,
+"syriac-orthodox-west-syriac-christianity": 3
+},
+"masked": {
+"the-english-reformation-and-elizabethan-settleme": 11,
+"byzantine-imperial-church-justinianic": 10,
+"syriac-orthodox-west-syriac-christianity": 8,
+"recusant-english-catholicism": 8,
+"carolingian-reform-christianity": 7,
+"byzantine-imperial-church-heraclian-iconoclast": 6,
+"the-tridentine-church": 6,
+"the-society-of-jesus": 6,
+"merovingian-gallic-christianity": 6,
+"latin-africa-under-byzantium": 6,
+"russian-church-nikon-to-holy-synod": 5,
+"nicene-visigothic-iberia": 5,
+"insular-irish-monastic-christianity": 5
+}
+},
+{
+"cid": "C065",
+"name": "Amphilochius of Iconium",
+"n5": 0,
+"n3": 2,
+"S": 7,
+"clean": {
+"syriac-orthodox-west-syriac-christianity": 3,
+"byzantine-imperial-church-justinianic": 0,
+"the-church-of-the-east-under-persia": 4
+},
+"masked": {
+"syriac-orthodox-west-syriac-christianity": 27,
+"byzantine-imperial-church-justinianic": 19,
+"the-church-of-the-east-under-persia": 11,
+"byzantine-church-palaiologan": 8,
+"syriac-renaissance": 7,
+"russian-church-nikon-to-holy-synod": 5
+}
+},
+{
+"cid": "C066",
+"name": "Malchus",
+"n5": 0,
+"n3": 0,
+"S": 2,
+"clean": {
+"hieronymian-ascetic-literary": 2,
+"merovingian-gallic-christianity": 0,
+"roman-church-gregorian": 0
+},
+"masked": {
+"hieronymian-ascetic-literary": 7,
+"merovingian-gallic-christianity": 7,
+"roman-church-gregorian": 5
+}
+},
+{
+"cid": "C067",
+"name": "Melania the Elder",
+"n5": 0,
+"n3": 0,
+"S": 2,
+"clean": {
+"hieronymian-ascetic-literary": 1,
+"merovingian-gallic-christianity": 1
+},
+"masked": {
+"hieronymian-ascetic-literary": 10,
+"merovingian-gallic-christianity": 7
+}
+},
+{
+"cid": "C068",
+"name": "Sarah",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"the-quakers-religious-society-of-friends": 0,
+"the-methodist-revival": 0,
+"the-reformed-cities-zurich-and-geneva": 0
+},
+"masked": {
+"the-quakers-religious-society-of-friends": 290,
+"the-methodist-revival": 224,
+"the-reformed-cities-zurich-and-geneva": 165,
+"the-baptists": 88,
+"the-anabaptist-movements": 53,
+"shakers": 53,
+"english-old-dissent": 50,
+"the-evangelical-awakening-in-new-england": 37,
+"restoration-georgian-church-of-england": 25,
+"puritanism": 23,
+"the-ethiopian-monastic-flowering": 21,
+"ethiopian-christianity-gragn-to-fasilides": 20,
+"zagwe-and-early-solomonic-ethiopian-christianity": 20,
+"hieronymian-ascetic-literary": 17,
+"church-of-the-east-chaldean-consolidation": 16,
+"radical-pietism-and-the-brethren-dunkers-ephrata": 14,
+"nicene-visigothic-iberia": 14,
+"the-moravian-church-at-herrnhut": 10,
+"church-of-the-east-timur-to-hakkari": 10,
+"gothic-and-vandal-homoian-christianity": 10,
+"church-of-the-east-schism-of-1552": 10,
+"pelagianism": 9,
+"merovingian-gallic-christianity": 9,
+"latin-africa-under-byzantium": 9,
+"the-english-reformation-and-elizabethan-settleme": 9,
+"philippine-catholicism-era-8": 8,
+"byzantine-imperial-church-justinianic": 8,
+"the-welsh-revival-tradition": 8,
+"the-scottish-reformation-and-kirk": 7,
+"russian-church-nikon-to-holy-synod": 7,
+"lutheran-wittenberg-and-its-congregations": 6,
+"the-tridentine-church": 6,
+"church-of-the-desert-huguenots": 6,
+"roman-church-gregorian": 6,
+"orthodoxy-under-the-ottomans-1650-1821": 6,
+"latin-papal-church-avignon-to-lateran-v": 5,
+"the-society-of-jesus": 5,
+"insular-irish-monastic-christianity": 5,
+"franciscan-order-era-6": 5
+}
+},
+{
+"cid": "C069",
+"name": "Theodosius I",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"syriac-orthodox-west-syriac-christianity": 0,
+"armenian-christianity-after-avarayr": 0,
+"church-of-caucasian-albania": 0
+},
+"masked": {
+"syriac-orthodox-west-syriac-christianity": 115,
+"armenian-christianity-after-avarayr": 46,
+"church-of-caucasian-albania": 46,
+"syriac-renaissance": 34,
+"byzantine-imperial-church-justinianic": 21,
+"the-church-of-the-east-under-persia": 11,
+"armenian-cilicia-after-the-kingdom": 11,
+"armenian-cilicia": 11,
+"armenian-christianity-new-julfa": 9,
+"armenian-christianity-era-8": 9,
+"the-church-of-the-east-on-the-silk-road": 8,
+"russian-church-stoglav-to-nikon": 6,
+"nubian-christianity": 5
+}
+},
+{
+"cid": "C070",
+"name": "Evagrius",
+"n5": 1,
+"n3": 1,
+"S": 5,
+"clean": {
+"byzantine-imperial-church-justinianic": 0,
+"syriac-orthodox-west-syriac-christianity": 0,
+"the-church-of-the-east-on-the-silk-road": 5
+},
+"masked": {
+"byzantine-imperial-church-justinianic": 57,
+"syriac-orthodox-west-syriac-christianity": 45,
+"the-church-of-the-east-on-the-silk-road": 25,
+"chalcedonian-monasticism-judean-desert-and-gaza": 21,
+"latin-africa-under-byzantium": 15,
+"the-church-of-the-east-under-persia": 9,
+"hesychasm-and-the-palamite-synthesis": 9,
+"syriac-renaissance": 9,
+"church-of-the-east-under-the-abbasids": 9,
+"byzantine-imperial-church-heraclian-iconoclast": 8,
+"merovingian-gallic-christianity": 8,
+"the-anabaptist-movements": 6,
+"nicene-visigothic-iberia": 6
+}
+},
+{
+"cid": "C071",
+"name": "Monica",
+"n5": 0,
+"n3": 1,
+"S": 5,
+"clean": {
+"the-society-of-jesus": 2,
+"recusant-english-catholicism": 3,
+"philippine-catholicism-era-8": 0
+},
+"masked": {
+"the-society-of-jesus": 96,
+"recusant-english-catholicism": 88,
+"philippine-catholicism-era-8": 20,
+"the-anabaptist-movements": 6
+}
+},
+{
+"cid": "C072",
+"name": "Vigilantius",
+"n5": 0,
+"n3": 2,
+"S": 9,
+"clean": {
+"latin-papal-church-avignon-to-lateran-v": 3,
+"lutheran-wittenberg-and-its-congregations": 2,
+"the-society-of-jesus": 4
+},
+"masked": {
+"latin-papal-church-avignon-to-lateran-v": 16,
+"lutheran-wittenberg-and-its-congregations": 10,
+"the-society-of-jesus": 7,
+"maronite-christianity-era-6": 6
+}
+},
+{
+"cid": "C073",
+"name": "Possidius of Calama",
+"n5": 0,
+"n3": 2,
+"S": 6,
+"clean": {
+"merovingian-gallic-christianity": 0,
+"nicene-visigothic-iberia": 3,
+"byzantine-imperial-church-justinianic": 3
+},
+"masked": {
+"merovingian-gallic-christianity": 7,
+"nicene-visigothic-iberia": 5,
+"byzantine-imperial-church-justinianic": 5
+}
+},
+{
+"cid": "C074",
+"name": "Sulpitius Severus",
+"n5": 0,
+"n3": 0,
+"S": 1,
+"clean": {
+"merovingian-gallic-christianity": 1,
+"nicene-visigothic-iberia": 0,
+"british-welsh-christianity": 0
+},
+"masked": {
+"merovingian-gallic-christianity": 17,
+"nicene-visigothic-iberia": 6,
+"british-welsh-christianity": 5
+}
+},
+{
+"cid": "C075",
+"name": "Marutha of Maypherqat",
+"n5": 0,
+"n3": 0,
+"S": 3,
+"clean": {
+"the-church-of-the-east-under-persia": 1,
+"the-church-of-the-east-on-the-silk-road": 0,
+"syriac-orthodox-west-syriac-christianity": 2
+},
+"masked": {
+"the-church-of-the-east-under-persia": 99,
+"the-church-of-the-east-on-the-silk-road": 40,
+"syriac-orthodox-west-syriac-christianity": 22,
+"church-of-the-east-timur-to-hakkari": 20,
+"church-of-the-east-chaldean-consolidation": 15,
+"church-of-the-east-schism-of-1552": 15,
+"coptic-christianity-under-early-islam": 9
+}
+},
+{
+"cid": "C076",
+"name": "Maron",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"syriac-orthodox-west-syriac-christianity": 0,
+"byzantine-church-palaiologan": 0,
+"merovingian-gallic-christianity": 0
+},
+"masked": {
+"syriac-orthodox-west-syriac-christianity": 61,
+"byzantine-church-palaiologan": 25,
+"merovingian-gallic-christianity": 14,
+"latin-papal-church-avignon-to-lateran-v": 12,
+"melkite-greek-catholic-church": 7,
+"church-of-the-east-timur-to-hakkari": 7,
+"byzantine-imperial-church-justinianic": 7,
+"the-society-of-jesus": 6,
+"church-of-the-east-chaldean-consolidation": 6,
+"church-of-the-east-schism-of-1552": 6
+}
+},
+{
+"cid": "C077",
+"name": "Emeritus",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"the-huguenots": 0,
+"church-of-the-desert-huguenots": 0,
+"merovingian-gallic-christianity": 0
+},
+"masked": {
+"the-huguenots": 34,
+"church-of-the-desert-huguenots": 34,
+"merovingian-gallic-christianity": 6
+}
+},
+{
+"cid": "C078",
+"name": "Caelestius",
+"n5": 0,
+"n3": 0,
+"S": 1,
+"clean": {
+"merovingian-gallic-christianity": 1,
+"latin-papal-church-gregorian": 0,
+"latin-papal-church-avignon-to-lateran-v": 0
+},
+"masked": {
+"merovingian-gallic-christianity": 9,
+"latin-papal-church-gregorian": 5,
+"latin-papal-church-avignon-to-lateran-v": 5
+}
+},
+{
+"cid": "C079",
+"name": "Pelagius",
+"n5": 0,
+"n3": 0,
+"S": 2,
+"clean": {
+"latin-africa-under-byzantium": 0,
+"nicene-visigothic-iberia": 1,
+"byzantine-imperial-church-justinianic": 1
+},
+"masked": {
+"latin-africa-under-byzantium": 97,
+"nicene-visigothic-iberia": 86,
+"byzantine-imperial-church-justinianic": 58,
+"syriac-orthodox-west-syriac-christianity": 42,
+"merovingian-gallic-christianity": 42,
+"roman-church-gregorian": 31,
+"the-anabaptist-movements": 29,
+"latin-papal-church-avignon-to-lateran-v": 22,
+"the-reformed-cities-zurich-and-geneva": 21,
+"gothic-and-vandal-homoian-christianity": 21,
+"port-royal-jansenism": 17,
+"franciscan-order-era-6": 16,
+"the-remonstrants-and-dort": 13,
+"carolingian-reform-christianity": 11,
+"lollardy": 11,
+"the-hussite-and-bohemian-brethren-movement": 9,
+"the-english-reformation-and-elizabethan-settleme": 7,
+"latin-papal-church-gregorian": 6,
+"dutch-further-reformation-and-refuge-culture": 6,
+"the-tridentine-church": 6,
+"the-society-of-jesus": 6,
+"late-medieval-lay-parish-piety": 6,
+"lutheran-wittenberg-and-its-congregations": 5,
+"syriac-renaissance": 5,
+"insular-irish-monastic-christianity": 5,
+"british-welsh-christianity": 5,
+"the-welsh-revival-tradition": 5,
+"the-methodist-revival": 5,
+"fraticelli-spiritual-franciscan-rigorists": 5
+}
+},
+{
+"cid": "C080",
+"name": "John Cassian",
+"n5": 1,
+"n3": 1,
+"S": 8,
+"clean": {
+"nicene-visigothic-iberia": 2,
+"the-society-of-jesus": 6,
+"insular-irish-monastic-christianity": 0
+},
+"masked": {
+"nicene-visigothic-iberia": 38,
+"the-society-of-jesus": 27,
+"insular-irish-monastic-christianity": 27,
+"merovingian-gallic-christianity": 24,
+"syriac-orthodox-west-syriac-christianity": 17,
+"carolingian-reform-christianity": 17,
+"british-welsh-christianity": 13,
+"the-tridentine-church": 12,
+"the-hussite-and-bohemian-brethren-movement": 10,
+"franciscan-order-era-6": 10,
+"fraticelli-spiritual-franciscan-rigorists": 10,
+"rhineland-mysticism-and-the-friends-of-god": 7,
+"devotio-moderna-brethren-of-the-common-life": 6,
+"byzantine-imperial-church-justinianic": 6,
+"latin-africa-under-byzantium": 6
+}
+},
+{
+"cid": "C081",
+"name": "Theodoret of Cyrrhus",
+"n5": 0,
+"n3": 1,
+"S": 8,
+"clean": {
+"byzantine-imperial-church-justinianic": 2,
+"latin-africa-under-byzantium": 2,
+"syriac-orthodox-west-syriac-christianity": 4
+},
+"masked": {
+"byzantine-imperial-church-justinianic": 118,
+"latin-africa-under-byzantium": 102,
+"syriac-orthodox-west-syriac-christianity": 83,
+"merovingian-gallic-christianity": 46,
+"byzantine-church-palaiologan": 43,
+"the-church-of-the-east-under-persia": 37,
+"hesychasm-and-the-palamite-synthesis": 23,
+"latin-papal-church-avignon-to-lateran-v": 21,
+"the-english-reformation-and-elizabethan-settleme": 21,
+"gothic-and-vandal-homoian-christianity": 20,
+"nicene-visigothic-iberia": 19,
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 19,
+"the-tridentine-church": 16,
+"chalcedonian-monasticism-judean-desert-and-gaza": 15,
+"coptic-christianity-under-early-islam": 13,
+"byzantine-imperial-church-heraclian-iconoclast": 11,
+"russian-church-nikon-to-holy-synod": 10,
+"the-society-of-jesus": 10,
+"orthodoxy-under-the-ottomans-1650-1821": 10,
+"the-waldensian-reformed-union": 9,
+"russian-church-synodal-century": 9,
+"church-of-the-east-under-the-abbasids": 9,
+"insular-irish-monastic-christianity": 9,
+"the-reformed-cities-zurich-and-geneva": 8,
+"dutch-further-reformation-and-refuge-culture": 8,
+"st-thomas-christians-under-portuguese-pressure-d": 8,
+"port-royal-jansenism": 8,
+"carolingian-reform-christianity": 7,
+"the-huguenots": 6,
+"anti-trinitarian-currents-servetus-polish-brethr": 6,
+"the-union-of-brest-and-ruthenian-greek-catholic-": 6,
+"the-anabaptist-movements": 5,
+"church-of-the-east-timur-to-hakkari": 5,
+"british-welsh-christianity": 5,
+"the-kyiv-mohyla-orthodox-revival": 5
+}
+},
+{
+"cid": "C082",
+"name": "Geiseric",
+"n5": 0,
+"n3": 0,
+"S": 2,
+"clean": {
+"merovingian-gallic-christianity": 2,
+"latin-africa-under-byzantium": 0,
+"roman-church-gregorian": 0
+},
+"masked": {
+"merovingian-gallic-christianity": 11,
+"latin-africa-under-byzantium": 11,
+"roman-church-gregorian": 6
+}
+},
+{
+"cid": "C083",
+"name": "Germanus of Auxerre",
+"n5": 1,
+"n3": 1,
+"S": 6,
+"clean": {
+"catholic-church-ancien-regime": 0,
+"medieval-welsh-christianity": 6
+},
+"masked": {
+"catholic-church-ancien-regime": 28,
+"medieval-welsh-christianity": 26
+}
+},
+{
+"cid": "C084",
+"name": "Juvenal",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"hesychasm-and-the-palamite-synthesis": 0,
+"nicene-visigothic-iberia": 0,
+"armenian-cilicia": 0
+},
+"masked": {
+"hesychasm-and-the-palamite-synthesis": 17,
+"nicene-visigothic-iberia": 14,
+"armenian-cilicia": 11,
+"latin-africa-under-byzantium": 9,
+"the-society-of-jesus": 8,
+"armenian-cilicia-after-the-kingdom": 7,
+"the-reformed-cities-zurich-and-geneva": 5,
+"coptic-christianity-under-early-islam": 5
+}
+},
+{
+"cid": "C085",
+"name": "Patrick",
+"n5": 1,
+"n3": 1,
+"S": 8,
+"clean": {
+"the-scottish-reformation-and-kirk": 0,
+"medieval-irish-christianity": 8,
+"the-methodist-revival": 0
+},
+"masked": {
+"the-scottish-reformation-and-kirk": 503,
+"medieval-irish-christianity": 380,
+"the-methodist-revival": 54,
+"byzantine-imperial-church-justinianic": 51,
+"medieval-welsh-christianity": 46,
+"latin-papal-church-avignon-to-lateran-v": 35,
+"puritanism": 25,
+"british-welsh-christianity": 25,
+"nicene-visigothic-iberia": 23,
+"the-english-reformation-and-elizabethan-settleme": 23,
+"recusant-english-catholicism": 19,
+"merovingian-gallic-christianity": 17,
+"the-society-of-jesus": 16,
+"english-old-dissent": 15,
+"the-reformed-cities-zurich-and-geneva": 13,
+"the-quakers-religious-society-of-friends": 13,
+"syriac-orthodox-west-syriac-christianity": 13,
+"the-tridentine-church": 10,
+"roman-church-gregorian": 7,
+"chalcedonian-monasticism-judean-desert-and-gaza": 6,
+"restoration-georgian-church-of-england": 6,
+"ruthenian-uniate-18th-century": 5,
+"the-huguenots": 5,
+"late-medieval-lay-parish-piety": 5,
+"lollardy": 5
+}
+},
+{
+"cid": "C086",
+"name": "Leo of Rome",
+"n5": 1,
+"n3": 2,
+"S": 9,
+"clean": {
+"restoration-georgian-church-of-england": 5,
+"the-anabaptist-movements": 1,
+"russian-church-nikon-to-holy-synod": 3
+},
+"masked": {
+"restoration-georgian-church-of-england": 11,
+"the-anabaptist-movements": 9,
+"russian-church-nikon-to-holy-synod": 8,
+"the-tridentine-church": 7,
+"the-reformed-cities-zurich-and-geneva": 5,
+"hesychasm-and-the-palamite-synthesis": 5
+}
+},
+{
+"cid": "C087",
+"name": "Vardan Mamikonian",
+"n5": 0,
+"n3": 1,
+"S": 3,
+"clean": {
+"armenian-cilicia-after-the-kingdom": 0,
+"armenian-cilicia": 0,
+"armenian-christianity-era-8": 3
+},
+"masked": {
+"armenian-cilicia-after-the-kingdom": 81,
+"armenian-cilicia": 80,
+"armenian-christianity-era-8": 68,
+"armenian-christianity-new-julfa": 48,
+"the-georgian-golden-age": 14,
+"armenian-christianity-zartonk": 6
+}
+},
+{
+"cid": "C088",
+"name": "Elishe",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"the-church-of-the-east-on-the-silk-road": 0,
+"merovingian-gallic-christianity": 0
+},
+"masked": {
+"the-church-of-the-east-on-the-silk-road": 16,
+"merovingian-gallic-christianity": 9
+}
+},
+{
+"cid": "C089",
+"name": "Shushanik",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"the-methodist-revival": 0,
+"the-quakers-religious-society-of-friends": 0,
+"the-anabaptist-movements": 0
+},
+"masked": {
+"the-methodist-revival": 41,
+"the-quakers-religious-society-of-friends": 36,
+"the-anabaptist-movements": 24,
+"merovingian-gallic-christianity": 21,
+"radical-pietism-and-the-brethren-dunkers-ephrata": 14,
+"the-baptists": 9,
+"late-medieval-lay-parish-piety": 9,
+"the-tridentine-church": 8,
+"the-english-reformation-and-elizabethan-settleme": 8,
+"shakers": 7,
+"nicene-visigothic-iberia": 5
+}
+},
+{
+"cid": "C090",
+"name": "Narsai",
+"n5": 0,
+"n3": 0,
+"S": 1,
+"clean": {
+"the-church-of-the-east-on-the-silk-road": 0,
+"church-of-the-east-chaldean-consolidation": 1,
+"church-of-the-east-timur-to-hakkari": 0
+},
+"masked": {
+"the-church-of-the-east-on-the-silk-road": 22,
+"church-of-the-east-chaldean-consolidation": 8,
+"church-of-the-east-timur-to-hakkari": 7,
+"church-of-the-east-schism-of-1552": 7
+}
+},
+{
+"cid": "C091",
+"name": "Brigid of Kildare",
+"n5": 1,
+"n3": 1,
+"S": 7,
+"clean": {
+"medieval-irish-christianity": 7,
+"nicene-visigothic-iberia": 0,
+"latin-papal-church-avignon-to-lateran-v": 0
+},
+"masked": {
+"medieval-irish-christianity": 540,
+"nicene-visigothic-iberia": 34,
+"latin-papal-church-avignon-to-lateran-v": 25
+}
+},
+{
+"cid": "C092",
+"name": "Sabas",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"russian-church-nikon-to-holy-synod": 0,
+"coptic-christianity-under-early-islam": 0,
+"armenian-cilicia": 0
+},
+"masked": {
+"russian-church-nikon-to-holy-synod": 14,
+"coptic-christianity-under-early-islam": 5,
+"armenian-cilicia": 5
+}
+},
+{
+"cid": "C093",
+"name": "Barsauma of Nisibis",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"latin-africa-under-byzantium": 0,
+"the-malankara-churches-orthodox-and-jacobite": 0
+},
+"masked": {
+"latin-africa-under-byzantium": 10,
+"the-malankara-churches-orthodox-and-jacobite": 6
+}
+},
+{
+"cid": "C094",
+"name": "Theodoric the Great",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"carolingian-reform-christianity": 0,
+"nicene-visigothic-iberia": 0,
+"roman-church-gregorian": 0
+},
+"masked": {
+"carolingian-reform-christianity": 21,
+"nicene-visigothic-iberia": 16,
+"roman-church-gregorian": 11,
+"latin-papal-church-avignon-to-lateran-v": 7,
+"latin-africa-under-byzantium": 6
+}
+},
+{
+"cid": "C095",
+"name": "Kaleb",
+"n5": 0,
+"n3": 1,
+"S": 6,
+"clean": {
+"the-ethiopian-monastic-flowering": 4,
+"byzantine-church-palaiologan": 0,
+"ethiopian-christianity-gragn-to-fasilides": 2
+},
+"masked": {
+"the-ethiopian-monastic-flowering": 21,
+"byzantine-church-palaiologan": 7,
+"ethiopian-christianity-gragn-to-fasilides": 6,
+"the-society-of-jesus": 5
+}
+},
+{
+"cid": "C096",
+"name": "Barsanuphius",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"late-medieval-lay-parish-piety": 0,
+"the-methodist-revival": 0,
+"the-english-reformation-and-elizabethan-settleme": 0
+},
+"masked": {
+"late-medieval-lay-parish-piety": 8956,
+"the-methodist-revival": 8588,
+"the-english-reformation-and-elizabethan-settleme": 3593,
+"the-anabaptist-movements": 3205,
+"the-quakers-religious-society-of-friends": 3167,
+"the-scottish-reformation-and-kirk": 2910,
+"the-baptists": 2735,
+"puritanism": 2084,
+"recusant-english-catholicism": 1901,
+"the-society-of-jesus": 1837,
+"the-reformed-cities-zurich-and-geneva": 1464,
+"the-moravian-church-at-herrnhut": 1168,
+"the-tridentine-church": 1032,
+"german-pietism-spener-francke-halle": 994,
+"lollardy": 985,
+"restoration-georgian-church-of-england": 903,
+"english-old-dissent": 834,
+"the-welsh-revival-tradition": 758,
+"lutheran-wittenberg-and-its-congregations": 742,
+"swedenborgian-new-church": 726,
+"roman-church-gregorian": 646,
+"church-of-the-desert-huguenots": 575,
+"the-huguenots": 553,
+"early-american-unitarians-universalists": 522,
+"devotio-moderna-brethren-of-the-common-life": 520,
+"the-evangelical-awakening-in-new-england": 520,
+"shakers": 478,
+"radical-pietism-and-the-brethren-dunkers-ephrata": 472,
+"the-hussite-and-bohemian-brethren-movement": 442,
+"russian-church-nikon-to-holy-synod": 435,
+"orthodoxy-under-the-ottomans-1650-1821": 365,
+"the-remonstrants-and-dort": 361,
+"catholic-church-ancien-regime": 338,
+"russian-church-synodal-century": 337,
+"carmelite-reform-and-spanish-mystics": 310,
+"armenian-christianity-before-the-bagratids": 304,
+"waldensians-in-the-alps": 269,
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 266,
+"armenian-christianity-era-8": 263,
+"anti-trinitarian-currents-servetus-polish-brethr": 251,
+"the-ethiopian-monastic-flowering": 243,
+"dutch-further-reformation-and-refuge-culture": 216,
+"rhineland-mysticism-and-the-friends-of-god": 211,
+"schwenckfelders": 209,
+"the-kyiv-mohyla-orthodox-revival": 196,
+"the-english-mystics-and-devout": 195,
+"st-thomas-christians-under-portuguese-pressure-d": 159,
+"armenian-christianity-zartonk": 158,
+"franciscan-order-era-6": 149,
+"fraticelli-spiritual-franciscan-rigorists": 148,
+"the-franciscan-movement": 144,
+"church-of-the-east-chaldean-consolidation": 136,
+"the-church-of-the-east-on-the-silk-road": 120,
+"the-waldensian-reformed-union": 107,
+"coptic-christianity-under-early-islam": 101,
+"philippine-catholicism-era-8": 96,
+"port-royal-jansenism": 89,
+"byzantine-church-palaiologan": 86,
+"ethiopian-christianity-gragn-to-fasilides": 85,
+"zagwe-and-early-solomonic-ethiopian-christianity": 84,
+"tridentine-parish-renewal-borromean-milan": 79,
+"the-waldensians": 69,
+"quietist-controversy-molinos-guyon": 65,
+"camisard-prophetism": 49,
+"the-malankara-churches-orthodox-and-jacobite": 46,
+"latin-papal-church-avignon-to-lateran-v": 44,
+"anglo-saxon-christianity": 44,
+"medieval-welsh-christianity": 43,
+"byzantine-imperial-church-heraclian-iconoclast": 37,
+"church-of-the-east-timur-to-hakkari": 37,
+"church-of-the-east-schism-of-1552": 37,
+"georgian-revival-tao-klarjeti": 36,
+"family-of-love-and-spiritualists-franck-niclaes": 35,
+"coptic-christianity-fatimid-to-mamluk": 30,
+"scandinavian-reformation-kingdoms": 26,
+"melkite-arabic-christianity": 19,
+"philippine-catholicism": 17,
+"iconophile-byzantine-monasticism": 16,
+"medieval-irish-christianity": 14,
+"czech-churches-last-century": 13,
+"colonial-latin-american-devotional-catholicism": 12,
+"hesychasm-and-the-palamite-synthesis": 10,
+"observant-reform-and-popular-preaching": 8,
+"nicene-visigothic-iberia": 8
+}
+},
+{
+"cid": "C097",
+"name": "Theodora",
+"n5": 0,
+"n3": 0,
+"S": 1,
+"clean": {
+"byzantine-church-palaiologan": 0,
+"hesychasm-and-the-palamite-synthesis": 0,
+"the-ethiopian-monastic-flowering": 1
+},
+"masked": {
+"byzantine-church-palaiologan": 15,
+"hesychasm-and-the-palamite-synthesis": 12,
+"the-ethiopian-monastic-flowering": 12,
+"the-moravian-church-at-herrnhut": 11,
+"coptic-christianity-fatimid-to-mamluk": 11,
+"armenian-cilicia": 10,
+"armenian-cilicia-after-the-kingdom": 8,
+"church-of-the-east-chaldean-consolidation": 5,
+"the-english-reformation-and-elizabethan-settleme": 5
+}
+},
+{
+"cid": "C098",
+"name": "Justinian",
+"n5": 1,
+"n3": 2,
+"S": 13,
+"clean": {
+"russian-church-nikon-to-holy-synod": 8,
+"coptic-christianity-under-early-islam": 2,
+"byzantine-imperial-church-heraclian-iconoclast": 3
+},
+"masked": {
+"russian-church-nikon-to-holy-synod": 70,
+"coptic-christianity-under-early-islam": 29,
+"byzantine-imperial-church-heraclian-iconoclast": 24,
+"armenian-cilicia": 24,
+"byzantine-church-palaiologan": 23,
+"catholic-church-ancien-regime": 22,
+"the-english-reformation-and-elizabethan-settleme": 22,
+"hesychasm-and-the-palamite-synthesis": 19,
+"coptic-christianity-fatimid-to-mamluk": 18,
+"armenian-christianity-era-8": 13,
+"the-tridentine-church": 11,
+"the-ethiopian-monastic-flowering": 10,
+"armenian-cilicia-after-the-kingdom": 9,
+"the-anabaptist-movements": 8,
+"armenian-christianity-new-julfa": 8,
+"lollardy": 8,
+"the-society-of-jesus": 7,
+"latin-papal-church-avignon-to-lateran-v": 6,
+"orthodoxy-under-the-ottomans-1650-1821": 6,
+"iconophile-byzantine-monasticism": 5,
+"the-church-of-the-east-on-the-silk-road": 5,
+"georgian-revival-tao-klarjeti": 5,
+"franciscan-order-era-6": 5
+}
+},
+{
+"cid": "C099",
+"name": "Al-Harith ibn Jabalah",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"coptic-christianity-under-early-islam": 0,
+"armenian-cilicia": 0,
+"church-of-the-east-timur-to-hakkari": 0
+},
+"masked": {
+"coptic-christianity-under-early-islam": 7,
+"armenian-cilicia": 7,
+"church-of-the-east-timur-to-hakkari": 5
+}
+},
+{
+"cid": "C100",
+"name": "Scholastica",
+"n5": 0,
+"n3": 2,
+"S": 7,
+"clean": {
+"late-medieval-lay-parish-piety": 4,
+"the-society-of-jesus": 0,
+"recusant-english-catholicism": 3
+},
+"masked": {
+"late-medieval-lay-parish-piety": 10,
+"the-society-of-jesus": 7,
+"recusant-english-catholicism": 6,
+"roman-church-gregorian": 6,
+"nicene-visigothic-iberia": 5
+}
+},
+{
+"cid": "C101",
+"name": "Menas",
+"n5": 0,
+"n3": 0,
+"S": 1,
+"clean": {
+"coptic-christianity-under-early-islam": 1,
+"byzantine-imperial-church-heraclian-iconoclast": 0,
+"coptic-christianity-fatimid-to-mamluk": 0
+},
+"masked": {
+"coptic-christianity-under-early-islam": 46,
+"byzantine-imperial-church-heraclian-iconoclast": 19,
+"coptic-christianity-fatimid-to-mamluk": 14,
+"the-ethiopian-monastic-flowering": 9,
+"the-tridentine-church": 7,
+"ethiopian-christianity-gragn-to-fasilides": 6,
+"armenian-cilicia": 6,
+"russian-church-nikon-to-holy-synod": 5,
+"nicene-visigothic-iberia": 5,
+"byzantine-church-palaiologan": 5,
+"roman-church-gregorian": 5
+}
+},
+{
+"cid": "C102",
+"name": "Vigilius",
+"n5": 0,
+"n3": 0,
+"S": 3,
+"clean": {
+"nicene-visigothic-iberia": 0,
+"roman-church-gregorian": 2,
+"latin-papal-church-avignon-to-lateran-v": 1
+},
+"masked": {
+"nicene-visigothic-iberia": 22,
+"roman-church-gregorian": 11,
+"latin-papal-church-avignon-to-lateran-v": 9,
+"carolingian-reform-christianity": 9,
+"the-anabaptist-movements": 8,
+"lollardy": 8,
+"the-english-reformation-and-elizabethan-settleme": 7,
+"latin-papal-church-gregorian": 6,
+"the-tridentine-church": 5
+}
+},
+{
+"cid": "C103",
+"name": "Mar Aba I",
+"n5": 2,
+"n3": 2,
+"S": 13,
+"clean": {
+"the-church-of-the-east-on-the-silk-road": 1,
+"church-of-the-east-timur-to-hakkari": 6,
+"church-of-the-east-chaldean-consolidation": 6
+},
+"masked": {
+"the-church-of-the-east-on-the-silk-road": 62,
+"church-of-the-east-timur-to-hakkari": 10,
+"church-of-the-east-chaldean-consolidation": 10,
+"church-of-the-east-schism-of-1552": 10,
+"church-of-the-east-under-the-abbasids": 8
+}
+},
+{
+"cid": "C104",
+"name": "Gildas",
+"n5": 0,
+"n3": 2,
+"S": 8,
+"clean": {
+"medieval-welsh-christianity": 3,
+"medieval-irish-christianity": 3,
+"english-old-dissent": 2
+},
+"masked": {
+"medieval-welsh-christianity": 55,
+"medieval-irish-christianity": 6,
+"english-old-dissent": 6,
+"puritanism": 6,
+"the-methodist-revival": 6
+}
+},
+{
+"cid": "C105",
+"name": "Julian",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"the-english-mystics-and-devout": 0,
+"nicene-visigothic-iberia": 0,
+"lutheran-wittenberg-and-its-congregations": 0
+},
+"masked": {
+"the-english-mystics-and-devout": 210,
+"nicene-visigothic-iberia": 143,
+"lutheran-wittenberg-and-its-congregations": 64,
+"byzantine-church-palaiologan": 60,
+"late-medieval-lay-parish-piety": 57,
+"latin-papal-church-avignon-to-lateran-v": 55,
+"coptic-christianity-under-early-islam": 54,
+"the-ethiopian-monastic-flowering": 47,
+"the-society-of-jesus": 42,
+"coptic-christianity-fatimid-to-mamluk": 40,
+"the-tridentine-church": 35,
+"carmelite-reform-and-spanish-mystics": 34,
+"the-waldensian-reformed-union": 30,
+"waldensians-in-the-alps": 28,
+"the-english-reformation-and-elizabethan-settleme": 26,
+"maronite-christianity-era-6": 25,
+"byzantine-imperial-church-heraclian-iconoclast": 21,
+"the-anabaptist-movements": 18,
+"roman-church-gregorian": 18,
+"the-hussite-and-bohemian-brethren-movement": 17,
+"russian-church-nikon-to-holy-synod": 14,
+"church-of-the-desert-huguenots": 13,
+"the-reformed-cities-zurich-and-geneva": 12,
+"the-huguenots": 12,
+"ethiopian-christianity-gragn-to-fasilides": 12,
+"armenian-christianity-era-8": 12,
+"german-pietism-spener-francke-halle": 11,
+"armenian-christianity-zartonk": 10,
+"church-of-the-east-chaldean-consolidation": 8,
+"recusant-english-catholicism": 8,
+"lollardy": 8,
+"hesychasm-and-the-palamite-synthesis": 7,
+"the-remonstrants-and-dort": 7,
+"philippine-catholicism-era-8": 7,
+"armenian-christianity-before-the-bagratids": 7,
+"carolingian-reform-christianity": 7,
+"shakers": 6,
+"the-quakers-religious-society-of-friends": 6,
+"church-of-the-east-timur-to-hakkari": 6,
+"church-of-the-east-schism-of-1552": 6,
+"the-methodist-revival": 6,
+"puritanism": 5,
+"st-thomas-christians-under-portuguese-pressure-d": 5,
+"restoration-georgian-church-of-england": 5
+}
+},
+{
+"cid": "C106",
+"name": "David",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"the-scottish-reformation-and-kirk": 0,
+"lollardy": 0,
+"the-anabaptist-movements": 0
+},
+"masked": {
+"the-scottish-reformation-and-kirk": 2504,
+"lollardy": 2219,
+"the-anabaptist-movements": 713,
+"puritanism": 660,
+"the-english-reformation-and-elizabethan-settleme": 659,
+"czech-churches-last-century": 567,
+"medieval-welsh-christianity": 558,
+"the-tridentine-church": 557,
+"the-reformed-cities-zurich-and-geneva": 480,
+"the-ethiopian-monastic-flowering": 407,
+"the-moravian-church-at-herrnhut": 397,
+"ethiopian-christianity-gragn-to-fasilides": 370,
+"the-methodist-revival": 352,
+"the-baptists": 349,
+"the-quakers-religious-society-of-friends": 345,
+"the-society-of-jesus": 333,
+"zagwe-and-early-solomonic-ethiopian-christianity": 333,
+"lutheran-wittenberg-and-its-congregations": 308,
+"anti-trinitarian-currents-servetus-polish-brethr": 288,
+"the-georgian-golden-age": 283,
+"carolingian-reform-christianity": 278,
+"byzantine-church-palaiologan": 276,
+"german-pietism-spener-francke-halle": 259,
+"the-huguenots": 246,
+"latin-papal-church-avignon-to-lateran-v": 240,
+"armenian-christianity-era-8": 231,
+"the-hussite-and-bohemian-brethren-movement": 230,
+"church-of-the-desert-huguenots": 201,
+"russian-church-nikon-to-holy-synod": 190,
+"the-welsh-revival-tradition": 189,
+"rhineland-mysticism-and-the-friends-of-god": 167,
+"late-medieval-lay-parish-piety": 166,
+"armenian-christianity-new-julfa": 164,
+"observant-reform-and-popular-preaching": 162,
+"the-evangelical-awakening-in-new-england": 161,
+"english-old-dissent": 160,
+"shakers": 159,
+"the-waldensian-reformed-union": 159,
+"devotio-moderna-brethren-of-the-common-life": 140,
+"carmelite-reform-and-spanish-mystics": 129,
+"waldensians-in-the-alps": 128,
+"dutch-further-reformation-and-refuge-culture": 127,
+"catholic-church-ancien-regime": 122,
+"early-american-unitarians-universalists": 120,
+"coptic-christianity-fatimid-to-mamluk": 117,
+"hesychasm-and-the-palamite-synthesis": 114,
+"the-english-mystics-and-devout": 113,
+"armenian-cilicia": 107,
+"coptic-christianity-under-early-islam": 99,
+"swedenborgian-new-church": 99,
+"restoration-georgian-church-of-england": 96,
+"church-of-the-east-chaldean-consolidation": 94,
+"radical-pietism-and-the-brethren-dunkers-ephrata": 90,
+"schwenckfelders": 90,
+"family-of-love-and-spiritualists-franck-niclaes": 84,
+"the-church-of-the-east-on-the-silk-road": 78,
+"armenian-cilicia-after-the-kingdom": 75,
+"church-of-the-east-under-the-abbasids": 75,
+"church-of-the-east-timur-to-hakkari": 70,
+"the-remonstrants-and-dort": 62,
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 59,
+"armenian-christianity-zartonk": 58,
+"recusant-english-catholicism": 55,
+"quietist-controversy-molinos-guyon": 54,
+"church-of-the-east-schism-of-1552": 54,
+"franciscan-order-era-6": 53,
+"orthodoxy-under-the-ottomans-1650-1821": 52,
+"syriac-renaissance": 46,
+"byzantine-imperial-church-heraclian-iconoclast": 44,
+"philippine-catholicism-era-8": 42,
+"port-royal-jansenism": 39,
+"colonial-latin-american-devotional-catholicism": 35,
+"the-waldensians": 30,
+"the-kyiv-mohyla-orthodox-revival": 30,
+"medieval-irish-christianity": 29,
+"scandinavian-reformation-kingdoms": 29,
+"fraticelli-spiritual-franciscan-rigorists": 28,
+"melkite-arabic-christianity": 24,
+"camisard-prophetism": 24,
+"st-thomas-christians-under-portuguese-pressure-d": 22,
+"philippine-catholicism": 22,
+"taborite-radicalism": 20,
+"russian-church-synodal-century": 17,
+"maronite-christianity-era-6": 13,
+"tridentine-parish-renewal-borromean-milan": 13,
+"georgian-revival-tao-klarjeti": 11,
+"ruthenian-uniate-18th-century": 8,
+"iconophile-byzantine-monasticism": 5,
+"the-malankara-churches-orthodox-and-jacobite": 5,
+"anglo-saxon-christianity": 5,
+"church-of-utrecht": 5
+}
+},
+{
+"cid": "C107",
+"name": "Columba",
+"n5": 0,
+"n3": 0,
+"S": 2,
+"clean": {
+"medieval-irish-christianity": 1,
+"latin-papal-church-avignon-to-lateran-v": 0,
+"the-tridentine-church": 1
+},
+"masked": {
+"medieval-irish-christianity": 39,
+"latin-papal-church-avignon-to-lateran-v": 12,
+"the-tridentine-church": 7,
+"medieval-welsh-christianity": 5,
+"carolingian-reform-christianity": 5,
+"swedenborgian-new-church": 5
+}
+},
+{
+"cid": "C108",
+"name": "Venantius Fortunatus",
+"n5": 0,
+"n3": 0,
+"S": 4,
+"clean": {
+"the-anabaptist-movements": 2,
+"the-tridentine-church": 0,
+"carolingian-reform-christianity": 2
+},
+"masked": {
+"the-anabaptist-movements": 11,
+"the-tridentine-church": 10,
+"carolingian-reform-christianity": 5
+}
+},
+{
+"cid": "C109",
+"name": "Longinus",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"byzantine-church-palaiologan": 0,
+"coptic-christianity-fatimid-to-mamluk": 0
+},
+"masked": {
+"byzantine-church-palaiologan": 14,
+"coptic-christianity-fatimid-to-mamluk": 11
+}
+},
+{
+"cid": "C110",
+"name": "Viroy",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"dutch-further-reformation-and-refuge-culture": 0,
+"anti-trinitarian-currents-servetus-polish-brethr": 0,
+"latin-papal-church-avignon-to-lateran-v": 0
+},
+"masked": {
+"dutch-further-reformation-and-refuge-culture": 23,
+"anti-trinitarian-currents-servetus-polish-brethr": 23,
+"latin-papal-church-avignon-to-lateran-v": 16,
+"the-english-reformation-and-elizabethan-settleme": 14,
+"the-reformed-cities-zurich-and-geneva": 7,
+"ruthenian-uniate-18th-century": 6,
+"the-society-of-jesus": 6,
+"byzantine-church-palaiologan": 6,
+"hesychasm-and-the-palamite-synthesis": 5,
+"st-thomas-christians-under-portuguese-pressure-d": 5,
+"swedenborgian-new-church": 5
+}
+},
+{
+"cid": "C111",
+"name": "Heraclius",
+"n5": 3,
+"n3": 3,
+"S": 20,
+"clean": {
+"armenian-christianity-era-8": 5,
+"coptic-christianity-fatimid-to-mamluk": 5,
+"church-of-the-east-under-the-abbasids": 10
+},
+"masked": {
+"armenian-christianity-era-8": 22,
+"coptic-christianity-fatimid-to-mamluk": 21,
+"church-of-the-east-under-the-abbasids": 20,
+"the-ethiopian-monastic-flowering": 18,
+"armenian-christianity-new-julfa": 13,
+"church-of-the-east-timur-to-hakkari": 11,
+"the-tridentine-church": 10,
+"church-of-the-east-chaldean-consolidation": 9,
+"the-georgian-golden-age": 9,
+"church-of-the-east-schism-of-1552": 9,
+"russian-church-nikon-to-holy-synod": 6,
+"coptic-christianity-under-early-islam": 6
+}
+},
+{
+"cid": "C112",
+"name": "Aidan",
+"n5": 1,
+"n3": 1,
+"S": 5,
+"clean": {
+"medieval-welsh-christianity": 0,
+"the-tridentine-church": 5
+},
+"masked": {
+"medieval-welsh-christianity": 33,
+"the-tridentine-church": 8
+}
+},
+{
+"cid": "C113",
+"name": "Ildefonsus of Toledo",
+"n5": 1,
+"n3": 1,
+"S": 11,
+"clean": {
+"the-society-of-jesus": 1,
+"philippine-catholicism": 0,
+"catholic-church-ancien-regime": 10
+},
+"masked": {
+"the-society-of-jesus": 24,
+"philippine-catholicism": 20,
+"catholic-church-ancien-regime": 18
+}
+},
+{
+"cid": "C114",
+"name": "Merkurios",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"the-ethiopian-monastic-flowering": 0,
+"ethiopian-christianity-gragn-to-fasilides": 0,
+"zagwe-and-early-solomonic-ethiopian-christianity": 0
+},
+"masked": {
+"the-ethiopian-monastic-flowering": 21,
+"ethiopian-christianity-gragn-to-fasilides": 19,
+"zagwe-and-early-solomonic-ethiopian-christianity": 17,
+"the-society-of-jesus": 7
+}
+},
+{
+"cid": "C115",
+"name": "Bede",
+"n5": 0,
+"n3": 2,
+"S": 7,
+"clean": {
+"dutch-further-reformation-and-refuge-culture": 0,
+"lollardy": 4,
+"late-medieval-lay-parish-piety": 3
+},
+"masked": {
+"dutch-further-reformation-and-refuge-culture": 75,
+"lollardy": 57,
+"late-medieval-lay-parish-piety": 45,
+"the-tridentine-church": 35,
+"the-anabaptist-movements": 32,
+"medieval-welsh-christianity": 13,
+"the-hussite-and-bohemian-brethren-movement": 12,
+"the-society-of-jesus": 11,
+"franciscan-order-era-6": 11,
+"fraticelli-spiritual-franciscan-rigorists": 11,
+"the-huguenots": 10,
+"latin-papal-church-avignon-to-lateran-v": 9,
+"church-of-the-desert-huguenots": 8,
+"the-english-mystics-and-devout": 8,
+"recusant-english-catholicism": 8,
+"catholic-church-ancien-regime": 7,
+"rhineland-mysticism-and-the-friends-of-god": 7,
+"the-english-reformation-and-elizabethan-settleme": 7,
+"the-methodist-revival": 7,
+"devotio-moderna-brethren-of-the-common-life": 6
+}
+},
+{
+"cid": "C116",
+"name": "Paulos",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"the-reformed-cities-zurich-and-geneva": 0,
+"the-scottish-reformation-and-kirk": 0,
+"the-huguenots": 0
+},
+"masked": {
+"the-reformed-cities-zurich-and-geneva": 7,
+"the-scottish-reformation-and-kirk": 6,
+"the-huguenots": 6,
+"anti-trinitarian-currents-servetus-polish-brethr": 6,
+"czech-churches-last-century": 6,
+"the-english-reformation-and-elizabethan-settleme": 6
+}
+},
+{
+"cid": "C117",
+"name": "Boniface",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"latin-papal-church-avignon-to-lateran-v": 0,
+"franciscan-order-era-6": 0,
+"fraticelli-spiritual-franciscan-rigorists": 0
+},
+"masked": {
+"latin-papal-church-avignon-to-lateran-v": 135,
+"franciscan-order-era-6": 90,
+"fraticelli-spiritual-franciscan-rigorists": 64,
+"the-hussite-and-bohemian-brethren-movement": 63,
+"the-franciscan-movement": 58,
+"latin-papal-church-gregorian": 35,
+"the-tridentine-church": 29,
+"the-anabaptist-movements": 26,
+"observant-reform-and-popular-preaching": 24,
+"byzantine-church-palaiologan": 23,
+"dutch-further-reformation-and-refuge-culture": 22,
+"the-waldensian-reformed-union": 21,
+"lollardy": 20,
+"late-medieval-lay-parish-piety": 19,
+"hesychasm-and-the-palamite-synthesis": 15,
+"restoration-georgian-church-of-england": 14,
+"maronite-christianity-era-6": 13,
+"the-quakers-religious-society-of-friends": 13,
+"lutheran-wittenberg-and-its-congregations": 13,
+"the-society-of-jesus": 12,
+"waldensians-in-the-alps": 12,
+"the-reformed-cities-zurich-and-geneva": 11,
+"the-huguenots": 11,
+"the-english-reformation-and-elizabethan-settleme": 11,
+"devotio-moderna-brethren-of-the-common-life": 10,
+"catholic-church-ancien-regime": 10,
+"church-of-utrecht": 10,
+"armenian-cilicia-after-the-kingdom": 9,
+"the-ethiopian-monastic-flowering": 8,
+"taborite-radicalism": 6,
+"german-pietism-spener-francke-halle": 5,
+"tridentine-parish-renewal-borromean-milan": 5
+}
+},
+{
+"cid": "C118",
+"name": "John of Damascus",
+"n5": 0,
+"n3": 1,
+"S": 4,
+"clean": {
+"byzantine-church-palaiologan": 4,
+"hesychasm-and-the-palamite-synthesis": 0
+},
+"masked": {
+"byzantine-church-palaiologan": 19,
+"hesychasm-and-the-palamite-synthesis": 16
+}
+},
+{
+"cid": "C119",
+"name": "Charlemagne",
+"n5": 0,
+"n3": 0,
+"S": 2,
+"clean": {
+"franciscan-order-era-6": 0,
+"latin-papal-church-avignon-to-lateran-v": 2,
+"the-hussite-and-bohemian-brethren-movement": 0
+},
+"masked": {
+"franciscan-order-era-6": 67,
+"latin-papal-church-avignon-to-lateran-v": 64,
+"the-hussite-and-bohemian-brethren-movement": 30,
+"late-medieval-lay-parish-piety": 23,
+"the-reformed-cities-zurich-and-geneva": 19,
+"lollardy": 14,
+"the-english-mystics-and-devout": 13,
+"maronite-christianity-era-6": 10,
+"the-huguenots": 9,
+"taborite-radicalism": 9,
+"catholic-church-ancien-regime": 7,
+"waldensians-in-the-alps": 6,
+"the-anabaptist-movements": 5,
+"the-waldensian-reformed-union": 5,
+"the-waldensians": 5,
+"the-english-reformation-and-elizabethan-settleme": 5
+}
+},
+{
+"cid": "C120",
+"name": "Timothy I",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"church-of-the-east-timur-to-hakkari": 0,
+"church-of-the-east-chaldean-consolidation": 0,
+"church-of-the-east-schism-of-1552": 0
+},
+"masked": {
+"church-of-the-east-timur-to-hakkari": 13,
+"church-of-the-east-chaldean-consolidation": 13,
+"church-of-the-east-schism-of-1552": 13
+}
+},
+{
+"cid": "C121",
+"name": "Adam",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"the-anabaptist-movements": 0,
+"the-reformed-cities-zurich-and-geneva": 0,
+"the-quakers-religious-society-of-friends": 0
+},
+"masked": {
+"the-anabaptist-movements": 830,
+"the-reformed-cities-zurich-and-geneva": 617,
+"the-quakers-religious-society-of-friends": 468,
+"early-american-unitarians-universalists": 455,
+"shakers": 355,
+"lollardy": 355,
+"the-methodist-revival": 304,
+"puritanism": 298,
+"the-english-reformation-and-elizabethan-settleme": 250,
+"the-scottish-reformation-and-kirk": 232,
+"family-of-love-and-spiritualists-franck-niclaes": 232,
+"anti-trinitarian-currents-servetus-polish-brethr": 225,
+"lutheran-wittenberg-and-its-congregations": 207,
+"the-ethiopian-monastic-flowering": 197,
+"the-tridentine-church": 181,
+"latin-papal-church-avignon-to-lateran-v": 175,
+"late-medieval-lay-parish-piety": 169,
+"radical-pietism-and-the-brethren-dunkers-ephrata": 166,
+"dutch-further-reformation-and-refuge-culture": 162,
+"the-society-of-jesus": 160,
+"the-moravian-church-at-herrnhut": 155,
+"ethiopian-christianity-gragn-to-fasilides": 144,
+"czech-churches-last-century": 144,
+"zagwe-and-early-solomonic-ethiopian-christianity": 138,
+"the-baptists": 136,
+"rhineland-mysticism-and-the-friends-of-god": 133,
+"the-english-mystics-and-devout": 125,
+"the-hussite-and-bohemian-brethren-movement": 109,
+"byzantine-church-palaiologan": 109,
+"the-remonstrants-and-dort": 102,
+"the-huguenots": 94,
+"german-pietism-spener-francke-halle": 93,
+"armenian-cilicia": 92,
+"catholic-church-ancien-regime": 87,
+"schwenckfelders": 82,
+"waldensians-in-the-alps": 81,
+"syriac-renaissance": 80,
+"the-waldensian-reformed-union": 79,
+"church-of-the-east-chaldean-consolidation": 69,
+"the-kyiv-mohyla-orthodox-revival": 69,
+"english-old-dissent": 67,
+"orthodoxy-under-the-ottomans-1650-1821": 67,
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 63,
+"coptic-christianity-fatimid-to-mamluk": 61,
+"the-evangelical-awakening-in-new-england": 60,
+"devotio-moderna-brethren-of-the-common-life": 59,
+"armenian-cilicia-after-the-kingdom": 56,
+"franciscan-order-era-6": 54,
+"swedenborgian-new-church": 54,
+"russian-church-nikon-to-holy-synod": 49,
+"hesychasm-and-the-palamite-synthesis": 48,
+"russian-church-synodal-century": 42,
+"scandinavian-reformation-kingdoms": 35,
+"port-royal-jansenism": 33,
+"melkite-greek-catholic-church": 28,
+"observant-reform-and-popular-preaching": 27,
+"the-welsh-revival-tradition": 26,
+"fraticelli-spiritual-franciscan-rigorists": 25,
+"st-thomas-christians-under-portuguese-pressure-d": 24,
+"the-waldensians": 22,
+"restoration-georgian-church-of-england": 21,
+"church-of-the-east-under-the-abbasids": 20,
+"armenian-christianity-era-8": 20,
+"church-of-the-desert-huguenots": 19,
+"church-of-the-east-timur-to-hakkari": 18,
+"church-of-the-east-schism-of-1552": 16,
+"quietist-controversy-molinos-guyon": 12,
+"recusant-english-catholicism": 12,
+"latin-papal-church-gregorian": 11,
+"the-franciscan-movement": 10,
+"armenian-christianity-new-julfa": 10,
+"armenian-christianity-zartonk": 8,
+"taborite-radicalism": 8,
+"the-malankara-churches-orthodox-and-jacobite": 7,
+"kirishitan-japan": 7,
+"the-georgian-golden-age": 7,
+"church-of-utrecht": 7,
+"ruthenian-uniate-18th-century": 6,
+"carmelite-reform-and-spanish-mystics": 6,
+"the-beguines": 5,
+"philippine-catholicism-era-8": 5
+}
+},
+{
+"cid": "C122",
+"name": "Patriarch Tarasios",
+"n5": 0,
+"n3": 1,
+"S": 6,
+"clean": {
+"hesychasm-and-the-palamite-synthesis": 0,
+"russian-church-nikon-to-holy-synod": 4,
+"byzantine-church-palaiologan": 2
+},
+"masked": {
+"hesychasm-and-the-palamite-synthesis": 7,
+"russian-church-nikon-to-holy-synod": 6,
+"byzantine-church-palaiologan": 5
+}
+},
+{
+"cid": "C123",
+"name": "Patriarch Nikephoros",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"armenian-cilicia-after-the-kingdom": 0,
+"armenian-cilicia": 0,
+"hesychasm-and-the-palamite-synthesis": 0
+},
+"masked": {
+"armenian-cilicia-after-the-kingdom": 39,
+"armenian-cilicia": 39,
+"hesychasm-and-the-palamite-synthesis": 36,
+"russian-church-nikon-to-holy-synod": 14,
+"byzantine-church-palaiologan": 11,
+"russian-church-synodal-century": 10,
+"armenian-christianity-era-8": 7,
+"the-anabaptist-movements": 6,
+"armenian-christianity-new-julfa": 6,
+"st-thomas-christians-under-portuguese-pressure-d": 6,
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 6,
+"catholic-church-ancien-regime": 5
+}
+},
+{
+"cid": "C124",
+"name": "Flora",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"the-society-of-jesus": 0,
+"the-quakers-religious-society-of-friends": 0,
+"philippine-catholicism": 0
+},
+"masked": {
+"the-society-of-jesus": 8,
+"the-quakers-religious-society-of-friends": 5,
+"philippine-catholicism": 5
+}
+},
+{
+"cid": "C125",
+"name": "Maria",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"the-society-of-jesus": 0,
+"latin-papal-church-avignon-to-lateran-v": 0,
+"observant-reform-and-popular-preaching": 0
+},
+"masked": {
+"the-society-of-jesus": 1461,
+"latin-papal-church-avignon-to-lateran-v": 510,
+"observant-reform-and-popular-preaching": 499,
+"catholic-church-ancien-regime": 377,
+"late-medieval-lay-parish-piety": 357,
+"devotio-moderna-brethren-of-the-common-life": 352,
+"the-anabaptist-movements": 232,
+"rhineland-mysticism-and-the-friends-of-god": 203,
+"philippine-catholicism-era-8": 187,
+"colonial-latin-american-devotional-catholicism": 175,
+"franciscan-order-era-6": 160,
+"tridentine-parish-renewal-borromean-milan": 154,
+"philippine-catholicism": 138,
+"the-tridentine-church": 127,
+"anti-trinitarian-currents-servetus-polish-brethr": 123,
+"byzantine-church-palaiologan": 120,
+"the-english-reformation-and-elizabethan-settleme": 117,
+"the-hussite-and-bohemian-brethren-movement": 114,
+"hesychasm-and-the-palamite-synthesis": 113,
+"fraticelli-spiritual-franciscan-rigorists": 109,
+"waldensians-in-the-alps": 104,
+"dutch-further-reformation-and-refuge-culture": 99,
+"st-thomas-christians-under-portuguese-pressure-d": 98,
+"carmelite-reform-and-spanish-mystics": 96,
+"the-reformed-cities-zurich-and-geneva": 80,
+"ruthenian-uniate-18th-century": 79,
+"armenian-christianity-era-8": 77,
+"lollardy": 75,
+"the-franciscan-movement": 70,
+"lutheran-wittenberg-and-its-congregations": 69,
+"czech-churches-last-century": 65,
+"radical-pietism-and-the-brethren-dunkers-ephrata": 63,
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 63,
+"the-waldensians": 62,
+"recusant-english-catholicism": 54,
+"schwenckfelders": 51,
+"the-union-of-brest-and-ruthenian-greek-catholic-": 50,
+"german-pietism-spener-francke-halle": 48,
+"orthodoxy-under-the-ottomans-1650-1821": 48,
+"melkite-greek-catholic-church": 45,
+"the-waldensian-reformed-union": 45,
+"kongo-christianity-afonso-to-1650": 43,
+"the-kyiv-mohyla-orthodox-revival": 42,
+"the-moravian-church-at-herrnhut": 37,
+"armenian-cilicia-after-the-kingdom": 36,
+"the-beguines": 36,
+"kirishitan-japan": 33,
+"the-huguenots": 32,
+"ethiopian-christianity-gragn-to-fasilides": 32,
+"the-quakers-religious-society-of-friends": 31,
+"latin-papal-church-gregorian": 31,
+"russian-church-synodal-century": 31,
+"taborite-radicalism": 29,
+"maronite-christianity-era-6": 27,
+"scandinavian-reformation-kingdoms": 24,
+"the-methodist-revival": 23,
+"swedenborgian-new-church": 19,
+"church-of-the-east-timur-to-hakkari": 18,
+"russian-church-nikon-to-holy-synod": 16,
+"quietist-controversy-molinos-guyon": 13,
+"the-ethiopian-monastic-flowering": 13,
+"the-scottish-reformation-and-kirk": 12,
+"church-of-the-east-chaldean-consolidation": 12,
+"the-english-mystics-and-devout": 12,
+"church-of-the-east-schism-of-1552": 12,
+"port-royal-jansenism": 11,
+"armenian-christianity-new-julfa": 9,
+"restoration-georgian-church-of-england": 9,
+"zagwe-and-early-solomonic-ethiopian-christianity": 9,
+"the-baptists": 8,
+"armenian-cilicia": 8,
+"the-welsh-revival-tradition": 8,
+"puritanism": 6,
+"family-of-love-and-spiritualists-franck-niclaes": 6
+}
+},
+{
+"cid": "C126",
+"name": "Photius",
+"n5": 0,
+"n3": 1,
+"S": 5,
+"clean": {
+"russian-church-nikon-to-holy-synod": 3,
+"byzantine-church-palaiologan": 1,
+"russian-church-synodal-century": 1
+},
+"masked": {
+"russian-church-nikon-to-holy-synod": 82,
+"byzantine-church-palaiologan": 34,
+"russian-church-synodal-century": 25,
+"hesychasm-and-the-palamite-synthesis": 13,
+"armenian-cilicia": 9,
+"latin-papal-church-avignon-to-lateran-v": 7,
+"armenian-christianity-era-8": 7,
+"russian-church-stoglav-to-nikon": 6,
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 6,
+"ruthenian-uniate-18th-century": 5
+}
+},
+{
+"cid": "C127",
+"name": "Cyril",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 0,
+"orthodoxy-under-the-ottomans-1650-1821": 0,
+"byzantine-church-palaiologan": 0
+},
+"masked": {
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 401,
+"orthodoxy-under-the-ottomans-1650-1821": 307,
+"byzantine-church-palaiologan": 240,
+"the-kyiv-mohyla-orthodox-revival": 179,
+"hesychasm-and-the-palamite-synthesis": 117,
+"latin-papal-church-avignon-to-lateran-v": 94,
+"melkite-greek-catholic-church": 90,
+"the-ethiopian-monastic-flowering": 78,
+"the-tridentine-church": 61,
+"russian-church-nikon-to-holy-synod": 57,
+"coptic-christianity-fatimid-to-mamluk": 42,
+"the-society-of-jesus": 41,
+"the-union-of-brest-and-ruthenian-greek-catholic-": 38,
+"st-thomas-christians-under-portuguese-pressure-d": 36,
+"the-english-reformation-and-elizabethan-settleme": 36,
+"the-anabaptist-movements": 32,
+"russian-church-synodal-century": 29,
+"the-malankara-churches-orthodox-and-jacobite": 28,
+"church-of-the-east-chaldean-consolidation": 28,
+"lutheran-wittenberg-and-its-congregations": 25,
+"church-of-the-east-timur-to-hakkari": 17,
+"anti-trinitarian-currents-servetus-polish-brethr": 16,
+"the-reformed-cities-zurich-and-geneva": 14,
+"armenian-christianity-era-8": 13,
+"ruthenian-uniate-18th-century": 9,
+"german-pietism-spener-francke-halle": 9,
+"armenian-christianity-zartonk": 9,
+"catholic-church-ancien-regime": 8,
+"schwenckfelders": 7,
+"restoration-georgian-church-of-england": 6,
+"church-of-the-east-schism-of-1552": 6,
+"armenian-cilicia-after-the-kingdom": 5,
+"the-moravian-church-at-herrnhut": 5,
+"the-hussite-and-bohemian-brethren-movement": 5,
+"czech-churches-last-century": 5,
+"family-of-love-and-spiritualists-franck-niclaes": 5
+}
+},
+{
+"cid": "C128",
+"name": "Methodius",
+"n5": 0,
+"n3": 0,
+"S": 2,
+"clean": {
+"russian-church-nikon-to-holy-synod": 1,
+"russian-church-synodal-century": 1,
+"catholic-church-ancien-regime": 0
+},
+"masked": {
+"russian-church-nikon-to-holy-synod": 42,
+"russian-church-synodal-century": 8,
+"catholic-church-ancien-regime": 8,
+"hesychasm-and-the-palamite-synthesis": 7,
+"byzantine-church-palaiologan": 5
+}
+},
+{
+"cid": "C129",
+"name": "Odo of Cluny",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"the-hussite-and-bohemian-brethren-movement": 0,
+"the-society-of-jesus": 0,
+"latin-papal-church-avignon-to-lateran-v": 0
+},
+"masked": {
+"the-hussite-and-bohemian-brethren-movement": 11,
+"the-society-of-jesus": 10,
+"latin-papal-church-avignon-to-lateran-v": 8,
+"franciscan-order-era-6": 7,
+"fraticelli-spiritual-franciscan-rigorists": 7
+}
+},
+{
+"cid": "C130",
+"name": "Dunstan",
+"n5": 0,
+"n3": 0,
+"S": 1,
+"clean": {
+"late-medieval-lay-parish-piety": 1,
+"the-methodist-revival": 0,
+"puritanism": 0
+},
+"masked": {
+"late-medieval-lay-parish-piety": 19,
+"the-methodist-revival": 10,
+"puritanism": 9,
+"english-old-dissent": 8
+}
+},
+{
+"cid": "C131",
+"name": "Olga of Kyiv",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"the-society-of-jesus": 0,
+"late-medieval-lay-parish-piety": 0,
+"the-tridentine-church": 0
+},
+"masked": {
+"the-society-of-jesus": 18,
+"late-medieval-lay-parish-piety": 14,
+"the-tridentine-church": 8
+}
+},
+{
+"cid": "C132",
+"name": "Gudit",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"lollardy": 0,
+"the-anabaptist-movements": 0,
+"the-english-reformation-and-elizabethan-settleme": 0
+},
+"masked": {
+"lollardy": 246,
+"the-anabaptist-movements": 54,
+"the-english-reformation-and-elizabethan-settleme": 34,
+"the-tridentine-church": 32,
+"church-of-the-desert-huguenots": 16,
+"the-methodist-revival": 15,
+"the-quakers-religious-society-of-friends": 13,
+"the-baptists": 12,
+"the-society-of-jesus": 12,
+"latin-papal-church-avignon-to-lateran-v": 11,
+"the-waldensian-reformed-union": 10,
+"waldensians-in-the-alps": 10,
+"dutch-further-reformation-and-refuge-culture": 8,
+"the-huguenots": 8,
+"orthodoxy-under-the-ottomans-1650-1821": 7,
+"the-moravian-church-at-herrnhut": 6,
+"the-hussite-and-bohemian-brethren-movement": 6,
+"ethiopian-christianity-gragn-to-fasilides": 6,
+"carmelite-reform-and-spanish-mystics": 6,
+"church-of-the-east-chaldean-consolidation": 6,
+"orthodoxy-under-the-ottomans-parish-millet-and-n": 6,
+"recusant-english-catholicism": 6,
+"catholic-church-ancien-regime": 5,
+"puritanism": 5,
+"port-royal-jansenism": 5,
+"the-kyiv-mohyla-orthodox-revival": 5
+}
+},
+{
+"cid": "C133",
+"name": "Oswald",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"the-anabaptist-movements": 0,
+"the-reformed-cities-zurich-and-geneva": 0,
+"recusant-english-catholicism": 0
+},
+"masked": {
+"the-anabaptist-movements": 53,
+"the-reformed-cities-zurich-and-geneva": 43,
+"recusant-english-catholicism": 14,
+"late-medieval-lay-parish-piety": 14,
+"the-scottish-reformation-and-kirk": 13,
+"the-society-of-jesus": 11,
+"the-methodist-revival": 9,
+"radical-pietism-and-the-brethren-dunkers-ephrata": 5,
+"english-old-dissent": 5,
+"the-english-reformation-and-elizabethan-settleme": 5
+}
+},
+{
+"cid": "C134",
+"name": "Trdat",
+"n5": 2,
+"n3": 2,
+"S": 15,
+"clean": {
+"armenian-christianity-era-8": 5,
+"armenian-christianity-zartonk": 8,
+"armenian-christianity-new-julfa": 2
+},
+"masked": {
+"armenian-christianity-era-8": 66,
+"armenian-christianity-zartonk": 34,
+"armenian-christianity-new-julfa": 32,
+"the-georgian-golden-age": 10
+}
+},
+{
+"cid": "C135",
+"name": "Ælfric of Eynsham",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"late-medieval-lay-parish-piety": 0,
+"lollardy": 0,
+"the-english-mystics-and-devout": 0
+},
+"masked": {
+"late-medieval-lay-parish-piety": 8,
+"lollardy": 7,
+"the-english-mystics-and-devout": 5
+}
+},
+{
+"cid": "C136",
+"name": "Boris",
+"n5": 0,
+"n3": 0,
+"S": 2,
+"clean": {
+"russian-church-synodal-century": 1,
+"russian-church-nikon-to-holy-synod": 1,
+"coptic-christianity-fatimid-to-mamluk": 0
+},
+"masked": {
+"russian-church-synodal-century": 39,
+"russian-church-nikon-to-holy-synod": 12,
+"coptic-christianity-fatimid-to-mamluk": 6
+}
+},
+{
+"cid": "C137",
+"name": "Olaf Haraldsson",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"the-moravian-church-at-herrnhut": 0,
+"lutheran-wittenberg-and-its-congregations": 0,
+"the-society-of-jesus": 0
+},
+"masked": {
+"the-moravian-church-at-herrnhut": 10,
+"lutheran-wittenberg-and-its-congregations": 9,
+"the-society-of-jesus": 6
+}
+},
+{
+"cid": "C138",
+"name": "Cardinal Humbert of Silva Candida",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"latin-papal-church-avignon-to-lateran-v": 0,
+"franciscan-order-era-6": 0,
+"fraticelli-spiritual-franciscan-rigorists": 0
+},
+"masked": {
+"latin-papal-church-avignon-to-lateran-v": 7,
+"franciscan-order-era-6": 7,
+"fraticelli-spiritual-franciscan-rigorists": 5
+}
+},
+{
+"cid": "C139",
+"name": "Ilarion of Kyiv",
+"n5": 1,
+"n3": 1,
+"S": 6,
+"clean": {
+"russian-church-nikon-to-holy-synod": 0,
+"russian-church-synodal-century": 6,
+"the-tridentine-church": 0
+},
+"masked": {
+"russian-church-nikon-to-holy-synod": 29,
+"russian-church-synodal-century": 15,
+"the-tridentine-church": 11,
+"byzantine-church-palaiologan": 11
+}
+},
+{
+"cid": "C140",
+"name": "Gregory VII",
+"n5": 2,
+"n3": 2,
+"S": 16,
+"clean": {
+"radical-pietism-and-the-brethren-dunkers-ephrata": 0,
+"german-pietism-spener-francke-halle": 6,
+"restoration-georgian-church-of-england": 10
+},
+"masked": {
+"radical-pietism-and-the-brethren-dunkers-ephrata": 44,
+"german-pietism-spener-francke-halle": 21,
+"restoration-georgian-church-of-england": 11,
+"waldensians-in-the-alps": 8,
+"the-waldensian-reformed-union": 7,
+"the-hussite-and-bohemian-brethren-movement": 7,
+"the-anabaptist-movements": 5
+}
+},
+{
+"cid": "C141",
+"name": "Nestor",
+"n5": 1,
+"n3": 1,
+"S": 10,
+"clean": {
+"russian-church-synodal-century": 10,
+"byzantine-church-palaiologan": 0
+},
+"masked": {
+"russian-church-synodal-century": 19,
+"byzantine-church-palaiologan": 9
+}
+},
+{
+"cid": "C142",
+"name": "Gerard",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"recusant-english-catholicism": 0,
+"the-society-of-jesus": 0,
+"devotio-moderna-brethren-of-the-common-life": 0
+},
+"masked": {
+"recusant-english-catholicism": 514,
+"the-society-of-jesus": 505,
+"devotio-moderna-brethren-of-the-common-life": 314,
+"franciscan-order-era-6": 54,
+"fraticelli-spiritual-franciscan-rigorists": 54,
+"the-methodist-revival": 21,
+"the-baptists": 18,
+"late-medieval-lay-parish-piety": 16,
+"the-anabaptist-movements": 12,
+"german-pietism-spener-francke-halle": 12,
+"the-quakers-religious-society-of-friends": 11,
+"the-remonstrants-and-dort": 10,
+"latin-papal-church-avignon-to-lateran-v": 10,
+"the-reformed-cities-zurich-and-geneva": 9,
+"english-old-dissent": 7
+}
+},
+{
+"cid": "C143",
+"name": "Gratian",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"carmelite-reform-and-spanish-mystics": 0,
+"the-hussite-and-bohemian-brethren-movement": 0,
+"lollardy": 0
+},
+"masked": {
+"carmelite-reform-and-spanish-mystics": 82,
+"the-hussite-and-bohemian-brethren-movement": 48,
+"lollardy": 39,
+"franciscan-order-era-6": 33,
+"restoration-georgian-church-of-england": 31,
+"latin-papal-church-avignon-to-lateran-v": 21,
+"the-reformed-cities-zurich-and-geneva": 17,
+"the-tridentine-church": 15,
+"the-english-reformation-and-elizabethan-settleme": 14,
+"the-huguenots": 8,
+"the-anabaptist-movements": 7,
+"the-society-of-jesus": 7,
+"the-waldensian-reformed-union": 6,
+"catholic-church-ancien-regime": 6,
+"fraticelli-spiritual-franciscan-rigorists": 6,
+"lutheran-wittenberg-and-its-congregations": 5,
+"byzantine-church-palaiologan": 5
+}
+},
+{
+"cid": "C144",
+"name": "Valdes of Lyon",
+"n5": 3,
+"n3": 3,
+"S": 21,
+"clean": {
+"waldensians-in-the-alps": 6,
+"the-anabaptist-movements": 8,
+"the-waldensian-reformed-union": 7
+},
+"masked": {
+"waldensians-in-the-alps": 124,
+"the-anabaptist-movements": 28,
+"the-waldensian-reformed-union": 10,
+"the-society-of-jesus": 8,
+"the-baptists": 7,
+"early-american-unitarians-universalists": 5
+}
+},
+{
+"cid": "C145",
+"name": "Tamar",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"lollardy": 0,
+"the-reformed-cities-zurich-and-geneva": 0,
+"ethiopian-christianity-gragn-to-fasilides": 0
+},
+"masked": {
+"lollardy": 49,
+"the-reformed-cities-zurich-and-geneva": 28,
+"ethiopian-christianity-gragn-to-fasilides": 16,
+"the-ethiopian-monastic-flowering": 15,
+"armenian-cilicia-after-the-kingdom": 6,
+"puritanism": 6,
+"armenian-christianity-new-julfa": 5,
+"waldensians-in-the-alps": 5,
+"armenian-christianity-era-8": 5
+}
+},
+{
+"cid": "C146",
+"name": "Innocent III",
+"n5": 2,
+"n3": 2,
+"S": 14,
+"clean": {
+"the-tridentine-church": 5,
+"the-anabaptist-movements": 8,
+"latin-papal-church-avignon-to-lateran-v": 1
+},
+"masked": {
+"the-tridentine-church": 12,
+"the-anabaptist-movements": 8,
+"latin-papal-church-avignon-to-lateran-v": 8,
+"armenian-cilicia-after-the-kingdom": 7,
+"the-hussite-and-bohemian-brethren-movement": 6,
+"catholic-church-ancien-regime": 6
+}
+},
+{
+"cid": "C147",
+"name": "Dominic de Guzmán",
+"n5": 0,
+"n3": 1,
+"S": 4,
+"clean": {
+"the-society-of-jesus": 1,
+"latin-papal-church-avignon-to-lateran-v": 0,
+"franciscan-order-era-6": 3
+},
+"masked": {
+"the-society-of-jesus": 181,
+"latin-papal-church-avignon-to-lateran-v": 149,
+"franciscan-order-era-6": 82,
+"fraticelli-spiritual-franciscan-rigorists": 63,
+"maronite-christianity-era-6": 46,
+"the-waldensian-reformed-union": 39,
+"waldensians-in-the-alps": 26,
+"kirishitan-japan": 25,
+"the-huguenots": 22,
+"observant-reform-and-popular-preaching": 20,
+"rhineland-mysticism-and-the-friends-of-god": 19,
+"the-tridentine-church": 16,
+"tridentine-parish-renewal-borromean-milan": 15,
+"byzantine-church-palaiologan": 14,
+"ruthenian-uniate-18th-century": 12,
+"dutch-further-reformation-and-refuge-culture": 11,
+"catholic-church-ancien-regime": 11,
+"hesychasm-and-the-palamite-synthesis": 10,
+"armenian-cilicia-after-the-kingdom": 8,
+"the-anabaptist-movements": 6,
+"melkite-greek-catholic-church": 6,
+"lollardy": 6,
+"schwenckfelders": 5,
+"lutheran-wittenberg-and-its-congregations": 5,
+"the-remonstrants-and-dort": 5
+}
+},
+{
+"cid": "C148",
+"name": "Francis of Assisi",
+"n5": 0,
+"n3": 2,
+"S": 8,
+"clean": {
+"observant-reform-and-popular-preaching": 4,
+"the-society-of-jesus": 3,
+"the-english-mystics-and-devout": 1
+},
+"masked": {
+"observant-reform-and-popular-preaching": 19,
+"the-society-of-jesus": 6,
+"the-english-mystics-and-devout": 6,
+"the-tridentine-church": 5
+}
+},
+{
+"cid": "C149",
+"name": "Thomas of Celano",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"franciscan-order-era-6": 0,
+"fraticelli-spiritual-franciscan-rigorists": 0
+},
+"masked": {
+"franciscan-order-era-6": 7,
+"fraticelli-spiritual-franciscan-rigorists": 7
+}
+},
+{
+"cid": "C150",
+"name": "Rainerius Sacconi",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"waldensians-in-the-alps": 0,
+"franciscan-order-era-6": 0
+},
+"masked": {
+"waldensians-in-the-alps": 13,
+"franciscan-order-era-6": 5
+}
+},
+{
+"cid": "C151",
+"name": "Bonaventure",
+"n5": 1,
+"n3": 1,
+"S": 6,
+"clean": {
+"franciscan-order-era-6": 0,
+"fraticelli-spiritual-franciscan-rigorists": 1,
+"catholic-church-ancien-regime": 5
+},
+"masked": {
+"franciscan-order-era-6": 219,
+"fraticelli-spiritual-franciscan-rigorists": 183,
+"catholic-church-ancien-regime": 140,
+"observant-reform-and-popular-preaching": 30,
+"latin-papal-church-avignon-to-lateran-v": 26,
+"the-english-mystics-and-devout": 26,
+"lollardy": 24,
+"the-society-of-jesus": 22,
+"the-tridentine-church": 17,
+"rhineland-mysticism-and-the-friends-of-god": 17,
+"the-anabaptist-movements": 12,
+"hesychasm-and-the-palamite-synthesis": 10,
+"lutheran-wittenberg-and-its-congregations": 10,
+"the-waldensian-reformed-union": 9,
+"late-medieval-lay-parish-piety": 9,
+"the-english-reformation-and-elizabethan-settleme": 8,
+"the-reformed-cities-zurich-and-geneva": 6,
+"quietist-controversy-molinos-guyon": 6,
+"dutch-further-reformation-and-refuge-culture": 6,
+"waldensians-in-the-alps": 6,
+"puritanism": 5,
+"armenian-christianity-era-8": 5
+}
+},
+{
+"cid": "C152",
+"name": "Ewostatewos",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"german-pietism-spener-francke-halle": 0,
+"orthodoxy-under-the-ottomans-1650-1821": 0,
+"russian-church-nikon-to-holy-synod": 0
+},
+"masked": {
+"german-pietism-spener-francke-halle": 7,
+"orthodoxy-under-the-ottomans-1650-1821": 6,
+"russian-church-nikon-to-holy-synod": 5
+}
+},
+{
+"cid": "C153",
+"name": "William of Ockham",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"the-evangelical-awakening-in-new-england": 0,
+"lollardy": 0
+},
+"masked": {
+"the-evangelical-awakening-in-new-england": 12,
+"lollardy": 7
+}
+},
+{
+"cid": "C154",
+"name": "Johannes Tauler",
+"n5": 2,
+"n3": 3,
+"S": 24,
+"clean": {
+"schwenckfelders": 10,
+"family-of-love-and-spiritualists-franck-niclaes": 10,
+"german-pietism-spener-francke-halle": 4
+},
+"masked": {
+"schwenckfelders": 26,
+"family-of-love-and-spiritualists-franck-niclaes": 12,
+"german-pietism-spener-francke-halle": 6
+}
+},
+{
+"cid": "C155",
+"name": "Florens Radewijns",
+"n5": 0,
+"n3": 0,
+"S": 0,
+"clean": {
+"the-society-of-jesus": 0,
+"st-thomas-christians-under-portuguese-pressure-d": 0
+},
+"masked": {
+"the-society-of-jesus": 17,
+"st-thomas-christians-under-portuguese-pressure-d": 11
+}
+},
+{
+"cid": "C156",
+"name": "Bessarion",
+"n5": 0,
+"n3": 0,
+"S": 1,
+"clean": {
+"orthodoxy-under-the-ottomans-1650-1821": 0,
+"the-kyiv-mohyla-orthodox-revival": 0,
+"melkite-greek-catholic-church": 1
+},
+"masked": {
+"orthodoxy-under-the-ottomans-1650-1821": 10,
+"the-kyiv-mohyla-orthodox-revival": 10,
+"melkite-greek-catholic-church": 6
+}
+},
+{
+"cid": "C157",
+"name": "Julius II",
+"n5": 0,
+"n3": 0,
+"S": 1,
+"clean": {
+"lutheran-wittenberg-and-its-congregations": 0,
+"the-reformed-cities-zurich-and-geneva": 1
+},
+"masked": {
+"lutheran-wittenberg-and-its-congregations": 6,
+"the-reformed-cities-zurich-and-geneva": 5
+}
+},
+{
+"cid": "C158",
+"name": "Huldrych Zwingli",
+"n5": 1,
+"n3": 1,
+"S": 7,
+"clean": {
+"the-waldensian-reformed-union": 2,
+"catholic-church-ancien-regime": 0,
+"the-huguenots": 5
+},
+"masked": {
+"the-waldensian-reformed-union": 10,
+"catholic-church-ancien-regime": 10,
+"the-huguenots": 8,
+"shakers": 6,
+"recusant-english-catholicism": 6
+}
+},
+{
+"cid": "C159",
+"name": "Michael Servetus",
+"n5": 1,
+"n3": 1,
+"S": 9,
+"clean": {
+"the-methodist-revival": 2,
+"shakers": 7,
+"the-baptists": 0
+},
+"masked": {
+"the-methodist-revival": 31,
+"shakers": 16,
+"the-baptists": 7,
+"the-remonstrants-and-dort": 5
+}
+},
+{
+"cid": "C160",
+"name": "Francis Xavier",
+"n5": 0,
+"n3": 1,
+"S": 6,
+"clean": {
+"philippine-catholicism-era-8": 4,
+"st-thomas-christians-under-portuguese-pressure-d": 0,
+"philippine-catholicism": 2
+},
+"masked": {
+"philippine-catholicism-era-8": 13,
+"st-thomas-christians-under-portuguese-pressure-d": 10,
+"philippine-catholicism": 5
+}
+},
+{
+"cid": "C161",
+"name": "Pope Pius V",
+"n5": 1,
+"n3": 2,
+"S": 10,
+"clean": {
+"philippine-catholicism-era-8": 6,
+"restoration-georgian-church-of-england": 4
+},
+"masked": {
+"philippine-catholicism-era-8": 14,
+"restoration-georgian-church-of-england": 7
+}
+},
+{
+"cid": "C162",
+"name": "Robert Bellarmine",
+"n5": 1,
+"n3": 1,
+"S": 10,
+"clean": {
+"restoration-georgian-church-of-england": 8,
+"port-royal-jansenism": 2
+},
+"masked": {
+"restoration-georgian-church-of-england": 21,
+"port-royal-jansenism": 11
+}
+},
+{
+"cid": "C163",
+"name": "Job",
+"n5": 0,
+"n3": 1,
+"S": 4,
+"clean": {
+"the-methodist-revival": 0,
+"the-quakers-religious-society-of-friends": 0,
+"russian-church-synodal-century": 4
+},
+"masked": {
+"the-methodist-revival": 173,
+"the-quakers-religious-society-of-friends": 123,
+"russian-church-synodal-century": 105,
+"the-evangelical-awakening-in-new-england": 105,
+"english-old-dissent": 97,
+"the-baptists": 86,
+"the-welsh-revival-tradition": 70,
+"german-pietism-spener-francke-halle": 58,
+"russian-church-nikon-to-holy-synod": 57,
+"the-moravian-church-at-herrnhut": 55,
+"early-american-unitarians-universalists": 50,
+"the-remonstrants-and-dort": 41,
+"quietist-controversy-molinos-guyon": 39,
+"shakers": 36,
+"restoration-georgian-church-of-england": 33,
+"port-royal-jansenism": 31,
+"swedenborgian-new-church": 31,
+"church-of-the-desert-huguenots": 28,
+"orthodoxy-under-the-ottomans-1650-1821": 24,
+"the-kyiv-mohyla-orthodox-revival": 21,
+"catholic-church-ancien-regime": 16,
+"church-of-the-east-chaldean-consolidation": 16,
+"radical-pietism-and-the-brethren-dunkers-ephrata": 10,
+"ruthenian-uniate-18th-century": 10,
+"armenian-christianity-era-8": 9,
+"philippine-catholicism-era-8": 6
+}
+},
+{
+"cid": "C164",
+"name": "Hugo Grotius",
+"n5": 2,
+"n3": 2,
+"S": 18,
+"clean": {
+"restoration-georgian-church-of-england": 10,
+"english-old-dissent": 6,
+"the-quakers-religious-society-of-friends": 2
+},
+"masked": {
+"restoration-georgian-church-of-england": 24,
+"english-old-dissent": 20,
+"the-quakers-religious-society-of-friends": 7,
+"german-pietism-spener-francke-halle": 5,
+"early-american-unitarians-universalists": 5
+}
+},
+{
+"cid": "C165",
+"name": "Blaise Pascal",
+"n5": 1,
+"n3": 1,
+"S": 5,
+"clean": {
+"the-methodist-revival": 5,
+"church-of-the-desert-huguenots": 0
+},
+"masked": {
+"the-methodist-revival": 12,
+"church-of-the-desert-huguenots": 6
+}
+}
+]

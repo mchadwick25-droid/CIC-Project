@@ -1,0 +1,11 @@
+source_file: dominican-general-chapters_acta-capitulorum-generalium-v2-1304-1378-lat_reichert1899.txt
+assignments:
+- row_id: dominican-general-chapters_acta-capitulorum-generalium-v2-1304-1378-lat_reichert1899--acta-capitulorum-generalium-ordinis-praedicatorum-vol-ii-1304-1378
+  work: "Acta capitulorum generalium Ordinis Praedicatorum, vol. II (1304-1378)"
+  author: dominican-general-chapters
+  locus: "the acts from about OCR line 341; add 12 to OCR line numbers for this file's own"
+  atlas_ids:
+  - latin-papal-church-avignon-to-lateran-v
+  role: tradition
+  confidence: provisional
+  note: "The order's own legislation in its general chapters, 1304-1378. Within this entry's window (1300-1517)."

@@ -1,0 +1,181 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.one-church"
+   ],
+   "sentence": "Among us, we knew ourselves as one people across two empires and beyond, called after the one name of Christ."
+  },
+  {
+   "record_ids": [
+    "syr.quote.blc-one-name"
+   ],
+   "sentence": "Bardaisan spoke of Christians in Philip's record, the Book of the Laws of Countries: “And what shall we say of the new race of us Christians, whom Christ at his coming planted in every country and in every region? For see - wherever we are, we are all called by the one name of Christ: Christians. On one day, the first of the week, we gather together.”"
+  },
+  {
+   "record_ids": [
+    "syr.dw.one-church"
+   ],
+   "sentence": "Our streets held rival communities who all invoked Christ, and we would not share their communion."
+  },
+  {
+   "record_ids": [
+    "syr.dw.apostolic"
+   ],
+   "sentence": "What we can show you of our own practice is older than any proof we have: assembly on the first day, fasting, the covenant, and the one Gospel as the standard."
+  },
+  {
+   "record_ids": [
+    "syr.dw.apostolic"
+   ],
+   "sentence": "Our written record shows these only from the point where our sources begin."
+  }
+ ],
+ "citations": [
+  "syr.dw.apostolic",
+  "syr.dw.one-church",
+  "syr.quote.blc-one-name"
+ ],
+ "group": "A",
+ "id": "q016",
+ "net_sentences": [
+  {
+   "draft": "Among us, we knew ourselves as one people across two empires and beyond, called after the one name of Christ [[syr.dw.one-church]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Among us, we knew ourselves as one people across two empires and beyond, called after the one name of Christ.",
+   "tags": [
+    "syr.dw.one-church"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Bardaisan spoke of Christians in Philip's record, the Book of the Laws of Countries: [[quote:syr.quote.blc-one-name]]",
+   "placed_quote": "syr.quote.blc-one-name",
+   "sentence": "Bardaisan spoke of Christians in Philip's record, the Book of the Laws of Countries: “And what shall we say of the new race of us Christians, whom Christ at his coming planted in every country and in every region? For see - wherever we are, we are all called by the one name of Christ: Christians. On one day, the first of the week, we gather together.”",
+   "tags": [
+    "syr.quote.blc-one-name"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "Our streets held rival communities who all invoked Christ, and we would not share their communion [[syr.dw.one-church]] [[as:paraphrase]].",
+   "sentence": "Our streets held rival communities who all invoked Christ, and we would not share their communion.",
+   "tags": [
+    "syr.dw.one-church"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "What we can show you of our own practice is older than any proof we have: assembly on the first day, fasting, the covenant, and the one Gospel as the standard [[syr.dw.apostolic]] [[as:paraphrase]].",
+   "sentence": "What we can show you of our own practice is older than any proof we have: assembly on the first day, fasting, the covenant, and the one Gospel as the standard.",
+   "tags": [
+    "syr.dw.apostolic"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our written record shows these only from the point where our sources begin [[syr.dw.apostolic]] [[as:paraphrase]].",
+   "sentence": "Our written record shows these only from the point where our sources begin.",
+   "tags": [
+    "syr.dw.apostolic"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Which church of your own day do you have in mind?",
+   "sentence": "Which church of your own day do you have in mind?",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "syr.dw.one-church",
+  "syr.term.catholicos",
+  "syr.story.abgar-addai-legend",
+  "syr.quote.blc-one-name",
+  "syr.gravity.covenant-life",
+  "syr.gravity.persecution-endurance",
+  "syr.force.transmission-ending",
+  "syr.contested.edessa-origins",
+  "syr.dw.authority-lived",
+  "syr.story.simeon-martyrdom",
+  "syr.quote.sozomen-melodies",
+  "syr.quote.basil-credits-a-syrian",
+  "syr.limit.f5-enslaved",
+  "syr.limit.f5-women-own-words",
+  "syr.dw.apostolic",
+  "syr.quote.ephrem-keeper-of-strangers",
+  "syr.quote.palladius-hospitaller",
+  "syr.dw.corpus-and-its-edges",
+  "syr.story.edessa-flood-201",
+  "syr.quote.chronicle-flood-line",
+  "syr.quote.abgar-letter"
+ ],
+ "raw_text": "Among us, we knew ourselves as one people across two empires and beyond, called after the one name of Christ [[syr.dw.one-church]] [[as:paraphrase]]. Bardaisan spoke of Christians in Philip's record, the Book of the Laws of Countries: [[quote:syr.quote.blc-one-name]] [[as:paraphrase]]. Our streets held rival communities who all invoked Christ, and we would not share their communion [[syr.dw.one-church]] [[as:paraphrase]]. What we can show you of our own practice is older than any proof we have: assembly on the first day, fasting, the covenant, and the one Gospel as the standard [[syr.dw.apostolic]] [[as:paraphrase]]. Our written record shows these only from the point where our sources begin [[syr.dw.apostolic]] [[as:paraphrase]]. Which church of your own day do you have in mind?\n",
+ "reply_shape": {
+  "leadin_support": {
+   "syr.quote.blc-one-name": [
+    {
+     "detail": "Christians",
+     "kind": "name",
+     "snippet": "And what shall we say of the new race of us Christians, whom Christ at his coming planted in every country and in",
+     "span": "record syr.quote.blc-one-name"
+    },
+    {
+     "detail": "Philip",
+     "kind": "name",
+     "snippet": "y, the first of the week, we assemble ourselves together In Philip's record, the Book of the Laws of Countries, Bardaisan descri",
+     "span": "record syr.quote.blc-one-name"
+    },
+    {
+     "detail": "Book",
+     "kind": "name",
+     "snippet": "On one day, the first of the week, we gather together. The Book of the Laws of Divers Countries, the 'new race of us Christ",
+     "span": "record syr.quote.blc-one-name"
+    },
+    {
+     "detail": "Laws",
+     "kind": "name",
+     "snippet": "the first of the week, we gather together. The Book of the Laws of Divers Countries, the 'new race of us Christians' passag",
+     "span": "record syr.quote.blc-one-name"
+    },
+    {
+     "detail": "Countries",
+     "kind": "name",
+     "snippet": "he week, we gather together. The Book of the Laws of Divers Countries, the 'new race of us Christians' passage (anf08_twelve-patr",
+     "span": "record syr.quote.blc-one-name"
+    },
+    {
+     "detail": "book",
+     "kind": "genre",
+     "snippet": "On one day, the first of the week, we gather together. The Book of the Laws of Divers Countries, the 'new race of us Christ",
+     "span": "record syr.quote.blc-one-name"
+    }
+   ]
+  },
+  "placed": [
+   "syr.quote.blc-one-name"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S4",
+ "text": "Among us, we knew ourselves as one people across two empires and beyond, called after the one name of Christ. Bardaisan spoke of Christians in Philip's record, the Book of the Laws of Countries: “And what shall we say of the new race of us Christians, whom Christ at his coming planted in every country and in every region? For see - wherever we are, we are all called by the one name of Christ: Christians. On one day, the first of the week, we gather together.”. Our streets held rival communities who all invoked Christ, and we would not share their communion. What we can show you of our own practice is older than any proof we have: assembly on the first day, fasting, the covenant, and the one Gospel as the standard. Our written record shows these only from the point where our sources begin. Which church of your own day do you have in mind?",
+ "voice_set_aside": false
+}

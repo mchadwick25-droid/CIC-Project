@@ -1,0 +1,29 @@
+source_file: christian-east_v11-no2-summer-1930.txt
+assignments:
+- row_id: christian-east_v11-no2-summer-1930--the-christian-east-volume-xi-number-2-summer-1930
+  work: 'The Christian East, volume XI, number 2 (Summer, 1930)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  note: 'An Anglican quarterly on the Eastern churches; many writers, and the documents it prints are in translation.'
+- row_id: christian-east_v11-no2-summer-1930--the-christian-east-volume-xi-number-2-summer-1930-on-the
+  work: 'The Christian East, volume XI, number 2 (Summer, 1930): on the Greek churches'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-greek-church-and-the-ecumenical-patriarchate
+  role: context
+  confidence: assigned
+  note: 'An Anglican journal''s reports on the Greek churches; an outside witness.'
+- row_id: christian-east_v11-no2-summer-1930--patriarch-meletios-of-alexandria-reply-of-12-may-1930-in-the
+  work: 'Patriarch Meletios of Alexandria, reply of 12 May 1930, in The Christian East'
+  author: christian-east
+  locus: 'lines 1734-1828'
+  atlas_ids:
+  - the-greek-church-and-the-ecumenical-patriarchate
+  role: tradition
+  confidence: assigned
+  note: 'His own reply in an English whose maker the print does not name.'

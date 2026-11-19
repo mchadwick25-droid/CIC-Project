@@ -1,0 +1,11 @@
+source_file: lactantius_divinae-institutiones-epitome-csel19-second-scan-lat_brandt1890.txt
+assignments:
+- row_id: lactantius_divinae-institutiones-epitome-csel19-second-scan-lat_brandt1890--divine-institutes-csel-19-second-scan-with-page-411
+  work: 'Lactantius, Divinae institutiones, Latin (Brandt 1890, CSEL 19), a second scan with page 411'
+  author: lactantius
+  locus: 'page 411 at about OCR lines 32114-32166; add 12 to OCR line numbers'
+  atlas_ids:
+  - latin-apologists
+  role: tradition
+  confidence: provisional
+  note: 'The same edition as the held CSEL 19 file, from a scan that has the page the held scan lacks (Div. inst. V.4.3).'

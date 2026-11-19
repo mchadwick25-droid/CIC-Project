@@ -86,8 +86,8 @@ def _resolve_story(story_id: str | None, records: dict) -> dict | None:
 
 
 def _resolve_quote(quote_id: str | None, records: dict) -> dict | None:
-    """`modern_rendering` only - NEVER `text` (Mark's standing quote
-    ruling). See engine/m1/gates.py's gate_quote_mark_fidelity for the
+    """`modern_rendering` only - NEVER `text` (a world speaks a quote's
+    modern rendering, never its source text). See engine/m1/gates.py's gate_quote_mark_fidelity for the
     mechanical check that a world_front's own AUTHORED prose already
     follows this rule before it ever reaches this compiler; this is the
     same field choice made independently, at compile time, for the

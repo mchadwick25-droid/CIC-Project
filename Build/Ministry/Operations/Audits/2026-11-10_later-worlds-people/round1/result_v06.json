@@ -1,0 +1,923 @@
+[
+ {
+  "cid": "C006",
+  "name": "Paula",
+  "traditions": {
+   "the-scottish-reformation-and-kirk": {
+    "labels": {
+     "the-scottish-reformation-and-kirk#0": "N",
+     "the-scottish-reformation-and-kirk#1": "N",
+     "the-scottish-reformation-and-kirk#2": "N",
+     "the-scottish-reformation-and-kirk#3": "N",
+     "the-scottish-reformation-and-kirk#4": "N",
+     "the-scottish-reformation-and-kirk#5": "E",
+     "the-scottish-reformation-and-kirk#6": "N",
+     "the-scottish-reformation-and-kirk#7": "N",
+     "the-scottish-reformation-and-kirk#8": "N",
+     "the-scottish-reformation-and-kirk#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "late-medieval-lay-parish-piety": {
+    "labels": {
+     "late-medieval-lay-parish-piety#0": "N",
+     "late-medieval-lay-parish-piety#1": "N",
+     "late-medieval-lay-parish-piety#2": "N",
+     "late-medieval-lay-parish-piety#3": "N",
+     "late-medieval-lay-parish-piety#4": "N",
+     "late-medieval-lay-parish-piety#5": "N",
+     "late-medieval-lay-parish-piety#6": "N",
+     "late-medieval-lay-parish-piety#7": "N",
+     "late-medieval-lay-parish-piety#8": "N",
+     "late-medieval-lay-parish-piety#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "the-society-of-jesus": {
+    "labels": {
+     "the-society-of-jesus#0": "N",
+     "the-society-of-jesus#1": "N",
+     "the-society-of-jesus#2": "N",
+     "the-society-of-jesus#3": "S",
+     "the-society-of-jesus#4": "N",
+     "the-society-of-jesus#5": "N",
+     "the-society-of-jesus#6": "N",
+     "the-society-of-jesus#7": "N",
+     "the-society-of-jesus#8": "N",
+     "the-society-of-jesus#9": "N"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "campion_rationes-decem-ten-reasons-lat-eng_rickaby1914.txt",
+     "line": 3217,
+     "text": "Nostra Paula,2 quae ex urbano palatio et opimis praediis in speluncam Bethleemi-"
+    }
+   }
+  },
+  "namesake_notes": "'Paule' = the apostle Paul (all three shelves), Paule Lambert, Paul Lundy, Master Paule, Paul Antoni, Joannes Paule; 'Paula' = Francis of Paula (Minims) and his order, Fray Francisco de Paula.",
+  "editorial_notes": "Editor's footnote on Paule Lambert (Knox, Laing); index/bibliography entry (Colin, Pastells).",
+  "comment": "Only one genuine hit: Campion, Rationes Decem, 'Nostra Paula' (Paula of Bethlehem) in the Latin text."
+ },
+ {
+  "cid": "C016",
+  "name": "Quadratus",
+  "traditions": {
+   "latin-pastoral-congregational-christianity": {
+    "labels": {
+     "latin-pastoral-congregational-christianity#0": "N",
+     "latin-pastoral-congregational-christianity#1": "E",
+     "latin-pastoral-congregational-christianity#2": "N",
+     "latin-pastoral-congregational-christianity#3": "N",
+     "latin-pastoral-congregational-christianity#4": "N",
+     "latin-pastoral-congregational-christianity#5": "E",
+     "latin-pastoral-congregational-christianity#6": "E",
+     "latin-pastoral-congregational-christianity#7": "E",
+     "latin-pastoral-congregational-christianity#8": "E",
+     "latin-pastoral-congregational-christianity#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "nicene-visigothic-iberia": {
+    "labels": {
+     "nicene-visigothic-iberia#0": "N",
+     "nicene-visigothic-iberia#1": "N",
+     "nicene-visigothic-iberia#2": "N",
+     "nicene-visigothic-iberia#3": "N",
+     "nicene-visigothic-iberia#4": "N"
+    },
+    "clean_passages": 0
+   },
+   "hieronymian-ascetic-literary": {
+    "labels": {
+     "hieronymian-ascetic-literary#0": "E",
+     "hieronymian-ascetic-literary#1": "S",
+     "hieronymian-ascetic-literary#2": "E",
+     "hieronymian-ascetic-literary#3": "E",
+     "hieronymian-ascetic-literary#4": "S"
+    },
+    "clean_passages": 2,
+    "best_quote": {
+     "file": "jerome_eusebii-chronici-canones-lat_fotheringham1923.txt",
+     "line": 42531,
+     "text": "Quadratus discipulus apostolorum et Aristides Atheniensis noster philo-"
+    }
+   }
+  },
+  "namesake_notes": "Quadratus = the martyr of Carthage/Africa honoured by Augustine; Quadratus bishop of Gegi (Hippo council); Quadratus martyr of Merida (Paulus Emeritanus); consul Quadratus Apronianus; 'quadratus numerus' (square number, Isidore); Greek Kodratos in Gebhardt's index.",
+  "editorial_notes": "Maurist/Caillau/Morin footnotes and Morin apparatus on the martyr Quadratus; Gebhardt index; Fotheringham apparatus; table of contents and chapter heading in NPNF De viris illustribus (ctx0, ctx2).",
+  "comment": "Jerome's Chronicon entry and the Aristides chapter of De viris illustribus are the two S passages; Jerome's own chapter 19 body on Quadratus (not among the supplied contexts) is also S. Jerome treats Quadratus as bishop of Athens; NPNF note says 'not the Athenian bishop'. I took the hits as the apologist who presented a work to Hadrian."
+ },
+ {
+  "cid": "C026",
+  "name": "Tatian",
+  "traditions": {
+   "latin-apologists": {
+    "labels": {
+     "latin-apologists#0": "E",
+     "latin-apologists#1": "E",
+     "latin-apologists#2": "E",
+     "latin-apologists#3": "E",
+     "latin-apologists#4": "S",
+     "latin-apologists#5": "U",
+     "latin-apologists#6": "U",
+     "latin-apologists#7": "E",
+     "latin-apologists#8": "E",
+     "latin-apologists#9": "E"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+     "line": 10682,
+     "text": "such as I may find in the person of a Marcion, a Tatian, or a Jupiter, the Pythagorean heretic of to-day"
+    }
+   },
+   "persian-church-of-the-east-early": {
+    "labels": {
+     "persian-church-of-the-east-early#0": "E",
+     "persian-church-of-the-east-early#1": "E",
+     "persian-church-of-the-east-early#2": "E",
+     "persian-church-of-the-east-early#3": "E",
+     "persian-church-of-the-east-early#4": "N",
+     "persian-church-of-the-east-early#5": "E",
+     "persian-church-of-the-east-early#6": "N",
+     "persian-church-of-the-east-early#7": "E",
+     "persian-church-of-the-east-early#8": "E",
+     "persian-church-of-the-east-early#9": "E"
+    },
+    "clean_passages": 0
+   },
+   "imperial-juridical-christianity": {
+    "labels": {
+     "imperial-juridical-christianity#0": "N",
+     "imperial-juridical-christianity#1": "S",
+     "imperial-juridical-christianity#2": "N",
+     "imperial-juridical-christianity#3": "N",
+     "imperial-juridical-christianity#4": "N",
+     "imperial-juridical-christianity#5": "E",
+     "imperial-juridical-christianity#6": "N",
+     "imperial-juridical-christianity#7": "N",
+     "imperial-juridical-christianity#8": "E",
+     "imperial-juridical-christianity#9": "N"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+     "line": 26185,
+     "text": "It is said that Tatian was the author of this false doctrine."
+    }
+   }
+  },
+  "namesake_notes": "Tatianus the deacon (Chalcedon acts), Tatianus prefect/consul (Theodosian Code, Socrates, Mansi), Tatian addressed by Leo, Tatian martyr under Julian (Sozomen), Tatianus martyr in Chronicle of Seert.",
+  "editorial_notes": "Apparatus fontium (Waltzing, Boenig, Oehler, Parisot) citing Tatian's Oratio; Hippolytus table of contents (outside the shelved Cyprian work); Braun intro; NPNF footnote; Eusebius chapter heading.",
+  "comment": "ctx5/ctx6 (Kroymann and Oehler print the same passage 'Tatianus quidam alter haereticus') come from the pseudo-Tertullian Adversus omnes haereses, which is not one of the shelved works, so I marked them U, not S. The one S in Latin apologists is Tertullian De Ieiunio."
+ },
+ {
+  "cid": "C036",
+  "name": "Philip",
+  "traditions": {
+   "the-tridentine-church": {
+    "labels": {
+     "the-tridentine-church#0": "N",
+     "the-tridentine-church#1": "N",
+     "the-tridentine-church#2": "E",
+     "the-tridentine-church#3": "N",
+     "the-tridentine-church#4": "N",
+     "the-tridentine-church#5": "N",
+     "the-tridentine-church#6": "N",
+     "the-tridentine-church#7": "N",
+     "the-tridentine-church#8": "N",
+     "the-tridentine-church#9": "E"
+    },
+    "clean_passages": 0
+   },
+   "antiochene-exegetical-christianity-chrysostom-ce": {
+    "labels": {
+     "antiochene-exegetical-christianity-chrysostom-ce#0": "N",
+     "antiochene-exegetical-christianity-chrysostom-ce#1": "N",
+     "antiochene-exegetical-christianity-chrysostom-ce#2": "N",
+     "antiochene-exegetical-christianity-chrysostom-ce#3": "N",
+     "antiochene-exegetical-christianity-chrysostom-ce#4": "N",
+     "antiochene-exegetical-christianity-chrysostom-ce#5": "N",
+     "antiochene-exegetical-christianity-chrysostom-ce#6": "N",
+     "antiochene-exegetical-christianity-chrysostom-ce#7": "N",
+     "antiochene-exegetical-christianity-chrysostom-ce#8": "N",
+     "antiochene-exegetical-christianity-chrysostom-ce#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "english-old-dissent": {
+    "labels": {
+     "english-old-dissent#0": "E",
+     "english-old-dissent#1": "E",
+     "english-old-dissent#2": "N",
+     "english-old-dissent#3": "N",
+     "english-old-dissent#4": "N",
+     "english-old-dissent#5": "N",
+     "english-old-dissent#6": "E",
+     "english-old-dissent#7": "N",
+     "english-old-dissent#8": "N",
+     "english-old-dissent#9": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "'Philip' only picks up the apostle Philip, 'Philip.' as the abbreviation of Philippians, Philip Neri, Philip II, a Philip priest/legate and bishop Philip, Philip Henry, Philip Nye, Philip Stapleton, Philip Doddridge, Philip Schaff (editor).",
+  "editorial_notes": "Title-page/metadata headers naming editors and subjects (Schaff, Henry, Doddridge, Bacci).",
+  "comment": "Nothing about the Bardaisanite Philip; all hits are namesakes."
+ },
+ {
+  "cid": "C046",
+  "name": "Lactantius",
+  "traditions": {
+   "gallic-monastic-ascetic-christianity": {
+    "labels": {
+     "gallic-monastic-ascetic-christianity#0": "E",
+     "gallic-monastic-ascetic-christianity#1": "S",
+     "gallic-monastic-ascetic-christianity#2": "E",
+     "gallic-monastic-ascetic-christianity#3": "E",
+     "gallic-monastic-ascetic-christianity#4": "E",
+     "gallic-monastic-ascetic-christianity#5": "E",
+     "gallic-monastic-ascetic-christianity#6": "E",
+     "gallic-monastic-ascetic-christianity#7": "E",
+     "gallic-monastic-ascetic-christianity#8": "E",
+     "gallic-monastic-ascetic-christianity#9": "E"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "eucherius-lyon_de-contemptu-mundi_vaughan1654.txt",
+     "line": 672,
+     "text": "all those eloquent contenders for the faith, Firmianus, Minutius, Cyprian, Hilary, Chrysostom and Ambrose?"
+    }
+   },
+   "hieronymian-ascetic-literary": {
+    "labels": {
+     "hieronymian-ascetic-literary#0": "E",
+     "hieronymian-ascetic-literary#1": "S",
+     "hieronymian-ascetic-literary#2": "S",
+     "hieronymian-ascetic-literary#3": "E",
+     "hieronymian-ascetic-literary#4": "S",
+     "hieronymian-ascetic-literary#5": "S",
+     "hieronymian-ascetic-literary#6": "S",
+     "hieronymian-ascetic-literary#7": "S",
+     "hieronymian-ascetic-literary#8": "S",
+     "hieronymian-ascetic-literary#9": "E"
+    },
+    "clean_passages": 7,
+    "best_quote": {
+     "file": "npnf206_jerome-principal-works.xml",
+     "line": 14111,
+     "text": "Lactantius has a flow of eloquence worthy of Tully: would that he had been as ready to teach our doctrines"
+    }
+   },
+   "the-reformed-cities-zurich-and-geneva": {
+    "labels": {
+     "the-reformed-cities-zurich-and-geneva#0": "S",
+     "the-reformed-cities-zurich-and-geneva#1": "E",
+     "the-reformed-cities-zurich-and-geneva#2": "U",
+     "the-reformed-cities-zurich-and-geneva#3": "S",
+     "the-reformed-cities-zurich-and-geneva#4": "S",
+     "the-reformed-cities-zurich-and-geneva#5": "S",
+     "the-reformed-cities-zurich-and-geneva#6": "S",
+     "the-reformed-cities-zurich-and-geneva#7": "E",
+     "the-reformed-cities-zurich-and-geneva#8": "N",
+     "the-reformed-cities-zurich-and-geneva#9": "U"
+    },
+    "clean_passages": 5,
+    "best_quote": {
+     "file": "calvin_commentaries-genesis-vol1_king1847.txt",
+     "line": 13392,
+     "text": "Certain writers of antiquity, such as Lactantius, and others, have too grossly blundered"
+    }
+   }
+  },
+  "namesake_notes": "'Lactance Regnyn' (a Geneva official, Calvin Opera 8) is a namesake. No other namesakes.",
+  "editorial_notes": "Sanford's introduction and footnotes in Salvian; Jerome De viris illustribus table of contents and chapter heading; Calvin Opera 8 apparatus variant; Beveridge/Latin footnote in the Institutes.",
+  "comment": "Hieronymian 7 passages: Letter 48 (two paragraphs), Letter 58, Letter 60, the Chronicon, and two De viris illustribus entries (Papias-area and Minucius Felix). Reformed: 5 S (Institutes I, Genesis commentary, Letters I, Second Helvetic Confession, Calvin Consilia). ctx2/ctx9 (Zwingli volume) are Johann Eck's refutation printed in the volume, not Zwingli's voice, so U. Calvin ctx3 comes from the Consilia section of Opera X.1; authorship of each consilium not checked. Gallic: only Eucherius is S; Salvian hits are Sanford's apparatus."
+ },
+ {
+  "cid": "C056",
+  "name": "Aetius of Antioch",
+  "traditions": {
+   "byzantine-imperial-church-justinianic": {
+    "labels": {
+     "byzantine-imperial-church-justinianic#0": "N",
+     "byzantine-imperial-church-justinianic#1": "E",
+     "byzantine-imperial-church-justinianic#2": "N",
+     "byzantine-imperial-church-justinianic#3": "N",
+     "byzantine-imperial-church-justinianic#4": "N",
+     "byzantine-imperial-church-justinianic#5": "N",
+     "byzantine-imperial-church-justinianic#6": "N",
+     "byzantine-imperial-church-justinianic#7": "N",
+     "byzantine-imperial-church-justinianic#8": "N",
+     "byzantine-imperial-church-justinianic#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "merovingian-gallic-christianity": {
+    "labels": {
+     "merovingian-gallic-christianity#0": "N",
+     "merovingian-gallic-christianity#1": "N",
+     "merovingian-gallic-christianity#2": "E",
+     "merovingian-gallic-christianity#3": "S",
+     "merovingian-gallic-christianity#4": "E",
+     "merovingian-gallic-christianity#5": "N",
+     "merovingian-gallic-christianity#6": "N",
+     "merovingian-gallic-christianity#7": "N",
+     "merovingian-gallic-christianity#8": "E",
+     "merovingian-gallic-christianity#9": "S"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "line": 42657,
+     "text": "To Aëtius indeed and Eunomius his disciple, he showed that the Father and Son are not of two natures"
+    }
+   },
+   "nicene-visigothic-iberia": {
+    "labels": {
+     "nicene-visigothic-iberia#0": "N",
+     "nicene-visigothic-iberia#1": "N",
+     "nicene-visigothic-iberia#2": "N",
+     "nicene-visigothic-iberia#3": "N",
+     "nicene-visigothic-iberia#4": "N",
+     "nicene-visigothic-iberia#5": "N",
+     "nicene-visigothic-iberia#6": "E",
+     "nicene-visigothic-iberia#7": "N",
+     "nicene-visigothic-iberia#8": "N",
+     "nicene-visigothic-iberia#9": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Aetius the general (Western magister militum, Valentinian's patricius) throughout; Aetius archdeacon of Constantinople (Chalcedon, Leo's letter); Aetius presbyter of Cemelenum (Gaulish council subscription); Aetius bishop (Dionysius/Facundus).",
+  "editorial_notes": "Leo letter summary heading (NPNF), Fredegar/Krusch and Mommsen apparatus and notes, Krusch note in Passiones.",
+  "comment": "Only genuine hit: Gennadius of Marseilles (De viris illustribus, Sabbatius chapter) naming Eunomius's master Aetius; ctx3 and ctx9 are the same paragraph, counted as one passage."
+ },
+ {
+  "cid": "C066",
+  "name": "Malchus",
+  "traditions": {
+   "hieronymian-ascetic-literary": {
+    "labels": {
+     "hieronymian-ascetic-literary#0": "E",
+     "hieronymian-ascetic-literary#1": "E",
+     "hieronymian-ascetic-literary#2": "E",
+     "hieronymian-ascetic-literary#3": "E",
+     "hieronymian-ascetic-literary#4": "S",
+     "hieronymian-ascetic-literary#5": "S"
+    },
+    "clean_passages": 2,
+    "best_quote": {
+     "file": "npnf206_jerome-principal-works.xml",
+     "line": 31145,
+     "text": "there was at the place at that time an old man by name Malchus"
+    }
+   },
+   "merovingian-gallic-christianity": {
+    "labels": {
+     "merovingian-gallic-christianity#0": "N",
+     "merovingian-gallic-christianity#1": "N",
+     "merovingian-gallic-christianity#2": "N",
+     "merovingian-gallic-christianity#3": "N",
+     "merovingian-gallic-christianity#4": "N",
+     "merovingian-gallic-christianity#5": "N",
+     "merovingian-gallic-christianity#6": "N"
+    },
+    "clean_passages": 0
+   },
+   "roman-church-gregorian": {
+    "labels": {
+     "roman-church-gregorian#0": "N",
+     "roman-church-gregorian#1": "N",
+     "roman-church-gregorian#2": "N",
+     "roman-church-gregorian#3": "N",
+     "roman-church-gregorian#4": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Malchus of the Seven Sleepers (Gregory of Tours); Malchus presbyter (Dionysius/Facundus); Malchus bishop of Dalmatia (Gregory I register, index); Malchus bishop (NPNF Gregory).",
+  "editorial_notes": "NPNF prolegomena (cross-reference), work title and prefatory note to the Life of Malchus, apparatus in Krusch.",
+  "comment": "Both S passages are inside Jerome's Life of Malchus; the work's own title line is the translator's, so not counted."
+ },
+ {
+  "cid": "C076",
+  "name": "Maron",
+  "traditions": {
+   "syriac-orthodox-west-syriac-christianity": {
+    "labels": {
+     "syriac-orthodox-west-syriac-christianity#0": "N",
+     "syriac-orthodox-west-syriac-christianity#1": "N",
+     "syriac-orthodox-west-syriac-christianity#2": "E",
+     "syriac-orthodox-west-syriac-christianity#3": "E",
+     "syriac-orthodox-west-syriac-christianity#4": "N",
+     "syriac-orthodox-west-syriac-christianity#5": "U",
+     "syriac-orthodox-west-syriac-christianity#6": "N",
+     "syriac-orthodox-west-syriac-christianity#7": "N",
+     "syriac-orthodox-west-syriac-christianity#8": "N",
+     "syriac-orthodox-west-syriac-christianity#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "byzantine-church-palaiologan": {
+    "labels": {
+     "byzantine-church-palaiologan#0": "N",
+     "byzantine-church-palaiologan#1": "N",
+     "byzantine-church-palaiologan#2": "E",
+     "byzantine-church-palaiologan#3": "N",
+     "byzantine-church-palaiologan#4": "N",
+     "byzantine-church-palaiologan#5": "N",
+     "byzantine-church-palaiologan#6": "N",
+     "byzantine-church-palaiologan#7": "N",
+     "byzantine-church-palaiologan#8": "N",
+     "byzantine-church-palaiologan#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "merovingian-gallic-christianity": {
+    "labels": {
+     "merovingian-gallic-christianity#0": "N",
+     "merovingian-gallic-christianity#1": "N",
+     "merovingian-gallic-christianity#2": "N",
+     "merovingian-gallic-christianity#3": "N",
+     "merovingian-gallic-christianity#4": "N",
+     "merovingian-gallic-christianity#5": "N",
+     "merovingian-gallic-christianity#6": "N",
+     "merovingian-gallic-christianity#7": "N",
+     "merovingian-gallic-christianity#8": "N",
+     "merovingian-gallic-christianity#9": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Maro the stylite of Ar'aRabtha/Amid (John of Ephesus), Beit Maron monastery (place), bishop Maron (Severus letter), Maron of the Orientals (Zachariah), Maro = Virgil (Fortunatus, Avitus, Fredegar, Gregory of Tours), Maroveus, Maro teacher at the Persian school (NPNF), Maro in Chalcocondyles.",
+  "editorial_notes": "Brooks introduction and notes; Latin editor's note on Maro's monastery (Abbeloos-Lamy); Bessarion editorial footnote 'bibl. Maro' (Marciana).",
+  "comment": "No genuine hit. Plerophories ctx5 (Tatian and Maron, monks of the Salton/Gerara region) is uncertain, so U."
+ },
+ {
+  "cid": "C086",
+  "name": "Leo of Rome",
+  "traditions": {
+   "restoration-georgian-church-of-england": {
+    "labels": {
+     "restoration-georgian-church-of-england#0": "N",
+     "restoration-georgian-church-of-england#1": "U",
+     "restoration-georgian-church-of-england#2": "S",
+     "restoration-georgian-church-of-england#3": "S",
+     "restoration-georgian-church-of-england#4": "S",
+     "restoration-georgian-church-of-england#5": "S",
+     "restoration-georgian-church-of-england#6": "S",
+     "restoration-georgian-church-of-england#7": "N",
+     "restoration-georgian-church-of-england#8": "N",
+     "restoration-georgian-church-of-england#9": "N"
+    },
+    "clean_passages": 5,
+    "best_quote": {
+     "file": "barlow_brutum-fulmen_1681.txt",
+     "line": 9958,
+     "text": "Pope Leo neither did, nor durft, it was a Doctrine unheard of in thofe purer times"
+    }
+   },
+   "the-anabaptist-movements": {
+    "labels": {
+     "the-anabaptist-movements#0": "S",
+     "the-anabaptist-movements#1": "S",
+     "the-anabaptist-movements#2": "S",
+     "the-anabaptist-movements#3": "N",
+     "the-anabaptist-movements#4": "N",
+     "the-anabaptist-movements#5": "N",
+     "the-anabaptist-movements#6": "N",
+     "the-anabaptist-movements#7": "N",
+     "the-anabaptist-movements#8": "N"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "van-braght_martyrs-mirror_sohm1886.txt",
+     "line": 26958,
+     "text": "Pope Leo (Serm. 1, de natia Dom,, cap. 4) thus exhorts those who had been baptized"
+    }
+   },
+   "russian-church-nikon-to-holy-synod": {
+    "labels": {
+     "russian-church-nikon-to-holy-synod#0": "S",
+     "russian-church-nikon-to-holy-synod#1": "N",
+     "russian-church-nikon-to-holy-synod#2": "S",
+     "russian-church-nikon-to-holy-synod#3": "N",
+     "russian-church-nikon-to-holy-synod#4": "S",
+     "russian-church-nikon-to-holy-synod#5": "E",
+     "russian-church-nikon-to-holy-synod#6": "N",
+     "russian-church-nikon-to-holy-synod#7": "N"
+    },
+    "clean_passages": 3,
+    "best_quote": {
+     "file": "ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873.txt",
+     "line": 10063,
+     "text": "Peter has spoken by the lips of Pope Leo"
+    }
+   }
+  },
+  "namesake_notes": "Pope Leo X (Barlow, Lateran), Leo II and Leo IX (Martyrs Mirror), Leo III (Charlemagne's coronation; Nikon replies, Ligarides).",
+  "editorial_notes": "Index of the Nikon volume (ctx5, ctx7).",
+  "comment": "Barlow: ctx2 is Barlow's marginal note on a Leo I passage cited by Bellarmine; ctx1 (OCR garbled Bellarmine tract) U. Anabaptist: ctx0-2 are one continuous Note of the compiler, counted as one passage (three sentences). Russian: Leo I at Chalcedon in Ligarides' history."
+ },
+ {
+  "cid": "C096",
+  "name": "Barsanuphius",
+  "traditions": {
+   "late-medieval-lay-parish-piety": {
+    "labels": {
+     "late-medieval-lay-parish-piety#0": "E",
+     "late-medieval-lay-parish-piety#1": "N",
+     "late-medieval-lay-parish-piety#2": "E",
+     "late-medieval-lay-parish-piety#3": "E",
+     "late-medieval-lay-parish-piety#4": "E",
+     "late-medieval-lay-parish-piety#5": "N",
+     "late-medieval-lay-parish-piety#6": "N",
+     "late-medieval-lay-parish-piety#7": "N",
+     "late-medieval-lay-parish-piety#8": "N",
+     "late-medieval-lay-parish-piety#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "the-methodist-revival": {
+    "labels": {
+     "the-methodist-revival#0": "N",
+     "the-methodist-revival#1": "N",
+     "the-methodist-revival#2": "N",
+     "the-methodist-revival#3": "E",
+     "the-methodist-revival#4": "E",
+     "the-methodist-revival#5": "N",
+     "the-methodist-revival#6": "N",
+     "the-methodist-revival#7": "N",
+     "the-methodist-revival#8": "N",
+     "the-methodist-revival#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "the-english-reformation-and-elizabethan-settleme": {
+    "labels": {
+     "the-english-reformation-and-elizabethan-settleme#0": "N",
+     "the-english-reformation-and-elizabethan-settleme#1": "E",
+     "the-english-reformation-and-elizabethan-settleme#2": "E",
+     "the-english-reformation-and-elizabethan-settleme#3": "E",
+     "the-english-reformation-and-elizabethan-settleme#4": "N",
+     "the-english-reformation-and-elizabethan-settleme#5": "E",
+     "the-english-reformation-and-elizabethan-settleme#6": "N",
+     "the-english-reformation-and-elizabethan-settleme#7": "N",
+     "the-english-reformation-and-elizabethan-settleme#8": "E",
+     "the-english-reformation-and-elizabethan-settleme#9": "E"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Alias 'John' (and only 'John') picks up John Mirk, John Wesley, John Foxe, Saint John the Baptist/Evangelist, John gospel citations, Sir John Philips, etc.; never Barsanuphius.",
+  "editorial_notes": "Title-page/header metadata, acknowledgements, place names (Stanton St John), index entries.",
+  "comment": "No genuine hit; the alias 'John' is unusable for this person."
+ },
+ {
+  "cid": "C106",
+  "name": "David",
+  "traditions": {
+   "the-scottish-reformation-and-kirk": {
+    "labels": {
+     "the-scottish-reformation-and-kirk#0": "N",
+     "the-scottish-reformation-and-kirk#1": "E",
+     "the-scottish-reformation-and-kirk#2": "E",
+     "the-scottish-reformation-and-kirk#3": "E",
+     "the-scottish-reformation-and-kirk#4": "E",
+     "the-scottish-reformation-and-kirk#5": "E",
+     "the-scottish-reformation-and-kirk#6": "N",
+     "the-scottish-reformation-and-kirk#7": "N",
+     "the-scottish-reformation-and-kirk#8": "E",
+     "the-scottish-reformation-and-kirk#9": "E"
+    },
+    "clean_passages": 0
+   },
+   "lollardy": {
+    "labels": {
+     "lollardy#0": "N",
+     "lollardy#1": "N",
+     "lollardy#2": "N",
+     "lollardy#3": "N",
+     "lollardy#4": "N",
+     "lollardy#5": "N",
+     "lollardy#6": "N",
+     "lollardy#7": "N",
+     "lollardy#8": "N",
+     "lollardy#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "the-anabaptist-movements": {
+    "labels": {
+     "the-anabaptist-movements#0": "N",
+     "the-anabaptist-movements#1": "N",
+     "the-anabaptist-movements#2": "N",
+     "the-anabaptist-movements#3": "N",
+     "the-anabaptist-movements#4": "N",
+     "the-anabaptist-movements#5": "N",
+     "the-anabaptist-movements#6": "N",
+     "the-anabaptist-movements#7": "N",
+     "the-anabaptist-movements#8": "N",
+     "the-anabaptist-movements#9": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "King David (biblical) in nearly all Lollard and Anabaptist hits; David Laing, David Calderwood, David Dickson, David Lindsay, David Hay Fleming, David Hasel (Hutterite).",
+  "editorial_notes": "Title-page metadata naming editors, preface acknowledgements, index/table of contents.",
+  "comment": "No genuine hit for Dewi/David of Wales."
+ },
+ {
+  "cid": "C116",
+  "name": "Paulos",
+  "traditions": {
+   "the-reformed-cities-zurich-and-geneva": {
+    "labels": {
+     "the-reformed-cities-zurich-and-geneva#0": "N",
+     "the-reformed-cities-zurich-and-geneva#1": "N",
+     "the-reformed-cities-zurich-and-geneva#2": "N",
+     "the-reformed-cities-zurich-and-geneva#3": "N",
+     "the-reformed-cities-zurich-and-geneva#4": "N",
+     "the-reformed-cities-zurich-and-geneva#5": "N",
+     "the-reformed-cities-zurich-and-geneva#6": "N"
+    },
+    "clean_passages": 0
+   },
+   "the-scottish-reformation-and-kirk": {
+    "labels": {
+     "the-scottish-reformation-and-kirk#0": "N",
+     "the-scottish-reformation-and-kirk#1": "N",
+     "the-scottish-reformation-and-kirk#2": "N",
+     "the-scottish-reformation-and-kirk#3": "N",
+     "the-scottish-reformation-and-kirk#4": "N",
+     "the-scottish-reformation-and-kirk#5": "N"
+    },
+    "clean_passages": 0
+   },
+   "the-huguenots": {
+    "labels": {
+     "the-huguenots#0": "N",
+     "the-huguenots#1": "N",
+     "the-huguenots#2": "N",
+     "the-huguenots#3": "N",
+     "the-huguenots#4": "N",
+     "the-huguenots#5": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "'Paulos' = Paul the apostle (OCR/Latin variant) in the Niemeyer Collectio confessionum, same six or seven passages in all three shelves.",
+  "editorial_notes": "",
+  "comment": "Same Niemeyer file counted under three traditions; no genuine hit."
+ },
+ {
+  "cid": "C126",
+  "name": "Photius",
+  "traditions": {
+   "russian-church-nikon-to-holy-synod": {
+    "labels": {
+     "russian-church-nikon-to-holy-synod#0": "E",
+     "russian-church-nikon-to-holy-synod#1": "E",
+     "russian-church-nikon-to-holy-synod#2": "E",
+     "russian-church-nikon-to-holy-synod#3": "E",
+     "russian-church-nikon-to-holy-synod#4": "S",
+     "russian-church-nikon-to-holy-synod#5": "E",
+     "russian-church-nikon-to-holy-synod#6": "S",
+     "russian-church-nikon-to-holy-synod#7": "E",
+     "russian-church-nikon-to-holy-synod#8": "S",
+     "russian-church-nikon-to-holy-synod#9": "E"
+    },
+    "clean_passages": 3,
+    "best_quote": {
+     "file": "ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873.txt",
+     "line": 5775,
+     "text": "he having lived 106 years, as Photius in his Bibliotheca relates"
+    }
+   },
+   "byzantine-church-palaiologan": {
+    "labels": {
+     "byzantine-church-palaiologan#0": "U",
+     "byzantine-church-palaiologan#1": "E",
+     "byzantine-church-palaiologan#2": "E",
+     "byzantine-church-palaiologan#3": "S",
+     "byzantine-church-palaiologan#4": "E",
+     "byzantine-church-palaiologan#5": "E",
+     "byzantine-church-palaiologan#6": "E",
+     "byzantine-church-palaiologan#7": "E",
+     "byzantine-church-palaiologan#8": "E",
+     "byzantine-church-palaiologan#9": "S"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866.txt",
+     "line": 5306,
+     "text": "Quod si Photius patriarelia. dixit, sed animadvertito, Pbotium non esse in sanctorum nu-"
+    }
+   },
+   "russian-church-synodal-century": {
+    "labels": {
+     "russian-church-synodal-century#0": "N",
+     "russian-church-synodal-century#1": "S",
+     "russian-church-synodal-century#2": "N",
+     "russian-church-synodal-century#3": "N",
+     "russian-church-synodal-century#4": "N",
+     "russian-church-synodal-century#5": "N",
+     "russian-church-synodal-century#6": "N",
+     "russian-church-synodal-century#7": "N",
+     "russian-church-synodal-century#8": "N",
+     "russian-church-synodal-century#9": "E"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "line": 918,
+     "text": "Tradition reports that the Patriarch Photius took the virginal robe of the Mother of God"
+    }
+   }
+  },
+  "namesake_notes": "Photius, metropolitan of Moscow (15th c.) throughout most Mouravieff hits.",
+  "editorial_notes": "Palmer's epitome/introduction, translator's preface and Kormchaya notes; Latin editorial footnotes (Bessarion, Calecas, Chalcocondyles Notae); Creyghton's Praefatio (not Syropoulos); Kimmel not involved; Blackmore's note; French introduction in Petit.",
+  "comment": "Byzantine-Palaiologan reaches 1 clean passage only: Gennadius file hit is inside Mammas's Apology (ctx3 and ctx9 are consecutive sentences of one passage); ctx0 (Calecas file, line 15226) lies before the shelved Calecas locus (from 81575), so U."
+ },
+ {
+  "cid": "C136",
+  "name": "Boris",
+  "traditions": {
+   "russian-church-synodal-century": {
+    "labels": {
+     "russian-church-synodal-century#0": "S",
+     "russian-church-synodal-century#1": "N",
+     "russian-church-synodal-century#2": "N",
+     "russian-church-synodal-century#3": "N",
+     "russian-church-synodal-century#4": "N",
+     "russian-church-synodal-century#5": "N",
+     "russian-church-synodal-century#6": "N",
+     "russian-church-synodal-century#7": "N",
+     "russian-church-synodal-century#8": "N",
+     "russian-church-synodal-century#9": "N"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "line": 1382,
+     "text": "But the death or rather martyrdom of Boris and Gleb recoiled upon his own head"
+    }
+   },
+   "russian-church-nikon-to-holy-synod": {
+    "labels": {
+     "russian-church-nikon-to-holy-synod#0": "N",
+     "russian-church-nikon-to-holy-synod#1": "N",
+     "russian-church-nikon-to-holy-synod#2": "E",
+     "russian-church-nikon-to-holy-synod#3": "S",
+     "russian-church-nikon-to-holy-synod#4": "N",
+     "russian-church-nikon-to-holy-synod#5": "N",
+     "russian-church-nikon-to-holy-synod#6": "N",
+     "russian-church-nikon-to-holy-synod#7": "N",
+     "russian-church-nikon-to-holy-synod#8": "N",
+     "russian-church-nikon-to-holy-synod#9": "N"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "nikon_replies-against-streshnev-and-ligarides_palmer1871.txt",
+     "line": 18198,
+     "text": "the holy sufferers the religious Russian Princes, brothers after the flesh, Boris and Gleb"
+    }
+   },
+   "coptic-christianity-fatimid-to-mamluk": {
+    "labels": {
+     "coptic-christianity-fatimid-to-mamluk#0": "N",
+     "coptic-christianity-fatimid-to-mamluk#1": "N",
+     "coptic-christianity-fatimid-to-mamluk#2": "N",
+     "coptic-christianity-fatimid-to-mamluk#3": "N",
+     "coptic-christianity-fatimid-to-mamluk#4": "N",
+     "coptic-christianity-fatimid-to-mamluk#5": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Boris Godunov (tsar) in Mouravieff; Boris Morozov, Boris Leontiev (Ligarides/Nikon supplements); Boris of Bulgaria (Ligarides, Basset's commentary).",
+  "editorial_notes": "Palmer footnote (ctx2) and supplements to Ligarides; Basset's historical commentary in the synaxary.",
+  "comment": "Only genuine passages are Mouravieff on the martyrdom of Boris and Gleb and one invocation in Nikon's text (Boris and Gleb)."
+ },
+ {
+  "cid": "C146",
+  "name": "Innocent III",
+  "traditions": {
+   "the-tridentine-church": {
+    "labels": {
+     "the-tridentine-church#0": "S",
+     "the-tridentine-church#1": "E",
+     "the-tridentine-church#2": "S",
+     "the-tridentine-church#3": "S",
+     "the-tridentine-church#4": "E",
+     "the-tridentine-church#5": "E",
+     "the-tridentine-church#6": "S",
+     "the-tridentine-church#7": "E",
+     "the-tridentine-church#8": "S",
+     "the-tridentine-church#9": "E"
+    },
+    "clean_passages": 5,
+    "best_quote": {
+     "file": "council-of-trent_roman-catechism_mchugh-callan1923.txt",
+     "line": 14282,
+     "text": "The General Council of Lateran, held under Innocent III, further ratified the sentence."
+    }
+   },
+   "the-anabaptist-movements": {
+    "labels": {
+     "the-anabaptist-movements#0": "S",
+     "the-anabaptist-movements#1": "S",
+     "the-anabaptist-movements#2": "S",
+     "the-anabaptist-movements#3": "S",
+     "the-anabaptist-movements#4": "S",
+     "the-anabaptist-movements#5": "S",
+     "the-anabaptist-movements#6": "S",
+     "the-anabaptist-movements#7": "S"
+    },
+    "clean_passages": 8,
+    "best_quote": {
+     "file": "van-braght_martyrs-mirror_sohm1886.txt",
+     "line": 41824,
+     "text": "Pope Innocent III was the first who instituted the office of the inquisition"
+    }
+   },
+   "latin-papal-church-avignon-to-lateran-v": {
+    "labels": {
+     "latin-papal-church-avignon-to-lateran-v#0": "U",
+     "latin-papal-church-avignon-to-lateran-v#1": "S",
+     "latin-papal-church-avignon-to-lateran-v#2": "U",
+     "latin-papal-church-avignon-to-lateran-v#3": "U",
+     "latin-papal-church-avignon-to-lateran-v#4": "U",
+     "latin-papal-church-avignon-to-lateran-v#5": "U",
+     "latin-papal-church-avignon-to-lateran-v#6": "U",
+     "latin-papal-church-avignon-to-lateran-v#7": "U"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "bullarium-franciscanum_v5-lat_eubel1898.txt",
+     "line": 45068,
+     "text": "Licet enim Innocentius III praedictus in generali concilio interdixisset novas religiones institui"
+    }
+   }
+  },
+  "namesake_notes": "No namesakes.",
+  "editorial_notes": "Roman Missal (England 1843): all four hits are the translator's explanatory commentary quoting Innocent III, counted E not S. Catechism McHugh-Callan footnote (ctx5).",
+  "comment": "Tridentine reaches exactly 5: Propaganda Fide Collectanea (4 passages: 40633, 42216, 44042, 81030) plus the Catechism text; the Missal hits would add more if the coordinator treats Bishop England's commentary as the tradition's voice. Avignon: Gerson hits (ctx0, ctx4-7) are outside the listed Gerson locus (ctx4-7 are in Pierre d'Ailly's De ecclesiae auctoritate), Mansi 31 (ctx2) is a Basel-era argument and Mansi 32 (ctx3) is a Spanish council passage, so all U."
+ },
+ {
+  "cid": "C156",
+  "name": "Bessarion",
+  "traditions": {
+   "orthodoxy-under-the-ottomans-1650-1821": {
+    "labels": {
+     "orthodoxy-under-the-ottomans-1650-1821#0": "E",
+     "orthodoxy-under-the-ottomans-1650-1821#1": "E",
+     "orthodoxy-under-the-ottomans-1650-1821#2": "E",
+     "orthodoxy-under-the-ottomans-1650-1821#3": "E",
+     "orthodoxy-under-the-ottomans-1650-1821#4": "E",
+     "orthodoxy-under-the-ottomans-1650-1821#5": "E",
+     "orthodoxy-under-the-ottomans-1650-1821#6": "E",
+     "orthodoxy-under-the-ottomans-1650-1821#7": "E",
+     "orthodoxy-under-the-ottomans-1650-1821#8": "E",
+     "orthodoxy-under-the-ottomans-1650-1821#9": "E"
+    },
+    "clean_passages": 0
+   },
+   "the-kyiv-mohyla-orthodox-revival": {
+    "labels": {
+     "the-kyiv-mohyla-orthodox-revival#0": "E",
+     "the-kyiv-mohyla-orthodox-revival#1": "E",
+     "the-kyiv-mohyla-orthodox-revival#2": "E",
+     "the-kyiv-mohyla-orthodox-revival#3": "E",
+     "the-kyiv-mohyla-orthodox-revival#4": "E",
+     "the-kyiv-mohyla-orthodox-revival#5": "E",
+     "the-kyiv-mohyla-orthodox-revival#6": "E",
+     "the-kyiv-mohyla-orthodox-revival#7": "E",
+     "the-kyiv-mohyla-orthodox-revival#8": "E",
+     "the-kyiv-mohyla-orthodox-revival#9": "E"
+    },
+    "clean_passages": 0
+   },
+   "melkite-greek-catholic-church": {
+    "labels": {
+     "melkite-greek-catholic-church#0": "S",
+     "melkite-greek-catholic-church#1": "U",
+     "melkite-greek-catholic-church#2": "U",
+     "melkite-greek-catholic-church#3": "U",
+     "melkite-greek-catholic-church#4": "U",
+     "melkite-greek-catholic-church#5": "E"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt",
+     "line": 27208,
+     "text": "debbino essi Scioritani tenere la medesima regola di san Basilio tradotta dal greco in latino dal cardinal Bessarione"
+    }
+   }
+  },
+  "namesake_notes": "No namesakes.",
+  "editorial_notes": "Kimmel's Latin prolegomena about Dositheus and Mogila (file lines 535-1123, before the shelved confession texts); Petit's editorial note (Mansi 46).",
+  "comment": "Kimmel hits are the same passage in the 1843 and 1850 files; both before the shelved locus. Melkite: ctx1-4 (lines 30518-30673) lie in the Propaganda Fide congregations of 1743-46, not the Melkite synods, so U."
+ }
+]

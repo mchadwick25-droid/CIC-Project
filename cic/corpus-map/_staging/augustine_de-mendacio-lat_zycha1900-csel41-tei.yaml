@@ -12,6 +12,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
+    locus_ids: [whole-file]
+    language: lat
+    date: {start: 395, end: 395, source: "npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml div2 5.5 introductory notice: about a.d. 395; P1 gives 395", formation_confidence: Widely Accepted}
     note: >
       The earlier of Augustine's two treatises on truthfulness. Latin original of the ALREADY-PRESENT
       English entry 'On Lying (De Mendacio)' (source_file npnf103_augustine-holy-trinity-doctrinal-

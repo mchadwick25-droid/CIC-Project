@@ -1,0 +1,109 @@
+{
+ "slice": "RV7 (P2-G89c: transylvanian-unitarian-church-1660-1906; VI.14 continuesAs and living carrier; links from VI.14, with VIII.37, from VII.44)",
+ "round": 1,
+ "verdict": "revise",
+ "blocking": [],
+ "substantial": [
+  {
+   "id": "S1",
+   "where": "link society-of-jesus-1650-1814--transylvanian-unitarian-church-1660-1906 (confidence, outcome, note, source kinds); relationsSummary sentence 3",
+   "problem": "The grade and the outcome do not hold. 'Argued against' needs a text or an act aimed at the other side by name. The only act the sources show is the army's and a bishop's, not the Jesuits'. In 1875 (lines 1084-1089) General Steinville took the market church by force, and Bishop György Mártonffi held service in it. The Jesuit part is the Unitarian historian's own frame, written 160 to 190 years later: 'what the Jesuits once set their eyes on had to fall victim' (1875), and 'an easy prey to the zeal of the Jesuits' (1907). For 1716 these are later histories by the side that suffered, not primary sources. No Jesuit, Catholic or Habsburg text was read. The lineage brief says Documented needs a primary quote that shows the relationship itself. It also says a single 19th- or early-20th-century account on its own is Inferential-Thin. An outcome must name an institutional act carried out by the link's own parties. This outcome names the army's act, and on a Jesuit link it reads as the Jesuits' act.",
+   "evidence": "Ferencz 1875, lines 1084-1089 (the actors are Steinville and Mártonffi). Ferencz 1907, lines 283-290: 'became an easy prey to the zeal of the Jesuits ... transferred to them through the faithful assistance of the Emperor's army'. The drafter's own flag notes that the army and a Catholic bishop did the 1716 seizure. Lineage Drafting_Brief, table row 'argued against' and the Documented and Dominant Modern Reconstruction rules. Launch prompt, step 4b.",
+   "fix": "Keep the link, but lower it to Inferential-Thin. Drop `outcome`, which makes it a minor link. Mark the three sources `secondary` (later histories of the events). Keep `verification_state` as verified-direct, since the quotes were checked. Replace the note with: \"The church's own histories of 1875 and 1907 blame the Jesuits for the loss of its college in 1693 and its market church in 1716. In 1875 Ferencz says an army commander, Steinville, took the church by force, and a Catholic bishop held worship in it days later. The 1907 account says the emperor's army helped. No Jesuit or Catholic source was read.\" Add 1907 lines 286-290 to the sources ('transferred to them through the faithful assistance of the Emperor's army'). In relationsSummary, replace sentence 3 with: \"Ferencz blames the Jesuits for the loss of its college and its main church. He says the emperor's army took them.\" Another option is to drop the link and keep only that qualified sentence. Do not retarget it to VII.19 in this round, because the ruling does not name that link. Add the Catholic or Habsburg source to `wants` as it already stands."
+  },
+  {
+   "id": "S2",
+   "where": "entry longDescription paragraph 2 ('Rees and Ferencz both put the order to leave in July 1660, though they give different days'); fact_table rows 5-6; flag DATES DIFFER",
+   "problem": "The two dates mean different things, and the prose merges them. Ferencz's '1660 júl. 10-ig' means 'by 10 July 1660', the last day to convert or leave, and the drafter's own rendering says 'by'. Rees gives 20 July 1660 as the day a new decree was passed ordering them 'instantly to leave'. Ferencz dates the diet's decision only to 'the following year' after 1659. So the sources do not give 'different days' for the same order. One gives a deadline, the other the date a decree passed. The longDescription and the flag both state the dates wrongly.",
+   "evidence": "Ferencz 1875, lines 1007-1010: 'Nem sokára ezt is megsokalták s már a következő évben az országgyűlés meghatározta, hogy 1660 júl. 10-ig minden unitárius vagy térjen a kath.-vallásra, vagy hagyja el az országot'. Rees 1818, lines 1960-1967: 'procured a new and more rigorous decree to be passed against them on the 2()th of July 1660 ... enjoining them instantly to leave the kingdom'.",
+   "fix": "Replace the sentence with: \"Rees says a harsher decree of 20 July 1660 told them to leave at once. Ferencz says the diet of 1660 set 10 July as the last day to turn Catholic or leave.\" Correct the DATES DIFFER flag to match. Keep the fact-table rows on the same lines, and add Rees lines 1966-1967 ('enjoining them instantly to leave the kingdom')."
+  },
+  {
+   "id": "S3",
+   "where": "entry longDescription ('In 1848 the diet gave the Unitarian faith lawful standing'); why sentence 4 ('In 1848 it won lawful standing')",
+   "problem": "This overstates the change. Before 1848 the church already had lawful standing in Transylvania. VI.14 says so (the Edict of Torda, 1568), and so does the draft's own 1907 quote. The Pozsony diet of 1848 made the Unitarian faith a received religion in the whole kingdom of Hungary. As written, the prose says the church had no lawful standing before 1848, and that contradicts both the source and the frozen VI.14.",
+   "evidence": "Ferencz 1907, lines 976-978: 'Unitarian Religion, received up to this time only in Transylvania, gets henceforth a full and legal recognition in the whole kingdom of Hungary.' Also lines 336-337: 'Unitarian Religion gained lawful rigths all over the kingdom.' Ferencz 1875, lines 1244-1246, names the Pozsony (Hungarian) diet. VI.14's why: 'Transylvania's 1568 Edict of Torda gave a Unitarian church legal standing'.",
+   "fix": "longDescription: \"In 1848 the diet at Pozsony declared the Unitarian faith a lawfully received religion. Until then, the account of 1907 says, it had that standing only in Transylvania. Now it held it in all of Hungary.\" why: \"In 1848 its lawful standing was widened to all of Hungary, and in 1861 it chose a bishop again.\" The teaser's 'full legal recognition' can stay, since 1907 uses those words."
+  },
+  {
+   "id": "S4",
+   "where": "entry floorNote, sentence 3 ('He calls Jesus a perfect man and the greatest of the prophets')",
+   "problem": "The floorNote does not give their own account whole. VI.14 and VII.31 state the tradition's own confession in its own positive terms. VII.31, for example, says they worshipped 'God alone', the Father. Here sentence 3 picks the two lowest titles and leaves out the ones Ferencz puts first in the same passage: 'that Christ or Messiah, God's holy son'. It also drops his qualifier on 'perfect man'. He writes 'so to speak', and says this is through the divine power, the holy spirit, given him beyond measure. On the one field that frames the floor question, the cut makes his Christology read thinner than his own words. That is a judgment made by selection. The longDescription keeps the fuller list, but it also drops 'so to speak'.",
+   "evidence": "Ferencz 1875, lines 1986-1995: 'Minden próféták között a legnagyobb, ama Krisztus vagy Messiás, Istennek szent fia, ... felette áll minden előtte és utána élt embernek. Ó az emberiség mintaképe, ugy szólván, tökéletes ember, azon isteni erőnél, a szent léleknél fogva, mely neki az irások szerint mérték felett adatott.' Lines 1975-1977: 'Ez az egy Isten egyedül lehet az emberi lélek imádásának tárgya' (the one God alone can be the object of the soul's worship).",
+   "fix": "Replace floorNote sentence 3 with: \"He calls Jesus the Christ or Messiah, God's holy son and the greatest of the prophets. He is, 'so to speak', a perfect man, through the holy spirit given him beyond measure.\" You may add, on lines 1975-1977: \"He writes that the one God alone is to be worshipped.\" Add fact-table rows for lines 1986-1995 and 1975-1977, with renderings. In the longDescription, change 'and a perfect man' to 'and, \"so to speak\", a perfect man'. Then rerun check_draft.py."
+  }
+ ],
+ "minor": [
+  {
+   "id": "m1",
+   "where": "fact_table row 3 rendering (lines 999-1002)",
+   "problem": "'meghatároztatta' is causative, and its subject is King John Casimir (lines 997-998). The rendering 'the diet decided' leaves the king out.",
+   "evidence": "Lines 997-1001: 'János Kázmér, lengyel király, ... 1659-ben Karwat nevű jezsuita ösztönzésére országgyűlésileg meghatároztatta'.",
+   "fix": "Rendering: \"in 1659, at the urging of a Jesuit named Karwat, [King John Casimir] had the diet decide that Unitarian teachings might no longer be openly professed or spread\"."
+  },
+  {
+   "id": "m2",
+   "where": "longDescription paragraph 1 ('In 1658 the Diet of Warsaw brought a formal charge')",
+   "problem": "The wrong party is named. In Rees, the Catholics brought the charge at the Diet. The Diet did not bring it.",
+   "evidence": "Rees, lines 1839-1846: 'The Catholics ... preferred against them, at the Diet of Warsaw in 1658, a formal accusation'.",
+   "fix": "\"At the Diet of Warsaw in 1658, the Catholics brought a formal charge against the Polish Unitarians, the English Unitarian Thomas Rees wrote in 1818.\""
+  },
+  {
+   "id": "m3",
+   "where": "longDescription ('By 1873 American friends were raising money for two chairs')",
+   "problem": "The source does not support the date. A meeting was held at Budapest in June 1873, and Morison visited after it. By the time of writing, 1875, Hale and Morison had 'already' collected aid.",
+   "evidence": "Ferencz 1875, lines 1817-1828.",
+   "fix": "\"After a meeting at Budapest in June 1873, the Americans Hale and Morison raised money for two chairs at the Kolozsvár college, to be named for Channing and Priestley.\""
+  },
+  {
+   "id": "m4",
+   "where": "relationsSummary ('American Unitarians were in touch with it from 1868'); the VIII.37 link note",
+   "problem": "Ferencz dates the first contact to 1831, when Bölöni Farkas visited and a few letters were exchanged. 1868 is when the contact grew livelier. The link's own ruling line says 1831 and 1868. The note's 'came to Kolozsvár from India' is also more than the source says: it calls Dall the association's missionary in India.",
+   "evidence": "Ferencz 1875, lines 1787-1795.",
+   "fix": "relationsSummary: \"American Unitarians were in touch with it from 1831, and more closely from 1868. English Unitarians were in touch from 1821.\" Link note: \"In 1831 Bölöni Farkas made the Hungarian Unitarians known to the Americans. In 1868 they sent a greeting for the church's 300th year, and Dall, their missionary in India, came to Kolozsvár. Ferencz says Dall won their help to translate Channing's works into Hungarian, and it was given.\" Add lines 1787-1791 to the link's sources."
+  },
+  {
+   "id": "m5",
+   "where": "longDescription, the 1697 paragraph; fact_table row 32 rendering",
+   "problem": "'Belgium and Holland' uses a modern name in a way that misleads. In 1697 the Remonstrants and Collegiants were in the Dutch Republic. The rendering's 'to show their kinship' turns 'rokonszenvük' (sympathy) into a claim of relationship. The prose also drops 'partly': the rebuilding was paid partly by the church's own people and partly by Dimény's collection. 'Part of the church' is unclear too, because the market church is not named until the next paragraph.",
+   "evidence": "Ferencz 1875, lines 1065-1084.",
+   "fix": "\"A fire in 1697 burned down part of the market church and its buildings. The church restored them, partly with its own people's gifts. Pál Dimény, the head teacher, also collected 9,000 thalers in the Low Countries (Ferencz writes 'Belgium and Holland'), from Remonstrant and 'collegian' brothers.\" Rendering: 'as a declaration of their sympathy for the Unitarians'."
+  },
+  {
+   "id": "m6",
+   "where": "renderings: fact_table rows 27-28 and 78 (lines 1060-1061); the VII.44 link and row 34 (lines 1087-1089); rows 35-36 (lines 1089, 1103-1104); row 42 (lines 1147-1149); rows 48 and 87 (lines 1244-1246); row 38 (lines 1115-1119); the VI.14 link note (lines 374-379)",
+   "problem": "Several renderings leave something out or slip. 'óvári főiskola' is the college in the Óvár, the old-castle quarter, not 'the old college'. The 1716 rendering drops the bishop's name, György Mártonffi. 'and all their property' is wider than 'minden ezekhez tartozó javak' (all the property that went with these). The 1718 rendering drops 'b. magyar-utczában' (in the inner Magyar Street). The 1848 rendering puts 'was declared' inside the quoted words of the law. 'megakasztatott' means halted, and the prose's 'held back' softens it. The VI.14 link note says 'preaching' where 'fellépésével' means his coming forward.",
+   "evidence": "File lines as listed.",
+   "fix": "Make each rendering carry its clause: 'the college in the Óvár at Kolozsvár'; 'Bishop György Mártonffi (the scan reads \"Mártoníi\")'; 'and all the property that went with them' (also in the longDescription); 'in the Huszár house in the inner Magyar Street'; '... paragraph 1, \"The Unitarian religion [is] a lawfully received religion\" was declared'; 'their writing was halted'. In the VI.14 link note, change 'Ferenc Dávid's preaching formed the church' to 'the church was formed when Ferenc Dávid came forward'."
+  },
+  {
+   "id": "m7",
+   "where": "longDescription, legacy and relationsSummary ('Ferencz's account of 1907'); source note for the 1907 book",
+   "problem": "The 1907 book was 'compiled under the auspices of' Bishop Ferencz. The Library header names the church, under its bishop, as creator. Calling it 'Ferencz's account' overstates his authorship. The shelf check passes: the latest dated item in the 1907 text is 'the account for 1904' (line 817), and the draft uses nothing from it later than 1848. The source note should say this, since the book was printed after the row ends. VII.36 (1650-1906, citing a 1907 Collectanea) is the precedent.",
+   "evidence": "1907 file, lines 1-2, 84-89 and 817.",
+   "fix": "Say 'the church's account of 1907, compiled under Bishop Ferencz' the first time, and 'the account of 1907' after that. Source note: \"... Printed in 1907; its latest dated item is 1904. It is used only for events up to 1848.\""
+  },
+  {
+   "id": "m8",
+   "where": "floorNote, last sentence",
+   "problem": "'Noting this is not a judgment on what was done to them. Poland drove out its Unitarians in 1660 ...' Here 'them' is this church, but Poland drove out the Polish Unitarians, not this church's members.",
+   "evidence": "Ferencz 1875, lines 1009-1031.",
+   "fix": "\"Poland drove out its Unitarians in 1660, and some found refuge in this church. In 1716 an army commander took its main church at Kolozsvár by force.\""
+  },
+  {
+   "id": "m9",
+   "where": "flags (STALE TEXT, BELIEF)",
+   "problem": "Two flags are missing or wrong. (a) Frozen VI.14 says in four fields that the Polish Brethren were 'expelled from Poland in 1658'. Its own new carrier row, and both of its sources, put the expulsion in 1660, with 1658 the year of the first decree. This should be flagged for a change order, not edited. (b) The BELIEF flag says the sources read do not show how the 1638 duty to worship Christ stood in 1875. Lines 1975-1977 do speak to it: 'the one God alone can be the object of the human soul's worship'.",
+   "evidence": "VI.14's floorNote, relationsSummary, longDescription and legacy. Rees, lines 1960-1967. Ferencz 1907, line 307. Ferencz 1875, lines 1975-1980.",
+   "fix": "Add a STALE TEXT flag for VI.14's 1658 date. Correct the BELIEF flag so it cites lines 1975-1980 for the Section A reviewer."
+  }
+ ],
+ "quotes_checked": 64,
+ "quotes_failed": [],
+ "notes": "check_draft.py: 122 quotes verified and 37 paragraphs scored. Its one READ-FAIL is VI.14's frozen relationsSummary paragraph 1, carried unchanged as allowed. I merged the draft into a scratch copy of the census, and tools/validate-census.mjs gave only the two expected meta-count errors (totalEntries, statusCounts). I reopened in context every Hungarian quote in the fact table, the links and the people row, the Rees quotes and the 1907 quotes: 64 distinct quotes, all verbatim at their lines. Each rendering was read clause by clause; the slips are m1, m5 and m6. HELD: the VI.14 continued-as link, Documented on the church's own account and its one numbered list of bishops (lines 4113-4166, with no break from Dávid in 1566 to Kriza in 1861). The VIII.37 in-contact link, Documented and minor. The era-8 lane-8 row to 1906, confirmed by the coordinator; VII.36 and VII.46 are precedents. VI.14's continuesAs, its added relationsSummary paragraph (as in the ME2 precedent) and its living evidence moved to the new row as carrier. living true graded 'none' follows P2-V CO-3, as for VII.42 and AF-3 (no recorded end, no dated source, source wanted); the holds name the wanted source. The people row meets the G3/Rows brief: 'József Ferencz' is a substring of voices[0]; the quote is his own words in his own book, 22 words, at exact lines, matched verbatim; year 1875; no peopleNote, correct since the list is not empty; the extra 'rendering' key is ignored by the validator. modernCountries (Romania/Transylvania only) and regions (North Europe) copy VI.14 and VII.40. The holds for English (post-1813), Dutch (post-1650) and Reformed (post-1815) links are right, since those rows do not exist yet. 1907 shelf: the text carries nothing dated after 1906 (latest is 1904), and the draft uses nothing from it after 1848.",
+ "sectionA_note": {
+  "file": "/tmp/claude-0/-home-user-CIC-Project/5d053907-07e8-5141-a18e-350e1ab86197/scratchpad/RV7/SectionA_ME6_ME20.md",
+  "quotes_checked": "53 of 53 file-line quotes matched verbatim at their stated lines by script (whitespace squashed). About 14 read in context by eye: Tolstoy 1885 lines 2838-2843, 5758-5761, 5871-5873 and 5884-5885; Tolstoy 1894 lines 3860-3863 and 5723-5732; Living Book lines 2790-2800, 4721-4724 and 7370-7371; Pinkerton lines 11270-11305. Section A's A1, A3 and A4 summaries match the docx, and the Article 4 phrase matches the Constitution.",
+  "fairness": "Fair to the texts on the whole. It decides nothing and states its limits: translations, an unchecked scan, a partial read, and Pinkerton as an outsider. Three points would make it more even. (1) Tolstoy, resurrection: the note leaves out his strongest lines. These are What I Believe 5826-5827, 'Denying individual and carnal resurrection, Christ asserts that the raising from the dead lies in the transfusion of man's life into God', and 5879-5880, 'nor do we find any mention made of His resurrection throughout the whole canonical Gospel'. Without them, 'not found: a first-person \"Christ did not rise\"' reads softer than the books are. (2) The Kingdom 5727-5732 passage says these sentences 'have no meaning for us'. 'Us' includes Tolstoy, so 'not written as I' should say he counts himself in. (3) Caution (1) says the floor is applied to a community's confession. A3 itself also allows assessing 'the specific ... theologian under consideration', so Tolstoy's own books can be tested directly; the missing Tolstoyan confession matters for the ME-20 row, not for reading Tolstoy. Smaller points: two renderings end in '...' (lines 2887-2891 and 4715-4720) although the header says renderings carry every clause, so mark them as partial. A5's rule on internal strands bears on the Dukhobor/Molokan grouping and could be named. The Dukhobor summary ('No plain denial ... turned up'; A3 and the one-commitment limit of A4 the live questions) is fair to the lines it quotes and states its partial read."
+ }
+}

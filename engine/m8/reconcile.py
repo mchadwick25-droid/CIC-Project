@@ -1,5 +1,5 @@
 """Monthly reconciliation (spec principle 13): what the usage log priced for
-one route and month, set against the invoice line Mark types in. The ratio
+one route and month, set against the invoice line the operator types in. The ratio
 is the measured factor; a drift past the tolerance is reported as a
 failure, never absorbed. Reads the usage log only; makes no model call.
 

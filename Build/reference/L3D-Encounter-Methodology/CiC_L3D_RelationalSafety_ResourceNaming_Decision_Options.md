@@ -1,6 +1,6 @@
 # Relational Safety Redirect: Resource-Naming Decision
 
-**Portfolio-level decision under CO-022, escalation category 2** ("portfolio-level or cross-world strategic decisions") **— escalated directly to the project lead, not self-disposed by this build thread.**
+**Portfolio-level decision (escalation category 2: "portfolio-level or cross-world strategic decisions") — reserved to the project lead.**
 
 This decision sets the pattern every future formation world's Facilitator-governed relational-safety redirect inherits. It is not specific to World #1, and it is not a construction judgment this thread has standing to make on its own — CO-022 reserves exactly this category of decision to the project lead directly, and B7 (World #1's own Phase Six Facilitation Brief) already anticipated this exact question without resolving it.
 
@@ -50,9 +50,9 @@ This document takes no position among the three. Whichever is chosen, `Build/ref
 
 ---
 
-## Decision (2026-08-05)
+## Decision
 
-**Option A shipped as the unconditional floor**, effective immediately in
+**Option A shipped as the unconditional floor**, in
 `Build/reference/L3D-Encounter-Methodology/CiC_L3D_AcuteDistress_HarmfulDynamic_Mechanism_Proposal_DRAFT.md` §5 and
 `cic-poc/backend/app/prompts/facilitator_prompts.py` (A1, A2, Harmful Dynamic
 templates). This closes the standing contradiction with Facilitator Governance V3.6
@@ -61,11 +61,11 @@ pre-freeze fix item" (`Archive/Technology-Pass2-2026-08/Pass2/batteries/S6.2_ALX
 `S6.2_ALX_battery_B_grading.md`).
 
 **Option C's tiered addition (a named, jurisdiction-appropriate resource for known
-testers) is not shipped tonight.** It needs an actual answer to this document's own
+testers) is not shipped.** It needs an actual answer to this document's own
 open question — who is testing, and is their jurisdiction actually known — before it
-can be built responsibly, and that is Mark's call, not a default to assume. Treat
-Option C as separately-scoped follow-up work, not blocked on Option A, not implied by
+can be built responsibly, and that is the project lead's call, not a default to assume. Treat
+Option C as separately-scoped work, not blocked on Option A, not implied by
 it.
 
-Full detail on what changed and why: see the 2026-08-05 entry in
+Full detail on what changed and why: see
 `Build/Ministry/Operations/Standing/CiC_System_Hub_Decision_Log.md`.

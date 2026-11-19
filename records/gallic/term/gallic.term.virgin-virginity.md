@@ -86,7 +86,7 @@ false_friend:
 - the assumption that the south had nothing to say about chastity
 senses:
   informational: >-
-    At Tours the virgin is made by the bishop's hands and honoured by his refusal to be seen.
+    At Tours the virgin is made by the bishop's hands and honored by his refusal to be seen.
     Arborius "consecrated the girl to God, and devoted her to perpetual virginity," and would have
     no one but Martin place on her "the dress characteristic of virginity." Martin's parable of the
     meadow sets the order: the grazed part is marriage, the ruined part fornication, the flowered
@@ -128,7 +128,7 @@ Built from Doc_06 entry 064 (`galliclex064_virgin-virginity.md`, Tier 2, tags SC
 8.4). The row 11 excisions (Conf. XII, Conf. XXII, Inst. VI) and the Article 20 finding (no
 woman's own voice) are carried in divergence_note, senses.evidential, and senses.personal - the
 flag Doc_06 section 2.5 required this chunk to carry. The Facilitator hand-off at Doc_05 section
-1.3(a) is honoured in senses.personal: the world had women's houses and consecrated virgins, and
+1.3(a) is honored in senses.personal: the world had women's houses and consecrated virgins, and
 the sources let none of them be heard. canon_cells: F5-T because the meadow parable is this
 world's own ranking of marriage.
 

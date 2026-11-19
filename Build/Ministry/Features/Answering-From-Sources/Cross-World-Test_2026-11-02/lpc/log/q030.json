@@ -1,0 +1,168 @@
+{
+ "draft": "What we hold on the end of the lost is Augustine's teaching that the punishment of the lost has no end [[lpc.witness.punishment-without-end]] [[as:paraphrase]]. After the final judgment, Augustine wrote, two kingdoms stand, and the life of one and the death of the other are both without end [[lpc.witness.punishment-without-end]] [[as:paraphrase]]. Among the lost there are degrees of suffering, one being more endurably miserable than another [[lpc.witness.punishment-without-end]] [[as:paraphrase]].\n\nMany around Augustine found the endless punishment hard to bear, and Augustine said they softened everything that seemed hard, without arguing against Scripture [[lpc.witness.punishment-without-end]] [[as:paraphrase]].\n\nAugustine wrote: [[quote:lpc.quote.very-many-make-moan-over-the-eternal-punishment]]\n\nAugustine allowed the doubters to suppose, if the thought gave them pleasure, that the pains of the damned are at times eased [[lpc.witness.punishment-without-end]] [[as:paraphrase]]. Augustine would not let the doubters say that the punishment ends [[lpc.witness.punishment-without-end]] [[as:paraphrase]]. God's mercy, Augustine said, is shown in mitigating the torments or granting a respite, not in ending the eternal punishment [[lpc.witness.punishment-without-end]] [[as:paraphrase]]. In the next chapter Augustine wrote that the death of the wicked will abide for ever [[lpc.witness.punishment-without-end]] [[as:paraphrase]].\n",
+ "ending": "rewritten",
+ "final": "Many around Augustine found the endless punishment hard to bear, and Augustine said those doubters softened everything that seemed hard, without arguing against Scripture. Augustine allowed the doubters to suppose, if the thought gave them pleasure, that the pains of the damned are at times eased. Augustine would not let the doubters say that the punishment ends. In the next chapter Augustine wrote that the death of the wicked will abide for ever.",
+ "group": "B",
+ "offered": [
+  "lpc.witness.punishment-without-end",
+  "lpc.term.catechesis",
+  "lpc.story.election-of-cyprian",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.story.numidicus",
+  "lpc.quote.very-many-make-moan-over-the-eternal-punishment",
+  "lpc.quote.an-ever-burning-gehenna",
+  "lpc.force.augustine-engagement-cyprian-conciliar-acts",
+  "lpc.witness.marriage-a-threefold-good",
+  "lpc.term.the-one-episcopate",
+  "lpc.quote.earlier-councils-corrected-by-later",
+  "lpc.quote.bishop-of-bishops"
+ ],
+ "placements": [
+  {
+   "decision": "drop",
+   "judgement": {
+    "fit": "off_point",
+    "limit_stated": false,
+    "reason": "It is Augustine on those who doubt eternal punishment and says nothing of Gregory of Nyssa or the restoration of all things."
+   },
+   "record_id": "lpc.quote.very-many-make-moan-over-the-eternal-punishment"
+  }
+ ],
+ "question": "What did Gregory of Nyssa say about the restoration of all things?",
+ "question_id": "q030",
+ "read": {
+  "dropped": [
+   "lpc.quote.very-many-make-moan-over-the-eternal-punishment"
+  ],
+  "status": "rewrite",
+  "unsupported": {
+   "0": {
+    "problem": "widened_scope",
+    "reason": "The record gives what Augustine taught; the sentence states it as what the whole tradition holds.",
+    "supported": false
+   }
+  }
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "sentence": "Many around Augustine found the endless punishment hard to bear, and Augustine said those doubters softened everything that seemed hard, without arguing against Scripture.",
+   "tags": [
+    "lpc.witness.punishment-without-end"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "sentence": "Augustine allowed the doubters to suppose, if the thought gave them pleasure, that the pains of the damned are at times eased.",
+   "tags": [
+    "lpc.witness.punishment-without-end"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "sentence": "Augustine would not let the doubters say that the punishment ends.",
+   "tags": [
+    "lpc.witness.punishment-without-end"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.punishment-without-end"
+   ],
+   "sentence": "In the next chapter Augustine wrote that the death of the wicked will abide for ever.",
+   "tags": [
+    "lpc.witness.punishment-without-end"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "What we hold on the end of the lost is Augustine's teaching that the punishment of the lost has no end.",
+   "tags": [
+    "lpc.witness.punishment-without-end"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Many around Augustine found the endless punishment hard to bear, and Augustine said they softened everything that seemed hard, without arguing against Scripture.",
+   "tags": [
+    "lpc.witness.punishment-without-end"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 2,
+   "placed": true,
+   "placed_id": "lpc.quote.very-many-make-moan-over-the-eternal-punishment",
+   "reason": "placed by code",
+   "sentence": "Augustine wrote: “So it is in vain that some, indeed very many, lament the eternal punishment and the endless, unbroken torments of the lost. They say they do not believe it will be so. They do not set themselves directly against Holy Scripture. But, prompted by their own feelings, they soften everything that seems hard. They give a milder sense to sayings they think were meant more to frighten than to be taken as literally true.”",
+   "tags": [
+    "lpc.quote.very-many-make-moan-over-the-eternal-punishment"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Augustine allowed the doubters to suppose, if the thought gave them pleasure, that the pains of the damned are at times eased.",
+   "tags": [
+    "lpc.witness.punishment-without-end"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Augustine would not let the doubters say that the punishment ends.",
+   "tags": [
+    "lpc.witness.punishment-without-end"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "In the next chapter Augustine wrote that the death of the wicked will abide for ever.",
+   "tags": [
+    "lpc.witness.punishment-without-end"
+   ]
+  }
+ ],
+ "shipped_by_net": "What we hold on the end of the lost is Augustine's teaching that the punishment of the lost has no end.\n\nMany around Augustine found the endless punishment hard to bear, and Augustine said they softened everything that seemed hard, without arguing against Scripture.\n\nAugustine wrote: “So it is in vain that some, indeed very many, lament the eternal punishment and the endless, unbroken torments of the lost. They say they do not believe it will be so. They do not set themselves directly against Holy Scripture. But, prompted by their own feelings, they soften everything that seems hard. They give a milder sense to sayings they think were meant more to frighten than to be taken as literally true.”\n\nAugustine allowed the doubters to suppose, if the thought gave them pleasure, that the pains of the damned are at times eased. Augustine would not let the doubters say that the punishment ends. In the next chapter Augustine wrote that the death of the wicked will abide for ever.",
+ "sub_question": "C3.S3"
+}

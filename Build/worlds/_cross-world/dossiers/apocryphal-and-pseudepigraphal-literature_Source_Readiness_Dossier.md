@@ -7,7 +7,7 @@ See `Build/worlds/_cross-world/SOURCE-READINESS.md` for what this is.
 **Time window:** c. 100–900 (spans every other era's own window — see §6)
 **Region(s):** Asia Minor, Syria, Egypt, Rome, and the Latin West
 **Dossier author / date:** source-research thread, 2026-09-15
-**Corpus-map / `cic/texts/` state as of:** verified 2026-09-13, unchanged since
+**Corpus-map / `cic/texts/` state as of:** verified September 2026, unchanged since
 
 ## 1. Already assigned
 

@@ -1,0 +1,185 @@
+{
+  "batch": 3,
+  "changes": [
+    {
+      "group": "C",
+      "n": 1,
+      "movement": "armenian-christianity-after-avarayr",
+      "field": "relationsSummary",
+      "new": "Heir to a church that came through Cappadocia and Edessa; it rejects Chalcedon at Dvin",
+      "fre_after": 61.9,
+      "fk_after": 8.4,
+      "facts_check": "Kept: heir to (inherited formation), Cappadocia and Edessa, rejection of Chalcedon at Dvin. 'Formed via' becomes 'came through'; 'it' added for grammar. Nothing added."
+    },
+    {
+      "group": "C",
+      "n": 2,
+      "movement": "armenian-christianity-before-the-bagratids",
+      "field": "why",
+      "new": "The Armenian church from the council of Dvin in 554 to the crowning of a Bagratid king in the 880s. Around 600 the Georgian church broke away from it over the Council of Chalcedon.",
+      "fre_after": 71.6,
+      "fk_after": 7.2,
+      "facts_check": "Drafter's text unchanged: it already passes (FRE 71.6), at FK 7.2, just under the 8 aim. Two sentences of 17 words each that read smoothly, so not choppy; splitting or padding would only make it worse."
+    },
+    {
+      "group": "C",
+      "n": 3,
+      "movement": "georgian-christianity",
+      "field": "relationsSummary",
+      "new": "Jerusalem and Armenian lines; takes the Chalcedonian side (c. 609)",
+      "fre_after": null,
+      "fk_after": null,
+      "facts_check": "Drafter's text unchanged. Too short to score (10 words); 'c. 609' kept."
+    },
+    {
+      "group": "C",
+      "n": 4,
+      "movement": "georgian-christianity",
+      "field": "longDescription",
+      "new": "The kingdom of Kartli, in what is now eastern Georgia, became Christian in the fourth century. It came through the preaching of a woman the tradition calls Nino. Kartli then held on to that faith for three centuries, on a frontier where Persia had every reason to prise it loose. Its oldest surviving book, written in the 470s or 480s, tells the story of Shushanik. She was an Armenian princess married to the local ruler. He left Christianity for Zoroastrianism, and when she would not follow him, he locked her up and beat her until she died. Georgia built its own alphabet, its own monasteries, and an unusually rich life of worship. Georgian manuscripts keep the worship of fifth- to eighth-century Jerusalem more fully than any Greek source does. Around 609, at the third council of Dvin, its church broke with Armenia and took the Chalcedonian side. That is why the two neighboring churches of the Caucasus have belonged to different communions ever since.",
+      "fre_after": 62.8,
+      "fk_after": 8.6,
+      "facts_check": "S1-2: Kartli, eastern Georgia, fourth century, preaching of a woman the tradition calls Nino (the name stays the tradition's; the preaching is stated as the drafter stated it). S3: three centuries; frontier; Persia's motive ('prise it loose' kept). S4: oldest surviving book, 470s or 480s, Shushanik. S5: Armenian princess married to the local ruler. S6: he abandoned Christianity for Zoroastrianism; imprisoned ('locked her up') and beat her until she died rather than follow him. S7: own alphabet, monasteries, unusually rich liturgical life ('life of worship'). S8: manuscripts preserve fifth- to eighth-century Jerusalem worship more fully than any Greek source. S9: 'Around 609', third council of Dvin, break with Armenia, Chalcedonian side. S10: two neighboring Caucasian churches in different communions since. Nothing added."
+    },
+    {
+      "group": "C",
+      "n": 5,
+      "movement": "georgian-christianity",
+      "field": "why",
+      "new": "The kingdom of Kartli turned Christian in the fourth century through the preaching of a woman its tradition calls Nino. It then held on to its faith for centuries on a contested Persian frontier. Its oldest surviving book tells of Queen Shushanik, beaten to death in the 470s because she would not follow her husband out of the faith. Around 609 its church broke from Armenia to take the Chalcedonian side.",
+      "fre_after": 65.8,
+      "fk_after": 8.4,
+      "facts_check": "S1-2: drafter's first sentence split; converted in the fourth century, preaching, woman its tradition calls Nino, held its Christian identity ('held on to its faith') for centuries on a contested Persian frontier. S3: oldest surviving book, Queen Shushanik, beaten to death in the 470s, refused to follow her husband out of the faith. S4: 'Around 609', break from Armenia, Chalcedonian side, unchanged. Nothing added."
+    },
+    {
+      "group": "C",
+      "n": 6,
+      "movement": "georgian-christianity",
+      "field": "legacy",
+      "new": "The Georgian Orthodox Church that came out of this is still the church of Georgia. The same body has carried on through the centuries of medieval revival to the present. Its choice around 609 set it for good in the Eastern Orthodox family, and not with its Armenian neighbor. Its greatest gift to everyone else came almost by accident. Georgian scribes translated and kept the books of worship used in Jerusalem. So scholars can now work out how the holy city really worshipped in late antiquity, and they do it largely from Georgian manuscripts. And churches built at the very end of this period, like Jvari above Mtskheta, still stand almost as they were.",
+      "fre_after": 62.4,
+      "fk_after": 8.6,
+      "facts_check": "S1-2: drafter's first sentence split; the church that emerged is still Georgia's; the same institution ('body') continued through the medieval revival centuries to the present. S3: choice 'around 609' placed it permanently ('for good') in the Eastern Orthodox family, not with Armenia. S4: greatest bequest ('gift') to everyone else, almost accidental. S5-6: Georgian scribes translated and kept Jerusalem's liturgical books; scholars reconstruct ('work out') late-antique worship of the holy city largely from Georgian manuscripts; 'actually' rendered 'really'. S7: churches at the very end of the period, Jvari above Mtskheta, standing almost unaltered ('almost as they were'). Nothing added."
+    },
+    {
+      "group": "C",
+      "n": 7,
+      "movement": "church-of-caucasian-albania",
+      "field": "relationsSummary",
+      "new": "The Caucasus had a third church, beside Armenia and Georgia. From 705 on, its head, the catholicos, had to answer to the Armenian church.",
+      "fre_after": 66.4,
+      "fk_after": 6.9,
+      "facts_check": "Kept: the third Caucasus church beside Armenia and Georgia; its catholicos under the Armenian church's authority ('had to answer to') after 705 ('from 705 on'). 'Its head' glosses catholicos, adds no fact. The drafter's correction away from 'absorbed' is kept. Semicolon made a full stop so the summary scores; still two short lines."
+    },
+    {
+      "group": "C",
+      "n": 8,
+      "movement": "church-of-caucasian-albania",
+      "field": "longDescription",
+      "new": "Beside Armenia and Georgia there was a third Christian kingdom in the Caucasus. This was Albania, in what is now Azerbaijan and the south of Dagestan. It had its own royal line, its own bishops and its own alphabet. In the late fifth century it held a council at Aghuen. The council made rules for the clergy and for marriage, and set out what the nobles owed the church. Albania also produced a history, put together from older material by a writer known as Movses Daskhurantsi. That is very nearly all the story it left. It was pressed between Persian, Byzantine and then Arab power, and between the rival loyalties of its Armenian and Georgian neighbors. In 705 it lost its independent standing, when its catholicos was placed under the Armenian church. Its written language was all but lost for more than a thousand years. Then, in 1996, palimpsests at Saint Catherine's Monastery on Sinai were found to hold Caucasian Albanian scripture. The pages had been scraped and written over with later Georgian text.",
+      "fre_after": 60.5,
+      "fk_after": 8.4,
+      "facts_check": "S1-3: third Christian kingdom; Albania; now Azerbaijan and southern Dagestan; own royal line, bishops, alphabet. S4-5: council at Aghuen, late fifth century; canons ('rules') on clergy, marriage, and what the nobility owed the church. S6-7: a history compiled ('put together') from earlier material by Movses Daskhurantsi; very nearly all the narrative ('story') it left. S8: pressed between Persian, Byzantine, then Arab power, and the competing alignments ('rival loyalties') of its neighbors. S9: lost independent standing in 705 when its catholicosate was placed under the Armenian church ('its catholicos was placed under'). S10: written language effectively ('all but') lost for more than a thousand years. S11-12: 1996 wording kept as the drafter's 'were found to' (true of discovery or identification); Sinai, Saint Catherine's; Albanian scripture beneath later Georgian text. S12 only says what a palimpsest is (the drafter's 'beneath later Georgian text'), so it adds no fact."
+    },
+    {
+      "group": "C",
+      "n": 9,
+      "movement": "church-of-caucasian-albania",
+      "field": "why",
+      "new": "Beside Armenia and Georgia stood a third Christian kingdom in the Caucasus, Albania. It kept its own royal line, its own bishops and its own alphabet. Its council at Aghuen made rules for the clergy and for marriage. In 705 its catholicos came under the authority of the Armenian church. For over a thousand years no one could read its written language. Then, in 1996, palimpsests at Saint Catherine's Monastery on Sinai were found to hold its scripture.",
+      "fre_after": 63.7,
+      "fk_after": 7.5,
+      "facts_check": "S1: unchanged. S2-3: royal line, bishops, alphabet; council at Aghuen issuing canons ('rules') on clergy and marriage. S4: 705, catholicos under Armenian authority, the drafter's correction kept. S5-6: language unreadable over a thousand years; 1996 palimpsests at Saint Catherine's, Sinai, 'were found to' preserve ('hold') its scripture. Nothing added. FK 7.5 is under the 8 aim. Re-joining S2 and S3, or S5 and S6, pushes a sentence past 25 words, so I left it short."
+    },
+    {
+      "group": "C",
+      "n": 10,
+      "movement": "church-of-caucasian-albania",
+      "field": "legacy",
+      "new": "No church carries on under this name. After 705 its catholicos had to answer to the Armenian church. But the see itself lived on inside that church, and a new catholicos of Albania took office around 1701. Over the centuries its people merged with the Armenians, and the see was done away with early in the nineteenth century. The Udi people of Azerbaijan are generally seen as descended from its Christians. Its most striking survival stayed hidden until recently. In 1996, palimpsests at Sinai were found to keep its alphabet and its scripture. With them, scholars have begun to rebuild a language and a way of worship. For over a thousand years, nobody had been able to read them.",
+      "fre_after": 61.0,
+      "fk_after": 8.0,
+      "facts_check": "S1: no church continues under the name. S2: after 705 the catholicos under Armenian authority ('had to answer to'). S3: the see lived on inside that church; a new catholicos of Albania installed ('took office') around 1701. S4: its people merged with the Armenians; see abolished ('done away with') early in the nineteenth century. S5: Udi of Azerbaijan generally regarded ('seen') as descendants of its Christian population. S6-7: most striking survival invisible ('hidden') until recently; 1996 palimpsests at Sinai found to preserve alphabet and scripture. S8-9: scholars begin to reconstruct ('rebuild') a language and a liturgy ('way of worship') nobody could read for over a millennium ('a thousand years'). Nothing added."
+    },
+    {
+      "group": "D",
+      "n": 1,
+      "movement": "early-benedictine-italian-monasticism",
+      "field": "relationsSummary",
+      "new": "Receives the desert via Cassian; most later Latin monks came to live by its Rule",
+      "fre_after": 67.5,
+      "fk_after": 7.6,
+      "facts_check": "First half (era 2) left exactly as written. Second half keeps the drafter's claim, that the Rule became the norm for most later Latin monasteries, as 'most later Latin monks came to live by its Rule'. 'Most' is kept, so it does not slide back to 'the whole line'. Nothing added."
+    },
+    {
+      "group": "D",
+      "n": 2,
+      "movement": "early-benedictine-italian-monasticism",
+      "field": "longDescription",
+      "new": "Benedict of Nursia left Rome for a cave at Subiaco. Around 529 he ended up founding a monastery on the hill of Monte Cassino. Italy was being torn apart, first by the Gothic wars and then by the Lombard invasions. What he left behind was a rule: seventy-three short chapters on prayer, work, sleep, food, guests, discipline and the election of an abbot. Much of it, most scholars now think, was drawn from an older and harsher text, the anonymous Rule of the Master. Benedict cut it down and softened it, with an eye for what ordinary people could actually keep up. A generation later Gregory the Great, a monk before he was a pope, wrote the only account we have of Benedict's life. He also governed the Italian church through more than 850 letters, which show the same world from the other side. They tell of famine, plague, refugees, Lombard armies, and the daily running of a church trying to hold itself together.",
+      "fre_after": 64.4,
+      "fk_after": 8.8,
+      "facts_check": "S1-3: Subiaco cave; around 529, 'ended up founding' Monte Cassino on its hill; Italy torn by the Gothic wars, then the Lombard invasions. S4: seventy-three short chapters, all seven topics kept, 'election of an abbot' kept. S5: 'most scholars now think' qualification kept; older, harsher, anonymous Rule of the Master; 'adapted' rendered 'drawn from', and S6 carries the adapting. S6: shortened ('cut down') and moderated ('softened'), with an eye for what ordinary people could sustain ('keep up'). S7: Gregory, monk before pope, the only account of Benedict's life. S8-9: governed the Italian church through a correspondence of more than 850 letters; the same world from the other side; famine, plague, refugees, Lombard armies, daily management ('running') of a church trying to hold itself together. Nothing added."
+    },
+    {
+      "group": "D",
+      "n": 3,
+      "movement": "early-benedictine-italian-monasticism",
+      "field": "why",
+      "new": "Benedict of Nursia left Rome for a cave at Subiaco, and around 529 he founded a monastery at Monte Cassino. Italy was being torn apart by the Gothic wars and then the Lombard invasions. His Rule ran to seventy-three short chapters on prayer, work, food and the election of an abbot. Most scholars think it cut down and softened an older, harsher text, with an eye for what ordinary people could actually keep up.",
+      "fre_after": 61.2,
+      "fk_after": 9.3,
+      "facts_check": "S1-3 unchanged from the drafter. S4: 'Most scholars think' qualification kept; shortened ('cut down') and softened an older, harsher text; with an eye for what ordinary people could sustain ('keep up'). Nothing added."
+    },
+    {
+      "group": "D",
+      "n": 4,
+      "movement": "early-benedictine-italian-monasticism",
+      "field": "legacy",
+      "new": "The Rule became the standard for monks in the West. Carolingian reformers made it the norm across the Frankish empire. It stands behind the Cluniacs, the Cistercians and the Benedictine congregations that keep it today. Its language of stability, obedience and moderation reached far beyond the cloister. So did the way it built the day around fixed hours of prayer, and both passed into the West's habits of work and time. Monte Cassino itself was destroyed again and again — by Lombards, by Saracens, by earthquake, and by Allied bombing in 1944 — and rebuilt every time. Monks live there now.",
+      "fre_after": 62.3,
+      "fk_after": 8.1,
+      "facts_check": "S1: standard for Western monasticism ('for monks in the West'). S2-3: unchanged; Trappists stay out, as the drafter removed them. S4-5: vocabulary ('language') of stability, obedience, moderation, and the ordering of the day around fixed hours of prayer, both reaching beyond the cloister into Western habits of work and time. S6-7: the Monte Cassino sentence, held for Mark's ruling, keeps every word; only the semicolon becomes a full stop ('repeatedly' rendered 'again and again'). Nothing added."
+    },
+    {
+      "group": "D",
+      "n": 5,
+      "movement": "roman-church-gregorian",
+      "field": "relationsSummary",
+      "new": "It overlaps with the early Benedictine monks, whose time ends at Gregory's death, in the man himself, not in kind. Gregory was a monk and wrote the only life of Benedict there is. But the Pastoral Rule is a manual for bishops, and the Register is the paperwork of a government. His letters also tell us about the early English church, the Frankish church of Gaul and the imperial church at Constantinople.",
+      "fre_after": 60.5,
+      "fk_after": 9.3,
+      "facts_check": "S1: overlap with early Benedictine monasticism ('the early Benedictine monks'), whose period ('time') closes at Gregory's death, in person ('the man himself') not in kind. S2-3: unchanged facts: monk, only life of Benedict; Pastoral Rule a manual for bishops; Register a government's paperwork. S4: unchanged; all three links in words, no raw IDs. Nothing added. Kept at 72 words, about the drafter's length; cutting it shorter would drop a claim."
+    },
+    {
+      "group": "D",
+      "n": 6,
+      "movement": "roman-church-gregorian",
+      "field": "longDescription",
+      "new": "The Rome Gregory was born into around 540 had been besieged, taken, retaken and emptied within living memory. The Gothic wars and Justinian's reconquest had wrecked the city and the countryside that fed it. From 568 the Lombards held most of the peninsula. The imperial government sat at Ravenna and had little left to spend on Rome. Gregory was city prefect and gave it up. He turned the family house on the Caelian into a monastery, and was sent to Constantinople as the pope's representative. He was elected bishop in 590, during a plague, and spent fourteen years doing a job that had quietly become something else. The letters show what it was. He ran the papal estates in Sicily as the city's food supply and audited the men who managed them. He paid soldiers and bargained with Lombard dukes when the exarch would not. He ransomed prisoners. He told bishops in Gaul, Spain, Africa and Illyricum what he thought they were doing wrong, at length. He refused the title of universal bishop when Constantinople's patriarch used it. He already called himself servant of the servants of God, a title Pope Damasus and Augustine had used before him. In 596 he sent a party of his own monks to Kent. Then he wrote to them again and again about what to do with pagan temples, and how far to insist on Roman custom. The Pastoral Rule, written at the start of all this, is the book underneath the rest. It argues that the government of souls is the art of arts, and that different people must be told the same truth in different ways. And it holds that to want the office is already to be unfit for it.",
+      "fre_after": 64.0,
+      "fk_after": 8.1,
+      "facts_check": "S1-4: c. 540; besieged, taken, retaken, emptied; Gothic wars and Justinian's reconquest wrecked city and countryside; Lombards from 568; government at Ravenna with little to spend. S5-6: city prefect, gave it up; Caelian house made a monastery; sent to Constantinople as the pope's representative. S7-8: elected 590 during a plague; fourteen years; the job quietly became something else; the letters show it. S9-12: Sicilian estates as food supply, audits; paid soldiers, negotiated ('bargained') with Lombard dukes when the exarch would not; ransomed prisoners; bishops in Gaul, Spain, Africa, Illyricum told at length. S13-14: the drafter's correction is kept word for word. He refused the universal-bishop title; he 'already' used the servant-of-servants formula, as Damasus and Augustine had before him. S15-16: 596, his own monks to Kent; repeated letters on pagan temples and how far to insist on Roman custom. S17-19: Pastoral Rule written at the beginning, the book under all the rest; government of souls the art of arts; the same truth told differently to different people; wanting the office is itself a disqualification ('to want the office is already to be unfit for it'). Nothing added."
+    },
+    {
+      "group": "D",
+      "n": 7,
+      "movement": "roman-church-gregorian",
+      "field": "legacy",
+      "new": "The Pastoral Rule became the standard book on the bishop's office in the West, and it stayed in use for a thousand years. Carolingian councils ruled that bishops should own it and read it. Alfred had it translated into English, meaning, he said, to send a copy to every bishop in his kingdom. The mission to Kent is why there is an English church in communion with Rome at all. It is also why the early English church has a Roman half. Then there is the working model of the bishop of Rome as the practical government of central Italy. He fed the city from church estates, dealt with invaders and paid troops. That is where the temporal power of the papacy really begins, whatever later documents claimed for it.",
+      "fre_after": 66.0,
+      "fk_after": 8.1,
+      "facts_check": "S1: standard book on the bishop's office in the West; in use for a thousand years (moved up from the Alfred sentence). S2: Carolingian councils legislated ('ruled') that bishops own and read it. S3: the drafter's Alfred wording kept (he had it translated, meaning, he said, to send a copy to every bishop); 'most needful' stays out. S4-5: Kent mission explains an English church in communion with Rome, and the Roman half of the early English church, in words with no raw ID. S6-8: working model of the bishop of Rome as central Italy's practical government; feeding the city from church estates, treating ('dealt') with invaders, paying troops; the start of the papacy's temporal power, whatever later documents claimed. Nothing added."
+    },
+    {
+      "group": "D",
+      "n": 8,
+      "movement": "merovingian-gallic-christianity",
+      "field": "relationsSummary",
+      "new": "Receives Martin of Tours's line; continues into Carolingian Christianity",
+      "fre_after": null,
+      "fk_after": null,
+      "facts_check": "Drafter's text unchanged. Too short to score (9 words); 'continues into' kept."
+    }
+  ]
+}

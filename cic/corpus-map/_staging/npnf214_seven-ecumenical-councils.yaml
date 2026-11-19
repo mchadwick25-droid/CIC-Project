@@ -299,7 +299,7 @@ assignments:
     canons 10.16 (Cyril's epistles split out below)
   atlas_ids:
   - imperial-juridical-christianity
-  - cyrilline-miaphysite-egyptian-tradition
+  - cyrilline-miaphysite-egyptian-christianity
   role: tradition
   confidence: assigned
   note: 'Cyril''s council under Theodosius II, within ijc''s window; also the charter of the
@@ -331,7 +331,7 @@ assignments:
   locus: div2 10.5, 10.8-10.9, 11.5 — split out of the Ephesus and Chalcedon acts as the works
     a reader would name; text overlaps the council rows deliberately
   atlas_ids:
-  - cyrilline-miaphysite-egyptian-tradition
+  - cyrilline-miaphysite-egyptian-christianity
   - imperial-juridical-christianity
   role: tradition
   confidence: assigned
@@ -376,7 +376,7 @@ assignments:
   author: council-of-chalcedon-451
   locus: div1 11
   atlas_ids:
-  - cyrilline-miaphysite-egyptian-tradition
+  - cyrilline-miaphysite-egyptian-christianity
   role: context
   confidence: assigned
   note: 'The council the miaphysite tradition rejects, and the record of the deposition of
@@ -422,6 +422,8 @@ assignments:
   - alexandria-catechetical
   role: context
   confidence: provisional
+  locus_ids: [xii.i, xii.ii, xii.iii, xii.iii/notes, xii.iv, xii.iv/notes, xii.v, xii.v/notes, xii.vi/line30116, xii.vi/notes, xii.vi/line30138, xii.vi/line30179, xii.vi/line30204, xii.vi/line30229, xii.vi/line30260, xii.vi/line30287, xii.vi/line30320, xii.vi/line30383, xii.vi/line30469, xii.vi/line30488, xii.vii/line30557, xii.vii/line30589, xii.vii/line30636, xii.vii/line30658, xii.vii/notes, xii.vii/line30680, xii.vii/line30701, xii.vii/line30725, xii.vii/line30750, xii.vii/line30787, xii.vii/line30815, xii.vii/line30860, xii.viii, xii.viii/notes, xii.ix, xii.ix/notes, xii.x, xii.x/notes, xii.xi, xii.xii, xii.xii/notes, xii.xiii, xii.xiii/notes]
+  language: eng
   note: 'The Three Chapters condemn Theodore of Mopsuestia - the Church of the East''s "Interpreter"
     - with Theodoret and Ibas: hostile record of the Antiochene school and of the tradition
     the Persian church canonized. The appended anathemas against Origen are the imperial condemnation
@@ -482,6 +484,32 @@ assignments:
   - latin-pastoral-congregational-christianity
   role: tradition
   confidence: assigned
+  locus_ids: [xv.iv.iii, xv.iv.iv.i, xv.iv.iv.ii, xv.iv.iv.iii, xv.iv.iv.iv, xv.iv.iv.v,
+    xv.iv.iv.vi, xv.iv.iv.vii, xv.iv.iv.viii, xv.iv.iv.ix, xv.iv.iv.x, xv.iv.iv.xi, xv.iv.iv.xii,
+    xv.iv.iv.xiii, xv.iv.iv.xiv, xv.iv.iv.xv, xv.iv.iv.xvi, xv.iv.iv.xvii, xv.iv.iv.xviii,
+    xv.iv.iv.xix, xv.iv.iv.xx, xv.iv.iv.xxi, xv.iv.iv.xxii, xv.iv.iv.xxiii, xv.iv.iv.xxiv,
+    xv.iv.iv.xxv, xv.iv.iv.xxvi, xv.iv.iv.xxvii, xv.iv.iv.xxviii, xv.iv.iv.xxix, xv.iv.iv.xxx,
+    xv.iv.iv.xxxi, xv.iv.iv.xxxii, xv.iv.iv.xxxiii, xv.iv.iv.xxxiv, xv.iv.iv.xxxv, xv.iv.iv.xxxvi,
+    xv.iv.iv.xxxvii, xv.iv.iv.xxxviii, xv.iv.iv.xxxix, xv.iv.iv.xl, xv.iv.iv.xli, xv.iv.iv.xlii,
+    xv.iv.iv.xliii, xv.iv.iv.xliv, xv.iv.iv.xlv, xv.iv.iv.xlvi, xv.iv.iv.xlvii, xv.iv.iv.xlviii,
+    xv.iv.iv.xlix, xv.iv.iv.l, xv.iv.iv.li, xv.iv.iv.lii, xv.iv.iv.liii, xv.iv.iv.liv, xv.iv.iv.lv,
+    xv.iv.iv.lvi, xv.iv.iv.lvii, xv.iv.iv.lviii, xv.iv.iv.lix, xv.iv.iv.lx, xv.iv.iv.lxi,
+    xv.iv.iv.lxii, xv.iv.iv.lxiii, xv.iv.iv.lxiv, xv.iv.iv.lxv, xv.iv.iv.lxvi, xv.iv.iv.lxvii,
+    xv.iv.iv.lxviii, xv.iv.iv.lxix, xv.iv.iv.lxx, xv.iv.iv.lxxi, xv.iv.iv.lxxii, xv.iv.iv.lxxiii,
+    xv.iv.iv.lxxiv, xv.iv.iv.lxxv, xv.iv.iv.lxxvi, xv.iv.iv.lxxvii, xv.iv.iv.lxxviii,
+    xv.iv.iv.lxxix, xv.iv.iv.lxxx, xv.iv.iv.lxxxi, xv.iv.iv.lxxxii, xv.iv.iv.lxxxiii,
+    xv.iv.iv.lxxxiv, xv.iv.iv.lxxxv, xv.iv.iv.lxxxvi, xv.iv.iv.lxxxvii, xv.iv.iv.lxxxviii,
+    xv.iv.iv.lxxxix, xv.iv.iv.xc, xv.iv.iv.xci, xv.iv.iv.xcii, xv.iv.iv.xciii, xv.iv.iv.xciv,
+    xv.iv.iv.xcv, xv.iv.iv.xcvi, xv.iv.iv.xcvii, xv.iv.iv.xcviii, xv.iv.iv.xcix, xv.iv.iv.c,
+    xv.iv.iv.ci, xv.iv.iv.cii, xv.iv.iv.ciii, xv.iv.iv.civ, xv.iv.iv.cv, xv.iv.iv.cvi,
+    xv.iv.iv.cvii, xv.iv.iv.cviii, xv.iv.iv.cix, xv.iv.iv.cx, xv.iv.iv.cxi, xv.iv.iv.cxii,
+    xv.iv.iv.cxiii, xv.iv.iv.cxiv, xv.iv.iv.cxv, xv.iv.iv.cxvi, xv.iv.iv.cxvii, xv.iv.iv.cxviii,
+    xv.iv.iv.cxix, xv.iv.iv.cxx, xv.iv.iv.cxxi, xv.iv.iv.cxxii, xv.iv.iv.cxxiii, xv.iv.iv.cxxiv,
+    xv.iv.iv.cxxv, xv.iv.iv.cxxvi, xv.iv.iv.cxxvii, xv.iv.iv.cxxviii, xv.iv.iv.cxxix, xv.iv.iv.cxxx,
+    xv.iv.iv.cxxxi, xv.iv.iv.cxxxii, xv.iv.iv.cxxxiii, xv.iv.iv.cxxxiv, xv.iv.iv.cxxxv,
+    xv.iv.iv.cxxxvi, xv.iv.iv.cxxxvii, xv.iv.iv.cxxxviii, xv.iv.iv.cxxxix]
+  language: eng
+  date: {start: 419, end: 419, source: "npnf214_seven-ecumenical-councils.xml div2 15.4 heading and text: the council of 25 May 419", formation_confidence: Documented}
   note: 'The collected conciliar law of the African church in the age of Aurelius and Augustine
     - the institutional skeleton of the Latin-pastoral entry''s world (Carthage/Hippo, 240s-430).
 
@@ -520,6 +548,9 @@ assignments:
   - donatism
   role: tradition
   confidence: provisional
+  locus_ids: [xv.vi.iii]
+  language: eng
+  date: {start: 256, end: 258, source: "Contested across the repo: Source_Registry row 4 and records/lpc/source cyprian-seventh-council-of-carthage give 256; anf05_hippolytus-cyprian-caius-novatian.xml div2 4.6 heading gives a.d. 258; npnf214_seven-ecumenical-councils.xml heading gives a.d. 257", formation_confidence: Contested}
   note: 'The sententiae of the 87 bishops on rebaptism, under Cyprian - the entry''s own Carthage
     in its own century. Donatism is included as shared ancestry rather than heresiology: the
     Donatists claimed this council''s baptismal doctrine as their patrimony, so it is tradition
@@ -599,6 +630,8 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: assigned
+  locus_ids: [xvii.v, xvii.v/notes]
+  language: eng
   note: Derived from the volume's own div2 sections rather than from the list in Trullo canon 2.
     The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
     already a separate work, so this split covers 17.5-17.32. This row is one father's share
@@ -612,6 +645,8 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: assigned
+  locus_ids: [xvii.vi, xvii.vi/notes]
+  language: eng
   note: 'Derived from the volume''s own div2 sections rather than from the list in Trullo canon
     2. The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
     already a separate work, so this split covers 17.5-17.32. This row is one father''s share
@@ -642,6 +677,8 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: assigned
+  locus_ids: [xvii.viii, xvii.viii/notes, xvii.ix, xvii.ix/notes, xvii.x]
+  language: eng
   note: Derived from the volume's own div2 sections rather than from the list in Trullo canon 2.
     The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
     already a separate work, so this split covers 17.5-17.32. This row is one father's share
@@ -709,6 +746,8 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: assigned
+  locus_ids: [xvii.xxiv, xvii.xxiv/notes]
+  language: eng
   note: Derived from the volume's own div2 sections rather than from the list in Trullo canon 2.
     The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
     already a separate work, so this split covers 17.5-17.32. This row is one father's share
@@ -723,11 +762,13 @@ assignments:
   - alexandria-catechetical
   role: tradition
   confidence: provisional
+  locus_ids: [xvii.xxv, xvii.xxv/notes, xvii.xxvi, xvii.xxvi/notes, xvii.xxvii, xvii.xxviii, xvii.xxix]
+  language: eng
   note: 'Derived from the volume''s own div2 sections rather than from the list in Trullo canon
     2. The collection is 32 sections, 16,936 words; sections 3-4 are the Apostolical Canons,
     already a separate work, so this split covers 17.5-17.32. This row is one father''s share
     of it. `provisional` on the date, not the author: Theophilus died in 412 and
-    alexandria-catechetical ends at 400, while cyrilline-miaphysite-egyptian-tradition does not
+    alexandria-catechetical ends at 400, while cyrilline-miaphysite-egyptian-christianity does not
     begin until 451. He falls in the gap between them.'
 - row_id: npnf214_seven-ecumenical-councils--the-canonical-epistles-of-cyril-of-alexandria-on-the-hymns
   work: The canonical epistles of Cyril of Alexandria (on the Hymns; to the bishops of Libya
@@ -736,7 +777,7 @@ assignments:
   source_file: npnf214_seven-ecumenical-councils.xml
   locus: div2 17.30-17.31 (~336 words)
   atlas_ids:
-  - cyrilline-miaphysite-egyptian-tradition
+  - cyrilline-miaphysite-egyptian-christianity
   role: tradition
   confidence: assigned
   note: 'Derived from the volume''s own div2 sections rather than from the list in Trullo canon

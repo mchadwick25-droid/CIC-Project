@@ -1,0 +1,14 @@
+{"sentences": [
+{"n": 1, "supported": true, "problem": null, "reason": "The record says Augustine held these two practices came from the apostles though none of them wrote it."},
+{"n": 2, "supported": true, "problem": null, "reason": "The record names infant baptism and not rebaptizing someone baptized among heretics as the two."},
+{"n": 3, "supported": true, "problem": null, "reason": "The record says he said no one could find the custom invented by a later age."},
+{"n": 4, "supported": true, "problem": null, "reason": "The record says infant baptism was held everywhere and instituted by no council."},
+{"n": 5, "supported": true, "problem": null, "reason": "The record states this as the reasoning both practices rest on, following the sentences about Augustine."},
+{"n": 6, "supported": true, "problem": null, "reason": "The limit record says Augustine names the Roman line from Peter and Cyprian states the principle carrying it forward."},
+{"n": 7, "supported": true, "problem": null, "reason": "The limit record states that neither traces catechesis, the road back or the teaching before the water to the apostles by name."},
+{"n": 8, "supported": true, "problem": null, "reason": "The record says we believe the office of bishop is one and each bishop holds his part for the whole."},
+{"n": 9, "supported": true, "problem": null, "reason": "The record says Cyprian argues this from what the Lord said to Peter, an argument from scripture, not a second named succession."}
+],
+"placed": [
+{"id": "lpc.quote.not-his-own-sins-but-the-sins-of-another", "fit": "partly", "reason": "It shows infant baptism already practised and argued in Cyprian's time, but it says nothing of apostolic origin.", "limit_stated": false}
+]}

@@ -27,6 +27,7 @@ edition: 'J. Rendel Harris''s editio princeps translation, 2nd ed. revised and e
   usable) begins after file line 6520.'
 citation: The Odes of Solomon, trans. J. Rendel Harris, 2nd ed. (Cambridge University Press, 1911)
 kind: vendored
+shelf_row: harris_odes-and-psalms-of-solomon_harris1911--the-odes-and-psalms-of-solomon-published-from-the-syriac
 rights_status: 'public-domain - verified directly from the vendored file''s own front matter (Cornell
   University Library): "There are no known copyright restrictions in the United States on the use of
   the text," plus the 1911 publication date. The rights gate is now open; a quote record may draw on

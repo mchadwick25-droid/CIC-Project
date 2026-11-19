@@ -1,0 +1,11 @@
+source_file: rance_de-la-saintete-et-des-devoirs-de-la-vie-monastique-t2-fra_1683.txt
+assignments:
+- row_id: rance_de-la-saintete-et-des-devoirs-de-la-vie-monastique-t2-fra_1683--de-la-saintete-et-des-devoirs-de-la-vie-monastique-tome-2-1683
+  work: "De la saintete et des devoirs de la vie monastique, tome 2 (1683)"
+  author: rance
+  locus: "the whole volume; add 12 to OCR line numbers for this file's own"
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: tradition
+  confidence: provisional
+  note: "The Cistercian reform of La Trappe in its abbot's own treatise, printed in 1683. Within this entry's window (1650-1815). The author is the host record's attribution, not the title page's."

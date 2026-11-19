@@ -1,0 +1,22 @@
+source_file: garcia-moreno_escritos-y-discursos-t2-spa_1888.txt
+assignments:
+- row_id: garcia-moreno_escritos-y-discursos-t2-spa_1888--escritos-y-discursos-de-gabriel-garcia-moreno-tomo-segundo
+  work: ESCRITOS Y DISCURSOS DE GABRIEL GARCIA MORENO. TOMO SEGUNDO. ESCRITOS OFICIALES
+  author: garcia-moreno
+  locus: messages to the Congresses and the Convention, 1863 to 1875, at lines 10150-13612; the editor's sentence
+    naming the consecration of Ecuador to the Sacred Heart at lines 14430-14431; the rest not mapped
+  atlas_ids:
+  - nineteenth-century-latin-american-catholicism
+  role: tradition
+  confidence: provisional
+  language: spa
+  date:
+    formation_confidence: unknown
+    checked: the title page and front matter of this printing (1888); they do not state when the text was first
+      written
+  edition_date:
+    year: 1888
+    source: line 164 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 286, Gabriel Garcia Moreno: his official writings, vol. 2. His own official writings, collected
+    after his death by a Catholic society of Quito; a lay ruler''s voice inside the tradition.'

@@ -1,0 +1,11 @@
+source_file: orate-fratres_v2-1927-1928.txt
+assignments:
+- row_id: orate-fratres_v2-1927-1928--orate-fratres-volume-2
+  work: 'Orate Fratres, volume 2'
+  author: orate-fratres
+  locus: 'whole; Virgil Michel''s signed articles are listed in the file header'
+  atlas_ids:
+  - the-liturgical-movement
+  role: tradition
+  confidence: assigned
+  note: 'The movement''s own American review; many writers.'

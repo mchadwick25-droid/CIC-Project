@@ -16,8 +16,7 @@ confidence:
     Documented as Clement's own teaching. It is speculative theology rather than church order - he is reading the ministry as a copy of an angelic hierarchy - so it evidences how one Alexandrian teacher understood the offices, not how they functioned.
 sources:
 - source_id: alx.source.clement-stromateis
-  locus: >-
-    Stromateis VI.13 (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml, near line 47889)
+  locus: "Stromateis VI.13 (cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml, lines 47889-47900)"
   license: public-domain
 text: >-
   Since, according to my opinion, the grades here in the Church, of bishops, presbyters, deacons, are imitations of the angelic glory, and of that economy which, the Scriptures say, awaits those who, following the footsteps of the apostles, have lived in perfection of righteousness according to the Gospel. For these taken up in the clouds, the apostle writes, will first minister [as deacons], then be classed in the presbyterate, by promotion in glory (for glory differs from glory) till they grow into “a perfect man.”
@@ -27,13 +26,13 @@ modern_rendering: >-
   which, the Scriptures say, awaits those who have followed in the
   footsteps of the apostles. These people have lived in perfect
   righteousness, as the Gospel teaches. For those taken up in the clouds,
-  the apostle writes, will first serve as deacons. Then they will be
+  the apostle writes, will first serve [as deacons]. Then they will be
   ranked among the presbyters, promoted in glory, for one glory differs
-  from another. This goes on until they grow into full maturity.
+  from another. This goes on until they grow into “a mature man.”
 speaker_or_author: Clement of Alexandria, Stromateis
 license: verbatim
 modern_lens_note: >-
-  'Grades' translates prokopai, steps of advance - the offices are rungs, and Clement's interest is in what they imitate rather than in what they do. A participant asking whether this world's church maps onto a church today should see that the three names are already there and that the reasoning behind them is nothing a modern denomination would recognise.
+  'Grades' translates prokopai, steps of advance - the offices are rungs, and Clement's interest is in what they imitate rather than in what they do. A participant asking whether this world's church maps onto a church today should see that the three names are already there and that the reasoning behind them is nothing a modern denomination would recognize.
 retrieval:
   tier: 1
   retrieve_when:
@@ -51,6 +50,27 @@ use_note:
     - "Clement's speculation generalized as Alexandrian church order"
   years: {from: 180, to: 215}
   status: reviewed
+reading_card:
+  setting: Clement, in Stromateis VI, on the true gnostic and the glory to come.
+  source_says: One is enrolled as presbyter because righteous, not righteous because presbyter. He then
+    suggests the church's grades copy angelic glory.
+  historians_conclude:
+    text: 'The construction record holds teacher and bishop as two real authorities: one of shown wisdom,
+      one of office.'
+    confidence: Widely Accepted
+  contributes: It shows offices as steps of advance in holiness.
+  whose_view: Clement's own speculation, 'according to my opinion', not how Alexandria's offices worked.
+  reads_differently_today: '''Grades'' translates prokopai, steps of advance. The three offices are named,
+    but the reasoning behind them is unlike any modern denomination''s.'
+  sources:
+    setting: alx.source.clement-stromateis, Stromateis VI.13, anf02 lines 47860-47895
+    source_says: alx.source.clement-stromateis, Stromateis VI.13, anf02 lines 47866-47900
+    historians_conclude: 'Build/worlds/alx/Doc_04_Gravity_Discovery.md §4 table (T1: Widely Accepted structural);
+      Doc_05_Ecological_Reconstruction.md §4'
+    contributes: alx.term.episkopos
+    whose_view: alx.quote.the-grades-here-in-the-church, use_note.not_for; Stromateis VI.13, anf02 line
+      47889
+    reads_differently_today: alx.quote.the-grades-here-in-the-church, modern_lens_note
 ---
 Opened for F3-T, served by alx.term.episkopos alone, which cites this exact section
 and had nothing quotable.

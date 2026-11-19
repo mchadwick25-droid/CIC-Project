@@ -1,0 +1,12 @@
+source_file: mansi_sacrorum-conciliorum-collectio-tomus-22-lat_welter-facsimile1903.txt
+assignments:
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-22-lat_welter-facsimile1903--mansi-xxii-the-fourth-lateran-council-1215
+  work: 'Mansi XXII, the Fourth Lateran Council (1215)'
+  author: mansi
+  locus: 'about OCR lines 92779-105984; add 12 to OCR line numbers'
+  atlas_ids:
+  - latin-papal-church-gregorian
+  - innocent-iii
+  role: tradition
+  confidence: provisional
+  note: 'The council''s constitutions (numbered to LXX) and the documents printed with them, in Mansi''s collection. The other councils of the volume are not placed.'

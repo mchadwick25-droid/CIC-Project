@@ -19,7 +19,7 @@ confidence:
     supernatural claims.
 sources:
 - source_id: gallic.source.sulpitius-letters
-  locus: 'Letter III, To Bassula, His Mother-in-Law (npnf211 div ii.iii.iii, file lines 2470-2473): Martin''s reply to the presbyters asking him to ease his body by turning on his side'
+  locus: "Letter III, To Bassula, His Mother-in-Law (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 2470-2473; div ii.iii.iii): Martin's reply to the presbyters asking him to ease his body by turning on his side"
   license: public-domain
 retrieval:
   tier: 2

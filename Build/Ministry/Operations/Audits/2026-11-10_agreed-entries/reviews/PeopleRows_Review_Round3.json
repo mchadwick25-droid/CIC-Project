@@ -1,0 +1,15 @@
+{
+ "round": 3,
+ "scope": "Final targeted recheck: R2-F1 to F5 as applied in rows_fixes.json, and a check that no people item in census_dry.json is of a class that does not count (Mark's ruling C a; E a).",
+ "verdict": "approve",
+ "findings": [],
+ "fix_checks": {
+  "R2-F1": "Applied right: held_class lists Marutha, Severus ibn al-Muqaffa' and Elsbeth Stagel as attributed. All three are gone from census_dry. persian-church-of-the-east-early keeps Aphrahat; rhineland keeps four people; coptic-christianity-under-early-islam is empty and has its note.",
+  "R2-F2": "Applied right: the Mongol-era note is in the proposed words.",
+  "R2-F3": "Applied right: the apocryphal note is in the proposed words.",
+  "R2-F4": "Applied right: the Humiliati note is in the proposed words.",
+  "R2-F5": "Applied right: the New France note is in the proposed words.",
+  "E_a": "The London Charterhouse entry and Maurice Chauncy's row are absent from census_dry."
+ },
+ "checked": "Scripted: every one of the 412 non-person people items in census_dry.json was keyed by movement and name to its class. Classes came from the Round 1 and Round 2 classifications, then class_extra, held_class and the patches. All 412 matched a class. None is reported, attributed or compiler-only. The one apparent hit was Theodosius I of Alexandria on the cyrilline row; in census_dry that item is RNEW's own letter (source, own-writing), not the attributed Encomium held row, so it is correct. No movement has an empty people list without a peopleNote."
+}

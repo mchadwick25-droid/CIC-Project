@@ -13,6 +13,633 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-11-10 — P2-G89c carried out: data release 34 enters the held eras 8 and 9 items the Library now sources
+
+Under the eras 8 and 9 gate ruling ("take every recommendation"), the items held only for want of
+a source were tested against the texts the Library has since vendored, and entered where the
+source carries them: one lane 8 row (the Transylvanian Unitarian Church, 1660-1906, VII.50), seven
+named lines in existing rows, the VOC world's "continued as" link to Indonesian Christianity (a
+coordinator call on Open-Gaps 191), and two links regraded to Widely Accepted. AP7 and LA8-8 stay
+held, with the parts no source carries. Two Section A questions (the Tolstoyans, the Dukhobors) go
+to Mark. 396 movements, 736 links. Full entry: CFT Decision-Log, "P2-G89c carried out"; audit
+`Build/Ministry/Operations/Audits/2026-11-10_eras8-9-sourced/`.
+
+---
+
+## 2026-11-10 — P2-G89b carried out: data release 33 adds the eras 8 and 9 sweep's 26 rows
+
+**Done under the gate ruling, in auto mode.** Mark answered the P2-G89 gate "all recommended"
+(G89-1 to G89-55, sub-questions included), gave leave for the Coptic row to start in 1517 (G89-8
+a), and took G89-9 (a). The ruled rows and named lines were drafted in eight slices by Sonnet and
+reviewed by Opus from their sources, three rounds at most each. Every slice was approved. Data
+release 33: 395 movements, 733 links.
+
+- **Era 8, VII.34 to VII.49:** the Coptic church under the Ottomans (from 1517), the Catholics of
+  the Ottoman Balkans, Chinese Catholicism 1650-1906, the Church of the East's three patriarchates,
+  Ethiopian Christianity from Gondar to the Zemene Mesafint, the Georgian church 1650-1811,
+  Hungarian and Transylvanian Protestantism, Japan's hidden Christians, Kongo Christianity after
+  1650, the Protestant churches of the VOC world, the Society of Jesus 1650-1814, Vietnamese
+  Catholicism to 1815, the Dutch Reformed church at the Cape, the Catholics of Dutch Ceylon, the St
+  Thomas Christians' two obediences, the Romanian Greek Catholic Church 1698-1815.
+- **Era 9, VIII.53 to VIII.62:** the southern African mission churches, the Caribbean churches of
+  slavery and emancipation, the Maronite church 1815-1906, the Moravian church after 1815, the Old
+  Believers after 1815, Polish and Lithuanian Catholicism under the partitions, the Romanian Greek
+  Catholic Church 1815-1906, Vietnamese Catholicism 1815-1906, the Arab evangelical churches,
+  Canudos.
+- **Change orders on frozen rows.** 34 rows take a ruled named line or a living-pass update. Four
+  links are retired and replaced through new rows (IV.26 to VIII.13, VI.30 to VIII.40, VII.19 to
+  VI.11, VIII.31 to VII.7). VII.23 starts in 1650 (G89-42 i). VIII.48 starts in 1810 (G89-17 a).
+- **Not entered.** Every item ruled "hold", every part whose named source was not read, and every
+  sentence whose item stayed [S], each with what it waits for (Open-Gaps, "Eras 8 and 9 rulings,
+  Africa holds" and the items after it, 2026-11-10).
+
+**Heart reasoning.** The sweep asked where the tree was silent about churches that were plainly
+there. Each new row says only what a text we opened says, and states the thinness of its sources
+where they are thin, rather than filling the silence with a likely story.
+
+**Next action.** The follow-up chunk enters the held items whose sources the Library's batch 2
+vendored. VIII.52's 1911 end and the North Europe breaks wait for their own passes.
+
+---
+
+## 2026-11-10 — The grade of a "member of" link on a body's own membership record
+
+**Decided (Mark: "Widely Accepted").** A "member of" link may reach Widely Accepted on the
+council's, or the member church's, own dated membership record alone, with no study beside it. A
+membership roll settles the fact of membership, and there is nothing to interpret. This applies to
+"member of" links only. The online cap still holds: such a link is never Documented unless the
+record is held in the Library. This answers Open-Gaps 143.
+
+Options weighed:
+- Widely Accepted on the record alone. Chosen.
+- Keep the method: a study is needed as well, so the link stays Inferential-Thin.
+- Dominant Modern Reconstruction on the record alone.
+
+**Applied.** The method brief amendment for "member of"
+(`Build/Ministry/Operations/Audits/2026-11-06_census-lineage-rigor/Drafting_Brief.md`) and the
+era 10 addendum carry the rule.
+
+---
+
+## 2026-11-10 — Change order: a seventh link type, "member of"; the era 10 drafters' questions ruled
+
+**Decided (Mark: "do the right thing not the easy, so b", then "Q1 b only").** The part 1 drafters
+of P2-L10 raised three method questions (the page "Era 10 Link Questions").
+
+- **Q1, membership: (b), a seventh link type, "member of".**
+  - A church that joined a council or fellowship of churches, on that body's own record, is drawn
+    as "member of", with the arrow from the member to the council.
+  - Membership claims no descent and no influence. It is never major and never carries
+    `outcome`.
+  - On the map it belongs to the contact family, labeled "In contact with, member of", and pulls
+    rivers together as contact does.
+  - Tree pages list it under "Member Of" and "Members". The method page now names seven kinds of
+    link.
+  - Options weighed: (a) draw membership as "in contact with" with a note; (b) a new type; (c) no
+    link. Mark chose the exact relation over the easier fit.
+- **Q2, a movement writer's own dated text: (a), as recommended.** For a movement that never became
+  a church body, a dated text by a writer the entry itself names as a carrier counts as the
+  movement's own text. It is read online and capped at Widely Accepted, like a church body's own
+  text.
+- **Q3, *Religious Bodies 1906*: (a), as recommended.** Each denomination's statement in the Census
+  Bureau's report was prepared by people in that denomination, and counts as its own text. The
+  Bureau's general statements do not. The report is public domain and goes on the wanted list for
+  the Library.
+
+**Heart reasoning.** "Do the right thing not the easy": a relation is named for what it is, even
+when that costs a change to the method.
+
+**Applied.**
+- `tools/validate-census.mjs` accepts the type and refuses an outcome on it. Tests are in
+  `tools/tests/validate_census_online.test.mjs`.
+- The map (`cft-website/index.html`) and the tree-page generator (`Build/tools/generate_tree_pages.mjs`)
+  are updated.
+- The method page text is in `Build/tools/tree_site_pages.json`.
+- The method brief is amended (`Build/Ministry/Operations/Audits/2026-11-06_census-lineage-rigor/Drafting_Brief.md`).
+
+---
+
+## 2026-11-10 — Change order: evidence for era 10 links
+
+**Decided (Mark: "b").** The recent-movement evidence rule (2026-11-08, "Change order: evidence
+for recent movements") now applies to era 10's links (P2-L10), with a cap:
+
+- **A church body's own dated text** may be a primary source when it is opened online in the run.
+  Examples are a basis of union, a constitution, a charter, an official statement and a conference
+  report. Each is cited by title, date, publisher, web address and the date it was read, with a
+  short verbatim quote.
+- **A scholarly study** may be cited once its details are confirmed in the run, even if the repo
+  has not cited it before. It supports a claim only where its passage was read and quoted.
+- **The cap.** A link resting on sources read online reaches Widely Accepted at most. Documented
+  still needs a primary quote held in the Library, which anyone can re-check word for word. The
+  text that would raise the link goes on the wanted list.
+- **New verification state.** `verified-online` marks a quote read online in the run.
+- **Unchanged.** Search snippets, summaries and encyclopedias never count.
+
+**Options weighed.**
+- (a) Keep the rule. Few era 10 links, many real relationships unlinked.
+- (b) This rule, with the cap. Chosen.
+- (c) This rule without the cap. Documented would stop meaning a quote re-checkable in the Library.
+
+**Heart reasoning.** It is the same principle Mark set for recent movements: "we have to be able
+to tell an accurate story, but use different criteria". Documented keeps the meaning it has in
+every other era.
+
+**Applied.** `tools/validate-census.mjs` accepts a source with `url` and `accessed` in place of
+`file` and `lines`, and refuses Documented unless a primary quote is held in the Library. Tests
+are in `tools/tests/validate_census_online.test.mjs`. The drafting addendum is
+`Build/Ministry/Operations/Audits/2026-11-10_links-era-10-part-1/Drafting_Brief_Era10.md`.
+
+## 2026-11-10 — Data release 26: rows labeled "N. America" gain countries from their own text
+
+**Carried out under the change order of the same date (Mark: "c").**
+- 30 of the 31 rows gain countries: the United States on all 30, Canada on three (VIII.4, VIII.34,
+  IX.57) and Mexico on two (IX.15, IX.16). IX.32 names no place in the three countries and stays
+  empty.
+- Each country rests on a quoted sentence from that row's own text.
+- An independent review approved it to proceed in Round 2.
+- The tree pages now read, for example, "N. America, today in United States". This settles the IX.44
+  point in Open-Gaps 140. IX.48, labeled "North America", is outside the ruling and is logged as
+  Open-Gaps 141.
+- Records: `Design/StepZero-Eras/CiC_NAmerica_Countries_Proposed.json`, `_Review_Round1.md` and
+  `_Review_Round2.md`.
+
+---
+
+## 2026-11-10 — Change order: modern countries for rows labeled "N. America"
+
+**Decided (Mark: "c").** A row whose place label includes "N. America" gets a modern country only
+when the row's own census text names that country or a place inside it. Each such country is
+recorded with place "N. America". A row whose text names no country keeps an empty list. Nothing is
+claimed that the row does not already say. Until now, all 31 such rows listed no country there, so
+the map never showed the United States, Canada or Mexico for them.
+
+**Options weighed.**
+- (a) Leave them all empty.
+- (b) Read "N. America" as the United States and Canada for every row. That would claim Canada for
+  rows that never mention it.
+- (c) Row by row, from each row's own text. Chosen.
+
+**Heart reasoning.** The rule is the project's rule against inventing: a place is shown because the
+row's own story puts the church there, not because a region label implies it.
+
+**Next action.** Draft the 31 rows' country lists with a trace of each row's naming sentence. Then
+an independent review, data release 26, and a PR. It started from IX.44 (Open-Gaps 140).
+
+---
+
+## 2026-11-09 — P2-E10h carried out: data release 25 adds the global sweep's 15 rows
+
+**Done under the gate ruling, in auto mode.** The ruled rows and named lines of the global sweep
+(G-80 to G-150) were drafted in three regional slices and a finishing pass. They were reviewed by an
+independent reviewer in three rounds: full, then targeted, then targeted. Round 3 approved the work
+to proceed. It is applied as data release 25: 322 movements (307 before), 578 links.
+
+- **New rows IX.59 to IX.73.**
+  - Africa: the Catholic Church in Africa (on the new 4<->5 bridge, G-80 c), the church struggle
+    against apartheid, Sudanese Christianity through the civil wars.
+  - Latin America: Latin American Catholicism, Protestantism in Latin America.
+  - Asia: Korean Protestantism, Chinese Catholicism, Philippine Catholicism, the Philippine
+    Independent Church, Japanese Christianity.
+  - Eastern Europe: the Russian Orthodox Church, Polish Catholicism, Orthodoxy in the communist
+    Balkans, the Greek Church and the Ecumenical Patriarchate, the Romanian Greek Catholic Church.
+- **61 register edits** place the ruled named lines in existing rows. IX.11 is narrowed (G-132 b):
+  El Shaddai goes to Philippine Catholicism, and the dates become 1910 to c. 2010.
+- **The atlas lane table gains 4.5**, "Africa/Latin bridge". Its parent is Latin West, as G-80 (c)
+  reasons.
+- **A line enters only on an opened, verified item.** Lines whose items stayed [S] or snippet-only are
+  held, each with the item it waits for (Open-Gaps, "Lines the global sweep's ruling placed but no
+  verified item yet carries").
+- **No links were drafted.** The new rows' links to their era 8 and era 9 parents are change orders to
+  frozen eras, and wait for P2-L10.
+
+Records, in `Design/StepZero-Eras/`:
+- `CiC_Step0_Era10_P2E10h_Proposed.json`
+- `CiC_Step0_Era10_P2E10h_Trace.md`
+- `CiC_Step0_Era10_P2E10h_Review_Round1.md`, `_Round2.md` and `_Round3.md`
+
+**Next action.** The release makes no story recording stale. The narration dry run counts 176
+before and after, and the new rows carry no documented stories yet. P2-L10 drafts the links. P2-G89
+sweeps eras 8 and 9.
+
+---
+
+## 2026-11-09 — ERA 10 GLOBAL SWEEP GATE: Mark rules all 71 questions (G-80 to G-150)
+
+**Decided (Mark, answering by number on the gate page).** "G-80 c; G-81 a; G-82 a; G-83 a; G-84 a;
+G-85 c; G-86 a; G-87 a; G-88 a; G-89 a; G-90 a; G-91 a; G-92 a; G-93 a; G-94 a; G-95 a; G-96 b;
+G-97 a … G-123 a; G-124 b; G-125 a; G-126 a; G-127 b; G-128 b; G-129 a; G-130 b; G-131 a; G-132 b;
+G-133 c; G-134 a; G-135 a; G-136 a … G-150 a". Every answer matches the question's stated
+recommendation in `Design/StepZero-Eras/CiC_Step0_Era10_GlobalSweep_V1_0.md` §7, checked one by one
+by script, so the record's recommendations are the ruling.
+
+**What follows.**
+- The 15 rows that enter are drafted as census rows and reviewed (P2-E10h): the 14 "enter"
+  candidates, and E3b, which G-124 (b) also enters. (Count corrected 2026-11-09; it first read 14.)
+- The 23 named lines are drafted into their entries.
+- IX.11 is narrowed by change order (G-132 (b)).
+- Catholic charismatic movements follow G-133 (c): renewal wings in IX.7, national movements in
+  their country's Catholic row, none in IX.11.
+- The Caribbean takes the region value "Latin America" (G-134 (a)).
+- The 15 "enter once" candidates wait for the one text or study each names. Those items go to the
+  source-research thread, and each enters at a later gate once its condition is met. The 22 holds
+  wait for sources.
+- The census changes only as each drafted, reviewed set is applied.
+
+---
+
+## 2026-11-09 — Era 10 global completeness sweep, by region and by river
+
+**Decided (Mark, asked "is this truely global not just usa", shown the counts and three options:
+"1 and across the rivers too").** Era 10 is titled "A century of global Christianity", but its
+roster leans American. In release 23, 29 of 56 entries are tagged North America and about 19 are
+wholly American. Africa has 7, Latin America 3 and Greater Asia 9. The rivers show the same
+imbalance. The Protestant and Evangelical river has 20 entries, 16 of them North American, and none
+in Latin America. The Catholic river has 4, none of them African or Asian. The Orthodox river has
+3, none outside Europe and North America. The cause is the sources used so far: English-language
+texts and questions raised in conversation, which this session's own additions repeated.
+
+**The sweep.** Run Step 0's completeness sweep (procedure step 1) again for era 10, region by
+region (Africa; Latin America and the Caribbean; Asia and the Pacific; Eastern Europe, the former
+Soviet world and the Middle East), and within each region river by river (Catholic, Orthodox,
+Protestant and Evangelical, Pentecostal and charismatic, independent and initiated, and the
+Eastern and Syriac churches). The same standard and the same recent-movement evidence rule apply:
+own dated founding texts plus a scholarly study, every item verified or [S]. Regional histories
+by scholars from and of those regions come first. Mark added: "look at non-english sources too,
+like we have in other eras". So each region's own-language sources are searched alongside English
+ones: founding texts and statements of faith in the original language, regional scholarship in
+those languages, and the Library's non-English editions. Each is cited in its original-language
+title with an English gloss, and quotes are given in the original with a close rendering.
+
+**Scope (Mark, asked whether eras 1 to 9 get the same check: "eras 8 - 10 for now").** The
+region-and-river sweep covers eras 8 (1650–1815), 9 (1815–1906) and 10. Eras 8 and 9 are frozen,
+so any addition there comes to Mark as a named change order, as the Armenian Apostolic row did
+(2026-11-08). The era 10 sweep runs first, and eras 8 and 9 follow with the same four regions,
+rivers and source rule. Eras 1 to 7 are not swept for now. The work goes through the same review rounds
+and back to Mark's gate. The census does not change until he rules.
+
+---
+
+## 2026-11-09 — Mark approves the P2-E10c screenshots and the re-voicing sample; IX.50's name settled on the sources
+
+**Decided (Mark: "screen shots look fine, yes and use the proper name, not because i suggested something").**
+- **P2-E10c screenshots: approved.** The cross-church bands, the label, the method page and the
+  retired page. Pull request #1562 merges when its CI is green.
+- **Re-voicing: the sample is approved.** The full story batch runs with the sample's exact
+  settings (voice onegjDE2z0mQtp1g0HK7, model eleven_v4, mp3_44100_64). The tree recordings use
+  other voices and models, so they get their own sample first.
+- **IX.50's name: settled on the evidence, not on a suggestion.** It stays "The Christian Right"
+  (id `the-christian-right`), the name of the verified university-press history of the whole
+  period (Williams, OUP 2010). "The Religious Right" (Martin 1996; Wilcox 1996–2010) becomes its
+  informal name. Reasons: `Design/StepZero-Eras/CiC_Step0_Era10_IX50_Trace.md`, "The name".
+
+---
+
+## 2026-11-09 — Era 10 follow-up rulings (Mark: "take every recommendation")
+
+**Decided (Mark, on the four questions left after data release 22).**
+1. **G-15, IX.50 the Christian Right: option (i).** IX.50 enters as a Tier 3 row of kind
+   "cross-church movement", 1979 to c. 2010. It is marked thin on lived ecology (B2). Its Section A
+   reading rests on unverified items, which go to the wanted list. It is drafted from D-E6 and
+   reviewed before it enters.
+2. **IX.53 faith missions: held (option a).** This closes the change order below ("pending Mark")
+   as recommended. The row waits for a statement of faith from the IFMA (Frizen 1992; Wheaton BGC
+   Archives collection 352). Its atlasId stays reserved.
+3. **IX.31's old page shows a "retired" notice.** No recommendation was put to Mark on this one.
+   It follows from G-8(a), which retired the row with no redirect, so the address stays and says
+   plainly that the entry was retired and why.
+4. **Re-voicing the stale recordings: sample first.** A small sample is generated with every paid
+   setting passed explicitly and printed, and Mark approves it by ear before any full batch.
+
+---
+
+## 2026-11-08 — Change order: faith missions (IX.53) held at build (ruled 2026-11-09: held)
+
+**Open, for Mark.** The gate ruling added faith missions under G-57(a), which set no Section A
+condition. At the build (P2-E10b), the Section A research found no statement of faith for its
+carriers (`Design/StepZero-Eras/CiC_Step0_Era10_P2E10b_SectionA_Research.md`): the IFMA's own
+doctrinal text was not found, and its successor's statement is behind a member login. The three
+other new movement rows clear Section A on their carriers' own dated statements. This thread held
+IX.53 rather than enter a row whose floor has not been checked, treating it as the rulings treat the
+healing revival and the Oxford Group (G-69, G-72). That departs from the ruling as written, so it is
+put to Mark: hold IX.53 until the statement is found, or build it now with "not yet assessed" on its
+floor note. Its atlasId stays reserved either way. Wanted: Frizen, *75 Years of IFMA, 1917–1992*
+(1992); Wheaton College, Billy Graham Center Archives, collection 352.
+
+---
+
+## 2026-11-08 — ERA 10 GATE: Mark takes every recommendation (history, 1906 to c. 2010)
+
+**Decided (Mark: "take every recommendation").** Applied to all 79 gate questions on the era 10 gate
+page: G-1 to G-55 in `Design/StepZero-Eras/CiC_Step0_Era10_V2_0.md` §6, and G-56 to G-79 in
+`Design/StepZero-Eras/CiC_Step0_Era10_Movements_V1_0.md` §4. Each question's stated recommendation
+is the ruling. Two exceptions, named:
+
+- **G-15 (IX.50, the Christian Right) carries no recommendation**, so it is not ruled. It stays
+  held for Mark's direct answer, and nothing is pre-wired for it.
+- **G-49 was withdrawn** before the gate and needs no ruling.
+
+**What the ruling does, in short.**
+- Era 10 is history, 1906 to c. 2010. The era band reads "1906-c. 2010", tagged "A century of global
+  Christianity" (G-1). The 2010 centenary key event is added only once it is sourced, as G-1's
+  recommendation requires.
+- 48 of the 49 rows are kept, and IX.31 (Deconstruction) is retired (G-8). The 453 text edits and 19
+  structural operations in `CiC_Step0_Era10_V2_0_Proposed_Edits.json` apply. Every gated edit there
+  implements its recommended option, G-46(b) included.
+- The living mark means alive today. The flags follow §2d: groups L-1 to L-4 as recommended (G-5),
+  IX.28 true → false (G-50), and the evidence kept in a line apart from the history text (G-51).
+- Added: Iglesia ni Cristo, split from IX.16 (G-14), and the Anglican Communion in the twentieth
+  century (G-78). Six movements are added under the recent-movement evidence rule: faith missions,
+  rescue missions, the Christian homeschool movement, the liturgical movement, the Third Wave, and
+  Promise Keepers and the Christian men's movement. The ten folds become named lines in their
+  entries.
+- Held, as recommended: the evangelical student movement and frontier missions. The mark 4 reading
+  is kept (G-79(c)), and both go to the source-research thread for a study of the whole movement.
+  Also held: the healing revival and the Oxford Group, pending Section A (G-69, G-72).
+- A movement outside church bodies gets the `kind` "cross-church movement", shown as a translucent
+  band across the lanes it touches (G-28).
+
+**Order of work** (Church Family Tree Build-Plan, P2-E10a to c):
+- a: the census pass on the existing rows, with Iglesia ni Cristo, as a numbered data release;
+- b: the new rows and the named lines, drafted and reviewed;
+- c: the `kind` field and its drawing, the method-page line, and the era band text.
+
+Then P2-L10 (links) and P2-V (the living definition across all eras).
+
+---
+
+## 2026-11-08 — Change order: evidence for recent movements (era 10)
+
+**Decided (Mark, in this thread: "yes as the writings are current or recent history so its more
+reliable than 2000 years ago yes on 3"; and, on the same point: "we have to be able to tell an
+accurate story, but use different criteria").** The four marks of a defined movement stay as ruled
+earlier today: a recognizable beginning, identifiable carriers, a name or self-understanding as a
+movement, and recognition as a movement in a study. What changes is what counts as evidence for a
+movement whose sources fall after the Library's public-domain reach (roughly 1930).
+
+- **A movement's own dated founding texts** may show its beginning, its carriers and its name: a
+  charter, a first statement of purpose, the first issue of its magazine, its first conference
+  report. Each is cited by title, date and publisher.
+- **A standard scholarly reference work** may show that historians recognize it as a movement.
+  It need not be vendored in the Library. It is cited by author, title, publisher and year.
+- **Both together** are required for a "defined movement" verdict. Each item carries its
+  verification state: verified when its bibliographic details were confirmed in this run, and
+  [S] otherwise. An [S] item never counts as verified. Claims are graded with the usual five
+  `formation_confidence` grades. The story each entry tells must stay accurate: the criteria for
+  admitting evidence change, the bar for what an entry may claim does not.
+
+**What this amends.** The era 10 re-run brief of 2026-11-08, which allowed only vendored texts
+and secondary works the repo already cited. Under that rule 11 of the 14 movements left out at
+§4E of `CiC_Step0_Era10_V2_0.md` failed only because no source had ever been gathered for them.
+The never-invent rule is unchanged: no source, date, name or page enters without being found.
+
+**Heart reasoning.** Mark: recent movements left their own writings, and recent history is
+better documented than the ancient world, not worse. A rule built for the first centuries was
+quietly excluding the twentieth century's best-recorded movements.
+
+**Next action.** A sourcing pass on the 24 movement candidates and the four held drafts, re-tested
+under this rule, recorded as its own document beside the V2.0 record, with its own reviews. Then
+the gate page is updated. The census does not change until Mark rules.
+
+---
+
+## 2026-11-08 — Change order: era 10 becomes history, 1906–2010
+
+**Decided (Mark, 2026-11-08: "lets make era 10 historical and go from 1905 to 2000"; "Living as
+of 2000"; "we are using the standard we used to identify and source the 300 worlds in the family
+tree"; "converged, auto mode").** Later in the same sitting Mark moved the end from 2000 to 2010.
+That change reached this thread relayed from the era 1 thread, which gave his reason: era 10
+becomes "a century of global Christianity", with a bookend at each end. It opens near Azusa Street
+(1906) and the Edinburgh missionary conference (1910). It closes with the 2010 centenary meetings,
+Edinburgh 2010 and Lausanne's Cape Town congress, and still leaves about sixteen years of
+historical distance. The rulings as they now stand:
+
+1. **Era 10 is historical, 1906 to about 2010.** Mark: "yes era 10 ends in 2010 (about) living
+   traditions are alive today. the other eras do not need the 2010 perspective, its there era and
+   today (2026)" (relayed from the era 1 thread). The era band and the dates write the end as
+   "c. 2010", not a hard boundary. The era 9/10 boundary stays at 1906, the Azusa Street
+   revival. Mark said "1905" loosely; moving the boundary would shift the frozen end of era 9
+   (1815–1906). Nothing in the record makes 1906 wrong.
+2. **The living marker means alive today (2026), in every era.** Era 10's history runs to about
+   2010, and nothing after it is mapped. Eras 1 to 9 are not referenced to 2010 at all: each covers
+   its own span, and its living marker, like era 10's, means alive today. The marker is the tree's
+   one statement about the present. Mark
+   first set "living as of 2000", then "as of 2010", then corrected it in the same sitting, relayed
+   from the era 1 thread: "no i think alive today means now, not 16 years ago". The entry's text and
+   dates stay historical to about 2010.
+3. **One standard for all ten eras.** Era 10 is identified and sourced by the same Step 0 standard
+   used for the census's movements in eras 1 to 9: Section A, Section B's five criteria, the tiers,
+   and the five `formation_confidence` grades. The per-world construction standard (Doc_01 to
+   Doc_09, tradition voices) does not apply.
+4. **The Living-Era Protocol Addendum V1.0 governs the living marker, and only it.** Its dated
+   own-voice evidence (R2), its Contemporary-Documented / Contemporary-Reported grades (R3) and its
+   present-tense humility (R4) apply to the "alive today" claim, in every era. No other
+   present-tense claim enters an entry. Its rules on describing published texts rather than
+   people, and on dating every statement, may still guide tone.
+
+The same sitting also widened the survey, again relayed from the era 1 thread, to Christian
+movements and trends outside formal church bodies: Bible translation, campus ministries, church
+planting, post-war world missions with the unreached-peoples and 10/40 Window work, children's and
+Sunday-school ministries, rescue missions, Christian schools and homeschooling, and their kin. The
+unit is the movement, never the organization. How such an entry is told apart from a church
+entry is a question for the gate. Mark then tightened it (relayed): "it needs to be a defined movement, not just a trend". A
+candidate qualifies only if its sources show a recognizable beginning, identifiable carriers
+(people, networks or bodies), a name or self-understanding by which participants or contemporaries
+knew it as a movement, and recognition as a movement in a vendored text or a repo-cited secondary.
+A diffuse trend fails, even when it is real and widespread; it may become a named line inside a
+defined movement, or be left out with the reason stated.
+
+**What follows 2010 (Mark, 2026-11-08, "yes, pass that to era 10", relayed from the era 1
+thread).**
+
+1. The tree says nothing past 2010, and says so plainly. The method page and the era 10 band both
+   state that the history ends in 2010. (As first relayed, "living" meant as of 2010; Mark's later
+   correction makes the living mark mean alive today, ruling 2 above.)
+2. Later decades join once they become history, by the rule that set 2010: a period joins the tree
+   once it is about fifteen years in the past. 2010–2020, for example, would be added around 2035,
+   under the same Step 0 standard, either as an extension of era 10 or as an era 11. Each addition
+   is a numbered data release, so nothing already published changes meaning.
+3. Two options were considered and declined: a "since 2010" note on living entries, which is
+   present-tense ground and would go stale; and a rolling cut-off, which would break the promise
+   that a release is a fixed version.
+4. The reader-facing line, for the method page and the era 10 band: "The tree's history runs to
+   2010. Movements since then will be added as they become history." It lands with the era 10
+   census changes after the gate, not in this run.
+
+Mark's own wording of the rule (relayed from the era 1 thread): "anything after is a living
+tradition or new, but not mapped. 2010 back is historical and treated that way except with a
+living tradition marker".
+
+**What this amends in the frozen era 10 record** (this log's 2026-08-14 entry, "ERA 10 FROZEN by
+Mark", and `Design/StepZero-Eras/CiC_Step0_Era10_V1_0.md`):
+
+- the era's span, "1906–present", becomes 1906–2010;
+- Q1's ratification of the addendum stands, narrowed: it now governs only the living marker (R2,
+  R3, R4), in every era; its open ends (R5) and recency floor (R7) no longer govern era 10's rows;
+- Q2's dated-reading clause on living rows ("a dated reading of a living tradition") gives way to
+  plain historical copy dated to 2010;
+- Q4's "era-boundary-is-present" date reading gives way to an end of 2010 for a body still active
+  in 2010;
+- Q9's retention of IX.31 (Deconstruction) by hand-selection is re-opened, because its story falls
+  mostly after 2010;
+- Q12's held IX.50 remains for Mark's direct ruling, now judged as history to 2010.
+
+Everything else in the frozen record stands until the V2.0 gate rules on it. The V1.0 record and
+its reviews are kept as they are.
+
+**Heart reasoning.** The tree's eras 1 to 9 hold history to a single standard. Era 10's present
+tense needed a second regime, and that regime could not reach the rigor the other nine have. A
+fixed end lets era 10 meet the same bar instead of a softer one, and the 2010 bookend gives the
+era a shape of its own: a century from one Edinburgh conference to the next.
+
+**Next action.** Step 0 re-run as history: `Design/StepZero-Eras/CiC_Step0_Era10_V2_0.md` and its
+reviews, then Mark's gate. The census does not change until he rules. The era 10 link pass
+(P2-L10) and the living work (P2-V) wait for that ruling.
+
+---
+
+## 2026-11-08 — Era 8 change order: census 300→301 (Armenian Apostolic Church, VII.24a)
+
+**What changed.** Mark ruled: "add an era-8 Armenian Apostolic movement". The era 8 links pass
+had found that the Armenian lane ran from New Julfa (VI.28) through VII.24, the Mekhitarists and
+the Armenian Catholic patriarchate, into the Zartonk (VIII.32), though VII.24's own text calls the
+Apostolic Church the far larger body. `armenian-apostolic-church-era-8` (VII.24a, 1650-1815) now
+carries the Apostolic line: New Julfa continues as it, and it continues as the Zartonk. VII.24
+becomes the Armenian Catholic strand alone (Eastern Catholic stream; `continuesAs` null, as on the
+Melkite Greek Catholic movement; shortName "Armenian Catholics"). Era 7's link from New Julfa to
+VII.24 is retired with a replacement, the census's first `retiredLinks` entry.
+
+**Heart reasoning.** The tree had a place for the Armenians who joined Rome and none for the
+church most Armenians belonged to. A visitor following the Armenian line would have walked through
+the smaller body as if it were the whole.
+
+**Not changed.** The era stays frozen; this is a change order on one entry, named and reasoned, not
+a re-survey. Unlike VI.13a-d, the new prose was newly researched, because VII.24's text held almost
+nothing on the Apostolic Church: every sentence is tied to a vendored source in the audit's fact
+table. `meta.totalEntries` and `statusCounts` updated; the validator passes.
+
+**Record.** `Build/Ministry/Operations/Audits/2026-11-08_armenian-apostolic-era-8/` (two review
+rounds, passed). The library bucket and the map's own movement list are open items (Church Family
+Tree Open-Gaps, 2026-11-08).
+
+## 2026-11-06 — Rivers that swell, thin and drift
+
+**Decided (Mark, Option 1: "keep the river feel, not the harshness").** Two of the map's
+existing honest signals become visible. Width shows how many documented movements in a family
+were active in a given year. Rivers lean toward or away from each other only along documented
+census links, over the years both movements were active, weighted by each link's confidence
+grade. Brief: `Build/Ministry/Features/Church-Family-Tree/Launch-Prompts/CFT_Rivers_Brief_2026-11-06.md`.
+
+**Honesty rules.** Width is a count of documented movements, never membership or size. Drift
+uses census edges only, with no hand-placed bends. Rivers never cross or touch.
+
+**Built** by the Church Family Tree build thread, chunks R1 to R3 in one pull request
+(`cic-website/atlas-v3.html`). Values as shipped for Mark's review:
+
+- **Width.** `6 + 84 × (s / 26)^0.7` px, where `s` is the lane's count of active census
+  movements averaged with a Gaussian over ±45 years (sigma 18). One active movement gives
+  about 13 px; the busiest river peaks near 75 px (the old range was 10 to 56). A lane with
+  nothing active still has zero width. The calm, zoomed-out line keeps its existing 0.675 scale.
+- **Drift types.** Pull: gave rise to, continued as, influenced (1); in contact with (0.5).
+  Push: argued against, broke with (1).
+- **Confidence weights.** Documented 1; Widely Accepted 0.7; Dominant Modern Reconstruction
+  0.7; Contested 0.4; Inferential-Thin 0.25, as the brief proposed.
+- **Window.** Only the years both movements were active, and only after both rivers have
+  finished joining their parent (genesis plus 150 canvas units). The lineage types therefore
+  never double the genesis convergence.
+- **Links between the same two rivers act together.** The pair leans along its strongest
+  active link, and each further link adds 15 % to its reach, capped at 1.6×. Summing them
+  instead made Era II's clusters (six "argued against" links between two rivers in a few
+  decades) turn the river sharply.
+- **Strength and fade.** `DRIFT_MAX` 90 px with `tanh(total / 2)`; one Documented link leans
+  about 42 px. Each pull builds and relaxes over 40 % of its overlap, and never over less
+  than 600 canvas units, so a short overlap gives a smaller lean rather than a sharper one.
+- **No crossing.** At least 14 px of clear ground between neighboring rivers' edges, with a
+  4 px margin; where they would come closer, both ease apart, and the push is spread and
+  blurred along time. Measured: 18 px minimum at every sampled year, close-up and zoomed out.
+- **Calm line.** Drift now shows at the zoomed-out view too; the meander stays close-up only.
+- **Steepness.** The steepest sideways slope is 0.37 against the meander's own 0.17, and it
+  sits where a lean adds to a meander bend.
+- **Hidden rivers.** The geometry does not change when a river is hidden, and the legend
+  says so: "Hiding a river does not move the others." A visible river's lean still shows a
+  real link.
+- **Legend note** under Tradition families: "Width shows how many recorded movements were
+  active then. Rivers lean together or apart where the record shows a link." Reading Ease
+  70.5, grade 5.8.
+
+**Same-river links arc out (Mark, on the first screenshots: "the dotted lines in the swimlane
+are not visible, we need to arc them out of the swim lane and back in").** 41 of the 86 links
+join two movements on the same river, and a straight line ran under the water. Each now leaves
+on the side with more open ground, clears the river's widest point between its ends by 22 px,
+and comes back in. Measured: all 41 clear their own river; none crosses a neighbor's water.
+
+**Gaps get a dashed thread (Mark, "b, and log c").** Width zero means no recorded movement
+was active, and six rivers run dry inside their own span, mostly just after era boundaries.
+A thin dashed thread in the river's color now follows its course across each gap, adding no
+width; the legend says "A dashed thread marks years with none on record." Rejected: keeping
+bare gaps (they read as a tradition ending) and filling the census inside this pull request
+(scholarly data work, logged as Church Family Tree Open-Gaps, "Rivers run dry where the census
+has no entry", 2026-11-06).
+
+**Checked.** Chromium, dark and forced-light themes, full-map and close zoom, phone width; no
+page errors; the switch check unchanged (Africa hidden: 12 of 13 rivers, 267 of 292 dots,
+68 of 86 links); `validate-census.mjs`, `atlas-check --edges-only`, the m6 tests and the
+commentary check green.
+
+**Next action.** Mark judges the feel on the branch preview before merge.
+
+---
+
+## 2026-11-06 — Link colors by kind of relationship (four families)
+
+**Decided (Mark, "four colors").** The tree's lines are colored by the kind of relationship, in four families: green for grew out of and continued as, brown for influenced, red for argued against and broke with, gray for in contact with. Line style keeps showing confidence (solid, dashed, dotted, sparse dots), so color and style each carry one meaning. Arrowheads mark direction on the one-way types. Rejected: six colors, one per type (too many to read at a glance), and color only on hover (hides the pattern across the whole map).
+
+**Built.** `cic-website/atlas-v3.html`: `--link-*` color tokens in both themes, arrow markers, and a legend that names the four families and every confidence style (the old legend note still listed the retired five types). `Build/tools/generate_tree_pages.mjs`: each lineage section on a movement page carries its family color on the heading and a left rule. Red and brown were pulled apart in the dark theme after a first look showed them too close.
+
+**Checked:** Chromium, desktop width, dark theme: all 86 links colored (17 green, 32 brown, 34 red, 3 gray), 79 arrowheads, no page errors. **Not checked:** the light theme by eye, phones, a color-vision simulation.
+
+**For the Church Family Tree move:** these tokens and the legend travel with the map.
+
+**Follow-up (Mark: lines too thin to see their color, still muted on hover).** Links now keep a constant on-screen width at every zoom (about 2.4 px, 4 px on hover and focus) instead of shrinking with the map, and their resting opacity rose (0.85 at full view; 0.7 light and 0.75 dark when zoomed in; 1 on hover). The earlier fade-when-zoomed choice was made when every line was the same ink; with color carrying meaning, the lines need to stay readable. The intro line now says the lines are colored and points to the legend.
+
+**Also decided (Mark, "clickable legend").** The map was too busy, so each legend row is now a switch: the four link families, the four confidence styles, and the story icons. Everything starts on; a viewer's choices are remembered in their own browser only. Rejected: a separate "Show" panel (one more panel on a busy screen), preset views, and presets plus switches. The tradition families are switches too (Mark, "add a switch for the rivers too"): hiding one removes its river, its movement dots and every link touching it, and an "All rivers" row turns them all off or on at once. Checked in Chromium: hiding red links leaves 52 of 86, hiding thin evidence too leaves 45, story icons hide, choices survive a reload, everything restores. Rivers: hiding Africa leaves 12 of 13 rivers, 267 of 292 dots and 68 of 86 links; All rivers clears and restores everything.
+
+---
+
+## 2026-11-06 — Change order: the permanence promise gains the domain rule
+
+**Decided (Mark, 2026-11-06, Church Family Tree convergence).** The tree moves to
+`https://www.churchfamilytree.com`. The permanence promise in `meta.identifiers`, set the
+same day, gains one rule. Tree pages and their link anchors on `churchinconversation.com`
+redirect permanently, in one hop, to the same path on the new domain. The data file is
+served byte for byte at both addresses and never redirected. The new domain is the named
+home. Shipped as data release 2 with the move.
+
+**Why.** The researcher was told to cite `churchinconversation.com/tree/<id>` and
+`/data/world-census.json`. Breaking either would break the promise. Scripts often do not
+follow redirects, so the data file is served directly instead.
+
+**Next action.** The Church Family Tree build thread, Phase 1. Full record:
+`Build/Ministry/Features/Church-Family-Tree/Decision-Log.md`.
+
+## 2026-11-06 — Census lineage links: six types, sourced and quoted, permanent IDs, one rigor pass
+
+**Why.** An outside researcher (Ishayahu Lastov, an open argument-graph project on Christian controversies) asked to reuse the census's lineage links and source pointers. A read-only audit of all 69 links that day found: most "Documented" grades rated the evidence for the events a note cites, not the relationship the link claims; "formed" covered three different claims; "contemporary with" claimed nothing; no direction was defined for "argued against"; no link carried its own sources or an ID; several notes carried internal build text into the public site; candidate factual slips in four notes; and missing well-documented tensions (Donatism, a live world, had no links at all). `atlas-v3.html`'s embedded edges were a hand-synced copy that had already drifted from the census on four notes.
+
+**Decided (Mark, one question at a time, 2026-11-06):**
+1. **Six link types**, each read as a sentence, *from* [type] *to*: `gave rise to`, `continued as`, `influenced`, `argued against` (arrow from the critic), `broke with` (a rupture both sides recorded; stored once), `in contact with` (documented contact, no influence claimed; stored once). They replace `formed`, `transmitted to`, `argued against`, `contemporary with` and `in tension with`.
+2. **Sources on every link, the heavier shape:** the world records' own fields (`source_id` where a world record exists, `work`, `locus` with the vendored file and lines, `license`), plus `citation_specificity` and `verification_state`, plus a short verbatim `quote` from the vendored file, re-verified word for word on every review. Documented needs a primary source that shows the relationship itself; a link whose documenting text is not vendored cannot be Documented, and the text goes to the wants register.
+3. **Permanent pair-based IDs** (`from--to`, `--2` for a second link on a pair), without the type, so retyping never breaks a citation; and a **public permanence promise**: movement and link IDs never change once published, removed links go to a retired list (date, reason, replacement, never reused), renamed movements redirect, and every data release carries a number and date.
+4. **Route:** build-cycle discipline in one pull request — Sonnet drafts by era, a script checks every quote against the vendored file, Opus runs the adversarial review (three-round cap), the site code that reads link types is updated, and the atlas's edges are generated from the census instead of hand-synced. **The missing tensions are researched in the same pass.**
+
+**Also decided the same day (org, recorded here for the trail):** Ishayahu receives an interim, non-commercial, attribution-required permission from Faithways Studio, Inc. covering the website data files only, with confidence levels kept attached and no long-term licence commitment; the public data licence is decided with the organisation's structure, before launch.
+
+**Done the same day** (branch `claude/relaxed-hamilton-n6v5ur`): the pass ran in two review rounds of the three-round cap; 69 links became 86 (7 removed, 22 added), release 1. Record: `Build/Ministry/Operations/Audits/2026-11-06_census-lineage-rigor/`.
+
+**Next action:** two movement texts still repeat claims the links corrected (`aquileian-christianity` on who presided at Aquileia; `roman-church-third-century` on Callistus and the lapsed). They belong to whoever next edits those entries; details in the audit README.
+
+---
+
 ## 2026-10-23 — Era VII rulings: census 292→296 (VI.13 split into four regional entries, VI.30 folded into V.17)
 
 **What changed.** After the two Era VII library passes (PRs 1069 and 1071), Mark

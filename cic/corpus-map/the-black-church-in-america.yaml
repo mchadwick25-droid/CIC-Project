@@ -3,6 +3,81 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-black-church-in-america
 works:
+- row_id: cooley_sketches-of-the-life-and-character-of-lemuel-haynes_1837--cooley-life-of-lemuel-haynes
+  work: Cooley, Sketches of the Life and Character of the Rev. Lemuel Haynes (1837)
+  author: cooley
+  locus: chapters I-XVIII at OCR lines 763-14570; Sprague's remarks at 319-760; add 12 to
+    OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1837
+    end: 1837
+    source: 'title page: 1837; Cooley''s preface is dated December 1836'
+    formation_confidence: Documented
+  note: The Life of Haynes by the pastor of the First Church in Granville, Massachusetts;
+    Cooley calls him 'a coloured man' (OCR line 822). Haynes's Rutland sermon is of 1805 and
+    the Life of 1837.
+  source_file: cooley_sketches-of-the-life-and-character-of-lemuel-haynes_1837.txt
+- row_id: elaw_memoirs-of-mrs-zilpha-elaw_1846--memoirs-of-the-life-religious-experience-ministerial-travels
+  work: Memoirs of the Life, Religious Experience, Ministerial Travels and Labours of Mrs.
+    Zilpha Elaw, an American
+  author: elaw
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1846
+    end: 1846
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n1 (the
+      title page prints 1846; the OCR does not give it)'
+    formation_confidence: Documented
+  edition_date:
+    year: 1846
+    source: read on the scan's page image, leaf n1 (the title page prints 1846; the OCR does
+      not give it)
+    formation_confidence: Documented
+  note: 'Era 9 row 231, Zilpha Elaw: her Memoirs.'
+  source_file: elaw_memoirs-of-mrs-zilpha-elaw_1846.txt
+- row_id: foote_brand-plucked-from-the-fire_1879--a-brand-plucked-from-the-fire-an-autobiographical-sketch
+  work: 'A Brand Plucked from the Fire: an autobiographical sketch'
+  author: foote
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1879
+    end: 1879
+    source: 'the printing''s own title page: line 62, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1879
+    source: line 62, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 232, Julia Foote: A Brand Plucked from the Fire.'
+  source_file: foote_brand-plucked-from-the-fire_1879.txt
+- row_id: cooley_sketches-of-the-life-and-character-of-lemuel-haynes_1837--haynes-sermons-and-letters-in-cooley
+  work: Lemuel Haynes, sermons and letters as printed in Cooley's Sketches (1837)
+  author: haynes-lemuel
+  locus: letters at OCR lines 3284-3539; the Rutland sermon on Genesis iii. 4, with its preface,
+    at 4100-4465; the letter to Hosea Ballou at 4470-5315; the appendix of sermons at 14854-16044;
+    add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1805
+    end: 1837
+    source: the sermon was delivered at Rutland in June 1805 (OCR lines 4109-4110) and its
+      preface is dated 30 December 1805 (line 4129); printed in 1837
+    formation_confidence: Documented
+  note: 'Haynes in his own words: the sermon that answered Ballou, his letters, and sermons
+    his son added. Printed by Cooley and by W. B. Haynes; the texts were not compared with
+    the first printings.'
+  source_file: cooley_sketches-of-the-life-and-character-of-lemuel-haynes_1837.txt
 - row_id: humphreys_historical-account-of-the-spg_1730--an-historical-account-of-the-s-p-g-1730-the-chapters-on-the
   work: An Historical Account of the S.P.G. (1730), the chapters on the instruction of Negroes
     and the Codrington bequest
@@ -24,3 +99,76 @@ works:
     these are its earliest own-voice texts. Provisional; David George's narrative is under
     his own slug in the row above.
   source_file: rippon_baptist-annual-register-1790-1793_1793.txt
+- row_id: payne_history-of-the-african-methodist-episcopal-church-v1_1891--history-of-the-african-methodist-episcopal-church-edited-by
+  work: History of the African Methodist Episcopal Church; edited by Rev. C. S. Smith (vol.
+    I)
+  author: payne
+  locus: the outline of Daniel Coker's life and character at lines 5500-5700; the rest not
+    mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1891
+    end: 1891
+    source: 'the printing''s own title page: line 77, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1891
+    source: line 77, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 230, Daniel Coker: Payne''s history of his church, which tells of Coker
+    (Coker''s own Dialogue and Journal were not found in print).'
+  source_file: payne_history-of-the-african-methodist-episcopal-church-v1_1891.txt
+- row_id: rush_short-account-rise-and-progress-african-me-church_1843--a-short-account-of-the-rise-and-progress-of-the-african
+  work: A Short Account of the Rise and Progress of the African Methodist Episcopal Church
+    in America; written by
+  author: rush
+  locus: the election of Abraham Thompson and James Varick as Elders on October 1st, 1820,
+    at lines 1754-1778; the rest not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1843
+    end: 1843
+    source: 'the printing''s own title page: line 126, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1843
+    source: line 126, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 238, James Varick: Rush''s Short Account of the African Methodist Episcopal
+    Church.'
+  source_file: rush_short-account-rise-and-progress-african-me-church_1843.txt
+- row_id: smith-amanda_autobiography-story-of-the-lords-dealings_1893--an-autobiography-the-story-of-the-lord-s-dealings-with-mrs
+  work: 'An Autobiography: the story of the Lord''s dealings with Mrs. Amanda Smith, the colored
+    evangelist; with an'
+  author: smith-amanda
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1893
+    end: 1893
+    source: 'the printing''s own title page: line 54, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1893
+    source: line 54, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 233, Amanda Berry Smith: her Autobiography.'
+  source_file: smith-amanda_autobiography-story-of-the-lords-dealings_1893.txt
+- row_id: spirit-of-missions_v39-1874-12-haiti-triennial-report_1874--holly-triennial-report-of-the-missionary-jurisdiction-of-haiti-in-the-
+  work: Holly, Triennial Report of the Missionary Jurisdiction of Haiti, in The Spirit of
+    Missions, December 1874
+  author: spirit-of-missions
+  locus: OCR lines 2952-3140 and the Haitien Episcopate from 3062; add 11 to OCR line numbers
+    for this file's own
+  role: tradition
+  confidence: provisional
+  note: Holly's own report as dean of the Haitian Episcopal church, June 1874, and the terms
+    of its new episcopate. Its own voice, dated. The Black Church in America entry carries
+    the Haiti line (LA8-6, data release 34), and covers 1874.
+  source_file: spirit-of-missions_v39-1874-12-haiti-triennial-report_1874.txt

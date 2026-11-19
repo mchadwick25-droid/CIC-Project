@@ -57,6 +57,16 @@ works:
 
     '
   source_file: calvin_geneva-catechism_waterman1815.txt
+- row_id: church-of-scotland_acts-of-the-general-assembly-1638-1842_church-law-society1843--acts-of-the-general-assembly-1638-1650
+  work: Acts of the General Assembly of the Church of Scotland, 1638-1842 (Edinburgh, 1843)
+  author: church-of-scotland
+  locus: the acts of the Assemblies from 1638 to 1650, from about OCR line 645; add 12 to
+    OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The Kirk's own acts, reprinted from the original edition. Only the acts of 1638-1650
+    fall inside this entry's window; the acts after 1650, to 1842, have no entry yet.
+  source_file: church-of-scotland_acts-of-the-general-assembly-1638-1842_church-law-society1843.txt
 - row_id: kirk-of-scotland_book-of-common-order-and-westminster-directory_sprott-leishman1868--westminster-directory-1645
   work: A Directory for the Public Worship of God, agreed upon by the Assembly of Divines
     at Westminster (1645), with the Scottish Act of Assembly adopting it
@@ -90,8 +100,8 @@ works:
     pages (the table of heads and chapters I-II, file lines about 28160-28280) is badly garbled,
     so for those pages this file is a second witness only; chapters from about III onward
     are clean. A clean text of the whole is in Dunlop''s Collection of Confessions (1719,
-    archive.org acollectionconf01scotgoog) and in Calderwood''s History vol. III, both verified
-    leads, not yet vendored.
+    archive.org acollectionconf01scotgoog; a verified lead, not vendored, queued in DOWNLOAD-QUEUE.md)
+    and in Calderwood''s History vol. III (vendored as calderwood_history-of-the-kirk-v3-1570-1583_thomson1843.txt).
 
     '
   source_file: kirk-of-scotland_booke-of-the-universall-kirk-1560-1602_peterkin1839.txt

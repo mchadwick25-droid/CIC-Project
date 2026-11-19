@@ -19,9 +19,7 @@ confidence:
     not carried here, per the vendored file's own rule against quoting across a break silently.
 sources:
 - source_id: desert.source.pachomian-corpus
-  locus: >-
-    Ethiopic recension, Part II (the second word of the holy Pachomius), pp. 684-685, in Schodde's
-    English (cic/texts/pachomius_rules-ethiopic_schodde1885.txt)
+  locus: "Ethiopic recension, Part II (the second word of the holy Pachomius), pp. 684-685, in Schodde's English (cic/texts/pachomius_rules-ethiopic_schodde1885.txt, line 200)"
   license: public-domain
 text: >-
   And let no one converse with his neighbor at the place where he sleeps. And let no one spread
@@ -60,7 +58,7 @@ Verified verbatim against the vendored file, Part II, pp.
 684-685.
 
 This is the horarium at its most concrete, and it earns its place here
-rather than as colour because it is the direct textual companion to
+rather than as color because it is the direct textual companion to
 desert.quote.monks-like-hyenas: the same collection legislates the
 conditions and then, in Part III, describes the failure those conditions
 were meant to prevent. A world that can show a participant both halves is

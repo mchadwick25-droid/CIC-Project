@@ -1,0 +1,482 @@
+{
+  "id": "fourth-lateran-council-1215",
+  "kind": "major-council",
+  "kindLabel": "Major council",
+  "era": 5,
+  "name": "Fourth Lateran Council",
+  "shortName": "Lateran IV",
+  "informalName": "The general council of the Lateran",
+  "dates": "1215",
+  "start": 1215,
+  "end": 1215,
+  "region": "Rome, in the Lateran basilica",
+  "placeLabel": "Rome",
+  "modernCountries": [
+    {
+      "country": "Italy",
+      "countryId": "Q38",
+      "place": "Rome",
+      "placeId": "Q220",
+      "pleiadesId": "423025"
+    }
+  ],
+  "rivers": [
+    "Latin West",
+    "Syriac East"
+  ],
+  "teaser": "Rome, 1215. Pope Innocent III held a general council at the Lateran. Its canons set out the faith and the change of bread and wine in substance. They bound every believer to yearly confession, moved against heretics and rebuked the Greeks.",
+  "knownFor": "The council of Innocent III that defined the change of bread and wine in substance and bound every believer to yearly confession and Easter communion.",
+  "datesNote": "1215, the year the Annals of the Four Masters and Nicolaus Glassberger give. Hethum of Korykos enters it under the Armenian year 664, which his editors convert as 27 January 1215 to 26 January 1216. A papal catalogue printed by Franz Ehrle puts it in Innocent's eighteenth year. The Annals of Ulster and of Kilronan, as John O'Donovan quotes them, enter it under 1216. No source we draw on from the time gives a month or day. By Carl Mirbt's dating it met from 11 to 30 November 1215; Ghewond Alishan gives 11 November.",
+  "issue": [
+    "Hethum of Korykos was an Armenian chronicler whose table its editors date to 1296. He says Pope Innocent held a general council to tear Jerusalem from the hands of the unbelievers.",
+    "The notice of the council in Mansi's collection is an early-modern editor's summary, reprinted in the Patrologia Latina. It gives three aims. The first was to correct the corrupt morals of the people, the second to condemn heretics. The third was to turn princes and people to the recovery of the Holy Land.",
+    "Abbot Joachim of Fiore had written a tract against Peter Lombard on the unity of the Trinity. In it he called Lombard a heretic and a madman for what he said in his Sentences. Lombard had said that there is one supreme reality which is Father, Son and Holy Spirit, and which neither begets nor is begotten nor proceeds. By the canon's report, Joachim held that this made the shared essence a fourth beside the three persons. He took the unity of the three to be like that of many people called one people (canon 2). The tract itself is not among our sources.",
+    "Canon 4 gives the Latin charge against the Greeks. Since their church had withdrawn from obedience to Rome, Greeks had washed altars where Latin priests had celebrated, as though defiled. They had also baptized again those the Latins had baptized. Some, it says, still did.",
+    "Canon 3 condemns every heresy raised against the catholic faith, by whatever names its followers go. It names no group. The names Albigenses and Waldenses come from the headings in Denzinger's Enchiridion, in Clemens Bannwart's edition of 1911."
+  ],
+  "calledBy": "Innocent III. The notice in Mansi says he called it and presided over it. One manuscript of Pulkava's Bohemian chronicle adds a passage, printed in its editor's note. It says letters went out from the pope through the world in 1213 about calling a council, beginning \"Vineam Domini Sabaoth\". That letter is not among our sources.",
+  "attended": [
+    "No list of names and no account from inside the sessions is among our sources.",
+    "Hethum of Korykos counts 422 bishops and 72 archbishops. The Maronite patriarch and historian Istifan al-Duwayhi gives 411 bishops from the East and the West. His Arabic text is badly read in our copy and is used only as a second witness. The papal catalogue printed by Ehrle says almost the body of the whole universal church came together. The count in the notice in Mansi is unreadable in our copy.",
+    "The Maronite patriarch was there. Jacques de Vitry writes that the Maronites kept the customs and rites of the Latins as a sign of obedience. So, he says, their patriarch came to the general council of the Lateran under Innocent III. Vitry does not name him; al-Duwayhi calls him Jeremiah (second witness only).",
+    "Fulk, bishop of Toulouse, went with Dominic, by the account of Jordan of Saxony, Dominic's successor as master of the Preachers.",
+    "Irish bishops came. The Annals of the Four Masters, in O'Donovan's English, say Conar O'Heney, bishop of Killaloe, died on his way home from the council. In the same year they enter the death at Rome of Dionysius O'Lonargan, archbishop of Cashel. The Annals of Ulster, in O'Donovan's notes, say Eghdon Mac Gilluir, coarb of Patrick and primate of Ireland, died at Rome after the general council.",
+    "Whether Francis of Assisi was there: Gerard de Frachet wrote a Dominican collection of about 1260. In it he tells of Dominic meeting Francis in a church at Rome. Dominic was there to press the pope to confirm his order. One manuscript and Placid Conway's English put this during the Lateran council. The collection's editor, Reichert, dates it to 1215. The Observant Franciscan chronicler Nicolaus Glassberger says Francis met Dominic at the council. Neither says Francis sat in the sessions."
+  ],
+  "decided": [
+    "Canon 1 set out the faith. There is one true God, Father, Son and Holy Spirit. There is one universal church of the faithful, outside which no one at all is saved. Christ's body and blood are truly contained in the sacrament of the altar, under the forms of bread and wine. By God's power the bread is changed in substance into the body, and the wine into the blood. Only a rightly ordained priest can make this sacrament. Baptism profits children and adults alike, a fallen Christian can be restored by penance, and married people too can reach eternal blessedness.",
+    "Canon 2 condemned Joachim's tract. With the approval of the council, the pope believed and confessed with Peter Lombard. Whoever defends Joachim's teaching on this point is to be refuted as a heretic. The monastery of Fiore was spared, because its rule was sound. Above all, it was spared because Joachim had ordered all his writings handed to Rome to be approved or corrected. He gave the order in a letter he signed with his own hand. The same canon condemned the teaching of Almaric as not so much heretical as mad, without saying what it was.",
+    "Canon 3 dealt with heretics. The condemned were left to the secular powers for punishment; suspects who did not clear themselves were excommunicated, and after a year condemned as heretics. Rulers were to swear publicly to drive out from their lands all heretics marked out by the church. A lord who would not was excommunicated. After a year the pope might free his vassals and offer his land to Catholics. Those who took the cross against heretics gained the Holy Land indulgence. Those who preached without authority from the apostolic see or the bishop of the place were excommunicated. Bishops were to go, twice or at least once a year, through any parish where heretics were said to live. There they were to put three or more men of good name on oath to name them. A negligent bishop was to be deposed.",
+    "Canon 4 said the pope wished to cherish and honor the Greeks returning to obedience. He would bear with their customs and rites as far as he could in the Lord. It forbade the washing of altars and the second baptism, \"that there may be one fold and one shepherd\", on pain of excommunication and deposition.",
+    "Canon 5 ranked the patriarchs after Rome: Constantinople first, Alexandria second, Antioch third, Jerusalem fourth.",
+    "Canon 21 spoke to every believer of either sex, past the age of discretion. They were bound to confess all their sins at least once a year to their own priest. They were to do the penance given. They were to receive communion at least at Easter, unless their priest advised a pause for a reasonable cause. Whoever refused was to be barred from the church in life and denied Christian burial. A priest who revealed a confession was to be deposed and shut in a strict monastery for life.",
+    "Canons 23 to 26 ruled on the election of bishops. Canon 62 forbade the sale of relics, and the public veneration of newly found ones without the pope's approval. The crusade decree made the clergy give a twentieth of their church income for three years to the Holy Land. Some religious and the crusaders themselves were excepted. The pope and cardinals would pay a full tenth.",
+    "Canon 13, as the Bollandists quote it from Labbe, forbade anyone to found a new religious order. Whoever wished to enter religion was to take one already approved."
+  ],
+  "outcome": [
+    "When Dominic and Fulk asked for the order, Innocent told Dominic to go back to his brothers. With them he was to choose a rule already approved and return for confirmation. With the council over, they went back and chose the rule of Augustine (Jordan of Saxony). Honorius III confirmed the order (Bartholomew of Trent's Life of Dominic). The Bollandists, in the eighteenth century, connect Innocent's answer with canon 13.",
+    "Innocent died at Perugia in July 1216 (the notice in Mansi, after the Ursberg chronicler; Glassberger; the Assisi catalogue). Jacques de Vitry tells how he found the body there, stripped of its robes in the night and left almost naked in the church. The cardinals elected Honorius the next day. Röhricht dates Vitry's letter to October 1216.",
+    "On 2 December 1216 Honorius III ordered the bishop of Lucca to stop defaming the abbot and monks of Fiore as heretics. The ground given for calling them heretics was that Innocent, with the council's approval, had condemned Joachim's tract. A letter of Honorius, as the Bollandists print it, is dated 27 December 1220. The letter orders it proclaimed through all Calabria that he holds Joachim to have been a Catholic man. Henry Charles Lea also dates to 1220 a bull calling Joachim a good Catholic.",
+    "The censure of Joachim passed into Gregory IX's Decretals, as Heinrich Denifle notes. By Denifle's dating, the commission at Anagni sat in 1255. It judged that a passage of Joachim's Concordia seemed still to assert the heresy the Lateran council condemned.",
+    "The Franciscan Salimbene wrote that the pope had ordained that there should be no new order of religious mendicants. This, he wrote, was not kept, through the negligence of the prelates. At Lyon in 1274 the Lateran canon was renewed, and the Carmelites and Augustinians were allowed to exist on sufferance, by Lea's account.",
+    "At Trent, the eighth canon on penance, as Mirbt prints it, names the constitution of the great Lateran council. It anathematizes anyone who says the faithful are not bound to confess once a year according to that constitution.",
+    "Jacques de Vitry wrote that the patriarch of the Maronites, with his archbishops, bishops and people, had left all errors. They had submitted to the Catholic faith and the obedience of the Roman church. Röhricht dates the letter to the end of March 1217.",
+    "The Pedalion is the Orthodox canon-law book of Agapios and Nikodemos of Mount Athos, first printed in 1800. Nearly six centuries after the council, it called the meeting a local synod held in the Lateran of Rome in 1215. It cited canon 4 as proof, by the testimony of the Greeks' own enemies, that the Easterners then baptized Westerners who came over."
+  ],
+  "record": [
+    {
+      "witness": "The canons in Carl Mirbt's extracts: canons 1, 3, 21, 23 to 26, 62 and the crusade decree (Quellen zur Geschichte des Papsttums, 1911)",
+      "kind": "acts",
+      "note": "The council's own voice, in a modern source book; Mirbt prints from Mansi tome 22 and the Corpus iuris. Mansi tome 22 itself is not among our sources."
+    },
+    {
+      "witness": "The canons in Heinrich Denzinger's extracts: canons 1, 2, 3 (one paragraph), 4, 5 and 21 (Enchiridion symbolorum, 1911)",
+      "kind": "acts",
+      "note": "The council's own voice, in a modern source book. The headings naming Albigenses and Waldenses are those of Denzinger's Enchiridion, in Clemens Bannwart's edition of 1911."
+    },
+    {
+      "witness": "Canon 13, quoted by the Bollandists from Labbe (Acta Sanctorum, August I, 1750)",
+      "kind": "acts",
+      "note": "Also quoted, from Salimbene, in the notes of Glassberger's editors (1887)."
+    },
+    {
+      "witness": "Canon 13, as Salimbene quotes it, in the notes of Glassberger's editors (Analecta Franciscana II, 1887)",
+      "kind": "acts",
+      "note": "The council's own words, through a Franciscan chronicler and modern editors."
+    },
+    {
+      "witness": "Phrases of canon 1 in Cajetan's commentary (Leonine Summa, 1906)",
+      "kind": "acts",
+      "note": "The council's own words, quoted by a Dominican commentator."
+    },
+    {
+      "witness": "Notice of the council from Mansi tome 22, reprinted in the Patrologia Latina 214",
+      "kind": "modern reconstruction",
+      "note": "An early-modern editor's summary from the papal side; its count of bishops is unreadable in our copy."
+    },
+    {
+      "witness": "Jordan of Saxony, Libellus on the beginnings of the Order of Preachers",
+      "kind": "later narrative",
+      "note": "Dominic's successor as master; Dominican side. Tells of Dominic and Fulk going to the council."
+    },
+    {
+      "witness": "Bartholomew of Trent, Life of Dominic",
+      "kind": "later narrative",
+      "note": "Dominican, before the middle of the thirteenth century, by the Bollandists."
+    },
+    {
+      "witness": "Gerard de Frachet, Lives of the Brethren (Reichert's Latin; Conway's English)",
+      "kind": "later narrative",
+      "note": "Dominican, about 1260; tells of Dominic meeting Francis at Rome, during the council in one manuscript and in Conway's English, by a friar minor's report."
+    },
+    {
+      "witness": "Jacques de Vitry, Historia orientalis and his letters of 1216 and 1217",
+      "kind": "later narrative",
+      "note": "Latin crusade preacher, later bishop of Acre; no source among ours puts him at the council. Witness to the Maronite patriarch's attendance and submission and to Innocent's death at Perugia."
+    },
+    {
+      "witness": "Honorius III, letters of 1216 and 1220 on the monks of Fiore (Acta Sanctorum, May VI)",
+      "kind": "later narrative",
+      "note": "The next pope acting on canon 2; papal side. The two-column print is interleaved in our copy."
+    },
+    {
+      "witness": "Joachim of Fiore, letter of submission (1200), and his Psalterium decem chordarum as Buonaiuti quotes it",
+      "kind": "later narrative",
+      "note": "The condemned party's own voice, written before the council; not a witness to it. The letter is the one canon 2 cites."
+    },
+    {
+      "witness": "Hethum of Korykos, chronological table",
+      "kind": "later narrative",
+      "note": "Armenian, of Cilicia; composed in 1296, by its editors; gives the aim and the count of 422 bishops and 72 archbishops."
+    },
+    {
+      "witness": "Istifan al-Duwayhi, History of the Maronites",
+      "kind": "later narrative",
+      "note": "Maronite; second witness only, from a damaged Arabic OCR. Gives 411 bishops and names the patriarch Jeremiah."
+    },
+    {
+      "witness": "Annals of the Four Masters, with the Annals of Ulster and of Kilronan in John O'Donovan's notes",
+      "kind": "later narrative",
+      "note": "Irish; the Irish bishops who died at Rome or on the way home."
+    },
+    {
+      "witness": "Salimbene, Chronicle (G. G. Coulton's English)",
+      "kind": "later narrative",
+      "note": "Franciscan; complains that the ban on new orders was not kept."
+    },
+    {
+      "witness": "Nicolaus Glassberger, Chronica",
+      "kind": "later narrative",
+      "note": "Observant Franciscan; says Francis met Dominic at the council."
+    },
+    {
+      "witness": "The Pedalion (Agapios and Nikodemos)",
+      "kind": "later narrative",
+      "note": "The Orthodox canon-law collection, first printed in 1800; the church canon 4 rebuked. Calls the council local."
+    },
+    {
+      "witness": "Catalogue of the popes in an Assisi manuscript, printed by Franz Ehrle",
+      "kind": "later narrative",
+      "note": "Papal side; Ehrle identifies it as the catalogue of Richard of Poitiers, a monk of Cluny. Puts the council in Innocent's eighteenth year and his death on the tenth day before the Kalends of August."
+    },
+    {
+      "witness": "Variant manuscript of Pulkava's Bohemian chronicle, in its editor's note",
+      "kind": "later narrative",
+      "note": "Bohemian; says letters went out from the pope in 1213 about calling a council, beginning \"Vineam Domini Sabaoth\"."
+    },
+    {
+      "witness": "Protocol of the commission at Anagni, printed by Heinrich Denifle",
+      "kind": "later narrative",
+      "note": "Papal commission on Joachim's works; judges that a passage of the Concordia seems still to assert the heresy condemned at the Lateran council."
+    },
+    {
+      "witness": "John Covel, Some Account of the Present Greek Church",
+      "kind": "later narrative",
+      "note": "Anglican, 1722; hostile; calls it a pretended general council and says two Latin titular patriarchs sat for Constantinople and Jerusalem."
+    },
+    {
+      "witness": "Ghewond Alishan, Léon le Magnifique",
+      "kind": "modern reconstruction",
+      "note": "Armenian Mekhitarist scholar, 1888; gives 11 November 1215 and wrongly calls it a council held at Lyon."
+    },
+    {
+      "witness": "Carl Mirbt; Henry Charles Lea; Heinrich Denifle",
+      "kind": "modern reconstruction",
+      "note": "Mirbt gives the days 11 to 30 November; Lea and Denifle trace canon 2 and canon 13 into later law and councils."
+    }
+  ],
+  "traditions": [
+    {
+      "id": "latin-papal-church-gregorian",
+      "name": "The Latin Papal Church (Gregorian Reform to Innocent III)",
+      "part": "Gathered",
+      "note": "Innocent III called the council and presided (the notice in Mansi); canon 5 calls the Roman church mother and teacher of all Christ's faithful."
+    },
+    {
+      "id": "maronite-christianity",
+      "name": "Maronite Christianity",
+      "part": "Gathered",
+      "note": "Its patriarch came to the council, Jacques de Vitry writes, and by 1217 had submitted with his bishops and people to the Roman church."
+    },
+    {
+      "id": "the-dominican-order",
+      "name": "The Dominican Order",
+      "part": "Gathered",
+      "note": "Jordan of Saxony tells how Dominic came with Fulk of Toulouse to ask Innocent to confirm an order of Preachers. After the council, he says, the brothers took Augustine's rule."
+    },
+    {
+      "id": "joachimite-current",
+      "name": "Joachimite Current",
+      "part": "Condemned",
+      "note": "Canon 2 condemned Joachim's tract against Peter Lombard and spared his monastery; Honorius III later forbade the monks to be called heretics."
+    },
+    {
+      "id": "cathars-albigensians",
+      "name": "Cathars / Albigensians",
+      "part": "Condemned",
+      "note": "Canon 3 condemned all heretics, and canon 1 affirmed that married people too can be saved. The canons name no group. The name Albigenses is a heading in Denzinger's Enchiridion, in Bannwart's edition of 1911."
+    },
+    {
+      "id": "the-waldensians",
+      "name": "The Waldensians",
+      "part": "Condemned",
+      "note": "Canon 3 excommunicated those who preached without authority from the pope or bishop. The canon names no group. The name Waldenses is a heading in Denzinger's Enchiridion, in Bannwart's edition of 1911."
+    },
+    {
+      "id": "byzantine-church-after-1054",
+      "name": "The Byzantine Church after the Schism",
+      "part": "Affected",
+      "note": "Canon 4 rebuked the Greeks for washing altars and baptizing again; the Pedalion later called the council a local synod and cited the canon."
+    },
+    {
+      "id": "the-franciscan-movement",
+      "name": "The Franciscan Movement",
+      "part": "Affected",
+      "note": "Salimbene, a Franciscan, complained that the council's ban on new orders of mendicants was not kept."
+    },
+    {
+      "id": "the-carmelites",
+      "name": "The Carmelites",
+      "part": "Affected",
+      "note": "When the Lateran canon on new orders was renewed at Lyon in 1274, the Carmelites were allowed to exist on sufferance (Lea)."
+    }
+  ],
+  "people": [
+    {
+      "name": "Innocent III",
+      "id": "innocent-iii",
+      "verdict": "STORY",
+      "part": "Called and presided; told Dominic to choose an approved rule; died at Perugia the next summer"
+    },
+    {
+      "name": "Dominic",
+      "verdict": "WHO",
+      "part": "Came with Fulk of Toulouse to ask for an order of Preachers"
+    },
+    {
+      "name": "Fulk of Toulouse",
+      "verdict": "NOT SCORED",
+      "part": "Bishop of Toulouse; went to the council with Dominic"
+    },
+    {
+      "name": "The Maronite patriarch",
+      "verdict": "LISTED",
+      "part": "Attended, by Jacques de Vitry's account; named Jeremiah by al-Duwayhi"
+    },
+    {
+      "name": "Joachim of Fiore",
+      "verdict": "WHO",
+      "part": "Dead; his tract against Peter Lombard condemned in canon 2, his monastery spared"
+    },
+    {
+      "name": "Almaric",
+      "verdict": "NOT SCORED",
+      "part": "Dead; his teaching condemned in canon 2; exhumed and burned at Paris, by the notice in Mansi"
+    },
+    {
+      "name": "Dionysius O'Lonargan",
+      "verdict": "NOT SCORED",
+      "part": "Archbishop of Cashel; died at Rome"
+    },
+    {
+      "name": "Conar O'Heney",
+      "verdict": "NOT SCORED",
+      "part": "Bishop of Killaloe; died on his way home from the council"
+    },
+    {
+      "name": "Eghdon Mac Gilluir",
+      "verdict": "NOT SCORED",
+      "part": "Coarb of Patrick and primate of Ireland; died at Rome after the council, by the Annals of Ulster"
+    },
+    {
+      "name": "Francis of Assisi",
+      "verdict": "WHO",
+      "part": "Met Dominic at Rome during the council, by Gerard de Frachet's and Glassberger's accounts"
+    },
+    {
+      "name": "Honorius III",
+      "verdict": "NOT SCORED",
+      "part": "Not shown present; as the next pope, protected Joachim's monks and confirmed the Preachers"
+    }
+  ],
+  "briefLength": "about 2 minutes 30 seconds",
+  "uncertain": [
+    "No account from inside the sessions is among our sources. Most canons we hold come in extracts printed by Mirbt and Denzinger. Canon 13 is also quoted by the Bollandists and, from Salimbene, by Glassberger's editors. Phrases of canon 1 are quoted by Cajetan's commentary in the Leonine Summa. Canons 67 to 70, on the Jews, are not among them; the full acts, in Mansi tome 22, are not held.",
+    "The count: Hethum gives 422 bishops and 72 archbishops. Al-Duwayhi, a second witness only, gives 411 bishops. The count in the notice in Mansi is unreadable in our copy. No source among ours gives a number of abbots.",
+    "The days, 11 to 30 November, are Mirbt's dating, and the opening on 11 November is also Alishan's. Alishan wrongly calls it a council held at Lyon. No source we draw on from the time gives a month or day. The Annals of Ulster and of Kilronan enter the council under 1216.",
+    "Whether the council was general or local: Denzinger and the notice in Mansi number it the twelfth ecumenical council. Vitry and the Irish annals call it general. The Pedalion calls it a local synod. John Covel, an Anglican writer of 1722, calls it a pretended general council.",
+    "Whether Francis was at Rome during the council rests on Gerard de Frachet and on Glassberger. In Gerard's case, this is so in one manuscript, in Conway's English and by Reichert's dating. Neither puts him in the sessions.",
+    "What canon 13 forbade: the Bollandists and Salimbene, as Glassberger's editors quote him, give its wording: no one is to found a new religious order. In another passage, in Coulton's English, Salimbene summarizes it as a ban on new orders of mendicants.",
+    "Innocent's death day: the notice in Mansi, after the Ursberg chronicler, and Glassberger give the sixteenth day before the Kalends of August (17 July). The catalogue printed by Ehrle gives the tenth (23 July).",
+    "The 1220 letter on Joachim: our copy prints two columns interleaved. So the passage on Calabria and the date of 27 December 1220 are read as part of a letter of Honorius. That letter is addressed to the archbishop of Cosenza and the bishop of Bisignano. Lea agrees on a bull of 1220.",
+    "The Maronite patriarch's name, and the pallium al-Duwayhi says the pope gave him, rest on al-Duwayhi alone, read as a second witness."
+  ],
+  "sources": {
+    "fromTheCouncil": [
+      {
+        "title": "Das vierte Laterankonzil: canons 1, 3, 21, 23-26, 62 and the crusade decree",
+        "author": "Fourth Lateran Council, in Carl Mirbt, Quellen zur Geschichte des Papsttums und des römischen Katholizismus, 3rd ed.",
+        "language": "Latin, with German headings",
+        "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt"
+      },
+      {
+        "title": "Concilium Lateranense IV: canons 1, 2, 3, 4, 5 and 21",
+        "author": "Fourth Lateran Council, in Heinrich Denzinger and Clemens Bannwart, Enchiridion symbolorum",
+        "language": "Latin",
+        "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt"
+      },
+      {
+        "title": "Canon 13, as quoted from Labbe",
+        "author": "Fourth Lateran Council, in the Bollandists' Acta Sanctorum, August I",
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_augusti-tomus-1-lat_1750.txt"
+      },
+      {
+        "title": "Canon 13, as Salimbene quotes it, in the notes to Glassberger's Chronica",
+        "author": "Fourth Lateran Council, in Salimbene, quoted by the editors of Analecta Franciscana II",
+        "language": "Latin",
+        "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt"
+      },
+      {
+        "title": "Phrases of canon 1, quoted in Cajetan's commentary",
+        "author": "Fourth Lateran Council, in Cajetan's commentary in the Leonine Summa theologiae, tome 12",
+        "language": "Latin",
+        "file": "cic/texts/thomas-aquinas_opera-omnia-t12-summa-theologiae-lat_leonine1906.txt"
+      }
+    ],
+    "writtenLater": [
+      {
+        "title": "Libellus de principiis ordinis Praedicatorum",
+        "author": "Jordan of Saxony, in Acta Sanctorum, August I",
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_augusti-tomus-1-lat_1750.txt"
+      },
+      {
+        "title": "Vita altera of Dominic",
+        "author": "Bartholomew of Trent, in Acta Sanctorum, August I",
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_augusti-tomus-1-lat_1750.txt"
+      },
+      {
+        "title": "Vitae fratrum ordinis Praedicatorum",
+        "author": "Gerard de Frachet, ed. B. M. Reichert",
+        "language": "Latin",
+        "file": "cic/texts/gerard-de-frachet_vitae-fratrum-lat_reichert1896.txt"
+      },
+      {
+        "title": "The Lives of the Brethren of the Order of Preachers",
+        "author": "Gerard de Frachet, trans. Placid Conway",
+        "language": "English translation",
+        "file": "cic/texts/gerard-de-frachet_lives-of-the-brethren_conway1924.txt"
+      },
+      {
+        "title": "Historia orientalis et occidentalis",
+        "author": "Jacques de Vitry",
+        "language": "Latin",
+        "file": "cic/texts/jacques-de-vitry_historia-orientalis-et-occidentalis-lat_1597.txt"
+      },
+      {
+        "title": "Letters I and II (1216-1217)",
+        "author": "Jacques de Vitry, ed. R. Röhricht",
+        "language": "Latin",
+        "file": "cic/texts/jacques-de-vitry_briefe-in-zeitschrift-fuer-kirchengeschichte-14-lat-deu_rohricht1894.txt"
+      },
+      {
+        "title": "Letters on the monks of Fiore (1216, 1220)",
+        "author": "Honorius III, in Acta Sanctorum, May VI",
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_maii-tomus-6-lat_1739.txt"
+      },
+      {
+        "title": "Letter of submission (1200), written before the council and cited in canon 2",
+        "author": "Joachim of Fiore, in Acta Sanctorum, May VI",
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_maii-tomus-6-lat_1739.txt"
+      },
+      {
+        "title": "Psalterium decem chordarum, quoted in Ernesto Buonaiuti's notes",
+        "author": "Joachim of Fiore, in Buonaiuti's edition of the Tractatus super quatuor Evangelia",
+        "language": "Latin",
+        "file": "cic/texts/joachim-fiore_tractatus-super-quatuor-evangelia-lat_buonaiuti1930.txt"
+      },
+      {
+        "title": "Notitia ex conciliis (from Mansi, tome 22)",
+        "author": "in Patrologia Latina 214, ed. J.-P. Migne",
+        "language": "Latin",
+        "file": "cic/texts/innocent-iii_opera-with-gesta-innocentii-pl214-lat_migne1853.txt"
+      },
+      {
+        "title": "Chronological table",
+        "author": "Hethum of Korykos, in Recueil des historiens des croisades, Documents arméniens I",
+        "language": "French translation",
+        "file": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt"
+      },
+      {
+        "title": "Tarikh al-ta'ifa al-maruniyya (History of the Maronites)",
+        "author": "Istifan al-Duwayhi, ed. Rashid al-Khuri al-Shartuni",
+        "language": "Arabic",
+        "file": "cic/texts/duwayhi_tarikh-al-ta-ifa-al-maruniyya-ara_shartuni1890.txt"
+      },
+      {
+        "title": "Annals of the Kingdom of Ireland by the Four Masters, vol. III",
+        "author": "ed. and trans. John O'Donovan",
+        "language": "Irish and English",
+        "file": "cic/texts/four-masters_annals-of-the-kingdom-of-ireland-v3-1172-1378-gle-eng_odonovan1856.txt"
+      },
+      {
+        "title": "Pulkava's Bohemian chronicle, variant reading in the editor's note",
+        "author": "in Fontes rerum Bohemicarum V",
+        "language": "Latin",
+        "file": "cic/texts/laurentius-de-brezova_historia-hussitica-lat-ces_goll1893.txt"
+      },
+      {
+        "title": "Catalogue of the popes in an Assisi manuscript",
+        "author": "printed by Franz Ehrle, Archiv für Literatur- und Kirchengeschichte des Mittelalters I",
+        "language": "Latin",
+        "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt"
+      },
+      {
+        "title": "Das Evangelium aeternum und die Commission zu Anagni, with the commission's protocol",
+        "author": "Heinrich Denifle, in Archiv für Literatur- und Kirchengeschichte des Mittelalters I",
+        "language": "German and Latin",
+        "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt"
+      },
+      {
+        "title": "Chronicle",
+        "author": "Salimbene, in G. G. Coulton, From St. Francis to Dante",
+        "language": "English translation",
+        "file": "cic/texts/salimbene_from-st-francis-to-dante_coulton1907.txt"
+      },
+      {
+        "title": "Chronica",
+        "author": "Nicolaus Glassberger, Analecta Franciscana II",
+        "language": "Latin",
+        "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt"
+      },
+      {
+        "title": "Pedalion",
+        "author": "Agapios and Nikodemos the Hagiorite",
+        "language": "Greek",
+        "file": "cic/texts/nikodemos-hagiorite_pedalion-canons-grc_1886.txt"
+      },
+      {
+        "title": "Some Account of the Present Greek Church",
+        "author": "John Covel",
+        "language": "English",
+        "file": "cic/texts/covel_some-account-of-the-present-greek-church_1722.txt"
+      },
+      {
+        "title": "A History of the Inquisition of the Middle Ages, vol. III",
+        "author": "Henry Charles Lea",
+        "language": "English",
+        "file": "cic/texts/lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt"
+      },
+      {
+        "title": "Léon le Magnifique",
+        "author": "Ghewond Alishan",
+        "language": "French",
+        "file": "cic/texts/alishan_leon-le-magnifique-et-table-chronologique-de-sissouan-fra_alishan1888.txt"
+      }
+    ]
+  }
+}

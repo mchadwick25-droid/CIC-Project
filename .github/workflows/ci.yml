@@ -147,6 +147,8 @@ jobs:
       crossworld: ${{ steps.filter.outputs.crossworld }}
       checkertests: ${{ steps.filter.outputs.checkertests }}
       docker: ${{ steps.filter.outputs.docker }}
+      tree: ${{ steps.filter.outputs.tree }}
+      standard: ${{ steps.filter.outputs.standard }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -171,6 +173,21 @@ jobs:
             census:
               - 'cic-website/data/world-census.json'
               - 'tools/validate-census.mjs'
+              - 'tools/tests/validate_census_outcome.test.mjs'
+              - 'tools/tests/validate_census_secondary.test.mjs'
+              - 'tools/tests/validate_census_kind.test.mjs'
+              - 'tools/tests/validate_census_retired.test.mjs'
+              - 'tools/tests/validate_census_people.test.mjs'
+              - 'tools/tests/validate_census_online.test.mjs'
+              - 'tools/tests/validate_census_river_origins.test.mjs'
+              - 'tools/tests/validate_census_council.test.mjs'
+              - 'tools/tests/validate_census_story_text.test.mjs'
+              - 'tools/tests/validate_census_renderings.test.mjs'
+              - 'tools/tests/validate_census_quotation_originals.test.mjs'
+              - 'tools/quote_renderings.json'
+              - 'cic/texts/**'
+              - 'cft-website/index.html'
+              - 'engine/m6/**'
               - '.github/workflows/**'
             # Library Access Gate D3 SS6.3 (increment 5): a corpus-map or
             # vendored-text-only change is neither `engine/**` nor
@@ -180,6 +197,8 @@ jobs:
             # is why this budget discipline exists.
             library:
               - 'cic/**'
+              - 'cic-website/data/world-census.json'
+              - 'cic-website/data/corpus-coverage.json'
               - '.github/workflows/**'
             # Everything a world's build gates read: its records, compiled
             # packages, the engine that gates them, and its build documents.
@@ -201,8 +220,33 @@ jobs:
             # tradition-page copy edit) has no reason to run the
             # engine-tests battery, the same budget discipline `library`
             # above already exists for.
+            # The Church Family Tree writing standard is locked: a change needs a
+            # new Decision-Log entry with Mark's words (Mark, 2026-11-16).
+            standard:
+              - 'Build/Ministry/Features/Church-Family-Tree/Brief-Kit/**'
+              - 'Build/Ministry/Features/Church-Family-Tree/Who-Profiles/bar/**'
+              - 'tools/check_standard_lock.py'
+              - 'tools/tests/test_check_standard_lock.py'
+              - 'tools/check_brief_variety.py'
+              - 'tools/tests/test_check_brief_variety.py'
+              - 'tools/list_second_readings.py'
+              - 'tools/tests/test_list_second_readings.py'
+              - 'tools/check_tree_overlap.py'
+              - 'tools/tests/test_check_tree_overlap.py'
+              - '.github/workflows/**'
+            tree:
+              - 'cic-website/**'
+              - 'cft-website/**'
+              - 'cic-worker/**'
+              - 'tools/build_tree_site.mjs'
+              - 'Build/tools/generate_tree_pages*'
+              - 'Build/tools/tree_site_pages.json'
+              - 'wrangler.jsonc'
+              - 'wrangler.cft.jsonc'
+              - '.github/workflows/**'
             site:
               - 'cic-website/**'
+              - 'cft-website/**'
               - 'records/**'
               - 'engine/**'
               - '.github/workflows/**'
@@ -261,13 +305,49 @@ jobs:
     if: needs.changes.outputs.census == 'true'
     name: Validate world-census.json
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    # The census tests rerun the full quotation check against the held texts
+    # several times; with release 51 that alone runs past ten minutes.
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /*
+            !/cic/texts/
+            !/cic-website/audio/
+            !/cft-website/audio/
+          sparse-checkout-cone-mode: false
+      - name: Stand in empty files for the excluded paths
+        run: |
+          git ls-files -z -- cic/texts cic-website/audio cft-website/audio | while IFS= read -r -d '' f; do
+            mkdir -p "$(dirname "$f")"
+            : > "$f"
+          done
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - run: node tools/validate-census.mjs cic-website/data/world-census.json
+      - name: Fetch the vendored texts the census quotes
+        run: |
+          node -e 'const d=require("./cic-website/data/world-census.json");const s=new Set();for(const e of d.edges??[])for(const x of e.sources??[])if(x.file)s.add(x.file);for(const m of d.movements??[]){for(const p of m.people??[])if(p.source?.file)s.add(p.source.file);for(const g of Object.values((m.card??m.council)?.sources??{}))for(const x of g)if(x.file)s.add(x.file)}console.log([...s].join("\n"))' > "$RUNNER_TEMP/census-texts.txt"
+          # The clone is blob:none, so each `git show` of a missing blob would be its own round trip
+          # to GitHub (over 600 files, most of the job's time limit). Fetch all the blobs in one request first.
+          xargs -a "$RUNNER_TEMP/census-texts.txt" -d '\n' git ls-tree HEAD -- | awk '{print $3}' |
+            git -c fetch.negotiationAlgorithm=noop fetch --quiet origin --no-tags --no-write-fetch-head --recurse-submodules=no --filter=blob:none --stdin
+          while IFS= read -r f; do
+            [ -n "$f" ] && git show "HEAD:$f" > "$f"
+          done < "$RUNNER_TEMP/census-texts.txt"
+      - name: Published version to check permanence against
+        run: |
+          git fetch --quiet --depth=1 --filter=blob:none origin "${{ github.base_ref || 'main' }}"
+          git show "FETCH_HEAD:cic-website/data/world-census.json" > "$RUNNER_TEMP/census-base.json"
+      - run: node tools/validate-census.mjs --base "$RUNNER_TEMP/census-base.json" --atlas cft-website/index.html --tree cft-website/tree cic-website/data/world-census.json
+      - run: node --test tools/tests/validate_census_outcome.test.mjs tools/tests/validate_census_secondary.test.mjs tools/tests/validate_census_kind.test.mjs tools/tests/validate_census_retired.test.mjs tools/tests/validate_census_people.test.mjs tools/tests/validate_census_online.test.mjs tools/tests/validate_census_river_origins.test.mjs tools/tests/validate_census_council.test.mjs tools/tests/validate_census_story_text.test.mjs tools/tests/validate_census_renderings.test.mjs tools/tests/validate_census_quotation_originals.test.mjs
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install pyyaml
+      - run: python -m engine.m6.cli atlas-check --edges-only
 
   # Added by the Repo Structure Cleanup thread (Build/Ministry/Operations/Standing/
   # CiC_Repo_Structure_Tracking.md, 2026-09-14). Fails when a repo-relative path
@@ -280,13 +360,66 @@ jobs:
   # Not gated on the `changes` filter on purpose: it reads only .md files,
   # needs no dependencies, and costs seconds - and a docs-only commit is
   # exactly the kind that breaks a path.
+  # The Church Family Tree site is assembled from cic-website/ and cft-website/
+  # by tools/build_tree_site.mjs; it fails when a copy differs from its source.
+  tree-site:
+    needs: changes
+    if: needs.changes.outputs.tree == 'true'
+    name: Tree site build (copies match their sources)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /*
+            !/cic/texts/
+            !/cic-website/audio/
+            !/cft-website/audio/
+          sparse-checkout-cone-mode: false
+      - name: Stand in empty files for the excluded paths
+        run: |
+          git ls-files -z -- cic-website/audio cft-website/audio | while IFS= read -r -d '' f; do
+            mkdir -p "$(dirname "$f")"
+            : > "$f"
+          done
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Restore the narration manifests the page generator reads
+        run: |
+          git show HEAD:cft-website/audio/tree/manifest.json > cft-website/audio/tree/manifest.json
+          git show HEAD:cft-website/audio/docstories/manifest.json > cft-website/audio/docstories/manifest.json
+      - run: node tools/build_tree_site.mjs
+      - run: node --test cic-worker/worker.test.mjs Build/tools/generate_tree_pages.test.mjs
+
   check-paths:
     name: Cited paths resolve; retired paths absent
     runs-on: ubuntu-latest
     timeout-minutes: 10
     continue-on-error: true
     steps:
+      # The check reads Markdown and tests whether cited paths exist; it never
+      # reads the vendored texts or the audio (about 2.5 of the repository's
+      # 2.9 GB). Those two trees are left out of the working tree and stood in
+      # for by empty files, so every existence test answers as it does on a
+      # full checkout, and the runner downloads a seventh of the data.
       - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /*
+            !/cic/texts/
+            !/cic-website/audio/
+            !/cft-website/audio/
+          sparse-checkout-cone-mode: false
+      - name: Stand in empty files for the excluded paths
+        run: |
+          git ls-files -z -- cic/texts cic-website/audio cft-website/audio | while IFS= read -r -d '' f; do
+            mkdir -p "$(dirname "$f")"
+            : > "$f"
+          done
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -304,16 +437,123 @@ jobs:
     timeout-minutes: 10
     continue-on-error: true
     steps:
+      # On a pull request the check reads the checker itself, the one engine
+      # module it imports, and the files the PR edits. The history is fetched
+      # in full (the merge-base needs it) without file contents, and only
+      # those files are written out, so the runner downloads megabytes
+      # instead of the 2.9 GB tree. A push scans the whole tree, so it checks
+      # out everything.
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          filter: ${{ github.event_name == 'pull_request' && 'blob:none' || '' }}
+          sparse-checkout: ${{ github.event_name == 'pull_request' && '/tools/' || '' }}
+          sparse-checkout-cone-mode: false
+      - name: Write out the files this PR edits
+        if: github.event_name == 'pull_request'
+        run: |
+          base="$(git merge-base "origin/${{ github.base_ref }}" HEAD)"
+          { printf '/engine/__init__.py\n/engine/m1/\n'
+            git diff --name-only --diff-filter=AM "$base" HEAD | sed 's/[][*?\\]/\\&/g; s|^|/|'
+          } | git sparse-checkout add --stdin
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - name: Add the files the scan reads beyond the edited ones
+        if: github.event_name == 'pull_request'
+        run: python tools/check_live_commentary.py --sparse-paths | git sparse-checkout add --stdin
       - if: github.event_name == 'pull_request'
         run: python tools/check_live_commentary.py --base "origin/${{ github.base_ref }}" --enforce
       - if: github.event_name != 'pull_request'
         run: python tools/check_live_commentary.py
+
+  # Everything the project writes in modern English uses American spelling
+  # (Answering-From-Sources Decision-Log 77); quotations from editions, quoted
+  # titles and proper names keep their own. The check reads only the files the
+  # PR edits, in the trees tools/check_spelling.py has moved into ENFORCED once
+  # their fleet pass landed; elsewhere it reports and never fails.
+  spelling:
+    name: American spelling (files this PR edits)
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          sparse-checkout: /tools/
+          sparse-checkout-cone-mode: false
+      - name: Write out the files this PR edits
+        run: |
+          base="$(git merge-base "origin/${{ github.base_ref }}" HEAD)"
+          { printf '/engine/__init__.py\n/engine/m1/__init__.py\n/engine/m1/spelling_table.py\n'
+            git diff --name-only --diff-filter=AM "$base" HEAD | sed 's/[][*?\\]/\\&/g; s|^|/|'
+          } | git sparse-checkout add --stdin
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install pyyaml
+      - run: python tools/check_spelling.py --base "origin/${{ github.base_ref }}" --enforce
+
+  # Who and council profile briefs a PR adds or edits are graded: grade 10.0
+  # at most on the full text, reading ease 60 or above with proper names left
+  # out (Brief-Kit/Kit.md, Part 1). A brief the PR does
+  # not touch, or only moves, is not read, so the briefs written before the
+  # check do not fail a PR that leaves their words alone.
+  # A PR that changes the Church Family Tree writing standard (Brief-Kit/,
+  # Who-Profiles/bar/) fails
+  # unless it adds a Decision-Log entry that names Mark and quotes him.
+  standard-lock:
+    needs: changes
+    if: github.event_name == 'pull_request' && needs.changes.outputs.standard == 'true'
+    name: Writing standard lock (Mark's words in the Decision-Log)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          sparse-checkout: |
+            /tools/
+            /Build/Ministry/Operations/Audits/2026-11-17_varied-batch*/*/*.r50.brief.txt
+            /Build/Ministry/Operations/Audits/2026-11-17_batch-3/*/*.brief.txt
+            /Build/Ministry/Operations/Audits/2026-11-17_batch-3/*/*.card.json
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install pytest
+      - run: python -m pytest tools/tests/test_check_standard_lock.py tools/tests/test_check_brief_variety.py tools/tests/test_list_second_readings.py tools/tests/test_check_tree_overlap.py -q
+      - run: python tools/check_standard_lock.py --base "origin/${{ github.base_ref }}"
+
+  profile-readability:
+    name: Profile readability (briefs this PR edits)
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          sparse-checkout: |
+            /engine/__init__.py
+            /engine/m1/__init__.py
+            /engine/m1/fk.py
+            /engine/m1/profile_readability.py
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Write out the profile briefs this PR edits
+        run: |
+          briefs="$(python -m engine.m1.profile_readability --base "origin/${{ github.base_ref }}" --list)"
+          if [ -n "$briefs" ]; then
+            printf '%s\n' "$briefs" | sed 's/[][*?\\]/\\&/g; s|^|/|' | git sparse-checkout add --stdin
+          fi
+      - run: python -m engine.m1.profile_readability --base "origin/${{ github.base_ref }}"
 
   # A PR that touches a world's records or its build documents runs that
   # world's after-edit gates: required record types and the site JSON with no
@@ -330,6 +570,31 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          filter: blob:none
+          sparse-checkout: |
+            /*
+            !/cic/texts/
+            !/cic-website/audio/
+            !/cft-website/audio/
+          sparse-checkout-cone-mode: false
+      - name: Tree hash of cic/texts
+        id: texts
+        run: echo "tree=$(git rev-parse HEAD:cic/texts)" >> "$GITHUB_OUTPUT"
+      - name: Restore cic/texts from the cache
+        id: textscache
+        uses: actions/cache/restore@v4
+        with:
+          path: cic/texts
+          key: texts-${{ steps.texts.outputs.tree }}
+      - name: Write out cic/texts when the cache has no copy
+        if: steps.textscache.outputs.cache-hit != 'true'
+        run: git sparse-checkout add /cic/texts/
+      - name: Stand in empty files for the excluded audio
+        run: |
+          git ls-files -z -- cic-website/audio cft-website/audio | while IFS= read -r -d '' f; do
+            mkdir -p "$(dirname "$f")"
+            : > "$f"
+          done
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -363,6 +628,32 @@ jobs:
     timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /*
+            !/cic/texts/
+            !/cic-website/audio/
+            !/cft-website/audio/
+          sparse-checkout-cone-mode: false
+      - name: Tree hash of cic/texts
+        id: texts
+        run: echo "tree=$(git rev-parse HEAD:cic/texts)" >> "$GITHUB_OUTPUT"
+      - name: Restore cic/texts from the cache
+        id: textscache
+        uses: actions/cache/restore@v4
+        with:
+          path: cic/texts
+          key: texts-${{ steps.texts.outputs.tree }}
+      - name: Write out cic/texts when the cache has no copy
+        if: steps.textscache.outputs.cache-hit != 'true'
+        run: git sparse-checkout add /cic/texts/
+      - name: Stand in empty files for the excluded audio
+        run: |
+          git ls-files -z -- cic-website/audio cft-website/audio | while IFS= read -r -d '' f; do
+            mkdir -p "$(dirname "$f")"
+            : > "$f"
+          done
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -373,9 +664,16 @@ jobs:
       - run: python cic/engine/corpus_index.py --build
       - run: python cic/engine/works_registry.py --check
       - run: python cic/engine/author_ids.py --check
-      - run: python cic/engine/texts_registry.py
-      - run: python cic/engine/texts_registry.py --check-readme
-      - run: python cic/engine/tests_corpus_index.py
+      - run: python cic/engine/texts_registry.py --check
+      - run: python cic/engine/renderings.py --check
+      # cic-website/data/corpus-coverage.json is generated from the census, the
+      # corpus map and the vendored texts; it fails when the committed copy
+      # differs from what the generator writes now.
+      - name: Atlas coverage feed matches its generator
+        run: |
+          python cic/engine/corpus_coverage.py
+          git diff --exit-code -- cic-website/data/corpus-coverage.json
+      - run: python cic/engine/tests_corpus_index.py --reuse-index
       - run: python cic/engine/tests_corpus_structure.py
       - run: python cic/engine/tests_passage_index.py
       - run: python cic/engine/tests_corpus_map.py
@@ -397,6 +695,33 @@ jobs:
     timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /*
+            !/cic/texts/
+            !/cic-website/audio/
+            !/cft-website/audio/
+            /cic-website/audio/cards/
+          sparse-checkout-cone-mode: false
+      - name: Tree hash of cic/texts
+        id: texts
+        run: echo "tree=$(git rev-parse HEAD:cic/texts)" >> "$GITHUB_OUTPUT"
+      - name: Restore cic/texts from the cache
+        id: textscache
+        uses: actions/cache/restore@v4
+        with:
+          path: cic/texts
+          key: texts-${{ steps.texts.outputs.tree }}
+      - name: Write out cic/texts when the cache has no copy
+        if: steps.textscache.outputs.cache-hit != 'true'
+        run: git sparse-checkout add /cic/texts/
+      - name: Stand in empty files for the excluded audio
+        run: |
+          git ls-files -z -- cic-website/audio cft-website/audio ':!cic-website/audio/cards' | while IFS= read -r -d '' f; do
+            mkdir -p "$(dirname "$f")"
+            : > "$f"
+          done
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -476,6 +801,11 @@ jobs:
       # pinned package under the current voice shape. It never fails the
       # suite and is not a requirement for a promotion to live.
       - run: python -m engine.m3.admission_conform
+      # Gold-set tools for "Answering from the Sources" stage 1: the
+      # labeller's verbatim-evidence check, the seeded-defect rules, the
+      # catch-rate count, the split and seal, and the rule that only the
+      # trial reads the held-out half. No model call.
+      - run: python -m pytest Sandbox/Answering-From-Sources/goldset/tests -q
 
       # M4 event log, projection, entrance seal, resume, turn loop.
       # Started stage 5 non-model half (Artifact-3's event log/store,
@@ -560,6 +890,32 @@ jobs:
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /*
+            !/cic/texts/
+            !/cic-website/audio/
+            !/cft-website/audio/
+          sparse-checkout-cone-mode: false
+      - name: Tree hash of cic/texts
+        id: texts
+        run: echo "tree=$(git rev-parse HEAD:cic/texts)" >> "$GITHUB_OUTPUT"
+      - name: Restore cic/texts from the cache
+        id: textscache
+        uses: actions/cache/restore@v4
+        with:
+          path: cic/texts
+          key: texts-${{ steps.texts.outputs.tree }}
+      - name: Write out cic/texts when the cache has no copy
+        if: steps.textscache.outputs.cache-hit != 'true'
+        run: git sparse-checkout add /cic/texts/
+      - name: Stand in empty files for the excluded audio
+        run: |
+          git ls-files -z -- cic-website/audio cft-website/audio | while IFS= read -r -d '' f; do
+            mkdir -p "$(dirname "$f")"
+            : > "$f"
+          done
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -614,6 +970,32 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /*
+            !/cic/texts/
+            !/cic-website/audio/
+            !/cft-website/audio/
+          sparse-checkout-cone-mode: false
+      - name: Tree hash of cic/texts
+        id: texts
+        run: echo "tree=$(git rev-parse HEAD:cic/texts)" >> "$GITHUB_OUTPUT"
+      - name: Restore cic/texts from the cache
+        id: textscache
+        uses: actions/cache/restore@v4
+        with:
+          path: cic/texts
+          key: texts-${{ steps.texts.outputs.tree }}
+      - name: Write out cic/texts when the cache has no copy
+        if: steps.textscache.outputs.cache-hit != 'true'
+        run: git sparse-checkout add /cic/texts/
+      - name: Stand in empty files for the excluded audio
+        run: |
+          git ls-files -z -- cic-website/audio cft-website/audio | while IFS= read -r -d '' f; do
+            mkdir -p "$(dirname "$f")"
+            : > "$f"
+          done
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -639,6 +1021,20 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /*
+            !/cic/texts/
+            !/cic-website/audio/
+            !/cft-website/audio/
+          sparse-checkout-cone-mode: false
+      - name: Stand in empty files for the excluded paths
+        run: |
+          git ls-files -z -- cic/texts cic-website/audio cft-website/audio | while IFS= read -r -d '' f; do
+            mkdir -p "$(dirname "$f")"
+            : > "$f"
+          done
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -661,12 +1057,26 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /*
+            !/cic/texts/
+            !/cic-website/audio/
+            !/cft-website/audio/
+          sparse-checkout-cone-mode: false
+      - name: Stand in empty files for the excluded paths
+        run: |
+          git ls-files -z -- cic/texts cic-website/audio cft-website/audio | while IFS= read -r -d '' f; do
+            mkdir -p "$(dirname "$f")"
+            : > "$f"
+          done
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
           cache: pip
-      - run: pip install pytest
-      - run: python -m pytest tools/tests/test_check_live_commentary.py tools/tests/test_check_live_commentary_scope.py tools/tests/test_check_paths.py tools/tests/test_live_watch.py -q
+      - run: pip install pytest pyyaml
+      - run: python -m pytest tools/tests/test_check_live_commentary.py tools/tests/test_check_live_commentary_scope.py tools/tests/test_check_paths.py tools/tests/test_live_watch.py tools/tests/test_check_spelling.py -q
 
   docker-build:
     needs: changes
@@ -735,6 +1145,20 @@ jobs:
         working-directory: cic-poc/frontend
     steps:
       - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /*
+            !/cic/texts/
+            !/cic-website/audio/
+            !/cft-website/audio/
+          sparse-checkout-cone-mode: false
+      - name: Stand in empty files for the excluded paths
+        run: |
+          git ls-files -z -- cic/texts cic-website/audio cft-website/audio | while IFS= read -r -d '' f; do
+            mkdir -p "$(dirname "$f")"
+            : > "$f"
+          done
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
@@ -765,6 +1189,20 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /*
+            !/cic/texts/
+            !/cic-website/audio/
+            !/cft-website/audio/
+          sparse-checkout-cone-mode: false
+      - name: Stand in empty files for the excluded paths
+        run: |
+          git ls-files -z -- cic/texts cic-website/audio cft-website/audio | while IFS= read -r -d '' f; do
+            mkdir -p "$(dirname "$f")"
+            : > "$f"
+          done
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -798,7 +1236,17 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      # Reads the website's pages only; the vendored texts and the audio are
+      # left out of the working tree (see the cited-paths job).
       - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /*
+            !/cic/texts/
+            !/cic-website/audio/
+            !/cft-website/audio/
+          sparse-checkout-cone-mode: false
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"

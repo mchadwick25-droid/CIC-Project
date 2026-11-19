@@ -24,6 +24,7 @@ edition: "THE PRAKTIKOS IS NOW VENDORED, in Luke Dysinger's English, as cic/text
 
 citation: Evagrius Ponticus, Praktikos, trans. Luke Dysinger, in the Guide to Evagrius Ponticus, ed. Joel Kalvesmaki (2026 edition)
 kind: vendored
+shelf_row: evagrius_praktikos_dysinger--the-praktikos
 rights_status: "MIXED, and this source is the first in the fleet where that matters. The ancient works are public-domain in their surviving versions. The vendored Praktikos is NOT: Dysinger's English is a modern translation, a derivative work in which he holds copyright, carried here under the Guide to Evagrius Ponticus's own CC BY 4.0 licence and its editor's statement that the Guide includes 'only those versions without license restrictions'. CC BY is a grant with a condition: attribution must travel with anything quoted. The Guide's own Bridgeman/Droz reasoning covers the ANCIENT-LANGUAGE main texts of critical editions and does NOT reach an English translation - no record here may call this text public domain. Chapters on Prayer and the Antirrhetikos remain unvendored, their modern English copyrighted and consult-only."
 attribution_status: "attributed; Greek transmission partly pseudonymous (Chapters on Prayer under 'Nilus') - the attribution history is itself evidence and is stated wherever the work is cited"
 discovery_channel: "carried from the prior Desert build's cleared Doc_02 SS1.4 (srcDES004), including its Round-2-corrected pseudonymity scope; PD-English absence re-searched 2026-08-21 (not_found) and re-audited 2026-08-27 (desert.search.evagrius-dysinger-pd), which found the licensed rather than expired route; the Praktikos supplied by Mark 2026-08-27 with the Guide's Credits page text, this build's own network access to that page being blocked"
@@ -38,11 +39,11 @@ transmission channel, not an independent witness.
 Vendored, and the acquisition changes a corpus-wide invariant
 rather than just adding a file. Every other text under cic/texts/ is out
 of copyright by age; this one is in copyright and held under an open
-licence. The difference is an obligation: CC BY grants redistribution on
+license. The difference is an obligation: CC BY grants redistribution on
 condition of attribution, so anything quoted from this file must credit
 Luke Dysinger as translator and the Guide to Evagrius Ponticus as source.
 This corpus meets that as a matter of course - every quote record names
-its translator and edition - but it is now a licence term rather than a
+its translator and edition - but it is now a license term rather than a
 scholarly courtesy, and it is stated here so nobody has to reconstruct it.
 
 The route taken matters for the record. The search asked for a
@@ -53,13 +54,13 @@ third route again - which is what this turned out to be. The prior
 verdict was not wrong about the printed editions; it was too narrow about
 what "vendorable" means.
 
-WHAT THE LICENCE DOES NOT COVER, because it would be easy to over-read.
+WHAT THE LICENSE DOES NOT COVER, because it would be easy to over-read.
 The Guide's Credits page argues at length that the main text of a critical
 edition is not a derivative work and remains public domain (Bridgeman v.
 Corel; Droz v. Garnier). That argument is expressly about ancient-language
 texts - Greek, Syriac and the rest. A translation is the textbook case of
 a work "recast, transformed, or adapted", so Dysinger's English is his own
-copyrighted work and reaches this corpus by his and the Guide's licence,
+copyrighted work and reaches this corpus by his and the Guide's license,
 not by being public domain. Any record saying otherwise is wrong.
 
 ONE QUESTION LEFT OPEN. desert.search.evagrius-dysinger-pd reported, from
@@ -70,7 +71,7 @@ evagriusponticus.net. It is recorded rather than resolved: the operative
 permission is the editor's CC BY grant plus his statement that only
 unrestricted versions are included, and a derivative-rights question
 underneath that grant sits with the Guide rather than with a downstream
-reader acting on its stated licence.
+reader acting on its stated license.
 
 TRANSLATOR'S LENS, worth knowing before quoting. Dysinger is a physician
 as well as a monk, and his English occasionally reaches for clinical

@@ -322,8 +322,8 @@ def files_for_entry(entry_id: str) -> set[str] | None:
     bucket = MAP_DIR / f"{entry_id}.yaml"
     if not bucket.exists():
         return None
-    import yaml
-    data = yaml.safe_load(bucket.read_text(encoding="utf-8")) or {}
+    from yaml_unique import load_unique
+    data = load_unique(bucket.read_text(encoding="utf-8")) or {}
     return {w["source_file"] for w in (data.get("works") or []) if w.get("source_file")}
 
 

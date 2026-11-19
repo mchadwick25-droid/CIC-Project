@@ -1,0 +1,11 @@
+source_file: rauschenbusch_christianity-and-the-social-crisis_1911.txt
+assignments:
+- row_id: rauschenbusch_christianity-and-the-social-crisis_1911--rauschenbusch-christianity-and-the-social-crisis
+  work: 'Rauschenbusch, Christianity and the Social Crisis'
+  author: rauschenbusch
+  locus: 'whole'
+  atlas_ids:
+  - the-social-gospel
+  role: tradition
+  confidence: assigned
+  note: 'His own book, in a 1911 printing of the 1907 text.'

@@ -1,0 +1,887 @@
+[
+ {
+  "item_id": "cx-88de7791a759",
+  "why": "constructed, not read as intended",
+  "world": "rzg",
+  "probe_id": null,
+  "sentence": "We taught that people should search outside of Christ to find out whether they are among the chosen.",
+  "records": [
+   {
+    "id": "rzg.quote.christ-the-mirror-of-election",
+    "means": "Bullinger's confession turns those anxious about election away from self-scrutiny to Christ, the mirror in which believers see their predestination.",
+    "text": "We reject those who seek out of Christ whether they are chosen... Let... Christ be the mirror in which we behold [our] predestination.",
+    "sources": [
+     {
+      "source_id": "rzg.source.second-helvetic-confession",
+      "locus": "ch. X, lines 667, 684-685"
+     }
+    ]
+   }
+  ],
+  "gate": "constructed, never shown",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "negation_modal_shift",
+   "reason": "The confession rejects those who seek outside Christ whether they are chosen and points believers to Christ as the mirror of election; the sentence drops the rejection and reverses the teaching.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "We reject those who seek out of Christ whether they are chosen..."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null,
+  "constructed": {
+   "class": "embedded_voice",
+   "construction": "Bullinger names seeking outside Christ as the error of those he rejects; the sentence voices it as our teaching.",
+   "record_words": "We reject those who seek out of Christ whether they are chosen"
+  }
+ },
+ {
+  "item_id": "gs-1e18a0197625",
+  "why": "key class (specialist)",
+  "world": "gallic",
+  "probe_id": "f4-i-probe-01",
+  "sentence": "He stayed in his cell at his work all day.",
+  "records": [
+   {
+    "id": "gallic.term.cell",
+    "means": "The cell meant the monk's own dwelling, at Tours a hut or cave rarely left except for prayer, at Marseilles a discipline holding the wandering heart still by labour.",
+    "text": "",
+    "sources": [
+     {
+      "source_id": "gallic.source.sulpitius-vita-martini",
+      "locus": "Life of St. Martin ch. X (\"a cell constructed of wood\"; the caves; \"rarely did any one of them go beyond the cell\"); ch. XXIV (\"as he was praying in his cell\"; the purple-robed devil)"
+     },
+     {
+      "source_id": "gallic.source.sulpitius-letters",
+      "locus": "Letter II (\"sitting alone in my cell\")"
+     },
+     {
+      "source_id": "gallic.source.sulpitius-dialogues-ii-iii",
+      "locus": "Dialogues II.11 (the counterfeit's cell \"in the desert\"); II.13 (\"the door of his cell being closed\"; Agnes, Thecla, Mary)"
+     },
+     {
+      "source_id": "gallic.source.cassian-institutes",
+      "locus": "Institutes II.12, 14, 15 (alone or with one; \"some perfectly secure harbour\"; \"nor does he presume even to leave his cell\"); IV.10 (\"do not dare to leave their cell\"); X.1-2 (accidie, \"disgust with the cell,\" the sun \"too slow in setting\")"
+     },
+     {
+      "source_id": "gallic.source.cassian-conferences-part-iii",
+      "locus": "Conferences XVIII.16 (\"the doors of our cell or the recesses of the desert\"; \"no one is more my enemy than my own heart\")"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "negation_modal_shift",
+   "reason": "In the record, staying in the cell at work all day is Cassian's rule for a junior: what he may not do, prescribed from Egypt. The sentence turns that rule into a reported fact about one man who did it, and the record says no Gallic observance of the rule is documented. The Tours passage says only that the brethren rarely went beyond the cell except for prayer.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "nor does he presume even to leave his cell throughout the whole day"
+    },
+    {
+     "block": "R1",
+     "words": "The rule of the cell (not leaving it, alone or with one other) is Cassian's Egyptian prescription, and whether any Gallic house kept it is not documented."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-254c2cea1265",
+  "why": "key class (specialist)",
+  "world": "witt",
+  "probe_id": "f2-i-probe-01",
+  "sentence": "We read Scripture as God's own speech, the Word spoken to us, and we held it as the highest authority over every other voice.",
+  "records": [
+   {
+    "id": "witt.dw.scripture-judges-every-other-voice",
+    "means": "This witness holds that Scripture judged popes, councils, and fathers among us, stated sharply by our founder and more gently by our confession, while Genesis-as-science goes unanswered.",
+    "text": "We held that Scripture judges every other voice, and we said it two ways, in two voices. We hold both, rather than smoothing them into one tone. Our founder said it sharply. Scripture judges popes, councils, and church fathers alike. Before his own day, he said, the Bible itself had come to lie forgotten in the dust under the bench, buried under teaching not its own. If we are all priests, he said, then we may test and judge what is right in matters of faith for ourselves. Our confession states the same rule more gently, alongside the wider Church. Our own doctrine, it says, varies from neither Scripture nor the universal Church nor Rome's own writers. On Genesis read as science, the way modern people argue about it, we have no answer to give. None of our texts takes up Genesis as a question about the age or origin of the natural world, the way your era argues it. They say nothing on it in either direction.",
+    "sources": [
+     {
+      "source_id": "witt.term.the-word",
+      "locus": "'one thing and one only is necessary for Christian life, righteousness and liberty. That one thing is the most holy Word of God, the Gospel of Christ'; 'I did nothing; the Word did it all'"
+     },
+     {
+      "source_id": "witt.term.scripture-against-tradition",
+      "locus": "'the Bible has come to lie forgotten in the dust under the bench'; 'if we are all priests... why should we not also have the power to test and judge what is correct or incorrect in matters of faith?'; our confession's own milder form: doctrine with 'nothing that varies from the Scriptures, or from the Church Catholic, or from the Church of Rome as known from its writers'"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "false_friend",
+   "reason": "The second half (Scripture over every other voice) is in the record, but the record never calls Scripture 'God's own speech' or 'the Word spoken to us'; the sentence makes Scripture the same thing as 'the Word', which the lexicon says must not be read as the Bible-as-book, since it names God's living speech, the Gospel of Christ.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "We held that Scripture judges every other voice, and we said it two ways, in two voices."
+    },
+    {
+     "block": "L",
+     "words": "'the Word' heard as the Bible-as-book, a text one reads and interprets alone"
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-416166546006",
+  "why": "key class (specialist)",
+  "world": "ijc",
+  "probe_id": "f6-i-probe-01",
+  "sentence": "Yes - the answer we could not settle, across the whole window, and the failure we watched open at the close.",
+  "records": [
+   {
+    "id": "ijc.force.chalcedon-failed-consensus",
+    "means": null,
+    "text": "",
+    "sources": [
+     {
+      "source_id": "ijc.source.chalcedon-acts",
+      "locus": "the Definition and session extracts (the settlement's own claim to finality)"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "unsupported",
+   "reason": "The record says the world trusted its way of settling disputes across the whole window and that this failed only at the close, at Chalcedon; the sentence instead says there was an answer the world could not settle across the whole window. The failure opening at the close is supported, but the window-long unsettled answer is not.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "The mechanism this world trusted across the whole window - gather, argue, settle, and expect the settlement to bind - visibly fails at the moment when the stakes are highest"
+    },
+    {
+     "block": "R1",
+     "words": "the rejection hardens into durable division rather than passing like earlier disputes"
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-7bebacbaec04",
+  "why": "key class (specialist)",
+  "world": "alx",
+  "probe_id": "f5-i-probe-01",
+  "sentence": "We know they heard Scripture read aloud in the assembly, and that for them it was not a text studied but the Logos speaking.",
+  "records": [
+   {
+    "id": "alx.term.scripture-as-address",
+    "means": "Scripture was heard as the Logos speaking now through the text to a soul formed to hear, not only a record of what God once said.",
+    "text": "",
+    "sources": [
+     {
+      "source_id": "alx.source.clement-stromateis",
+      "locus": "I, V"
+     },
+     {
+      "source_id": "alx.source.origen-de-principiis",
+      "locus": "IV"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "negation_modal_shift",
+   "reason": "The record says Scripture was not only a record and that interpretation was never the task alone; it also names the teachers' depth-reading as one channel. The sentence turns 'not only' into a flat 'not a text studied', denying the study the record keeps.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "Scripture was heard as the Logos speaking now through the text to a soul formed to hear, not only a record of what God once said."
+    },
+    {
+     "block": "R1",
+     "words": "The task was never correct interpretation alone. It was meeting someone who was speaking now."
+    },
+    {
+     "block": "R1",
+     "words": "The surface sense of Scripture is genuine and not despised, but it is not the whole"
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-9944063d739a",
+  "why": "key class (specialist)",
+  "world": "ijc",
+  "probe_id": "f3-i-probe-01",
+  "sentence": "A bishop's authority rested on sacramental and moral leverage over any ruler, not on his see's rank or pedigree.",
+  "records": [
+   {
+    "id": "ijc.gravity.episcopal-independence",
+    "means": "A bishop's authority to refuse an emperor rests on sacramental and moral leverage, not his see's rank; this record bounds it to Ambrose's career.",
+    "text": "",
+    "sources": [
+     {
+      "source_id": "ijc.source.ambrose-sermo-contra-auxentium",
+      "locus": "the 386 sermon"
+     },
+     {
+      "source_id": "ijc.source.ambrose-epistles",
+      "locus": "Ep. XX-XXI; XL-XLI; LI"
+     },
+     {
+      "source_id": "ijc.source.augustine-confessions",
+      "locus": "IX.7 (independent corroboration of the 386 standoff)"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "generalisation",
+   "reason": "The record bounds this ground of authority to Ambrose's career and says no later actor claimed it; the sentence states it as the general basis of a bishop's authority over any ruler.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "On the evidence, this ground belongs to one bishop's career. No later actor in the window claims authority this way."
+    }
+   ],
+   "record_concern": "The source passages for R1 could not be located, so the record could not be checked against its editions."
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-b7f9c81d2907",
+  "why": "key class (specialist)",
+  "world": "hal",
+  "probe_id": "f2-p-probe-01",
+  "sentence": "But the turning itself was not a failure - it was the beginning of everything we built.",
+  "records": [
+   {
+    "id": "hal.story.ciceronian-dream",
+    "means": "Jerome's self-told dream of the Judge, which evidences a lived tension between classical style and scripture rather than a verifiable event.",
+    "text": "He told the story against himself, in a letter meant to teach. On the road to Jerusalem he could give up everything, he said, except his library. He fasted, and then read Cicero. He wept over his sins, and then took up Plautus again. When he made himself return to the prophets, their style seemed rude and repellent. Then, in a fever so deep his funeral was being prepared, he was dragged in spirit before the judgment seat. Asked who he was, he answered: a Christian. And the Judge said: you lie. You are a follower of Cicero, and not of Christ; for where your treasure is, there will your heart be also. He was flogged, he said, and his conscience burned worse than the lash. He swore an oath that if he ever again possessed worldly books, he would have denied his Lord. He woke with his eyes drenched. From then on, he tells us, he read the divine books with more zeal than he had ever given to the books of men. His enemies later pointed out that his pages never did stop quoting the classics.",
+    "sources": [
+     {
+      "source_id": "hal.source.jerome-ep22",
+      "locus": "sec. 30"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "unsupported",
+   "reason": "The record says only that Jerome reports reading scripture with more zeal after the dream; it never calls the turning the beginning of everything the community built, nor judges whether it was a failure.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "From then on, he tells us, he read the divine books with more zeal than he had ever given to the books of men."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "gs-cfbcee7274b2",
+  "why": "key class (specialist)",
+  "world": "gallic",
+  "probe_id": "f3-i-probe-01",
+  "sentence": "Among us the office was not sought; it came for the man who had fled it.",
+  "records": [
+   {
+    "id": "gallic.dw.laughed-at-and-reported",
+    "means": "This witness says the Gallic monks met no persecution but faced derision at dress, hair and visions, and accusation by bishops and reporters to Africa.",
+    "text": "No, we did not hide in the catacombs. Our age had no persecutor. Sulpitius says of Martin that in the times of Nero and Decius he would have gone gladly to the rack; without them, he gained the honour of martyrdom without shedding his blood - in hunger, in watchings, in nakedness, in fasting. Most emperors in our day were Christian, and that was where our trouble came from. Martin's road began by leaving Caesar's service at a donative. He told Caesar that he was now a soldier of Christ and might not fight. Before he gathered his first brethren, the violence of heretics had driven the bishop Hilary into exile and left the Church in Gaul in disorder. And at Treves, where the bishops had bowed with degenerate submissiveness to the royal retinue, in Martin alone apostolic authority kept its place; he held it a foul and unheard-of thing that a secular ruler should judge a cause of the Church. He yielded there once, to save lives, and never sat with bishops again. What an outsider found strangest, we can only tell from what was laughed at. Some bystanders at a city gate laughed at a soldier walking in half a cloak. Bishops at the election said Martin's person was despicable, his clothing mean, his hair disgusting. Cassian says the Egyptians' sheepskin and little hoods would be laughed at in Gaul, and he told us not to take them up. Our own presbyter, raging in the courtyard, called the saint's visions ridiculous fancies. Sulpitius says that some of Martin's calumniators, though ver",
+    "sources": [
+     {
+      "source_id": "gallic.term.bloodless-martyrdom-confessor",
+      "locus": "'he fully attained to the honor of martyrdom without shedding his blood' (Ep. II, file line 2249); 'in the times of Nero and of Decius' he would have gone to the rack"
+     },
+     {
+      "source_id": "gallic.story.discharge-before-caesar",
+      "locus": "'I am the soldier of Christ: it is not lawful for me to fight' - Caesar's service left at a donative"
+     },
+     {
+      "source_id": "gallic.force.arian-scattering",
+      "locus": "Vita VI (file lines 948-950): the Church in Gaul 'in a distracted condition' because 'the violence of the heretics had driven' Hilary into exile"
+     },
+     {
+      "source_id": "gallic.force.court-at-trier",
+      "locus": "Vita XX (file lines 1563-1565): 'the priestly dignity had, with degenerate submissiveness, taken a second place to the royal retinue, in Martin alone, apostolic authority continued to assert itself'; Sacred History II.50: 'a secular ruler should be judge in an ecclesiastical cause'"
+     },
+     {
+      "source_id": "gallic.story.trier-and-the-ithacian-communion",
+      "locus": "the one communion yielded; 'never again did he attend a synod'"
+     },
+     {
+      "source_id": "gallic.story.the-cloak-at-amiens",
+      "locus": "'Some of the bystanders laughed' at the half-clad soldier"
+     },
+     {
+      "source_id": "gallic.story.election-at-tours",
+      "locus": "Vita IX (file line 1080): 'his clothing was mean, and his hair disgusting' - the bishops' objection"
+     },
+     {
+      "source_id": "gallic.term.the-monks-dress",
+      "locus": "Inst. I.10 (file line 16919): tiny hoods or a sheepskin 'would afford a subject for derision' in Gaul"
+     },
+     {
+      "source_id": "gallic.story.brictio-in-the-courtyard",
+      "locus": "Dial. III.15 (file line 5319): 'ridiculous fancies about visions' - the sneer from inside"
+     },
+     {
+      "source_id": "gallic.source.sulpitius-vita-martini",
+      "locus": "ch. XXVII (div ii.ii.xxviii, file lines 1936-1940): 'some of his calumniators, although very few ... were reported to be no others than bishops!'"
+     },
+     {
+      "source_id": "gallic.term.grace",
+      "locus": "'The men who reported us to Africa' - the brethren at Marseilles reported for what they held about grace; Augustine's treatise as the outsider's report, context only"
+     },
+     {
+      "source_id": "gallic.source.salvian-on-the-government-of-god",
+      "locus": "VIII.4 (Sanford p. 230, file lines 10248-10260): 'within the walls of Carthage' a people 'could scarcely look without reviling and curses at a man pale and in monkish garb, his flowing locks cut even to the shaved skin'; visiting ascetics 'met with contumely, sacrilege and curses ... hissing mockery' - Africa, not Gaul; licensed for forces, not grace"
+     }
+    ]
+   }
+  ],
+  "gate": "kept, cited",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "unsupported",
+   "reason": "The bound record concerns derision and accusation, not how office was taken up; it mentions the election only for the bishops' insults and explicitly sends Martin's luring from his monastery to another record. Nothing in it says that office was never sought among the Gallic monks or came to men who fled it, and it gives no such general pattern.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "the luring of Martin from his monastery and the psalm at his election, which sit in gallic.story.election-at-tours"
+    },
+    {
+     "block": "R1",
+     "words": "Bishops at the election said Martin's person was despicable, his clothing mean, his hair disgusting."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null
+ },
+ {
+  "item_id": "cx-cb5b96e4b7e0",
+  "why": "random sample of constructed items",
+  "world": "ijc",
+  "probe_id": null,
+  "sentence": "Ambrose taught that virginity has its rewards and widowhood its merits, and that there is also a place for humility in marriage.",
+  "records": [
+   {
+    "id": "ijc.quote.the-rewards-of-virginity-the-merits-of-widowhood",
+    "means": "Ambrose ranks virginity, widowhood, and marriage as three roads, calling marriage good and the most travelled but the longest way to the saints.",
+    "text": "...that of widowhood, not so difficult as the former, but being rocky and rough, it requires more cautious travellers. Good too is that of marriage; being smooth and even it reaches the camp of the saints by a longer circuit. This way is taken by most. There are then the rewards of virginity, there are the merits of widowhood, there is also a place for conjugal modesty.",
+    "sources": [
+     {
+      "source_id": "ijc.source.ambrose-epistles",
+      "locus": "Letter LXIII to the Church at Vercellae, sec. 40 (npnf210 lines 45073-45079)"
+     }
+    ]
+   }
+  ],
+  "gate": "constructed, never shown",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "false_friend",
+   "reason": "\"Conjugal modesty\" means chastity within marriage, as the record's rendering shows, not humility. The sentence reads \"modesty\" in its modern sense of humility.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "there is also a place for conjugal modesty"
+    },
+    {
+     "block": "R1",
+     "words": "and there is also a place for chaste married life."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null,
+  "constructed": {
+   "class": "false_friend",
+   "construction": "'Conjugal modesty' means chaste married life (rendered so); the sentence reads 'modesty' as humility.",
+   "record_words": "there are the merits of widowhood, there is also a place for conjugal modesty."
+  }
+ },
+ {
+  "item_id": "cx-b34058170afc",
+  "why": "random sample of constructed items",
+  "world": "witt",
+  "probe_id": null,
+  "sentence": "We granted that the princes oppressed the people and deserved God's judgment, yet we warned the peasants that their own cause must be just.",
+  "records": [
+   {
+    "id": "witt.quote.you-too-must-have-a-care",
+    "means": "Opening his words to the peasants in 1525, Luther grants that the princes oppress them and deserve God's judgment, and then warns the peasants that their own cause must be just.",
+    "text": "So far, dear friends, you have learned only that I admit it to be (sad to say!) all too true and certain that the princes and lords, who forbid the preaching of the Gospel and oppress the people so unbearably, are worthy, and have well deserved, that God put them down from their seats, as men who have sinned deeply against God and man. And they have no excuse. Nevertheless, you, too, must have a care that you take up your cause with a good conscience and with justice.",
+    "sources": [
+     {
+      "source_id": "witt.source.luther-admonition-to-peace",
+      "locus": "An Admonition to Peace (1525), section 'To the Peasants', opening, Philadelphia Ed. vol. IV p. 224 (cic/texts/luther_works-v4-selected_various1931.txt, lines 10671-10679)"
+     }
+    ]
+   }
+  ],
+  "gate": "constructed, never shown",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "generalisation",
+   "reason": "The content matches the passage, but the record gives it as Luther's own concession and warning in one 1525 text; the sentence states it as what the tradition as a whole granted and warned, which no bound record says.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "Opening his words to the peasants in 1525, Luther grants that the princes oppress them and deserve God's judgment, and then warns the peasants that their own cause must be just."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null,
+  "constructed": {
+   "class": "generalisation",
+   "construction": "The record gives this as Luther's concession and warning in one 1525 tract; the sentence makes it the community's own position.",
+   "record_words": "Luther grants that the princes oppress them and deserve God's judgment"
+  }
+ },
+ {
+  "item_id": "cx-5fac55562791",
+  "why": "random sample of constructed items",
+  "world": "lpc",
+  "probe_id": null,
+  "sentence": "Augustine says it is an elderly man nailed to the Cross who speaks here, not even knowing why God has forsaken him.",
+  "records": [
+   {
+    "id": "lpc.quote.the-old-man-nailed-to-the-cross-speaks",
+    "means": "Augustine says the old self nailed to the Cross is the one who cries out, not knowing why God has left him.",
+    "text": "“O God, my God, look upon me, why hast Thou forsaken me far from my salvation?” (ver. 1). Far removed from my salvation: for “salvation is far from sinners.” “The words of my sins.” For these are not the words of righteousness, but of my sins. For it is the old man nailed to the Cross that speaks, ignorant even of the reason why God hath forsaken him: or else it may be thus, The words of my sins are far from my salvation.",
+    "sources": [
+     {
+      "source_id": "lpc.source.augustine-expositions-on-the-psalms",
+      "locus": "Exposition on Psalm 22 (NPNF Psalm XXII; Psalm 21 in the Vulgate and in PL 36), section 2 (also section 2 in PL 36, where the OCR misprints it as 3); English at cic/texts/npnf108_augustine-exposition-psalms.xml, lines 3289-3295; Latin at cic/texts/augustine_enarrationes-in-psalmos-lat_migne-pl36-37.txt, lines 12992-13000"
+     }
+    ]
+   }
+  ],
+  "gate": "constructed, never shown",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "false_friend",
+   "reason": "\"The old man\" renders Augustine's vetus homo, the old self of Romans 6:6, as the record's rendering shows. It does not mean an elderly man, so the sentence misreads the word in its modern sense.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "For it is the old man nailed to the Cross that speaks, ignorant even of the reason why God hath forsaken him"
+    },
+    {
+     "block": "R1",
+     "words": "For it is the old self nailed to the Cross that speaks."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null,
+  "constructed": {
+   "class": "false_friend",
+   "construction": "'The old man' is the old self (rendered 'the old self'); the sentence reads it as an elderly man.",
+   "record_words": "For it is the old man nailed to the Cross that speaks, ignorant even of the reason why God hath forsaken him"
+  }
+ },
+ {
+  "item_id": "cx-f3bef7f3e665",
+  "why": "random sample of constructed items",
+  "world": "lpc",
+  "probe_id": null,
+  "sentence": "Whenever believers were taken captive, our church sent money, collected from the clergy and people, to buy them back.",
+  "records": [
+   {
+    "id": "lpc.quote.a-hundred-thousand-sesterces",
+    "means": "Cyprian says his church sent 100,000 sesterces to buy back captive believers.",
+    "text": "Finally, we give you the warmest thanks that you have wished us to be sharers in your anxiety, and in so great and necessary a work—that you have offered us fruitful fields in which we might cast the seeds of our hope, with the expectation of a harvest of the most abundant fruits which will proceed from this heavenly and saving operation. We have then sent you a sum of one hundred thousand sesterces, which have been collected here in the Church over which by the Lord’s mercy we preside, by the contributions of the clergy and people established with us, which you will there dispense with what diligence you may.",
+    "sources": [
+     {
+      "source_id": "lpc.source.cyprian-epistles",
+      "locus": "Epistle LIX (Oxford Ep. 62), section 3; English at cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml, lines 36072-36089; Latin at cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt, lines 10888-10896"
+     }
+    ]
+   }
+  ],
+  "gate": "constructed, never shown",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "generalisation",
+   "reason": "The record attests one sum sent on one occasion to the Numidian bishops; the sentence turns it into a standing habit ('whenever'), and Cyprian's letter only hopes such captivity will not recur.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "We have then sent you a sum of one hundred thousand sesterces, which have been collected here in the Church over which by the Lord’s mercy we preside"
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null,
+  "constructed": {
+   "class": "generalisation",
+   "construction": "The record gives one sum sent on one occasion to the Numidian bishops; the sentence turns it into a standing habit.",
+   "record_words": "We have then sent you a sum of one hundred thousand sesterces"
+  }
+ },
+ {
+  "item_id": "cx-86fbe94a4e7b",
+  "why": "random sample of constructed items",
+  "world": "rzg",
+  "probe_id": null,
+  "sentence": "Zwingli owned up to having preached his articles in Zurich on the Scriptures, and would be taught better only from those Scriptures.",
+  "records": [
+   {
+    "id": "rzg.quote.taught-better-from-scripture",
+    "means": "Zwingli rests his preached articles on Scripture and will accept correction only from Scripture itself.",
+    "text": "The articles and opinions below, I, Ulrich Zwingli, confess to have preached in the worthy city of Zurich as based upon the Scriptures which are called inspired by God... and where I have not now correctly understood said Scriptures I shall allow myself to be taught better, but only from said Scriptures.",
+    "sources": [
+     {
+      "source_id": "rzg.source.zwingli-sixty-seven-articles",
+      "locus": "preface, lines 4487-4492"
+     }
+    ]
+   }
+  ],
+  "gate": "constructed, never shown",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "false_friend",
+   "reason": "'Confess' here means to declare or profess openly, as the record's rendering 'declare' shows. The sentence turns it into 'owned up', admitting a fault, which the source does not carry; the rest of the sentence is supported.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "The articles and opinions below, I, Ulrich Zwingli, confess to have preached in the worthy city of Zurich"
+    },
+    {
+     "block": "R1",
+     "words": "I, Ulrich Zwingli, declare that I have preached the articles and opinions below"
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null,
+  "constructed": {
+   "class": "false_friend",
+   "construction": "'Confess' means declare (rendered 'I ... declare'); the sentence reads it as admitting a fault.",
+   "record_words": "I, Ulrich Zwingli, confess to have preached in the worthy city of Zurich"
+  }
+ },
+ {
+  "item_id": "cx-bb502e04c046",
+  "why": "random sample of constructed items",
+  "world": "lpc",
+  "probe_id": null,
+  "sentence": "We taught that people's deeds are told apart only by whether they grow from giving alms to the poor.",
+  "records": [
+   {
+    "id": "lpc.quote.love-and-do-what-thou-wilt",
+    "means": "Augustine says the root decides the deed: a father beats a boy from love, a boy-stealer caresses him, so let love be the root.",
+    "text": "A father beats a boy, and a boy-stealer caresses. If thou name the two things, blows and caresses, who would not choose the caresses, and decline the blows? If thou mark the persons, it is charity that beats, iniquity that caresses. See what we are insisting upon; that the deeds of men are only discerned by the root of charity. For many things may be done that have a good appearance, and yet proceed not from the root of charity. For thorns also have flowers: some actions truly seem rough, seem savage; howbeit they are done for discipline at the bidding of charity. Once for all, then, a short precept is given thee: Love, and do what thou wilt: whether thou hold thy peace, through love hold thy peace; whether thou cry out, through love cry out; whether thou correct, through love correct; whether thou spare, through love do thou spare: let the root of love be within, of this root can nothing spring but what is good.",
+    "sources": [
+     {
+      "source_id": "lpc.source.augustine-tractates-on-john-and-related-exegesis",
+      "locus": "Homily 7 on the First Epistle of John (NPNF Homily VII), section 8; English at cic/texts/npnf107_augustine-homilies-john-soliloquies.xml, lines 15529-15531; Latin at cic/texts/augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt, lines 50812-50829"
+     }
+    ]
+   }
+  ],
+  "gate": "constructed, never shown",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "false_friend",
+   "reason": "\"Charity\" here renders caritas, meaning love, as the record's own rendering shows; it does not mean almsgiving. The sentence reads it in the modern sense, and it also gives one homily of Augustine's as what \"we taught\".",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "See what we are insisting upon; that the deeds of men are only discerned by the root of charity."
+    },
+    {
+     "block": "R1",
+     "words": "People’s deeds are told apart only by the root of love."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null,
+  "constructed": {
+   "class": "false_friend",
+   "construction": "The quote's 'charity' means love (its rendering says 'the root of love'); the sentence reads it as almsgiving.",
+   "record_words": "the deeds of men are only discerned by the root of charity"
+  }
+ },
+ {
+  "item_id": "cx-70e8bf939598",
+  "why": "random sample of constructed items",
+  "world": "hal",
+  "probe_id": null,
+  "sentence": "The women of our community learned Hebrew well enough to chant the psalms in it and speak it without a Latin accent.",
+  "records": [
+   {
+    "id": "hal.quote.paula-hebrew-psalms",
+    "means": "Jerome's 404 memorial says Paula learned Hebrew well enough to chant the psalms in it and speak it without a Latin accent.",
+    "text": "Paula, on making up her mind that she too would learn it, succeeded so well that she could chant the psalms in Hebrew and could speak the language without a trace of the pronunciation peculiar to Latin.",
+    "sources": [
+     {
+      "source_id": "hal.source.jerome-ep108",
+      "locus": "sec. 27"
+     }
+    ]
+   }
+  ],
+  "gate": "constructed, never shown",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "generalisation",
+   "reason": "The record credits this Hebrew skill to Paula alone, and it explicitly rules out a claim that all the women of the community learned Hebrew. The sentence widens one woman's accomplishment to the whole community's women.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "Paula, on making up her mind that she too would learn it, succeeded so well that she could chant the psalms in Hebrew"
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null,
+  "constructed": {
+   "class": "generalisation",
+   "construction": "The record says this of Paula alone; the sentence widens it to all the women.",
+   "record_words": "a claim that all the women of the community learned Hebrew"
+  }
+ },
+ {
+  "item_id": "cx-4e73837b558a",
+  "why": "random sample of constructed items",
+  "world": "pahc",
+  "probe_id": null,
+  "sentence": "We are taught that the Lord remembers the wrongs done against him, yet still has compassion on his own creation.",
+  "records": [
+   {
+    "id": "pahc.quote.hermas-doubting",
+    "means": "The Shepherd urges asking God without doubting, since God, unlike people, holds no grudges, while the double-souled receive nothing they ask.",
+    "text": "Put away doubting from you and do not hesitate to ask of the Lord... For He is not like men, who remember evils done against them; but He Himself remembers not evils, and has compassion on His own creature... For those who doubt regarding God are double-souled, and obtain not one of their requests.",
+    "sources": [
+     {
+      "source_id": "pahc.source.shepherd-hermas",
+      "locus": "Mandate 9 (the Shepherd's own instruction, spoken to Hermas)"
+     }
+    ]
+   }
+  ],
+  "gate": "constructed, never shown",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "negation_modal_shift",
+   "reason": "The Shepherd says the Lord, unlike men, does not remember evils done against him. The sentence drops the negation and says he does remember them.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "For He is not like men, who remember evils done against them; but He Himself remembers not evils, and has compassion on His own creature."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null,
+  "constructed": {
+   "class": "negation_modal_shift",
+   "construction": "The record says the Lord remembers no wrongs; the sentence drops the negation.",
+   "record_words": "He himself remembers no wrongs"
+  }
+ },
+ {
+  "item_id": "cx-ab25db9aa92c",
+  "why": "random sample of constructed items",
+  "world": "pahc",
+  "probe_id": null,
+  "sentence": "Polycrates told Victor that his relatives, seven of them bishops, often kept the day when the people put away the leaven.",
+  "records": [
+   {
+    "id": "pahc.quote.polycrates-to-victor",
+    "means": "Polycrates tells Victor of Rome that Asia keeps the exact Passover day, as his bishop relatives did, and will not be frightened into changing.",
+    "text": "As for us, then, we scrupulously observe the exact day, neither adding nor taking away. For in Asia great luminaries have gone to their rest, who shall rise again in the day of the coming of the Lord... Moreover I also, Polycrates, who am the least of you all, in accordance with the tradition of my relatives, some of whom I have succeeded—seven of my relatives were bishops, and I am the eighth, and my relatives always observed the day when the people put away the leaven—I myself, brethren, I say, who am sixty-five years old in the Lord, and have fallen in with the brethren in all parts of the world, and have read through all Holy Scripture, am not frightened at the things which are said to terrify us. For those who are greater than I have said, \"We ought to obey God rather than men.\"",
+    "sources": [
+     {
+      "source_id": "pahc.source.second-third-century-remains",
+      "locus": "Polycrates of Ephesus, from his Epistle to Victor and the Roman Church (anf08 line 72521; the passage at 72582), preserved in Eusebius HE V.24"
+     }
+    ]
+   }
+  ],
+  "gate": "constructed, never shown",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "negation_modal_shift",
+   "reason": "The record says Polycrates' relatives always observed the day; the sentence weakens this to often, shifting the quantifier.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "my relatives always observed the day when the people put away the leaven"
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null,
+  "constructed": {
+   "class": "negation_modal_shift",
+   "construction": "The record says his relatives always kept the day; the sentence shifts always to often.",
+   "record_words": "My relatives always kept the day when the people put away the leaven."
+  }
+ },
+ {
+  "item_id": "cx-2e3c87d61254",
+  "why": "random sample of constructed items",
+  "world": "lpc",
+  "probe_id": null,
+  "sentence": "Our church taught one short rule: love, and do what you will, for from the root of love nothing grows but good.",
+  "records": [
+   {
+    "id": "lpc.quote.love-and-do-what-thou-wilt",
+    "means": "Augustine says the root decides the deed: a father beats a boy from love, a boy-stealer caresses him, so let love be the root.",
+    "text": "A father beats a boy, and a boy-stealer caresses. If thou name the two things, blows and caresses, who would not choose the caresses, and decline the blows? If thou mark the persons, it is charity that beats, iniquity that caresses. See what we are insisting upon; that the deeds of men are only discerned by the root of charity. For many things may be done that have a good appearance, and yet proceed not from the root of charity. For thorns also have flowers: some actions truly seem rough, seem savage; howbeit they are done for discipline at the bidding of charity. Once for all, then, a short precept is given thee: Love, and do what thou wilt: whether thou hold thy peace, through love hold thy peace; whether thou cry out, through love cry out; whether thou correct, through love correct; whether thou spare, through love do thou spare: let the root of love be within, of this root can nothing spring but what is good.",
+    "sources": [
+     {
+      "source_id": "lpc.source.augustine-tractates-on-john-and-related-exegesis",
+      "locus": "Homily 7 on the First Epistle of John (NPNF Homily VII), section 8; English at cic/texts/npnf107_augustine-homilies-john-soliloquies.xml, lines 15529-15531; Latin at cic/texts/augustine_in-ioannis-evangelium-tractatus-lat_migne-garnier1902-t3-pt2.txt, lines 50812-50829"
+     }
+    ]
+   }
+  ],
+  "gate": "constructed, never shown",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "generalisation",
+   "reason": "The precept and its reason match the passage, but the record gives them as Augustine's words in one homily; the sentence makes them what 'our church taught'.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "Augustine says the root decides the deed: a father beats a boy from love, a boy-stealer caresses him, so let love be the root."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null,
+  "constructed": {
+   "class": "generalisation",
+   "construction": "The record gives this as Augustine's precept in one homily on 1 John; the sentence makes it the church's teaching.",
+   "record_words": "Augustine says the root decides the deed"
+  }
+ },
+ {
+  "item_id": "cx-6c7b2700e33d",
+  "why": "random sample of constructed items",
+  "world": "rzg",
+  "probe_id": null,
+  "sentence": "Bullinger's confession rejects those who look to Christ himself to find out whether they are chosen.",
+  "records": [
+   {
+    "id": "rzg.quote.christ-the-mirror-of-election",
+    "means": "Bullinger's confession turns those anxious about election away from self-scrutiny to Christ, the mirror in which believers see their predestination.",
+    "text": "We reject those who seek out of Christ whether they are chosen... Let... Christ be the mirror in which we behold [our] predestination.",
+    "sources": [
+     {
+      "source_id": "rzg.source.second-helvetic-confession",
+      "locus": "ch. X, lines 667, 684-685"
+     }
+    ]
+   }
+  ],
+  "gate": "constructed, never shown",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "false_friend",
+   "reason": "'Seek out of Christ' means seeking apart from Christ, not seeking from him. The sentence reads it the other way and so has the confession reject those who look to Christ, the opposite of its point that Christ is the mirror of election.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "We reject those who try to find out, apart from Christ, whether they are chosen."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null,
+  "constructed": {
+   "class": "false_friend",
+   "construction": "'Out of Christ' means apart from Christ (rendered 'apart from Christ'); the sentence reads it as seeking from Christ.",
+   "record_words": "We reject those who seek out of Christ whether they are chosen"
+  }
+ },
+ {
+  "item_id": "cx-69900f041461",
+  "why": "random sample of constructed items",
+  "world": "alx",
+  "probe_id": null,
+  "sentence": "In the plague, all of our people held nothing back in love, and they visited the sick without fear.",
+  "records": [
+   {
+    "id": "alx.quote.dionysius-plague",
+    "means": "Dionysius's festal letter, quoted by Eusebius at VII.22, says most Christians fearlessly nursed the plague-sick and died with them, taking on their sickness.",
+    "text": "The most of our brethren were unsparing in their exceeding love and brotherly kindness. They held fast to each other and visited the sick fearlessly, and ministered to them continually, serving them in Christ. And they died with them most joyfully, taking the affliction of others, and drawing the sickness from their neighbors to themselves and willingly receiving their pains.",
+    "sources": [
+     {
+      "source_id": "alx.source.eusebius-historia-ecclesiastica",
+      "locus": "VII.22 (npnf201 lines 41084-41090; Dionysius's festal letter quoted verbatim by Eusebius)"
+     },
+     {
+      "source_id": "alx.source.dionysius-extant-fragments",
+      "locus": "the same letter, in a different translation, in the collected fragments - ANF06 Epistle XII, lines 11396-11545, carries a differently worded translation of this passage, e.g. \"Certainly very many of our brethren... did not spare themselves, but kept by each other, and visited the sick\" vs. the npnf201 wording quoted in text"
+     }
+    ]
+   }
+  ],
+  "gate": "constructed, never shown",
+  "specialist": {
+   "model": "claude-opus-5-5",
+   "verdict": "unsupported",
+   "class": "negation_modal_shift",
+   "reason": "Dionysius says most of the brethren nursed the sick fearlessly; the sentence shifts the quantifier from most to all.",
+   "evidence": [
+    {
+     "block": "R1",
+     "words": "The most of our brethren were unsparing in their exceeding love and brotherly kindness."
+    }
+   ],
+   "record_concern": null
+  },
+  "second": null,
+  "constructed": {
+   "class": "negation_modal_shift",
+   "construction": "The record says most of the people held nothing back; the sentence shifts the quantifier to all.",
+   "record_words": "Most of our people held nothing back"
+  }
+ }
+]

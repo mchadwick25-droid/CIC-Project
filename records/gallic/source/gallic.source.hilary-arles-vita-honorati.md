@@ -25,6 +25,7 @@ edition: Hilary of Arles, Sermo de Vita Sancti Honorati, Latin, extracted from M
   50 (1846), vendored as cic/texts/hilary-arles_sermo-de-vita-sancti-honorati_migne-pl50.txt
 citation: Hilary of Arles, Sermo de Vita Sancti Honorati, Latin text from Migne, Patrologia Latina 50 (1846)
 kind: vendored
+shelf_row: hilary-arles_sermo-de-vita-sancti-honorati_migne-pl50--sermo-de-vita-sancti-honorati-episcopi-arelatensis-sermon-on
 rights_status: "public-domain; vendored 2026-09-09 and independently rights-verified (archive.org public-domain/rights metadata directly checked; title, editor, date, and contents independently re-verified)"
 attribution_status: attributed
 discovery_channel: builder-direct-read; Source Registry row 27; a named, vendored text already sitting

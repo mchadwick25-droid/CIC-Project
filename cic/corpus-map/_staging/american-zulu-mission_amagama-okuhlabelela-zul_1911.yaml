@@ -1,0 +1,11 @@
+source_file: american-zulu-mission_amagama-okuhlabelela-zul_1911.txt
+assignments:
+- row_id: american-zulu-mission_amagama-okuhlabelela-zul_1911--american-zulu-mission-amagama-okuhlabelela-zulu-hymnal-1911
+  work: 'American Zulu Mission, Amagama Okuhlabelela (Zulu Hymnal, 1911)'
+  author: american-zulu-mission
+  locus: 'whole'
+  atlas_ids:
+  - southern-african-mission-churches
+  role: tradition
+  confidence: assigned
+  note: 'The mission church''s own hymnal, in an edition of 1911, five years after the entry''s window closes; by its preface the words were then in their eighth edition.'

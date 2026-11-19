@@ -18,8 +18,7 @@ confidence:
     demon's role specifically; the repentance and forgiveness themselves are the narrative's plain claim.
 sources:
 - source_id: gallic.source.sulpitius-dialogues-ii-iii
-  locus: "Dialogues III.15 (npnf211 div ii.iv.iii.xv, file lines 5323-5330): Brictio's sudden return,
-    his plea for pardon at Martin's feet, and Martin's ready forgiveness"
+  locus: "Dialogues III.15 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 5323-5330; div ii.iv.iii.xv): Brictio's sudden return, his plea for pardon at Martin's feet, and Martin's ready forgiveness"
   license: public-domain
 retrieval:
   tier: 3

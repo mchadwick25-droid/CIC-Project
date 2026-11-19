@@ -1,0 +1,11 @@
+source_file: foerstemann_urkundenbuch-reichstag-zu-augsburg-1530-bd-2-deu-lat_1835.txt
+assignments:
+- row_id: foerstemann_urkundenbuch-reichstag-zu-augsburg-1530-bd-2-deu-lat_1835--forstemann-urkundenbuch-of-the-diet-of-augsburg-1530-volume-2
+  work: 'Forstemann, Urkundenbuch of the Diet of Augsburg 1530, volume 2'
+  author: foerstemann
+  locus: 'the whole volume; not mapped'
+  atlas_ids:
+  - lutheran-wittenberg-and-its-congregations
+  role: tradition
+  confidence: provisional
+  note: 'The Protestant estates'' papers and the negotiations of July to November 1530, in German and Latin.'

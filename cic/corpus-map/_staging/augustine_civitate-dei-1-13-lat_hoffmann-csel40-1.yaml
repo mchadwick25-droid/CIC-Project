@@ -9,8 +9,13 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
+    locus_ids: [whole-file]
+    language: lat
+    date: {start: 413, end: 426, source: "npnf102_augustine-city-of-god-christian-doctrine.xml div1 4 Translator's Preface: begun 413, completed 426; P1 and Source_Registry row 24 agree", formation_confidence: Widely Accepted}
     note: >
       Latin critical-text original standing behind the already-vendored
       NPNF1-02 English translation of City of God (Registry row 24). Companion
       file: augustine_civitate-dei-14-22-lat_hoffmann-csel40-2.txt (Books
       XIV-XXII). Not a Manifest G-item.
+    translator: {name: "none (Latin edition); editor: Emanuel Hoffmann (CSEL 40, Pars I)", source: "augustine_civitate-dei-1-13-lat_hoffmann-csel40-1.txt line 2: Augustine of Hippo; Emanuel Hoffmann (Editor)", formation_confidence: Documented}
+    edition_date: {year: 1899, source: "augustine_civitate-dei-1-13-lat_hoffmann-csel40-1.txt line 4: Publication Date: 1899", formation_confidence: Documented}

@@ -20,6 +20,7 @@ edition: Corpus Inscriptionum Latinarum, vol. VIII, Supplementum, Pars II (Numid
   (Berlin, 1894), vendored as cic/texts/cil8-supplementum-numidiae_cagnat-schmidt1894.txt
 citation: The Deo laudes acclamation, attested at CIL VIII 17732 (Bagai), 20482, 17368, and 18669, Corpus Inscriptionum Latinarum, vol. VIII, Supplementum, Pars II (Numidia), ed. Cagnat & Schmidt (Berlin, 1894)
 kind: vendored
+shelf_row: cil8-supplementum-numidiae_cagnat-schmidt1894--corpus-inscriptionum-latinarum-viii-supplementum
 rights_status: "public-domain; vendored, each cited file's own provenance header directly checked and confirmed Public Domain, not assumed"
 attribution_status: attributed
 discovery_channel: Source Registry row 27; builder-prior-knowledge (recognized field category), 2026-09-01;
@@ -27,4 +28,4 @@ discovery_channel: Source Registry row 27; builder-prior-knowledge (recognized f
 external_ids:
   don_source_registry_row: 27
 ---
-Worship/liturgical distinctiveness evidence (Doc_02 SS5) -- CIL VIII 17732, found on two pillars near Bagai itself, reads 'DEO LAVDES' twice, with the editors' own note identifying it as the Donatists' own sign and token, as 'Deo gratias' was the Catholics'. Four catalogued attestations in total, the strongest from Bagai itself, one of the two Donatist seats CIL VIII names for it -- resolved this session from a recognized field category onto specific catalogued inscriptions via row 48's own now-vendored text.
+Worship/liturgical distinctiveness evidence (Doc_02 SS5) -- CIL VIII 17732, found on two pillars near Bagai itself, reads 'DEO LAVDES' twice, with the editors' own note identifying it as the Donatists' own sign and token, as 'Deo gratias' was the Catholics'. Four cataloged attestations in total, the strongest from Bagai itself, one of the two Donatist seats CIL VIII names for it -- resolved this session from a recognized field category onto specific cataloged inscriptions via row 48's own now-vendored text.

@@ -1,0 +1,225 @@
+{
+  "round": 1,
+  "kind": "full",
+  "verdict": "revise",
+  "counts": {
+    "blocking": 0,
+    "substantial": 7,
+    "minor": 14
+  },
+  "findings": [
+    {
+      "id": "R1-01",
+      "target": "the-dominican-order--the-carmelites (grade, note)",
+      "severity": "substantial",
+      "issue": "Graded Widely Accepted for 'the Dominican order influenced the Carmelites'. The secondary (Zimmerman) shows only that the two papal delegates who revised the rule in 1247 were Dominicans. It does not give the consensus reading that the Dominican order shaped the Carmelites. The delegates acted for the pope, not for their order. This grades the event (who the delegates were), not the relationship. No repo-cited secondary carries the influence reading, so Widely Accepted and Dominant Modern Reconstruction are both out of reach. The note's last sentence ('Their letter is already sent to...') does not say what it shows. Nothing in the Carmelite text names this influence: it names the Dominicans only as fellow mendicants. So the note must also say why the link stands alone.",
+      "evidence": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt:21999-22001 (Zimmerman: 'both Dominicans, to make the corrections required'); 22021-22026 (the delegates' salutation 'friars of blessed Mary of Mount Carmel'); 21981-21982 (Innocent's 'hermits of blessed Mary of Mount Carmel'); census the-carmelites.relationsSummary ('One of the mendicant orders alongside the Franciscans and Dominicans').",
+      "fix": "Set confidence to 'Inferential-Thin' and keep specificity A and verified-direct. Replace the note with: 'In 1247 the pope sent two men to revise the Carmelite rule. They were Hugh, a cardinal, and William, bishop of Tortosa. The editor of Teresa's Foundations says both were Dominicans. Their letter calls the Carmelites friars. The pope's own letter still calls them hermits. No text we hold says the Dominicans shaped the order, so this tie is thin.' (Reading Ease 67.8.) Add Innocent's salutation (21980-21983) as a primary source, for the 'hermits' contrast. Add to wants: a repo-cited modern study of the Carmelites' change from hermits to friars."
+    },
+    {
+      "id": "R1-02",
+      "target": "armenian-cilicia--armenian-cilicia-after-the-kingdom (grade)",
+      "severity": "substantial",
+      "issue": "This 'continued as' is graded Documented. The period split falls at 1300 (armenian-cilicia runs c. 1080-1300; the later entry starts 1300). Both quoted lines date to 1292-93, inside the earlier entry, and nothing quoted shows the see after 1300. The note's 'The same line of church leaders went on into the next century' is not shown by any primary. The era-1 bar for 'continued as' of a see is the see shown on both sides of the split, and this link does not meet it. Hethum's vendored table has no catholicos entry after 1293. The vendored editor's introduction to the same volume does carry the step past 1300, but it is secondary.",
+      "evidence": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt:55151-55184 (year 741 = 1292-93); 55195-55300 (no later catholicos entry in the table); 63488-63489 ('sacrer à Sis, en 754 de l'ère arménienne (1305), par le catholicos Grégoire VII, successeur d'Étienne'); 63519-63521 (council of Sis, 19 March 1307, 'confirma comme catholicos Constantin'). Census dates: armenian-cilicia 1080-1300, armenian-cilicia-after-the-kingdom 1300-1441.",
+      "fix": "Set confidence to 'Widely Accepted'. Keep both Hethum quotes as primary, and add the editor's introduction, lines 63488-63489 and 63519-63521, as a secondary source. Replace the note with: 'Hethum, lord of Korikos, kept a table of the years. It says that in 1292 the Mamluk sultan al-Ashraf took Hromkla, where the Armenian patriarchs lived. He seized Catholicos Stephen, and Gregory VII was made head of the church in his place. The table's 1869 editor says Gregory crowned King Leo at Sis in 1305. In 1307 a church council at Sis confirmed the next head of the church.' (Reading Ease 72.9.) The existing wants entry for a post-1293 primary stays. With that primary, the link could return to Documented."
+    },
+    {
+      "id": "R1-03",
+      "target": "byzantine-church-after-1054--latin-papal-church-gregorian--2 (grade)",
+      "severity": "substantial",
+      "issue": "Graded Documented. The quoted profession of faith does not name Michael VIII, Gregory X or Lyon. Its tie to the emperor and the council comes from Denzinger's heading and from Bannwart's 1911 note, which are editorial. The third witness is the First Vatican Council of 1870, six centuries after the event. The drafter flagged this. In the same era, the-dominican-order--the-carmelites and canons-regular-victorine-school--the-franciscan-movement were held at Widely Accepted because an editor, not the primary, supplied the identification. The same rule applies here. Bannwart's note is printed as a primary source but is secondary.",
+      "evidence": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt:14504 (heading); 14506-14646 (the profession's text: no name, no addressee); 14515-14517 (Bannwart's note: 'anno 1267 a CLEMENTE IV ... in Concilio LUGDUN. II GREGORIO X oblata est'); cic/texts/schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt:23524-23530 (1870).",
+      "fix": "Set confidence to 'Widely Accepted'. Change Bannwart's note (14515-14517) to kind 'secondary', and keep the profession and Vatican I as primary. Replace the note's third sentence so the editor is credited: 'At the Second Council of Lyon in 1274, Emperor Michael VIII offered Pope Gregory X a profession of faith. In it the Greek side accepted the full primacy of the Roman church. Its 1911 editor says Pope Clement IV had first put the text to him in 1267. No text we hold tells how the union was refused at home.' (Reading Ease 75.1.) The wants entry for Mansi 24 (Michael's letter) already says what would make it Documented."
+    },
+    {
+      "id": "R1-04",
+      "target": "latin-papal-church-gregorian--byzantine-church-after-1054--2 (duplicate type and direction)",
+      "severity": "substantial",
+      "issue": "This is a second 'argued against' link with the same from, to and type as an existing published link (latin-papal-church-gregorian--byzantine-church-after-1054, the 1054 excommunication). Nothing in the census has two links of one type in one direction on one pair. The brief allows two links on a pair where each is separately true, and its example is two different kinds of tie. A second episode of the same kind belongs in the one link. The type also fits poorly. Innocent III's letters treat Constantinople's church as returned to unity, which is absorption more than an act against it. The Widely Accepted reading of expulsion rests on Mouravieff (1838). The drafter flagged both points.",
+      "evidence": "census edges: latin-papal-church-gregorian--byzantine-church-after-1054 (argued against, Documented) and latin-papal-church-gregorian--byzantine-church-after-1054--2 (argued against, Widely Accepted); cic/texts/theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863.txt:7329-7330, 7698-7699.",
+      "fix": "Remove the --2 link. It is new in this pass and not on main, so it needs no retiredLinks entry. Add its two Theiner primary sources, with Mouravieff 2353-2354 as secondary, to the existing link. Append to that link's note: 'After crusaders took Constantinople in 1204, Pope Innocent III treated its church as his own. In 1205 he wrote that it had lately come back into unity with Rome.' (Reading Ease 61.5 for the added sentences.) The existing link stays Documented on its 1054 evidence. Update the dispositions that cite the --2 id."
+    },
+    {
+      "id": "R1-05",
+      "target": "serbian-and-bulgarian-medieval-monasticism.relationsSummary (prose change E1)",
+      "severity": "substantial",
+      "issue": "The new summary says 'These churches grew out of Byzantine monasticism on Mount Athos'. 'These churches' takes in the Bulgarian church, which is older than the Athonite houses. Nothing cited, and nothing in the link the summary relies on, says it grew out of Athos. The gave-rise-to link's evidence and note cover Nemanja, Sava and Hilandar only. So an unsupported relationship claim for Bulgaria now stands as fact, and the change itself introduced it: the old wording was the looser 'Children of Byzantium/Athos'.",
+      "evidence": "census serbian-and-bulgarian-medieval-monasticism.relationsSummary; link athonite-and-comnenian-byzantine-monasticism--serbian-and-bulgarian-medieval-monasticism (note and sources: Paisii 5691-5692 on Nemanja and Hilandar; Obolensky on Sava); the entry's own longDescription has Tarnovo and John of Rila on the Bulgarian side, with no Athos tie.",
+      "fix": "Replace with: 'Serbian monastic life grew out of Mount Athos, where Sava was a monk and the Serbian house of Hilandar was founded. These churches may also have carried hesychast prayer into the Slavic lands, but no text we hold yet shows it.' (Reading Ease 68.4.)"
+    },
+    {
+      "id": "R1-06",
+      "target": "coptic-christianity-fatimid-to-mamluk.legacy (prose change F3)",
+      "severity": "substantial",
+      "issue": "The new sentence reads '...is usually traced to al-Safi's canons, but we have not yet checked this against the Ethiopian text.' This puts build narration ('we have not yet checked') into participant-facing text. It also states a claim about scholarly consensus ('usually traced') with no repo-cited source. The prose change's own reason says there is none, and grep finds no repo citation for the Fetha Nagast outside this pass's audit files. The rule asks for 'may have', with the reason, not a report on the build.",
+      "evidence": "census coptic-christianity-fatimid-to-mamluk.legacy; Drafting_Record prose_changes F3 reason; grep -rli 'fetha nagast' records/ Build/ cic/ (hits only this audit's files, a design prototype and one unrelated text).",
+      "fix": "Replace the two sentences 'Some of the work done here may have traveled south. The Fetha Nagast ... Ethiopian text.' with: 'Some of the work done here may have traveled south. The Fetha Nagast, the law book of the Ethiopian state into the twentieth century, is said to draw on al-Safi's canons. No text we hold yet shows that line.' (Whole paragraph Reading Ease 72.2.) Keep the Fetha Nagast and al-Safi's canons on the wants list."
+    },
+    {
+      "id": "R1-07",
+      "target": "the-franciscan-movement.relationsSummary (prose change B0), Observants",
+      "severity": "substantial",
+      "issue": "The rewritten summary still claims parentage of the Observants, now 'through its later order'. No link carries either step. A franciscan-movement to franciscan-order-era-6 link exists, but no franciscan-order-era-6 to observant-reform-and-popular-preaching link does. The drafter left that link to era 6. But the launch prompt puts a cross-era link in scope when this era's text names it, and this text does. The vendored Bullarium Franciscanum, new series vol. 1, names Observant friars and their vicars general within the order under Eugenius IV, so a source exists. The sentence is also hard to parse ('Parent of the Spirituals, and through its later order of the Observants').",
+      "evidence": "census the-franciscan-movement.relationsSummary; census edges (no link touching observant-reform-and-popular-preaching); cic/texts/bullarium-franciscanum_nova-series-v1-lat_huntemann1929.txt:10 (content note), 191-192 ('Vicarius generalis pro fratribus regularis observantiae').",
+      "fix": "Either (a) draft franciscan-order-era-6 --gave rise to--> observant-reform-and-popular-preaching from the Bullarium Franciscanum NS 1, with a verbatim quote at its lines, and reword the summary to: 'Sibling and rival of the Dominicans, and parent of the Spirituals. The Observants grew up later inside the same order. Its lay third order, the Order of Penance of 1221, is part of its own story.' (Reading Ease 69.3.) Or (b) drop the Observant clause until the era-6 pass draws the link, and log that in Open-Gaps. (a) is recommended: the source is already vendored."
+    },
+    {
+      "id": "R1-08",
+      "target": "athonite-and-comnenian-byzantine-monasticism--kievan-rus-christianity-1054-1240 and athonite-and-comnenian-byzantine-monasticism--the-georgian-golden-age (grade consistency); prose A8, E0",
+      "severity": "minor",
+      "issue": "These two rest on one vendored nineteenth-century secondary each (Mouravieff 1838; Brosset 1849) and are graded Inferential-Thin. Links resting on the same Mouravieff and Brosset are graded Dominant Modern Reconstruction: byzantine-church-after-1054--kievan-rus-christianity-1054-1240, iconophile-byzantine-monasticism--kievan-rus-christianity-1054-1240, kievan-rus-christianity--kievan-rus-christianity-1054-1240 and georgian-revival-tao-klarjeti--the-georgian-golden-age. Base precedent is Dominant Modern Reconstruction on nineteenth-century editors' introductions (roman-church-gregorian--late-anglo-saxon-christianity, Barmby 1895; early-benedictine-italian-monasticism--cluniac-reform-monasticism, Hunter Blair 1907). Prose A8 and E0 state both ties as plain fact. That fits Dominant Modern Reconstruction, but it reads oddly beside a link graded thin.",
+      "evidence": "census edges listed; cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt:1557-1563; cic/texts/brosset_histoire-de-la-georgie-pt1-fra_1849.txt:2965-2967.",
+      "fix": "Raise both to 'Dominant Modern Reconstruction' and keep their notes, which already name the one source. Split the 28-word first sentence of the Kyiv note: 'A. N. Mouravieff's history of the Russian church, published in 1838, says Anthony took his vows on Mount Athos. He then came home and began the Caves Monastery at Kyiv. The same history says the house's rule came from the Stoudios monastery in Constantinople. No earlier text we hold tells the story.' (Reading Ease 65.5.)"
+    },
+    {
+      "id": "R1-09",
+      "target": "athonite-and-comnenian-byzantine-monasticism.relationsSummary (prose change A7)",
+      "severity": "minor",
+      "issue": "'Likely heir of the monks who fought for icons' claims a probability. The link it rests on is Inferential-Thin, and its note says no text we hold shows the Athonite monks drawing on them. The qualifier should give the reason, not a likelihood.",
+      "evidence": "census iconophile-byzantine-monasticism--athonite-and-comnenian-byzantine-monasticism (note, grade).",
+      "fix": "Replace with: 'Perhaps heir of the monks who fought for icons, though the tie is thin; its way of prayer fed hesychasm' (Reading Ease 85.0)."
+    },
+    {
+      "id": "R1-10",
+      "target": "church-of-the-east-under-the-mongols--church-of-the-east-timur-to-hakkari (source kind)",
+      "severity": "minor",
+      "issue": "Assemani (1725) is listed as a primary source. He is an eighteenth-century compiler summarizing Abdisho, not a witness, and the drafter flagged this. The grade can stand on Sliba alone. Sliba gives the death in 1317 and a vacancy of three months and eight days, which implies the seat was filled, across the 1317 split. But the successor's name rests on Assemani.",
+      "evidence": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt:93989-93994; cic/texts/amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt:11225.",
+      "fix": "Change the Assemani entry to kind 'secondary' and keep its lines and quote in the drafting record. Keep Documented. Reword the last sentence so the reader sees the source's age: 'The scholar Assemani, writing in 1725, names the next head. He was Timothy II, bishop of Mosul and Arbela, chosen in February 1318.' (Whole note Reading Ease 65.1.)"
+    },
+    {
+      "id": "R1-11",
+      "target": "zagwe-and-early-solomonic-ethiopian-christianity--the-ethiopian-monastic-flowering (note)",
+      "severity": "minor",
+      "issue": "The note ends 'The kings changed, but the church and its bishops went on.' No quoted line shows a bishop after 1270. The Life of Takla Haymanot is a later Solomonic hagiography. Its synchronism in the quoted sentence ('when Abba Benyamin was Archbishop of Alexandria') does not fit a boyhood in the Zagwe years, as the drafter flagged. The grade can stand on the saint's passage across the change of kings, but the note should say the Life is late.",
+      "evidence": "cic/texts/gadla-takla-haymanot_life-and-miracles-of-takla-haymanot_budge1906.txt:5539-5543, 6760-6761.",
+      "fix": "Replace the last sentence. New note: 'The Life of the monk Takla Haymanot says he was made a deacon as a boy by Bishop Gerlos, 'in the kingdom of Zaga'. The same Life says Yekuno Amlak 'brought back the kingdom from the Zague'. The Life was written down later, and some of its dates do not fit. It still shows the same church carrying its saint across the change of kings.' (Reading Ease 83.6.)"
+    },
+    {
+      "id": "R1-12",
+      "target": "post-aksumite-ethiopian-christianity--zagwe-and-early-solomonic-ethiopian-christianity (note)",
+      "severity": "minor",
+      "issue": "The note presents the Synaxarium entry without saying the book of saints is a later compilation. It also gives the bishop's name as Severus, where Budge prints 'sAwiROS (severus ?)' with a query.",
+      "evidence": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt:35445-35447.",
+      "fix": "Replace the first sentence: 'The Ethiopian church's book of saints, put together later, says Cyril, the sixty-seventh patriarch of Alexandria, sent Ethiopia a bishop. Its translator reads his name as Severus.' Keep the rest. (Whole note Reading Ease 62.8.)"
+    },
+    {
+      "id": "R1-13",
+      "target": "church-of-the-east-under-the-mongols--latin-papal-church-gregorian (note)",
+      "severity": "minor",
+      "issue": "'In Gascony' is stated as fact. Budge prints the place as 'Kasônia (Gascony ?)', with a query.",
+      "evidence": "cic/texts/yahballaha-sauma_monks-of-kublai-khan_budge1928.txt:3188, 7618.",
+      "fix": "Change to 'He then gave communion to the king of England, probably in Gascony.' (Whole note Reading Ease 64.7.)"
+    },
+    {
+      "id": "R1-14",
+      "target": "latin-papal-church-gregorian--the-humiliati (note)",
+      "severity": "minor",
+      "issue": "Foxe reports the chronicler and then says the story 'seemeth not to be true', because Lucius reigned twenty years before Innocent III. His doubt is about the friars approved in the Humiliati's place, not the rejection itself. Still, the note gives the report without its reporter's caution.",
+      "evidence": "cic/texts/foxe_acts-and-monuments-v4_cattley-townsend1837.txt:38611-38614.",
+      "fix": "Add one sentence before the last: 'Foxe himself doubted part of that chronicler's story.' (Whole note Reading Ease 68.8.)"
+    },
+    {
+      "id": "R1-15",
+      "target": "latin-papal-church-gregorian--the-humiliati--2 and the-humiliati.longDescription/why (date)",
+      "severity": "minor",
+      "issue": "The link note says Innocent III approved the Humiliati 'around 1200', as both its sources do (Giussano: 1200). The prose rewritten in this pass keeps '1201'. The drafter says no source shows 1201. The reader now sees two dates for one act.",
+      "evidence": "cic/texts/giussano_life-of-st-charles-borromeo-v1_1884.txt:12177-12178; census the-humiliati.longDescription and .why ('took the Humiliati back in 1201').",
+      "fix": "Make the prose match the sources: 'Pope Innocent III took the Humiliati back around 1200.' Put Innocent III's letters of 1201 (Tiraboschi), already on the wants list, against the restored year."
+    },
+    {
+      "id": "R1-16",
+      "target": "cataloguing language in this pass's own relationsSummary fields",
+      "severity": "minor",
+      "issue": "Several era-5 summaries still describe the map, not the history: the Waldensians ('The map's clearest 'dissent that survived' thread'), the Cathars ('which the map names without softening'), the Victorines ('ride inside this canons-regular family's story'), the beguines ('part of its own story'), the Joachimites ('lives inside the Franciscan Spirituals' story') and the Gregorian papacy ('This era's story also carries...'). Prose change B0 newly writes 'belongs inside its own story'. Group E removed the same kind of language ('fixes the Slavic lane's Kyiv-to-Moscow jump'), and group D flagged it without fixing it. These are this pass's own movements, and CLAUDE.md asks a pull request that edits a live file to clear the commentary in it. Sentence fragments remain in the Armenian Cilicia, Maronite and Athonite long descriptions.",
+      "evidence": "census relationsSummary of the-waldensians, cathars-albigensians, canons-regular-victorine-school, the-beguines, joachimite-current, latin-papal-church-gregorian, the-franciscan-movement; armenian-cilicia.longDescription ('A closeness that...'), maronite-christianity.longDescription ('Specifically over whether...'), athonite-and-comnenian-byzantine-monasticism.longDescription ('A self-governing federation...').",
+      "fix": "Rewrite these summaries as plain statements of the history. Example for the Waldensians: 'Dissenters condemned in 1184 who survived in the Alps and joined the Reformed churches in 1532.' Example for the Gregorian papacy's last sentence: 'The age also saw the rise of the universities and scholastic theology.' Join the three fragments to their sentences. Or, if Mark prefers to keep this pass to relationship claims, log the list in Open-Gaps so it does not go quiet."
+    },
+    {
+      "id": "R1-17",
+      "target": "latin-church-of-outremer--maronite-christianity (note)",
+      "severity": "minor",
+      "issue": "'this link rests on' uses internal language in a public note.",
+      "evidence": "census note of latin-church-of-outremer--maronite-christianity.",
+      "fix": "Change to 'We do not hold his history, so this rests on modern historians of the Maronites.' (Reading Ease 63.1.)"
+    },
+    {
+      "id": "R1-18",
+      "target": "armenian-cilicia--byzantine-church-after-1054 (note)",
+      "severity": "minor",
+      "issue": "'from belief in two natures in Christ to the fourth council' reads as a range. The fourth council comes right after the two natures in Nerses's list, which goes on to Christmas on 25 December and leavened bread.",
+      "evidence": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt:46197-46200.",
+      "fix": "Change the last sentence to: 'It lists what the Greeks asked of him, among them belief in two natures in Christ and honor for the fourth council.' (Whole note Reading Ease 65.5.)"
+    },
+    {
+      "id": "R1-19",
+      "target": "latin-papal-church-gregorian.legacy (prose change D3)",
+      "severity": "minor",
+      "issue": "'It has a trained body of canon law' misplaces the adjective, since lawyers are trained, not law. The original said 'a professional canon law'.",
+      "evidence": "census latin-papal-church-gregorian.legacy.",
+      "fix": "Change to: 'It has canon law run by trained lawyers, cardinals who elect the pope, and general councils that make law for the whole church.' (Reading Ease 70.4.)"
+    },
+    {
+      "id": "R1-20",
+      "target": "georgian-revival-tao-klarjeti--the-georgian-golden-age (note)",
+      "severity": "minor",
+      "issue": "The note lists names and reigns but never says what continues. A reader cannot tell from it that the claim is one church carried across the year 1000.",
+      "evidence": "census note.",
+      "fix": "Open with the claim: 'The Georgian church carried on across the year 1000. Brosset, who edited the Georgian chronicles in the 1800s, lists its heads in those years. One died under King Bagrat III, before 1014. Another, Giorgi of Tao, served under Bagrat IV. Brosset also says the Bagratid family lived in Tao and Klarjeti. Bagrat III, adopted by one of them, ruled a united kingdom by 1008.' (Reading Ease 64.8.)"
+    },
+    {
+      "id": "R1-21",
+      "target": "notes with a sentence over 25 words",
+      "severity": "minor",
+      "issue": "Two notes not covered by the findings above each have a sentence over the 25-word limit: joachimite-current--the-franciscan-movement (26) and latin-papal-church-gregorian--latin-papal-church-avignon-to-lateran-v (28). The Kyiv note's 28-word sentence is fixed in the grade-consistency finding above.",
+      "evidence": "census notes; split on sentence ends and counted.",
+      "fix": "Joachimite: 'Joachim's view of history spread among the Franciscan friars in the mid-1200s. The friar Angelo Clareno writes of a companion of John of Parma, head of the order from 1248. In a sermon, this friar praised Joachim far beyond measure. In 1254 another friar, Gerard of Borgo San Donnino, built a book on Joachim's three main works.' (68.7) Papacy: 'Gregory VII's Dictatus Papae of 1075 says that no one may judge the pope. In 1302 Boniface VIII, pope from 1294 to 1303, wrote in Unam sanctam that the highest spiritual power is judged by God alone. No human may judge it. The same see carried the same claims across 1300.' (79.3)"
+    }
+  ],
+  "two_way_gaps": [
+    "the-franciscan-movement.relationsSummary names the Observants ('through its later order'), but no link reaches observant-reform-and-popular-preaching. See R1-07.",
+    "the-dominican-order--the-carmelites is not named as an influence in either movement's text: the Carmelite text names the Dominicans only as fellow mendicants. Its note does not say why it stands alone. See R1-01 for a note that does.",
+    "athonite-and-comnenian-byzantine-monasticism.longDescription still says Athanasios founded the Lavra 'with the backing of a Byzantine emperor' as fact. The link that carries it (byzantine-imperial-church-macedonian--athonite-and-comnenian-byzantine-monasticism) is Inferential-Thin on Curzon's report of a 1701 account. That is not a gap in links, but the prose is plainer than the grade. Either add 'later accounts say' or leave it under Open-Gaps 24 with the Lavra's 963 founding (escalation A1).",
+    "cluniac-reform-monasticism (era 4) still says the Cistercians reacted against Cluny, while this pass removed every Cluny claim from the Cistercian entry. The two entries now disagree. That belongs to the era-4 owner (escalation A2) and should be logged in Open-Gaps under the Cistercian and Cluny subject with today's date.",
+    "Checked in the other direction: all 64 new links are cited by a 'link' disposition or by a qualify row on the same sentence. The two cited only by qualify rows, latin-papal-church-avignon-to-lateran-v--free-spirit-heresy and latin-papal-church-gregorian--the-humiliati, are each named in their movements' text. No relationship sentence in the 27 movements' four fields was found without a disposition, except the Observants clause above, which has a disposition but no link."
+  ],
+  "escalations_view": [
+    "A1 (Carmelites' move west, Molesme, Lavra 963): not new for Mark. These are standard non-relationship facts under the open Open-Gaps 24. Append them to that item's dated log. Nothing to decide now.",
+    "A2 (Cluny entry still claims the Cistercian reaction): not for Mark. It is a consistency item for the era-4 owner. Log it in Open-Gaps so the two entries' disagreement is tracked.",
+    "B1 (Humiliati in Ad abolendam): resolvable, not for Mark. It is a relationship claim, and Open-Gaps 24 already says the qualify rule reaches relationship claims, so the three qualified sentences are right. Waiting for Mansi 22 or Friedberg is a sourcing choice, not a method question. Keep them on the wants list.",
+    "B2 (Free Spirit quotation; the Humiliati in 1571): resolved inside the pass. I checked both corrections against Denzinger 471-473 and the Bullarium (lines 92832-92835), and both hold. Log them for the entry owner only.",
+    "B3 (merge duplicates): resolved by the merge notes. I found no duplicate on those pairs in the census. The one real duplicate is a different pair (R1-04).",
+    "C1 (no census entry for the Bulgarian church of the Second Empire): a portfolio and census-structure question, so it does need Mark. It is low urgency and blocks nothing in this pass. Log it in Open-Gaps.",
+    "C2 (Methodist clause): resolvable. The Waldensian-Methodist union is a relationship claim, which the qualify-or-remove rule reaches, so removal was correct and Mark need not rule. The three non-relationship facts (Dante, Languedoc's annexation, the etymology) fall under the open Open-Gaps 24.",
+    "D1 (Lateran IV dress rule, Troyes 1129, the orders of St John, Rhodes and Malta, William of Tyre's reception): these are Open-Gaps 24 exactly. They are already Mark's open question, so no new escalation. Append them to that item's dated log.",
+    "D2 (Greek patriarch 'expelled' at Jerusalem in 1099): resolved inside the pass. The replacement sentences match RHC Doc. arm. I lines 15575-15584 and 46510-46511.",
+    "D3 (cataloguing language and fragments): not for Mark. These are this pass's own movements, so fix them here (R1-16) rather than leave them as hygiene for someone else.",
+    "E1 (modern claims: the sack's memory, the 2001 apology, the contested Lavra, Kyiv's political weight): these name no census movement, so they sit with the other standard facts under Open-Gaps 24, for Mark there. The drafter's doubt about the word 'apology' is a real precision risk. Note it in that log entry, and do not change the wording without a source.",
+    "E2 (long-gap continuity of the Georgian and Serbian/Bulgarian churches to modern entries): a cross-era mapping question, so it does need Mark. It matches the open census-structure items, and leaving the links undrawn is the right holding position.",
+    "F1 (no link type for church jurisdiction): a method change, so it does need Mark. Precedent is split: Caesarea to Armenia (era 2) and Constantinople to Kyiv (this era) use 'influenced', while Aksum and Alexandria (era 2) and Alexandria to Ethiopia (this era) use 'in contact with'. Until Mark rules, an interim note in Open-Gaps should say both are in use. Nothing here is wrong under the current six types.",
+    "F2 (continuesAs null on syriac-renaissance and church-of-the-east-under-the-abbasids): partly resolvable. The Abbasid-to-Mongol continued-as link now exists, so setting continuesAs is a data fix for the entry owner. The missing Syriac Orthodox entry after 1300 is portfolio structure, for Mark, at low urgency."
+  ],
+  "checked": {
+    "census_diff": "Diffed cic-website/data/world-census.json against scratchpad/census_main_r7.json. There are 64 edges added, 0 removed and 0 changed (the 3 'keep' links are unchanged). No text changed outside the 27 era-5 movements, and no field changed outside relationsSummary, longDescription, why and legacy. Every diff in those fields matches one of the 46 logged prose changes, and every prose change's old text was found and its new text applied.",
+    "links": "I read all 64 new links. For each primary source, I printed the file at the stated lines with 4 lines before and 3 after (scratchpad/rev1/dump.py) and checked that the lines show the claimed relationship, the work and the locus. For secondaries with lines in the drafting record, I read the cited lines. I checked type, arrow direction, alphabetical order for the symmetric types (no violations), movement ids (all exist), and duplicates on each pair (one same-type duplicate, R1-04). For every continued-as link, I checked both movements' date ranges against the evidence dates.",
+    "spot_checks": "Bar Hebraeus on the 1049 patriarch's name (25150-25162); Hethum's table after 1293 and the editor's introduction (63485-63521); Hunter Blair's note on conversation (10500-10529); Underhill on Richard of St Victor (Hilton 601-608); McCann on Guigo II (6396-6410); Gui on the archbishop of Lyon (4882-4895) and Gui's own text for Cathar names; Mansi 25 for the text of Ad nostrum (not present); Mirbt for Canossa (10426-10432) and Dictatus 12 (11202); Curzon (8700-8705); Giussano (12170-12182); Lea on the rival order (2683-2688); Clareno's Expositio date (Oliger, 1321-1326); Budge on Gascony (3188, 7618) and 1295 (8449-8460); Alvares on Lalibela (6074-6080, 6119-6121); Vartan and Kirakos on Gregory III (49380-49386, 50836-50853); the athonite, muscovite, Ethiopian-flowering and hesychasm entries' own texts for scope. I grepped the repo for Fetha Nagast, Ite vos and the Observants, and checked base precedent for grades on links with only 19th-century secondaries and for same-type duplicate links.",
+    "prose": "I read all 46 prose changes against their old text and their reasons. I scored every changed field with engine.m7.turn_readability.score_turn: all 46 are at Reading Ease 60 or above (lowest 60.1) and within the grade ceiling. I scored the 64 new notes: all are at Reading Ease 60 or above. Three have one sentence over 25 words (R1-08, R1-21). I scored every proposed replacement text in this file at Reading Ease 60 or above.",
+    "two_way": "I checked all 340 dispositions against the census: every 'link' row's link_id exists, and every qualify or remove row has a prose change. Every new link is cited by at least one disposition. I read the current relationsSummary of all 27 movements and the full text of the Cilicia, Cathar, Outremer, Franciscan and Athonite entries for unlinked relationship claims.",
+    "validator": "node tools/validate-census.mjs --base census_main_r7.json: 0 errors, 2 warnings (shortName length, outside this era).",
+    "counts": {
+      "new_links": 64,
+      "kept_links": 3,
+      "prose_changes": 46,
+      "dispositions": 340,
+      "escalations": 14,
+      "merge_notes": 4,
+      "primary_sources_read_in_context": "all",
+      "findings": {
+        "blocking": 0,
+        "substantial": 7,
+        "minor": 14
+      }
+    }
+  }
+}

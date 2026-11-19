@@ -85,7 +85,7 @@ narrative_tier_justification: >-
   what is the southern node's own is that Cassian opened the Lerins-dedicated part of his book with
   him, and that Honoratus read it.
 tellable_as: >-
-  An Egyptian bishop was "carried off from the assembly of anchorites." He tells two travellers that
+  An Egyptian bishop was "carried off from the assembly of anchorites." He tells two travelers that
   his office was an expulsion from the monastic life, and calls himself unworthy of it. He takes up
   his staff and leads them past himself, to the old men whose mere sight is a lesson.
 text: >-
@@ -101,7 +101,7 @@ text: >-
   so high a calling demands.
 
   The business that had brought him to Thennesus was the election of another bishop. He received the
-  two travellers kindly and graciously. They wished to seek out the holy fathers in still remoter
+  two travelers kindly and graciously. They wished to seek out the holy fathers in still remoter
   parts of Egypt. When he heard this, he told them to go first and see the old men who lived near his
   own monastery. Their bent bodies showed the length of their service, and their holiness showed in
   their very appearance. The mere sight of them would teach a great lesson. Their example, more than
@@ -123,7 +123,7 @@ modern_contrast: >-
   life." The southern node's own teaching that wanting office is vainglory is not contradicted by the
   one Egyptian bishop Cassian chose to carry west; he is its illustration.
 use_note:
-  means: "Cassian reports meeting Archebius, an Egyptian bishop taken from the anchorites, who called his consecration an expulsion from monastic life and sent the travellers to the old men."
+  means: "Cassian reports meeting Archebius, an Egyptian bishop taken from the anchorites, who called his consecration an expulsion from monastic life and sent the travelers to the old men."
   not_for:
     - "an independent witness to Archebius, when none survives outside Cassian"
     - "Gallic bishops as such, which sit in gallic.story.election-at-tours"
@@ -132,7 +132,7 @@ use_note:
   years: {from: 426, to: 426}
   status: reviewed
 ---
-No separate figure record exists for Archebius or for Germanus (Cassian's travelling companion, not
+No separate figure record exists for Archebius or for Germanus (Cassian's traveling companion, not
 Germanus of Auxerre): each is fully carried by the story he appears in. Honoratus is related as a
 figure here because the narrative itself names him as the dedicatee. Illustrates
 gallic.gravity.monk-bishop (a monk seized for a see who counts the seizure a loss, the Egyptian

@@ -1,0 +1,956 @@
+[
+ {
+  "movement": "cistercian-monasticism",
+  "field": "relationsSummary",
+  "n": 0,
+  "group": "A",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 63.84279411764709,
+  "fk": 6.466176470588238,
+  "words": 17
+ },
+ {
+  "movement": "cistercian-monasticism",
+  "field": "longDescription",
+  "n": 1,
+  "group": "A",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 61.00190741773568,
+  "fk": 8.432035694366984,
+  "words": 163
+ },
+ {
+  "movement": "cistercian-monasticism",
+  "field": "why",
+  "n": 2,
+  "group": "A",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 66.41188372093026,
+  "fk": 8.269162790697674,
+  "words": 86
+ },
+ {
+  "movement": "cistercian-monasticism",
+  "field": "legacy",
+  "n": 3,
+  "group": "A",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 63.29379716981134,
+  "fk": 7.722783018867926,
+  "words": 106
+ },
+ {
+  "movement": "carthusian-life",
+  "field": "relationsSummary",
+  "n": 4,
+  "group": "A",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 89.865,
+  "fk": 5.196666666666669,
+  "words": 19
+ },
+ {
+  "movement": "carthusian-life",
+  "field": "legacy",
+  "n": 5,
+  "group": "A",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 65.56701612903228,
+  "fk": 7.964677419354839,
+  "words": 124
+ },
+ {
+  "movement": "canons-regular-victorine-school",
+  "field": "legacy",
+  "n": 6,
+  "group": "A",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 61.58625000000001,
+  "fk": 7.650416666666668,
+  "words": 96
+ },
+ {
+  "movement": "athonite-and-comnenian-byzantine-monasticism",
+  "field": "relationsSummary",
+  "n": 7,
+  "group": "A",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 78.81000000000003,
+  "fk": 5.993333333333336,
+  "words": 15
+ },
+ {
+  "movement": "athonite-and-comnenian-byzantine-monasticism",
+  "field": "legacy",
+  "n": 8,
+  "group": "A",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 61.26477272727274,
+  "fk": 8.813181818181821,
+  "words": 132
+ },
+ {
+  "movement": "the-franciscan-movement",
+  "field": "relationsSummary",
+  "n": 0,
+  "group": "B",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 63.820833333333354,
+  "fk": 7.0075,
+  "words": 33
+ },
+ {
+  "movement": "the-humiliati",
+  "field": "relationsSummary",
+  "n": 1,
+  "group": "B",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 64.28666666666669,
+  "fk": 7.605,
+  "words": 40
+ },
+ {
+  "movement": "the-humiliati",
+  "field": "longDescription",
+  "n": 2,
+  "group": "B",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 63.03661764705885,
+  "fk": 7.181946778711488,
+  "words": 153
+ },
+ {
+  "movement": "the-humiliati",
+  "field": "why",
+  "n": 3,
+  "group": "B",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 68.31411996066865,
+  "fk": 6.850029498525078,
+  "words": 113
+ },
+ {
+  "movement": "the-humiliati",
+  "field": "legacy",
+  "n": 4,
+  "group": "B",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 63.486153846153854,
+  "fk": 7.633846153846157,
+  "words": 40
+ },
+ {
+  "movement": "the-beguines",
+  "field": "longDescription",
+  "n": 5,
+  "group": "B",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 60.23230769230773,
+  "fk": 8.087692307692308,
+  "words": 158
+ },
+ {
+  "movement": "the-beguines",
+  "field": "why",
+  "n": 6,
+  "group": "B",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 60.62857012750456,
+  "fk": 8.170437158469948,
+  "words": 123
+ },
+ {
+  "movement": "free-spirit-heresy",
+  "field": "longDescription",
+  "n": 7,
+  "group": "B",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 71.08519125683063,
+  "fk": 8.395737704918034,
+  "words": 62
+ },
+ {
+  "movement": "free-spirit-heresy",
+  "field": "why",
+  "n": 8,
+  "group": "B",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 62.32453781512608,
+  "fk": 8.789579831932773,
+  "words": 121
+ },
+ {
+  "movement": "the-waldensians",
+  "field": "longDescription",
+  "n": 0,
+  "group": "C",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 60.77779226618705,
+  "fk": 9.09848021582734,
+  "words": 139
+ },
+ {
+  "movement": "the-waldensians",
+  "field": "why",
+  "n": 1,
+  "group": "C",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 61.18251167133522,
+  "fk": 8.010364145658265,
+  "words": 121
+ },
+ {
+  "movement": "the-waldensians",
+  "field": "legacy",
+  "n": 2,
+  "group": "C",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 60.880888888888904,
+  "fk": 8.792197530864197,
+  "words": 82
+ },
+ {
+  "movement": "joachimite-current",
+  "field": "legacy",
+  "n": 3,
+  "group": "C",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 64.40388576779029,
+  "fk": 7.96129213483146,
+  "words": 89
+ },
+ {
+  "movement": "latin-papal-church-gregorian",
+  "field": "longDescription",
+  "n": 1,
+  "group": "D",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 60.468062015503904,
+  "fk": 8.38604651162791,
+  "words": 177
+ },
+ {
+  "movement": "latin-papal-church-gregorian",
+  "field": "why",
+  "n": 2,
+  "group": "D",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 61.53250000000003,
+  "fk": 8.030555555555559,
+  "words": 137
+ },
+ {
+  "movement": "latin-papal-church-gregorian",
+  "field": "legacy",
+  "n": 3,
+  "group": "D",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 68.78099003735993,
+  "fk": 6.963075965130759,
+  "words": 146
+ },
+ {
+  "movement": "latin-church-of-outremer",
+  "field": "relationsSummary",
+  "n": 4,
+  "group": "D",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 74.805,
+  "fk": 5.806666666666668,
+  "words": 53
+ },
+ {
+  "movement": "latin-church-of-outremer",
+  "field": "longDescription",
+  "n": 5,
+  "group": "D",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 65.6761904761905,
+  "fk": 6.997142857142858,
+  "words": 143
+ },
+ {
+  "movement": "latin-church-of-outremer",
+  "field": "why",
+  "n": 6,
+  "group": "D",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 66.87375,
+  "fk": 6.912916666666668,
+  "words": 99
+ },
+ {
+  "movement": "latin-church-of-outremer",
+  "field": "legacy",
+  "n": 7,
+  "group": "D",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 61.425086206896566,
+  "fk": 8.293965517241382,
+  "words": 145
+ },
+ {
+  "movement": "maronite-christianity",
+  "field": "legacy",
+  "n": 8,
+  "group": "D",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 61.51391151685394,
+  "fk": 7.443132022471914,
+  "words": 89
+ },
+ {
+  "movement": "military-religious-orders-templars-hospitallers",
+  "field": "longDescription",
+  "n": 9,
+  "group": "D",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 64.11601784718351,
+  "fk": 7.997679866146125,
+  "words": 167
+ },
+ {
+  "movement": "military-religious-orders-templars-hospitallers",
+  "field": "why",
+  "n": 10,
+  "group": "D",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 62.300258620689675,
+  "fk": 8.171896551724142,
+  "words": 119
+ },
+ {
+  "movement": "armenian-cilicia",
+  "field": "legacy",
+  "n": 11,
+  "group": "D",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 62.23333333333335,
+  "fk": 8.471063829787234,
+  "words": 93
+ },
+ {
+  "movement": "the-georgian-golden-age",
+  "field": "relationsSummary",
+  "n": 0,
+  "group": "E",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 60.23230769230773,
+  "fk": 8.087692307692308,
+  "words": 25
+ },
+ {
+  "movement": "serbian-and-bulgarian-medieval-monasticism",
+  "field": "relationsSummary",
+  "n": 1,
+  "group": "E",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 64.66285714285716,
+  "fk": 9.457142857142859,
+  "words": 42
+ },
+ {
+  "movement": "serbian-and-bulgarian-medieval-monasticism",
+  "field": "longDescription",
+  "n": 2,
+  "group": "E",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 62.039944227551615,
+  "fk": 8.287250418293365,
+  "words": 164
+ },
+ {
+  "movement": "serbian-and-bulgarian-medieval-monasticism",
+  "field": "why",
+  "n": 3,
+  "group": "E",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 62.209500000000006,
+  "fk": 9.352166666666669,
+  "words": 97
+ },
+ {
+  "movement": "serbian-and-bulgarian-medieval-monasticism",
+  "field": "legacy",
+  "n": 4,
+  "group": "E",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 60.11073863636366,
+  "fk": 7.949381313131315,
+  "words": 99
+ },
+ {
+  "movement": "kievan-rus-christianity-1054-1240",
+  "field": "legacy",
+  "n": 5,
+  "group": "E",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 61.12468253968254,
+  "fk": 8.59809523809524,
+  "words": 143
+ },
+ {
+  "movement": "byzantine-church-after-1054",
+  "field": "longDescription",
+  "n": 6,
+  "group": "E",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 62.96821138211382,
+  "fk": 7.87170731707317,
+  "words": 127
+ },
+ {
+  "movement": "byzantine-church-after-1054",
+  "field": "why",
+  "n": 7,
+  "group": "E",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 65.4106796116505,
+  "fk": 7.791289875173373,
+  "words": 107
+ },
+ {
+  "movement": "zagwe-and-early-solomonic-ethiopian-christianity",
+  "field": "longDescription",
+  "n": 1,
+  "group": "F",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 68.12846558066211,
+  "fk": 7.663867577509198,
+  "words": 174
+ },
+ {
+  "movement": "zagwe-and-early-solomonic-ethiopian-christianity",
+  "field": "why",
+  "n": 2,
+  "group": "F",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 60.08171568627452,
+  "fk": 8.39852941176471,
+  "words": 86
+ },
+ {
+  "movement": "coptic-christianity-fatimid-to-mamluk",
+  "field": "legacy",
+  "n": 3,
+  "group": "F",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 64.39767295597487,
+  "fk": 8.666037735849056,
+  "words": 105
+ },
+ {
+  "movement": "church-of-the-east-under-the-mongols",
+  "field": "legacy",
+  "n": 4,
+  "group": "F",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 65.70624570446736,
+  "fk": 8.110876288659796,
+  "words": 98
+ },
+ {
+  "movement": "syriac-renaissance",
+  "field": "legacy",
+  "n": 5,
+  "group": "F",
+  "paragraph": 0,
+  "scored": true,
+  "fre": 60.619,
+  "fk": 8.381555555555558,
+  "words": 72
+ },
+ {
+  "link": "cistercian-monasticism--the-english-mystics-and-devout",
+  "scored": true,
+  "fre": 60.27721153846156,
+  "fk": 7.2740384615384635,
+  "words": 41
+ },
+ {
+  "link": "canons-regular-victorine-school--the-english-mystics-and-devout",
+  "scored": true,
+  "fre": 63.24493421052631,
+  "fk": 7.978026315789478,
+  "words": 59
+ },
+ {
+  "link": "canons-regular-victorine-school--the-franciscan-movement",
+  "scored": true,
+  "fre": 60.55757575757579,
+  "fk": 9.367272727272727,
+  "words": 56
+ },
+ {
+  "link": "carthusian-life--the-english-mystics-and-devout",
+  "scored": true,
+  "fre": 60.84163793103451,
+  "fk": 8.375344827586208,
+  "words": 58
+ },
+ {
+  "link": "early-benedictine-italian-monasticism--cistercian-monasticism",
+  "scored": true,
+  "fre": 72.50750000000001,
+  "fk": 7.120833333333334,
+  "words": 48
+ },
+ {
+  "link": "athonite-and-comnenian-byzantine-monasticism--hesychasm-and-the-palamite-synthesis",
+  "scored": true,
+  "fre": 60.70500000000001,
+  "fk": 7.773333333333333,
+  "words": 49
+ },
+ {
+  "link": "athonite-and-comnenian-byzantine-monasticism--the-hesychast-revival-paisius-and-the-philokalia",
+  "scored": true,
+  "fre": 62.68000000000002,
+  "fk": 8.740000000000002,
+  "words": 36
+ },
+ {
+  "link": "iconophile-byzantine-monasticism--athonite-and-comnenian-byzantine-monasticism",
+  "scored": true,
+  "fre": 62.133295454545475,
+  "fk": 8.008863636363639,
+  "words": 56
+ },
+ {
+  "link": "byzantine-imperial-church-macedonian--athonite-and-comnenian-byzantine-monasticism",
+  "scored": true,
+  "fre": 64.40294573643413,
+  "fk": 7.837209302325583,
+  "words": 44
+ },
+ {
+  "link": "athonite-and-comnenian-byzantine-monasticism--kievan-rus-christianity-1054-1240",
+  "scored": true,
+  "fre": 63.77611764705884,
+  "fk": 6.897803921568627,
+  "words": 52
+ },
+ {
+  "link": "athonite-and-comnenian-byzantine-monasticism--the-georgian-golden-age",
+  "scored": true,
+  "fre": 60.01000000000002,
+  "fk": 8.61555555555556,
+  "words": 44
+ },
+ {
+  "link": "the-carmelites--carmelite-reform-and-spanish-mystics",
+  "scored": true,
+  "fre": 60.468062015503904,
+  "fk": 8.38604651162791,
+  "words": 45
+ },
+ {
+  "link": "latin-papal-church-gregorian--the-carmelites",
+  "scored": true,
+  "fre": 65.4575,
+  "fk": 8.104166666666668,
+  "words": 49
+ },
+ {
+  "link": "the-dominican-order--the-carmelites",
+  "scored": true,
+  "fre": 60.70500000000001,
+  "fk": 7.773333333333333,
+  "words": 49
+ },
+ {
+  "link": "latin-church-of-outremer--the-carmelites",
+  "scored": true,
+  "fre": 61.53250000000003,
+  "fk": 8.030555555555559,
+  "words": 55
+ },
+ {
+  "link": "the-dominican-order--the-franciscan-movement",
+  "scored": true,
+  "fre": 60.9059782608696,
+  "fk": 7.62108695652174,
+  "words": 47
+ },
+ {
+  "link": "latin-papal-church-gregorian--the-franciscan-movement",
+  "scored": true,
+  "fre": 64.37166666666668,
+  "fk": 8.090000000000003,
+  "words": 46
+ },
+ {
+  "link": "the-franciscan-movement--fraticelli-spiritual-franciscan-rigorists",
+  "scored": true,
+  "fre": 60.69340579710146,
+  "fk": 8.603043478260872,
+  "words": 48
+ },
+ {
+  "link": "the-franciscan-movement--franciscan-order-era-6",
+  "scored": true,
+  "fre": 73.28528455284555,
+  "fk": 6.432682926829269,
+  "words": 44
+ },
+ {
+  "link": "the-dominican-order--rhineland-mysticism-and-the-friends-of-god",
+  "scored": true,
+  "fre": 62.96821138211382,
+  "fk": 7.87170731707317,
+  "words": 41
+ },
+ {
+  "link": "the-dominican-order--cathars-albigensians",
+  "scored": true,
+  "fre": 66.40166666666669,
+  "fk": 7.310000000000002,
+  "words": 41
+ },
+ {
+  "link": "latin-papal-church-avignon-to-lateran-v--the-beguines",
+  "scored": true,
+  "fre": 63.13333333333334,
+  "fk": 8.34553191489362,
+  "words": 48
+ },
+ {
+  "link": "latin-papal-church-avignon-to-lateran-v--free-spirit-heresy",
+  "scored": true,
+  "fre": 62.17166666666668,
+  "fk": 7.900000000000002,
+  "words": 42
+ },
+ {
+  "link": "the-beguines--free-spirit-heresy",
+  "scored": true,
+  "fre": 61.326333333333366,
+  "fk": 8.846,
+  "words": 51
+ },
+ {
+  "link": "the-tridentine-church--the-humiliati",
+  "scored": true,
+  "fre": 66.88476190476192,
+  "fk": 6.828571428571429,
+  "words": 36
+ },
+ {
+  "link": "latin-papal-church-gregorian--the-humiliati",
+  "scored": true,
+  "fre": 70.105,
+  "fk": 6.462222222222223,
+  "words": 37
+ },
+ {
+  "link": "latin-papal-church-gregorian--the-humiliati--2",
+  "scored": true,
+  "fre": 61.17708333333337,
+  "fk": 7.376250000000002,
+  "words": 33
+ },
+ {
+  "link": "latin-papal-church-gregorian--the-waldensians",
+  "scored": true,
+  "fre": 67.75500000000001,
+  "fk": 6.790000000000003,
+  "words": 61
+ },
+ {
+  "link": "latin-papal-church-gregorian--cathars-albigensians",
+  "scored": true,
+  "fre": 61.33333333333334,
+  "fk": 8.596595744680851,
+  "words": 49
+ },
+ {
+  "link": "balkan-bogomil-continuation--cathars-albigensians",
+  "scored": true,
+  "fre": 60.70500000000001,
+  "fk": 7.773333333333333,
+  "words": 61
+ },
+ {
+  "link": "bogomils--balkan-bogomil-continuation",
+  "scored": true,
+  "fre": 63.762807377049214,
+  "fk": 8.154221311475407,
+  "words": 61
+ },
+ {
+  "link": "byzantine-church-after-1054--balkan-bogomil-continuation",
+  "scored": true,
+  "fre": 60.33362500000004,
+  "fk": 8.023875000000004,
+  "words": 65
+ },
+ {
+  "link": "joachimite-current--the-franciscan-movement",
+  "scored": true,
+  "fre": 63.23166666666668,
+  "fk": 8.91148148148148,
+  "words": 55
+ },
+ {
+  "link": "joachimite-current--franciscan-order-era-6",
+  "scored": true,
+  "fre": 62.375922131147576,
+  "fk": 8.347663934426226,
+  "words": 62
+ },
+ {
+  "link": "latin-papal-church-gregorian--joachimite-current",
+  "scored": true,
+  "fre": 68.9825,
+  "fk": 7.612500000000001,
+  "words": 51
+ },
+ {
+  "link": "latin-papal-church-gregorian--latin-papal-church-avignon-to-lateran-v",
+  "scored": true,
+  "fre": 73.56731884057973,
+  "fk": 6.807391304347828,
+  "words": 51
+ },
+ {
+  "link": "latin-papal-church-gregorian--latin-church-of-outremer",
+  "scored": true,
+  "fre": 73.47100409836068,
+  "fk": 6.800122950819674,
+  "words": 62
+ },
+ {
+  "link": "the-reformed-cities-zurich-and-geneva--latin-papal-church-gregorian",
+  "scored": true,
+  "fre": 66.74000000000002,
+  "fk": 7.180000000000003,
+  "words": 52
+ },
+ {
+  "link": "cistercian-monasticism--military-religious-orders-templars-hospitallers",
+  "scored": true,
+  "fre": 77.16748427672958,
+  "fk": 6.88490566037736,
+  "words": 52
+ },
+ {
+  "link": "latin-papal-church-avignon-to-lateran-v--military-religious-orders-templars-hospitallers",
+  "scored": true,
+  "fre": 68.53333333333333,
+  "fk": 7.592340425531916,
+  "words": 48
+ },
+ {
+  "link": "armenian-cilicia--byzantine-church-after-1054",
+  "scored": true,
+  "fre": 66.4123529411765,
+  "fk": 8.219411764705882,
+  "words": 68
+ },
+ {
+  "link": "armenian-cilicia--latin-church-of-outremer",
+  "scored": true,
+  "fre": 63.863500000000016,
+  "fk": 7.457000000000001,
+  "words": 50
+ },
+ {
+  "link": "bagratid-armenian-christianity--armenian-cilicia",
+  "scored": true,
+  "fre": 66.63798469387757,
+  "fk": 7.007908163265306,
+  "words": 49
+ },
+ {
+  "link": "armenian-cilicia--armenian-cilicia-after-the-kingdom",
+  "scored": true,
+  "fre": 62.4675,
+  "fk": 7.5275,
+  "words": 48
+ },
+ {
+  "link": "latin-church-of-outremer--byzantine-church-after-1054",
+  "scored": true,
+  "fre": 60.31166666666668,
+  "fk": 9.650000000000002,
+  "words": 59
+ },
+ {
+  "link": "latin-church-of-outremer--maronite-christianity",
+  "scored": true,
+  "fre": 63.98693693693693,
+  "fk": 7.3983783783783785,
+  "words": 38
+ },
+ {
+  "link": "latin-papal-church-gregorian--maronite-christianity",
+  "scored": true,
+  "fre": 71.29000000000002,
+  "fk": 7.042222222222225,
+  "words": 45
+ },
+ {
+  "link": "byzantine-church-after-1054--byzantine-church-palaiologan",
+  "scored": true,
+  "fre": 62.53253623188408,
+  "fk": 8.346521739130438,
+  "words": 49
+ },
+ {
+  "link": "byzantine-church-after-1054--latin-papal-church-gregorian--2",
+  "scored": true,
+  "fre": 77.19916666666668,
+  "fk": 5.845370370370372,
+  "words": 56
+ },
+ {
+  "link": "latin-papal-church-gregorian--byzantine-church-after-1054--2",
+  "scored": true,
+  "fre": 62.133295454545475,
+  "fk": 8.008863636363639,
+  "words": 59
+ },
+ {
+  "link": "byzantine-church-after-1054--kievan-rus-christianity-1054-1240",
+  "scored": true,
+  "fre": 61.932500000000005,
+  "fk": 8.595833333333335,
+  "words": 49
+ },
+ {
+  "link": "iconophile-byzantine-monasticism--kievan-rus-christianity-1054-1240",
+  "scored": true,
+  "fre": 61.85058823529414,
+  "fk": 8.855686274509804,
+  "words": 52
+ },
+ {
+  "link": "kievan-rus-christianity--kievan-rus-christianity-1054-1240",
+  "scored": true,
+  "fre": 60.84163793103451,
+  "fk": 8.375344827586208,
+  "words": 60
+ },
+ {
+  "link": "kievan-rus-christianity-1054-1240--muscovite-monastic-christianity",
+  "scored": true,
+  "fre": 71.06500000000001,
+  "fk": 7.818888888888889,
+  "words": 54
+ },
+ {
+  "link": "athonite-and-comnenian-byzantine-monasticism--serbian-and-bulgarian-medieval-monasticism",
+  "scored": true,
+  "fre": 64.71000000000002,
+  "fk": 7.960000000000004,
+  "words": 61
+ },
+ {
+  "link": "georgian-revival-tao-klarjeti--the-georgian-golden-age",
+  "scored": true,
+  "fre": 62.9393559322034,
+  "fk": 7.412000000000003,
+  "words": 62
+ },
+ {
+  "link": "church-of-the-east-under-the-mongols--latin-papal-church-gregorian",
+  "scored": true,
+  "fre": 67.11459745762713,
+  "fk": 7.5625000000000036,
+  "words": 59
+ },
+ {
+  "link": "church-of-the-east-under-the-abbasids--church-of-the-east-under-the-mongols",
+  "scored": true,
+  "fre": 72.16022727272728,
+  "fk": 7.293484848484848,
+  "words": 67
+ },
+ {
+  "link": "church-of-the-east-under-the-mongols--church-of-the-east-timur-to-hakkari",
+  "scored": true,
+  "fre": 60.16999999999999,
+  "fk": 8.841666666666672,
+  "words": 51
+ },
+ {
+  "link": "syriac-orthodox-under-islam--syriac-renaissance",
+  "scored": true,
+  "fre": 78.24633333333335,
+  "fk": 6.486000000000004,
+  "words": 51
+ },
+ {
+  "link": "syriac-orthodox-west-syriac-christianity--syriac-renaissance",
+  "scored": true,
+  "fre": 61.85058823529414,
+  "fk": 8.855686274509804,
+  "words": 52
+ },
+ {
+  "link": "coptic-christianity-fatimid-to-mamluk--zagwe-and-early-solomonic-ethiopian-christianity",
+  "scored": true,
+  "fre": 66.09046641791046,
+  "fk": 8.202201492537316,
+  "words": 67
+ },
+ {
+  "link": "post-aksumite-ethiopian-christianity--zagwe-and-early-solomonic-ethiopian-christianity",
+  "scored": true,
+  "fre": 60.55757575757579,
+  "fk": 9.367272727272727,
+  "words": 55
+ },
+ {
+  "link": "zagwe-and-early-solomonic-ethiopian-christianity--the-ethiopian-monastic-flowering",
+  "scored": true,
+  "fre": 81.32,
+  "fk": 5.891666666666669,
+  "words": 48
+ }
+]

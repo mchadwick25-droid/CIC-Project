@@ -1,0 +1,69 @@
+{
+ "slice": "ASA (P2-G89c: AP11 in VII.21, AP10 in VIII.39, AP7 held)",
+ "round": 1,
+ "verdict": "revise",
+ "blocking": [],
+ "substantial": [
+  {
+   "id": "ASA-S1",
+   "where": "russian-church-nikon-to-holy-synod.longDescription, new paragraph 5, sentence 1 (fact_table rows 8-9)",
+   "problem": "'In 1715 the first permanent Russian mission came to Peking' overstates the source. Adoratskii's '1715' (line 550-551, 'Мысль о постоянной миссии въ Пекинѣ осуществилась въ 1715 г.') is the year the plan was carried out; on arrival he is explicitly uncertain: the mission left Tobolsk on 3 February 1715 and 'reached Peking at the end of 1715 or the beginning of 1716'. A date the source gives as uncertain is stated as settled.",
+   "evidence": "Library file adoratskii...vyp1, lines 3797-3803 (OCR '1115' for 1715). Page image archive.org pravoslavnajamissijavkitaeza200leteesusc7 page/n73 (printed p. 68), read directly: 'выѣхали изъ Тобольска 3 февраля 1715 г. ... Въ Пекинъ они прибыли къ концу 1715 или въ началѣ 1716 года'. p. 9 (n14) confirms 'осуществилась въ 1715 г.' cleanly.",
+   "fix": "Replace the sentence with two: \"The first permanent Russian mission set out with the emperor's leave in 1715. It reached Peking at the end of that year or early in 1716.\" Add a fact_table row: file adoratskii...vyp1, lines 3802-3803, quote 'Въ Пекинъ они прибыли къ концу 1115 или въ на- чалЪ 1716 года' (OCR '1115'; page image reads 1715), rendering 'They arrived in Peking at the end of 1715 or the beginning of 1716'. Whole paragraph as revised (with ASA-M3 below) scores FRE 74 / FK 6.6."
+  },
+  {
+   "id": "ASA-S2",
+   "where": "philippine-catholicism-gomburza-to-aglipay.longDescription, new paragraphs 4 and 5 (fact_table rows 38 and 44)",
+   "problem": "'The movement's own voice survives only in its enemies' papers' and 'the group's side was never put in writing that we hold' are unsupported, and the second is contradicted by the drafter's own source. Montero says Apolinario's letters about the Cofradía were read aloud at the Lucban meetings, and that his 'extensa correspondencia' was seized at Majayjay in September 1841. The group's side was put in writing; the Library just does not hold it. The quoted fact_table rows (Sancho's Relación title; Montero's political-aim sentence) do not carry either claim. Also, Montero's ground for a political aim is the exclusion of Spaniards and Chinese mestizos, not of Spaniards alone.",
+   "evidence": "montero...t3, lines 1470-1472 ('se leían cartas de Apolinario referentes á la Cofradía por él instituida'); 1546-1547 ('ocupada la extensa correspondencia de Apolinario y su secretario', after the 19 September 1841 raid at line 1541); 2101 + 2132-2134 ('El no admitir en esta Cofradía españoles ni mestizos de sangley, y sí sólo indios puros, demuestra evidentemente que el objeto ... era político').",
+   "fix": "Paragraph 4, first sentence: replace with \"The movement speaks here only through its enemies.\" (rest of paragraph unchanged; scores FRE 67 / FK 6.9). Paragraph 5: replace whole with \"Montero says the group let in no Spaniards and no Chinese mestizos. He takes that as proof of a political aim. That is his reading. Apolinario's letters were read aloud at the meetings, and were seized in 1841. The Library holds none of them. A modern study, by Reynaldo Ileto, starts its story of these movements in 1840. It is called Pasyon and Revolution (1979).\" (FRE 65 / FK 6.3; the Ileto sentence rests on the book's subtitle, 'Popular Movements in the Philippines, 1840-1910', V-s). Fact_table rows: lines 1470-1472 and 1546-1547 as above; widen row 44 to lines 2131-2134 so 'españoles ni mestizos de sangley' is in the quote."
+  }
+ ],
+ "minor": [
+  {
+   "id": "ASA-M1",
+   "where": "VII.21 new paragraph 4, sentence 1",
+   "problem": "The year 1695 for the metropolitan's letter is Adoratskii's frame, not the letter's: the quoted letter carries no date (p. 50), and the year comes from his narration of Ignatii's sending of a priest and deacon 'in that year' (p. 49). The paragraph does not say so, and 'The details are his' sits two paragraphs later after the 1745-1808 sentences, where it reads as covering those only.",
+   "evidence": "Page images n54 and n55 (printed pp. 49-50), read directly: 'до 1695 года. Въ этомъ году тобольскій митр. Игнатій (1692—1700) ... отправилъ'; 'Для подкрѣпленія православнаго миссіонера, преосв. Игнатій написалъ о. Максиму грамоту'.",
+   "fix": "\"In 1695, Adoratskii says, the metropolitan of Tobolsk wrote to him.\""
+  },
+  {
+   "id": "ASA-M2",
+   "where": "VII.21 new paragraph 4, the letter's English rendering (and fact_table row 7)",
+   "problem": "'ignorant men' renders 'человѣки невѣдущія' (men who do not know). Modern 'ignorant' reads as a slur on intelligence; the original means only 'not knowing [the gospel]'. The contrastive 'но' is also dropped.",
+   "evidence": "Page image n55: 'аще и въ плѣнѣ пребываеши, но самъ, съ Божіею помощію, плѣняеши человѣки невѣдущія въ познаніе евангельскія правды'.",
+   "fix": "\"though you are in captivity, yet you yourself, with God's help, take captive unknowing men into the knowledge of the gospel's truth.\" (paragraph FRE 64 / FK 7.4)"
+  },
+  {
+   "id": "ASA-M3",
+   "where": "VII.21 new paragraph 5, sentence on the treaty",
+   "problem": "'pray \"by their own law\"': 'по своему закону' here means by their own faith (закон = religion, as 'законъ Божій'). Modern English 'law' misleads; and as an English rendering inside quotation marks it is not flagged as one.",
+   "evidence": "Page image n114 (printed p. 109): 'Россіянамъ не будетъ запрещено молиться и почитать своего Бога по своему закону'.",
+   "fix": "\"It also said Russians would not be forbidden to pray and to honour their God in their own faith.\""
+  },
+  {
+   "id": "ASA-M4",
+   "where": "VII.21 new paragraph 6",
+   "problem": "Adoratskii's thesis X is cut in a way that drops its counterweight: the same sentence goes on 'But even in this time it did not cease to hold to the basic principles of Orthodoxy and the tasks set for it.' Leaving it out makes his verdict sound wholly negative. 'a time of neglect and sorry state' and 'hard contact with China' are also unidiomatic.",
+   "evidence": "vyp2 lines 10529-10536; page image pravoslavnajamissijavkitaeza200leteesusc22 page/n216 read directly: '...недостаточности матеріальнаго обезпеченія. Но и въ это время она не переставала держаться основныхъ началъ православія и намѣченныхъ ей задачъ дѣятельности.'",
+   "fix": "Paragraph 6: \"Adoratskii says that from 1745 to 1808 the mission was neglected and in a sorry state. He gives three causes: hard dealings with China, the weakness of some members, and too little money. Yet even then, he adds, it held to the Orthodox faith and to its tasks.\" (FRE 74 / FK 6.8). New paragraph 7: \"The details are his, from the Synod's archives, in a Russian history of 1887. He was an Orthodox churchman.\" (FRE 66). Extend fact_table rows 16-17 to lines 10529-10536 with the 'Но и въ это время' clause."
+  },
+  {
+   "id": "ASA-M5",
+   "where": "philippine-catholicism-gomburza-to-aglipay.voices, added entry",
+   "problem": "'the Library holds him only through Spanish reports of 1841' is inexact: the Library text is Montero (1895), quoting Sancho's undated Relación, the intendente's letter of 1841 and Mas.",
+   "evidence": "Montero header and lines 1483-1485, 2104-2106, 2170.",
+   "fix": "\"Apolinario de la Cruz — a native lay servant of a Manila hospital who founded the Confraternity of St Joseph; the Library holds him only through hostile Spanish accounts\""
+  },
+  {
+   "id": "ASA-M6",
+   "where": "VIII.39 paragraph 5, last two sentences (as drafted)",
+   "problem": "'is named here. It was not opened for this entry.' is process narration in participant-facing prose and tells the reader nothing about the study. Folded into the ASA-S2 replacement, which gives the one thing the verified title carries.",
+   "evidence": "Draft fact_table row 45.",
+   "fix": "See ASA-S2."
+  }
+ ],
+ "quotes_checked": 45,
+ "quotes_failed": [],
+ "notes": "Checker: no QUOTE-MISS; READ-FAIL only on the two frozen first paragraphs, carried byte-for-byte (verified against the census: VII.21 paragraphs 0-1 and VIII.39 paragraph 0 unchanged; no other field changed except the named additions to sources and VIII.39 voices). I re-read all 45 fact_table quotes at their file lines (all present) and read every Montero passage in context (1450-1670, 1790-1890, 1965-2000, 2088-2195). Adoratskii page images checked directly from archive.org for every date-bearing quote: n13/n14 (1685 start; 1715 'осуществилась'), n39 (the 1685 document 'во 193 (1685) году', a quoted Foreign Office witness in a footnote), n54-n55 (1695; Ignatii 1692-1700; the chapel; the letter), n67 (Peter's order; John Maksimovich 1709-1715 - the fact_table's 1709 is right), n73 (arrival end 1715 / early 1716 - ASA-S1), n112 (Burin treaty 20 August 1727; 21 October 'of the same year'), n114 (article V of the Kiakhta treaty; the footnote names it), n132 (consecrated 5 August 1732, Dormition, still called Nicholas), vyp2 n216 (thesis X). All match the OCR quotes in substance; only the OCR's letter swaps differ. Not checked by image: the 'насильно увлекли' line (n43) and the Cossacks/temple line beyond p. 49; the OCR of n43 and the intro (n13, read) agree. The drafter's flag asking Mark to check page images can be narrowed to those. RULINGS CHECKED: AP11 in VII.21 only (coordinator), 1808-1906 held for VIII.31 - right, Adoratskii stops at 1808. AP10 under G89-33's 'once a dated primary is read' - Montero prints the intendente's letter of 16 November 1841 verbatim and the Relación at length; the test is met for a line, and the 1832/Hermano Pule/barred-from-orders hold is right (none is in Montero; Plauchut's claim is rejected by Montero). AP7 HOLD UPHELD: Mackenzie prints no Catholic document of the period verbatim. The Pius IX rescript of 5 September 1861 is one clause (lines 2136-2138); Roccos's 1861 letter gives only its signature (6112-6114); the 1886 concordat, the 1887/1892 vicariates and the 1896 Syrian vicars apostolic (2020-2090) are Mackenzie's summary; the 1900 refusal of the Chaldean rite (4984-4985) is his statement, no text. Note: Roccos signs as 'Metropolitan and Commissioner of the Roman Catholic Chaldean Syrians' - a Chaldean Catholic bishop, so one clause of a Catholic voice exists, but a signature does not carry a row. The Propaganda Collectanea's 1832 Malabar instruction concerns the Latin Verapoly seminary, not the Romo-Syrians; leaving that to Mark, as the hold says, is right. SHELF RULE: the drafter's reading (events and documents, not the date of writing, for a row's sources) matches census practice - 420 existing sources postdate their rows' end, Mouravieff 1842 on VII.21 among them - and the coordinator's own framing for ASB ('nothing dated after 1906 may enter, though Underwood wrote in 1908'). No finding. VOICES: adding a voice with a named line has precedent (G89b AS2, VII.2 under G89-32, approved). Countries: no China ID in the census; leaving modernCountries alone is right. No links needed: the new lines name no relationship to another census row."
+}

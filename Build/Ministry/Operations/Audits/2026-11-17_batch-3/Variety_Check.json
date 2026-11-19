@@ -1,0 +1,52 @@
+{
+ "batch": 12,
+ "limit": 3,
+ "moves": {
+  "reveal": {
+   "count": 3,
+   "pieces": [
+    "justin-martyr",
+    "moses-the-black",
+    "third-council-of-toledo-589"
+   ],
+   "over": false
+  },
+  "stacked-setting": {
+   "count": 4,
+   "pieces": [
+    "baudonivia",
+    "council-of-chalcedon-451",
+    "john-wyclif",
+    "thomas-a-kempis"
+   ],
+   "over": true
+  },
+  "witness-formula": {
+   "count": 1,
+   "pieces": [
+    "alopen"
+   ],
+   "over": false
+  },
+  "yet-pivot": {
+   "count": 1,
+   "pieces": [
+    "john-wyclif"
+   ],
+   "over": false
+  },
+  "later-ending": {
+   "count": 7,
+   "pieces": [
+    "alopen",
+    "arius",
+    "narsai",
+    "pachomius",
+    "third-council-of-toledo-589",
+    "thomas-a-kempis",
+    "vardan-mamikonian"
+   ],
+   "over": true
+  }
+ }
+}

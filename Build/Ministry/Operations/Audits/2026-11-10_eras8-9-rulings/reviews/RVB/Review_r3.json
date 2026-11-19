@@ -1,0 +1,11 @@
+{
+ "slice": "RV-B",
+ "round": 3,
+ "verdict": "approve",
+ "blocking": [],
+ "substantial": [],
+ "minor": [],
+ "quotes_checked": 137,
+ "quotes_failed": [],
+ "notes": "Targeted recheck of the round 2 findings. R2-S1 fixed: the teaser 'On 1 August 1834 the chapels of Jamaica filled.' keeps the date and makes no claim about freedom, so it agrees with the why and with LA8-1. R2-M1 to M5 fixed: Bleby is in SOURCES.json; the flags match the draft; the relationsSummary says 'arrested or tried, and none was convicted'; the VII.4 to AF-5 quote 'having landed at the Cape, July gth, 1737' is verbatim at Periodical Accounts line 7259 and uses no slur; the '--2' id is dropped. check_draft.py on my own fetch: 137 quotes verbatim. The only READ-FAIL is the frozen paragraph 0 of VIII.7, carried unchanged. No metered calls; no repo edits."
+}

@@ -11,7 +11,7 @@ confidence:
   verification_state: verified-via-authority
   evidentiary_weight: load-bearing
   formation_confidence: Documented
-  divergence_note: "Documented censures (Gangra) and legislation (the Asketikon); the radicals' own self-understanding is adversarially transmitted (they survive only through their censors' catalogues and their reformer's legislation); lived compliance with the ordering answers is Inferential."
+  divergence_note: "Documented censures (Gangra) and legislation (the Asketikon); the radicals' own self-understanding is adversarially transmitted (they survive only through their censors' catalogs and their reformer's legislation); lived compliance with the ordering answers is Inferential."
 sources:
 - source_id: cappadocian.source.gangra-canons
   locus: "the censures of radical expression - households dissolved, slaves urged to leave, fasts against feasts"

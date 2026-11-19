@@ -80,7 +80,7 @@ text: >-
   of Palestine and Mesopotamia and the East. The Egyptians keep no
   separate day hours. At the third hour the Spirit came
   down on the apostles. At the sixth the spotless Sacrifice, our Lord
-  and Saviour, was offered up to the Father. He went up on the cross for
+  and Savior, was offered up to the Father. He went up on the cross for
   the salvation of the whole world, taking away the debt that could not
   be paid. At the ninth he went down into hell and brought out the
   captive saints. What we believed about the resurrection is held there

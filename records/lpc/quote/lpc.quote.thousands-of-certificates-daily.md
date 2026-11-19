@@ -32,6 +32,7 @@ retrieval:
   retrieve_when:
   - participant asks how many letters of peace the confessors gave
   - participant asks why Cyprian objected to the confessors' certificates
+  - participant asks whether forgiveness was handed out too easily to people who denied the faith under persecution
   prefer_instead:
   - participant asks what a certificate of peace said -- lpc.quote.such-a-one-with-his-friends gives that
 claim_guards:

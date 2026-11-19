@@ -1,0 +1,126 @@
+{
+ "draft": "We do not know your people, because we speak only of our own life, up to the siege of Hippo in 430 [[lpc.core.latin-pastoral-congregational-christianity]] [[as:paraphrase]].\n\nWhat our bishops wrote about those outside our church, we can give you. Cyprian wrote to Demetrianus, a pagan who blamed and persecuted us [[lpc.witness.no-salvation-outside-the-church]] [[as:paraphrase]]. Cyprian told Demetrianus what awaits those who will not believe: on the day of judgment, an ever-burning fire with no end to their torments [[lpc.witness.no-salvation-outside-the-church]] [[as:paraphrase]]. Yet Cyprian pressed the same man to turn while he lived, since for anyone still in this world repentance is never too late [[lpc.witness.no-salvation-outside-the-church]] [[as:paraphrase]].\n\nCyprian also wrote that there is no salvation outside the Church [[lpc.witness.no-salvation-outside-the-church]] [[as:paraphrase]]. Cyprian wrote that about heretics, people who confessed Christ but stood outside the Church [[lpc.witness.no-salvation-outside-the-church]] [[as:paraphrase]]. None of these passages speaks of people who never heard of Christ [[lpc.witness.no-salvation-outside-the-church]] [[as:paraphrase]].\n",
+ "ending": "clean",
+ "final": "We do not know your people, because we speak only of our own life, up to the siege of Hippo in 430.\n\n Cyprian wrote to Demetrianus, a pagan who blamed and persecuted us. Cyprian told Demetrianus what awaits those who will not believe: on the day of judgment, an ever-burning fire with no end to their torments. Yet Cyprian pressed the same man to turn while he lived, since for anyone still in this world repentance is never too late.\n\nCyprian also wrote that there is no salvation outside the Church. Cyprian wrote that about heretics, people who confessed Christ but stood outside the Church. None of these passages speaks of people who never heard of Christ.",
+ "group": "E",
+ "offered": [
+  "lpc.limit.the-lapsed-own-account",
+  "lpc.witness.no-salvation-outside-the-church",
+  "lpc.term.compel-them-to-come-in",
+  "lpc.story.election-of-cyprian",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.story.the-psalms-on-the-wall",
+  "lpc.quote.o-blessed-people-of-the-church",
+  "lpc.quote.a-hundred-thousand-sesterces",
+  "lpc.force.corpus-outliving-the-world",
+  "lpc.limit.womens-own-voice",
+  "lpc.term.grace"
+ ],
+ "placements": [],
+ "question": "I'm Muslim. Did your people ever meet mine, and what did they write?",
+ "question_id": "q074",
+ "read": {
+  "dropped": [],
+  "status": "clean",
+  "unsupported": {}
+ },
+ "rewrite": null,
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We do not know your people, because we speak only of our own life, up to the siege of Hippo in 430.",
+   "tags": [
+    "lpc.core.latin-pastoral-congregational-christianity"
+   ]
+  },
+  {
+   "decision": "withhold_unbound",
+   "label": null,
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": "no valid binding",
+   "sentence": "What our bishops wrote about those outside our church, we can give you.",
+   "tags": []
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Cyprian wrote to Demetrianus, a pagan who blamed and persecuted us.",
+   "tags": [
+    "lpc.witness.no-salvation-outside-the-church"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Cyprian told Demetrianus what awaits those who will not believe: on the day of judgment, an ever-burning fire with no end to their torments.",
+   "tags": [
+    "lpc.witness.no-salvation-outside-the-church"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Yet Cyprian pressed the same man to turn while he lived, since for anyone still in this world repentance is never too late.",
+   "tags": [
+    "lpc.witness.no-salvation-outside-the-church"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Cyprian also wrote that there is no salvation outside the Church.",
+   "tags": [
+    "lpc.witness.no-salvation-outside-the-church"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Cyprian wrote that about heretics, people who confessed Christ but stood outside the Church.",
+   "tags": [
+    "lpc.witness.no-salvation-outside-the-church"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "None of these passages speaks of people who never heard of Christ.",
+   "tags": [
+    "lpc.witness.no-salvation-outside-the-church"
+   ]
+  }
+ ],
+ "shipped_by_net": "We do not know your people, because we speak only of our own life, up to the siege of Hippo in 430.\n\nWhat our bishops wrote about those outside our church, we can give you. Cyprian wrote to Demetrianus, a pagan who blamed and persecuted us. Cyprian told Demetrianus what awaits those who will not believe: on the day of judgment, an ever-burning fire with no end to their torments. Yet Cyprian pressed the same man to turn while he lived, since for anyone still in this world repentance is never too late.\n\nCyprian also wrote that there is no salvation outside the Church. Cyprian wrote that about heretics, people who confessed Christ but stood outside the Church. None of these passages speaks of people who never heard of Christ.",
+ "sub_question": "C11.S4"
+}

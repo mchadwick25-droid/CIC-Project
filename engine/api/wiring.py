@@ -1,5 +1,4 @@
-"""Pure orchestration layer for the minimal test backend (see
-/root/.claude/plans/linear-popping-dawn.md) - no FastAPI import here, so this
+"""Pure orchestration layer for the minimal test backend - no FastAPI import here, so this
 is testable directly against a real Store/LazyWorldLoader with a fake Bedrock
 client, no HTTP involved. engine.m4.turn.run_turn() has zero side effects by
 design (see its own module docstring) - everything below is this module
@@ -921,8 +920,7 @@ def history_from_transcript(transcript: list[dict]) -> list[dict]:
 
     Three deliberate choices, each with a test. The voice is replayed the
     text a participant actually read, with its verified citations back on
-    it - see _replay_text for why the tags have to be there, and what an
-    earlier version of this docstring got wrong. Facilitator turns are left
+    it - see _replay_text for why the tags have to be there. Facilitator turns are left
     out: they belong to a different voice, and folding them in would put
     the Facilitator's words in the Representative's mouth. And pairs are
     emitted strictly alternating, so a participant message that produced no

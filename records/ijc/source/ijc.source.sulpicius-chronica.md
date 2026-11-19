@@ -13,8 +13,8 @@ confidence:
   formation_confidence: Documented
   divergence_note: 'Sulpicius is not neutral: he is Martin of Tours'' biographer and admirer, the account
     is shaped to put Martin on the right side, and the charges he reports against Priscillian (nocturnal
-    gatherings, praying naked) are the prosecution''s and are repeated without scepticism. The FACT of
-    the execution and the bishops'' division over it are secure; the characterisation of the accused
+    gatherings, praying naked) are the prosecution''s and are repeated without skepticism. The FACT of
+    the execution and the bishops'' division over it are secure; the characterization of the accused
     is the accusers''.'
 sources: []
 author: "Sulpicius Severus (c. 363-425), Aquitanian ascetic and Martin of Tours' biographer"

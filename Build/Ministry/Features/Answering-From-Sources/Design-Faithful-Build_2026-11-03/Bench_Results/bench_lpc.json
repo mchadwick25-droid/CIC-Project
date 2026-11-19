@@ -1,0 +1,8265 @@
+{
+ "world": "lpc",
+ "cases": [
+  {
+   "cell": "C1.S1",
+   "wording_id": "C1-01",
+   "record_id": "lpc.quote.the-creed-first-then-the-prayer",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S1",
+   "wording_id": "C1-01",
+   "record_id": "lpc.quote.what-is-done-by-you-he-does-in-you",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S1",
+   "wording_id": "C1-02",
+   "record_id": "lpc.quote.the-creed-first-then-the-prayer",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S1",
+   "wording_id": "C1-02",
+   "record_id": "lpc.quote.what-is-done-by-you-he-does-in-you",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S1",
+   "wording_id": "C1-03",
+   "record_id": "lpc.quote.the-creed-first-then-the-prayer",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S1",
+   "wording_id": "C1-03",
+   "record_id": "lpc.quote.what-is-done-by-you-he-does-in-you",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S1",
+   "wording_id": "C1-04",
+   "record_id": "lpc.quote.the-creed-first-then-the-prayer",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S1",
+   "wording_id": "C1-04",
+   "record_id": "lpc.quote.what-is-done-by-you-he-does-in-you",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S1",
+   "wording_id": "C1-11",
+   "record_id": "lpc.quote.the-creed-first-then-the-prayer",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S1",
+   "wording_id": "C1-11",
+   "record_id": "lpc.quote.what-is-done-by-you-he-does-in-you",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S1",
+   "wording_id": "C1-23",
+   "record_id": "lpc.quote.the-creed-first-then-the-prayer",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S1",
+   "wording_id": "C1-23",
+   "record_id": "lpc.quote.what-is-done-by-you-he-does-in-you",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S1",
+   "wording_id": "C1-28",
+   "record_id": "lpc.quote.the-creed-first-then-the-prayer",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S1",
+   "wording_id": "C1-28",
+   "record_id": "lpc.quote.what-is-done-by-you-he-does-in-you",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S2",
+   "wording_id": "C1-13",
+   "record_id": "lpc.witness.the-only-son-and-the-trinity",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 3,
+    "keyword": 3,
+    "meaning": null,
+    "fused": 2,
+    "fused_seeds": 2
+   }
+  },
+  {
+   "cell": "C1.S2",
+   "wording_id": "C1-21",
+   "record_id": "lpc.witness.the-only-son-and-the-trinity",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S2",
+   "wording_id": "C1-22",
+   "record_id": "lpc.witness.the-only-son-and-the-trinity",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S2",
+   "wording_id": "C1-24",
+   "record_id": "lpc.witness.the-only-son-and-the-trinity",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S2",
+   "wording_id": "R-24",
+   "record_id": "lpc.witness.the-only-son-and-the-trinity",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S3",
+   "wording_id": "C1-05",
+   "record_id": "lpc.quote.two-hear-one-scorns-one-rises",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S3",
+   "wording_id": "C1-14",
+   "record_id": "lpc.quote.two-hear-one-scorns-one-rises",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S3",
+   "wording_id": "C1-15",
+   "record_id": "lpc.quote.two-hear-one-scorns-one-rises",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S3",
+   "wording_id": "C1-27",
+   "record_id": "lpc.quote.two-hear-one-scorns-one-rises",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S4",
+   "wording_id": "C1-06",
+   "record_id": "lpc.quote.peter-the-sick-man-and-the-physician",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S4",
+   "wording_id": "C1-09",
+   "record_id": "lpc.quote.peter-the-sick-man-and-the-physician",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S4",
+   "wording_id": "C1-18",
+   "record_id": "lpc.quote.peter-the-sick-man-and-the-physician",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S5",
+   "wording_id": "C1-08",
+   "record_id": "lpc.limit.no-chain-of-witnesses",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S5",
+   "wording_id": "C1-16",
+   "record_id": "lpc.limit.no-chain-of-witnesses",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 31,
+    "fused": 66,
+    "fused_seeds": 66
+   }
+  },
+  {
+   "cell": "C1.S8",
+   "wording_id": "C1-10",
+   "record_id": "lpc.witness.grant-me-chastity-but-not-yet",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S8",
+   "wording_id": "C1-10",
+   "record_id": "lpc.quote.bind-him-justly",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S8",
+   "wording_id": "C1-10",
+   "record_id": "lpc.quote.peter-the-sick-man-and-the-physician",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S8",
+   "wording_id": "C1-12",
+   "record_id": "lpc.witness.grant-me-chastity-but-not-yet",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S8",
+   "wording_id": "C1-12",
+   "record_id": "lpc.quote.bind-him-justly",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S8",
+   "wording_id": "C1-12",
+   "record_id": "lpc.quote.peter-the-sick-man-and-the-physician",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S8",
+   "wording_id": "C1-26",
+   "record_id": "lpc.witness.grant-me-chastity-but-not-yet",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S8",
+   "wording_id": "C1-26",
+   "record_id": "lpc.quote.bind-him-justly",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C1.S8",
+   "wording_id": "C1-26",
+   "record_id": "lpc.quote.peter-the-sick-man-and-the-physician",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C10.S1",
+   "wording_id": "C10-01",
+   "record_id": "lpc.witness.almsgiving-quenches-sin",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 39,
+    "keyword": 32,
+    "meaning": 9,
+    "fused": 24,
+    "fused_seeds": 23
+   }
+  },
+  {
+   "cell": "C10.S1",
+   "wording_id": "C10-07",
+   "record_id": "lpc.witness.almsgiving-quenches-sin",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 11,
+    "keyword": 9,
+    "meaning": 4,
+    "fused": 2,
+    "fused_seeds": 2
+   }
+  },
+  {
+   "cell": "C10.S1",
+   "wording_id": "C10-10",
+   "record_id": "lpc.witness.almsgiving-quenches-sin",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 14,
+    "fused": 37,
+    "fused_seeds": 41
+   }
+  },
+  {
+   "cell": "C10.S1",
+   "wording_id": "C10-18",
+   "record_id": "lpc.witness.almsgiving-quenches-sin",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": 100,
+    "meaning": null,
+    "fused": 187,
+    "fused_seeds": 189
+   }
+  },
+  {
+   "cell": "C10.S1",
+   "wording_id": "C10-19",
+   "record_id": "lpc.witness.almsgiving-quenches-sin",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 72,
+    "keyword": 55,
+    "meaning": 7,
+    "fused": 12,
+    "fused_seeds": 22
+   }
+  },
+  {
+   "cell": "C10.S2",
+   "wording_id": "C10-02",
+   "record_id": "lpc.witness.almsgiving-quenches-sin",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C10.S2",
+   "wording_id": "C10-02",
+   "record_id": "lpc.story.hundred-thousand-sesterces",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C10.S2",
+   "wording_id": "C10-16",
+   "record_id": "lpc.witness.almsgiving-quenches-sin",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C10.S2",
+   "wording_id": "C10-16",
+   "record_id": "lpc.story.hundred-thousand-sesterces",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C10.S4",
+   "wording_id": "C10-06",
+   "record_id": "lpc.story.hundred-thousand-sesterces",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C10.S4",
+   "wording_id": "C10-06",
+   "record_id": "lpc.story.the-plague-and-the-enemies",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C10.S4",
+   "wording_id": "C10-15",
+   "record_id": "lpc.story.hundred-thousand-sesterces",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 55,
+    "fused": 96,
+    "fused_seeds": 96
+   }
+  },
+  {
+   "cell": "C10.S4",
+   "wording_id": "C10-15",
+   "record_id": "lpc.story.the-plague-and-the-enemies",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C10.S4",
+   "wording_id": "C10-22",
+   "record_id": "lpc.story.hundred-thousand-sesterces",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C10.S4",
+   "wording_id": "C10-22",
+   "record_id": "lpc.story.the-plague-and-the-enemies",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C11.S2",
+   "wording_id": "C11-08",
+   "record_id": "lpc.story.the-death-of-cyprian",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C11.S2",
+   "wording_id": "C11-14",
+   "record_id": "lpc.story.the-death-of-cyprian",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C11.S2",
+   "wording_id": "C11-20",
+   "record_id": "lpc.story.the-death-of-cyprian",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C11.S3",
+   "wording_id": "C11-13",
+   "record_id": "lpc.force.congregational-acclamation-overriding-preference",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C11.S3",
+   "wording_id": "C11-21",
+   "record_id": "lpc.force.congregational-acclamation-overriding-preference",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C11.S6",
+   "wording_id": "C11-10",
+   "record_id": "lpc.term.compel-them-to-come-in",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C11.S6",
+   "wording_id": "R-38",
+   "record_id": "lpc.term.compel-them-to-come-in",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C11.S7",
+   "wording_id": "C11-19",
+   "record_id": "lpc.witness.violence-commanded-not-cruel",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C11.S7",
+   "wording_id": "C11-19",
+   "record_id": "lpc.term.heresy",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C11.S7",
+   "wording_id": "C11-19",
+   "record_id": "lpc.term.schism",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S1",
+   "wording_id": "C14-01",
+   "record_id": "lpc.witness.blamed-for-the-worlds-troubles",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 89,
+    "fused": 173,
+    "fused_seeds": 173
+   }
+  },
+  {
+   "cell": "C14.S1",
+   "wording_id": "C14-01",
+   "record_id": "lpc.story.the-plague-and-the-enemies",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S1",
+   "wording_id": "C14-01",
+   "record_id": "lpc.witness.heard-for-salvation-not-for-wish",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S1",
+   "wording_id": "C14-14",
+   "record_id": "lpc.witness.blamed-for-the-worlds-troubles",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S1",
+   "wording_id": "C14-14",
+   "record_id": "lpc.story.the-plague-and-the-enemies",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S1",
+   "wording_id": "C14-14",
+   "record_id": "lpc.witness.heard-for-salvation-not-for-wish",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S1",
+   "wording_id": "C14-19",
+   "record_id": "lpc.witness.blamed-for-the-worlds-troubles",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S1",
+   "wording_id": "C14-19",
+   "record_id": "lpc.story.the-plague-and-the-enemies",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S1",
+   "wording_id": "C14-19",
+   "record_id": "lpc.witness.heard-for-salvation-not-for-wish",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S1",
+   "wording_id": "C14-23",
+   "record_id": "lpc.witness.blamed-for-the-worlds-troubles",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S1",
+   "wording_id": "C14-23",
+   "record_id": "lpc.story.the-plague-and-the-enemies",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S1",
+   "wording_id": "C14-23",
+   "record_id": "lpc.witness.heard-for-salvation-not-for-wish",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 45,
+    "keyword": 38,
+    "meaning": 44,
+    "fused": 13,
+    "fused_seeds": 13
+   }
+  },
+  {
+   "cell": "C14.S1",
+   "wording_id": "R-04",
+   "record_id": "lpc.witness.blamed-for-the-worlds-troubles",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S1",
+   "wording_id": "R-04",
+   "record_id": "lpc.story.the-plague-and-the-enemies",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 68,
+    "keyword": 65,
+    "meaning": null,
+    "fused": 121,
+    "fused_seeds": 121
+   }
+  },
+  {
+   "cell": "C14.S1",
+   "wording_id": "R-04",
+   "record_id": "lpc.witness.heard-for-salvation-not-for-wish",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 83,
+    "fused": 157,
+    "fused_seeds": 157
+   }
+  },
+  {
+   "cell": "C14.S1",
+   "wording_id": "R-31",
+   "record_id": "lpc.witness.blamed-for-the-worlds-troubles",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S1",
+   "wording_id": "R-31",
+   "record_id": "lpc.story.the-plague-and-the-enemies",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S1",
+   "wording_id": "R-31",
+   "record_id": "lpc.witness.heard-for-salvation-not-for-wish",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S2",
+   "wording_id": "C14-04",
+   "record_id": "lpc.witness.heard-for-salvation-not-for-wish",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 36,
+    "fused": 72,
+    "fused_seeds": 72
+   }
+  },
+  {
+   "cell": "C14.S2",
+   "wording_id": "C14-04",
+   "record_id": "lpc.quote.shepherd-wounded-in-the-flock",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S2",
+   "wording_id": "C14-04",
+   "record_id": "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S2",
+   "wording_id": "R-19",
+   "record_id": "lpc.witness.heard-for-salvation-not-for-wish",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 59,
+    "fused": 116,
+    "fused_seeds": 116
+   }
+  },
+  {
+   "cell": "C14.S2",
+   "wording_id": "R-19",
+   "record_id": "lpc.quote.shepherd-wounded-in-the-flock",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 40,
+    "fused": 79,
+    "fused_seeds": 79
+   }
+  },
+  {
+   "cell": "C14.S2",
+   "wording_id": "R-19",
+   "record_id": "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S3",
+   "wording_id": "C14-25",
+   "record_id": "lpc.witness.heard-for-salvation-not-for-wish",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S3",
+   "wording_id": "R-18",
+   "record_id": "lpc.witness.heard-for-salvation-not-for-wish",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S4",
+   "wording_id": "C14-02",
+   "record_id": "lpc.witness.grant-me-chastity-but-not-yet",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S4",
+   "wording_id": "C14-02",
+   "record_id": "lpc.limit.ordinary-interior-life",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S4",
+   "wording_id": "C14-03",
+   "record_id": "lpc.witness.grant-me-chastity-but-not-yet",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S4",
+   "wording_id": "C14-03",
+   "record_id": "lpc.limit.ordinary-interior-life",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S4",
+   "wording_id": "C14-20",
+   "record_id": "lpc.witness.grant-me-chastity-but-not-yet",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S4",
+   "wording_id": "C14-20",
+   "record_id": "lpc.limit.ordinary-interior-life",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S4",
+   "wording_id": "C14-26",
+   "record_id": "lpc.witness.grant-me-chastity-but-not-yet",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S4",
+   "wording_id": "C14-26",
+   "record_id": "lpc.limit.ordinary-interior-life",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S4",
+   "wording_id": "R-12",
+   "record_id": "lpc.witness.grant-me-chastity-but-not-yet",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S4",
+   "wording_id": "R-12",
+   "record_id": "lpc.limit.ordinary-interior-life",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S5",
+   "wording_id": "C14-07",
+   "record_id": "lpc.quote.apart-in-heart-united-in-body",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S5",
+   "wording_id": "C14-07",
+   "record_id": "lpc.quote.pardon-through-a-wicked-clergyman",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S5",
+   "wording_id": "C14-07",
+   "record_id": "lpc.quote.reprove-and-forgive-the-surgeons-knife",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S5",
+   "wording_id": "C14-07",
+   "record_id": "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S5",
+   "wording_id": "C14-07",
+   "record_id": "lpc.quote.going-out-without-violating-unity",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S5",
+   "wording_id": "C14-07",
+   "record_id": "lpc.witness.communion-over-separation",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S5",
+   "wording_id": "C14-11",
+   "record_id": "lpc.quote.apart-in-heart-united-in-body",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S5",
+   "wording_id": "C14-11",
+   "record_id": "lpc.quote.pardon-through-a-wicked-clergyman",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S5",
+   "wording_id": "C14-11",
+   "record_id": "lpc.quote.reprove-and-forgive-the-surgeons-knife",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 62,
+    "keyword": 58,
+    "meaning": 16,
+    "fused": 21,
+    "fused_seeds": 21
+   }
+  },
+  {
+   "cell": "C14.S5",
+   "wording_id": "C14-11",
+   "record_id": "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 13,
+    "keyword": 13,
+    "meaning": 2,
+    "fused": 10,
+    "fused_seeds": 10
+   }
+  },
+  {
+   "cell": "C14.S5",
+   "wording_id": "C14-11",
+   "record_id": "lpc.quote.going-out-without-violating-unity",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S5",
+   "wording_id": "C14-11",
+   "record_id": "lpc.witness.communion-over-separation",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S5",
+   "wording_id": "R-13",
+   "record_id": "lpc.quote.apart-in-heart-united-in-body",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S5",
+   "wording_id": "R-13",
+   "record_id": "lpc.quote.pardon-through-a-wicked-clergyman",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S5",
+   "wording_id": "R-13",
+   "record_id": "lpc.quote.reprove-and-forgive-the-surgeons-knife",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S5",
+   "wording_id": "R-13",
+   "record_id": "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S5",
+   "wording_id": "R-13",
+   "record_id": "lpc.quote.going-out-without-violating-unity",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S5",
+   "wording_id": "R-13",
+   "record_id": "lpc.witness.communion-over-separation",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S5",
+   "wording_id": "R-14",
+   "record_id": "lpc.quote.apart-in-heart-united-in-body",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S5",
+   "wording_id": "R-14",
+   "record_id": "lpc.quote.pardon-through-a-wicked-clergyman",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S5",
+   "wording_id": "R-14",
+   "record_id": "lpc.quote.reprove-and-forgive-the-surgeons-knife",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S5",
+   "wording_id": "R-14",
+   "record_id": "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S5",
+   "wording_id": "R-14",
+   "record_id": "lpc.quote.going-out-without-violating-unity",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S5",
+   "wording_id": "R-14",
+   "record_id": "lpc.witness.communion-over-separation",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 86,
+    "keyword": 55,
+    "meaning": null,
+    "fused": 109,
+    "fused_seeds": 109
+   }
+  },
+  {
+   "cell": "C14.S6",
+   "wording_id": "C14-08",
+   "record_id": "lpc.quote.bind-him-justly",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S6",
+   "wording_id": "C14-08",
+   "record_id": "lpc.witness.confessor-claim-vs-regulated-peace",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S6",
+   "wording_id": "C14-08",
+   "record_id": "lpc.quote.ye-belong-to-my-care",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S6",
+   "wording_id": "C14-08",
+   "record_id": "lpc.witness.violence-commanded-not-cruel",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S6",
+   "wording_id": "C14-09",
+   "record_id": "lpc.quote.bind-him-justly",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S6",
+   "wording_id": "C14-09",
+   "record_id": "lpc.witness.confessor-claim-vs-regulated-peace",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S6",
+   "wording_id": "C14-09",
+   "record_id": "lpc.quote.ye-belong-to-my-care",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S6",
+   "wording_id": "C14-09",
+   "record_id": "lpc.witness.violence-commanded-not-cruel",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S6",
+   "wording_id": "C14-10",
+   "record_id": "lpc.quote.bind-him-justly",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S6",
+   "wording_id": "C14-10",
+   "record_id": "lpc.witness.confessor-claim-vs-regulated-peace",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S6",
+   "wording_id": "C14-10",
+   "record_id": "lpc.quote.ye-belong-to-my-care",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S6",
+   "wording_id": "C14-10",
+   "record_id": "lpc.witness.violence-commanded-not-cruel",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S6",
+   "wording_id": "C14-17",
+   "record_id": "lpc.quote.bind-him-justly",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S6",
+   "wording_id": "C14-17",
+   "record_id": "lpc.witness.confessor-claim-vs-regulated-peace",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S6",
+   "wording_id": "C14-17",
+   "record_id": "lpc.quote.ye-belong-to-my-care",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S6",
+   "wording_id": "C14-17",
+   "record_id": "lpc.witness.violence-commanded-not-cruel",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S6",
+   "wording_id": "C14-18",
+   "record_id": "lpc.quote.bind-him-justly",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S6",
+   "wording_id": "C14-18",
+   "record_id": "lpc.witness.confessor-claim-vs-regulated-peace",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S6",
+   "wording_id": "C14-18",
+   "record_id": "lpc.quote.ye-belong-to-my-care",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S6",
+   "wording_id": "C14-18",
+   "record_id": "lpc.witness.violence-commanded-not-cruel",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S7",
+   "wording_id": "C14-05",
+   "record_id": "lpc.quote.going-out-without-violating-unity",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S7",
+   "wording_id": "C14-05",
+   "record_id": "lpc.quote.peter-the-sick-man-and-the-physician",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S7",
+   "wording_id": "C14-05",
+   "record_id": "lpc.story.celerinus-writes-to-lucian",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S7",
+   "wording_id": "C14-05",
+   "record_id": "lpc.term.libellatici-sacrificati",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S7",
+   "wording_id": "C14-06",
+   "record_id": "lpc.quote.going-out-without-violating-unity",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S7",
+   "wording_id": "C14-06",
+   "record_id": "lpc.quote.peter-the-sick-man-and-the-physician",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S7",
+   "wording_id": "C14-06",
+   "record_id": "lpc.story.celerinus-writes-to-lucian",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S7",
+   "wording_id": "C14-06",
+   "record_id": "lpc.term.libellatici-sacrificati",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S7",
+   "wording_id": "C14-13",
+   "record_id": "lpc.quote.going-out-without-violating-unity",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S7",
+   "wording_id": "C14-13",
+   "record_id": "lpc.quote.peter-the-sick-man-and-the-physician",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S7",
+   "wording_id": "C14-13",
+   "record_id": "lpc.story.celerinus-writes-to-lucian",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S7",
+   "wording_id": "C14-13",
+   "record_id": "lpc.term.libellatici-sacrificati",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S7",
+   "wording_id": "R-07",
+   "record_id": "lpc.quote.going-out-without-violating-unity",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S7",
+   "wording_id": "R-07",
+   "record_id": "lpc.quote.peter-the-sick-man-and-the-physician",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S7",
+   "wording_id": "R-07",
+   "record_id": "lpc.story.celerinus-writes-to-lucian",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S7",
+   "wording_id": "R-07",
+   "record_id": "lpc.term.libellatici-sacrificati",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S7",
+   "wording_id": "R-10",
+   "record_id": "lpc.quote.going-out-without-violating-unity",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S7",
+   "wording_id": "R-10",
+   "record_id": "lpc.quote.peter-the-sick-man-and-the-physician",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S7",
+   "wording_id": "R-10",
+   "record_id": "lpc.story.celerinus-writes-to-lucian",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S7",
+   "wording_id": "R-10",
+   "record_id": "lpc.term.libellatici-sacrificati",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S7",
+   "wording_id": "R-11",
+   "record_id": "lpc.quote.going-out-without-violating-unity",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S7",
+   "wording_id": "R-11",
+   "record_id": "lpc.quote.peter-the-sick-man-and-the-physician",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S7",
+   "wording_id": "R-11",
+   "record_id": "lpc.story.celerinus-writes-to-lucian",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S7",
+   "wording_id": "R-11",
+   "record_id": "lpc.term.libellatici-sacrificati",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S8",
+   "wording_id": "C14-12",
+   "record_id": "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S8",
+   "wording_id": "C14-12",
+   "record_id": "lpc.witness.grant-me-chastity-but-not-yet",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S8",
+   "wording_id": "C14-12",
+   "record_id": "lpc.quote.peter-the-sick-man-and-the-physician",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S8",
+   "wording_id": "C14-12",
+   "record_id": "lpc.quote.shepherd-wounded-in-the-flock",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S8",
+   "wording_id": "C14-21",
+   "record_id": "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S8",
+   "wording_id": "C14-21",
+   "record_id": "lpc.witness.grant-me-chastity-but-not-yet",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S8",
+   "wording_id": "C14-21",
+   "record_id": "lpc.quote.peter-the-sick-man-and-the-physician",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S8",
+   "wording_id": "C14-21",
+   "record_id": "lpc.quote.shepherd-wounded-in-the-flock",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S8",
+   "wording_id": "C14-22",
+   "record_id": "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S8",
+   "wording_id": "C14-22",
+   "record_id": "lpc.witness.grant-me-chastity-but-not-yet",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S8",
+   "wording_id": "C14-22",
+   "record_id": "lpc.quote.peter-the-sick-man-and-the-physician",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S8",
+   "wording_id": "C14-22",
+   "record_id": "lpc.quote.shepherd-wounded-in-the-flock",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S8",
+   "wording_id": "C14-24",
+   "record_id": "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S8",
+   "wording_id": "C14-24",
+   "record_id": "lpc.witness.grant-me-chastity-but-not-yet",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S8",
+   "wording_id": "C14-24",
+   "record_id": "lpc.quote.peter-the-sick-man-and-the-physician",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S8",
+   "wording_id": "C14-24",
+   "record_id": "lpc.quote.shepherd-wounded-in-the-flock",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S8",
+   "wording_id": "R-08",
+   "record_id": "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S8",
+   "wording_id": "R-08",
+   "record_id": "lpc.witness.grant-me-chastity-but-not-yet",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S8",
+   "wording_id": "R-08",
+   "record_id": "lpc.quote.peter-the-sick-man-and-the-physician",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C14.S8",
+   "wording_id": "R-08",
+   "record_id": "lpc.quote.shepherd-wounded-in-the-flock",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C15.S1",
+   "wording_id": "C15-01",
+   "record_id": "lpc.witness.marriage-a-threefold-good",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 74,
+    "keyword": 53,
+    "meaning": null,
+    "fused": 100,
+    "fused_seeds": 100
+   }
+  },
+  {
+   "cell": "C15.S1",
+   "wording_id": "C15-01",
+   "record_id": "lpc.witness.grant-me-chastity-but-not-yet",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C15.S2",
+   "wording_id": "C15-02",
+   "record_id": "lpc.witness.days-before-the-sun",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 6,
+    "fused": 6,
+    "fused_seeds": 6
+   }
+  },
+  {
+   "cell": "C15.S2",
+   "wording_id": "C15-09",
+   "record_id": "lpc.witness.days-before-the-sun",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C15.S4",
+   "wording_id": "C15-04",
+   "record_id": "lpc.witness.communion-over-separation",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 91,
+    "fused": 174,
+    "fused_seeds": 174
+   }
+  },
+  {
+   "cell": "C15.S4",
+   "wording_id": "C15-04",
+   "record_id": "lpc.term.communion",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C15.S4",
+   "wording_id": "C15-04",
+   "record_id": "lpc.term.schism",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C15.S4",
+   "wording_id": "C15-04",
+   "record_id": "lpc.quote.one-good-shepherd-not-many",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C15.S4",
+   "wording_id": "C15-05",
+   "record_id": "lpc.witness.communion-over-separation",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": 90,
+    "meaning": null,
+    "fused": 169,
+    "fused_seeds": 169
+   }
+  },
+  {
+   "cell": "C15.S4",
+   "wording_id": "C15-05",
+   "record_id": "lpc.term.communion",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C15.S4",
+   "wording_id": "C15-05",
+   "record_id": "lpc.term.schism",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C15.S4",
+   "wording_id": "C15-05",
+   "record_id": "lpc.quote.one-good-shepherd-not-many",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C15.S4",
+   "wording_id": "C15-06",
+   "record_id": "lpc.witness.communion-over-separation",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C15.S4",
+   "wording_id": "C15-06",
+   "record_id": "lpc.term.communion",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C15.S4",
+   "wording_id": "C15-06",
+   "record_id": "lpc.term.schism",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C15.S4",
+   "wording_id": "C15-06",
+   "record_id": "lpc.quote.one-good-shepherd-not-many",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 84,
+    "fused": 161,
+    "fused_seeds": 161
+   }
+  },
+  {
+   "cell": "C15.S4",
+   "wording_id": "C15-10",
+   "record_id": "lpc.witness.communion-over-separation",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C15.S4",
+   "wording_id": "C15-10",
+   "record_id": "lpc.term.communion",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C15.S4",
+   "wording_id": "C15-10",
+   "record_id": "lpc.term.schism",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C15.S4",
+   "wording_id": "C15-10",
+   "record_id": "lpc.quote.one-good-shepherd-not-many",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C15.S5",
+   "wording_id": "C15-07",
+   "record_id": "lpc.witness.constantine-did-not-corrupt",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 19,
+    "keyword": 17,
+    "meaning": 3,
+    "fused": 4,
+    "fused_seeds": 4
+   }
+  },
+  {
+   "cell": "C15.S5",
+   "wording_id": "C15-15",
+   "record_id": "lpc.witness.constantine-did-not-corrupt",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 19,
+    "fused": 41,
+    "fused_seeds": 41
+   }
+  },
+  {
+   "cell": "C15.S7",
+   "wording_id": "C15-11",
+   "record_id": "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C15.S7",
+   "wording_id": "C15-12",
+   "record_id": "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C15.S7",
+   "wording_id": "C15-13",
+   "record_id": "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C15.S7",
+   "wording_id": "C15-14",
+   "record_id": "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C2.S2",
+   "wording_id": "C2-01",
+   "record_id": "lpc.witness.violence-commanded-not-cruel",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 6,
+    "fused": 24,
+    "fused_seeds": 24
+   }
+  },
+  {
+   "cell": "C2.S2",
+   "wording_id": "C2-01",
+   "record_id": "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C2.S2",
+   "wording_id": "C2-09",
+   "record_id": "lpc.witness.violence-commanded-not-cruel",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C2.S2",
+   "wording_id": "C2-09",
+   "record_id": "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C2.S2",
+   "wording_id": "C2-11",
+   "record_id": "lpc.witness.violence-commanded-not-cruel",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C2.S2",
+   "wording_id": "C2-11",
+   "record_id": "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C2.S2",
+   "wording_id": "C2-19",
+   "record_id": "lpc.witness.violence-commanded-not-cruel",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 13,
+    "fused": 24,
+    "fused_seeds": 24
+   }
+  },
+  {
+   "cell": "C2.S2",
+   "wording_id": "C2-19",
+   "record_id": "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C2.S3",
+   "wording_id": "C2-06",
+   "record_id": "lpc.witness.the-only-son-and-the-trinity",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C2.S3",
+   "wording_id": "C2-10",
+   "record_id": "lpc.witness.the-only-son-and-the-trinity",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C2.S3",
+   "wording_id": "C2-12",
+   "record_id": "lpc.witness.the-only-son-and-the-trinity",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C2.S3",
+   "wording_id": "C2-14",
+   "record_id": "lpc.witness.the-only-son-and-the-trinity",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 64,
+    "keyword": 46,
+    "meaning": null,
+    "fused": 85,
+    "fused_seeds": 85
+   }
+  },
+  {
+   "cell": "C2.S5",
+   "wording_id": "C2-03",
+   "record_id": "lpc.witness.scripture-above-councils",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 42,
+    "keyword": 18,
+    "meaning": null,
+    "fused": 41,
+    "fused_seeds": 41
+   }
+  },
+  {
+   "cell": "C2.S5",
+   "wording_id": "C2-03",
+   "record_id": "lpc.witness.the-only-son-and-the-trinity",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C2.S5",
+   "wording_id": "C2-04",
+   "record_id": "lpc.witness.scripture-above-councils",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C2.S5",
+   "wording_id": "C2-04",
+   "record_id": "lpc.witness.the-only-son-and-the-trinity",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C2.S5",
+   "wording_id": "C2-07",
+   "record_id": "lpc.witness.scripture-above-councils",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C2.S5",
+   "wording_id": "C2-07",
+   "record_id": "lpc.witness.the-only-son-and-the-trinity",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C2.S5",
+   "wording_id": "C2-15",
+   "record_id": "lpc.witness.scripture-above-councils",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C2.S5",
+   "wording_id": "C2-15",
+   "record_id": "lpc.witness.the-only-son-and-the-trinity",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C2.S6",
+   "wording_id": "C2-05",
+   "record_id": "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C2.S6",
+   "wording_id": "C2-16",
+   "record_id": "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C2.S6",
+   "wording_id": "C2-18",
+   "record_id": "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C2.S6",
+   "wording_id": "R-35",
+   "record_id": "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C2.S6",
+   "wording_id": "R-36",
+   "record_id": "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C2.S7",
+   "wording_id": "C2-20",
+   "record_id": "lpc.witness.violence-commanded-not-cruel",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S1",
+   "wording_id": "C4-01",
+   "record_id": "lpc.quote.no-one-has-the-love-of-god-from-himself",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S1",
+   "wording_id": "C4-01",
+   "record_id": "lpc.quote.what-is-done-by-you-he-does-in-you",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S1",
+   "wording_id": "C4-01",
+   "record_id": "lpc.quote.good-works-the-comfort-of-our-dangers",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S1",
+   "wording_id": "C4-11",
+   "record_id": "lpc.quote.no-one-has-the-love-of-god-from-himself",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S1",
+   "wording_id": "C4-11",
+   "record_id": "lpc.quote.what-is-done-by-you-he-does-in-you",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S1",
+   "wording_id": "C4-11",
+   "record_id": "lpc.quote.good-works-the-comfort-of-our-dangers",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S1",
+   "wording_id": "C4-13",
+   "record_id": "lpc.quote.no-one-has-the-love-of-god-from-himself",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S1",
+   "wording_id": "C4-13",
+   "record_id": "lpc.quote.what-is-done-by-you-he-does-in-you",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S1",
+   "wording_id": "C4-13",
+   "record_id": "lpc.quote.good-works-the-comfort-of-our-dangers",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S1",
+   "wording_id": "C4-14",
+   "record_id": "lpc.quote.no-one-has-the-love-of-god-from-himself",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S1",
+   "wording_id": "C4-14",
+   "record_id": "lpc.quote.what-is-done-by-you-he-does-in-you",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S1",
+   "wording_id": "C4-14",
+   "record_id": "lpc.quote.good-works-the-comfort-of-our-dangers",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S1",
+   "wording_id": "C4-16",
+   "record_id": "lpc.quote.no-one-has-the-love-of-god-from-himself",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S1",
+   "wording_id": "C4-16",
+   "record_id": "lpc.quote.what-is-done-by-you-he-does-in-you",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S1",
+   "wording_id": "C4-16",
+   "record_id": "lpc.quote.good-works-the-comfort-of-our-dangers",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S1",
+   "wording_id": "C4-20",
+   "record_id": "lpc.quote.no-one-has-the-love-of-god-from-himself",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S1",
+   "wording_id": "C4-20",
+   "record_id": "lpc.quote.what-is-done-by-you-he-does-in-you",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S1",
+   "wording_id": "C4-20",
+   "record_id": "lpc.quote.good-works-the-comfort-of-our-dangers",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S1",
+   "wording_id": "C4-23",
+   "record_id": "lpc.quote.no-one-has-the-love-of-god-from-himself",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S1",
+   "wording_id": "C4-23",
+   "record_id": "lpc.quote.what-is-done-by-you-he-does-in-you",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S1",
+   "wording_id": "C4-23",
+   "record_id": "lpc.quote.good-works-the-comfort-of-our-dangers",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S1",
+   "wording_id": "C4-24",
+   "record_id": "lpc.quote.no-one-has-the-love-of-god-from-himself",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S1",
+   "wording_id": "C4-24",
+   "record_id": "lpc.quote.what-is-done-by-you-he-does-in-you",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S1",
+   "wording_id": "C4-24",
+   "record_id": "lpc.quote.good-works-the-comfort-of-our-dangers",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S1",
+   "wording_id": "C4-27",
+   "record_id": "lpc.quote.no-one-has-the-love-of-god-from-himself",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S1",
+   "wording_id": "C4-27",
+   "record_id": "lpc.quote.what-is-done-by-you-he-does-in-you",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S1",
+   "wording_id": "C4-27",
+   "record_id": "lpc.quote.good-works-the-comfort-of-our-dangers",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S1",
+   "wording_id": "C4-28",
+   "record_id": "lpc.quote.no-one-has-the-love-of-god-from-himself",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S1",
+   "wording_id": "C4-28",
+   "record_id": "lpc.quote.what-is-done-by-you-he-does-in-you",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S1",
+   "wording_id": "C4-28",
+   "record_id": "lpc.quote.good-works-the-comfort-of-our-dangers",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S5",
+   "wording_id": "C4-04",
+   "record_id": "lpc.term.reconciliation-penitential-discipline",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S5",
+   "wording_id": "C4-04",
+   "record_id": "lpc.quote.peter-the-sick-man-and-the-physician",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S5",
+   "wording_id": "C4-04",
+   "record_id": "lpc.quote.bind-him-justly",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S5",
+   "wording_id": "C4-04",
+   "record_id": "lpc.quote.reprove-and-forgive-the-surgeons-knife",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S5",
+   "wording_id": "C4-05",
+   "record_id": "lpc.term.reconciliation-penitential-discipline",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S5",
+   "wording_id": "C4-05",
+   "record_id": "lpc.quote.peter-the-sick-man-and-the-physician",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S5",
+   "wording_id": "C4-05",
+   "record_id": "lpc.quote.bind-him-justly",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S5",
+   "wording_id": "C4-05",
+   "record_id": "lpc.quote.reprove-and-forgive-the-surgeons-knife",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S5",
+   "wording_id": "C4-06",
+   "record_id": "lpc.term.reconciliation-penitential-discipline",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S5",
+   "wording_id": "C4-06",
+   "record_id": "lpc.quote.peter-the-sick-man-and-the-physician",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S5",
+   "wording_id": "C4-06",
+   "record_id": "lpc.quote.bind-him-justly",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S5",
+   "wording_id": "C4-06",
+   "record_id": "lpc.quote.reprove-and-forgive-the-surgeons-knife",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S5",
+   "wording_id": "C4-12",
+   "record_id": "lpc.term.reconciliation-penitential-discipline",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S5",
+   "wording_id": "C4-12",
+   "record_id": "lpc.quote.peter-the-sick-man-and-the-physician",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S5",
+   "wording_id": "C4-12",
+   "record_id": "lpc.quote.bind-him-justly",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S5",
+   "wording_id": "C4-12",
+   "record_id": "lpc.quote.reprove-and-forgive-the-surgeons-knife",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S5",
+   "wording_id": "C4-26",
+   "record_id": "lpc.term.reconciliation-penitential-discipline",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S5",
+   "wording_id": "C4-26",
+   "record_id": "lpc.quote.peter-the-sick-man-and-the-physician",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S5",
+   "wording_id": "C4-26",
+   "record_id": "lpc.quote.bind-him-justly",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C4.S5",
+   "wording_id": "C4-26",
+   "record_id": "lpc.quote.reprove-and-forgive-the-surgeons-knife",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S1",
+   "wording_id": "C5-02",
+   "record_id": "lpc.witness.scripture-above-councils",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": 26
+   }
+  },
+  {
+   "cell": "C5.S1",
+   "wording_id": "C5-04",
+   "record_id": "lpc.witness.scripture-above-councils",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": 29
+   }
+  },
+  {
+   "cell": "C5.S1",
+   "wording_id": "C5-07",
+   "record_id": "lpc.witness.scripture-above-councils",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 14,
+    "fused": 42,
+    "fused_seeds": 30
+   }
+  },
+  {
+   "cell": "C5.S1",
+   "wording_id": "C5-16",
+   "record_id": "lpc.witness.scripture-above-councils",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": 30
+   }
+  },
+  {
+   "cell": "C5.S1",
+   "wording_id": "C5-27",
+   "record_id": "lpc.witness.scripture-above-councils",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": 30
+   }
+  },
+  {
+   "cell": "C5.S1",
+   "wording_id": "C5-30",
+   "record_id": "lpc.witness.scripture-above-councils",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": 30
+   }
+  },
+  {
+   "cell": "C5.S1",
+   "wording_id": "C5-31",
+   "record_id": "lpc.witness.scripture-above-councils",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": 30
+   }
+  },
+  {
+   "cell": "C5.S2",
+   "wording_id": "C5-01",
+   "record_id": "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S2",
+   "wording_id": "C5-01",
+   "record_id": "lpc.witness.violence-commanded-not-cruel",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S2",
+   "wording_id": "C5-01",
+   "record_id": "lpc.witness.heard-for-salvation-not-for-wish",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S2",
+   "wording_id": "C5-05",
+   "record_id": "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S2",
+   "wording_id": "C5-05",
+   "record_id": "lpc.witness.violence-commanded-not-cruel",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S2",
+   "wording_id": "C5-05",
+   "record_id": "lpc.witness.heard-for-salvation-not-for-wish",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S2",
+   "wording_id": "C5-11",
+   "record_id": "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S2",
+   "wording_id": "C5-11",
+   "record_id": "lpc.witness.violence-commanded-not-cruel",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S2",
+   "wording_id": "C5-11",
+   "record_id": "lpc.witness.heard-for-salvation-not-for-wish",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S2",
+   "wording_id": "C5-12",
+   "record_id": "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S2",
+   "wording_id": "C5-12",
+   "record_id": "lpc.witness.violence-commanded-not-cruel",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S2",
+   "wording_id": "C5-12",
+   "record_id": "lpc.witness.heard-for-salvation-not-for-wish",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S2",
+   "wording_id": "C5-25",
+   "record_id": "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S2",
+   "wording_id": "C5-25",
+   "record_id": "lpc.witness.violence-commanded-not-cruel",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 67,
+    "keyword": 48,
+    "meaning": null,
+    "fused": 87,
+    "fused_seeds": 87
+   }
+  },
+  {
+   "cell": "C5.S2",
+   "wording_id": "C5-25",
+   "record_id": "lpc.witness.heard-for-salvation-not-for-wish",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S2",
+   "wording_id": "C5-26",
+   "record_id": "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S2",
+   "wording_id": "C5-26",
+   "record_id": "lpc.witness.violence-commanded-not-cruel",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S2",
+   "wording_id": "C5-26",
+   "record_id": "lpc.witness.heard-for-salvation-not-for-wish",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S2",
+   "wording_id": "C5-28",
+   "record_id": "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S2",
+   "wording_id": "C5-28",
+   "record_id": "lpc.witness.violence-commanded-not-cruel",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S2",
+   "wording_id": "C5-28",
+   "record_id": "lpc.witness.heard-for-salvation-not-for-wish",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S2",
+   "wording_id": "C5-29",
+   "record_id": "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S2",
+   "wording_id": "C5-29",
+   "record_id": "lpc.witness.violence-commanded-not-cruel",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S2",
+   "wording_id": "C5-29",
+   "record_id": "lpc.witness.heard-for-salvation-not-for-wish",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S3",
+   "wording_id": "C5-13",
+   "record_id": "lpc.witness.days-before-the-sun",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S3",
+   "wording_id": "C5-17",
+   "record_id": "lpc.witness.days-before-the-sun",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S3",
+   "wording_id": "C5-24",
+   "record_id": "lpc.witness.days-before-the-sun",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S3",
+   "wording_id": "R-27",
+   "record_id": "lpc.witness.days-before-the-sun",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S3",
+   "wording_id": "R-28",
+   "record_id": "lpc.witness.days-before-the-sun",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S4",
+   "wording_id": "C5-08",
+   "record_id": "lpc.witness.days-before-the-sun",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S4",
+   "wording_id": "C5-20",
+   "record_id": "lpc.witness.days-before-the-sun",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 79,
+    "fused": 132,
+    "fused_seeds": 132
+   }
+  },
+  {
+   "cell": "C5.S6",
+   "wording_id": "C5-03",
+   "record_id": "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 79,
+    "keyword": 65,
+    "meaning": null,
+    "fused": 127,
+    "fused_seeds": 127
+   }
+  },
+  {
+   "cell": "C5.S6",
+   "wording_id": "C5-03",
+   "record_id": "lpc.story.the-psalms-on-the-wall",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S6",
+   "wording_id": "C5-15",
+   "record_id": "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S6",
+   "wording_id": "C5-15",
+   "record_id": "lpc.story.the-psalms-on-the-wall",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S7",
+   "wording_id": "C5-06",
+   "record_id": "lpc.witness.violence-commanded-not-cruel",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": 19
+   }
+  },
+  {
+   "cell": "C5.S7",
+   "wording_id": "C5-21",
+   "record_id": "lpc.witness.violence-commanded-not-cruel",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": 30
+   }
+  },
+  {
+   "cell": "C5.S8",
+   "wording_id": "C5-09",
+   "record_id": "lpc.witness.days-before-the-sun",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S8",
+   "wording_id": "C5-09",
+   "record_id": "lpc.witness.violence-commanded-not-cruel",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S8",
+   "wording_id": "C5-10",
+   "record_id": "lpc.witness.days-before-the-sun",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S8",
+   "wording_id": "C5-10",
+   "record_id": "lpc.witness.violence-commanded-not-cruel",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S8",
+   "wording_id": "C5-18",
+   "record_id": "lpc.witness.days-before-the-sun",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S8",
+   "wording_id": "C5-18",
+   "record_id": "lpc.witness.violence-commanded-not-cruel",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S8",
+   "wording_id": "C5-19",
+   "record_id": "lpc.witness.days-before-the-sun",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S8",
+   "wording_id": "C5-19",
+   "record_id": "lpc.witness.violence-commanded-not-cruel",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": 96,
+    "meaning": null,
+    "fused": 178,
+    "fused_seeds": 179
+   }
+  },
+  {
+   "cell": "C5.S8",
+   "wording_id": "C5-22",
+   "record_id": "lpc.witness.days-before-the-sun",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S8",
+   "wording_id": "C5-22",
+   "record_id": "lpc.witness.violence-commanded-not-cruel",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S8",
+   "wording_id": "C5-23",
+   "record_id": "lpc.witness.days-before-the-sun",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S8",
+   "wording_id": "C5-23",
+   "record_id": "lpc.witness.violence-commanded-not-cruel",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": 90,
+    "meaning": null,
+    "fused": 166,
+    "fused_seeds": 167
+   }
+  },
+  {
+   "cell": "C5.S8",
+   "wording_id": "R-33",
+   "record_id": "lpc.witness.days-before-the-sun",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C5.S8",
+   "wording_id": "R-33",
+   "record_id": "lpc.witness.violence-commanded-not-cruel",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-01",
+   "record_id": "lpc.story.election-of-cyprian",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-01",
+   "record_id": "lpc.term.suffrage",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-01",
+   "record_id": "lpc.quote.clamour-and-tears",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-01",
+   "record_id": "lpc.term.the-people",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-01",
+   "record_id": "lpc.quote.ancient-venom-against-my-episcopate",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-01",
+   "record_id": "lpc.quote.ye-belong-to-my-care",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-02",
+   "record_id": "lpc.story.election-of-cyprian",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-02",
+   "record_id": "lpc.term.suffrage",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-02",
+   "record_id": "lpc.quote.clamour-and-tears",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-02",
+   "record_id": "lpc.term.the-people",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-02",
+   "record_id": "lpc.quote.ancient-venom-against-my-episcopate",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-02",
+   "record_id": "lpc.quote.ye-belong-to-my-care",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-06",
+   "record_id": "lpc.story.election-of-cyprian",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-06",
+   "record_id": "lpc.term.suffrage",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-06",
+   "record_id": "lpc.quote.clamour-and-tears",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-06",
+   "record_id": "lpc.term.the-people",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-06",
+   "record_id": "lpc.quote.ancient-venom-against-my-episcopate",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-06",
+   "record_id": "lpc.quote.ye-belong-to-my-care",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-08",
+   "record_id": "lpc.story.election-of-cyprian",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-08",
+   "record_id": "lpc.term.suffrage",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-08",
+   "record_id": "lpc.quote.clamour-and-tears",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-08",
+   "record_id": "lpc.term.the-people",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-08",
+   "record_id": "lpc.quote.ancient-venom-against-my-episcopate",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-08",
+   "record_id": "lpc.quote.ye-belong-to-my-care",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-15",
+   "record_id": "lpc.story.election-of-cyprian",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 45,
+    "keyword": 32,
+    "meaning": null,
+    "fused": 65,
+    "fused_seeds": 65
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-15",
+   "record_id": "lpc.term.suffrage",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-15",
+   "record_id": "lpc.quote.clamour-and-tears",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-15",
+   "record_id": "lpc.term.the-people",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 21,
+    "fused": 44,
+    "fused_seeds": 44
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-15",
+   "record_id": "lpc.quote.ancient-venom-against-my-episcopate",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-15",
+   "record_id": "lpc.quote.ye-belong-to-my-care",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-20",
+   "record_id": "lpc.story.election-of-cyprian",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 1,
+    "fused": 7,
+    "fused_seeds": 7
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-20",
+   "record_id": "lpc.term.suffrage",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 1,
+    "fused": 7,
+    "fused_seeds": 7
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-20",
+   "record_id": "lpc.quote.clamour-and-tears",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-20",
+   "record_id": "lpc.term.the-people",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-20",
+   "record_id": "lpc.quote.ancient-venom-against-my-episcopate",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-20",
+   "record_id": "lpc.quote.ye-belong-to-my-care",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-21",
+   "record_id": "lpc.story.election-of-cyprian",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-21",
+   "record_id": "lpc.term.suffrage",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-21",
+   "record_id": "lpc.quote.clamour-and-tears",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-21",
+   "record_id": "lpc.term.the-people",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-21",
+   "record_id": "lpc.quote.ancient-venom-against-my-episcopate",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-21",
+   "record_id": "lpc.quote.ye-belong-to-my-care",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 96,
+    "fused": 153,
+    "fused_seeds": 153
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-23",
+   "record_id": "lpc.story.election-of-cyprian",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 1,
+    "fused": 19,
+    "fused_seeds": 19
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-23",
+   "record_id": "lpc.term.suffrage",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 1,
+    "fused": 19,
+    "fused_seeds": 19
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-23",
+   "record_id": "lpc.quote.clamour-and-tears",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 53,
+    "fused": 100,
+    "fused_seeds": 100
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-23",
+   "record_id": "lpc.term.the-people",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 41,
+    "keyword": 33,
+    "meaning": null,
+    "fused": 64,
+    "fused_seeds": 64
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-23",
+   "record_id": "lpc.quote.ancient-venom-against-my-episcopate",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-23",
+   "record_id": "lpc.quote.ye-belong-to-my-care",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-27",
+   "record_id": "lpc.story.election-of-cyprian",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-27",
+   "record_id": "lpc.term.suffrage",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-27",
+   "record_id": "lpc.quote.clamour-and-tears",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-27",
+   "record_id": "lpc.term.the-people",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-27",
+   "record_id": "lpc.quote.ancient-venom-against-my-episcopate",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-27",
+   "record_id": "lpc.quote.ye-belong-to-my-care",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-28",
+   "record_id": "lpc.story.election-of-cyprian",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-28",
+   "record_id": "lpc.term.suffrage",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-28",
+   "record_id": "lpc.quote.clamour-and-tears",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-28",
+   "record_id": "lpc.term.the-people",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-28",
+   "record_id": "lpc.quote.ancient-venom-against-my-episcopate",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S1",
+   "wording_id": "C6-28",
+   "record_id": "lpc.quote.ye-belong-to-my-care",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S2",
+   "wording_id": "C6-09",
+   "record_id": "lpc.quote.bishop-of-bishops",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S2",
+   "wording_id": "C6-09",
+   "record_id": "lpc.term.bishop-of-bishops",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S2",
+   "wording_id": "C6-09",
+   "record_id": "lpc.term.the-one-episcopate",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S2",
+   "wording_id": "C6-10",
+   "record_id": "lpc.quote.bishop-of-bishops",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 45,
+    "fused": 85,
+    "fused_seeds": 85
+   }
+  },
+  {
+   "cell": "C6.S2",
+   "wording_id": "C6-10",
+   "record_id": "lpc.term.bishop-of-bishops",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 45,
+    "fused": 85,
+    "fused_seeds": 85
+   }
+  },
+  {
+   "cell": "C6.S2",
+   "wording_id": "C6-10",
+   "record_id": "lpc.term.the-one-episcopate",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S2",
+   "wording_id": "C6-25",
+   "record_id": "lpc.quote.bishop-of-bishops",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S2",
+   "wording_id": "C6-25",
+   "record_id": "lpc.term.bishop-of-bishops",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S2",
+   "wording_id": "C6-25",
+   "record_id": "lpc.term.the-one-episcopate",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 39,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S3",
+   "wording_id": "C6-03",
+   "record_id": "lpc.term.plenary-council",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S3",
+   "wording_id": "C6-03",
+   "record_id": "lpc.witness.scripture-above-councils",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S3",
+   "wording_id": "C6-18",
+   "record_id": "lpc.term.plenary-council",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S3",
+   "wording_id": "C6-18",
+   "record_id": "lpc.witness.scripture-above-councils",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S3",
+   "wording_id": "C6-19",
+   "record_id": "lpc.term.plenary-council",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S3",
+   "wording_id": "C6-19",
+   "record_id": "lpc.witness.scripture-above-councils",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S3",
+   "wording_id": "C6-26",
+   "record_id": "lpc.term.plenary-council",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S3",
+   "wording_id": "C6-26",
+   "record_id": "lpc.witness.scripture-above-councils",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S4",
+   "wording_id": "C6-04",
+   "record_id": "lpc.witness.apostolic-succession-of-bishops",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 4,
+    "keyword": 2,
+    "meaning": 62,
+    "fused": 14,
+    "fused_seeds": 14
+   }
+  },
+  {
+   "cell": "C6.S4",
+   "wording_id": "C6-04",
+   "record_id": "lpc.witness.tradition-tested-by-apostolic-warrant",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S4",
+   "wording_id": "C6-04",
+   "record_id": "lpc.quote.one-good-shepherd-not-many",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S4",
+   "wording_id": "C6-04",
+   "record_id": "lpc.witness.communion-over-separation",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S4",
+   "wording_id": "C6-05",
+   "record_id": "lpc.witness.apostolic-succession-of-bishops",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S4",
+   "wording_id": "C6-05",
+   "record_id": "lpc.witness.tradition-tested-by-apostolic-warrant",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S4",
+   "wording_id": "C6-05",
+   "record_id": "lpc.quote.one-good-shepherd-not-many",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S4",
+   "wording_id": "C6-05",
+   "record_id": "lpc.witness.communion-over-separation",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": 90,
+    "meaning": null,
+    "fused": 178,
+    "fused_seeds": 178
+   }
+  },
+  {
+   "cell": "C6.S4",
+   "wording_id": "C6-13",
+   "record_id": "lpc.witness.apostolic-succession-of-bishops",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 39,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S4",
+   "wording_id": "C6-13",
+   "record_id": "lpc.witness.tradition-tested-by-apostolic-warrant",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 28,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S4",
+   "wording_id": "C6-13",
+   "record_id": "lpc.quote.one-good-shepherd-not-many",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S4",
+   "wording_id": "C6-13",
+   "record_id": "lpc.witness.communion-over-separation",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S4",
+   "wording_id": "C6-14",
+   "record_id": "lpc.witness.apostolic-succession-of-bishops",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": 62,
+    "meaning": null,
+    "fused": 115,
+    "fused_seeds": 115
+   }
+  },
+  {
+   "cell": "C6.S4",
+   "wording_id": "C6-14",
+   "record_id": "lpc.witness.tradition-tested-by-apostolic-warrant",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": 46,
+    "meaning": null,
+    "fused": 85,
+    "fused_seeds": 85
+   }
+  },
+  {
+   "cell": "C6.S4",
+   "wording_id": "C6-14",
+   "record_id": "lpc.quote.one-good-shepherd-not-many",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S4",
+   "wording_id": "C6-14",
+   "record_id": "lpc.witness.communion-over-separation",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": 38,
+    "meaning": null,
+    "fused": 69,
+    "fused_seeds": 69
+   }
+  },
+  {
+   "cell": "C6.S4",
+   "wording_id": "C6-24",
+   "record_id": "lpc.witness.apostolic-succession-of-bishops",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S4",
+   "wording_id": "C6-24",
+   "record_id": "lpc.witness.tradition-tested-by-apostolic-warrant",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S4",
+   "wording_id": "C6-24",
+   "record_id": "lpc.quote.one-good-shepherd-not-many",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S4",
+   "wording_id": "C6-24",
+   "record_id": "lpc.witness.communion-over-separation",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 41,
+    "keyword": 32,
+    "meaning": 85,
+    "fused": 69,
+    "fused_seeds": 69
+   }
+  },
+  {
+   "cell": "C6.S5",
+   "wording_id": "C6-12",
+   "record_id": "lpc.term.heresy",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S5",
+   "wording_id": "C6-12",
+   "record_id": "lpc.term.schism",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S5",
+   "wording_id": "C6-12",
+   "record_id": "lpc.term.compel-them-to-come-in",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S5",
+   "wording_id": "C6-12",
+   "record_id": "lpc.quote.the-branch-cut-from-the-vine",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S7",
+   "wording_id": "C6-17",
+   "record_id": "lpc.witness.constantine-did-not-corrupt",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 41,
+    "keyword": 27,
+    "meaning": 5,
+    "fused": 10,
+    "fused_seeds": 10
+   }
+  },
+  {
+   "cell": "C6.S7",
+   "wording_id": "C6-17",
+   "record_id": "lpc.witness.blamed-for-the-worlds-troubles",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S7",
+   "wording_id": "C6-17",
+   "record_id": "lpc.term.compel-them-to-come-in",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S8",
+   "wording_id": "C6-07",
+   "record_id": "lpc.quote.pardon-through-a-wicked-clergyman",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S8",
+   "wording_id": "C6-07",
+   "record_id": "lpc.quote.shepherd-wounded-in-the-flock",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S8",
+   "wording_id": "C6-07",
+   "record_id": "lpc.quote.ancient-venom-against-my-episcopate",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S8",
+   "wording_id": "C6-07",
+   "record_id": "lpc.story.the-plague-and-the-enemies",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S8",
+   "wording_id": "C6-16",
+   "record_id": "lpc.quote.pardon-through-a-wicked-clergyman",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S8",
+   "wording_id": "C6-16",
+   "record_id": "lpc.quote.shepherd-wounded-in-the-flock",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S8",
+   "wording_id": "C6-16",
+   "record_id": "lpc.quote.ancient-venom-against-my-episcopate",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S8",
+   "wording_id": "C6-16",
+   "record_id": "lpc.story.the-plague-and-the-enemies",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S8",
+   "wording_id": "R-16",
+   "record_id": "lpc.quote.pardon-through-a-wicked-clergyman",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S8",
+   "wording_id": "R-16",
+   "record_id": "lpc.quote.shepherd-wounded-in-the-flock",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S8",
+   "wording_id": "R-16",
+   "record_id": "lpc.quote.ancient-venom-against-my-episcopate",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S8",
+   "wording_id": "R-16",
+   "record_id": "lpc.story.the-plague-and-the-enemies",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": 59,
+    "meaning": null,
+    "fused": 112,
+    "fused_seeds": 112
+   }
+  },
+  {
+   "cell": "C6.S8",
+   "wording_id": "R-17",
+   "record_id": "lpc.quote.pardon-through-a-wicked-clergyman",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S8",
+   "wording_id": "R-17",
+   "record_id": "lpc.quote.shepherd-wounded-in-the-flock",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S8",
+   "wording_id": "R-17",
+   "record_id": "lpc.quote.ancient-venom-against-my-episcopate",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S8",
+   "wording_id": "R-17",
+   "record_id": "lpc.story.the-plague-and-the-enemies",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S8",
+   "wording_id": "R-39",
+   "record_id": "lpc.quote.pardon-through-a-wicked-clergyman",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S8",
+   "wording_id": "R-39",
+   "record_id": "lpc.quote.shepherd-wounded-in-the-flock",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S8",
+   "wording_id": "R-39",
+   "record_id": "lpc.quote.ancient-venom-against-my-episcopate",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S8",
+   "wording_id": "R-39",
+   "record_id": "lpc.story.the-plague-and-the-enemies",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S8",
+   "wording_id": "R-40",
+   "record_id": "lpc.quote.pardon-through-a-wicked-clergyman",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 1,
+    "keyword": 1,
+    "meaning": 21,
+    "fused": 1,
+    "fused_seeds": 1
+   }
+  },
+  {
+   "cell": "C6.S8",
+   "wording_id": "R-40",
+   "record_id": "lpc.quote.shepherd-wounded-in-the-flock",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S8",
+   "wording_id": "R-40",
+   "record_id": "lpc.quote.ancient-venom-against-my-episcopate",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C6.S8",
+   "wording_id": "R-40",
+   "record_id": "lpc.story.the-plague-and-the-enemies",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S1",
+   "wording_id": "C7-01",
+   "record_id": "lpc.witness.baptism-traced-to-the-apostles",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S1",
+   "wording_id": "C7-01",
+   "record_id": "lpc.term.catechesis",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S1",
+   "wording_id": "C7-01",
+   "record_id": "lpc.term.heresy",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S1",
+   "wording_id": "C7-06",
+   "record_id": "lpc.witness.baptism-traced-to-the-apostles",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S1",
+   "wording_id": "C7-06",
+   "record_id": "lpc.term.catechesis",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 75,
+    "keyword": 34,
+    "meaning": 20,
+    "fused": 18,
+    "fused_seeds": 17
+   }
+  },
+  {
+   "cell": "C7.S1",
+   "wording_id": "C7-06",
+   "record_id": "lpc.term.heresy",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S1",
+   "wording_id": "C7-15",
+   "record_id": "lpc.witness.baptism-traced-to-the-apostles",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S1",
+   "wording_id": "C7-15",
+   "record_id": "lpc.term.catechesis",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S1",
+   "wording_id": "C7-15",
+   "record_id": "lpc.term.heresy",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S2",
+   "wording_id": "C7-03",
+   "record_id": "lpc.witness.communion-over-separation",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S2",
+   "wording_id": "C7-03",
+   "record_id": "lpc.term.communion",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S2",
+   "wording_id": "C7-03",
+   "record_id": "lpc.quote.ye-belong-to-my-care",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S2",
+   "wording_id": "C7-07",
+   "record_id": "lpc.witness.communion-over-separation",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S2",
+   "wording_id": "C7-07",
+   "record_id": "lpc.term.communion",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 30,
+    "keyword": 27,
+    "meaning": null,
+    "fused": 56,
+    "fused_seeds": 58
+   }
+  },
+  {
+   "cell": "C7.S2",
+   "wording_id": "C7-07",
+   "record_id": "lpc.quote.ye-belong-to-my-care",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S2",
+   "wording_id": "C7-09",
+   "record_id": "lpc.witness.communion-over-separation",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S2",
+   "wording_id": "C7-09",
+   "record_id": "lpc.term.communion",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S2",
+   "wording_id": "C7-09",
+   "record_id": "lpc.quote.ye-belong-to-my-care",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S2",
+   "wording_id": "C7-17",
+   "record_id": "lpc.witness.communion-over-separation",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S2",
+   "wording_id": "C7-17",
+   "record_id": "lpc.term.communion",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S2",
+   "wording_id": "C7-17",
+   "record_id": "lpc.quote.ye-belong-to-my-care",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S2",
+   "wording_id": "C7-23",
+   "record_id": "lpc.witness.communion-over-separation",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S2",
+   "wording_id": "C7-23",
+   "record_id": "lpc.term.communion",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S2",
+   "wording_id": "C7-23",
+   "record_id": "lpc.quote.ye-belong-to-my-care",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S2",
+   "wording_id": "C7-28",
+   "record_id": "lpc.witness.communion-over-separation",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S2",
+   "wording_id": "C7-28",
+   "record_id": "lpc.term.communion",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S2",
+   "wording_id": "C7-28",
+   "record_id": "lpc.quote.ye-belong-to-my-care",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S2",
+   "wording_id": "C7-29",
+   "record_id": "lpc.witness.communion-over-separation",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S2",
+   "wording_id": "C7-29",
+   "record_id": "lpc.term.communion",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 61,
+    "keyword": 43,
+    "meaning": null,
+    "fused": 81,
+    "fused_seeds": 82
+   }
+  },
+  {
+   "cell": "C7.S2",
+   "wording_id": "C7-29",
+   "record_id": "lpc.quote.ye-belong-to-my-care",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 19,
+    "keyword": 13,
+    "meaning": null,
+    "fused": 21,
+    "fused_seeds": 32
+   }
+  },
+  {
+   "cell": "C7.S3",
+   "wording_id": "C7-02",
+   "record_id": "lpc.quote.the-creed-first-then-the-prayer",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S3",
+   "wording_id": "C7-02",
+   "record_id": "lpc.quote.longing-expectation-is-a-prayer-for-me",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S3",
+   "wording_id": "C7-02",
+   "record_id": "lpc.witness.heard-for-salvation-not-for-wish",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 32,
+    "fused": 68,
+    "fused_seeds": 69
+   }
+  },
+  {
+   "cell": "C7.S3",
+   "wording_id": "C7-02",
+   "record_id": "lpc.story.the-psalms-on-the-wall",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S3",
+   "wording_id": "C7-18",
+   "record_id": "lpc.quote.the-creed-first-then-the-prayer",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S3",
+   "wording_id": "C7-18",
+   "record_id": "lpc.quote.longing-expectation-is-a-prayer-for-me",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S3",
+   "wording_id": "C7-18",
+   "record_id": "lpc.witness.heard-for-salvation-not-for-wish",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 47,
+    "fused": 93,
+    "fused_seeds": 94
+   }
+  },
+  {
+   "cell": "C7.S3",
+   "wording_id": "C7-18",
+   "record_id": "lpc.story.the-psalms-on-the-wall",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S3",
+   "wording_id": "C7-24",
+   "record_id": "lpc.quote.the-creed-first-then-the-prayer",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S3",
+   "wording_id": "C7-24",
+   "record_id": "lpc.quote.longing-expectation-is-a-prayer-for-me",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S3",
+   "wording_id": "C7-24",
+   "record_id": "lpc.witness.heard-for-salvation-not-for-wish",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S3",
+   "wording_id": "C7-24",
+   "record_id": "lpc.story.the-psalms-on-the-wall",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 99,
+    "fused": 174,
+    "fused_seeds": 175
+   }
+  },
+  {
+   "cell": "C7.S3",
+   "wording_id": "R-32",
+   "record_id": "lpc.quote.the-creed-first-then-the-prayer",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S3",
+   "wording_id": "R-32",
+   "record_id": "lpc.quote.longing-expectation-is-a-prayer-for-me",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S3",
+   "wording_id": "R-32",
+   "record_id": "lpc.witness.heard-for-salvation-not-for-wish",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S3",
+   "wording_id": "R-32",
+   "record_id": "lpc.story.the-psalms-on-the-wall",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S3",
+   "wording_id": "R-34",
+   "record_id": "lpc.quote.the-creed-first-then-the-prayer",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S3",
+   "wording_id": "R-34",
+   "record_id": "lpc.quote.longing-expectation-is-a-prayer-for-me",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 44,
+    "fused": 89,
+    "fused_seeds": 90
+   }
+  },
+  {
+   "cell": "C7.S3",
+   "wording_id": "R-34",
+   "record_id": "lpc.witness.heard-for-salvation-not-for-wish",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S3",
+   "wording_id": "R-34",
+   "record_id": "lpc.story.the-psalms-on-the-wall",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 65,
+    "keyword": 51,
+    "meaning": 76,
+    "fused": 23,
+    "fused_seeds": 23
+   }
+  },
+  {
+   "cell": "C7.S4",
+   "wording_id": "C7-08",
+   "record_id": "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S4",
+   "wording_id": "C7-08",
+   "record_id": "lpc.term.preaching",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S4",
+   "wording_id": "C7-08",
+   "record_id": "lpc.limit.ordinary-interior-life",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": 30
+   }
+  },
+  {
+   "cell": "C7.S4",
+   "wording_id": "C7-11",
+   "record_id": "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S4",
+   "wording_id": "C7-11",
+   "record_id": "lpc.term.preaching",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S4",
+   "wording_id": "C7-11",
+   "record_id": "lpc.limit.ordinary-interior-life",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 27,
+    "fused": 49,
+    "fused_seeds": 30
+   }
+  },
+  {
+   "cell": "C7.S4",
+   "wording_id": "C7-14",
+   "record_id": "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S4",
+   "wording_id": "C7-14",
+   "record_id": "lpc.term.preaching",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S4",
+   "wording_id": "C7-14",
+   "record_id": "lpc.limit.ordinary-interior-life",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": 27
+   }
+  },
+  {
+   "cell": "C7.S4",
+   "wording_id": "C7-19",
+   "record_id": "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S4",
+   "wording_id": "C7-19",
+   "record_id": "lpc.term.preaching",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S4",
+   "wording_id": "C7-19",
+   "record_id": "lpc.limit.ordinary-interior-life",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": 27
+   }
+  },
+  {
+   "cell": "C7.S4",
+   "wording_id": "C7-20",
+   "record_id": "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S4",
+   "wording_id": "C7-20",
+   "record_id": "lpc.term.preaching",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S4",
+   "wording_id": "C7-20",
+   "record_id": "lpc.limit.ordinary-interior-life",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": 28
+   }
+  },
+  {
+   "cell": "C7.S4",
+   "wording_id": "C7-25",
+   "record_id": "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S4",
+   "wording_id": "C7-25",
+   "record_id": "lpc.term.preaching",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S4",
+   "wording_id": "C7-25",
+   "record_id": "lpc.limit.ordinary-interior-life",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": 30
+   }
+  },
+  {
+   "cell": "C7.S4",
+   "wording_id": "C7-26",
+   "record_id": "lpc.quote.the-sermon-and-the-readings-are-daily-bread",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S4",
+   "wording_id": "C7-26",
+   "record_id": "lpc.term.preaching",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 43,
+    "fused": 85,
+    "fused_seeds": 86
+   }
+  },
+  {
+   "cell": "C7.S4",
+   "wording_id": "C7-26",
+   "record_id": "lpc.limit.ordinary-interior-life",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": 23
+   }
+  },
+  {
+   "cell": "C7.S5",
+   "wording_id": "C7-04",
+   "record_id": "lpc.quote.bind-him-justly",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S5",
+   "wording_id": "C7-04",
+   "record_id": "lpc.quote.peter-the-sick-man-and-the-physician",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S5",
+   "wording_id": "C7-04",
+   "record_id": "lpc.term.reconciliation-penitential-discipline",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S5",
+   "wording_id": "C7-04",
+   "record_id": "lpc.term.certificates-letters-of-peace",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S5",
+   "wording_id": "C7-04",
+   "record_id": "lpc.story.celerinus-writes-to-lucian",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S5",
+   "wording_id": "C7-10",
+   "record_id": "lpc.quote.bind-him-justly",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S5",
+   "wording_id": "C7-10",
+   "record_id": "lpc.quote.peter-the-sick-man-and-the-physician",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S5",
+   "wording_id": "C7-10",
+   "record_id": "lpc.term.reconciliation-penitential-discipline",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S5",
+   "wording_id": "C7-10",
+   "record_id": "lpc.term.certificates-letters-of-peace",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S5",
+   "wording_id": "C7-10",
+   "record_id": "lpc.story.celerinus-writes-to-lucian",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S7",
+   "wording_id": "C7-16",
+   "record_id": "lpc.story.the-death-of-cyprian",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S7",
+   "wording_id": "C7-16",
+   "record_id": "lpc.witness.marriage-a-threefold-good",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S7",
+   "wording_id": "C7-21",
+   "record_id": "lpc.story.the-death-of-cyprian",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S7",
+   "wording_id": "C7-21",
+   "record_id": "lpc.witness.marriage-a-threefold-good",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S7",
+   "wording_id": "C7-22",
+   "record_id": "lpc.story.the-death-of-cyprian",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S7",
+   "wording_id": "C7-22",
+   "record_id": "lpc.witness.marriage-a-threefold-good",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S7",
+   "wording_id": "C7-27",
+   "record_id": "lpc.story.the-death-of-cyprian",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S7",
+   "wording_id": "C7-27",
+   "record_id": "lpc.witness.marriage-a-threefold-good",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S8",
+   "wording_id": "C7-05",
+   "record_id": "lpc.witness.baptism-traced-to-the-apostles",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 5,
+    "keyword": 5,
+    "meaning": 5,
+    "fused": 1,
+    "fused_seeds": 1
+   }
+  },
+  {
+   "cell": "C7.S8",
+   "wording_id": "C7-05",
+   "record_id": "lpc.witness.tradition-tested-by-apostolic-warrant",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C7.S8",
+   "wording_id": "C7-05",
+   "record_id": "lpc.witness.apostolic-succession-of-bishops",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C8.S4",
+   "wording_id": "C8-04",
+   "record_id": "lpc.witness.marriage-a-threefold-good",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": 87,
+    "meaning": null,
+    "fused": 154,
+    "fused_seeds": 154
+   }
+  },
+  {
+   "cell": "C8.S4",
+   "wording_id": "C8-06",
+   "record_id": "lpc.witness.marriage-a-threefold-good",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 38,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C8.S4",
+   "wording_id": "C8-15",
+   "record_id": "lpc.witness.marriage-a-threefold-good",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C8.S4",
+   "wording_id": "C8-16",
+   "record_id": "lpc.witness.marriage-a-threefold-good",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 70,
+    "keyword": 53,
+    "meaning": null,
+    "fused": 99,
+    "fused_seeds": 99
+   }
+  },
+  {
+   "cell": "C8.S4",
+   "wording_id": "C8-17",
+   "record_id": "lpc.witness.marriage-a-threefold-good",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C8.S4",
+   "wording_id": "C8-25",
+   "record_id": "lpc.witness.marriage-a-threefold-good",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C8.S4",
+   "wording_id": "C8-30",
+   "record_id": "lpc.witness.marriage-a-threefold-good",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 57,
+    "keyword": 47,
+    "meaning": 10,
+    "fused": 7,
+    "fused_seeds": 7
+   }
+  },
+  {
+   "cell": "C8.S5",
+   "wording_id": "C8-10",
+   "record_id": "lpc.witness.marriage-a-threefold-good",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 44,
+    "keyword": null,
+    "meaning": 6,
+    "fused": 32,
+    "fused_seeds": 33
+   }
+  },
+  {
+   "cell": "C8.S5",
+   "wording_id": "C8-10",
+   "record_id": "lpc.witness.grant-me-chastity-but-not-yet",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C8.S5",
+   "wording_id": "C8-12",
+   "record_id": "lpc.witness.marriage-a-threefold-good",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 55,
+    "keyword": 50,
+    "meaning": 12,
+    "fused": 8,
+    "fused_seeds": 9
+   }
+  },
+  {
+   "cell": "C8.S5",
+   "wording_id": "C8-12",
+   "record_id": "lpc.witness.grant-me-chastity-but-not-yet",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C8.S5",
+   "wording_id": "C8-13",
+   "record_id": "lpc.witness.marriage-a-threefold-good",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C8.S5",
+   "wording_id": "C8-13",
+   "record_id": "lpc.witness.grant-me-chastity-but-not-yet",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C8.S5",
+   "wording_id": "C8-14",
+   "record_id": "lpc.witness.marriage-a-threefold-good",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 13,
+    "fused": 38,
+    "fused_seeds": 38
+   }
+  },
+  {
+   "cell": "C8.S5",
+   "wording_id": "C8-14",
+   "record_id": "lpc.witness.grant-me-chastity-but-not-yet",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C8.S5",
+   "wording_id": "C8-18",
+   "record_id": "lpc.witness.marriage-a-threefold-good",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C8.S5",
+   "wording_id": "C8-18",
+   "record_id": "lpc.witness.grant-me-chastity-but-not-yet",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C8.S5",
+   "wording_id": "C8-29",
+   "record_id": "lpc.witness.marriage-a-threefold-good",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C8.S5",
+   "wording_id": "C8-29",
+   "record_id": "lpc.witness.grant-me-chastity-but-not-yet",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C8.S7",
+   "wording_id": "C8-02",
+   "record_id": "lpc.witness.baptism-traced-to-the-apostles",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C8.S7",
+   "wording_id": "C8-02",
+   "record_id": "lpc.term.catechesis",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C8.S7",
+   "wording_id": "C8-22",
+   "record_id": "lpc.witness.baptism-traced-to-the-apostles",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C8.S7",
+   "wording_id": "C8-22",
+   "record_id": "lpc.term.catechesis",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": 1,
+    "fused": 9,
+    "fused_seeds": 9
+   }
+  },
+  {
+   "cell": "C9.S1",
+   "wording_id": "C9-01",
+   "record_id": "lpc.story.numidicus",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S1",
+   "wording_id": "C9-02",
+   "record_id": "lpc.story.numidicus",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S1",
+   "wording_id": "C9-07",
+   "record_id": "lpc.story.numidicus",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S1",
+   "wording_id": "C9-11",
+   "record_id": "lpc.story.numidicus",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S1",
+   "wording_id": "C9-15",
+   "record_id": "lpc.story.numidicus",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S1",
+   "wording_id": "C9-20",
+   "record_id": "lpc.story.numidicus",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S1",
+   "wording_id": "C9-26",
+   "record_id": "lpc.story.numidicus",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S2",
+   "wording_id": "C9-06",
+   "record_id": "lpc.term.certificates-letters-of-peace",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S2",
+   "wording_id": "C9-06",
+   "record_id": "lpc.story.celerinus-writes-to-lucian",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S2",
+   "wording_id": "C9-06",
+   "record_id": "lpc.story.numidicus",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S2",
+   "wording_id": "C9-08",
+   "record_id": "lpc.term.certificates-letters-of-peace",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S2",
+   "wording_id": "C9-08",
+   "record_id": "lpc.story.celerinus-writes-to-lucian",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S2",
+   "wording_id": "C9-08",
+   "record_id": "lpc.story.numidicus",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S2",
+   "wording_id": "C9-16",
+   "record_id": "lpc.term.certificates-letters-of-peace",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S2",
+   "wording_id": "C9-16",
+   "record_id": "lpc.story.celerinus-writes-to-lucian",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S2",
+   "wording_id": "C9-16",
+   "record_id": "lpc.story.numidicus",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S2",
+   "wording_id": "C9-17",
+   "record_id": "lpc.term.certificates-letters-of-peace",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S2",
+   "wording_id": "C9-17",
+   "record_id": "lpc.story.celerinus-writes-to-lucian",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S2",
+   "wording_id": "C9-17",
+   "record_id": "lpc.story.numidicus",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S2",
+   "wording_id": "C9-21",
+   "record_id": "lpc.term.certificates-letters-of-peace",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S2",
+   "wording_id": "C9-21",
+   "record_id": "lpc.story.celerinus-writes-to-lucian",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S2",
+   "wording_id": "C9-21",
+   "record_id": "lpc.story.numidicus",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S3",
+   "wording_id": "C9-03",
+   "record_id": "lpc.witness.constantine-did-not-corrupt",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 9,
+    "keyword": 4,
+    "meaning": 12,
+    "fused": 1,
+    "fused_seeds": 1
+   }
+  },
+  {
+   "cell": "C9.S3",
+   "wording_id": "C9-12",
+   "record_id": "lpc.witness.constantine-did-not-corrupt",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 41,
+    "keyword": 17,
+    "meaning": 1,
+    "fused": 7,
+    "fused_seeds": 7
+   }
+  },
+  {
+   "cell": "C9.S3",
+   "wording_id": "C9-19",
+   "record_id": "lpc.witness.constantine-did-not-corrupt",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 1,
+    "keyword": 1,
+    "meaning": null,
+    "fused": 15,
+    "fused_seeds": 15
+   }
+  },
+  {
+   "cell": "C9.S3",
+   "wording_id": "C9-22",
+   "record_id": "lpc.witness.constantine-did-not-corrupt",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 74,
+    "keyword": 53,
+    "meaning": 1,
+    "fused": 3,
+    "fused_seeds": 3
+   }
+  },
+  {
+   "cell": "C9.S4",
+   "wording_id": "C9-09",
+   "record_id": "lpc.witness.violence-commanded-not-cruel",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": 6,
+    "keyword": 4,
+    "meaning": 3,
+    "fused": 2,
+    "fused_seeds": 2
+   }
+  },
+  {
+   "cell": "C9.S4",
+   "wording_id": "C9-14",
+   "record_id": "lpc.witness.violence-commanded-not-cruel",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S4",
+   "wording_id": "C9-23",
+   "record_id": "lpc.witness.violence-commanded-not-cruel",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S5",
+   "wording_id": "C9-04",
+   "record_id": "lpc.term.compel-them-to-come-in",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S5",
+   "wording_id": "C9-05",
+   "record_id": "lpc.term.compel-them-to-come-in",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S5",
+   "wording_id": "C9-10",
+   "record_id": "lpc.term.compel-them-to-come-in",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S5",
+   "wording_id": "C9-13",
+   "record_id": "lpc.term.compel-them-to-come-in",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S5",
+   "wording_id": "C9-18",
+   "record_id": "lpc.term.compel-them-to-come-in",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S5",
+   "wording_id": "C9-24",
+   "record_id": "lpc.term.compel-them-to-come-in",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  },
+  {
+   "cell": "C9.S5",
+   "wording_id": "C9-25",
+   "record_id": "lpc.term.compel-them-to-come-in",
+   "gold_in_lens": true,
+   "rank": {
+    "keyword_unlensed": null,
+    "keyword": null,
+    "meaning": null,
+    "fused": null,
+    "fused_seeds": null
+   }
+  }
+ ],
+ "lens_passages": 17092,
+ "windows": 30787,
+ "summary": {
+  "total_cases": 625,
+  "gold_in_lens": 625,
+  "hits": {
+   "keyword_unlensed": {
+    "5": 5,
+    "10": 7,
+    "20": 11
+   },
+   "keyword": {
+    "5": 7,
+    "10": 8,
+    "20": 13
+   },
+   "meaning": {
+    "5": 13,
+    "10": 19,
+    "20": 28
+   },
+   "fused": {
+    "5": 8,
+    "10": 17,
+    "20": 24
+   },
+   "fused_seeds": {
+    "5": 8,
+    "10": 17,
+    "20": 24
+   }
+  },
+  "total_queries": 256,
+  "query_hits": {
+   "keyword_unlensed": {
+    "5": 5,
+    "10": 7,
+    "20": 11
+   },
+   "keyword": {
+    "5": 7,
+    "10": 8,
+    "20": 13
+   },
+   "meaning": {
+    "5": 11,
+    "10": 17,
+    "20": 25
+   },
+   "fused": {
+    "5": 8,
+    "10": 16,
+    "20": 22
+   },
+   "fused_seeds": {
+    "5": 8,
+    "10": 16,
+    "20": 22
+   }
+  },
+  "paired_at_query_level": {
+   "meaning vs keyword @5": {
+    "wins": 9,
+    "losses": 5,
+    "p": 0.4239501953125,
+    "better_at_99": false
+   },
+   "meaning vs keyword @10": {
+    "wins": 14,
+    "losses": 5,
+    "p": 0.063568115234375,
+    "better_at_99": false
+   },
+   "meaning vs keyword @20": {
+    "wins": 18,
+    "losses": 6,
+    "p": 0.022655844688415527,
+    "better_at_99": false
+   },
+   "fused vs keyword @5": {
+    "wins": 3,
+    "losses": 2,
+    "p": 1.0,
+    "better_at_99": false
+   },
+   "fused vs keyword @10": {
+    "wins": 10,
+    "losses": 2,
+    "p": 0.03857421875,
+    "better_at_99": false
+   },
+   "fused vs keyword @20": {
+    "wins": 11,
+    "losses": 2,
+    "p": 0.0224609375,
+    "better_at_99": false
+   },
+   "fused vs meaning @5": {
+    "wins": 3,
+    "losses": 6,
+    "p": 0.5078125,
+    "better_at_99": false
+   },
+   "fused vs meaning @10": {
+    "wins": 4,
+    "losses": 5,
+    "p": 1.0,
+    "better_at_99": false
+   },
+   "fused vs meaning @20": {
+    "wins": 5,
+    "losses": 8,
+    "p": 0.5810546875,
+    "better_at_99": false
+   },
+   "fused_seeds vs fused @5": {
+    "wins": 0,
+    "losses": 0,
+    "p": 1.0,
+    "better_at_99": false
+   },
+   "fused_seeds vs fused @10": {
+    "wins": 0,
+    "losses": 0,
+    "p": 1.0,
+    "better_at_99": false
+   },
+   "fused_seeds vs fused @20": {
+    "wins": 1,
+    "losses": 1,
+    "p": 1.0,
+    "better_at_99": false
+   }
+  }
+ }
+}

@@ -17,8 +17,7 @@ confidence:
     system before making rules of its own.
 sources:
 - source_id: gallic.source.cassian-institutes
-  locus: "Institutes II.3 (npnf211 div iv.iii.ii.iii, file lines 17092-17098): Cassian naming the
-    fault of self-appointed authority and self-invented rules"
+  locus: "Institutes II.3 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 17092-17098; div iv.iii.ii.iii): Cassian naming the fault of self-appointed authority and self-invented rules"
   license: public-domain
 retrieval:
   tier: 3

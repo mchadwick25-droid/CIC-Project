@@ -1,0 +1,54 @@
+{
+  "name": "Suetonius",
+  "otherNames": [
+    "Gaius Suetonius Tranquillus"
+  ],
+  "label": "Outside witness",
+  "knownFor": "A Roman biographer of the emperors, who notes that Claudius expelled Jews stirred up by \"Chrestus\" and that Nero punished the Christians.",
+  "dates": "Born about 69 or about 77; dismissed by Hadrian about 121",
+  "place": "Rome",
+  "tradition": "Outside the church",
+  "role": "Roman biographer",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Lives of the Caesars",
+      "about": "twelve rulers from Julius Caesar to Domitian, with the notices in the lives of Claudius and Nero"
+    }
+  ],
+  "legacy": {
+    "remembered": [
+      "John Rolfe, his translator, says Tertullian of Carthage drew on Suetonius's work about the public shows. Rolfe adds that the influence of Suetonius is seen in the form of the Life of Ambrose by Paulinus, Ambrose's secretary."
+    ]
+  },
+  "uncertain": [
+    "Rolfe and the notes to Thomson and Forester's edition both read \"Chrestus\" as Christ. Rolfe calls it another form of Christus and thinks Suetonius probably got the date wrong, though a Jew of that name may be meant. The Thomson and Forester notes say Suetonius moved Christ to Rome and into the reign of Claudius.",
+    "Thomson and Forester translate \"one Chrestus.\" Rolfe notes that the Latin has no word for \"one\" here, and takes that as a sign that Christ is meant.",
+    "The Thomson and Forester notes cite Luke, in Acts 18:2, for the expulsion of the Jews by Claudius. They add that Dio Cassius says he only forbade their meetings.",
+    "Rolfe reports two dates for his birth: 77, from Mommsen, and 69, from Macé, which Rolfe thinks somewhat more probable. The Thomson and Forester preface puts it late in the reign of Vespasian.",
+    "Suetonius blames Nero for the great fire, but his notice of the Christians does not mention it."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Lives of the Caesars, Latin with English (tr. John C. Rolfe, 1914)",
+        "language": "Latin and English",
+        "file": "cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt"
+      },
+      {
+        "title": "Lives of the Twelve Caesars (tr. Alexander Thomson, revised by T. Forester)",
+        "language": "English",
+        "file": "cic/texts/suetonius_lives-of-the-twelve-caesars_thomson-forester1909.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "The Life and Works of Suetonius (introduction)",
+        "author": "John C. Rolfe",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt"
+      }
+    ]
+  }
+}

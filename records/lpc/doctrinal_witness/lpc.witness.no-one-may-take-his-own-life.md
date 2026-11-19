@@ -56,7 +56,7 @@ positions:
   taken captive, some of whom were violated. Some, he said, killed themselves "to avoid such disgrace."
   "Who that has any human feeling," he asked, "would refuse to forgive them?"
 - Then he gave the hard teaching. "He who kills himself is a homicide," he wrote. He added that the more
-  innocent a man is of the offence he dooms himself for, the "guiltier of his own death" he is.
+  innocent a man is of the offense he dooms himself for, the "guiltier of his own death" he is.
 tensions:
 - He named Judas as his example. By hanging himself, Judas "rather aggravated than expiated the guilt"
   of his betrayal. He "left to himself no place for a healing penitence," Augustine wrote, "by despairing
@@ -74,7 +74,7 @@ claim_guards:
 text: Augustine taught on suicide in the City of God, and he began with pity. He wrote of Christian virgins
   taken captive, some of whom were violated. Some, he said, killed themselves "to avoid such disgrace."
   "Who that has any human feeling," he asked, "would refuse to forgive them?" Then he gave the hard teaching.
-  "He who kills himself is a homicide," he wrote. He added that the more innocent a man is of the offence
+  "He who kills himself is a homicide," he wrote. He added that the more innocent a man is of the offense
   he dooms himself for, the "guiltier of his own death" he is. He named Judas as his example. By hanging
   himself, Judas "rather aggravated than expiated the guilt" of his betrayal. He "left to himself no place
   for a healing penitence," Augustine wrote, "by despairing of God's mercy." His words do not say what

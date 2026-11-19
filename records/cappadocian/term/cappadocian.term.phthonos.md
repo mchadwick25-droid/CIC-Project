@@ -28,7 +28,7 @@ plain_meaning: We preached a whole sermon against envy by name. Envy, we said, i
 world_word: phthonos
 false_friend: []
 senses:
-  informational: One of the vices catalogued and preached against by name in this world's own moral homilies,
+  informational: One of the vices cataloged and preached against by name in this world's own moral homilies,
     alongside anger and greed.
   evidential: The specific homily this content draws on is a named, unacquired text in this project's
     manifest -- no open translation is vendored, so this rests on general scholarly knowledge of theme,

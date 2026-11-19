@@ -1,0 +1,12 @@
+source_file: theophanes-continuatus_historiae-byzantinae-scriptores-post-theophanem-pg109-grc-lat_migne1863.txt
+assignments:
+- row_id: theophanes-continuatus_historiae-byzantinae-scriptores-post-theophanem-pg109-grc-lat_migne1863--theophanes-continuatus-pg-109
+  work: 'Theophanes Continuatus (PG 109)'
+  author: theophanes-continuatus
+  locus: 'the whole volume'
+  atlas_ids:
+  - paulicians
+  - byzantine-imperial-church-macedonian
+  role: context
+  confidence: needs-ruling
+  note: 'Court history of the Paulician wars; its date of writing is not given on the title page.'

@@ -1,0 +1,93 @@
+{
+ "draft": "If you dug where we met, we could not tell you what you would find [[alx.limit.material-remains]] [[as:paraphrase]]. Our own writings describe souls and books far more than rooms and walls [[alx.limit.material-remains]] [[as:paraphrase]]. The city was rebuilt age after age, and much of the old shore lies under the sea [[alx.limit.material-remains]] [[as:paraphrase]]. For us the ekklesia was not a building or a list of members, but the assembly gathered around the Logos who calls it [[alx.term.ekklesia]] [[as:paraphrase]]. What we shared was the eucharistia, the thanksgiving meal of bread and cup at the heart of worship, open to members whether or not they could read [[alx.term.eucharistia]] [[as:paraphrase]].\n",
+ "ending": "clean",
+ "final": "If you dug where we met, we could not tell you what you would find. Our own writings describe souls and books far more than rooms and walls. The city was rebuilt age after age, and much of the old shore lies under the sea. For us the ekklesia was not a building or a list of members, but the assembly gathered around the Logos who calls it. What we shared was the eucharistia, the thanksgiving meal of bread and cup at the heart of worship, open to members whether or not they could read.",
+ "group": "A",
+ "offered": [
+  "alx.limit.material-remains",
+  "alx.dw.suffering",
+  "alx.dw.apostolic",
+  "alx.term.eucharistia",
+  "alx.quote.couches-and-trenchers-and-bowls",
+  "alx.term.ekklesia",
+  "alx.story.leonides-martyrdom",
+  "alx.quote.clement-bee",
+  "alx.term.martys",
+  "alx.quote.clement-rash-martyrdom",
+  "alx.gravity.martyrdom-contemplative-tension",
+  "alx.gravity.soul-transformation"
+ ],
+ "placements": [],
+ "question": "What physical evidence would remain of your community's gathering place?",
+ "question_id": "q021",
+ "read": {
+  "dropped": [],
+  "status": "clean",
+  "unsupported": {}
+ },
+ "rewrite": null,
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "If you dug where we met, we could not tell you what you would find.",
+   "tags": [
+    "alx.limit.material-remains"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our own writings describe souls and books far more than rooms and walls.",
+   "tags": [
+    "alx.limit.material-remains"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The city was rebuilt age after age, and much of the old shore lies under the sea.",
+   "tags": [
+    "alx.limit.material-remains"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "For us the ekklesia was not a building or a list of members, but the assembly gathered around the Logos who calls it.",
+   "tags": [
+    "alx.term.ekklesia"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "What we shared was the eucharistia, the thanksgiving meal of bread and cup at the heart of worship, open to members whether or not they could read.",
+   "tags": [
+    "alx.term.eucharistia"
+   ]
+  }
+ ],
+ "shipped_by_net": "If you dug where we met, we could not tell you what you would find. Our own writings describe souls and books far more than rooms and walls. The city was rebuilt age after age, and much of the old shore lies under the sea. For us the ekklesia was not a building or a list of members, but the assembly gathered around the Logos who calls it. What we shared was the eucharistia, the thanksgiving meal of bread and cup at the heart of worship, open to members whether or not they could read.",
+ "sub_question": "C12.S8"
+}

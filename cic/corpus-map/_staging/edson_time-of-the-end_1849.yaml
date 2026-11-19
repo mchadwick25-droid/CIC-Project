@@ -1,0 +1,22 @@
+source_file: edson_time-of-the-end_1849.txt
+assignments:
+- row_id: edson_time-of-the-end_1849--the-time-of-the-end-its-beginning-progressive-events-and
+  work: 'The Time of the End; its beginning, progressive events, and final termination: a discourse'
+  author: edson
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - restorationist-apocalyptic-ferment-and-adventism
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1849
+    end: 1849
+    source: 'the printing''s own title page: line 38, on the title page'
+    formation_confidence: Documented
+  edition_date:
+    year: 1849
+    source: line 38, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 row 249, Hiram Edson: his own discourse of 1849 (his account of the morning after was not found in
+    print).'

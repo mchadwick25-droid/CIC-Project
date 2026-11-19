@@ -28,6 +28,7 @@ work: 'Das Leben Cyprians von Pontius: Die erste christliche Biographie (Texte u
 edition: 'Leipzig: J. C. Hinrichs, 1913; vendored as cic/texts/harnack_vita-cypriani-commentary-lat-deu_1913.txt'
 citation: 'Adolf Harnack (ed. and trans.), Das Leben Cyprians von Pontius: Die erste christliche Biographie, Texte und Untersuchungen, 3. Reihe, 9. Band, Heft 3 (Leipzig: J. C. Hinrichs, 1913)'
 kind: vendored
+shelf_row: harnack_vita-cypriani-commentary-lat-deu_1913--das-leben-cyprians-von-pontius-die-erste-christliche
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
   check (Source_Acquisition_Manifest.md SS1).

@@ -7,8 +7,12 @@ assignments:
     locus: "whole file"
     atlas_ids:
       - latin-pastoral-congregational-christianity
+      - latin-apologists
     role: context
     confidence: assigned
+    locus_ids: [whole-file]
+    language: fra
+    date: {formation_confidence: unknown, checked: "monceaux_histoire-litteraire-afrique-chretienne-tome2_1902.txt: header gives Publication Date 1902; tome II front matter read; no Préface or dateline in the file and no edition statement; the file states neither the work's first publication year nor a dated preface or approval, so no window is set"}
     note: >
       Modern (1902) French literary-historical scholarship -- role
       context, not tradition. The volume this world's own G5 request names as

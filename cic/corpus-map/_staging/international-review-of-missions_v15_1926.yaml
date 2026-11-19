@@ -1,0 +1,24 @@
+source_file: international-review-of-missions_v15_1926.txt
+assignments:
+- row_id: international-review-of-missions_v15_1926--whole
+  work: 'The International Review of Missions, Volume the Fifteenth (1926)'
+  author: international-review-of-missions
+  locus: 'whole'
+  atlas_ids:
+  - the-ecumenical-movement-and-the-wcc
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1926, end: 1926, source: "title leaf: '1926'", formation_confidence: Documented}
+  note: 'The quarterly the title leaf says ''is published by the International Missionary Council''; each article is its writer''s own.'
+- row_id: international-review-of-missions_v15_1926--loram-the-separatist-church-movement
+  work: 'C. T. Loram, ''The Separatist Church Movement'' (International Review of Missions, 1926)'
+  author: international-review-of-missions
+  locus: 'OCR lines 32800-33172; add 12 to OCR line numbers'
+  atlas_ids:
+  - african-initiated-churches-harrist-aladura-zioni
+  role: context
+  confidence: assigned
+  language: eng
+  date: {start: 1926, end: 1926, source: "printed in the number of July 1926", formation_confidence: Documented}
+  note: 'An outside account, from the side of race relations in South Africa, of the churches that left the missions.'

@@ -1,0 +1,1482 @@
+{
+ "group": "C",
+ "movements": [
+  "hieronymian-ascetic-literary",
+  "ambrosian-milan-standalone",
+  "aquileian-christianity",
+  "gallic-nicene-episcopate"
+ ],
+ "dispositions": [
+  {
+   "movement": "hieronymian-ascetic-literary",
+   "field": "relationsSummary",
+   "sentence": "Descends scripturally from Alexandria's Origen, the same legacy this circle later fractured over with Rufinus; Jerome served as Damasus of Rome's own secretary before Bethlehem began.",
+   "other_id": "alexandria-catechetical",
+   "disposition": "link",
+   "link_id": "alexandria-catechetical--hieronymian-ascetic-literary",
+   "prose_change": null,
+   "reason": "Existing Documented link (Jerome's preface to Job); the later break with Origen is carried by hieronymian-ascetic-literary--alexandria-catechetical."
+  },
+  {
+   "movement": "hieronymian-ascetic-literary",
+   "field": "relationsSummary",
+   "sentence": "Descends scripturally from Alexandria's Origen, the same legacy this circle later fractured over with Rufinus; Jerome served as Damasus of Rome's own secretary before Bethlehem began.",
+   "other_id": "aquileian-christianity",
+   "disposition": "link",
+   "link_id": "aquileian-christianity--hieronymian-ascetic-literary--2",
+   "prose_change": null,
+   "reason": "New 'broke with' link: Rufinus's Apology and Jerome's Apology against Rufinus, both vendored."
+  },
+  {
+   "movement": "hieronymian-ascetic-literary",
+   "field": "relationsSummary",
+   "sentence": "Descends scripturally from Alexandria's Origen, the same legacy this circle later fractured over with Rufinus; Jerome served as Damasus of Rome's own secretary before Bethlehem began.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Damasus has no census entry. Checked: Jerome says he helped 'Damasus bishop of Rome with his ecclesiastical correspondence' (Ep. 123.10, npnf206 24189-24190). Sentence stands."
+  },
+  {
+   "movement": "hieronymian-ascetic-literary",
+   "field": "longDescription",
+   "sentence": "In 384 Blaesilla took up the severe fasting ... at her funeral a Roman crowd shouted for the monks to be thrown in the Tiber ...",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "The crowd has no census entry. Jerome (Ep. 39) reports whispers, not shouts; sentence corrected and split."
+  },
+  {
+   "movement": "hieronymian-ascetic-literary",
+   "field": "longDescription",
+   "sentence": "Within the year Pope Damasus, Jerome's protector, was also dead, and his position in Rome had become impossible.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census entry for Damasus. Jerome's Ep. 45.3 (npnf206 8638-8639) supports Damasus's favor; 'protector' is a fair reading. Kept."
+  },
+  {
+   "movement": "hieronymian-ascetic-literary",
+   "field": "longDescription",
+   "sentence": "in one North African town, a congregation nearly rioted when its bishop read the new wording of a single word in Jonah, and Augustine wrote across the sea to warn Jerome what unsettling a people's prayed-over text could cost.",
+   "other_id": "latin-pastoral-congregational-christianity",
+   "disposition": "link",
+   "link_id": "hieronymian-ascetic-literary--latin-pastoral-congregational-christianity",
+   "prose_change": null,
+   "reason": "New 'in contact with' link on the Augustine-Jerome letters (Aug. Ep. 71.5). The unnamed congregation (Oea) has no entry; Ep. 71.5 supports the near-riot."
+  },
+  {
+   "movement": "hieronymian-ascetic-literary",
+   "field": "longDescription",
+   "sentence": "In the community's last years, an attack tied to the Pelagian dispute set fire to the Bethlehem monasteries.",
+   "other_id": "pelagianism",
+   "disposition": "link",
+   "link_id": "pelagianism--hieronymian-ascetic-literary",
+   "prose_change": null,
+   "reason": "New 'argued against' link (Augustine, De gestis Pelagii 66; Innocent to John). The census wording 'tied to' already matches the hedged evidence."
+  },
+  {
+   "movement": "hieronymian-ascetic-literary",
+   "field": "longDescription",
+   "sentence": "Eustochium sent Rome a full account of it, and the pope who answered her praised the community for one thing above all — that they had never named the man behind it.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "The pope (Innocent) has no entry. His praise is in his letter to John of Jerusalem, not a reply to Eustochium; corrected."
+  },
+  {
+   "movement": "hieronymian-ascetic-literary",
+   "field": "legacy",
+   "sentence": "the text the Council of Trent declared authentic in 1546.",
+   "other_id": "the-tridentine-church",
+   "disposition": "link",
+   "link_id": "hieronymian-ascetic-literary--the-tridentine-church",
+   "prose_change": null,
+   "reason": "New 'influenced' link, Widely Accepted: Trent's decree plus Waterworth's 1848 essay identifying the Vulgate as Jerome's version."
+  },
+  {
+   "movement": "hieronymian-ascetic-literary",
+   "field": "legacy",
+   "sentence": "Augustine himself never accepted it, writing after Jerome's death that ... 'the churches of Christ judge that no one should be preferred to the authority' of the Seventy translators",
+   "other_id": "latin-pastoral-congregational-christianity",
+   "disposition": "link",
+   "link_id": "latin-pastoral-congregational-christianity--hieronymian-ascetic-literary",
+   "prose_change": 2,
+   "reason": "New 'argued against' link (Aug. Ep. 71.4; City of God XVIII.43). 'Never accepted it' is contradicted by De doctrina IV.7.15 and is qualified."
+  },
+  {
+   "movement": "hieronymian-ascetic-literary",
+   "field": "legacy",
+   "sentence": "even though the Jews themselves granted his Hebrew work faithful",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Group named inside Augustine's own claim; City of God XVIII.43 (npnf102 36738-36739) says it. Kept."
+  },
+  {
+   "movement": "hieronymian-ascetic-literary",
+   "field": "legacy",
+   "sentence": "the older Greek-based Latin version he defended stayed in real use for generations afterward.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "The Old Latin has no entry. Now supported concretely by Gregory the Great's Moralia preface (he uses 'now the new and now the old')."
+  },
+  {
+   "movement": "hieronymian-ascetic-literary",
+   "field": "legacy",
+   "sentence": "Jerome's insistence on going back to the Hebrew ... is the ancestor of every later \"back to the sources\" movement",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "No census entry; the descent claim has no vendored or repo-cited support. Recast as a comparison."
+  },
+  {
+   "movement": "hieronymian-ascetic-literary",
+   "field": "legacy",
+   "sentence": "including the Renaissance and Reformation scholarship that eventually turned on the Vulgate itself.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "No single census entry; kept as a plain statement inside the same rewrite."
+  },
+  {
+   "movement": "hieronymian-ascetic-literary",
+   "field": "legacy",
+   "sentence": "The circle left a second, quieter pattern too — wealthy women funding, hosting, and directing serious biblical scholarship — which recurs constantly in later Christian history.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A pattern statement, not a lineage to any movement. Not changed; a reviewer may want it softened, as no source is cited for 'recurs constantly'."
+  },
+  {
+   "movement": "ambrosian-milan-standalone",
+   "field": "relationsSummary",
+   "sentence": "Folded into the Imperial-Juridical tradition as one of its three phases",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "ambrosian-milan-standalone--imperial-juridical-christianity",
+   "prose_change": 4,
+   "reason": "Cataloguing language rewritten to state the relationship; new 'argued against' link. The overlap of the two entries is escalated."
+  },
+  {
+   "movement": "ambrosian-milan-standalone",
+   "field": "longDescription",
+   "sentence": "Milan, not Rome, was the western emperors' working capital in the late fourth century",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A fact about Rome's standing, no fourth-century Roman entry. Not a relationship; kept."
+  },
+  {
+   "movement": "ambrosian-milan-standalone",
+   "field": "longDescription",
+   "sentence": "He refused to hand a basilica over to the Empress Justina's court in 386, and his congregation occupied the building for days, singing hymns he wrote to keep their spirits up.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "ambrosian-milan-standalone--imperial-juridical-christianity",
+   "prose_change": null,
+   "reason": "Carried by the new link (Sermon against Auxentius 36). Augustine (Conf. IX.7.15) confirms the occupation and hymns. Justina's court was Homoian; see also ambrosian-milan-standalone--homoian-arian-christianity."
+  },
+  {
+   "movement": "ambrosian-milan-standalone",
+   "field": "longDescription",
+   "sentence": "In 390 he required the emperor Theodosius to do public penance for a massacre of civilians at Thessalonica.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "ambrosian-milan-standalone--imperial-juridical-christianity",
+   "prose_change": null,
+   "reason": "Carried by the new link (Ambrose, Ep. 51.13)."
+  },
+  {
+   "movement": "ambrosian-milan-standalone",
+   "field": "longDescription",
+   "sentence": "Augustine, whom Ambrose baptized at Easter in 387.",
+   "other_id": "latin-pastoral-congregational-christianity",
+   "disposition": "link",
+   "link_id": "ambrosian-milan-standalone--latin-pastoral-congregational-christianity",
+   "prose_change": null,
+   "reason": "New 'influenced' link (Confessions V.13.23, IX.5.13)."
+  },
+  {
+   "movement": "ambrosian-milan-standalone",
+   "field": "why",
+   "sentence": "In 386 he refused to hand a basilica over to the Empress Justina's court",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "ambrosian-milan-standalone--imperial-juridical-christianity",
+   "prose_change": null,
+   "reason": "Same as the longDescription."
+  },
+  {
+   "movement": "ambrosian-milan-standalone",
+   "field": "why",
+   "sentence": "four years later he required the emperor Theodosius to do public penance for a massacre at Thessalonica before receiving him back to the sacrament.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "ambrosian-milan-standalone--imperial-juridical-christianity",
+   "prose_change": null,
+   "reason": "Same as the longDescription."
+  },
+  {
+   "movement": "ambrosian-milan-standalone",
+   "field": "legacy",
+   "sentence": "Its own calendar, chant, and order of worship, distinct from the Roman Rite used almost everywhere else in the Latin church",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Roman Rite has no entry; plain description, kept."
+  },
+  {
+   "movement": "ambrosian-milan-standalone",
+   "field": "legacy",
+   "sentence": "His confrontation with Theodosius became a standing precedent, cited for more than a millennium, that a Christian ruler stands under the church's discipline rather than above it.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "qualify",
+   "link_id": "ambrosian-milan-standalone--imperial-juridical-christianity",
+   "prose_change": 5,
+   "reason": "'Cited for more than a millennium' unsupported; replaced with Theodoret's retelling and Ambrose's own rule."
+  },
+  {
+   "movement": "ambrosian-milan-standalone",
+   "field": "legacy",
+   "sentence": "And his preaching, by Augustine's own account, is a large part of the reason the West got Augustine at all.",
+   "other_id": "latin-pastoral-congregational-christianity",
+   "disposition": "link",
+   "link_id": "ambrosian-milan-standalone--latin-pastoral-congregational-christianity",
+   "prose_change": null,
+   "reason": "Carried by the new link; Confessions V.13.23 supports it."
+  },
+  {
+   "movement": "aquileian-christianity",
+   "field": "relationsSummary",
+   "sentence": "Adjacent to ambrosian-milan-standalone in region and generation, and to hieronymian-ascetic-literary in personnel - Jerome and Rufinus were formed here together and quarreled elsewhere. Its transmission relation to alexandria-catechetical is the consequential one: Rufinus is why Origen survives in Latin at all.",
+   "other_id": "ambrosian-milan-standalone",
+   "disposition": "link",
+   "link_id": "ambrosian-milan-standalone--aquileian-christianity",
+   "prose_change": 6,
+   "reason": "Existing Documented contact link (the 381 council). Raw id replaced."
+  },
+  {
+   "movement": "aquileian-christianity",
+   "field": "relationsSummary",
+   "sentence": "Adjacent to ambrosian-milan-standalone in region and generation, and to hieronymian-ascetic-literary in personnel - Jerome and Rufinus were formed here together and quarreled elsewhere. Its transmission relation to alexandria-catechetical is the consequential one: Rufinus is why Origen survives in Latin at all.",
+   "other_id": "hieronymian-ascetic-literary",
+   "disposition": "link",
+   "link_id": "aquileian-christianity--hieronymian-ascetic-literary--2",
+   "prose_change": 6,
+   "reason": "Shared formation is the existing 'influenced' link; the quarrel is the new 'broke with' link. Raw id replaced; 'elsewhere' corrected."
+  },
+  {
+   "movement": "aquileian-christianity",
+   "field": "relationsSummary",
+   "sentence": "Adjacent to ambrosian-milan-standalone in region and generation, and to hieronymian-ascetic-literary in personnel - Jerome and Rufinus were formed here together and quarreled elsewhere. Its transmission relation to alexandria-catechetical is the consequential one: Rufinus is why Origen survives in Latin at all.",
+   "other_id": "alexandria-catechetical",
+   "disposition": "link",
+   "link_id": "alexandria-catechetical--aquileian-christianity",
+   "prose_change": 6,
+   "reason": "Existing Widely Accepted link. Raw id replaced; 'Origen survives in Latin at all' narrowed to 'much of Origen'."
+  },
+  {
+   "movement": "aquileian-christianity",
+   "field": "longDescription",
+   "sentence": "In the 370s a group of young ascetics gathered in the city whom Jerome afterwards remembered as a chorus of the blessed. He was one of them.",
+   "other_id": "hieronymian-ascetic-literary",
+   "disposition": "link",
+   "link_id": "aquileian-christianity--hieronymian-ascetic-literary",
+   "prose_change": null,
+   "reason": "Existing link. Jerome's Chronicle line 'Aquileienses clerici quasi chorus beatorum habentur' is vendored (fotheringham1923 46256-46258) and confirms the phrase."
+  },
+  {
+   "movement": "aquileian-christianity",
+   "field": "longDescription",
+   "sentence": "So was Rufinus of Concordia, and the friendship between those two ended thirty years later in the bitterest literary quarrel the Latin church produced.",
+   "other_id": "hieronymian-ascetic-literary",
+   "disposition": "link",
+   "link_id": "aquileian-christianity--hieronymian-ascetic-literary--2",
+   "prose_change": null,
+   "reason": "New 'broke with' link."
+  },
+  {
+   "movement": "aquileian-christianity",
+   "field": "longDescription",
+   "sentence": "In 381 Ambrose came up from Milan and presided over a council at Aquileia that deposed the last two Homoian bishops of the Danube provinces.",
+   "other_id": "ambrosian-milan-standalone",
+   "disposition": "qualify",
+   "link_id": "ambrosian-milan-standalone--aquileian-christianity",
+   "prose_change": 7,
+   "reason": "Era-2 open item: 'presided' removed; 'the last two' corrected."
+  },
+  {
+   "movement": "aquileian-christianity",
+   "field": "longDescription",
+   "sentence": "In 381 Ambrose came up from Milan and presided over a council at Aquileia that deposed the last two Homoian bishops of the Danube provinces.",
+   "other_id": "homoian-arian-christianity",
+   "disposition": "link",
+   "link_id": "aquileian-christianity--homoian-arian-christianity",
+   "prose_change": 7,
+   "reason": "New 'argued against' links from both the Aquileian bishop (Valerian) and Ambrose (ambrosian-milan-standalone--homoian-arian-christianity), per the coordinator's addition."
+  },
+  {
+   "movement": "aquileian-christianity",
+   "field": "longDescription",
+   "sentence": "the last two Homoian bishops of the Danube provinces",
+   "other_id": "danubian-latin-christianity",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 7,
+   "reason": "Place of the deposed bishops, not a relationship with the Danubian entry (which ends c. 400 and itself names Palladius's deposition)."
+  },
+  {
+   "movement": "aquileian-christianity",
+   "field": "longDescription",
+   "sentence": "home in Italy after decades in Egypt and Palestine",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Regions, no single entry. Gennadius's note and the Apology prolegomena support Rufinus's long stay in the East. Kept."
+  },
+  {
+   "movement": "aquileian-christianity",
+   "field": "longDescription",
+   "sentence": "the Aquileian creed called the Father invisible and impassible where Rome's did not",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No fourth-century Roman entry. Rufinus says these words 'are not in the Creed of the Roman Church' (npnf203 56910-56912). Kept."
+  },
+  {
+   "movement": "aquileian-christianity",
+   "field": "longDescription",
+   "sentence": "It is the earliest evidence that the Western churches did not all say the same words at the font.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 8,
+   "reason": "'Earliest' unsupported; recast on Rufinus's own words."
+  },
+  {
+   "movement": "aquileian-christianity",
+   "field": "why",
+   "sentence": "which Rome's did not",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Supported by Rufinus (npnf203 57400-57402). Kept."
+  },
+  {
+   "movement": "aquileian-christianity",
+   "field": "why",
+   "sentence": "Rufinus had belonged to a circle of young ascetics gathered at Aquileia in the 370s that also included Jerome",
+   "other_id": "hieronymian-ascetic-literary",
+   "disposition": "link",
+   "link_id": "aquileian-christianity--hieronymian-ascetic-literary",
+   "prose_change": null,
+   "reason": "Existing link."
+  },
+  {
+   "movement": "aquileian-christianity",
+   "field": "why",
+   "sentence": "before their friendship broke apart in the bitterest literary quarrel the Latin church produced.",
+   "other_id": "hieronymian-ascetic-literary",
+   "disposition": "link",
+   "link_id": "aquileian-christianity--hieronymian-ascetic-literary--2",
+   "prose_change": null,
+   "reason": "New 'broke with' link."
+  },
+  {
+   "movement": "aquileian-christianity",
+   "field": "why",
+   "sentence": "It is the earliest evidence that the Western churches did not all say the same words at the font.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 9,
+   "reason": "Same as the longDescription."
+  },
+  {
+   "movement": "aquileian-christianity",
+   "field": "legacy",
+   "sentence": "The Apostles' Creed as the Latin West came to recite it is not the Roman text alone.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No Roman-creed entry; plain description supported by Rufinus. Kept."
+  },
+  {
+   "movement": "aquileian-christianity",
+   "field": "legacy",
+   "sentence": "The descent into hell, which every later version carries, is first attested here - Rufinus notes that the Roman creed lacks it - and it entered the received Western text from the provincial creeds rather than from Rome.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 10,
+   "reason": "'First attested here' contradicted by the Dated Creed of Sirmium (359); narrowed."
+  },
+  {
+   "movement": "aquileian-christianity",
+   "field": "legacy",
+   "sentence": "Rufinus' commentary is also the earliest systematic exposition of a creed in Latin and the model for the genre.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 11,
+   "reason": "Contradicted by Rufinus's own preface; replaced with Gennadius's judgment."
+  },
+  {
+   "movement": "aquileian-christianity",
+   "field": "legacy",
+   "sentence": "And his translations - Origen, Eusebius, the Clementine Recognitions, Basil, the Sentences of Sextus - are the channel through which a great deal of Greek Christianity reached the Latin Middle Ages, often as the only text that survives.",
+   "other_id": "alexandria-catechetical",
+   "disposition": "link",
+   "link_id": "alexandria-catechetical--aquileian-christianity",
+   "prose_change": null,
+   "reason": "Existing link."
+  },
+  {
+   "movement": "aquileian-christianity",
+   "field": "legacy",
+   "sentence": "And his translations - Origen, Eusebius, the Clementine Recognitions, Basil, the Sentences of Sextus - are the channel through which a great deal of Greek Christianity reached the Latin Middle Ages, often as the only text that survives.",
+   "other_id": "palestinian-church-pre-constantinian",
+   "disposition": "link",
+   "link_id": "palestinian-church-pre-constantinian--aquileian-christianity",
+   "prose_change": null,
+   "reason": "New 'influenced' link (Rufinus's preface to Chromatius)."
+  },
+  {
+   "movement": "aquileian-christianity",
+   "field": "legacy",
+   "sentence": "And his translations - Origen, Eusebius, the Clementine Recognitions, Basil, the Sentences of Sextus - are the channel through which a great deal of Greek Christianity reached the Latin Middle Ages, often as the only text that survives.",
+   "other_id": "apocryphal-and-pseudepigraphal-literature",
+   "disposition": "link",
+   "link_id": "apocryphal-and-pseudepigraphal-literature--aquileian-christianity",
+   "prose_change": null,
+   "reason": "New 'influenced' link (preface to the Recognitions; Gennadius)."
+  },
+  {
+   "movement": "aquileian-christianity",
+   "field": "legacy",
+   "sentence": "And his translations - Origen, Eusebius, the Clementine Recognitions, Basil, the Sentences of Sextus - are the channel through which a great deal of Greek Christianity reached the Latin Middle Ages, often as the only text that survives.",
+   "other_id": "cappadocian-nicene-pastoral-monastic-tradition",
+   "disposition": "link",
+   "link_id": "cappadocian-nicene-pastoral-monastic-tradition--aquileian-christianity",
+   "prose_change": null,
+   "reason": "New 'influenced' link (Gennadius, De vir. ill. 17)."
+  },
+  {
+   "movement": "aquileian-christianity",
+   "field": "legacy",
+   "sentence": "And his translations - Origen, Eusebius, the Clementine Recognitions, Basil, the Sentences of Sextus - are the channel through which a great deal of Greek Christianity reached the Latin Middle Ages, often as the only text that survives.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Sentences of Sextus and 'Greek Christianity' have no entry; Rufinus's preface to Xystus (npnf203 58673+) and Gennadius support the translation. Kept."
+  },
+  {
+   "movement": "aquileian-christianity",
+   "field": "voices",
+   "sentence": "Ambrose of Milan - who came up the road in 381 to preside over the council that finished the Homoian bishops of Illyricum",
+   "other_id": "ambrosian-milan-standalone",
+   "disposition": "qualify",
+   "link_id": "ambrosian-milan-standalone--aquileian-christianity",
+   "prose_change": 12,
+   "reason": "Era-2 open item: 'preside' also appears in the voices list; fixed."
+  },
+  {
+   "movement": "gallic-nicene-episcopate",
+   "field": "relationsSummary",
+   "sentence": "The other half of fourth-century Gaul, and deliberately separate from gallic-monastic-ascetic-christianity: an episcopate resisting an imperial creed, not a monastery. The two touch at one point that matters - Martin of Tours was Hilary's disciple, and the monastic world grows out of the ground this one defended.",
+   "other_id": "gallic-monastic-ascetic-christianity",
+   "disposition": "link",
+   "link_id": "gallic-nicene-episcopate--gallic-monastic-ascetic-christianity",
+   "prose_change": 13,
+   "reason": "Existing Documented 'influenced' link. Raw id and cataloguing language removed; 'grows out of' (descent) recast."
+  },
+  {
+   "movement": "gallic-nicene-episcopate",
+   "field": "relationsSummary",
+   "sentence": "The other half of fourth-century Gaul, and deliberately separate from gallic-monastic-ascetic-christianity: an episcopate resisting an imperial creed, not a monastery. The two touch at one point that matters - Martin of Tours was Hilary's disciple, and the monastic world grows out of the ground this one defended.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "gallic-nicene-episcopate--imperial-juridical-christianity",
+   "prose_change": null,
+   "reason": "Existing link."
+  },
+  {
+   "movement": "gallic-nicene-episcopate",
+   "field": "longDescription",
+   "sentence": "In 356 the emperor Constantius II, who wanted a single creed his bishops would all sign, exiled the bishop of Poitiers to Phrygia for refusing to condemn Athanasius.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--gallic-nicene-episcopate",
+   "prose_change": null,
+   "reason": "Existing link (De Synodis 2, 78). Sulpicius, Chron. II.39 (npnf211 11137-11143) supports exile over refusing to drop Athanasius without inquiry."
+  },
+  {
+   "movement": "gallic-nicene-episcopate",
+   "field": "longDescription",
+   "sentence": "for refusing to condemn Athanasius",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Athanasius has no census entry; claim supported by Sulpicius, Chron. II.39. Kept."
+  },
+  {
+   "movement": "gallic-nicene-episcopate",
+   "field": "longDescription",
+   "sentence": "Hilary spent four years in the Greek-speaking East learning the eastern debates from the inside, and wrote back to the Gallic bishops to explain them",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Broad region, no entry. De Synodis is addressed to the bishops of Gaul (npnf209 7776-7779). Kept."
+  },
+  {
+   "movement": "gallic-nicene-episcopate",
+   "field": "longDescription",
+   "sentence": "He also wrote De Trinitate, a massive Latin answer to Arianism running to some 190,000 words.",
+   "other_id": "homoian-arian-christianity",
+   "disposition": "link",
+   "link_id": "gallic-nicene-episcopate--homoian-arian-christianity",
+   "prose_change": null,
+   "reason": "Existing Documented link. The word count is not checked against any source; flagged, not a relationship."
+  },
+  {
+   "movement": "gallic-nicene-episcopate",
+   "field": "longDescription",
+   "sentence": "When he was allowed home around 360, the Gallic church repudiated the Homoian creed that had been imposed at Ariminum, at a council in Paris.",
+   "other_id": "homoian-arian-christianity",
+   "disposition": "link",
+   "link_id": "gallic-nicene-episcopate--homoian-arian-christianity",
+   "prose_change": null,
+   "reason": "Existing link. Sulpicius, Chron. II.45 (npnf211) supports councils in Gaul condemning Ariminum; the Paris synod letter is in the vendored Latin CSEL 65 but not quoted. Ariminum has no entry."
+  },
+  {
+   "movement": "gallic-nicene-episcopate",
+   "field": "longDescription",
+   "sentence": "Hilary went on to attack Auxentius, the Homoian bishop of Milan, with less success.",
+   "other_id": "homoian-arian-christianity",
+   "disposition": "link",
+   "link_id": "gallic-nicene-episcopate--homoian-arian-christianity",
+   "prose_change": null,
+   "reason": "Existing link. Contra Auxentium is vendored in Latin (PL 10, line 48549) but not quoted."
+  },
+  {
+   "movement": "gallic-nicene-episcopate",
+   "field": "longDescription",
+   "sentence": "a young ex-soldier named Martin, whom Hilary had ordained, was already living as a monk at Ligugé.",
+   "other_id": "gallic-monastic-ascetic-christianity",
+   "disposition": "link",
+   "link_id": "gallic-nicene-episcopate--gallic-monastic-ascetic-christianity",
+   "prose_change": null,
+   "reason": "Existing link. Sulpicius says Hilary made Martin an exorcist, a minor order; 'ordained' kept as not wrong."
+  },
+  {
+   "movement": "gallic-nicene-episcopate",
+   "field": "why",
+   "sentence": "In 356 the emperor Constantius II exiled Hilary, bishop of Poitiers, to Phrygia for refusing to condemn Athanasius",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--gallic-nicene-episcopate",
+   "prose_change": null,
+   "reason": "Existing link."
+  },
+  {
+   "movement": "gallic-nicene-episcopate",
+   "field": "why",
+   "sentence": "He returned with De Trinitate, a massive Latin answer to Arianism, and when he came home around 360 the Gallic church repudiated the Homoian creed that had been imposed at Ariminum.",
+   "other_id": "homoian-arian-christianity",
+   "disposition": "link",
+   "link_id": "gallic-nicene-episcopate--homoian-arian-christianity",
+   "prose_change": null,
+   "reason": "Existing link."
+  },
+  {
+   "movement": "gallic-nicene-episcopate",
+   "field": "why",
+   "sentence": "He had already ordained a young ex-soldier, Martin, who was living as a monk at Ligugé.",
+   "other_id": "gallic-monastic-ascetic-christianity",
+   "disposition": "link",
+   "link_id": "gallic-nicene-episcopate--gallic-monastic-ascetic-christianity",
+   "prose_change": null,
+   "reason": "Existing link."
+  },
+  {
+   "movement": "gallic-nicene-episcopate",
+   "field": "legacy",
+   "sentence": "Hilary's De Trinitate gave Latin theology its first full-scale treatment of the doctrine, and Augustine, who did the second, worked with it in view.",
+   "other_id": "latin-pastoral-congregational-christianity",
+   "disposition": "link",
+   "link_id": "gallic-nicene-episcopate--latin-pastoral-congregational-christianity",
+   "prose_change": 14,
+   "reason": "New 'influenced' link (Augustine, De Trin. VI.10.11)."
+  },
+  {
+   "movement": "gallic-nicene-episcopate",
+   "field": "legacy",
+   "sentence": "it kept the western provinces out of the Homoian settlement that the Gothic kingdoms would later inherit",
+   "other_id": "gothic-and-vandal-homoian-christianity",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 14,
+   "reason": "A causal claim no source makes; Hilary died long before the Gothic kingdoms. Removed in the rewrite; no link."
+  },
+  {
+   "movement": "gallic-nicene-episcopate",
+   "field": "legacy",
+   "sentence": "so that the Frankish conversion two centuries on was to a Nicene church rather than an Arian one.",
+   "other_id": "merovingian-gallic-christianity",
+   "disposition": "link",
+   "link_id": "gallic-nicene-episcopate--merovingian-gallic-christianity",
+   "prose_change": 14,
+   "reason": "Inventory proposed 'continued as'; evidence supports 'influenced' (Gregory of Tours claiming Hilary against the Arians). The counterfactual 'so that' is dropped."
+  },
+  {
+   "movement": "gallic-nicene-episcopate",
+   "field": "legacy",
+   "sentence": "And Hilary ordained Martin, which makes this episcopate the immediate ancestor of the monastic Gaul that grew up beside it.",
+   "other_id": "gallic-monastic-ascetic-christianity",
+   "disposition": "link",
+   "link_id": "gallic-nicene-episcopate--gallic-monastic-ascetic-christianity",
+   "prose_change": 14,
+   "reason": "Existing 'influenced' link; 'immediate ancestor' (descent) softened to 'ties'."
+  }
+ ],
+ "links": [
+  {
+   "id": "desert-monasticism--hieronymian-ascetic-literary",
+   "action": "keep",
+   "named_in_text": "not named in the hieronymian text; carried as an existing link",
+   "change_reason": "All primary quotes re-checked against the files on 2026-11-07 and found verbatim; the note says no more than the quotes show."
+  },
+  {
+   "id": "alexandria-catechetical--hieronymian-ascetic-literary",
+   "action": "keep",
+   "named_in_text": "hieronymian relationsSummary ('Descends scripturally from Alexandria's Origen')",
+   "change_reason": "All primary quotes re-checked against the files on 2026-11-07 and found verbatim; the note says no more than the quotes show."
+  },
+  {
+   "id": "cappadocian-nicene-pastoral-monastic-tradition--hieronymian-ascetic-literary",
+   "action": "keep",
+   "named_in_text": "not named in the hieronymian text; existing link",
+   "change_reason": "All primary quotes re-checked against the files on 2026-11-07 and found verbatim; the note says no more than the quotes show."
+  },
+  {
+   "id": "danubian-latin-christianity--hieronymian-ascetic-literary",
+   "action": "keep",
+   "named_in_text": "not named in the hieronymian text; named in the danubian relationsSummary",
+   "change_reason": "All primary quotes re-checked against the files on 2026-11-07 and found verbatim; the note says no more than the quotes show."
+  },
+  {
+   "id": "aquileian-christianity--hieronymian-ascetic-literary",
+   "action": "keep",
+   "named_in_text": "aquileian relationsSummary, longDescription, why; hieronymian relationsSummary",
+   "change_reason": "All primary quotes re-checked against the files on 2026-11-07 and found verbatim; the note says no more than the quotes show. Jerome's own Chronicle line on the Aquileian clergy as 'a chorus of the blessed' is vendored (jerome_eusebii-chronici-canones-lat_fotheringham1923.txt 46256-46258) and could be added at a later revision; it does not change the grade."
+  },
+  {
+   "id": "hieronymian-ascetic-literary--alexandria-catechetical",
+   "action": "keep",
+   "named_in_text": "hieronymian relationsSummary ('the same legacy this circle later fractured over')",
+   "change_reason": "All primary quotes re-checked against the files on 2026-11-07 and found verbatim; the note says no more than the quotes show."
+  },
+  {
+   "id": "tertullian-s-voice--hieronymian-ascetic-literary",
+   "action": "keep",
+   "named_in_text": "not named in the hieronymian text; existing link",
+   "change_reason": "All primary quotes re-checked against the files on 2026-11-07 and found verbatim; the note says no more than the quotes show."
+  },
+  {
+   "id": "palestinian-church-pre-constantinian--hieronymian-ascetic-literary",
+   "action": "keep",
+   "named_in_text": "not named in the hieronymian text; existing link",
+   "change_reason": "All primary quotes re-checked against the files on 2026-11-07 and found verbatim; the note says no more than the quotes show."
+  },
+  {
+   "id": "hieronymian-ascetic-literary--ebionite-nazoraean-current",
+   "action": "keep",
+   "named_in_text": "not named in the hieronymian text; existing link",
+   "change_reason": "All primary quotes re-checked against the files on 2026-11-07 and found verbatim; the note says no more than the quotes show."
+  },
+  {
+   "id": "anatolian-church-third-century--hieronymian-ascetic-literary",
+   "action": "keep",
+   "named_in_text": "not named in the hieronymian text; existing link",
+   "change_reason": "All primary quotes re-checked against the files on 2026-11-07 and found verbatim; the note says no more than the quotes show."
+  },
+  {
+   "id": "ambrosian-milan-standalone--aquileian-christianity",
+   "action": "keep",
+   "named_in_text": "aquileian relationsSummary and longDescription (the Council of Aquileia, 381)",
+   "change_reason": "All primary quotes re-checked against the files on 2026-11-07 and found verbatim; the note says no more than the quotes show. Its note already names Valerian and Ambrose without saying who presided, which matches the Acts."
+  },
+  {
+   "id": "alexandria-catechetical--ambrosian-milan-standalone",
+   "action": "keep",
+   "named_in_text": "not named in the ambrosian text; existing link",
+   "change_reason": "All primary quotes re-checked against the files on 2026-11-07 and found verbatim; the note says no more than the quotes show."
+  },
+  {
+   "id": "alexandria-catechetical--aquileian-christianity",
+   "action": "keep",
+   "named_in_text": "aquileian relationsSummary and legacy (Rufinus translating Origen)",
+   "change_reason": "All primary quotes re-checked against the files on 2026-11-07 and found verbatim; the note says no more than the quotes show."
+  },
+  {
+   "id": "gallic-nicene-episcopate--gallic-monastic-ascetic-christianity",
+   "action": "keep",
+   "named_in_text": "gallic relationsSummary, longDescription, why, legacy (Martin and Hilary)",
+   "change_reason": "All primary quotes re-checked against the files on 2026-11-07 and found verbatim; the note says no more than the quotes show."
+  },
+  {
+   "id": "gallic-nicene-episcopate--homoian-arian-christianity",
+   "action": "keep",
+   "named_in_text": "gallic longDescription and why (De Trinitate against Arianism; repudiation of the Homoian creed; attack on Auxentius)",
+   "change_reason": "All primary quotes re-checked against the files on 2026-11-07 and found verbatim; the note says no more than the quotes show. The Paris synod letter and Hilary's Contra Auxentium are vendored only in Latin OCR (CSEL 65; PL 10 line 48549) and were not quoted here."
+  },
+  {
+   "id": "imperial-juridical-christianity--gallic-nicene-episcopate",
+   "action": "keep",
+   "named_in_text": "gallic longDescription and why (Constantius exiles Hilary)",
+   "change_reason": "All primary quotes re-checked against the files on 2026-11-07 and found verbatim; the note says no more than the quotes show."
+  },
+  {
+   "id": "gallic-nicene-episcopate--imperial-juridical-christianity",
+   "action": "keep",
+   "named_in_text": "gallic relationsSummary ('an episcopate resisting an imperial creed')",
+   "change_reason": "All primary quotes re-checked against the files on 2026-11-07 and found verbatim; the note says no more than the quotes show."
+  },
+  {
+   "id": "aquileian-christianity--hieronymian-ascetic-literary--2",
+   "action": "new",
+   "from": "aquileian-christianity",
+   "to": "hieronymian-ascetic-literary",
+   "type": "broke with",
+   "confidence": "Documented",
+   "note": "Jerome and Rufinus, once close friends, broke for good around 400 over Rufinus's Latin translation of Origen. Each wrote a defense against the other. Rufinus said their friendship had been restored only with difficulty, and Jerome complained that an old friend he had made peace with now attacked him.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "hal.source.rufinus-apology",
+     "work": "Rufinus, Apology to Apronianus (against Jerome), Book II, section 42 (written at Aquileia, 400, per the translators' heading)",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "50498-50500",
+     "locus": "Ruf. Apol. II.42",
+     "quote": "this was the first complaint which you had received of any injury on my part since friendship had been restored between us, and that with difficulty and much trouble.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "hal.source.jerome-apology-rufinus",
+     "work": "Jerome, Apology against Rufinus, Book I, section 1",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "51077-51080",
+     "locus": "Apol. adv. Ruf. I.1",
+     "quote": "A true friend who knew what he was about would, after our previous misunderstanding and our reconciliation, have avoided all appearance of suspicious conduct,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "hieronymian relationsSummary ('fractured over with Rufinus'); aquileian relationsSummary, longDescription and why (the quarrel)",
+   "wants": [],
+   "drafter_flags": [
+    "The pair already carries 'influenced' (shared formation at Aquileia); this second link is the rupture, evidenced separately from both sides.",
+    "Rufinus is the Aquileian party: the translators' heading places his Apology at Aquileia in 400. The quarrel is personal as much as communal; the type follows the census text, which names the two men.",
+    "source_id hal.source.rufinus-apology is used by the existing link for Rufinus's Apology to Anastasius; confirm it also covers the Apology against Jerome before merge."
+   ],
+   "change_reason": "New: both movements' texts name the Jerome-Rufinus quarrel and no link carried the rupture."
+  },
+  {
+   "id": "aquileian-christianity--homoian-arian-christianity",
+   "action": "new",
+   "from": "aquileian-christianity",
+   "to": "homoian-arian-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "At the Council of Aquileia in 381, the city's own bishop, Valerian, spoke against the Homoian bishop Palladius. He said that whoever defends Arius is an Arian. Whoever will not condemn his blasphemies, he added, is a blasphemer too. The council condemned Palladius and Secundianus.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Council of Aquileia (381), Acts: Valerian speaking",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt",
+     "lines": "60919-60922",
+     "locus": "Gesta Concilii Aquileiensis, Mansi vol. 3",
+     "quote": "Valerianus epifcopus dixit: mihi quidem videtur, quia qui Arium defendir, Avianus eft: qui blafphemias ipfius non conde- mnat, ipfe blafphemus eft .",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Council of Aquileia (381), Acts: list of bishops present",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt",
+     "lines": "59746-59747",
+     "locus": "Gesta Concilii Aquileiensis, opening",
+     "quote": "cum epifcopis , Aqui- lejenfium civitatis Valeriano, Ambrofio ,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "aquileian longDescription ('a council at Aquileia that deposed ... Homoian bishops')",
+   "wants": [],
+   "drafter_flags": [
+    "'Avianus' and 'defendir' are OCR errors in the file for 'Arianus' and 'defendit'; the quote keeps them as the file has them.",
+    "The council was a gathering of western bishops, not the Aquileian church alone. The link rests on Valerian, bishop of Aquileia, speaking in his own city; Ambrose's part is drafted separately (ambrosian-milan-standalone--homoian-arian-christianity).",
+    "Added at the coordinator's request (era-1 handoff)."
+   ],
+   "change_reason": "New: the aquileian text names the council's condemnation of the Homoian bishops and no link carried it."
+  },
+  {
+   "id": "ambrosian-milan-standalone--homoian-arian-christianity",
+   "action": "new",
+   "from": "ambrosian-milan-standalone",
+   "to": "homoian-arian-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "At Aquileia in 381, Ambrose led the questioning of the Homoian bishop Palladius. Because Palladius would not condemn a letter of Arius, Ambrose had it read aloud. In Milan in 386 he preached against a Homoian rival bishop, Auxentius, and declared him cast out.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Council of Aquileia (381), Acts: Ambrose speaking",
+     "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt",
+     "lines": "60735-60738",
+     "locus": "Gesta Concilii Aquileiensis, Mansi vol. 3",
+     "quote": "Ambrofius epifcopus dixit. Quia fzpius vult damnari Palladius, qui jam frequenter damnatus eft , lego epiftolam Arii, quam ille noluit condemnare.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ambrose, Sermon against Auxentius on the Giving Up of the Basilicas, section 22",
+     "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+     "lines": "42414",
+     "locus": "Sermo c. Aux. 22",
+     "quote": "Therefore, Auxentius is cast out.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ambrose, Sermon against Auxentius, section 22",
+     "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+     "lines": "42417-42418",
+     "locus": "Sermo c. Aux. 22",
+     "quote": "because there had been here an Arian bishop, named Auxentius.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "aquileian longDescription (Ambrose at the council that deposed the Homoian bishops); the ambrosian text names the basilica conflict with Justina's court but does not call it Homoian",
+   "wants": [],
+   "drafter_flags": [
+    "The Homoian party's own record of the council (the Scholia Arriana, Palladius) is not vendored; this link rests on the Nicene Acts and Ambrose's sermon.",
+    "Added at the coordinator's request (era-1 handoff). Group E may draft the same pair from the Homoian side."
+   ],
+   "change_reason": "New: the Acts show Ambrose as the main questioner, and his sermon names a Homoian bishop as the enemy."
+  },
+  {
+   "id": "ambrosian-milan-standalone--imperial-juridical-christianity",
+   "action": "new",
+   "from": "ambrosian-milan-standalone",
+   "to": "imperial-juridical-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 386 Ambrose refused to hand a basilica over to the court. He preached that the emperor is 'within the Church, not above it'. After the massacre at Thessalonica in 390, he told Theodosius in a letter that he dared not offer the sacrifice with him present.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ambrose, Sermon against Auxentius, section 36",
+     "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+     "lines": "42663-42664",
+     "locus": "Sermo c. Aux. 36",
+     "quote": "For the Emperor is within the Church, not above it.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ambrose, Letter 51 (To Theodosius after the massacre at Thessalonica), section 13",
+     "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+     "lines": "44183",
+     "locus": "Ep. 51.13",
+     "quote": "I dare not offer the sacrifice if you intend to be present.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "ambrosian longDescription and why (Justina's court; Theodosius's penance); ambrosian legacy (ruler under church discipline); ambrosian relationsSummary (Imperial and Juridical Christianity)",
+   "wants": [],
+   "drafter_flags": [
+    "Imperial and Juridical Christianity tells Ambrose's own stand as one of its 'three answers'. An 'argued against' from the Ambrose entry to the imperial one is true of the court and the emperor, but sits oddly while one entry contains the other. See escalation on the two entries' overlap.",
+    "Justina's court was Homoian; the basilica conflict is also part of ambrosian-milan-standalone--homoian-arian-christianity."
+   ],
+   "change_reason": "New: the ambrosian text names both confrontations with imperial power and no link carried them."
+  },
+  {
+   "id": "ambrosian-milan-standalone--latin-pastoral-congregational-christianity",
+   "action": "new",
+   "from": "ambrosian-milan-standalone",
+   "to": "latin-pastoral-congregational-christianity",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Augustine says in his Confessions that he was led to Ambrose at Milan so that Ambrose might lead him to God. Before his baptism in 387 he wrote to Ambrose about his past errors and asked what he should read.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Augustine, Confessions V.13.23",
+     "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+     "lines": "8525-8526",
+     "locus": "Conf. V.13.23",
+     "quote": "To him was I unknowingly led by Thee, that by him I might knowingly be led to Thee.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Augustine, Confessions IX.5.13",
+     "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+     "lines": "13656-13657",
+     "locus": "Conf. IX.5.13",
+     "quote": "the holy man Ambrose, my former errors and present resolutions,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "ambrosian longDescription and legacy (Augustine)",
+   "wants": [],
+   "drafter_flags": [
+    "The Confessions body text does not name Ambrose as the baptizer in so many words (the translator's note does). The note says only what the text shows.",
+    "Mapping: Augustine is carried by Latin Pastoral-Congregational Christianity, an entry about congregational life at Carthage and Hippo. See escalation on where Augustine's own thought belongs."
+   ],
+   "change_reason": "New: the ambrosian text names Augustine twice and no link carried it."
+  },
+  {
+   "id": "hieronymian-ascetic-literary--latin-pastoral-congregational-christianity",
+   "action": "new",
+   "from": "hieronymian-ascetic-literary",
+   "to": "latin-pastoral-congregational-christianity",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Jerome and Augustine wrote to each other across the sea for years. Augustine told Jerome of a bishop whose congregation rose up over the new wording of a line in Jonah. Jerome later wrote that he was resolved to love and respect Augustine and to defend his opinions as his own.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "hal.source.augustine-letters",
+     "work": "Augustine, Letter 71 (to Jerome), section 5",
+     "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+     "lines": "32540-32542",
+     "locus": "Aug. Ep. 71.5",
+     "quote": "A certain bishop, one of our brethren, having introduced in the church over which he presides the reading of your version,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jerome, letter to Augustine, quoted by Augustine in Letter 144 to Jerome's correspondents (Jerome, Ep. 134), as given in Jerome's letters",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "28727-28728",
+     "locus": "Jerome, Ep. 134 (in Ep. 144)",
+     "quote": "For my part, however, I am resolved to love you, to look up to you, to reverence and admire you, and to defend your opinions as my own.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "hieronymian longDescription (Augustine wrote across the sea to warn Jerome); hieronymian legacy",
+   "wants": [],
+   "drafter_flags": [
+    "Check the locus of the second source: the file's endnote calls the quoted letter Jerome's No. CXXXIV (Augustine's CLXXII); the surrounding letter in the file is numbered CXLIV."
+   ],
+   "change_reason": "New: the hieronymian text names the Augustine-Jerome correspondence and no link carried it."
+  },
+  {
+   "id": "latin-pastoral-congregational-christianity--hieronymian-ascetic-literary",
+   "action": "new",
+   "from": "latin-pastoral-congregational-christianity",
+   "to": "hieronymian-ascetic-literary",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Augustine urged Jerome to translate the Greek Septuagint, not the Hebrew. He feared the Latin and Greek churches would end up reading different Bibles. After Jerome's death, he still held that no translator should be preferred to the Seventy.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "hal.source.augustine-letters",
+     "work": "Augustine, Letter 71 (to Jerome), section 4",
+     "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+     "lines": "32516-32518",
+     "locus": "Aug. Ep. 71.4",
+     "quote": "I would much rather that you would furnish us with a translation of the Greek version of the canonical Scriptures known as the work of the Seventy translators.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Augustine, City of God XVIII.43",
+     "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml",
+     "lines": "36741-36742",
+     "locus": "De civ. Dei XVIII.43",
+     "quote": "still the churches of Christ judge that no one should be preferred to the authority of so many men,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "hieronymian legacy (Augustine's resistance to the new translation)",
+   "wants": [],
+   "drafter_flags": [
+    "Augustine also used Jerome's Hebrew version at times (De doctrina christiana IV.7.15, npnf102 54117-54119), so the legacy sentence 'never accepted it' is qualified in a prose change. The argument against is real; the rejection was not total.",
+    "Mapping: see escalation on Augustine and Latin Pastoral-Congregational Christianity."
+   ],
+   "change_reason": "New: the hieronymian legacy names Augustine's opposition and no link carried it."
+  },
+  {
+   "id": "pelagianism--hieronymian-ascetic-literary",
+   "action": "new",
+   "from": "pelagianism",
+   "to": "hieronymian-ascetic-literary",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 416 the monasteries of Jerome's community at Bethlehem were attacked and burned, and his deacon was killed. Augustine reports that followers of Pelagius were said to have done it. Pope Innocent, writing on the women's own report, noted that they had not named the man behind it.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Augustine, On the Proceedings of Pelagius, chapter 66",
+     "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml",
+     "lines": "10586",
+     "locus": "De gest. Pel. 66",
+     "quote": "Certain followers of Pelagius are said to have carried their support of his cause after these judicial proceedings to an incredible extent of perverseness and audacity.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Augustine, On the Proceedings of Pelagius, chapter 66",
+     "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml",
+     "lines": "10590",
+     "locus": "De gest. Pel. 66",
+     "quote": "slain his deacon, and burnt his monastic houses;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "hal.source.attack-letters-416",
+     "work": "Innocent I, Letter to John of Jerusalem (Jerome, Ep. 137)",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "28472-28474",
+     "locus": "Jerome, Ep. 137",
+     "quote": "with wonderful clemency and generosity they have left untold the name and motive of his human agent.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "hieronymian longDescription ('an attack tied to the Pelagian dispute set fire to the Bethlehem monasteries')",
+   "wants": [],
+   "drafter_flags": [
+    "Grade check: Augustine's attribution is a report ('are said to'), and Innocent names no one. I graded Documented because a contemporary bishop's text names Pelagius's followers as the attackers; a reviewer may judge the hedged attribution too weak for that grade. No repo-cited secondary on the attack was found for a Widely Accepted grade.",
+    "The year 416 follows the world record hal.story.attack-416; Innocent's letters are dated 417 in the file."
+   ],
+   "change_reason": "New: the hieronymian text names the attack and no link carried it."
+  },
+  {
+   "id": "hieronymian-ascetic-literary--the-tridentine-church",
+   "action": "new",
+   "from": "hieronymian-ascetic-literary",
+   "to": "the-tridentine-church",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "In 1546 the Council of Trent declared the old Latin Vulgate authentic for public reading and preaching. Its 1848 English translator says the council chose the Vulgate as Jerome's version. Augustine had described Jerome's work as a translation from the Hebrew.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Council of Trent, Session IV (8 April 1546), Decree concerning the edition and use of the sacred books (trans. Waterworth)",
+     "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt",
+     "lines": "12477-12480",
+     "locus": "Sess. IV, decree on the Vulgate",
+     "quote": "ordains and declares, that the said old and Vulgate edition, which, by the lengthened usage of so many ages, has been approved of in the Church,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Augustine, City of God XVIII.43",
+     "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml",
+     "lines": "36732-36733",
+     "locus": "De civ. Dei XVIII.43",
+     "quote": "who translated these same Scriptures into the Latin speech, not from the Greek, but from the Hebrew.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "J. Waterworth, historical essay prefixed to The Canons and Decrees of the Sacred and Oecumenical Council of Trent (London, 1848)",
+     "file": "cic/texts/council-of-trent_canons-and-decrees_waterworth1848.txt",
+     "lines": "4174-4175",
+     "quote": "St. Jerome's version, or the Vulgate, was selected and proposed,"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "hieronymian legacy ('the text the Council of Trent declared authentic in 1546')",
+   "wants": [],
+   "drafter_flags": [
+    "The decree names the 'old and Vulgate edition', not Jerome. The identification with Jerome comes from Waterworth's 1848 essay, which is in the vendored file; it is cited as a secondary source with its file and quote, a small departure from the secondary-source shape. Graded Widely Accepted for that reason.",
+    "The Vulgate as Trent knew it is composite: not every book in it is Jerome's translation from the Hebrew. The note does not claim it is."
+   ],
+   "change_reason": "New: the hieronymian legacy names Trent and no link carried it."
+  },
+  {
+   "id": "palestinian-church-pre-constantinian--aquileian-christianity",
+   "action": "new",
+   "from": "palestinian-church-pre-constantinian",
+   "to": "aquileian-christianity",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Chromatius, bishop of Aquileia, asked Rufinus to put the Church History of Eusebius of Caesarea into Latin. Rufinus did so around 401, cut the tenth book down, and added two books of his own.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Rufinus, Preface to his translation of Eusebius's Church History, addressed to Chromatius of Aquileia",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "58744-58747",
+     "locus": "Preface to HE (Latin)",
+     "quote": "This you have done by enjoining on me the task of translating into Latin the ecclesiastical history which was written in the Greek language by that most learned man, Eusebius of Cæsarea.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "aquileian legacy (Rufinus's translations: Eusebius)",
+   "wants": [],
+   "drafter_flags": [
+    "Mapping: Eusebius wrote the Church History in the 310s and 320s, at and after the end of the palestinian-church-pre-constantinian window (c. 185-312); it is the closest census entry.",
+    "The bishop's name and see come from the preface's heading and its address 'my venerable Father, Chromatius'; the 401 date is the translators' heading."
+   ],
+   "change_reason": "New: the aquileian legacy names the Eusebius translation and no link carried it."
+  },
+  {
+   "id": "cappadocian-nicene-pastoral-monastic-tradition--aquileian-christianity",
+   "action": "new",
+   "from": "cappadocian-nicene-pastoral-monastic-tradition",
+   "to": "aquileian-christianity",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Gennadius of Marseilles wrote about Rufinus around 480. He calls him a priest of the church at Aquileia who opened much Greek writing to Latin readers. Among his translations he lists works of Basil of Caesarea and Gregory of Nazianzus.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gennadius, Lives of Illustrious Men, chapter 17 (Rufinus)",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "42470-42471",
+     "locus": "Gennadius, De vir. ill. 17",
+     "quote": "translating the works of Basil of Cæsarea in Cappadocia, Gregory Nazianzan, that most eloquent man,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gennadius, Lives of Illustrious Men, chapter 17 (Rufinus)",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "42466-42467",
+     "locus": "Gennadius, De vir. ill. 17",
+     "quote": "presbyter of the church at Aquileia, was not the least among the doctors of the church",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "aquileian legacy (Rufinus's translations: Basil)",
+   "wants": [
+    "Rufinus's preface to his Latin translation of Basil's Rule or homilies, to document the Basil translations from Rufinus's own side"
+   ],
+   "drafter_flags": [
+    "The witness is Gennadius, about seventy years later, not Rufinus's own prefaces to Basil, which are not vendored."
+   ],
+   "change_reason": "New: the aquileian legacy names the Basil translations and no link carried it."
+  },
+  {
+   "id": "apocryphal-and-pseudepigraphal-literature--aquileian-christianity",
+   "action": "new",
+   "from": "apocryphal-and-pseudepigraphal-literature",
+   "to": "aquileian-christianity",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Rufinus translated the Recognitions, a Greek work then read as by Clement of Rome, into Latin. In his preface he says the task had been laid on him to put Clement into 'our language'. Gennadius later lists it among Rufinus's translations.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Rufinus, Preface to the Recognitions of Clement, addressed to Gaudentius",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "58596-58597",
+     "locus": "Preface to Recognitions",
+     "quote": "She it was who demanded of me, as you have now done by the right of heirship, to translate Clement into our language.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gennadius, Lives of Illustrious Men, chapter 17 (Rufinus)",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "42471-42472",
+     "locus": "Gennadius, De vir. ill. 17",
+     "quote": "the <i>Recognitions</i> of Clement of Rome,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "aquileian legacy (Rufinus's translations: the Clementine Recognitions)",
+   "wants": [],
+   "drafter_flags": [
+    "Mapping: the apocryphal-and-pseudepigraphal entry does not itself mention the Pseudo-Clementines; it is the closest census entry for a work written under Clement's name.",
+    "The preface is addressed to Gaudentius of Brescia and does not say where Rufinus worked; Rufinus's tie to Aquileia comes from Gennadius and his own Commentary on the Creed.",
+    "The quote's markup (<i>) is copied as it stands in the file."
+   ],
+   "change_reason": "New: the aquileian legacy names the Recognitions translation and no link carried it."
+  },
+  {
+   "id": "gallic-nicene-episcopate--latin-pastoral-congregational-christianity",
+   "action": "new",
+   "from": "gallic-nicene-episcopate",
+   "to": "latin-pastoral-congregational-christianity",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Augustine quotes Hilary in his own book On the Trinity. He gives Hilary's short formula for the three persons and names Hilary's book as its source. He calls Hilary a man of real authority on Scripture and the faith.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Augustine, On the Trinity VI.10.11",
+     "file": "cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml",
+     "lines": "9190-9191",
+     "locus": "De Trin. VI.10.11",
+     "quote": "for it is Hilary who put this in his book (<i>On the Trinity, ii.</i>);",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Augustine, On the Trinity VI.10.11",
+     "file": "cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml",
+     "lines": "9187-9188",
+     "locus": "De Trin. VI.10.11",
+     "quote": "“Eternity is in the Father, form in the Image, use in the Gift.”",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "gallic legacy (Augustine worked with De Trinitate in view)",
+   "wants": [],
+   "drafter_flags": [
+    "Mapping: see escalation on Augustine and Latin Pastoral-Congregational Christianity.",
+    "The quote's markup (<i>) is copied as it stands in the file."
+   ],
+   "change_reason": "New: the gallic legacy names Augustine's use of Hilary and no link carried it."
+  },
+  {
+   "id": "gallic-nicene-episcopate--merovingian-gallic-christianity",
+   "action": "new",
+   "from": "gallic-nicene-episcopate",
+   "to": "merovingian-gallic-christianity",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Gregory of Tours, writing in the late sixth century, tells how a light from Hilary's church at Poitiers shone over King Clovis as he marched against the Arian Visigoths. Gregory read it as Hilary's help against 'those heretics' he had fought. He calls Hilary a defender of the Trinity, exiled for its sake.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory of Tours, History of the Franks II.37",
+     "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+     "lines": "3710-3713",
+     "locus": "HF II.37",
+     "quote": "it signified that aided by the light of the blessed confessor Hilary he might more surely overcome the host of those heretics against whom the saint himself had so often done battle for the faith.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory of Tours, History of the Franks III, preface",
+     "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+     "lines": "4100-4102",
+     "locus": "HF III, preface",
+     "quote": "Hilary, blessed defender of the undivided Trinity, and for its sake driven into exile,* was both restored to his own country and entered Paradise.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "gallic legacy ('the Frankish conversion two centuries on was to a Nicene church')",
+   "wants": [],
+   "drafter_flags": [
+    "The census sentence implies 'continued as' (the Frankish church as this church's continuation). The vendored evidence shows something narrower: the Merovingian church claimed Hilary as its patron against the Arians. The link is typed 'influenced', and the legacy sentence is qualified in a prose change.",
+    "The '*' after 'exile' is a footnote marker in the file, kept so the quote matches."
+   ],
+   "change_reason": "New: the gallic legacy names the Frankish church and no link carried the relationship."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "hieronymian-ascetic-literary",
+   "field": "longDescription",
+   "old": "In 384 Blaesilla took up the severe fasting Jerome taught and was dead within four months; at her funeral a Roman crowd shouted for the monks to be thrown in the Tiber, and Jerome's own consolation letter to the grieving Paula admits he wept writing it.",
+   "new": "In 384 Blaesilla took up the severe fasting Jerome taught and was dead within four months. At her funeral, Jerome reports, people in the crowd muttered that the monks should be stoned or thrown in the Tiber. His consolation letter to the grieving Paula admits that the whole letter was written in tears.",
+   "reason": "Jerome's Letter 39 (npnf206 8109-8115) says the words were 'whispers ... audible in the crowd', not shouts, and asks why the monks are not stoned or thrown in the Tiber. He writes that 'this entire letter is written in tears' (7820-7821). Long sentence also split."
+  },
+  {
+   "n": 1,
+   "movement": "hieronymian-ascetic-literary",
+   "field": "longDescription",
+   "old": "Eustochium sent Rome a full account of it, and the pope who answered her praised the community for one thing above all — that they had never named the man behind it.",
+   "new": "Eustochium and her niece Paula sent Rome an account of it. Pope Innocent, writing to the bishop of Jerusalem, praised the \"wonderful clemency\" with which they had left the attacker's name untold.",
+   "reason": "Innocent's praise is in his letter to John of Jerusalem, not in an answer to Eustochium (Jerome, Ep. 137; npnf206 28467-28474), and the letter names both women. 'Above all' is not in the source."
+  },
+  {
+   "n": 2,
+   "movement": "hieronymian-ascetic-literary",
+   "field": "legacy",
+   "old": "Its rise was not immediate or uncontested: Augustine himself never accepted it, writing after Jerome's death that even though the Jews themselves granted his Hebrew work faithful, 'the churches of Christ judge that no one should be preferred to the authority' of the Seventy translators — and the older Greek-based Latin version he defended stayed in real use for generations afterward.",
+   "new": "Its rise was not immediate or uncontested. Augustine quoted Jerome's Hebrew version at times, but he never gave it the old version's authority. Writing after Jerome's death, he granted that even the Jews judged the work faithful, yet 'the churches of Christ judge that no one should be preferred to the authority' of the Seventy translators. In the 590s, Pope Gregory the Great still drew on both the new Latin version and the old.",
+   "reason": "'Never accepted it' is contradicted by De doctrina christiana IV.7.15, where Augustine follows 'the translation made from the Hebrew into Latin by the presbyter Jerome' (npnf102 54117-54119). 'Stayed in real use for generations' now rests on Gregory's Moralia preface: 'I take now the new and now the old' (gregory-great_moralia-in-job-books-i-x_bliss1844.txt 1006-1008). The 'Augustine never accepted it' wording is replaced; the City of God quote is kept verbatim (npnf102 36741-36742). Split from one 70-word sentence."
+  },
+  {
+   "n": 3,
+   "movement": "hieronymian-ascetic-literary",
+   "field": "legacy",
+   "old": "Its principle mattered as much as its content: Jerome's insistence on going back to the Hebrew rather than resting on the Greek is the ancestor of every later \"back to the sources\" movement, including the Renaissance and Reformation scholarship that eventually turned on the Vulgate itself.",
+   "new": "Its principle mattered as much as its content. Jerome insisted on going back to the Hebrew rather than resting on the Greek. Later scholars of the Renaissance and Reformation made the same kind of appeal to the original languages, and in the end they turned it on the Vulgate itself.",
+   "reason": "'The ancestor of every later back-to-the-sources movement' is a lineage claim no vendored or repo-cited source makes. The rewrite keeps the comparison and drops the descent. A repo-cited study would let the stronger claim return."
+  },
+  {
+   "n": 4,
+   "movement": "ambrosian-milan-standalone",
+   "field": "relationsSummary",
+   "old": "Folded into the Imperial-Juridical tradition as one of its three phases",
+   "new": "Ambrose's Milan was the seat of the western court, and its bishop argued with that court in public. His claim that the emperor is within the church, not above it, is one of the three answers told in Imperial and Juridical Christianity.",
+   "reason": "The old line was cataloguing language ('folded into ... as one of its phases') and miscounted the imperial entry's 'three answers' as 'phases'. Replaced with the relationship itself, now carried by ambrosian-milan-standalone--imperial-juridical-christianity. The quote 'within the Church, not above it' is Ambrose's own (npnf210 42663-42664)."
+  },
+  {
+   "n": 5,
+   "movement": "ambrosian-milan-standalone",
+   "field": "legacy",
+   "old": "His confrontation with Theodosius became a standing precedent, cited for more than a millennium, that a Christian ruler stands under the church's discipline rather than above it.",
+   "new": "Within two generations, a Greek historian, Theodoret, was retelling his stand against Theodosius. Ambrose had already stated the rule himself. A Christian ruler stands within the church, not above it.",
+   "reason": "'Cited for more than a millennium' has no vendored or repo-cited support. Theodoret's Church History (c. 450) retells the episode (npnf203 16499-16503), and the rule is Ambrose's own words from 386 (npnf210 42663-42664)."
+  },
+  {
+   "n": 6,
+   "movement": "aquileian-christianity",
+   "field": "relationsSummary",
+   "old": "Adjacent to ambrosian-milan-standalone in region and generation, and to hieronymian-ascetic-literary in personnel - Jerome and Rufinus were formed here together and quarreled elsewhere. Its transmission relation to alexandria-catechetical is the consequential one: Rufinus is why Origen survives in Latin at all.",
+   "new": "Next to Ambrose's Milan in place and time, and tied to Jerome's circle at Bethlehem by its people. Jerome and Rufinus were formed here together and later quarreled. Its tie to the Alexandrian school matters most. Rufinus's translations are why much of Origen survives in Latin at all.",
+   "reason": "Three raw movement ids printed to readers, replaced by plain names; internal 'transmission relation' removed. 'Quarreled elsewhere' is wrong in part (Rufinus wrote his Apology at Aquileia, per the npnf203 heading at 46237). 'Why Origen survives in Latin at all' overstated: Gennadius notes Jerome translated some of Origen too (npnf203 42480-42481), so 'much of'."
+  },
+  {
+   "n": 7,
+   "movement": "aquileian-christianity",
+   "field": "longDescription",
+   "old": "In 381 Ambrose came up from Milan and presided over a council at Aquileia that deposed the last two Homoian bishops of the Danube provinces.",
+   "new": "In 381 Ambrose came up from Milan to a council at Aquileia. The record names the city's own bishop, Valerian, first. Ambrose led the questioning. The council condemned two Homoian bishops of the Danube provinces, Palladius and Secundianus.",
+   "reason": "Era-2 open item. The Acts do not say Ambrose presided: they list Valerian first and show Ambrose leading the questioning (Mansi 3, 59746-59747, 60735-60738). 'The last two' is contradicted by the vendored Auxentius of Durostorum edition: Kauffmann, 'Auxentius ... war bischof von Dorostorum (Silistria) in Moesia inferior' (auxentius-durostorum...kauffmann1899.txt 3397), a Homoian bishop on the Danube after 381."
+  },
+  {
+   "n": 8,
+   "movement": "aquileian-christianity",
+   "field": "longDescription",
+   "old": "It is the earliest evidence that the Western churches did not all say the same words at the font.",
+   "new": "Rufinus's own words show that the Western churches did not all say the same words at the font.",
+   "reason": "'The earliest evidence' is not shown by any vendored or repo-cited source. Rufinus himself says that 'in different Churches some additions are found' (npnf203 56728-56729), which supports the plainer claim."
+  },
+  {
+   "n": 9,
+   "movement": "aquileian-christianity",
+   "field": "why",
+   "old": "It is the earliest evidence that the Western churches did not all say the same words at the font.",
+   "new": "Rufinus's own words show that the Western churches did not all say the same words at the font.",
+   "reason": "Same sentence and same reason as the longDescription change."
+  },
+  {
+   "n": 10,
+   "movement": "aquileian-christianity",
+   "field": "legacy",
+   "old": "The descent into hell, which every later version carries, is first attested here - Rufinus notes that the Roman creed lacks it - and it entered the received Western text from the provincial creeds rather than from Rome.",
+   "new": "The descent into hell, which every later version carries, is first attested in a Western baptismal creed here. Rufinus notes that the Roman creed lacks it, though a creed drawn up at Sirmium in 359 already had a form of it. It entered the received Western text from the provincial creeds rather than from Rome.",
+   "reason": "'First attested here' is contradicted by the Dated Creed of Sirmium (359), which has 'descended into the lower parts of the earth' (Socrates HE II.37, npnf202 8562-8563). Narrowed to Western baptismal creeds."
+  },
+  {
+   "n": 11,
+   "movement": "aquileian-christianity",
+   "field": "legacy",
+   "old": "Rufinus' commentary is also the earliest systematic exposition of a creed in Latin and the model for the genre.",
+   "new": "Rufinus' commentary is also one of the first full explanations of a creed in Latin. Other writers had explained it briefly before him, he says. A century later, Gennadius judged it so good that other explanations counted for nothing beside it.",
+   "reason": "'The earliest systematic exposition' is contradicted by Rufinus: 'some eminent writers have published treatises on these matters' (npnf203 56634-56636). 'The model for the genre' is replaced by Gennadius's judgment (npnf203 42482-42484)."
+  },
+  {
+   "n": 12,
+   "movement": "aquileian-christianity",
+   "field": "voices",
+   "old": "Ambrose of Milan - who came up the road in 381 to preside over the council that finished the Homoian bishops of Illyricum",
+   "new": "Ambrose of Milan - who came up the road in 381 to the council that condemned two Homoian bishops of Illyricum, and led its questioning",
+   "reason": "Era-2 open item ('presided' appears here too). The Acts show Ambrose leading the questioning, not presiding; 'finished the Homoian bishops' is contradicted by Auxentius of Durostorum (see the longDescription change)."
+  },
+  {
+   "n": 13,
+   "movement": "gallic-nicene-episcopate",
+   "field": "relationsSummary",
+   "old": "The other half of fourth-century Gaul, and deliberately separate from gallic-monastic-ascetic-christianity: an episcopate resisting an imperial creed, not a monastery. The two touch at one point that matters - Martin of Tours was Hilary's disciple, and the monastic world grows out of the ground this one defended.",
+   "new": "The other half of fourth-century Gaul, beside Gallic monastic Christianity. This was an episcopate resisting an imperial creed, not a monastery. The two touch at one point that matters. Martin of Tours was Hilary's disciple, and the monastic world grew up in the Gaul these bishops defended.",
+   "reason": "Raw movement id printed to readers, replaced by its plain name; 'deliberately separate from' was cataloguing commentary. 'Grows out of the ground' read as descent; the existing link is 'influenced' (Sulpicius, Vita Martini 5-7)."
+  },
+  {
+   "n": 14,
+   "movement": "gallic-nicene-episcopate",
+   "field": "legacy",
+   "old": "Hilary's De Trinitate gave Latin theology its first full-scale treatment of the doctrine, and Augustine, who did the second, worked with it in view. The Gallic repudiation of Ariminum at Paris also mattered practically: it kept the western provinces out of the Homoian settlement that the Gothic kingdoms would later inherit, so that the Frankish conversion two centuries on was to a Nicene church rather than an Arian one. And Hilary ordained Martin, which makes this episcopate the immediate ancestor of the monastic Gaul that grew up beside it.",
+   "new": "Hilary's De Trinitate gave Latin theology its first full-scale treatment of the doctrine. Augustine, who wrote the second, quotes it by name. The Gallic rejection of Ariminum also mattered in practice. Sulpicius Severus, writing some forty years later, says Hilary alone freed Gaul from heresy. Two centuries on, Gregory of Tours told how a light from Hilary's church at Poitiers led the Frankish king Clovis against the Arian Goths. Gregory saw it as Hilary's help against the heretics he had fought. And Hilary ordained Martin, which ties these bishops to the monastic Gaul that grew up beside them.",
+   "reason": "Three claims fixed. (1) 'Kept the western provinces out of the Homoian settlement that the Gothic kingdoms would later inherit, so that the Frankish conversion ... was to a Nicene church' is a causal chain no source gives; replaced by what Sulpicius (Chron. II.45, npnf211 11433-11434) and Gregory of Tours (HF II.37, III preface; dalton1927 3710-3713, 4100-4102) say. (2) 'Immediate ancestor of the monastic Gaul' read as descent; the link is 'influenced'. (3) 'Worked with it in view' made concrete: Augustine names Hilary's book (npnf103 9190-9191)."
+  }
+ ],
+ "wants": [
+  "Rufinus's preface to his Latin translation of Basil's Rule or homilies, to document the Basil translations from Rufinus's own side (now rests on Gennadius, c. 480)",
+  "The Paris synod letter of c. 360 (Hilary, Collectanea antiariana A I) located and quoted in the vendored CSEL 65 Latin, or an English translation, for the Gallic repudiation of Ariminum at Paris",
+  "Hilary, Contra Auxentium in English, or a located passage in the vendored PL 10 (from line 48549), for Hilary's attack on Auxentius",
+  "The Homoian record of the Council of Aquileia (Scholia Arriana / Palladius's dissertation) in a vendored edition, so the 381 links have the condemned party's side",
+  "A repo-cited modern work on the Vulgate's reception, and on Renaissance and Reformation scholars' appeal to Jerome's Hebrew principle, if the stronger 'ancestor of every back-to-the-sources movement' claim is to return",
+  "A repo-cited modern study of the 416 attack on the Bethlehem monasteries and its attribution to Pelagius's followers, to support or lower the Documented grade",
+  "Jerome's Commentary on Ezekiel, preface to Book I ('the scorpion lies buried'), for Jerome's last word on Rufinus"
+ ],
+ "escalations": [
+  "Ambrosian Milan (standalone) and Imperial and Juridical Christianity overlap: the imperial entry tells the basilica stand and the Theodosius penance as one of its 'three answers', and the standalone entry's old summary said it was 'folded into' that entry. I rewrote the summary sentence only. Whether the standalone entry should remain a separate movement, and so whether an 'argued against' link between an entry and the entry that contains it makes sense, is a cross-entry decision for Mark.",
+  "Augustine's own thought has no census entry of its own. Three new links (Ambrose influenced, Jerome contact, Augustine argued against Jerome) and one from Hilary point at Latin Pastoral-Congregational Christianity, which describes itself as congregational life 'not the councils and not the controversies'. Is that the right home for Augustine the theologian? Cross-entry mapping decision.",
+  "Flag for the owner, outside the four fields this pass edits: the aquileian teaser says Rufinus's commentary is 'the only reason anyone knows the Western churches did not all say the same words at the font' (same overstatement as the 'earliest evidence' sentence fixed here); the hieronymian voices say Eustochium's report 'reached a pope who wrote back' (Innocent's praise is in his letter to John of Jerusalem); the gallic voices say Martin was ordained by Hilary (Sulpicius: made an exorcist). The aquileian documented story 'Rufinus Translates Origen...' is marked 'primary text not yet read', though the Numbers preface is vendored (npnf203 58967+).",
+  "Flag for group A/E owners, not touched: the danubian-latin-christianity text (era 1) and the imperial-juridical relationsSummary may carry the same 'last Homoian bishops' or 'Damasus's secretary' framing; I did not check them beyond the grep for 'presided' and 'last two Homoian', which found only the aquileian sentence fixed here."
+ ]
+}

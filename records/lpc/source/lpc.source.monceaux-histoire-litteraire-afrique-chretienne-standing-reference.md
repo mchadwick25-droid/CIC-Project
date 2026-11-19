@@ -29,6 +29,7 @@ edition: 'Vols. I-III are vendored, rows 206-208. Vols. IV-VI are vendored in th
   (vol. VII from file line 21985); this world''s corpus map places it as role: context.'
 citation: 'Paul Monceaux, Histoire littéraire de l''Afrique chrétienne depuis les origines jusqu''à l''invasion arabe, 7 vols. (Paris: E. Leroux, 1901-1923)'
 kind: vendored
+shelf_row: monceaux_histoire-litteraire-afrique-chretienne-tomes6-7-fra_1922-1923--histoire-litteraire-tome-vii-saint-augustin-et-le-donatisme
 rights_status: public-domain; vendored in cic/texts/, and the specific content this row licenses was directly
   read and verified, either against the vendored file in building Doc_01 or by a direct archive.org fetch-and-verify
   check (Source_Acquisition_Manifest.md SS1).

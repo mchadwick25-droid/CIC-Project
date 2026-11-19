@@ -66,7 +66,7 @@ text: >-
   Maximianus - a soldier of Christ, in the letter's own description,
   robust and unflinching - was chosen to face the Roman proconsul first.
   The night before, at a shared meal, the wine in his cup seemed to take
-  the shape of a crown, shining with the mingled colours of blood and
+  the shape of a crown, shining with the mingled colors of blood and
   light: an omen, Macrobius wrote, of what the next day would ask of him.
   He was beaten with leaded whips, then with rods. Isaac, whose very name
   the letter reads as a sign - a victim's name, given to a victim - was

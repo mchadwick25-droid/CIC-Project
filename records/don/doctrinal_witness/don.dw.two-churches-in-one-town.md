@@ -85,7 +85,7 @@ text: >-
 
 
   The danger was a standing condition. From 405 every see we held was
-  held under law that did not recognise it. Basilicas were confiscated,
+  held under law that did not recognize it. Basilicas were confiscated,
   clergy exiled, our country members fined by name in imperial
   legislation, and every so often the pressure came to a point and
   troops arrived. You lived knowing it could tip, because it had.

@@ -15,7 +15,7 @@ confidence:
     Documented (Doc_08 Cell 2A, Layer 1; Doc_08 SS7): the councils, the coercive measures and their reversal,
     Julian's toleration, and the sustained suppression from 405 all rest on multiple independently-corroborated
     dated events already established in Doc_01's core sequence and confirmed in the vendored primary texts.
-    The one live scholarly contest touching this force - whether the Circumcellion candidate's hostile characterisation
+    The one live scholarly contest touching this force - whether the Circumcellion candidate's hostile characterization
     reflects its actual character, Frend against Shaw - attaches to that candidate's own evidentiary texture,
     NOT to this force's bare occurrence, and Doc_08 SS7 carries it at full strength rather than smoothing
     it into this force's Layer 1 as though settled. This record does the same. A structural disclosure also
@@ -79,14 +79,14 @@ description: >-
   exactly the moment when the swinging policy briefly offered something to gain.
 
   The policy also struck directly at this world's rite of rebaptism. Successive imperial edicts
-  named rebaptism as a legal offence. The Circumcellions, also called agonistici, were likewise
+  named rebaptism as a legal offense. The Circumcellions, also called agonistici, were likewise
   the direct target of specific imperial law: Codex Theodosianus 16.5.52.
 manifestations:
 - the Council of Rome (313) and the Council of Arles (314), both ruling against the Donatist party
 - Constantine's coercive measures of 316-321, which failed in practice and were reversed
 - Julian's toleration of 361, including restoration of confiscated basilicas
 - the 405 Edict of Unity and the sustained legal suppression running through the 411 Conference and after
-- edicts naming rebaptism of Catholics specifically as a targeted legal offence
+- edicts naming rebaptism of Catholics specifically as a targeted legal offense
 - CTh 16.5.52, naming and fining the circumcelliones
 ---
 Re-derived from the cleared Doc_08 (Cell 2A, Force 2A-1, all three layers). CROSS-CELL CONNECTIONS

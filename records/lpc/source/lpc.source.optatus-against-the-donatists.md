@@ -23,6 +23,7 @@ work: Against the Donatists (Books I-VII)
 edition: vendored as cic/texts/optatus_against-the-donatists.txt
 citation: 'Optatus of Milevis, Against the Donatists, Books I-VII'
 kind: vendored
+shelf_row: optatus_against-the-donatists--against-the-donatists-de-schismate-donatistarum-books-i-vii
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s
   own specific locus being independently re-collated.'
@@ -34,4 +35,4 @@ discovery_channel: corpus map / cic/corpus-map/latin-pastoral-congregational-chr
 external_ids:
   lpc_source_registry_row: 27
 ---
-Named for completeness and for the corpus-map placement question Doc_01 SS8 item 2 hands to Doc_02 -- left standing rather than re-homed, since re-homing a census entry is outside this build thread's own editing authority (Doc_02 SS1, SS9 item 11).
+Named for completeness and for the corpus-map placement question Doc_01 SS8 item 2 hands to Doc_02 -- left standing rather than re-homed, since re-homing a census entry is outside a world build's own editing authority (Doc_02 SS1, SS9 item 11).

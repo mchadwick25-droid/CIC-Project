@@ -1,0 +1,11 @@
+source_file: gerard-de-frachet_vitae-fratrum-lat_reichert1896.txt
+assignments:
+- row_id: gerard-de-frachet_vitae-fratrum-lat_reichert1896--gerard-de-frachet-vitae-fratrum-reichert-1896
+  work: Gerard de Frachet, Vitae fratrum (Reichert 1896)
+  author: gerard-de-frachet
+  locus: the whole volume
+  atlas_ids:
+  - the-dominican-order
+  role: tradition
+  confidence: provisional
+  note: The order's own lives of its brethren, written inside this window.

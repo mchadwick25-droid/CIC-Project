@@ -32,6 +32,14 @@ works:
     Bacci's report of what Philip said. Volume 1 only; the later books are not in the file.
     Clean scan.
   source_file: bacci_life-of-st-philip-neri-v1_faber1847.txt
+- row_id: balan_monumenta-reformationis-lutheranae-1521-1525-lat-ita_1884--aleander-s-letters-from-the-diet-of-worms-1521-balan
+  work: Aleander's letters from the Diet of Worms, 1521 (Balan)
+  author: balan
+  locus: about OCR lines 2438-16100; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: Aleander's own reports to the Vice-Chancellor; single letters not mapped.
+  source_file: balan_monumenta-reformationis-lutheranae-1521-1525-lat-ita_1884.txt
 - row_id: barlow_brutum-fulmen_1681--brutum-fulmen-pius-v-s-bull-regnans-in-excelsis-against
   work: Brutum Fulmen (Pius V's bull Regnans in Excelsis against Elizabeth I, 1570, with Paul
     III's bull against Henry VIII annexed)
@@ -244,6 +252,43 @@ works:
     parishes; kept to the Jesuit world as its tradition text and cross-linked here as context.
     Placed on subject and window; not read for how it relates to the Roman Catechism.
   source_file: canisius_summa-doctrinae-christianae-lat_1573.txt
+- row_id: capuchin-constitutions_constitutiones-fratrum-minorum-capuccinorum-lat_1638--constitutiones-fratrum-minorum-capuccinorum-1638
+  work: Constitutiones Fratrum Minorum Capuccinorum (1638)
+  author: capuchin-constitutions
+  locus: the whole volume; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The Capuchin reform's own law, printed in 1638. Within this entry's window (1517-1650).
+  source_file: capuchin-constitutions_constitutiones-fratrum-minorum-capuccinorum-lat_1638.txt
+- row_id: carmelite-general-chapters_acta-capitulorum-generalium-v1-1318-1593-lat_wessels1912--acta-capitulorum-generalium-o-carm-vol-i-the-chapters-of-1524-to-1593
+  work: 'Acta capitulorum generalium O.Carm., vol. I: the chapters of 1524 to 1593'
+  author: carmelite-general-chapters
+  locus: from about OCR line 18900 to the end (the 1524 reform decree at about 18975-18995);
+    add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The order's own legislation in its general chapters from 1524 to 1593. Within this
+    entry's window (1517-1650).
+  source_file: carmelite-general-chapters_acta-capitulorum-generalium-v1-1318-1593-lat_wessels1912.txt
+- row_id: chauncy-maurice_historia-aliquot-martyrum-anglorum-lat_1888--historia-aliquot-martyrum-anglorum-chauncy-1550
+  work: Historia aliquot martyrum Anglorum (Chauncy; 1550)
+  author: chauncy-maurice
+  locus: the history from after the title page at about OCR line 550; add 12 to OCR line numbers
+    for this file's own
+  role: tradition
+  confidence: provisional
+  note: A London Carthusian's own account of his community's martyrdom in 1535, first printed
+    in 1550. Within this entry's window (1517-1650).
+  source_file: chauncy-maurice_historia-aliquot-martyrum-anglorum-lat_1888.txt
+- row_id: chauncy-maurice_history-of-the-sufferings-of-eighteen-carthusians-in-england_1890--the-history-of-the-sufferings-of-eighteen-carthusians-chauncy-in-english
+  work: The History of the Sufferings of Eighteen Carthusians (Chauncy, in English)
+  author: chauncy-maurice
+  locus: the history after the title page; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The English of Chauncy's Historia, a clean witness to the Latin file of 1888. Within
+    this entry's window (1517-1650) by the date of the Latin (1550).
+  source_file: chauncy-maurice_history-of-the-sufferings-of-eighteen-carthusians-in-england_1890.txt
 - row_id: bellarmine_notes-of-the-church_1688--the-notes-of-the-church-de-notis-ecclesiae-examined-a-church
   work: The Notes of the Church (De Notis Ecclesiae) EXAMINED - a Church of England tract
     series refuting Bellarmine's own Notes of the Church
@@ -262,6 +307,15 @@ works:
 
     '
   source_file: bellarmine_notes-of-the-church_1688.txt
+- row_id: corpus-reformatorum_v27-confutatio-et-apologia-confessionis-augustanae-lat-deu_bindseil1859--confutatio-confessionis-augustanae-1530-latin-corpus-reformatorum-27
+  work: Confutatio Confessionis Augustanae (1530), Latin (Corpus Reformatorum 27)
+  author: corpus-reformatorum
+  locus: about OCR lines 3640-12804 (Latin) and from 12871 (German); add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The answer to the Augsburg Confession read at the Diet on 3 August 1530, in Latin
+    and in German.
+  source_file: corpus-reformatorum_v27-confutatio-et-apologia-confessionis-augustanae-lat-deu_bindseil1859.txt
 - row_id: council-of-trent_roman-catechism_mchugh-callan1923--catechism-of-the-council-of-trent-for-parish-priests
   work: Catechism of the Council of Trent for Parish Priests
   author: council-of-trent
@@ -300,6 +354,24 @@ works:
 
     '
   source_file: council-of-trent_canons-and-decrees_waterworth1848.txt
+- row_id: deutsche-reichstagsakten_juengere-reihe-bd-2-reichstag-zu-worms-1521-deu-lat-fra_wrede1896--deutsche-reichstagsakten-jungere-reihe-2-charles-v-s-declaration-of-19-april-1521-and-the-edict-of-worms
+  work: 'Deutsche Reichstagsakten, jungere Reihe 2: Charles V''s declaration of 19 April 1521
+    and the Edict of Worms'
+  author: deutsche-reichstagsakten
+  locus: about OCR lines 39080-39128 and 41730-42894; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: The emperor's own words, the declaration in French.
+  source_file: deutsche-reichstagsakten_juengere-reihe-bd-2-reichstag-zu-worms-1521-deu-lat-fra_wrede1896.txt
+- row_id: dominican-general-chapters_acta-capitulorum-generalium-v6-1601-1628-lat_reichert1902--acta-capitulorum-generalium-ordinis-praedicatorum-vol-vi-1601-1628
+  work: Acta capitulorum generalium Ordinis Praedicatorum, vol. VI (1601-1628)
+  author: dominican-general-chapters
+  locus: the acts from about OCR line 247; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The order's own legislation in its general chapters, 1601-1628. Within this entry's
+    window (1517-1650).
+  source_file: dominican-general-chapters_acta-capitulorum-generalium-v6-1601-1628-lat_reichert1902.txt
 - row_id: gibbings_records-of-the-roman-inquisition-minorite-friar_1853--sentence-tridentine
   work: Sentence of the Roman Inquisition against a Minorite friar, 1564 (Gibbings, 1853)
   author: gibbings
@@ -363,6 +435,61 @@ works:
 
     '
   source_file: glostrup_visitatser-i-oslo-og-hamar-stifter-1617-1637-dan_daae-huitfeldt-kaas1895.txt
+- row_id: guicciardini_la-storia-d-italia-v1-ita_gherardi1919--guicciardini-storia-d-italia-volume-1-gherardi
+  work: Guicciardini, Storia d'Italia, volume 1 (Gherardi)
+  author: guicciardini
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: His history of Italy in his own Italian; an outside witness. No census entry is Italy's
+    politics, so the work sits on these entries.
+  source_file: guicciardini_la-storia-d-italia-v1-ita_gherardi1919.txt
+- row_id: guicciardini_la-storia-d-italia-v2-ita_gherardi1919--guicciardini-storia-d-italia-volume-2-gherardi
+  work: Guicciardini, Storia d'Italia, volume 2 (Gherardi)
+  author: guicciardini
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: His history of Italy in his own Italian; an outside witness. No census entry is Italy's
+    politics, so the work sits on these entries.
+  source_file: guicciardini_la-storia-d-italia-v2-ita_gherardi1919.txt
+- row_id: guicciardini_la-storia-d-italia-v3-ita_gherardi1919--guicciardini-storia-d-italia-volume-3-gherardi
+  work: Guicciardini, Storia d'Italia, volume 3 (Gherardi)
+  author: guicciardini
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: His history of Italy in his own Italian; an outside witness. No census entry is Italy's
+    politics, so the work sits on these entries.
+  source_file: guicciardini_la-storia-d-italia-v3-ita_gherardi1919.txt
+- row_id: guicciardini_la-storia-d-italia-v4-ita_gherardi1919--guicciardini-storia-d-italia-volume-4-gherardi
+  work: Guicciardini, Storia d'Italia, volume 4 (Gherardi)
+  author: guicciardini
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: His history of Italy in his own Italian; an outside witness. No census entry is Italy's
+    politics, so the work sits on these entries.
+  source_file: guicciardini_la-storia-d-italia-v4-ita_gherardi1919.txt
+- row_id: hospitallers_statuti-della-sacra-religione-di-s-giovanni-gierosolimitano-ita_bosio1589--gli-statuti-della-sacra-religione-di-s-giovanni-gierosolimitano-bosio-1589
+  work: Gli statuti della sacra religione di S. Giovanni Gierosolimitano (Bosio, 1589)
+  author: hospitallers
+  locus: the whole volume; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The Order of Malta's own law, as its general chapter of 1584 left it. Within this
+    entry's window (1517-1650).
+  source_file: hospitallers_statuti-della-sacra-religione-di-s-giovanni-gierosolimitano-ita_bosio1589.txt
+- row_id: ibn-verga_historia-judaica-shevet-yehudah-lat_gentius1651--shevet-yehudah-in-gentius-s-latin-historia-judaica-1651
+  work: Shevet Yehudah, in Gentius's Latin (Historia Judaica, 1651)
+  author: ibn-verga
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: A Jewish history in Gentius's Latin of 1651; the author is named in the translator's
+    preface, not on the title page. An outside witness. No census entry is the Jews of Europe,
+    so the work sits on this entry.
+  source_file: ibn-verga_historia-judaica-shevet-yehudah-lat_gentius1651.txt
 - row_id: jewel_apologia-ecclesiae-anglicanae-lat_1838--epistola-ad-virum-nobilem-d-scipionem-patricium-venetum-de-concilio-tr
   work: Epistola ad virum nobilem D. Scipionem, patricium Venetum, de Concilio Tridentino
     (1562)
@@ -392,6 +519,60 @@ works:
 
     '
   source_file: jewel_apology-of-the-church-of-england_bacon-morley1888.txt
+- row_id: joseph-ha-kohen_chronicles-of-rabbi-joseph-ben-joshua-ben-meir-v1_bialloblotzky1835--joseph-ha-kohen-chronicles-divrei-ha-yamim-volume-1-bialloblotzky
+  work: Joseph ha-Kohen, Chronicles (Divrei ha-Yamim), volume 1 (Bialloblotzky)
+  author: joseph-ha-kohen
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: A Jewish chronicler in a translator's English; an outside witness. No census entry
+    is the Jews of Europe, so the work sits on this entry.
+  source_file: joseph-ha-kohen_chronicles-of-rabbi-joseph-ben-joshua-ben-meir-v1_bialloblotzky1835.txt
+- row_id: joseph-ha-kohen_chronicles-of-rabbi-joseph-ben-joshua-ben-meir-v2_bialloblotzky1836--joseph-ha-kohen-chronicles-divrei-ha-yamim-volume-2-bialloblotzky
+  work: Joseph ha-Kohen, Chronicles (Divrei ha-Yamim), volume 2 (Bialloblotzky)
+  author: joseph-ha-kohen
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: A Jewish chronicler in a translator's English; an outside witness. No census entry
+    is the Jews of Europe, so the work sits on this entry.
+  source_file: joseph-ha-kohen_chronicles-of-rabbi-joseph-ben-joshua-ben-meir-v2_bialloblotzky1836.txt
+- row_id: joseph-ha-kohen_la-vallee-des-pleurs-emek-ha-bakha-fra_see1881--joseph-ha-kohen-emek-ha-bakha-in-french-see
+  work: Joseph ha-Kohen, Emek ha-Bakha, in French (See)
+  author: joseph-ha-kohen
+  locus: about OCR lines 325-12803; add 12 to OCR line numbers
+  role: context
+  confidence: assigned
+  note: A Jewish chronicle of the sufferings of Israel, finished in 1575 by the title page,
+    in a translator's French, with a later hand's notes; an outside witness. No census entry
+    is the Jews of Europe, so the work sits on this entry.
+  source_file: joseph-ha-kohen_la-vallee-des-pleurs-emek-ha-bakha-fra_see1881.txt
+- row_id: jussie_le-levain-du-calvinisme-fra_revilliod-fick1853--jeanne-de-jussie-le-levain-du-calvinisme
+  work: Jeanne de Jussie, Le levain du calvinisme
+  author: jussie
+  locus: the whole volume; not mapped
+  role: tradition
+  confidence: provisional
+  note: A nun's own account of Geneva in the 1520s and 1530s, from the old church's side.
+  source_file: jussie_le-levain-du-calvinisme-fra_revilliod-fick1853.txt
+- row_id: kidd_documents-illustrative-of-the-continental-reformation-lat-deu-fra-eng_1911--kidd-documents-of-the-continental-reformation-aleander-the-emperor-s-declaration-and-the-edict-of-worms
+  work: 'Kidd, Documents of the Continental Reformation: Aleander, the Emperor''s declaration
+    and the Edict of Worms'
+  author: kidd
+  locus: about OCR lines 5682-6115; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: Aleander in Latin; the emperor's declaration in English translation; the Edict in
+    Latin extracts.
+  source_file: kidd_documents-illustrative-of-the-continental-reformation-lat-deu-fra-eng_1911.txt
+- row_id: laemmer_monumenta-vaticana-historiam-ecclesiasticam-saeculi-xvi-lat-ita_1861--campeggio-s-letters-from-the-diet-of-augsburg-1530-laemmer
+  work: Campeggio's letters from the Diet of Augsburg, 1530 (Laemmer)
+  author: laemmer
+  locus: about OCR lines 2582-4320; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: Campeggio's own reports from the Diet, to Salviati.
+  source_file: laemmer_monumenta-vaticana-historiam-ecclesiasticam-saeculi-xvi-lat-ita_1861.txt
 - row_id: lainez_epistolae-et-acta-v6-lat_1915--jesuit-at-trent-tridentine-context
   work: Lainez, Epistolae et acta, vol. 6
   author: lainez
@@ -444,6 +625,42 @@ works:
     own words; the Spanish original is not in the corpus. OCR readable with microfilm misreads
     (long s normalised to s); quote only after checking the page image.'
   source_file: luis-de-granada_of-prayer-and-meditation_hopkins1582.txt
+- row_id: machiavelli_historical-political-and-diplomatic-writings-v1_detmold1882--machiavelli-writings-in-english-volume-1-detmold
+  work: Machiavelli, writings in English, volume 1 (Detmold)
+  author: machiavelli
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: His own writings in a translator's English; an outside witness. No census entry is
+    Italy's politics, so the work sits on these entries.
+  source_file: machiavelli_historical-political-and-diplomatic-writings-v1_detmold1882.txt
+- row_id: machiavelli_historical-political-and-diplomatic-writings-v2_detmold1882--machiavelli-writings-in-english-volume-2-detmold
+  work: Machiavelli, writings in English, volume 2 (Detmold)
+  author: machiavelli
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: His own writings in a translator's English; an outside witness. No census entry is
+    Italy's politics, so the work sits on these entries.
+  source_file: machiavelli_historical-political-and-diplomatic-writings-v2_detmold1882.txt
+- row_id: machiavelli_historical-political-and-diplomatic-writings-v3_detmold1882--machiavelli-writings-in-english-volume-3-detmold
+  work: Machiavelli, writings in English, volume 3 (Detmold)
+  author: machiavelli
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: His own writings in a translator's English; an outside witness. No census entry is
+    Italy's politics, so the work sits on these entries.
+  source_file: machiavelli_historical-political-and-diplomatic-writings-v3_detmold1882.txt
+- row_id: machiavelli_historical-political-and-diplomatic-writings-v4_detmold1882--machiavelli-writings-in-english-volume-4-detmold
+  work: Machiavelli, writings in English, volume 4 (Detmold)
+  author: machiavelli
+  locus: the whole volume; not mapped
+  role: context
+  confidence: assigned
+  note: His own writings in a translator's English; an outside witness. No census entry is
+    Italy's politics, so the work sits on these entries.
+  source_file: machiavelli_historical-political-and-diplomatic-writings-v4_detmold1882.txt
 - row_id: marnix_bijenkorf-der-h-roomsche-kerke-nld_1858--de-bijenkorf-der-h-roomsche-kerke-2
   work: De Bijenkorf der H. Roomsche Kerke (1569)
   author: marnix
@@ -530,6 +747,23 @@ works:
 
     '
   source_file: pallavicino_istoria-del-concilio-di-trento-parte3-ita_1664.txt
+- row_id: pallavicino_istoria-del-concilio-di-trento-tomo7-libri13-14-ita_classici-sacri1846--pallavicino-istoria-del-concilio-di-trento-book-xiii-classici-sacri-tomo-vii
+  work: Pallavicino, Istoria del Concilio di Trento, Book XIII (Classici Sacri, tomo VII)
+  author: pallavicino
+  locus: about OCR lines 216-8554; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: The same book as in the Parte seconda of 1664, in a printing of 1846 with cleaner
+    OCR.
+  source_file: pallavicino_istoria-del-concilio-di-trento-tomo7-libri13-14-ita_classici-sacri1846.txt
+- row_id: pallavicino_istoria-del-concilio-di-trento-tomo7-libri13-14-ita_classici-sacri1846--pallavicino-istoria-del-concilio-di-trento-book-xiv-classici-sacri-tomo-vii
+  work: Pallavicino, Istoria del Concilio di Trento, Book XIV (Classici Sacri, tomo VII)
+  author: pallavicino
+  locus: about OCR lines 8555-15812; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: The book that follows, to the end of the tome.
+  source_file: pallavicino_istoria-del-concilio-di-trento-tomo7-libri13-14-ita_classici-sacri1846.txt
 - row_id: pena-francisco_relatione-sommaria-vita-canonizatione-s-carlo-borromeo-ita_1610--relatione-tridentine
   work: Relatione sommaria della canonizatione di S. Carlo Borromeo (Pena, 1610)
   author: pena-francisco
@@ -603,6 +837,15 @@ works:
 
     '
   source_file: possevino-giovanni-battista_discorsi-della-vita-di-carlo-borromeo-ita_1591.txt
+- row_id: premonstratensian-statutes_statuta-renovata-ordinis-praemonstratensis-lat_1626--statuta-renovata-ordinis-praemonstratensis-1626
+  work: Statuta renovata ordinis Praemonstratensis (1626)
+  author: premonstratensian-statutes
+  locus: the whole volume; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The Premonstratensian canons' own law as renewed in 1626. Within this entry's window
+    (1517-1650).
+  source_file: premonstratensian-statutes_statuta-renovata-ordinis-praemonstratensis-lat_1626.txt
 - row_id: propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907--collectanea-propaganda-fide-v1
   work: Collectanea S. Congregationis de Propaganda Fide, Volume I (Ann. 1622-1866, NN. 1-1299)
   author: propaganda-fide
@@ -619,6 +862,14 @@ works:
     de propaganda fide (1888, Harvard copies) is a second collection of the same Congregation's
     acts and is recorded in the dossier, not vendored.
   source_file: propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907.txt
+- row_id: reu_augsburg-confession-collection-of-sources_1930--confutatio-pontificia-1530-in-english-reu
+  work: Confutatio pontificia (1530), in English (Reu)
+  author: reu
+  locus: about OCR lines 32564-35372; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: The Catholic answer, first draft and final text, in translation.
+  source_file: reu_augsburg-confession-collection-of-sources_1930.txt
 - row_id: reusch_indices-librorum-prohibitorum-sechzehnten-jahrhunderts-deu-lat_1886--reusch-introduction-and-notes
   work: Reusch's German introduction and commentary on the sixteenth-century indices
   author: reusch
@@ -832,6 +1083,15 @@ works:
     of the Tridentine papacy toward the Eastern church. Placed on the document type, not on
     a reading of the whole volume; the Tridentine world may want only the bull. Latin only.'
   source_file: theiner_vetera-monumenta-poloniae-lithuaniae-v3-lat_1863.txt
+- row_id: usque_consolacam-as-tribulacoens-de-israel-por_mendes-dos-remedios1906--samuel-usque-consolacam-as-tribulacoens-de-israel
+  work: Samuel Usque, Consolacam as tribulacoens de Israel
+  author: usque
+  locus: about OCR lines 692-20641; add 12 to OCR line numbers
+  role: context
+  confidence: assigned
+  note: A Jewish writer's own book in Portuguese; an outside witness. No census entry is the
+    Jews of Europe, so the work sits on this entry.
+  source_file: usque_consolacam-as-tribulacoens-de-israel-por_mendes-dos-remedios1906.txt
 - row_id: valier_vita-caroli-borromei-episcopus-cardinalis-lat_1586--vita-tridentine
   work: Vita Caroli Borromei with Episcopus and Cardinalis (Valier, 1586)
   author: valier

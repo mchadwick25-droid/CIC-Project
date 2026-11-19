@@ -1,0 +1,232 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.force.decian-persecution-libelli-system"
+   ],
+   "sentence": "What we hold is that belonging was tested under the Decian persecution, which demanded a recorded act of compliance."
+  },
+  {
+   "record_ids": [
+    "lpc.force.decian-persecution-libelli-system"
+   ],
+   "sentence": "The persecution did not mainly demand that Christians give up their faith."
+  },
+  {
+   "record_ids": [
+    "lpc.force.decian-persecution-libelli-system"
+   ],
+   "sentence": "A person could get a certificate by performing the sacrifice, or by paying to have it recorded."
+  },
+  {
+   "record_ids": [
+    "lpc.force.decian-persecution-libelli-system"
+   ],
+   "sentence": "The demand reached each person alone, and it sorted the congregation into those who had stood and those who had not."
+  },
+  {
+   "record_ids": [
+    "lpc.force.decian-persecution-libelli-system"
+   ],
+   "sentence": "Both groups still belonged, still in the room."
+  },
+  {
+   "record_ids": [
+    "lpc.term.confessor"
+   ],
+   "sentence": "A confessor was one who was interrogated for the Name, did not deny it, and lived."
+  },
+  {
+   "record_ids": [
+    "lpc.story.hundred-thousand-sesterces"
+   ],
+   "sentence": "Our record tells of Cyprian and eight bishops:"
+  },
+  {
+   "record_ids": [
+    "lpc.story.hundred-thousand-sesterces"
+   ],
+   "sentence": "Eight bishops wrote to Cyprian, who led our church, that barbarians had carried off our brothers and sisters, and he read their letter with tears."
+  },
+  {
+   "record_ids": [
+    "lpc.story.hundred-thousand-sesterces"
+   ],
+   "sentence": "He answered that we must pay to set them free, not only out of love but because our religion called us to it."
+  },
+  {
+   "record_ids": [
+    "lpc.story.hundred-thousand-sesterces"
+   ],
+   "sentence": "Paul says that everyone baptized into Christ has put on Christ, so we were to see Christ himself in our captive brothers and sisters."
+  },
+  {
+   "record_ids": [
+    "lpc.story.hundred-thousand-sesterces"
+   ],
+   "sentence": "Our clergy and people gave quickly and freely."
+  },
+  {
+   "record_ids": [
+    "lpc.story.hundred-thousand-sesterces"
+   ],
+   "sentence": "We sent the bishops one hundred thousand sesterces to use for the captives as carefully as they could."
+  }
+ ],
+ "citations": [
+  "lpc.force.decian-persecution-libelli-system",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.term.confessor"
+ ],
+ "group": "A",
+ "id": "q023",
+ "net_sentences": [
+  {
+   "draft": "What we hold is that belonging was tested under the Decian persecution, which demanded a recorded act of compliance [[lpc.force.decian-persecution-libelli-system]] [[as:paraphrase]].",
+   "ratio": 0.7,
+   "sentence": "What we hold is that belonging was tested under the Decian persecution, which demanded a recorded act of compliance.",
+   "tags": [
+    "lpc.force.decian-persecution-libelli-system"
+   ],
+   "verdict": "ok",
+   "why": "grounded 70% in own tagged records"
+  },
+  {
+   "draft": "The persecution did not mainly demand that Christians give up their faith [[lpc.force.decian-persecution-libelli-system]] [[as:paraphrase]].",
+   "sentence": "The persecution did not mainly demand that Christians give up their faith.",
+   "tags": [
+    "lpc.force.decian-persecution-libelli-system"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "A person could get a certificate by performing the sacrifice, or by paying to have it recorded [[lpc.force.decian-persecution-libelli-system]] [[as:paraphrase]].",
+   "sentence": "A person could get a certificate by performing the sacrifice, or by paying to have it recorded.",
+   "tags": [
+    "lpc.force.decian-persecution-libelli-system"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The demand reached each person alone, and it sorted the congregation into those who had stood and those who had not [[lpc.force.decian-persecution-libelli-system]] [[as:paraphrase]].",
+   "sentence": "The demand reached each person alone, and it sorted the congregation into those who had stood and those who had not.",
+   "tags": [
+    "lpc.force.decian-persecution-libelli-system"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Both groups still belonged, still in the room [[lpc.force.decian-persecution-libelli-system]] [[as:paraphrase]].",
+   "sentence": "Both groups still belonged, still in the room.",
+   "tags": [
+    "lpc.force.decian-persecution-libelli-system"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "A confessor was one who was interrogated for the Name, did not deny it, and lived [[lpc.term.confessor]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "A confessor was one who was interrogated for the Name, did not deny it, and lived.",
+   "tags": [
+    "lpc.term.confessor"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Our record tells of Cyprian and eight bishops: [[story:lpc.story.hundred-thousand-sesterces:short]]",
+   "ratio": 1.0,
+   "sentence": "Our record tells of Cyprian and eight bishops:",
+   "tags": [
+    "lpc.story.hundred-thousand-sesterces"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Eight bishops wrote to Cyprian, who led our church, that barbarians had carried off our brothers and sisters, and he read their letter with tears [[lpc.story.hundred-thousand-sesterces]].",
+   "placed_story": "lpc.story.hundred-thousand-sesterces",
+   "sentence": "Eight bishops wrote to Cyprian, who led our church, that barbarians had carried off our brothers and sisters, and he read their letter with tears.",
+   "tags": [
+    "lpc.story.hundred-thousand-sesterces"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "He answered that we must pay to set them free, not only out of love but because our religion called us to it [[lpc.story.hundred-thousand-sesterces]].",
+   "placed_story": "lpc.story.hundred-thousand-sesterces",
+   "sentence": "He answered that we must pay to set them free, not only out of love but because our religion called us to it.",
+   "tags": [
+    "lpc.story.hundred-thousand-sesterces"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Paul says that everyone baptized into Christ has put on Christ, so we were to see Christ himself in our captive brothers and sisters [[lpc.story.hundred-thousand-sesterces]].",
+   "placed_story": "lpc.story.hundred-thousand-sesterces",
+   "sentence": "Paul says that everyone baptized into Christ has put on Christ, so we were to see Christ himself in our captive brothers and sisters.",
+   "tags": [
+    "lpc.story.hundred-thousand-sesterces"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Our clergy and people gave quickly and freely [[lpc.story.hundred-thousand-sesterces]].",
+   "placed_story": "lpc.story.hundred-thousand-sesterces",
+   "sentence": "Our clergy and people gave quickly and freely.",
+   "tags": [
+    "lpc.story.hundred-thousand-sesterces"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "We sent the bishops one hundred thousand sesterces to use for the captives as carefully as they could [[lpc.story.hundred-thousand-sesterces]].",
+   "placed_story": "lpc.story.hundred-thousand-sesterces",
+   "sentence": "We sent the bishops one hundred thousand sesterces to use for the captives as carefully as they could.",
+   "tags": [
+    "lpc.story.hundred-thousand-sesterces"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  }
+ ],
+ "offered": [
+  "lpc.witness.confessor-claim-vs-regulated-peace",
+  "lpc.term.confessor",
+  "lpc.quote.pardon-through-a-wicked-clergyman",
+  "lpc.quote.thousands-of-certificates-daily",
+  "lpc.force.confessors-claim-to-grant-peace",
+  "lpc.witness.baptism-as-new-birth",
+  "lpc.story.the-plague-and-the-enemies",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.story.the-psalms-on-the-wall",
+  "lpc.quote.thank-offerings-for-the-very-good",
+  "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+  "lpc.force.decian-persecution-libelli-system"
+ ],
+ "raw_text": "What we hold is that belonging was tested under the Decian persecution, which demanded a recorded act of compliance [[lpc.force.decian-persecution-libelli-system]] [[as:paraphrase]]. The persecution did not mainly demand that Christians give up their faith [[lpc.force.decian-persecution-libelli-system]] [[as:paraphrase]]. A person could get a certificate by performing the sacrifice, or by paying to have it recorded [[lpc.force.decian-persecution-libelli-system]] [[as:paraphrase]].\n\nThe demand reached each person alone, and it sorted the congregation into those who had stood and those who had not [[lpc.force.decian-persecution-libelli-system]] [[as:paraphrase]]. Both groups still belonged, still in the room [[lpc.force.decian-persecution-libelli-system]] [[as:paraphrase]]. A confessor was one who was interrogated for the Name, did not deny it, and lived [[lpc.term.confessor]] [[as:paraphrase]].\n\nOur record tells of Cyprian and eight bishops: [[story:lpc.story.hundred-thousand-sesterces:short]]\n",
+ "reply_shape": {
+  "placed": [
+   "lpc.story.hundred-thousand-sesterces"
+  ],
+  "removed": [],
+  "repaired": [],
+  "story_lengths": {
+   "lpc.story.hundred-thousand-sesterces": "short"
+  }
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C12.S6",
+ "text": "What we hold is that belonging was tested under the Decian persecution, which demanded a recorded act of compliance. The persecution did not mainly demand that Christians give up their faith. A person could get a certificate by performing the sacrifice, or by paying to have it recorded.\n\nThe demand reached each person alone, and it sorted the congregation into those who had stood and those who had not. Both groups still belonged, still in the room. A confessor was one who was interrogated for the Name, did not deny it, and lived.\n\nOur record tells of Cyprian and eight bishops:\n\nEight bishops wrote to Cyprian, who led our church, that barbarians had carried off our brothers and sisters, and he read their letter with tears.\n\nHe answered that we must pay to set them free, not only out of love but because our religion called us to it. Paul says that everyone baptized into Christ has put on Christ, so we were to see Christ himself in our captive brothers and sisters.\n\nOur clergy and people gave quickly and freely. We sent the bishops one hundred thousand sesterces to use for the captives as carefully as they could.",
+ "voice_set_aside": false
+}

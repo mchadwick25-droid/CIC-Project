@@ -1,0 +1,22 @@
+source_file: lindley_ti-ping-tien-kwoh-v1_1866.txt
+assignments:
+- row_id: lindley_ti-ping-tien-kwoh-v1_1866--ti-ping-tien-kwoh-the-history-of-the-ti-ping-revolution
+  work: Ti-ping Tien-kwoh; the history of the Ti-ping revolution, including a narrative of the author's personal
+  author: lindley
+  locus: Author's preface at OCR lines 266-465; add 12 to OCR line numbers; the rest not mapped
+  atlas_ids:
+  - taiping-heavenly-kingdom
+  role: context
+  confidence: assigned
+  language: eng
+  date:
+    start: 1866
+    end: 1866
+    source: 'the printing''s own title page: read on the scan''s page image, leaf n8; the OCR does not give it cleanly'
+    formation_confidence: Documented
+  edition_date:
+    year: 1866
+    source: read on the scan's page image, leaf n8; the OCR does not give it cleanly
+    formation_confidence: Documented
+  note: 'Era 9 row 185, Hong Xiuquan: an account that quotes the record of his visions. A witness by another hand,
+    printed in 1866, two years after the entry''s window closes.'

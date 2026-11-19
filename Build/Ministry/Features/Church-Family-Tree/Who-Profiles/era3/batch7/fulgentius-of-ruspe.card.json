@@ -1,0 +1,121 @@
+{
+  "name": "Fulgentius of Ruspe",
+  "otherNames": [
+    "Fulgentius Ruspensis",
+    "Fulgence de Ruspe"
+  ],
+  "knownFor": "Catholic bishop of Ruspe in Africa under the Arian Vandal kings, exiled to Sardinia with other African bishops, who answered King Thrasamund's case against the Catholic faith in writing and wrote on grace and predestination as a follower of Augustine of Hippo.",
+  "dates": "His Life gives the day of his death, the first of January, in his twenty-fifth year as bishop and his sixty-fifth year of life, with no year. Andrea Gallandi reports that Cardinal Baronius put the death in 529 and P. Chifflet in 533. Jean Garnier, in dissertations Migne reprints, gives 464 for his birth, 504 for his consecration and 529 for his death; Joseph Mesnage gives his years as bishop as 508 to 533. No ancient source used here gives a year",
+  "place": "Thelepte in Byzacena, where the Life says he was born; Ruspe, as its bishop; Sardinia, in exile; Carthage, where King Thrasamund called him to answer for the faith",
+  "tradition": "Gothic, Vandal & Lombard Homoian Christianity",
+  "role": "Bishop of Ruspe; monk and abbot; theologian",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Against the Arians (Contra Arianos), one book, and To King Thrasamund (Ad Trasimundum), three books",
+      "about": "his answers to the Vandal king; in the first he divides the king's statements into objections and answers each, and the three books reply to questions the king let him hear read only once, the Life says"
+    },
+    {
+      "title": "To Monimus (Ad Monimum), three books",
+      "about": "on predestination, to a friend he addresses as his dear son; God predestined some to glory and some to punishment, and none to sin"
+    },
+    {
+      "title": "On the Truth of Predestination and Grace (De veritate praedestinationis et gratiae)",
+      "about": "three books in the Life and in Migne's text, which the Life places after his return from exile; Isidore of Seville knew it as two books sent to bishops"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "He answered the two books of Faustus of Riez against grace in seven books, which August Engelbrecht says are lost. The Life, a letter of the bishops exiled in Sardinia and Isidore of Seville name them, and Facundus of Hermiane says Faustus was exposed and refuted by Fulgentius of holy memory.",
+      "With fifteen other African bishops in exile he answered Peter the deacon and the others sent from the East to Rome on a matter of faith, writing on the Incarnation and grace.",
+      "Andrea Gallandi says that Fulgentius died before he could finish his answer to the questions of Count Reginus, and that his disciple Ferrandus of Carthage completed it."
+    ],
+    "remembered": [
+      "Isidore of Seville calls him clear in confessing the faith, deeply learned in Scripture, sweet in speech and keen in teaching and debate.",
+      "The preface to his works in Migne's volume, which names no author, calls him a disciple of Augustine in likeness of life as well as of teaching. Philip Schaff says he was called \"the Augustin of the sixth century\".",
+      "Joseph Mesnage lists his feast on 1 January in the Roman and Hieronymian martyrologies."
+    ]
+  },
+  "uncertain": [
+    "The Life. The Life of Fulgentius is a disciple's tribute, written to Felicianus, his successor, by a monk who lived with him in his monastery in Sardinia and who tells much of it from what Fulgentius told him. Who the monk was is disputed. P. Chifflet, who edited Ferrandus of Carthage in 1649, gave it to Ferrandus, and Andrea Gallandi agrees; a note in Migne's edition says others are not convinced, since the Life's author seems never to have left Fulgentius's side. Gallandi reports Noris, Pagi, Mangeant and Fontanini against Ferrandus.",
+    "His death year. The Life gives the day and his years as bishop but no year. Gallandi reports Baronius for 529, with Pagi and Bolland nearly following him, and Chifflet and Noris for a later year. Chifflet's year reads 555 in Gallandi's Latin as it stands. That cannot be right, since Noris, quoting Chifflet, has the Life published in 534, the year after the death, so Chifflet's year is 533. Migne heads Fulgentius's works with the year 533, and Garnier gives 529.",
+    "His age. The Latin Life says he died in his sixty-fifth year; the English Life of 1605 says his sixtieth.",
+    "The number of exiles. Victor of Tunnuna and Isidore of Seville say King Thrasamund sent 120 bishops to Sardinia. The English Life of 1605 says threescore and more, and Philip Schaff says sixty.",
+    "The king's side. Thrasamund's arguments survive only as Fulgentius set them out in his answers, and the account of their exchange is the Life's, written by a Catholic disciple. It says the king praised his wisdom but, never predestined to salvation, did not deserve to understand the truth.",
+    "The king's death. Victor of Tunnuna puts Thrasamund's death in the year Theodor Mommsen gives as 523, and Joseph Mesnage has Hilderic end the persecution in 523. The preface in Migne's volume prints 525."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Opera, with the Life, in Patrologia Latina 65 (ed. J.-P. Migne)",
+        "language": "Latin",
+        "file": "cic/texts/fulgentius-ruspe_opera-contra-arianos-pl65-lat_migne1847.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Life of Fulgentius, by a disciple, with its editors' notes",
+        "author": "Anonymous, given by some to Ferrandus of Carthage",
+        "language": "Latin",
+        "file": "cic/texts/fulgentius-ruspe_opera-contra-arianos-pl65-lat_migne1847.txt"
+      },
+      {
+        "title": "The Life of Saint Fulgentius, Bishop of Ruspe, an abridged English Life",
+        "author": "Anonymous translator",
+        "date": "1605",
+        "language": "English",
+        "file": "cic/texts/victor-of-vita_memorable-and-tragical-history-persecution-eng_1605.txt"
+      },
+      {
+        "title": "Notitia on Ferrandus, on the Life and the death year, in Patrologia Latina 67",
+        "author": "Andrea Gallandi",
+        "language": "Latin",
+        "file": "cic/texts/facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt"
+      },
+      {
+        "title": "Chronicle (ed. Theodor Mommsen)",
+        "author": "Victor of Tunnuna",
+        "language": "Latin",
+        "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt"
+      },
+      {
+        "title": "De viris illustribus, chapter 27, and History of the Vandals",
+        "author": "Isidore of Seville",
+        "language": "Latin",
+        "file": "cic/texts/isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt"
+      },
+      {
+        "title": "Pro defensione trium capitulorum",
+        "author": "Facundus of Hermiane",
+        "language": "Latin",
+        "file": "cic/texts/facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt"
+      },
+      {
+        "title": "Dissertations on the Pelagian history, in Migne's Marius Mercator",
+        "author": "Jean Garnier",
+        "language": "Latin",
+        "file": "cic/texts/marius-mercator_opera-omnia-lat_migne-pl48.txt"
+      },
+      {
+        "title": "Preface to the works of Faustus of Riez",
+        "author": "August Engelbrecht",
+        "date": "1891",
+        "language": "Latin",
+        "file": "cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt"
+      },
+      {
+        "title": "L'Afrique chrétienne: évêchés et ruines antiques",
+        "author": "Joseph Mesnage",
+        "date": "1912",
+        "language": "French",
+        "file": "cic/texts/mesnage_afrique-chretienne-eveches-ruines-antiques-fra_1912.txt"
+      },
+      {
+        "title": "A Sketch of the Life of St. Augustin, in The Confessions and Letters of St. Augustine",
+        "author": "Philip Schaff",
+        "language": "English",
+        "file": "cic/texts/npnf101_augustine-confessions-letters.xml"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1176 @@
+{
+ "entries": [
+  {
+   "id": "patrick-of-ireland",
+   "atlasId": "TBD",
+   "era": 3,
+   "kind": "person",
+   "toldWithin": "insular-irish-monastic-christianity",
+   "name": "Patrick",
+   "shortName": "Patrick",
+   "informalName": "Saint Patrick",
+   "dates": "c. 432-461",
+   "start": 432,
+   "end": 461,
+   "region": "Ireland",
+   "placeLabel": "Ireland",
+   "modernCountries": [
+    {
+     "country": "Ireland",
+     "countryId": "Q27",
+     "place": "Ireland",
+     "placeId": "Q22890"
+    }
+   ],
+   "regions": [
+    "North Europe"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Rich. The Library holds his two letters, the Confession and the Letter to the soldiers of Coroticus, in Latin and in English. They are the only first-person texts that survive from fifth-century Ireland.",
+   "floorNote": "His letters are his own. His dates are not. They are one editor's reckoning, and the old lives of him add details his letters never give.",
+   "relationsSummary": "Patrick is told within Insular / Irish Monastic Christianity, the entry for the church that grew up after him. Its link to the Gallic monks names his wish to visit the brothers in Gaul. The medieval Irish and Welsh entries name him too.",
+   "why": "Patrick was a Romano-British captive who became a missionary bishop in Ireland. His two letters are the one sure voice from fifth-century Ireland. Later Irish and Welsh writers place him at the start of their story.",
+   "entry": null,
+   "teaser": "Ireland, c. 432 to 461 CE. A captive boy from Britain who came back to Ireland as a bishop, and whose two short letters are the only voice we have from its first church.",
+   "longDescription": "Patrick tells his own story in the Confession. His father was a deacon named Calpurnius, and his grandfather was a priest. When Patrick was about sixteen, he was taken captive to Ireland with many thousands of others. He served one master for six years. Then he fled to a ship.\n\nIn his Letter he calls himself a bishop, appointed by God, in Ireland. He lives among barbarians, he says, as a stranger and an exile for the love of God. In the Confession he writes that he longed to see his family in Britain and the brothers in Gaul. He felt bound in the Spirit to stay.\n\nThe same Letter protests to the soldiers of Coroticus. They had cut down his newly baptized converts and carried others off. He sent a priest with a letter, asking them to give up some of the captives. The soldiers jeered. He asks that this Letter be read aloud before Coroticus himself.",
+   "voices": [
+    "Patrick — a Romano-British captive turned missionary bishop, whose Confession and Letter to Coroticus survive in his own Latin",
+    "Muirchu — the Irish writer, active about 697, whose Life of Patrick the Library holds beside the letters"
+   ],
+   "legacy": "Later churches kept his name. A Life of Patrick in the Irish Book of Lismore calls him chief apostle of the west of the world, and father of baptism and belief of the men of Ireland. The Welsh History of the Britons counts the years from the birth of Christ to the coming of Patrick among the Scots. A Welsh Life of Carannog says Carannog went to Ireland, Patrick having gone before him. A Welsh Life of David says angels told Patrick of David thirty years before David was born.\n\nThese writers add what his letters never say. The History of the Britons says Pope Celestine sent him. White, his editor, finds that the early evidence is against it. The History says he was a swineherd for seven years. Patrick himself says six. Both accounts are told, and neither settles the other.",
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "justinian-i",
+   "atlasId": "TBD",
+   "era": 3,
+   "kind": "person",
+   "toldWithin": "byzantine-imperial-church-justinianic",
+   "name": "Justinian I",
+   "shortName": "Justinian",
+   "informalName": "Emperor Justinian",
+   "dates": "527-565",
+   "start": 527,
+   "end": 565,
+   "region": "Constantinople",
+   "placeLabel": "Constantinople",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Constantinople",
+     "placeId": "Q16869",
+     "pleiadesId": "520998"
+    }
+   ],
+   "regions": [
+    "Asia Minor"
+   ],
+   "lane": "3 Greek East & Orthodoxy",
+   "laneLabel": "Greek East & Orthodoxy",
+   "laneOrder": 3,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Rich. The Library holds his Novels, the new laws he issued as emperor, on the shelf of his church. They include laws on bishops, clergy, monks and heretics. The scan reads well in Latin and poorly in Greek.",
+   "floorNote": "His church policy is judged very differently by different churches. His laws are his own words. The sources that call him a persecutor were written by his opponents.",
+   "relationsSummary": "Justinian is told within The Byzantine Imperial Church (Justinianic), the entry for the church of his reign. Its links name his laws and his envoys. They reach the Donatists, the Montanists, the Goths and Vandals, the followers of Severus and the Nobadae.",
+   "why": "Justinian ruled the Roman empire from Constantinople from 527 to 565. He wrote church law for bishops, monks and heretics, and he called the council of 553. Russian writers cite his laws. Coptic writers curse him.",
+   "entry": null,
+   "teaser": "Constantinople, 527 to 565 CE. An emperor who made laws for the church as freely as for the state, and who is cited as a lawgiver by some and cursed as a persecutor by others.",
+   "longDescription": "Justinian ruled from Constantinople from 527 to 565. His Novels are the laws he issued in his own name. Many of them deal with the church. In a preface to Epiphanius, the archbishop of Constantinople, he writes that priesthood and empire are the greatest gifts of God to men. One serves divine things, and the other watches over human things.\n\nIn 535 he made a law for Africa, which his armies had won back. It named the Donatists with Jews, pagans and Arians, and barred them from holding services. Another law confirmed the sentence on Severus of Antioch. It ordered his books burned and kept him out of the capital.\n\nIn 553 he called a council to condemn the writings of three theologians long dead. He hoped to win back the Miaphysites, and it did not work. His enemies wrote bitterly of him. Procopius says he told the Montanists to give up their beliefs, and that those in Phrygia shut themselves in their churches and burned them.",
+   "voices": [
+    "Justinian — emperor from 527 to 565, whose Novels, the laws issued in his name, the Library holds in Latin and Greek"
+   ],
+   "legacy": "Two later churches name him, and they disagree. In the Russian record of the case against Patriarch Nikon, a reply cites a Novel of his. It says the pope of the elder Rome is first of all the priests, and the bishop of Constantinople second.\n\nThe Coptic History of the Patriarchs calls him an evil man and a heretic. It says he tried to make the orthodox return to the faith of Chalcedon, and that he seized the patriarch Severus. It says he was like Nestorius. His own preface speaks of priesthood and empire as God's gifts. The Coptic writers do not credit it.",
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "bede-of-jarrow",
+   "atlasId": "TBD",
+   "era": 4,
+   "kind": "person",
+   "toldWithin": "anglo-saxon-christianity",
+   "name": "Bede",
+   "shortName": "Bede",
+   "informalName": "The Venerable Bede",
+   "dates": "c. 673-735",
+   "start": 673,
+   "end": 735,
+   "region": "Jarrow, England",
+   "placeLabel": "Jarrow · England",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "England",
+     "placeId": "Q21"
+    }
+   ],
+   "regions": [
+    "North Europe"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Rich. The Library holds his Ecclesiastical History of the English Nation in English, on the shelf of the Anglo-Saxon church and as context on the Irish and Welsh shelves. At its close he lists the other books he wrote.",
+   "floorNote": "Not in question. One caution applies. His History is the main record of the English church to 732, so what he says of its rivals rests on him alone, and he was not neutral.",
+   "relationsSummary": "Bede is told within Anglo-Saxon Christianity, whose best-known voice he is. Two of its links to the Britons carry his own words. Its other links use his History as their witness. There he is the source, not the subject.",
+   "why": "Bede was a monk of Jarrow. He wrote the History of the English church. Wycliffite writers cite him against clerical greed. The Roman Breviary gives him a feast.",
+   "entry": null,
+   "teaser": "Jarrow, c. 673 to 735 CE. A monk given to his monastery at seven, who wrote the book that is still the main record of the English church.",
+   "longDescription": "Bede was born about 673 on land that belonged to the monastery at Wearmouth and Jarrow. At seven he was given to Abbot Benedict to be educated, and later to Ceolfrid. He says he spent the rest of his life in that monastery.\n\nHe became a deacon at nineteen and a priest at thirty. He wrote that he always took delight in learning, teaching and writing. His History was addressed to King Ceolwulf, who had asked to read it. He finished it about 731.\n\nHe died on Ascension Day in 735, aged sixty-two. His pupil Cuthbert described the scene at his deathbed. Bede had just finished translating the Gospel of John.",
+   "voices": [
+    "Bede — monk and priest of Wearmouth and Jarrow, whose Ecclesiastical History of the English Nation the Library holds in English"
+   ],
+   "legacy": "Two later traditions name him. A Wycliffite English tract warns priests who say Mass in pride and greed. It cites Saint Bede, who says we sell Christ when we forsake truth and take up falsehood.\n\nThe Roman Breviary keeps his feast on 27 May as Confessor and Doctor of the Church. Its lessons quote him saying that brighter times never shone on England than under Theodore. The Missal has a prayer that thanks God for lighting the church by the learning of blessed Bede.",
+   "reviewStatus": "AI-checked"
+  }
+ ],
+ "fact_table": [
+  {
+   "entry": "patrick-of-ireland",
+   "field": "sourcing",
+   "sentence": "The Library holds his two letters, the Confession and the Letter to the soldiers of Coroticus, in Latin and in English.",
+   "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+   "lines": "18",
+   "quote": "Patrick's Confession and Letter to the soldiers of Coroticus are the only first-person",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "sourcing",
+   "sentence": "They are the only first-person texts that survive from fifth-century Ireland.",
+   "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+   "lines": "19",
+   "quote": "texts from 5th-century Ireland or Britain, in public-domain English.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "sourcing",
+   "sentence": "The Latin text is held too.",
+   "file": "cic/texts/patrick_libri-sancti-patricii-lat_white1918.txt",
+   "lines": "12-16",
+   "quote": "The Latin original of Patrick's two works, for verifying the English.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "dates",
+   "sentence": "Dates c. 432-461: White calls 432 the year of Patrick's consecration as bishop.",
+   "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+   "lines": "732-736",
+   "quote": "his consecration as bishop in a.d. 432 ?",
+   "grade": "Dominant Modern Reconstruction"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "dates",
+   "sentence": "White gives 461 as his death, in 'the most recent calculations'; his letters give no dates.",
+   "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+   "lines": "252",
+   "quote": "of St. Patrick’s birth and death according to the most",
+   "grade": "Dominant Modern Reconstruction"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "floorNote",
+   "sentence": "His dates are one editor's reckoning (1920).",
+   "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+   "lines": "247-251",
+   "quote": "a man who lived between a.d. 389 and a.d, 461, the dates",
+   "grade": "Dominant Modern Reconstruction"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "floorNote",
+   "sentence": "The old lives of him add details his letters never give.",
+   "file": "cic/texts/nennius_history-of-the-britons-giles.txt",
+   "lines": "1221-1225",
+   "quote": "pope Celestine sent Patrick to convert",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "relationsSummary",
+   "sentence": "Its link to the Gallic monks names his wish to visit the brothers in Gaul.",
+   "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+   "lines": "2442",
+   "quote": "but to go as far as Gaul in order to visit the",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "relationsSummary",
+   "sentence": "Told within Insular / Irish Monastic Christianity, where Patrick is the first voice.",
+   "file": null,
+   "work": "world-census.json, insular-irish-monastic-christianity, voices[0] and people row 'Patrick'",
+   "locus": "",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "why",
+   "sentence": "He was a bishop in Ireland by his own word.",
+   "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+   "lines": "2842",
+   "quote": "I confess that",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "why",
+   "sentence": "He was taken captive to Ireland as a youth.",
+   "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+   "lines": "1688-1689",
+   "quote": "I went into captivity to Ireland with many thousands of persons",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "why",
+   "sentence": "The census calls the letters the only voices from the beginning that we can be sure are genuine.",
+   "file": null,
+   "work": "world-census.json, insular-irish-monastic-christianity, longDescription",
+   "locus": "",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "why",
+   "sentence": "Later Irish and Welsh writers place him at the start of their story.",
+   "file": "cic/texts/nennius_history-of-the-britons-giles.txt",
+   "lines": "388",
+   "quote": "from the nativity of our Lord to the coming of St. Patrick among the",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "longDescription",
+   "sentence": "His father was a deacon named Calpurnius, and his grandfather was a priest.",
+   "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+   "lines": "1681-1682",
+   "quote": "My father was Calpurnius, a deacon, one of the sons of",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "longDescription",
+   "sentence": "His grandfather was a priest (presbyter), from the village of Banavem.",
+   "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+   "lines": "1682-1683",
+   "quote": "Potitus, a presbyter, who belonged to the village of Banavem",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "longDescription",
+   "sentence": "When Patrick was about sixteen he was taken captive to Ireland with many thousands of others.",
+   "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+   "lines": "1687",
+   "quote": "I was then about sixteen years of age.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "longDescription",
+   "sentence": "He was taken to Ireland with many thousands of others.",
+   "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+   "lines": "1688-1689",
+   "quote": "I went into captivity to Ireland with many thousands of persons",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "longDescription",
+   "sentence": "He served one master for six years.",
+   "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+   "lines": "1962",
+   "quote": "with whom I had been for six years",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "longDescription",
+   "sentence": "Then he fled to a ship.",
+   "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+   "lines": "1961",
+   "quote": "took to flight, and left the man",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "longDescription",
+   "sentence": "He wrote that he was a bishop, appointed by God, in Ireland.",
+   "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+   "lines": "2842",
+   "quote": "I confess that",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "longDescription",
+   "sentence": "He lived among barbarians, as a stranger and an exile for the love of God.",
+   "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+   "lines": "2841-2845",
+   "quote": "And so I dwell in the midst of barbarians, a stranger and an",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "longDescription",
+   "sentence": "He longed to visit Britain (his fatherland and kindred) and Gaul (the brothers).",
+   "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+   "lines": "2442",
+   "quote": "but to go as far as Gaul in order to visit the",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "longDescription",
+   "sentence": "He used to desire it exceedingly.",
+   "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+   "lines": "2444",
+   "quote": "God knoweth that I used to desire it exceedingly",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "longDescription",
+   "sentence": "He felt bound in the Spirit to stay.",
+   "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+   "lines": "2441-2445",
+   "quote": "yet I am hound in the Spirit, who witnesseth to me",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "longDescription",
+   "sentence": "In the Letter he writes to the soldiers of Coroticus.",
+   "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+   "lines": "2852-2856",
+   "quote": "these words to be given and delivered and sent to the",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "longDescription",
+   "sentence": "His newly baptized converts were slaughtered with the sword the day after they were anointed.",
+   "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+   "lines": "2866-2869",
+   "quote": "butchered and slaughtered with the sword by the aforesaid",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "longDescription",
+   "sentence": "He sent a priest with a letter asking them to give up some of the baptized captives, and they jeered.",
+   "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+   "lines": "2885-2889",
+   "quote": "of the baptized captives whom they had taken. They",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "longDescription",
+   "sentence": "He asks that the Letter be read in the presence of Coroticus himself.",
+   "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+   "lines": "3182-3185",
+   "quote": "read in the presence of all the people, yea, in the presence",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "voices",
+   "sentence": "Muirchu, active about 697.",
+   "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+   "lines": "3",
+   "quote": "Muirchu maccu Machtheni (fl. c. 697)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "voices",
+   "sentence": "The Library holds Muirchu's Life of Patrick beside the letters.",
+   "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+   "lines": "19",
+   "quote": "Muirchu's Life is",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "legacy",
+   "sentence": "The Lismore Life of Patrick calls him chief apostle of the west of the world and father of baptism and belief of the men of Ireland.",
+   "file": "cic/texts/stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt",
+   "lines": "16280-16281",
+   "quote": "chief apostle of the west of the world, father of baptism",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "legacy",
+   "sentence": "It names him father of baptism and belief of the men of Ireland.",
+   "file": "cic/texts/stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt",
+   "lines": "16281-16282",
+   "quote": "and belief of the men of Ireland.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "legacy",
+   "sentence": "The History of the Britons counts from the birth of Christ to Patrick's coming among the Scots.",
+   "file": "cic/texts/nennius_history-of-the-britons-giles.txt",
+   "lines": "388",
+   "quote": "from the nativity of our Lord to the coming of St. Patrick among the",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "legacy",
+   "sentence": "The Life of Carannog says Carannog went to Ireland, Patrick having gone before him.",
+   "file": "cic/texts/rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt",
+   "lines": "17756",
+   "quote": "Then he went to Ireland, Patrick having",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "legacy",
+   "sentence": "The Life of David says David was foretold to Patrick thirty years before he was born.",
+   "file": "cic/texts/rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt",
+   "lines": "18668",
+   "quote": "to his father first, and then to Saint Patrick, thirty years be",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "legacy",
+   "sentence": "The History of the Britons says Pope Celestine sent Patrick.",
+   "file": "cic/texts/nennius_history-of-the-britons-giles.txt",
+   "lines": "1225",
+   "quote": "pope Celestine sent Patrick to convert",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "legacy",
+   "sentence": "White finds that the early evidence is against Celestine's having sent him.",
+   "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+   "lines": "991-995",
+   "quote": "the really ancient evidence is against the notion that",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "legacy",
+   "sentence": "The History says he was a swineherd for seven years.",
+   "file": "cic/texts/nennius_history-of-the-britons-giles.txt",
+   "lines": "1211",
+   "quote": "name was Milcho, to whom he was a swineherd for seven years.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "patrick-of-ireland",
+   "field": "legacy",
+   "sentence": "Patrick himself says six years.",
+   "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
+   "lines": "1962",
+   "quote": "with whom I had been for six years",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "sourcing",
+   "sentence": "The Library holds his Novels (the Novellae) in Latin and Greek.",
+   "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+   "lines": "1",
+   "quote": "Title: Corpus Iuris Civilis, volumen tertium: Novellae (Justinian's Novels, with the",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "sourcing",
+   "sentence": "They include laws on bishops, clergy, monks and heretics.",
+   "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+   "lines": "21-22",
+   "quote": "Novels on bishops, clergy, monks,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "sourcing",
+   "sentence": "The scan reads well in Latin and poorly in Greek.",
+   "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+   "lines": "16",
+   "quote": "Latin readable,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "dates",
+   "sentence": "He was emperor from 527 to 565.",
+   "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+   "lines": "4",
+   "quote": "Justinian I (emperor 527-565)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "floorNote",
+   "sentence": "The sources that call him a persecutor were written by opponents: Procopius, in the Secret History, is called a hostile witness in the census; John of Ephesus wrote for the rival party.",
+   "file": null,
+   "work": "world-census.json, edges byzantine-imperial-church-justinianic--montanism-the-new-prophecy and ...--nubian-christianity, notes",
+   "locus": "",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "relationsSummary",
+   "sentence": "Its links name his laws and envoys, reaching the Donatists, Montanists, Goths and Vandals, the followers of Severus and the Nobadae.",
+   "file": null,
+   "work": "world-census.json, the six edges listed on the concerns list of this draft, notes",
+   "locus": "",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "why",
+   "sentence": "Justinian ruled from 527 to 565 and wrote church law for bishops, monks and heretics.",
+   "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+   "lines": "21-22",
+   "quote": "Novels on bishops, clergy, monks,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "why",
+   "sentence": "He called the council of 553.",
+   "file": null,
+   "work": "world-census.json, byzantine-imperial-church-justinianic, longDescription ('in 553 calling a council to condemn the writings of three long-dead theologians')",
+   "locus": "",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "why",
+   "sentence": "Coptic writers curse him.",
+   "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+   "lines": "36141",
+   "quote": "an evil man, a heretic, whose name was Justinian, that he might govern the",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "why",
+   "sentence": "Russian writers cite his laws.",
+   "file": "cic/texts/ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873.txt",
+   "lines": "5240",
+   "quote": "For novell exxx. of Justinian has these words :",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "longDescription",
+   "sentence": "His Novels are the laws he issued in his own name, and many deal with the church.",
+   "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+   "lines": "21-22",
+   "quote": "Novels on bishops, clergy, monks,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "longDescription",
+   "sentence": "The preface is addressed to Epiphanius, the archbishop of Constantinople.",
+   "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+   "lines": "10360",
+   "quote": "Imp. Iustinianus A. Epiphanio archiepiscopo Con-",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "longDescription",
+   "sentence": "Priesthood and empire are the greatest gifts of God to men.",
+   "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+   "lines": "10364-10366",
+   "quote": "Maxima quidem in hominibus sunt dona dei a superna collata clementia sacerdotium et imperium",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "longDescription",
+   "sentence": "One serves divine things, and the other watches over human things.",
+   "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+   "lines": "10366",
+   "quote": "illud quidem divinis ministrans, hoc",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "longDescription",
+   "sentence": "One serves divine things, and the other watches over human things.",
+   "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+   "lines": "10368-10369",
+   "quote": "autem humanis praesidens ac diligentiam exhibens",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "longDescription",
+   "sentence": "In 535 he made a law for Africa, which his armies had won back.",
+   "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+   "lines": "52635-52637",
+   "quote": "Neque enim Iudaeos neque paganos neque Donatistas neque Árianos neque alios quoscumque haereticos vel speluncas habere vel quaedam quasi ritu ecclesiastico facere patimur,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "longDescription",
+   "sentence": "Novel 37 is dated 1 August 535 and addressed to Solomon, prefect of Africa; Belisarius took Carthage in 533.",
+   "file": null,
+   "work": "world-census.json, edges byzantine-imperial-church-justinianic--donatism and --gothic-and-vandal-homoian-christianity, notes and sources",
+   "locus": "Nov. 37; Procopius, Wars III.21",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "longDescription",
+   "sentence": "It named the Donatists with Jews, pagans and Arians and barred them from holding services.",
+   "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+   "lines": "52635-52637",
+   "quote": "Neque enim Iudaeos neque paganos neque Donatistas neque Árianos neque alios quoscumque haereticos vel speluncas habere vel quaedam quasi ritu ecclesiastico facere patimur,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "longDescription",
+   "sentence": "Another law confirmed the sentence on Severus of Antioch.",
+   "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+   "lines": "56453-56454",
+   "quote": "Nec utique extra imperialem confirmationem relinquimus sententiam iuste contra Severum latam",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "longDescription",
+   "sentence": "It ordered his books burned.",
+   "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+   "lines": "56692",
+   "quote": "igneque comburantur a possidentibus",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "longDescription",
+   "sentence": "It kept him out of the capital.",
+   "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+   "lines": "56695",
+   "quote": "Similiter autem et huic interdicimus omnino regiam civitatem ingredi aut districtum",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "longDescription",
+   "sentence": "In 553 he called a council to condemn the writings of three long-dead theologians, hoping to win back the Miaphysites, and it did not work.",
+   "file": null,
+   "work": "world-census.json, byzantine-imperial-church-justinianic, longDescription",
+   "locus": "'in 553 calling a council ... in the hope of winning back the Miaphysites. It did not work'",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "longDescription",
+   "sentence": "He called the council on his own initiative, by the Coptic account.",
+   "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+   "lines": "36326",
+   "quote": "on his own initiative, at which were present",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "longDescription",
+   "sentence": "Procopius says he ordered the Montanists to give up their beliefs.",
+   "file": "cic/texts/procopius_secret-history_athenian-society1896.txt",
+   "lines": "2169-2171",
+   "quote": "Justinian ordered all these beliefs to be abandoned in favour of the old religion",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "longDescription",
+   "sentence": "The Montanists of Phrygia shut themselves in their churches and burned them.",
+   "file": "cic/texts/procopius_secret-history_athenian-society1896.txt",
+   "lines": "2195-2196",
+   "quote": "The Montanists, who were settled in Phrygia, shut themselves up in their churches, set them on fire, and perished in the flames",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "longDescription",
+   "sentence": "Procopius is a hostile witness.",
+   "file": null,
+   "work": "world-census.json, edge byzantine-imperial-church-justinianic--montanism-the-new-prophecy, note ('Procopius was a hostile witness to Justinian')",
+   "locus": "",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "voices",
+   "sentence": "The Library holds his Novels in Latin and Greek.",
+   "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+   "lines": "10",
+   "quote": "Language: grc (Greek Novels with the Latin Authenticum in parallel;",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "legacy",
+   "sentence": "A reply in the record of the case against Patriarch Nikon cites a Novel of Justinian.",
+   "file": "cic/texts/ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873.txt",
+   "lines": "5240",
+   "quote": "For novell exxx. of Justinian has these words :",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "legacy",
+   "sentence": "The text says the pope of the elder Rome is first of all the priests.",
+   "file": "cic/texts/ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873.txt",
+   "lines": "5243",
+   "quote": "the most holy Pope of the elder Rome is first of all the",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "legacy",
+   "sentence": "It says the bishop of Constantinople has the second place.",
+   "file": "cic/texts/ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873.txt",
+   "lines": "5244",
+   "quote": "priests; and that the bishop of Constantinople has the second",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "legacy",
+   "sentence": "The History of the Patriarchs calls him an evil man and a heretic.",
+   "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+   "lines": "36141",
+   "quote": "an evil man, a heretic, whose name was Justinian, that he might govern the",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "legacy",
+   "sentence": "It says he tried to make the orthodox return to the Chalcedonian faith.",
+   "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+   "lines": "36144",
+   "quote": "council; and the first thing that he began with was that he seized the holy",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "legacy",
+   "sentence": "It says Justinian the prince was like Nestorius.",
+   "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+   "lines": "36468",
+   "quote": "And Justinian the prince was like Nestorius;",
+   "grade": "Documented"
+  },
+  {
+   "entry": "justinian-i",
+   "field": "legacy",
+   "sentence": "His own preface speaks of priesthood and empire as gifts of God.",
+   "file": "cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+   "lines": "10364-10366",
+   "quote": "Maxima quidem in hominibus sunt dona dei a superna collata clementia sacerdotium et imperium",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "sourcing",
+   "sentence": "The Library holds his Ecclesiastical History of the English Nation in English.",
+   "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+   "lines": "3",
+   "quote": "Title: Bede, The Ecclesiastical History of the English Nation",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "sourcing",
+   "sentence": "It is shelved on the Anglo-Saxon church's shelf and as context on the Irish and Welsh shelves.",
+   "file": null,
+   "work": "cic/corpus-map/anglo-saxon-christianity.yaml (held row, role tradition); the Irish and Welsh shelves list it as context (per the later-worlds count row C115, own_words)",
+   "locus": "",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "sourcing",
+   "sentence": "At its close he lists the other books he wrote.",
+   "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+   "lines": "15437-15438",
+   "quote": "following pieces : —",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "dates",
+   "sentence": "Born about 673; died 735.",
+   "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+   "lines": "4",
+   "quote": "Creator(s): Bede (the Venerable Bede, c. 672/3-735 CE), monk of Jarrow",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "floorNote",
+   "sentence": "His History is the main record of the English church to 732.",
+   "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+   "lines": "15636",
+   "quote": "only authority for the history of England from the",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "floorNote",
+   "sentence": "He was not neutral toward the Britons.",
+   "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+   "lines": "15020-15024",
+   "quote": "continue inveterate in their errors",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "relationsSummary",
+   "sentence": "Two links to the Britons carry his own words.",
+   "file": null,
+   "work": "world-census.json, edges anglo-saxon-christianity--british-welsh-christianity--2 and british-welsh-christianity--anglo-saxon-christianity, sources (Bede V.22, I.22)",
+   "locus": "",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "why",
+   "sentence": "He was a monk of Jarrow and wrote the History (its full title is the Ecclesiastical History of the English Nation).",
+   "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+   "lines": "15419",
+   "quote": "Bede, the servant of God, and priest of the monastery",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "why",
+   "sentence": "Wycliffite writers cite him against clerical greed.",
+   "file": "cic/texts/wyclif_select-english-works-v3_arnold1871.txt",
+   "lines": "17672-17673",
+   "quote": "Bede seij?, We sellen Crist whanne we forsaken treufe, and",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "why",
+   "sentence": "The Roman Breviary gives him a feast.",
+   "file": "cic/texts/roman-breviary_bute1908.txt",
+   "lines": "1935",
+   "quote": "Bede the Venerable, Confessor, and Doctor of the Church.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "longDescription",
+   "sentence": "Bede was born about 673.",
+   "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+   "lines": "15600",
+   "quote": "he was born about the year 673, in the territory",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "longDescription",
+   "sentence": "He was born in the territory of the monastery of Wearmouth and Jarrow.",
+   "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+   "lines": "15420",
+   "quote": "of the blessed apostles, Peter and Paul, which is at",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "longDescription",
+   "sentence": "At seven he was given to Abbot Benedict to be educated, and later to Ceolfrid.",
+   "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+   "lines": "15422-15423",
+   "quote": "of age, to be educated by the most reverend Abbat",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "longDescription",
+   "sentence": "At seven he was given to Abbot Benedict to be educated, and later to Ceolfrid.",
+   "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+   "lines": "15424",
+   "quote": "Benedict, and afterwards by Ceolfrid ; and spending",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "longDescription",
+   "sentence": "He says he spent the rest of his life in that monastery.",
+   "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+   "lines": "15425",
+   "quote": "all the remaining time of my life in that monastery",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "longDescription",
+   "sentence": "He became a deacon at nineteen and a priest at thirty.",
+   "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+   "lines": "15429-15431",
+   "quote": "nineteenth year of my age, I received deacon's orders ; in the",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "longDescription",
+   "sentence": "He became a deacon at nineteen and a priest at thirty.",
+   "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+   "lines": "15431",
+   "quote": "thirtieth, those of the priesthood",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "longDescription",
+   "sentence": "He always took delight in learning, teaching and writing.",
+   "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+   "lines": "15428",
+   "quote": "daily care of singing in the church, I always took",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "longDescription",
+   "sentence": "His History was addressed to King Ceolwulf, who had asked to read it.",
+   "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+   "lines": "115",
+   "quote": "To the most glorious king Ceolwulph, Bede, the",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "longDescription",
+   "sentence": "He had sent the History earlier at the king's request.",
+   "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+   "lines": "118-119",
+   "quote": "transmitted to you the Ecclesiastical History",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "longDescription",
+   "sentence": "He finished it about 731.",
+   "file": null,
+   "work": "world-census.json, anglo-saxon-christianity, voices ('Bede ... finished in 731'); Bede's closing recapitulation runs to 731",
+   "locus": "",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "longDescription",
+   "sentence": "Bede died on Ascension Day 735, aged sixty-two, having just finished translating the Gospel of John.",
+   "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+   "lines": "15611-15615",
+   "quote": "Ascension Day, 735, at the age of sixty-two, that",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "longDescription",
+   "sentence": "His pupil Cuthbert described the scene at his deathbed.",
+   "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+   "lines": "15609-15613",
+   "quote": "the scene at his deathbed is depicted for us by Cuthbert, his pupil",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "longDescription",
+   "sentence": "He had just finished translating the Gospel of John.",
+   "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+   "lines": "15613-15617",
+   "quote": "the Gospel according to St. John.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "voices",
+   "sentence": "Monk and priest of Wearmouth and Jarrow.",
+   "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt",
+   "lines": "15419",
+   "quote": "Bede, the servant of God, and priest of the monastery",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "legacy",
+   "sentence": "A Wycliffite tract warns priests who say Mass in pride and greed.",
+   "file": "cic/texts/wyclif_select-english-works-v3_arnold1871.txt",
+   "lines": "17664-17665",
+   "quote": "pride, coveitise, lecherie, envye, glotonye, or",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "legacy",
+   "sentence": "It cites Saint Bede, who says we sell Christ when we forsake truth and take up falsehood.",
+   "file": "cic/texts/wyclif_select-english-works-v3_arnold1871.txt",
+   "lines": "17672-17673",
+   "quote": "Bede seij?, We sellen Crist whanne we forsaken treufe, and",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "legacy",
+   "sentence": "It cites Saint Bede, who says we sell Christ when we forsake truth and take up falsehood.",
+   "file": "cic/texts/wyclif_select-english-works-v3_arnold1871.txt",
+   "lines": "17673-17674",
+   "quote": "taken falsnesse and meyntene it.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "legacy",
+   "sentence": "The Roman Breviary keeps his feast on 27 May.",
+   "file": "cic/texts/roman-breviary_bute1908.txt",
+   "lines": "538",
+   "quote": "St Bede the Venerable. May 27.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "legacy",
+   "sentence": "It calls him Confessor and Doctor of the Church.",
+   "file": "cic/texts/roman-breviary_bute1908.txt",
+   "lines": "1935",
+   "quote": "27. Bede the Venerable, Confessor, and Doctor of the Church.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "legacy",
+   "sentence": "Its lessons quote him saying that brighter times never shone on England than under Theodore.",
+   "file": "cic/texts/roman-breviary_bute1908.txt",
+   "lines": "71003-71004",
+   "quote": "Bede saith that brighter times never shone upon England than those",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bede-of-jarrow",
+   "field": "legacy",
+   "sentence": "The Missal prayer thanks God for lighting the church by the learning of blessed Bede.",
+   "file": "cic/texts/roman-missal_england1843.txt",
+   "lines": "34728",
+   "quote": "lightened thy church by the learning of blessed Bede,",
+   "grade": "Documented"
+  }
+ ],
+ "concerns": [
+  {
+   "link_id": "gallic-monastic-ascetic-christianity--insular-irish-monastic-christianity",
+   "concerns": "patrick-of-ireland"
+  },
+  {
+   "link_id": "byzantine-imperial-church-justinianic--montanism-the-new-prophecy",
+   "concerns": "justinian-i"
+  },
+  {
+   "link_id": "byzantine-imperial-church-justinianic--donatism",
+   "concerns": "justinian-i"
+  },
+  {
+   "link_id": "byzantine-imperial-church-justinianic--nubian-christianity",
+   "concerns": "justinian-i"
+  },
+  {
+   "link_id": "byzantine-imperial-church-justinianic--syriac-orthodox-west-syriac-christianity--2",
+   "concerns": "justinian-i"
+  },
+  {
+   "link_id": "byzantine-imperial-church-justinianic--gothic-and-vandal-homoian-christianity",
+   "concerns": "justinian-i"
+  },
+  {
+   "link_id": "anglo-saxon-christianity--british-welsh-christianity--2",
+   "concerns": "bede-of-jarrow"
+  },
+  {
+   "link_id": "british-welsh-christianity--anglo-saxon-christianity",
+   "concerns": "bede-of-jarrow"
+  }
+ ],
+ "rows": [
+  {
+   "movement": "insular-irish-monastic-christianity",
+   "replace_name": "Patrick",
+   "person": "patrick-of-ireland"
+  },
+  {
+   "movement": "byzantine-imperial-church-justinianic",
+   "replace_name": "Justinian",
+   "person": "justinian-i"
+  },
+  {
+   "movement": "anglo-saxon-christianity",
+   "replace_name": "Bede",
+   "person": "bede-of-jarrow"
+  }
+ ],
+ "links": [],
+ "wants": [
+  "Patrick: a vendored modern study of his chronology (for example Bury's St. Patrick, 1905, which White cites, or a later critical treatment), so the dates 432 to 461 can carry both sides of the old dispute from the Library's own texts. White (1920) gives 389 to 461 as 'the most recent calculations'.",
+  "Justinian: a vendored English or Latin text of Novel 131 (the Authenticum) cross-checked at the Ligarides quotation, and the Fifth Council's acts, so the 553 council rests on a Library text and not only on the census description.",
+  "Bede: Cuthbert's letter on Bede's death, vendored, so the deathbed sentence rests on the primary account and not on Jane's 1903 biographical notice."
+ ],
+ "flags": [
+  "Dates. Patrick: 'c. 432-461' follows White 1920 (consecration 432, death 461 by 'the most recent calculations'); the letters give no dates and the old tradition differs (Nennius gives him 120 years). Tagged Dominant Modern Reconstruction. Justinian: 527 to 565 are reign years from the Novellae file's own Creator line. Bede: born 'about 673' (file header 672/3), died 735.",
+  "Patrick's Muirchu voice: 'active about 697' rests on the file header (fl. c. 697). Drop the second voice if the coordinator prefers one.",
+  "Patrick legacy: the Welsh Life of Carannog and Life of David lines in packets.json (4955 and 5865) are not in the Rees file; the passages are at 17756 and 18668. The two packet quotes cited here are checked at those lines. The Nennius Patrick passages are at 388, 1210, 1225, 1258 and 1298, as the packet says.",
+  "Patrick's Lismore quote: the line holds the OCR 'Sanctus Patn'dus, episcopus' before the English phrase; the quoted words are clean.",
+  "Patrick quote with OCR error: 'yet I am hound in the Spirit' is the file's own OCR for 'bound'; the prose says 'bound'.",
+  "concerns not set: latin-africa-under-byzantium--byzantine-imperial-church-justinianic names Justinian only as the addressee of Facundus's Pro defensione; its subject is the Three Chapters dispute and the African bishops, so I left its concerns null. Coordinator may assign it to justinian-i.",
+  "concerns not set on the other Bede links (insular--anglo-saxon, anglo-saxon--british-welsh, anglo-saxon--insular, insular--medieval-irish, anglo-saxon--late-anglo-saxon, insular--ecumenical-iona): Bede is the narrator there, not the subject. The two I set quote his own judgments.",
+  "No existing link had concerns already set among the packet links, except roman-church-gregorian--anglo-saxon-christianity (concerns gregory-the-great; its note names Bede only as reporter), which I did not touch.",
+  "Justinian legacy: the Nikon-record reply is cited as 'a reply in the Russian record of the case against Patriarch Nikon'. Ligarides was a Greek metropolitan, so the Russian side is the Nikon record as a whole, not Ligarides as author. The OCR reads 'novell exxx.'; I do not give a number: the OCR reads 'novell exxx.', and the text quoted (Rome first, Constantinople second) is, from outside knowledge, in Novel 131, which I could not confirm in the vendored file. Coordinator may add the number once checked.",
+  "Justinian council of 553 rests on the census description (home longDescription), not a vendored text; the Coptic account only says he 'assembled a council on his own initiative'. Wants entry added.",
+  "Justinian's place: modernCountries copies the Constantinople entry of the home record (Q43, Q16869, Pleiades 520998). Bede: modernCountries copies the home's England entry; no Jarrow ID exists in the census, so region text names Jarrow and the place ID is England's. placeLabel is 'Jarrow · England' (validator requires the England place on the label).",
+  "Bede's 'finished about 731' rests on the census voice line and the recapitulation lines ('In the year of our Lord's incarnation 731', line 15126); no sentence in the vendored text says 'finished'.",
+  "Era fields follow each home tradition (Patrick 3, though 432 is before 451; Justinian 3; Bede 4), per the brief.",
+  "Patrick's name field: 'Patrick' (the census uses the same name in the Irish people row)."
+ ]
+}

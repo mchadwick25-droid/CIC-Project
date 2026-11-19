@@ -6,17 +6,20 @@ to the other directly with no separate lookup table (law 4, applied to test
 wiring too).
 """
 import re
+from functools import lru_cache
 from pathlib import Path
 
 from jsonschema import Draft202012Validator
 
-from engine.prose import is_guard_marker_line, quote_aware_sentences
+from engine.prose import is_guard_marker_line, locus_refs, quote_aware_sentences
 
 from . import canon
 from .fk import fk_grade, fre_score
 from .loader import home_for_record_type, voiced_records
-from .quote_verbatim import gate_quote_verbatim
-from .schemas import RELATION_INVERSE, build_schema
+from .quote_locus import gate_quote_locus
+from .quote_verbatim import _NOTE_BLOCK_RE, _TAG_RE, gate_quote_verbatim
+from .rendering_review import gate_rendering_review
+from .schemas import FORMATION_CONFIDENCE_LEVELS, READING_CARD_SOURCED_LINES, READING_CARD_TEXT_LINES, RELATION_INVERSE, build_schema
 from .spoken_fields import ATTRIBUTION_FIELDS, PERSPECTIVE_FIELDS, field_texts, fields_with_role, shared_fields_with_role
 from .witness_quotations import gate_witness_quotation_verbatim
 
@@ -34,6 +37,12 @@ FRE_FLOOR = 60
 # error, just worth seeing (the decision's own floor is reported, never
 # failed: "too-simple" is not the risk it guards against).
 FK_FLOOR = 8
+
+# A story's tellings read plainly on purpose: grade 8 is the target and grade 7 is accepted, so the
+# report line for them starts below 7 (reported, never failed). Reading ease and the grade ceiling
+# apply to them as to every field.
+STORY_TELLING_FK_FLOOR = 7
+STORY_TELLING_FIELDS = ("telling", "telling_short", "telling_medium", "telling_long")
 
 # Below this, gate_readability skips FK grading entirely - see that
 # function's own inline comment for why. 12 was chosen empirically: every
@@ -128,9 +137,7 @@ def _world_front_referenced_ids(rec: dict) -> set[str]:
     every other record type's own reference fields already; world_front's
     were added to the schema in the infrastructure pass but never wired in
     here, so a typo'd `grounded_in` id validated cleanly (schema only checks
-    it's a string) and resolved silently to nothing at compile time. The
-    desert pilot's own manual check (not this gate) is what first caught
-    this gap - see Build/worlds/desert/Open_Gaps_Tracking.md.
+    it's a string) and resolved silently to nothing at compile time.
     """
     ids: set[str] = set()
 
@@ -240,6 +247,93 @@ def gate_narratability(records, fleet, registry) -> list[str]:
             findings.append(f"{rid}: tellable_as is required and must be non-empty")
         if _is_blank(rec.get("text")):
             findings.append(f"{rid}: text is required and must be non-empty")
+        findings.extend(_story_telling_findings(rid, rec))
+    return findings
+
+
+STORY_TELLING_TARGET_WORDS = {"telling_short": 90, "telling_medium": 160}
+STORY_TELLING_LENGTH_TOLERANCE = 1.15
+# The long telling is read aloud in two to four minutes: 340 to 615 words at the recorded pace of 154 to
+# 169 words a minute. 615 is a ceiling with no tolerance; there is no floor, a story whose record and
+# cited source hold less is as long as they allow.
+STORY_LONG_TELLING_MAX_WORDS = 615
+_REPO_ROOT = Path(__file__).resolve().parents[2]
+_WORD = re.compile(r"[A-Za-z0-9']+")
+_SENTENCE_SPLIT = re.compile(r"(?<=[.!?])\s+")
+
+
+@lru_cache(maxsize=32)
+def _vendored_lines(file: str) -> tuple[str, ...] | None:
+    path = _REPO_ROOT / file
+    return tuple(path.read_text(encoding="utf-8", errors="replace").splitlines()) if path.is_file() else None
+
+
+def _cited_spans(rec: dict) -> tuple[list[str], list[str]]:
+    """The text at the vendored line spans the record's sources cite, with the editor's notes and
+    markup removed over the whole span, and the cited spans that do not resolve to lines of a vendored file."""
+    texts, unresolved = [], []
+    for source in rec.get("sources") or []:
+        for ref in locus_refs(source.get("locus") or ""):
+            lines = _vendored_lines(ref["file"])
+            first, last = (int(n) for n in ref["lines"].split("-"))
+            if lines is None or first < 1 or last < first or last > len(lines):
+                unresolved.append(f"{ref['file']}, lines {ref['lines']}")
+                continue
+            span = _NOTE_BLOCK_RE.sub(" ", "\n".join(lines[first - 1:last]))
+            texts.append(_TAG_RE.sub(" ", span))
+    return texts, unresolved
+
+
+def _cited_passage(rec: dict) -> str:
+    return " ".join(_cited_spans(rec)[0])
+
+
+def _story_vocabulary(rec: dict, with_passage: bool = False) -> set[str]:
+    parts = [rec.get(f) or "" for f in ("text", "telling", "tellable_as", "heart")]
+    if with_passage:
+        parts.append(_cited_passage(rec))
+    parts += [e.get("line") or "" for e in rec.get("events") or [] if isinstance(e, dict)]
+    parts.append((rec.get("use_note") or {}).get("means") or "")
+    return {w.lower() for part in parts for w in _WORD.findall(part)}
+
+
+def _added_names_and_numbers(telling: str, vocabulary: set[str]) -> list[str]:
+    """Capitalised words that do not open a sentence, and numbers, that the
+    full record never uses: the cheap screen for something added."""
+    added = []
+    for sentence in _SENTENCE_SPLIT.split(telling.strip()):
+        for position, word in enumerate(_WORD.findall(sentence)):
+            token = word.lower()
+            named = position > 0 and word[:1].isupper() and word != "I"
+            if (named or word.isdigit()) and token not in vocabulary and token not in added:
+                added.append(token)
+    return added
+
+
+def _story_telling_findings(rid: str, rec: dict) -> list[str]:
+    findings = []
+    events = rec.get("events")
+    tellings = {f: rec[f] for f in (*STORY_TELLING_TARGET_WORDS, "telling_long") if not _is_blank(rec.get(f))}
+    if events is not None:
+        for i, event in enumerate(events):
+            if not isinstance(event, dict) or _is_blank(event.get("line")) or _is_blank(event.get("rests_on")):
+                findings.append(f"{rid}: events[{i}] needs a non-empty line and rests_on")
+    if tellings and not any(isinstance(e, dict) and e.get("essential") for e in events or []):
+        findings.append(f"{rid}: a short, medium or long telling needs events with at least one marked essential")
+    vocabulary = _story_vocabulary(rec)
+    long_vocabulary = _story_vocabulary(rec, with_passage=True) if "telling_long" in tellings else vocabulary
+    if "telling_long" in tellings:
+        for span in _cited_spans(rec)[1]:
+            findings.append(f"{rid}: telling_long rests on a cited span that does not resolve to lines of a vendored text: {span}")
+    for field, telling in tellings.items():
+        words = len(telling.split())
+        if field == "telling_long":
+            if words > STORY_LONG_TELLING_MAX_WORDS:
+                findings.append(f"{rid}: telling_long runs {words} words, over its ceiling of {STORY_LONG_TELLING_MAX_WORDS}")
+        elif words > STORY_TELLING_TARGET_WORDS[field] * STORY_TELLING_LENGTH_TOLERANCE:
+            findings.append(f"{rid}: {field} runs {words} words, over its target of about {STORY_TELLING_TARGET_WORDS[field]}")
+        for token in _added_names_and_numbers(telling, long_vocabulary if field == "telling_long" else vocabulary):
+            findings.append(f"{rid}: {field} uses {token!r}, which the {'record and its cited passage do' if field == 'telling_long' else 'full record does'} not")
     return findings
 
 
@@ -256,7 +350,9 @@ def gate_glossary_retrofit_complete(records, fleet, registry) -> list[str]:
     - term.senses.translational: the actual today-vs-world bridge
       sentence - required to be a real, non-blank string; senses itself
       being present (COMPLETION_REQUIRED's own check) says nothing about
-      whether this specific nested field was ever filled in."""
+      whether this specific nested field was ever filled in.
+    - term.senses.heard_today and term.senses.meant_here: optional, but a
+      pair, and each a non-blank string when present."""
     findings = []
     for rid, rec in records.items():
         if rec.get("record_type") != "term":
@@ -265,6 +361,13 @@ def gate_glossary_retrofit_complete(records, fleet, registry) -> list[str]:
             findings.append(f"{rid}: missing required field 'false_friend' (an empty list is a valid 'none identified' - omitting the field is not)")
         if _is_blank((rec.get("senses") or {}).get("translational")):
             findings.append(f"{rid}: missing required field 'senses.translational'")
+        senses = rec.get("senses") or {}
+        split = {f: senses[f] for f in ("heard_today", "meant_here") if f in senses}
+        if split and len(split) < 2:
+            findings.append(f"{rid}: senses.heard_today and senses.meant_here come as a pair; only {sorted(split)[0]!r} is present")
+        for field, value in split.items():
+            if not isinstance(value, str) or not value.strip():
+                findings.append(f"{rid}: senses.{field} is present and blank")
     return findings
 
 
@@ -631,7 +734,8 @@ def gate_readability_fleet(fleet) -> list[str]:
 
 
 def _floor_observations(items) -> list[str]:
-    """Every readability-graded field scoring below FK_FLOOR - the same
+    """Every readability-graded field scoring below FK_FLOOR (below
+    STORY_TELLING_FK_FLOOR for a story's tellings) - the same
     field set _grade_records checks against the ceiling above, just the
     other edge. Report-only by construction: this list is never merged
     into a finding count that a waiver or hygiene_problems() looks at
@@ -639,10 +743,13 @@ def _floor_observations(items) -> list[str]:
     cannot fail a gate or need a waiver, only be seen."""
     findings = []
     for rid, rec in items:
-        for field, text in _readability_checks(rec.get("record_type"), rec):
+        record_type = rec.get("record_type")
+        for field, text in _readability_checks(record_type, rec):
+            floor = STORY_TELLING_FK_FLOOR if record_type == "story" and field in STORY_TELLING_FIELDS else FK_FLOOR
+            label = "story-telling floor" if floor == STORY_TELLING_FK_FLOOR else "band floor"
             graded = grade_text(text)
-            if graded is not None and graded["fk"] < FK_FLOOR:
-                findings.append(f"{rid}: {field} scores FK grade {graded['fk']:.1f}, below the band floor of {FK_FLOOR} (reported, not failed)")
+            if graded is not None and graded["fk"] < floor:
+                findings.append(f"{rid}: {field} scores FK grade {graded['fk']:.1f}, below the {label} of {floor} (reported, not failed)")
     return findings
 
 
@@ -1618,6 +1725,64 @@ def gate_retrieve_when_questions(records, fleet, registry) -> list[str]:
             for rid, line, reason in non_question_hits(records)]
 
 
+READING_CARD_MAX_WORDS = 120
+
+
+def reading_card_texts(card: dict) -> list[str]:
+    """The card's text lines, in order: every line a reader reads, without
+    the record ids of `complicated_by` or the citations of `sources`."""
+    texts = [card[line] for line in READING_CARD_TEXT_LINES if isinstance(card.get(line), str)]
+    conclude = card.get("historians_conclude")
+    if isinstance(conclude, dict) and isinstance(conclude.get("text"), str):
+        texts.insert(2, conclude["text"])
+    return texts
+
+
+def gate_reading_card(records, fleet, registry) -> list[str]:
+    """A quote or story's reading card: every line present names its source,
+    every `complicated_by` id resolves, the confidence is one of the five
+    levels, and the text lines together run to 120 words or fewer.
+    NOT registered in GATES: validation/gates-report.json lists GATES and is
+    baked into every package manifest, so registering it would stale every
+    pinned package. engine/m9/enforce.py calls it directly, under its own
+    key, and its findings take waivers like any other."""
+    findings = []
+    all_ids = set(records) | set(fleet)
+    for rid, rec in records.items():
+        card = rec.get("reading_card")
+        if not isinstance(card, dict):
+            continue
+        sources = card.get("sources") if isinstance(card.get("sources"), dict) else {}
+        for line in READING_CARD_SOURCED_LINES:
+            if line not in card:
+                continue
+            value = card[line]
+            text = value.get("text") if isinstance(value, dict) else value
+            if _is_blank(text):
+                findings.append(f"{rid}.reading_card.{line}: is empty; leave the line out instead")
+            if _is_blank(sources.get(line)):
+                findings.append(f"{rid}.reading_card.{line}: names no source in reading_card.sources; name it or leave the line out")
+        conclude = card.get("historians_conclude")
+        if isinstance(conclude, dict) and conclude.get("confidence") not in FORMATION_CONFIDENCE_LEVELS:
+            findings.append(f"{rid}.reading_card.historians_conclude.confidence: {conclude.get('confidence')!r} "
+                            f"is not one of {', '.join(FORMATION_CONFIDENCE_LEVELS)}")
+        targets = card.get("complicated_by") or []
+        if not isinstance(targets, list):
+            findings.append(f"{rid}.reading_card.complicated_by: must be a list of record ids")
+            targets = []
+        for target in targets:
+            if not isinstance(target, str):
+                findings.append(f"{rid}.reading_card.complicated_by: {target!r} is not a record id")
+            elif target == rid:
+                findings.append(f"{rid}.reading_card.complicated_by: a record cannot complicate itself")
+            elif target not in all_ids:
+                findings.append(f"{rid}.reading_card.complicated_by: {target!r} does not resolve to any record")
+        words = sum(len(_WORD.findall(text)) for text in reading_card_texts(card))
+        if words > READING_CARD_MAX_WORDS:
+            findings.append(f"{rid}.reading_card: runs {words} words, over the {READING_CARD_MAX_WORDS}-word ceiling")
+    return findings
+
+
 GATES = {
     "schema-validation": gate_schema_validation,
     "referential": gate_referential,
@@ -1678,6 +1843,8 @@ GATES = {
     # quote_verbatim.py's own `_REQUIRED_VERIFICATION_STATE` - and every
     # record still at verified-direct already verifies).
     "quote-verbatim": gate_quote_verbatim,
+    "quote-locus": gate_quote_locus,
+    "rendering-review": gate_rendering_review,
     "witness-quotation-verbatim": gate_witness_quotation_verbatim,
     # flag_cross_record_consistency and check_mode3_claim_fidelity are
     # NOT registered here, and are not deferred-pending-a-rebuild the way

@@ -1,0 +1,88 @@
+{
+ "round": 2,
+ "kind": "targeted recheck",
+ "verdict": "pass",
+ "counts": {
+  "blocking": 0,
+  "substantial": 0,
+  "minor": 1
+ },
+ "findings_rechecked": [
+  {
+   "finding": "R1-01",
+   "status": "fixed",
+   "note": "In the census: Inferential-Thin, A, verified-direct. The note says the charge rests on report. Checked npnf105 10586/10590 ('are said to'), npnf206 28472-28475 (Innocent: 'left untold the name and motive of his human agent'; 'no doubt as to who is the guilty person'). The reviser's extras are right. Innocent's letter is dated 417 (28461), and Fremantle's prolegomena reads '416–7' (1734); so '416 or 417' is better supported than a bare 416. Fremantle is labelled in the work field as an editor's dating, which is honest. 'The charge rests on report' is better public wording than 'the link'."
+  },
+  {
+   "finding": "R1-02",
+   "status": "fixed",
+   "note": "Option (a), Documented kept, landed in the census. The Book of the Himyarites lines check out. 5827-5829: the ch. XXXIX heading names 'the holy Bishop Euprepios and Kaleb, the believing King of Abyssinia'. 8076: 'the holy Euprepios, our bishop'. The speaker is Kaleb: the ch. XLVIII heading at 8046 reads 'The second speech that the believing King Kaleb spoke'; at 8050-8053 Kaleb speaks of 'our blessed Bishop] Euprepios'. 3980-3982: Moberg's own dating, 'shortly after A. D. 525'. Moberg's introduction (2138) also calls him 'the Bishop Euprepios of Abyssinia ... the highest ecclesiastical authority'. So the see is shown after 451, and that meets the era-1 bar. The note does not identify Kaleb with Procopius's Hellestheaeus. Moberg makes that identification (2583, Kaleb = Ella-Asbeha), and the reviser rightly kept it out of the public text. The note's plain statement of the Frumentius-Euprepios gap is the honest form."
+  },
+  {
+   "finding": "R1-03",
+   "status": "fixed",
+   "note": "Type is 'gave rise to' in the census; the id, grade and sources are unchanged. 'For the sake of the emperor Valens' is closer to Socrates's 'on the emperor's account' (14445-14448) than my 'to please'. Accepted."
+  },
+  {
+   "finding": "R1-04",
+   "status": "fixed",
+   "note": "Source[0] now reads Book I, ch. 15 / 'Book I.15'. Heading XV is at line 185 and the quote at 187."
+  },
+  {
+   "finding": "R1-05",
+   "status": "fixed",
+   "note": "The antiochene legacy now reads 'How much they owed to Antioch directly is not clear.' The old clause is gone."
+  },
+  {
+   "finding": "R1-06",
+   "status": "fixed",
+   "note": "The link is in the census as the reviser gives it. It is better built than my proposal: the 1782 date and the compilers now rest on the book's own lines, not the file's metadata header. Checked: 38-40 is the title page, naming the chapters missing from the Venice edition. 147-153 is the dedication: Nikodemos 'from among you', and the book issued 'with the holy Macarius of Corinth'. 58621-58628 is the contents: the prooimion, then Antony. 1017-1020 is the Antony heading with ΠΑΡΑΙΝΈΣΕΙΣ. 58630-58632 is Isaiah, 'on guarding the mind'. 58634-58636 is Evagrius. 58646-58647 is Cassian. Each quote matches its lines. No line in the file gives 1782. The secondary for it, Bingaman and Nassif (OUP 2012), is already cited in cic-website/data/world-census.json in the sources of the-hesychast-revival-paisius-and-the-philokalia and the-kollyvades-and-greek-renewal (Ware's essay in that volume). So it passes the anti-fabrication rule. Documented 'influenced' is earned: the compilers' own book carries the desert writers. 'Credited to' Antony keeps the authorship question open. One small wording point is raised as R2-01."
+  },
+  {
+   "finding": "R1-07",
+   "status": "fixed differently, accepted",
+   "note": "Right departure. Only the NPNF headnote (28667) says Optatus 'of Milevis', and the letter is dated 420. The salutation (28677-28678) supports only 'his fellow-bishop Optatus'. 'The bishop Optatus' claims no more than the text shows. The work field now orders the letters correctly (Jerome Ep. 134, quoted in Letter 144)."
+  },
+  {
+   "finding": "R1-08",
+   "status": "fixed",
+   "note": "The relationsSummary now reads 'It came before the Chalcedonian monasteries of the Judean desert and Gaza.'"
+  },
+  {
+   "finding": "R1-09",
+   "status": "fixed differently, accepted",
+   "note": "Right departure. Gregory (dalton1927 3707-3710) has Clovis 'abiding at some distance in his tents' near Poitiers when the beacon came 'over above his head'. My 'as he marched' moved the scene. The new two sentences follow the source. 'Stood over his head' is a fair plain rendering. The next sentence on Hilary's help still fits."
+  },
+  {
+   "finding": "R1-10",
+   "status": "fixed",
+   "note": "The note now ends 'It was aimed at those who sought to destroy the Spirit's sovereignty.' This matches npnf214 20251-20255. Naming 'the Spirit's' in place of 'his' makes the sentence stand alone. Accepted (the reviser marked this one as agreed)."
+  },
+  {
+   "finding": "R1-11",
+   "status": "fixed differently, accepted",
+   "note": "Right departure. My appositive made the letter, not its author, the thing 'in dispute'. The two plain sentences keep the fact and drop 'Then take'."
+  },
+  {
+   "finding": "R1-12",
+   "status": "fixed",
+   "note": "Source[2] is lines 42416-42418 with the full sentence. Checked in npnf210."
+  },
+  {
+   "finding": "R1-13",
+   "status": "fixed differently, accepted",
+   "note": "Right departure. My wording fails the readability bar (FRE 54.8). The one-clause form is back. 'Two Homoian bishops' is still true (Palladius and Secundianus); only the province is lost, and nothing becomes wrong or misleading."
+  }
+ ],
+ "new_findings": [
+  {
+   "id": "R2-01",
+   "target": "desert-monasticism--the-kollyvades-and-greek-renewal (note, third sentence)",
+   "severity": "minor",
+   "issue": "The note's subject is the 1782 Venice printing ('It gathers...'). Then it says 'Its first volume opens with counsels credited to Antony the Great.' The 1782 edition was one folio volume; the split into volumes belongs to the later editions, such as the vendored 1893 Athens one. The fact holds for both, since Antony follows the prooimion in each. Only the word 'first volume' does not fit the book the sentence is about. The desert legacy text already words it correctly ('It opens with counsels credited to Antony').",
+   "evidence": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt:1 (title, 'Volume One' of the 1893 edition), 38-40 (the Venice edition as a distinct, earlier printing), 58621-58628 (contents: prooimion, then Antony). census desert-monasticism.legacy: 'It opens with counsels credited to Antony, and it carries Evagrius and Cassian too.'",
+   "fix": "Replace 'Its first volume opens with counsels credited to Antony the Great.' with 'It opens with counsels credited to Antony the Great.'"
+  }
+ ],
+ "checked": "Revision_Round1.json against Opus_Review_Round1.json R1-01 to R1-13. In cic-website/data/world-census.json, all 8 changed or new links match the revision field for field (from, to, type, confidence, note, sources, citation_specificity, verification_state). No duplicate edge ids among 172 edges. All 5 prose changes are present in their movement's field, and the old text is gone from each. For each changed link I opened the cited lines in cic/texts/: npnf105 10584-10591; npnf206 1730-1737, 28455-28476, 28660-28680, 28725-28729; book-of-the-himyarites 1-5, 2130-2145, 2575-2592, 3960-3990, 5815-5835, 8044-8085 (with a grep for every Euprepios and Kaleb line); cosmas 7258-7267; philokalia 1-12, 30-45, 140-156, 1012-1022, 58615-58650; gregory-tours 3704-3715; optatus header. Also checked the census text of desert-monasticism, the-kollyvades-and-greek-renewal, the-hesychast-revival-paisius-and-the-philokalia, the two Aksum entries and the two Homoian entries (dates, continuesAs, relationsSummary), and the repo-wide citations of Bingaman and Nassif. Not re-run: the verbatim quote check and the readability scoring, which the script covers."
+}

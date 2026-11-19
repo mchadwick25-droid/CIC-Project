@@ -16,8 +16,7 @@ confidence:
     Documented as Clement's own teaching. It is philosophical argument in a Christian frame - the vocabulary of what is 'in our power' is Stoic before it is Christian - so it evidences how an Alexandrian teacher reasoned, not how an ordinary believer experienced doubt.
 sources:
 - source_id: alx.source.clement-stromateis
-  locus: >-
-    Stromateis, in the chapter headed 'The Reason and End of Divine Punishments' (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml); the record's own citation of II.15 and IV.24 points at the same free-will argument across the work
+  locus: "Stromateis, in the chapter headed 'The Reason and End of Divine Punishments' (cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml, lines 40327-40330); the record's own citation of II.15 and IV.24 points at the same free-will argument across the work"
   license: public-domain
 text: >-
   Now that is in our power, of which equally with its opposite we are masters,—as, say to philosophize or not, to believe or disbelieve. In consequence, then, of our being equally masters of each of the opposites, what depends on us is found possible.
@@ -49,6 +48,28 @@ use_note:
     - "the community's way of meeting doubters, which sits in alx.dw.doubt"
   years: {from: 180, to: 215}
   status: reviewed
+reading_card:
+  setting: Clement, in Stromateis IV, chapter 'The Reason and End of Divine Punishments'.
+  source_says: What is in our power, like belief or unbelief, we can choose either way. So praise, blame
+    and punishment are just.
+  historians_conclude:
+    text: 'The construction lexicon treats the soul''s real freedom as formation''s condition: God forms
+      through it, not over it.'
+    confidence: Widely Accepted
+  contributes: It shows formation assuming a free soul that turns itself.
+  whose_view: Clement's argument, set against Basilides on which sins are forgiven.
+  open: It is not an ordinary believer's account of doubt.
+  reads_differently_today: Belief and unbelief are a matched pair, both truly open. The aim is fair punishment,
+    so room for doubt comes from responsibility, not pastoral permission.
+  sources:
+    setting: alx.source.clement-stromateis, Stromateis IV.24 heading, anf02 line 40326
+    source_says: alx.source.clement-stromateis, Stromateis IV.24, anf02 lines 40327-40340
+    historians_conclude: Build/worlds/alx/Lexicon-Chunks/alexlex013_freedom-autexousia.md, Quick Meaning;
+      alx.term.autexousia, confidence
+    contributes: alx.term.autexousia; alx.term.pistis
+    whose_view: alx.source.clement-stromateis, Stromateis IV.24, anf02 lines 40336-40340
+    open: alx.quote.to-believe-or-disbelieve, use_note.not_for
+    reads_differently_today: alx.quote.to-believe-or-disbelieve, modern_lens_note
 ---
 THE LOCUS IS CORRECTED RATHER THAN COPIED. Both records cite Stromateis II.15 and IV.24 for the
 free-will argument; the sentence quoted here stands in the chapter the vendored edition heads "The

@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: syr.source.ephrem-nisibene-hymns
-  locus: Hymn XXXV (the Death-and-Satan cycle)
+  locus: "Hymn XXXV (the Death-and-Satan cycle) (cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml, lines 15642-15644)"
   license: public-domain
 text: 'Sin and Hell were terrified: Death trembled and the dead rebelled; and Satan because sinners rebelled
   against him.'

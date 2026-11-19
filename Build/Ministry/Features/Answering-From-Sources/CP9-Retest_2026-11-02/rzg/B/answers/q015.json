@@ -1,0 +1,188 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.limit.consistory-case-narrative",
+    "rzg.term.consistory"
+   ],
+   "sentence": "Among us, a wrong was met by the Consistory, which held the standing power of censure and kept readmission open to genuine repentance."
+  },
+  {
+   "record_ids": [
+    "rzg.term.consistory",
+    "rzg.term.elder"
+   ],
+   "sentence": "At Geneva the Consistory was pastors and lay elders together, and the elders held real power beside the pastors."
+  },
+  {
+   "record_ids": [
+    "rzg.term.excommunication",
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "sentence": "Its harshest step was excommunication, which shut a person out of the Supper and the visible church for sin that was not repented."
+  },
+  {
+   "record_ids": [
+    "rzg.quote.seniors-selected-from-the-people"
+   ],
+   "sentence": "Calvin wrote of these elders: “By these governors I mean elders chosen from the people. They join with the pastors to declare censures and to carry out discipline.”"
+  },
+  {
+   "record_ids": [
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "sentence": "What we cannot give you is one real case, with a named person, a real hearing, and what was said."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "sentence": "The registers that hold such cases exist at Geneva, but they have not reached us."
+  },
+  {
+   "record_ids": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "sentence": "How a Consistory summons felt to the person who received it has not reached us either."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "sentence": "Our own council moved against the Anabaptists with civil force in the years after 1525, and we will not tell you argument alone did that."
+  }
+ ],
+ "citations": [
+  "rzg.limit.consistory-case-narrative",
+  "rzg.limit.ordinary-daily-practice",
+  "rzg.quote.seniors-selected-from-the-people",
+  "rzg.term.consistory",
+  "rzg.term.elder",
+  "rzg.term.excommunication",
+  "rzg.witness.defending-the-anabaptist-suppression"
+ ],
+ "group": "A",
+ "id": "q015",
+ "net_sentences": [
+  {
+   "draft": "Among us, a wrong was met by the Consistory, which held the standing power of censure and kept readmission open to genuine repentance [[rzg.limit.consistory-case-narrative]] [[rzg.term.consistory]] [[as:paraphrase]].",
+   "ratio": 0.77,
+   "sentence": "Among us, a wrong was met by the Consistory, which held the standing power of censure and kept readmission open to genuine repentance.",
+   "tags": [
+    "rzg.limit.consistory-case-narrative",
+    "rzg.term.consistory"
+   ],
+   "verdict": "ok",
+   "why": "grounded 77% in own tagged records"
+  },
+  {
+   "draft": "At Geneva the Consistory was pastors and lay elders together, and the elders held real power beside the pastors [[rzg.term.consistory]] [[rzg.term.elder]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "At Geneva the Consistory was pastors and lay elders together, and the elders held real power beside the pastors.",
+   "tags": [
+    "rzg.term.consistory",
+    "rzg.term.elder"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Its harshest step was excommunication, which shut a person out of the Supper and the visible church for sin that was not repented [[rzg.term.excommunication]] [[rzg.limit.consistory-case-narrative]] [[as:paraphrase]].",
+   "ratio": 0.91,
+   "sentence": "Its harshest step was excommunication, which shut a person out of the Supper and the visible church for sin that was not repented.",
+   "tags": [
+    "rzg.term.excommunication",
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "verdict": "ok",
+   "why": "grounded 91% in own tagged records"
+  },
+  {
+   "draft": "Calvin wrote of these elders: [[quote:rzg.quote.seniors-selected-from-the-people]]",
+   "placed_quote": "rzg.quote.seniors-selected-from-the-people",
+   "sentence": "Calvin wrote of these elders: “By these governors I mean elders chosen from the people. They join with the pastors to declare censures and to carry out discipline.”",
+   "tags": [
+    "rzg.quote.seniors-selected-from-the-people"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "What we cannot give you is one real case, with a named person, a real hearing, and what was said [[rzg.limit.consistory-case-narrative]] [[as:paraphrase]].",
+   "sentence": "What we cannot give you is one real case, with a named person, a real hearing, and what was said.",
+   "tags": [
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The registers that hold such cases exist at Geneva, but they have not reached us [[rzg.limit.consistory-case-narrative]] [[as:paraphrase]].",
+   "ratio": 0.43,
+   "sentence": "The registers that hold such cases exist at Geneva, but they have not reached us.",
+   "tags": [
+    "rzg.limit.consistory-case-narrative"
+   ],
+   "verdict": "ok",
+   "why": "grounded 43% in own tagged records"
+  },
+  {
+   "draft": "How a Consistory summons felt to the person who received it has not reached us either [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].",
+   "ratio": 0.71,
+   "sentence": "How a Consistory summons felt to the person who received it has not reached us either.",
+   "tags": [
+    "rzg.limit.ordinary-daily-practice"
+   ],
+   "verdict": "ok",
+   "why": "grounded 71% in own tagged records"
+  },
+  {
+   "draft": "Our own council moved against the Anabaptists with civil force in the years after 1525, and we will not tell you argument alone did that [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Our own council moved against the Anabaptists with civil force in the years after 1525, and we will not tell you argument alone did that.",
+   "tags": [
+    "rzg.witness.defending-the-anabaptist-suppression"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  }
+ ],
+ "offered": [
+  "rzg.limit.consistory-case-narrative",
+  "rzg.witness.a-narrow-true-church",
+  "rzg.term.consistory",
+  "rzg.story.calvins-journey-to-zurich",
+  "rzg.story.first-zurich-disputation",
+  "rzg.story.myconius-account-of-zwinglis-death",
+  "rzg.quote.seniors-selected-from-the-people",
+  "rzg.limit.ordinary-daily-practice",
+  "rzg.term.reformation",
+  "rzg.force.anabaptist-schism",
+  "rzg.gravity.consistorial-church-discipline",
+  "rzg.gravity.council-led-authority-vs-consistorial-independence"
+ ],
+ "raw_text": "Among us, a wrong was met by the Consistory, which held the standing power of censure and kept readmission open to genuine repentance [[rzg.limit.consistory-case-narrative]] [[rzg.term.consistory]] [[as:paraphrase]].\nAt Geneva the Consistory was pastors and lay elders together, and the elders held real power beside the pastors [[rzg.term.consistory]] [[rzg.term.elder]] [[as:paraphrase]].\nIts harshest step was excommunication, which shut a person out of the Supper and the visible church for sin that was not repented [[rzg.term.excommunication]] [[rzg.limit.consistory-case-narrative]] [[as:paraphrase]].\nCalvin wrote of these elders: [[quote:rzg.quote.seniors-selected-from-the-people]]\nWhat we cannot give you is one real case, with a named person, a real hearing, and what was said [[rzg.limit.consistory-case-narrative]] [[as:paraphrase]].\nThe registers that hold such cases exist at Geneva, but they have not reached us [[rzg.limit.consistory-case-narrative]] [[as:paraphrase]].\nHow a Consistory summons felt to the person who received it has not reached us either [[rzg.limit.ordinary-daily-practice]] [[as:paraphrase]].\nOur own council moved against the Anabaptists with civil force in the years after 1525, and we will not tell you argument alone did that [[rzg.witness.defending-the-anabaptist-suppression]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "rzg.quote.seniors-selected-from-the-people": [
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "n Calvin John Calvin, Institutes of the Christian Religion, Book IV (Of the External Means or Helps by Which God Invites Us",
+     "span": "record rzg.source.calvin-institutes-book4"
+    }
+   ]
+  },
+  "placed": [
+   "rzg.quote.seniors-selected-from-the-people"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S8",
+ "text": "Among us, a wrong was met by the Consistory, which held the standing power of censure and kept readmission open to genuine repentance. At Geneva the Consistory was pastors and lay elders together, and the elders held real power beside the pastors. Its harshest step was excommunication, which shut a person out of the Supper and the visible church for sin that was not repented. Calvin wrote of these elders: “By these governors I mean elders chosen from the people. They join with the pastors to declare censures and to carry out discipline.”\n\nWhat we cannot give you is one real case, with a named person, a real hearing, and what was said. The registers that hold such cases exist at Geneva, but they have not reached us. How a Consistory summons felt to the person who received it has not reached us either. Our own council moved against the Anabaptists with civil force in the years after 1525, and we will not tell you argument alone did that.",
+ "voice_set_aside": false
+}

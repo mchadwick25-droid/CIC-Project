@@ -15,7 +15,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.jerome-ep108
-  locus: sec. 27
+  locus: "sec. 27 (cic/texts/npnf206_jerome-principal-works.xml, lines 22019-22022)"
   license: public-domain
 text: 'Paula, on making up her mind that she too would learn it, succeeded so well that
   she could chant the psalms in Hebrew and could speak the language without a trace of

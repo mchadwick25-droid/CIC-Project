@@ -13,7 +13,7 @@ confidence:
   formation_confidence: Documented
   divergence_note: null
 sources:
-  - {source_id: fix.source.witness-scroll, locus: "4.1", license: public-domain}
+  - {source_id: fix.source.witness-scroll, locus: "4.1 (English at cic/texts/fixture-synthetic_witness-scroll.txt, lines 45-46)", license: public-domain}
 text: "We did not ask what a person had been before the water. We asked only what they carried after it."
 speaker_or_author: fix.figure.the-elder
 license: verbatim

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alopen — Church Family Tree</title>
+<meta name="description" content="In 1625, workmen digging outside Xi&#039;an, in China, came upon a great stone with a cross carved at its top and strange writing beside the Chinese. It told of…">
+<meta property="og:title" content="Alopen">
+<meta property="og:description" content="In 1625, workmen digging outside Xi&#039;an, in China, came upon a great stone with a cross carved at its top and strange writing beside the Chinese. It told of…">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.churchfamilytree.com/tree/alopen">
+<meta property="og:image" content="https://churchinconversation.com/assets/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --parchment:#F6F6F2; --vellum:#FFFFFF;
+  --ink:#2A2521; --ink-faded:#6C6257; --madder:#A13E2B; --madder-deep:#7E2F20;
+  --tyrian:#6B3FA0; --graphite:#8A837C; --rule:rgba(241,233,221,.16);
+  --ground:#17130F; --surface:#1E1913;
+  --text:#F1E9DD; --muted:#B8AEA1;
+  --action:#E08C74; --action-hover:#F0A98F;
+  --control:#A39B92;
+  --link-grow:#86cf9c; --link-influence:#c79a5e; --link-conflict:#f06a64; --link-contact:#a39a8c;
+  --btn-fill:#A13E2B; --btn-text:#F6EFE0; --btn-edge:#E08C74;
+  --serif:'Alegreya','Iowan Old Style',Georgia,serif;
+  --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
+  --wide:64rem; --col:44rem; --measure:38rem;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--text);font-family:var(--serif);font-size:1.0625rem;line-height:1.65}
+a{color:var(--action);text-decoration-thickness:1px;text-underline-offset:.16em}
+a:hover{color:var(--action-hover)}
+:focus-visible{outline:2px solid var(--action);outline-offset:3px;border-radius:2px}
+img{max-width:100%;height:auto;display:block}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15;margin:0;text-wrap:balance}
+h1{font-size:2rem;margin-bottom:1rem}
+h2{font-size:1.4rem;margin:1.5rem 0 .75rem}
+h3{font-size:1.1rem;margin:1rem 0 .5rem}
+p{margin:0 0 1rem}
+ul{padding-left:1.5rem}
+li{margin-bottom:.5rem}
+.vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip-link{position:absolute;left:-999px;top:auto;background:var(--ink);color:var(--parchment);padding:.6rem 1rem;z-index:100;font-family:var(--sans)}
+.skip-link:focus{position:fixed;left:1rem;top:1rem}
+.eyebrow{font-family:var(--sans);font-size:.8125rem;letter-spacing:.13em;text-transform:uppercase;color:var(--action);font-weight:600;margin:0 0 .6rem}
+.site-header{background:var(--surface);border-bottom:1px solid var(--rule)}
+.site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
+.wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
+.wordmark em{font-style:italic;font-weight:400}
+.page{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem;overflow-wrap:break-word}
+.titleblock{margin-bottom:2rem}
+.ident{font-family:var(--sans);font-size:.9rem;color:var(--muted);margin:0 0 .5rem}
+.kind-label{display:inline-block;font-family:var(--sans);font-size:.9rem;color:var(--muted);border:1px dashed currentColor;border-radius:999px;padding:.1rem .7rem;margin:-.4rem 0 0}
+.lineage-section{margin:1.5rem 0;padding-left:.9rem;border-left:3px solid var(--link-contact)}
+.lineage-section.link-grow{border-left-color:var(--link-grow)}.lineage-section.link-grow h3{color:var(--link-grow)}
+.lineage-section.link-influence{border-left-color:var(--link-influence)}.lineage-section.link-influence h3{color:var(--link-influence)}
+.lineage-section.link-conflict{border-left-color:var(--link-conflict)}.lineage-section.link-conflict h3{color:var(--link-conflict)}
+.lineage-section.link-contact h3{color:var(--link-contact)}
+.lineage-list{list-style:none;padding:0}
+.lineage-list li{margin:0 0 .5rem;padding:0}
+.lineage-list a{color:var(--action)}
+.confidence-note{font-style:italic;color:var(--muted);font-size:.95rem}
+.lineage-major{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;font-weight:600;color:var(--action);white-space:nowrap}
+.lineage-outcome{display:block;font-size:.95rem;margin-top:.2rem}
+.lineage-confidence{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;color:var(--muted);border:1px solid currentColor;border-radius:3px;padding:0 4px;white-space:nowrap}
+.sources-list{list-style:none;padding:0}
+.sources-list li{margin:0 0 .75rem;padding:0}
+.sources-list a{font-weight:600}
+.source-type{font-family:var(--sans);font-size:.85rem;color:var(--muted)}
+.source-note{font-size:.95rem;color:var(--muted)}
+.quotes-note{font-family:var(--sans);font-size:.9rem;color:var(--muted);margin:.6rem 0}
+.quotes-panel{margin:1rem 0;border-top:1px solid var(--rule);padding-top:.6rem}
+.quotes-panel summary{cursor:pointer;font-family:var(--sans);font-weight:600}
+.narration{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin:1.5rem 0}
+.narration audio{display:block;height:2.2rem;max-width:220px;width:220px;flex:0 0 auto}
+.narration-disclosure{font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:0}
+.action-links{margin:1.5rem 0;padding:1rem;background:var(--surface);border-radius:4px}
+.action-links p{margin:0 0 .8rem;font-family:var(--sans);font-size:.95rem}
+.action-links a{display:inline-block;padding:.6rem 1rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px;margin-right:.5rem;margin-bottom:.5rem}
+.action-links a:hover{background:var(--madder-deep)}
+.door-quiet{font-family:var(--sans);font-size:.92rem;color:var(--muted);margin:1.5rem 0}
+.told-within{font-family:var(--sans);font-size:.95rem;margin:.4rem 0 0}
+.people-list{list-style:none;padding:0;margin:0}
+.people-list li{margin:.4rem 0}
+.people-list .ident{display:inline;margin:0 0 0 .4rem}
+.people-note{color:var(--muted)}
+.facts{margin:0 0 1.5rem}
+.facts dt{font-family:var(--sans);font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--action);margin-top:.7rem}
+.facts dd{margin:.1rem 0 0}
+.part-group{font-family:var(--sans);font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--action);margin:1rem 0 .2rem}
+.verdict{font-family:var(--sans);font-size:.78rem;letter-spacing:.04em;color:var(--muted);border:1px dashed currentColor;border-radius:999px;padding:0 .5rem;margin-left:.4rem;white-space:nowrap}
+.source-group{font-family:var(--sans);font-weight:600;margin:1rem 0 .3rem}
+.review-status{font-family:var(--sans);font-size:.92rem;color:var(--muted);margin:2.5rem 0 0;padding-top:1rem;border-top:1px solid var(--rule)}
+.site-footer{border-top:1px solid var(--rule);background:var(--surface);font-family:var(--sans);font-size:.85rem;color:var(--muted);margin-top:3rem;padding:1.5rem 1.25rem}
+.site-footer .row{max-width:var(--wide);margin:0 auto}
+.site-header nav{display:flex;flex-wrap:wrap;gap:.4rem 1rem;align-items:center;margin-left:auto;font-family:var(--sans);font-size:.92rem}
+.site-header nav a{color:var(--action);text-decoration:none;display:inline-flex;align-items:center;min-height:44px}
+.site-header nav a:hover{color:var(--action-hover)}
+.site-header nav .feedback-toggle{min-height:44px}
+.site-footer nav{display:flex;flex-wrap:wrap;gap:.4rem 1.1rem;margin-top:.6rem}
+.site-footer nav a{display:inline-flex;align-items:center;min-height:44px}
+.site-footer a{color:var(--action)}
+.give{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}
+.give a{display:inline-block;padding:.6rem 1.2rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px}
+.terms{margin:0 0 1rem}
+.terms dt{font-family:var(--sans);font-weight:600;margin-top:.9rem}
+.terms dd{margin:.2rem 0 0}
+.terms svg{display:inline-block;vertical-align:middle;margin-right:.5rem}
+.cite{margin:.4rem 0 1.2rem;padding:.6rem .9rem;border-left:3px solid var(--action);background:var(--surface);overflow-wrap:anywhere}
+.cite-label{font-family:var(--sans);font-weight:600;margin:1rem 0 .2rem}
+</style>
+<link rel="stylesheet" href="../assets/feedback.css">
+</head>
+<body>
+<a href="../" class="skip-link">Skip to the map</a>
+
+<header class="site-header">
+  <div class="row">
+    <a href="../" class="wordmark">Church Family Tree</a>
+    <nav aria-label="Site">
+      <a href="https://churchinconversation.com/">Church in Conversation &rarr;</a>
+      <a href="../support.html">Help us grow</a>
+      <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
+    </nav>
+  </div>
+</header>
+
+<main class="page" id="content">
+  <div class="titleblock">
+    <p class="ident">The Early Medieval Era · reached Chang-an 635 · Syria, Chang-an</p>
+    
+    <h1>Alopen</h1>
+    <p class="told-within">A person. The tradition that tells their story: <a href="the-church-of-the-east-on-the-silk-road.html">The Church of the East on the Silk Road</a>.</p>
+    
+    
+  </div>
+  <dl class="facts"><dt>Known for</dt><dd>The man from the far west who, by the Xi&#039;an stele, brought the Church of the East&#039;s sacred books to the Tang capital, Chang-an, in 635. The books were translated in the imperial library, and the emperor ordered the religion spread. A decree of 638 ordered a monastery built in the capital for twenty-one priests.</dd><dt>Also called</dt><dd>Olopun (A. Wylie&#039;s English of the Xi&#039;an stele), Olopan (Henry Yule), Olopen, Olopuen (Joseph Assemani), A-lo-pen (E. A. Wallis Budge)</dd><dt>Dates</dt><dd>Reached Chang-an in 635, by A. Wylie&#039;s English of the stele and by Henry Yule. Joseph Assemani gives 636. The stele names the decree of 638 and the honor he received under the next emperor, Kautsung. No source used here gives his birth or death</dd><dt>Place</dt><dd>Syria, as A. Wylie renders the stele&#039;s Ta-ts&#039;in, which Henry Yule says Chinese writers used of the Roman Empire, here apparently Syria; Chang-an, the Tang capital</dd><dt>Role</dt><dd>Missionary of the Church of the East to China</dd></dl>
+
+  
+
+  <section>
+    <h2>About This Person</h2>
+    
+    <div class="narration">
+      <audio controls preload="none" src="../audio/tree/alopen.mp3"></audio>
+      <p class="narration-disclosure">Synthesized voice — not a recording.</p>
+    </div>
+    
+    <div class="reading"><p>In 1625, workmen digging outside Xi&#039;an, in China, came upon a great stone with a cross carved at its top and strange writing beside the Chinese. It told of Christians who had taught in that city a thousand years before, with the favor of the Tang emperors.</p><p>The stone named the man who first brought the books of their church, the Church of the East. We know him as Alopen, and his is the earliest Christian mission to China that the record describes. In the year 635 he reached Chang-an, the Tang capital — today&#039;s Xi&#039;an — coming from the far west. The emperor Taizong sent his chief minister to meet him outside the capital and bring him to the palace.</p><p>The books were translated in the imperial library, and the emperor studied the teaching and ordered it spread. In 638 his decree, quoted on the stone, said of this faith: &quot;It helps every creature, and it does people good. Let it spread freely through the empire.&quot; Officials built a monastery in the capital for twenty-one priests, and a foreign faith now had the emperor&#039;s open license.</p><p>Under the next emperor, the stone says, its monasteries filled a hundred cities. In the years after, Buddhists spoke out against it and others mocked it, but its priests held it together. In 781 they set up the stone, about 146 years after he came, and told his story: his church looking back, in words that also praise the emperors. It pictures his journey: &quot;Watching the blue clouds, he carried the true sacred books. Watching the way the winds blew, he faced hardships and dangers.&quot; That is the stone&#039;s way of saying the road was long and hard, and he kept the books with him.</p><p>After 781, Chinese history keeps only slight traces of the church. One is an edict of 845 that sent more than three thousand foreign teachers, Christians and others, back to ordinary life. The stone lay in the ground until 1625. Then a Chinese Christian official sent a copy to the Jesuit missionaries, and they circulated it through the empire as proof that Christianity had come to China early. So a church the world had forgotten was known again.</p></div><p class="quotes-note">Quotations are given in our modern English. The printed wording of each is below.</p><details class="quotes-panel"><summary>Quotations and references</summary><p class="source-group">Quotations</p><ul class="sources-list"><li><span class="source-type">In our modern English</span><br>“It helps every creature, and it does people good. Let it spread freely through the empire.”<br><span class="source-type">As printed</span><br>“(the system) is helpful to (all) creatures, and profitable for men : — let it have free course throughout the empire”<br><span class="source-note">The Xi&#039;an stele (781), the decree of 638, tr. James Legge, The Nestorian Monument of Hsi-an Fu (1888)</span></li><li><span class="source-type">In our modern English</span><br>“Watching the blue clouds, he carried the true sacred books. Watching the way the winds blew, he faced hardships and dangers.”<br><span class="source-type">As printed</span><br>“Observing the azure clouds, he bore the true sacred books; beholding the direction of the winds, he braved difficulties and dangers.”<br><span class="source-note">The Xi&#039;an stele (781), tr. A. Wylie, in G. D. Malech, History of the Syrian Nation (1910)</span></li></ul><p class="source-group">References</p><ul class="sources-list"><li>The Xi&#039;an stele of 781, tr. James Legge, The Nestorian Monument of Hsi-an Fu (1888), parts II.7-11 (legge 1008-1012, 1227-1257, 1477, 1633-1647, 1863-1871): the emperor T&#039;ai Tsung; Olopun&#039;s arrival at Ch&#039;ang-an in 635; the minister sent to the western suburb to receive him and conduct him to the palace; the Scriptures translated in the Library; the emperor&#039;s orders for its propagation; the proclamation of 638; the proper officers building a monastery for twenty-one priests; under Kao Tsung, monasteries in every prefecture filling a hundred cities; the Buddhists of 698-699 and the derision of 712; the priests Lo-han and Chi-lieh.</li><li>The Xi&#039;an stele, tr. A. Wylie, in G. D. Malech, History of the Syrian Nation (1910) (malech 13687-13695, 13738-13751, 14141-14142): Olopun&#039;s arrival at Chang-an in 635 with the true sacred books; the books translated in the imperial library and the emperor&#039;s orders for the religion&#039;s dissemination; the Buddhists in 699 and the ridicule and slanders of 713, and the priests Lohan and Kie-leih; the stone erected in 781.</li><li>James Legge, lecture on the monument (1888) (legge 3662-3710, 3876-3877, 4251-4253, 4346-4350): the stone dug up by workmen in a suburb of Ch&#039;ang-an in 1625, with a remarkable inscription in Chinese and other characters, telling of strangers who taught there under the T&#039;ang emperors; a Chinese convert official sending a copy to the Jesuit fathers, who circulated copies through the empire as proof of the early introduction of Christianity; the monument telling of the Religion&#039;s first entrance into China; very slight indications of it in Chinese history after 781; Wu Tsung&#039;s edict of 845, sending the teachers of Ta Ts&#039;in and of the Mu-hu-pi, more than three thousand, back to ordinary life.</li><li>Henry Yule and Henri Cordier, The Book of Ser Marco Polo, vol. 2 (1903), note on the Christian monument at Si-ngan fu (yule 2908-2916, 2929-2932): Chang-an, the capital; the stone accidentally found by workmen in 1625, with the cross incised at its top; its discovery disclosing the forgotten existence of the Christian churches there.</li><li>E. A. Wallis Budge, The Monks of Kublai Khan (1928), Appendix B, after P. Y. Saeki (budge 5174-5177): the emperor sending his minister Fang Hsuan-ling to bring him to the palace.</li><li>World census, the Church of the East on the Silk Road: his tradition.</li><li>The Xi&#039;an stele (781), tr. A. Wylie, in Malech 1910 (malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt, 13688-13689), with Legge 1888 (1012, 1227-1229): the stone&#039;s picture of his journey by the clouds and the winds, carrying the sacred books through hardship and danger.</li></ul></details>
+  </section>
+
+  
+  
+  <section><h2>Legacy</h2><h3>What traces to them</h3><ul><li>The stele says the next emperor, Kautsung, had churches built in every province, and that every city was full of churches.</li><li>The stele says the church kept its ground against the Buddhists in 699 and against slanders in 713, and that a later emperor restored its buildings.</li><li>S. Wells Williams reports that in 845 an edict of the emperor Wu-tsung sent the priests of the sect from Ta Tsin, no fewer than three thousand, back to private life; the edict as James Legge quotes it counts in that number the teachers of the Mu-hu-pi, another foreign religion.</li></ul><h3>How they're remembered</h3><ul><li>The stele&#039;s closing verse begins: &quot;When the pure, bright Illustrious Religion / Was introduced to our Tang dynasty, / The Scriptures were translated, and churches built&quot;.</li><li>E. A. Wallis Budge&#039;s index calls him the introducer of Christianity into China.</li><li>T. J. Lamy, as J.-B. Chabot quotes him, calls him a Syrian priest who brought Nestorianism to China.</li></ul></section><section><h2>What Is Uncertain</h2><ul><li>Everything the sources used here say of him goes back to one witness, the Xi&#039;an stele of 781, set up by his own church nearly a century and a half after he came. Its Chinese text names King-Tsing, a priest, as its author. The Tang court&#039;s own record of the 638 decree is not among the sources used here. No words of his own are held, and nothing of his death.</li><li>The year he came. A. Wylie&#039;s English of the stele, Henry Yule and Budge&#039;s appendix give 635, and T. J. Lamy, as J.-B. Chabot quotes him, puts the church and its twenty-one priests in 635. Joseph Assemani gives 636, and so do the notes of J. B. Abbeloos and T. J. Lamy to Bar Hebraeus, and Budge&#039;s own introduction. W. A. Wigram, in 1929, says about 630.</li><li>His name. Henry Yule thinks Olopan probably a Chinese form of Rabban, meaning monk. F. Hirth suggests Ruben. Assemani guesses the Syriac Jaballaha. No source used here gives his Syriac name from a Syriac text.</li><li>His title under Kautsung. Wylie renders it great conservator of doctrine for the preservation of the State. Athanasius Kircher&#039;s Latin, as Assemani gives it, has bishop of the great law that governs China. P. Y. Saeki, as Budge gives him, has Great Patron and Spiritual Lord of the Empire.</li><li>Whose portrait hung in the church. Wylie and Yule say the emperor&#039;s. Assemani&#039;s Latin summary can be read as Alopen&#039;s.</li><li>Who translated the books. The stele says only that they were translated in the imperial library. S. Wells Williams reads it as Alopen&#039;s work, in part or in whole.</li><li>Who sent him, and his rank. No source used here says. Monk is Budge&#039;s word, and Yule reads it in his name. Bishop is Assemani&#039;s word, and priest Lamy&#039;s.</li><li>The stone. Henry Yule says workmen found it by chance in 1625. S. Wells Williams says the Jesuits and their opponents argued warmly over whether it is genuine, and that the weight of evidence leaves no doubt. He quotes E. C. Bridgman: a hundred Chinese students would each read some parts differently.</li></ul></section>
+  
+
+  
+
+  <section>
+    <h2>Sources</h2>
+    <p class="source-group">Written about them</p><ul class="sources-list"><li>Translation of the Nestorian Inscription (tr. A. Wylie), in History of the Syrian Nation and the Old Evangelical-Apostolic Church of the East — <span class="source-note">King-Tsing (the stele); A. Wylie (tr.); George David Malech · 1910 · English translation</span></li><li>The Nestorians in China, in the same volume — <span class="source-note">S. Wells Williams · 1910 · English</span></li><li>The Book of Ser Marco Polo, volume 2, note on the Christian monument at Si-ngan fu — <span class="source-note">Henry Yule; Henri Cordier · 1903 · English</span></li><li>Bibliotheca Orientalis, volume 3, part 2 — <span class="source-note">Joseph Assemani · 1728 · Latin</span></li><li>The Monks of Kublai Khan, introduction and Appendix B — <span class="source-note">E. A. Wallis Budge · 1928 · English</span></li><li>Histoire de Mar Jabalaha III et du moine Rabban Çauma, notes — <span class="source-note">J.-B. Chabot · 1895 · French</span></li><li>Chronicon ecclesiasticum, volume 3, editors&#039; notes (Latin tr. J. B. Abbeloos and T. J. Lamy) — <span class="source-note">J. B. Abbeloos and T. J. Lamy · 1877 · Latin</span></li><li>The Assyrians and their Neighbours — <span class="source-note">W. A. Wigram · 1929 · English</span></li><li>The Nestorian Monument of Hsî-an Fû: translation of the inscription, with notes and a lecture on the monument — <span class="source-note">King-Tsing (the stele); James Legge (tr.) · 1888 · English translation</span></li></ul>
+  </section>
+
+  <p class="review-status"><b>Review:</b> checked with AI tools. No scholar or church partner has reviewed it yet. <a href="../data.html#review">Help review the tree</a></p>
+</main>
+
+<footer class="site-footer">
+  <div class="row">
+    <p>&copy; 2026 Faithways Studio, Inc., a Colorado public benefit corporation &middot; <a href="../license.html">License</a>. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.</p>
+    <nav aria-label="About the tree">
+      <a href="../about.html">About</a>
+      <a href="../method.html">Method</a>
+      <a href="../data.html">Data and citation</a>
+      <a href="../privacy.html">Privacy</a>
+      <a href="../terms.html">Terms</a>
+      <a href="../license.html">License</a>
+      <a href="../support.html">Help us grow</a>
+    </nav>
+  </div>
+</footer>
+<script src="../assets/narration-player.js" defer></script>
+<script src="../assets/feedback.js" defer></script>
+</body>
+</html>

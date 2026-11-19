@@ -1,0 +1,27 @@
+source_file: guebre-sellassie_chronique-du-regne-de-menelik-ii-t1-fra_coppet1930.txt
+assignments:
+- row_id: guebre-sellassie_chronique-du-regne-de-menelik-ii-t1-fra_coppet1930--chronique-du-regne-de-menelik-ii-roi-des-rois-d-ethiopie
+  work: Chronique du règne de Ménélik II, roi des rois d'Éthiopie. Traduite de l'amharique par Tèsfa Sellassié,
+  author: guebre-sellassie
+  locus: Chapter XXVI, Atié Johannès arrives in Choa and makes peace with Atié Ménélik, at lines 23580-25585; Chapter
+    XXVII, the assembly held at Borou-Miéda, at lines 25586-26867; the rest not mapped
+  atlas_ids:
+  - ethiopian-christianity-tewodros-to-menelik
+  role: tradition
+  confidence: provisional
+  language: fra
+  date:
+    formation_confidence: unknown
+    checked: the title page and front matter of this printing (1930); they do not state when the text was first
+      written
+  translator:
+    name: Tesfa Sellassie
+    source: the title page
+    formation_confidence: Documented
+  edition_date:
+    year: 1930
+    source: line 113 of this file, on the title page
+    formation_confidence: Documented
+  note: 'Era 9 rows 308, 309 and 310, Yohannes IV, Menelik II and Taytu: the royal chronicle, in French, tome I.
+    The tradition''s own text, in a French translation printed in 1930; the volume does not say when the chronicle
+    was written.'

@@ -134,8 +134,17 @@ works:
   work: The Apocalypse of Peter
   author: apocalypse-of-peter
   locus: div2 5.2-5.3 (with fragments)
+  locus_ids:
+  - v
+  - v.i
+  - v.i/notes
+  - v.ii
+  - v.ii/notes
+  - v.iii
+  - v.iii/notes
   role: tradition
   confidence: assigned
+  language: eng
   note: c. 100-150; stood near the canon's edge (Muratorian fragment; cited by Clement of
     Alexandria, whence the alexandria guess; Egyptian or Palestinian provenance argued). The
     census has no bucket for early apocryphal apocalypses as a class; both ids are guesses.
@@ -202,8 +211,79 @@ works:
     the Glory of Martyrdom; Of the Discipline and Advantage of Chastity; Exhortation to Repentance)
   author: cyprian
   locus: div2 4.7 - four pieces, assigned as one body
+  locus_ids:
+  - iv.vii.ii/line55869
+  - iv.vii.ii/line55920
+  - iv.vii.ii/line55953
+  - iv.vii.ii/line55986
+  - iv.vii.ii/line56023
+  - iv.vii.ii/line56067
+  - iv.vii.ii/line56104
+  - iv.vii.ii/line56128
+  - iv.vii.ii/line56151
+  - iv.vii.ii/line56182
+  - iv.vii.iii/line56214
+  - iv.vii.iii/line56268
+  - iv.vii.iii/line56286
+  - iv.vii.iii/line56306
+  - iv.vii.iii/line56337
+  - iv.vii.iii/line56374
+  - iv.vii.iii/line56398
+  - iv.vii.iii/line56428
+  - iv.vii.iii/line56448
+  - iv.vii.iii/line56487
+  - iv.vii.iii/line56512
+  - iv.vii.iii/line56541
+  - iv.vii.iii/line56565
+  - iv.vii.iii/line56597
+  - iv.vii.iii/line56631
+  - iv.vii.iii/line56669
+  - iv.vii.iii/line56711
+  - iv.vii.iii/line56734
+  - iv.vii.iii/line56756
+  - iv.vii.iii/line56785
+  - iv.vii.iii/line56801
+  - iv.vii.iii/line56826
+  - iv.vii.iii/line56848
+  - iv.vii.iii/line56869
+  - iv.vii.iii/line56893
+  - iv.vii.iii/line56917
+  - iv.vii.iii/line56946
+  - iv.vii.iii/line56978
+  - iv.vii.iv/line57010
+  - iv.vii.iv/line57047
+  - iv.vii.iv/line57079
+  - iv.vii.iv/line57114
+  - iv.vii.iv/line57132
+  - iv.vii.iv/line57159
+  - iv.vii.iv/line57180
+  - iv.vii.iv/line57202
+  - iv.vii.iv/line57244
+  - iv.vii.iv/line57268
+  - iv.vii.iv/line57296
+  - iv.vii.iv/line57324
+  - iv.vii.iv/line57362
+  - iv.vii.iv/line57389
+  - iv.vii.v/line57413
+  - iv.vii.v/line57447
+  - iv.vii.v/line57472
+  - iv.vii.v/line57501
+  - iv.vii.v/line57526
+  - iv.vii.v/line57551
+  - iv.vii.v/line57577
+  - iv.vii.v/line57608
+  - iv.vii.v/line57638
+  - iv.vii.v/line57662
+  - iv.vii.v/line57690
+  - iv.vii.v/line57717
+  - iv.vii.v/line57743
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: 'ANF 5 div2 4.7 Translator''s Introduction and Source_Registry row 6: the four
+      pieces are disputed and the repo gives no window'
   note: 'Pseudo-Cyprianic body, kept under cyprian because that is how CCEL transmits it.
     Two pieces (On the Public Shows, and the chastity treatise) are widely attributed to Novatian
     in modern scholarship, which is why novatianism appears here. On whether the attribution
@@ -569,8 +649,17 @@ works:
     Five Books in Reply to Marcion)
   author: tertullian
   locus: div2 3.11 - Appendix (five verse pieces, div3s)
+  locus_ids:
+  - div2:iii.xi
+  - div3:iii.xi.i..iii.xi.vii (7 divisions)
   role: tradition
   confidence: assigned
+  language: eng
+  date:
+    formation_confidence: unknown
+    checked: Harnack's Tertullian table (printed pp. 295-296) dates genuine works only; the
+      file anf04 prints these poems as an appendix to Tertullian without a date; no composition
+      date was established in this pass
   note: 'STRUCTURE.md marks this div2 as apparatus, but the content is ancient pseudo-Tertullianic
     Latin verse, not 19th-c. editorial matter - kept rather than dropped. The "Five Books
     in Reply to Marcion" (Carmen adversus Marcionitas) belongs with the anti-Marcionite material.

@@ -1,0 +1,114 @@
+{
+ "round": 2,
+ "applied": "by script, the reviewer's replacement text as written",
+ "fixes": [
+  {
+   "finding": "R2-01",
+   "action": "merged main (era 6, PR #1544; P2-ML) into this branch. Main's published versions stand on the 8 ids both passes touched (main_stands); this pass's drafts of them are set aside. Data release 12."
+  },
+  {
+   "finding": "R2-02",
+   "action": "note rewritten as the reviewer proposed (FRE 62.1, FK 9.2)"
+  },
+  {
+   "finding": "R2-03",
+   "action": "Ludolf quote cut to 35 words at lines 10019-10022, as the reviewer proposed"
+  }
+ ],
+ "links": [
+  {
+   "id": "the-society-of-jesus--the-kyiv-mohyla-orthodox-revival",
+   "from": "the-society-of-jesus",
+   "to": "the-kyiv-mohyla-orthodox-revival",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "A memoir printed in 1814 says the Kyiv academy was set up after the manner of the Polish schools, and Latin became its main language. In 1883 the historian Stefan Golubev wrote about the college. He said the showy learning and clever speech of Western colleges, the Jesuit ones above all, took deep root there at once.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "S. T. Golubev, Kievskii mitropolit Petr Mogila i ego spodvizhniki, vol. 1 (Kyiv, 1883)",
+     "file": "cic/texts/golubev_petr-mogila-i-ego-spodvizhniki-t1-rus_1883.txt",
+     "lines": "18351-18355",
+     "locus": "On the Mohyla college in the Lavra",
+     "quote": "тотъ внёшнй блескъ схоластической науки, т риторическя Фразы и »хитрор$е‹, которые были присущи за- падно-европейскимъ, въ особенности 1езуитекимъ коллемямъ,—есразу же пустили глубове корни и",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Robert Pinkerton, preliminary memoir to Platon, The Present State of the Greek Church in Russia (Edinburgh, 1814)",
+     "file": "cic/texts/platon_present-state-of-the-greek-church-in-russia_pinkerton1814.txt",
+     "lines": "660-663",
+     "locus": "Preliminary memoir",
+     "quote": "on  the  foundation  of  an academy  at  Kieff,  after  the  manner  of  the  Po- lish schools,  the  Latin  became  the  classical  lan- guage,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Ihor Sevcenko, 'The Many Worlds of Peter Mohyla', Harvard Ukrainian Studies (1984)"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "action": "rewrite",
+   "change_reason": "R2-02: note held to what Pinkerton (1814) and Golubev (1883) say; reviewer text applied as written."
+  },
+  {
+   "id": "the-society-of-jesus--ethiopian-christianity-gragn-to-fasilides",
+   "from": "the-society-of-jesus",
+   "to": "ethiopian-christianity-gragn-to-fasilides",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Jesuit priests argued against Ethiopian teaching in public debates. A Jesuit history says the emperor, won over, let all his people take up 'the Faith the Fathers preach'd'. It adds that many great men took the Catholic faith in public.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Balthazar Telles, The Travels of the Jesuits in Ethiopia (English, London 1710)",
+     "file": "cic/texts/telles_travels-of-the-jesuits-in-ethiopia_1710.txt",
+     "lines": "15957-15959",
+     "locus": "Book II, the emperor's conversion",
+     "quote": "The Emperor, and many more be- ing now convinc'd of the Truth ot the Catholick Faith, aud many great Men publickly professing it.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Balthazar Telles, The Travels of the Jesuits in Ethiopia (English, London 1710)",
+     "file": "cic/texts/telles_travels-of-the-jesuits-in-ethiopia_1710.txt",
+     "lines": "15971-15973",
+     "locus": "Book II, the emperor's conversion",
+     "quote": "Proclamation should be made, to give Leave to all Per- sous to embrace the Faith the Fathers preach d, and had been justi- yd in the publick Disputations, which was accordingly done.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Hiob Ludolf, A New History of Ethiopia, English of J. P. (London, 1682)",
+     "file": "cic/texts/ludolf_new-history-of-ethiopia_jp1682.txt",
+     "lines": "10019-10022",
+     "locus": "Book III, on Susenyos and the Jesuits",
+     "quote": "at the Request of the King went to Court, and so oblig'd him with several Discourses concerning Martcers as well Ecclesiastical as Civil , that at farst privately, chen publickly he embrac'd the Latin Religion,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "rewrite",
+   "change_reason": "R2-03: Ludolf quote cut to 35 words at lines 10019-10022; reviewer text applied as written."
+  }
+ ],
+ "prose_changes": [],
+ "main_stands": [
+  "armenian-cilicia-after-the-kingdom--armenian-christianity-new-julfa",
+  "byzantine-church-palaiologan--orthodoxy-under-the-ottomans-parish-millet-and-n",
+  "church-of-the-east-timur-to-hakkari--church-of-the-east-schism-of-1552",
+  "rhineland-mysticism-and-the-friends-of-god--lutheran-wittenberg-and-its-congregations",
+  "st-thomas-christians-1300-1517--st-thomas-christians-under-portuguese-pressure-d",
+  "the-ethiopian-monastic-flowering--ethiopian-christianity-gragn-to-fasilides",
+  "the-hussite-and-bohemian-brethren-movement--czech-churches-last-century",
+  "the-tridentine-church--the-humiliati"
+ ]
+}

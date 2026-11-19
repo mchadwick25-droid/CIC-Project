@@ -22,6 +22,7 @@ edition: Nicene and Post-Nicene Fathers, Series I, vol. VIII, vendored as cic/te
   the Latin original (Migne's 1861 printing of the Maurist text) is separately vendored as row 201
 citation: 'Augustine of Hippo, Expositions on the Book of Psalms (Enarrationes in Psalmos), Nicene and Post-Nicene Fathers, Series I, vol. VIII'
 kind: vendored
+shelf_row: npnf108_augustine-exposition-psalms--expositions-on-the-book-of-psalms-enarrationes-in-psalmos
 rights_status: 'public-domain; vendored in cic/texts/ as part of the corpus map''s own pre-existing inventory
   (role: tradition, confidence: assigned), carried into this world''s construction without this row''s
   own specific locus being independently re-collated.'

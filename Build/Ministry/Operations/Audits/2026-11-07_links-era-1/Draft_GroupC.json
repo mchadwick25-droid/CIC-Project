@@ -1,0 +1,986 @@
+{
+ "group": "C",
+ "movements": [
+  "syriac-edessa-nisibis",
+  "bardaisanite-current",
+  "manichaeism",
+  "ebionite-nazoraean-current"
+ ],
+ "dispositions": [
+  {
+   "movement": "syriac-edessa-nisibis",
+   "field": "relationsSummary",
+   "sentence": "Parent of the Church of the East and the Syriac Orthodox Church; the channel through which Greek philosophy and medicine passed into Arabic and back to Europe.",
+   "other_id": "persian-church-of-the-east-early",
+   "disposition": "link",
+   "link_id": "syriac-edessa-nisibis--persian-church-of-the-east-early",
+   "prose_change": 0,
+   "reason": "Carried by the new continued-as link (410 synod signatures, Wigram) and the kept influenced link to the-church-of-the-east-under-persia."
+  },
+  {
+   "movement": "syriac-edessa-nisibis",
+   "field": "relationsSummary",
+   "sentence": "Parent of the Church of the East and the Syriac Orthodox Church; the channel through which Greek philosophy and medicine passed into Arabic and back to Europe.",
+   "other_id": "syriac-orthodox-west-syriac-christianity",
+   "disposition": "link",
+   "link_id": "syriac-edessa-nisibis--syriac-orthodox-west-syriac-christianity",
+   "prose_change": 0,
+   "reason": "New gave-rise-to link, Widely Accepted: Chronicle of Edessa 51, 90; John of Ephesus, Lives 49; Wigram."
+  },
+  {
+   "movement": "syriac-edessa-nisibis",
+   "field": "relationsSummary",
+   "sentence": "Parent of the Church of the East and the Syriac Orthodox Church; the channel through which Greek philosophy and medicine passed into Arabic and back to Europe.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Transmission route, not a movement. As written it makes this 200-410 community the channel; the Arabic translations came centuries later from its heirs. Rewritten."
+  },
+  {
+   "movement": "syriac-edessa-nisibis",
+   "field": "longDescription",
+   "sentence": "They met the Gospel as one continuous story rather than four separate books, in a harmony a Greek-trained convert named Tatian had woven a generation earlier; Aphrahat quoted it and Ephrem preached from it for as long as this Christian tradition lasted.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Tatian has no census entry of his own; greek-apologists-second-century holds his works in the corpus map but its text never names him, so no member-to-container link. Claim supported: Eusebius HE IV.29 (npnf201 ~26429-26434) on Tatian composing the Diatessaron; Doctrine of Addai (anf08 62107-62109) on its use; Gwynn (npnf213 13666) on Aphrahat following it."
+  },
+  {
+   "movement": "syriac-edessa-nisibis",
+   "field": "longDescription",
+   "sentence": "The community also knew its faith by naming what it was not, answering by name the teachings of the philosopher Bardaisan, of Marcion, and of Mani, all preached in the same cities in the same tongue.",
+   "other_id": "bardaisanite-current",
+   "disposition": "link",
+   "link_id": "syriac-edessa-nisibis--bardaisanite-current",
+   "prose_change": 0,
+   "reason": "Existing link kept; quote rechecked (ephraim prose refutations line 628)."
+  },
+  {
+   "movement": "syriac-edessa-nisibis",
+   "field": "longDescription",
+   "sentence": "The community also knew its faith by naming what it was not, answering by name the teachings of the philosopher Bardaisan, of Marcion, and of Mani, all preached in the same cities in the same tongue.",
+   "other_id": "marcion-marcionism",
+   "disposition": "link",
+   "link_id": "syriac-edessa-nisibis--marcion-marcionism",
+   "prose_change": 0,
+   "reason": "New argued-against link: Ephraim, Against Marcion I (ephraim file lines 1603, 1609)."
+  },
+  {
+   "movement": "syriac-edessa-nisibis",
+   "field": "longDescription",
+   "sentence": "The community also knew its faith by naming what it was not, answering by name the teachings of the philosopher Bardaisan, of Marcion, and of Mani, all preached in the same cities in the same tongue.",
+   "other_id": "manichaeism",
+   "disposition": "link",
+   "link_id": "syriac-edessa-nisibis--manichaeism",
+   "prose_change": 0,
+   "reason": "New argued-against link: Ephraim, discourses to Hypatius (ephraim file lines 403, 640)."
+  },
+  {
+   "movement": "syriac-edessa-nisibis",
+   "field": "longDescription",
+   "sentence": "Persia's own bishops fought the same question in the open: Papa of Seleucia-Ctesiphon claimed to lead them all, and was contested by his own colleagues in his own lifetime.",
+   "other_id": "persian-church-of-the-east-early",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "A dispute inside the Persian church, whose bishops this entry's text treats as its own; it is not a relationship between two movements."
+  },
+  {
+   "movement": "syriac-edessa-nisibis",
+   "field": "longDescription",
+   "sentence": "On the Persian side, the persecution already underway since the 340s took bishop Simeon bar Sabbae and his clergy, and left the church's chief seat empty for twenty years, since filling it meant near-certain death.",
+   "other_id": "persian-church-of-the-east-early",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "The persecutor is the Sasanian state, not a movement; the victims are the Persian church this entry overlaps with."
+  },
+  {
+   "movement": "syriac-edessa-nisibis",
+   "field": "longDescription",
+   "sentence": "Not until 410, when the Roman bishop Marutha brokered a synod with the favor of Yazdegerd I, the Persian king, did the Persian church finally receive a single settled order—the last thing this tradition's own record has to say.",
+   "other_id": "persian-church-of-the-east-early",
+   "disposition": "link",
+   "link_id": "syriac-edessa-nisibis--persian-church-of-the-east-early",
+   "prose_change": 0,
+   "reason": "The 410 synod is the hinge of the new continued-as link (Chabot, Synodicon orientale, lines 17745-17746, 17861). Marutha's own contact with the Persian church is already carried by imperial-juridical-christianity--persian-church-of-the-east-early."
+  },
+  {
+   "movement": "syriac-edessa-nisibis",
+   "field": "longDescription",
+   "sentence": "In 338, Shapur II of Persia besieged Nisibis; Ephrem, the city's own hymnwriter, remembered its deliverance as an act of God worked through ordinary defenders, while a later account added a swarm of gnats to the story.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "State actor (Sasanian Persia), not a movement."
+  },
+  {
+   "movement": "syriac-edessa-nisibis",
+   "field": "legacy",
+   "sentence": "The Assyrian Church of the East, the Syriac Orthodox Church, and the Eastern Catholic churches in communion with Rome all descend from this tradition, still worship in Syriac, and still sing Ephrem's hymns in their own liturgies.",
+   "other_id": "persian-church-of-the-east-early",
+   "disposition": "link",
+   "link_id": "syriac-edessa-nisibis--persian-church-of-the-east-early",
+   "prose_change": 0,
+   "reason": "Descent of the Church of the East runs through the new continued-as link and the successor entries' own continuesAs chain."
+  },
+  {
+   "movement": "syriac-edessa-nisibis",
+   "field": "legacy",
+   "sentence": "The Assyrian Church of the East, the Syriac Orthodox Church, and the Eastern Catholic churches in communion with Rome all descend from this tradition, still worship in Syriac, and still sing Ephrem's hymns in their own liturgies.",
+   "other_id": "syriac-orthodox-west-syriac-christianity",
+   "disposition": "link",
+   "link_id": "syriac-edessa-nisibis--syriac-orthodox-west-syriac-christianity",
+   "prose_change": 0,
+   "reason": "New gave-rise-to link."
+  },
+  {
+   "movement": "syriac-edessa-nisibis",
+   "field": "legacy",
+   "sentence": "The Assyrian Church of the East, the Syriac Orthodox Church, and the Eastern Catholic churches in communion with Rome all descend from this tradition, still worship in Syriac, and still sing Ephrem's hymns in their own liturgies.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "The Eastern Catholic churches descend through later entries (e.g. the Chaldean consolidation, era 9); that descent belongs to those entries' links, not this one."
+  },
+  {
+   "movement": "syriac-edessa-nisibis",
+   "field": "legacy",
+   "sentence": "Missionaries carried the faith east along the trade routes into Persia and India, and by the seventh century as far as Tang-dynasty China.",
+   "other_id": "persian-church-of-the-east-early",
+   "disposition": "link",
+   "link_id": "syriac-edessa-nisibis--persian-church-of-the-east-early",
+   "prose_change": 0,
+   "reason": "Persia is covered by the continued-as link."
+  },
+  {
+   "movement": "syriac-edessa-nisibis",
+   "field": "legacy",
+   "sentence": "Missionaries carried the faith east along the trade routes into Persia and India, and by the seventh century as far as Tang-dynasty China.",
+   "other_id": "st-thomas-christians-of-india",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "The sentence names no community; India and China were reached by the Church of the East in later centuries, and those entries carry that descent (the-church-of-the-east-under-persia's own text names the St Thomas Christians)."
+  },
+  {
+   "movement": "syriac-edessa-nisibis",
+   "field": "legacy",
+   "sentence": "Missionaries carried the faith east along the trade routes into Persia and India, and by the seventh century as far as Tang-dynasty China.",
+   "other_id": "the-church-of-the-east-on-the-silk-road",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Seventh-century China belongs to the Church of the East's later entries, not to this 200-410 community."
+  },
+  {
+   "movement": "syriac-edessa-nisibis",
+   "field": "legacy",
+   "sentence": "Centuries later, Syriac translators became the channel through which Greek philosophy and medicine reached the Arabic-speaking world, and from there passed back into Europe.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Transmission route, not a movement; the sentence already places it 'centuries later', and the-church-of-the-east-under-persia's own legacy carries it."
+  },
+  {
+   "movement": "syriac-edessa-nisibis",
+   "field": "legacy",
+   "sentence": "A separate school of formal theological training later grew up at Nisibis—founded around 490, two generations after this tradition's own record closes—and became one of the ancient world's most important centers of Christian education, distinct from the teaching Jacob and Ephrem had given the same city a century earlier.",
+   "other_id": "the-church-of-the-east-under-persia",
+   "disposition": "link",
+   "link_id": "syriac-edessa-nisibis--the-church-of-the-east-under-persia",
+   "prose_change": 0,
+   "reason": "The School of Nisibis belongs to the-church-of-the-east-under-persia (its own text says so), not to the early Persian entry. The kept influenced link carries the Edessa-to-Nisibis school line (Barhadbeshabba; Chronicle of Edessa 73). The sentence is consistent with it: it separates the school from Ephrem's teaching at Nisibis, while Barhadbeshabba ties it to his school at Edessa."
+  },
+  {
+   "movement": "bardaisanite-current",
+   "field": "relationsSummary",
+   "sentence": "Edessa's most famous Christian intellectual before Ephraim, and Ephraim's principal local opponent a century and a half later; a near neighbor of syriac-edessa-nisibis rather than an outsider to it.",
+   "other_id": "syriac-edessa-nisibis",
+   "disposition": "link",
+   "link_id": "syriac-edessa-nisibis--bardaisanite-current",
+   "prose_change": 0,
+   "reason": "'Ephraim's principal local opponent' is carried by the kept argued-against link."
+  },
+  {
+   "movement": "bardaisanite-current",
+   "field": "relationsSummary",
+   "sentence": "Edessa's most famous Christian intellectual before Ephraim, and Ephraim's principal local opponent a century and a half later; a near neighbor of syriac-edessa-nisibis rather than an outsider to it.",
+   "other_id": "syriac-edessa-nisibis",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "'A near neighbor ... rather than an outsider' describes membership, which none of the six link types names; the influenced and argued-against links carry the actual relationship. Note: the field shows a raw census id ('syriac-edessa-nisibis') in public text; flagged as a doc-hygiene item outside this task."
+  },
+  {
+   "movement": "bardaisanite-current",
+   "field": "longDescription",
+   "sentence": "He wrote against Marcion, he was baptized in the Edessene church, and he ran a school whose hymns Ephraim would later complain were better than the orthodox ones - which is why Ephraim wrote hymns.",
+   "other_id": "marcion-marcionism",
+   "disposition": "link",
+   "link_id": "bardaisanite-current--marcion-marcionism",
+   "prose_change": 2,
+   "reason": "New argued-against link: Eusebius HE IV.30.1 (npnf201 26634-26637)."
+  },
+  {
+   "movement": "bardaisanite-current",
+   "field": "longDescription",
+   "sentence": "He wrote against Marcion, he was baptized in the Edessene church, and he ran a school whose hymns Ephraim would later complain were better than the orthodox ones - which is why Ephraim wrote hymns.",
+   "other_id": "syriac-edessa-nisibis",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Baptism in the Edessene church is biography (membership), not a link type. Unchecked here; the floorNote repeats it."
+  },
+  {
+   "movement": "bardaisanite-current",
+   "field": "longDescription",
+   "sentence": "He wrote against Marcion, he was baptized in the Edessene church, and he ran a school whose hymns Ephraim would later complain were better than the orthodox ones - which is why Ephraim wrote hymns.",
+   "other_id": "syriac-edessa-nisibis",
+   "disposition": "qualify",
+   "link_id": "bardaisanite-current--syriac-edessa-nisibis",
+   "prose_change": 2,
+   "reason": "Ephraim complained of sweetened poison, not of better hymns, and his earliest hymns predate the controversy. Rewritten; the hymn contest itself is carried by the new influenced link."
+  },
+  {
+   "movement": "bardaisanite-current",
+   "field": "longDescription",
+   "sentence": "The Book of the Laws of Countries, written by his pupil Philip, presents him arguing that human freedom is real against the fatalism of the astrologers, which is a thoroughly Christian argument.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Astrologers are not a movement. Claim supported: Book of the Laws of Divers Countries, anf08 from line 67888 (e.g. 68879 'the astrologers have invented')."
+  },
+  {
+   "movement": "bardaisanite-current",
+   "field": "longDescription",
+   "sentence": "Ephraim, writing a century and a half later in the same city, presents him as a heretic with a cosmology of primordial beings and a defective doctrine of the body's resurrection.",
+   "other_id": "syriac-edessa-nisibis",
+   "disposition": "link",
+   "link_id": "syriac-edessa-nisibis--bardaisanite-current",
+   "prose_change": 0,
+   "reason": "Kept argued-against link. Also seen: Nisibene Hymn 51 in npnf213 11200-11223 (on the body's resurrection)."
+  },
+  {
+   "movement": "bardaisanite-current",
+   "field": "why",
+   "sentence": "Bardaisan of Edessa was a courtier, philosopher, and baptized member of the Edessene church who wrote against Marcion and argued that human freedom is real against the fatalism of the astrologers.",
+   "other_id": "marcion-marcionism",
+   "disposition": "link",
+   "link_id": "bardaisanite-current--marcion-marcionism",
+   "prose_change": 0,
+   "reason": "Same new link; astrologers no-entry as above."
+  },
+  {
+   "movement": "bardaisanite-current",
+   "field": "why",
+   "sentence": "His hymns were popular enough that, a century and a half later, Ephraim the Syrian felt he had to write better ones, even while accusing Bardaisan of a heretical cosmology of primordial beings.",
+   "other_id": "syriac-edessa-nisibis",
+   "disposition": "link",
+   "link_id": "bardaisanite-current--syriac-edessa-nisibis",
+   "prose_change": 0,
+   "reason": "New influenced link; Sozomen III.16 says the Syrians were 'charmed' and Ephraim composed similar orthodox poems, which supports 'felt he had to write better ones'. No change."
+  },
+  {
+   "movement": "bardaisanite-current",
+   "field": "legacy",
+   "sentence": "Syriac hymnody as a form owes something to both sides of this argument: Bardaisan and his son Harmonius set the pattern, and Ephraim's decision to answer them in the same form gave the Syriac church the madrasha tradition that shaped its worship for centuries.",
+   "other_id": "syriac-edessa-nisibis",
+   "disposition": "link",
+   "link_id": "bardaisanite-current--syriac-edessa-nisibis",
+   "prose_change": 0,
+   "reason": "New influenced link (Ephraim CH 53 via Gwynn; Sozomen III.16; Theodoret IV.26)."
+  },
+  {
+   "movement": "manichaeism",
+   "field": "relationsSummary",
+   "sentence": "Augustine's own former allegiance",
+   "other_id": "latin-pastoral-congregational-christianity",
+   "disposition": "link",
+   "link_id": "latin-pastoral-congregational-christianity--manichaeism",
+   "prose_change": 0,
+   "reason": "Augustine's years as a Hearer are biography; the movement-level relationship is his later polemic, carried by the new argued-against link. Confessions IV.1 is cited in it for the nine years."
+  },
+  {
+   "movement": "manichaeism",
+   "field": "longDescription",
+   "sentence": "Mani was born in Mesopotamia in 216 and raised in a Jewish-Christian baptizing sect before breaking with it after what he described as revelations from his heavenly twin.",
+   "other_id": "ebionite-nazoraean-current",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "The inventory's match to ebionite-nazoraean-current is wrong: the text does not name that current, and the baptist sect (the Mugtasila of the Fihrist; Elchasaites in modern reading) has no census entry. Vendored support covers the baptizers only (npnf104 828-829, 943); 'Jewish-Christian' rests on the Cologne Mani Codex, not vendored or repo-cited. Qualified per the brief."
+  },
+  {
+   "movement": "manichaeism",
+   "field": "longDescription",
+   "sentence": "Almost uniquely among founders of his era he wrote his own scriptures and had them translated deliberately, intending a faith that could absorb and supersede Christianity, Zoroastrianism and Buddhism at once.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Christianity as a whole has no single census entry. Claim supported: Mani's own words quoted from Albiruni in Newman's introduction, npnf104 line 1041 ('... Zoroaster in the land of Persia, and Jesus in the land of the West, so at last ... this preaching came through me')."
+  },
+  {
+   "movement": "manichaeism",
+   "field": "longDescription",
+   "sentence": "Almost uniquely among founders of his era he wrote his own scriptures and had them translated deliberately, intending a faith that could absorb and supersede Christianity, Zoroastrianism and Buddhism at once.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Zoroastrianism and Buddhism are not census movements; same support (npnf104 1041)."
+  },
+  {
+   "movement": "manichaeism",
+   "field": "longDescription",
+   "sentence": "Augustine of Hippo was a Hearer for roughly nine years before his conversion, and spent much of his later career arguing against the teachers he had once sat under.",
+   "other_id": "latin-pastoral-congregational-christianity",
+   "disposition": "link",
+   "link_id": "latin-pastoral-congregational-christianity--manichaeism",
+   "prose_change": 0,
+   "reason": "New argued-against link (Contra Faustum I.1; Confessions IV.1)."
+  },
+  {
+   "movement": "manichaeism",
+   "field": "longDescription",
+   "sentence": "Mani himself died in custody under the Persian king Bahram I in the 270s.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "State actor and biography. Seen: Burkitt's table, ephraim file line 2578 ('killed by Bahram (Varanes I) ... 273')."
+  },
+  {
+   "movement": "manichaeism",
+   "field": "why",
+   "sentence": "Mani, born in Mesopotamia in 216, broke from the Jewish-Christian sect that raised him after what he described as revelations from his heavenly twin,",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "Same as the longDescription sentence: qualified."
+  },
+  {
+   "movement": "manichaeism",
+   "field": "legacy",
+   "sentence": "In the West it was hunted by emperors and by the church and had largely vanished by the sixth century, though the word 'Manichaean' survived for centuries afterwards as an insult aimed at anyone thought too fond of dualism.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Emperors are state actors and 'the church' is no single entry. Support for the laws: Boyd, Ecclesiastical Edicts of the Theodosian Code (1905), cic/texts/boyd_ecclesiastical-edicts-theodosian-code_1905.txt lines 6220, 6562."
+  },
+  {
+   "movement": "manichaeism",
+   "field": "legacy",
+   "sentence": "In the East it lasted far longer: it was for a time the state religion of the Uyghur Khaganate from the 760s, and persisted in southern China for many centuries.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "A state, not a movement. The 760s adoption is not in any vendored or repo-cited text; only 'many were Manichaeans' (Yule-Cordier 1914, lines 3217-3223). Qualified."
+  },
+  {
+   "movement": "ebionite-nazoraean-current",
+   "field": "relationsSummary",
+   "sentence": "These communities are the clearest evidence that Christianity began inside Judaism.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Judaism is not a census movement, and the sentence states a historical origin, not a link."
+  },
+  {
+   "movement": "ebionite-nazoraean-current",
+   "field": "relationsSummary",
+   "sentence": "Modern Messianic Jewish movements are sometimes compared to them, but no line of descent connects the two.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "States the absence of a relationship to non-census movements; nothing to link."
+  },
+  {
+   "movement": "ebionite-nazoraean-current",
+   "field": "longDescription",
+   "sentence": "Later heresy-hunting writers — Irenaeus, Origen, Eusebius, Epiphanius, Jerome — describe them under two names, 'Ebionites', from the Hebrew for the poor, and 'Nazoraeans', reporting that they used their own Hebrew or Aramaic gospel, honored James the brother of Jesus, and regarded Paul as an apostate from the Law.",
+   "other_id": "alexandria-catechetical",
+   "disposition": "link",
+   "link_id": "alexandria-catechetical--ebionite-nazoraean-current",
+   "prose_change": 0,
+   "reason": "New argued-against link: Origen, De principiis IV.1.22 (anf04 34023-34025)."
+  },
+  {
+   "movement": "ebionite-nazoraean-current",
+   "field": "longDescription",
+   "sentence": "Later heresy-hunting writers — Irenaeus, Origen, Eusebius, Epiphanius, Jerome — describe them under two names, 'Ebionites', from the Hebrew for the poor, and 'Nazoraeans', reporting that they used their own Hebrew or Aramaic gospel, honored James the brother of Jesus, and regarded Paul as an apostate from the Law.",
+   "other_id": "hieronymian-ascetic-literary",
+   "disposition": "link",
+   "link_id": "hieronymian-ascetic-literary--ebionite-nazoraean-current",
+   "prose_change": 0,
+   "reason": "New argued-against link: Jerome to Augustine, 404 (npnf101 33601-33609)."
+  },
+  {
+   "movement": "ebionite-nazoraean-current",
+   "field": "longDescription",
+   "sentence": "Later heresy-hunting writers — Irenaeus, Origen, Eusebius, Epiphanius, Jerome — describe them under two names, 'Ebionites', from the Hebrew for the poor, and 'Nazoraeans', reporting that they used their own Hebrew or Aramaic gospel, honored James the brother of Jesus, and regarded Paul as an apostate from the Law.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Irenaeus has no census entry naming him as a member (valentinian-and-other-gnostic-christianities names him only as their critic). Claim supported: Adv. haer. I.26.2 (anf01 33534-33538: 'They use the Gospel according to Matthew only, and repudiate the Apostle Paul, maintaining that he was an apostate from the law')."
+  },
+  {
+   "movement": "ebionite-nazoraean-current",
+   "field": "longDescription",
+   "sentence": "Later heresy-hunting writers — Irenaeus, Origen, Eusebius, Epiphanius, Jerome — describe them under two names, 'Ebionites', from the Hebrew for the poor, and 'Nazoraeans', reporting that they used their own Hebrew or Aramaic gospel, honored James the brother of Jesus, and regarded Paul as an apostate from the Law.",
+   "other_id": "palestinian-church-pre-constantinian",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Eusebius's notice (HE III.27, npnf201 18442-18520: 'The ancients quite properly called these men Ebionites') is a real argued-against text, but his Church History was finished after 312, the close of palestinian-church-pre-constantinian, and its earliest dating is disputed. Not drafted; a reviewer may decide whether it belongs to that entry."
+  },
+  {
+   "movement": "ebionite-nazoraean-current",
+   "field": "longDescription",
+   "sentence": "Later heresy-hunting writers — Irenaeus, Origen, Eusebius, Epiphanius, Jerome — describe them under two names, 'Ebionites', from the Hebrew for the poor, and 'Nazoraeans', reporting that they used their own Hebrew or Aramaic gospel, honored James the brother of Jesus, and regarded Paul as an apostate from the Law.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Epiphanius has no census entry. His Panarion 29-30 (Nazoraeans, Ebionites) is not vendored: the vendored Holl volume starts at haer. 34. The sentence only says he described them, which is not in doubt; no rewrite needed, but the text is wanted."
+  },
+  {
+   "movement": "ebionite-nazoraean-current",
+   "field": "legacy",
+   "sentence": "They disappear from the record by roughly the fifth century, absorbed into the wider church or back into Judaism or simply gone, and the gospel material attributed to them survives only as quotations in the writers who opposed them.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "The sentence lists possible fates without claiming any one; 'the wider church' and 'Judaism' are not single census entries."
+  },
+  {
+   "movement": "ebionite-nazoraean-current",
+   "field": "legacy",
+   "sentence": "Modern Messianic Jewish movements are sometimes compared to them, but no line of descent connects them.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Denies a relationship; nothing to link."
+  },
+  {
+   "movement": "ebionite-nazoraean-current",
+   "field": "legacy",
+   "sentence": "They are the standing reminder that Christianity began inside Judaism, and that the separation of the two was slower, later and far more contested than a tidy account allows.",
+   "other_id": null,
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Interpretive statement about origins, not a movement-to-movement relationship."
+  }
+ ],
+ "links": [
+  {
+   "id": "syriac-edessa-nisibis--bardaisanite-current",
+   "action": "keep",
+   "named_in_text": "Named in both: syriac-edessa-nisibis longDescription ('answering by name the teachings of the philosopher Bardaisan'); bardaisanite-current relationsSummary ('Ephraim's principal local opponent') and longDescription."
+  },
+  {
+   "id": "syriac-edessa-nisibis--the-church-of-the-east-under-persia",
+   "action": "keep",
+   "named_in_text": "Named in both: syriac-edessa-nisibis relationsSummary ('Parent of the Church of the East') and the-church-of-the-east-under-persia relationsSummary ('a direct heir of the Syriac Christian tradition')."
+  },
+  {
+   "id": "syriac-edessa-nisibis--marcion-marcionism",
+   "action": "new",
+   "from": "syriac-edessa-nisibis",
+   "to": "marcion-marcionism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Ephraim the Syrian wrote prose discourses against Marcion and his followers. He names Marcion and attacks his teaching that a 'Stranger' God stands apart from the Maker.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "syr.source.ephrem-prose-refutations",
+     "work": "Ephraim, Prose Refutations, Against Marcion I (trans. Mitchell, Bevan and Burkitt, vol. II, 1921)",
+     "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt",
+     "lines": "1609",
+     "locus": "Against Marcion I",
+     "quote": "But if Marcion still persists in cavilling, let him be asked again as to whether he believes the word of the Stranger or not.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "syr.source.ephrem-prose-refutations",
+     "work": "Ephraim, Prose Refutations, Against Marcion I (trans. Mitchell, Bevan and Burkitt, vol. II, 1921)",
+     "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt",
+     "lines": "1603",
+     "locus": "Against Marcion I, on the two Gods",
+     "quote": "namely the Maker and the Stranger, are both of them angry at the same thing, and take pleasure in the same thing, and are gratified by the same thing.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "syriac-edessa-nisibis longDescription: 'answering by name the teachings ... of Marcion'.",
+   "wants": [],
+   "drafter_flags": [
+    "marcion-marcionism is another group's movement; its own text names Tertullian, not Ephraim, as its refuter, so this link may also be proposed (or not) from that side. Check for a duplicate when merging.",
+    "The second quote opens mid-sentence after a bracketed editorial insertion ('[these] two Gods'); it starts at 'namely' to avoid the brackets. Reviewer may prefer the first quote alone."
+   ],
+   "change_reason": "New: the Syriac text names Marcion among the teachers it answered; Ephraim's vendored refutations address him by name."
+  },
+  {
+   "id": "syriac-edessa-nisibis--manichaeism",
+   "action": "new",
+   "from": "syriac-edessa-nisibis",
+   "to": "manichaeism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Ephraim the Syrian addressed prose discourses to Hypatius against Mani, Marcion and Bardaisan. In one he says he has 'opposed Mani also with a true refutation', attacking Mani's picture of God as a land of light.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "syr.source.ephrem-prose-refutations",
+     "work": "Ephraim, Prose Refutations, Third Discourse to Hypatius (trans. Mitchell, vol. I, 1912)",
+     "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt",
+     "lines": "640",
+     "locus": "Third Discourse to Hypatius, on Mani's teaching",
+     "quote": "And, therefore, on these grounds we have opposed Mani also with a true refutation. For he, too, calls God the Earth of Light, which (Earth) is not perfect",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "syr.source.ephrem-prose-refutations",
+     "work": "Ephraim, Prose Refutations, Second Discourse to Hypatius, title (trans. Mitchell, vol. I, 1912)",
+     "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt",
+     "lines": "403",
+     "locus": "Second Discourse to Hypatius, heading",
+     "quote": "THE SECOND (DISCOURSE) TO HYPATIUS AGAINST MANI AND MARCION AND BARDAISAN",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "syriac-edessa-nisibis longDescription: 'answering by name the teachings ... of Mani'. manichaeism's own text does not name Ephraim or Edessa; the link stands on the Syriac side's text.",
+   "wants": [],
+   "drafter_flags": [
+    "The discourse heading may be Mitchell's rendering of the manuscript title, not Ephraim's own words; the line 640 quote alone carries the relationship."
+   ],
+   "change_reason": "New: the Syriac text names Mani among the teachers it answered; Ephraim's vendored refutations name and refute him."
+  },
+  {
+   "id": "bardaisanite-current--marcion-marcionism",
+   "action": "new",
+   "from": "bardaisanite-current",
+   "to": "marcion-marcionism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Eusebius, writing in the early fourth century, says Bardaisan wrote dialogues in Syriac against Marcion's followers. He adds that Bardaisan's pupils translated them into Greek. The dialogues themselves are lost.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "syr.source.eusebius-historia-ecclesiastica",
+     "work": "Eusebius, Church History IV.30 (trans. McGiffert, NPNF 2.1, 1890)",
+     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+     "lines": "26634-26637",
+     "locus": "HE IV.30.1",
+     "quote": "having composed dialogues against Marcion’s followers and against certain others who were authors of various opinions, committed them to writing in his own language, together with many other works.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "bardaisanite-current longDescription and why: 'He wrote against Marcion'.",
+   "wants": [
+    "A surviving text of Bardaisan's dialogues against the Marcionites (lost), or Theodoret, Haereticarum fabularum compendium I.22, which also names them (not vendored)"
+   ],
+   "drafter_flags": [
+    "Documented rests on one witness, Eusebius, about a century after Bardaisan; Eusebius says he knew the works in Greek translation. The syr world's own source record rates his Bardaisan notice the most reliable ancient witness. A reviewer may prefer Widely Accepted, but no repo-cited secondary work states this point, so that grade is not available."
+   ],
+   "change_reason": "New: Bardaisan's text says he wrote against Marcion; Eusebius reports the dialogues."
+  },
+  {
+   "id": "bardaisanite-current--syriac-edessa-nisibis",
+   "action": "new",
+   "from": "bardaisanite-current",
+   "to": "syriac-edessa-nisibis",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Ephraim complained that Bardaisan 'fashioned hymns, and joined them with tunes'. Sozomen and Theodoret, writing in the fifth century, say Ephraim answered the songs of Bardaisan's son Harmonius with orthodox songs to the same music.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ephraim, Hymns against Heresies 53, as translated in John Gwynn's introduction (NPNF 2.13, 1898)",
+     "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+     "lines": "11241-11243",
+     "locus": "Hymns against Heresies 53",
+     "quote": "He fashioned hymns, and joined them with tunes; and composed psalms, and brought in moods.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "syr.source.sozomen-historia-ecclesiastica",
+     "work": "Sozomen, Ecclesiastical History III.16 (trans. Hartranft, NPNF 2.2, 1890)",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "32098-32100",
+     "locus": "HE III.16",
+     "quote": "he applied himself to the understanding of the metres of Harmonius, and composed similar poems in accordance with the doctrines of the Church",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "syr.source.theodoret-historia-ecclesiastica",
+     "work": "Theodoret, Ecclesiastical History IV.26 (trans. Jackson, NPNF 2.3, 1892)",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "15063-15065",
+     "locus": "HE IV.26 (NPNF numbering)",
+     "quote": "Ephraim adopted the music of the songs, but set them to piety, and so gave the hearers at once great delight and a healing medicine.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "bardaisanite-current legacy ('Ephraim's decision to answer them in the same form gave the Syriac church the madrasha tradition') and why. syriac-edessa-nisibis's own text does not name the hymn contest; proposed note line is the link itself. Optional: none needed, since the Bardaisan side names it.",
+   "wants": [
+    "Ephraim's Hymns against Heresies in a full vendored translation (Beck's CSCO edition or an English version); the vendored wording is a quotation inside Gwynn's 1898 introduction"
+   ],
+   "drafter_flags": [
+    "The Ephraim quote is Ephraim's words as quoted in Gwynn's introduction, not a vendored text of the hymns themselves.",
+    "Sozomen and Theodoret are fifth-century Greek historians at a remove from Edessa. Gwynn notes (same file, line 12731) that whether Bardaisan or Harmonius wrote in Ephraim's metres 'has been questioned'. The note claims tunes and songs, not metre, in line with the syr world's madrasha record.",
+    "This is a second link on the pair, opposite in direction and type to the kept 'argued against' link; each is separately evidenced."
+   ],
+   "change_reason": "New: Bardaisan's legacy text says Syriac hymnody owes its form to both sides; three vendored witnesses show Ephraim taking up the rival songs' form."
+  },
+  {
+   "id": "latin-pastoral-congregational-christianity--manichaeism",
+   "action": "new",
+   "from": "latin-pastoral-congregational-christianity",
+   "to": "manichaeism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Augustine, bishop of Hippo, spent nine years among the Manichaeans in his youth, as his Confessions record. Around 400 he wrote a long reply to Faustus, a Manichaean teacher he had once met.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "lpc.source.augustine-anti-manichaean-corpus",
+     "work": "Augustine, Reply to Faustus the Manichaean I.1 (trans. Stothert, NPNF 1.4)",
+     "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml",
+     "lines": "4305",
+     "locus": "Contra Faustum I.1",
+     "quote": "he was eloquent and clever, but had adopted the shocking tenets of the Manichæan heresy.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "lpc.source.augustine-anti-manichaean-corpus",
+     "work": "Augustine, Reply to Faustus the Manichaean I.1 (trans. Stothert, NPNF 1.4)",
+     "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml",
+     "lines": "4308",
+     "locus": "Contra Faustum I.1",
+     "quote": "This man published a certain volume against the true Christian faith and the Catholic truth.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "lpc.source.augustine-confessions",
+     "work": "Augustine, Confessions IV.1 (NPNF 1.1)",
+     "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+     "lines": "6335-6344",
+     "locus": "Conf. IV.1",
+     "quote": "There, seeking to be purged from these our corruptions by carrying food to those who were called “elect” and “holy,”",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "manichaeism longDescription ('Augustine of Hippo was a Hearer for roughly nine years ... arguing against the teachers he had once sat under') and relationsSummary. latin-pastoral-congregational-christianity's text names Augustine as bishop of Hippo but not the Manichaeans; the link follows the member-to-container ruling already used for its Pelagian and Donatist links.",
+   "wants": [],
+   "drafter_flags": [
+    "'Around 400' rests on the NPNF dating of the Reply to Faustus (same file, lines 629 and 4292).",
+    "The Confessions quote does not itself say 'Manichaeans'; the chapter heading in the same file (line 6312) does ('he followed the Manichæans'), and the Hearer role is shown by carrying food to the 'elect'.",
+    "Translator (Stothert) and the date A.D. 400 are confirmed in the volume contents, npnf104 lines 626-631."
+   ],
+   "change_reason": "New: the Manichaean text names Augustine arguing against his former teachers; his vendored Reply to Faustus is directed at a named Manichaean."
+  },
+  {
+   "id": "alexandria-catechetical--ebionite-nazoraean-current",
+   "action": "new",
+   "from": "alexandria-catechetical",
+   "to": "ebionite-nazoraean-current",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In On First Principles, written at Alexandria, Origen rejects the Ebionites' reading of Jesus' words about the lost sheep of Israel. He mocks their name as meaning 'poor in understanding'.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "alx.source.origen-de-principiis",
+     "work": "Origen, On First Principles IV.1.22, translated from the Greek (trans. Crombie, ANF 4, 1885)",
+     "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+     "lines": "34023-34026",
+     "locus": "De princ. IV.1.22 (Greek)",
+     "quote": "do not understand the expression as the Ebionites do, who are poor in under­standing (deriving their name from the poverty of their intellect—“Ebion” sig­nifying “poor” in Hebrew)",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "syr.source.eusebius-historia-ecclesiastica",
+     "work": "Eusebius, Church History VI.24, chapter title (trans. McGiffert, NPNF 2.1, 1890)",
+     "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+     "lines": "35968",
+     "locus": "HE VI.24, title",
+     "quote": "The Commentaries which he prepared at Alexandria.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "ebionite-nazoraean-current longDescription: 'Later heresy-hunting writers — Irenaeus, Origen, ... describe them'. alexandria-catechetical's text names Origen but not the Ebionites; member-to-container ruling.",
+   "wants": [],
+   "drafter_flags": [
+    "The Origen quote carries two soft hyphens (U+00AD) exactly as in the vendored file ('under­standing', 'sig­nifying'); keep them or the verbatim check fails.",
+    "The Eusebius source is a chapter title (translator's heading) placing De Principiis among Origen's Alexandrian works; HE VI.24.3 names De Principiis in that chapter (line 36069).",
+    "Origen also names 'the two sects of Ebionites' as rejecting Paul in Against Celsus V.65 (anf04 lines 53780-53783), but that work was written at Caesarea, so it would belong to palestinian-church-pre-constantinian, not this link."
+   ],
+   "change_reason": "New: the Ebionite text names Origen among the writers who described them; his vendored De Principiis argues against them by name."
+  },
+  {
+   "id": "hieronymian-ascetic-literary--ebionite-nazoraean-current",
+   "action": "new",
+   "from": "hieronymian-ascetic-literary",
+   "to": "ebionite-nazoraean-current",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In a letter to Augustine of 404, Jerome names the Ebionites and a sect he calls the Nazarenes. He says the Nazarenes want to be both Jews and Christians, and so are neither.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "hal.source.augustine-letters",
+     "work": "Jerome, letter to Augustine (Augustine, Letter 75; Jerome, Letter 112), §13 (trans. Cunningham, NPNF 1.1)",
+     "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+     "lines": "33601-33609",
+     "locus": "Aug. Ep. 75.13",
+     "quote": "Why do I speak of the Ebionites, who make pretensions to the name of Christian?",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "hal.source.augustine-letters",
+     "work": "Jerome, letter to Augustine (Augustine, Letter 75; Jerome, Letter 112), §13 (trans. Cunningham, NPNF 1.1)",
+     "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+     "lines": "33608-33609",
+     "locus": "Aug. Ep. 75.13",
+     "quote": "But while they desire to be both Jews and Christians, they are neither the one nor the other.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "ebionite-nazoraean-current longDescription: '... Epiphanius, Jerome — describe them'. hieronymian-ascetic-literary's text names Jerome but not the Ebionites; member-to-container ruling.",
+   "wants": [],
+   "drafter_flags": [
+    "The date 404 is the NPNF heading of the letter (npnf101 line 33142: 'a.d. 404')."
+   ],
+   "change_reason": "New: the Ebionite text names Jerome among the writers who described them; his vendored letter argues against them by name."
+  },
+  {
+   "id": "syriac-edessa-nisibis--persian-church-of-the-east-early",
+   "action": "new",
+   "from": "syriac-edessa-nisibis",
+   "to": "persian-church-of-the-east-early",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "Nisibis passed to Persia in 363, and its church passed with it. At the synod of 410, its bishop Osee signed the Persian church's acts as a metropolitan. Historians treat that church as a daughter of Edessa's Christianity.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Barhadbeshabba, The Cause of the Foundation of the Schools (French translation, Scher 1908)",
+     "file": "cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt",
+     "lines": "20437-20438",
+     "locus": "Ephrem at Edessa",
+     "quote": "lorsque la ville de Nisibe fut livrée aux Perses, se retira à Édesse, où il passa le reste de sa vie",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodicon orientale, Synod of Mar Isaac (410), signatures (Chabot 1902, French translation)",
+     "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+     "lines": "17861",
+     "locus": "Synod of 410, signatures",
+     "quote": "3. Moi, OséE, cv. de Nisibe, J'adhère à tout ce qui est écrit ci-dessus.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Synodicon orientale, Synod of Mar Isaac (410), canon on the metropolitan sees (Chabot 1902, French translation)",
+     "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+     "lines": "17745-17746",
+     "locus": "Synod of 410, list of metropolitans",
+     "quote": "Second méiropo- litain : Osée, év. de Nisibe.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. A. Wigram, An Introduction to the History of the Assyrian Church, 100-640 A.D. (1910), pp. 25-26",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "syriac-edessa-nisibis relationsSummary ('Parent of the Church of the East'), its continuesAs field, and its longDescription close (the synod of 410); persian-church-of-the-east-early relationsSummary ('Direct heir of the Syriac tradition's Nisibis side').",
+   "wants": [
+    "A secondary work the repo already cites that states the Nisibis-to-Persia continuity directly (Wigram states the Edessene parentage of the Persian church in general terms)"
+   ],
+   "drafter_flags": [
+    "Grade is Widely Accepted, not Documented: the 410 signatures show the see of Nisibis inside the Persian church's order, but 'the same community' is an interpretation. Wigram (pp. 25-26, vendored) calls the 'Church of the Easterns' the 'daughter' of Edessa and says its Edessene origin 'is admitted'.",
+    "The Chabot quotes keep the OCR forms verbatim ('OséE', 'cv.', 'méiropo- litain'); the second quote joins a line-end hyphen across lines 17745-17746 with a single space as the brief allows. A reviewer may drop it and keep line 17861 alone.",
+    "The two entries overlap in date (300-410). The census already carries continuesAs to this entry; this link gives that field its sources. Only the Nisibis side passed to Persia; Edessa's side is carried by the proposed gave-rise-to link to the Syriac Orthodox entry."
+   ],
+   "change_reason": "New: gives the existing continuesAs pairing a sourced link, and carries the text's 'Parent of the Church of the East' and its 410 synod sentence."
+  },
+  {
+   "id": "syriac-edessa-nisibis--syriac-orthodox-west-syriac-christianity",
+   "action": "new",
+   "from": "syriac-edessa-nisibis",
+   "to": "syriac-orthodox-west-syriac-christianity",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "The Chronicle of Edessa goes on listing the city's bishops after 410. In 519 a bishop who accepted Chalcedon expelled the monks who refused it. Later the anti-Chalcedonian leader Jacob Baradaeus was consecrated bishop for Edessa.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "syr.source.chronicle-of-edessa",
+     "work": "Chronicle of Edessa, sections 51 and 90 (trans. Cowper)",
+     "file": "cic/texts/chronicle-of-edessa_cowper.txt",
+     "lines": "223",
+     "locus": "Chron. Edessa 90 (An. 831 = 519)",
+     "quote": "he expelled the Oriental monks, and all the monks their allies who were like them, because they did not consent to the synod of Chalcedon.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "syr.source.chronicle-of-edessa",
+     "work": "Chronicle of Edessa, section 51 (trans. Cowper)",
+     "file": "cic/texts/chronicle-of-edessa_cowper.txt",
+     "lines": "145",
+     "locus": "Chron. Edessa 51 (An. 723 = 411/12)",
+     "quote": "The year 723, Rabula became bishop in Edessa.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John of Ephesus, Lives of the Eastern Saints, ch. 49, on James (Jacob Baradaeus) (trans. Brooks, PO 18-19)",
+     "file": "cic/texts/john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt",
+     "lines": "26280-26282",
+     "locus": "Lives 49",
+     "quote": "And, when both had received the high-priesthood, that is the blessed James that of the city of Edessa and Theodore that of Hirtha of the Saracens'",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. A. Wigram, An Introduction to the History of the Assyrian Church, 100-640 A.D. (1910), pp. 25-26",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "syriac-edessa-nisibis relationsSummary ('Parent of ... the Syriac Orthodox Church') and legacy ('descend from this tradition'); syriac-orthodox-west-syriac-christianity relationsSummary ('Heir of the Syriac tradition's Roman side (Ephrem's Edessa)').",
+   "wants": [
+    "Menze, Justinian and the Making of the Syrian Orthodox Church (2008), or Frend, The Rise of the Monophysite Movement (1972): both are named in Build/worlds/wsyr/Doc_02_Source_Ecology.md but neither has been consulted"
+   ],
+   "drafter_flags": [
+    "Wigram (pp. 25-26) says the Edessene church 'was merged in that ecclesiastical circle that developed into the Patriarchate of Antioch'. That supports the Edessa-to-Antioch line in general, not the Syriac Orthodox by name; a reviewer may judge Inferential-Thin more honest.",
+    "The link spans a gap: this entry ends in 410 and the Syriac Orthodox entry opens in 451. The Chronicle's list of bishops carries the see of Edessa across it.",
+    "Cowper's own note (chronicle file line 354) asks why the expelled monks were called 'Oriental' at Edessa; they may not all have been Edessenes.",
+    "John of Ephesus (Lives 49) has Jacob consecrated for Edessa while living at Constantinople; the wsyr Doc_02 notes he was consecrated in absentia. The note says 'for Edessa' for that reason.",
+    "The date 519 is computed from the Chronicle's Seleucid year 831 (entry 89-90, December); check the conversion."
+   ],
+   "change_reason": "New: the Syriac text calls itself parent of the Syriac Orthodox Church; the vendored chronicle and John of Ephesus show the see of Edessa passing into the anti-Chalcedonian hierarchy."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 1,
+   "movement": "syriac-edessa-nisibis",
+   "field": "relationsSummary",
+   "old": "Parent of the Church of the East and the Syriac Orthodox Church; the channel through which Greek philosophy and medicine passed into Arabic and back to Europe.",
+   "new": "Parent of the Church of the East and the Syriac Orthodox Church. Their translators later carried Greek philosophy and medicine into Arabic, and from there back to Europe.",
+   "reason": "The translation movement into Arabic belongs to the 8th-9th-century heirs (the-church-of-the-east-under-persia's own legacy says so), not to this 200-410 community; the legacy field already says 'Centuries later'.",
+   "fre_before": 47.83,
+   "fre_after": 56.66
+  },
+  {
+   "n": 2,
+   "movement": "bardaisanite-current",
+   "field": "longDescription",
+   "old": "He wrote against Marcion, he was baptized in the Edessene church, and he ran a school whose hymns Ephraim would later complain were better than the orthodox ones - which is why Ephraim wrote hymns.",
+   "new": "He wrote against Marcion, and he was baptized in the Edessene church. He and his school made hymns that Ephraim later accused of sweetening poison for the simple, and Ephraim answered them with hymns of his own.",
+   "reason": "Ephraim's own words (Hymns against Heresies 53, quoted in npnf213 lines 11241-11244: 'He blended for the simple poison with sweetness') complain of sweetened poison, not of better hymns. 'Which is why Ephraim wrote hymns' overstates: Gwynn (npnf213 11225-11233) reports the biographer's claim that this controversy first led Ephraim to hymnody, but notes that the Nisibene hymns of c. 350 are earlier and not controversial. Sozomen III.16 and Theodoret IV.26 support the answer in kind.",
+   "fre_before": 53.23,
+   "fre_after": 55.35
+  },
+  {
+   "n": 3,
+   "movement": "manichaeism",
+   "field": "longDescription",
+   "old": "raised in a Jewish-Christian baptizing sect before breaking with it",
+   "new": "raised in a sect of baptizers before breaking with it",
+   "reason": "The vendored evidence (the Fihrist as summarised by Newman, npnf104 lines 828-829 and 943) shows Mani's father joined the Mugtasila ('Baptizers') and that Mani was told to leave his father's religion. That the sect was Jewish-Christian rests on the Cologne Mani Codex, which is neither vendored nor cited in the repo.",
+   "fre_before": 42.24,
+   "fre_after": 42.87
+  },
+  {
+   "n": 4,
+   "movement": "manichaeism",
+   "field": "why",
+   "old": "broke from the Jewish-Christian sect that raised him",
+   "new": "broke from the sect of baptizers that raised him",
+   "reason": "Same evidence as change 3.",
+   "fre_before": 49.5,
+   "fre_after": 49.5
+  },
+  {
+   "n": 5,
+   "movement": "manichaeism",
+   "field": "legacy",
+   "old": "In the East it lasted far longer: it was for a time the state religion of the Uyghur Khaganate from the 760s, and persisted in southern China for many centuries.",
+   "new": "In the East it lasted far longer. Many Uyghur Turks of Central Asia followed it, and it persisted in southern China for many centuries.",
+   "reason": "No vendored or repo-cited text attests the Uyghur khagan's adoption of Manichaeism in the 760s. The vendored Yule-Cordier Cathay vol. 3 (1914), lines 3217-3223, citing von Le Coq, says many Uyghur 'were Manichaeans'. The China clause is kept unchanged.",
+   "fre_before": 33.3,
+   "fre_after": 42.59
+  }
+ ],
+ "wants": [
+  "Ephraim's Hymns against Heresies in a full vendored translation, to quote his complaint about Bardaisan's hymns directly rather than through Gwynn's 1898 introduction",
+  "Theodoret, Haereticarum fabularum compendium I.22 (names Bardaisan's dialogues against Marcion and Harmonius)",
+  "The Cologne Mani Codex in a vendored edition or a repo-cited study, to support 'a Jewish-Christian baptizing sect' (Elchasaites)",
+  "A source for the Uyghur khagan's adoption of Manichaeism in the 760s (e.g. the Karabalgasun inscription in translation)",
+  "Epiphanius, Panarion 29-30 (Nazoraeans and Ebionites); the vendored Holl volume begins at haer. 34",
+  "Menze (2008) or Frend (1972) on the making of the Syriac Orthodox Church: named in Build/worlds/wsyr/Doc_02_Source_Ecology.md, never consulted",
+  "A repo-cited secondary work stating the Nisibis-to-Persian-church continuity directly"
+ ],
+ "escalations": [
+  "Grading call for Mark: the Syriac Orthodox and Persian-church links are drafted Widely Accepted on Wigram (1910), whose wording supports the Edessene parentage only in general terms. If that is judged too thin, both drop to Inferential-Thin, which would display a well-known descent as thin.",
+  "The brief's no-entry rule forced two true but unsourced claims out of the Manichaeism text ('Jewish-Christian' sect; Uyghur state religion from the 760s). Both are standard scholarship. Mark may prefer to vendor a source rather than soften the text."
+ ]
+}

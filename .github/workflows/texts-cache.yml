@@ -1,0 +1,46 @@
+name: Vendored texts cache
+
+# cic/texts holds 1.9 GB of the repository's 2.9 GB and the jobs that read it
+# spent 3 to 10+ minutes checking it out. This workflow saves the directory in
+# the Actions cache, keyed on its git tree hash, whenever main changes. CI jobs
+# restore it (read-only) before falling back to a normal checkout, so a pull
+# request that does not touch cic/texts takes the texts from the cache, and one
+# that does (a different tree hash) takes them from git.
+#
+# A cache saved on main can be read by every pull request; one saved on a
+# pull request branch cannot, which is why only this workflow saves it.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'cic/texts/**'
+      - '.github/workflows/texts-cache.yml'
+  workflow_dispatch:
+
+jobs:
+  save:
+    name: Save cic/texts to the cache
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            /*
+            !/cic/texts/
+            !/cic-website/audio/
+          sparse-checkout-cone-mode: false
+      - name: Tree hash of cic/texts
+        id: texts
+        run: echo "tree=$(git rev-parse HEAD:cic/texts)" >> "$GITHUB_OUTPUT"
+      - name: Restore, or save at the end of this job
+        id: cache
+        uses: actions/cache@v4
+        with:
+          path: cic/texts
+          key: texts-${{ steps.texts.outputs.tree }}
+      - name: Write out cic/texts when the cache has no copy
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: git sparse-checkout add /cic/texts/

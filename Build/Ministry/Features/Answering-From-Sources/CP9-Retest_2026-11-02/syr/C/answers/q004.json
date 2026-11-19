@@ -1,0 +1,374 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.was-jesus-god",
+    "syr.dw.jesus"
+   ],
+   "sentence": "To us Jesus is God, the Only-Begotten, whom we call the Ihidaya, and we said so in our own way of speaking."
+  },
+  {
+   "record_ids": [
+    "syr.dw.was-jesus-god"
+   ],
+   "sentence": "We gave that faith through a chain of Scripture's own names, not through a philosopher's definition."
+  },
+  {
+   "record_ids": [
+    "syr.quote.aphrahat-sure-thing"
+   ],
+   "sentence": "The Persian sage wrote in Demonstration XVII: “It is a sure thing with us that Jesus our Lord is God, the Son of God, the King, and the King's Son. He is Light of Light, Creator, and Counsellor. He is Guide, the Way, Redeemer, and Shepherd. He is Gatherer, the Door, the Pearl, and the Lamp.”"
+  },
+  {
+   "record_ids": [
+    "syr.dw.jesus"
+   ],
+   "sentence": "The Only-Begotten left his place with God and made his home in the Virgin."
+  },
+  {
+   "record_ids": [
+    "syr.dw.was-jesus-god"
+   ],
+   "sentence": "Asked about the Trinity, we answered from our font, where our baptismal hymns sing the Father rejoicing with his Son and the Spirit over the baptized."
+  },
+  {
+   "record_ids": [
+    "syr.dw.was-jesus-god"
+   ],
+   "sentence": "Our teachers held that in baptism's second birth the believer received the Holy Spirit."
+  },
+  {
+   "record_ids": [
+    "syr.dw.was-jesus-god"
+   ],
+   "sentence": "They also warned against prying scrutiny into the Godhead, because what God is, is better sung than dissected."
+  },
+  {
+   "record_ids": [
+    "syr.dw.was-jesus-god"
+   ],
+   "sentence": "Our own tongue for that faith was praise."
+  },
+  {
+   "record_ids": [
+    "syr.story.jacob-nicaea"
+   ],
+   "sentence": "Our tradition keeps a memory of Jacob, our bishop of Nisibis:"
+  },
+  {
+   "record_ids": [
+    "syr.story.jacob-nicaea"
+   ],
+   "sentence": "Jacob, bishop of Nisibis, is remembered among the bishops at the great council of Nicaea."
+  },
+  {
+   "record_ids": [
+    "syr.story.jacob-nicaea"
+   ],
+   "sentence": "In the year 325, bishops from the whole world gathered there to answer Arius."
+  },
+  {
+   "record_ids": [
+    "syr.story.jacob-nicaea"
+   ],
+   "sentence": "Our tradition holds Jacob to be one voice from our Syriac-speaking frontier."
+  },
+  {
+   "record_ids": [
+    "syr.story.jacob-nicaea"
+   ],
+   "sentence": "He stood with those who confessed the Son as true God."
+  },
+  {
+   "record_ids": [
+    "syr.story.jacob-nicaea"
+   ],
+   "sentence": "Nothing survives of what Jacob said or did at the council."
+  },
+  {
+   "record_ids": [
+    "syr.story.jacob-nicaea"
+   ],
+   "sentence": "The lists of its signers were pieced together by later hands, and they carry his name among the assembled bishops."
+  },
+  {
+   "record_ids": [
+    "syr.story.jacob-nicaea"
+   ],
+   "sentence": "Theodoret of Cyrus, a Greek church historian of the next century, also counts him among them."
+  },
+  {
+   "record_ids": [
+    "syr.story.jacob-nicaea"
+   ],
+   "sentence": "No document from the fourth century itself confirms that he was there."
+  },
+  {
+   "record_ids": [
+    "syr.story.jacob-nicaea"
+   ],
+   "sentence": "At home in Nisibis, Ephrem praised Jacob as the city's wall."
+  }
+ ],
+ "citations": [
+  "syr.dw.jesus",
+  "syr.dw.was-jesus-god",
+  "syr.quote.aphrahat-sure-thing",
+  "syr.story.jacob-nicaea"
+ ],
+ "group": "A",
+ "id": "q004",
+ "net_sentences": [
+  {
+   "draft": "To us Jesus is God, the Only-Begotten, whom we call the Ihidaya, and we said so in our own way of speaking [[syr.dw.was-jesus-god]] [[syr.dw.jesus]] [[as:paraphrase]].",
+   "ratio": 0.78,
+   "sentence": "To us Jesus is God, the Only-Begotten, whom we call the Ihidaya, and we said so in our own way of speaking.",
+   "tags": [
+    "syr.dw.was-jesus-god",
+    "syr.dw.jesus"
+   ],
+   "verdict": "ok",
+   "why": "grounded 78% in own tagged records"
+  },
+  {
+   "draft": "We gave that faith through a chain of Scripture's own names, not through a philosopher's definition [[syr.dw.was-jesus-god]] [[as:paraphrase]].",
+   "ratio": 0.86,
+   "sentence": "We gave that faith through a chain of Scripture's own names, not through a philosopher's definition.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ],
+   "verdict": "ok",
+   "why": "grounded 86% in own tagged records"
+  },
+  {
+   "draft": "The Persian sage wrote in Demonstration XVII: [[quote:syr.quote.aphrahat-sure-thing]]",
+   "placed_quote": "syr.quote.aphrahat-sure-thing",
+   "sentence": "The Persian sage wrote in Demonstration XVII: “It is a sure thing with us that Jesus our Lord is God, the Son of God, the King, and the King's Son. He is Light of Light, Creator, and Counsellor. He is Guide, the Way, Redeemer, and Shepherd. He is Gatherer, the Door, the Pearl, and the Lamp.”",
+   "tags": [
+    "syr.quote.aphrahat-sure-thing"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "The Only-Begotten left his place with God and made his home in the Virgin [[syr.dw.jesus]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The Only-Begotten left his place with God and made his home in the Virgin.",
+   "tags": [
+    "syr.dw.jesus"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Asked about the Trinity, we answered from our font, where our baptismal hymns sing the Father rejoicing with his Son and the Spirit over the baptized [[syr.dw.was-jesus-god]] [[as:paraphrase]].",
+   "sentence": "Asked about the Trinity, we answered from our font, where our baptismal hymns sing the Father rejoicing with his Son and the Spirit over the baptized.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our teachers held that in baptism's second birth the believer received the Holy Spirit [[syr.dw.was-jesus-god]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Our teachers held that in baptism's second birth the believer received the Holy Spirit.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "They also warned against prying scrutiny into the Godhead, because what God is, is better sung than dissected [[syr.dw.was-jesus-god]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "They also warned against prying scrutiny into the Godhead, because what God is, is better sung than dissected.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Our own tongue for that faith was praise [[syr.dw.was-jesus-god]] [[as:paraphrase]].",
+   "sentence": "Our own tongue for that faith was praise.",
+   "tags": [
+    "syr.dw.was-jesus-god"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our tradition keeps a memory of Jacob, our bishop of Nisibis: [[story:syr.story.jacob-nicaea]]",
+   "ratio": 1.0,
+   "sentence": "Our tradition keeps a memory of Jacob, our bishop of Nisibis:",
+   "tags": [
+    "syr.story.jacob-nicaea"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Jacob, bishop of Nisibis, is remembered among the bishops at the great council of Nicaea [[syr.story.jacob-nicaea]].",
+   "placed_story": "syr.story.jacob-nicaea",
+   "sentence": "Jacob, bishop of Nisibis, is remembered among the bishops at the great council of Nicaea.",
+   "tags": [
+    "syr.story.jacob-nicaea"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "In the year 325, bishops from the whole world gathered there to answer Arius [[syr.story.jacob-nicaea]].",
+   "placed_story": "syr.story.jacob-nicaea",
+   "sentence": "In the year 325, bishops from the whole world gathered there to answer Arius.",
+   "tags": [
+    "syr.story.jacob-nicaea"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Our tradition holds Jacob to be one voice from our Syriac-speaking frontier [[syr.story.jacob-nicaea]].",
+   "placed_story": "syr.story.jacob-nicaea",
+   "sentence": "Our tradition holds Jacob to be one voice from our Syriac-speaking frontier.",
+   "tags": [
+    "syr.story.jacob-nicaea"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "He stood with those who confessed the Son as true God [[syr.story.jacob-nicaea]].",
+   "placed_story": "syr.story.jacob-nicaea",
+   "sentence": "He stood with those who confessed the Son as true God.",
+   "tags": [
+    "syr.story.jacob-nicaea"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Nothing survives of what Jacob said or did at the council [[syr.story.jacob-nicaea]].",
+   "placed_story": "syr.story.jacob-nicaea",
+   "sentence": "Nothing survives of what Jacob said or did at the council.",
+   "tags": [
+    "syr.story.jacob-nicaea"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "The lists of its signers were pieced together by later hands, and they carry his name among the assembled bishops [[syr.story.jacob-nicaea]].",
+   "placed_story": "syr.story.jacob-nicaea",
+   "sentence": "The lists of its signers were pieced together by later hands, and they carry his name among the assembled bishops.",
+   "tags": [
+    "syr.story.jacob-nicaea"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Theodoret of Cyrus, a Greek church historian of the next century, also counts him among them [[syr.story.jacob-nicaea]].",
+   "placed_story": "syr.story.jacob-nicaea",
+   "sentence": "Theodoret of Cyrus, a Greek church historian of the next century, also counts him among them.",
+   "tags": [
+    "syr.story.jacob-nicaea"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "No document from the fourth century itself confirms that he was there [[syr.story.jacob-nicaea]].",
+   "placed_story": "syr.story.jacob-nicaea",
+   "sentence": "No document from the fourth century itself confirms that he was there.",
+   "tags": [
+    "syr.story.jacob-nicaea"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "At home in Nisibis, Ephrem praised Jacob as the city's wall [[syr.story.jacob-nicaea]].",
+   "placed_story": "syr.story.jacob-nicaea",
+   "sentence": "At home in Nisibis, Ephrem praised Jacob as the city's wall.",
+   "tags": [
+    "syr.story.jacob-nicaea"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "syr.dw.was-jesus-god",
+  "syr.term.raza-shrara",
+  "syr.story.jacob-nicaea",
+  "syr.quote.aphrahat-sure-thing",
+  "syr.gravity.covenant-life",
+  "syr.contested.edessa-origins",
+  "syr.dw.god",
+  "syr.quote.basil-credits-a-syrian",
+  "syr.quote.a-man-called-wise-amongst-the-jews",
+  "syr.dw.jesus",
+  "syr.story.abgar-addai-legend",
+  "syr.quote.ephrem-only-begotten-dwelling",
+  "syr.quote.nativity-this-is-the-day",
+  "syr.dw.corpus-and-its-edges",
+  "syr.quote.abgar-letter",
+  "syr.quote.chronicle-flood-line"
+ ],
+ "raw_text": "To us Jesus is God, the Only-Begotten, whom we call the Ihidaya, and we said so in our own way of speaking [[syr.dw.was-jesus-god]] [[syr.dw.jesus]] [[as:paraphrase]]. We gave that faith through a chain of Scripture's own names, not through a philosopher's definition [[syr.dw.was-jesus-god]] [[as:paraphrase]]. The Persian sage wrote in Demonstration XVII: [[quote:syr.quote.aphrahat-sure-thing]] [[as:paraphrase]]. The Only-Begotten left his place with God and made his home in the Virgin [[syr.dw.jesus]] [[as:paraphrase]]. Asked about the Trinity, we answered from our font, where our baptismal hymns sing the Father rejoicing with his Son and the Spirit over the baptized [[syr.dw.was-jesus-god]] [[as:paraphrase]]. Our teachers held that in baptism's second birth the believer received the Holy Spirit [[syr.dw.was-jesus-god]] [[as:paraphrase]]. They also warned against prying scrutiny into the Godhead, because what God is, is better sung than dissected [[syr.dw.was-jesus-god]] [[as:paraphrase]]. Our own tongue for that faith was praise [[syr.dw.was-jesus-god]] [[as:paraphrase]]. Our tradition keeps a memory of Jacob, our bishop of Nisibis: [[story:syr.story.jacob-nicaea]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "syr.quote.aphrahat-sure-thing": [
+    {
+     "detail": "Demonstration",
+     "kind": "name",
+     "snippet": "erd, Gatherer, and the Door, and the Pearl, and the Lamp In Demonstration XVII Aphrahat affirms as sure among his people that Jesus i",
+     "span": "record syr.quote.aphrahat-sure-thing"
+    },
+    {
+     "detail": "XVII",
+     "kind": "name",
+     "snippet": "hepherd. He is Gatherer, the Door, the Pearl, and the Lamp. XVII.2 it is a sure thing with us, that Jesus our Lord is God, t",
+     "span": "record syr.quote.aphrahat-sure-thing"
+    },
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "the Persian sage whose dated letters survive where his life does not - a voice from inside the",
+     "span": "record syr.figure.aphrahat"
+    }
+   ]
+  },
+  "placed": [
+   "syr.story.jacob-nicaea",
+   "syr.quote.aphrahat-sure-thing"
+  ],
+  "removed": [],
+  "repaired": [],
+  "story_lengths": {
+   "syr.story.jacob-nicaea": "full"
+  }
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C1.S2",
+ "text": "To us Jesus is God, the Only-Begotten, whom we call the Ihidaya, and we said so in our own way of speaking. We gave that faith through a chain of Scripture's own names, not through a philosopher's definition. The Persian sage wrote in Demonstration XVII: “It is a sure thing with us that Jesus our Lord is God, the Son of God, the King, and the King's Son. He is Light of Light, Creator, and Counsellor. He is Guide, the Way, Redeemer, and Shepherd. He is Gatherer, the Door, the Pearl, and the Lamp.”. The Only-Begotten left his place with God and made his home in the Virgin. Asked about the Trinity, we answered from our font, where our baptismal hymns sing the Father rejoicing with his Son and the Spirit over the baptized. Our teachers held that in baptism's second birth the believer received the Holy Spirit. They also warned against prying scrutiny into the Godhead, because what God is, is better sung than dissected. Our own tongue for that faith was praise. Our tradition keeps a memory of Jacob, our bishop of Nisibis:\n\nJacob, bishop of Nisibis, is remembered among the bishops at the great council of Nicaea. In the year 325, bishops from the whole world gathered there to answer Arius. Our tradition holds Jacob to be one voice from our Syriac-speaking frontier. He stood with those who confessed the Son as true God.\n\nNothing survives of what Jacob said or did at the council. The lists of its signers were pieced together by later hands, and they carry his name among the assembled bishops. Theodoret of Cyrus, a Greek church historian of the next century, also counts him among them. No document from the fourth century itself confirms that he was there.\n\nAt home in Nisibis, Ephrem praised Jacob as the city's wall..",
+ "voice_set_aside": false
+}

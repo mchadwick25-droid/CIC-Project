@@ -1,0 +1,147 @@
+{
+  "name": "Benedict of Nursia",
+  "otherNames": [
+    "Benedictus",
+    "Bennet"
+  ],
+  "knownFor": "Founder of the monasteries of Subiaco and Monte Cassino and author of the Rule for monks, whose life is known through Gregory the Great's Dialogues; the Frankish church took up his Rule to restore the monastic life, and in 802 Charlemagne ordered monasteries put right by it.",
+  "dates": "Born, by Edmund Gardner, about 480, and by Francis Gasquet in 480; died, by the tradition of his order, in 543, as both give it. Gregory the Great gives no years. Gardner dates the founding of Monte Cassino to 528 or 529",
+  "place": "Nursia; Rome; Subiaco; Monte Cassino",
+  "tradition": "Early Benedictine / Italian Monasticism",
+  "role": "Monk and abbot; author of the Rule",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "The Rule of Saint Benedict",
+      "about": "a prologue and seventy-three chapters on the life of a monastery: obedience, the hours of prayer, manual work and holy reading, the abbot, and the reception of guests as Christ; at its end it calls itself a little rule for beginners"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "His Rule, which Gregory the Great calls \"excellent for discretion and also eloquent for the style\", survives in Latin, and Francis Gasquet and Oswald Hunter Blair translate it into English.",
+      "Gregory says he built twelve monasteries near Subiaco, with twelve monks in each, before he founded Monte Cassino.",
+      "Carloman, duke of the Franks, had his council of 742 tell monks and nuns to live by the Rule of Saint Benedict, and at the next council the abbots and monks received it \"ad restaurandam normam regularis vitae\".",
+      "In 802, the annals of Lorsch say, Charlemagne had the abbots and monks at Aachen read the Rule together and ordered whatever in the monasteries went against it to be put right by it."
+    ],
+    "remembered": [
+      "Gregory the Great gave the whole second book of his Dialogues to his miracles and wrote that \"the holy man could not otherwise teach, than himself lived.\"",
+      "Gregory names the four disciples he had his stories from: Constantinus, the next abbot after him; Valentinianus, long in charge of the Lateran monastery; Simplicius, the third head of his order; and Honoratus, abbot of the house where Benedict first began."
+    ]
+  },
+  "uncertain": [
+    "Nearly all that is known of his life comes from one witness, Gregory the Great's Dialogues, a book of miracles written to honor a saint. Gregory says he could not learn all that Benedict did and had his stories from four disciples. At least one story he had at second hand: Honoratus heard it from other monks.",
+    "Gregory gives no years. The birth about 480 and the death in 543 are Edmund Gardner's and Francis Gasquet's; both call 543 the tradition. Gardner says the date he left Rome is disputed and puts it a few years before 500.",
+    "Gasquet thinks Benedict probably conceived the Rule at Subiaco and finished it at Monte Cassino. Gregory says only that he wrote it.",
+    "What the Rule did. Francis Gasquet, a Benedictine editor, judges that the Rule put a written code in place of an abbot's personal will, and calls it practically the only monastic Rule of the West from the ninth to the twelfth century.",
+    "The second council. The edition of the capitularies records that Hefele and Hahn held the council of Estinnes to be Carloman's and Pippin's together; its editor argues it was Carloman's.",
+    "The modern English of Benedict's words to Totila, \"You do many evil things\", follows Gregory's Latin, \"Multa mala facis, multa mala fecisti\" (Acta Sanctorum, March, vol. 3), which has no word for \"daily\"; the 1608 English adds it. \"Outstanding for its sound judgment and clear in its language\" likewise leaves out the 1608 \"also\", which the Latin lacks."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Rule of Saint Benedict (tr. Francis Aidan Gasquet)",
+        "language": "English translation",
+        "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt"
+      },
+      {
+        "title": "The Rule of St. Benedict (ed. and tr. D. Oswald Hunter Blair)",
+        "language": "Latin, with English translation",
+        "file": "cic/texts/benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Dialogues, Book II: the Life and Miracles of St. Benedict",
+        "author": "Gregory the Great",
+        "language": "English translation of 1608, ed. Edmund G. Gardner",
+        "file": "cic/texts/gregory-great_dialogues_gardner1911.txt"
+      },
+      {
+        "title": "Introduction and notes to the Dialogues",
+        "author": "Edmund G. Gardner",
+        "language": "English",
+        "file": "cic/texts/gregory-great_dialogues_gardner1911.txt"
+      },
+      {
+        "title": "Introduction to the Rule",
+        "author": "Francis Aidan Gasquet",
+        "language": "English",
+        "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt"
+      },
+      {
+        "title": "Capitulary of Carloman (742), with Boniface's letter; the council of Estinnes; the Aachen synod of 802 from the annals of Lorsch",
+        "author": "Monumenta Germaniae Historica, Capitularia regum Francorum I",
+        "date": "1881",
+        "language": "Latin",
+        "file": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt"
+      },
+      {
+        "title": "Conferences, in Nicene and Post-Nicene Fathers, second series, vol. 11",
+        "author": "John Cassian",
+        "language": "English translation",
+        "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml"
+      }
+    ]
+  },
+  "briefReferences": [
+    "Dialogues II, prologue, tr. 1608, ed. Edmund G. Gardner: born in the province of Nursia, sent to Rome to study, students falling into loose living; his four disciples as Gregory's sources. Book II is the only early Life of Benedict, and Gregory tells it to show the miracles of a holy man.",
+    "Dialogues II.3: the twelve monasteries near Subiaco.",
+    "Dialogues II.8: Cassino, the worship of Apollo, the chapel of Martin, the preaching.",
+    "Dialogues II.15: Totila, \"Much wickedness do you daily commit\", the king less cruel after.",
+    "Dialogues II.36: the Rule, \"excellent for discretion and also eloquent for the style\".",
+    "Dialogues IV.30: Theodoric, king of the Goths in Italy.",
+    "Rule, Prologue, tr. Francis Aidan Gasquet: \"a school for the service of God, in which we hope nothing harsh nor burdensome will be ordained\".",
+    "Rule, ch. 48: manual labor and holy reading. Ch. 58: \"stability, amendment of manners and obedience\". Ch. 64: the abbot who tempers all things. Ch. 73: the Lives of the Fathers, the Rule of Basil, the Collations.",
+    "Cassian, Institutes and Conferences: his own title for the Conferences of the Fathers, the book the Rule calls the Collations.",
+    "MGH Capitularia I, no. 10: Boniface on Carloman, duke of the Franks, and the church trampled for sixty or seventy years; the council of 742 and the Rule for monks and nuns.",
+    "MGH Capitularia I, no. 11 (Estinnes): the abbots and monks receive the Rule \"ad restaurandam normam regularis vitae\".",
+    "MGH Capitularia I, the Aachen synod of 802, from the annals of Lorsch: the Rule read, and the monasteries put right by it.",
+    "World census, Early Benedictine / Italian Monasticism: his tradition."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "You do many evil things.",
+      "printed": "Much wickedness do you daily commit.",
+      "work": "Gregory the Great, Dialogues II.15, tr. 1608, ed. Edmund G. Gardner",
+      "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
+      "lines": "4472-4473",
+      "secondReading": "same"
+    },
+    {
+      "modern": "a school for the Lord's service, and in setting it up we hope to lay down nothing harsh and nothing heavy.",
+      "printed": "a school for the service of God, in which we hope nothing harsh nor burdensome will be ordained.",
+      "work": "Rule, Prologue, tr. Francis Aidan Gasquet",
+      "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
+      "lines": "768-770",
+      "secondReading": "minor",
+      "uncertain": "A reads \"in which\" as the school and says \"God\"; B reads it as the founding (\"institutione\") and says \"the Lord\" (\"dominici\"); both readings kept."
+    },
+    {
+      "modern": "stability, a changed way of life, and obedience,",
+      "printed": "stability, amendment of manners and obedience,",
+      "work": "Rule, ch. 58, tr. Gasquet",
+      "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
+      "lines": "3595-3596",
+      "secondReading": "minor",
+      "uncertain": "\"conversio morum\" is a turning of one's way of life (A: \"a change\", B: \"reformed\"); both readings kept."
+    },
+    {
+      "modern": "that the strong have something to long for and the weak do not run away.",
+      "printed": "that the strong may have their scope and the weak be not scared.",
+      "work": "Rule, ch. 64, tr. Gasquet",
+      "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
+      "lines": "3960-3961",
+      "secondReading": "minor",
+      "uncertain": "\"refugiant\" = the weak flee of themselves (A: \"frightened away\"); B's \"driven away\" implies an outside push; both readings kept."
+    },
+    {
+      "modern": "outstanding for its sound judgment and clear in its language,",
+      "printed": "excellent for discretion and also eloquent for the style,",
+      "work": "Gregory the Great, Dialogues II.36, tr. 1608, ed. Gardner",
+      "file": "cic/texts/gregory-great_dialogues_gardner1911.txt",
+      "lines": "5567-5568",
+      "secondReading": "minor",
+      "uncertain": "\"discretio\" is judgment and a sense of measure (A: \"sound judgment\", B: \"wise moderation\"); \"luculentus\" is clear rather than eloquent; both readings kept. The FINAL drops Gardner's \"also\", which the Latin lacks."
+    }
+  ]
+}

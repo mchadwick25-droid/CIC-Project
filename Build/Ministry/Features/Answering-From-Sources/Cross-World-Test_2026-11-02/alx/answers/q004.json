@@ -1,0 +1,233 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.dw.was-jesus-god",
+    "alx.term.logos"
+   ],
+   "sentence": "From the beginning we worshiped Jesus as the Logos, God's own Word, and we baptized into Father, Son, and Holy Spirit."
+  },
+  {
+   "record_ids": [
+    "alx.dw.was-jesus-god"
+   ],
+   "sentence": "Clement and Origen name the Logos God the Word without embarrassment."
+  },
+  {
+   "record_ids": [
+    "alx.dw.god"
+   ],
+   "sentence": "We believed in one God, the maker of all things, and his Word and his Spirit are his own, not lesser gods and not created things."
+  },
+  {
+   "record_ids": [
+    "alx.dw.god"
+   ],
+   "sentence": "The Word and the Spirit were said to be God's own with full clarity only after Nicaea."
+  },
+  {
+   "record_ids": [
+    "alx.dw.was-jesus-god"
+   ],
+   "sentence": "Arius taught that the Son was the first and highest creature."
+  },
+  {
+   "record_ids": [
+    "alx.dw.was-jesus-god",
+    "alx.term.homoousios"
+   ],
+   "sentence": "The council at Nicaea answered with homoousios, of one substance with the Father."
+  },
+  {
+   "record_ids": [
+    "alx.term.homoousios"
+   ],
+   "sentence": "Homoousios said the Son is fully God and not a creature, and in its own century the word was contested as unscriptural."
+  },
+  {
+   "record_ids": [
+    "alx.dw.was-jesus-god"
+   ],
+   "sentence": "Athanasius explains why the fathers reached for a word not found in scripture: every scriptural phrase had been swallowed by the other side with a private meaning of its own."
+  },
+  {
+   "record_ids": [
+    "alx.dw.was-jesus-god"
+   ],
+   "sentence": "The Trinity as textbooks define it lies mostly beyond our time, so what we hold is the worship, the baptismal formula, and the conviction that only God can join us to God."
+  },
+  {
+   "record_ids": [
+    "alx.quote.athanasius-made-god"
+   ],
+   "sentence": "Athanasius, in On the Incarnation 54, wrote: “For he was made man, so that we might be made God...”"
+  }
+ ],
+ "citations": [
+  "alx.dw.god",
+  "alx.dw.was-jesus-god",
+  "alx.quote.athanasius-made-god",
+  "alx.term.homoousios",
+  "alx.term.logos"
+ ],
+ "group": "A",
+ "id": "q004",
+ "net_sentences": [
+  {
+   "draft": "From the beginning we worshiped Jesus as the Logos, God's own Word, and we baptized into Father, Son, and Holy Spirit [[alx.dw.was-jesus-god]] [[alx.term.logos]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "From the beginning we worshiped Jesus as the Logos, God's own Word, and we baptized into Father, Son, and Holy Spirit.",
+   "tags": [
+    "alx.dw.was-jesus-god",
+    "alx.term.logos"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Clement and Origen name the Logos God the Word without embarrassment [[alx.dw.was-jesus-god]] [[as:paraphrase]].",
+   "ratio": 0.86,
+   "sentence": "Clement and Origen name the Logos God the Word without embarrassment.",
+   "tags": [
+    "alx.dw.was-jesus-god"
+   ],
+   "verdict": "ok",
+   "why": "grounded 86% in own tagged records"
+  },
+  {
+   "draft": "We believed in one God, the maker of all things, and his Word and his Spirit are his own, not lesser gods and not created things [[alx.dw.god]] [[as:paraphrase]].",
+   "sentence": "We believed in one God, the maker of all things, and his Word and his Spirit are his own, not lesser gods and not created things.",
+   "tags": [
+    "alx.dw.god"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The Word and the Spirit were said to be God's own with full clarity only after Nicaea [[alx.dw.god]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The Word and the Spirit were said to be God's own with full clarity only after Nicaea.",
+   "tags": [
+    "alx.dw.god"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Arius taught that the Son was the first and highest creature [[alx.dw.was-jesus-god]] [[as:paraphrase]].",
+   "sentence": "Arius taught that the Son was the first and highest creature.",
+   "tags": [
+    "alx.dw.was-jesus-god"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The council at Nicaea answered with homoousios, of one substance with the Father [[alx.dw.was-jesus-god]] [[alx.term.homoousios]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The council at Nicaea answered with homoousios, of one substance with the Father.",
+   "tags": [
+    "alx.dw.was-jesus-god",
+    "alx.term.homoousios"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Homoousios said the Son is fully God and not a creature, and in its own century the word was contested as unscriptural [[alx.term.homoousios]] [[as:paraphrase]].",
+   "sentence": "Homoousios said the Son is fully God and not a creature, and in its own century the word was contested as unscriptural.",
+   "tags": [
+    "alx.term.homoousios"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Athanasius explains why the fathers reached for a word not found in scripture: every scriptural phrase had been swallowed by the other side with a private meaning of its own [[alx.dw.was-jesus-god]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Athanasius explains why the fathers reached for a word not found in scripture: every scriptural phrase had been swallowed by the other side with a private meaning of its own.",
+   "tags": [
+    "alx.dw.was-jesus-god"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The Trinity as textbooks define it lies mostly beyond our time, so what we hold is the worship, the baptismal formula, and the conviction that only God can join us to God [[alx.dw.was-jesus-god]] [[as:paraphrase]].",
+   "sentence": "The Trinity as textbooks define it lies mostly beyond our time, so what we hold is the worship, the baptismal formula, and the conviction that only God can join us to God.",
+   "tags": [
+    "alx.dw.was-jesus-god"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Athanasius, in On the Incarnation 54, wrote: [[quote:alx.quote.athanasius-made-god]]",
+   "placed_quote": "alx.quote.athanasius-made-god",
+   "sentence": "Athanasius, in On the Incarnation 54, wrote: “For he was made man, so that we might be made God...”",
+   "tags": [
+    "alx.quote.athanasius-made-god"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  }
+ ],
+ "offered": [
+  "alx.dw.was-jesus-god",
+  "alx.term.logos",
+  "alx.term.homoousios",
+  "alx.story.john-young-robber",
+  "alx.quote.clement-possessions",
+  "alx.quote.no-sun-no-moon-no-sky",
+  "alx.gravity.divine-pedagogy",
+  "alx.contested.origen-positions",
+  "alx.dw.god",
+  "alx.quote.clement-schoolmaster",
+  "alx.term.homoiosis",
+  "alx.quote.athanasius-made-god",
+  "alx.dw.suffering",
+  "alx.term.episkopos",
+  "alx.term.ekklesia",
+  "alx.story.leonides-martyrdom",
+  "alx.quote.clement-bee",
+  "alx.gravity.learning-formation",
+  "alx.contested.didaskaleion-institution",
+  "alx.gravity.learning-community-tension"
+ ],
+ "raw_text": "From the beginning we worshiped Jesus as the Logos, God's own Word, and we baptized into Father, Son, and Holy Spirit [[alx.dw.was-jesus-god]] [[alx.term.logos]] [[as:paraphrase]]. Clement and Origen name the Logos God the Word without embarrassment [[alx.dw.was-jesus-god]] [[as:paraphrase]].\n\nWe believed in one God, the maker of all things, and his Word and his Spirit are his own, not lesser gods and not created things [[alx.dw.god]] [[as:paraphrase]]. The Word and the Spirit were said to be God's own with full clarity only after Nicaea [[alx.dw.god]] [[as:paraphrase]].\n\nArius taught that the Son was the first and highest creature [[alx.dw.was-jesus-god]] [[as:paraphrase]]. The council at Nicaea answered with homoousios, of one substance with the Father [[alx.dw.was-jesus-god]] [[alx.term.homoousios]] [[as:paraphrase]]. Homoousios said the Son is fully God and not a creature, and in its own century the word was contested as unscriptural [[alx.term.homoousios]] [[as:paraphrase]].\n\nAthanasius explains why the fathers reached for a word not found in scripture: every scriptural phrase had been swallowed by the other side with a private meaning of its own [[alx.dw.was-jesus-god]] [[as:paraphrase]]. The Trinity as textbooks define it lies mostly beyond our time, so what we hold is the worship, the baptismal formula, and the conviction that only God can join us to God [[alx.dw.was-jesus-god]] [[as:paraphrase]].\n\nAthanasius, in On the Incarnation 54, wrote: [[quote:alx.quote.athanasius-made-god]]\n",
+ "reply_shape": {
+  "leadin_support": {
+   "alx.quote.athanasius-made-god": [
+    {
+     "detail": "Incarnation",
+     "kind": "name",
+     "snippet": "made man that we might be made God... Athanasius, in On the Incarnation 54, states that the Word was made man so that humans might",
+     "span": "record alx.quote.athanasius-made-god"
+    },
+    {
+     "detail": "54",
+     "kind": "number",
+     "snippet": "For he was made man, so that we might be made God... 54 (npnf204 ) For He was made man that we might be made God..",
+     "span": "record alx.quote.athanasius-made-god"
+    },
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "caea through some forty-five embattled years, and wrote the treatise our answer about Christ draws from c. 296-298 (traditional",
+     "span": "record alx.figure.athanasius"
+    }
+   ]
+  },
+  "placed": [
+   "alx.quote.athanasius-made-god"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C2.S3",
+ "text": "From the beginning we worshiped Jesus as the Logos, God's own Word, and we baptized into Father, Son, and Holy Spirit. Clement and Origen name the Logos God the Word without embarrassment.\n\nWe believed in one God, the maker of all things, and his Word and his Spirit are his own, not lesser gods and not created things. The Word and the Spirit were said to be God's own with full clarity only after Nicaea.\n\nArius taught that the Son was the first and highest creature. The council at Nicaea answered with homoousios, of one substance with the Father. Homoousios said the Son is fully God and not a creature, and in its own century the word was contested as unscriptural.\n\nAthanasius explains why the fathers reached for a word not found in scripture: every scriptural phrase had been swallowed by the other side with a private meaning of its own. The Trinity as textbooks define it lies mostly beyond our time, so what we hold is the worship, the baptismal formula, and the conviction that only God can join us to God.\n\nAthanasius, in On the Incarnation 54, wrote: “For he was made man, so that we might be made God...”",
+ "voice_set_aside": false
+}

@@ -120,7 +120,7 @@ use_note:
 Closes F6-I, and this is the cell where this world is at its strongest -
 which is worth stating plainly, because the material that makes it strong
 is the material that damages the world most. Every element is a document
-rather than a hostile characterisation that could be discounted:
+rather than a hostile characterization that could be discounted:
 `don.story.bagai-reconciliation`, `don.story.council-of-cirta`,
 `don.story.gesta-apud-zenophilum`, `don.story.tyconius-condemnation`.
 

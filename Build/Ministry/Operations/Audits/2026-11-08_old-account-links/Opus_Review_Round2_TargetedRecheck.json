@@ -1,0 +1,23 @@
+{
+ "round": 2,
+ "verdict": "pass",
+ "counts": {"high": 0, "medium": 0, "low": 0, "total": 0, "round1_findings_rechecked": 7, "round1_findings_resolved": 7, "links_rechecked": 7},
+ "resolved": [
+  {"rid": "C1-01", "status": "resolved", "evidence": "HEAD f1088cef commits regenerated cft-website/index.html, data.html (now 'release 20, dated November 8, 2026') and 13 tree pages. Scratch run 'node Build/tools/generate_tree_pages.mjs --out <scratch>/gen2' produced 310 files, 0 differing from the committed tree. Every census edge note is present in the map's embedded census; 'No modern study is at hand' is gone from index.html. ('We have this from James Barmby' is present again, which is the C1-03 wording.)"},
+  {"rid": "C1-02", "status": "resolved", "evidence": "Note matches the required text exactly (FRE 66.7, FK 7.1). Optional ruling-3 quotes taken and verbatim: Hunter Blair 1907 lines 10525-10527 'the Ordo Cluniacensis , of the / 11th century, lays down fixed rules and times for / conversation in the cloister'; Gasquet lines 580-581 '...when it was practically / the only monastic Rule of the West'. The Hunter Blair quote supports his drawing on Cluny's customs; the Gasquet quote supports exactly the sentence the note gives him, and the note says he does not name Cluny. verified-direct / A is consistent with ruling 2."},
+  {"rid": "C1-03", "status": "resolved", "evidence": "Note matches the required text (FRE 69.0, FK 6.3). Barmby quote at npnf212_leo-great-gregory-great.xml 24033-24035 is verbatim across the line breaks and carries both facts (West Saxon translation; a copy to every bishop). Sweet stays as a source with no file, which matches the note ('He points to an 1871 edition'). verified-direct / A consistent."},
+  {"rid": "C1-04", "status": "resolved", "evidence": "Note matches the required text (FRE 73.0, FK 5.2): 'This rests on one older account, by F. C. Conybeare in 1921.'"},
+  {"rid": "C1-05", "status": "resolved", "evidence": "Coptic Egypt to Makuria regraded Inferential-Thin with the required note (FRE 72.2, FK 5.3). Its wanted study is in the audit README. Decision-Log 'Dominant links...' entry records that review added this link under ruling 1 of 'Whole-set rulings'. Its existing verified-direct / A (Griffith quotes) is unchanged and still right."},
+  {"rid": "C1-06", "status": "resolved", "evidence": "All six notes now end 'It has not yet been checked against a modern study.'; Kievan Rus' 71.5/6.4, Humiliati 69.8/6.0, Kyiv 68.1/6.7. No other wording changed in those three notes."},
+  {"rid": "C1-07", "status": "resolved", "evidence": "New Build/Ministry/Operations/Audits/2026-11-08_old-account-links/README.md lists seven wanted studies by link id, with the repo-named but unread works (Rosenwein 1982, Franklin and Shepard 1996, Vlasto 1970, Andrews 1999 for the decline) stated as not cited for these readings. Open-Gaps entry 122 points to it; Build-Plan adds the P2-L11c row and marks P2-L11b merged."}
+ ],
+ "findings": [],
+ "checks": [
+  "node tools/validate-census.mjs --base base_release19.json --atlas cft-website/index.html --tree cft-website/tree: 301 movements, 579 edges, 10 eras, 0 errors, 2 warnings (pre-existing shortName).",
+  "score_turn on all seven changed notes: FRE 66.7-73.0, FK 5.2-7.1; all within FRE >= 60, FK <= 10.",
+  "No new error found in the changed links, README, Open-Gaps 122, Decision-Log or Build-Plan lines."
+ ],
+ "observed_not_counted": [
+  "The README's Humiliati wanted study says 'around 1201' while the note says 'around 1200'. Both are approximate and not in conflict; not a finding."
+ ]
+}

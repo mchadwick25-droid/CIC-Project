@@ -81,6 +81,38 @@ works:
   note: The same drift toward Unitarian belief that the Old Dissent census entry names for
     the Presbyterians, seen inside a Baptist body. Provisional for Old Dissent.
   source_file: general-baptist-assembly_minutes-v2-1731-1811_whitley1910.txt
+- row_id: gibbons-thomas_memoirs-of-isaac-watts_1780--gibbons-memoirs-of-watts-letters-to-watts
+  work: 'Gibbons, Memoirs of the Rev. Isaac Watts: chapter XII, letters to Dr. Watts from
+    his correspondents'
+  author: gibbons-thomas
+  locus: chapter XII at OCR lines 15791-20910; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1780
+    end: 1780
+    source: 'title page: ''MDCCLXXX'''
+    formation_confidence: Documented
+  note: Fifty-seven letters written to or about Watts by bishops, ministers and friends. None
+    is Watts's own; the writers are many and are named at each letter's head.
+  source_file: gibbons-thomas_memoirs-of-isaac-watts_1780.txt
+- row_id: gibbons-thomas_memoirs-of-isaac-watts_1780--gibbons-memoirs-of-watts-chapters-1-11
+  work: 'Gibbons, Memoirs of the Rev. Isaac Watts: the Life, chapters I-XI (1780)'
+  author: gibbons-thomas
+  locus: chapters I-XI at OCR lines 306-15790; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1780
+    end: 1780
+    source: 'title page: ''MDCCLXXX''; the dedication is signed Hoxton-Square, 11 April 1780
+      (OCR lines 131-134)'
+    formation_confidence: Documented
+  note: The Life is Gibbons's voice, written in 1780; Watts's letters appear only as he quotes
+    them.
+  source_file: gibbons-thomas_memoirs-of-isaac-watts_1780.txt
 - row_id: henry-matthew_account-of-the-life-and-death-of-philip-henry_1712--an-account-of-the-life-and-death-of-mr-philip-henry-this
   work: An Account of the Life and Death of Mr. Philip Henry (this edition 1712)
   author: henry-matthew
@@ -126,6 +158,24 @@ works:
   note: Lindsey left the Church of England rather than coming from Old Dissent; which world
     owns Essex Street is a ruling.
   source_file: lindsey_sermon-at-the-opening-of-the-chapel-in-essex-street_1774.txt
+- row_id: orton_memoirs-of-philip-doddridge_russell1825--orton-memoirs-of-doddridge
+  work: Orton, Memoirs of the Life, Character and Writings of Philip Doddridge (preface of
+    1765; Edinburgh, 1825)
+  author: orton
+  locus: Orton's preface at OCR lines 963-1336; chapters I-IX at 1348-11899; add 12 to OCR
+    line numbers
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1765
+    end: 1765
+    source: Orton's preface is dated Shrewsbury, 6 November 1765 (OCR line 1336); this printing's
+      title page reads 1825
+    formation_confidence: Documented
+  note: Orton's Life of Doddridge, with long quotations from Doddridge's letters and papers.
+    Read in a reprint of 1825; whether the reprint changes Orton's text was not checked.
+  source_file: orton_memoirs-of-philip-doddridge_russell1825.txt
 - row_id: priestley_letters-to-the-members-of-the-new-jerusalem-church_1791--letters-to-the-members-of-the-new-jerusalem-church-1791-3
   work: Letters to the Members of the New Jerusalem Church (1791)
   author: priestley
@@ -152,6 +202,21 @@ works:
   confidence: assigned
   note: The orthodox, subscribing Dissenters' case in 1719, in a minister's own words.
   source_file: ridgley-thomas_unreasonableness-of-the-charge-of-imposition_1719.txt
+- row_id: orton_memoirs-of-philip-doddridge_russell1825--russell-introductory-essay-to-orton
+  work: David Russell, introductory essay to Orton's Memoirs of Doddridge (1825)
+  author: russell-david
+  locus: the essay at OCR lines 165-960; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  language: eng
+  date:
+    start: 1825
+    end: 1825
+    source: signed 'David Russell. Dundee, June 1825' (OCR lines 958-960)
+    formation_confidence: Documented
+  note: An essay of 1825, signed from Dundee, commending the Life. Later than the entry's
+    window and not Orton's voice.
+  source_file: orton_memoirs-of-philip-doddridge_russell1825.txt
 - row_id: watts_hymns-and-spiritual-songs-ninth-edition_1725--hymns-and-spiritual-songs-1707-ninth-edition-1725
   work: Hymns and Spiritual Songs (1707; ninth edition 1725)
   author: watts

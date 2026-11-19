@@ -1,0 +1,223 @@
+{
+ "draft": "Our answer is to stay near and keep asking, because faith was the foundation among us and not the ceiling [[alx.dw.doubt]] [[as:paraphrase]]. Clement insisted that the believer grows from faith into understanding, and growing means asking [[alx.dw.doubt]] [[as:paraphrase]]. Faith, our word pistis, is the soul's first real turn toward God, and it is compatible with unresolved questions [[alx.term.pistis]] [[as:paraphrase]].\n\nWe treated doubt aimed at understanding as hunger, and we did not count it as sin [[alx.dw.doubt]] [[as:paraphrase]]. The doubter stood inside a praying community and was expected to bring the question to a teacher rather than carry it alone [[alx.dw.doubt]] [[as:paraphrase]]. Origen's rule was blunter: what the apostles delivered plainly is fixed, and everything else is open ground [[alx.dw.doubt]] [[as:paraphrase]].\n\nTo believe was only the beginning, since the soul was made to know God and to go on being drawn deeper [[alx.force.knowing-impulse]] [[as:paraphrase]]. Our teachers' sources barely show how ordinary doubters themselves felt [[alx.dw.doubt]] [[as:paraphrase]].\n\nGregory, in the Address to Origen ascribed to him, wrote: [[quote:alx.quote.gregory-spark]]\n",
+ "ending": "abstained_rewrite_failed_read",
+ "final": "We do not have that here.",
+ "group": "A",
+ "offered": [
+  "alx.dw.doubt",
+  "alx.term.pistis",
+  "alx.story.gregory-formation",
+  "alx.quote.dionysius-too-high-for-me-to-grasp",
+  "alx.quote.to-believe-or-disbelieve",
+  "alx.force.knowing-impulse",
+  "alx.dw.apostolic",
+  "alx.story.john-young-robber",
+  "alx.quote.gregory-spark",
+  "alx.dw.resurrection",
+  "alx.quote.a-doctrine-they-would-not-have-taught",
+  "alx.term.ekklesia",
+  "alx.term.didaskalos",
+  "alx.term.episkopos",
+  "alx.story.origen-daring-deed",
+  "alx.quote.clement-bee",
+  "alx.gravity.learning-formation",
+  "alx.gravity.martyrdom-contemplative-tension",
+  "alx.force.origen-demetrius-conflict",
+  "alx.contested.didaskaleion-institution",
+  "alx.gravity.learning-community-tension",
+  "alx.gravity.soul-transformation"
+ ],
+ "placements": [],
+ "question": "Someone tells you they cannot manage to believe in Jesus - what is your response to them?",
+ "question_id": "q003",
+ "read": {
+  "dropped": [],
+  "status": "rewrite",
+  "unsupported": {
+   "6": {
+    "problem": "widened_scope",
+    "reason": "Record says this is attested for the school tradition and its presence in the broader community is only a reconstruction.",
+    "supported": false
+   }
+  }
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.dw.doubt"
+   ],
+   "sentence": "Our answer is to stay near and keep asking, because faith was the foundation among us and not the ceiling.",
+   "tags": [
+    "alx.dw.doubt"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.dw.doubt"
+   ],
+   "sentence": "Clement insisted that the believer grows from faith into understanding, and growing means asking.",
+   "tags": [
+    "alx.dw.doubt"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.term.pistis"
+   ],
+   "sentence": "Faith, our word pistis, is the soul's first real turn toward God, and faith is compatible with unresolved questions.",
+   "tags": [
+    "alx.term.pistis"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.dw.doubt"
+   ],
+   "sentence": "We treated doubt aimed at understanding as hunger, and we did not count doubt of that kind as sin.",
+   "tags": [
+    "alx.dw.doubt"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.dw.doubt"
+   ],
+   "sentence": "The doubter stood inside a praying community and was expected to bring the question to a teacher rather than carry the question alone.",
+   "tags": [
+    "alx.dw.doubt"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.dw.doubt"
+   ],
+   "sentence": "Origen's rule was blunter: what the apostles delivered plainly is fixed, and everything else is open ground.",
+   "tags": [
+    "alx.dw.doubt"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.dw.doubt"
+   ],
+   "sentence": "Our teachers' sources barely show how ordinary doubters themselves felt.",
+   "tags": [
+    "alx.dw.doubt"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our answer is to stay near and keep asking, because faith was the foundation among us and not the ceiling.",
+   "tags": [
+    "alx.dw.doubt"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Clement insisted that the believer grows from faith into understanding, and growing means asking.",
+   "tags": [
+    "alx.dw.doubt"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Faith, our word pistis, is the soul's first real turn toward God, and it is compatible with unresolved questions.",
+   "tags": [
+    "alx.term.pistis"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We treated doubt aimed at understanding as hunger, and we did not count it as sin.",
+   "tags": [
+    "alx.dw.doubt"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The doubter stood inside a praying community and was expected to bring the question to a teacher rather than carry it alone.",
+   "tags": [
+    "alx.dw.doubt"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Origen's rule was blunter: what the apostles delivered plainly is fixed, and everything else is open ground.",
+   "tags": [
+    "alx.dw.doubt"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "To believe was only the beginning, since the soul was made to know God and to go on being drawn deeper.",
+   "tags": [
+    "alx.force.knowing-impulse"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 7,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our teachers' sources barely show how ordinary doubters themselves felt.",
+   "tags": [
+    "alx.dw.doubt"
+   ]
+  }
+ ],
+ "shipped_by_net": "Our answer is to stay near and keep asking, because faith was the foundation among us and not the ceiling. Clement insisted that the believer grows from faith into understanding, and growing means asking. Faith, our word pistis, is the soul's first real turn toward God, and it is compatible with unresolved questions.\n\nWe treated doubt aimed at understanding as hunger, and we did not count it as sin. The doubter stood inside a praying community and was expected to bring the question to a teacher rather than carry it alone. Origen's rule was blunter: what the apostles delivered plainly is fixed, and everything else is open ground.\n\nTo believe was only the beginning, since the soul was made to know God and to go on being drawn deeper. Our teachers' sources barely show how ordinary doubters themselves felt.",
+ "sub_question": "C14.S4"
+}

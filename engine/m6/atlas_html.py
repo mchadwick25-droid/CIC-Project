@@ -108,7 +108,36 @@ def _reindent(value, base_indent: int) -> str:
     return lines[0] + "\n" + "\n".join(pad + l for l in lines[1:])
 
 
+REMOVE = object()  # as an update value: take the field out of the movement
+
+
+def _remove_field(obj_text: str, field: str) -> str:
+    found = _find_top_level_key(obj_text, field)
+    if found is None:
+        return obj_text
+    key_start, val_start = found
+    line_start = obj_text.rfind("\n", 0, key_start) + 1
+    val_end = _skip_value(obj_text, val_start)
+    tail = val_end
+    while tail < len(obj_text) and obj_text[tail] in " \t":
+        tail += 1
+    had_comma = tail < len(obj_text) and obj_text[tail] == ","
+    if had_comma:
+        tail += 1
+    line_end = obj_text.find("\n", tail)
+    line_end = len(obj_text) if line_end < 0 else line_end + 1
+    before = obj_text[:line_start]
+    if not had_comma:
+        # the last key: the previous line's comma goes with it
+        trimmed = before.rstrip()
+        if trimmed.endswith(","):
+            before = trimmed[:-1] + before[len(trimmed):]
+    return before + obj_text[line_end:]
+
+
 def _splice_field(obj_text: str, field: str, value) -> str:
+    if value is REMOVE:
+        return _remove_field(obj_text, field)
     found = _find_top_level_key(obj_text, field)
     if found is None:
         return _insert_field(obj_text, field, value)
@@ -148,19 +177,11 @@ def _insert_field(obj_text: str, field: str, value) -> str:
 
 def _find_array_span(text: str, needle: str, from_const_data: bool) -> tuple[int, int]:
     start = text.find(needle, text.find("const DATA")) if from_const_data else text.find(needle)
+    if start < 0:
+        raise ValueError(f"{needle!r} not found")
     arr_start = text.find("[", start)
-    depth = 0
-    j = arr_start
-    while j < len(text):
-        c = text[j]
-        if c == "[":
-            depth += 1
-        elif c == "]":
-            depth -= 1
-            if depth == 0:
-                return arr_start, j + 1
-        j += 1
-    raise ValueError(f"unterminated array for {needle!r}")
+    _, arr_end = json.JSONDecoder().raw_decode(text, arr_start)
+    return arr_start, arr_end
 
 
 def _movement_spans(text: str) -> list[tuple[int, int]]:
@@ -194,6 +215,59 @@ def read_edges(path) -> list[dict]:
     text = open(path, encoding="utf-8").read()
     arr_start, arr_end = _find_array_span(text, '"edges":', from_const_data=True)
     return json.loads(text[arr_start:arr_end])
+
+
+def read_eras(path) -> list[dict]:
+    text = open(path, encoding="utf-8").read()
+    arr_start, arr_end = _find_array_span(text, '"eras":', from_const_data=True)
+    return json.loads(text[arr_start:arr_end])
+
+
+def _write_array(path, key: str, value: list) -> bool:
+    text = open(path, encoding="utf-8").read()
+    arr_start, arr_end = _find_array_span(text, f'"{key}":', from_const_data=True)
+    line_start = text.rfind("\n", 0, arr_start) + 1
+    base_indent = len(text[line_start:arr_start]) - len(text[line_start:arr_start].lstrip())
+    new_text = text[:arr_start] + _reindent(value, base_indent) + text[arr_end:]
+    if new_text == text:
+        return False
+    open(path, "w", encoding="utf-8").write(new_text)
+    return True
+
+
+def write_edges(path, edges: list[dict]) -> bool:
+    """Replaces the embedded edges array with `edges`. Returns True if the file changed."""
+    return _write_array(path, "edges", edges)
+
+
+def write_eras(path, eras: list[dict]) -> bool:
+    """Replaces the embedded eras array with `eras`. Returns True if the file changed."""
+    return _write_array(path, "eras", eras)
+
+
+def write_roster(path, movements: list[dict]) -> bool:
+    """Rewrites the embedded movements array to hold exactly `movements`, in
+    that order. A movement the file already holds keeps its own text byte for
+    byte; a new one is written in the file's indentation. Returns True if the
+    file changed."""
+    text = open(path, encoding="utf-8").read()
+    arr_start, arr_end = _find_array_span(text, '"movements":', from_const_data=True)
+    held = {}
+    for start, end in _movement_spans(text):
+        idm = re.search(r'"id":\s*"([a-z0-9-]+)"', text[start:end])
+        if idm:
+            held[idm.group(1)] = text[start:end]
+    line_start = text.rfind("\n", 0, arr_start) + 1
+    base = len(text[line_start:arr_start]) - len(text[line_start:arr_start].lstrip())
+    pad = " " * (base + 1)
+    items = [held.get(m["id"]) or _reindent(m, base + 1) for m in movements]
+    body = ",\n".join(pad + item for item in items)
+    new_array = f"[\n{body}\n{' ' * base}]" if items else "[]"
+    new_text = text[:arr_start] + new_array + text[arr_end:]
+    if new_text == text:
+        return False
+    open(path, "w", encoding="utf-8").write(new_text)
+    return True
 
 
 def apply_movement_updates(path, updates: dict[str, dict]) -> int:

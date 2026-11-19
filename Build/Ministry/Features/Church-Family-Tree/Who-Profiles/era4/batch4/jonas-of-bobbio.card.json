@@ -1,0 +1,92 @@
+{
+  "name": "Jonas of Bobbio",
+  "otherNames": [
+    "Ionas"
+  ],
+  "knownFor": "Monk of Bobbio who wrote the Life of Columbanus, the Irish founder of Luxeuil and Bobbio. Later, as an abbot, he wrote the Life of John of Réomé.",
+  "dates": "Entered Bobbio three years after Columbanus's death, Dana Munro says. Wrote the Life of Columbanus about 640, by Bruno Krusch's date, before 642. An abbot in the third year of King Clothar, which Krusch reckons as 659. No held source gives his birth year or his death",
+  "place": "Born at Susa in Italy, at the foot of the Alps, say the Acta Sanctorum editors G. Henschenius and D. Papebrochius. A monk of Bobbio; with Bishop Amand on the Scheldt and the marsh of the Elnone; at Réomé, on his way to Chalon",
+  "tradition": "Insular / Irish Monastic Christianity",
+  "role": "Monk and abbot; hagiographer",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Life of Columbanus",
+      "about": "written at Abbot Bertulf's command, from the stories of the saint's companions and of the abbots Attala and Eustasius. Its preface is addressed to the abbots Waldebert and Bobolenus"
+    },
+    {
+      "title": "Life of John of Réomé",
+      "about": "written at the request of the monks of Réomé, during a journey ordered by King Clothar and Queen Balthild. Bruno Krusch says two forgers of the Carolingian age reworked it"
+    },
+    {
+      "title": "Life of Eustasius",
+      "about": "the Life of Columbanus's pupil and abbot of Luxeuil. Giovanni Domenico Mansi quotes its account of the council of Mâcon"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Bruno Krusch says the later Lives of John of Réomé were built on Jonas's book. One forger claimed to have lived before Jonas. Another claimed he wrote from men who had often seen John.",
+      "Krusch finds a prologue like Jonas's, and a phrase Jonas often used, in a Life of Bibianus of Saintes. He places its language in the Carolingian age."
+    ],
+    "remembered": [
+      "Dana Munro, his translator, says almost all accounts of the Irish missionaries are lost, so this Life of Columbanus is of great value.",
+      "Munro holds that the Life reflects the companions' feelings faithfully and often keeps the saint's own words. He adds that, as in such Lives, its miracles are many.",
+      "Laurentius Surius, in a heading Vincentius Barralis prints, calls Jonas an abbot and a contemporary of Columbanus."
+    ]
+  },
+  "uncertain": [
+    "Whether he wrote the older Life of Vedast, bishop of Arras. Krusch believes so, from its style and a wonder told in nearly the same words. He says Louis Duchesne agreed, and later G. Kurth. The Life itself names no author.",
+    "His own life is known mostly from his prefaces and the opening of his Life of John. Dana Munro, Bruno Krusch and the Acta Sanctorum editors add a little.",
+    "His origin. The Acta Sanctorum editors say he was Italian, not Irish, and born at Susa. They rest this on their Life of Attala, which is not held.",
+    "Whether he was abbot of Bobbio. The Acta Sanctorum editors list him after Bobolenus among its abbots, with a perhaps. The Réomé opening calls him abbot but names no house.",
+    "Munro's translation leaves out the preface. Its Latin is held only in a hard-to-read copy of Vincentius Barralis's book of 1613."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Life of St. Columban (tr. Dana C. Munro), with Munro's introduction",
+        "author": "Jonas of Bobbio",
+        "date": "1895",
+        "language": "English translation",
+        "file": "cic/texts/jonas-bobbio_life-of-st-columban_munro1895.txt"
+      },
+      {
+        "title": "Life of Columbanus in Latin, with Jonas's preface, from Laurentius Surius, in Chronologia sanctorum insulae Lerinensis",
+        "author": "Jonas of Bobbio",
+        "date": "1613",
+        "language": "Latin",
+        "file": "cic/texts/barralis_chronologia-sanctorum-insulae-lerinensis-lat_1613.txt"
+      },
+      {
+        "title": "Life of John, abbot of Réomé, with Bruno Krusch's introduction, in MGH Scriptores rerum Merovingicarum 3",
+        "author": "Jonas of Bobbio",
+        "date": "1896",
+        "language": "Latin",
+        "file": "cic/texts/passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Introductions to the Lives of Vedast and Bibianus, in MGH Scriptores rerum Merovingicarum 3",
+        "author": "Bruno Krusch (ed.)",
+        "date": "1896",
+        "language": "Latin",
+        "file": "cic/texts/passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt"
+      },
+      {
+        "title": "The council of Mâcon, with Jonas's account from the Life of Eustasius, in Sacrorum conciliorum collectio 10",
+        "author": "Giovanni Domenico Mansi (ed.)",
+        "date": "1901",
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt"
+      },
+      {
+        "title": "Commentary on Saint Eustasius, abbot of Luxeuil, in Acta Sanctorum, March, volume 3",
+        "author": "G. Henschenius and D. Papebrochius",
+        "date": "1865",
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt"
+      }
+    ]
+  }
+}

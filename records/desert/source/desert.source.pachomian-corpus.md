@@ -51,7 +51,7 @@ Ethiopic text disproves that. Part I opens "In the name of the holy
 Trinity. The ordinance which the angel of the Lord commanded to Abba
 Pachomius", and the angel hands over the tablet inside the rule
 document. The frame is in the received legislation itself. That is a
-harder and more interesting fact about how this federation authorised
+harder and more interesting fact about how this federation authorized
 its own governance, and this world may now say it from the text.
 
 THE THREE PARTS ARE NOT PEERS and no record may cite them as one
@@ -71,4 +71,4 @@ The multi-stage translation chain remains formation-relevant data, and
 the new file deepens rather than dissolves the point: Strand B's own
 most internal texts reached this world's later readers through Coptic,
 Greek, Latin, Ethiopic and German hands, and the only branch this
-corpus can quote verbatim is the one that travelled furthest.
+corpus can quote verbatim is the one that traveled furthest.

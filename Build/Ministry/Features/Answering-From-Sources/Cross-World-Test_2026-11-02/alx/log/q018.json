@@ -1,0 +1,108 @@
+{
+ "draft": "Joining began with katechesis, the teaching given step by step, over a long time, to people preparing for baptism [[alx.term.katechesis]] [[as:paraphrase]]. For the part of the community our literate sources attest, formation ran in steps: catechesis, purification, illumination, knowledge, and wisdom [[alx.gravity.soul-transformation]] [[as:paraphrase]]. Pistis was the soul's first real turn toward God, and unresolved questions could stand beside it [[alx.term.pistis]] [[as:paraphrase]]. Baptism was a real crossing, in the body, into the new life, not a ceremony announcing a choice already made [[alx.term.baptism]] [[as:paraphrase]]. Baptism, the bread and cup, and the scriptures read aloud were the practice we had received [[alx.dw.apostolic]] [[as:paraphrase]]. Formation did not depend on letters: Palladius met Didymus, who never learned to read, interpreting Scripture word by word [[alx.story.didymus-meeting]] [[as:paraphrase]]. Whether those steps were primary for the whole community is left open [[alx.gravity.soul-transformation]] [[as:paraphrase]].\n",
+ "ending": "clean",
+ "final": "Joining began with katechesis, the teaching given step by step, over a long time, to people preparing for baptism. For the part of the community our literate sources attest, formation ran in steps: catechesis, purification, illumination, knowledge, and wisdom. Pistis was the soul's first real turn toward God, and unresolved questions could stand beside it. Baptism was a real crossing, in the body, into the new life, not a ceremony announcing a choice already made. Baptism, the bread and cup, and the scriptures read aloud were the practice we had received. Whether those steps were primary for the whole community is left open.",
+ "group": "A",
+ "offered": [
+  "alx.dw.original-sin",
+  "alx.term.katechesis",
+  "alx.term.baptism",
+  "alx.story.didymus-meeting",
+  "alx.quote.a-doctrine-they-would-not-have-taught",
+  "alx.gravity.soul-transformation",
+  "alx.force.johannine-logos",
+  "alx.force.philonic-inheritance",
+  "alx.dw.apostolic",
+  "alx.term.mysterion",
+  "alx.quote.athanasius-fountains",
+  "alx.term.pistis",
+  "alx.quote.clement-instructor",
+  "alx.gravity.martyrdom-contemplative-tension",
+  "alx.gravity.speculative-doctrinal-tension"
+ ],
+ "placements": [],
+ "question": "Describe, step by step, the process by which someone joined your community.",
+ "question_id": "q018",
+ "read": {
+  "dropped": [],
+  "status": "clean",
+  "unsupported": {}
+ },
+ "rewrite": null,
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Joining began with katechesis, the teaching given step by step, over a long time, to people preparing for baptism.",
+   "tags": [
+    "alx.term.katechesis"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "For the part of the community our literate sources attest, formation ran in steps: catechesis, purification, illumination, knowledge, and wisdom.",
+   "tags": [
+    "alx.gravity.soul-transformation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Pistis was the soul's first real turn toward God, and unresolved questions could stand beside it.",
+   "tags": [
+    "alx.term.pistis"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Baptism was a real crossing, in the body, into the new life, not a ceremony announcing a choice already made.",
+   "tags": [
+    "alx.term.baptism"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Baptism, the bread and cup, and the scriptures read aloud were the practice we had received.",
+   "tags": [
+    "alx.dw.apostolic"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Whether those steps were primary for the whole community is left open.",
+   "tags": [
+    "alx.gravity.soul-transformation"
+   ]
+  }
+ ],
+ "shipped_by_net": "Joining began with katechesis, the teaching given step by step, over a long time, to people preparing for baptism. For the part of the community our literate sources attest, formation ran in steps: catechesis, purification, illumination, knowledge, and wisdom. Pistis was the soul's first real turn toward God, and unresolved questions could stand beside it. Baptism was a real crossing, in the body, into the new life, not a ceremony announcing a choice already made. Baptism, the bread and cup, and the scriptures read aloud were the practice we had received. Whether those steps were primary for the whole community is left open.",
+ "sub_question": "C7.S1"
+}

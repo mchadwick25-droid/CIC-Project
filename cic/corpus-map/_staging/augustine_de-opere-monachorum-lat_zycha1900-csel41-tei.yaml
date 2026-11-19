@@ -12,6 +12,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
+    locus_ids: [whole-file]
+    language: lat
+    date: {start: 400, end: 401, source: "NPNF 1 Prolegomena 'The Writings of St. Augustin' (npnf101_augustine-confessions-letters.xml, id iv.4, Schaff's list of Augustine's works) gives 400; npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml div2 5.7 introductory notice places it next after De bono coniugali, 401", formation_confidence: Widely Accepted}
     note: >
       Written for Aurelius of Carthage about monks who refuse manual labor. Latin original of the
       ALREADY-PRESENT English entry 'Of the Work of Monks (De Opere Monachorum)' (source_file

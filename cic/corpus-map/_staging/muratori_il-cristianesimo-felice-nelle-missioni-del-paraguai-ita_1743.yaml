@@ -1,0 +1,28 @@
+source_file: muratori_il-cristianesimo-felice-nelle-missioni-del-paraguai-ita_1743.txt
+assignments:
+- row_id: muratori_il-cristianesimo-felice-nelle-missioni-del-paraguai-ita_1743--muratori-cristianesimo-felice-chapters
+  work: 'Muratori, Il cristianesimo felice nelle missioni del Paraguai, part 1: chapters I-XXIII (1743)'
+  author: muratori
+  locus: 'chapters I-XXIII at OCR lines 958-7785; add 12 to OCR line numbers'
+  atlas_ids:
+  - society-of-jesus-1650-1814
+  role: context
+  confidence: provisional
+  language: ita
+  date: {start: 1743, end: 1743, source: "title page: 'MDCCXLIII'; the licence is dated 31 December 1742 (OCR line 465)", formation_confidence: Documented}
+  note: 'The Duke of Modena''s librarian describes the Paraguay reductions from the missionaries'' letters and reports. An admirer''s account from outside the Society, not its own voice.'
+- row_id: muratori_il-cristianesimo-felice-nelle-missioni-del-paraguai-ita_1743--cattaneo-letters-from-paraguay-in-muratori
+  work: 'Gaetano Cattaneo, S.J., three letters from Buenos Aires and the Paraguay reductions (1729-1730), in Muratori''s Cristianesimo felice'
+  author: cattaneo-gaetano
+  locus: 'the three letters at OCR lines 7786-10978; add 12 to OCR line numbers'
+  atlas_ids:
+  - society-of-jesus-1650-1814
+  role: tradition
+  confidence: provisional
+  language: ita
+  date: {start: 1729, end: 1730, source: "the third letter is dated from the Reduction of Santa Maria, 25 April 1730 (OCR line 9984 onward)", formation_confidence: Documented}
+  note: 'A Jesuit missionary writes home to his brother about the voyage and the reductions. Printed by Muratori thirteen years later; his editing was not checked.'
+authors_ruled:
+  cattaneo-gaetano:
+    kind: metadata-omission
+    evidence: "The title page names only Muratori. The three letters are headed as letters of Father Gaetano Cattaneo of the Society of Jesus to his brother (file lines 7798, 9500 and 9996)."

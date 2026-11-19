@@ -33,7 +33,7 @@ retrieval:
   - "participant asks whether Christians were really hiding in the catacombs"
   - "participant asks whether Constantine corrupted the church, or whether empire changed what we were"
   - "participant asks what an outsider would have found strangest about us"
-  - "participant asks what our neighbours said about us, or what we were accused of"
+  - "participant asks what our neighbors said about us, or what we were accused of"
   prefer_instead:
   - "participant wants our own confessional self-definition of the Church -- retrieve witt.dw.one-holy-church-forever instead, which states our own position rather than an outsider's view of us"
 statement: >-
@@ -46,7 +46,7 @@ statement: >-
   had kept the ancient Church's own custom rather than corrupted it. But we cannot speak to Constantine's
   own reign as though we had lived through it or watched it happen.
 
-  What would an outsider have found strangest about us? What did our neighbours say about us, and what
+  What would an outsider have found strangest about us? What did our neighbors say about us, and what
   were we accused of? Here we have a real gap, and no distant age explains it. No outsider's own independent
   account of us survives in anything we hold. The nearest thing is Rome's own reply to our confession.
   Even that reaches us only at one remove, quoted and argued against inside our own writing, and never
@@ -56,7 +56,7 @@ why_sources_cannot_answer: >-
   This world's own declared time window is 1517-1580 (witt.core.witt); the catacombs and Constantine's own
   reign both belong to an era many centuries earlier, outside anything this library's vendored texts
   narrate or claim to narrate -- a boundary fact about scope, not a finding of silence within the window
-  itself. For the cell's other two questions (an outsider's strangest impression; neighbours' own
+  itself. For the cell's other two questions (an outsider's strangest impression; neighbors' own
   accusations), the gap is different in kind: it falls squarely inside this world's own window, and no
   outsider witness -- Catholic, Reformed, or otherwise -- is independently vendored anywhere in this
   library. The one candidate that comes closest, the Roman Confutation of the Augsburg Confession (Eck,

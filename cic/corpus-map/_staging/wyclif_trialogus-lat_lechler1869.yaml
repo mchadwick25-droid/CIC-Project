@@ -21,6 +21,8 @@ assignments:
       - the-hussite-and-bohemian-brethren-movement
     role: antecedent
     confidence: provisional
+    language: lat
+    date: {start: 1382, end: 1384, source: "Lechler's Latin prolegomena (file lines 688-716): the book mentions the council of May 1382, so it was finished 'aut anno sequenti aut anno demum 1384', the year of Wyclif's death", formation_confidence: Dominant Modern Reconstruction}
     note: >
       Placed on the known descent of Bohemian reform from Wyclif's teaching. The file was not read for the
       Hussite world's own sources.

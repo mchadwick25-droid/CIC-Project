@@ -21,9 +21,7 @@ confidence:
     gentler than the source states.
 sources:
 - source_id: witt.source.melanchthon-augsburg-confession
-  locus: >-
-    Article XVII: Of Christ's Return to Judgment: eternal life for the godly and elect, 'ungodly men and
-    the devils He will condemn to be tormented without end'
+  locus: "Article XVII: Of Christ's Return to Judgment: eternal life for the godly and elect, 'ungodly men and the devils He will condemn to be tormented without end' (cic/texts/melanchthon_augsburg-confession_anon-pg275.txt, lines 435-445)"
   license: public-domain
 retrieval:
   tier: 2

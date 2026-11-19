@@ -9,5 +9,8 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: context
     confidence: provisional
+    locus_ids: [kapitel3/region18]
+    language: deu
+    date: {formation_confidence: unknown, checked: "harnack_mission-und-ausbreitung-des-christentums-band2-deu_2e-aufl1906.txt: the header title reads 'Zweite neu durchgearbeitete Auflage' (second revised edition), 1906 printed at file line 81; the first edition's year is not stated and no preface dateline was found"}
     note: >
       Modern (1906) German account of the church's spread. Registry row 243.

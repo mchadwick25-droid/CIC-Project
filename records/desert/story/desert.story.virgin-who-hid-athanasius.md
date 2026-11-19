@@ -31,7 +31,7 @@ retrieval:
   tier: 2
   retrieve_when:
   - "participant asks what women actually did in this world, beyond ascetic practice"
-  - "participant asks whether ascetic women had standing anyone outside their own house recognised"
+  - "participant asks whether ascetic women had standing anyone outside their own house recognized"
   - "participant asks how the great church conflicts of the fourth century touched ordinary people"
   prefer_instead:
   - "participant wants the historical course of Athanasius' exiles - this story cannot carry that and its own figures are unreliable"
@@ -69,7 +69,7 @@ text: >-
   swearing false oaths. He had gone to the one person no one could suspect,
   because she was young and beautiful. He said he had gained two things by it:
   his own life, and hers.
-telling: "Palladius tells of a virgin of Alexandria who hid Athanasius, the archbishop of that city. He says all the clergy testified that when she was about twenty she was exceedingly beautiful. Because of that beauty she withdrew from sight, so that she would not cause men to stumble.\n\nThe Arians were plotting against Athanasius and spreading shameful reports about him. He fled and told no one where he was going, neither kinsmen nor friends nor clergy. At midnight he rose, took his tunic, and went to this woman. She was astonished.\n\nHe told her that God had given him a revelation that night. With no other person, it said, could he find deliverance but this virgin. She hid him. She washed his feet, provided what he needed, and borrowed books and brought them to him. No one in Alexandria knew where he was.\n\nLater he came by night and was suddenly found in the church. Those who saw him marvelled, for he looked like a man risen from the grave. He told those who truly loved him that he had fled to the one woman no one would suspect, because she was young and beautiful. \"I have gained two things,\" he said: \"my own life and hers.\""
+telling: "Palladius tells of a virgin of Alexandria who hid Athanasius, the archbishop of that city. He says all the clergy testified that when she was about twenty she was exceedingly beautiful. Because of that beauty she withdrew from sight, so that she would not cause men to stumble.\n\nThe Arians were plotting against Athanasius and spreading shameful reports about him. He fled and told no one where he was going, neither kinsmen nor friends nor clergy. At midnight he rose, took his tunic, and went to this woman. She was astonished.\n\nHe told her that God had given him a revelation that night. With no other person, it said, could he find deliverance but this virgin. She hid him. She washed his feet, provided what he needed, and borrowed books and brought them to him. No one in Alexandria knew where he was.\n\nLater he came by night and was suddenly found in the church. Those who saw him marveled, for he looked like a man risen from the grave. He told those who truly loved him that he had fled to the one woman no one would suspect, because she was young and beautiful. \"I have gained two things,\" he said: \"my own life and hers.\""
 absent_detail: >-
   She is not named, here or anywhere. Nothing is said about what she thought of the arrangement
   beyond that she was astonished and then joyful, and nothing about what it cost her to keep a

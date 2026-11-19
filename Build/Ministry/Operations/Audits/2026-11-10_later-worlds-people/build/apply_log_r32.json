@@ -1,0 +1,66 @@
+{
+ "entries": [
+  [
+   "p5",
+   "pamphilus-of-caesarea",
+   "I.65"
+  ],
+  [
+   "p5",
+   "bonaventure",
+   "IV.30"
+  ],
+  [
+   "p5",
+   "heraclius",
+   "III.27"
+  ]
+ ],
+ "concerns": [
+  [
+   "canons-regular-victorine-school--the-franciscan-movement",
+   "bonaventure"
+  ]
+ ],
+ "rows": [
+  [
+   "alexandria-catechetical",
+   null,
+   "pamphilus-of-caesarea"
+  ],
+  [
+   "the-franciscan-movement",
+   "Bonaventure",
+   "bonaventure"
+  ],
+  [
+   "byzantine-imperial-church-heraclian-iconoclast",
+   null,
+   "heraclius"
+  ]
+ ],
+ "rows_dropped": [
+  [
+   "orthodoxy-under-the-ottomans-parish-millet-and-n",
+   "Nikodemos the Hagiorite",
+   "Out of window: a man of 1782 in a 1453-1650 tradition, held on a Pedalion row the Library moves to the 1650-1821 shelf (#1577). He stays in the Kollyvades row."
+  ]
+ ],
+ "overrides": [
+  [
+   "bonaventure",
+   [
+    "modernCountries",
+    "placeLabel"
+   ],
+   "The validator requires every modern-country place on the place label, and a label names at most two places from region. Italy (minister general) and Paris (master) stay; Lyon, where he died at the council, is carried by 'and beyond'. IDs unchanged from the draft, which copied them from existing entries."
+  ]
+ ],
+ "text_fixes": [
+  [
+   "pamphilus-of-caesarea",
+   "whose defence of Origen",
+   "whose defense of Origen"
+  ]
+ ]
+}

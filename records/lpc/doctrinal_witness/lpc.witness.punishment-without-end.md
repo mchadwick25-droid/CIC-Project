@@ -91,6 +91,6 @@ text: Augustine taught that the punishment of the lost has no end. After the fin
   are at times eased. He would not let them say the punishment ends. God's mercy, he said, is shown "not
   in putting an end to their eternal punishment." It is shown, he said, "in mitigating, or in granting
   them a respite from, their torments." In the next chapter he wrote that the death of the wicked "shall
-  abide for ever." In these chapters he does not name any person or group as lost.
+  abide for ever."
 ---
 Grounded directly in Augustine, Enchiridion, chapters 111, 112 and 113 (chapters CXI to CXIII in the Latin) -- verified against the vendored files at the lines above. The quoted phrases are the NPNF English word for word. Scripture-reference notes inside chapter 112 are left out. Chapter 112 gives the reasons for his answer to the doubters after the sentences quoted here, and those are not set out in this record. The Latin verb behind "make moan over" is miserantur, which means to pity, so the doubters are moved by pity for the lost. The Latin is OCR text with misreads. No year for the Enchiridion is stated here, and none is stated by the vendored sources for this world.

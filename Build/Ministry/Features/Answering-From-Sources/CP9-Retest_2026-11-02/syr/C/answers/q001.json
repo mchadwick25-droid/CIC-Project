@@ -1,0 +1,323 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.quote.nativity-this-is-the-day"
+   ],
+   "sentence": "Ephrem sang the Nativity in his first hymn: “This is the day that made the Prophets, the Kings, and the Priests glad. On this day their words came true - all of them. For on this day the Virgin gave birth to Immanuel in Bethlehem.”"
+  },
+  {
+   "record_ids": [
+    "syr.story.qyama-morning"
+   ],
+   "sentence": "What we can show is practice: the covenant kept a vigil with sung teaching hymns, the harmony was read, and the vow was lived at home."
+  },
+  {
+   "record_ids": [
+    "syr.story.qyama-morning"
+   ],
+   "sentence": "No specific morning like it is recorded anywhere, so we offer it as reconstruction, never as memory."
+  },
+  {
+   "record_ids": [
+    "syr.story.qyama-morning"
+   ],
+   "sentence": "Our covenant's morning gathering, as we reconstruct it, shows that practice:"
+  },
+  {
+   "record_ids": [
+    "syr.story.qyama-morning"
+   ],
+   "sentence": "Before dawn in Nisibis, those bound by the covenant gather for the vigil."
+  },
+  {
+   "record_ids": [
+    "syr.story.qyama-morning"
+   ],
+   "sentence": "No single morning like this was written down."
+  },
+  {
+   "record_ids": [
+    "syr.story.qyama-morning"
+   ],
+   "sentence": "This one is pieced together from separate sources, from the years before the city was handed to Persia in 363."
+  },
+  {
+   "record_ids": [
+    "syr.story.qyama-morning"
+   ],
+   "sentence": "The covenanters are men and women who have taken the vow and stay unmarried."
+  },
+  {
+   "record_ids": [
+    "syr.story.qyama-morning"
+   ],
+   "sentence": "They walk through the dark streets from their own family houses, since there is no cloister."
+  },
+  {
+   "record_ids": [
+    "syr.story.qyama-morning"
+   ],
+   "sentence": "Among them, later accounts say, stands the choir of the daughters of the covenant."
+  },
+  {
+   "record_ids": [
+    "syr.story.qyama-morning"
+   ],
+   "sentence": "They will raise the madrasha, the teaching hymn."
+  },
+  {
+   "record_ids": [
+    "syr.story.qyama-morning"
+   ],
+   "sentence": "The hymn carries the teaching on its tune, stanza answering refrain, until the whole gathering holds the argument by heart."
+  },
+  {
+   "record_ids": [
+    "syr.story.qyama-morning"
+   ],
+   "sentence": "The Gospel read out is the harmony, the Gospels woven into one unbroken story."
+  },
+  {
+   "record_ids": [
+    "syr.story.qyama-morning"
+   ],
+   "sentence": "The feast this season keeps the Lord's birth and his baptism together in one observance, as this city then did."
+  },
+  {
+   "record_ids": [
+    "syr.story.qyama-morning"
+   ],
+   "sentence": "When the light is full, the covenanters keep their fast and go back to their own households and their work in town."
+  }
+ ],
+ "citations": [
+  "syr.quote.nativity-this-is-the-day",
+  "syr.story.qyama-morning"
+ ],
+ "group": "A",
+ "id": "q001",
+ "net_sentences": [
+  {
+   "draft": "Ephrem sang the Nativity in his first hymn: [[quote:syr.quote.nativity-this-is-the-day]]",
+   "placed_quote": "syr.quote.nativity-this-is-the-day",
+   "sentence": "Ephrem sang the Nativity in his first hymn: “This is the day that made the Prophets, the Kings, and the Priests glad. On this day their words came true - all of them. For on this day the Virgin gave birth to Immanuel in Bethlehem.”",
+   "tags": [
+    "syr.quote.nativity-this-is-the-day"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "What we can show is practice: the covenant kept a vigil with sung teaching hymns, the harmony was read, and the vow was lived at home [[syr.story.qyama-morning]] [[as:paraphrase]].",
+   "sentence": "What we can show is practice: the covenant kept a vigil with sung teaching hymns, the harmony was read, and the vow was lived at home.",
+   "tags": [
+    "syr.story.qyama-morning"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "No specific morning like it is recorded anywhere, so we offer it as reconstruction, never as memory [[syr.story.qyama-morning]] [[as:paraphrase]].",
+   "sentence": "No specific morning like it is recorded anywhere, so we offer it as reconstruction, never as memory.",
+   "tags": [
+    "syr.story.qyama-morning"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our covenant's morning gathering, as we reconstruct it, shows that practice: [[story:syr.story.qyama-morning]]",
+   "sentence": "Our covenant's morning gathering, as we reconstruct it, shows that practice:",
+   "tags": [
+    "syr.story.qyama-morning"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Before dawn in Nisibis, those bound by the covenant gather for the vigil [[syr.story.qyama-morning]].",
+   "placed_story": "syr.story.qyama-morning",
+   "sentence": "Before dawn in Nisibis, those bound by the covenant gather for the vigil.",
+   "tags": [
+    "syr.story.qyama-morning"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "No single morning like this was written down [[syr.story.qyama-morning]].",
+   "placed_story": "syr.story.qyama-morning",
+   "sentence": "No single morning like this was written down.",
+   "tags": [
+    "syr.story.qyama-morning"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "This one is pieced together from separate sources, from the years before the city was handed to Persia in 363 [[syr.story.qyama-morning]].",
+   "placed_story": "syr.story.qyama-morning",
+   "sentence": "This one is pieced together from separate sources, from the years before the city was handed to Persia in 363.",
+   "tags": [
+    "syr.story.qyama-morning"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "The covenanters are men and women who have taken the vow and stay unmarried [[syr.story.qyama-morning]].",
+   "placed_story": "syr.story.qyama-morning",
+   "sentence": "The covenanters are men and women who have taken the vow and stay unmarried.",
+   "tags": [
+    "syr.story.qyama-morning"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "They walk through the dark streets from their own family houses, since there is no cloister [[syr.story.qyama-morning]].",
+   "placed_story": "syr.story.qyama-morning",
+   "sentence": "They walk through the dark streets from their own family houses, since there is no cloister.",
+   "tags": [
+    "syr.story.qyama-morning"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "Among them, later accounts say, stands the choir of the daughters of the covenant [[syr.story.qyama-morning]].",
+   "placed_story": "syr.story.qyama-morning",
+   "sentence": "Among them, later accounts say, stands the choir of the daughters of the covenant.",
+   "tags": [
+    "syr.story.qyama-morning"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "They will raise the madrasha, the teaching hymn [[syr.story.qyama-morning]].",
+   "placed_story": "syr.story.qyama-morning",
+   "sentence": "They will raise the madrasha, the teaching hymn.",
+   "tags": [
+    "syr.story.qyama-morning"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "The hymn carries the teaching on its tune, stanza answering refrain, until the whole gathering holds the argument by heart [[syr.story.qyama-morning]].",
+   "placed_story": "syr.story.qyama-morning",
+   "sentence": "The hymn carries the teaching on its tune, stanza answering refrain, until the whole gathering holds the argument by heart.",
+   "tags": [
+    "syr.story.qyama-morning"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "The Gospel read out is the harmony, the Gospels woven into one unbroken story [[syr.story.qyama-morning]].",
+   "placed_story": "syr.story.qyama-morning",
+   "sentence": "The Gospel read out is the harmony, the Gospels woven into one unbroken story.",
+   "tags": [
+    "syr.story.qyama-morning"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "The feast this season keeps the Lord's birth and his baptism together in one observance, as this city then did [[syr.story.qyama-morning]].",
+   "placed_story": "syr.story.qyama-morning",
+   "sentence": "The feast this season keeps the Lord's birth and his baptism together in one observance, as this city then did.",
+   "tags": [
+    "syr.story.qyama-morning"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "When the light is full, the covenanters keep their fast and go back to their own households and their work in town [[syr.story.qyama-morning]].",
+   "placed_story": "syr.story.qyama-morning",
+   "sentence": "When the light is full, the covenanters keep their fast and go back to their own households and their work in town.",
+   "tags": [
+    "syr.story.qyama-morning"
+   ],
+   "verdict": "ok",
+   "why": "story placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "syr.dw.remains",
+  "syr.story.qyama-morning",
+  "syr.story.abgar-addai-legend",
+  "syr.quote.the-scribes-and-the-prefects-over-the-archives",
+  "syr.force.frontier-plural-milieu",
+  "syr.force.qyama-commitment",
+  "syr.dw.jesus",
+  "syr.term.ihidaya",
+  "syr.quote.nativity-this-is-the-day"
+ ],
+ "raw_text": "We knew Jesus above all through what we sang and confessed: the Only-Begotten, who made his home in the Virgin [[syr.dw.jesus]] [[as:paraphrase]]. Ephrem sang the Nativity in his first hymn: [[quote:syr.quote.nativity-this-is-the-day]] [[as:paraphrase]]. As for the path, our own founding story says King Abgar wrote to Jesus and Addai came to Edessa [[syr.story.abgar-addai-legend]] [[as:paraphrase]]. That is our cherished legend, and we do not offer it as history [[syr.story.abgar-addai-legend]] [[as:paraphrase]]. No contemporary witness backs it, and the king's own coinage stayed pagan [[syr.story.abgar-addai-legend]] [[as:paraphrase]]. What we can show is practice: the covenant kept a vigil with sung teaching hymns, the harmony was read, and the vow was lived at home [[syr.story.qyama-morning]] [[as:paraphrase]]. No specific morning like it is recorded anywhere, so we offer it as reconstruction, never as memory [[syr.story.qyama-morning]] [[as:paraphrase]]. Our covenant's morning gathering, as we reconstruct it, shows that practice: [[story:syr.story.qyama-morning]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "syr.quote.nativity-this-is-the-day": [
+    {
+     "detail": "Nativity",
+     "kind": "name",
+     "snippet": "his day brought forth Immanuel in Bethlehem. Ephrem's first Nativity hymn celebrates the day the Virgin bore Immanuel in Bethleh",
+     "span": "record syr.quote.nativity-this-is-the-day"
+    }
+   ]
+  },
+  "placed": [
+   "syr.story.qyama-morning",
+   "syr.quote.nativity-this-is-the-day"
+  ],
+  "removed": [
+   {
+    "draft": "As for the path, our own founding story says King Abgar wrote to Jesus and Addai came to Edessa [[syr.story.abgar-addai-legend]] [[as:paraphrase]].",
+    "sentence": "As for the path, our own founding story says King Abgar wrote to Jesus and Addai came to Edessa.",
+    "why": "tells an offered story without placing it"
+   },
+   {
+    "draft": "That is our cherished legend, and we do not offer it as history [[syr.story.abgar-addai-legend]] [[as:paraphrase]].",
+    "sentence": "That is our cherished legend, and we do not offer it as history.",
+    "why": "tells an offered story without placing it"
+   },
+   {
+    "draft": "No contemporary witness backs it, and the king's own coinage stayed pagan [[syr.story.abgar-addai-legend]] [[as:paraphrase]].",
+    "sentence": "No contemporary witness backs it, and the king's own coinage stayed pagan.",
+    "why": "tells an offered story without placing it"
+   },
+   {
+    "draft": "We knew Jesus above all through what we sang and confessed: the Only-Begotten, who made his home in the Virgin [[syr.dw.jesus]] [[as:paraphrase]].",
+    "sentence": "We knew Jesus above all through what we sang and confessed: the Only-Begotten, who made his home in the Virgin.",
+    "why": "words attributed without a placed quote"
+   }
+  ],
+  "repaired": [],
+  "story_lengths": {
+   "syr.story.qyama-morning": "full"
+  }
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S9",
+ "text": "Ephrem sang the Nativity in his first hymn: “This is the day that made the Prophets, the Kings, and the Priests glad. On this day their words came true - all of them. For on this day the Virgin gave birth to Immanuel in Bethlehem.”. What we can show is practice: the covenant kept a vigil with sung teaching hymns, the harmony was read, and the vow was lived at home. No specific morning like it is recorded anywhere, so we offer it as reconstruction, never as memory. Our covenant's morning gathering, as we reconstruct it, shows that practice:\n\nBefore dawn in Nisibis, those bound by the covenant gather for the vigil. No single morning like this was written down. This one is pieced together from separate sources, from the years before the city was handed to Persia in 363.\n\nThe covenanters are men and women who have taken the vow and stay unmarried. They walk through the dark streets from their own family houses, since there is no cloister. Among them, later accounts say, stands the choir of the daughters of the covenant. They will raise the madrasha, the teaching hymn.\n\nThe hymn carries the teaching on its tune, stanza answering refrain, until the whole gathering holds the argument by heart. The Gospel read out is the harmony, the Gospels woven into one unbroken story.\n\nThe feast this season keeps the Lord's birth and his baptism together in one observance, as this city then did. When the light is full, the covenanters keep their fast and go back to their own households and their work in town..",
+ "voice_set_aside": false
+}

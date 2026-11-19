@@ -87,7 +87,7 @@ senses:
     depend on ourselves, so the rejection or admission of them lies in our own power." The mind is
     like a mill turned by a stream: it cannot stop turning, "but it is in the power of the man who
     directs it, to decide whether he will have wheat or barley or darnel ground by it." So the monk
-    feeds it - the psalms by heart, meditation on Scripture, labour. Then the three origins: "from God,
+    feeds it - the psalms by heart, meditation on Scripture, labor. Then the three origins: "from God,
     from the devil, and from ourselves" - from God "when He vouchsafes to visit us with the
     illumination of the Holy Ghost" or chastens us "with most salutary compunction"; from the devil,
     "deceitfully showing us evil as good, and transforming himself into an angel of light"; and a

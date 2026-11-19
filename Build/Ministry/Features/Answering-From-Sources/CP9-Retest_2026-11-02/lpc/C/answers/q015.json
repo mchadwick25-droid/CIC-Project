@@ -1,0 +1,156 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.limit.the-lapsed-own-account"
+   ],
+   "sentence": "What our record holds is what was decided about a member who failed, and how fiercely, and by whom, because every account we have of the lapsed is a bishop's."
+  },
+  {
+   "record_ids": [
+    "lpc.term.reconciliation-penitential-discipline"
+   ],
+   "sentence": "The way back was a public road, walked in steps under the bishop, by which a failed member came home."
+  },
+  {
+   "record_ids": [
+    "lpc.term.reconciliation-penitential-discipline"
+   ],
+   "sentence": "The road had an order, the order took time, and everyone could see it."
+  },
+  {
+   "record_ids": [
+    "lpc.quote.before-even-a-deacon"
+   ],
+   "sentence": "Cyprian wrote to his presbyters and deacons about the sick: “I think we must come to the help of our brothers in this way. Some have received letters of peace from the martyrs, and may be helped by the martyrs' standing with God. If misfortune and the danger of sickness seize them, they should not wait for me to be present. They should be able to confess their sin before any presbyter who is there. If no presbyter can be found and death begins to draw near, they may confess before even a deacon. Then hands are laid on them for repentance. In this way they may come to the Lord with the peace the martyrs asked for them in their letters to us.”"
+  },
+  {
+   "record_ids": [
+    "lpc.limit.the-lapsed-own-account"
+   ],
+   "sentence": "The lapsed left nothing in their own words, so we cannot tell you why a person gave way, or whether that person judged the terms of return just."
+  }
+ ],
+ "citations": [
+  "lpc.limit.the-lapsed-own-account",
+  "lpc.quote.before-even-a-deacon",
+  "lpc.term.reconciliation-penitential-discipline"
+ ],
+ "group": "A",
+ "id": "q015",
+ "net_sentences": [
+  {
+   "draft": "What our record holds is what was decided about a member who failed, and how fiercely, and by whom, because every account we have of the lapsed is a bishop's [[lpc.limit.the-lapsed-own-account]] [[as:paraphrase]].",
+   "ratio": 0.64,
+   "sentence": "What our record holds is what was decided about a member who failed, and how fiercely, and by whom, because every account we have of the lapsed is a bishop's.",
+   "tags": [
+    "lpc.limit.the-lapsed-own-account"
+   ],
+   "verdict": "ok",
+   "why": "grounded 64% in own tagged records"
+  },
+  {
+   "draft": "The way back was a public road, walked in steps under the bishop, by which a failed member came home [[lpc.term.reconciliation-penitential-discipline]] [[as:paraphrase]].",
+   "ratio": 0.73,
+   "sentence": "The way back was a public road, walked in steps under the bishop, by which a failed member came home.",
+   "tags": [
+    "lpc.term.reconciliation-penitential-discipline"
+   ],
+   "verdict": "ok",
+   "why": "grounded 73% in own tagged records"
+  },
+  {
+   "draft": "The road had an order, the order took time, and everyone could see it [[lpc.term.reconciliation-penitential-discipline]] [[as:paraphrase]].",
+   "sentence": "The road had an order, the order took time, and everyone could see it.",
+   "tags": [
+    "lpc.term.reconciliation-penitential-discipline"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Cyprian wrote to his presbyters and deacons about the sick: [[quote:lpc.quote.before-even-a-deacon]]",
+   "placed_quote": "lpc.quote.before-even-a-deacon",
+   "sentence": "Cyprian wrote to his presbyters and deacons about the sick: “I think we must come to the help of our brothers in this way. Some have received letters of peace from the martyrs, and may be helped by the martyrs' standing with God. If misfortune and the danger of sickness seize them, they should not wait for me to be present. They should be able to confess their sin before any presbyter who is there. If no presbyter can be found and death begins to draw near, they may confess before even a deacon. Then hands are laid on them for repentance. In this way they may come to the Lord with the peace the martyrs asked for them in their letters to us.”",
+   "tags": [
+    "lpc.quote.before-even-a-deacon"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "The lapsed left nothing in their own words, so we cannot tell you why a person gave way, or whether that person judged the terms of return just [[lpc.limit.the-lapsed-own-account]] [[as:paraphrase]].",
+   "sentence": "The lapsed left nothing in their own words, so we cannot tell you why a person gave way, or whether that person judged the terms of return just.",
+   "tags": [
+    "lpc.limit.the-lapsed-own-account"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.story.election-of-cyprian",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.story.the-psalms-on-the-wall",
+  "lpc.quote.all-sins-against-us-are-to-be-forgiven",
+  "lpc.quote.pardon-through-a-wicked-clergyman",
+  "lpc.force.confessors-claim-to-grant-peace",
+  "lpc.contested.cyprian-death-genre",
+  "lpc.witness.the-dying-and-the-pastors-post",
+  "lpc.quote.peter-the-sick-man-and-the-physician",
+  "lpc.quote.before-even-a-deacon",
+  "lpc.force.decian-persecution-libelli-system",
+  "lpc.limit.ordinary-interior-life",
+  "lpc.witness.remembered-at-the-altar",
+  "lpc.quote.a-dreadful-plague-broke-out",
+  "lpc.quote.remember-me-at-the-lords-altar",
+  "lpc.witness.violence-commanded-not-cruel",
+  "lpc.quote.many-have-learned-to-offer-the-other-cheek",
+  "lpc.quote.david-himself-hath-been-sent-to-thee"
+ ],
+ "raw_text": "What our record holds is what was decided about a member who failed, and how fiercely, and by whom, because every account we have of the lapsed is a bishop's [[lpc.limit.the-lapsed-own-account]] [[as:paraphrase]]. The way back was a public road, walked in steps under the bishop, by which a failed member came home [[lpc.term.reconciliation-penitential-discipline]] [[as:paraphrase]]. The road had an order, the order took time, and everyone could see it [[lpc.term.reconciliation-penitential-discipline]] [[as:paraphrase]]. Cyprian wrote to his presbyters and deacons about the sick: [[quote:lpc.quote.before-even-a-deacon]] [[as:paraphrase]]. The lapsed left nothing in their own words, so we cannot tell you why a person gave way, or whether that person judged the terms of return just [[lpc.limit.the-lapsed-own-account]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "lpc.quote.before-even-a-deacon": [
+    {
+     "detail": "presbyter",
+     "kind": "role",
+     "snippet": "resent. They should be able to confess their sin before any presbyter who is there. If no presbyter can be found and death begins",
+     "span": "record lpc.quote.before-even-a-deacon"
+    },
+    {
+     "detail": "deacon",
+     "kind": "role",
+     "snippet": "d death begins to draw near, they may confess before even a deacon. Then hands are laid on them for repentance. In this way th",
+     "span": "record lpc.quote.before-even-a-deacon"
+    },
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "he peace the martyrs asked for them in their letters to us. Epistle XII (Oxford numbering Ep. XVIII; Hartel Ep. 18), section 1,",
+     "span": "record lpc.quote.before-even-a-deacon"
+    }
+   ]
+  },
+  "placed": [
+   "lpc.quote.before-even-a-deacon"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C14.S5",
+ "text": "What our record holds is what was decided about a member who failed, and how fiercely, and by whom, because every account we have of the lapsed is a bishop's. The way back was a public road, walked in steps under the bishop, by which a failed member came home. The road had an order, the order took time, and everyone could see it. Cyprian wrote to his presbyters and deacons about the sick: “I think we must come to the help of our brothers in this way. Some have received letters of peace from the martyrs, and may be helped by the martyrs' standing with God. If misfortune and the danger of sickness seize them, they should not wait for me to be present. They should be able to confess their sin before any presbyter who is there. If no presbyter can be found and death begins to draw near, they may confess before even a deacon. Then hands are laid on them for repentance. In this way they may come to the Lord with the peace the martyrs asked for them in their letters to us.”. The lapsed left nothing in their own words, so we cannot tell you why a person gave way, or whether that person judged the terms of return just.",
+ "voice_set_aside": false
+}

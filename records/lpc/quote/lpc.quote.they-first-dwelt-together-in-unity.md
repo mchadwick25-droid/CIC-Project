@@ -34,6 +34,7 @@ retrieval:
     in unity'
   - participant asks who first lived in unity, according to Augustine
   - participant asks how Augustine described the unity of the first believers
+  - participant asks whether the first Christians shared everything they owned
   prefer_instead:
   - participant asks how bishops and good shepherds were held in one unity -- lpc.quote.one-good-shepherd-not-many
     gives that

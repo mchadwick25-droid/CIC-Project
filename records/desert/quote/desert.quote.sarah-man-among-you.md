@@ -79,6 +79,6 @@ own full statement of it.
 
 `sources[].locus` compiles into `quotes.json` (`build_quotes_json()` emits `sources` verbatim), so it
 is written as a plain description: it does not name a sibling record id, use build-process language,
-or carry a licence-mechanics gloss.
+or carry a license-mechanics gloss.
 
 The modern_rendering is a modern-English translation of the text field, not a summary; the original wording stays as the text field, shown at Level 3. This desert pass is quotes-only: the world's dw prose and limits already carry the plain register.

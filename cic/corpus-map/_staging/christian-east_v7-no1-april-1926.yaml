@@ -1,0 +1,46 @@
+source_file: christian-east_v7-no1-april-1926.txt
+assignments:
+- row_id: christian-east_v7-no1-april-1926--whole
+  work: 'The Christian East, volume VII, number 1 (April, 1926)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1926, end: 1926, source: "masthead: 'April, 1926'", formation_confidence: Documented}
+  note: 'One number of the quarterly, by many writers. The Eastern documents it prints are in the journal''s English unless a row says otherwise.'
+- row_id: christian-east_v7-no1-april-1926--bulgakoff-does-orthodoxy-possess-an-outward-authority-of-dogmatic-infallibility-1926
+  work: 'Prof. Bulgakoff, ''Does Orthodoxy Possess an Outward Authority of Dogmatic Infallibility?'' (1926), in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 909-1855; add 12 to OCR line numbers'
+  atlas_ids:
+  - emigre-orthodoxy-and-the-paris-school
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1926, end: 1926, source: "printed in the number of April, 1926", formation_confidence: Documented}
+  note: 'His article ''translated from the Russian by the Rev. R. M. French'' (OCR line 912).'
+- row_id: christian-east_v7-no1-april-1926--evlogios-two-letters-1926
+  work: 'Evlogios, Metropolitan, two letters from Paris (1926), in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 2868-2993; add 12 to OCR line numbers'
+  atlas_ids:
+  - emigre-orthodoxy-and-the-paris-school
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1926, end: 1926, source: "each is dated Paris, 2/15 January, 1926 (OCR lines 2869 and 2923)", formation_confidence: Documented}
+  note: 'Two letters of thanks, numbered 25 and 27, printed in the Chronicle in English; the print names no translator.'
+- row_id: christian-east_v7-no1-april-1926--surma-speech-for-the-assyrian-appeal-1926
+  work: 'Lady Surma, speech for the Assyrian appeal (1926), in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 3602-3668; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-sayfo-and-the-syriac-diaspora
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1926, end: 1926, source: "printed in the number of April, 1926", formation_confidence: Documented}
+  note: 'Her own speech as the journal prints it in English; it then says she ''recited the Lord''s Prayer in Aramaic'' (OCR line 3670).'

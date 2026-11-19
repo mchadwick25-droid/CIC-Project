@@ -1,0 +1,160 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.doubt"
+   ],
+   "sentence": "We would have met you as a believer still under construction, because faith, our sage taught, is a building that goes up piece by piece."
+  },
+  {
+   "record_ids": [
+    "syr.dw.doubt"
+   ],
+   "sentence": "A building is not finished in a day."
+  },
+  {
+   "record_ids": [
+    "syr.dw.doubt"
+   ],
+   "sentence": "What we distrusted was not the struggling believer but the prying scrutinizer, who would take the Godhead apart like a problem."
+  },
+  {
+   "record_ids": [
+    "syr.dw.adam-grace"
+   ],
+   "sentence": "On faith the whole house was raised, with fasting, prayer, love, almsgiving, and meekness."
+  },
+  {
+   "record_ids": [
+    "syr.limit.what-must-one-do"
+   ],
+   "sentence": "For the one who falls, Aphrahat named penitence as the medicine for the wound."
+  },
+  {
+   "record_ids": [
+    "syr.limit.what-must-one-do"
+   ],
+   "sentence": "Whether you would be rewarded, he left to the judge."
+  },
+  {
+   "record_ids": [
+    "syr.dw.doubt"
+   ],
+   "sentence": "Ordinary believers appear in our writings only as those addressed, so how any one town would have received you is not in our record."
+  }
+ ],
+ "citations": [
+  "syr.dw.adam-grace",
+  "syr.dw.doubt",
+  "syr.limit.what-must-one-do"
+ ],
+ "group": "A",
+ "id": "q027",
+ "net_sentences": [
+  {
+   "draft": "We would have met you as a believer still under construction, because faith, our sage taught, is a building that goes up piece by piece [[syr.dw.doubt]] [[as:paraphrase]].",
+   "ratio": 0.78,
+   "sentence": "We would have met you as a believer still under construction, because faith, our sage taught, is a building that goes up piece by piece.",
+   "tags": [
+    "syr.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "grounded 78% in own tagged records"
+  },
+  {
+   "draft": "A building is not finished in a day [[syr.dw.doubt]] [[as:paraphrase]].",
+   "sentence": "A building is not finished in a day.",
+   "tags": [
+    "syr.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "What we distrusted was not the struggling believer but the prying scrutinizer, who would take the Godhead apart like a problem [[syr.dw.doubt]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "What we distrusted was not the struggling believer but the prying scrutinizer, who would take the Godhead apart like a problem.",
+   "tags": [
+    "syr.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "On faith the whole house was raised, with fasting, prayer, love, almsgiving, and meekness [[syr.dw.adam-grace]] [[as:paraphrase]].",
+   "sentence": "On faith the whole house was raised, with fasting, prayer, love, almsgiving, and meekness.",
+   "tags": [
+    "syr.dw.adam-grace"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "For the one who falls, Aphrahat named penitence as the medicine for the wound [[syr.limit.what-must-one-do]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "For the one who falls, Aphrahat named penitence as the medicine for the wound.",
+   "tags": [
+    "syr.limit.what-must-one-do"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Whether you would be rewarded, he left to the judge [[syr.limit.what-must-one-do]] [[as:paraphrase]].",
+   "sentence": "Whether you would be rewarded, he left to the judge.",
+   "tags": [
+    "syr.limit.what-must-one-do"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Ordinary believers appear in our writings only as those addressed, so how any one town would have received you is not in our record [[syr.dw.doubt]] [[as:paraphrase]].",
+   "sentence": "Ordinary believers appear in our writings only as those addressed, so how any one town would have received you is not in our record.",
+   "tags": [
+    "syr.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "syr.limit.what-must-one-do",
+  "syr.dw.adam-grace",
+  "syr.story.qyama-morning",
+  "syr.quote.aphrahat-stone-foundation",
+  "syr.limit.ritual-sequence",
+  "syr.dw.doubt",
+  "syr.dw.born-again-endtimes",
+  "syr.term.ihidaya",
+  "syr.term.qyama",
+  "syr.quote.dem6-visit-the-sick",
+  "syr.gravity.covenant-life",
+  "syr.contested.qyama-structure"
+ ],
+ "raw_text": "We would have met you as a believer still under construction, because faith, our sage taught, is a building that goes up piece by piece [[syr.dw.doubt]] [[as:paraphrase]]. A building is not finished in a day [[syr.dw.doubt]] [[as:paraphrase]]. What we distrusted was not the struggling believer but the prying scrutinizer, who would take the Godhead apart like a problem [[syr.dw.doubt]] [[as:paraphrase]]. Aphrahat wrote of Jesus Christ as the foundation: [[quote:syr.quote.aphrahat-stone-foundation]] [[as:paraphrase]]. On faith the whole house was raised, with fasting, prayer, love, almsgiving, and meekness [[syr.dw.adam-grace]] [[as:paraphrase]]. For the one who falls, Aphrahat named penitence as the medicine for the wound [[syr.limit.what-must-one-do]] [[as:paraphrase]]. Whether you would be rewarded, he left to the judge [[syr.limit.what-must-one-do]] [[as:paraphrase]]. Ordinary believers appear in our writings only as those addressed, so how any one town would have received you is not in our record [[syr.dw.doubt]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [
+   {
+    "draft": "Aphrahat wrote of Jesus Christ as the foundation: [[quote:syr.quote.aphrahat-stone-foundation]]",
+    "sentence": "Aphrahat wrote of Jesus Christ as the foundation:",
+    "why": "placed quote does not match its record"
+   }
+  ],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": null,
+ "text": "We would have met you as a believer still under construction, because faith, our sage taught, is a building that goes up piece by piece. A building is not finished in a day. What we distrusted was not the struggling believer but the prying scrutinizer, who would take the Godhead apart like a problem.. On faith the whole house was raised, with fasting, prayer, love, almsgiving, and meekness. For the one who falls, Aphrahat named penitence as the medicine for the wound. Whether you would be rewarded, he left to the judge. Ordinary believers appear in our writings only as those addressed, so how any one town would have received you is not in our record.",
+ "voice_set_aside": false
+}

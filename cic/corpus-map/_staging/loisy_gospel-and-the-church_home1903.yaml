@@ -1,0 +1,11 @@
+source_file: loisy_gospel-and-the-church_home1903.txt
+assignments:
+- row_id: loisy_gospel-and-the-church_home1903--loisy-the-gospel-and-the-church-home-1903
+  work: 'Loisy, The Gospel and the Church (Home 1903)'
+  author: loisy
+  locus: 'whole'
+  atlas_ids:
+  - the-catholic-church-pius-x-to-the-council
+  role: antecedent
+  confidence: assigned
+  note: 'His book in an English translation of 1903, before the entry''s window opens in 1906. The decree Lamentabili of 1907 answers this book and its fellow.'

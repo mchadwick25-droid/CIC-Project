@@ -1,0 +1,136 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "The cost our record shows plainly came under persecution, when many among us gave way and some sacrificed to the gods."
+  },
+  {
+   "record_ids": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "When peace came, the strict party demanded that they stay out, and the tradition that won brought the repentant back in, even at the deathbed."
+  },
+  {
+   "record_ids": [
+    "alx.quote.clement-possessions"
+   ],
+   "sentence": "Our record holds one teacher's sermon on wealth, and Clement gave it in Quis Dives Salvetur: “Consider someone who holds possessions - gold, silver, houses - as gifts of God. From them he serves the God who gives them, for the salvation of others. He knows he owns them more for the sake of his fellow believers than for his own. He is master of what he owns, not a slave to the things he owns. He does not carry them around in his soul. He does not bind his life within them or fence it in. Instead, he is always at work on some good and divine task. One day he may be forced to lose them. Even then, he can bear their loss with a cheerful mind, just as he bears their abundance. This is the one the Lord blesses, the one called poor in spirit. He is a fit heir of the kingdom of heaven, not one who could not live rich.”"
+  },
+  {
+   "record_ids": [
+    "alx.force.apostolic-tradition"
+   ],
+   "sentence": "What we received when we joined was the washing that made new, the shared bread, and the teaching of those coming in."
+  }
+ ],
+ "citations": [
+  "alx.dw.church-failure",
+  "alx.force.apostolic-tradition",
+  "alx.quote.clement-possessions"
+ ],
+ "group": "A",
+ "id": "q023",
+ "net_sentences": [
+  {
+   "draft": "The cost our record shows plainly came under persecution, when many among us gave way and some sacrificed to the gods [[alx.dw.church-failure]] [[as:paraphrase]].",
+   "sentence": "The cost our record shows plainly came under persecution, when many among us gave way and some sacrificed to the gods.",
+   "tags": [
+    "alx.dw.church-failure"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "When peace came, the strict party demanded that they stay out, and the tradition that won brought the repentant back in, even at the deathbed [[alx.dw.church-failure]] [[as:paraphrase]].",
+   "sentence": "When peace came, the strict party demanded that they stay out, and the tradition that won brought the repentant back in, even at the deathbed.",
+   "tags": [
+    "alx.dw.church-failure"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our record holds one teacher's sermon on wealth, and Clement gave it in Quis Dives Salvetur: [[quote:alx.quote.clement-possessions]]",
+   "placed_quote": "alx.quote.clement-possessions",
+   "sentence": "Our record holds one teacher's sermon on wealth, and Clement gave it in Quis Dives Salvetur: “Consider someone who holds possessions - gold, silver, houses - as gifts of God. From them he serves the God who gives them, for the salvation of others. He knows he owns them more for the sake of his fellow believers than for his own. He is master of what he owns, not a slave to the things he owns. He does not carry them around in his soul. He does not bind his life within them or fence it in. Instead, he is always at work on some good and divine task. One day he may be forced to lose them. Even then, he can bear their loss with a cheerful mind, just as he bears their abundance. This is the one the Lord blesses, the one called poor in spirit. He is a fit heir of the kingdom of heaven, not one who could not live rich.”",
+   "tags": [
+    "alx.quote.clement-possessions"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "What we received when we joined was the washing that made new, the shared bread, and the teaching of those coming in [[alx.force.apostolic-tradition]] [[as:paraphrase]].",
+   "sentence": "What we received when we joined was the washing that made new, the shared bread, and the teaching of those coming in.",
+   "tags": [
+    "alx.force.apostolic-tradition"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "alx.dw.church-failure",
+  "alx.term.episkopos",
+  "alx.story.arsinoite-conference",
+  "alx.story.origen-daring-deed",
+  "alx.story.origen-demetrius",
+  "alx.quote.dionysius-nepos",
+  "alx.force.post-nicene-authority-shift",
+  "alx.contested.allegory-from-within",
+  "alx.term.photismos",
+  "alx.quote.clement-possessions",
+  "alx.force.apostolic-tradition",
+  "alx.contested.desert-attribution"
+ ],
+ "raw_text": "The cost our record shows plainly came under persecution, when many among us gave way and some sacrificed to the gods [[alx.dw.church-failure]] [[as:paraphrase]].\nWhen peace came, the strict party demanded that they stay out, and the tradition that won brought the repentant back in, even at the deathbed [[alx.dw.church-failure]] [[as:paraphrase]].\nOur record holds one teacher's sermon on wealth, and Clement gave it in Quis Dives Salvetur: [[quote:alx.quote.clement-possessions]]\nWhat we received when we joined was the washing that made new, the shared bread, and the teaching of those coming in [[alx.force.apostolic-tradition]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "alx.quote.clement-possessions": [
+    {
+     "detail": "Quis",
+     "kind": "name",
+     "snippet": "dom of heaven, not one who could not live rich. Clement, in Quis Dives Salvetur 16, calls the rich man who holds wealth as G",
+     "span": "record alx.quote.clement-possessions"
+    },
+    {
+     "detail": "Dives",
+     "kind": "name",
+     "snippet": "f heaven, not one who could not live rich. Clement, in Quis Dives Salvetur 16, calls the rich man who holds wealth as God's g",
+     "span": "record alx.quote.clement-possessions"
+    },
+    {
+     "detail": "Salvetur",
+     "kind": "name",
+     "snippet": "en, not one who could not live rich. Clement, in Quis Dives Salvetur 16, calls the rich man who holds wealth as God's gift for o",
+     "span": "record alx.quote.clement-possessions"
+    },
+    {
+     "detail": "teacher",
+     "kind": "role",
+     "snippet": "the teacher whose books survive, though almost nothing of his life does",
+     "span": "record alx.figure.clement"
+    },
+    {
+     "detail": "sermon",
+     "kind": "genre",
+     "snippet": "; and knows that he possesses them more for the sake of the brethren than his own; and is superior to the possession of them, no",
+     "span": "record alx.quote.clement-possessions"
+    }
+   ]
+  },
+  "placed": [
+   "alx.quote.clement-possessions"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C12.S6",
+ "text": "The cost our record shows plainly came under persecution, when many among us gave way and some sacrificed to the gods. When peace came, the strict party demanded that they stay out, and the tradition that won brought the repentant back in, even at the deathbed. Our record holds one teacher's sermon on wealth, and Clement gave it in Quis Dives Salvetur: “Consider someone who holds possessions - gold, silver, houses - as gifts of God. From them he serves the God who gives them, for the salvation of others. He knows he owns them more for the sake of his fellow believers than for his own. He is master of what he owns, not a slave to the things he owns. He does not carry them around in his soul. He does not bind his life within them or fence it in. Instead, he is always at work on some good and divine task. One day he may be forced to lose them. Even then, he can bear their loss with a cheerful mind, just as he bears their abundance. This is the one the Lord blesses, the one called poor in spirit. He is a fit heir of the kingdom of heaven, not one who could not live rich.”\n\nWhat we received when we joined was the washing that made new, the shared bread, and the teaching of those coming in.",
+ "voice_set_aside": false
+}

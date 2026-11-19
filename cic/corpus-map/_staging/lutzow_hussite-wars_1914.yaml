@@ -9,6 +9,8 @@ assignments:
       - the-hussite-and-bohemian-brethren-movement
     role: context
     confidence: assigned
+    language: eng
+    date: {start: 1913, end: 1914, source: "preface signed 'Zampach, December 1913' (file line 468); title page 1914", formation_confidence: Documented}
     note: >
       Secondary history, English, Lutzow (1914), of the Hussite wars
       specifically.

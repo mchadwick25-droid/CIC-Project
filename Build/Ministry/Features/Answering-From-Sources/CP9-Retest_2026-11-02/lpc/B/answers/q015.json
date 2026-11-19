@@ -1,0 +1,238 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "lpc.term.reconciliation-penitential-discipline"
+   ],
+   "sentence": "We met a failure with a public road back, walked in steps under the bishop."
+  },
+  {
+   "record_ids": [
+    "lpc.term.reconciliation-penitential-discipline"
+   ],
+   "sentence": "There is an order to that road, the order takes time, and everyone can see it."
+  },
+  {
+   "record_ids": [
+    "lpc.force.decian-persecution-libelli-system"
+   ],
+   "sentence": "The Decian persecution demanded a recorded act of compliance, and a person could get a certificate by sacrificing or by paying to have it recorded."
+  },
+  {
+   "record_ids": [
+    "lpc.force.decian-persecution-libelli-system"
+   ],
+   "sentence": "In one year many lapsed and many confessors stood in one congregation, and both groups still belonged, still in the room."
+  },
+  {
+   "record_ids": [
+    "lpc.force.confessors-claim-to-grant-peace"
+   ],
+   "sentence": "The confessors issued written requests that named lapsed persons to be received back."
+  },
+  {
+   "record_ids": [
+    "lpc.force.confessors-claim-to-grant-peace"
+   ],
+   "sentence": "Cyprian wrote that thousands of certificates were being given every day, against the law of the Gospel."
+  },
+  {
+   "record_ids": [
+    "lpc.force.confessors-claim-to-grant-peace"
+   ],
+   "sentence": "Both sides spoke in earnest, and that was the difficulty."
+  },
+  {
+   "record_ids": [
+    "lpc.quote.before-even-a-deacon"
+   ],
+   "sentence": "Cyprian wrote: “I think we must come to the help of our brothers in this way. Some have received letters of peace from the martyrs, and may be helped by the martyrs' standing with God. If misfortune and the danger of sickness seize them, they should not wait for me to be present. They should be able to confess their sin before any presbyter who is there. If no presbyter can be found and death begins to draw near, they may confess before even a deacon. Then hands are laid on them for repentance. In this way they may come to the Lord with the peace the martyrs asked for them in their letters to us.”"
+  },
+  {
+   "record_ids": [
+    "lpc.witness.the-dying-and-the-pastors-post"
+   ],
+   "sentence": "In 428 or 429, Augustine wrote to Honoratus, a bishop in Mauritania, that when the ministers are at their posts in extreme danger, some are baptized and others reconciled to the Church."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "sentence": "We can tell you what was decided about a person, and how carefully, and by whom."
+  },
+  {
+   "record_ids": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "sentence": "We cannot tell you what an ordinary believer felt at the font or in the congregation."
+  }
+ ],
+ "citations": [
+  "lpc.force.confessors-claim-to-grant-peace",
+  "lpc.force.decian-persecution-libelli-system",
+  "lpc.limit.ordinary-interior-life",
+  "lpc.quote.before-even-a-deacon",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.witness.the-dying-and-the-pastors-post"
+ ],
+ "group": "A",
+ "id": "q015",
+ "net_sentences": [
+  {
+   "draft": "We met a failure with a public road back, walked in steps under the bishop [[lpc.term.reconciliation-penitential-discipline]] [[as:paraphrase]].",
+   "ratio": 0.71,
+   "sentence": "We met a failure with a public road back, walked in steps under the bishop.",
+   "tags": [
+    "lpc.term.reconciliation-penitential-discipline"
+   ],
+   "verdict": "ok",
+   "why": "grounded 71% in own tagged records"
+  },
+  {
+   "draft": "There is an order to that road, the order takes time, and everyone can see it [[lpc.term.reconciliation-penitential-discipline]] [[as:paraphrase]].",
+   "sentence": "There is an order to that road, the order takes time, and everyone can see it.",
+   "tags": [
+    "lpc.term.reconciliation-penitential-discipline"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The Decian persecution demanded a recorded act of compliance, and a person could get a certificate by sacrificing or by paying to have it recorded [[lpc.force.decian-persecution-libelli-system]] [[as:paraphrase]].",
+   "ratio": 0.91,
+   "sentence": "The Decian persecution demanded a recorded act of compliance, and a person could get a certificate by sacrificing or by paying to have it recorded.",
+   "tags": [
+    "lpc.force.decian-persecution-libelli-system"
+   ],
+   "verdict": "ok",
+   "why": "grounded 91% in own tagged records"
+  },
+  {
+   "draft": "In one year many lapsed and many confessors stood in one congregation, and both groups still belonged, still in the room [[lpc.force.decian-persecution-libelli-system]] [[as:paraphrase]].",
+   "sentence": "In one year many lapsed and many confessors stood in one congregation, and both groups still belonged, still in the room.",
+   "tags": [
+    "lpc.force.decian-persecution-libelli-system"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The confessors issued written requests that named lapsed persons to be received back [[lpc.force.confessors-claim-to-grant-peace]] [[as:paraphrase]].",
+   "sentence": "The confessors issued written requests that named lapsed persons to be received back.",
+   "tags": [
+    "lpc.force.confessors-claim-to-grant-peace"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Cyprian wrote that thousands of certificates were being given every day, against the law of the Gospel [[lpc.force.confessors-claim-to-grant-peace]] [[as:paraphrase]].",
+   "sentence": "Cyprian wrote that thousands of certificates were being given every day, against the law of the Gospel.",
+   "tags": [
+    "lpc.force.confessors-claim-to-grant-peace"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Both sides spoke in earnest, and that was the difficulty [[lpc.force.confessors-claim-to-grant-peace]] [[as:paraphrase]].",
+   "sentence": "Both sides spoke in earnest, and that was the difficulty.",
+   "tags": [
+    "lpc.force.confessors-claim-to-grant-peace"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Cyprian wrote: [[quote:lpc.quote.before-even-a-deacon]]",
+   "placed_quote": "lpc.quote.before-even-a-deacon",
+   "sentence": "Cyprian wrote: “I think we must come to the help of our brothers in this way. Some have received letters of peace from the martyrs, and may be helped by the martyrs' standing with God. If misfortune and the danger of sickness seize them, they should not wait for me to be present. They should be able to confess their sin before any presbyter who is there. If no presbyter can be found and death begins to draw near, they may confess before even a deacon. Then hands are laid on them for repentance. In this way they may come to the Lord with the peace the martyrs asked for them in their letters to us.”",
+   "tags": [
+    "lpc.quote.before-even-a-deacon"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "In 428 or 429, Augustine wrote to Honoratus, a bishop in Mauritania, that when the ministers are at their posts in extreme danger, some are baptized and others reconciled to the Church [[lpc.witness.the-dying-and-the-pastors-post]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "In 428 or 429, Augustine wrote to Honoratus, a bishop in Mauritania, that when the ministers are at their posts in extreme danger, some are baptized and others reconciled to the Church.",
+   "tags": [
+    "lpc.witness.the-dying-and-the-pastors-post"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "We can tell you what was decided about a person, and how carefully, and by whom [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]].",
+   "sentence": "We can tell you what was decided about a person, and how carefully, and by whom.",
+   "tags": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We cannot tell you what an ordinary believer felt at the font or in the congregation [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]].",
+   "sentence": "We cannot tell you what an ordinary believer felt at the font or in the congregation.",
+   "tags": [
+    "lpc.limit.ordinary-interior-life"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "lpc.witness.restless-heart-and-the-unrepentant-enemy",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.story.election-of-cyprian",
+  "lpc.story.hundred-thousand-sesterces",
+  "lpc.story.the-psalms-on-the-wall",
+  "lpc.quote.all-sins-against-us-are-to-be-forgiven",
+  "lpc.quote.pardon-through-a-wicked-clergyman",
+  "lpc.force.confessors-claim-to-grant-peace",
+  "lpc.contested.cyprian-death-genre",
+  "lpc.witness.the-dying-and-the-pastors-post",
+  "lpc.quote.peter-the-sick-man-and-the-physician",
+  "lpc.quote.before-even-a-deacon",
+  "lpc.force.decian-persecution-libelli-system",
+  "lpc.limit.ordinary-interior-life",
+  "lpc.witness.remembered-at-the-altar",
+  "lpc.quote.a-dreadful-plague-broke-out",
+  "lpc.quote.remember-me-at-the-lords-altar",
+  "lpc.witness.violence-commanded-not-cruel",
+  "lpc.quote.many-have-learned-to-offer-the-other-cheek",
+  "lpc.quote.david-himself-hath-been-sent-to-thee"
+ ],
+ "raw_text": "We met a failure with a public road back, walked in steps under the bishop [[lpc.term.reconciliation-penitential-discipline]] [[as:paraphrase]]. There is an order to that road, the order takes time, and everyone can see it [[lpc.term.reconciliation-penitential-discipline]] [[as:paraphrase]]. The Decian persecution demanded a recorded act of compliance, and a person could get a certificate by sacrificing or by paying to have it recorded [[lpc.force.decian-persecution-libelli-system]] [[as:paraphrase]]. In one year many lapsed and many confessors stood in one congregation, and both groups still belonged, still in the room [[lpc.force.decian-persecution-libelli-system]] [[as:paraphrase]]. The confessors issued written requests that named lapsed persons to be received back [[lpc.force.confessors-claim-to-grant-peace]] [[as:paraphrase]]. Cyprian wrote that thousands of certificates were being given every day, against the law of the Gospel [[lpc.force.confessors-claim-to-grant-peace]] [[as:paraphrase]]. Both sides spoke in earnest, and that was the difficulty [[lpc.force.confessors-claim-to-grant-peace]] [[as:paraphrase]]. Cyprian wrote: [[quote:lpc.quote.before-even-a-deacon]] [[as:paraphrase]]. In 428 or 429, Augustine wrote to Honoratus, a bishop in Mauritania, that when the ministers are at their posts in extreme danger, some are baptized and others reconciled to the Church [[lpc.witness.the-dying-and-the-pastors-post]] [[as:paraphrase]]. We can tell you what was decided about a person, and how carefully, and by whom [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]]. We cannot tell you what an ordinary believer felt at the font or in the congregation [[lpc.limit.ordinary-interior-life]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "lpc.quote.before-even-a-deacon": [
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "he peace the martyrs asked for them in their letters to us. Epistle XII (Oxford numbering Ep. XVIII; Hartel Ep. 18), section 1,",
+     "span": "record lpc.quote.before-even-a-deacon"
+    }
+   ]
+  },
+  "placed": [
+   "lpc.quote.before-even-a-deacon"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C14.S5",
+ "text": "We met a failure with a public road back, walked in steps under the bishop. There is an order to that road, the order takes time, and everyone can see it. The Decian persecution demanded a recorded act of compliance, and a person could get a certificate by sacrificing or by paying to have it recorded. In one year many lapsed and many confessors stood in one congregation, and both groups still belonged, still in the room. The confessors issued written requests that named lapsed persons to be received back. Cyprian wrote that thousands of certificates were being given every day, against the law of the Gospel. Both sides spoke in earnest, and that was the difficulty. Cyprian wrote: “I think we must come to the help of our brothers in this way. Some have received letters of peace from the martyrs, and may be helped by the martyrs' standing with God. If misfortune and the danger of sickness seize them, they should not wait for me to be present. They should be able to confess their sin before any presbyter who is there. If no presbyter can be found and death begins to draw near, they may confess before even a deacon. Then hands are laid on them for repentance. In this way they may come to the Lord with the peace the martyrs asked for them in their letters to us.”. In 428 or 429, Augustine wrote to Honoratus, a bishop in Mauritania, that when the ministers are at their posts in extreme danger, some are baptized and others reconciled to the Church. We can tell you what was decided about a person, and how carefully, and by whom. We cannot tell you what an ordinary believer felt at the font or in the congregation.",
+ "voice_set_aside": false
+}

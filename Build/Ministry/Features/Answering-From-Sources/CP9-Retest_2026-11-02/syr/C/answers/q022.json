@@ -1,0 +1,139 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.term.qyama"
+   ],
+   "sentence": "Among us, the sons and daughters of the covenant gave their days to the fast, the watch, the vigil and the singing."
+  },
+  {
+   "record_ids": [
+    "syr.term.qyama"
+   ],
+   "sentence": "The sons and daughters of the covenant had promised a celibate life for good, yet they stayed in town among their own kin instead of going to the desert."
+  },
+  {
+   "record_ids": [
+    "syr.term.qyama",
+    "syr.gravity.covenant-life"
+   ],
+   "sentence": "Their service went to the congregation, inside the town church."
+  },
+  {
+   "record_ids": [
+    "syr.gravity.covenant-life"
+   ],
+   "sentence": "Another name for them was ihidaye, the single ones, which binds their undivided life to Christ the Only-Begotten."
+  },
+  {
+   "record_ids": [
+    "syr.limit.f5-women-own-words"
+   ],
+   "sentence": "Later accounts say the daughters of the covenant sang our teaching in the churches."
+  },
+  {
+   "record_ids": [
+    "syr.limit.f5-women-own-words"
+   ],
+   "sentence": "Not one line written by one of those women was kept, so we cannot give you a day in their own words."
+  }
+ ],
+ "citations": [
+  "syr.gravity.covenant-life",
+  "syr.limit.f5-women-own-words",
+  "syr.term.qyama"
+ ],
+ "group": "A",
+ "id": "q022",
+ "net_sentences": [
+  {
+   "draft": "Among us, the sons and daughters of the covenant gave their days to the fast, the watch, the vigil and the singing [[syr.term.qyama]] [[as:paraphrase]].",
+   "sentence": "Among us, the sons and daughters of the covenant gave their days to the fast, the watch, the vigil and the singing.",
+   "tags": [
+    "syr.term.qyama"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The sons and daughters of the covenant had promised a celibate life for good, yet they stayed in town among their own kin instead of going to the desert [[syr.term.qyama]] [[as:paraphrase]].",
+   "sentence": "The sons and daughters of the covenant had promised a celibate life for good, yet they stayed in town among their own kin instead of going to the desert.",
+   "tags": [
+    "syr.term.qyama"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Their service went to the congregation, inside the town church [[syr.term.qyama]] [[syr.gravity.covenant-life]] [[as:paraphrase]].",
+   "sentence": "Their service went to the congregation, inside the town church.",
+   "tags": [
+    "syr.term.qyama",
+    "syr.gravity.covenant-life"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Another name for them was ihidaye, the single ones, which binds their undivided life to Christ the Only-Begotten [[syr.gravity.covenant-life]] [[as:paraphrase]].",
+   "ratio": 0.73,
+   "sentence": "Another name for them was ihidaye, the single ones, which binds their undivided life to Christ the Only-Begotten.",
+   "tags": [
+    "syr.gravity.covenant-life"
+   ],
+   "verdict": "ok",
+   "why": "grounded 73% in own tagged records"
+  },
+  {
+   "draft": "Later accounts say the daughters of the covenant sang our teaching in the churches [[syr.limit.f5-women-own-words]] [[as:paraphrase]].",
+   "sentence": "Later accounts say the daughters of the covenant sang our teaching in the churches.",
+   "tags": [
+    "syr.limit.f5-women-own-words"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Not one line written by one of those women was kept, so we cannot give you a day in their own words [[syr.limit.f5-women-own-words]] [[as:paraphrase]].",
+   "sentence": "Not one line written by one of those women was kept, so we cannot give you a day in their own words.",
+   "tags": [
+    "syr.limit.f5-women-own-words"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Are you asking about the vowed, or about an ordinary household among us?",
+   "sentence": "Are you asking about the vowed, or about an ordinary household among us?",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  }
+ ],
+ "offered": [
+  "syr.limit.f5-enslaved",
+  "syr.limit.f5-women-own-words",
+  "syr.dw.apostolic",
+  "syr.term.qyama",
+  "syr.story.ephrem-famine-death",
+  "syr.quote.ephrem-keeper-of-strangers",
+  "syr.gravity.covenant-life",
+  "syr.force.frontier-plural-milieu",
+  "syr.limit.what-must-one-do",
+  "syr.dw.adam-grace",
+  "syr.story.abgar-addai-legend",
+  "syr.quote.aphrahat-stone-foundation"
+ ],
+ "raw_text": "Among us, the sons and daughters of the covenant gave their days to the fast, the watch, the vigil and the singing [[syr.term.qyama]] [[as:paraphrase]]. The sons and daughters of the covenant had promised a celibate life for good, yet they stayed in town among their own kin instead of going to the desert [[syr.term.qyama]] [[as:paraphrase]]. Their service went to the congregation, inside the town church [[syr.term.qyama]] [[syr.gravity.covenant-life]] [[as:paraphrase]]. Another name for them was ihidaye, the single ones, which binds their undivided life to Christ the Only-Begotten [[syr.gravity.covenant-life]] [[as:paraphrase]]. Later accounts say the daughters of the covenant sang our teaching in the churches [[syr.limit.f5-women-own-words]] [[as:paraphrase]]. Not one line written by one of those women was kept, so we cannot give you a day in their own words [[syr.limit.f5-women-own-words]] [[as:paraphrase]]. Are you asking about the vowed, or about an ordinary household among us?\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C12.S1",
+ "text": "Among us, the sons and daughters of the covenant gave their days to the fast, the watch, the vigil and the singing. The sons and daughters of the covenant had promised a celibate life for good, yet they stayed in town among their own kin instead of going to the desert. Their service went to the congregation, inside the town church. Another name for them was ihidaye, the single ones, which binds their undivided life to Christ the Only-Begotten. Later accounts say the daughters of the covenant sang our teaching in the churches. Not one line written by one of those women was kept, so we cannot give you a day in their own words. Are you asking about the vowed, or about an ordinary household among us?",
+ "voice_set_aside": false
+}

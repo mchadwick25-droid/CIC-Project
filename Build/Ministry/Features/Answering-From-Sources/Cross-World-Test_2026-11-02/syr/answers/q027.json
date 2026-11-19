@@ -1,0 +1,182 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.doubt"
+   ],
+   "sentence": "We saw a person's faith as a building, resting on one foundation stone and rising piece by piece."
+  },
+  {
+   "record_ids": [
+    "syr.dw.doubt"
+   ],
+   "sentence": "A building is not finished in a day."
+  },
+  {
+   "record_ids": [
+    "syr.dw.doubt"
+   ],
+   "sentence": "What we distrusted was not the struggling believer, but the prying scrutinizer, who would take the Godhead apart like a problem to be solved."
+  },
+  {
+   "record_ids": [
+    "syr.dw.doubt"
+   ],
+   "sentence": "Our faith was questioned, and it kept growing."
+  },
+  {
+   "record_ids": [
+    "syr.quote.aphrahat-stone-foundation"
+   ],
+   "sentence": "The Persian sage wrote in Demonstration I: “In the same way the true Stone, our Lord Jesus Christ, is the foundation of all our faith. On him, on this Stone, faith is laid; and resting on faith, the whole structure rises until it is complete.”"
+  },
+  {
+   "record_ids": [
+    "syr.dw.adam-grace"
+   ],
+   "sentence": "The believer becomes a dwelling-place for Christ, and a king's dwelling is not left bare."
+  },
+  {
+   "record_ids": [
+    "syr.limit.what-must-one-do"
+   ],
+   "sentence": "For the one who falls, Aphrahat named penitence as the medicine for the wound."
+  },
+  {
+   "record_ids": [
+    "syr.limit.what-must-one-do"
+   ],
+   "sentence": "Who is finally counted among the saved, Aphrahat leaves to the judge."
+  }
+ ],
+ "citations": [
+  "syr.dw.adam-grace",
+  "syr.dw.doubt",
+  "syr.limit.what-must-one-do",
+  "syr.quote.aphrahat-stone-foundation"
+ ],
+ "group": "A",
+ "id": "q027",
+ "net_sentences": [
+  {
+   "draft": "We saw a person's faith as a building, resting on one foundation stone and rising piece by piece [[syr.dw.doubt]] [[as:paraphrase]].",
+   "sentence": "We saw a person's faith as a building, resting on one foundation stone and rising piece by piece.",
+   "tags": [
+    "syr.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "A building is not finished in a day [[syr.dw.doubt]] [[as:paraphrase]].",
+   "sentence": "A building is not finished in a day.",
+   "tags": [
+    "syr.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "What we distrusted was not the struggling believer, but the prying scrutinizer, who would take the Godhead apart like a problem to be solved [[syr.dw.doubt]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "What we distrusted was not the struggling believer, but the prying scrutinizer, who would take the Godhead apart like a problem to be solved.",
+   "tags": [
+    "syr.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Our faith was questioned, and it kept growing [[syr.dw.doubt]] [[as:paraphrase]].",
+   "sentence": "Our faith was questioned, and it kept growing.",
+   "tags": [
+    "syr.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The Persian sage wrote in Demonstration I: [[quote:syr.quote.aphrahat-stone-foundation]]",
+   "placed_quote": "syr.quote.aphrahat-stone-foundation",
+   "sentence": "The Persian sage wrote in Demonstration I: “In the same way the true Stone, our Lord Jesus Christ, is the foundation of all our faith. On him, on this Stone, faith is laid; and resting on faith, the whole structure rises until it is complete.”",
+   "tags": [
+    "syr.quote.aphrahat-stone-foundation"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "The believer becomes a dwelling-place for Christ, and a king's dwelling is not left bare [[syr.dw.adam-grace]] [[as:paraphrase]].",
+   "sentence": "The believer becomes a dwelling-place for Christ, and a king's dwelling is not left bare.",
+   "tags": [
+    "syr.dw.adam-grace"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "For the one who falls, Aphrahat named penitence as the medicine for the wound [[syr.limit.what-must-one-do]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "For the one who falls, Aphrahat named penitence as the medicine for the wound.",
+   "tags": [
+    "syr.limit.what-must-one-do"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Who is finally counted among the saved, Aphrahat leaves to the judge [[syr.limit.what-must-one-do]] [[as:paraphrase]].",
+   "ratio": 0.5,
+   "sentence": "Who is finally counted among the saved, Aphrahat leaves to the judge.",
+   "tags": [
+    "syr.limit.what-must-one-do"
+   ],
+   "verdict": "ok",
+   "why": "grounded 50% in own tagged records"
+  }
+ ],
+ "offered": [
+  "syr.limit.what-must-one-do",
+  "syr.dw.adam-grace",
+  "syr.story.qyama-morning",
+  "syr.quote.aphrahat-stone-foundation",
+  "syr.limit.ritual-sequence",
+  "syr.dw.doubt",
+  "syr.dw.born-again-endtimes",
+  "syr.term.ihidaya",
+  "syr.term.qyama",
+  "syr.quote.dem6-visit-the-sick",
+  "syr.gravity.covenant-life",
+  "syr.contested.qyama-structure"
+ ],
+ "raw_text": "We saw a person's faith as a building, resting on one foundation stone and rising piece by piece [[syr.dw.doubt]] [[as:paraphrase]].\n\nA building is not finished in a day [[syr.dw.doubt]] [[as:paraphrase]].\n\nWhat we distrusted was not the struggling believer, but the prying scrutinizer, who would take the Godhead apart like a problem to be solved [[syr.dw.doubt]] [[as:paraphrase]].\n\nOur faith was questioned, and it kept growing [[syr.dw.doubt]] [[as:paraphrase]].\n\nThe Persian sage wrote in Demonstration I: [[quote:syr.quote.aphrahat-stone-foundation]]\n\nThe believer becomes a dwelling-place for Christ, and a king's dwelling is not left bare [[syr.dw.adam-grace]] [[as:paraphrase]].\n\nFor the one who falls, Aphrahat named penitence as the medicine for the wound [[syr.limit.what-must-one-do]] [[as:paraphrase]].\n\nWho is finally counted among the saved, Aphrahat leaves to the judge [[syr.limit.what-must-one-do]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "syr.quote.aphrahat-stone-foundation": [
+    {
+     "detail": "Demonstration",
+     "kind": "name",
+     "snippet": "the structure rises until it is completed. Aphrahat says in Demonstration I that Jesus Christ is the true Stone founding all faith, a",
+     "span": "record syr.quote.aphrahat-stone-foundation"
+    },
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "the Persian sage whose dated letters survive where his life does not - a voice from inside the",
+     "span": "record syr.figure.aphrahat"
+    }
+   ]
+  },
+  "placed": [
+   "syr.quote.aphrahat-stone-foundation"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": null,
+ "text": "We saw a person's faith as a building, resting on one foundation stone and rising piece by piece.\n\nA building is not finished in a day.\n\nWhat we distrusted was not the struggling believer, but the prying scrutinizer, who would take the Godhead apart like a problem to be solved.\n\nOur faith was questioned, and it kept growing.\n\nThe Persian sage wrote in Demonstration I: “In the same way the true Stone, our Lord Jesus Christ, is the foundation of all our faith. On him, on this Stone, faith is laid; and resting on faith, the whole structure rises until it is complete.”\n\nThe believer becomes a dwelling-place for Christ, and a king's dwelling is not left bare.\n\nFor the one who falls, Aphrahat named penitence as the medicine for the wound.\n\nWho is finally counted among the saved, Aphrahat leaves to the judge.",
+ "voice_set_aside": false
+}

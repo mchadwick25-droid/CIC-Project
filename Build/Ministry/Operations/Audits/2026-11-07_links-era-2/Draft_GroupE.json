@@ -1,0 +1,1430 @@
+{
+ "group": "E",
+ "movements": [
+  "homoian-arian-christianity",
+  "anomoean-eunomian-christianity",
+  "pneumatomachian-current",
+  "apollinarian-christianity"
+ ],
+ "dispositions": [
+  {
+   "movement": "homoian-arian-christianity",
+   "field": "relationsSummary",
+   "sentence": "For stretches of the 4th c., the imperial church itself",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--homoian-arian-christianity--2",
+   "prose_change": null,
+   "reason": "New 'influenced' link: Constantius's councils of 359-360 and the Homoians' keeping of that creed."
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "field": "longDescription",
+   "sentence": "The Homoians — from the Greek homoios, \"like\" — taught that the Son is like the Father according to the Scriptures, and refused to go further and call him of one being with the Father, on the grounds that Scripture never used the word and no council should force it on anyone; they did not call themselves Arians, and that label came from opponents who wanted them tied to a man most of them had never followed.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Opponents are not a movement. 'Did not call themselves Arians' now rests on their own side: Maximinus, Kauffmann 1899 line 14834. The motive clause had no source and is cut."
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "field": "longDescription",
+   "sentence": "The Homoians — from the Greek homoios, \"like\" — taught that the Son is like the Father according to the Scriptures, and refused to go further and call him of one being with the Father, on the grounds that Scripture never used the word and no council should force it on anyone; they did not call themselves Arians, and that label came from opponents who wanted them tied to a man most of them had never followed.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Arius is a person. The Homoian disclaimer of Arius is quoted from Maximinus (line 14834)."
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "field": "longDescription",
+   "sentence": "Backed by the emperors Constantius II and later Valens, and adopted at the councils of 359 and 360, this was the imperial church's official position long enough for Jerome to write that the world groaned to find itself Arian.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--homoian-arian-christianity--2",
+   "prose_change": null,
+   "reason": "Constantius: Socrates II.37 (8469-8470). Carried by the new imperial link."
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "field": "longDescription",
+   "sentence": "Backed by the emperors Constantius II and later Valens, and adopted at the councils of 359 and 360, this was the imperial church's official position long enough for Jerome to write that the world groaned to find itself Arian.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--homoian-arian-christianity--2",
+   "prose_change": null,
+   "reason": "Valens: Socrates IV.1 (12262-12264), verified; named in the link's flags."
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "field": "longDescription",
+   "sentence": "Backed by the emperors Constantius II and later Valens, and adopted at the councils of 359 and 360, this was the imperial church's official position long enough for Jerome to write that the world groaned to find itself Arian.",
+   "other_id": null,
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--homoian-arian-christianity--2",
+   "prose_change": null,
+   "reason": "Councils of 359/360: Socrates II.37, II.41; Sozomen IV.24. Carried by the new imperial link."
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "field": "longDescription",
+   "sentence": "Backed by the emperors Constantius II and later Valens, and adopted at the councils of 359 and 360, this was the imperial church's official position long enough for Jerome to write that the world groaned to find itself Arian.",
+   "other_id": "hieronymian-ascetic-literary",
+   "disposition": "link",
+   "link_id": "hieronymian-ascetic-literary--homoian-arian-christianity",
+   "prose_change": null,
+   "reason": "Quote verified: Jerome, Dialogue against the Luciferians 19 (npnf206, 32412-32413). New 'argued against' link, flagged for the date window."
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "field": "longDescription",
+   "sentence": "Its most lasting work was done outside the empire: Ulfila, consecrated bishop around 341, spent his life among the Goths, made an alphabet for their language, and translated the Bible into it.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Ulfila is a person. Consecrated by Eusebius (Philostorgius II.5, line 120; Auxentius 56, Kauffmann line 15241); 'around 341' is Kauffmann's dating (lines 3759-3760); alphabet and translation in Socrates IV.33 (14448-14459) and Philostorgius II.5."
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "field": "longDescription",
+   "sentence": "Its most lasting work was done outside the empire: Ulfila, consecrated bishop around 341, spent his life among the Goths, made an alphabet for their language, and translated the Bible into it.",
+   "other_id": "gothic-and-vandal-homoian-christianity",
+   "disposition": "link",
+   "link_id": "homoian-arian-christianity--gothic-and-vandal-homoian-christianity",
+   "prose_change": null,
+   "reason": "Ulfila's Gothic church carried into the era-3 Gothic entry; new 'continued as' link."
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "field": "longDescription",
+   "sentence": "Through that mission the Goths, Vandals, Burgundians, and Lombards became Christians in this form, and Homoian kingdoms ruled Italy, Spain, and North Africa for generations after the empire itself had turned Nicene — the Visigoths of Spain going over to the Nicene creed at Toledo in 589, with the Lombards of Italy the last to follow, two generations later.",
+   "other_id": "gothic-and-vandal-homoian-christianity",
+   "disposition": "link",
+   "link_id": "homoian-arian-christianity--gothic-and-vandal-homoian-christianity",
+   "prose_change": 1,
+   "reason": "Qualified: 'through that mission' had no vendored source (see prose change). Goths, Vandals and Lombards fall under the Gothic entry and the new 'continued as' link; the Burgundians have no entry (Gregory of Tours, Brehaut 1916, line 2102, 'belonged to the sect of the Arians')."
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "field": "longDescription",
+   "sentence": "Through that mission the Goths, Vandals, Burgundians, and Lombards became Christians in this form, and Homoian kingdoms ruled Italy, Spain, and North Africa for generations after the empire itself had turned Nicene — the Visigoths of Spain going over to the Nicene creed at Toledo in 589, with the Lombards of Italy the last to follow, two generations later.",
+   "other_id": "gothic-and-vandal-homoian-christianity",
+   "disposition": "link",
+   "link_id": "homoian-arian-christianity--gothic-and-vandal-homoian-christianity",
+   "prose_change": 1,
+   "reason": "Qualified: 'through that mission' had no vendored source (see prose change). Goths, Vandals and Lombards fall under the Gothic entry and the new 'continued as' link; the Burgundians have no entry (Gregory of Tours, Brehaut 1916, line 2102, 'belonged to the sect of the Arians')."
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "field": "longDescription",
+   "sentence": "Through that mission the Goths, Vandals, Burgundians, and Lombards became Christians in this form, and Homoian kingdoms ruled Italy, Spain, and North Africa for generations after the empire itself had turned Nicene — the Visigoths of Spain going over to the Nicene creed at Toledo in 589, with the Lombards of Italy the last to follow, two generations later.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Qualified: 'through that mission' had no vendored source (see prose change). Goths, Vandals and Lombards fall under the Gothic entry and the new 'continued as' link; the Burgundians have no entry (Gregory of Tours, Brehaut 1916, line 2102, 'belonged to the sect of the Arians')."
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "field": "longDescription",
+   "sentence": "Through that mission the Goths, Vandals, Burgundians, and Lombards became Christians in this form, and Homoian kingdoms ruled Italy, Spain, and North Africa for generations after the empire itself had turned Nicene — the Visigoths of Spain going over to the Nicene creed at Toledo in 589, with the Lombards of Italy the last to follow, two generations later.",
+   "other_id": null,
+   "disposition": "link",
+   "link_id": "homoian-arian-christianity--gothic-and-vandal-homoian-christianity",
+   "prose_change": 1,
+   "reason": "Qualified: 'through that mission' had no vendored source (see prose change). Goths, Vandals and Lombards fall under the Gothic entry and the new 'continued as' link; the Burgundians have no entry (Gregory of Tours, Brehaut 1916, line 2102, 'belonged to the sect of the Arians')."
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "field": "longDescription",
+   "sentence": "Through that mission the Goths, Vandals, Burgundians, and Lombards became Christians in this form, and Homoian kingdoms ruled Italy, Spain, and North Africa for generations after the empire itself had turned Nicene — the Visigoths of Spain going over to the Nicene creed at Toledo in 589, with the Lombards of Italy the last to follow, two generations later.",
+   "other_id": null,
+   "disposition": "link",
+   "link_id": "homoian-arian-christianity--gothic-and-vandal-homoian-christianity",
+   "prose_change": 1,
+   "reason": "The Homoian kingdoms are the subject of the Gothic entry; carried by the new 'continued as' link."
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "field": "longDescription",
+   "sentence": "Through that mission the Goths, Vandals, Burgundians, and Lombards became Christians in this form, and Homoian kingdoms ruled Italy, Spain, and North Africa for generations after the empire itself had turned Nicene — the Visigoths of Spain going over to the Nicene creed at Toledo in 589, with the Lombards of Italy the last to follow, two generations later.",
+   "other_id": "nicene-visigothic-iberia",
+   "disposition": "link",
+   "link_id": "homoian-arian-christianity--gothic-and-vandal-homoian-christianity",
+   "prose_change": 1,
+   "reason": "The Homoian kingdoms are the subject of the Gothic entry; carried by the new 'continued as' link."
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "field": "longDescription",
+   "sentence": "Through that mission the Goths, Vandals, Burgundians, and Lombards became Christians in this form, and Homoian kingdoms ruled Italy, Spain, and North Africa for generations after the empire itself had turned Nicene — the Visigoths of Spain going over to the Nicene creed at Toledo in 589, with the Lombards of Italy the last to follow, two generations later.",
+   "other_id": "gothic-and-vandal-homoian-christianity",
+   "disposition": "link",
+   "link_id": "homoian-arian-christianity--gothic-and-vandal-homoian-christianity",
+   "prose_change": 1,
+   "reason": "The Homoian kingdoms are the subject of the Gothic entry; carried by the new 'continued as' link."
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "field": "longDescription",
+   "sentence": "Through that mission the Goths, Vandals, Burgundians, and Lombards became Christians in this form, and Homoian kingdoms ruled Italy, Spain, and North Africa for generations after the empire itself had turned Nicene — the Visigoths of Spain going over to the Nicene creed at Toledo in 589, with the Lombards of Italy the last to follow, two generations later.",
+   "other_id": "nicene-visigothic-iberia",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "The conversion at Toledo III (589) joins the Gothic Homoian church (era 3) and Nicene Visigothic Iberia (era 3); the Gothic entry's own text names Reccared at Toledo in 589. Era-3 pass. The fact is in the vendored Toledo III acts (collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt, line 36600)."
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "field": "longDescription",
+   "sentence": "Through that mission the Goths, Vandals, Burgundians, and Lombards became Christians in this form, and Homoian kingdoms ruled Italy, Spain, and North Africa for generations after the empire itself had turned Nicene — the Visigoths of Spain going over to the Nicene creed at Toledo in 589, with the Lombards of Italy the last to follow, two generations later.",
+   "other_id": "gothic-and-vandal-homoian-christianity",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "The Lombards' conformity belongs to the Gothic entry (era 3), whose text names it. Checked: Paul the Deacon IV.42 (9051-9053) has King Rothari (d. 652) still Arian, consistent with 'two generations later'."
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "field": "why",
+   "sentence": "Backed by the emperors Constantius II and Valens, this was the official position of the imperial church for long stretches of the fourth century — long enough for Jerome to write that the world groaned to find itself Arian.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--homoian-arian-christianity--2",
+   "prose_change": null,
+   "reason": "As the long description."
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "field": "why",
+   "sentence": "Its bishop Ulfila spent his life among the Goths, made an alphabet for their language, and translated the Bible into it, so that the Goths, Vandals, Burgundians, and Lombards all became Christians in this form, and Homoian kingdoms ruled Italy, Spain, and North Africa for generations after the empire itself had turned Nicene.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "Ulfila is a person; facts as above. Causal 'so that' removed."
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "field": "why",
+   "sentence": "Its bishop Ulfila spent his life among the Goths, made an alphabet for their language, and translated the Bible into it, so that the Goths, Vandals, Burgundians, and Lombards all became Christians in this form, and Homoian kingdoms ruled Italy, Spain, and North Africa for generations after the empire itself had turned Nicene.",
+   "other_id": "gothic-and-vandal-homoian-christianity",
+   "disposition": "link",
+   "link_id": "homoian-arian-christianity--gothic-and-vandal-homoian-christianity",
+   "prose_change": 2,
+   "reason": "New 'continued as' link."
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "field": "why",
+   "sentence": "Its bishop Ulfila spent his life among the Goths, made an alphabet for their language, and translated the Bible into it, so that the Goths, Vandals, Burgundians, and Lombards all became Christians in this form, and Homoian kingdoms ruled Italy, Spain, and North Africa for generations after the empire itself had turned Nicene.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--homoian-arian-christianity",
+   "prose_change": null,
+   "reason": "The Theodosian turn is carried by the existing imperial 'argued against' link (canon 1, CTh 16.5.8, 16.5.11)."
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "field": "legacy",
+   "sentence": "Its own churches are gone: every Homoian kingdom eventually conformed to the Nicene creed, and no continuing community carries the tradition forward.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "General statement; the endings are attested (Toledo III; Paul the Deacon IV.42). The kingdom-by-kingdom story belongs to the Gothic entry."
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "field": "legacy",
+   "sentence": "And the great silver-and-gold copy of it made for Theoderic's court survives in Uppsala.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "Theoderic's court is not in any vendored source for the Codex Argenteus; qualified."
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "field": "legacy",
+   "sentence": "Its buildings survive too: the Arian Baptistery and Sant'Apollinare Nuovo in Ravenna were built for Homoian worship, and their mosaics are among the finest anywhere.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "No vendored source that the buildings were built for Homoian worship; qualified."
+  },
+  {
+   "movement": "homoian-arian-christianity",
+   "field": "legacy",
+   "sentence": "And the Nicene Creed is itself partly the shape of the argument with them.",
+   "other_id": null,
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--homoian-arian-christianity",
+   "prose_change": 5,
+   "reason": "Qualified to what canon 1 of 381 shows; carried by the existing imperial link."
+  },
+  {
+   "movement": "anomoean-eunomian-christianity",
+   "field": "relationsSummary",
+   "sentence": "The radical wing of the fourth-century Arian controversy, and a different party from the Homoians it is usually filed with - the two split at Constantinople in 360.",
+   "other_id": "homoian-arian-christianity",
+   "disposition": "link",
+   "link_id": "anomoean-eunomian-christianity--homoian-arian-christianity",
+   "prose_change": 6,
+   "reason": "Existing 'broke with' link, rewritten to document 360 as well as the Valens-era break."
+  },
+  {
+   "movement": "anomoean-eunomian-christianity",
+   "field": "relationsSummary",
+   "sentence": "The radical wing of the fourth-century Arian controversy, and a different party from the Homoians it is usually filed with - the two split at Constantinople in 360.",
+   "other_id": "homoian-arian-christianity",
+   "disposition": "link",
+   "link_id": "anomoean-eunomian-christianity--homoian-arian-christianity",
+   "prose_change": 6,
+   "reason": "As above; the summary now says the break began in 360."
+  },
+  {
+   "movement": "anomoean-eunomian-christianity",
+   "field": "relationsSummary",
+   "sentence": "This is who the Cappadocians wrote against, and who Constantinople I anathematized by name.",
+   "other_id": "cappadocian-nicene-pastoral-monastic-tradition",
+   "disposition": "link",
+   "link_id": "cappadocian-nicene-pastoral-monastic-tradition--anomoean-eunomian-christianity",
+   "prose_change": null,
+   "reason": "Existing link, kept."
+  },
+  {
+   "movement": "anomoean-eunomian-christianity",
+   "field": "relationsSummary",
+   "sentence": "This is who the Cappadocians wrote against, and who Constantinople I anathematized by name.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--anomoean-eunomian-christianity",
+   "prose_change": null,
+   "reason": "Existing link, kept."
+  },
+  {
+   "movement": "anomoean-eunomian-christianity",
+   "field": "longDescription",
+   "sentence": "In the 350s a deacon at Antioch named Aetius began teaching the Arian case in its sharpest possible form.",
+   "other_id": "antiochene-exegetical-christianity-chrysostom-ce",
+   "disposition": "link",
+   "link_id": "antiochene-exegetical-christianity-chrysostom-ce--anomoean-eunomian-christianity",
+   "prose_change": null,
+   "reason": "Aetius as deacon at Antioch: Socrates II.35 note, Theodoret II.19. New link from the Antiochene side (Flavian and Diodore's protest)."
+  },
+  {
+   "movement": "anomoean-eunomian-christianity",
+   "field": "longDescription",
+   "sentence": "Where others said the Son was like the Father, or like him in all things, Aetius said he was unlike him - anomoios - in essence, and argued it with a formal rigor that made his opponents call him a sophist and an atheist.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Unnamed opponents. 'Atheist': Socrates II.35 ('surnamed Atheus', npnf202 8338) and Sozomen IV.29 (34973, 'Aëtius was called atheist'). 'Sophist': Socrates II.35 says he 'adhered to the sophisms of the Categories' (8377-8379). Supported."
+  },
+  {
+   "movement": "anomoean-eunomian-christianity",
+   "field": "longDescription",
+   "sentence": "The party split from the Homoians at Constantinople in the same year, when the Homoian creed was imposed and Aetius exiled - which is why filing the two together misreads the controversy.",
+   "other_id": "homoian-arian-christianity",
+   "disposition": "link",
+   "link_id": "anomoean-eunomian-christianity--homoian-arian-christianity",
+   "prose_change": 7,
+   "reason": "Rewritten link; prose qualified."
+  },
+  {
+   "movement": "anomoean-eunomian-christianity",
+   "field": "longDescription",
+   "sentence": "It was against these men, and against that claim about knowing God, that Basil, Gregory of Nyssa and Gregory of Nazianzus wrote some of the most demanding theology of the century.",
+   "other_id": "cappadocian-nicene-pastoral-monastic-tradition",
+   "disposition": "link",
+   "link_id": "cappadocian-nicene-pastoral-monastic-tradition--anomoean-eunomian-christianity",
+   "prose_change": null,
+   "reason": "Existing link, kept."
+  },
+  {
+   "movement": "anomoean-eunomian-christianity",
+   "field": "longDescription",
+   "sentence": "The Council of Constantinople in 381 anathematized Eunomians by name in its first canon, imperial law suppressed their assemblies, and the sect faded through the fifth century.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--anomoean-eunomian-christianity",
+   "prose_change": null,
+   "reason": "Existing link."
+  },
+  {
+   "movement": "anomoean-eunomian-christianity",
+   "field": "longDescription",
+   "sentence": "The Council of Constantinople in 381 anathematized Eunomians by name in its first canon, imperial law suppressed their assemblies, and the sect faded through the fifth century.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--anomoean-eunomian-christianity",
+   "prose_change": null,
+   "reason": "CTh 16.5.11 on the existing link."
+  },
+  {
+   "movement": "anomoean-eunomian-christianity",
+   "field": "why",
+   "sentence": "In the 350s the Antiochene deacon Aetius pushed the Arian case to its sharpest point, teaching that the Son is not merely lesser than the Father but unlike him — anomoios — in essence.",
+   "other_id": "antiochene-exegetical-christianity-chrysostom-ce",
+   "disposition": "link",
+   "link_id": "antiochene-exegetical-christianity-chrysostom-ce--anomoean-eunomian-christianity",
+   "prose_change": null,
+   "reason": "As the long description."
+  },
+  {
+   "movement": "anomoean-eunomian-christianity",
+   "field": "why",
+   "sentence": "It was against that claim that Basil, Gregory of Nyssa, and Gregory of Nazianzus wrote some of the century's most demanding theology, and the Council of Constantinople in 381 condemned the Eunomians by name.",
+   "other_id": "cappadocian-nicene-pastoral-monastic-tradition",
+   "disposition": "link",
+   "link_id": "cappadocian-nicene-pastoral-monastic-tradition--anomoean-eunomian-christianity",
+   "prose_change": null,
+   "reason": "Existing link."
+  },
+  {
+   "movement": "anomoean-eunomian-christianity",
+   "field": "why",
+   "sentence": "It was against that claim that Basil, Gregory of Nyssa, and Gregory of Nazianzus wrote some of the century's most demanding theology, and the Council of Constantinople in 381 condemned the Eunomians by name.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--anomoean-eunomian-christianity",
+   "prose_change": null,
+   "reason": "Existing link."
+  },
+  {
+   "movement": "anomoean-eunomian-christianity",
+   "field": "legacy",
+   "sentence": "The Cappadocian theology that the Nicene tradition still uses was largely forged against these opponents: the distinction between God's unknowable essence and his knowable operations, and the doctrine that theological language names God truly without comprehending him, were both worked out to answer Eunomius' claim that it could.",
+   "other_id": "cappadocian-nicene-pastoral-monastic-tradition",
+   "disposition": "link",
+   "link_id": "cappadocian-nicene-pastoral-monastic-tradition--anomoean-eunomian-christianity",
+   "prose_change": null,
+   "reason": "The inventory read 'gave rise to'; this is the same 'argued against' relationship seen from the Cappadocian side. Supported by Basil, Letter 234 (npnf208, from 40246), which answers the Eunomian question 'Do you worship what you know or what you do not know?'."
+  },
+  {
+   "movement": "anomoean-eunomian-christianity",
+   "field": "legacy",
+   "sentence": "The Cappadocian theology that the Nicene tradition still uses was largely forged against these opponents: the distinction between God's unknowable essence and his knowable operations, and the doctrine that theological language names God truly without comprehending him, were both worked out to answer Eunomius' claim that it could.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'The Nicene tradition' is not one entry. A general reception statement; left as written, flagged in escalations as unsourced reception language."
+  },
+  {
+   "movement": "anomoean-eunomian-christianity",
+   "field": "legacy",
+   "sentence": "Gregory of Nyssa's Against Eunomius is the reason substantial portions of Eunomius' own argument survive at all.",
+   "other_id": "cappadocian-nicene-pastoral-monastic-tradition",
+   "disposition": "link",
+   "link_id": "cappadocian-nicene-pastoral-monastic-tradition--anomoean-eunomian-christianity",
+   "prose_change": null,
+   "reason": "Gregory of Nyssa quotes Eunomius at length in Against Eunomius (npnf205); part of the existing link, kept."
+  },
+  {
+   "movement": "anomoean-eunomian-christianity",
+   "field": "legacy",
+   "sentence": "Constantinople I's first canon names the Eunomians among the parties it condemns, and that canon is still read in the conciliar collections.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--anomoean-eunomian-christianity",
+   "prose_change": null,
+   "reason": "Existing link."
+  },
+  {
+   "movement": "pneumatomachian-current",
+   "field": "relationsSummary",
+   "sentence": "A distinct question from the Arian one, and later: these were people who had largely accepted Nicaea on the Son and stopped short on the Spirit.",
+   "other_id": "homoian-arian-christianity",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Describes the question, not a relationship with the Homoians. Supported: Socrates II.45 (homoiousian origins, 9817-9837)."
+  },
+  {
+   "movement": "pneumatomachian-current",
+   "field": "relationsSummary",
+   "sentence": "A distinct question from the Arian one, and later: these were people who had largely accepted Nicaea on the Son and stopped short on the Spirit.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--pneumatomachian-current",
+   "prose_change": null,
+   "reason": "Acceptance of Nicaea on the Son: the Macedonian embassy to Liberius subscribed the Nicene Creed (Socrates IV.12, npnf202 12769-12772). The council relationship is carried by the existing link."
+  },
+  {
+   "movement": "pneumatomachian-current",
+   "field": "relationsSummary",
+   "sentence": "Condemned by name in canon 1 of Constantinople I alongside Eunomians, Arians and others.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--pneumatomachian-current",
+   "prose_change": null,
+   "reason": "Existing link, rewritten to add Chalcedon on the creed."
+  },
+  {
+   "movement": "pneumatomachian-current",
+   "field": "relationsSummary",
+   "sentence": "Condemned by name in canon 1 of Constantinople I alongside Eunomians, Arians and others.",
+   "other_id": "anomoean-eunomian-christianity",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Being condemned in the same canon is not a relationship between the two parties; no link."
+  },
+  {
+   "movement": "pneumatomachian-current",
+   "field": "relationsSummary",
+   "sentence": "Condemned by name in canon 1 of Constantinople I alongside Eunomians, Arians and others.",
+   "other_id": "homoian-arian-christianity",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As above; no link between the condemned parties."
+  },
+  {
+   "movement": "pneumatomachian-current",
+   "field": "longDescription",
+   "sentence": "Their opponents called them Pneumatomachians, Spirit-fighters, and attached to them the name of Macedonius, a deposed bishop of Constantinople, on evidence later writers found thin.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 8,
+   "reason": "Macedonius is a person. 'On evidence later writers found thin' had no source; qualified to Socrates II.45."
+  },
+  {
+   "movement": "pneumatomachian-current",
+   "field": "longDescription",
+   "sentence": "Basil of Caesarea wrote On the Holy Spirit in about 375 to answer them, and did it carefully: he argued the Spirit's divinity largely from how the church already prayed and baptized rather than from a bare proof-text.",
+   "other_id": "cappadocian-nicene-pastoral-monastic-tradition",
+   "disposition": "link",
+   "link_id": "cappadocian-nicene-pastoral-monastic-tradition--pneumatomachian-current",
+   "prose_change": null,
+   "reason": "Existing link. Date: NPNF introduction to On the Holy Spirit puts Amphilochius's request in 374 (npnf208 8666-8674), so 'about 375' stands."
+  },
+  {
+   "movement": "pneumatomachian-current",
+   "field": "longDescription",
+   "sentence": "Gregory of Nyssa wrote against them too.",
+   "other_id": "cappadocian-nicene-pastoral-monastic-tradition",
+   "disposition": "link",
+   "link_id": "cappadocian-nicene-pastoral-monastic-tradition--pneumatomachian-current",
+   "prose_change": null,
+   "reason": "Existing link (Against the Followers of Macedonius)."
+  },
+  {
+   "movement": "pneumatomachian-current",
+   "field": "longDescription",
+   "sentence": "The Council of Constantinople in 381 settled it by expanding the creed's third article, which had previously said almost nothing about the Spirit, into the clauses still recited every week.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--pneumatomachian-current",
+   "prose_change": null,
+   "reason": "Existing link, with Chalcedon's Definition added."
+  },
+  {
+   "movement": "pneumatomachian-current",
+   "field": "why",
+   "sentence": "Basil of Caesarea answered them around 375 in On the Holy Spirit, arguing the Spirit's divinity not from a single proof-text but from how the church already prayed and baptized.",
+   "other_id": "cappadocian-nicene-pastoral-monastic-tradition",
+   "disposition": "link",
+   "link_id": "cappadocian-nicene-pastoral-monastic-tradition--pneumatomachian-current",
+   "prose_change": null,
+   "reason": "Existing link."
+  },
+  {
+   "movement": "pneumatomachian-current",
+   "field": "why",
+   "sentence": "The Council of Constantinople settled the question in 381 by expanding the creed's third article into the clauses still recited every week.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--pneumatomachian-current",
+   "prose_change": null,
+   "reason": "Existing link."
+  },
+  {
+   "movement": "pneumatomachian-current",
+   "field": "legacy",
+   "sentence": "The third article of the Nicene Creed as it is recited today - Lord and giver of life, worshipped and glorified together with the Father and the Son - is the answer to this party.",
+   "other_id": null,
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--pneumatomachian-current",
+   "prose_change": null,
+   "reason": "Chalcedon's Definition (npnf214 20251-20255) now on the link. Creed text: 'the Lord and Giver of life' (13436)."
+  },
+  {
+   "movement": "pneumatomachian-current",
+   "field": "legacy",
+   "sentence": "Basil's method in arguing it, appealing to the church's practice of prayer and baptism as evidence of what it believes, became a standing move in Christian theology long after the opponents it was aimed at had gone.",
+   "other_id": "cappadocian-nicene-pastoral-monastic-tradition",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 9,
+   "reason": "Basil is part of the Cappadocian entry; 'standing move in Christian theology' is a reception claim with no source; qualified."
+  },
+  {
+   "movement": "apollinarian-christianity",
+   "field": "relationsSummary",
+   "sentence": "Not an Arian position at all - Apollinaris was Athanasius' ally against Arianism, and arrived at this by pressing the unity of Christ too hard.",
+   "other_id": "homoian-arian-christianity",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Not a relationship with the Homoians. Supported: Sozomen VI.22 has Apollinaris upholding the Nicene doctrine in Syria (npnf202 38728-38732)."
+  },
+  {
+   "movement": "apollinarian-christianity",
+   "field": "relationsSummary",
+   "sentence": "Not an Arian position at all - Apollinaris was Athanasius' ally against Arianism, and arrived at this by pressing the unity of Christ too hard.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Athanasius has no entry of his own in this era. Supported: Sozomen VI.25, 'the strictest friendship' (39041-39046)."
+  },
+  {
+   "movement": "apollinarian-christianity",
+   "field": "relationsSummary",
+   "sentence": "The question he raised is the one Ephesus and Chalcedon spent the next century answering.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 12,
+   "reason": "Imperial councils, but no link: Ephesus and Chalcedon do not name the Apollinarians. Qualified to what their texts say."
+  },
+  {
+   "movement": "apollinarian-christianity",
+   "field": "relationsSummary",
+   "sentence": "The question he raised is the one Ephesus and Chalcedon spent the next century answering.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 12,
+   "reason": "As above."
+  },
+  {
+   "movement": "apollinarian-christianity",
+   "field": "longDescription",
+   "sentence": "Apollinaris of Laodicea was on the right side of the Arian controversy - a friend of Athanasius, a defender of Nicaea, and by all accounts a formidable scholar.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As sentence 1 (Sozomen VI.25)."
+  },
+  {
+   "movement": "apollinarian-christianity",
+   "field": "longDescription",
+   "sentence": "Apollinaris of Laodicea was on the right side of the Arian controversy - a friend of Athanasius, a defender of Nicaea, and by all accounts a formidable scholar.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Sozomen VI.22 (38728-38732). Not a relationship with the imperial church."
+  },
+  {
+   "movement": "apollinarian-christianity",
+   "field": "longDescription",
+   "sentence": "It was condemned at Rome in 377 and again by name at Constantinople in 381.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 10,
+   "reason": "Rome has no era-2 entry. Council attested in Sozomen VI.25 (Damasus and Peter); year disputed (374 or 377), qualified."
+  },
+  {
+   "movement": "apollinarian-christianity",
+   "field": "longDescription",
+   "sentence": "It was condemned at Rome in 377 and again by name at Constantinople in 381.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--apollinarian-christianity",
+   "prose_change": null,
+   "reason": "Existing link, kept."
+  },
+  {
+   "movement": "apollinarian-christianity",
+   "field": "longDescription",
+   "sentence": "Gregory of Nazianzus wrote the reply that stuck, in a letter to a priest named Cledonius: what is not assumed is not healed.",
+   "other_id": "cappadocian-nicene-pastoral-monastic-tradition",
+   "disposition": "link",
+   "link_id": "cappadocian-nicene-pastoral-monastic-tradition--apollinarian-christianity",
+   "prose_change": null,
+   "reason": "Existing link, rewritten to fix a misattributed quote."
+  },
+  {
+   "movement": "apollinarian-christianity",
+   "field": "longDescription",
+   "sentence": "Gregory of Nazianzus wrote the reply that stuck, in a letter to a priest named Cledonius: what is not assumed is not healed.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Cledonius is a person; the two letters' titles are now on the link."
+  },
+  {
+   "movement": "apollinarian-christianity",
+   "field": "why",
+   "sentence": "Apollinaris of Laodicea was an ally of Athanasius and a defender of Nicaea who pressed the unity of Christ so hard that he left no room in him for a human mind: the divine Word, he argued, took the place a human rational soul would otherwise hold.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As sentence 1."
+  },
+  {
+   "movement": "apollinarian-christianity",
+   "field": "why",
+   "sentence": "Gregory of Nazianzus gave the reply that stuck, in a letter to the priest Cledonius: what is not assumed is not healed, so a Christ without a human mind could not save the human mind.",
+   "other_id": "cappadocian-nicene-pastoral-monastic-tradition",
+   "disposition": "link",
+   "link_id": "cappadocian-nicene-pastoral-monastic-tradition--apollinarian-christianity",
+   "prose_change": null,
+   "reason": "Existing link."
+  },
+  {
+   "movement": "apollinarian-christianity",
+   "field": "why",
+   "sentence": "Condemned at Rome in 377 and by name at Constantinople in 381, Apollinaris's own writings survived mostly because his followers kept circulating them under other men's names.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 11,
+   "reason": "Date qualified; dangling opening phrase fixed."
+  },
+  {
+   "movement": "apollinarian-christianity",
+   "field": "why",
+   "sentence": "Condemned at Rome in 377 and by name at Constantinople in 381, Apollinaris's own writings survived mostly because his followers kept circulating them under other men's names.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "link",
+   "link_id": "imperial-juridical-christianity--apollinarian-christianity",
+   "prose_change": null,
+   "reason": "Existing link."
+  },
+  {
+   "movement": "apollinarian-christianity",
+   "field": "legacy",
+   "sentence": "Gregory's principle - what is not assumed is not healed - became one of the load-bearing rules of Christian theology, and is still quoted in arguments that have nothing to do with Apollinaris.",
+   "other_id": "cappadocian-nicene-pastoral-monastic-tradition",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A reception claim about Gregory's principle; Gregory belongs to the Cappadocian entry, so no new link. 'Still quoted in arguments that have nothing to do with Apollinaris' has no vendored source; left in place and flagged in escalations rather than cut, since it is general and not a claim about a movement."
+  },
+  {
+   "movement": "apollinarian-christianity",
+   "field": "legacy",
+   "sentence": "The controversy also set the terms for the next century: Ephesus in 431 and Chalcedon in 451 are both, in part, continued work on the question of how much humanity Christ took.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 13,
+   "reason": "Ephesus: Cyril's letter read in Session I (npnf214 15669-15677, 15737). Not a link, since the council does not name the Apollinarians."
+  },
+  {
+   "movement": "apollinarian-christianity",
+   "field": "legacy",
+   "sentence": "The controversy also set the terms for the next century: Ephesus in 431 and Chalcedon in 451 are both, in part, continued work on the question of how much humanity Christ took.",
+   "other_id": "imperial-juridical-christianity",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 13,
+   "reason": "Chalcedon's Definition (20280-20282). Not a link, for the same reason."
+  },
+  {
+   "movement": "anomoean-eunomian-christianity",
+   "field": "longDescription",
+   "sentence": "His pupil and secretary Eunomius carried the position further and gave it its most confident claim",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Inventory missed: 'His pupil and secretary Eunomius'. Supported: Socrates IV.7 (Eunomius 'had been secretary to Aëtius', npnf202 12461). Within the movement; no link."
+  },
+  {
+   "movement": "apollinarian-christianity",
+   "field": "longDescription",
+   "sentence": "Apollinaris' followers kept his works in circulation under other men's names, which is why some of them survive at all.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Inventory missed: followers circulating his works under other names. Supported: Lietzmann 1904 (lines 5478-5481) on works passed off under Gregory Thaumaturgus, Athanasius and Julius."
+  }
+ ],
+ "links": [
+  {
+   "id": "cappadocian-nicene-pastoral-monastic-tradition--anomoean-eunomian-christianity",
+   "action": "keep",
+   "from": "cappadocian-nicene-pastoral-monastic-tradition",
+   "to": "anomoean-eunomian-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "named_in_text": "anomoean relationsSummary, longDescription, why, legacy",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Sound. All three quotes re-checked against npnf205 (2772-2774, 2787-2789) and npnf207 (30900). Basil's Letter 234 (npnf208, from line 40246) also answers the Eunomian question 'do you worship what you know?' and supports the legacy sentence, but the link needs no addition."
+  },
+  {
+   "id": "imperial-juridical-christianity--anomoean-eunomian-christianity",
+   "action": "keep",
+   "from": "imperial-juridical-christianity",
+   "to": "anomoean-eunomian-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "named_in_text": "anomoean relationsSummary, longDescription, why, legacy",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Sound. CTh 16.5.8, 16.5.11 and canon 1 quotes re-checked."
+  },
+  {
+   "id": "antiochene-church-third-century--anomoean-eunomian-christianity",
+   "action": "keep",
+   "from": "antiochene-church-third-century",
+   "to": "anomoean-eunomian-christianity",
+   "type": "influenced",
+   "confidence": "Documented",
+   "named_in_text": "antiochene-church-third-century (era 1); not named in the anomoean text",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Era-1 link, reviewed twice; both Philostorgius III.15 quotes re-checked (line 178)."
+  },
+  {
+   "id": "cappadocian-nicene-pastoral-monastic-tradition--pneumatomachian-current",
+   "action": "keep",
+   "from": "cappadocian-nicene-pastoral-monastic-tradition",
+   "to": "pneumatomachian-current",
+   "type": "argued against",
+   "confidence": "Documented",
+   "named_in_text": "pneumatomachian longDescription, why",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Sound. Gregory of Nyssa (27920, 27939-27940) and Basil, On the Holy Spirit 24 (10556-10558) re-checked."
+  },
+  {
+   "id": "imperial-juridical-christianity--apollinarian-christianity",
+   "action": "keep",
+   "from": "imperial-juridical-christianity",
+   "to": "apollinarian-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "named_in_text": "apollinarian longDescription, why",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Sound. Canon 1 and CTh 16.5.14 re-checked."
+  },
+  {
+   "id": "gallic-nicene-episcopate--homoian-arian-christianity",
+   "action": "keep",
+   "from": "gallic-nicene-episcopate",
+   "to": "homoian-arian-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "named_in_text": "gallic-nicene-episcopate (group C); not named in the homoian text",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Sound; Phoebadius (15618) and Hilary, On the Councils 2 (7776-7779) re-checked. Group C owns the Gallic side."
+  },
+  {
+   "id": "danubian-latin-christianity--homoian-arian-christianity",
+   "action": "keep",
+   "from": "danubian-latin-christianity",
+   "to": "homoian-arian-christianity",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "named_in_text": "danubian-latin-christianity (era 1); not named in the homoian text",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Era-1 link, reviewed twice; Athanasius quote re-checked (24210-24214). Jerome's Dialogue against the Luciferians 19 also names Valens and Ursacius as the authors of Ariminum (npnf206, 32403-32411)."
+  },
+  {
+   "id": "antiochene-church-third-century--homoian-arian-christianity",
+   "action": "keep",
+   "from": "antiochene-church-third-century",
+   "to": "homoian-arian-christianity",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "named_in_text": "antiochene-church-third-century (era 1); not named in the homoian text",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Era-1 link, reviewed twice; Theodoret I.5 and Philostorgius II.14 quotes re-checked."
+  },
+  {
+   "id": "imperial-juridical-christianity--homoian-arian-christianity",
+   "action": "keep",
+   "from": "imperial-juridical-christianity",
+   "to": "homoian-arian-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "named_in_text": "homoian legacy (Nicene Creed and the argument with them, as rewritten)",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Sound; all four quotes re-checked. The rewritten legacy sentence now rests on its canon 1 source."
+  },
+  {
+   "id": "anomoean-eunomian-christianity--homoian-arian-christianity",
+   "action": "rewrite",
+   "from": "anomoean-eunomian-christianity",
+   "to": "homoian-arian-christianity",
+   "type": "broke with",
+   "confidence": "Documented",
+   "note": "In 360 a Homoian council at Constantinople deposed Aetius, and its letter says he was expelled from the church. Theodoret says Eunomius later separated from Eudoxius and set up a community of his own. Socrates and Philostorgius, the second writing from the Eunomian side, place the final break under Valens.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.sozomen-he",
+     "work": "Sozomen, Church History IV.24 (trans. Hartranft, NPNF 2.2)",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "34570-34571",
+     "locus": "HE IV.24",
+     "quote": "They then deposed Aëtius from his office of deacon,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "syr.source.theodoret-historia-ecclesiastica",
+     "work": "Synod of Constantinople (360), letter to George of Alexandria, in Theodoret, Church History II.24 (trans. Jackson, NPNF 2.3)",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "10891-10892",
+     "locus": "HE II.24",
+     "quote": "He has been degraded from the diaconate and expelled from the Church,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "syr.source.theodoret-historia-ecclesiastica",
+     "work": "Theodoret, Church History II.25, Of the causes which separated the Eunomians from the Arians (trans. Jackson, NPNF 2.3)",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "11032-11035",
+     "locus": "HE II.25",
+     "quote": "And from that time he set up a sect of his own for all the men who were of his way of thinking and condemned his betrayal, separated from Eudoxius and joined with Eunomius,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.socrates-he",
+     "work": "Socrates, Church History, Book 4 ch. 13",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "13045-13047",
+     "locus": "HE 4.13",
+     "quote": "separated himself from Eudoxius, and held assemblies apart, because after he had repeatedly entreated that his preceptor Aëtius might be received into communion, Eudoxius continued to oppose it.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "cappadocian.source.photius-epitome-philostorgius",
+     "work": "Philostorgius, Church History (Photius's epitome, trans. Walford 1855), Book 9 ch. 4",
+     "file": "cic/texts/philostorgius_ecclesiastical-history_walford1855.txt",
+     "lines": "338",
+     "locus": "HE 9.4",
+     "quote": "Aetius and Eunomius now broke off entirely from Eudoxius and Euzoius, and intrusted the church of Constantinople to Florentius,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "anomoean relationsSummary and longDescription (split at Constantinople in 360)",
+   "wants": [],
+   "drafter_flags": [
+    "The ancient accounts date the final break differently: Theodoret II.25 ties it to Eunomius's flight from Cyzicus under Constantius (c. 361); Socrates IV.13 and Philostorgius IX.4 put it under Valens. The note reports both without choosing.",
+    "Philostorgius survives only in Photius's summary; the old note said so and the new one does not, to stay within three sentences. Reviewer may restore it."
+   ],
+   "change_reason": "The census text dates the split to Constantinople 360, but the old note documented only the Valens-era break. Added the 360 deposition of Aetius from both a historian (Sozomen IV.24) and the Homoian council's own letter (Theodoret II.24), and Theodoret's account of Eunomius's separation. Old sources kept."
+  },
+  {
+   "id": "cappadocian-nicene-pastoral-monastic-tradition--apollinarian-christianity",
+   "action": "rewrite",
+   "from": "cappadocian-nicene-pastoral-monastic-tradition",
+   "to": "apollinarian-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Gregory of Nazianzus wrote two letters to the priest Cledonius against Apollinarius. In the first, he says Christ took on all of human nature, because what He has not assumed He has not healed. He also warned Nectarius, bishop of Constantinople, about a pamphlet by Apollinarius.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory of Nazianzus, Letter 101 (To Cledonius the Priest Against Apollinarius), title in NPNF 2.7",
+     "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+     "lines": "44567-44568",
+     "locus": "Ep. 101, title",
+     "quote": "To Cledonius the Priest Against Apollinarius.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory of Nazianzus, Letter 101 (To Cledonius the Priest Against Apollinarius)",
+     "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+     "lines": "44691-44692",
+     "locus": "Ep. 101",
+     "quote": "For that which He has not assumed He has not healed; but that which is united to His Godhead is also saved.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory of Nazianzus, Letter 102, title in NPNF 2.7",
+     "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+     "lines": "44907-44908",
+     "locus": "Ep. 102, title",
+     "quote": "Against Apollinarius; The Second Letter to Cledonius.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Gregory of Nazianzus, Letter 202 (To Nectarius, Bishop of Constantinople)",
+     "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+     "lines": "44521-44522",
+     "locus": "Ep. 202",
+     "quote": "that a pamphlet by Apollinarius has come into my hands, the contents of which surpass all heretical pravity.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "apollinarian longDescription, why, legacy (Gregory to Cledonius)",
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Fixes a wrong attribution. The old first quote (lines 44521-44522, 'a pamphlet by Apollinarius has come into my hands') was labelled Letter 101 to Cledonius, but it comes from Letter 202 to Nectarius, which ends before Letter 101 begins at line 44566. It is kept under its right title. The 'two letters' claim now rests on both letter titles (44567-44568, 44907-44908)."
+  },
+  {
+   "id": "imperial-juridical-christianity--pneumatomachian-current",
+   "action": "rewrite",
+   "from": "imperial-juridical-christianity",
+   "to": "pneumatomachian-current",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Canon 1 of the Council of Constantinople (381) anathematized the Semi-Arians, called Pneumatomachi, by name. A law of 383 also banned assemblies of Eunomians, Arians, Macedonians and Pneumatomachi. In 451 the Council of Chalcedon said the creed of 381 set out the faith on the Holy Spirit against those who denied his sovereignty.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.canons-constantinople-381",
+     "work": "Council of Constantinople (381), Canon 1",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "13974-13976",
+     "locus": "Canon 1",
+     "quote": "and that of the Semi-Arians or Pneumatomachi, and that of the Sabellians, and that of the Marcellians, and that of the Photinians, and that of the Apollinarians.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "lpc.source.codex-theodosianus-latin-library-transcription",
+     "work": "Codex Theodosianus 16.5.11 (law of 25 July 383)",
+     "file": "cic/texts/codex-theodosianus_latinlibrary.txt",
+     "lines": "7074",
+     "locus": "CTh 16.5.11",
+     "quote": "omnes omnino, quoscumque diversarum haeresum error exagitat, id est eunomiani, arriani, macedoniani, pneumatomachi manichaei, encratitae, apotactitae, saccofori, hydroparastatae nullis circulis coeant,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.chalcedon-acts",
+     "work": "Council of Chalcedon (451), Definition of Faith (NPNF 2.14)",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "20251-20255",
+     "locus": "Definition of Faith",
+     "quote": "which doctrine they declared unto all men, not as though they were introducing anything that had been lacking in their predecessors, but in order to explain through written documents their faith concerning the Holy Ghost against those who were seeking to destroy his sovereignty.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "pneumatomachian relationsSummary, longDescription, why, legacy (the creed's third article answers this party)",
+   "wants": [],
+   "drafter_flags": [
+    "The creed of 381 is first attributed to that council in the acts of Chalcedon (451); the Chalcedon source is cited for exactly that."
+   ],
+   "change_reason": "Old link sound (quotes re-checked). Added Chalcedon's Definition, the earliest vendored text tying the creed's article on the Spirit to this party, so the legacy sentence ('the third article is the answer to this party') has a source on the link."
+  },
+  {
+   "id": "homoian-arian-christianity--gothic-and-vandal-homoian-christianity",
+   "action": "new",
+   "from": "homoian-arian-christianity",
+   "to": "gothic-and-vandal-homoian-christianity",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "Ulfila, bishop of the Goths, took part in the council at Constantinople in 360 that confirmed the Homoian creed. In 427 or 428 the Homoian bishop Maximinus came to Africa with the Goths and named the creed of Ariminum as his faith. In the fifth century the historian Socrates wrote that many Goths still held it.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.sozomen-he",
+     "work": "Sozomen, Church History IV.24 (trans. Hartranft, NPNF 2.2)",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "34561-34563",
+     "locus": "HE IV.24",
+     "quote": "invited thither several bishops of Bithynia, among whom were Maris, bishop of Chalcedon, and Ulfilas, bishop of the Goths.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.socrates-he",
+     "work": "Socrates, Church History II.41 (trans. Zenos, NPNF 2.2)",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "9608-9610",
+     "locus": "HE II.41",
+     "quote": "To this creed Ulfilas bishop of the Goths gave his assent, although he had previously adhered to that of Nicæa;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Possidius, Life of Augustine 17, quoted in the editors' admonition to the Collatio cum Maximino (PL 42)",
+     "file": "cic/texts/augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt",
+     "lines": "54421-54422",
+     "locus": "Vita Aug. 17",
+     "quote": "Cum ipsorum quoque Arianorum episcopo quodam Maximino cum Gothis ad Africam veniente,apud Hipponem",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Collatio cum Maximino Arianorum episcopo 1 (Maximinus's own answer; PL 42, Migne 1886 printing)",
+     "file": "cic/texts/augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt",
+     "lines": "54500-54503",
+     "locus": "Coll. c. Max. 1",
+     "quote": "teneo fidem que Arimini! a trecentis et triginta episcopis, non solum exposita, sed etiam subscri- ptionibus firmata est.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Maurist editors' admonition to the Collatio cum Maximino (PL 42), on its date",
+     "file": "cic/texts/augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt",
+     "lines": "54397-54398",
+     "locus": "Admonitio",
+     "quote": "videlicet aut 427, aut 428.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.socrates-he",
+     "work": "Socrates, Church History IV.33 (trans. Zenos, NPNF 2.2)",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "14445-14448",
+     "locus": "HE IV.33",
+     "quote": "Therefore it is that so many of the Goths are even to the present time infected with the errors of Arianism, they having on the occasion preferred to become adherents to that heresy on the emperor’s account.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "homoian longDescription and why (Ulfila's mission; Goths, Vandals and Lombards in this form; Homoian kingdoms). The Gothic entry's own summary also names it ('Descended from Ulfila's missionary church').",
+   "wants": [],
+   "drafter_flags": [
+    "'Continued as' is an interpretation; it is graded Documented because Socrates (fifth century) and Maximinus (427) show the same Gothic Homoian church and creed still standing after Ulfila. No repo-cited secondary work states the continuity, so it could not be Widely Accepted on a consensus reading.",
+    "The two entries overlap in date (Homoian 4th-6th c.; Gothic 451-c. 680). The Homoian entry's own text runs to Toledo 589 and the Lombards. Reviewer may want the Homoian entry's dates cut to the 4th-5th c. so the period split is clean; that is the entry owner's call.",
+    "The Maximinus quote is raw OCR from PL 42 ('Arimini!', 'subscri- ptionibus'), copied as it stands. Kauffmann 1899 cites the same words (line 3224) in a cleaner hand.",
+    "Socrates's own phrase is 'infected with the errors of Arianism'; the note uses neutral wording."
+   ],
+   "change_reason": "New. The Homoian text names Ulfila's Gothic church and the Homoian kingdoms, which the census carries on as the era-3 Gothic entry; no link joined them."
+  },
+  {
+   "id": "imperial-juridical-christianity--homoian-arian-christianity--2",
+   "action": "new",
+   "from": "imperial-juridical-christianity",
+   "to": "homoian-arian-christianity",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "The emperor Constantius II called the bishops to two councils in 359, hoping to bring them all to one creed. A council at Constantinople in 360 confirmed the creed read at Ariminum, and Ulfila of the Goths signed it. In 427 or 428 the Homoian bishop Maximinus still named that creed as his faith.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.socrates-he",
+     "work": "Socrates, Church History II.37 (trans. Zenos, NPNF 2.2)",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "8469-8470",
+     "locus": "HE II.37",
+     "quote": "The emperor’s object in these arrangements was to effect a general unity of opinion;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.sozomen-he",
+     "work": "Sozomen, Church History IV.24 (trans. Hartranft, NPNF 2.2)",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "34563-34565",
+     "locus": "HE IV.24",
+     "quote": "These prelates having assembled together, in number about fifty, they confirmed the formulary read at the council of Ariminum,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "ijc.source.socrates-he",
+     "work": "Socrates, Church History II.41 (trans. Zenos, NPNF 2.2)",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "9608-9610",
+     "locus": "HE II.41",
+     "quote": "To this creed Ulfilas bishop of the Goths gave his assent, although he had previously adhered to that of Nicæa;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Collatio cum Maximino Arianorum episcopo 1 (Maximinus's own answer; PL 42, Migne 1886 printing)",
+     "file": "cic/texts/augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt",
+     "lines": "54500-54503",
+     "locus": "Coll. c. Max. 1",
+     "quote": "teneo fidem que Arimini! a trecentis et triginta episcopis, non solum exposita, sed etiam subscri- ptionibus firmata est.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Maurist editors' admonition to the Collatio cum Maximino (PL 42), on its date",
+     "file": "cic/texts/augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt",
+     "lines": "54397-54398",
+     "locus": "Admonitio",
+     "quote": "videlicet aut 427, aut 428.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "homoian relationsSummary ('the imperial church itself'), longDescription and why (backed by Constantius II and Valens, adopted at the councils of 359 and 360)",
+   "wants": [],
+   "drafter_flags": [
+    "Type choice needs a reviewer's eye. The relationship is imperial sponsorship: the Homoian creed was set at councils the emperor called. None of the six types names that. 'Influenced' fits the evidence that the Homoians kept the imperial councils' creed as their own (Ulfila 360, Maximinus 427). 'Gave rise to' would claim more; 'in contact with' would claim less than the sources show.",
+    "The pair already has an 'argued against' link (the Theodosian church of 381 against the Homoians). Both are true at different dates; the census treats the imperial church of 312-451 as one entry, so it is on both sides of the Homoian story.",
+    "Valens's backing (Socrates IV.1, npnf202 lines 12262-12264: 'in his anxiety to promote the Arian cause') is verified but left out of the note to keep it to three sentences."
+   ],
+   "change_reason": "New. The Homoian text's central claim, that it was for a time the imperial church's position, had no link."
+  },
+  {
+   "id": "hieronymian-ascetic-literary--homoian-arian-christianity",
+   "action": "new",
+   "from": "hieronymian-ascetic-literary",
+   "to": "homoian-arian-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In his Dialogue against the Luciferians, written about 379, Jerome blames the Homoian leaders Valens and Ursacius for the council of Ariminum. There, he says, the Nicene faith was condemned, and the whole world groaned to find itself Arian.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jerome, Dialogue against the Luciferians 19 (trans. Fremantle, NPNF 2.6)",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "32409-32411",
+     "locus": "Adv. Lucif. 19",
+     "quote": "began to wave their palms, and to say they had not denied that He was a creature, but that He was like other creatures.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jerome, Dialogue against the Luciferians 19 (trans. Fremantle, NPNF 2.6)",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "32411-32413",
+     "locus": "Adv. Lucif. 19",
+     "quote": "At that moment the term <i>Usia</i> was abolished: the Nicene Faith stood condemned by acclamation. The whole world groaned, and was astonished to find itself Arian.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "W. H. Fremantle, introduction to Jerome's Dialogue against the Luciferians (NPNF 2.6)",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "31412",
+     "locus": "Introduction",
+     "quote": "This Dialogue was written about 379,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "homoian longDescription and why (Jerome's line that the world groaned to find itself Arian)",
+   "wants": [],
+   "drafter_flags": [
+    "The NPNF introduction dates the Dialogue 'about 379' (npnf206 line 31412), three years before the Jerome entry's window opens (c. 382). Reviewer may judge that this belongs to Jerome before his circle formed and drop the link; the Homoian text uses Jerome as a witness, not as a party.",
+    "The Dialogue is aimed at the Luciferians; its attack on Valens and Ursacius is a passage within it, not its purpose. The names are in the passage itself (32403-32409, with an editor's note between)."
+   ],
+   "change_reason": "New. The Homoian text quotes Jerome; his passage condemns the Homoian leaders by name."
+  },
+  {
+   "id": "antiochene-exegetical-christianity-chrysostom-ce--anomoean-eunomian-christianity",
+   "action": "new",
+   "from": "antiochene-exegetical-christianity-chrysostom-ce",
+   "to": "anomoean-eunomian-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Theodoret, writing in the fifth century, says Bishop Leontius of Antioch made Aetius a deacon. Two ascetics of the city, Flavian and Diodore, protested in public that this disgraced the church. Leontius then suspended Aetius.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": "syr.source.theodoret-historia-ecclesiastica",
+     "work": "Theodoret, Church History II.19 (trans. Jackson, NPNF 2.3)",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "10445-10447",
+     "locus": "HE II.19",
+     "quote": "At this juncture Aetius, the master of Eunomius, who promoted the Arian error by his speculations, was admitted to the diaconate.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "syr.source.theodoret-historia-ecclesiastica",
+     "work": "Theodoret, Church History II.19 (trans. Jackson, NPNF 2.3)",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "10447-10450",
+     "locus": "HE II.19",
+     "quote": "Flavianus and Diodorus, however, who had embraced an ascetic career, and were open champions of the Apostolic decrees, publicly protested against the attacks of Leontius against true religion.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": "syr.source.theodoret-historia-ecclesiastica",
+     "work": "Theodoret, Church History II.19 (trans. Jackson, NPNF 2.3)",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "10450-10453",
+     "locus": "HE II.19",
+     "quote": "That a man nurtured in iniquity and scheming to win notoriety by ungodliness should be counted worthy of the diaconate, was, they urged, a disgrace to the Church.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "anomoean longDescription and why (Aetius, a deacon at Antioch). Diodore is named in the Antiochene entry's own text as Chrysostom's teacher.",
+   "wants": [],
+   "drafter_flags": [
+    "The anomoean text names Antioch, not Diodore's circle; the inventory proposed 'in contact with'. The source shows a protest aimed at Aetius by name, so 'argued against' is the better type.",
+    "Theodoret is a later Antiochene writer and partial to Flavian and Diodore. Socrates's editor cites the same story from Theodoret (npnf202, 8480-8486), not from an independent source."
+   ],
+   "change_reason": "New. Documents the Antiochene opposition to Aetius that the anomoean text's 'deacon at Antioch' points to."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "homoian-arian-christianity",
+   "field": "longDescription",
+   "old": "The Homoians — from the Greek homoios, \"like\" — taught that the Son is like the Father according to the Scriptures, and refused to go further and call him of one being with the Father, on the grounds that Scripture never used the word and no council should force it on anyone; they did not call themselves Arians, and that label came from opponents who wanted them tied to a man most of them had never followed.",
+   "new": "The Homoians — from the Greek homoios, \"like\" — taught that the Son is like the Father according to the Scriptures. They refused to go further and call him of one being with the Father, because Scripture never used the word and no council should force it on anyone. They did not call themselves Arians; that label came from their opponents. One of their own bishops put it the other way round: Arius had followed the bishops, not the bishops Arius.",
+   "reason": "Split a 70-word sentence. The Homoian side's own words now carry the claim: Auxentius 48 (Kauffmann 1899, lines 15174-15176, the Son 'like' the Father 'secundum diuinas scribturas') and Maximinus's commentary (line 14834, 'constat ergo Arrium episcopos secutum fuisse, non episcopos Arrium'). The motive clause 'who wanted them tied to a man most of them had never followed' had no source and is dropped."
+  },
+  {
+   "n": 1,
+   "movement": "homoian-arian-christianity",
+   "field": "longDescription",
+   "old": "Through that mission the Goths, Vandals, Burgundians, and Lombards became Christians in this form, and Homoian kingdoms ruled Italy, Spain, and North Africa for generations after the empire itself had turned Nicene — the Visigoths of Spain going over to the Nicene creed at Toledo in 589, with the Lombards of Italy the last to follow, two generations later.",
+   "new": "The Goths became Christians in this form, and the Vandals, Burgundians, and Lombards held it too. Jordanes, a sixth-century historian of the Goths, says they passed it on to \"all people of their speech.\" Homoian kingdoms ruled Italy, Spain, and North Africa for generations after the empire itself had turned Nicene. The Visigoths of Spain went over to the Nicene creed at Toledo in 589, and the Lombards of Italy were the last to follow, two generations later.",
+   "reason": "'Through that mission' made Ulfila's own mission the cause of the Vandal, Burgundian and Lombard conversions; no vendored text says so. Socrates IV.33 credits Valens and Fritigern for the Goths, and Jordanes 25.133 (lines 1655-1659) says the Visigoths spread it to the Ostrogoths, Gepids and 'all people of their speech'. Each people's Homoian faith is attested: Vandals (Victor of Vita, 1605 trans., line 2), Burgundians (Gregory of Tours, Brehaut 1916, line 2102), Lombards (Paul the Deacon IV.42, lines 9051-9053, Rothari still Arian, d. 652). Toledo 589 in the vendored Toledo III acts. Long sentence split."
+  },
+  {
+   "n": 2,
+   "movement": "homoian-arian-christianity",
+   "field": "why",
+   "old": "Its bishop Ulfila spent his life among the Goths, made an alphabet for their language, and translated the Bible into it, so that the Goths, Vandals, Burgundians, and Lombards all became Christians in this form, and Homoian kingdoms ruled Italy, Spain, and North Africa for generations after the empire itself had turned Nicene.",
+   "new": "Its bishop Ulfila spent his life among the Goths, made an alphabet for their language, and translated the Bible into it. The Goths became Christians in this form, and the Vandals, Burgundians, and Lombards held it too. Homoian kingdoms ruled Italy, Spain, and North Africa for generations after the empire itself had turned Nicene.",
+   "reason": "Same fix as the long description: 'so that' made Ulfila's translation the cause of four peoples' conversion, which no vendored text supports. Long sentence split."
+  },
+  {
+   "n": 3,
+   "movement": "homoian-arian-christianity",
+   "field": "legacy",
+   "old": "Ulfila's Gothic Bible is the foundation document of Germanic philology — the earliest substantial writing in any Germanic language. And the great silver-and-gold copy of it made for Theoderic's court survives in Uppsala.",
+   "new": "Large parts of Ulfila's Gothic Bible survive, and scholars of the Germanic languages still edit and study it. Its finest copy, written in silver and gold letters on purple parchment in the fifth or sixth century, is kept in Uppsala.",
+   "reason": "Streitberg's edition (wulfila_gothic-bible-v1-got_streitberg1908.txt, lines 1348-1353) places the Codex Argenteus in Uppsala and dates it 5th/6th century, silver and gold on purple, but says nothing of Theoderic's court; no vendored or repo-cited source does. 'Foundation document' and 'earliest substantial writing' have no vendored or repo-cited source either; both are wanted."
+  },
+  {
+   "n": 4,
+   "movement": "homoian-arian-christianity",
+   "field": "legacy",
+   "old": "Its buildings survive too: the Arian Baptistery and Sant'Apollinare Nuovo in Ravenna were built for Homoian worship, and their mosaics are among the finest anywhere.",
+   "new": "Its buildings survive too. Ravenna was the capital of Theoderic, an Arian king, and its Arian Baptistery and Sant'Apollinare Nuovo still stand, with mosaics among the finest anywhere.",
+   "reason": "No vendored text says these buildings were built for Homoian worship (Agnellus's Liber Pontificalis of Ravenna is not vendored). Theoderic's Arian faith is in Hodgkin's introduction to the Variae (cassiodorus_variae-letters-hodgkin1886.txt, line 1848). Agnellus is wanted."
+  },
+  {
+   "n": 5,
+   "movement": "homoian-arian-christianity",
+   "field": "legacy",
+   "old": "The clauses most Christians recite each week were sharpened precisely to close the space this tradition tried to hold open.",
+   "new": "In 381 the Council of Constantinople confirmed the faith of Nicaea, which calls the Son of one being with the Father. In the same canon it condemned the Homoians by name, as \"the Arians or Eudoxians.\"",
+   "reason": "The creed's key clause dates from 325, before the Homoian party formed (359-360), so 'sharpened precisely' against them is not right. What is documented: Constantinople 381, canon 1, confirms the Nicene faith and anathematizes 'the Arians or Eudoxians' (npnf214, lines 13971-13976, 13985-13987)."
+  },
+  {
+   "n": 6,
+   "movement": "anomoean-eunomian-christianity",
+   "field": "relationsSummary",
+   "old": "The radical wing of the fourth-century Arian controversy, and a different party from the Homoians it is usually filed with - the two split at Constantinople in 360.",
+   "new": "The radical wing of the fourth-century Arian controversy, and a different party from the Homoians it is usually filed with. The break began at Constantinople in 360, when a Homoian council deposed Aetius.",
+   "reason": "The sources do not put the whole split in 360. The Homoian council of 360 deposed Aetius (Sozomen IV.24; its own letter in Theodoret II.24), but Eunomius stayed with Eudoxius for a time (Theodoret II.25); Socrates IV.13 and Philostorgius IX.4 put the final break under Valens."
+  },
+  {
+   "n": 7,
+   "movement": "anomoean-eunomian-christianity",
+   "field": "longDescription",
+   "old": "The party split from the Homoians at Constantinople in the same year, when the Homoian creed was imposed and Aetius exiled - which is why filing the two together misreads the controversy.",
+   "new": "The break with the Homoians began at Constantinople in the same year, when their council confirmed the Homoian creed and deposed Aetius. Within a few years Eunomius and Aetius had broken away entirely, so filing the two parties together misreads the controversy.",
+   "reason": "As the summary: 360 is the start of the break, not all of it. Theodoret II.25 dates Eunomius's own sect to after his flight from Cyzicus (c. 361); Socrates IV.13 and Philostorgius IX.4 to Valens's reign. 'Within a few years' covers both."
+  },
+  {
+   "n": 8,
+   "movement": "pneumatomachian-current",
+   "field": "longDescription",
+   "old": "Their opponents called them Pneumatomachians, Spirit-fighters, and attached to them the name of Macedonius, a deposed bishop of Constantinople, on evidence later writers found thin.",
+   "new": "Their opponents called them Pneumatomachians, Spirit-fighters. The historian Socrates named them after Macedonius, a deposed bishop of Constantinople, but he also says the party was named after Marathonius of Nicomedia.",
+   "reason": "'Later writers found thin' has no vendored or repo-cited source. Socrates II.45 (npnf202, lines 9817-9837) names Macedonius, reports the rival name 'Marathonians', and says the homoousians called them Pneumatomachi."
+  },
+  {
+   "n": 9,
+   "movement": "pneumatomachian-current",
+   "field": "legacy",
+   "old": "Basil's method in arguing it, appealing to the church's practice of prayer and baptism as evidence of what it believes, became a standing move in Christian theology long after the opponents it was aimed at had gone.",
+   "new": "Basil argued it in a way of his own. He took the church's practice of prayer and baptism as evidence of what it believes.",
+   "reason": "Basil's method is documented (On the Holy Spirit 67, npnf208 lines 14130-14140: 'as we are baptized, so also under the obligation to believe'). No vendored or repo-cited source shows it becoming 'a standing move' in later theology; a reception study is wanted."
+  },
+  {
+   "n": 10,
+   "movement": "apollinarian-christianity",
+   "field": "longDescription",
+   "old": "It was condemned at Rome in 377 and again by name at Constantinople in 381.",
+   "new": "It was condemned at a council in Rome in the 370s, and again by name at Constantinople in 381.",
+   "reason": "The Roman council's year is disputed: the NPNF note to Sozomen VI.25 gives 377 (Rade) and 374 (Hefele) (npnf202, lines 39029-39031)."
+  },
+  {
+   "n": 11,
+   "movement": "apollinarian-christianity",
+   "field": "why",
+   "old": "Condemned at Rome in 377 and by name at Constantinople in 381, Apollinaris's own writings survived mostly because his followers kept circulating them under other men's names.",
+   "new": "His teaching was condemned at Rome in the 370s and by name at Constantinople in 381. His own writings survived mostly because his followers kept circulating them under other men's names.",
+   "reason": "Same date fix. The opening phrase also attached the condemnation to his writings rather than to him. The forged names are in Lietzmann 1904, lines 5478-5481 (Leontius on works passed off under Gregory Thaumaturgus, Athanasius and Julius)."
+  },
+  {
+   "n": 12,
+   "movement": "apollinarian-christianity",
+   "field": "relationsSummary",
+   "old": "The question he raised is the one Ephesus and Chalcedon spent the next century answering.",
+   "new": "The question he raised, how much of a human being Christ became, ran on into the councils of Ephesus and Chalcedon.",
+   "reason": "'Spent the next century answering' overstates: Ephesus and Chalcedon answered Nestorius and Eutyches. What links them to Apollinaris is documented: both affirm Christ's rational soul (Cyril's letter read at Ephesus, npnf214 lines 15669-15677 and 15737; Chalcedon's Definition, lines 20280-20282)."
+  },
+  {
+   "n": 13,
+   "movement": "apollinarian-christianity",
+   "field": "legacy",
+   "old": "The controversy also set the terms for the next century: Ephesus in 431 and Chalcedon in 451 are both, in part, continued work on the question of how much humanity Christ took.",
+   "new": "The controversy also shaped the next century. At Ephesus in 431 the bishops heard Cyril's letter saying the Word took flesh \"animated by a rational soul.\" At Chalcedon in 451 they defined Christ as truly man, with a rational soul and a body.",
+   "reason": "Replaces an interpretive frame with what the councils' texts say: Ephesus, Session I, reads Cyril's letter (npnf214 lines 15669-15677; 'flesh animated by a rational soul', 15737); Chalcedon's Definition, 'of a reasonable soul and [human] body' (20280-20282)."
+  }
+ ],
+ "wants": [
+  "Agnellus, Liber Pontificalis Ecclesiae Ravennatis (on Theoderic's building of Sant'Apollinare Nuovo and the Arian Baptistery), to restore 'built for Homoian worship'",
+  "A repo-cited modern work on the Codex Argenteus and Theoderic's court, if that attribution is to come back",
+  "A repo-cited modern work stating that the Gothic Bible is the earliest substantial text in a Germanic language",
+  "A repo-cited modern work on the reception of Basil's argument from prayer and baptism (and of Gregory's 'what is not assumed is not healed'), if those legacy claims are to stand",
+  "A repo-cited modern work on the Gothic Homoian church's continuity from Ulfila to the successor kingdoms (e.g. a study of the Gothic conversion), which would let the 'continued as' link rest on a consensus reading as well as primaries",
+  "A clean Latin text of the Collatio cum Maximino (the PL 42 OCR mangles Maximinus's answer)",
+  "A vendored text or repo-cited study on the Macedonius attribution, if the old 'evidence later writers found thin' is to come back"
+ ],
+ "escalations": [
+  "Link-type gap, flagged not decided: imperial sponsorship of a creed (Constantius and the Homoian councils of 359-360) fits none of the six types cleanly. I drafted 'influenced' (imperial-juridical-christianity--homoian-arian-christianity--2). If the reviewer thinks this needs a new type or a ruling, that is a method change for Mark.",
+  "Entry overlap, for the owner: homoian-arian-christianity (4th-6th c.) and gothic-and-vandal-homoian-christianity (451-c. 680) cover the same kingdoms and endings. The new 'continued as' link assumes a period split; the Homoian text's last third duplicates the Gothic entry.",
+  "Candidate link found, not drafted (no text names it): Auxentius 48 (Kauffmann 1899, 15174-15176) has Ulfila rejecting the 'Macedonian' reading of 'like', and the homoian side's attack on the homoousians ('Homousianorum sectam destruebat'). A homoian-arian-christianity argued-against link to pneumatomachian-current may be worth a later pass.",
+  "Coordinator note (1): the homoian text does not name the Council of Aquileia, so no disposition points to group C's link. The Homoian reply is vendored, though: Maximinus's commentary defending Palladius (Kauffmann 1899, from line 14829). It would support a separate homoian-arian-christianity argued-against link to the Aquileian or Ambrosian entry if either text names it. Left for the merge.",
+  "Unsourced reception language left in place, flagged: anomoean legacy ('the Cappadocian theology that the Nicene tradition still uses' is supported by Basil Letter 234 for its content, not its later use) and apollinarian legacy ('still quoted in arguments that have nothing to do with Apollinaris')."
+ ]
+}

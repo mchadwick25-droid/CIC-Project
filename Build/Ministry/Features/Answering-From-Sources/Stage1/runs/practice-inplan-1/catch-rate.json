@@ -1,0 +1,43 @@
+{
+  "test_set": "tryout",
+  "model_ids": [
+    "claude-opus-5-5"
+  ],
+  "seeds_planted": 20,
+  "seeds_caught": 20,
+  "seeds_caught_as_expected_class": 20,
+  "threshold": "19 of 20",
+  "needed_for_this_set": 19,
+  "meets_catch_threshold": true,
+  "control_threshold": "18 of 20",
+  "per_type": {
+    "attribution_inflation": {
+      "planted": 5,
+      "caught": 5,
+      "caught_as_expected_class": 5
+    },
+    "dropped_negation": {
+      "planted": 5,
+      "caught": 5,
+      "caught_as_expected_class": 5
+    },
+    "embedded_voice": {
+      "planted": 5,
+      "caught": 5,
+      "caught_as_expected_class": 5
+    },
+    "false_friend": {
+      "planted": 5,
+      "caught": 5,
+      "caught_as_expected_class": 5
+    }
+  },
+  "controls": 20,
+  "controls_supported": 20,
+  "false_alarms": 0,
+  "control_misses": 0,
+  "qualifies": true,
+  "missed": [],
+  "false_alarm_detail": [],
+  "control_miss_detail": []
+}

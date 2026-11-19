@@ -1,0 +1,217 @@
+{
+ "draft": "For us, God gives first: no effort of ours is enough on its own, and any good a person does was given to them before they did it [[lpc.term.grace]] [[as:paraphrase]]. Augustine taught that God hears the saints in what concerns their salvation, even when he does not hear them as they wished [[lpc.witness.heard-for-salvation-not-for-wish]] [[as:paraphrase]]. Paul asked God three times to take away a thorn in his flesh, and God did not take it away [[lpc.witness.heard-for-salvation-not-for-wish]] [[as:paraphrase]]. God answered instead that his grace was sufficient, and that strength is made perfect in weakness [[lpc.witness.heard-for-salvation-not-for-wish]] [[as:paraphrase]]. We also held God to be just [[lpc.witness.violence-commanded-not-cruel]] [[as:paraphrase]]. Augustine told a Manichaean that in the wars of Moses, God acted not in cruelty, but in righteous retribution, giving to all what they deserved [[lpc.witness.violence-commanded-not-cruel]] [[as:paraphrase]]. Moses, Augustine said, showed not ferocity but obedience [[lpc.witness.violence-commanded-not-cruel]] [[as:paraphrase]]. That question had troubled Augustine himself as a young man, when he was drawn to a rival teaching [[lpc.witness.violence-commanded-not-cruel]] [[as:paraphrase]]. Augustine wrote: [[quote:lpc.quote.no-one-has-the-love-of-god-from-himself]]\n",
+ "ending": "abstained_rewrite_failed_read",
+ "final": "We do not have that here.",
+ "group": "A",
+ "offered": [
+  "lpc.witness.violence-commanded-not-cruel",
+  "lpc.term.reconciliation-penitential-discipline",
+  "lpc.story.election-of-cyprian",
+  "lpc.quote.chosen-while-still-a-neophyte",
+  "lpc.quote.before-even-a-deacon",
+  "lpc.contested.grace-pelagius-characterization",
+  "lpc.limit.womens-own-voice",
+  "lpc.witness.heard-for-salvation-not-for-wish",
+  "lpc.witness.infants-and-the-sin-of-another",
+  "lpc.term.grace",
+  "lpc.quote.not-his-own-sins-but-the-sins-of-another",
+  "lpc.quote.no-one-has-the-love-of-god-from-himself",
+  "lpc.story.the-death-of-cyprian",
+  "lpc.quote.numidicus-remained-unwillingly",
+  "lpc.quote.thanks-be-to-god"
+ ],
+ "placements": [
+  {
+   "decision": "drop",
+   "judgement": {
+    "fit": "partly",
+    "limit_stated": false,
+    "reason": "It shows God moving the heart through the Spirit, but it argues where love of God comes from and is not a description of God's character."
+   },
+   "record_id": "lpc.quote.no-one-has-the-love-of-god-from-himself"
+  }
+ ],
+ "question": "Describe the character and nature of God as your community understood it.",
+ "question_id": "q006",
+ "read": {
+  "dropped": [
+   "lpc.quote.no-one-has-the-love-of-god-from-himself"
+  ],
+  "status": "rewrite",
+  "unsupported": {
+   "4": {
+    "problem": "widened_scope",
+    "reason": "The records give this as Augustine's answer to a Manichaean, not as what the whole tradition held of God.",
+    "supported": false
+   }
+  }
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.term.grace"
+   ],
+   "sentence": "For us, God gives first: no effort of ours is enough on its own, and any good a person does was given to them before they did it.",
+   "tags": [
+    "lpc.term.grace"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.heard-for-salvation-not-for-wish"
+   ],
+   "sentence": "Augustine taught that God hears the saints in what concerns their salvation, even when God does not hear them as they wished.",
+   "tags": [
+    "lpc.witness.heard-for-salvation-not-for-wish"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.heard-for-salvation-not-for-wish"
+   ],
+   "sentence": "Paul asked God three times to take away a thorn in his flesh, and God did not take it away.",
+   "tags": [
+    "lpc.witness.heard-for-salvation-not-for-wish"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.heard-for-salvation-not-for-wish"
+   ],
+   "sentence": "God answered instead that God's grace was sufficient, and that strength is made perfect in weakness.",
+   "tags": [
+    "lpc.witness.heard-for-salvation-not-for-wish"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "sentence": "Augustine told a Manichaean that in the wars of Moses, God acted not in cruelty, but in righteous retribution, giving to all what they deserved.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ],
+   "sentence": "The question of the wars of Moses had troubled Augustine himself as a young man, when he was drawn to a rival teaching.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "For us, God gives first: no effort of ours is enough on its own, and any good a person does was given to them before they did it.",
+   "tags": [
+    "lpc.term.grace"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Augustine taught that God hears the saints in what concerns their salvation, even when he does not hear them as they wished.",
+   "tags": [
+    "lpc.witness.heard-for-salvation-not-for-wish"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Paul asked God three times to take away a thorn in his flesh, and God did not take it away.",
+   "tags": [
+    "lpc.witness.heard-for-salvation-not-for-wish"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "God answered instead that his grace was sufficient, and that strength is made perfect in weakness.",
+   "tags": [
+    "lpc.witness.heard-for-salvation-not-for-wish"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "We also held God to be just.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Augustine told a Manichaean that in the wars of Moses, God acted not in cruelty, but in righteous retribution, giving to all what they deserved.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "That question had troubled Augustine himself as a young man, when he was drawn to a rival teaching.",
+   "tags": [
+    "lpc.witness.violence-commanded-not-cruel"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 7,
+   "placed": true,
+   "placed_id": "lpc.quote.no-one-has-the-love-of-god-from-himself",
+   "reason": "placed by code",
+   "sentence": "Augustine wrote: “Indeed, he had said, ‘The love of God has been poured out in our hearts.’ Then he added at once, ‘through the Holy Spirit, who has been given to us.’ He did this so that no one would think his love for God came from himself. So if you are to love God, let God live in you and love Himself through you. That is, let Him move you to His love. Let Him kindle you, give you light and stir you up.”",
+   "tags": [
+    "lpc.quote.no-one-has-the-love-of-god-from-himself"
+   ]
+  }
+ ],
+ "shipped_by_net": "For us, God gives first: no effort of ours is enough on its own, and any good a person does was given to them before they did it. Augustine taught that God hears the saints in what concerns their salvation, even when he does not hear them as they wished. Paul asked God three times to take away a thorn in his flesh, and God did not take it away. God answered instead that his grace was sufficient, and that strength is made perfect in weakness. We also held God to be just. Augustine told a Manichaean that in the wars of Moses, God acted not in cruelty, but in righteous retribution, giving to all what they deserved. That question had troubled Augustine himself as a young man, when he was drawn to a rival teaching. Augustine wrote: “Indeed, he had said, ‘The love of God has been poured out in our hearts.’ Then he added at once, ‘through the Holy Spirit, who has been given to us.’ He did this so that no one would think his love for God came from himself. So if you are to love God, let God live in you and love Himself through you. That is, let Him move you to His love. Let Him kindle you, give you light and stir you up.”",
+ "sub_question": "C2.S2"
+}

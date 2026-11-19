@@ -1,0 +1,216 @@
+file: cic/texts/groen-van-prinsterer_ongeloof-en-revolutie-nld_2e-uitg1868.txt
+kind: passage renderings
+language: nld
+into: eng
+passages:
+- id: groen-ongeloof-en-revolutie.p1
+  subject: His thesis
+  where: Lecture VIII, “Ongeloof”, opening
+  lines: [6941, 6951]
+  printed_page: p. 167
+  original: >-
+    Thans zijn wij aan den aanvant»- der ontwikkeling van mijne lioordgedaclite ; namelijk dat de oorzaak
+    der Revolutie in het ongeloof ligt. Met al haar verscheidenheden van theoretische en prakli- kale
+    rigtingen en gedaanten , is de Revolutie gevolg, toepassing, ontplooijing van het ongeloof. Door theoretisch
+    en praktikaal ongeloof werd de filozofie en de revolutie der IB^ eeuw gevormd. Eene geheele reeks
+    van dwaalbegrippen en gruwelen moest volgen op een reeks van syllogismen, toen eenmaal het on- geloof
+    den boventoon had.
+  page_image:
+    host_item: ongeloofenrevolu00groe
+    url: https://archive.org/download/ongeloofenrevolu00groe/page/n192.jpg
+  scan_faults:
+  - line: 6941
+    scan: aanvant»-
+    print: aanvang
+  - line: 6942
+    scan: lioordgedaclite
+    print: hoofdgedachte
+  - line: 6945
+    scan: prakli-
+    print: prakti-
+  - line: 6948
+    scan: IB^
+    print: 18e
+  rendering: >-
+    We are now at the start of setting out my main thought: namely, that the cause of the Revolution lies
+    in *unbelief*.
+
+    With all its varieties of theoretical and practical tendencies and forms, the Revolution is the consequence,
+    the application, the unfolding of unbelief. Theoretical and practical unbelief formed the philosophy
+    and the revolution of the eighteenth century. A whole series of false ideas and atrocities *had* to
+    follow upon a series of syllogisms, once unbelief had the upper hand.
+  second_rendering: >-
+    We now stand at the beginning of the development of my main thought: namely, that the cause of the
+    Revolution lies in unbelief.
+
+    With all its varieties of theoretical and practical tendencies and forms, the Revolution is the consequence,
+    the application, the unfolding of unbelief. The philosophy and the revolution of the eighteenth century
+    were formed by theoretical and practical unbelief. A whole series of false ideas and atrocities had
+    to follow upon a series of syllogisms, once unbelief had the upper hand.
+  uncertain: []
+  rendered:
+    by: Fable
+    date: '2026-11-16'
+  second_rendered:
+    by: Fable, separately, without sight of the first
+    date: '2026-11-16'
+  reviewed:
+    by: Opus
+    date: '2026-11-16'
+    verdict: meets the bar with minor fixes; the fixes are in the rendering
+- id: groen-ongeloof-en-revolutie.p2
+  subject: On the Reformation
+  where: Lecture VII, “Hervorming”, near the close
+  lines: [6837, 6850]
+  printed_page: p. 164
+  original: >-
+    Oorzaak der Revolutie, heelt de Reformatie niet kunnen zijn , vcrmils zij van een legenovcrgcstcld
+    beginsel uitging; van objectieve geloofscenheid , niet van de verscheidenheid der subjectieve gevoelens;
+    van de onfeilbaarheid der Openbaring, niet van de oppermagt des verstands ; van de souverciniteit
+    Gods, niet van de souverciniteit van den niensch De Reformatie heeft aan de verwarring der midden-eeuwen
+    een einde gemaakt en tegen de overheersching van het ongeloof behoed. Door het verminderen en bijkans
+    te niet gaan van haar invloed, werd Europa voor dc Omwenteling rijp. Eén middel slechts is er van
+    leven en herleving ook voor dc volken ; het Woord des Levens. Laat ons in de heilvolle werking der
+    Reformatie de vervulling der profetie erkennen: ,,Aiijn Woord zal doen wat Mij behaagt en het zal
+    voorspoedig zijn waartoe Ik het zendc."
+  page_image:
+    host_item: ongeloofenrevolu00groe
+    url: https://archive.org/download/ongeloofenrevolu00groe/page/n189.jpg
+  scan_faults:
+  - line: 6837
+    scan: heelt
+    print: heeft
+  - line: 6838
+    scan: vcrmils
+    print: vermits
+  - line: 6838
+    scan: legenovcrgcstcld
+    print: tegenovergesteld
+  - line: 6839
+    scan: geloofscenheid
+    print: geloofseenheid
+  - line: 6841
+    scan: souverciniteit
+    print: souvereiniteit
+  - line: 6842
+    scan: souverciniteit
+    print: souvereiniteit
+  - line: 6842
+    scan: niensch  De
+    print: mensch ¹). De (footnote mark and full stop lost in the OCR)
+  - line: 6846
+    scan: dc
+    print: de
+  - line: 6847
+    scan: dc
+    print: de
+  - line: 6849
+    scan: ',,Aiijn'
+    print: „Mijn
+  - line: 6850
+    scan: zendc
+    print: zende
+  rendering: >-
+    The Reformation could not have been the cause of the Revolution, because it started from an opposite
+    principle. It started from objective unity of faith, not from the variety of subjective opinions.
+    It started from the infallibility of Revelation, not from the supremacy of reason. It started from
+    the sovereignty of God, not from the sovereignty of man. The Reformation put an end to the confusion
+    of the Middle Ages and protected against the domination of unbelief. Through the lessening and near
+    disappearance of its influence, Europe became ripe for the Revolution. There is only one means of
+    life and revival, for the peoples too: the Word of Life. Let us recognise in the blessed working of
+    the Reformation the fulfilment of the prophecy: “My Word will do what pleases Me, and it will prosper
+    in what I send it for.”
+  second_rendering: >-
+    The Reformation cannot have been the cause of the Revolution, because it started from an opposite
+    principle. It started from objective unity of faith, not from the variety of subjective opinions.
+    It started from the infallibility of Revelation, not from the supremacy of the intellect. It started
+    from the sovereignty of God, not from the sovereignty of man. The Reformation put an end to the confusion
+    of the Middle Ages and gave protection against the domination of unbelief. Through the lessening and
+    near disappearance of its influence, Europe became ripe for the Upheaval. There is only one means
+    of life and revival, for the nations as well: the Word of Life. Let us recognise in the beneficial
+    working of the Reformation the fulfilment of the prophecy: "My Word will do what pleases Me, and it
+    will succeed in that for which I send it."
+  uncertain:
+  - original: de oppermagt des verstands
+    first: the supremacy of reason
+    second: the supremacy of the intellect
+    note: >-
+      Set against Revelation, verstand is human reason claiming the last word. Groen writes verstand,
+      not rede.
+  - original: de heilvolle werking der Reformatie
+    first: the Reformation’s work of blessing
+    second: the beneficial working of the Reformation
+    note: >-
+      The first keeps the religious weight of heil but turns werking (working, effect) into “work”. The
+      second keeps werking but flattens heil. The rendering has “blessed working”.
+  rendered:
+    by: Fable
+    date: '2026-11-16'
+  second_rendered:
+    by: Fable, separately, without sight of the first
+    date: '2026-11-16'
+  reviewed:
+    by: Opus
+    date: '2026-11-16'
+    verdict: meets the bar with minor fixes; the fixes are in the rendering
+- id: groen-ongeloof-en-revolutie.p3
+  subject: On the Revolution and its remedy
+  where: Lecture XI, point g
+  lines: [10547, 10562]
+  printed_page: p. 260
+  original: >-
+    g. Ongeloof is het beginsel , het geneesmiddel hgt dus in hel geloof. — Er is geen reden voor moedeloosheid,
+    zoolang het proefhoudend geneesmiddel niet beproefd is en bij de hand ligt. Men verbreke den revolutionairen
+    cirkel; men bekeere zich tot God, wiens waarheid alleen tegen de kracht van den leugen bestand is.
+    Zoo iemand deze gewigtigste les der historie meer voor gemoedelijke verzuchting dan voor raad- geving
+    der staatkunde houdt, hij vergeet dat het vermogen van het evangelie om orde en vrijheid en welvaart
+    te bewer- ken, door de wereldhistorie gestaafd is. Hij bedenke dat al wat den mensch nuttig en heilrijk
+    is, door de vreeze Gods bevorderd, door de verloochening Gods tegengewerkt wordt. Hij bedenke vooral
+    dat de revolutionaire theorie ontvouwing der ongeloofskiem was, en dat de giftige plant, door geloofs-
+    verzaking gekweekt, in de atmosfeer van geloofsherleving verkwijnt en verstikt.
+  page_image:
+    host_item: ongeloofenrevolu00groe
+    url: https://archive.org/download/ongeloofenrevolu00groe/page/n285.jpg
+  scan_faults:
+  - line: 10547
+    scan: hgt
+    print: ligt
+  - line: 10547
+    scan: hel
+    print: het
+  rendering: >-
+    Unbelief is the principle, so the remedy lies *in faith*. There is no reason to lose heart as long
+    as the proven remedy has not been tried and lies at hand. Let people break the revolutionary circle.
+    Let them turn to God, whose truth alone can stand against the power of the lie. Someone may take this
+    weightiest lesson of history more for a pious sigh than for political counsel. If so, he forgets that
+    world history has confirmed the gospel’s power to bring about order and freedom and prosperity. Let
+    him consider that everything useful and full of blessing for man is furthered by the fear of God and
+    hindered by the denial of God. Let him consider above all that the revolutionary theory was the unfolding
+    of the seed of unbelief. Above all let him consider that the poisonous plant, grown by the forsaking
+    of faith, withers and suffocates in the atmosphere of a revival of faith.
+  second_rendering: >-
+    Unbelief is the principle, so the remedy lies in faith. There is no reason to lose heart as long as
+    the proven remedy has not been tried and lies at hand. Let the revolutionary circle be broken. Let
+    people turn to God, whose truth alone can stand against the power of the lie. Someone may take this
+    weightiest lesson of history more for a pious sigh than for political counsel. He forgets that world
+    history has confirmed the power of the gospel to bring about order and freedom and prosperity. Let
+    him consider that everything useful and wholesome for man is furthered by the fear of God and thwarted
+    by the denial of God. Let him consider above all that the revolutionary theory was the unfolding of
+    the seed of unbelief. Let him consider that the poisonous plant, grown by the abandonment of faith,
+    withers and suffocates in the atmosphere of a revival of faith.
+  uncertain:
+  - original: nuttig en heilrijk
+    first: useful and full of blessing
+    second: useful and wholesome
+    note: >-
+      Heilrijk is built on heil (salvation, well-being, blessing). “Wholesome” keeps only the well-being.
+  rendered:
+    by: Fable
+    date: '2026-11-16'
+  second_rendered:
+    by: Fable, separately, without sight of the first
+    date: '2026-11-16'
+  reviewed:
+    by: Opus
+    date: '2026-11-16'
+    verdict: meets the bar with minor fixes; the fixes are in the rendering

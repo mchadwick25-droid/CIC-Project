@@ -1,0 +1,251 @@
+{
+ "round": 1,
+ "scope": "P2-G3 new movements and the II.1 extension: D1 (cyrilline-miaphysite-egyptian-christianity neighbor change 328-642, melitian-schism, 7 links, 1 retired link), D2 (luciferians; carthusians-later-middle-ages 1300-1534; carthusians-london-charterhouse-and-exile 1534-1581; carthusian-life continuesAs; 11 links), D3 (new-france-mission-born-christianity, swedish-lutherans-of-new-sweden, english-unitarianism; 10 links), D4 (hutterite-brethren, mennonites-and-amish-after-1650, melkite-greek-catholic-church-after-1815; the-anabaptist-movements and melkite-greek-catholic-church neighbor changes; 5 links)",
+ "verdict": "revise",
+ "findings": [
+  {
+   "id": "M1",
+   "target": "D1 retire_links: desert-monasticism--cyrilline-miaphysite-egyptian-christianity--2",
+   "field": "retiredLinks (existing record)",
+   "severity": "substantial",
+   "problem": "Retiring --2 breaks an existing retirement record. The census already holds retiredLinks 'desert-monasticism--cyrilline-miaphysite-egyptian-tradition' (2026-11-09) with replacedBy '...--2'. Once --2 is retired, that replacedBy names a link that is no longer current, and the validator fails the run. The draft does not touch the older record. (The retirement itself is right: II.1 now starts in 328, so the church did not emerge from the desert monks.)",
+   "evidence": "tools/validate-census.mjs:241 ('replacedBy ... is not a current link'); cic-website/data/world-census.json retiredLinks: {id: desert-monasticism--cyrilline-miaphysite-egyptian-tradition, replacedBy: desert-monasticism--cyrilline-miaphysite-egyptian-christianity--2}",
+   "fix": "In the same release, re-point that older record's replacedBy to 'desert-monasticism--cyrilline-miaphysite-egyptian-christianity' and adjust its reason to match. Say so in the draft's retire_links or neighbor_changes."
+  },
+  {
+   "id": "M2",
+   "target": "D1 melitian-schism",
+   "field": "floorNote",
+   "severity": "substantial",
+   "problem": "The floorNote presents one side of a disputed claim as settled. It says the quarrel began 'over church order and the lapsed'. 'The lapsed' is Bell's 1924 reading. The entry's own longDescription (paragraph 2) correctly says the cause is disputed: Athanasius and Socrates say Melitius sacrificed, Bell says it was about the lapsed.",
+   "evidence": "bell 1924 3188-3195 (Bell's reading); npnf204 24779-24781 and npnf202 2407-2409 (the sacrifice charge); fact rows 39-41 graded Contested",
+   "fix": "Write: 'At the start this was a quarrel over church order, not over belief.' Church order (ordaining in other bishops' sees) is documented by the four bishops' letter and Peter's letter (anf06 16724-16725, 27801)."
+  },
+  {
+   "id": "M3",
+   "target": "D1 melitian-schism--cyrilline-miaphysite-egyptian-christianity",
+   "field": "note, outcome",
+   "severity": "minor",
+   "problem": "The note and outcome both give the year 335 for Tyre, but no source on the link carries it. Step 4b needs every fact in an outcome to come from a source already on the link. The Socrates I.32 lines give no year.",
+   "evidence": "npnf202 5205-5220 (no year); Bell 1924 3342-3343 ('after the Synod of Tyre in 335') is not on the link",
+   "fix": "Add Bell 1924, lines 3342-3343, as a secondary source (with file, lines and quote), or drop the year from the outcome."
+  },
+  {
+   "id": "M4",
+   "target": "D1 melitian-schism",
+   "field": "end (768), longDescription last sentence, sourcing",
+   "severity": "minor",
+   "problem": "The 768 end date rests on one 1924 editor. Bell cites the History of the Patriarchs (PO 5, not vendored) for a report under Michael I (744-768), and the report itself is undated within those years. The date string 'c. 306-8th c.' is honest, but the prose states 'The last report of them comes from the eighth century' as a plain fact. The sourcing line 'After the fourth century it is known only through outsiders' is slightly off: the 512-513 sale contracts Bell cites have Melitian parties.",
+   "evidence": "bell 1924 3410-3411 ('Patriarch Michael I (A.D. 744-68) ... tried to convert'), 3452 ('We may probably conclude that the sect died out finally during the eighth century'), 3394-3399 (SB 5174-5175)",
+   "fix": "Keep 768 (it follows P1 on the latest evidence) but name the source in the text, e.g. 'Bell, citing a later part of the History of the Patriarchs, places the last report under Patriarch Michael I (744-768).' Change the sourcing line to 'After the fourth century it is known only through others' records.' The want for PO 5 is already queued."
+  },
+  {
+   "id": "M5",
+   "target": "D1 desert-monasticism--cyrilline-miaphysite-egyptian-christianity (rewrite)",
+   "field": "type/grade/span",
+   "severity": "minor",
+   "problem": "The rewrite adds evidence to a link that already has a type and span problem. Every quote dates after desert-monasticism ends (c. 430): 457, 477-490 and the 630s. The quotes show consultation, custody of letters and shelter rather than ideas or practices passed on. Only Timothy, 'brought from the wilderness ... to Cyril', falls near the movement's span. The drafter flagged the span. Principle M sends one entry's fixes to its owner or P2-L11.",
+   "evidence": "zachariah 3282-3289; severus-al-muqaffa 35554-35555, 43445-43447; census desert-monasticism start 320 end 430",
+   "fix": "Accept the rewrite as a holding step, but open an Open-Gaps entry for P2-L11 on this link's type and span. The note could lead with Timothy, the ascetic from the desert whom Cyril ordained, since that is the in-span person who passed from one side to the other."
+  },
+  {
+   "id": "M6",
+   "target": "D1 cyrilline-miaphysite-egyptian-christianity",
+   "field": "documentedStories",
+   "severity": "minor",
+   "problem": "There are five stories. No census entry carries more than three today (counts: 178 with two, 30 with three). The drafter flagged it.",
+   "evidence": "census documentedStories length distribution {0:57,1:57,2:178,3:30}",
+   "fix": "The coordinator chooses. If trimming, keep Ephesus 431, Dioscorus 451 and Benjamin c. 644, which rest most directly on vendored acts and chronicles. All five check out against their texts."
+  },
+  {
+   "id": "M7",
+   "target": "D1 fact_table",
+   "field": "rows 2, 13, 17, 21, 29, 31, 33",
+   "severity": "minor",
+   "problem": "Fact-table support is weak in a few places, though the public prose is not wrong. Row 21 (Arab conquest 640-642) is graded Documented with no source. Rows 13, 17 and 31 have no source at all. Row 29's quote ('through the partial action of') does not show 'most Egyptians heard ... a betrayal of Cyril'. Row 2's quote does not show 'fought Arius all his life'. Row 33 cites a 19th-century editor's endnote as Documented for Lycopolis.",
+   "evidence": "npnf203 6547 is an endnote; bell 1924 3190 says 'Meletius, Bishop of Lycopolis'",
+   "fix": "Cite John of Nikiu for the conquest, or grade it as a well-known fact (ruling 109). Use Bell 3190 for Lycopolis. Grade the unsourced rows as what they are."
+  },
+  {
+   "id": "M8",
+   "target": "D1 / P2 cross-draft",
+   "field": "II.1 two-way check",
+   "severity": "minor",
+   "problem": "II.1's longDescription names Cyril's quarrel with Nestorius and the deposition at Ephesus, but D1 has no link for it. The links are in P2 (cyrilline--antiochene-exegetical, both ways, concerns nestorius), so they must ship together. P2 also draws alexandria-catechetical--cyrilline-miaphysite-egyptian-christianity ('influenced', concerns athanasius-of-alexandria), while D1's flag says neither entry's text names that tie. II.1's prose as drafted does not name the school.",
+   "evidence": "P2/Draft.json links; D1 flag 'BOUNDARY with alexandria-catechetical'",
+   "fix": "Coordinator: ship P2's Nestorius links with D1. Either add a line to II.1 naming Athanasius's and Cyril's debt to Alexandria's teachers, or hold P2's catechetical link."
+  },
+  {
+   "id": "M9",
+   "target": "D1 melitian-schism",
+   "field": "voices (Arsenius)",
+   "severity": "minor",
+   "problem": "The voices line calls Arsenius 'a Melitian bishop'. Socrates says he 'had formerly been a bishop of the Melitian heresy' when he signed at Tyre. The longDescription already has it right ('A man once a Melitian bishop').",
+   "evidence": "npnf202 5215-5217",
+   "fix": "Write 'a former Melitian bishop'."
+  },
+  {
+   "id": "M10",
+   "target": "D2 luciferians",
+   "field": "relationsSummary / links (two-way)",
+   "severity": "substantial",
+   "problem": "The movement's defining relationship, its separation from the church, has no link. The prose says Lucifer's followers 'stood apart', and Lucifer 'broke off communion'. The sources show the rupture: Socrates says Lucifer 'separated himself from communion', 'a distinct sect arose', and his first adherents 'still continue separate from the church'. Augustine says they cut themselves off from unity. The only links are argued-against (Jerome, Augustine, Damasus's clergy) and in-contact (the emperors). The Melitian draft, by contrast, draws its 'broke with'.",
+   "evidence": "npnf202 10919-10925, 10932-10934; augustine de agone 1591-1593; collectio-avellana 6802-6807 (their own side refusing the name)",
+   "fix": "Draft 'imperial-juridical-christianity--luciferians--3', 'broke with' (the entry that tells the church of Damasus and the councils), graded on what the vendored texts show from each side. Or qualify the prose. The pair already has two links, so the suffix is --3."
+  },
+  {
+   "id": "M11",
+   "target": "D2 carthusians-london-charterhouse-and-exile",
+   "field": "whole entry (rulings)",
+   "severity": "substantial",
+   "problem": "Two rulings pull different ways here, and a drafter cannot settle that. Principle 3 (2026-11-09) holds a later period with no Library voice as a named gap. The era 7 entry has no own voice: no book by these monks is vendored. Morris (1872) retells Chauncy, the Clement life comes from a Louvain convent, and Bedyll speaks for the crown. The 2026-11-08 ruling 4 asked for a later Carthusian movement 'split by era as the Waldensians were', and the earlier ruling stands where they differ. The drafter flagged it honestly.",
+   "evidence": "D2 sourcing ('Thin. No book by these monks is in hand'); morris ser1 846-1660; Decision-Log 461-463; Rulings_2026-11-09 P3",
+   "fix": "Escalate to Mark before apply (one question, with options): (a) ship the era 7 entry as drafted and flagged thin; (b) hold it as a named gap until Chauncy's Historia is vendored, and fold its facts into the era 6 entry's legacy. The drafter's suggestion, (b), fits P3. Do not self-certify either way."
+  },
+  {
+   "id": "M12",
+   "target": "D2 imperial-juridical-christianity--luciferians",
+   "field": "outcome",
+   "severity": "minor",
+   "problem": "'keep these priests and the bishops they followed safe' goes past the rescript. The rescript names Gregory and Heraclida as bishops ('sacrae legis antistites') and 'other priests like them'. It does not say the petitioners followed those bishops.",
+   "evidence": "collectio-avellana 7753-7756",
+   "fix": "Write: 'The emperors told their prefect to keep the bishops Gregory and Heraclida, and priests like them, safe from attack.'"
+  },
+  {
+   "id": "M13",
+   "target": "D2 hieronymian-ascetic-literary--luciferians",
+   "field": "span",
+   "severity": "minor",
+   "problem": "The Dialogue is dated c. 379 (the note says so), but hieronymian-ascetic-literary starts c. 382.",
+   "evidence": "npnf206 31412; census hieronymian-ascetic-literary 'c. 382–420 CE'",
+   "fix": "Accept (it is Jerome's own work, three years before the entry opens), but note it in drafter_flags so the per-era pass sees it."
+  },
+  {
+   "id": "M14",
+   "target": "D2 luciferians",
+   "field": "end (c. 440)",
+   "severity": "minor",
+   "problem": "Fremantle, on the page the draft cites, says 'Luciferianism became extinct in the beginning of the following century, if not earlier.' Socrates (c. 440) says those who first joined the quarrel 'still continue separate'. The end follows Socrates, which is defensible, but the disagreement is not recorded.",
+   "evidence": "npnf206 31455-31456; npnf202 10932-10934",
+   "fix": "Keep c. 440. Add a fact-table note, or a sourcing clause, saying a modern editor puts the end earlier."
+  },
+  {
+   "id": "M15",
+   "target": "D2 luciferians",
+   "field": "legacy (Cyprian sentence)",
+   "severity": "minor",
+   "problem": "The legacy says the quarrel 'turned on a question the church had met before, in Cyprian's day: should it take back those who gave way?' The cited Jerome passage is about Cyprian against Stephen on rebaptism, not on the lapsed. The parallel is the drafter's own.",
+   "evidence": "npnf206 32834-32835",
+   "fix": "Either tie the sentence to rebaptism (which is what Jerome cites), or cite a passage on the lapsed, or mark it as an interpretation."
+  },
+  {
+   "id": "M16",
+   "target": "D2 fact_table",
+   "field": "rows 2, 7, 8, 15, 17",
+   "severity": "minor",
+   "problem": "Rows resting on Fremantle's 1893 introduction (a secondary source) are graded 'Documented'. The 362 decision is in the vendored Tomus itself.",
+   "evidence": "npnf206 31424-31454 (Fremantle intro); npnf204 Tomus ad Antiochenos, around 60168",
+   "fix": "Grade these rows as secondary, and cite the Tomus for the 362 terms. The public prose needs no change."
+  },
+  {
+   "id": "M17",
+   "target": "D3 english-unitarianism",
+   "field": "sourcing",
+   "severity": "substantial",
+   "problem": "This is an error of fact about the Library. The sourcing line says Biddle is 'named but not yet in hand'. Biddle's 1653 English Life of Socinus is vendored, and the draft's own link flag says so.",
+   "evidence": "cic/texts/przypkowski_life-of-faustus-socinus_bidle1653.txt header ('English translation by John Bidle (Biddle) ... 1653')",
+   "fix": "Write e.g. 'Biddle's English Life of Socinus (1653) is here. Toulmin's books and Nye's are named but not yet in hand.' The 1653 sentence in longDescription can then cite the vendored title page, not only Rees 1818."
+  },
+  {
+   "id": "M18",
+   "target": "D3 english-unitarianism",
+   "field": "longDescription (Nye sentence)",
+   "severity": "substantial",
+   "problem": "'Nye wrote in the same cause in the 1680s' rests on no text. No vendored file supports it, no source the census cites names him, and the only support is an internal dossier line ('Biddle, Nye (1687) and Toulmin'). The ruling asks that Nye be named inside the entry, not that his work be described as fact. He also has no first name in the prose, though the wants give 'Stephen Nye', which no repo source confirms.",
+   "evidence": "Build/worlds/_cross-world/dossiers/anti-trinitarian-currents-servetus-polish-brethr_Source_Readiness_Dossier.md:107; fact row 219 (no file)",
+   "fix": "Name him where his absence can be said plainly. In sourcing: 'Nye, named among the early English Unitarians, is not yet in the Library.' Or keep the longDescription sentence, but say in it that no text of his is here to show what he wrote. Keep the want."
+  },
+  {
+   "id": "M19",
+   "target": "D3 english-unitarianism",
+   "field": "statusWord (floor fields)",
+   "severity": "substantial",
+   "problem": "The copied floor handling claims a finding that does not exist. statusWord reads 'Floor finding recorded separately — Unitarian by its own founding sermon and writings'. In early-american-unitarians-universalists, 'recorded separately' meant its two threads were recorded apart. For a new single-thread entry it asserts a recorded floor finding, and none has been made (statusDescription: 'The question is not decided yet'). Floor findings are a governance matter. Copying lane 8, beyondFloor, the status and the glyph from the existing Unitarian thread is acceptable by precedent and decides nothing new.",
+   "evidence": "census statusWord list for Floor Question (register) entries: undecided ones read 'Creedal question — not yet resolved'; early-american-unitarians-universalists statusWord",
+   "fix": "Use 'Creedal question — not yet resolved' (the form undecided register entries carry), keep the own-voice evidence in floorNote, and list this entry for Mark among the release's floor placements."
+  },
+  {
+   "id": "M20",
+   "target": "D3 english-unitarianism",
+   "field": "floorNote",
+   "severity": "minor",
+   "problem": "'That is a clear divergence from the historic creeds ... It is recorded here as a question, not treated as fully settled' reads as a verdict followed by a disclaimer. It matches the precedent's wording, but in a one-thread entry the tension shows.",
+   "evidence": "census early-american-unitarians-universalists floorNote",
+   "fix": "State the evidence and leave the verdict open, e.g. 'By their own account they did not hold the Trinity. Whether that places them outside the floor is not yet decided.'"
+  },
+  {
+   "id": "M21",
+   "target": "D3 english-unitarianism",
+   "field": "longDescription (Priestley's tutors) and english-old-dissent--english-unitarianism note",
+   "severity": "minor",
+   "problem": "The prose has Priestley being taught by Arians ('At his Dissenting academy, he wrote, the tutors \"were likewise all Arians\"'; the link note says 'the tutors at his school were all Arians'). In the source, Priestley speaks of himself and his fellow tutors at the academy where he taught.",
+   "evidence": "priestley_memoirs 1976-1984 ('my fellow tutors ... We were likewise all Arians')",
+   "fix": "Write: 'He and his fellow tutors at the academy, he wrote, \"were likewise all Arians\".' Make the same change in the link note."
+  },
+  {
+   "id": "M22",
+   "target": "D3 english-unitarianism",
+   "field": "longDescription (west-country Baptists)",
+   "severity": "minor",
+   "problem": "'Some Baptist churches in the west of England turned Unitarian too' names a relationship with the-baptists, which has no link. The sentence rests on one 1910 editor's note (row 222, Inferential-Thin) but reads as plain fact.",
+   "evidence": "general-baptist-assembly_minutes-v2 39710-39716",
+   "fix": "Qualify it ('An editor of the General Baptist minutes, writing in 1910, notes that some Baptist churches in the west of England turned Unitarian'), or draw an Inferential-Thin link."
+  },
+  {
+   "id": "M23",
+   "target": "D3 swedish-lutherans-of-new-sweden",
+   "field": "end (1786)",
+   "severity": "minor",
+   "problem": "The span past Acrelius's own narrative (which stops in 1756) rests on the 1874 translator Reynolds alone. That is disclosed in sourcing and graded Inferential-Thin, which meets the ruling's 'flagged thin'. The teaser states '1638 to 1786' with no qualifier.",
+   "evidence": "acrelius 655-678 (Reynolds intro), 1098",
+   "fix": "Acceptable as drafted. Offer Mark the own-voice end of 1756 as the alternative, as the drafter did."
+  },
+  {
+   "id": "M24",
+   "target": "D3 new-france-mission-born-christianity",
+   "field": "informalName, longDescription paragraph 1",
+   "severity": "minor",
+   "problem": "The record opens with Membertou (Port Royal, 1610), who was baptized before the Jesuits came; the draft flags this but the text does not say so. The informalName ('The Huron and Algonquin Christians') leaves out the Acadian start. 'A French report of that year is the first page of this record' is cataloguing language in public prose. 'A hunter named Negabamat': 'hunter' is not in the cited lines.",
+   "evidence": "jesuit-relations v01 2957-2959, 3853-3855; v14 7750-7772",
+   "fix": "Add a clause saying Membertou's baptism came before the Jesuits arrived. Write 'The first report in the Jesuit Relations collection is from that year', or similar. Drop 'hunter' unless a line supports it."
+  },
+  {
+   "id": "M25",
+   "target": "D4 hutterite-brethren",
+   "field": "longDescription paragraph 2",
+   "severity": "substantial",
+   "problem": "The sentence 'Jakob Hutter led the community into its third year' is a mistranslation. The chronicle says he governed God's church 'in das dritte Jahr', that is, into a third year of his own leadership (c. 1533-1535). The English reads as the community's third year, c. 1530, which misstates the chronology.",
+   "evidence": "hutterite-brethren_geschicht-buch-deu_wolkan1923.txt 10684 ('Er hat die Gemein Gottes in das dritte Jahr geregiert')",
+   "fix": "Write: 'Jakob Hutter led the community for more than two years.'"
+  },
+  {
+   "id": "M26",
+   "target": "D4 mennonites-and-amish-after-1650",
+   "field": "fact_table rows 46, 54, 55, 60, 61, 76; legacy",
+   "severity": "minor",
+   "problem": "The 1742 and 1745 letters, the 1748 edition and the Skippack ministers come from a modern Herald Press publisher's preface (c. 1998), yet the rows grade them Documented as primary. The legacy quotes that in-copyright preface, and the file is labelled public domain although its front matter is not (the drafter's rights flag).",
+   "evidence": "van-braght_martyrs-mirror_sohm1886.txt 103-124 ('Copyright © 1938 ... thirty-third printing, 2012')",
+   "fix": "Grade these rows as secondary. Paraphrase rather than quote the modern preface in legacy. Log the rights question for the Library thread in Open-Gaps."
+  },
+  {
+   "id": "M27",
+   "target": "D4 mennonites-and-amish-after-1650",
+   "field": "livingEvidence.descentConfidence",
+   "severity": "minor",
+   "problem": "One grade, Documented, covers a joint entry whose Amish line rests on one 1890 mention. The basis says so, but the grade reads as covering both lines.",
+   "evidence": "dordrecht-confession_ministers-manual 2409-2411",
+   "fix": "Keep Documented for the Mennonite line, and add to the basis that the Amish descent is shown only by that mention, pending the source pass. Or grade the entry Widely Accepted until the Amish texts arrive."
+  }
+ ],
+ "checked": "Mechanical: check_draft.py on all four drafts, from the repo root: no READ-FAIL, QUOTE-MISS or QUOTE-FILE lines. A script also confirmed that every link end exists, every link ID matches from--to, the two symmetric types are in alphabetical order, every new ID is unused (movements and retiredMovements), every shortName is 20 characters or fewer, and every modernCountries ID set already appears in the census. The validator's retiredLinks rule (validate-census.mjs:241) was read against the D1 retirement (M1). Links: all 33 were checked by hand, covering type against the six definitions, grade, the outcome test (step 4b) and the movement spans on both ends. For each one I opened the cited lines for the deciding quotes. Dates: every date in every entry's dates/start/end, and every year in the prose and link notes, was checked against its source lines. These include Athanasius 328 (Bell 3261), Cyril 412, Ephesus 431, Chalcedon and 13 Oct 451, 457, 518, Benjamin's return, Melitius c. 306 (Bell 3205), Nicaea 325, Tyre 335 (Bell 3343; see M3), papyri 330-340 and 334/335, 512, Damian 569-605, and 744-768 (M4). Also checked were Lucifer's exile 355-361 and death in 371, the 362 council, the 379 Dialogue, the 383/384 petition, Socrates c. 440 (M14), Hilton d. 1395, the 1410 Mirror, Grenehalgh 1499, Tregoose 1514, 29 Apr and 4 May 1535, 19 June 1535, 18 and 29 May 1537, 10 June 1537, 15 Nov 1539, 4 Nov 1541, 1550, 2 July 1581, and 1611. For D3: 24 June 1610, Sillery 1637-38, 1640, 1650, 1638, 1655, 1677, 1691, 1693, 1697, 1699, 1700, 1744, 1749-1756, 1753, 1696-1786 (M23), 17 Apr 1774, 14 July 1791, 8 Apr 1794, 1786 (Freeman), 1810, 1812 and 1813. For D4: 1528, 1535, early 1536, Oct 1622, 1665, 1757, 1784, 1785, 1852, 1874, 1923, 1632, 1659/1660, 1742/1745/1748, 1837, 1886, 1890, 15 Dec 1815, 28 June 1816, 1831, 1833, 1835, 1843-1848, 7 Jan 1848, 1849, Aug 1855, 1858, 1859, Feb 1898, 27 June 1902 and 22 June 1903 (Charon 36869-36871 is Cyril VIII's own entry, so it is correct). Fact tables: I sampled them. All 67 D1 rows were read, with source lines opened for about 30 (Socrates, Athanasius, anf06 Peter and the four bishops, Bell, the History of the Patriarchs, Evagrius, Zachariah). All 92 D2 rows were read, with about 30 opened (Fremantle and the Dialogue, the Tomus, Socrates III.9, Morris, Underhill, McCann). Of D3's 244 rows, every English Unitarianism and New Sweden row was read and about 25 opened (Priestley's Memoirs, the Lindsey sermon, Rees, Whitley, the Belsham header, Acrelius and the Reynolds intro). For New France, every row was read and Relations vols. 1, 14, 18 and 20 were opened at the cited lines. Of D4's 147 rows, every row was read and about 20 opened (Wolkan, Beck, the van Braght preface, Mansi 46, Charon). The documentedStories were read against their quotes: all five on II.1 (the Hypatia, Ephesus, Proterius and Benjamin texts opened in full context), Callistus, and Margaret Clement (Morris). The points the brief asked about: (1) II.1's Contested tag on the Athanasius/Cyril inheritance is carried in the prose (longDescription paragraph 5, why, legacy) with both sides named and sourced: Chalcedon's acceptance of Cyril's synodical letters (npnf214 20259) and the Coptic claim for Dioscorus (HP 35108-35109). This meets ruling 1 in substance. No census field exists for a contested claim on an entry, and I agree with the drafter that descentConfidence grades a different claim, so I raise no finding. (2) The five stories are accurate to their texts (M6 is about their number only). (3) Retiring the desert-monks 'gave rise to' link is right, but it breaks the older redirect (M1), and the rewritten link has a type and span question (M5). (4) On end dates resting on one later editor: Melitians 768 (M4), New Sweden 1786 (M23), English Unitarianism 1813 (on the 1910 Whitley note). The 1813 Act is a well-known statute and the draft grades it Inferential-Thin, which is cautious, so no finding. (5) Nye: M18. (6) English Unitarian floor fields: the lane and status copy is acceptable by precedent; the statusWord is not (M19, M20). Rulings: II.1 starts in 328 and keeps its ID and era (ruling 2). The Melitians, the Luciferians, New France ending 1650 by the Relations with converts heard through the missionaries, New Sweden flagged thin on Acrelius, English Unitarianism with Biddle, Nye and Toulmin named inside, Hutterites spanned from their chronicles, Mennonites/Amish with a sourcing note on later printings, and Melkites after 1815 as a successor all follow their rulings. The exceptions are the Carthusian era 7 tension (M11) and the Nye sourcing (M18). Readability: every paragraph passes the helper. I read all public prose for clarity and voice; it is plain, concrete and in register, with no AI tells. The few cataloguing phrases are in M24. Out of scope, not reviewed: the person entries and people rows (P1-P3, R*), and the Library shelf moves."
+}

@@ -1,0 +1,25 @@
+source_file: christian-east_v1-no1-march-1920.txt
+assignments:
+- row_id: christian-east_v1-no1-march-1920--whole
+  work: 'The Christian East, volume I, number 1 (March, 1920)'
+  author: christian-east
+  locus: 'whole'
+  atlas_ids:
+  - the-anglican-communion-twentieth-century
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1920, end: 1920, source: "masthead: 'March, 1920'", formation_confidence: Documented}
+  note: 'One number of the quarterly, by many writers. The Eastern documents it prints are in the journal''s English unless a row says otherwise.'
+- row_id: christian-east_v1-no1-march-1920--patriarch-tikhon-reply-to-the-archbishop-of-canterbury-1918
+  work: 'Patriarch Tikhon, reply to the Archbishop of Canterbury (1918), in The Christian East'
+  author: christian-east
+  locus: 'OCR lines 523-613; add 12 to OCR line numbers'
+  atlas_ids:
+  - the-russian-orthodox-church-council-patriarchate-and-reunion
+  - the-russian-new-martyrs-and-the-catacomb-church
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1918, end: 1918, source: "the letter is dated January 12/25, 1918 (OCR line 610)", formation_confidence: Documented}
+  note: 'His own letter. Bell''s article says he sent it ''in English, written with his own hand'' (OCR lines 518-521).'

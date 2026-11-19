@@ -1,0 +1,13 @@
+source_file: international-review-of-missions_v10_1921.txt
+assignments:
+- row_id: international-review-of-missions_v10_1921--whole
+  work: 'The International Review of Missions, Volume the Tenth (1921)'
+  author: international-review-of-missions
+  locus: 'whole'
+  atlas_ids:
+  - the-ecumenical-movement-and-the-wcc
+  role: tradition
+  confidence: assigned
+  language: eng
+  date: {start: 1921, end: 1921, source: "title leaf: '1921'", formation_confidence: Documented}
+  note: 'A missionary quarterly edited by J. H. Oldham; each article is its writer''s own.'

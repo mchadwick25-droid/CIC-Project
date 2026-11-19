@@ -1,0 +1,11 @@
+source_file: hefele_history-of-the-councils-v5-626-787_clark1896.txt
+assignments:
+- row_id: hefele_history-of-the-councils-v5-626-787_clark1896--hefele-a-history-of-the-councils-of-the-church-vol-5-626-787
+  work: 'Hefele, A History of the Councils of the Church, vol. 5 (626-787), English, 1896'
+  author: hefele
+  locus: 'whole volume; add 12 to OCR line numbers'
+  atlas_ids:
+  - byzantine-imperial-church-heraclian-iconoclast
+  role: context
+  confidence: provisional
+  note: 'A nineteenth-century Catholic historian''s account of the councils from the documents. A modern study, not a witness.'

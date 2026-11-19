@@ -1,0 +1,181 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "rzg.gravity.sovereignty-of-god-predestination-election",
+    "rzg.term.predestination-election"
+   ],
+   "sentence": "To us God is the one whose free choice, made before the world existed, decides who is saved, and not anything foreseen or earned in the one chosen."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "sentence": "We hold that choice as the ground of a settled life, not as a threat."
+  },
+  {
+   "record_ids": [
+    "rzg.term.providence"
+   ],
+   "sentence": "God is also not a distant first cause who set the world going and stepped back."
+  },
+  {
+   "record_ids": [
+    "rzg.term.providence"
+   ],
+   "sentence": "His care over everything he made is continuous and active."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "sentence": "Whoever is joined to Christ by true faith has, in that faith itself, the only evidence of election anyone is given."
+  },
+  {
+   "record_ids": [
+    "rzg.term.the-lords-supper-spiritual-presence"
+   ],
+   "sentence": "At the Supper, Christ is truly given by the Spirit to whoever receives him believing."
+  },
+  {
+   "record_ids": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "sentence": "What we know of him we take from the text, which we hold enough on its own terms."
+  },
+  {
+   "record_ids": [
+    "rzg.term.predestination-election"
+   ],
+   "sentence": "Both cities held election, Geneva as a full system and Zurich more briefly, as pastoral comfort."
+  },
+  {
+   "record_ids": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "sentence": "Its fullest later form rests mostly on Calvin and Beza."
+  }
+ ],
+ "citations": [
+  "rzg.gravity.sovereignty-of-god-predestination-election",
+  "rzg.term.predestination-election",
+  "rzg.term.providence",
+  "rzg.term.the-lords-supper-spiritual-presence",
+  "rzg.witness.what-we-have-of-christ"
+ ],
+ "group": "A",
+ "id": "q006",
+ "net_sentences": [
+  {
+   "draft": "To us God is the one whose free choice, made before the world existed, decides who is saved, and not anything foreseen or earned in the one chosen [[rzg.gravity.sovereignty-of-god-predestination-election]] [[rzg.term.predestination-election]] [[as:paraphrase]].",
+   "sentence": "To us God is the one whose free choice, made before the world existed, decides who is saved, and not anything foreseen or earned in the one chosen.",
+   "tags": [
+    "rzg.gravity.sovereignty-of-god-predestination-election",
+    "rzg.term.predestination-election"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We hold that choice as the ground of a settled life, not as a threat [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]].",
+   "sentence": "We hold that choice as the ground of a settled life, not as a threat.",
+   "tags": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "God is also not a distant first cause who set the world going and stepped back [[rzg.term.providence]] [[as:paraphrase]].",
+   "sentence": "God is also not a distant first cause who set the world going and stepped back.",
+   "tags": [
+    "rzg.term.providence"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "His care over everything he made is continuous and active [[rzg.term.providence]] [[as:paraphrase]].",
+   "sentence": "His care over everything he made is continuous and active.",
+   "tags": [
+    "rzg.term.providence"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Whoever is joined to Christ by true faith has, in that faith itself, the only evidence of election anyone is given [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]].",
+   "sentence": "Whoever is joined to Christ by true faith has, in that faith itself, the only evidence of election anyone is given.",
+   "tags": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "At the Supper, Christ is truly given by the Spirit to whoever receives him believing [[rzg.term.the-lords-supper-spiritual-presence]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "At the Supper, Christ is truly given by the Spirit to whoever receives him believing.",
+   "tags": [
+    "rzg.term.the-lords-supper-spiritual-presence"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "What we know of him we take from the text, which we hold enough on its own terms [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]].",
+   "sentence": "What we know of him we take from the text, which we hold enough on its own terms.",
+   "tags": [
+    "rzg.witness.what-we-have-of-christ"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Both cities held election, Geneva as a full system and Zurich more briefly, as pastoral comfort [[rzg.term.predestination-election]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Both cities held election, Geneva as a full system and Zurich more briefly, as pastoral comfort.",
+   "tags": [
+    "rzg.term.predestination-election"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Its fullest later form rests mostly on Calvin and Beza [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]].",
+   "ratio": 0.86,
+   "sentence": "Its fullest later form rests mostly on Calvin and Beza.",
+   "tags": [
+    "rzg.gravity.sovereignty-of-god-predestination-election"
+   ],
+   "verdict": "ok",
+   "why": "grounded 86% in own tagged records"
+  }
+ ],
+ "offered": [
+  "rzg.limit.dentiere-and-womens-voice",
+  "rzg.witness.a-narrow-true-church",
+  "rzg.witness.what-we-have-of-christ",
+  "rzg.term.predestination-election",
+  "rzg.story.first-zurich-disputation",
+  "rzg.quote.taught-better-from-scripture",
+  "rzg.gravity.sovereignty-of-god-predestination-election",
+  "rzg.witness.one-supper-two-poles",
+  "rzg.term.the-lords-supper-spiritual-presence",
+  "rzg.quote.mass-not-a-sacrifice",
+  "rzg.quote.signs-and-things-signified",
+  "rzg.gravity.zwinglis-remembrance-reading-vs-negotiated-consensus"
+ ],
+ "raw_text": "To us God is the one whose free choice, made before the world existed, decides who is saved, and not anything foreseen or earned in the one chosen [[rzg.gravity.sovereignty-of-god-predestination-election]] [[rzg.term.predestination-election]] [[as:paraphrase]]. We hold that choice as the ground of a settled life, not as a threat [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]]. God is also not a distant first cause who set the world going and stepped back [[rzg.term.providence]] [[as:paraphrase]]. His care over everything he made is continuous and active [[rzg.term.providence]] [[as:paraphrase]]. Whoever is joined to Christ by true faith has, in that faith itself, the only evidence of election anyone is given [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]]. At the Supper, Christ is truly given by the Spirit to whoever receives him believing [[rzg.term.the-lords-supper-spiritual-presence]] [[as:paraphrase]]. What we know of him we take from the text, which we hold enough on its own terms [[rzg.witness.what-we-have-of-christ]] [[as:paraphrase]]. Both cities held election, Geneva as a full system and Zurich more briefly, as pastoral comfort [[rzg.term.predestination-election]] [[as:paraphrase]]. Its fullest later form rests mostly on Calvin and Beza [[rzg.gravity.sovereignty-of-god-predestination-election]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C2.S2",
+ "text": "To us God is the one whose free choice, made before the world existed, decides who is saved, and not anything foreseen or earned in the one chosen. We hold that choice as the ground of a settled life, not as a threat. God is also not a distant first cause who set the world going and stepped back. His care over everything he made is continuous and active. Whoever is joined to Christ by true faith has, in that faith itself, the only evidence of election anyone is given. At the Supper, Christ is truly given by the Spirit to whoever receives him believing. What we know of him we take from the text, which we hold enough on its own terms. Both cities held election, Geneva as a full system and Zurich more briefly, as pastoral comfort. Its fullest later form rests mostly on Calvin and Beza.",
+ "voice_set_aside": false
+}

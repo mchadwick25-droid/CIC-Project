@@ -18,8 +18,7 @@ confidence:
     itself held (Conf. XIII).
 sources:
 - source_id: gallic.source.augustine-on-predestination
-  locus: "ch. 2 (npnf105 div xxi.ii.ii, file line 20836): Augustine's own description of the
-    Massilian brethren's state on the question of predestination"
+  locus: "ch. 2 (cic/texts/npnf105_augustine-anti-pelagian-writings.xml, line 20836; div xxi.ii.ii): Augustine's own description of the Massilian brethren's state on the question of predestination"
   license: public-domain
 retrieval:
   tier: 3

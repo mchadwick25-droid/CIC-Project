@@ -2109,7 +2109,7 @@ ROWS: list[dict] = [
                    "life the way Cyprian's and Augustine's own corpora are.",
         body="Named for completeness and for the corpus-map placement question Doc_01 SS8 item 2 "
              "hands to Doc_02 -- left standing rather than re-homed, since re-homing a census entry "
-             "is outside this build thread's own editing authority (Doc_02 SS1, SS9 item 11).",
+             "is outside a world build's own editing authority (Doc_02 SS1, SS9 item 11).",
     ),
     dict(
         row=99, slug="delehaye-passions-des-martyrs-genres-litteraires-standing-reference",
@@ -4189,7 +4189,7 @@ THINNESS = (
     "\n"
     "Material evidence here is unexcavated, not empty. Site reports and inscription collections for this region exist, but none has yet been read for what it shows of this world's worship. It also has no distinctive "
     "inscription tied to its worship, of the kind the Donatist world can point to. But real "
-    "material evidence does exist, carried in a text. A pastoral letter describes an apse, a "
+    "material evidence does exist, carried in a text. One letter of Augustine's, Letter CXXVI to Albina (411), describes an apse, a "
     "raised seating area for clergy, steps, and a floor for the congregation. That evidence comes "
     "from a letter, not a trench.\n"
     "\n"
@@ -4352,7 +4352,7 @@ THIN_TOPICS = [
                      "material remains", "the physical setting of worship"],
         "note": "No site report, inscription catalogue, or excavation record has been independently "
                 "verified in this build. Real material evidence exists, but it is document-borne, "
-                "recovered from a pastoral letter describing a basilica's own apse and steps, not "
+                "recovered from Augustine's Letter CXXVI to Albina (411), describing a basilica's own apse and steps, not "
                 "from a trench -- unexcavated, not empty.",
     },
     {

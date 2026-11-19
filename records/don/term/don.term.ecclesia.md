@@ -55,7 +55,7 @@ relations:
   target: don.term.rebaptism
 plain_meaning: There was no neutral word for the church here. The word itself was the argument. Two whole
   rival bodies claimed it, town by town, bishop for bishop. We held that we were the true one, and that
-  our rival's favour with the state settled nothing.
+  our rival's favor with the state settled nothing.
 world_word: ecclesia
 false_friend:
 - a breakaway sect measured against a 'real' or mainstream church that obviously counts more
@@ -73,7 +73,7 @@ senses:
     SS3 also records that this term carries no gravity-test finding of its own; its Tier-1 standing is a lexicon
     judgment, corroborated at Doc_04 SS7, not a gravity result.'
   personal: For substantial regions and periods this communion was the largest church in Africa. So 'sect'
-    and 'schism' landed backward from inside. On our terms, the rival the state favoured was the one that
+    and 'schism' landed backward from inside. On our terms, the rival the state favored was the one that
     had departed. To say 'the church' at all, in one's own city, was already a contested act.
   translational: '''Surely the bigger, established church was the real one?'' -- that is the one move this claim
     refuses. Numerical size, imperial recognition and possession of the word ''catholic'' are three things; being
@@ -82,7 +82,7 @@ senses:
 quick_meaning: The church -- the one word two whole rival hierarchies both claim, town by town.
 distortion_risk: high
 use_note:
-  means: "Two rival bodies claimed the word church town by town, so the word was itself the argument; Donatists held the rival's state favour settled nothing."
+  means: "Two rival bodies claimed the word church town by town, so the word was itself the argument; Donatists held the rival's state favor settled nothing."
   not_for:
     - "a claim that the Donatists were a breakaway sect measured against a real mainstream church"
     - "a claim that the two churches were denominations that could agree to differ and coexist"

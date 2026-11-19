@@ -16,8 +16,7 @@ confidence:
     Documented as the canon's own text in the standard English of the NPNF conciliar volume. What a canon says and what it was later taken to mean are different questions, and this one was argued over for centuries - the note apparatus in the vendored edition is longer than the canon.
 sources:
 - source_id: ijc.source.canons-nicaea
-  locus: >-
-    Council of Nicaea, Canon VI (npnf214_seven-ecumenical-councils.xml)
+  locus: "Council of Nicaea, Canon VI (cic/texts/npnf214_seven-ecumenical-councils.xml, lines 3405-3409)"
   license: public-domain
 text: >-
   Let the ancient customs in Egypt, Libya and Pentapolis prevail, that the Bishop of Alexandria have jurisdiction in all these, since the like is customary for the Bishop of Rome also. Likewise in Antioch and the other provinces, let the Churches retain their privileges.

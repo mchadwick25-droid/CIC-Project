@@ -16,6 +16,20 @@ works:
 
     '
   source_file: chamich_history-of-armenia-v2_avdall1827.txt
+- row_id: matthew-of-edessa_chronique-with-gregory-the-priest-fra_dulaurier1858--matthew-of-edessa-chronicle-on-the-bagratid-years
+  work: 'Matthew of Edessa, Chronicle: the years from 962 (Dulaurier 1858)'
+  author: matthew-of-edessa
+  locus: the whole chronicle; not mapped
+  role: context
+  confidence: assigned
+  language: fra
+  date:
+    formation_confidence: unknown
+    checked: the title page gives the years the chronicle covers (962-1136), not the years
+      of writing; Dulaurier's preface speaks of him as an Armenian monk of the twelfth century
+      (file line 853) and gives no year of writing
+  note: A later Armenian chronicle whose first part covers the Bagratid years.
+  source_file: matthew-of-edessa_chronique-with-gregory-the-priest-fra_dulaurier1858.txt
 - row_id: ormanian_church-of-armenia_gregory1912--church-of-armenia-4
   work: 'The Church of Armenia (Ormanian; Gregory''s English translation, 1912): chapter XI,
     the patriarchs'' wanderings and the Paulicians'
@@ -40,3 +54,19 @@ works:
 
     '
   source_file: zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt
+- row_id: stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917--stepanos-of-taron-histoire-universelle-book-iii-tr-macler
+  work: Stepanos of Taron, Histoire universelle, book III, tr. Macler (1917)
+  author: stepanos-taron
+  locus: the whole text; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: Book III of the same history in French.
+  source_file: stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt
+- row_id: stepanos-taron_armenische-geschichte-deu_gelzer-burckhardt1907--stepanos-of-taron-universal-history-tr-gelzer-and-burckhardt
+  work: Stepanos of Taron, Universal History, tr. Gelzer and Burckhardt (1907)
+  author: stepanos-taron
+  locus: the whole text; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: Stepanos's history, written about 1000 (era 4 audit), inside this window.
+  source_file: stepanos-taron_armenische-geschichte-deu_gelzer-burckhardt1907.txt

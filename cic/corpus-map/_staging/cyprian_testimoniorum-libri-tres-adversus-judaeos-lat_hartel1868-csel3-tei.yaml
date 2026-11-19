@@ -11,6 +11,9 @@ assignments:
       - latin-pastoral-congregational-christianity
     role: tradition
     confidence: assigned
+    locus_ids: [whole-file]
+    language: lat
+    date: {start: 246, end: 248, source: "anf05_hippolytus-cyprian-caius-novatian.xml div2 4.2 Introductory Notice to Cyprian: written before he became bishop (248), after the baptism of 246 that the same notice dates; start is that baptism", formation_confidence: Inferential-Thin}
     note: >
       Latin original of the work the English twin row(s) in
       anf05_hippolytus-cyprian-caius-novatian.xml hold: Cyprian's three books of scripture
@@ -23,4 +26,6 @@ assignments:
       carries the manuscript sigla and the variant readings in place on the printed page; this file
       keeps the footnotes only as unaligned note text. CC BY-SA 4.0, so attribution and share-alike
       travel with any quotation. Mirrors the English twin's roles and confidence exactly.
+    translator: {name: "none (Latin edition); editor: Wilhelm von Hartel (CSEL 3, Pars I)", source: "cyprian_testimoniorum-libri-tres-adversus-judaeos-lat_hartel1868-csel3-tei.txt line 2: Wilhelm von Hartel (editor of the printed edition, CSEL 3)", formation_confidence: Documented}
+    edition_date: {year: 1868, source: "cyprian_testimoniorum-libri-tres-adversus-judaeos-lat_hartel1868-csel3-tei.txt line 4: Publication Date: 1868 (printed edition); 2014 (TEI)", formation_confidence: Documented}
 

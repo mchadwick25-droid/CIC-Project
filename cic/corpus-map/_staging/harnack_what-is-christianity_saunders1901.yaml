@@ -1,0 +1,25 @@
+source_file: harnack_what-is-christianity_saunders1901.txt
+assignments:
+- row_id: harnack_what-is-christianity_saunders1901--what-is-christianity-sixteen-lectures-delivered-in-the
+  work: What Is Christianity? Sixteen lectures delivered in the University of Berlin during the winter-term
+  author: harnack
+  locus: the whole volume; not mapped
+  atlas_ids:
+  - the-mainline-century-liberal-and-neo-orthodox
+  role: tradition
+  confidence: provisional
+  language: eng
+  date:
+    start: 1901
+    end: 1901
+    source: 'the printing''s own title page: OCR line 70, on the title page, which reads ''I9Ol'''
+    formation_confidence: Documented
+  translator:
+    name: Thomas Bailey Saunders
+    source: the title page
+    formation_confidence: Documented
+  edition_date:
+    year: 1901
+    source: OCR line 70, on the title page, which reads 'I9Ol'
+    formation_confidence: Documented
+  note: 'Era 9 row 221, Adolf von Harnack: What Is Christianity?, in English.'

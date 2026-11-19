@@ -50,7 +50,7 @@ description: >-
   the province was cold.
 
   Cooling was the named failure of the interior road, the south's program of purity of heart. It was
-  also the shape of that program's inner story: fervour, then cooling. The received standard could
+  also the shape of that program's inner story: fervor, then cooling. The received standard could
   not be kept, so it bred this fear. The fear kept the program severe: a community that fears
   cooling keeps stripping and re-clothing. The vocabulary is southern.
 manifestations:

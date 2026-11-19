@@ -1,0 +1,531 @@
+[
+ {
+  "id": "q006",
+  "tier1": [],
+  "tier2": [],
+  "tier3": [
+   "Stock abstention line gives the participant nothing on a core question the records partly cover."
+  ],
+  "depth": "flat",
+  "addresses_question": "no",
+  "ecology": "ok",
+  "abstention": true,
+  "false_silence": true,
+  "placed_material_fit": "none placed",
+  "note": "lpc.witness.the-only-son-and-the-trinity (one God in three, Jesus the only Son, confessed in the creed), lpc.witness.punishment-without-end, lpc.witness.violence-commanded-not-cruel (God acts in righteous retribution, not cruelty) and lpc.witness.heard-for-salvation-not-for-wish (grace sufficient) together give a real partial answer on God as this world confessed him.",
+  "register": "n/a (stock line)"
+ },
+ {
+  "id": "q009",
+  "tier1": [],
+  "tier2": [],
+  "tier3": [
+   "'Cyprian's formula stands at length in the preface to the council of 256' never says what the formula is (no bishop sets himself up as a bishop of bishops), so the sentence is opaque to a listener.",
+   "'The lack of any sign among ordinary clergy is a limit of the search so far, not a proven absence' and 'among our sources' are build-process phrasing spoken in the voice.",
+   "Answers only through the conciliar-authority gravity and the Pelagius contest; does not give the wider picture a modern-scrutiny question invites (e.g. Pontius writing in praise, the silent century, bishop-only voices)."
+  ],
+  "depth": "adequate",
+  "addresses_question": "partly",
+  "ecology": "ok",
+  "abstention": false,
+  "false_silence": null,
+  "placed_material_fit": "No quote placed; content tracks lpc.gravity.conciliar-authority-theory and lpc.contested.grace-pelagius-characterization closely.",
+  "note": "All claims traced to the conciliar-authority gravity description and the grace-Pelagius contested record. No false claims.",
+  "register": "Reads largely like a report on evidence grades about what authors wrote, not a community speaking."
+ },
+ {
+  "id": "q011",
+  "tier1": [],
+  "tier2": [],
+  "tier3": [
+   "Does not answer what a modern reader is missing; it relays Augustine's own early trouble with Old Testament violence and the Genesis days, but never names what the reader should look for.",
+   "Last sentence ('named the difficulty honestly rather than explaining it away') states the difficulty was named without saying what it is or what he concluded; opaque.",
+   "Repeated 'Augustine ... Augustine wrote' subject repetition reads mechanically."
+  ],
+  "depth": "adequate",
+  "addresses_question": "partly",
+  "ecology": "ok",
+  "abstention": false,
+  "false_silence": null,
+  "placed_material_fit": "No quote placed; draws on lpc.witness.violence-commanded-not-cruel and lpc.witness.days-before-the-sun, both reproduced faithfully.",
+  "note": "Every factual sentence is in the violence and days-before-the-sun witness records (Reply to Faustus XXII, Confessions III.vii.12, City of God XI.7).",
+  "register": "Mostly third-person report about Augustine with one community sentence (We held that...)."
+ },
+ {
+  "id": "q012",
+  "tier1": [],
+  "tier2": [],
+  "tier3": [
+   "'We hold both as real' has no clear referent: after scripture/bishops the 'both' silently switches to the confessor claim and the church's process.",
+   "The placed Augustine passage repeats almost every point the paraphrase already made in the opening sentences; heavy redundancy and length.",
+   "Confessor paragraph is a second topic attached without a bridge to the question of authority sources."
+  ],
+  "depth": "rich",
+  "addresses_question": "yes",
+  "ecology": "ok",
+  "abstention": false,
+  "false_silence": null,
+  "placed_material_fit": "lpc.quote.earlier-councils-corrected-by-later placed verbatim from its modern_rendering; it fits the question directly but duplicates the paraphrase above it.",
+  "note": "Traces to lpc.witness.scripture-above-councils, lpc.term.confessor (rival a bishop) and lpc.witness.confessor-claim-vs-regulated-peace. No false claims.",
+  "register": "Community voice (\"our bishops\", \"we hold\") for most of it; reads plainly."
+ },
+ {
+  "id": "q015",
+  "tier1": [],
+  "tier2": [
+   "Reframes 'how did your community respond when it failed someone' as how it treated members who failed; the records do not speak to the church failing a person, and the answer does not say so."
+  ],
+  "tier3": [
+   "Honoratus letter (ministers staying in danger) and the Lord's-Prayer forgiveness standard are attached without connection to the question; reads as stacked retrievals.",
+   "Ten-plus loosely joined sentences; no single answer emerges."
+  ],
+  "depth": "adequate",
+  "addresses_question": "partly",
+  "ecology": "ok",
+  "abstention": false,
+  "false_silence": null,
+  "placed_material_fit": "No quote placed; Cyprian's shepherd-wounded line from lpc.force.decian-persecution-libelli-system used in paraphrase, apt.",
+  "note": "Facts trace to lpc.term.reconciliation-penitential-discipline, lpc.force.decian-persecution-libelli-system, lpc.force.confessors-claim-to-grant-peace, lpc.witness.the-dying-and-the-pastors-post, lpc.witness.restless-heart-and-the-unrepentant-enemy and lpc.limit.ordinary-interior-life. No false claims.",
+  "register": "Opening and close speak as a community; the middle is a list of reported holdings."
+ },
+ {
+  "id": "q019",
+  "tier1": [],
+  "tier2": [],
+  "tier3": [
+   "Restless-heart sentence omits the line itself ('our hearts are restless till they find rest in Thee'), so the one apt piece lands without its payoff.",
+   "Final sentence about the confessors' claim and the church's process is a non sequitur for a restless mind; looks like a misretrieved closing line.",
+   "Does not say what practice offers; offers a doctrine of baptismal pattern instead of practice."
+  ],
+  "depth": "thin",
+  "addresses_question": "partly",
+  "ecology": "ok",
+  "abstention": false,
+  "false_silence": null,
+  "placed_material_fit": "No quote placed. lpc.witness.restless-heart-and-the-unrepentant-enemy would have fit if its quotation had been given.",
+  "note": "All sentences trace to lpc.witness.the-pattern-we-are-modelled-on, the restless-heart witness, and lpc.witness.confessor-claim-vs-regulated-peace; the last is true but irrelevant.",
+  "register": "Partly community voice (We are buried with Christ), partly report."
+ },
+ {
+  "id": "q021",
+  "tier1": [],
+  "tier2": [],
+  "tier3": [
+   "'none has yet been read for what it shows of our worship' and 'That material is unread, not absent' are build-process phrasing spoken in the voice.",
+   "Third paragraph on factions and councils of dozens of bishops is off-point for physical evidence of a gathering place."
+  ],
+  "depth": "adequate",
+  "addresses_question": "yes",
+  "ecology": "ok",
+  "abstention": false,
+  "false_silence": null,
+  "placed_material_fit": "No quote placed; Letter 126 description checked against the vendored NPNF text (apse, seats, steps present).",
+  "note": "Traces to world_core (material evidence unread, Letter CXXVI) and lpc.force.organized-carthaginian-church. No false claims.",
+  "register": "Community voice, but the archive-status sentences sound like a build report."
+ },
+ {
+  "id": "q028",
+  "tier1": [],
+  "tier2": [],
+  "tier3": [
+   "'Cyprian wrote to Demetrianus ... of what awaits those who will not believe' withholds what awaits (endless fire, per the record), leaving the key content vague.",
+   "Does not note the record's own limit that these passages say nothing of people who never heard of Christ, nor that Augustine's view is not given here."
+  ],
+  "depth": "adequate",
+  "addresses_question": "yes",
+  "ecology": "ok",
+  "abstention": false,
+  "false_silence": null,
+  "placed_material_fit": "No quote placed; De Unitate phrases and the ark picture reproduced faithfully from lpc.witness.no-salvation-outside-the-church.",
+  "note": "Traces to lpc.witness.no-salvation-outside-the-church and lpc.term.schism. No false claims.",
+  "register": "Report-like ('Cyprian taught', 'Cyprian wrote') with an 'Among us' frame; reads as about an author more than a community."
+ },
+ {
+  "id": "q102",
+  "tier1": [],
+  "tier2": [
+   "The question is about personal self-defence; the record (lpc.witness.violence-commanded-not-cruel) speaks only of turning the other cheek and God-commanded wars. Offered as the answer, it implies Augustine permitted self-defence, which the record does not state."
+  ],
+  "tier3": [
+   "Two sentences; never answers yes or no or says the record does not speak to personal self-defence."
+  ],
+  "depth": "thin",
+  "addresses_question": "partly",
+  "ecology": "ok",
+  "abstention": false,
+  "false_silence": null,
+  "placed_material_fit": "No quote placed; drawn from the last two sentences of the violence witness.",
+  "note": "Wording faithful to the record; the fault is fit, not fabrication.",
+  "register": "Community framing ('What we hold') but abstract."
+ },
+ {
+  "id": "q105",
+  "tier1": [],
+  "tier2": [],
+  "tier3": [
+   "Stock abstention line on a question the records answer."
+  ],
+  "depth": "flat",
+  "addresses_question": "no",
+  "ecology": "ok",
+  "abstention": true,
+  "false_silence": true,
+  "placed_material_fit": "none placed",
+  "note": "lpc.witness.almsgiving-quenches-sin (Cyprian's treatise on almsgiving, the rich matron), lpc.story.the-plague-and-the-enemies, lpc.story.hundred-thousand-sesterces and lpc.quote.not-to-purchase-impunity give examples of the church's care and giving; widows specifically are not in the non-source records.",
+  "register": "n/a (stock line)"
+ },
+ {
+  "id": "q030",
+  "tier1": [],
+  "tier2": [
+   "World-boundary not stated: Gregory of Nyssa is outside this world, and the answer silently substitutes Augustine's view without saying it cannot speak for Gregory."
+  ],
+  "tier3": [
+   "Never names or acknowledges Gregory or restoration of all things; the participant may take Augustine's doubters as Gregory's view."
+  ],
+  "depth": "thin",
+  "addresses_question": "partly",
+  "ecology": "Out-of-world figure handled by silent substitution rather than a stated boundary.",
+  "abstention": false,
+  "false_silence": null,
+  "placed_material_fit": "No quote placed; content faithful to lpc.witness.punishment-without-end.",
+  "note": "Claims trace to City of God XXI as summarized in the punishment-without-end witness. No false claims.",
+  "register": "Report about what Augustine said; no community voice."
+ },
+ {
+  "id": "q034",
+  "tier1": [],
+  "tier2": [
+   "World-boundary not stated: Athanasius is outside this world and the answer does not say so."
+  ],
+  "tier3": [
+   "Does not answer the question at all; returns a description of this world's source base (world_core thinness section) instead.",
+   "'Both bishops speak ... and not as quotations in an opponent's book' is meaningless to a listener without the Donatist comparison it was written against.",
+   "Retrieval miss: no own-words passage is offered."
+  ],
+  "depth": "thin",
+  "addresses_question": "no",
+  "ecology": "Out-of-world author not named as such.",
+  "abstention": false,
+  "false_silence": null,
+  "placed_material_fit": "None placed.",
+  "note": "Content is a near-verbatim lift of world_core's thinness paragraph; accurate but off-point.",
+  "register": "Reads like a source-base report, not a community speaking."
+ },
+ {
+  "id": "q042",
+  "tier1": [],
+  "tier2": [],
+  "tier3": [
+   "Asked for a line to read; gives none. lpc.quote.let-your-creed-be-a-mirror (\"Let your Creed be like a mirror to you\") exists and fits: retrieval miss.",
+   "Second paragraph ('The works written for those preparing for baptism are about forming believers...') is abstract filler."
+  ],
+  "depth": "thin",
+  "addresses_question": "partly",
+  "ecology": "ok",
+  "abstention": false,
+  "false_silence": null,
+  "placed_material_fit": "None placed, though a fitting quote exists.",
+  "note": "Claims trace to lpc.term.catechesis, lpc.term.preaching and lpc.gravity.preaching-and-catechesis. No false claims.",
+  "register": "First paragraph is a community speaking plainly; second reads like a report."
+ },
+ {
+  "id": "q043",
+  "tier1": [],
+  "tier2": [],
+  "tier3": [
+   "Duplicated scaffold: 'Two early texts tell the death of our great bishop Cyprian:' followed immediately by 'Two early texts tell how our great bishop Cyprian was put to death...' reads as a stitched template.",
+   "The crowd cry is given three times (summary, quote, story)."
+  ],
+  "depth": "rich",
+  "addresses_question": "yes",
+  "ecology": "ok",
+  "abstention": false,
+  "false_silence": null,
+  "placed_material_fit": "lpc.quote.let-us-too-be-beheaded-with-him placed verbatim and answers the question exactly; the telling_short of lpc.story.the-death-of-cyprian follows, faithful including the cloth divergence.",
+  "note": "Checked against the death story (Pontius vs Acta on the cloths, absent spectator account). No false claims.",
+  "register": "Community voice (\"our great bishop\", \"his people\") with a plain story."
+ },
+ {
+  "id": "q048",
+  "tier1": [],
+  "tier2": [],
+  "tier3": [
+   "Opening two paragraphs and the placed quote overlap; some repetition (answers for them / asked what became of them)."
+  ],
+  "depth": "rich",
+  "addresses_question": "yes",
+  "ecology": "ok",
+  "abstention": false,
+  "false_silence": null,
+  "placed_material_fit": "lpc.quote.ye-belong-to-my-care placed verbatim; fits the request for a line on what a pastor owes his people.",
+  "note": "Traces to lpc.term.the-flock and lpc.witness.answerability-as-ground. No false claims.",
+  "register": "Community speaking plainly."
+ },
+ {
+  "id": "q051",
+  "tier1": [],
+  "tier2": [],
+  "tier3": [
+   "Summary paragraphs then the full story repeat the same facts (acclamation, venom of presbyters) twice.",
+   "'Pontius tells how Cyprian came to the office:' is a template scaffold line.",
+   "'The pattern came back with Augustine...' is dropped in mid-answer without development."
+  ],
+  "depth": "rich",
+  "addresses_question": "yes",
+  "ecology": "ok",
+  "abstention": false,
+  "false_silence": null,
+  "placed_material_fit": "lpc.story.election-of-cyprian telling placed; fits the question exactly.",
+  "note": "Traces to lpc.story.election-of-cyprian, lpc.figure.cyprian (five presbyters, rhetorician) and lpc.force.congregational-acclamation-overriding-preference. Pontius-alone caveat correctly given. No false claims.",
+  "register": "Community voice (\"our deacon\", \"wrote to us, the people\")."
+ },
+ {
+  "id": "q055",
+  "tier1": [],
+  "tier2": [],
+  "tier3": [
+   "'Our letters tell of the hundred thousand sesterces:' is a scaffold line.",
+   "Opening sentence, quote and story repeat the sum three times."
+  ],
+  "depth": "rich",
+  "addresses_question": "yes",
+  "ecology": "ok",
+  "abstention": false,
+  "false_silence": null,
+  "placed_material_fit": "lpc.quote.a-hundred-thousand-sesterces and lpc.story.hundred-thousand-sesterces (telling_short + absent_detail) placed; exact fit.",
+  "note": "Absent outcome and no modern conversion both honoured per claim_guards. No false claims.",
+  "register": "Community speaking (\"we sent\", \"our clergy and people\")."
+ },
+ {
+  "id": "q056",
+  "tier1": [],
+  "tier2": [],
+  "tier3": [
+   "'Our letters tell of this ransom:' scaffold line.",
+   "Near-duplicate of q055 layout; sum repeated three times."
+  ],
+  "depth": "rich",
+  "addresses_question": "yes",
+  "ecology": "ok",
+  "abstention": false,
+  "false_silence": null,
+  "placed_material_fit": "Same quote and story as q055; exact fit.",
+  "note": "No false claims; guards honoured.",
+  "register": "Community speaking plainly."
+ },
+ {
+  "id": "q060",
+  "tier1": [],
+  "tier2": [
+   "'they even put their own dying friends out of their homes' uses 'friends', which lpc.quote.a-dreadful-plague-broke-out flags as misleading (the Latin suos means their own people, household and kin); the story record carries the same wording, so the records disagree."
+  ],
+  "tier3": [
+   "'Pontius tells of the plague and the enemies:' is a scaffold line.",
+   "The Tobias comparison appears twice (quote and story)."
+  ],
+  "depth": "rich",
+  "addresses_question": "yes",
+  "ecology": "ok",
+  "abstention": false,
+  "false_silence": null,
+  "placed_material_fit": "lpc.quote.good-done-to-all-not-only-the-household and lpc.story.the-plague-and-the-enemies placed; exact fit, with absent_detail honoured.",
+  "note": "No false claims.",
+  "register": "Community voice (\"our bishop told us\")."
+ },
+ {
+  "id": "q062",
+  "tier1": [],
+  "tier2": [],
+  "tier3": [
+   "'Possidius tells how he did it himself:' scaffold line.",
+   "Second sentence restates the story's point before the story tells it."
+  ],
+  "depth": "rich",
+  "addresses_question": "yes",
+  "ecology": "ok",
+  "abstention": false,
+  "false_silence": null,
+  "placed_material_fit": "lpc.story.the-psalms-on-the-wall placed; exact fit. \"Shortest penitential Psalms\" checked against the vendored Possidius text.",
+  "note": "No false claims.",
+  "register": "Community voice (\"our bishop\")."
+ },
+ {
+  "id": "q063",
+  "tier1": [],
+  "tier2": [
+   "Answering a question about evolution with Augustine's under-6,000-years reckoning positions him in the modern age-of-the-earth/evolution debate, which lpc.witness.days-before-the-sun's not_for explicitly rules out; the answer never says that evolution was not a question this world knew."
+  ],
+  "tier3": [
+   "Does not address evolution at all.",
+   "Heavy 'Augustine ... Augustine' repetition and the clumsy 'documents of the histories'."
+  ],
+  "depth": "adequate",
+  "addresses_question": "partly",
+  "ecology": "ok",
+  "abstention": false,
+  "false_silence": null,
+  "placed_material_fit": "No quote placed; days-before-the-sun witness reproduced faithfully.",
+  "note": "Factually faithful to City of God XI.7 / XII.10 as recorded; the problem is placement.",
+  "register": "Report about what Augustine reasoned, not a community speaking."
+ },
+ {
+  "id": "q074",
+  "tier1": [],
+  "tier2": [
+   "After saying we do not know the questioner's people, the answer sets Cyprian's warnings of endless fire for unbelievers and 'no salvation outside the Church' in front of a Muslim questioner; those passages concern a pagan persecutor and heretics, and placing them here stretches them to a group they do not address."
+  ],
+  "tier3": [
+   "Paragraphs two and three are off-point for \"did your people meet mine\"; the honest first sentence would have sufficed with a plain close.",
+   "Leading space before paragraph two."
+  ],
+  "depth": "adequate",
+  "addresses_question": "yes",
+  "ecology": "ok",
+  "abstention": false,
+  "false_silence": null,
+  "placed_material_fit": "No quote placed; no-salvation witness reproduced faithfully, but its placement is a poor fit for the question.",
+  "note": "Opening boundary (life up to 430) is correct. No false claims.",
+  "register": "Community voice in the first line; report-like after."
+ },
+ {
+  "id": "q077",
+  "tier1": [],
+  "tier2": [
+   "'so every account of them is a bishop's' is the honest_limit's own wording, but lpc.story.celerinus-writes-to-lucian shows two confessors, not bishops, writing about lapsed women; the records together contradict the 'every'."
+  ],
+  "tier3": [
+   "'as far as we have weighed it' is build-process phrasing.",
+   "Three sentences; does not say what would hold up, only what is thin."
+  ],
+  "depth": "thin",
+  "addresses_question": "partly",
+  "ecology": "ok",
+  "abstention": false,
+  "false_silence": null,
+  "placed_material_fit": "None placed.",
+  "note": "Traces to world_core thinness, lpc.limit.the-lapsed-own-account and lpc.limit.the-silent-century.",
+  "register": "Community speaking (\"our record\", \"our own pastoral voice\")."
+ },
+ {
+  "id": "q084",
+  "tier1": [],
+  "tier2": [],
+  "tier3": [
+   "Stock abstention line; offers nothing even to redirect."
+  ],
+  "depth": "flat",
+  "addresses_question": "no",
+  "ecology": "ok",
+  "abstention": true,
+  "false_silence": false,
+  "placed_material_fit": "none placed",
+  "note": "No record in lpc carries John 1 or a reading of it; the trinity witness mentions the Only-begotten but not the prologue. Silence is honest, though the stock line is bare.",
+  "register": "n/a (stock line)"
+ },
+ {
+  "id": "q087",
+  "tier1": [],
+  "tier2": [
+   "'Numidicus, a presbyter of Carthage' at the time of the exhortation: the letter says Cyprian was adding him to the presbyters of Carthage afterwards, so he was not yet one of them."
+  ],
+  "tier3": [
+   "Does not say plainly that it will not make up a childhood, wife or house; the first sentence half-says it.",
+   "A long placed letter about Numidicus's wife is an odd answer to \"your wife\"; reads as a keyword match."
+  ],
+  "depth": "adequate",
+  "addresses_question": "partly",
+  "ecology": "ok",
+  "abstention": false,
+  "false_silence": null,
+  "placed_material_fit": "lpc.quote for Ep. XXXIV (Numidicus) placed verbatim; true but tangential to the request.",
+  "note": "No fabrication; refusal to invent holds.",
+  "register": "First sentence a community speaking; rest is a quoted letter."
+ },
+ {
+  "id": "q089",
+  "tier1": [],
+  "tier2": [],
+  "tier3": [
+   "'a tongue that was not the one we were taught in' is opaque (Punic/Berber never named).",
+   "Answers whether the sources are representative, not whether the speaker sounds too polished; partly off the question."
+  ],
+  "depth": "adequate",
+  "addresses_question": "partly",
+  "ecology": "ok",
+  "abstention": false,
+  "false_silence": null,
+  "placed_material_fit": "None placed.",
+  "note": "Traces to world_core thinness, lpc.limit.rural-punic-berber-life and lpc.limit.ordinary-interior-life. No false claims.",
+  "register": "Community speaking plainly about its own record."
+ },
+ {
+  "id": "q095",
+  "tier1": [],
+  "tier2": [],
+  "tier3": [
+   "Stock abstention line on a question the records partly answer."
+  ],
+  "depth": "flat",
+  "addresses_question": "no",
+  "ecology": "The Council of Nicaea is outside this world, which should be said; but the in-world part is answerable.",
+  "abstention": true,
+  "false_silence": true,
+  "placed_material_fit": "none placed",
+  "note": "lpc.witness.the-only-son-and-the-trinity says Jesus as God and the Trinity belong to the creed this community confessed and that an Arian bishop at Hippo fought that belief; that is a partial answer (confession, not a vote), plus a stated boundary for the council.",
+  "register": "n/a (stock line)"
+ },
+ {
+  "id": "q096",
+  "tier1": [],
+  "tier2": [
+   "'The Bible story our record keeps is Paul's thorn' implies it is the only one; the records also hold Moses's wars, Noah's ark, Tobias, Zacchaeus and Genesis days."
+  ],
+  "tier3": [
+   "Does not handle \"favourite\" (a community voice has no personal favourite) plainly.",
+   "Last sentence on Moses and the Manichaean is off-point."
+  ],
+  "depth": "adequate",
+  "addresses_question": "partly",
+  "ecology": "ok",
+  "abstention": false,
+  "false_silence": null,
+  "placed_material_fit": "No quote placed; lpc.witness.heard-for-salvation-not-for-wish reproduced faithfully.",
+  "note": "No false claims.",
+  "register": "Mix of community framing and report about Augustine's teaching."
+ },
+ {
+  "id": "q097",
+  "tier1": [],
+  "tier2": [],
+  "tier3": [
+   "Does not answer the question: gives a generic interior-life limit and never mentions slavery or says the record does not speak to it.",
+   "Retrieval miss: no record covers slavery as such (the ransom story says it does not address the institution), and that specific limit is not stated."
+  ],
+  "depth": "flat",
+  "addresses_question": "no",
+  "ecology": "ok",
+  "abstention": false,
+  "false_silence": null,
+  "placed_material_fit": "None placed.",
+  "note": "Sentences trace to lpc.limit.ordinary-interior-life and world_core; true but generic.",
+  "register": "Community voice, but reads as a stock disclaimer."
+ },
+ {
+  "id": "q098",
+  "tier1": [],
+  "tier2": [],
+  "tier3": [
+   "Opening sentence on preaching as the bishop's talk does not say plainly that our record shows no woman preaching or leading.",
+   "Leadership (e.g. the nuns' community at Hippo) is not addressed."
+  ],
+  "depth": "adequate",
+  "addresses_question": "partly",
+  "ecology": "ok",
+  "abstention": false,
+  "false_silence": null,
+  "placed_material_fit": "None placed; lpc.limit.womens-own-voice paraphrased faithfully (Quartillosia, Numeria and Candida, Albina).",
+  "note": "No false claims.",
+  "register": "Community speaking plainly."
+ }
+]

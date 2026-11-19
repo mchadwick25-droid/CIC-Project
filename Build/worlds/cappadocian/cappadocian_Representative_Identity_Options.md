@@ -8,13 +8,13 @@
 
 ## The world's own ecology, in brief
 
-Nicene-Cappadocian's evidence base is unusually concentrated: three authors (Basil, Gregory of Nazianzus, Gregory of Nyssa), one family, one friendship network, dominate nearly everything that survives (Doc_02 §1, Critic Finding 2 — the build's single deepest named exposure). The identity decision has to answer for that concentration, not launder it.
+Nicene-Cappadocian's evidence base is unusually concentrated: three authors (Basil, Gregory of Nazianzus, Gregory of Nyssa), one family, one friendship network, dominate nearly everything that survives (Doc_02 §1; this is the build's single deepest evidence exposure). The identity decision has to answer for that concentration, not launder it.
 
 ## Option 1 — RECOMMENDED BY THE RECOVERED BUILD: an elder of the brotherhoods who keeps the guest-door
 
 **Name proposed: Eumathios** ("good learner" — a Greek Christian naming-stock compound, not a claim about any real person).
 **Role:** an elder of the ascetic brotherhoods, stationed at the guest-door — the office the world's own legislation (the Asketikon's hospitality provisions; the Basileias' staffing pattern) puts at the crossroads of every register: travelers, the poor, inquirers, families, the sick.
-**Trade-off:** De-centers the voice from the three famous authors and their household — the strongest available answer to Critic Finding 2 — without inventing an itinerary or biography to get there (the guest-door's centrality is Documented legislation, not builder convenience). The cost: the brotherhoods themselves are known to us only through the circle's own legislation, so a reviewer could reasonably ask whether this is genuine de-centering or one further remove inside the same network. Register risk (the "ventriloquism check," Construction Notes §2, §7) is real and explicitly untested — zero blind rounds have been run on this voice.
+**Trade-off:** De-centers the voice from the three famous authors and their household — the strongest available answer to that concentration — without inventing an itinerary or biography to get there (the guest-door's centrality is Documented legislation, not builder convenience). The cost: the brotherhoods themselves are known to us only through the circle's own legislation, so it is fair to ask whether this is genuine de-centering or one further remove inside the same network. Register risk (the "ventriloquism check," Construction Notes §2, §7) is real and explicitly untested — zero blind rounds have been run on this voice.
 **Name-collision check:** no bishop, author, martyr, council signatory, or correspondent of significance in this era is known under this name to the build; the two historical bearers (Eumathios Philokales, Eumathios Makrembolites) are Byzantine, seven centuries later, non-confusable. Prosopographical sweep against epigraphic/conciliar databases is still owed — a rename trigger stands.
 
 ## Option 2 — a sister of the Annisa sisterhood, in Macrina's own community
@@ -23,7 +23,7 @@ Nicene-Cappadocian's evidence base is unusually concentrated: three authors (Bas
 
 ## Option 3 — a voice at or near the circle itself (a suffragan bishop, a metropolitan's assistant, a rhetor-convert)
 
-**Trade-off:** would speak with more of the world's own documented eloquence and give direct access to the theological argument at full intensity. Rejected in the recovered build because it compounds Critic Finding 2 rather than answering it — placing the voice inside the very network whose over-representation is the world's central evidence problem — and because the register would likely drift toward the three authors' Athens-trained rhetoric, producing what the build's own notes call "a Cappadocian ventriloquist."
+**Trade-off:** would speak with more of the world's own documented eloquence and give direct access to the theological argument at full intensity. Rejected because it compounds that concentration rather than answering it — placing the voice inside the very network whose over-representation is the world's central evidence problem — and because the register would likely drift toward the three authors' Athens-trained rhetoric, producing what the build's own notes call "a Cappadocian ventriloquist."
 
 ## Option 4 — a village presbyter or chorepiscopos-adjacent voice
 
@@ -33,14 +33,13 @@ Nicene-Cappadocian's evidence base is unusually concentrated: three authors (Bas
 
 ## What the recovered build recommends, restated plainly
 
-Option 1, with Option 2 named as a live, evidenced, and explicitly not-closed question — not a rejected footnote. The build's own words: *"the future-second-voice candidate is explicitly stronger here than in Early Latin... flagged for the project lead with that comparative note."* If a female-anchored Representative is ever built for this project, the recovered build's own assessment is that this world is currently the best-evidenced site to attempt it — a separate, additive build, not a reason to hold this decision.
+Option 1, with Option 2 named as a live, evidenced, and explicitly not-closed question — not a rejected footnote. The build's own words: *"the future-second-voice candidate is explicitly stronger here than in Early Latin..."* If a female-anchored Representative is ever built for this project, the recovered build's own assessment is that this world is currently the best-evidenced site to attempt it — a separate, additive build, not a reason to hold this decision.
 
 ## Mark's decision (recorded verbatim)
 
 **Name:** Eumathios (Option 1, as recommended by the recovered build).
 **Role:** an elder of the brotherhoods who keeps the guest-door (Option 1, as recommended).
-**Reasoning, in Mark's own words:** "approve the cost envelope and both decisions, go ahead" — given in direct response to this file's presentation of Option 1 as the recommended identity with Options 2–4 stated as declined alternatives.
+**Reasoning:** "approve the cost envelope and both decisions, go ahead" — given in direct response to this file's presentation of Option 1 as the recommended identity with Options 2–4 stated as declined alternatives.
 **Disposition on the Option 2 question (build a second voice for this world; decline for now; something else):** Not separately addressed in Mark's reply. Recorded as: the recommendation's own framing stands — Option 2 (a sister of the Annisa sisterhood) stays a live, named, not-foreclosed question for a possible future separate build; it is not decided now and is not being built as part of this world. If Mark later means something more specific by this (e.g., an explicit decline, or a wish to greenlight a second-voice build now), that supersedes this entry on his next word — this is not being treated as a closed question, only as un-raised in this exchange.
-**Date:** 2026-08-30.
 
 *(Per the build-cycle discipline, Option 1 is now the settled identity for this build: Doc_10 rework and Phase B B-7 voice records proceed on Eumathios/guest-door elder.)*

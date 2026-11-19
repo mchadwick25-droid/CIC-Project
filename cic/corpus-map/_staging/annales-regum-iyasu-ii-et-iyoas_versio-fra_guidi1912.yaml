@@ -1,0 +1,28 @@
+source_file: annales-regum-iyasu-ii-et-iyoas_versio-fra_guidi1912.txt
+assignments:
+- row_id: annales-regum-iyasu-ii-et-iyoas_versio-fra_guidi1912--annals-of-iyasu-ii-french-guidi-1912
+  work: 'Annals of Iyasu II, French (Guidi 1912)'
+  author: ethiopian-royal-chronicles
+  locus: 'OCR lines 393-10555; add 12 to OCR line numbers'
+  atlas_ids:
+  - ethiopian-christianity-gondar-to-the-zemene-mesafint
+  role: tradition
+  confidence: provisional
+  language: fra
+  date: {formation_confidence: unknown, checked: "the title page (OCR lines 221-293) and the opening of the Latin note (322-364) were read; the note was not read through for the chronicler or a year of writing"}
+  note: 'The chronicle of King Iyasu II (Adyam Sagad) and Queen Berhan Mogasa. The kingdom''s own telling, in a scholar''s French.'
+- row_id: annales-regum-iyasu-ii-et-iyoas_versio-fra_guidi1912--annals-of-iyoas-french-guidi-1912
+  work: 'Annals of Iyo''as, French (Guidi 1912)'
+  author: ethiopian-royal-chronicles
+  locus: 'OCR lines 10557-15790; add 12 to OCR line numbers'
+  atlas_ids:
+  - ethiopian-christianity-gondar-to-the-zemene-mesafint
+  role: tradition
+  confidence: provisional
+  language: fra
+  date: {formation_confidence: unknown, checked: "the heading at OCR line 10557 gives no year; the Latin note (322-364) was not read through for a year of writing"}
+  note: 'The chronicle of King Iyo''as, in French.'
+authors_ruled:
+  ethiopian-royal-chronicles:
+    kind: anonymous
+    evidence: "The title page (file lines 233-305) names the kings whose annals these are and Ignazio Guidi as translator; it names no author."

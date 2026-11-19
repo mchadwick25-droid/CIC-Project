@@ -84,8 +84,8 @@ divergence_partners:
   the same century, the same Latin West, put to opposite use. That world's own record has Damasus annexing
   martyr-sanctity to serve Rome's positional claim, and Leo preaching the apostle-martyrs as the ground
   of a see's institutional rank - martyr-standing recruited INTO an institutional and state-adjacent order.
-  This claim deploys martyr-standing against the institutionally favoured party, as the evidence that the
-  favoured party is not the church. The Imperial and Juridical world carries no contested_claim on
+  This claim deploys martyr-standing against the institutionally favored party, as the evidence that the
+  favored party is not the church. The Imperial and Juridical world carries no contested_claim on
   martyrdom, so this entry names the gravity record where its position actually sits.
 relations:
 - type: associated-with
@@ -109,11 +109,11 @@ pass.
 THIS IS THE ONE PRIMARY WHOSE CONTEST IS NOT ABOUT MEDIATION, and the record is built that way on
 purpose. Three Donatist-voiced or Donatist-authored texts plus epigraphy that was never textual to
 begin with make this gravity's evidentiary base the strongest in this world; contesting it on Author
-Gravity grounds would be borrowing a caveat from the neighbouring gravities where it genuinely
+Gravity grounds would be borrowing a caveat from the neighboring gravities where it genuinely
 applies. What is genuinely contested here is different and sharper: not whether the martyrs are ours
 but whether their deaths prove what the claim says they prove. Optatus and Augustine each say no, for
 two different reasons, and don.story.passio-marculi already carries this distinction: those two
-arguments are not a citation chain and must not be merged. That distinction is honoured in
+arguments are not a citation chain and must not be merged. That distinction is honored in
 held_against above, item by item.
 
 THE TWO-PERSECUTIONS POINT IS THIS WORLD'S OWN, NOT AN OPPONENT'S. Doc_07 SS3A holds the Diocletianic

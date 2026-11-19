@@ -1,0 +1,13 @@
+=== PAID RUN, settings as actually used ===
+approved run     : Gregory of Tours and Benedict revision, Mark 2026-11-15 (re-record approved)   char cap: 4800
+person voice id  : MFZUKuGQUsGJPQjTS4wC   (kind "person", every item)
+output format    : mp3_44100_128
+model            : eleven_v4
+settings         : {"stability":0.85,"similarity_boost":0.88,"style":0.05,"use_speaker_boost":true,"speed":0.95}
+audio tags       : open [calmly], before the last sentence [warmly], between paragraphs [pause], 7 respellings
+items            : 2   characters: 4585 text, 4693 sent
+===========================================
+  ok: benedict-of-nursia voice=MFZUKuGQUsGJPQjTS4wC model=eleven_v4 format=mp3_44100_128 settings={"stability":0.85,"similarity_boost":0.88,"style":0.05,"use_speaker_boost":true,"speed":0.95} chars=2356 sent=2407 cost=1167 request-id=MlANBBchKoFJEq5lRTry
+  ok: gregory-of-tours voice=MFZUKuGQUsGJPQjTS4wC model=eleven_v4 format=mp3_44100_128 settings={"stability":0.85,"similarity_boost":0.88,"style":0.05,"use_speaker_boost":true,"speed":0.95} chars=2229 sent=2286 cost=1108 request-id=ewHDNil9Csp3fxuGBqBp
+
+2/2 generated. credits charged (character-cost headers): 2275

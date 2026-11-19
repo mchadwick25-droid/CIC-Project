@@ -1,0 +1,1888 @@
+{
+  "era": 1,
+  "date": "2026-11-07",
+  "movements": [
+    {
+      "id": "post-apostolic-house-church",
+      "name": "Post-Apostolic Household-Church Christianity",
+      "dates": "70–200 CE",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Parent of nearly everything on the map",
+          "other": "Nearly everything else on the map",
+          "other_id": null,
+          "claim": "Claims to be the parent (source) of most later movements."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Justin, who told his imperial interrogator that he taught above a public bathhouse in Rome, wrote down the earliest record of what their Sunday actually looked like—the reading of the memoirs, the common loaf and cup, and the collection gathered for orphans, widows, and travelers.",
+          "other": "Justin (Greek apologist, taught at Rome)",
+          "other_id": "greek-apologists-second-century",
+          "other_id_note": "Justin is named in both entries; this is a shared figure rather than a formal link.",
+          "claim": "Justin, a Greek apologist, wrote the earliest record of this movement's Sunday worship (shared figure)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Around 112 CE, the governor Pliny the Younger wrote to the emperor Trajan describing an investigation: believers who had recanted told him, under threat of ordinary punishment, that these communities met before dawn to sing a hymn to Christ 'as God,' bound themselves by oath against theft and adultery, then met again later for a meal they called 'common yet harmless.'",
+          "other": "Pliny the Younger and the Roman imperial government",
+          "other_id": null,
+          "other_id_note": "State actor, not a movement.",
+          "claim": "Roman governor Pliny investigated these communities and questioned their women officers (outside state attack and record)."
+        },
+        {
+          "field": "why",
+          "sentence": "In the decades after the apostles died, these house churches held together with no fixed hierarchy and no finished New Testament - Ignatius wrote seven letters while under armed guard on his way to execution, and Rome wrote at length to settle a quarrel in Corinth.",
+          "other": "The Roman church (letter to Corinth)",
+          "other_id": null,
+          "other_id_note": "Roman church of c. 96 CE has no census entry; roman-church-third-century covers c. 200-268 only.",
+          "claim": "The Roman church corresponded with Corinth to settle a quarrel (correspondence)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Almost every Christian tradition descends from these early gatherings.",
+          "other": "Almost every later Christian tradition",
+          "other_id": null,
+          "claim": "Claims later Christian traditions descend from this movement."
+        }
+      ],
+      "existing_links": [
+        {
+          "id": "post-apostolic-house-church--roman-church-third-century",
+          "from": "post-apostolic-house-church",
+          "to": "roman-church-third-century",
+          "type": "continued as",
+          "confidence": "Widely Accepted"
+        }
+      ]
+    },
+    {
+      "id": "greek-apologists-second-century",
+      "name": "The Second-Century Greek Apologists",
+      "dates": "c. 124-200",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Overlaps post-apostolic-house-church in era and largely in people - Justin taught at Rome - but is a different thing: that entry is the church's internal life, this is the same Christians turned outward, addressing emperors and an educated public that despised them.",
+          "other": "Post-Apostolic Household-Church Christianity",
+          "other_id": "post-apostolic-house-church",
+          "claim": "Overlaps in era and people (Justin); a different thing - the same Christians turned outward."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The charges were always roughly the same - that Christians were atheists because they had no images, cannibals because of what they said about eating a body, and disloyal because they would not sacrifice - and the answers were too.",
+          "other": "Pagan critics (charges of atheism, cannibalism, disloyalty)",
+          "other_id": null,
+          "other_id_note": "Named opponents are pagan critics, not a movement.",
+          "claim": "Argued against pagan charges against Christians (atheism, cannibalism, disloyalty)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "What made the enterprise interesting was the second move: rather than only denying the charges, most of them argued that the best of Greek philosophy had been reaching toward what the church now held, and that Christians were therefore the true heirs of reason rather than its enemies.",
+          "other": "Greek philosophy",
+          "other_id": null,
+          "claim": "Drew on Greek philosophy, arguing it had been reaching toward Christianity (influenced by Greek philosophy)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Justin's argument that the Word was sowing seeds of truth in the philosophers before the incarnation gave the church a way of relating to inherited learning that it has never entirely put down, and that Clement and Origen at Alexandria took much further.",
+          "other": "Clement and Origen at Alexandria",
+          "other_id": "alexandria-catechetical",
+          "claim": "Justin's idea of seeds of truth in philosophy was taken further by Clement and Origen (led to)."
+        }
+      ],
+      "existing_links": [
+        {
+          "id": "greek-apologists-second-century--alexandria-catechetical",
+          "from": "greek-apologists-second-century",
+          "to": "alexandria-catechetical",
+          "type": "influenced",
+          "confidence": "Documented"
+        },
+        {
+          "id": "greek-apologists-second-century--latin-apologists",
+          "from": "greek-apologists-second-century",
+          "to": "latin-apologists",
+          "type": "influenced",
+          "confidence": "Documented"
+        }
+      ]
+    },
+    {
+      "id": "latin-apologists",
+      "name": "The Latin Apologists",
+      "dates": "c. 197-320",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "This is the Latin counterpart to the Greek apologists of the second century, a generation later and never as coherent a body.",
+          "other": "The Greek apologists of the second century",
+          "other_id": "greek-apologists-second-century",
+          "claim": "Latin counterpart (parallel) to the Greek apologists, a generation later."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "It includes Tertullian, whose Latin apologetic writing opened the tradition and gave it its vocabulary before the other authors continued it.",
+          "other": "Tertullian",
+          "other_id": "tertullian-s-voice",
+          "claim": "Tertullian opened the Latin apologetic tradition (led to)."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Its clearest link to the later imperial church runs through Lactantius, who wrote his own defense during persecution and then tutored the son of the emperor who ended it.",
+          "other": "The later imperial church (Constantine's court)",
+          "other_id": "imperial-juridical-christianity",
+          "other_id_note": "Imperial and Juridical Christianity is the nearest census entry; not an exact match.",
+          "claim": "Linked to the later imperial church through Lactantius, who tutored Constantine's son."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Trinitas, persona, substantia, sacramentum: the technical vocabulary Western Christians still use for the Trinity and the sacraments came substantially off Tertullian's own pen, in the Apology and in the string of treatises that followed it - Against Praxeas arguing that Father and Son are genuinely distinct, the Prescription Against Heretics contending that Scripture belongs to the churches that received it, five long books Against Marcion answering the one rival he judged most dangerous.",
+          "other": "Praxeas",
+          "other_id": "modalist-monarchianism",
+          "claim": "Tertullian argued against Praxeas (modalism)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Trinitas, persona, substantia, sacramentum: the technical vocabulary Western Christians still use for the Trinity and the sacraments came substantially off Tertullian's own pen, in the Apology and in the string of treatises that followed it - Against Praxeas arguing that Father and Son are genuinely distinct, the Prescription Against Heretics contending that Scripture belongs to the churches that received it, five long books Against Marcion answering the one rival he judged most dangerous.",
+          "other": "Marcion",
+          "other_id": "marcion-marcionism",
+          "claim": "Tertullian argued against Marcion."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Trinitas, persona, substantia, sacramentum: the technical vocabulary Western Christians still use for the Trinity and the sacraments came substantially off Tertullian's own pen, in the Apology and in the string of treatises that followed it - Against Praxeas arguing that Father and Son are genuinely distinct, the Prescription Against Heretics contending that Scripture belongs to the churches that received it, five long books Against Marcion answering the one rival he judged most dangerous.",
+          "other": "Heretics in general",
+          "other_id": null,
+          "claim": "Tertullian argued that heretics have no standing to cite Scripture."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In his later years he grew steadily more rigorist and aligned himself with the New Prophecy out of Phrygia, which is one reason the Latin church quoted him endlessly and never made him a saint.",
+          "other": "The New Prophecy (Montanism)",
+          "other_id": "montanism-the-new-prophecy",
+          "claim": "Tertullian aligned himself with the New Prophecy (joined)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Roughly a generation on and in a very different key, a Roman advocate named Minucius Felix wrote a dialogue set on the beach at Ostia, in which a pagan friend states the case against Christianity - it is a religion of the ignorant, its god was a criminal, Rome's greatness is proof enough that Rome's gods work - and is answered and convinced.",
+          "other": "Educated pagan critics (Caecilius in the Octavius)",
+          "other_id": null,
+          "other_id_note": "Named opponents are pagan critics, not a movement.",
+          "claim": "Minucius Felix's dialogue stages and answers the educated pagan case against Christianity (argued against)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "A century later and in a different register again, an African rhetorician at Sicca called Arnobius wrote seven furious books Against the Heathen - to persuade his own bishop that his conversion was genuine, if Jerome is to be believed - and produced along the way the most detailed account of Roman religious practice that any Christian left, because he had to describe what he was attacking.",
+          "other": "Heathen (Roman pagan religion)",
+          "other_id": null,
+          "claim": "Arnobius argued against pagan religion in seven books Against the Heathen."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "And at the end of the line stands Lactantius, whom Jerome makes Arnobius' pupil: a professor of Latin rhetoric summoned to Diocletian's new capital at Nicomedia, who lost the post when the persecution began and wrote the Divine Institutes in the middle of it, and who was old by the time it was over, when Constantine brought him to Trier to teach his son.",
+          "other": "Diocletian's persecution",
+          "other_id": null,
+          "other_id_note": "State actor, not a movement.",
+          "claim": "Lactantius lost his post when Diocletian's persecution began and wrote during it (attacked by state)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "And at the end of the line stands Lactantius, whom Jerome makes Arnobius' pupil: a professor of Latin rhetoric summoned to Diocletian's new capital at Nicomedia, who lost the post when the persecution began and wrote the Divine Institutes in the middle of it, and who was old by the time it was over, when Constantine brought him to Trier to teach his son.",
+          "other": "Constantine's court (later imperial church)",
+          "other_id": "imperial-juridical-christianity",
+          "other_id_note": "Nearest census entry; not an exact match.",
+          "claim": "Lactantius later taught Constantine's son (link to the imperial church)."
+        },
+        {
+          "field": "why",
+          "sentence": "A Carthaginian convert named Tertullian had to invent Latin words for the Trinity and the sacraments just to defend his faith, coining terms like trinitas, persona, and substantia.",
+          "other": "Tertullian",
+          "other_id": "tertullian-s-voice",
+          "claim": "Tertullian coined the Latin theological vocabulary this movement used (influenced by)."
+        },
+        {
+          "field": "why",
+          "sentence": "The argument he opened ran a further century, through Minucius Felix's dialogue giving pagan objections their fullest voice, to Lactantius, who wrote his own defense in the middle of persecution and later tutored the emperor's son.",
+          "other": "Constantine's court (later imperial church)",
+          "other_id": "imperial-juridical-christianity",
+          "other_id_note": "Nearest census entry; not an exact match.",
+          "claim": "Lactantius, the movement's last major figure, later tutored the emperor's son (link to imperial church)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Minucius Felix gave the West its model for the apologetic dialogue and preserved, inadvertently, the most complete record of what educated Romans actually said against the church.",
+          "other": "Educated Romans who objected to Christianity",
+          "other_id": null,
+          "claim": "Preserved, through the Octavius, the objections of educated Romans it answered (argued against)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "And Lactantius' Latin was good enough that the Renaissance called him the Christian Cicero and printed him before it printed most of the Fathers - the Divine Institutes was among the first books off a press in Italy, in 1465.",
+          "other": "Renaissance humanists",
+          "other_id": null,
+          "claim": "Later reception: the Renaissance printed and admired Lactantius."
+        }
+      ],
+      "existing_links": [
+        {
+          "id": "greek-apologists-second-century--latin-apologists",
+          "from": "greek-apologists-second-century",
+          "to": "latin-apologists",
+          "type": "influenced",
+          "confidence": "Documented"
+        },
+        {
+          "id": "tertullian-s-voice--latin-apologists",
+          "from": "tertullian-s-voice",
+          "to": "latin-apologists",
+          "type": "influenced",
+          "confidence": "Documented"
+        },
+        {
+          "id": "latin-apologists--imperial-juridical-christianity",
+          "from": "latin-apologists",
+          "to": "imperial-juridical-christianity",
+          "type": "influenced",
+          "confidence": "Inferential-Thin"
+        }
+      ]
+    },
+    {
+      "id": "apocryphal-and-pseudepigraphal-literature",
+      "name": "Apocryphal and Pseudepigraphal Literature in Christian Transmission",
+      "dates": "c. 100-900",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Its natural relation to every other early entry is that they read it.",
+          "other": "Every other early Christian movement (they read it)",
+          "other_id": null,
+          "claim": "Read by all other early movements (influenced them)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "And a third body is not Christian in origin at all: the Testaments of the Twelve Patriarchs, the Life of Adam and Eve, the Testament of Abraham are Jewish works that survive because Christian scribes kept copying them, sometimes with Christian passages worked in, after Judaism itself had let them go.",
+          "other": "Judaism (Testaments of the Twelve Patriarchs, Life of Adam and Eve, Testament of Abraham)",
+          "other_id": null,
+          "other_id_note": "Judaism is a named tradition, not a census movement.",
+          "claim": "Some texts are Jewish works that Christian scribes kept copying after Judaism let them go (originated in Judaism)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The Dormition narratives that gave the church the Assumption, the tour-of-hell apocalypses that shaped medieval visions of the afterlife, Pseudo-Matthew and its Carolingian abridgement that carried Mary's childhood into the Latin West - these run to the ninth century and beyond.",
+          "other": "Carolingian abridgement and the Carolingian Latin West",
+          "other_id": "carolingian-reform-christianity",
+          "other_id_note": "Matches by period and region; the link is the text's abridgement, not the reform movement itself.",
+          "claim": "Pseudo-Matthew's Carolingian abridgement carried Mary's childhood into the Carolingian West (led to)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Some of it carries the apostles into adventures - Andrew among cannibals, Philip at Hierapolis, Thomas in India - in narratives that read like Greek romances and often carry a strongly ascetic charge.",
+          "other": "Thomas in India (apocryphal Acts of Thomas)",
+          "other_id": "st-thomas-christians-of-india",
+          "other_id_note": "The text names only the legend of Thomas in India; it does not tie the Acts to the St Thomas Christians.",
+          "claim": "Names the Thomas-in-India legend; possible but unstated link to St Thomas Christians (weak)."
+        },
+        {
+          "field": "why",
+          "sentence": "Some of these works, like the Testaments of the Twelve Patriarchs, were originally Jewish texts that survive today only because Christian scribes kept copying them long after Judaism itself had let them go.",
+          "other": "Judaism",
+          "other_id": null,
+          "other_id_note": "Judaism is a named tradition, not a census movement.",
+          "claim": "Some works originated as Jewish texts and survived through Christian copying (originated in Judaism)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Marian devotion in both East and West rests substantially on the Protevangelium of James: Anna and Joachim, the presentation in the Temple, the ox and the ass, all of it entered the calendar and the iconography from a book the church never accepted as scripture.",
+          "other": "Marian devotion in East and West",
+          "other_id": null,
+          "claim": "Influenced Marian devotion and calendar (led to)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The apocryphal Acts supplied medieval art and legend with most of what it knew about the apostles' deaths.",
+          "other": "Medieval art and legend",
+          "other_id": null,
+          "claim": "Influenced medieval art and legend about the apostles (led to)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "And the Jewish pseudepigrapha in this collection are the reason a large body of Second Temple literature exists at all - preserved, ironically, by the tradition that had parted from the one that produced it.",
+          "other": "Judaism",
+          "other_id": null,
+          "other_id_note": "Judaism is a named tradition, not a census movement.",
+          "claim": "Jewish pseudepigrapha preserved by a Christianity that had parted from Judaism."
+        }
+      ],
+      "existing_links": []
+    },
+    {
+      "id": "alexandria-catechetical",
+      "name": "Alexandrian Catechetical / Christian-Platonist Tradition",
+      "dates": "c. 150–400 CE",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "A contested influence on Desert Monasticism, real at one disputed point and denied as a general continuation; scholarship parent of the Bethlehem Circle",
+          "other": "Desert Monasticism",
+          "other_id": "desert-monasticism",
+          "claim": "Contested influence on desert monasticism (influenced)."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "A contested influence on Desert Monasticism, real at one disputed point and denied as a general continuation; scholarship parent of the Bethlehem Circle",
+          "other": "The Bethlehem Circle (Jerome's circle)",
+          "other_id": "hieronymian-ascetic-literary",
+          "other_id_note": "No census entry for the Bethlehem Circle; closest is hieronymian-ascetic-literary.",
+          "claim": "Scholarship treats this tradition as parent of the Bethlehem circle (parent of)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Origen, who succeeded him, wrote commentaries across most of Scripture and produced the Hexapla, a six-column parallel edition of the Old Testament assembled to see what the Hebrew actually said — before falling out with his bishop and moving his teaching to Caesarea around 231.",
+          "other": "Caesarea (Origen's school)",
+          "other_id": "palestinian-church-pre-constantinian",
+          "claim": "Origen moved his teaching from Alexandria to Caesarea (led to)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Nepos, a bishop out in the Egyptian countryside at Arsinoe, wrote a book refuting the allegorists and won real support for a plainer, literal reading — until Dionysius, by then bishop of Alexandria, spent three days in patient public conversation with Nepos's own community and brought them back around.",
+          "other": "Nepos and the literalist community at Arsinoe",
+          "other_id": null,
+          "other_id_note": "Named opponent is a bishop and his community, not a census movement.",
+          "claim": "Nepos argued against the allegorical reading of this tradition (argued against)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Nepos, a bishop out in the Egyptian countryside at Arsinoe, wrote a book refuting the allegorists and won real support for a plainer, literal reading — until Dionysius, by then bishop of Alexandria, spent three days in patient public conversation with Nepos's own community and brought them back around.",
+          "other": "Dionysius of Alexandria",
+          "other_id": null,
+          "other_id_note": "Named person is a bishop, not a census movement.",
+          "claim": "Dionysius won back Nepos's literalist community, opposing that challenge (argued against)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Origen's textual scholarship set the standard for taking the original languages seriously; Basil of Caesarea and Gregory of Nazianzus compiled an anthology of his writings, and Ambrose and Jerome read him closely even when they were careful about saying so.",
+          "other": "Basil of Caesarea and Gregory of Nazianzus (Cappadocian)",
+          "other_id": "cappadocian-nicene-pastoral-monastic-tradition",
+          "claim": "Cappadocian fathers compiled an anthology of Origen (influenced by)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Origen's textual scholarship set the standard for taking the original languages seriously; Basil of Caesarea and Gregory of Nazianzus compiled an anthology of his writings, and Ambrose and Jerome read him closely even when they were careful about saying so.",
+          "other": "Ambrose of Milan",
+          "other_id": "ambrosian-milan-standalone",
+          "claim": "Ambrose read Origen closely (influenced by)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Origen's textual scholarship set the standard for taking the original languages seriously; Basil of Caesarea and Gregory of Nazianzus compiled an anthology of his writings, and Ambrose and Jerome read him closely even when they were careful about saying so.",
+          "other": "Jerome",
+          "other_id": "hieronymian-ascetic-literary",
+          "claim": "Jerome read Origen closely (influenced by)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The tradition also fed directly into Egyptian monasticism, giving the desert its intellectual vocabulary.",
+          "other": "Egyptian monasticism (desert monasticism)",
+          "other_id": "desert-monasticism",
+          "claim": "Fed directly into desert monasticism (led to)."
+        }
+      ],
+      "existing_links": [
+        {
+          "id": "alexandria-catechetical--desert-monasticism",
+          "from": "alexandria-catechetical",
+          "to": "desert-monasticism",
+          "type": "gave rise to",
+          "confidence": "Contested"
+        },
+        {
+          "id": "alexandria-catechetical--hieronymian-ascetic-literary",
+          "from": "alexandria-catechetical",
+          "to": "hieronymian-ascetic-literary",
+          "type": "influenced",
+          "confidence": "Documented"
+        },
+        {
+          "id": "coptic-christianity-under-early-islam--alexandria-catechetical",
+          "from": "coptic-christianity-under-early-islam",
+          "to": "alexandria-catechetical",
+          "type": "argued against",
+          "confidence": "Documented"
+        },
+        {
+          "id": "greek-apologists-second-century--alexandria-catechetical",
+          "from": "greek-apologists-second-century",
+          "to": "alexandria-catechetical",
+          "type": "influenced",
+          "confidence": "Documented"
+        },
+        {
+          "id": "alexandria-catechetical--anatolian-church-third-century",
+          "from": "alexandria-catechetical",
+          "to": "anatolian-church-third-century",
+          "type": "influenced",
+          "confidence": "Documented"
+        },
+        {
+          "id": "alexandria-catechetical--palestinian-church-pre-constantinian",
+          "from": "alexandria-catechetical",
+          "to": "palestinian-church-pre-constantinian",
+          "type": "influenced",
+          "confidence": "Documented"
+        },
+        {
+          "id": "alexandria-catechetical--aquileian-christianity",
+          "from": "alexandria-catechetical",
+          "to": "aquileian-christianity",
+          "type": "influenced",
+          "confidence": "Widely Accepted"
+        },
+        {
+          "id": "anatolian-church-third-century--alexandria-catechetical",
+          "from": "anatolian-church-third-century",
+          "to": "alexandria-catechetical",
+          "type": "argued against",
+          "confidence": "Documented"
+        },
+        {
+          "id": "hieronymian-ascetic-literary--alexandria-catechetical",
+          "from": "hieronymian-ascetic-literary",
+          "to": "alexandria-catechetical",
+          "type": "argued against",
+          "confidence": "Documented"
+        }
+      ]
+    },
+    {
+      "id": "syriac-edessa-nisibis",
+      "name": "Syriac Christianity (Edessa/Nisibis)",
+      "dates": "200–410 CE",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Parent of the Church of the East and the Syriac Orthodox Church; the channel through which Greek philosophy and medicine passed into Arabic and back to Europe.",
+          "other": "The Church of the East",
+          "other_id": "persian-church-of-the-east-early",
+          "other_id_note": "Nearest early census entry for the Church of the East.",
+          "claim": "Parent of the Church of the East (parent of)."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Parent of the Church of the East and the Syriac Orthodox Church; the channel through which Greek philosophy and medicine passed into Arabic and back to Europe.",
+          "other": "The Syriac Orthodox Church",
+          "other_id": "syriac-orthodox-west-syriac-christianity",
+          "claim": "Parent of the Syriac Orthodox Church (parent of)."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Parent of the Church of the East and the Syriac Orthodox Church; the channel through which Greek philosophy and medicine passed into Arabic and back to Europe.",
+          "other": "Greek learning passed into Arabic and back to Europe",
+          "other_id": null,
+          "other_id_note": "Transmission route, not a census movement.",
+          "claim": "Channel that passed Greek philosophy and medicine into Arabic and then Europe (led to)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "They met the Gospel as one continuous story rather than four separate books, in a harmony a Greek-trained convert named Tatian had woven a generation earlier; Aphrahat quoted it and Ephrem preached from it for as long as this Christian tradition lasted.",
+          "other": "Tatian (Gospel harmony)",
+          "other_id": null,
+          "other_id_note": "Named person does not stand for a census movement.",
+          "claim": "The community read Tatian's Gospel harmony as its Gospel text (influenced by Tatian)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The community also knew its faith by naming what it was not, answering by name the teachings of the philosopher Bardaisan, of Marcion, and of Mani, all preached in the same cities in the same tongue.",
+          "other": "Bardaisan (Bardaisanites)",
+          "other_id": "bardaisanite-current",
+          "claim": "This community argued against Bardaisan."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The community also knew its faith by naming what it was not, answering by name the teachings of the philosopher Bardaisan, of Marcion, and of Mani, all preached in the same cities in the same tongue.",
+          "other": "Marcion (Marcionism)",
+          "other_id": "marcion-marcionism",
+          "claim": "This community argued against Marcion."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The community also knew its faith by naming what it was not, answering by name the teachings of the philosopher Bardaisan, of Marcion, and of Mani, all preached in the same cities in the same tongue.",
+          "other": "Mani (Manichaeism)",
+          "other_id": "manichaeism",
+          "claim": "This community argued against Mani."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Persia's own bishops fought the same question in the open: Papa of Seleucia-Ctesiphon claimed to lead them all, and was contested by his own colleagues in his own lifetime.",
+          "other": "Persia's own bishops (Church of the East)",
+          "other_id": "persian-church-of-the-east-early",
+          "claim": "Internal dispute in the Persian church over leadership (Papa of Seleucia-Ctesiphon)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "On the Persian side, the persecution already underway since the 340s took bishop Simeon bar Sabbae and his clergy, and left the church's chief seat empty for twenty years, since filling it meant near-certain death.",
+          "other": "Persian persecution of the Persian church",
+          "other_id": "persian-church-of-the-east-early",
+          "other_id_note": "Persian church is the nearest census entry; the persecution was by the Persian state.",
+          "claim": "Persian persecution took the Persian church's bishop and clergy (attacked by state)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Not until 410, when the Roman bishop Marutha brokered a synod with the favor of Yazdegerd I, the Persian king, did the Persian church finally receive a single settled order—the last thing this tradition's own record has to say.",
+          "other": "Persian church (synod of 410)",
+          "other_id": "persian-church-of-the-east-early",
+          "claim": "Marutha's synod gave the Persian church a single settled order (led to)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In 338, Shapur II of Persia besieged Nisibis; Ephrem, the city's own hymnwriter, remembered its deliverance as an act of God worked through ordinary defenders, while a later account added a swarm of gnats to the story.",
+          "other": "Sasanian Persia (Shapur II)",
+          "other_id": null,
+          "other_id_note": "State actor, not a movement.",
+          "claim": "Persian siege of Nisibis (attack by a state)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Assyrian Church of the East, the Syriac Orthodox Church, and the Eastern Catholic churches in communion with Rome all descend from this tradition, still worship in Syriac, and still sing Ephrem's hymns in their own liturgies.",
+          "other": "Assyrian Church of the East",
+          "other_id": "persian-church-of-the-east-early",
+          "claim": "Descends from this tradition (led to)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Assyrian Church of the East, the Syriac Orthodox Church, and the Eastern Catholic churches in communion with Rome all descend from this tradition, still worship in Syriac, and still sing Ephrem's hymns in their own liturgies.",
+          "other": "Syriac Orthodox Church",
+          "other_id": "syriac-orthodox-west-syriac-christianity",
+          "claim": "Descends from this tradition (led to)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Assyrian Church of the East, the Syriac Orthodox Church, and the Eastern Catholic churches in communion with Rome all descend from this tradition, still worship in Syriac, and still sing Ephrem's hymns in their own liturgies.",
+          "other": "Eastern Catholic churches in communion with Rome",
+          "other_id": null,
+          "claim": "Descends from this tradition (led to)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Missionaries carried the faith east along the trade routes into Persia and India, and by the seventh century as far as Tang-dynasty China.",
+          "other": "Persia",
+          "other_id": "persian-church-of-the-east-early",
+          "claim": "Missionary expansion into Persia (led to)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Missionaries carried the faith east along the trade routes into Persia and India, and by the seventh century as far as Tang-dynasty China.",
+          "other": "India",
+          "other_id": "st-thomas-christians-of-india",
+          "other_id_note": "Region match only; no explicit link to the St Thomas Christians in the text.",
+          "claim": "Missionary expansion into India (led to)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Missionaries carried the faith east along the trade routes into Persia and India, and by the seventh century as far as Tang-dynasty China.",
+          "other": "Tang-dynasty China",
+          "other_id": "the-church-of-the-east-on-the-silk-road",
+          "claim": "Missionary expansion to China (led to)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Centuries later, Syriac translators became the channel through which Greek philosophy and medicine reached the Arabic-speaking world, and from there passed back into Europe.",
+          "other": "The Arabic-speaking world",
+          "other_id": null,
+          "other_id_note": "Transmission route, not a census movement.",
+          "claim": "Translators passed Greek philosophy and medicine into the Arabic-speaking world (led to)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "A separate school of formal theological training later grew up at Nisibis—founded around 490, two generations after this tradition's own record closes—and became one of the ancient world's most important centers of Christian education, distinct from the teaching Jacob and Ephrem had given the same city a century earlier.",
+          "other": "School of Nisibis (distinct from the teaching of Jacob and Ephrem)",
+          "other_id": "persian-church-of-the-east-early",
+          "other_id_note": "School of Nisibis is a later Church of the East institution; match is approximate.",
+          "claim": "A separate school at Nisibis, founded later, was distinct from this tradition's teaching (distinct from)."
+        }
+      ],
+      "existing_links": [
+        {
+          "id": "syriac-edessa-nisibis--the-church-of-the-east-under-persia",
+          "from": "syriac-edessa-nisibis",
+          "to": "the-church-of-the-east-under-persia",
+          "type": "influenced",
+          "confidence": "Documented"
+        },
+        {
+          "id": "syriac-edessa-nisibis--bardaisanite-current",
+          "from": "syriac-edessa-nisibis",
+          "to": "bardaisanite-current",
+          "type": "argued against",
+          "confidence": "Documented"
+        }
+      ]
+    },
+    {
+      "id": "latin-pastoral-congregational-christianity",
+      "name": "Latin Pastoral-Congregational Christianity",
+      "dates": "c. 240s-430",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Confirmed distinct from the Imperial tradition; Donatism contests its interval",
+          "other": "The Imperial tradition",
+          "other_id": "imperial-juridical-christianity",
+          "claim": "Distinct from (contrasted with) the imperial tradition."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Confirmed distinct from the Imperial tradition; Donatism contests its interval",
+          "other": "Donatism",
+          "other_id": "donatism",
+          "claim": "Donatism contests this movement's interval (argued against)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Cyprian became bishop of Carthage around 248, went into hiding when the emperor Decius ordered universal sacrifice, and returned to the hardest pastoral problem of the age.",
+          "other": "Decian persecution (Emperor Decius)",
+          "other_id": null,
+          "other_id_note": "State actor, not a movement.",
+          "claim": "Cyprian fled the Decian persecution (attacked by state)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The North African church itself did not survive: the Vandals took the province in the 430s, and the Arab conquest of the seventh century ended Latin Christianity there altogether.",
+          "other": "Vandals",
+          "other_id": "gothic-and-vandal-homoian-christianity",
+          "claim": "Vandal conquest ended the North African church (attacked, led to end)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The North African church itself did not survive: the Vandals took the province in the 430s, and the Arab conquest of the seventh century ended Latin Christianity there altogether.",
+          "other": "Arab conquest",
+          "other_id": null,
+          "other_id_note": "State actor, not a movement.",
+          "claim": "Arab conquest ended Latin Christianity in North Africa (attacked by)."
+        }
+      ],
+      "existing_links": [
+        {
+          "id": "latin-pastoral-congregational-christianity--the-reformed-cities-zurich-and-geneva",
+          "from": "latin-pastoral-congregational-christianity",
+          "to": "the-reformed-cities-zurich-and-geneva",
+          "type": "influenced",
+          "confidence": "Documented"
+        },
+        {
+          "id": "latin-pastoral-congregational-christianity--pelagianism",
+          "from": "latin-pastoral-congregational-christianity",
+          "to": "pelagianism",
+          "type": "argued against",
+          "confidence": "Documented"
+        },
+        {
+          "id": "latin-pastoral-congregational-christianity--donatism",
+          "from": "latin-pastoral-congregational-christianity",
+          "to": "donatism",
+          "type": "argued against",
+          "confidence": "Documented"
+        },
+        {
+          "id": "donatism--latin-pastoral-congregational-christianity",
+          "from": "donatism",
+          "to": "latin-pastoral-congregational-christianity",
+          "type": "argued against",
+          "confidence": "Widely Accepted"
+        },
+        {
+          "id": "latin-pastoral-congregational-christianity--donatism--2",
+          "from": "latin-pastoral-congregational-christianity",
+          "to": "donatism",
+          "type": "influenced",
+          "confidence": "Documented"
+        }
+      ]
+    },
+    {
+      "id": "tertullian-s-voice",
+      "name": "Tertullian's Voice",
+      "dates": "c. 197-220",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Tertullian's writing opened the entire tradition of Latin Christian argument that the Latin apologists carried on after him.",
+          "other": "Latin apologists",
+          "other_id": "latin-apologists",
+          "claim": "Opened the tradition the Latin apologists carried on (led to)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "He wrote like the advocate he was trained to be: the Apology dismantling Roman slanders against Christians, Against Praxeas arguing that Father and Son are genuinely distinct, and On the Prescription of Heretics contending that heretics have no standing even to cite Scripture, since the Scriptures belong to the churches that received them.",
+          "other": "Praxeas",
+          "other_id": "modalist-monarchianism",
+          "claim": "Tertullian argued against Praxeas (modalism)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "He wrote like the advocate he was trained to be: the Apology dismantling Roman slanders against Christians, Against Praxeas arguing that Father and Son are genuinely distinct, and On the Prescription of Heretics contending that heretics have no standing even to cite Scripture, since the Scriptures belong to the churches that received them.",
+          "other": "Roman slanders against Christians (pagan critics)",
+          "other_id": null,
+          "other_id_note": "Named opponents are pagan critics, not a movement.",
+          "claim": "Argued against Roman slanders in the Apology (argued against)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "He wrote like the advocate he was trained to be: the Apology dismantling Roman slanders against Christians, Against Praxeas arguing that Father and Son are genuinely distinct, and On the Prescription of Heretics contending that heretics have no standing even to cite Scripture, since the Scriptures belong to the churches that received them.",
+          "other": "Heretics in general",
+          "other_id": null,
+          "claim": "Argued that heretics have no standing to cite Scripture (argued against)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "And aligned himself with the New Prophecy out of Phrygia, which is one reason the Latin church quoted him endlessly and never made him a saint.",
+          "other": "The New Prophecy (Montanism)",
+          "other_id": "montanism-the-new-prophecy",
+          "claim": "Aligned himself with the New Prophecy (joined)."
+        },
+        {
+          "field": "why",
+          "sentence": "Cyprian, a generation on, read him every day and called him simply 'the master.'",
+          "other": "Cyprian",
+          "other_id": "latin-pastoral-congregational-christianity",
+          "claim": "Cyprian read Tertullian daily (influenced)."
+        },
+        {
+          "field": "why",
+          "sentence": "Trained as an advocate, he wrote the Apology defending Christians against Roman slander, and in his later years aligned himself with the rigorist New Prophecy movement.",
+          "other": "Roman slander against Christians",
+          "other_id": null,
+          "other_id_note": "Named opponents are pagan critics, not a movement.",
+          "claim": "Argued against Roman slander (argued against)."
+        },
+        {
+          "field": "why",
+          "sentence": "Trained as an advocate, he wrote the Apology defending Christians against Roman slander, and in his later years aligned himself with the rigorist New Prophecy movement.",
+          "other": "The New Prophecy (Montanism)",
+          "other_id": "montanism-the-new-prophecy",
+          "claim": "Aligned himself with the New Prophecy (joined)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "No community descends from him — there is some evidence of a small group of followers in Carthage after his death, and nothing beyond that.",
+          "other": "Followers of Tertullian in Carthage",
+          "other_id": null,
+          "claim": "Small group of followers in Carthage (led to)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Cyprian, Jerome and Augustine all read him closely, and the Western habit of thinking about God, the church and the sacraments in legal and forensic categories owes a great deal to a man who was never canonized and never quite belonged anywhere.",
+          "other": "Cyprian",
+          "other_id": "latin-pastoral-congregational-christianity",
+          "claim": "Cyprian read him closely (influenced)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Cyprian, Jerome and Augustine all read him closely, and the Western habit of thinking about God, the church and the sacraments in legal and forensic categories owes a great deal to a man who was never canonized and never quite belonged anywhere.",
+          "other": "Jerome",
+          "other_id": "hieronymian-ascetic-literary",
+          "claim": "Jerome read him closely (influenced)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Cyprian, Jerome and Augustine all read him closely, and the Western habit of thinking about God, the church and the sacraments in legal and forensic categories owes a great deal to a man who was never canonized and never quite belonged anywhere.",
+          "other": "Augustine",
+          "other_id": "latin-pastoral-congregational-christianity",
+          "other_id_note": "Augustine has no separate census entry; the Hippo congregation entry is the nearest.",
+          "claim": "Augustine read him closely (influenced)."
+        }
+      ],
+      "existing_links": [
+        {
+          "id": "tertullian-s-voice--modalist-monarchianism",
+          "from": "tertullian-s-voice",
+          "to": "modalist-monarchianism",
+          "type": "argued against",
+          "confidence": "Documented"
+        },
+        {
+          "id": "tertullian-s-voice--latin-apologists",
+          "from": "tertullian-s-voice",
+          "to": "latin-apologists",
+          "type": "influenced",
+          "confidence": "Documented"
+        }
+      ]
+    },
+    {
+      "id": "marcion-marcionism",
+      "name": "Marcion / Marcionism",
+      "dates": "c. 140-300s",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Second-century rival the proto-orthodox defined themselves against",
+          "other": "The proto-orthodox church",
+          "other_id": null,
+          "other_id_note": "Proto-orthodox church has no single census entry.",
+          "claim": "Rival the proto-orthodox defined themselves against (argued against)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In 144 the Roman church expelled him and returned his money.",
+          "other": "The Roman church (c. 144)",
+          "other_id": null,
+          "other_id_note": "Roman church of c. 144 has no census entry; roman-church-third-century covers c. 200-268.",
+          "claim": "Expelled by the Roman church (broke with)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Everything we have comes through the men who wrote to refute him, above all Tertullian, whose Against Marcion runs to five books.",
+          "other": "Tertullian",
+          "other_id": "tertullian-s-voice",
+          "claim": "Tertullian wrote Against Marcion to refute him (argued against)."
+        },
+        {
+          "field": "why",
+          "sentence": "After the Roman church expelled him in 144 and returned his money, he built a rival network of congregations with its own edited Scripture - a version of Luke and ten letters of Paul, stripped of what he judged to be Jewish corruption.",
+          "other": "The Roman church (c. 144)",
+          "other_id": null,
+          "other_id_note": "Roman church of c. 144 has no census entry; roman-church-third-century covers c. 200-268.",
+          "claim": "Expelled by the Roman church, after which he built a rival network (broke with)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Congregations that had never needed to specify which books counted as Scripture discovered that they now had to, and the confession of one God, maker of heaven and earth, whose Son truly took flesh, was hammered into its sharpest early form in argument against him.",
+          "other": "The proto-orthodox church",
+          "other_id": null,
+          "other_id_note": "Proto-orthodox church has no single census entry.",
+          "claim": "Orthodox confession was sharpened in argument against him (argued against)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "How far he actually caused the New Testament canon rather than accelerated a process already under way is still debated by historians.",
+          "other": "New Testament canon formation",
+          "other_id": null,
+          "other_id_note": "Process, not a census movement.",
+          "claim": "Possibly influenced New Testament canon formation (debated)."
+        }
+      ],
+      "existing_links": []
+    },
+    {
+      "id": "valentinian-and-other-gnostic-christianities",
+      "name": "Valentinian & other Gnostic Christianities",
+      "dates": "2nd-3rd c.",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Rivals the early traditions anathematized and were shaped by",
+          "other": "The early (proto-orthodox) traditions",
+          "other_id": null,
+          "other_id_note": "No single census entry for the early traditions.",
+          "claim": "Rival of the early traditions, which anathematized them and shaped them (argued against / shaped by)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Valentinus was an Alexandrian teacher who came to Rome around 136 and, according to Tertullian, was nearly elected bishop there.",
+          "other": "Tertullian",
+          "other_id": "tertullian-s-voice",
+          "claim": "Tertullian is the source for Valentinus nearly becoming bishop of Rome."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Along with related currents around teachers like Basilides, they mostly did not build rival churches: they sat in ordinary congregations and offered their teaching as the deeper meaning available to those ready for it, which is precisely what alarmed bishops like Irenaeus, whose five-volume Against Heresies of about 180 was written to drag the system into the open and refute it.",
+          "other": "Basilides and related currents",
+          "other_id": null,
+          "other_id_note": "No census entry for Basilides.",
+          "claim": "Related current around Basilides (associated with)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Along with related currents around teachers like Basilides, they mostly did not build rival churches: they sat in ordinary congregations and offered their teaching as the deeper meaning available to those ready for it, which is precisely what alarmed bishops like Irenaeus, whose five-volume Against Heresies of about 180 was written to drag the system into the open and refute it.",
+          "other": "Irenaeus (Against Heresies)",
+          "other_id": null,
+          "other_id_note": "Named person is a bishop, not a census movement.",
+          "claim": "Irenaeus wrote Against Heresies to refute them (argued against)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "First, the shape of what became orthodox Christianity was set partly by the labor of answering them.",
+          "other": "Orthodox (proto-orthodox) Christianity",
+          "other_id": null,
+          "other_id_note": "No single census entry for orthodoxy.",
+          "claim": "Orthodoxy was shaped partly by answering them (argued against)."
+        }
+      ],
+      "existing_links": []
+    },
+    {
+      "id": "manichaeism",
+      "name": "Manichaeism",
+      "dates": "3rd-7th c.",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Augustine's own former allegiance",
+          "other": "Augustine of Hippo (former Manichaean Hearer)",
+          "other_id": "latin-pastoral-congregational-christianity",
+          "other_id_note": "Augustine has no separate census entry; the Hippo congregation entry is the nearest.",
+          "claim": "Augustine was a Manichaean Hearer and later argued against them (former allegiance)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Mani was born in Mesopotamia in 216 and raised in a Jewish-Christian baptizing sect before breaking with it after what he described as revelations from his heavenly twin.",
+          "other": "Jewish-Christian baptizing sect that raised Mani",
+          "other_id": "ebionite-nazoraean-current",
+          "other_id_note": "Text does not name the sect; the Ebionite census entry is a Jewish-Christian current but is probably not the same baptizing group. Uncertain.",
+          "claim": "Mani broke with the Jewish-Christian baptizing sect that raised him (broke with)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Almost uniquely among founders of his era he wrote his own scriptures and had them translated deliberately, intending a faith that could absorb and supersede Christianity, Zoroastrianism and Buddhism at once.",
+          "other": "Christianity",
+          "other_id": null,
+          "other_id_note": "Christianity is a large tradition with no single census entry.",
+          "claim": "Intended to absorb and supersede Christianity (argued against / competed with)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Almost uniquely among founders of his era he wrote his own scriptures and had them translated deliberately, intending a faith that could absorb and supersede Christianity, Zoroastrianism and Buddhism at once.",
+          "other": "Zoroastrianism",
+          "other_id": null,
+          "other_id_note": "Named tradition, not a census movement.",
+          "claim": "Intended to absorb and supersede Zoroastrianism (competed with)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Almost uniquely among founders of his era he wrote his own scriptures and had them translated deliberately, intending a faith that could absorb and supersede Christianity, Zoroastrianism and Buddhism at once.",
+          "other": "Buddhism",
+          "other_id": null,
+          "other_id_note": "Named tradition, not a census movement.",
+          "claim": "Intended to absorb and supersede Buddhism (competed with)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Augustine of Hippo was a Hearer for roughly nine years before his conversion, and spent much of his later career arguing against the teachers he had once sat under.",
+          "other": "Augustine of Hippo",
+          "other_id": "latin-pastoral-congregational-christianity",
+          "other_id_note": "Augustine has no separate census entry; the Hippo congregation entry is the nearest.",
+          "claim": "Augustine was a Hearer for about nine years, then argued against the teachers he had sat under (argued against)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Mani himself died in custody under the Persian king Bahram I in the 270s.",
+          "other": "Persian king Bahram I",
+          "other_id": null,
+          "other_id_note": "State actor, not a movement.",
+          "claim": "Mani died in custody under Bahram I (attacked by state)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "In the West it was hunted by emperors and by the church and had largely vanished by the sixth century, though the word 'Manichaean' survived for centuries afterwards as an insult aimed at anyone thought too fond of dualism.",
+          "other": "Roman emperors and the church",
+          "other_id": null,
+          "other_id_note": "State actor and the church, not a single census movement.",
+          "claim": "Hunted and suppressed in the West (attacked by)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "In the East it lasted far longer: it was for a time the state religion of the Uyghur Khaganate from the 760s, and persisted in southern China for many centuries.",
+          "other": "Uyghur Khaganate",
+          "other_id": null,
+          "other_id_note": "State, not a census movement.",
+          "claim": "Became the state religion of the Uyghur Khaganate (led to)."
+        }
+      ],
+      "existing_links": []
+    },
+    {
+      "id": "ebionite-nazoraean-current",
+      "name": "Ebionite / Nazoraean Current",
+      "dates": "1st-4th c.",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "These communities are the clearest evidence that Christianity began inside Judaism.",
+          "other": "Judaism",
+          "other_id": null,
+          "other_id_note": "Judaism is a named tradition, not a census movement.",
+          "claim": "Began inside Judaism (came out of Judaism)."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Modern Messianic Jewish movements are sometimes compared to them, but no line of descent connects the two.",
+          "other": "Modern Messianic Jewish movements",
+          "other_id": null,
+          "other_id_note": "Named modern movements; not census entries.",
+          "claim": "Compared with, but not descended into, modern Messianic Jewish movements (no line of descent)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Later heresy-hunting writers — Irenaeus, Origen, Eusebius, Epiphanius, Jerome — describe them under two names, 'Ebionites', from the Hebrew for the poor, and 'Nazoraeans', reporting that they used their own Hebrew or Aramaic gospel, honored James the brother of Jesus, and regarded Paul as an apostate from the Law.",
+          "other": "Origen (describing them as heretics)",
+          "other_id": "alexandria-catechetical",
+          "claim": "Origen wrote about them as heretics (argued against)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Later heresy-hunting writers — Irenaeus, Origen, Eusebius, Epiphanius, Jerome — describe them under two names, 'Ebionites', from the Hebrew for the poor, and 'Nazoraeans', reporting that they used their own Hebrew or Aramaic gospel, honored James the brother of Jesus, and regarded Paul as an apostate from the Law.",
+          "other": "Jerome (describing them as heretics)",
+          "other_id": "hieronymian-ascetic-literary",
+          "claim": "Jerome wrote about them as heretics (argued against)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Later heresy-hunting writers — Irenaeus, Origen, Eusebius, Epiphanius, Jerome — describe them under two names, 'Ebionites', from the Hebrew for the poor, and 'Nazoraeans', reporting that they used their own Hebrew or Aramaic gospel, honored James the brother of Jesus, and regarded Paul as an apostate from the Law.",
+          "other": "Irenaeus (describing them as heretics)",
+          "other_id": null,
+          "other_id_note": "Named person is a bishop, not a census movement.",
+          "claim": "Irenaeus wrote about them as heretics (argued against)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "They disappear from the record by roughly the fifth century, absorbed into the wider church or back into Judaism or simply gone, and the gospel material attributed to them survives only as quotations in the writers who opposed them.",
+          "other": "Judaism",
+          "other_id": null,
+          "other_id_note": "Judaism is a named tradition, not a census movement.",
+          "claim": "Some members returned to Judaism (led back to)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "They disappear from the record by roughly the fifth century, absorbed into the wider church or back into Judaism or simply gone, and the gospel material attributed to them survives only as quotations in the writers who opposed them.",
+          "other": "The wider church",
+          "other_id": null,
+          "claim": "Some members were absorbed into the wider church (led to)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Modern Messianic Jewish movements are sometimes compared to them, but no line of descent connects them.",
+          "other": "Modern Messianic Jewish movements",
+          "other_id": null,
+          "other_id_note": "Named modern movements; not census entries.",
+          "claim": "Compared with, but not descended into, modern Messianic Jewish movements (no line of descent)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "They are the standing reminder that Christianity began inside Judaism, and that the separation of the two was slower, later and far more contested than a tidy account allows.",
+          "other": "Judaism",
+          "other_id": null,
+          "other_id_note": "Judaism is a named tradition, not a census movement.",
+          "claim": "Began inside Judaism (came out of Judaism)."
+        }
+      ],
+      "existing_links": []
+    },
+    {
+      "id": "montanism-the-new-prophecy",
+      "name": "Montanism (the New Prophecy)",
+      "dates": "c. 165-400s",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "A named neighbor within the milieu of the earliest scattered house churches.",
+          "other": "Post-Apostolic Household-Church Christianity",
+          "other_id": "post-apostolic-house-church",
+          "claim": "Neighbor within the same milieu as the house churches."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "It spread well beyond Asia Minor — Tertullian of Carthage became its most articulate Latin advocate — and although Asian synods condemned it and later imperial law suppressed it, communities persisted for centuries.",
+          "other": "Tertullian",
+          "other_id": "tertullian-s-voice",
+          "claim": "Tertullian became its most articulate Latin advocate (joined)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "It spread well beyond Asia Minor — Tertullian of Carthage became its most articulate Latin advocate — and although Asian synods condemned it and later imperial law suppressed it, communities persisted for centuries.",
+          "other": "Asian synods",
+          "other_id": null,
+          "other_id_note": "Named councils, not census entries.",
+          "claim": "Condemned by Asian synods (attacked by)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "It spread well beyond Asia Minor — Tertullian of Carthage became its most articulate Latin advocate — and although Asian synods condemned it and later imperial law suppressed it, communities persisted for centuries.",
+          "other": "Imperial law",
+          "other_id": "imperial-juridical-christianity",
+          "other_id_note": "Nearest census entry; the suppression was by imperial law.",
+          "claim": "Suppressed by later imperial law (attacked by state)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Imperial suppression under Justinian in the sixth century finished it, its own writings were destroyed, and what remains is a handful of quoted oracles plus a body of Phrygian gravestone inscriptions whose Montanist identity is itself argued over.",
+          "other": "Justinian's imperial church",
+          "other_id": "byzantine-imperial-church-justinianic",
+          "claim": "Justinian's suppression finished the movement (attacked by)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Later renewal movements down to modern Pentecostal and charismatic Christianity have repeatedly been accused of reviving it, and have occasionally claimed the comparison themselves, though no historical line connects them.",
+          "other": "Pentecostal and charismatic Christianity",
+          "other_id": null,
+          "other_id_note": "Modern traditions, not census entries.",
+          "claim": "Later renewal movements are accused of reviving it (influenced / accused of continuing)."
+        }
+      ],
+      "existing_links": []
+    },
+    {
+      "id": "novatianism",
+      "name": "Novatianism",
+      "dates": "c. 251-400s",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Rigorist parallel communion; redundancy risk vs. Donatism noted if revisited",
+          "other": "The Roman church (its majority communion)",
+          "other_id": "roman-church-third-century",
+          "claim": "Parallel communion to the Roman church (rival)."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Rigorist parallel communion; redundancy risk vs. Donatism noted if revisited",
+          "other": "Donatism",
+          "other_id": "donatism",
+          "claim": "Compared with Donatism; redundancy risk if revisited (comparison)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "When Cornelius, who took the lenient view, was elected bishop of Rome in 251, Novatian's supporters had him consecrated as a rival bishop, one of the earliest such rival consecrations the city had seen.",
+          "other": "Cornelius and the Roman church",
+          "other_id": "roman-church-third-century",
+          "claim": "Rival bishop set up against Cornelius, the lenient bishop of Rome (broke with)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Their bishop attended the Council of Nicaea in 325 and accepted its creed, and the council's eighth canon set out terms for receiving Novatianist clergy — terms they largely declined.",
+          "other": "Council of Nicaea (325)",
+          "other_id": null,
+          "other_id_note": "Council, not a census movement.",
+          "claim": "Their bishop attended Nicaea and accepted its creed (met)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Their bishop attended the Council of Nicaea in 325 and accepted its creed, and the council's eighth canon set out terms for receiving Novatianist clergy — terms they largely declined.",
+          "other": "Council of Nicaea (325) and its eighth canon",
+          "other_id": null,
+          "other_id_note": "Council, not a census movement.",
+          "claim": "Nicaea's eighth canon set terms for receiving their clergy, which they largely declined (met / declined)."
+        },
+        {
+          "field": "why",
+          "sentence": "His followers, who called themselves the Katharoi, 'the pure,' consecrated him as a rival bishop and spread across the empire for centuries; a Novatianist bishop even attended the Council of Nicaea in 325 and accepted its creed.",
+          "other": "Council of Nicaea (325)",
+          "other_id": null,
+          "other_id_note": "Council, not a census movement.",
+          "claim": "A Novatianist bishop attended Nicaea (met)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The first is the doctrine sharpened against it — that the church is a hospital rather than a society of the already-perfect, and that no sin lies beyond the reach of the church's ministry of reconciliation — worked out by Cyprian in the moment and by Augustine at length afterwards, along with the graded system of public penance that grew out of exactly this argument.",
+          "other": "Cyprian and Augustine",
+          "other_id": "latin-pastoral-congregational-christianity",
+          "other_id_note": "Augustine has no separate census entry; the Hippo congregation entry is the nearest.",
+          "claim": "Cyprian and Augustine worked out the doctrine sharpened against this movement (argued against)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The second is Novatian's own On the Trinity, which was copied, read and valued in the mainstream church as a careful Latin statement of orthodox doctrine long after his party was gone, handed down in manuscripts among the works of Tertullian.",
+          "other": "Tertullian",
+          "other_id": "tertullian-s-voice",
+          "claim": "Novatian's On the Trinity was transmitted among Tertullian's works (attributed with)."
+        }
+      ],
+      "existing_links": [
+        {
+          "id": "roman-church-third-century--novatianism",
+          "from": "roman-church-third-century",
+          "to": "novatianism",
+          "type": "gave rise to",
+          "confidence": "Documented"
+        }
+      ]
+    },
+    {
+      "id": "anatolian-church-third-century",
+      "name": "The Anatolian Church in the Third Century",
+      "dates": "c. 240-312",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "The ground the Cappadocian tradition grows out of and knows it: Basil's grandmother Macrina was formed by Gregory Thaumaturgus' disciples, and Basil appeals to his practice as precedent.",
+          "other": "The Cappadocian tradition",
+          "other_id": "cappadocian-nicene-pastoral-monastic-tradition",
+          "claim": "Ground that the Cappadocian tradition grows out of (parent)."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The ground the Cappadocian tradition grows out of and knows it: Basil's grandmother Macrina was formed by Gregory Thaumaturgus' disciples, and Basil appeals to his practice as precedent.",
+          "other": "The Cappadocian tradition (Basil)",
+          "other_id": "cappadocian-nicene-pastoral-monastic-tradition",
+          "claim": "Basil cites this ground's practice as precedent (influenced)."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Origen's reach runs through it in both directions - Gregory was his devoted pupil, Methodius his first serious critic.",
+          "other": "Origen",
+          "other_id": "alexandria-catechetical",
+          "claim": "Origen's influence runs through it as pupil (Gregory) and critic (Methodius)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "He had fallen in with Origen at Caesarea instead, stayed five years, and left with a farewell address that is one of the warmest descriptions of a teacher anyone wrote in antiquity.",
+          "other": "Origen (teaching at Caesarea)",
+          "other_id": "alexandria-catechetical",
+          "other_id_note": "Origen's teaching at Caesarea is also the palestinian-church-pre-constantinian entry.",
+          "claim": "Gregory studied under Origen at Caesarea (pupil of)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "A generation later and further south, Methodius, bishop of Olympus in Lycia, wrote the Banquet of the Ten Virgins - a Christian rewriting of Plato's Symposium in which ten women take turns praising chastity - and became the first substantial critic of Origen, whose most devoted pupil had been Gregory.",
+          "other": "Origen",
+          "other_id": "alexandria-catechetical",
+          "claim": "Methodius argued against Origen (argued against)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "A generation later and further south, Methodius, bishop of Olympus in Lycia, wrote the Banquet of the Ten Virgins - a Christian rewriting of Plato's Symposium in which ten women take turns praising chastity - and became the first substantial critic of Origen, whose most devoted pupil had been Gregory.",
+          "other": "Plato (Symposium)",
+          "other_id": null,
+          "other_id_note": "Philosopher, not a census movement.",
+          "claim": "Methodius rewrote Plato's Symposium (influenced by Plato)."
+        },
+        {
+          "field": "why",
+          "sentence": "Gregory of Neocaesarea, a devoted pupil of Origen, wrote a canonical letter working out, case by case, what to do with Christians who had looted alongside Gothic raiders in the 250s.",
+          "other": "Origen",
+          "other_id": "alexandria-catechetical",
+          "claim": "Gregory was a devoted pupil of Origen (pupil of)."
+        },
+        {
+          "field": "why",
+          "sentence": "A generation later, Methodius of Olympus rewrote Plato's Symposium as a Christian dialogue in which ten women take turns praising chastity, and became Origen's first serious critic before dying in the persecution around 311.",
+          "other": "Origen",
+          "other_id": "alexandria-catechetical",
+          "claim": "Methodius was Origen's first serious critic (argued against)."
+        },
+        {
+          "field": "why",
+          "sentence": "A generation later, Methodius of Olympus rewrote Plato's Symposium as a Christian dialogue in which ten women take turns praising chastity, and became Origen's first serious critic before dying in the persecution around 311.",
+          "other": "Plato (Symposium)",
+          "other_id": null,
+          "other_id_note": "Philosopher, not a census movement.",
+          "claim": "Methodius rewrote Plato's Symposium (influenced by Plato)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Cappadocian tradition claims descent from this ground explicitly, and Basil cites Gregory's practice as precedent when he wants to argue that something is old.",
+          "other": "The Cappadocian tradition",
+          "other_id": "cappadocian-nicene-pastoral-monastic-tradition",
+          "claim": "Claims descent from this ground (led to)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Gregory's Canonical Epistle entered the received canon-law collections of the East and is still there.",
+          "other": "Canon-law collections of the East",
+          "other_id": "imperial-juridical-christianity",
+          "other_id_note": "Nearest census entry; canon-law collections are not exactly that movement.",
+          "claim": "Gregory's canonical letter entered the canon-law collections of the East (influenced)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "And Methodius' Banquet is the foundation of the Christian literature of virginity - everything Ambrose, Jerome and Gregory of Nyssa later wrote on the subject is downstream of it, and its argument that chastity is a form of freedom rather than a deprivation began there.",
+          "other": "Ambrose of Milan",
+          "other_id": "ambrosian-milan-standalone",
+          "claim": "Ambrose's writing on virginity is downstream of it (influenced)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "And Methodius' Banquet is the foundation of the Christian literature of virginity - everything Ambrose, Jerome and Gregory of Nyssa later wrote on the subject is downstream of it, and its argument that chastity is a form of freedom rather than a deprivation began there.",
+          "other": "Jerome",
+          "other_id": "hieronymian-ascetic-literary",
+          "claim": "Jerome's writing on virginity is downstream of it (influenced)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "And Methodius' Banquet is the foundation of the Christian literature of virginity - everything Ambrose, Jerome and Gregory of Nyssa later wrote on the subject is downstream of it, and its argument that chastity is a form of freedom rather than a deprivation began there.",
+          "other": "Gregory of Nyssa",
+          "other_id": "cappadocian-nicene-pastoral-monastic-tradition",
+          "claim": "Gregory of Nyssa's writing on virginity is downstream of it (influenced)."
+        }
+      ],
+      "existing_links": [
+        {
+          "id": "anatolian-church-third-century--cappadocian-nicene-pastoral-monastic-tradition",
+          "from": "anatolian-church-third-century",
+          "to": "cappadocian-nicene-pastoral-monastic-tradition",
+          "type": "influenced",
+          "confidence": "Documented"
+        },
+        {
+          "id": "alexandria-catechetical--anatolian-church-third-century",
+          "from": "alexandria-catechetical",
+          "to": "anatolian-church-third-century",
+          "type": "influenced",
+          "confidence": "Documented"
+        },
+        {
+          "id": "anatolian-church-third-century--alexandria-catechetical",
+          "from": "anatolian-church-third-century",
+          "to": "alexandria-catechetical",
+          "type": "argued against",
+          "confidence": "Documented"
+        }
+      ]
+    },
+    {
+      "id": "antiochene-church-third-century",
+      "name": "The Church of Antioch in the Third Century",
+      "dates": "c. 190-312",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "The ground third-century Antioch stands on, eighty years before it starts, and the seedbed of the controversy the Homoian and Anomoean disputes later assess.",
+          "other": "Homoian controversy",
+          "other_id": "homoian-arian-christianity",
+          "claim": "Seedbed of the Homoian controversy (led to)."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The ground third-century Antioch stands on, eighty years before it starts, and the seedbed of the controversy the Homoian and Anomoean disputes later assess.",
+          "other": "Anomoean controversy",
+          "other_id": "anomoean-eunomian-christianity",
+          "claim": "Seedbed of the Anomoean controversy (led to)."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Its relation to modalist-monarchianism is symmetry rather than descent: Paul's adoptionism and Sabellius' modalism are the two opposite ways of declining the account of the Son that the century was working out.",
+          "other": "Modalist monarchianism (Sabellius)",
+          "other_id": "modalist-monarchianism",
+          "claim": "Symmetrical opposite (adoptionism vs modalism), not descent."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The teaching at issue was that Christ was a man in whom the Word had come to dwell rather than the Word made flesh - the reading later called adoptionist.",
+          "other": "Adoptionism (Paul of Samosata's teaching)",
+          "other_id": null,
+          "other_id_note": "Named teaching, not a census movement.",
+          "claim": "Council deposed Paul of Samosata for adoptionist teaching (argued against)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Paul of Samosata was bishop of the greatest city in the Roman East and, on the account of the council that removed him, a salaried official of the Palmyrene administration that then governed it.",
+          "other": "Palmyrene administration",
+          "other_id": null,
+          "other_id_note": "State actor, not a movement.",
+          "claim": "Paul was tied to the Palmyrene administration (state ties)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The council could not make the deposition stick, because the civil power was Palmyrene and Paul had its favor; he went only when Aurelian retook the city in 272 and settled the question of who owned the church building by asking which claimant was in communion with the bishops of Italy and Rome, which is the first time a Roman emperor adjudicated a Christian dispute.",
+          "other": "Emperor Aurelian",
+          "other_id": "imperial-juridical-christianity",
+          "other_id_note": "Nearest census entry; Aurelian is a state actor.",
+          "claim": "Aurelian ruled on who held the church building (imperial involvement)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "A generation later, in the same city, a presbyter named Lucian worked over the text of the Greek Bible and taught a circle of students - Arius among them - who afterwards used his name as a badge.",
+          "other": "Arius (Arians)",
+          "other_id": "homoian-arian-christianity",
+          "other_id_note": "Arian party is the nearest census entry.",
+          "claim": "Lucian's student Arius and the Arian party used Lucian's name as a badge (led to)."
+        },
+        {
+          "field": "why",
+          "sentence": "The council's rejection of the word 'homoousios' as something Paul had misused is a large part of why that same word was still suspect at Nicaea, sixty years later.",
+          "other": "Council of Nicaea (325)",
+          "other_id": null,
+          "other_id_note": "Council, not a census movement.",
+          "claim": "Rejection of homoousios here shaped its suspicion at Nicaea (influenced)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The word homoousios - one substance - seems to have been rejected here as something Paul had misused, which is a large part of why its adoption at Nicaea in 325 was so contentious, and why Eastern bishops who were not Arians could still be uneasy about it.",
+          "other": "Council of Nicaea (325)",
+          "other_id": null,
+          "other_id_note": "Council, not a census movement.",
+          "claim": "Homoousios at Nicaea was contentious because of this council (influenced)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "And Lucian's school gave the Arian party its leadership and its self-description: Arius wrote to Eusebius of Nicomedia as one Lucianist to another.",
+          "other": "The Arian party",
+          "other_id": "homoian-arian-christianity",
+          "other_id_note": "Arian party is the nearest census entry.",
+          "claim": "Lucian's school gave the Arian party its leadership (led to)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "And Lucian's school gave the Arian party its leadership and its self-description: Arius wrote to Eusebius of Nicomedia as one Lucianist to another.",
+          "other": "Eusebius of Nicomedia",
+          "other_id": null,
+          "other_id_note": "Named bishop, not a census movement.",
+          "claim": "Arius corresponded with Eusebius of Nicomedia as a fellow Lucianist (met / corresponded)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Antiochene exegetical tradition that Diodore, Theodore and Chrysostom carry is usually traced back to Lucian's work on the text as well - which makes this century the origin of two things the next four centuries spent arguing about.",
+          "other": "Antiochene exegetical tradition (Chrysostom)",
+          "other_id": "antiochene-exegetical-christianity-chrysostom-ce",
+          "claim": "Antiochene exegesis traced back to Lucian's work (led to)."
+        }
+      ],
+      "existing_links": [
+        {
+          "id": "antiochene-church-third-century--antiochene-exegetical-christianity-chrysostom-ce",
+          "from": "antiochene-church-third-century",
+          "to": "antiochene-exegetical-christianity-chrysostom-ce",
+          "type": "influenced",
+          "confidence": "Inferential-Thin"
+        },
+        {
+          "id": "antiochene-church-third-century--homoian-arian-christianity",
+          "from": "antiochene-church-third-century",
+          "to": "homoian-arian-christianity",
+          "type": "gave rise to",
+          "confidence": "Documented"
+        }
+      ]
+    },
+    {
+      "id": "palestinian-church-pre-constantinian",
+      "name": "The Church of Roman Palestine before Constantine",
+      "dates": "c. 185-312",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "It bridges alexandria-catechetical, whose greatest teacher moved here, and jerusalem-liturgical-pilgrimage-christianity, which begins where this ends.",
+          "other": "Alexandrian Catechetical tradition (Origen moved to Caesarea)",
+          "other_id": "alexandria-catechetical",
+          "claim": "Bridges from the Alexandrian school, whose greatest teacher (Origen) moved here (led to)."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "It bridges alexandria-catechetical, whose greatest teacher moved here, and jerusalem-liturgical-pilgrimage-christianity, which begins where this ends.",
+          "other": "Jerusalem liturgical-pilgrimage Christianity",
+          "other_id": "jerusalem-liturgical-pilgrimage-christianity",
+          "claim": "Begins where this movement ends (followed by)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "When Origen left Alexandria for good around 231 he went to Caesarea on the Palestinian coast, and taught there for the last twenty years of his life.",
+          "other": "Origen (Alexandrian school)",
+          "other_id": "alexandria-catechetical",
+          "claim": "Origen moved from Alexandria to Caesarea (led to)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Up the road at Jerusalem, Bishop Alexander had built a library of his own and was collecting letters and records; further inland at Emmaus, Julius Africanus - soldier, scholar, and correspondent of Origen - wrote the first Christian universal chronicle and a careful little treatise on why the two gospel genealogies of Jesus do not agree.",
+          "other": "Bishop Alexander of Jerusalem",
+          "other_id": "jerusalem-liturgical-pilgrimage-christianity",
+          "claim": "Neighboring library at Jerusalem of Bishop Alexander (neighbor of)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Up the road at Jerusalem, Bishop Alexander had built a library of his own and was collecting letters and records; further inland at Emmaus, Julius Africanus - soldier, scholar, and correspondent of Origen - wrote the first Christian universal chronicle and a careful little treatise on why the two gospel genealogies of Jesus do not agree.",
+          "other": "Julius Africanus and Origen",
+          "other_id": "alexandria-catechetical",
+          "claim": "Africanus corresponded with Origen (met / corresponded)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Then the persecution came.",
+          "other": "Persecution (Diocletian era)",
+          "other_id": null,
+          "other_id_note": "State actor, not a movement.",
+          "claim": "Persecution killed Pamphilus and Alexander's death in prison (attacked by state)."
+        },
+        {
+          "field": "why",
+          "sentence": "When Origen left Alexandria for Caesarea around 231, he spent his last twenty years teaching there, and a presbyter named Pamphilus built his books into the best Christian library in the ancient world.",
+          "other": "Origen (Alexandrian school)",
+          "other_id": "alexandria-catechetical",
+          "claim": "Origen moved from Alexandria to Caesarea (led to)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Hexapla, Origen's six-column Old Testament, sat here until the Arab conquest and was consulted by Jerome.",
+          "other": "Origen (Hexapla)",
+          "other_id": "alexandria-catechetical",
+          "claim": "Origen's Hexapla was kept here (work of Origen)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Hexapla, Origen's six-column Old Testament, sat here until the Arab conquest and was consulted by Jerome.",
+          "other": "Jerome",
+          "other_id": "hieronymian-ascetic-literary",
+          "claim": "Jerome consulted the Hexapla kept here (influenced by)."
+        }
+      ],
+      "existing_links": [
+        {
+          "id": "alexandria-catechetical--palestinian-church-pre-constantinian",
+          "from": "alexandria-catechetical",
+          "to": "palestinian-church-pre-constantinian",
+          "type": "influenced",
+          "confidence": "Documented"
+        },
+        {
+          "id": "palestinian-church-pre-constantinian--jerusalem-liturgical-pilgrimage-christianity",
+          "from": "palestinian-church-pre-constantinian",
+          "to": "jerusalem-liturgical-pilgrimage-christianity",
+          "type": "continued as",
+          "confidence": "Inferential-Thin"
+        },
+        {
+          "id": "palestinian-church-pre-constantinian--imperial-juridical-christianity",
+          "from": "palestinian-church-pre-constantinian",
+          "to": "imperial-juridical-christianity",
+          "type": "influenced",
+          "confidence": "Documented"
+        }
+      ]
+    },
+    {
+      "id": "roman-church-third-century",
+      "name": "The Roman Church in the Third Century",
+      "dates": "c. 200-268",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Sits in the gap between post-apostolic-house-church, which ends at 200, and novatianism, which begins with the schism of 251 - the same decades those two entries bracket without covering.",
+          "other": "Post-Apostolic Household-Church Christianity",
+          "other_id": "post-apostolic-house-church",
+          "claim": "Sits between (bracketed by) the house-church world that ends at 200."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Sits in the gap between post-apostolic-house-church, which ends at 200, and novatianism, which begins with the schism of 251 - the same decades those two entries bracket without covering.",
+          "other": "Novatianism",
+          "other_id": "novatianism",
+          "claim": "Bracketed by the Novatian schism of 251 (followed by)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Hippolytus, a learned presbyter of the same city, thought Callistus wrong on all three and said so at length, eventually functioning as a rival bishop.",
+          "other": "Hippolytus and his party (rival bishop)",
+          "other_id": null,
+          "other_id_note": "No census entry for Hippolytus' party.",
+          "claim": "Hippolytus opposed Callistus and set himself up as a rival bishop (broke with)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Zephyrinus and then Callistus led a large and socially mixed congregation through questions that had no settled answers: whether a Christian who had committed grave sin after baptism could ever be restored, whether a noblewoman could contract a union the state would not recognize rather than lose her status, how to speak about Father and Son without saying two Gods.",
+          "other": "Modalist (Sabellian) controversy",
+          "other_id": "modalist-monarchianism",
+          "other_id_note": "Text does not name modalism; this is the question modalism answered. Inferred.",
+          "claim": "Roman debate over Father and Son is the modalist question (inferred)."
+        },
+        {
+          "field": "why",
+          "sentence": "Hippolytus, a learned presbyter who thought him wrong on every count, set himself up as a rival bishop and wrote a Refutation that, almost by accident, preserves more about second- and third-century religious movements than any other surviving book.",
+          "other": "Other second- and third-century religious movements",
+          "other_id": null,
+          "other_id_note": "Movements not named in this text.",
+          "claim": "Hippolytus' Refutation preserves information about other movements (argued against)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The questions argued here did not go away: whether the church can restore the gravely lapsed is what the Novatian schism of 251 and the Donatist controversy of the next century are both about, and Rome's answer - that it can - is the one the Western church kept.",
+          "other": "Novatian schism",
+          "other_id": "novatianism",
+          "claim": "Novatian schism is about restoring the lapsed (argued against)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The questions argued here did not go away: whether the church can restore the gravely lapsed is what the Novatian schism of 251 and the Donatist controversy of the next century are both about, and Rome's answer - that it can - is the one the Western church kept.",
+          "other": "Donatist controversy",
+          "other_id": "donatism",
+          "claim": "Donatist controversy is about restoring the lapsed (argued against)."
+        }
+      ],
+      "existing_links": [
+        {
+          "id": "roman-church-third-century--modalist-monarchianism",
+          "from": "roman-church-third-century",
+          "to": "modalist-monarchianism",
+          "type": "argued against",
+          "confidence": "Documented"
+        },
+        {
+          "id": "post-apostolic-house-church--roman-church-third-century",
+          "from": "post-apostolic-house-church",
+          "to": "roman-church-third-century",
+          "type": "continued as",
+          "confidence": "Widely Accepted"
+        },
+        {
+          "id": "roman-church-third-century--novatianism",
+          "from": "roman-church-third-century",
+          "to": "novatianism",
+          "type": "gave rise to",
+          "confidence": "Documented"
+        }
+      ]
+    },
+    {
+      "id": "danubian-latin-christianity",
+      "name": "Latin Christianity in the Danubian Provinces",
+      "dates": "c. 250-400",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Sits between latin-pastoral-congregational-christianity, which is Latin but Carthaginian, and homoian-arian-christianity, which is Danubian but a century later and beyond the floor.",
+          "other": "Latin pastoral congregations (Carthage)",
+          "other_id": "latin-pastoral-congregational-christianity",
+          "claim": "Sits between this Latin church and the Carthaginian one (contrast)."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Sits between latin-pastoral-congregational-christianity, which is Latin but Carthaginian, and homoian-arian-christianity, which is Danubian but a century later and beyond the floor.",
+          "other": "Homoian ('Arian') Christianity",
+          "other_id": "homoian-arian-christianity",
+          "claim": "Sits between this and the later Danubian Homoian church (later)."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Its text reaches hieronymian-ascetic-literary by a route no other work in the corpus takes: Jerome edited it.",
+          "other": "Jerome (edited its text)",
+          "other_id": "hieronymian-ascetic-literary",
+          "claim": "Jerome edited its commentary (led to / edited by)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Jerome, who came from the same corner of the world and read him carefully, said Victorinus knew Greek better than Latin, so that his works were excellent in sense and inferior in style; what Jerome did not say, and did, was that he found the theology objectionable too.",
+          "other": "Jerome",
+          "other_id": "hieronymian-ascetic-literary",
+          "claim": "Jerome judged Victorinus' Greek better than his Latin and rejected his theology (argued against)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Within fifty years the same provinces were the base of the bishops who ran the Homoian church of the West: Valens of Mursa and Ursacius of Singidunum, the Sirmium creeds of the 350s, and finally Palladius of Ratiaria, deposed at Aquileia in 381 by a council that came up from Italy to do it.",
+          "other": "Homoian church of the West (Valens, Ursacius)",
+          "other_id": "homoian-arian-christianity",
+          "claim": "Same provinces later base of the Homoian church (later)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Within fifty years the same provinces were the base of the bishops who ran the Homoian church of the West: Valens of Mursa and Ursacius of Singidunum, the Sirmium creeds of the 350s, and finally Palladius of Ratiaria, deposed at Aquileia in 381 by a council that came up from Italy to do it.",
+          "other": "Council at Aquileia (Italian bishops)",
+          "other_id": "aquileian-christianity",
+          "other_id_note": "Aquileia is the nearest census entry; the council was Italian.",
+          "claim": "Italian council at Aquileia deposed Palladius, a Homoian bishop (argued against)."
+        },
+        {
+          "field": "why",
+          "sentence": "Victorinus of Pettau, a bishop on the frontier river Drava, wrote the first Latin biblical commentaries around the year 300, though Jerome said he knew Greek better than his own Latin.",
+          "other": "Jerome",
+          "other_id": "hieronymian-ascetic-literary",
+          "claim": "Jerome judged his Latin inferior to his Greek (argued against)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Victorinus' recapitulation reading of the Apocalypse - that the seals, trumpets and bowls narrate the same events over again rather than a sequence of them - passed through Jerome's revision into Tyconius and Augustine and became the standard Western reading of the book.",
+          "other": "Jerome",
+          "other_id": "hieronymian-ascetic-literary",
+          "claim": "Jerome's revision passed the recapitulation reading on (influenced)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Victorinus' recapitulation reading of the Apocalypse - that the seals, trumpets and bowls narrate the same events over again rather than a sequence of them - passed through Jerome's revision into Tyconius and Augustine and became the standard Western reading of the book.",
+          "other": "Tyconius",
+          "other_id": null,
+          "other_id_note": "No census entry for Tyconius.",
+          "claim": "Tyconius took up the recapitulation reading (influenced)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Victorinus' recapitulation reading of the Apocalypse - that the seals, trumpets and bowls narrate the same events over again rather than a sequence of them - passed through Jerome's revision into Tyconius and Augustine and became the standard Western reading of the book.",
+          "other": "Augustine",
+          "other_id": "latin-pastoral-congregational-christianity",
+          "other_id_note": "Augustine has no separate census entry; the Hippo congregation entry is the nearest.",
+          "claim": "Augustine took up the recapitulation reading (influenced)."
+        }
+      ],
+      "existing_links": [
+        {
+          "id": "danubian-latin-christianity--hieronymian-ascetic-literary",
+          "from": "danubian-latin-christianity",
+          "to": "hieronymian-ascetic-literary",
+          "type": "influenced",
+          "confidence": "Documented"
+        },
+        {
+          "id": "danubian-latin-christianity--homoian-arian-christianity",
+          "from": "danubian-latin-christianity",
+          "to": "homoian-arian-christianity",
+          "type": "gave rise to",
+          "confidence": "Widely Accepted"
+        }
+      ]
+    },
+    {
+      "id": "modalist-monarchianism",
+      "name": "Modalist Monarchianism",
+      "dates": "c. 190-270",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "The mirror-image error to Arianism and earlier than it: both are attempts to protect the one God, one by subordinating the Son and one by dissolving him into the Father.",
+          "other": "Arianism (homoian)",
+          "other_id": "homoian-arian-christianity",
+          "claim": "Mirror-image error to Arianism, and earlier (contrast)."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Hippolytus accused Callistus, bishop of Rome, of sheltering it.",
+          "other": "Callistus, bishop of Rome (Hippolytus accused)",
+          "other_id": "roman-church-third-century",
+          "claim": "Hippolytus accused the Roman church's Callistus of sheltering it (argued against)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Tertullian wrote Against Praxeas to say so, in a book that also gave Latin theology much of the vocabulary it would use for the opposite view.",
+          "other": "Tertullian",
+          "other_id": "tertullian-s-voice",
+          "claim": "Tertullian argued against this movement in Against Praxeas (argued against)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Hippolytus wrote against Noetus, and accused Callistus, the bishop of Rome, of sheltering the teaching - an accusation tangled up with his own rivalry for that see.",
+          "other": "Hippolytus",
+          "other_id": "roman-church-third-century",
+          "claim": "Hippolytus wrote against Noetus (argued against)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Hippolytus wrote against Noetus, and accused Callistus, the bishop of Rome, of sheltering the teaching - an accusation tangled up with his own rivalry for that see.",
+          "other": "Callistus, bishop of Rome",
+          "other_id": "roman-church-third-century",
+          "claim": "Hippolytus accused Callistus of sheltering the teaching (argued against)."
+        },
+        {
+          "field": "why",
+          "sentence": "Tertullian's reply, Against Praxeas, forged much of the Latin vocabulary later theology would use to say the opposite.",
+          "other": "Tertullian",
+          "other_id": "tertullian-s-voice",
+          "claim": "Tertullian's reply, Against Praxeas, argued against them (argued against)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Tertullian's Against Praxeas is where a great deal of Latin trinitarian vocabulary was first put to work, so the tradition's language for the doctrine was partly forged in the argument against this position.",
+          "other": "Tertullian",
+          "other_id": "tertullian-s-voice",
+          "claim": "Latin vocabulary first forged in argument against this movement (argued against)."
+        }
+      ],
+      "existing_links": [
+        {
+          "id": "tertullian-s-voice--modalist-monarchianism",
+          "from": "tertullian-s-voice",
+          "to": "modalist-monarchianism",
+          "type": "argued against",
+          "confidence": "Documented"
+        },
+        {
+          "id": "roman-church-third-century--modalist-monarchianism",
+          "from": "roman-church-third-century",
+          "to": "modalist-monarchianism",
+          "type": "argued against",
+          "confidence": "Documented"
+        }
+      ]
+    },
+    {
+      "id": "bardaisanite-current",
+      "name": "Bardaisan and the Bardaisanites",
+      "dates": "c. 180-400",
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Edessa's most famous Christian intellectual before Ephraim, and Ephraim's principal local opponent a century and a half later; a near neighbor of syriac-edessa-nisibis rather than an outsider to it.",
+          "other": "Syriac Christianity (Edessa)",
+          "other_id": "syriac-edessa-nisibis",
+          "claim": "Edessa's Christian intellectual, a near neighbor of this community (insider)."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Edessa's most famous Christian intellectual before Ephraim, and Ephraim's principal local opponent a century and a half later; a near neighbor of syriac-edessa-nisibis rather than an outsider to it.",
+          "other": "Ephraim (Syriac church)",
+          "other_id": "syriac-edessa-nisibis",
+          "claim": "Ephraim was its principal local opponent (argued against)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "He wrote against Marcion, he was baptized in the Edessene church, and he ran a school whose hymns Ephraim would later complain were better than the orthodox ones - which is why Ephraim wrote hymns.",
+          "other": "Marcion",
+          "other_id": "marcion-marcionism",
+          "claim": "Bardaisan wrote against Marcion (argued against)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "He wrote against Marcion, he was baptized in the Edessene church, and he ran a school whose hymns Ephraim would later complain were better than the orthodox ones - which is why Ephraim wrote hymns.",
+          "other": "The Edessene church",
+          "other_id": "syriac-edessa-nisibis",
+          "claim": "Baptized in the Edessene church (member of)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "He wrote against Marcion, he was baptized in the Edessene church, and he ran a school whose hymns Ephraim would later complain were better than the orthodox ones - which is why Ephraim wrote hymns.",
+          "other": "Ephraim (Syriac church)",
+          "other_id": "syriac-edessa-nisibis",
+          "claim": "Ephraim wrote hymns to answer Bardaisan's popular hymns (argued against)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The Book of the Laws of Countries, written by his pupil Philip, presents him arguing that human freedom is real against the fatalism of the astrologers, which is a thoroughly Christian argument.",
+          "other": "Astrologers (fatalism)",
+          "other_id": null,
+          "other_id_note": "Named group, not a census movement.",
+          "claim": "Bardaisan argued against astrological fatalism (argued against)."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Ephraim, writing a century and a half later in the same city, presents him as a heretic with a cosmology of primordial beings and a defective doctrine of the body's resurrection.",
+          "other": "Ephraim (Syriac church)",
+          "other_id": "syriac-edessa-nisibis",
+          "claim": "Ephraim presents him as a heretic (argued against)."
+        },
+        {
+          "field": "why",
+          "sentence": "Bardaisan of Edessa was a courtier, philosopher, and baptized member of the Edessene church who wrote against Marcion and argued that human freedom is real against the fatalism of the astrologers.",
+          "other": "Marcion",
+          "other_id": "marcion-marcionism",
+          "claim": "Bardaisan wrote against Marcion (argued against)."
+        },
+        {
+          "field": "why",
+          "sentence": "Bardaisan of Edessa was a courtier, philosopher, and baptized member of the Edessene church who wrote against Marcion and argued that human freedom is real against the fatalism of the astrologers.",
+          "other": "Astrologers (fatalism)",
+          "other_id": null,
+          "other_id_note": "Named group, not a census movement.",
+          "claim": "Bardaisan argued against astrological fatalism (argued against)."
+        },
+        {
+          "field": "why",
+          "sentence": "His hymns were popular enough that, a century and a half later, Ephraim the Syrian felt he had to write better ones, even while accusing Bardaisan of a heretical cosmology of primordial beings.",
+          "other": "Ephraim (Syriac church)",
+          "other_id": "syriac-edessa-nisibis",
+          "claim": "Ephraim wrote better hymns in response (argued against)."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Syriac hymnody as a form owes something to both sides of this argument: Bardaisan and his son Harmonius set the pattern, and Ephraim's decision to answer them in the same form gave the Syriac church the madrasha tradition that shaped its worship for centuries.",
+          "other": "Syriac church (Ephraim's madrasha tradition)",
+          "other_id": "syriac-edessa-nisibis",
+          "claim": "Syriac hymnody owes its form to Bardaisan and to Ephraim's answer (influenced)."
+        }
+      ],
+      "existing_links": [
+        {
+          "id": "syriac-edessa-nisibis--bardaisanite-current",
+          "from": "syriac-edessa-nisibis",
+          "to": "bardaisanite-current",
+          "type": "argued against",
+          "confidence": "Documented"
+        }
+      ]
+    }
+  ]
+}

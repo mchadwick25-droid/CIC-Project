@@ -1,0 +1,11 @@
+source_file: manassa-yuhanna_tarikh-al-kanisa-al-qibtiyya-ara_1924.txt
+assignments:
+- row_id: manassa-yuhanna_tarikh-al-kanisa-al-qibtiyya-ara_1924--manassa-tarikh-al-kanisa-al-qibtiyya-history-of-the-coptic
+  work: 'Manassa, Tarikh al-Kanisa al-Qibtiyya (history of the Coptic Church, 1924)'
+  author: manassa-yuhanna
+  locus: 'whole; Cyril IV and Cyril V at lines 22068-24335'
+  atlas_ids:
+  - coptic-revival-under-cyril-iv
+  role: tradition
+  confidence: assigned
+  note: 'A history of the Coptic Church in Arabic, by a writer the host record styles القمص, printed in 1924, after the entry''s window. Poor OCR: a second witness until checked against the page images.'

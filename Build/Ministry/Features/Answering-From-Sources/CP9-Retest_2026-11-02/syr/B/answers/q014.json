@@ -1,0 +1,171 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "syr.dw.authority-lived"
+   ],
+   "sentence": "Among us, a person came to authority in one of three ways: by being made a bishop, by taking the covenant vow, or by being found trustworthy over time."
+  },
+  {
+   "record_ids": [
+    "syr.dw.authority-lived"
+   ],
+   "sentence": "Authority lay first with shepherds, and Nisibis sang of its bishops Jacob, Babu and Valgash as the city's fathers who prayed for it."
+  },
+  {
+   "record_ids": [
+    "syr.dw.authority-lived"
+   ],
+   "sentence": "The sage wrote that the good shepherd gives himself for the flock."
+  },
+  {
+   "record_ids": [
+    "syr.term.qyama"
+   ],
+   "sentence": "The sons and daughters of the covenant promised a celibate life for good, yet stayed in town among their kin and served the congregation in the fast, the watch, the vigil and the singing."
+  },
+  {
+   "record_ids": [
+    "syr.dw.authority-lived",
+    "syr.gravity.authority-ambiguity"
+   ],
+   "sentence": "A teacher whose word held could write to bishops in a synod's name, as the sage did, and no one now knows his rank."
+  },
+  {
+   "record_ids": [
+    "syr.dw.authority-lived",
+    "syr.gravity.authority-ambiguity"
+   ],
+   "sentence": "The Persian church had bishops enough to quarrel over precedence, and Papa's claim to be head was contested by his own bishops."
+  },
+  {
+   "record_ids": [
+    "syr.dw.authority-lived",
+    "syr.force.authority-ambiguity-condition"
+   ],
+   "sentence": "Which of these paths finally outranked the others, we never settled in our own years."
+  },
+  {
+   "record_ids": [
+    "syr.force.authority-ambiguity-condition"
+   ],
+   "sentence": "How members lived this plural authority from day to day is not attested."
+  }
+ ],
+ "citations": [
+  "syr.dw.authority-lived",
+  "syr.force.authority-ambiguity-condition",
+  "syr.gravity.authority-ambiguity",
+  "syr.term.qyama"
+ ],
+ "group": "A",
+ "id": "q014",
+ "net_sentences": [
+  {
+   "draft": "Among us, a person came to authority in one of three ways: by being made a bishop, by taking the covenant vow, or by being found trustworthy over time [[syr.dw.authority-lived]] [[as:paraphrase]].",
+   "ratio": 0.77,
+   "sentence": "Among us, a person came to authority in one of three ways: by being made a bishop, by taking the covenant vow, or by being found trustworthy over time.",
+   "tags": [
+    "syr.dw.authority-lived"
+   ],
+   "verdict": "ok",
+   "why": "grounded 77% in own tagged records"
+  },
+  {
+   "draft": "Authority lay first with shepherds, and Nisibis sang of its bishops Jacob, Babu and Valgash as the city's fathers who prayed for it [[syr.dw.authority-lived]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "Authority lay first with shepherds, and Nisibis sang of its bishops Jacob, Babu and Valgash as the city's fathers who prayed for it.",
+   "tags": [
+    "syr.dw.authority-lived"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The sage wrote that the good shepherd gives himself for the flock [[syr.dw.authority-lived]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The sage wrote that the good shepherd gives himself for the flock.",
+   "tags": [
+    "syr.dw.authority-lived"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The sons and daughters of the covenant promised a celibate life for good, yet stayed in town among their kin and served the congregation in the fast, the watch, the vigil and the singing [[syr.term.qyama]] [[as:paraphrase]].",
+   "sentence": "The sons and daughters of the covenant promised a celibate life for good, yet stayed in town among their kin and served the congregation in the fast, the watch, the vigil and the singing.",
+   "tags": [
+    "syr.term.qyama"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "A teacher whose word held could write to bishops in a synod's name, as the sage did, and no one now knows his rank [[syr.dw.authority-lived]] [[syr.gravity.authority-ambiguity]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "A teacher whose word held could write to bishops in a synod's name, as the sage did, and no one now knows his rank.",
+   "tags": [
+    "syr.dw.authority-lived",
+    "syr.gravity.authority-ambiguity"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "The Persian church had bishops enough to quarrel over precedence, and Papa's claim to be head was contested by his own bishops [[syr.dw.authority-lived]] [[syr.gravity.authority-ambiguity]] [[as:paraphrase]].",
+   "ratio": 1.0,
+   "sentence": "The Persian church had bishops enough to quarrel over precedence, and Papa's claim to be head was contested by his own bishops.",
+   "tags": [
+    "syr.dw.authority-lived",
+    "syr.gravity.authority-ambiguity"
+   ],
+   "verdict": "ok",
+   "why": "grounded 100% in own tagged records"
+  },
+  {
+   "draft": "Which of these paths finally outranked the others, we never settled in our own years [[syr.dw.authority-lived]] [[syr.force.authority-ambiguity-condition]] [[as:paraphrase]].",
+   "sentence": "Which of these paths finally outranked the others, we never settled in our own years.",
+   "tags": [
+    "syr.dw.authority-lived",
+    "syr.force.authority-ambiguity-condition"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "How members lived this plural authority from day to day is not attested [[syr.force.authority-ambiguity-condition]] [[as:paraphrase]].",
+   "sentence": "How members lived this plural authority from day to day is not attested.",
+   "tags": [
+    "syr.force.authority-ambiguity-condition"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "syr.dw.authority-lived",
+  "syr.term.qyama",
+  "syr.term.catholicos",
+  "syr.gravity.authority-ambiguity",
+  "syr.force.authority-ambiguity-condition",
+  "syr.force.frontier-plural-milieu",
+  "syr.dw.suffering",
+  "syr.quote.aphrahat-persecuted-litany",
+  "syr.gravity.persecution-endurance",
+  "syr.limit.ritual-sequence",
+  "syr.dw.reading",
+  "syr.quote.dem6-visit-the-sick"
+ ],
+ "raw_text": "Among us, a person came to authority in one of three ways: by being made a bishop, by taking the covenant vow, or by being found trustworthy over time [[syr.dw.authority-lived]] [[as:paraphrase]]. Authority lay first with shepherds, and Nisibis sang of its bishops Jacob, Babu and Valgash as the city's fathers who prayed for it [[syr.dw.authority-lived]] [[as:paraphrase]]. The sage wrote that the good shepherd gives himself for the flock [[syr.dw.authority-lived]] [[as:paraphrase]]. The sons and daughters of the covenant promised a celibate life for good, yet stayed in town among their kin and served the congregation in the fast, the watch, the vigil and the singing [[syr.term.qyama]] [[as:paraphrase]]. A teacher whose word held could write to bishops in a synod's name, as the sage did, and no one now knows his rank [[syr.dw.authority-lived]] [[syr.gravity.authority-ambiguity]] [[as:paraphrase]]. The Persian church had bishops enough to quarrel over precedence, and Papa's claim to be head was contested by his own bishops [[syr.dw.authority-lived]] [[syr.gravity.authority-ambiguity]] [[as:paraphrase]]. Which of these paths finally outranked the others, we never settled in our own years [[syr.dw.authority-lived]] [[syr.force.authority-ambiguity-condition]] [[as:paraphrase]]. How members lived this plural authority from day to day is not attested [[syr.force.authority-ambiguity-condition]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "placed": [],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C6.S1",
+ "text": "Among us, a person came to authority in one of three ways: by being made a bishop, by taking the covenant vow, or by being found trustworthy over time. Authority lay first with shepherds, and Nisibis sang of its bishops Jacob, Babu and Valgash as the city's fathers who prayed for it. The sage wrote that the good shepherd gives himself for the flock. The sons and daughters of the covenant promised a celibate life for good, yet stayed in town among their kin and served the congregation in the fast, the watch, the vigil and the singing. A teacher whose word held could write to bishops in a synod's name, as the sage did, and no one now knows his rank. The Persian church had bishops enough to quarrel over precedence, and Papa's claim to be head was contested by his own bishops. Which of these paths finally outranked the others, we never settled in our own years. How members lived this plural authority from day to day is not attested.",
+ "voice_set_aside": false
+}

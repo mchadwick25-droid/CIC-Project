@@ -1,0 +1,33 @@
+{
+ "round": 1,
+ "verdict": "revise",
+ "counts": {"blocking": 1, "minor": 1, "total": 2},
+ "findings": [
+  {
+   "rid": "G1-01",
+   "severity": "blocking",
+   "finding": "The new relationsSummary fails the readability bar. It is public text: the atlas shows it under 'In its own record' and 'How it connects'. The old one was too short to score. The new one is 15 words and scores.",
+   "evidence": "score_turn('Continued after 1054 as Balkan Bogomilism; a line from the Paulicians is claimed and debated') -> FK 11.8, FRE 35.5, failures: FK above 10, FRE below 60. Rendered at cft-website/index.html lines 69783 and 69851.",
+   "required_fix": "Lives on after 1054 as Balkan Bogomilism. Some say it came from the Paulicians, but this is debated."
+  },
+  {
+   "rid": "G1-02",
+   "severity": "minor",
+   "finding": "The legacy sentence drops the old attribution 'Historians trace'. The continuation link is graded Dominant Modern Reconstruction, so the claim now reads as plain fact. 'The movement lived on ... among the Bogomils' is also circular. And 'So does the claim' leaves it unclear what continues where.",
+   "evidence": "Old legacy: 'Historians trace the movement on into the Bogomils of the Balkans...'. New: 'The movement lived on after 1054 among the Bogomils of the Balkans. Their later story continues as Balkan Bogomilism. So does the claim that they shaped the Cathars of the West.' Link bogomils--balkan-bogomil-continuation has confidence 'Dominant Modern Reconstruction'.",
+   "required_fix": "Historians trace the movement on after 1054 into the Bogomils of the Balkans. Their later story continues as Balkan Bogomilism. That page also takes up the claim that they shaped the Cathars of the West. The Bogomils left no text of their own. Every account of their belief that survives was written by someone who opposed it.  (score_turn: FK 7.5, FRE 61.0, pass)"
+  }
+ ],
+ "cleared": [
+  "Fidelity: no new fact is invented. Every sentence kept or trimmed comes from the entry before release 21. What was dropped (Basil c. 1100, Ottoman end, Cathar debate) is after 1054 and is carried by balkan-bogomil-continuation.",
+  "'Spread ... into Byzantium' before 1054 is supported. The bogomils--balkan-bogomil-continuation link quotes Rački (verified-direct), citing Zigabenos (a listed source): Basil, c. 1111, had led a community in Constantinople for over 40 years, after 15 years in it, so it existed by the mid-11th century. Bulgaria was also Byzantine from 1018.",
+  "relationsSummary content is true: paulicians--bogomils is 'influenced' and Contested ('claimed and debated'). bogomils--balkan-bogomil-continuation is 'continued as'. The retired Cathar link is correctly no longer mentioned. These are the only two links on bogomils.",
+  "The hand-off 'Its story after 1054 continues as Balkan Bogomilism' reads naturally and names the next entry by its public name.",
+  "Consistent with balkan-bogomil-continuation (1054-1300). That entry's text says the movement began in tenth-century Bulgaria and names Basil, Zigabenos, Anna Komnene, Tarnovo 1211 and the Cathar claim. No contradiction is left. Dates label 'c. 950–1054' matches start 950 and end 1054.",
+  "Removing Basil from voices is right. He is the first voice of the era 5 entry, and his burning is after 1054.",
+  "Readability: longDescription FK 8.6 / FRE 60.2, why FK 7.9 / FRE 62.4, legacy FK 7.1 / FRE 62.9. All pass. why still states what the movement was and why it is on the tree. American spelling, no internal language, no AI tells.",
+  "Records: Open-Gaps 44 closing line, new entry 123 (sequential after 122), Build-Plan row and the Decision-Log entry are accurate. The recording is stated plainly as hidden.",
+  "cft-website/tree/bogomils.html has no <audio> element and no narration-player.js. The mp3 is left in place, unreferenced.",
+  "validate-census: 0 errors, 2 old warnings. build_tree_site: 0 mismatched. check_live_commentary --enforce: exit 0. Release number 21 is set in the census and in data.html."
+ ]
+}

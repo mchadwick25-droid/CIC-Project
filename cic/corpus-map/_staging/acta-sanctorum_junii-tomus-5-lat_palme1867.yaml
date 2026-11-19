@@ -1,0 +1,11 @@
+source_file: acta-sanctorum_junii-tomus-5-lat_palme1867.txt
+assignments:
+- row_id: acta-sanctorum_junii-tomus-5-lat_palme1867--jacques-de-vitry-life-of-marie-d-oignies-acta-sanctorum-june-v
+  work: Jacques de Vitry, Life of Marie d'Oignies, Acta Sanctorum June V
+  author: acta-sanctorum
+  locus: Marie from about OCR line 120129, the Life 120900-127669; the rest of the volume is other saints; add 12 to OCR line numbers
+  atlas_ids:
+  - the-beguines
+  role: context
+  confidence: provisional
+  note: A sympathetic outside view in the idealizing frame of a saint's life, by a bishop and preacher, written inside this window.

@@ -16,7 +16,7 @@ confidence:
   divergence_note: null
 sources:
 - source_id: hal.source.jerome-ep22
-  locus: sec. 30
+  locus: "sec. 30 (cic/texts/npnf206_jerome-principal-works.xml, lines 6483-6486)"
   license: public-domain
 text: 'Thou liest, thou art a follower of Cicero and not of Christ. For ''where thy
   treasure is, there will thy heart be also.'''

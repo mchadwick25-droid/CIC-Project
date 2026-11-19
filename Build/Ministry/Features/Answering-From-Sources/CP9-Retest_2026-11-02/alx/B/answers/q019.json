@@ -1,0 +1,212 @@
+{
+ "citation_entries": [
+  {
+   "record_ids": [
+    "alx.gravity.soul-transformation"
+   ],
+   "sentence": "Our practice offered a slow turning toward God, not a quick settling: we held formation to be active work, done step by step."
+  },
+  {
+   "record_ids": [
+    "alx.gravity.soul-transformation"
+   ],
+   "sentence": "The steps were catechesis, purification, illumination, knowledge, and wisdom."
+  },
+  {
+   "record_ids": [
+    "alx.term.prayer"
+   ],
+   "sentence": "Prayer was converse with God, spoken or silent, the soul turning toward him without distraction."
+  },
+  {
+   "record_ids": [
+    "alx.term.metanoia"
+   ],
+   "sentence": "Metanoia, our word for turning back, meant a change of mind, not just feeling sorry."
+  },
+  {
+   "record_ids": [
+    "alx.gravity.divine-pedagogy"
+   ],
+   "sentence": "We believed God is always teaching, through Scripture's difficulty, through catechesis, and through suffering."
+  },
+  {
+   "record_ids": [
+    "alx.quote.clement-instructor"
+   ],
+   "sentence": "Clement wrote of the Word in his Paedagogus: “So our Instructor, the Word, cures the unnatural passions of the soul, and he does this by urging us on.”"
+  },
+  {
+   "record_ids": [
+    "alx.dw.doubt"
+   ],
+   "sentence": "We did not have the modern language of a private crisis of faith."
+  },
+  {
+   "record_ids": [
+    "alx.dw.doubt"
+   ],
+   "sentence": "Our doubters stood inside a praying community and were expected to bring the question to a teacher rather than carry it alone."
+  },
+  {
+   "record_ids": [
+    "alx.gravity.learning-formation"
+   ],
+   "sentence": "In the school tradition, learning was itself formation, and the bond between teacher and student was the path of the soul's change."
+  }
+ ],
+ "citations": [
+  "alx.dw.doubt",
+  "alx.gravity.divine-pedagogy",
+  "alx.gravity.learning-formation",
+  "alx.gravity.soul-transformation",
+  "alx.quote.clement-instructor",
+  "alx.term.metanoia",
+  "alx.term.prayer"
+ ],
+ "group": "A",
+ "id": "q019",
+ "net_sentences": [
+  {
+   "draft": "Our practice offered a slow turning toward God, not a quick settling: we held formation to be active work, done step by step [[alx.gravity.soul-transformation]] [[as:paraphrase]].",
+   "sentence": "Our practice offered a slow turning toward God, not a quick settling: we held formation to be active work, done step by step.",
+   "tags": [
+    "alx.gravity.soul-transformation"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "The steps were catechesis, purification, illumination, knowledge, and wisdom [[alx.gravity.soul-transformation]] [[as:paraphrase]].",
+   "sentence": "The steps were catechesis, purification, illumination, knowledge, and wisdom.",
+   "tags": [
+    "alx.gravity.soul-transformation"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Prayer was converse with God, spoken or silent, the soul turning toward him without distraction [[alx.term.prayer]] [[as:paraphrase]].",
+   "sentence": "Prayer was converse with God, spoken or silent, the soul turning toward him without distraction.",
+   "tags": [
+    "alx.term.prayer"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Metanoia, our word for turning back, meant a change of mind, not just feeling sorry [[alx.term.metanoia]] [[as:paraphrase]].",
+   "sentence": "Metanoia, our word for turning back, meant a change of mind, not just feeling sorry.",
+   "tags": [
+    "alx.term.metanoia"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "We believed God is always teaching, through Scripture's difficulty, through catechesis, and through suffering [[alx.gravity.divine-pedagogy]] [[as:paraphrase]].",
+   "ratio": 0.88,
+   "sentence": "We believed God is always teaching, through Scripture's difficulty, through catechesis, and through suffering.",
+   "tags": [
+    "alx.gravity.divine-pedagogy"
+   ],
+   "verdict": "ok",
+   "why": "grounded 88% in own tagged records"
+  },
+  {
+   "draft": "Clement wrote of the Word in his Paedagogus: [[quote:alx.quote.clement-instructor]]",
+   "placed_quote": "alx.quote.clement-instructor",
+   "sentence": "Clement wrote of the Word in his Paedagogus: “So our Instructor, the Word, cures the unnatural passions of the soul, and he does this by urging us on.”",
+   "tags": [
+    "alx.quote.clement-instructor"
+   ],
+   "verdict": "ok",
+   "why": "quote placed by code, verbatim to its record"
+  },
+  {
+   "draft": "[[as:paraphrase]].",
+   "sentence": ".",
+   "tags": [],
+   "verdict": "ok",
+   "why": "no checkable claim - interpretive/connective framing"
+  },
+  {
+   "draft": "We did not have the modern language of a private crisis of faith [[alx.dw.doubt]] [[as:paraphrase]].",
+   "sentence": "We did not have the modern language of a private crisis of faith.",
+   "tags": [
+    "alx.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "Our doubters stood inside a praying community and were expected to bring the question to a teacher rather than carry it alone [[alx.dw.doubt]] [[as:paraphrase]].",
+   "sentence": "Our doubters stood inside a praying community and were expected to bring the question to a teacher rather than carry it alone.",
+   "tags": [
+    "alx.dw.doubt"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  },
+  {
+   "draft": "In the school tradition, learning was itself formation, and the bond between teacher and student was the path of the soul's change [[alx.gravity.learning-formation]] [[as:paraphrase]].",
+   "sentence": "In the school tradition, learning was itself formation, and the bond between teacher and student was the path of the soul's change.",
+   "tags": [
+    "alx.gravity.learning-formation"
+   ],
+   "verdict": "ok",
+   "why": "tagged claim, shares ground with its own records"
+  }
+ ],
+ "offered": [
+  "alx.dw.apostolic",
+  "alx.term.metanoia",
+  "alx.term.prayer",
+  "alx.story.gregory-formation",
+  "alx.story.leonides-martyrdom",
+  "alx.quote.clement-instructor",
+  "alx.gravity.divine-pedagogy",
+  "alx.gravity.speculative-doctrinal-tension",
+  "alx.story.didymus-meeting",
+  "alx.term.didaskalos",
+  "alx.quote.dionysius-nepos",
+  "alx.term.martys",
+  "alx.term.episkopos",
+  "alx.quote.clement-bee",
+  "alx.gravity.learning-formation",
+  "alx.gravity.martyrdom-contemplative-tension",
+  "alx.contested.didaskaleion-institution",
+  "alx.gravity.learning-community-tension",
+  "alx.gravity.soul-transformation"
+ ],
+ "raw_text": "Our practice offered a slow turning toward God, not a quick settling: we held formation to be active work, done step by step [[alx.gravity.soul-transformation]] [[as:paraphrase]]. The steps were catechesis, purification, illumination, knowledge, and wisdom [[alx.gravity.soul-transformation]] [[as:paraphrase]]. Prayer was converse with God, spoken or silent, the soul turning toward him without distraction [[alx.term.prayer]] [[as:paraphrase]]. Metanoia, our word for turning back, meant a change of mind, not just feeling sorry [[alx.term.metanoia]] [[as:paraphrase]]. We believed God is always teaching, through Scripture's difficulty, through catechesis, and through suffering [[alx.gravity.divine-pedagogy]] [[as:paraphrase]]. Clement wrote of the Word in his Paedagogus: [[quote:alx.quote.clement-instructor]] [[as:paraphrase]]. We did not have the modern language of a private crisis of faith [[alx.dw.doubt]] [[as:paraphrase]]. Our doubters stood inside a praying community and were expected to bring the question to a teacher rather than carry it alone [[alx.dw.doubt]] [[as:paraphrase]]. In the school tradition, learning was itself formation, and the bond between teacher and student was the path of the soul's change [[alx.gravity.learning-formation]] [[as:paraphrase]].\n",
+ "reply_shape": {
+  "leadin_support": {
+   "alx.quote.clement-instructor": [
+    {
+     "detail": "Paedagogus",
+     "kind": "name",
+     "snippet": "passions of the soul by means of exhortations. Clement, in Paedagogus I.2, describes the Word as Instructor who cures the soul's",
+     "span": "record alx.quote.clement-instructor"
+    },
+    {
+     "detail": "wrote",
+     "kind": "genre",
+     "snippet": "the teacher whose books survive, though almost nothing of his life does c. 150 (tr",
+     "span": "record alx.figure.clement"
+    }
+   ]
+  },
+  "placed": [
+   "alx.quote.clement-instructor"
+  ],
+  "removed": [],
+  "repaired": []
+ },
+ "routing_action": "voice_with_directive",
+ "routing_reason": "ordinary turn",
+ "sends": 1,
+ "sub_question": "C14.S8",
+ "text": "Our practice offered a slow turning toward God, not a quick settling: we held formation to be active work, done step by step. The steps were catechesis, purification, illumination, knowledge, and wisdom. Prayer was converse with God, spoken or silent, the soul turning toward him without distraction. Metanoia, our word for turning back, meant a change of mind, not just feeling sorry. We believed God is always teaching, through Scripture's difficulty, through catechesis, and through suffering. Clement wrote of the Word in his Paedagogus: “So our Instructor, the Word, cures the unnatural passions of the soul, and he does this by urging us on.”. We did not have the modern language of a private crisis of faith. Our doubters stood inside a praying community and were expected to bring the question to a teacher rather than carry it alone. In the school tradition, learning was itself formation, and the bond between teacher and student was the path of the soul's change.",
+ "voice_set_aside": false
+}

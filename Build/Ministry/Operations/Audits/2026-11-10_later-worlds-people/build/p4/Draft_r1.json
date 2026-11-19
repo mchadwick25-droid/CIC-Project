@@ -1,0 +1,948 @@
+{
+ "entries": [
+  {
+   "id": "gregory-vii",
+   "atlasId": "TBD",
+   "era": 5,
+   "kind": "person",
+   "toldWithin": "latin-papal-church-gregorian",
+   "name": "Gregory VII",
+   "shortName": "Gregory VII",
+   "informalName": "Hildebrand",
+   "dates": "1073-1085",
+   "start": 1073,
+   "end": 1085,
+   "region": "Rome",
+   "placeLabel": "Rome",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Rome",
+     "placeId": "Q220",
+     "pleiadesId": "423025"
+    }
+   ],
+   "regions": [
+    "Mediterranean"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Moderate. The Library holds documents issued in his name in Mirbt's source book of papal documents, among them his 1076 sentence on Henry IV and his report on Canossa. It holds no separate register of his letters.",
+   "floorNote": "Not in question.",
+   "relationsSummary": "Told within the Latin papal church of the Gregorian reform. He did not found it: it began around 1049 in the circle of Leo IX, before his reign. His dealings with kings and other churches are carried on its links.",
+   "why": "Gregory VII, called Hildebrand before he took the name, was pope from 1073 to 1085. In 1076 he cut the German king Henry IV off from the church. He told Henry's subjects that their oaths to the king no longer bound them. A list of papal claims in his Register for 1075 says the pope may depose emperors.",
+   "entry": null,
+   "teaser": "Rome, 1073 to 1085 CE. The pope who declared a king deposed, and whom Protestants later blamed for the claims of the papacy.",
+   "longDescription": "Gregory VII was pope from 1073 to 1085. In his prayer to Peter, he says the Roman church dragged him to its helm against his will. He did not take the seat as a prize, he says. He would rather have ended his life as a pilgrim than seize Peter's place by worldly cunning, for the glory of the world.\n\nA list of papal claims, the Dictatus Papae, is entered in his Register for 1075. One says the pope may depose emperors. Another says no one may judge him. Mirbt notes Sackur's view that Cardinal Deusdedit wrote it. In 1076, at the Roman synod of Lent, Gregory took the rule of the German and Italian kingdoms from Henry IV. He freed all Christians from the oaths they had sworn, or would swear, to the king and bound Henry with anathema.\n\nIn January 1077 Henry did penance at Canossa. Gregory's own report says the abbot of Cluny, Hugh, helped confirm the king's sworn promises. The wider story of the reform is told in the Latin papal church's entry.",
+   "voices": [
+    "Gregory VII — pope whose 1076 sentence on Henry IV and report on Canossa the Library holds",
+    "Henry IV — the German king Gregory cut off from the church, whose oath at Canossa is recorded in the same source book"
+   ],
+   "legacy": "His name stayed on the reform. Later Protestants named him as the start of the papal claims. John Calvin wrote that Hildebrand, 'an impure and wicked man', won the popes the rank of emperors. The German Pietist Bengel called the beast of Revelation 'the Hildebrandine Papacy'. After 1660 English writers named him too. Barlow wrote that Pope Hildebrand deposed the Emperor Henry IV. These writers name him in blame. They do not claim him as a model.",
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "innocent-iii",
+   "atlasId": "TBD",
+   "era": 5,
+   "kind": "person",
+   "toldWithin": "latin-papal-church-gregorian",
+   "name": "Innocent III",
+   "shortName": "Innocent III",
+   "informalName": "Pope Innocent III",
+   "dates": "1198-1216",
+   "start": 1198,
+   "end": 1216,
+   "region": "Rome",
+   "placeLabel": "Rome",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Rome",
+     "placeId": "Q220",
+     "pleiadesId": "423025"
+    }
+   ],
+   "regions": [
+    "Mediterranean"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Moderate. Mirbt's source book holds a run of his letters and bulls, from 1198 to 1215, and canons of his Fourth Lateran Council. Theiner's collection holds more of his letters to the Balkan churches, among them those of 1205 and 1209.",
+   "floorNote": "Not in question.",
+   "relationsSummary": "Told within the Latin papal church of the Gregorian reform, which he did not found. It began around 1049, and he was pope from 1198. His dealings with the friars and with Constantinople are carried on its links.",
+   "why": "Innocent III was pope from 1198 to 1216. He judged between kings, called crusades and approved Francis of Assisi's first friars. In 1215 his Fourth Lateran Council made law for the whole Latin church. In 1198 he wrote that royal power takes its glory from the pope, as the moon takes its light from the sun.",
+   "entry": null,
+   "teaser": "Rome, 1198 to 1216 CE. The pope who wrote that royal power shines by the light of the church, as the moon shines by the sun.",
+   "longDescription": "Innocent III became pope in 1198. In October of that year he wrote to Acerbus. God, the maker of all things, set two great lights in the sky, he says. The greater rules the day and the lesser the night. In the same way he set two great offices in the church. The greater rules souls, as if they were days. The lesser rules bodies, as if they were nights. These are the papal authority and the royal power.\n\nThe moon takes its light from the sun, he goes on, and is truly less than it in size and quality, in place and in effect. In the same way, royal power takes the splendour of its rank from the papal authority.\n\nFrancis of Assisi's first Rule says Francis asked Innocent to grant and confirm his way of life. It says the pope did so for Francis and his brothers. In 1205 Innocent wrote that the church of Constantinople had lately come back to the unity of the Roman see. In 1215 he held the Fourth Lateran Council. Its rules ran from the meaning of the eucharist to yearly confession.",
+   "voices": [
+    "Innocent III — pope whose letter on the two great lights the Library holds",
+    "Francis of Assisi — whose first Rule says Innocent confirmed his way of life"
+   ],
+   "legacy": "The Roman Catechism names him. It says that a council at the Lateran, held under him, backed the church's ruling on the Eucharist.\n\nThe Anabaptist Martyrs Mirror says he was the first to set up the office of inquisition. It prints a letter he wrote to an archbishop.",
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "hugo-grotius",
+   "atlasId": "TBD",
+   "era": 7,
+   "kind": "person",
+   "toldWithin": "the-remonstrants-and-dort",
+   "name": "Hugo Grotius",
+   "shortName": "Grotius",
+   "informalName": "Grotius the jurist",
+   "dates": "1617-1645",
+   "start": 1617,
+   "end": 1645,
+   "region": "Netherlands",
+   "placeLabel": "Netherlands",
+   "modernCountries": [
+    {
+     "country": "Netherlands",
+     "countryId": "Q55",
+     "place": "Netherlands",
+     "placeId": "Q55"
+    }
+   ],
+   "regions": [
+    "North Europe"
+   ],
+   "lane": "6 Protestant & Evangelical",
+   "laneLabel": "Protestant & Evangelical",
+   "laneOrder": 6,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Moderate. The Library holds his 1617 treatise on the satisfaction of Christ, but only in Foster's English of 1889. Foster's introduction and notes sit in the same file. The Latin is not held.",
+   "floorNote": "Not in question.",
+   "relationsSummary": "Told within the Remonstrants and Dort. He sided with them but did not found that tradition, which began with the Remonstrance of 1610. English writers after 1660 name him; his legacy below says how.",
+   "why": "Hugo Grotius was a jurist of Holland who sided with the Remonstrants. In 1617 he published at Leiden a defence of the doctrine that Christ's death satisfied divine justice. English writers after 1660 cite him, for and against, on Scripture, Antichrist and the Church of Rome.",
+   "entry": null,
+   "teaser": "Leiden and the Netherlands, 1617 to 1645. A jurist on the Remonstrant side who wrote a defence of Christ's satisfaction, and whom English writers cited for and against.",
+   "longDescription": "Grotius was a jurist of Holland on the Remonstrant side. In 1617 he published at Leiden a treatise on theology.\n\nIt answers Faustus Socinus, who denied that Christ's death satisfied divine justice. The treatise opens by promising to state first the doctrine which the church of Christ has defended 'with unshaken faith', as drawn from Scripture. It then sets that doctrine beside the view of Socinus. The Library holds it only in Foster's English.\n\nDort condemned the Remonstrants. Foster, his translator, says that Grotius suffered under the ban. It fell on all his fellow Arminians. He found a kinder welcome among the English ones.",
+   "voices": [
+    "Hugo Grotius — jurist and author of the 1617 Defence of the Catholic Faith, held in Foster's English",
+    "Richard Baxter — the English Dissenting minister whose memoir names Grotius more than once"
+   ],
+   "legacy": "English writers kept reading him, and they did not agree. Burnet, in his Discourse of the Pastoral Care of 1692, says Grotius's book on the truth of the Christian religion, with his notes, 'ought to be read and almost got by heart'. Barlow argued against Grotius's view that Caligula was Antichrist. Baxter wrote against him twice. He warned the Episcopal party against 'Grotianism'. When Thomas Pierce defended Grotius as a peaceable Protestant, Baxter collected his late writings to prove he had turned Papist. He also rejected what Grotius had written in favour of lying.",
+   "reviewStatus": "AI-checked"
+  }
+ ],
+ "fact_table": [
+  {
+   "entry": "gregory-vii",
+   "field": "sourcing",
+   "sentence": "Mirbt holds his 1076 sentence and his report on Canossa.",
+   "grade": "Documented",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "10360",
+   "quote": "Exkommunikation u. Absetzung Heinrichs IV. auf der"
+  },
+  {
+   "entry": "gregory-vii",
+   "field": "sourcing",
+   "sentence": "It holds no separate register of his letters.",
+   "grade": "Documented",
+   "source": "Candidate row C140 (later-worlds count): \"No separate Registrum is shelved.\""
+  },
+  {
+   "entry": "gregory-vii",
+   "field": "relationsSummary",
+   "sentence": "The reform began around 1049 in the circle of Leo IX, before his reign.",
+   "grade": "Widely Accepted",
+   "source": "cic-website/data/world-census.json, latin-papal-church-gregorian: dates c. 1049-1300; longDescription \"a circle of reformers around Pope Leo IX\""
+  },
+  {
+   "entry": "gregory-vii",
+   "field": "why / longDescription",
+   "sentence": "He was pope from 1073 to 1085.",
+   "grade": "Documented",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "10352",
+   "quote": "Papst Gregor VII. (1073—1085)."
+  },
+  {
+   "entry": "gregory-vii",
+   "field": "why",
+   "sentence": "Called Hildebrand before he took the name Gregory.",
+   "grade": "Documented",
+   "file": "cic/texts/calvin_institutes-christian-religion-vol3_beveridge1845.txt",
+   "lines": "10823-10824",
+   "quote": "At length Hildebrand, who took the name of Gre- gory VII., an impure and wicked man"
+  },
+  {
+   "entry": "gregory-vii",
+   "field": "why / longDescription",
+   "sentence": "In 1076 at the Lenten synod he cut Henry IV off; he took from him the rule of the German and Italian kingdoms.",
+   "grade": "Documented",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "10377-10379",
+   "quote": "Heinrico regi, filio Heinrici imperatoris, qui contra tuam ecclesiam inaudita superbia insurrexit, totius regni Teutonico-so rum et Italiae gubernacula contradico"
+  },
+  {
+   "entry": "gregory-vii",
+   "field": "why / longDescription",
+   "sentence": "He freed all Christians from the oaths they had sworn, or would swear, to the king.",
+   "grade": "Documented",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "10376-10380",
+   "quote": "quod sibi fecerunt vel facient"
+  },
+  {
+   "entry": "gregory-vii",
+   "field": "why / longDescription",
+   "sentence": "The Dictatus Papae says the pope may depose emperors.",
+   "grade": "Documented",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "11202-11203",
+   "quote": "Quod illi liceat impe- ratores deponere."
+  },
+  {
+   "entry": "gregory-vii",
+   "field": "longDescription",
+   "sentence": "He bound Henry with anathema.",
+   "grade": "Documented",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "10386",
+   "quote": "vinculo eum anathematis vice tua alligo"
+  },
+  {
+   "entry": "gregory-vii",
+   "field": "longDescription",
+   "sentence": "The sentence was passed at the Roman synod of Lent, 1076.",
+   "grade": "Documented",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "10360",
+   "quote": "Exkommunikation u. Absetzung Heinrichs IV. auf der"
+  },
+  {
+   "entry": "gregory-vii",
+   "field": "longDescription",
+   "sentence": "His prayer says the Roman church dragged him to its helm against his will.",
+   "grade": "Documented",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "10369-10370",
+   "quote": "quod tua sancta Romana ecclesia me invitum ad sua gubernacula traxit"
+  },
+  {
+   "entry": "gregory-vii",
+   "field": "longDescription",
+   "sentence": "The Dictatus Papae says no one may judge the pope.",
+   "grade": "Documented",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "11209",
+   "quote": "Quod a nemine ipse iudicari debeat."
+  },
+  {
+   "entry": "gregory-vii",
+   "field": "longDescription",
+   "sentence": "In January 1077 Henry did penance at Canossa.",
+   "grade": "Documented",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "10391",
+   "quote": "Bericht über die Buße Heinrichs IV. in Canossa"
+  },
+  {
+   "entry": "gregory-vii",
+   "field": "longDescription",
+   "sentence": "Gregory's report says the abbot of Cluny, Hugh, helped confirm the king's promises.",
+   "grade": "Documented",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "10442",
+   "quote": "Quarum etiam confirmationem per manus abbatis Cluniacensis (sc. Hugonis)"
+  },
+  {
+   "entry": "gregory-vii",
+   "field": "longDescription",
+   "sentence": "He did not take the seat as a prize, he says.",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "10367-10371",
+   "quote": "et ego non rapinam arbitratus sum ad sedem tuam ascendere",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-vii",
+   "field": "longDescription",
+   "sentence": "He would rather have ended his life as a pilgrim than seize Peter's place by worldly cunning.",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "10368-10372",
+   "quote": "peregrinatione finire, quam locum tuum",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-vii",
+   "field": "longDescription",
+   "sentence": "The seat is seized 'for the glory of the world' by worldly cunning.",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "10368-10372",
+   "quote": "pro gloria mundi saeculari ingenio arripere",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-vii",
+   "field": "longDescription",
+   "sentence": "The Dictatus Papae is entered in his Register for 1075.",
+   "file": null,
+   "work": "cic-website/data/world-census.json, edge latin-papal-church-gregorian--latin-papal-church-avignon-to-lateran-v, source 1 (Mirbt no. 255, Dictatus Papae 1075, Register II.55a)",
+   "locus": "",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-vii",
+   "field": "longDescription",
+   "sentence": "Mirbt heads the text as the Dictatus Papae of Gregory VII, Register II 55a.",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "11185-11189",
+   "quote": "Dictatus papae Gregorii VII., Registri II 55 a",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-vii",
+   "field": "longDescription",
+   "sentence": "Mirbt cites Sackur's view that the author was Cardinal Deusdedit.",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "11186-11190",
+   "quote": "Verfasser Kardinal Deusdedit (gest. c. 1099)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-vii",
+   "field": "voices",
+   "sentence": "Henry IV's oath at Canossa is recorded in the same source book.",
+   "grade": "Documented",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "10485",
+   "quote": "Item ex parte regis interfuerunt"
+  },
+  {
+   "entry": "gregory-vii",
+   "field": "legacy",
+   "sentence": "Calvin names Hildebrand, Gregory VII, an impure and wicked man.",
+   "grade": "Documented",
+   "file": "cic/texts/calvin_institutes-christian-religion-vol3_beveridge1845.txt",
+   "lines": "10823-10824",
+   "quote": "At length Hildebrand, who took the name of Gre- gory VII., an impure and wicked man"
+  },
+  {
+   "entry": "gregory-vii",
+   "field": "legacy",
+   "sentence": "Calvin says the popes won the rank of emperors through him.",
+   "grade": "Documented",
+   "file": "cic/texts/calvin_institutes-christian-religion-vol3_beveridge1845.txt",
+   "lines": "10173-10175",
+   "quote": "When, and by what means, the Roman' Pontiffs attained to imperial dignity. Hildebrand its founder."
+  },
+  {
+   "entry": "gregory-vii",
+   "field": "legacy",
+   "sentence": "Bengel calls the beast rising out of the sea the Hildebrandine papacy.",
+   "grade": "Documented",
+   "file": "cic/texts/bengel_introduction-to-exposition-of-apocalypse_robertson1757.txt",
+   "lines": "1314",
+   "quote": "Hildebrandine Papacy"
+  },
+  {
+   "entry": "gregory-vii",
+   "field": "legacy",
+   "sentence": "Bengel's book names Hildebrand in its account of the church's history.",
+   "grade": "Documented",
+   "file": "cic/texts/bengel_introduction-to-exposition-of-apocalypse_robertson1757.txt",
+   "lines": "10218",
+   "quote": "At lafl came Hildebrand."
+  },
+  {
+   "entry": "gregory-vii",
+   "field": "legacy",
+   "sentence": "Bengel is counted under German Pietism.",
+   "grade": "Documented",
+   "source": "Candidate row C140 counted_traditions: german-pietism-spener-francke-halle, 6 clean passages"
+  },
+  {
+   "entry": "gregory-vii",
+   "field": "legacy",
+   "sentence": "Barlow wrote that Pope Hildebrand deposed the Emperor Henry IV.",
+   "grade": "Documented",
+   "file": "cic/texts/barlow_brutum-fulmen_1681.txt",
+   "lines": "3068",
+   "quote": "Pope Hildebrand, or (m) Gregory. Vl. depofeth the"
+  },
+  {
+   "entry": "gregory-vii",
+   "field": "legacy",
+   "sentence": "Barlow is counted under the Restoration and Georgian Church of England.",
+   "grade": "Documented",
+   "source": "Candidate row C140 counted_traditions: restoration-georgian-church-of-england, 9 clean passages"
+  },
+  {
+   "entry": "innocent-iii",
+   "field": "sourcing",
+   "sentence": "Mirbt holds his letter of March 1198.",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "11802-11806",
+   "quote": "v. 2.-3. März 1198",
+   "grade": "Documented"
+  },
+  {
+   "entry": "innocent-iii",
+   "field": "sourcing",
+   "sentence": "Mirbt holds his bull of 24 August 1215.",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "12546-12550",
+   "quote": "v. 24. Äug. 1215",
+   "grade": "Documented"
+  },
+  {
+   "entry": "innocent-iii",
+   "field": "sourcing",
+   "sentence": "Mirbt holds canons of his Fourth Lateran Council.",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "12274-12278",
+   "quote": "Das vierte Laterankonzil (11. — 30. Nov. 1215)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "innocent-iii",
+   "field": "sourcing",
+   "sentence": "Theiner's collection runs from Innocent III on and gathers papal documents on the southern Slavs.",
+   "file": "cic/texts/theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863.txt",
+   "lines": "1",
+   "quote": "Vetera monumenta Slavorum meridionalium",
+   "grade": "Documented"
+  },
+  {
+   "entry": "innocent-iii",
+   "field": "sourcing",
+   "sentence": "Theiner holds his letter of 1205.",
+   "file": "cic/texts/theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863.txt",
+   "lines": "7325-7329",
+   "quote": "quia cum ipsa Constantinopolitana ecclesia nuper ad apostoli",
+   "grade": "Documented"
+  },
+  {
+   "entry": "innocent-iii",
+   "field": "sourcing",
+   "sentence": "Theiner holds his letter of 1209.",
+   "file": "cic/texts/theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863.txt",
+   "lines": "7694-7698",
+   "quote": "et venerabilis frater noster Constantinopolitanus Patriarcha",
+   "grade": "Documented"
+  },
+  {
+   "entry": "innocent-iii",
+   "field": "relationsSummary",
+   "sentence": "The movement began around 1049.",
+   "grade": "Widely Accepted",
+   "source": "cic-website/data/world-census.json, latin-papal-church-gregorian: dates c. 1049-1300"
+  },
+  {
+   "entry": "innocent-iii",
+   "field": "why / longDescription",
+   "sentence": "He was pope from 1198 to 1216.",
+   "grade": "Documented",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "11797",
+   "quote": "(1198—1216)"
+  },
+  {
+   "entry": "innocent-iii",
+   "field": "why",
+   "sentence": "He judged between kings, called crusades and approved Francis's first friars; the Fourth Lateran Council of 1215 made law for the whole Latin church.",
+   "grade": "Widely Accepted",
+   "source": "cic-website/data/world-census.json, latin-papal-church-gregorian longDescription: \"Innocent III, pope from 1198 to 1216, judged between kings, approved Francis of Assisi's first friars and called crusades. In 1215 his Fourth Lateran Council made law for the whole Latin church.\""
+  },
+  {
+   "entry": "innocent-iii",
+   "field": "why / longDescription",
+   "sentence": "The letter says royal power takes the glory of its rank from papal authority, as the moon takes light from the sun.",
+   "grade": "Documented",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "12149",
+   "quote": "sie regalis potestas ab auctoritate pontificali suae sortitur"
+  },
+  {
+   "entry": "innocent-iii",
+   "field": "longDescription",
+   "sentence": "The letter is to Acerbus and dated 30 October 1198.",
+   "grade": "Documented",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "12137",
+   "quote": "an Acerbus, 30. Okt. 1198"
+  },
+  {
+   "entry": "innocent-iii",
+   "field": "longDescription",
+   "sentence": "Francis's Rule says he asked Innocent to confirm his way of life, and the pope confirmed it for him and his brothers.",
+   "grade": "Documented",
+   "file": "cic/texts/clareno_expositio-regulae-fratrum-minorum-lat_oliger1912.txt",
+   "lines": "4872-4875",
+   "quote": "Hec est vita evangelij Ihesu Christi quam fr. Franciscus pefiit a domino papa (d) Innocentio concedi sibi et confirmari, et dominus papa concessit et confirmavit sibi et suis fratribus"
+  },
+  {
+   "entry": "innocent-iii",
+   "field": "longDescription",
+   "sentence": "In 1205 he wrote that the church of Constantinople had lately come back to the unity of the see.",
+   "grade": "Documented",
+   "file": "cic/texts/theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863.txt",
+   "lines": "7329-7330",
+   "quote": "quia cum ipsa Constantinopolitana ecclesia nuper ad apostolice sedis redierit uni- tatem"
+  },
+  {
+   "entry": "innocent-iii",
+   "field": "longDescription",
+   "sentence": "God, the maker of all things, set two great lights in the sky.",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "12139-12143",
+   "quote": "Sicut universitatis conditor Deus duo magna",
+   "grade": "Documented"
+  },
+  {
+   "entry": "innocent-iii",
+   "field": "longDescription",
+   "sentence": "The greater light rules the day and the lesser the night.",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "12140-12144",
+   "quote": "luminare maius, ut praeesset diei, et luminare minus, ut nocti praeesset",
+   "grade": "Documented"
+  },
+  {
+   "entry": "innocent-iii",
+   "field": "longDescription",
+   "sentence": "The greater office rules souls, as if they were days; the lesser rules bodies, as if they were nights.",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "12143-12147",
+   "quote": "maiorem, quae quasi diebus animabus praeesset, et minorem, quae quasi noctibus praeesset corporibus",
+   "grade": "Documented"
+  },
+  {
+   "entry": "innocent-iii",
+   "field": "longDescription",
+   "sentence": "The two offices are the papal authority and the royal power.",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "12143-12147",
+   "quote": "quae sunt pontificalis auctoritas et regalis potestas",
+   "grade": "Documented"
+  },
+  {
+   "entry": "innocent-iii",
+   "field": "longDescription",
+   "sentence": "The moon takes its light from the sun.",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "12144-12148",
+   "quote": "Porro sicut luna lumen suum a sole sortitur",
+   "grade": "Documented"
+  },
+  {
+   "entry": "innocent-iii",
+   "field": "longDescription",
+   "sentence": "The moon is truly less than the sun in size and quality, in place and in effect.",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "12145-12149",
+   "quote": "simul et qua- litate, situ pariter et effectu",
+   "grade": "Documented"
+  },
+  {
+   "entry": "innocent-iii",
+   "field": "longDescription",
+   "sentence": "Royal power takes the splendour of its rank from the papal authority.",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "12145-12149",
+   "quote": "regalis potestas ab auctoritate pontificali suae sortitur",
+   "grade": "Documented"
+  },
+  {
+   "entry": "innocent-iii",
+   "field": "longDescription",
+   "sentence": "Royal power takes the splendour of its rank from the papal authority.",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "12146-12150",
+   "quote": "dignitatis splendorem",
+   "grade": "Documented"
+  },
+  {
+   "entry": "innocent-iii",
+   "field": "longDescription",
+   "sentence": "The Fourth Lateran Council of 1215 had a rule on transubstantiation, the eucharist.",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "12279-12283",
+   "quote": "a) Transsubstantiation.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "innocent-iii",
+   "field": "longDescription",
+   "sentence": "It had a rule that every believer confess once a year.",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "12396-12400",
+   "quote": "saltem semel in anno fideliter confiteatur proprio sacerdoti",
+   "grade": "Documented"
+  },
+  {
+   "entry": "innocent-iii",
+   "field": "legacy",
+   "sentence": "The Roman Catechism says the Lateran council under Innocent III further ratified the sentence on Berengarius, who denied the eucharist was more than a sign.",
+   "grade": "Documented",
+   "file": "cic/texts/council-of-trent_roman-catechism_mchugh-callan1923.txt",
+   "lines": "14284",
+   "quote": "General Council of Lateran, held under Innocent III, further"
+  },
+  {
+   "entry": "innocent-iii",
+   "field": "legacy",
+   "sentence": "The sentence concerned Berengarius, who asserted the Eucharist was only a sign.",
+   "grade": "Documented",
+   "file": "cic/texts/council-of-trent_roman-catechism_mchugh-callan1923.txt",
+   "lines": "14258",
+   "quote": "Berengarius presumed to deny this dogma, asserting"
+  },
+  {
+   "entry": "innocent-iii",
+   "field": "legacy",
+   "sentence": "The Martyrs Mirror says he was the first to institute the office of inquisition with ordained inquisitors.",
+   "grade": "Documented",
+   "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+   "lines": "41824",
+   "quote": "Pope Innocent III was the first who instituted"
+  },
+  {
+   "entry": "innocent-iii",
+   "field": "legacy",
+   "sentence": "It prints a letter he wrote to the archbishop of Auxitana.",
+   "grade": "Documented",
+   "file": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt",
+   "lines": "41827-41828",
+   "quote": "to the archbishop of Auxitana"
+  },
+  {
+   "entry": "innocent-iii",
+   "field": "legacy",
+   "sentence": "The Martyrs Mirror is counted under the Anabaptist movements.",
+   "grade": "Documented",
+   "source": "Candidate row C146 counted_traditions: the-anabaptist-movements (8 clean) and the-tridentine-church (7 clean)"
+  },
+  {
+   "entry": "hugo-grotius",
+   "field": "sourcing",
+   "sentence": "Only Foster's English is held; Foster's introduction and notes are in the same file; the Latin is not vendored.",
+   "grade": "Documented",
+   "file": "cic/texts/grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt",
+   "lines": "8",
+   "quote": "Foster's introduction and notes are his, not Grotius's. The Latin is not vendored"
+  },
+  {
+   "entry": "hugo-grotius",
+   "field": "sourcing",
+   "sentence": "The treatise is of 1617.",
+   "grade": "Documented",
+   "file": "cic/texts/grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt",
+   "lines": "1",
+   "quote": "Leiden 1617"
+  },
+  {
+   "entry": "hugo-grotius",
+   "field": "dates",
+   "sentence": "He died in 1645 (the file gives his life as 1583-1645).",
+   "grade": "Documented",
+   "file": "cic/texts/grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt",
+   "lines": "2",
+   "quote": "Hugo Grotius (1583-1645)"
+  },
+  {
+   "entry": "hugo-grotius",
+   "field": "dates",
+   "sentence": "1617 is the year of the first edition of the Defence, at Leyden.",
+   "file": "cic/texts/grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt",
+   "lines": "360-364",
+   "quote": "the first edition, Leyden, 1617",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hugo-grotius",
+   "field": "relationsSummary",
+   "sentence": "The Remonstrance of 1610 began the Remonstrant tradition; he sided with it.",
+   "grade": "Widely Accepted",
+   "source": "cic-website/data/world-census.json, the-remonstrants-and-dort: longDescription (\"the Remonstrance of 1610\") and voices (\"Hugo Grotius — jurist and Remonstrant sympathizer\")"
+  },
+  {
+   "entry": "hugo-grotius",
+   "field": "why",
+   "sentence": "The treatise defends the doctrine that Christ's death satisfied divine justice (title: the Satisfaction of Christ, against Faustus Socinus).",
+   "grade": "Documented",
+   "file": "cic/texts/grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt",
+   "lines": "1",
+   "quote": "A Defence of the Catholic Faith concerning the Satisfaction of Christ, against Faustus Socinus"
+  },
+  {
+   "entry": "hugo-grotius",
+   "field": "why / longDescription",
+   "sentence": "He was a jurist of Holland, writing on the Remonstrant side.",
+   "file": "cic/texts/grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt",
+   "lines": "4-8",
+   "quote": "States of Holland's leading Remonstrant-side jurist",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hugo-grotius",
+   "field": "why / longDescription",
+   "sentence": "In 1617 he published the Defence at Leiden (first edition, Leyden, 1617).",
+   "file": "cic/texts/grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt",
+   "lines": "360-364",
+   "quote": "the first edition, Leyden, 1617",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hugo-grotius",
+   "field": "why / longDescription",
+   "sentence": "He was a jurist who sided with the Remonstrants.",
+   "file": null,
+   "work": "world-census.json, the-remonstrants-and-dort voices: \"Hugo Grotius — jurist and Remonstrant sympathizer\"",
+   "locus": "",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "hugo-grotius",
+   "field": "longDescription",
+   "sentence": "Socinus denied Christ's satisfaction.",
+   "grade": "Documented",
+   "file": "cic/texts/grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt",
+   "lines": "8",
+   "quote": "aimed at Socinus's denial of Christ's satisfaction"
+  },
+  {
+   "entry": "hugo-grotius",
+   "field": "longDescription",
+   "sentence": "The treatise opens by promising first to state the doctrine the church has defended with unshaken faith, from Scripture, then the difference from Socinus.",
+   "grade": "Documented",
+   "file": "cic/texts/grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt",
+   "lines": "2489-2491",
+   "quote": "will first state that doctrine which the church of Christ has hitherto defended with unshaken faith, as derived from the sacred Scriptures"
+  },
+  {
+   "entry": "hugo-grotius",
+   "field": "longDescription",
+   "sentence": "Dort condemned the Remonstrants.",
+   "grade": "Documented",
+   "file": "cic/texts/grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt",
+   "lines": "755",
+   "quote": "condemned at Dort"
+  },
+  {
+   "entry": "hugo-grotius",
+   "field": "longDescription",
+   "sentence": "Foster says Grotius suffered under the ban laid upon his fellow Arminians.",
+   "grade": "Documented",
+   "file": "cic/texts/grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt",
+   "lines": "756-757",
+   "quote": "Grotius suffered under the ban laid upon his fellow-Arminians"
+  },
+  {
+   "entry": "hugo-grotius",
+   "field": "longDescription",
+   "sentence": "Foster says that among the English Arminians Grotius found a kinder reception.",
+   "grade": "Documented",
+   "file": "cic/texts/grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt",
+   "lines": "1265-1267",
+   "quote": "Among the English Armin- ians, however, Grotius found a different atmosphere, and a kinder reception."
+  },
+  {
+   "entry": "hugo-grotius",
+   "field": "voices",
+   "sentence": "Baxter is the author of the Reliquiae Baxterianae.",
+   "grade": "Documented",
+   "file": "cic/texts/baxter_reliquiae-baxterianae_sylvester1696.txt",
+   "lines": "23648",
+   "quote": "Grotiamfm"
+  },
+  {
+   "entry": "hugo-grotius",
+   "field": "legacy",
+   "sentence": "Burnet recommends Grotius's book on the truth of the Christian religion, with his notes.",
+   "grade": "Documented",
+   "file": "cic/texts/burnet_discourse-of-the-pastoral-care_1692.txt",
+   "lines": "7263",
+   "quote": "Grotius his Book of the truth of the"
+  },
+  {
+   "entry": "hugo-grotius",
+   "field": "legacy",
+   "sentence": "Burnet: it ought to be read and almost got by heart.",
+   "grade": "Documented",
+   "file": "cic/texts/burnet_discourse-of-the-pastoral-care_1692.txt",
+   "lines": "7265",
+   "quote": "ought to be read and almoft"
+  },
+  {
+   "entry": "hugo-grotius",
+   "field": "legacy",
+   "sentence": "Barlow names Grotius's Antichrist as Caius Caligula, and argues against his date.",
+   "grade": "Documented",
+   "file": "cic/texts/barlow_brutum-fulmen_1681.txt",
+   "lines": "18865",
+   "quote": "Caligula ( Grotius his Antichrift) died"
+  },
+  {
+   "entry": "hugo-grotius",
+   "field": "legacy",
+   "sentence": "Baxter says he warned the Episcopal party of Grotianism creeping in.",
+   "grade": "Documented",
+   "file": "cic/texts/baxter_reliquiae-baxterianae_sylvester1696.txt",
+   "lines": "23648",
+   "quote": "where I warn the Epifcopal Party to take heed of Grotiamfm that was creeping in"
+  },
+  {
+   "entry": "hugo-grotius",
+   "field": "legacy",
+   "sentence": "Baxter says he collected Grotius's writings to prove he had turned Papist.",
+   "grade": "Documented",
+   "file": "cic/texts/baxter_reliquiae-baxterianae_sylvester1696.txt",
+   "lines": "23650-23651",
+   "quote": "to prove him to have turned Papift"
+  },
+  {
+   "entry": "hugo-grotius",
+   "field": "legacy",
+   "sentence": "Burnet and Barlow are counted under the Restoration and Georgian Church of England; Baxter under English Old Dissent.",
+   "grade": "Documented",
+   "source": "Candidate row C164 counted_traditions: restoration-georgian-church-of-england (7 clean), english-old-dissent (6 clean)"
+  },
+  {
+   "entry": "hugo-grotius",
+   "field": "legacy",
+   "sentence": "Thomas Pierce had written in defence of Grotius, as a judicious peaceable Protestant (the OCR reads 'Tho. fierce').",
+   "file": "cic/texts/baxter_reliquiae-baxterianae_sylvester1696.txt",
+   "lines": "23640-23644",
+   "quote": "this Mr. Tho. fierce",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hugo-grotius",
+   "field": "legacy",
+   "sentence": "Baxter says Pierce wrote in defence of Grotius as a judicious peaceable Protestant.",
+   "file": "cic/texts/baxter_reliquiae-baxterianae_sylvester1696.txt",
+   "lines": "23642-23646",
+   "quote": "Defence of Grotius, as a judicious",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hugo-grotius",
+   "field": "legacy",
+   "sentence": "Baxter says Pierce wrote in defence of Grotius as a judicious peaceable Protestant.",
+   "file": "cic/texts/baxter_reliquiae-baxterianae_sylvester1696.txt",
+   "lines": "23643-23647",
+   "quote": "peace.ible Proteftant",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hugo-grotius",
+   "field": "legacy",
+   "sentence": "Baxter says he wrote a collection out of the late writings of Grotius to prove he had turned Papist.",
+   "file": "cic/texts/baxter_reliquiae-baxterianae_sylvester1696.txt",
+   "lines": "23646-23650",
+   "quote": "write a little ColleAion out of the late Writings of Grotius",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hugo-grotius",
+   "field": "legacy",
+   "sentence": "Baxter says he wrote a collection out of the late writings of Grotius to prove he had turned Papist.",
+   "file": "cic/texts/baxter_reliquiae-baxterianae_sylvester1696.txt",
+   "lines": "23647-23651",
+   "quote": "to prove him to have turned Papift",
+   "grade": "Documented"
+  },
+  {
+   "entry": "hugo-grotius",
+   "field": "legacy",
+   "sentence": "Baxter says he does not believe lying lawful after all that Grotius de Jure Belli has said for it.",
+   "file": "cic/texts/baxter_reliquiae-baxterianae_sylvester1696.txt",
+   "lines": "51474-51478",
+   "quote": "Lying lawful after all that Grotius de Jure Belli",
+   "grade": "Documented"
+  }
+ ],
+ "concerns": [
+  {
+   "link_id": "carolingian-reform-christianity--latin-papal-church-gregorian",
+   "concerns": "gregory-vii"
+  },
+  {
+   "link_id": "cluniac-reform-monasticism--latin-papal-church-gregorian",
+   "concerns": "gregory-vii"
+  },
+  {
+   "link_id": "latin-papal-church-gregorian--latin-papal-church-avignon-to-lateran-v",
+   "concerns": "gregory-vii"
+  },
+  {
+   "link_id": "latin-papal-church-gregorian--the-franciscan-movement",
+   "concerns": "innocent-iii"
+  },
+  {
+   "link_id": "latin-papal-church-gregorian--the-humiliati--2",
+   "concerns": "innocent-iii"
+  }
+ ],
+ "rows": [
+  {
+   "movement": "latin-papal-church-gregorian",
+   "replace_name": "Gregory VII",
+   "person": "gregory-vii"
+  },
+  {
+   "movement": "latin-papal-church-gregorian",
+   "replace_name": "Innocent III",
+   "person": "innocent-iii"
+  },
+  {
+   "movement": "the-remonstrants-and-dort",
+   "replace_name": "Hugo Grotius",
+   "person": "hugo-grotius"
+  }
+ ],
+ "links": [],
+ "wants": [
+  "A vendored biographical source for Grotius's life and part in the Remonstrant quarrel (Foster's introduction does not state more than the ban on his fellow Arminians in the lines read).",
+  "A vendored source for the Dictatus Papae date (1075) and Mirbt no. 255 heading, to tie that fact to a line rather than the census edge citation."
+ ],
+ "flags": [
+  "latin-papal-church-gregorian--the-reformed-cities-zurich-and-geneva: concerns is already 'john-calvin'. Left as is. The note also names Gregory VII; its sources are Calvin's words, so Calvin is the right person.",
+  "armenian-cilicia--armenian-cilicia-after-the-kingdom: its 'Gregory VII' is an Armenian catholicos, not the pope. The packet matched the name by mistake. No concerns set.",
+  "latin-papal-church-gregorian--byzantine-church-after-1054 names Innocent III, but its main sources are Humbert's 1054 bull; Innocent's 1205 letter is one of four quotes. concerns left unset; Mark or the coordinator may choose innocent-iii.",
+  "Carolingian, Cluny and Avignon links are set to gregory-vii because their sources quote his own letters or Dictatus Papae. The Humiliati link (Innocent) rests on two older secondary accounts and grades Inferential-Thin; the concerns tag does not change that.",
+  "Gregory VII start 1073 puts him after Humbert (1050) and before Innocent III (1198) in the people-row order, as before. Innocent III's start 1198 matches his old row year.",
+  "Grotius informalName 'Grotius the jurist' is a plain label; 'Hugo de Groot' and 'Huig de Groot' are not in the vendored Foster file, so they were not used.",
+  "Roman Catechism line 14282 also names Gregory VII (as summoning a council against Berengarius). The Tridentine Church is not among Gregory VII's two counted traditions, so I did not use it in his legacy. It could support a third counted tradition if the coordinator wants to recount.",
+  "Gregory VII legacy attributes the Bengel quotes to Bengel; the 1757 file is Robertson's English translation, and footnotes in it may be the translator's. Only main-text lines 1314 and 10218 are cited.",
+  "The Mirbt heading for Innocent III in the file reads 'Iimoceiiz' (OCR); the quote used for his dates is only '(1198—1216)'. The 1198 letter's recipient 'Acerbus' comes from Mirbt's editor's heading, not from the letter text.",
+  "Gregory VII, round 1 (B6): the Dictatus Papae is no longer presented as his own words; the entry names Sackur's view, as Mirbt's heading cites it, that Cardinal Deusdedit wrote it. For the coordinator: the existing link latin-papal-church-gregorian--latin-papal-church-avignon-to-lateran-v, which this draft tags with gregory-vii, rests on the same attribution in its note ('Gregory VII's Dictatus Papae'). Its concerns tag stands or falls with that note. Left unedited here.",
+  "Grotius, round 1: dates are working years 1617-1645 (first edition of the Defence, Foster line 364; death 1645, line 2), so the row order after Arminius (1603) holds. The imprisonment claim is dropped from the entry. 'Tho. fierce' in Baxter's OCR is Thomas Pierce; the entry uses the name Pierce.",
+  "Innocent III, round 1 (B5): 'Balkan churches' follows the review's wording for Theiner's Vetera monumenta Slavorum meridionalium (documents on the southern Slavs). The Theiner year headings in the OCR are garbled, so the 1205 and 1209 letters stay cited by their text lines."
+ ]
+}

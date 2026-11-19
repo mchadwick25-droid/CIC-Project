@@ -63,6 +63,32 @@ use_note:
     - "quoting her own words, none of which survive"
   years: {from: 203, to: 211}
   status: reviewed
+reading_card:
+  setting: Eusebius, Church History VI.5, retelling Alexandria's memory of a woman martyred under Severus.
+  source_says: 'In his own voice Eusebius says she died by fire with her mother Marcella. ''They say''
+    the rest: the judge''s threats, the pitch, and Basilides.'
+  historians_conclude:
+    text: The construction record treats martyr accounts as evidence of what the community believed, not
+      of each event.
+    confidence: Dominant Modern Reconstruction
+  contributes: It shows witness that moved the soldier who led her to death.
+  whose_view: Remembered by others, not in her words; one of few named women here.
+  open: 'Palladius tells another version: a slave betrayed by her master. Rufinus made her Origen''s pupil;
+    Eusebius does not.'
+  reads_differently_today: 'Neither violence for its own sake nor mere legend: her witness converted the
+    soldier who led her out.'
+  complicated_by:
+  - alx.limit.f5-women-own-words
+  sources:
+    setting: alx.source.eusebius-historia-ecclesiastica, HE VI.5.1, npnf201 lines 32950-32958
+    source_says: alx.source.eusebius-historia-ecclesiastica, HE VI.5.1-6, npnf201 lines 32950-32990
+    historians_conclude: Build/worlds/alx/Doc_05_Ecological_Reconstruction.md §6.5 construction note;
+      Doc_09_Story_Inventory.md §1 (Tier 3 cross-walk)
+    contributes: alx.term.martys; alx.gravity.martyrdom-contemplative-tension
+    whose_view: alx.limit.f5-women-own-words, why_sources_cannot_answer; alx.story.potamiaena, absent_detail
+    open: alx.source.palladius-lausiac-history, Lausiac History III, file lines 205-207; McGiffert's note
+      to HE VI.5, npnf201 lines 32925-32945
+    reads_differently_today: alx.story.potamiaena, modern_contrast
 ---
 One of the very few named women in the world's record - remembered, but
 not self-attested, which alx.limit.f5-women-own-words states as the

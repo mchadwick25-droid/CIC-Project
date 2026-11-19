@@ -1,0 +1,175 @@
+{
+  "batch": 1,
+  "changes": [
+    {
+      "group": "A",
+      "n": 1,
+      "movement": "cyrilline-miaphysite-egyptian-christianity",
+      "field": "relationsSummary",
+      "new": "The church of Alexandria after 451, carried by the old desert monasteries. It broke with the imperial church that took up Chalcedon, but it shared one faith with the Syriac Orthodox church.",
+      "fre_after": 60.1,
+      "fk_after": 8.7,
+      "facts_check": "S1 kept: church of Alexandria after 451, carried by the old desert monasteries. S2 kept: broke with the imperial church that accepted ('took up') Chalcedon. S3 kept: shared one faith with the Syriac Orthodox church (joined to S2 with 'but'). Nothing added."
+    },
+    {
+      "group": "A",
+      "n": 2,
+      "movement": "cyrilline-miaphysite-egyptian-christianity",
+      "field": "legacy",
+      "new": "This is one of the traditions on the map that never came to an end. The same church carried on under Muslim rule as Coptic Christianity. Its line of patriarchs runs without a break to the Coptic Orthodox pope of Alexandria today. Cyril of Alexandria is still the shared anchor of faith for the wider Oriental Orthodox family: Syriac, Armenian, Ethiopian and Eritrean. This church also made Coptic a language of worship, and it is still sung in Egypt's churches each week. Its desert monasteries in the Wadi Natrun still stand, and so do its painted late-antique churches in Upper Egypt. Most of them are still in use.",
+      "fre_after": 62.2,
+      "fk_after": 8.5,
+      "facts_check": "Kept: never ended; same institution ('same church') continued under Muslim rule as Coptic Christianity; patriarchal line unbroken ('without a break') to the Coptic Orthodox pope of Alexandria; Cyril as the shared theological anchor ('anchor of faith') of the Oriental Orthodox family with all four named; Coptic made a liturgical language ('language of worship') still sung weekly; Wadi Natrun monasteries and painted late-antique Upper Egypt churches still stand, most in use. Drafter's qualification (shared anchor, not 'gave') kept. Nothing added."
+    },
+    {
+      "group": "A",
+      "n": 3,
+      "movement": "nubian-christianity",
+      "field": "relationsSummary",
+      "new": "Brought to the faith from Egypt by rival missions in the 540s. Nobadia took the faith of Alexandria's Miaphysite patriarch, who was then in exile, and it turned down the one that Justinian's envoys brought. A Chalcedonian chronicle says that Makuria too took the faith, around 569.",
+      "fre_after": 60.7,
+      "fk_after": 8.6,
+      "facts_check": "Kept: converted ('brought to the faith') from Egypt by rival missions in the 540s; Nobadia took the Miaphysite faith of Alexandria's exiled patriarch ('then in exile'); refused ('turned down') the faith Justinian's envoys offered ('brought'); a Chalcedonian chronicler's record ('chronicle says') of Makuria's conversion around 569. 'too' only marks Makuria as also converting. Nothing added."
+    },
+    {
+      "group": "A",
+      "n": 4,
+      "movement": "nubian-christianity",
+      "field": "longDescription",
+      "new": "Christianity reached the Nubian kingdoms south of Egypt in the 540s, through two competing missions. A Miaphysite priest named Julian went with the empress Theodora's backing, and a Chalcedonian effort went with Justinian's. The story of that race survives only because a Syrian bishop, John of Ephesus, wrote it down from the winning side. What Nubia itself left is not stories but walls. Built a few generations later, the cathedral at Faras lay buried in sand until it was rescued before the Aswan dam flooded the region. It gave up a list of its bishops and more than a hundred painted figures: Nubian bishops, kings and queens, and saints. Some have dark faces and some pale, in a style nobody had seen before. When Arab armies pushed south after taking Egypt, Nubian archers held them at Dongola. In 652 the two sides signed the Baqt, a treaty of exchange rather than of conquest, and it left Christian Nubia standing on its own terms.",
+      "fre_after": 60.6,
+      "fk_after": 9.3,
+      "facts_check": "Kept every fact: Nubian kingdoms south of Egypt, competing missions in the 540s; Miaphysite priest Julian with Theodora's backing; Chalcedonian effort with Justinian's; story survives only via Syrian bishop John of Ephesus, from the winning side; Nubia left walls not narrative ('stories'); Faras cathedral built a few generations later, buried in sand, rescued before the Aswan dam flooded the region; bishop list and more than a hundred painted figures (bishops, kings and queens, saints; dark and pale faces; unseen style); Arab armies held at Dongola by Nubian archers; Baqt 652, treaty of exchange not conquest, left Nubia standing on its own terms. Double-comma typo fix retained. Sentences re-cut only. Nothing added."
+    },
+    {
+      "group": "A",
+      "n": 5,
+      "movement": "aksumite-christianity",
+      "field": "relationsSummary",
+      "new": "Aksum was the parent of the later medieval Ethiopian church. Evidence for its ties to Alexandria in these years is thin, but a Miaphysite historian of the time counted its king a fellow believer. The Najran martyrs of 523 and King Kaleb's campaign in Himyar around 525 are part of its own story.",
+      "fre_after": 60.2,
+      "fk_after": 9.1,
+      "facts_check": "Kept: parent of the later medieval Ethiopian church; Miaphysite historian of the time counted its king a fellow believer; evidence for ties to Alexandria in these years thin (now joined to the historian sentence with 'but'); Najran martyrs 523 and Kaleb's intervention ('campaign') in Himyar around 525 part of its own story. Nothing added; no claim of communion restored."
+    },
+    {
+      "group": "A",
+      "n": 6,
+      "movement": "aksumite-christianity",
+      "field": "longDescription",
+      "new": "Aksum had been Christian since the fourth century. After Chalcedon it was a serious Red Sea power, with its own coinage and its own script, and its Bible was being translated into Ge'ez. Tradition credits the spread of monasticism and much of that translation work to the Nine Saints. They are said to have been monks from the Roman east, arriving around the turn of the sixth century. In 523 the Jewish king of Himyar, across the water in Yemen, massacred the Christians of Najran. The Aksumite king Kaleb crossed the Red Sea in about 525, killed him, and set up a Christian king who paid Aksum tribute. Not long after, the Aksumite soldiers who had stayed behind set up another king, Abramus, and Aksum could not remove him. A Miaphysite historian of the time counted the Aksumite king as a fellow believer. No text from inside these years shows where its church stood on Chalcedon. Evidence from this window is thin: inscriptions, a few very early gospel books, archaeology. Muslim tradition remembers that around 615 Muhammad sent his first followers to its king for protection.",
+      "fre_after": 62.4,
+      "fk_after": 8.7,
+      "facts_check": "Drafter text already met the target; one 27-word sentence trimmed ('In the period after Chalcedon' to 'After Chalcedon'; coinage/script/Bible-in-Ge'ez all kept). All other sentences unchanged: Christian since 4th c.; Nine Saints by tradition, said to be monks from the Roman east c. turn of 6th c.; Himyar massacre at Najran 523; Kaleb c. 525 killed the king, set up a tributary Christian king; Abramus set up by soldiers who stayed, not removed; Miaphysite historian's 'fellow believer'; no text of the years shows the church's stand on Chalcedon; thin evidence list; Muslim tradition attribution for Muhammad's followers c. 615. Nothing added."
+    },
+    {
+      "group": "A",
+      "n": 7,
+      "movement": "aksumite-christianity",
+      "field": "why",
+      "new": "Aksum was already a Christian kingdom, set astride the trade routes of the Red Sea. Around 525 its king Kaleb crossed the water to avenge the slaughter of Christians at Najran. For a time after that, southern Arabia paid Aksum tribute. A Miaphysite historian counted its king as one who shared his faith. But direct evidence from this time is thin, and most of it comes from inscriptions, early manuscripts and archaeology.",
+      "fre_after": 61.4,
+      "fk_after": 8.2,
+      "facts_check": "Kept: already a Christian kingdom astride the Red Sea trade routes; c. 525 Kaleb crossed to avenge the massacre ('slaughter') of Christians at Najran; for a time southern Arabia paid Aksum tribute ('after that' only orders the two events as the text already does); Miaphysite historian counted its king a fellow believer ('one who shared his faith'); direct evidence thin, mostly ('most of it comes from') inscriptions, early manuscripts, archaeology. 'These centuries' rendered 'this time'. Nothing added."
+    },
+    {
+      "group": "A",
+      "n": 8,
+      "movement": "latin-africa-under-byzantium",
+      "field": "relationsSummary",
+      "new": "The Nicene church of Roman Africa, back on its feet after nearly a hundred years of Vandal rule and waves of persecution. Its bishops still quoted Cyprian and Augustine. Both were great teachers of the old church of Africa, which Tertullian also came from. It was one of the main voices that stood against Justinian when he condemned the Three Chapters.",
+      "fre_after": 63.8,
+      "fk_after": 8.2,
+      "facts_check": "Kept: Nicene church of Roman Africa, restored ('back on its feet') after nearly a century ('nearly a hundred years') of Vandal rule and repeated persecution ('waves of'); bishops still cited ('quoted') Cyprian and Augustine, great teachers of the earlier ('old') African church that also produced Tertullian ('which Tertullian also came from'); a principal ('main') voice resisting ('stood against') Justinian's condemnation of the Three Chapters. Drafter's Tertullian qualification kept. Nothing added."
+    },
+    {
+      "group": "A",
+      "n": 9,
+      "movement": "latin-africa-under-byzantium",
+      "field": "longDescription",
+      "new": "Belisarius destroyed the Vandal kingdom in 533. The Nicene church of Roman Africa came out of nearly a hundred years of Vandal rule and waves of persecution. It got back its buildings and its bishops' sees. Within twenty years it was among the most stubborn foes Justinian faced anywhere in his own empire. When he condemned the Three Chapters to appease the Miaphysites, the bishops of Africa said no. Facundus of Hermiane wrote twelve books against his decree. Reparatus of Carthage lost his see and was sent into exile. The chronicler Victor of Tunnuna spent years in prison and exile for the same stand. Africa stayed a place where theology got argued at full volume. Maximus the Confessor lived here for some years, and in 645 he debated the ousted patriarch Pyrrhus in Africa. In 646 the councils of Africa threw out the empire's next bid for a compromise on the wills of Christ. Then Arab armies reached Carthage in the 690s. The old African church, which had given the Latin church Tertullian, Cyprian and Augustine, was gone within a few generations.",
+      "fre_after": 60.5,
+      "fk_after": 8.2,
+      "facts_check": "Kept: Belisarius destroyed the Vandal kingdom 533; church came out of nearly a century of Vandal rule and repeated persecution; restored to buildings and bishoprics ('bishops' sees'); within twenty years 'among the most stubborn' opposition ('foes') Justinian faced in his empire; he condemned the Three Chapters to appease the Miaphysites; African bishops refused ('said no'); Facundus of Hermiane's twelve books against it ('his decree'); Reparatus of Carthage deposed ('lost his see') and exiled; Victor of Tunnuna years in prison and exile for the same refusal ('stand'); theology argued at full volume; Maximus lived here some years and debated the deposed ('ousted') patriarch Pyrrhus in Africa in 645; African councils of 646 rejected ('threw out') the next compromise on the wills of Christ; Arabs reached Carthage in the 690s; the ancient ('old') church that gave Latin Christianity ('the Latin church') Tertullian, Cyprian, Augustine finished ('gone') within a few generations. Nothing added."
+    },
+    {
+      "group": "A",
+      "n": 10,
+      "movement": "latin-africa-under-byzantium",
+      "field": "why",
+      "new": "When Belisarius destroyed the Vandal kingdom in 533, the Nicene church of Roman Africa got back its buildings. It had lived through nearly a hundred years of Vandal rule. Within twenty years it was saying no to Justinian's own compromise on the faith, over the Three Chapters. Bishops like Reparatus of Carthage lost their sees and were sent into exile for that stand. Arab armies reached Carthage in the 690s, and within a few generations the church of Tertullian, Cyprian and Augustine came to an end.",
+      "fre_after": 60.2,
+      "fk_after": 9.1,
+      "facts_check": "Kept: Belisarius 533; church restored ('got back') its buildings after nearly a century ('hundred years') of Vandal rule; within twenty years refusing ('saying no to') Justinian's own doctrinal compromise ('compromise on the faith') over the Three Chapters; bishops like Reparatus deposed ('lost their sees') and exiled for that refusal ('stand'); Arabs reached Carthage in the 690s; the church that produced Tertullian, Cyprian and Augustine ('the church of') ended within a few generations. Nothing added."
+    },
+    {
+      "group": "A",
+      "n": 11,
+      "movement": "latin-africa-under-byzantium",
+      "field": "legacy",
+      "new": "This church left no successor. Latin Christianity in North Africa dwindled after the conquest and had all but disappeared by the later Middle Ages. It is the only major region of the ancient Christian world to vanish so completely. But it handed on its refusal. Its bishops wrote to the emperor to defend writings the council of Chalcedon had accepted, and they would not condemn them. In 646 its councils wrote to Rome against the teaching of a single will in Christ. Their letters were read out at the Roman synod of 649, and the council of 680-681 later condemned that teaching. Its earlier centuries had already given the Latin church Tertullian, Cyprian and Augustine. What this last century added was proof that a church in the provinces could tell an empire no. The ruins of Carthage and of dozens of African basilicas remain.",
+      "fre_after": 61.1,
+      "fk_after": 8.2,
+      "facts_check": "Kept: no successor; Latin Christianity in North Africa dwindled and had effectively ('all but') disappeared by the later Middle Ages; only major ancient region to vanish so completely; handed on its refusal; bishops wrote to the emperor defending writings Chalcedon accepted, would not condemn them; 646 councils wrote to Rome against the single-will teaching, letters read out at the Roman synod of 649; council of 680-681 later condemned that teaching (drafter's non-causal sequence kept, no 'straight into'); earlier centuries gave Tertullian, Cyprian, Augustine; this century added a demonstration ('proof') that a provincial church ('a church in the provinces') could tell an empire no; ruins of Carthage and dozens of basilicas remain. Nothing added."
+    },
+    {
+      "group": "E",
+      "n": 1,
+      "movement": "insular-irish-monastic-christianity",
+      "field": "relationsSummary",
+      "new": "A thinly documented line from Gallic asceticism, and through Gaul from that of the East. One of the two roots of Anglo-Saxon Christianity.",
+      "fre_after": 64.2,
+      "fk_after": 7.3,
+      "facts_check": "Kept: thinly documented line from Gallic asceticism and, through Gaul, Eastern asceticism ('that of the East'); one of the two roots of Anglo-Saxon Christianity. Split into two sentences at the semicolon. Nothing added; 'contested' not restored."
+    },
+    {
+      "group": "E",
+      "n": 2,
+      "movement": "insular-irish-monastic-christianity",
+      "field": "legacy",
+      "new": "Irish monks left their mark far beyond Ireland. Columbanus founded Luxeuil in Gaul and Bobbio in Italy, and nobles in Gaul set up many more houses under his rule. While on the Continent he also wrote a handbook of penances, and it set the model for a long line of Frankish ones. Monks trained at Iona carried the faith into Northumbria and beyond. Irish scribes made the insular style of manuscript, which reaches its height in the Book of Kells. The high crosses and round towers of Irish monastic sites rank among the best-known Christian landmarks in the world. People still come to Iona, Clonmacnoise and Glendalough, and on Iona a religious community lives and works once more.",
+      "fre_after": 60.9,
+      "fk_after": 9.0,
+      "facts_check": "Kept: Irish monks' mark beyond Ireland; Columbanus founded Luxeuil (Gaul) and Bobbio (Italy); nobles in Gaul founded many more monasteries ('houses') under his rule; Columbanus's handbook of penances, written on the Continent, became ('set') the model for a long line of Frankish ones (moved up beside the Columbanus sentence, 'he'); Iona-trained missionaries ('monks trained at Iona') carried the faith into Northumbria and beyond; Irish scriptoria ('scribes') produced ('made') the insular manuscript style that culminates ('reaches its height') in the Book of Kells; high crosses and round towers among the most recognizable ('best-known') Christian monuments ('landmarks') anywhere ('in the world'); Iona, Clonmacnoise, Glendalough still visited ('people still come to'); Iona has a working religious community again ('lives and works once more'). Drafter's cuts (dozens, reshaped, confession claim) not restored. Nothing added."
+    },
+    {
+      "group": "E",
+      "n": 3,
+      "movement": "british-welsh-christianity",
+      "field": "relationsSummary",
+      "new": "The older church of Roman Britain, pushed west when the Anglo-Saxons invaded. It stood apart from the Irish church, though Irish monks cited its writer Gildas. It met Augustine's mission around 603 and refused to submit to him, and it kept its own Easter long after Whitby (664).",
+      "fre_after": 61.3,
+      "fk_after": 8.6,
+      "facts_check": "Kept: older church of Roman Britain pushed west by the Anglo-Saxon invasions ('when the Anglo-Saxons invaded'); separate from ('stood apart from') the Irish church, though Irish monks cited its writer Gildas; met Augustine's mission around 603, refused his authority ('refused to submit to him'); kept its own Easter long after Whitby (664). Nothing added; no claim of British presence at Whitby."
+    },
+    {
+      "group": "E",
+      "n": 4,
+      "movement": "british-welsh-christianity",
+      "field": "legacy",
+      "new": "There is no separately continuing British church. The Welsh church carried on under its own bishops after 768, and was gradually drawn into the wider Western church. What it left is written across the landscape. The llan- place names of Wales mark its churchyards, and its founder-saints are still the dedications of Welsh and Cornish parishes. Its inscribed memorial stones survive in numbers. Gildas's account, for all its fury, reached Bede, who cited him as the Britons' own historian. And Brittany, settled from Britain in these centuries, kept both a Celtic language and a cluster of British saints' cults that are still there.",
+      "fre_after": 62.9,
+      "fk_after": 8.1,
+      "facts_check": "Kept: no separately continuing British church; Welsh church carried on under its own bishops after 768, gradually drawn into the wider Western church; legacy written across the landscape; llan- place names mark churchyards; founder-saints still the dedications of Welsh and Cornish parishes; inscribed memorial stones survive in numbers (split off as its own sentence); Gildas's account reached Bede, who cited him as the Britons' own historian; Brittany settled from Britain kept a Celtic language and British saints' cults still there. Nothing added; the twelfth-century Canterbury claim not restored."
+    },
+    {
+      "group": "E",
+      "n": 5,
+      "movement": "nicene-visigothic-iberia",
+      "field": "longDescription",
+      "new": "For over a century the Visigoths ruled Spain as Homoian Christians, and lived uneasily beside the Nicene people under their rule. Then King Reccared announced his own conversion. At the third council of Toledo in 589, he brought the Gothic bishops with him. Nothing quite like it took place anywhere else: a kingdom's own church council formally dropped its creed and took up the creed of its subjects. What came next was one of the more striking feats of learning of the early Middle Ages. Isidore of Seville set out to gather what was left of classical learning into a single encyclopedia. A circle grew up around him. His brother Leander, Braulio of Zaragoza and Ildefonsus of Toledo wrote letters, liturgy, histories and rules. The councils of Toledo worked as a cross between a synod and a parliament, and made laws for church and kingdom at once. Their record also holds a harsh body of law against Spain's Jews, which grew worse with time. The Gothic kingdom fell at a stroke to the Muslim conquest of 711, but its church lived on under the new rulers.",
+      "fre_after": 61.6,
+      "fk_after": 8.8,
+      "facts_check": "Kept: Visigoths ruled Spain as Homoian Christians over a century, in uneasy coexistence ('lived uneasily beside') with the Nicene population they governed ('under their rule'); Reccared announced his own conversion; third council of Toledo 589 brought the Gothic bishops with him; nothing quite like it elsewhere: a kingdom's own church council formally abandoned ('dropped') its creed and adopted ('took up') its subjects'; one of the more remarkable intellectual efforts ('more striking feats of learning') of the early Middle Ages; Isidore of Seville gathering surviving classical learning ('what was left of') into one encyclopedia; his circle (brother Leander, Braulio of Zaragoza, Ildefonsus of Toledo) produced ('wrote') letters, liturgy, histories, rules around him; councils of Toledo between synod and parliament ('a cross between'), legislating for church and kingdom together ('at once'); harsh and escalating ('grew worse with time') law against Spain's Jews; Gothic kingdom fell abruptly ('at a stroke') to the 711 conquest, though ('but') its church lived on under the new rulers. Nothing added."
+    },
+    {
+      "group": "E",
+      "n": 6,
+      "movement": "insular-irish-monastic-christianity",
+      "field": "longDescription",
+      "new": "Ireland was never Roman, and the church that took root there in the fifth century was built to match. It grew up around monasteries and their abbots, not city bishops, and monastic families and founder-saints were the anchors of whole regions. Two short letters by Patrick survive: one a defense of his own life, the other a furious protest because his converts had been taken as slaves. They are the only voices from the beginning that we can be sure are genuine, and they are startlingly personal. Two things this church made were taken up by the wider church. One was peregrinatio, leaving home for good for God's sake. It sent Columba to Iona in 563, and Columbanus into Gaul and Italy, where he founded Luxeuil and Bobbio and argued with Frankish kings. The other was the penitentials, handbooks that set out the penance for each kind of sin. Its own way of reckoning Easter, and its own style of tonsure, in time clashed with Roman practice. At Whitby in 664 the Northumbrian king ruled against the Irish reckoning.",
+      "fre_after": 64.2,
+      "fk_after": 8.7,
+      "facts_check": "Kept: Ireland never Roman; church rooted in the 5th century organized itself accordingly ('was built to match'): around monasteries and abbots not city bishops, monastic families and founder-saints anchoring whole regions; Patrick's two short surviving letters, a defense of his life and a furious protest at his converts' enslavement ('taken as slaves'); the only certainly authentic voices ('we can be sure are genuine') from the beginning, startlingly personal; two things absorbed ('taken up') by the wider church; peregrinatio, leaving home permanently ('for good') for God's sake, sending Columba to Iona in 563 and Columbanus into Gaul and Italy, where he founded Luxeuil and Bobbio and argued with Frankish kings; penitentials, handbooks assigning particular penances to particular sins ('set out the penance for each kind of sin'); own Easter reckoning and distinctive ('own style of') tonsure eventually ('in time') collided ('clashed') with Roman practice; Whitby 664, Northumbrian king ruled against the Irish reckoning. QUALIFIED as in the legacy change: the unsourced clause 'which quietly turned confession into something private and repeatable' is cut. Nothing added."
+    }
+  ]
+}

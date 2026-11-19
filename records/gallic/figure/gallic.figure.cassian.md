@@ -49,7 +49,7 @@ names:
 - name: John Cassian (c. 360 - c. 435)
   tag: scholarly
 dates:
-  display: "travelled in Egypt with Germanus in his youth (the interval to his writing not stated in this world's own documents); founded the twin houses at Marseilles c. 415; wrote the Institutes for Castor before 426 and the Conferences in three parts, Part II (to Honoratus and Eucherius) not later than 426; d. c. 435"
+  display: "traveled in Egypt with Germanus in his youth (the interval to his writing not stated in this world's own documents); founded the twin houses at Marseilles c. 415; wrote the Institutes for Castor before 426 and the Conferences in three parts, Part II (to Honoratus and Eucherius) not later than 426; d. c. 435"
 narratable: true
 bridge_line: >-
   The man who lived among the fathers of Egypt and brought their words home to Gaul in a book. He

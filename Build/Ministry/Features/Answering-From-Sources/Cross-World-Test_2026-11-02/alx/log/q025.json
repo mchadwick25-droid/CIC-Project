@@ -1,0 +1,121 @@
+{
+ "draft": "From inside, we describe our worship as prayer, converse with God, spoken or silent [[alx.term.prayer]] [[as:paraphrase]]. Our teaching for baptism was katechesis, given step by step over a long time [[alx.term.katechesis]] [[as:paraphrase]]. Our own record keeps its failures visible: our greatest teacher was driven out by his own bishop, not by pagans [[alx.dw.church-failure]] [[as:paraphrase]]. Dionysius wrote of Alexandrian Christians nursing plague victims fearlessly, many dying of it, while the plague was still raging [[alx.story.plague-nursing]] [[as:paraphrase]]. The school side of our record is well attested, and the community side is thinly attested [[alx.gravity.learning-community-tension]] [[as:paraphrase]].\n",
+ "ending": "rewritten",
+ "final": "Our teaching for baptism was katechesis, given step by step over a long time. Our own record keeps its failures visible: our greatest teacher was driven out by his own bishop, not by pagans. The school side of our record is well attested, and the community side is thinly attested.",
+ "group": "A",
+ "offered": [
+  "alx.dw.church-failure",
+  "alx.term.katechesis",
+  "alx.term.prayer",
+  "alx.story.john-young-robber",
+  "alx.quote.gregory-spark",
+  "alx.dw.suffering",
+  "alx.term.thanatos",
+  "alx.term.elpis",
+  "alx.story.plague-nursing",
+  "alx.quote.origen-punishment-heals",
+  "alx.gravity.learning-community-tension",
+  "alx.force.teacher-bishop-ongoing"
+ ],
+ "placements": [],
+ "question": "Given that a key outside record of your worship was obtained under torture, how reliable is that source?",
+ "question_id": "q025",
+ "read": {
+  "dropped": [],
+  "status": "rewrite",
+  "unsupported": {
+   "0": {
+    "problem": "added_detail",
+    "reason": "The record defines prayer; it does not say we describe our worship as prayer.",
+    "supported": false
+   }
+  }
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.term.katechesis"
+   ],
+   "sentence": "Our teaching for baptism was katechesis, given step by step over a long time.",
+   "tags": [
+    "alx.term.katechesis"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.dw.church-failure"
+   ],
+   "sentence": "Our own record keeps its failures visible: our greatest teacher was driven out by his own bishop, not by pagans.",
+   "tags": [
+    "alx.dw.church-failure"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.gravity.learning-community-tension"
+   ],
+   "sentence": "The school side of our record is well attested, and the community side is thinly attested.",
+   "tags": [
+    "alx.gravity.learning-community-tension"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "From inside, we describe our worship as prayer, converse with God, spoken or silent.",
+   "tags": [
+    "alx.term.prayer"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our teaching for baptism was katechesis, given step by step over a long time.",
+   "tags": [
+    "alx.term.katechesis"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Our own record keeps its failures visible: our greatest teacher was driven out by his own bishop, not by pagans.",
+   "tags": [
+    "alx.dw.church-failure"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The school side of our record is well attested, and the community side is thinly attested.",
+   "tags": [
+    "alx.gravity.learning-community-tension"
+   ]
+  }
+ ],
+ "shipped_by_net": "From inside, we describe our worship as prayer, converse with God, spoken or silent. Our teaching for baptism was katechesis, given step by step over a long time. Our own record keeps its failures visible: our greatest teacher was driven out by his own bishop, not by pagans. The school side of our record is well attested, and the community side is thinly attested.",
+ "sub_question": "C16.S4"
+}

@@ -17,8 +17,7 @@ confidence:
     fathers' own inherited faith.
 sources:
 - source_id: gallic.source.cassian-institutes
-  locus: "Institutes XII.19 (npnf211 div iv.iii.xii.xix, file lines 25392-25394): Cassian naming the
-    humility-and-grace teaching as the ancient fathers' own genuine faith"
+  locus: "Institutes XII.19 (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 25392-25394; div iv.iii.xii.xix): Cassian naming the humility-and-grace teaching as the ancient fathers' own genuine faith"
   license: public-domain
 retrieval:
   tier: 3

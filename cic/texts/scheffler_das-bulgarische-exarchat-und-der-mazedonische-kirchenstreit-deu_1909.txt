@@ -1,0 +1,2501 @@
+Title: Das Bulgarische Exarchat und der Mazedonische Kirchenstreit. Inaugural-Dissertation zur Erlangung der Doktorwürde bei der Juristischen Fakultät der Universität Leipzig
+Creator: Kurt Scheffler, Dragoman der Kaiserl. Botschaft in Konstantinopel
+Publisher: Borna-Leipzig: Buchdruckerei Robert Noske
+Publication Date: 1909 (line 46 of this file, on the title page)
+Rights: Public Domain (pd-us-by-date: published 1909); the archive.org record carries no rights field, so the imprint date is the basis
+Language: deu
+Source: archive.org item IA41545812_0035, full text from the item's own djvu.txt. Fetched directly 2026-11-15 by the Library thread; the byte count of the downloaded file (100,997) equals the size archive.org lists for the djvu.txt.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1909, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are this file's own line numbers.
+Content note: A German doctoral dissertation in law on the Bulgarian Exarchate and the church dispute in Macedonia. Editorial matter: contents at lines 65-85, a list of sources and literature from line 88, and a foreword (Vorwort) from line 153. Divisions: three main parts, the second on the Bulgarian Exarchate (from line 761) and the third on the Macedonian church dispute (from line 2205); the text ends at line 2493. The firman of 11 March 1870, articles 1-11 with its closing clause, is printed in German, translated by the author from the Turkish text, at lines 1117-1263. The election of 'Anthimos', archbishop of Widdin, as exarch on 23 February 1872, and the break with the Patriarchate, are told at lines 1319-1347. About 13,792 words.
+
+______________________________________________________________________
+
+DAS BULGARISCHE EXARCHAT 
+
+
+UND DER 
+
+
+MAZEDONISCHE KIRCHENSTREIT. 
+
+
+INAUGURAL-DISSERTATION 
+
+
+ZUR ERLANGUNG DER DOKTORWÜRDE 
+BEI DER 
+
+JURISTISCHEN FAKULTÄT DER UNIVERSITÄT 
+LEIPZIG 
+
+
+EINGEREICHT VON 
+
+
+KURT SCHEFFLER 
+
+
+DRAGOMAN DER KAISERL. BOTSCHAFT IN KONSTANTINOPEL. 
+
+
+A 
+
+
+BORNA-LEIPZIG 
+BUCHDRUCKEREI ROBERT NOSKE 
+1909. 
+
+
+Digitized by the Internet Archive 
+in 2026 
+
+
+https://archive.org/details/IA41545812_0035 
+
+
+Meinen lieben Eltern gewidmet. 
+
+
+I. 
+
+
+II. 
+
+
+Inhaltsverzeichnis. 
+
+
+Seite 
+
+
+VOL. WOLLE ee ee ll 
+. Geschichtliche Entwicklung der christlichen Religionsgemeinden 
+
+
+unterzderzislamitischens Herrschalte re en 
+1. Wesen des mohammedanischen Staates . . . 2 2 .2..2...98 
+
+2. Verhältnis der Christen zu den arabischen und türkischen 
+Broperetna er} 
+Dasspulganısche@karchate Sen 
+ImeGeschichtlichesee wre ee an a nel? 
+AMULBANISRTON I Ze er a a nn DD 
+3 VerbältnisgzumsStaatemee ee el 
+4. Internationaler Charakter der kirchlichen Privilegien . . . 36 
+Der-mazedonischer Kirchenstreit 2 il 
+
+
+Quellen und Literatur. 
+
+
+Mülteka-ül-ebhar (Kodifikation des Scheriatrechtes unter Soliman dem 
+Prächtigen) von Ibrahim Halebi mit Kommentar von Mevkafati. 
+Konstantinopel 1302, 
+
+Düstur, Offizielle türkische Gesetzsammlung. 4 Bde. mit 4 Anhängen. 
+
+Der Koran. 
+
+
+Aristarchi Bey, L£gislation Ottomane ou Recueil des lois, röglements, 
+ordonnances, traites, capitulations et autres documents officiels 
+de l’Empire Ottoman. Konstantinopel 1873—1888, 
+
+Beth, Die orientalische Christenheit der Mittelmeerländer. Berlin 1902. 
+
+Bratter, Die kutzowalachische Frage. Hamburg 1907. 
+
+Budget für das Fürstentum Bulgarien. Sofia 1909. 
+
+Diplomatische Aktenstücke über die Reformaktion in Mazedonien. 1906/07. 
+(Österreichisches Rotbuch.) 
+
+Documents Diplomatiques, Affaires de Macedoine. Paris 1905. (Fran- 
+zösisches Gelbbuch.) 
+
+Gelzer, Geistliches und Weltliches aus dem türkisch-griechischen Orient. 
+Leipzig 1900. 
+
+v. Hammer, Geschichte des Osmanischen Reiches. 2. Ausgabe. Pest 
+1834—1836. 
+
+Jirecek, Das Fürstentum Bulgarien. Wien 1891. 
+
+Leger, Turcs et Grecs contre Bulgares en Mac&doine. Paris 1904. 
+
+v. Mach, Der Machtbereich des bulgarischen Exarchats in der Türkei. 
+Neuchatel 1906. 
+
+v. Mülinen, Die lateinische Kirche im türkischen Reiche. 2. Aufl. Berlin 1903. 
+
+Nieolaides, Mazedonien. Berlin 1899. 
+
+Petrovie, Mazedonien und die Lösung seines Problems. Berlin 1904. 
+
+Schopoff, Les reformes et la protection des Chretiens en Turquie. Paris 1904. 
+
+Sidarouss, Des Patriarcats. Les Patriarcats dans l’Empire Ottoman et 
+sp&cialement en Egypte. Paris 1907. 
+
+Silbernagl, Verfassung und gegenwärtiger Bestand sämtlicher Kirchen des 
+Orients. 2, Aufl., herausgegeben von Dr. Jos. Schnitzer. Regens- 
+burg 1904. 
+
+van den Steen de Jehay, De la situation legale des Sujets Ottomans 
+Non-Musulmans. Bruxelles 1906. 
+
+Tableaux de Crimes Bulgares contre les Grecs Orthodoxes dans les Vilayets 
+Macedoniens. Paris 1907. 
+
+Young, Corps de Droit Ottoman. Oxford 1905. 
+
+
+Vorwort. 
+
+
+Seit der Mitte des Jahres 1908 sind die Angen der gebildeten 
+Welt wieder einmal auf den Wetterwinkel Europas, den Balkan, 
+gerichtet. Unerhörte und von den besten Kennern des Orientes 
+für unmöglich gehaltene Vorgänge spielten sich dort ab: das 
+Osmanische Reich hatte seine alte, fast vergessene Verfassung 
+von 1876 erneuert und ging mit heiligem Ernst daran, das, was 
+es seit dem Pariser Frieden dem Namen nach besaß, nun in 
+Wirklichkeit zu erwerben, die Anerkennung als moderne Groß- 
+macht, auf der Höhe des Fortschrittes und der Bildung stehend. 
+
+Und es war hohe Zeit, sollte nicht der kranke Mann einer 
+neuen schweren Amputation unterzogen werden. Schienen doch 
+die Vertragsmächte des Mürzsteger Programms das Elend der 
+durch jahrzehntelange unheilvolle Bandenkämpfe bis in das Mark 
+zerrütteten Bevölkerung Mazedoniens nicht mehr ruhig ansehen 
+zu wollen. Die Erklärung dieses Landes zu einer autonomen 
+Provinz und die damit eingeleitete gänzliche Lostrennung der- 
+selben schien nahe bevorzustehen. 
+
+Da erfolgte am Rande des Abgrundes die Wiedergeburt des 
+türkischen Staatswesens, nicht durch fremde Reformer, sondern 
+aus dem eigensten, edelsten Kern des osmanischen Volkes her- 
+aus, welches asiatischer Despotismus bislang an der Entfaltung 
+seiner besten Kräfte gehindert hatte. 
+
+Eine moderne Verfassung ward eingeführt, und als der 
+mürrische Spender derselben nach kurzem Gewähren die junge 
+Freiheit wieder in Fesseln schlagen wollte, wurde dieser letzte 
+Vorkämpfer des Absolutismus und der starren Reaktion seines 
+Thrones entsetzt. 
+
+Mit einem Schlage sanken die Waffen der in mörderischem 
+Bruderkriege sich zerfleischenden Völker und — was keine 
+Reformkommission der Großmächte Europas erreicht — Christen 
+und Mohammedaner, Türken, Griechen, Serben und Bulgaren 
+feierten das Fest der Verbrüderung. 
+
+Nunmehr soll gemeinsame ehrliche Arbeit dem Lande den 
+Frieden geben, dessen es so nötig bedarf, Vorurteile, Mißtrauen, 
+tiefeingewurzelten Haß beseitigen, jahrhundertelang währende 
+Gegensätze ausgleichen. Wird es gelingen? 
+
+
+De 
+
+
+Die Zukunft wird es lehren. 
+
+Eine der Hauptursachen der mazedonischen Wirren war der 
+tiefe Haß der Griechen gegen die junge, mächtig aufstrebende 
+bulgarische Kirche, deren Lostrennung von dem ökumenischen 
+Patriarchat diesem eine schwere, noch immer blutende Wunde 
+geschlagen hat. 
+
+Den Gegensatz der beiden Kirchen, den Werdegang, die 
+gegenwärtige Stellung und die Zukunft des bulgarischen Exar- 
+chats darzulegen, soll die Aufgabe der vorliegenden Zeilen sein. 
+
+Zu diesem Zwecke scheint zunächst ein Überblick über die 
+geschichtliche Entwicklung der christlichen Religionsgemeinden 
+in der Türkei überhaupt, über ihr Verhältnis zu den türkischen 
+und arabischen Eroberern sowie ein kurzer Einblick in das 
+Wesen des mohammedanischen Staates erforderlich. 
+
+
+I. Geschichtliche Entwicklung der christlichen 
+Religionsgemeinden unter der islamitischen 
+Herrschaft. 
+
+
+1. Wesen des mohammedanischen Staates. 
+
+
+Die Religion, die Mohammed Ibn Adallah aus der Sippe 
+Haschim seinen Landsleuten brachte, war eine rein arabische. 
+Noch heute weisen trotz der Wandlungen, die auch für sie im 
+Laufe der Jahrhunderte unvermeidlich waren, der unerschütter- 
+liche Konservativismus sowie der ausgeprägt demokratische Zug 
+des Islams auf diese Grundeigenschaften der Wüstensöhne Arabiens 
+hin. Während jener Grundzug des Islams in allen seinen In- 
+stitutionen, geistlichen wie weltlichen, stets unverkennbar her- 
+vortritt, ist sein demokratischer Charakter nicht so bekannt, ja 
+auf den ersten Blick könnte man geneigt sein, ihn im Gegen- 
+teil als die Religion des Absolutismus und als Begünstiger der 
+Tyrannei anzusehen. Doch hätten solche Tendenzen bei dem 
+Individualismus der Beduinen, denen noch heute der Begriff einer 
+Obrigkeit fremd ist, niemals Wurzel gefaßt. Daher konnte die 
+Verfassung, die ihnen Mohammed gab, nur eine diesen Eigen- 
+schaften angepaßte, theokratische sein. 
+
+Nicht er war das Haupt der Gemeinde, sondern Allah, nicht 
+„Mir gehorchet“, sagte der Prophet, sondern: 
+
+„Ihr Gläubigen, gehorchet Allah und seinen Boten 
+und den Befehlshabern aus eurer Mitte“! 
+und 
+„Der Höchste bei Gott unter euch ist der Frömmste 
+unter euch“, 
+ein Wort, das nichts von Edelgeborenen und Niedriggeborenen, 
+von Freien und Unfreien weiß. 
+
+So verdankt der demokratischen Grundrichtung seiner ersten 
+Bekenner der mohammedanische Staat seinen bis auf den heutigen 
+Tag bewahrten streng religiösen Charakter. Lediglich als „Imam 
+el Muslimin“ erkennt der freie Beduine den türkischen Sultan 
+an, als Nachfolger des Gesandten Gottes und „Khalifen der 
+
+
+ı Koran, Sure XLIX, 13, 
+
+
+un AN, ae 
+
+
+Gläubigen“, nicht aber als seinen weltlichen Herrn. Und selbst 
+von der Erhabenheit des Khalifen läßt sich jenes demokratisch- 
+individualistische Empfinden nicht niederbeugen: Der Khalif, der 
+seine Macht mißbraucht, der grausam ist, der die Gläubigen be- 
+drückt und mißhandelt, der morden läßt und Unruhen anstiftet, 
+wird abgesetzt. 
+
+Zur Sanktionierung der Entthronung Abdul Hamids II. durch 
+die türkische Nationalversammlung am 27. April 1909 gegenüber 
+der islamitischen Welt war ein Fetwa! des Scheich-ül-Islam 
+nötig, das ihn seines geistlichen Amtes für unwürdig erklärte. 
+Erst damit hatten auch seine staatlichen Funktionen ein Ende. 
+
+Das höchste und ursprünglich einzige Gesetz für den mo- 
+hammedanischen Staat ist der Koran, der nicht allein religiöse, 
+sondern auch eine Fülle von weltlichen Vorschriften auf allen 
+möglichen Gebieten des staatlichen und bürgerlichen Lebens 
+enthält. 
+
+Neben dem Koran sind es dann noch drei weitere Rechts- 
+quellen, die mit diesem zusammen das Scheriat, das heilige Recht 
+des Islams bilden. Diese sind 
+
+1. die Sunna oder die Überlieferung des Propheten, welche 
+seine Aussprüche, „sunnat-i kawlie“ oder „hadiss“ genannt, seine 
+Taten und Gepflogenheiten umfaßt; 
+
+2. die Idschma-i ümmet, die Gesamtheit der Entschei- 
+dungen der vier ersten Khalifen Abu Bekr, Osman, Omar und 
+Ali, sowie die übereinstimmenden Interpretationen der für die 
+Auslegung der heiligen Quellen befugten Rechtslehrer einer und 
+derselben Zeitepoche; 
+
+3. der Kiass oder die Analogie, die ihre Basis in den drei 
+ersten Quellen hat. Sie bedeutet die Anwendung einer Ent- 
+scheidung des Korans, der Sunna oder der Idschma-i ümmet, auf 
+eine andere wesensgleiche Rechtsfrage im Wege der Analogie. 
+
+Dieses heilige oder Scheriatrecht bildet die Grundlage der 
+gesamten Gesetzgebung des mohammedanischen Staates, auch des 
+Osmanischen Reiches, und wird dies auch für die Zukunft bleiben 
+müssen, wenn dies auch nicht immer im Interesse der ökono- 
+mischen Entwicklung des Landes sein kann. Nur in den Materien, 
+über welche die heiligen Rechtsquellen schweigen, kann die 
+weltliche Gesetzgebung des Staates aushelfend und ergänzend 
+eingreifen, wie dies seit der Zeit Suleimans des Prächtigen ge- 
+schehen ist. Aber auch dies ist nur im Rahmen und Geiste des 
+heiligen Rechtes zulässig. 
+
+
+... " Entscheidung des Scheich-ül-Islam oder eines Mufti, -Doktors- des 
+heiligen Rechtes, auf Fragen von prinzipieller Bedeutung. 
+
+
+a 
+
+
+Die unbestrittenen Gebiete des Scheriatrechtes und der 
+geistlichen mohammedanischen Gerichtsbarkeit sind insbesondere 
+das Ebe- und Erbrecht, auf das sich, wie wir sehen werden, 
+gerade die Hauptprivilegien der christlichen Religionsgemeinden 
+in der Türkei beziehen. 
+
+
+2. Verhältnis der Christen zu den arabischen und 
+türkischen Eroberern. 
+
+
+Nicht allein dem islamitischen Staate hat der demokratische 
+Sinn seiner ersten Bekenner den Stempel aufgedrückt, auch der 
+von den arabischen Eroberern unterworfenen Christenheit sollte 
+er zugute kommen. Daß eine Verschmelzung der Christen und 
+Juden mit seiner Gemeinde unmöglich sei, hatte der Prophet 
+schon frühzeitig erkannt, und so ließ er sie nach Vernichtung 
+ihrer staatlichen Selbständigkeit, der theokratischen Grundlage 
+seiner eigenen Schöpfung entsprechend, als rein geistliche Organi- 
+sationen unter ihren kirchlichen Oberen mit eigener Verwaltung 
+und Gerichtsbarkeit weiterbestehen. Dies jedoch nur dann, 
+wenn sie den „Aman“, die Gnade der Rechtgläubigen, erfleht 
+und sich zur Zahlung eines Tributes verpflichtet hatten. 
+
+Denn längst hatte der Prophet den Entschluß gefaßt, seine 
+Scharen über die Grenze Arabiens, der Wiege des Islams, hin- 
+aus zur Eroberung der Welt zu entsenden, und zu diesem Zwecke 
+den „Dcehihad“ den heiligen Krieg gegen die Ungläubigen er- 
+klärt: 
+
+„Ob Ihr belastet seid oder nicht, ob zu Fuß oder zu Pferd, 
+krank oder gesund, arm oder reich, ob mit oder ohne Familie, 
+erhebt Euch alle und kämpfet auf dem Pfade Gottes, Eurer 
+Person Und Eurer Güter“,! und: 
+
+„Wenn Ihr Ungläubigen begegnet, so tötet sie, bis daß Ihr 
+ein großes Gemetzel unter ihnen angerichtet habt, und zieht fest 
+an die Stricke Eurer Gefangenen“!? 
+
+Schwere Strafen werden den Ungehorsamen angedroht: 
+
+„Wenn Ihr nicht in den Kampf zieht, so wird Gott Euch 
+schreckliche Strafen auferlegen, er wird Euch durch unfehlbare 
+Mittel, wie Hungersnot und Einfall der Feinde vernichten und 
+wird Euch durch ein anderes Volk ersetzen und Ihr werdet ihm 
+nicht schaden können. Gott ist allmächtig“.?® 
+
+
+ı Koran, Sure IX, 41. 
+2 Koran, Sure XLVII, 4. 
+3 Koran, Sure IX, 39. 
+
+
+Und umgekehrt wurden denen, die im heiligen Kampfe gegen 
+die Ungläubigen fallen würden, die höchsten Wonnen des Para- 
+dieses in sichere Aussicht gestellt. Und dieses Mittel hat sich 
+bis auf unsere Tage als so wirksam erwiesen, daß im griechischen 
+Kriege verwundete türkische Soldaten häufig sich weigerten, ihre 
+Wunden verbinden zu lassen, um des verheißenen höchsten Lohnes 
+im Jenseits teilhaftig zu werden. 
+
+Zum Zwecke. der Ausbreitung des Islams wurde die ganze 
+Erde in zwei Teile eingeteilt, in „das Haus des Krieges“, „dar- 
+ül-harb“, und das „Haus des Islams“, „dar-ül-Islam“. Jenes 
+waren die Länder der Ungläubigen oder harbi, in die der Islam 
+noch nicht seinen Einzug gehalten hatte. Gegen sie gab es 
+nichts als einen ewigen Krieg. 
+
+Das dar-ul-Islam dagegen waren die vom Islam bereits 
+unterworfenen Gebiete, in denen also seine Bekenner mit den 
+Ungläubigen gemeinsam wohnten. 
+
+Bezüglich der Ungläubigen wurde jedoch ein Unterschied 
+gemacht, je nachdem sie Götzendiener waren oder zu den 
+„Ashab-i kitab“ gehörten, „denen, die das Buch empfingen“, d.h. 
+denen gleich den Mohammedanern im Koran von Gott eine 
+heilige geschriebene Offenbarung zuteil wurde, wie Christen 
+und Juden. Während es für die Götzendiener nur die Bekehrung 
+zum Islam oder den Tod gab, durfte ihnen ihr Leben und ihre 
+Religion belassen werden.! 
+
+Doch mußten sie, wie erwähnt, einen Tribut zahlen, den 
+„Dschizie“ und „Charadsch“, eine Kopf- und Grundsteuer. Dann 
+wurden sie als „Zimmi“, Unterworfene, als in einem Schutz- 
+verhältnis zu den Gläubigen stehend, behandelt und ihnen Schutz 
+ihres Lebens, Glaubens und Vermögens garantiert. 
+
+Nach dem berühmten arabischen Rechtslehrer Ibrahim 
+bin Muhammed al Halebi? wurde dieser Vertrag nicht 
+einmal durch die Weigerung eines Christen, den Dschizie zu 
+zahlen, durch seinen Umgang mit einer Mohammedanerin, der 
+nach islamitischem Recht ein Verbrechen ist, durch die Tötung 
+eines Mohammedaners oder Schmähung des Propheten oder des 
+Islams aufgehoben. 
+
+Doch wird dies von anderen Rechtslehrern bestritten. 
+
+Nur wenn er in Feindesland floh oder sich mit dem Feinde 
+in landesverräterische Beziehungen einließ, wurde der Zimmi als 
+Abtrünniger mit dem Tode bestraft. 
+
+In einem Edikt? an die Gläubigen verbürgt sich der Prophet, 
+
+
+! vw, Mülinen, Die lateinische Kirche im türkischen Reiche S. 2. 
+® Ibrahim alHalebi, Mülteka-ül-ebhar. 
+° Text bei Sidarouss, Des Patriacats S. 506ff. 
+
+
+Be er 
+
+
+die Zuflucht suchenden Christen zu verteidigen mit seinen Mannen, 
+seinen Verwandten, Glaubensgenossen und Dienern. 
+
+
+„Denn sie sind meine Untertanen, weil ihnen mein 
+Schutz gewährt ist. Es darf kein Bischof von seinem 
+Bistum vertrieben werden, noch ein Mönch von seinem 
+Kloster, noch ein Eremit aus seiner Klause und kein 
+Reisender ist an seiner Reise zu hindern. Keine ihrer 
+Kirchen und Pfarrhäuser darf zerstört, noch das Ver- 
+mögen der Kirchen zum Bau der Tempel der Gläubigen 
+verwendet werden, noch zu ihren Häusern. 
+
+
+Der, welcher eine von diesen Handlungen begeht, 
+hat den Vertrag Gottes und seines Gesandten verletzt. 
+
+Man soll den Mönchen, Bischöfen und Geistlichen 
+keinerlei Tribut noch Steuern auferlegen, denn ich werde 
+sie überall beschützen, wo sie sich befinden, zu Wasser 
+und zu Lande, im Orient und Okzident, im Süden und 
+Norden der Erde. Sie haben meinen Schutz, meinen 
+Beistand und die Versicherung, daß ihnen kein Übel 
+geschehen wird.“ 
+
+
+Der gleiche Schutz wird vom Propheten noch in einem be- 
+sonderen Edikt! den Bewohnern von Aylat zugesichert und 
+durch seinen Nachfolger, dem Khalifen Omar, in einem Edikte 
+vom 20. Rabbi-ul-avel,’ des Jahres 15 der Hedschra dem Patri- 
+archen Sofronius von Jerusalem sowie den Einwohnern von 
+Ludd® in Palästina bestätigt. 
+
+Ebenso wurden noch unter dem Propheten die jüdischen 
+Bewohner von Arabien und Palästina unter Schutz gestellt. 
+
+
+Unter der Bedingung, sich nicht in die Staatsgeschäfte ein- 
+zumischen und bei Ausübung ihrer Religion kein öffentliches 
+Ärgernis unter den Gläubigen zu erregen, ließ man sie in der 
+Verwaltung und Jurisdiktion ihrer Gemeinden vollkommen un- 
+behelligt. „Die geistige Überhebung des Mohammedaners ließ 
+
+es gar nicht zu, daß diesen Untertanen zweiter Gattung 
+vom Staate größere Aufmerksamkeit zugewandt ward.“ * 
+
+So bildeten sich allmählich ganze nationale Gruppen um 
+
+die einzelnen christlichen Kirchen, von den Arabern „Millet“,? 
+
+
+ı Text bei Sidaroussa.a.0. S. 
+
+2 Text bei Sidaroussa.a.0.S. 510. 
+
+3 Text bei Sidaroussa.a.. 
+
+17,2 M ulinlensa23a2 078.3. 
+
+5 Millet, Plural Milel, eigentlich = „Nation“, ist der technische Ausdruck 
+für die nicht mohammedanischen Religionsgemeinden. 
+
+
+, 8 en 
+
+
+Religionsgemeinden genannt, die sich im Laufe der Jahrhunderte 
+zu wahren Staaten im Staate ausbildeten. 
+
+So kommt es, daß im Öriente die Begriffe Kirche und 
+Nationalität völlig miteinander verschmolzen sind. 
+
+
+Als Selim I. im Jahre 1517 sich der beiden heiligen Stätten 
+des Islams, der „Haremejn-i scherifejn“, Mekka und Medina, be- 
+mächtigt hatte und damit als Behüter des Heiligtumes von der 
+islamitischen Gemeinde als „Imam-el-Muslimin“, als „Beherrscher 
+der Gläubigen“ angesehen wurde, nahm er mit der Erbschaft 
+der arabischen Khalifen auch die nichtmohammedanischen Milel 
+als selbständige Korporationen in das osmanische Staatsrecht auf. 
+
+
+Am 29. Mai 1453 war Mahmed II. el Fatih, „der Eroberer“, 
+siegreich in die heilige Sophienkirche in Konstantinopel ein- 
+gezogen. 
+
+Am Tage darauf verbürgte er in einem Berat dem griechischen 
+Patriarchat die Freiheit seiner Religionsausübung und die Er- 
+haltung seines Vermögens." Die Hälfte der Kirchen der Haupt- 
+stadt wurde den Christen zurückgegeben, die andere, darunter 
+die Hagia Sophia, in Moscheen verwandelt. 
+
+Alle Christen wurden zu einer großen Gemeinde, dem Rum- 
+Milleti, vereinigt. Zu ihrem Oberhaupt (Millet baschi) und „Ver- 
+walter der Regierung aller orthodoxen Untertanen des Osma- 
+nischen Reiches“ wurde der auf Veranlassung des Herrschers 
+von den orthodoxen Bischöfen gewählte Patriarch Gennadius 
+mit dem Titel „Erzbischof von Konstantinopel und ökumenischer 
+Patriarch“ ernannt. 
+
+In Verbindung mit einer aus den zwölf höchsten kirchlichen 
+Würdenträgern und einer Anzahl von Laien gebildeten Synode 
+erhielt er zugleich die höchste Zivil- und Strafgerichtsbarkeit 
+über alle Christen des Orients. 
+
+In den Provinzen wurde diese den dortigen kirchlichen 
+Oberen übertragen. 
+
+Im Jahre 1461 erlangte der armenische Erzbischof von 
+Brussa die staatliche Anerkennung eines Patriarchen der gre- 
+gorianischen Armenier und „Hauptes aller Christen des Orients“ 
+und damit die Vertretung sämtlicher nichtorthodoxer Christen 
+bei der Hohen Pforte, die ihm erst mit der nach und nach er- 
+folgenden Anerkennung der übrigen Milel wieder verloren-eing: 
+
+Welcher Art waren nun die Gegenleistungen der Christen 
+für die ihnen von den Türken überlassene Autonomie, die sie 
+übrigens nicht so sehr der religiösen Duldsamkeit ihrer Herren 
+
+
+) v. Hammer, Geschichte des Osmanischen Reiches S. 426. 
+
+
+=— gg — 
+
+
+verdankten, als deren politischer Staatsklugheit sowie deren 
+Unkenntnis des Christentums und kanonischen Rechtes? 
+
+Sie waren hart genug. 
+
+Da war in erster Linie die Zahlung der Kopfsteuer, des 
+Dschizie, der jahrhundertelang eine Haupteinnahmequelle für 
+den osmanischen Staatsschatz gebildet hat. 
+
+Unter Suleiman II., als das Osmanische Reich auf der Höhe 
+seiner Macht stand, soll der Dschizie eine Million Dukaten und 
+die Gebühren für die Ausstellung der Berats und Patente für 
+die christlichen Würdenträger 100000 Dukaten eingebracht haben, 
+was bei einer Gesamteinnahme des Fiskus von 10t/,—15 Milli- 
+onen Dukaten fast ein Zehntel des gesamten Staatsschatzes 
+ausmacht. 
+
+Im 18. Jahrhundert auf über 20°/, des Staatshaushaltes ge- 
+stiegen, bildete diese Steuer eine drückende Last für die christ- 
+liche Bevölkerung. 
+
+Eine andere noch weit schrecklichere Steuer war der Blut- 
+zoll, den die Christen durch die Janitscharenpressung leisten 
+mußten. 
+
+Im Jahre 1334 begründete Sultan Orchan die Janitscharen- 
+regimenter." Zu ihrer Rekrutierung wurden die schönsten und 
+kräftigsten christlichen Knaben von den türkischen Werbern 
+mit Gewalt ihren Eltern entrissen, zum Islam bekehrt und zu 
+Todfeinden des Christentums erzogen. 
+
+Ihre zuerst unbedeutende Zahl von 1000 Mann stieg unter 
+Mehmed I. auf 12000, unter Suleiman auf 20000 und unter 
+Mehmed IV. auf 40000, so daß wenigstens 500000 christliche 
+Kinder gewaltsam bekehrt worden sind.? 
+
+Zu einer furchtbaren Waffe gegen das Christentum ge- 
+worden, ruhmbedeckt durch zahllose Siege auf den Schlacht- 
+feldern dreier Erdteile, von den Sultanen mit Gnaden und 
+Privilegien überhäuft, entwickelten sie sich schließlich zu einer 
+zügellosen Prätorianerhorde, die die Sultane nach ihrem Be- 
+lieben ein- und absetzte, bis sie endlich Mahmud II. im Jahre 
+1826 auf dem Etmeidan in Konstantinopel mit Kartätschen zu- 
+sammenschießen ließ. 
+
+Sein Nachfolger Abdul Medschid I. suchte, das Reform- 
+programm seines Vaters fortsetzend, sein durch des Raubsystem 
+der Janitscharen ausgesaugtes Land zu heben und insbesondere 
+die nichtmohammedanische Bevölkerung aus ihrer drückenden 
+Knechtschaft zu befreien. 
+
+
+iz Hammer 323.021. 96. 
+2 Ea,m mierra,2.02 8:98: 
+
+
+Scheffler. 2 
+
+
+ee 
+
+
+Am 3. November 1839, dem Tage nach seiner Thronbe- 
+steigung, versammelte er vor dem Palais von Gülbane das 
+diplomatische Korps, die Minister und höchsten geistlichen wie 
+staatlichen Würdenträger, die Chefs der nichtmohammedanischen 
+Millets und verkündete vor ihnen das nach dem Orte seiner 
+Proklamierung benannte Hatt-i scherif von Gülhane.' 
+
+Gleichheit aller vor dem Gesetz, vollkommene Sicherheit 
+von Leben, Ehre und Vermögen aller Untertanen sind die her- 
+vorragendsten Prinzipien, für welche der Herrscher sich öffent- 
+lich verbürgt. 
+
+Mit diesem Erlasse beginnt die moderne Reformgesetzgebung 
+(Tanzimat) für das Osmanische Reich. 
+
+Mit der durch das Hatt-i scherif für alle Zeiten festgelegten 
+Gleichheit aller osmanischen Untertanen vor dem Gesetz war 
+jedoch die drückende und unwürdige Kopfsteuer der Christen 
+unvereinbar. So wurde denn endlich auf Betreiben Englands 
+und Frankreichs, der Bundesgenossen des Sultans im Krimkriege, 
+am 12. März 1854 der Dschizie aufgehoben. 
+
+Doch bald sollte sich Gelegenheit finden, ihn unter einem 
+Deckmantel wieder aufleben zu lassen. 
+
+Das Hatt-i humajun? Abdul Medschids vom 10. Dschemazi-ül 
+achyr 1272 (18. Februar 1856), das den Grundsatz der gleichen 
+Rechte und Pflichten für alle osmanischen Staatsangehörigen 
+bestätigte, bestimmte dementsprechend auch die Zulassung und 
+Verpflichtung aller Nichtmohammedaner zum Militärdienste, der 
+ihnen bisher stets verschlossen war. 
+
+Aber die Christen, in Erinnerung an die üblen Erfahrungen, 
+die sie mit den Janitscharen gemacht hatten, weigerten sich, 
+Folge zu leisten, außer wenn ihnen die Bildung rein christlicher 
+Regimenter mit christlichen Offizieren, Geistlichen und Feld- 
+zeichen gestattet würde, eine Frage, die in allerjüngster Zeit 
+wieder aktuell geworden ist. 
+
+Für die Türken aber war das in damaliger Zeit bei der Un- 
+zuverlässigkeit ihrer christlichen Untertanen, die stets nur allzu 
+bereit waren, das Schwert gegen ihre Bedrücker zu kehren, un- 
+annehmbar. 
+
+So wurde der Gedanke des Militärdienstes der Christen 
+wieder fallen gelassen. Dieser ist ihnen auch bis zum heutigen 
+Tage verschlossen geblieben, abgesehen von der Offizierslaufbahn, 
+
+
+! Düstur I S.4ff.; Aristarchi Bey, Legislation ottomane II 
+S. 7ff.; Young, Corps de Droit Ottoman I S.29ff.; Schopoff, Les 
+reformes et la protection des Chretiens en Turquie p. 7ff. 
+? Düstur 1 8.7; Ariskarcht Bey IES UND ung 
+8. 3ff.; Schopoff S. 48ff. 
+
+
+EEE 
+
+
+die jedoch auch nur mit einer verschwindend kleinen Anzahl von 
+Christen besetzt ist. 
+
+Als Entgelt für die Befreiung von der Heeresfolge wurde 
+nun eine Militärsteuer, Bedel-i askerie, eingeführt, die gegen- 
+wärtig für je eine Gruppe von 135 Nichtmohammedanern 5000 
+Piaster oder für den einzelnen rund 37 Piaster beträgt. 
+
+Nur die Einwohner .von Konstantinopel sind von dieser 
+Taxe befreit, aber auch nur, falls sie in der Hauptstadt selbst 
+geboren sind; sonst haben sie die Steuer an ihrem Geburtsort zu 
+entrichten... Um die Einziehung des Bedel-i askerie und seine 
+Verteilung auf die einzelnen Gruppen innerhalb der verschiedenen 
+Millets kümmert sich der Staat nicht; dies ist Sache der kirch- 
+lichen Behörden. 
+
+Das Hatt-i humajun ist der zweite Merkstein in der modernen 
+Reformgesetzgebung des türkischen Reiches. Für die Verfassung 
+der christlichen Kirchen bildet es noch heute die rechtliche 
+Grundlage. Außer der Bestätigung der Garantien des Hatt-i 
+scherif von Gülhane sowie sämtlicher ab antiquo den christ- 
+lichen Gemeinden gewährter Privilegien bestimmt es die Aus- 
+arbeitung von Reformen durch eine von jedem Millet einzu- 
+berufende Kommission, 
+
+„um die den Patriarchen und Bischöfen der christlichen 
+Kirchen von Sultan Mohammed II. und seinen Nach- 
+folgern gewährten Befugnisse in Einklang zu bringen 
+mit dem Fortschritte der Zeit und der Zivilisation und 
+der neuen Stellung, welche die hochherzigen Bestrebungen 
+des Großherrn diesen Gemeinden zusichern“. 
+
+Sodann gibt es die Grundzüge an, nach denen künftig die 
+Errichtung und Erhaltung von Kirchen, die Ausübung der 
+Gerichtsbarkeit und die Verwaltung des Vermögens sowie das 
+Unterrichtswesen der christlichen Millets gehandhabt werden soll 
+und die noch heute in Geltung sind. 
+
+Aber noch einmal im Jahre 1891 sollte die Notwendigkeit 
+einer offiziellen kaiserlichen Bestätigung der Privilegien der 
+christlichen Kirchen eintreten, nachdem die türkische Regierung 
+in den vorhergehenden Jahren die gewaltsame Unterdrückung 
+derselben, insbesondere die Entziehung ihrer Gerichtsbarkeit 
+und Übertragung derselben an die Scheriatgerichte versucht 
+hatte. Diese Versuche scheiterten jedoch an dem energischen 
+Widerstande der orthodoxen und armenischen Kirche, der so- 
+gar bis zur Abdankung des ökumenischen Patriarchen und Er- 
+klärung des Interdiktes über alle orthodoxen Kirchen des Reiches 
+führte. 
+
+Nunmehr gab die Regierung nach und durch kaiserliche 
+
+Ir 
+
+
+Berats an das ökumenische Patriarchat vom 23. Dschemazi-ül- 
+achyr 1308 (1. Februar 1891) und an das armenische Patriarchat 
+vom 21. Chaban 1308 (1. April 1891) wurden diese in ihre alten 
+Rechte wieder eingesetzt.' 
+
+Die Bestimmungen dieser Erlasse wurden durch Rund- 
+schreiben auf alle Millets ausgedehnt und bilden neben dem Hatt-i 
+humajun von 1856 die Grundlagen für die heutige staatsrecht- 
+liche Stellung aller christlichen Kirchen in der Türkei. 
+
+Zu erwähnen bliebe, daß auch die Verfassung des Os- 
+manischen Reiches vom 7. Zilhidsche 1293 (11./23. Dezember 
+1876), wieder in Kraft gesetzt am 25. Dschemazi-ül-achyr 1326 
+(24. Juli 1908), in Art. 11 die freie Ausübung aller im Reiche 
+anerkannten Kulte und die Aufrechterhaltung der den ver- 
+schiedenen Religionsgemeinden bewilligten Privilegien verbürgt 
+unter der Voraussetzung, daß sie nicht gegen die öffentliche 
+Ordnung und die guten Sitten verstoßen. 
+
+
+1. Das bulgarische Exarchat. 
+1. Geschichtliches. 
+
+
+I. Von den Ufern der Wolga her einfallend erschienen die 
+mongolisch-tatarischen Bulgaren zuerst im 7. Jahrhundert in 
+größeren Massen auf dem Balkan. Sie fanden die verschiedensten 
+Völkerstämme dort vor, die im Laufe der Jahrhunderte einander 
+in der Herrschaft abgelöst hatten. 
+
+Die Ureinwohner des Landes, die Thrakier und Illyrier, 
+hatten den Arnauten weichen müssen, diese den Griechen. Ihnen 
+folgten die Römer. Im 6. Jahrhundert n. Chr. hatten sich Slaven 
+im Balkan festgesetzt, so die Kroaten und die aus dem heutigen 
+südöstlichen Rußland eingewanderten Serben. Aus der Mischung 
+römischer Kolonisten mit Slawen hatte sich der kutzowalachische 
+Volksstamm gebildet” Zwischen Serben, Bulgaren und dem 
+byzantinischen Kaiserreiche wogte nun Jahrhunderte lang der 
+Kampf um die Herrschaft hin und her, bis sie schließlich sämt- 
+lich von der Flut der türkischen Eroberer weggerissen wurden. 
+
+Die Geschichte der bulgarischen Kirche beginnt mit dem 
+Jahre 862, in welchem sich der bulgarische Chan? Boris taufen 
+
+
+ı Texte bei Sidarouss S. 497 u. 501ff.; Young Il S. 19 u, 92f. 
+
+° s. darüber Bratter, Die kutzowalachische Frage S. 27. 
+
+® Der mongolische Titel „Chan“ (Khan) oder „Chakan“ der ältesten 
+bulgarischen Herrscher wurde fortan durch den slavischen „Knias“ (Fürst), 
+
+
+N 
+
+
+ließ und das von den mazedonischen Bischöfen Cyrillus und 
+Methodius zuerst im Lande verbreitete Christentum zur Staats- 
+religion erhob. . 
+
+Und sofort zeigte sich das für alle orthodoxen Völker des 
+Balkans charakteristische Bestreben, mit der Begründung eines 
+eigenen Staates auch zugleich ihre Kirche von dem ökumenischen 
+Patriarchat loszulösen und eine unabhängige Nationalkirche zu 
+errichten. So muß ihnen schon im Jahre 870 der ökumenische 
+Patriarch Ignazius, um ihren Übertritt zur römischen Kirche ab- 
+zuwenden, das nationale Bistum von Preslav! zugestehen, dem 
+zehn neugegründete Bistümer untergeordnet wurden. 
+
+„Geographisch zwischen Ost- und Westrom eingekeilt, 
+pendelten sie“, wie Beth” bemerkt, „überhaupt beständig von 
+einem zum anderen.“ 
+
+Unter dem Zaren Simeon neigte sich das Schwergewicht 
+Rom zu, und der Papst ernannte Simeon zum „Kaiser der Bul- 
+garen“ und den Bischof von Preslav, der bald darauf nach 
+Tirnowo übersiedelte, zum „Patriarchen von Bulgarien“.? 
+
+Unter dem Zaren Samuel wird dann das bereits im Jahre 
+535 von Kaiser Justinian gegründete Bistum Ochrida (Achris) 
+zum bulgarischen Patriarchat und zur Hauptstadt des Reiches 
+erhoben. 
+
+Aber mit der Zerstörung des ersten großbulgarischen Reiches 
+durch Kaiser Basilios II. „Bulgaroktonos“, den „Bulgarentöter“, 
+im Jahre 1018 hatte es auch mit der kirchlichen Unabhängig- 
+keit der Bulgaren ein Ende.* Das Patriarchat wurde auf- 
+gehoben, als „bulgarisches Erzbistum Ochrida“ bestand es zwar 
+noch bis zum Jahre 1763 dem Namen nach mit selbständiger 
+Verwaltung fort, in geistlicher Beziehung aber war es völlig 
+dem ökumenischen Patriarchat von Konstantinopel untergeordnet. 
+
+Im Jahre 1186 erstand das zweite großbulgarische oder 
+walachisch-bulgarische Reich und damit auch eine zweite kurze 
+Blütezeit der bulgarischen Nationalkirche. 
+
+Im Jahre 1204 wurde der König Joannisa oder Kalojoannes 
+durch einen Delegierten des Papstes Innozenz III. zum „Zaren 
+
+
+und den griechischen „Archon“ oder „Basileus“ ersetzt. Erst Simeon der 
+Große nahm den Titel „Zar der Bulgaren“ an. Mit der Unabhängigkeits- 
+erklärung Bulgariens am 5. Oktober 1908 wieder erneuert, wird er von den 
+Türken als Ausdruck politischer Zukunftsträume der Bulgaren mit großem 
+Mißtrauen aufgenommen. 
+
+1 Petrovic, Mazedonien S. 37. 
+
+2 Beth, Die orientalische Christenheit der Mittelmeerländer S. 69. 
+
+3 Nicolaides, Mazedonien S. 39. 
+
+4 van den Steen, De la Situation legale des Sujets Ottomans 
+Non-Musulmans p. 148, 
+
+
+Eee 
+
+
+der Walachen und Bulgaren“ gekrönt und das Patriarchat von 
+Tirnowo, der neuen Hauptstadt des Landes, gegründet mit dem 
+Rechte, die Zaren von Bulgarien zu krönen, das heilige Öl zu 
+spenden, an bestimmten Tagen das Pallium zu tragen und die 
+Wahl der Bischöfe und Metropoliten zu bestätigen.! 
+
+Im Jahre 1218 wurde mit der Begründung eines selb- 
+
+ständigen serbischen Reiches auch zugleich ein nationales 
+serbisches Erzbistum in Ipek errichtet und mit Zustimmung des 
+ökumenischen Patriarchates von dem Erzbistum Ochrida los- 
+elöst. 
+i Es bestanden also zu dieser Zeit neben dem ökumenischen 
+Patriarchat von Konstantinopel drei autokephale orthodoxe 
+Kirchen, das Erzbistum von Ochrida und die bulgarische und 
+serbische Nationalkirche in Tirnowo und Ipek. 
+
+Aber deren Bestand sollte nicht von langer Dauer sein. 
+
+II. Am 17. Juli 1393 zog Sultan Bajezid I. Jyldyrym (der 
+Blitz) siegreich in Tirnowo ein. Der letzte Patriarch in Tirnowo, 
+Euthymos, wurde in die Verbannung geschickt und ein griechischer 
+Metropolit dort eingesetzt. 
+
+Mit der Eroberung von Konstantinopel und der Ernennung 
+des Patriarchen Gennadius zum „Verwalter der Regierung aller 
+orthodoxen Untertanen des Osmanischen Reiches“ wurde auch 
+die bulgarische und serbische Kirche ein bloßer Bestandteil des 
+allgemeinen Rum Milleti. 
+
+Ihre Bischofssitze blieben allerdings auch ferner noch mit 
+nationalen Geistlichen besetzt, und erst im Jahre 1767 wurde 
+durch kaiserlichen Ferman, um den andauernden Konspirationen 
+mit Rom ein Ende zu machen, auch die bisherige administrative 
+Selbständigkeit beseitigt und sämtliche Bischofsstühle mit griechi- 
+schen Geistlichen besetzt.? 
+
+Seitdem und gerade durch die türkische Herrschaft hat das 
+ökumenische Patriarchat in kirchlicher und weltlicher Beziehung 
+die größten Fortschritte gemacht und ist seinem alten Plane, 
+alle christlichen, unter seinem Szepter vereinigten Völker der 
+Balkanhalbinsel völlig zu hellenisieren, immer näher gekommen. 
+
+Griechische Kirchen, Schulen und Priester sorgten dafür, 
+daß alles nationale Volksbewußtsein in den Balkanstaaten im 
+Keime erstickt wurde. Die slavische Kirchensprache wurde in 
+Acht und Bann getan, die Kischenbücher verbrannt, die nationalen 
+Schulen geschlossen.? 
+
+
+ı vanden Steena.a.0. S.15l Anm, 
+
+SaBiethraran0e Sal! 
+
+® s, darüber z.B. Gelzer, Geistliches und Weltliches aus dem türkisch- 
+griechischen Orient S. 117; Bratter a.a. 0. S. 135. 
+
+
+BE E 4 
+
+
+Diese Tendenz mußte notwendig zum schärfsten Wider- 
+stande der allmählich wieder in ihrem Nationalbewußtsein er- 
+starkenden Völker und endlich zur Lostrennung derselben vom 
+ökumenischen Patriarchat führen. Nachdem im 16. Jahrhundert 
+bereits Rußland durch Gründung des Patriarchates Moskau im 
+Jahre 1589, Polen 1594 und durch Errichtung des Patriarchats 
+von Karlowitz im Jahre 1690 die nach Ungarn geflüchteten 
+Serben und Rumänen verloren gegangen, setzte im vorigen Jahr- 
+hundert eine allgemeine „Rückbildung auf Kosten des Patriarchats 
+und des Griechentums ein, ein Werdegang, der bis heute noch 
+nicht abgeschlossen ist und mit seinen Begleiterscheinungen eine 
+der Ursachen ist, die die Balkanhalbinsel nicht zur Ruhe kommen 
+lassen“.! 
+
+Die Begründung des Königreiches Griechenland und einer 
+eigenen Landeskirche daselbst brachte dem ökumenischen Patri- 
+archat zuerst eine wesentliche Einbuße seines Machtbereiches. 
+Dafür aber warf es sich, von der griechischen Regierung unter- 
+stützt, nur mit um so größerem Eifer zum Vorkämpfer des 
+Hellenismus in den nichthellenischen Gebieten des türkischen 
+Reiches auf. 
+
+In diesen war jedoch mittlerweile die Erbitterung gegen 
+alles Griechische auf einen solchen Grad gestiegen, daß Rumänien, 
+Serbien und Montenegro mit der Errichtung eigener Staatswesen 
+auch selbständige Landeskirchen mit nationaler Geistlichkeit be- 
+gründeten. 
+
+III. Da begann auch bei den lange unterdrückten Bulgaren 
+„eine planmäßige und zielbewußte Bewegung“ zur Abschüttlung 
+des ökumenischen Joches, zuerst 1833 in Usküb, 1834 in 
+Weles und Samakow, 1840 in Widdin, Tirnowo und Philippopel 
+aufgenommen. Nach und nach schlossen sich bulgarisch ge- 
+bliebene Massen in der Donauprovinz, in Thrakien und Maze- 
+donien der Bewegung an, die die Wiedererrichtung einer eigenen 
+Kirche zum erklärten Zwecke hatte“.? 
+
+Es wurde eine umfangreiche Beschwerde an die heilige 
+Synode des Patriarchats gerichtet, in der dieser vorgeworfen 
+wurde, daß sie die Bistümer für Geld an den Meistbietenden 
+verkaufe und der griechische Klerus seine Amter nur als Mittel 
+ansehe, die eigenen Taschen zu füllen. 
+
+Als das Patriarchat hierauf nicht reagierte und die Wieder- 
+herstellung der Erzbistümer Ochrida und Tirnowo, die Bewilligung 
+
+
+1 vw, Mach, Der Machtbereich des bulgarischen Exarchats in der 
+Türkei S. 10. 
+2 y,Mach a.a. 0. 8.11. 
+
+
+Ne 
+
+
+einer nationalen Geistlickeit, unbeschränkten Gebrauches der 
+bulgarischen Sprache und eingehender Revision der kirchlichen 
+Abgaben verweigerte, begannen die Bulgaren gleichzeitig mit 
+der römischen Kirche und mit Rußland in Verbindung zu treten. 
+Und namentlich von diesem sollte ihnen eine mächtige Unter- 
+stützung zuteil werden. 
+
+Nun lenkte auch das Patriarchat ein und bewilligte durch 
+Patriarchatsschreiben vom 25. Februar 1861 die Errichtung von 
+vier bulgarischen Bistümern mit eigener Verwaltung, Abhaltung 
+des Gottesdienstes daselbst in bulgarischer Sprache, Ausbildung 
+der Geistlichen in einem bulgarischen Priesterseminar und eine 
+eigene Synodalverfassung, nach welcher die Kirche ihre Bischöfe 
+und Priester selbst wählen sollte. 
+
+Aber es war bereits zu spät und die Bulgaren schon zu 
+höheren Forderungen aufgestiegen. 
+
+Nun griff auch die türkische Regierung ein, durch die 
+wachsende Erregung der Bulgaren, die bereits die Anerkennung 
+der griechischen Bischöfe und Zahlung der Kirchensteuern ver- 
+weigerten, beunruhigt, und ernannte eine gemischte Kommission 
+zur Beilegung des Kirchenstreites, aber ohne jeden Erfolg. 
+
+Ein im Juni 1867 von dem Patriarchen Gregorius dem 
+Großvezier und dem Minister der Auswärtigen Angelegenheiten 
+unterbreitetes Projekt, in dem eine bulgarische Exarchie von 
+der Donau bis zum Balkan zugestanden wurde, scheiterte schon 
+an dem Umstande, daß Thrakien und Mazedonien von der Juris- 
+diktion derselben ausgeschlossen und dem ökumenischen Patri- 
+archat vorbehalten wurden. Darauf gingen die Bulgaren nicht ein.! 
+
+Diese verlangten vor allem die Einsetzung eines bulgarischen 
+Archimetropoliten in Konstantinopel mit eigener Synode, als 
+selbständigen Leiter aller bulgarisch-kirchlichen Fragen. 
+
+Durch Teskere vom 28. Dschemasi-el-achyr 1285 (3. Oktober 
+1868) übersandte die Hohe Pforte als Vermittlerin dem Patriarchat 
+zwei neue Projekte. In diesen wurden den Bulgaren bereits 
+ziemlich weitgehende Zugeständnisse gemacht. So an erster 
+Stelle das Recht, überall im Reiche, wo Orthodoxe bulgarischer 
+Herkunft wohnten, auch der bulgarischen Sprache mächtige 
+Geistliche zu ernennen. Ferner sollten in den Provinzen mit 
+Majorität von bulgarischen Einwohnern die Metropoliten Bulgaren 
+und umgekehrt, bei griechischer Majorität, Griechen sein. Wenn 
+in einem Bistum, dessen Metropolit Bulgare wäre, die Griechen 
+die Mehrzahl hätten, so sollte der Bischof Grieche sein und um- 
+gekehrt. Die unter der Jurisdiktion einer bulgarischen Metropole 
+
+
+ZGelzer 3237028719 
+
+
+a 
+
+
+befindlichen griechischen Bischöfe sollten dem bulgarischen Metro- 
+politen unterstehen und entsprechend im umgekehrten Falle die 
+bulgarischen Bischöfe dem griechischen Metropoliten. 
+
+Das zweite Projekt sprach den Bulgaren sogar in jedem 
+Vilajet einen Metropoliten und in jedem Sandschak einen Bischof zu. 
+
+Als geistliche Aufsichtsbehörde sollte ein erster Metropolit 
+mit einem geistlichen Rat zur Seite in Konstantinopel residieren. 
+Die Metropoliten und Bischöfe sollten von letzterem gewählt und 
+durch kaiserlichen Berat bestätigt werden. 
+
+Bezüglich der Wahl ihrer geistlichen Führer und der kirch- 
+lichen Verwaltung sollte die bulgarische Kirche ein eigenes un- 
+abhängiges Gemeinwesen bilden, in allen religiösen Fragen jedoch 
+der Zentralgewalt, d.h. dem ökumenischen Patriarchat in Kon- 
+stantinopel unterstehen. 
+
+Die ausschließlich von Bulgaren besuchten kirchlichen Ge- 
+bäude sollten diesen verbleiben, die gemeinsam von Griechen und 
+Bulgaren besuchten aber den Griechen zufallen und die Bulgaren 
+daselbst neue Kirchen bauen. 
+
+Endlich habe die geistliche bulgarische Synode der Hohen 
+Pforte alsbald nach ihrer Konstituierung ein Verfassungsstatut 
+vorzulegen, das nach seiner Bestätigung durch den Sultan in 
+Kraft gesetzt werden würde. 
+
+Wie nicht anders zu erwarten, wurden diese Vorschläge 
+von griechischer Seite in jedem einzelnen Punkte als unannehm- 
+bar und im Widerspruche stehend mit den kanonischen Regeln 
+der orthodoxen Kirche befunden. 
+
+Vor allem sei es nicht erlaubt, daß zwei Bischöfe derselben 
+Religion und desselben Dogmas an einem und demselben Orte 
+ihr Amt ausübten, noch weit weniger aber die dauernde Resi- 
+dierung, Abhaltung einer ständigen Synode, Wahl und Weihe 
+von Bischöfen durch einen zweiten Patriarchen von Konstan- 
+tinopel. 
+
+Sodann sei die Errichtung einer bulgarischen Kirche schlecht- 
+hin ohne feste Begrenzung ihrer Zuständigkeit durchaus anti- 
+kanonisch. Niemals habe eine Kirche oder kirchliche Verwaltung 
+ohne feste Grenzen bestanden, noch könne eine solche bestehen, 
+wie es auch keine Zivilverwaltung ohne geographische Grenzen 
+geben könne. 
+
+Endlich verpflichteten die heiligen Kanones die orthodoxen 
+Bischöfe, nur denen sich zu unterwerfen und diejenigen als 
+Richter anzuerkennen, von denen sie gewählt oder geweiht seien. 
+
+Nach den beiden Projekten aber hätten sich die bulgarischen 
+Bischöfe, die ja von dem geistlichen Rat der Bulgaren gewählt 
+wurden, eventuell einem griechischen Metropoliten und umgekehrt 
+
+
+die von dem Patriarchen von Konstantinopel geweihten griechi- 
+schen Bischöfe der bulgarischen Autorität zu unterwerfen. 
+
+In der Antwort des Patriarchen Gregorius an die Hohe 
+Pforte vom 16. November 1868 wurden daher beide Projekte 
+verworfen und zur Lösung der bulgarischen Frage ein öku- 
+menisches Konzil der gesamten orthodoxen Kirche allein für zu- 
+ständig erklärt. 
+
+Durch Enzyklika vom 16. Dezember 1868, unterzeichnet vom 
+Patriarchen Gregorius und zehn Erzbischöfen, wurden die Häupter 
+aller unabhängigen orthodoxen Kirchen eingeladen, sich über den 
+Zusammentritt eines ökumenischen Konzils zu äußern. Als jedoch 
+die Antworten widersprechend lauteten, wurde dieser Plan 
+wieder fallen gelassen. 
+
+Nach dem Fehlschlagen eines letzten Einigungsversuches 
+zwischen den beiden Parteien seitens der türkischen Regierung 
+durch Einsetzung einer gemischten Kommission von drei Griechen 
+und drei Bulgaren unter dem Vorsitze des Großveziers Ali Pascha 
+im Jahre 1869 entschloß sich die Pforte, unter dem Drängen 
+Rußlands den gordischen Knoten zu durchhauen. 
+
+Durch Ferman vom 8. Zilhidsche 1286 (27. Februar = 
+11. März 1870)! wurde eine selbständige bulgarische Kirche mit 
+einem Exarchen an der Spitze begründet und damit die „Grund- 
+lage der neuen nationalen Entwicklung des bulgarischen Volkes 
+geschaffen“. 
+
+IV. Der Ferman vom 11. März 1870 besteht aus einer Ein- 
+leitung und 11 Artikeln, die aus dem türkischen Originaltext 
+übertagen wie folgt lauten: 
+
+„il. Eine besondere geistliche Obrigkeit wird unter dem 
+Namen Bulgarisches Exarchat gebildet, welches die 
+unten aufgezählten Erzbistümer, Bistümer und anderen Orte 
+umfaßt. Sie wird mit der Verwaltung aller geistlichen 
+Angelegenheiten dieses Bekenntnisses betraut sein. 
+
+2. Der dem Range nach höchste der Metropoliten dieser 
+Obrigkeit wird den Titel Exarch haben, er wird den 
+gesetzlichen Vorsitz der bulgarischen Synode führen, die 
+ihm beständig beigreordnet wird. 
+
+3. Die innere geistliche Verwaltung dieses Exarchats 
+wird der Genehmigung und Bestätigung Meiner Kaiserlichen 
+Regierung unterworfen sein; sie wird durch eine besondere 
+Verfassung geregelt werden, die in jeder Beziehung den 
+Grundgesetzen der orthodoxen Kirche wie den Prinzipien 
+
+
+! Text bei Schopoff S. 134ff.; v. Mach 8. 12ff.;, Nicolaides 
+S.112; Young S.61ff. 
+
+
+ihres Ritus entsprechend sein muß. Diese Satzungen sind 
+derart abzufassen, daß sie die Einmischung des Patriachats 
+in die Angelegenheiten der Mönche und insbesondere in 
+die Wahl der Bischöfe und des Exarchen vollkommen aus- 
+schließen. 
+
+Alsbald nach vollzogener Wahl des Exarchen wird die 
+bulgarische Synode dem Patriarchat Nachricht geben, welches 
+ohne den geringsten Verzug die notwendigen Bestätigungs- 
+schreiben ausstellen wird, die der Ritus verlangt. 
+
+4. Dieser durch Mein Kaiserliches Berat ernannte 
+Exarch muß entsprechend den kirchlichen Gesetzen den 
+Namen des Patriarchen von Konstantinopel in der Liturgie 
+erwähnen. 
+
+Bevor man nach dem Ritus zur kirchlichen Weihe der 
+für das Exarchat als würdig befundenen Person schreitet, 
+wird man die Meinung und Bestätigung Meiner Regierung 
+einholen. 
+
+5. Der Exarch ist ermächtigt, in den Angelegenheiten, 
+in denen er nach den bestehenden Gesetzen das Recht hat, 
+zu intervenieren, und die sich auf die unter seiner geist- 
+lichen Jurisdiktion stehenden Örtlichkeiten beziehen, sich 
+unmittelbar an die Ortsbehörden und, wenn nötig, an Meine 
+Hohe Pforte zu wenden. 
+
+Die Berats für die Geistlichen, die von ihm abhängen, 
+werden nur auf seinen Vorschlag ausgefertigt. 
+
+6. In allen den orthodoxen Ritus betreffenden An- 
+gelegenheiten, die eine gegenseitige Verständigung und 
+Unterstützung erfordern, hat sich die Synode des Exarchats 
+an den Patriarchen und seine Synode zu: wenden, diese 
+aber haben sich zu beeilen, den nötigen Beistand zu leisten 
+und auf die vorgelegten Forderungen und Fragen Antwort 
+zu erteilen. 
+
+7. Die bulgarische Synode ist gehalten, von dem Patri- 
+archen die heiligen Öle zu erbitten. 
+
+8. Die Bischöfe, Erzbischöfe und Metropoliten des Patri- 
+archats können unbehindert den Bezirk des Exarchats be- 
+reisen und entsprechend die Bischöfe und Metropoliten des 
+Exarchats die Gebiete des Patriarchats. Sie können sich 
+zur Erledigung ihrer Geschäfte nach Belieben in den Haupt- 
+städten der Vilajets oder an anderen Sitzen der Regierungs- 
+behörden aufhalten, doch dürfen sie außerhalb ihrer Diözesen 
+und ihres Amtsbezirkes weder Synoden abhalten noch sich 
+in die Angelegenheiten von solchen Christen einmischen, 
+die nicht ihrer Jurisdiktion unterstehen, noch ohne die 
+
+
+um SE 
+
+
+Erlaubnis des zuständigen Bischofs eine Amtshandlung vor- 
+nehmen. 
+
+9. Wie das Kloster der Heiligen Stätten, das in Phanar 
+liegt, von dem Patriarchen von Jerusalem abhängt, so 
+werden auch das bulgarische Kloster und die benachbarte 
+bulgarische Kirche unter der Verwaltung des Exarchen 
+stehen. Dieser Würdenträger ist, so oft ihn sein Dienst 
+nach Konstantinopel ruft, ermächtigt, im bulgarischen Kloster 
+zu wohnen. Bezüglich seines Herkommens. nach Konstanti- 
+nopel und der Ausübung seines Amtes daselbst hat er sich 
+den kanonischen Regeln und Gebräuchen zu unterwerfen, 
+die im gleichen Falle die Patriarchen von Jerusalem, 
+Antiochien und Alexandrien befolgen. 
+
+10. Der geistlichen Jurisdiktion des Exarchats unterstehen 
+die Metropolitandiözesen von Rustschuk, Silistria, Schumla, 
+Tirnowa, Sofia, Wratza, Loftscha, Widdin, Nisch, Pirot, 
+Kuestendil, Samakow, Welika, Warna (ohne die Stadt Warna, 
+Ahiolu und etwa 20 Dörfer am Schwarzen Meere, deren 
+Einwohner nicht Bulgaren sind), den Sandschak Islimije ! 
+(ohne die Städte Akhirdi®? und Messemwria), die Kasa 
+Sosopoli mit Ausnahme der Küstendörfer Philippopel (aus- 
+genommen die Stadt), des Fleckens Stanimak, der Dörfer 
+Kokbunar, Wodina, Arnautköj, Panaja, Nowoseli, Laskowo, 
+Arkhlani, Padshkowo, Welastiza und der Klöster Padshkowo, 
+Ajos-Amagiri, Ajos-Paraskewi und Ajos-Jorgi. Das Viertel 
+Panaja in der Stadt Philippopel wird zum Bulgarischen 
+Exarchat gehören, aber die Einwohner desselben, die sich 
+nicht der bulgarischen Kirche und dem Exarchat unter- 
+werfen wollen, werden in dieser Beziehung ganz frei sein. 
+Die Einzelheiten werden zwischen dem Patriarchat und 
+Exarchat geregelt werden. 
+
+Wenn die Gesamtheit oder wenigstens zwei Drittel 
+der Bewohner orthodoxen Glaubens anderer als der oben- 
+erwähnten und aufgezählten Orte sich dem Bulgarischen 
+Exarchat für ihre geistlichen Angelegenheiten unterwerfen 
+wollen und wenn dies festgestellt und bewiesen ist, so 
+sollen sie dazu ermächtigt sein; aber das soll nur stattfinden 
+auf Verlangen und mit Einverständnis der Gesamtheit oder 
+wenigstens von zwei Dritteln der Einwohner. Diejenigen, 
+die durch dieses Mittel versuchen sollten, Unruhe und 
+Zwietracht unter der Bevölkerung zu säen, sollen als 
+Schuldige verfolgt und nach dem Gesetze bestraft werden. 
+
+
+1 Sliwno. 
+®2 Anchialos. 
+
+
+11. Die Grundsätze, die sich auf kirchenrechtlich vom 
+Patriarchat abhängige Klöster beziehen, welche innerhalb 
+des Bereiches des Bulgarischen Exarchats liegen, sollen wie 
+in der Vergangenheit beobachtet und ausgeführt werden. 
+
+Da die vorstehenden Artikel den gesetzmäßigen Be- 
+dürfnissen der Parteien zu entsprechen und die vorge- 
+kommenen bedauerlichen Streitigkeiten zu beseitigen scheinen, 
+so hat Meine Regierung sie genehmigt; sie werden für alle 
+Zukunft als Gesetz angesehen werden, und der gegenwärtige 
+Ferman ist erteilt worden, um erkennen zu lassen, daß es 
+Unser formeller Wille ist, daß man sich wohl hüte, zuwider- 
+zuhandeln und sich davon zu entfernen“. 
+
+V. Aber noch geraume Zeit sollte vergehen, bis der Ferman 
+als Gesetz in Kraft trat. Obgleich nun die türkische Regierung 
+ernstlich bemüht gewesen war, in dem Ferman die Rechte des 
+Patriarchats soweit als möglich zu schonen, was ihr auch von 
+griechischer Seite zugegeben wird, so waren doch beide Parteien 
+mit dem Ergebnis nicht zufrieden. Die Bulgaren nicht, weil 
+das Exarchat nicht eine dem Patriachat gleichgestellte, sondern, 
+wie die Patriarchate von Jerusalem, Alexandrien und Antiochien, 
+dem Range nach untergeordnete Behörde sein sollte, und sodann, 
+weil Mazedonien und das östliche Thrakien von dem Exarchats- 
+gebiete ausgeschlossen waren. 
+
+Immerhin gaben sie sich mit der durch Art. 10 gebotenen 
+Ausdehnungsmöglichkeit zufrieden. Und in der Tat hatte auch 
+eine von der türkischen Regierung im Jahre 1872 in den Diözösen 
+Ueskueb, Weles und Ochrida gestattete Volksabstimmung das 
+Ergebnis, daß die weitaus überwiegende Mehrheit der Be- 
+völkerung zum Exarchat übertrat und diesem damit die ganze 
+nördliche Hälfte Mazedoniens zufiel.! 
+
+In Voraussicht dieser Möglichkeit hatte jedoch der Art. 10 
+von vornherein den schärfsten Widerspruch der Griechen hervor- 
+gerufen. Das Patriarchat antwortete der Regierung, es könne 
+das bulgarische Exarchat nur für den Fall anerkennen, daß der 
+zweite Teil des Art. 10 gestrichen und Art. 3 geändert wurde. 
+Denn „da nach Art. 3 der Patriarch dem Exarchen die bischöf- 
+liche Weihe erteilen und das oberpriesterliche Bestätigungs- 
+schreiben ausstellen solle, so könne es nach Kanon 2 des II. Konzils 
+und Kanon 6 des IV. Konzils dies nur dann tun, wenn die Grenzen 
+des kirchlichen Verwaltungsbezirkes des Exarchats vorher genau 
+festgestellt würden“.? 
+
+
+ı Nicolaidesa.a.O0. S.120, 
+2 Nicolaidesa.a.O. S. 116. 
+
+
+9 
+
+
+Die Hohe Pforte gab diesen Vorstellungen nach und erteilte 
+am 25. Dezember 1870 die vom Patriarchat beantragte Erlaubnis 
+zur Einberufung eines ökumenischen Konzils sämtlicher ortho- 
+doxen Kirchen. 
+
+Durch dieses Mittel gedachte das Patriarchat vor allem dem 
+mächtigen Einfluß Rußlands entgegenzutreten, da dessen Kirche, 
+die auf bulgarischer Seite stand, auf dem Konzil vermutlich 
+überstimmt worden wäre. 
+
+Doch wußte die russische Diplomatie, die dieses Ergebnis 
+voraussah, wieder einen Umschwung in der Haltung der Pforte 
+zu erzielen. 
+
+Im Jahre 1871 wurde die gegebene Erlaubnis rückgängig 
+gemacht und der Befehl zur Wahl eines Exarchen erwirkt, aus 
+welcher am 23. Februar 1872 der Erzbischof von Widdin, 
+Anthimos, als Gewählter hervorging. 
+
+Am 26. Februar wurde er von der Pforte bestätigt und am 
+11. April dem Sultan vorgestellt. 
+
+Als auch jetzt noch das Patriarchat auf seinem unversöhn- 
+lichen Standpunkt verharrte, dem Exarchen die Anerkennung 
+verweigerte und die Abhaltung des Gottesdienstes in der bulgari- 
+schen Kirche in Phanar verbot, erfolgte von bulgarischer Seite 
+der entscheidende Schritt, indem der Exarch am 12./24. Mai 
+1872 die bulgarische Kirche für unabhängig erklärte. 
+
+Am 26. Mai erfolgte die Antwort des Patriarchats durch 
+Exkommunikation des Exarchen und am 16. September die Er- 
+klärung der Bulgaren als Schismatiker wegen der Häresie des 
+Phyletismus durch Beschluß einer von den Patriarchen von 
+Alexandrien, Antiochien, zwei Expatriarchen, dem autokephalen 
+Erzbischof von Cypern und 25 Metropoliten und Bischöfen unter 
+Vorsitz des ökumenischen Patriarchen gebildeten Synode.! 
+
+Trotz des den Bulgaren von türkischer Seite von jeher ent- 
+gegengebrachten Mißtrauens verstand es der Exarch Anthimos L, 
+in den folgenden Jahren Erfolg auf Erfolg zu erringen und bis 
+zum Jahre 1875, d.i. bis zum Beginne des Aufstandes in Donau- 
+bulgarien, seine Kirche nach innen und außen zu sichern und 
+auszugestalten. 
+
+Gleich nach der Verkündung des Fermans von 1870 wurden 
+die „Satzungen für die Verwaltung des bulgarischen Exarchats“ 
+ausgearbeitet. Wenn sie auch nur zum Teil von der türkischen 
+Regierung bestätigt wurden, so legte man ihrer tatsächlichen 
+Anwendung doch kein Hindernis in den Weg. 
+
+Vor allem war das Recht für den Exarchen, die Bischöfe 
+
+
+ı Gelzer a.a.0. S.129. 
+
+
+und Schulen, Steuern zu erheben, eine Lebensfrage für die junge 
+Kirche, sichergestellt, in 17 Exarchien bulgarische Bischöfe be- 
+stellt und Synode und Exarchalrecht eingesetzt. 
+
+In territorialer Beziehung hatte noch das Jahr 1872 die 
+bereits erwähnte Ausdehnung der Jurisdiktion auf die nördliche 
+Hälfte Mazedoniens gebracht und im Anschluß daran die Ein- 
+setzung von Bischöfen in Ueskueb und Ochrida. 
+
+Mit dem Beginn des Aufstandes in Donaubulgarien und dem 
+russisch-türkischen Kriege brach eine schwere Zeit für die junge 
+Kirche an. Von griechischer Seite wurde nichts unversucht ge- 
+lassen, um der türkischen Regierung das Exarchat als gefähr- 
+lichen Unruhestifter und Wurzel alles Übels hinzustellen. Und 
+auf türkischer Seite war man allmählich auch zum Bewußtsein 
+der Gefahr gelangt, die man sich durch die Begünstigung national- 
+slawischer Bestrebungen selbst großgezogen. 
+
+Als dann vollends der Exarch sich weigerte, an einer von 
+dem Großvezier Midhat Pascha einberufenen Versammlung teil- 
+zunehmen, die über Annahme oder Verwerfung der von Europa 
+empfohlenen Reformen beraten sollte, und die Unterzeichnung 
+einer Erklärung ablehnte, „daß die christlichen Völker der Türkei 
+mit der väterlichen Regierung des Sultans zufrieden seien und 
+nicht wünschten, durch Rußland befreit zu werden“,' wurde er 
+auf Verlangen der Hohen Pforte am 24. April 1877, dem Tage 
+der russischen Kriegserklärung, zur Abdankung gezwungen und 
+nach Angora in Kleinasien verbannt. 
+
+Am 6. Mai wurde der Bischof von Loitscha, Josef, zum 
+Exarchen gewählt, der noch heute diesen hohen Posten innehat, 
+und zwar als Autokrat, da die türkische Regierung seit dem 
+russisch-türkischen Kriege den Zusammentritt der bulgarischen 
+Synode und des Exarchalrates nicht wieder gestattet hat. 
+
+Doch hat der Exarch auch bei den denkbar schwierigsten 
+Verhältnissen stets eine so besonnene Ruhe und ein so hohes. 
+politisches Taktgefühl bezeigt, daß die Kirche gar keinen ge- 
+eigneteren Vertreter an ihre Spitze hätte stellen können. 
+
+Eine der gefährlichsten Klippen für die nationale Sache 
+galt es nach dem Berliner Frieden von 1878 zu vermeiden, wo 
+von russischer, türkischer, griechischer und zum Teil auch bul- 
+garischer Seite die Begründung einer unabhängigen Landeskirche 
+für das Fürstentum Bulgarien und Ostrumelien und Verlegung 
+der Residenz des Exarchen von Konstantinopel nach Sofia er- 
+strebt wurde; damit wäre Mazedonien und das Vilajet Adrianopel 
+unvermeidlich wieder in die Hände des ökumenischen Patriarchats 
+zurückgefallen. 
+
+
+ı vw, Mach 8.20. 
+
+
+BE) 7 
+
+
+Josef I. wußte jedoch sein ferneres Verbleiben in der Haupt- 
+stadt durchzusetzen, und allmählich erfuhr auch das Verhältnis 
+zur türkischen Regierung wieder eine Besserung. 
+
+Beim Empfange des Exarchen durch den Sultan Abdul 
+Hamid II. am 17. Dezember 1883 gab ihm dieser die Ver- 
+sicherung, „daß die kirchlichen Rechte der Bulgaren in den Pro- 
+vinzen auf Grund des Fermans von 1870 nicht beseitigt seien, 
+sondern hiermit bestätigt würden“. Damit blieb Konstantinopel 
+auch ferner die Residenz des Exarchen. 
+
+Ein Jahr darauf wurde die Erlaubnis zur Ernennung zweier 
+Bischöfe für Mazedonien in Ochrida und Ueskueb erteilt, aber noch 
+sechs weitere Jahre sollten vergehen, bis die beiden Ernannten 
+durch kaiserliche Berats? bestätigt wurden und ihr Amt antreten 
+konnten. 
+
+Nach diesen Erfolgen wandte sich der Exarch nunmehr der 
+Begründung eines eigenen bulgarischen Schulwesens zu, das 
+seit dem russischen Kriege völlig in die Abhängigkeit des öku- 
+menischen Patriarchats geraten war. 
+
+Durch Teskere des Kultusministers vom 12./24. April 1310 
+(1893) wurde dem Exarchat die Erlaubnis des Sultans mit- 
+geteilt, eigene Schulen mit nationalen, nur durch das Exarchat 
+anstellbaren Lehrern unter selbständiger Verwaltung und Leitung 
+des Bischofs der betreffenden Exarchie zu errichten. An den 
+Orten aber, wo kein Bischof bestallt war, sollten dieselben unter 
+dem bulgarischen kirchlichen Ortschef stehen. Gleichzeitig wurde 
+ein Grundstück von den kaiserlichen Domänen in Feriköj bei 
+Konstantinopel für die Errichtung einer bulgarischen Schule da- 
+selbst zum Geschenke gemacht. 
+
+Damit war ein großer Schritt vorwärts getan, indem die 
+letzterwähnte Bestimmung es den Bulgaren ermöglichte, überall, 
+wo nur immer sie eine exarchistische Gemeinde begründet und 
+eine Kirche erbaut hatten, auch ein unabhängiges Schulwesen 
+zu begründen. 
+
+Im Jahre 1894 wurde die Einsetzung von zwei neuen 
+Bischöfen für die Exarchien Weles und Newrokop und 1897 für 
+die von Monastir, von Strumnitza und Debra erlangt.* 
+
+Seitdem hat das bulgarische Exarchat in unbeirrbarem Vor- 
+
+
+‘ 
+
+
+Sa Nilereln Enes ÜR I8h 2: 
+® Text des Berats für den Bischof Sinessius von Ochrida vom 18. Zil- 
+hidsche 1307 (4. August 1890) bei Young a.a. 0. S. 64ff. 
+® Text bei Schopoffa.a.0. S. 471. 
+a * Leger, Turcs et Grecs contre Bulgares en Macedoine p.2; v. Mach 
+#30: 
+
+
+ah 
+
+
+wärtsschreiten seine Kirche ausgebaut und in friedlicher Arbeit 
+durch Schule und Kirche das bulgarische Volkstum insbesondere 
+in Mazedonien zu vereinigen und zu entwickeln gesucht. 
+
+Mit dem raschen, zielbewußten Zugreifen im geeigneten 
+Momente, das für die Bulgaren ebenso charakteristisch ist wie 
+ihre kaltblütige Zähigkeit, haben sie die jüngsten Staatsum- 
+wälzungen in der Türkei, durch welche dieser für kurze Zeit 
+die Hände gebunden waren, geschickt dazu benutzt, um auch 
+ihrerseits ihr Schäflein ins Trockene zu bringen. 
+
+Bald nach der Verkündung der türkischen Konstitution 
+am 24. Juli 1908 berief das Exarchat, ohne die Regierung weiter 
+um Erlaubnis zu fragen, die seit der Thronbesteigung nicht wieder 
+gestattete bulgarische Synode in Konstantinopel ein. 
+
+Da die Hohe Pforte in üblicher Behandlung mißliebiger 
+Affären die Synode zwar nicht anerkannte, ihrem Zusammen- 
+tritte aber auch kein Hindernis in den Weg legte, so tagte die- 
+selbe ruhig weiter und alle Proteste des aufgebrachten öku- 
+menischen Patriarchats dagegen verhallten ungehört. 
+
+Das Fürstentum aber benutzte die günstige Gelegenheit der 
+inneren Wirren seines Oberstaates zu der langersehnten und 
+langvorbereiteten Erklärung seiner Unabhängigkeit am 5. Oktober 
+1908. 
+
+Und als die Verhandlungen mit der Türkei über die An- 
+erkennung derselben sich nach türkischer Art endlos in die 
+Länge zogen, benutzte der schlagfertig gerüstete bisherige 
+Tributärstaat den letzten verzweifelten Versuch der Autokratie 
+in Konstantinopel durch die Militärrevolte vom 13. April 1909, 
+die junge Freiheit des osmanischen Volkes wieder zu beseitigen, 
+um durch die Drohung des sofortigen Einmarsches in Mazedonien 
+am 19. April, acht Tage vor der Entthronung Abdul Hamids II, 
+seine Anerkennung als unabhängiges Königreich zu erlangen, 
+dem die der Großmächte auf dem Fuße folgte. 
+
+
+2. Organisation." 
+
+
+Die Grundlage der Organisation der bulgarischen Kirche 
+bildeten die bereits erwähnten „Satzungen für die Verwaltung 
+des Bulgarischen Exarchats“ vom 14. Mai 1871. 
+
+Nach der Errichtung des Fürstentums Bulgarien wurden sie 
+für dieses umgearbeitet, von der bulgarischen Nationalversamm- 
+
+
+ı van den Steen de Jehay.a.a.0.S.160ff.; Jirecek, Das 
+Fürstentum Bulgarien S. 236 ff.; Silbernagla.a. 0. S.88ff.; v.Mach 
+2ra-0r 8.351165 Beth 2.2.02S778H. 
+
+
+Scheffler. 3 
+
+
+lung bestätigt und durch Dekret des Fürsten Alexander I. am 
+4. Februar 1883 verkündet." Beide stimmen in den wesentlichen 
+Punkten miteinander überein. 
+
+
+Der Exarch. 
+
+
+Danach ist das Oberhaupt der gesamten bulgarischen Kirche 
+im Königreiche wie im türkischen Staatsgebiet der zurzeit in 
+dem Vororte Ortaköj bei Konstantinopel residierende Exarch. 
+Nach außen ist er der offizielle Vertreter des Millets gegenüber 
+dem türkischen Staat mit dem Rechte des unmittelbaren Ver- 
+kehrs mit der Hohen Pforte. Nach innen übt er in Verbindung 
+mit der Heiligen Synode und dem Exarchalrat die dem Millet? 
+gewährte Selbstverwaltung aus. 
+
+Von dem ökumenischen Patriarchat ist er seit der Erklärung 
+des bulgarischen Schismas völlig unabhängig, und abgesehen da- 
+von, daß ihm der Titel „Patriarch“ fehlt, ist er einem solchen 
+in jeder Beziehung gleichgestellt. 
+
+Diejenigen Bestimmungen des Fermans von 1870, die noch 
+die ursprünglich beabsichtigte Abhängigkeit vom Patriarchat zum 
+Ausdruck brachten, sind seitdem von selbst hinfällig geworden; 
+so vor allem die Bestätigung des Exarchen nach Art. 3, ferner 
+die Erwähnung des Namens des Patriarchen in der Liturgie und 
+das Erbitten des heiligen Salböls, das den Bulgaren durch die 
+orthodoxe russische Kirche geliefert wird. 
+
+Der Exarch wird aus der Zahl der Bischöfe für die Zeit 
+von vier Jahren gewählt; Voraussetzung ist, daß der zu wählende 
+Bischof osmanischer Staatsangehöriger, von Geburt Bulgare, 
+wenigstens 40 Jahre alt, wissenschaftlich vorgebildet und von 
+untadliger Führung sei. Ferner muß er wenigstens fünf Jahre 
+lang eine Eparchie tadellos verwaltet haben. 
+
+Beim Eintritt der Sedisvakanz ernennt die Synode den 
+ältesten Bischof zum Locum tenens und ersucht die Hohe Pforte 
+um die Erlaubnis zur Vornahme der Exarchenwahl. Nachdem 
+diese erteilt, fordert die Synode sämtliche Bischöfe auf, die Namen 
+von drei bis fünf zur Wahl geeigneten Persönlichkeiten in ver- 
+siegeltem Umschlag einzuschicken und zwei Deputierte welt- 
+lichen Standes ihrer Eparchie zu der Wahlversammlung zu ent- 
+senden. 
+
+
+ı Jirecek a.a.0. S. 236. 
+® v.Mülinen (a.a.0.S.12) bestreitet, daß nach türkischem Staats- 
+recht das Exarchat den Charakter eines besonderen Millets habe, da zwischen 
+
+
+ihm und der orthodoxen Kirche eine Verschiedenheit des Dogmas und Ritus 
+nicht bestehe. 
+
+
+er 
+
+
+Diese besteht aus den Mitgliedern der Synode, des Exarchal- 
+rats, den Bischöfen und den zwei weltlichen Abgeordneten einer 
+jeden Eparchie. 
+
+Der türkischen Regierung ist eine Liste der drei Bischöfe 
+einzureichen, die nach dem Ergebnis der von den Bischöfen ein- 
+gesandten Stimmzettel als die Würdigsten befunden worden sind. 
+Unter diesen bezeichnet die Regierung die ihr genehmen Per- 
+sonen, und zwar mindestens zwei, aus welchen dann die Ver- 
+sammlung in geheimer Abstimmung mit absoluter Stimmenmehr- 
+heit den Exarchen wählt. Nach seiner Bestätigung durch die 
+Hohe Pforte stellt er sich bei dem Sultan und den Ministern 
+vor und wird sodann feierlich in sein Amt eingeführt. Gleich- 
+zeitig erfolgt seine Proklamierung im Königreiche Bulgarien durch 
+den König. 
+
+Fortan unterstehen ihm alle bulgarischen Bistümer in den 
+beiden Reichen; seine eigene Eparchie, die er bisher verwaltet, 
+behält er auch ferner als Bischof bei, außer wenn er etwa seines 
+Amtes entsetzt worden wäre. Seine Absetzung kann von der 
+Synode und dem Exarchalrat im Falle einer die Interessen der 
+Kirche fortgesetzt schädigenden Haltung von der Regierung ver- 
+langt werden.! 
+
+Für die Erhaltung des Exarchats wird ihm vom Königreiche 
+Bulgarien ein jährlicher Zuschuß gewährt, der nach dem 
+bulgarischen Budget von 1905 und 1906 170992 r., im Jahre 
+1907 183640 r., 1908 172112 r. betrug, in dem letzten Budget 
+von 1909? aber die bemerkenswerte Steigerung auf 279992 r. 
+erfahren hat. 
+
+Da die Pforte die erwähnte Beschränkung der Amtsdauer 
+des Exarchen auf vier Jahre nicht anerkennt, sondern ihn als 
+auf Lebenszeit gewählt betrachtet, so übt der gegenwärtige 
+Exarch Josef I. seit nunmehr 31 Jahren, hochverehrt von seinem 
+Volke, sein hohes und schwieriges Amt aus. 
+
+
+Die Heilige Synode. 
+
+
+Sie besteht aus dem Exarchen als Vorsitzenden (nach Art. 2 
+des Fermans von 1870) und vier auf die Dauer von vier Jahren 
+von ihren Amtsbrüdern gewählten Bischöfen, die bereits vier 
+Jahre eine Eparchie verwaltet haben müssen. 
+
+Die Synode versammelt sich regelmäßig einmal im Jahre. 
+Ihr obliegt die Verwaltung aller geistlichen Angelegenheiten des 
+
+
+= y, Mach a.2.0. S, 36. 
+®2 Budget für das Fürstentum Bulgarien, Sofia 1909. 
+3* 
+
+
+eu og, 
+
+
+Exarchats, die Entscheidung dogmatischer Glaubensfragen, der 
+kirchliche Ritus, die geistliche Disziplin und Zensur, Druck und 
+Verteilung von Kirchenbüchern, ferner die Wahl der Bischöfe. 
+Endlich ist sie die höchste Gerichtsinstanz zur Entscheidung von 
+Ehesachen, zur Aburteilung von kirchlichen Vergehen der 
+niederen Geistlichkeit und die einzige Instanz bei Vergehen von 
+Bischöfen. 
+
+Ohne die Zustimmung des Exarchen darf die Synode jedoch 
+keinen Beschluß fassen und umgekehrt der Exarch nicht ohne 
+die Synode. 
+
+Für den Vorsitz der in Sofia tagenden besonderen Synode 
+für das Königreich Bulgarien, der vier Bischöfe desselben an- 
+gehören, ernennt der Exarch einen Stellvertreter, der jedoch 
+völlig von ihm unabhängig und ad nutum amovibilis ist. Die 
+Befugnisse dieser Synode erstrecken sich jedoch nicht auf die 
+hier allein in Betracht kommenden im Osmanischen Reiche ge- 
+legenen Eparchien. Für diese führte der Exarch seit seiner 
+Thronbesteigung bis zu der in jüngster Zeit eigenmächtig er- 
+folgten Wiedereinberufung der Synode in Konstantinopel die 
+geistliche wie weltliche Verwaltung allein. 
+
+
+Der Exarchalrat. 
+
+
+Der „weltliche Rat des Exarchats“ besteht aus dem Ex- 
+archen als Vorsitzenden und sechs weltlichen auf die Dauer 
+von vier Jahren in den einzelnen Eparchien gewählten Mit- 
+gliedern. 
+
+Alle zwei Jahre scheidet die Hälfte aus und wird durch 
+Neuwahl ersetzt. Die Wahl unterliegt der Bestätigung der 
+Hohen Pforte. In den Wirkungskreis des Exarchalrates fällt das 
+Schulwesen, die Anstellung von Lehrern, die Sorge für die Ent- 
+wicklung der bulgarischen Sprache und Literatur, die Errichtung 
+von Kirchen, Klöstern und Wohltätigkeitsanstalten, Verwaltung 
+des Kirchenvermögens, Jahresprüfung der Kirchen- und Kloster- 
+rechnungen und die Entscheidung in Streitigkeiten aus Anlaß 
+von Verlobungen, Eheversprechen, Vermächtnissen und der privat- 
+rechtlichen Seite in Ehescheidungssachen. 
+
+Für die Verwaltung des, Schulwesens steht ihm eine Kom- 
+mission von acht Fachleuten zur Seite. 
+
+
+‚Die Bischöfe, 
+
+
+In jeder Eparchie wird eine Liste aller Geistlichen und 
+ein bis drei wenigstens 30 Jahre alten Laien aus jedem Dorf 
+
+
+Ze BO 
+
+
+und jeder Stadt geführt. Aus dieser Liste wählen die Gemeinden 
+drei Geistliche und drei Laien als Wahlmänner auf die Dauer 
+von fünf Jahren. 
+
+Ist nun ein Bischofssitz erledigt, so ernennt die Synode 
+nach Genehmigung der Hohen Pforte den Bischof einer benach- 
+barten Eparchie zum Stellvertreter, und dieser beruft die Wahl- 
+männer zur Wahl von zwei geistlichen Kandidaten aus der er- 
+wähnten Liste. Zwischen diesen beiden wird dann in der 
+Kirche vor dem Altare das Los gezogen. Für den also ge- 
+wählten Bischof erbittet der Exarch die Erteilung des kaiser- 
+lichen Berats. 
+
+Die Versetzung von Bischöfen in andere Eparchien ist nach 
+orthodoxem Kirchenrecht unstatthaft. 
+
+Der Bischof ist verpflichtet, wenigstens einmal im Jahre 
+seine Eparchie zu bereisen und für Kirchen, Schulen und den 
+religiösen Unterricht zu sorgen. 
+
+Er darf nach orthodoxem Kirchenrecht nicht verheiratet sein. 
+
+
+Der geistliche und weltliche Rat der Eparchie. 
+
+
+Dem Bischof zur Seite steht ein geistlicher und ein welt- 
+licher Rat, die innerhalb der einzelnen Eparchien dieselben Be- 
+fugnisse haben wie die Synode und der Exarchalrat für das ge- 
+samte Exarchatsgebiet. 
+
+Der geistliche Rat bildet die erste Instanz für kirchliche 
+Vergehen der niederen Geistlichkeit und besteht aus vier auf 
+die Dauer von zwei Jahren unter den Geistlichen der Eparchie 
+gewählten und von der Synode bestätigten Mitgliedern. Jedes 
+Jahr scheidet die Hälfte aus und wird neu ersetzt. 
+
+Der weltliche Rat besteht aus vier gleichfalls auf zwei Jahre 
+gewählten und von dem Exarchalrat bestätigten Laien. Für 
+diese ist kaiserliche Bestallung auf Ersuchen des Exarchen er- 
+forderlich. 
+
+Ausübendes Organ für die Beschlüsse beider Versammlungen 
+ist der Bischof. 
+
+In dem Hauptorte jeder Kaasa der Eparchie ist ferner noch 
+ein aus zwei Geistlichen und zwei weltlichen Einwohnern be- 
+stehender Kirchenrat zu wählen, dessen Vorsitz der örtliche Ver- 
+treter des Bischofs führt; letzterer wird von allen Pfarrern der 
+Kaasa auf zwei Jahre gewählt. 
+
+Der Kirchenrat hat innerhalb des Sprengels die Befugnisse, 
+die der geistliche und weltliche Rat für die ganze Eparchie 
+- ausübt. 
+
+
+PS, re 
+
+
+Der Pfarrklerus. 
+
+
+Zur Wahl eines Gemeindepfarrers beruft der Bischof alle 
+Geistlichen und die weltlichen Notabeln der Gemeinde zusammen. 
+Voraussetzung der Wählbarkeit ist, daß der Kandidat osmanischer 
+Staatsangehöriger, wenigstens 25 Jahre alt, von Geburt Bulgare, 
+in gemischt bulgarisch-griechischen Gemeinden auch der griechi- 
+schen Sprache mächtig ist und eine geistliche Schule besucht 
+hat. Er kann verheiratet sein, muß jedoch die Ehe vor Empfang 
+der Weihe geschlossen haben und darf keine zweite eingehen. 
+Ein verheirateter Pfarrer kann jedoch, wie schon erwähnt, nicht 
+Bischof werden. 
+
+Der Bischof bestätigt die Wahl, teilt sie dem Kultus- 
+ministerium zur Eintragung in das von diesem geführte Verzeich- 
+nis der Geistlichen mit und führt den jungen Pfarrer in sein 
+Amt ein. 
+
+Dessen Amtspflichten bestehen in der Abhaltung der Liturgie, 
+Predigt an Sonn- und Festtagen, Spendung der Sakramente und 
+Fürsorge für die Instandhaltung der Kirche und kirchlichen 
+Gegenstände. 
+
+
+Jurisdiktionsbereich des Exarchats. 
+
+
+Das Bulgarische Exarchat erstreckt sich, wie erwähnt, auf 
+das gesamte Gebiet des heutigen Königreiches Bulgarien sowie 
+auf die rumeliotischen Provinzen des Osmanischen Reiches, wo 
+nur immer sich bulgarische Gemeinden niedergelassen haben. 
+
+Die Gesamtzahl der Bistümer des Exarchats beträgt 18. 
+Von diesen liegen elf im Königreiche Bulgarien und sieben in 
+der Türkei. Letztere, sämtlich in Mazedonien gelegen, sind 
+Üsküb, Ochrida, Newrokop, Weles, Strumnitza, Debra und 
+Monastir. 
+
+Theoretisch sind Mazedonien und Thrakien zwar in 27 
+Eparchien eingeteilt, doch ist nur in den genannten sieben ein 
+Bischof bestellt. In 15 Eparchien ist das Exarchat, wenn auch 
+kein Bischof daselbst residiert, doch amtlich vertreten. Es sind 
+dies Kukusch, Melnik, Kastoria, Florina, Wodena, Salonik, Serres, 
+Drama, Xanthi, Maronia, Enos, Demotika, Adrianopel, Lititza 
+und Heraklea. g 
+
+In einer Anzahl davon, wie z. B. in Kukusch, Kastoria, 
+Maronia u. a., überwiegt das bulgarische Element das griechische 
+bei weitem. Trotzdem gibt es nur einen griechischen Bischof 
+daselbst, und die noch unter dem Patriarchat stehenden Bulgaren 
+werden von griechischer Seite wie von der türkischen Regierung 
+mit Gewalt an dem Übertritt zum Exarchat gehindert. 
+
+
+Re 2 
+
+
+In den Eparchien Sosopolis, Wisa, Karaferia, Kampania 
+und Kassandra endlich ist das Exarchat überhaupt nicht amtlich 
+vertreten. 
+
+
+3. Verhältnis zum Staat. 
+
+
+Wie bereits oben im allgemeinen ausgeführt, ist der Grund- 
+satz der scharfen Scheidung von Kirche und Staat hinsichtlich 
+der christlichen Religionsgemeinschaften im Osmanischen Reiche 
+wie in keinem anderen Staatswesen durchgeführt. 
+
+Das gilt auch im besonderen für das Verhältnis des bulga- 
+rischen Exarchats zur türkischen Regierung. 
+
+Zwar ist der Exarch wie sämtliche ihm untergebene Geist- 
+liche kaiserlich ottomanischer Beamter und untersteht gleich den 
+Chefs aller übrigen Millets dem Departement für geistliche An- 
+gelegenheiten im Justizministerium (mezahib müdirieti),! kann 
+auch von der Hohen Pforte z. B. wegen Hochverrats abgesetzt 
+werden; bezüglich der inneren Verwaltung seines Millets ist er 
+aber so gut wie frei von aller staatlicher Einmischung:. 
+
+Um die Erhaltung der Kirchen und Schulen, die Rechts- 
+pflege, Verwaltung des Kirchenvermögens, Einziehung der Steuern 
+und Verteilung des Bedel-i askerie kümmert sich der Staat nicht. 
+„Sein Recht erstreckt sich kaum über die Bestätigung oder 
+Verwerfung von Wahlen der höheren Geistlichkeit hinaus.“ ? 
+
+Die durch die Reformgesetzgebung verliehenen und durch 
+kaiserliche Berats gewährleisteten oder auch nur stillschweigend 
+geduldeten Privilegien des Exarchats dem Staate selbst gegen- 
+über umfassen insbesondere eine eigene Gerichtsbarkeit, eigenes 
+Unterrichtswesen, weitgehende Vorrechte für den Klerus, Steuer- 
+und Zollfreiheiten und Anteil an der Staatsverwaltung. 
+
+Eines der hervorragendsten Privilegien, welches das bulga- 
+rische Exarchat gemeinsam mit den übrigen Millets besitzt und 
+das vor allen anderen geeignet ist, diese als Staaten im Staate 
+zu charakterisieren, ist die Ausübung einer eigenen Gerichts- 
+barkeit. 
+
+Die Frage der Zuständigkeit der christlichen Ausnahme- 
+gerichte und der ordentlichen staatlichen Gerichte wird zuerst 
+in den Art. 16—18 des Hatt-i humajun von 1856, wenn auch bei 
+weitem nicht erschöpfend, geregelt. 
+
+
+ı Mülinen 2.20. S.8. 
+
+2? v.Macha.a.0. $.31, der es sogar nur als „Vorstellung“ erklärt, 
+wenn dem Exarchen und den Bischöfen der Charakter von staatlichen Be- 
+amten beigelegt wird. 
+
+
+ee 
+
+
+Danach sind für Handels- und Strafsachen zwischen Mo- 
+hammedanern und Andersgläubigen osmanischer Staatsangehörig- 
+keit oder zwischen Nichtmohammedanern verschiedener Riten die 
+staatlichen Gerichte zuständig. Doch sind diese in solchen Fällen 
+mit einem gemischten Gerichtshof von Mohammedanern und 
+Christen zu besetzen. 4 
+
+Zivilprozesse um Schuld, Fahrnis und Grundstückssachen 
+werden auf der Grundlage des Scheriatrechts gleichfalls von den 
+staatlichen Gerichten entschieden.? 
+
+Dagegen sind die nach kanonischem Recht von jeher zur 
+Zuständigkeit der geistlichen Behörden gehörenden Familien- 
+und Erbrechtsangelegenheiten auch heute noch der Gerichtsbar- 
+keit der nichtmohammedanischen Millets überlassen.” 
+
+Der gleiche Vorbehalt für diese findet sich noch in den 
+Ausführungsbestimmungen zu dem Hatt-i humajun (Ferman vom 
+18. Februar 1856 Nr. 13)* und in Art. 20 des Gesetzes über die 
+Provinzverwaltung (Loi des Vilayets) von 1867.? 
+
+Die Grundlage für die kirchliche Gerichtsbarkeit bildet das 
+kanonische Recht. Sie umfaßt insbesondere Verlobung, Ehe- 
+schließung, Scheidung, Anfechtung und Nichtigkeitserklärung von 
+Ehen, Ausübung der väterlichen Gewalt, Annahme an Kindes- 
+statt, ferner das Ehegüterrecht, Aussteuer, Dos, Unterhalts- 
+ansprüche der Ehegatten gegeneinander u.a. Nicht aber z.B. 
+solche des Kindes gegen seinen Vater oder Schadensersatz wegen 
+Auflösung einer Verlobung u. dgl., welche die staatlichen Ge- 
+richte als rein zivile Fragen für sich in Anspruch nehmen. 
+
+Die nach Art. 18 des Hatt-i humajun ursprünglich nur 
+fakultative Zuständigkeit der christlichen Gerichtshöfe auf dem 
+Gebiete des Familienrechts („a la demande des parties“) ist 
+durch den erwähnten Ferman vom 3. Februar 1891 zu einer 
+ausschließlichen erhoben worden. 
+
+Für die ihrer Natur nach mehr zivilen Erhrechtssachen ist 
+jedoch ein Unterschied gemacht worden. Für Nachlaßsachen 
+ab intestato besteht nur fakultative Zuständigkeit der Exarchats- 
+gerichte, in Testamentssachen von Angehörigen des Exarchats 
+untereinander dagegen ausschließliche. 
+
+Ist dagegen einer der Erben ein fremder Staatsangehöriger 
+oder Mitglied eines anderen Millets, so gehört der Rechtsstreit 
+wieder vor die staatlichen Gerichte. 
+
+
+! Art. 16 des Hatt-i humajun. 
+
+®2 Art. 17 des Hatt-i humajun. 
+
+® Art.18 des Hatt-i humajun. 
+
+* Aristarchi Bey a.a.0. II S.24; Schopoff a.a.0. S.55. 
+
+° Aristarchi Bey a.a.0. 118.273; Schopoff a.a.0. S. 114. 
+
+
+ZEN 
+
+
+Die Frage der Zuständigkeit der christlichen und der mo- 
+hammedanischen geistlichen Gerichte ist jedoch außerordentlich 
+verworren, oft sind Regel und Ausnahme miteinander vermengt 
+und erstere durch diese ersetzt. Ein genaueres Eingehen auf 
+diese Fragen würde den Rahmen der vorliegenden Arbeit 
+überschreiten. 
+
+Ein von dem Exarchen oder einem bulgarischen Bischof 
+legalisiertes Testament wird jedoch stets auch von den staat- 
+lichen Gerichten als gültig behandelt. : 
+
+Insbesondere sind alle Vermächtnisse zugunsten des Ex- 
+archen, der Bischöfe und Armen, von Kirchen, Schulen und 
+Wohltätigkeitsanstalten gültig und ohne Abzug auszuzahlen. 
+
+Außer der erwähnten streitigen Gerichtsbarkeit steht dem 
+Exarchat noch die Ausübung der gesamten freiwilligen Gerichts- 
+barkeit in Vormundschafts- und Pflegschaftssachen zu, ebenso 
+die Todeserklärung von Verschollenen und zahlreiche Notariats- 
+geschäfte. 
+
+Von den Geburten und Todesfällen hat der zuständige 
+Pfarrer dem türkischen Muchtar! ein von ihm vollzogenes Attest 
+(Ilm-u-haber) einzureichen, der darauf hin ein staatliches Zertifikat 
+für den Gebrauch vor den Behörden ausstellt. 
+
+Besondere Garantien sind dafür gegeben, daß kein Zwang 
+für Bekehrung von Christen zum Islam ausgeübt werde. Will 
+ein Mitglied des bulgarischen Millets zum Islam übertreten, so 
+wird die zuständige kirchliche Obrigkeit davon verständigt und 
+Eltern und Vormund haben das Recht, mit dem Renegaten zu 
+verhandeln und ihn von seinem Vorhaben wieder abzubringen. 
+Besteht er jedoch auf dem Übertritt, so darf ihm kein Hindernis 
+weiter bereitet werden. 
+
+Ebensowenig: darf eine verheiratete Christin daran gehindert 
+werden, Mohammedanerin zu werden. Doch ist ihre Ehe damit 
+ohne weiteres aufgelöst, da ein Christ keine Mohammedanerin 
+zur Frau haben darf. 
+
+Tritt jedoch der Mann zum Islam über, so besteht die Ehe 
+an und für sich weiter, da es einem Mohammedaner nicht ver- 
+wehrt ist, eine Christin zu heiraten. 
+
+Durch den Übertritt beider Ehegatten zum Islam wird der 
+Bestand der Ehe nicht berührt. 
+
+Ein derartiger Religionswechsel unterbricht jeden Ehe- 
+scheidungsprozeß sowie alle anderen mit der Ehe zusammen- 
+hängenden Rechtsstreitigkeiten vor den geistlichen Gerichten 
+des Millets.” 
+
+
+2 Muchtar = Amtsvorsteher. 
+aZYEo um ga. ar 088710: 
+
+
+Wie erwähnt, ist das Exarchat in der Verwaltung seines 
+Vermögens völlig selbständig. 
+
+Alles bewegliche wie unbewegliche Gut des Millets, die 
+geweihten Gegenstände, Kirchen, Klöster, Krankenhäuser, fromme 
+Stiftungen, Gärten, Weinberge und sonstige Liegenschaften sind 
+unantastbares Eigentum desselben. Für seine geistlichen An- 
+stalten, Schulen, Seminare, Hospitäler, Hospize und sonstige 
+Wohltätigkeitsanstalten, wie für die gottesdienstlichen Gegen- 
+stände genießt es gleich den übrigen Millets das Privilegium 
+völliger Steuer- und Zollfreiheit nach dem Reglement vom 
+7. Zilhidsche 1281 (3. Mai 1865).! 
+
+Das Privilegium der Steuer- und Zollfreiheit erstreckt sich 
+auch auf die Ordensgeistlichen, die damit die gleichen persön- 
+lichen Vorrechte genießen, die sonst nur dem diplomatischen 
+und Konsularkorps im Orient eingeräumt werden. Zollfrei sind 
+Kleidung, Nahrung, Tinte und Papier sowie alles, was zum 
+klösterlichen Bedarf gehört, in der Höhe von 4000 Piastern 
+jährlich für jeden Ordensgeistlichen. 
+
+Allen Klerikern, ohne Unterschied ob sie einem Kloster 
+angehören oder nicht, ist ferner Freiheit von Abgaben aller Art 
+zugestanden für die ihnen von den Gemeinden nach altem Brauche 
+gespendeten Naturalien, wie Butter, Honig, Most und die Er- 
+zeugnisse ihrer Weinberge. 
+
+Von großer Bedeutung ist ferner die dem Klerus den staat- 
+lichen Gerichten gegenüber gewährte Ausnahmestellung. Seine 
+Vereidigung in Zivil- und Strafprozessen erfolgt ausschließlich 
+durch den Exarchen bezw. den zuständigen Bischof nach kirch- 
+lichem Ritus. 
+
+Die Verhaftung eines Geistlichen auf Grund eines von 
+einem staatlichen Zivil- oder Strafgericht erlassenen Haftbefehls 
+kann nur durch die kirchlichen Behörden vorgenommen werden. 
+
+Für die Untersuchungshaft dürfen Geistliche nicht mit 
+anderen Untersuchungsgefangenen zusammengetan werden. Ein 
+im Zivilprozeß zur Schuldhaft oder von dem Strafgericht zu 
+Gefängnis oder Haft verurteilter Geistlicher büßt diese Strafe 
+in dem Gefängnis des Exarchen oder des zuständigen Bischofs 
+ab. Nur der wegen eines gemeinen Verbrechens verurteilte 
+und seiner geistlichen Würde entkleidete Kleriker hat seine 
+Strafe in dem öffentlichen Gefängnisse abzubüßen. 
+
+Die Vorschriften über Festnahme und Haft von Geistlichen 
+sind auch während eines Belagerungszustandes von den Kriegs- 
+gerichten streng zu beachten. 
+
+
+a ! Text bei Young S. 241; Aristarchi Bey III S. 399; Düstur II 
+3. 610. 
+
+
+N Ir 
+
+
+Bei kirchlichen Vergehen der Geistlichen, wie Apostasie, 
+Häresie, Schisma, Kirchenraub, Meineid, Simonie, Bigamie, Un- 
+gehorsam und Unehrerbietung gegen die Bischöfe und den Ex- 
+archen, Vernachlässigung ihrer geistlichen Pflichten u.a, ist 
+die Strafgewalt des Staates, wie bereits erwähnt, völlig aus- 
+geschaltet. 
+
+Die Errichtung von Kirchen ist dem Exarchat überall im 
+Osmanischen Reiche freigestellt, wo nur immer sich eine bul- 
+garische Gemeinde gegründet hat. Schulen dagegen dürfen nur 
+in solchen Orten begründet werden, in denen bereits eine bul- 
+garische Kirche besteht. 
+
+In der Leitung und Verwaltung seiner Schulen, der An- 
+stellung der Lehrer, Festsetzung der Unterrichtsfächer u. a. ist 
+das Exarchat durchaus selbständig, besitzt auch eigene Schul- 
+inspektoren, doch übt der Staat namentlich bei der Begründung 
+von Schulen eine gewisse Oberaufsicht aus. 
+
+Zu jenem Zwecke hat sich die betreffende bulgarische Ge- 
+meinde zunächst an den Vorsitzenden des bulgarischen Gemeinde- 
+rates in dem Hauptorte der Kaasa zu wenden. Dieser richtet 
+nach Prüfung der Sachlage ein Gesuch an den Kaimakam (Land- 
+rat) der Kaasa unter Beifügung des Lehrplanes, der Diplome 
+der anzustellenden Lehrer und eines Verzeichnisses der Lehr- 
+bücher. Ebenso ist die Höhe der erforderlichen, durch Steuern 
+oder freiwillige Beiträge der Gemeinde aufzubringenden Geld- 
+mittel genau anzugeben, wie dies auch für die Errichtung von 
+Kirchen, Friedhöfen und Wohltätigkeitsanstalten erforderlich ist.! 
+
+Der Kaimakam gibt, falls nicht Hinderungsgründe mili- 
+tärischer Natur oder lokaler Art, z. B. zu große Nähe einer 
+anderen Kirche oder Schule, entgegenstehen, das Gesuch an den 
+Bezirksschulinspektor des Sandschaks (Regierungsbezirkes). Von 
+dort gelangt es an die Hohe Pforte und schließlich an den Sultan. 
+
+Da juristische Personen im türkischen Recht bisher nicht 
+anerkannt sind, wird die vom Sultan erteilte Erlaubnis auf den 
+Namen des Vorsitzenden des bulgarischen Gemeinderates aus- 
+gestellt. 
+
+Trotz aller Garantien werden jedoch der Errichtung von 
+Kirchen und Schulen in den mazedonischen Kampfgebieten? von 
+den stets auf griechischer Seite stehenden türkischen Behörden 
+die größten Schwierigkeiten bereitet. 
+
+Schließlich wäre noch zu bemerken, daß das bulgarische 
+Exarchat gleich den übrigen Millets auch Anteil an der türkischen 
+
+
+SzyaMazcıh23r3, 008742. 
+2 vgl. unten sowie Leger a.a. 0. S.6ff. 
+
+
+u 
+
+
+Staatsverwaltung hat, indem nach den Art. 33, 47 u. 58 des Ge- 
+setzes über die Verwaltung der Provinzen vom Jahre 1867' den 
+kirchlichen Oberen in der Hauptstadt des Vilajets (Provinz), des 
+Sandschaks (Regierungsbezirkes) und der Kaasa (Kreises) Sitz 
+und Stimme in den türkischen Verwaltungskonseils sowie dem 
+Gemeindepfarrer im Ältestenrate des Dorfes eingeräumt ist. So- 
+mit übt das bulgarische Exarchat einen unmittelbaren Einfluß 
+aus auf die gesamte innere Verwaltung, die Finanzen, Steuern, 
+Polizei, öffentliche Arbeiten, Ackerbau u. a. 
+
+
+4. Internationaler Charakter der kirchlichen Privilegien. 
+
+
+Wie bereits erwähnt, sind die „Satzungen für die Ver- 
+waltung des bulgarischen Exarchats“ von der Hohen Pforte nur 
+zum Teil bestätigt worden. Wenn deren Ausführung auch bisher 
+stillschweigend geduldet wurde, so könnte dies doch jederzeit 
+anders werden, z. B. die Neubesetzung des Patriarchenthrones 
+verweigert oder sogar von der Hohen Pforte erklärt werden, 
+„die Gründung des bulgarischen Exarchates habe den gehegten 
+Erwartungen nicht entsprochen, in der bisherigen Form dürfe 
+es daher nicht fortbestehen“.” Tatsächlich werden diese Be- 
+fürchtungen auch vielfach von bulgarischer Seite gehegt. 
+
+Dem steht jedoch entgegen, daß die den christlichen Kirchen 
+ursprünglich allerdings als bloße Gnadenakte verliehenen Privi- 
+legien einen internationalen Charakter angenommen haben. 
+
+Zwar hat die Türkei die im Jahre 1853 von Rußland ge- 
+stellte Forderung, mit ihm einen formellen Vertrag über die 
+Privilegien ihrer orthodoxen Untertanen abzuschließen, der Ruß- 
+land das erstrebte Protektorat über die Christenheit des Orients 
+erbracht hätte, als unvereinbar mit ihrer Würde und Unabhängig- 
+keit abgelehnt. 
+
+Durch die verschiedenen den Großmächten in den Jahren 
+1853—1856 gegebenen und im Pariser Frieden von diesen offi- 
+ziell zur Kenntnis genommenen Bürgschaften für die Aufrecht- 
+erhaltung dieser Privilegien haben letztere jedoch den Charakter 
+der freien Widerruflichkeit verloren. 
+
+Denn wenn auch Art. 9 des Pariser Vertrages? ausdrücklich 
+hervorhob, daß die offizielle Mitteilung des Hatt-ihumajun den 
+
+
+R nn Text bei Aristarchi Bey a.2.0.8.273; Schopoffa.20. 
+ ® v.Macha.a.0. 8.39, 
+® Text bei Aristarchi Bey u. Schopoff S. 5i6ft. 
+
+
+vertragschließenden Mächten „keinesfalls das Recht gebe, sich 
+gemeinschaftlich oder einzeln in die Beziehungen des Sultans zu 
+seinen Untertanen einzumischen“, so hätten diese Mächte doch 
+niemals die Türkei „an den Vorteilen des Völkerrechts und dem 
+europäischen Konzert teilnehmen lassen“, wenn sie diese nicht 
+an ihre öffentlich eingegangenen Verpflichtungen Europa gegen- 
+über für gebunden erachtet hätten. 
+
+Endlich heißt es in Art. 62 des Berliner Vertrages vom 
+13.Juli 18783: 
+
+„La libert& et la pratique exterieure de tous les cultes 
+sont assurees & tous, et aucune entrave ne pourra etre 
+apportee soit & l’organisation hierarchique des differentes 
+communions, soit & leurs rapports avec leurs chefs spirituels“. 
+
+„Le droit de protection officielle est reconnu aux agents 
+diplomatiques et consulaires des puissances en Turquie, tant 
+a l’egard des personnes susmentionnedes que de leurs &tab- 
+lissements religieux, de bienfaisance et autres dans les Lieux 
+Saints et ailleurs“. 
+
+Damit steht es außer Zweifel, daß die Privilegien der christ- 
+lichen Kirchen in der Türkei nicht mehr als einseitige Gnaden- 
+akte der Sultane aufzufassen sind, sondern die Natur eines 
+bilateralen völkerrechtlichen Vertrages haben, der den Groß- 
+mächten im Notfalle sogar das Recht der bewaffneten Inter- 
+vention gibt. 
+
+Die beste Garantie freilich für den Bestand und die Zukunft 
+des bulgarischen Exarchats im Osmanischen Reiche wird stets 
+eine freiheitliche und fortschrittliche Staatsregierung sein. 
+
+
+III. Der mazedonische Kirchenstreit. 
+
+
+Seit einer Reihe von Jahren hatte man sich in Europa 
+daran gewöhnt, fast täglich von Mord, Raub, Brandstiftung und 
+Greueln aller Art aus Mazedonien zu hören. Schließlich hatte 
+aber der Krieg aller gegen alle dort derartige Formen ange- 
+nommen, daß sich die Großmächte einmischten und die Türkei zur 
+Einsetzung europäischer Reformkommissionen zwangen, welche 
+die Verwaltung des Landes überwachen, die Finanzen ordnen, 
+ein besonderes Gendarmeriekorps für den Sicherheitsdienst heran- 
+bilden und überhaupt Ordnung in die völlig zerrütteten Verhält- 
+nisse hereinbringen sollten. 
+
+
+ı Text bei Schopoff S.”70. 
+
+
+Leider ist das Ergebnis bisher sehr problematisch geblieben. 
+
+Die Pazifizierung des Landes ist jedenfalls nicht gelungen. 
+Im Gegenteil hat gerade seit dem Beginn der europäischen 
+Reformtätigkeit das unheilvolle Bandenwesen in Mazedonien 
+überhandgenommen, denn diese rief dort den Eindruck hervor, 
+daß eine Aufteilung des Osmanischen Reiches beabsichtigt sei," 
+und nun hielt jede Nationalität die Zeit für gekommen, gewalt- 
+sam ihre vermeintlichen Ansprüche gegenüber den Rivalen durch- 
+zusetzen.? 
+
+Griechische Banden zogen gegen bulgarische zu Felde, 
+diese wieder gegen serbische und kutzowalachische, bis durch 
+die Vernichtung einer derselben durch reguläre türkische Truppen 
+wieder für kurze Zeit Ruhe eintrat. 
+
+Jedes der eingesessenen Völker Mazedoniens, Griechen, 
+Bulgaren, Serben, Kutzowalachen und Albanesen, sucht nach 
+Möglichkeit sein Volkstum zum Schaden der anderen zu stärken 
+und die Vorherrschaft über diese zu erringen. Statt dies aber 
+durch friedliche Arbeit auf dem Wege des Fortschrittes zu er- 
+reichen, werden Banden organisiert, die durch Mord und Brand- 
+stiftung die abtrünnigen Volksgenossen zurückführen und fremde 
+nach Möglichkeit bekehren sollen. 
+
+Da ja Kirche und Nationalität im Orient miteinander ver- 
+schmolzen sind, so ist der Übertritt zu einem anderen Bekennt- 
+nis gleichbedeutend mit dem Verrate an dem eigenen Volkstum. 
+Insbesondere ist es wieder der alte Haß zwischen Griechen und 
+Bulgaren, der eine der Hauptursachen der mazedonischen Wirren 
+bildet. 
+
+Noch gehören in Mazedonien über 260000 Bulgaren, von 
+griechischer Seite als „bulgarophone Griechen“ ® bezeichnet, 
+dem Ökumenischen Patriarchat an. Ihren nach dem Ferman von 
+1870 gestatteten Anschluß an das bulgarische Exarchat mit allen 
+Mitteln zu verhindern, ist die Losung der zahlreichen griechischen 
+Banden, die das Haupthindernis für die Pazifikation des Landes 
+bilden* Würde dieser Verlust doch das Patriarchat um mehr 
+als die Hälfte seines Bestandes in Mazedonien vermindern und 
+dieses im Falle der Loslösung der ebenfalls nach Selbständig- 
+keit strebenden mazedonischen Serben und Walachen allein auf 
+die Griechen und ein paar Tausend Arnauten und Zigeuner an- 
+gewiesen sein. 
+
+
+Österr. Rotbuch (1906/07) S. 140. 
+
+s. auch Livre jeaune (1903—1905) p. 124, 174. 
+
+s. z.B. Nikolaidesa.a.0. S. 133. 
+
+s. darüber österr. Rotbuch S. 158; Bratter a.a. 0. S. 83, 92 und 
+
+
+1liff. 
+
+
+ee 
+
+
+Damit wäre seine Rolle in Mazedonien ausgespielt.t 
+
+Während nun das Exarchat stets nur zu friedlicher Abwehr 
+der griechischen Angriffe riet und von allen Gewaltakten ab- 
+mahnte, bildeten die erregten Mazedobulgaren eigene Revolutions- 
+komitees, deren Banden den griechischen an Grausamkeit nichts 
+nachgaben.? 
+
+Neben den Griechen und Bulgaren treten in zweiter Linie 
+die Serben und Walachen als Bewerber um die Vorherrschaft 
+in Mazedonien auf. 
+
+Auch die Serben hatten gleich den Bulgaren jahrhunderte- 
+lang unter der rücksichtslosen Hellenisierungspolitik des öku- 
+menischen Patriarchats zu leiden gehabt. 
+
+So war es denn kein Wunder, daß sie sich nach der Be- 
+gründung des bulgarischen Exarchats massenweise der neuen 
+stammverwandten Kirche anschlossen, „in der sie in einer ihnen 
+verständlichen Sprache verkehren, ihre Eigenart hervortun 
+durften und von ihren eigenen Bischöfen und Geistlichen nicht 
+gequält, geplündert und beraubt wurden“? 
+
+Infolge einer lebhaften Propaganda seitens des Königreichs 
+Serbien haben sie sich später wieder großenteils von den Bul- 
+garen losgesagt, ja stehen ihnen jetzt sogar vielfach feindlich 
+gegrenüber.* 
+
+Andererseits suchen sie auch dem ökumenischen Patriarchat 
+gegenüber die größtmögliche Selbständigkeit zu erringen. In 
+der Tat haben sie auch bereits die Einsetzung von serbischen 
+Metropoliten in Üsküb und Prisrend® sowie den Gebrauch der 
+serbischen Sprache für Kirche und Schule dem Patriarchat ab- 
+gepreßt. 
+
+Von der türkischen Regierung werden die Serben und seit 
+dem Irade des Sultans vom 9./22. Mai 1905 auch die Kutzo- 
+walachen als eigene Millets gezählt.‘ Die Errichtung: von eigenen 
+Kirchen und Schulen und der freie Gebrauch ihrer Sprache ist 
+
+
+ı vgl. darüber z.B. Bratter a.a.0. S. 140ff. 
+
+2 Selbst die europäischen Reformoffiziere sind wiederholt durch diese 
+Banden bedroht worden; s. z.B. österr. Rotbuch S. 139. 
+
+> er 0410737220, 5.18. 
+
+* vgl. Leger a.a.0. S.5. Nach einer von griechischer Seite ver- 
+öffentlichten Aufstellung sollen in den mazedonischen Vilajets Salonik und 
+Monastir in den Jahren 1897—1907 von den Bulgaren 1269 Morde, Mord- 
+versuche, Entführungen und Brandstiftungen begangen worden sein (Tableaux 
+de crimes bulgares contre les Grecs Orthodoxes dans les vilayets macedoniens). 
+Bulgarische Gegenaufstellungen dürften bezüglich der griechischen Banden 
+keine geringeren Zahlen ergeben. 
+
+5 s, hierüber Nikolaides a.a.0. S.162ff.; Gelzer a.a.0. S. 126ff. 
+
+6 Texte bei Young T.lI und Bratter.a.a. 0. S. 8. 
+
+
+ihnen für das ganze Reich gestattet. Da sie jedoch nach wie 
+vor dem ökumenischen Patriarchat unterstehen, ist die Aufstellung 
+dieser Millets mehr von statistischer als von staatsrechtlicher 
+Bedeutung. 
+
+Ein Bild von dem heutigen Stande der Nationalitäten- 
+verhältnisse in Mazedonien zu geben ist fast unmöglich. Ein- 
+mal werden die offiziellen türkischen Statistiken mit größter 
+Willkür aufgestellt, da die Türken bis vor kurzem einzelne 
+Nationalitäten überhaupt nicht anerkannten und nur nach ver- 
+schiedenen Millets unterschieden. So wurden z. B. alle Unter- 
+gebenen des ökumenischen Patriarchats oder Rum Milleti ein- 
+fach als Rumi, Griechen, bezeichnet und so die orthodoxen 
+Serben, Walachen und Albanesen bis in die neueste Zeit über- 
+haupt nicht erwähnt. Die Statistiken der einzelnen Kirchen 
+selbst aber suchen die Zahl der eigenen Angehörigen zum 
+Schaden der übrigen als möglichst hoch hinzustellen. 
+
+Zu diesem Zwecke gibt jede einzelne eine andere Begrenzung: 
+für Mazedonien an unter Ausscheidung der bezüglich der Be- 
+völkerungszahl für sie selbst ungünstigen Gebiete. So weisen 
+die türkischen Aufzeichnungen daselbst eine überwiegende Mehr- 
+zahl von Mohammedanern auf, die des Patriarchats eine solche 
+der Griechen, die des Exarchats der Bulgaren usw.! 
+
+Den eigentlichen Kern des mazedonischen Kirchen- bezw. 
+Schulstreites bildet die Praxis der türkischen Regierung, den 
+verschiedenen Millets die Errichtung von Schulen nur im Zu- 
+sammenhange mit einer Kirche und nur an solchen Orten zu 
+gestatten, in denen bereits eine Kirche des betreffenden Millets 
+erbaut ist. 
+
+Ist es nun den Serben gelungen, die Erlaubnis für die Er- 
+richtung einer eigenen Kirche an einem Orte zu erlangen, so 
+beeilen sie sich, sofort auch eine Schule mit serbischer Unter- 
+richtssprache daselbst zu begründen und durch eine von dieser 
+betriebene rührige Propaganda die noch zur griechischen oder 
+bulgarischen Seite haltenden Serben der Umgegend zu der national- 
+serbischen hinüberzuziehen. 
+
+Oder tritt die bisher patriarchistische bulgarische Bevölkerung 
+eines Ortes mit zwei Drittel Mehrheit zum Exarchat über, so 
+gewinnt dieses damit auch die Kirche und Schule des Ortes, 
+die natürlich sofort auch mit bulgarischen exarchistischen Geist- 
+
+
+ts. darüber v. Mach a.a.0. S.43, Die aus amtlichen Berichten 
+der bulgarischen Bischöfe zusammengestellte und lediglich zum Dienst- 
+gebrauch für das Exarchat bestimmte Statistik, die v. Mach (a.a.0. S.47ff.) 
+gibt, dürfte die Gewähr bieten, der Wahrheit am nächsten zu kommen. 
+
+
+lichen und Lehrern besetzt werden. Ebenso wird die bisherige 
+griechische Unterrichtssprache durch die bulgarische ersetzt, und 
+die griechischen Einwohner des Ortes sind entweder genötigt, 
+ihre Kinder bulgarisch lernen oder ohne Schulunterricht auf- 
+wachsen zu lassen. 
+
+So ist es denn kein Wunder, daß ein jeder solcher Fall 
+die Gemüter auf das höchste erregt und blutige Zusammenstöße 
+hervorruft. 
+
+Die türkische Regierung hat, um dem ein Ende zu setzen, 
+bereits im Jahre 1319 (1903) den damaligen kirchlichen Besitz- 
+stand in Mazedonien als unveränderlich erklärt und erkennt 
+seitdem einen Übertritt von Dörfern von einer zur anderen Partei 
+nicht mehr an. Doch findet ein solcher unter dem Drucke der 
+terroristischen Maßregeln der Banden noch fortwährend statt.! 
+Die zu jener Zeit umstrittenen Kirchen und Schulen sind seit- 
+dem dauernd geschlossen geblieben, und zur Errichtung neuer 
+ist keine Erlaubnis mehr erteilt worden. 
+
+In jüngster Zeit hat der türkische Staatsrat die Bildung 
+einer besonderen Kommission zur Ausarbeitung eines Gesetz- 
+entwurfes über die Beilegung des mazedonischen Kirchenstreites 
+beschlossen. Dieser gehören je zwei Delegierte des Patriarchats 
+und Exarchats sowie je ein Mitglied des Justizministeriums und 
+des Ministeriums des Innern an. Über das Ergebnis ist jedoch 
+zurzeit noch nichts bekannt. 
+
+Die ganze erbitterte Rivalität der mazedonischen Völker 
+beruht insbesondere auf ihrer Überzeugung, daß die Tage des 
+Osmanischen Reiches in Europa gezählt seien, und jedes von 
+ihnen fühlt sich nun berufen, sein Nachfolger in Mazedenien zu 
+werden. 
+
+Es verfügt jedoch keines dieser Völker über eine hin- 
+reichende Mehrheit in Mazedonien, um sich die Herrschaft über 
+die anderen sichern zu können. 
+
+Sollte daher einmal die Hoffnung der Mazedonier in Er- 
+füllung gehen und die Türken aus Europa weichen müssen, so 
+wäre dies das größte Unglück für das Land. Denn sollte es 
+auch einem der Hauptbewerber, Griechen, Bulgaren oder Serben, 
+gelingen, die Herrschaft an sich zu reißen, so würde doch „die 
+nationale Agitation der beiden anderen mit um so größerer 
+Heftigkeit entbrennen und das bedauernswerte, viel geplagte 
+Land könnte nach wie vor nicht zur Ruhe kommen“.? 
+
+Somit erscheint die Ansicht der meisten Schriftsteller, daß 
+
+
+ı vgl. Leger a.a. 0. S.45. 
+2EB2ot no. 10.2, 3058215 
+
+
+Scheffler. 4 
+
+
+re, 
+
+
+nur in der Vertreibung der Türken aus Europa die Lösung der 
+mazedonischen Frage gefunden werden könne, unrichtig. 
+
+Die einzige Lösung des Problems ist vielmehr in der Um- 
+wandlung des Osmanischen Reiches in einen modernen Ver- 
+fassungsstaat und der Gleichstellung aller seiner Untertanen zu 
+erblicken. 
+
+Daß dieses Urteil nicht unberechtigt ist, zeigt der Umstand, 
+daß sofort nach der Verkündung der osmanischen Verfassung 
+die Waffen der mazedonischen Völker sanken und seitdem eine 
+seit Jahrzehnten nicht mehr gekannte Ruhe in Mazedonien 
+herrscht. 
+
+Die seitdem von der Regierung beobachtete streng gerechte 
+Haltung ihren christlichen Untertanen gegenüber, die unmittelbar 
+bevorstehende Einstellung derselben in den Militärdienst, Auf- 
+hebung der Militärsteuer u. a. lassen es als berechtigte Hoffnung 
+erscheinen, daß es der neuen Regierung gelingen wird, die un- 
+geheuere Kraft, welche im Islam liegt, zu einem Faktor des 
+Fortschrittes, der Zivilisierung und Veredlung ihrer Völker zu 
+machen. 
+
+Als Beweis dafür, daß allen entgegenstehenden Meinungen 
+zum Trotz der Türke sehr wohl mit dem Andersgläubigen zu- 
+sammenzugehen vermag, möge die selbst von den besten Kennern 
+des Orients noch bis vor kurzem für undenkbar gehaltene Tat- 
+sache dienen, daß bei der Niederwerfung der reaktionären 
+Militärrevolution am 24. April 1909 in Konstantinopel durch die 
+mazedonische Armee Jungtürken und bulgarische Freischaaren 
+unter Sandansky und Panitza Schulter an Schulter fochten. 
+
+Beide hatten sie in mehr als 30 jähriger Knechtschaft des 
+Absolutismus. den Wert der Freiheit, Gleichheit und Brüderlich- 
+keit zu schätzen gelernt. 
+
+Sie werden sie zu hüten wissen. 
+
+
+Spezialdruckerei für Dissertationen, Robert Noske, Borna -Leipzig. 
+
+
+V 
+
+

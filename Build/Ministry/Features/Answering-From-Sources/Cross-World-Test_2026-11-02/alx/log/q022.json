@@ -1,0 +1,214 @@
+{
+ "draft": "A believer's days among us were shaped by the city's practice: contemplation, asceticism, prayer, and teaching for baptism [[alx.gravity.soul-transformation]] [[as:paraphrase]]. Formation was active work, done step by step [[alx.gravity.soul-transformation]] [[as:paraphrase]]. Sacraments and shared life formed people before any school, and without one [[alx.force.apostolic-tradition]] [[as:paraphrase]]. The washing that made new, the shared bread, and the teaching of those coming in came to us as the deposit [[alx.force.apostolic-tradition]] [[as:paraphrase]]. In the school tradition, to believe was only the beginning, and the soul was made to know God and be drawn deeper [[alx.force.knowing-impulse]] [[as:paraphrase]]. The Holy Spirit was understood as always at work in Scripture, prayer, and the soul's own change [[alx.term.pneuma-hagion]] [[as:paraphrase]]. The writings we have are men's, and women's own words about their lives were not saved [[alx.limit.f5-women-own-words]] [[as:paraphrase]]. Timothy, bishop of Alexandria, answered practical questions put to him: [[quote:alx.quote.timothy-ordinary-questions]]\n",
+ "ending": "rewritten",
+ "final": "Formation was active work, done step by step. Sacraments and shared life formed people before any school, and without one. The washing that made new, the shared bread, and the teaching of those coming in came to us as the deposit. In the school tradition, to believe was only the beginning, and the soul was made to know God and be drawn deeper. The Holy Spirit was understood as always at work in Scripture, prayer, and the soul's own change. The writings we have are men's, and women's own words about their lives were not saved.",
+ "group": "A",
+ "offered": [
+  "alx.limit.f5-women-own-words",
+  "alx.term.psyche",
+  "alx.story.plague-nursing",
+  "alx.quote.timothy-ordinary-questions",
+  "alx.gravity.soul-transformation",
+  "alx.force.apostolic-tradition",
+  "alx.force.knowing-impulse",
+  "alx.limit.faith-alone-later-frame",
+  "alx.term.pneuma-hagion",
+  "alx.quote.athanasius-death-trampled-down",
+  "alx.gravity.martyrdom-contemplative-tension",
+  "alx.gravity.speculative-doctrinal-tension"
+ ],
+ "placements": [
+  {
+   "decision": "drop",
+   "judgement": {
+    "fit": "partly",
+    "limit_stated": false,
+    "reason": "It shows a few practical rulings from the 380s, not a typical day."
+   },
+   "record_id": "alx.quote.timothy-ordinary-questions"
+  }
+ ],
+ "question": "Describe a typical day in the life of someone in your community.",
+ "question_id": "q022",
+ "read": {
+  "dropped": [
+   "alx.quote.timothy-ordinary-questions"
+  ],
+  "status": "rewrite",
+  "unsupported": {
+   "0": {
+    "problem": "widened_scope",
+    "reason": "The record is primary only for the literate-attested part and says nothing of believers' days; the sentence applies it to every believer.",
+    "supported": false
+   }
+  }
+ },
+ "rewrite": [
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.gravity.soul-transformation"
+   ],
+   "sentence": "Formation was active work, done step by step.",
+   "tags": [
+    "alx.gravity.soul-transformation"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.force.apostolic-tradition"
+   ],
+   "sentence": "Sacraments and shared life formed people before any school, and without one.",
+   "tags": [
+    "alx.force.apostolic-tradition"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.force.apostolic-tradition"
+   ],
+   "sentence": "The washing that made new, the shared bread, and the teaching of those coming in came to us as the deposit.",
+   "tags": [
+    "alx.force.apostolic-tradition"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.force.knowing-impulse"
+   ],
+   "sentence": "In the school tradition, to believe was only the beginning, and the soul was made to know God and be drawn deeper.",
+   "tags": [
+    "alx.force.knowing-impulse"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.term.pneuma-hagion"
+   ],
+   "sentence": "The Holy Spirit was understood as always at work in Scripture, prayer, and the soul's own change.",
+   "tags": [
+    "alx.term.pneuma-hagion"
+   ]
+  },
+  {
+   "placed": false,
+   "placed_id": null,
+   "records": [
+    "alx.limit.f5-women-own-words"
+   ],
+   "sentence": "The writings we have are men's, and women's own words about their lives were not saved.",
+   "tags": [
+    "alx.limit.f5-women-own-words"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 0,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "A believer's days among us were shaped by the city's practice: contemplation, asceticism, prayer, and teaching for baptism.",
+   "tags": [
+    "alx.gravity.soul-transformation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 1,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Formation was active work, done step by step.",
+   "tags": [
+    "alx.gravity.soul-transformation"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 2,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "Sacraments and shared life formed people before any school, and without one.",
+   "tags": [
+    "alx.force.apostolic-tradition"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 3,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The washing that made new, the shared bread, and the teaching of those coming in came to us as the deposit.",
+   "tags": [
+    "alx.force.apostolic-tradition"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 4,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "In the school tradition, to believe was only the beginning, and the soul was made to know God and be drawn deeper.",
+   "tags": [
+    "alx.force.knowing-impulse"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 5,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The Holy Spirit was understood as always at work in Scripture, prayer, and the soul's own change.",
+   "tags": [
+    "alx.term.pneuma-hagion"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": "paraphrase",
+   "n": 6,
+   "placed": false,
+   "placed_id": null,
+   "reason": null,
+   "sentence": "The writings we have are men's, and women's own words about their lives were not saved.",
+   "tags": [
+    "alx.limit.f5-women-own-words"
+   ]
+  },
+  {
+   "decision": "keep",
+   "label": null,
+   "n": 7,
+   "placed": true,
+   "placed_id": "alx.quote.timothy-ordinary-questions",
+   "reason": "placed by code",
+   "sentence": "Timothy, bishop of Alexandria, answered practical questions put to him: “Question I. A boy of seven, or a man, who is a catechumen may be present at the offering and eat of it in ignorance. What should be done? Answer. Let him be illuminated, that is, baptized, for he is called by God. ... Question VIII. Should a woman who has just given birth keep the Paschal fast? Answer. No. ... Question X. Is a sick man required to keep the Paschal fast? Answer. No. Question XI. A clergyman is called to celebrate a marriage, and he has heard that it is incestuous. Should he comply and perform the offering? Answer. No; he must not share in other men's sins.”",
+   "tags": [
+    "alx.quote.timothy-ordinary-questions"
+   ]
+  }
+ ],
+ "shipped_by_net": "A believer's days among us were shaped by the city's practice: contemplation, asceticism, prayer, and teaching for baptism. Formation was active work, done step by step. Sacraments and shared life formed people before any school, and without one. The washing that made new, the shared bread, and the teaching of those coming in came to us as the deposit. In the school tradition, to believe was only the beginning, and the soul was made to know God and be drawn deeper. The Holy Spirit was understood as always at work in Scripture, prayer, and the soul's own change. The writings we have are men's, and women's own words about their lives were not saved. Timothy, bishop of Alexandria, answered practical questions put to him: “Question I. A boy of seven, or a man, who is a catechumen may be present at the offering and eat of it in ignorance. What should be done? Answer. Let him be illuminated, that is, baptized, for he is called by God. ... Question VIII. Should a woman who has just given birth keep the Paschal fast? Answer. No. ... Question X. Is a sick man required to keep the Paschal fast? Answer. No. Question XI. A clergyman is called to celebrate a marriage, and he has heard that it is incestuous. Should he comply and perform the offering? Answer. No; he must not share in other men's sins.”",
+ "sub_question": "C12.S1"
+}

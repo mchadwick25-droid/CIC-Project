@@ -1,0 +1,87 @@
+<title>Later-Worlds People</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,650&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono&display=swap">
+<style>
+/* One reading column: questions first (answered by letter), then the candidates grouped by home tradition, then who fell out */
+:root{--bg:#f3f5f1;--panel:#fcfdfb;--fg:#1d2621;--muted:#5a665f;--line:#d6ddd6;--accent:#2d6a52;--hold:#8a5a14;--quote:#eef2ec;
+--display:'Literata',Georgia,serif;--body:'Source Sans 3',system-ui,sans-serif;--mono:'IBM Plex Mono',ui-monospace,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141a17;--panel:#1b2420;--fg:#e4eae6;--muted:#a1aea6;--line:#34413a;--accent:#7cc4a2;--hold:#e0b467;--quote:#212c27;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#141a17;--panel:#1b2420;--fg:#e4eae6;--muted:#a1aea6;--line:#34413a;--accent:#7cc4a2;--hold:#e0b467;--quote:#212c27;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:16px/1.55 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:24px 64px}
+main{max-width:900px;margin:0 auto;display:grid;gap:36px}
+h1,h2,h3,h4{font-family:var(--display);margin:0;text-wrap:balance}h1{font-size:2rem;font-weight:650}h2{font-size:1.35rem;font-weight:650}h3{font-size:1.1rem}h4{font-size:1.05rem}
+p{margin:0;max-width:68ch}.lede{color:var(--muted)}.eyebrow{font:600 .75rem var(--body);letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+section{display:grid;gap:12px;min-width:0}a{color:var(--accent)}
+.how,.q{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:16px 18px;display:grid;gap:8px;min-width:0}
+.q header{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}.qn{font:600 1.05rem var(--mono);color:var(--accent)}
+.opts{list-style:none;margin:0;padding:0;display:grid;gap:6px}.opts li{border-left:3px solid var(--line);padding:2px 0 2px 10px}.opts li.rec{border-left-color:var(--accent)}
+.opts b{font-family:var(--mono);margin-right:6px}.eff{display:block;color:var(--muted);font-size:.92rem}
+.funnel{list-style:none;margin:0;padding:0;display:grid;gap:4px;font:400 .9rem var(--mono);color:var(--muted);font-variant-numeric:tabular-nums}
+.funnel b{color:var(--fg);display:inline-block;min-width:3.5ch;text-align:right;margin-right:8px}
+.inclist{display:flex;flex-wrap:wrap;gap:6px 14px;list-style:none;margin:0;padding:0}
+.grp{gap:10px}.grp h3{border-bottom:1px solid var(--line);padding-bottom:4px}
+.cards{display:grid;gap:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:16px 18px;display:grid;gap:8px;min-width:0}
+.card header{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.pill{font:600 .72rem var(--body);letter-spacing:.06em;text-transform:uppercase;border-radius:999px;padding:1px 9px;border:1.5px solid currentColor}
+.pill.include{color:var(--accent)}.pill.hold{color:var(--hold)}
+.qchip{font:400 .78rem var(--mono);color:var(--muted)}
+.meta,.num{font-family:var(--mono);font-size:.85rem;color:var(--muted);font-variant-numeric:tabular-nums}
+dl{display:grid;grid-template-columns:minmax(0,8.5rem) minmax(0,1fr);gap:4px 14px;margin:0;font-size:.95rem}dt{color:var(--muted);font-weight:600}dd{margin:0;min-width:0;overflow-wrap:anywhere}
+@media (max-width:560px){dl{grid-template-columns:1fr}dd{margin-bottom:4px}}
+.sub{font:600 .72rem var(--body);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:4px}
+.trads{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.tl{display:flex;flex-wrap:wrap;gap:4px 12px;align-items:baseline}.tname{font-weight:600}
+blockquote{margin:4px 0 0;background:var(--quote);border-radius:4px;padding:8px 12px;font-family:var(--display);font-size:.95rem;overflow-wrap:anywhere}
+cite{display:block;font:400 .75rem var(--mono);font-style:normal;color:var(--muted);margin-top:4px;overflow-wrap:anywhere}
+details summary{cursor:pointer;color:var(--muted);font-size:.9rem}summary:focus-visible,a:focus-visible{outline:2px solid var(--accent)}
+.small{font-size:.9rem;color:var(--muted)}
+.outlist{margin:0;padding-left:20px;display:grid;gap:6px}
+</style>
+<main>
+<header style="display:grid;gap:10px">
+<p class=eyebrow>Church Family Tree · P2-G3b · 10 November 2026</p>
+<h1>The people the later worlds name</h1>
+<p class=lede>Your answer D a held these people back until the count was clean. This is the clean count. Every candidate below is named in at least five separate passages in each of two later traditions' own texts. Every passage was read in context, then rechecked by an independent reviewer. Namesakes, editors' notes and works the shelf does not hold are left out. Nothing has been added to the census.</p>
+<ul class=funnel>
+<li><b>1,136</b>named people searched, each with their aliases</li>
+<li><b>166</b>passed the old rule once indexes, contents pages and XML footnotes were masked</li>
+<li><b>36</b>passed after every counted mention was read in context, in two passes (Ephrem already has an entry)</li>
+<li><b>32</b>passed after the adversarial review (two rounds)</li>
+<li><b>%%INC%%</b>recommended to include · <b>%%HOLD%%</b> to hold</li>
+</ul>
+</header>
+<div class=how><b>How to answer</b><p>Reply by letter, for example “A a, B a, C a”. A bare “OK” takes every recommendation. You can also name any person in or out directly.</p></div>
+
+<section><p class=eyebrow>Three questions</p>
+<article class=q id=qA><header><span class=qn>A</span><h3>Founders who pass by this route</h3></header>
+<p>Ruling 14's test says a person entry goes to someone “who founded no lasting movement”. Your change order 10c let founders in on the own-works route only, which is how Luther, Calvin and Wesley got entries. Nine people pass this count but founded, or gave their name to, a movement the tree already has: %%FND%%.</p>
+<ol class=opts><li class=rec><b>a</b>Hold them; each is told within their movement's entry (recommended)<span class=eff>Keeps ruling 14 as worded. The 10c exception stays tied to the own-works count. Their movements' pages already tell their story.</span></li>
+<li><b>b</b>Take the founders whose own words the Library holds<span class=eff>Adds Novatian, Apollinaris of Laodicea and Zwingli, whose works sit on their shelves. The other six have no words of their own held.</span></li>
+<li><b>c</b>Take all nine<span class=eff>Six of them would be entries with no voice of their own in the Library: Priscillian, Valentinus, Mani, Hilarion, Valdes and Francis.</span></li></ol></article>
+
+<article class=q id=qB><header><span class=qn>B</span><h3>Words written for them or with them</h3></header>
+<p>Answer C counts a document issued in a person's name and a jointly signed work as their own words. Three candidates rest on that line. Paula's only letter is one Jerome wrote and issued in her and Eustochium's names. Pamphilus wrote the Apology for Origen with Eusebius, who calls it “written by us and Pamphilus”; Jerome, Rufinus's opponent, denies that Pamphilus wrote it. Tauler's sermons were taken down from his preaching by his hearers.</p>
+<ol class=opts><li class=rec><b>a</b>Apply answer C as written: Paula and Pamphilus in, Tauler held (recommended)<span class=eff>A letter in her name and a joint work count. Hearers' notes are speech others report. Pamphilus is told within the catechetical school, where the Library shelves his work.</span></li>
+<li><b>b</b>Hold all three<span class=eff>Asks for writing the person composed alone. That is stricter than answer C.</span></li>
+<li><b>c</b>Take all three<span class=eff>Counts Tauler's sermons as his. That goes past answer C.</span></li></ol></article>
+
+<article class=q id=qC><header><span class=qn>C</span><h3>When both later traditions rest on one book</h3></header>
+<p>Constantius II passes because Nikodemos's Synaxaristes (about 1805) sits on two Ottoman-era shelves. Basilides passes on the same Hippolytus passages shelved under both the Roman church and Montanism. The rule asks for two traditions, and its point is that more than one later world remembers the person.</p>
+<ol class=opts><li class=rec><b>a</b>Hold them: two traditions need two different witnesses (recommended)<span class=eff>Neither has a second independent text. Basilides also has no words of his own held.</span></li>
+<li><b>b</b>Count shelves as written<span class=eff>Constantius II would become an entry, on his letter to the princes of Aksum. Basilides stays held for having no words of his own.</span></li></ol></article>
+</section>
+
+<section><p class=eyebrow>Recommended to include</p><ul class=inclist>%%SUMM%%</ul>
+<p class=small>%%NONE_N%% more are held because the Library holds no words of their own and no recorded position under answer C: %%NONE%%.</p></section>
+
+<section><p class=eyebrow>The candidates</p><h2>Grouped by the tradition each would be told within</h2>
+<p class=lede>Each card shows the two strongest later traditions that name the person, with one passage from each, quoted from the file. The count gives the distinct passages. Mentions in one paragraph count once, and so does one passage printed in two languages.</p>
+%%SECS%%</section>
+
+<section><p class=eyebrow>Out after review</p><ul class=outlist>%%OUT%%</ul>
+<p class=small>%%ONE_N%% more reach five clean passages in only one later tradition, so they do not pass: %%ONE%%.</p></section>
+
+<section><p class=eyebrow>How the count was made</p>
+<p class=small>The count used the same 1,209 shelf files and alias lists as the P2-G3 count, with four changes. Indexes, contents pages and XML footnotes were masked. A mention counted only inside the work the tradition's shelf holds. Each mention was read in context by Sonnet checkers, in two passes, and aliases that only ever found other people were dropped. Opus reviewers then reopened every counted passage. Theodoret, Eunomius and Mar Aba I fell out at review: the first two because the traditions that named them began while they were alive, Mar Aba because his passages lay outside the shelved lines. No model was called outside this conversation. The scripts, both passes and both review rounds are in the audit folder <span class=num>Build/Ministry/Operations/Audits/2026-11-10_later-worlds-people/</span>.</p></section>
+</main>

@@ -1,0 +1,11 @@
+source_file: roehrich_mittheilungen-geschichte-evangelischen-kirche-des-elsasses-bd-3-deu_1855.txt
+assignments:
+- row_id: roehrich_mittheilungen-geschichte-evangelischen-kirche-des-elsasses-bd-3-deu_1855--t-w-rohrich-life-of-katharina-zell-with-extracts-from-her-writings-mittheilungen-3
+  work: 'T. W. Rohrich, Life of Katharina Zell, with extracts from her writings (Mittheilungen 3)'
+  author: roehrich
+  locus: 'about OCR lines 6166-7115; add 12 to OCR line numbers'
+  atlas_ids:
+  - lutheran-wittenberg-and-its-congregations
+  role: context
+  confidence: assigned
+  note: "A Life of 1855 that quotes her at length; the extracts are hers, the frame is not. No census entry is Strasbourg, so the work sits on the nearest entry."

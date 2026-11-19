@@ -17,9 +17,7 @@ confidence:
     receptive mode toward Egypt.
 sources:
 - source_id: gallic.source.cassian-institutes
-  locus: "Preface (npnf211 div iv.ii, file lines 16432-16436): Cassian's account of why Bishop
-    Castor asked him to write - a province with no monasteries, wanting Egypt's own institutions
-    established in it"
+  locus: "Preface (cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml, lines 16433-16435; div iv.ii): Cassian's account of why Bishop Castor asked him to write - a province with no monasteries, wanting Egypt's own institutions established in it"
   license: public-domain
 retrieval:
   tier: 2

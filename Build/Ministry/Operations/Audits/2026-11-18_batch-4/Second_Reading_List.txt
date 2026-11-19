@@ -1,0 +1,63 @@
+antony-the-great: 1 spans
+  READ BLIND For I had heard this of Antony. He had come in by chance during the Gospel reading, and was urged on by it. It was as though the words read were spoken to him. 'Go, sell all that you have, give to the poor, and you will have treasure in heaven. And come, follow me.' By such a divine word he was at once turned to you.
+benedict-of-nursia: 3 spans
+  READ BLIND For the holy man could in no way teach otherwise than he lived.
+  CARRIED    (same) So we must found a school for the Lord's service. In founding it, we hope to lay down nothing harsh and nothing heavy.
+  CARRIED    (same) Let him so temper everything that the strong have something to long for, and the weak do not run away.
+clement-of-alexandria: 6 spans
+  READ BLIND bare faith alone,
+  READ BLIND it was a guide to bring the Greek mind to Christ, as the Law brought the Hebrews.
+  READ BLIND whatever has been well said
+  CARRIED    (same) in my judgment the most learned of men,
+  READ BLIND Is learning missing from these books? Or are they not rather drawn from the very heart of philosophy?
+  CARRIED    (same) I tracked him down where he was hidden in Egypt, and I found rest.
+columba: 7 spans
+  CARRIED    (same) But whatever kind of man he was, this much about him we hold as certain. He left successors known for great self-control, for the love of God, and for life under a rule.
+  READ BLIND to make a pilgrimage for Christ
+  READ BLIND according to the example of their first teacher
+  CARRIED    (same) our most reverend Father Columba and his successors
+  READ BLIND their error
+  READ BLIND with all his household
+  CARRIED    (same) Here I must stop, at the bottom of this page. Let Baithene write what comes next.
+council-of-nicaea-325: 12 spans
+  CARRIED    (same) We are persecuted because we said, 'The Son has a beginning, but God has no beginning.'
+  CARRIED    (same) there was a time when he was not
+  READ BLIND a creature
+  CARRIED    (same) begotten, not made
+  CARRIED    (same) For I count civil strife in the church of God worse than any war or fierce battle.
+  CARRIED    (same) of one being
+  CARRIED    (same) from God
+  READ BLIND whispering ... and winking
+  READ BLIND in the sight of all
+  READ BLIND shall not be set aside
+  CARRIED    (same) pre-eminent
+  CARRIED    (same) the whole world groaned, and was astonished to find itself Arian.
+cyril-and-methodius: 7 spans
+  READ BLIND if they have letters for their language.
+  READ BLIND who can write words on water, and who wants to be called a heretic?
+  READ BLIND the first bishop of the Bulgarian tongue.
+  READ BLIND Does God's rain not fall on all alike?
+  READ BLIND Look, brother, we were partners plowing a single furrow. And I fall in the field, having finished my day.
+  READ BLIND Greek ... newly invented Slavic letters
+  READ BLIND For he who made the three chief languages, Hebrew, Greek and Latin, also himself created all the others, for his praise and glory.
+dhuoda: 3 spans
+  CARRIED    (same) I see many people in this world who rejoice in their children with them. But I, Dhuoda, see myself kept far away from you, my son William.
+  READ BLIND mind and body, as in a picture in a mirror.
+  READ BLIND but they will not teach on equal terms, with a heart burning in the breast, as I do, your mother.
+hild-of-whitby: 1 spans
+  CARRIED    (minor) Later we saw five bishops come from that same monastery. All of them were men of rare merit and holiness.
+macrina-the-younger: 1 spans
+  CARRIED    (same) You, Lord, ... have set us free from the fear of death.
+marcion-of-pontus: 6 spans
+  READ BLIND There is a certain Marcion, from Pontus. Even now he is still teaching the people he has won over. He teaches them to believe in some other god, greater than the Creator.
+  CARRIED    (same) Separating the law from the gospel is Marcion's own work, and his chief one,
+  READ BLIND the defenders of Judaism
+  READ BLIND in every race of people
+  CARRIED    (same) Do you know me?
+  CARRIED    (same) I do know you: the firstborn of Satan.
+martin-of-tours: 2 spans
+  CARRIED    (same) I am Christ's soldier. I am not allowed to fight.
+  CARRIED    (minor) It was a cruel wrong, never heard of before, for a judge of this world to try a case of the church.
+radegund: 2 spans
+  CARRIED    (same) Because I could not come in person, ... I bow down through this letter in my place, as if fallen at your feet.
+  CARRIED    (same) If you put off consecrating me, and fear a man more than God, then, shepherd, may the soul of your sheep be demanded from your hand.
