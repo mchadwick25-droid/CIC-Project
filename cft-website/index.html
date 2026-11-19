@@ -125250,7 +125250,7 @@ function seededWave(seed){return (y)=>{
 };}
 const laneWave={}; laneKeys.forEach(k=>{laneWave[k]=seededWave(k+1);});
 
-const MERGE_WINDOW=150, SPRING_LEAD=90, SPRING_RAMP=30;
+const MERGE_WINDOW=150, SPRING_LEAD=150, SPRING_RAMP=30;
 const branches=k=>laneParent[k]!=null;
 function mergeRaw(k,y){
   if(k===0)return 1;
@@ -126053,7 +126053,14 @@ function placeWhoMarks(){
       let best=mk(y);
       if(born&&!branches(k)){
         const firstY=Math.min(...laneMembers[k].filter(m=>m.start===laneGenesisYear[k]).map(m=>m._y));
-        best=mk(Math.max(top,laneGenesisY[k]-SPRING_LEAD+SPRING_RAMP,firstY-U*.6-hh));
+        const sr=stage.getBoundingClientRect();
+        const eraBoxes=[...gLabels.querySelectorAll('.era-label,.era-tag,.era-info')].map(e=>e.getBoundingClientRect()).filter(r=>r.width);
+        const onEraTitle=c=>{const b=c[2],x0=b.x0*scale+tx+sr.left,x1=b.x1*scale+tx+sr.left,y0=b.y0*scale+ty+sr.top,y1=b.y1*scale+ty+sr.top;
+          return eraBoxes.some(r=>r.left<x1&&r.right>x0&&r.top<y1&&r.bottom>y0);};
+        const low=firstY-U*.6-hh;
+        let yy=Math.max(top,laneGenesisY[k]-SPRING_LEAD+SPRING_RAMP,firstY-U*1.5-hh);
+        best=mk(yy);
+        while(onEraTitle(best)&&yy<low){yy=Math.min(low,yy+U*.25);best=mk(yy);}
       }
       else if(born){
         let found=null;
