@@ -133,6 +133,8 @@ Only Quotes 1–3 are quoted aloud, plus these short phrases: "a good man" (John
 - Not that Suetonius names Titus.
 - Not 'King Herod'. This is Herod the ruler of Galilee, not the king of the Nativity. Say 'the ruler Herod' (EH-ed 8889, "Antipas ... was Tetrarch").
 - Not 'James the apostle'. That is Jerome's word (JV 39724). Josephus has 'the brother of Jesus, who was called Christ'.
+- Not 'disputed still', 'still argued', 'to this day' or any present-tense word for the debate. No held source is later than 1899 (Mark, 2026-11-19: 'no claim of a current verdict'). Say 'disputed since the sixteenth century, an editor wrote in 1890'.
+- Not the doubting views alone. If the 1890 views are told, include that a few held it wholly genuine (EH-ed 9185–9187), or Whiston's defence (I8).
 
 **Leave out**
 

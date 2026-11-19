@@ -136,6 +136,7 @@ Only Quotes 1–3 are quoted aloud. "Death may die in you" (E10) may stand as a 
 - Not "Heracleon wrote the first commentary on John" as fact. If used, credit it ("historians count it the earliest") or leave it out (I1).
 - Not "the church's creed was written against him". The opponents set out the faith against his school; no held source says a creed was made to answer him.
 - Not "the vision of the child" told as an event. If told at all, in Hippolytus's voice: "Hippolytus says Valentinus claimed …" (E14).
+- Not "the only account of the school" or "known only through them". Say "known almost only through them" (I3).
 
 **Leave out**
 
