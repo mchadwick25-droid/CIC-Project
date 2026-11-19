@@ -82,3 +82,8 @@ None. No item gives a listener a different meaning, so no replacement is needed 
 
 ## Applied after comparison (coordinator, 2026-11-19)
 - B5-44: the unmarked cut in Tyndale's offer is now marked with an ellipsis in the brief, the card's `modern` and the key: "grants his people only the bare text of the Scripture … in the translation of anyone he pleases." The words used are unchanged, so the verdict (MINOR) stands.
+
+## Part 2 (coordinator, 2026-11-19)
+| id | piece | verdict | reason |
+|---|---|---|---|
+| B5-62 | nestorius | SAME | Socrates's "Theotocos" (npnf202 line 20705); the blind reader gives "Mother of God", literally "God-bearer"; ours is "Mother of God". The first list had merged this span with the story's other "Mother of God" entries. |

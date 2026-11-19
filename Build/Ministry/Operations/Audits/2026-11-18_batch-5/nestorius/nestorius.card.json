@@ -182,7 +182,8 @@
       "work": "Socrates, Church History VII.32, English translation (Nicene and Post-Nicene Fathers)",
       "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
       "lines": "20705",
-      "uncertain": "The translation keeps the Greek title, Theotocos; the brief renders it Mother of God."
+      "uncertain": "The translation keeps the Greek title, Theotocos; the brief renders it Mother of God.",
+      "secondReading": "same"
     },
     {
       "modern": "Mother of Christ",
