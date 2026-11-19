@@ -139,15 +139,14 @@
   },
   "briefReferences": [
     "Xi'an stele, tr. James Legge, with Legge's note: the stone of 781 names in Syriac the patriarch before Timothy, though he had died. Legge reads the gap as the news not yet reaching China. The editors of Bar Hebraeus give the same reading from Elias's date for that patriarch's death.",
-    "Mari ibn Sulayman, in Henricus Gismondi's Latin: Timothy's trick with sacks of stones shown to the electors as money, his consecration, and his answer to those who asked for the money. The same account has the metropolitans' opposition, Ephrem and thirteen bishops pronouncing him cursed, Timothy cutting them off, the killings and imprisonments among the Christians, and the metropolitan of Merv, whom Timothy deposed, accusing him before al-Mahdi without success.",
+    "Mari ibn Sulayman, in Henricus Gismondi's Latin: Timothy's trick with sacks of stones shown to the electors as money, his consecration, and his answer to those who asked for the money. The same account has the metropolitans' opposition, Ephrem and thirteen bishops pronouncing him cursed, Timothy cutting them off, the killings and imprisonments among the Christians.",
     "Mari ibn Sulayman: the five caliphs he lived under, al-Mahdi to al-Ma'mun; his death in the year al-Ma'mun entered Baghdad, in his ninety-fifth year; burial at the monastery of Kelilisho, which he had restored and made his home. Joseph Assemani, Bibliotheca Orientalis III.2: Timothy built that monastery at Baghdad and fixed his home there.",
     "Elias of Nisibis, Opus chronologicum, in Latin: enthroned Sunday 7 May 780 (Greek year 1091); died Friday 9 January 823 (Greek year 1134). J.-B. Chabot's note in the Synodicon Orientale gives the same death date and an age of 95.",
     "'Abdisho of Nisibis's list of Timothy's works, as Joseph Assemani prints it: a disputation with al-Mahdi. Amr ibn Matta, in Gismondi's Latin: the caliph al-Hadi summoned him on most days to put hard questions to him about religion.",
-    "Timothy's synod letter to Ephrem of Elam, Synodicon Orientale, Appendix IV, in J.-B. Chabot's French: the split of about two years, more or less, which he gives as the reason for the rules; the rule that no one may elect until the named chief bishops have come or sent consent; the rule against promising gifts; and why he had not visited, the rebuilding of destroyed churches and six audiences with the king. Chabot dates the synod to 790, on 'Abdisho's Arab year 174.",
+    "Timothy's synod letter to Ephrem of Elam, Synodicon Orientale, Appendix IV, in J.-B. Chabot's French: the split of about two years, more or less.",
     "Thomas of Marga, Book of Governors V, tr. E. A. Wallis Budge: Kardagh and Yahballaha, two brothers sent for from one monastery, anointed metropolitans of Gilan and Dailom; Yahballaha's request to make bishops; Timothy's answer, which Thomas says he read; the seven bishops they ordained. Budge and Assemani place Gilan and Dailom south of the Caspian Sea.",
     "Thomas of Marga: from the letters of Timothy he learned of David, metropolitan of Beth Sinaye, and Budge's note reads Beth Sinaye as China.",
-    "Bar Hebraeus, Ecclesiastical Chronicle, vol. 3, in the Latin of Abbeloos and Lamy: the report that the bishops of the Persians had refused the catholicos until Timothy won them over, the metropolitan he gave them, and his leave for that metropolitan to complete his own bishops' making, a custom that, Bar Hebraeus says, still held in his day. Alphonse Mingana, The Early Spread of Christianity in India: the Syriac names the province of Fars.",
-    "Alphonse Mingana, The Early Spread of Christianity in India: Timothy's letter to the monks of Mar Maron, from a manuscript of Mingana's own, naming the Indians, the Chinese, the Tibetans and the Turks among the lands of his see.",
+    "Alphonse Mingana, The Early Spread of Christianity in India: Timothy's letter to the monks of Mar Maron, from a manuscript of Mingana's own, naming the Chinese and the Turks among the lands of his see.",
     "World census, the Church of the East on the Silk Road: his tradition."
   ],
   "quotationOriginals": [
@@ -157,14 +156,6 @@
       "work": "Mari ibn Sulayman, Lives of the patriarchs, in Henricus Gismondi's Latin, De patriarchis Nestorianorum commentaria",
       "file": "cic/texts/mari-ibn-sulayman_de-patriarchis-nestorianorum-commentaria-pars-prior-ara-lat_gismondi1899.txt",
       "lines": "13084-13085",
-      "secondReading": "same"
-    },
-    {
-      "modern": "Almighty God allowed it, and the king, may God keep him alive, agreed that the churches be rebuilt. Even so, we had to go before him six times on this matter.",
-      "printed": "si le Dieu tout puissant a permis, et si le roi — que Dieu conserve sa vie! — a consenti à la reconstruction des églises, nous avons dû néanmoins aller six fois en sa présence pour cette affaire.",
-      "work": "Timothy I, letter to Ephrem of Elam, Synodicon Orientale, Appendix IV, in J.-B. Chabot's French",
-      "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
-      "lines": "40543-40546",
       "secondReading": "same"
     },
     {

@@ -139,14 +139,14 @@
   },
   "briefReferences": [
     "Bazaar of Heracleides, translator's preface (Driver and Hodgson 2264-2289; Nau 1451-1462): the book's name, the man of Damascus, the hated name, and the translator's account of why the writer took his name.",
-    "Socrates, Church History VII.29: sent for from Antioch, ordained 10 April 428; the first sermon, the emperor asked for the earth purged of heretics; the Arian chapel, set on fire by the Arians themselves. VII.31: he prevailed on the emperor to take away the Macedonians' churches.",
-    "Socrates VII.32: the priest Anastasius preaches against the title Theotokos, and Nestorius backs him and rejects it; Socrates's verdict that he did not deny the divinity of Christ, and the word scared as though it were some terrible phantom.",
-    "Bazaar of Heracleides (Driver and Hodgson 6915-6962): the two parties for Mother of God and Mother of man, and the title Mother of Christ offered to both.",
+    "Socrates, Church History VII.29: sent for from Antioch, ordained 10 April 428; the first sermon, the emperor asked for the earth purged of heretics. VII.31: he prevailed on the emperor to take away the Macedonians' churches.",
+    "Socrates VII.32: the title Theotokos, and Nestorius rejects it; Socrates's verdict that he did not deny the divinity of Christ, and the word scared as though it were some terrible phantom.",
+    "Bazaar of Heracleides (Driver and Hodgson 6915-6962): the title Mother of Christ offered.",
     "Loofs, Nestoriana (14309-14312): his Greek sermon, I separate the natures but I unite the worship, kept by those who wrote against him.",
-    "Socrates VII.34: the party of Cyril, as a council, finds his sermons blasphemous and deposes him.",
+    "Socrates VII.34: the party of Cyril, as a council, deposes him.",
     "Codex Theodosianus XVI.5.66 (88695-88735): the emperor's law that his books be sought out and burned, dated to Theodosius's fifteenth consulship, 435. The editors' chronology (Driver and Hodgson 264-281, 1370-1376): the edict of August 435, banishment in 436.",
     "Evagrius, Church History I.7: his letters to the governor of the Thebaid, the forced journey under soldiers, a mangled hand and side.",
-    "Bazaar of Heracleides, Bethune-Baker's dating as the editors give it (Driver and Hodgson 314-327): written in 451 or 452. Leo praised, yet said to have agreed to his condemnation unheard (20465-20475, 20689-20691). His name offered to the curse (20262-20266). The end of the book (20696-20703, 20731-20732): the desert, and the land of his exile as his mother who will guard his body.",
+    "Bazaar of Heracleides, Bethune-Baker's dating as the editors give it (Driver and Hodgson 314-327): written in 451 or 452. His name offered to the curse (20262-20266). The end of the book (20696-20703, 20731-20732): the desert, and the land of his exile as his mother who will guard his body.",
     "Driver and Hodgson 328-333, 358-380: the Syriac translation and its date.",
     "Badger, The Nestorians and their Rituals II: the ordination rite (16355-16361), Mar Nestorius the persecuted martyr; Abdisho's The Jewel, 1298 (18315-18318, 19147-19162), Nestorius followed them and not they him.",
     "World census, Church of the East under Persia: its tradition, and the name Nestorian fixed on it by its opponents."
@@ -183,14 +183,6 @@
       "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
       "lines": "20705",
       "uncertain": "The translation keeps the Greek title, Theotocos; the brief renders it Mother of God."
-    },
-    {
-      "modern": "Mother of man",
-      "printed": "Mother of man",
-      "work": "Nestorius, Bazaar of Heracleides, tr. Driver and Hodgson",
-      "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
-      "lines": "6937",
-      "secondReading": "same"
     },
     {
       "modern": "Mother of Christ",

@@ -110,17 +110,15 @@
   },
   "briefReferences": [
     "Synodicon orientale, ed. and tr. J.-B. Chabot, the compiler's note on Beth Lapat: the synod left out of the book of synods, held \"out of ill will and human passion\" by Barsauma's own later testimony; the compiler wrote about three centuries later.",
-    "Synodicon orientale, Appendix I, Barsauma's six letters: the first annuls the volume made at Beth Lapat, with its \"murmurs, blames, charges and testimonies\"; the third says \"Satan stirred up a quarrel\" between him and the catholicos Babowai.",
-    "Synodicon orientale, Barsauma's second letter: drought, raiding tribes, the Roman general brought to Nisibis to the Persian governor, the raid by horsemen and the Romans' anger.",
-    "Synodicon orientale, Barsauma's third letter: Nisibis \"tossed like a stormy sea\", the plea for a letter of excommunication, the order to strike the rebels \"like the doctor who amputates\" and to threaten to report them to the king. His fourth letter accepts the coming synod in advance.",
-    "Synodicon orientale, the synod of 486 under Acacius: the confession of Christ fully God and fully human, the order on the wandering men in black, and its rulings on clergy marriage. Chabot's note: Barsauma and the bishops of his province were not at the synod.",
-    "Synodicon orientale, the compiler's account of the reconciliation in 485, and the synod of 497, which annuls the excommunications of 491 and accepts Beth Lapat \"but only on this point\" while letting every cleric, from the head of the church down, marry one wife.",
+    "Synodicon orientale, Appendix I, Barsauma's six letters: the first annuls the volume made at Beth Lapat; the third says \"Satan stirred up a quarrel\" between him and the catholicos Babowai.",
+    "Synodicon orientale, Barsauma's second letter: drought, raiding tribes, the Roman general.",
+    "Synodicon orientale, Barsauma's third letter: the plea for a letter of excommunication, the order to strike the rebels \"like the doctor who amputates\" and to threaten to report them to the king. His fourth letter accepts the coming synod in advance.",
+    "Synodicon orientale, the synod of 486 under Acacius: the confession of Christ fully God and fully human, and its rulings on clergy marriage. Chabot's note: Barsauma and the bishops of his province were not at the synod.",
+    "Synodicon orientale, the compiler's account of the reconciliation in 485, and the synod of 497, which accepts Beth Lapat \"but only on this point\" while letting every cleric, from the head of the church down, marry one wife.",
     "Synodicon orientale, the synod of 605: the Beth Lapat assembly quoted on Theodore of Mopsuestia, called \"the divine assembly\", and the order that every teacher study Theodore's writings.",
     "Mari ibn Sulayman, On the patriarchs of the East, tr. Gismondi: Babowai's letter passed to the king and Barsauma's regret; his marriage to a nun at the king's order.",
-    "Bar Hebraeus, Ecclesiastical Chronicle III, tr. Abbeloos and Lamy: the woman kept in his cell and called his lawful wife, the word \"concubine\"; his speech to the king and the killing of thousands, as a hostile report.",
+    "Bar Hebraeus, Ecclesiastical Chronicle III, tr. Abbeloos and Lamy: the woman kept and called his lawful wife; his speech to the king and the killing of thousands, as a hostile report.",
     "Michael the Syrian, Chronicle II, tr. Chabot, copying the letter of Maruta of Tagrit, written from old men's memories a century and a half later: the marriage rule made so he would not be blamed for his woman; the same legend of the king's soldiers. Chabot's note on its weight.",
-    "Barhadbeshabba, Cause of the Foundation of the Schools, tr. Addai Scher: Barsauma asks Narsai to stay and found a school at Nisibis; the school counts both as founders.",
-    "Letter of Babken from Dvin, about 506, tr. Ter-Minassiantz: the Armenian bishops refuse the rules Acacius and Barsauma set up.",
     "World census, The Church of the East under Persia: its tradition, and the ruling of 424 that its catholicos answered to no bishop beyond the frontier."
   ],
   "quotationOriginals": [
@@ -138,31 +136,6 @@
       "work": "Synodicon orientale, Barsauma's third letter, tr. Chabot",
       "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
       "lines": "35397-35398",
-      "secondReading": "same"
-    },
-    {
-      "modern": "murmurs, blames, charges and testimonies,",
-      "printed": "des murmures, des blâmes, des chefs d'accusation et des témoignages",
-      "work": "Synodicon orientale, Barsauma's first letter, tr. Chabot",
-      "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
-      "lines": "35256-35257",
-      "secondReading": "minor"
-    },
-    {
-      "modern": "concubine,",
-      "printed": "mulieres concubinas habendi licentiam faciebant; imo ipse Barsumas hujusmodi apud se in cella mulierem servabat, quam sine pudore uxorem legitimam vocabat",
-      "work": "Bar Hebraeus, Ecclesiastical Chronicle III, tr. Abbeloos and Lamy",
-      "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt",
-      "lines": "3758-3762",
-      "uncertain": "Bar Hebraeus uses the word for the women he says bishops were allowed to keep, and says Barsauma kept such a woman (hujusmodi) in his cell and called her his lawful wife.",
-      "secondReading": "same"
-    },
-    {
-      "modern": "Now Nisibis is shaken, troubled and tossed like a stormy sea. If you, Father, do not quickly send a letter of excommunication to calm the city, I will not stay on as bishop of Nisibis. And Nisibis itself will not stay under the great empire of the Persians.",
-      "printed": "Maintenant, Nisibe est agitée, troublée et ballottée comme une mer tumultueuse, et si une lettre d'excommunication n'est pas envoyée promptement par Votre Paternité et ne pacifie pas la ville, Je ne resterai point dans l'épiscopat de Nisibe; Nisibe elle-même ne restera pas soumise au grand empire des Perses.",
-      "work": "Synodicon orientale, Barsauma's third letter, tr. Chabot",
-      "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
-      "lines": "35479-35483",
       "secondReading": "same"
     },
     {

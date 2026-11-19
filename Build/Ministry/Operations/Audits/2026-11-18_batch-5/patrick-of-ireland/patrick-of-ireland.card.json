@@ -112,13 +112,13 @@
   },
   "briefReferences": [
     "Confession 1, tr. Newport J. D. White: Patrick the sinner, the most unlearned and least of the faithful, held in contempt by very many. This is the opening of the brief.",
-    "Confession 1 and 2, and Letter 10: his father a member of the town council; captured at about sixteen with many thousands of others. Letter 2: soldiers who are by right his fellow-citizens in Roman Britain.",
+    "Confession 1 and 2, and Letter 10: captured at about sixteen. Letter 2: soldiers who are by right his fellow-citizens in Roman Britain.",
     "Confession 16 and 17: tending flocks, prayer up to a hundred times a day; a voice in his sleep, after six years, that his ship was ready.",
     "Confession 23: at home in Britain, the dream of a letter headed The Voice of the Irish, and the cry of the Irish to him as holy boy. White notes that adhuc may mean once more or hither.",
     "Confession 37 and 46: his senior churchmen, who judged him too unlearned, but did not say it out of malice.",
     "Confession 14, 38, 41, 42, 51, 52 and 55: baptism of many thousands; church ministers appointed everywhere; the children of Irish chiefs as monks and women vowed to God, some against their fathers' will; the slave women who suffer most; kings seizing him and binding him in irons until the fourteenth day; the expectation every day of death or slavery.",
     "Confession 26, 27 and 32: the charge his senior churchmen brought against him, a matter from his youth that he had told his dearest friend, who later shamed him in public. He never names it.",
-    "Letter 2, 3, 7 and 14: the soldiers of Coroticus, the new converts killed with the sword the day after baptism, in white, the oil fragrant on their foreheads; others sold; fellow-citizens of demons; no one to eat with them or take their gifts until they show sorrow and free the captives. Letter 10: born free, a town councilor's son, a slave in Christ to a foreign people.",
+    "Letter 2, 3, 7 and 14: the soldiers of Coroticus, the new converts killed with the sword the day after baptism, in white, the oil fragrant on their foreheads; others sold; fellow-citizens of demons; no one to eat with them or take their gifts until they show sorrow and free the captives.",
     "Confession 43, 59, 61 and 62: his wish to see Britain and his belief that he was bound to stay; his prayer to shed his blood with the strangers and captives; the Gospel the only reason for returning; signed in Ireland as Patrick the sinner, unlearned.",
     "White, Introduction: the Book of Armagh holds an imperfect copy of the Confession; Armagh and the church that claimed Patrick as founder.",
     "Prosper of Aquitaine, Chronicle: under 431, a bishop sent to the Irish who believe in Christ; he never names Patrick.",
@@ -149,18 +149,6 @@
       "originalLines": "669-670",
       "uncertain": "Latin puer is boy or youth (White: youth). Adhuc is once more or hither; White chooses once more and says it matters little.",
       "secondReading": "same"
-    },
-    {
-      "modern": "By birth I was a free man, and my father was a town councillor. I sold my noble rank for the good of others, and I am not ashamed or sorry. In short, I am a slave in Christ to a foreign people.",
-      "printed": "I was freeborn according to the flesh ; I am born of a father who was a decurion; but I sold my noble rank — I blush not to state it, nor am I sorry — for the profit of others; in short, I am a slave in Christ to a foreign nation",
-      "work": "Patrick, Letter 10, tr. Newport J. D. White",
-      "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt",
-      "lines": "2989-3011",
-      "original": "Ingenuus fui secundum carnem, decorione patre nascor: uendidi enim nobilitatem meam (non erubesco neque me penitet) pro utilitate aliorum: denique seruus sum in Christo [traditus] genti extere",
-      "originalFile": "cic/texts/stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt",
-      "originalLines": "7370-7375",
-      "uncertain": "Stokes inserts traditus, handed over, in brackets after in Christo; the rendering leaves it out as an editor's word.",
-      "secondReading": "minor"
     }
   ]
 }
