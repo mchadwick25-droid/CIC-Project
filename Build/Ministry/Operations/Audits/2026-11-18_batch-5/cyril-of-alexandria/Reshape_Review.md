@@ -73,3 +73,14 @@ Ruling 8 takes what the story needs rather than cutting to a ceiling. The overru
 ## 6. Score
 
 `python -m engine.m1.profile_readability Build/Ministry/Operations/Audits/2026-11-18_batch-5/cyril-of-alexandria/cyril-of-alexandria.brief.txt`: 549 words, grade 8.0 (names out 7.0), reading ease names out 76.8, 17.7 words a sentence, 0.7 joining words per 100, 10% short sentences, longest sentence 28 words. **Pass.**
+
+## Applied (fixer)
+
+All edits made to `cyril-of-alexandria.brief.txt`, word for word as the review gives them. The chronicle cut stands (no change).
+
+- B1: the monk and governor sentence and the "hailed him" sentence inserted between "letting a crowd plunder them." and "In 415" in the second Alexandria paragraph.
+- B2 (the review's second item, "two natures"): ", fully God and fully human" added to the Chalcedon sentence.
+- M1: "Cyril had explained it himself..." in the Chalcedon paragraph.
+- M2 (optional): "In Constantinople, Nestorius would not simply..." opening the Nestorius paragraph.
+
+Not applied as written: none. Scorer: 591 words, grade 8.1, pass.

@@ -113,3 +113,15 @@ Now 573 words by `wc` (566 by the scorer): about 3:50 at 150 a minute, against a
 ## 6. Scorer
 
 `python -m engine.m1.profile_readability Build/Ministry/Operations/Audits/2026-11-18_batch-5/william-tyndale/william-tyndale.brief.txt`: 566 words, grade 8.2 (names out 7.3), reading ease names out 76.6, 18.9 words a sentence, longest sentence 30 words: pass. The restorations are v2 sentences, which passed in v2.
+
+## Applied (fixer)
+
+All edits made to `william-tyndale.brief.txt`, word for word as the review gives them.
+
+- BLOCKING 1: the "Only this, he wrote..." paragraph replaced by the two paragraphs given (king's turn, Foxe named and glossed, 1530 books, the other book that angered the king, hypocrites). The betrayal sentence now reads "In 1535, as Foxe tells it, ..." and the earlier Foxe sentence is removed.
+- BLOCKING 2: "At Worms in 1526 he printed the Testament in thousands." ends the first of those paragraphs.
+- BLOCKING 3: "Foxe kept the readers' stories too, of people whipped, jailed and questioned for the book."
+- MINOR 1: "...he was condemned under the law of the emperor, whose officers ruled there. He was tied to a post and strangled..."
+- MINOR 2: "Tyndale would not come home on any promise. He asked only for the bare text..."
+
+Not applied as written: none. Scorer: 629 words, grade 8.1, pass.

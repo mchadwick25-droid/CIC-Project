@@ -98,3 +98,14 @@ It is told as one story and reads well aloud. Three joins jar a little.
 **Which holds attention better, heard once?** The shorter one. In v2 the middle stacks Rome, the two cities and Pelagius into one dense paragraph. The tightened version moves cleanly from one dispute to the next.
 
 **My recommendation:** the tightened version, with Luther's two v2 sentences put back (about 4:56). It keeps all your heart named and still moves faster than v2.
+
+## Applied (fixer)
+
+Mark ruled "Tightened, Luther back". All edits made to `augustine-of-hippo.brief.txt`, word for word as the review gives them.
+
+- BLOCKING (Luther): Calvin sentence in the last paragraph replaced with the Luther, On the Spirit and the Letter, Calvin and "Both stood against Rome." text.
+- MINOR 4a: "Back in Africa, he became bishop of Hippo. Early in those years, a bishop of Milan sent him questions..." in the paragraph on Paul's letter to the Romans.
+- MINOR 4b (first): "In the same years Pelagius, a monk at Rome, held..." opening the Pelagius paragraph.
+- MINOR 4b (second): "tells it from the winning side" in the Possidius sentence.
+
+Not applied as written: none. Scorer: 746 words, grade 7.2, pass.
