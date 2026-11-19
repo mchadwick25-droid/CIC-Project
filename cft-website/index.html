@@ -345,6 +345,7 @@ svg.strip-on #era-labels{display:none}
 #whoTray .tray-row:hover{background:var(--tyrian-wash)}
 #whoTray .nm{font-family:"Alegreya",serif;font-size:1.06rem;line-height:1.25}
 #whoTray .tray-row.on-map .nm{font-weight:700}
+#whoTray .nm .rv-done,.rv-done{color:var(--link-grow);font-family:"Alegreya Sans",sans-serif;font-weight:700}
 #whoTray .rl{grid-column:1;font-size:.92rem;line-height:1.3}
 #whoTray .dt{grid-column:1;font-size:.85rem;color:var(--ink-faded);line-height:1.3}
 #whoTray .mk{grid-row:1/span 3;grid-column:2;font:700 .75rem "Alegreya Sans",sans-serif;letter-spacing:.05em;color:var(--gold-leaf);white-space:nowrap}
@@ -124164,6 +124165,8 @@ function plainDates(s){
     .replace(/(\d)-(?=[a-z])/g,'$1 to ')
     .replace(/(\d(?:s|st|nd|rd|th)?)-(?=\d)/g,'$1–');
 }
+const REVIEW_MODE=new URLSearchParams(location.search).has('review');
+const reviewMark=e=>REVIEW_MODE&&e&&e.card&&e.card.briefReferences?' <span class="rv-done" title="Profile rewritten" aria-label="Profile rewritten">\u2713</span>':'';
 function personDates(P){return P.entry?plainDates(P.entry.dates):`active about ${personYear(P)}`;}
 function voiceLine(home,row){
   const line=(home.voices||[])[row.voice];
@@ -124615,7 +124618,7 @@ function trayRowHTML(a,withTrad){
   const onMap=whoPick.shown.includes(a), P=a.P;
   const sub=[personDates(P),withTrad&&!a.m.gap&&(a.m.shortName||a.m.name)].filter(Boolean).join(' · ');
   const role=P.entry&&P.entry.card&&P.entry.card.role;
-  return `<li><button type="button" class="tray-row${onMap?' on-map':''}" data-key="${esc(P.key)}"><span class="nm">${esc(P.entry?P.entry.name:P.name)}</span>${role?`<span class="rl">${esc(role)}</span>`:''}<span class="dt">${esc(sub)}</span>${onMap?'<span class="mk">On the map</span>':''}</button></li>`;
+  return `<li><button type="button" class="tray-row${onMap?' on-map':''}" data-key="${esc(P.key)}"><span class="nm">${esc(P.entry?P.entry.name:P.name)}${reviewMark(P.entry)}</span>${role?`<span class="rl">${esc(role)}</span>`:''}<span class="dt">${esc(sub)}</span>${onMap?'<span class="mk">On the map</span>':''}</button></li>`;
 }
 function renderTray(){
   document.body.classList.toggle('tray-open',!!whoScope);
@@ -124666,7 +124669,7 @@ function peopleHTML(m){
   const list=(peopleOf[m.id]||[]).length?scopePeople({type:'trad',m}).all.map(a=>a.P):[];
   if(!list.length)return !(m.people||[]).length&&m.peopleNote?`<h3 id="people-section">Who</h3><p class="people-note">${esc(m.peopleNote)}</p>`:'';
   return `<h3 id="people-section" tabindex="-1">Who</h3><ul class="people-list">${list.map(P=>
-    `<li><button type="button" class="panel-link" data-person="${esc(P.key)}">${esc(P.entry?P.entry.name:P.name)}</button> · ${P.entry&&P.entry.card&&P.entry.card.role?esc(P.entry.card.role)+' · ':''}${esc(personDates(P))}</li>`).join('')}</ul>`;
+    `<li><button type="button" class="panel-link" data-person="${esc(P.key)}">${esc(P.entry?P.entry.name:P.name)}</button>${reviewMark(P.entry)} · ${P.entry&&P.entry.card&&P.entry.card.role?esc(P.entry.card.role)+' · ':''}${esc(personDates(P))}</li>`).join('')}</ul>`;
 }
 function briefLength(seconds){
   if(seconds<90)return 'about a minute';
@@ -124700,7 +124703,7 @@ function openPersonCard(P){
   pinMovement(p?p.id:null);
   const home=p&&p.toldWithin?byId[p.toldWithin]:null;
   const fullName=p?p.name:P.name;
-  let h=`<h2 id="panelTitle">${esc(fullName)}</h2>`;
+  let h=`<h2 id="panelTitle">${esc(fullName)}${reviewMark(p)}</h2>`;
   h+=`<span class="statuspill kindpill">${p?'A person':'A named voice'}</span>`;
   if(card.label)h+=` <span class="statuspill kindpill">${esc(card.label)}</span>`;
   const forms=[...new Set([p&&p.informalName,p&&p.shortName,...(card.otherNames||[]),...P.rows.filter(r=>r.row.name).map(r=>r.row.name)].filter(n=>n&&normName(n)!==normName(fullName)))];
@@ -125621,7 +125624,7 @@ function openEraCard(i){
   if(councils.length)h+=`<h3>Major councils</h3><ul class="person-list">${councils.map(c=>`<li><button type="button" class="panel-link" data-id="${esc(c.id)}">${esc(c.shortName||c.name)}</button>${/\d{3}/.test(c.shortName||c.name)?'':` <span class="meta">${esc(plainDates(c.dates))}</span>`}</li>`).join('')}</ul>`;
   if(born.length)h+=`<h3>Rivers that begin here</h3><p>${born.map(esc).join(' · ')}</p>`;
   if(majors.length){
-    h+=`<h3>Major people</h3><ul class="person-list">${majors.slice(0,12).map(a=>`<li><button type="button" class="panel-link" data-person="${esc(a.P.key)}">${esc(a.P.entry.name)}</button>${a.m.gap?'':` <span class="meta">${esc(a.m.shortName||a.m.name)}</span>`}</li>`).join('')}</ul>`;
+    h+=`<h3>Major people</h3><ul class="person-list">${majors.slice(0,12).map(a=>`<li><button type="button" class="panel-link" data-person="${esc(a.P.key)}">${esc(a.P.entry.name)}</button>${reviewMark(a.P.entry)}${a.m.gap?'':` <span class="meta">${esc(a.m.shortName||a.m.name)}</span>`}</li>`).join('')}</ul>`;
     h+=`<p class="meta">The map has ${people.length} ${people.length===1?'person':'people'} from this era${majors.length<people.length?`, ${majors.length} of them major`:''}.${majors.length>12?' This list shows 12 of the major people.':''}</p>`;
   }
   if(mapStories.length||nTrad){

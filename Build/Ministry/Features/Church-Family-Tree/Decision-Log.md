@@ -4719,3 +4719,10 @@ Each keeps its approved essence. One independent check follows, then the census,
 **Why.** Mark asked what turning the Church Family Tree into an app would involve. Three routes were laid out: an installable web app (an app manifest, icons and offline use, on the same site and release process); the same site inside a store app (Apple and Google listings, store review on every release, a Mac to build the iPhone version, and the map's data moved out of the page so content can update without a store release); and a native rebuild (ruled out as rebuilding what already works).
 
 **Decided (Mark, 2026-11-19: "I think we stay web site for now and then look later at this").** No app work now. The question is tracked in Open-Gaps. When it is taken up again, the deciding question is what an app should do that the site does not: be found in the app stores, play briefs offline and with the screen locked, or sit on a home screen. Moving the map's data out of `index.html` into its own file is the first step any app route would need.
+
+## 2026-11-19 — Review checkmarks for rewritten Who profiles, seen only with a review link
+
+**Why.** Mark: "can we temperarily put a small green checkmark next to the updated who files so we can track what has been done and not on the live site".
+
+**Decided (Mark, 2026-11-19: "Live site, with a review link").** Opening the site with `?review` (for example `https://www.churchfamilytree.com/?review`) shows a small green check after the name of each person whose Who profile has been rewritten. It appears in the Who list, a tradition's Who list, the era card's major people and the person card's title. Visitors without the link see nothing. A rewritten profile is one whose card carries `briefReferences`, the field the batch kit adds; on 2026-11-19 that is 40 people, batches 1 to 5. The checks come out when the rewrite is done (Open-Gaps, "Review checkmarks for rewritten Who profiles: remove when the rewrite is done").
+

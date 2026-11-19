@@ -3932,3 +3932,7 @@ They are not rewritten now. Each is recorded, and a rewrite would mean recording
     - **Open.** Whether to offer the tree as an installable web app or a store app. The deciding question is what an app should do that the site does not. Owner: Mark, when he takes it up.
     - **First step for either route.** The map's data is built into `cft-website/index.html`. Moving it into its own file lets content update without re-releasing an app. Owner: a site build, only once an app route is chosen.
 
+334. **Review checkmarks for rewritten Who profiles: remove when the rewrite is done (2026-11-19).** Source: Decision-Log, "Review checkmarks for rewritten Who profiles, seen only with a review link" (2026-11-19).
+    - **Open.** The `?review` checkmarks in `cft-website/index.html` (`REVIEW_MODE`, `reviewMark` and the `.rv-done` style) are temporary. Remove them once every Who profile has been rewritten. Owner: the site thread, on Mark's word that the rewrite is done.
+    - **What it counts.** A person counts as rewritten when their card has `briefReferences`. A rewritten card without that field would show no check; if that happens, the rule needs another look. Owner: the batch threads, by noticing it in review.
+
