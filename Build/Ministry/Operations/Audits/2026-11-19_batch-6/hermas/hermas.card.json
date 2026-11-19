@@ -124,14 +124,16 @@
    "printed": "When you were rich, you were useless; but now you are useful and fit for life.",
    "work": "The Pastor of Hermas, Vision 3, chapter 6, tr. F. Crombie",
    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
-   "lines": "1298-1299"
+   "lines": "1298-1299",
+   "secondReading": "same"
   },
   {
    "modern": "Sir, I have heard some teachers say this. There is no other repentance than the one when we went down into the water, and our past sins were forgiven.",
    "printed": "I heard, sir, some teachers maintain that there is no other repentance than that which takes place, when we descended into the water and received remission of our former sins.",
    "work": "The Pastor of Hermas, Commandment 4, chapter 3, tr. F. Crombie",
    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
-   "lines": "1990-1994"
+   "lines": "1990-1994",
+   "secondReading": "same"
   },
   {
    "modern": "with difficulty will he live.",
@@ -139,14 +141,16 @@
    "work": "The Pastor of Hermas, Commandment 4, chapter 3, tr. F. Crombie",
    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
    "lines": "2022",
-   "uncertain": "Crombie notes that the Vatican and Palatine Latin read \"With difficulty will he live to God.\""
+   "uncertain": "Crombie notes that the Vatican and Palatine Latin read \"With difficulty will he live to God.\"",
+   "secondReading": "same"
   },
   {
    "modern": "the Scripture declared",
    "printed": "Truly, then, the Scripture declared, which says,",
    "work": "Irenaeus, Against Heresies 4.20.2, Ante-Nicene Fathers 1",
    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-   "lines": "46864"
+   "lines": "46864",
+   "secondReading": "same"
   },
   {
    "modern": "So it ought indeed to be read. But it cannot be read out to the people in church.",
@@ -157,7 +161,8 @@
    "englishPrinted": "And therefore it also ought to be read; but it cannot be made public in the Church to the people, nor placed among the prophets, as their number is complete, nor among the apostles to the end of time.",
    "englishFile": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
    "englishLines": "60180-60185",
-   "uncertain": "The manuscript reads \"se publicare\"; the rendering follows the editors' correction \"sed publicari\". The brief quotes the first part of the sentence; the rest says the book cannot be placed among the prophets or the apostles."
+   "uncertain": "The manuscript reads \"se publicare\"; the rendering follows the editors' correction \"sed publicari\". The brief quotes the first part of the sentence; the rest says the book cannot be placed among the prophets or the apostles.",
+   "secondReading": "same"
   },
   {
    "modern": "the Shepherd of adulterers",
@@ -167,7 +172,8 @@
    "lines": "9330-9331",
    "original": "illo apocrypho Pastore moechorum",
    "originalFile": "cic/texts/tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt",
-   "originalLines": "74596-74597"
+   "originalLines": "74596-74597",
+   "secondReading": "same"
   }
  ]
 }

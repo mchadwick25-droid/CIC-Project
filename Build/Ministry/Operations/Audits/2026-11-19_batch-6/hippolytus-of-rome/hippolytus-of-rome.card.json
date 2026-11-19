@@ -105,56 +105,64 @@
    "printed": "But also he affirmed that the ark of Noe was made for a symbol of the Church, in which were both dogs, and wolves, and ravens, and all things clean and unclean; and so he alleges that the case should stand in like manner with the Church.",
    "work": "Hippolytus, Refutation of All Heresies IX, ch. 7, tr. J. H. MacMahon (his report of Callistus)",
    "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
-   "lines": "13909-13912"
+   "lines": "13909-13912",
+   "secondReading": "same"
   },
   {
    "modern": "Christ did not say, 'I and the Father am one,' but 'are one.' The word 'are' is not said of one person. It speaks of two persons and one power.",
    "printed": "He did not say, “I and the Father am one, but are one.” For the word are is not said of one person, but it refers to two persons, and one power.",
    "work": "Hippolytus, Against Noetus 7, tr. S. D. F. Salmond",
    "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
-   "lines": "23442-23450"
+   "lines": "23442-23450",
+   "secondReading": "same"
   },
   {
    "modern": "worshippers of two gods.",
    "printed": "worshippers of two gods",
    "work": "Hippolytus, Refutation of All Heresies IX, ch. 6, tr. J. H. MacMahon",
    "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
-   "lines": "13640-13641"
+   "lines": "13640-13641",
+   "secondReading": "same"
   },
   {
    "modern": "high-priesthood.",
    "printed": "high-priesthood",
    "work": "Hippolytus, Refutation of All Heresies, preface, tr. J. H. MacMahon",
    "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
-   "lines": "1130"
+   "lines": "1130",
+   "secondReading": "same"
   },
   {
    "modern": "the elder Hippolytus,",
    "printed": "Yppolitus presbyter",
    "work": "The list of the bishops of Rome in the book of 354, Pontianus, as printed by Louis Duchesne in the Liber pontificalis",
    "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt",
-   "lines": "66807"
+   "lines": "66807",
+   "secondReading": "same"
   },
   {
    "modern": "the unhealthy island.",
    "printed": "in insula nociva",
    "work": "The list of the bishops of Rome in the book of 354, Pontianus, as printed by Louis Duchesne in the Liber pontificalis",
    "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt",
-   "lines": "66808"
+   "lines": "66808",
+   "secondReading": "same"
   },
   {
    "modern": "It is said that Hippolytus, an elder, while the tyrant's orders pressed hard, had stayed all along in the split of Novatus.",
    "printed": "Hippolytus fertur PREMERENT CuM IVSSA Tyranni presbyter in scisma SEMPER MANSISSE Novati.",
    "work": "Damasus, verse on the tomb of Hippolytus, lines 1 and 2, as restored by de Rossi and printed by Louis Duchesne in the Liber pontificalis",
    "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt",
-   "lines": "109159-109160"
+   "lines": "109159-109160",
+   "secondReading": "same"
   },
   {
    "modern": "Damasus tells what he has heard. Christ tests it all.",
    "printed": "Haec audita rEFERT DAMasus, probat omnia Christus.",
    "work": "Damasus, verse on the tomb of Hippolytus, last line, as printed by Louis Duchesne in the Liber pontificalis",
    "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt",
-   "lines": "109166"
+   "lines": "109166",
+   "secondReading": "same"
   }
  ]
 }

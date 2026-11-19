@@ -105,7 +105,8 @@
       "lines": "19471-19476",
       "original": "Confitentes iterum ac tertio interrogavi, supplicium minatus; perseverantes duci iussi. Neque enim dubitabam, qualecumque esset quod faterentur, pertinaciam certe et inflexibilem obstinationem debere puniri.",
       "originalFile": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
-      "originalLines": "2777-2779"
+      "originalLines": "2777-2779",
+      "secondReading": "minor"
     },
     {
       "modern": "They are not to be hunted out. If they are reported and proved guilty, they are to be punished.",
@@ -115,7 +116,8 @@
       "lines": "19526-19527",
       "original": "Conquirendi non sunt: si deferantur et arguantur, puniendi sunt",
       "originalFile": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
-      "originalLines": "2811-2816"
+      "originalLines": "2811-2816",
+      "secondReading": "same"
     },
     {
       "modern": "our age",
@@ -125,7 +127,8 @@
       "lines": "19533",
       "original": "nostri saeculi",
       "originalFile": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
-      "originalLines": "2819"
+      "originalLines": "2819",
+      "secondReading": "same"
     },
     {
       "modern": "What a ruling, confused by necessity!",
@@ -135,7 +138,8 @@
       "lines": "1583-1585",
       "original": "O sententiam necessitate confusam!",
       "originalFile": "cic/texts/tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt",
-      "originalLines": "11728"
+      "originalLines": "11728",
+      "secondReading": "same"
     },
     {
       "modern": "It forbids a search for them, as if they were innocent, and it orders them punished, as if they were guilty. It spares and it rages; it looks away and it punishes.",
@@ -145,21 +149,24 @@
       "lines": "1585-1587",
       "original": "Negat inquirendos ut innocentes, et mandat puniendos ut nocentes. Parcit et saevit, dissimulat et animadvertit.",
       "originalFile": "cic/texts/tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt",
-      "originalLines": "11728-11730"
+      "originalLines": "11728-11730",
+      "secondReading": "same"
     },
     {
       "modern": "disturbed by the great number of martyrs",
       "printed": "disturbed by the great number of martyrs",
       "work": "Eusebius, Church History 3.33, tr. Arthur McGiffert",
       "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
-      "lines": "19449"
+      "lines": "19449",
+      "secondReading": "same"
     },
     {
       "modern": "had killed very many Christians",
       "printed": "plurimos Christianorum interfecisset",
       "work": "Eusebius, Chronicle, in Jerome's Latin, ed. John Knight Fotheringham",
       "file": "cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt",
-      "lines": "42247-42248"
+      "lines": "42247-42248",
+      "secondReading": "same"
     }
   ]
 }

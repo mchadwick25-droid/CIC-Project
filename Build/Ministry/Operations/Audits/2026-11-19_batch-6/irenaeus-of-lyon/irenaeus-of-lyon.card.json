@@ -164,42 +164,48 @@
       "printed": "just as if one, when a beautiful image of a king has been constructed by some skilful artist out of precious jewels, should then take this likeness of the man all to pieces, should rearrange the gems, and so fit them together as to make them into the form of a dog or of a fox, and even that but poorly executed",
       "work": "Irenaeus, Against Heresies I.8.1, tr. Alexander Roberts and W. H. Rambaut; the modern English follows the Greek as Epiphanius copies it, Panarion 31, ed. Karl Holl",
       "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-      "lines": "30994-30998"
+      "lines": "30994-30998",
+      "secondReading": "minor"
     },
     {
       "modern": "The church has received this preaching and this faith, as I said. Though it is scattered through the whole world, it guards them with care, as if it lived in one house. It believes them alike, as if it had one soul and one heart. It preaches them, teaches them and hands them on in harmony, as if it had one mouth.",
       "printed": "As I have already observed, the Church, having received this preaching and this faith, although scattered throughout the whole world, yet, as if occupying but one house, carefully preserves it. She also believes these points [of doctrine] just as if she had but one soul, and one and the same heart, and she proclaims them, and teaches them, and hands them down, with perfect harmony, as if she possessed only one mouth.",
       "work": "Irenaeus, Against Heresies I.10.2, tr. Alexander Roberts and W. H. Rambaut; the modern English follows the Greek as Epiphanius copies it, Panarion 31, ed. Karl Holl",
       "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-      "lines": "31419-31425"
+      "lines": "31419-31425",
+      "secondReading": "same"
     },
     {
       "modern": "the twelfth place from the apostles",
       "printed": "Eleutherius does now, in the twelfth place from the apostles, hold the inheritance of the episcopate.",
       "work": "Irenaeus, Against Heresies III.3.3, tr. Alexander Roberts and W. H. Rambaut",
       "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-      "lines": "39849-39851"
+      "lines": "39849-39851",
+      "secondReading": "same"
     },
     {
       "modern": "I remember that time more clearly than recent years. For what boys learn grows with the mind and becomes one with it. So I can describe the very place where the blessed Polycarp sat as he taught. And I can tell how he spoke of his time with John and the others who had seen the Lord.",
       "printed": "I remember the events of that time more clearly than those of recent years. For what boys learn, growing with their mind, becomes joined with it; so that I am able to describe the very place in which the blessed Polycarp sat as he discoursed, and his goings out and his comings in, and the manner of his life, and his physical appearance, and his discourses to the people, and the accounts which he gave of his intercourse with John and with the others who had seen the Lord.",
       "work": "Irenaeus, letter to Florinus, in Eusebius, Church History V.20, tr. Arthur Cushman McGiffert",
       "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
-      "lines": "30807-30815"
+      "lines": "30807-30815",
+      "secondReading": "same"
     },
     {
       "modern": "the blessed elder",
       "printed": "the blessed presbyter Irenæus",
       "work": "Hippolytus, Refutation of All Heresies VI.37, in The Ante-Nicene Fathers, volume 5",
       "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
-      "lines": "10028"
+      "lines": "10028",
+      "secondReading": "same"
     },
     {
       "modern": "a very exact inquirer",
       "printed": "Irenæus, that very exact inquirer into all doctrines",
       "work": "Tertullian, Against the Valentinians 5, in The Ante-Nicene Fathers, volume 3",
       "file": "cic/texts/anf03_tertullian.xml",
-      "lines": "43167"
+      "lines": "43167",
+      "secondReading": "same"
     }
   ]
 }

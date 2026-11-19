@@ -113,35 +113,41 @@
    "printed": "From Syria even unto Rome I fight with beasts, both by land and sea, both by night and day,",
    "work": "Ignatius, Letter to the Romans 5, shorter form, Ante-Nicene Fathers vol. 1",
    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-   "lines": "7083-7086"
+   "lines": "7083-7086",
+   "secondReading": "same"
   },
   {
    "modern": "Some who are without God, that is, unbelievers, say that he only seemed to suffer. They themselves only seem to exist. But if they are right, why am I in chains? Why do I long to face the wild beasts? Do I die for nothing, then?",
    "printed": "But if, as some that are without God, that is, the unbelieving, say, that He only seemed to suffer (they themselves only seeming to exist), then why am I in bonds? Why do I long to be exposed to the wild beasts? Do I therefore die in vain?",
    "work": "Ignatius, Letter to the Trallians 10, shorter form, Ante-Nicene Fathers vol. 1",
    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-   "lines": "6671-6676"
+   "lines": "6671-6676",
+   "secondReading": "same"
   },
   {
-   "modern": "I am God's wheat, and I am ground by the teeth of wild beasts, so that I may be found the pure bread of Christ.",
+   "modern": "I am God's wheat, and let me be ground by the teeth of wild beasts, so that I may be found the pure bread of Christ.",
    "printed": "I am the wheat of God, and let me be ground by the teeth of the wild beasts, that I may be found the pure bread of Christ.",
    "work": "Ignatius, Letter to the Romans 4, shorter form, Ante-Nicene Fathers vol. 1",
    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-   "lines": "7040-7042"
+   "lines": "7040-7042",
+   "uncertain": "The modern English follows the Ante-Nicene English, \"let me be ground\", a plea. The Greek of the letter, as J. B. Lightfoot edits it, reads ἀλήθομαι, \"I am ground\", a statement. That Greek is not held in the Library, so the rendering keeps the English.",
+   "secondReading": "same"
   },
   {
    "modern": "the blessed Ignatius",
    "printed": "the blessed Ignatius",
    "work": "Polycarp of Smyrna, Epistle to the Philippians 9, Ante-Nicene Fathers vol. 1",
    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-   "lines": "3487"
+   "lines": "3487",
+   "secondReading": "same"
   },
   {
    "modern": "report says",
    "printed": "Report says",
    "work": "Eusebius of Caesarea, Church History 3.36, tr. Arthur McGiffert",
    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
-   "lines": "19935"
+   "lines": "19935",
+   "secondReading": "same"
   }
  ]
 }

@@ -120,42 +120,48 @@
    "printed": "And I protest openly, that I do not go over to the Romans as a deserter of the Jews, but as a minister from thee.",
    "work": "Josephus, Jewish War 3.8, tr. William Whiston",
    "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
-   "lines": "110853-110856"
+   "lines": "110853-110856",
+   "secondReading": "same"
   },
   {
    "modern": "treachery",
    "printed": "occasioned by my treachery",
    "work": "Josephus, Life, tr. William Whiston",
    "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
-   "lines": "5342"
+   "lines": "5342",
+   "secondReading": "same"
   },
   {
    "modern": "a good man",
    "printed": "for Herod slew him, who was a good man",
    "work": "Josephus, Antiquities of the Jews 18.5, tr. William Whiston",
    "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
-   "lines": "82091-82092"
+   "lines": "82091-82092",
+   "secondReading": "same"
   },
   {
    "modern": "About this time there lived Jesus, a wise man, if it is right to call him a man. For he did astonishing deeds, and taught people who gladly accept the truth.",
    "printed": "Now, there was about this time Jesus, a wise man, if it be lawful to call him a man, for he was a doer of wonderful works,—a teacher of such men as receive the truth with pleasure.",
    "work": "Josephus, Antiquities of the Jews 18.3, tr. William Whiston",
    "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
-   "lines": "81405-81409"
+   "lines": "81405-81409",
+   "secondReading": "same"
   },
   {
    "modern": "He was the Christ",
    "printed": "He was [the] Christ",
    "work": "Josephus, Antiquities of the Jews 18.3, tr. William Whiston",
    "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
-   "lines": "81411"
+   "lines": "81411",
+   "secondReading": "same"
   },
   {
    "modern": "the brother of Jesus, who was called Christ",
    "printed": "the brother of Jesus, who was called Christ",
    "work": "Josephus, Antiquities of the Jews 20.9, tr. William Whiston",
    "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
-   "lines": "91004-91008"
+   "lines": "91004-91008",
+   "secondReading": "same"
   },
   {
    "modern": "And this is the remarkable thing. He did not accept that our Jesus was the Christ. Yet he still bore witness that James was so upright.",
@@ -163,14 +169,16 @@
    "work": "Origen, Commentary on Matthew 10.17, tr. John Patrick, Ante-Nicene Fathers 9; the modern English follows Origen's Greek, ed. Lommatzsch",
    "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
    "lines": "30627-30629",
-   "uncertain": "The modern English follows Origen's Greek, which reads \"our Jesus\". The Ante-Nicene English has no \"our\": \"though he did not accept Jesus as Christ\"."
+   "uncertain": "The modern English follows Origen's Greek, which reads \"our Jesus\". The Ante-Nicene English has no \"our\": \"though he did not accept Jesus as Christ\".",
+   "secondReading": "same"
   },
   {
    "modern": "let others judge of my character.",
    "printed": "and let others judge of my character by them as they please",
    "work": "Josephus, Life, tr. William Whiston",
    "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
-   "lines": "5485-5487"
+   "lines": "5485-5487",
+   "secondReading": "same"
   }
  ]
 }

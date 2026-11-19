@@ -92,7 +92,8 @@
    "work": "Valentinus, a letter, in Clement of Alexandria, Stromata II.20, ANF English",
    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
    "lines": "34300-34302",
-   "uncertain": "Clement's Greek is not held, so the modern English is rendered from the ANF English."
+   "uncertain": "Clement's Greek is not held, so the modern English is rendered from the ANF English.",
+   "secondReading": "same"
   },
   {
    "modern": "Valentinus had hoped to become a bishop, for he was able in mind and in speech. But another man won the place, by the claim his suffering for the faith had given him. Angry at this, Valentinus broke away from the church of the true rule.",
@@ -103,7 +104,8 @@
    "uncertain": "The modern English is rendered from Kroymann's Latin. \"Suffering for the faith\" renders martyrii, where the ANF has \"confessorship\"; \"the true rule\" renders authenticae regulae, where the ANF has \"the true faith\".",
    "original": "sperauerat episcopatum Valentinus, quia et ingenio poterat et eloquio, sed alium ex martyrii praerogatiua loci potitum indignatus de ecclesia authenticae regulae abrupit",
    "originalFile": "cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt",
-   "originalLines": "9633-9653"
+   "originalLines": "9633-9653",
+   "secondReading": "same"
   },
   {
    "modern": "love is not love unless there is something to love.",
@@ -111,7 +113,8 @@
    "work": "Hippolytus of Rome, Refutation of All Heresies VI.29, ANF English",
    "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
    "lines": "9171-9172",
-   "uncertain": "Hippolytus gives this as the teaching of the school, and the \"he\" who says it is not named. The Greek is not held, so the modern English is rendered from the ANF English."
+   "uncertain": "Hippolytus gives this as the teaching of the school, and the \"he\" who says it is not named. The Greek is not held, so the modern English is rendered from the ANF English.",
+   "secondReading": "minor"
   },
   {
    "modern": "death may die in you",
@@ -119,7 +122,8 @@
    "work": "Valentinus, a sermon, in Clement of Alexandria, Stromata IV.13, ANF English",
    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
    "lines": "39093",
-   "uncertain": "The ANF prints \"Valentinian\"; its index files the passage under Valentinus, and Clement goes on to answer his teaching. The modern words leave out \"and by you\"."
+   "uncertain": "The ANF prints \"Valentinian\"; its index files the passage under Valentinus, and Clement goes on to answer his teaching. The modern words leave out \"and by you\".",
+   "secondReading": "same"
   }
  ]
 }

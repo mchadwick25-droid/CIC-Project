@@ -113,14 +113,16 @@
       "printed": "Eighty and six years have I served Him, and He never did me any injury: how then can I blaspheme my King and my Saviour?",
       "work": "Church of Smyrna, The Martyrdom of Polycarp 9, Ante-Nicene Fathers vol. 1; Greek ed. Oscar von Gebhardt",
       "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-      "lines": "3990-3992"
+      "lines": "3990-3992",
+      "secondReading": "same"
     },
     {
       "modern": "Away with the atheists!",
       "printed": "Away with the Atheists;",
       "work": "Church of Smyrna, The Martyrdom of Polycarp 3, Ante-Nicene Fathers vol. 1; Greek ed. Oscar von Gebhardt",
       "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-      "lines": "3834"
+      "lines": "3834",
+      "secondReading": "same"
     },
     {
       "modern": "Let the will of God be done.",
@@ -130,28 +132,32 @@
       "lines": "3908-3910",
       "original": "Τὸ ϑέλημα τοῦ ϑεοῦ γενέσθω.",
       "originalFile": "cic/texts/acta-martyrum-selecta_gebhardt1902.txt",
-      "originalLines": "680"
+      "originalLines": "680",
+      "secondReading": "same"
     },
     {
       "modern": "You threaten fire that burns for an hour and soon goes out.",
       "printed": "Thou threatenest me with fire which burneth for an hour, and after a little is extinguished,",
       "work": "Church of Smyrna, The Martyrdom of Polycarp 11, Ante-Nicene Fathers vol. 1; Greek ed. Oscar von Gebhardt",
       "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-      "lines": "4035-4036"
+      "lines": "4035-4036",
+      "secondReading": "same"
     },
     {
       "modern": "keep the birthday of his martyrdom,",
       "printed": "celebrate the anniversary of his martyrdom,",
       "work": "Church of Smyrna, The Martyrdom of Polycarp 18, Ante-Nicene Fathers vol. 1; Greek ed. Oscar von Gebhardt",
       "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-      "lines": "4224-4226"
+      "lines": "4224-4226",
+      "secondReading": "minor"
     },
     {
       "modern": "to remember those who have already competed,",
       "printed": "both in memory of those who have already finished their course,",
       "work": "Church of Smyrna, The Martyrdom of Polycarp 18, Ante-Nicene Fathers vol. 1; Greek ed. Oscar von Gebhardt",
       "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-      "lines": "4226-4227"
+      "lines": "4226-4227",
+      "secondReading": "same"
     },
     {
       "modern": "and to train and prepare those still to come.",
@@ -161,21 +167,24 @@
       "lines": "4228-4229",
       "original": "καὶ τῶν μελλόντων ἄσκησίν τε καὶ ἑτοιμασίαν.",
       "originalFile": "cic/texts/acta-martyrum-selecta_gebhardt1902.txt",
-      "originalLines": "952-953"
+      "originalLines": "952-953",
+      "secondReading": "same"
     },
     {
       "modern": "Even so, they shared communion,",
       "printed": "But though matters were in this shape, they communed together,",
       "work": "Irenaeus, letter to Victor, in Eusebius, Church History V.24.17, tr. Arthur Cushman McGiffert",
       "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
-      "lines": "31609-31610"
+      "lines": "31609-31610",
+      "secondReading": "same"
     },
     {
       "modern": "the word handed down to us from the beginning.",
       "printed": "the word which has been handed down to us from the beginning;",
       "work": "Polycarp, Epistle to the Philippians 7, Ante-Nicene Fathers vol. 1",
       "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-      "lines": "3442-3444"
+      "lines": "3442-3444",
+      "secondReading": "same"
     }
   ]
 }

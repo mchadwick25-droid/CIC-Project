@@ -90,14 +90,16 @@
    "englishPrinted": "Since the Jews constantly made disturbances at the instigation of Chrestus, he expelled them from Rome.",
    "englishFile": "cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt",
    "englishLines": "25907-25909",
-   "uncertain": "The Latin has no word for \"since\", \"all\" or \"one\". Rolfe adds \"since\"; the Thomson and Forester English adds \"all\" and \"one\"."
+   "uncertain": "The Latin has no word for \"since\", \"all\" or \"one\". Rolfe adds \"since\"; the Thomson and Forester English adds \"all\" and \"one\".",
+   "secondReading": "same"
   },
   {
    "modern": "because Claudius had commanded all the Jews to depart from Rome,",
    "printed": "because Claudius had commanded all the Jews to depart from Rome.",
    "work": "Acts 18:2, World English Bible (British Edition)",
    "file": "cic/texts/webbe_world-english-bible-british-edition.xml",
-   "lines": "88523-88524"
+   "lines": "88523-88524",
+   "secondReading": "same"
   },
   {
    "modern": "Punishments were inflicted on the Christians, a kind of people given to a new and harmful superstition.",
@@ -108,7 +110,8 @@
    "englishPrinted": "Punishment was inflicted on the Christians, a class of men given to a new and mischievous superstition.",
    "englishFile": "cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt",
    "englishLines": "28523-28525",
-   "uncertain": "For maleficae Rolfe has \"mischievous\" and the Thomson and Forester English \"impious\"; their note takes the word to suggest witchcraft. The modern English says \"harmful\"."
+   "uncertain": "For maleficae Rolfe has \"mischievous\" and the Thomson and Forester English \"impious\"; their note takes the word to suggest witchcraft. The modern English says \"harmful\".",
+   "secondReading": "same"
   },
   {
    "modern": "beyond criticism.",
@@ -118,14 +121,16 @@
    "lines": "28700-28701",
    "original": "Haec partim nulla reprehensione, partim etiam non mediocri laude digna in unum contuli",
    "originalFile": "cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt",
-   "originalLines": "28653-28654"
+   "originalLines": "28653-28654",
+   "secondReading": "same"
   },
   {
    "modern": "how little",
    "printed": "How little even the well-informed Suetonius knew of the real facts",
    "work": "Lives of the Twelve Caesars, tr. Alexander Thomson, revised by T. Forester (1909), note 335",
    "file": "cic/texts/suetonius_lives-of-the-twelve-caesars_thomson-forester1909.txt",
-   "lines": "19535-19536"
+   "lines": "19535-19536",
+   "secondReading": "same"
   },
   {
    "modern": "And even when you wrongly say 'Chrestianus', since you do not even know the name for certain, it is formed from sweetness or kindness.",
@@ -133,7 +138,8 @@
    "work": "Tertullian, Apology 3, in the Ante-Nicene Fathers, vol. 3",
    "file": "cic/texts/anf03_tertullian.xml",
    "lines": "1713-1716",
-   "uncertain": "The modern English is made from Tertullian's Latin in Franz Oehler's edition (1853). The Ante-Nicene English has \"the name you hate\" where the Latin says only \"the name\"."
+   "uncertain": "The modern English is made from Tertullian's Latin in Franz Oehler's edition (1853). The Ante-Nicene English has \"the name you hate\" where the Latin says only \"the name\".",
+   "secondReading": "minor"
   }
  ]
 }

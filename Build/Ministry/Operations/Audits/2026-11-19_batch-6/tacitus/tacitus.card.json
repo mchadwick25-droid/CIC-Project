@@ -118,7 +118,8 @@
    "printed": "Christus, from whom the name had its origin, suffered the extreme penalty during the reign of Tiberius at the hands of one of our procurators, Pontius Pilatus",
    "work": "Tacitus, Annals 15.44, in the translation standardly identified as Church and Brodribb",
    "file": "cic/texts/tacitus_annals-15-44_church-brodribb1876.txt",
-   "lines": "68"
+   "lines": "68",
+   "secondReading": "same"
   },
   {
    "modern": "that same Cornelius Tacitus, who truly talks more lies than anyone,",
@@ -128,14 +129,16 @@
    "lines": "17915-17916",
    "englishPrinted": "the said Cornelius Tacitus (the very opposite of tacit in telling lies)",
    "englishFile": "cic/texts/anf03_tertullian.xml",
-   "englishLines": "2583-2584"
+   "englishLines": "2583-2584",
+   "secondReading": "minor"
   },
   {
    "modern": "So even for criminals who deserved to be punished harshly, as an example to all, a feeling of pity arose. For it seemed they were being destroyed not for the public good, but to feed one man's cruelty.",
    "printed": "Hence, even for criminals who deserved extreme and exemplary punishment, there arose a feeling of compassion; for it was not, as it seemed, for the public good, but to glut one man's cruelty, that they were being destroyed.",
    "work": "Tacitus, Annals 15.44, in the translation standardly identified as Church and Brodribb",
    "file": "cic/texts/tacitus_annals-15-44_church-brodribb1876.txt",
-   "lines": "68"
+   "lines": "68",
+   "secondReading": "same"
   }
  ]
 }

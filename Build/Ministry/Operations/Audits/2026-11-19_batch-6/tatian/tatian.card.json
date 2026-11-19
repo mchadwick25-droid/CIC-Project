@@ -120,14 +120,16 @@
    "lines": "7258-7260",
    "original": "χαίρειν εἰπὼν καὶ τῇ Ῥωμαίων μεγαλαυχίᾳ καὶ τῇ Ἀθηναίων ψυχρολογίᾳ, δόγμασιν ἀσυναρτήτοις, τῆς καϑ᾽ ἡμᾶς βαρβάρου φιλοσοφίας ἀντεποιησάμην",
    "originalFile": "cic/texts/tatian_oratio-ad-graecos-grc-lat_otto1851.txt",
-   "originalLines": "12199-12201"
+   "originalLines": "12199-12201",
+   "secondReading": "minor"
   },
   {
    "modern": "the self-controlled",
    "printed": "Encratites (self-controlled)",
    "work": "Irenaeus, Against Heresies I.28.1, ANF 1",
    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-   "lines": "33656-33657"
+   "lines": "33656-33657",
+   "secondReading": "same"
   },
   {
    "modern": "I myself found more than two hundred such books, held in honor in our churches. I gathered them all and put them away. In their place I brought in the Gospels of the four evangelists.",
@@ -135,7 +137,8 @@
    "work": "Theodoret of Cyrrhus, Compendium of Heretical Fables I.20, in Prudentius Maran's Latin translation of Theodoret's Greek, ed. J. C. T. Otto (1872)",
    "file": "cic/texts/apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872.txt",
    "lines": "14994-14997",
-   "uncertain": "The modern English follows Theodoret's Greek, which Maran prints on the same page. That Greek is held only in a damaged scan, so Maran's Latin is given as the printed wording."
+   "uncertain": "The modern English follows Theodoret's Greek, which Maran prints on the same page. That Greek is held only in a damaged scan, so Maran's Latin is given as the printed wording.",
+   "secondReading": "same"
   },
   {
    "modern": "Now that I know who God is, and what he has made, I stand before you, ready to be questioned on what I teach. I hold to the way of life that follows God, and I will not deny it.",
@@ -145,7 +148,8 @@
    "lines": "7464-7471",
    "original": "Γινώσκων δὲ λοιπὸν τίς ὁ ϑεὸς καὶ τίς ἡ κατ᾽ αὐτὸν ποίησις, ἕτοιμον ἐμαυτὸν ὑμῖν πρὸς τὴν ἀνάκρισιν τῶν δογμάτων παρίστημι, μενούσης μοι τῆς κατὰ ϑεὸν πολιτείας ἀνεξαρνήτου.",
    "originalFile": "cic/texts/tatian_oratio-ad-graecos-grc-lat_otto1851.txt",
-   "originalLines": "14236-14241"
+   "originalLines": "14236-14241",
+   "secondReading": "same"
   }
  ]
 }
