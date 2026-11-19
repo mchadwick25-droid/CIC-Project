@@ -2829,23 +2829,22 @@
  },
  "athanasius-of-alexandria": {
   "file": "athanasius-of-alexandria.mp3",
-  "bytes": 2147517,
-  "chars": 2031,
-  "text_sha256": "c19e65236112ac66a7dd6ad76b417b875059614ee79ab3547f15e6d4c2b317bc",
-  "voiceId": "MFZUKuGQUsGJPQjTS4wC",
+  "bytes": 1960898,
+  "chars": 3366,
+  "text_sha256": "5c2692f12bfc3e69d3ae134b86542ace92d4af5caa6b687498ac433bfa737785",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
-  "outputFormat": "mp3_44100_128",
+  "outputFormat": "mp3_44100_64",
   "voiceSettings": {
-   "stability": 0.85,
-   "similarity_boost": 0.88,
-   "style": 0.05,
-   "use_speaker_boost": true,
-   "speed": 0.95
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
   },
-  "charsSent": 2089,
-  "openTag": "[calmly]",
-  "closingTag": "[warmly]",
-  "requestId": "W4CHGjvcv06QwRijAXeK"
+  "charsSent": 3433,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "g3GsbbkUkECJEVrXiPWR"
  },
  "gregory-of-nyssa": {
   "file": "gregory-of-nyssa.mp3",
@@ -3411,5 +3410,195 @@
   "openTag": null,
   "closingTag": null,
   "requestId": "twPuqFj0DZfoEO4RZO5s"
+ },
+ "nestorius": {
+  "file": "nestorius.mp3",
+  "bytes": 1748993,
+  "chars": 3065,
+  "text_sha256": "201924b3efc0151bf71dc95d0ff4cdd9b662924f4db3dc46803377c9a01ecde6",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3137,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "3Q6J5JlxLDP2sdaAbCDz"
+ },
+ "augustine-of-hippo": {
+  "file": "augustine-of-hippo.mp3",
+  "bytes": 2318044,
+  "chars": 4104,
+  "text_sha256": "8634e6fd713c0490179c0aa20267460295523b40daccf17506e4f1947c76c839",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 4176,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "bQOr2M3xAXhv7vE3DA7X"
+ },
+ "william-tyndale": {
+  "file": "william-tyndale.mp3",
+  "bytes": 1923073,
+  "chars": 3529,
+  "text_sha256": "126cf45e62164506ca80c913c96ca624ac04a07ac30e1c144377a6d1505f88da",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3601,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "Vbr1rIx5wru1jX3Q10Q9"
+ },
+ "martin-luther": {
+  "file": "martin-luther.mp3",
+  "bytes": 2106766,
+  "chars": 3730,
+  "text_sha256": "5fbb028131446c7afefde6e47266abe75134891791191c3a9f1952fd5042632a",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3811,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "DGk8L2VlokBYD0a4yOKn"
+ },
+ "john-calvin": {
+  "file": "john-calvin.mp3",
+  "bytes": 2053685,
+  "chars": 3617,
+  "text_sha256": "fdd4d36c6d18bffc5d079466f70b2286a4e08024bc355fd42a05da21d4368e7c",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3689,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "n0sMUgQZfvGQoZddEg7p"
+ },
+ "john-wesley": {
+  "file": "john-wesley.mp3",
+  "bytes": 1989110,
+  "chars": 3445,
+  "text_sha256": "5db103cbea2485cc371ba8c2f76b5703e8c6f9705750620eb203d65661583e51",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3544,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "yasFyUhhNxHWwNJ9RNQr"
+ },
+ "patrick-of-ireland": {
+  "file": "patrick-of-ireland.mp3",
+  "bytes": 1591004,
+  "chars": 2873,
+  "text_sha256": "7fa988c2e7732aee54cf2d01bbbe2d8b3098cdd11693c6ff1c5138bfb0dd87f3",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 2936,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "7veohzX8kdIJPIiVcRQr"
+ },
+ "cyril-of-alexandria": {
+  "file": "cyril-of-alexandria.mp3",
+  "bytes": 1891726,
+  "chars": 3301,
+  "text_sha256": "6e05b12cf638cc6382cf18226184944c7e8d162643db49c37febc1f72a4d71d2",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3364,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "tDoMW6KVt9GpWtPMeanZ"
+ },
+ "babai-the-great": {
+  "file": "babai-the-great.mp3",
+  "bytes": 1453287,
+  "chars": 2635,
+  "text_sha256": "f46ddfdd47c03d3c8e86b6c10aca7978e712ad2633e40442d8a468782e945b51",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 2671,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "StTBheKCr7dmqCIkHjmB"
+ },
+ "timothy-i-of-baghdad": {
+  "file": "timothy-i-of-baghdad.mp3",
+  "bytes": 1654325,
+  "chars": 3020,
+  "text_sha256": "5251c9405f69b79e6c2b010429830efbbcc95b71562fe9bafb8034c9d59cfdef",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3083,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "xH4d7co40CIdmbU9RupG"
  }
 }
