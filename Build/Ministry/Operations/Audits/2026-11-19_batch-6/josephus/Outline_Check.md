@@ -53,7 +53,7 @@ The outline's heart matches mine, Mark's approved heart (`Hearts.md`, about 3:30
 15. **Do not say: two easy errors.**
     - Add: "Not 'King Herod'. This is Herod the ruler of Galilee, not the king of the Nativity. Say 'the ruler Herod' (EH-ed 8889, "Antipas ... was Tetrarch")."
     - Add: "Not 'James the apostle'. That is Jerome's word (JV 39724). Josephus has 'the brother of Jesus, who was called Christ'."
-16. **Ending citation.** "this is the account of the actions of my whole life; and let others judge of my character by them as they please" is at JW 5483–5486, not 5484–5487. "let others judge of my character" starts at 5484. **Correction:** fix both line references.
+16. **Ending citation.** "this is the account of the actions of my whole life; and let others judge of my character by them as they please" is at JW 5483–5486, not 5484–5487. "let others judge of my character" starts at 5484. Likewise "He was [the] Christ" is at JW 81411, not 81410 (Quotes 2, Quotes preamble, sheet D2). **Correction:** fix these line references.
 
 ## Other checks
 
