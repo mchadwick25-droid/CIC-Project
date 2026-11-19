@@ -24,7 +24,7 @@ All other sentences are kept word for word. The review listed no cuts, and no fi
 
 ## New sentences
 
-None. Every changed sentence uses the review's exact wording; no sentence is neither the outline's nor the old brief's or review's wording.
+None. Every changed sentence uses the review's exact wording.
 
 ## Checks
 
