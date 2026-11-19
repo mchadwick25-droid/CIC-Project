@@ -130,7 +130,7 @@
    "work": "Ignatius, Letter to the Romans 4, shorter form, Ante-Nicene Fathers vol. 1",
    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
    "lines": "7040-7042",
-   "uncertain": "The modern English follows the Ante-Nicene English, \"let me be ground\", a plea. The Greek of the letter, as J. B. Lightfoot edits it, reads ἀλήθομαι, \"I am ground\", a statement. That Greek is not held in the Library, so the rendering keeps the English.",
+   "uncertain": "The modern English follows the Ante-Nicene English, \"let me be ground\", a plea. The Greek, as the Great Horologion of 1851 prints it from Eusebius, reads ἀλήθομαι, \"I am ground\", a statement (horologion-to-mega_venice-edition-grc_koutloumousianos1851.txt, lines 15547-15552). That copy is held only in a damaged scan, so the rendering keeps the English.",
    "secondReading": "same"
   },
   {
