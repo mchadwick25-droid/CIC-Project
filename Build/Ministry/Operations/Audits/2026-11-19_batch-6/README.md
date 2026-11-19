@@ -50,3 +50,6 @@ Each folder holds `Source_Sheet.md` and `Outline.md` from the researcher, and `C
 - One Open-Gaps entry for the batch, and one that updates "The stories approved before the kit: a consistency check when eras 1 and 2 are finished" (2026-11-19) with the change order of the same day.
 - Once Polycarp's reviewed text is in the census, his entry leaves `Build/Ministry/Features/Church-Family-Tree/Earlier-Approved.yaml`; then `python tools/list_story_status.py --write`.
 - The batch 7 launch prompt in `Build/Ministry/Features/Church-Family-Tree/Launch-Prompts/`, carrying the ledger step and Origen and Methodius under review.
+
+## Status (2026-11-19)
+Steps 0 to 8 are done. The twelve and Polycarp are authored, reviewed, carded, read blind (`Second_Readings.md`), in the census and the tree pages (`Release.md`), and recorded (`recording/`, 20,824 credits). Open points: Open-Gaps 333 and 334.

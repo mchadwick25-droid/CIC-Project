@@ -3638,5 +3638,233 @@
   "openTag": null,
   "closingTag": null,
   "requestId": "yrw9wWWMAKY2bAAHb1KM"
+ },
+ "irenaeus-of-lyon": {
+  "file": "irenaeus-of-lyon.mp3",
+  "bytes": 2419817,
+  "chars": 4450,
+  "text_sha256": "432423757e0fb52d0b18ee2ce2af57a690c3801b21f643d742a866a32f64d1e3",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 4552,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "odarsLnGk2ByJViukxhP"
+ },
+ "polycarp-of-smyrna": {
+  "file": "polycarp-of-smyrna.mp3",
+  "bytes": 1448271,
+  "chars": 2618,
+  "text_sha256": "b3e59eace2d2e1e080868e6d8d2db47e0bdf81f7a1e6bfa683331f5d91bbd861",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 2690,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "gMnzrIpaP8hE6dneiVUv"
+ },
+ "josephus": {
+  "file": "josephus.mp3",
+  "bytes": 1825270,
+  "chars": 3290,
+  "text_sha256": "0e09bfa70617a0d8abf939e989efe43dd56cfacdee2d28c8fed89a1d06fc0dd4",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3392,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "QI0vzHZmuoGZBaMIlm6n"
+ },
+ "suetonius": {
+  "file": "suetonius.mp3",
+  "bytes": 1375964,
+  "chars": 2531,
+  "text_sha256": "b03d25d1b436a55e8583948a8dff21786b28bd2d88522916f275f9345de99304",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 2585,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "78LSOCHC3frqPwsL414f"
+ },
+ "hermas": {
+  "file": "hermas.mp3",
+  "bytes": 1440539,
+  "chars": 2742,
+  "text_sha256": "a102c787c304acb806431581840c863eff39ac23b1624568b9658f248d9dec22",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 2796,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "vtoaESgB1jPFVbd8npMx"
+ },
+ "ignatius-of-antioch": {
+  "file": "ignatius-of-antioch.mp3",
+  "bytes": 1677940,
+  "chars": 3122,
+  "text_sha256": "d3ac1c172da84dcce9c59db7758092d12c739af7ae117e4afe428b21f141b941",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3209,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "wBTq8VpTydlMmkUJDznq"
+ },
+ "pliny-the-younger": {
+  "file": "pliny-the-younger.mp3",
+  "bytes": 1900085,
+  "chars": 3527,
+  "text_sha256": "3a4232f324fb64d2b09fae98b14424e3ba8e1ab44fd05b42e2608cc77eaad6d3",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3632,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "sCUr7Z14cULbO5cZMy5s"
+ },
+ "valentinus": {
+  "file": "valentinus.mp3",
+  "bytes": 1612738,
+  "chars": 2938,
+  "text_sha256": "561dfb46929ccffceb2d7fff3a6da76dcce815e4e2e7050e3b20083dec95a774",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 2992,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "v3oNmILhwWWe4Acnx2rU"
+ },
+ "bardaisan-of-edessa": {
+  "file": "bardaisan-of-edessa.mp3",
+  "bytes": 2156085,
+  "chars": 3677,
+  "text_sha256": "61bb3383d2d5f4ff54a9b85e44b3e2f61dcff6f30e501b43a522a004002d5837",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3773,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "DI7jyioaAw3iUVGdjwEn"
+ },
+ "tatian": {
+  "file": "tatian.mp3",
+  "bytes": 1887964,
+  "chars": 3497,
+  "text_sha256": "b1d93da543ac4f80b615a4ba9278d9aa19adc5a927b884653c6950a45006e8b8",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3560,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "63eD6TbpIE1f7XfnO2TX"
+ },
+ "polycrates-of-ephesus": {
+  "file": "polycrates-of-ephesus.mp3",
+  "bytes": 1624232,
+  "chars": 2974,
+  "text_sha256": "4dd90463813debba89e9cdfb339877a3abc8d9be6250386da70eacd6ee56e073",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3046,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "6IrDotExtjVArXLwnhFc"
+ },
+ "hippolytus-of-rome": {
+  "file": "hippolytus-of-rome.mp3",
+  "bytes": 2012098,
+  "chars": 3550,
+  "text_sha256": "7fafc1c5b1667fc40f6d4808151e90c66c6a6fa76ef2107c7d1e49d2c2930fd1",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3616,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "er3QvIucVa2M66hbET0y"
  }
 }
