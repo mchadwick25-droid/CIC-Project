@@ -4729,3 +4729,9 @@ Each keeps its approved essence. One independent check follows, then the census,
 **Why.** After review and its one revision, Bardaisan of Edessa runs about 4:30, against about 3:00 with his approved heart. The review found nothing the story does not need; its fixes restored Eusebius on his dialogues against Marcion's followers, the songs Ephrem answered, and how his argument passed into later books (`Build/Ministry/Operations/Audits/2026-11-19_batch-6/bardaisan-of-edessa/Review.md`, `Revision.md`).
 
 **Decided (Mark, 2026-11-19: "Let it stand at about 4:30").** The revised story stands at about 4:30.
+
+## 2026-11-19 — Batch 6: where sources disagree (Mark)
+
+**Why.** The card checks found places where a card stated one source's reading where held sources differ (for example, where the Chronicle sets Irenaeus's notice, and whether a scanned original can stand).
+
+**Decided (Mark, 2026-11-19: "ok we want it right, if two sorces say different things recognize that remember we are not pursuint perfection but high scholory acceptance").** Where two held sources say different things, the story or card says so and credits each, rather than choosing one. The bar is high scholarly acceptance, not perfection: a finding that something could be more exact, with nothing wrong or misleading, does not reopen a finished part.
