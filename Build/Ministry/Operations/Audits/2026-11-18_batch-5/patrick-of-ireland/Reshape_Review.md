@@ -50,3 +50,6 @@ The brief as it stands is 488 words, about 3:15 at 150 a minute, against a targe
 ## 6. Score
 
 `python -m engine.m1.profile_readability .../patrick-of-ireland.brief.txt`: 488 words, grade 8.2 (names out 7.6), reading ease names out 73.0, 18.1 words a sentence, longest sentence 30 words. Pass.
+
+## Applied (coordinator, 2026-11-19)
+The BLOCKING restoration applied word for word from v2, as the reviewer gave it, after "...killed or made a slave again.", and "Once, soldiers" restored to "At another time, soldiers".
