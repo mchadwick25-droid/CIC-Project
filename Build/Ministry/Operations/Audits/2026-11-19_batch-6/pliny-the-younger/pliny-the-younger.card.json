@@ -1,0 +1,156 @@
+{
+  "otherNames": [
+    "Plinius Caecilius Secundus",
+    "Plinius Secundus"
+  ],
+  "label": "Outside witness",
+  "knownFor": "A Roman governor whose letter to the emperor Trajan tells how he tried Christians in Bithynia and what they told him of their worship.",
+  "datesNote": "Governor of Bithynia from 110 or 111; wrote to Trajan probably within a year",
+  "placeNote": "Bithynia",
+  "role": "Roman governor",
+  "keyWorks": [
+    {
+      "title": "Letters, Book 10, letter 96, with Trajan's reply",
+      "about": "his trials of Christians, their worship before dawn, and Trajan's ruling that they were not to be sought out"
+    }
+  ],
+  "legacy": {
+    "remembered": [
+      "Tertullian of Carthage, defending the Christians, attacked Trajan's reply to him: \"It forbids them to be sought after as innocent, and it commands them to be punished as guilty.\"",
+      "Eusebius of Caesarea, working from Tertullian, calls him \"one of the most noted of governors\" and says the persecution \"was to a certain degree checked\" after Trajan's reply.",
+      "John Rolfe, who translated Suetonius, says Suetonius's life is known largely from Pliny's letters, and that Pliny got him a military post."
+    ]
+  },
+  "uncertain": [
+    "Pliny writes as the official who held the trials. What he reports of the Christians' worship, he says, came from those who had left the faith.",
+    "The Library holds no edition of Pliny's other letters; the Latin of these two is in Carl Mirbt's source book. The full English of the letter and of Trajan's reply is in Arthur McGiffert's note to Eusebius. Tertullian and Eusebius give only a short summary, without the deaconesses, the torture or the temples.",
+    "McGiffert dates his governorship to 110 or 111. Adolf Harnack dates the letter about 111 to 113.",
+    "No held primary source gives the years of his birth or death."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letters, Book 10, letters 96 and 97, in English in McGiffert's note to Eusebius's Church History, Book 3, chapter 33",
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Letters, Book 10, letters 96 and 97, in Latin, ed. C. F. W. Müller, in Carl Mirbt's Quellen zur Geschichte des Papsttums, documents 14 and 15",
+        "language": "Latin",
+        "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Apology, chapter 2",
+        "author": "Tertullian of Carthage",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf03_tertullian.xml"
+      },
+      {
+        "title": "Apology, chapter 2 (ed. Franz Oehler)",
+        "author": "Tertullian of Carthage",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt"
+      },
+      {
+        "title": "Church History, Book 3, chapter 33, with McGiffert's notes",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Chronicle of Eusebius, in Jerome's Latin (ed. John Knight Fotheringham)",
+        "author": "Jerome",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt"
+      },
+      {
+        "title": "The Life and Works of Suetonius (introduction)",
+        "author": "John C. Rolfe",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt"
+      },
+      {
+        "title": "Die Mission und Ausbreitung des Christentums, volume 2",
+        "author": "Adolf Harnack",
+        "date": null,
+        "language": "German",
+        "file": "cic/texts/harnack_mission-und-ausbreitung-des-christentums-band2-deu_2e-aufl1906.txt"
+      }
+    ]
+  },
+  "briefReferences": [
+    "Pliny, Letters 10.96, Latin ed. C. F. W. Müller in Carl Mirbt's source book, with Arthur McGiffert's English in his note to Eusebius, Church History 3.33: he had never attended a trial of Christians, and did not know what was punished or how hard to search.",
+    "McGiffert's note: a man of letters and a friend of Trajan, governor of Bithynia from 110 or 111. Mirbt dates the two letters 111 to 113; the story says around the year 112.",
+    "Letters 10.96: the three questions and the threat, those who held firm led away, citizens sent to Rome. Tertullian's Apology, chapter 2, reads it as condemnation, and Eusebius as death.",
+    "Letters 10.96: the charges spreading, the anonymous list, the gods, the incense and wine before Trajan's statue, the cursing of Christ.",
+    "Letters 10.96: those who had stopped being Christians, the meeting before dawn, the hymn to Christ as to a god, the oath, the meal, the ban on clubs, the two slave women called ministers, tortured, and the twisted, excessive cult.",
+    "Letters 10.96: every age and rank, towns and countryside, the temples almost deserted and filling again, room for repentance.",
+    "Letters 10.97, Trajan's reply: no fixed rule; not to be hunted out; punished if reported and proved; pardon for those who denied it and prayed to the gods; anonymous lists not of our age.",
+    "Tertullian, Apology, chapter 2, in Latin (ed. Franz Oehler) and in S. Thelwall's English: his summary of the letter, and his attack on the ruling. Its opening addresses the governors of the Roman empire.",
+    "Eusebius, Church History 3.33, tr. McGiffert: taken from Tertullian's Apology; the great number of martyrs; the persecution checked to a degree. Eusebius's Chronicle in Jerome's Latin: very many Christians killed. McGiffert's note: the reply made it a crime in law to be a Christian."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "Those who confessed, I asked a second and a third time, and I threatened them with punishment. Those who held firm, I ordered to be led away. For I did not doubt that, whatever it was they confessed, their stubbornness and unbending obstinacy surely deserved punishment.",
+      "printed": "if they have confessed, I have asked them a second and third time, threatening them with punishment; if they have persisted, I have commanded them to be led away to punishment. For I did not doubt that whatever that might be which they confessed, at any rate pertinacious and inflexible obstinacy ought to be punished.",
+      "work": "Pliny, Letters 10.96, tr. Arthur McGiffert, in his note to Eusebius, Church History 3.33",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "19471-19476"
+    },
+    {
+      "modern": "They are not to be hunted out. If they are reported and proved guilty, they are to be punished.",
+      "printed": "They are not to be searched for; if they are accused and convicted, they are to be punished;",
+      "work": "Trajan, in Pliny, Letters 10.97, tr. Arthur McGiffert, in his note to Eusebius, Church History 3.33",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "19526-19527"
+    },
+    {
+      "modern": "our age",
+      "printed": "our age",
+      "work": "Trajan, in Pliny, Letters 10.97, tr. Arthur McGiffert, in his note to Eusebius, Church History 3.33",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "19533",
+      "original": "nostri saeculi",
+      "originalFile": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+      "originalLines": "2819"
+    },
+    {
+      "modern": "What a ruling, confused by necessity!",
+      "printed": "O miserable deliverance,—under the necessities of the case, a self-contradiction!",
+      "work": "Tertullian, Apology, chapter 2, tr. S. Thelwall",
+      "file": "cic/texts/anf03_tertullian.xml",
+      "lines": "1583-1585"
+    },
+    {
+      "modern": "It forbids a search for them, as if they were innocent, and it orders them punished, as if they were guilty. It spares and it rages; it looks away and it punishes.",
+      "printed": "It forbids them to be sought after as innocent, and it commands them to be punished as guilty. It is at once merciful and cruel; it passes by, and it punishes.",
+      "work": "Tertullian, Apology, chapter 2, tr. S. Thelwall",
+      "file": "cic/texts/anf03_tertullian.xml",
+      "lines": "1585-1587",
+      "original": "Negat inquirendos ut innocentes, et mandat puniendos ut nocentes. Parcit et saevit, dissimulat et animadvertit.",
+      "originalFile": "cic/texts/tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt",
+      "originalLines": "11728-11730"
+    },
+    {
+      "modern": "disturbed by the great number of martyrs",
+      "printed": "disturbed by the great number of martyrs",
+      "work": "Eusebius, Church History 3.33, tr. Arthur McGiffert",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "19449"
+    },
+    {
+      "modern": "had killed very many Christians",
+      "printed": "plurimos Christianorum interfecisset",
+      "work": "Eusebius, Chronicle, in Jerome's Latin, ed. John Knight Fotheringham",
+      "file": "cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt",
+      "lines": "42247-42248"
+    }
+  ]
+}
