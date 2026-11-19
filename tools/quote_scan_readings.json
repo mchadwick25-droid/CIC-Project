@@ -305,13 +305,6 @@
    ]
   },
   {
-   "file": "cic/texts/gregory-nyssa_opera-omnia-pg46-grc-lat_migne1863.txt",
-   "lines": "71690",
-   "scan": "Ἀθδίογβίϑι!, Τὰ οἰϊδοῖβι!, οἱ μυ)ιβοδ᾽ νἱι25 Ππίβ, γθγα ᾧ φόθον",
-   "reads": "φόβον",
-   "kind": "OCR misread, after garbled Latin column text"
-  },
-  {
    "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
    "lines": "3113",
    "scan": "IpnLENEss",
@@ -556,6 +549,37 @@
    "scan": "aliura",
    "reads": "alium",
    "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt",
+   "lines": "45736",
+   "scan": "᾿Δρχὴν",
+   "reads": "Ἀρχὴν",
+   "kind": "OCR misread (Δ for Α); Theodoret's Greek of the same letter prints ᾿Αρχὴν (theodoret_opera-omnia-t3-historia-religiosa-pg82-grc-lat_migne1864.txt, line 70616)"
+  },
+  {
+   "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt",
+   "lines": "45737",
+   "scan": "2 r S c δὲ 9 A L4 f. , Z4 4 ó , 9 .",
+   "drop": true,
+   "kind": "scanned apparatus set inside the span",
+   "lines_held": [
+    "2 r S c δὲ 9 A L4 f. , Z4 4 ó , 9 ."
+   ]
+  },
+  {
+   "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt",
+   "lines": "45738",
+   "scan": "ἀναρχός",
+   "reads": "ἄναρχός",
+   "kind": "OCR misread accent; Theodoret's Greek of the same letter prints ἄναρχός (theodoret_opera-omnia-t3-historia-religiosa-pg82-grc-lat_migne1864.txt, line 70616)"
+  },
+  {
+   "file": "cic/texts/cyril-alexandria_three-epistles-grc-eng_pusey1872.txt",
+   "lines": "954",
+   "scan": "πρῶτον 2",
+   "reads": "πρῶτον",
+   "kind": "OCR set the edition's margin number into the line"
   }
  ]
 }
