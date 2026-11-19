@@ -81,3 +81,6 @@ The outline renders Q1 and Q3 from the Greek (Outline 83, 85). The card leaves b
     `"original": "Ἐγὼ δὲ ἄλογον ἡγούμενος ἐν τοσαύτῃ συγχύσει καταλεῖψαι τοὺς λαοὺς, καὶ μὴ μᾶλλον προκινδυνεύειν αὐτῶν", "originalFile": "cic/texts/athanasius_opera-omnia-pg25-grc-lat_migne1857.txt", "originalLines": "97994-97996"`
 12. `quotationOriginals[3]`: add after `"lines": "68810-68811"`:
     `"original": "Μηδεὶς τούτοις ἐπιβαλλέτω, μηδὲ τούτων ἀφαιρείσθω τι.", "originalFile": "cic/texts/athanasius_opera-omnia-pg26-grc-lat_migne1857.txt", "originalLines": "113085-113086"`
+
+## Applied to the brief (coordinator, 2026-11-18)
+- "a young deacon" -> "a deacon": the card check's note that Socrates I.8 (SZ 2793-2797) says only "a deacon". One word removed; nothing added. The card fixes above wait for the batch applier.

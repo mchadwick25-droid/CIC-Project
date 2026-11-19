@@ -77,3 +77,6 @@ All four quotations come from English printed wording. There is no held non-Engl
 - Nelson hearing him outdoors: the card is right to put it under `uncertain[6]` as a reading of LEP 1600 and 1631-1642.
 - Curnock's notes that the writer did not re-read (J1 26952-26955, 27030-27037; J2 10871-10876, 31864-31870): J1 26965 and 27015 name Nettleton Court, so `uncertain[1]` holds there. The rest are not contradicted by anything read.
 - No conflict with the entry's own fields.
+
+## Applied to the brief (coordinator, 2026-11-19)
+- "George Whitefield, a fellow priest, called him" -> "George Whitefield called him": the card check found "a fellow priest" in no cited line (J2 10699-10700). Words removed only.

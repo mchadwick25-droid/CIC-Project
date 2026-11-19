@@ -38,6 +38,10 @@ The three points the writer did not re-read:
 
 No other field contradicts its evidence or the entry's existing fields (`dates`, `placeLabel`, `sourcing`, `voices`, `legacy`, `why`, `floorNote`, `relationsSummary`).
 
+## 2. Nothing else moved
+
+Does not apply: there is no starting card.
+
 ## 3. References
 
 Rule: remove what the brief does not tell. Keep a date that grounds one of the brief's dates: "10 April 428", "435" and "436", and "451 or 452" all stay.
@@ -117,3 +121,6 @@ Pass. The sermon is carried in its Greek (Loofs). The Bazaar's Syriac is not hel
 - **"perhaps a century later"**: the writer flagged it, and it is a matter for the brief. The card's dates (about 535, or 525 to 533) are correct to their sources.
 - **"Thomas"**: Badger prints "Tooma" (BAD 17529), and the card gives the English form of the name. That is acceptable.
 - Babai's Life of George is rightly left out, by ruling. Nothing else clearly wrong was left in.
+
+## Applied to the brief (coordinator, 2026-11-19)
+- Rendering spelled "honour" -> "honor" (our own rendering, so American spelling), in the brief and the outline's Q1. The card's modern wording follows the brief.
