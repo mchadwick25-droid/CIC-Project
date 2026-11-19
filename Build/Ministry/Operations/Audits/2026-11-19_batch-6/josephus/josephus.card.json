@@ -1,0 +1,178 @@
+{
+ "otherNames": [
+  "Flavius Josephus"
+ ],
+ "label": "Outside witness",
+ "knownFor": "A Jewish priest and historian at Rome, whose Antiquities of the Jews names Jesus and his brother James.",
+ "datesNote": "Born 37; died early in the second century",
+ "placeNote": "Jerusalem, then Rome",
+ "role": "Jewish historian",
+ "keyWorks": [
+  {
+   "title": "The Jewish War",
+   "about": "the rising against Rome, in which he commanded in Galilee"
+  },
+  {
+   "title": "Antiquities of the Jews",
+   "about": "the history of his people in twenty books, with the two passages that name Jesus"
+  },
+  {
+   "title": "Life",
+   "about": "his own account of himself, written to answer his accusers"
+  }
+ ],
+ "legacy": {
+  "remembered": [
+   "Origen, more than a century later, cites Josephus on James the brother of Jesus, and says Josephus did not accept Jesus as Christ.",
+   "Eusebius of Caesarea quotes the longer passage on Jesus in his Church History. Arthur McGiffert, who translated Eusebius, says he is the first writer known to do so."
+  ]
+ },
+ "uncertain": [
+  "How much of the longer passage on Jesus Josephus wrote was argued in McGiffert's day, in 1890, four ways. Some held it wholly genuine, which McGiffert thought could not stand. Hase, Keim and Schürer held it wholly added, and McGiffert agreed. Gieseler, Weizsäcker, Renan, Edersheim and Schaff held it partly genuine. Ewald held that a hostile Jewish passage was rewritten as praise.",
+  "William Whiston, who translated Josephus in the eighteenth century, defended the passage as genuine, while admitting it had \"of late been greatly questioned by many.\"",
+  "Origen says Josephus did not accept Jesus as Christ, which sits badly with the line \"He was the Christ.\" Whiston answers that Josephus did not mean the words as Christians do.",
+  "McGiffert notes that some critics doubted the whole phrase naming James as the brother of Jesus. Neander held it genuine, which McGiffert calls the common opinion of critics.",
+  "Origen also cites Josephus as saying the city fell because of what was done to James. That line is not in the Antiquities as we have it, and Whiston discusses why.",
+  "Josephus's prediction that Vespasian would rule is told by Josephus himself and also by the Roman writer Suetonius.",
+  "The Library holds no scholarship on the passage on Jesus later than 1899. The latest is a one-line note by Jean-Baptiste Chabot, the French editor of Michael the Syrian's chronicle, who wrote that a Christian had without doubt added to Josephus's original mention of Jesus. He cites an 1897 article by Théodore Reinach, which the Library does not hold. No held source says where scholars stand now."
+ ],
+ "sources": {
+  "ownWords": [
+   {
+    "title": "The Works of Flavius Josephus: Antiquities, Jewish War and Life (tr. William Whiston)",
+    "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
+    "language": "English"
+   }
+  ],
+  "about": [
+   {
+    "title": "Commentary on Matthew, Book 10",
+    "author": "Origen",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
+   },
+   {
+    "title": "Church History, Book 1, chapter 11, with McGiffert's notes",
+    "author": "Eusebius of Caesarea",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+   },
+   {
+    "title": "Dissertation I, on the testimonies of Josephus",
+    "author": "William Whiston",
+    "date": null,
+    "language": "English",
+    "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt"
+   },
+   {
+    "title": "Lives of the Caesars, Vespasian 5",
+    "author": "Suetonius",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/suetonius_lives-of-the-twelve-caesars_thomson-forester1909.txt"
+   },
+   {
+    "title": "Commentary on Matthew, Book 10, chapter 17, in Greek (ed. Lommatzsch)",
+    "author": "Origen",
+    "date": null,
+    "language": "Greek",
+    "file": "cic/texts/origen_commentarii-in-evangelium-matthaei-tomus3-grc-lat_lommatzsch1834.txt"
+   },
+   {
+    "title": "Against Celsus, Book 1, chapter 47",
+    "author": "Origen",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
+   },
+   {
+    "title": "Illustrious Men, chapter 13, in Latin (Migne, Patrologia Latina 23)",
+    "author": "Jerome",
+    "date": null,
+    "language": "Latin",
+    "file": "cic/texts/jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt"
+   },
+   {
+    "title": "Chronique de Michel le Syrien, volume 1, with the editor's note on the passage on Jesus",
+    "author": "Michael the Syrian, ed. and tr. Jean-Baptiste Chabot",
+    "date": "1899",
+    "language": "French translation",
+    "file": "cic/texts/michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt"
+   }
+  ]
+ },
+ "briefReferences": [
+  "Jewish War, Book 3, in William Whiston's English: the fall of Jotapata in 67, the cave and the forty men, Vespasian's promise, the secret prayer, the lots, and the prediction to Vespasian.",
+  "Jewish War, Book 4: Vespasian, now emperor, has him freed in 69. Book 5: at the siege of Jerusalem in 70, he calls on the defenders to surrender.",
+  "Life, in Whiston's English: both sides' charge of \"treachery\", the emperors' favor at Rome, and his closing words, \"let others judge of my character.\"",
+  "Antiquities of the Jews, in Whiston's English: finished in the thirteenth year of Domitian, about 93. Book 18: Herod kills John the Baptist, \"a good man\", fearing his hold on the people; and the passage on Jesus. Book 20: the chief priest has James, \"the brother of Jesus, who was called Christ\", stoned.",
+  "Suetonius, Vespasian 5: Josephus foretold that Vespasian would free him as emperor.",
+  "Origen, Against Celsus 1.47, and Commentary on Matthew 10.17, in Greek with the Ante-Nicene English: Josephus on John and on James, and that he did not accept Jesus as the Christ. Origen never cites the passage on Jesus.",
+  "Eusebius of Caesarea, Church History 1.9 and 1.11, in Arthur McGiffert's English: the passage on Jesus, quoted against the forged Acts of Pilate as the word of a Hebrew historian, and McGiffert's note that Eusebius is the first known to quote it. Church History 3.5: the fall of Jerusalem, from Josephus, as God's judgment on the Jews.",
+  "Jerome, Illustrious Men 13, in Latin: Jesus was believed to be the Christ.",
+  "McGiffert's notes of 1890 to Church History 1.11 and 2.23: the passage on Jesus disputed since the sixteenth century, the views that it was wholly added, partly added or wholly genuine, and the lines on John and James widely accepted."
+ ],
+ "quotationOriginals": [
+  {
+   "modern": "I declare it openly: I do not go over to the Romans as a deserter from the Jews, but as a servant sent by you.",
+   "printed": "And I protest openly, that I do not go over to the Romans as a deserter of the Jews, but as a minister from thee.",
+   "work": "Josephus, Jewish War 3.8, tr. William Whiston",
+   "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
+   "lines": "110853-110856"
+  },
+  {
+   "modern": "treachery",
+   "printed": "occasioned by my treachery",
+   "work": "Josephus, Life, tr. William Whiston",
+   "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
+   "lines": "5342"
+  },
+  {
+   "modern": "a good man",
+   "printed": "for Herod slew him, who was a good man",
+   "work": "Josephus, Antiquities of the Jews 18.5, tr. William Whiston",
+   "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
+   "lines": "82091-82092"
+  },
+  {
+   "modern": "About this time there lived Jesus, a wise man, if it is right to call him a man. For he did astonishing deeds, and taught people who gladly accept the truth.",
+   "printed": "Now, there was about this time Jesus, a wise man, if it be lawful to call him a man, for he was a doer of wonderful works,—a teacher of such men as receive the truth with pleasure.",
+   "work": "Josephus, Antiquities of the Jews 18.3, tr. William Whiston",
+   "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
+   "lines": "81405-81409"
+  },
+  {
+   "modern": "He was the Christ",
+   "printed": "He was [the] Christ",
+   "work": "Josephus, Antiquities of the Jews 18.3, tr. William Whiston",
+   "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
+   "lines": "81411"
+  },
+  {
+   "modern": "the brother of Jesus, who was called Christ",
+   "printed": "the brother of Jesus, who was called Christ",
+   "work": "Josephus, Antiquities of the Jews 20.9, tr. William Whiston",
+   "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
+   "lines": "91004-91008"
+  },
+  {
+   "modern": "And this is the remarkable thing. He did not accept that our Jesus was the Christ. Yet he still bore witness that James was so upright.",
+   "printed": "Καὶ τὸ θαυμαστόν ἐστιν, ὅτι τὸν Ἰησοῦν ἡμῶν οὐ καταδεξάμενος εἶναι Χριστὸν, οὐδὲν ἧττον Ἰακώβῳ δικαιοσύνην ἐμαρτύρησε τοσαύτην.",
+   "work": "Origen, Commentary on Matthew 10.17, ed. Lommatzsch",
+   "file": "cic/texts/origen_commentarii-in-evangelium-matthaei-tomus3-grc-lat_lommatzsch1834.txt",
+   "lines": "3731-3733",
+   "englishPrinted": "And the wonderful thing is, that, though he did not accept Jesus as Christ, he yet gave testimony that the righteousness of James was so great",
+   "englishFile": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+   "englishLines": "30627-30629"
+  },
+  {
+   "modern": "let others judge of my character.",
+   "printed": "and let others judge of my character by them as they please",
+   "work": "Josephus, Life, tr. William Whiston",
+   "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
+   "lines": "5485-5487"
+  }
+ ]
+}
