@@ -2080,6 +2080,682 @@
     "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-5/Second_Readings.md",
     "verdict": "same"
    }
+  },
+  {
+   "id": "pliny-the-younger",
+   "quote": "Those who confessed, I asked a second and a third time, and I threatened them with punishment. Those who held firm, I ordered to be led away. For I did not doubt that, whatever it was they confessed, their stubbornness and unbending obstinacy surely deserved punishment.",
+   "original": {
+    "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+    "lines": "2777-2779",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "pliny-the-younger",
+   "quote": "They are not to be hunted out. If they are reported and proved guilty, they are to be punished.",
+   "original": {
+    "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+    "lines": "2811-2816",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "pliny-the-younger",
+   "quote": "What a ruling, confused by necessity!",
+   "original": {
+    "file": "cic/texts/tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt",
+    "lines": "11728",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "pliny-the-younger",
+   "quote": "It forbids a search for them, as if they were innocent, and it orders them punished, as if they were guilty. It spares and it rages; it looks away and it punishes.",
+   "original": {
+    "file": "cic/texts/tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt",
+    "lines": "11728-11730",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "pliny-the-younger",
+   "quote": "had killed very many Christians",
+   "original": {
+    "file": "cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt",
+    "lines": "42247-42248",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "tacitus",
+   "quote": "Christus, from whom the name came, was put to death in the reign of Tiberius by one of our governors, Pontius Pilatus.",
+   "original": {
+    "file": "cic/texts/tacitus_annals-15-44_church-brodribb1876.txt",
+    "lines": "68",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "tacitus",
+   "quote": "that same Cornelius Tacitus, who truly talks more lies than anyone,",
+   "original": {
+    "file": "cic/texts/tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt",
+    "lines": "17915-17916",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "tacitus",
+   "quote": "So even for criminals who deserved to be punished harshly, as an example to all, a feeling of pity arose. For it seemed they were being destroyed not for the public good, but to feed one man's cruelty.",
+   "original": {
+    "file": "cic/texts/tacitus_annals-15-44_church-brodribb1876.txt",
+    "lines": "68",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "suetonius",
+   "quote": "He drove from Rome the Jews who were constantly rioting at the urging of Chrestus.",
+   "original": {
+    "file": "cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt",
+    "lines": "25843-25844",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "suetonius",
+   "quote": "Punishments were inflicted on the Christians, a kind of people given to a new and harmful superstition.",
+   "original": {
+    "file": "cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt",
+    "lines": "28458-28460",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "suetonius",
+   "quote": "And even when you wrongly say 'Chrestianus', since you do not even know the name for certain, it is formed from sweetness or kindness.",
+   "original": {
+    "file": "cic/texts/anf03_tertullian.xml",
+    "lines": "1713-1716",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "josephus",
+   "quote": "I declare it openly: I do not go over to the Romans as a deserter from the Jews, but as a servant sent by you.",
+   "original": {
+    "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
+    "lines": "110853-110856",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "josephus",
+   "quote": "About this time there lived Jesus, a wise man, if it is right to call him a man. For he did astonishing deeds, and taught people who gladly accept the truth.",
+   "original": {
+    "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
+    "lines": "81405-81409",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "josephus",
+   "quote": "And this is the remarkable thing. He did not accept that our Jesus was the Christ. Yet he still bore witness that James was so upright.",
+   "original": {
+    "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+    "lines": "30627-30629",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "ignatius-of-antioch",
+   "quote": "From Syria all the way to Rome I fight with beasts, by land and by sea, by night and by day.",
+   "original": {
+    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+    "lines": "7083-7086",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "ignatius-of-antioch",
+   "quote": "Some who are without God, that is, unbelievers, say that he only seemed to suffer. They themselves only seem to exist. But if they are right, why am I in chains? Why do I long to face the wild beasts? Do I die for nothing, then?",
+   "original": {
+    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+    "lines": "6671-6676",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "ignatius-of-antioch",
+   "quote": "I am God's wheat, and let me be ground by the teeth of wild beasts, so that I may be found the pure bread of Christ.",
+   "original": {
+    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+    "lines": "7040-7042",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "irenaeus-of-lyon",
+   "quote": "It is as if a skilled artist had carefully made a fine portrait of a king from choice small stones. Then someone broke up the man's likeness. He moved those stones, fitted them together again, and made the shape of a dog or a fox, and a poor one at that.",
+   "original": {
+    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+    "lines": "30994-30998",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "irenaeus-of-lyon",
+   "quote": "The church has received this preaching and this faith, as I said. Though it is scattered through the whole world, it guards them with care, as if it lived in one house. It believes them alike, as if it had one soul and one heart. It preaches them, teaches them and hands them on in harmony, as if it had one mouth.",
+   "original": {
+    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+    "lines": "31419-31425",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "irenaeus-of-lyon",
+   "quote": "I remember that time more clearly than recent years. For what boys learn grows with the mind and becomes one with it. So I can describe the very place where the blessed Polycarp sat as he taught.",
+   "original": {
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+    "lines": "30807-30815",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "irenaeus-of-lyon",
+   "quote": "And I can tell how he spoke of his time with John and the others who had seen the Lord.",
+   "original": {
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+    "lines": "30807-30815",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "irenaeus-of-lyon",
+   "quote": "the blessed elder",
+   "original": {
+    "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+    "lines": "10028",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "irenaeus-of-lyon",
+   "quote": "a very exact inquirer",
+   "original": {
+    "file": "cic/texts/anf03_tertullian.xml",
+    "lines": "43167",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "polycrates-of-ephesus",
+   "quote": "We keep the day exactly, neither adding nor taking away. For in Asia, too, great lights have fallen asleep.",
+   "original": {
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+    "lines": "31324-31326",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "polycrates-of-ephesus",
+   "quote": "So, brothers, I have lived sixty-five years in the Lord. I have met the brothers all over the world, and I have gone through all of holy Scripture. I am not frightened by what is said to terrify us. For those greater than I have said, 'We must obey God rather than human beings.'",
+   "original": {
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+    "lines": "31396-31400",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "hermas",
+   "quote": "When you were rich, you were of no use. But now you are useful, and fit for life.",
+   "original": {
+    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+    "lines": "1298-1299",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "hermas",
+   "quote": "Sir, I have heard some teachers say this. There is no other repentance than the one when we went down into the water, and our past sins were forgiven.",
+   "original": {
+    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+    "lines": "1990-1994",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "hermas",
+   "quote": "So it ought indeed to be read. But it cannot be read out to the people in church.",
+   "original": {
+    "file": "cic/texts/apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846.txt",
+    "lines": "22081-22084",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "hermas",
+   "quote": "the Shepherd of adulterers",
+   "original": {
+    "file": "cic/texts/tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt",
+    "lines": "74596-74597",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "valentinus",
+   "quote": "It is unclean, the home of many demons. But when the Father, who alone is good, visits it, it is made holy and shines with light.",
+   "original": {
+    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+    "lines": "34300-34302",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "valentinus",
+   "quote": "Valentinus had hoped to become a bishop, for he was able in mind and in speech. But another man won the place, by the claim his suffering for the faith had given him. Angry at this, Valentinus broke away from the church of the true rule.",
+   "original": {
+    "file": "cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt",
+    "lines": "9633-9653",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "valentinus",
+   "quote": "love is not love unless there is something to love.",
+   "original": {
+    "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+    "lines": "9171-9172",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "tatian",
+   "quote": "So I said goodbye to the boasting of the Romans and the lifeless talk of the Athenians, teachings that do not hang together. I made our barbarian philosophy my own.",
+   "original": {
+    "file": "cic/texts/tatian_oratio-ad-graecos-grc-lat_otto1851.txt",
+    "lines": "12199-12201",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "tatian",
+   "quote": "I myself found more than two hundred such books, held in honor in our churches. I gathered them all and put them away. In their place I brought in the Gospels of the four evangelists.",
+   "original": {
+    "file": "cic/texts/apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872.txt",
+    "lines": "14994-14997",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "tatian",
+   "quote": "Now that I know who God is, and what he has made, I stand before you, ready to be questioned on what I teach. I hold to the way of life that follows God, and I will not deny it.",
+   "original": {
+    "file": "cic/texts/tatian_oratio-ad-graecos-grc-lat_otto1851.txt",
+    "lines": "14236-14241",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "bardaisan-of-edessa",
+   "quote": "So we humans are ruled by nature all alike, by fate each in a different way, and by our freedom each as we choose.",
+   "original": {
+    "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+    "lines": "68441-68443",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "bardaisan-of-edessa",
+   "quote": "Wherever we are, we are all called by the one name of Christ: Christians.",
+   "original": {
+    "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+    "lines": "68968-68969",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "bardaisan-of-edessa",
+   "quote": "When that new world is set up, all evil turmoil will cease, and every rebellion will end. The foolish will be convinced, and all that is lacking will be filled.",
+   "original": {
+    "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+    "lines": "69026-69029",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "hippolytus-of-rome",
+   "quote": "He also said that Noah's ark was made as a sign of the church. In it were dogs and wolves and ravens, everything clean and unclean. So, he says, it should be with the church.",
+   "original": {
+    "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+    "lines": "13909-13912",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "hippolytus-of-rome",
+   "quote": "Christ did not say, 'I and the Father am one,' but 'are one.' The word 'are' is not said of one person. It speaks of two persons and one power.",
+   "original": {
+    "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+    "lines": "23442-23450",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "hippolytus-of-rome",
+   "quote": "the elder Hippolytus,",
+   "original": {
+    "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt",
+    "lines": "66807",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "hippolytus-of-rome",
+   "quote": "the unhealthy island.",
+   "original": {
+    "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt",
+    "lines": "66808",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "hippolytus-of-rome",
+   "quote": "It is said that Hippolytus, an elder, while the tyrant's orders pressed hard, had stayed all along in the split of Novatus.",
+   "original": {
+    "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt",
+    "lines": "109159-109160",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "hippolytus-of-rome",
+   "quote": "Damasus tells what he has heard. Christ tests it all.",
+   "original": {
+    "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt",
+    "lines": "109166",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "polycarp-of-smyrna",
+   "quote": "For eighty-six years I have served him, and he has done me no wrong. How can I blaspheme my King, who saved me?",
+   "original": {
+    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+    "lines": "3990-3992",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "polycarp-of-smyrna",
+   "quote": "Even so, they shared communion,",
+   "original": {
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+    "lines": "31609-31610",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "polycarp-of-smyrna",
+   "quote": "Let the will of God be done.",
+   "original": {
+    "file": "cic/texts/acta-martyrum-selecta_gebhardt1902.txt",
+    "lines": "680",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "polycarp-of-smyrna",
+   "quote": "You threaten fire that burns for an hour and soon goes out.",
+   "original": {
+    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+    "lines": "4035-4036",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "polycarp-of-smyrna",
+   "quote": "keep the birthday of his martyrdom,",
+   "original": {
+    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+    "lines": "4224-4226",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "polycarp-of-smyrna",
+   "quote": "to remember those who have already competed,",
+   "original": {
+    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+    "lines": "4226-4227",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "polycarp-of-smyrna",
+   "quote": "and to train and prepare those still to come.",
+   "original": {
+    "file": "cic/texts/acta-martyrum-selecta_gebhardt1902.txt",
+    "lines": "952-953",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "polycarp-of-smyrna",
+   "quote": "the word handed down to us from the beginning.",
+   "original": {
+    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+    "lines": "3442-3444",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
+    "verdict": "same"
+   }
   }
  ]
 }

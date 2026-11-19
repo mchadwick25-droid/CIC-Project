@@ -1,0 +1,6 @@
+13 briefs; a move in more than 3 is marked
+ok    3  an unnamed opening, then the name revealed: hermas, ignatius-of-antioch, polycarp-of-smyrna
+OVER  5  a setting slot (a time and a place stacked in one early sentence, or "in what is now" more than once): bardaisan-of-edessa, hermas, irenaeus-of-lyon, pliny-the-younger, polycarp-of-smyrna
+ok    2  the "Most of what we know" witness formula: hippolytus-of-rome, valentinus
+OVER  4  a sentence opening with "Yet": josephus, pliny-the-younger, suetonius, tacitus
+OVER  7  an ending on a later writer or institution (a later time marker in the last two paragraphs): hippolytus-of-rome, irenaeus-of-lyon, pliny-the-younger, polycarp-of-smyrna, polycrates-of-ephesus, tatian, valentinus

@@ -1,0 +1,153 @@
+{
+ "otherNames": [
+  "Theophorus"
+ ],
+ "knownFor": "Bishop of Antioch whose seven letters, written under guard on the way to his death at Rome, warn the churches to keep to their bishops and to Christ who truly suffered.",
+ "datesNote": "Died under the emperor Trajan, or later",
+ "placeNote": "Antioch in Syria; Smyrna and Troas on the road to Rome",
+ "role": "Bishop and martyr",
+ "keyWorks": [
+  {
+   "title": "Letter to the Romans",
+   "about": "his plea that the church at Rome not save him from the beasts"
+  },
+  {
+   "title": "Letter to the Smyrnaeans",
+   "about": "against those who said Christ only seemed to suffer; where the phrase \"Catholic Church\" first appears, Cleveland Coxe says"
+  },
+  {
+   "title": "Letter to Polycarp",
+   "about": "to the bishop of Smyrna, asking him to care for the church at Antioch"
+  }
+ ],
+ "legacy": {
+  "traces": [
+   "He told the churches to do nothing without their bishop, and wrote that \"wherever Jesus Christ is, there is the Catholic Church.\" Cleveland Coxe, who edited the American edition of the letters, notes that this is the first use of that phrase in the early church's writings."
+  ],
+  "remembered": [
+   "Polycarp of Smyrna, in his letter to the Philippians, holds up \"the blessed Ignatius\" as an example of patience.",
+   "Irenaeus of Lyon quotes the wheat line as the words of a man of the church condemned to the beasts. Eusebius of Caesarea gives Irenaeus's words as \"As one of our people said.\"",
+   "Eusebius of Caesarea says his fame \"is still celebrated by a great many.\""
+  ]
+ },
+ "uncertain": [
+  "Arthur McGiffert, who translated Eusebius of Caesarea, says almost all we know of him comes from his own letters. Eusebius adds that he was the second bishop of Antioch after Peter, and that report said he died by the beasts at Rome.",
+  "Which letters are his was argued for a long time. Fifteen carry his name; eight are set aside as forgeries. Daillé, in 1666, rejected all of them. Bishop Pearson defended the seven shorter Greek letters in 1672. William Cureton, in 1845, argued that only the three letters in a Syriac version were genuine; Bunsen agreed with him and Hefele did not. McGiffert wrote in 1890 that Zahn and Lightfoot had finally settled it for the shorter Greek letters, though he notes that some still denied them.",
+  "Eusebius's Chronicle dates his death to the tenth year of Trajan, about 107. Zahn and Lightfoot would say only that it was under Trajan. Harnack placed it under Hadrian.",
+  "Accounts of his martyrdom were written from the fourth century on. McGiffert says they contradict one another and cannot be relied on."
+ ],
+ "sources": {
+  "ownWords": [
+   {
+    "title": "The Epistles of Ignatius, shorter and longer Greek forms, and the Syriac version",
+    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+    "language": "English"
+   }
+  ],
+  "about": [
+   {
+    "title": "Church History, Book 3, chapter 36",
+    "author": "Eusebius of Caesarea",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+   },
+   {
+    "title": "Epistle to the Philippians, chapters 3, 9 and 13",
+    "author": "Polycarp of Smyrna",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+   },
+   {
+    "title": "Against Heresies, Book 5, chapter 28",
+    "author": "Irenaeus of Lyon",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+   },
+   {
+    "title": "On the Councils of Ariminum and Seleucia (De Synodis), chapter 47",
+    "author": "Athanasius of Alexandria",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+   },
+   {
+    "title": "Eranistes, Dialogue 1",
+    "author": "Theodoret of Cyrrhus",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+   },
+   {
+    "title": "The Great Horologion, 20 December",
+    "author": null,
+    "date": "1851",
+    "language": "Greek",
+    "file": "cic/texts/horologion-to-mega_venice-edition-grc_koutloumousianos1851.txt"
+   }
+  ]
+ },
+ "briefReferences": [
+  "Ignatius, Letter to the Romans 5, Ante-Nicene Fathers vol. 1, shorter form: from Syria to Rome he fights with beasts, by land and sea, by night and day; the beasts on the road are a band of ten soldiers, who grow worse when they are treated well.",
+  "Romans 2 and 9, Philadelphians 10, Ephesians 1: the bishop of Syria, led in chains from the east to the west to fight with beasts at Rome; the churches that came out to meet him, city by city; the church at Antioch in Syria.",
+  "Arthur McGiffert, notes to Eusebius, Church History 3.36: the greater part of his life buried in obscurity; the letters his chief source; the developed church government they show as the chief reason some doubted them; the seven shorter Greek letters accepted by most in 1890, though still denied by some.",
+  "Ephesians 1 and 21, Magnesians 2 and 15, Trallians 1, Polycarp 1: at Smyrna he met Polycarp, the bishop there, and the bishops of Ephesus, Magnesia and Tralles came to him.",
+  "Magnesians 6 and 7, Ephesians 20: the bishop, with the elders and the deacons; one altar; one bread broken together.",
+  "Trallians 9 and 10: Christ truly born, truly persecuted under Pontius Pilate, truly crucified and truly raised; those who say he only seemed to suffer, and his own chains.",
+  "Romans 1, 2, 4 and 5: the plea not to be spared; food for the wild beasts, which he will entice, and compel if they will not attack; the wheat ground into the pure bread of Christ; a sacrifice to God.",
+  "The Great Horologion of the Eastern Church (Venice, 1851), 20 December: the wheat line in Greek, citing Eusebius.",
+  "Smyrnaeans 4, 6 and 12: written from Troas; the beasts in the shape of men; no care for the widow, the orphan or the hungry.",
+  "Philadelphians 7: he cried with a loud voice among them to heed the bishop, the elders and the deacons; some thought he knew of their divisions; the Spirit said to do nothing without the bishop.",
+  "Polycarp of Smyrna, Epistle to the Philippians 3, 9 and 13: Paul's letter to Philippi; the blessed Ignatius among those whose patience they had seen; the letters of Ignatius he held, sent as Philippi asked; the request for surer news of him.",
+  "Irenaeus of Lyon, Against Heresies 5.28.4: the wheat line, given as the words of a man of ours condemned to the wild beasts, without his name.",
+  "Eusebius of Caesarea, Church History 3.36, tr. Arthur McGiffert: report says that he was sent from Syria to Rome and became food for wild beasts.",
+  "Athanasius of Alexandria, On the Councils 47, and Theodoret of Cyrrhus, Eranistes, Dialogue 1: his words on Christ as both of flesh and of God, and on Christ crucified in the flesh, brought forward as witness in later disputes.",
+  "Ante-Nicene Fathers vol. 1, the translators' introduction to the letters: fifteen letters under his name, and the long dispute over them.",
+  "Polycarp 8: he must suddenly sail from Troas, the last we hear in his own words."
+ ],
+ "quotationOriginals": [
+  {
+   "modern": "From Syria all the way to Rome I fight with beasts, by land and by sea, by night and by day.",
+   "printed": "From Syria even unto Rome I fight with beasts, both by land and sea, both by night and day,",
+   "work": "Ignatius, Letter to the Romans 5, shorter form, Ante-Nicene Fathers vol. 1",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "7083-7086",
+   "secondReading": "same"
+  },
+  {
+   "modern": "Some who are without God, that is, unbelievers, say that he only seemed to suffer. They themselves only seem to exist. But if they are right, why am I in chains? Why do I long to face the wild beasts? Do I die for nothing, then?",
+   "printed": "But if, as some that are without God, that is, the unbelieving, say, that He only seemed to suffer (they themselves only seeming to exist), then why am I in bonds? Why do I long to be exposed to the wild beasts? Do I therefore die in vain?",
+   "work": "Ignatius, Letter to the Trallians 10, shorter form, Ante-Nicene Fathers vol. 1",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "6671-6676",
+   "secondReading": "same"
+  },
+  {
+   "modern": "I am God's wheat, and let me be ground by the teeth of wild beasts, so that I may be found the pure bread of Christ.",
+   "printed": "I am the wheat of God, and let me be ground by the teeth of the wild beasts, that I may be found the pure bread of Christ.",
+   "work": "Ignatius, Letter to the Romans 4, shorter form, Ante-Nicene Fathers vol. 1",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "7040-7042",
+   "uncertain": "The modern English follows the Ante-Nicene English, \"let me be ground\", a plea. The Greek, as the Great Horologion of 1851 prints it from Eusebius, reads ἀλήθομαι, \"I am ground\", a statement (horologion-to-mega_venice-edition-grc_koutloumousianos1851.txt, lines 15547-15552). That copy is held only in a damaged scan, so the rendering keeps the English.",
+   "secondReading": "same"
+  },
+  {
+   "modern": "the blessed Ignatius",
+   "printed": "the blessed Ignatius",
+   "work": "Polycarp of Smyrna, Epistle to the Philippians 9, Ante-Nicene Fathers vol. 1",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "lines": "3487",
+   "secondReading": "same"
+  },
+  {
+   "modern": "report says",
+   "printed": "Report says",
+   "work": "Eusebius of Caesarea, Church History 3.36, tr. Arthur McGiffert",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "19935",
+   "secondReading": "same"
+  }
+ ]
+}

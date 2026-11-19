@@ -1,0 +1,109 @@
+{
+ "otherNames": [
+  "Polycrates"
+ ],
+ "knownFor": "Bishop of Ephesus who led the bishops of Asia in keeping Easter on the fourteenth day of the moon, and defended the custom in a letter to Victor of Rome.",
+ "datesNote": "Bishop while Victor was bishop of Rome; Jerome of Strido says he flourished under the emperor Severus",
+ "placeNote": "Ephesus",
+ "role": "Bishop of Ephesus",
+ "keyWorks": [
+  {
+   "title": "Letter to Victor and the church of Rome",
+   "about": "the Asian custom of Easter, the great lights buried in Asia, and his own family of bishops; kept in part by Eusebius of Caesarea"
+  }
+ ],
+ "legacy": {
+  "traces": [
+   "Arthur McGiffert, who translated Eusebius, calls him the leader of the bishops of Asia and \"the leading opponent of Bishop Victor of Rome.\""
+  ],
+  "remembered": [
+   "Eusebius quotes his letter twice, once to show where the apostle John was buried.",
+   "Jerome of Strido copied the letter \"to show through a small example the genius and authority of the man.\"",
+   "McGiffert says the praise of Eusebius and Jerome shows how far the Easter question had been buried before their time."
+  ]
+ },
+ "uncertain": [
+  "The letter is known only in the part Eusebius quotes. McGiffert says it is the only writing of Polycrates that is known, and that the years of his becoming bishop and of his death are not known.",
+  "McGiffert thinks Polycrates confused the apostle Philip with Philip the evangelist of the book of Acts. Lightfoot held that Polycrates was right.",
+  "Whether Victor excommunicated the churches of Asia or only threatened to is disputed. McGiffert holds that he did, and Socrates of Constantinople says so directly. Charles Joseph Hefele, the historian of the councils, follows Valesius: Victor only thought of it, and Irenaeus of Lyon kept him from carrying it out.",
+  "Polycrates says John \"wore the sacerdotal plate\". McGiffert says the Greek word is the term for the high priest's plate, and that its meaning here is uncertain. He takes it as a figure for John's priestly character, or, with Hefele, as a legend that arose later.",
+  "How the break with Rome ended is not recorded. McGiffert says it healed, \"just how and when we do not know.\"",
+  "The date of the synods is commonly given as 198, but McGiffert says there is \"no particular authority for that year.\""
+ ],
+ "sources": {
+  "ownWords": [
+   {
+    "title": "Letter to Victor, in Eusebius's Church History, Book 3, chapter 31 and Book 5, chapter 24",
+    "language": "English translation",
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+   },
+   {
+    "title": "Letter to Victor",
+    "language": "English translation",
+    "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml"
+   }
+  ],
+  "about": [
+   {
+    "title": "Church History, Book 5, chapters 22 to 25, with McGiffert's notes",
+    "author": "Eusebius of Caesarea",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+   },
+   {
+    "title": "Lives of Illustrious Men, chapter 45",
+    "author": "Jerome of Strido",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+   },
+   {
+    "title": "Church History, Book 5, chapter 22",
+    "author": "Socrates of Constantinople",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+   },
+   {
+    "title": "A History of the Councils of the Church, volume 1",
+    "author": "Charles Joseph Hefele",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/hefele_history-of-the-councils-v1-to-nicaea_clark1872.txt"
+   }
+  ]
+ },
+ "briefReferences": [
+  "Polycrates, letter to Victor, in Eusebius, Church History V.24.2-8, tr. Arthur Cushman McGiffert: the day kept exactly, the great lights asleep in Asia who will rise when the Lord comes with glory from heaven; Philip, called one of the twelve apostles; John, who leaned on the Lord's breast, at Ephesus; Polycarp, bishop and martyr, at Smyrna; other bishops and martyrs; all of them keeping the fourteenth day; seven relatives bishops and he the eighth; the sixty-five years in the Lord and the refusal; the bishops he summoned at Victor's desire, and their consent to the letter.",
+  "Eusebius, Church History V.23: Asia's older tradition of the fourteenth day of the moon, when the Jews were to sacrifice the lamb, and the fast ended that day whatever day of the week; the other churches ending it only on the day of the resurrection, from apostolic tradition; the synods and their decree for the Lord's day, with letters from Palestine, Rome, Pontus, Gaul, Osrhoene and Corinth.",
+  "Eusebius, Church History V.24.1: the bishops of Asia, led by Polycrates, hold to the old custom, and he writes to Victor and the church of Rome.",
+  "Eusebius, Church History V.24.9-11: Victor's attempt to cut off the churches of all Asia as heterodox, and his letters declaring them all excommunicate; the bishops who sharply rebuked him; Irenaeus, holding to the Lord's day, against cutting off whole churches for an ancient custom.",
+  "McGiffert's notes on Church History V.24, Socrates of Constantinople, Church History V.22, and Charles Joseph Hefele, History of the Councils I, after Valesius: whether Victor's break took hold. McGiffert: how and when it healed is not known.",
+  "Eusebius, Church History III.31: the letter first quoted to show where John was buried.",
+  "Later readers of the letter for John's death and burial at Ephesus: Abelard (Patrologia Latina 178), Thomas Smith, An Account of the Greek Church (1680), and the Synaxaristes of Nikodemos the Hagiorite (1900 edition).",
+  "Hippolytus, Refutation of All Heresies VIII.11, Ante-Nicene Fathers vol. 5: those who keep Easter on the fourteenth day of the first month.",
+  "Constantine's letter after the Council of Nicaea, in Eusebius, Life of Constantine III.18: the feast kept by all and in every place on one and the same day.",
+  "Council of Antioch (341), canon 1, Nicene and Post-Nicene Fathers, second series, vol. 14: a bishop, presbyter or deacon keeping Easter with the Jews made an alien from the Church.",
+  "McGiffert's note on Church History V.22: the date of his death not known; no early source records his death or grave.",
+  "World census, The Scattered Households: Asia Minor, in today's Turkey."
+ ],
+ "quotationOriginals": [
+  {
+   "modern": "We keep the day exactly, neither adding nor taking away. For in Asia, too, great lights have fallen asleep.",
+   "printed": "We observe the exact day; neither adding, nor taking away. For in Asia also great lights have fallen asleep,",
+   "work": "Polycrates, letter to Victor, in Eusebius, Church History V.24.2, tr. Arthur Cushman McGiffert",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "31324-31326",
+   "secondReading": "same"
+  },
+  {
+   "modern": "So, brothers, I have lived sixty-five years in the Lord. I have met the brothers all over the world, and I have gone through all of holy Scripture. I am not frightened by what is said to terrify us. For those greater than I have said, 'We must obey God rather than human beings.'",
+   "printed": "I, therefore, brethren, who have lived sixty-five years in the Lord, and have met with the brethren throughout the world, and have gone through every Holy Scripture, am not affrighted by terrifying words. For those greater than I have said ‘We ought to obey God rather than man.’",
+   "work": "Polycrates, letter to Victor, in Eusebius, Church History V.24.7, tr. Arthur Cushman McGiffert",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "31396-31400",
+   "secondReading": "same"
+  }
+ ]
+}

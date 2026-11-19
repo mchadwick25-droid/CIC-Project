@@ -1,0 +1,31 @@
+=== Tree narration  ===
+619 movements total
+8 skipped - no longDescription to narrate
+12 skipped - built world with its own orientation.story, recorded in its Representative's voice
+349 skipped - not a person row (person run)
+0 already narrated and current (use --force to regenerate)
+0 stale - recorded from text that has since changed, re-voiced this run
+12 to generate this run, 38916 characters total
+=== PAID RUN, settings as actually used ===
+approved run     : Batch 6: the thirteen (Mark, 2026-11-19, 'approved and go live', cap 22,500 credits)   char cap: 40500
+person voice id  : onegjDE2z0mQtp1g0HK7   (kind "person", every item)
+output format    : mp3_44100_64
+model            : eleven_v4
+settings         : {"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true}
+audio tags       : open (none), before the last sentence (none), between paragraphs [pause], 7 respellings
+items            : 12   characters: 38916 text, 39843 sent
+===========================================
+  ok: irenaeus-of-lyon voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=4450 sent=4552 cost=2207 request-id=odarsLnGk2ByJViukxhP
+  ok: polycarp-of-smyrna voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=2618 sent=2690 cost=1304 request-id=gMnzrIpaP8hE6dneiVUv
+  ok: josephus voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=3290 sent=3392 cost=1645 request-id=QI0vzHZmuoGZBaMIlm6n
+  ok: suetonius voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=2531 sent=2585 cost=1253 request-id=78LSOCHC3frqPwsL414f
+  ok: hermas voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=2742 sent=2796 cost=1356 request-id=vtoaESgB1jPFVbd8npMx
+  ok: ignatius-of-antioch voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=3122 sent=3209 cost=1556 request-id=wBTq8VpTydlMmkUJDznq
+  ok: pliny-the-younger voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=3527 sent=3632 cost=1761 request-id=sCUr7Z14cULbO5cZMy5s
+  ok: valentinus voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=2938 sent=2992 cost=1451 request-id=v3oNmILhwWWe4Acnx2rU
+  ok: bardaisan-of-edessa voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=3677 sent=3773 cost=1829 request-id=DI7jyioaAw3iUVGdjwEn
+  ok: tatian voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=3497 sent=3560 cost=1726 request-id=63eD6TbpIE1f7XfnO2TX
+  ok: polycrates-of-ephesus voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=2974 sent=3046 cost=1477 request-id=6IrDotExtjVArXLwnhFc
+  ok: hippolytus-of-rome voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=3550 sent=3616 cost=1753 request-id=er3QvIucVa2M66hbET0y
+
+12/12 generated. credits charged (character-cost headers): 19318

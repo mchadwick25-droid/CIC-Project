@@ -1,0 +1,21 @@
+bardaisan-of-edessa: SPELLING Daisan (the tree has Bardaisan, Damian)
+hermas: SPELLING Rhoda (the tree has Rhode)
+hippolytus-of-rome: SPELLING Novatus (the tree has Renovatus)
+ignatius-of-antioch: SPELLING Pilate (the tree has Philae)
+irenaeus-of-lyon: SPELLING Florinus (the tree has Florens)
+irenaeus-of-lyon: SPELLING Rhone (the tree has Rhine, Rhode, Rhône)
+josephus: SPELLING Pilate (the tree has Philae)
+pliny-the-younger: clear
+polycarp-of-smyrna: clear
+polycrates-of-ephesus: clear
+suetonius: SPELLING Aquila (the tree has Aquileia, Aquileian)
+suetonius: SPELLING Chrestianus (the tree has Chrestus, Christian, Christians)
+tacitus: SPELLING Pilate (the tree has Philae)
+tatian: SPELLING Athenians (the tree has Athens)
+tatian: SPELLING Searching (the tree has Teaching)
+valentinus: SPELLING Angry (the tree has Anegray, Anger)
+
+Coordinator's ruling on each SPELLING line (2026-11-19): no shared quote in the batch.
+- Rhone: the tree spells it "Rhône"; the Irenaeus brief is changed to match before review.
+- Rhoda: the tree's "Rhode" is only Hermas's own older text; the new story follows its outline's "Rhoda", and the card is made to match at the card step.
+- Daisan, Novatus, Pilate, Florinus, Aquila, Chrestianus, Athenians, Searching, Angry: different words or people from the close name listed; no change.
