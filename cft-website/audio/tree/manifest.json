@@ -3600,5 +3600,24 @@
   "openTag": null,
   "closingTag": null,
   "requestId": "xH4d7co40CIdmbU9RupG"
+ },
+ "barsauma-of-nisibis": {
+  "file": "barsauma-of-nisibis.mp3",
+  "bytes": 1814403,
+  "chars": 3365,
+  "text_sha256": "f162604a58c8b54e0e49c636622e080f410811720c51b7de3ac78e2cfd61ec7c",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3446,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "vNFLvQyqNvwHksEtIbDN"
  }
 }
