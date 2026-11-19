@@ -4802,3 +4802,9 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 **Decided (Mark, 2026-11-19: "Add one entry for both (Recommended)").** One person entry, `cyril-and-methodius`, under their tradition in era 4, carries the finished story and card unchanged. A census pass checks the entry. The story is recorded on batch 6's settings once Mark sets a credit cap.
 
 **Recording and the major mark (Mark, 2026-11-19).** "Approve, cap 1,600 (Recommended)" for the one story, on batch 6's settings, and "Major (Recommended)": Cyril and Methodius carry the major mark.
+
+## 2026-11-19 — Place lines always sit under the tradition's name
+
+**Why.** Mark: "when you scroll in far enough to see location appear there are gaps and not layed out well". Each place line was placed once, when the map was laid out, from a guess at the name's width at normal size, either under the name or beside it. As the map zooms in, names are drawn smaller, so a line beside its name drifted away with a wide gap ("Anatolia, Turkey" floated far from Cappadocians), and the under-or-beside choice never changed with zoom.
+
+**Decided (Mark, 2026-11-19: "Always under the name").** Each place line now sits directly under its tradition's name, lined up with the name, the same gap every time. It is placed each time the map is drawn, measured against the name at the current zoom, with the same collision check the names use. Where there is no room under a name, the line stays hidden until zooming in opens room. While a tradition's people are shown beside it, its place line stays hidden as before.

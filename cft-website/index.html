@@ -270,7 +270,7 @@ svg.who-on .edge-line,svg.who-on .edge-hit,svg.who-on .continues{display:none!im
 .who-pill:focus-visible .who-focus{display:inline}
 .who-pill:hover .who-fig *,.who-pill:focus-visible .who-fig *,.who-pill[aria-pressed="true"] .who-fig *{fill:var(--gold-leaf)}
 svg.who-on .who-pill:not([aria-pressed="true"]){display:none}
-.node.who-under .lbl,.node.who-under .pl,.node.auto-own .pl{visibility:hidden}
+.node.who-under .lbl,.node.who-under .pl,.node.auto-own .pl,.node .pl.pl-cull{visibility:hidden}
 svg#world #rivers .river-group,svg#world #nodes .node,svg#world #stories,svg#world #councils,svg#world #across,svg#world #era-labels{transition:opacity .25s}
 svg.who-on #rivers .river-group:not(.who-lit),svg.who-on #nodes .node:not(.who-lit),svg.who-on #stories,svg.who-on #councils,svg.who-on #across,svg.who-on #era-labels{opacity:.2}
 svg.who-on #nodes .node.who-lit .pl{visibility:hidden}
@@ -125575,7 +125575,7 @@ const ERA_CLOSE={
   10:"The map runs to about 2010. Traditions that began after that will be added once enough time has passed."
 };
 const LAYOUT_DY=110, LAYOUT_DX=24, LAYOUT_ITER=800, LAYOUT_PAD=2;
-const NAME_CHAR=5.6, NAME_CHAR_BOLD=5.8, PLACE_CHAR=5.0, STORY_CHAR=5.0;
+const NAME_CHAR=5.6, NAME_CHAR_BOLD=5.8, STORY_CHAR=5.0;
 function nameSideLeft(x){return x>CANVAS_W-220;}
 function placeLine(m){return CFTPlace.formatPlace(m,{omitIn:m.shortName||m.name});}
 function markRects(item){
@@ -125633,23 +125633,7 @@ function layoutMarks(){
     items.sort((a,b)=>a.y-b.y);
     if(!moved&&!pull)break;
   }
-  const placed=[];
-  items.forEach(it=>{
-    const o=it.m||it.s; o._x=it.x; o._y=it.y;
-    if(!it.m)return;
-    const m=it.m, text=placeLine(m), w=text.length*PLACE_CHAR;
-    m._placeShown=null;
-    if(!text||text.toLowerCase()===(m.shortName||m.name).toLowerCase())return;
-    const left=nameSideLeft(it.x), built=m.status==='Built & Live';
-    const nameW=labelRun(m);
-    const below=left?[-(7+w),7,-5,19]:[5,7,7+w,19];
-    const inline=left?[-(7+nameW+8+w),-8,-(7+nameW+4),7]:[7+nameW+4,-8,7+nameW+8+w,7];
-    const clear=r=>!items.some(o2=>o2!==it&&Math.abs(o2.y-it.y)<80&&rectsOverlap([r],it.x,it.y,o2.rects,o2.x,o2.y))
-      &&!placed.some(p=>rectsOverlap([r],it.x,it.y,[p.r],p.x,p.y));
-    for(const [where,r] of (left?[['below',below]]:[['below',below],['inline',inline]])){
-      if(clear(r)){m._placeShown=where;m._placeOffset=r;placed.push({r,x:it.x,y:it.y});break;}
-    }
-  });
+  items.forEach(it=>{const o=it.m||it.s; o._x=it.x; o._y=it.y;});
 }
 
 const normName=s=>String(s||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9]+/g,' ').trim();
@@ -126467,10 +126451,10 @@ function render(){
     house.appendChild(el('path',{d:'M-1.2,5 V1.4 H1.2 V5 Z',fill:'var(--parchment)'}));
     g.appendChild(halo); g.appendChild(dot); g.appendChild(focusRing); g.appendChild(house); g.appendChild(lbl);
     if(hasPeople(m))gProfPills.appendChild(whoFigure(m));
-    if(m._placeShown){
-      const r=m._placeOffset, inline=m._placeShown==='inline';
-      const pl=el('text',{class:'pl',x:m._x+(nearRightEdge?r[2]:r[0]),y:m._y+(inline?3.5:16),'text-anchor':nearRightEdge?'end':'start'});
-      pl.textContent=placeLine(m);
+    const place=placeLine(m);
+    if(place&&place.toLowerCase()!==(m.shortName||m.name).toLowerCase()){
+      const pl=el('text',{class:'pl',x:m._x,y:m._y,'text-anchor':nearRightEdge?'end':'start'});
+      pl.textContent=place;
       g.appendChild(pl);
     }
     g.addEventListener('mouseenter',(ev)=>{
@@ -127593,17 +127577,26 @@ function labelFitRun(){
       it.box=clash?null:r;
       if(!clash&&!lit.has(it.id))grid.add(r);
     });
-    if(scale>=Z_PLACE)items.forEach(it=>{
-      if(!it.box||it.g.classList.contains('auto-own'))return;
-      const pl=it.g.querySelector('.pl'); if(!pl)return;
-      const b=pl.getBBox(); if(b.width)grid.add({id:'pl'+it.id,x0:b.x,x1:b.x+b.width,y0:b.y,y1:b.y+b.height});
-    });
+    if(scale>=Z_PLACE){
+      const pfs=Math.min(10,13/scale);
+      items.forEach(it=>{
+        const pl=it.pl===undefined?(it.pl=it.g.querySelector('.pl')):it.pl; if(!pl)return;
+        if(!it.box||it.g.classList.contains('auto-own')){pl.classList.add('pl-cull');return;}
+        if(!it.plW){it.plW=pl.getComputedTextLength()/(parseFloat(getComputedStyle(pl).fontSize)||pfs);}
+        const w=it.plW*pfs, y=it.y+fs*labelFit.desc+pfs*0.95, x0=it.end?it.x-w:it.x;
+        pl.setAttribute('x',it.x.toFixed(2)); pl.setAttribute('y',y.toFixed(2));
+        const r={id:'pl'+it.id,x0:x0-2,x1:x0+w+2,y0:y-pfs*0.95,y1:y+pfs*0.3};
+        const clash=grid.hits(r);
+        pl.classList.toggle('pl-cull',clash);
+        if(!clash)grid.add(r);
+      });
+    }
   }
   placeWhoMarks();
   keepMapFocus(held);
 }
 function scheduleLabelFit(){if(labelFit.queued)return;labelFit.queued=true;requestAnimationFrame(labelFitRun);}
-if(document.fonts&&document.fonts.addEventListener)document.fonts.addEventListener('loadingdone',()=>{if(labelFit.items)labelFit.items.forEach(it=>{it.w=0;});labelFit.asc=0;scheduleLabelFit();});
+if(document.fonts&&document.fonts.addEventListener)document.fonts.addEventListener('loadingdone',()=>{if(labelFit.items)labelFit.items.forEach(it=>{it.w=0;it.plW=0;});labelFit.asc=0;scheduleLabelFit();});
 let lastScale=null, whoRaf=0;
 function focusedMapItem(){const a=document.activeElement;return a&&a!==svg&&svg.contains(a)?a.closest(MAP_ITEM):null;}
 function keepMapFocus(held){
