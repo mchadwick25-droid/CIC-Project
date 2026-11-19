@@ -93182,11 +93182,11 @@
     "quotationOriginals": [
      {
       "modern": "We are persecuted because we said: the Son has a beginning, but God has no beginning.",
-      "printed": "\u0394\u03b9\u03c9\u03ba\u03cc\u03bc\u03b5\u03d1\u03b1 \u03b4\u1f72 \u1f45\u03c4\u03b9 \u03b5\u1f34\u03c0\u03bf\u03bc\u03b5\u03bd, \u1fbf\u0394\u03c1\u03c7\u1f74\u03bd \u1f14\u03c7\u03b5\u03b9 \u1f41 \u03c5\u1f31\u1f78\u03c2, \u1f41 \u03b4\u1f72 \u03d1\u03b5\u1f78\u03c2 \u1f00\u03bd\u03b1\u03c1\u03c7\u03cc\u03c2 \u1f10\u03c3\u03c4\u03b9.",
+      "printed": "\u0394\u03b9\u03c9\u03ba\u03cc\u03bc\u03b5\u03d1\u03b1 \u03b4\u1f72 \u1f45\u03c4\u03b9 \u03b5\u1f34\u03c0\u03bf\u03bc\u03b5\u03bd, \u1f08\u03c1\u03c7\u1f74\u03bd \u1f14\u03c7\u03b5\u03b9 \u1f41 \u03c5\u1f31\u1f78\u03c2, \u1f41 \u03b4\u1f72 \u03d1\u03b5\u1f78\u03c2 \u1f04\u03bd\u03b1\u03c1\u03c7\u03cc\u03c2 \u1f10\u03c3\u03c4\u03b9.",
       "work": "Arius, Letter to Eusebius of Nicomedia, in Epiphanius, Panarion 69.6, ed. Franz Oehler; checked against Theodoret, Church History 1.4, in Nicene and Post-Nicene Fathers, second series, vol. 3 (lines 6045-6046)",
       "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt",
       "lines": "45736-45738",
-      "uncertain": "The file is OCR, kept as it stands: \u1fbf\u0394\u03c1\u03c7\u1f74\u03bd reads \u1f08\u03c1\u03c7\u1f74\u03bd, \u1f00\u03bd\u03b1\u03c1\u03c7\u03cc\u03c2 reads \u1f04\u03bd\u03b1\u03c1\u03c7\u03cc\u03c2, and \u03d1 is the scan's \u03b8; line 45737, inside the span, is scanned apparatus. \"We said\" follows the Greek aorist \u03b5\u1f34\u03c0\u03bf\u03bc\u03b5\u03bd; the English of Theodoret reads \"we say\".",
+      "uncertain": "The file is OCR: its \u1fbf\u0394\u03c1\u03c7\u1f74\u03bd and \u1f00\u03bd\u03b1\u03c1\u03c7\u03cc\u03c2 are read \u1f08\u03c1\u03c7\u1f74\u03bd and \u1f04\u03bd\u03b1\u03c1\u03c7\u03cc\u03c2, as Theodoret's Greek of the same letter prints them (Church History 1.4, Migne, PG 82); \u03d1 is the scan's \u03b8. Line 45737, inside the span, is scanned apparatus. \"We said\" follows the Greek aorist \u03b5\u1f34\u03c0\u03bf\u03bc\u03b5\u03bd; the English of Theodoret reads \"we say\".",
       "secondReading": "same"
      },
      {
@@ -96038,12 +96038,11 @@
     "quotationOriginals": [
      {
       "modern": "You, Lord, have set us free from the fear of death.",
-      "printed": "\u00ab\u03a3\u1f7a,\u00bb \u03c6\u03b7\u03c3\u1f76\u03bd, \u00ab\u1f14\u03bb\u03c5\u03c3\u03b1\u03c2 \u1f21\u03bc\u1fd6\u03bd, \u039a\u03cd\u03c1\u03b9\u03b5, \u03c4\u03bf\u1fe6 \u03b8\u03b1\u03bd\u03ac\u03c4\u03bf\u03c5 \u03c4\u1f78\u03bd \u03c6\u03cc\u03b8\u03bf\u03bd.",
-      "work": "Gregory of Nyssa, Life of Macrina, Greek, Migne, PG 46",
-      "file": "cic/texts/gregory-nyssa_opera-omnia-pg46-grc-lat_migne1863.txt",
-      "lines": "71687-71690",
-      "secondReading": "same",
-      "uncertain": "The OCR prints \u03c6\u03cc\u03b8\u03bf\u03bd for \u03c6\u03cc\u03b2\u03bf\u03bd, after a run of garbled Latin on line 71690. Clarke's English (line 230) reads \"Thou, O Lord, hast freed us from the fear of death.\""
+      "printed": "Thou, O Lord, hast freed us from the fear of death.",
+      "work": "Gregory of Nyssa, Life of Macrina, tr. W. K. Lowther Clarke; the modern English follows Gregory's Greek, Migne, PG 46",
+      "file": "cic/texts/gregory-nyssa_life-of-macrina_clarke1916.txt",
+      "lines": "230",
+      "secondReading": "same"
      }
     ]
    }
