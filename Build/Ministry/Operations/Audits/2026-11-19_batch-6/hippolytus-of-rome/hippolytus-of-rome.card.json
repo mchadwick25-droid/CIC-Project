@@ -1,0 +1,160 @@
+{
+ "otherNames": [
+  "Hippolytus"
+ ],
+ "knownFor": "A Greek-writing teacher at Rome who attacked the bishop Callistus in his Refutation of All Heresies and was exiled to Sardinia in 235.",
+ "datesNote": "Exiled 235",
+ "placeNote": "Rome",
+ "role": "Presbyter, writer, and rival of Callistus",
+ "keyWorks": [
+  {
+   "title": "Refutation of All Heresies",
+   "about": "every heresy traced to Greek philosophy, ending with Callistus; found at Mount Athos in 1842"
+  },
+  {
+   "title": "Against Noetus",
+   "about": "against the teaching that the Father himself suffered"
+  },
+  {
+   "title": "Tables for the date of Easter",
+   "about": "a sixteen-year cycle, carved on the chair of his statue"
+  }
+ ],
+ "legacy": {
+  "traces": [
+   "Jerome of Strido says his Easter cycle prompted Eusebius of Caesarea to write a nineteen-year cycle of his own."
+  ],
+  "remembered": [
+   "The calendar in the book of 354 lists his burial on the Tiburtine Road among the martyrs of Rome.",
+   "A seated marble statue with an Easter table and a list of books was found on the Tiburtine Road in 1551. Arthur McGiffert says it has been shown to be his."
+  ]
+ },
+ "uncertain": [
+  "His account of Callistus is an enemy's. McGiffert calls it \"greatly overdrawn,\" though true at its base.",
+  "Eusebius calls him a bishop \"over another church,\" and Jerome could not learn which city. A later tradition makes him bishop of Portus, the harbor of Rome. J. H. MacMahon, who translated the Refutation, accepts it. Döllinger, MacMahon reports, kept him a bishop but refused Portus. McGiffert calls the Portus tradition \"quite worthless.\"",
+  "McGiffert thinks a strict party set him up as a rival bishop against Callistus, and that he returned to the main church after Callistus died. The book of 354 calls him a presbyter.",
+  "The Refutation was printed in 1851 under the name of Origen. MacMahon says most scholars since have decided it is by Hippolytus, among them Döllinger, Bunsen and Wordsworth.",
+  "The poet Prudentius, in a hymn, tells that he was torn apart by wild horses. MacMahon says the details of that hymn are not historic. McGiffert thinks he and Pontianus probably died in the mines of Sardinia."
+ ],
+ "sources": {
+  "ownWords": [
+   {
+    "title": "Refutation of All Heresies; Against Noetus",
+    "language": "English",
+    "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+   }
+  ],
+  "about": [
+   {
+    "title": "The book of 354: the list of the bishops of Rome and the calendar of martyrs (ed. Mommsen)",
+    "author": "Unknown",
+    "date": null,
+    "language": "Latin",
+    "file": "cic/texts/chronica-minora-liber-genealogus_mommsen1892.txt"
+   },
+   {
+    "title": "Church History, Book 6, chapters 20 to 22, with McGiffert's notes",
+    "author": "Eusebius of Caesarea",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+   },
+   {
+    "title": "Lives of Illustrious Men, 61",
+    "author": "Jerome of Strido",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+   },
+   {
+    "title": "Le Liber pontificalis, volume 1: the list of the bishops of Rome, and Damasus's verse on Hippolytus, with Duchesne's commentary",
+    "author": "Louis Duchesne",
+    "date": "1886",
+    "language": "Latin and French",
+    "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt"
+   },
+   {
+    "title": "Histoire ancienne de l'Église, volume 1",
+    "author": "Louis Duchesne",
+    "date": "1907",
+    "language": "French",
+    "file": "cic/texts/duchesne_histoire-ancienne-de-leglise-tome1-fra_3e-ed1907.txt"
+   },
+   {
+    "title": "Die Chronologie der altchristlichen Litteratur bis Eusebius, volume 2",
+    "author": "Adolf Harnack",
+    "date": "1904",
+    "language": "German",
+    "file": "cic/texts/harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt"
+   }
+  ]
+ },
+ "briefReferences": [
+  "Hippolytus, Refutation of All Heresies IX, ch. 7, tr. J. H. MacMahon: Callistus and Noah's ark, with dogs, wolves and ravens, clean and unclean.",
+  "Arthur McGiffert, notes to Eusebius, Church History VI.20 to 22: Zephyrinus bishop to 217, Callistus from 217; Hippolytus wrote all his works in Greek. Refutation IX, ch. 7: the charges against Callistus. The list of Rome's bishops in the book of 354: the exile of 235 with Pontianus. McGiffert, Harnack and Duchesne on the rival church.",
+  "Hippolytus, Against Noetus 1 and 7, tr. S. D. F. Salmond: Noetus of Smyrna taught that Christ was the Father himself, born and suffering; I and the Father are one, two persons and one power.",
+  "Refutation IX, ch. 6 and 7: Callistus as adviser to Zephyrinus, the worshippers of two gods, the bank, the deposits and the sentence to the mines of Sardinia. McGiffert, notes to Church History VI.21: true at its base but greatly overdrawn.",
+  "Refutation IX, ch. 7: every sin forgiven, a bishop kept in office, a school against the church, adultery and murder; preface: successors of the apostles in high-priesthood. McGiffert, Harnack and Duchesne: a rival bishop at Rome; Mommsen, MacMahon: bishop of Portus; Batiffol, as Harnack reports him: no split. MacMahon: written after Callistus died in 222; Refutation, preface: each teaching traced to Greek philosophy.",
+  "The book of 354, ed. Theodor Mommsen, and the same list in Duchesne's Liber pontificalis: Pontianus and Hippolytus deported to Sardinia, the unhealthy island, in 235; the calendar of martyrs: both kept on 13 August. McGiffert and Harnack: he probably died on the island.",
+  "Duchesne, Histoire ancienne I: his books soon lost from sight at Rome, where the next generation of clergy wrote Latin. A. Cleveland Coxe and MacMahon, introduction to the Refutation: found at Mount Athos in 1842, printed in 1851 under Origen's name; most scholars since for Hippolytus. Harnack: Batiffol and others still doubted it.",
+  "Damasus, verse on the tomb of Hippolytus, as printed by Duchesne in the Liber pontificalis: the split of Novatus, the catholic faith, Damasus tells what he has heard. Duchesne and Mommsen: Damasus confused two splits. World census, Novatian: the split of 251 over taking back those who had denied the faith."
+ ],
+ "quotationOriginals": [
+  {
+   "modern": "He also said that Noah's ark was made as a sign of the church. In it were dogs and wolves and ravens, everything clean and unclean. So, he says, it should be with the church.",
+   "printed": "But also he affirmed that the ark of Noe was made for a symbol of the Church, in which were both dogs, and wolves, and ravens, and all things clean and unclean; and so he alleges that the case should stand in like manner with the Church.",
+   "work": "Hippolytus, Refutation of All Heresies IX, ch. 7, tr. J. H. MacMahon (his report of Callistus)",
+   "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+   "lines": "13909-13912"
+  },
+  {
+   "modern": "Christ did not say, 'I and the Father am one,' but 'are one.' The word 'are' is not said of one person. It speaks of two persons and one power.",
+   "printed": "He did not say, “I and the Father am one, but are one.” For the word are is not said of one person, but it refers to two persons, and one power.",
+   "work": "Hippolytus, Against Noetus 7, tr. S. D. F. Salmond",
+   "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+   "lines": "23442-23450"
+  },
+  {
+   "modern": "worshippers of two gods.",
+   "printed": "worshippers of two gods",
+   "work": "Hippolytus, Refutation of All Heresies IX, ch. 6, tr. J. H. MacMahon",
+   "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+   "lines": "13640-13641"
+  },
+  {
+   "modern": "high-priesthood.",
+   "printed": "high-priesthood",
+   "work": "Hippolytus, Refutation of All Heresies, preface, tr. J. H. MacMahon",
+   "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+   "lines": "1130"
+  },
+  {
+   "modern": "the elder Hippolytus,",
+   "printed": "Yppolitus presbyter",
+   "work": "The list of the bishops of Rome in the book of 354, Pontianus, as printed by Louis Duchesne in the Liber pontificalis",
+   "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt",
+   "lines": "66806"
+  },
+  {
+   "modern": "the unhealthy island.",
+   "printed": "in insula nociva",
+   "work": "The list of the bishops of Rome in the book of 354, Pontianus, as printed by Louis Duchesne in the Liber pontificalis",
+   "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt",
+   "lines": "66807"
+  },
+  {
+   "modern": "It is said that Hippolytus, an elder, while the tyrant's orders pressed hard, had stayed all along in the split of Novatus.",
+   "printed": "Hippolytus fertur premerent cum iussa tyranni presbyter in scisma semper mansisse Novati.",
+   "work": "Damasus, verse on the tomb of Hippolytus, lines 1 and 2, as restored by Giovanni Battista de Rossi and printed by Louis Duchesne in the Liber pontificalis",
+   "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt",
+   "lines": "109159-109160"
+  },
+  {
+   "modern": "Damasus tells what he has heard. Christ tests it all.",
+   "printed": "Haec audita refert Damasus, probat omnia Christus.",
+   "work": "Damasus, verse on the tomb of Hippolytus, last line, as printed by Louis Duchesne in the Liber pontificalis",
+   "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt",
+   "lines": "109166"
+  }
+ ]
+}
