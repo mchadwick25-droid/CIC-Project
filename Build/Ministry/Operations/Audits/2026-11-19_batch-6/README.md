@@ -45,3 +45,8 @@ Each folder holds `Source_Sheet.md` and `Outline.md` from the researcher, and `C
 6. Card.
 7. Second readings (`tools/list_second_readings.py`).
 8. Recording, with Mark's approval and a credit cap first; then release.
+
+## At release
+- One Open-Gaps entry for the batch, and one that updates "The stories approved before the kit: a consistency check when eras 1 and 2 are finished" (2026-11-19) with the change order of the same day.
+- Once Polycarp's reviewed text is in the census, his entry leaves `Build/Ministry/Features/Church-Family-Tree/Earlier-Approved.yaml`; then `python tools/list_story_status.py --write`.
+- The batch 7 launch prompt in `Build/Ministry/Features/Church-Family-Tree/Launch-Prompts/`, carrying the ledger step and Origen and Methodius under review.
