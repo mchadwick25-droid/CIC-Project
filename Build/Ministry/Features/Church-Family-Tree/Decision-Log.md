@@ -4808,3 +4808,9 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 **Why.** Mark: "when you scroll in far enough to see location appear there are gaps and not layed out well". Each place line was placed once, when the map was laid out, from a guess at the name's width at normal size, either under the name or beside it. As the map zooms in, names are drawn smaller, so a line beside its name drifted away with a wide gap ("Anatolia, Turkey" floated far from Cappadocians), and the under-or-beside choice never changed with zoom.
 
 **Decided (Mark, 2026-11-19: "Always under the name").** Each place line now sits directly under its tradition's name, lined up with the name, the same gap every time. It is placed each time the map is drawn, measured against the name at the current zoom, with the same collision check the names use. Where there is no room under a name, the line stays hidden until zooming in opens room. While a tradition's people are shown beside it, its place line stays hidden as before.
+
+## 2026-11-19 — A new river's people sit where it turns down, not on the trunk
+
+**Why.** Mark: "the river people should sit right at the curve down, not on the early believer thread, that gets confusing with all of them looking like they are early believers not from other threads." In the era where a river begins, its people figure sat at the first point the river showed, which is where it leaves the First Churches, so Africa's "7" sat on the trunk beside Montanism.
+
+**Done (Mark's direction, 2026-11-19).** In the era where a river begins, its people figure now sits where the river has curved into its own lane and turns down (its start plus the merge window), moving further down only to clear a label. In every other era it is placed as before. Checked in era 1: Africa, Latin West, Syriac East and Non-Nicene each sit on their own river.

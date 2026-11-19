@@ -126036,10 +126036,12 @@ function placeWhoMarks(){
     gWhoPills.querySelectorAll('.river-pill').forEach(p=>{
       const era=+p.dataset.era, k=+p.dataset.lane, hw=U*1.6, hh=U*.75;
       const spanAt=y=>riverSpanAt(k,y,1)||riverSpanAt(k,y,0), top=eraY0[era]+16+U*1.05, end=eraY0[era]+eraH[era]-U;
-      let y=top; while(y<end&&!spanAt(y))y+=6;
+      const born=k!==0&&laneGenesisY[k]>=eraY0[era]&&laneGenesisY[k]<eraY0[era]+eraH[era];
+      let y=born?Math.min(end,Math.max(top,laneGenesisY[k]+MERGE_WINDOW)):top; while(y<end&&!spanAt(y))y+=6;
       const mk=y=>{const sp=spanAt(y), x=sp?(sp[0]+sp[1])/2:laneCenterX(k,y);return [x,y,{id:'pill'+p.dataset.who,x0:x-hw,x1:x+hw,y0:y-hh,y1:y+hh}];};
       let best=mk(y);
-      if(y<=top+1){for(const d of [0,1.5,3,4.5]){const c=mk(y+d*U);if(spanAt(c[1])&&!grid.hits(c[2])){best=c;break;}}}
+      if(born){for(const d of [0,1,2,3,4,5,6,7,8]){const c=mk(y+d*U*.8);if(spanAt(c[1])&&!grid.hits(c[2])){best=c;break;}}}
+      else if(y<=top+1){for(const d of [0,1.5,3,4.5]){const c=mk(y+d*U);if(spanAt(c[1])&&!grid.hits(c[2])){best=c;break;}}}
       else{
         y+=U*.4; best=mk(y);
         for(const d of [0,1,2,3,-1,4,5,-2,6,7,8]){const c=mk(y+d*U*.8);if(spanAt(c[1])&&!grid.hits(c[2])){best=c;break;}}
