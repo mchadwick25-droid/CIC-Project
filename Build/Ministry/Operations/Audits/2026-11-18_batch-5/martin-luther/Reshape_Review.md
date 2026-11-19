@@ -57,3 +57,6 @@ It flows as one told story. The 1525 run (both sides, the tract, the friend, the
 ## 6. Scorer
 
 `655 words, grade 7.5 (names out 7.0), reading ease names out 75.1, 16.8 words a sentence, 0.9 joining words per 100, 10% short sentences, longest sentence 31 words - pass (note: grade 7.5 is under 8: the listener read checks it is not flat)`. Listener read: not flat; the register holds, with the world's own lines (the theses, Worms, the 1525 tract) carrying the voice.
+
+## Applied (coordinator, 2026-11-19)
+The MINOR flow fix applied word for word as the reviewer worded it.
