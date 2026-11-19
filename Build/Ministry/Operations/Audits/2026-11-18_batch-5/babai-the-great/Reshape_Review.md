@@ -50,3 +50,6 @@ It reads as one told story; the cuts leave no clipped gaps. One join is weaker t
 ## 6. Readability
 
 `python -m engine.m1.profile_readability Build/Ministry/Operations/Audits/2026-11-18_batch-5/babai-the-great/babai-the-great.brief.txt`: 478 words, grade 7.2 (names out 6.6), reading ease names out 80.6, 18.4 words a sentence, 0.2 joining words per 100, 0% short sentences, longest sentence 32 words. **Pass**, with the note that grade 7.2 is under 8. On the listener read it is not flat: the sentences carry chains of cause and time, and the world's images stand (the Sun oath, the burned huts, the white horse and fiery sword).
+
+## Applied (coordinator, 2026-11-19)
+The MINOR flow fix applied word for word as the reviewer worded it.
