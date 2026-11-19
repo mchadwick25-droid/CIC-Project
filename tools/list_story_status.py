@@ -5,7 +5,8 @@ Each person and major council in the census is one of:
   KIT     rewritten on the brief kit, in a numbered batch folder
           (Build/Ministry/Operations/Audits/<date>_batch-<n>/<slug>/<slug>.brief.txt);
           the latest batch that holds it is given
-  TO DO   still carries a story written before the kit
+  TO DO   still carries a story written before the kit; when Mark approved a newer text
+          before the kit that is not live yet (Earlier-Approved.yaml), the to-do line names it
 
 A story the kit finished but the census does not hold yet is listed as NOT IN CENSUS.
 Recorded audio is shown from cft-website/audio/tree/<slug>.mp3.
@@ -27,6 +28,7 @@ CENSUS = ROOT / "cic-website/data/world-census.json"
 AUDITS = ROOT / "Build/Ministry/Operations/Audits"
 AUDIO = ROOT / "cft-website/audio/tree"
 LEDGER = ROOT / "Build/Ministry/Features/Church-Family-Tree/Story-Ledger.md"
+EARLIER = ROOT / "Build/Ministry/Features/Church-Family-Tree/Earlier-Approved.yaml"
 BATCH = re.compile(r"^\d{4}-\d{2}-\d{2}_batch-(\d+)$")
 KINDS = {"person": "person", "major-council": "council"}
 
@@ -46,14 +48,16 @@ def kit_batches(audits: Path = AUDITS) -> dict[str, int]:
     return out
 
 
-def ledger(census: dict, batches: dict[str, int], audio: set[str]) -> dict:
+def ledger(census: dict, batches: dict[str, int], audio: set[str], earlier: dict[str, dict] | None = None) -> dict:
+    earlier = earlier or {}
     rows = []
     for m in census.get("movements", []):
         kind = KINDS.get(m.get("kind"))
         if not kind:
             continue
         rows.append({"id": m["id"], "name": m.get("name", m["id"]), "era": m.get("era"), "kind": kind,
-                     "batch": batches.get(m["id"]), "audio": m["id"] in audio})
+                     "batch": batches.get(m["id"]), "audio": m["id"] in audio,
+                     "earlier": None if m["id"] in batches else earlier.get(m["id"])})
     ids = {r["id"] for r in rows}
     missing = sorted(s for s in batches if s not in ids)
     return {"rows": rows, "not_in_census": [(s, batches[s]) for s in missing]}
@@ -78,8 +82,13 @@ def render(result: dict) -> str:
             lines += [f"| {r['name']} (`{r['id']}`) | {r['kind']} | {r['batch']} | {'yes' if r['audio'] else 'no'} |" for r in kit]
             lines.append("")
         if todo:
-            lines.append("To do: " + "; ".join(f"{r['name']} (`{r['id']}`{', council' if r['kind'] == 'council' else ''}{', recorded' if r['audio'] else ''})" for r in todo) + ".")
+            lines.append("To do: " + "; ".join(f"{r['name']} (`{r['id']}`{', council' if r['kind'] == 'council' else ''}{', recorded' if r['audio'] else ''}{', approved earlier, not live' if r['earlier'] else ''})" for r in todo) + ".")
             lines.append("")
+            held = [r for r in todo if r["earlier"]]
+            if held:
+                lines.append("Approved before the kit, text not live yet:")
+                lines += [f"- {r['name']}: `{r['earlier']['text']}` ({r['earlier']['approved']})" for r in held]
+                lines.append("")
     if result["not_in_census"]:
         lines += ["## On the kit, not in the census", ""]
         lines += [f"- `{s}` (batch {n})" for s, n in result["not_in_census"]]
@@ -93,7 +102,11 @@ def main(argv=None) -> int:
     args = ap.parse_args(argv)
     census = json.loads(CENSUS.read_text(encoding="utf-8"))
     audio = {p.stem for p in AUDIO.glob("*.mp3")} if AUDIO.is_dir() else set()
-    text = render(ledger(census, kit_batches(), audio))
+    earlier = {}
+    if EARLIER.is_file():
+        import yaml
+        earlier = {e["id"]: e for e in yaml.safe_load(EARLIER.read_text(encoding="utf-8")) or []}
+    text = render(ledger(census, kit_batches(), audio, earlier))
     print(text)
     if args.write:
         LEDGER.write_text(text + "\n", encoding="utf-8")

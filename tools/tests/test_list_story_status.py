@@ -34,3 +34,15 @@ def test_ledger_splits_kit_and_to_do_and_lists_missing():
     text = render(r)
     assert "1 of 2 people and major councils are on the brief kit" in text
     assert "Council of Nicaea (`nicaea`, council)" in text
+
+
+def test_an_earlier_approved_text_is_named_on_its_to_do_line_until_the_kit_has_it():
+    census = {"movements": [{"id": "polycarp", "name": "Polycarp", "era": 1, "kind": "person"},
+                            {"id": "origen", "name": "Origen", "era": 1, "kind": "person"}]}
+    earlier = {"polycarp": {"text": "a/polycarp.brief.txt", "approved": "2026-11-16"},
+               "origen": {"text": "bar/origen.brief.txt", "approved": "2026-11-16"}}
+    r = ledger(census, {"origen": 6}, set(), earlier)
+    text = render(r)
+    assert "Polycarp (`polycarp`, approved earlier, not live)" in text
+    assert "- Polycarp: `a/polycarp.brief.txt` (2026-11-16)" in text
+    assert "bar/origen.brief.txt" not in text
