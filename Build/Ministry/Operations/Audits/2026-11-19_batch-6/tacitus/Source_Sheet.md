@@ -17,7 +17,7 @@ Researcher's sheet for batch 6. The writer uses the outline, the shapes and the 
 
 **Conventions.** Line numbers are the file's own. Latin, French and German keep the OCR's spelling, with obvious OCR faults corrected in [brackets]; double spaces are collapsed and words split at line ends are joined. Nothing else is changed.
 
-**Languages.** Tacitus wrote in Latin. The Library holds the whole chapter only in English (TAC). Its Latin is held only in part, as SCH quotes it: the rumour, Nero's blame, the name, the arrests and the verdict (SCH 24312–24318, 24348). The Christus sentence, the deaths and the closing sentence are held only in English. s6 in full and s7 from "exitiabilis superstitio" on are held in Latin at OTTO 12174–12191 (Maranus's prolegomena, quoting *Annals* 15). Renderings below say which text they come from.
+**Languages.** Tacitus wrote in Latin. The Library holds the whole chapter only in English (TAC). Its Latin is held only in part, as SCH quotes it: the rumour, Nero's blame, the name, the arrests and the verdict (SCH 24312–24318, 24348). The Christus sentence, the deaths and the closing sentence are held only in English. s6 in full and s7 from "exitiabilis superstitio" on are held in Latin at OTTO 12174–12192 (Maranus's prolegomena, quoting *Annals* 15). Renderings below say which text they come from.
 
 **Witness kinds.** OWN = Tacitus's own words (TAC). LATER = Tertullian (Carthage, about 200; the ANF editor dates the *Apology* between 198 and 217, TERT-E 966–967); Sulpicius Severus (about 400; his *Chronicle* runs to 400, SUL-E 441–444; life about 363–420, SUL-E 349–352). MODERN = Whiston (eighteenth century), Yonge 1862, Roberts and Bradlaugh 1876, McGiffert 1890, Harnack 1906, Duchesne 1907, Rolfe 1914, Schanz 1922. EDITOR = TAC-H and MAP, the Library's own notes.
 
@@ -99,7 +99,7 @@ D8. **Lateness.** Tacitus wrote about half a century after the fire (S3); the Ch
 
 ## 6. Not held, or not in the record
 
-N1. The Latin of TAC 68 s7 up to "exitiabilis superstitio" (Christus), s9–s12 (the deaths, the pity). Rendered from English. s6 in full and s7 from "exitiabilis superstitio" on are held in Latin at OTTO 12174–12191.
+N1. The Latin of TAC 68 s7 up to "exitiabilis superstitio" (Christus), s9–s12 (the deaths, the pity). Rendered from English. s6 in full and s7 from "exitiabilis superstitio" on are held in Latin at OTTO 12174–12192.
 N2. Pliny's letters to Tacitus; anything held on their friendship. Searched "Tacit" in RB, HAR, SCH, EUS and the Pliny material in WH; no line names them as friends.
 N3. *Annals* 15.38–43 (the fire), the *Histories*, and every other work of Tacitus (TAC-H 37–43). Tacitus's own account of where the fire began, or of Nero at Antium (Sulpicius has Antium, SUL-L 4784).
 N4. Tacitus's birth, death, full name in his own text, and offices, beyond Montaigne's and Whiston's reports (S2).
@@ -110,7 +110,7 @@ N6. Orosius, and any other late-antique Christian who names Tacitus on the fire.
 
 **Searched.** The card's `sources` (all six files, read at their passages). The corpus map: Tacitus has no `toldWithin`; his only row is in `post-apostolic-house-church.yaml` (MAP, role `context`) with its staging copy; `WORKS.yaml`, `AUTHOR-IDS.yaml` and `RETRIEVAL-HINTS.md` hold no Tacitus row. A search of `cic/texts/` for `\bTacit(us|um|i|o|e|ean)\b`, "Cornelius Tacitus", "Cornelio Tacito", "Tacite" and Greek forms (307 files with a capitalised match, most of them the emperor Tacitus of 275, citations of other books of Tacitus in editors' notes, or Latin "tacite"); for "Ann. xv. 44" / "Annal. XV, 44" in every form; for "Chrestian"; and for the deaths' wording ("skins of beasts", "nocturni luminis", "odio humani", "exitiabil").
 
-**Found.** About 15 files speak to *Annals* 15.44 or to Tacitus as a witness to the Christians: TAC, SCH, DUC, HAR, EUS (McG), TERT-L, TERT-C, TERT-E, SUL-L, SUL-E, RB, WH, ROL, YON, CL (by Harnack's pairing), MON, OTTO (`apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872.txt`, Maranus's prolegomena, 12174–12191: *Annals* 15.44 s6–s7 in Latin).
+**Found.** About 15 files speak to *Annals* 15.44 or to Tacitus as a witness to the Christians: TAC, SCH, DUC, HAR, EUS (McG), TERT-L, TERT-C, TERT-E, SUL-L, SUL-E, RB, WH, ROL, YON, CL (by Harnack's pairing), MON, OTTO (`apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872.txt`, Maranus's prolegomena, 12174–12192: *Annals* 15.44 s6–s7 in Latin).
 
 **Used.** TAC, SCH, DUC, EUS/McG, TERT-L, TERT-C, TERT-E, SUL-L, SUL-E, RB, WH, ROL, YON, MON (S2 only), OTTO (Languages, I2a, N1).
 

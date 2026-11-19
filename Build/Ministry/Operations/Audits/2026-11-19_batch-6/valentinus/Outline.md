@@ -78,7 +78,7 @@ Only Quotes 1–3 are quoted aloud. "Death may die in you" (E10) may stand as a 
 - Marcion: link, one clause (beat 6). Census "Marcion of Pontus".
 - Ptolemy: acts (the pupil who made the powers separate beings). Not on the tree as a person; ANF spells "Ptolemæus"; use "Ptolemy", as the tradition entry does.
 - Heracleon: acts, optional (What came 1). Not on the tree as a person; tradition entry spelling.
-- Axionicus: acts, optional (What came 1, ending). Not on the tree.
+- Axionicus: acts, optional (Ending (a) only). Not on the tree.
 - Justin Martyr: link, optional (beat 2); census "Justin Martyr".
 - Origen: link, optional. Census "Origen".
 - Epiphanius: link, optional (beats 1, 7). Census "Epiphanius of Salamis"; may be given by role, "a bishop two centuries later".

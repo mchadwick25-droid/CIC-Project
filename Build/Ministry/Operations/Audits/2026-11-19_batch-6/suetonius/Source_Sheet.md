@@ -36,7 +36,7 @@ S3. **The friend of Pliny.** ROL 205–216: "In his letter to Trajan Pliny refer
 
 S4. **The book and its date.** ROL 320–326: "Of all these the only work which has come down to us entire, or nearly so, is the Lives of the Caesars, published in 120. It includes the biographies of twelve 'Caesars,' from Julius to Domitian". MODERN, Rolfe's date. Dominant Modern Reconstruction (the year). ROL 262–266 and following list his other, lost works (on famous men of letters, on Rome's customs, on the games of the Greeks, and others). ROL 427–432 (Rolfe, "General Characteristics"): great events "are dismissed in a brief chapter, or with a casual allusion ... The acts of the senate and people, and the edicts of the emperors, receive fuller attention, but are wholly subordinate to the personal element." MODERN.
 
-S5. **When the events were, and how far he wrote from them.** Claudius ruled 41–54 (MIR 2500: "Vorgehen des Kaisers Klaudius gegen die Juden in Rom (41 — 54)"; SCH 24275: "Schon unter Claudius (41—54)"). Nero ruled 54–68 (SCH 24275: "Nero (54 — 68)"). MODERN. Documented. Suetonius gives no year for the expulsion; the one held source that does is Bede, about 725, following Orosius (I2, D6). The great fire was in 64 (THF 20772–20773, note 614; Tacitus sheet S1). Written in or near 120 (S4), the Claudius line is more than sixty years after the event, the Nero line about fifty or more. Plain words: "decades later".
+S5. **When the events were, and how far he wrote from them.** Claudius ruled 41–54 (MIR 2500: "Vorgehen des Kaisers Klaudius gegen die Juden in Rom (41 — 54)"; SCH 24275: "Schon unter Claudius (41—54)"). Nero ruled 54–68 (SCH 24275: "Nero (54 — 68)"). MODERN. Documented. Suetonius gives no year for the expulsion; Bede, about 725, following Orosius, gives Claudius's ninth year (I2, D6). The great fire was in 64 (THF 20772–20773, note 614; Tacitus sheet S1). Written in or near 120 (S4), the Claudius line is more than sixty years after the event, the Nero line about fifty or more. Plain words: "decades later".
 
 S6. **Where.** Rome (both lines; CEN `placeLabel` "Rome"). OWN.
 
@@ -91,7 +91,7 @@ D4. **The fire and the Christians.** Suetonius does not join them (E6). The 1909
 
 D5. **His birth year.** 69 or 77 (S1). Contested.
 
-D6. **Not held.** Pliny's letters about Suetonius; Spartianus's *Life of Hadrian*; Dio's Greek in a clean text; Orosius's *History*, which Rolfe says drew on Suetonius (ROL 366) and which is the ancient Christian writer usually cited for the Claudius line: no held text of it. Suetonius and Acts give no year for the expulsion; the one held source that does is Bede's chronicle (to 725), whose "ninth year" of Claudius follows Orosius (I2).
+D6. **Not held.** Pliny's letters about Suetonius; Spartianus's *Life of Hadrian*; Dio's Greek in a clean text; Orosius's *History*, which Rolfe says drew on Suetonius (ROL 366) and which is the ancient Christian writer usually cited for the Claudius line: no held text of it. Suetonius and Acts give no year for the expulsion; Bede's chronicle (to 725) gives the "ninth year" of Claudius, following Orosius (I2).
 
 ## 6. Library sweep
 
