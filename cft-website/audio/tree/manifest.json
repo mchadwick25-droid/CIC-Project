@@ -3866,5 +3866,24 @@
   "openTag": null,
   "closingTag": null,
   "requestId": "er3QvIucVa2M66hbET0y"
+ },
+ "cyril-and-methodius": {
+  "file": "cyril-and-methodius.mp3",
+  "bytes": 1551298,
+  "chars": 2706,
+  "text_sha256": "f0cfeae6621cd70894fd05fa334b086aa4a8c37df70d3ba1d22173a3b5ee4013",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 2769,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "rdUitLaQ1MScQ2p3SDxY"
  }
 }
