@@ -4685,3 +4685,45 @@ Each keeps its approved essence. One independent check follows, then the census,
 2. **A reader re-assessing their faith** is the sixth persona of the drift read (Mark: "re-assesing faith"). It is a drift check, like the others, not a request for changes.
 3. **Then record and go live** (Mark: "after go ahead and record the rest and go live"). Recording follows the paid-run rules: one item first, settings printed, the balance checked after. Promotion follows `Build/Ministry/Operations/Standing/CiC_Promotion_Runbook.md`.
 4. **Narsai added to Barsauma** (Mark: "yes add narsai to barsaumas story"). The rework review's MINOR 2 is applied word for word, so it needs no further check: "At Nisibis he welcomed the teacher Narsai and asked him to found a school, which counts them both as its founders." Barsauma is re-recorded within the same cap.
+
+## 2026-11-18 — The Who list says who each person was; the Origin river is renamed
+
+**Why.** Mark: clicking a Who figure gave "a menu … with names but not clear understanding who they are". The list showed names and dates only. Its heading, "Who: Origin, era 1", used the builder's name for the trunk river and an era number.
+
+**Decided (Mark, 2026-11-18).**
+- The list stays on the left and the person card on the right, so both are seen together ("seeing them together … makes more sense"; "Keep today's sides").
+- Each row shows the person's role line from their card, under the name ("Tacitus · Roman historian"). The tradition panel's Who list shows it too. The 27 people with no card yet show name and dates only. They fill in when the Who profile rewrite gives them cards; no role line is written for them here.
+- The heading reads "People of …" ("A"), with the era's own one-line description under it ("and a brief description"), then the era title, the count and the dates. A tradition's list reads "People of" its name.
+- The Origin river is renamed "The First Churches" everywhere ("B"). Each river carries the phrase its Who heading uses (`of` in the river list): a region reads "the Greek East", a bridge river "the Greek and Latin river", Across families "many families". The census validator's council river name changes to match; no council names the river yet.
+
+## 2026-11-18 — A click on the empty map closes the card; the brief keeps playing
+
+**Why.** Mark: a card "stays open until the x is clicked … should we also close it if the user clicks on the map to go back to it".
+
+**Decided (Mark, 2026-11-18).**
+- A plain click on empty map closes the card. A drag to move the map never does. A click on a place, person, story, council or connection still opens that card in its place. The Who list stays open.
+- A recorded brief starts by itself and runs two to four minutes, so the first rule ("the card stays open while the brief plays") would have made the click do nothing on most recorded cards. Mark chose instead: the card closes and the brief keeps playing ("Close, keep listening"). A small bar at the bottom shows "Listening:" and the card's name, with Pause or Play, "Open the card", and a close button that stops the brief. Opening the card again brings it back as it was, with the brief still playing. Opening a different card stops the old brief and hides the bar. The × on a card still closes it and stops the brief.
+
+## 2026-11-18 — Two first-visit tours: Getting started and Connections
+
+**Why.** Mark asked for "a click demonstration for those new to the site" to show its features. A research pass on comparable sites (history timelines and maps, data tools, Nielsen Norman Group and Material guidance) found that short tours that people choose are the ones they finish, and that a tour on a map works best when it shows the real move. The research page and the approved plan were reviewed as artifacts in the session.
+
+**Decided (Mark, 2026-11-18).**
+- Offered on the first visit, never forced ("Offered on first visit"). Not offered on a shared link to one tradition.
+- Each step highlights one thing, says it in one or two sentences, then does the real click; the visitor steps with Back, Next and Stop ("Shows each click, you step").
+- Getting started has five steps: the map, a tradition (Scattered Households), who was there (People of the First Churches, then Josephus), the era (the Early Church Era card), and the bar and Key ("ok for an initial intro").
+- A second tour of three steps for connections ("can we add a second one for when they open the connections"): what a line means, how sure the record is, and reading one. It is offered the first time connections are turned on, from the menu or from a card ("First use, either way in").
+- The captions and behaviours in the plan were approved as written ("they look right"): the brief never starts by itself during a tour; Stop, Escape or Done returns the map to the visitor's view; each offer is shown once, remembered in the visitor's browser; both tours can be taken again from "Take a tour" in the Key and in the phone Menu.
+
+## 2026-11-19 — The Family Tree stays a website for now; an app is looked at later
+
+**Why.** Mark asked what turning the Church Family Tree into an app would involve. Three routes were laid out: an installable web app (an app manifest, icons and offline use, on the same site and release process); the same site inside a store app (Apple and Google listings, store review on every release, a Mac to build the iPhone version, and the map's data moved out of the page so content can update without a store release); and a native rebuild (ruled out as rebuilding what already works).
+
+**Decided (Mark, 2026-11-19: "I think we stay web site for now and then look later at this").** No app work now. The question is tracked in Open-Gaps. When it is taken up again, the deciding question is what an app should do that the site does not: be found in the app stores, play briefs offline and with the screen locked, or sit on a home screen. Moving the map's data out of `index.html` into its own file is the first step any app route would need.
+
+## 2026-11-19 — Review checkmarks for rewritten Who profiles, seen only with a review link
+
+**Why.** Mark: "can we temperarily put a small green checkmark next to the updated who files so we can track what has been done and not on the live site".
+
+**Decided (Mark, 2026-11-19: "Live site, with a review link").** Opening the site with `?review` (for example `https://www.churchfamilytree.com/?review`) shows a small green check after the name of each person whose Who profile has been rewritten. It appears in the Who list, a tradition's Who list, the era card's major people and the person card's title. Visitors without the link see nothing. A rewritten profile is one whose card carries `briefReferences`, the field the batch kit adds; on 2026-11-19 that is 40 people, batches 1 to 5. The checks come out when the rewrite is done (Open-Gaps, "Review checkmarks for rewritten Who profiles: remove when the rewrite is done").
+
