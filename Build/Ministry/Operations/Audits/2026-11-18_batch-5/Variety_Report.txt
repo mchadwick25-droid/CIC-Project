@@ -1,0 +1,6 @@
+12 briefs; a move in more than 3 is marked
+OVER  7  an unnamed opening, then the name revealed: athanasius-of-alexandria, augustine-of-hippo, babai-the-great, john-calvin, martin-luther, nestorius, timothy-i-of-baghdad
+OVER  8  a setting slot (a time and a place stacked in one early sentence, or "in what is now" more than once): athanasius-of-alexandria, barsauma-of-nisibis, cyril-of-alexandria, john-calvin, john-wesley, nestorius, timothy-i-of-baghdad, william-tyndale
+ok    1  the "Most of what we know" witness formula: patrick-of-ireland
+OVER  4  a sentence opening with "Yet": augustine-of-hippo, barsauma-of-nisibis, john-wesley, nestorius
+OVER  8  an ending on a later writer or institution (a later time marker in the last two paragraphs): athanasius-of-alexandria, augustine-of-hippo, cyril-of-alexandria, john-calvin, martin-luther, nestorius, patrick-of-ireland, timothy-i-of-baghdad

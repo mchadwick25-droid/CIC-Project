@@ -1,0 +1,25 @@
+athanasius-of-alexandria: clear
+augustine-of-hippo: SPELLING Monica (the tree has Monita)
+babai-the-great: clear
+barsauma-of-nisibis: SPELLING Babowai (the tree has Babai)
+barsauma-of-nisibis: SPELLING Writers (the tree has Rites)
+cyril-of-alexandria: clear
+john-calvin: clear
+john-wesley: SPELLING Bring (the tree has Brian, Burning)
+martin-luther: SPELLING Katharina (the tree has Katharine, Katharoi)
+martin-luther: SPELLING Remember (the tree has Member, Members)
+nestorius: clear
+patrick-of-ireland: clear
+timothy-i-of-baghdad: SPELLING Almighty (the tree has Mighty)
+timothy-i-of-baghdad: SPELLING Yahbalaha (the tree has Yahballaha)
+william-tyndale: SPELLING Brussels (the tree has Russell)
+william-tyndale: SPELLING Englishmen (the tree has English, Englishman, Englishwoman)
+william-tyndale: SPELLING Finding (the tree has Defining, Findian, Founding)
+william-tyndale: SPELLING Maundrel (the tree has Arundel)
+william-tyndale: SPELLING Vilvorde (the tree has Vilvoorde)
+
+## Coordinator's reading (2026-11-18)
+- Fixed before review, to the tree's spelling: Yahbalaha -> Yahballaha (Timothy I brief and outline; the tree spells the name Yahballaha, 42 times); Vilvorde -> Vilvoorde (Tyndale brief and outline; the tree's form).
+- Kept: Babowai (Mark's ruling, Decision-Log 2026-11-18, item 7).
+- Not variants (different words or different people): Monica/Monita (Monita is a rule book), Katharina/Katharine (Katharine Wiegele), Writers, Bring, Remember, Almighty, Brussels, Englishmen, Finding, Maundrel.
+- No shared quotes found.

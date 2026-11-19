@@ -1,0 +1,184 @@
+{
+  "otherNames": [
+    "Bar Sauma",
+    "Barsumas"
+  ],
+  "knownFor": "Bishop of Nisibis on the Persian frontier, who held a synod at Beth Lapat against the catholicos Babowai, then retracted it in letters to Babowai's successor Acacius of Seleucia-Ctesiphon, and who welcomed Narsai of Nisibis and helped him found the school of Nisibis.",
+  "datesNote": "At the school of Edessa still in 449 and expelled in 457, by Jean-Baptiste Chabot's note; bishop through King Peroz, by Chabot, or from 435, by the later writers Addai Scher cites; the synod of Beth Lapat in April 484 and the reconciliation in August 485, by Chabot's reckoning. Chabot says his death year is unknown and came after 491",
+  "placeNote": "Edessa; Nisibis; Beth Lapat; Beth Edrai",
+  "role": "Bishop of Nisibis",
+  "keyWorks": [
+    {
+      "title": "Letters to the catholicos Acacius and to the bishops",
+      "about": "six letters kept in the Synodicon orientale, five to Acacius and one, from Barsauma and his bishops, to five bishops, retracting the synod of Beth Lapat and reporting drought, raids and unrest at Nisibis; in Chabot's French"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The compiler of the Synodicon orientale left the synod of Beth Lapat out of the synods of the Fathers, because Barsauma himself had annulled it; the compiler kept his letters of retraction instead.",
+      "R. H. Connolly, translating Narsai, writes that the founding of the school of Nisibis by Narsai and his friend Barsauma, bishop of the city, began the formation of \"what is now known as the Nestorian Church\"."
+    ],
+    "remembered": [
+      "Barhadbeshabba 'Arbaia, of his own church, praises his quick mind; the Cause of the Foundation of the Schools, by Barhadbeshabba, bishop of Halwan, says he \"composa lui aussi beaucoup d'homélies\".",
+      "Bar Hebraeus, a hostile Syriac Orthodox chronicler, calls him blasphemous and charges him with Babowai's death and with killing those who refused his teaching.",
+      "Jean-Baptiste Chabot regrets the loss of the rest of the letters \"du fougueux évêque de Nisibe\", the fiery bishop of Nisibis."
+    ]
+  },
+  "uncertain": [
+    "Much of his story comes from writers of other churches or centuries later. Bar Hebraeus, a Syriac Orthodox chronicler of the 1200s, is hostile, and Chabot calls him very inaccurate on Barsauma. Mari ibn Sulayman wrote in the 1100s. Barhadbeshabba 'Arbaia, of Barsauma's own church, is friendly. His own six letters are the nearest witness.",
+    "When he became bishop is disputed. Chabot puts it after his expulsion from Edessa in 457; Abbeloos and Lamy, editing Bar Hebraeus, cite Simeon of Beth Arsham for the same. Addai Scher cites Elias and Ebedjesu of Nisibis for 435, and Abbeloos and Lamy note a Vatican manuscript with that date.",
+    "That he caused Babowai's death rests on later writers. Bar Hebraeus says so, and Chabot says Bar Hebraeus took the story, without naming it, from the letter of Maruta of Tagrit, written from oral tradition more than a century and a half later. Mari ibn Sulayman tells of the accusation and a report that Barsauma soon regretted it. 'Amr says Barsauma sent Babowai's letter to the king unopened and the physician Gabriel twisted it. Barsauma's own letters say only that Satan stirred up a quarrel between them.",
+    "His marriage is told two ways. Mari says he married a nun and made marriage lawful for bishops and priests. Bar Hebraeus calls her a concubine kept in his cell.",
+    "That he spread his teaching by force with the king's troops is Chabot's reading of the later writers, and Chabot hedges his remark that the king made him governor of the city. The count of 7,700 dead is a report Bar Hebraeus repeats.",
+    "The quarrel with Narsai over Barsauma's wife is told by Barhadbeshabba 'Arbaia, and later by Mari and Bar Hebraeus. All say the two were reconciled.",
+    "Chabot says the year of his death is unknown, after 491. Bar Hebraeus gives two reports: that nuns of Tur Abdin killed him with the keys of their cells, or that his tomb was shown in the church of Mar Jacob at Nisibis.",
+    "Not the archimandrite Barsauma at Ephesus in 449 and Chalcedon, nor Barsauma of Susa."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letters to Acacius and to the bishops, in the Synodicon orientale (ed. and tr. J.-B. Chabot)",
+        "language": "French translation",
+        "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Cause of the Foundation of the Schools (tr. Addai Scher)",
+        "author": "Barhadbeshabba 'Arbaia, bishop of Halwan",
+        "date": null,
+        "language": "French translation",
+        "file": "cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt"
+      },
+      {
+        "title": "Ecclesiastical History, the life of Narsai (tr. François Nau)",
+        "author": "Barhadbeshabba 'Arbaia",
+        "date": null,
+        "language": "French translation",
+        "file": "cic/texts/po09_barhadbeshabba-ecclesiastical-history-part2-and-others-fra_1913.txt"
+      },
+      {
+        "title": "On the patriarchs of the East (tr. Henricus Gismondi)",
+        "author": "Mari ibn Sulayman",
+        "date": null,
+        "language": "Latin translation",
+        "file": "cic/texts/mari-ibn-sulayman_de-patriarchis-nestorianorum-commentaria-pars-prior-ara-lat_gismondi1899.txt"
+      },
+      {
+        "title": "Ecclesiastical Chronicle, volume III (tr. J.-B. Abbeloos and T. J. Lamy)",
+        "author": "Bar Hebraeus",
+        "date": null,
+        "language": "Latin translation",
+        "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt"
+      },
+      {
+        "title": "The Liturgical Homilies of Narsai, introduction (R. H. Connolly)",
+        "author": "R. H. Connolly",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/narsai_liturgical-homilies_connolly1909.txt"
+      },
+      {
+        "title": "On the patriarchs of the East, part two (tr. Henricus Gismondi)",
+        "author": "'Amr ibn Matta",
+        "date": null,
+        "language": "Latin translation",
+        "file": "cic/texts/amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt"
+      },
+      {
+        "title": "Chronicle, volume II (tr. J.-B. Chabot)",
+        "author": "Michael the Syrian",
+        "date": null,
+        "language": "French translation",
+        "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt"
+      },
+      {
+        "title": "Le christianisme dans l'empire perse sous la dynastie sassanide",
+        "author": "Jérôme Labourt",
+        "date": null,
+        "language": "French",
+        "file": "cic/texts/labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904.txt"
+      },
+      {
+        "title": "Letter of Babken and the Armenian bishops from Dvin, in Die armenische Kirche in ihren Beziehungen zu den syrischen Kirchen (tr. Erwand Ter-Minassiantz)",
+        "author": "Babken, head of the Armenian bishops",
+        "date": "about 506",
+        "language": "German translation",
+        "file": "cic/texts/ter-minassiantz_armenische-kirche-in-ihren-beziehungen-zu-den-syrischen-kirchen-tu26-deu_1904.txt"
+      }
+    ]
+  },
+  "briefReferences": [
+    "Synodicon orientale, ed. and tr. J.-B. Chabot, the compiler's note on Beth Lapat: the synod left out of the book of synods, held \"out of ill will and human passion\" by Barsauma's own later testimony; the compiler wrote about three centuries later.",
+    "Synodicon orientale, Appendix I, Barsauma's six letters: the first annuls the volume made at Beth Lapat; the third says \"Satan stirred up a quarrel\" between him and the catholicos Babowai.",
+    "Synodicon orientale, Barsauma's second letter: drought, raiding tribes, the Roman general.",
+    "Synodicon orientale, Barsauma's third letter: the plea for a letter of excommunication, the order to strike the rebels \"like the doctor who amputates\" and to threaten to report them to the king. His fourth letter accepts the coming synod in advance.",
+    "Synodicon orientale, the synod of 486 under Acacius: the confession of Christ fully God and fully human, and its rulings on clergy marriage. Chabot's note: Barsauma and the bishops of his province were not at the synod.",
+    "Synodicon orientale, the compiler's account of the reconciliation in 485, and the synod of 497, which accepts Beth Lapat \"but only on this point\" while letting every cleric, from the head of the church down, marry one wife.",
+    "Synodicon orientale, the synod of 605: the Beth Lapat assembly quoted on Theodore of Mopsuestia, called \"the divine assembly\", and the order that every teacher study Theodore's writings.",
+    "Mari ibn Sulayman, On the patriarchs of the East, tr. Gismondi: Babowai's letter passed to the king and Barsauma's regret; his marriage to a nun at the king's order.",
+    "Bar Hebraeus, Ecclesiastical Chronicle III, tr. Abbeloos and Lamy: the woman kept and called his lawful wife; his speech to the king and the killing of thousands, as a hostile report.",
+    "Michael the Syrian, Chronicle II, tr. Chabot, copying the letter of Maruta of Tagrit, written from old men's memories a century and a half later: the marriage rule made so he would not be blamed for his woman; the same legend of the king's soldiers. Chabot's note on its weight.",
+    "World census, The Church of the East under Persia: its tradition, and the ruling of 424 that its catholicos answered to no bishop beyond the frontier."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "out of ill will and human passion.",
+      "printed": "par mauvaise volonté et par passion humaine",
+      "work": "Synodicon orientale, the compiler's note on the synod of Beth Lapat, tr. J.-B. Chabot",
+      "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+      "lines": "20258",
+      "secondReading": "same"
+    },
+    {
+      "modern": "Satan stirred up a quarrel",
+      "printed": "Satan a suscité une querelle entre moi et Mar Baboui",
+      "work": "Synodicon orientale, Barsauma's third letter, tr. Chabot",
+      "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+      "lines": "35397-35398",
+      "secondReading": "same"
+    },
+    {
+      "modern": "like the doctor who amputates,",
+      "printed": "comme le médecin qui ampute un malade",
+      "work": "Synodicon orientale, Barsauma's third letter, tr. Chabot",
+      "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+      "lines": "35509-35510",
+      "secondReading": "same"
+    },
+    {
+      "modern": "but only on this point.",
+      "printed": "mais seulement sur ce point",
+      "work": "Synodicon orientale, the synod of 497, tr. Chabot",
+      "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+      "lines": "20484",
+      "secondReading": "same"
+    },
+    {
+      "modern": "the divine assembly,",
+      "printed": "la divine assemblée",
+      "work": "Synodicon orientale, the synod of 605, tr. Chabot",
+      "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+      "lines": "31682",
+      "secondReading": "same"
+    },
+    {
+      "modern": "my lord,",
+      "printed": "Mar",
+      "work": "Synodicon orientale, the synod of 605, tr. Chabot",
+      "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+      "lines": "31684",
+      "uncertain": "The synod gives only the Syriac title Mar. The brief's gloss, my lord, is not a rendering of any word in these lines, and no held text translates it.",
+      "secondReading": "minor"
+    },
+    {
+      "modern": "the blessed Mar Barsauma.",
+      "printed": "le bienheureux Mar Bar Çauma",
+      "work": "Synodicon orientale, the synod of 605, tr. Chabot",
+      "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+      "lines": "31684-31685",
+      "uncertain": "The synod writes the name as Bar Çauma; the brief uses the spelling Barsauma.",
+      "secondReading": "same"
+    }
+  ]
+}
