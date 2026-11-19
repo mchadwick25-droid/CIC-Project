@@ -95,7 +95,7 @@
   "Hippolytus, Against Noetus 1 and 7, tr. S. D. F. Salmond: Noetus of Smyrna taught that Christ was the Father himself, born and suffering; I and the Father are one, two persons and one power.",
   "Refutation IX, ch. 6 and 7: Callistus as adviser to Zephyrinus, the worshippers of two gods, the bank, the deposits and the sentence to the mines of Sardinia. McGiffert, notes to Church History VI.21: true at its base but greatly overdrawn.",
   "Refutation IX, ch. 7: every sin forgiven, a bishop kept in office, a school against the church, adultery and murder; preface: successors of the apostles in high-priesthood. McGiffert, Harnack and Duchesne: a rival bishop at Rome; Mommsen, MacMahon: bishop of Portus; Batiffol, as Harnack reports him: no split. MacMahon: written after Callistus died in 222; Refutation, preface: each teaching traced to Greek philosophy.",
-  "The book of 354, ed. Theodor Mommsen, and the same list in Duchesne's Liber pontificalis: Pontianus and Hippolytus deported to Sardinia, the unhealthy island, in 235; the calendar of martyrs: both kept on 13 August. McGiffert and Harnack: he probably died on the island.",
+  "The book of 354, ed. Theodor Mommsen, and the same list in Duchesne's Liber pontificalis: Pontianus and Hippolytus deported to Sardinia, the unhealthy island, in 235; the calendar of martyrs: both kept on 13 August. McGiffert: he probably died on the island; Harnack: there or soon after at Rome.",
   "Duchesne, Histoire ancienne I: his books soon lost from sight at Rome, where the next generation of clergy wrote Latin. A. Cleveland Coxe and MacMahon, introduction to the Refutation: found at Mount Athos in 1842, printed in 1851 under Origen's name; most scholars since for Hippolytus. Harnack: Batiffol and others still doubted it.",
   "Damasus, verse on the tomb of Hippolytus, as printed by Duchesne in the Liber pontificalis: the split of Novatus, the catholic faith, Damasus tells what he has heard. Duchesne and Mommsen: Damasus confused two splits. World census, Novatian: the split of 251 over taking back those who had denied the faith."
  ],
@@ -144,14 +144,14 @@
   },
   {
    "modern": "It is said that Hippolytus, an elder, while the tyrant's orders pressed hard, had stayed all along in the split of Novatus.",
-   "printed": "Hippolytus fertur premerent cum iussa tyranni presbyter in scisma semper mansisse Novati.",
+   "printed": "Hippolytus fertur PREMERENT CuM IVSSA Tyranni presbyter in scisma SEMPER MANSISSE Novati.",
    "work": "Damasus, verse on the tomb of Hippolytus, lines 1 and 2, as restored by de Rossi and printed by Louis Duchesne in the Liber pontificalis",
    "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt",
    "lines": "109159-109160"
   },
   {
    "modern": "Damasus tells what he has heard. Christ tests it all.",
-   "printed": "Haec audita refert Damasus, probat omnia Christus.",
+   "printed": "Haec audita rEFERT DAMasus, probat omnia Christus.",
    "work": "Damasus, verse on the tomb of Hippolytus, last line, as printed by Louis Duchesne in the Liber pontificalis",
    "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt",
    "lines": "109166"

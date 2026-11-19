@@ -94,7 +94,7 @@
   "Romans 2 and 9, Philadelphians 10, Ephesians 1: the bishop of Syria, led in chains from the east to the west to fight with beasts at Rome; the churches that came out to meet him, city by city; the church at Antioch in Syria.",
   "Arthur McGiffert, notes to Eusebius, Church History 3.36: the greater part of his life buried in obscurity; the letters his chief source; the developed church government they show as the chief reason some doubted them; the seven shorter Greek letters accepted by most in 1890, though still denied by some.",
   "Ephesians 1 and 21, Magnesians 2 and 15, Trallians 1, Polycarp 1: at Smyrna he met Polycarp, the bishop there, and the bishops of Ephesus, Magnesia and Tralles came to him.",
-  "Magnesians 6 and 7, Ephesians 20: the bishop presiding in the place of God, with the elders and the deacons; one prayer and one altar; one bread broken together.",
+  "Magnesians 6 and 7, Ephesians 20: the bishop, with the elders and the deacons; one altar; one bread broken together.",
   "Trallians 9 and 10: Christ truly born, truly persecuted under Pontius Pilate, truly crucified and truly raised; those who say he only seemed to suffer, and his own chains.",
   "Romans 1, 2, 4 and 5: the plea not to be spared; food for the wild beasts, which he will entice, and compel if they will not attack; the wheat ground into the pure bread of Christ; a sacrifice to God.",
   "The Great Horologion of the Eastern Church (Venice, 1851), 20 December: the wheat line in Greek, citing Eusebius.",
@@ -104,8 +104,8 @@
   "Irenaeus of Lyon, Against Heresies 5.28.4: the wheat line, given as the words of a man of ours condemned to the wild beasts, without his name.",
   "Eusebius of Caesarea, Church History 3.36, tr. Arthur McGiffert: report says that he was sent from Syria to Rome and became food for wild beasts.",
   "Athanasius of Alexandria, On the Councils 47, and Theodoret of Cyrrhus, Eranistes, Dialogue 1: his words on Christ as both of flesh and of God, and on Christ crucified in the flesh, brought forward as witness in later disputes.",
-  "Ante-Nicene Fathers vol. 1, the translators' introduction to the letters: fifteen letters under his name, eight set aside as forgeries, the seven in a shorter and a longer Greek form, and the long dispute over them.",
-  "Polycarp 8: he must suddenly sail from Troas to Neapolis, the last we hear in his own words."
+  "Ante-Nicene Fathers vol. 1, the translators' introduction to the letters: fifteen letters under his name, and the long dispute over them.",
+  "Polycarp 8: he must suddenly sail from Troas, the last we hear in his own words."
  ],
  "quotationOriginals": [
   {
@@ -125,12 +125,9 @@
   {
    "modern": "I am God's wheat, and I am ground by the teeth of wild beasts, so that I may be found the pure bread of Christ.",
    "printed": "I am the wheat of God, and let me be ground by the teeth of the wild beasts, that I may be found the pure bread of Christ.",
-   "work": "Ignatius, Letter to the Romans 4, shorter form, Ante-Nicene Fathers vol. 1; Greek as the Great Horologion (Venice, 1851) prints it from Eusebius",
+   "work": "Ignatius, Letter to the Romans 4, shorter form, Ante-Nicene Fathers vol. 1",
    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-   "lines": "7040-7042",
-   "original": "ΒΊτος εἰμὶ τοῦ Θ εοὗ, και δὶ ὀδόντων ϑηρίων ἀλήϑομα!, ἵνα καϑαρὸς ἄρτος εὐρεϑῶ",
-   "originalFile": "cic/texts/horologion-to-mega_venice-edition-grc_koutloumousianos1851.txt",
-   "originalLines": "15547-15552"
+   "lines": "7040-7042"
   },
   {
    "modern": "the blessed Ignatius",

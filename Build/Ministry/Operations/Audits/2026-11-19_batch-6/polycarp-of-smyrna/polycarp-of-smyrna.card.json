@@ -99,7 +99,7 @@
     "The Martyrdom of Polycarp 9, Ante-Nicene Fathers vol. 1, with the Greek of Oscar von Gebhardt: the proconsul's offer to set him free if he would swear, his command to revile Christ, and the answer of the eighty-six years.",
     "Martyrdom 7, 9 and 16: an old man, the stadium, the bishop of the church in Smyrna. Martyrdom 12: Asia.",
     "Irenaeus, Against Heresies III.3.4 and the letter to Florinus: Irenaeus heard him as a boy, and Polycarp spoke of John and the others who had seen the Lord.",
-    "Martyrdom 1 and 3: the persecution, and the crowd's cry, after Germanicus's death, that Polycarp be sought out.",
+    "Martyrdom 1 and 3: the persecution, and the crowd's cry that Polycarp be sought out.",
     "Martyrdom 5 to 7: the wish of many, the two farms, the two young slaves and the betrayal under torture, the police, the will of God, the food and drink, the two hours of prayer and the men who were sorry they had come.",
     "Martyrdom 11 and 12: the beasts and then the fire; the crowd's cry against the overthrower of their gods; Philip the Asiarch's refusal of a lion, the beast shows being over; the call for burning.",
     "Martyrdom 15 and 16: the fire shaped like a ship's sail, the body the fire could not consume, the executioner's dagger. Martyrdom 18: the bones laid in a fitting place, and the gathering on the birthday of his martyrdom, in memory of those who had competed and to train those to come.",
@@ -113,20 +113,14 @@
       "printed": "Eighty and six years have I served Him, and He never did me any injury: how then can I blaspheme my King and my Saviour?",
       "work": "Church of Smyrna, The Martyrdom of Polycarp 9, Ante-Nicene Fathers vol. 1; Greek ed. Oscar von Gebhardt",
       "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-      "lines": "3990-3992",
-      "original": "᾿Ογδοήκοντα καὶ 8&0 ἔτη δουλεύω αὐτῷ, καὶ οὐδέν μὲ ἠδίχησεν. καὶ πῶς δύναμαι βλασφημῆσαι τὸν βασιλέα μου, τὸν σώσαντά με;",
-      "originalFile": "cic/texts/acta-martyrum-selecta_gebhardt1902.txt",
-      "originalLines": "742-746"
+      "lines": "3990-3992"
     },
     {
       "modern": "Away with the atheists!",
       "printed": "Away with the Atheists;",
       "work": "Church of Smyrna, The Martyrdom of Polycarp 3, Ante-Nicene Fathers vol. 1; Greek ed. Oscar von Gebhardt",
       "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-      "lines": "3834",
-      "original": "Alps τοὺς ἀϑέους",
-      "originalFile": "cic/texts/acta-martyrum-selecta_gebhardt1902.txt",
-      "originalLines": "622-623"
+      "lines": "3834"
     },
     {
       "modern": "Let the will of God be done.",
@@ -143,30 +137,21 @@
       "printed": "Thou threatenest me with fire which burneth for an hour, and after a little is extinguished,",
       "work": "Church of Smyrna, The Martyrdom of Polycarp 11, Ante-Nicene Fathers vol. 1; Greek ed. Oscar von Gebhardt",
       "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-      "lines": "4035-4036",
-      "original": "Πῦρ ἀπειλεῖς τὸ πρὸς ὥραν καιόμενον xci μετ᾽ ὀλίγον σβεννύμενον",
-      "originalFile": "cic/texts/acta-martyrum-selecta_gebhardt1902.txt",
-      "originalLines": "779-781"
+      "lines": "4035-4036"
     },
     {
       "modern": "keep the birthday of his martyrdom,",
       "printed": "celebrate the anniversary of his martyrdom,",
       "work": "Church of Smyrna, The Martyrdom of Polycarp 18, Ante-Nicene Fathers vol. 1; Greek ed. Oscar von Gebhardt",
       "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-      "lines": "4224-4226",
-      "original": "ἐπιτελεῖν τὴν τοῦ μαρτυρίου αὐτοῦ ἡμέραν γενόέϑλιον",
-      "originalFile": "cic/texts/acta-martyrum-selecta_gebhardt1902.txt",
-      "originalLines": "950-951"
+      "lines": "4224-4226"
     },
     {
       "modern": "to remember those who have already competed,",
       "printed": "both in memory of those who have already finished their course,",
       "work": "Church of Smyrna, The Martyrdom of Polycarp 18, Ante-Nicene Fathers vol. 1; Greek ed. Oscar von Gebhardt",
       "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-      "lines": "4226-4227",
-      "original": "εἴς τὸ τὴν τῶν προηϑληκότων μνήμην",
-      "originalFile": "cic/texts/acta-martyrum-selecta_gebhardt1902.txt",
-      "originalLines": "951-952"
+      "lines": "4226-4227"
     },
     {
       "modern": "and to train and prepare those still to come.",

@@ -87,7 +87,7 @@
   },
   "briefReferences": [
     "Pliny, Letters 10.96, Latin ed. C. F. W. Müller in Carl Mirbt's source book, with Arthur McGiffert's English in his note to Eusebius, Church History 3.33: he had never attended a trial of Christians, and did not know what was punished or how hard to search.",
-    "McGiffert's note: a man of letters and a friend of Trajan, governor of Bithynia from 110 or 111. Mirbt dates the two letters 111 to 113; the story says around the year 112.",
+    "McGiffert's note: a man of letters, governor of Bithynia from 110 or 111. Mirbt dates the two letters 111 to 113; the story says around the year 112.",
     "Letters 10.96: the three questions and the threat, those who held firm led away, citizens sent to Rome. Tertullian's Apology, chapter 2, reads it as condemnation, and Eusebius as death.",
     "Letters 10.96: the charges spreading, the anonymous list, the gods, the incense and wine before Trajan's statue, the cursing of Christ.",
     "Letters 10.96: those who had stopped being Christians, the meeting before dawn, the hymn to Christ as to a god, the oath, the meal, the ban on clubs, the two slave women called ministers, tortured, and the twisted, excessive cult.",
@@ -102,14 +102,20 @@
       "printed": "if they have confessed, I have asked them a second and third time, threatening them with punishment; if they have persisted, I have commanded them to be led away to punishment. For I did not doubt that whatever that might be which they confessed, at any rate pertinacious and inflexible obstinacy ought to be punished.",
       "work": "Pliny, Letters 10.96, tr. Arthur McGiffert, in his note to Eusebius, Church History 3.33",
       "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
-      "lines": "19471-19476"
+      "lines": "19471-19476",
+      "original": "Confitentes iterum ac tertio interrogavi, supplicium minatus; perseverantes duci iussi. Neque enim dubitabam, qualecumque esset quod faterentur, pertinaciam certe et inflexibilem obstinationem debere puniri.",
+      "originalFile": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+      "originalLines": "2777-2779"
     },
     {
       "modern": "They are not to be hunted out. If they are reported and proved guilty, they are to be punished.",
       "printed": "They are not to be searched for; if they are accused and convicted, they are to be punished;",
       "work": "Trajan, in Pliny, Letters 10.97, tr. Arthur McGiffert, in his note to Eusebius, Church History 3.33",
       "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
-      "lines": "19526-19527"
+      "lines": "19526-19527",
+      "original": "Conquirendi non sunt: si deferantur et arguantur, puniendi sunt",
+      "originalFile": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+      "originalLines": "2811-2816"
     },
     {
       "modern": "our age",
@@ -126,7 +132,10 @@
       "printed": "O miserable deliverance,—under the necessities of the case, a self-contradiction!",
       "work": "Tertullian, Apology, chapter 2, tr. S. Thelwall",
       "file": "cic/texts/anf03_tertullian.xml",
-      "lines": "1583-1585"
+      "lines": "1583-1585",
+      "original": "O sententiam necessitate confusam!",
+      "originalFile": "cic/texts/tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt",
+      "originalLines": "11728"
     },
     {
       "modern": "It forbids a search for them, as if they were innocent, and it orders them punished, as if they were guilty. It spares and it rages; it looks away and it punishes.",

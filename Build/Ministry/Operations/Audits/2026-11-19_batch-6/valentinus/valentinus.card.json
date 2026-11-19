@@ -82,7 +82,7 @@
   "Irenaeus, Against Heresies III.4.3: at Rome from the time of Hyginus to Anicetus. I.11.1: the first pairs, Unspeakable and Silence, Father and Truth, Word and Life, and the power that fell, from whose fall came the world and its maker.",
   "Tertullian, Against the Valentinians 4, Latin, ed. Kroymann, with the ANF English: the bishopric he hoped for, the man who had suffered for the faith, the break with the church of the true rule, ambition and the wish for revenge; Ptolemy making the powers separate beings outside God; Valentinus now nowhere, his followers still named after him, and Axionicus at Antioch keeping his rules whole. The ANF editor dates the book not earlier than 207.",
   "Tertullian, Prescription against Heretics 30: expelled from the church at Rome more than once.",
-  "Hippolytus, Refutation of All Heresies VI.29: the Father alone and all love, and the first pair. VI.35: the Italian and Eastern branches of the school.",
+  "Hippolytus, Refutation of All Heresies VI.29: the Father alone and all love. VI.35: the Italian and Eastern branches of the school.",
   "World census, Valentinian and other Gnostic Christianities: the school known for eighteen centuries almost entirely through its opponents, until its own writings were found in Egypt in 1945."
  ],
  "quotationOriginals": [
@@ -100,7 +100,10 @@
    "work": "Tertullian, Against the Valentinians 4, ANF English",
    "file": "cic/texts/anf03_tertullian.xml",
    "lines": "43109-43114",
-   "uncertain": "The modern English is rendered from the Latin, which Kroymann prints across a page break, at lines 9633-9634 and 9652-9653: sperauerat episcopatum Valentinus, quia et ingenio poterat et eloquio, sed alium ex martyrii praerogatiua loci potitum indignatus de ecclesia authenticae regulae abrupit (the scan reads Yalentinus and aliura). \"Suffering for the faith\" renders martyrii, where the ANF has \"confessorship\"; \"the true rule\" renders authenticae regulae, where the ANF has \"the true faith\"."
+   "uncertain": "The modern English is rendered from Kroymann's Latin. \"Suffering for the faith\" renders martyrii, where the ANF has \"confessorship\"; \"the true rule\" renders authenticae regulae, where the ANF has \"the true faith\".",
+   "original": "sperauerat episcopatum Valentinus, quia et ingenio poterat et eloquio, sed alium ex martyrii praerogatiua loci potitum indignatus de ecclesia authenticae regulae abrupit",
+   "originalFile": "cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt",
+   "originalLines": "9633-9653"
   },
   {
    "modern": "love is not love unless there is something to love.",

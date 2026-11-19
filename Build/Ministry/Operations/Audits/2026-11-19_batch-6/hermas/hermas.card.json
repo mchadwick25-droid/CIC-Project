@@ -93,23 +93,30 @@
     "date": null,
     "language": "English translation",
     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+   },
+   {
+    "title": "On Modesty, chapter 20, in Latin (ed. Franz Oehler)",
+    "author": "Tertullian of Carthage",
+    "date": "1853",
+    "language": "Latin",
+    "file": "cic/texts/tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt"
    }
   ]
  },
  "briefReferences": [
   "The Pastor of Hermas, tr. F. Crombie, Vision 1, chapter 1: the man who raised him sold him to Rhoda in Rome; years later he drew her out of the Tiber and thought how happy he would be with such a wife; she appeared from the heavens to accuse him of that desire.",
   "Vision 2, chapters 2 and 4: the book the old woman gave him, forgiveness for those who repent with all their heart before a day that has been fixed, and the old woman as the Church.",
-  "Vision 3, chapters 2 to 6: the tower built on the water, the stones set aside that can still be built in if their owners repent before it is finished, and the round stones of the rich that must be cut square, turned on Hermas himself.",
+  "Vision 3, chapters 2 to 6: the tower, the stones set aside that can still be built in if their owners repent before it is finished, and the round stones of the rich that must be cut square, turned on Hermas himself.",
   "Vision 5: the angel of repentance, dressed as a shepherd, who gives the book its name.",
   "Commandment 4, chapter 3: the teachers who allowed no repentance after baptism, the one repentance the Lord in mercy grants to those already called, and the man who keeps sinning and repenting.",
   "Similitude 10, chapter 2: he makes known to everyone the great works of God, and hopes that all who love them and have sinned before may repent and receive life again.",
   "Irenaeus, Against Heresies 4.20.2: the first Commandment quoted with the words \"the Scripture declared\".",
   "Clement of Alexandria, Stromata 2.13: a second repentance after baptism, in words that follow the Shepherd's.",
   "Eusebius, Church History 3.3: read publicly in churches.",
-  "The Muratorian Canon, in Routh's Latin and the English of the Ante-Nicene Fathers: written very recently, while his brother Pius was bishop of Rome; to be read, but not made public in church to the people, nor placed among the prophets or the apostles.",
+  "The Muratorian Canon, in Routh's Latin and the English of the Ante-Nicene Fathers: written very recently; to be read, but not made public in church to the people, nor placed among the prophets or the apostles.",
   "Tertullian, On Modesty 1: the bishop's edict forgiving adultery to those who have done penance. Chapter 20: the apocryphal Shepherd of adulterers.",
   "Athanasius, Festal Letter 39 (367): the Shepherd among the books the Fathers appointed to be read by those who newly join the church.",
-  "Jerome, Lives of Illustrious Men 10: read publicly in some churches of Greece, almost unknown among the Latins."
+  "Jerome, Lives of Illustrious Men 10: almost unknown among the Latins."
  ],
  "quotationOriginals": [
   {
@@ -143,21 +150,24 @@
   },
   {
    "modern": "So it ought indeed to be read. But it cannot be read out to the people in church.",
-   "printed": "Et ideo legi eum quidem oportet, se publicare ( for. sed publieari) vero in ecclesia populo, neque inter prophetas completum (for. completos) numero, neque inter apostolos, in finem temporum potest.",
+   "printed": "Et ideo legi eum quidem oportet, se publicare ( for. sed publicari) vero in ecclesia populo, neque inter prophetas completum (for. completos) numero, neque inter apostolos, in finem temporum potest.",
    "work": "The Muratorian Canon, Latin, ed. Martin Joseph Routh, Reliquiae Sacrae I (1846)",
    "file": "cic/texts/apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846.txt",
    "lines": "22081-22084",
    "englishPrinted": "And therefore it also ought to be read; but it cannot be made public in the Church to the people, nor placed among the prophets, as their number is complete, nor among the apostles to the end of time.",
    "englishFile": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
    "englishLines": "60180-60185",
-   "uncertain": "The manuscript reads \"se publicare\"; the rendering follows the editors' correction \"sed publicari\", which this scan prints as \"publieari\". The brief quotes the first part of the sentence; the rest says the book cannot be placed among the prophets or the apostles."
+   "uncertain": "The manuscript reads \"se publicare\"; the rendering follows the editors' correction \"sed publicari\". The brief quotes the first part of the sentence; the rest says the book cannot be placed among the prophets or the apostles."
   },
   {
    "modern": "the Shepherd of adulterers",
    "printed": "that apocryphal “Shepherd” of adulterers.",
    "work": "Tertullian, On Modesty 20, Ante-Nicene Fathers 4",
    "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
-   "lines": "9330-9331"
+   "lines": "9330-9331",
+   "original": "illo apocrypho Pastore moechorum",
+   "originalFile": "cic/texts/tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt",
+   "originalLines": "74596-74597"
   }
  ]
 }

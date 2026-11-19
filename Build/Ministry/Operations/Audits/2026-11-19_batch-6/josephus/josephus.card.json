@@ -106,7 +106,7 @@
  "briefReferences": [
   "Jewish War, Book 3, in William Whiston's English: the fall of Jotapata in 67, the cave and the forty men, Vespasian's promise, the secret prayer, the lots, and the prediction to Vespasian.",
   "Jewish War, Book 4: Vespasian, now emperor, has him freed in 69. Book 5: at the siege of Jerusalem in 70, he calls on the defenders to surrender.",
-  "Life, in Whiston's English: both sides' charge of \"treachery\", the emperors' favor at Rome, and his closing words, \"let others judge of my character.\"",
+  "Life, in Whiston's English: the Jews' wish to punish him and the Romans' charge of \"treachery\", the emperors' favor at Rome, and his closing words, \"let others judge of my character.\"",
   "Antiquities of the Jews, in Whiston's English: finished in the thirteenth year of Domitian, about 93. Book 18: Herod kills John the Baptist, \"a good man\", fearing his hold on the people; and the passage on Jesus. Book 20: the chief priest has James, \"the brother of Jesus, who was called Christ\", stoned.",
   "Suetonius, Vespasian 5: Josephus foretold that Vespasian would free him as emperor.",
   "Origen, Against Celsus 1.47, and Commentary on Matthew 10.17, in Greek with the Ante-Nicene English: Josephus on John and on James, and that he did not accept Jesus as the Christ. Origen never cites the passage on Jesus.",
@@ -159,13 +159,10 @@
   },
   {
    "modern": "And this is the remarkable thing. He did not accept that our Jesus was the Christ. Yet he still bore witness that James was so upright.",
-   "printed": "Καὶ τὸ θαυμαστόν ἐστιν, ὅτι τὸν Ἰησοῦν ἡμῶν οὐ καταδεξάμενος εἶναι Χριστὸν, οὐδὲν ἧττον Ἰακώβῳ δικαιοσύνην ἐμαρτύρησε τοσαύτην.",
+   "printed": "And the wonderful thing is, that, though he did not accept Jesus as Christ, he yet gave testimony that the righteousness of James was so great",
    "work": "Origen, Commentary on Matthew 10.17, ed. Lommatzsch",
-   "file": "cic/texts/origen_commentarii-in-evangelium-matthaei-tomus3-grc-lat_lommatzsch1834.txt",
-   "lines": "3731-3733",
-   "englishPrinted": "And the wonderful thing is, that, though he did not accept Jesus as Christ, he yet gave testimony that the righteousness of James was so great",
-   "englishFile": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
-   "englishLines": "30627-30629"
+   "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+   "lines": "30627-30629"
   },
   {
    "modern": "let others judge of my character.",
