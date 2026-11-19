@@ -108,7 +108,7 @@ The story runs 560 words, about 3:45 at 150 a minute. The outline asked for abou
 - **Paragraph 10:** the ending. Needed.
 
 Cuts, all MINOR:
-- **A.** Paragraph 3: cut "He says only that he was led in chains "from the east unto the west."" (15 words saved). The opening has already told the road from Syria to Rome, and paragraph 2 calls him a prisoner. "In chains" is not heard again, so its gloss is lost with it.
+- **A.** Paragraph 3: cut "He says only that he was led in chains "from the east unto the west."" (15 words saved). The opening has already told the road from Syria to Rome, and the opening calls him a prisoner. "Chains" is still heard in Quote 2, where the context makes it plain. Nothing the heart, the record's force or a gloss needs is lost.
 
 **Length the story needs: about 3:45** (about 565 words once the cut and the fixes below are made). The reason: three teachings each need a plain sentence and a scene or quote, the death must be told as report, and the connection takes a third. The fixes below add about 25 words: the Philippi gloss, the Philadelphia quarrel and the fifteen letters. Cut A saves 15.
 
