@@ -4782,3 +4782,15 @@ Each keeps its approved essence. One independent check follows, then the census,
 
 **Decided (Mark, 2026-11-19: "Approve, cap 22,500 (Recommended)").** The thirteen batch 6 stories (the twelve and Polycarp), about 42,000 characters, are recorded on batch 5's printed settings: person voice `onegjDE2z0mQtp1g0HK7`, model `eleven_v4`, `mp3_44100_64`, stability 0.95, similarity 0.68, style 0, speaker boost on, `[pause]` between paragraphs, the seven respellings. Tacitus is recorded first for Mark's ear; the balance is checked before and after; the run stops at 22,500 credits.
 Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "approved and go live" (2026-11-19).
+
+## 2026-11-19 — The kit after batch 6: length counted first, the writer's own checks, damaged scans flagged (Mark)
+
+**Why.** The batch 6 report (https://claude.ai/artifact/FR841atvSavxuXqn7Vhjad) found every draft ran 30 to 60 seconds past its outline, because outlines set the time before counting the quotes, glosses and credited views the kit requires. It also found the held-back name reveal in about half the drafts despite the kit line, seven of thirteen stories ending on a later writer, and quote originals held only in damaged scans found late, at the card step.
+
+**Decided (Mark, 2026-11-19: "make changes without loosing quality, i am more concerned with telling the story well than time, but over 4 minutes i think people start loosing interest unless its very compelling").**
+1. **Time.** Part 1 and Part 3's Length field: telling the story well comes before time; past about four minutes a listener starts to lose interest, so a person's story runs longer only when it is very compelling and its turning points need the room.
+2. **Length counted first.** Part 3's Length field counts the words the story must carry (its quotes, the plain sense of each word to explain and each witness it credits) before it sets the time.
+3. **The writer's own checks.** `roles/writer.md` carries the name-in-the-hook rule (no held-back reveal), the setting a clause at a time, and the ending on the person.
+4. **Damaged scans flagged at research.** `roles/researcher.md`: a quote whose original is held only in a damaged scan is flagged beside the quote, with any held print that confirms the reading; where none does, the card is planned to print the English alone.
+
+**Scope.** Per the kit's own rule, these govern batch 7 on and reopen no finished story.
