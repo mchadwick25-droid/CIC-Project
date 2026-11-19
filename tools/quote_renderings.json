@@ -2756,6 +2756,149 @@
     "record": "Build/Ministry/Operations/Audits/2026-11-19_batch-6/Second_Readings.md",
     "verdict": "same"
    }
+  },
+  {
+   "id": "cyril-and-methodius",
+   "quote": "if they have letters for their language.",
+   "original": {
+    "file": "cic/texts/vita-constantini_die-legende-vom-heiligen-cyrillus-in-denkschriften-wien-19-chu-lat-deu_duemmler-miklosich1870.txt",
+    "lines": "20224-20225",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "cyril-and-methodius",
+   "quote": "who can write words on water, and who wants to be called a heretic?",
+   "original": {
+    "file": "cic/texts/vita-constantini_die-legende-vom-heiligen-cyrillus-in-denkschriften-wien-19-chu-lat-deu_duemmler-miklosich1870.txt",
+    "lines": "20227-20228",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "cyril-and-methodius",
+   "quote": "the first bishop of the Bulgarian tongue.",
+   "original": {
+    "file": "cic/texts/theophylact-ohrid_opera-t4-with-vita-clementis-pg126-grc-lat_migne1864.txt",
+    "lines": "99371-99372",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "cyril-and-methodius",
+   "quote": "Does God's rain not fall on all alike?",
+   "original": {
+    "file": "cic/texts/vita-constantini_die-legende-vom-heiligen-cyrillus-in-denkschriften-wien-19-chu-lat-deu_duemmler-miklosich1870.txt",
+    "lines": "20307-20308",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "cyril-and-methodius",
+   "quote": "Look, brother, we were partners plowing a single furrow. And I fall in the field, having finished my day.",
+   "original": {
+    "file": "cic/texts/ginzel_geschichte-der-slawenapostel-cyrill-und-method-deu-lat_1861.txt",
+    "lines": "12251-12253",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "cyril-and-methodius",
+   "quote": "Greek",
+   "original": {
+    "file": "cic/texts/ginzel_geschichte-der-slawenapostel-cyrill-und-method-deu-lat_1861.txt",
+    "lines": "13641-13642",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "cyril-and-methodius",
+   "quote": "newly invented Slavic letters",
+   "original": {
+    "file": "cic/texts/ginzel_geschichte-der-slawenapostel-cyrill-und-method-deu-lat_1861.txt",
+    "lines": "13641-13642",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "cyril-and-methodius",
+   "quote": "For he who made the three chief languages, Hebrew, Greek and Latin, also himself created all the others, for his praise and glory.",
+   "original": {
+    "file": "cic/texts/ginzel_geschichte-der-slawenapostel-cyrill-und-method-deu-lat_1861.txt",
+    "lines": "13974-13976",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "cyril-and-methodius",
+   "quote": "if they have letters for their language",
+   "original": {
+    "file": "cic/texts/vita-constantini_die-legende-vom-heiligen-cyrillus-in-denkschriften-wien-19-chu-lat-deu_duemmler-miklosich1870.txt",
+    "lines": "20224-20225",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "cyril-and-methodius",
+   "quote": "who can write words on water",
+   "original": {
+    "file": "cic/texts/vita-constantini_die-legende-vom-heiligen-cyrillus-in-denkschriften-wien-19-chu-lat-deu_duemmler-miklosich1870.txt",
+    "lines": "20227-20228",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "cyril-and-methodius",
+   "quote": "the first bishop of the Bulgarian tongue",
+   "original": {
+    "file": "cic/texts/theophylact-ohrid_opera-t4-with-vita-clementis-pg126-grc-lat_migne1864.txt",
+    "lines": "99371-99372",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-18_batch-4/Second_Readings.md",
+    "verdict": "minor"
+   }
   }
  ]
 }
