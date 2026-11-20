@@ -1,0 +1,172 @@
+{
+  "otherNames": [
+    "Pontius"
+  ],
+  "knownFor": "Deacon of Cyprian of Carthage, who shared his exile and wrote the Life and Passion of Cyprian.",
+  "datesNote": "Shared Cyprian's exile; Cyprian died in 258",
+  "placeNote": "Carthage",
+  "role": "Deacon and biographer",
+  "keyWorks": [
+    {
+      "title": "The Life and Passion of Cyprian",
+      "about": "Cyprian's conversion, his care in the plague, his exile and his death"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Cheltenham list of 359 sets the Life at the end of Cyprian's works, and Harnack counts 23 manuscripts that hold it."
+    ],
+    "remembered": [
+      "Jerome of Strido calls the Life \"a notable volume.\"",
+      "Adolf Harnack, in 1913, called it the oldest Christian biography that survives."
+    ]
+  },
+  "uncertain": [
+    "The Life does not name its author. Jerome is the witness that Pontius wrote it, and Wilhelm Hartel's Latin edition calls it commonly attributed to him.",
+    "Pontius writes as an admirer, and passes over Cyprian's life before his conversion.",
+    "Arthur Cleveland Coxe, in a note to the American edition, says Pontius is said to have died a martyr. Ernest Cushing Richardson, in a note to his translation of Jerome, gives his death as about 260. Neither gives a source.",
+    "Pontius says Cyprian sold his gardens for the poor. Otto Ritschl thought they were confiscated later and that Pontius mistook this for a sale. Archbishop Benson rejects that view and follows Pontius.",
+    "Nothing in the Life gives its author's name, or his office as deacon. Both come from Jerome. Harnack says Jerome followed a tradition whose source is not known, and a handbook of 1922 says most scholars accept his word. Dessau tried to identify the author with a magistrate surnamed Pontius, honored in an inscription at Curubis, and Corssen showed that this identification has little support.",
+    "Scholars disagree about what kind of book the Life is. Harnack calls it the oldest Christian biography that survives. Monceaux calls it not a true biography but a speech of praise. Corssen sees a speech of praise that also defends Cyprian, though Delehaye thinks the defense is overstated. Reitzenstein, as Delehaye and a handbook of 1922 report him, sets it with the accounts of famous men's deaths and thinks Pontius a poor rhetorician. Delehaye says Pontius wanted a book for Cyprian as weighty as the Passion of Perpetua, and in telling Cyprian's merits fell into biography in the tone of a speech of praise.",
+    "The Life says Pontius was with Cyprian at Curubis and on the night after his arrest. Reitzenstein held that his part as an eyewitness was invented, as a handbook of 1922 reports. Delehaye answers that a forger would not have kept so quiet about it, and would have told more than the dream.",
+    "Pontius reads the one day's delay in Cyprian's dream as one year, and says Cyprian died a year later on the same day. He also says the delay was for church business, above all the care of the poor. Harnack finds this reading unconvincing and says it was not Cyprian's meaning. He thinks Cyprian meant his private affairs, which Pontius found awkward.",
+    "Pontius says Cyprian did not consent when friends urged him to withdraw before his arrest in 258. Cyprian's own last letter says that on his friends' advice he left his gardens for a while, so that he would not be taken to Utica, and that a bishop should confess in his own city.",
+    "Pontius says nothing of the councils Cyprian led, his dealings with Rome or the quarrel over baptism by heretics. Delehaye finds the silence strange. Harnack says these matters did not belong in a book about Cyprian's deeds and merits as Pontius understood them. Monceaux says Pontius wished to praise the Christian and the cleric rather than the church leader.",
+    "In his preface Pontius says he will tell what he was present for and what he learned of earlier things. The English translation renders the second part as any of his more illustrious labors, while Hartel's Latin and Harnack's print read antiquioribus. Harnack takes it that Pontius saw Cyprian's deeds himself, but not from the start.",
+    "Pontius says the court record tells what Cyprian answered the governor at his first hearing. Monceaux found that Pontius did not know the record as we have it, and Harnack agrees that he knew only a report of the first hearing and the words of the sentence. Delehaye thinks it more likely that he knew it, and von Soden suggests the Life was meant to replace it.",
+    "Archbishop Benson calls Pontius a devoted, grandiloquent deacon whose lines are affected. Delehaye calls him a barren mind who sees nothing beyond the written document.",
+    "Jerome ends his list in the fourteenth year of the Emperor Theodosius. The English translation's note gives that year as 492, but the same volume has Theodosius named emperor in 379, so the year is about 392."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Life and Passion of Cyprian (tr. Ernest Wallis)",
+        "language": "English",
+        "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+      },
+      {
+        "title": "Vita Caecilii Cypriani (Latin, ed. Hartel)",
+        "language": "Latin",
+        "file": "cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Lives of Illustrious Men, 68",
+        "author": "Jerome of Strido",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Das Leben Cyprians von Pontius: Die erste christliche Biographie",
+        "author": "Adolf Harnack",
+        "date": "1913",
+        "language": "German, with the Latin text",
+        "file": "cic/texts/harnack_vita-cypriani-commentary-lat-deu_1913.txt"
+      },
+      {
+        "title": "Les passions des martyrs et les genres littéraires",
+        "author": "Hippolyte Delehaye",
+        "date": "1921",
+        "language": "French",
+        "file": "cic/texts/delehaye_passions-martyrs-genres-litteraires-fra_1921.txt"
+      },
+      {
+        "title": "Histoire littéraire de l'Afrique chrétienne, vol. 2: Saint Cyprien et son temps",
+        "author": "Paul Monceaux",
+        "date": "1902",
+        "language": "French",
+        "file": "cic/texts/monceaux_histoire-litteraire-afrique-chretienne-tome2_1902.txt"
+      },
+      {
+        "title": "Cyprian: His Life, His Times, His Work",
+        "author": "Edward White Benson",
+        "date": "1897",
+        "language": "English",
+        "file": "cic/texts/benson_cyprian-his-life-his-times-his-work_1897.txt"
+      },
+      {
+        "title": "Geschichte der römischen Litteratur, Teil 3",
+        "author": "Martin Schanz, Carl Hosius and Gustav Krüger",
+        "date": "1922",
+        "language": "German",
+        "file": "cic/texts/schanz-hosius-krueger_geschichte-der-roemischen-litteratur-teil3-deu_3e-aufl1922.txt"
+      },
+      {
+        "title": "Letters, 81",
+        "author": "Cyprian of Carthage",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt"
+      },
+      {
+        "title": "The Proconsular Acts of Cyprian, in Ausgewählte Märtyrerakten",
+        "author": null,
+        "date": "1929",
+        "language": "Latin, with German",
+        "file": "cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt"
+      }
+    ]
+  },
+  "briefReferences": [
+    "The Life and Passion of Cyprian 1, tr. Ernest Wallis: Cyprian's people want to hear everything about him, though his living words are silent; earlier Christians recorded the sufferings of martyrs who were ordinary believers in great detail, so the death of so great a bishop should not be passed over.",
+    "Jerome, Lives of Illustrious Men 68: Pontius, Cyprian's deacon, shared his exile until the day of his death and left a notable volume on his life and death; Jerome's list ends in the fourteenth year of the Emperor Theodosius.",
+    "Harnack, Das Leben Cyprians von Pontius (1913): no manuscript and not the Cheltenham list names the author; the Life stands at the end of Cyprian's works in the Cheltenham list of 359 and is held in 23 manuscripts; the oldest Christian biography that survives.",
+    "The Life and Passion of Cyprian 1 and 2: Pontius's aim, to hand Cyprian's example on to those after him; he begins at Cyprian's baptism and passes over what came before it.",
+    "The Life and Passion of Cyprian 10 and 11, with Harnack, Delehaye and Monceaux: what Pontius tells and leaves out, including the councils and the baptism quarrel, and his one marvel, the dream.",
+    "The Proconsular Acts of Cyprian, in Knopf, Ausgewählte Märtyrerakten: the hearing of 30 August 257, the governor's sentence of exile to Curubis, and the death on 14 September 258. Benson: Curubis, a small coast town.",
+    "The Life and Passion of Cyprian 12: Cyprian chose Pontius for a voluntary exile, and on the first day at Curubis told the dream of the young man, the governor, the sentence written without questions, the hand like a blade and the day's delay.",
+    "The Life and Passion of Cyprian 13, with Harnack: Pontius reads the day as a year and the delay as church business; Harnack finds this unconvincing.",
+    "The Life and Passion of Cyprian 14 and 15, with Cyprian, Letter 81: friends urge Cyprian to withdraw and Pontius says he did not consent; Cyprian's own letter says he left his gardens for a while; the companions were with him on the night after his arrest.",
+    "Monceaux and Delehaye on the kind of book the Life is: a speech of praise, and a blend of biography and praise modeled on the Passion of Perpetua.",
+    "The Life and Passion of Cyprian 19: the book ends torn between joy at Cyprian's passion and grief at remaining behind.",
+    "Jerome and the editors' notes in Ante-Nicene Fathers 5 and Nicene and Post-Nicene Fathers 3: Richardson gives about 260 and Coxe says a martyr, each without a source; no early source says how or when Pontius died.",
+    "World census, Latin Pastoral-Congregational Christianity: his tradition."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "a willing exile",
+      "printed": "a voluntary exile",
+      "work": "Pontius, Life and Passion of Cyprian 12, tr. Ernest Wallis",
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "lines": "28057",
+      "original": "exulem uoluntarium",
+      "originalFile": "cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt",
+      "originalLines": "41015"
+    },
+    {
+      "modern": "He spread his hand out flat, like a sword blade, and mimed the stroke of the usual execution. What he wanted understood, he made as clear as plain speech. I understood the sentence still to come: my martyrdom.",
+      "printed": "with hand expanded and flattened like a blade, he imitated the stroke of the accustomed punishment, and expressed what he wished to be understood as clearly as by speech,—I understood the future sentence of my passion.",
+      "work": "Pontius, Life and Passion of Cyprian 12, tr. Ernest Wallis",
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "lines": "28071-28074",
+      "original": "manu enim expansa et complanata ad spatae modum ictum solitae animadversionis imitatus, quod volebat intellegi, ad instar liquidi sermonis expressit; intellexi sententiam passionis futuram.",
+      "originalFile": "cic/texts/harnack_vita-cypriani-commentary-lat-deu_1913.txt",
+      "originalLines": "1309-1313",
+      "uncertain": "Passion in the English translation means the martyr's suffering and death, so the modern wording says martyrdom, and spata is a sword, so the modern wording says sword blade."
+    },
+    {
+      "modern": "I have decided to write down a few things, in brief. Not that the life of so great a man is hidden from anyone, even the pagans. It is so that this great, matchless example may be handed on to those after us too, into undying memory.",
+      "printed": "I have thought it well to prepare this brief and compendious narrative. Not that the life of so great a man can be unknown to any even of the heathen nations, but that to our posterity also this incomparable and lofty pattern may be prolonged into immortal remembrance.",
+      "work": "Pontius, Life and Passion of Cyprian 1, tr. Ernest Wallis",
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "lines": "27673-27677",
+      "original": "placuit summatim pauca conscribere, non quo aliquem uel gentilium lateat tanti uiri uita, sed ut ad posteros quoque nostros incomparabile et grande documentum in immortalem memoriam porrigatur",
+      "originalFile": "cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt",
+      "originalLines": "40267-40270",
+      "uncertain": "Hartel's Latin reads quo, where Harnack prints quod and queries quo; the sense is the same. The English translation has pattern for documentum, and the modern wording has example. Hartel's Latin goes on with a further clause, which Harnack strikes because the manuscripts omit it or place it differently; the quotation stops before it."
+    },
+    {
+      "modern": "Shall I grieve that I was not his companion? But his victory must be celebrated. Shall I celebrate his victory? But I grieve that I am not his companion. Yet I must confess to you plainly what you know too: this is how I felt. I rejoice much, even too much, in his glory. But I grieve more that I remained behind.",
+      "printed": "Shall I grieve that I was not his associate? But yet I must triumph in his victory. Shall I triumph at his victory? Still I grieve that I am not his companion. Yet still to you I must in simplicity confess, what you also are aware of, that it was my intention to be his companion. Much and excessively I exult at his glory; but still more do I grieve that I remained behind.",
+      "work": "Pontius, Life and Passion of Cyprian 19, tr. Ernest Wallis",
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "lines": "28297-28303",
+      "original": "dolebo quod non comes fuerim? sed illius uictoria triumphanda est. de uictoria triumphabo ? sed doleo quod comes non sim. uerum uobis tamen et simpliciter confitendum est, quod et uos scitis, in hac me fuisse sententia. multum ac nimis multum de gloria eius exulto, plus tamen doleo quod remansi.",
+      "originalFile": "cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt",
+      "originalLines": "41405-41410",
+      "uncertain": "The English translation reads the Latin in hac me fuisse sententia as it was my intention to be his companion. Harnack's print sets a colon after sententia, where Hartel's Latin has a full stop, so that the words point forward to the joy and the grief, and the modern wording follows that. The English translation has I must triumph in his victory, where the modern wording says his victory must be celebrated."
+    }
+  ]
+}
