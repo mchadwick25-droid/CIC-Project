@@ -4832,3 +4832,27 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 **Done (Mark's direction, 2026-11-19).** A river that starts on its own (no tradition-level link) now rises 90 map units above its first tradition, at full width, tapering to a point at its head. In its first era its people figure sits on that stretch, just above the first tradition and below the era line. The people figure of a river that branches from a linked tradition is placed as before.
 
 **More room above the first tradition (Mark, 2026-11-19: "extend the two that start right above the tradition up a little so there is a little seperation from the tradition and the river who number").** The river now rises 150 map units above its first tradition, and its people figure sits about one figure-height higher than before, so there is a clear gap between the figure and the tradition at every zoom. Where that would put the figure on an era's title (Church and Empire on a phone), it moves down just enough to clear it.
+
+## 2026-11-20 — Stories get river numbers and tradition marks like Who; People and Stories show one at a time
+
+**Why.** Mark: "the stories that are in the traditions on the cards are getting lost in the layers, can we do the same thing with them as the who with numbers". There are 507 stories in 267 tradition cards, seen only by opening a card and scrolling to "Documented stories", and 62 stories drawn on the map.
+
+**Decided (Mark, 2026-11-20).**
+- "exactly like who with both the era river number and traditions layed out the same, but also the stories in the gap remain with the switch is on". Each river shows a book with a count in each era, and a book sits beside each tradition with stories, where the person figure sits. Clicking either opens "Stories of …" in the left panel (the era's line, title, count and dates; each row the story's title, its tradition and when). Clicking a row opens the tradition's card with that story open. The river count includes the map stories of that river and era, which open their own card. The map stories still show between the rivers while Stories is on.
+- "One at a time": turning Stories on turns People off, and the other way round. Councils and Connections are not affected. People is on and Stories off by default (a session choice, open to change). The tour turns People on for its Who step and puts the visitor's choice back at the end.
+- A story's era comes from the first year in its "when" text when that falls within its tradition's span (60 years either side), else from the tradition's start.
+- The Key gains "Stories of a tradition" and "Stories of a river".
+
+**The starting map (Mark, 2026-11-20: "i thing we start with them both off and a very simple traditions map to start"; then "Keep Councils on").** A first visit now opens with People and Stories both off: the rivers, the traditions and the councils line only, with Connections off as before. This replaces the default above of People on. A visitor's own saved choices still apply on a return visit.
+
+## 2026-11-20 — Every card opens at its top
+
+**Why (Mark, 2026-11-20).** "if someone scrolls through a card and closes it and opens another it starts at the top, always open brings the card to the top". The card panel kept its scroll position, so a new card opened partway down.
+
+**Done.** Opening any card now starts it at the top, whether the last card was closed or not. Two cases keep their place on purpose: "Open the card" on the listening bar brings the same card back as it was, and opening a story from the story list opens its tradition's card at that story.
+
+## 2026-11-20 — Each river is named at its top, with its everyday name and a hover that explains it
+
+**Why (Mark, 2026-11-20).** "can we put the name of the river at the begining (mabey right at the top to the right) with a hover explaining, use the known name too"; then "can we add the river icon with it so they know its a river title and not a tradition".
+
+**Done.** At the top of each river, just to its right, the map shows the river symbol from the Key in the river's own colour, the river's name in small capitals, and its everyday name under it where it has one ("Greek East" / "Orthodox"). Hovering shows the name, the everyday name, the number of traditions and the years, and where it began: the recorded reason for a river that starts on its own, or the linked traditions for one that branches. Clicking opens the river's card. A name moves down a little to clear a tradition's name, a people or story number or an era title, and stays hidden until zooming in when there is no room near the top (era 2 on a phone at the opening zoom).
