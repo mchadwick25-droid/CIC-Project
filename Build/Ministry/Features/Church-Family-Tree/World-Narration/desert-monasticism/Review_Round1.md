@@ -37,7 +37,7 @@ Every quoted span is identical between original and rewrite (checked mechanicall
 | antony-call | "If you want to be perfect, ..." | none | `cic/texts/npnf204_athanasius-select-works-letters.xml` 31244-31246 |
 | antony-call | "Do not be anxious about tomorrow." | none | same file, 31264-31265 |
 | antony-tomb-combat | "If you had any real power, ..." | desert.quote.antony-not-worsted | same file, 31499-31505 |
-| antony-tomb-combat | "Where were you? ..." | none | same file, 31515-31516 |
+| antony-tomb-combat | "Where were you? ..." | none | same file, 31515-31517 |
 | antony-tomb-combat | "Antony, I was here, ..." | none | same file, 31517-31519 |
 | antony-secret-burial | "Bury my body and hide it underground yourselves," | none | same file, 33512 |
 | antony-secret-burial | "Keep my words, so that no one may know the place but you alone." | none | same file, 33512-33513 (text continues after the endnote) |
