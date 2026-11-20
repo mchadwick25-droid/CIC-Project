@@ -38,7 +38,7 @@ Sheet items (S, E, M, D, I, L, X) are in `Source_Sheet.md`, which gives the file
   - `athanasius-of-alexandria` (live, read): Peter is not in it; the Melitian monk's charge against Athanasius stays there. Here Athanasius is a witness to the break, once.
   - `arius` (live, read): Peter is not in it. Here, Leave out (see Links).
   - `eusebius-of-caesarea` (batch 7, not yet researched; no outline): Eusebius is credited here as the witness to the death; no quote of his is shared.
-  - **Question for Mark:** the slate gave this story "the break with Meletius told from both held sides". `melitius-of-lycopolis` already tells both sides, and the curtain scene. This outline keeps the break to one beat from Peter's side, credits each witness, and uses one Epiphanius line that story does not hold.
+  - **Settled by Mark (Decision-Log, "Batch 7 hearts approved", 2026-11-20):** the slate gave this story the break with Melitius told from both held sides. `melitius-of-lycopolis` already tells both sides, and the curtain scene. The break stays at two beats (3 and 4) from Peter's side, credits each witness, and uses one Epiphanius line that story does not hold.
 - **Openings:**
   1. **Chosen.** His own rules (Quote 1; E1, E3). In about three sentences: the fourth Easter of the persecution had come, and the bishop of Alexandria wrote about Christians tortured until they gave way: "They did not come to this by their own choice. The weakness of the flesh betrayed them. For they show the marks of Jesus in their bodies." The narrator gives the plain sense, the scars of their torture. Then the name, Peter, and the essence.
   2. Not chosen: Eusebius's line on the beheading (Quote 3, D2). It is the ending, in time order at Beat 5.
@@ -91,7 +91,7 @@ What passed on was a way of judging the fallen, and a quarrel. The rules: Peter 
 - `melitius-of-lycopolis`: the bishop he broke with.
 - `melitian-schism`: the rival church born of that break.
 - `epiphanius-of-salamis`: told the Melitians' side.
-- `arius`: **not linked in the story.** Held sources tie them only weakly: Sozomen, a century later, says Peter made Arius a deacon and later cast him out for siding with Melitius; the account kept with the four bishops' letter names "a certain Arius" among Melitius's helpers; Robertson, the editor of Athanasius, says such tales "deserve little credit" (L4). The card may carry it, credited. A question for Mark if he wants it in the audio.
+- `arius`: **not linked in the story.** Held sources tie them only weakly: Sozomen, a century later, says Peter made Arius a deacon and later cast him out for siding with Melitius; the account kept with the four bishops' letter names "a certain Arius" among Melitius's helpers; Robertson, the editor of Athanasius, says such tales "deserve little credit" (L4). The card may carry it, credited. Mark ruled it out of the audio (2026-11-20).
 
 **Who tells it**
 
@@ -120,7 +120,7 @@ What passed on was a way of judging the fallen, and a quarrel. The rules: Peter 
 - "Melitius was a heretic." Epiphanius says he did not change the faith (M7); Robertson, that no doctrine was at stake (M14).
 - "Arius" in the story (see Links).
 - "Schism", "the lapsed", "penance", "Thebaid" without their plain sense (Words to explain).
-- "Meletius": use the census spelling "Melitius".
+- "Meletius" → "Melitius" (the census spelling), everywhere.
 - Any quote from `melitius-of-lycopolis`: "ordained in the prison several unto himself", "offering sacrifice to idols", "a nominal dignity", "Church of the Martyrs".
 - Do not tell the cloak scene at length: it opens `melitius-of-lycopolis`. One clause at most.
 - Do not quote the four bishops' letter or Peter's letter: their Latin is not held and Hefele calls the text corrupt. Paraphrase.
@@ -129,7 +129,7 @@ What passed on was a way of judging the fallen, and a quarrel. The rules: Peter 
 
 - *The Genuine Acts of Peter* (his last night, the vision of Christ's torn robe and Arius, prayer at Mark's tomb, the soldier's sword) and the heavenly voice "Peter the beginning of the apostles, and Peter the end of the martyrs": late legend; McGiffert calls the Acts "spurious and historically quite worthless" (D5).
 - Birth, family and schooling: no early source (S5).
-- Arius's tie to Peter (L4): weak and doubted.
+- Arius (Mark, 2026-11-20): left out. Sozomen, a century later, says Peter made Arius a deacon and then cast him out for siding with Melitius; Robertson, editor of Athanasius, says such tales "deserve little credit" (L4).
 - The boy-bishop story of Athanasius on Peter's feast day: doubted by Robertson; it is Athanasius's story, not Peter's (I3).
 - Coxe's and Neale's verdict that Melitius was wicked: an editor's partisanship (M15).
 - Canon 15 (weekday fasts): not about the fallen (E13).

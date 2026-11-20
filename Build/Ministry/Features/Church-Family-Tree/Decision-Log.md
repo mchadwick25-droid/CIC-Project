@@ -4915,3 +4915,16 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 2. The splits: Cyprian keeps his death scene and plague sermon, and Pontius keeps the dream at Curubis, why he wrote and his grief; the councils of 251 keep the lapsed as their spine, and Novatian keeps the oath, On the Trinity, his church's later life and Constantine's "ladder"; Eusebius and Lactantius tell the Nicaea word and Constantine's vision or dream only as clauses, since the live Nicaea and Constantine stories tell them.
 3. The quote allocation as listed under "Quotes barred" in that README. Dionysius's letter to Novatian, the one quote the overlap check found shared among the old texts, goes to Novatian.
 4. The order of research: Tertullian, Cyprian, Eusebius, Dionysius, Peter, Anatolius and Lactantius; then Pontius, Novatian and Pamphilus; then the councils of 251.
+
+## 2026-11-20 — Batch 7 hearts approved (Mark)
+
+**Why.** The eleven hearts went to Mark on one page (https://claude.ai/artifact/EnSrMLPZBvzqUsXZGb17fB; `Build/Ministry/Operations/Audits/2026-11-20_batch-7/Hearts.md`), with three job lines the sources corrected (Pontius's Life is not settled as the first Christian biography; Cyprian's "two years after baptism" is the editors' reckoning; the census spells "Melitius") and five questions.
+
+**Decided (Mark, 2026-11-20: "Approve as recommended").**
+1. The eleven hearts are approved as shown, with the corrected job lines.
+2. Tertullian: "never counted a saint" is left out, since no held source says it. The story tells what is held: his turn to the New Prophecy, and Augustine later counting his followers among the heretics.
+3. Peter of Alexandria: the break with Melitius is kept to two beats told from Peter's side, with the live `melitius-of-lycopolis` and `melitian-schism` named as links. Arius is left out.
+4. "Melitius" throughout, as the census spells it.
+5. Jerome's story of Cyprian asking for "the master" goes to Tertullian, as one clause among those who read him; Cyprian does not tell it.
+6. Dionysius of Alexandria runs about 4:00, the reviewer asking of each part whether the story needs it.
+7. The outline checks begin, after the researchers apply items 2 to 5.
