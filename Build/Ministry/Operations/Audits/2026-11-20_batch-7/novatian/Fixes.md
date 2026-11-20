@@ -42,3 +42,18 @@ Source: `Recheck.md` (batch 7, 2026-11-20). Each FIX applied with its replacemen
 - Section 3, M2, the lapsed gloss (`Outline.md` line 21): the first option taken (the "paid for a certificate" wording, cite ANF 33695–33708). The second option (dropping the papers clause) was not used. "One clause." left as it stood. Applied.
 
 NOT APPLIED: none.
+
+## Length cuts (Mark, 2026-11-20)
+
+Ruling: about 4:00, 4:30 at most (about 600 words, 675 at most). The plan ran about 940 words; it now runs about 620 (about 4:10). Each cut item is listed in Outline.md under "**For the card, not the story:**" with its source line. Heart, force and credited disagreements kept: the book, the letter of 250, Cornelius's charges (oath included, each credited), McGiffert's answer, Dionysius's letter, Cyprian's answer, Acesius and the ladder, Sozomen's reading, canon 8, Rome in the 420s, the uncertain martyrdom.
+
+- Beat 1: sickbed baptism and ordination (was "only if the count allows") → card. Harnack's 240s date → card; the beat says only "its date is uncertain". The "one part of the truth" paraphrase → card.
+- Old beat 2 (in the persecution) folded into the election beat as one clause of Cornelius's charge plus one clause for McGiffert; the deacons' detail and Neander's ascetic reading → card. The "ascetic" gloss removed, since the word is no longer used.
+- Election beat: sixteen bishops, Cornelius's "defender of the doctrine" sneer, and the envoys at Carthage → card.
+- Quote 2 trimmed to its first two sentences; the martyrdom comparison → card.
+- Rule beat: "I will never return to Cornelius" in place of "Amen", and Cyprian's "not a Christian" line → card. The oath and Cyprian's answer stay.
+- Spread beat: Arles, Antioch, Dionysius's later attack (all were "only if the count allows") → card.
+- What came 1: Sozomen's Constantinople and esteem, Socrates's "no other writer recorded it", and canon 8's two-bishops clause → card. Sozomen's reading of the ladder stays as one clause (Connection, point 3).
+- What came 3 (the book under other names; was "only if the count allows") → card.
+- Ending: Valesius's "only a confessor" clause → card (the outline allowed it to drop).
+- Knock-ons: beats renumbered 1–4; beat references in the Sibling, Openings, Who tells it and Words to explain fields updated; Length field rewritten part by part.
