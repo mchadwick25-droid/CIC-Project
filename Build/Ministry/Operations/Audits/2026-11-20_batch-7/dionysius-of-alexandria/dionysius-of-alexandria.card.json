@@ -1,0 +1,144 @@
+{
+  "otherNames": [
+    "Dionysius the Great"
+  ],
+  "knownFor": "Bishop of Alexandria through the persecutions of Decius and Valerian and the plague, whose letters Eusebius of Caesarea kept.",
+  "datesNote": "Bishop from about 247; died in the twelfth year of Gallienus, about 264 or 265; McGiffert notes that both versions of Eusebius's Chronicle put his death in the eleventh year of Gallienus, August 263 to August 264",
+  "placeNote": "Alexandria",
+  "role": "Bishop and head of the school at Alexandria",
+  "keyWorks": [
+    {
+      "title": "Letters",
+      "about": "on his flight under Decius, the plague, the lapsed, rebaptism and Novatian, kept in Eusebius's Church History, Books 6 and 7"
+    },
+    {
+      "title": "On Promises",
+      "about": "against Nepos, with his study of who wrote the Revelation of John"
+    },
+    {
+      "title": "Refutation and Defence",
+      "about": "four books answering Dionysius of Rome"
+    }
+  ],
+  "legacy": {
+    "remembered": [
+      "Eusebius calls him the great bishop of the Alexandrians.",
+      "Athanasius of Alexandria wrote a defense of him a century later, when the Arians claimed him.",
+      "Basil of Caesarea, in a letter, charged him with sowing the seeds of the Anomoean heresy, Blomfield Jackson notes. Jackson adds that Lumper put the charge down to Basil's imperfect knowledge of his writings, and that elsewhere Basil calls him \"the Great.\"",
+      "Athanasius says no bishops ever condemned him or drove him out, that he never left the church of his own will, and that he died honorably within it, his memory kept among the fathers.",
+      "Basil of Caesarea compares him to a woodman who pulls a crooked sapling so far the other way that he drags it awry on the other side."
+    ]
+  },
+  "uncertain": [
+    "The story of his flight under Decius is his own, written to answer Germanus, a bishop who accused him of running away. McGiffert says Germanus's see is not known.",
+    "On the plague he writes as a bishop praising his own people.",
+    "He judged that the apostle did not write the Revelation, from its thought, words and style beside the Gospel and letter of John, and from its Greek. He still would not reject the book. Before him, he says, some had rejected it altogether.",
+    "Archibald Robertson, an editor of Athanasius, says his four books to Dionysius of Rome ended that dispute.",
+    "Arthur McGiffert, who translated Eusebius, says the word Dionysius used for those with him in his flight is read as children, pupils or servants.",
+    "He says the man sent to search for him \"was smitten with blindness\" and did not find the house. McGiffert reads this as the officer not thinking to look there, since he supposed Dionysius would be elsewhere. No source says whether the wedding guests who carried him off were Christians; in a later letter he calls them certain persons from Mareotis.",
+    "He guessed that the writer of the Revelation was some other John of Asia, since, as they say, there are two monuments at Ephesus, each bearing the name of John.",
+    "What he says of the pagans in the plague, that they deserted their sick and cast them out half dead, is his own claim about his neighbors, and the held sources give no pagan account.",
+    "What his words on the Son meant is disputed. The vine and farmer and boat and builder images are the words as his opponents cite them. Athanasius grants he wrote them, says he wrote them for the occasion and the person concerned, about Christ's human nature, and says his four books show his real faith; in those books Dionysius calls the images examples given cursorily and less adequate. Archibald Robertson says Athanasius, not the Arians, had the right to claim him, but that the Arians had good ground at first sight, and calls the defense about Christ's human nature scarcely tenable. Rufinus, about 397, says that the books he wrote against Sabellius have things inserted in them, so that the Arians try to shelter under his authority. Jerome, answering Rufinus about 402, reports him as saying that in the four books against Sabellius Dionysius lapses into the dogma of Arius, but only to show that heretics had corrupted such writings, and says himself that before Arius arose things were said incautiously which cannot be defended against a malevolent criticism. Basil, about a century after Dionysius, thought he first gave men the seeds of the later error, out of zeal against Sabellius and not from bad intent."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letters, in Eusebius's Church History, Books 6 and 7",
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Extant fragments and letters",
+        "language": "English",
+        "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History, Books 6 and 7, with McGiffert's notes",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Defence of Dionysius, with Robertson's introduction",
+        "author": "Athanasius of Alexandria",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      },
+      {
+        "title": "Letter 9, to Maximus the Philosopher, with Jackson's notes",
+        "author": "Basil of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf208_basil-letters-select-works.xml"
+      },
+      {
+        "title": "Epilogue to Pamphilus's Apology for Origen (The Book Concerning the Adulteration of the Works of Origen)",
+        "author": "Rufinus of Aquileia",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Apology Against the Books of Rufinus, Book II",
+        "author": "Jerome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Chronicle, in Jerome's Latin",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt"
+      }
+    ]
+  },
+  "briefReferences": [
+    "Eusebius, Church History VI.29.4 and VI.35, tr. McGiffert: Dionysius, one of Origen's pupils, took charge of the school at Alexandria after Heraclas; he received the bishopric in the third year of Philip, which McGiffert dates from the summer of 246 to the summer of 247.",
+    "Church History VII, preface, and McGiffert's note on his writings: the great bishop of Alexandria, whose letters Eusebius preserved; VII.26.1 names his four books to Dionysius of Rome.",
+    "Church History VI.39, McGiffert's note: the edicts of Decius, early in 250, are lost; the aim was to make Christians deny their faith and return to the religion of the state.",
+    "Church History VI.40.1-9, from his letter to Germanus: the officer sent to search for him, four days at home, God's command to leave, capture about sunset and the march to Taposiris, the wedding guests, the soldiers fleeing, his request that they cut off his head.",
+    "Church History VII.11.1 and 11.18-23, from the same letter: Germanus, a bishop, tried to slander him; his answer; the retreat to a dry place in Libya.",
+    "Church History VII.11.3-13: his hearing before Aemilianus under Valerian and the sending to Cephro in Libya.",
+    "Church History VII.25, from his second book On Promises: some before him had rejected the Revelation; he would not reject it; the thought, words and Greek of the Revelation against the Gospel and letter of John; VII.25.7, the words quoted in the brief.",
+    "Church History VII.22, his plague letter: McGiffert dates it shortly before Easter 263; VII.22.8, the words quoted in the brief; VII.22.10, the pagans casting out their sick.",
+    "Church History VII.28.3: died in the twelfth year of Gallienus after seventeen years as bishop; McGiffert's note puts the death in the eleventh year in both versions of the Chronicle. Chronicle, in Jerome's Latin: Maximus ordained to the Alexandrian church in the eleventh year.",
+    "Athanasius, On the Opinion of Dionysius, section 5: bishops of Pentapolis in Upper Libya held with Sabellius, and Dionysius wrote to show that the Son was not the Father.",
+    "On the Opinion of Dionysius, sections 4 and 13: the words his opponents cite, and Athanasius's grant that he wrote them; some of his church went to the bishop of Rome, who wrote against both errors and wrote to Dionysius what had been said against him.",
+    "On the Opinion of Dionysius, sections 15 and 16: his four books, never a time when God was not Father, light from eternal light; Arius's own words, that there was once a time when the Son was not.",
+    "On the Opinion of Dionysius, sections 1 and 3: the Arians' claim on him, and Athanasius's proof that he was never condemned or driven out and died within the church.",
+    "Basil, Letter 9, to Maximus the Philosopher: the woodman and the crooked sapling.",
+    "Rufinus, Epilogue to Pamphilus's Apology for Origen, and Jerome, Apology Against Rufinus II: the Arians' use of his books, and the claim of insertion."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "Then I understood why they had come. I cried out, begging and pleading with them to go away and leave us alone. If they wanted to do a kindness, I asked them to act before the men leading me away, and cut off my head themselves.",
+      "printed": "Then I understood why they were come, and I cried out, beseeching and entreating them to depart and leave us alone. And I requested them, if they desired to benefit me in any way, to anticipate those who were carrying me off, and cut off my head themselves.",
+      "work": "Eusebius, Church History VI.40.8, quoting Dionysius's letter to Germanus, tr. Arthur Cushman McGiffert",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "37729-37733",
+      "uncertain": "Salmond's English of the same letter (Extant Fragments and Letters, lines 10873-10877) reads \"if they wished to do us any good, they might anticipate those who led me captive, and strike off my head.\" The modern \"do a kindness\" and \"the men leading me away\" follow the Greek, which is legible at those words in the one Greek print held, a damaged scan of Schwartz's edition; \"why they had come\" follows the sense of both English prints, because the Greek is broken there."
+    },
+    {
+      "modern": "That he was called John, and that this book is the writing of a John, I will not dispute. For I agree it is the work of someone holy and inspired by God. But I would not easily grant that this was the apostle, the son of Zebedee, the brother of James.",
+      "printed": "Therefore that he was called John, and that this book is the work of one John, I do not deny. And I agree also that it is the work of a holy and inspired man. But I cannot readily admit that he was the apostle, the son of Zebedee, the brother of James,",
+      "work": "Eusebius, Church History VII.25.7, quoting Dionysius, On Promises, tr. McGiffert",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "41453-41457",
+      "uncertain": "Salmond's English (Extant Fragments and Letters, lines 8119-8125) reads \"the writing of a John, I do not deny\" and \"the work of some holy and inspired man\"; McGiffert has \"the work of one John\". The modern \"the writing of a John\" follows Salmond and the Greek, which has no word for \"one\". \"I will not dispute\" follows the Greek verb, which is future, \"I will not speak against\", where both prints say \"I do not deny\"; \"inspired by God\" renders the one Greek word the prints give as \"inspired\"."
+    },
+    {
+      "modern": "So even this kind of death, which came from great devotion and strong faith, seemed to fall nothing short of martyrdom.",
+      "printed": "so that this form of death, through the great piety and strong faith it exhibited, seemed to lack nothing of martyrdom.",
+      "work": "Eusebius, Church History VII.22.8, quoting Dionysius's plague letter, tr. McGiffert",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "41108-41110",
+      "uncertain": "Salmond's English (Extant Fragments and Letters, lines 11516-11521) reads \"so that this very form of death, in virtue of the distinguished piety and the steadfast faith which were exhibited in it, appeared to come in nothing beneath martyrdom itself.\" The modern \"even\" follows the Greek, which has a word for \"even\" there that neither print renders; \"devotion\" renders the Greek word the prints give as \"piety\"."
+    }
+  ]
+}
