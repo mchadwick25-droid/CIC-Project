@@ -148,3 +148,4 @@ D7. **The census's "Pamphilus wrote nothing except some short letters to his fri
 - The Codex Sinaiticus and Vatican colophons naming Pamphilus: **not held**; known only through McGiffert (E5). For the card.
 - Jerome's Letter 34 in Latin, and Jerome's preface to Chronicles: **not held** in Latin; Letter 34 is held in English inside Rufinus's Apology (JER 49611–49624).
 - Photius's Greek: **not held**, except one sentence quoted by Delarue (APOL-M 40541–40544).
+- The Latin version of the Syriac *Chronica minora* (`chronica-minora-pars-prior-versio-lat_guidi1903.txt` 3727–3729, 3747): Pamphilus, a presbyter at Caesarea, "edocuit Eusebium" ("taught Eusebius"), who was named Pamphilus after him (3728–3729); he was martyred in the Great Persecution (3747). A late chronicle; it adds no new fact, but it independently gives "taught" (beside E12 and "pupil").
