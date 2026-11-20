@@ -1,0 +1,266 @@
+{
+  "rivers": [
+    "Latin West",
+    "Africa"
+  ],
+  "knownFor": "Two councils of 251, at Carthage under Cyprian and at Rome under Cornelius, that agreed how to receive back Christians who had given way in the Decian persecution, and cut off Novatian's stricter party.",
+  "datesNote": "251. Carthage probably in May and Rome probably in October, both by Charles Joseph Hefele's dating; no held source of the time gives the month",
+  "issue": [
+    "The persecution under the emperor Decius had ended. Many Christians had sacrificed to the gods, and others had paid for certificates saying they had. Now many asked to be taken back (Cyprian, Letter to Antonianus).",
+    "The question was whether the church could receive them, and on what terms. Some Christians were pressing to receive communion at once. Cyprian refused to decide until the bishops could meet (Cyprian, Letter to Antonianus).",
+    "At Carthage, the deacon Felicissimus and five presbyters had broken with Cyprian. Charles Joseph Hefele, the historian of the councils, says the party took up the charge that the bishop was too strict with the lapsed.",
+    "At Rome, the church had two bishops. Cornelius would receive the lapsed after penance. A stricter party set up Novatian, who would not admit those who had sacrificed (Socrates of Constantinople; Cornelius's letter in Eusebius of Caesarea).",
+    "Confessors, Christians jailed or tortured for the faith, were handing out written pardons. Cyprian says that in 250 thousands of these papers were being given each day, with no one's case examined. The confessors' own short letter to him grants peace to all whose conduct since their fall satisfied him (Cyprian, Letter to the clergy at Rome; Letter of the confessors to Cyprian).",
+    "A holder of a certificate, Cyprian says, might plead that he never sacrificed: he had gone to the magistrate, or sent someone, to say he was a Christian and could not sacrifice, and had paid a price so as not to. Cyprian held that his hand might be clean but his conscience was stained (Cyprian, Letter to Antonianus).",
+    "Cyprian had agreed with the confessors, the clergy at Rome and the bishops of Africa and overseas that nothing new would be done about the lapsed until all could meet and fix a sentence tempered alike with discipline and with mercy. He warned that anyone who gave communion to the lapsed before then would himself be kept from communion. The Roman clergy's letter, written by Novatian, added that peace should be granted to the sick lapsed at the point of death (Cyprian, Letter to the people of Carthage; Letter to Antonianus).",
+    "Novatian sent envoys to Carthage. Cyprian and the several bishops who had come together to him held that they must be kept from communion (Cyprian, Letter to Cornelius)."
+  ],
+  "calledBy": "Cyprian, bishop of Carthage, for the African bishops; Cornelius, bishop of Rome, for the bishops of Italy",
+  "attended": [
+    "At Carthage, \"a large number of bishops,\" Cyprian writes; Hefele adds some presbyters and deacons. No list of their names is held.",
+    "At Rome, sixty bishops and a great many more presbyters and deacons, by Eusebius of Caesarea's account of Cornelius's letters. Bishops of other provinces, he says, gave their views where they were."
+  ],
+  "decided": [
+    "Hope of peace was not to be denied to the lapsed, but their penance would be long and each case examined (Carthage).",
+    "Those who had taken certificates could be received after their case was examined; those who had sacrificed would be given peace at the point of death (Carthage).",
+    "The deacon Felicissimus and five presbyters who had opposed Cyprian were excommunicated (Carthage, by Cyprian's later letter to Cornelius).",
+    "Rome agreed with Carthage. Novatian and those who held with him were declared strangers to the church, and the fallen were to be healed with the medicines of repentance (Rome).",
+    "Cyprian gives two reasons for the middle way: that the lapsed, shut out of the church, not fall further in despair and live as pagans; and that the discipline of the gospel not be loosened so that they rushed into communion (Carthage, by Cyprian's Letter to Antonianus).",
+    "Cyprian gives the reason for peace at death: there is no confession in the place of the departed (Carthage, by Cyprian's Letter to Antonianus).",
+    "Those who did not repent, and began to ask for communion and peace only when sickness and danger came, were refused. Cyprian says it was the warning of death, not repentance, that drove them to ask (Carthage, by Cyprian's Letter to Antonianus)."
+  ],
+  "outcome": [
+    "The next year, by Hefele's dating, the African bishops offered peace to all the lapsed who had kept on repenting, because a new persecution seemed near.",
+    "Novatian's church lived on. Socrates of Constantinople says that in his day it still kept its strict rule in Phrygia and Paphlagonia.",
+    "Socrates of Constantinople says Novatian's rule seemed to some a cruel and merciless course, and to others just and a help to discipline.",
+    "At Nicaea in 325, the bishops set terms for clergy of those who call themselves Cathari if they came over: they were to agree to communicate with those who had lapsed in persecution and had a period of penance laid on them (Council of Nicaea, canon 8).",
+    "By Hefele's account, Novatian's party at Carthage then put a bishop, Maximus, at its head, and the lax party was given the presbyter Fortunatus as its bishop. Cyprian, who is our witness, calls Fortunatus a false bishop set up by a few (Cyprian, Letter to Cornelius on Fortunatus and Felicissimus)."
+  ],
+  "record": [
+    {
+      "witness": "The council's book of decisions",
+      "kind": "acts",
+      "note": "Cyprian says the heads of the decisions were collected in a little book. It is lost. Henri Leclercq, in his edition of Hefele: nothing of this council remains."
+    },
+    {
+      "witness": "Cyprian, Letter to Antonianus",
+      "kind": "participant",
+      "note": "Written by the bishop who called the Carthage council, to defend it and himself against Novatian's letters. On Cyprian's side."
+    },
+    {
+      "witness": "Eusebius of Caesarea, Church History VI.43 to 46",
+      "kind": "later narrative",
+      "note": "Written later, from letters of Cornelius and Dionysius of Alexandria, which Eusebius quotes or summarizes and which survive only through him. Cornelius wrote as Novatian's enemy."
+    },
+    {
+      "witness": "Socrates of Constantinople, Church History IV.28",
+      "kind": "later narrative",
+      "note": "Written by about 439. The fullest statement of Novatian's own rule, which he reports from Novatian's letters. A. C. Zenos, who edited him in English, finds him favorable to the Novatians."
+    }
+  ],
+  "traditions": [
+    {
+      "id": "cyprian-of-carthage",
+      "name": "Cyprian of Carthage",
+      "part": "Gathered",
+      "note": "The African bishops met at Carthage under Cyprian."
+    },
+    {
+      "id": "roman-church-third-century",
+      "name": "The Roman Church in the Third Century",
+      "part": "Gathered",
+      "note": "Cornelius held the second council at Rome and agreed with Carthage."
+    },
+    {
+      "id": "novatianism",
+      "name": "Novatianism",
+      "part": "Condemned",
+      "note": "The Rome council declared Novatian and his followers strangers to the church."
+    }
+  ],
+  "uncertain": [
+    "The council's own record is lost. What Carthage decided reaches us through Cyprian, who called it and defended it. What Rome decided reaches us through Eusebius, who summarizes Cornelius's letters.",
+    "Novatian's view reaches us through his opponents, and through Socrates of Constantinople almost two centuries later.",
+    "The months are Hefele's reconstruction. No held source of the time names them.",
+    "Hefele says some older editors and historians turned these two councils into four. He also doubts a council at Antioch on the Novatians that the Libellus Synodicus reports. Eusebius says Dionysius was invited to a synod at Antioch where some were trying to strengthen Novatian's party; Arthur McGiffert, who translated Eusebius, thinks it probably met, while Hefele and others doubt it.",
+    "Whether the presbyter Novatus of Carthage was one of the five presbyters cut off with Felicissimus is disputed. Hefele says some assert it and others deny it. Leclercq, following Paul Monceaux, says he was.",
+    "Whether Cornelius took back those who had sacrificed. Socrates of Constantinople says Novatian broke away because Cornelius received into communion believers who had sacrificed. Cyprian calls the report that Cornelius communicates everywhere with those who sacrificed a false rumor of the apostates, and says Cornelius had only joined with us those whose cause was heard and whose innocence was approved.",
+    "The terms for those who had taken certificates. Hefele sums them up as reconciled at once. Cyprian says only that they were admitted in the meantime, after each case was examined.",
+    "What Novatian's rule meant. Socrates reports it as leaving the pardon of those who had sacrificed to God. Eusebius, who calls him Novatus, says he acted as if there was no hope of salvation left for them. In McGiffert's English, the Rome decree calls his opinion brother-hating and inhuman.",
+    "Whether the quarrel at Carthage began over the lapsed. Hefele, citing Cyprian's letters, says it began over Cyprian's commissioners who carried help to the poor, and over Felicissimus's ordination as deacon by the presbyter Novatus without Cyprian's leave. Only afterward did the party take up the severity of the bishop toward the lapsed as its war-cry.",
+    "Cyprian answers a charge. A bishop in Africa, Antonianus, had been shaken by Novatian's letters, and Cyprian writes to clear himself of the thought that he had turned from his early severity to make peace easy for the fallen. He pictures a wounded brother lying stricken on the field of battle, whom Christ urges that he may not wholly perish.",
+    "Nicaea's canon 13 keeps what it calls the ancient canonical law, that a man at the point of death must not be deprived of the last Viaticum. Hefele calls the Carthage book the first penitential book of the church. No held source says Nicaea's rules came from these councils.",
+    "Alexandria in the same years. Dionysius says the martyrs there received some of the fallen who had sacrificed, once they saw their repentance was enough, and had fellowship with them in prayers and feasts. He had also ordered that the dying who asked for remission should receive it, and tells of the old man Serapion, who had sacrificed and was given a little of the eucharist as he died (Dionysius of Alexandria, in Eusebius, Church History VI.42 and VI.44)."
+  ],
+  "sources": {
+    "fromThoseThere": [
+      {
+        "title": "Letter to Antonianus (Letter 55 in Hartel's Latin; Letter 51 in the English)",
+        "author": "Cyprian of Carthage",
+        "language": "Latin",
+        "file": "cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt"
+      },
+      {
+        "title": "Letter to Antonianus; Letter to Cornelius on Fortunatus and Felicissimus; the synodal letter of the African bishops to Cornelius on granting peace",
+        "author": "Cyprian of Carthage and the African bishops",
+        "language": "English translation",
+        "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+      },
+      {
+        "title": "Letter to the clergy at Rome; Letter of the confessors to Cyprian; Letter to the people of Carthage; Letter to Cornelius on Novatian's envoys",
+        "author": "Cyprian of Carthage and the confessors",
+        "language": "English translation",
+        "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+      },
+      {
+        "title": "On the Lapsed",
+        "author": "Cyprian of Carthage",
+        "language": "Latin",
+        "file": "cic/texts/cyprian_de-lapsis-lat_hartel1868-csel3-tei.txt"
+      }
+    ],
+    "writtenLater": [
+      {
+        "title": "Church History, Book VI, chapters 43 to 46",
+        "author": "Eusebius of Caesarea",
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Church History, Book IV, chapter 28",
+        "author": "Socrates of Constantinople",
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "A History of the Councils of the Church, vol. 1",
+        "author": "Charles Joseph Hefele",
+        "language": "English translation",
+        "file": "cic/texts/hefele_history-of-the-councils-v1-to-nicaea_clark1872.txt"
+      },
+      {
+        "title": "Histoire des conciles, tome 1, part 1, section 5",
+        "author": "Charles Joseph Hefele, with notes by Henri Leclercq",
+        "language": "French",
+        "file": "cic/texts/hefele-leclercq_histoire-des-conciles-tome1-1-cyprien-novatiens-baptheme-slice-fra_1907.txt"
+      },
+      {
+        "title": "Canons 8 and 13 of the Council of Nicaea",
+        "author": "Council of Nicaea, ed. Henry R. Percival",
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      }
+    ]
+  },
+  "briefReferences": [
+    "Cyprian, On the Lapsed 8: many ran to the forum of their own accord, and the officials put some off as evening came on.",
+    "Cyprian, Letter to Antonianus (Letter 55 in Hartel's Latin; Letter 51 in the English), ch. 14: the certificate-holder, his hand clean and his conscience stained.",
+    "Cyprian, Letter to the clergy at Rome (Letter 20 in Hartel's Latin): thousands of papers of pardon given each day without examination. Letter of the confessors to Cyprian (Letter 23): peace granted to all whose conduct since their fall satisfied him.",
+    "Cyprian, Letter to the people of Carthage (Letter 43 in Hartel's Latin; Letter 39 in the English), chs. 2 to 3: Felicissimus and the five presbyters, another persecution; nothing new until the bishops meet, and a sentence tempered with discipline and mercy.",
+    "Letter to Antonianus, chs. 4 to 6: the wait, peace for the dying agreed with the clergy at Rome, the council at Carthage and its middle way, and Cornelius's council at Rome agreeing; chs. 17 and 23: the terms, and the refusal of those who asked only on a sickbed.",
+    "Letter to Antonianus, ch. 12: the report about Cornelius and those who sacrificed called a false rumor.",
+    "Cyprian, Letter to Cornelius on Fortunatus and Felicissimus (Letter 59 in Hartel's Latin; Letter 54 in the English), ch. 9: Felicissimus and the five presbyters cut off.",
+    "Socrates of Constantinople, Church History IV.28: Novatian's rule; his separation over Cornelius; his church's strict discipline kept in Phrygia and Paphlagonia to the present day.",
+    "Eusebius of Caesarea, Church History VI.43: the Rome council of sixty bishops, from Cornelius's letters; the decree on Novatian's party and the fallen.",
+    "Cyprian and the African bishops, synodal letter to Cornelius (Letter 57 in Hartel's Latin; Letter 53 in the English), chs. 1 to 3: peace for all who kept repenting, with a new persecution drawing near.",
+    "Hefele, History of the Councils I: Felicissimus as deacon; the dates of the councils and of the year after.",
+    "Council of Nicaea, canon 8: the terms for clergy of the Cathari who came over."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "another persecution",
+      "printed": "another persecution",
+      "work": "Cyprian, Letter to the people of Carthage (Letter 43 in Hartel's Latin; Letter 39 in the English), ch. 3",
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "lines": "32403",
+      "original": "persecutio est haec alia",
+      "originalFile": "cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt",
+      "originalLines": "5953"
+    },
+    {
+      "modern": "tempered with discipline and mercy",
+      "printed": "tempered alike with discipline and with mercy",
+      "work": "Cyprian, Letter to the people of Carthage (Letter 43 in Hartel's Latin; Letter 39 in the English), ch. 3",
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "lines": "32428-32429",
+      "original": "cum disciplina pariter et misericordia temperatam",
+      "originalFile": "cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt",
+      "originalLines": "5968",
+      "uncertain": "The English print adds alike (Latin pariter) and repeats with; the modern wording leaves out alike."
+    },
+    {
+      "modern": "We weighed out a balance, with healing moderation,",
+      "printed": "we balanced the decision with wholesome moderation",
+      "work": "Cyprian, Letter to Antonianus (Letter 55 in Hartel's Latin; Letter 51 in the English), ch. 6",
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "lines": "33514",
+      "original": "temperamentum salubri moderatione librauimus",
+      "originalFile": "cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt",
+      "originalLines": "7584-7585",
+      "uncertain": "Temperamentum is a balance or blend, where the English print has the decision; salubri is healing or wholesome."
+    },
+    {
+      "modern": "Hope of communion and peace was not to be wholly denied to the lapsed, so that despair would not make them fall away further.",
+      "printed": "neither should hope of communion and peace be wholly denied to the lapsed, lest they should fail still more through desperation",
+      "work": "Cyprian, Letter to Antonianus (Letter 55 in Hartel's Latin; Letter 51 in the English), ch. 6",
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "lines": "33514-33516",
+      "original": "ut nec in totum spes communicationis et pacis lapsis denegaretur, ne plus desperatione deficerent",
+      "originalFile": "cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt",
+      "originalLines": "7585-7586",
+      "uncertain": "The modern wording stops at the first reason. Cyprian gives a second, that shut out of the church they would live as pagans."
+    },
+    {
+      "modern": "And the cases, wishes and needs of each person would be examined.",
+      "printed": "the cases, and the wishes, and the necessities of individuals be examined into",
+      "work": "Cyprian, Letter to Antonianus (Letter 55 in Hartel's Latin; Letter 51 in the English), ch. 6",
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "lines": "33521-33522",
+      "original": "examinarentur causae et uolontates et necessitates singulorum",
+      "originalFile": "cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt",
+      "originalLines": "7590-7610"
+    },
+    {
+      "modern": "They should not admit those who had sacrificed to the sacred rites. They should urge them to repent, but leave their pardon to God, who is able, and has the power, to forgive sins.",
+      "printed": "they should not admit to the sacred mysteries those who had sacrificed; but exhorting them to repentance, leave the pardoning of their offense to God, who has the power to forgive all sin.",
+      "work": "Socrates of Constantinople, Church History IV.28, tr. A. C. Zenos",
+      "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+      "lines": "14088-14090",
+      "uncertain": "The modern wording follows the Greek where it differs from the print: sacred rites for the mysteries (the rite meant is the Lord's Supper), who is able and has the power for the Greek's two words, and sins for the Greek's plural. The Greek is held only in a damaged scan, so it is not printed here."
+    },
+    {
+      "modern": "strangers",
+      "printed": "strangers",
+      "work": "Eusebius of Caesarea, Church History VI.43, tr. A. C. McGiffert",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "38294",
+      "uncertain": "The Greek of Rome's decree is held only in a damaged scan, so it is not printed here. Rufinus's Latin of the same sentence has alienum esse ab ecclesia."
+    },
+    {
+      "modern": "with the medicines of repentance",
+      "printed": "with the medicines of repentance",
+      "work": "Eusebius of Caesarea, Church History VI.43, tr. A. C. McGiffert",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "38299",
+      "uncertain": "The Greek of Rome's decree is held only in a damaged scan, so it is not printed here. Rufinus's Latin of the same sentence has fomentis paenitentiae."
+    },
+    {
+      "modern": "to the present day",
+      "printed": "even to the present day",
+      "work": "Socrates of Constantinople, Church History IV.28, tr. A. C. Zenos",
+      "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+      "lines": "14060-14061"
+    },
+    {
+      "modern": "In this time we give peace not to those who sleep, but to those who keep watch. We give peace not for luxury, but for arms. We give peace not for rest, but for the battle line.",
+      "printed": "In these times we grant peace, not to those who sleep, but to those who watch. We grant peace, not amid indulgences, but amid arms. We grant peace, not for rest, but for the field of battle.",
+      "work": "Cyprian and the African bishops, synodal letter to Cornelius (Letter 57 in Hartel's Latin; Letter 53 in the English), ch. 3",
+      "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+      "lines": "34332-34335",
+      "original": "hoc in tempore pacem nos non dormientibus sed uigilantibus damus, pacem non deliciis sed armis damus, pacem non ad quietem sed ad aciem damus.",
+      "originalFile": "cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt",
+      "originalLines": "8721-8724",
+      "uncertain": "Deliciis is luxury or pleasures; the English print's indulgences now names a later church practice. Aciem is the battle line, where the print has the field of battle."
+    }
+  ]
+}
