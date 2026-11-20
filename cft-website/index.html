@@ -126948,7 +126948,7 @@ function renderRiverNames(){
     const g=el('g',{class:'river-name',tabindex:'0',role:'button','data-lane':k,
       'aria-label':`${f.name}${f.common?`, ${f.common}`:''}. Opens the river's card.`});
     const ico=el('g',{class:'rn-ico','aria-hidden':'true'});
-    ico.appendChild(el('path',{d:'M-1,-7 C3,-3 -3,1 1,7',fill:'none',stroke:famColor(f),'stroke-width':3.2,'stroke-linecap':'round'}));
+    ico.appendChild(el('path',{d:'M3 2c3 3-3 6 0 9s-3 6 0 9M9 2c3 3-3 6 0 9s-3 6 0 9',transform:'scale(.78) translate(-6 -11)',fill:'none',stroke:famColor(f),'stroke-width':2.8,'stroke-linecap':'round'}));
     g.appendChild(ico);
     const t=el('text',{class:'rn-name'}); t.textContent=f.name; g.appendChild(t);
     if(f.common){const c=el('text',{class:'rn-common'}); c.textContent=f.common; g.appendChild(c);}
@@ -126979,8 +126979,8 @@ function placeRiverNames(U){
     const pill=[...document.querySelectorAll(`.river-pill[data-lane="${k}"]`)].find(p=>p._at&&p.getClientRects().length&&Math.abs(p._at[1]-y)<U*2.4);
     if(pill)x=Math.max(x,pill._at[0]+(pill._w||U*2)/2+U*.35);
     const name=g.querySelector('.rn-name'), common=g.querySelector('.rn-common'), ico=g.querySelector('.rn-ico');
-    ico.setAttribute('transform',`translate(${(x+fs*.35).toFixed(1)},${(y+fs*.55).toFixed(1)}) scale(${(fs/13).toFixed(3)})`);
-    x+=fs*.95;
+    ico.setAttribute('transform',`translate(${(x+fs*.42).toFixed(1)},${(y+fs*.55).toFixed(1)}) scale(${(fs/13).toFixed(3)})`);
+    x+=fs*1.1;
     name.setAttribute('x',x.toFixed(1)); name.setAttribute('y',(y+fs*.85).toFixed(1)); name.style.fontSize=fs+'px'; name.style.strokeWidth=(3*fs/13)+'px';
     if(common){common.setAttribute('x',x.toFixed(1)); common.setAttribute('y',(y+fs*.85+cs*1.25).toFixed(1)); common.style.fontSize=cs+'px'; common.style.strokeWidth=(3*cs/13)+'px';}
     const b=g.getBBox(), r={id:'rn'+k,x0:b.x-2,x1:b.x+b.width+2,y0:b.y-1,y1:b.y+b.height+1};

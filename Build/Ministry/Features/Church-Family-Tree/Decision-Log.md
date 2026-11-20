@@ -4944,3 +4944,9 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 **Result.** Desktop at the farthest zoom-out (0.45), names shown per era 1..10: 12 11 13 12 11 8 13 13 13 14; no overlaps in the screenshots checked. On a phone the map can zoom out to 0.18; below 0.34 the whole map switches to its simplified view, which shows no names at all. That threshold was not changed and is open for Mark.
 
 **Tested with People and Stories on (Mark: "test it with the who on then the stories on").** Compared with `main` at eras 1, 2, 5, 7 and 9, zoom 0.45 to 1.0, desktop and phone. At the farthest zoom-out the first version let story pills land on four names, so the far-out names now yield to the pills as the in-between names do. After that no name overlaps a pill or story mark, apart from invisible pill hit-boxes that touch a name by a few pixels (also on `main` at 0.8 and 1.0). Names shown across those five eras on desktop: 78 at 0.45 (12 on `main`), 85 at 0.5, 126 at 0.65, 119 at 0.8.
+
+## 2026-11-20 — River-name icon matches the Rivers toggle
+
+Mark: "the river icon should match the double river icon on the toggle".
+
+**Done.** The icon beside each river's name on the map now uses the same two-strand shape as the Rivers button in the feature bar, kept in that river's own color so it still ties to its river. The name moves over slightly to make room.
