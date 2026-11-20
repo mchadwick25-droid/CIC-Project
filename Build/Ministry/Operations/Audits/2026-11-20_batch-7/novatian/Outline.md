@@ -13,7 +13,7 @@ Sheet items (S, E, I, D) are in `Source_Sheet.md`, which gives the file and line
 - **Setting:**
   - Time: before 250 (E1, E2); 250, the persecution under the emperor Decius, Rome without a bishop for over a year (S1, E4); 251, the rival election and the council at Rome (E5, E9); the spread, 251 to about 257 (E10); Nicaea, 325 (I1); Rome, until about 422 (I2). Plain words: "in the middle of the third century".
   - Place: Rome (S2). Then Carthage, Alexandria and Nicaea, each a clause (E4, E7, I1). Plain words: "Rome".
-  - Tradition: the tree's name is "Novatianism" (S3). His followers called themselves the Cathari, "the pure" (S3). Say "Novatian's church" aloud.
+  - Tradition: the tree's name is "Novatianism" (S3). His followers called themselves the Katharoi, "the pure" (S3). Say "Novatian's church" aloud.
 
 **Words to explain** (the first time each is heard; plain word or short gloss, worked into the sentence)
 
@@ -23,7 +23,7 @@ Sheet items (S, E, I, D) are in `Source_Sheet.md`, which gives the file and line
 - **confessors**: "Christians who had been jailed or tortured for the faith and had not given way" (E5).
 - **rival bishop**: "a second bishop of Rome, set up against the first". Never "antipope" or "pope" (D12).
 - **Trinity / the rule of truth**: "God as Father, Son and Holy Spirit"; "the church's short summary of what it believed, the forerunner of the creed" (E2).
-- **Cathari**: "a Greek word meaning 'the pure', the name his followers gave themselves" (S3). Say whose name it is.
+- **Katharoi**: "a Greek word meaning 'the pure', the name his followers gave themselves" (S3). Say whose name it is.
 - **baptized again**: "they baptized a second time those who came over to them from the larger church, holding its baptism no baptism" (E10). One clause.
 - **a sin unto death** (inside Acesius's words, if used): "a grave sin after baptism, such as denying Christ, which the Bible calls a sin that leads to death" (I1).
 - **lay hands on him** (beat 2): "the laying on of hands, the act that made him a bishop" (EUS 38531–38533, "imposition of hands").
@@ -42,7 +42,7 @@ Sheet items (S, E, I, D) are in `Source_Sheet.md`, which gives the file and line
 1. **Elder and writer** (E2). He wrote *On the Trinity*: the rule of truth bids us believe first in God the Father, maker of all things; then in the Son, both man and God; and Father and Son are two, against those who said they were one person (E2; Documented). Its date is uncertain (D1; say only that). About 45 words.
 2. **The rival election, 251** (E3, E5, E7). Cornelius was chosen bishop of Rome. A stricter party, with confessors who had suffered in prison, set Novatian up against him (E5; Documented). Cornelius, his rival, writing to a bishop in Antioch, gave his version: in the persecution Novatian had shut himself away and refused to help the brothers (E3); he had sworn terrible oaths never to seek the office, then fetched three simple bishops from a small corner of Italy and, at the tenth hour, drunk and sick, made them lay hands on him (E5; Cornelius's charges, one clause each, told as his). An American historian who edited Eusebius, McGiffert, calls the refusal and the drunkenness slander (D2; one clause, by role). Novatian said he had been pushed into it against his will (E7). Dionysius of Alexandria wrote to him: Quote 2 (two sentences). About 120 words.
 3. **His rule, and the break** (E8, E9). Rome's council of sixty bishops declared him and his followers outside the church (E9; one clause, paraphrase only). His rule: those who had sacrificed would not be given communion again; they were urged to repent and to leave their pardon to God (E8; Documented). Cornelius charged that at the communion table he held each person's hands and made him swear by the body and blood of Christ never to go back to Cornelius (E8; Cornelius's charge, his gravest; indirect speech, not a quote). Cyprian answered that this told the fallen to weep day and night, and then die outside the church (E8, ANF 34105–34110; paraphrase; keep its force). About 85 words.
-4. **The church spreads** (E10). He sent bishops of his own to many cities, Cyprian complained (E10; Documented). His followers called themselves the Cathari, "the pure", and baptized again those who came over to them (S3, E10; Documented). About 30 words.
+4. **The church spreads** (E10). He sent bishops of his own to many cities, Cyprian complained (E10; Documented). His followers called themselves the Katharoi, "the pure", and baptized again those who came over to them (S3, E10; Documented). About 30 words.
 
 **What came of him** (about a third of the story; heaviest first)
 
@@ -118,7 +118,7 @@ Past six names: Novatian, Cornelius, Cyprian, Dionysius, Constantine, Acesius an
 - Not "Novatian was a Stoic philosopher" (D11), "the first Latin theologian of Rome" or any ranking (D12).
 - Not "On the Trinity was written in 257" or "before 250" as fact (D1). Not "Jerome said it copied Tertullian" as settled; Harnack disputes it (I3).
 - Not "Novatus" for him aloud, and never confuse him with Novatus of Carthage, a different man who joined the split (S4).
-- Not "the pure ones" or "the Cathari" in the narrator's voice as praise. It is the name they gave themselves; Eusebius calls it pride (S3).
+- Not "the pure ones" or "the Katharoi" in the narrator's voice as praise. It is the name they gave themselves; Eusebius calls it pride (S3).
 - Not "strangers to the church" or "medicines of repentance": the council's words. Say "declared outside the church" (E9).
 - Not Socrates's words "should not admit to the sacred mysteries ...": the council's quote. Tell the rule in Acesius's terms or in paraphrase (E8).
 - Not "Acesius, bishop of Constantinople" without credit. Socrates says only "a bishop of the Novatians"; Sozomen names the city (D7).

@@ -1,0 +1,6 @@
+13 briefs; a move in more than 3 is marked
+ok    1  an unnamed opening, then the name revealed: pontius-the-deacon
+OVER  4  a setting slot (a time and a place stacked in one early sentence, or "in what is now" more than once): councils-of-rome-and-carthage-251, eusebius-of-caesarea, methodius-of-olympus, origen
+ok    2  the "Most of what we know" witness formula: novatian, pamphilus-of-caesarea
+OVER  4  a sentence opening with "Yet": anatolius-of-alexandria-and-laodicea, councils-of-rome-and-carthage-251, peter-of-alexandria, pontius-the-deacon
+OVER  6  an ending on a later writer or institution (a later time marker in the last two paragraphs): anatolius-of-alexandria-and-laodicea, councils-of-rome-and-carthage-251, cyprian-of-carthage, dionysius-of-alexandria, novatian, origen

@@ -82,3 +82,4 @@ Source: `Cut_Check.md`, 2026-11-20. Length FIXes (item 5) and all Length lines a
   - Do not say, sickbed baptism line: `at most "by his rival's account he was baptized on his sickbed".` replaced with `the sickbed baptism itself is for the card.`
 
 NOT APPLIED: none.
+- Coordinator, 2026-11-20, before review (Kit Part 4, step 4: a variant spelling is fixed before review): "Cathari" changed to "Katharoi" in the brief and the outline, the spelling the tree uses (census `novatianism`); it also keeps the name from being heard as the medieval Cathars.
