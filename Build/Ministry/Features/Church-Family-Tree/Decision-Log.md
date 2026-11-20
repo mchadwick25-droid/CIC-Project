@@ -4850,3 +4850,9 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 **Why (Mark, 2026-11-20).** "if someone scrolls through a card and closes it and opens another it starts at the top, always open brings the card to the top". The card panel kept its scroll position, so a new card opened partway down.
 
 **Done.** Opening any card now starts it at the top, whether the last card was closed or not. Two cases keep their place on purpose: "Open the card" on the listening bar brings the same card back as it was, and opening a story from the story list opens its tradition's card at that story.
+
+## 2026-11-20 — Each river is named at its top, with its everyday name and a hover that explains it
+
+**Why (Mark, 2026-11-20).** "can we put the name of the river at the begining (mabey right at the top to the right) with a hover explaining, use the known name too"; then "can we add the river icon with it so they know its a river title and not a tradition".
+
+**Done.** At the top of each river, just to its right, the map shows the river symbol from the Key in the river's own colour, the river's name in small capitals, and its everyday name under it where it has one ("Greek East" / "Orthodox"). Hovering shows the name, the everyday name, the number of traditions and the years, and where it began: the recorded reason for a river that starts on its own, or the linked traditions for one that branches. Clicking opens the river's card. A name moves down a little to clear a tradition's name, a people or story number or an era title, and stays hidden until zooming in when there is no room near the top (era 2 on a phone at the opening zoom).

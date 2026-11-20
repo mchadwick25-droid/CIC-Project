@@ -68,6 +68,14 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
 svg#world{display:block;overflow:visible}
 .era-label,.era-tag{paint-order:stroke;stroke:var(--parchment);stroke-width:3px;stroke-linejoin:round}
 .era-label{font-family:"Cinzel",serif;font-size:26px;letter-spacing:.06em;fill:var(--gold-leaf)}
+.river-name{cursor:pointer}
+.river-name text{paint-order:stroke;stroke:var(--parchment);stroke-linejoin:round}
+.river-name .rn-name{font-family:"Alegreya Sans",sans-serif;font-weight:700;letter-spacing:.06em;text-transform:uppercase;fill:var(--iron-gall)}
+.river-name .rn-common{font-family:"Alegreya",serif;font-style:italic;fill:var(--ink-faded)}
+.river-name:hover .rn-name,.river-name:focus-visible .rn-name{fill:var(--gold-leaf)}
+.river-name:focus{outline:none}
+.river-name.rn-cull{visibility:hidden}
+svg.who-on #river-names,svg.story-on #river-names{opacity:.2}
 .era-tag{font-family:"Alegreya",Georgia,serif;font-style:italic;font-size:16px;fill:var(--ink-faded)}
 .lbl-cull{visibility:hidden}
 .lbl{display:none;font-family:"Alegreya Sans",sans-serif;font-size:0.6875rem;fill:var(--iron-gall);
@@ -101,6 +109,7 @@ svg#world{display:block;overflow:visible}
 #tip .n{font-family:"Alegreya",serif;font-weight:700;font-size:.95rem}
 #tip .m{color:var(--ink-faded);font-style:italic;font-size:.78rem}
 #tip .s{color:var(--tyrian);font-variant:small-caps;letter-spacing:.04em;font-size:.75rem;margin-top:.2rem}
+#tip .x{font-size:.82rem;line-height:1.35;margin-top:.35rem}
 #panel{position:fixed;top:0;right:0;bottom:0;width:min(380px,90vw);background:var(--vellum);
   border-left:2px solid var(--gold-leaf);z-index:30;transform:translateX(105%);
   transition:transform .22s ease;overflow-y:auto;padding:1.2rem 1.3rem 2rem}
@@ -125573,6 +125582,7 @@ const gStoryPills=el('g',{id:'story-pills'}); gRoot.appendChild(gStoryPills);
 const gStoryMarks=el('g',{id:'story-marks'}); gRoot.appendChild(gStoryMarks);
 const gWho=el('g',{id:'who'}); gRoot.appendChild(gWho);
 const gAuto=el('g',{id:'who-auto'}); gRoot.appendChild(gAuto);
+const gRiverNames=el('g',{id:'river-names'}); gRoot.appendChild(gRiverNames);
 const gLabels=el('g',{id:'era-labels'}); gRoot.appendChild(gLabels);
 
 const WORLD_CONTEXT={
@@ -126245,6 +126255,7 @@ function placeWhoMarks(){
       grid.add({id:'pp'+it.id,x0:cx-U/2,x1:cx+U/2,y0:cy-U/2,y1:cy+U/2});
     }));
   }
+  placeRiverNames(U);
 }
 
 let autoKey='', autoRaf=0;
@@ -126700,6 +126711,7 @@ function render(){
   renderCouncils();
   renderWhoPills();
   renderStoryPills();
+  renderRiverNames();
 
   (DATA.stories||[]).forEach(s=>{
     const g=el('g',{class:'story','data-lane':s.laneOrder,transform:`translate(${s._x.toFixed(1)},${s._y.toFixed(1)})`,
@@ -126861,6 +126873,74 @@ function tipForEdge(edg,a,b){
   return `<div class="n">${edgeHeading(edg,a,b)}</div><div class="m">${esc(edg.type)} · ${esc(edg.confidence)}</div><div class="s">${esc(edg.note.slice(0,140))}${edg.note.length>140?'…':''}</div>`;
 }
 function riverSpan(members){return members.length===1?plainDates(members[0].dates):`${Math.min(...members.map(m=>m.start))}–${Math.max(...members.map(m=>m.end))}`;}
+function riverHeadY(k){
+  if(k===0){let y=0;while(y<CANVAS_H&&!riverSpanAt(0,y,1))y+=STEP;return y;}
+  return branches(k)?laneSettledY(k):laneGenesisY[k]-SPRING_LEAD;
+}
+function riverExplainTip(k,f,members){
+  let h=`<div class="n">${esc(f.name)}</div>`;
+  if(f.common)h+=`<div class="m">${esc(f.common)}</div>`;
+  h+=`<div class="m">${members.length} ${members.length===1?'tradition':'traditions'} · ${esc(riverSpan(members))}</div>`;
+  const o=RIVER_ORIGINS.find(x=>x.lane===k);
+  if(o&&o.parent!=null){
+    if(o.basis==='lineage'){
+      const e=DATA.edges.find(x=>x.id===o.link), a=e&&byId[e.from], b=e&&byId[e.to];
+      if(a&&b)h+=`<div class="x">It grew out of ${esc(famOf(o.parent).name)}: ${esc(a.shortName||a.name)} ${esc(e.type)} ${esc(b.shortName||b.name)}.</div>`;
+    }else if(o.reason)h+=`<div class="x">${esc(o.reason)}</div>`;
+  }
+  return h;
+}
+function renderRiverNames(){
+  gRiverNames.innerHTML='';
+  laneKeys.forEach(k=>{
+    const f=famOf(k), members=churchBodies.filter(m=>m.laneOrder===k).sort((a,b)=>a.start-b.start);
+    if(!members.length)return;
+    const tip=riverExplainTip(k,f,members);
+    const g=el('g',{class:'river-name',tabindex:'0',role:'button','data-lane':k,
+      'aria-label':`${f.name}${f.common?`, ${f.common}`:''}. Opens the river's card.`});
+    const ico=el('g',{class:'rn-ico','aria-hidden':'true'});
+    ico.appendChild(el('path',{d:'M-1,-7 C3,-3 -3,1 1,7',fill:'none',stroke:famColor(f),'stroke-width':3.2,'stroke-linecap':'round'}));
+    g.appendChild(ico);
+    const t=el('text',{class:'rn-name'}); t.textContent=f.name; g.appendChild(t);
+    if(f.common){const c=el('text',{class:'rn-common'}); c.textContent=f.common; g.appendChild(c);}
+    g.addEventListener('mouseenter',ev=>showTip(ev,tip));
+    g.addEventListener('mousemove',ev=>positionTip(ev));
+    g.addEventListener('mouseleave',hideTip);
+    g.addEventListener('focus',()=>{const r=g.getBoundingClientRect();showTipAt(r.left+r.width/2,r.bottom,tip);});
+    g.addEventListener('blur',hideTip);
+    const go=()=>openPanelRiver(f,members);
+    g.addEventListener('click',ev=>{ev.stopPropagation();go();});
+    g.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();ev.stopPropagation();go();}});
+    gRiverNames.appendChild(g);
+  });
+}
+function placeRiverNames(U){
+  const fs=Math.min(Math.max(12,13/scale),17/scale), cs=fs*.8, grid=labelFit.grid, sr=stage.getBoundingClientRect();
+  const eraBoxes=[...gLabels.querySelectorAll('.era-label,.era-tag,.era-info')].map(e=>e.getBoundingClientRect()).filter(r=>r.width);
+  const onEra=b=>{const x0=b.x*scale+tx+sr.left,x1=(b.x+b.width)*scale+tx+sr.left,y0=b.y*scale+ty+sr.top,y1=(b.y+b.height)*scale+ty+sr.top;
+    return eraBoxes.some(r=>r.left<x1&&r.right>x0&&r.top<y1&&r.bottom>y0);};
+  gRiverNames.querySelectorAll('.river-name').forEach(g=>{
+    if(g.classList.contains('is-off'))return;
+    const k=+g.dataset.lane, head=k===0?Math.max(riverHeadY(0),eraY0[0]+22):riverHeadY(k);
+    g.classList.remove('rn-cull');
+    for(let step=0;step<6;step++){
+    const y=head+step*U*.6;
+    const sp=riverSpanAt(k,y+U*.5,1)||riverSpanAt(k,y+U*1.5,1)||[laneCenterX(k,y),laneCenterX(k,y)];
+    let x=sp[1]+U*.45;
+    const pill=[...document.querySelectorAll(`.river-pill[data-lane="${k}"]`)].find(p=>p._at&&p.getClientRects().length&&Math.abs(p._at[1]-y)<U*2.4);
+    if(pill)x=Math.max(x,pill._at[0]+(pill._w||U*2)/2+U*.35);
+    const name=g.querySelector('.rn-name'), common=g.querySelector('.rn-common'), ico=g.querySelector('.rn-ico');
+    ico.setAttribute('transform',`translate(${(x+fs*.35).toFixed(1)},${(y+fs*.55).toFixed(1)}) scale(${(fs/13).toFixed(3)})`);
+    x+=fs*.95;
+    name.setAttribute('x',x.toFixed(1)); name.setAttribute('y',(y+fs*.85).toFixed(1)); name.style.fontSize=fs+'px'; name.style.strokeWidth=(3*fs/13)+'px';
+    if(common){common.setAttribute('x',x.toFixed(1)); common.setAttribute('y',(y+fs*.85+cs*1.25).toFixed(1)); common.style.fontSize=cs+'px'; common.style.strokeWidth=(3*cs/13)+'px';}
+    const b=g.getBBox(), r={id:'rn'+k,x0:b.x-2,x1:b.x+b.width+2,y0:b.y-1,y1:b.y+b.height+1};
+    if((grid&&grid.hits(r))||onEra(b)){if(step===5)g.classList.add('rn-cull');continue;}
+    if(grid)grid.add(r);
+    break;
+    }
+  });
+}
 function tipForRiver(f,count,span){
   return `<div class="n">${esc(f.name)}</div><div class="m">${count} ${count===1?'tradition':'traditions'} · ${esc(span)}</div>`;
 }
@@ -127535,7 +127615,7 @@ function buildLegend(){
     document.querySelectorAll('.edge-line,.edge-hit').forEach(p=>{
       p.classList.toggle('is-off',mode==='off'||kindsOff.has(p.dataset.family)||(p.dataset.lanes||'').split('|').some(laneOff)||(mode==='major'&&p.dataset.major!=='1'));
     });
-    document.querySelectorAll('.river-group,.node,.story,.river-pill,.prof-pill').forEach(g=>g.classList.toggle('is-off',laneOff(g.dataset.lane)));
+    document.querySelectorAll('.river-group,.node,.story,.river-pill,.prof-pill,.river-name').forEach(g=>g.classList.toggle('is-off',laneOff(g.dataset.lane)));
     gAcross.querySelectorAll('.across').forEach(g=>{const ls=acrossLanes[g.dataset.id]||new Set();g.classList.toggle('across-out',!!ls.size&&![...ls].some(k=>!laneOff(k)));});
     document.querySelectorAll('.tie').forEach(p=>p.classList.toggle('is-off',(p.dataset.lanes||'').split('|').filter(Boolean).some(laneOff)));
     document.querySelectorAll('.continues').forEach(g=>g.classList.toggle('is-off',g.dataset.lanes.split('|').some(laneOff)));
