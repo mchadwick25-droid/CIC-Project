@@ -14,7 +14,7 @@ Score: grade 7.0 (names out 6.3), reading ease 74.8, longest sentence 30 words. 
 
 **BLOCKING (residue of the church's voice; the narrator carries one side's view).** The new frame "These churches taught that..." is the right move. The narrator stands outside every church, and a doctrine told flat in the narrator's voice is the church's voice left in place. But the frame covers only part of the paragraph. "A sinner is freely justified for Christ's sake, through faith. The sacraments carry that promise." and "In the Supper, Christ's body and blood are truly present, in and under the bread and wine" are still told as plain present-tense fact. The Supper is the point the Confession itself fought over ("The Confession rejected those who taught otherwise about the Supper"), and the Reformed churches sit beside this one on the tree. So the narrator here asserts one side's teaching as true. "Baptism means, they taught, that..." also breaks the sentence in a way that is hard to hear. "These churches" has nothing before it to point back to, since the first paragraph speaks only of "a reform".
 
-Replace the paragraph's second to last sentences with:
+Replace everything in the paragraph after its first sentence with:
 
 "The churches of this reform taught that the commandments lead a person to despair of his own powers, and that God's promise then comforts him. In their teaching, a sinner is freely justified for Christ's sake, through faith, and the sacraments carry that promise. Baptism means the old self is drowned by daily sorrow and repentance, and absolution is given as though from God himself. They held that in the Supper Christ's body and blood are truly present, in and under the bread and wine, and they gave no explanation of how."
 
