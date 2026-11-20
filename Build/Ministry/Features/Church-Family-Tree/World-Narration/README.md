@@ -27,3 +27,7 @@ One folder per world, named by its census id. For each piece `<key>` (`story`, `
 2. Rewrite (Sonnet), from the sheet and Kit Parts 1 and 2.
 3. Review (Opus), by another hand: one hearing, fidelity sentence by sentence against the original, quotes checked in their source files, `python -m engine.m1.profile_readability`.
 4. One revision and one targeted recheck. Anything still failing goes to Mark. That makes three rounds at most.
+
+## Status
+
+All 122 pieces passed review on 2026-11-20. The hand-off for recording is in Open-Gaps, "Built worlds in the standard voices: the writing is done, hand-off for recording" (2026-11-20). The roles each step used are in `roles/`.
