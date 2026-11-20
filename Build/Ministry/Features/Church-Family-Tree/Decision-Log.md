@@ -4916,3 +4916,9 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 - The run, settings printed before every request: Daniel (`onwK4e9ZLuTAKqWW03F9`, `eleven_multilingual_v2`) for 21 Story and Legacy pieces and Neo (`onegjDE2z0mQtp1g0HK7`, `eleven_v4`) for 99 documented stories, both `mp3_44100_64`, `{"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true}`, speed 1, tempo 1. 152,331 characters, 73,861 credits, under the 155,000-character cap; with the two samples (876 credits), 122 pieces and 74,737 credits.
 - Checked: all 122 files present, each recorded from its reviewed text; on the map all 11 built-world cards show the narrator texts and play only the tree recordings. Church in Conversation keeps its texts and Representative voices.
 - The map switches a world only when every piece is recorded; a later world rebuild that changes a source text makes its piece stale, and the tool refuses it until it is rewritten.
+
+## 2026-11-20 — River-name icon matches the Rivers toggle
+
+Mark: "the river icon should match the double river icon on the toggle".
+
+**Done.** The icon beside each river's name on the map now uses the same two-strand shape as the Rivers button in the feature bar, kept in that river's own color so it still ties to its river. The name moves over slightly to make room.
