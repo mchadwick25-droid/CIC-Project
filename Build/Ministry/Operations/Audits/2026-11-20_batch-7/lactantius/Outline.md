@@ -120,3 +120,5 @@ Sheet items (S, E, I, L, D, Q-src) are in `Source_Sheet.md`, which gives the fil
   - The later list under a pope's name that counted "the little works of Lactantius" among books not received (I1; TE 11465–11476).
   - Read widely in the Middle Ages and the Renaissance (I1; MO 29870–29878).
   - Calvin closing an argument "with Lactantius" (I1; CA 7254–7256).
+  - Crispus held back to beat 7, after the first minute → the essence's "Late in life, Jerome says, he taught Constantine's son Crispus in Gaul" within the first 150 words; beat 7 then tells only that his death is not known.
+  - "The world will end after six thousand years" → "the world will run as it is for six thousand years" (a thousand-year reign follows; AN 6648–6650).
