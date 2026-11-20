@@ -131,6 +131,7 @@ svg.who-on #river-names,svg.story-on #river-names{opacity:.2}
   font-size:1.3rem;color:var(--ink-faded);cursor:pointer;line-height:1;padding:.2rem}
 #panel h2{font-family:"Alegreya",serif;font-size:1.3rem;margin:.2rem 0 .1rem}
 #panel .meta{font-style:italic;color:var(--ink-faded);font-size:.88rem;margin:0 0 .8rem}
+#panel .grow-line{margin:1.4rem 0 .4rem;padding-top:.8rem;border-top:1px solid var(--rule);font-size:.92rem;color:var(--ink-faded)}
 #panel .statuspill{display:inline-block;font-family:"Alegreya Sans",sans-serif;
   font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--rule);
   border-radius:999px;padding:.12rem .55rem;margin-bottom:.7rem}
@@ -127477,6 +127478,7 @@ function showPanel(page){
   hideTip();
   panel.scrollTop=0;
   lastFocused=document.activeElement;
+  if(!panelBody.querySelector('.grow-line'))panelBody.insertAdjacentHTML('beforeend','<p class="grow-line">This map is free to use. If it helps you, <a href="support.html">help it grow</a>.</p>');
   if(window.PageFeedback)window.PageFeedback.mount(panelBody,page);
   panel.classList.add('open');
   panel.removeAttribute('inert');
