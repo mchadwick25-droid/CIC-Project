@@ -32,7 +32,7 @@ Researcher's sheet for batch 7 (2026-11-20). The job: the rhetorician made bisho
 - OWN = Cyprian's letters and treatises (EP, UNIT, MORT, LAPS, DON, SENT). Rich: some eighty letters, including letters to him.
 - CONTEMP, hostile or critical = the Roman clergy's letter (EP Ep. 8); **Firmilian**, bishop of Caesarea in Cappadocia, writing to Cyprian (EP Ep. 75); **Stephen** of Rome, known only as Cyprian quotes him (EP Ep. 74). No letter of Stephen survives on its own.
 - CONTEMP, friendly = the *Acta Proconsularia* (KNOPF, GEB, H3): a court-style record of the hearings of 257 and 258 and the death, with a church narrative between them. **The *Life* by Pontius** (ANF 27656–28303; Latin H3 40258–41412): written soon after his death by a deacon who shared his exile, as open praise. Jerome is the witness that Pontius wrote it (NPNF3 40833–40835); the *Life* itself is unsigned, and Hartel's title page says "commonly attributed" (H3 header, line 2).
-- LATER = Eusebius, about 70 years later (EUS 39310–39314); Lactantius, about 50 years later (L7 4472–4478); Augustine, about 140 years later (AUG, CONF, MORIN); Jerome, about 135 years later (NPNF3); Theodoret, 5th century (NPNF3 36796–36798); Procopius, 533 (PROC).
+- LATER = Eusebius, about 70 years later (EUS 39310–39314); Lactantius, about 50 years later (L7 4472–4478); Augustine, about 140 years later (AUG, CONF, MORIN); Jerome, about 135 years later (NPNF3); Theodoret, 5th century (NPNF3 36796–36798); Vincent of Lérins, about 434, on the baptism quarrel from Stephen's side (`npnf211_sulpitius-severus-vincent-lerins-cassian.xml` 12513–12575); Procopius, 533 (PROC).
 - MODERN = ANF-ed, EUS-ed, BEN, KOCH: dates, readings, and the argument over chapter 4 of the *Unity*.
 
 ---
@@ -131,7 +131,7 @@ D5. **The manner of death in a later writer.** Theodoret says Cyprian "found a d
 
 D6. **Who told whom to nurse the pagan sick.** Pontius says Cyprian urged care for all, "not to those only who are of the household of faith" (ANF 27990–27992). *On the Mortality* tests whether "the healthy serve the sick" but does not mention pagans (MORT 584–588). The tradition entry's summary merges them (CEN). Credit the pagan sick to Pontius.
 
-D7. **Who first held rebaptism.** Eusebius: "First of all, Cyprian ... maintained that they should not be received except they had been purified ... by baptism" (EUS 39310–39312). Cyprian himself: an African council under Agrippinus "long ago" had decided it (EP 14546–14550). Augustine also names Agrippinus before him (AUG 11606). Credit each.
+D7. **Who first held rebaptism.** Eusebius: "First of all, Cyprian ... maintained that they should not be received except they had been purified ... by baptism" (EUS 39310–39312). Cyprian himself: an African council under Agrippinus "long ago" had decided it (EP 14546–14550). Augustine also names Agrippinus before him (AUG 11606). Vincent of Lérins, about 434, from Stephen's side, names Agrippinus as "the first who held it" and gives Stephen's rule as "Let there be no innovation" (*Commonitorium* 6, `npnf211_sulpitius-severus-vincent-lerins-cassian.xml` 12513–12527). Credit each.
 
 D8. **The "bishop of bishops" line: aimed at Stephen or not.** Benson: it "states the position of tolerance which he takes as against one who wants to make himself a bishop of bishops" (BEN 21457–21461), against those who read the speech as a peace offer (BEN 21452). Augustine reads it as kindness and humility (AUG 11626). Contested. The story says he spoke it at the council, in the months of the quarrel, and lets the listener hear it; it does not say it named Stephen.
 
@@ -145,7 +145,7 @@ D10. **The Roman letter's tone** (E5): Coxe "in a slight degree"; Benson "a sarc
 
 - No English of the *Acta Proconsularia* is held; renderings from it are made from KNOPF's Latin.
 - No letter of Stephen survives apart from Cyprian's extract.
-- Augustine's sermons on Cyprian (Sermons 309–313) are held only in part (MORIN), in Latin; no English.
+- No English of Augustine's sermons on Cyprian (Sermons 309–313) is held. The Latin is held in full in Migne, PL 38 (`augustine_sermones-1-340-lat_migne-pl38.txt`, "In Natali Cypriani martyris" i to v, 99049, 99222, 99329, 99754, 99959), besides the later-found sermons in MORIN.
 - Prudentius's hymn on Cyprian (*Peristephanon* 13) is not held.
 
 ---
