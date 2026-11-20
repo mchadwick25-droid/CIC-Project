@@ -4862,3 +4862,9 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 **Asked.** Whether to release now, and whether the tree should publish from the reviewed `live` branch, as the conversation app does, instead of on every merge to `main`.
 
 **Decided (Mark, 2026-11-20: "everything is live and keep it that wasy, its more the timing of announcing it").** churchfamilytree.com keeps deploying from `main`: every merged change reaches visitors within minutes. No review step is added before the tree goes live; CI and the browser checks on each change stay the safeguard. The open question is when to announce the site, not whether to release it.
+
+## 2026-11-20 — The tree's own share picture and link preview
+
+**Why.** The announcement goes out on Facebook, LinkedIn, by email and by word of mouth, asking for feedback (Mark, 2026-11-20). The map page had no link-preview tags, the only shared picture was Church in Conversation's painting ("that is the picture for church in conversation, we need something different for church family tree"), and its description used older wording.
+
+**Decided (Mark, 2026-11-20: "A: Title card").** The share picture is made from the real map: "Church Family Tree", the line "Twenty centuries of Christian traditions, drawn as one map" and the address, over the first centuries of the map, 1200 by 630 (`cft-website/share/church-family-tree.jpg`). The page now carries Open Graph and Twitter card tags with the title "Church Family Tree" and the description "Twenty centuries of Christian traditions, drawn as one map. Explore it, then tell us what you think.", which also replaces the old page description.
