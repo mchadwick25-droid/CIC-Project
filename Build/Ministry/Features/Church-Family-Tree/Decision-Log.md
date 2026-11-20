@@ -4937,3 +4937,9 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 1. Each batch 7 story aims at about 4:00 or less, and none runs past about 4:30. This holds for the council too.
 2. The stories already at or under about 4:00 keep their set lengths: Pontius, Anatolius, Peter and Pamphilus (about 3:40 to 3:45), Eusebius (3:50), Dionysius (4:00).
 3. Cyprian, Tertullian, Novatian, Lactantius and the councils of 251 are cut back by their researchers to about 4:00, and no more than about 4:30. Cut material goes to the card. A cut may not remove the record's force or a disagreement that must be credited; where a story cannot fit, it comes back to Mark.
+
+## 2026-11-20 — Batch 7: Tertullian is "the foremost early writer of the faith in Latin" (Mark)
+
+**Why.** Tertullian's approved heart called him "the first great writer of the faith in Latin whose books survive". The outline check found held sources differ on the order: Wallis (ANF4) dates the *Octavius* of Minucius Felix to about 166, before the Apology, and Coxe puts it after 205. What the sources hold is rank: Vincent of Lérins ("as Origen holds by far the first place among the Greeks, so does Tertullian among the Latins") and Coxe ("the founder of Latin Christianity"). Mark asked whether the claim was rank or order; it is rank.
+
+**Decided (Mark, 2026-11-20: "yes use foremost").** The essence reads "the foremost early writer of the faith in Latin, around the year 200". The story never calls him "the first" in any form. The card notes that the *Octavius* may be older and that editors differ on its date.
