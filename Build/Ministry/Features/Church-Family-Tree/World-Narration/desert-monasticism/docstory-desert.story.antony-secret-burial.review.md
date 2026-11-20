@@ -14,7 +14,7 @@ Three joins only ("but he would not", the two sheepskins in one sentence, "and A
 
 ## Quotes
 
-Both spans identical to the original; no quote record. Source `cic/texts/npnf204_athanasius-select-works-letters.xml`, Vita §91, lines 33512-33515: "Bury my body, therefore, and hide it underground yourselves, and let my words be observed by you that no one may know the place ... but you alone." Supported.
+Both spans identical to the original; no quote record. Source `cic/texts/npnf204_athanasius-select-works-letters.xml`, Vita §91, lines 33512-33513 and the text after the endnote: "Bury my body, therefore, and hide it underground yourselves, and let my words be observed by you that no one may know the place ... but you alone." Supported.
 
 ## Findings
 

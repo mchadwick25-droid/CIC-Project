@@ -14,7 +14,7 @@ Every claim kept, in order; nothing added. The joins ("which left him", "as he w
 
 ## Quotes
 
-Both spans identical to the original; no quote record. Source `cic/texts/npnf204_athanasius-select-works-letters.xml`, Vita §2-3, lines 31244-31260: "If thou wouldest be perfect, go and sell that thou hast and give to the poor; and come follow Me and thou shalt have treasure in heaven" and "be not anxious for the morrow". Both supported.
+Both spans identical to the original; no quote record. Source `cic/texts/npnf204_athanasius-select-works-letters.xml`, Vita §2-3, lines 31244-31246 and 31264-31265: "If thou wouldest be perfect, go and sell that thou hast and give to the poor; and come follow Me and thou shalt have treasure in heaven" and "be not anxious for the morrow". Both supported.
 
 ## Findings
 
