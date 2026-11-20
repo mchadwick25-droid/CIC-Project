@@ -20,7 +20,7 @@ Targeted recheck of `Fixes.md` against `Outline_Check.md`, `Outline.md` and `Sou
 
 - **B1 (letter told twice; held-back name).** PASS. Openings 1 (line 38) carries the check's text and names Novatian in its first sentence. Beat 2 (line 44) is now "In the persecution" and holds only Cornelius's charge and the answer to it.
 - **B2 ("a grown man").** PASS. Beat 1 (line 43) begins "By his rival Cornelius's account …", and the Do not say line is in place (line 115).
-- **B3 (the ending).** PASS. Line 82 credits Harnack, Socrates, McGiffert and Harnack, Coxe/Wallis, and Valesius, each to its line.
+- **B3 (the ending).** PASS. Line 82 credits each source to its line: Harnack (not known for certain), Socrates with McGiffert and Harnack (the martyr), the ANF editors (no other early witness), and Valesius (the confessor).
 - **B4 (Quote 2's scan).** PASS. Line 62 names Rufinus's Latin and both English prints for the sense, and plans the card to print the English alone.
 
 ## 3. Not applied
