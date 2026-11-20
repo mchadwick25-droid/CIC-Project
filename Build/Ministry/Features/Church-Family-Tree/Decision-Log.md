@@ -4842,3 +4842,5 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 - "One at a time": turning Stories on turns People off, and the other way round. Councils and Connections are not affected. People is on and Stories off by default (a session choice, open to change). The tour turns People on for its Who step and puts the visitor's choice back at the end.
 - A story's era comes from the first year in its "when" text when that falls within its tradition's span (60 years either side), else from the tradition's start.
 - The Key gains "Stories of a tradition" and "Stories of a river".
+
+**The starting map (Mark, 2026-11-20: "i thing we start with them both off and a very simple traditions map to start"; then "Keep Councils on").** A first visit now opens with People and Stories both off: the rivers, the traditions and the councils line only, with Connections off as before. This replaces the default above of People on. A visitor's own saved choices still apply on a return visit.

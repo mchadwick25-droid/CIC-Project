@@ -127519,7 +127519,9 @@ function buildLegend(){
   wrap.innerHTML=`<button type="button" class="chip who-chip" id="who-chip" hidden><span class="who-chip-label"></span><span aria-hidden="true">&times;</span></button>`+bar;
   document.getElementById('who-chip').addEventListener('click',ev=>{ev.stopPropagation();if(storyScope)clearStories();else clearWho();});
   const hidden=new Set();
-  try{const saved=localStorage.getItem('tree-hidden');if(saved!==null)JSON.parse(saved).filter(k=>/^(lane:|stories$|people$|councils$)/.test(k)).forEach(k=>hidden.add(k));}catch(e){}
+  let savedView=false;
+  try{const saved=localStorage.getItem('tree-hidden');if(saved!==null){savedView=true;JSON.parse(saved).filter(k=>/^(lane:|stories$|people$|councils$)/.test(k)).forEach(k=>hidden.add(k));}}catch(e){}
+  if(!savedView){hidden.add('people');hidden.add('stories');}
   if(!hidden.has('people')&&!hidden.has('stories'))hidden.add('stories');
   try{const m=localStorage.getItem('tree-links');if(LINK_MODES.includes(m))linkMode=m;}catch(e){}
   try{const saved=localStorage.getItem('tree-kinds-off');if(saved!==null)JSON.parse(saved).filter(k=>k in LINK_FAMILY_LABEL).forEach(k=>kindsOff.add(k));}catch(e){}
