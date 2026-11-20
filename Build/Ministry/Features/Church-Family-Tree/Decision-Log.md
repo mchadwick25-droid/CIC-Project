@@ -4888,3 +4888,13 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 **Decided (Mark, 2026-11-20).**
 - "Church Family Tree only": the tree gets its own Daniel and Neo recordings; Church in Conversation keeps each Representative's voice. The world Story and Legacy go to Daniel, the documented stories to Neo.
 - "Rewrite, then record": 60 of the 122 texts speak in the world's own voice ("our communities", "our tradition", "our church's memory"). Read by the map's narrator, that would claim membership of each church. Each piece is first rewritten into the tree's narrator voice through the brief kit, with quotes rechecked, then recorded after Mark hears a sample. Until then the tree keeps the Representatives' recordings. The writing runs as its own thread (Open-Gaps, "Built worlds in the standard voices").
+
+## 2026-11-20 — Batch 7: the slate approved (Mark)
+
+**Why.** The batch 7 launch prompt (`Build/Ministry/Features/Church-Family-Tree/Launch-Prompts/CFT_Batch7_Launch_2026-11-19.md`) asks for the slate first: each story's job, its siblings and links, and the quotes barred, on one page (https://claude.ai/artifact/HVJ2mU3cXRubTNTgZ4qpKv, version 1).
+
+**Decided (Mark, 2026-11-20: "Approve").**
+1. The thirteen jobs, siblings and links as on the page and in `Build/Ministry/Operations/Audits/2026-11-20_batch-7/README.md`: eleven rewritten on the kit, Origen and Methodius of Olympus reviewed on it.
+2. The splits: Cyprian keeps his death scene and plague sermon, and Pontius keeps the dream at Curubis, why he wrote and his grief; the councils of 251 keep the lapsed as their spine, and Novatian keeps the oath, On the Trinity, his church's later life and Constantine's "ladder"; Eusebius and Lactantius tell the Nicaea word and Constantine's vision or dream only as clauses, since the live Nicaea and Constantine stories tell them.
+3. The quote allocation as listed under "Quotes barred" in that README. Dionysius's letter to Novatian, the one quote the overlap check found shared among the old texts, goes to Novatian.
+4. The order of research: Tertullian, Cyprian, Eusebius, Dionysius, Peter, Anatolius and Lactantius; then Pontius, Novatian and Pamphilus; then the councils of 251.
