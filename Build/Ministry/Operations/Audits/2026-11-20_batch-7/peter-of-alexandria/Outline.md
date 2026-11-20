@@ -131,6 +131,7 @@ What passed on was a way of judging the fallen, and a quarrel. The rules: Peter 
 - Any quote from `melitius-of-lycopolis`: "ordained in the prison several unto himself", "offering sacrifice to idols", "a nominal dignity", "Church of the Martyrs".
 - Do not tell the cloak scene at length: it opens `melitius-of-lycopolis`. One clause at most.
 - Do not quote the four bishops' letter or Peter's letter: their Latin is not held and Hefele calls the text corrupt. Paraphrase.
+- The essence ending on 'a rival church that outlived him' without Nicaea. Say in the first minute that the rival church came before the Council of Nicaea, the first great council of the whole church; What came 2 then tells the council's terms.
 
 **Leave out**
 
