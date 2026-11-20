@@ -125779,7 +125779,7 @@ const activeYear=P=>P.entry?+P.entry.activeYear:personYear(P);
 const isToldMajor=m=>m.status==='Built & Live'||(peopleOf[m.id]||[]).some(isMajorPerson);
 const MID_FLOOR=15, MID_CAP=22, MID_SHARE=0.66;
 const FAR_MAX=15;
-const midRank=new Map(), midFloor={}, midTotal={}, farTraditionIds=new Set();
+const midRank=new Map(), midFloor={}, midTotal={}, farTraditionIds=new Set(), farRank=new Map();
 const majorTraditionIds=(()=>{
   const deg={}, out=new Set();
   DATA.edges.concat(personEdges).forEach(e=>{deg[e.from]=(deg[e.from]||0)+1;deg[e.to]=(deg[e.to]||0)+1;});
@@ -125793,7 +125793,7 @@ const majorTraditionIds=(()=>{
     told.concat(rest).forEach((m,i)=>{midRank.set(m.id,i);if(i<goal)out.add(m.id);});
     midFloor[era]=goal; midTotal[era]=list.length;
     const byDeg=(a,b)=>(deg[b.id]||0)-(deg[a.id]||0)||a.name.localeCompare(b.name);
-    list.filter(m=>out.has(m.id)).sort(byDeg).slice(0,FAR_MAX).forEach(m=>farTraditionIds.add(m.id));
+    list.filter(m=>out.has(m.id)).sort(byDeg).slice(0,FAR_MAX).forEach((m,i)=>{farTraditionIds.add(m.id);farRank.set(m.id,i);});
   });
   return out;
 })();
@@ -127934,8 +127934,8 @@ function labelFitRun(){
     items.forEach(it=>{
       if(!live.includes(it)){it.lbl.classList.remove('lbl-cull');it.g.classList.remove('no-name');it.box=null;return;}
       const r=boxOf(it);
-      if(mid&&!lit.has(it.id)&&!it.g.classList.contains('major'))labelFit.extras.push(it);
-      const clash=lit.has(it.id)?false:(mid&&!it.g.classList.contains('major'))||grid.hits(r);
+      if((simple||mid&&!it.g.classList.contains('major'))&&!lit.has(it.id))labelFit.extras.push(it);
+      const clash=lit.has(it.id)?false:simple||(mid&&!it.g.classList.contains('major'))||grid.hits(r);
       it.lbl.classList.toggle('lbl-cull',clash); it.g.classList.toggle('no-name',clash);
       it.box=clash?null:r;
       if(!clash&&!lit.has(it.id))grid.add(r);
@@ -127962,8 +127962,9 @@ function labelFitRun(){
 function placeMidExtras(){
   const grid=labelFit.grid;
   if(!labelFit.extras.length||!grid||!labelFit.boxOf)return;
-  labelFit.extras.sort((a,b)=>midRank.get(a.id)-midRank.get(b.id)).forEach(it=>{
-    if(midRank.get(it.id)>=midCap(byId[it.id].era,scale))return;
+  const far=labelFit.simple, rank=it=>(far?farRank:midRank).get(it.id);
+  labelFit.extras.sort((a,b)=>rank(a)-rank(b)).forEach(it=>{
+    if(!far&&rank(it)>=midCap(byId[it.id].era,scale))return;
     const r=labelFit.boxOf(it);
     if(grid.hits(r))return;
     it.lbl.classList.remove('lbl-cull'); it.g.classList.remove('no-name'); it.box=r; grid.add(r);
