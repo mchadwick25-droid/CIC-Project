@@ -127369,6 +127369,7 @@ let lastFocused=null;
 function showPanel(page){
   hideListenBar();
   hideTip();
+  panel.scrollTop=0;
   lastFocused=document.activeElement;
   if(window.PageFeedback)window.PageFeedback.mount(panelBody,page);
   panel.classList.add('open');

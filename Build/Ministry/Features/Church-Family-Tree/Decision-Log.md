@@ -4844,3 +4844,9 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 - The Key gains "Stories of a tradition" and "Stories of a river".
 
 **The starting map (Mark, 2026-11-20: "i thing we start with them both off and a very simple traditions map to start"; then "Keep Councils on").** A first visit now opens with People and Stories both off: the rivers, the traditions and the councils line only, with Connections off as before. This replaces the default above of People on. A visitor's own saved choices still apply on a return visit.
+
+## 2026-11-20 — Every card opens at its top
+
+**Why (Mark, 2026-11-20).** "if someone scrolls through a card and closes it and opens another it starts at the top, always open brings the card to the top". The card panel kept its scroll position, so a new card opened partway down.
+
+**Done.** Opening any card now starts it at the top, whether the last card was closed or not. Two cases keep their place on purpose: "Open the card" on the listening bar brings the same card back as it was, and opening a story from the story list opens its tradition's card at that story.
