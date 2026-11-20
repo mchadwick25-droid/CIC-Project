@@ -308,7 +308,7 @@ svg.ico-on .trad-ico{display:inline}
 svg.ico-on #nodes .node>circle:not(.halo):not(.focus-ring){display:none}
 svg.ico-on #nodes .node.no-name .trad-ico{display:none}
 svg.ico-on #nodes .node.no-name>circle:not(.halo):not(.focus-ring){display:inline}
-svg.simple #nodes .node:not(.built){display:none}
+svg.simple #nodes .node:not(.far){display:none}
 .node .pl,.story-title{font-size:var(--pl-fs,10px)!important}
 svg:not(.z-story) #stories,svg:not(.z-story) #across{display:none}
 svg:not(.z-story-title) .story-title{display:none}
@@ -125778,7 +125778,8 @@ const isMajorPerson=P=>!!(P.entry&&P.entry.major===true);
 const activeYear=P=>P.entry?+P.entry.activeYear:personYear(P);
 const isToldMajor=m=>m.status==='Built & Live'||(peopleOf[m.id]||[]).some(isMajorPerson);
 const MID_FLOOR=15, MID_CAP=22, MID_SHARE=0.66;
-const midRank=new Map(), midFloor={}, midTotal={};
+const FAR_MAX=15;
+const midRank=new Map(), midFloor={}, midTotal={}, farTraditionIds=new Set();
 const majorTraditionIds=(()=>{
   const deg={}, out=new Set();
   DATA.edges.concat(personEdges).forEach(e=>{deg[e.from]=(deg[e.from]||0)+1;deg[e.to]=(deg[e.to]||0)+1;});
@@ -125791,6 +125792,8 @@ const majorTraditionIds=(()=>{
     const goal=Math.min(list.length,Math.max(told.length,MID_FLOOR,Math.min(MID_CAP,Math.ceil(MID_SHARE*list.length))));
     told.concat(rest).forEach((m,i)=>{midRank.set(m.id,i);if(i<goal)out.add(m.id);});
     midFloor[era]=goal; midTotal[era]=list.length;
+    const byDeg=(a,b)=>(deg[b.id]||0)-(deg[a.id]||0)||a.name.localeCompare(b.name);
+    list.filter(m=>out.has(m.id)).sort(byDeg).slice(0,FAR_MAX).forEach(m=>farTraditionIds.add(m.id));
   });
   return out;
 })();
@@ -126673,7 +126676,7 @@ function render(){
   churchBodies.forEach(m=>{
     const built = m.status==='Built & Live';
     const f=famOf(m.laneOrder), col=famColor(f);
-    const g=el('g',{class:`node${built?' built':''}${isMajorTradition(m)?' major':''}`,'data-id':m.id,'data-lane':m.laneOrder,tabindex:'0',role:'button',
+    const g=el('g',{class:`node${built?' built':''}${isMajorTradition(m)?' major':''}${farTraditionIds.has(m.id)?' far':''}`,'data-id':m.id,'data-lane':m.laneOrder,tabindex:'0',role:'button',
       'aria-label':`${m.shortName||m.name}, ${plainDates(m.dates)}`+((p=>p?`. ${p.replace(/ · /g,'; ')}`:'')(CFTPlace.formatPlace(m,{today:true})||m.region||''))});
     const halo=el('circle',{class:'halo',cx:m._x,cy:m._y,r:9,fill:col,opacity:0});
     const focusRing=el('circle',{class:'focus-ring',cx:m._x,cy:m._y,r:10,
@@ -127916,7 +127919,7 @@ function labelFitRun(){
       if(it.ico)it.ico.setAttribute('transform',`translate(${it.dx.toFixed(1)},${it.dy.toFixed(1)}) scale(${(U/11).toFixed(3)})`);
       it.lbl.style.fontSize=enlarged?fs+'px':''; it.lbl.style.strokeWidth=enlarged?(3*k)+'px':'';
     });
-    const live=items.filter(it=>!it.g.classList.contains('is-off')&&(!simple||it.g.classList.contains('built')));
+    const live=items.filter(it=>!it.g.classList.contains('is-off')&&(!simple||it.g.classList.contains('far')));
     live.forEach(it=>grid.add({id:it.id,x0:it.dx-4,x1:it.dx+4,y0:it.dy-4,y1:it.dy+4}));
     if(scale>=Z_STORY&&!gStories.classList.contains('is-off')){const sh=U*.6;(DATA.stories||[]).forEach(s=>{if(s._x!=null)grid.add({id:'s'+s.id,x0:s._x-sh,x1:s._x+sh,y0:s._y-sh*.85,y1:s._y+sh*.85});});}
     const boxOf=it=>{

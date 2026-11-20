@@ -4934,3 +4934,11 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 **Decided (Mark, 2026-11-20).** Option A of three (room-led; names-first; fixed tiers). Between 0.50 and 0.80 each era may name its traditions in rank order, up to a cap that grows with the screen area the era covers (floor x (zoom / 0.50)^2, never above the era's total). The floor names are placed first, then voices and stories, then the extra names fill whatever room is left, so switching voices or stories on never crowds them out. Collision dropping is unchanged. Zoom thresholds unchanged.
 
 **Result.** Names shown per era 1..10, desktop, voices and stories on, at zoom 0.5 / 0.6 / 0.7 / 0.8: 12 16 14 14 14 9 18 19 17 18 / 19 21 17 24 24 16 28 30 30 24 / 20 23 19 25 27 24 34 42 43 41 / 20 23 19 25 27 24 36 50 62 64 (the last row is every tradition). Phone is within 1 to 2 per era of desktop. Eras 1 to 5 reach every name by about 0.6; eras 7 to 10 fill across 0.5 to 0.8.
+
+## 2026-11-20 — Fully zoomed out, every era is populated
+
+**Why.** Mark: "all the way out should have the minimum, currently era one has 2 scrolled all the wait out." Fully zoomed out the map named only Built & Live traditions, which exist in eras 1, 2 and 7 only, so most eras looked empty.
+
+**Decided (Mark, 2026-11-20).** First "sorry 4"; then, replacing it: "the built should not have any influence on this, this is about feel and sence of scope, it cant look empty" and "zoomed all the way out should have as many as the window will hold while not being crowded, i would think the 10 to 15". So below the middle zoom each era offers up to 15 traditions, chosen by connections alone (census edges, ties by name) from the names that show at 0.50, so zooming in only adds names. Collision dropping decides how many the window holds. Built & Live no longer decides anything here.
+
+**Result.** Desktop at the farthest zoom-out (0.45), names shown per era 1..10: 12 11 13 12 11 8 13 13 13 14; no overlaps in the screenshots checked. On a phone the map can zoom out to 0.18; below 0.34 the whole map switches to its simplified view, which shows no names at all. That threshold was not changed and is open for Mark.
