@@ -4856,3 +4856,9 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 **Why (Mark, 2026-11-20).** "can we put the name of the river at the begining (mabey right at the top to the right) with a hover explaining, use the known name too"; then "can we add the river icon with it so they know its a river title and not a tradition".
 
 **Done.** At the top of each river, just to its right, the map shows the river symbol from the Key in the river's own colour, the river's name in small capitals, and its everyday name under it where it has one ("Greek East" / "Orthodox"). Hovering shows the name, the everyday name, the number of traditions and the years, and where it began: the recorded reason for a river that starts on its own, or the linked traditions for one that branches. Clicking opens the river's card. A name moves down a little to clear a tradition's name, a people or story number or an era title, and stays hidden until zooming in when there is no room near the top (era 2 on a phone at the opening zoom).
+
+## 2026-11-20 — The tree keeps going live on every merge
+
+**Asked.** Whether to release now, and whether the tree should publish from the reviewed `live` branch, as the conversation app does, instead of on every merge to `main`.
+
+**Decided (Mark, 2026-11-20: "everything is live and keep it that wasy, its more the timing of announcing it").** churchfamilytree.com keeps deploying from `main`: every merged change reaches visitors within minutes. No review step is added before the tree goes live; CI and the browser checks on each change stay the safeguard. The open question is when to announce the site, not whether to release it.
