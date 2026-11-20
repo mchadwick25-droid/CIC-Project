@@ -4794,3 +4794,97 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 4. **Damaged scans flagged at research.** `roles/researcher.md`: a quote whose original is held only in a damaged scan is flagged beside the quote, with any held print that confirms the reading; where none does, the card is planned to print the English alone.
 
 **Scope.** Per the kit's own rule, these govern batch 7 on and reopen no finished story.
+
+## 2026-11-19 — Cyril and Methodius get one person entry (Mark)
+
+**Why.** Their batch 4 story and card are finished (`Build/Ministry/Operations/Audits/2026-11-18_batch-4/cyril-and-methodius/`), but the census had no person entry for them, only the tradition `cyrillo-methodian-slavic-christianity` (Open-Gaps, "Batch 4, the rework of batches 1 and 2: what is open at the end of authoring", 2026-11-18).
+
+**Decided (Mark, 2026-11-19: "Add one entry for both (Recommended)").** One person entry, `cyril-and-methodius`, under their tradition in era 4, carries the finished story and card unchanged. A census pass checks the entry. The story is recorded on batch 6's settings once Mark sets a credit cap.
+
+**Recording and the major mark (Mark, 2026-11-19).** "Approve, cap 1,600 (Recommended)" for the one story, on batch 6's settings, and "Major (Recommended)": Cyril and Methodius carry the major mark.
+
+## 2026-11-19 — Place lines always sit under the tradition's name
+
+**Why.** Mark: "when you scroll in far enough to see location appear there are gaps and not layed out well". Each place line was placed once, when the map was laid out, from a guess at the name's width at normal size, either under the name or beside it. As the map zooms in, names are drawn smaller, so a line beside its name drifted away with a wide gap ("Anatolia, Turkey" floated far from Cappadocians), and the under-or-beside choice never changed with zoom.
+
+**Decided (Mark, 2026-11-19: "Always under the name").** Each place line now sits directly under its tradition's name, lined up with the name, the same gap every time. It is placed each time the map is drawn, measured against the name at the current zoom, with the same collision check the names use. Where there is no room under a name, the line stays hidden until zooming in opens room. While a tradition's people are shown beside it, its place line stays hidden as before.
+
+## 2026-11-19 — A new river's people sit where it turns down, not on the trunk
+
+**Why.** Mark: "the river people should sit right at the curve down, not on the early believer thread, that gets confusing with all of them looking like they are early believers not from other threads." In the era where a river begins, its people figure sat at the first point the river showed, which is where it leaves the First Churches, so Africa's "7" sat on the trunk beside Montanism.
+
+**Done (Mark's direction, 2026-11-19).** In the era where a river begins, its people figure now sits where the river has curved into its own lane and turns down (its start plus the merge window), moving further down only to clear a label. In every other era it is placed as before. Checked in era 1: Africa, Latin West, Syriac East and Non-Nicene each sit on their own river.
+
+## 2026-11-19 — A river branches only from a tradition it is linked to; the rest start on their own
+
+**Why.** Mark asked whether the rivers that leave the First Churches reflect the record or are drawn for effect, and why Non-Nicene leaves "on the third tradition down". Each river's parent follows the sourced rule of 2026-11-10, and the point where it left was its first tradition's start year (Non-Nicene's Gnostic Currents, 120). But a branch landed beside whichever trunk tradition sat at that year, so Non-Nicene looked as if it grew from The Apologists and Africa from Montanism.
+
+**Decided (Mark, 2026-11-19: "only rivers that show connection with traditions should start their otherwise they start just above the first tradition in that river"; then "All 8 start on their own").**
+- A river with a recorded descent link from one tradition (basis `lineage` in `RIVER_ORIGINS`) still branches from its parent river at its start year: Protestant & Evangelical, Syriac and Protestant, Greek and Latin, Africa and Latin, Latin and Protestant, and Across families.
+- A river whose parent is declared without such a link starts on its own, just above its first tradition: Syriac East, Greek East, Africa, Latin West, Non-Nicene, Caucasus, Church and Empire, and Global Revival & Pentecostal.
+- `RIVER_ORIGINS` is unchanged. Each river's card gains "Where it began": for a declared parent, its reason, parent, confidence and sources; for a lineage parent, the two linked traditions, the kind of link and its confidence.
+- A river's people figure in its first era sits where it settles into its own lane (for a river that starts on its own, at its start), lower only to clear a label.
+
+## 2026-11-19 — A river that starts on its own rises above its first tradition, with its people figure there
+
+**Why.** Mark: "extend the river up from the first tradition and put the who number for the river above the first tradition, here it looks like it from the tradition not the river". The river began at its first tradition and its people figure sat just below that tradition, so the figure read as the tradition's own.
+
+**Done (Mark's direction, 2026-11-19).** A river that starts on its own (no tradition-level link) now rises 90 map units above its first tradition, at full width, tapering to a point at its head. In its first era its people figure sits on that stretch, just above the first tradition and below the era line. The people figure of a river that branches from a linked tradition is placed as before.
+
+**More room above the first tradition (Mark, 2026-11-19: "extend the two that start right above the tradition up a little so there is a little seperation from the tradition and the river who number").** The river now rises 150 map units above its first tradition, and its people figure sits about one figure-height higher than before, so there is a clear gap between the figure and the tradition at every zoom. Where that would put the figure on an era's title (Church and Empire on a phone), it moves down just enough to clear it.
+
+## 2026-11-20 — Stories get river numbers and tradition marks like Who; People and Stories show one at a time
+
+**Why.** Mark: "the stories that are in the traditions on the cards are getting lost in the layers, can we do the same thing with them as the who with numbers". There are 507 stories in 267 tradition cards, seen only by opening a card and scrolling to "Documented stories", and 62 stories drawn on the map.
+
+**Decided (Mark, 2026-11-20).**
+- "exactly like who with both the era river number and traditions layed out the same, but also the stories in the gap remain with the switch is on". Each river shows a book with a count in each era, and a book sits beside each tradition with stories, where the person figure sits. Clicking either opens "Stories of …" in the left panel (the era's line, title, count and dates; each row the story's title, its tradition and when). Clicking a row opens the tradition's card with that story open. The river count includes the map stories of that river and era, which open their own card. The map stories still show between the rivers while Stories is on.
+- "One at a time": turning Stories on turns People off, and the other way round. Councils and Connections are not affected. People is on and Stories off by default (a session choice, open to change). The tour turns People on for its Who step and puts the visitor's choice back at the end.
+- A story's era comes from the first year in its "when" text when that falls within its tradition's span (60 years either side), else from the tradition's start.
+- The Key gains "Stories of a tradition" and "Stories of a river".
+
+**The starting map (Mark, 2026-11-20: "i thing we start with them both off and a very simple traditions map to start"; then "Keep Councils on").** A first visit now opens with People and Stories both off: the rivers, the traditions and the councils line only, with Connections off as before. This replaces the default above of People on. A visitor's own saved choices still apply on a return visit.
+
+## 2026-11-20 — Every card opens at its top
+
+**Why (Mark, 2026-11-20).** "if someone scrolls through a card and closes it and opens another it starts at the top, always open brings the card to the top". The card panel kept its scroll position, so a new card opened partway down.
+
+**Done.** Opening any card now starts it at the top, whether the last card was closed or not. Two cases keep their place on purpose: "Open the card" on the listening bar brings the same card back as it was, and opening a story from the story list opens its tradition's card at that story.
+
+## 2026-11-20 — Each river is named at its top, with its everyday name and a hover that explains it
+
+**Why (Mark, 2026-11-20).** "can we put the name of the river at the begining (mabey right at the top to the right) with a hover explaining, use the known name too"; then "can we add the river icon with it so they know its a river title and not a tradition".
+
+**Done.** At the top of each river, just to its right, the map shows the river symbol from the Key in the river's own colour, the river's name in small capitals, and its everyday name under it where it has one ("Greek East" / "Orthodox"). Hovering shows the name, the everyday name, the number of traditions and the years, and where it began: the recorded reason for a river that starts on its own, or the linked traditions for one that branches. Clicking opens the river's card. A name moves down a little to clear a tradition's name, a people or story number or an era title, and stays hidden until zooming in when there is no room near the top (era 2 on a phone at the opening zoom).
+
+## 2026-11-20 — The tree keeps going live on every merge
+
+**Asked.** Whether to release now, and whether the tree should publish from the reviewed `live` branch, as the conversation app does, instead of on every merge to `main`.
+
+**Decided (Mark, 2026-11-20: "everything is live and keep it that wasy, its more the timing of announcing it").** churchfamilytree.com keeps deploying from `main`: every merged change reaches visitors within minutes. No review step is added before the tree goes live; CI and the browser checks on each change stay the safeguard. The open question is when to announce the site, not whether to release it.
+
+## 2026-11-20 — The tree's own share picture and link preview
+
+**Why.** The announcement goes out on Facebook, LinkedIn, by email and by word of mouth, asking for feedback (Mark, 2026-11-20). The map page had no link-preview tags, the only shared picture was Church in Conversation's painting ("that is the picture for church in conversation, we need something different for church family tree"), and its description used older wording.
+
+**Decided (Mark, 2026-11-20: "A: Title card").** The share picture is made from the real map: "Church Family Tree", the line "Twenty centuries of Christian traditions, drawn as one map" and the address, over the first centuries of the map, 1200 by 630 (`cft-website/share/church-family-tree.jpg`). The page now carries Open Graph and Twitter card tags with the title "Church Family Tree" and the description "Twenty centuries of Christian traditions, drawn as one map. Explore and listen, then tell us what you think." (Mark, 2026-11-20: "do we want listen to and explore"), which also replaces the old page description.
+
+## 2026-11-20 — Asking for support: not in the launch posts; a gentle note after ten minutes on the map
+
+**Why.** Mark asked whether the announcement should invite financial support (the "Help us grow" page, Stripe, once or monthly). The launch posts ask pastors and scholars for review; asking for money in the same post weakens both asks.
+
+**Decided (Mark, 2026-11-20: "maybe we dont put it in the launch and we find a way for anyone who spends more than 10 minute we have a popup windo asking to help us grow"; then "Gentle note, once").**
+- The launch posts carry no request for money.
+- After ten minutes of active use (the page visible and in front of the visitor), a small note slides up in the corner, not blocking the map: "Glad you're exploring. If the map is useful to you, you can help it grow.", with "Help us grow" (the support page) and "Not now". It never appears during the tour, while the tour offer shows, or while any audio plays; it waits until they end.
+- After "Not now" or the close button it comes back after another two hours of active use on the site, counted across visits (Mark, 2026-11-20: "no not 30 days, if we say not now, then maybe 2 hours on the site"). After "Help us grow" it does not ask that visitor again. Remembered in the visitor's own browser.
+- Wording follows the support page: "support", never "donate", since payments to Faithways Studio are not charitable donations.
+
+**A line on every card (Mark, 2026-11-20: "we do need contributions and if this is available for free i don't want to be to passive"; then "lets go light for the early release and we can add more after we get everything built, Line on every card").** Every card (tradition, person, council, era, river, story, connection) now ends with "This map is free to use. If it helps you, help it grow.", linking to the support page, above the feedback buttons. The launch posts still carry no request for money. Stronger asks (after a brief ends, a sooner note) wait until the build is complete.
+
+## 2026-11-20 — Built worlds on the tree move to the standard voices, after a rewrite into the narrator's voice
+
+**Why.** Mark: "for the built words can we replace the representitve voices with the standard voices we have chosen (neo and the other)". The 11 built worlds' recordings on the tree (each world's Story, Legacy and documented stories: 122 pieces, about 152,000 characters, `cic-website/audio/worlds/`) are read in each Representative's own voice. The standard tree voices are Daniel for tradition briefs and councils and Neo for stories and Who briefs.
+
+**Decided (Mark, 2026-11-20).**
+- "Church Family Tree only": the tree gets its own Daniel and Neo recordings; Church in Conversation keeps each Representative's voice. The world Story and Legacy go to Daniel, the documented stories to Neo.
+- "Rewrite, then record": 60 of the 122 texts speak in the world's own voice ("our communities", "our tradition", "our church's memory"). Read by the map's narrator, that would claim membership of each church. Each piece is first rewritten into the tree's narrator voice through the brief kit, with quotes rechecked, then recorded after Mark hears a sample. Until then the tree keeps the Representatives' recordings. The writing runs as its own thread (Open-Gaps, "Built worlds in the standard voices").

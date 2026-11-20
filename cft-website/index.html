@@ -4,7 +4,20 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Church Family Tree — Church in Conversation</title>
-<meta name="description" content="Twenty centuries of Christian traditions as one living map — every movement in its era, its family color, its honest status; hover to meet it, click for its full entry.">
+<meta name="description" content="Twenty centuries of Christian traditions, drawn as one map. Explore and listen, then tell us what you think.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Church Family Tree">
+<meta property="og:title" content="Church Family Tree">
+<meta property="og:description" content="Twenty centuries of Christian traditions, drawn as one map. Explore and listen, then tell us what you think.">
+<meta property="og:url" content="https://www.churchfamilytree.com/">
+<meta property="og:image" content="https://www.churchfamilytree.com/share/church-family-tree.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The Church Family Tree map: colored rivers of Christian traditions in the early centuries, with the title Church Family Tree.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Church Family Tree">
+<meta name="twitter:description" content="Twenty centuries of Christian traditions, drawn as one map. Explore and listen, then tell us what you think.">
+<meta name="twitter:image" content="https://www.churchfamilytree.com/share/church-family-tree.jpg">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <style>
 :root{
@@ -68,6 +81,14 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
 svg#world{display:block;overflow:visible}
 .era-label,.era-tag{paint-order:stroke;stroke:var(--parchment);stroke-width:3px;stroke-linejoin:round}
 .era-label{font-family:"Cinzel",serif;font-size:26px;letter-spacing:.06em;fill:var(--gold-leaf)}
+.river-name{cursor:pointer}
+.river-name text{paint-order:stroke;stroke:var(--parchment);stroke-linejoin:round}
+.river-name .rn-name{font-family:"Alegreya Sans",sans-serif;font-weight:700;letter-spacing:.06em;text-transform:uppercase;fill:var(--iron-gall)}
+.river-name .rn-common{font-family:"Alegreya",serif;font-style:italic;fill:var(--ink-faded)}
+.river-name:hover .rn-name,.river-name:focus-visible .rn-name{fill:var(--gold-leaf)}
+.river-name:focus{outline:none}
+.river-name.rn-cull{visibility:hidden}
+svg.who-on #river-names,svg.story-on #river-names{opacity:.2}
 .era-tag{font-family:"Alegreya",Georgia,serif;font-style:italic;font-size:16px;fill:var(--ink-faded)}
 .lbl-cull{visibility:hidden}
 .lbl{display:none;font-family:"Alegreya Sans",sans-serif;font-size:0.6875rem;fill:var(--iron-gall);
@@ -101,6 +122,7 @@ svg#world{display:block;overflow:visible}
 #tip .n{font-family:"Alegreya",serif;font-weight:700;font-size:.95rem}
 #tip .m{color:var(--ink-faded);font-style:italic;font-size:.78rem}
 #tip .s{color:var(--tyrian);font-variant:small-caps;letter-spacing:.04em;font-size:.75rem;margin-top:.2rem}
+#tip .x{font-size:.82rem;line-height:1.35;margin-top:.35rem}
 #panel{position:fixed;top:0;right:0;bottom:0;width:min(380px,90vw);background:var(--vellum);
   border-left:2px solid var(--gold-leaf);z-index:30;transform:translateX(105%);
   transition:transform .22s ease;overflow-y:auto;padding:1.2rem 1.3rem 2rem}
@@ -109,6 +131,7 @@ svg#world{display:block;overflow:visible}
   font-size:1.3rem;color:var(--ink-faded);cursor:pointer;line-height:1;padding:.2rem}
 #panel h2{font-family:"Alegreya",serif;font-size:1.3rem;margin:.2rem 0 .1rem}
 #panel .meta{font-style:italic;color:var(--ink-faded);font-size:.88rem;margin:0 0 .8rem}
+#panel .grow-line{margin:1.4rem 0 .4rem;padding-top:.8rem;border-top:1px solid var(--rule);font-size:.92rem;color:var(--ink-faded)}
 #panel .statuspill{display:inline-block;font-family:"Alegreya Sans",sans-serif;
   font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--rule);
   border-radius:999px;padding:.12rem .55rem;margin-bottom:.7rem}
@@ -270,10 +293,13 @@ svg.who-on .edge-line,svg.who-on .edge-hit,svg.who-on .continues{display:none!im
 .who-pill:focus-visible .who-focus{display:inline}
 .who-pill:hover .who-fig *,.who-pill:focus-visible .who-fig *,.who-pill[aria-pressed="true"] .who-fig *{fill:var(--gold-leaf)}
 svg.who-on .who-pill:not([aria-pressed="true"]){display:none}
-.node.who-under .lbl,.node.who-under .pl,.node.auto-own .pl{visibility:hidden}
+.node.who-under .lbl,.node.who-under .pl,.node.auto-own .pl,.node .pl.pl-cull{visibility:hidden}
 svg#world #rivers .river-group,svg#world #nodes .node,svg#world #stories,svg#world #councils,svg#world #across,svg#world #era-labels{transition:opacity .25s}
 svg.who-on #rivers .river-group:not(.who-lit),svg.who-on #nodes .node:not(.who-lit),svg.who-on #stories,svg.who-on #councils,svg.who-on #across,svg.who-on #era-labels{opacity:.2}
 svg.who-on #nodes .node.who-lit .pl{visibility:hidden}
+svg.story-on .edge-line,svg.story-on .edge-hit,svg.story-on .continues{display:none!important}
+svg.story-on #rivers .river-group:not(.story-lit),svg.story-on #nodes .node:not(.story-lit),svg.story-on #stories .story:not(.story-lit),svg.story-on #councils,svg.story-on #across,svg.story-on #era-labels{opacity:.2}
+svg.story-on .who-pill:not([aria-pressed="true"]){display:none}
 @media (prefers-reduced-motion:reduce){svg#world *{transition:none!important}}
 .feature-bar .who-chip{border-color:var(--gold-leaf);color:var(--gold-leaf);display:inline-flex;align-items:center;gap:.4rem}
 .feature-bar .who-chip[hidden]{display:none}
@@ -291,7 +317,7 @@ svg:not(.z-council) #councils{display:none}
 svg:not(.z-council-name) #councils .council-lbl,svg:not(.z-council-name) #councils .council-cap{display:none}
 svg:not(.z-place) #nodes .node .pl{display:none}
 svg.z-place #nodes .node .pl{display:block}
-svg.no-people #who-pills,svg.no-people #prof-pills,svg.no-people #who-auto,svg.no-councils #councils{display:none!important}
+svg.no-people #who-pills,svg.no-people #prof-pills,svg.no-people #who-auto,svg.no-stories #story-pills,svg.no-stories #story-marks,svg.no-councils #councils{display:none!important}
 #rivers .river-group.is-off,#nodes .node.is-off,#stories .story.is-off{display:inline!important;opacity:.16;pointer-events:none}
 #nodes .node.is-off .lbl,#nodes .node.is-off .trad-ico,#nodes .node.is-off .pl,#stories .story.is-off .story-title{display:none!important}
 svg.ico-on #nodes .node.is-off>circle:not(.halo):not(.focus-ring){display:inline}
@@ -386,6 +412,18 @@ svg.strip-on #era-labels{display:none}
 @media (max-width:640px){#listenBar .lb-wide{display:none}}
 #tourBox{position:fixed;z-index:72;left:50%;transform:translateX(-50%);bottom:calc(var(--tour-lift,0px) + 1rem + env(safe-area-inset-bottom,0px));width:min(27rem,calc(100vw - 1.5rem));box-sizing:border-box;background:var(--vellum);color:var(--iron-gall);border:1px solid var(--gold-leaf);border-radius:12px;box-shadow:0 8px 28px rgba(0,0,0,.45);padding:.85rem 3rem .9rem 1.1rem;font-family:"Alegreya Sans",sans-serif}
 #tourBox[hidden]{display:none}
+#growAsk{position:fixed;z-index:70;right:calc(var(--grow-right,0px) + 1rem + env(safe-area-inset-right,0px));bottom:calc(var(--grow-lift,0px) + 1rem + env(safe-area-inset-bottom,0px));width:min(19rem,calc(100vw - 2rem));box-sizing:border-box;background:var(--vellum);color:var(--iron-gall);border:1px solid var(--gold-leaf);border-radius:12px;box-shadow:0 8px 28px rgba(0,0,0,.45);padding:.9rem 2.6rem .9rem 1.1rem;font-family:"Alegreya Sans",sans-serif;animation:growIn .35s ease-out}
+#growAsk[hidden]{display:none}
+#growAsk .ga-t{font:700 1.1rem/1.25 "Alegreya",serif;margin:0 0 .25rem}
+#growAsk .ga-b{margin:0 0 .75rem;font-size:1rem;line-height:1.4}
+#growAsk .ga-btns{display:flex;gap:.5rem;flex-wrap:wrap}
+#growAsk .ga-help,#growAsk .ga-later{display:inline-flex;align-items:center;min-height:44px;padding:0 1rem;border-radius:999px;font:700 .95rem "Alegreya Sans",sans-serif;text-decoration:none;cursor:pointer}
+#growAsk .ga-help{border:1px solid var(--gold-leaf);background:var(--tyrian-wash);color:var(--gold-leaf)}
+#growAsk .ga-later{border:1px solid var(--rule);background:none;color:var(--iron-gall)}
+#growAsk .ga-x{position:absolute;top:.3rem;right:.3rem;min-width:44px;min-height:44px;border:0;background:none;color:var(--ink-faded);font-size:1.4rem;line-height:1;cursor:pointer}
+#growAsk a:focus-visible,#growAsk button:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
+@keyframes growIn{from{transform:translateY(12px);opacity:0}to{transform:none;opacity:1}}
+@media (prefers-reduced-motion:reduce){#growAsk{animation:none}}
 #tourBox .tb-count{margin:0;font:700 .78rem "Alegreya Sans",sans-serif;letter-spacing:.09em;text-transform:uppercase;color:var(--gold-leaf)}
 #tourBox.is-offer .tb-count,#tourBox.is-offer #tourText{display:none}
 #tourBox h2{font:700 1.2rem/1.25 "Alegreya",serif;margin:.15rem 0 .3rem;outline:none}
@@ -557,6 +595,7 @@ svg.strip-on #era-labels{display:none}
 <div id="connChip" hidden><button type="button" class="cc-x"><span class="cc-t"></span><span aria-hidden="true">&times;</span></button><ul class="cc-key"><li><i style="background:var(--link-grow)"></i>Grew out of, continued as</li><li><i style="background:var(--link-influence)"></i>Influenced</li><li><i style="background:var(--link-conflict)"></i>Argued against, broke with</li><li><i style="background:var(--link-contact)"></i>In contact with, member of</li></ul></div>
 <div id="barToast" aria-hidden="true"></div>
 <div id="tourRing" hidden></div>
+<aside id="growAsk" role="complementary" aria-labelledby="growTitle" aria-live="polite" hidden><button type="button" class="ga-x" aria-label="Not now">&times;</button><p id="growTitle" class="ga-t">Glad you&rsquo;re exploring.</p><p class="ga-b">If the map is useful to you, you can help it grow.</p><div class="ga-btns"><a class="ga-help" href="support.html">Help us grow</a><button type="button" class="ga-later">Not now</button></div></aside>
 <div id="tourBox" role="dialog" aria-modal="false" aria-labelledby="tourCount tourTitle" aria-describedby="tourText" hidden><p class="tb-count" id="tourCount"></p><h2 id="tourTitle" tabindex="-1"></h2><p id="tourText"></p><div class="tb-btns"><button type="button" class="tb-back">Back</button><button type="button" class="tb-next">Next</button></div><button type="button" class="tb-stop" aria-label="Stop the tour">&times;</button></div>
 <div id="listenBar" role="region" aria-label="Narration" hidden><button type="button" class="lb-play">Pause</button><span class="lb-text"><span class="lb-wide">Listening: </span><span class="lb-name"></span></span><button type="button" class="lb-open" aria-label="Open the card">Open<span class="lb-wide"> the card</span></button><button type="button" class="lb-stop" aria-label="Stop listening">&times;</button></div>
 <div id="zoomHint">Scroll to move &middot; Ctrl + scroll to zoom</div>
@@ -45204,8 +45243,214 @@ const DATA = {
      "placeId": "Q219"
     }
    ],
-   "people": [],
-   "peopleNote": "The Library does not yet hold words of their own from any of the people named here, so none is shown."
+   "people": [
+    {
+     "person": "cyril-and-methodius"
+    }
+   ]
+  },
+  {
+   "id": "cyril-and-methodius",
+   "atlasId": "III.88",
+   "era": 4,
+   "kind": "person",
+   "toldWithin": "cyrillo-methodian-slavic-christianity",
+   "major": true,
+   "activeYear": 863,
+   "name": "Cyril and Methodius",
+   "shortName": "Cyril & Methodius",
+   "dates": "Cyril died 869 or 868; Methodius died 885",
+   "start": 863,
+   "end": 885,
+   "region": "Thessalonica, Moravia",
+   "placeLabel": "Thessalonica · Moravia",
+   "modernCountries": [],
+   "regions": [
+    "Asia Minor",
+    "North Europe"
+   ],
+   "lane": "3 Greek East & Orthodoxy",
+   "laneLabel": "Greek East & Orthodoxy",
+   "laneOrder": 3,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "entry": null,
+   "teaser": "Two brothers of Thessalonica who taught the Slavs of Moravia the faith in their own language. Pope John VIII praised the Slavonic letters found by Constantine and, in 880, allowed the Mass to be sung in Slavonic, with the Gospel read first in Latin.",
+   "longDescription": "The emperor asked a tired scholar to go to the Slavs. He would go gladly, the scholar said, \"if they have letters for their language.\" Without them, he asked, \"who can write words on water, and who wants to be called a heretic?\"\n\nThe scholar was Constantine, and the Slavs had no letters, so he made them. With his brother Methodius he put the Gospel, the Psalms, the readings from the apostles and chosen services into Slavic. When Latin clergy said God could be praised only in Hebrew, Greek and Latin, Constantine answered that every people may praise God in its own language. Their work began in Moravia, in what is now the Czech Republic. After Methodius died, a Life of their disciple Clement says, the younger disciples were sold as slaves, and the teachers were chained, stripped and driven out. Clement, Naum and Angelarius, it says, carried the letters to Bulgaria.\n\nThat Life was written in Bulgaria a generation or more later. In it Prince Boris thanks God for sending them, and Clement becomes \"the first bishop of the Bulgarian tongue.\" Writing in Kiev more than two centuries later, the chroniclers said this Slavic writing was found among the Rus.\n\nIt had begun in the 860s, when Rastislav, prince of Moravia, told the emperor that his people had teachers from Italy, Greece and Germany, but none in their own language. The emperor chose the two brothers because they came from Thessalonica, a Greek city where Slavic was spoken too.\n\nMost of what we know comes from two Lives written by their own followers. They survive only in copies made centuries later. In Venice, his Life says, Constantine asked the Latin clergy: \"Does God's rain not fall on all alike?\"\n\nIn Rome, the Lives tell, Constantine fell ill, became a monk named Cyril, and died in 869. His last words to Methodius were: \"Look, brother, we were partners plowing a single furrow. And I fall in the field, having finished my day.\" Methodius loved the monks' mountain, but Constantine asked him not to give up his teaching for its sake.\n\nMethodius went back as a bishop, and his Life says Frankish bishops held him prisoner for two and a half years. A Salzburg writer of his day complained that this \"Greek\" with \"newly invented Slavic letters\" had partly cheapened, in the people's eyes, the Latin Masses and Gospels. Pope John VIII repeated a ban on Slavonic Mass in 879, but in 880 he allowed it, with the Gospel read first in Latin. He wrote: \"For he who made the three chief languages, Hebrew, Greek and Latin, also himself created all the others, for his praise and glory.\"\n\nMethodius died in 885. His Life says his disciples held the funeral in Latin, Greek and Slavonic, and crowds came, rich and poor, free and slave.",
+   "reviewStatus": "AI-checked",
+   "card": {
+    "otherNames": [
+     "Constantine the Philosopher, Cyril's name until he took the name Cyril in Rome, by the Italian Legend"
+    ],
+    "knownFor": "Two brothers of Thessalonica who taught the Slavs of Moravia the faith in their own language. Pope John VIII praised the Slavonic letters found by Constantine and, in 880, allowed the Mass to be sung in Slavonic, with the Gospel read first in Latin.",
+    "datesNote": "Ninth century. No source used here gives either brother's year of birth. Johann Ginzel reckons their arrival in Moravia to 863. Cyril died in Rome on 14 February, by the Italian Legend; Ginzel accepts 868 for the year, and Ernst Dümmler and S. H. Cross give 869. Methodius died on 6 April, in the year 6393 from the creation, by the Life of Methodius; Ginzel works this out as 885",
+    "placeNote": "Thessalonica, their home; Cherson, where the Italian Legend says Constantine found the relics of Clement of Rome; Moravia, their mission; Rome, where Cyril died and was buried in the basilica of Saint Clement; Pannonia, the see Methodius was made bishop for, by the Life of Methodius",
+    "role": "Brothers and missionaries: Constantine (Cyril), priest, scholar and finder of the Slavonic letters; Methodius, monk, then bishop and archbishop for the Slavs",
+    "keyWorks": [
+     {
+      "title": "The Slavonic letters",
+      "about": "which Pope John VIII calls the Slavonic letters found by Constantine the Philosopher. S. H. Cross says Constantine made the Glagolitic letters, not the Cyrillic; Count Lützow says his alphabet became known as Cyrillic"
+     },
+     {
+      "title": "Slavonic translations",
+      "about": "the Gospel, the Apostle, the Psalter and chosen services, by the two brothers, as the Life of Methodius says; it adds that Methodius later put the rest of the Scriptures into Slavonic in six months"
+     }
+    ],
+    "legacy": {
+     "traces": [
+      "The Russian Primary Chronicle says the writing made for Moravia exists also in Rus and among the Danube Bulgarians.",
+      "The Life of Clement of Ohrid names Gorazd, Clement, Naum, Angelarius and Sava as the brothers' chief disciples.",
+      "The Life of Methodius says he named Gorazd, a man of the Moravians' own country, learned in Latin books, to follow him."
+     ],
+     "remembered": [
+      "In S. H. Cross's English of the Russian Primary Chronicle, \"The Slavs rejoiced to hear the greatness of God extolled in their native tongue.\"",
+      "Ginzel reports that in 1380 Bishop John of Olomouc ordered their feast kept on 9 March, as Moravia's chief fathers, apostles and patrons.",
+      "Augustin Theiner dedicated his Vatican documents of 1863 to Joseph George Strossmayer, bishop of Bosnia or Diakovo, and wrote that the work kept the thousandth-year feast of Saints Cyril and Methodius, which the Church celebrated that year."
+     ]
+    },
+    "uncertain": [
+     "Which account to trust. Ginzel trusts the Italian Legend, which the Bollandists, and Ginzel after them, think very probably the work of Gauderich of Velletri, a bishop of the brothers' time. Of the Life of Methodius, Dümmler says a pupil wrote it soon after Methodius died, and Wilhelm Wattenbach rates it highly. Ginzel, who writes against the Greek schism, calls it a Greek schismatic's concoction.",
+     "Who made them bishops. The Italian Legend says Pope Hadrian II made both brothers bishops. The Life of Methodius says Pope Nicholas received them and ordained Methodius priest, and that he was made bishop later, for the Slavs of Pannonia.",
+     "How long they stayed in Moravia. The Italian Legend says four and a half years; the Life of Methodius says three. Ginzel follows the Legend and calls the Life wrong.",
+     "The year Cyril died. Ginzel accepts 868; Dümmler and Cross give 869.",
+     "The day Methodius died. The Life gives 6 April, in the year Ginzel works out as 885. Ginzel reports that Wattenbach thought a death on so high a feast suspicious, and defends the date.",
+     "His prison. The Life of Methodius says the enemy of the Moravian king and all the bishops sent him to Swabia and held him two and a half years. Count Lützow says the German governors seized him and handed him as a prisoner to the German bishops. Only the Life gives the place and the length.",
+     "The six-month Bible. Cross says it is generally regarded as apocryphal.",
+     "The Salzburg account against Methodius is hostile. Ginzel and Bartholomäus Kopitar date it to 873; Ginzel reports that Joseph Assemani and Wattenbach give 871."
+    ],
+    "sources": {
+     "about": [
+      {
+       "title": "Geschichte der Slawenapostel Cyrill und Method, with its Codex: the Italian Legend, the Life of Methodius (Latin tr. Franz Miklosich), Anastasius the Librarian, the Salzburg account and the letters of Pope John VIII",
+       "author": "Johann Ginzel (ed.)",
+       "date": "1861",
+       "language": "German and Latin",
+       "file": "cic/texts/ginzel_geschichte-der-slawenapostel-cyrill-und-method-deu-lat_1861.txt"
+      },
+      {
+       "title": "The Russian Primary Chronicle (tr. S. H. Cross)",
+       "author": "S. H. Cross (tr.)",
+       "date": "1930",
+       "language": "English",
+       "file": "cic/texts/russian-primary-chronicle_cross1930.txt"
+      },
+      {
+       "title": "Vetera monumenta Slavorum meridionalium, volume 1, dedication",
+       "author": "Augustin Theiner",
+       "date": "1863",
+       "language": "Latin",
+       "file": "cic/texts/theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863.txt"
+      },
+      {
+       "title": "Bohemia: an historical sketch",
+       "author": "Count Lützow",
+       "date": "1920",
+       "language": "English",
+       "file": "cic/texts/lutzow_bohemia-historical-sketch_1920.txt"
+      },
+      {
+       "title": "Die Legende vom heiligen Cyrillus: the Slavonic Life of Constantine, Latin tr. Ernst Dümmler and Franz Miklosich, with Dümmler's introduction",
+       "author": "Ernst Dümmler and Franz Miklosich (ed. and tr.)",
+       "date": "1870",
+       "language": "Latin and German",
+       "file": "cic/texts/vita-constantini_die-legende-vom-heiligen-cyrillus-in-denkschriften-wien-19-chu-lat-deu_duemmler-miklosich1870.txt"
+      },
+      {
+       "title": "Patrologia Graeca 126: the Life of Clement of Ohrid, with its Latin translation and the editor's note on its author",
+       "author": "J.-P. Migne (ed.)",
+       "date": "1864",
+       "language": "Greek and Latin",
+       "file": "cic/texts/theophylact-ohrid_opera-t4-with-vita-clementis-pg126-grc-lat_migne1864.txt"
+      }
+     ]
+    },
+    "briefReferences": [
+     "Life of Constantine, lines 20217–20233: Moravia asks for a teacher in its own language; the emperor sends the tired philosopher; \"if they have letters for their language\"; \"who can write words on water\"; the letters made.",
+     "Life of Methodius, lines 12201–12219: Rastislav's embassy, with teachers from Italy, Greece and Germany; the emperor's word that all Thessalonians speak pure Slavonic; the letters made.",
+     "Life of Constantine, lines 20256–20268: the services turned into Slavic; the Latin clergy who said God chose only three languages.",
+     "Life of Constantine, lines 20292–20314: Venice, the Latin bishops, priests and monks, and his answer.",
+     "Life of Constantine, lines 20379–20445: Rome; his illness; the monk's name Cyril; his death.",
+     "Life of Methodius, lines 12249–12365: his last words to Methodius, and his plea not to give up his teaching for the mountain; Methodius bishop; held two and a half years.",
+     "Salzburg Conversio: the \"Greek\" with \"newly invented Slavic letters\" who partly cheapened the Latin Masses and Gospels.",
+     "Pope John VIII, letter of 879 to Methodius: the earlier ban on Slavonic Mass repeated.",
+     "Pope John VIII, letter of 880 to Svatopluk: Slavonic Mass allowed, the Gospel read first in Latin, and the three chief languages.",
+     "Life of Methodius, lines 12540–12551; his death; the funeral in Latin, Greek and Slavonic, with crowds rich and poor, free and slave; Lützow for 885. Life of Clement (Latin extract in Ginzel): the disciples driven out.",
+     "Life of Clement, PG 126: the younger priests and deacons sold, the teachers chained, then stripped and driven out; Clement, Naum and Angelarius to Bulgaria; Boris thanks God; Clement \"the first bishop of the Bulgarian tongue\".",
+     "Editor's note to the Life of Clement, PG 126: its author says he lived with Clement and was Bulgarian, though the work carries Theophylact's name.",
+     "Lützow, Bohemia: Rostislav's mission to Constantinople in 862, for the 860s.",
+     "Russian Primary Chronicle, tr. Cross: the writing first made for the Moravians, found in Rus; Cross's introduction for 869 and the dating.",
+     "Dümmler's introduction to the Life of Constantine and Ginzel on the Life of Methodius: the Lives written by followers, kept in late copies.",
+     "World census, Cyrillo-Methodian Slavic Christianity: their tradition, and the Czech Republic for Moravia."
+    ],
+    "quotationOriginals": [
+     {
+      "modern": "if they have letters for their language.",
+      "printed": "si litteras habent linguae suae accomodatas",
+      "work": "Life of Constantine, Latin tr. Dümmler and Miklosich",
+      "file": "cic/texts/vita-constantini_die-legende-vom-heiligen-cyrillus-in-denkschriften-wien-19-chu-lat-deu_duemmler-miklosich1870.txt",
+      "lines": "20224-20225",
+      "secondReading": "same"
+     },
+     {
+      "modern": "who can write words on water, and who wants to be called a heretic?",
+      "printed": "quis potest in aqua orationem scribere, et quis vult haeretici sibi nomen comparare?",
+      "work": "Life of Constantine, Latin tr. Dümmler and Miklosich",
+      "file": "cic/texts/vita-constantini_die-legende-vom-heiligen-cyrillus-in-denkschriften-wien-19-chu-lat-deu_duemmler-miklosich1870.txt",
+      "lines": "20227-20228",
+      "secondReading": "minor"
+     },
+     {
+      "modern": "Does God's rain not fall on all alike?",
+      "printed": "nonne pluvia a deo aequaliter super omnes cadit?",
+      "work": "Life of Constantine, Latin tr. Dümmler and Miklosich",
+      "file": "cic/texts/vita-constantini_die-legende-vom-heiligen-cyrillus-in-denkschriften-wien-19-chu-lat-deu_duemmler-miklosich1870.txt",
+      "lines": "20307-20308",
+      "secondReading": "same"
+     },
+     {
+      "modern": "Look, brother, we were partners plowing a single furrow. And I fall in the field, having finished my day.",
+      "printed": "Ecce frater nos consortes eramus, unum sulcum imprimentes atque ego in agro cado, postquam diem meum terminavi,",
+      "work": "Life of Methodius, Latin tr. Franz Miklosich, in Ginzel",
+      "file": "cic/texts/ginzel_geschichte-der-slawenapostel-cyrill-und-method-deu-lat_1861.txt",
+      "lines": "12251-12253",
+      "secondReading": "minor"
+     },
+     {
+      "modern": "Greek ... newly invented Slavic letters",
+      "printed": "quidam graecus, methodms nomine, noviter inventis sclavinis Hlieris,",
+      "work": "Conversio Bagoariorum et Carantanorum (the Salzburg account), in Ginzel",
+      "file": "cic/texts/ginzel_geschichte-der-slawenapostel-cyrill-und-method-deu-lat_1861.txt",
+      "lines": "13641-13642",
+      "uncertain": "OCR spellings kept as printed (methodms = Methodius, Hlieris = litteris). The brief quotes only \"Greek\" and \"newly invented Slavic letters\"; the rest is paraphrase of the same sentence, which ends after a page of notes at lines 13662-13663, \"vilescerc fecil cunclo populo ex parte missas et evangelia\" (vilescere fecit cuncto), keeping \"partly\" (ex parte).",
+      "secondReading": "same"
+     },
+     {
+      "modern": "For he who made the three chief languages, Hebrew, Greek and Latin, also himself created all the others, for his praise and glory.",
+      "printed": "qüoniam qui fecit tres linguas principales, bebream scilicet, grecam et latinam, ipse creavit et alias omnes ad laudem et gloriam suam.",
+      "work": "Pope John VIII, letter to Svatopluk, 880, in Ginzel",
+      "file": "cic/texts/ginzel_geschichte-der-slawenapostel-cyrill-und-method-deu-lat_1861.txt",
+      "lines": "13974-13976",
+      "uncertain": "\"bebream\" is the OCR's reading of \"hebream\".",
+      "secondReading": "same"
+     },
+     {
+      "modern": "the first bishop of the Bulgarian tongue",
+      "printed": "Bulgariez lingue Clemens primus constituitur episcopus",
+      "work": "Life of Clement of Ohrid, Latin tr., Patrologia Graeca 126",
+      "file": "cic/texts/theophylact-ohrid_opera-t4-with-vita-clementis-pg126-grc-lat_migne1864.txt",
+      "lines": "99371-99372",
+      "uncertain": "\"Bulgariez lingue\" is the OCR's reading of \"Bulgariae linguae\".",
+      "secondReading": "minor"
+     }
+    ]
+   }
   },
   {
    "id": "kievan-rus-christianity",
@@ -93558,11 +93803,11 @@ const DATA = {
     "quotationOriginals": [
      {
       "modern": "We are persecuted because we said: the Son has a beginning, but God has no beginning.",
-      "printed": "Διωκόμεϑα δὲ ὅτι εἴπομεν, ᾿Δρχὴν ἔχει ὁ υἱὸς, ὁ δὲ ϑεὸς ἀναρχός ἐστι.",
+      "printed": "Διωκόμεϑα δὲ ὅτι εἴπομεν, Ἀρχὴν ἔχει ὁ υἱὸς, ὁ δὲ ϑεὸς ἄναρχός ἐστι.",
       "work": "Arius, Letter to Eusebius of Nicomedia, in Epiphanius, Panarion 69.6, ed. Franz Oehler; checked against Theodoret, Church History 1.4, in Nicene and Post-Nicene Fathers, second series, vol. 3 (lines 6045-6046)",
       "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt",
       "lines": "45736-45738",
-      "uncertain": "The file is OCR, kept as it stands: ᾿Δρχὴν reads Ἀρχὴν, ἀναρχός reads ἄναρχός, and ϑ is the scan's θ; line 45737, inside the span, is scanned apparatus. \"We said\" follows the Greek aorist εἴπομεν; the English of Theodoret reads \"we say\".",
+      "uncertain": "The file is OCR: its ᾿Δρχὴν and ἀναρχός are read Ἀρχὴν and ἄναρχός, as Theodoret's Greek of the same letter prints them (Church History 1.4, Migne, PG 82); ϑ is the scan's θ. Line 45737, inside the span, is scanned apparatus. \"We said\" follows the Greek aorist εἴπομεν; the English of Theodoret reads \"we say\".",
       "secondReading": "same"
      },
      {
@@ -96414,12 +96659,11 @@ const DATA = {
     "quotationOriginals": [
      {
       "modern": "You, Lord, have set us free from the fear of death.",
-      "printed": "«Σὺ,» φησὶν, «ἔλυσας ἡμῖν, Κύριε, τοῦ θανάτου τὸν φόθον.",
-      "work": "Gregory of Nyssa, Life of Macrina, Greek, Migne, PG 46",
-      "file": "cic/texts/gregory-nyssa_opera-omnia-pg46-grc-lat_migne1863.txt",
-      "lines": "71687-71690",
-      "secondReading": "same",
-      "uncertain": "The OCR prints φόθον for φόβον, after a run of garbled Latin on line 71690. Clarke's English (line 230) reads \"Thou, O Lord, hast freed us from the fear of death.\""
+      "printed": "Thou, O Lord, hast freed us from the fear of death.",
+      "work": "Gregory of Nyssa, Life of Macrina, tr. W. K. Lowther Clarke; the modern English follows Gregory's Greek, Migne, PG 46",
+      "file": "cic/texts/gregory-nyssa_life-of-macrina_clarke1916.txt",
+      "lines": "230",
+      "secondReading": "same"
      }
     ]
    },
@@ -125034,7 +125278,7 @@ const RIVER_ORIGINS = [
 ]
 ;
 const laneParent={};
-RIVER_ORIGINS.forEach(o=>{if(o.parent!=null)laneParent[o.lane]=o.parent;});
+RIVER_ORIGINS.forEach(o=>{if(o.parent!=null&&o.basis==='lineage')laneParent[o.lane]=o.parent;});
 
 
 const STEP=24;
@@ -125045,8 +125289,14 @@ function seededWave(seed){return (y)=>{
 };}
 const laneWave={}; laneKeys.forEach(k=>{laneWave[k]=seededWave(k+1);});
 
-const MERGE_WINDOW=150;
-function mergeRaw(k,y){return k===0?1:Math.max(0,Math.min(1,(y-laneGenesisY[k])/MERGE_WINDOW));}
+const MERGE_WINDOW=150, SPRING_LEAD=150, SPRING_RAMP=30;
+const branches=k=>laneParent[k]!=null;
+function mergeRaw(k,y){
+  if(k===0)return 1;
+  const t=branches(k)?(y-laneGenesisY[k])/MERGE_WINDOW:(y-laneGenesisY[k]+SPRING_LEAD)/SPRING_RAMP;
+  return Math.max(0,Math.min(1,t));
+}
+function laneSettledY(k){return k===0?0:laneGenesisY[k]+(branches(k)?MERGE_WINDOW:0);}
 function smoothstep(t){return t*t*(3-2*t);}
 
 const DRIFT_PULL={'gave rise to':1,'continued as':1,'influenced':1,'in contact with':0.5,'member of':0.5,'argued against':-1,'broke with':-1};
@@ -125062,7 +125312,7 @@ DATA.edges.forEach(e=>{
   if(!a||!b||isAcross(a)||isAcross(b)||a.laneOrder===b.laneOrder)return;
   const pull=DRIFT_PULL[e.type], weight=CONFIDENCE_WEIGHT[e.confidence];
   if(!pull||!weight)return;
-  const settled=k=>k===0?0:laneGenesisY[k]+MERGE_WINDOW;
+  const settled=laneSettledY;
   const y0=Math.max(yearToY(Math.max(a.start,b.start)),settled(a.laneOrder),settled(b.laneOrder));
   const y1=yearToY(Math.min(a.end,b.end));
   if(y1<=y0)return;
@@ -125162,6 +125412,11 @@ function buildLaneGeometry(amp){
       const y=i*STEP;
       own[k][i]=laneX[k]+laneWave[k](y)*amp+driftOffset(k,y);
       half[k][i]=sampleWidth(laneSamples[k][i])*halfWidthScale(amp);
+    }
+    if(k!==0&&!branches(k)){
+      const g=Math.round(laneGenesisY[k]/STEP), head=Math.max(0,Math.round((laneGenesisY[k]-SPRING_LEAD)/STEP));
+      let src=g; while(src<SAMPLE_COUNT-1&&!half[k][src])src++;
+      for(let i=head;i<src;i++)if(!half[k][i])half[k][i]=half[k][src];
     }
   });
   const order=laneKeys.slice().sort((a,b)=>laneX[a]-laneX[b]);
@@ -125350,8 +125605,11 @@ const gNodes=el('g',{id:'nodes'}); gRoot.appendChild(gNodes);
 const gStories=el('g',{id:'stories'}); gRoot.appendChild(gStories);
 const gWhoPills=el('g',{id:'who-pills'}); gRoot.appendChild(gWhoPills);
 const gProfPills=el('g',{id:'prof-pills'}); gRoot.appendChild(gProfPills);
+const gStoryPills=el('g',{id:'story-pills'}); gRoot.appendChild(gStoryPills);
+const gStoryMarks=el('g',{id:'story-marks'}); gRoot.appendChild(gStoryMarks);
 const gWho=el('g',{id:'who'}); gRoot.appendChild(gWho);
 const gAuto=el('g',{id:'who-auto'}); gRoot.appendChild(gAuto);
+const gRiverNames=el('g',{id:'river-names'}); gRoot.appendChild(gRiverNames);
 const gLabels=el('g',{id:'era-labels'}); gRoot.appendChild(gLabels);
 
 const WORLD_CONTEXT={
@@ -125370,7 +125628,7 @@ const ERA_CLOSE={
   10:"The map runs to about 2010. Traditions that began after that will be added once enough time has passed."
 };
 const LAYOUT_DY=110, LAYOUT_DX=24, LAYOUT_ITER=800, LAYOUT_PAD=2;
-const NAME_CHAR=5.6, NAME_CHAR_BOLD=5.8, PLACE_CHAR=5.0, STORY_CHAR=5.0;
+const NAME_CHAR=5.6, NAME_CHAR_BOLD=5.8, STORY_CHAR=5.0;
 function nameSideLeft(x){return x>CANVAS_W-220;}
 function placeLine(m){return CFTPlace.formatPlace(m,{omitIn:m.shortName||m.name});}
 function markRects(item){
@@ -125428,23 +125686,7 @@ function layoutMarks(){
     items.sort((a,b)=>a.y-b.y);
     if(!moved&&!pull)break;
   }
-  const placed=[];
-  items.forEach(it=>{
-    const o=it.m||it.s; o._x=it.x; o._y=it.y;
-    if(!it.m)return;
-    const m=it.m, text=placeLine(m), w=text.length*PLACE_CHAR;
-    m._placeShown=null;
-    if(!text||text.toLowerCase()===(m.shortName||m.name).toLowerCase())return;
-    const left=nameSideLeft(it.x), built=m.status==='Built & Live';
-    const nameW=labelRun(m);
-    const below=left?[-(7+w),7,-5,19]:[5,7,7+w,19];
-    const inline=left?[-(7+nameW+8+w),-8,-(7+nameW+4),7]:[7+nameW+4,-8,7+nameW+8+w,7];
-    const clear=r=>!items.some(o2=>o2!==it&&Math.abs(o2.y-it.y)<80&&rectsOverlap([r],it.x,it.y,o2.rects,o2.x,o2.y))
-      &&!placed.some(p=>rectsOverlap([r],it.x,it.y,[p.r],p.x,p.y));
-    for(const [where,r] of (left?[['below',below]]:[['below',below],['inline',inline]])){
-      if(clear(r)){m._placeShown=where;m._placeOffset=r;placed.push({r,x:it.x,y:it.y});break;}
-    }
-  });
+  items.forEach(it=>{const o=it.m||it.s; o._x=it.x; o._y=it.y;});
 }
 
 const normName=s=>String(s||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9]+/g,' ').trim();
@@ -125707,6 +125949,7 @@ function returnFocus(opener,within){
 }
 function setWho(scope,opts){
   clearConnections();
+  if(storyScope)clearStories();
   const wasOpen=!!whoScope;
   if(wasOpen&&whoScopeKey(scope)===whoScopeKey(whoScope)&&!(opts&&opts.on)){clearWho();return;}
   const sameList=wasOpen&&whoScopeKey(scope)===whoScopeKey(whoScope);
@@ -125760,11 +126003,14 @@ function syncWhoControls(){
   const key=whoScopeKey(whoScope);
   const chip=document.getElementById('who-chip');
   if(chip){
-    chip.hidden=!whoScope;
+    chip.hidden=!whoScope&&!storyScope;
     if(whoScope){chip.querySelector('.who-chip-label').textContent=whoScopeLabel(whoScope);chip.setAttribute('aria-label',`${whoScopeLabel(whoScope)}. Clear the names from the map.`);}
+    else if(storyScope){chip.querySelector('.who-chip-label').textContent=storyScopeLabel(storyScope);chip.setAttribute('aria-label',`${storyScopeLabel(storyScope)}. Close the story list.`);}
     fitFeatureBar();
   }
   document.querySelectorAll('[data-who]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.who===key)));
+  const sk=storyScopeKey(storyScope);
+  document.querySelectorAll('[data-stories]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.stories===sk)));
 }
 
 const WHO_TIP_NAMES=4;
@@ -125815,6 +126061,148 @@ function whoFigure(m){
   g.addEventListener('mouseleave',hideTip);
   return g;
 }
+const storyYearOf=(s,m)=>{const x=/(\d{3,4}|\d{2})/.exec(String(s.when||''));const y=x?+x[1]:NaN;return Number.isFinite(y)&&y>=+m.start-60&&y<=+m.end+60?y:+m.start;};
+const storiesOf={}, riverStories=new Map();
+const addRiverStory=(lane,it)=>{const key=`${lane}:${eraOfYear(it.year)}`;if(!riverStories.has(key))riverStories.set(key,[]);riverStories.get(key).push(it);};
+churchBodies.forEach(m=>(m.documentedStories||[]).forEach((s,i)=>{
+  const it={m,s,i,year:storyYearOf(s,m)};
+  (storiesOf[m.id]=storiesOf[m.id]||[]).push(it);
+  addRiverStory(m.laneOrder,it);
+}));
+(DATA.stories||[]).forEach(s=>addRiverStory(s.laneOrder,{m:null,s,i:-1,year:+s.year}));
+const byStoryYear=(a,b)=>a.year-b.year||a.s.title.localeCompare(b.s.title);
+riverStories.forEach(l=>l.sort(byStoryYear));
+Object.values(storiesOf).forEach(l=>l.sort(byStoryYear));
+const hasStories=m=>!!(storiesOf[m.id]&&storiesOf[m.id].length);
+let storyScope=null, storyOpener=null;
+const storyScopeKey=sc=>sc?(sc.type==='trad'?`t:${sc.m.id}`:`r:${sc.lane}:${sc.era}`):'';
+function storyScopeLabel(sc){
+  if(sc.type==='trad'){const t=sc.m.shortName||sc.m.name;return `Stories of ${t.replace(/^The /,'the ')}`;}
+  return `Stories of ${famOf(sc.lane).of}`;
+}
+const scopeStories=sc=>sc.type==='trad'?(storiesOf[sc.m.id]||[]):(riverStories.get(`${sc.lane}:${sc.era}`)||[]);
+function storyTipHTML(title,list){
+  const top=list.slice(0,WHO_TIP_NAMES).map(it=>`<div class="m">${esc(it.s.title)}</div>`).join(''), more=list.length-WHO_TIP_NAMES;
+  return `<div class="n">${esc(title)}</div>${top}${more>0?`<div class="m">+${more} more</div>`:''}`;
+}
+function storyAriaLabel(title,list){
+  const n=list.length, names=list.slice(0,WHO_TIP_NAMES).map(it=>it.s.title), more=n-names.length;
+  return `${title}, ${n} ${n===1?'story':'stories'}: ${names.join(', ')}${more>0?`, and ${more} more`:''}`;
+}
+function bookGlyph(){
+  const g=el('g',{class:'who-fig','aria-hidden':'true'}), inner=el('g',{transform:'scale(.62)'});
+  inner.appendChild(el('path',{d:'M0,-4.2 C-2.6,-5.4 -5.2,-5.1 -6.8,-4.6 V3.8 C-5.2,3.3 -2.6,3.6 0,4.8 C2.6,3.6 5.2,3.3 6.8,3.8 V-4.6 C5.2,-5.1 2.6,-5.4 0,-4.2 Z M0,-4.2 V4.8'}));
+  g.appendChild(inner);
+  return g;
+}
+function wireStoryMark(g,scope,title,list){
+  const go=()=>setStories(scope);
+  g.addEventListener('click',ev=>{ev.stopPropagation();go();});
+  g.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();ev.stopPropagation();go();}});
+  g.addEventListener('mouseenter',ev=>showTip(ev,storyTipHTML(title,list)));
+  g.addEventListener('mousemove',ev=>positionTip(ev));
+  g.addEventListener('mouseleave',hideTip);
+}
+function renderStoryPills(){
+  riverStories.forEach((list,key)=>{
+    const [k,i]=key.split(':').map(Number), n=list.length, col=famColor(famOf(k)), scope={type:'river',lane:k,era:i};
+    const title=`${storyScopeLabel(scope)} · ${eras[i].title}`;
+    const g=el('g',{class:'who-pill river-pill story-pill','data-lane':k,'data-era':i,'data-stories':storyScopeKey(scope),tabindex:'0',role:'button','aria-pressed':'false','aria-label':storyAriaLabel(title,list)});
+    g.appendChild(el('circle',{class:'who-hit',r:0}));
+    g.appendChild(el('rect',{class:'who-cap',stroke:col}));
+    g.appendChild(el('rect',{class:'who-focus'}));
+    g.appendChild(bookGlyph());
+    const t=el('text',{class:'who-n','aria-hidden':'true'}); t.textContent=n===1?'':String(n); g.appendChild(t);
+    wireStoryMark(g,scope,title,list);
+    gStoryPills.appendChild(g);
+  });
+}
+function storyMark(m){
+  const scope={type:'trad',m}, list=storiesOf[m.id], title=storyScopeLabel(scope);
+  const g=el('g',{class:'who-pill prof-pill story-mark','data-id':m.id,'data-lane':m.laneOrder,'data-stories':storyScopeKey(scope),tabindex:'0',role:'button','aria-pressed':'false','aria-label':storyAriaLabel(title,list)});
+  g.appendChild(el('rect',{class:'who-hit'}));
+  g.appendChild(el('circle',{class:'who-ring'}));
+  g.appendChild(bookGlyph());
+  wireStoryMark(g,scope,title,list);
+  return g;
+}
+function renderStories(){
+  svg.classList.toggle('story-on',!!storyScope);
+  document.querySelectorAll('.story-lit').forEach(g=>g.classList.remove('story-lit'));
+  if(storyScope){
+    const list=scopeStories(storyScope), lanes=new Set();
+    list.forEach(it=>{
+      if(it.m){const n=gNodes.querySelector(`.node[data-id="${CSS.escape(it.m.id)}"]`);if(n)n.classList.add('story-lit');lanes.add(it.m.laneOrder);}
+      else lanes.add(it.s.laneOrder);
+    });
+    lanes.forEach(k=>{
+      document.querySelectorAll(`#rivers .river-group[data-lane="${k}"]`).forEach(g=>g.classList.add('story-lit'));
+      gStories.querySelectorAll(`.story[data-lane="${k}"]`).forEach(g=>g.classList.add('story-lit'));
+    });
+  }
+  syncWhoControls();
+  renderTray();
+  labelFitRun();
+}
+function renderStoryTray(){
+  const sc=storyScope, list=scopeStories(sc), era=sc.type==='river'?eras[sc.era]:null, n=list.length;
+  document.body.classList.add('tray-open'); tray.hidden=false; applyTransform();
+  tray.querySelector('h2').textContent=storyScopeLabel(sc);
+  const tag=tray.querySelector('.tray-tag'); tag.textContent=era?era.tag:''; tag.hidden=!era;
+  tray.querySelector('.tray-sub').textContent=[era&&era.title,`${n} ${n===1?'story':'stories'}`,era&&plainDates(era.dates)].filter(Boolean).join(' · ');
+  tray.querySelector('.tray-sort').hidden=true;
+  const body=tray.querySelector('.tray-body');
+  body.innerHTML=`<ul>${list.map((it,j)=>{
+    const where=it.m?(sc.type==='trad'?'':(it.m.shortName||it.m.name)):'On the map';
+    const when=it.m?plainDates(it.s.when):String(it.s.year);
+    return `<li><button type="button" class="tray-row" data-story="${j}"><span class="nm">${esc(it.s.title)}</span>${where?`<span class="rl">${esc(where)}</span>`:''}<span class="dt">${esc(when)}</span></button></li>`;
+  }).join('')}</ul>`;
+  body.scrollTop=0;
+}
+function openStoryItem(it){
+  if(!it)return;
+  if(!it.m){openPanelStory(it.s);return;}
+  openPanel(it.m);
+  const show=()=>{
+    const d=panelBody.querySelector(`.docstory-item[data-story-idx="${it.i}"]`);
+    if(!d)return false;
+    d.open=true; d.scrollIntoView({block:'start'}); return true;
+  };
+  if(!show())setTimeout(show,400);
+}
+function zoomToStories(){
+  const pts=scopeStories(storyScope).map(it=>it.m?[it.m._x,it.m._y]:[it.s._x,it.s._y]).filter(p=>p[0]!=null);
+  if(!pts.length)return;
+  const narrow=narrowScreen(), left=narrow||tray.hidden?0:tray.offsetWidth, right=window.innerWidth-(!narrow&&panel.classList.contains('open')?panel.offsetWidth:0);
+  const top=topInset(), bottom=window.innerHeight-barHeight()-(narrow&&!tray.hidden?tray.offsetHeight:0);
+  const x0=Math.min(...pts.map(p=>p[0]))-40, x1=Math.max(...pts.map(p=>p[0]))+200, y0=Math.min(...pts.map(p=>p[1]))-40, y1=Math.max(...pts.map(p=>p[1]))+40;
+  const vw=Math.max(80,right-left), vh=Math.max(80,bottom-top);
+  scale=clampScale(Math.max(Z_RIVER_WHO,Math.min(Z_READ,vw/(x1-x0),vh/(y1-y0))));
+  tx=left+vw/2-((x0+x1)/2)*scale; ty=top+vh/2-((y0+y1)/2)*scale;
+  applyTransform(); applyDetail();
+}
+function setStories(scope){
+  clearConnections();
+  if(whoScope)clearWho();
+  const wasOpen=!!storyScope;
+  if(wasOpen&&storyScopeKey(scope)===storyScopeKey(storyScope)){clearStories();return;}
+  storyScope=scope;
+  if(!wasOpen){storyOpener=document.activeElement;tray.classList.remove('is-low');}
+  renderStories();
+  syncTrayGrip();
+  const cramped=narrowScreen()||(panel.classList.contains('open')&&window.innerWidth-tray.offsetWidth-panel.offsetWidth<360);
+  if(cramped&&panel.classList.contains('open')){lastFocused=null;closePanel();}
+  zoomToStories();
+  const n=scopeStories(scope).length;
+  announce(`Story list open: ${n} ${n===1?'story':'stories'}.`);
+}
+function clearStories(){
+  if(!storyScope)return;
+  storyScope=null; renderStories();
+  announce('Story list closed.');
+  returnFocus(storyOpener,[tray,document.getElementById('who-chip')]);
+  storyOpener=null;
+}
 function setWhoMark(p,cx,cy,U,away){
   p.setAttribute('transform',`translate(${cx.toFixed(1)},${cy.toFixed(1)})`);
   const cap=p.querySelector('.who-cap'), fig=p.querySelector('.who-fig');
@@ -125840,17 +126228,40 @@ function setWhoMark(p,cx,cy,U,away){
 }
 function placeWhoMarks(){
   const showRiver=scale>=Z_RIVER_WHO||!!whoScope, showTrad=scale>=Z_ALL||!!whoScope;
+  const showRiverS=scale>=Z_RIVER_WHO||!!storyScope, showTradS=scale>=Z_ALL||!!storyScope;
   gWhoPills.style.display=showRiver?'block':'none';
   gProfPills.style.display=showTrad?'block':'none';
+  gStoryPills.style.display=showRiverS?'block':'none';
+  gStoryMarks.style.display=showTradS?'block':'none';
+  const peopleOn=!svg.classList.contains('no-people'), storiesOn=!svg.classList.contains('no-stories');
+  const riverSets=[peopleOn&&showRiver&&gWhoPills,storiesOn&&showRiverS&&gStoryPills].filter(Boolean);
+  const tradSets=[peopleOn&&showTrad&&gProfPills,storiesOn&&showTradS&&gStoryMarks].filter(Boolean);
   const grid=labelFit.grid, U=markU();
-  if(showRiver&&grid){
-    gWhoPills.querySelectorAll('.river-pill').forEach(p=>{
+  if(riverSets.length&&grid){
+    riverSets.forEach(G=>G.querySelectorAll('.river-pill').forEach(p=>{
       const era=+p.dataset.era, k=+p.dataset.lane, hw=U*1.6, hh=U*.75;
       const spanAt=y=>riverSpanAt(k,y,1)||riverSpanAt(k,y,0), top=eraY0[era]+16+U*1.05, end=eraY0[era]+eraH[era]-U;
-      let y=top; while(y<end&&!spanAt(y))y+=6;
-      const mk=y=>{const sp=spanAt(y), x=sp?(sp[0]+sp[1])/2:laneCenterX(k,y);return [x,y,{id:'pill'+p.dataset.who,x0:x-hw,x1:x+hw,y0:y-hh,y1:y+hh}];};
+      const born=k!==0&&laneGenesisY[k]>=eraY0[era]&&laneGenesisY[k]<eraY0[era]+eraH[era];
+      let y=born?Math.min(end,Math.max(top,laneSettledY(k))):top; while(y<end&&!spanAt(y))y+=6;
+      const mk=y=>{const sp=spanAt(y), x=sp?(sp[0]+sp[1])/2:laneCenterX(k,y);return [x,y,{id:'pill'+(p.dataset.who||p.dataset.stories),x0:x-hw,x1:x+hw,y0:y-hh,y1:y+hh}];};
       let best=mk(y);
-      if(y<=top+1){for(const d of [0,1.5,3,4.5]){const c=mk(y+d*U);if(spanAt(c[1])&&!grid.hits(c[2])){best=c;break;}}}
+      if(born&&!branches(k)){
+        const firstY=Math.min(...laneMembers[k].filter(m=>m.start===laneGenesisYear[k]).map(m=>m._y));
+        const sr=stage.getBoundingClientRect();
+        const eraBoxes=[...gLabels.querySelectorAll('.era-label,.era-tag,.era-info')].map(e=>e.getBoundingClientRect()).filter(r=>r.width);
+        const onEraTitle=c=>{const b=c[2],x0=b.x0*scale+tx+sr.left,x1=b.x1*scale+tx+sr.left,y0=b.y0*scale+ty+sr.top,y1=b.y1*scale+ty+sr.top;
+          return eraBoxes.some(r=>r.left<x1&&r.right>x0&&r.top<y1&&r.bottom>y0);};
+        const low=firstY-U*.6-hh;
+        let yy=Math.max(top,laneGenesisY[k]-SPRING_LEAD+SPRING_RAMP,firstY-U*1.5-hh);
+        best=mk(yy);
+        while(onEraTitle(best)&&yy<low){yy=Math.min(low,yy+U*.25);best=mk(yy);}
+      }
+      else if(born){
+        let found=null;
+        for(let yy=y;yy<end&&!found;yy+=U*.8){const c=mk(yy);if(spanAt(c[1])&&!grid.hits(c[2]))found=c;}
+        best=found||best;
+      }
+      else if(y<=top+1){for(const d of [0,1.5,3,4.5]){const c=mk(y+d*U);if(spanAt(c[1])&&!grid.hits(c[2])){best=c;break;}}}
       else{
         y+=U*.4; best=mk(y);
         for(const d of [0,1,2,3,-1,4,5,-2,6,7,8]){const c=mk(y+d*U*.8);if(spanAt(c[1])&&!grid.hits(c[2])){best=c;break;}}
@@ -125858,19 +126269,20 @@ function placeWhoMarks(){
       setWhoMark(p,best[0],best[1],U);
       p._at=[best[0],best[1]];
       grid.add(best[2]);
-    });
+    }));
   }
-  if(showTrad&&grid&&labelFit.items){
+  if(tradSets.length&&grid&&labelFit.items){
     const byNode=new Map(labelFit.items.map(it=>[it.id,it]));
-    gProfPills.querySelectorAll('.prof-pill').forEach(p=>{
+    tradSets.forEach(G=>G.querySelectorAll('.prof-pill').forEach(p=>{
       const it=byNode.get(p.dataset.id);
       if(!it||!it.box){p.style.display='none';return;}
       const cx=it.dx+(it.end?1:-1)*U*1.02, cy=it.dy;
       p.style.display='';
       setWhoMark(p,cx,cy,U,it.end?1:-1);
       grid.add({id:'pp'+it.id,x0:cx-U/2,x1:cx+U/2,y0:cy-U/2,y1:cy+U/2});
-    });
+    }));
   }
+  placeRiverNames(U);
 }
 
 let autoKey='', autoRaf=0;
@@ -125939,6 +126351,7 @@ function trayRowHTML(a,withTrad){
   return `<li><button type="button" class="tray-row${onMap?' on-map':''}" data-key="${esc(P.key)}"><span class="nm">${esc(P.entry?P.entry.name:P.name)}${reviewMark(P.entry)}</span>${role?`<span class="rl">${esc(role)}</span>`:''}<span class="dt">${esc(sub)}</span>${onMap?'<span class="mk">On the map</span>':''}</button></li>`;
 }
 function renderTray(){
+  if(storyScope){renderStoryTray();return;}
   document.body.classList.toggle('tray-open',!!whoScope);
   tray.hidden=!whoScope;
   applyTransform();
@@ -125963,13 +126376,14 @@ function renderTray(){
 }
 tray.addEventListener('click',ev=>{
   const row=ev.target.closest('.tray-row'), tr=ev.target.closest('[data-trad]'), so=ev.target.closest('[data-sort]');
+  if(row&&storyScope){openStoryItem(scopeStories(storyScope)[+row.dataset.story]);return;}
   if(row){const a=whoPick.all.find(a=>a.P.key===row.dataset.key);if(a)openPersonCard(a.P);}
   else if(tr)openPanel(byId[tr.dataset.trad]);
   else if(so){traySort=so.dataset.sort;renderTray();}
-  else if(ev.target.closest('.tray-close'))clearWho();
+  else if(ev.target.closest('.tray-close')){if(storyScope)clearStories();else clearWho();}
   else if(ev.target.closest('.tray-grip')){tray.classList.toggle('is-low');syncTrayGrip();zoomToWho();}
 });
-tray.addEventListener('keydown',ev=>{if(ev.key==='Escape'){ev.preventDefault();clearWho();}});
+tray.addEventListener('keydown',ev=>{if(ev.key==='Escape'){ev.preventDefault();if(storyScope)clearStories();else clearWho();}});
 ['pointerdown','wheel','touchstart'].forEach(t=>tray.addEventListener(t,ev=>ev.stopPropagation(),{passive:true}));
 const linkEnd=id=>{const t=traditionEnd(id);return t?t.id:id;};
 function traditionEnd(id){
@@ -126102,7 +126516,7 @@ function wirePanelLinks(ctx){
 
 function render(){
   layoutMarks();
-  gBands.innerHTML=''; gRivers.innerHTML=''; gBandFade.innerHTML=''; gEdges.innerHTML=''; gAcross.innerHTML=''; gNodes.innerHTML=''; gStories.innerHTML=''; if(eraTitleSize)eraTitleSize.disconnect(); gLabels.innerHTML=''; gWhoPills.innerHTML=''; gProfPills.innerHTML=''; gWho.innerHTML='';
+  gBands.innerHTML=''; gRivers.innerHTML=''; gBandFade.innerHTML=''; gEdges.innerHTML=''; gAcross.innerHTML=''; gNodes.innerHTML=''; gStories.innerHTML=''; if(eraTitleSize)eraTitleSize.disconnect(); gLabels.innerHTML=''; gWhoPills.innerHTML=''; gProfPills.innerHTML=''; gStoryPills.innerHTML=''; gStoryMarks.innerHTML=''; gWho.innerHTML='';
   lastOrganic=null; labelFit.items=null;
 
   eras.forEach((e,i)=>{
@@ -126262,10 +126676,11 @@ function render(){
     house.appendChild(el('path',{d:'M-1.2,5 V1.4 H1.2 V5 Z',fill:'var(--parchment)'}));
     g.appendChild(halo); g.appendChild(dot); g.appendChild(focusRing); g.appendChild(house); g.appendChild(lbl);
     if(hasPeople(m))gProfPills.appendChild(whoFigure(m));
-    if(m._placeShown){
-      const r=m._placeOffset, inline=m._placeShown==='inline';
-      const pl=el('text',{class:'pl',x:m._x+(nearRightEdge?r[2]:r[0]),y:m._y+(inline?3.5:16),'text-anchor':nearRightEdge?'end':'start'});
-      pl.textContent=placeLine(m);
+    if(hasStories(m))gStoryMarks.appendChild(storyMark(m));
+    const place=placeLine(m);
+    if(place&&place.toLowerCase()!==(m.shortName||m.name).toLowerCase()){
+      const pl=el('text',{class:'pl',x:m._x,y:m._y,'text-anchor':nearRightEdge?'end':'start'});
+      pl.textContent=place;
       g.appendChild(pl);
     }
     g.addEventListener('mouseenter',(ev)=>{
@@ -126322,6 +126737,8 @@ function render(){
   renderAcross();
   renderCouncils();
   renderWhoPills();
+  renderStoryPills();
+  renderRiverNames();
 
   (DATA.stories||[]).forEach(s=>{
     const g=el('g',{class:'story','data-lane':s.laneOrder,transform:`translate(${s._x.toFixed(1)},${s._y.toFixed(1)})`,
@@ -126483,6 +126900,74 @@ function tipForEdge(edg,a,b){
   return `<div class="n">${edgeHeading(edg,a,b)}</div><div class="m">${esc(edg.type)} · ${esc(edg.confidence)}</div><div class="s">${esc(edg.note.slice(0,140))}${edg.note.length>140?'…':''}</div>`;
 }
 function riverSpan(members){return members.length===1?plainDates(members[0].dates):`${Math.min(...members.map(m=>m.start))}–${Math.max(...members.map(m=>m.end))}`;}
+function riverHeadY(k){
+  if(k===0){let y=0;while(y<CANVAS_H&&!riverSpanAt(0,y,1))y+=STEP;return y;}
+  return branches(k)?laneSettledY(k):laneGenesisY[k]-SPRING_LEAD;
+}
+function riverExplainTip(k,f,members){
+  let h=`<div class="n">${esc(f.name)}</div>`;
+  if(f.common)h+=`<div class="m">${esc(f.common)}</div>`;
+  h+=`<div class="m">${members.length} ${members.length===1?'tradition':'traditions'} · ${esc(riverSpan(members))}</div>`;
+  const o=RIVER_ORIGINS.find(x=>x.lane===k);
+  if(o&&o.parent!=null){
+    if(o.basis==='lineage'){
+      const e=DATA.edges.find(x=>x.id===o.link), a=e&&byId[e.from], b=e&&byId[e.to];
+      if(a&&b)h+=`<div class="x">It grew out of ${esc(famOf(o.parent).name)}: ${esc(a.shortName||a.name)} ${esc(e.type)} ${esc(b.shortName||b.name)}.</div>`;
+    }else if(o.reason)h+=`<div class="x">${esc(o.reason)}</div>`;
+  }
+  return h;
+}
+function renderRiverNames(){
+  gRiverNames.innerHTML='';
+  laneKeys.forEach(k=>{
+    const f=famOf(k), members=churchBodies.filter(m=>m.laneOrder===k).sort((a,b)=>a.start-b.start);
+    if(!members.length)return;
+    const tip=riverExplainTip(k,f,members);
+    const g=el('g',{class:'river-name',tabindex:'0',role:'button','data-lane':k,
+      'aria-label':`${f.name}${f.common?`, ${f.common}`:''}. Opens the river's card.`});
+    const ico=el('g',{class:'rn-ico','aria-hidden':'true'});
+    ico.appendChild(el('path',{d:'M-1,-7 C3,-3 -3,1 1,7',fill:'none',stroke:famColor(f),'stroke-width':3.2,'stroke-linecap':'round'}));
+    g.appendChild(ico);
+    const t=el('text',{class:'rn-name'}); t.textContent=f.name; g.appendChild(t);
+    if(f.common){const c=el('text',{class:'rn-common'}); c.textContent=f.common; g.appendChild(c);}
+    g.addEventListener('mouseenter',ev=>showTip(ev,tip));
+    g.addEventListener('mousemove',ev=>positionTip(ev));
+    g.addEventListener('mouseleave',hideTip);
+    g.addEventListener('focus',()=>{const r=g.getBoundingClientRect();showTipAt(r.left+r.width/2,r.bottom,tip);});
+    g.addEventListener('blur',hideTip);
+    const go=()=>openPanelRiver(f,members);
+    g.addEventListener('click',ev=>{ev.stopPropagation();go();});
+    g.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();ev.stopPropagation();go();}});
+    gRiverNames.appendChild(g);
+  });
+}
+function placeRiverNames(U){
+  const fs=Math.min(Math.max(12,13/scale),17/scale), cs=fs*.8, grid=labelFit.grid, sr=stage.getBoundingClientRect();
+  const eraBoxes=[...gLabels.querySelectorAll('.era-label,.era-tag,.era-info')].map(e=>e.getBoundingClientRect()).filter(r=>r.width);
+  const onEra=b=>{const x0=b.x*scale+tx+sr.left,x1=(b.x+b.width)*scale+tx+sr.left,y0=b.y*scale+ty+sr.top,y1=(b.y+b.height)*scale+ty+sr.top;
+    return eraBoxes.some(r=>r.left<x1&&r.right>x0&&r.top<y1&&r.bottom>y0);};
+  gRiverNames.querySelectorAll('.river-name').forEach(g=>{
+    if(g.classList.contains('is-off'))return;
+    const k=+g.dataset.lane, head=k===0?Math.max(riverHeadY(0),eraY0[0]+22):riverHeadY(k);
+    g.classList.remove('rn-cull');
+    for(let step=0;step<6;step++){
+    const y=head+step*U*.6;
+    const sp=riverSpanAt(k,y+U*.5,1)||riverSpanAt(k,y+U*1.5,1)||[laneCenterX(k,y),laneCenterX(k,y)];
+    let x=sp[1]+U*.45;
+    const pill=[...document.querySelectorAll(`.river-pill[data-lane="${k}"]`)].find(p=>p._at&&p.getClientRects().length&&Math.abs(p._at[1]-y)<U*2.4);
+    if(pill)x=Math.max(x,pill._at[0]+(pill._w||U*2)/2+U*.35);
+    const name=g.querySelector('.rn-name'), common=g.querySelector('.rn-common'), ico=g.querySelector('.rn-ico');
+    ico.setAttribute('transform',`translate(${(x+fs*.35).toFixed(1)},${(y+fs*.55).toFixed(1)}) scale(${(fs/13).toFixed(3)})`);
+    x+=fs*.95;
+    name.setAttribute('x',x.toFixed(1)); name.setAttribute('y',(y+fs*.85).toFixed(1)); name.style.fontSize=fs+'px'; name.style.strokeWidth=(3*fs/13)+'px';
+    if(common){common.setAttribute('x',x.toFixed(1)); common.setAttribute('y',(y+fs*.85+cs*1.25).toFixed(1)); common.style.fontSize=cs+'px'; common.style.strokeWidth=(3*cs/13)+'px';}
+    const b=g.getBBox(), r={id:'rn'+k,x0:b.x-2,x1:b.x+b.width+2,y0:b.y-1,y1:b.y+b.height+1};
+    if((grid&&grid.hits(r))||onEra(b)){if(step===5)g.classList.add('rn-cull');continue;}
+    if(grid)grid.add(r);
+    break;
+    }
+  });
+}
 function tipForRiver(f,count,span){
   return `<div class="n">${esc(f.name)}</div><div class="m">${count} ${count===1?'tradition':'traditions'} · ${esc(span)}</div>`;
 }
@@ -126882,12 +127367,26 @@ function openPanelEdge(edg,a,b){
   showPanel(`connection/${edg.id}`);
   syncWorldURL(null);
 }
+function riverOriginHTML(k){
+  const o=RIVER_ORIGINS.find(x=>x.lane===k);
+  if(!o||o.parent==null)return '';
+  const parent=famOf(o.parent).name;
+  if(o.basis==='lineage'){
+    const e=DATA.edges.find(x=>x.id===o.link), a=e&&byId[e.from], b=e&&byId[e.to];
+    if(!a||!b)return '';
+    return `<h3>Where it began</h3><p>It grew out of ${esc(parent)}: <button type="button" class="panel-link" data-id="${esc(a.id)}">${esc(a.shortName||a.name)}</button> ${esc(e.type)} <button type="button" class="panel-link" data-id="${esc(b.id)}">${esc(b.shortName||b.name)}</button>.</p><p class="meta">${esc(e.confidence)}</p>`;
+  }
+  const works=(o.sources||[]).map(x=>x.work).filter(Boolean);
+  return `<h3>Where it began</h3><p>${esc(o.reason)}</p><p class="meta">Grew from ${esc(parent)} · ${esc(o.confidence)}</p>`
+    +(works.length?`<p class="meta">Sources: ${works.map(esc).join('; ')}</p>`:'');
+}
 function openPanelRiver(f,members){
   hideTip();
   const k=members[0].laneOrder;
   let h=`<h2 id="panelTitle">${esc(f.name)}</h2>`;
   if(f.common)h+=`<p class="meta formal">${esc(f.common)}</p>`;
   h+=`<p class="meta">${members.length} ${members.length===1?'tradition':'traditions'} · ${esc(riverSpan(members))}</p>`;
+  h+=riverOriginHTML(k);
   const eraIdx=new Set();
   members.forEach(m=>{const a=eraOfYear(m.start), b=Math.max(a,eraOfYear(m.end-1)); for(let i=a;i<=b;i++)eraIdx.add(i);});
   const eraNums=[...eraIdx].map(i=>eras[i].num);
@@ -126977,7 +127476,9 @@ let lastFocused=null;
 function showPanel(page){
   hideListenBar();
   hideTip();
+  panel.scrollTop=0;
   lastFocused=document.activeElement;
+  if(!panelBody.querySelector('.grow-line'))panelBody.insertAdjacentHTML('beforeend','<p class="grow-line">This map is free to use. If it helps you, <a href="support.html">help it grow</a>.</p>');
   if(window.PageFeedback)window.PageFeedback.mount(panelBody,page);
   panel.classList.add('open');
   panel.removeAttribute('inert');
@@ -127107,6 +127608,8 @@ function buildLegend(){
     [sv('<circle r="2.2" fill="var(--graphite)"/>'),'A tradition, zoomed out','Zoom in and its name appears.'],
     [sv(`<g fill="var(--iron-gall)">${fig}</g>`),'People of a tradition',`${coarsePointer?'Tap':'Click'} to see who they were.`],
     [sv(`<rect x="-12" y="-6" width="24" height="12" rx="6" fill="none" stroke="#cf8a3a" stroke-width="1.2"/><g fill="var(--iron-gall)" transform="translate(-5 0) scale(.8)">${fig}</g><text x="1" y="3.2" font-size="8" font-weight="700" fill="var(--iron-gall)" font-family="Alegreya Sans,sans-serif">26</text>`,'-13 -7 26 14'),'People of a river','The people the map lists for that river in that era, with the count.'],
+    [sv(`<g fill="var(--iron-gall)" transform="scale(.62)"><path d="M0,-4.2 C-2.6,-5.4 -5.2,-5.1 -6.8,-4.6 V3.8 C-5.2,3.3 -2.6,3.6 0,4.8 C2.6,3.6 5.2,3.3 6.8,3.8 V-4.6 C5.2,-5.1 2.6,-5.4 0,-4.2 Z M0,-4.2 V4.8"/></g>`),'Stories of a tradition',`${coarsePointer?'Tap':'Click'} to list the stories in its card.`],
+    [sv(`<rect x="-12" y="-6" width="24" height="12" rx="6" fill="none" stroke="#cf8a3a" stroke-width="1.2"/><g fill="var(--iron-gall)" transform="translate(-5 0) scale(.5)"><path d="M0,-4.2 C-2.6,-5.4 -5.2,-5.1 -6.8,-4.6 V3.8 C-5.2,3.3 -2.6,3.6 0,4.8 C2.6,3.6 5.2,3.3 6.8,3.8 V-4.6 C5.2,-5.1 2.6,-5.4 0,-4.2 Z M0,-4.2 V4.8"/></g><text x="1" y="3.2" font-size="8" font-weight="700" fill="var(--iron-gall)" font-family="Alegreya Sans,sans-serif">14</text>`,'-13 -7 26 14'),'Stories of a river','The stories told for that river in that era, with the count. Turning Stories on turns People off, and the other way round.'],
     [sv('<path d="M0,-4.2 C-2.6,-5.4 -5.2,-5.1 -6.8,-4.6 V3.8 C-5.2,3.3 -2.6,3.6 0,4.8 C2.6,3.6 5.2,3.3 6.8,3.8 V-4.6 C5.2,-5.1 2.6,-5.4 0,-4.2 Z M0,-4.2 V4.8" fill="var(--tyrian)" stroke="var(--vellum)" stroke-width=".4"/>','-8 -7 16 14'),'A story','Something that happened, told from the sources.'],
     [sv('<circle r="5.6" fill="none" stroke="var(--iron-gall)" stroke-width="1.3"/><circle cy="-2.4" r="1.1" fill="var(--iron-gall)"/><circle cx="-2.2" cy="1.7" r="1.1" fill="var(--iron-gall)"/><circle cx="2.2" cy="1.7" r="1.1" fill="var(--iron-gall)"/>'),'A major council','A meeting that touched more than one tradition.'],
     [sv('<circle r="5.6" fill="none" stroke="var(--gold-leaf)" stroke-width="1.3"/><path d="M0,-.6 V3.2" stroke="var(--gold-leaf)" stroke-width="1.5" stroke-linecap="round"/><circle cy="-2.9" r=".9" fill="var(--gold-leaf)"/>'),'About an era','Opens that era\'s card.'],
@@ -127123,9 +127626,12 @@ function buildLegend(){
   if((DATA.stories||[]).length)bar+=layer('stories','Stories');
   bar+=layer('councils','Councils')+group('links','links','Connections',links)+group('key','key','Key',key,' aria-label="Key: what the marks mean"');
   wrap.innerHTML=`<button type="button" class="chip who-chip" id="who-chip" hidden><span class="who-chip-label"></span><span aria-hidden="true">&times;</span></button>`+bar;
-  document.getElementById('who-chip').addEventListener('click',ev=>{ev.stopPropagation();clearWho();});
+  document.getElementById('who-chip').addEventListener('click',ev=>{ev.stopPropagation();if(storyScope)clearStories();else clearWho();});
   const hidden=new Set();
-  try{const saved=localStorage.getItem('tree-hidden');if(saved!==null)JSON.parse(saved).filter(k=>/^(lane:|stories$|people$|councils$)/.test(k)).forEach(k=>hidden.add(k));}catch(e){}
+  let savedView=false;
+  try{const saved=localStorage.getItem('tree-hidden');if(saved!==null){savedView=true;JSON.parse(saved).filter(k=>/^(lane:|stories$|people$|councils$)/.test(k)).forEach(k=>hidden.add(k));}}catch(e){}
+  if(!savedView){hidden.add('people');hidden.add('stories');}
+  if(!hidden.has('people')&&!hidden.has('stories'))hidden.add('stories');
   try{const m=localStorage.getItem('tree-links');if(LINK_MODES.includes(m))linkMode=m;}catch(e){}
   try{const saved=localStorage.getItem('tree-kinds-off');if(saved!==null)JSON.parse(saved).filter(k=>k in LINK_FAMILY_LABEL).forEach(k=>kindsOff.add(k));}catch(e){}
   const save=()=>{try{localStorage.setItem('tree-hidden',JSON.stringify([...hidden]));localStorage.setItem('tree-links',linkMode);localStorage.setItem('tree-kinds-off',JSON.stringify([...kindsOff]));}catch(e){}};
@@ -127137,12 +127643,13 @@ function buildLegend(){
     document.querySelectorAll('.edge-line,.edge-hit').forEach(p=>{
       p.classList.toggle('is-off',mode==='off'||kindsOff.has(p.dataset.family)||(p.dataset.lanes||'').split('|').some(laneOff)||(mode==='major'&&p.dataset.major!=='1'));
     });
-    document.querySelectorAll('.river-group,.node,.story,.river-pill,.prof-pill').forEach(g=>g.classList.toggle('is-off',laneOff(g.dataset.lane)));
+    document.querySelectorAll('.river-group,.node,.story,.river-pill,.prof-pill,.river-name').forEach(g=>g.classList.toggle('is-off',laneOff(g.dataset.lane)));
     gAcross.querySelectorAll('.across').forEach(g=>{const ls=acrossLanes[g.dataset.id]||new Set();g.classList.toggle('across-out',!!ls.size&&![...ls].some(k=>!laneOff(k)));});
     document.querySelectorAll('.tie').forEach(p=>p.classList.toggle('is-off',(p.dataset.lanes||'').split('|').filter(Boolean).some(laneOff)));
     document.querySelectorAll('.continues').forEach(g=>g.classList.toggle('is-off',g.dataset.lanes.split('|').some(laneOff)));
     gStories.classList.toggle('is-off',hidden.has('stories'));
     svg.classList.toggle('no-people',hidden.has('people'));
+    svg.classList.toggle('no-stories',hidden.has('stories'));
     svg.classList.toggle('no-councils',hidden.has('councils'));
     wrap.querySelectorAll('button[data-toggle]').forEach(b=>{
       const k=b.dataset.toggle, on=k==='lanes-all'?laneButtons.some(x=>!hidden.has(x.dataset.toggle)):!hidden.has(k);
@@ -127161,12 +127668,17 @@ function buildLegend(){
       const anyOn=laneButtons.some(x=>!hidden.has(x.dataset.toggle));
       laneButtons.forEach(x=>anyOn?hidden.add(x.dataset.toggle):hidden.delete(x.dataset.toggle));
     }else if(hidden.has(k))hidden.delete(k);else hidden.add(k);
-    if(k==='people'&&hidden.has(k)&&whoScope)clearWho();
+    const pair={people:'stories',stories:'people'}[k], flipped=pair&&!hidden.has(k)&&!hidden.has(pair);
+    if(flipped)hidden.add(pair);
+    if(hidden.has('people')&&whoScope)clearWho();
+    if(hidden.has('stories')&&storyScope)clearStories();
+    if(storyScope&&storyScope.type==='river'&&hidden.has(`lane:${storyScope.lane}`))clearStories();
     if(whoScope&&hidden.has(`lane:${whoScope.type==='trad'?whoScope.m.laneOrder:whoScope.lane}`))clearWho();
     save(); applyToggles(); queueAutoWho();
     const on=k==='lanes-all'?laneButtons.some(x=>!hidden.has(x.dataset.toggle)):!hidden.has(k);
     if(k==='lanes-all')announce(on?`All ${laneButtons.length} rivers in full.`:'All rivers faint.');
     else if(k.startsWith('lane:'))announce(`${label(b)} ${on?'in full':'faint'}. ${riverCount()}`);
+    else if(flipped){const o=wrap.querySelector(`button[data-toggle="${pair}"]`);announce(`${label(b)} showing. ${label(o)} hidden.`);toast(`${label(b)}: on · ${label(o)}: off`);}
     else{announce(`${label(b)} ${on?'showing':'hidden'}.`);toast(`${label(b)}: ${on?'on':'off'}`);}
   }));
   wrap.querySelectorAll('.conn-seg [data-mode]').forEach(b=>b.addEventListener('click',ev=>{
@@ -127388,17 +127900,26 @@ function labelFitRun(){
       it.box=clash?null:r;
       if(!clash&&!lit.has(it.id))grid.add(r);
     });
-    if(scale>=Z_PLACE)items.forEach(it=>{
-      if(!it.box||it.g.classList.contains('auto-own'))return;
-      const pl=it.g.querySelector('.pl'); if(!pl)return;
-      const b=pl.getBBox(); if(b.width)grid.add({id:'pl'+it.id,x0:b.x,x1:b.x+b.width,y0:b.y,y1:b.y+b.height});
-    });
+    if(scale>=Z_PLACE){
+      const pfs=Math.min(10,13/scale);
+      items.forEach(it=>{
+        const pl=it.pl===undefined?(it.pl=it.g.querySelector('.pl')):it.pl; if(!pl)return;
+        if(!it.box||it.g.classList.contains('auto-own')){pl.classList.add('pl-cull');return;}
+        if(!it.plW){it.plW=pl.getComputedTextLength()/(parseFloat(getComputedStyle(pl).fontSize)||pfs);}
+        const w=it.plW*pfs, y=it.y+fs*labelFit.desc+pfs*0.95, x0=it.end?it.x-w:it.x;
+        pl.setAttribute('x',it.x.toFixed(2)); pl.setAttribute('y',y.toFixed(2));
+        const r={id:'pl'+it.id,x0:x0-2,x1:x0+w+2,y0:y-pfs*0.95,y1:y+pfs*0.3};
+        const clash=grid.hits(r);
+        pl.classList.toggle('pl-cull',clash);
+        if(!clash)grid.add(r);
+      });
+    }
   }
   placeWhoMarks();
   keepMapFocus(held);
 }
 function scheduleLabelFit(){if(labelFit.queued)return;labelFit.queued=true;requestAnimationFrame(labelFitRun);}
-if(document.fonts&&document.fonts.addEventListener)document.fonts.addEventListener('loadingdone',()=>{if(labelFit.items)labelFit.items.forEach(it=>{it.w=0;});labelFit.asc=0;scheduleLabelFit();});
+if(document.fonts&&document.fonts.addEventListener)document.fonts.addEventListener('loadingdone',()=>{if(labelFit.items)labelFit.items.forEach(it=>{it.w=0;it.plW=0;});labelFit.asc=0;scheduleLabelFit();});
 let lastScale=null, whoRaf=0;
 function focusedMapItem(){const a=document.activeElement;return a&&a!==svg&&svg.contains(a)?a.closest(MAP_ITEM):null;}
 function keepMapFocus(held){
@@ -127826,6 +128347,10 @@ function tourClearBox(x0,y0,x1,y1){
   if(x0-gap-w>=8)tourBox.style.left=x0-gap-w/2+'px';
   else if(x1+gap+w<=window.innerWidth-8)tourBox.style.left=x1+gap+w/2+'px';
 }
+function tourLayer(name,on){
+  const b=document.querySelector(`.feature-bar button[data-toggle="${name}"]`);
+  if(b&&(b.getAttribute('aria-pressed')==='true')!==on)b.click();
+}
 function tourClick(el){if(el)el.dispatchEvent(new MouseEvent('click',{bubbles:true}));}
 function tourCloseMenus(){document.body.click();}
 function tourGlow(els){document.querySelectorAll('.tour-glow').forEach(e=>e.classList.remove('tour-glow'));(els||[]).forEach(e=>e&&e.classList.add('tour-glow'));}
@@ -127855,7 +128380,7 @@ const TOURS={
      enter:async ok=>{tourBase();await tourFrameEra();if(!ok())return;
        const n=gNodes.querySelector(`.node[data-id="${CSS.escape(tourTrad().id)}"]`);tourPoint(n);await tourWait(700);if(!ok())return;tourClick(n);}},
     {title:'Who was there',text:'A figure on a river stands for its people in that era. Open it to see who they were.',
-     enter:async ok=>{tourBase();await tourFrameEra();if(!ok())return;
+     enter:async ok=>{tourBase();tourLayer('people',true);await tourFrameEra();if(!ok())return;
        const pill=gWhoPills.querySelector('.river-pill[data-who="r:0:0"]');tourPoint(pill);await tourWait(700);if(!ok())return;tourClick(pill);
        await tourWait(500);if(!ok())return;
        const a=whoPick&&whoPick.all.find(a=>(a.P.entry?a.P.entry.name:a.P.name)==='Josephus');
@@ -127909,7 +128434,7 @@ function startTour(kind){
   if(tour.on)endTour();
   stopNarration(); hideListenBar();
   tour.opener=document.activeElement;
-  tour.saved={tx,ty,scale,who:whoScope,conn:connFocus};
+  tour.saved={tx,ty,scale,who:whoScope,conn:connFocus,people:!svg.classList.contains('no-people'),stories:!svg.classList.contains('no-stories')};
   tour.on=kind; tour.ownConn=false;
   if(kind==='conn'&&effectiveLinkMode()==='off'&&!connFocus){tour.ownConn=true;showConnections(tourTrad());}
   if(!tour.raf)tour.raf=requestAnimationFrame(tourTrack);
@@ -127925,6 +128450,7 @@ function endTour(){
   tourCloseMenus(); tourGlow(null);
   if(kind==='conn'&&own)clearConnections();
   if(sv){
+    if(sv.stories)tourLayer('stories',true);else if(!sv.people)tourLayer('people',false);
     if(sv.who&&!sv.conn)setWho(sv.who,{on:true});
     if(sv.conn&&!(kind==='conn'&&own)&&connFocus!==sv.conn)showConnections(sv.conn);
     tx=sv.tx;ty=sv.ty;scale=sv.scale;applyTransform();applyDetail();
@@ -127983,6 +128509,39 @@ document.addEventListener('click',ev=>{
   ev.preventDefault(); ev.stopPropagation(); tourCloseMenus(); startTour(b.dataset.tour);
 },true);
 if(!location.search)setTimeout(()=>{if(!panel.classList.contains('open')&&!whoScope)tourOffer('intro');},1200);
+const GROW_KEY='cft-grow-ask', GROW_FIRST=600, GROW_AGAIN=7200;
+const growAsk=document.getElementById('growAsk');
+const growLoad=()=>{try{const v=JSON.parse(localStorage.getItem(GROW_KEY)||'null');if(v&&typeof v.active==='number')return v;}catch(e){}return {active:0,next:GROW_FIRST,helped:false};};
+const growSave=v=>{try{localStorage.setItem(GROW_KEY,JSON.stringify(v));}catch(e){}};
+const grow=growLoad();
+let growTimer=0;
+function growBusy(){return !!(tour.on||tour.offer)||[...document.querySelectorAll('audio')].some(a=>!a.paused);}
+function placeGrowAsk(){
+  const narrow=narrowScreen();
+  growAsk.style.setProperty('--grow-lift',(narrow?barHeight()+(tray.hidden||panel.classList.contains('open')?0:tray.offsetHeight):0)+'px');
+  growAsk.style.setProperty('--grow-right',(!narrow&&panel.classList.contains('open')?panel.offsetWidth:0)+'px');
+}
+function showGrowAsk(){placeGrowAsk();growAsk.hidden=false;}
+function hideGrowAsk(helped){
+  growAsk.hidden=true;
+  if(helped){grow.helped=true;clearInterval(growTimer);}
+  else grow.next=grow.active+GROW_AGAIN;
+  growSave(grow);
+}
+if(!grow.helped)growTimer=setInterval(()=>{
+  if(document.visibilityState!=='visible'||!document.hasFocus())return;
+  grow.active+=5; growSave(grow);
+  if(growAsk.hidden&&grow.active>=grow.next&&!growBusy())showGrowAsk();
+},5000);
+growAsk.addEventListener('click',ev=>{
+  ev.stopPropagation();
+  if(ev.target.closest('.ga-help'))hideGrowAsk(true);
+  else if(ev.target.closest('.ga-later,.ga-x'))hideGrowAsk(false);
+});
+growAsk.addEventListener('keydown',ev=>{if(ev.key==='Escape'){ev.preventDefault();hideGrowAsk(false);}});
+['pointerdown','wheel','touchstart'].forEach(t=>growAsk.addEventListener(t,ev=>ev.stopPropagation(),{passive:true}));
+window.addEventListener('resize',()=>{if(!growAsk.hidden)placeGrowAsk();});
+
 
 render();
 buildLegend();
