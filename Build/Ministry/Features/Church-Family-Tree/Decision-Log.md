@@ -4876,5 +4876,5 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 **Decided (Mark, 2026-11-20: "maybe we dont put it in the launch and we find a way for anyone who spends more than 10 minute we have a popup windo asking to help us grow"; then "Gentle note, once").**
 - The launch posts carry no request for money.
 - After ten minutes of active use (the page visible and in front of the visitor), a small note slides up in the corner, not blocking the map: "Glad you're exploring. If the map is useful to you, you can help it grow.", with "Help us grow" (the support page) and "Not now". It never appears during the tour, while the tour offer shows, or while any audio plays; it waits until they end.
-- Session defaults, open to change: after "Not now" or the close button it stays away for 30 days; after "Help us grow" it does not ask that visitor again. Remembered in the visitor's own browser.
+- After "Not now" or the close button it comes back after another two hours of active use on the site, counted across visits (Mark, 2026-11-20: "no not 30 days, if we say not now, then maybe 2 hours on the site"). After "Help us grow" it does not ask that visitor again. Remembered in the visitor's own browser.
 - Wording follows the support page: "support", never "donate", since payments to Faithways Studio are not charitable donations.

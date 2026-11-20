@@ -128507,24 +128507,29 @@ document.addEventListener('click',ev=>{
   ev.preventDefault(); ev.stopPropagation(); tourCloseMenus(); startTour(b.dataset.tour);
 },true);
 if(!location.search)setTimeout(()=>{if(!panel.classList.contains('open')&&!whoScope)tourOffer('intro');},1200);
-const GROW_KEY='cft-grow-ask', GROW_AFTER=600, GROW_SNOOZE=30*864e5;
+const GROW_KEY='cft-grow-ask', GROW_FIRST=600, GROW_AGAIN=7200;
 const growAsk=document.getElementById('growAsk');
-const growState=()=>{try{return JSON.parse(localStorage.getItem(GROW_KEY)||'null');}catch(e){return null;}};
+const growLoad=()=>{try{const v=JSON.parse(localStorage.getItem(GROW_KEY)||'null');if(v&&typeof v.active==='number')return v;}catch(e){}return {active:0,next:GROW_FIRST,helped:false};};
 const growSave=v=>{try{localStorage.setItem(GROW_KEY,JSON.stringify(v));}catch(e){}};
-function growDue(){const st=growState();if(!st)return true;if(st.helped)return false;return Date.now()-(st.snoozed||0)>GROW_SNOOZE;}
-let growSeconds=0, growTimer=0;
+const grow=growLoad();
+let growTimer=0;
 function growBusy(){return !!(tour.on||tour.offer)||[...document.querySelectorAll('audio')].some(a=>!a.paused);}
 function placeGrowAsk(){
   const narrow=narrowScreen();
   growAsk.style.setProperty('--grow-lift',(narrow?barHeight()+(tray.hidden||panel.classList.contains('open')?0:tray.offsetHeight):0)+'px');
   growAsk.style.setProperty('--grow-right',(!narrow&&panel.classList.contains('open')?panel.offsetWidth:0)+'px');
 }
-function showGrowAsk(){placeGrowAsk();growAsk.hidden=false;clearInterval(growTimer);}
-function hideGrowAsk(helped){growAsk.hidden=true;growSave(helped?{helped:Date.now()}:{snoozed:Date.now()});}
-if(growDue())growTimer=setInterval(()=>{
+function showGrowAsk(){placeGrowAsk();growAsk.hidden=false;}
+function hideGrowAsk(helped){
+  growAsk.hidden=true;
+  if(helped){grow.helped=true;clearInterval(growTimer);}
+  else grow.next=grow.active+GROW_AGAIN;
+  growSave(grow);
+}
+if(!grow.helped)growTimer=setInterval(()=>{
   if(document.visibilityState!=='visible'||!document.hasFocus())return;
-  growSeconds+=5;
-  if(growSeconds>=GROW_AFTER&&!growBusy())showGrowAsk();
+  grow.active+=5; growSave(grow);
+  if(growAsk.hidden&&grow.active>=grow.next&&!growBusy())showGrowAsk();
 },5000);
 growAsk.addEventListener('click',ev=>{
   ev.stopPropagation();
