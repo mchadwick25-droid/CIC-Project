@@ -1,0 +1,50 @@
+{
+ "post-apostolic-house-church": {
+  "legacy": {
+   "file": "post-apostolic-house-church/legacy.mp3",
+   "chars": 1101,
+   "voiceId": "onwK4e9ZLuTAKqWW03F9",
+   "model": "eleven_multilingual_v2",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.95,
+    "similarity_boost": 0.68,
+    "style": 0,
+    "use_speaker_boost": true
+   },
+   "text": "The question of who held authority in the churches did not stay open forever. By around 200 CE, one bishop had become the common pattern almost everywhere, including in Rome. Rome had once been led by a council of elders. No text says how or when that change was actually felt. All that can be seen is that the older way quietly dropped out of the argument.\n\nThe texts of these churches did not survive evenly. Ignatius argued for the single bishop, and it took a two-century scholarly fight to settle which of his letters were genuine. Some scholars still doubt them. First Clement was copied into a great Bible manuscript. The Shepherd of Hermas was once read as scripture by three major later teachers, but it was later moved to the shelf newcomers were given to read. That was a real demotion, though not the outright ban later memory sometimes assumes. The Didache, a teaching manual from one of these communities, disappeared from use for roughly eighteen centuries. What survived best was not always what mattered most at the time. It may have been what a later settlement found useful to keep."
+  },
+  "_pieces": [
+   "story",
+   "docstory-pahc.story.nero-scapegoating",
+   "docstory-pahc.story.didache-eucharist",
+   "docstory-pahc.story.grandsons-before-domitian",
+   "docstory-pahc.story.first-clement-corinthian-dispute",
+   "docstory-pahc.story.ignatius-guarded-journey",
+   "docstory-pahc.story.polycarp-forwards-letters",
+   "docstory-pahc.story.pliny-interrogation",
+   "docstory-pahc.story.justin-sunday-gathering",
+   "docstory-pahc.story.quintus-recantation",
+   "docstory-pahc.story.martyrdom-of-polycarp",
+   "legacy"
+  ],
+  "docstory-pahc.story.polycarp-forwards-letters": {
+   "file": "post-apostolic-house-church/docstory-pahc.story.polycarp-forwards-letters.mp3",
+   "chars": 705,
+   "voiceId": "onegjDE2z0mQtp1g0HK7",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.95,
+    "similarity_boost": 0.68,
+    "style": 0,
+    "use_speaker_boost": true
+   },
+   "text": "The Philippians asked for the letters of Ignatius, which the community at Smyrna had collected. Polycarp of Smyrna answered their request in a letter of his own to the church at Philippi.\n\nThe date of the letter is not certain, and it may be two letters joined into one. Polycarp opens it in his own name and that of the presbyters who are with him. He never calls himself bishop, though Ignatius writes to him as one, and Smyrna's letter on his death calls him its bishop.\n\nHe writes that he has sent the letters Ignatius wrote to Smyrna, along with all the others they had, just as the Philippians asked. The letters went with his own, and he told the Philippians they could gain a great deal from them."
+  }
+ }
+}
