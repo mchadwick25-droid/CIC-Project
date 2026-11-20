@@ -38,3 +38,19 @@ Source: `Recheck.md` (batch 7, 2026-11-20). Each FIX applied with its replacemen
 - Section 3, E8's Book VI slip (`Source_Sheet.md` line 61): the Book V and Book VI entries replaced as given. Applied.
 
 NOT APPLIED: none.
+
+## Length cuts (Mark, 2026-11-20)
+
+Ruling: "Batch 7: lengths held to four minutes, four and a half at most". The check counted about 875 to 900 words; the outline now counts about 615 (about 4:05). The Length field (Outline, Length) is rewritten with the part-by-part count. Each cut below went to the new "For the card, not the story" section at the end of `Outline.md`, with its source line.
+
+- Beat 1: the *Banquet* and the verse journey; Arnobius by name (now "a rhetorician in Africa"); his words on training young men "to cunning wickedness" and "never been eloquent".
+- Beat 2: the man who tore down the edict (with Eusebius's matching account); the governor's joy (standing cut). The fire's three causes kept, one clause each.
+- Beat 3: the philosopher's three books and the judge's two books "to" the Christians (the two men themselves kept, the philosopher's hypocrisy in eight words, as Also told has it); "the learned mocked him" of Cyprian. Q1 trimmed to its middle sentence; its first sentence narrated, its last sentence moved to the card.
+- Beat 4: "words rather than by blows"; the *Workmanship* opening (standing cut); the address to Constantine and its dispute (D4). The dispute is not told, so nothing goes uncredited; the Do not say item stays.
+- Beat 5: Donatus freed; "ten years and about four months" (standing cut); Constantine's dream (the sibling's).
+- Beat 6: "that friend" becomes "a friend tortured nine times", since Donatus is no longer introduced in beat 5.
+- What came 1: the later list under a pope's name and Calvin (standing cuts); the Middle Ages and the Renaissance. Calvin removed from Names.
+- What came 2: Eusebius's Greek of Milan; Galerius's edict narrowed to Milan, kept as "a modern editor notes".
+
+Kept uncut: the essence and also told, the opening, the three causes of the fire, the killings, Q2, the children, the authorship said once, Crispus, Jerome's praise and charge, Augustine, "exact and partisan", Q3.
+- Leave out: "the governor's joy" removed from its closing list of force kept in the story, since it is now on the card.
