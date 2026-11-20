@@ -4898,3 +4898,9 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 - Depth: "change the voice, and link the prose". Content and order kept; first person and emic hedges become the narrator's third person and plain doubt at the same strength; short runs joined with cause, contrast and time where the original supports it; only what fails the kit's blocking bar is fixed.
 - Faults already in a world's text: corrected in the tree text to what the record's sources and confidence hold, each correction independently checked, and each logged in that world's `Open_Gaps_Tracking.md` for its record owner.
 - The post-apostolic house church ran first as a pilot, through rewrite, review, one revision and a targeted recheck, before the other ten worlds.
+
+## 2026-11-20 — The narrator calls the Donatists' opponents "Caecilian's church"
+
+**Why.** The Donatist world tells the North African split from the Donatists' side, naming the other church "the rival church" or "the other side". Both churches called themselves the Catholic church until an imperial ruling gave the name to one side, and "Caecilianist" was the Donatists' own label. The tree's narrator has to name that church without taking a side (Kit Part 1, Rigor).
+
+**Decided (Mark, 2026-11-20).** Option A of three ("Caecilian's church", "the Catholic church", "the Catholic party"): the narrator says "Caecilian's church", named for its first bishop as "the party of Donatus" is named for his. Its first mention in a piece says once that it came to be called the Catholic church. Polemic labels ("Caecilianist", "traditor", "persecution") stay credited to whoever used them.
