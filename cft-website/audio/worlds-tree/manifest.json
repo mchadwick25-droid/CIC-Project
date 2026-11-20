@@ -1819,5 +1819,302 @@
    },
    "text": "His students wrote down what Luther said one day at table about patience. \"I must have patience with the Pope,\" he told them. He went on to heretics and seducers, to the roaring courtiers, and to his own servants. \"I must have patience with Kate my wife; to conclude, the patiences are so many, that my whole life is nothing but patience.\"\n\nIn another conversation, Luther told how his wife had been sick, and how he had prayed for her to recover. He believed God answered that prayer, and gave the household a good farm and a fruitful year besides.\n\nAt that time, Katharina herself is remembered asking him a question. She asked why, under the Pope, people prayed so often and so hard, while their own household was cold and careless in prayer.\n\nLuther answered, as his students recorded it, that the devil drives his own servants on continually. They are diligent in their false worship, he said, while his own side is ice cold and negligent in prayer."
   }
+ },
+ "syriac-edessa-nisibis": {
+  "story": {
+   "file": "syriac-edessa-nisibis/story.mp3",
+   "chars": 3777,
+   "voiceId": "onwK4e9ZLuTAKqWW03F9",
+   "model": "eleven_multilingual_v2",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.95,
+    "similarity_boost": 0.68,
+    "style": 0,
+    "use_speaker_boost": true
+   },
+   "text": "From about 200 to 410 CE, Syriac-speaking Christians lived on the frontier between the Roman and Persian empires. Edessa lay under Roman rule, though its people spoke Aramaic, and Nisibis was a Roman fortress city from 298 until Rome gave it up to Persia in 363. Aphrahat wrote his letters from inside Persia. The city chronicle of Edessa holds the earliest trace of a church there. Written about 340 years later, it says a flood in about 201 destroyed a church building, though scholars dispute whether that line is original.\n\nThese Christians taught through song and symbol. Ephrem, a deacon, wrote teaching hymns called madrashe, and each had a refrain, so a congregation learned the faith by singing it. He read Scripture and the world through the raza, a symbol bound to the truth it shows. In this reading, Eden answers the cross, and the Jordan answers the font of baptism. In his Pearl hymns, he reads a whole theology out of one pearl, and the first hymn begins, \"One day, my brothers, I picked up a pearl.\"\n\nThese churches heard the Gospel as one continuous story. Around 172, a man named Tatian wove Matthew, Mark, Luke and John into a single harmony, which Aphrahat quotes and Ephrem explained in a commentary.\n\nAt the core of the vowed life of these churches stood the covenant, called the qyama. Its members were men and women who promised to stay unmarried for life and to serve the congregation, and they lived in town among their own families. The earliest dated witness is Aphrahat's sixth Demonstration, from 337, which speaks to an order already in place. Members were also called ihidaye, a word that means single ones and is also the Syriac title for Christ, the Only-Begotten. Later accounts say that women of the covenant sang Ephrem's hymns in choirs.\n\nWho held authority was never settled in these years. Bishops led their churches, but the vowed men and women of the covenant had a standing of their own, and a trusted teacher also carried weight. Aphrahat drafted a letter for a meeting of bishops and clergy, though whether he was a bishop is unknown. In Persia, Papa, bishop of the royal city of Seleucia-Ctesiphon, claimed to lead all the bishops. According to later chronicles, other bishops fiercely contested his claim around 315.\n\nEphrem also defined the faith by answering rivals who preached in the same cities and the same language. Bardaisan was a thinker at the court of the king of Edessa, and his following lasted for two centuries after his death. Marcion rejected the Maker of the world, and his followers lived in the same region. Mani started a new religion in the third century. Ephrem answered all three by name, in prose and in hymns, and he treated them as one kind of deception, though their systems were different.\n\nOn the Persian side, faith meant endurance under a hostile crown. In the 340s, King Shapur II turned on his Christian subjects. Sozomen, a church historian of the 400s, says Shapur first taxed them heavily and then had their priests killed. Simeon bar Sabbae, bishop of Seleucia-Ctesiphon, was accused of siding with Rome, and he refused to worship the sun and was executed with his clergy. Tradition dates his death to 341, though some scholars argue for about 344. Bishop after bishop was killed, and after Barba'shmin, a later bishop, was killed, the church's chief seat in Persia stayed empty for about twenty years. Roman Edessa was largely free of this persecution.\n\nAround 400, Marutha, a bishop in Roman Mesopotamia, went to the Persian court as the Roman emperor's envoy. His access to King Yazdegerd I helped win royal permission for the synod of 410. That year the Persian state recognized the church, and the synod set it in order as one body, with provinces under Isaac, bishop of the royal city."
+  },
+  "_pieces": [
+   "story",
+   "docstory-syr.story.abgar-addai-legend",
+   "docstory-syr.story.edessa-flood-201",
+   "docstory-syr.story.jacob-nicaea",
+   "docstory-syr.story.ephrem-roll-and-vine",
+   "docstory-syr.story.qyama-morning",
+   "docstory-syr.story.jacob-deliverance",
+   "docstory-syr.story.simeon-martyrdom",
+   "docstory-syr.story.basil-legend",
+   "docstory-syr.story.choirs-tradition",
+   "docstory-syr.story.ephrem-famine-death",
+   "legacy"
+  ],
+  "legacy": {
+   "file": "syriac-edessa-nisibis/legacy.mp3",
+   "chars": 450,
+   "voiceId": "onwK4e9ZLuTAKqWW03F9",
+   "model": "eleven_multilingual_v2",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.95,
+    "similarity_boost": 0.68,
+    "style": 0,
+    "use_speaker_boost": true
+   },
+   "text": "The woven Gospel of these churches did not last forever. Within a generation after 410, a new translation split the four Gospels apart again. Tradition credits Bishop Rabbula of Edessa with the change, but the sources leave open how much of it was really his doing. Once the harmony stopped being copied, its original Syriac text did not survive. It is known today only through fragments, quotations, and translations made from it in other languages."
+  },
+  "docstory-syr.story.abgar-addai-legend": {
+   "file": "syriac-edessa-nisibis/docstory-syr.story.abgar-addai-legend.mp3",
+   "chars": 1373,
+   "voiceId": "onegjDE2z0mQtp1g0HK7",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.95,
+    "similarity_boost": 0.68,
+    "style": 0,
+    "use_speaker_boost": true
+   },
+   "text": "This is the story the Syriac-speaking church of Edessa told of its own beginning.\n\nKing Abgar of Edessa was sick when his envoys came home from Jerusalem with news of what Jesus was doing. The king wrote Jesus a letter, saying that he had heard Jesus healed without medicines or herbs and opened the eyes of the blind by his word.\n\nAbgar called Jesus either God come down from heaven or the Son of God, and he asked him to come and heal him. He had also heard that some were seeking Jesus' life, so he offered to share his own small and beautiful city with him.\n\nJesus answered, the story says, that the work he was sent for was now finished and he was going up to his Father. After that he would send one of his disciples to heal the king, and the city would be blessed.\n\nAfter the ascension, Addai came. He was one of the seventy-two, and he stayed with a Jewish man named Tobias. The story says he healed the king and preached to the city, calling it away from Nebo, Bel and Taratha to the one true God.\n\nIn the story, Addai made Aggai leader in his place before he died. Years after Abgar died, one of his sons had Aggai's legs broken as he sat teaching in the church. Aggai died too quickly to ordain Palut, so Palut went to Antioch and was ordained by its bishop, Serapion. Serapion had himself been ordained by Zephyrinus, bishop of Rome, in the line of Simon Peter."
+  },
+  "docstory-syr.story.edessa-flood-201": {
+   "file": "syriac-edessa-nisibis/docstory-syr.story.edessa-flood-201.mp3",
+   "chars": 1047,
+   "voiceId": "onegjDE2z0mQtp1g0HK7",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.95,
+    "similarity_boost": 0.68,
+    "style": 0,
+    "use_speaker_boost": true
+   },
+   "text": "In November of the year 513 of the Greeks, around the year 201, the river Daisan rose against Edessa in the night. King Abgar stood on the great tower and watched the water by torchlight. That same hour the waters broke down the western wall and swept through the city, overthrowing the king's palace.\n\nThe Chronicle of Edessa sets down this account. It was compiled about 340 years later from the archives where the royal scribes had filed it, and no bishop or believer is named in it.\n\nOne line among the losses matters most for the history of the church. \"And they destroyed the temple of the church of the Christians.\" Whether the line is original, or was added later by another hand, is not settled. If it is original, a church building stood in Edessa to be destroyed, and that line is the earliest hard trace of a church there.\n\nThe entry goes on. \"More than two thousand men were killed in that event. The waters came upon many of them suddenly as they slept in the night, and they drowned. The city was filled with the sound of mourning.\""
+  },
+  "docstory-syr.story.jacob-nicaea": {
+   "file": "syriac-edessa-nisibis/docstory-syr.story.jacob-nicaea.mp3",
+   "chars": 737,
+   "voiceId": "onegjDE2z0mQtp1g0HK7",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.95,
+    "similarity_boost": 0.68,
+    "style": 0,
+    "use_speaker_boost": true
+   },
+   "text": "Jacob, bishop of Nisibis, is remembered among the bishops at the great council of Nicaea. In the year 325, bishops from the whole world gathered there to answer Arius. The tradition of these churches holds Jacob to be one voice from their Syriac-speaking frontier, and says he stood with those who confessed the Son as true God.\n\nNothing survives of what Jacob said or did at the council. The lists of its signers were pieced together by later hands, and they carry his name among the assembled bishops. Theodoret of Cyrus, a Greek church historian of the next century, also counts him among them. Still, no document from the fourth century itself confirms that he was there.\n\nAt home in Nisibis, Ephrem praised Jacob as the city's wall."
+  },
+  "docstory-syr.story.ephrem-roll-and-vine": {
+   "file": "syriac-edessa-nisibis/docstory-syr.story.ephrem-roll-and-vine.mp3",
+   "chars": 1341,
+   "voiceId": "onegjDE2z0mQtp1g0HK7",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.95,
+    "similarity_boost": 0.68,
+    "style": 0,
+    "use_speaker_boost": true
+   },
+   "text": "The Paradise is the Syriac version of a book by Palladius of Galatia. Its chapter on Ephrem opens with one dream and closes with another, though the Greek-based text of the same chapter has neither. The Syriac chapter does not name the first dreamer.\n\nThe Paradise says one of the holy fathers saw a dream in which the holy angels came down from heaven at God's command. One of them held a roll written on the inside and on the outside, and the angels asked each other who was fit to be trusted with it.\n\nSome angels named one man, some another, and each time the answer was that these were holy and righteous, but not enough for this. They counted up many names of saints. At last they said that no one was fit for it except Ephrem, and they gave him the roll.\n\nWhen the dreamer got up in the morning, he heard people saying that Ephrem was teaching. His words, they said, flowed from his mouth like water from a fountain. Then, it says, the old man knew within himself that the words coming from Ephrem's lips were of the Holy Spirit.\n\nThe second dream is one Ephrem himself is said to have had as a youth. In it, a vine grew out of his tongue and filled the whole space beneath the heavens, loaded with clusters of grapes. All the birds of heaven came and ate from it, and the whole time they ate, the clusters grew in number and in size."
+  },
+  "docstory-syr.story.qyama-morning": {
+   "file": "syriac-edessa-nisibis/docstory-syr.story.qyama-morning.mp3",
+   "chars": 966,
+   "voiceId": "onegjDE2z0mQtp1g0HK7",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.95,
+    "similarity_boost": 0.68,
+    "style": 0,
+    "use_speaker_boost": true
+   },
+   "text": "Before dawn in Nisibis, those bound by the covenant gather for the vigil. No single morning like this was written down, so this one is pieced together from separate sources, from the years before the city was handed to Persia in 363.\n\nThe covenanters are men and women who have taken the vow and stay unmarried. They walk through the dark streets from their own family houses, since there is no cloister. Among them, later accounts say, stands the choir of the daughters of the covenant, who will raise the madrasha, the teaching hymn.\n\nThe hymn carries the teaching on its tune, stanza answering refrain, until the whole gathering holds the argument by heart. The Gospel read out is the harmony, the Gospels woven into one unbroken story.\n\nThe feast this season keeps the Lord's birth and his baptism together in one observance, as Nisibis then did. When the light is full, the covenanters keep their fast and go back to their own households and their work in town."
+  },
+  "docstory-syr.story.jacob-deliverance": {
+   "file": "syriac-edessa-nisibis/docstory-syr.story.jacob-deliverance.mp3",
+   "chars": 861,
+   "voiceId": "onegjDE2z0mQtp1g0HK7",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.95,
+    "similarity_boost": 0.68,
+    "style": 0,
+    "use_speaker_boost": true
+   },
+   "text": "Ephrem's hymns sing that Nisibis was saved when Shapur, king of Persia, laid siege to it, but they say nothing of gnats. The story of Jacob's prayer comes from Theodoret of Cyrus, a Greek church historian, writing about a century later. Even the siege it belongs to is unsettled: it may be that of 338, 346 or 350.\n\nShapur's army lay against the walls, and the river had been turned against the city. In Theodoret's telling, Ephrem begged the aged bishop Jacob to go up on the wall and curse the enemy. The old man agreed and climbed into a tower, where he looked out over the numberless camp.\n\nThen, Theodoret writes, \"he called down no other curse on them than that mosquitoes and gnats should be sent against them.\" In his account, clouds of them came after the prayer and drove the elephants and the horses wild, until the Persians left their camp and fled."
+  },
+  "docstory-syr.story.simeon-martyrdom": {
+   "file": "syriac-edessa-nisibis/docstory-syr.story.simeon-martyrdom.mp3",
+   "chars": 1443,
+   "voiceId": "onegjDE2z0mQtp1g0HK7",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.95,
+    "similarity_boost": 0.68,
+    "style": 0,
+    "use_speaker_boost": true
+   },
+   "text": "\"As time went on, the Christians grew in number. They began to form churches, and they appointed priests and deacons.\" So Sozomen, a Greek historian of the fifth century, opens his account of the persecution in Persia. The Magi, the priestly guardians of the Persian religion, grew deeply angry.\n\nSimeon was bishop of Seleucia and Ctesiphon, the royal cities of Persia, and he was accused of being a friend of the Roman emperor. King Shapur laid heavy taxes on the Christians, hoping poverty would force them to give up their faith. The year of what followed is disputed: 341, or about 344.\n\nThe tradition tells that Simeon was brought before the king in chains and would not bow down. He said he stood there now in defense of godliness and of the Christian faith. Shapur offered him gifts and then threatened to destroy him and all the Christians, but each time Simeon refused to worship the sun or betray his religion.\n\nUsthazanes, the king's aged foster-father, rose to honor Simeon as he was led to prison. Usthazanes had been a Christian but had given way and worshipped the sun, and the bishop rebuked him and turned his face away. Usthazanes then confessed himself a Christian before the king, and Shapur had him beheaded.\n\nThe next day Simeon again refused to worship the king or the sun. That day a hundred other prisoners were put to death while he watched, and Simeon was killed last of all, with two aged priests of his own church."
+  },
+  "docstory-syr.story.basil-legend": {
+   "file": "syriac-edessa-nisibis/docstory-syr.story.basil-legend.mp3",
+   "chars": 1007,
+   "voiceId": "onegjDE2z0mQtp1g0HK7",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.95,
+    "similarity_boost": 0.68,
+    "style": 0,
+    "use_speaker_boost": true
+   },
+   "text": "Ephrem's fame reached the Greek church in his own century. Sozomen, a Greek historian of the next century, writes that Basil greatly admired him and was astonished at his learning. Basil later became bishop of Caesarea in Cappadocia. Palladius of Galatia and Jerome both name Ephrem a deacon of the church at Edessa.\n\nA later age built the story of a meeting on a passage in Basil's own writings. There Basil credits an explanation of Scripture to an unnamed Syrian, who, he says, knew little of worldly wisdom but much of the knowledge of the Truth.\n\nLater tradition took that Syrian to be Ephrem. But Basil never names him, and he may well be another man, Eusebius of Emesa. The meeting itself is a later legend.\n\nThe later Life of Ephrem tells the story with love for both men. In it, a vision prompted the poet to travel to Caesarea to see the great Basil. The two holy men had no common language, yet they recognized each other in the Spirit. And Basil himself, the Life says, ordained Ephrem a deacon."
+  },
+  "docstory-syr.story.choirs-tradition": {
+   "file": "syriac-edessa-nisibis/docstory-syr.story.choirs-tradition.mp3",
+   "chars": 720,
+   "voiceId": "onegjDE2z0mQtp1g0HK7",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.95,
+    "similarity_boost": 0.68,
+    "style": 0,
+    "use_speaker_boost": true
+   },
+   "text": "Later accounts say the daughters of the covenant sang the madrashe, the teaching hymns, in the churches.\n\nHow their choirs began is a story from the next age. Jacob of Serug told it in a verse homily around the year 500, more than a century after Ephrem died. Only that later memory says Ephrem himself founded and led the choirs.\n\nIn Jacob's telling, the people of Edessa were charmed by the songs of Bardaisan, a philosopher of Edessa's royal court, and by the songs of Mani, who founded a new religion. So Ephrem gathered the daughters of the covenant and taught them to sing true teaching in the same sweet forms. Through the women's voices, in this telling, his teaching reached the whole city, women and men alike."
+  },
+  "docstory-syr.story.ephrem-famine-death": {
+   "file": "syriac-edessa-nisibis/docstory-syr.story.ephrem-famine-death.mp3",
+   "chars": 1160,
+   "voiceId": "onegjDE2z0mQtp1g0HK7",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.95,
+    "similarity_boost": 0.68,
+    "style": 0,
+    "use_speaker_boost": true
+   },
+   "text": "In the last year of Ephrem's life, famine struck Edessa. Palladius of Galatia and Sozomen, a Greek historian, both tell of that year, writing a generation and more after his death. Their count of beds and the words they report come from remembered tradition.\n\nFor many years Ephrem had lived quietly in his cell, but now he left it and went to the rich of the city. He asked them why they had no pity on people dying around them, while their wealth spoiled into the condemnation of their own souls.\n\nThe rich answered that they had no one they could trust with the giving, because everyone was dishonest in such business. Ephrem asked what they thought of him, and they said they knew him to be a man of God. \"Then trust me,\" he said. \"See, on your behalf I appoint myself to take in and care for the needy.\"\n\nHe took their money and set up some three hundred beds in the public porches. There he nursed the starving and the sick, strangers and local people alike, and he buried those who died. When the year was over and good times returned, he went back to his cell. He died soon after, a month later in Palladius's account and a few days later in Sozomen's."
+  }
+ },
+ "the-reformed-cities-zurich-and-geneva": {
+  "story": {
+   "file": "the-reformed-cities-zurich-and-geneva/story.mp3",
+   "chars": 3814,
+   "voiceId": "onwK4e9ZLuTAKqWW03F9",
+   "model": "eleven_multilingual_v2",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.95,
+    "similarity_boost": 0.68,
+    "style": 0,
+    "use_speaker_boost": true
+   },
+   "text": "The Reformed churches of two Swiss cities, Zurich and Geneva, grew up between 1519 and 1650. Huldrych Zwingli began Zurich's reform first, and John Calvin later shaped Geneva's, though the two men never met. Both cities held that a church has no standing to demand what Scripture does not support.\n\nZurich's reform began on 1 January 1519, when Zwingli preached straight through the Gospel of Matthew instead of the fixed list of readings. In 1522 some people broke the Lenten fast in public. Zwingli defended the act from Scripture, and the affair pushed the city toward open reform.\n\nOn 29 January 1523, six hundred people filled Zurich's Town Hall for a public Disputation. They came from across the territory, priests and laymen alike. Zwingli said that only Scripture could correct him. Enemies of the new preaching mocked the gathering as a \"tinker's day.\" Their scorn moved a schoolmaster who had sat through the day, Erhart Hegenwald, to write an account. When the arguments were done, the council ruled for the reform and told every priest in its territory to preach the same way.\n\nWithin two years the reform split from inside. On 21 January 1525, Conrad Grebel baptized Georg Blaurock at the house of Felix Manz, and Blaurock then baptized the others present. These were the first Swiss Brethren baptisms. Grebel and Manz had once stood with Zwingli. They argued that a church gathered only by a believer's own profession was the more consistent reading of Scripture. Zwingli's side held that the church should include the whole city, infants too. In the years that followed, Zurich's council moved to suppress the movement by civil force.\n\nZwingli left Zurich for the front on 11 October 1531, as a field chaplain in the Second War of Kappel, and he was killed that same afternoon. His close friend Oswald Myconius was in the city that day and later wrote down what he remembered. Myconius was not on the battlefield. He wrote that Zwingli was reported to have said, after he fell, \"What harm is there in this? It is true, they can kill the body, but not the soul.\" Heinrich Bullinger succeeded Zwingli and led Zurich's pastorate for forty-four years.\n\nGeneva's reform took another path. In 1536 the city broke from Savoy, and Calvin arrived. He was exiled to Strasbourg in 1538 and called back in 1541. Calvin built up the teaching article by article, in his Institutes and Catechism, and the Catechism was taught to all the people.\n\nIn 1541 Geneva's church laws set up a Consistory of pastors and lay elders. It could censure people, and it did not answer to the city council alone. Zurich's council ruled church and city as one, but Geneva's Consistory fought to stay free of that control. The Perrinist party opposed the Consistory, and by 1555 the fight was mostly settled in Calvin's favor.\n\nBoth cities refused two claims about the Lord's Supper. They rejected Rome's claim that the Mass repeats Christ's sacrifice, and they rejected Wittenberg's claim that his body sits in the bread. At the Marburg Colloquy in 1529, Zwingli met Martin Luther, and the two sides could not agree. In 1549 people feared that Geneva and Zurich taught different things about the Supper, so Calvin went to Zurich himself with William Farel. What they worked out with Zurich's pastors became the Consensus Tigurinus.\n\nBoth cities held that God's free choice, made before the world began, decides who is saved. They taught this as the ground of a settled life. Bullinger's Second Helvetic Confession of 1566 tells the anxious to look to Christ, the mirror in which they see their election. At the Synod of Dort in 1618 and 1619, Reformed churches from many lands pressed the same belief to its sharpest form yet. Their teaching passed on to the Scottish Kirk, the Huguenots, the Dutch Reformed and English Puritanism."
+  },
+  "_pieces": [
+   "story",
+   "docstory-rzg.story.first-zurich-disputation",
+   "docstory-rzg.story.myconius-account-of-zwinglis-death",
+   "docstory-rzg.story.calvins-journey-to-zurich",
+   "legacy"
+  ],
+  "legacy": {
+   "file": "the-reformed-cities-zurich-and-geneva/legacy.mp3",
+   "chars": 756,
+   "voiceId": "onwK4e9ZLuTAKqWW03F9",
+   "model": "eleven_multilingual_v2",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.95,
+    "similarity_boost": 0.68,
+    "style": 0,
+    "use_speaker_boost": true
+   },
+   "text": "The beliefs of these two cities passed on, unbroken, to four later traditions: the Scottish Kirk, the Huguenots, the Dutch Reformed, and English Puritanism. No force from outside or inside ended the Reformed churches of Zurich and Geneva between 1519 and 1650. The end date, 1650, only marks where this account stops, for a tradition that is still alive. It is not a historical ending.\n\nAt the Synod of Dort in 1618 and 1619, Reformed delegates from many countries pressed these cities' teaching on election to its sharpest form yet. It came to Dort at one remove, carried forward from Geneva through the teaching of Theodore Beza. Dort sharpened a belief already held. It did not close or complete it. Dort falls thirty-two years before this account ends."
+  },
+  "docstory-rzg.story.first-zurich-disputation": {
+   "file": "the-reformed-cities-zurich-and-geneva/docstory-rzg.story.first-zurich-disputation.mp3",
+   "chars": 806,
+   "voiceId": "onegjDE2z0mQtp1g0HK7",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.95,
+    "similarity_boost": 0.68,
+    "style": 0,
+    "use_speaker_boost": true
+   },
+   "text": "Six hundred people met in Zurich's Town Hall on 29 January 1523. The city council had summoned the meeting itself. Priests and laymen came from across the canton, and delegates from the bishop of Constance came as well. They met to test Zwingli's case against Scripture.\n\nEnemies of the new preaching, Hegenwald heard, mocked the gathering. They called it a \"tinker's day,\" and said that nothing but tinkers were attending.\n\nThat mockery moved a Zurich schoolmaster named Erhart Hegenwald to write an account of the day. He had sat through the whole disputation. \"I was there myself and sat with them,\" he wrote, \"heard and understood and remembered all that was said there.\"\n\nWhen the arguments were finished, the council ruled for the reform. It ordered every priest in the canton to preach the same way."
+  },
+  "docstory-rzg.story.myconius-account-of-zwinglis-death": {
+   "file": "the-reformed-cities-zurich-and-geneva/docstory-rzg.story.myconius-account-of-zwinglis-death.mp3",
+   "chars": 1159,
+   "voiceId": "onegjDE2z0mQtp1g0HK7",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.95,
+    "similarity_boost": 0.68,
+    "style": 0,
+    "use_speaker_boost": true
+   },
+   "text": "Oswald Myconius was in Zurich on 11 October 1531, the morning his close friend Zwingli left the city for the front. Myconius later wrote down what he remembered.\n\nThere were warnings that, looking back, seemed to have foretold it. The muster was disorganized: five thousand men had been summoned, and fewer than four thousand five hundred came. As Myconius watched Zwingli ride out in the rear, he felt a sudden pain of heart.\n\nZwingli was killed that same afternoon, and the news reached the city that night. The fight had been sharp, and it was lost.\n\nMyconius was not on the battlefield, and he tells of the fighting as it was reported to him. Zwingli was said to have been struck down three times. Each time he rose, until a fourth blow brought him to his knees. On his knees, he was reported to have said, \"What harm is there in this? It is true, they can kill the body, but not the soul.\"\n\nThe enemy found his body afterward. They tried and condemned it, and then they burned it. After they withdrew, friends of Zwingli went to look for any remains. Myconius was told, though he did not see it, that they found his heart whole and unharmed in the ashes."
+  },
+  "docstory-rzg.story.calvins-journey-to-zurich": {
+   "file": "the-reformed-cities-zurich-and-geneva/docstory-rzg.story.calvins-journey-to-zurich.mp3",
+   "chars": 947,
+   "voiceId": "onegjDE2z0mQtp1g0HK7",
+   "model": "eleven_v4",
+   "apiSpeed": 1,
+   "tempo": 1,
+   "outputFormat": "mp3_44100_64",
+   "settings": {
+    "stability": 0.95,
+    "similarity_boost": 0.68,
+    "style": 0,
+    "use_speaker_boost": true
+   },
+   "text": "People who respected both churches, Zurich's and Geneva's, had begun to worry. By 1549 they feared that Calvin's teaching on the Supper differed from what Zurich taught. Calvin heard this often, and from worthy people. They wanted his writings to help them learn the doctrine of piety, and they did not want any sign of disagreement to hold them back.\n\nCalvin thought a friendly conference was the best way to clear up the worry, so he went to Zurich himself. His colleague William Farel had suggested the visit, and Farel went with him. Calvin called Farel an \"indefatigable soldier of Christ.\"\n\nCalvin wrote that the two churches already agreed in judgment. The two men met with Zurich's pastors, and what they worked out together became the Consensus Tigurinus.\n\nCalvin's letter afterward calls it a faithful record of the conference. It adds that every colleague serving Christ under Geneva's jurisdiction had signed it to show their approval."
+  }
  }
 }
