@@ -73,3 +73,18 @@ Source: `Recheck.md` (batch 7, 2026-11-20). Each FIX applied with its replacemen
 - Section 2, B5 (`Outline.md` line 77): first version of the Oehler note deleted; the check's sentence and the card plan after it kept. Applied.
 
 NOT APPLIED: none.
+
+## Length cuts (Mark, 2026-11-20)
+
+Outline was about 5:00 (750 words); now about 4:10 (about 625). Every cut item is kept, with its line, under "For the card, not the story" in `Outline.md`.
+
+- Beat 1 folded into the essence (Carthage, the convert, Eusebius's word on Roman law); Jerome's "from Carthage", "well known at Rome", "men are made, not born" and the conversion gap → card.
+- Beat 2: the Tiber and Nile list cut to one clause (the blame kept); "kill us, torture us, grind us to dust" → card. Also told: the "lion" cry dropped to match (it was already cut from the beat).
+- Beat 3: Quote 2 trimmed to the Marcion, Valentinus, "this property is mine … I held it first" and "heir of the apostles" lines; its opening questions and "firm title" sentence → card. Churches cut to Ephesus and Rome (Corinth, Philippi → card); Also told matched.
+- Beat 4: Augustine's account cut to one clause (joined the prophets he had argued against, then broke from them too); the second-marriage wording → card. Both witnesses still credited.
+- Beat 5: "from Asia", the paraphrase of one God with Son and Spirit, and "taught better by the Paraclete" → card. "Written after his turn" kept.
+- Beat 6: the edict's full wording shortened to "forgive adultery after penance".
+- What came 1: the Greek triad point no longer narrated (stays in Do not say; line → card).
+- What came 3: Vincent of Lérins and Hilary → card (not in the approved heart; Augustine's verdict carries the judgment). Also told, Names, Connection, Who tells it and the phrase list matched. Lactantius kept in one clause.
+- What came 4: "still well known" → card.
+- Length field rewritten.
