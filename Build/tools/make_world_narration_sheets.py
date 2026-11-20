@@ -1,4 +1,7 @@
-"""Write one source sheet per narrated piece of a world: python sheets.py <census-id> <outdir> <pieces.json>"""
+"""Write one source sheet per narrated piece of a built world, for its narrator rewrite.
+
+Usage (from the repo root): python3 Build/tools/make_world_narration_sheets.py <census-id> <outdir> <pieces.json>
+"""
 import json, re, sys, glob, os, yaml
 world, outdir, pj = sys.argv[1:4]
 root = os.getcwd()
