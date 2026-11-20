@@ -4943,3 +4943,9 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 **Why.** Tertullian's approved heart called him "the first great writer of the faith in Latin whose books survive". The outline check found held sources differ on the order: Wallis (ANF4) dates the *Octavius* of Minucius Felix to about 166, before the Apology, and Coxe puts it after 205. What the sources hold is rank: Vincent of Lérins ("as Origen holds by far the first place among the Greeks, so does Tertullian among the Latins") and Coxe ("the founder of Latin Christianity"). Mark asked whether the claim was rank or order; it is rank.
 
 **Decided (Mark, 2026-11-20: "yes use foremost").** The essence reads "the foremost early writer of the faith in Latin, around the year 200". The story never calls him "the first" in any form. The card notes that the *Octavius* may be older and that editors differ on its date.
+
+## 2026-11-20 — Batch 7: the five long outlines are written to 4:30, not cut again (Mark)
+
+**Why.** After the researchers' length cuts, the independent check (`Cut_Check.md` in each folder) recounted five outlines, Cyprian, Tertullian, Novatian, Lactantius and the councils of 251, at about 5 to 7 minutes of planned beats. The six outlines already drafted had also been planned long, and each writer still landed at 4:30 or less.
+
+**Decided (Mark, 2026-11-20: "Write to 4:30", the recommended option).** No second round of outline cuts. Each of the five is written to about 4:30 at most, as the six were. The reviewer checks that the approved heart and every disagreement the outline must credit survived. A draft that cannot fit comes back to Mark. The cut checks' other fixes (items 2 to 4: stale references to cut items, cuts hidden inside quotes, the card list) are applied first.
