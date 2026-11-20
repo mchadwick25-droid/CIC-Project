@@ -31,3 +31,16 @@ Fixes made from `Outline_Check.md` (batch 7, 2026-11-20). Line numbers are those
 ## Not applied
 
 None.
+
+## Recheck fixes, applied verbatim
+
+Applied from `Recheck.md` (2026-11-20). Each replacement is the text given in Recheck.md, with its exact old string replaced in `Outline.md`.
+
+- **FIX 1, beat 6 (Outline.md, O 45).** Replaced the text from "Pontius tells it differently" to the end of the beat. The new text gives Pontius's refuge line (ANF 28142–28149), the *Acta*'s stay at the gardens by a holy command (KNOPF 4853–4856), and "Credit each in turn: his own letter, then his deacon, then the account of his death."
+- **FIX 1 (second part), Do not say, the last hiding (Outline.md, O 120).** Replaced the line with the Recheck text, which adds the *Acta* account and the EP 17369–17377 and ANF 28142–28149 citations. Parenthetical "(D4)" kept as given.
+- **FIX 2, beat 7 (Outline.md, O 46).** Replaced "Back at his gardens, he was arrested;" with "At his gardens the officers came for him (KNOPF 4856–4858; Pontius ANF 28161–28166);". The rest of the sentence is unchanged.
+- **FIX 3, Do not say, Curubis (Outline.md, O 121).** Replaced "Not 'under guard', 'imprisoned' or 'held' at Curubis." with "Not that he was guarded, imprisoned or held at Curubis." The rest of the line is unchanged.
+
+Not applied: the Acta line for the sheet's D4 (Source_Sheet.md, S 128). Recheck.md gives no exact text for it and says it is the researcher's to add. `Source_Sheet.md` is unchanged.
+- Source_Sheet D4: added the *Acta*'s account (KNOPF 4853–4856, Latin verbatim, English rendering, witness kind and confidence) as a third witness on the last hiding (Recheck FIX 1).
+- Coordinator check of the D4 addition (2026-11-20): the Latin stands verbatim at KNOPF 4853-4856; "ex sacro praecepto" rendered "by imperial order" is the late-Latin sense of sacer. PASS.
