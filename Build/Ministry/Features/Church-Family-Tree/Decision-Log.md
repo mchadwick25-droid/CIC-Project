@@ -4928,3 +4928,12 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 5. Jerome's story of Cyprian asking for "the master" goes to Tertullian, as one clause among those who read him; Cyprian does not tell it.
 6. Dionysius of Alexandria runs about 4:00, the reviewer asking of each part whether the story needs it.
 7. The outline checks begin, after the researchers apply items 2 to 5.
+
+## 2026-11-20 — Batch 7: lengths held to four minutes, four and a half at most (Mark)
+
+**Why.** After the outline checks and rechecks, several batch 7 outlines planned more story than their approved times: Tertullian about 5:00, Novatian about 6:15, Lactantius about 5:45 to 6:00, the councils of 251 about 6:00, Cyprian about 4:30 (https://claude.ai/artifact/Q2DkQTFyjYAGYcmDCRJfyL; each folder's `Outline_Check.md`, `Fixes.md` and `Recheck.md` in `Build/Ministry/Operations/Audits/2026-11-20_batch-7/`). The page recommended up to 5:00 for some.
+
+**Decided (Mark, 2026-11-20: "we need to keep to 4 maybe 4:30 max").**
+1. Each batch 7 story aims at about 4:00 or less, and none runs past about 4:30. This holds for the council too.
+2. The stories already at or under about 4:00 keep their set lengths: Pontius, Anatolius, Peter and Pamphilus (about 3:40 to 3:45), Eusebius (3:50), Dionysius (4:00).
+3. Cyprian, Tertullian, Novatian, Lactantius and the councils of 251 are cut back by their researchers to about 4:00, and no more than about 4:30. Cut material goes to the card. A cut may not remove the record's force or a disagreement that must be credited; where a story cannot fit, it comes back to Mark.
