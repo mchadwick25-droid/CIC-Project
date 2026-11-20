@@ -127025,6 +127025,17 @@ function startNarration(a){
 }
 let worldAudio=null;
 fetch('audio/worlds/manifest.json').then(r=>r.ok?r.json():{}).then(j=>{worldAudio=j;}).catch(()=>{worldAudio={};});
+let treeWorldAudio=null;
+const treeWorldReady=fetch('audio/worlds-tree/manifest.json').then(r=>r.ok?r.json():{}).catch(()=>({})).then(j=>{treeWorldAudio=j;return j;});
+const treeWorldOf=id=>{const e=treeWorldAudio&&treeWorldAudio[id];return e&&Array.isArray(e._pieces)&&e._pieces.every(k=>e[k]&&e[k].file)?e:null;};
+function narratorWorld(compiled,e){
+  const o=compiled.orientation||{}, paras=t=>t.split(/\n\n+/).map(x=>x.trim()).filter(Boolean).map(text=>({text}));
+  const n={...o};
+  if(e.story&&e.story.text)n.story=paras(e.story.text);
+  if(e.legacy&&e.legacy.text)n.legacy=paras(e.legacy.text);
+  if(o.documented_stories)n.documented_stories=o.documented_stories.map(s=>{const d=e['docstory-'+s.story_id];return d&&d.text?{...s,telling:d.text}:s;});
+  return {...compiled,orientation:n};
+}
 const treeAudioCurrent=new Set(), treeAudioMeta={};
 async function sha256Hex(text){
   const buf=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(text));
@@ -127116,10 +127127,14 @@ async function loadBuiltWorldOrientation(censusId){
   const slot=document.getElementById('orient-fetch-slot');
   if(!slot)return;
   try{
-    const compiled=await fetchBuiltWorldData(censusId);
+    const source=await fetchBuiltWorldData(censusId);
     const R=window.OrientationRender||await window.__orientationRenderPromise;
-    const wm=await fetch('audio/worlds/manifest.json').then(r=>r.ok?r.json():{}).catch(()=>({}));
-    const narr=window.OrientationNarrationUrls?window.OrientationNarrationUrls(wm[censusId],'audio/worlds/'):null;
+    await treeWorldReady;
+    const tw=treeWorldOf(censusId), compiled=tw?narratorWorld(source,tw):source;
+    const wm=tw?null:await fetch('audio/worlds/manifest.json').then(r=>r.ok?r.json():{}).catch(()=>({}));
+    const narr=window.OrientationNarrationUrls?(tw?window.OrientationNarrationUrls(tw,'audio/worlds-tree/'):window.OrientationNarrationUrls(wm[censusId],'audio/worlds/')):null;
+    const synced=document.querySelector('#panel [data-sync-story] audio');
+    if(synced&&narr&&narr.story&&!synced.src.endsWith(narr.story))synced.src=narr.story;
     const nopts=narr?{narration:narr}:{};
     const syncStory=!!document.querySelector('#panel [data-sync-story]');
     const storyOpts=syncStory&&narr?{narration:{...narr,story:null}}:nopts;
@@ -127271,8 +127286,8 @@ function openPanel(m){
   const lede=entry?entry.tile:m.teaser;
   if(lede)h+=`<p class="teaser">${esc(lede)}</p>`;
   if(isBuiltWorld){
-    const wa=worldAudio&&worldAudio[m.id]&&worldAudio[m.id].story;
-    if(wa)h+='<h3>The Story</h3>'+narrPlayerHTML('audio/worlds/'+wa.file,' data-sync-story="1"');
+    const tw=treeWorldOf(m.id), wa=tw?tw.story:worldAudio&&worldAudio[m.id]&&worldAudio[m.id].story;
+    if(wa)h+='<h3>The Story</h3>'+narrPlayerHTML((tw?'audio/worlds-tree/':'audio/worlds/')+wa.file,' data-sync-story="1"');
     h+='<div id="orient-fetch-slot" class="orient-loading"><p class="meta">Loading this world’s fuller record…</p></div>';
   }
   if(!isBuiltWorld&&m.longDescription)h+='<h3>The Story</h3>'

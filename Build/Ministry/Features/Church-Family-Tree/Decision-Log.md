@@ -4889,6 +4889,23 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 - "Church Family Tree only": the tree gets its own Daniel and Neo recordings; Church in Conversation keeps each Representative's voice. The world Story and Legacy go to Daniel, the documented stories to Neo.
 - "Rewrite, then record": 60 of the 122 texts speak in the world's own voice ("our communities", "our tradition", "our church's memory"). Read by the map's narrator, that would claim membership of each church. Each piece is first rewritten into the tree's narrator voice through the brief kit, with quotes rechecked, then recorded after Mark hears a sample. Until then the tree keeps the Representatives' recordings. The writing runs as its own thread (Open-Gaps, "Built worlds in the standard voices").
 
+**Where the rewritten texts live (Mark, 2026-11-20: "Yes, send it").** The rewrite thread asked where its texts should live. They are drafted and reviewed as working files under `Build/Ministry/Features/Church-Family-Tree/`, laid out like `Who-Profiles/`; the world records, Church in Conversation's data and the tree's files are not touched. Once they pass review, the site thread releases them on the tree in one step: built-world cards show the rewritten text and play the matching Daniel and Neo recordings, after Mark approves a sample. The texts are written to the tree's reading-level bar, since visitors will read them as well as hear them.
+
+## 2026-11-20 — How the built worlds' texts are rewritten for the tree
+
+**Why.** The rewrite decided in "Built worlds on the tree move to the standard voices, after a rewrite into the narrator's voice" (2026-11-20) needed a home, a depth and a rule for faults already in the worlds' texts. Of the 122 texts, 111 score under grade 8, nearly all as runs of short one-act sentences, and two Legacy pieces (desert, Zurich–Geneva) fail the hard limits.
+
+**Decided (Mark, 2026-11-20).**
+- Home: option C, sent through the site thread. Working files under `World-Narration/`, one per piece per world, with a README. No edit to `records/`, `cic-website/` or `cft-website/`. The site thread releases them; the tree will show and play them.
+- Depth: "change the voice, and link the prose". Content and order kept; first person and emic hedges become the narrator's third person and plain doubt at the same strength; short runs joined with cause, contrast and time where the original supports it; only what fails the kit's blocking bar is fixed.
+- Faults already in a world's text: corrected in the tree text to what the record's sources and confidence hold, each correction independently checked, and each logged in that world's `Open_Gaps_Tracking.md` for its record owner.
+- The post-apostolic house church ran first as a pilot, through rewrite, review, one revision and a targeted recheck, before the other ten worlds.
+
+## 2026-11-20 — The narrator calls the Donatists' opponents "Caecilian's church"
+
+**Why.** The Donatist world tells the North African split from the Donatists' side, naming the other church "the rival church" or "the other side". Both churches called themselves the Catholic church until an imperial ruling gave the name to one side, and "Caecilianist" was the Donatists' own label. The tree's narrator has to name that church without taking a side (Kit Part 1, Rigor).
+
+**Decided (Mark, 2026-11-20).** Option A of three ("Caecilian's church", "the Catholic church", "the Catholic party"): the narrator says "Caecilian's church", named for its first bishop as "the party of Donatus" is named for his. Its first mention in a piece says once that it came to be called the Catholic church. Polemic labels ("Caecilianist", "traditor", "persecution") stay credited to whoever used them.
 ## 2026-11-20 — Batch 7: the slate approved (Mark)
 
 **Why.** The batch 7 launch prompt (`Build/Ministry/Features/Church-Family-Tree/Launch-Prompts/CFT_Batch7_Launch_2026-11-19.md`) asks for the slate first: each story's job, its siblings and links, and the quotes barred, on one page (https://claude.ai/artifact/HVJ2mU3cXRubTNTgZ4qpKv, version 1).

@@ -231,3 +231,8 @@ Status: OPEN for the project lead.
 - **Finding.** 34 syr verbatim quotes named no line span in their locus.
 - **Done.** Each now names `cic/texts/<file>, lines N-M`, the span the independent Opus reviewer found in the batch review tables (see "Every quote rendering reviewed by Opus against the edition", 2026-11-03), and the `quote-locus` gate checks the text against it. All 34 match. Where a locus already held a rough pointer for the same file, such as "(anf02, line 6972)", the exact span replaces it.
 - **Owner.** Library record-defects thread. Closed.
+
+## 48. The narrated Story credits women's choirs to Ephrem's own hymns, 2026-11-20
+
+- **What.** The review of the tree's narrator rewrites (`Build/Ministry/Features/Church-Family-Tree/World-Narration/syriac-edessa-nisibis/story.review.md`, confirmed in `Recheck_Round2.md`) found that this world's Story (`orientation.story`) says "Ephrem's hymns show that women of the covenant sang them in choirs." No record names the hymns as that witness; `syr.term.qyama`, `syr.term.madrasha` and `syr.gravity.covenant-life` credit later accounts. Church in Conversation narrates it as it stands. The tree's text reads "Later accounts say that women of the covenant sang Ephrem's hymns in choirs."
+- **Owner.** This world's record owner (the fix goes in the world's orientation story and the rebuild). Open.
