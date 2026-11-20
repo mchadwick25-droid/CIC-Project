@@ -41,3 +41,21 @@ Source: `Recheck.md` (batch 7, 2026-11-20). Each FIX applied with its replacemen
 - Section 2, extra item, "With his friends" in "Also told" (`Outline.md` line 7): `some for a man "with his friends"` removed, as given. Applied.
 
 NOT APPLIED: none.
+
+## Length cuts (Mark, 2026-11-20)
+
+Ruling: "Batch 7: lengths held to four minutes, four and a half at most". From about 775 words (6:00) to about 545 (about 4:15 at 130 a minute). The new count is in the Length field of `Outline.md`. Each cut item went to the new section "**For the card, not the story:**" at the end of `Outline.md`, with its source line.
+
+- Beat 1: the certificate-holder's plea (Ep. 55.14). Went to the card.
+- Beat 3: the warning that anyone who gave communion early would be shut out (Ep. 55.4). Went to the card.
+- Beat 4: Novatian's envoys refused at Carthage (one clause). Went to the card; the siblings tell it.
+- Beat 4: the reason "no confession among the dead" (EP 7980). Went to the card.
+- Beat 4 and beat 5: Hefele's months. Went to the card and stay in Setting.
+- Quote 1: trimmed to its first two sentences and its last, closed and reopened. The middle is told as a narrator's clause (none would rush back; penance long). The full middle rendering went to the card.
+- Beat 5: "brother-hating and most inhuman" and "many more elders and deacons". Went to the card. The short-phrase list and the Do not say line were updated to match.
+- Beat 6: the charge that Cyprian had gone soft, and the wounded-brother answer (E9). Went to the card.
+- What came 1: Socrates's "cruel and merciless ... just". Went to the card.
+- What came 2: Nicaea's "ancient canonical law", Hefele's "first penitential book", and the years of penance. Went to the card; removed from the short-phrase list.
+- What came 3 (Alexandria, Serapion): it was already marked for the card. The item was removed from the beats and listed in the card section. The Sibling field and the Dionysius name line were updated to match.
+
+Kept, per point 2: the essence and Also told (Hearts.md), the confessors' pardons and Felicissimus's party, Cyprian's wait, the three terms with the deathbed refusal, the cut-off, the lost book, Novatian's rule (Quote 2) with Socrates credited, D1 credited both ways, "strangers" and "medicines of repentance", the 252 peace (Quote 3), and Novatian's church with Nicaea's term (the connection).
