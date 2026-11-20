@@ -44,3 +44,14 @@ Applied from `Recheck.md` (2026-11-20). Each replacement is the text given in Re
 Not applied: the Acta line for the sheet's D4 (Source_Sheet.md, S 128). Recheck.md gives no exact text for it and says it is the researcher's to add. `Source_Sheet.md` is unchanged.
 - Source_Sheet D4: added the *Acta*'s account (KNOPF 4853–4856, Latin verbatim, English rendering, witness kind and confidence) as a third witness on the last hiding (Recheck FIX 1).
 - Coordinator check of the D4 addition (2026-11-20): the Latin stands verbatim at KNOPF 4853-4856; "ex sacro praecepto" rendered "by imperial order" is the late-Latin sense of sacer. PASS.
+
+## Length cuts (Mark, 2026-11-20)
+
+Outline brought from about 4:30 (675 words) to about 3:55 (590 words). Each cut moved to the new section "For the card, not the story" in `Outline.md`, with its source line:
+- Beat 1: *To Donatus* (born again) and the estates sold for the poor.
+- Beat 2: the public notice naming him bishop, and the crowd calling for the lion.
+- Beat 4: the list of symptoms (the clause "he named its horrors plainly" stays, as the approved heart holds it).
+- Beat 7: the twenty-five gold pieces to the executioner (D3 detail; Pontius's shaking hand stays).
+- What came 3: Jerome's praise of his works.
+- Length field rewritten with the new count, part by part.
+Kept, as heart, force or credited disagreement: the Roman clergy's letter and his reply, Stephen's words, his sharpness toward Stephen, the Cappadocian bishop's report, D4 and D2 with each witness in one clause, the governor's sentence, "Thanks be to God", the crowd's cry, all three quotes whole.
