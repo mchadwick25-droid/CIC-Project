@@ -24,3 +24,5 @@ Complete at about word 135 ("...in Gaul.", end of P2).
 ## Length
 
 673 words by the scorer, about 4:29 at the person ceiling of 675. Grade 8.9, longest sentence 28 words, pass. The four-fault check found none: no sentence made one witness's claim into fact, no editor's view was given to a source, no detail was moved to another event, and no force was cut. American spelling is kept.
+
+- Story recheck FIX applied verbatim by the coordinator, 2026-11-20 (Recheck_Story.md).
