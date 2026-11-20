@@ -129,6 +129,8 @@ Past six names: Novatian, Cornelius, Cyprian, Dionysius, Constantine, Acesius an
 - Not "Novatian died a martyr" as fact. "Socrates says" (E12).
 - Not "the first split in the Roman church". The earlier quarrel of Hippolytus is not settled as a split (Hippolytus's live text); no held source here ranks it.
 - Not "Novatian wrote that the doors should be shut". His letter of 250 says the fallen should knock and wait (Quote 1).
+- Not "The book held back past the essence." Name On the Trinity, and what it sets out, inside the essence sentence.
+- Not "the Son ... two and not one person". Say "Father and Son are two, not one person under two names".
 
 **Leave out**
 
