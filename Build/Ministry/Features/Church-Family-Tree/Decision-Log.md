@@ -4926,3 +4926,11 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 **Done.** `cft-website/index.html` derives the set in code (`majorTraditionIds`, beside `isMajorTradition`), so new traditions and edges are picked up. No change to the census data, the zoom thresholds or anything else on the map.
 
 **Result.** Candidates per era 1..10: 15, 19, 15, 17, 18, 16, 22, 22, 22, 22 (matches the rule). Names actually shown at zoom 0.6 after collisions, desktop 1400 px: 14, 18, 14, 17, 17, 10, 22, 21, 20, 19. Phone 390 px: 15, 19, 15, 17, 18, 16, 22, 22, 22, 20. Era 6 on desktop falls to 10 of 16 because its names crowd together.
+
+## 2026-11-20 — Names fill the room as the map zooms in, until all are shown
+
+**Why.** After the per-era floor (entry above), Mark asked for balance as readers zoom in and out until all traditions show: "as we scroll in theres room for more traditions and voices/stories as they are turned on. it is to keep things populated but clean, not overwhelming or to crowded". The map still jumped from the floor to every name at 0.80.
+
+**Decided (Mark, 2026-11-20).** Option A of three (room-led; names-first; fixed tiers). Between 0.50 and 0.80 each era may name its traditions in rank order, up to a cap that grows with the screen area the era covers (floor x (zoom / 0.50)^2, never above the era's total). The floor names are placed first, then voices and stories, then the extra names fill whatever room is left, so switching voices or stories on never crowds them out. Collision dropping is unchanged. Zoom thresholds unchanged.
+
+**Result.** Names shown per era 1..10, desktop, voices and stories on, at zoom 0.5 / 0.6 / 0.7 / 0.8: 12 16 14 14 14 9 18 19 17 18 / 19 21 17 24 24 16 28 30 30 24 / 20 23 19 25 27 24 34 42 43 41 / 20 23 19 25 27 24 36 50 62 64 (the last row is every tradition). Phone is within 1 to 2 per era of desktop. Eras 1 to 5 reach every name by about 0.6; eras 7 to 10 fill across 0.5 to 0.8.
