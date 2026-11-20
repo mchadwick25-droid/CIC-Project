@@ -26,3 +26,4 @@ All new wording is the review's own, from the outline's lines named here.
 - Length: 656 words by the scorer (659 by whitespace), about 4:23 at 150 a minute, down from 675. Under the 4:30 limit; the aim of about 4:00 is not met, as the review found the story near its floor.
 - Scorer: grade 7.9 (6.8 names out), reading ease 74.9 names out, 16.0 words a sentence, longest sentence 30 words, pass. The grade is under 8, so the listener read checks it is not flat: it is not.
 - Four faults: none found. The martyrdom sentence now credits Socrates alone and the next sentence keeps the doubt. "Forced" is credited to Cornelius by the sentence's "Cornelius says".
+- Story recheck FIX applied verbatim by the coordinator, 2026-11-20 (Recheck_Story.md).

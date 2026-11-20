@@ -21,3 +21,4 @@ Complete at "heretics." (word 135, end of paragraph 2), unchanged.
 ## Length
 
 675 words by the scorer, about 4:30 at 150 words a minute. Readability passes: grade 8.1, longest sentence 30 words.
+- Story recheck FIX applied verbatim by the coordinator, 2026-11-20 (Recheck_Story.md).
