@@ -2915,3 +2915,12 @@ Status: OPEN. Owner: the project lead, through the coach thread.
 
 - **Finding.** `cic/corpus-map/` has no entry for four works in the vendored Luther volumes (`witt_Doc_02_Source_Ecology.md` §0 and §16 item 1). Volume I opens with the 1539 Preface to the German Works and an excerpt from the 1545 Preface to the Latin Works (lines 250–432). Volume II ends with "That Doctrines of Men Are to Be Rejected" (1522, heading at line 15816), which the map's locus for the Eight Wittenberg Sermons swallows. Volume III's second work with an unreadable OCR title is "The Magnificat: Translated and Explained" (1520–21, section title at line 6281). Volume III holds three Emser writings, while the map's single entry names only two.
 - **Owner.** The coach thread, which holds the `cic/corpus-map/` surface. Open.
+
+## OG-98. Three faults in the narrated stories, and two records that read Katharina's "we" differently, 2026-11-20.
+
+- **What.** The review of the tree's narrator rewrites (`Build/Ministry/Features/Church-Family-Tree/World-Narration/lutheran-wittenberg-and-its-congregations/`, the `*.review.md` files named below, confirmed in `Recheck_Round2.md`) found faults in this world's own texts. Church in Conversation narrates them as they stand; the tree's texts carry the corrections (exact wording in each review).
+  - `witt.story.augsburg-before-cajetan`: the Italian's offer leaves out the Pope's favor, which Table Talk gives (lines 3446-3449).
+  - `witt.story.worms-1521`: "within a day of his leaving" where Table Talk says the very next day (lines 3498-3500).
+  - Legacy (`orientation.legacy`): the 1543 treatise is not named for what it is. `witt.limit.1543-treatise-not-held` names it; the tree's text reads "His 1543 treatise against the Jews is real and part of this history…".
+  - `witt.story.household-and-kate-on-prayer` and `witt.dw.cold-and-careless-among-us` read the "we" of "while we are ice cold" differently. Table Talk sets it against "Popedom" (lines 3149-3151); the tree's text reads "his own side". The two records should agree.
+- **Owner.** This world's record owner (the fix goes in `records/witt/` and the world rebuild). Open.
