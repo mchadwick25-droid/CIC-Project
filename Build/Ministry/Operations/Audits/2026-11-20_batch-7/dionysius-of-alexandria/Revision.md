@@ -26,3 +26,5 @@ Complete at "years." ("...are our eyewitness record of those years."), word 136,
 ## Length
 
 671 words, about 4:28 at 150 a minute, under Mark's ceiling of about 4:30. Scorer: grade 7.8 (names out 6.8), reading ease 79.6, 18.6 words a sentence, longest sentence 31 words, pass. The longest is the Rome sentence in paragraph 5, which takes the review's wording word for word.
+
+- Story recheck FIX (sentence split) applied verbatim by the coordinator, 2026-11-20 (Recheck_Story.md).

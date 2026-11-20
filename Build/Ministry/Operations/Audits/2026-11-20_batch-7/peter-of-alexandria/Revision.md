@@ -24,3 +24,5 @@ At word 128, "Nicaea", in paragraph 2: office and Egypt, the rules of 306, the d
 ## Length
 
 636 words by the scorer, about 4:12. Grade 8.2 (names out 7.3), reading ease 71.4, longest sentence 32 words. The scorer passes. The 32-word sentence is the end of paragraph 2, which carries the review's exact B1 wording; it is one chain of events, and the kit's limit is "about 30".
+
+- Story recheck FIX (sentence split) applied verbatim by the coordinator, 2026-11-20 (Recheck_Story.md).
