@@ -4856,3 +4856,35 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 **Why (Mark, 2026-11-20).** "can we put the name of the river at the begining (mabey right at the top to the right) with a hover explaining, use the known name too"; then "can we add the river icon with it so they know its a river title and not a tradition".
 
 **Done.** At the top of each river, just to its right, the map shows the river symbol from the Key in the river's own colour, the river's name in small capitals, and its everyday name under it where it has one ("Greek East" / "Orthodox"). Hovering shows the name, the everyday name, the number of traditions and the years, and where it began: the recorded reason for a river that starts on its own, or the linked traditions for one that branches. Clicking opens the river's card. A name moves down a little to clear a tradition's name, a people or story number or an era title, and stays hidden until zooming in when there is no room near the top (era 2 on a phone at the opening zoom).
+
+## 2026-11-20 — The tree keeps going live on every merge
+
+**Asked.** Whether to release now, and whether the tree should publish from the reviewed `live` branch, as the conversation app does, instead of on every merge to `main`.
+
+**Decided (Mark, 2026-11-20: "everything is live and keep it that wasy, its more the timing of announcing it").** churchfamilytree.com keeps deploying from `main`: every merged change reaches visitors within minutes. No review step is added before the tree goes live; CI and the browser checks on each change stay the safeguard. The open question is when to announce the site, not whether to release it.
+
+## 2026-11-20 — The tree's own share picture and link preview
+
+**Why.** The announcement goes out on Facebook, LinkedIn, by email and by word of mouth, asking for feedback (Mark, 2026-11-20). The map page had no link-preview tags, the only shared picture was Church in Conversation's painting ("that is the picture for church in conversation, we need something different for church family tree"), and its description used older wording.
+
+**Decided (Mark, 2026-11-20: "A: Title card").** The share picture is made from the real map: "Church Family Tree", the line "Twenty centuries of Christian traditions, drawn as one map" and the address, over the first centuries of the map, 1200 by 630 (`cft-website/share/church-family-tree.jpg`). The page now carries Open Graph and Twitter card tags with the title "Church Family Tree" and the description "Twenty centuries of Christian traditions, drawn as one map. Explore and listen, then tell us what you think." (Mark, 2026-11-20: "do we want listen to and explore"), which also replaces the old page description.
+
+## 2026-11-20 — Asking for support: not in the launch posts; a gentle note after ten minutes on the map
+
+**Why.** Mark asked whether the announcement should invite financial support (the "Help us grow" page, Stripe, once or monthly). The launch posts ask pastors and scholars for review; asking for money in the same post weakens both asks.
+
+**Decided (Mark, 2026-11-20: "maybe we dont put it in the launch and we find a way for anyone who spends more than 10 minute we have a popup windo asking to help us grow"; then "Gentle note, once").**
+- The launch posts carry no request for money.
+- After ten minutes of active use (the page visible and in front of the visitor), a small note slides up in the corner, not blocking the map: "Glad you're exploring. If the map is useful to you, you can help it grow.", with "Help us grow" (the support page) and "Not now". It never appears during the tour, while the tour offer shows, or while any audio plays; it waits until they end.
+- After "Not now" or the close button it comes back after another two hours of active use on the site, counted across visits (Mark, 2026-11-20: "no not 30 days, if we say not now, then maybe 2 hours on the site"). After "Help us grow" it does not ask that visitor again. Remembered in the visitor's own browser.
+- Wording follows the support page: "support", never "donate", since payments to Faithways Studio are not charitable donations.
+
+**A line on every card (Mark, 2026-11-20: "we do need contributions and if this is available for free i don't want to be to passive"; then "lets go light for the early release and we can add more after we get everything built, Line on every card").** Every card (tradition, person, council, era, river, story, connection) now ends with "This map is free to use. If it helps you, help it grow.", linking to the support page, above the feedback buttons. The launch posts still carry no request for money. Stronger asks (after a brief ends, a sooner note) wait until the build is complete.
+
+## 2026-11-20 — Built worlds on the tree move to the standard voices, after a rewrite into the narrator's voice
+
+**Why.** Mark: "for the built words can we replace the representitve voices with the standard voices we have chosen (neo and the other)". The 11 built worlds' recordings on the tree (each world's Story, Legacy and documented stories: 122 pieces, about 152,000 characters, `cic-website/audio/worlds/`) are read in each Representative's own voice. The standard tree voices are Daniel for tradition briefs and councils and Neo for stories and Who briefs.
+
+**Decided (Mark, 2026-11-20).**
+- "Church Family Tree only": the tree gets its own Daniel and Neo recordings; Church in Conversation keeps each Representative's voice. The world Story and Legacy go to Daniel, the documented stories to Neo.
+- "Rewrite, then record": 60 of the 122 texts speak in the world's own voice ("our communities", "our tradition", "our church's memory"). Read by the map's narrator, that would claim membership of each church. Each piece is first rewritten into the tree's narrator voice through the brief kit, with quotes rechecked, then recorded after Mark hears a sample. Until then the tree keeps the Representatives' recordings. The writing runs as its own thread (Open-Gaps, "Built worlds in the standard voices").

@@ -4,7 +4,20 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Church Family Tree — Church in Conversation</title>
-<meta name="description" content="Twenty centuries of Christian traditions as one living map — every movement in its era, its family color, its honest status; hover to meet it, click for its full entry.">
+<meta name="description" content="Twenty centuries of Christian traditions, drawn as one map. Explore and listen, then tell us what you think.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Church Family Tree">
+<meta property="og:title" content="Church Family Tree">
+<meta property="og:description" content="Twenty centuries of Christian traditions, drawn as one map. Explore and listen, then tell us what you think.">
+<meta property="og:url" content="https://www.churchfamilytree.com/">
+<meta property="og:image" content="https://www.churchfamilytree.com/share/church-family-tree.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The Church Family Tree map: colored rivers of Christian traditions in the early centuries, with the title Church Family Tree.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Church Family Tree">
+<meta name="twitter:description" content="Twenty centuries of Christian traditions, drawn as one map. Explore and listen, then tell us what you think.">
+<meta name="twitter:image" content="https://www.churchfamilytree.com/share/church-family-tree.jpg">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <style>
 :root{
@@ -118,6 +131,7 @@ svg.who-on #river-names,svg.story-on #river-names{opacity:.2}
   font-size:1.3rem;color:var(--ink-faded);cursor:pointer;line-height:1;padding:.2rem}
 #panel h2{font-family:"Alegreya",serif;font-size:1.3rem;margin:.2rem 0 .1rem}
 #panel .meta{font-style:italic;color:var(--ink-faded);font-size:.88rem;margin:0 0 .8rem}
+#panel .grow-line{margin:1.4rem 0 .4rem;padding-top:.8rem;border-top:1px solid var(--rule);font-size:.92rem;color:var(--ink-faded)}
 #panel .statuspill{display:inline-block;font-family:"Alegreya Sans",sans-serif;
   font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--rule);
   border-radius:999px;padding:.12rem .55rem;margin-bottom:.7rem}
@@ -398,6 +412,18 @@ svg.strip-on #era-labels{display:none}
 @media (max-width:640px){#listenBar .lb-wide{display:none}}
 #tourBox{position:fixed;z-index:72;left:50%;transform:translateX(-50%);bottom:calc(var(--tour-lift,0px) + 1rem + env(safe-area-inset-bottom,0px));width:min(27rem,calc(100vw - 1.5rem));box-sizing:border-box;background:var(--vellum);color:var(--iron-gall);border:1px solid var(--gold-leaf);border-radius:12px;box-shadow:0 8px 28px rgba(0,0,0,.45);padding:.85rem 3rem .9rem 1.1rem;font-family:"Alegreya Sans",sans-serif}
 #tourBox[hidden]{display:none}
+#growAsk{position:fixed;z-index:70;right:calc(var(--grow-right,0px) + 1rem + env(safe-area-inset-right,0px));bottom:calc(var(--grow-lift,0px) + 1rem + env(safe-area-inset-bottom,0px));width:min(19rem,calc(100vw - 2rem));box-sizing:border-box;background:var(--vellum);color:var(--iron-gall);border:1px solid var(--gold-leaf);border-radius:12px;box-shadow:0 8px 28px rgba(0,0,0,.45);padding:.9rem 2.6rem .9rem 1.1rem;font-family:"Alegreya Sans",sans-serif;animation:growIn .35s ease-out}
+#growAsk[hidden]{display:none}
+#growAsk .ga-t{font:700 1.1rem/1.25 "Alegreya",serif;margin:0 0 .25rem}
+#growAsk .ga-b{margin:0 0 .75rem;font-size:1rem;line-height:1.4}
+#growAsk .ga-btns{display:flex;gap:.5rem;flex-wrap:wrap}
+#growAsk .ga-help,#growAsk .ga-later{display:inline-flex;align-items:center;min-height:44px;padding:0 1rem;border-radius:999px;font:700 .95rem "Alegreya Sans",sans-serif;text-decoration:none;cursor:pointer}
+#growAsk .ga-help{border:1px solid var(--gold-leaf);background:var(--tyrian-wash);color:var(--gold-leaf)}
+#growAsk .ga-later{border:1px solid var(--rule);background:none;color:var(--iron-gall)}
+#growAsk .ga-x{position:absolute;top:.3rem;right:.3rem;min-width:44px;min-height:44px;border:0;background:none;color:var(--ink-faded);font-size:1.4rem;line-height:1;cursor:pointer}
+#growAsk a:focus-visible,#growAsk button:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
+@keyframes growIn{from{transform:translateY(12px);opacity:0}to{transform:none;opacity:1}}
+@media (prefers-reduced-motion:reduce){#growAsk{animation:none}}
 #tourBox .tb-count{margin:0;font:700 .78rem "Alegreya Sans",sans-serif;letter-spacing:.09em;text-transform:uppercase;color:var(--gold-leaf)}
 #tourBox.is-offer .tb-count,#tourBox.is-offer #tourText{display:none}
 #tourBox h2{font:700 1.2rem/1.25 "Alegreya",serif;margin:.15rem 0 .3rem;outline:none}
@@ -569,6 +595,7 @@ svg.strip-on #era-labels{display:none}
 <div id="connChip" hidden><button type="button" class="cc-x"><span class="cc-t"></span><span aria-hidden="true">&times;</span></button><ul class="cc-key"><li><i style="background:var(--link-grow)"></i>Grew out of, continued as</li><li><i style="background:var(--link-influence)"></i>Influenced</li><li><i style="background:var(--link-conflict)"></i>Argued against, broke with</li><li><i style="background:var(--link-contact)"></i>In contact with, member of</li></ul></div>
 <div id="barToast" aria-hidden="true"></div>
 <div id="tourRing" hidden></div>
+<aside id="growAsk" role="complementary" aria-labelledby="growTitle" aria-live="polite" hidden><button type="button" class="ga-x" aria-label="Not now">&times;</button><p id="growTitle" class="ga-t">Glad you&rsquo;re exploring.</p><p class="ga-b">If the map is useful to you, you can help it grow.</p><div class="ga-btns"><a class="ga-help" href="support.html">Help us grow</a><button type="button" class="ga-later">Not now</button></div></aside>
 <div id="tourBox" role="dialog" aria-modal="false" aria-labelledby="tourCount tourTitle" aria-describedby="tourText" hidden><p class="tb-count" id="tourCount"></p><h2 id="tourTitle" tabindex="-1"></h2><p id="tourText"></p><div class="tb-btns"><button type="button" class="tb-back">Back</button><button type="button" class="tb-next">Next</button></div><button type="button" class="tb-stop" aria-label="Stop the tour">&times;</button></div>
 <div id="listenBar" role="region" aria-label="Narration" hidden><button type="button" class="lb-play">Pause</button><span class="lb-text"><span class="lb-wide">Listening: </span><span class="lb-name"></span></span><button type="button" class="lb-open" aria-label="Open the card">Open<span class="lb-wide"> the card</span></button><button type="button" class="lb-stop" aria-label="Stop listening">&times;</button></div>
 <div id="zoomHint">Scroll to move &middot; Ctrl + scroll to zoom</div>
@@ -127451,6 +127478,7 @@ function showPanel(page){
   hideTip();
   panel.scrollTop=0;
   lastFocused=document.activeElement;
+  if(!panelBody.querySelector('.grow-line'))panelBody.insertAdjacentHTML('beforeend','<p class="grow-line">This map is free to use. If it helps you, <a href="support.html">help it grow</a>.</p>');
   if(window.PageFeedback)window.PageFeedback.mount(panelBody,page);
   panel.classList.add('open');
   panel.removeAttribute('inert');
@@ -128481,6 +128509,39 @@ document.addEventListener('click',ev=>{
   ev.preventDefault(); ev.stopPropagation(); tourCloseMenus(); startTour(b.dataset.tour);
 },true);
 if(!location.search)setTimeout(()=>{if(!panel.classList.contains('open')&&!whoScope)tourOffer('intro');},1200);
+const GROW_KEY='cft-grow-ask', GROW_FIRST=600, GROW_AGAIN=7200;
+const growAsk=document.getElementById('growAsk');
+const growLoad=()=>{try{const v=JSON.parse(localStorage.getItem(GROW_KEY)||'null');if(v&&typeof v.active==='number')return v;}catch(e){}return {active:0,next:GROW_FIRST,helped:false};};
+const growSave=v=>{try{localStorage.setItem(GROW_KEY,JSON.stringify(v));}catch(e){}};
+const grow=growLoad();
+let growTimer=0;
+function growBusy(){return !!(tour.on||tour.offer)||[...document.querySelectorAll('audio')].some(a=>!a.paused);}
+function placeGrowAsk(){
+  const narrow=narrowScreen();
+  growAsk.style.setProperty('--grow-lift',(narrow?barHeight()+(tray.hidden||panel.classList.contains('open')?0:tray.offsetHeight):0)+'px');
+  growAsk.style.setProperty('--grow-right',(!narrow&&panel.classList.contains('open')?panel.offsetWidth:0)+'px');
+}
+function showGrowAsk(){placeGrowAsk();growAsk.hidden=false;}
+function hideGrowAsk(helped){
+  growAsk.hidden=true;
+  if(helped){grow.helped=true;clearInterval(growTimer);}
+  else grow.next=grow.active+GROW_AGAIN;
+  growSave(grow);
+}
+if(!grow.helped)growTimer=setInterval(()=>{
+  if(document.visibilityState!=='visible'||!document.hasFocus())return;
+  grow.active+=5; growSave(grow);
+  if(growAsk.hidden&&grow.active>=grow.next&&!growBusy())showGrowAsk();
+},5000);
+growAsk.addEventListener('click',ev=>{
+  ev.stopPropagation();
+  if(ev.target.closest('.ga-help'))hideGrowAsk(true);
+  else if(ev.target.closest('.ga-later,.ga-x'))hideGrowAsk(false);
+});
+growAsk.addEventListener('keydown',ev=>{if(ev.key==='Escape'){ev.preventDefault();hideGrowAsk(false);}});
+['pointerdown','wheel','touchstart'].forEach(t=>growAsk.addEventListener(t,ev=>ev.stopPropagation(),{passive:true}));
+window.addEventListener('resize',()=>{if(!growAsk.hidden)placeGrowAsk();});
+
 
 render();
 buildLegend();
