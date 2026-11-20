@@ -4880,3 +4880,11 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 - Wording follows the support page: "support", never "donate", since payments to Faithways Studio are not charitable donations.
 
 **A line on every card (Mark, 2026-11-20: "we do need contributions and if this is available for free i don't want to be to passive"; then "lets go light for the early release and we can add more after we get everything built, Line on every card").** Every card (tradition, person, council, era, river, story, connection) now ends with "This map is free to use. If it helps you, help it grow.", linking to the support page, above the feedback buttons. The launch posts still carry no request for money. Stronger asks (after a brief ends, a sooner note) wait until the build is complete.
+
+## 2026-11-20 — Built worlds on the tree move to the standard voices, after a rewrite into the narrator's voice
+
+**Why.** Mark: "for the built words can we replace the representitve voices with the standard voices we have chosen (neo and the other)". The 11 built worlds' recordings on the tree (each world's Story, Legacy and documented stories: 122 pieces, about 152,000 characters, `cic-website/audio/worlds/`) are read in each Representative's own voice. The standard tree voices are Daniel for tradition briefs and councils and Neo for stories and Who briefs.
+
+**Decided (Mark, 2026-11-20).**
+- "Church Family Tree only": the tree gets its own Daniel and Neo recordings; Church in Conversation keeps each Representative's voice. The world Story and Legacy go to Daniel, the documented stories to Neo.
+- "Rewrite, then record": 60 of the 122 texts speak in the world's own voice ("our communities", "our tradition", "our church's memory"). Read by the map's narrator, that would claim membership of each church. Each piece is first rewritten into the tree's narrator voice through the brief kit, with quotes rechecked, then recorded after Mark hears a sample. Until then the tree keeps the Representatives' recordings. The writing runs as its own thread (Open-Gaps, "Built worlds in the standard voices").
