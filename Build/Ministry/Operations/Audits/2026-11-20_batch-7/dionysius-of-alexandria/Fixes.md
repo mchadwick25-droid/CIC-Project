@@ -38,3 +38,15 @@ None.
 ## Note for the checker
 
 The Chronicle lines added under B2 (43881–43883, 44268–44269) cite `cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt`, which the check names but the sheet's file list does not. I did not add a file entry, since the check did not ask for one. Both line ranges check out in that file ("Alexandrinam ecclesiam … tenuit Dionysius an. xvii"; "XI … episcopus ordinatur Maximus").
+
+## Recheck fixes, applied verbatim
+
+Source: `Recheck.md` (batch 7, 2026-11-20). Each FIX applied with its replacement text as written.
+
+- Section 2, BLOCKING 1 (order, Basil first): `Outline.md`, "What came" item 1 (line 55). Basil's sentence now precedes Rufinus's sentence, Rufinus's cite now "(I1, D3)". Applied.
+- Section 3, Chronicle file, replacement 1: `Source_Sheet.md`, new CHRON line after the C7 line (line 14). Applied.
+- Section 3, replacement 2: `Source_Sheet.md`, D4 (line 114): "(CHRON 43881–43883, manuscripts vary)" and "(CHRON 44268–44269)". Applied.
+- Section 3, replacement 3: `Outline.md`, "Who tells it" (line 102): same CHRON prefixes. Applied.
+- Section 3, replacement 4: `Outline.md` line 3: "RUF Rufinus's Latin; CHRON Eusebius's *Chronicle* in Jerome's Latin." Applied.
+
+NOT APPLIED: none.

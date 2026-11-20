@@ -25,3 +25,18 @@ Applied from `Outline_Check.md`. Line numbers are `Outline.md`'s after the fixes
 ## Not applied
 
 None.
+
+## Recheck fixes, applied verbatim
+
+Source: `Recheck.md` (batch 7, 2026-11-20). Each FIX applied with its replacement text as written.
+
+- Section 2, "The same order left in three other fields", "Also told" (`Outline.md` line 10): applied.
+- Section 2, "Who tells it" (`Outline.md` line 106): applied.
+- Section 2, "Connection" (`Outline.md` line 87): applied.
+- Section 3, M6, "Also told" (`Outline.md` line 8): "copper mines" to "mines of Palestine". Applied.
+- Section 3, M6, beat 5 (`Outline.md` line 50): applied.
+- Section 3, M6, sheet E9 (`Source_Sheet.md` line 65): applied.
+- Section 3, M1 and M8, gloss list (`Outline.md` line 12): "martyr" to "the twelve prophets". Applied.
+- Section 3, M1 and M8, word count (`Outline.md` line 12): "about 300 words" to "about 335 words". Applied.
+
+NOT APPLIED: none.

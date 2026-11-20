@@ -33,3 +33,12 @@ None.
 ## Open for Mark
 
 The length cannot fit about 3:30, or under about 4:00, without cutting the record's force. The check's cut list removes about 115 words, and the plan still runs about 940 words, about 6:15. The rest is the credited charges, the three quotes and the Nicaea scene, which the check and the heart keep. Bringing it under four minutes needs a ruling on what else goes, or a longer approved time. None of the fixes changes the approved heart in substance.
+
+## Recheck fixes, applied verbatim
+
+Source: `Recheck.md` (batch 7, 2026-11-20). Each FIX applied with its replacement text as written.
+
+- Section 3, M1, Quote 3's Greek (`Outline.md` line 63): comma after Ἀκέσιε removed, per the Hussey print. Applied.
+- Section 3, M2, the lapsed gloss (`Outline.md` line 21): the first option taken (the "paid for a certificate" wording, cite ANF 33695–33708). The second option (dropping the papers clause) was not used. "One clause." left as it stood. Applied.
+
+NOT APPLIED: none.

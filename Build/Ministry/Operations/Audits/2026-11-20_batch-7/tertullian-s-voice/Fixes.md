@@ -59,3 +59,17 @@ Applied from `Outline_Check.md` (2026-11-20). Lines are the files as they now st
 ## Not applied
 
 - **B6**, only the cut of Lactantius in What came 3. He stays in one clause, because the approved heart names him (see Worded by me).
+
+## Recheck fixes, applied verbatim
+
+Source: `Recheck.md` (batch 7, 2026-11-20). Each FIX applied with its replacement text as written.
+
+- Section 1, B1 essence (`Outline.md` line 5): "and the one who left the deepest mark" removed, and the note's "ANF4 17042" changed to "ANF4 17041–17042". Applied.
+- Section 1, B1 Do not say (`Outline.md` line 134): replaced as given. Applied.
+- Section 1, "whose works are lost": `Outline.md` line 17 ("Language:" line) clause removed. Applied.
+- Section 1, "whose works are lost": `Outline.md` line 100 clause removed. Applied.
+- Section 1, "whose works are lost": `Source_Sheet.md` line 126 ", whose Latin works are lost" deleted. Applied.
+- Section 2, B2 (`Outline.md` line 11): "though a modern historian finds that not borne out" added as given. Applied.
+- Section 2, B5 (`Outline.md` line 77): first version of the Oehler note deleted; the check's sentence and the card plan after it kept. Applied.
+
+NOT APPLIED: none.

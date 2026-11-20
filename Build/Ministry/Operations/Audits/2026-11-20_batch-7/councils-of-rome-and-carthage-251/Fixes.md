@@ -31,3 +31,13 @@ Fixer, batch 7, 2026-11-20. Applied from `Outline_Check.md`. Line numbers are th
 ## Not applied
 
 None.
+
+## Recheck fixes, applied verbatim
+
+Source: `Recheck.md` (batch 7, 2026-11-20). Each FIX applied with its replacement text as written.
+
+- Section 2, extra item, Carthage's rival bishops (`Outline.md` line 11): "Carthage had rival bishops for both sides (E12). " deleted. Applied.
+- Section 2, extra item, "With his friends" in the Quotes list (`Outline.md` line 59): `"With his friends", ` deleted, and the next phrase capitalized so the list begins "Another persecution", as the FIX states. Applied.
+- Section 2, extra item, "With his friends" in "Also told" (`Outline.md` line 7): `some for a man "with his friends"` removed, as given. Applied.
+
+NOT APPLIED: none.

@@ -47,3 +47,12 @@ Applied from `Outline_Check.md` (verdict FIX: B1, M1–M14). Line numbers are in
 
 - Also told (`Outline.md` 7) still lists paying and fleeing, and those who rushed forward. No finding asked for a change there, and it is the approved heart. Beats now leave both to the card.
 - B1's "Keep that sentence credited to the book, never in the narrator's voice": the sentence was already credited ("saying that ...", "the editor Nikodemos's view"), so nothing was added.
+
+## Recheck fixes, applied verbatim
+
+Source: `Recheck.md` (batch 7, 2026-11-20). Each FIX applied with its replacement text as written.
+
+- Section 1, M6, jail citation (`Outline.md` line 48): "Many bishops of Egypt were jailed (M1)." to "Bishops of Egypt were jailed (M1)." Applied.
+- Section 3, extra item, "Also told" paying and fleeing (`Outline.md` line 7): the last three sentences replaced by the two sentences given. Applied.
+
+NOT APPLIED: none.

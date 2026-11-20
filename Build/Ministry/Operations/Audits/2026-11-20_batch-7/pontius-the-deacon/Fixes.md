@@ -34,3 +34,11 @@ Findings from `Outline_Check.md`, applied to `Outline.md` and `Source_Sheet.md`.
 ## Not applied
 
 - **MINOR 1, "Harnack in beat 3" as a firm cut.** Beat 3 tells Pontius's reading of the dream (Outline line 35). Harnack is the held witness who rejects that reading (Source_Sheet E5 and D6; HAR 1379–1380). The check's own Rulings section lists "the dream's meaning (Pontius against Harnack)" as one of the disagreements the 2026-11-19 ruling requires the story to credit (Outline_Check line 24). Cutting Harnack would leave only Pontius's side. Beat 3's Harnack sentence stands as it was, still marked "may be cut", and Names lists Harnack in beat 3.
+
+## Recheck fixes, applied verbatim
+
+Source: `Recheck.md` (batch 7, 2026-11-20). Each FIX applied with its replacement text as written.
+
+- Section 3, Harnack in beat 3 (`Outline.md` line 35): "(E5; credit him; may be cut)" replaced by "(E5; HAR 1379–1380; credit him; do not cut: the ruling of 2026-11-19 requires both readings)". Applied.
+
+NOT APPLIED: none.

@@ -30,3 +30,11 @@ Applies `Outline_Check.md` (batch 7, 2026-11-20) to `Outline.md` and `Source_She
 None.
 
 Noted, no change asked: the check's "Smaller sheet fault (card)" (E8 puts AN 5162 in Book VI; it is Book V, ANF ch. XX, AN 5130). The check gives no correction and says the story is not affected, so Source_Sheet 61 is unchanged.
+
+## Recheck fixes, applied verbatim
+
+Source: `Recheck.md` (batch 7, 2026-11-20). Each FIX applied with its replacement text as written.
+
+- Section 3, E8's Book VI slip (`Source_Sheet.md` line 61): the Book V and Book VI entries replaced as given. Applied.
+
+NOT APPLIED: none.

@@ -30,3 +30,13 @@ Applied from `Outline_Check.md` (batch 7, 2026-11-20). Line numbers are those of
 ## Not applied
 
 - **9, the optional clause for What came 4** ("even a historian of Arius's own party praised his history and faulted his beliefs"). The check makes it optional. I left it out. The held line (Photius's summary, line 84) calls the history "an encomium on the heretical party", not Arius's own party. The clause would also add a new witness to the third of the story the cut-first list already trims. The sheet entry, which the check requires, is applied.
+
+## Recheck fixes, applied verbatim
+
+Source: `Recheck.md` (batch 7, 2026-11-20).
+
+- Section 1, item 9 (`Source_Sheet.md` line 122): NOT APPLIED. The FIX's old string, "(Photius calls the history "an encomium on the heretical party", line 84)", is not in the file. The sheet reads `; Photius calls the history "an encomium on the heretical party", line 84).` (a semicolon, no opening parenthesis). Left unchanged, since the old string was not found exactly.
+
+NOT APPLIED: Section 1, item 9, `Source_Sheet.md` line 122, citation line 84 to 82. Reason: old string not found exactly.
+
+- Eusebius recheck FIX (line 84 to 82): applied by the coordinator after the verbatim pass missed it (the sheet reads "; Photius calls ... line 84)"). Line 82 confirmed in `cic/texts/philostorgius_ecclesiastical-history_walford1855.txt`.

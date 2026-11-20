@@ -40,3 +40,11 @@ None.
 ## Noted, not changed
 
 - Also told, line 11: "The nineteen-year cycle became Alexandria's and spread (I1; Dominant Modern Reconstruction)" is unqualified, which is close to what B1 corrects elsewhere. The check names only the Connection and What came 1, so I left this line as it was. It is for the recheck to decide.
+
+## Recheck fixes, applied verbatim
+
+Source: `Recheck.md` (batch 7, 2026-11-20). Each FIX applied with its replacement text as written.
+
+- Section 2, extra item, "Also told" / "What came of it" (`Outline.md` line 11): "The nineteen-year cycle became Alexandria's and spread (I1; Dominant Modern Reconstruction)." replaced by the sentence given. Applied.
+
+NOT APPLIED: none.
