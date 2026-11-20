@@ -73,9 +73,9 @@ Rome's decree is held in Greek only in a damaged scan (EUSG); 'strangers' and 'm
 - Eusebius of Caesarea: link, or by role ("a historian who kept Cornelius's letters"). Census "Eusebius of Caesarea".
 - Dionysius of Alexandria: not named (Alexandria cut for length, for the card). Census "Dionysius of Alexandria".
 - Hefele: by role, "a historian of the councils", unless named once for the dates.
-- Anyone else by role: "one of the confessors" (Lucianus), "a bishop in Africa" (Antonianus), "a rival bishop for each side" (Maximus, Fortunatus), "an old man" (Serapion, if told), "Rome's bishop" for Fabian if needed.
+- Anyone else by role: "one of the confessors" (Lucianus), "Rome's bishop" for Fabian if needed.
 
-Past six names: Cyprian, Cornelius, Novatian and Socrates carry the story; Decius is a date; Felicissimus, Eusebius, Dionysius and Hefele can each go to a role.
+Past six names: Cyprian, Cornelius, Novatian and Socrates carry the story; Decius is a date; Felicissimus, Eusebius and Hefele can each go to a role.
 
 **Connection to carry into the story:** what passed from these councils was a rule and a split. The rule: the fallen could come back, but only after long penance, with each case examined by the bishops, and the dying who repented were not to be sent away without peace (E6; EP 7584–7610, 7978–7984). The split: those who would give back no communion at all to anyone who had sacrificed formed their own church, which held to that rule for centuries (E7, I1; SOC 14059–14061, 14088–14090). At Nicaea in 325 the bishops required that church's clergy, if they came over, to share communion with the lapsed who had done their penance (I1; NIC 3769–3777). The listener must understand three things. First, that the quarrel was over who may come back to communion, not over what Christians believed of God; both sides left the final judgment to God (Cyprian: "we do not prejudge the Lord who will judge", E6, paraphrase; Novatian: "leave their pardon to God", Quote 2), and differed on whether the church could give back its fellowship. Second, what the strict side refused: the councils would take back to communion, after penance or at death, people who had sacrificed to the gods; Novatian's party held that the church could not give that back, and left their pardon to God alone. Third, that the terms were neither lax nor fixed: Carthage refused those who repented only on their deathbed, and a year later gave peace to all who had kept repenting because a new persecution was coming. Tell it through what the bishops decided and what Novatian's church kept, not as a "this matters because" sentence.
 
@@ -87,8 +87,8 @@ Past six names: Cyprian, Cornelius, Novatian and Socrates carry the story; Deciu
 - Novatian: the rival bishop; cut off at Rome (E7, E8).
 - Socrates of Constantinople: reported Novatian's rule and his church's later life (E7, I1).
 - Eusebius of Caesarea: kept Cornelius's report of the Rome council (E8).
-- Dionysius of Alexandria: wrote of Serapion and of peace for the dying (I3). Optional.
-- Council of Nicaea: set terms for Novatian's clergy; set its own rules for the fallen (I1, I2).
+- Dionysius of Alexandria: wrote of Serapion and of peace for the dying (I3). Not told; cut for length, for the card.
+- Council of Nicaea: set terms for Novatian's clergy (I1). Its own rules for the fallen (I2) are for the card.
 - Peter of Alexandria: his rules of 306 for the fallen also measured each case; no held source ties them to 251. Not linked aloud.
 
 **Who tells it**
@@ -97,8 +97,8 @@ Past six names: Cyprian, Cornelius, Novatian and Socrates carry the story; Deciu
 - **The confessors** themselves, in one short letter to Cyprian (E3). Paraphrase, credited.
 - **Eusebius**, about 325, summing up Cornelius's lost letters (E8). Credit Rome's decree to "Eusebius, from Cornelius's letters"; Cornelius wrote as Novatian's rival.
 - **Socrates**, about 439, kind to Novatian's church, reporting Novatian's letters (E7, I1). Credit Quote 2 and the later life of the church to him.
-- **Hefele**, a modern historian of the councils (S4, E6, E11). Credit the months, the year 252 and "the first book of penance rules" to him.
-- **Dionysius of Alexandria**, in his own time (I3). Optional.
+- **Hefele**, a modern historian of the councils (S4, E6, E11). Credit the months (Setting) and the year 252 to him.
+- **Dionysius of Alexandria** (I3): not told; Alexandria is cut for length, for the card.
 - The record's gap is itself worth one clause: the council's own book is lost.
 
 **Do not say**
@@ -116,11 +116,11 @@ Past six names: Cyprian, Cornelius, Novatian and Socrates carry the story; Deciu
 - Not "Felicissimus was a traitor" or similar in the narrator's voice. "Cyprian says" (E5).
 - Not "the confessors defied Cyprian" as the narrator's judgment. Tell what their letter said (E3).
 - Not the council's months as fact. "Probably May" and "probably October", by Hefele's dating (S4).
-- Not "the first penitential book" in the narrator's voice. "Hefele calls it" (E6).
-- Not "Nicaea followed Carthage" or "Nicaea adopted the rules of 251", or any "so" or "because" linking them. Tell Nicaea's canons as Nicaea's (I2).
+- Not "the first penitential book" in any voice: Hefele's phrase is for the card (E6).
+- Not "Nicaea followed Carthage" or "Nicaea adopted the rules of 251", or any "so" or "because" linking them. Tell only Nicaea's term for Novatian's clergy (I1); its own rules for the fallen (I2) are for the card.
 - Not "the Novatians were heretics" in the narrator's voice. The Rome decree held them "strangers" to the church: credit it (E8).
 - Not "Novatian's church lasted until the fifth century" or "the sixth". Say "for centuries" (`novatian` sheet D9).
-- Not "Cyprian changed his mind" as fact, nor that he never did. Tell the charge and his answer, each credited (E9). In 252 the African bishops did change the terms, and said why (E11).
+- Not "Cyprian changed his mind" as fact, nor that he never did. The charge and his answer (E9) are for the card. In 252 the African bishops did change the terms, and said why (E11).
 - Not "the pope" or "the papacy" for Cornelius. "The bishop of Rome".
 - Not "Novatian's oath", "the three bishops", "the oath at the Lord's table", *On the Trinity*, Acesius or "the ladder": Novatian's story.
 - Not "knock at the doors" or "threshold" as a quote or image: Novatian's Quote 1.

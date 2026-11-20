@@ -54,3 +54,27 @@ Ruling: "Batch 7: lengths held to four minutes, four and a half at most". The ch
 
 Kept uncut: the essence and also told, the opening, the three causes of the fire, the killings, Q2, the children, the authorship said once, Crispus, Jerome's praise and charge, Augustine, "exact and partisan", Q3.
 - Leave out: "the governor's joy" removed from its closing list of force kept in the story, since it is now on the card.
+
+## Cut check fixes, items 2 to 4, applied verbatim
+
+Source: `Cut_Check.md`, 2026-11-20. Length FIXes (item 5) and all Length lines are not applied here.
+
+- Item 2 (credited disagreements): 2 FIX edits applied.
+  - Words to explain, Eusebius line in Links: `one sentence on the fire; may be dropped with D3.` replaced with `one clause on the fire (D3); never dropped.`
+  - Names, "Past six names" line: `Eusebius is the first to drop, but only with the whole fire disagreement, which is kept.` replaced with `Eusebius stays with the fire disagreement (D3), which is never cut.`
+- Item 3 (card list and source lines): PASS, no FIX.
+- Item 4 (quotes, order, told once): 14 FIX edits applied.
+  - Essence/What it says: `Religion is "carried on by words rather than by blows", and must be defended by dying, not killing (Q2).` replaced with `Religion cannot be forced, and must be defended by dying, not killing (Q2).`
+  - Words to explain: deleted the whole `**the forum**` line.
+  - Words to explain, Great Persecution: gloss replaced with `"the persecution of the Christians that Diocletian and Galerius began at Nicomedia in 303" (S5, E2).`
+  - Words to explain: deleted the whole `**apocrypha**` line.
+  - Sibling, `constantine-the-great`: `Here the dream is a clause at most, inside *the Persecutors* (E12), and Milan` replaced with `Here the dream is not told (cut for length, for the card), and Milan`.
+  - Names, "By role, not by name" line: `Arnobius ("a rhetorician of Sicca")` replaced with `Arnobius ("a rhetorician in Africa")`; deleted `, Gelasius ("a later list, put under a pope's name")`.
+  - Links: `Constantine: father of his pupil; addressed in some copies of the *Institutes*; his dream is told in *the Persecutors*.` replaced with `Constantine: father of his pupil.`; deleted ` John Calvin: cited him.`
+  - Who tells it, Lactantius himself: replaced with `- Lactantius himself, in the *Institutes* (his own time): his trade, Bithynia, the two writers, his method, the book's ideas.`
+  - Who tells it, Eusebius: `the man who tore down the edict; he did not know the fire's cause.` replaced with `he did not know the fire's cause.`
+  - Who tells it, Monceaux: `"exact and partisan", his wide reading in the Middle Ages.` replaced with `"exact and partisan".`
+  - Do not say, address to Constantine: gloss replaced with `→ not told; the address and its dispute are for the card (D4).`
+  - Do not say: deleted the whole `"barbarian"` line.
+
+NOT APPLIED: none.

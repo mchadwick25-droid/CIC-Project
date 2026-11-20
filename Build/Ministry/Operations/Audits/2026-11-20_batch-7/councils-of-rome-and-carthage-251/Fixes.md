@@ -59,3 +59,22 @@ Ruling: "Batch 7: lengths held to four minutes, four and a half at most". From a
 - What came 3 (Alexandria, Serapion): it was already marked for the card. The item was removed from the beats and listed in the card section. The Sibling field and the Dionysius name line were updated to match.
 
 Kept, per point 2: the essence and Also told (Hearts.md), the confessors' pardons and Felicissimus's party, Cyprian's wait, the three terms with the deathbed refusal, the cut-off, the lost book, Novatian's rule (Quote 2) with Socrates credited, D1 credited both ways, "strangers" and "medicines of repentance", the 252 peace (Quote 3), and Novatian's church with Nicaea's term (the connection).
+
+## Cut check fixes, items 2 to 4, applied verbatim
+
+Source: `Cut_Check.md`, 2026-11-20. Length FIXes (item 5) and all Length lines are not applied here.
+
+- Item 2 (credited disagreements): PASS, no FIX.
+- Item 3 (card list and source lines): PASS, no FIX.
+- Item 4 (quotes, order, told once): 9 FIX edits applied.
+  - Who tells it, Hefele bullet: `Credit the months, the year 252 and "the first book of penance rules" to him.` replaced with `Credit the months (Setting) and the year 252 to him.`
+  - Who tells it, Dionysius bullet: `- **Dionysius of Alexandria**, in his own time (I3). Optional.` replaced with `- **Dionysius of Alexandria** (I3): not told; Alexandria is cut for length, for the card.`
+  - Links, Dionysius line: `(I3). Optional.` replaced with `(I3). Not told; cut for length, for the card.`
+  - Links, Council of Nicaea line: replaced with `- Council of Nicaea: set terms for Novatian's clergy (I1). Its own rules for the fallen (I2) are for the card.`
+  - Do not say, "the first penitential book" line: replaced with `- Not "the first penitential book" in any voice: Hefele's phrase is for the card (E6).`
+  - Do not say, "Nicaea followed Carthage" line: `Tell Nicaea's canons as Nicaea's (I2).` replaced with `Tell only Nicaea's term for Novatian's clergy (I1); its own rules for the fallen (I2) are for the card.`
+  - Do not say, "Cyprian changed his mind" line: `Tell the charge and his answer, each credited (E9).` replaced with `The charge and his answer (E9) are for the card.`
+  - Names, "Anyone else by role" line: deleted `"a bishop in Africa" (Antonianus), "a rival bishop for each side" (Maximus, Fortunatus), "an old man" (Serapion, if told), `.
+  - Names, "Past six names" line: `Felicissimus, Eusebius, Dionysius and Hefele` replaced with `Felicissimus, Eusebius and Hefele`.
+
+NOT APPLIED: none.

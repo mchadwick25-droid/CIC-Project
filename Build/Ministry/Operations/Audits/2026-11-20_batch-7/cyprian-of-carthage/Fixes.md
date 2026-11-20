@@ -55,3 +55,14 @@ Outline brought from about 4:30 (675 words) to about 3:55 (590 words). Each cut 
 - What came 3: Jerome's praise of his works.
 - Length field rewritten with the new count, part by part.
 Kept, as heart, force or credited disagreement: the Roman clergy's letter and his reply, Stephen's words, his sharpness toward Stephen, the Cappadocian bishop's report, D4 and D2 with each witness in one clause, the governor's sentence, "Thanks be to God", the crowd's cry, all three quotes whole.
+
+## Cut check fixes, items 2 to 4, applied verbatim
+
+Source: `Cut_Check.md`, 2026-11-20. Length FIXes (item 5) and all Length lines are not applied here.
+
+- Item 2 (credited disagreements): PASS, no FIX.
+- Item 3 (card list and source lines): PASS, no FIX.
+- Item 4 (quotes, order, told once): 1 FIX applied.
+  - Who tells it, "The court record" bullet: `for the eye-binding, the gold pieces and the burial, say "the account of his death".` replaced with `for the eye-binding and the burial, say "the account of his death".`
+
+NOT APPLIED: none.

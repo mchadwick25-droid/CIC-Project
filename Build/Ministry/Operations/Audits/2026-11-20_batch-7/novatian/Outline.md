@@ -4,15 +4,15 @@ Sheet items (S, E, I, D) are in `Source_Sheet.md`, which gives the file and line
 
 - **The essence:** Novatian was a leading elder of the church at Rome and a writer on the faith; his *On the Trinity* set out what the church believed of Father, Son and Spirit (E2; the book Documented; "leading" Widely Accepted, from Cornelius's sneer and Harnack, E2, E5). In 251 a stricter party made him a rival bishop of Rome against Cornelius, and he led a church that would not take back to communion those who had denied the faith under persecution; it left their pardon to God (E5, E8; Documented). That church lasted for centuries, and almost all we know of him comes from the men who fought him (S3, I1, I2; Witness kinds; Documented).
 - **Also told:**
-  - **The book.** *On the Trinity* follows the church's short summary of faith, the "rule of truth": God the Father, maker of all; the Son, truly man and truly God; the Father and Son two, not one person under two names; then the Spirit (E2; Documented). Its date is uncertain: one historian puts it in the 240s, older editors after 256 (D1; Contested). It survived under Tertullian's name (Harnack, HARN 22499–22500), and some took it for Cyprian's (Wallis, ANF-ed 60400–60403). Jerome named Novatian as its author (I3; Widely Accepted).
+  - **The book.** *On the Trinity* follows the church's short summary of faith, the "rule of truth": God the Father, maker of all; the Son, truly man and truly God; the Father and Son two, not one person under two names; then the Spirit (E2; Documented). Its date is uncertain (D1; Contested).
   - **His own letter of 250.** With no bishop at Rome, he wrote for its clergy that those who had given way must wait, with tears, for a bishop and a council; meanwhile the dying who repented should be helped (E4; Documented; authorship by Cyprian's word, Widely Accepted). Quote 1.
-  - **The election and the charges.** In 251 Cornelius was chosen; a stricter party, with confessors who had been jailed for the faith, set Novatian up against him (E5; Documented). Everything on how it happened comes from Cornelius, his rival: sworn oaths never to seek the office, three country bishops brought to Rome and, he says, made drunk; and earlier, a sickbed baptism and a refusal to help in the persecution (E1, E3, E5; Cornelius's charges; McGiffert calls some of them slander). Novatian said he had been pushed into it against his will (E7; his claim, reported by Dionysius).
-  - **His rule and the break.** He and his church would not admit to communion those who had sacrificed; they were urged to repent and their pardon left to God (E8, I1; Documented, Socrates and Acesius). Cyprian answered that this told the fallen to weep day and night and then die outside the church (E8; Documented, as his attack). At Rome sixty bishops declared him outside the church (E9; a clause). His church spread to Gaul and the East, called itself "the pure", and baptized again those who joined it (S3, E10; Documented).
+  - **The election and the charges.** In 251 Cornelius was chosen; a stricter party, with confessors who had been jailed for the faith, set Novatian up against him (E5; Documented). Everything on how it happened comes from Cornelius, his rival: sworn oaths never to seek the office, three country bishops brought to Rome and, he says, made drunk; and earlier, a refusal to help in the persecution (E1, E3, E5; Cornelius's charges; McGiffert calls some of them slander). Novatian said he had been pushed into it against his will (E7; his claim, reported by Dionysius).
+  - **His rule and the break.** He and his church would not admit to communion those who had sacrificed; they were urged to repent and their pardon left to God (E8, I1; Documented, Socrates and Acesius). Cyprian answered that this told the fallen to weep day and night and then die outside the church (E8; Documented, as his attack). At Rome sixty bishops declared him outside the church (E9; a clause). His church spread, with bishops of its own in many cities, called itself "the pure", and baptized again those who joined it (S3, E10; Documented).
   - **Acesius and the ladder.** At Nicaea in 325, Acesius, a bishop of Novatian's church, accepted the creed and the Easter date, and explained his church's rule; Constantine answered with the ladder (I1; Documented as Socrates's report from an old man who was there). Quote 3. The council set terms for receiving his church's clergy (I1; Documented).
 - **Length:** about 4 minutes 10 (about 625 words at 150 a minute; Mark's ruling, 2026-11-20: about 4:00, 4:30 at most). Counted first: three quotes, Quote 2 trimmed to two sentences (about 60 words); the plain sense of the words to explain (about 55); the witnesses credited (Cyprian twice, Cornelius as rival, McGiffert by role, Dionysius, Socrates and his old informant, Sozomen by role: about 80). Part by part: opening with Quote 1 about 70, essence 60, beat 1 45, beat 2 with Quote 2 120, beat 3 85, beat 4 30, What came 1 with Quote 3 130, What came 2 35, ending 45: about 620 words. Why: nearly every claim about his life must carry the name of the enemy who made it, and the job runs from 250 to Nicaea in 325 and Rome in the 420s. Never cut Cornelius's oath charge or Cyprian's answer: that is the record's conflict. Cut items are under "For the card, not the story". Where Also told names the sickbed baptism, Gaul and the East, the date of the book or its survival under other names, the story carries only what the beats hold; the rest is on the card.
 - **Setting:**
   - Time: before 250 (E1, E2); 250, the persecution under the emperor Decius, Rome without a bishop for over a year (S1, E4); 251, the rival election and the council at Rome (E5, E9); the spread, 251 to about 257 (E10); Nicaea, 325 (I1); Rome, until about 422 (I2). Plain words: "in the middle of the third century".
-  - Place: Rome (S2). Then Carthage, Alexandria, Arles in Gaul, Antioch, Phrygia, Nicaea and Constantinople, each a clause (E6, E7, E10, I1, I2). Plain words: "Rome".
+  - Place: Rome (S2). Then Carthage, Alexandria and Nicaea, each a clause (E4, E7, I1). Plain words: "Rome".
   - Tradition: the tree's name is "Novatianism" (S3). His followers called themselves the Cathari, "the pure" (S3). Say "Novatian's church" aloud.
 
 **Words to explain** (the first time each is heard; plain word or short gloss, worked into the sentence)
@@ -69,8 +69,8 @@ Only Quotes 1–3 are quoted aloud. Every other line here is told in the narrato
 - Acesius: acts. Not on the tree.
 - Socrates of Constantinople: link (the witness for Acesius, the rule and the death). Census "Socrates of Constantinople".
 - Decius: for the date only ("the emperor Decius"). Not on the tree.
-- Optional, by role unless the story needs the link: Eusebius of Caesarea ("the historian who kept Cornelius's letter"), Jerome ("a scholar a century later"), Sozomen ("a later historian"), Harnack ("a German historian"), McGiffert ("an American historian who edited Eusebius").
-- Anyone else by role: "Rome's bishop" (Fabian), "the confessors" (Maximus and the others), "a bishop at Arles in Gaul" (Marcianus), "Antioch's bishop" (Fabius), "an old man of Novatian's church" (Auxanon), "a bishop of Rome" (Celestine).
+- Optional, by role unless the story needs the link: Eusebius of Caesarea ("the historian who kept Cornelius's letter"), Sozomen ("a later historian"), McGiffert ("an American historian who edited Eusebius").
+- Anyone else by role: "Rome's bishop" (Fabian), "the confessors" (Maximus and the others), "an old man of Novatian's church" (Auxanon), "a bishop of Rome" (Celestine).
 
 Past six names: Novatian, Cornelius, Cyprian, Dionysius, Constantine, Acesius and Socrates each act or link. Socrates may go to a role ("a historian a century later") if the story runs long.
 
@@ -80,15 +80,15 @@ Past six names: Novatian, Cornelius, Cyprian, Dionysius, Constantine, Acesius an
 
 **Links**
 
-- Cyprian of Carthage: refused his envoys; named him the writer of the letter of 250; wrote against his rule (E4, E6, E8).
-- Dionysius of Alexandria: wrote to him to step down; later attacked him (E7, E10).
+- Cyprian of Carthage: named him the writer of the letter of 250; wrote against his rule (E4, E6, E8).
+- Dionysius of Alexandria: wrote to him to step down (E7).
 - Councils of 251: the Rome council declared him outside the church (E9).
 - Socrates of Constantinople: recorded his rule, his death and Acesius (E8, E12, I1).
 - Constantine the Great: answered his church's bishop with the ladder (I1).
 - Council of Nicaea: set terms for his church in canon 8 (I1).
 - Eusebius of Caesarea: kept Cornelius's and Dionysius's letters (EUS 38361–38378). By role.
-- Jerome: named him the author of *On the Trinity* (I3). By role.
-- Tertullian: his book survived under Tertullian's name (I3). Not told, or one clause.
+- Jerome: named him the author of *On the Trinity* (I3). By role. Not told (card).
+- Tertullian: his book survived under Tertullian's name (I3). Not told (card).
 - Hippolytus of Rome: a later bishop's verse placed Hippolytus in Novatian's split; told in Hippolytus's story. Not told here.
 - Sozomen, Ambrose of Milan: later witnesses (I1, I2). By role or not told.
 
@@ -97,10 +97,10 @@ Past six names: Novatian, Cornelius, Cyprian, Dionysius, Constantine, Acesius an
 - **Novatian himself**, in *On the Trinity* (date uncertain) and in the letter of 250 he wrote for the Roman clergy (E2, E4). Say once that the letter is his by Cyprian's word.
 - **Cornelius**, his rival, in letters of 251 to the bishop of Antioch, kept only by Eusebius (E1, E3, E5, E8). Say once, inside the sentence that brings him in, that he writes as Novatian's rival; credit each charge as his ("Cornelius charged", "by Cornelius's account"). Where McGiffert rejects a charge, give that once, by role.
 - **Cyprian**, bishop of Carthage, who took Cornelius's side (E4, E6, E8, E10). Credit his attacks as his.
-- **Dionysius of Alexandria**, writing to him in 251 and of him about 257 (E7, E10).
+- **Dionysius of Alexandria**, writing to him in 251 (E7).
 - **Socrates**, about 439, with sources in Novatian's church and a kindness to it (E8, E12, I1, I2). Credit the rule, the Acesius scene, Rome in the 420s and the martyrdom to him; for Acesius, say he had it from an old man who was there.
 - **Sozomen**, a little later, retelling Socrates (I1). Optional.
-- **Jerome**, about 392 and 402 (I3). By role.
+- **Jerome**, about 392 and 402 (I3). Not told (card).
 - **The whole life rests on his enemies**: say so once, in the essence or at the start of beat 2, inside a sentence about Cornelius, where it matters. Not as a stock how-we-know sentence.
 
 **Do not say**
@@ -133,7 +133,7 @@ Past six names: Novatian, Cornelius, Cyprian, Dionysius, Constantine, Acesius an
 **Leave out**
 
 - *On the Jewish Meats* and Jerome's list of his other works: for the card.
-- The sickbed baptism's "Satan dwelt in him" and the exorcists (E1): Cornelius's demon story; at most "by his rival's account he was baptized on his sickbed".
+- The sickbed baptism's "Satan dwelt in him" and the exorcists (E1): Cornelius's demon story; the sickbed baptism itself is for the card.
 - The confessors' return to Cornelius in detail (ANF Ep. 45): the tradition entry `novatianism` holds it in its `documentedStories`; the councils of 251 may carry it. Here at most one clause.
 - The African council, Felicissimus, and the terms for the lapsed at Carthage: `councils-of-rome-and-carthage-251`.
 - Cyprian's quarrel with Stephen over baptism given outside the church: `cyprian-of-carthage`. Here only "they baptized again those who came over".
@@ -165,3 +165,5 @@ Past six names: Novatian, Cornelius, Cyprian, Dionysius, Constantine, Acesius an
 - Socrates's remark that no other writer recorded the Acesius scene (I1; SOC 3725–3727).
 - Canon 8's clause that a Novatian bishop would not be a second bishop in a city (I1; NIC 3784–3791).
 - Valesius's report that the Novatians' book of his martyrdom made him only a confessor (D6; SOC-ed 14134–14141).
+- Cornelius's detail that the three bishops were shut up with men of Novatian's choosing (E5; EUS 38530).
+- Cyprian's detail that Novatian read aloud what he had written in the letter of 250 (E4; EP 7570–7573).

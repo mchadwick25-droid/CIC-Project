@@ -88,3 +88,25 @@ Outline was about 5:00 (750 words); now about 4:10 (about 625). Every cut item i
 - What came 3: Vincent of Lérins and Hilary → card (not in the approved heart; Augustine's verdict carries the judgment). Also told, Names, Connection, Who tells it and the phrase list matched. Lactantius kept in one clause.
 - What came 4: "still well known" → card.
 - Length field rewritten.
+
+## Cut check fixes, items 2 to 4, applied verbatim
+
+Source: `Cut_Check.md`, 2026-11-20. Length FIXes (item 5) and all Length lines are not applied here.
+
+- Item 2 (credited disagreements): PASS, no FIX.
+- Item 3 (card list and source lines): 1 FIX applied. Bullet added at the end of "For the card, not the story":
+  - `- The church of the Spirit forgives "by means of a spiritual man" (E8; ANF4 9542–9545).`
+- Item 4 (quotes, order, told once): 10 FIX edits applied.
+  - Quotes, Quote 1 (opening): `the truth should reach them by the hidden road of silent writing. She asks one thing only: not to be condemned unknown. Then the essence.` replaced with the two separate quotes and "Never run the two as one quote. Then the essence."
+  - Quotes, Quote 2 rendering: the rendering with four `[…]` cuts replaced with the three closed spans (a), (b), (c) as quoted text, followed by the FIX's note: `Close the quote after each span. Before (a), the narrator may say he asked who they were and where they came from; between (a) and (b) and between (b) and (c), one narrator clause ('he went on', 'and he ended'). (b) is the second 'Mea est possessio, olim possideo, prior possideo', unbroken in the Latin.` The FIX's closing line "Each span is unbroken in the held Latin." sat outside the quoted text and was not added.
+  - Also told, Against Praxeas bullet: `He wrote it after his turn, and says the Paraclete had taught his side better (E7; Documented).` replaced with `He wrote it after his turn (E7; Documented).`
+  - Place: deleted ` Well known at Rome, Eusebius says (EUS 10279–10280: "one of those especially distinguished in Rome"; credited, never flat narration).`
+  - Names, "Past about eight names" line: `Lactantius, Hilary and Apelles go first.` replaced with `Lactantius goes first.`
+  - Links, Eusebius line: `quoted his Apology in Greek (S5, I7).` replaced with `quoted his Apology in Greek (S5, I7; not told).`
+  - Links, Hilary line: `as Vincent quotes him (I6).` replaced with `as Vincent quotes him (I6). Not told (card).`
+  - Do not say, "He wrote Against Praxeas before his turn" line: `He wrote it after, and says the Paraclete had taught him better (E7).` replaced with `He wrote it after his turn (E7).`
+  - Do not say, "The church refused to make him a saint" line: `(I5, I6)` replaced with `(I5)`.
+  - Do not say, "Vincent condemned him" line: replaced with `- Vincent is for the card only; if the card gives him, give both his praise and his "trial" (I6).`
+
+NOT APPLIED: none.
+- Coordinator, 2026-11-20: Quote 2 note, "The opening "[…]" is" changed to "The cut opening is", since the three-span rendering no longer carries brackets. Wording only; nothing told changes.

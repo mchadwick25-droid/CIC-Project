@@ -97,7 +97,7 @@ Only Quotes 1–3 are quoted aloud. "Less than plainly and faithfully", "a Chris
 - **The clergy at Rome**, in 250, writing to Carthage (E5). Their words are held; that they meant Cyprian is the editors' reading: say they wrote "of the good shepherd and the hired man who runs", and let the listener hear the charge. Do not say they called him a coward.
 - **Stephen**, known only through Cyprian's quotation of his letter (E10). Say so in a clause: "as Cyprian quotes him".
 - **A bishop in Cappadocia** (Firmilian), on Cyprian's side and hostile to Stephen (E10). Credit his report as his.
-- **The court record** (the *Acta*), written by Christians from the hearings: the two hearings and the death (E11, E13). Say "a Christian account of his trials and death, built on the court record"; for the eye-binding, the gold pieces and the burial, say "the account of his death".
+- **The court record** (the *Acta*), written by Christians from the hearings: the two hearings and the death (E11, E13). Say "a Christian account of his trials and death, built on the court record"; for the eye-binding and the burial, say "the account of his death".
 - **Pontius**, his deacon, who shared his exile and wrote soon after his death, as open praise (E2, E3, E9, E13). Credit him where he praises, where he tells the plague care and where he tells the death. Say once, inside the sentence that brings him in, that he writes as an admirer.
 - **Augustine**, about 140 years later, arguing with the Donatists (I1).
 - **Procopius**, 533 (I2).

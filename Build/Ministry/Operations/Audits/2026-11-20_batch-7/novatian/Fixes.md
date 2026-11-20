@@ -57,3 +57,28 @@ Ruling: about 4:00, 4:30 at most (about 600 words, 675 at most). The plan ran ab
 - What came 3 (the book under other names; was "only if the count allows") → card.
 - Ending: Valesius's "only a confessor" clause → card (the outline allowed it to drop).
 - Knock-ons: beats renumbered 1–4; beat references in the Sibling, Openings, Who tells it and Words to explain fields updated; Length field rewritten part by part.
+
+## Cut check fixes, items 2 to 4, applied verbatim
+
+Source: `Cut_Check.md`, 2026-11-20. Length FIXes (item 5) and all Length lines are not applied here.
+
+- Item 2 (credited disagreements): PASS, no FIX.
+- Item 3 (card list and source lines): 1 FIX applied. Two bullets added at the end of "For the card, not the story":
+  - `- Cornelius's detail that the three bishops were shut up with men of Novatian's choosing (E5; EUS 38530).`
+  - `- Cyprian's detail that Novatian read aloud what he had written in the letter of 250 (E4; EP 7570–7573).`
+- Item 4 (quotes, order, told once): 14 FIX edits applied.
+  - Words in The book: `Its date is uncertain: one historian ... (I3; Widely Accepted).` replaced with `Its date is uncertain (D1; Contested).`
+  - Story, opening beat 2 (election): deleted `a sickbed baptism and`, leaving `and earlier, a refusal to help in the persecution`.
+  - Story, rule and break: `His church spread to Gaul and the East,` replaced with `His church spread, with bishops of its own in many cities,`.
+  - Place: `Then Carthage, Alexandria, Arles in Gaul, Antioch, Phrygia, Nicaea and Constantinople, each a clause (E6, E7, E10, I1, I2).` replaced with `Then Carthage, Alexandria and Nicaea, each a clause (E4, E7, I1).`
+  - Names, "Optional, by role" line: deleted `Jerome ("a scholar a century later"), ` and `Harnack ("a German historian"), `.
+  - Names, "Anyone else by role" line: deleted `"a bishop at Arles in Gaul" (Marcianus), "Antioch's bishop" (Fabius), `.
+  - Links, Cyprian line: `refused his envoys; named him` replaced with `named him`.
+  - Links, Dionysius line: replaced with `- Dionysius of Alexandria: wrote to him to step down (E7).`
+  - Links, Jerome line: added `Not told (card).` after `By role.`
+  - Links, Tertullian line: `Not told, or one clause.` replaced with `Not told (card).`
+  - Who tells it, Dionysius bullet: `writing to him in 251 and of him about 257 (E7, E10).` replaced with `writing to him in 251 (E7).`
+  - Who tells it, Jerome bullet: `By role.` (after `402 (I3).`) replaced with `Not told (card).`
+  - Do not say, sickbed baptism line: `at most "by his rival's account he was baptized on his sickbed".` replaced with `the sickbed baptism itself is for the card.`
+
+NOT APPLIED: none.
