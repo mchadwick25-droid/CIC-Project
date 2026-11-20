@@ -125776,7 +125776,24 @@ function groupGlyph(){
 
 const isMajorPerson=P=>!!(P.entry&&P.entry.major===true);
 const activeYear=P=>P.entry?+P.entry.activeYear:personYear(P);
-const isMajorTradition=m=>m.status==='Built & Live'||(peopleOf[m.id]||[]).some(isMajorPerson);
+const isToldMajor=m=>m.status==='Built & Live'||(peopleOf[m.id]||[]).some(isMajorPerson);
+const MID_FLOOR=15, MID_CAP=22, MID_SHARE=0.66;
+const majorTraditionIds=(()=>{
+  const deg={}, out=new Set();
+  DATA.edges.concat(personEdges).forEach(e=>{deg[e.from]=(deg[e.from]||0)+1;deg[e.to]=(deg[e.to]||0)+1;});
+  const byEra={};
+  churchBodies.forEach(m=>(byEra[m.era]=byEra[m.era]||[]).push(m));
+  Object.values(byEra).forEach(list=>{
+    const told=list.filter(isToldMajor);
+    const goal=Math.min(list.length,Math.max(told.length,MID_FLOOR,Math.min(MID_CAP,Math.ceil(MID_SHARE*list.length))));
+    told.forEach(m=>out.add(m.id));
+    list.filter(m=>!out.has(m.id))
+      .sort((a,b)=>(deg[b.id]||0)-(deg[a.id]||0)||a.name.localeCompare(b.name))
+      .slice(0,Math.max(0,goal-told.length)).forEach(m=>out.add(m.id));
+  });
+  return out;
+})();
+const isMajorTradition=m=>majorTraditionIds.has(m.id);
 function homeOf(P){
   const e=P.entry, t=e&&e.toldWithin&&byId[e.toldWithin];
   if(t)return t;

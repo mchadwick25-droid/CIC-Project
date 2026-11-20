@@ -4916,3 +4916,13 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 - The run, settings printed before every request: Daniel (`onwK4e9ZLuTAKqWW03F9`, `eleven_multilingual_v2`) for 21 Story and Legacy pieces and Neo (`onegjDE2z0mQtp1g0HK7`, `eleven_v4`) for 99 documented stories, both `mp3_44100_64`, `{"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true}`, speed 1, tempo 1. 152,331 characters, 73,861 credits, under the 155,000-character cap; with the two samples (876 credits), 122 pieces and 74,737 credits.
 - Checked: all 122 files present, each recorded from its reviewed text; on the map all 11 built-world cards show the narrator texts and play only the tree recordings. Church in Conversation keeps its texts and Representative voices.
 - The map switches a world only when every piece is recorded; a later world rebuild that changes a source text makes its piece stale, and the tool refuses it until it is rewritten.
+
+## 2026-11-20 — The map names the same number of traditions in every era at the middle zoom
+
+**Why.** Between Z_MAJOR (0.50) and Z_ALL (0.80) the map names only "major" traditions: Built & Live ones, or ones with a major person told within them. People exist for eras 1 to 4 only, so eras 5 to 10 showed almost nothing there. Traditions named per era 1..10 were 10, 19, 13, 10, 1, 2, 3, 1, 0, 0.
+
+**Decided (Mark, 2026-11-20: "this works but do drop if traditions colide").** Per era, name N traditions, where N = min(era total, max(today's count, 15, min(22, ceil(0.66 x era total)))). Traditions named today stay. The remaining slots go to the era's most connected traditions (census edges in and out, ties by name). The label-collision dropping stays: the rule picks candidates, and a label that would collide is still dropped.
+
+**Done.** `cft-website/index.html` derives the set in code (`majorTraditionIds`, beside `isMajorTradition`), so new traditions and edges are picked up. No change to the census data, the zoom thresholds or anything else on the map.
+
+**Result.** Candidates per era 1..10: 15, 19, 15, 17, 18, 16, 22, 22, 22, 22 (matches the rule). Names actually shown at zoom 0.6 after collisions, desktop 1400 px: 14, 18, 14, 17, 17, 10, 22, 21, 20, 19. Phone 390 px: 15, 19, 15, 17, 18, 16, 22, 22, 22, 20. Era 6 on desktop falls to 10 of 16 because its names crowd together.
