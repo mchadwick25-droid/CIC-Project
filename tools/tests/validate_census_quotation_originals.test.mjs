@@ -115,3 +115,11 @@ test("one entry covers a quotation the brief breaks around \"he says\"", () => {
   });
   assert.ok(!errs.some(e => /has no entry|is not a quotation in the brief/.test(e)), errs.join("\n"));
 });
+
+test("a Greek original is compared letter by letter, accents and letter forms aside", () => {
+  const original = (card, words) => { card.quotationOriginals.find(e => e.originalLines === "680").original = words; };
+  assert.deepEqual(errorsFor(card => original(card, "Το θελημα του θεου γενεσθω."), "polycarp-of-smyrna"), []);
+  const wrong = errorsFor(card => original(card, "Τὸ ϑέλημα τοῦ ἀνθρώπου γενέσθω."), "polycarp-of-smyrna");
+  assert.equal(wrong.length, 1);
+  assert.match(wrong[0], /card\.quotationOriginals\[\d+\]\.original .*does not stand in/);
+});

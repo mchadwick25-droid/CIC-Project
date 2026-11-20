@@ -7,9 +7,9 @@
   ],
   "scope": "vendored coverage only - see this script's own docstring for why the acquirable/purchasable/no-edition-exists breakdown is not included here",
   "counts": {
-    "total_entries": 619,
+    "total_entries": 620,
     "entries_with_coverage": 303,
-    "entries_zero_coverage": 316
+    "entries_zero_coverage": 317
   },
   "entries": {
     "post-apostolic-house-church": {
@@ -14603,6 +14603,11 @@
           "rights": "Public Domain (pd-us-by-date: published 1870); the archive.org record carries no rights field, so the imprint date is the basis; the archive.org record is titled 'Denkschriften' with the date 1850, the series' first year"
         }
       ]
+    },
+    "cyril-and-methodius": {
+      "name": "Cyril and Methodius",
+      "status": "Within Another World (A5)",
+      "works": []
     },
     "kievan-rus-christianity": {
       "name": "Kievan Rus' Christianity",
