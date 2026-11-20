@@ -411,6 +411,18 @@ svg.strip-on #era-labels{display:none}
 @media (max-width:640px){#listenBar .lb-wide{display:none}}
 #tourBox{position:fixed;z-index:72;left:50%;transform:translateX(-50%);bottom:calc(var(--tour-lift,0px) + 1rem + env(safe-area-inset-bottom,0px));width:min(27rem,calc(100vw - 1.5rem));box-sizing:border-box;background:var(--vellum);color:var(--iron-gall);border:1px solid var(--gold-leaf);border-radius:12px;box-shadow:0 8px 28px rgba(0,0,0,.45);padding:.85rem 3rem .9rem 1.1rem;font-family:"Alegreya Sans",sans-serif}
 #tourBox[hidden]{display:none}
+#growAsk{position:fixed;z-index:70;right:calc(var(--grow-right,0px) + 1rem + env(safe-area-inset-right,0px));bottom:calc(var(--grow-lift,0px) + 1rem + env(safe-area-inset-bottom,0px));width:min(19rem,calc(100vw - 2rem));box-sizing:border-box;background:var(--vellum);color:var(--iron-gall);border:1px solid var(--gold-leaf);border-radius:12px;box-shadow:0 8px 28px rgba(0,0,0,.45);padding:.9rem 2.6rem .9rem 1.1rem;font-family:"Alegreya Sans",sans-serif;animation:growIn .35s ease-out}
+#growAsk[hidden]{display:none}
+#growAsk .ga-t{font:700 1.1rem/1.25 "Alegreya",serif;margin:0 0 .25rem}
+#growAsk .ga-b{margin:0 0 .75rem;font-size:1rem;line-height:1.4}
+#growAsk .ga-btns{display:flex;gap:.5rem;flex-wrap:wrap}
+#growAsk .ga-help,#growAsk .ga-later{display:inline-flex;align-items:center;min-height:44px;padding:0 1rem;border-radius:999px;font:700 .95rem "Alegreya Sans",sans-serif;text-decoration:none;cursor:pointer}
+#growAsk .ga-help{border:1px solid var(--gold-leaf);background:var(--tyrian-wash);color:var(--gold-leaf)}
+#growAsk .ga-later{border:1px solid var(--rule);background:none;color:var(--iron-gall)}
+#growAsk .ga-x{position:absolute;top:.3rem;right:.3rem;min-width:44px;min-height:44px;border:0;background:none;color:var(--ink-faded);font-size:1.4rem;line-height:1;cursor:pointer}
+#growAsk a:focus-visible,#growAsk button:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
+@keyframes growIn{from{transform:translateY(12px);opacity:0}to{transform:none;opacity:1}}
+@media (prefers-reduced-motion:reduce){#growAsk{animation:none}}
 #tourBox .tb-count{margin:0;font:700 .78rem "Alegreya Sans",sans-serif;letter-spacing:.09em;text-transform:uppercase;color:var(--gold-leaf)}
 #tourBox.is-offer .tb-count,#tourBox.is-offer #tourText{display:none}
 #tourBox h2{font:700 1.2rem/1.25 "Alegreya",serif;margin:.15rem 0 .3rem;outline:none}
@@ -582,6 +594,7 @@ svg.strip-on #era-labels{display:none}
 <div id="connChip" hidden><button type="button" class="cc-x"><span class="cc-t"></span><span aria-hidden="true">&times;</span></button><ul class="cc-key"><li><i style="background:var(--link-grow)"></i>Grew out of, continued as</li><li><i style="background:var(--link-influence)"></i>Influenced</li><li><i style="background:var(--link-conflict)"></i>Argued against, broke with</li><li><i style="background:var(--link-contact)"></i>In contact with, member of</li></ul></div>
 <div id="barToast" aria-hidden="true"></div>
 <div id="tourRing" hidden></div>
+<aside id="growAsk" role="complementary" aria-labelledby="growTitle" aria-live="polite" hidden><button type="button" class="ga-x" aria-label="Not now">&times;</button><p id="growTitle" class="ga-t">Glad you&rsquo;re exploring.</p><p class="ga-b">If the map is useful to you, you can help it grow.</p><div class="ga-btns"><a class="ga-help" href="support.html">Help us grow</a><button type="button" class="ga-later">Not now</button></div></aside>
 <div id="tourBox" role="dialog" aria-modal="false" aria-labelledby="tourCount tourTitle" aria-describedby="tourText" hidden><p class="tb-count" id="tourCount"></p><h2 id="tourTitle" tabindex="-1"></h2><p id="tourText"></p><div class="tb-btns"><button type="button" class="tb-back">Back</button><button type="button" class="tb-next">Next</button></div><button type="button" class="tb-stop" aria-label="Stop the tour">&times;</button></div>
 <div id="listenBar" role="region" aria-label="Narration" hidden><button type="button" class="lb-play">Pause</button><span class="lb-text"><span class="lb-wide">Listening: </span><span class="lb-name"></span></span><button type="button" class="lb-open" aria-label="Open the card">Open<span class="lb-wide"> the card</span></button><button type="button" class="lb-stop" aria-label="Stop listening">&times;</button></div>
 <div id="zoomHint">Scroll to move &middot; Ctrl + scroll to zoom</div>
@@ -128494,6 +128507,34 @@ document.addEventListener('click',ev=>{
   ev.preventDefault(); ev.stopPropagation(); tourCloseMenus(); startTour(b.dataset.tour);
 },true);
 if(!location.search)setTimeout(()=>{if(!panel.classList.contains('open')&&!whoScope)tourOffer('intro');},1200);
+const GROW_KEY='cft-grow-ask', GROW_AFTER=600, GROW_SNOOZE=30*864e5;
+const growAsk=document.getElementById('growAsk');
+const growState=()=>{try{return JSON.parse(localStorage.getItem(GROW_KEY)||'null');}catch(e){return null;}};
+const growSave=v=>{try{localStorage.setItem(GROW_KEY,JSON.stringify(v));}catch(e){}};
+function growDue(){const st=growState();if(!st)return true;if(st.helped)return false;return Date.now()-(st.snoozed||0)>GROW_SNOOZE;}
+let growSeconds=0, growTimer=0;
+function growBusy(){return !!(tour.on||tour.offer)||[...document.querySelectorAll('audio')].some(a=>!a.paused);}
+function placeGrowAsk(){
+  const narrow=narrowScreen();
+  growAsk.style.setProperty('--grow-lift',(narrow?barHeight()+(tray.hidden||panel.classList.contains('open')?0:tray.offsetHeight):0)+'px');
+  growAsk.style.setProperty('--grow-right',(!narrow&&panel.classList.contains('open')?panel.offsetWidth:0)+'px');
+}
+function showGrowAsk(){placeGrowAsk();growAsk.hidden=false;clearInterval(growTimer);}
+function hideGrowAsk(helped){growAsk.hidden=true;growSave(helped?{helped:Date.now()}:{snoozed:Date.now()});}
+if(growDue())growTimer=setInterval(()=>{
+  if(document.visibilityState!=='visible'||!document.hasFocus())return;
+  growSeconds+=5;
+  if(growSeconds>=GROW_AFTER&&!growBusy())showGrowAsk();
+},5000);
+growAsk.addEventListener('click',ev=>{
+  ev.stopPropagation();
+  if(ev.target.closest('.ga-help'))hideGrowAsk(true);
+  else if(ev.target.closest('.ga-later,.ga-x'))hideGrowAsk(false);
+});
+growAsk.addEventListener('keydown',ev=>{if(ev.key==='Escape'){ev.preventDefault();hideGrowAsk(false);}});
+['pointerdown','wheel','touchstart'].forEach(t=>growAsk.addEventListener(t,ev=>ev.stopPropagation(),{passive:true}));
+window.addEventListener('resize',()=>{if(!growAsk.hidden)placeGrowAsk();});
+
 
 render();
 buildLegend();

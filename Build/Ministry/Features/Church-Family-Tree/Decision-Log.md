@@ -4868,3 +4868,13 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 **Why.** The announcement goes out on Facebook, LinkedIn, by email and by word of mouth, asking for feedback (Mark, 2026-11-20). The map page had no link-preview tags, the only shared picture was Church in Conversation's painting ("that is the picture for church in conversation, we need something different for church family tree"), and its description used older wording.
 
 **Decided (Mark, 2026-11-20: "A: Title card").** The share picture is made from the real map: "Church Family Tree", the line "Twenty centuries of Christian traditions, drawn as one map" and the address, over the first centuries of the map, 1200 by 630 (`cft-website/share/church-family-tree.jpg`). The page now carries Open Graph and Twitter card tags with the title "Church Family Tree" and the description "Twenty centuries of Christian traditions, drawn as one map. Explore and listen, then tell us what you think." (Mark, 2026-11-20: "do we want listen to and explore"), which also replaces the old page description.
+
+## 2026-11-20 — Asking for support: not in the launch posts; a gentle note after ten minutes on the map
+
+**Why.** Mark asked whether the announcement should invite financial support (the "Help us grow" page, Stripe, once or monthly). The launch posts ask pastors and scholars for review; asking for money in the same post weakens both asks.
+
+**Decided (Mark, 2026-11-20: "maybe we dont put it in the launch and we find a way for anyone who spends more than 10 minute we have a popup windo asking to help us grow"; then "Gentle note, once").**
+- The launch posts carry no request for money.
+- After ten minutes of active use (the page visible and in front of the visitor), a small note slides up in the corner, not blocking the map: "Glad you're exploring. If the map is useful to you, you can help it grow.", with "Help us grow" (the support page) and "Not now". It never appears during the tour, while the tour offer shows, or while any audio plays; it waits until they end.
+- Session defaults, open to change: after "Not now" or the close button it stays away for 30 days; after "Help us grow" it does not ask that visitor again. Remembered in the visitor's own browser.
+- Wording follows the support page: "support", never "donate", since payments to Faithways Studio are not charitable donations.
