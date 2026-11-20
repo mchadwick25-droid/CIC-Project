@@ -149,13 +149,19 @@
         "author": "Council of Nicaea, ed. Henry R. Percival",
         "language": "English translation",
         "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      },
+      {
+        "title": "Church History, Book IV, chapter 28 (Greek, with Valesius's Latin, ed. Robert Hussey)",
+        "author": "Socrates of Constantinople",
+        "language": "Greek",
+        "file": "cic/texts/socrates_historia-ecclesiastica-tomus2-grc-lat_hussey1853.txt"
       }
     ]
   },
   "briefReferences": [
     "Cyprian, On the Lapsed 8: many ran to the forum of their own accord, and the officials put some off as evening came on.",
     "Cyprian, Letter to Antonianus (Letter 55 in Hartel's Latin; Letter 51 in the English), ch. 14: the certificate-holder, his hand clean and his conscience stained.",
-    "Cyprian, Letter to the clergy at Rome (Letter 20 in Hartel's Latin): thousands of papers of pardon given each day without examination. Letter of the confessors to Cyprian (Letter 23): peace granted to all whose conduct since their fall satisfied him.",
+    "Cyprian, Letter to the clergy at Rome (Letter 20 in Hartel's Latin): thousands of papers of pardon given each day without examination. Letter of the confessors to Cyprian (Letter 23): peace granted.",
     "Cyprian, Letter to the people of Carthage (Letter 43 in Hartel's Latin; Letter 39 in the English), chs. 2 to 3: Felicissimus and the five presbyters, another persecution; nothing new until the bishops meet, and a sentence tempered with discipline and mercy.",
     "Letter to Antonianus, chs. 4 to 6: the wait, peace for the dying agreed with the clergy at Rome, the council at Carthage and its middle way, and Cornelius's council at Rome agreeing; chs. 17 and 23: the terms, and the refusal of those who asked only on a sickbed.",
     "Letter to Antonianus, ch. 12: the report about Cornelius and those who sacrificed called a false rumor.",
@@ -226,7 +232,10 @@
       "work": "Socrates of Constantinople, Church History IV.28, tr. A. C. Zenos",
       "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
       "lines": "14088-14090",
-      "uncertain": "The modern wording follows the Greek where it differs from the print: sacred rites for the mysteries (the rite meant is the Lord's Supper), who is able and has the power for the Greek's two words, and sins for the Greek's plural. The Greek is held only in a damaged scan, so it is not printed here."
+      "original": "μὴ δέχεσθαι τοὺς ἐπιτεθυκότας εἰς τὰ μυστήρια ἀλλὰ προτρέπειν μὲν αὐτοὺς εἰς μετάνοιαν, τὴν δὲ συγχώρησιν ἐπιτρέπειν Θεῷ, τῷ δυναμένῳ καὶ ἐξουσίαν ἔχοντι συγχωρεῖν ἁμαρτήματα.",
+      "originalFile": "cic/texts/socrates_historia-ecclesiastica-tomus2-grc-lat_hussey1853.txt",
+      "originalLines": "4372-4377",
+      "uncertain": "The modern wording follows the Greek where it differs from the print: sacred rites for the mysteries (the rite meant is the Lord's Supper), who is able and has the power for the Greek's two words, and sins for the Greek's plural."
     },
     {
       "modern": "strangers",

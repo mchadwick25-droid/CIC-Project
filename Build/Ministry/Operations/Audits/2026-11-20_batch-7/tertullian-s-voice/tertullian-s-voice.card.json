@@ -33,7 +33,7 @@
     "remembered": [
       "Lactantius says he was skilled in literature of every kind but had little readiness in eloquence, was not polished and was very obscure, so that he did not find sufficient renown; elsewhere Lactantius says he fully pleaded the same cause in the treatise entitled the Apology.",
       "Augustine says many of his little works, most eloquently written, are read.",
-      "Vincent of Lérins, in 434, gives him by far the first place among the Latins, as Origen has among the Greeks, then calls him more eloquent than faithful, and quotes Hilary that by his subsequent error he detracted from the authority of his approved writings.",
+      "Vincent of Lérins, in 434, gives him by far the first place among the Latins, as Origen has among the Greeks, then calls him more eloquent than faithful, quotes Hilary that by his subsequent error he detracted from the authority of his approved writings, and says he was a great trial in the Church.",
       "Jerome calls him a man of keen and vigorous character."
     ]
   },
@@ -43,7 +43,7 @@
     "Why he turned to the New Prophecy. Jerome says he was driven to the doctrine of Montanus by the envy and abuse of the clergy of the Roman church. Augustine says he went over to the Phrygians whom he had earlier refuted, began to condemn second marriage as fornication against the apostle's teaching, and later broke from them too and spread his own gatherings.",
     "From whom he withdrew. He says his side withdrew from the carnally-minded on its acknowledgment of the Paraclete. The editor Coxe reads this as perhaps only a withdrawal from the communion of the bishop of Rome, not a final break with his own bishop and the church of North Africa; Monceaux reads a break with the church at Carthage and dates it to the start of 213; Augustine says he later broke from the New Prophecy too.",
     "His office. That he was a presbyter rests only on Jerome, who says he was one until middle life; Monceaux accepts it and thinks he was ordained about 200, since he speaks as a simple believer in the Apology of 197; McGiffert's note says it cannot be told whether he served at Rome or at Carthage.",
-    "First in Latin. Jerome places him first among the Latin writers after Victor and Apollonius, and the census calls him the first major Christian author to write in Latin. Coxe calls him the founder of Latin Christianity and dates the Octavius of Minucius Felix to about 210, as his contemporary; Wallis, in the same volume, says the Octavius's date is keenly disputed and may be about 166, which would make it older. For this reason the card says foremost, not first.",
+    "First in Latin. Jerome places him first among the Latin writers after Victor and Apollonius, and the census calls him the first major Christian author to write in Latin. Coxe calls him the founder of Latin Christianity and dates the Octavius of Minucius Felix to about 210, as his contemporary; Wallis, in the same volume, says the Octavius's date is keenly disputed and may be about 166, which would make it older.",
     "The Latin words. The census says he invented trinitas, persona, substantia and sacramentum; the held sources show the first three in his text, and Sanday credits him with coining terms. Coxe notes that Theophilus of Antioch used the Greek word for a triad, the earliest use of the word Trinity he knows, so the Greek word is older. Kaye thought the Athanasian Creed was composed by one who had Against Praxeas always in mind; that is an editor's view. No held source says the Council of Nicaea used his words.",
     "Praxeas and the bishop's edict. What is known of Praxeas comes from Tertullian's own hostile account. The English edition's editor says the bishop of Rome who withdrew his letter of peace was probably Victor; Monceaux says the edict that On Modesty answers was Callistus's, and which bishop issued it is disputed.",
     "What is probably his last surviving book. Monceaux dates On Modesty to 217 to 222 and calls it very probably the last of the surviving works; Jerome says many of his small works are not extant, and Eusebius's translator says a few of his works were written in Greek.",
@@ -52,7 +52,7 @@
     "His father. Jerome's Latin says patre centurione proconsulari, a centurion on the governor's staff, and his Chronicle says the same; the English translation of the Lives reads son of a proconsul or Centurion, which is a mistranslation, and Heurtley's quotation of Kaye reads the son of a proconsular centurion.",
     "Vincent's verdict. The English reads more eloquent by far than faithful, but its editor notes that Baluze reads fidelior and others read felicior, so the reading is disputed. Hilary's judgment reaches us here only through Vincent in English. The decree wrongly called Gelasian lists Opuscula Tertulliani among the books not received, beside the History of Eusebius and the works of Lactantius; Mansi puts it at about 496 and says its author has long been disputed.",
     "The Passion of Perpetua and Felicitas. It was handed down with his works; Coxe thinks Tertullian was the editor of the story, not its author, which is an editor's guess.",
-    "The quoted Latin. The Latin of the Apology and the Prescription is held only in Oehler's 1853 edition in a damaged scan, which has lost words and garbled others; no other held print confirms them, so these quotations are printed in English alone. For Against Praxeas the two held Latin prints differ: Kroymann reads ubique teneo with etsi added in brackets, and Oehler reads ubique teneam with no etsi."
+    "The quoted Latin. The Latin of the Apology and the Prescription is held only in Oehler's 1853 edition in a damaged scan, which has lost words and garbled others; no other held print confirms them, so these quotations are printed in English alone, except two short lines the scan prints cleanly, the blood of Christians is seed and I am the heir of the apostles, which carry the Latin. For Against Praxeas the two held Latin prints differ: Kroymann reads ubique teneo with etsi added in brackets, and Oehler reads ubique teneam with no etsi."
   ],
   "sources": {
     "ownWords": [
@@ -200,7 +200,7 @@
   },
   "briefReferences": [
     "Apology 1 (Thelwall): the hidden road of silent writing and the plea not to be condemned unknown, from the first chapter; the brief puts the book at about 197, as Monceaux does.",
-    "Church History II.2 (McGiffert's translation): Eusebius calls him well versed in the laws of the Romans. Jerome, Lives of Illustrious Men 53: Carthage, and chief of the Latin writers after Victor and Apollonius.",
+    "Church History II.2 (McGiffert's translation): Eusebius calls him well versed in the laws of the Romans. Jerome, Lives of Illustrious Men 53: Carthage. Vincent of Lérins, Commonitory 18: the first place among the Latins.",
     "Augustine, On Heresies 86: the Tertullianists, and Tertullian named a heretic for going over to the Phrygians.",
     "Apology 40 and 50 (Thelwall): the crowd blames the Christians for flood, drought, famine and plague, and the close, the more we are mown down the more we grow, the blood of Christians is seed.",
     "Prescription Against Heretics 15, 19, 21, 36 and 37 (Holmes): whose the Scriptures are, the faith handed from Christ to the apostles and their churches such as Ephesus and Rome, and the property lines about timber, springs and heirs.",
@@ -218,7 +218,7 @@
       "work": "Apology 1, tr. S. Thelwall, in Ante-Nicene Fathers, vol. 3",
       "file": "cic/texts/anf03_tertullian.xml",
       "lines": "1457-1459",
-      "uncertain": "The Latin, liceat veritati vel occulta via tacitarum litterarum ad aures vestras pervenire, is held only in a damaged scan, so the English stands alone. The modern wording follows the Latin: silent writing is tacitarum litterarum, where Thelwall has a noiseless book."
+      "uncertain": "The Latin is held only in a damaged scan, so the English stands alone. The modern wording follows the Latin: silent writing is tacitarum litterarum, where Thelwall has a noiseless book."
     },
     {
       "modern": "One thing only she asks for now: not to be condemned unknown.",
@@ -261,7 +261,9 @@
       "work": "The Prescription Against Heretics 37, tr. Holmes, in Ante-Nicene Fathers, vol. 3",
       "file": "cic/texts/anf03_tertullian.xml",
       "lines": "21751",
-      "uncertain": "The Latin, Ego sum heres apostolorum, is held only in a damaged scan, so the English stands alone."
+      "original": "Ego sum haeres apostolorum",
+      "originalFile": "cic/texts/tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt",
+      "originalLines": "2289"
     },
     {
       "modern": "I have already said how you should take the word 'another'. It names a person, not a substance. It marks a distinction, not a division. I hold everywhere one substance in three who are joined together.",
@@ -269,7 +271,10 @@
       "work": "Against Praxeas 12, tr. Holmes, in Ante-Nicene Fathers, vol. 3",
       "file": "cic/texts/anf03_tertullian.xml",
       "lines": "51894-51900",
-      "uncertain": "Holmes's (Persons) and inseparable are his own additions; the Latin has only in three who cohere. The Latin is held in two prints that differ: Kroymann reads ubique teneo with etsi added in brackets, and Oehler reads ubique teneam with no etsi; the modern wording follows Kroymann. The card prints the English alone because Kroymann's scan misreads one word inside the span. The brief stops after the fourth sentence; the next, Yet the sense forces me to call the one who commands another than the one who makes, is cut."
+      "original": "alium autem quomodo accipere debeas, iam professus sum, personae, non substantiae nomine, ad distinctionem, non ad diuisionem. ceterum, (etsi) ubique teneo unam substantiam in tribus cohaerentibus",
+      "originalFile": "cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt",
+      "originalLines": "12558-12561",
+      "uncertain": "Holmes's (Persons) and inseparable are his own additions; the Latin has only in three who cohere. The Latin is held in two prints that differ: Kroymann reads ubique teneo with etsi added in brackets, and Oehler reads ubique teneam with no etsi; the modern wording and the Latin given here follow Kroymann. Kroymann's scan misreads distinctionem, which Oehler's print confirms. The brief stops after the fourth sentence; the next, Yet the sense forces me to call the one who commands another than the one who makes, is cut."
     },
     {
       "modern": "not the church which consists of a number of bishops.",

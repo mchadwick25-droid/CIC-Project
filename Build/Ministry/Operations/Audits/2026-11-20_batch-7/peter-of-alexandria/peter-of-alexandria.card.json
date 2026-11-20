@@ -35,7 +35,7 @@
     ]
   },
   "uncertain": [
-    "Athanasius, an enemy of the Melitians, says Peter's council removed Melitius for many crimes, among them sacrifice to idols. Socrates of Constantinople and Theodoret say the same. Epiphanius of Salamis tells it another way. He says both men were in prison together and split over how to receive the fallen, Peter for mercy and Melitius for strictness, and that most of the prisoners took Melitius's side.",
+    "Athanasius, an enemy of the Melitians, says Peter's council removed Melitius for many crimes, among them sacrifice to idols. Socrates of Constantinople says the same; Theodoret says only that Peter convicted him of certain crimes and deposed him. Epiphanius of Salamis tells it another way. He says both men were in prison together and split over how to receive the fallen, Peter for mercy and Melitius for strictness, and that most of the prisoners took Melitius's side.",
     "Harold Idris Bell, who edited papyri of the Melitians in 1924, thinks the sacrifice charge \"need not be taken very seriously\", and that Epiphanius had good sources, probably bishops of Egypt banished to Palestine. He reads the two accounts as stages of one quarrel. Charles Joseph Hefele, historian of the councils, says the first letters show neither man was in prison when the split began, and that Epiphanius was mistaken on the main points.",
     "The letter of the four bishops and Peter's letter are known only in a Latin translation first printed by Scipio Maffei. Arthur McGiffert, who translated Eusebius, sees nothing in the bishops' letter to disprove it.",
     "Sozomen says Peter ordained Arius a deacon and later cast him out over the Melitians. Sozomen's translator, Chester Hartranft, notes that no one else links Arius with the Melitians early. Archibald Robertson, editor of Athanasius, says such tales \"deserve little credit\".",
@@ -92,7 +92,7 @@
         "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt"
       },
       {
-        "title": "Church History, Book 1, chapters 6 and 9 (Socrates); Book 1, chapters 15 and 24 (Sozomen)",
+        "title": "Church History, Book 1, chapters 6, 9 and 15 (Socrates); Book 1, chapters 15 and 24 (Sozomen)",
         "author": "Socrates of Constantinople; Sozomen",
         "date": null,
         "language": "English translation",
@@ -136,19 +136,19 @@
     ]
   },
   "briefReferences": [
-    "Peter of Alexandria, Canonical Epistle, canon 1, tr. James B. H. Hawkins: the fourth passover of the persecution, those tortured until they gave way, the marks of Jesus, and the forty more days. The opening words are in Hawkins's English, with the Greek of the 1886 Pedalion beside it.",
-    "Eusebius of Caesarea, Church History VII.32, tr. A. C. McGiffert: Peter bishop at Alexandria after Theonas, less than three years in office before the persecution, beheaded in the ninth year of the persecution. McGiffert's note on the edict of February 303 that the churches be pulled down.",
+    "Peter of Alexandria, Canonical Epistle, canon 1, tr. James B. H. Hawkins, and its Greek in the 1886 Pedalion: the fourth passover of the persecution, those tortured until they gave way, the marks of Jesus, and the forty more days.",
+    "Eusebius of Caesarea, Church History VII.32, tr. A. C. McGiffert: Peter bishop at Alexandria, less than three years in office before the persecution, beheaded in the ninth year of the persecution. McGiffert's note on the edict of February 303 that the churches be pulled down.",
     "Eusebius, Martyrs of Palestine 3: the imperial edicts that all the people sacrifice.",
-    "Epiphanius of Salamis, Panarion 68.3: the archbishop of Alexandria governs all Egypt; the lapsed ask the martyrs for mercy; the two in prison and their quarrel over taking the fallen back.",
+    "Epiphanius of Salamis, Panarion 68.3: the archbishop of Alexandria governs all Egypt; the two in prison and their quarrel over taking the fallen back.",
     "Peter of Alexandria, Canonical Epistle, canons 2 to 7 and 10, tr. Hawkins: prison without torture, fear alone and the fig tree, those who tricked the officials, slaves and masters, and fallen clergy who keep communion but not office.",
     "Letter of Hesychius, Pachomius, Theodorus and Phileas to Melitius, and the account kept with it, ANF 6: ordaining in other bishops' churches; the four dead as martyrs, Melitius at Alexandria, Peter's appointed priests put out and men of his own ordained.",
     "Peter of Alexandria, Letter to the Church at Alexandria, ANF 6: hold no communion with Melitius until Peter meets him with wise and discreet men. Bell and Hefele: Peter wrote from hiding.",
     "Athanasius, Apology against the Arians 59, NPNF 4: Peter's council of bishops removes Melitius for many crimes, among them sacrifice to idols. Apology 11: the blessed Peter, Bishop and Martyr.",
     "Epiphanius, Panarion 68.3, Greek: Peter's case for mercy and kindness, the case of Melitius for truth and zeal.",
     "Hefele, History of the Councils, vol. 1: Peter's tenth canon keeps fallen clergy out of office, the strictness Epiphanius gives to Melitius.",
-    "Bell, Jews and Christians in Egypt: the persecution renewed under Maximinus and Peter among its first victims.",
+    "Bell, Jews and Christians in Egypt: the persecution renewed under Maximinus, and reaching Peter.",
     "Eusebius, Church History IX.6.2, tr. McGiffert: Peter seized and beheaded as if by command of Maximinus, and with him many other bishops of Egypt.",
-    "Council in Trullo (692), canon 2, NPNF 14: the seal set on the canons of Peter of Alexandria. Hawkins: the canons in every collection of canons, with the notes of Zonaras and Balsamon.",
+    "Council in Trullo (692), canon 2, NPNF 14: the seal set on the canons of Peter of Alexandria. Hawkins: the canons in every collection of canons.",
     "Socrates, Church History I.9: the letter of the Council of Nicaea to the church of Alexandria on Melitius, a nominal dignity and no power to ordain.",
     "Socrates, Church History I.15, retelling Rufinus: the day on which the memory of the martyr and bishop Peter was celebrated at Alexandria."
   ],

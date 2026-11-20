@@ -45,9 +45,9 @@
     "Cornelius says Novatian had three simple Italian bishops shut in with him, and by the tenth hour, with them drunk and sick, forced them to lay hands on him. McGiffert accepts that three Italian bishops ordained him, and that one afterward repented, but calls the charge of deceit and drunkenness baseless calumny.",
     "Cornelius says Novatian made each person swear at the communion table, by the body and blood of Christ, never to go back to Cornelius. Only Cornelius reports this.",
     "Cyprian says Cornelius was made bishop by sixteen co-bishops. His charge from the other side is that Novatian tried by bribery to be made bishop by the hands of deserters.",
-    "What his rule held is told three ways. Eusebius says Novatian acted as if the fallen had no hope of salvation. Socrates, who drew on Novatian's letters, says he told the churches not to admit them to the sacred mysteries, but to urge them to repent and leave their pardon to God. Cyprian says the rule told them to mourn and weep day and night and then die outside the church. Ambrose says the Novatians held all sins equal in gravity, after the fashion of the Stoics.",
+    "What his rule held is told four ways. Eusebius says Novatian acted as if the fallen had no hope of salvation. Socrates, who drew on Novatian's letters, says he told the churches not to admit them to the sacred mysteries, but to urge them to repent and leave their pardon to God. Cyprian says the rule told them to mourn and weep day and night and then die outside the church. Ambrose says the Novatians held all sins equal in gravity, after the fashion of the Stoics.",
     "Dionysius of Alexandria, writing about 257, charges Novatian with impious teaching concerning God. McGiffert says he was not at all heretical in doctrine. Acesius accepted the creed at Nicaea, and Sozomen says the Novatians held the same opinions about the Godhead as the Catholic church.",
-    "McGiffert says that, according to the tradition of his followers as well as Socrates, he died a martyr under Valerian. Harnack says the same, and that the martyr acts current in the sixth century were forged. Coxe says Socrates's word, amid the silence of all others, is not enough to guarantee it.",
+    "McGiffert says that, according to the tradition of his followers as well as Socrates, he died a martyr under Valerian. Harnack reports the same, says it is not known for certain when he died, and says the martyr acts current in the sixth century were forged. Coxe says Socrates's word, amid the silence of all others, is not enough to guarantee it.",
     "Socrates calls Acesius a bishop of the Novatians and gives no reading of the emperor's words. Sozomen places Acesius at Constantinople, says the emperor esteemed him for his virtuous life, and takes the words as blame, since Acesius, being but a man, fancied himself exempt from sin.",
     "How long his church lasted is told two ways. McGiffert says it lasted until the sixth century. The editor of Ambrose's On Repentance says it grew weaker in the fifth century and faded away as a separate body."
   ],
@@ -142,23 +142,30 @@
         "date": "1904",
         "language": "German",
         "file": "cic/texts/harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt"
+      },
+      {
+        "title": "Church History, Book 1, chapter 10 (Greek, with Valesius's Latin, ed. Robert Hussey)",
+        "author": "Socrates of Constantinople",
+        "date": null,
+        "language": "Greek",
+        "file": "cic/texts/socrates_historia-ecclesiastica-tomus1-grc-lat_hussey1853.txt"
       }
     ]
   },
   "briefReferences": [
     "Cyprian, Epistle 51.5 (Hartel 55.5), EP lines 7570-7574: names Novatian as the writer of the Roman clergy's letter to Carthage and says peace was to be given to the lapsed who were sick and dying.",
-    "Letter of the Roman clergy, Cyprian Epistle 30: no bishop since Fabian's death, the case of the lapsed to wait for a bishop and a council (ANF 31709-31722), the dying who repented to be helped (ANF 31820-31827), and the line about knocking at the doors (EP 4222; ANF 31758-31759).",
-    "Eusebius, Church History VI.43, tr. McGiffert: Cornelius's letter on the oaths never to seek the bishopric (EUS 38461-38463), the three simple bishops, drunk and sick by the tenth hour (EUS 38518-38533), and Novatian shut in his room, refusing to help the brothers (EUS 38709-38717). McGiffert's notes call the refusal a calumny (EUS 38717-38722) and the drunkenness baseless calumny (EUS 38493-38501).",
+    "Letter of the Roman clergy, Cyprian Epistle 30: no bishop, the case of the lapsed to wait for a bishop and a council (ANF 31709-31722), the dying who repented to be helped (ANF 31820-31827), and the line about knocking at the doors (EP 4222; ANF 31758-31759).",
+    "Eusebius, Church History VI.43, tr. McGiffert: Cornelius's letter on the oaths never to seek the bishopric (EUS 38461-38463), the three simple bishops, drunk and sick (EUS 38518-38533), and Novatian shut in his room, refusing to help the brothers (EUS 38709-38717). McGiffert's notes call the refusal a calumny (EUS 38717-38722) and the drunkenness baseless calumny (EUS 38493-38501).",
     "Eusebius, Church History VI.43, tr. McGiffert: the oath at the communion table, by the body and blood of Christ, never to return to Cornelius (EUS 38761-38774).",
     "Eusebius, Church History VI.43: the very large synod at Rome of sixty bishops (EUS 38272-38299); the name Cathari, with the note that the Greek means pure (EUS 38264-38270).",
     "Eusebius, Church History VI.45, Dionysius to Novatus, tr. McGiffert (EUS 38922-38929), and Salmond's translation of the same letter (ANF6 9905-9925): the unwilling election and the cost of splitting the church.",
     "Cyprian, Epistle 51.28: the fallen told to mourn and weep day and night, and then die outside the church (ANF 34105-34110). Epistle 51.24: Novatian sending his new apostles through many cities (ANF 33992-33998). Epistle 72.2: the Novatians baptize again (ANF 38450-38455).",
-    "Socrates, Church History I.10: Constantine and Acesius at Nicaea, the creed and the Easter date, the old rule from Decius's day, and the ladder (SOC 3685-3721). Socrates says no other writer recorded it (SOC 3722-3727). Book 1, chapter 13: Auxanon, a very aged Novatian presbyter who went to Nicaea with Acesius (SOC 3855-3857).",
+    "Socrates, Church History I.10: Constantine and Acesius at Nicaea, the creed and the Easter date, the old rule from Decius's day, and the ladder (SOC 3685-3721). Book 1, chapter 13: Auxanon, a very aged man who went to Nicaea with Acesius (SOC 3855-3857).",
     "Sozomen, Church History I.22: the ladder told again, taken as blame (SOC 28080-28090).",
     "Council of Nicaea, canon 8: the terms for receiving clergy of the Cathari (NIC 3769-3777).",
     "Socrates, Church History VII.11: the Novatians flourishing at Rome until Celestine took their churches (SOC 19289-19294).",
-    "Socrates, Church History IV.28: the rule, and the martyrdom under Valerian (SOC 14069-14090, 14132-14144). Coxe and Wallis on Socrates's single word (ANF 60392-60398); Harnack on how he died (HARN 22550-22554).",
-    "Jerome, Lives of Illustrious Men 70: Novatian's writings, and On the Trinity as a sort of epitome of Tertullian's work (JER 40886-40897). Harnack on the book's date and its survival under Tertullian's name (HARN 22497-22551).",
+    "Socrates, Church History IV.28: the rule, and the martyrdom (SOC 14069-14090, 14132-14144). Coxe and Wallis on Socrates's single word (ANF 60392-60398); Harnack on how he died (HARN 22550-22554).",
+    "Jerome, Lives of Illustrious Men 70: Novatian's writings (JER 40886-40897). Harnack on the book's date (HARN 22497-22551).",
     "World census, Cyprian of Carthage, Dionysius of Alexandria, Socrates of Constantinople and Constantine the Great: the people named in the brief."
   ],
   "quotationOriginals": [
@@ -179,7 +186,7 @@
       "work": "Eusebius, Church History VI.45, Dionysius to Novatus, tr. McGiffert",
       "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
       "lines": "38923-38925",
-      "uncertain": "The modern wording follows the Greek, which the one held print gives in a scan too damaged to print here; it garbles the two words for unwilling and willing (ἄκων, ἑκών), whose sense Rufinus's Latin and both English prints confirm. \"One ought\" follows ἔδει. Salmond's English (Ante-Nicene Fathers, vol. 6) reads \"If you were carried on against your will, as you say, you will show that such has been the case by your voluntary retirement\", and \"it would have been but dutiful to have suffered any kind of ill, so as to avoid rending the Church of God\". The Greek addresses Novatus; Salmond's note says Jerome gives Novatianus. Both readings kept."
+      "uncertain": "The modern wording follows the Greek, which the one held print gives in a scan too damaged to print here; it garbles the two words for unwilling and willing, whose sense Rufinus's Latin and both English prints confirm. \"One ought\" follows ἔδει. Salmond's English (Ante-Nicene Fathers, vol. 6) reads \"If you were carried on against your will, as you say, you will show that such has been the case by your voluntary retirement\", and \"it would have been but dutiful to have suffered any kind of ill, so as to avoid rending the Church of God\". Both English prints address Novatus. Schwartz's Greek addresses Novatian (Νοουατιανῷ), and his notes give forms of Novatus from other manuscripts; Salmond's note says Jerome gives Novatianus. Both readings kept."
     },
     {
       "modern": "the pure",
@@ -198,7 +205,10 @@
       "work": "Socrates, Church History I.10, tr. Zenos",
       "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
       "lines": "3720-3721",
-      "uncertain": "The modern wording follows Socrates's Greek (θὲς ὦ Ἀκέσιε κλίμακα, καὶ μόνος ἀνάβηθι εἰς τὸν οὐρανόν), which the one held print gives in a scan too damaged to print here. Sozomen's retelling in the same English edition reads \"take a ladder and ascend alone to heaven\". Both readings kept."
+      "original": "θὲς ὦ ᾿Ακέσιε κλίμακα, καὶ μόνος ἀνάβηθι εἰς τὸν οὐρανόν.",
+      "originalFile": "cic/texts/socrates_historia-ecclesiastica-tomus1-grc-lat_hussey1853.txt",
+      "originalLines": "9912-9913",
+      "uncertain": "The modern wording follows Socrates's Greek. Sozomen's retelling in the same English edition reads \"take a ladder and ascend alone to heaven\". Both readings kept."
     }
   ]
 }

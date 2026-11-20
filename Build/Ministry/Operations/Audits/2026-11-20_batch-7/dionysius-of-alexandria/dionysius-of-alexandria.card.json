@@ -99,21 +99,21 @@
     ]
   },
   "briefReferences": [
-    "Eusebius, Church History VI.29.4 and VI.35, tr. McGiffert: Dionysius, one of Origen's pupils, took charge of the school at Alexandria after Heraclas; he received the bishopric in the third year of Philip, which McGiffert dates from the summer of 246 to the summer of 247.",
+    "Eusebius, Church History VI.29.4 and VI.35, tr. McGiffert: Dionysius, one of Origen's pupils, took charge of the school at Alexandria; he received the bishopric in the third year of Philip, which McGiffert dates from the summer of 246 to the summer of 247.",
     "Church History VII, preface, and McGiffert's note on his writings: the great bishop of Alexandria, whose letters Eusebius preserved; VII.26.1 names his four books to Dionysius of Rome.",
-    "Church History VI.39, McGiffert's note: the edicts of Decius, early in 250, are lost; the aim was to make Christians deny their faith and return to the religion of the state.",
+    "Church History VI.39, McGiffert's note: the edicts of Decius, early in 250; the aim was to make Christians deny their faith and return to the religion of the state.",
     "Church History VI.40.1-9, from his letter to Germanus: the officer sent to search for him, four days at home, God's command to leave, capture about sunset and the march to Taposiris, the wedding guests, the soldiers fleeing, his request that they cut off his head.",
     "Church History VII.11.1 and 11.18-23, from the same letter: Germanus, a bishop, tried to slander him; his answer; the retreat to a dry place in Libya.",
-    "Church History VII.11.3-13: his hearing before Aemilianus under Valerian and the sending to Cephro in Libya.",
-    "Church History VII.25, from his second book On Promises: some before him had rejected the Revelation; he would not reject it; the thought, words and Greek of the Revelation against the Gospel and letter of John; VII.25.7, the words quoted in the brief.",
+    "Church History VII.11.3-13: the second persecution, under Valerian.",
+    "Church History VII.25, from his second book On Promises: he would not reject the Revelation; its Greek against the Gospel and letter of John; VII.25.7, the words quoted in the brief.",
     "Church History VII.22, his plague letter: McGiffert dates it shortly before Easter 263; VII.22.8, the words quoted in the brief; VII.22.10, the pagans casting out their sick.",
-    "Church History VII.28.3: died in the twelfth year of Gallienus after seventeen years as bishop; McGiffert's note puts the death in the eleventh year in both versions of the Chronicle. Chronicle, in Jerome's Latin: Maximus ordained to the Alexandrian church in the eleventh year.",
+    "Church History VII.28.3: died in the twelfth year of Gallienus after seventeen years as bishop.",
     "Athanasius, On the Opinion of Dionysius, section 5: bishops of Pentapolis in Upper Libya held with Sabellius, and Dionysius wrote to show that the Son was not the Father.",
     "On the Opinion of Dionysius, sections 4 and 13: the words his opponents cite, and Athanasius's grant that he wrote them; some of his church went to the bishop of Rome, who wrote against both errors and wrote to Dionysius what had been said against him.",
     "On the Opinion of Dionysius, sections 15 and 16: his four books, never a time when God was not Father, light from eternal light; Arius's own words, that there was once a time when the Son was not.",
     "On the Opinion of Dionysius, sections 1 and 3: the Arians' claim on him, and Athanasius's proof that he was never condemned or driven out and died within the church.",
     "Basil, Letter 9, to Maximus the Philosopher: the woodman and the crooked sapling.",
-    "Rufinus, Epilogue to Pamphilus's Apology for Origen, and Jerome, Apology Against Rufinus II: the Arians' use of his books, and the claim of insertion."
+    "Rufinus, Epilogue to Pamphilus's Apology for Origen, and Jerome, Apology Against Rufinus II: the Arians' use of his books."
   ],
   "quotationOriginals": [
     {
@@ -126,11 +126,11 @@
     },
     {
       "modern": "That he was called John, and that this book is the writing of a John, I will not dispute. For I agree it is the work of someone holy and inspired by God. But I would not easily grant that this was the apostle, the son of Zebedee, the brother of James.",
-      "printed": "Therefore that he was called John, and that this book is the work of one John, I do not deny. And I agree also that it is the work of a holy and inspired man. But I cannot readily admit that he was the apostle, the son of Zebedee, the brother of James,",
-      "work": "Eusebius, Church History VII.25.7, quoting Dionysius, On Promises, tr. McGiffert",
-      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
-      "lines": "41453-41457",
-      "uncertain": "Salmond's English (Extant Fragments and Letters, lines 8119-8125) reads \"the writing of a John, I do not deny\" and \"the work of some holy and inspired man\"; McGiffert has \"the work of one John\". The modern \"the writing of a John\" follows Salmond and the Greek, which has no word for \"one\". \"I will not dispute\" follows the Greek verb, which is future, \"I will not speak against\", where both prints say \"I do not deny\"; \"inspired by God\" renders the one Greek word the prints give as \"inspired\"."
+      "printed": "That this person was called John, therefore, and that this was the writing of a John, I do not deny. And I admit further, that it was also the work of some holy and inspired man. But I could not so easily admit that this was the apostle, the son of Zebedee, the brother of James,",
+      "work": "Dionysius, On Promises, Book 2, in Eusebius, Church History VII.25.7, tr. S. D. F. Salmond",
+      "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+      "lines": "8119-8124",
+      "uncertain": "McGiffert's English (Church History VII.25.7, lines 41453-41457) reads \"the work of one John\" and \"I agree also that it is the work of a holy and inspired man\". The modern \"the writing of a John\" follows Salmond and the Greek, which has no word for \"one\"; \"I agree\" follows McGiffert and the Greek. \"I will not dispute\" follows the Greek verb, which is future, \"I will not speak against\", where both prints say \"I do not deny\"; \"inspired by God\" renders the one Greek word the prints give as \"inspired\"."
     },
     {
       "modern": "So even this kind of death, which came from great devotion and strong faith, seemed to fall nothing short of martyrdom.",
@@ -138,7 +138,7 @@
       "work": "Eusebius, Church History VII.22.8, quoting Dionysius's plague letter, tr. McGiffert",
       "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
       "lines": "41108-41110",
-      "uncertain": "Salmond's English (Extant Fragments and Letters, lines 11516-11521) reads \"so that this very form of death, in virtue of the distinguished piety and the steadfast faith which were exhibited in it, appeared to come in nothing beneath martyrdom itself.\" The modern \"even\" follows the Greek, which has a word for \"even\" there that neither print renders; \"devotion\" renders the Greek word the prints give as \"piety\"."
+      "uncertain": "Salmond's English (Extant Fragments and Letters, lines 11516-11521) reads \"so that this very form of death, in virtue of the distinguished piety and the steadfast faith which were exhibited in it, appeared to come in nothing beneath martyrdom itself.\" The modern \"even\" follows the Greek, which has a word for \"even\" there; McGiffert leaves it out, and Salmond gives it as \"this very form\"; \"devotion\" renders the Greek word the prints give as \"piety\"."
     }
   ]
 }
