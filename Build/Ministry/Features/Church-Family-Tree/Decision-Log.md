@@ -4906,3 +4906,13 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 **Why.** The Donatist world tells the North African split from the Donatists' side, naming the other church "the rival church" or "the other side". Both churches called themselves the Catholic church until an imperial ruling gave the name to one side, and "Caecilianist" was the Donatists' own label. The tree's narrator has to name that church without taking a side (Kit Part 1, Rigor).
 
 **Decided (Mark, 2026-11-20).** Option A of three ("Caecilian's church", "the Catholic church", "the Catholic party"): the narrator says "Caecilian's church", named for its first bishop as "the party of Donatus" is named for his. Its first mention in a piece says once that it came to be called the Catholic church. Polemic labels ("Caecilianist", "traditor", "persecution") stay credited to whoever used them.
+
+## 2026-11-20 — Built worlds on the tree recorded in the standard voices, and released
+
+**Decided (Mark, 2026-11-20).** After the two samples ("Approve, cap 155,000 chars"), all built worlds' narrator texts were recorded, and Mark asked for it to go live when done ("when it's done send it live").
+
+**Done.**
+- `generate_world_narration.mjs --tree` reads each piece's reviewed text from `World-Narration/`, refuses one whose source changed after the rewrite, and writes to `cft-website/audio/worlds-tree/`, each entry with the text it was recorded from and the world's piece list.
+- The run, settings printed before every request: Daniel (`onwK4e9ZLuTAKqWW03F9`, `eleven_multilingual_v2`) for 21 Story and Legacy pieces and Neo (`onegjDE2z0mQtp1g0HK7`, `eleven_v4`) for 99 documented stories, both `mp3_44100_64`, `{"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true}`, speed 1, tempo 1. 152,331 characters, 73,861 credits, under the 155,000-character cap; with the two samples (876 credits), 122 pieces and 74,737 credits.
+- Checked: all 122 files present, each recorded from its reviewed text; on the map all 11 built-world cards show the narrator texts and play only the tree recordings. Church in Conversation keeps its texts and Representative voices.
+- The map switches a world only when every piece is recorded; a later world rebuild that changes a source text makes its piece stale, and the tool refuses it until it is rewritten.
