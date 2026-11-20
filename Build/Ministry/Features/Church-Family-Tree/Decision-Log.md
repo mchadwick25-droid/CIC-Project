@@ -4802,3 +4802,33 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 **Decided (Mark, 2026-11-19: "Add one entry for both (Recommended)").** One person entry, `cyril-and-methodius`, under their tradition in era 4, carries the finished story and card unchanged. A census pass checks the entry. The story is recorded on batch 6's settings once Mark sets a credit cap.
 
 **Recording and the major mark (Mark, 2026-11-19).** "Approve, cap 1,600 (Recommended)" for the one story, on batch 6's settings, and "Major (Recommended)": Cyril and Methodius carry the major mark.
+
+## 2026-11-19 — Place lines always sit under the tradition's name
+
+**Why.** Mark: "when you scroll in far enough to see location appear there are gaps and not layed out well". Each place line was placed once, when the map was laid out, from a guess at the name's width at normal size, either under the name or beside it. As the map zooms in, names are drawn smaller, so a line beside its name drifted away with a wide gap ("Anatolia, Turkey" floated far from Cappadocians), and the under-or-beside choice never changed with zoom.
+
+**Decided (Mark, 2026-11-19: "Always under the name").** Each place line now sits directly under its tradition's name, lined up with the name, the same gap every time. It is placed each time the map is drawn, measured against the name at the current zoom, with the same collision check the names use. Where there is no room under a name, the line stays hidden until zooming in opens room. While a tradition's people are shown beside it, its place line stays hidden as before.
+
+## 2026-11-19 — A new river's people sit where it turns down, not on the trunk
+
+**Why.** Mark: "the river people should sit right at the curve down, not on the early believer thread, that gets confusing with all of them looking like they are early believers not from other threads." In the era where a river begins, its people figure sat at the first point the river showed, which is where it leaves the First Churches, so Africa's "7" sat on the trunk beside Montanism.
+
+**Done (Mark's direction, 2026-11-19).** In the era where a river begins, its people figure now sits where the river has curved into its own lane and turns down (its start plus the merge window), moving further down only to clear a label. In every other era it is placed as before. Checked in era 1: Africa, Latin West, Syriac East and Non-Nicene each sit on their own river.
+
+## 2026-11-19 — A river branches only from a tradition it is linked to; the rest start on their own
+
+**Why.** Mark asked whether the rivers that leave the First Churches reflect the record or are drawn for effect, and why Non-Nicene leaves "on the third tradition down". Each river's parent follows the sourced rule of 2026-11-10, and the point where it left was its first tradition's start year (Non-Nicene's Gnostic Currents, 120). But a branch landed beside whichever trunk tradition sat at that year, so Non-Nicene looked as if it grew from The Apologists and Africa from Montanism.
+
+**Decided (Mark, 2026-11-19: "only rivers that show connection with traditions should start their otherwise they start just above the first tradition in that river"; then "All 8 start on their own").**
+- A river with a recorded descent link from one tradition (basis `lineage` in `RIVER_ORIGINS`) still branches from its parent river at its start year: Protestant & Evangelical, Syriac and Protestant, Greek and Latin, Africa and Latin, Latin and Protestant, and Across families.
+- A river whose parent is declared without such a link starts on its own, just above its first tradition: Syriac East, Greek East, Africa, Latin West, Non-Nicene, Caucasus, Church and Empire, and Global Revival & Pentecostal.
+- `RIVER_ORIGINS` is unchanged. Each river's card gains "Where it began": for a declared parent, its reason, parent, confidence and sources; for a lineage parent, the two linked traditions, the kind of link and its confidence.
+- A river's people figure in its first era sits where it settles into its own lane (for a river that starts on its own, at its start), lower only to clear a label.
+
+## 2026-11-19 — A river that starts on its own rises above its first tradition, with its people figure there
+
+**Why.** Mark: "extend the river up from the first tradition and put the who number for the river above the first tradition, here it looks like it from the tradition not the river". The river began at its first tradition and its people figure sat just below that tradition, so the figure read as the tradition's own.
+
+**Done (Mark's direction, 2026-11-19).** A river that starts on its own (no tradition-level link) now rises 90 map units above its first tradition, at full width, tapering to a point at its head. In its first era its people figure sits on that stretch, just above the first tradition and below the era line. The people figure of a river that branches from a linked tradition is placed as before.
+
+**More room above the first tradition (Mark, 2026-11-19: "extend the two that start right above the tradition up a little so there is a little seperation from the tradition and the river who number").** The river now rises 150 map units above its first tradition, and its people figure sits about one figure-height higher than before, so there is a clear gap between the figure and the tradition at every zoom. Where that would put the figure on an era's title (Church and Empire on a phone), it moves down just enough to clear it.
