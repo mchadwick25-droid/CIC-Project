@@ -4888,3 +4888,13 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 **Decided (Mark, 2026-11-20).**
 - "Church Family Tree only": the tree gets its own Daniel and Neo recordings; Church in Conversation keeps each Representative's voice. The world Story and Legacy go to Daniel, the documented stories to Neo.
 - "Rewrite, then record": 60 of the 122 texts speak in the world's own voice ("our communities", "our tradition", "our church's memory"). Read by the map's narrator, that would claim membership of each church. Each piece is first rewritten into the tree's narrator voice through the brief kit, with quotes rechecked, then recorded after Mark hears a sample. Until then the tree keeps the Representatives' recordings. The writing runs as its own thread (Open-Gaps, "Built worlds in the standard voices").
+
+## 2026-11-20 — How the built worlds' texts are rewritten for the tree
+
+**Why.** The rewrite decided in "Built worlds on the tree move to the standard voices, after a rewrite into the narrator's voice" (2026-11-20) needed a home, a depth and a rule for faults already in the worlds' texts. Of the 122 texts, 111 score under grade 8, nearly all as runs of short one-act sentences, and two Legacy pieces (desert, Zurich–Geneva) fail the hard limits.
+
+**Decided (Mark, 2026-11-20).**
+- Home: option C, sent through the site thread. Working files under `World-Narration/`, one per piece per world, with a README. No edit to `records/`, `cic-website/` or `cft-website/`. The site thread releases them; the tree will show and play them.
+- Depth: "change the voice, and link the prose". Content and order kept; first person and emic hedges become the narrator's third person and plain doubt at the same strength; short runs joined with cause, contrast and time where the original supports it; only what fails the kit's blocking bar is fixed.
+- Faults already in a world's text: corrected in the tree text to what the record's sources and confidence hold, each correction independently checked, and each logged in that world's `Open_Gaps_Tracking.md` for its record owner.
+- The post-apostolic house church ran first as a pilot, through rewrite, review, one revision and a targeted recheck, before the other ten worlds.
