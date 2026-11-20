@@ -106,6 +106,8 @@ Only Quotes 1–3 are quoted aloud. "A willing exile", "the whole world is one h
 - Not "Possidius modelled his Life of Augustine on it", or any named later Life that followed it. No held source shows one (Links).
 - Not "Pontius left out the quarrel to protect Cyprian's name". No held source gives his motive; the scholars' reasons are theirs (E10).
 - Not "the dream at Curubis" placed on the night after the hearing. It was the first day at Curubis (E4).
+- Not the book's aim (to hand Cyprian's example on to later generations), or the oldest-biography-or-speech-of-praise dispute, first told after the first minute. Both are the essence: say each plainly by about word 150, and do not tell the dispute again in What came 3.
+- Not "he left it unsigned" or any reason for the missing name; say "the book bears no name" (HAR 331–333).
 
 **Leave out**
 
