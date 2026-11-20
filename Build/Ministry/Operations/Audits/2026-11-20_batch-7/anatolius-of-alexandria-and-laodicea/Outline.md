@@ -132,6 +132,8 @@ Only these are quoted aloud. "One good man following another" and "no small mist
 - Not "Easter was decided at Whitby for all England" or more of the ruling than one clause: Hild's story holds it.
 - Not Wilfrid's "a corner of the remotest island", or Colman's line on Columba (Sibling).
 - Not "he died a martyr", or any death, date or grave (E8).
+- Do not leave out the Latin book under his name, or the disagreement over whether it is his (D4), to fit the length. It is in the approved heart and the Connection. 'Cut first: What came 3' covers only Bede's own doubt and the Elias clause.
+- Not 'the fourteenth day of the moon' at Whitby unless the Passover gloss has already said that it falls on the fourteenth day of the first spring month, at full moon.
 
 **Leave out**
 
