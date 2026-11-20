@@ -114,6 +114,7 @@ Past six names: Cyprian, Cornelius, Novatian and Socrates carry the story; Deciu
 - Not "Novatian said the lapsed were damned" or "could not be saved". His rule, as Socrates reports it, left their pardon to God (D3).
 - Not "Cornelius took back everyone who had sacrificed" as fact. Socrates says so; Cyprian calls it a false rumour (D1).
 - Not "Felicissimus was a traitor" or similar in the narrator's voice. "Cyprian says" (E5).
+- Not 'within a year', 'the next year' or any date reckoned from the sentence before for the 252 decision when it follows Nicaea or Socrates's day. Say 'in 252', credited to a historian's dating (Hefele).
 - Not "the confessors defied Cyprian" as the narrator's judgment. Tell what their letter said (E3).
 - Not the council's months as fact. "Probably May" and "probably October", by Hefele's dating (S4).
 - Not "the first penitential book" in any voice: Hefele's phrase is for the card (E6).

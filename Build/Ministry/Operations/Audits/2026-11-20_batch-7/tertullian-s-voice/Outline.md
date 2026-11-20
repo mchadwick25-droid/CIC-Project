@@ -155,6 +155,7 @@ Only Quotes 1–3 are quoted aloud. These three short phrases stand inside the n
 - Vincent is for the card only; if the card gives him, give both his praise and his "trial" (I6).
 - "Persona means mask." No held source says it.
 - Do not add how he felt at any point, or that he was bitter, proud or lonely; Jerome's "a man of keen and vigorous character" (JER 40497) is the only word on his temper, and it is optional.
+- "He ended" or "he closed" for Quote 1's last sentence. It comes in chapter 1, and the Apology closes with "the blood of Christians is seed" (chapter 50). Say "he pleaded".
 
 **For the card, not the story:** (cut for length, Mark, 2026-11-20)
 

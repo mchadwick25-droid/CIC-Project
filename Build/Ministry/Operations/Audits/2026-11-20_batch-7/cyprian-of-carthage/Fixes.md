@@ -66,3 +66,4 @@ Source: `Cut_Check.md`, 2026-11-20. Length FIXes (item 5) and all Length lines a
   - Who tells it, "The court record" bullet: `for the eye-binding, the gold pieces and the burial, say "the account of his death".` replaced with `for the eye-binding and the burial, say "the account of his death".`
 
 NOT APPLIED: none.
+- Coordinator, 2026-11-20, after the revision: removed "by a holy command" from beat 6 and the last-hiding Do not say line, so the outline agrees with the review's new line (B2) that the phrase is not rendered either way.
