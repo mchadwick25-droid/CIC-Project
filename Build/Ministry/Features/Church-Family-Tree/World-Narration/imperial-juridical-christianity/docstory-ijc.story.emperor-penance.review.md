@@ -16,8 +16,8 @@ Checked against `records/ijc/story/ijc.story.emperor-penance.md`, `cic/texts/npn
 
 ## Quotes
 
-- "I, I say, have no reason to charge you with defiance, but I have reason to fear," is the same as the original, and stands in the `modern_rendering` of `ijc.quote.ambrose-dare-not-offer`. Source wording at `cic/texts/npnf210_ambrose-select-works-letters.xml`, lines 44182-44184: "I, I say, have no cause for a charge of contumacy against you, but have cause for fear." Supported.
-- "I dare not offer the sacrifice if you intend to be present." is the same as the original and stands in the rendering. Source, line 44184: "I dare not offer the sacrifice if you intend to be present." Verbatim.
+- "I, I say, have no reason to charge you with defiance, but I have reason to fear," is the same as the original, and stands in the `modern_rendering` of `ijc.quote.ambrose-dare-not-offer`. Source wording at `cic/texts/npnf210_ambrose-select-works-letters.xml`, lines 44181-44183: "I, I say, have no cause for a charge of contumacy against you, but have cause for fear." Supported.
+- "I dare not offer the sacrifice if you intend to be present." is the same as the original and stands in the rendering. Source, line 44183: "I dare not offer the sacrifice if you intend to be present." Verbatim.
 
 ## Findings
 
