@@ -75,7 +75,7 @@ Researcher's sheet for batch 7 (2026-11-20). The job: the Roman presbyter who wr
 
 **E11. His books from the split.** *On the Jewish Meats* opens as a letter from absence: "the fear lest you should think that any disadvantage is suffered by you by reason of my absence; and this I strive to remedy, in labouring to show myself present with you by frequent letters" (ANF 63741–63745). Harnack: written by Novatian as a separated bishop, after spring 251, probably driven from Rome by a persecution (HARN 22503–22508). Coxe: "composed during the Decian persecution" (ANF-ed 60321–60322). Editors differ. For the card.
 
-**E12. His death.** Socrates: "He himself indeed afterwards suffered martyrdom in the reign of Valerian, during the persecution which was then raised against the Christians" (SOC 14132–14144). Later (about 190 years), sympathetic, single witness. Valesius (SOC-ed 14134–14141): the Novatians' book *The Martyrdom of Novatian* "was full of false statements and fables", and in it "the founder of the sect was not represented as suffering martyrdom, but simply as being a 'confessor.'" Wallis/Coxe: "his authority, amid the silence of all others, is not sufficient to guarantee the fact" (ANF-ed 60394–60397). Harnack: when he died "weiß man nicht sicher"; the martyr acts current in the sixth century were forged (HARN 22550–22554). Contested.
+**E12. His death.** Socrates: "He himself indeed afterwards suffered martyrdom in the reign of Valerian, during the persecution which was then raised against the Christians" (SOC 14132–14144). Later (about 190 years), sympathetic, single witness. Valesius (SOC-ed 14134–14141): the Novatians' book *The Martyrdom of Novatian* "was full of false statements and fables", and in it "the founder of the sect was not represented as suffering martyrdom, but simply as being a 'confessor.'" Wallis/Coxe: "his authority, amid the silence of all others, is not sufficient to guarantee the fact" (ANF-ed 60394–60397). McGiffert: "according to the tradition of his followers, and also Socrates, *H. E.* IV. 28, he suffered martyrdom under Valerian" (EUS-ed 38240–38242). Harnack: when he died "weiß man nicht sicher"; Socrates says he died a martyr under Valerian, "so auch die späteren Novatianer" (HARN 22550–22552); the martyr acts current in the sixth century were forged (HARN 22552–22554). Contested.
 
 ## 3. Impact (heaviest first)
 
@@ -118,7 +118,7 @@ Researcher's sheet for batch 7 (2026-11-20). The job: the Roman presbyter who wr
 
 **D5. Was his teaching on God sound?** Dionysius, about 257: "impious teaching concerning God" (E10). McGiffert: "not at all heretical in doctrine" (EUS-ed 38244). Acesius at Nicaea accepted the creed (I1); Sozomen and Socrates say his church held the same faith (I1). McGiffert reads Dionysius's charge as general, from the rejection of the church's baptism (EUS-ed 39749–39756). Credit Dionysius if told.
 
-**D6. His death.** Socrates alone; disputed (E12).
+**D6. His death.** Socrates is the only early writer who says it; disputed (E12). McGiffert and Harnack say his followers remembered him as a martyr too (EUS-ed 38240–38242; HARN 22551–22552); Valesius reports that their book of his martyrdom made him only a confessor (SOC-ed 14134–14141). Credit each.
 
 **D7. Acesius's see.** Socrates I.10: "a bishop of the sect of Novatians". Sozomen II.32: in Constantinople (I1). Percival and Hefele follow Sozomen (NIC-ed 3825–3826; HEF 26284–26285).
 
@@ -146,10 +146,11 @@ Researcher's sheet for batch 7 (2026-11-20). The job: the Roman presbyter who wr
 
 **How many files.** 379 files carry one of those forms. Most are later histories, councils and canon collections that name the Novatians in passing.
 
-**Used.** ANF (his own words, Cyprian's letters in English), EP (Cyprian's Latin, including Ep. 30), EUS and EUSG (Cornelius and Dionysius), SOC and SOCG (Socrates, Sozomen), NIC (canon 8), JER (Jerome), AMB (Ambrose), HEF and HARN (modern historians, credited as such).
+**Used.** ANF (his own words, Cyprian's letters in English), ANF6 (`anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml`: Dionysius's letter to Novatian in Salmond's English, 9907–9925), EP (Cyprian's Latin, including Ep. 30), EUS and EUSG (Cornelius and Dionysius), SOC and SOCG (Socrates, Sozomen), NIC (canon 8), JER (Jerome), AMB (Ambrose), HEF and HARN (modern historians, credited as such).
 
 **Set aside, and why.**
 - `koch_cyprianische-untersuchungen-deu_1926.txt` (563 hits), `benson_cyprian-his-life-his-times-his-work_1897.txt` (336), `dales_theologie-de-saint-cyprien-fra_1922.txt`, `monceaux_histoire-litteraire-afrique-chretienne-tome2_1902.txt`, `vonsoden_*`: modern studies of Cyprian; they add nothing primary about Novatian that ANF, EP and EUS do not hold.
+- `hefele-leclercq_histoire-des-conciles-tome1-1-cyprien-novatiens-baptheme-slice-fra_1907.txt`: a modern French history of the councils of 251; its primary matter is held in EUS and EP.
 - `schanz-hosius-krueger_geschichte-der-roemischen-litteratur-teil3-deu_3e-aufl1922.txt`, `bardenhewer_*`: modern handbooks; Harnack is used for the one dating question.
 - `socrates_historia-ecclesiastica-tomus2-grc-lat_hussey1853.txt` (149 hits): Greek of Socrates IV–VII; the IV.28 rule is the council's quote, and VII.11 is told in paraphrase from SOC.
 - The anonymous *Treatise against the Heretic Novatian* (ANF 64269 on; about 255): a hostile sermon by an unknown bishop; for the card.
