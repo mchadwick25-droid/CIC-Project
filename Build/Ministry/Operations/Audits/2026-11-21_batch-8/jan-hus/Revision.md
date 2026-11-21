@@ -15,7 +15,7 @@ Four Do not say lines from `Review.md` (B1, B2, B3, MINOR 1) added to `Outline.m
 - **M1.** "whom the church had condemned" is now "whose books the church had condemned".
 - **M2.** The council is glossed at first hearing, in paragraph 1, as the review words it. The paragraph 5 sentence is now "At Constance, Hus was arrested within weeks."
 - **M3.** Done by B2's wording.
-- **M4 and M5.** Cut ", on 2 September 1915," (as written in the review: 1415). The date goes to the card.
+- **M4 and M5.** Cut ", on 2 September 1415," (as written in the review: 1415). The date goes to the card.
 - **M6.** Not taken: Option A, and the room is not needed. Q3 stands whole.
 - **M7.** Done by M2.
 

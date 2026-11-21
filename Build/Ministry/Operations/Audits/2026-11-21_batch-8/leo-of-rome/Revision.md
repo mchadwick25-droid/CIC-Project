@@ -25,7 +25,7 @@ Batch 8, 2026-11-21. One revision under the kit. Old brief kept as `leo-of-rome.
 - All other additions are the review's exact wording.
 
 ## Essence
-Complete at word 119 ("...ranked Constantinople next to Rome.").
+Complete at word 121 ("...ranked Constantinople next to Rome.").
 
 ## Length
 676 words, about 4:31 at 150 a minute (scorer: grade 7.2, pass; longest sentence 28). Essentially at the limit of 675.
