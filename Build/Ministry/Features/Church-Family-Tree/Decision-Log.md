@@ -5102,3 +5102,13 @@ Not fixed now, logged in Open-Gaps: the map's own copy of the data has older inf
 6. Thomas Aquinas: the essence is the researcher's (the Summa states the case against each point and answers it; nothing true can be proved false), not the slate's "to show that faith and reason do not conflict".
 7. Jan Hus: "King Sigismund", not "the emperor".
 8. The outline checks begin once the researchers apply items 2 to 5.
+
+## 2026-11-21 — Batch 8: four lengths after review (Mark)
+
+**Why.** After review, eight of the twelve revised stories fit under 4:30; four could not without moving what the outline keeps, or part of the approved heart, to the card (https://claude.ai/artifact/2M2FAHXXeYZJfNU8wgc8X1; each folder's `Review.md` in `Build/Ministry/Operations/Audits/2026-11-21_batch-8/`).
+
+**Decided (Mark, 2026-11-21: "Approved as recommend").**
+1. Jan Hus runs about 5:00, with the 1403 ban, the 1412 crisis and the council's reason for the arrest restored, so the approved heart stays whole.
+2. Ambrose of Milan: Augustine's later quoting of him goes to the card, and the story stands at about 4:45.
+3. Leo of Rome: the Nestorius and Syriac-chronicle pair goes to the card, bringing the story under 4:30.
+4. Catherine of Siena: the drawn sword at Florence stays on the card.
