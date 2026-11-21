@@ -208,7 +208,8 @@
       "printed": "I counsel you to send the supernumeraries and those who are in nowise useful to us, as old women and children and old men, outside the gates, to go wherever they may please. For why should we retain for no purpose these who must at any rate soon die?",
       "work": "Eusebius of Caesarea, Church History VII.32.9, tr. Arthur McGiffert",
       "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
-      "lines": "42736-42739"
+      "lines": "42736-42739",
+      "secondReading": "same"
     },
     {
       "modern": "It is agreed that Anatolius was a most holy and most learned man, most worthy of praise. But what have you to do with him, when you do not even keep his rules? For he followed the rule of truth in his Easter, and set down a cycle of nineteen years. Either you do not know it, or you know it and treat it as nothing, though the whole church of Christ keeps it.",
@@ -218,7 +219,8 @@
       "lines": "8135-8141",
       "original": "sed quid uobis cum illo, cum nec eius decreta seruetis? Ille enim in pascha suo regulam utique ueritatis sequens, circulum X et VIIII annorum posuit, quem uos aut ignoratis, aut agnitum et a tota Christi ecclesia custoditum pro nihilo contemnitis.",
       "originalFile": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt",
-      "originalLines": "21583-21587"
+      "originalLines": "21583-21587",
+      "secondReading": "same"
     }
   ]
 }

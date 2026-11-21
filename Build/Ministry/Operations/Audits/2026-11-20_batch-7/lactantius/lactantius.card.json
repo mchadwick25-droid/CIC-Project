@@ -174,7 +174,8 @@
       "lines": "4567",
       "originalFile": "cic/texts/lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt",
       "originalLines": "23206-23210",
-      "uncertain": "Rendered from Brandt's Latin, not Fletcher's English. The brief ends the quotation at this task; Lactantius's sentence goes on, in Fletcher's English, that with all the strength of my mind I might refute the accusers of righteousness. Fletcher's arrogant impiety of these is the brief's proud ungodliness (superba inpietate), and his this office is the brief's this task (munus). Brandt's apparatus reports that earlier editors thought a word was lost after deo; the printed text reads as quoted. A second scan of Brandt's edition reads the same Latin apart from scan faults."
+      "uncertain": "Rendered from Brandt's Latin, not Fletcher's English. The brief ends the quotation at this task; Lactantius's sentence goes on, in Fletcher's English, that with all the strength of my mind I might refute the accusers of righteousness. Fletcher's arrogant impiety of these is the brief's proud ungodliness (superba inpietate), and his this office is the brief's this task (munus). Brandt's apparatus reports that earlier editors thought a word was lost after deo; the printed text reads as quoted. A second scan of Brandt's edition reads the same Latin apart from scan faults.",
+      "secondReading": "same"
     },
     {
       "modern": "Religion must be defended not by killing but by dying, not by cruelty but by patient endurance, not by crime but by faithfulness.",
@@ -185,7 +186,8 @@
       "lines": "5158",
       "originalFile": "cic/texts/lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt",
       "originalLines": "26240-26242",
-      "uncertain": "Rendered from Brandt's Latin, not Fletcher's English. Fletcher's putting to death is the brief's killing (occidendo), his guilt and good faith are the brief's crime (scelere) and faithfulness (fide). A second scan of Brandt's edition reads the same Latin."
+      "uncertain": "Rendered from Brandt's Latin, not Fletcher's English. Fletcher's putting to death is the brief's killing (occidendo), his guilt and good faith are the brief's crime (scelere) and faithfulness (fide). A second scan of Brandt's edition reads the same Latin.",
+      "secondReading": "same"
     },
     {
       "modern": "He was the most eloquent man of his time, but so poor in this life that he often lacked even the necessities.",
@@ -193,7 +195,8 @@
       "work": "Jerome, Chronicle, the entry for the year Crispus was made Caesar, as Prosper copies it in Brandt's collection of ancient witnesses to Lactantius (Latin)",
       "file": "cic/texts/lactantius_de-opificio-de-ira-carmina-lat_brandt-csel27-1.txt",
       "lines": "11251-11252",
-      "uncertain": "No English translation of the Chronicle is held, so the brief renders the Latin. The printed wording is Prosper's copy of Jerome's entry, which leaves out Latinis litteris (taught Crispus in Latin letters) before the quoted words; the words quoted are the same as in Jerome's own entry in Fotheringham's edition (lines 44984-44986 of that file), where a margin number and the word olymp stand beside the last line and eloquentissimus breaks at the line end. Brandt's collection also prints Jerome's own entry (lines 11241-11243) with the same words and a stray letter before tempore."
+      "uncertain": "No English translation of the Chronicle is held, so the brief renders the Latin. The printed wording is Prosper's copy of Jerome's entry, which leaves out Latinis litteris (taught Crispus in Latin letters) before the quoted words; the words quoted are the same as in Jerome's own entry in Fotheringham's edition (lines 44984-44986 of that file), where a margin number and the word olymp stand beside the last line and eloquentissimus breaks at the line end. Brandt's collection also prints Jerome's own entry (lines 11241-11243) with the same words and a stray letter before tempore.",
+      "secondReading": "same"
     }
   ]
 }

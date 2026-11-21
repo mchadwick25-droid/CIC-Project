@@ -181,7 +181,8 @@
       "lines": "32403",
       "original": "persecutio est haec alia",
       "originalFile": "cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt",
-      "originalLines": "5953"
+      "originalLines": "5953",
+      "secondReading": "same"
     },
     {
       "modern": "tempered with discipline and mercy",
@@ -192,7 +193,8 @@
       "original": "cum disciplina pariter et misericordia temperatam",
       "originalFile": "cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt",
       "originalLines": "5968",
-      "uncertain": "The English print adds alike (Latin pariter) and repeats with; the modern wording leaves out alike."
+      "uncertain": "The English print adds alike (Latin pariter) and repeats with; the modern wording leaves out alike.",
+      "secondReading": "same"
     },
     {
       "modern": "We weighed out a balance, with healing moderation,",
@@ -203,7 +205,8 @@
       "original": "temperamentum salubri moderatione librauimus",
       "originalFile": "cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt",
       "originalLines": "7584-7585",
-      "uncertain": "Temperamentum is a balance or blend, where the English print has the decision; salubri is healing or wholesome."
+      "uncertain": "Temperamentum is a balance or blend, where the English print has the decision; salubri is healing or wholesome.",
+      "secondReading": "same"
     },
     {
       "modern": "Hope of communion and peace was not to be wholly denied to the lapsed, so that despair would not make them fall away further.",
@@ -214,7 +217,8 @@
       "original": "ut nec in totum spes communicationis et pacis lapsis denegaretur, ne plus desperatione deficerent",
       "originalFile": "cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt",
       "originalLines": "7585-7586",
-      "uncertain": "The modern wording stops at the first reason. Cyprian gives a second, that shut out of the church they would live as pagans."
+      "uncertain": "The modern wording stops at the first reason. Cyprian gives a second, that shut out of the church they would live as pagans.",
+      "secondReading": "same"
     },
     {
       "modern": "And the cases, wishes and needs of each person would be examined.",
@@ -224,7 +228,8 @@
       "lines": "33521-33522",
       "original": "examinarentur causae et uolontates et necessitates singulorum",
       "originalFile": "cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt",
-      "originalLines": "7590-7610"
+      "originalLines": "7590-7610",
+      "secondReading": "same"
     },
     {
       "modern": "They should not admit those who had sacrificed to the sacred rites. They should urge them to repent, but leave their pardon to God, who is able, and has the power, to forgive sins.",
@@ -235,7 +240,8 @@
       "original": "μὴ δέχεσθαι τοὺς ἐπιτεθυκότας εἰς τὰ μυστήρια ἀλλὰ προτρέπειν μὲν αὐτοὺς εἰς μετάνοιαν, τὴν δὲ συγχώρησιν ἐπιτρέπειν Θεῷ, τῷ δυναμένῳ καὶ ἐξουσίαν ἔχοντι συγχωρεῖν ἁμαρτήματα.",
       "originalFile": "cic/texts/socrates_historia-ecclesiastica-tomus2-grc-lat_hussey1853.txt",
       "originalLines": "4372-4377",
-      "uncertain": "The modern wording follows the Greek where it differs from the print: sacred rites for the mysteries (the rite meant is the Lord's Supper), who is able and has the power for the Greek's two words, and sins for the Greek's plural."
+      "uncertain": "The modern wording follows the Greek where it differs from the print: sacred rites for the mysteries (the rite meant is the Lord's Supper), who is able and has the power for the Greek's two words, and sins for the Greek's plural.",
+      "secondReading": "same"
     },
     {
       "modern": "strangers",
@@ -243,7 +249,8 @@
       "work": "Eusebius of Caesarea, Church History VI.43, tr. A. C. McGiffert",
       "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
       "lines": "38294",
-      "uncertain": "The Greek of Rome's decree is held only in a damaged scan, so it is not printed here. Rufinus's Latin of the same sentence has alienum esse ab ecclesia."
+      "uncertain": "The Greek of Rome's decree is held only in a damaged scan, so it is not printed here. Rufinus's Latin of the same sentence has alienum esse ab ecclesia.",
+      "secondReading": "same"
     },
     {
       "modern": "with the medicines of repentance",
@@ -251,14 +258,16 @@
       "work": "Eusebius of Caesarea, Church History VI.43, tr. A. C. McGiffert",
       "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
       "lines": "38299",
-      "uncertain": "The Greek of Rome's decree is held only in a damaged scan, so it is not printed here. Rufinus's Latin of the same sentence has fomentis paenitentiae."
+      "uncertain": "The Greek of Rome's decree is held only in a damaged scan, so it is not printed here. Rufinus's Latin of the same sentence has fomentis paenitentiae.",
+      "secondReading": "same"
     },
     {
       "modern": "to the present day",
       "printed": "even to the present day",
       "work": "Socrates of Constantinople, Church History IV.28, tr. A. C. Zenos",
       "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
-      "lines": "14060-14061"
+      "lines": "14060-14061",
+      "secondReading": "same"
     },
     {
       "modern": "In this time we give peace not to those who sleep, but to those who keep watch. We give peace not for luxury, but for arms. We give peace not for rest, but for the battle line.",
@@ -269,7 +278,8 @@
       "original": "hoc in tempore pacem nos non dormientibus sed uigilantibus damus, pacem non deliciis sed armis damus, pacem non ad quietem sed ad aciem damus.",
       "originalFile": "cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt",
       "originalLines": "8721-8724",
-      "uncertain": "Deliciis is luxury or pleasures; the English print's indulgences now names a later church practice. Aciem is the battle line, where the print has the field of battle."
+      "uncertain": "Deliciis is luxury or pleasures; the English print's indulgences now names a later church practice. Aciem is the battle line, where the print has the field of battle.",
+      "secondReading": "same"
     }
   ]
 }

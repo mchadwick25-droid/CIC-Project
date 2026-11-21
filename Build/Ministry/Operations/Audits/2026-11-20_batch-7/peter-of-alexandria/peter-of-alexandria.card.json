@@ -162,7 +162,8 @@
       "original": "οὐ γὰρ κατὰ προαίρεσιν ἐν τούτῳ ἐληλύθασιν, ἀλλὰ καταπροδοθέντες ὑπὸ τῆς ἀσθενείας τῆς σαρκὸς, ἐπειδὴ καὶ τὰ στίγματα τοῦ Ἰησοῦ ἐνδείκνυνται ἐν τοῖς σώμασιν αὐτῶν",
       "originalFile": "cic/texts/nikodemos-hagiorite_pedalion-canons-grc_1886.txt",
       "originalLines": "49722-49723",
-      "uncertain": "The Greek is from the 1886 Pedalion, whose scan prints σίγματα. The English note to the canon in the Ante-Nicene Fathers (line 26619) gives στίγματα, and the Greek is printed with that word."
+      "uncertain": "The Greek is from the 1886 Pedalion, whose scan prints σίγματα. The English note to the canon in the Ante-Nicene Fathers (line 26619) gives στίγματα, and the Greek is printed with that word.",
+      "secondReading": "same"
     },
     {
       "modern": "Peter's case was for mercy and kindness. The case of Melitius and those with him was for truth and zeal.",
@@ -170,14 +171,16 @@
       "work": "Epiphanius of Salamis, Panarion 68.3, Greek, in Oehler's Corpus haereseologicum",
       "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt",
       "lines": "43852-43853",
-      "uncertain": "Oehler's scan prints a numeral 0 where the word is ὁ. Migne's Patrologia Graeca 42 (cic/texts/epiphanius_panarion-haer-65-80-pg42-grc-lat_migne1863.txt, lines 13796-13799) prints ὁ there."
+      "uncertain": "Oehler's scan prints a numeral 0 where the word is ὁ. Migne's Patrologia Graeca 42 (cic/texts/epiphanius_panarion-haer-65-80-pg42-grc-lat_migne1863.txt, lines 13796-13799) prints ὁ there.",
+      "secondReading": "same"
     },
     {
       "modern": "He was seized for no cause, when no one expected it. All at once and with no reason given, as though on Maximinus's order, he was beheaded.",
       "printed": "being seized for no cause and quite unexpectedly, was, as if by command of Maximinus, immediately and without explanation, beheaded.",
       "work": "Eusebius of Caesarea, Church History IX.6.2, tr. A. C. McGiffert",
       "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
-      "lines": "47996-47998"
+      "lines": "47996-47998",
+      "secondReading": "same"
     }
   ]
 }

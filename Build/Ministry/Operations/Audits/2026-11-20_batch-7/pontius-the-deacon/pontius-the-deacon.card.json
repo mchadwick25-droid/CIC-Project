@@ -133,7 +133,8 @@
       "lines": "28057",
       "original": "exulem uoluntarium",
       "originalFile": "cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt",
-      "originalLines": "41015"
+      "originalLines": "41015",
+      "secondReading": "same"
     },
     {
       "modern": "He spread his hand out flat, like a sword blade, and mimed the stroke of the usual execution. What he wanted understood, he made as clear as plain speech. I understood the sentence still to come: my martyrdom.",
@@ -144,7 +145,8 @@
       "original": "manu enim expansa et complanata ad spatae modum ictum solitae animadversionis imitatus, quod volebat intellegi, ad instar liquidi sermonis expressit; intellexi sententiam passionis futuram.",
       "originalFile": "cic/texts/harnack_vita-cypriani-commentary-lat-deu_1913.txt",
       "originalLines": "1309-1313",
-      "uncertain": "Passion in the English translation means the martyr's suffering and death, so the modern wording says martyrdom, and spata is a sword, so the modern wording says sword blade."
+      "uncertain": "Passion in the English translation means the martyr's suffering and death, so the modern wording says martyrdom, and spata is a sword, so the modern wording says sword blade.",
+      "secondReading": "same"
     },
     {
       "modern": "I have decided to write down a few things, in brief. Not that the life of so great a man is hidden from anyone, even the pagans. It is so that this great, matchless example may be handed on to those after us too, into undying memory.",
@@ -155,7 +157,8 @@
       "original": "placuit summatim pauca conscribere, non quo aliquem uel gentilium lateat tanti uiri uita, sed ut ad posteros quoque nostros incomparabile et grande documentum in immortalem memoriam porrigatur",
       "originalFile": "cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt",
       "originalLines": "40267-40270",
-      "uncertain": "Hartel's Latin reads quo, where Harnack prints quod and queries quo; the sense is the same. The English translation has pattern for documentum, and the modern wording has example. Hartel's Latin goes on with a further clause, which Harnack strikes because the manuscripts omit it or place it differently; the quotation stops before it."
+      "uncertain": "Hartel's Latin reads quo, where Harnack prints quod and queries quo; the sense is the same. The English translation has pattern for documentum, and the modern wording has example. Hartel's Latin goes on with a further clause, which Harnack strikes because the manuscripts omit it or place it differently; the quotation stops before it.",
+      "secondReading": "same"
     },
     {
       "modern": "Shall I grieve that I was not his companion? But his victory must be celebrated. Shall I celebrate his victory? But I grieve that I am not his companion. Yet I must confess to you plainly what you know too: this is how I felt. I rejoice much, even too much, in his glory. But I grieve more that I remained behind.",
@@ -166,7 +169,8 @@
       "original": "dolebo quod non comes fuerim? sed illius uictoria triumphanda est. de uictoria triumphabo ? sed doleo quod comes non sim. uerum uobis tamen et simpliciter confitendum est, quod et uos scitis, in hac me fuisse sententia. multum ac nimis multum de gloria eius exulto, plus tamen doleo quod remansi.",
       "originalFile": "cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt",
       "originalLines": "41405-41410",
-      "uncertain": "The English translation reads the Latin in hac me fuisse sententia as it was my intention to be his companion. Harnack's print sets a colon after sententia, where Hartel's Latin has a full stop, so that the words point forward to the joy and the grief, and the modern wording follows that. The English translation has I must triumph in his victory, where the modern wording says his victory must be celebrated."
+      "uncertain": "The English translation reads the Latin in hac me fuisse sententia as it was my intention to be his companion. Harnack's print sets a colon after sententia, where Hartel's Latin has a full stop, so that the words point forward to the joy and the grief, and the modern wording follows that. The English translation has I must triumph in his victory, where the modern wording says his victory must be celebrated.",
+      "secondReading": "same"
     }
   ]
 }

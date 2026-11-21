@@ -225,7 +225,8 @@
       "englishPrinted": "somewhat garbled and untruthful",
       "englishFile": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
       "englishLines": "30176",
-      "uncertain": "The Latin has two comparatives, less plainly and less faithfully; the Ante-Nicene English reads somewhat garbled and untruthful, which is stronger than the Latin. The modern English keeps the Latin's comparatives."
+      "uncertain": "The Latin has two comparatives, less plainly and less faithfully; the Ante-Nicene English reads somewhat garbled and untruthful, which is stronger than the Latin. The modern English keeps the Latin's comparatives.",
+      "secondReading": "same"
     },
     {
       "modern": "Whoever does not have the Church as mother cannot have God as Father.",
@@ -236,7 +237,8 @@
       "original": "habere non potest Deum patrem qui ecclesiam non habet matrem.",
       "originalFile": "cic/texts/cyprian_de-unitate-ecclesiae-catholicae-lat_hartel1868-csel3-tei.txt",
       "originalLines": "364-365",
-      "uncertain": "The English print has no longer, which is not in the Latin; the modern English follows the Latin."
+      "uncertain": "The English print has no longer, which is not in the Latin; the modern English follows the Latin.",
+      "secondReading": "same"
     },
     {
       "modern": "Do the healthy serve the sick? Do relatives love their kin as they should? Do masters pity their sick slaves? Do doctors stand by the sick who beg for help?",
@@ -247,7 +249,8 @@
       "original": "an infirmis seruiant sani, an propinqui cognatos pie diligant, an misereantur seruorum languentium domini, an deprecantes aegros non deserant medici",
       "originalFile": "cic/texts/cyprian_de-mortalitate-lat_hartel1868-csel3-tei.txt",
       "originalLines": "586-588",
-      "uncertain": "The Latin clauses begin with an, whether, and the modern English asks them as questions. The Latin servi are slaves, where the English print says servants, a word whose modern sense misleads."
+      "uncertain": "The Latin clauses begin with an, whether, and the modern English asks them as questions. The Latin servi are slaves, where the English print says servants, a word whose modern sense misleads.",
+      "secondReading": "same"
     },
     {
       "modern": "For none of us sets himself up as a bishop of bishops, or drives his fellow bishops by a tyrant's terror to obey.",
@@ -257,7 +260,8 @@
       "lines": "11292-11293",
       "original": "neque enim quisquam nostrum episcopum se episcoporum constituit aut tyrannico terrore ad obsequendi necessitatem collegas suos adigit",
       "originalFile": "cic/texts/cyprian_sententiae-episcoporum-lat_hartel1868-csel3-tei.txt",
-      "originalLines": "140-142"
+      "originalLines": "140-142",
+      "secondReading": "same"
     },
     {
       "modern": "a Christian and a bishop",
@@ -265,7 +269,8 @@
       "work": "Acta Proconsularia of Cyprian, the first hearing, 30 August 257, Latin, in Knopf and Krüger no. 13",
       "file": "cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt",
       "lines": "4828-4829",
-      "uncertain": "No English of this record is held. Gebhardt's print reads the same Latin at lines 6489-6490."
+      "uncertain": "No English of this record is held. Gebhardt's print reads the same Latin at lines 6489-6490.",
+      "secondReading": "same"
     },
     {
       "modern": "Thanks be to God,",
@@ -273,7 +278,8 @@
       "work": "Acta Proconsularia of Cyprian, the sentence, 14 September 258, Latin, in Knopf and Krüger no. 13",
       "file": "cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt",
       "lines": "4910-4911",
-      "uncertain": "No English of this record is held. Gebhardt's print reads the same Latin at lines 6625-6626."
+      "uncertain": "No English of this record is held. Gebhardt's print reads the same Latin at lines 6625-6626.",
+      "secondReading": "same"
     },
     {
       "modern": "bishop of bishops",
@@ -283,14 +289,16 @@
       "lines": "11626",
       "original": "episcopum se episcoporum",
       "originalFile": "cic/texts/cyprian_sententiae-episcoporum-lat_hartel1868-csel3-tei.txt",
-      "originalLines": "140"
+      "originalLines": "140",
+      "secondReading": "same"
     },
     {
       "modern": "What could be more kind? What more humble?",
       "printed": "What could be more kind? what more humble?",
       "work": "Augustine of Hippo, On Baptism, against the Donatists, English",
       "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml",
-      "lines": "11626"
+      "lines": "11626",
+      "secondReading": "same"
     }
   ]
 }

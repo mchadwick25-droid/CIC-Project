@@ -178,7 +178,8 @@
       "original": "pulsent sane fores, sed non utique confringant.",
       "originalFile": "cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt",
       "originalLines": "4222",
-      "uncertain": "The modern wording follows Hartel's Latin. The English prints \"indeed\" and \"assuredly\" for the Latin sane and non utique, which the modern wording gives as \"by all means\" and \"certainly not\"; both readings kept."
+      "uncertain": "The modern wording follows Hartel's Latin. The English prints \"indeed\" and \"assuredly\" for the Latin sane and non utique, which the modern wording gives as \"by all means\" and \"certainly not\"; both readings kept.",
+      "secondReading": "same"
     },
     {
       "modern": "If you were drawn in unwillingly, as you say, you will prove it by withdrawing willingly. One ought to suffer anything at all rather than tear apart the church of God.",
@@ -186,7 +187,8 @@
       "work": "Eusebius, Church History VI.45, Dionysius to Novatus, tr. McGiffert",
       "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
       "lines": "38923-38925",
-      "uncertain": "The modern wording follows the Greek, which the one held print gives in a scan too damaged to print here; it garbles the two words for unwilling and willing, whose sense Rufinus's Latin and both English prints confirm. \"One ought\" follows ἔδει. Salmond's English (Ante-Nicene Fathers, vol. 6) reads \"If you were carried on against your will, as you say, you will show that such has been the case by your voluntary retirement\", and \"it would have been but dutiful to have suffered any kind of ill, so as to avoid rending the Church of God\". Both English prints address Novatus. Schwartz's Greek addresses Novatian (Νοουατιανῷ), and his notes give forms of Novatus from other manuscripts; Salmond's note says Jerome gives Novatianus. Both readings kept."
+      "uncertain": "The modern wording follows the Greek, which the one held print gives in a scan too damaged to print here; it garbles the two words for unwilling and willing, whose sense Rufinus's Latin and both English prints confirm. \"One ought\" follows ἔδει. Salmond's English (Ante-Nicene Fathers, vol. 6) reads \"If you were carried on against your will, as you say, you will show that such has been the case by your voluntary retirement\", and \"it would have been but dutiful to have suffered any kind of ill, so as to avoid rending the Church of God\". Both English prints address Novatus. Schwartz's Greek addresses Novatian (Νοουατιανῷ), and his notes give forms of Novatus from other manuscripts; Salmond's note says Jerome gives Novatianus. Both readings kept.",
+      "secondReading": "same"
     },
     {
       "modern": "the pure",
@@ -197,7 +199,8 @@
       "original": "καθαροί",
       "originalFile": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
       "originalLines": "38270",
-      "uncertain": "Eusebius says they took the name in the pride of their imagination; the name is the one they gave themselves."
+      "uncertain": "Eusebius says they took the name in the pride of their imagination; the name is the one they gave themselves.",
+      "secondReading": "same"
     },
     {
       "modern": "Set up a ladder, Acesius, and climb to heaven alone.",
@@ -208,7 +211,8 @@
       "original": "θὲς ὦ ᾿Ακέσιε κλίμακα, καὶ μόνος ἀνάβηθι εἰς τὸν οὐρανόν.",
       "originalFile": "cic/texts/socrates_historia-ecclesiastica-tomus1-grc-lat_hussey1853.txt",
       "originalLines": "9912-9913",
-      "uncertain": "The modern wording follows Socrates's Greek. Sozomen's retelling in the same English edition reads \"take a ladder and ascend alone to heaven\". Both readings kept."
+      "uncertain": "The modern wording follows Socrates's Greek. Sozomen's retelling in the same English edition reads \"take a ladder and ascend alone to heaven\". Both readings kept.",
+      "secondReading": "same"
     }
   ]
 }

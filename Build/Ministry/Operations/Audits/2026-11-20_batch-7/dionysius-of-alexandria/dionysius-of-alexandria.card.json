@@ -122,7 +122,8 @@
       "work": "Eusebius, Church History VI.40.8, quoting Dionysius's letter to Germanus, tr. Arthur Cushman McGiffert",
       "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
       "lines": "37729-37733",
-      "uncertain": "Salmond's English of the same letter (Extant Fragments and Letters, lines 10873-10877) reads \"if they wished to do us any good, they might anticipate those who led me captive, and strike off my head.\" The modern \"do a kindness\" and \"the men leading me away\" follow the Greek, which is legible at those words in the one Greek print held, a damaged scan of Schwartz's edition; \"why they had come\" follows the sense of both English prints, because the Greek is broken there."
+      "uncertain": "Salmond's English of the same letter (Extant Fragments and Letters, lines 10873-10877) reads \"if they wished to do us any good, they might anticipate those who led me captive, and strike off my head.\" The modern \"do a kindness\" and \"the men leading me away\" follow the Greek, which is legible at those words in the one Greek print held, a damaged scan of Schwartz's edition; \"why they had come\" follows the sense of both English prints, because the Greek is broken there.",
+      "secondReading": "same"
     },
     {
       "modern": "That he was called John, and that this book is the writing of a John, I will not dispute. For I agree it is the work of someone holy and inspired by God. But I would not easily grant that this was the apostle, the son of Zebedee, the brother of James.",
@@ -130,7 +131,8 @@
       "work": "Dionysius, On Promises, Book 2, in Eusebius, Church History VII.25.7, tr. S. D. F. Salmond",
       "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
       "lines": "8119-8124",
-      "uncertain": "McGiffert's English (Church History VII.25.7, lines 41453-41457) reads \"the work of one John\" and \"I agree also that it is the work of a holy and inspired man\". The modern \"the writing of a John\" follows Salmond and the Greek, which has no word for \"one\"; \"I agree\" follows McGiffert and the Greek. \"I will not dispute\" follows the Greek verb, which is future, \"I will not speak against\", where both prints say \"I do not deny\"; \"inspired by God\" renders the one Greek word the prints give as \"inspired\"."
+      "uncertain": "McGiffert's English (Church History VII.25.7, lines 41453-41457) reads \"the work of one John\" and \"I agree also that it is the work of a holy and inspired man\". The modern \"the writing of a John\" follows Salmond and the Greek, which has no word for \"one\"; \"I agree\" follows McGiffert and the Greek. \"I will not dispute\" follows the Greek verb, which is future, \"I will not speak against\", where both prints say \"I do not deny\"; \"inspired by God\" renders the one Greek word the prints give as \"inspired\".",
+      "secondReading": "same"
     },
     {
       "modern": "So even this kind of death, which came from great devotion and strong faith, seemed to fall nothing short of martyrdom.",
@@ -138,7 +140,8 @@
       "work": "Eusebius, Church History VII.22.8, quoting Dionysius's plague letter, tr. McGiffert",
       "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
       "lines": "41108-41110",
-      "uncertain": "Salmond's English (Extant Fragments and Letters, lines 11516-11521) reads \"so that this very form of death, in virtue of the distinguished piety and the steadfast faith which were exhibited in it, appeared to come in nothing beneath martyrdom itself.\" The modern \"even\" follows the Greek, which has a word for \"even\" there; McGiffert leaves it out, and Salmond gives it as \"this very form\"; \"devotion\" renders the Greek word the prints give as \"piety\"."
+      "uncertain": "Salmond's English (Extant Fragments and Letters, lines 11516-11521) reads \"so that this very form of death, in virtue of the distinguished piety and the steadfast faith which were exhibited in it, appeared to come in nothing beneath martyrdom itself.\" The modern \"even\" follows the Greek, which has a word for \"even\" there; McGiffert leaves it out, and Salmond gives it as \"this very form\"; \"devotion\" renders the Greek word the prints give as \"piety\".",
+      "secondReading": "same"
     }
   ]
 }

@@ -218,7 +218,8 @@
       "work": "Apology 1, tr. S. Thelwall, in Ante-Nicene Fathers, vol. 3",
       "file": "cic/texts/anf03_tertullian.xml",
       "lines": "1457-1459",
-      "uncertain": "The Latin is held only in a damaged scan, so the English stands alone. The modern wording follows the Latin: silent writing is tacitarum litterarum, where Thelwall has a noiseless book."
+      "uncertain": "The Latin is held only in a damaged scan, so the English stands alone. The modern wording follows the Latin: silent writing is tacitarum litterarum, where Thelwall has a noiseless book.",
+      "secondReading": "same"
     },
     {
       "modern": "One thing only she asks for now: not to be condemned unknown.",
@@ -226,7 +227,8 @@
       "work": "Apology 1, tr. S. Thelwall, in Ante-Nicene Fathers, vol. 3",
       "file": "cic/texts/anf03_tertullian.xml",
       "lines": "1463-1465",
-      "uncertain": "The Latin is held only in a damaged scan, so the English stands alone. This sentence comes in chapter 1; the Apology goes on after it and closes in chapter 50."
+      "uncertain": "The Latin is held only in a damaged scan, so the English stands alone. This sentence comes in chapter 1; the Apology goes on after it and closes in chapter 50.",
+      "secondReading": "minor"
     },
     {
       "modern": "the blood of Christians is seed.",
@@ -237,7 +239,8 @@
       "original": "semen est sanguis Christianorum",
       "originalFile": "cic/texts/tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt",
       "originalLines": "30954-30955",
-      "uncertain": "The popular form, the blood of the martyrs is the seed of the church, is not his wording."
+      "uncertain": "The popular form, the blood of the martyrs is the seed of the church, is not his wording.",
+      "secondReading": "same"
     },
     {
       "modern": "By what right, Marcion, do you cut my timber? By whose leave, Valentinus, do you turn my springs aside?",
@@ -245,7 +248,8 @@
       "work": "The Prescription Against Heretics 37, tr. Holmes, in Ante-Nicene Fathers, vol. 3",
       "file": "cic/texts/anf03_tertullian.xml",
       "lines": "21744-21746",
-      "uncertain": "The Latin is held only in a damaged scan that has lost words and garbled others, so the English stands alone. Cut before this: Who are you? When and whence did you come? As you are none of mine, what have you to do with that which is mine? Cut after it: By what power, Apelles, are you removing my landmarks? This is my property. Why are you, the rest, sowing and feeding here at your own pleasure?"
+      "uncertain": "The Latin is held only in a damaged scan that has lost words and garbled others, so the English stands alone. Cut before this: Who are you? When and whence did you come? As you are none of mine, what have you to do with that which is mine? Cut after it: By what power, Apelles, are you removing my landmarks? This is my property. Why are you, the rest, sowing and feeding here at your own pleasure?",
+      "secondReading": "same"
     },
     {
       "modern": "This property is mine. I have held it long; I held it first.",
@@ -253,7 +257,8 @@
       "work": "The Prescription Against Heretics 37, tr. Holmes, in Ante-Nicene Fathers, vol. 3",
       "file": "cic/texts/anf03_tertullian.xml",
       "lines": "21748-21749",
-      "uncertain": "The Latin is held only in a damaged scan, so the English stands alone. This is the second time the sentence This is my property comes in the passage; the cut before it is given on the span above. Cut after it: I hold sure title-deeds from the original owners themselves, to whom the estate belonged."
+      "uncertain": "The Latin is held only in a damaged scan, so the English stands alone. This is the second time the sentence This is my property comes in the passage; the cut before it is given on the span above. Cut after it: I hold sure title-deeds from the original owners themselves, to whom the estate belonged.",
+      "secondReading": "same"
     },
     {
       "modern": "I am the heir of the apostles.",
@@ -263,7 +268,8 @@
       "lines": "21751",
       "original": "Ego sum haeres apostolorum",
       "originalFile": "cic/texts/tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt",
-      "originalLines": "2289"
+      "originalLines": "2289",
+      "secondReading": "same"
     },
     {
       "modern": "I have already said how you should take the word 'another'. It names a person, not a substance. It marks a distinction, not a division. I hold everywhere one substance in three who are joined together.",
@@ -274,7 +280,8 @@
       "original": "alium autem quomodo accipere debeas, iam professus sum, personae, non substantiae nomine, ad distinctionem, non ad diuisionem. ceterum, (etsi) ubique teneo unam substantiam in tribus cohaerentibus",
       "originalFile": "cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt",
       "originalLines": "12558-12561",
-      "uncertain": "Holmes's (Persons) and inseparable are his own additions; the Latin has only in three who cohere. The Latin is held in two prints that differ: Kroymann reads ubique teneo with etsi added in brackets, and Oehler reads ubique teneam with no etsi; the modern wording and the Latin given here follow Kroymann. Kroymann's scan misreads distinctionem, which Oehler's print confirms. The brief stops after the fourth sentence; the next, Yet the sense forces me to call the one who commands another than the one who makes, is cut."
+      "uncertain": "Holmes's (Persons) and inseparable are his own additions; the Latin has only in three who cohere. The Latin is held in two prints that differ: Kroymann reads ubique teneo with etsi added in brackets, and Oehler reads ubique teneam with no etsi; the modern wording and the Latin given here follow Kroymann. Kroymann's scan misreads distinctionem, which Oehler's print confirms. The brief stops after the fourth sentence; the next, Yet the sense forces me to call the one who commands another than the one who makes, is cut.",
+      "secondReading": "minor"
     },
     {
       "modern": "not the church which consists of a number of bishops.",
@@ -284,7 +291,8 @@
       "lines": "9544-9545",
       "original": "non ecclesia numerus episcoporum",
       "originalFile": "cic/texts/tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt",
-      "originalLines": "15313-15314"
+      "originalLines": "15313-15314",
+      "secondReading": "same"
     },
     {
       "modern": "Give me the master.",
@@ -295,7 +303,8 @@
       "original": "Da magistrum",
       "originalFile": "cic/texts/jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt",
       "originalLines": "55625",
-      "uncertain": "Heurtley, quoting Kaye, gives the words as Give me my master. The English translation wrongly makes Paul himself Cyprian's secretary; Jerome's Latin says Paul had met the aged secretary at Rome."
+      "uncertain": "Heurtley, quoting Kaye, gives the words as Give me my master. The English translation wrongly makes Paul himself Cyprian's secretary; Jerome's Latin says Paul had met the aged secretary at Rome.",
+      "secondReading": "same"
     }
   ]
 }

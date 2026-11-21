@@ -141,7 +141,8 @@
       "printed": "I confess that it is beyond my power to produce a perfect and complete history, and since I am the first to enter upon the subject, I am attempting to traverse as it were a lonely and untrodden path.",
       "work": "Church History I.1.4, tr. Arthur McGiffert",
       "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
-      "lines": "6934-6937"
+      "lines": "6934-6937",
+      "secondReading": "same"
     },
     {
       "modern": "With our own eyes we saw the houses of prayer thrown down from top to ground, to their very foundations. We saw the inspired and sacred Scriptures handed over to the fire in the middle of the market squares. We saw the shepherds of the churches hiding shamefully here and there, and some of them caught in disgrace and mocked by their enemies.",
@@ -149,7 +150,8 @@
       "work": "Church History VIII.2.1, tr. Arthur McGiffert",
       "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
       "lines": "43431-43437",
-      "uncertain": "The Greek has one verb, we saw, for all three things; the modern wording says it once for each."
+      "uncertain": "The Greek has one verb, we saw, for all three things; the modern wording says it once for each.",
+      "secondReading": "same"
     },
     {
       "modern": "You sit there, Eusebius, and Athanasius, an innocent man, is judged by you?",
@@ -157,7 +159,8 @@
       "work": "Epiphanius, Panarion 68.8, as Arthur McGiffert gives it in the Prolegomena",
       "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
       "lines": "1515-1517",
-      "uncertain": "These are the words Epiphanius gives Potamo, written about forty years later on Athanasius's side. The modern wording follows Epiphanius's Greek and agrees with Petavius's Latin in the same file (lines 44669-44675)."
+      "uncertain": "These are the words Epiphanius gives Potamo, written about forty years later on Athanasius's side. The modern wording follows Epiphanius's Greek and agrees with Petavius's Latin in the same file (lines 44669-44675).",
+      "secondReading": "same"
     },
     {
       "modern": "Tell me, were you not with me in prison in the persecution? I lost an eye for the truth. But you seem to have no part of your body maimed. You did not suffer as a martyr; you stand here alive, with nothing cut away. How did you get out of prison, unless you promised our persecutors to do something unlawful, or did it?",
@@ -165,7 +168,8 @@
       "work": "Epiphanius, Panarion 68.8, as Arthur McGiffert gives it in the Prolegomena",
       "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
       "lines": "1517-1523",
-      "uncertain": "Our persecutors renders those that put upon us the pressure of persecution. The brief leaves out the question Who can bear such things? that stands between this and the first sentence."
+      "uncertain": "Our persecutors renders those that put upon us the pressure of persecution. The brief leaves out the question Who can bear such things? that stands between this and the first sentence.",
+      "secondReading": "same"
     },
     {
       "modern": "of one being",
@@ -176,7 +180,8 @@
       "original": "ὁμοούσιος",
       "originalFile": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
       "originalLines": "2091",
-      "uncertain": "The creed's added word is the one Greek word homoousios, which McGiffert prints One in substance; the modern wording renders it of one being."
+      "uncertain": "The creed's added word is the one Greek word homoousios, which McGiffert prints One in substance; the modern wording renders it of one being.",
+      "secondReading": "same"
     },
     {
       "modern": "not without inquiry",
@@ -187,7 +192,8 @@
       "original": "οὐκ ἀνεξετάστως",
       "originalFile": "cic/texts/socrates_historia-ecclesiastica-tomus1-grc-lat_hussey1853.txt",
       "originalLines": "7520",
-      "uncertain": "The Greek stands in Hussey's text of Socrates, which notes that two older printings leave the clause out; Athanasius's copy of the letter has it too, in the same English."
+      "uncertain": "The Greek stands in Hussey's text of Socrates, which notes that two older printings leave the clause out; Athanasius's copy of the letter has it too, in the same English.",
+      "secondReading": "same"
     },
     {
       "modern": "accused",
@@ -195,7 +201,8 @@
       "work": "Letter of the council of Egypt, in Athanasius, Defence Against the Arians, tr. Robertson",
       "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
       "lines": "22309",
-      "uncertain": "The word is the Egyptian bishops', kept in Athanasius's book. McGiffert gives the words to Athanasius himself."
+      "uncertain": "The word is the Egyptian bishops', kept in Athanasius's book. McGiffert gives the words to Athanasius himself.",
+      "secondReading": "same"
     }
   ]
 }

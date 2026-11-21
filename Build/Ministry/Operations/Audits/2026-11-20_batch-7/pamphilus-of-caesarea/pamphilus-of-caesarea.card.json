@@ -172,7 +172,8 @@
       "work": "Jerome, Lives of Illustrious Men 75, in Nicene and Post-Nicene Fathers, second series, vol. 3",
       "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
       "lines": "40966-40968",
-      "uncertain": "The story's English is made from Jerome's Latin, which the Library holds only in a scan with letter faults, so the printed English stands alone. The Latin says Pamphilus seems to him to have marked them with the traces of his own blood (sui sanguinis); the Greek of Sophronius beside it, read from a scan with faults, ends with the traces of his own suffering. 'Manu ejus' says only in his hand; the editors of the Defense read it as Pamphilus's."
+      "uncertain": "The story's English is made from Jerome's Latin, which the Library holds only in a scan with letter faults, so the printed English stands alone. The Latin says Pamphilus seems to him to have marked them with the traces of his own blood (sui sanguinis); the Greek of Sophronius beside it, read from a scan with faults, ends with the traces of his own suffering. 'Manu ejus' says only in his hand; the editors of the Defense read it as Pamphilus's.",
+      "secondReading": "same"
     },
     {
       "modern": "Who among those eager to learn was not a friend of Pamphilus? If he saw any of them lacking what they needed to live, he gave freely what he could. He gave the holy Scriptures too, most readily, not only to read but to keep. He gave them not only to men, but also to women he saw devoted to reading. So he kept many books ready, to give to those who wanted them whenever need arose.",
@@ -180,7 +181,8 @@
       "work": "Eusebius, Life of Pamphilus III, as Jerome quotes it in the Apology against Rufinus I.9, in Nicene and Post-Nicene Fathers, second series, vol. 3",
       "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
       "lines": "51430-51437",
-      "uncertain": "Eusebius's Greek is lost, and the Latin that Jerome quotes is held only in a scan with letter faults, so the printed English stands alone. The story's English is made from the Latin and differs in wording: those eager to learn for lover of books, and not only to read but to keep for lend and give."
+      "uncertain": "Eusebius's Greek is lost, and the Latin that Jerome quotes is held only in a scan with letter faults, so the printed English stands alone. The story's English is made from the Latin and differs in wording: those eager to learn for lover of books, and not only to read but to keep for lend and give.",
+      "secondReading": "same"
     },
     {
       "modern": "jointly",
@@ -191,7 +193,8 @@
       "original": "ἣν τῶν φιλαιτίων ἕνεκα συμπονήσαντες ἀλλήλοις διὰ σπουδῆς πεποιήμεϑα",
       "originalFile": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt",
       "originalLines": "5261-5262",
-      "uncertain": "The Greek of these two lines is clean in the scan; the neighboring lines have faults. McGiffert's jointly renders the Greek words for working together with one another."
+      "uncertain": "The Greek of these two lines is clean in the scan; the neighboring lines have faults. McGiffert's jointly renders the Greek words for working together with one another.",
+      "secondReading": "same"
     },
     {
       "modern": "When he explains these things, he often adds and declares that he is not pronouncing them as a final verdict, or settling them as fixed doctrine. He is searching as far as his strength allows, and examining the sense of the Scriptures. He does not claim to have grasped it wholly and perfectly.",
@@ -199,7 +202,8 @@
       "work": "The Defense of Origen, Book I, in Rufinus's Latin, ed. Lommatzsch",
       "file": "cic/texts/pamphilus_apologia-pro-origene-rufinus-lat_lommatzsch1846.txt",
       "lines": "14211-14215",
-      "uncertain": "No English of the Defense is held, so the story's English is made from this Latin. The Migne printing of the same Latin agrees, with letter faults of its own. The Defense says this; whose words it is, Pamphilus's or Eusebius's, is disputed."
+      "uncertain": "No English of the Defense is held, so the story's English is made from this Latin. The Migne printing of the same Latin agrees, with letter faults of its own. The Defense says this; whose words it is, Pamphilus's or Eusebius's, is disputed.",
+      "secondReading": "same"
     },
     {
       "modern": "is said to have written",
@@ -209,7 +213,8 @@
       "lines": "45146-45147",
       "original": "librum eius, quem pro Origene in Graeco scripsisse traditur",
       "originalFile": "cic/texts/pamphilus_apologia-pro-origene-rufinus-lat_lommatzsch1846.txt",
-      "originalLines": "13961-13962"
+      "originalLines": "13961-13962",
+      "secondReading": "same"
     },
     {
       "modern": "since they think a martyr praised him.",
@@ -217,7 +222,8 @@
       "work": "Jerome, Apology against Rufinus I.10, in Nicene and Post-Nicene Fathers, second series, vol. 3",
       "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
       "lines": "51456",
-      "uncertain": "The Latin of this clause is held only in a scan with letter faults, so the printed English stands alone."
+      "uncertain": "The Latin of this clause is held only in a scan with letter faults, so the printed English stands alone.",
+      "secondReading": "same"
     }
   ]
 }
