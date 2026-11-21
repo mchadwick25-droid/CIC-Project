@@ -126970,7 +126970,8 @@ function placeRiverNames(U){
     return eraBoxes.some(r=>r.left<x1&&r.right>x0&&r.top<y1&&r.bottom>y0);};
   gRiverNames.querySelectorAll('.river-name').forEach(g=>{
     if(g.classList.contains('is-off'))return;
-    const k=+g.dataset.lane, head=k===0?Math.max(riverHeadY(0),eraY0[0]+22):riverHeadY(k);
+    const k=+g.dataset.lane, rawHead=k===0?Math.max(riverHeadY(0),eraY0[0]+22):riverHeadY(k);
+    const band=eraY0.findIndex(y0=>rawHead>=y0&&rawHead<y0+eraCapDrop()), head=band<0?rawHead:eraY0[band]+eraCapDrop();
     g.classList.remove('rn-cull');
     for(let step=0;step<6;step++){
     const y=head+step*U*.6;
@@ -127803,17 +127804,19 @@ const ERA_CAPTION_MARGIN=24;
 const eraStrip=document.getElementById('eraStrip');
 let stripEra=-1;
 const eraTitleSize=window.ResizeObserver?new ResizeObserver(es=>{if(es.some(e=>Math.abs(e.contentRect.width-e.target._drawnW)>0.5/scale))pinEraCaptions();}):null;
+const eraCapSizes=()=>({pl:Math.max(15,Math.min(22,26*scale)), pt:Math.max(12,Math.min(14,16*scale))});
+const eraCapDrop=()=>{const {pl,pt}=eraCapSizes();return (pl+20+pt+10)/scale;};
 function pinEraCaptions(){
   const left=(!narrowScreen()&&!tray.hidden?tray.offsetWidth:0)+(narrowScreen()?12:ERA_CAPTION_MARGIN);
   const x=(left-tx)/scale;
-  const pl=Math.max(15,Math.min(22,26*scale)), pt=Math.max(12,Math.min(14,16*scale));
+  const {pl,pt}=eraCapSizes();
   const titles=gLabels.querySelectorAll('.era-label'), tags=gLabels.querySelectorAll('.era-tag'), infos=gLabels.querySelectorAll('.era-info');
   const ys=[...titles].map((t,i)=>{
-    const y=eraY0[i]+16+(pl+34)/scale;
+    const y=eraY0[i]+(pl+14)/scale;
     t.setAttribute('x',x.toFixed(2)); t.setAttribute('y',y.toFixed(1));
     t.style.fontSize=(pl/scale)+'px'; t.style.strokeWidth=(3/scale)+'px';
     const tag=tags[i];
-    tag.setAttribute('x',x.toFixed(2)); tag.setAttribute('y',(eraY0[i]+16+(pl+41+pt)/scale).toFixed(1));
+    tag.setAttribute('x',x.toFixed(2)); tag.setAttribute('y',(eraY0[i]+(pl+20+pt)/scale).toFixed(1));
     tag.style.fontSize=(pt/scale)+'px'; tag.style.strokeWidth=(3/scale)+'px';
     return y;
   });

@@ -4958,3 +4958,11 @@ Mark: "the river icon should match the double river icon on the toggle".
 **Decided (Mark, 2026-11-21).** The simplified view's cut-off moves below any zoom a phone can reach (0.34 to 0.10). The opening zoom keeps its old floor, so nothing changes at first load. Names on a phone follow the same rules as on desktop: up to 15 per era by connections, room decides how many fit, and each zoom-in step adds names. Era captions now also count as occupied space, so names no longer sit on an era title (phone captions are wider than desktop's). Desktop never zooms out that far, so it is unchanged.
 
 **Result.** Names drawn on the whole map, per zoom-in step on a phone: 45, 59, 75, 95, 115, 212, 298, 350 (zoom 0.18 to 0.87), so every step adds names until all 350 show; desktop 117 at 0.45, then 199, 302, 350. Whole-map view on a phone, names per era 1..10: 4 3 4 6 4 3 3 6 6 6. Desktop numbers are unchanged from the entries above.
+
+## 2026-11-21 — Era title first under the era line, then the river title, then the traditions
+
+**Why.** Mark: "the era titles go directly unter the line with the river title under that then the traditions". The era title sat about 35 px below the era line, a gap left for the first river's title, which therefore appeared above the era title.
+
+**Decided (Mark, 2026-11-21).** The era title and its dates sit directly under the era line. A river title that would fall inside that caption block starts just below it. Traditions follow. Nothing else about the captions changed (left margin, size, info icon).
+
+**Done.** `cft-website/index.html`: the era caption position and a shared caption height, and the river-name start in `placeRiverNames`. Checked on desktop and phone at the opening zoom and at 0.6 (eras 1 and 2).
