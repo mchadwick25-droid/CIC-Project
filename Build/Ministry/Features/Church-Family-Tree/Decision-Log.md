@@ -5112,3 +5112,12 @@ Not fixed now, logged in Open-Gaps: the map's own copy of the data has older inf
 2. Ambrose of Milan: Augustine's later quoting of him goes to the card, and the story stands at about 4:45.
 3. Leo of Rome: the Nestorius and Syriac-chronicle pair goes to the card, bringing the story under 4:30.
 4. Catherine of Siena: the drawn sword at Florence stays on the card.
+
+## 2026-11-21 — Batch 8: three quoted spans with no clean print (Mark)
+
+**Why.** The card check (`Card_Check.md` in each folder of `Build/Ministry/Operations/Audits/2026-11-21_batch-8/`) found three places where the story quotes words that no clean held print stands behind, under the originals rule of `Build/Ministry/Operations/Audits/2026-11-19_batch-6/Batch_Originals_Ruling.md`.
+
+**Decided (Mark, 2026-11-21: "A", the recommended option on each).**
+1. Bernard of Clairvaux: Nivard's reply is told in the narrator's words, without quotation marks, and its card entry goes. William's Latin is held only in a damaged scan, Alan's Life tells a different speech, and no English of either Life is held.
+2. Catherine of Siena: the quotation marks come off "with her leading him", and its card entry goes. Raymond's Latin is held only in a damaged scan with no second print.
+3. Gregory Palamas: a scan's χ read as κ counts as a letter form, as θ and ϑ do under the batch 6 ruling, so his two Greek quotations stand with those readings listed. The two held editions agree on every word of the second.
