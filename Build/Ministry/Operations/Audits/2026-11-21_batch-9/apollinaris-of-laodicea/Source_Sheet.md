@@ -41,7 +41,7 @@ JER-CHRON 46043-46044 (Jerome, Chronicle, entered under Valentinian and Valens; 
 > "Apollinaris Laodicenus cpiscopus [episcopus] multimoda / nostrae religionis scripta componit."
 (Apollinaris, bishop of Laodicea, writes works of many kinds on our religion.)
 
-**S4. When he became bishop is not known.** LIETZ 823-835 (editor): Jerome, Philostorgius, his pupil Timothy and the synod of 362 all call him bishop; "wann und unter welchen umständen er die würde erlangt habe, lässt sich dagegen nur vermuten" (when and how he got the office can only be guessed). LIETZ 483-485 chronology: "360 ... Apollinaris vielleicht gegenbischof" (perhaps a rival bishop). Editor; Inferential-Thin for any date. Richardson's note at THDT 41392: "Bishop 362, died about 390" (editor).
+**S4. When he became bishop is not known.** LIETZ 823-835 (editor): Jerome, Philostorgius, his pupil Timothy and the synod of 362 all call him bishop; "wann und unter welchen umständen er die würde erlangt habe, lässt sich dagegen nur vermuten" (when and how he got the office can only be guessed). LIETZ 489-491 chronology: "360 ... Apollinaris vielleicht gegenbischof" (perhaps a rival bishop). Editor; Inferential-Thin for any date. Richardson's note at THDT 41392: "Bishop 362, died about 390" (editor).
 
 ---
 
@@ -74,7 +74,7 @@ Note: Sozomen says Athanasius was returning "from the place whither he had been 
 - Socrates's verdict, SOC-ENG 11251-11254: "the law became wholly inoperative; and the works of these men are now of no greater importance, than if they had never been written."
 - Sozomen, SOZ-ENG 36678-36707 (V.18): Julian "forbade the children of Christians from frequenting the public schools, and from being instructed in the writings of the Greek poets and authors. He entertained great resentment against Apolinarius the Syrian, a man of manifold knowledge and philological attainments ... Apolinarius, therefore, employed his great learning and ingenuity in the production of a heroic epic on the antiquities of the Hebrews to the reign of Saul, as a substitute for the poem of Homer. He divided this work into twenty-four parts ... He also wrote comedies in imitation of Menander, tragedies resembling those of Euripides, and odes on the model of Pindar. ... Were it not for the extreme partiality with which the productions of antiquity are regarded, I doubt not but that the writings of Apolinarius would be held in as much estimation as those of the ancients."
 - Sozomen also names a work "The Truth" against the emperor and the philosophers, SOZ-ENG 36720-36726.
-- Year: LIETZ 489 places the writings "nach antiken mustern" in 362 (editor).
+- Year: LIETZ 497-499 places the writings "nach antiken mustern" in 362 (editor).
 Confidence: Julian's ban and their response, Documented (both historians). Which of them wrote what, Contested (Socrates gives the verse to the father; Sozomen gives the epic, plays and odes to Apollinaris). Editor Hartranft's note, SOZ-ENG 36720-36721, sets apart Apollinaris of Hierapolis, a different and earlier man.
 
 **E5. What he taught about Christ: the divine Word in the place of a human mind.**
