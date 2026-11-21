@@ -10,6 +10,7 @@ it, never by deleting it.
    Mark's decision, with a real CI-minutes cost. Owner: Mark, in its own session.
 2. **Lawyer's read of the license policy (2026-11-06).** Recommended before wide promotion,
    especially the AI training section. Owner: Mark.
+   - 2026-11-21: Mark ruled no lawyer's read before the launch ("no lawyer, lets keep going"). Closed for launch.
 3. **Two quotes from a CC BY-SA edition (2026-11-06).** Two link quotes come from Brandt's
    1890 Lactantius in a CC BY-SA 4.0 digital edition. Quoting the public-domain print instead
    is the lineage thread's call.
@@ -4005,3 +4006,7 @@ They are not rewritten now. Each is recorded, and a rewrite would mean recording
     - **The kit review** (simplify the kit: options A, B or C, 2026-11-21) awaits Mark.
 
 348. **The stories approved before the kit: Constantine done (2026-11-21).** This updates "The stories approved before the kit: reviewed in their era's batch" (2026-11-19). Constantine the Great was reviewed in batch 8 and passed unchanged: no fix, no re-card, no re-recording. Still to come: Ephrem, Gregory of Nazianzus, Gregory of Nyssa and John Chrysostom in the era 2 batches, Gregory of Tours in era 3. Owner: each era's batch.
+347. **The map's copy of the data synced to the census (2026-11-21).** Mark ruled the census right ("census is right, sync the map"). This closes the first point of "Launch review: three small items left after the four fixes" (2026-11-21) and goes past it: the comparison found 14 entries, not seven.
+    - Synced in `DATA` in `cft-website/index.html`: Armenian Christianity, era 8, now on the Eastern Catholic river only; `regions` on three entries (Catholic Worker and its kin, Oneness Pentecostalism, Ethiopian and Eritrean Christianity); `informalName` on seven; `teaser` on two; the house church `why` ("Ignatius of Antioch"); and the file's `meta` block.
+    - Left as they are: the ten built worlds' own text fields, which come from the compiled world files, and `livingEvidence` and `reviewStatus`, which the map does not carry.
+    - **Open.** `meta.license.credit` in the census says "release 44 (November 15, 2026)" while `meta.release` says 49. For the census owner. The map carries no check that its copy matches the census, so it can drift again; a CI comparison of the shared fields is the fix.
