@@ -5040,3 +5040,15 @@ Mark, before submitting the site to Google and Bing: "we need to update the info
 - About page (`Build/tools/tree_site_pages.json`, generated): the tree as traditions with the councils, people and stories that shaped them, and their connections, in place of "620 movements" (the 620 were every census entry: 350 traditions, 251 people, 12 councils, 7 cross-church movements). A new "Listen as you explore" section. Traditions, rivers, eras and fully told traditions are counted from the census at build time, not typed.
 - Descriptions added for About, Privacy and Help us grow.
 - Left as they are: the Method and Data pages still count "movements", because they describe the data file, whose entries are called movements.
+
+## 2026-11-21 — Launch readiness: four fixes before the announcement
+
+Mark: "lets do a full review of readiness to launch, we are not looking for perfection or completion, just a great experience that people can trust", then "yes do 1 to 4".
+
+**Done.**
+1. Addresses for search: each tree page, site page, the license page and the home page name their own address (`rel="canonical"`), and the sitemap lists the final addresses (the seven site pages had ".html" addresses that redirect). Tree pages' share picture is now the tree's own title card, not Church in Conversation's.
+2. First view on a screen narrower than the map (phones, small tablets): the map opens at the start of the story, with the First Churches river and the labels beside it whole, in place of the middle of the map with both edges cut off. Reset view goes to the same place. Wide screens are unchanged.
+3. Every card on the map ends with "Checked with AI tools. No scholar or church partner has reviewed it yet. How the tree is made", the same statement the tree pages carry.
+4. A page for a missing address (`404.html`, served by `not_found_handling` in `wrangler.cft.jsonc`), where a blank page showed before.
+
+Not fixed now, logged in Open-Gaps: the map's own copy of the data has older informal names for seven entries; the built-world cards' "coming soon" line; feedback depends on the Church in Conversation server.

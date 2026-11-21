@@ -139,8 +139,8 @@ test('the method and data pages are linked from the about page, the map, every p
   assert.match(keyFoot, /<a href="data.html">Data and citation<\/a>/);
   assert.match(read(`tree/${open.id}.html`), /<a href="\.\.\/method.html">Method<\/a>[\s\S]*<a href="\.\.\/data.html">Data and citation<\/a>/);
   const sitemap = read('sitemap.xml');
-  assert.ok(sitemap.includes('<loc>https://www.churchfamilytree.com/method.html</loc>'));
-  assert.ok(sitemap.includes('<loc>https://www.churchfamilytree.com/data.html</loc>'));
+  assert.ok(sitemap.includes('<loc>https://www.churchfamilytree.com/method</loc>'));
+  assert.ok(sitemap.includes('<loc>https://www.churchfamilytree.com/data</loc>'));
 });
 
 test('the about page counts traditions, rivers, eras and links from the census', () => {
@@ -350,7 +350,7 @@ test('the Terms page is on both sites with the same text, and every tree footer 
     }
   }
   assert.match(read(`tree/${open.id}.html`), /<a href="\.\.\/terms.html">Terms<\/a>/);
-  assert.ok(read('sitemap.xml').includes('<loc>https://www.churchfamilytree.com/terms.html</loc>'));
+  assert.ok(read('sitemap.xml').includes('<loc>https://www.churchfamilytree.com/terms</loc>'));
 });
 
 test('the tree serves its own copy of the license page, with every section of the Church in Conversation page', () => {
@@ -362,7 +362,7 @@ test('the tree serves its own copy of the license page, with every section of th
   assert.deepEqual(headings(tree), headings(cic));
   assert.ok(tree.includes('Ministry and Scholarship Permission'));
   assert.match(read(`tree/${open.id}.html`), /<a href="\.\.\/license.html">License<\/a>/);
-  assert.ok(read('sitemap.xml').includes('<loc>https://www.churchfamilytree.com/license.html</loc>'));
+  assert.ok(read('sitemap.xml').includes('<loc>https://www.churchfamilytree.com/license</loc>'));
 });
 
 test('a major council page shows its kind, its record, its traditions and its Who', () => {
@@ -470,4 +470,24 @@ test('a council page shows how it worked, the printed wording behind its quotati
   const c = structuredClone(census);
   c.movements.find(m => m.id === 'council-of-nicaea-325').documentedStories[0].text += ' Changed.';
   assert.doesNotMatch(generate(c, audio)('tree/council-of-nicaea-325.html'), /audio\/docstories\/council-of-nicaea-325-0\.mp3/);
+});
+
+test('every page names its own address for search engines, and the sitemap lists those addresses', () => {
+  const read = generate(structuredClone(census));
+  const m = census.movements.find(x => !x.kind);
+  const page = read(`tree/${m.id}.html`);
+  assert.match(page, new RegExp(`<link rel="canonical" href="https://www.churchfamilytree.com/tree/${m.id}">`));
+  assert.match(page, /<meta property="og:image" content="https:\/\/www.churchfamilytree.com\/share\/church-family-tree.jpg">/);
+  assert.match(read('about.html'), /<link rel="canonical" href="https:\/\/www.churchfamilytree.com\/about">/);
+  assert.match(read('license.html'), /<link rel="canonical" href="https:\/\/www.churchfamilytree.com\/license">/);
+  const sitemap = read('sitemap.xml');
+  assert.ok(sitemap.includes('<loc>https://www.churchfamilytree.com/about</loc>'));
+  assert.ok(!sitemap.includes('.html</loc>'));
+});
+
+test('the page for a missing address links back with absolute paths and asks not to be indexed', () => {
+  const page = generate(structuredClone(census))('404.html');
+  assert.match(page, /<h1>Page not found<\/h1>/);
+  assert.match(page, /<meta name="robots" content="noindex">/);
+  assert.doesNotMatch(page, /(href|src)="(?!\/|https?:|#|mailto:)/);
 });

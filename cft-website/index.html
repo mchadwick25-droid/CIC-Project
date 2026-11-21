@@ -10,6 +10,7 @@
 <meta property="og:title" content="Church Family Tree">
 <meta property="og:description" content="A free map of church history: 350 church traditions, the councils, people and stories that shaped them, and how they connect. Explore and listen as you go.">
 <meta property="og:url" content="https://www.churchfamilytree.com/">
+<link rel="canonical" href="https://www.churchfamilytree.com/">
 <meta property="og:image" content="https://www.churchfamilytree.com/share/church-family-tree.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -133,6 +134,8 @@ svg.who-on #river-names,svg.story-on #river-names{opacity:.2}
 #panel h2{font-family:"Alegreya",serif;font-size:1.3rem;margin:.2rem 0 .1rem}
 #panel .meta{font-style:italic;color:var(--ink-faded);font-size:.88rem;margin:0 0 .8rem}
 #panel .grow-line{margin:1.4rem 0 .4rem;padding-top:.8rem;border-top:1px solid var(--rule);font-size:.92rem;color:var(--ink-faded)}
+#panel .review-line{margin:1.4rem 0 .2rem;padding-top:.8rem;border-top:1px solid var(--rule);font-size:.92rem;color:var(--ink-faded)}
+#panel .review-line+.grow-line{margin-top:.3rem;padding-top:0;border-top:0}
 #panel .statuspill{display:inline-block;font-family:"Alegreya Sans",sans-serif;
   font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--rule);
   border-radius:999px;padding:.12rem .55rem;margin-bottom:.7rem}
@@ -129446,6 +129449,7 @@ function showPanel(page){
   hideTip();
   panel.scrollTop=0;
   lastFocused=document.activeElement;
+  if(!panelBody.querySelector('.review-line'))panelBody.insertAdjacentHTML('beforeend','<p class="review-line">Checked with AI tools. No scholar or church partner has reviewed it yet. <a href="method.html">How the tree is made</a>.</p>');
   if(!panelBody.querySelector('.grow-line'))panelBody.insertAdjacentHTML('beforeend','<p class="grow-line">This map is free to use. If it helps you, <a href="support.html">help it grow</a>.</p>');
   if(window.PageFeedback)window.PageFeedback.mount(panelBody,page);
   panel.classList.add('open');
@@ -129989,6 +129993,20 @@ function centerView(){
   scale=openingScale();
   tx=(window.innerWidth-CANVAS_W*scale)/2;
   ty=Math.max(40,chromeTop()+12);
+  applyTransform(); applyDetail();
+  if(CANVAS_W*scale>window.innerWidth)startAtFirstRiver();
+}
+function startAtFirstRiver(){
+  const v=mapView(), pad=12;
+  let left=Infinity;
+  document.querySelectorAll('#world text').forEach(t=>{
+    if(!t.getClientRects().length)return;
+    const r=t.getBoundingClientRect();
+    if(r.bottom<v.t||r.top>v.b||r.width===0)return;
+    left=Math.min(left,r.left);
+  });
+  if(!isFinite(left)||left>=pad)return;
+  tx+=pad-left;
   applyTransform(); applyDetail();
 }
 function zoomAt(mx,my,factor){
@@ -130551,6 +130569,11 @@ buildLegend();
 positionFeatureBar();
 if(window.ResizeObserver){const ro=new ResizeObserver(queueBarFit);document.querySelectorAll('.topbar,.feature-bar,.feature-bar>*,.feature-bar>.chip-group>.chip').forEach(e=>ro.observe(e));}
 centerView();
+if(CANVAS_W*scale>window.innerWidth&&!new URLSearchParams(location.search).get('world')){
+  let moved=false;
+  ['pointerdown','wheel','keydown','touchstart'].forEach(t=>window.addEventListener(t,()=>{moved=true;},{once:true,passive:true}));
+  (document.fonts?document.fonts.ready:Promise.resolve()).then(()=>requestAnimationFrame(()=>{if(!moved)startAtFirstRiver();}));
+}
 {
   const hint=document.getElementById('zoomHint');
   if(scale<Z_MAJOR)hint.innerHTML=(narrowScreen()?'<b>A map of Christian tradition</b>, from the first house-churches to about 2010.<br>':'')+(coarsePointer?'Tap':'Click')+' an era or a river to zoom in.';
