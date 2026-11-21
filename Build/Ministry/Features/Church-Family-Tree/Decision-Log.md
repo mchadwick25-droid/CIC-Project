@@ -5062,6 +5062,23 @@ Mark: "lets do a full review of readiness to launch, we are not looking for perf
 
 Not fixed now, logged in Open-Gaps: the map's own copy of the data has older informal names for seven entries; the built-world cards' "coming soon" line; feedback depends on the Church in Conversation server.
 
+## 2026-11-21 — Measuring visits: Cloudflare's visit counts, then the tree's own anonymous counts, with returning visitors
+
+Mark: "i want to know how many people (real people and not computer scans or such) engage in this, how many open, time spent, what is opened etc." On the options: "a and b". On returning visitors: "yes count returning visitors". On the design: "yes build it".
+
+**Decided.** (A) Cloudflare Web Analytics on every tree page, once Mark sends the site token from the Cloudflare dashboard. (B) The map reports anonymous events to the tree's own worker (`/e`), which writes them to Workers Analytics Engine (dataset `cft_events`): a visit (new, same-day or returning; first today; first this week; source; device), a card opened, a recording played and how far, the tour started and ended, a layer turned on, minutes of real activity, the support note shown and its link followed. The browser keeps only the day and week of its last visit; nothing that stands for a person is made or sent. A visit counts only after a real action; automated browsers and bot agents send nothing.
+
+**Found on the way.** The Privacy page says the tree uses Cloudflare's cookie-free Web Analytics, but its token was never set, so no page carried it. Turning on (A) makes that true.
+
+## 2026-11-21 — Where traditions end: end marks when zoomed in, and the river says what is active
+
+Mark asked why The First Churches river runs on, empty, after the first era, chose "c" (review Christian Apocrypha's place in the record, Open-Gaps 346, and show where traditions end), then "1 and 3".
+
+**Done.** Once the map is close enough to read (`Z_READ`), a short tick crosses a river where each of its traditions ends, labeled "Name · to about 400"; traditions on one river ending in the same year share one mark ("Ebionites, Montanism, Novatianism · to about 400"). Traditions that reach the map's last year have none. A mark's name gives way to anything already placed. Hovering a river adds what is active under the pointer: "Active here, about 600: Christian Apocrypha (to about 900)". The marks dim with the People and Stories layers and hide with their river.
+
+## 2026-11-21 — Privacy page: the short update
+
+Mark: "privacy page, short update". The Privacy page gains "Counting what is used": the map counts which cards are opened, which recordings are played, and minutes in use, with nothing that could identify you; the browser keeps one small note of when you last visited, and clearing the browser's site data removes it.
 ## 2026-11-21 — Kit change order: reused quotes, fewer blind readings, hearts and lengths at one stop (Mark)
 
 **Why.** Three changes were drafted on the batch 8 slate page (https://claude.ai/artifact/FMwWhDffBwEV1XP82GVyGW, version 4, items 5 to 7), each with batch 7's record as evidence. First, Mark ruled on 2026-11-21 that "we can use quotes more than once if the influenced more that on tradition or person", and the kit's quote rule still barred every reuse. Second, all 59 of batch 7's blind second readings were of new quotations, so reading only new ones would save nothing. The 17 spans under six words took a full blind reading each, and both minor findings (Tertullian) came from spans of 15 words or more. Third, batch 7 stopped for Mark three times on the same five outlines: the hearts, the lengths, and the cut checks. Both length stops were counts of the words the outlines planned, which the hearts page could have shown.
