@@ -5190,3 +5190,13 @@ Mark, posting to LinkedIn: "the linked in cant display a preview and its not pul
 **Done.** The tree's Worker answers a link-preview crawler's request for the home page ("/" or "/index.html") with a small page made from the home page's own head tags (title, description, canonical, `og:` and `twitter:` tags), read from the page at request time so the tags live in one place. The crawlers are LinkedIn, Twitter or X, Slack, Discord, WhatsApp, Telegram, Facebook, Skype and Pinterest. A browser, a search crawler and every other path get the page as before. `wrangler.cft.jsonc` now runs the Worker first for "/", which means every home page view passes through the Worker. Tests in `cic-worker/worker.test.mjs` cover the small page, the crawler list, a browser and a search crawler, HEAD, other paths, and a head with no tags.
 
 **Not done here.** The map's weight itself (see Open-Gaps).
+
+## 2026-11-21 — Batch 9: the slate approved (Mark)
+
+**Why.** The batch 9 launch prompt (`Launch-Prompts/CFT_Batch9_Launch_2026-11-21.md`) asks for the slate first: each story's job, half, census home, siblings and the live stories beside it, with each quote already used elsewhere on the tree and any reuse the kit's quote rule allows. They are on one page (https://claude.ai/artifact/MTHTJ4X388AaneENKp9RyB, version 1). `check_tree_overlap.py` on the eleven old texts: all clear.
+
+**Decided (Mark, 2026-11-21, in chat: "approved").**
+1. Eleven stories, each on its existing census entry: Basil of Caesarea, Eunomius of Cyzicus, Apollinaris of Laodicea and Evagrius Ponticus (half A, with Gregory of Nazianzus and Gregory of Nyssa reviewed); Eusebius of Nicomedia, Hilary of Poitiers, Cyril of Jerusalem, Epiphanius of Salamis and Damasus of Rome (half B). The jobs, siblings and links are as on the page and in `Build/Ministry/Operations/Audits/2026-11-21_batch-9/README.md`.
+2. Eunomius is researched after Basil's outline; the other eight at once.
+3. The quotes lifted and barred as the page reads them under the reuse ruling of 2026-11-21, listed in the batch README.
+4. Gregory of Nyssa stays `major: false`.

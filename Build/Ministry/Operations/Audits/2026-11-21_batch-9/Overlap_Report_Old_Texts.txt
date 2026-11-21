@@ -1,0 +1,11 @@
+apollinaris-of-laodicea: clear
+basil-of-caesarea: clear
+cyril-of-jerusalem: clear
+damasus-of-rome: clear
+epiphanius-of-salamis: clear
+eunomius-of-cyzicus: clear
+eusebius-of-nicomedia: clear
+evagrius-ponticus: clear
+gregory-of-nazianzus: clear
+gregory-of-nyssa: clear
+hilary-of-poitiers: clear
