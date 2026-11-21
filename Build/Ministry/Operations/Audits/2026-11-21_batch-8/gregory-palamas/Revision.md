@@ -35,3 +35,7 @@ Complete at word 153, "joined to God himself."
 ## Four faults
 
 Checked: no witness told as fact, no editor's view given to the source (the Synodikon and Philokalia stay with the editor, the Philokalia as plain fact from I3), no detail on the wrong event, no force softened. American spelling.
+
+## Recheck fixes
+
+Applied word for word as `Recheck_Story.md` gives them.

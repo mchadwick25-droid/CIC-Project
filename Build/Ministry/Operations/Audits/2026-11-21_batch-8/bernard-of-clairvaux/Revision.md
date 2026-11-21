@@ -30,3 +30,7 @@ Complete at "the head of a monastery" (word 154 after the edits).
 ## Length
 
 678 words by the scorer, about 4:30 at the outline's rate. Scorer: grade 6.3, reading ease 81.3, longest sentence 31 words, pass. The review's own tally of about 670 was a few words low; I found nothing further that could go without cutting a must-keep.
+
+## Recheck fixes
+
+Applied word for word as `Recheck_Story.md` gives them.

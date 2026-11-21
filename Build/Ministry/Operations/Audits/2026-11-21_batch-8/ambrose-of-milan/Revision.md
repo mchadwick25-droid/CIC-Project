@@ -28,3 +28,7 @@ Complete at "massacre." (about word 149, the last word of paragraph 2), inside t
 ## Score
 
 723 words, grade 7.0 (names out 6.3), reading ease names out 77.6, 15.4 words a sentence, longest sentence 30 words, pass, 0 failing. About 4:49. Four faults checked: no witness turned to fact, no editor's view given to a source, no detail moved to a wrong event (the start of the singing now sits in beat 3 only), no force softened.
+
+## Recheck fixes
+
+Applied word for word as `Recheck_Story.md` gives it.

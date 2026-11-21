@@ -65,3 +65,7 @@ American spelling outside quotes: checked.
 ## Not changed
 
 The outline's Length line still counts Q3 at 43 words; it is now 39. That line is the researcher's planning count and no finding asked for it.
+
+## Recheck fixes
+
+Applied word for word as `Recheck_Story.md` gives it.
