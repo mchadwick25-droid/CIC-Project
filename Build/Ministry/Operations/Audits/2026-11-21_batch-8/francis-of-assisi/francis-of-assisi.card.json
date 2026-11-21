@@ -52,7 +52,8 @@
   "His leadership. Howell's table says Francis resigned his office of Minister General in September 1220 and that the order then passed under the control of the Holy See.",
   "The canonization. Richard of San Germano, a contemporary, says in one passage that Gregory IX went from Perugia to Assisi in July and canonized Francis for two miracles done openly on a blind man and a lame man, and in another that in June, at Perugia, by his brothers' counsel, he decided to enroll Francis among the saints.",
   "Jacques de Vitry. His letter of 1216 does not name Francis or Clare. The Damietta account is from his history, printed in 1597 in a long-s type the Library's scan reads imperfectly; his letter of 1220 from Damietta is not held.",
-  "Not held in the Library: the Legend of the Three Companions, the Assisi Compilation, the full text of Solet annuere of 1223, Brother Elias's letter on his death, and Bonaventure's Latin. Quo elongati is held in full in Sabatier's appendix."
+  "Not held in the Library: the Legend of the Three Companions, the Assisi Compilation, the full text of Solet annuere of 1223, Brother Elias's letter on his death, and Bonaventure's Latin. Quo elongati is held in full in Sabatier's appendix.",
+  "The Mirror of Perfection: The attribution to Brother Leo and the early date are Sabatier's, and the Library's file calls both contested."
  ],
  "sources": {
   "ownWords": [
@@ -92,8 +93,7 @@
     "author": "Attributed to Brother Leo",
     "date": "1899",
     "language": "English translation",
-    "file": "cic/texts/speculum-perfectionis_mirror-of-perfection_evans1899.txt",
-    "disputed": "The attribution to Brother Leo and the early date are Sabatier's, and the Library's file calls both contested."
+    "file": "cic/texts/speculum-perfectionis_mirror-of-perfection_evans1899.txt"
    },
    {
     "title": "Quo elongati (1230), in the appendix to Speculum perfectionis (ed. Paul Sabatier)",

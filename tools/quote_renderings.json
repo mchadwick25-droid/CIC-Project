@@ -3458,6 +3458,565 @@
     "record": "Build/Ministry/Operations/Audits/2026-11-20_batch-7/Second_Readings.md",
     "verdict": "same"
    }
+  },
+  {
+   "id": "francis-of-assisi",
+   "quote": "The Lord gave me, Brother Francis, to begin to do penance in this way. When I was in sin, it seemed too bitter to me to see lepers. And the Lord himself led me among them, and I showed mercy to them. And as I left them, what had seemed bitter to me was turned into sweetness of soul and body.",
+   "original": {
+    "file": "cic/texts/francis-assisi_writings-of-saint-francis_robinson1906.txt",
+    "lines": "5368-5374",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "francis-of-assisi",
+   "quote": "Let the brothers make nothing their own, not a house, not a place, not anything.",
+   "original": {
+    "file": "cic/texts/francis-assisi_opuscula-lat_quaracchi1904.txt",
+    "lines": "2577-2578",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "francis-of-assisi",
+   "quote": "Be praised, my Lord, for our Sister Bodily Death, from whom no one living can escape.",
+   "original": {
+    "file": "cic/texts/speculum-perfectionis_speculum-perfectionis-lat_sabatier1898.txt",
+    "lines": "27258-27259",
+    "language": "Italian"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "bernard-of-clairvaux",
+   "quote": "Love seeks no cause beyond itself, and no fruit. Its fruit is the loving itself. I love because I love; I love in order to love.",
+   "original": {
+    "file": "cic/texts/bernard-clairvaux_life-and-works-v4_eales1896.txt",
+    "lines": "32161-32164",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "bernard-of-clairvaux",
+   "quote": "If one of the two must happen, I would rather people grumble against me than against God. It is good for me if he will use me as a shield. I gladly take on myself the cursing tongues of slanderers and the poisoned darts of blasphemers, so that they do not reach him.",
+   "original": {
+    "file": "cic/texts/bernard-clairvaux_opera-t1-pl182-lat_migne1879.txt",
+    "lines": "75607-75608",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "thomas-aquinas",
+   "quote": "It seems that God does not exist. For if one of two opposites were without limit, the other would be wholly destroyed. But by the name God we mean a good without limit. So if God existed, no evil would be found. But evil is found in the world. So God does not exist.",
+   "original": {
+    "file": "cic/texts/thomas-aquinas_opera-omnia-t4-summa-theologiae-lat_leonine1888.txt",
+    "lines": "5797-5809",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "thomas-aquinas",
+   "quote": "Faith rests on a truth that cannot fail. And the opposite of a truth can never be proved. So it is clear that the proofs brought against the faith are not true proofs. They are arguments that can be answered.",
+   "original": {
+    "file": "cic/texts/thomas-aquinas_opera-omnia-t4-summa-theologiae-lat_leonine1888.txt",
+    "lines": "4099-4104",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "thomas-aquinas",
+   "quote": "Reginald, I cannot. For everything I have written seems to me straw.",
+   "original": {
+    "file": "cic/texts/acta-sanctorum_martii-tomus-1-lat_palme1865.txt",
+    "lines": "187860",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "thomas-aquinas",
+   "quote": "one followeth Duns, another St Thomas.",
+   "original": {
+    "file": "cic/texts/tyndale_doctrinal-treatises_walter1848.txt",
+    "lines": "11872",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "jan-hus",
+   "quote": "pass, stay, remain and return freely.",
+   "original": {
+    "file": "cic/texts/palacky_documenta-mag-joannis-hus-lat-ces_1869.txt",
+    "lines": "13102-13103",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "jan-hus",
+   "quote": "I do not know where John Wyclif's soul is. I hope that he is saved, and I fear that he may be damned. Yet in hope I would wish my soul to be where John Wyclif's soul is.",
+   "original": {
+    "file": "cic/texts/palacky_documenta-mag-joannis-hus-lat-ces_1869.txt",
+    "lines": "15246-15249",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "jan-hus",
+   "quote": "God is my witness that I never taught or preached the things falsely charged to me, laid on me by false witnesses. The chief aim of my preaching, and of all my other acts and writings, was only to turn people from sin. I wrote, taught and preached the truth of the gospel from the words and teachings of the holy teachers. In that truth I will gladly die today.",
+   "original": {
+    "file": "cic/texts/hus_letters_workman-pope1904.txt",
+    "lines": "13341-13345",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "jan-hus",
+   "quote": "Master John Hus was truly a good, just and catholic man. For many years he lived among us in our kingdom in a way worthy of praise, proven in his life, his conduct and his good name.",
+   "original": {
+    "file": "cic/texts/palacky_documenta-mag-joannis-hus-lat-ces_1869.txt",
+    "lines": "30155-30157",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "jan-hus",
+   "quote": "return freely.",
+   "original": {
+    "file": "cic/texts/palacky_documenta-mag-joannis-hus-lat-ces_1869.txt",
+    "lines": "13103",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "catherine-of-siena",
+   "quote": "To the honor of almighty God, I dare to say it. While I was still in the city where I was born, I smelled the stench of the sins committed in the papal court. I smelled it more than the men who have committed them, and commit them every day, smell it themselves.",
+   "original": {
+    "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+    "lines": "13887-13891",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "catherine-of-siena",
+   "quote": "I tell you: come, come, come. Do not wait for time, because time does not wait for you.",
+   "original": {
+    "file": "cic/texts/catherine-of-siena_selected-letters_scudder1905.txt",
+    "lines": "5221-5222",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "catherine-of-siena",
+   "quote": "To hear it told, this seems a thing past believing. But to those who wrote it down and heard it, it does not seem so. And I am one of them.",
+   "original": {
+    "file": "cic/texts/catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912.txt",
+    "lines": "14405-14407",
+    "language": "Italian"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "gregory-palamas",
+   "quote": "navel-souls.",
+   "original": {
+    "file": "cic/texts/cantacuzenus_historiarum-libri-iv-v1-grc-lat_schopen1828.txt",
+    "lines": "32673",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "gregory-palamas",
+   "quote": "Those who call them navel-souls are, to begin with, plainly slandering the men they accuse. For which of them ever says that the soul is in the navel?",
+   "original": {
+    "file": "cic/texts/philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt",
+    "lines": "42167-42170",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "gregory-palamas",
+   "quote": "So when you hear the Fathers say God's essence cannot be shared, understand the essence that does not go out and is not shown. When they say again it can be shared, understand the going-out that belongs to God by nature, his showing and his energy. Holding to both in this way, you will agree with the Fathers.",
+   "original": {
+    "file": "cic/texts/palamas_opera-omnia-pg150-grc-lat_migne1865.txt",
+    "lines": "67527-67533",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "gregory-palamas",
+   "quote": "in labor with the teachings of many gods, and at the same time of no god.",
+   "original": {
+    "file": "cic/texts/gregoras_byzantina-historia-v3-grc-lat_bekker1855.txt",
+    "lines": "552-553",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "gregory-palamas",
+   "quote": "The heavenly to the heavenly.",
+   "original": {
+    "file": "cic/texts/palamas_homiliae-41-grc_jerusalem1857.txt",
+    "lines": "8236",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "huldrych-zwingli",
+   "quote": "I say we have judges here who cannot err and take no side: the Holy Scriptures, which can neither lie nor deceive. We have them here in Hebrew, Greek and Latin. Let both sides take them as fair and just judges.",
+   "original": {
+    "file": "cic/texts/zwingli_selected-works_jackson1901.txt",
+    "lines": "2185-2216",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "huldrych-zwingli",
+   "quote": "This peace that some press for so hard is war, not peace. And the war we press for is peace, not war. For we thirst for no one's blood, nor will we drink it in the turmoil. Our aim is to cut the sinews of the rule of the few.",
+   "original": {
+    "file": "cic/texts/kidd_documents-illustrative-of-the-continental-reformation-lat-deu-fra-eng_1911.txt",
+    "lines": "26134-26139",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "huldrych-zwingli",
+   "quote": "We have not agreed at this time whether Christ's true body and blood are bodily in the bread and wine. Yet each side shall show the other Christian love, as far as each conscience can bear. And both sides shall pray earnestly to Almighty God to confirm us, by his Spirit, in the right understanding. Amen.",
+   "original": {
+    "file": "cic/texts/luther_werke-kritische-gesamtausgabe-bd-30-abt-3-deu-lat_weimar1910.txt",
+    "lines": "12535-12544",
+    "language": "German"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "huldrych-zwingli",
+   "quote": "Master Ulrich, of blessed memory",
+   "original": {
+    "file": "cic/texts/zurich-council_actensammlung-zuercher-reformation-deu_egli1879.txt",
+    "lines": "48407",
+    "language": "German"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "thomas-cranmer",
+   "quote": "For many years the service in this Church of England has been read to the people in Latin, which they did not understand. So they have heard with their ears only. Their hearts, spirit and mind have not been built up by it.",
+   "original": {
+    "file": "cic/texts/cranmer_miscellaneous-writings-and-letters_cox1846.txt",
+    "lines": "48899-48901",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "thomas-cranmer",
+   "quote": "My hand did wrong when it wrote against my heart. So my hand shall be punished for it first. If I come to the fire, it shall be burned first.",
+   "original": {
+    "file": "cic/texts/foxe_acts-and-monuments-v8_cattley-townsend1837.txt",
+    "lines": "7403-7404",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "teresa-of-avila",
+   "quote": "I crossed this stormy sea for almost twenty years, with these falls, and rising again, and badly, for I would fall once more.",
+   "original": {
+    "file": "cic/texts/teresa-of-avila_libro-de-la-vida-spa_silverio1915.txt",
+    "lines": "8724-8725",
+    "language": "Spanish"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "teresa-of-avila",
+   "quote": "People came to me in great fear. They told me the times were harsh, and that someone might bring a false charge against me and go to the Inquisitors. This struck me as funny, and made me laugh, for in this I was never afraid.",
+   "original": {
+    "file": "cic/texts/teresa-of-avila_libro-de-la-vida-spa_silverio1915.txt",
+    "lines": "17931-17934",
+    "language": "Spanish"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "teresa-of-avila",
+   "quote": "I thought of the soul as like a castle, made of a single diamond or of very clear crystal. It has many rooms, just as in heaven there are many dwelling places.",
+   "original": {
+    "file": "cic/texts/teresa-of-avila_interior-castle_stanbrook1912.txt",
+    "lines": "1759-1778",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "ambrose-of-milan",
+   "quote": "Ambrose for bishop!",
+   "original": {
+    "file": "cic/texts/paulinus-milan_vita-ambrosii_kaniecka1928.txt",
+    "lines": "3145",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "ambrose-of-milan",
+   "quote": "So they have all become teachers, who could hardly be pupils.",
+   "original": {
+    "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+    "lines": "42641-42642",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "ambrose-of-milan",
+   "quote": "I dare not offer the sacrifice if you mean to be there,",
+   "original": {
+    "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+    "lines": "44183",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "ambrose-of-milan",
+   "quote": "What is not allowed after the blood of one innocent person is shed, is it allowed after the blood of many? I do not think so.",
+   "original": {
+    "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+    "lines": "44184-44186",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "ambrose-of-milan",
+   "quote": "I have not lived among you in such a way that I am ashamed to live. Nor am I afraid to die, because we have a good Lord.",
+   "original": {
+    "file": "cic/texts/paulinus-milan_vita-ambrosii_kaniecka1928.txt",
+    "lines": "5601-5602",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "jerome",
+   "quote": "I began to learn my letters all over again, and worked at sounding out words that were harsh and throaty.",
+   "original": {
+    "file": "cic/texts/npnf206_jerome-principal-works.xml",
+    "lines": "25515-25516",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "jerome",
+   "quote": "Who but you would have laid hands on God's gift, and on the inheritance of the apostles?",
+   "original": {
+    "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+    "lines": "50284-50285",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "jerome",
+   "quote": "The Greeks above all found fault with the reading, and fanned the charge that it was false. Such an uproar broke out in the congregation that the bishop was forced to demand the Jews' testimony. The town was Oea.",
+   "original": {
+    "file": "cic/texts/augustine_epistulae-1-123-lat_goldbacher-csel34.txt",
+    "lines": "20553-20556",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "jerome",
+   "quote": "But I thank the Lord that from this seed of learning, sown in bitterness, I now gather sweet fruit.",
+   "original": {
+    "file": "cic/texts/npnf206_jerome-principal-works.xml",
+    "lines": "25520-25522",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "leo-of-rome",
+   "quote": "To be hungry, to be thirsty, to grow tired and to sleep is plainly human.",
+   "original": {
+    "file": "cic/texts/hefele_history-of-the-councils-v3-431-451_clark1883.txt",
+    "lines": "12336-12337",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "leo-of-rome",
+   "quote": "Nor need a letter set down everything that could be committed at Ephesus, in what was not a trial but a robbery.",
+   "original": {
+    "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+    "lines": "8637-8640",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "leo-of-rome",
+   "quote": "Yet worldly things stand on one footing, and the things of God on another. No building will stand firm except on the rock the Lord laid as its foundation.",
+   "original": {
+    "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+    "lines": "9081-9083",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
+    "verdict": "same"
+   }
   }
  ]
 }
