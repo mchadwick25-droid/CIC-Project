@@ -57,7 +57,7 @@ The live census stories of `augustine-of-hippo`, `paulinus-of-milan`, `damasus-o
 
 ### BLOCKING
 
-**B1. The penance: Paulinus's own account of the church refusal is left out, and the Do not say line credits it to the wrong sources.** Paulinus, Ambrose's own secretary and a Latin witness, writes that Ambrose "refused the emperor any opportunity of entering the church … before he should do public penance" (PAUL 4354–4360; Latin 4302–4304, "copiam imperatori ingrediendi ecclesiam denegauit"). Sozomen says the same, "forbade him to enter the church" (SOC 42193–42194).
+**B1. The penance: Paulinus's own account of the church refusal is left out, and the Do not say line credits it to the wrong sources.** Paulinus, Ambrose's own secretary and a Latin witness, writes that Ambrose "refused the emperor any opportunity of entering the church … before he should do public penance" (PAUL 4354–4360; Latin 4302–4304, "copiam imperatori ingrediendi ecclesiam denegauit"). Sozomen says the same, "forbade him to enter the church" (SOC 42194–42195).
 
 Beat 6 sets "his own letter" against "a Greek historian two generations later, Theodoret". The Do not say line calls "barred the door" "Theodoret's (and Sozomen's) telling". Told that way, the listener would take the church refusal to be only a late Greek legend, and that is misleading. What only the later Greek writers tell is the face-to-face meeting at the doors: Sozomen's purple robe and "Stand back!", and Theodoret's porch and speech.
 
@@ -71,7 +71,7 @@ Correction:
 
 **M1. Words to explain.** These words are missing a gloss or need a plain word instead:
 - **"notary"**: today the word means a legal official. Use "a court secretary".
-- **"the prefect"**: use "the emperor's chief minister" (AMB-ed note at 41465–41467, "one of the four great officers of the Empire").
+- **"the prefect"**: use "the emperor's chief minister" (AMB-ed note at 41468–41470, "one of the four great officers of the Empire").
 - **"counts and tribunes"**: give them by role, "the court's high officers".
 - **"Pelagians"** (What came 3): drop the name and say "in a later dispute over whether children are born bearing Adam's sin, where his opponents quoted Ambrose too" (AUGP 13128–13134).
 - **"eucharist"**: it is used inside the gloss for "offer the sacrifice". Prefer "lead the communion service".
@@ -84,13 +84,13 @@ Correction:
 - "Songs of my hymns" is clumsy. Use "the tunes of my hymns" (de Romestin's "strains").
 - In the short form, "So" loses what it points back to. Add to Q1's job: "The narrator first gives the plain sense of the cut middle: the whole people sing their faith in the Father, Son and Holy Spirit every day."
 
-**M4. Citations for beat 2's must-hear line.** "He had no arms but his own body to offer" is not in E9. Cite AMB 41761–41763 ("I had arms, but only in the Name of Christ, that I had the power of offering my own body") and AMB 41531–41533 ("if my body, I will go at once").
+**M4. Citations for beat 2's must-hear line.** "He had no arms but his own body to offer" is not in E9. Cite AMB 41761–41763 ("I had arms, but only in the Name of Christ, that I had the power of offering my own body") and AMB 41532–41533 ("if my body, I will go at once").
 
 **M5. Do not say: add these lines.**
-- "Not 'a priest of the court's party' bare. Ambrose writes 'a certain Castulus, who, the Arians said, was a priest' (AMB 41496–41497). Say 'a man the court's party called a priest'."
+- "Not 'a priest of the court's party' bare. Ambrose writes 'a certain Castulus, who, the Arians said, was a priest' (AMB 41497). Say 'a man the court's party called a priest'."
 - "Not 'two hundred pounds of gold from each merchant'. It was demanded of the merchants as a body, within three days (AMB 41506–41511)."
-- "Keep 'almost' in 'almost three hours' (PAUL 4354–4355)."
-- "No motive for the massacre in the narrator's voice. Theodoret, Sozomen and Rufinus give the emperor's anger (THDT 16516–16521; SOC 42174–42176; RUF 30564). Augustine and Paulinus say he had promised pardon and was pushed by men around him (CD 11211–11213; PAUL 4278–4283). If a motive is told, credit both."
+- "Keep 'almost' in 'almost three hours' (PAUL 4361)."
+- "No motive for the massacre in the narrator's voice. Theodoret, Sozomen and Rufinus give the emperor's anger (THDT 16517–16523; SOC 42175–42176; RUF 30564). Augustine and Paulinus say he had promised pardon and was pushed by men around him (CD 11211–11213; PAUL 4278–4283). If a motive is told, credit both."
 - "The emperor who approved the election (beat 1) is not the boy emperor of beat 2, and he is not Theodosius. Give him as 'the emperor of the day', or leave him out."
 
 **M6. Sibling field.** Add `ambrosian-milan-standalone`, the census `toldWithin` tradition, which is live and tells the acclamation, the basilicas, the penance, the baptism and the rite. It shares no quote with this outline. Its job is the city church's story; this story's job is the man. Note for the coordinator only, since that text is not this thread's to touch: it says "within a week" and "in 386" where this outline says "within eight days" and "the mid-380s".
@@ -106,6 +106,6 @@ The rest of the sweep holds. I checked the corpus-map bucket `ambrosian-milan-st
 
 **M8. Setting.** Callinicum: "in Mesopotamia" is in a held source (AMB-ed 1464). The outline's note that no held source places the town can be corrected to: "say 'a town in the East' or 'in Mesopotamia' (AMB 1464)".
 
-**M9. Augustine on the penance (beat 6).** The phrase "lying on the ground" renders *prostratam* (CDL 15521) correctly. Add a note that Augustine's "prostrate" is his only physical detail, so that the writer does not add Theodoret's tearing of hair or beating of the head (THDT 16652–16655). Also add to the Connection that "an emperor bowing to the church's discipline" is a paraphrase, not "Augustine's phrase" as a quote.
+**M9. Augustine on the penance (beat 6).** The phrase "lying on the ground" renders *prostratam* (CDL 15524) correctly. Add a note that Augustine's "prostrate" is his only physical detail, so that the writer does not add Theodoret's tearing of hair or beating of the head (THDT 16657–16658). Also add to the Connection that "an emperor bowing to the church's discipline" is a paraphrase, not "Augustine's phrase" as a quote.
 
 **M10. Impact order.** The sheet ranks I1, the bishop before the emperor, heaviest, then I2, the hymns. The outline puts the hymns first and gives no reason. Either follow the sheet's order or add the reason in one line (for example, that the hymns are what congregations carried on and used). This finding does not block either way.
