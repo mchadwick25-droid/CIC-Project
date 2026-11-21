@@ -137,7 +137,7 @@ L3. **Barlaam of Calabria, Gregory Akindynos, Nikephoros Gregoras, Philotheos Ko
 
 D1. **Why he was imprisoned**: Kalekas (defiance of the synod's ban, flight, refusal to show his writings), Kantakouzenos (the patriarch's envy and his refusal to condemn Kantakouzenos; his open opposition to the war), Gregoras (the empress's letters: his teaching, not his politics). E14.
 
-D2. **Many gods.** Barlaam charged two gods (1341, MM 9711-9712); Gregoras charged many gods and no god (E19); Philotheos threw the same words back at Barlaam's side (E20); the synods of 1347 and 1351 declared Palamas in line with the theologians (E16-E17). The synods are the winning side's records (CEN sources note).
+D2. **Many gods.** Barlaam charged two gods (1341, MM 9710-9711); Gregoras charged many gods and no god (E19); Philotheos threw the same words back at Barlaam's side (E20); the synods of 1347 and 1351 declared Palamas in line with the theologians (E16-E17). The synods are the winning side's records (CEN sources note).
 
 D3. **1341: what was judged.** The tome and Kalekas say the monks were found above Barlaam's charges and Barlaam's words judged blasphemous (E11-E12); Kalekas also says the synod forbade anyone to raise such questions further and urged the same on one other man, whose name the OCR garbles ("τῷ lane", MM 11410; probably Palamas, not certain). The card's note that Combefis and Gregoras say no doctrine was debated in 1341 is card, not rechecked.
 
