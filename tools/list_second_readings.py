@@ -8,12 +8,18 @@ A folder named for its slug holds `<slug>.brief.txt` and `<slug>.card.json`. A q
 breaks around "he says" is one card entry, so up to four spans in a row may make
 one entry, as in tools/validate-census.mjs. Each span gets one line:
 
-  READ BLIND   no card entry holds it, or its entry has no secondReading yet
-  CARRIED      its entry holds a secondReading (an earlier blind verdict, kept
-               only when the span stands word for word in a passage already read)
+  READ BLIND     six words or more, and no card entry holds it, or its entry has
+                 no secondReading yet
+  CHECK AT CARD  under six words (the whole entry's words, where spans make one
+                 entry), and its entry has no secondReading yet: the card checker
+                 checks it against its original and print, and it carries
+                 "checked at card"
+  CARRIED        its entry holds a secondReading (an earlier blind verdict, kept
+                 only when the span stands word for word in a passage already read,
+                 or "checked at card")
 
 Card entries the brief no longer quotes are listed as STALE. It exits 1 when any
-span needs a blind reading or any entry is stale.
+span needs a blind reading or a card check, or any entry is stale.
 """
 from __future__ import annotations
 
@@ -25,6 +31,7 @@ import unicodedata
 from pathlib import Path
 
 QUOTE = re.compile(r'["“]([^"“”]+)["”]')
+BLIND_MIN_WORDS = 6  # Decision-Log 2026-11-21, "Kit change order: reused quotes, fewer blind readings"
 
 
 def fold(s: str) -> str:
@@ -45,6 +52,10 @@ def entries_of(card: dict) -> list[dict]:
     return out
 
 
+def needs(folded_words: str) -> str:
+    return "READ BLIND" if len(folded_words.split()) >= BLIND_MIN_WORDS else "CHECK AT CARD"
+
+
 def listing(brief: str, card: dict) -> dict:
     spans = spans_in(brief)
     folded = [fold(s) for s in spans]
@@ -58,12 +69,12 @@ def listing(brief: str, card: dict) -> dict:
                 e = by_modern[run]
                 used.add(run)
                 verdict = e.get("secondReading")
-                rows.append({"span": " ... ".join(spans[i:i + k]), "status": "CARRIED" if verdict else "READ BLIND",
+                rows.append({"span": " ... ".join(spans[i:i + k]), "status": "CARRIED" if verdict else needs(run),
                              "secondReading": verdict})
                 i += k
                 break
         else:
-            rows.append({"span": spans[i], "status": "READ BLIND", "secondReading": None})
+            rows.append({"span": spans[i], "status": needs(folded[i]), "secondReading": None})
             i += 1
     stale = [e["modern"] for e in entries if e.get("modern") and fold(e["modern"]) not in used]
     return {"spans": rows, "stale": stale}
@@ -87,7 +98,7 @@ def main(argv: list[str] | None = None) -> int:
         b, c = piece(folder)
         r = listing(b.read_text(encoding="utf-8"), json.loads(c.read_text(encoding="utf-8")))
         result[folder.name] = r
-        bad |= bool(r["stale"]) or any(s["status"] == "READ BLIND" for s in r["spans"])
+        bad |= bool(r["stale"]) or any(s["status"] != "CARRIED" for s in r["spans"])
     if args.json:
         print(json.dumps(result, indent=1, ensure_ascii=False))
     else:
@@ -95,9 +106,9 @@ def main(argv: list[str] | None = None) -> int:
             print(f"{name}: {len(r['spans'])} spans")
             for s in r["spans"]:
                 v = f" ({s['secondReading']})" if s["secondReading"] else ""
-                print(f"  {s['status']:<10}{v} {s['span']}")
+                print(f"  {s['status']:<13}{v} {s['span']}")
             for m in r["stale"]:
-                print(f"  STALE      {m}")
+                print(f"  STALE         {m}")
     return 1 if bad else 0
 
 
