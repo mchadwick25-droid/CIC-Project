@@ -11,4 +11,4 @@ You apply one outline check's findings for **{NAME}** in `{FOLDER}/`. Read `Outl
 
 Reply in under 100 words: counts for each list, and any finding you did not apply.
 
-Keep Mark's rulings for this batch (Decision-Log entries "Batch 8: the slate approved" and "Batch 8 hearts approved", 2026-11-21, and "Batch 6: where sources disagree", 2026-11-19). If a finding would change the approved heart in substance, apply it, and say so in your reply in one line, so it can go to Mark.
+Keep Mark's rulings for this batch (Decision-Log entries "Batch 8: the slate approved", "A quote may be used in more than one story …" and "Batch 8 hearts approved, with the lengths", 2026-11-21, and "Batch 6: where sources disagree", 2026-11-19). If a finding would change the approved heart in substance, apply it, and say so in your reply in one line, so it can go to Mark.
