@@ -4966,3 +4966,11 @@ Mark: "the river icon should match the double river icon on the toggle".
 **Decided (Mark, 2026-11-21).** The era title and its dates sit directly under the era line. A river title that would fall inside that caption block starts just below it. Traditions follow. Nothing else about the captions changed (left margin, size, info icon).
 
 **Done.** `cft-website/index.html`: the era caption position and a shared caption height, and the river-name start in `placeRiverNames`. Checked on desktop and phone at the opening zoom and at 0.6 (eras 1 and 2).
+
+## 2026-11-21 — A tradition's name moves to the other side of its mark when its first side would cross another river
+
+**Why.** Mark asked whether rivers and traditions are mixed up. Names did not repeat between the two, but 12% to 20% of shown names ran across a neighbouring river's band (24 of 117 at the farthest zoom-out, 41 of 350 at 0.8, also on `main`). 14 of 350 traditions also sit off their own river at their date; that is in the data and not changed here.
+
+**Decided (Mark, 2026-11-21: "yes flip them").** When a name's usual side would cross another river and the other side crosses fewer, the name goes to the other side. If the flipped side has no room, the name returns to its usual side before it can be dropped, so no name is lost to this. People and story marks and place lines follow the name's side.
+
+**Result.** Names crossing another river, desktop, at 0.45 / 0.6 / 0.7 / 0.8: 13 / 13 / 19 / 18 of 119 / 236 / 299 / 350 shown (before: 24 / 29 / 39 / 41). All 350 still show at 0.8. About 25 names are flipped in an era view at 0.8.
