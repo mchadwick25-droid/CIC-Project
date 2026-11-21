@@ -557,7 +557,8 @@ function generatePageHtml(movement) {
 <meta property="og:description" content="${escapeHtml(metaDesc)}">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.churchfamilytree.com/tree/${movement.id}">
-<meta property="og:image" content="https://churchinconversation.com/assets/og-image.jpg">
+<meta property="og:image" content="https://www.churchfamilytree.com/share/church-family-tree.jpg">
+<link rel="canonical" href="https://www.churchfamilytree.com/tree/${movement.id}">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -676,6 +677,10 @@ const facts = {
   releaseNumber: String(release.number),
   releaseDate,
   movementCount: String(census.movements.length),
+  traditionCount: String(census.movements.filter(m => !m.kind).length),
+  riverCount: String(new Set(census.movements.filter(m => !m.kind).map(m => m.laneOrder)).size),
+  eraCount: String(census.eras.length),
+  toldInFullCount: String(census.movements.filter(m => !m.kind && m.status === 'Built & Live').length),
   linkCount: String(census.edges.length),
   latestEraTitle: latestEra.title,
   latestEraDates: latestEra.dates,
@@ -733,7 +738,8 @@ ${sectionBody(sec, extra)}
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${escapeHtml(page.title)} — Church Family Tree</title>
-${page.description ? `<meta name="description" content="${escapeHtml(fill(page.description))}">\n` : ''}<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+${page.description ? `<meta name="description" content="${escapeHtml(fill(page.description))}">\n` : ''}<link rel="canonical" href="https://www.churchfamilytree.com/${key}">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
@@ -776,6 +782,7 @@ function licensePage() {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>License — Church Family Tree</title>
 <meta name="description" content="${description}">
+<link rel="canonical" href="https://www.churchfamilytree.com/license">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -795,6 +802,39 @@ ${siteFooter('/')}
 </html>`;
 }
 fs.writeFileSync(path.join(outRoot, 'cft-website', 'license.html'), licensePage(), 'utf-8');
+
+// The page Cloudflare serves for any address that has no file (wrangler.cft.jsonc, not_found_handling).
+// It can be served at any depth, so every link and asset it uses is absolute.
+function notFoundPage() {
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found — Church Family Tree</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+${PAGE_STYLE}
+<link rel="stylesheet" href="/assets/feedback.css">
+${analyticsTag}</head>
+<body>
+${siteHeader('/')}
+<main class="page" id="content">
+  <div class="titleblock"><h1>Page not found</h1></div>
+<section>
+  <p>We can’t find that page. It may have moved, or the address may have a typing mistake.</p>
+  <p><a href="/">Go to the map</a>, or read <a href="/about">what the tree covers</a>.</p>
+</section>
+</main>
+${siteFooter('/')}
+<script src="/assets/feedback.js" defer></script>
+</body>
+</html>`;
+}
+fs.writeFileSync(path.join(outRoot, 'cft-website', '404.html'), notFoundPage(), 'utf-8');
 
 // A retired movement with no redirect keeps its address. Its page says only what the census records:
 // the name, the date it was retired, and the reason.
@@ -858,8 +898,8 @@ const sitemapUrls = [
 fs.writeFileSync(path.join(websiteDir, 'sitemap.xml'), sitemapXml(sitemapUrls), 'utf-8');
 const treeSitemapUrls = [
   'https://www.churchfamilytree.com/',
-  ...SITE_PAGES.map(key => `https://www.churchfamilytree.com/${key}.html`),
-  'https://www.churchfamilytree.com/license.html',
+  ...SITE_PAGES.map(key => `https://www.churchfamilytree.com/${key}`),
+  'https://www.churchfamilytree.com/license',
   ...census.movements.map(m => `https://www.churchfamilytree.com/tree/${m.id}`)
 ];
 fs.writeFileSync(path.join(outRoot, 'cft-website/sitemap.xml'), sitemapXml(treeSitemapUrls), 'utf-8');
