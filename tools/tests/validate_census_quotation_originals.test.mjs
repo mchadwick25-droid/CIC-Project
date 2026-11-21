@@ -123,3 +123,21 @@ test("a Greek original is compared letter by letter, accents and letter forms as
   assert.equal(wrong.length, 1);
   assert.match(wrong[0], /card\.quotationOriginals\[\d+\]\.original .*does not stand in/);
 });
+
+test("a short quotation may be checked at card", () => {
+  const errs = errorsFor(card => {
+    const e = card.quotationOriginals.find(q => q.modern.split(/\s+/).length < 6);
+    if (!e) throw new Error("the test card needs a quotation under six words");
+    e.secondReading = "checked at card";
+  });
+  assert.deepEqual(errs, []);
+});
+
+test("a quotation of six words or more may not be checked at card", () => {
+  const errs = errorsFor(card => {
+    const e = card.quotationOriginals.find(q => q.modern.split(/\s+/).length >= 6);
+    e.secondReading = "checked at card";
+  });
+  assert.equal(errs.length, 1);
+  assert.match(errs[0], /only for a quotation under 6 words/);
+});
