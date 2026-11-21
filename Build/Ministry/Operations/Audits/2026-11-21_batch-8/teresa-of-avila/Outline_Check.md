@@ -1,0 +1,9 @@
+# Outline check: Teresa of Ávila
+
+Checker, batch 8, 2026-11-21. Read: `CLAUDE.md`, Kit Parts 2–4, the batch `README.md`, `Hearts.md`, `Length_Count.md`, the four Decision-Log rulings named in the prompt, `Source_Sheet.md`, then (after the heart below) `Outline.md`.
+
+## My heart, written before reading the outline
+
+**Essence.** A Carmelite nun who spent more than twenty years in the large, relaxed convent of the Incarnation at Ávila (Documented, her own words; the number of years differs among held sources), and in 1562 founded St Joseph's, a small, poor house of no more than thirteen nuns under the order's old unrelaxed Rule, over the opposition of the city council (Documented). From it she founded house after house, seventeen of nuns by her editors' count, with friars' houses too, and the reform became the Discalced Carmelites, a province of its own in 1580 (Widely Accepted for the counts; Documented for 1580). She is on the tree as the founder of that reform and its teacher of prayer.
+
+**Also told.** Her Life, written at her confessors' order (about 1562–1565, Dominant Modern Reconstruction), in a time when the Inquisition had banned devotional books in Spanish (1559) and people warned her she might be reported; she laughed (Documented, own words). The Life reached the Inquisition in two ways told by held witnesses: a princess denounced it (Gracián; editors) and her confessor Báñez carried it there himself to keep it safe (his deposition); Báñez found she was "not a deceiver" (July 1575), and she never saw the book again (Documented as each one's account). The order's 1575 order to stop founding (her account; who issued it contested by Zimmerman). The Interior Castle (1577): the soul as a castle of crystal or diamond with many rooms, God in the centre, prayer as the gate (Documented). Death at Alba de Tormes, October 1582; printed 1588; canonized 1622 (Documented).

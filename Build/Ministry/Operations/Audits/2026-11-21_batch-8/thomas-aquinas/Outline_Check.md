@@ -1,0 +1,8 @@
+# Outline check: Thomas Aquinas
+
+## My heart, written before reading the outline
+
+**Essence.** A Dominican friar who taught theology as a master at Paris and wrote the Summa of theology, a book for beginners (his own stated aim, ST4 861–870) that takes each question by first stating the case against the faith's answer and then answering it (ST4 5795–5809, 6017–6023). Inside it he taught that faith and reason cannot truly conflict: nothing true can be proved against the faith, so arguments against it can be answered (ST4 4099–4104), and grace does not destroy nature but perfects it (ST4 4128–4131). He is on the tree because that way of teaching, and that confidence in reason under faith, became the method of the schools and of his order, and later popes made him the standard for training priests.
+
+**Also told.** His noble family seized and held him to stop him being a friar, told differently by each witness (Gerard: kinsmen, about a year; Bartholomew: by the father's power, more than a year; Tocco: brothers at the mother's order, nearly two years). At the end of 1273 he stopped writing, leaving the Summa unfinished in the treatise on penance, and said what he had written seemed to him straw (Bartholomew, third-hand, sworn) or small (Tocco). He died at the Cistercian abbey of Fossanova on 7 March 1274, on the way to the Council of Lyon; canonized by John XXII in 1323, the pope praising his teaching. Pius V kept his feast as a Doctor's (1567); Pius X made his teaching the foundation of priests' studies (1907). Also his own words that heretics may be put to death (ST II-II q.11 a.3), the same method applied: the record's force, which a fair account does not leave out.
+
