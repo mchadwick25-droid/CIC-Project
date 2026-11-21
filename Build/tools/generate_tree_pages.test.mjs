@@ -143,12 +143,18 @@ test('the method and data pages are linked from the about page, the map, every p
   assert.ok(sitemap.includes('<loc>https://www.churchfamilytree.com/data.html</loc>'));
 });
 
-test('the about page counts movements and links from the census', () => {
+test('the about page counts traditions, rivers, eras and links from the census', () => {
   const c = structuredClone(census);
   withLinks(c, 12);
+  const traditions = c.movements.filter(m => !m.kind);
+  const rivers = new Set(traditions.map(m => m.laneOrder)).size;
+  const inFull = traditions.filter(m => m.status === 'Built & Live').length;
   const page = generate(c)('about.html');
   assert.match(page, /The tree shows 12 links of seven kinds\./);
-  assert.match(page, new RegExp(`The tree covers ${c.movements.length} movements\\.`));
+  assert.match(page, new RegExp(`The tree maps ${traditions.length} church traditions, and the councils, people and stories that shaped them\\.`));
+  assert.match(page, new RegExp(`The traditions flow in ${rivers} rivers, across ${c.eras.length} eras\\.`));
+  assert.match(page, new RegExp(`The tree tells ${inFull} traditions in full`));
+  assert.match(page, new RegExp(`<meta name="description" content="[^"]*with ${traditions.length} church traditions`));
 });
 
 test('a person page says which tradition tells it, and carries that world door while it is open', () => {

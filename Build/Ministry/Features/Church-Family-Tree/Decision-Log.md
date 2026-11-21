@@ -5029,3 +5029,14 @@ Mark: "the river icon should match the double river icon on the toggle".
 ## 2026-11-21 — Batch 7: the recording approved, with a cap (Mark)
 
 **Decided (Mark, 2026-11-21: "Approve, cap 24,500 (Recommended)").** The thirteen batch 7 stories, about 44,900 characters (about 22,600 credits at batch 6's rate), are recorded once the second readings are done. The twelve people on batch 6's printed settings: person voice `onegjDE2z0mQtp1g0HK7`, model `eleven_v4`, `mp3_44100_64`, stability 0.95, similarity 0.68, style 0, speaker boost on, `[pause]` between paragraphs, the respellings. The councils of 251 in the council voice, Daniel (`onwK4e9ZLuTAKqWW03F9`, `eleven_multilingual_v2`, the same settings), as Nicaea was recorded in batch 4. Tertullian is recorded first for Mark's ear; the rest only after he hears it. The balance is checked before and after, and the run stops at 24,500 credits. Origen's and Methodius's old recordings are replaced, since their texts changed.
+
+## 2026-11-21 — Search wording: the home title, descriptions and About page describe the tree as it is now
+
+Mark, before submitting the site to Google and Bing: "we need to update the information on the site and search words for the system we are building not what it was". On the count: "these are not seperate, i would say something like 350 church traditions and their counsils, people and stories that shaped them, maybe include the connections". On the title: "yes use that title".
+
+**Done.**
+- Home page title: "Church Family Tree — An Interactive Map of Church History" (was "Church Family Tree — Church in Conversation"). Description, and the share preview's: "A free map of church history: 350 church traditions, the councils, people and stories that shaped them, and how they connect. Explore and listen as you go."
+- A hidden schema.org block on the home page names the site (Church Family Tree) and its maker (Faithways Studio, Inc.) for search results.
+- About page (`Build/tools/tree_site_pages.json`, generated): the tree as traditions with the councils, people and stories that shaped them, and their connections, in place of "620 movements" (the 620 were every census entry: 350 traditions, 251 people, 12 councils, 7 cross-church movements). A new "Listen as you explore" section. Traditions, rivers, eras and fully told traditions are counted from the census at build time, not typed.
+- Descriptions added for About, Privacy and Help us grow.
+- Left as they are: the Method and Data pages still count "movements", because they describe the data file, whose entries are called movements.
