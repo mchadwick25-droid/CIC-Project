@@ -2,7 +2,7 @@
 
 File short names and full paths are in `Source_Sheet.md` (top). Item codes (S1, E4, I1 ...) point to the sheet, which gives every passage verbatim with its lines.
 
-**The essence** (Documented): Epiphanius, a monk from Palestine who became bishop of Salamis in Cyprus, wrote the Panarion, his "medicine chest", which named eighty heresies as poisons and set a cure beside each; later writers, from Augustine to a council at Nicaea four centuries on, used it as the church's list. In old age he carried the same fight against the followers of Origen, to Jerusalem and then to Constantinople, against its bishop, John Chrysostom.
+**The essence** (Documented): Epiphanius, a monk from Palestine who became bishop of Salamis in Cyprus, wrote the Panarion, his "medicine chest", which named eighty heresies as poisons and set a cure beside each; later writers, from Augustine to a council at Nicaea four centuries on, used it as their list of the heresies. In old age he carried the same fight against the followers of Origen, to Jerusalem and then to Constantinople, against its bishop, John Chrysostom.
 - Medicine chest, eighty, cures: HOLL1 12387-12395 (E4). Augustine: AUG 2411-2426 (I1). Nicaea, 787: MEN 26273-26281 (I3). Jerusalem: J6 40982-41015 (E8). Constantinople, John: SS 18078-18118, 18191-18230; SS 43502-43631 (E12-E16).
 
 **Also told:**
@@ -28,7 +28,7 @@ File short names and full paths are in `Source_Sheet.md` (top). Item codes (S1, 
 - the Euphrates in Eden: Genesis names it among the rivers of paradise; he cites Genesis on Eden's rivers (J6 10914-10917).
 - ordain, presbyter: "make him a priest".
 - synod: "a meeting of bishops".
-- another bishop's territory / the canons: "church rules forbade a bishop to ordain in another bishop's city" (Zenos's note, SS 18085-18086, an editor's summary of the rule).
+- another bishop's territory / the canons: "church rules", which Socrates says he broke by ordaining in John's church (SS 18191-18193); the plain sense, that a bishop could not ordain in another bishop's city, is Zenos's note (SS 18085-18086, editor).
 - the Long Brothers: "monks from Egypt whom Theophilus had driven out" (SS 17899; J6 19729-19733, 19746-19748; SS 43604-43605).
 - the council of 787: "a council of bishops at Nicaea in 787" (MEN header; MEN 26327-26331).
 - the Caroline Books: "a reply written at Charlemagne's order" (MEN header line 1).
@@ -51,13 +51,13 @@ File short names and full paths are in `Source_Sheet.md` (top). Item codes (S1, 
 7. **Constantinople, and the voyage home.** He landed outside the city and ordained a deacon there, against church rules (SS 18082-18084; 18085-18086 note). He refused John Chrysostom's welcome and would not pray with him unless John condemned Origen's books and sent the Long Brothers away (SS 18197-18200; SS 43552-43556). A bishop from Scythia refused to sign, read from Origen and found no evil in him (SS 18105-18116). Socrates says Epiphanius then denounced them before the people; Sozomen says he was warned off at the church door (SS 18203-18207; SS 43565-43572). One of the Long Brothers asked if he had read any of their works; he had not, and judged by report (Sozomen, SS 43604-43610). He sailed for Cyprus. Sozomen reports his farewell to the bishops at the shore (Q3; SOZG 30107-30115). He died at sea before he reached home (SS 18227-18228; SS 43622-43623). Documented (the voyage and death at sea); the farewell is hearsay.
 
 **What came of them** (about a third of the story, heaviest first):
-1. **His list became the church's list.** Augustine, writing in Africa about 25 years later (editors' date, AUG 1098), took fifty-seven heresies from it, and followed "his order, not his measure"; he calls him a man the Greeks counted among the great (AUG 2411-2426). In the ninth century Photius, a patriarch of Constantinople (file header, PHOT 3), judged it fuller than any earlier book against the heresies, though poor in style (PHOT 11652-11654, 11678-11683). It keeps whole the writings it attacks (HOLL1 34016-34746). **Defended:** the church's "ancient faith" and the rising of this flesh (J6 10657-10659, 10899-10901).
+1. **His list became the one later writers used.** Augustine, writing in Africa about 25 years later (editors' date, AUG 1098), took fifty-seven heresies from it, and followed "his order, not his measure"; he calls him a man the Greeks counted among the great (AUG 2411-2426). In the ninth century Photius, a patriarch of Constantinople (file header, PHOT 3), judged it fuller than any earlier book against the heresies, though poor in style (PHOT 11652-11654, 11678-11683). It keeps whole the writings it attacks (HOLL1 34016-34746). **Defended:** the church's "ancient faith" and the rising of this flesh (J6 10657-10659, 10899-10901).
 2. **His name gave weight to the move against Origen's books.** Sozomen says Theophilus saw no danger in following the example of a man "who was the object of popular praise" (SS 43516-43520). John was driven from his see soon after; Socrates tells it as the event fulfilling the parting words, not as Epiphanius's doing (SS 18225-18230). Theophilus, who had once called him "a heretic, or a paltry schismatic", later called him "a most holy saint" (Palladius's Dialogue, PALL 8921-8925), and in his own letter "a bright star among bishops" (J6 22472-22474).
 3. **Four centuries on, both sides over holy images claimed him.** Opponents of images quoted writings under his name. The council at Nicaea in 787 said the passage was "none of his": his treatise of eighty chapters passed over no heresy, and did not list the making of images (MEN 26231-26239, 26273-26281). A reply written at Charlemagne's order answered with his own curtain letter (MEN 26282-26316).
 4. **Remembered as a saint.** Sozomen reports it was said that demons were driven out and diseases healed at his tomb (SS 42335-42337). Jerome wrote that his books were read by the learned for their matter "and also by the plain people, on account of their language" (J3 41529-41531).
 - Who keeps him today: no held source says so plainly; leave out.
 
-**Quotes** (each new to the tree; none is a slate reuse):
+**Quotes** (each new to the tree; none is a slate reuse; only these three are spoken as quotes):
 - **Q1.** *Rendered from Holl's Greek, HOLL1 12387-12391* (Panarion, Proem I): "We are going to show you the names of the heresies. We will uncover their unholy deeds, which are like venom and poison. Alongside them we will fit antidotes: cures for those who have been bitten, and protection for those who may yet fall into it."
   - Job: his own image for the whole book; the essence in his words. Scan: Holl 1915 is the only held print of the Proem. Its OCR is fair; this span is legible with two trivial slips ("TE", "zal"). The garbled word (12393) lies outside the span. Plan for the card to print the English alone unless the second reading confirms the Greek from the page image.
 - **Q2.** *Rendered from Fremantle's English, J6 10920-10922* (Letter 51; the Greek and Jerome's Latin are not held): "I have also drunk from the great river Euphrates. It was not spiritual water but real water, the kind you can touch with your hand and take into your mouth."
@@ -116,7 +116,7 @@ File short names and full paths are in `Source_Sheet.md` (top). Item codes (S1, 
 - "He denounced John in the Church of the Apostles." Say: Socrates says he did; Sozomen says he was warned off at the door.
 - "He caused John's fall." Say: John was driven out soon after; no source makes Epiphanius the cause.
 - "In Egypt, Gnostic women seduced him." Say: in his youth women of the sect tried to draw him in; he says God rescued him; he names no city ("that place").
-- "He gagged him." Say his own words: he had deacons seize him and "stop his mouth".
+- "He gagged him." Say, after his own words: he had deacons seize him and stop his mouth.
 - "He tore down an icon of Christ." Say: a painted curtain with "an image either of Christ or of one of the saints"; he did not remember whose.
 - "The council of 787 condemned Epiphanius." Say: it ruled that the anti-image passage under his name was "none of his".
 - "The Caroline Books were a council." Say: a reply written at Charlemagne's order.
@@ -129,7 +129,7 @@ File short names and full paths are in `Source_Sheet.md` (top). Item codes (S1, 
 - "Wonders happened at his tomb." Say: Sozomen says it was said.
 - "Ammonius proved him wrong." Say: Sozomen says he was "measurably convinced" and sent them away.
 - "He died in 403 on the way to Cyprus." Say: he died at sea before he reached Cyprus.
-- The "silly old man" in quotation marks. It is not an outline quote; paraphrase it, credited to Jerome.
+- Any phrase of this outline in quotation marks, outside Q1-Q3, spoken as a quote (for example "silly old man", "a bright star among bishops", "none of his", "his order, not his measure", the plain-people line). They are here so the writer can check the sense. Paraphrase them, credited to their witness.
 
 **Leave out:**
 - The beggar who feigned death, and the treasurer's bag of gold (Sozomen 7.27): wonder stories; the tomb line is enough.
