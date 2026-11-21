@@ -5029,3 +5029,13 @@ Mark: "the river icon should match the double river icon on the toggle".
 ## 2026-11-21 — Batch 7: the recording approved, with a cap (Mark)
 
 **Decided (Mark, 2026-11-21: "Approve, cap 24,500 (Recommended)").** The thirteen batch 7 stories, about 44,900 characters (about 22,600 credits at batch 6's rate), are recorded once the second readings are done. The twelve people on batch 6's printed settings: person voice `onegjDE2z0mQtp1g0HK7`, model `eleven_v4`, `mp3_44100_64`, stability 0.95, similarity 0.68, style 0, speaker boost on, `[pause]` between paragraphs, the respellings. The councils of 251 in the council voice, Daniel (`onwK4e9ZLuTAKqWW03F9`, `eleven_multilingual_v2`, the same settings), as Nicaea was recorded in batch 4. Tertullian is recorded first for Mark's ear; the rest only after he hears it. The balance is checked before and after, and the run stops at 24,500 credits. Origen's and Methodius's old recordings are replaced, since their texts changed.
+
+## 2026-11-21 — The append-only logs merge without conflicts (Mark approved)
+
+Two threads that each append to the Decision-Log or the Open-Gaps list used to conflict, because both edits land at the end of the file. Recent history shows the Decision-Log conflicted six times and the Open-Gaps list four times; no other log did. `.gitattributes` now sets `merge=union` on those two files only, so a local merge of `main` into a branch keeps both sides' lines and stops.
+
+The limits, plainly:
+- The rule works in a local `git merge origin/main`, which is how sessions merge before they push. GitHub's own mergeability check and its web conflict editor ignore it, so a pull request can still show a conflict on github.com. Merge `main` in locally and push; the push clears the banner.
+- Union keeps ours first, then theirs, so two entries added at once may sit in either order. Two Open-Gaps entries can also take the same number. `tools/check_open_gaps_numbers.py` runs in CI and fails on a repeated number; the newer entry is renumbered.
+- Union never raises a conflict, even where two threads edit the same line. It then keeps both versions. A reader of the merge diff has to look at it.
+- Not applied to the other logs, none of which conflicted. If one does, add its path to `.gitattributes`.
