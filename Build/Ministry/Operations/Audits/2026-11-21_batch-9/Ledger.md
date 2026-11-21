@@ -11,4 +11,4 @@ One row per agent pass: the subagent's own token count as the harness reports it
 | Apollinaris of Laodicea | 1 Research | Opus | 327,885 | outline, ~600 words planned |
 | Basil of Caesarea | 1 Research | Opus | 320,947 | outline, ~600 words planned |
 | Epiphanius of Salamis | 1 Research | Opus | 332,427 | outline, ~600 words planned |
-| Damasus of Rome | 1 Research | Opus | see notice | outline, ~610 words planned |
+| Damasus of Rome | 1 Research | Opus | 352,552 | outline, ~610 words planned |
