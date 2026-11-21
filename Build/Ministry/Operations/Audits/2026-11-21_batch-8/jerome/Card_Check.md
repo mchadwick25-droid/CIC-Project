@@ -8,9 +8,9 @@ Card checker, batch 8 (2026-11-21), under `Card_Check_Prompt.md`. I wrote neithe
 
 Re-read and confirmed: PRO 53895-53903 (dies in his ninety-first year, "prid. kal. Octobris", 30 September); JR 41786-41789 (born 331, died 420; Strido; the fourteenth year of Theodosius); JW 2549, 3445-3448 (born 345, dies 20 September 420); CIV 36730-36740 (the presbyter Jerome; Schaff's note, died 419); JW 2691, 2776, 2846, 2929, 8591-8592, 46629; JW 46735-46741 (begun about 391, finished about 404); JW 47291-47299 (the three stages, 390 to 404); JW 47354-47359 (Gallican Psalter, 1566); JR 41809-41812 (the manuscripts that have or omit "the Old Testament from the Hebrew"); JW 19006-19013 (Baraninas); JR 49452-49465, 50306-50310 (Barabbas); JR 46247-46262 (close friends, estranged over Origenism, reconciled before 397); ISI 13114-13119; TRE 12392-12394 (8 April 1546), 12468-12481, 4170-4176; SUL 2889-2900, 2949-2962; PAL 435, 1221-1224; AUGL 20546-20561; AUG 54030-54040 (Letter 195, 418).
 
-One statement misreports its sources (FIX 1). `uncertain[1]` says the sources differ "by a day or a year" for his death. Prosper gives 30 September 420 (PRO 53897-53898), Fremantle 20 September 420 (JW 3447), Schaff 419 (CIV 36737): ten days or a year.
+One statement misreports its sources (FIX 1). `uncertain[1]` says the sources differ "by a day or a year" for his death. Prosper gives 30 September 420 (PRO 53901-53902), Fremantle 20 September 420 (JW 3447), Schaff 419 (CIV 36737): ten days or a year.
 
-One statement misreports the Latin (FIX 2). `quotationOriginals[2].uncertain` says the brief follows the Latin, "whose order puts the Greeks' outcry first", and that Cunningham keeps that order. The Latin begins with the uproar, "factus est tantus tumultus in plebe maxime Graecis arguentibus" (AUGL 20550-20551), and Cunningham too begins "such a tumult in the congregation, especially among the Greeks" (AUG 32546-32547). It is the brief that puts the Greeks first.
+One statement misreports the Latin (FIX 2). `quotationOriginals[2].uncertain` says the brief follows the Latin, "whose order puts the Greeks' outcry first", and that Cunningham keeps that order. The Latin begins with the uproar, "factus est tantus tumultus in plebe maxime Graecis arguentibus" (AUGL 20553-20554), and Cunningham too begins "such a tumult in the congregation, especially among the Greeks" (AUG 32547-32548). It is the brief that puts the Greeks first.
 
 No conflict with the entry's fields. `why`'s "in the work later called the Vulgate" is qualified, not contradicted, by the card's note on the Psalter and the decree. `floorNote` and the attack on Jovinian have no cited held line and are rightly not claimed. `voices` and `relationsSummary` (the friendship and the break over Origen, the letters to Augustine) agree. The four birth and death dates are each credited; the entry's `dates` ("374-420") is untouched.
 
@@ -26,11 +26,11 @@ None names something the brief does not tell. The final brief dropped "Christian
 
 Only allowed keys; no `briefLength`. Five quoted spans in the brief, five entries, each `modern` word for word; none for a dropped span (v1 had the same five, the Oea one reworded). Each `printed` and `original` stands at its lines by the fold rule. Every cited file is in `sources`. No audit, review or ruling named. One British spelling, "traveller", outside printed wording (FIX 3). The four long spans have no `secondReading` yet, as the new-card prompt asks.
 
-**Checked at card: "old and Vulgate edition".** Waterworth prints "the said old and Vulgate edition" (TRE 12475). The Latin decree is not held, so the English print stands alone, as the card says. Right.
+**Checked at card: "old and Vulgate edition".** Waterworth prints "the said old and Vulgate edition" (TRE 12478). The Latin decree is not held, so the English print stands alone, as the card says. Right.
 
 ## 5. Originals
 
-The Oea span carries Goldbacher's Latin, clean at AUGL 20550-20554. No Latin of Jerome's letters to Rusticus or of Rufinus's Apology is held (searched `cic/texts/`; PL23 part 1 has neither passage), so the other three long spans rightly carry English alone. Greek: none. Nothing missing.
+The Oea span carries Goldbacher's Latin, clean at AUGL 20553-20556. No Latin of Jerome's letters to Rusticus or of Rufinus's Apology is held (searched `cic/texts/`; PL23 part 1 has neither passage), so the other three long spans rightly carry English alone. Greek: none. Nothing missing.
 
 ## 6. Not-found claims
 
