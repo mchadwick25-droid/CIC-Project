@@ -26,18 +26,18 @@ On the kit: 29. To do: 0.
 | Tacitus (`tacitus`) | person | 6 | yes |
 | Tatian (`tatian`) | person | 6 | yes |
 | Valentinus (`valentinus`) | person | 6 | yes |
-| Anatolius of Alexandria and Laodicea (`anatolius-of-alexandria-and-laodicea`) | person | 7 | no |
-| Councils of Carthage and Rome on the lapsed (`councils-of-rome-and-carthage-251`) | council | 7 | no |
-| Cyprian of Carthage (`cyprian-of-carthage`) | person | 7 | no |
-| Dionysius of Alexandria (`dionysius-of-alexandria`) | person | 7 | no |
-| Eusebius of Caesarea (`eusebius-of-caesarea`) | person | 7 | no |
-| Lactantius (`lactantius`) | person | 7 | no |
+| Anatolius of Alexandria and Laodicea (`anatolius-of-alexandria-and-laodicea`) | person | 7 | yes |
+| Councils of Carthage and Rome on the lapsed (`councils-of-rome-and-carthage-251`) | council | 7 | yes |
+| Cyprian of Carthage (`cyprian-of-carthage`) | person | 7 | yes |
+| Dionysius of Alexandria (`dionysius-of-alexandria`) | person | 7 | yes |
+| Eusebius of Caesarea (`eusebius-of-caesarea`) | person | 7 | yes |
+| Lactantius (`lactantius`) | person | 7 | yes |
 | Methodius of Olympus (`methodius-of-olympus`) | person | 7 | yes |
-| Novatian (`novatian`) | person | 7 | no |
+| Novatian (`novatian`) | person | 7 | yes |
 | Origen (`origen`) | person | 7 | yes |
-| Pamphilus of Caesarea (`pamphilus-of-caesarea`) | person | 7 | no |
-| Peter of Alexandria (`peter-of-alexandria`) | person | 7 | no |
-| Pontius the Deacon (`pontius-the-deacon`) | person | 7 | no |
+| Pamphilus of Caesarea (`pamphilus-of-caesarea`) | person | 7 | yes |
+| Peter of Alexandria (`peter-of-alexandria`) | person | 7 | yes |
+| Pontius the Deacon (`pontius-the-deacon`) | person | 7 | yes |
 | Tertullian (`tertullian-s-voice`) | person | 7 | yes |
 
 ## Era 2

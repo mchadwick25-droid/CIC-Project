@@ -54,3 +54,6 @@ Approved by Mark, 2026-11-20 (`Hearts.md`; Decision-Log, "Batch 7 hearts approve
 - One Open-Gaps entry for the batch, at the next free number, and one that updates "The stories approved before the kit: reviewed in their era's batch" (2026-11-19) for Origen and Methodius.
 - `Build/Ministry/Features/Church-Family-Tree/Earlier-Approved.yaml` lists none of the thirteen; `python tools/list_story_status.py --write` still runs.
 - The launch prompt for the first era 2 batch in `Build/Ministry/Features/Church-Family-Tree/Launch-Prompts/`, carrying the ledger step and the era 2 stories approved before the kit.
+
+## Status (2026-11-21)
+Steps 0 to 8 are done. The thirteen are researched (the eleven), checked, written, reviewed, revised once, rechecked, carded, read blind (`Second_Readings.md`: 57 same, 2 minor), in the census and the tree pages (`Release.md`), and recorded (`recording/`, 22,424 credits of a 24,500 cap). Origen and Methodius were reviewed under the change order, took two fixes each and were re-recorded. Open points: the batch 7 Open-Gaps entry.
