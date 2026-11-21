@@ -1,0 +1,66 @@
+francis-of-assisi: 4 spans
+  READ BLIND    The Lord gave me, Brother Francis, to begin to do penance in this way. When I was in sin, it seemed too bitter to me to see lepers. And the Lord himself led me among them, and I showed mercy to them. And as I left them, what had seemed bitter to me was turned into sweetness of soul and body.
+  READ BLIND    Let the brothers make nothing their own, not a house, not a place, not anything.
+  CARRIED       (checked at card) Welcome, my Sister Death,
+  READ BLIND    Be praised, my Lord, for our Sister Bodily Death, from whom no one living can escape.
+bernard-of-clairvaux: 2 spans
+  READ BLIND    Love seeks no cause beyond itself, and no fruit. Its fruit is the loving itself. I love because I love; I love in order to love.
+  READ BLIND    If one of the two must happen, I would rather people grumble against me than against God. It is good for me if he will use me as a shield. I gladly take on myself the cursing tongues of slanderers and the poisoned darts of blasphemers, so that they do not reach him.
+thomas-aquinas: 4 spans
+  READ BLIND    It seems that God does not exist. For if one of two opposites were without limit, the other would be wholly destroyed. But by the name God we mean a good without limit. So if God existed, no evil would be found. But evil is found in the world. So God does not exist.
+  READ BLIND    Faith rests on a truth that cannot fail. And the opposite of a truth can never be proved. So it is clear that the proofs brought against the faith are not true proofs. They are arguments that can be answered.
+  READ BLIND    Reginald, I cannot. For everything I have written seems to me straw.
+  READ BLIND    one followeth Duns, another St Thomas.
+jan-hus: 5 spans
+  READ BLIND    pass, stay, remain and return freely.
+  READ BLIND    I do not know where John Wyclif's soul is. I hope that he is saved, and I fear that he may be damned. Yet in hope I would wish my soul to be where John Wyclif's soul is.
+  READ BLIND    God is my witness that I never taught or preached the things falsely charged to me, laid on me by false witnesses. The chief aim of my preaching, and of all my other acts and writings, was only to turn people from sin. I wrote, taught and preached the truth of the gospel from the words and teachings of the holy teachers. In that truth I will gladly die today.
+  READ BLIND    Master John Hus was truly a good, just and catholic man. For many years he lived among us in our kingdom in a way worthy of praise, proven in his life, his conduct and his good name.
+  CARRIED       (checked at card) return freely.
+catherine-of-siena: 5 spans
+  READ BLIND    To the honour of almighty God, I dare to say it. While I was still in the city where I was born, I smelled the stench of the sins committed in the papal court. I smelled it more than the men who have committed them, and commit them every day, smell it themselves.
+  CARRIED       (checked at card) incarnate demons.
+  READ BLIND    I tell you: come, come, come. Do not wait for time, because time does not wait for you.
+  READ BLIND    decided on your return and announced it.
+  READ BLIND    To hear it told, this seems a thing past believing. But to those who wrote it down and heard it, it does not seem so. And I am one of them.
+gregory-palamas: 5 spans
+  CARRIED       (checked at card) navel-souls.
+  READ BLIND    Those who call them navel-souls are, to begin with, plainly slandering the men they accuse. For which of them ever says that the soul is in the navel?
+  READ BLIND    So when you hear the Fathers say God's essence cannot be shared, understand the essence that does not go out and is not shown. When they say again it can be shared, understand the going-out that belongs to God by nature, his showing and his energy. Holding to both in this way, you will agree with the Fathers.
+  READ BLIND    in labor with the teachings of many gods, and at the same time of no god.
+  CARRIED       (checked at card) The heavenly to the heavenly.
+huldrych-zwingli: 4 spans
+  READ BLIND    I say we have judges here who cannot err and take no side: the Holy Scriptures, which can neither lie nor deceive. We have them here in Hebrew, Greek and Latin. Let both sides take them as fair and just judges.
+  READ BLIND    This peace that some press for so hard is war, not peace. And the war we press for is peace, not war. For we thirst for no one's blood, nor will we drink it in the turmoil. Our aim is to cut the sinews of the rule of the few.
+  READ BLIND    We have not agreed at this time whether Christ's true body and blood are bodily in the bread and wine. Yet each side shall show the other Christian love, as far as each conscience can bear. And both sides shall pray earnestly to Almighty God to confirm us, by his Spirit, in the right understanding. Amen.
+  CARRIED       (checked at card) Master Ulrich, of blessed memory
+thomas-cranmer: 5 spans
+  READ BLIND    For many years the service in this Church of England has been read to the people in Latin, which they did not understand. So they have heard with their ears only. Their hearts, spirit and mind have not been built up by it.
+  CARRIED       (checked at card) like a Christmas game,
+  READ BLIND    My hand did wrong when it wrote against my heart. So my hand shall be punished for it first. If I come to the fire, it shall be burned first.
+  CARRIED       (checked at card) unworthy right hand
+  CARRIED       (checked at card) Lord Jesus, receive my spirit.
+teresa-of-avila: 5 spans
+  READ BLIND    I crossed this stormy sea for almost twenty years, with these falls, and rising again, and badly, for I would fall once more.
+  READ BLIND    People came to me in great fear. They told me the times were harsh, and that someone might bring a false charge against me and go to the Inquisitors. This struck me as funny, and made me laugh, for in this I was never afraid.
+  CARRIED       (checked at card) burn it at once.
+  CARRIED       (checked at card) not a deceiver.
+  READ BLIND    I thought of the soul as like a castle, made of a single diamond or of very clear crystal. It has many rooms, just as in heaven there are many dwelling places.
+ambrose-of-milan: 7 spans
+  CARRIED       (checked at card) Ambrose for bishop!
+  READ BLIND    The palaces belong to the emperor, the churches to the bishop,
+  READ BLIND    I certainly do not deny it.
+  READ BLIND    So they have all become teachers, who could hardly be pupils.
+  READ BLIND    I dare not offer the sacrifice if you mean to be there,
+  READ BLIND    What is not allowed after the blood of one innocent person is shed, is it allowed after the blood of many? I do not think so.
+  READ BLIND    I have not lived among you in such a way that I am ashamed to live. Nor am I afraid to die, because we have a good Lord.
+jerome: 5 spans
+  READ BLIND    I began to learn my letters all over again, and worked at sounding out words that were harsh and throaty.
+  READ BLIND    Who but you would have laid hands on God's gift, and on the inheritance of the apostles?
+  READ BLIND    The Greeks above all found fault with the reading, and fanned the charge that it was false. Such an uproar broke out in the congregation that the bishop was forced to demand the Jews' testimony. The town was Oea.
+  CARRIED       (checked at card) old and Vulgate edition,
+  READ BLIND    But I thank the Lord that from this seed of learning, sown in bitterness, I now gather sweet fruit.
+leo-of-rome: 3 spans
+  READ BLIND    To be hungry, to be thirsty, to grow tired and to sleep is plainly human.
+  READ BLIND    Nor need a letter set down everything that could be committed at Ephesus, in what was not a trial but a robbery.
+  READ BLIND    Yet worldly things stand on one footing, and the things of God on another. No building will stand firm except on the rock the Lord laid as its foundation.

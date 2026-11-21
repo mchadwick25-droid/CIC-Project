@@ -157,7 +157,7 @@
         "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd2-deu-lat_1886.txt"
       },
       {
-        "title": "Opera omnia (Patrologia Graeca 160), with the editors' catalogue of Greek versions of Thomas",
+        "title": "Opera omnia (Patrologia Graeca 160), with the editors' catalog of Greek versions of Thomas",
         "author": "Gennadius Scholarius",
         "date": "1866",
         "language": "Greek and Latin",
@@ -169,22 +169,22 @@
     "Summa theologiae I, question 2, article 3, first objection (Leonine Latin): the case against God from evil.",
     "Summa theologiae I, question 2, article 3, reply to the first objection: Augustine, in his Handbook, on a supremely good God and evil. The prologue of the Summa: beginners, and an order of questions.",
     "Dominican entry in the tradition's story: poor traveling friars trained to preach. Summa theologiae I, question 1, article 8: faith rests on a truth that cannot fail. Acta Sanctorum, March I: canonization in 1323.",
-    "Bollandists and Tocco: the counts of Aquino, born at the start of 1225 by Tocco's age; Naples, and entry into the Dominicans.",
+    "Bollandists and Tocco: the counts of Aquino, born around 1225 by Tocco's age; Naples, and entry into the Dominicans.",
     "Gerard: his kinsmen seized him on the way to Paris, held him in a castle about a year, and could not make him put off the habit. Tocco: his brothers at his mother's order, the torn habit, the girl sent to tempt him. Bartholomew of Capua: his father, more than a year, in 1319. Tocco is later and pressed the cause.",
     "Tocco: Albert at Cologne; Gerard: master of theology. Summa theologiae, prologue; I, question 1, article 8; II-II, question 11, article 3: heretics, and forging money.",
     "Bartholomew, testimony of 1319: after Mass at Naples around the feast of Saint Nicholas he wrote nothing more; Reginald; the straw; the chain through Reginald, another friar and Bartholomew. Tocco: his sister's castle, and what he had written seemed small.",
     "Bartholomew and Tocco: the council at Lyon called by Gregory X; Fossanova; 7 March 1274.",
     "General chapters of 1309 and 1313: the order's teachers bound to teach by his teaching and works. Tocco: John XXII said he had lit up the church more than all the other Doctors. Bull of Pius V, 1567: his feast kept like those of the four Doctors. Tyndale, Obedience of a Christian Man: one followeth Duns, another St Thomas. Foxe: the Minorites with Scotus.",
-    "Leonine edition: the third part breaks off at question 90 on the parts of penance, where the Supplement begins."
+    "Leonine edition: the third part breaks off at question 90 on the parts of penance."
   ],
   "quotationOriginals": [
     {
       "modern": "It seems that God does not exist. For if one of two opposites were without limit, the other would be wholly destroyed. But by the name God we mean a good without limit. So if God existed, no evil would be found. But evil is found in the world. So God does not exist.",
-      "printed": "Si ergo Deus esset, nullum malum inveniretur. Invenitur autem malum in mundo. Ergo Deus non est.",
-      "work": "Summa theologiae I, question 2, article 3, first objection, Latin of the Leonine edition (the last three sentences)",
+      "printed": "Videtur quod Deus non sit. Quia si unum contrariorum fuerit infinitum, totaliter destruetur aliud. Sed hoc intelligitur in hoc nomine Deus, scilicet quod sit quoddam bonum infinitum. Si ergo Deus esset, nullum malum inveniretur. Invenitur autem malum in mundo. Ergo Deus non est.",
+      "work": "Summa theologiae I, question 2, article 3, first objection, Latin of the Leonine edition",
       "file": "cic/texts/thomas-aquinas_opera-omnia-t4-summa-theologiae-lat_leonine1888.txt",
-      "lines": "5807-5809",
-      "uncertain": "The rendering follows the whole objection in Latin (lines 5797-5809). In the first lines of the Latin the scan has stray marks and a misprint in contrariorum, aliud and nomine, which no second print of this part of the Summa confirms, so only the last three sentences are printed. No English of the Summa is held."
+      "lines": "5797-5809",
+      "uncertain": "In the first lines the scan sets stray marks into contrariorum, aliud and nomine; they are no part of the text. Good without limit renders bonum infinitum. No English of the Summa is held."
     },
     {
       "modern": "Faith rests on a truth that cannot fail. And the opposite of a truth can never be proved. So it is clear that the proofs brought against the faith are not true proofs. They are arguments that can be answered.",
