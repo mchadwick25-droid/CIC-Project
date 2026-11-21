@@ -298,6 +298,14 @@ svg.who-on .edge-line,svg.who-on .edge-hit,svg.who-on .continues{display:none!im
 .who-pill:hover .who-fig *,.who-pill:focus-visible .who-fig *,.who-pill[aria-pressed="true"] .who-fig *{fill:var(--gold-leaf)}
 svg.who-on .who-pill:not([aria-pressed="true"]){display:none}
 .node.who-under .lbl,.node.who-under .pl,.node.auto-own .pl,.node .pl.pl-cull{visibility:hidden}
+#end-marks{pointer-events:none}
+#end-marks .end-mark{display:none}
+svg.ends-on #end-marks .end-mark{display:inline}
+#end-marks .end-mark.is-off{display:none}
+#end-marks .em-tick{stroke:var(--iron-gall);stroke-opacity:.55;stroke-width:1.4;vector-effect:non-scaling-stroke}
+#end-marks .em-lbl{font-family:"Alegreya Sans",sans-serif;font-style:italic;fill:var(--iron-gall);fill-opacity:.78;paint-order:stroke;stroke:var(--parchment);stroke-linejoin:round}
+#end-marks .em-lbl.em-cull{visibility:hidden}
+svg.who-on #end-marks,svg.story-on #end-marks,svg.conn-focus #end-marks{opacity:.2}
 svg#world #rivers .river-group,svg#world #nodes .node,svg#world #stories,svg#world #councils,svg#world #across,svg#world #era-labels{transition:opacity .25s}
 svg.who-on #rivers .river-group:not(.who-lit),svg.who-on #nodes .node:not(.who-lit),svg.who-on #stories,svg.who-on #councils,svg.who-on #across,svg.who-on #era-labels{opacity:.2}
 svg.who-on #nodes .node.who-lit .pl{visibility:hidden}
@@ -418,6 +426,22 @@ svg.strip-on #era-labels{display:none}
 #tourBox[hidden]{display:none}
 #growAsk{position:fixed;z-index:70;right:calc(var(--grow-right,0px) + 1rem + env(safe-area-inset-right,0px));bottom:calc(var(--grow-lift,0px) + 1rem + env(safe-area-inset-bottom,0px));width:min(19rem,calc(100vw - 2rem));box-sizing:border-box;background:var(--vellum);color:var(--iron-gall);border:1px solid var(--gold-leaf);border-radius:12px;box-shadow:0 8px 28px rgba(0,0,0,.45);padding:.9rem 2.6rem .9rem 1.1rem;font-family:"Alegreya Sans",sans-serif;animation:growIn .35s ease-out}
 #growAsk[hidden]{display:none}
+#growDlg{width:min(30rem,calc(100vw - 2rem));max-height:min(62dvh,36rem);box-sizing:border-box;padding:0;border:1px solid var(--gold-leaf);border-radius:12px;background:var(--vellum);color:var(--iron-gall);box-shadow:0 12px 40px rgba(0,0,0,.55)}
+#growDlg::backdrop{background:rgba(0,0,0,.18)}
+@media (max-width:640px){#growDlg{width:100vw;max-width:100vw;margin:auto 0 0;border-radius:16px 16px 0 0;max-height:62dvh}#growDlg .gd-in{max-height:62dvh;padding-bottom:calc(1.4rem + env(safe-area-inset-bottom,0px))}}
+#growDlg .gd-in{position:relative;max-height:min(62dvh,36rem);overflow:auto;padding:1.2rem 1.4rem 1.4rem;box-sizing:border-box;font:1rem/1.55 "Alegreya Sans",sans-serif}
+#growDlg .gd-x{position:sticky;top:0;float:right;margin:-.6rem -.8rem 0 0;min-width:44px;min-height:44px;border:0;background:var(--vellum);color:var(--ink-faded);font-size:1.5rem;line-height:1;cursor:pointer;border-radius:999px}
+#growDlg h1{font:700 1.6rem/1.2 "Alegreya",serif;margin:0 0 .6rem}
+#growDlg h2{font:700 1.15rem/1.25 "Alegreya",serif;margin:1.2rem 0 .4rem}
+#growDlg p{margin:0 0 .7rem}
+#growDlg ul{margin:0 0 .7rem;padding-left:1.2rem}
+#growDlg li{margin:.2rem 0}
+#growDlg a{color:var(--madder)}
+#growDlg .give{display:flex;flex-wrap:wrap;gap:.6rem;margin:.9rem 0}
+#growDlg .give a{display:inline-flex;align-items:center;min-height:44px;padding:0 1.2rem;border-radius:999px;border:1px solid var(--gold-leaf);background:var(--tyrian-wash);color:var(--gold-leaf);font-weight:700;text-decoration:none}
+#growDlg .gd-done{display:flex;justify-content:flex-end;margin-top:.6rem}
+#growDlg .gd-done button{min-height:44px;padding:0 1.2rem;border-radius:999px;border:1px solid var(--rule);background:none;color:var(--iron-gall);font:700 .95rem "Alegreya Sans",sans-serif;cursor:pointer}
+#growDlg a:focus-visible,#growDlg button:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
 #growAsk .ga-t{font:700 1.1rem/1.25 "Alegreya",serif;margin:0 0 .25rem}
 #growAsk .ga-b{margin:0 0 .75rem;font-size:1rem;line-height:1.4}
 #growAsk .ga-btns{display:flex;gap:.5rem;flex-wrap:wrap}
@@ -600,6 +624,7 @@ svg.strip-on #era-labels{display:none}
 <div id="barToast" aria-hidden="true"></div>
 <div id="tourRing" hidden></div>
 <aside id="growAsk" role="complementary" aria-labelledby="growTitle" aria-live="polite" hidden><button type="button" class="ga-x" aria-label="Not now">&times;</button><p id="growTitle" class="ga-t">Glad you&rsquo;re exploring.</p><p class="ga-b">If the map is useful to you, you can help it grow.</p><div class="ga-btns"><a class="ga-help" href="support.html">Help us grow</a><button type="button" class="ga-later">Not now</button></div></aside>
+<dialog id="growDlg" aria-labelledby="growDlgTitle"><div class="gd-in"><button type="button" class="gd-x" aria-label="Close">&times;</button><div class="gd-body"><h1 id="growDlgTitle">Help us grow</h1><p>Loading…</p></div><div class="gd-done"><button type="button" class="gd-close">Back to the map</button></div></div></dialog>
 <div id="tourBox" role="dialog" aria-modal="false" aria-labelledby="tourCount tourTitle" aria-describedby="tourText" hidden><p class="tb-count" id="tourCount"></p><h2 id="tourTitle" tabindex="-1"></h2><p id="tourText"></p><div class="tb-btns"><button type="button" class="tb-back">Back</button><button type="button" class="tb-next">Next</button></div><button type="button" class="tb-stop" aria-label="Stop the tour">&times;</button></div>
 <div id="listenBar" role="region" aria-label="Narration" hidden><button type="button" class="lb-play">Pause</button><span class="lb-text"><span class="lb-wide">Listening: </span><span class="lb-name"></span></span><button type="button" class="lb-open" aria-label="Open the card">Open<span class="lb-wide"> the card</span></button><button type="button" class="lb-stop" aria-label="Stop listening">&times;</button></div>
 <div id="zoomHint">Scroll to move &middot; Ctrl + scroll to zoom</div>
@@ -130444,6 +130469,7 @@ const LINK_FAMILY_LABEL={grow:'Grew out of, continued as',influence:'Influenced'
 }
 const gBands=el('g',{id:'bands'}); gRoot.appendChild(gBands);
 const gRivers=el('g',{id:'rivers'}); gRoot.appendChild(gRivers);
+const gEndMarks=el('g',{id:'end-marks','aria-hidden':'true'}); gRoot.appendChild(gEndMarks);
 const gBandFade=el('g',{id:'band-fade'}); gRoot.appendChild(gBandFade);
 const gEdges=el('g',{id:'edges'}); gRoot.appendChild(gEdges);
 const gAcross=el('g',{id:'across'}); gRoot.appendChild(gAcross);
@@ -131429,8 +131455,9 @@ function render(){
       group.appendChild(el('path',{d, fill:'none', stroke:col, 'stroke-width':1.6, 'stroke-dasharray':'5 6',
         'vector-effect':'non-scaling-stroke', opacity:amp?0:0.8, class:cls}));
     });
-    group.addEventListener('mouseenter',(ev)=>showTip(ev,riverTip));
-    group.addEventListener('mousemove',(ev)=>positionTip(ev));
+    const tipAt=ev=>{const r=stage.getBoundingClientRect();return riverTip+riverActiveAt(members,(ev.clientY-r.top-ty)/scale);};
+    group.addEventListener('mouseenter',(ev)=>showTip(ev,tipAt(ev)));
+    group.addEventListener('mousemove',(ev)=>{const h=tipAt(ev);if(h!==group._tip){group._tip=h;showTip(ev,h);}else positionTip(ev);});
     group.addEventListener('mouseleave',hideTip);
     group.addEventListener('focus',()=>{
       const r=group.getBoundingClientRect();
@@ -131608,6 +131635,7 @@ function render(){
   renderWhoPills();
   renderStoryPills();
   renderRiverNames();
+  renderEndMarks();
 
   (DATA.stories||[]).forEach(s=>{
     const g=el('g',{class:'story','data-lane':s.laneOrder,transform:`translate(${s._x.toFixed(1)},${s._y.toFixed(1)})`,
@@ -131785,6 +131813,60 @@ function riverExplainTip(k,f,members){
     }else if(o.reason)h+=`<div class="x">${esc(o.reason)}</div>`;
   }
   return h;
+}
+// Where each tradition ends: a tick across its river and "Name · to about 400", shown once the map
+// is close enough to read (Z_READ). Living traditions have no end. Names give way to anything already placed.
+const LAST_YEAR=Math.max(...churchBodies.map(m=>m.end||0));
+const aboutYear=y=>y<1000?String(Math.round(y/10)*10):String(Math.round(y/5)*5);
+function renderEndMarks(){
+  gEndMarks.innerHTML='';
+  const groups=new Map();
+  churchBodies.forEach(m=>{
+    if(!(m.end<LAST_YEAR)||!(m.end>m.start))return;
+    const key=m.laneOrder+'|'+aboutYear(m.end);
+    if(!groups.has(key))groups.set(key,[]);
+    groups.get(key).push(m);
+  });
+  groups.forEach(ms=>{
+    ms.sort((a,b)=>a.start-b.start);
+    const m=ms[0], end=Math.max(...ms.map(x=>x.end));
+    const g=el('g',{class:'end-mark','data-lane':m.laneOrder});
+    g._m=m; g._y=yearToY(end);
+    g.appendChild(el('line',{class:'em-tick'}));
+    const t=el('text',{class:'em-lbl'}); t.textContent=`${ms.map(x=>x.shortName||x.name).join(', ')} · to about ${aboutYear(end)}`; g.appendChild(t);
+    gEndMarks.appendChild(g);
+  });
+}
+function placeEndMarks(){
+  const on=lastOrganic&&scale>=Z_READ&&!svg.classList.contains('simple');
+  svg.classList.toggle('ends-on',on);
+  if(!on)return;
+  const grid=labelFit.grid, fs=Math.min(11,13/scale), gap=6/scale;
+  gEndMarks.querySelectorAll('.end-mark').forEach(g=>{
+    if(g.classList.contains('is-off'))return;
+    const k=g._m.laneOrder, y=g._y;
+    const sp=riverSpanAt(k,y,1)||riverSpanAt(k,y-STEP,1)||[laneCenterX(k,y)-3,laneCenterX(k,y)+3];
+    const tick=g.querySelector('.em-tick'), t=g.querySelector('.em-lbl');
+    tick.setAttribute('x1',(sp[0]-3/scale).toFixed(1)); tick.setAttribute('x2',(sp[1]+3/scale).toFixed(1));
+    tick.setAttribute('y1',y.toFixed(1)); tick.setAttribute('y2',y.toFixed(1));
+    t.style.fontSize=fs+'px'; t.style.strokeWidth=(2.5/scale)+'px';
+    if(!g._w)g._w=t.getComputedTextLength()/(parseFloat(getComputedStyle(t).fontSize)||fs);
+    const w=g._w*fs, x=sp[1]+gap, ty0=y+fs*.32;
+    t.setAttribute('x',x.toFixed(1)); t.setAttribute('y',ty0.toFixed(1));
+    const r={id:'em'+g._m.id,x0:x-2,x1:x+w+2,y0:ty0-fs*.8,y1:ty0+fs*.3};
+    const clash=!grid||grid.hits(r);
+    t.classList.toggle('em-cull',clash);
+    if(!clash)grid.add(r);
+  });
+}
+// The river answers "what is still here?" for the year under the pointer.
+function riverActiveAt(members,y){
+  const yr=yearAtY(y); if(yr==null||!isFinite(yr))return '';
+  const live=members.filter(m=>m.start<=yr&&m.end>=yr);
+  const when=`about ${aboutYear(yr)}`;
+  if(!live.length)return `<div class="s">No tradition on the map is active here, ${when}.</div>`;
+  const names=live.slice(0,5).map(m=>esc(m.shortName||m.name)+(m.end<LAST_YEAR?` (to about ${aboutYear(m.end)})`:''));
+  return `<div class="s">Active here, ${when}: ${names.join(', ')}${live.length>5?`, and ${live.length-5} more`:''}.</div>`;
 }
 function renderRiverNames(){
   gRiverNames.innerHTML='';
@@ -132359,6 +132441,7 @@ function connButtonHTML(m){
 }
 let lastFocused=null;
 function showPanel(page){
+  cftTally.open(page);
   hideListenBar();
   hideTip();
   panel.scrollTop=0;
@@ -132529,7 +132612,7 @@ function buildLegend(){
     document.querySelectorAll('.edge-line,.edge-hit').forEach(p=>{
       p.classList.toggle('is-off',mode==='off'||kindsOff.has(p.dataset.family)||(p.dataset.lanes||'').split('|').some(laneOff)||(mode==='major'&&p.dataset.major!=='1'));
     });
-    document.querySelectorAll('.river-group,.node,.story,.river-pill,.prof-pill,.river-name').forEach(g=>g.classList.toggle('is-off',laneOff(g.dataset.lane)));
+    document.querySelectorAll('.river-group,.node,.story,.river-pill,.prof-pill,.river-name,.end-mark').forEach(g=>g.classList.toggle('is-off',laneOff(g.dataset.lane)));
     gAcross.querySelectorAll('.across').forEach(g=>{const ls=acrossLanes[g.dataset.id]||new Set();g.classList.toggle('across-out',!!ls.size&&![...ls].some(k=>!laneOff(k)));});
     document.querySelectorAll('.tie').forEach(p=>p.classList.toggle('is-off',(p.dataset.lanes||'').split('|').filter(Boolean).some(laneOff)));
     document.querySelectorAll('.continues').forEach(g=>g.classList.toggle('is-off',g.dataset.lanes.split('|').some(laneOff)));
@@ -132562,6 +132645,7 @@ function buildLegend(){
     if(whoScope&&hidden.has(`lane:${whoScope.type==='trad'?whoScope.m.laneOrder:whoScope.lane}`))clearWho();
     save(); applyToggles(); queueAutoWho();
     const on=k==='lanes-all'?laneButtons.some(x=>!hidden.has(x.dataset.toggle)):!hidden.has(k);
+    if(on&&(k==='people'||k==='stories'||k==='councils'))cftTally.layer(k);
     if(k==='lanes-all')announce(on?`All ${laneButtons.length} rivers in full.`:'All rivers faint.');
     else if(k.startsWith('lane:'))announce(`${label(b)} ${on?'in full':'faint'}. ${riverCount()}`);
     else if(flipped){const o=wrap.querySelector(`button[data-toggle="${pair}"]`);announce(`${label(b)} showing. ${label(o)} hidden.`);toast(`${label(b)}: on · ${label(o)}: off`);}
@@ -132569,7 +132653,7 @@ function buildLegend(){
   }));
   wrap.querySelectorAll('.conn-seg [data-mode]').forEach(b=>b.addEventListener('click',ev=>{
     ev.stopPropagation(); const was=linkMode; linkMode=b.dataset.mode; save(); applyToggles();
-    if(was==='off'&&linkMode!=='off')tourOfferConn();
+    if(was==='off'&&linkMode!=='off'){tourOfferConn();cftTally.layer('connections');}
     const shown=gEdges.querySelectorAll('.edge-line:not(.is-off)').length;
     announce(linkMode==='off'?'Connections hidden.':`${shown} ${linkMode==='major'?'major ':''}${shown===1?'connection':'connections'} showing.`);
   }));
@@ -132824,6 +132908,7 @@ function labelFitRun(){
       });
     }
   }
+  placeEndMarks();
   placeWhoMarks();
   placeMidExtras();
   keepMapFocus(held);
@@ -133370,7 +133455,8 @@ function startTour(kind){
   stopNarration(); hideListenBar();
   tour.opener=document.activeElement;
   tour.saved={tx,ty,scale,who:whoScope,conn:connFocus,people:!svg.classList.contains('no-people'),stories:!svg.classList.contains('no-stories')};
-  tour.on=kind; tour.ownConn=false;
+  tour.on=kind; tour.ownConn=false; tour.done=false;
+  cftTally.tour(kind,'start',1,TOURS[kind].length,false);
   if(kind==='conn'&&effectiveLinkMode()==='off'&&!connFocus){tour.ownConn=true;showConnections(tourTrad());}
   if(!tour.raf)tour.raf=requestAnimationFrame(tourTrack);
   tourGo(0);
@@ -133378,6 +133464,7 @@ function startTour(kind){
 function endTour(){
   if(!tour.on)return;
   const sv=tour.saved, kind=tour.on, own=tour.ownConn;
+  cftTally.tour(kind,'end',tour.i+1,TOURS[kind].length,tour.done);
   tour.on=null; tour.tok++; tourBox.hidden=true; tourRing.hidden=true; tour.ring=null;
   if(tour.moveRaf){cancelAnimationFrame(tour.moveRaf);tour.moveRaf=0;}
   if(panel.classList.contains('open')){lastFocused=null;closePanel();}
@@ -133429,7 +133516,7 @@ tourBox.addEventListener('click',ev=>{
   }
   if(!tour.on)return;
   const n=TOURS[tour.on].length;
-  if(b.classList.contains('tb-next')){if(tour.i<n-1)tourGo(tour.i+1);else endTour();}
+  if(b.classList.contains('tb-next')){if(tour.i<n-1)tourGo(tour.i+1);else{tour.done=true;endTour();}}
   else if(b.classList.contains('tb-back')){if(tour.i>0)tourGo(tour.i-1);}
   else if(b.classList.contains('tb-stop'))endTour();
 });
@@ -133456,7 +133543,7 @@ function placeGrowAsk(){
   growAsk.style.setProperty('--grow-lift',(narrow?barHeight()+(tray.hidden||panel.classList.contains('open')?0:tray.offsetHeight):0)+'px');
   growAsk.style.setProperty('--grow-right',(!narrow&&panel.classList.contains('open')?panel.offsetWidth:0)+'px');
 }
-function showGrowAsk(){placeGrowAsk();growAsk.hidden=false;}
+function showGrowAsk(){placeGrowAsk();growAsk.hidden=false;cftTally.grow();}
 function hideGrowAsk(helped){
   growAsk.hidden=true;
   if(helped){grow.helped=true;clearInterval(growTimer);}
@@ -133470,13 +133557,110 @@ if(!grow.helped)growTimer=setInterval(()=>{
 },5000);
 growAsk.addEventListener('click',ev=>{
   ev.stopPropagation();
-  if(ev.target.closest('.ga-help'))hideGrowAsk(true);
+  if(ev.target.closest('.ga-help')){ev.preventDefault();hideGrowAsk(true);openGrowDialog();}
   else if(ev.target.closest('.ga-later,.ga-x'))hideGrowAsk(false);
 });
 growAsk.addEventListener('keydown',ev=>{if(ev.key==='Escape'){ev.preventDefault();hideGrowAsk(false);}});
 ['pointerdown','wheel','touchstart'].forEach(t=>growAsk.addEventListener(t,ev=>ev.stopPropagation(),{passive:true}));
+
+// "Help us grow" opens over the map, from every link to it here, so a reader never leaves their place.
+// The page's own text is read from support.html; the gift links open in a new tab.
+const growDlg=document.getElementById('growDlg');
+let growLoaded=null;
+function openGrowDialog(){
+  const body=growDlg.querySelector('.gd-body');
+  if(!growLoaded)growLoaded=fetch('support.html').then(r=>r.ok?r.text():Promise.reject()).then(html=>{
+    const main=new DOMParser().parseFromString(html,'text/html').querySelector('main');
+    if(!main)throw new Error('no main');
+    main.querySelectorAll('a[href]').forEach(a=>{if(/^https?:/.test(a.getAttribute('href'))){a.target='_blank';a.rel='noopener';}});
+    const h=main.querySelector('h1'); if(h)h.id='growDlgTitle';
+    body.innerHTML=main.innerHTML;
+  }).catch(()=>{growLoaded=null;body.innerHTML='<h1 id="growDlgTitle">Help us grow</h1><p>This page did not load. <a href="support.html">Open it on its own</a>.</p>';});
+  hideTip();
+  if(!growDlg.open){try{growDlg.showModal();}catch(e){growDlg.setAttribute('open','');}}
+  growDlg.querySelector('.gd-in').scrollTop=0;
+  growDlg.querySelector('.gd-x').focus();
+}
+growDlg.addEventListener('click',ev=>{
+  if(ev.target===growDlg||ev.target.closest('.gd-x,.gd-close'))growDlg.close();
+});
+['pointerdown','wheel','touchstart'].forEach(t=>growDlg.addEventListener(t,ev=>ev.stopPropagation(),{passive:true}));
+document.addEventListener('click',ev=>{
+  const a=ev.target.closest&&ev.target.closest('a[href]');
+  if(!a||a.closest('#growDlg')||ev.metaKey||ev.ctrlKey||ev.shiftKey||ev.button)return;
+  if(!/^(\.\/|\/)?support(\.html)?$/.test(a.getAttribute('href')))return;
+  ev.preventDefault();
+  openGrowDialog();
+});
 window.addEventListener('resize',()=>{if(!growAsk.hidden)placeGrowAsk();});
 
+
+// Anonymous use counts (Privacy page, "Counting what is used"). Nothing that identifies a person is
+// made or sent: the browser keeps only the day and week of its last visit, and sends "new" or
+// "returning". A visit counts only after a real action, and never from an automated browser.
+const cftTally=(()=>{
+  const q=[]; let started=false, activeSec=0, lastAct=0;
+  const off=navigator.webdriver||!navigator.sendBeacon;
+  const flush=()=>{
+    if(activeSec>=15){q.push({t:'active',n:Math.round(activeSec)});activeSec=0;}
+    if(!q.length||off)return;
+    try{navigator.sendBeacon('/e',new Blob([JSON.stringify(q.splice(0,25))],{type:'text/plain'}));}catch(e){}
+    if(q.length)flush();
+  };
+  const push=e=>{if(!started||off)return;q.push(e);if(q.length>=20)flush();};
+  const dayOf=d=>d.toISOString().slice(0,10);
+  const weekOf=d=>{const t=new Date(Date.UTC(d.getFullYear(),d.getMonth(),d.getDate()));const day=t.getUTCDay()||7;t.setUTCDate(t.getUTCDate()+4-day);const y=new Date(Date.UTC(t.getUTCFullYear(),0,1));return t.getUTCFullYear()+'-W'+Math.ceil(((t-y)/864e5+1)/7);};
+  const source=()=>{
+    const p=new URLSearchParams(location.search).get('utm_source');
+    let h='';try{h=document.referrer?new URL(document.referrer).hostname:'';}catch(e){}
+    const s=(p||h).toLowerCase();
+    if(!s)return 'direct';
+    if(h===location.hostname)return 'internal';
+    if(/facebook|fb\.|^fb$/.test(s))return 'facebook';
+    if(/linkedin|lnkd/.test(s))return 'linkedin';
+    if(/google|bing|duckduckgo|yahoo|ecosia|brave|search/.test(s))return 'search';
+    if(/mail|outlook|email/.test(s))return 'email';
+    return 'other';
+  };
+  const device=()=>coarsePointer?(narrowScreen()?'phone':'tablet'):'computer';
+  const begin=()=>{
+    if(started||off)return; started=true;
+    const now=new Date(), day=dayOf(now), week=weekOf(now);
+    let seen=null; try{seen=JSON.parse(localStorage.getItem('cft-seen'));}catch(e){}
+    const firstToday=!seen||seen.day!==day, firstWeek=!seen||seen.week!==week;
+    try{localStorage.setItem('cft-seen',JSON.stringify({day,week}));}catch(e){}
+    q.push({t:'visit',a:seen&&seen.day!==day?'returning':seen?'same-day':'new',b:source(),c:device(),n:[1,firstToday?1:0,firstWeek?1:0]});
+  };
+  const act=()=>{lastAct=Date.now();begin();};
+  ['pointerdown','wheel','keydown','touchstart','scroll'].forEach(t=>window.addEventListener(t,act,{passive:true,capture:true}));
+  setInterval(()=>{if(started&&document.visibilityState==='visible'&&Date.now()-lastAct<60000)activeSec+=15;},15000);
+  setInterval(flush,30000);
+  document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden')flush();});
+  window.addEventListener('pagehide',flush);
+  const heard=new WeakMap(), MARKS=[[0,'start'],[.25,'25'],[.5,'50'],[.75,'75'],[.97,'end']];
+  const clip=a=>{const m=/audio\/([^/]+)\/(?:([^/]+)\/)?([^/?]+)\.mp3/.exec(a.currentSrc||a.src||'');return m?{a:m[1],b:(m[2]?m[2]+'/':'')+m[3]}:null;};
+  const listen=ev=>{
+    const a=ev.target; if(!(a instanceof HTMLMediaElement)||!a.duration||(a.paused&&ev.type!=='play'))return;
+    const c=clip(a); if(!c)return;
+    const done=heard.get(a)||0, frac=a.currentTime/a.duration;
+    let i=done; while(i<MARKS.length&&frac>=MARKS[i][0])i++;
+    for(let j=done;j<i;j++)push({t:'listen',a:c.a,b:c.b,c:MARKS[j][1]});
+    if(i>done)heard.set(a,i);
+  };
+  document.addEventListener('play',listen,true);
+  document.addEventListener('timeupdate',listen,true);
+  document.addEventListener('click',ev=>{const l=ev.target.closest&&ev.target.closest('a[href]');if(l&&/(^|\/)support(\.html)?$/.test(l.getAttribute('href')))push({t:'grow',a:'link'});},true);
+  return {
+    open(page){
+      const [kind,...rest]=String(page).split('/'), id=rest.join('/');
+      const k=kind==='tree'?(personById[id]?'person':councilById[id]?'council':'tradition'):kind==='voice'?'person':kind;
+      push({t:'open',a:k,b:id});
+    },
+    tour(kind,step,reached,of,done){push({t:'tour',a:kind,b:step,c:reached+'/'+of,n:done?1:0});},
+    layer(k){push({t:'layer',a:k});},
+    grow(){push({t:'grow',a:'shown'});},
+  };
+})();
 
 render();
 buildLegend();

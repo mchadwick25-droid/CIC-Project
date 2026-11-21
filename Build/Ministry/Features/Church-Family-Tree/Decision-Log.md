@@ -5062,6 +5062,23 @@ Mark: "lets do a full review of readiness to launch, we are not looking for perf
 
 Not fixed now, logged in Open-Gaps: the map's own copy of the data has older informal names for seven entries; the built-world cards' "coming soon" line; feedback depends on the Church in Conversation server.
 
+## 2026-11-21 — Measuring visits: Cloudflare's visit counts, then the tree's own anonymous counts, with returning visitors
+
+Mark: "i want to know how many people (real people and not computer scans or such) engage in this, how many open, time spent, what is opened etc." On the options: "a and b". On returning visitors: "yes count returning visitors". On the design: "yes build it".
+
+**Decided.** (A) Cloudflare Web Analytics on every tree page, once Mark sends the site token from the Cloudflare dashboard. (B) The map reports anonymous events to the tree's own worker (`/e`), which writes them to Workers Analytics Engine (dataset `cft_events`): a visit (new, same-day or returning; first today; first this week; source; device), a card opened, a recording played and how far, the tour started and ended, a layer turned on, minutes of real activity, the support note shown and its link followed. The browser keeps only the day and week of its last visit; nothing that stands for a person is made or sent. A visit counts only after a real action; automated browsers and bot agents send nothing.
+
+**Found on the way.** The Privacy page says the tree uses Cloudflare's cookie-free Web Analytics, but its token was never set, so no page carried it. Turning on (A) makes that true.
+
+## 2026-11-21 — Where traditions end: end marks when zoomed in, and the river says what is active
+
+Mark asked why The First Churches river runs on, empty, after the first era, chose "c" (review Christian Apocrypha's place in the record, Open-Gaps 346, and show where traditions end), then "1 and 3".
+
+**Done.** Once the map is close enough to read (`Z_READ`), a short tick crosses a river where each of its traditions ends, labeled "Name · to about 400"; traditions on one river ending in the same year share one mark ("Ebionites, Montanism, Novatianism · to about 400"). Traditions that reach the map's last year have none. A mark's name gives way to anything already placed. Hovering a river adds what is active under the pointer: "Active here, about 600: Christian Apocrypha (to about 900)". The marks dim with the People and Stories layers and hide with their river.
+
+## 2026-11-21 — Privacy page: the short update
+
+Mark: "privacy page, short update". The Privacy page gains "Counting what is used": the map counts which cards are opened, which recordings are played, and minutes in use, with nothing that could identify you; the browser keeps one small note of when you last visited, and clearing the browser's site data removes it.
 ## 2026-11-21 — Kit change order: reused quotes, fewer blind readings, hearts and lengths at one stop (Mark)
 
 **Why.** Three changes were drafted on the batch 8 slate page (https://claude.ai/artifact/FMwWhDffBwEV1XP82GVyGW, version 4, items 5 to 7), each with batch 7's record as evidence. First, Mark ruled on 2026-11-21 that "we can use quotes more than once if the influenced more that on tradition or person", and the kit's quote rule still barred every reuse. Second, all 59 of batch 7's blind second readings were of new quotations, so reading only new ones would save nothing. The 17 spans under six words took a full blind reading each, and both minor findings (Tertullian) came from spans of 15 words or more. Third, batch 7 stopped for Mark three times on the same five outlines: the hearts, the lengths, and the cut checks. Both length stops were counts of the words the outlines planned, which the hearts page could have shown.
@@ -5133,3 +5150,8 @@ Not fixed now, logged in Open-Gaps: the map's own copy of the data has older inf
 ## 2026-11-21 — Batch 8: the recording approved, with a cap (Mark)
 
 **Decided (Mark, 2026-11-21: "Approve, cap 24,500").** The twelve batch 8 stories, about 45,500 characters (about 22,100 credits at batch 7's rate), are recorded on batch 7's person settings: voice `onegjDE2z0mQtp1g0HK7`, model `eleven_v4`, `mp3_44100_64`, stability 0.95, similarity 0.68, style 0, speaker boost on, `[pause]` between paragraphs, the respellings. Francis of Assisi is recorded first for Mark's ear; the rest only after he hears it. The balance is checked before and after, and the run stops at 24,500 credits. Constantine is not re-recorded: his text did not change.
+## 2026-11-21 — "Help us grow" opens over the map
+
+Mark: "when the pop-up help us grow appears lets not have it take you to a new page you can't get back from easily, but put that page in a popup window they can close after reading and they never leave where they are", then "make sure they can see the map behind it, only cover some of the page".
+
+**Done.** Every "Help us grow" link on the map (the corner note, the line at the foot of each card, the header link and the phone menu) opens the support page's own text in a window over the map, read from `support.html`. A light backdrop keeps the map visible: a card of about 30rem by at most 62% of the screen height on a computer, a sheet from the bottom on a phone. It closes with ×, "Back to the map", Escape or a tap outside, and leaves the view and any open card as they were. The gift links open Stripe in a new tab. `support.html` stays as its own page for anyone who goes there directly.
