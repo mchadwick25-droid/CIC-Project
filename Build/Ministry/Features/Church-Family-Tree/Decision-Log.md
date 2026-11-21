@@ -5046,3 +5046,17 @@ Mark: "the river icon should match the double river icon on the toggle".
 3. Era 2 after this batch, major people first: batch 9, the Greek East and the Nicene century (with Gregory of Nazianzus and Gregory of Nyssa reviewed); batch 10, Antioch to Chalcedon and the edges of the empire (with John Chrysostom and Ephrem reviewed); then batches 11 to 13 by theme, as listed on the page.
 4. The barred quotes as the page reads them under the reuse ruling of 2026-11-21 ("A quote may be used in more than one story where its author influenced more than one tradition or person"): the bars it lifts and the bars that stay are listed in the batch README.
 5. The draft kit changes on the same page (items 5 to 7: the quote rule's wording, fewer blind second readings, one stop for hearts and lengths) are not approved by this; the batch runs on the current kit, with the reuse ruling applied as Mark's batch ruling.
+
+## 2026-11-21 — Batch 8 hearts approved, with the lengths (Mark)
+
+**Why.** The twelve hearts went to Mark on one page (https://claude.ai/artifact/CbAWmb2SPtW3cuvUv5zCoj, version 2; `Build/Ministry/Operations/Audits/2026-11-21_batch-8/Hearts.md`). Under the kit change of the same day, the page also gave each outline's planned length beside an independent count (`Length_Count.md`). Ten of the twelve counted over 675 words (4:30), Aquinas was tight at 653, and Bernard and Jerome fit. The page asked five questions.
+
+**Decided (Mark, 2026-11-21: "Approve as recommended").**
+1. The twelve hearts are approved as shown.
+2. Lengths: each researcher marks a cut-first list in the outline, in order, with every cut item moved to the card, and the writers write to about 4:30 at most (person about 675 words by the scorer), dropping from that list and not by their own choice. The reviewer checks that the heart and every disagreement the outline must credit survived. No second round of outline cuts.
+3. Francis of Assisi: his Testament's lines on the lepers, already printed in `the-franciscan-movement`'s documented stories, may open his story (Mark's reuse ruling of 2026-11-21).
+4. Teresa of Ávila: the story credits each account of how her Life reached the Inquisition. The tradition entry's version (the Inquisition took it and gave it to Báñez) goes to the census pass.
+5. Gregory Palamas: the link to Symeon the New Theologian is card only.
+6. Thomas Aquinas: the essence is the researcher's (the Summa states the case against each point and answers it; nothing true can be proved false), not the slate's "to show that faith and reason do not conflict".
+7. Jan Hus: "King Sigismund", not "the emperor".
+8. The outline checks begin once the researchers apply items 2 to 5.
