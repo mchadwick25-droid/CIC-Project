@@ -235,7 +235,9 @@ function checkQuotationOriginals(m, list, text, sources, at, where = "quotationO
     Object.keys(e).filter(k => !QUOTATION_ORIGINAL_KEYS.includes(k)).forEach(k => errs.push(`${at(`${p}.${k}`)} is not allowed (allowed: ${QUOTATION_ORIGINAL_KEYS.join(", ")})`));
     ["modern", "printed", "work", "file", "lines"].forEach(k => { if (!plain(e[k])) errs.push(`${at(`${p}.${k}`)} must be a non-empty string`); });
     if (e.uncertain !== undefined && !plain(e.uncertain)) errs.push(`${at(`${p}.uncertain`)} must be a non-empty string`);
-    if (!SECOND_READING_VERDICTS.has(e.secondReading)) errs.push(`${at(`${p}.secondReading`)} must be "same", "minor" or "changes meaning"`);
+    if (e.secondReading === CHECKED_AT_CARD) {
+      if (plain(e.modern) && fold(e.modern).split(" ").length >= BLIND_MIN_WORDS) errs.push(`${at(`${p}.secondReading`)} "checked at card" is only for a quotation under ${BLIND_MIN_WORDS} words; this one is read blind`);
+    } else if (!SECOND_READING_VERDICTS.has(e.secondReading)) errs.push(`${at(`${p}.secondReading`)} must be "same", "minor" or "changes meaning", or "checked at card" for a quotation under ${BLIND_MIN_WORDS} words`);
     if (plain(e.modern) && !quoted.includes(fold(e.modern))) errs.push(`${at(`${p}.modern`)} "${e.modern.slice(0, 40)}" is not a quotation in the brief`);
     for (const [w, f, l] of QUOTATION_COMPANIONS) {
       const given = [w, f, l].filter(k => e[k] !== undefined);
@@ -395,6 +397,10 @@ function proseOf(x, out = []) {
 // that file and a language. Each also records its second, independent rendering (Decision-Log 2026-11-16, "Renderings
 // made at the point of use and checked twice"): the record that holds it and the verdict of the comparison.
 const SECOND_READING_VERDICTS = new Set(["same", "minor", "changes meaning"]);
+// A card quotation under six words is not read blind; the card checker checks it against its original and print, and
+// it carries "checked at card" (Decision-Log 2026-11-21, "Kit change order: reused quotes, fewer blind readings").
+const CHECKED_AT_CARD = "checked at card";
+const BLIND_MIN_WORDS = 6;
 const renderings = new Map();
 const lineCounts = new Map();
 function lineCount(file) {
