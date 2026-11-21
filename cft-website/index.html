@@ -426,6 +426,22 @@ svg.strip-on #era-labels{display:none}
 #tourBox[hidden]{display:none}
 #growAsk{position:fixed;z-index:70;right:calc(var(--grow-right,0px) + 1rem + env(safe-area-inset-right,0px));bottom:calc(var(--grow-lift,0px) + 1rem + env(safe-area-inset-bottom,0px));width:min(19rem,calc(100vw - 2rem));box-sizing:border-box;background:var(--vellum);color:var(--iron-gall);border:1px solid var(--gold-leaf);border-radius:12px;box-shadow:0 8px 28px rgba(0,0,0,.45);padding:.9rem 2.6rem .9rem 1.1rem;font-family:"Alegreya Sans",sans-serif;animation:growIn .35s ease-out}
 #growAsk[hidden]{display:none}
+#growDlg{width:min(30rem,calc(100vw - 2rem));max-height:min(62dvh,36rem);box-sizing:border-box;padding:0;border:1px solid var(--gold-leaf);border-radius:12px;background:var(--vellum);color:var(--iron-gall);box-shadow:0 12px 40px rgba(0,0,0,.55)}
+#growDlg::backdrop{background:rgba(0,0,0,.18)}
+@media (max-width:640px){#growDlg{width:100vw;max-width:100vw;margin:auto 0 0;border-radius:16px 16px 0 0;max-height:62dvh}#growDlg .gd-in{max-height:62dvh;padding-bottom:calc(1.4rem + env(safe-area-inset-bottom,0px))}}
+#growDlg .gd-in{position:relative;max-height:min(62dvh,36rem);overflow:auto;padding:1.2rem 1.4rem 1.4rem;box-sizing:border-box;font:1rem/1.55 "Alegreya Sans",sans-serif}
+#growDlg .gd-x{position:sticky;top:0;float:right;margin:-.6rem -.8rem 0 0;min-width:44px;min-height:44px;border:0;background:var(--vellum);color:var(--ink-faded);font-size:1.5rem;line-height:1;cursor:pointer;border-radius:999px}
+#growDlg h1{font:700 1.6rem/1.2 "Alegreya",serif;margin:0 0 .6rem}
+#growDlg h2{font:700 1.15rem/1.25 "Alegreya",serif;margin:1.2rem 0 .4rem}
+#growDlg p{margin:0 0 .7rem}
+#growDlg ul{margin:0 0 .7rem;padding-left:1.2rem}
+#growDlg li{margin:.2rem 0}
+#growDlg a{color:var(--madder)}
+#growDlg .give{display:flex;flex-wrap:wrap;gap:.6rem;margin:.9rem 0}
+#growDlg .give a{display:inline-flex;align-items:center;min-height:44px;padding:0 1.2rem;border-radius:999px;border:1px solid var(--gold-leaf);background:var(--tyrian-wash);color:var(--gold-leaf);font-weight:700;text-decoration:none}
+#growDlg .gd-done{display:flex;justify-content:flex-end;margin-top:.6rem}
+#growDlg .gd-done button{min-height:44px;padding:0 1.2rem;border-radius:999px;border:1px solid var(--rule);background:none;color:var(--iron-gall);font:700 .95rem "Alegreya Sans",sans-serif;cursor:pointer}
+#growDlg a:focus-visible,#growDlg button:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
 #growAsk .ga-t{font:700 1.1rem/1.25 "Alegreya",serif;margin:0 0 .25rem}
 #growAsk .ga-b{margin:0 0 .75rem;font-size:1rem;line-height:1.4}
 #growAsk .ga-btns{display:flex;gap:.5rem;flex-wrap:wrap}
@@ -608,6 +624,7 @@ svg.strip-on #era-labels{display:none}
 <div id="barToast" aria-hidden="true"></div>
 <div id="tourRing" hidden></div>
 <aside id="growAsk" role="complementary" aria-labelledby="growTitle" aria-live="polite" hidden><button type="button" class="ga-x" aria-label="Not now">&times;</button><p id="growTitle" class="ga-t">Glad you&rsquo;re exploring.</p><p class="ga-b">If the map is useful to you, you can help it grow.</p><div class="ga-btns"><a class="ga-help" href="support.html">Help us grow</a><button type="button" class="ga-later">Not now</button></div></aside>
+<dialog id="growDlg" aria-labelledby="growDlgTitle"><div class="gd-in"><button type="button" class="gd-x" aria-label="Close">&times;</button><div class="gd-body"><h1 id="growDlgTitle">Help us grow</h1><p>Loading…</p></div><div class="gd-done"><button type="button" class="gd-close">Back to the map</button></div></div></dialog>
 <div id="tourBox" role="dialog" aria-modal="false" aria-labelledby="tourCount tourTitle" aria-describedby="tourText" hidden><p class="tb-count" id="tourCount"></p><h2 id="tourTitle" tabindex="-1"></h2><p id="tourText"></p><div class="tb-btns"><button type="button" class="tb-back">Back</button><button type="button" class="tb-next">Next</button></div><button type="button" class="tb-stop" aria-label="Stop the tour">&times;</button></div>
 <div id="listenBar" role="region" aria-label="Narration" hidden><button type="button" class="lb-play">Pause</button><span class="lb-text"><span class="lb-wide">Listening: </span><span class="lb-name"></span></span><button type="button" class="lb-open" aria-label="Open the card">Open<span class="lb-wide"> the card</span></button><button type="button" class="lb-stop" aria-label="Stop listening">&times;</button></div>
 <div id="zoomHint">Scroll to move &middot; Ctrl + scroll to zoom</div>
@@ -130626,11 +130643,41 @@ if(!grow.helped)growTimer=setInterval(()=>{
 },5000);
 growAsk.addEventListener('click',ev=>{
   ev.stopPropagation();
-  if(ev.target.closest('.ga-help'))hideGrowAsk(true);
+  if(ev.target.closest('.ga-help')){ev.preventDefault();hideGrowAsk(true);openGrowDialog();}
   else if(ev.target.closest('.ga-later,.ga-x'))hideGrowAsk(false);
 });
 growAsk.addEventListener('keydown',ev=>{if(ev.key==='Escape'){ev.preventDefault();hideGrowAsk(false);}});
 ['pointerdown','wheel','touchstart'].forEach(t=>growAsk.addEventListener(t,ev=>ev.stopPropagation(),{passive:true}));
+
+// "Help us grow" opens over the map, from every link to it here, so a reader never leaves their place.
+// The page's own text is read from support.html; the gift links open in a new tab.
+const growDlg=document.getElementById('growDlg');
+let growLoaded=null;
+function openGrowDialog(){
+  const body=growDlg.querySelector('.gd-body');
+  if(!growLoaded)growLoaded=fetch('support.html').then(r=>r.ok?r.text():Promise.reject()).then(html=>{
+    const main=new DOMParser().parseFromString(html,'text/html').querySelector('main');
+    if(!main)throw new Error('no main');
+    main.querySelectorAll('a[href]').forEach(a=>{if(/^https?:/.test(a.getAttribute('href'))){a.target='_blank';a.rel='noopener';}});
+    const h=main.querySelector('h1'); if(h)h.id='growDlgTitle';
+    body.innerHTML=main.innerHTML;
+  }).catch(()=>{growLoaded=null;body.innerHTML='<h1 id="growDlgTitle">Help us grow</h1><p>This page did not load. <a href="support.html">Open it on its own</a>.</p>';});
+  hideTip();
+  if(!growDlg.open){try{growDlg.showModal();}catch(e){growDlg.setAttribute('open','');}}
+  growDlg.querySelector('.gd-in').scrollTop=0;
+  growDlg.querySelector('.gd-x').focus();
+}
+growDlg.addEventListener('click',ev=>{
+  if(ev.target===growDlg||ev.target.closest('.gd-x,.gd-close'))growDlg.close();
+});
+['pointerdown','wheel','touchstart'].forEach(t=>growDlg.addEventListener(t,ev=>ev.stopPropagation(),{passive:true}));
+document.addEventListener('click',ev=>{
+  const a=ev.target.closest&&ev.target.closest('a[href]');
+  if(!a||a.closest('#growDlg')||ev.metaKey||ev.ctrlKey||ev.shiftKey||ev.button)return;
+  if(!/^(\.\/|\/)?support(\.html)?$/.test(a.getAttribute('href')))return;
+  ev.preventDefault();
+  openGrowDialog();
+});
 window.addEventListener('resize',()=>{if(!growAsk.hidden)placeGrowAsk();});
 
 
