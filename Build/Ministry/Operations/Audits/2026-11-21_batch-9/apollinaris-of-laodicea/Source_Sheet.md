@@ -87,6 +87,7 @@ Confidence: Julian's ban and their response, Documented (both historians). Which
 - Theodoret, THDT 15446-15457 (V.3; later, about 70 years; hostile): "Besides these Apollinarius of Laodicea constituted himself leader of a third party, and though he assumed a mask of piety, and appeared to defend apostolic doctrines, he was soon seen to be an open foe. ... affirmed that the reasonable soul, which is entrusted with the guidance of the body, was deprived of the salvation effected. For according to his argument God the Word did not assume this soul". And THDT 15470-15473 on his wavering about the flesh: "At one time even he was ready to confess that of the Holy Virgin the flesh had been taken, at another time he represented it to have come down from heaven with God the Word".
 - Editor's caution on Gregory's account: GNAZ 44443-44448 (Browne and Swallow, editors, citing Ullman): Gregory "perhaps unconsciously, exaggerated the heretical character of its contents, pushing its statements to consequences which Apollinarius would have repudiated." Editor's view.
 - Editor Lietzmann's summary of his aim: LIETZ 915-935 (two theories in turn; the second "lässt den logos nur die stelle des νοῦς ... einnehmen"). Editor.
+- Rufinus, RUF 30635-30646 (Church History 11.20, about 402; contemporary, hostile): first no soul, then a soul without its reasoning part, 'ad supplementum vero rationabilis partis ipsum verbum dei fuisse perhibebat'. Documented. Socrates's two stages follow Rufinus.
 Confidence for the core teaching (the Word in the place of the mind): Widely Accepted (his own fragment, Socrates, Gregory, Theodoret).
 
 **E6. Gregory of Nazianzus's answer (sibling's text: a clause here, credited to Gregory).**
@@ -116,12 +117,14 @@ JER-L 18976-18979: "Apollinaris is the author of a most weighty book against Por
 - Sozomen, SOZ-ENG 39030-39039: "Damasus, bishop of Rome, and Peter, bishop of Alexandria, were the first to learn that the heresy was creeping among the people, and at a council held at Rome they voted it to be foreign to the Catholic Church." Documented.
 - Damasus's letter, kept by Theodoret, THDT 16094-16096 and 16117-16120 (V.10; contemporary document): "Know then that we have condemned Timotheus, the unhallowed, the disciple of Apollinarius the heretic" ... "Here, by the judgment of the apostolic see, in the presence of Peter, bishop of Alexandria, he was condemned, together with his teacher, Apollinarius". Documented.
 - Date: Hartranft's note SOZ-ENG 39033-39035 (editor): "Held a.d. 377 (Rade), 374 (Hefele)." LIETZ 560: "377 ... mitte: Apollinaris und Timotheus in gegenwart des Petrus v. Alex. in Rom verdammt" (editor). Contested (377 or 374); Lietzmann's 377 is the reconstruction the card uses.
+- Rufinus, RUF 30646-30653: condemned first at Rome by Damasus and Peter of Alexandria in council, confirmed at Alexandria and at Constantinople; from then the Apollinarians kept their own bishops, teaching and churches. Documented.
 
 **E11. Antioch, 381: an imperial officer, Flavian's challenge.** THDT 15485-15506 (V.3). The officer Sapor came with the emperor's edict; Apollinaris claimed to side with Damasus; Flavian challenged him: "you deprive our intelligence of its salvation". Date 381: LIETZ 3474-3481 (editor). Documented (Theodoret). Leave out (length).
 
 **E12. Condemned at Constantinople in 381.**
 COUNC 13970-13976 (canon 1 of 381): "every heresy shall be anathematized, particularly that of the Eunomians ... and that of the Photinians, and that of the Apollinarians." Documented. The canon's words are barred as a quote (slate); tell it in the narrator's words.
 The bishops' letter of 382, THDT 16060-16063 (V.9): they "openly condemned the innovation of Apollinarius in the phrase, 'And we preserve the doctrine of the incarnation of the Lord, holding the tradition that the dispensation of the flesh is neither soulless, nor mindless, nor imperfect.'" Documented. A council's text: not quoted.
+- Rufinus, RUF 30646-30653: condemned first at Rome by Damasus and Peter of Alexandria in council, confirmed at Alexandria and at Constantinople; from then the Apollinarians kept their own bishops, teaching and churches. Documented.
 
 **E13. Imperial laws against his followers.**
 CTH 7075-7080 and 7125-7126 (Theodosian Code XVI.5.12-14 and 33; contemporary laws). Documented.
@@ -209,7 +212,7 @@ Latin original of the Commonitorium not held.
 
 **Count.** 423 files in `cic/texts/` match one of the name forms. Most are other men of the name (Sidonius Apollinaris, Apollinaris of Hierapolis, Apollinaris of Valence, Apollinaris of Alexandria, Apolinario de la Cruz) or a passing "Apollinarians" in a list of heresies.
 
-**Used.** SOC-ENG and SOZ-ENG; SOZ-GRC; THDT (Theodoret and Jerome's Lives); JER-L; JER-CHRON; GNAZ; BAS; ATH; LIETZ; NYSSA-PG45; EPIPH-PG42; PHIL; VINC; CTH; COUNC; HEF3; PUSEY; MANSI8; Augustine's Confessions (npnf101).
+**Used.** SOC-ENG and SOZ-ENG; SOZ-GRC; THDT (Theodoret and Jerome's Lives); JER-L; JER-CHRON; GNAZ; BAS; ATH; LIETZ; NYSSA-PG45; EPIPH-PG42; PHIL; VINC; CTH; COUNC; HEF3; PUSEY; MANSI8; Augustine's Confessions (npnf101); RUF (`eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt`, Rufinus, Church History 11.20, Latin).
 
 **Set aside, and why.**
 - `socrates_historia-ecclesiastica-tomus1/2-grc-lat_hussey1853.txt`: Socrates's Greek; no Socrates line is quoted, so the English suffices.
@@ -221,6 +224,5 @@ Latin original of the Commonitorium not held.
 - Codex Theodosianus parallels (`theodosianus-16_mommsen-meyer1905.txt`, `boyd_ecclesiastical-edicts-theodosian-code_1905.txt`): same laws; CTH used.
 - `npnf210_ambrose`, `npnf212_leo-great-gregory-great`, Augustine's other works: the name in lists of heresies.
 - `philostorgius` Book VIII chapters 11-15 (PHIL 314-322, Photius's hostile summary): Photius's epitome of the same praise, and a report that he wrote against Eunomius; set aside for the fragment at PHIL 472.
-- Rufinus's Church History II.20 (cited by Hartranft): not held in English or Latin in the Library.
 - Epiphanius's Panarion 77 beyond 77.2: damaged OCR; Lietzmann's study used for what it reports.
 - Not held: Gregory of Nyssa's Antirrheticus in English; Leontius of Byzantium's "Against the Frauds of the Apollinarians" (known here only through Lietzmann and Pusey); Cyril's "On the True Faith, to the Princesses"; the Latin Commonitorium.
