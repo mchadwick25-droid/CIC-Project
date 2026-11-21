@@ -5121,3 +5121,11 @@ Not fixed now, logged in Open-Gaps: the map's own copy of the data has older inf
 1. Bernard of Clairvaux: Nivard's reply is told in the narrator's words, without quotation marks, and its card entry goes. William's Latin is held only in a damaged scan, Alan's Life tells a different speech, and no English of either Life is held.
 2. Catherine of Siena: the quotation marks come off "with her leading him", and its card entry goes. Raymond's Latin is held only in a damaged scan with no second print.
 3. Gregory Palamas: a scan's χ read as κ counts as a letter form, as θ and ϑ do under the batch 6 ruling, so his two Greek quotations stand with those readings listed. The two held editions agree on every word of the second.
+
+## 2026-11-21 — Batches run in two halves, and a session near compaction hands over (Mark)
+
+**Why.** Batch 8 used about 20 percent of the week's allowance in its first eight hours, and its coordinating session neared its context limit before release (`Build/Ministry/Operations/Audits/2026-11-21_batch-8/Ledger.md`).
+
+**Decided (Mark, 2026-11-21, to the batch coordinator in chat, relayed to the batch 8 session: "approve both as recommended").**
+1. From the next batch on, a batch runs as two halves of about six stories, each half in a fresh session, with one slate, one hearts page and one release for the whole batch.
+2. A batch session near compaction hands over to a fresh session from its files: the batch README carries each story's step, the open items, every ruling and the ledger so far.
