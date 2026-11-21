@@ -46,7 +46,7 @@ Researcher's sheet for batch 8 (2026-11-21). The job (Mark's, 2026-11-21): the s
 
 **S5. The tradition.** CEN `hieronymian-ascetic-literary`: informalName "The Bethlehem Circle"; dates "c. 382–420 CE"; its `why`: "A circle of wealthy Roman women funded and led a community at Bethlehem where Jerome translated the Bible into Latin". Spoken name: **the Bethlehem Circle**. CEN `jerome`: `why` "Jerome put the Old Testament into Latin from the Hebrew at Bethlehem, in the work later called the Vulgate."
 
-**S6. What the churches read before him.** OWN, preface to the Gospels (the passage after the forger lines; JW 46656–46660): "I am not discussing the Old Testament, which was turned into Greek by the Seventy elders, and […] has reached us by a descent of three steps." JW-ed note 5387: "That is, after being translated from Hebrew into Greek, and from Greek into Latin." Augustine, *City of God* XVIII.43 (CIV 36728–36731): "From this translation [the Septuagint] there has also been made a translation in the Latin tongue, which the Latin churches use." Documented.
+**S6. What the churches read before him.** OWN, preface to the Gospels (the passage after the forger lines; JW 46656–46660): "I am not discussing the Old Testament, which was turned into Greek by the Seventy elders, and […] has reached us by a descent of three steps." JW-ed note 5387: "That is, after being translated from Hebrew into Greek, and from Greek into Latin." Augustine, *City of God* XVIII.43 (CIV 36728–36731): "From this translation [the Septuagint: researcher's gloss] there has also been made a translation in the Latin tongue, which the Latin churches use." Documented.
 
 ---
 
