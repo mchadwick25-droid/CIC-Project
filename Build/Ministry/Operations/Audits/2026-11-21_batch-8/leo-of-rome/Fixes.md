@@ -36,3 +36,7 @@ Applied to `Outline.md` and `Source_Sheet.md` from `Outline_Check.md`. Line numb
 ## Not applied
 
 None. Left as they were, because no finding names them: the Sibling field's "as the reason Prosper is close to Leo" (Outline 52), and the Length field's "Prosper with his tie to Leo" (Outline 12). Both now sit against B3's new Do not say line, and the independent check may want to look at them.
+
+## Recheck fixes
+
+Applied word for word as `Recheck.md` gives them (no new wording).

@@ -38,3 +38,7 @@ Applied from `Outline_Check.md` (batch 8, 2026-11-21). Line numbers are the file
 None.
 
 Left as it was, not asked for by the check: the Setting's "the Life, 1562 to about 1565 (E13, D4)" (O 22), a date list rather than spoken wording; and the sheet's S1 "a walled city" plain-words note.
+
+## Recheck fixes
+
+Applied word for word as `Recheck.md` gives them (no new wording).

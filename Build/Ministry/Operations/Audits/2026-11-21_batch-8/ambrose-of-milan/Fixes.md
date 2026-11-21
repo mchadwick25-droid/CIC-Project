@@ -33,3 +33,7 @@ Applied to `Outline.md` and `Source_Sheet.md` from `Outline_Check.md`. Line numb
 ## Not applied
 
 - **M7, the optional beat 2 clause** ("a law in the boy emperor's name had just given the court's party the right to meet for worship"). It is optional, and the law runs in the names of all three emperors, not the boy emperor's alone: "Imppp. valentinianus, theodosius et arcadius aaa." (`codex-theodosianus_latinlibrary.txt` 6889). The law stays on the card through D2.
+
+## Recheck fixes
+
+Applied word for word as `Recheck.md` gives them (no new wording).
