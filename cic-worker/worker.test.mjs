@@ -259,3 +259,44 @@ test('tree site: with no TREE_ORIGIN nothing redirects', async () => {
   const res = await worker.fetch(get('/tree/donatism'), env);
   assert.equal(res.status, 200);
 });
+
+function eventsEnv() {
+  const points = [];
+  return { points, env: { ...envWith({}), EVENTS: { writeDataPoint: (p) => points.push(p) } } };
+}
+const post = (body, headers = {}) => new Request('https://example.test/e', { method: 'POST', body, headers: { 'User-Agent': 'Mozilla/5.0 (iPhone)', ...headers } });
+
+test('events: listed types are written as short anonymous points; others are dropped', async () => {
+  const { points, env } = eventsEnv();
+  const body = JSON.stringify([
+    { t: 'visit', a: 'returning', b: 'facebook', c: 'phone', n: [1, 1, 0] },
+    { t: 'open', a: 'tradition', b: 'desert-monasticism' },
+    { t: 'listen', a: 'tree', b: 'tertullian-s-voice', c: '50' },
+    { t: 'ip', a: '1.2.3.4' },
+    { t: 'open', a: '<script>', b: 'x'.repeat(500) },
+  ]);
+  const res = await worker.fetch(post(body), env);
+  assert.equal(res.status, 204);
+  assert.equal(points.length, 4);
+  assert.deepEqual(points[0], { indexes: ['visit'], blobs: ['visit', 'returning', 'facebook', 'phone'], doubles: [1, 1, 0] });
+  assert.equal(points[3].blobs[1], 'script');
+  assert.equal(points[3].blobs[2].length, 120);
+  assert.equal(env.ASSETS.calls.length, 0);
+});
+
+test('events: bots, wrong methods, oversized bodies and a site without the binding write nothing', async () => {
+  const { points, env } = eventsEnv();
+  const one = JSON.stringify([{ t: 'open', a: 'tradition', b: 'x' }]);
+  assert.equal((await worker.fetch(post(one, { 'User-Agent': 'facebookexternalhit/1.1' }), env)).status, 204);
+  assert.equal((await worker.fetch(get('/e'), env)).status, 405);
+  assert.equal((await worker.fetch(post('[' + '{"t":"open"},'.repeat(1000) + '{}]'), env)).status, 413);
+  assert.equal((await worker.fetch(post('not json'), env)).status, 204);
+  assert.equal((await worker.fetch(post(one), envWith({}))).status, 204);
+  assert.equal(points.length, 0);
+});
+
+test('events: at most 25 events from one request', async () => {
+  const { points, env } = eventsEnv();
+  await worker.fetch(post(JSON.stringify(Array.from({ length: 40 }, () => ({ t: 'layer', a: 'people' })))), env);
+  assert.equal(points.length, 25);
+});

@@ -103,9 +103,44 @@ export async function treeRedirect(url, env) {
 
 export function resetRenamesForTests() { renamesPromise = null; }
 
+// Anonymous use counts from the Church Family Tree map, written to Workers Analytics Engine
+// (binding EVENTS, set only in wrangler.cft.jsonc). The map sends only these event types and
+// short fields: no identity, no typed text, no address. Bots and link previews are dropped.
+export const EVENT_TYPES = new Set(['visit', 'open', 'listen', 'tour', 'layer', 'active', 'grow']);
+const BOT_AGENT = /bot|crawl|spider|slurp|preview|facebookexternalhit|headless|lighthouse|python|curl|wget|httpclient/i;
+const MAX_BODY = 8192;
+const MAX_EVENTS = 25;
+const field = (v, n) => (typeof v === 'string' ? v.replace(/[^\w .:/-]/g, '').slice(0, n) : '');
+const number = (v) => (Number.isFinite(v) && v >= 0 && v <= 86400 ? v : 0);
+
+export function eventPoints(text) {
+  let list;
+  try { list = JSON.parse(text); } catch { return []; }
+  if (!Array.isArray(list)) return [];
+  return list.slice(0, MAX_EVENTS)
+    .filter((e) => e && typeof e === 'object' && EVENT_TYPES.has(e.t))
+    .map((e) => ({
+      indexes: [e.t],
+      blobs: [e.t, field(e.a, 40), field(e.b, 120), field(e.c, 40)],
+      doubles: (Array.isArray(e.n) ? e.n : [e.n]).slice(0, 3).map(number),
+    }));
+}
+
+export async function countEvents(request, env) {
+  const done = new Response(null, { status: 204, headers: BASELINE_HEADERS });
+  if (request.method !== 'POST') return new Response(null, { status: 405, headers: { ...BASELINE_HEADERS, Allow: 'POST' } });
+  if (!env.EVENTS || BOT_AGENT.test(request.headers.get('User-Agent') || '')) return done;
+  if (Number(request.headers.get('Content-Length') || 0) > MAX_BODY) return new Response(null, { status: 413, headers: BASELINE_HEADERS });
+  const text = await request.text();
+  if (text.length > MAX_BODY) return new Response(null, { status: 413, headers: BASELINE_HEADERS });
+  for (const point of eventPoints(text)) env.EVENTS.writeDataPoint(point);
+  return done;
+}
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
+    if (url.pathname === '/e') return countEvents(request, env);
     const isRead = request.method === 'GET' || request.method === 'HEAD';
     const moved = await treeRedirect(url, env);
     if (moved) return moved;

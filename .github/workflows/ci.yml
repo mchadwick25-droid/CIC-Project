@@ -427,6 +427,20 @@ jobs:
           python-version: "3.11"
       - run: python tools/check_paths.py --baseline tools/check_paths_baseline.txt
 
+  # The Church Family Tree logs merge with merge=union (.gitattributes), so
+  # two branches that append at once never conflict. This catches the one case
+  # the merge cannot: both took the same next entry number.
+  log-numbers:
+    name: Open-Gaps entry numbers are unique
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python tools/check_open_gaps_numbers.py
+
   # Commentary in a live or canonical surface (CLAUDE.md, "Keep the
   # live/canonical surfaces clean"). On a pull request the check is blocking
   # and scoped to the files the PR adds or edits: a PR that edits a live file

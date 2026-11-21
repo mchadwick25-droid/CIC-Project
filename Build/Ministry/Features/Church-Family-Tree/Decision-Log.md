@@ -5029,3 +5029,68 @@ Mark: "the river icon should match the double river icon on the toggle".
 ## 2026-11-21 — Batch 7: the recording approved, with a cap (Mark)
 
 **Decided (Mark, 2026-11-21: "Approve, cap 24,500 (Recommended)").** The thirteen batch 7 stories, about 44,900 characters (about 22,600 credits at batch 6's rate), are recorded once the second readings are done. The twelve people on batch 6's printed settings: person voice `onegjDE2z0mQtp1g0HK7`, model `eleven_v4`, `mp3_44100_64`, stability 0.95, similarity 0.68, style 0, speaker boost on, `[pause]` between paragraphs, the respellings. The councils of 251 in the council voice, Daniel (`onwK4e9ZLuTAKqWW03F9`, `eleven_multilingual_v2`, the same settings), as Nicaea was recorded in batch 4. Tertullian is recorded first for Mark's ear; the rest only after he hears it. The balance is checked before and after, and the run stops at 24,500 credits. Origen's and Methodius's old recordings are replaced, since their texts changed.
+
+## 2026-11-21 — The append-only logs merge without conflicts (Mark approved)
+
+Two threads that each append to the Decision-Log or the Open-Gaps list used to conflict, because both edits land at the end of the file. Recent history shows the Decision-Log conflicted six times and the Open-Gaps list four times; no other log did. `.gitattributes` now sets `merge=union` on those two files only, so a local merge of `main` into a branch keeps both sides' lines and stops.
+
+The limits, plainly:
+- The rule works in a local `git merge origin/main`, which is how sessions merge before they push. GitHub's own mergeability check and its web conflict editor ignore it, so a pull request can still show a conflict on github.com. Merge `main` in locally and push; the push clears the banner.
+- Union keeps ours first, then theirs, so two entries added at once may sit in either order. Two Open-Gaps entries can also take the same number. `tools/check_open_gaps_numbers.py` runs in CI and fails on a repeated number; the newer entry is renumbered.
+- Union never raises a conflict, even where two threads edit the same line. It then keeps both versions. A reader of the merge diff has to look at it.
+- Not applied to the other logs, none of which conflicted. If one does, add its path to `.gitattributes`.
+## 2026-11-21 — Search wording: the home title, descriptions and About page describe the tree as it is now
+
+Mark, before submitting the site to Google and Bing: "we need to update the information on the site and search words for the system we are building not what it was". On the count: "these are not seperate, i would say something like 350 church traditions and their counsils, people and stories that shaped them, maybe include the connections". On the title: "yes use that title".
+
+**Done.**
+- Home page title: "Church Family Tree — An Interactive Map of Church History" (was "Church Family Tree — Church in Conversation"). Description, and the share preview's: "A free map of church history: 350 church traditions, the councils, people and stories that shaped them, and how they connect. Explore and listen as you go."
+- A hidden schema.org block on the home page names the site (Church Family Tree) and its maker (Faithways Studio, Inc.) for search results.
+- About page (`Build/tools/tree_site_pages.json`, generated): the tree as traditions with the councils, people and stories that shaped them, and their connections, in place of "620 movements" (the 620 were every census entry: 350 traditions, 251 people, 12 councils, 7 cross-church movements). A new "Listen as you explore" section. Traditions, rivers, eras and fully told traditions are counted from the census at build time, not typed.
+- Descriptions added for About, Privacy and Help us grow.
+- Left as they are: the Method and Data pages still count "movements", because they describe the data file, whose entries are called movements.
+
+## 2026-11-21 — Launch readiness: four fixes before the announcement
+
+Mark: "lets do a full review of readiness to launch, we are not looking for perfection or completion, just a great experience that people can trust", then "yes do 1 to 4".
+
+**Done.**
+1. Addresses for search: each tree page, site page, the license page and the home page name their own address (`rel="canonical"`), and the sitemap lists the final addresses (the seven site pages had ".html" addresses that redirect). Tree pages' share picture is now the tree's own title card, not Church in Conversation's.
+2. First view on a screen narrower than the map (phones, small tablets): the map opens at the start of the story, with the First Churches river and the labels beside it whole, in place of the middle of the map with both edges cut off. Reset view goes to the same place. Wide screens are unchanged.
+3. Every card on the map ends with "Checked with AI tools. No scholar or church partner has reviewed it yet. How the tree is made", the same statement the tree pages carry.
+4. A page for a missing address (`404.html`, served by `not_found_handling` in `wrangler.cft.jsonc`), where a blank page showed before.
+
+Not fixed now, logged in Open-Gaps: the map's own copy of the data has older informal names for seven entries; the built-world cards' "coming soon" line; feedback depends on the Church in Conversation server.
+
+## 2026-11-21 — Measuring visits: Cloudflare's visit counts, then the tree's own anonymous counts, with returning visitors
+
+Mark: "i want to know how many people (real people and not computer scans or such) engage in this, how many open, time spent, what is opened etc." On the options: "a and b". On returning visitors: "yes count returning visitors". On the design: "yes build it".
+
+**Decided.** (A) Cloudflare Web Analytics on every tree page, once Mark sends the site token from the Cloudflare dashboard. (B) The map reports anonymous events to the tree's own worker (`/e`), which writes them to Workers Analytics Engine (dataset `cft_events`): a visit (new, same-day or returning; first today; first this week; source; device), a card opened, a recording played and how far, the tour started and ended, a layer turned on, minutes of real activity, the support note shown and its link followed. The browser keeps only the day and week of its last visit; nothing that stands for a person is made or sent. A visit counts only after a real action; automated browsers and bot agents send nothing.
+
+**Found on the way.** The Privacy page says the tree uses Cloudflare's cookie-free Web Analytics, but its token was never set, so no page carried it. Turning on (A) makes that true.
+
+## 2026-11-21 — Where traditions end: end marks when zoomed in, and the river says what is active
+
+Mark asked why The First Churches river runs on, empty, after the first era, chose "c" (review Christian Apocrypha's place in the record, Open-Gaps 346, and show where traditions end), then "1 and 3".
+
+**Done.** Once the map is close enough to read (`Z_READ`), a short tick crosses a river where each of its traditions ends, labeled "Name · to about 400"; traditions on one river ending in the same year share one mark ("Ebionites, Montanism, Novatianism · to about 400"). Traditions that reach the map's last year have none. A mark's name gives way to anything already placed. Hovering a river adds what is active under the pointer: "Active here, about 600: Christian Apocrypha (to about 900)". The marks dim with the People and Stories layers and hide with their river.
+
+## 2026-11-21 — Privacy page: the short update
+
+Mark: "privacy page, short update". The Privacy page gains "Counting what is used": the map counts which cards are opened, which recordings are played, and minutes in use, with nothing that could identify you; the browser keeps one small note of when you last visited, and clearing the browser's site data removes it.
+## 2026-11-21 — Kit change order: reused quotes, fewer blind readings, hearts and lengths at one stop (Mark)
+
+**Why.** Three changes were drafted on the batch 8 slate page (https://claude.ai/artifact/FMwWhDffBwEV1XP82GVyGW, version 4, items 5 to 7), each with batch 7's record as evidence. First, Mark ruled on 2026-11-21 that "we can use quotes more than once if the influenced more that on tradition or person", and the kit's quote rule still barred every reuse. Second, all 59 of batch 7's blind second readings were of new quotations, so reading only new ones would save nothing. The 17 spans under six words took a full blind reading each, and both minor findings (Tertullian) came from spans of 15 words or more. Third, batch 7 stopped for Mark three times on the same five outlines: the hearts, the lengths, and the cut checks. Both length stops were counts of the words the outlines planned, which the hearts page could have shown.
+
+**Decided (Mark, 2026-11-21, to the batch coordinator in chat, relayed to the batch 8 session: "approve both as recommended", for items 6 and 7; then "approve the quote rule wording", for item 5).** Item 1 below puts into the kit Mark's ruling of the same day, "we can use quotes more than once if the influenced more that on tradition or person".
+1. **Reused quotes.** Kit Part 3, Quotes: "A quote another story on the tree already uses may be used again only where its author or subject touched both people or traditions, and it does a new job here, never the same event told the same way. The slate lists each reuse." Part 4, step 4: "A shared quote the slate did not list, or a variant spelling, is fixed before review." `roles/researcher.md` and `roles/checker.md` (item 6) follow. `tools/check_tree_overlap.py --allow <file>` reads the slate's reuses, one `<slug>: <quote>` per line, reports each as ALLOWED REUSE, and still fails on any other shared quote.
+2. **Fewer blind readings.** Kit Part 4, step 7: a span of six words or more is read blind, as before. A shorter span is checked by the card checker against its original and print, and its card entry carries `"checked at card"`. `roles/card.md` follows. `tools/list_second_readings.py` lists the short spans as CHECK AT CARD. `tools/validate-census.mjs` accepts `"checked at card"` only for a quotation under six words, with two new tests.
+3. **Hearts and lengths at one stop.** Kit Part 4, step 1: the hearts page also gives each outline's planned length, beside an independent count of the words its beats, quotes, glosses and credited witnesses must carry, and Mark rules on the length there. `roles/researcher.md` (the reply gives the word count) and `roles/checker.md` (item 3 recounts it against the hearts page) follow. A story past 4:30 still comes back to Mark. The recording stop is unchanged: a sample for his ear and a credit cap before the paid run.
+4. These govern batch 8 from its hearts page on, and every later batch. They reopen no finished story.
+
+## 2026-11-21 — "Help us grow" opens over the map
+
+Mark: "when the pop-up help us grow appears lets not have it take you to a new page you can't get back from easily, but put that page in a popup window they can close after reading and they never leave where they are", then "make sure they can see the map behind it, only cover some of the page".
+
+**Done.** Every "Help us grow" link on the map (the corner note, the line at the foot of each card, the header link and the phone menu) opens the support page's own text in a window over the map, read from `support.html`. A light backdrop keeps the map visible: a card of about 30rem by at most 62% of the screen height on a computer, a sheet from the bottom on a phone. It closes with ×, "Back to the map", Escape or a tap outside, and leaves the view and any open card as they were. The gift links open Stripe in a new tab. `support.html` stays as its own page for anyone who goes there directly.

@@ -1,20 +1,28 @@
 {
  "about": {
   "title": "About the Church Family Tree",
+  "description": "What the Church Family Tree is: a free map of church history, with {{traditionCount}} church traditions and the councils, people and stories that shaped them.",
   "sections": [
    {
     "heading": "What the tree is",
     "paragraphs": [
-     "The Church Family Tree is an interactive map of Christian history. It runs from the first house-churches, about 70 CE, to about 2010.",
-     "Movements, revivals and divisions are drawn as rivers. These rivers wind and widen as time passes."
+     "The Church Family Tree is a free, interactive map of church history. It runs from the first house-churches, about 70 CE, to about 2010.",
+     "Each family of churches is drawn as a river. The rivers wind, widen and divide as the centuries pass."
     ]
    },
    {
     "heading": "What it covers",
     "paragraphs": [
-     "The tree covers {{movementCount}} movements. Each movement has its own page.",
-     "The tree also holds 62 short gap stories. Each is a real, documented episode that never became a movement of its own.",
-     "A river's width shows how many recorded movements in that family were active at the time. It does not measure membership or size."
+     "The tree maps {{traditionCount}} church traditions, and the councils, people and stories that shaped them. It shows how they connect: which grew out of which, which influenced or argued with each other, and where they broke apart.",
+     "The traditions flow in {{riverCount}} rivers, across {{eraCount}} eras. Each tradition, council and person has its own page.",
+     "A river's width shows how many recorded traditions in that family were active at the time. It does not measure membership or size."
+    ]
+   },
+   {
+    "heading": "Listen as you explore",
+    "paragraphs": [
+     "Many traditions, people and councils have a short spoken brief. The tree tells {{toldInFullCount}} traditions in full, with their stories read aloud. The voices are synthesized.",
+     "A short guided tour shows new visitors how the map works."
     ]
    },
    {
@@ -25,8 +33,7 @@
      "Documented. Widely Accepted. Dominant Modern Reconstruction. Contested. Inferential-Thin.",
      "Each link also names its sources. A short quotation is checked word for word against the source text.",
      "The [method page](method.html) explains how each link is made, checked and graded.",
-     "Each movement names its place. Where that place lies in a country today, the tree names the country too, checked against a standard gazetteer, Wikidata or Pleiades. Some broad or historical regions show the place alone.",
-     "Many movements have a spoken narration. The voice is synthesized."
+     "Each tradition names its place. Where that place lies in a country today, the tree names the country too, checked against a standard gazetteer, Wikidata or Pleiades. Some broad or historical regions show the place alone."
     ]
    },
    {
@@ -355,6 +362,7 @@
  },
  "privacy": {
   "title": "Privacy",
+  "description": "The Church Family Tree sets no cookies and has no accounts. How we count visits without identifying anyone.",
   "sections": [
    {
     "heading": "No cookies, no accounts",
@@ -367,6 +375,13 @@
     "paragraphs": [
      "We count visits without cookies. We use Cloudflare's own traffic numbers and its cookie-free Web Analytics. These counts do not identify anyone.",
      "Cloudflare also hosts the site."
+    ]
+   },
+   {
+    "heading": "Counting what is used",
+    "paragraphs": [
+     "The map counts which cards are opened, which recordings are played, and minutes in use, with nothing that could identify you.",
+     "Your browser keeps one small note of when you last visited, so we can tell new visitors from returning ones. Clearing your browser's site data removes it."
     ]
    },
    {
@@ -409,6 +424,7 @@
  },
  "support": {
   "title": "Help us grow",
+  "description": "The Church Family Tree is free for everyone. How you can help it grow: a gift, an introduction to a scholar, a correction or a share.",
   "sections": [
    {
     "heading": "Their story, in their own words",
