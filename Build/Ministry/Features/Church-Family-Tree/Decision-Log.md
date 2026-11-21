@@ -5156,6 +5156,11 @@ Mark: "when the pop-up help us grow appears lets not have it take you to a new p
 
 **Done.** Every "Help us grow" link on the map (the corner note, the line at the foot of each card, the header link and the phone menu) opens the support page's own text in a window over the map, read from `support.html`. A light backdrop keeps the map visible: a card of about 30rem by at most 62% of the screen height on a computer, a sheet from the bottom on a phone. It closes with ×, "Back to the map", Escape or a tap outside, and leaves the view and any open card as they were. The gift links open Stripe in a new tab. `support.html` stays as its own page for anyone who goes there directly.
 
+## 2026-11-21 — Cloudflare Web Analytics is already on, and a use report for Mark
+
+Mark asked how to get the Cloudflare token for visit counts, then showed the Web Analytics screen: it already counts visits for churchfamilytree.com. Cloudflare adds the beacon to the tree's pages itself, because the domain is proxied, so no token or code change is needed, and the Privacy page's statement is true. This corrects "Cloudflare Web Analytics on every tree page, once Mark sends the site token" in "Measuring visits" (2026-11-21).
+
+Mark asked for a dashboard of use ("how do i get my reports on use i need a dashboard") and chose snapshot reports from Claude (option A). `tools/cft_usage_report.py` reads the tree's own counts (Workers Analytics Engine, dataset `cft_events`) through the Cloudflare SQL API with a read-only token (Account Analytics: Read, saved to the session's environment, never in the repository) and writes one JSON file. The report page is a Dashboard artifact; to refresh it, run the script, upload the file and ask Claude. The counts leave out one deploy check row and one launch test visit (2026-11-21 13:14 UTC).
 ## 2026-11-21 — The brief kit: one kit, one prompt per step (Mark)
 
 **Why.** A review of the kit after batch 8 found that each batch copied the last batch's prompts and added lines, from 2,544 words in batch 4 to 4,780 in batch 8. Agents read the same rule two or three times in different words, and were sent to stacks of Decision-Log entries. The length rule in use lived outside the kit, and about half the steps of a batch ran on prompts outside it.
