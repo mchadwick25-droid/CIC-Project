@@ -1,0 +1,60 @@
+# Outline check: Pamphilus of Caesarea
+
+## My own heart (from the census entry, the source sheet and what he is known for)
+
+Process note: `Outline.md` was opened before this section was written (in the same first reading pass as the batch README and Hearts.md). The account below is set from the census entry (`why`, `teaser`, `voices`, `legacy`, `sourcing`) and the source sheet alone, not from the outline's wording; the comparison with the outline follows it.
+
+- **The essence.** Pamphilus was a presbyter of the church at Caesarea in Roman Palestine who gathered a library of sacred books there and copied Origen's works by hand (Jerome: "the greater part"), so that Origen's writings were kept for Eusebius, Jerome and those after them. Jailed in the Great Persecution late in 307, he worked in prison with his friend Eusebius on a Defense of Origen, and was put to death for his faith in February 309 or 310. He is on the tree as the keeper and defender of Origen's books, and as a martyr whose name later became a weapon in the quarrel over Origen.
+- **Also told.** He gave his inheritance to the poor and gave copies of Scripture away to readers, men and women; he kept a school at Caesarea. The Defense was addressed to confessors in the mines and argued that Origen inquired rather than decreed; only Book I survives, in Rufinus's Latin. His torture and death with eleven others. Eusebius took the name "Eusebius Pamphili". The dispute over the Defense: Eusebius says joint work; Jerome first listed it as Pamphilus's, then called it Eusebius's and charged Rufinus with using a martyr's name; Rufinus answered. Twenty-five volumes in his hand reached Jerome.
+
+**Against the outline.** The outline's essence and Also told match this account in substance: the library and the copying, the Defense from prison with Eusebius, the death about 310, the dispute with each witness credited, and what came of it. Nothing major is left out. It also keeps the heart Mark approved on 2026-11-20 (`Hearts.md`) and the README job line.
+
+## Verdict: FIX
+
+One BLOCKING finding, in the order of the dispute scene (beat 6). Everything else holds. Every cited line I opened says what the outline says it does, except where a finding below notes otherwise: S1–S6, E1–E12, I1–I3, D1–D3, D5, the three quotes, and both short phrases. The Greek (GRK 24670–24672, 24682–24683, 24836–24842, 25242–25248, 5258–5262) was checked by hand and reads as the sheet gives it.
+
+## BLOCKING
+
+**B1. Beat 6 puts Rufinus's answer after Jerome's books against Rufinus. It came before them, and it answered a different text.** The line "Rufinus answered that Jerome no longer spared even the martyrs" comes from Rufinus's *Apology*. The held text titles that work "The Apology of Rufinus. Addressed to Apronianus, in Reply to Jerome's Letter to Pammachius" (JER 46229), which is Letter 84 of 400. The cited lines (JER 50158–50167, 50208–50214) answer Letter 84's charge that the martyr's works "are either not to be considered genuine or if genuine, to be treated with contempt". Jerome's *Apology against Rufinus* (about 401–402; JER 50890 ff.) was written in reply to Rufinus. In the outline's order, a listener would take Rufinus's line as his answer to Jerome's proof from the Life and to the charge of tampering, and he never gave that answer in any held text. The outline promises "in time order", so this is a misleading implication in the scene that carries the story.
+*Correction:* in beat 6, replace the Jerome-in-his-books item and the Rufinus-answered item with these three, in this order:
+- "Jerome, about 400, in a letter (Letter 84): he began to doubt the book was Pamphilus's: 'How then can I know that it is by Pamphilus?' (JER-E 19399–19401; paraphrase, or that one question)."
+- "Rufinus answered him (his Apology, about 400) that Jerome would now not spare even the martyrs (JER 50158–50167, 50208–50210; paraphrase)."
+- "Jerome, in his books against Rufinus (about 401–402), about ten years after his first list: [the existing text, from 'the work was Eusebius's' to 'he had once believed it Pamphilus's himself']."
+Leave Letter 84's "wash away his one fault" in Leave out, as it is now.
+
+## MINOR
+
+**M1. Length: the quotes were undercounted.** The outline's renderings run about 70 words (Q1), 78 (Q2) and 53 (Q3), about 200 in all, against the 165 it counted. With Q2's second sentence dropped, they still come to about 180. That leaves too little of 525 words for six beats plus a third on what came of him, so the draft will run long, as batch 6's did. *Correction:* set the count to "the three quotes, about 200 words (about 180 with Q2's second sentence dropped)", and set Length to "about 3 minutes 45 seconds (about 560 words)". Or keep 3:30 and change "Cut first, if needed" to "Planned cuts". The story's four turns and the four-voice scene justify the extra time; the time is not filler.
+
+**M2. Beat 1: the public office was his own, not his family's.** In GRK 24682–24683, both participles agree with Pamphilus: he came of a patrician family, *and he* had held public offices in his home city with distinction. *Correction:* "of a noble family, and he had himself held public office with honor in his home city (Eusebius's longer form; damaged OCR, read by hand)."
+
+**M3. "His younger friend and pupil Eusebius" (essence, beat 1).** No held line gives Pamphilus's age or birth year (S5; CEN `sourcing`). "Pupil" is supported (McGiffert, EUS-McG 43010–43011, "teacher"; Eusebius's "my master", GRK 24670–24671). "Younger" is an inference. *Correction:* "his pupil and friend Eusebius". The Hearts wording is unchanged in substance.
+
+**M4. "Beheaded."** The longer form's κεφαλικὴν τιμωρίαν (GRK 25243) is the ordinary phrase for a capital sentence and does not by itself name the sword. Photius's "deprived of life by the sword" (PHOT 11440–11441) does, and he is late. *Correction:* change the beat 5 note to "'beheaded': Photius, 'by the sword'; Eusebius's longer form, 'a capital sentence'". In Do not say, keep "Not 'burned' or 'crucified'", and give the right wording as "put to death by the sword", or "beheaded, a later writer says".
+
+**M5. "My master" (beat 1) is held only in a damaged scan.** The outline marks it as damaged OCR but names no confirming print and gives no card plan. I read the Greek by hand (ὁ ἐμὸς δεσπότης, GRK 24670–24671), and it is clear. *Correction:* add "(Greek read by hand; no other held print; the card gives the English alone)".
+
+**M6. Gloss: "the copper mines of Palestine" says more than the Defense's heading.** The heading says only "ad metalla Palaestinae" (APOL-L 14112). "Copper" comes from Eusebius's account of other confessors sent to Phaeno (EUS 46667–46668). *Correction:* "sent to forced labor in the mines of Palestine". Or keep "copper" and add "(Eusebius names the copper mines at Phaeno)".
+
+**M7. Missing gloss in Q1: "the twelve prophets."** A listener may hear twelve men. *Correction:* add to Words to explain: "**the twelve prophets** (Q1): 'the twelve short books of prophecy at the end of the Old Testament', in the same breath."
+
+**M8. Needless gloss: "martyr."** It is a common word for this audience, like bishop and church. *Correction:* drop the martyr line from Words to explain.
+
+**M9. The Latin of Q1 and Q2 is normalized, not verbatim to the print.** JER-L reads "Casariensi", "vinginti", "Cresi", "letitia", "que" (58490–58496), and "prebebat", "qus", "Seripturas", "αὖ", "poposcissel" (31258–31263). The outline prints classical spellings without saying so. The readings themselves are right. *Correction:* add "(spelling normalized; the print's forms are in Source_Sheet E4, E6)" after each Latin text. Also correct Q2's line range to JER-L 31256–31264, and the short phrase's range to JER-L 31320–31321.
+
+**M10. Q2 rendering: "So he had many books made ready."** "Praeparabat" says he prepared or kept them; "had … made" suggests he commissioned others to make them. *Correction:* "So he kept many books ready, to give to those who wanted them whenever need arose."
+
+**M11. Q3 lead-in: "These things are Origen's bolder readings."** The Defense says they are what came to him "per nimiam discussionem et per multam scrutationem Scripturarum" (APOL-L 14209–14211). *Correction:* "('These things' are the ideas that came to him in deep searching of the Scriptures; the narrator says so in the lead-in.)"
+
+**M12. Ending (a) ends on Jerome.** "the same Jerome who later denied him the Defense" closes on a later writer, the batch 6 fault the writer's role now guards against. *Correction:* end on the lines in Pamphilus's hand, which Jerome said seemed marked with his blood, and drop the "same Jerome" clause.
+
+**M13. Library sweep: one late witness not listed.** The Latin version of the Syriac *Chronica minora* (`chronica-minora-pars-prior-versio-lat_guidi1903.txt` 3727–3729, 3747) says Pamphilus, a presbyter at Caesarea, "edocuit Eusebium" ("taught Eusebius"), who took his name, and that he was martyred in the Great Persecution. It adds no new fact and is no major witness, but it is a held line that independently gives "taught". *Correction:* add it to the sheet's "Set aside" list. It may also support "pupil" (M3). Every other spot-check found nothing missing: both corpus-map buckets; the 255-file search, with the top 70 files by hit count looked at; Jerome's Chronicle (Fotheringham), which has no Pamphilus entry near 309–310; Prosper and Bede, which name him only as Eusebius's name; Assemani, which names him only in a martyr list; and the Origen *Matthew* fragments, which are editor references only.
+
+## Checked and holding (no finding)
+
+- **The rulings.** The slate's job line (the copying, the library, the Defense from prison, death about 310, and the dispute with each witness credited); "Martyr"; "After `eusebius-of-caesarea`"; and the links `origen` and `jerome` are all kept. The hearts entry is kept as approved. The Batch 6 ruling is kept: 309/310, Alexandria, Eusebius in prison, the timing of the name and the authorship are each credited or left open, and nothing is stated as settled where held sources differ. Jerome's own two counts (first book or sixth) stay in Jerome's voice, credited to the *Apology*, and the variant is for the card.
+- **Damaged scans.** Q3's original is held only in two rough scans. In this span Lommatzsch reads cleanly (APOL-L 14211–14215), and Migne agrees line by line (APOL-M 42051–42056). That second print confirms the reading, and the outline says so. Q1 and Q2 are readable prints confirmed by the NPNF English (JER 40962–40968, 51429–51437).
+- **The quotes.** I rendered each one from the Latin before comparing it with the outline. All three are faithful, adding nothing and keeping every clause, except as M10 and M11 note. "He seems to me" correctly keeps "mihi videtur". Sophronius's Greek has "traces of his own suffering" (πάθους), not "blood". It confirms the sense, but it is a translation of Jerome, not a second reading of the Latin.
+- **Siblings and links.** I read the `eusebius-of-caesarea` batch 7 outline and the live `origen`, `jerome`, `rufinus-of-aquileia`, `socrates-of-constantinople` and `methodius-of-olympus` texts. No quote is shared: I searched every live `longDescription` for each quote's key phrases, and the batch outlines for Q1–Q3. The jobs do not overlap. Eusebius keeps Pamphilus to one clause, and the name-taking is one clause in each story. Rufinus's live quotes are not used. Methodius and the sixth book are left out. "Arius" and "Photius of Constantinople" are census spellings, if named.
+- **Words to explain.** The presbyter, Origen, Great Persecution (matching the batch's sibling outlines), sacrifice, Croesus, commentaries, Arian and heretic glosses are right for Caesarea about 300 and say no more than the record, except as M6–M8 note.
+- **Connection, Who tells it, Do not say, Leave out.** All are filled and hold, including the single-witness note placed inside beat 6, the wonder of the bodies kept in Eusebius's voice or left out, "most" not "all", and Porphyry as a servant, not a son.

@@ -5,6 +5,14 @@
  * telling, and the legacy piece. Never a teaser, caveat, hedge or bio, and
  * never a story's source wording (`text`), which the site JSON does not carry.
  *
+ * --tree records the Church Family Tree's own copies instead: each piece's text
+ * comes from Build/Ministry/Features/Church-Family-Tree/World-Narration/<census-id>/<key>.txt
+ * (the reviewed narrator rewrite), a piece whose <key>.orig.txt no longer matches
+ * the compiled world text is refused as stale, and the clips and manifest go to
+ * cft-website/audio/worlds-tree/, each entry carrying the text it was recorded from,
+ * and the world's entry listing all its pieces (_pieces), so the map switches a
+ * world to these copies only when every piece is recorded.
+ *
  * Output: cic-website/audio/worlds/<census-id>/{story,docstory-<story id>,legacy}.mp3
  * and cic-website/audio/worlds/manifest.json, which the Atlas panel and the
  * static tradition pages read to decide which players to show. A story longer
@@ -44,13 +52,17 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, '..', '..');
 export const worldAudioDir = path.join(rootDir, 'cic-website/audio/worlds');
 export const worldManifestPath = path.join(worldAudioDir, 'manifest.json');
+export const treeTextDir = path.join(rootDir, 'Build/Ministry/Features/Church-Family-Tree/World-Narration');
+export const treeAudioDir = path.join(rootDir, 'cft-website/audio/worlds-tree');
+export const treeManifestPath = path.join(treeAudioDir, 'manifest.json');
 export const MAX_CHARS_PER_REQUEST = 4500;
 
 export function parseArgs(argv) {
-  const o = { world: null, voiceId: null, model: null, apiSpeed: null, tempo: null, settingsJson: null, prefix: '', only: null, dryRun: false, force: false, approvedRun: null, charCap: null };
+  const o = { world: null, voiceId: null, model: null, apiSpeed: null, tempo: null, settingsJson: null, prefix: '', only: null, dryRun: false, force: false, approvedRun: null, charCap: null, tree: false };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--dry-run') o.dryRun = true;
+    else if (a === '--tree') o.tree = true;
     else if (a === '--force') o.force = true;
     else if (a === '--world') o.world = argv[++i];
     else if (a === '--voice-id') o.voiceId = argv[++i];
@@ -104,6 +116,24 @@ function tempoFile(inFiles, outFile, tempo) {
   fs.rmSync(dir, { recursive: true, force: true });
 }
 
+const squash = (t) => t.replace(/\s+/g, ' ').trim();
+
+/**
+ * The tree's pieces: each world piece's text replaced by its reviewed narrator
+ * rewrite. Throws when a rewrite is missing, or when the world text it was
+ * rewritten from (<key>.orig.txt) no longer matches the compiled text.
+ */
+export function treePieces(world, pieces, textDir = treeTextDir) {
+  return pieces.map((p) => {
+    const dir = path.join(textDir, world);
+    const textFile = path.join(dir, `${p.key}.txt`), origFile = path.join(dir, `${p.key}.orig.txt`);
+    if (!fs.existsSync(textFile) || !fs.existsSync(origFile)) throw new Error(`${world}/${p.key}: no reviewed rewrite in ${path.relative(rootDir, dir)}`);
+    if (squash(fs.readFileSync(origFile, 'utf-8')) !== squash(p.parts.flat().join('\n\n'))) throw new Error(`${world}/${p.key}: stale, the world text changed after the rewrite`);
+    const text = fs.readFileSync(textFile, 'utf-8').trim();
+    return { key: p.key, text, parts: splitParagraphs(text.split(/\n\n+/).map((t) => t.trim()).filter(Boolean)) };
+  });
+}
+
 /** Characters the run will send: the pieces it does not skip, each request with its prefix. */
 export function billableChars(pieces, entry, { prefix = '', force = false, only = null } = {}) {
   return pieces
@@ -120,10 +150,12 @@ async function run() {
     const unknown = opts.only.filter((k) => !all.some((p) => p.key === k));
     if (unknown.length) throw new Error(`--only names no such piece: ${unknown.join(', ')}`);
   }
-  const pieces = opts.only ? all.filter((p) => opts.only.includes(p.key)) : all;
-  const manifest = fs.existsSync(worldManifestPath) ? JSON.parse(fs.readFileSync(worldManifestPath, 'utf-8')) : {};
+  const chosen = opts.only ? all.filter((p) => opts.only.includes(p.key)) : all;
+  const pieces = opts.tree ? treePieces(opts.world, chosen) : chosen;
+  const audioDir = opts.tree ? treeAudioDir : worldAudioDir, manifestPath = opts.tree ? treeManifestPath : worldManifestPath;
+  const manifest = fs.existsSync(manifestPath) ? JSON.parse(fs.readFileSync(manifestPath, 'utf-8')) : {};
   const chars = pieces.reduce((n, p) => n + p.parts.reduce((m, t) => m + t.length, 0), 0);
-  console.log(`=== World narration ${opts.dryRun ? '(dry run)' : ''}: ${opts.world} ===`);
+  console.log(`=== World narration ${opts.tree ? '(tree copies) ' : ''}${opts.dryRun ? '(dry run)' : ''}: ${opts.world} ===`);
   pieces.forEach((p) => console.log(`  ${p.key}: ${p.parts.length} request(s), ${p.parts.map((t) => t.length).join('+')} chars`));
   console.log(`  total ${chars} characters`);
   if (opts.dryRun) return;
@@ -136,7 +168,7 @@ async function run() {
   const apiKey = process.env.ELEVENLABS_API_KEY;
   if (!apiKey) throw new Error('ELEVENLABS_API_KEY is not set.');
   const settings = { ...JSON.parse(opts.settingsJson), speed: opts.apiSpeed };
-  const outDir = path.join(worldAudioDir, opts.world);
+  const outDir = path.join(audioDir, opts.world);
   fs.mkdirSync(outDir, { recursive: true });
 
   console.log('=== PAID RUN, settings as actually used ===');
@@ -161,8 +193,10 @@ async function run() {
     tempoFile(partFiles, finalPath, opts.tempo);
     partFiles.forEach((f) => fs.rmSync(f, { force: true }));
     entry[p.key] = { file: `${opts.world}/${p.key}.mp3`, chars: p.parts.reduce((n, t) => n + t.length, 0), voiceId: opts.voiceId, model: opts.model, apiSpeed: opts.apiSpeed, tempo: opts.tempo, outputFormat: NARRATION_OUTPUT_FORMAT, prefix: opts.prefix || undefined, settings: JSON.parse(opts.settingsJson) };
+    if (opts.tree) { entry[p.key].text = p.text; entry._pieces = all.map((x) => x.key); }
     manifest[opts.world] = entry;
-    fs.writeFileSync(worldManifestPath, JSON.stringify(manifest, null, 1) + '\n');
+    fs.mkdirSync(path.dirname(manifestPath), { recursive: true });
+    fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 1) + '\n');
   }
   console.log(`\ncredits charged (character-cost headers): ${credits}`);
 }

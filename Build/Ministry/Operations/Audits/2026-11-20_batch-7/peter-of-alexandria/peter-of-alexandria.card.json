@@ -1,0 +1,186 @@
+{
+  "otherNames": [
+    "Peter the Martyr",
+    "Peter, Bishop and Martyr"
+  ],
+  "knownFor": "Bishop of Alexandria through the Great Persecution, who wrote the rules for those who had lapsed, broke with Melitius of Lycopolis, and was beheaded in 311.",
+  "datesNote": "Bishop from about 300; beheaded in the ninth year of the persecution, 25 November 311 by Bell's date",
+  "placeNote": "Alexandria",
+  "role": "Bishop of Alexandria",
+  "keyWorks": [
+    {
+      "title": "The Canonical Epistle",
+      "about": "his canons of 306 on receiving Christians who lapsed in the persecution, and on those who fled. He held that those who paid to be left in peace, or who withdrew to save their lives, are not to be blamed, and that those who rushed into the contest unbidden, though they ignored Christ's words about praying not to enter temptation, still share communion. Of those forced against their will to the pagan sacrifice, whose hands were burned, he wrote that they may be counted among the confessors, as the martyrs in prison had written to him about those in Libya"
+    },
+    {
+      "title": "Letter to the Church at Alexandria",
+      "about": "telling his people to hold no communion with Melitius"
+    },
+    {
+      "title": "Fragments",
+      "about": "On the Godhead, On the Advent of Our Saviour, On the Passover, and others"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "His canons on the lapsed passed into the collections of church law, with the commentaries of Theodore Balsamon and John Zonaras.",
+      "The Melitian church that broke away under him lasted beyond his death. The Council of Nicaea let Melitius keep only \"a nominal dignity.\"",
+      "In 692 the Council in Trullo set its seal on the canons of Peter of Alexandria, with those of other fathers. A Greek book of church law, Nikodemos's Pedalion, prints them with notes and says that by that seal they take on, in a way, the force of a council of the whole church."
+    ],
+    "remembered": [
+      "Eusebius of Caesarea calls him \"a divine example of a bishop\" and \"one of the most excellent teachers of the religion of Christ.\"",
+      "Athanasius of Alexandria calls him \"the blessed Peter, Bishop and Martyr.\"",
+      "Socrates of Constantinople, retelling Rufinus, speaks of \"the day in which the memory of the martyr and bishop Peter was celebrated\" at Alexandria.",
+      "Arthur Cleveland Coxe, the American editor of the Ante-Nicene Fathers, quotes Dupin's judgment that no canons of antiquity on the lapsed are \"more judicious or more equitable.\""
+    ]
+  },
+  "uncertain": [
+    "Athanasius, an enemy of the Melitians, says Peter's council removed Melitius for many crimes, among them sacrifice to idols. Socrates of Constantinople says the same; Theodoret says only that Peter convicted him of certain crimes and deposed him. Epiphanius of Salamis tells it another way. He says both men were in prison together and split over how to receive the fallen, Peter for mercy and Melitius for strictness, and that most of the prisoners took Melitius's side.",
+    "Harold Idris Bell, who edited papyri of the Melitians in 1924, thinks the sacrifice charge \"need not be taken very seriously\", and that Epiphanius had good sources, probably bishops of Egypt banished to Palestine. He reads the two accounts as stages of one quarrel. Charles Joseph Hefele, historian of the councils, says the first letters show neither man was in prison when the split began, and that Epiphanius was mistaken on the main points.",
+    "The letter of the four bishops and Peter's letter are known only in a Latin translation first printed by Scipio Maffei. Arthur McGiffert, who translated Eusebius, sees nothing in the bishops' letter to disprove it.",
+    "Sozomen says Peter ordained Arius a deacon and later cast him out over the Melitians. Sozomen's translator, Chester Hartranft, notes that no one else links Arius with the Melitians early. Archibald Robertson, editor of Athanasius, says such tales \"deserve little credit\".",
+    "The Genuine Acts of Peter, a later Passion, tell of his last night, a vision about Arius and his death at the tomb of Mark. McGiffert calls them \"spurious and historically quite worthless.\"",
+    "No early source gives his birth, family or schooling. Later Coptic and Ethiopic lives give a family, and do not agree with each other.",
+    "The date of the split is given as 301 (Robertson), about 304 or 305 (Hefele) and probably 305 (Bell).",
+    "McGiffert counts fourteen canons; the Ante-Nicene Fathers prints fifteen.",
+    "The year of the canons is read two ways. Hawkins and McGiffert give 306, counting from Peter's own words, \"the fourth passover of the persecution\". Nikodemos, in the Greek book of church law, gives 304.",
+    "On the prison, Bell thinks Peter and Melitius were set free soon after the quarrel began, probably when the persecution paused.",
+    "That Peter himself was in hiding when he wrote to his people is Bell's and Hefele's reading. The account kept with the four bishops' letter says only that the priests he had appointed were in hiding.",
+    "Eusebius gives the ninth year of the persecution for Peter's death. McGiffert reckons that year from February 311 to February 312 and puts the death not long before the spring of 312. Hawkins and Bell give 311, and the day, 25 November, comes from the Egyptian church's later reckoning."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Canonical Epistle; Letter to the Church at Alexandria; fragments",
+        "language": "English translation",
+        "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+      },
+      {
+        "title": "The Canonical Epistle, canon 1 in Greek, in the Pedalion with Nikodemos's life and notes",
+        "language": "Greek",
+        "file": "cic/texts/nikodemos-hagiorite_pedalion-canons-grc_1886.txt",
+        "date": "1886"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History, Book 7, chapter 32; Book 8, chapter 13; Book 9, chapter 6, with McGiffert's notes",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Letter of Hesychius, Pachomius, Theodorus and Phileas to Melitius, with the account kept with it",
+        "author": "Phileas of Thmuis and three other bishops",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+      },
+      {
+        "title": "Apology against the Arians, 11 and 59, with Robertson's Prolegomena",
+        "author": "Athanasius of Alexandria",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      },
+      {
+        "title": "Panarion 68",
+        "author": "Epiphanius of Salamis",
+        "date": null,
+        "language": "Greek and Latin",
+        "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt"
+      },
+      {
+        "title": "Church History, Book 1, chapters 6, 9 and 15 (Socrates); Book 1, chapters 15 and 24 (Sozomen)",
+        "author": "Socrates of Constantinople; Sozomen",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Jews and Christians in Egypt, chapter on the Melitian schism",
+        "author": "Harold Idris Bell",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/bell_jews-christians-egypt-meletian-papyri_1924.txt"
+      },
+      {
+        "title": "A History of the Councils of the Church, volume 1",
+        "author": "Charles Joseph Hefele",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/hefele_history-of-the-councils-v1-to-nicaea_clark1872.txt"
+      },
+      {
+        "title": "Martyrs of Palestine, chapter 3",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Panarion 68, in Migne's Patrologia Graeca 42",
+        "author": "Epiphanius of Salamis",
+        "date": null,
+        "language": "Greek and Latin",
+        "file": "cic/texts/epiphanius_panarion-haer-65-80-pg42-grc-lat_migne1863.txt"
+      },
+      {
+        "title": "Canon 2 of the Council in Trullo (692)",
+        "author": null,
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      }
+    ]
+  },
+  "briefReferences": [
+    "Peter of Alexandria, Canonical Epistle, canon 1, tr. James B. H. Hawkins, and its Greek in the 1886 Pedalion: the fourth passover of the persecution, those tortured until they gave way, the marks of Jesus, and the forty more days.",
+    "Eusebius of Caesarea, Church History VII.32, tr. A. C. McGiffert: Peter bishop at Alexandria, less than three years in office before the persecution, beheaded in the ninth year of the persecution. McGiffert's note on the edict of February 303 that the churches be pulled down.",
+    "Eusebius, Martyrs of Palestine 3: the imperial edicts that all the people sacrifice.",
+    "Epiphanius of Salamis, Panarion 68.3: the archbishop of Alexandria governs all Egypt; the two in prison and their quarrel over taking the fallen back.",
+    "Peter of Alexandria, Canonical Epistle, canons 2 to 7 and 10, tr. Hawkins: prison without torture, fear alone and the fig tree, those who tricked the officials, slaves and masters, and fallen clergy who keep communion but not office.",
+    "Letter of Hesychius, Pachomius, Theodorus and Phileas to Melitius, and the account kept with it, ANF 6: ordaining in other bishops' churches; the four dead as martyrs, Melitius at Alexandria, Peter's appointed priests put out and men of his own ordained.",
+    "Peter of Alexandria, Letter to the Church at Alexandria, ANF 6: hold no communion with Melitius until Peter meets him with wise and discreet men. Bell and Hefele: Peter wrote from hiding.",
+    "Athanasius, Apology against the Arians 59, NPNF 4: Peter's council of bishops removes Melitius for many crimes, among them sacrifice to idols. Apology 11: the blessed Peter, Bishop and Martyr.",
+    "Epiphanius, Panarion 68.3, Greek: Peter's case for mercy and kindness, the case of Melitius for truth and zeal.",
+    "Hefele, History of the Councils, vol. 1: Peter's tenth canon keeps fallen clergy out of office, the strictness Epiphanius gives to Melitius.",
+    "Bell, Jews and Christians in Egypt: the persecution renewed under Maximinus, and reaching Peter.",
+    "Eusebius, Church History IX.6.2, tr. McGiffert: Peter seized and beheaded as if by command of Maximinus, and with him many other bishops of Egypt.",
+    "Council in Trullo (692), canon 2, NPNF 14: the seal set on the canons of Peter of Alexandria. Hawkins: the canons in every collection of canons.",
+    "Socrates, Church History I.9: the letter of the Council of Nicaea to the church of Alexandria on Melitius, a nominal dignity and no power to ordain.",
+    "Socrates, Church History I.15, retelling Rufinus: the day on which the memory of the martyr and bishop Peter was celebrated at Alexandria."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "They did not come to this by their own choice. The weakness of the flesh betrayed them. For they show the marks of Jesus in their bodies.",
+      "printed": "for they did not come to this of their own will, but were betrayed by the frailty of the flesh; for they show in their bodies the marks of Jesus",
+      "work": "Peter of Alexandria, Canonical Epistle, canon 1, tr. James B. H. Hawkins",
+      "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+      "lines": "26616-26618",
+      "original": "οὐ γὰρ κατὰ προαίρεσιν ἐν τούτῳ ἐληλύθασιν, ἀλλὰ καταπροδοθέντες ὑπὸ τῆς ἀσθενείας τῆς σαρκὸς, ἐπειδὴ καὶ τὰ στίγματα τοῦ Ἰησοῦ ἐνδείκνυνται ἐν τοῖς σώμασιν αὐτῶν",
+      "originalFile": "cic/texts/nikodemos-hagiorite_pedalion-canons-grc_1886.txt",
+      "originalLines": "49722-49723",
+      "uncertain": "The Greek is from the 1886 Pedalion, whose scan prints σίγματα. The English note to the canon in the Ante-Nicene Fathers (line 26619) gives στίγματα, and the Greek is printed with that word.",
+      "secondReading": "same"
+    },
+    {
+      "modern": "Peter's case was for mercy and kindness. The case of Melitius and those with him was for truth and zeal.",
+      "printed": "Καὶ ἦν μὲν τοῦ Πέτρου ὁ λόγος ὑπὲρ ἐλέους καὶ φιλανθρωπίας, καὶ τοῦ Μελητίου καὶ τῶν ἅμα αὐτῷ ὑπὲρ ἀληϑείας καὶ ζήλου",
+      "work": "Epiphanius of Salamis, Panarion 68.3, Greek, in Oehler's Corpus haereseologicum",
+      "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt",
+      "lines": "43852-43853",
+      "uncertain": "Oehler's scan prints a numeral 0 where the word is ὁ. Migne's Patrologia Graeca 42 (cic/texts/epiphanius_panarion-haer-65-80-pg42-grc-lat_migne1863.txt, lines 13796-13799) prints ὁ there.",
+      "secondReading": "same"
+    },
+    {
+      "modern": "He was seized for no cause, when no one expected it. All at once and with no reason given, as though on Maximinus's order, he was beheaded.",
+      "printed": "being seized for no cause and quite unexpectedly, was, as if by command of Maximinus, immediately and without explanation, beheaded.",
+      "work": "Eusebius of Caesarea, Church History IX.6.2, tr. A. C. McGiffert",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "47996-47998",
+      "secondReading": "same"
+    }
+  ]
+}
