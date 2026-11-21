@@ -5129,3 +5129,7 @@ Not fixed now, logged in Open-Gaps: the map's own copy of the data has older inf
 **Decided (Mark, 2026-11-21, to the batch coordinator in chat, relayed to the batch 8 session: "approve both as recommended").**
 1. From the next batch on, a batch runs as two halves of about six stories, each half in a fresh session, with one slate, one hearts page and one release for the whole batch.
 2. A batch session near compaction hands over to a fresh session from its files: the batch README carries each story's step, the open items, every ruling and the ledger so far.
+
+## 2026-11-21 — Batch 8: the recording approved, with a cap (Mark)
+
+**Decided (Mark, 2026-11-21: "Approve, cap 24,500").** The twelve batch 8 stories, about 45,500 characters (about 22,100 credits at batch 7's rate), are recorded on batch 7's person settings: voice `onegjDE2z0mQtp1g0HK7`, model `eleven_v4`, `mp3_44100_64`, stability 0.95, similarity 0.68, style 0, speaker boost on, `[pause]` between paragraphs, the respellings. Francis of Assisi is recorded first for Mark's ear; the rest only after he hears it. The balance is checked before and after, and the run stops at 24,500 credits. Constantine is not re-recorded: his text did not change.
