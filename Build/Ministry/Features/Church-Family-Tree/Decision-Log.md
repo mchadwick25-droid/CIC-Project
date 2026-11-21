@@ -4950,3 +4950,11 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 Mark: "the river icon should match the double river icon on the toggle".
 
 **Done.** The icon beside each river's name on the map now uses the same two-strand shape as the Rivers button in the feature bar, kept in that river's own color so it still ties to its river. The name moves over slightly to make room.
+
+## 2026-11-21 — Phones get the same names, with more zoom steps
+
+**Why.** Mark: "no, make phones work by the same principles we used" and "smaller screens more zoom options". A phone can zoom out to 0.18, where the map switched to its simplified view below 0.34 and drew no names, so it looked empty. Phones also have less room, so they need more steps to reach the same detail.
+
+**Decided (Mark, 2026-11-21).** The simplified view's cut-off moves below any zoom a phone can reach (0.34 to 0.10). The opening zoom keeps its old floor, so nothing changes at first load. Names on a phone follow the same rules as on desktop: up to 15 per era by connections, room decides how many fit, and each zoom-in step adds names. Era captions now also count as occupied space, so names no longer sit on an era title (phone captions are wider than desktop's). Desktop never zooms out that far, so it is unchanged.
+
+**Result.** Names drawn on the whole map, per zoom-in step on a phone: 45, 59, 75, 95, 115, 212, 298, 350 (zoom 0.18 to 0.87), so every step adds names until all 350 show; desktop 117 at 0.45, then 199, 302, 350. Whole-map view on a phone, names per era 1..10: 4 3 4 6 4 3 3 6 6 6. Desktop numbers are unchanged from the entries above.
