@@ -10,6 +10,7 @@ it, never by deleting it.
    Mark's decision, with a real CI-minutes cost. Owner: Mark, in its own session.
 2. **Lawyer's read of the license policy (2026-11-06).** Recommended before wide promotion,
    especially the AI training section. Owner: Mark.
+   - 2026-11-21: Mark ruled no lawyer's read before the launch ("no lawyer, lets keep going"). Closed for launch.
 3. **Two quotes from a CC BY-SA edition (2026-11-06).** Two link quotes come from Brandt's
    1890 Lactantius in a CC BY-SA 4.0 digital edition. Quoting the public-domain print instead
    is the lineage thread's call.
@@ -3993,3 +3994,7 @@ They are not rewritten now. Each is recorded, and a rewrite would mean recording
     - The eleven built-world cards say "Conversations with [name] are coming soon to Church in Conversation." Mark's call whether that stays.
     - The tree's feedback form posts to the Church in Conversation server (`app.churchinconversation.com/api/feedback`), so feedback from the tree fails whenever that server is down.
 346. **The First Churches river runs to 900 on one entry: is Christian Apocrypha a tradition on it? (2026-11-21).** Mark asked why the river runs on, empty, after the first era. A river runs from its first member's start to its last member's end. Era 2 is right: Ebionites, Montanism and Novatianism last to about 400. From 400 to 900 only `apocryphal-and-pseudepigraphal-literature` (Christian Apocrypha, 100–900) carries it, and it is a body of writings, not a community. Mark chose to review it ("c": review the record, and show where traditions end on the map). For the census owner: whether it stays a tradition on lane 0, becomes a story or a source, or takes an end date that measures a community. A record change, under its own review. The map side, an end mark for each tradition, is this thread's.
+347. **The map's copy of the data synced to the census (2026-11-21).** Mark ruled the census right ("census is right, sync the map"). This closes the first point of "Launch review: three small items left after the four fixes" (2026-11-21) and goes past it: the comparison found 14 entries, not seven.
+    - Synced in `DATA` in `cft-website/index.html`: Armenian Christianity, era 8, now on the Eastern Catholic river only; `regions` on three entries (Catholic Worker and its kin, Oneness Pentecostalism, Ethiopian and Eritrean Christianity); `informalName` on seven; `teaser` on two; the house church `why` ("Ignatius of Antioch"); and the file's `meta` block.
+    - Left as they are: the ten built worlds' own text fields, which come from the compiled world files, and `livingEvidence` and `reviewStatus`, which the map does not carry.
+    - **Open.** `meta.license.credit` in the census says "release 44 (November 15, 2026)" while `meta.release` says 49. For the census owner. The map carries no check that its copy matches the census, so it can drift again; a CI comparison of the shared fields is the fix.
