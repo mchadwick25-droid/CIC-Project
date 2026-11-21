@@ -637,23 +637,36 @@ const DATA = {
   "title": "Church in Conversation — World Atlas Census",
   "version": "V0.20+era10-frozen",
   "source": "Build/Ministry/Features/Atlas-World-Map/Design/CiC_World_Atlas_Census_V0_13.xlsx, cross-checked against cic-poc/backend/app/world_manifest.py",
-  "totalEntries": 292,
+  "totalEntries": 620,
   "liveCount": 11,
   "statusCounts": {
    "Built & Live": 11,
    "Possible Future World (on record)": 17,
    "Selected - Not Yet Built": 1,
-   "Within Another World (A5)": 6,
+   "Within Another World (A5)": 255,
    "Excluded - Doctrinal Floor (C1)": 4,
    "Contested - Evidentiary": 6,
-   "Deferred by Step 0": 4,
-   "Floor Question (register)": 28,
-   "Pre-Survey Candidate": 213,
+   "Deferred by Step 0": 3,
+   "Floor Question (register)": 31,
+   "Pre-Survey Candidate": 277,
+   "Label - Assessed Per Body (A3)": 2,
    "Outside Article 4 Scope": 1,
-   "Label - Assessed Per Body (A3)": 1
+   "Major council": 12
   },
-  "notes": "Single source of truth for all three Atlas surfaces: the Story (cic-website/atlas.html and index.html), and the Wall Chart and Research Table (both consolidated into cic-website/world-atlas.html, reading this file at runtime instead of each keeping its own embedded copy). Status here follows records/worlds/*.yaml (this project's own registry), synced via engine.m6.census_sync; Imperial and Juridical Christianity's 'living' flag reflects its own confirmed Article 29 Living Tradition Status. Movements also carry numeric start/end year fields, sourced from the Wall Chart’s verified per-entry timeline data, so any surface can sort chronologically without re-parsing the display \"dates\" string.",
-  "schemaVersion": 2
+  "notes": "Single source of truth for all three Atlas surfaces: the Story (cic-website/atlas.html and index.html), and the Wall Chart and Research Table (both consolidated into cic-website/world-atlas.html, reading this file at runtime instead of each keeping its own embedded copy). Status here follows records/worlds/*.yaml (this project's own registry), synced via engine.m6.census_sync; Imperial and Juridical Christianity's 'living' flag reflects its own confirmed Article 29 Living Tradition Status. Movements also carry numeric start/end year fields, sourced from the Wall Chart’s verified per-entry timeline data, so any surface can sort chronologically without re-parsing the display \"dates\" string. Entry kinds: `kind` is absent for a movement, \"person\" for a person entry, \"cross-church movement\", or \"major-council\" for a meeting of church leaders from more than one tradition. A person entry carries `toldWithin`, the ID of the movement whose story tells it, or null when no tradition tells it. Each movement has a `people` list, in date order: the person entries told within it, as {\"person\": ID}, and named voices from its `voices`, as {\"name\", \"year\", \"voice\": the index of the voices line that names them, and either \"author\" with \"held\": the Library author and the row_id of a work by them on the movement’s own shelf, or \"source\": {\"work\", \"file\", \"lines\", \"quote\"}, a quote of their own words}. A link may carry `concerns`, the ID of the person entry it is about, set only where its note or a source quote names that person. `livingEvidence.descentConfidence` grades a living tradition’s claim of descent on the five formation_confidence levels (Documented, Widely Accepted, Dominant Modern Reconstruction, Contested, Inferential-Thin), with livingEvidence.basis saying what the grade rests on. Where a living tradition has no other livingEvidence, the object may hold just these two fields. `reviewStatus` says how far an entry has been checked: \"AI-checked\", \"partner-contributed\" or \"scholar-reviewed\". A retired movement with `redirectTo` was taken into that movement, and its address leads there. A movement whose people list is empty carries `peopleNote`, one plain sentence saying why no one is shown. A named voice is listed only on words of their own: their own writing, a document issued or signed in their name, or verbatim minutes; speech others report for them and works of disputed authorship are not used. The `living` flag means the tradition an entry names is alive today (the method page, \"What the living mark means\"). `livingEvidence` says what the mark rests on: `basis`, in plain words; `carrier`, the entries that carry the same tradition today and hold its dated evidence; or the entry's own `evidence` and `grade` (CD, Contemporary-Documented; CR, Contemporary-Reported; or none, with no dated item after 2010 found); and `group`, how the mark was reached (line, episode, own, ended, influence). A person entry may carry `card`, the facts its person card shows: `knownFor`, one line; `role`; `keyWorks`, at most three, each with `title` and `about`; `legacy`, with `traces` (what traces to them) and `remembered` (how they are remembered, and by whom); `uncertain`, what is not settled; and `sources`, with `ownWords` (their works in the Library, each with `title`, `file` and `language`, and `disputed` only where the Library row says the authorship is in doubt) and `about` (works about them, each with `title`, `author`, `date`, `language` and `file`). A missing field is left out, never filled. Who, on the map and the tree pages, shows a tradition's person entries only; its named voices stay in this file and are not shown as people. A person card may also carry `otherNames` (other forms of the name), `label` (only \"Outside witness\", for someone who writes of the church from outside it), `datesNote` and `placeNote` (the dates and places in the careful wording of the profile; `dates` and `placeLabel` stay the short forms for lists), and its `ownWords` sources may carry `author` and `date`. For a person entry, `start` and `end` place the person on the map: the earliest and latest years the card names; where it names none, a year from the Who scan or the census record. The dates line says what the sources give. Every quotation in a person's or a council's text stands word for word in a file listed under its sources. A major council has no `toldWithin`. Its `people` list is its Who: an item is {\"person\": ID, \"part\"} for someone who has a person entry (told within their own tradition and listed here as well), or {\"name\", \"verdict\", \"part\"} for someone with none, where `verdict` is WHO, STORY, LISTED or NOT SCORED and `part` says what part they played; no verdict is made by the council itself. Its `council` object holds `rivers` (the rivers it reached, by name, the first being its lane), `knownFor`, `datesNote`, `calledBy`, `issue` (what brought them together), `attended`, `decided`, `outcome`, `record` (each main witness with `witness`, `kind`, which is acts, participant, later narrative or modern reconstruction, an optional `side`, and `note`), `traditions` (each with `id`, `name`, `part`, which is Gathered, Condemned, Refused or Affected, and a sourced `note`), `uncertain`, and `sources` in three groups, `fromTheCouncil`, `fromThoseThere` and `writtenLater`, each item with `title`, `language`, `file` under cic/texts/ and an `author` where one applies. A missing field is left out, never filled.",
+  "schemaVersion": 3,
+  "release": {
+   "number": 49,
+   "date": "2026-11-16"
+  },
+  "identifiers": "Movement IDs and link IDs are permanent. Once published, an ID is never changed or reused. If a link is removed or merged, its ID moves to retiredLinks with the date, the reason and any replacement. If a movement is renamed, its old address redirects to the new one. If a movement is retired into another, it moves to retiredMovements with the date, the reason and redirectTo, and its old address redirects to the movement that took it in. Each release of this file carries a number and a date, so a citation can name the exact version it used. The Church Family Tree's home is https://www.churchfamilytree.com. Its movement pages, with their link anchors, also answer at the earlier address https://churchinconversation.com/tree/<id>, which redirects permanently, in one step, to the same page there. This file is served unchanged at both https://www.churchfamilytree.com/data/world-census.json and https://churchinconversation.com/data/world-census.json, and is never redirected.",
+  "license": {
+   "policy": "Faithways Studio license policy",
+   "url": "https://churchinconversation.com/license",
+   "name": "CC BY-NC 4.0",
+   "holder": "Faithways Studio, Inc.",
+   "credit": "From the Church Family Tree by Faithways Studio, Inc., release 44 (November 15, 2026), CC BY-NC 4.0."
+  }
  },
  "eras": [
   {
@@ -33039,7 +33052,7 @@ const DATA = {
     "Justin Martyr, First Apology",
     "Shepherd of Hermas"
    ],
-   "why": "In the decades after the apostles died, these house churches held together with no fixed hierarchy and no finished New Testament - Ignatius wrote seven letters while under armed guard on his way to execution, and Rome wrote at length to settle a quarrel in Corinth.",
+   "why": "In the decades after the apostles died, these house churches held together with no fixed hierarchy and no finished New Testament - Ignatius of Antioch wrote seven letters while under armed guard on his way to execution, and Rome wrote at length to settle a quarrel in Corinth.",
    "entry": {
     "representativeId": "chloe",
     "representativeName": "Chloe",
@@ -35125,7 +35138,7 @@ const DATA = {
    "era": 1,
    "name": "Tertullian",
    "shortName": "Tertullian",
-   "informalName": "Tertullian's Voice",
+   "informalName": "Tertullian of Carthage",
    "dates": "c. 197-220",
    "start": 197,
    "end": 220,
@@ -37451,7 +37464,6 @@ const DATA = {
    "era": 2,
    "name": "Cappadocian Christianity",
    "shortName": "Cappadocians",
-   "informalName": "Cappadocian Christianity",
    "dates": "c. 325-394 CE",
    "start": 325,
    "end": 394,
@@ -38568,7 +38580,8 @@ const DATA = {
     {
      "person": "leo-of-rome"
     }
-   ]
+   ],
+   "teaser": "Rome, Constantinople, and Milan, 312 to 451 CE — a hunted church became the empire's own law, a bishop held his basilica against imperial soldiers until his people learned to sing through the night, and a disputed election in Rome left a hundred and thirty-seven dead in a single day."
   },
   {
    "id": "hieronymian-ascetic-literary",
@@ -39897,7 +39910,6 @@ const DATA = {
    "era": 2,
    "name": "Gallic Monastic-Ascetic Christianity",
    "shortName": "Gallic Monasticism",
-   "informalName": "The Monasteries of Gaul",
    "dates": "c. 360-450",
    "start": 360,
    "end": 450,
@@ -40080,7 +40092,8 @@ const DATA = {
     {
      "person": "gennadius-of-marseilles"
     }
-   ]
+   ],
+   "teaser": "Gaul, c. 360 to 450 - a soldier who left the army to serve Christ instead and was made a bishop against his will, an island monastery whose own monks went on to become bishops of Arles and Riez, and the house at Marseilles that told the Latin world what Egypt had learned."
   },
   {
    "id": "priscillianist-asceticism",
@@ -41235,7 +41248,7 @@ const DATA = {
    "era": 3,
    "name": "The Church of Alexandria and Miaphysite Egypt",
    "shortName": "Church of Alexandria",
-   "informalName": "The Egyptian Church after Chalcedon",
+   "informalName": "From Athanasius to the Arab Conquest",
    "dates": "328-642",
    "start": 328,
    "end": 642,
@@ -53462,7 +53475,7 @@ const DATA = {
    "era": 6,
    "name": "The Church of the East — Timur's Catastrophe and the Northern Remnant",
    "shortName": "CoE after Timur",
-   "informalName": "The Mountain Remnant of Asia's Great Church",
+   "informalName": "The Northern Remnant of Asia's Great Church",
    "dates": "1317-1517",
    "start": 1317,
    "end": 1517,
@@ -63363,7 +63376,6 @@ const DATA = {
    "entry": null,
    "continuesAs": null,
    "streams": [
-    "oriental-orthodox",
     "eastern-catholic-uniate"
    ],
    "longDescription": "Mekhitar of Sebaste founded a religious congregation in 1701 with a purpose as much scholarly as devotional. To gather, edit and print the Armenian inheritance for a people scattered across empires. Driven out of Ottoman territory, he and his monks were given the small island of San Lazzaro in the Venetian lagoon in 1717, and turned it into one of the great centers of Armenian learning — a press, a library of thousands of manuscripts, and the dictionaries and translations that effectively created modern Armenian lexicography. Meanwhile, inside the Ottoman capital, the growing number of Armenians in communion with Rome created a problem the millet system had no room for. In 1742 Benedict XIV confirmed Abraham Petros I as Catholic patriarch of Cilicia, with a seat established at Bzommar in Mount Lebanon in 1750. The Armenian Apostolic Church remained overwhelmingly the larger body, but from that point there were two Armenian churches, and the argument between them was fought out in the politics of Constantinople.",
@@ -72415,7 +72427,8 @@ const DATA = {
    "regions": [
     "Mediterranean",
     "North America",
-    "North Europe"
+    "North Europe",
+    "Latin America"
    ],
    "lane": "5 Latin West & Catholicism",
    "laneLabel": "Latin West & Catholicism",
@@ -73564,7 +73577,8 @@ const DATA = {
    "end": 2010,
    "region": "N. America and Mexico, then global",
    "regions": [
-    "North America"
+    "North America",
+    "Latin America"
    ],
    "lane": "8 Beyond the Floor (researched & explained)",
    "laneLabel": "Non-Nicene Traditions",
@@ -73685,7 +73699,7 @@ const DATA = {
    "era": 10,
    "name": "The Way International; Unification Church; La Luz del Mundo",
    "shortName": "The Way & Others",
-   "informalName": "Iglesia ni Cristo, The Way, the Unification Church, and La Luz del Mundo",
+   "informalName": "The Way, the Unification Church, and La Luz del Mundo",
    "dates": "1926-c. 2010",
    "start": 1926,
    "end": 2010,
@@ -74172,7 +74186,8 @@ const DATA = {
    "end": 2010,
    "region": "Ethiopia, Eritrea, Jamaica",
    "regions": [
-    "Africa"
+    "Africa",
+    "Latin America"
    ],
    "lane": "4 Africa",
    "laneLabel": "Africa",
@@ -78297,7 +78312,7 @@ const DATA = {
    "era": 10,
    "name": "The Christian Right",
    "shortName": "Christian Right",
-   "informalName": "American Christian political mobilization",
+   "informalName": "the Religious Right",
    "dates": "1979-c. 2010",
    "start": 1979,
    "end": 2010,
