@@ -50,3 +50,7 @@ Applied from `Outline_Check.md` (batch 8, 2026-11-21). Line numbers are the file
 None.
 
 Left as they were, not asked for by the check: the Setting's "people's priest from 1 January 1519" (O 24, a date list, not spoken); the Four-fault self-check (O 149-155), a dated record of the researcher's own check, which still names "a few hands" (the chronicler) and the burning (Foxe).
+
+## Recheck fixes
+
+Applied word for word as `Recheck.md` gives them (no new wording).

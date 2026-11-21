@@ -36,3 +36,8 @@ Applied from `Outline_Check.md` (verdict FIX: 5 BLOCKING, 8 MINOR) to `Outline.m
 ## Not applied
 
 - None.
+
+## Recheck fixes
+
+- **B2, sheet item I0:** Source_Sheet.md line 52, two replacements (the 1309 "notably ... when warned" limit; the 1313 "commonly held" and "already noted" limits).
+- **M8, Do not say:** Outline.md line 131, "ST12 75705" replaced with "ST12 75707".

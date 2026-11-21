@@ -37,3 +37,9 @@ Applied from `Outline_Check.md` (verdict FIX: 3 BLOCKING, 16 MINOR) to `Outline.
 ## Not applied
 
 - None.
+
+## Recheck fixes
+
+- **M1, beat 5:** Outline.md line 55, "Ralph" replaced with "the monk".
+- **M2, For the card:** Outline.md line 154, Mabillon chronology sentence replaced (E1-ed 5148–5154).
+- **B1, beat 1:** Outline.md line 51, the sentence on Nivard following his brothers moved to follow the "safe part only" sentence and come before "Two years later".

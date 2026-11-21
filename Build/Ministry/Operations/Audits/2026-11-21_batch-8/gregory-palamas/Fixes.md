@@ -41,3 +41,7 @@ None.
 - Q1: PHK2 42167-42170 matches the outline's Greek (OCR χα|τηγοροῦσι, and " for ·).
 - Q2: PHK2 45852-45860 and PG150 67527-67533 match the outline's Greek. PHK2 prints "πατράσι" in lower case and PG150 "Πατράσι"; PG150 has the OCR "προποῦσαν".
 - **Not a finding, for the independent check:** in the Gregoras phrase (GRE3 530), the print reads "ὀδίνοντα" and the outline "ὠδίνοντα". The outline's form is the normal spelling of the verb, but the held print does not show it. It may be OCR. I left it as it is because the check did not raise it.
+
+## Recheck fixes
+
+Applied word for word as `Recheck.md` gives them (no new wording).

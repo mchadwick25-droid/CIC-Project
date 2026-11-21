@@ -50,3 +50,8 @@ None.
 
 - The Length line (line 13) and the cut-first total were not recounted. The check's recount (about 620 after the cuts) already includes the B4 credit.
 - The check's "For Mark" note (the tradition story's "the emperor Sigismund presiding") belongs to the census pass and is not touched here.
+
+## Recheck fixes
+
+- **M10, beat 1:** Outline.md line 57, text from "In 1402 he became preacher" to the end of the beat replaced.
+- **B3, Ending (a):** Outline.md line 92, Ending (a) replaced.

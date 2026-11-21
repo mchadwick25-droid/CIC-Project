@@ -37,3 +37,9 @@ Applied from `Outline_Check.md` (verdict FIX: 3 BLOCKING, 13 MINOR) to `Outline.
 ## Not applied
 
 - **MINOR 13:** no edit asked (Source_Sheet.md, for the record).
+
+## Recheck fixes
+
+- **MINOR 7, Q3 sun line:** Outline.md line 73, replaced as the recheck words it (SPECL 30207 *giorna*, 30309 *iorna*, 30382 *orna*, OCR).
+- **MINOR 7, For the card:** Outline.md line 167, replaced as the recheck words it.
+- **MINOR 10, Q1 variant:** Outline.md line 166, "I made a sojourn with them" now credited to Robinson.
