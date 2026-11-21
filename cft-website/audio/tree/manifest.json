@@ -2822,23 +2822,22 @@
  },
  "origen": {
   "file": "origen.mp3",
-  "bytes": 1901757,
-  "chars": 1869,
-  "text_sha256": "0ae0e4b43c6a1b7df87a511c8b1c9107705bc7ba2fb0463a3c4576316230cb8b",
-  "voiceId": "MFZUKuGQUsGJPQjTS4wC",
+  "bytes": 1103246,
+  "chars": 1997,
+  "text_sha256": "9a94d36c054e4dd3805db4e26a64a18ac490355e0fb0dcea799a485e176e6fb4",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
-  "outputFormat": "mp3_44100_128",
+  "outputFormat": "mp3_44100_64",
   "voiceSettings": {
-   "stability": 0.85,
-   "similarity_boost": 0.88,
-   "style": 0.05,
-   "use_speaker_boost": true,
-   "speed": 0.95
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
   },
-  "charsSent": 1982,
-  "openTag": "[calmly]",
-  "closingTag": "[warmly]",
-  "requestId": "6c9bqeykI21YZO7MOgIz"
+  "charsSent": 2109,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "QGg7ZFdvAV0Zk03jffir"
  },
  "athanasius-of-alexandria": {
   "file": "athanasius-of-alexandria.mp3",
@@ -2921,23 +2920,22 @@
  },
  "methodius-of-olympus": {
   "file": "methodius-of-olympus.mp3",
-  "bytes": 1860797,
-  "chars": 1780,
-  "text_sha256": "5195b6e8bff62050cb703636777c844f5863eda072f934ca22a71cc9a4d858e6",
-  "voiceId": "MFZUKuGQUsGJPQjTS4wC",
+  "bytes": 1092379,
+  "chars": 1899,
+  "text_sha256": "9f0f3c43a0de3899492d1610aec741c2c9f0085fb1bf43e009da0049cd583182",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
-  "outputFormat": "mp3_44100_128",
+  "outputFormat": "mp3_44100_64",
   "voiceSettings": {
-   "stability": 0.85,
-   "similarity_boost": 0.88,
-   "style": 0.05,
-   "use_speaker_boost": true,
-   "speed": 0.95
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
   },
-  "charsSent": 1873,
-  "openTag": "[calmly]",
-  "closingTag": "[warmly]",
-  "requestId": "6WtLvmhjDpw45urfv6QV"
+  "charsSent": 1974,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "TpfOP7gcv2ZdtzxWW01Y"
  },
  "constantine-the-great": {
   "file": "constantine-the-great.mp3",
@@ -3898,5 +3896,191 @@
   "openTag": null,
   "closingTag": null,
   "requestId": "rdUitLaQ1MScQ2p3SDxY"
+ },
+ "cyprian-of-carthage": {
+  "file": "cyprian-of-carthage.mp3",
+  "bytes": 2111363,
+  "chars": 3822,
+  "text_sha256": "71611528150a067f93ef4a752e3f79d5dd1d23070bbf2b7e7435c5d9e11d3e63",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3905,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "1I1nSTKqJyzaR4WCyTJY"
+ },
+ "lactantius": {
+  "file": "lactantius.mp3",
+  "bytes": 2251380,
+  "chars": 3978,
+  "text_sha256": "cc15ac7b0fa6008b92dca8615e6d093ce1078394b89ae5e5bdb0784a3854e876",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 4089,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "rWBiy64w2GNsOal7N2tZ"
+ },
+ "pamphilus-of-caesarea": {
+  "file": "pamphilus-of-caesarea.mp3",
+  "bytes": 2061417,
+  "chars": 3732,
+  "text_sha256": "15d1b270983e8ba0c69dc174fa1339c12ccd145c1a27facc65913d2cb17f6f4a",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3939,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "MA906k0fVxWlSuVfukgn"
+ },
+ "dionysius-of-alexandria": {
+  "file": "dionysius-of-alexandria.mp3",
+  "bytes": 1988483,
+  "chars": 3638,
+  "text_sha256": "b79e1c539df4c69557fe21bef65dd8feb1a5dfbaf81efa0d127bd1f5b324ae9d",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3724,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "7TZ6ikqolLECy0uqDsrG"
+ },
+ "novatian": {
+  "file": "novatian.mp3",
+  "bytes": 2109900,
+  "chars": 3679,
+  "text_sha256": "39960917fe935d2ee7a1f3591c0d7708696194c05dcfc30bda079df5d886a679",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3791,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "5VDZe1WOe0DPfqOLjFSj"
+ },
+ "pontius-the-deacon": {
+  "file": "pontius-the-deacon.mp3",
+  "bytes": 1969257,
+  "chars": 3416,
+  "text_sha256": "ebd9a9feaafc24af2adc5780383600a0cd3fd781de81c51ecaeccd41d47134bd",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3497,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "BgGqBYgaikWti1YBsVSI"
+ },
+ "eusebius-of-caesarea": {
+  "file": "eusebius-of-caesarea.mp3",
+  "bytes": 2227765,
+  "chars": 3903,
+  "text_sha256": "414792ad97b976d893c194e5ca71213c15e0ecd0c5e9a1c54b842ba468d2daf9",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 4116,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "F8qiuXg7zB8keR6lWRQz"
+ },
+ "anatolius-of-alexandria-and-laodicea": {
+  "file": "anatolius-of-alexandria-and-laodicea.mp3",
+  "bytes": 2056820,
+  "chars": 3711,
+  "text_sha256": "caef9af3f77a98896178e978142ba85f18f5d7182aefecaaf921f73f7ba44e34",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3816,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "DPIajIXIregzSWVJaIK7"
+ },
+ "peter-of-alexandria": {
+  "file": "peter-of-alexandria.mp3",
+  "bytes": 2054939,
+  "chars": 3693,
+  "text_sha256": "32f6511a1f6f5993586a8c28189630da69a68e78f26189c498a1415d4d651597",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3786,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "Do0VRk6krPEo8nTzgEbu"
+ },
+ "councils-of-rome-and-carthage-251": {
+  "file": "councils-of-rome-and-carthage-251.mp3",
+  "bytes": 2127037,
+  "chars": 3497,
+  "text_sha256": "552234c769ed217bc1baccf169cb47dee899dcae80d35d964ca7999116c6ec59",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  }
  }
 }
