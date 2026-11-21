@@ -21,3 +21,5 @@ One row per agent pass: the subagent's own token count as the harness reports it
 | Evagrius | 2 Outline check | Opus | 156,005 | FIX, 2 blocking, 6 minor |
 | Cyril | 2 Outline check | Opus | 163,411 | FIX, 2 blocking, 10 minor |
 | Eusebius of Nicomedia | 2 Outline check | Opus | 162,033 | FIX, 1 blocking, 10 minor |
+| Apollinaris | 2 Outline check | Opus | 169,342 | FIX, 2 blocking, 6 minor |
+| Hilary | 2 Outline check | Opus | 168,900 | FIX, 1 blocking, 14 minor |
