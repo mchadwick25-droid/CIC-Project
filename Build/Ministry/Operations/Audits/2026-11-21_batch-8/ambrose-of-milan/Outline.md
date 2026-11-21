@@ -1,0 +1,139 @@
+# Outline: Ambrose of Milan
+
+Sheet items (S, E, I, L, D) are in `Source_Sheet.md`, which gives the file and line for each. AMB is Ambrose's letters and works in English (NPNF, 1896); PAUL is Paulinus's *Life of Ambrose*, Latin and English; RUF is Rufinus's *Church History* in Latin; CONF / CONFL Augustine's *Confessions* in English and Latin; CD / CDL the *City of God*; POSS Possidius's *Life of Augustine*; THDT Theodoret in English; SOC Socrates and Sozomen in English. No Latin of Ambrose's own letters or sermons is held: his own words are rendered from the English.
+
+- **The essence:** In 374 the people of Milan, where the western emperors then held court, shouted for their governor, Ambrose, to be their bishop, though he was not yet baptized; within eight days he was baptized and made bishop (E1–E5; Documented). For twenty-three years he held that the church's buildings and its sacrament were not the emperor's to command: he would not give up a church to the empress's party, and he kept the emperor Theodosius from communion until he did public penance for a massacre (E8, E17, E18; Documented, his own letters and several witnesses).
+- **Also told:**
+  - **The hymns.** While his people held the church against the court's soldiers, they sang hymns, some of them his, and his secretary Paulinus says the custom began then at Milan and spread to almost every province of the West (E10–E12; Documented as Paulinus's witness and Ambrose's own words; the spread Widely Accepted).
+  - **Augustine.** He received the young teacher Augustine "like a father", and baptized him (E14; Documented, Augustine's own words). A clause: the `augustine-of-hippo` story tells the baptism.
+  - **The force in the record.** The court fined and jailed Milan's merchants and sent soldiers; his own crowd seized a priest of the other party, whom he rescued (E9; Documented, his own letter). Two years before Thessalonica he made the same emperor drop an order that Christians who had burned a synagogue should rebuild it (E15; Documented, his own letters).
+  - **What came of him.** The people's hymn-singing, copied across the Latin West; the penance, retold by Latin and Greek historians as a bishop's stand before an emperor; and Augustine, who praised his dying words and quoted him in his own disputes (I1–I3; Documented as each witness's telling).
+- **Length:** about 4 minutes 5 seconds (about 610 words at 150 a minute; never past 675). Counted first: the quotes, about 110 words (Q1 short form about 30, Q2 about 40, Q3 about 26, the palaces phrase 11); the plain sense of the words to explain, about 55 words (not yet baptized, the court's party, the great churches, offer the sacrifice, public penance); the witnesses credited, about 75 words (Paulinus once with who he was, Rufinus by role, Theodoret and his scene, Augustine on the penance, Augustine's biographer optional). That is about 240 words before any event. The events then get about 370. Why past three minutes: the job names five turns (the acclamation, the basilicas, the hymns, the penance, Augustine), two of them told with witnesses who differ, and a third goes to what came of him. Cut first, if needed: the Martin and Damasus clause (beat 1), the chamberlain's threat (beat 2), the Rufinus credit at the election (opening), Augustine's biographer (What came 3), the rite (What came 4). Never cut Callinicum or the force in beat 2.
+- **Setting:**
+  - Time: governor about 370 (S1, editor); acclaimed 374, consecrated eight days after baptism (E5; the date December 7 is the editor's: say "within eight days"); the basilicas in the mid-380s (D2: never a single year); Augustine baptized at Easter 387 (E14); Callinicum 388 and Thessalonica 390 (S3, editor's chronology; THDT-ed); died on Good Friday night, 397 (S3, editor; Paulinus: his body lay in the church through the Easter vigil).
+  - Place: Milan, in northern Italy, where the western emperors then held court (S2). Thessalonica, a great city in Greece, in Macedonia (THDT 16506–16507: "a large and very populous city, belonging to Macedonia"). Callinicum: "a town on the eastern frontier" is not in a held source; say "a town in the East" or name it bare.
+  - Tradition: the tree's name is "Ambrose's Milan" (S2). One mention at most.
+  - Language: he wrote and preached in Latin (sheet, Language).
+
+**Words to explain** (the first time each is heard; plain word or short gloss, worked into the sentence)
+
+- **catechumen** (E2, E3): "not yet baptized", "still preparing for baptism". Do not use the word bare.
+- **Arian / Homoian** (E7): "the court's party, Christians who would not say that the Son is of one being with the Father; their opponents called them Arians". Never "Arian" bare, and never "heretics" in the narrator's voice.
+- **basilica** (E7, E8): "one of the city's great churches". The word may be used once with its plain sense.
+- **the empress** (E7): "the empress Justina, mother of the boy emperor" (Valentinian II, by role).
+- **offer the sacrifice** (Q2): the narrator gives the plain sense, "celebrate the eucharist", or "lead the communion service".
+- **public penance** (E18): "confessing his sin before the whole church and staying away from communion for the time set him" (Rufinus, RUF 30568–30571; Sozomen, SOC 42196–42198). Give it in the sentence where the penance is told.
+- **communion / the sacrament** (E17, E18): "the bread and wine of the church's meal", once, if needed.
+- **the Trinity** (Q1 full form): if the full form is used, "the Father, Son and Holy Spirit" is already in it; the short form needs no gloss.
+- **hymn** is known; **antiphons** (PAUL): do not use.
+
+- **Shape:** Founder or leader. What he built: a city church that would sing, hold its buildings and keep its sacrament under its bishop. How it ran: the bishop preaching, baptizing and keeping discipline, the people keeping vigil and singing. Who it served: Milan's people, and through them the West's congregations. The trap is titles in place of acts; tell each turn through what he did and wrote: the refusal, the letter in his own hand, the hymns, the baptism.
+- **Sibling:**
+  - `augustine-of-hippo` (live, read; job: Augustine's life, his conversion and his teaching on grace). It already tells that he heard Ambrose preach at Milan and that "at Easter Ambrose baptized him". Here: one clause for the baptism, and "like a father" (Augustine's words, E14) in paraphrase or as a two-word phrase. The garden, the child's voice and "Take it and read" are its own; do not use them. The "child's voice" of Augustine's garden must not be confused with the child's voice Paulinus tells at Ambrose's election (D1).
+  - `paulinus-of-milan` (live, read; comes again in a later batch). It holds the fire on his head and Paulinus's "better to say nothing at all" line; not used here. Paulinus is credited here as witness only.
+  - `imperial-juridical-christianity` (tradition, live, read): it gives his "inside the church, not over it" as his exact words, quotes Augustine's "prepared to die with their bishop", and tells Augustine's account of the hymns and Callinicum. Barred: those quotes. Here the rule is told through the palaces line and the acts; the hymns through Paulinus and Ambrose's own words.
+- **Openings:**
+  1. **Chosen.** The acclamation (E1, E2; S1). In about three sentences: Milan, 374. The city's bishop is dead and its people are fighting over who will follow him, so the governor of the province, Ambrose, goes into the church to calm them. While he speaks, a shout goes up, "Ambrose for bishop!", and the whole crowd takes it up. Then: he was not yet baptized; and straight into the essence. Credit, in the next sentence or inside this one: his secretary Paulinus, writing years later, says a child's voice began the shout (D1). The Latin *Ambrosium episcopum* is rendered "Ambrose for bishop!" or "Ambrose, bishop!".
+  2. Not chosen: his letter to Theodosius, "I am writing with my own hand what you alone may read" (E17). Strong, but it belongs in time order at beat 6.
+
+**Story beats** (the opening, the essence and beat 1 make the first minute, about 160 words; beats 2 to 7 follow the life once, in order. The essence reaches ahead to the basilicas and the penance; each is told once, in its beat)
+
+1. **Bishop in eight days.** He was the governor of the province around Milan, a lawyer by training (S1). He had not been baptized (E2, E3). He resisted, by his own account (E4: "How I resisted my ordination"), and later wrote that he was carried off from the judge's seat to teach what he had not yet learned (E4; paraphrase, one sentence). Paulinus says he even fled the city by night (E4; credit Paulinus). Reason for the act: the people's demand, and the emperor's approval (E3, PAUL 3306–3312; one clause at most). He was baptized, and on the eighth day made bishop (E5; Documented, Paulinus). Optional (cut first): the bishop before him was of the other party, the man who had driven Martin of Tours out of Milan (E6, L2; Sulpicius), and whom a council under Damasus of Rome had condemned (E6, L3).
+2. **The basilicas, mid-380s.** The empress Justina, mother of the boy emperor, held to the court's party and wanted one of Milan's churches for its worship (E7; say "the mid-380s", D2). Counsellors, then the prefect, then counts and tribunes came to ask for it; he answered that a bishop could not hand over God's temple (E7, E8). Then the palaces phrase in the narrator's sentence (E8). His own crowd seized a priest of the court's party in the street, and he sent clergy to rescue him (E9). The court fined Milan's merchants two hundred pounds of gold and filled the prisons with tradespeople (E9). Soldiers surrounded the church before dawn, with the people inside (E9); he said he would not give it up, but he would not fight (E8; "I cannot surrender the basilica, but I may not fight", paraphrase). The soldiers came over to pray, not fight, he wrote (E9). Optional (cut first): the boy emperor's words, that if Ambrose bade them, his men would hand him over in chains; the chamberlain's threat to take his head (E9). At last the emperor withdrew the soldiers and gave back the fines (E9). The listener must hear: the court called this tyranny (the notary's "If you are a tyrant", E9), and his answer was that he had no arms but his own body to offer. All of this is his own report, written to his sister (say so once: "he wrote to his sister").
+3. **The hymns.** In those days of vigil the people sang hymns and psalms through the night (E9, E11). Quote 1 (short form): his answer when the court's men said his hymns had led the people astray (E10). The hymns were partly his own: Augustine names one, "God, maker of all things", as his (E12; Augustine's credit; one clause; do not quote its lines). Paulinus says the singing of hymns and the night vigils began then at Milan (E11). The spread is told in What came 1, not here.
+4. **Augustine.** A young teacher of public speaking from Africa had come to Milan; Ambrose, Augustine wrote, received him like a father, and at Easter 387 he baptized him (E14; one sentence; Documented; the sibling tells the rest).
+5. **Callinicum, 388.** When Christians burned a synagogue in the East, Theodosius ordered their bishop to rebuild it. Ambrose wrote that he would take the blame himself, and would not go to the altar until the emperor withdrew the order (E15; Documented, his own letters). Tell it plainly, as an act of the same man, without comment: the listener needs it to hear Thessalonica rightly.
+6. **Thessalonica, 390.** After a riot in Thessalonica killed the emperor's general, Theodosius sent troops, and many innocent people were cut down (E16; Paulinus "many innocent", "almost three hours"; Theodoret "it is said" seven thousand: credit it, D4). Ambrose stayed away when the emperor came back to Milan, and wrote to him privately, in his own hand (E17). Then Quote 2. The emperor did public penance before the church (E18; Documented: Rufinus, Paulinus, Sozomen; Augustine). Augustine wrote that the people, seeing their emperor lying on the ground, wept more than they had feared him in his anger (E18; paraphrase; credit Augustine; he names only "the discipline of the church", D6). Then the later telling, credited: a Greek historian two generations later, Theodoret, tells of Ambrose meeting the emperor at the church door and barring his way; Ambrose's own letter tells no such scene (D3; one or two sentences). The narrator does not settle which is so.
+7. **His death, 397.** Told in the Ending.
+
+**What came of him** (about a third of the story; heaviest first)
+
+1. **The people's hymns.** The custom of the people singing hymns and keeping vigil began at Milan in those days, Paulinus says, and in his own time it went on "almost through all the provinces of the West" (E11; credit Paulinus; Augustine says much the same of nearly all congregations, E11, one clause, unquoted). Some of the hymns said to be his are still sung; his editor reckons between four and twelve of them his own (E12; optional; credit "his editor").
+2. **A bishop before an emperor.** Later historians in Latin and in Greek told the penance again and again (I1). Theodoret held up both men, the bishop for his brave words and the emperor for his obedience (I1; paraphrase). Augustine counted the penance among the emperor's good works (I1). Defended: the church's buildings and its sacrament as God's, not the emperor's (E8, E17); the faith of Nicaea against the court's party (CEN floorNote; one clause at most).
+3. **Augustine.** Augustine later quoted him as an authority in his own quarrel with the Pelagians, who quoted him too (I3; say "his opponents quoted Ambrose as well"); and, his biographer says, Augustine kept Ambrose's rules of conduct and admired his last words (E20, POSS; optional, by role "Augustine's biographer").
+4. **The rite.** Optional, one clause: Milan still keeps a rite of worship that bears his name, though how much of it goes back to him is unclear (CEN `ambrose-of-milan` legacy; AMB-ed 1118–1122). Not as the closing line.
+
+**Quotes** (3, and one short phrase)
+
+1. ***Sermon Against Auxentius* 34** (AMB 42628–42642; English only, Latin not held). "They declare also that the people have been led astray by the strains of my hymns. I certainly do not deny it. That is a lofty strain, and there is nothing more powerful than it. For what has more power than the confession of the Trinity which is daily celebrated by the mouth of the whole people? All eagerly vie one with the other in confessing the faith, and know how to praise in verse the Father, Son, and Holy Spirit. So they all have become teachers, who scarcely could be disciples." Rendering, short form (for the story): "They also say that the people have been led astray by the songs of my hymns. I do not deny it. … So they have all become teachers, who could hardly be pupils." Full form (optional middle): "That is a mighty song, and nothing has more power. What has more power than the faith in the Father, Son and Holy Spirit, confessed every day by the mouth of the whole people? They all vie with one another to confess the faith. They know how to praise the Father, Son and Holy Spirit in verse." ("Pupils" renders "disciples", which today would sound like religious followers; the sense is learners.) Job: beat 3. His own answer to the court's charge, which ties the hymns to the siege and shows what they did: the whole people taught the faith by singing it.
+2. **Letter LI.13** (AMB 44183–44186; English only, Latin not held). "I dare not offer the sacrifice if you intend to be present. Is that which is not allowed after shedding the blood of one innocent person, allowed after shedding the blood of many? I do not think so." Rendering: "I dare not offer the sacrifice if you mean to be there. What is not allowed after the blood of one innocent person is shed, is it allowed after the blood of many? I do not think so." The narrator gives the plain sense of "offer the sacrifice": celebrate the eucharist. Optional lead-in, LI.14 (AMB 44188–44189): "I am writing with my own hand what you alone may read." Job: beat 6. The refusal in his own voice, private and plain, so the listener hears what he demanded and how; it also sets up the difference from Theodoret's door scene.
+3. **His last words** (Paulinus 45, Latin PAUL 5600–5602: "Non ita inter uos uixi ut pudeat me uiuere nec timeo mori, quia Dominum bonum habemus"; OCR scan, legible; confirmed by Possidius's Latin, POSS 3772–3774, "Non sic vixi, ut me pudeat inter vos vivere: sed nec mori timeo, quia bonum Dominum habemus", also legible; Kaniecka's and Weiskotten's English agree, PAUL 5649–5651, POSS 3816–3818). Rendering, from Paulinus's Latin: "I have not lived among you in such a way that I am ashamed to live. Nor am I afraid to die, because we have a good Lord." Job: the Ending. The man in his own voice at the end, heard by his household and remembered by Augustine.
+
+Short phrase in the narrator's sentence: **"The palaces belong to the emperor, the churches to the bishop"** (Letter XX.19, AMB 41691–41692; English only). Rendered as given, with "Emperor" and "Bishop" lowercased. Job: beat 2; his rule in nine words, said to the court's face. It is not the barred "within the church, not above it".
+
+No quote is lifted from another story; none of these is on the tree (sheet, Library sweep).
+
+**Names**
+
+- Ambrose: acts. Census "Ambrose of Milan"; "Ambrose" after first mention.
+- Justina: acts. Not on the tree; "the empress Justina, mother of the boy emperor". The boy emperor (Valentinian II) by role.
+- Theodosius: acts. Not on the tree as a person; "the emperor Theodosius". Do not confuse with `theodosius-i-of-alexandria`, a patriarch.
+- Augustine: acts and link. Census "Augustine of Hippo"; "Augustine".
+- Paulinus: link, as witness. Census "Paulinus of Milan"; "his secretary, Paulinus".
+- Theodoret: link, as witness, once. Census "Theodoret of Cyrrhus"; "a Greek historian two generations later, Theodoret".
+- Martin, Damasus: links, one optional clause in beat 1. Census "Martin of Tours", "Damasus of Rome".
+- Anyone else by role: "the boy emperor", "the bishop before him", "a historian of the next years" (Rufinus, if credited at the election), "the emperor's general" (Botheric), "a chamberlain" (Calligonus), "a notary", "a priest of the court's party" (Castulus), "Augustine's biographer" (Possidius), "his editor". Not named: Auxentius (either of them, D5), Valentinian I and II, Probus, Stilicho, Honoratus, Simplicianus, Marcellina, Satyrus, Symmachus, Rufinus the official, Gervasius and Protasius. Names past six: Ambrose, Justina, Theodosius, Augustine, Paulinus, Theodoret, and optionally Martin and Damasus. Each acts or is a link; Martin and Damasus go first if the count weighs.
+
+**Connection to carry into the story:** what passed from Ambrose was a church that sang and a line it held. The listener must be told two things. First, the hymns: the people's singing began as a way to keep watch through the nights the soldiers stood outside, and it was copied from Milan across the Latin West, Paulinus says (E9, E11); Ambrose himself said the songs made the whole people teachers of the faith (Q1). Second, the line: he would give the emperor money and land, but not a church, and not the sacrament to a man with blood on his hands (E8, E17); the emperor bowed and did public penance, and later writers in Latin and Greek told it as the moment an emperor stood under the church's discipline (E18, I1). The listener must also hear that the same refusal shielded the burners of a synagogue two years before (E15), so the line is told as what he did, not as a moral. Augustine, baptized by him, carries him on in a clause and in the biographer's line (E14, I3). Tell it through the acts: the shouting crowd, the refusal, the singing, the letter, the penance. Not as a "this matters because" sentence.
+
+**Ending:** close on the person, after What came. Recommended: Paulinus tells that when he lay ill, the city's leading men were sent to beg him to pray for a longer life; he answered with Quote 3 (E20). He died on the night of Good Friday, 397, praying with his arms stretched out in the shape of a cross; his lips moved, but no one heard his voice (E21; Paulinus; credit "Paulinus, who was there" or "his secretary"). End on that image or on the quote; add no moral. Alternative: end on Quote 3, then one clause, "and Augustine, years later, still praised those words" (E20, POSS), only if What came 3 has not used it.
+
+**Links**
+
+- Augustine of Hippo: received him like a son; baptized him; was quoted by him and praised his last words (L1).
+- Martin of Tours: driven out of Milan by the bishop before Ambrose (L2). Optional.
+- Damasus of Rome: his council condemned the bishop before Ambrose; he sent Ambrose the Christian senators' protest (L3). Optional, one clause; the protest is for the card.
+- Paulinus of Milan: his secretary, wrote his Life (L4).
+- Theodoret of Cyrrhus: told the door scene (L6).
+- Possidius of Calama: kept his last words as Augustine told them (L5). Optional, by role.
+- Rufinus of Aquileia, Socrates of Constantinople, Sozomen: told the election and the penance (L6). For the card, or Rufinus by role.
+
+**Who tells it**
+
+- **Ambrose himself**, for his resistance, the basilicas (his letter to his sister and his sermon), Callinicum and Thessalonica (his letters). Most of the basilica story, including the court's words against him, comes only from his own letter: say so once, in beat 2 ("he wrote to his sister").
+- **Paulinus**, his secretary, writing at Augustine's request years after his death, a saint's life meant to build up its reader (CEN `paulinus-of-milan`; PAUL header): the child's voice at the election (opening), the flight (beat 1), the hymns' spread (What came 1), the last words and the death (Ending). At first mention: "his secretary, Paulinus, who later wrote his life". His wonders are not told.
+- **Rufinus**, a Latin historian a few years after his death: the single shout at the election (opening, optional, by role); the bishops of Italy rebuking the emperor (card).
+- **Augustine**, who lived in Milan in those years: "like a father" and the baptism (beat 4); the people weeping at the penance (beat 6); the hymn that is Ambrose's (beat 3).
+- **Theodoret**, writing in Greek in the East two generations later: the door scene and the seven thousand, both credited (beat 6). The listener must know he wrote much later and far away, and that Ambrose's own letter does not tell the scene.
+- **The doubt is itself part of the penance scene:** his own private letter first, then the public penance, then Theodoret's door, credited. No stock how-we-know sentence.
+
+**Do not say**
+
+- Any word in "Words to explain" used without its plain sense the first time it is heard.
+- Not "a child cried out 'Ambrose bishop'" as fact. Say the crowd shouted; Paulinus says a child's voice began it (D1).
+- Not "he was baptized and consecrated in a week" or "on December 7" as fact. Say "on the eighth day", "within eight days" (E5).
+- Not "he was born in Trier" or "born in 340" (S1; editor: 333 or 340). His birth is not told.
+- Not "in 386" or "in 385" for the basilicas. Say "in the mid-380s" (D2).
+- Not "the Arians" or "the heretics" in the narrator's voice. Say "the court's party", glossed once (Words to explain).
+- Not "Justina persecuted the church" in the narrator's voice. Ambrose called it persecution (AMB 41521) and so did Augustine; say what the court did: fines, prisons, soldiers (E9).
+- Not "he wrote all the hymns sung in Milan" or "he wrote the Te Deum". Augustine names one hymn as his; his editor reckons four to twelve genuine (E12).
+- Not "he invented hymn-singing". It came "after the manner of the Eastern Church", Augustine says (E11); the narrator may say "the people's singing of hymns, already the custom in the East" only if needed, without quoting Augustine.
+- Not "the emperor is within the church, not above it" as a quote, nor "prepared to die with their bishop": barred (`imperial-juridical-christianity`).
+- Not "the soldiers attacked the church" or "stormed it". They surrounded it, and some came in to pray (E9). Rufinus says armed men were sent to break the doors (E7): if told, credit Rufinus.
+- Not "Ambrose's people attacked a priest" without the rescue, nor the rescue without the seizure (E9).
+- Not "seven thousand were killed" as fact. Credit Theodoret's "it is said" (D4).
+- Not "Ambrose met the emperor at the church door" or "barred the door" as fact. That is Theodoret's (and Sozomen's) telling; Ambrose's own letter says he kept away and wrote (D3).
+- Not "Ambrose excommunicated the emperor" in the narrator's voice. Say he would not celebrate the eucharist with him present until he repented (E17); Sozomen's word "excommunicated" is Sozomen's.
+- Not "for eight months" as fact (Theodoret alone).
+- Not "Augustine praised Ambrose for the penance". In the City of God he names only the church's discipline (D6).
+- Not "Ambrose made the thirty-day law" (E19; Theodoret alone).
+- Not that Ambrose burned the synagogue. He wrote that he would take the blame, "I declare that I set fire to the synagogue, or at least that I ordered those who did it" (E15); that is his rhetorical claim, not an act. Do not quote it; say "he wrote that he would take the blame himself".
+- Not "Callinicum was a mob he incited" or any detail of who burned it beyond "Christians" (AMB-ed summary). The bishop of Callinicum is by role.
+- Not "the first churchman to make an emperor do penance" (CEN `voices`) as fact; no held source says first.
+- Not "Augustine was converted by Ambrose" or "Ambrose converted Augustine". Say Augustine heard him preach, and Ambrose baptized him; the sibling tells the conversion.
+- Not "his last words were …". Paulinus places the reply some days before his death (E20, E21).
+- Not "he died on Good Friday, April 4" as Paulinus's. The day is the editor's; Paulinus gives the Easter vigil. Say "on the night of Good Friday, 397".
+- No wonder in the narrator's voice: not the child's voice, not the star over his body, not the infants who saw him, not the cures (E21).
+- Not "Auxentius" by name (D5).
+
+**Leave out**
+
+- The finding of the bodies of Gervasius and Protasius (E13): a side story, told in the tradition's own documented stories; not in the job.
+- The Altar of Victory (384) and Symmachus: a third confrontation the job does not name. For the card.
+- The council of Aquileia (381) and Maximinus's attack on him: outside the job; for the card (and the `aquileian-christianity` and `auxentius-of-durostorum` stories).
+- His missions to the usurper Maximus, Priscillian, Jovinian, his sister Marcellina and Liberius: for the card.
+- Paulinus's stratagems at the election (the torture and the public women, E4): told only as "he even fled the city", with Paulinus credited. The stratagems are for the card; they are Paulinus's account, and the editor calls them "questionable".
+- The thirty-day law (E19), the eight months and Rufinus the official (E18): Theodoret's and Sozomen's details; for the card.
+- Sozomen's dating of the door scene after 394 (D3): for the card.
+- Editors' judgments (D7): not carried.
+- His writings as a list (On the Duties of the Clergy, On the Faith, On the Mysteries): the shape's trap. "On the Duties" is used only for his own words on being carried off from the judge's seat.
