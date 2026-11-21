@@ -4101,5 +4101,214 @@
   "openTag": null,
   "closingTag": null,
   "requestId": "ZmgGJJOOmbEqJQpbc1dS"
+ },
+ "bernard-of-clairvaux": {
+  "file": "bernard-of-clairvaux.mp3",
+  "bytes": 2052431,
+  "chars": 3678,
+  "text_sha256": "b4ed558997b4d787ea3bd0b50906f8e79f64f4437577e54e70dd7a20141b899f",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3759,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "dmrXFpxcwVZAeTaLmdQG"
+ },
+ "thomas-aquinas": {
+  "file": "thomas-aquinas.mp3",
+  "bytes": 1990991,
+  "chars": 3649,
+  "text_sha256": "c8702a8e76fdd81a94a9fe0e2bb288d461f55ea75bc1d80dd5e4d95bed754115",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3730,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "wzI7WjHC9J0YOk3yDOhy"
+ },
+ "jan-hus": {
+  "file": "jan-hus.mp3",
+  "bytes": 2377603,
+  "chars": 4209,
+  "text_sha256": "88d6199816a6376535d2ae0a66d40cc973bd8ca96241f5cfd0122324089e8b15",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 4281,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "Wnd4sTMlv70PuFlrRWAW"
+ },
+ "catherine-of-siena": {
+  "file": "catherine-of-siena.mp3",
+  "bytes": 2133097,
+  "chars": 3716,
+  "text_sha256": "74678d03384aab9dcfa53dfbdee98908369ded2ceec7b1db319342a174ded94b",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3788,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "ksyNO0FlblFlYZacrLaW"
+ },
+ "gregory-palamas": {
+  "file": "gregory-palamas.mp3",
+  "bytes": 2199553,
+  "chars": 3887,
+  "text_sha256": "f97b000c0df1ef74fdca8793ef5526a72d9532d849ccbe6b9e1f273fc1ff3b86",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3977,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "X3H7glLDHqGgWgCDdbd4"
+ },
+ "huldrych-zwingli": {
+  "file": "huldrych-zwingli.mp3",
+  "bytes": 2101123,
+  "chars": 3758,
+  "text_sha256": "26cf6e97b890d648da1db9358d1a5c84dd61b649f5a2f412799c7886212cd27f",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3857,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "6K3A8PgXSS6gl9binOgK"
+ },
+ "thomas-cranmer": {
+  "file": "thomas-cranmer.mp3",
+  "bytes": 2092764,
+  "chars": 3686,
+  "text_sha256": "87ef4d4d45ee8ad68df9062115e13a0bb0eeae1a0a4812155d9c5a59b1289de1",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3749,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "ayK9IkuPIapuoSPPxOt5"
+ },
+ "teresa-of-avila": {
+  "file": "teresa-of-avila.mp3",
+  "bytes": 2097153,
+  "chars": 3657,
+  "text_sha256": "faca93ab1525ef3f41b03094b56651c441574d75131c3e9eba8866f1e4bff94f",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3747,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "ZRVY30DyAOmiEkQH92oq"
+ },
+ "ambrose-of-milan": {
+  "file": "ambrose-of-milan.mp3",
+  "bytes": 2179700,
+  "chars": 4015,
+  "text_sha256": "4df281f73954594f6e7dd24a98fae070e3a8e044f2ab08e731c6280b16cbea56",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 4105,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "kHzfHD3c6PZLMZX8f5uN"
+ },
+ "jerome": {
+  "file": "jerome.mp3",
+  "bytes": 2063298,
+  "chars": 3785,
+  "text_sha256": "bc6add072bf66ef4e25e98c186046fe0041c47c128a3b8831e758d46e0771918",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3875,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "7hRyFQerD2c1KleTV3KH"
+ },
+ "leo-of-rome": {
+  "file": "leo-of-rome.mp3",
+  "bytes": 2191194,
+  "chars": 3793,
+  "text_sha256": "584d49134ee403b3f5dd5ede1c500feeff6d17f342c3e416477b1b1672ea53a4",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3874,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "YaWRHgxM68wljiASwCfP"
  }
 }
