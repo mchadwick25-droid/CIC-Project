@@ -13,3 +13,4 @@ One row per agent pass: the subagent's own token count as the harness reports it
 | Epiphanius of Salamis | 1 Research | Opus | 332,427 | outline, ~600 words planned |
 | Damasus of Rome | 1 Research | Opus | 352,552 | outline, ~610 words planned |
 | Eunomius of Cyzicus | 1 Research | Opus | 372,351 | outline, ~600 words planned |
+| all nine | 1b Length count | Sonnet | 178,702 | 3 fit, 3 just over, 3 over 675 |
