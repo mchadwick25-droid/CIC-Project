@@ -10,6 +10,7 @@ it, never by deleting it.
    Mark's decision, with a real CI-minutes cost. Owner: Mark, in its own session.
 2. **Lawyer's read of the license policy (2026-11-06).** Recommended before wide promotion,
    especially the AI training section. Owner: Mark.
+   - 2026-11-21: Mark ruled no lawyer's read before the launch ("no lawyer, lets keep going"). Closed for launch.
 3. **Two quotes from a CC BY-SA edition (2026-11-06).** Two link quotes come from Brandt's
    1890 Lactantius in a CC BY-SA 4.0 digital edition. Quoting the public-domain print instead
    is the lineage thread's call.
