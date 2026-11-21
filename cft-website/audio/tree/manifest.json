@@ -1696,9 +1696,22 @@
  },
  "tertullian-s-voice": {
   "file": "tertullian-s-voice.mp3",
-  "bytes": 624057,
-  "md5": "1a1faf4ed5b5c18180fccc3473cd555a",
-  "text_sha256": "7b350b378ede7f0c74b9f5653e202861382482ee8d4dd2e40a1de75af207d0fc"
+  "bytes": 2118887,
+  "chars": 3914,
+  "text_sha256": "79a3532984c42a3a7421650de4efdc5b6c6906f569192edfab911664558a45c7",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 4001,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "TqFBW2Gyme3banferX6t"
  },
  "the-1904-07-revival-family-wales-mukti-india-pyo": {
   "file": "the-1904-07-revival-family-wales-mukti-india-pyo.mp3",

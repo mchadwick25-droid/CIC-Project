@@ -66,3 +66,5 @@ The two Acta spans are printed in Latin from KNOPF, a clean print that GEB confi
 - Not carried: Lactantius's criticism of To Demetrianus (L7 4571, not re-read) and the Coprianus mockery; Dionysius of Alexandria; Prudentius (not held); the Confessions oratory (the line breaks before the name).
 - Sulpicius Severus: the held line (npnf211 2657-2661) says the traveler wished to worship at the tomb, not that he did.
 - Whether Stephen's death fell in 257 rests on EUS 39406-39407 and 39421-39423 (an editor's reckoning); the card says so.
+
+- Release, coordinator, 2026-11-20: the census check allows `disputed` only under `ownWords`. The two `sources.about` notes (entries 0 and 3) are moved word for word into each entry's `author`; nothing added or dropped.

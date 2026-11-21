@@ -92,11 +92,10 @@
     "about": [
       {
         "title": "The Life and Passion of Cyprian, in Ante-Nicene Fathers vol. 5 (English)",
-        "author": "Pontius the deacon, as Jerome names him",
+        "author": "Pontius the deacon, as Jerome names him; the Life itself is unsigned, and Hartel's title page says only that it is commonly attributed to him",
         "date": null,
         "language": "English translation",
-        "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
-        "disputed": "Jerome says Pontius wrote it; the Life itself is unsigned, and Hartel's title page says only that it is commonly attributed to him."
+        "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
       },
       {
         "title": "Acta Proconsularia of Cyprian, no. 13, in Ausgewählte Märtyrerakten (ed. Knopf and Krüger)",
@@ -114,11 +113,10 @@
       },
       {
         "title": "Life of Cyprian and the Acta Proconsularia, in Hartel's CSEL 3.3 (a damaged scan)",
-        "author": null,
+        "author": "commonly attributed to Pontius the deacon, as Hartel's title page says",
         "date": "1871",
         "language": "Latin",
-        "file": "cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt",
-        "disputed": "Hartel's title page calls the Life commonly attributed to Pontius the deacon."
+        "file": "cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt"
       },
       {
         "title": "On Baptism, against the Donatists, in Nicene and Post-Nicene Fathers, first series, vol. 4 (English tr. J. R. King)",
