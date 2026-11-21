@@ -138,12 +138,14 @@ Confidence uses the project's five levels: Documented, Widely Accepted, Dominant
 
 **Set aside, and why.**
 - `council-of-ephesus-449_second-synod-of-ephesus-syriac-acts_perry1881.txt` and the Flemming German: the acts of 449 belong to the `eutyches` and `dioscorus` stories; this story tells Ephesus as Leo heard it.
-- `hefele_history-of-the-councils-v3-431-451_clark1883.txt`: a modern narrative of the same councils; Feltoe and the acts cover each point used.
+- `hefele_history-of-the-councils-v3-431-451_clark1883.txt`: a modern narrative of the same councils; Feltoe and the acts cover each point used. It does hold the Tome's Latin in a clean print (Q1 at 12336–12337), named beside Q1 in the outline as a second print.
 - `evagrius-scholasticus_ecclesiastical-history_walford1846.txt` (and Greek): sixth-century, drawn from the acts; adds nothing on Leo beyond them.
 - `mansi_...-tomus-7-451-492...`: later sessions and letters after 451; Leo's letters of 452 are held clean in LEO and in M6.
 - `collectio-avellana_*`: later papal letters citing Leo; nothing on his own acts.
 - `liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt`: the Latin and Duchesne's notes behind LP; LP's English suffices for its two claims.
 - `theopistus_histoire-de-dioscore...`, `timothy-aelurus_widerlegung...` (Armenian, not read): the anti-Chalcedonian side's lives and treatises; the side is carried here by ZAC, and in full by the `dioscorus` and `council-of-chalcedon-451` stories.
+- `liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt` (Liberatus, *Breviarium*, Leo at 78380–80468): a later witness to Chalcedon; no claim in the story needs it.
+- `theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt` (Theophanes, *Chronographia*): a later witness to Chalcedon; no claim in the story needs it.
 - `paul-the-deacon_history-of-the-langobards_foulke1907.txt`: Paul's Roman History, which Mommsen says copies Prosper on Attila (PROS 54977–54978, apparatus), is not held; the Lombard History held does not tell the meeting.
 - `npnf105_augustine-anti-pelagian-writings.xml`: the acolyte Leo of Augustine's letters, whom Feltoe says "it is thought" is the future pope (LEO 435–439); Inferential-Thin, card only.
 

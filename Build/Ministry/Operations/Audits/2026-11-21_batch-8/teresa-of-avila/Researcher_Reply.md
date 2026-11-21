@@ -15,6 +15,6 @@
 
 **Sources differ.** Her entry (1533 or 1535); years in the convent (20, 22 or 25); how many houses (17 or 32); how the Life reached the Inquisition; the censure's date (6 or 7 July 1575).
 
-**Gaps.** Her Spanish is held only for the Life. The tree's own tradition entry disagrees with the held texts on Báñez's report: for Mark.
+**Gaps.** Her Spanish is held only for the Life. The tree's own tradition entry disagrees with the held texts on Báñez's report: for Mark. For the census pass: Lewis (LIFE-L 2159–2162, 2194–2196) supports the Inquisition's giving the book to Báñez to examine; the held texts differ from the entry only on the tribunal (Madrid, LIFE-L 2189), the date (D6) and "shown to no one" (D7).
 
 **Four-fault check.** Run. Caught a jailing placed in the wrong year and an unheld year and age (removed); restored Báñez's "writings of women" testimony.
