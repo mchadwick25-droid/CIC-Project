@@ -68,7 +68,7 @@ Line references are to `Source_Sheet.md` rows (S, E, C, A, B, X, T, D, I), each 
 - **Do not say:**
   - "Eunomius taught the Son is unlike the Father in every way" → "not of the Father's being"; he called the Son like the Father in what he does, and the Father's image (A9).
   - "He denied the Son was God" → he called the Son the only-begotten God, but not of the Father's being (A7).
-  - "A creature like any other" or "a mere man" → he called the Son made and created, but above everything else that was made, and its maker (Whiston 58, 102); "a mere man" is an editor's gloss (Zenos, npnf202 13038-13040).
+  - "A creature like any other" or "a mere man" → he called the Son made and created, but above everything else that was made, and its maker (Whiston 58, 102); "a mere man" is an editor's gloss (Zenos, npnf202 13038-13042).
   - "Anomoean" as his own name for his party → "a name his opponents gave it" (S2).
   - "Theodosius exiled him because his creed was rejected" → state 383, then "about this time" (Sozomen), the banishment, with Socrates's reason: meetings in houses and readings of his books (T4, D-f).
   - "He presented his creed to a council" → "to the emperor, at the palace" (T3).

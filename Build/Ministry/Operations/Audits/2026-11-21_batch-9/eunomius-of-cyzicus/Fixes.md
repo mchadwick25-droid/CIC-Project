@@ -13,12 +13,12 @@ Fix pass on `Outline.md` against `Outline_Check.md`. Every cited line was opened
 7. **MINOR 8, Sozomen's qualifier.** "much of the church" became "the greater part of the church" in impact item 1. The Do not say line added. Checked: `npnf202...xml` 39174-39175.
 8. **MINOR 9, Photius's hearsay.** The check's second option taken: "for years" dropped from Beat 6 ("a reply to Basil he had worked on"). The first option would have credited Photius twice in one sentence. Checked: Photius 11996-12001 ("It is said ... several Olympiads").
 9. **MINOR 10a, Quote 1's verb.** "Then 'unbegotten' goes with him." became "Then 'unbegotten' follows." Checked: PG 29 99680 (ἀκολουθεῖ), 99701 (ἑπόμενον).
-10. **MINOR 10b, the "creature" line.** The Do not say line replaced with the check's text. Checked: Whiston 58 ("created by the Power of the Unbegotten God ... the most perfect of the subordinate Beings"), 102 ("the Son alone was made by the Father"); Zenos `npnf202...xml` 13041 ("a creature among other creatures, a mere man").
-11. **MINOR 11, names.** "Arius (link; `arius`)" added to Names.
+10. **MINOR 11, names.** "Arius (link; `arius`)" added to Names.
 
 ## Worded by me
 
 1. **MINOR 5, the year 360.** The check names the source and the confidence but not the wording. Setting now reads: "a leader at Constantinople in 360 (E5; the year from the census `anomoean-eunomian-christianity` `relationsSummary`, "The break began at Constantinople in 360": Widely Accepted, the tree's tradition entry);". Beat 1 carries the same citation after "(E4, E5;", and its confidence line adds "; the year 360 Widely Accepted". Held at `cic-website/data/world-census.json`, entry `anomoean-eunomian-christianity`, `relationsSummary`: "The break began at Constantinople in 360."
+2. **MINOR 10b, the "creature" line.** The check's text, with one change: its citation "npnf202 13038-13040" does not reach the gloss, which sits at line 13042. New text: "'A creature like any other' or 'a mere man' → he called the Son made and created, but above everything else that was made, and its maker (Whiston 58, 102); 'a mere man' is an editor's gloss (Zenos, npnf202 13038-13042)." Held at Whiston 58 ("created by the Power of the Unbegotten God ... the most perfect of the subordinate Beings"), 102 ("the Son alone was made by the Father"); `npnf202...xml` 13042 ("a creature among other creatures, a mere man").
 
 ## Not applied
 
