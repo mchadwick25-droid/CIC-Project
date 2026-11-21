@@ -681,6 +681,166 @@
    "scan": "0",
    "reads": "ὁ",
    "kind": "OCR misread; Migne's Patrologia Graeca 42 prints ὁ (epiphanius_panarion-haer-65-80-pg42-grc-lat_migne1863.txt, lines 13796-13797)"
+  },
+  {
+   "file": "cic/texts/thomas-aquinas_opera-omnia-t4-summa-theologiae-lat_leonine1888.txt",
+   "lines": "5801",
+   "scan": "*rum",
+   "reads": "rum",
+   "kind": "stray mark run into the word"
+  },
+  {
+   "file": "cic/texts/thomas-aquinas_opera-omnia-t4-summa-theologiae-lat_leonine1888.txt",
+   "lines": "5803",
+   "scan": "jaliud",
+   "reads": "aliud",
+   "kind": "edition's margin letter set into the line"
+  },
+  {
+   "file": "cic/texts/thomas-aquinas_opera-omnia-t4-summa-theologiae-lat_leonine1888.txt",
+   "lines": "5805",
+   "scan": "P  mine",
+   "reads": "mine",
+   "kind": "edition's margin letter set into the line"
+  },
+  {
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "13887",
+   "scan": "onmipotentis",
+   "reads": "omnipotentis",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "13890",
+   "scan": "30  tuntur",
+   "reads": "tuntur",
+   "kind": "margin line number run into the line"
+  },
+  {
+   "file": "cic/texts/philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt",
+   "lines": "42168",
+   "scan": "ὧν χα-",
+   "reads": "ὧν κα-",
+   "kind": "OCR misread (χ for κ)"
+  },
+  {
+   "file": "cic/texts/palamas_opera-omnia-pg150-grc-lat_migne1865.txt",
+   "lines": "67527",
+   "scan": "ἀχούσῃς",
+   "reads": "ἀκούσῃς",
+   "kind": "OCR misread (χ for κ)"
+  },
+  {
+   "file": "cic/texts/palamas_opera-omnia-pg150-grc-lat_migne1865.txt",
+   "lines": "67528",
+   "scan": "ἀμέθεχτον",
+   "reads": "ἀμέθεκτον",
+   "kind": "OCR misread (χ for κ)"
+  },
+  {
+   "file": "cic/texts/palamas_opera-omnia-pg150-grc-lat_migne1865.txt",
+   "lines": "67529",
+   "scan": "᾿ἀχείνην μοι νόει τὴν ἀνεχφοίτητόν τε χαὶ ἀνέχφαν-",
+   "reads": "ἐκείνην μοι νόει τὴν ἀνεκφοίτητόν τε καὶ ἀνέκφαν-",
+   "kind": "OCR misread (χ for κ, and ἀ for ἐ as the Philokalia prints it)"
+  },
+  {
+   "file": "cic/texts/palamas_opera-omnia-pg150-grc-lat_migne1865.txt",
+   "lines": "67530",
+   "scan": "μεθεχτὴν, νόει μοι τὴν φυσιχῶς",
+   "reads": "μεθεκτὴν, νόει μοι τὴν φυσικῶς",
+   "kind": "OCR misread (χ for κ)"
+  },
+  {
+   "file": "cic/texts/palamas_opera-omnia-pg150-grc-lat_migne1865.txt",
+   "lines": "67531",
+   "scan": "προποῦσαν τῷ Θεῷ πρόοδον, xat τὴν ἔχφανσιδ, xal",
+   "reads": "προσοῦσαν τῷ Θεῷ πρόοδον, καὶ τὴν ἔκφανσιν, καὶ",
+   "kind": "OCR misread, as the Philokalia prints it (χ for κ; Latin letters for καὶ)"
+  },
+  {
+   "file": "cic/texts/palamas_opera-omnia-pg150-grc-lat_migne1865.txt",
+   "lines": "67532",
+   "scan": "χαὶ οὕτως",
+   "reads": "καὶ οὕτως",
+   "kind": "OCR misread (χ for κ)"
+  },
+  {
+   "file": "cic/texts/palamas_opera-omnia-pg150-grc-lat_migne1865.txt",
+   "lines": "67533",
+   "scan": "Àoyo;",
+   "reads": "λογος",
+   "kind": "OCR misread, as the Philokalia prints it"
+  },
+  {
+   "file": "cic/texts/zwingli_selected-works_jackson1901.txt",
+   "lines": "2188-2214",
+   "scan": "THE FIRST ZURICH DISPUTATION. 57",
+   "drop": true,
+   "kind": "footnote and running head with page number",
+   "lines_held": [
+    "* [Hager in \"Gyrenrupfen \" presents the dispute about the council thus:",
+    "\"After this Mr. Fritz, the majordomo, very cleverly presented the com-",
+    "mand of his master, saying that his master had been surely informed,",
+    "that in a year there would be a council. Concerning this Zwingli did",
+    "not wish to speak. Thereupon you immediately began to speak, and rose",
+    "and said the same as Mr. Fritz had just said, and in a nice way referred",
+    "to the future council and showed yourself a little more, just as if the matter",
+    "had not also been commended to you. Thereupon Zwingli arose, and said we",
+    "should not be led astray by the council; he also had had a letter in which he",
+    "was informed how the German princes had demanded from the pope that he",
+    "have a council within a year, but that the pope had formally assented had not",
+    "yet happened, nor is it possible (he said) that within the space of a year a",
+    "general council could be gathered together; furthermore the three mightiest",
+    "lords, King of France, Emperor, and King of England, were at war with each",
+    "other, who could not easily be conciliated; also that the fixing of the council",
+    "would be left to the Germans. Hence one could see that the promise of a",
+    "council was only a postponement, not a definite resolve; but it mattered little",
+    "whether they had a council or not, for he believed that no man would live to",
+    "see a council in which the word of God would be allowed to rule. Therefore,",
+    "even if a council should be held at once, one would not care either, for we",
+    "would depend upon and preach the word of God; may the councils determine",
+    "herein what they please.\" After this he from Neftenbach arose and spoke.]",
+    "THE FIRST ZURICH DISPUTATION. 57"
+   ]
+  },
+  {
+   "file": "cic/texts/foxe_acts-and-monuments-v8_cattley-townsend1837.txt",
+   "lines": "7403",
+   "scan": "oflended",
+   "reads": "offended",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/foxe_acts-and-monuments-v8_cattley-townsend1837.txt",
+   "lines": "7404",
+   "scan": "pope,  as    first  be  pimished",
+   "reads": "first  be  punished",
+   "kind": "margin note run into the line, with an OCR misread"
+  },
+  {
+   "file": "cic/texts/teresa-of-avila_interior-castle_stanbrook1912.txt",
+   "lines": "1759",
+   "scan": "castle, 1 formed",
+   "reads": "castle, formed",
+   "kind": "footnote mark"
+  },
+  {
+   "file": "cic/texts/teresa-of-avila_interior-castle_stanbrook1912.txt",
+   "lines": "1762-1777",
+   "scan": "CHAP. I.] FIRST MANSIONS. 5",
+   "drop": true,
+   "kind": "footnotes, page number, scan stamp and running head",
+   "lines_held": [
+    "1 Way of Perf. ch. xxviii. 9.",
+    "* In her Life St. Teresa likened God to a diamond (ch. xl.",
+    "14) ; and elsewhere (ch. xi. 10) the soul to a garden wherein",
+    "our Lord takes His delight.",
+    "4",
+    "Digitized by t^.ooQle",
+    "CHAP. I.] FIRST MANSIONS. 5"
+   ]
   }
  ]
 }

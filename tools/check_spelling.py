@@ -75,7 +75,7 @@ _NAMES = re.compile(
     r"|Defence against the Arians|Defence of Dionysius|Refutation and Defence|On the Advent of Our Saviour|Liberian Catalogue|Catalogue of (?:the Saints of Ireland|writers|Abdisho)"
     r"|(?:In )?Defence (?:of|Against|before) (?:the |his |His |Himself|Dionysius|Origen|Ries|English)[\w' ]*[A-Z]\w*"
     r"|Programme to Combat Racism"
-    r"|African Civilisation|Carey\S{1,7}s Enquiry|An Enquiry into the Obligations|Le Theatre sacre des Cevennes"
+    r"|African Civilisation|Carey\S{1,7}s Enquiry|An Enquiry into the Obligations|Le Theatre sacre des Cevennes|The Bloody Theatre, or Martyrs Mirror"
     r"|Plough, Rifton"
     r"|Labour Party|(?:voted|stood as|and) Labour\b|Labour (?:carried|prime minister|leader|government)|Agricultural Labourers|Dorchester Labourers"
     r"|Church of the Saviour|All Saviour\S{1,7}s monastery"

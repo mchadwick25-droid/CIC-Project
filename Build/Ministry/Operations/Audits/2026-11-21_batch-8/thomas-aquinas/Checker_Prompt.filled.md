@@ -1,0 +1,12 @@
+# Batch 8 outline check prompt
+
+Read `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/roles/checker.md` and follow it for **Thomas Aquinas** in `Build/Ministry/Operations/Audits/2026-11-21_batch-8/thomas-aquinas/`, with these additions.
+
+- Mark approved this outline's heart on 2026-11-21 (`Hearts.md` in the batch folder). Still write your own heart first, as the role says. If the outline differs from the sources, report it as BLOCKING.
+- Mark's rulings for this batch are in the Decision-Log entries "Batch 8: the slate approved", "A quote may be used in more than one story where its author influenced more than one tradition or person" and "Batch 8 hearts approved, with the lengths" (all 2026-11-21), with "Batch 6: where sources disagree" (2026-11-19) (`Build/Ministry/Features/Church-Family-Tree/Decision-Log.md`). Check that the outline keeps each ruling that touches this story, and its job in the batch `README.md` as the hearts entry corrected it.
+- **Where held sources differ**, the outline credits each (Mark, 2026-11-19). An outline that states one source's reading as settled where another held source differs is BLOCKING.
+- **Damaged scans.** Where a quote's original is held only in a damaged scan, check that the outline says so and names a held print that confirms it, or plans the English alone. Greek is checked by hand.
+- **Words to explain.** Check that the list catches every church or period word a general listener would not know at once, that each gloss is right for this time and place and says no more than its source, and that common words (bishop, deacon, Scripture, gospel, church) are not glossed. A wrong or missing gloss on a word the listener needs is BLOCKING; a missing gloss on a passing word, or a needless gloss, is MINOR.
+- This research is new, so the Library sweep spot-check is full, as the role says.
+- For each sibling or link named in the outline, read its live story (the census `longDescription`), or its batch 8 `Outline.md` (the old census texts of this batch's other rewritten stories do not count; the README's quote allocation governs), and confirm no quote is shared, except one the README lists as lifted, used for a new job, and that the job does not overlap.
+- Write only `Build/Ministry/Operations/Audits/2026-11-21_batch-8/thomas-aquinas/Outline_Check.md`. Use no shared or scratch file. Do not read any `.brief.*` or `.audio.*` file for this subject or its own `longDescription`, and do not run `tools/validate-census.mjs`.
