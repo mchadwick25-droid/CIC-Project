@@ -105,7 +105,7 @@ On the kit: 3. To do: 3.
 | Story | Kind | Batch | Recorded |
 |---|---|---|---|
 | Bernard of Clairvaux (`bernard-of-clairvaux`) | person | 8 | no |
-| Francis of Assisi (`francis-of-assisi`) | person | 8 | no |
+| Francis of Assisi (`francis-of-assisi`) | person | 8 | yes |
 | Thomas Aquinas (`thomas-aquinas`) | person | 8 | no |
 
 To do: Bonaventure (`bonaventure`); Gregory VII (`gregory-vii`); Innocent III (`innocent-iii`).
