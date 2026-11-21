@@ -5039,3 +5039,25 @@ The limits, plainly:
 - Union keeps ours first, then theirs, so two entries added at once may sit in either order. Two Open-Gaps entries can also take the same number. `tools/check_open_gaps_numbers.py` runs in CI and fails on a repeated number; the newer entry is renumbered.
 - Union never raises a conflict, even where two threads edit the same line. It then keeps both versions. A reader of the merge diff has to look at it.
 - Not applied to the other logs, none of which conflicted. If one does, add its path to `.gitattributes`.
+## 2026-11-21 — Search wording: the home title, descriptions and About page describe the tree as it is now
+
+Mark, before submitting the site to Google and Bing: "we need to update the information on the site and search words for the system we are building not what it was". On the count: "these are not seperate, i would say something like 350 church traditions and their counsils, people and stories that shaped them, maybe include the connections". On the title: "yes use that title".
+
+**Done.**
+- Home page title: "Church Family Tree — An Interactive Map of Church History" (was "Church Family Tree — Church in Conversation"). Description, and the share preview's: "A free map of church history: 350 church traditions, the councils, people and stories that shaped them, and how they connect. Explore and listen as you go."
+- A hidden schema.org block on the home page names the site (Church Family Tree) and its maker (Faithways Studio, Inc.) for search results.
+- About page (`Build/tools/tree_site_pages.json`, generated): the tree as traditions with the councils, people and stories that shaped them, and their connections, in place of "620 movements" (the 620 were every census entry: 350 traditions, 251 people, 12 councils, 7 cross-church movements). A new "Listen as you explore" section. Traditions, rivers, eras and fully told traditions are counted from the census at build time, not typed.
+- Descriptions added for About, Privacy and Help us grow.
+- Left as they are: the Method and Data pages still count "movements", because they describe the data file, whose entries are called movements.
+
+## 2026-11-21 — Launch readiness: four fixes before the announcement
+
+Mark: "lets do a full review of readiness to launch, we are not looking for perfection or completion, just a great experience that people can trust", then "yes do 1 to 4".
+
+**Done.**
+1. Addresses for search: each tree page, site page, the license page and the home page name their own address (`rel="canonical"`), and the sitemap lists the final addresses (the seven site pages had ".html" addresses that redirect). Tree pages' share picture is now the tree's own title card, not Church in Conversation's.
+2. First view on a screen narrower than the map (phones, small tablets): the map opens at the start of the story, with the First Churches river and the labels beside it whole, in place of the middle of the map with both edges cut off. Reset view goes to the same place. Wide screens are unchanged.
+3. Every card on the map ends with "Checked with AI tools. No scholar or church partner has reviewed it yet. How the tree is made", the same statement the tree pages carry.
+4. A page for a missing address (`404.html`, served by `not_found_handling` in `wrangler.cft.jsonc`), where a blank page showed before.
+
+Not fixed now, logged in Open-Gaps: the map's own copy of the data has older informal names for seven entries; the built-world cards' "coming soon" line; feedback depends on the Church in Conversation server.
