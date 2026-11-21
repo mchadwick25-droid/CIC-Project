@@ -19,3 +19,5 @@ One row per agent pass: the subagent's own token count as the harness reports it
 | Basil, Eunomius, Apollinaris, Evagrius | 1c Cut-first lists | Opus | 134,549 | lists added |
 | Basil | 2 Outline check | Opus | 157,993 | FIX, 2 blocking, 8 minor |
 | Evagrius | 2 Outline check | Opus | 156,005 | FIX, 2 blocking, 6 minor |
+| Cyril | 2 Outline check | Opus | 163,411 | FIX, 2 blocking, 10 minor |
+| Eusebius of Nicomedia | 2 Outline check | Opus | 162,033 | FIX, 1 blocking, 10 minor |
