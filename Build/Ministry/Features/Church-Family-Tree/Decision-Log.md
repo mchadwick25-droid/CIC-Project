@@ -4974,3 +4974,11 @@ Mark: "the river icon should match the double river icon on the toggle".
 **Decided (Mark, 2026-11-21: "yes flip them").** When a name's usual side would cross another river and the other side crosses fewer, the name goes to the other side. If the flipped side has no room, the name returns to its usual side before it can be dropped, so no name is lost to this. People and story marks and place lines follow the name's side.
 
 **Result.** Names crossing another river, desktop, at 0.45 / 0.6 / 0.7 / 0.8: 13 / 13 / 19 / 18 of 119 / 236 / 299 / 350 shown (before: 24 / 29 / 39 / 41). All 350 still show at 0.8. About 25 names are flipped in an era view at 0.8.
+
+## 2026-11-21 — The zoom layers are spaced so every click in adds something
+
+**Why.** Mark asked that every zoom-in click add something until everything is on the map. The layers past 0.80 sat at uneven gaps (voices with the names at 0.80, story titles 1.3, places 1.6, people 2.2, dates 3.4), so some clicks crossed none: on `main`, desktop clicks to 1.11, 1.39 and 2.16 and phone clicks to 1.09 and 1.37 added nothing. A click multiplies the zoom by 1.25, so layers spaced by no more than that ratio can never be skipped.
+
+**Decided (Mark, 2026-11-21: "space the zoom layers so every click adds something").** Option A of three (re-space the layers; thin each layer in steps; names only). After the names finish at 0.80 the layers come one per click, in this order: voices on traditions 1.0, story titles 1.24, places 1.54, people 1.91, dates 2.37 (each at most 1.25 times the one before, so a click never skips one). The names still grow with the room from the farthest zoom-out to 0.80. The thresholds for names, councils, story marks and the reading level (0.90, used to frame the tour and era clicks) are unchanged. Everything is now on by about 2.4 instead of 3.4.
+
+**Result.** Measured per click with People and Stories on, from the opening zoom (desktop: counts of names / voice marks / story titles / places / people / dates drawn): 0.89 350/0/0/0/0/0, 1.11 350/75/0/0/0/0, 1.39 350/75/62/0/0/0, 1.73 350/75/62/337/0/0, 2.16 350/75/62/333/10/0, 2.71 350/75/62/334/2/1. Phone the same one step later. Every click up to the last layer adds a layer; past it the map is complete. Counts of people and dates depend on what is in view.

@@ -125736,7 +125736,7 @@ function voiceLine(home,row){
 }
 
 const Z_RIVER_WHO=0.30, Z_BUILT=0.34, Z_COUNCIL=0.45, Z_MAJOR=0.50, Z_COUNCIL_NAME=0.55, Z_STORY=0.65, Z_ALL=0.80,
-  Z_READ=0.9, Z_STORY_TITLE=1.3, Z_PLACE=1.6, Z_PEOPLE=2.2, Z_DATES=3.4;
+  Z_READ=0.9, Z_VOICES=1.0, Z_STORY_TITLE=1.24, Z_PLACE=1.54, Z_PEOPLE=1.91, Z_DATES=2.37;
 const RIVER_WHO_MAX=5, TRAD_WHO_MAX=4, WHO_FALLBACK=3;
 const MARK_PX=14, MARK_MAX_PX=18, MARK_MIN_U=10;
 function markU(){return Math.min(Math.max(MARK_MIN_U,MARK_PX/scale),MARK_MAX_PX/scale);}
@@ -126249,8 +126249,8 @@ function setWhoMark(p,cx,cy,U,away){
   }else if(hit)hit.style.r=(22/scale)+'px';
 }
 function placeWhoMarks(){
-  const showRiver=scale>=Z_RIVER_WHO||!!whoScope, showTrad=scale>=Z_ALL||!!whoScope;
-  const showRiverS=scale>=Z_RIVER_WHO||!!storyScope, showTradS=scale>=Z_ALL||!!storyScope;
+  const showRiver=scale>=Z_RIVER_WHO||!!whoScope, showTrad=scale>=Z_VOICES||!!whoScope;
+  const showRiverS=scale>=Z_RIVER_WHO||!!storyScope, showTradS=scale>=Z_VOICES||!!storyScope;
   gWhoPills.style.display=showRiver?'block':'none';
   gProfPills.style.display=showTrad?'block':'none';
   gStoryPills.style.display=showRiverS?'block':'none';
