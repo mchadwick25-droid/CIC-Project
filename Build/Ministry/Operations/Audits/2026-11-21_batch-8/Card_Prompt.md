@@ -7,4 +7,4 @@ Read `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/roles/card.md` and fo
 - Use no shared, scratch or temporary file of any kind, and do not run `tools/validate-census.mjs`.
 - **Where held sources differ**, the card credits each (Mark, 2026-11-19). Carry onto the card what the review, recheck or outline sent there (look for "for the card", "the card should" and "For the card, not the story" in `Outline.md`, `Review.md` and `Recheck_Story.md`).
 - **Originals.** A quote whose original is held only in a damaged scan is printed in English alone on the card unless a held print confirms the reading (`Build/Ministry/Operations/Audits/2026-11-19_batch-6/Batch_Originals_Ruling.md`). Greek is checked by hand as well as by the census check.
-- For Origen and Methodius, the research is in `Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/` (`drafts/{SLUG}.refs.md`, `quotation-originals.json`); there is no Outline.md.
+- For Constantine, the research is in `Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/` (`drafts/{SLUG}.refs.md`, `quotation-originals.json`); there is no Outline.md.

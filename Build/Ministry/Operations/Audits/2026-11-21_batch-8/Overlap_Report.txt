@@ -1,0 +1,21 @@
+ambrose-of-milan: SPELLING Macedonia (the tree has Macedonian, Macedonius)
+bernard-of-clairvaux: SPELLING Consideration (the tree has Consolidation, Consolidations)
+catherine-of-siena: SPELLING Penance (the tree has Peace)
+francis-of-assisi: SPELLING Damiano (the tree has Daman, Damian)
+francis-of-assisi: SPELLING Friars (the tree has Frías)
+francis-of-assisi: SPELLING Vitry (the tree has Victory)
+gregory-palamas: SPELLING Gregoras (the tree has Gregorian, Gregorius, Gregory)
+gregory-palamas: SPELLING Raised (the tree has Praise)
+huldrych-zwingli: SPELLING Almighty (the tree has Mighty)
+huldrych-zwingli: SPELLING Kappel (the tree has Appeal)
+huldrych-zwingli: SPELLING Minster (the tree has Meister, Ministry, Münster)
+huldrych-zwingli: SPELLING Myconius (the tree has Monimus, Tyconius)
+jan-hus: SPELLING Urged (the tree has Urgel)
+jerome: clear
+leo-of-rome: clear
+teresa-of-avila: SPELLING Inquisitors (the tree has Inquisition)
+teresa-of-avila: SPELLING Princess (the tree has Priests, Prince, Provinces)
+thomas-aquinas: SPELLING Summa (the tree has Sauma)
+thomas-aquinas: SPELLING Tocco (the tree has Occom)
+thomas-cranmer: SPELLING Devon (the tree has Levon)
+constantine-the-great: clear

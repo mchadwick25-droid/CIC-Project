@@ -1,0 +1,6 @@
+13 briefs; a move in more than 3 is marked
+ok    0  an unnamed opening, then the name revealed: -
+ok    3  a setting slot (a time and a place stacked in one early sentence, or "in what is now" more than once): jan-hus, thomas-aquinas, thomas-cranmer
+ok    1  the "Most of what we know" witness formula: jerome
+OVER  6  a sentence opening with "Yet": gregory-palamas, huldrych-zwingli, jan-hus, jerome, leo-of-rome, thomas-cranmer
+OVER  5  an ending on a later writer or institution (a later time marker in the last two paragraphs): ambrose-of-milan, bernard-of-clairvaux, catherine-of-siena, jerome, leo-of-rome
