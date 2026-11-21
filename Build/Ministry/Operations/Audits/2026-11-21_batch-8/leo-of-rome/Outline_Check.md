@@ -19,6 +19,3 @@ From the census entry (teaser: "Bishop of Rome whose letter to Flavian of Consta
 
 What came of him, heaviest first: the Tome as the received statement of the two natures; his claim to speak for Peter, which outlasted the dispute over canon 28; his memory as the saviour of Italy (later Roman witnesses); the churches that refused Chalcedon read him as the enemy (hostile Syriac chronicle).
 
-## Findings
-
-(Filled below after reading the outline.)
