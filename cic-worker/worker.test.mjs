@@ -300,3 +300,67 @@ test('events: at most 25 events from one request', async () => {
   await worker.fetch(post(JSON.stringify(Array.from({ length: 40 }, () => ({ t: 'layer', a: 'people' })))), env);
   assert.equal(points.length, 25);
 });
+
+const HOME_HEAD = '<!doctype html><html><head><meta charset="utf-8"><title>Church Family Tree — An Interactive Map of Church History</title>\n'
+  + '<meta name="description" content="A free map of church history.">\n<link rel="canonical" href="https://www.churchfamilytree.com/">\n'
+  + '<meta property="og:title" content="Church Family Tree">\n<meta property="og:image" content="https://www.churchfamilytree.com/share/church-family-tree.jpg">\n'
+  + '<meta name="twitter:card" content="summary_large_image">\n<script>var SECRET_DATA_MARKER=1;</script></head><body>';
+function homeEnv(head = HOME_HEAD, filler = 5 * 1024 * 1024) {
+  const state = { pulled: 0, calls: [] };
+  return {
+    state,
+    ASSETS: {
+      async fetch(req) {
+        state.calls.push(new URL(req.url).pathname + ':' + req.method);
+        const chunk = new Uint8Array(65536).fill(120);
+        let sent = false;
+        return new Response(new ReadableStream({
+          pull(controller) {
+            if (!sent) { sent = true; controller.enqueue(new TextEncoder().encode(head)); return; }
+            if (state.pulled * 65536 >= filler) { controller.close(); return; }
+            state.pulled += 1; controller.enqueue(chunk);
+          },
+        }), { status: 200, headers: { 'Content-Type': 'text/html' } });
+      },
+    },
+  };
+}
+const LINKEDIN = 'LinkedInBot/1.0 (compatible; Mozilla/5.0; Apache-HttpClient +http://www.linkedin.com)';
+
+test('link-preview crawler gets a small page made from the home page head tags', async () => {
+  const env = homeEnv();
+  const res = await worker.fetch(get('/?utm_source=linkedin', { 'User-Agent': LINKEDIN }), env);
+  const body = await res.text();
+  assert.equal(res.status, 200);
+  assert.match(res.headers.get('Content-Type'), /text\/html/);
+  assert.ok(body.length < 3000, 'small page, not the 9 MB map');
+  for (const tag of ['<title>Church Family Tree', 'name="description"', 'rel="canonical"', 'property="og:image"', 'name="twitter:card"']) assert.ok(body.includes(tag), tag);
+  assert.ok(!body.includes('SECRET_DATA_MARKER'), 'scripts and data are left out');
+  assert.equal(res.headers.get('Vary'), 'User-Agent');
+  for (const k of Object.keys(BASELINE_HEADERS)) assert.equal(res.headers.get(k), BASELINE_HEADERS[k]);
+  assert.ok(env.state.pulled < 20, 'stopped reading after the head, not the whole page');
+});
+
+test('every preview crawler on the list gets the small page; a browser and a search crawler do not', async () => {
+  for (const ua of ['Twitterbot/1.0', 'Slackbot-LinkExpanding 1.0', 'Mozilla/5.0 (compatible; Discordbot/2.0)', 'WhatsApp/2.23', 'facebookexternalhit/1.1']) {
+    const res = await worker.fetch(get('/', { 'User-Agent': ua }), homeEnv());
+    assert.ok((await res.text()).length < 3000, ua);
+  }
+  for (const ua of ['Mozilla/5.0 (Windows NT 10.0) Chrome/120 Safari/537.36', 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)', '']) {
+    const env = homeEnv(HOME_HEAD, 65536);
+    const res = await worker.fetch(get('/', ua ? { 'User-Agent': ua } : {}), env);
+    assert.ok((await res.text()).includes('SECRET_DATA_MARKER'), 'the page itself: ' + (ua || 'no agent'));
+  }
+});
+
+test('preview page: HEAD has no body, other paths and a head with no tags pass through', async () => {
+  const head = await worker.fetch(get('/', { 'User-Agent': LINKEDIN }, 'HEAD'), homeEnv());
+  assert.equal(head.status, 200);
+  assert.equal(await head.text(), '');
+  const env = homeEnv();
+  await worker.fetch(get('/about', { 'User-Agent': LINKEDIN }), env);
+  assert.deepEqual(env.state.calls, ['/about:GET']);
+  const bare = homeEnv('<!doctype html><html><head></head><body>', 65536);
+  const res = await worker.fetch(get('/', { 'User-Agent': LINKEDIN }), bare);
+  assert.ok((await res.text()).includes('<body>'), 'no tags to use: the page itself');
+});
