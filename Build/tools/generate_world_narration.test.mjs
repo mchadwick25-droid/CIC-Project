@@ -1,6 +1,9 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { parseArgs, splitParagraphs, worldPieces, MAX_CHARS_PER_REQUEST } from './generate_world_narration.mjs';
+import fs from 'fs';
+import os from 'os';
+import path from 'path';
+import { parseArgs, splitParagraphs, worldPieces, treePieces, MAX_CHARS_PER_REQUEST } from './generate_world_narration.mjs';
 
 test('splitParagraphs: one part when it fits; balanced parts, in order, none over the limit', () => {
   assert.equal(splitParagraphs(['a'.repeat(100)]).length, 1);
@@ -47,4 +50,19 @@ test('narration is requested and stored at the same 64 kbps mono size', async ()
   const { NARRATION_BITRATE, NARRATION_OUTPUT_FORMAT } = await import('./generate_tree_narration.mjs');
   assert.equal(NARRATION_OUTPUT_FORMAT, 'mp3_44100_64');
   assert.equal(NARRATION_BITRATE, '64k');
+});
+
+test('treePieces: reads the reviewed rewrite and refuses a missing or stale one', () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'wn-tree-'));
+  fs.mkdirSync(path.join(dir, 'w'));
+  const pieces = [{ key: 'story', parts: ['First old paragraph.\n\nSecond old paragraph.'] }];
+  fs.writeFileSync(path.join(dir, 'w', 'story.orig.txt'), 'First old paragraph.\n\nSecond   old paragraph.\n');
+  fs.writeFileSync(path.join(dir, 'w', 'story.txt'), 'New first.\n\nNew second.\n');
+  const [p] = treePieces('w', pieces, dir);
+  assert.equal(p.text, 'New first.\n\nNew second.');
+  assert.deepEqual(p.parts, ['New first.\n\nNew second.']);
+  assert.throws(() => treePieces('w', [{ key: 'story', parts: ['Changed source.'] }], dir), /stale/);
+  assert.throws(() => treePieces('w', [{ key: 'legacy', parts: ['x'] }], dir), /no reviewed rewrite/);
+  assert.equal(parseArgs(['--tree']).tree, true);
+  fs.rmSync(dir, { recursive: true, force: true });
 });

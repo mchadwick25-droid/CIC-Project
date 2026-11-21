@@ -1,0 +1,68 @@
+# Outline check: Eusebius of Caesarea
+
+Checker, batch 7, 2026-11-20.
+
+## The checker's own heart, written before reading the outline
+
+Disclosure: when the batch README and `Hearts.md` were first printed to the terminal, the tool's overflow preview also showed the last lines of `Outline.md` (the tail of Do not say and the Leave out list). Nothing above those lines was seen. The account below rests on the census entry, the card, the source sheet and what Eusebius is known for.
+
+**The essence.** Eusebius, bishop of Caesarea in Roman Palestine, wrote the first history of the church, building it from the letters, lists and books he could gather (the libraries of Caesarea and Jerusalem, the Edessa archive), so that much of what is known of the first three Christian centuries, and many writers' own words, now reach us only through his pages. That is why he is on the tree: he is the channel through which most of the early church is remembered, and later historians took up his story where he stopped.
+
+**Also told.**
+- He lived through the Great Persecution (303 on) as an eyewitness: churches torn down, Scriptures burned, his friend and teacher Pamphilus martyred; and he set a rule for what he would and would not record of it (Documented, own words; the rule's fairness Contested).
+- With Pamphilus he wrote a Defense of Origen (a clause; the Pamphilus story's job).
+- He came to know Constantine and wrote his Life, by his own rule only of the emperor's religious acts; Socrates judged it more praise than accurate history (Documented as each one's words).
+- At Nicaea (325) he signed the creed after questioning its new words, "not without inquiry", for peace; Socrates and Athanasius tell his hesitation differently, and whether he leaned to Arius was argued both ways (Contested).
+- At Tyre (335) he sat among the judges of Athanasius; Epiphanius tells Potamo's charge that he left prison by some forbidden act, and the Egyptian bishops say he was "accused of sacrificing"; both are charges, not findings (Contested; told as charges).
+- What came of him: his quotations preserve otherwise lost texts; Socrates, Rufinus and Jerome carried his work on; the title "Father of Church History" (Widely Accepted).
+
+**Compared with the outline.** The outline's heart matches this one in substance, and matches the heart Mark approved on 2026-11-20 (`Hearts.md`, about 3:50). No major contribution is left out. The sources hold it: the plan and the claim to be first (EUS 6876–6979), the libraries (EUS 35433–35443, 9497–9524), the lost texts kept in his quotations (EUS-ed 6965–6969), the continuers (SOC 1842–1868; GRK 26043–26101).
+
+## Verdict: FIX
+
+Two BLOCKING findings, both small to correct. Everything else holds.
+
+## What was checked and holds
+
+- **Rulings.** The job in the README, unchanged by the hearts entry (its corrections touch Pontius, Cyprian and "Melitius", not this story), is kept: the "lonely and untrodden path" is Quote 1, the persecution, Constantine, "not without inquiry", Tyre told as charges. Slate item 2 is kept: the Nicaea word and the vision are clauses, and "Conquer by this" and the "civil strife" line are barred in Do not say. The quote allocation is kept. "Where sources disagree" (2026-11-19) is kept at every point the record divides: the signing at Nicaea (his letter, Socrates SOC 2971–2978, Athanasius ATH 26780–26786), who presided at Tyre (Epiphanius, McGiffert, Hefele: told as "sat among the judges, Epiphanius says"), whether he was in prison (Potamo's question only; E11), the Tyre scene (Epiphanius against Rufinus GRK 28009–28017), the Life (his rule against Socrates's judgment), the Abgar letters, and the edict date (told only as "in 303").
+- **Quotes, made in my own rendering first.** Q1 (EUS 6934–6937): verbatim in McGiffert; the rendering matches mine and adds nothing. Q2 (Greek GRK 13615–13620, read by hand through the OCR damage): the normalised Greek is right word for word; the rendering is faithful ("we saw" said three times for the one ἐπείδομεν, as the outline declares). Q3 (Greek EPI 44590–44604, read by hand): the normalised Greek is right; the rendering matches mine and Petavius's Latin (44669–44675) clause by clause; McGiffert's English (EUS-ed 1515–1524) agrees. "Not without inquiry": οὐκ ἀνεξετάστως stands at SOCG 7520, Hussey's Latin at 7559, and the English at EUS 2160 and ATH 19867.
+- **Damaged scans.** Each damaged original is flagged and named with a held print that confirms it: Q2 (McGiffert's English; Rufinus's Latin for the core), Q3 (Petavius's clean Latin; McGiffert; Hefele), the short phrase (Hussey's Latin; two English prints). Q1 is planned from the English alone, since HE I–V in Greek is not held, and says so.
+- **Beats, setting, links.** Every beat line checked at its cited lines holds and carries the right confidence and witness: S1, S3, S4, S5; E1–E4, E6–E10, E12–E18, E20–E22, E25; I1 (Josephus: "Eusebius himself, who is the first one to quote this passage", EUS-ed at about 9214), I2, I3, I4. The essence comes in the first minute; the life is told once, in order; the death is held for the Ending.
+- **Siblings and links.** The live `council-of-nicaea-325`, `constantine-the-great`, `josephus`, `pliny-the-younger`, `polycrates-of-ephesus`, `socrates-of-constantinople`, `athanasius-of-alexandria`, `rufinus-of-aquileia`, `epiphanius-of-salamis`, `jerome`, `arius` and `origen` texts were read, with the batch 7 `pamphilus-of-caesarea` and `tertullian-s-voice` outlines. No quote is shared; a search of every other `longDescription` finds none of the outline's quoted spans. The jobs do not overlap: the Pamphilus outline keeps the library, the Defense and its authorship, and bars this story's quotes; this outline keeps Pamphilus to one clause and leaves the Defense out. Names keep the census spellings.
+- **Library sweep (full).** Corpus-map buckets checked: `palestinian-church-pre-constantinian` (the Martyrs of Palestine, Alexander, Africanus, Josephus), `imperial-juridical-christianity`, `homoian-arian-christianity`, `aquileian-christianity` (Rufinus X–XI in GRK), `hieronymian-ascetic-literary` (JCHRON), and the others the sheet lists. A search of `cic/texts/` for Eusebius's held works and his witnesses (Socrates, Sozomen, Theodoret, Gelasius, Photius, Hefele, Harnack) matches the sheet, with one gap (MINOR 9). No claim rests on an editor where a held primary text would carry it.
+
+## Findings
+
+### BLOCKING
+
+1. **"Pliny the Younger's ruling" is wrong** (What came 1; Links, "passed on his ruling"; sheet I1, "Pliny's ruling"). The ruling was Trajan's. Pliny wrote to Trajan, and "In reply to this Trajan made the following decree: that the race of Christians should not be sought after, but when found should be punished" (HE III.33.2; EUS at about 19470); "We have taken our account from the Latin Apology of Tertullian" (III.33.3). The live `pliny-the-younger` story tells it the same way. **Correction:** in What came 1, for "and he retold Pliny the Younger's ruling on the Christians, taken from Tertullian", write "and he retold, from Tertullian, Pliny the Younger's letter to the emperor Trajan about the Christians and the emperor's reply". In Links, for "Pliny the Younger: passed on his ruling, from Tertullian (L8)", write "Pliny the Younger: retold his letter and Trajan's reply, from Tertullian (L8)". Add to Do not say: "Not 'Pliny's ruling'. The ruling was Trajan's reply to Pliny (HE III.33.2)."
+
+2. **The gloss of "the Great Persecution" says more than the sources, and the main source contradicts it** (Words to explain: "the last and greatest persecution of Christians by Rome's emperors, which began in 303"). No held line is cited for "last" or "greatest", and Eusebius himself tells a later persecution by an emperor: Licinius, who razed and closed churches and put bishops to death (HE X.8; EUS at about 50927–51200, with McGiffert's note that Licinius persecuted from about 319). A listener needs this word, so a wrong gloss blocks. **Correction:** replace the gloss with "the persecution the emperors began in 303, when they ordered the churches torn down and the Scriptures burned (E7)". Add to Do not say: "Not 'the last persecution' or 'the greatest persecution'. Say 'the persecution the emperors began in 303' (E7)."
+
+### MINOR
+
+3. **Two quoted spans sit outside the quote list.** (a) Beat 5 puts "refused the day before" in quote marks as Athanasius's words. The held English is "who had denied the day before" (ATH 26780), and the Greek is καί τι πρὸ μιᾶς ἀρνούμενος (ATHG 74623–74624, damaged OCR). "Refused" is a fair plain rendering, but it is no one's verbatim words. **Correction:** drop the quote marks: "Athanasius, who was there and was his opponent, says he refused the day before, then signed …". (b) Beat 6 quotes "accused by our confessors of sacrificing to idols". That is Robertson's English (ATH 22308–22309). The Greek has only ἐπὶ θυσίᾳ κατηγορεῖτο ὑπὸ τῶν σὺν ἡμῖν ὁμολογητῶν, "accused of sacrifice by the confessors with us" (ATHG 61819–61820, damaged OCR). "To idols" is the translator's word. **Correction:** quote only "accused", or "accused … of sacrificing", and give the plain sense in the narrator's words ("of offering sacrifice to the Roman gods", the gloss already listed). List it under the short phrases, with ATHG 61819–61820 (damaged OCR), confirmed by ATH 22308–22309.
+
+4. **The exile clause can mislead** (beat 6: "The council deposed Athanasius, and the emperor exiled him"). Athanasius says the emperor first wrote against the council's injustice. He exiled him only after a new charge at Constantinople, that Athanasius had threatened the grain ships (ATH 26113–26128). **Correction:** "The council deposed Athanasius; later, on a further charge, the emperor sent him into exile (E24; one clause)". Add to Do not say: "Not 'Tyre exiled Athanasius' or 'the emperor exiled him for what Tyre found'."
+
+5. **"Three years later"** (beat 6) for the Egyptian bishops' letter. The letter is dated "end of 338 or beginning of 339" (ATH-ed 21662–21663), three or four years after Tyre. **Correction:** "About three years later".
+
+6. **Eusebius's own account of Tyre is in the Life, which beat 6 tells before beat 6a introduces the Life** (beat 6, last sentence, citing E25 = VC IV.41). **Correction:** move "his own account of Tyre names neither Athanasius nor Potamo, and speaks only of envy troubling the churches of Egypt" into beat 6a, after the Life's rule. Beat 6 keeps "these are charges, and no source shows he sacrificed".
+
+7. **What came 3 retells two rules the beats have already told** (E8 at beat 3, E14 at beat 6a). Telling one event twice fails on one hearing. **Correction:** keep What came 3 to the new matter only, in one clause that refers back ("that choice of what to leave out later brought a famous attack on his honesty, his editor reports, which the editor rejects"), or move that clause into beat 3. Do not restate the rules.
+
+8. **"For the churches of the West"** (What came 2) says more than Rufinus. His prologue says Chromatius asked for the translation for the people in his care, while the Goths broke into Italy (GRK 26043–26056). **Correction:** "Rufinus of Aquileia put the Church History into Latin and carried it on (I2; one clause)".
+
+9. **Library sweep gap: Philostorgius.** `philostorgius_ecclesiastical-history_walford1855.txt`, line 88 (Photius's summary, I.2): the Arian historian "praises Eusebius Pamphilus as well on other grounds as on account of his Ecclesiastical History, yet he accuses him of erroneous opinions in matters relating to religion". The sheet's sweep does not list it. It bears on I4, "judged both ways": he was faulted from the Arian side too. **Correction:** add it to the sheet under I4 and the sweep (a later, Arian witness, known only through Photius's summary). Optionally add one clause to What came 4: "even a historian of Arius's own party praised his history and faulted his beliefs".
+
+10. **Missing glosses on passing words.** "Presbyter" (beat 1) is not glossed: use "a priest" or "an elder of the church at Caesarea". "Heretics" (beat 3, in his plan) is not glossed: use "teachers he held to be in error" (E1: "those who … have run into the greatest errors"). "Syriac" (the optional Edessa clause) is not glossed: use "the language of the church of Edessa".
+
+11. **"The old emperor"** (beat 4). VC I.19 says "the senior emperor" (EUS 60955–60956), meaning the higher rank, not the older man. **Correction:** "the senior emperor" or "the emperor Diocletian's right hand".
+
+12. **What he defended is not marked** (What came). Kit Part 3 asks for it. **Correction:** add "Defended: his assent at Nicaea, explained in his letter home so that no one would misread it (E16–E17, E18); the good name of Origen, with Pamphilus (the Pamphilus story's; a clause at most)."
+
+13. **Names.** Paphnutius and Maximus of Jerusalem neither act in the main story nor link; with them the outline names about sixteen people. **Correction:** in the Rufinus clause use roles, "another confessor rebuking the bishop of Jerusalem", and keep the names for the card.
+
+14. **The length count is low.** The rendered quotes run about 180 words (Q1 about 37, Q2 about 62, Q3 about 80), not 145. The time (about 3:50) still fits the five turns the job names and is not filled. **Correction:** restate the count as about 180 words for the quotes and about 310 before any event is told. The time stays, with the cut-first list as given.
+
+15. **Do not say: one easy addition is missing.** **Add:** "Not 'Constantine's adviser', 'court bishop' or 'close friend' in the narrator's voice. Say he knew the emperor and spoke before him, by his own account (VC I.28, IV.33)."

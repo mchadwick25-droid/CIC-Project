@@ -931,3 +931,13 @@ Status: CLOSED. Owner: Library record-defects thread.
 The source-window resolver read "Mandate 9" and "Mandate 4" as names to match in a title. The vendored edition (`cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml`) titles them "Commandment Ninth." and "Commandment Fourth.". Before PR #1512 these references landed in the Visions; after it they were not located. The resolver now reads a "Mandate" as the edition's "Commandment", so the four records that cite them get the right passage (lines 2377-2431 and 1881-2046).
 
 Status: CLOSED. Owner: V7 test thread.
+
+### OG-51. Four unsupported claims in the narrated Legacy and Ignatius texts, 2026-11-20.
+
+The review of the tree's narrator rewrites (`Build/Ministry/Features/Church-Family-Tree/World-Narration/post-apostolic-house-church/legacy.review.md` and `docstory-pahc.story.ignatius-guarded-journey.review.md`) found four claims in this world's own texts that their grounding records do not hold. Church in Conversation narrates and displays them as they stand. The tree's texts carry the corrections; the records do not yet.
+- Legacy (`orientation.legacy`, grounded in `pahc.force.monepiscopacy-consolidation`): "Rome had once been led by a council of elders, with nothing felt to be missing." No source holds "with nothing felt to be missing", and the next sentence says no text tells how the change was felt. Tree text: "Rome had once been led by a council of elders."
+- Legacy: "it took a two-century scholarly fight just to prove they were genuine." `pahc.story.ignatius-guarded-journey` keeps the serious minority (Huebner, Lechner) who doubt the letters. Tree text: "it took a two-century scholarly fight to settle which of his letters were genuine. Some scholars still doubt them."
+- Legacy: "Ignatius's letters mattered so much to the later, settled office he argued for that…" and "It was what a later settlement found useful to keep." The selective-canonization claim is Inferential-Thin, and both state it as fact. Tree text: "Ignatius argued for the single bishop, and…" and "It may have been what a later settlement found useful to keep."
+- `pahc.story.ignatius-guarded-journey` telling: "he pressed the point hard because that unity was still being argued over" and "He believed his coming death gave his words unusual weight." Both give motive and belief as fact; boundary-drawing is Inferential-Thin beyond his addressees, and authority-consolidation is Contested. Tree text: "he pressed the point hard, which suggests that unity was still being argued over", with the belief sentence cut.
+
+Status: OPEN. Owner: this world's record owner (the fix goes in `records/pahc/` and the world rebuild).

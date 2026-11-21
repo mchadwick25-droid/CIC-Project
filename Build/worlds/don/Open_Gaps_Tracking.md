@@ -2189,3 +2189,9 @@ All 5 don verbatim quotes with no line span in their locus now name one. The spa
 - `donatus-quid-est-imperatori` names three spans, labeled by language: the English at `optatus_against-the-donatists.txt` line 1904, and the Latin at the TEI file's line 3357 and the critical edition's line 6557. It is `verified-via-authority`, so the gate does not match its text; its divergence note gives the reason (rough OCR in the critical edition).
 
 Status: CLOSED. Owner: Library record-defects thread.
+
+### OG-61. The narrated Story tells violence only as done to the Donatists, 2026-11-20.
+
+The review of the tree's narrator rewrites (`Build/Ministry/Features/Church-Family-Tree/World-Narration/donatism/Review_Round1.md`, "Coercion on both sides") found that this world's Story (`orientation.story`) tells coercion and violence only as done to the Donatists. The records also hold the Donatists' own coercion (`don.dw.what-we-did-with-the-power-we-had`). The documented stories keep both sides' force where their originals hold it (the Maximianists and imperial law, Optatus Gildonianus's soldiers at Bagai). The tree's rewrite, under Mark's ruling of 2026-11-20 ("change the voice, and link the prose"), keeps the Story's content, so the tree's Story has the same gap. Church in Conversation narrates it as it stands.
+
+Status: OPEN. Owner: this world's record owner (the fix goes in the world's orientation story and the rebuild; the tree's text would then be redone to match).
