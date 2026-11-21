@@ -15,6 +15,8 @@ tooling around them.
 
 Every top-level entry belongs to one of four kinds. Nothing else sits at the root.
 
+`LICENSE` at the root states the terms for the whole repository: software and methods all rights reserved, published data and writing as the license policy at `churchfamilytree.com/license.html` allows.
+
 ## Live — what deploys, and what reads it
 
 "Render" below means the `cic-engine` production service, deploying from the protected

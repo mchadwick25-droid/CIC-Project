@@ -1045,3 +1045,11 @@ verifies each record against its file and runs in CI beside the other corpus che
 live surfaces names `cic/texts/` and `cic/corpus-map/` and does not yet name `cic/renderings/`; that line is
 Mark's to change.
 
+
+## 2026-11-21 — `LICENSE` at the root
+
+**Context.** Mark, after a security review before the Church Family Tree announcement: "yes add the license file". The repository is public, and GitHub showed it as having no license, which some readers take to mean free to reuse.
+
+**Action.** The root `README.md` map changed first: a line under the four kinds names `LICENSE`. Then `LICENSE` itself, stating the terms the published license policy (`cft-website/license.html`, sections 2, 7, 8 and 10) already sets: software, methods and the Archive's construction all rights reserved; data, writing and recordings as that policy allows; vendored old texts keep their own status; names and marks for truthful credit only.
+
+**Noted, not touched.** Three screenshots (`shot-desktop.png`, `shot-ipad.png`, `shot-phone.png`) are tracked at the root, which the map does not allow. They are not this thread's; flagged for whoever added them.
