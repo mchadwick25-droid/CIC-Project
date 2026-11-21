@@ -5172,3 +5172,11 @@ Mark asked for a dashboard of use ("how do i get my reports on use i need a dash
 4. The standing rulings each become one kit line: where held sources differ, credit each; a damaged scan prints its English alone unless a held print confirms it; batches run in two halves with handover; stories approved before the kit are reviewed in their era's batch; one story is recorded first for Mark's ear.
 
 This governs batch 9 on; no finished story is reopened.
+
+## 2026-11-21 — A tradition's name no longer runs over a council mark
+
+Mark, after launch: "i see the novitism is covering the first council as it goes to the left of the river instead of the right on the farthest zoom out".
+
+**Root cause.** The name-fit code (`labelFitRun`) picks the side of a tradition's mark by the rivers it would cross and checks other names, marks and stories in its collision grid, but council marks were never put in the grid. A name could sit on a council mark, and the side choice could not see it. On a 1440 px screen at the farthest zoom-out, "Novatianism" ran left across the 251 council's ring.
+
+**Done.** Council marks join the collision grid, and a council hit counts as one more crossing when a name picks its side, so Novatianism now reads to the right. They count only while the council marks are drawn: the Councils layer on and the map zoomed in to the council threshold (`z-council`). Measured on a local copy at 22 zoom steps from the farthest zoom-out, on a 1440 px and a 390 px screen: names over a council mark went from 1 to 0 on the desktop (Novatianism) and stayed 0 on the phone, and the number of names shown did not change at any step. A first version counted council marks that were not drawn and hid two phone names; the draw condition came from that.

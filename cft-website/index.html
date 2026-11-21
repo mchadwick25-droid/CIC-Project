@@ -132863,6 +132863,7 @@ function labelFitRun(){
       if(!labelFit.asc){const bb=it.lbl.getBBox(), y=+it.lbl.getAttribute('y');labelFit.asc=(y-bb.y)/LABEL_BASE_PX;labelFit.desc=(bb.y+bb.height-y)/LABEL_BASE_PX;}
     });
     const half=U/2, shift=Math.max(0,U/2-2.5);
+    const councilBoxes=!svg.classList.contains('z-council')||svg.classList.contains('no-councils')?[]:councilEntries.filter(c=>c._x!==undefined).map(c=>({id:'c'+c.id,x0:c._x-half,x1:c._x+half,y0:c._y-half,y1:c._y+half}));
     const xOn=(it,e)=>(e===it.end0?it.bx:2*it.dx-it.bx)+(e?-shift:shift);
     const setSide=(it,e)=>{it.end=e; it.lbl.setAttribute('text-anchor',e?'end':'start'); it.x=xOn(it,e); it.lbl.setAttribute('x',it.x.toFixed(2));};
     const roomFor=it=>{
@@ -132875,8 +132876,11 @@ function labelFitRun(){
       const w0=it.w*k;
       const crossings=e=>{const x=xOn(it,e), a=(e?x-w0:x)-2, z=(e?x:x+w0)+2;
         return laneKeys.reduce((n,l)=>{if(l===it.lane)return n;const sp=riverSpanAt(l,it.dy,1);return n+(sp&&sp[0]<z&&sp[1]>a?1:0);},0);};
+      const hitsCouncil=e=>{const x=xOn(it,e), a=(e?x-w0:x)-2, z=(e?x:x+w0)+2, y=it.dy+fs*.32;
+        return councilBoxes.some(c=>c.x0<z&&c.x1>a&&c.y0<y+fs*labelFit.desc&&c.y1>y-fs*labelFit.asc);};
+      const cost=e=>crossings(e)+(hitsCouncil(e)?1:0);
       let side=it.end0;
-      if(w0&&crossings(side)>0&&crossings(!side)<crossings(side))side=!side;
+      if(w0&&cost(side)>0&&cost(!side)<cost(side))side=!side;
       setSide(it,side);
       it.y=it.dy+fs*.32; it.lbl.setAttribute('y',it.y.toFixed(2));
       if(it.ico)it.ico.setAttribute('transform',`translate(${it.dx.toFixed(1)},${it.dy.toFixed(1)}) scale(${(U/11).toFixed(3)})`);
@@ -132889,6 +132893,7 @@ function labelFitRun(){
     });
     const live=items.filter(it=>!it.g.classList.contains('is-off')&&(!simple||it.g.classList.contains('far')));
     live.forEach(it=>grid.add({id:it.id,x0:it.dx-4,x1:it.dx+4,y0:it.dy-4,y1:it.dy+4}));
+    councilBoxes.forEach(b=>grid.add(b));
     if(scale>=Z_STORY&&!gStories.classList.contains('is-off')){const sh=U*.6;(DATA.stories||[]).forEach(s=>{if(s._x!=null)grid.add({id:'s'+s.id,x0:s._x-sh,x1:s._x+sh,y0:s._y-sh*.85,y1:s._y+sh*.85});});}
     const boxOf=it=>{
       const w=it.w*k, x0=it.end?it.x-w:it.x, fig=it.people?U*1.1:0;
