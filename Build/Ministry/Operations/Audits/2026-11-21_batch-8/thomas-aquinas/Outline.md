@@ -128,7 +128,7 @@ Checked against every census `longDescription` (other than this entry's): none o
 - Not the place or the word as settled: credit 'straw' and Naples to the royal official, and 'small' and the sister's castle to Tocco.
 - Not "on the feast of Saint Nicholas" as a fixed day; "around the feast of Saint Nicholas" (E13).
 - Not "the Summa was finished by Reginald". Others finished it from his earlier books; who, the editors dispute (E15).
-- Not 'death kept him from finishing' as fact; say 'others finished it from his earlier books'. The fourteenth-century note the editors print says "morte preventus non complevit" (ST12 75705), but Bartholomew has him stop months before his death; and name no finisher.
+- Not 'death kept him from finishing' as fact; say 'others finished it from his earlier books'. The fourteenth-century note the editors print says "morte preventus non complevit" (ST12 75707), but Bartholomew has him stop months before his death; and name no finisher.
 - Not "he died on the way to the council of Lyon, poisoned". The poisoning tale is not in any held witness (sheet, Library sweep).
 - Not "he died at fifty". Tocco says he had completed his forty-ninth year (E17); say "not yet fifty" or give no age.
 - Not "canonized in 1318" (D6).
