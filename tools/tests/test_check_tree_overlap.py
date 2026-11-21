@@ -53,3 +53,20 @@ def test_main_exits_one_only_on_a_shared_quote(tmp_path):
     spelled.write_text("Lothar ruled.")
     assert main([str(shared), "--census", str(census)]) == 1
     assert main([str(spelled), "--census", str(census)]) == 0
+
+
+def test_a_reuse_the_slate_allows_is_reported_and_does_not_fail(tmp_path):
+    from check_tree_overlap import read_allow
+    allow = tmp_path / "allow.txt"
+    allow.write_text('nicaea: "There was a time when he was not."\n', encoding="utf-8")
+    r = check({"nicaea": 'He taught, "There was a time when he was not."'}, CENSUS, read_allow(allow))
+    assert r["nicaea"]["shared"] == []
+    assert r["nicaea"]["reused"] == [{"quote": "There was a time when he was not.", "in": ["arius"]}]
+
+
+def test_an_allowance_for_one_brief_does_not_cover_another(tmp_path):
+    from check_tree_overlap import read_allow
+    allow = tmp_path / "allow.txt"
+    allow.write_text("other: There was a time when he was not.\n", encoding="utf-8")
+    r = check({"nicaea": 'He taught, "There was a time when he was not."'}, CENSUS, read_allow(allow))
+    assert len(r["nicaea"]["shared"]) == 1

@@ -26,10 +26,17 @@ def test_a_held_span_is_carried_and_a_broken_quotation_is_one_entry():
     assert r["stale"] == []
 
 
-def test_a_new_span_or_one_without_a_verdict_is_read_blind():
+def test_a_new_span_or_one_without_a_verdict_is_read_blind_and_a_short_one_is_checked_at_card():
     card = {"quotationOriginals": [entry("Love the work, and the work will keep you.", None)]}
     r = listing(BRIEF, card)
-    assert [s["status"] for s in r["spans"]] == ["READ BLIND", "READ BLIND", "READ BLIND"]
+    assert [s["status"] for s in r["spans"]] == ["READ BLIND", "CHECK AT CARD", "CHECK AT CARD"]
+
+
+def test_a_short_entry_counts_all_its_spans_and_carries_checked_at_card():
+    card = {"quotationOriginals": [entry("Love the work, and the work will keep you."), entry("Keep the rule, stay.", None)]}
+    assert [s["status"] for s in listing(BRIEF, card)["spans"]] == ["CARRIED", "CHECK AT CARD"]
+    card["quotationOriginals"][1]["secondReading"] = "checked at card"
+    assert [s["status"] for s in listing(BRIEF, card)["spans"]] == ["CARRIED", "CARRIED"]
 
 
 def test_a_changed_span_is_read_blind_and_its_old_entry_is_stale():
