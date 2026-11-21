@@ -59,4 +59,4 @@ Eight at once; Eunomius after Basil's outline. The two Gregories join at review.
 9. Recording, with Mark's approval in his own words and a credit cap.
 
 ## Status (2026-11-21, for a session taking over)
-Slate approved, with every home tradition kept (Decision-Log item 5). Research done for eight; Eunomius under way.
+Slate approved, with every home tradition kept (Decision-Log item 5). Research done for all nine; hearts and lengths approved (Decision-Log, "Batch 9 hearts approved, with the lengths"). Next: cut-first lists, then outline checks.

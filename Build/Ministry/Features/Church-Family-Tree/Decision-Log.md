@@ -5201,3 +5201,12 @@ Mark, posting to LinkedIn: "the linked in cant display a preview and its not pul
 3. The quotes lifted and barred as the page reads them under the reuse ruling of 2026-11-21, listed in the batch README.
 4. Gregory of Nyssa stays `major: false`.
 5. Home traditions (Mark, 2026-11-21, in chat: "approved, all eleven stay where they are"), after his ruling relayed from the batch 8 session, "these should all be connected to a home tradition (unless its clear they are not and they sit in the river)": each of the eleven keeps its census `toldWithin`, as item 5 of the page (version 2) checks them against the record. Epiphanius stays in `palestinian-ascetic-monasticism-early` (Sozomen VI.32 lists him among the monks of Palestine); Damasus in `imperial-juridical-christianity`; Eusebius of Nicomedia in `homoian-arian-christianity` as its forerunner, and his story does not call him "Homoian".
+
+## 2026-11-21 — Batch 9 hearts approved, with the lengths (Mark)
+
+**Why.** The nine researched hearts went to Mark on one page (https://claude.ai/artifact/C6CSjJPCPQ3RNaqZRFLgZx, version 1; `Build/Ministry/Operations/Audits/2026-11-21_batch-9/Hearts.md`), each with the outline's planned length beside an independent count (`Length_Count.md`). Three fit under 4:30, three counted within about 15 words of it, and Hilary, Damasus and Epiphanius counted 4:43 to 5:23. Four researchers wrote the heart to what the sources hold where the slate's job line said more or other.
+
+**Decided (Mark, 2026-11-21: "approve as recommended").**
+1. The nine hearts as shown, with the researchers' wording for Hilary (On the Councils as the book that explained East to West; exiled after a rival party's accusation; Martin sought him out and stayed with him), Eunomius (the creeds of 383 and his banishment told as two facts in order), Apollinaris ("stood with Athanasius for the creed of Nicaea") and Damasus (the law of 380 in the heart; the forcing of dissenters credited to the Luciferians' petition; the two lifted quotes unused).
+2. Lengths, as in batch 8: each researcher marks a cut-first list in the outline, in order, with every cut item moved to the card; the writers write to about 4:30 at most (about 675 words by the scorer), dropping from that list and not by their own choice. The reviewer checks that the heart and every disagreement the outline must credit survived. No second round of outline cuts.
+3. The outline checks begin once the cut-first lists are in.
