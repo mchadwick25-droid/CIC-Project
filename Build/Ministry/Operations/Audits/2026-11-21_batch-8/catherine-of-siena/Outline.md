@@ -1,0 +1,121 @@
+# Outline: Catherine of Siena
+
+Sheet items (S, E, I, D) are in `Source_Sheet.md`, which gives the file and line for each. LET is Scudder's English of her letters (1905), with her notes and chronology (LET-ed); LIB the Italian of the Dialogue (Fiorilli 1912), with Fiorilli's note quoting the secretaries Guidini (GUID) and Maconi; RAY the Acta Sanctorum for 30 April, holding Raymond of Capua's Latin Life, Barduccio's letter on her death (BARD) and the Bollandist commentary (RAY-ed); MIRBT Mirbt's print of Raymond's Avignon scene; MANSI a notice of Gregory XI's life in Mansi 26. Her letters are not held in Italian.
+
+- **The essence:** Catherine of Siena, a dyer's daughter who never entered a convent, gathered a circle of followers and dictated letters to popes, cities and rulers (S1, E1-E3; Documented). In 1376 she went to Avignon and pressed Gregory XI to take the papacy back to Rome, and that September he left for Rome (E7-E11; Documented). How far she moved him is disputed: her confessor says she led him to it, while her own letters show he had already decided, and later writers gave other causes (D1-D3; Contested).
+- **Also told:**
+  - **The life she chose.** She took the habit of the Sisters of Penance of St Dominic, laywomen who lived in their own homes, not in a convent; she dictated her letters, several at once, to young men who served as her secretaries; her followers called her their mother, and crowds came to hear her (E1-E3; Documented; that the sisters took no monastic vows, Widely Accepted, Scudder's).
+  - **What she pressed for.** Reform of a corrupt clergy, the pope's return to Rome, peace with Florence, and a crusade, in letters that call the pope's own governors "incarnate demons" (E4-E6; Documented, her words).
+  - **Avignon, and its failure.** Florence, at war with the pope, sent her to make peace. The pope put the terms in her hands, but Florence's envoys would not deal with her, and the peace failed (E7, E9; Documented, her letter and Raymond agree).
+  - **The Dialogue.** In 1378, back in Siena, she dictated a book in which her soul asks God four things and God answers. Her secretaries wrote it down, and say she spoke it in a trance (E13; Documented as dictated; the trance is the witnesses' account).
+  - **What came of her.** The argument over her part in the return; the Dialogue put into Latin by her own circle, printed in 1472 and in English by 1519; her Life by Raymond; her circle's work for her memory, and her canonization by Pius II (I1-I4; Documented as each witness's act; the cause of the return Contested).
+- **Length:** about 4 minutes 5 seconds (about 610 words at 150 a minute; never past 675). Counted first: the three quotes, about 100 words (Q1 about 52, Q2 about 18, Q3 about 30); the plain sense of the words to explain, about 105 words (the popes at Avignon, the papal court, the Sisters of Penance, the schism, the Dialogue, a crusade); the witnesses credited, about 125 words (Raymond as interpreter and biographer, Raymond's claim, her own letters against it, the chronicler on the Swedish visionary, the later biographer's bishop, the secretary Guidini, Barduccio at her death). That is about 330 words before any event is told, leaving about 280 for the events. Why four minutes and not three: the job names five turns (the life she chose, the letters, Avignon, the dispute, the Dialogue), and the dispute needs three witnesses to be told fairly. Cut first, if needed: the crowds and Gregory's grant of confessors (beat 1, one clause), the poison letter (beat 3, one clause), Platina's bishop (beat 4, to the card), the bridge (beat 5).
+- **Setting:**
+  - Time: born 1347 (S2; Scudder, with Covel's "three and thirty" at death; no day); Avignon, June to September 1376 (E7, E11); the Dialogue, 1378 (E13); the schism from September 1378 (E14); died 30 April 1380, in Rome (S2, E15).
+  - Place: Siena, in Tuscany; Florence; Avignon, on the Rhône in southern France, where the popes had kept their court since 1309 (S3, CEN); Rome.
+  - Tradition: the tree's name is "the Latin Papal Church (Avignon to Fifth Lateran)" (S5). Say it once at most; the story needs only "the popes at Avignon".
+  - Language: she spoke and dictated in Tuscan; she knew no Latin, and the pope knew no Italian (E8).
+
+**Words to explain** (the first time each is heard; plain word or short gloss, worked into the sentence)
+
+- **Avignon papacy**: "the popes had kept their court at Avignon, in southern France, for nearly seventy years, rather than in Rome" (S3). Never "the Babylonian Captivity" (no held source).
+- **the papal court / curia** (Q1): "the pope's court". Raymond's Latin says "the Roman court"; in 1376 it sat at Avignon, so render it "the papal court".
+- **Mantellate / Sisters of Penance of St Dominic / tertiary** (E1): "laywomen who wore the habit of the Dominican order but lived in their own homes, not in a convent". Do not use "Mantellate" or "tertiary" bare.
+- **confessor** (Raymond): "her confessor, the priest who heard her confessions and guided her". Say it in the sentence.
+- **dictated / secretaries** (E2): "she spoke her letters aloud and young men of her circle wrote them down".
+- **interdict** (S4), if used: "a ban that stopped church services in the city". Better left out.
+- **crusade** (E5): "a holy war against the Muslim powers" (her word is "the infidels", LET l.5212, 6996). One clause.
+- **the schism** (E14): "the cardinals declared the new pope's election invalid and chose a rival, so that two men claimed to be pope". Do not use "the Great Schism" bare.
+- **the Dialogue** (E13): "a book in which her soul puts four requests to God and God answers her".
+- **ecstasy / trance** (E13): keep it in the witnesses' voice: "her secretaries say she spoke it while lost to her senses".
+
+- **Shape:** Founder or leader. What she built: no house or order, but a circle, her "family" of followers who wrote for her, travelled with her and later carried her book and her memory on (E3, I2-I3). How it ran: by her speaking and their writing, in letters to the pope, to cities and to rulers (E2, E4-E6, E14). Who it served: the church she wanted reformed and the cities she wanted at peace. The trap is titles in place of acts: show her acts, the audience, the letters, the dictation, not "saint, mystic, peacemaker".
+- **Sibling:** none in the batch or on the tree. The tradition's own entry (`latin-papal-church-avignon-to-lateran-v`, live; job: the papal court from Avignon to 1517) tells the return of 1377 in one sentence and does not name her; this story does not retell the tradition's later councils. The tree's documented story on that entry ("Be a Man, Father, Arise!") was read for overlap only: this story does not use its line "Be a man, Father, arise!" or its claims that are not held (D7).
+- **Openings:**
+  1. **The audience (recommended).** Avignon, the summer of 1376. A young woman from Siena stands before Pope Gregory XI; she speaks no Latin and he no Italian, so her confessor, Raymond of Capua, interprets. She complains that the papal court smells of the vices of hell; the pope asks how she can know its ways after a few days; she straightens and answers (Q1). The pope said nothing (E8; Documented as Raymond's account, and credited to him in the same sentence). Then the name and the essence.
+  2. **The letter.** Before she ever saw him, she sent the pope a letter by her confessor: come back to Rome, come at once (Q2). She was the daughter of a dyer, and she could not have written it herself (E2, E6). Then the essence.
+- **Story beats** (the opening and the essence make the first minute, about 150 words. The opening reaches ahead to the audience; the audience itself is not told again in beat 3, which tells only what followed it.)
+  1. **Siena: the life she chose** (S1, E1-E3; about 65 words). Her father made the dyes for wool cloth (Raymond). She refused marriage, against her mother's wishes, and took the habit of the Sisters of Penance of St Dominic: laywomen who lived at home, not in a convent (Raymond; Scudder for "at home"). She did not write her letters; she dictated them, Raymond says, to two secretaries at once, on different matters. Her followers called her their mother (Barduccio), and Raymond saw crowds come down from the hills to hear her. Documented.
+  2. **The letters, and Florence's war** (S4, E4-E6; about 60 words). By 1375 she was writing to Gregory XI: uproot the bad priests from the church's garden, come back to Rome, raise a crusade. She called the pope's governors in Italy "incarnate demons" (her word; in a letter to the pope). Florence had risen against those governors; the pope answered with excommunication and war, and Florence was put under interdict. Before going herself, she sent Raymond with a letter (Q2). Documented.
+  3. **Avignon, June to September 1376** (E7, E9-E11; about 75 words). Florence sent her to make peace. After the audience, the pope said he would receive the Florentines as sons and do what seemed best to her (her letter of 28 June); "I put the peace simply in your hands," Raymond heard him say. But Florence's envoys came late and refused to deal with her, and the peace failed. Meanwhile an unsigned letter warned the pope of poison in Rome; she called it a forgery. In September he left; she set out for home the same day. He reached Rome the following January. Documented; the day of arrival differs (D4: say only "the following January").
+  4. **Did she bring him back?** (D1-D3; about 75 words; this is the first of What came, told here as the doubt scene). Raymond, her confessor, wrote that the pope decided to return "with her leading him". But her own letters tell another part of it: in 1375 she urged him to finish "what you have begun with a holy resolve, concerning your return", and at Avignon she wrote "you have decided on your return and announced it". A German chronicler of the next generation credited the revelations of a Swedish visionary then living in Rome; a later biographer of the popes credited a bishop's retort ("why do you not go back to your own church?"). Contested: tell all four, judge none.
+  5. **Florence again, and the Dialogue, 1378** (E12-E13a; about 80 words). The pope sent her to Florence, Raymond says because, being a woman whom the Florentines revered, they would not harm her; there a man came at her with a drawn sword, and was stopped (Raymond credits God; tell it in his voice or say only "was stopped"). Gregory died that March; peace came that July. Back in Siena she dictated the Dialogue: her soul asks God four things, for herself, for the reform of the church, for peace, and for his providence, and God answers, calling his Son a bridge over the stormy river of this life (LIB, paraphrase). Her secretaries say she spoke it in a trance; one of them wrote Q3. The Sienese copy ends in October 1378. Documented; the trance is theirs.
+  6. **The schism, Rome, her death** (E14-E15; about 50 words). That September the cardinals declared the new pope, Urban VI, wrongly elected and chose a rival. Urban, who had seen her at Avignon, called her to Rome. She went with her circle and dictated letters for him to kings, a queen and cardinals. She died in Rome on 30 April 1380, aged about thirty-three, with the schism unhealed. Documented.
+- **What came of her** (about a third of the story with beat 4; heaviest first; told in time, after beat 6 and before the ending)
+  1. **The return, and the argument** (I1, D1-D3): told at beat 4. What she defended: the pope's place in Rome.
+  2. **The Dialogue carried on by her circle** (I2; about 30 words): her secretaries Stefano Maconi and Cristofano Guidini each put it into Latin, and Raymond laboured at a Latin of his own; it was copied many times, printed in Italian by 1472, and reached English in 1519 as the Orchard of Syon, from Raymond's Latin (Fiorilli and Gardner, editors, for the dates). Documented.
+  3. **Her circle kept her memory** (I3; one clause, optional): Raymond, head of the Dominican order after her death, wrote her Life about ten years later (the Bollandist editors); Maconi became head of the Carthusian monks. Documented as the editors' notes.
+  4. **Declared a saint** (I4; one clause): by Pope Pius II, about eighty years after her death (the Roman Martyrology as the Bollandists quote it; Covel for "about eighty years"). Widely Accepted; no year.
+  - Who keeps her today: no held line says it directly for the story. Leave it out (the 1926 papal brief on her chapel in Siena is card material, Source sheet, Library sweep).
+- **Quotes** (3)
+  1. **Catherine at Avignon, in Raymond's Latin** (RAY l.200985-200990, damaged OCR; the reading is confirmed by Mirbt's clean print, MIRBT l.13887-13891). Latin: "Ad honorem omnipotentis Dei audeo dicere, quod plus percepi foetorem peccatorum quae in Romana curia committuntur, existens in civitate mea unde sum nata, quam percipiant ipsi qui ea commiserunt et committunt quotidie." Rendering: "To the honour of almighty God, I dare to say it. While I was still in the city where I was born, I smelled the stench of the sins committed in the papal court. I smelled it more than the men who have committed them, and commit them every day." Rendered from the Latin. "Romana curia" is rendered "the papal court" (Words to explain). The writer may say just before it that the words reach us through Raymond, who was interpreting. Job: the opening; her voice and her nerve before the pope, in the one witness who was there.
+  2. **To Gregory XI, early 1376** (LET l.5221-5222; English only, the Italian is not held). Scudder: "I tell you, Come, come, come, and do not wait for time, since time does not wait for you." Rendering: "I tell you: come, come, come. Do not wait for time, because time does not wait for you." Rendered from Scudder's English. Job: beat 2; what she pressed for, in her own words, the plainest line of the return.
+  3. **Cristofano Guidini, one of her secretaries, on the dictation** (LIB-ed l.14405-14407; clean text; Guidini's memoir is held only in Fiorilli's quotation). Italian: "Questo a udire pare che sia cosa da non crédare; ma a coloro, che lo scrissero e udîro, nollo pare cosí; e io so' uno di quegli." Rendering: "To hear it told, this seems a thing past believing. But to those who wrote it down and heard it, it does not seem so. And I am one of them." Rendered from the Italian. Job: beat 5; the Dialogue was dictated to her followers, told by one who wrote it.
+  - Searched every census `longDescription` but this entry's for each quote and its key words ("smelled", "stench", "papal court", "time does not wait", "come, come", "past believing", "wrote it down and heard", "one of them" in this sense): none is on the tree. None is on the README's lifted or barred lists.
+- **Names**
+  - **Catherine of Siena** (acts): the census voice name. Not "Catherine Benincasa" in the story (card).
+  - **Gregory XI** (acts): "Pope Gregory XI" at first mention, then "the pope".
+  - **Raymond of Capua** (acts; the main witness): name once, with "her confessor"; then "Raymond".
+  - **Urban VI** (acts, one clause): or "the new pope".
+  - **Pius II** (acts, one clause, What came 4).
+  - By role only: her father and mother; the Florentine envoys; Cristofano Guidini ("one of her secretaries"); Barduccio Canigiani ("a secretary who was with her when she died"); Stefano Maconi ("another secretary, who later led the Carthusian monks"), unless What came 2 needs his name; Gobelinus ("a German chronicler of the next generation"); Platina ("a later biographer of the popes"); Bridget of Sweden ("a Swedish noblewoman and visionary then living in Rome"; no census entry); the antipope ("a rival").
+- **Connection to carry into the story:** what passed from her was a voice that the papal court and the cities heard, carried in writing by the people around her. The listener must be told two things. First, how it passed: she could not have written her letters or her book; she spoke them, and her secretaries wrote them down (E2, E13, Q3). The same circle then put the Dialogue into Latin, copied it, and gave it to the printers and translators who took it to Italy, France and England (I2), and her confessor wrote the Life through which later readers knew her (I3). Second, what the listener must know to weigh her part in the papacy's return to Rome: the claim that she brought the pope back comes above all from her own circle (Raymond, D1); her own letters show the pope had already resolved and announced his return; and other writers gave other causes (D2, D3). Tell it through these acts: the dictating, the copying, the audience, the letters. Not as a "this matters because" sentence.
+- **Ending:** close on the person. Either (a) her death, from Barduccio, a secretary who was there (BARD l.214951-214956): she cried out "Blood, blood", and then, in the words of Christ on the cross, "Father, into your hands I commend my soul and my spirit", and bowed her head and died. Barduccio's Latin is a translation and the OCR is damaged, so tell it in paraphrase, credited to him; the words are the Gospel's and need no quotation marks. Or (b) her own words to Raymond in her last months, that she did not know whether God would leave her here or call her to himself (LET l.12922-12923; paraphrase). Recommended: (a), placed after What came, ending on her death. Add no moral to it.
+- **Links**
+  - `the-dominican-order` (census tradition): she wore the habit of its Sisters of Penance. One clause; no link wording needed.
+  - `teresa-of-avila` (batch 8): Father Rodrigo Alvarez, approving Teresa's book in 1582, named "the books of ... St. Catharine of Siena" as the measure of a true spirit (I5). Card only; not a sibling (no shared event or text).
+  - `latin-papal-church-avignon-to-lateran-v` (her census home): her tradition.
+- **Who tells it**
+  - **Catherine herself**, in her letters (Scudder's English): what she pressed for (beat 2), her Avignon report (beat 3) and the resolve she says was already his (beat 4). Credit "she wrote".
+  - **Raymond of Capua**, her confessor and interpreter at Avignon, who wrote her Life about ten years after her death to show her holiness: the dyer, the habit, the dictation, the audience, the peace in her hands, "with her leading him", the sword. The listener must know once, in the opening sentence about him, that he was her confessor and was there; at beat 4, that his is the claim of her own circle.
+  - **Her secretaries**: Guidini on the dictation (beat 5, Q3); Barduccio on her death (ending). By role.
+  - **The chronicler and the later biographer** (beat 4): by role, each beside his own cause.
+  - **The editors** (Scudder, Fiorilli, Gardner): dates and the book's later history only; by role at most once ("its later editors").
+  - **The doubt is itself the story at beat 4:** Raymond's claim, then her own words, then the two other causes, in that order, with no verdict.
+- **Do not say**
+  - "She became a nun" or "joined a convent" → "she took the habit of the Sisters of Penance of St Dominic and lived at home" (E1).
+  - "She was illiterate" or "she could not read" → "she did not write her letters herself; she dictated them" (E2). Do not tell that she learned to write by a wonder.
+  - "Catherine persuaded the pope to return" or "she brought the papacy back" as fact → "Raymond says she led him to it"; her letters show he had already decided (D1). Keep "how far" open.
+  - "Gregory returned because of Catherine and Bridget" → each cause with its witness (D2, D3).
+  - "the Roman court" → "the papal court" (it sat at Avignon).
+  - "the Babylonian Captivity" (no held source) → "the popes had kept their court at Avignon for nearly seventy years".
+  - "reached Rome on 17 January 1377" → "the following January" (D4).
+  - "the Dialogue, finished in 1370" → 1378 (D5).
+  - "she dictated the Dialogue in ecstasy" as the narrator's fact → "her secretaries say she spoke it while lost to her senses".
+  - "a miracle saved her at Florence" → "a man came at her with a drawn sword and was stopped"; if the cause is given, "Raymond says God held him back".
+  - "she ended the schism" or "she healed the church" → she died with the schism unhealed (E14-E15).
+  - "nearly four hundred letters", "patron saint of Italy/Europe", "Doctor of the Church", the year of her canonization: no held line; leave them out.
+  - "the pope was ashamed" or "silenced in shame" → "the pope said nothing" (Raymond: "subticuit").
+  - "the Eight of War" bare → "the city's war council", if needed at all.
+  - "she made peace between Florence and the pope" → the peace she was sent for failed; it came in July 1378, under Urban VI (E9, E12).
+  - Florence's side told as innocent, or the pope's war told as just: tell both, the city's revolt against the pope's governors and the pope's excommunication and war (S4).
+- **Leave out**
+  - The invisible stigmata at Pisa (Scudder's chronology; contested on the Who card): a wonder not needed, and disputed.
+  - That she learned to write by a wonder (Scudder, Fiorilli): a wonder, and beside the job.
+  - The birth day and the twenty-five children (Scudder alone).
+  - The 1374 summons to Florence "perhaps" to answer charges (Scudder's "perhaps").
+  - The massacre at Cesena by the pope's army, 1377 (Scudder's outline; after she left Avignon, and not her act): card. The war itself stays in (beat 2).
+  - Gregory's later coolness to her (Scudder's "perhaps"): card.
+  - The needle pricked into her foot (the tree's documented story; not checked in the held Latin): out.
+  - The poison letter's "Open your mouth, and swallow down the bitter for the sweet" (LET l.7136-7137): card quote; the story tells the poison letter in one clause.
+  - Bernardino of Siena's birth in the year she died: card.
+
+## For the card, not the story
+
+- Her name as Scudder gives it, Catherine Benincasa; born at Siena, the youngest of twenty-five children of Jacopo Benincasa and Lapa, on 25 March 1347 (Scudder's chronology alone).
+- The Mantellate: Scudder dates her habit to 1363-4.
+- The poison letter in full, with "Open your mouth, and swallow down the bitter for the sweet" (LET l.7136-7137), and "Up, father, like a man!" (LET l.6448-6449).
+- The pope's words to her at Avignon, in Raymond's Latin: "Believe me, Catherine, they have deceived you and they will deceive you" (RAY l.214098-214100).
+- Gregory's papal letters letting Raymond and two companions absolve all who came to her (RAY l.205372-205377).
+- The day of arrival at Rome: 17 January 1377 (Scudder); the Ides of January, 13 January, "1376" (the Mansi notice; Platina in Duranti).
+- The Dialogue's date: October 1378 in the Sienese copy; 1370 on Thorold's title page of 1896.
+- The bridge, in her words (LIB l.1528-1530): "So I, wishing to remedy all your ills, have given you the bridge of my Son, so that you would not drown as you cross the river. That river is the stormy sea of this dark life."
+- Duranti (1628): her letters to the pope "carried through the whole business of the return" (DUR l.98793-98796). Fiorilli (1912): she "had contributed much" to it.
+- Scudder's "perhaps": that Gregory, regretting his return, grew cool to her in 1378.
+- The stigmata (Scudder's 1375 date and the Bollandist note on Sixtus IV's ban on pictures of them, from the Who card).
+- Father Rodrigo Alvarez on Teresa of Ávila's manuscript, 1582 (TER l.686-696).
+- Henry Charles Lea (1888): "her constant theme is the corruption of every rank in the hierarchy and the immediate necessity for reform" (LEA l.29390-29392).
+- Wynkyn de Worde's English Life, about 1493 (GARD l.481-488).
+- The chapel in San Domenico, Siena, where she took the Dominican habit, named in Pius XI's brief of 1926 (Acta Apostolicae Sedis 18, l.160-162).
+- Bernardino of Siena, born the year she died (Banchi, via the Who card).
+- Not held: the Italian of her letters; the contemporary Lives of Gregory XI; a bull or year of canonization.

@@ -1,0 +1,146 @@
+# Outline: Jan Hus
+
+Sheet items (S, E, I, L, D) are in `Source_Sheet.md`, which gives the file and line for each. DOC is Palacký's *Documenta* (Latin), REL the Relatio of Peter of Mladoňovice inside it; WP the Workman and Pope English letters; LUT Lützow's life (secondary); SCH Schaff's English *De Ecclesia*; RIC Richental's chronicle (Middle High German); MAN the council's acts (Latin, damaged OCR); LUA Luther's 1520 *Address* (English only).
+
+- **The essence:** Jan Hus, a priest and master of Prague's university, preached to the city in Czech at the Bethlehem Chapel, read John Wyclif's books and would not condemn him (S4, S5, E1, E4; Documented, his own words and a papal bull; the 1402 appointment Widely Accepted, Lützow). He went to the Council of Constance under King Sigismund's safe-conduct, was arrested within weeks, refused to abjure what he said he had never taught, and was burned there on 6 July 1415 (E7, E9, E16, E18, S7; Documented, eyewitnesses). Within two months 452 lords of Bohemia and Moravia sealed a protest vowing to defend the preachers of God's law, and his death turned a university quarrel into a nation's movement (I1, Documented; the turn, I2, Widely Accepted, the tree's entry).
+- **Also told:**
+  - **The preacher.** The chapel was founded so that preachers in Czech, the people's own tongue, need no longer wander through houses and hidden corners (S4; Documented, the bull of 1408). He preached there from 1402 (S5; Widely Accepted, Lützow).
+  - **Wyclif and the university.** In 1403 the university forbade Wyclif's articles; Hus protested (E1; Widely Accepted). In 1410 the archbishop burned Wyclif's books and excommunicated him (E3; Widely Accepted). He wrote that he hoped Wyclif was among the saved, and would not call him a heretic (E4; Documented, his own words).
+  - **Banned and exiled.** In 1412 he opposed the papal indulgences; the ban was made heavier, Prague was put under interdict, and he appealed to Christ and left the city (E5, E6; Widely Accepted, Lützow; his appeal's words Documented). In exile he wrote his book on the Church: Christ alone is its head; much of it taken from Wyclif's own book, his translator writes (E6; his words Documented; the borrowing Widely Accepted, editor).
+  - **Constance.** The safe-conduct, the arrest, the cell; the learned told the king that a heretic could hold no safe-conduct, a Constance citizen wrote; at the hearing he spoke of Wyclif's soul and was mocked; the king said he would light the fire himself for a stubborn heretic (E7–E12; Documented as each witness's claim; what the safe-conduct covered, Contested, D5).
+  - **The death.** He would not lie before God by abjuring; he was stripped of his priesthood, crowned with paper devils, and burned; his friend says he sang, a hostile citizen says he cried out (E16–E19, D6; Documented as each account).
+  - **What came of him.** The lords' protest (I1); the cup he defended from prison became the movement's emblem (E13, I2); in 1520 Luther wrote that he could find no error in him and that he was burned against a sworn safe-conduct (I4; Documented, his words in English).
+- **Length:** about 4 minutes (about 600 words at 150 a minute; never past about 675). Counted first: the three quotes, about 140 words (Q1 37, Q2 about 70, Q3 about 33), and the short phrase from the safe-conduct, 6; the plain sense of the words to explain, about 75 words (safe-conduct, excommunicated, interdict, indulgences, abjure, stripped of his priesthood, the cup, King of the Romans, "catholic" in Q3); the witnesses credited, about 75 words (Peter of Mladoňovice twice, the Constance citizen twice, the lords, Luther, his translator once). That is about 295 words before any event is told, leaving about 305 for six beats and what came of him. Why four minutes and not three: the job names four turns (the Czech preacher, Wyclif, the safe-conduct, the burning) and an outcome (the nation's movement), and two eyewitnesses disagree on his death; the story is very compelling and its turning points need the room. Do not grow it: everything in **For the card, not the story** stays out.
+- **Setting:**
+  - Time: born about 1370 (S1; the year is disputed: never a year); master of arts 1396, priest about 1400, rector 1402 (S3, Lützow); preacher at Bethlehem from 1402 (S5); the 1403 ban (E1); 1410 the burning of Wyclif's books (E3); 1412 the interdict and exile (E5, E6); left Prague 11 October 1414, reached Constance 3 November, arrested 28 November (E8, E9); hearings 5, 7 and 8 June 1415 (E11, E12); burned Saturday 6 July 1415 (S7); the lords' letter 2 September 1415 (I1).
+  - Place: Prague, capital of the kingdom of Bohemia, today's Czech Republic (S4; census `modernCountries`). Born at Husinec, a village in southern Bohemia (S2; optional, one clause). Constance, a city on the Rhine and its lake, where a council of the whole Western church met from 1414 (S7, E19; census `latin-papal-church-avignon-to-lateran-v`: the council ended the schism of rival popes).
+  - Tradition: the tree's name is "the Hussite and Bohemian Brethren movement" (census `name`, spoken). Its first voice is Hus himself (L4). Say it once, where the movement is born (What came).
+  - Language: he preached and wrote in Czech and Latin (S4, E6); the council's and Peter's records are Latin; Richental wrote in German.
+
+**Words to explain** (the first time each is heard; plain word or short gloss, worked into the sentence)
+
+- **safe-conduct** (E7): "a royal letter of protection on the road", ordering everyone "to let him pass, stay, remain and return freely" (DOC 13102–13103). Say what it promised; what it covered is disputed (D5).
+- **King of the Romans** (S6): "Sigismund, king of Hungary and the elected head of the empire, though not yet crowned emperor". Do not call him "the emperor" bare: he was crowned only in 1433 (LHW 13098–13100). "The empire's king" or "King Sigismund" is enough after first mention. He was the brother of Bohemia's king (S6).
+- **master** (S3): "a teacher of the university". **rector**: "head of the university", if used.
+- **Bethlehem Chapel** (S4): "a hall built for preaching, not a parish church", named Bethlehem by its founders.
+- **John Wyclif**: "an English scholar of Oxford, dead since 1384, whose books the church had condemned" (link; the `john-wyclif` story tells him).
+- **excommunicated** (E3): "cut off from the church's sacraments and from the company of the faithful"; in 1412 "no one was to give him food or drink or speak to him" (E5).
+- **interdict** (E5): "a ban that stopped church services, baptisms and burials in the whole city".
+- **indulgences** (E5): "papal pardons for sin, sold that year to raise money for a pope's war" (LUT 6564, 6630–6641). One clause.
+- **abjure / recant** (E16): "swear publicly to give up the teachings charged against him".
+- **degraded** (E17): "stripped of his priesthood, vestment by vestment".
+- **the cup** (E13): "the wine at communion, which lay people had long been denied; only priests drank it". The council forbade giving it to them on 15 June 1415.
+- **holy teachers** (Q2, "sanctorum doctorum"): never "doctors"; the narrator may add "the church's great teachers".
+- **catholic** (Q3): the lords mean "true to the church's faith". The narrator gives that sense beside the quote.
+- **council**: "a gathering of the bishops and teachers of the Western church".
+
+- **Shape:** Martyr. The life comes to a stand at Constance; what it cost is told in the eyewitnesses' words. The impact is in how Bohemia remembered it and what it did with that memory: the lords' vow and the cup. Trap: the death swallowing the story. Give the Prague preacher and the Wyclif quarrel their room (beats 1–3) before Constance.
+- **Sibling:** none in the batch. On the tree, `john-wyclif` (live, read; job: Wyclif's life, the English Bible, Lollardy). It already tells, in one sentence, that Hus built his book on the Church from Wyclif's, and quotes Hus's last sentence at the council (lifted, Q1). Here: the story is Hus's own stand, so Q1 is told in full, with its first two sentences ("I do not know ... I hope ... I fear") and the council's mockery, which the Wyclif story does not use; Wyclif's life, his Bible and the digging up of his bones are not told. The Council of Constance has a council profile (`Council-Profiles/era6/council-of-constance-1414`), not on the tree: not a sibling or link yet; see Do not say for the phrases it holds.
+- **Openings:**
+  1. **Chosen.** The safe-conduct. In October 1414 the king Sigismund sent a letter ordering everyone on the road to let a Prague preacher "pass, stay, remain and return freely" (E7, DOC 13102–13103). He had already set out, writing to his people that he went "into the midst of many of my greatest enemies" (E8; paraphrase only). Within four weeks of reaching Constance he was under armed guard, and eight months later he was burned (E9, S7). Then the essence. About three sentences; the narrator gives the plain sense of safe-conduct in the first.
+  2. Not chosen: the founding purpose of the chapel, Czech preachers forced to wander "through houses and hidden corners" (S4). Strong, but it belongs in time order at beat 1.
+
+**Story beats** (the opening, the essence and beat 1 make the first minute, about 150 words. Beats 2 to 6 follow the life once, in order. The opening reaches ahead to the safe-conduct and the essence to the burning; the safe-conduct itself is told at beat 4 only in what the opening did not say)
+
+1. **Prague and the Bethlehem Chapel.** Born about 1370 to peasant parents in southern Bohemia (S1, S2; optional). A master of the university, a priest from about 1400 (S3). In 1402 he became preacher at the Bethlehem Chapel, founded so that preaching in Czech, the people's own tongue, should no longer be pushed into houses and hidden corners (S4, S5; the bull's words in paraphrase; "1402", Lützow). Reason: Prague's churches were busy with other services and none was set aside for preaching to the people in their own language (S4).
+2. **Wyclif and the university.** Prague's masters had read Wyclif. In 1403 the university forbade anyone to teach his articles, and Hus protested (E1; Lützow; one clause). Seven years later the archbishop of Prague had Wyclif's books burned in his palace court and excommunicated Hus (E3; Lützow, "on July 16", 1410; say "in 1410"). Hus wrote that he would not call Wyclif a heretic; he hoped he was among the saved, since in doubt one should choose the better part (E4; his own words, paraphrase; keep Q1 for Constance). Optional, cut first: the king had given the Czech masters control of the university in 1409, and the German masters left (E2).
+3. **The ban and the book.** In 1412 he spoke against papal pardons sold to raise money for a pope's war (E5; Lützow). His ban was made heavier: no one was to give him food or drink or speak to him; a papal order said the chapel should be razed; Prague was put under interdict (E5). He appealed from the pope to Christ, and left the city so that it would not suffer for him (E5, E6; Lützow, "moved by the sufferings ... of the interdict"). In the countryside he wrote his book on the Church: the Church is all whom God has chosen, past, present and future, and Christ alone is its head (E6; SCH 2648–2650, 3654). Much of it, his modern translator writes, is taken paragraph by paragraph from Wyclif's book (E6; credit the translator once).
+4. **To Constance.** A council of the whole Western church met at Constance in 1414 (Setting). He set out on 11 October 1414, before the formal safe-conduct reached him (E8; editors and Lützow). Arrested on 28 November, called to the cardinals and kept under guard; Peter of Mladoňovice, a Czech who was there with him, wrote that he told them he would rather die than deny a truth he knew (E9; credit Peter, "a member of his party who wrote down what he saw"). He was moved to a dark cell beside the latrines of the Dominican house (E9, WP 8410–8414). The king wanted to help him, a citizen of Constance wrote, but the learned told him that by no law could a heretic hold a safe-conduct, and he let it be (E10; credit Richental by role; the narrator does not judge).
+5. **The hearings, June 1415.** At his hearing on 7 June he was charged with wishing his soul were with Wyclif's. He answered with Q1 (E12). The council laughed at him and shook their heads (E12). The king told him that a stubborn heretic he would burn with his own hands, and urged him to submit (E11; credit Peter; paraphrase, "if one would stay stubborn in his heresy, I alone would light the fire"). From prison he wrote against the council's new ban on giving the cup to lay people: they called it error, he wrote, to let believers drink from the Lord's cup (E13; his own words, paraphrase; one sentence; say "the wine at communion").
+6. **6 July 1415.** In the cathedral the council condemned him as a heretic and his books with him (E15). Urged a last time to abjure, he said he feared to lie before God, since he had never held the articles false witnesses charged against him, and feared to mislead the crowds he had preached to (E16; paraphrase). He was stripped of his priesthood and crowned with a paper hat painted with devils and the word "Heresiarch", chief of heretics (E17). At the stake, asked once more to recant, he answered with Q2 (E18). He sang until the wind blew the flame into his face, Peter writes; the Constance citizen writes that he cried out badly and was soon burned (D6; credit each, in that order, no verdict). His ashes were thrown into the Rhine (E19; both agree). Peter adds that his coat was burned so that the Bohemians should have no relic (E19; optional).
+
+**What came of him** (about a third of the story; ranked heaviest first; the story may tell the lords' letter last, where it is strongest, to lead into the ending)
+
+1. **The nation took up his cause.** On 2 September 1415 the lords and knights of Bohemia and Moravia wrote to the council under 452 seals. They said he had been condemned unheard of any error, called him a good man (Q3), and vowed to defend the law of Christ and its humble preachers, setting aside all fear and every human law against it (I1; Documented; paraphrase the vow: see Do not say). This is where a university quarrel became a nation's cause (I2, D9).
+2. **The cup.** The cup he defended from his cell became the emblem of the movement that grew from his death, the Hussite and Bohemian Brethren movement, for which lay people's right to the wine at communion was the first demand (E13, I2; census entry). One or two clauses; the movement's wars and its later history are the tradition's story.
+   Defended: the right of lay believers to the cup (E13); the preaching of God's word in the people's tongue (S4, beat 1); Wyclif's good name, by refusing to damn him (E4, E12).
+3. **Luther.** A century later, in 1520, Martin Luther wrote that Hus had been burned against a sworn safe-conduct, that his books had been wrongly condemned, and that he could find no error in him; he added that he had no wish to make him a saint, as some Bohemians did (I4; credit Luther; English only; paraphrase). One sentence. Optional: Hus's book on the Church was printed at Mainz that year (I3; translator).
+4. **Remembered.** The day he was burned, 6 July, is a public holiday in the Czech Republic (I6; census entry only). Optional; one clause, not the closing line.
+
+**Quotes** (3; all rendered by me; one short phrase)
+
+1. **Q1. At the hearing of 7 June 1415, from Peter's Relatio** (REL 15246–15249, Latin; legible). Latin: "Nescio, ubi est anima ipsius Joan. W.; spero, quod sit salvatus et timeo, ne sit damnatus; vellem tamen in spe, quod anima mea esset ibi, ubi est anima Joannis W." Rendering: "I do not know where John Wyclif's soul is. I hope that he is saved, and I fear that he may be damned. Yet in hope I would wish my soul to be where John Wyclif's soul is." **Lifted:** the last sentence is on the tree in `john-wyclif` and is on the README's lifted list (Mark, 2026-11-21). The first two sentences are not on the tree. **Job here:** Hus's own stand: he will not claim Wyclif is saved, and will not damn him; and it is the moment the council mocks him (15249–15250). In the Wyclif story the last sentence is Wyclif's reach into Bohemia; here it is the refusal that helped to condemn Hus. Peter records that Hus said he first spoke the words twelve years before; his editors think it a synod sermon of about 1408 (D2): the story says only "years before", and the card gives both.
+2. **Q2. At the stake, 6 July 1415, from Peter's Relatio** (REL 17380–17388, Latin; OCR marks at line starts, words clear: "mnihi" for mihi, "bomines" for homines, "qp eccatis" for peccatis, "qmraedicavi" for praedicavi, "1 aetanter" for laetanter). Latin: "Deus mihi testis est, quod ea, quae false mihi ascribuntur, per falsos testes mihi imposita, numquam docui nec praedicavi, sed de principali intentione meae praedicationis et omnium aliorum meorum actuum vel scriptorum exstitit, ut solum homines retrahere possem a peccatis; in ea vero evangelii veritate, quam scripsi, docui et praedicavi ex dictis et ex positionibus sanctorum doctorum hodie laetanter volo mori." Rendering: "God is my witness that I never taught or preached the things falsely charged to me, laid on me by false witnesses. The chief aim of my preaching, and of all my other acts and writings, was only to turn people from sin. I wrote, taught and preached the truth of the gospel from the words and teachings of the holy teachers. In that truth I will gladly die today." **Job:** the stand and its reason, in his own last words: he dies refusing to confess what he says he never taught. Not on the tree. ("God is my witness" alone, a common phrase, appears in `longinus-bishop-of-the-nobadae` in another man's words; not a shared quote.)
+3. **Q3. The lords' letter, 2 September 1415** (DOC 30155–30158, Latin; legible). Latin: "quod ipse M. Joannes Hus fuit vir utique bonus, justus et catholicus, a multis annis in regno nostro vita, moribus et fama laudabiliter conversatus et comprobatus". Rendering: "Master John Hus was truly a good, just and catholic man. For many years he lived in our kingdom, praised and proven in his life, his conduct and his good name." **Job:** the nation's verdict against the council's: what turned his death into a cause. The narrator gives "catholic" its sense, "true to the church's faith". Not on the tree.
+
+Short phrase in the narrator's sentence: **"pass, stay, remain and return freely"** (E7), rendering "transire, stare, morari et redire libere" (DOC 13102–13103, legible). Job: the opening; the safe-conduct's own promise.
+
+**Names**
+
+- Jan Hus: acts. Census spelling "Jan Hus" (people line, L4). The sources' "John Hus", "Huss", "Joannes Hus" are not used in the narrator's voice; Q3's "Master John Hus" stays as rendered.
+- John Wyclif: link. Census "John Wyclif".
+- Sigismund: acts. Not on the tree; "King Sigismund", first as "Sigismund, king of Hungary and the elected head of the empire". Never "Emperor Sigismund" bare.
+- Peter of Mladoňovice: witness, named once ("Peter of Mladoňovice, a Czech in Hus's party who wrote down what he saw"), then "Peter". Not on the tree. Spelling as the census tradition entry gives it ("Peter of Mladoňovice", documentedStories).
+- Ulrich Richental: witness, by role: "a citizen of Constance who watched", or named once ("Ulrich Richental, a citizen of Constance"). Not on the tree.
+- Martin Luther: link. Census "Martin Luther".
+- Anyone else by role: "the archbishop of Prague" (Zbyněk), "the king of Bohemia" (Wenceslas), "a Czech lord who had escorted him" (John of Chlum; optional), "the cardinals", "the bishops", "his modern translator" (David Schaff), "the lords and knights of Bohemia and Moravia". Not named: Jerome of Prague, Palecz, Michael de Causis, Stokes, Hübner, Duke Ludwig, Pope John XXIII, Jakoubek.
+
+**Connection to carry into the story:** two things passed. First, from Wyclif to Hus: the books, and with them the charge; Hus read them, built his own book on the Church from Wyclif's, and would not damn him, and that refusal was held against him at Constance (E4, E6, E12; SCH 1507–1517). Second, from Hus to Bohemia: his cause. The listener must be told what the lords did, not only that a movement began: within two months of his burning, 452 lords and knights of Bohemia and Moravia sealed a letter to the council saying he had been a good man condemned on false charges, and vowing to defend the preachers of God's law whatever human law said (I1). And the listener must be told what the cup is, so the emblem makes sense: the council had forbidden giving lay people the wine at communion weeks before his death; he defended their right to it from his cell; that cup became the sign of the movement that grew from his death (E13, I2). Carry it through these acts; no "this matters because" sentence.
+
+**Ending:** close on the person. (a) **Recommended:** the lords' own words, Q3, told last in What came, after Luther: the nation's verdict on him, and the last thing heard. (b) The opening image seen again: the safe-conduct had promised he could "return freely"; it is told once in the opening, and the ending may echo only "he never returned to Prague" if the writer has not told the ashes in beat 6. Do not tell the ashes twice. Add no moral (no "his fire lit a nation").
+
+**Links**
+
+- John Wyclif: read his books; built his book on the Church from Wyclif's; would not condemn him; defended his good name before the council (L1).
+- Martin Luther: read his book; wrote that he was burned unjustly (L3). Optional.
+- The Council of Constance: condemned him; profile only, not a tree link yet (L2).
+- The Hussite and Bohemian Brethren movement: its first voice; told within it (L4).
+
+**Who tells it**
+
+- **Hus himself**, for his hope about Wyclif (beat 2), his reply at the arrest (beat 4), Q1, the cup letter (beat 5), his refusal and Q2 (beat 6). Credit "he wrote" or "he said".
+- **Peter of Mladoňovice**, eyewitness in Hus's party, devoted to him: the arrest, the hearings, the king's words, the death (beats 4–6). The listener must know once that he was Hus's friend and was there. Most of the Constance story rests on him; say so once, inside the beat 4 sentence that names him.
+- **Ulrich Richental**, a citizen of Constance, eyewitness, hostile: the learned men's advice to the king (beat 4); his different account of the death (beat 6). The listener must know he watched from the other side.
+- **The council's own sentence**: that he misled the people of Bohemia and was stubborn (E15; optional, credited "the council's sentence").
+- **The lords and knights of Bohemia and Moravia**, in September 1415: Q3 and the vow (What came 1).
+- **Luther**, a century later: What came 3.
+- **Lützow and the editors**, for dates only (1402, 1403, 1410, 1412, the safe-conduct's dates): not named; the narrator states the dates plainly, as the card credits them.
+- **His modern translator** (Schaff), once: that the book on the Church took paragraph after paragraph from Wyclif (beat 3).
+- **The doubt is itself the story** at the stake: Peter's singing and Richental's crying out, side by side, credited, no verdict (beat 6).
+
+**Do not say**
+
+- Any word in "Words to explain" used without its plain sense the first time it is heard.
+- Not "the emperor's safe-conduct" or "Emperor Sigismund" bare. Say "King Sigismund", "the king", with the gloss once (S6).
+- Not "the council burned him". Say the council condemned him and handed him to the secular power, and the king's men burned him (E15, E17; MAN 78664–78666).
+- Not "Sigismund broke his promise" or "the council broke the safe-conduct" in the narrator's voice. Say what each said: the learned men's advice (Richental), the king's own words (Peter), Hus's letter, Luther's judgment (D5).
+- Not "he travelled with the safe-conduct in his hand" or "the safe-conduct was issued before he left". He set out before the formal letter reached him (D3).
+- Not "Hus denied that the bread becomes Christ's body" or "Hus was a Wycliffite" as fact. He said he had defended no error of Wyclif (D8).
+- Not "Hus said Wyclif was in heaven". He said he hoped so, and feared not (Q1, E4).
+- Not "he first said it in 1403" or "in 1408" as fact. Say "years before" (D2).
+- Not "Hus fled" or "he tried to escape in a hay cart". That is Richental's story, which Peter calls false (D4); it is left out.
+- Not "he died silently" or "he died singing" as the narrator's fact without Peter's name; give Richental's account beside it (D6).
+- Not "he refused confession". Leave confession out (D7).
+- Not "born in 1369", "1371" or "1373". Say "born about 1370", or leave it out (D1).
+- Not "Hus founded the Bethlehem Chapel". It was founded in 1391 by a courtier and a Prague merchant; he became its preacher in 1402 (S4, S5).
+- Not "Hus translated the Bible into Czech" or "reformed Czech spelling": not in the held sources used here.
+- Not "the first Protestant" or "a Protestant before Luther" in the narrator's voice. Luther's words only, credited (I4).
+- Not "We are all Hussites" or "We have all been Hussites without knowing it": held only in Lützow's English (I4); not quoted.
+- Not the paraphrase "to the shedding of blood" or "We commit your soul to the devil" / "I commit it to the most gracious Lord Jesus Christ" as quotes: the Council of Constance profile (not yet on the tree) uses them, and the README bars sharing inside the batch's future overlaps; tell the vow as "whatever it cost them" and the devils' crown without the exchange.
+- Not "Luther found no error" alone: keep his "I have no wish to make a saint or a martyr of him" beside it if the clause is told (I4).
+- Not "the Czech Republic keeps his day" as the closing line or a moral.
+- Not "the people rose up at once" or "his death started the Hussite wars" in a sentence: the wars are the tradition's story and came from 1419–1420 (census).
+
+**Leave out**
+
+- The 1409 decree and the German masters' departure, unless beat 2 has room (E2): a side story.
+- The hay cart (D4), the confession (D7), the burning of the heart and the breaking of the bones (E19) beyond "his ashes were thrown into the Rhine": the scene's force is carried by the crown, his words and the fire; the rest adds horror for its own sake.
+- Jerome of Prague, burned there in 1416: his own story.
+- Peter's "the wind blew the flame into his face" is kept; the time it took him to die ("two or three Our Fathers", REL 17397–17399) is left out.
+- Piccolomini's praise of Hus and Jerome going to the fire "as if invited to a banquet" (I5): damaged scan, no second print read; card only, English alone, if used.
+
+**For the card, not the story**
+
+- Birth: 1369 (Palacký, Tomek), 1373 (oldest traditions), 1373 to 1375 (Lützow after Flajšhans) (D1). Husinec near Prachatice, peasant parents (S2).
+- University: bachelor of divinity 1394, master of arts 1396, priest about 1400, rector 1402 and again 1409 (S3, E2); the Kutná Hora decree, 18 January 1409, and the Germans' departure for Leipzig (E2).
+- The chapel's founders, John of Mühlheim and the merchant Kříž, 24 May 1391 (S4, S5).
+- The safe-conduct's dates: the promise from Rothenburg, 8 October; the letter from Speyer, 18 October 1414; Hus left 11 October (D3). The claim that it was got fifteen days after the arrest (E10). Workman and Pope's view that it did not reach the church's courts (E10).
+- The two dates for the Wyclif wish (D2), and his letter to Stokes (E4).
+- The hay-cart story, credited to Richental, with Peter's denial (D4). The confession accounts (D7).
+- Richental's detail that Hus wished to preach to the crowd in German and was not allowed (RIC 4369).
+- The council's own sentence: a misleader of the people, "not a true preacher of Christ's gospel", deposed and degraded, left to the secular court (E15; MAN, damaged scan: English alone).
+- His appeal to Christ, "who is not bent by a bribe nor deceived by false witness" (E5).
+- Piccolomini (later Pope Pius II), about 1458: no philosopher bore death so bravely (I5; damaged scan, English alone).
+- Luther's "We have all been Hussites without knowing it", as Lützow reports it, English only (I4).
+- Hus's book on the Church printed at Mainz in 1520 (I3).
+- The 6 July public holiday (I6).
