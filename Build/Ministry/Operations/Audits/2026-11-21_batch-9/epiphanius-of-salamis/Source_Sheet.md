@@ -245,5 +245,6 @@ Line numbers are each file's own lines. Witness kinds: **own words**; **contempo
 - Acta Sanctorum (Maii 3; Maii 6), the Ethiopic Synaxarium, the "Life" by the alleged Polybius (Hartranft's note, SS 42331): late legend.
 - Mansi volumes, Hefele, Harnack, Assemani, Nicholas Mystikos, Pamphilus's Apology (Rufinus's Latin), Collectio Avellana, Theodore the Studite, Nikephoros, Bessarion, Bekkos, Pedalion: later or modern uses of his heresy catalogue or of the image texts, or other men of the name; Mendham's English covers Nicaea II, and no further witness changes the story.
 - The Lausiac History: does not mention him (its "Epiphany" is the feast).
+- Anan-Isho's Paradise (Budge 1907), the sayings of Abba Epiphanius: a later collection; the speaker is identified with him only by the Palestinian monastery in saying 118; not for the story; the card may note it.
 
 **Card notes (for the card step).** The Ancoratus is held (HOLL1), and so is the Panarion from heresy 1 (HOLL1), not only from 34. Letter 51's Greek and Jerome's Latin are not held; only Fremantle's English.
