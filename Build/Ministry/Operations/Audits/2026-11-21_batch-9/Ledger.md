@@ -9,3 +9,4 @@ One row per agent pass: the subagent's own token count as the harness reports it
 | Evagrius Ponticus | 1 Research | Opus | 338,798 | outline, ~590 words planned |
 | Hilary of Poitiers | 1 Research | Opus | 299,672 | outline, ~600 words planned |
 | Apollinaris of Laodicea | 1 Research | Opus | 327,885 | outline, ~600 words planned |
+| Basil of Caesarea | 1 Research | Opus | see notice | outline, ~600 words planned |
