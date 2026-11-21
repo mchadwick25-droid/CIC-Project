@@ -7,9 +7,9 @@
   ],
   "scope": "vendored coverage only - see this script's own docstring for why the acquirable/purchasable/no-edition-exists breakdown is not included here",
   "counts": {
-    "total_entries": 620,
+    "total_entries": 629,
     "entries_with_coverage": 303,
-    "entries_zero_coverage": 317
+    "entries_zero_coverage": 326
   },
   "entries": {
     "post-apostolic-house-church": {
@@ -42068,6 +42068,21 @@
       "status": "Within Another World (A5)",
       "works": []
     },
+    "jan-hus": {
+      "name": "Jan Hus",
+      "status": "Within Another World (A5)",
+      "works": []
+    },
+    "catherine-of-siena": {
+      "name": "Catherine of Siena",
+      "status": "Within Another World (A5)",
+      "works": []
+    },
+    "gregory-palamas": {
+      "name": "Gregory Palamas",
+      "status": "Within Another World (A5)",
+      "works": []
+    },
     "martin-luther": {
       "name": "Martin Luther",
       "status": "Within Another World (A5)",
@@ -42080,6 +42095,21 @@
     },
     "ignatius-of-loyola": {
       "name": "Ignatius of Loyola",
+      "status": "Within Another World (A5)",
+      "works": []
+    },
+    "huldrych-zwingli": {
+      "name": "Huldrych Zwingli",
+      "status": "Within Another World (A5)",
+      "works": []
+    },
+    "thomas-cranmer": {
+      "name": "Thomas Cranmer",
+      "status": "Within Another World (A5)",
+      "works": []
+    },
+    "teresa-of-avila": {
+      "name": "Teresa of Ávila",
       "status": "Within Another World (A5)",
       "works": []
     },
@@ -42218,6 +42248,21 @@
     },
     "bonaventure": {
       "name": "Bonaventure",
+      "status": "Within Another World (A5)",
+      "works": []
+    },
+    "francis-of-assisi": {
+      "name": "Francis of Assisi",
+      "status": "Within Another World (A5)",
+      "works": []
+    },
+    "bernard-of-clairvaux": {
+      "name": "Bernard of Clairvaux",
+      "status": "Within Another World (A5)",
+      "works": []
+    },
+    "thomas-aquinas": {
+      "name": "Thomas Aquinas",
       "status": "Within Another World (A5)",
       "works": []
     },

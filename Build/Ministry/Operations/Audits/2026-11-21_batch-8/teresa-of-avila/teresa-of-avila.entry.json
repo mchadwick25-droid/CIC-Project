@@ -1,0 +1,295 @@
+{
+  "id": "teresa-of-avila",
+  "atlasId": "VI.40",
+  "era": 7,
+  "kind": "person",
+  "toldWithin": "carmelite-reform-and-spanish-mystics",
+  "major": true,
+  "activeYear": 1562,
+  "name": "Teresa of Ávila",
+  "shortName": "Teresa",
+  "dates": "1562-1582",
+  "start": 1562,
+  "end": 1582,
+  "region": "Ávila, Castile",
+  "placeLabel": "Ávila and beyond",
+  "modernCountries": [
+    {
+      "country": "Spain",
+      "countryId": "Q29",
+      "place": "Castile",
+      "placeId": "Q173063"
+    }
+  ],
+  "regions": [
+    "Mediterranean"
+  ],
+  "lane": "5 Latin West & Catholicism",
+  "laneLabel": "Latin West & Catholicism",
+  "laneOrder": 5,
+  "beyondFloor": false,
+  "status": "Within Another World (A5)",
+  "chip": "exc",
+  "glyph": "a5",
+  "statusWord": "Named within another tradition's story",
+  "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+  "living": false,
+  "overlayCurrent": false,
+  "c2": null,
+  "entry": null,
+  "teaser": "Ávila, 1562 to 1582: a Carmelite nun who founded a small, poor house of nuns living by the order's old rule, then many more, and pictured the soul as a castle of many rooms.",
+  "longDescription": "\"I crossed this stormy sea for almost twenty years, with these falls, and rising again, and badly, for I would fall once more.\" So Teresa of Ávila wrote of her long struggle in prayer as a nun, in the book her confessors, the priests who guided her prayer, ordered her to write.\n\nShe was a nun of the Carmelites, an order that took its name from Mount Carmel in the Holy Land. She spent more than twenty years in a large, easy-going convent in Ávila. Then, in 1562, she founded a small, poor house of no more than thirteen nuns, living by the order's old rule. The city tried to close it. She kept founding more, for nuns and friars. They became the Discalced, or barefoot, Carmelites, still an order today.\n\nBorn in Ávila in 1515, she had entered the Incarnation, a convent outside the city, at about twenty. It was large and pleasant, she wrote, but poor. The nuns often left it to stay elsewhere, and the rule was kept as popes had relaxed it.\n\nAs her prayer changed, two advisers told her an evil spirit was deceiving her. They sent her to a priest of the Society of Jesus, the new order Ignatius of Loyola had founded. Its priests judged her prayer sound.\n\nThe Inquisition, the church's court that tried heresy in Spain, was banning devotional books in Spanish, and people warned her. She wrote: \"People came to me in great fear. They told me the times were harsh, and that someone might bring a false charge against me and go to the Inquisitors. This struck me as funny, and made me laugh, for in this I was never afraid.\"\n\nOn 24 August 1562 the first nuns joined the house, St Joseph's. Days later the city's governor and councillors resolved that it must be broken up. Only one Dominican, Domingo Báñez, spoke for delay, though he disliked its poverty. He later became her confessor. She had been ordered back to her old convent, but the house stayed.\n\nIn the years after 1562 she wrote her life. It is the book in which most of what we know of her early years is told. If it did not agree with the Catholic faith, she told her confessors, they should \"burn it at once.\"\n\nFrom 1567 she founded house after house, seventeen for nuns by her death, her editors count. Then the Princess of Eboli, whom she had crossed, denounced the book, out of anger, a friar close to Teresa wrote. Báñez, by his own later account, carried the manuscript to the Inquisitors himself, to keep it safe. He had told her to burn it, since women's writings should not become public, and she had agreed. The Inquisition gave it back to him to judge, an editor writes. In July 1575 he reported that he found no error in its teaching, and that she was \"not a deceiver.\" He added that only learned men should see it. She never saw the book again. That year, she wrote, the order's leaders sent her a decree to found no more houses and to stay in one.\n\nTwo years later, at Toledo, ordered to write about prayer while her reform seemed close to ruin, her editor writes, she began the Interior Castle. She wrote: \"I thought of the soul as like a castle, made of a single diamond or of very clear crystal. It has many rooms, just as in heaven there are many dwelling places.\" God is in the innermost room, and prayer is the gate.\n\nIn 1580 the pope let her houses form a province, a branch of the order with its own head, and later an order. After her death, once the Inquisition agreed, her books were printed at Salamanca in 1588. In 1622 the pope declared her a saint.\n\nWorn out, she reached Alba de Tormes in September 1582, and died there in early October, on the night the calendar changed. As she was dying, her editors tell, she thanked God that she was a child of the Church.",
+  "reviewStatus": "AI-checked",
+  "card": {
+    "otherNames": [
+      "Teresa of Jesus",
+      "Theresa"
+    ],
+    "knownFor": "A Carmelite nun who, after more than twenty years in a large convent at Ávila, founded in 1562 a small, poor house of no more than thirteen nuns, living by the order's old rule, and then founded many more for nuns and friars; they became the Discalced, or barefoot, Carmelites. She wrote her Life for her confessors, whose book the Inquisition examined and found sound, and in the Interior Castle she pictured the soul as a castle of many rooms, with God in the innermost one and prayer as the gate.",
+    "datesNote": "Born at Ávila on 28 March 1515, by the Roman Breviary's lesson for her feast. Entered the Incarnation convent at Ávila in the twentieth year of her age, by the Breviary; Yepes, the Bollandists and Lewis give 2 November 1533 for her entry and 3 November 1534 for her profession, while Zimmerman, from the deed of 31 October 1536, gives her profession on 3 November 1536 and her entry a year and a day before it. St. Joseph's, her first small house, was founded on 24 August 1562. Her Life was written in the years after 1562: Zimmerman has it begun in spring 1563 and completed in May or June 1565, and Lewis has it occupying her nearly six years. Her first commission to found houses of nuns in Castile is dated 27 April 1567; the first house of friars was begun at Duruelo, its first mass said on the first Sunday of Advent 1568. The Princess of Eboli's denunciation of the Life is dated 1574 by Silverio and 1570 by Andrés de la Encarnación; the nuns were withdrawn from Pastrana in April 1574. Báñez signed his censure at Valladolid on 6 July 1575 in de la Fuente's printing, and on 7 July in Silverio's note from the autograph. She began the Interior Castle on 2 June 1577 and finished it on 29 November 1577. Gregory XIII's brief of 22 June 1580 made her houses a province; the orders separated in 1593. She reached Alba de Tormes on 20 September 1582 and died on the night of 4 October 1582, which the Breviary calls 15 October, New Style. Her works were printed at Salamanca in 1588. She was beatified in 1614 and declared a saint in 1622",
+    "placeNote": "Ávila in Castile, by birth; the Incarnation, a large convent outside the city; St. Joseph's at Ávila; Duruelo and Pastrana, her first houses of friars; Toledo, where she wrote the Interior Castle; Salamanca, where she began the Foundations in 1573; Burgos, the last house of nuns, in April 1582; Alba de Tormes, near Salamanca, where she died",
+    "role": "Carmelite nun; founder of the Discalced Carmelite reform; writer on prayer",
+    "keyWorks": [
+      {
+        "title": "The Life (Libro de la Vida)",
+        "about": "her story and her way of prayer, written at her confessors' order, in the years after 1562. She tells them that if it is not consistent with the truths of the Catholic faith they must burn it at once. It is held here in her Spanish, from the autograph, edited by Silverio, and in David Lewis's English"
+      },
+      {
+        "title": "The Interior Castle (Las Moradas)",
+        "about": "written at Toledo in 1577 at the command of her superiors. She pictures the soul as a castle of a single diamond or very clear crystal with many rooms, God in the innermost one, and prayer and meditation as the gate; the book has seven divisions, which she called dwelling places. It is held here only in the Stanbrook nuns' English"
+      },
+      {
+        "title": "The Book of the Foundations",
+        "about": "her account of the houses she founded, begun at Salamanca in 1573 at the order of her confessor, the Jesuit rector Ripalda. It is held here only in David Lewis's English, with Zimmerman's introduction and annals"
+      }
+    ],
+    "legacy": {
+      "traces": [
+        "Her houses became an order. Zimmerman says that by a brief of 22 June 1580 Gregory XIII made all the friars and nuns under the primitive rule and of her reform one province under a provincial of their own, and his annals give 1593 as the separation of the orders of Calced and Discalced Carmelites. The tree's account of the Carmelite reform says the Discalced Carmelites are still a worldwide order of friars and nuns.",
+        "Zimmerman says she founded and directed seventeen monasteries of nuns in twenty years, with the last, at Burgos, in April 1582, and that two houses of friars were founded under the general's license and thirteen more after them.",
+        "Her works were printed at Salamanca in 1588. Lewis says that Anne of Jesus asked the Inquisition for the Life in 1586, that the Inquisitors consented to its publication, and that Fra Luis de León, an Augustinian, edited it. Zimmerman calls Luis de León a professor at Salamanca. Silverio says his edition replaced her naming of the Jesuits and of Ignatius in two places with vaguer words.",
+        "At the archbishop's seminary at Salamanca, her editor says, the Interior Castle was read aloud after dinner.",
+        "The Roman Breviary's lessons for her feast, 15 October, say she was numbered among the saints by Gregory XV, and credit her with building two-and-thirty houses. The tree's account says she was named a Doctor of the Church in 1970, the first woman to hold the title.",
+        "The Bollandists, in the Acta Sanctorum on Saint Joseph, say the Carmelite order, renewed by Teresa to its primitive rigor, spread devotion to Saint Joseph through the Christian world along with her monasteries."
+      ],
+      "remembered": [
+        "Her confessor Domingo Báñez wrote in July 1575, in a censure of the Life, that he had found nothing in it erroneous in doctrine, that she was not herself a deceiver, and that within thirteen years she had, he believed, founded a dozen houses of barefoot nuns.",
+        "Juan de Ávila wrote, in a letter of 12 September 1568 that Lewis prints, that the book was not fit to be in the hands of everybody and that its doctrine of prayer was for the most part sound.",
+        "Lewis writes that Cardinal Quiroga, president of the Inquisition's supreme court, told her he had read the book himself and regarded it as containing sound and wholesome doctrine.",
+        "In the next century Blaise Pascal wrote that Saint Athanasius and Saint Teresa are looked on as crowned with glory, but that in his persecution Athanasius was a man and Teresa a nun. Alphonsus Liguori calls her his patroness in a letter and quotes her in the Glories of Mary that humility is truth. Jeanne Guyon wrote that she could say, like Saint Teresa, Hither to suffer or to die.",
+        "M. E. Lowndes writes that the Paris Carmelites told Angélique Arnauld she closely resembled Saint Teresa, even in her warts, and that Angélique thought the Paris nuns had sadly declined from the spirit of their first foundress."
+      ]
+    },
+    "uncertain": [
+      "When she entered the Incarnation. Yepes, the Bollandists and Lewis give 2 November 1533, resting on one passage of the Life in which she says she was not yet twenty at her first experience in prayer. Zimmerman, who notes that she is not always exact in her figures, gives her profession on 3 November 1536, with her entry a year and a day earlier, from the deed of renunciation and dowry and from the depositions of her friends and a nun of the Incarnation. The Breviary says only the twentieth year of her age. Both are kept.",
+      "How long she was there. Her almost twenty years are her time of struggle in prayer, not the length of her stay. The Breviary says she dwelt there two-and-twenty years. Zimmerman reports a letter of hers of 1581 that says five-and-twenty years in a convent of a hundred and eighty nuns, which would count her later years as its prioress, from 1571 to 1574.",
+      "How many nuns. Zimmerman gives one hundred and ninety in 1550, from the chronicler Francisco de Santa María; a hundred and eighty from her letter of 1581; and more than a hundred and fifty in 1567.",
+      "How she describes the convent. Her own words in the Life are that it was large and pleasant, that the nuns left it very often because it was very poor, and that the rule was kept according to the custom of the whole order, as the Bull of Mitigation authorized, not in its original exactness. Zimmerman adds that the poverty of the house and its lax observance were an evil.",
+      "When the Life was finished. Zimmerman says it was begun in spring 1563 and completed in May or June 1565, and doubts that García de Toledo's command to write came in 1562. Lewis says Ibáñez, a Dominican, had her write her spiritual story in 1562, that this earlier writing has not been found, and that the Life as we have it occupied her nearly six years. The brief says only in the years after 1562.",
+      "How the Life reached the Inquisition. Gracián, a friar close to Teresa, wrote that a lady, the Princess of Eboli, denounced it to do harm to the Mother, out of a certain anger. Báñez, in the deposition that Zimmerman quotes, which Lewis's note puts at Salamanca in 1591 in the Saint's process, says that he told Teresa to burn the original, since the writings of women should not become public, that she agreed, and that, not daring to destroy it, he handed it to the Holy Office for safe-keeping; Silverio writes that he carried the manuscript to the inquisitors himself. Lewis says the book was in a sense denounced twice, once by an enemy and once by a friend to save it. Lewis also says the Princess was angry with Teresa because she had refused to admit an Augustinian at the Princess's request. The year is 1574 by Silverio and 1570 by Andrés de la Encarnación.",
+      "Which tribunal, and what was to be done with the book. Lewis says the copy was sent to the Holy Office in Madrid and that the Inquisitor Soto gave it back to Báñez to read and give his opinion. The tree's account of the Carmelite reform has the Inquisition of Toledo take it, dates Báñez's report 7 July 1575, and says it should be shown to no one but kept. In the censure as Lewis prints it, Báñez says the book is not to be shown to every one but only to men of learning, experience and Christian discretion, and in his deposition he says it should be kept at the Holy Office until the end of the person was known. Báñez's censure is held only in Lewis's English, from de la Fuente's printing; he also writes that visions and revelations are matters always to be afraid of, especially in women.",
+      "Báñez's count. In the censure he says she has founded a dozen houses of barefoot nuns in thirteen years, but his margin note of May 1575 in the autograph says nine.",
+      "She never saw the book again. Lewis says it stayed in the Inquisition's keeping. Ana de Jesús, in a later deposition that Silverio quotes, says Teresa told her she had written it without fear, because God knew the truth and sincerity with which she had written. Zimmerman says Luis de León did not know the autograph; Lewis says he was allowed to compare the copy given him with the original in the Inquisition's keeping.",
+      "The number of houses. Zimmerman counts seventeen houses of nuns, and, of friars, two founded under the general's license and thirteen after. The Breviary counts two-and-thirty.",
+      "The decree of 1575. Teresa writes, as Zimmerman quotes her from the Foundations, that a decree came from the general chapter forbidding her to found more houses and to leave the house she chose to live in. Zimmerman says the chapter's own text says nothing against her and the order probably came from the General himself. The volume of the general chapters may hold the decree and has not been checked.",
+      "Why she founded the strict house. In the Life she gives the relaxed rule, the nuns' going out, and a call in prayer; in the Way of Perfection she gives the news of the Lutherans' havoc in France and her wish to do what little she could. Zimmerman reports that Luis de León held that the first and chief reason was to repair the wrongs done by the heretics. The idea of a small house of nuns like the barefoot orders was first put to her, the Life says, by a person she was speaking with, and Ribera, quoted by Lewis, names her niece María de Ocampo.",
+      "Francis Borja and the Jesuits. Lewis's preface says the Jesuit Juan de Prádanos judged her way of prayer sound and that she then told everything to Francis Borja, who told her not to resist it; Ribera, quoted by Lewis, says Prádanos gave her part of the Exercises of Ignatius. The Life itself says only that her advisers sent her to a certain father of the Society of Jesus. Silverio notes that Jerónimo de San José and Andrés de la Encarnación suspect Luis de León dropped the Jesuits' name in one place because Teresa says elsewhere she does not name orders.",
+      "The Seville denunciation. Zimmerman tells, from a letter of November 1576, that a dismissed postulant denounced Teresa to the Inquisition in Seville and that the inquisitors, satisfied with their search, reprimanded the priest; Silverio doubts that she herself was ever denounced.",
+      "The date of her death. The night of 4 October 1582, the feast of Saint Francis, by Zimmerman; the 15th of October, New Style, by the Breviary, which says she died in the year and on the day the calendar was changed. Her last words, that she was a child of the Church, are Zimmerman's account.",
+      "Her own judgment of the Castle. In a letter to Gracián, quoted by her editor, she says the book written since seems to her superior to the Life. A nun's deposition says Gracián ordered the Castle and Teresa begged off because there remained nothing for a woman to write. Rodrigo Álvarez wrote his approval of the seventh dwelling place on 22 February 1582, in his own hand at the end of the manuscript.",
+      "The Castle's troubles. Her editor says that in October 1577 fifty-five electors of the Incarnation voted for her as prioress and were declared excommunicated, so that the whole work of the Reform seemed on the brink of ruin. The Castle is held only in English, and in this print the word for mansions is her word for dwelling places.",
+      "The tree's account of the Carmelite reform differs from the held sources in its documented story on the tribunal (Toledo, where Lewis has Madrid), on the date (7 July) and on Báñez's words (shown to no one). Its own record marks that story as taken from reference summaries, with the primary text not yet read.",
+      "She is called Doctor of the Church in 1970 only in the tree's own entry, which is outside the Library's texts."
+    ],
+    "sources": {
+      "ownWords": [
+        {
+          "title": "Libro de la Vida, in Obras de Santa Teresa de Jesús, vol. 1, ed. Silverio de Santa Teresa",
+          "language": "Spanish",
+          "file": "cic/texts/teresa-of-avila_libro-de-la-vida-spa_silverio1915.txt"
+        },
+        {
+          "title": "The Life of St. Teresa of Jesus, written by herself (tr. David Lewis, 3rd ed.)",
+          "language": "English translation",
+          "file": "cic/texts/teresa-of-avila_life_lewis1904.txt"
+        },
+        {
+          "title": "The Book of the Foundations (tr. David Lewis, rev. ed. 1913)",
+          "language": "English translation",
+          "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt"
+        },
+        {
+          "title": "The Interior Castle, or The Mansions (tr. the Benedictines of Stanbrook)",
+          "language": "English translation",
+          "file": "cic/texts/teresa-of-avila_interior-castle_stanbrook1912.txt"
+        },
+        {
+          "title": "The Way of Perfection (tr. the Benedictines of Stanbrook)",
+          "language": "English translation",
+          "file": "cic/texts/teresa-of-avila_way-of-perfection_stanbrook1919.txt"
+        }
+      ],
+      "about": [
+        {
+          "title": "Introduction to the Life, and Lewis's preface printing Báñez's censure and Juan de Ávila's letter",
+          "author": "Benedict Zimmerman and David Lewis",
+          "date": "1904",
+          "language": "English",
+          "file": "cic/texts/teresa-of-avila_life_lewis1904.txt"
+        },
+        {
+          "title": "Introduction and annals to the Book of the Foundations",
+          "author": "Benedict Zimmerman",
+          "date": "1913",
+          "language": "English",
+          "file": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt"
+        },
+        {
+          "title": "Introduction and notes to the Interior Castle",
+          "author": "Benedict Zimmerman",
+          "date": "1912",
+          "language": "English",
+          "file": "cic/texts/teresa-of-avila_interior-castle_stanbrook1912.txt"
+        },
+        {
+          "title": "Introduction and notes to the Libro de la Vida",
+          "author": "Silverio de Santa Teresa",
+          "date": "1915",
+          "language": "Spanish",
+          "file": "cic/texts/teresa-of-avila_libro-de-la-vida-spa_silverio1915.txt"
+        },
+        {
+          "title": "Notes to the Way of Perfection",
+          "author": "Benedict Zimmerman",
+          "date": "1919",
+          "language": "English",
+          "file": "cic/texts/teresa-of-avila_way-of-perfection_stanbrook1919.txt"
+        },
+        {
+          "title": "The Roman Breviary, lessons for the feast of St. Teresa, 15 October (tr. the Marquess of Bute)",
+          "author": null,
+          "date": "1908",
+          "language": "English translation",
+          "file": "cic/texts/roman-breviary_bute1908.txt"
+        },
+        {
+          "title": "The Life of Saint John of the Cross",
+          "author": null,
+          "date": "1873",
+          "language": "English",
+          "file": "cic/texts/john-of-the-cross_life_lewis1873.txt"
+        },
+        {
+          "title": "Acta Sanctorum, March, vol. 3 (on Saint Joseph)",
+          "author": "The Bollandists",
+          "date": "1865",
+          "language": "Latin",
+          "file": "cic/texts/acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt"
+        },
+        {
+          "title": "Thoughts (tr. W. F. Trotter), in Thoughts, Letters, and Minor Works",
+          "author": "Blaise Pascal",
+          "date": "1910",
+          "language": "English translation",
+          "file": "cic/texts/pascal_thoughts-letters-minor-works_trotter-booth-wight1910.txt"
+        },
+        {
+          "title": "Letters of St. Alphonsus Maria de Liguori, vol. 1",
+          "author": "Alphonsus Liguori",
+          "date": "1891",
+          "language": "English translation",
+          "file": "cic/texts/liguori_letters-v1_grimm1891.txt"
+        },
+        {
+          "title": "The Glories of Mary",
+          "author": "Alphonsus Liguori",
+          "date": "1852",
+          "language": "English translation",
+          "file": "cic/texts/liguori_glories-of-mary_1852.txt"
+        },
+        {
+          "title": "Autobiography of Madame Guyon, vol. 1 (tr. Thomas Taylor Allen)",
+          "author": "Jeanne Guyon",
+          "date": "1897",
+          "language": "English translation",
+          "file": "cic/texts/guyon_autobiography-v1_allen1897.txt"
+        },
+        {
+          "title": "The Nuns of Port Royal as seen in their own Narratives",
+          "author": "M. E. Lowndes",
+          "date": "1909",
+          "language": "English",
+          "file": "cic/texts/lowndes_nuns-of-port-royal-own-narratives_1909.txt"
+        }
+      ]
+    },
+    "briefReferences": [
+      "Life VIII, in her Spanish and in Lewis's English: nearly twenty years on a stormy sea of prayer; the Life ordered by her confessors.",
+      "Foundations introduction and annals, and Life XXXII, XXXV: the Carmelites, the Incarnation, the relaxed rule, St. Joseph's, the thirteen nuns, the city's attempt to close it, the Discalced and friars' houses; the tree's account of the Carmelite reform for the order today.",
+      "Life XXXII and Zimmerman's introduction: born at Ávila in 1515, entered the Incarnation at about twenty, large and pleasant but poor, the nuns leaving it, the rule as popes had relaxed it.",
+      "Life XXIII, and Lewis's preface: two advisers say an evil spirit deceives her; the fathers of the Society of Jesus judge her prayer sound.",
+      "Life XXVI and XXXIII, and Silverio's note on the Index of 1559: books in Spanish banned; the warning of the times and her laughter.",
+      "Life XXXVI, Lewis's preface and Báñez's marginal note: 24 August 1562, the city's governor and councilors, one Dominican who spoke for delay and later became her confessor, her order back to the old convent.",
+      "Life X and Zimmerman's introduction: most of what is known of her early years is told in the Life; \"burn it at once\".",
+      "Foundations introduction and annals (seventeen houses of nuns); Lewis's preface and Silverio's introduction on the Princess of Eboli, Gracián, and Báñez; Báñez's censure of July 1575 as Lewis prints it; the decree of 1575 as Zimmerman quotes the Foundations.",
+      "Interior Castle, prologue and First Dwelling Places, with Zimmerman's notes: Toledo in 1577, the castle of diamond or crystal, the innermost room, prayer as the gate.",
+      "Foundations annals, Gregory XIII's brief of 1580; Lewis's preface on the printing at Salamanca in 1588; the Breviary on her canonization in 1622.",
+      "Foundations introduction: Alba de Tormes in September 1582, her death in early October on the night of the calendar change, and her words that she was a child of the Church."
+    ],
+    "quotationOriginals": [
+      {
+        "modern": "I crossed this stormy sea for almost twenty years, with these falls, and rising again, and badly, for I would fall once more.",
+        "printed": "Pasé este mar tempestuoso casi veinte años con estas caídas, y con levantarme y mal, pues tornaba a caer",
+        "work": "Teresa of Ávila, Libro de la Vida, ch. 8, in the Spanish of Silverio's edition from the autograph",
+        "file": "cic/texts/teresa-of-avila_libro-de-la-vida-spa_silverio1915.txt",
+        "lines": "8724-8725",
+        "englishPrinted": "I passed nearly twenty years on this stormy sea, falling and rising, but rising to no good purpose, seeing that I went and fell again.",
+        "englishFile": "cic/texts/teresa-of-avila_life_lewis1904.txt",
+        "englishLines": "5439-5441",
+        "uncertain": "Rendered from the Spanish, with Lewis's English as the cross-check. Lewis reads \"rising to no good purpose\" for \"y con levantarme y mal\"; the rendering keeps \"and badly\".",
+        "secondReading": "same"
+      },
+      {
+        "modern": "People came to me in great fear. They told me the times were harsh, and that someone might bring a false charge against me and go to the Inquisitors. This struck me as funny, and made me laugh, for in this I was never afraid.",
+        "printed": "iban a mí con mucho miedo a decirme que andaban los tiempos recios, y que podría ser me levantasen algo y fuesen a los inquisidores. A mí me cayó esto en gracia, y me hizo reir, porque en este caso jamás yo temí",
+        "work": "Teresa of Ávila, Libro de la Vida, ch. 33, in the Spanish of Silverio's edition from the autograph",
+        "file": "cic/texts/teresa-of-avila_libro-de-la-vida-spa_silverio1915.txt",
+        "lines": "17931-17934",
+        "englishPrinted": "people came to me in great terror, saying that the times were dangerous, that something might be laid to my charge, and that I might be taken before the Inquisitors. I heard this with pleasure, and it made me laugh, because I never was afraid of them",
+        "englishFile": "cic/texts/teresa-of-avila_life_lewis1904.txt",
+        "englishLines": "17113-17117",
+        "uncertain": "Rendered from the Spanish, with Lewis's English as the cross-check; Lewis has \"in great terror\" and \"that something might be laid to my charge\". The chapter has no year for the warning. The span ends where her reason begins.",
+        "secondReading": "same"
+      },
+      {
+        "modern": "burn it at once.",
+        "printed": "vuestra merced lo queme luego",
+        "work": "Teresa of Ávila, Libro de la Vida, ch. 10, in the Spanish of Silverio's edition",
+        "file": "cic/texts/teresa-of-avila_libro-de-la-vida-spa_silverio1915.txt",
+        "lines": "9391",
+        "englishPrinted": "burn it at once",
+        "englishFile": "cic/texts/teresa-of-avila_life_lewis1904.txt",
+        "englishLines": "6335-6336",
+        "secondReading": "checked at card"
+      },
+      {
+        "modern": "not a deceiver.",
+        "printed": "she is not a deceiver",
+        "work": "Domingo Báñez, censure of the Life, 6 July 1575, in Lewis's preface to the Life, from de la Fuente's printing",
+        "file": "cic/texts/teresa-of-avila_life_lewis1904.txt",
+        "lines": "2371",
+        "secondReading": "checked at card",
+        "uncertain": "Held only in English; Báñez's Spanish is in the autograph, which is not held. Lewis's printing also has the sentence \"this woman, even though she may be deceived in something, is at least not herself a deceiver\" at lines 2276-2278."
+      },
+      {
+        "modern": "I thought of the soul as like a castle, made of a single diamond or of very clear crystal. It has many rooms, just as in heaven there are many dwelling places.",
+        "printed": "I thought of the soul as resembling a castle, formed of a single diamond or a very transparent crystal, and containing many rooms, just as in heaven there are many mansions.",
+        "work": "Teresa of Ávila, The Interior Castle, First Dwelling Places, ch. 1, tr. the Benedictines of Stanbrook",
+        "file": "cic/texts/teresa-of-avila_interior-castle_stanbrook1912.txt",
+        "lines": "1759-1778",
+        "uncertain": "The Spanish Moradas is not held; the rendering is from the English. The print breaks the sentence after \"just as in heaven there are\": footnotes and a page heading stand in lines 1762-1777, and footnote marks stand in the sentence. \"Mansions\" is rendered \"dwelling places\", her word for the divisions.",
+        "secondReading": "same"
+      }
+    ]
+  }
+}

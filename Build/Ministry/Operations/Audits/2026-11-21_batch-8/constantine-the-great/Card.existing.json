@@ -1,0 +1,123 @@
+{
+ "knownFor": "Roman emperor who, with Licinius, gave Christians freedom of worship, and who called the bishops to the council at Nicaea.",
+ "role": "Roman emperor",
+ "keyWorks": [
+  {
+   "title": "Edict of Milan, with Licinius",
+   "about": "Christians and all others free to follow the religion each thought best"
+  },
+  {
+   "title": "Letter to Alexander and Arius",
+   "about": "to Bishop Alexander of Alexandria and the presbyter Arius; calls their quarrel trifling and asks both to forgive"
+  },
+  {
+   "title": "Letter to the churches after Nicaea",
+   "about": "one day for Easter everywhere, and obedience to the council"
+  }
+ ],
+ "legacy": {
+  "traces": [
+   "Nicaea did not end the quarrel. Five bishops would not sign the creed because of the word homoousios, Eusebius of Nicomedia among them. Eusebius of Caesarea signed, he told his church, with peace in view.",
+   "Constantine also wrote to Eusebius of Caesarea asking for fifty copies of the sacred scriptures, on parchment, for the churches of the city that bore his name.",
+   "After the council he wrote to the churches that Easter must fall on one day everywhere, so that some would not be fasting while others feasted."
+  ],
+  "remembered": [
+   "Eusebius of Caesarea honors him as the first sovereign baptized in a church of the martyrs.",
+   "The church historian Sozomen calls him a powerful protector of the Christian religion and the first emperor zealous for the church.",
+   "His letter about Easter speaks of the Jews with contempt, and Eusebius of Caesarea copies it whole."
+  ]
+ },
+ "uncertain": [
+  "The two early tellings of the sign do not agree: Eusebius of Caesarea has a cross of light in the sky and then a dream, Lactantius a dream alone. Eusebius adds that at dawn Constantine called in workers in gold and precious stones to make the sign as a standard, and that he saw it with his own eyes.",
+  "Not everyone accepted Eusebius of Caesarea's account of the baptism. A Syriac chronicle that goes under Zachariah of Mitylene's name says Eusebius got it wrong. The emperor was not baptized at the end of his life, it says, since the story of his conversion by Rome's bishop, Silvester, is kept there in writing and in pictures. Pagans told yet another story, that he turned Christian to be cleansed after the killing of his son Crispus, and Sozomen calls it an invention."
+ ],
+ "sources": {
+  "ownWords": [
+   {
+    "title": "The Oration of Constantine to the Assembly of the Saints",
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+    "language": "English",
+    "disputed": "scholarly dispute about authenticity"
+   }
+  ],
+  "about": [
+   {
+    "title": "Life of Constantine",
+    "author": "Eusebius of Caesarea",
+    "date": null,
+    "language": "English translation (Greek edition also held)",
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+   },
+   {
+    "title": "On the Deaths of the Persecutors",
+    "author": "Lactantius",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml"
+   },
+   {
+    "title": "Ecclesiastical History",
+    "author": "Socrates",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+   },
+   {
+    "title": "Ecclesiastical History",
+    "author": "Sozomen",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+   },
+   {
+    "title": "The Syriac Chronicle known as that of Zachariah of Mitylene",
+    "author": "compiler writing under Zachariah's name",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt"
+   }
+  ]
+ },
+ "briefReferences": [
+  "Lactantius, On the Deaths of the Persecutors 43-48, tr. William Fletcher: the persecution of nearly ten years; the rival emperors; Maxentius's march and his dream of the sign of Christ on the shields; Maxentius driven into the Tiber at the broken bridge. The year 312 is the standard reckoning from his dates.",
+  "Eusebius, Life of Constantine I.28-29, tr. Ernest Cushing Richardson: his prayer that God show him who he was; the account he gave Eusebius under oath; the cross of light above the sun with the words \"Conquer by this\"; Christ coming to him in sleep that night.",
+  "Lactantius, On the Deaths of the Persecutors 48, tr. Fletcher: the meeting at Milan, freedom for Christians and all others, and the return of their meeting places.",
+  "Eusebius, Church History X.2-3, tr. McGiffert: churches rising again from their foundations.",
+  "Socrates, Church History I.5, tr. A. C. Zenos: Arius's teaching that if the Father begat the Son, there was a time when the Son was not.",
+  "Eusebius, Life of Constantine II.68-71, tr. Richardson: Constantine's letter to Arius and his bishop, calling the cause trifling.",
+  "Eusebius, Life of Constantine III.6, tr. Richardson: the bishops called to Nicaea.",
+  "Eusebius, Life of Constantine III.17, tr. Richardson: his letter to the churches, \"your fellow-servant\".",
+  "Socrates, Church History I.8, tr. Zenos: Eusebius's letter to his church, the emperor urging the single word homoousios, glossed \"of the same essence\"; the edict that sent Arius into exile.",
+  "Socrates, Church History I.25-27, tr. Zenos: Arius recalled and his written creed; the order that Athanasius receive him; Constantine's wish not to see the church ruptured; Athanasius's refusal and the charges against him.",
+  "Socrates, Church History I.35, tr. Zenos: Athanasius sent into exile in Gaul.",
+  "Eusebius, Life of Constantine IV.61-62, tr. Richardson: baptism sought only when he knew he was dying.",
+  "Sozomen, Church History II.34, tr. Chester D. Hartranft: he \"was the first of the emperors who began to be zealous for the Church\"; his burial in the Church of the Apostles, where later Christian emperors were also buried.",
+  "World census, Imperial and Juridical Christianity: his tradition."
+ ],
+ "quotationOriginals": [
+  {
+   "modern": "Conquer by this,",
+   "printed": "Conquer by this,",
+   "work": "Eusebius, Life of Constantine I.28-29, tr. Ernest Cushing Richardson",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "61206",
+   "secondReading": "same"
+  },
+  {
+   "modern": "your fellow servant,",
+   "printed": "your fellow-servant,",
+   "work": "Eusebius, Life of Constantine III.17, tr. Richardson",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "64594",
+   "secondReading": "same"
+  },
+  {
+   "modern": "the first of the emperors who began to be zealous for the Church",
+   "printed": "the first of the emperors who began to be zealous for the Church.",
+   "work": "Sozomen, Church History II.34, tr. Chester D. Hartranft",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": "30677",
+   "secondReading": "same"
+  }
+ ]
+}

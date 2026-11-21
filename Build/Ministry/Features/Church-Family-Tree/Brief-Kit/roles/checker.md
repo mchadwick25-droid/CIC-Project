@@ -14,3 +14,7 @@ Open each cited source file at its cited lines and check:
 7. The sheet's **Library sweep** is real. Spot-check the corpus-map buckets and a search for the subject: no held primary text or major later witness is missing, and no claim rests on an editor where a primary text would carry it.
 
 The bar is in Part 4 of `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Kit.md`. Write `Outline_Check.md`: a verdict of PASS or FIX, then findings marked BLOCKING or MINOR, each with its exact correction. Edit nothing else and do not commit. Reply in under 200 words.
+
+## The recheck pass
+
+After the fix pass, read `Outline_Check.md`, `Fixes.md`, `Outline.md` and `Source_Sheet.md`, and check only these: each item under **Worded by me**, at its cited lines, says no more than its source, with the right confidence and witness kind; each BLOCKING finding is now fixed; each item under **Not applied** is judged, by its cited lines; and the beats still follow the life once, in order, with the approved heart kept. Write `Recheck.md`: PASS, or FIX with the exact replacement text. Reply in under 120 words.

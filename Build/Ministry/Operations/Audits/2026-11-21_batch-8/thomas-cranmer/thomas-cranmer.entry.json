@@ -1,0 +1,227 @@
+{
+  "id": "thomas-cranmer",
+  "atlasId": "VI.39",
+  "era": 7,
+  "kind": "person",
+  "toldWithin": "the-english-reformation-and-elizabethan-settleme",
+  "major": true,
+  "activeYear": 1533,
+  "name": "Thomas Cranmer",
+  "shortName": "Cranmer",
+  "dates": "1533-1556",
+  "start": 1533,
+  "end": 1556,
+  "region": "Canterbury, Lambeth and Oxford, England",
+  "placeLabel": "England",
+  "modernCountries": [
+    {
+      "country": "United Kingdom",
+      "countryId": "Q145",
+      "place": "England",
+      "placeId": "Q21"
+    }
+  ],
+  "regions": [
+    "North Europe"
+  ],
+  "lane": "6 Protestant & Evangelical",
+  "laneLabel": "Protestant & Evangelical",
+  "laneOrder": 6,
+  "beyondFloor": false,
+  "status": "Within Another World (A5)",
+  "chip": "exc",
+  "glyph": "a5",
+  "statusWord": "Named within another tradition's story",
+  "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+  "living": false,
+  "overlayCurrent": false,
+  "c2": null,
+  "entry": null,
+  "teaser": "Canterbury and Oxford, 1533 to 1556: an archbishop of Canterbury who led the making of the English Book of Common Prayer and, under Queen Mary, was burned at Oxford.",
+  "longDescription": "\"For many years the service in this Church of England has been read to the people in Latin, which they did not understand. So they have heard with their ears only. Their hearts, spirit and mind have not been built up by it.\" So said the preface of the Book of Common Prayer, the new English prayer book for the whole country, in 1549. Thomas Cranmer, archbishop of Canterbury, England's senior bishop, led its making under the boy king Edward VI.\n\nUnder the Catholic queen Mary, he signed a series of papers taking back his teaching, then withdrew them in public and was burned at Oxford in 1556. John Foxe, a Protestant who wrote the lives of those burned under Mary as martyrs, says he put the hand that signed them into the fire first. After her, his book of 1552 became Queen Elizabeth's of 1559, which went on to shape worship in English.\n\nCranmer was a Cambridge scholar drawn into King Henry VIII's wish to end his marriage to his first queen. Made archbishop in 1533, that May he gave sentence, he wrote, that the marriage had never been lawful, because the pope had no power to allow it. In 1537 he asked the king's chief minister to win the king's leave to publish an English Bible, most of it, editors find, the work of William Tyndale. In 1538 he argued against a man named Lambert, tried over the bread and wine of communion. Lambert was condemned for teaching what the church held false, and burned. Even Foxe, Cranmer's admirer, counted that blood on his hands.\n\nUntil the prayer book, the service had been said in Latin, and each region had its own form of it. Now the whole realm would have one, in English. In 1549, rebels in Devon and Cornwall rose against it. They wanted their old Latin service back, and they called the new one \"like a Christmas game,\" no better than a Christmas entertainment. Cranmer answered that they asked for Latin, which almost none of them understood. The rising was put down. His revised book of 1552 dropped the word Mass, the old Latin service of holy communion, and a new law required everyone to attend.\n\nWhen Edward died in 1553, his sister Mary became queen. At Oxford in 1554 Cranmer was condemned for teaching what the church held false, and two fellow reforming bishops were burned there in 1555. In February 1556 he was stripped of his rank as priest and archbishop. Then, Foxe says, he was offered a choice between his life and the fire. Cranmer signed a series of papers taking back his teaching and accepting the pope's rule over the church in England. The bishop of London printed six. Why he signed, Foxe says he cannot tell.\n\nOn the rainy morning of 21 March 1556, Foxe writes, he was brought to the university church to hear a sermon before his burning. Instead of reading the text prepared for him, he renounced the papers he had signed, written, he said, for fear of death, to save his life if he could. Foxe prints his words: \"My hand did wrong when it wrote against my heart. So my hand shall be punished for it first. If I come to the fire, it shall be burned first.\"\n\nThe bishop of London's printed book gives a speech that ends instead with the faith Cranmer had been meant to declare. Foxe gives the renunciation and the hand. Yet the bishop's own register records that just before the burning, Cranmer publicly took the papers back.\n\nThe fire was set where the other two bishops had burned. When the fire was lit, Foxe says, he stretched out his arm and held his right hand in the flame. He held it still, so that all could see it burn before his body. He kept repeating the words \"unworthy right hand\" as long as his voice allowed. And in the words of the first martyr, he said: \"Lord Jesus, receive my spirit.\"",
+  "reviewStatus": "AI-checked",
+  "card": {
+    "otherNames": [
+      "Thomas Cranmerus",
+      "Dr. Cranmer"
+    ],
+    "knownFor": "Archbishop of Canterbury from 1533, who gave the sentence that Henry VIII's first marriage had never been lawful and led the making of the English Book of Common Prayer of 1549 and 1552, which put the church's services into English and gave the whole realm one form of worship. Under Queen Mary he signed papers taking back his teaching, then withdrew them in public at Oxford and was burned there on 21 March 1556. John Foxe says he put his right hand into the fire first. Queen Elizabeth's Prayer Book of 1559 was made from his book of 1552.",
+    "datesNote": "Born 2 July 1489 at Aslacton in Nottinghamshire, by Cox, his editor, and by the Latin edition of Foxe of 1559 as Foxe's editors note it. Waltham, during the plague at Cambridge, is dated 1529 by Foxe and 1528 by Cox. Consecrated archbishop on 30 March 1533; gave sentence on the king's marriage on the morrow after Ascension Day, which Cox dates 23 May 1533. The Prayer Book of 1549 received the sanction of Parliament on 15 January 1549; the revised book followed in 1552. Under Mary he was committed to the Tower in September 1553 and attainted of treason in November; removed to Oxford in March 1554 and condemned as a heretic on 20 April 1554. Ridley and Latimer were burned eighteen months after their condemnation, which is the autumn of 1555 by Cox's count. He was stripped of his rank on 14 February 1556 and burned on Saturday 21 March 1556, in the 67th year of his age, which makes him sixty-six (the scan of Cox prints the year as 1550; the bishop of London's register has 1556)",
+    "placeNote": "Aslacton in Nottinghamshire by birth; Cambridge, where he entered Jesus College; Waltham Cross, during the plague at Cambridge; Canterbury and Lambeth, his see and house; Dunstable, where he gave sentence on the king's marriage; the Tower of London; Oxford, where he was held in the prison called Bocardo and burned outside the north wall of the city, where Ridley and Latimer had been burned",
+    "role": "Archbishop of Canterbury; leader of the making of the Book of Common Prayer",
+    "keyWorks": [
+      {
+        "title": "The Book of Common Prayer (1549, revised 1552)",
+        "about": "the English service for the whole realm. Its preface says the service had been read in Latin to the people, who did not understand it, and that all the realm should from then on have one form. The book of 1552 headed its communion service the Lord's Supper or Holy Communion in place of the Mass, and its Act required everyone to attend common prayer. The preface is unsigned, and Cox prints it as attributed to Cranmer; Cox says he revised the book in 1552 with Ridley and Cox, adopting some suggestions of Peter Martyr, Martin Bucer and others"
+      },
+      {
+        "title": "Answer to the Fifteen Articles of the Rebels of Devon (1549)",
+        "about": "his reply to the articles of the Devon and Cornwall rebels, which he prints one by one. In answer to the eighth, that they would not take the new service and would have their old service in Latin, he asks why the Cornish men refuse the new English because some of them understand no English, when they will have the service in Latin, which almost none of them understand"
+      },
+      {
+        "title": "Letters",
+        "about": "among them his letter of 1533 to Archdeacon Hawkyns on the sentence he gave at Dunstable on the king's marriage, and his letter of 4 August 1537 to Cromwell, sending a new English Bible and asking him to obtain the king's leave for it to be sold and read by everyone"
+      }
+    ],
+    "legacy": {
+      "traces": [
+        "Elizabeth's Prayer Book of 1559 was made from his of 1552. Clay, its editor, says the one copy he reprints varies from the book of 1552 in a point of some importance, and that a list of the differences between Edward's book of 1552 and Elizabeth's was drawn up by an archbishop of Canterbury.",
+        "The tree's account of the English Reformation says the church became the Church of England and, through it, the Anglican Communion, and that the rhythms of the Book of Common Prayer shaped worship in English.",
+        "The English Bible that he sent to Cromwell in 1537 was, Cox says, the Bible of Tyndale's translation; the tree's account of Tyndale says editors find most of it was his work.",
+        "In 1549 the Devon and Cornwall rebels refused the new service; Cox says the revolt ended in the rebels' defeat."
+      ],
+      "remembered": [
+        "John Foxe, a Protestant who wrote the lives of those burned under Mary as martyrs, calls him archbishop and martyr of God and says he was more worthy the name of St. Thomas of Canterbury than the man the pope had canonized. He also says that God purged him of his recantation and of his standing against John Lambert and master Allen, with whose burning and blood his hands had been polluted.",
+        "Foxe closes the story by calling him the last of the learned sort of martyrs burned in Mary's time, and almost the middle man of all the martyrs burned in her reign.",
+        "Foxe says that a Spanish friar, John, thinking his courage at the fire came from desperation and not from fortitude, ran to Lord Williams of Thame crying that the archbishop died in great desperation, and that Lord Williams only smiled.",
+        "William Perkins, writing at Cambridge in 1600, uses him to teach how God lets the faithful fall for a time, and says God left him to fall and make a dangerous recantation, so that he was kept from many sins and made ready for a glorious martyrdom.",
+        "John Edmund Cox, his admiring editor, calls him this illustrious martyr.",
+        "John Henry Newman, who had left the Church of England for Rome, has in his Apologia of 1864 a passage that cries anathema to a whole tribe of Cranmers, Ridleys, Latimers and Jewels."
+      ]
+    },
+    "uncertain": [
+      "The hand in the fire rests on Foxe. Among the texts held here only Foxe tells it; Perkins in 1600 follows him. Foxe is a Protestant partisan and writes in praise of Cranmer. The Roman Catholic eyewitness letter that the tree's account of the English Reformation cites is not held; the phrases from a Catholic who was there that Todd quotes in a note of Cox, at lines 52303-52312, speak of the crowd and of his prayer, not of the hand. Foxe says that he held his right hand in the flame so that all could see it burned before his body, and says he repeated the words of the hand as long as his voice allowed.",
+      "Two printed speeches. The bishop of London's book of 1556 prints a prayer and saying that matches Foxe's text until its last paragraph, which ends with his belief that Christ is really and substantially in the sacrament of the altar. Foxe's text ends with the renunciation, the hand and the pope refused. Cox's note says the bishop's book agrees with Foxe except in the last paragraph and the line before it, and quotes Todd that the bishop printed what Cranmer was to have spoken and hid that he did not speak it. The bishop's own register, quoted by Cox, says that just before his burning he publicly revoked the recantations he had made before. Sampson, a Protestant writing in 1566, and a London chronicle of 1559 say the same, in their own words, quoted in Cox's notes.",
+      "The text of the hand speech. The scan of Foxe has marginal notes run into its lines and misreads two words, which the entry for the quotation names. Perkins, who quotes the speech from Foxe's wording, is also a damaged scan, and he is not independent of Foxe.",
+      "Why he signed. Foxe says that whether through their importunity, or his own weakness, or of what mind he cannot tell, the archbishop at length gave his hand, and that it might be supposed done for the hope of life, but that he asked for time to finish a book, Marcus Antonius, which he had begun. In the speech as Foxe prints it, Cranmer says the papers were written for fear of death, and to save his life if it might be. His motive is therefore contested.",
+      "How many papers, and whose words. The bishop of London's book prints six, under a title that calls them all his own, written and subscribed with his own hand. Foxe's editors quote Strype that a seventh was brought on the last morning and rejected, and Southey that he signed one equivocal recantation and the other five were fabricated by Bonner's direction. Todd, quoted by Cox, says Strype assumed the sixth was drawn up by Pole. These are editors' views and are not settled; the first of the printed six accepts the pope as chief head of the church of England only so far as God's laws and the laws of the realm allow, and the second does so without that limit. The sixth, in Latin, has him call himself the greatest of all sinners, and the seedbed of the realm's evils for his part in the divorce.",
+      "The queen's motive. Foxe says that the old grudge for the divorce of her mother remained at the bottom of her heart, and that after receiving his recantation she would nothing relent from her purpose to put him to death. That is Foxe's claim, not a held record of her reasons.",
+      "Did he watch Ridley and Latimer burn? The tree's account of the English Reformation, in a story marked as taken from reference summaries, says he watched from the roof of his prison. No held source says so. Foxe says that Ridley looked up toward the window where Cranmer lay, hoping to see him, and that Cranmer was busy disputing with a Spanish friar and could not be seen.",
+      "Who wrote the Prayer Book. The preface is unsigned. Cox prints it as attributed to Cranmer, and the tree's account names him its chief architect; held sources give that he led the making of the book, not that he wrote every word. Cox says the revision of 1552 was made by him with Ridley and Cox, and that suggestions of Peter Martyr, Martin Bucer and others were adopted.",
+      "The attendance law. The held Act of Uniformity that requires every person to attend common prayer, on pain of the censures of the church, is the Act printed with the book of 1552. The Act for the book of 1549 is not held.",
+      "Lambert. Cox says only that Cranmer took part in the argument against John Lambert on the bodily presence in the sacrament, and that Lambert was condemned and executed as a heretic, which his opponents urge against him. Foxe, his admirer, counts the blood of Lambert among the things that polluted his hands. The trial itself, in Foxe's earlier volumes, is not held. Cox's note on the burning of Joan Bocher in 1550 says an editor has relieved the archbishop of the charge made about her case; the editors differ.",
+      "The English Bible. The letter of 1537 shows that Cranmer asked Cromwell to obtain the king's leave for it to be sold and read. That the translation was mostly Tyndale's is the editors' finding, as the Tyndale story on the tree credits it; Cox's note names the printed book as the Bible of Thomas Matthew, 1537.",
+      "The marriage. In his letter Cranmer says that Katherine refused to come, saying her cause was before the pope, and that he gave sentence that it was indispensable for the pope to license such marriages. Foxe tells that a supper at Waltham led the king to send for him, and the year is 1529 by Foxe and 1528 by Cox. The king's remark on that occasion, that the man had the sow by the right ear, is Foxe's. After the sentence of 1533 he also pronounced the end of Anne Boleyn's marriage in 1536, by Cox's account. Cox gives his reluctance to be archbishop on the strength of Strype's account.",
+      "The rising of 1549. The eighth article is the rebels' own as Cranmer prints it in his answer. How many died is not in a held source and is not given.",
+      "The tree's account of the English Reformation (the starting list for this entry) differs from the held sources in four places: it has him sign six recantations, where the bishop's printed book gives six papers whose authorship is disputed; its voices line calls him the chief architect of the Book of Common Prayer, where the sources say he led its making; it has him watch Ridley and Latimer burn, which no held source says; and its legacy line gives the King James Bible beside the Prayer Book, which is outside his work.",
+      "His two marriages are real but outside the story. Cox says he married in his twenty-third year, lost his fellowship, and was reinstated when his wife died about a year later; and that when he went as the king's ambassador to Charles V he married a second time, a niece of Osiander of Nuremberg."
+    ],
+    "sources": {
+      "ownWords": [
+        {
+          "title": "Miscellaneous Writings and Letters of Thomas Cranmer (letters of 1533 and 1537; Answer to the Fifteen Articles of the Rebels of Devon, 1549), ed. John Edmund Cox",
+          "language": "English",
+          "file": "cic/texts/cranmer_miscellaneous-writings-and-letters_cox1846.txt"
+        },
+        {
+          "title": "The Two Liturgies of Edward VI, the Books of Common Prayer of 1549 and 1552, ed. Joseph Ketley",
+          "language": "English",
+          "file": "cic/texts/church-of-england_two-liturgies-1549-1552_ketley1844.txt",
+          "disputed": "The preface is unsigned. Cox prints it as attributed to Cranmer, and his editor and the tree say he led the making of the books."
+        },
+        {
+          "title": "The Life and Story of Archbishop Cranmer, with his last speech as John Foxe prints it, in Acts and Monuments, vol. 8",
+          "language": "English",
+          "file": "cic/texts/foxe_acts-and-monuments-v8_cattley-townsend1837.txt",
+          "author": "John Foxe",
+          "date": "1837"
+        }
+      ],
+      "about": [
+        {
+          "title": "Acts and Monuments, vol. 8 (the life and death of Cranmer)",
+          "author": "John Foxe",
+          "date": "1837",
+          "language": "English",
+          "file": "cic/texts/foxe_acts-and-monuments-v8_cattley-townsend1837.txt"
+        },
+        {
+          "title": "Acts and Monuments, vol. 7 (the burning of Ridley and Latimer, 1555)",
+          "author": "John Foxe",
+          "date": "1837",
+          "language": "English",
+          "file": "cic/texts/foxe_acts-and-monuments-v7_cattley-townsend1837.txt"
+        },
+        {
+          "title": "Biographical notice and notes in Miscellaneous Writings and Letters of Thomas Cranmer",
+          "author": "John Edmund Cox",
+          "date": "1846",
+          "language": "English",
+          "file": "cic/texts/cranmer_miscellaneous-writings-and-letters_cox1846.txt"
+        },
+        {
+          "title": "All the Submissions and Recantations of Thomas Cranmer, as printed by Edmund Bonner, bishop of London, in 1556 and reprinted in Cox's appendix, with the bishop's register as Cox quotes it",
+          "author": "Edmund Bonner, bishop of London",
+          "date": "1556",
+          "language": "English and Latin",
+          "file": "cic/texts/cranmer_miscellaneous-writings-and-letters_cox1846.txt"
+        },
+        {
+          "title": "The Book of Common Prayer of 1559, with the editor's preface",
+          "author": "William Keatinge Clay, ed.",
+          "date": "1847",
+          "language": "English",
+          "file": "cic/texts/church-of-england_liturgical-services-elizabeth-1559_clay1847.txt"
+        },
+        {
+          "title": "A Golden Chaine",
+          "author": "William Perkins",
+          "date": "1600",
+          "language": "English",
+          "file": "cic/texts/perkins_golden-chaine-and-treatises_legat1600.txt"
+        },
+        {
+          "title": "Apologia pro Vita Sua",
+          "author": "John Henry Newman",
+          "date": "1864",
+          "language": "English",
+          "file": "cic/texts/newman_apologia-pro-vita-sua_1864.txt"
+        }
+      ]
+    },
+    "briefReferences": [
+      "Preface to the Book of Common Prayer of 1549, as Cox prints it and as the edition of 1549 and 1552 prints it: the service read in Latin to the people; one form for the whole realm; Cranmer led its making under Edward VI (Cox; the tree).",
+      "Cox, Biographical Notice, on Oxford, the condemnation of 1554 and the burning; the bishop of London's printed book of the submissions; Foxe, Acts and Monuments, vol. 8, on the hand in the fire; Clay on the book of 1559.",
+      "Cox's notice and his letter to Hawkyns on the sentence of May 1533; his letter of 4 August 1537 to Cromwell on the English Bible; Cox on John Lambert, and Foxe's remark on his hands.",
+      "Answer to the Fifteen Articles of the Rebels of Devon, the eighth article; Cox on the rising and its defeat; Ketley's Act of Uniformity and the title of the Lord's Supper in the book of 1552.",
+      "Cox on Mary's accession, Oxford, the condemnation of 20 April 1554, the two bishops burned in 1555 and the stripping of rank on 14 February 1556; Foxe on the choice put to him, on why he signed, and on the bishop of London's six printed papers, with Cox's appendix.",
+      "Foxe on the morning of 21 March 1556: the foul and rainy day, St. Mary's church, the speech as he prints it, his renunciation of the papers written for fear of death.",
+      "Cox's appendix: the bishop of London's printed speech, and the register's line that he publicly revoked his recantations before the burning.",
+      "Foxe on the fire: the place where Latimer and Ridley were burned, the right hand held in the flame, the repeated words, and the words of Stephen."
+    ],
+    "quotationOriginals": [
+      {
+        "modern": "For many years the service in this Church of England has been read to the people in Latin, which they did not understand. So they have heard with their ears only. Their hearts, spirit and mind have not been built up by it.",
+        "printed": "the service in this church of England (these many years) hath been read in Latin to the people, which they understood not; so that they have heard with their ears only, and their hearts, spirit, and mind, have not been edified thereby.",
+        "work": "Preface to the Book of Common Prayer, 1549, as printed in Cranmer's Miscellaneous Writings, ed. John Edmund Cox",
+        "file": "cic/texts/cranmer_miscellaneous-writings-and-letters_cox1846.txt",
+        "lines": "48899-48901",
+        "uncertain": "The preface is unsigned; Cox prints it as attributed to Cranmer. The same words stand in Ketley's edition (lines 1630-1647), where a footnote and a page heading fall inside the sentence, so Cox's print is used. \"Edified\" is rendered \"built up\".",
+        "secondReading": "same"
+      },
+      {
+        "modern": "like a Christmas game,",
+        "printed": "like a Christmas game",
+        "work": "The eighth article of the rebels of Devon and Cornwall, as Cranmer prints it in his Answer to the Fifteen Articles, 1549, ed. Cox",
+        "file": "cic/texts/cranmer_miscellaneous-writings-and-letters_cox1846.txt",
+        "lines": "17555",
+        "secondReading": "checked at card"
+      },
+      {
+        "modern": "My hand did wrong when it wrote against my heart. So my hand shall be punished for it first. If I come to the fire, it shall be burned first.",
+        "printed": "forasmuch as my hand offended, writing contrary to my heart, my hand shall first be punished there-for; for, may I come to the fire, it shall be first burned",
+        "work": "Cranmer's last speech at St. Mary's, Oxford, 21 March 1556, as John Foxe prints it, Acts and Monuments, vol. 8",
+        "file": "cic/texts/foxe_acts-and-monuments-v8_cattley-townsend1837.txt",
+        "lines": "7403-7404",
+        "uncertain": "The scan of Foxe reads \"oflended\" and \"pimished\", with marginal notes (\"seth the\", \"pope, as\") run into the two lines. Perkins (1600), who quotes the speech from Foxe's wording, prints \"offended\" cleanly (line 44210) and a damaged form ending \"unifhed\" for \"punished\" (line 44211), and puts the words in the order \"shall be first punished\"; his scan is damaged and he is not independent of Foxe. The bishop of London's printed book does not contain these words. The card prints Foxe's English as the scan, read with Perkins, gives it.",
+        "secondReading": "same"
+      },
+      {
+        "modern": "unworthy right hand",
+        "printed": "unworthy right hand",
+        "work": "Foxe's account of the fire, Acts and Monuments, vol. 8",
+        "file": "cic/texts/foxe_acts-and-monuments-v8_cattley-townsend1837.txt",
+        "lines": "7524",
+        "secondReading": "checked at card"
+      },
+      {
+        "modern": "Lord Jesus, receive my spirit.",
+        "printed": "Lord Jesus, receive my spirit",
+        "work": "Foxe's account of the fire, Acts and Monuments, vol. 8, where he says Cranmer used the words of Stephen",
+        "file": "cic/texts/foxe_acts-and-monuments-v8_cattley-townsend1837.txt",
+        "lines": "7526",
+        "secondReading": "checked at card"
+      }
+    ]
+  }
+}

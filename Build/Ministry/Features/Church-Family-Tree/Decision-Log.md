@@ -5089,6 +5089,67 @@ Mark: "privacy page, short update". The Privacy page gains "Counting what is use
 3. **Hearts and lengths at one stop.** Kit Part 4, step 1: the hearts page also gives each outline's planned length, beside an independent count of the words its beats, quotes, glosses and credited witnesses must carry, and Mark rules on the length there. `roles/researcher.md` (the reply gives the word count) and `roles/checker.md` (item 3 recounts it against the hearts page) follow. A story past 4:30 still comes back to Mark. The recording stop is unchanged: a sample for his ear and a credit cap before the paid run.
 4. These govern batch 8 from its hearts page on, and every later batch. They reopen no finished story.
 
+## 2026-11-21 — A quote may be used in more than one story where its author influenced more than one tradition or person (Mark)
+
+**Why.** The kit's Part 3 bars a quote "already used in another story on the tree, unless Mark says so". The batch 8 slate (https://claude.ai/artifact/FMwWhDffBwEV1XP82GVyGW, version 1) barred about thirty Jerome lines, the Damasus preface among them, Hus's line on Wyclif's soul and Leo's "not of judges but of robbers".
+
+**Decided (Mark, 2026-11-21, to the batch coordinator in chat, relayed to the batch 8 session: "we can use quotes more than once if the influenced more that on tradition or person").** A quote may be used again where its author or subject influenced more than one tradition or person on the tree. The batch 8 slate (version 2) applies it: a quote lifts when it does a new job in the second story, and a bar stays when the second use would tell the same event the same way, or when the line is a council's or an editor's text that belongs to the other story. The change to the kit's wording (Part 3 Quotes, Part 4 step 4, `roles/checker.md` item 6) and the allow-list in `tools/check_tree_overlap.py` wait for Mark's approval on that page.
+
+## 2026-11-21 — Batch 8: the slate approved (Mark)
+
+**Why.** The batch 8 launch prompt from the coordinator (which replaces `Launch-Prompts/CFT_Era2_Batch1_Launch_2026-11-21.md`) asks for the slate first: each story's job, census home, siblings and links, Library holdings and barred quotes, with a proposal for how era 2 splits. They are on one page (https://claude.ai/artifact/FMwWhDffBwEV1XP82GVyGW, version 4).
+
+**Decided (Mark, 2026-11-21, to the batch coordinator in chat, relayed to the batch 8 session: "approve batch 8 slate as recommended").**
+1. Thirteen stories: Francis of Assisi, Bernard of Clairvaux and Thomas Aquinas (era 5); Jan Hus, Catherine of Siena and Gregory Palamas (era 6); Huldrych Zwingli, Thomas Cranmer and Teresa of Ávila (era 7), each a new census person entry, `major: true`, under the tradition named on the page; Ambrose of Milan, Jerome and Leo of Rome (era 2), rewritten on the kit; Constantine the Great, approved before the kit, reviewed on it. The jobs, siblings and links are as on the page and in `Build/Ministry/Operations/Audits/2026-11-21_batch-8/README.md`.
+2. The tree's spellings: "Huldrych Zwingli" and "Teresa of Ávila".
+3. Era 2 after this batch, major people first: batch 9, the Greek East and the Nicene century (with Gregory of Nazianzus and Gregory of Nyssa reviewed); batch 10, Antioch to Chalcedon and the edges of the empire (with John Chrysostom and Ephrem reviewed); then batches 11 to 13 by theme, as listed on the page.
+4. The barred quotes as the page reads them under the reuse ruling of 2026-11-21 ("A quote may be used in more than one story where its author influenced more than one tradition or person"): the bars it lifts and the bars that stay are listed in the batch README.
+5. The draft kit changes on the same page (items 5 to 7: the quote rule's wording, fewer blind second readings, one stop for hearts and lengths) are not approved by this; the batch runs on the current kit, with the reuse ruling applied as Mark's batch ruling.
+
+## 2026-11-21 — Batch 8 hearts approved, with the lengths (Mark)
+
+**Why.** The twelve hearts went to Mark on one page (https://claude.ai/artifact/CbAWmb2SPtW3cuvUv5zCoj, version 2; `Build/Ministry/Operations/Audits/2026-11-21_batch-8/Hearts.md`). Under the kit change of the same day, the page also gave each outline's planned length beside an independent count (`Length_Count.md`). Ten of the twelve counted over 675 words (4:30), Aquinas was tight at 653, and Bernard and Jerome fit. The page asked five questions.
+
+**Decided (Mark, 2026-11-21: "Approve as recommended").**
+1. The twelve hearts are approved as shown.
+2. Lengths: each researcher marks a cut-first list in the outline, in order, with every cut item moved to the card, and the writers write to about 4:30 at most (person about 675 words by the scorer), dropping from that list and not by their own choice. The reviewer checks that the heart and every disagreement the outline must credit survived. No second round of outline cuts.
+3. Francis of Assisi: his Testament's lines on the lepers, already printed in `the-franciscan-movement`'s documented stories, may open his story (Mark's reuse ruling of 2026-11-21).
+4. Teresa of Ávila: the story credits each account of how her Life reached the Inquisition. The tradition entry's version (the Inquisition took it and gave it to Báñez) goes to the census pass.
+5. Gregory Palamas: the link to Symeon the New Theologian is card only.
+6. Thomas Aquinas: the essence is the researcher's (the Summa states the case against each point and answers it; nothing true can be proved false), not the slate's "to show that faith and reason do not conflict".
+7. Jan Hus: "King Sigismund", not "the emperor".
+8. The outline checks begin once the researchers apply items 2 to 5.
+
+## 2026-11-21 — Batch 8: four lengths after review (Mark)
+
+**Why.** After review, eight of the twelve revised stories fit under 4:30; four could not without moving what the outline keeps, or part of the approved heart, to the card (https://claude.ai/artifact/2M2FAHXXeYZJfNU8wgc8X1; each folder's `Review.md` in `Build/Ministry/Operations/Audits/2026-11-21_batch-8/`).
+
+**Decided (Mark, 2026-11-21: "Approved as recommend").**
+1. Jan Hus runs about 5:00, with the 1403 ban, the 1412 crisis and the council's reason for the arrest restored, so the approved heart stays whole.
+2. Ambrose of Milan: Augustine's later quoting of him goes to the card, and the story stands at about 4:45.
+3. Leo of Rome: the Nestorius and Syriac-chronicle pair goes to the card, bringing the story under 4:30.
+4. Catherine of Siena: the drawn sword at Florence stays on the card.
+
+## 2026-11-21 — Batch 8: three quoted spans with no clean print (Mark)
+
+**Why.** The card check (`Card_Check.md` in each folder of `Build/Ministry/Operations/Audits/2026-11-21_batch-8/`) found three places where the story quotes words that no clean held print stands behind, under the originals rule of `Build/Ministry/Operations/Audits/2026-11-19_batch-6/Batch_Originals_Ruling.md`.
+
+**Decided (Mark, 2026-11-21: "A", the recommended option on each).**
+1. Bernard of Clairvaux: Nivard's reply is told in the narrator's words, without quotation marks, and its card entry goes. William's Latin is held only in a damaged scan, Alan's Life tells a different speech, and no English of either Life is held.
+2. Catherine of Siena: the quotation marks come off "with her leading him", and its card entry goes. Raymond's Latin is held only in a damaged scan with no second print.
+3. Gregory Palamas: a scan's χ read as κ counts as a letter form, as θ and ϑ do under the batch 6 ruling, so his two Greek quotations stand with those readings listed. The two held editions agree on every word of the second.
+
+## 2026-11-21 — Batches run in two halves, and a session near compaction hands over (Mark)
+
+**Why.** Batch 8 used about 20 percent of the week's allowance in its first eight hours, and its coordinating session neared its context limit before release (`Build/Ministry/Operations/Audits/2026-11-21_batch-8/Ledger.md`).
+
+**Decided (Mark, 2026-11-21, to the batch coordinator in chat, relayed to the batch 8 session: "approve both as recommended").**
+1. From the next batch on, a batch runs as two halves of about six stories, each half in a fresh session, with one slate, one hearts page and one release for the whole batch.
+2. A batch session near compaction hands over to a fresh session from its files: the batch README carries each story's step, the open items, every ruling and the ledger so far.
+
+## 2026-11-21 — Batch 8: the recording approved, with a cap (Mark)
+
+**Decided (Mark, 2026-11-21: "Approve, cap 24,500").** The twelve batch 8 stories, about 45,500 characters (about 22,100 credits at batch 7's rate), are recorded on batch 7's person settings: voice `onegjDE2z0mQtp1g0HK7`, model `eleven_v4`, `mp3_44100_64`, stability 0.95, similarity 0.68, style 0, speaker boost on, `[pause]` between paragraphs, the respellings. Francis of Assisi is recorded first for Mark's ear; the rest only after he hears it. The balance is checked before and after, and the run stops at 24,500 credits. Constantine is not re-recorded: his text did not change.
 ## 2026-11-21 — "Help us grow" opens over the map
 
 Mark: "when the pop-up help us grow appears lets not have it take you to a new page you can't get back from easily, but put that page in a popup window they can close after reading and they never leave where they are", then "make sure they can see the map behind it, only cover some of the page".
@@ -5100,3 +5161,14 @@ Mark: "when the pop-up help us grow appears lets not have it take you to a new p
 Mark asked how to get the Cloudflare token for visit counts, then showed the Web Analytics screen: it already counts visits for churchfamilytree.com. Cloudflare adds the beacon to the tree's pages itself, because the domain is proxied, so no token or code change is needed, and the Privacy page's statement is true. This corrects "Cloudflare Web Analytics on every tree page, once Mark sends the site token" in "Measuring visits" (2026-11-21).
 
 Mark asked for a dashboard of use ("how do i get my reports on use i need a dashboard") and chose snapshot reports from Claude (option A). `tools/cft_usage_report.py` reads the tree's own counts (Workers Analytics Engine, dataset `cft_events`) through the Cloudflare SQL API with a read-only token (Account Analytics: Read, saved to the session's environment, never in the repository) and writes one JSON file. The report page is a Dashboard artifact; to refresh it, run the script, upload the file and ask Claude. The counts leave out one deploy check row and one launch test visit (2026-11-21 13:14 UTC).
+## 2026-11-21 — The brief kit: one kit, one prompt per step (Mark)
+
+**Why.** A review of the kit after batch 8 found that each batch copied the last batch's prompts and added lines, from 2,544 words in batch 4 to 4,780 in batch 8. Agents read the same rule two or three times in different words, and were sent to stacks of Decision-Log entries. The length rule in use lived outside the kit, and about half the steps of a batch ran on prompts outside it.
+
+**Decided (Mark, 2026-11-21: "A", then on the length "the aim is 3 minutes, but we allow up to 4:30 it depends on the source and story", on councils "same depending on source and content (did they make 10 decisions or 1)", on repeated rules "yes make them", and on the edited text "approved").**
+1. Every standing rule lives once, in `Brief-Kit/Kit.md` or its roles. Each step has one role prompt in `roles/`: researcher (with its fix pass), checker (with its recheck pass), writer, reviewer (with its recheck pass), reviser, card (new cards, new census entries, and its check pass), second reader (blind reading and comparison) and release.
+2. A batch prompt is only a header: the story's name, slug, folder and card file, its job and siblings, its approved heart and length, and any ruling for that batch alone. No batch prompt carries rule text or cites the Decision-Log.
+3. Length, for a person or a council alike: aim at about three minutes, and allow up to about four and a half where the sources and the content call for it; shorter when the record is thin. The outline plans only the beats its word count can carry. The cut check and the cut-first lists end.
+4. The standing rulings each become one kit line: where held sources differ, credit each; a damaged scan prints its English alone unless a held print confirms it; batches run in two halves with handover; stories approved before the kit are reviewed in their era's batch; one story is recorded first for Mark's ear.
+
+This governs batch 9 on; no finished story is reopened.
