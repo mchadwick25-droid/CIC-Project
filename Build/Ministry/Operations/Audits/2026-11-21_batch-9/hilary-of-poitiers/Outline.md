@@ -14,7 +14,15 @@ All lines are in `Source_Sheet.md`, which gives every text verbatim. File short 
 
 Where the slate's job and the sources part: the sources hold On the Councils, not On the Trinity, as the book that explained East to West; On the Trinity is held as twelve books "against the Arians" (PL23 60466-60467). The sources hold that Martin "sought" Hilary and "stayed with him for some time" (CSEL1 6382-6384), not that he came "to learn". The story says what they hold.
 
-**Length:** about 4 minutes, about 600 words, 650 at most. What it must carry: three quotes (about 110 words); plain sense for Nicaea and its two Greek terms, Arian, exorcist, Ariminum and Phrygia (about 70 words); credits to Hilary himself, the Gallic bishops' letter, Sulpicius Severus, a chronicler, Augustine, a Latin monk-writer, two Greek writers and a historian of the next generation (about 70 words). That floor of about 250 words, with seven short beats, a third for what came of him, and a death to end on, comes to about 600. The record is full (his own letters, a council's letter, and a near-contemporary historian), so it earns the extra minute; it does not earn more.
+**Length:** about 4:30 at most (about 675 words by the scorer), aiming at 4:00. What it must carry: three quotes (about 110 words); plain sense for Nicaea and its two Greek terms, Arian, exorcist, Ariminum and Phrygia (about 70 words); credits to Hilary himself, the Gallic bishops' letter, Sulpicius Severus, a chronicler, Augustine, a Latin monk-writer, two Greek writers and a historian of the next generation (about 70 words). That floor of about 250 words, with seven short beats, a third for what came of him, and a death to end on, comes to about 600. The record is full (his own letters, a council's letter, and a near-contemporary historian), so it earns the extra minute; it does not earn more.
+
+**Cut first, in order** (if the draft runs past 675 words; together about 100 words, against the 68 by which `Length_Count.md` puts this outline over 640):
+1. Beat 1: Martin leaving to visit his parents, bound by Hilary's prayers and tears to come back (CSEL1 6382-6397). About 11 words.
+2. Beat 5: the rumour that the Gauls held Sabellius's teaching, with its gloss; keep that Hilary set out a faith matching Nicaea, vouched for the West and was received (NPNF211 11253-11277). About 20 words.
+3. What came 1: the Syrian bishop, Theodoret, quoting him as bishop and confessor (NPNF203 24464-24465). About 17 words.
+4. What came 1: the Latin monk-writer, John Cassian, quoting his books in 430 as a confessor's (NPNF211 54733-54742), and with items 3 and 4 both gone, the gloss for "confessor". About 25 words.
+5. Beat 2: Hilary's further claim to Constantius that he was still a bishop in communion with all of Gaul; keep that he says he was exiled by a faction on false reports (CSEL65 15364-15368). About 11 words.
+6. What came 2: the chronicle written twenty years on, recording that through Hilary Gaul condemned the tricks of Ariminum (JCHRON 45885-45886). About 17 words.
 
 **Setting:**
 - When: the 350s and 360s; exile 356 to 360; died about 367 (NPNF209 1422-1423, 4520-4528; NPNF211 11441-11442).
@@ -132,3 +140,11 @@ Nine names, past the warning: each acts in the story or is a tree link the conne
 - Gregory of Tours's wonders and Clovis's light (GT 1300-1303, 3708-3713): late legend; card, in Gregory's voice.
 - Julian's politics in Gaul and the link between the Paris council and Saturninus's fall: Watson's reconstruction (NPNF209 3174-3182).
 - Liberius of Rome, Eusebius of Vercelli, Rhodanius of Toulouse: fellow exiles; their own stories.
+
+**For the card, not the story:**
+- Martin left to visit his parents, bound by Hilary's prayers and tears to come back (Sulpicius, Life of Martin 5; CSEL1 6382-6397; NPNF211 872-895).
+- At Seleucia, rumour had it the Gauls held Sabellius's teaching, that Father, Son and Spirit are only three names for one (Sulpicius, Chronicle II; NPNF211 11253-11277).
+- Theodoret of Cyrrhus quoted him under the title of bishop and confessor (NPNF203 24464-24465).
+- John Cassian quoted his books in 430 as a confessor's (NPNF211 54733-54742). Confessor: one who suffered for the faith and lived.
+- Hilary told Constantius he was still a bishop in communion with all of Gaul (CSEL65 15331, 15364-15368; paraphrase).
+- Jerome's Chronicle records in one line that through Hilary Gaul condemned the tricks of Ariminum (JCHRON 45885-45886; paraphrase).

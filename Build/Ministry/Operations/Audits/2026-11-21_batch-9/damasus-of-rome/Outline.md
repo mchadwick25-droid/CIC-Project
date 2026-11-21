@@ -10,7 +10,19 @@ Census id `damasus-of-rome`. Tradition: Church and Empire. References are to `So
   - He urged Jerome to correct the old Latin Gospels against the Greek (JER 46631–46634). Documented.
   - *Why he is on the tree:* his years show the tradition at its sharpest. Rome's bishop claimed Peter's faith, the state's officers settled his contested election, and then a law used his name to sort Christians from heretics (AMM 23972–23986; AVE 7933–7951; CTH 83597–83607).
   - Checked against the Library: "held Rome to Nicaea" holds (Sozomen's and Theodoret's text of his council's letter, SS 38808–38815, THD 10283–10300). "Founded" is too strong for any one institution; what the sources hold is the court (AVE 8444–8466), the shrines and verses (LPD 127133–127136), and the communion test (THD 15410–15414; CTH 83597–83607).
-- **Length:** about 4 minutes, about 610 words (ceiling 675). The count behind it: three quotes, about 80 words (15 + 54 + 11); seven credited witnesses (Jerome, twice; Ammianus; the account from Ursinus's own party; a church historian of the next century; the later book of the popes' lives; the Luciferian petition), about 85 words; four glosses (Nicaea's faith, Apollinaris's teaching, communion, the martyrs' burial galleries), about 55 words; six beats of about 65 words, about 390. Total about 610. The election needs room for three accounts that disagree, and the law needs its own words; that is why it runs past 3 minutes.
+- **Length:** about 4:30 at most (about 675 words by the scorer), aiming at 4:00. The count behind it: three quotes, about 80 words (15 + 54 + 11); seven credited witnesses (Jerome, twice; Ammianus; the account from Ursinus's own party; a church historian of the next century; the later book of the popes' lives; the Luciferian petition), about 85 words; four glosses (Nicaea's faith, Apollinaris's teaching, communion, the martyrs' burial galleries), about 55 words; six beats of about 65 words, about 390. Total about 610. The election needs room for three accounts that disagree, and the law needs its own words; that is why it runs past 3 minutes.
+- **Cut first, in order** (drop from the top while the draft runs past 675 words; together these free about 200 words, against the 144 by which `Length_Count.md` puts this outline over 640; each item is kept in **For the card, not the story**):
+  1. The calendar clause: the Roman calendar kept his day, 11 December (`roman-breviary_bute1908.txt` 2624). About 12 words.
+  2. Sozomen's retelling of the law in the next century (SS 40612–40617). About 10 words.
+  3. Theodoret quoting his anathema about 449 in his own quarrel (THD 34899–34902). Keep the Eastern bishops' "the thrice blessed Damasus deposed" (THD 37893–37895). About 15 words.
+  4. Pope Vigilius's inscription, in the next century, honouring martyrs Damasus had found and marked with a poem (LPD 127955–127960). About 25 words.
+  5. Duchesne's note that the tradition of which tomb was whose had already grown obscure (LPD 127930–127936). Keep "the sources give no reason" only if the writer needs it. About 20 words.
+  6. Jerome at Rome writing Damasus's letters and his answers to councils of East and West (JER 24189–24191). Keep the Gospels request. About 18 words.
+  7. Jerome knowing he would be called a forger for the revision (JER 46631–46645). About 10 words.
+  8. Basil's "lofty souls" line, with the note that reading it as Damasus is the editors' view (BAS 41020–41021; BAS 8112–8115). About 30 words.
+  9. The council of Rimini set aside because the bishop of Rome had not agreed to it (SS 38808–38815; 369, SS 38820). Keep the bishop of Milan cut off and Nicaea's creed confirmed. About 18 words.
+  10. The Peter and Paul verse: the East had sent them, but Rome had won them as her own citizens (LPD 27772–27778). Keep the searching out of graves and the verses set on them. About 25 words.
+  11. Basil of Caesarea begging Rome for help, with its addressee note (BAS 28599–28625; the editors take it to be to Damasus). Keep the flogged deacon at Alexandria. About 20 words.
 - **Setting:**
   - Time: 366 to 384 (S1, S4; E53). Plain: "in the 360s", "in 380".
   - Place: Rome, its churches and the burial galleries outside its walls (AMM 23186–23188; LPD 127133–127136). Plain: Rome.
@@ -106,3 +118,15 @@ Census id `damasus-of-rome`. Tradition: Church and Empire. References are to `So
   - Birthplace (S7, S8): disputed.
   - The 381–382 council letters addressed to him (THD 15898ff.): a council's text.
   - Peter and Paul verse wording beyond the one clause: the OCR is damaged ("Borna … nierait", LPD 27777).
+- **For the card, not the story** (each item from **Cut first** the draft drops, kept here so nothing is lost):
+  - The Roman calendar kept his day, 11 December (`roman-breviary_bute1908.txt` 2624, the 1908 Breviary).
+  - Sozomen retold the law of 380 in the next century (SS 40612–40617).
+  - About 449 Theodoret quoted Damasus's anathema in his own quarrel (THD 34899–34902).
+  - In the next century Pope Vigilius set up an inscription honouring martyrs whom Damasus had found and marked with a poem (LPD 127955–127960).
+  - Duchesne, the editor, says the tradition of which tomb was whose had already grown obscure (LPD 127930–127936).
+  - Jerome came to Rome and wrote Damasus's letters and his answers to councils of East and West (JER 24189–24191).
+  - Jerome knew he would be called a forger for correcting the Gospels (JER 46631–46645).
+  - Basil wrote that the West's "lofty souls, when they are courted, get haughtier than ever" (BAS 41020–41021); that it means Damasus is the editors' reading (BAS 8112–8115).
+  - The council at Rome set aside the council of Rimini because the bishop of Rome had not agreed to it (SS 38808–38815; the year 369 is the translator's note, SS 38820).
+  - On the place where Peter and Paul were said to have lain, his verse said the East had sent them, but Rome had won them as her own citizens (LPD 27772–27778).
+  - Basil of Caesarea begged Rome for help (BAS 28599–28625; the letter has no address, and its editors take it to be to Damasus).

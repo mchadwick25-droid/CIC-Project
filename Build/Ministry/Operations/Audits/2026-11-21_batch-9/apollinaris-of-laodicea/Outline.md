@@ -12,7 +12,14 @@ Researcher, batch 9, 2026-11-21. File and line references are to `cic/texts/` an
 - His writings survived under the names of honoured bishops, and one of them gave Cyril of Alexandria, as Athanasius's, the formula "one nature of God the Word made flesh"; in the 540s Justinian charged the one-nature party of his day with still using the false names (LIETZ 12986-12988, 4714-4719, 5754-5756; PUSEY 1279-1299; HEF3 876-893).
 Checked against the Library: every claim above is held. "Ally of Athanasius against the Arians" rests on Sozomen (friendship; the Spirit), Athanasius's own synodal letter (his envoys in 362) and Epiphanius; no source has him write against the Arians in a held text, so say "stood with Athanasius for Nicaea", not "wrote against the Arians".
 
-**Length:** about 4 minutes, about 600 words, at most 650. What the story must carry: three quotes (about 75 words); the plain sense of five words (Arians, the creed of Nicaea, the Word, the holy Fathers, one nature made flesh: about 45 words); the witnesses it must credit where their claim is told (Socrates, Sozomen, Gregory of Nazianzus, Epiphanius, Damasus's council, Theodoret, Jerome, Justinian, Lietzmann by role: about 60 words); two places where held sources disagree and both must be told (why he was put out; who wrote what under Julian: about 50 words); the laws, told with their force (about 35 words). That is about 265 words before narration of eight beats and the connection, which needs room to explain a forgery. The record is long and two-sided; the slate's job has five parts. Do not fill past 650.
+**Length:** about 4:30 at most (about 675 words by the scorer), aiming at 4:00. What the story must carry: three quotes (about 75 words); the plain sense of five words (Arians, the creed of Nicaea, the Word, the holy Fathers, one nature made flesh: about 45 words); the witnesses it must credit where their claim is told (Socrates, Sozomen, Gregory of Nazianzus, Epiphanius, Damasus's council, Theodoret, Jerome, Justinian, Lietzmann by role: about 60 words); two places where held sources disagree and both must be told (why he was put out; who wrote what under Julian: about 50 words); the laws, told with their force (about 35 words). That is about 265 words before narration of eight beats and the connection, which needs room to explain a forgery. The record is long and two-sided; the slate's job has five parts. Do not fill past 675.
+
+**Cut first, in order:** Drop from the top, in order, only while the draft runs past 675 words. Together about 84 words (at least 40 words, the story being at or under 640 by the count). Each item is kept under For the card, not the story.
+1. Beat 1: that he served as a reader, with its gloss (SOC-ENG 9930-9938; SOZ-ENG 39067); keep his father's grammar and his own rhetoric. Saves about 14 words.
+2. Beat 5: that at Antioch he made the priest Vitalius bishop of his followers (THDT 15538-15539; SOZ-ENG 39006-39015); keep the separate churches under their own bishops. Saves about 12 words.
+3. Beat 4: Socrates's two stages, that he first denied Christ a soul, then granted one without reason (SOC-ENG 9957-9961); keep the divine Word in the place of a human mind. Saves about 15 words.
+4. Beat 2: Sozomen's ranking of him with Athanasius and Basil as a defender of the Spirit's equal place (SOZ-ENG 38725-38731); keep the envoys to Athanasius's synod of 362. Saves about 18 words.
+5. What came of them 3: the monk of Lérins who held him up as a warning, his pupils pulled one way by the church and the other by their master (VINC 12904-12944). Saves about 25 words.
 
 **Setting:**
 - Century: the fourth; he was put out of the church in 346 by Lietzmann's date (LIETZ 479, 806-813); Julian reigned 361-363 (LIETZ 494, 502); condemned 381 (COUNC 13970-13976); died under Theodosius, year unknown (THDT 41395; LIETZ 3484). Spoken: "in the fourth century".
@@ -145,3 +152,10 @@ The listener must know: almost every witness opposed him. No doubt is itself the
 - Schaff's verdict (COUNC 14084-14087): an editor's line; card.
 - Constantinople 553 (COUNC 23852-23856): card, unless a clause fits.
 None of these is the record's force: the expulsion, the condemnations and the laws stay in.
+
+**For the card, not the story:** the cut-first items, if the story drops them.
+- Beat 1: that he served as a reader, with its gloss (SOC-ENG 9930-9938; SOZ-ENG 39067).
+- Beat 5: that at Antioch he made the priest Vitalius bishop of his followers (THDT 15538-15539; SOZ-ENG 39006-39015).
+- Beat 4: Socrates's two stages, that he first denied Christ a soul, then granted one without reason (SOC-ENG 9957-9961).
+- Beat 2: Sozomen's ranking of him with Athanasius and Basil as a defender of the Spirit's equal place (SOZ-ENG 38725-38731).
+- What came of them 3: the monk of Lérins who held him up as a warning, his pupils pulled one way by the church and the other by their master (VINC 12904-12944).

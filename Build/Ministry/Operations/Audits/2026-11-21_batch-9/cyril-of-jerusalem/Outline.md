@@ -12,7 +12,13 @@ File keys: G = `cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml`; SS = `
   - The Easter-week lectures in the tomb chapel: renouncing Satan facing west, turning east, the stripping, the way to take communion (G 20661–20673, 20713–20716, 20924–20929, 21000–21026, 22172–22190). Documented as text; their author Contested (some manuscripts name John, his successor, G 5207–5240; Gifford with Touttée holds them Cyril's, G 5252–5268).
   - The bishopric and its fights: how he became bishop is disputed (B1–B6, Contested); the quarrel with Acacius over rank, the famine sale and the deposition (X1, X2, X4, Documented as each historian tells it); his appeal to the emperor (X4); two more removals and returns (X8, X10–X12); in 381 among the leaders at Constantinople, with the doubt over his earlier views (C1–C3, Contested); the bishops' letter of 382 clearing him (B6, Documented).
   - What came of them: the lectures copied for the baptized and cited by Jerome and Theodoret (I1–I3); the same Lent-and-Easter pattern kept under his successor and described by Egeria (I4–I6).
-- **Length:** about 3 minutes 30 seconds, about 520 words (cap 675). Count first: three quotes in rendering about 71 words; nine glosses about 58 words (Lent, creed, the candidates, Golgotha, Arius's teaching, the senior bishop at Caesarea, the rites, the tomb chapel, the 381 word for the Son); credited witnesses about 64 words (the manuscript note, the modern date, Sozomen, Socrates twice, Jerome as hostile, the bishops of 382, the copies that name John, Egeria and her unknown date). That is about 193 words before any narration; the seven beats and what came of them need about 330 more.
+- **Length:** about 4:30 at most (about 675 words by the scorer), aiming at 4:00. Count first: three quotes in rendering about 71 words; nine glosses about 58 words (Lent, creed, the candidates, Golgotha, Arius's teaching, the senior bishop at Caesarea, the rites, the tomb chapel, the 381 word for the Son); credited witnesses about 64 words (the manuscript note, the modern date, Sozomen, Socrates twice, Jerome as hostile, the bishops of 382, the copies that name John, Egeria and her unknown date). That is about 193 words before any narration; the seven beats and what came of them need about 330 more.
+- **Cut first, in order** (if the draft runs past 675 words; together about 59 words, against the 40 by which `Length_Count.md` puts this outline over 640):
+  1. Beat 1: the old garden's traces among the places he points to; keep Golgotha and the tomb (G 15617-15621). About 4 words.
+  2. What came 2: the candidates with their fathers and mothers, in Egeria's description; keep the bishop's chair, the Scriptures, the creed and the tomb chapel (EG 5816-5858). About 7 words.
+  3. Beat 4: Tarsus, where the people enjoyed his teaching, credited to another historian (TJ 10710-10715). About 17 words.
+  4. Beat 5: Sozomen's line that by 379 Jerusalem's was the only church in the East not in Arian hands (SS 40491-40492). About 17 words.
+  5. Beat 4: Socrates's claim that he was the first churchman to take such a case to appeal like a lawsuit; keep the fear and the appeal to the emperor (SS 9432-9443). About 14 words.
 - **Setting:**
   - Time: Lent of about 348 for the lectures, by modern reckoning (G 4134–4142, 4169–4179, L1); bishop from about 350 (G 763–768, editor) to his death about 386 (SS 15642–15646). Spoken: "around the year 348"; "the middle of the fourth century".
   - Place: Jerusalem; the great church that Constantine had built over the place held to be Christ's tomb, consecrated in 335 (G 3916–3919); the hill of Golgotha close by (G 14405, 15436). Spoken: "Jerusalem", "the great church Constantine built at the tomb".
@@ -109,3 +115,10 @@ File keys: G = `cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml`; SS = `
   - His nephew Gelasius (C9): a side link.
   - Translations, Trent, the seventeenth-century attack on the Easter lectures (I9–I11): editor-only claims; card.
   - The Roman Martyrology's 18 March (C8): card.
+
+- **For the card, not the story:**
+  - Among his witnesses in the lectures, the traces of the old garden by the tomb (G 15617-15621).
+  - Egeria saw the candidates come with their fathers and mothers (EG 5816-5858).
+  - Removed from Jerusalem, he went to Tarsus, where the people enjoyed his teaching (Theodoret; TJ 10710-10715).
+  - By 379, Sozomen says, Jerusalem's was the only church in the East not in Arian hands (SS 40491-40492).
+  - Socrates says he was the first churchman to take such a case to appeal, like a lawsuit (SS 9432-9443). Say "Socrates says", never as fact.

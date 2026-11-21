@@ -9,7 +9,12 @@ File abbreviations as in `Source_Sheet.md` (SOC, SOC-G, THD, THD-G, PHI, ATH, AT
   - The emperor's fury and the exile, then the return and the campaign against Athanasius (THD 7500-7560; SOC 3939-3943; ATH 24808-24822; SOC 5356-5368). Documented that it happened; the charges on each side Contested.
   - Constantine's baptism: Jerome, about forty years on, says Eusebius gave it, and blames it for what followed (JER 45287-45293). Widely Accepted.
   - What came of him: his allies took up his authority after him (SOC 6179-6184); Athanasius's name for the party, "those around Eusebius" (ATH-G 2591 and passim); Philostorgius says a bishop "Eusebius" made Ulfila bishop of the Goths (PHI 120). Documented / Dominant Modern Reconstruction for the Ulfila link.
-- **Length:** about 3 minutes 50 seconds, about 575 words (a person at 150 a minute; under the 675 cap). The count it must carry: three quotes, 67 words; glosses (of one being; a meeting of bishops; Lucian; Licinius as "the tyrant"; Berytus; those around Eusebius), about 45 words; credited witnesses (Philostorgius and his summariser; Socrates; Constantine's letter; Athanasius; a historian of the next century for Eustathius; Jerome; the emperor's biographer; a modern historian for Ulfila), about 75 words. That is 187 words before narration. Nine beats of narration at 35-45 words each make about 390. Everything else goes to Leave out or the card.
+- **Length:** about 4:30 at most (about 675 words by the scorer), aiming at 4:00. The count it must carry: three quotes, 67 words; glosses (of one being; a meeting of bishops; Lucian; Licinius as "the tyrant"; Berytus; those around Eusebius), about 45 words; credited witnesses (Philostorgius and his summariser; Socrates; Constantine's letter; Athanasius; a historian of the next century for Eustathius; Jerome; the emperor's biographer; a modern historian for Ulfila), about 75 words. That is 187 words before narration. Nine beats of narration at 35-45 words each make about 390. Everything else goes to Leave out or the card.
+- **Cut first, in order** (if the draft runs past 675 words; together about 55 words; `Length_Count.md` puts this outline at 597, under 640):
+  1. Beat 5: the later chronicle that copied Jerome's naming (PRO 52369-52372). About 10 words.
+  2. What came 1: the list of the sees whose bishops took up his authority (Nicaea, Chalcedon, Heraclea, two from the Danube); keep that his former partners took up "all his authority" (SOC 6179-6184). About 15 words.
+  3. Beat 1: the meeting of bishops in Bithynia that wrote the same as he did (SOC 27633-27636). About 11 words.
+  4. Beat 1: Alexander's charge that he had deserted Berytus for Nicomedia, with the gloss for Berytus; keep that Alexander told bishops to ignore his letters (SOC 2158-2172). About 19 words.
 - **Setting:**
   - About 320 to 341 (PHI 108; SOC 3932-3933 editor's 328; SOC 5928-5934 with Zenos's 341).
   - Nicomedia in Bithynia, where "the emperor resided" (SOC 2384-2386); plain words: "Nicomedia, the emperor's city in north-west Asia Minor". Before that Berytus, which Jackson glosses "Beyrout" (THD 6094-6096, editor): "Berytus, today's Beirut". At the end Constantinople, "the newly erected metropolis" (PHI 130): "the emperor's new city, Constantinople".
@@ -97,3 +102,9 @@ File abbreviations as in `Source_Sheet.md` (SOC, SOC-G, THD, THD-G, PHI, ATH, AT
   - The two dates for his move to Constantinople (Socrates vs Theodoret and Philostorgius): card.
   - Epiphanius's account of the Melitians (EPI 44161-44166) and the "workshop" at Nicomedia (PHI 124): side detail.
   - The details of Tyre (Arsenius, the broken cup): told by the siblings.
+
+- **For the card, not the story:**
+  - A later chronicle copied Jerome's naming of Eusebius as the bishop who baptized Constantine (PRO 52369-52372).
+  - Those who took up his authority were the bishops of Nicaea, Chalcedon and Heraclea, and two from the Danube (SOC 6179-6184).
+  - A meeting of bishops in Bithynia wrote, as he did, to have Arius taken back (SOC 27633-27636).
+  - Alexander's circular said he had deserted Berytus, today's Beirut, for Nicomedia (SOC 2158-2172; THD 6094-6096). The charge stays Alexander's.

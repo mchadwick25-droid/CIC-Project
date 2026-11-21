@@ -8,7 +8,14 @@ Line references are to `Source_Sheet.md` rows (S, E, C, A, B, X, T, D, I), each 
   - The answer: Basil agreed that God's being is unbegotten, but denied that "unbegotten" is his being. For Basil the Son is like the Father in his very being. (B1-B3; Documented)
   - The cost: three accounts of why he left Cyzicus; two exiles under Valens; the creeds of 383, when the emperor kept only the creed of one being; banishment for meeting in houses and reading his books; after his death, his body moved and his books ordered destroyed. (C4-C6, X5, T3, T4, D2; Documented or Contested, as marked)
   - Checked against the Library: all held. "Unlike the Father in substance" is held as his "difference of their Substances" (A8) and his clergy's charge (C3); he himself called the Son like the Father in operation (A9). "Exiled after Theodosius refused his creed of 383" is held as two facts in order (T3, then T4); no source gives the creed as the cause (D-f). The creed of 383 is not held.
-- **Length:** 4 minutes, about 600 words, 650 at most. Must carry: quotes 63 words; seven glosses about 75 words (unbegotten, begotten, being, of one being, Apology, Anomoean, the plain sense of Quote 1); credited witnesses about 80 words (Eunomius himself; Philostorgius and Photius, said once; Gregory of Nyssa; Basil; Socrates; Sozomen; the law of 398). About 220 words before the beats. Six beats, the impact and the ending need about 380 more. The record is mostly hostile but full: his own Apology, his chief opponent's line-by-line reply, a friendly historian and three hostile ones. The idea needs his words and Basil's answer side by side, and his life needs each witness credited, so the story runs past 3 minutes.
+- **Length:** about 4:30 at most (about 675 words by the scorer), aiming at 4:00. Must carry: quotes 63 words; seven glosses about 75 words (unbegotten, begotten, being, of one being, Apology, Anomoean, the plain sense of Quote 1); credited witnesses about 80 words (Eunomius himself; Philostorgius and Photius, said once; Gregory of Nyssa; Basil; Socrates; Sozomen; the law of 398). About 220 words before the beats. Six beats, the impact and the ending need about 380 more. The record is mostly hostile but full: his own Apology, his chief opponent's line-by-line reply, a friendly historian and three hostile ones. The idea needs his words and Basil's answer side by side, and his life needs each witness credited, so the story runs past 3 minutes.
+- **Cut first, in order:** Drop from the top, in order, only while the draft runs past 675 words. Together about 70 words (at least 45 words, the count's excess over 640). Each item is kept under For the card, not the story.
+  1. What came of them 4: the optional clause that the tree's entry says the sect left no continuing church (I9). Saves about 10 words.
+  2. Beat 2: that the people of the bishop who had been put out built a church outside the walls (C1); keep that he was made bishop in that bishop's place. Saves about 10 words.
+  3. Beat 3: his citing of Christ's saying that the Father is greater (A6, paraphrase). Saves about 10 words.
+  4. Beat 4: Gregory of Nyssa's word that Basil wrote to cure Eunomius and bring him back to the church (B4); Gregory stays credited in Beats 1 and 6. Saves about 15 words.
+  5. Beat 5: Philostorgius's report that he lived at Chalcedon and that no bishop of his party acted without his advice (X3). Saves about 14 words.
+  6. Beat 5: that when Aetius died, Eunomius closed his eyes and buried him (X4). Saves about 11 words.
 - **Setting:**
   - Time: the fourth century; with Aetius in the 350s (E2); a leader at Constantinople in 360 (E5); bishop of Cyzicus about 360, or later under Valens (S5, D-a); the creeds in June 383 (T3).
   - Place: Cappadocia, his home (S4); Cyzicus, a city of Asia Minor, in what is now Turkey (S3); Constantinople, the capital, and Chalcedon (X3, T4).
@@ -92,3 +99,10 @@ Line references are to `Source_Sheet.md` rows (S, E, C, A, B, X, T, D, I), each 
   - The lisp, Philostorgius's "pearls" and his visit at twenty (T6 context): told on `philostorgius`; not retold here.
   - Whiston's 1711 English and Cave's "Sly Arch-Heretick" (Whiston 156): an English translator's history, not his.
   - The will laws and the expulsion of chamberlains (Philostorgius 10.6): card.
+- **For the card, not the story:** the cut-first items, if the story drops them.
+  - What came of them 4: the optional clause that the tree's entry says the sect left no continuing church (I9).
+  - Beat 2: that the people of the bishop who had been put out built a church outside the walls (C1).
+  - Beat 3: his citing of Christ's saying that the Father is greater (A6, paraphrase).
+  - Beat 4: Gregory of Nyssa's word that Basil wrote to cure Eunomius and bring him back to the church (B4).
+  - Beat 5: Philostorgius's report that he lived at Chalcedon and that no bishop of his party acted without his advice (X3).
+  - Beat 5: that when Aetius died, Eunomius closed his eyes and buried him (X4).

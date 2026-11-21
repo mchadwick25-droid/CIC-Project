@@ -13,7 +13,20 @@ File short names and full paths are in `Source_Sheet.md` (top). Item codes (S1, 
 5. A monk's question (Documented as Sozomen's report). One of the Long Brothers asked if he had read any of their books. He had not; he judged them by report (SS 43604-43610).
 6. What later readers did with him (Documented). Augustine followed his order of heresies (AUG 2414-2415). The council at Nicaea in 787 argued from his eighty chapters, and its Frankish opponents answered with his curtain letter (MEN 26273-26281, 26282-26316).
 
-**Length:** about 4 minutes, about 600 words (cap 675). The count behind it: three quotes, about 95 words. Plain senses for Panarion, heresy, Origen, reading as hidden meanings, the rivers of Eden, church rules on ordaining, the Long Brothers, the council of 787 and the Frankish book: about 100 words. Credits for Epiphanius's own letter and book, Jerome twice, Sozomen, Socrates, the two historians' disagreement, Augustine and the council: about 75 words. That is about 270 words that must be carried before the seven beats' narration. The beats run about 220 more. What came of him, at about a third, takes about 190 of the total. The record is full on both his book and his campaign, and the later use of him is well sourced, so this runs past the 3-minute aim. Shortest honest cut, if Mark wants 3:30 (about 525): send the Photius verdict and the Apollinaris clause to the card, and keep the bishop of Scythia to a clause.
+**Length:** about 4:30 at most (about 675 words by the scorer), aiming at 4:00. The count behind it: three quotes, about 95 words. Plain senses for Panarion, heresy, Origen, reading as hidden meanings, the rivers of Eden, church rules on ordaining, the Long Brothers, the council of 787 and the Frankish book: about 100 words. Credits for Epiphanius's own letter and book, Jerome twice, Sozomen, Socrates, the two historians' disagreement, Augustine and the council: about 75 words. That is about 270 words that must be carried before the seven beats' narration. The beats run about 220 more. What came of him, at about a third, takes about 190 of the total. The record is full on both his book and his campaign, and the later use of him is well sourced, so this runs past the 3-minute aim. Shortest honest cut, if Mark wants 3:30 (about 525): send the Photius verdict and the Apollinaris clause to the card, and keep the bishop of Scythia to a clause.
+
+**Cut first, in order** (drop from the top while the draft runs past 675 words; together these free about 205 words, against the 168 by which `Length_Count.md` puts this outline over 640; each item is kept in **For the card, not the story**):
+1. Photius's verdict, with his gloss and credit: in the ninth century a patriarch of Constantinople judged the Panarion fuller than any earlier book against the heresies, though poor in style (PHOT 3; PHOT 11652-11654, 11678-11683). About 25 words.
+2. Hilarion in beat 1: he knew Hilarion and wrote his praises (Jerome, J6 30110-30112). About 12 words.
+3. Thirty-six years as bishop (Palladius's Dialogue, PALL 8919-8921). About 10 words.
+4. Monks came to Cyprus "from all parts of the world" for love of him (Jerome, J6 21024-21027). About 15 words.
+5. Augustine's extras in What came 1: "about 25 years later" (AUG 1098), the fifty-seven heresies he took, and his calling Epiphanius a man the Greeks counted among the great (AUG 2411-2426). Keep that Augustine followed his order. About 18 words.
+6. Jerome on his readers: his books read by the learned for their matter and by the plain people for their language (J3 41529-41531). About 20 words.
+7. The tomb: Sozomen reports it was said that demons were driven out and diseases healed there (SS 42335-42337). About 20 words.
+8. His training in beat 1: taught from youth by the most famous monks, mostly in Egypt (Sozomen, SS 39795-39796). Keep the birthplace and the monk's life near it. About 12 words.
+9. His giving: Sozomen says he gave his whole inheritance to the shipwrecked and the needy, and then the church's funds (SS 42340-42345). About 20 words.
+10. Theophilus's change of view in What came 2: once "a heretic, or a paltry schismatic", later "a most holy saint" (Palladius's Dialogue, PALL 8921-8925) and "a bright star among bishops" (J6 22472-22474). Keep Sozomen's line that Theophilus followed his example (SS 43516-43520). About 30 words.
+11. Q3, the farewell at the shore, with its credit to Sozomen (SOZG 30108-30116). Keep that he sailed for Cyprus and died at sea. About 25 words.
 
 **Setting:**
 - Century: the fourth century, from about 310 to the early 400s. No held ancient source gives his birth or death year; editors give 310 and 403, or 402 (J3 41528; J6 3193; S5). Spoken: "in the fourth century"; his Panarion "about 375" by his own regnal dating (HOLL1 13424-13426; Holl's note 13447).
@@ -143,3 +156,16 @@ File short names and full paths are in `Source_Sheet.md` (top). Item codes (S1, 
 - The Panarion's stories of Peter and Melitius, Potamon at Tyre, Marcellus and Athanasius: told on their own pages; Potamon's words are barred.
 - The Ethiopian and Latin feast days: late legend; card.
 - Whether the anti-image writings under his name are his: told only as the council's ruling and its opponents' answer.
+
+**For the card, not the story** (each item from **Cut first** the draft drops, kept here so nothing is lost):
+- Photius, a ninth-century patriarch of Constantinople, judged the Panarion fuller than any earlier book against the heresies, though poor in style (PHOT 3; PHOT 11652-11654, 11678-11683).
+- He knew Hilarion and wrote his praises (Jerome, J6 30110-30112).
+- He was bishop for thirty-six years (Palladius's Dialogue, PALL 8919-8921).
+- Monks came to Cyprus "from all parts of the world" for love of him (Jerome, J6 21024-21027).
+- Augustine, writing about 25 years later (AUG 1098), took fifty-seven heresies from the Panarion and called him a man the Greeks counted among the great (AUG 2411-2426).
+- Jerome: his books were read by the learned for their matter, and by the plain people for their language (J3 41529-41531).
+- Sozomen reports it was said that demons were driven out and diseases healed at his tomb (SS 42335-42337).
+- He was taught from youth by the most famous monks, mostly in Egypt (Sozomen, SS 39795-39796).
+- Sozomen says he gave his whole inheritance to the shipwrecked and the needy, and then the church's funds (SS 42340-42345).
+- Theophilus, who had once called him "a heretic, or a paltry schismatic", later called him "a most holy saint" (Palladius's Dialogue, PALL 8921-8925), and in his own letter "a bright star among bishops" (J6 22472-22474).
+- Q3, his farewell at the shore, as Sozomen reports it: "I leave you the city, the palace and the play-acting. I am going away, because I am in a hurry, a great hurry." (SOZG 30108-30116; Hartranft's English, SS 43625-43626.)

@@ -17,7 +17,15 @@ Every line points to `Source_Sheet.md` (S, E, I numbers) and through it to the f
 - The hostile view: Jerome in 415 ranked him with heretics over his teaching on freedom from passion (Q3). Documented.
 Where the sources will not hold a claim: no held text gives him the treatise *On Prayer* (the Philokalia prints it under Nilus); no held text says Cassian learned from him; the council of 553's surviving acts do not name him (Hefele). What they do hold is set out above.
 
-**Length:** about 4 minutes, about 590 words (aimed; 675 the ceiling). The count first: three quotes, 56 words; plain senses of eight terms (country-bishop, the Cells, tempting thoughts, passions, acedia, freedom from passion, Origen's followers, Epiphany), about 60 words; credited witnesses (Palladius once for the whole life, Sozomen for the harder version, Socrates, Gennadius, Cassian as unnamed, Thomas of Marga, Jerome, the councils, the modern doubt), about 100 words. That is about 215 words before any narration. The beats below need about 375 more: the vision and oath, the city years, Melania, the desert life, the book, then a third of the story on what came of him, including a contested condemnation that must be told with both sides. The Philokalia, Rufinus's Latin, Victor of Tunnuna, Cyril of Scythopolis and the Theophilus episode go to the card, not the story.
+**Length:** about 4:30 at most (about 675 words by the scorer), aiming at 4:00. The count first: three quotes, 56 words; plain senses of eight terms (country-bishop, the Cells, tempting thoughts, passions, acedia, freedom from passion, Origen's followers, Epiphany), about 60 words; credited witnesses (Palladius once for the whole life, Sozomen for the harder version, Socrates, Gennadius, Cassian as unnamed, Thomas of Marga, Jerome, the councils, the modern doubt), about 100 words. That is about 215 words before any narration. The beats below need about 375 more: the vision and oath, the city years, Melania, the desert life, the book, then a third of the story on what came of him, including a contested condemnation that must be told with both sides. The Philokalia, Rufinus's Latin, Victor of Tunnuna, Cyril of Scythopolis and the Theophilus episode go to the card, not the story.
+
+**Cut first, in order:** Drop from the top, in order, only while the draft runs past 675 words. Together about 69 words (at least 44 words, the count's excess over 640). Each item is kept under For the card, not the story.
+1. What came of them 2: the optional clause that the Greek Philokalia of 1782 printed his chapters under the name of "Evagrius the Monk" (philokalia v1 : 4205, 58634-58641). Saves about 15 words.
+2. Beat 4: that a circle formed round him and Palladius was one of it (clarke1918 : 423 §5); Palladius stays credited as his disciple in Beat 2. Saves about 10 words.
+3. Beat 3: the course of the illness, first a fever, then six months (clarke1918 : 457 §8); keep that he fell ill and the doctors gave up. Saves about 6 words.
+4. Beat 1: that Basil of Caesarea made him a reader (clarke1918 : 457 §2; Palladius alone, Widely Accepted); keep that Gregory of Nazianzus made him deacon. Saves about 8 words.
+5. What came of them 1: that Cassian wrote for a bishop in Gaul who wanted the ways of Egypt's monks in his province (npnf211 : 16433-16437); keep "for the monks of Gaul". Saves about 10 words.
+6. Beat 4: his own story of asking Macarius for water at midday and being told to make do with the shade (dysinger : 554-555); keep Socrates's philosophy of deeds. Saves about 20 words.
 
 **Setting:**
 - Century: the late 300s; born about 345 (editors: Richardson, npnf203 : 42324 n.; census), died at fifty-four (Palladius, clarke1918 : 455 §1), in 399 or 400 by Clarke's reckoning (clarke1918 : 1177). Say "the late fourth century"; give no birth year in the story.
@@ -145,3 +153,11 @@ Where the sources will not hold a claim: no held text gives him the treatise *On
 - Theophilus's purge of the Tall Brothers after his death (Socrates VI.7): about others.
 - Clarke's view that his works were "suppressed for their Origenistic tendency" and that some copies of Palladius drop the chapter (an editor's note): card, credited to Clarke.
 - Gennadius's "He lived to old age": the card notes it against Palladius's fifty-four.
+
+**For the card, not the story:** the cut-first items, if the story drops them.
+- What came of them 2: the optional clause that the Greek Philokalia of 1782 printed his chapters under the name of "Evagrius the Monk" (philokalia v1 : 4205, 58634-58641).
+- Beat 4: that a circle formed round him and Palladius was one of it (clarke1918 : 423 §5).
+- Beat 3: the course of the illness, first a fever, then six months (clarke1918 : 457 §8).
+- Beat 1: that Basil of Caesarea made him a reader (clarke1918 : 457 §2; Palladius alone, Widely Accepted).
+- What came of them 1: that Cassian wrote for a bishop in Gaul who wanted the ways of Egypt's monks in his province (npnf211 : 16433-16437).
+- Beat 4: his own story of asking Macarius for water at midday and being told to make do with the shade (dysinger : 554-555).

@@ -9,7 +9,14 @@ Line references are to `Source_Sheet.md` rows (S, E, R, P, B, H, Sp, D, I), each
   - The Spirit: he was attacked for praising God the Father "with" the Son "together with" the Spirit. He answered from what the church already did: as we are baptized, so we believe and so we praise. His friend says he held back the bare words "the Spirit is God" in writing, from caution. (Sp1, Sp4, Sp6, Sp7; Documented, Sp7 in Gregory's voice)
   - The cost: an emperor's official threatened him with loss of goods, exile, torture and death; he faced a quarrel with his own bishop and a rival bishop who blocked his road. (B2-B4, P2; Documented as Gregory's account, B3 confirms)
   - Checked against the Library: all held. "Outside Caesarea" is held as Gregory's "a little way from the city" (H3); "suburbs" is the editor's (H6). "Rules that shaped Greek monks" is held as his friend's "legislation" (R3) and the council of 787 (I3); the Rules' date is not held (R8).
-- **Length:** 4 minutes, about 600 words, 650 at most. Must carry: quotes 62 words; seven plain-sense glosses about 55 words (rhetoric, the ascetic life, the form of praise, the emperor's official, the plain sense of Quote 2, Cappadocia, Pontus); credited witnesses about 60 words (Basil himself, Gregory of Nazianzus twice, Gregory of Nyssa, Rufinus, Sozomen, Benedict, the council of 787). About 175 words before the beats. Six beats, the impact and the ending need about 425 more. The record is rich (his own letters, rules and treatise, a friend's long eulogy, three later historians), and four strands of the heart each need a scene, so the story runs past 3 minutes.
+- **Length:** about 4:30 at most (about 675 words by the scorer), aiming at 4:00. Must carry: quotes 62 words; seven plain-sense glosses about 55 words (rhetoric, the ascetic life, the form of praise, the emperor's official, the plain sense of Quote 2, Cappadocia, Pontus); credited witnesses about 60 words (Basil himself, Gregory of Nazianzus twice, Gregory of Nyssa, Rufinus, Sozomen, Benedict, the council of 787). About 175 words before the beats. Six beats, the impact and the ending need about 425 more. The record is rich (his own letters, rules and treatise, a friend's long eulogy, three later historians), and four strands of the heart each need a scene, so the story runs past 3 minutes.
+- **Cut first, in order:** Drop from the top, in order, only while the draft runs past 675 words. Together about 61 words (at least 6 words, the count's excess over 640). Each item is kept under For the card, not the story.
+  1. Beat 1: that Caesarea welcomed him home (E2). Saves about 6 words.
+  2. Beat 1: the four lands he searched for monks, Egypt, Palestine, Syria and Mesopotamia (E4); say only that he went looking for monks. Saves about 5 words.
+  3. Beat 3: what he fed the hungry in the famine, soup and meat (P4); keep that he fed and tended them himself, Gregory says. Saves about 4 words.
+  4. What came of them 1: the optional line that the tree's tradition entry says his rules remain foundational for Eastern Orthodox monasticism (I9). Saves about 12 words.
+  5. Beat 2: Gregory's report that he brought hermits and communities together rather than walling them apart (R4). Saves about 12 words.
+  6. Beat 2: Rufinus's report that he went through the towns and countryside, teaching people to come together, build monasteries, pray and care for the poor (R2); Rufinus stays credited in Beat 1 and the impact. Saves about 22 words.
 - **Setting:**
   - Time: the fourth century; born 329 or 330 (S1, editor); bishop from 370 (B1); died at the end of 378 or early 379 (D2).
   - Place: Caesarea in Cappadocia, an inland city (S2, S3), "in the heart of Asia Minor, in what is now Turkey" (S6). His retreat: Pontus, "near the Black Sea", by the river Iris (E7, R1).
@@ -86,3 +93,10 @@ Line references are to `Source_Sheet.md` rows (S, E, R, P, B, H, Sp, D, I), each
   - The Hexaemeron, the Address to Young Men, the Liturgy of St Basil (attribution disputed), Letter 38: not on the heart.
   - Basil's judgement of Dionysius of Alexandria (told on that page) and his admiration of Ephrem: card.
   - The synods of Iconium and Cappadocia that took up his book (Sp8): a modern historian's account; card.
+- **For the card, not the story:** the cut-first items, if the story drops them.
+  - Beat 1: that Caesarea welcomed him home (E2).
+  - Beat 1: the four lands he searched for monks, Egypt, Palestine, Syria and Mesopotamia (E4).
+  - Beat 3: what he fed the hungry in the famine, soup and meat (P4).
+  - What came of them 1: the optional line that the tree's tradition entry says his rules remain foundational for Eastern Orthodox monasticism (I9).
+  - Beat 2: Gregory's report that he brought hermits and communities together rather than walling them apart (R4).
+  - Beat 2: Rufinus's report that he went through the towns and countryside, teaching people to come together, build monasteries, pray and care for the poor (R2).
