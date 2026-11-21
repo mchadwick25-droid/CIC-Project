@@ -8,7 +8,18 @@ Sheet items (S, E, I, L, D) are in `Source_Sheet.md`, which gives the file and l
   - **Augustine.** He received the young teacher Augustine "like a father", and baptized him (E14; Documented, Augustine's own words). A clause: the `augustine-of-hippo` story tells the baptism.
   - **The force in the record.** The court fined and jailed Milan's merchants and sent soldiers; his own crowd seized a priest of the other party, whom he rescued (E9; Documented, his own letter). Two years before Thessalonica he would not go to the altar until the same emperor promised to change an order that the bishop of a town whose Christians had burned a synagogue should rebuild it, and to end the inquiry (E15; Documented, his own letters; the dates are his editor's).
   - **What came of him.** The people's hymn-singing, copied across the Latin West; the penance, retold by Latin and Greek historians as a bishop's stand before an emperor; and Augustine, who praised his dying words and quoted him in his own disputes (I1–I3; Documented as each witness's telling).
-- **Length:** about 4 minutes 5 seconds (about 610 words at 150 a minute; never past 675). Counted first: the quotes, about 110 words (Q1 short form about 30, Q2 about 40, Q3 about 26, the palaces phrase 11); the plain sense of the words to explain, about 55 words (not yet baptized, the court's party, the great churches, offer the sacrifice, public penance); the witnesses credited, about 75 words (Paulinus once with who he was, Rufinus by role, Theodoret and his scene, Augustine on the penance, Augustine's biographer optional). That is about 240 words before any event. The events then get about 370. Why past three minutes: the job names five turns (the acclamation, the basilicas, the hymns, the penance, Augustine), two of them told with witnesses who differ, and a third goes to what came of him. Cut first, if needed: the Martin and Damasus clause (beat 1), the chamberlain's threat (beat 2), the Rufinus credit at the election (opening), Augustine's biographer (What came 3), the rite (What came 4). Never cut Callinicum or the force in beat 2.
+- **Length:** about 4:30 at most (about 675 words by the scorer), aiming at 4:00. Counted first: the quotes, about 110 words (Q1 short form about 30, Q2 about 40, Q3 about 26, the palaces phrase 11); the plain sense of the words to explain, about 55 words (not yet baptized, the court's party, the great churches, offer the sacrifice, public penance); the witnesses credited, about 75 words (Paulinus once with who he was, Rufinus by role, Theodoret and his scene, Augustine on the penance, Augustine's biographer optional). That is about 240 words before any event. The events then get about 370. Why past three minutes: the job names five turns (the acclamation, the basilicas, the hymns, the penance, Augustine), two of them told with witnesses who differ, and a third goes to what came of him. Never cut Callinicum or the force in beat 2.
+- **Cut first, in order** (the writer drops from here, top down, if the draft runs past 675 words; each cut item is kept in **For the card, not the story**). Items 1 to 6 are optional lines already outside the length count; items 7 to 10 free about 61 counted words, past the 43 by which the count puts the outline over 640.
+  1. The Martin and Damasus clause (beat 1): about 25 words.
+  2. The boy emperor's words and the chamberlain's threat (beat 2): about 30 words.
+  3. Rufinus's credit at the election, the single shout (opening): about 12 words.
+  4. His editor's reckoning of four to twelve hymns as his own (What came 1): about 12 words.
+  5. Augustine's biographer: Augustine kept Ambrose's rules of conduct and admired his last words (What came 3): about 20 words.
+  6. The rite of Milan that bears his name (What came 4): about 20 words.
+  7. Augustine's "much the same of nearly all congregations" clause (What came 1): about 12 words. Paulinus's credit for the spread stays.
+  8. The faith of Nicaea as a thing he defended (What came 2): about 11 words.
+  9. Theodoret holding up both men, the bishop for his brave words and the emperor for his obedience (What came 2): about 18 words. "Later historians in Latin and in Greek told the penance again and again" stays, and so does Theodoret's door scene in beat 6.
+  10. His own line on being carried off from the judge's seat to teach what he had not yet learned (beat 1): about 20 words. His resistance stays, in a clause.
 - **Setting:**
   - Time: governor about 370 (S1, editor); acclaimed 374, consecrated eight days after baptism (E5; the date December 7 is the editor's: say "within eight days"); the basilicas in the mid-380s (D2: never a single year); Augustine baptized at Easter 387 (E14); Callinicum 388 and Thessalonica 390 (S3, editor's chronology; THDT-ed); died on Good Friday night, 397 (S3, editor; Paulinus: his body lay in the church through the Easter vigil).
   - Place: Milan, in northern Italy, where the western emperors then held court (S2). Thessalonica, a great city of Macedonia, in today's Greece (THDT 16506–16507: "a large and very populous city, belonging to Macedonia"). Callinicum: "a town on the eastern frontier" is not in a held source; say "a town in the East" or name it bare.
@@ -138,3 +149,16 @@ No quote is lifted from another story; none of these is on the tree (sheet, Libr
 - Sozomen's dating of the door scene after 394 (D3): for the card.
 - Editors' judgments (D7): not carried.
 - His writings as a list (On the Duties of the Clergy, On the Faith, On the Mysteries): the shape's trap. "On the Duties" is used only for his own words on being carried off from the judge's seat.
+
+**For the card, not the story** (the cut-first items, kept here so nothing is lost)
+
+- The bishop before him was of the other party, the man who had driven Martin of Tours out of Milan (E6, L2; Sulpicius), and whom a council under Damasus of Rome had condemned (E6, L3).
+- The boy emperor's words, that if Ambrose bade them, his men would hand him over in chains; the chamberlain's threat to take his head (E9).
+- Rufinus on the election: the single shout (RUF; opening).
+- His editor reckons between four and twelve of the hymns said to be his as his own (E12).
+- Augustine's biographer, Possidius: Augustine kept Ambrose's rules of conduct and admired his last words (E20, POSS).
+- Milan still keeps a rite of worship that bears his name, though how much of it goes back to him is unclear (CEN `ambrose-of-milan` legacy; AMB-ed 1118–1122).
+- Augustine says much the same as Paulinus of the hymns' spread to nearly all congregations (E11).
+- Defended: the faith of Nicaea against the court's party (CEN floorNote).
+- Theodoret held up both men, the bishop for his brave words and the emperor for his obedience (I1).
+- His own words, in *On the Duties of the Clergy*, on being carried off from the judge's seat to teach what he had not yet learned (E4).
