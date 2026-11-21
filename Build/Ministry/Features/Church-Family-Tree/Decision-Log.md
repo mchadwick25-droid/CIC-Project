@@ -4906,6 +4906,82 @@ Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "appr
 **Why.** The Donatist world tells the North African split from the Donatists' side, naming the other church "the rival church" or "the other side". Both churches called themselves the Catholic church until an imperial ruling gave the name to one side, and "Caecilianist" was the Donatists' own label. The tree's narrator has to name that church without taking a side (Kit Part 1, Rigor).
 
 **Decided (Mark, 2026-11-20).** Option A of three ("Caecilian's church", "the Catholic church", "the Catholic party"): the narrator says "Caecilian's church", named for its first bishop as "the party of Donatus" is named for his. Its first mention in a piece says once that it came to be called the Catholic church. Polemic labels ("Caecilianist", "traditor", "persecution") stay credited to whoever used them.
+
+## 2026-11-20 — Built worlds on the tree recorded in the standard voices, and released
+
+**Decided (Mark, 2026-11-20).** After the two samples ("Approve, cap 155,000 chars"), all built worlds' narrator texts were recorded, and Mark asked for it to go live when done ("when it's done send it live").
+
+**Done.**
+- `generate_world_narration.mjs --tree` reads each piece's reviewed text from `World-Narration/`, refuses one whose source changed after the rewrite, and writes to `cft-website/audio/worlds-tree/`, each entry with the text it was recorded from and the world's piece list.
+- The run, settings printed before every request: Daniel (`onwK4e9ZLuTAKqWW03F9`, `eleven_multilingual_v2`) for 21 Story and Legacy pieces and Neo (`onegjDE2z0mQtp1g0HK7`, `eleven_v4`) for 99 documented stories, both `mp3_44100_64`, `{"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true}`, speed 1, tempo 1. 152,331 characters, 73,861 credits, under the 155,000-character cap; with the two samples (876 credits), 122 pieces and 74,737 credits.
+- Checked: all 122 files present, each recorded from its reviewed text; on the map all 11 built-world cards show the narrator texts and play only the tree recordings. Church in Conversation keeps its texts and Representative voices.
+- The map switches a world only when every piece is recorded; a later world rebuild that changes a source text makes its piece stale, and the tool refuses it until it is rewritten.
+
+## 2026-11-20 — The map names the same number of traditions in every era at the middle zoom
+
+**Why.** Between Z_MAJOR (0.50) and Z_ALL (0.80) the map names only "major" traditions: Built & Live ones, or ones with a major person told within them. People exist for eras 1 to 4 only, so eras 5 to 10 showed almost nothing there. Traditions named per era 1..10 were 10, 19, 13, 10, 1, 2, 3, 1, 0, 0.
+
+**Decided (Mark, 2026-11-20: "this works but do drop if traditions colide").** Per era, name N traditions, where N = min(era total, max(today's count, 15, min(22, ceil(0.66 x era total)))). Traditions named today stay. The remaining slots go to the era's most connected traditions (census edges in and out, ties by name). The label-collision dropping stays: the rule picks candidates, and a label that would collide is still dropped.
+
+**Done.** `cft-website/index.html` derives the set in code (`majorTraditionIds`, beside `isMajorTradition`), so new traditions and edges are picked up. No change to the census data, the zoom thresholds or anything else on the map.
+
+**Result.** Candidates per era 1..10: 15, 19, 15, 17, 18, 16, 22, 22, 22, 22 (matches the rule). Names actually shown at zoom 0.6 after collisions, desktop 1400 px: 14, 18, 14, 17, 17, 10, 22, 21, 20, 19. Phone 390 px: 15, 19, 15, 17, 18, 16, 22, 22, 22, 20. Era 6 on desktop falls to 10 of 16 because its names crowd together.
+
+## 2026-11-20 — Names fill the room as the map zooms in, until all are shown
+
+**Why.** After the per-era floor (entry above), Mark asked for balance as readers zoom in and out until all traditions show: "as we scroll in theres room for more traditions and voices/stories as they are turned on. it is to keep things populated but clean, not overwhelming or to crowded". The map still jumped from the floor to every name at 0.80.
+
+**Decided (Mark, 2026-11-20).** Option A of three (room-led; names-first; fixed tiers). Between 0.50 and 0.80 each era may name its traditions in rank order, up to a cap that grows with the screen area the era covers (floor x (zoom / 0.50)^2, never above the era's total). The floor names are placed first, then voices and stories, then the extra names fill whatever room is left, so switching voices or stories on never crowds them out. Collision dropping is unchanged. Zoom thresholds unchanged.
+
+**Result.** Names shown per era 1..10, desktop, voices and stories on, at zoom 0.5 / 0.6 / 0.7 / 0.8: 12 16 14 14 14 9 18 19 17 18 / 19 21 17 24 24 16 28 30 30 24 / 20 23 19 25 27 24 34 42 43 41 / 20 23 19 25 27 24 36 50 62 64 (the last row is every tradition). Phone is within 1 to 2 per era of desktop. Eras 1 to 5 reach every name by about 0.6; eras 7 to 10 fill across 0.5 to 0.8.
+
+## 2026-11-20 — Fully zoomed out, every era is populated
+
+**Why.** Mark: "all the way out should have the minimum, currently era one has 2 scrolled all the wait out." Fully zoomed out the map named only Built & Live traditions, which exist in eras 1, 2 and 7 only, so most eras looked empty.
+
+**Decided (Mark, 2026-11-20).** First "sorry 4"; then, replacing it: "the built should not have any influence on this, this is about feel and sence of scope, it cant look empty" and "zoomed all the way out should have as many as the window will hold while not being crowded, i would think the 10 to 15". So below the middle zoom each era offers up to 15 traditions, chosen by connections alone (census edges, ties by name) from the names that show at 0.50, so zooming in only adds names. Collision dropping decides how many the window holds. Built & Live no longer decides anything here.
+
+**Result.** Desktop at the farthest zoom-out (0.45), names shown per era 1..10: 12 11 13 12 11 8 13 13 13 14; no overlaps in the screenshots checked. On a phone the map can zoom out to 0.18; below 0.34 the whole map switches to its simplified view, which shows no names at all. That threshold was not changed and is open for Mark.
+
+**Tested with People and Stories on (Mark: "test it with the who on then the stories on").** Compared with `main` at eras 1, 2, 5, 7 and 9, zoom 0.45 to 1.0, desktop and phone. At the farthest zoom-out the first version let story pills land on four names, so the far-out names now yield to the pills as the in-between names do. After that no name overlaps a pill or story mark, apart from invisible pill hit-boxes that touch a name by a few pixels (also on `main` at 0.8 and 1.0). Names shown across those five eras on desktop: 78 at 0.45 (12 on `main`), 85 at 0.5, 126 at 0.65, 119 at 0.8.
+
+## 2026-11-20 — River-name icon matches the Rivers toggle
+
+Mark: "the river icon should match the double river icon on the toggle".
+
+**Done.** The icon beside each river's name on the map now uses the same two-strand shape as the Rivers button in the feature bar, kept in that river's own color so it still ties to its river. The name moves over slightly to make room.
+
+## 2026-11-21 — Phones get the same names, with more zoom steps
+
+**Why.** Mark: "no, make phones work by the same principles we used" and "smaller screens more zoom options". A phone can zoom out to 0.18, where the map switched to its simplified view below 0.34 and drew no names, so it looked empty. Phones also have less room, so they need more steps to reach the same detail.
+
+**Decided (Mark, 2026-11-21).** The simplified view's cut-off moves below any zoom a phone can reach (0.34 to 0.10). The opening zoom keeps its old floor, so nothing changes at first load. Names on a phone follow the same rules as on desktop: up to 15 per era by connections, room decides how many fit, and each zoom-in step adds names. Era captions now also count as occupied space, so names no longer sit on an era title (phone captions are wider than desktop's). Desktop never zooms out that far, so it is unchanged.
+
+**Result.** Names drawn on the whole map, per zoom-in step on a phone: 45, 59, 75, 95, 115, 212, 298, 350 (zoom 0.18 to 0.87), so every step adds names until all 350 show; desktop 117 at 0.45, then 199, 302, 350. Whole-map view on a phone, names per era 1..10: 4 3 4 6 4 3 3 6 6 6. Desktop numbers are unchanged from the entries above.
+
+## 2026-11-21 — Era title first under the era line, then the river title, then the traditions
+
+**Why.** Mark: "the era titles go directly unter the line with the river title under that then the traditions". The era title sat about 35 px below the era line, a gap left for the first river's title, which therefore appeared above the era title.
+
+**Decided (Mark, 2026-11-21).** The era title and its dates sit directly under the era line. A river title that would fall inside that caption block starts just below it. Traditions follow. Nothing else about the captions changed (left margin, size, info icon).
+
+**Done.** `cft-website/index.html`: the era caption position and a shared caption height, and the river-name start in `placeRiverNames`. Checked on desktop and phone at the opening zoom and at 0.6 (eras 1 and 2).
+
+## 2026-11-21 — A tradition's name moves to the other side of its mark when its first side would cross another river
+
+**Why.** Mark asked whether rivers and traditions are mixed up. Names did not repeat between the two, but 12% to 20% of shown names ran across a neighbouring river's band (24 of 117 at the farthest zoom-out, 41 of 350 at 0.8, also on `main`). 14 of 350 traditions also sit off their own river at their date; that is in the data and not changed here.
+
+**Decided (Mark, 2026-11-21: "yes flip them").** When a name's usual side would cross another river and the other side crosses fewer, the name goes to the other side. If the flipped side has no room, the name returns to its usual side before it can be dropped, so no name is lost to this. People and story marks and place lines follow the name's side.
+
+**Result.** Names crossing another river, desktop, at 0.45 / 0.6 / 0.7 / 0.8: 13 / 13 / 19 / 18 of 119 / 236 / 299 / 350 shown (before: 24 / 29 / 39 / 41). All 350 still show at 0.8. About 25 names are flipped in an era view at 0.8.
+
+## 2026-11-21 — The zoom layers are spaced so every click in adds something
+
+**Why.** Mark asked that every zoom-in click add something until everything is on the map. The layers past 0.80 sat at uneven gaps (voices with the names at 0.80, story titles 1.3, places 1.6, people 2.2, dates 3.4), so some clicks crossed none: on `main`, desktop clicks to 1.11, 1.39 and 2.16 and phone clicks to 1.09 and 1.37 added nothing. A click multiplies the zoom by 1.25, so layers spaced by no more than that ratio can never be skipped.
+
+**Decided (Mark, 2026-11-21: "space the zoom layers so every click adds something").** Option A of three (re-space the layers; thin each layer in steps; names only). After the names finish at 0.80 the layers come one per click, in this order: voices on traditions 1.0, story titles 1.24, places 1.54, people 1.91, dates 2.37 (each at most 1.25 times the one before, so a click never skips one). The names still grow with the room from the farthest zoom-out to 0.80. The thresholds for names, councils, story marks and the reading level (0.90, used to frame the tour and era clicks) are unchanged. Everything is now on by about 2.4 instead of 3.4.
+
+**Result.** Measured per click with People and Stories on, from the opening zoom (desktop: counts of names / voice marks / story titles / places / people / dates drawn): 0.89 350/0/0/0/0/0, 1.11 350/75/0/0/0/0, 1.39 350/75/62/0/0/0, 1.73 350/75/62/337/0/0, 2.16 350/75/62/333/10/0, 2.71 350/75/62/334/2/1. Phone the same one step later. Every click up to the last layer adds a layer; past it the map is complete. Counts of people and dates depend on what is in view.
 ## 2026-11-20 — Batch 7: the slate approved (Mark)
 
 **Why.** The batch 7 launch prompt (`Build/Ministry/Features/Church-Family-Tree/Launch-Prompts/CFT_Batch7_Launch_2026-11-19.md`) asks for the slate first: each story's job, its siblings and links, and the quotes barred, on one page (https://claude.ai/artifact/HVJ2mU3cXRubTNTgZ4qpKv, version 1).
