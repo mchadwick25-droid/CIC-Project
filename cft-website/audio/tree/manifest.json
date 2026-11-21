@@ -4082,5 +4082,24 @@
    "style": 0,
    "use_speaker_boost": true
   }
+ },
+ "francis-of-assisi": {
+  "file": "francis-of-assisi.mp3",
+  "bytes": 2024846,
+  "chars": 3670,
+  "text_sha256": "0dc53ae613c2f702cef442b14e48fa5287b71240d6093307ce76fb5bd0025525",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3778,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "ZmgGJJOOmbEqJQpbc1dS"
  }
 }
