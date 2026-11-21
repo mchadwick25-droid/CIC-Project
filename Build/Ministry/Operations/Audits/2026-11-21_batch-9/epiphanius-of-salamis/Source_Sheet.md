@@ -64,7 +64,7 @@ Line numbers are each file's own lines. Witness kinds: **own words**; **contempo
 > "It is true that that holy man Epiphanius, bishop of Salamis in Cyprus, who had much intercourse with Hilarion, set forth his praises in a short but widely circulated letter."
 - That letter is not held.
 
-**E3. Bishop in Cyprus: generosity (Sozomen's report, with wonders).** SS 42328-42355. Sozomen, later. Documented as report; the wonders stay in Sozomen's voice.
+**E3. Bishop in Cyprus: generosity (Sozomen's report, with wonders).** SS 42328-42345 (wonders at 42335-42337). Sozomen, later. Documented as report; the wonders stay in Sozomen's voice.
 > "He was celebrated, not only for the virtues he manifested and miraculous deeds during his life, but also for the honor that was rendered to him by God after his death; for it was said that demons were expelled, and diseases healed at his tomb. ... He was extremely liberal towards the needy, either to those who had suffered from shipwreck or any other calamity; and after expending the whole of his own patrimony in the relief of such cases, he applied the treasures of the church to the same purpose."
 - Sozomen's Greek: SOZG 25459-25473 (legible in part).
 - Monks came to Cyprus for him: Jerome, Letter 108 (Paula's journey), J6 21020-21027, contemporary: "where falling at the feet of the holy and venerable Epiphanius, she was by him detained ten days ... For she visited all the monasteries in the island, and left ... substantial relief for the brothers in them whom love of the holy man had brought thither from all parts of the world."

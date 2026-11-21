@@ -1,0 +1,107 @@
+# Outline: Damasus of Rome
+
+Census id `damasus-of-rome`. Tradition: Church and Empire. References are to `Source_Sheet.md` (row ids E1–E56, S1–S8) and through it to the file and lines; the key lines are repeated here.
+
+- **The essence:** Damasus was bishop of Rome from 366 to 384. He won the office in an election fought with clubs and killing, and then made his church the measure of the faith of Nicaea, so firmly that an emperor's law of 380 named him as its standard. *(Election: AMM 23176–23189, Documented; the dates: S1, S4, E53, Dominant Modern Reconstruction; the law: CTH 83596–83601, Documented.)*
+- **Also told:**
+  - He and the bishop of Alexandria, in council at Rome, condemned the teaching of Apollinaris of Laodicea that the Word of God took the place of a human mind in Christ (RUF 30635–30652; THD 16117–16120). Documented.
+  - Emperors made his judgment a court the state enforced: bishops he condemned with a council were to be sent to Rome by the prefects (AVE 8444–8449). Documented.
+  - He searched out the martyrs' graves around Rome and set his verses on them (LPD 127133–127136, late; his own verses LPD 27772–27779). Widely Accepted.
+  - He urged Jerome to correct the old Latin Gospels against the Greek (JER 46631–46634). Documented.
+  - *Why he is on the tree:* his years show the tradition at its sharpest. Rome's bishop claimed Peter's faith, the state's officers settled his contested election, and then a law used his name to sort Christians from heretics (AMM 23972–23986; AVE 7933–7951; CTH 83596–83603).
+  - Checked against the Library: "held Rome to Nicaea" holds (Sozomen's and Theodoret's text of his council's letter, SS 38808–38815, THD 10283–10300). "Founded" is too strong for any one institution; what the sources hold is the court (AVE 8444–8466), the shrines and verses (LPD 127133–127136), and the communion test (THD 15410–15414; CTH 83596–83603).
+- **Length:** about 4 minutes, about 600 words (ceiling 675). The count behind it: three quotes, about 80 words (15 + 54 + 11); six credited witnesses (Jerome, twice; Ammianus; the account from Ursinus's own party; a church historian of the next century; the later book of the popes' lives), about 75 words; four glosses (Nicaea's faith, Apollinaris's teaching, communion, the martyrs' burial galleries), about 55 words; six beats of about 65 words, about 390. Total about 600. The election needs room for three accounts that disagree, and the law needs its own words; that is why it runs past 3 minutes.
+- **Setting:**
+  - Time: 366 to 384 (S1, S4; E53). Plain: "in the 360s", "in 380".
+  - Place: Rome, its churches and the burial galleries outside its walls (AMM 23186–23188; LPD 127133–127136). Plain: Rome.
+  - Tradition: the church of the empire's capital in the years when emperors first took sides in its quarrels (AVE 7933–7951; CTH 83596–83603). Spoken name: Church and Empire.
+  - Empire: Valentinian ruled the West when he became bishop (SS 14177–14180); Gratian and Theodosius issued the law of 380 (CTH 83596–83598).
+- **Words to explain:**
+  - *the faith of Nicaea*: the creed of the council at Nicaea, that the Father and the Son are of one substance (THD 10283–10284). Gloss: "the creed agreed at Nicaea, that the Son is of one being with the Father."
+  - *communion*: bishops who accepted each other's faith and shared the sacrament as one church (THD 14599–14601, "letters of consolation and communion"). Gloss: "to be in communion with him, to count as one church with him."
+  - *Apollinaris's teaching*: that Christ had a body and the life of a body, but the Word of God stood in place of a human reasoning mind (RUF 30644–30646). Gloss as such.
+  - *catacombs*: underground burial galleries outside Rome (LPD 127133–127135, "in Catacumbas"). Use "the burial galleries outside the city".
+  - *prefect*: the governor of the city (AMM 23180–23182, 23972–23973). Use "the city's governor".
+  - *basilica*: use "church". Ammianus's own words "the Basilica of Sicininus, which is a Christian church" (AMM 23187–23188) give the plain sense.
+- **Shape:** Founder or leader.
+- **Sibling:** none. (`jerome` is live and tells the Gospels request in a clause; here it is told as Damasus's act, in one beat, and the Bible's later history stays with Jerome.)
+- **Openings:**
+  1. A pagan noble of Rome, Praetextatus, used to say to the bishop, in jest: "Make me bishop of the city of Rome, and I will be a Christian at once." Jerome remembered the joke. The bishop was Damasus, and the office had been won with blood. *(PL23 27955–27960; JER 40869–40872. Documented as Jerome's report. Undated: do not tie the joke to a year or to Praetextatus's time as governor.)*
+  2. In Ammianus's words, paraphrased: one day in a church in Rome, a hundred and thirty-seven bodies were found, and the fight was over who would be the city's bishop. *(AMM 23184–23189. The `ammianus-marcellinus` story opens on this same scene, so opening 1 is preferred.)*
+- **Story beats:**
+  1. **The election, 366.** The bishop Liberius died, and two parties chose two bishops, the deacons Ursinus and Damasus (AVE 5097–5104; Documented). Fighting followed in the churches. Ammianus, a pagan soldier-historian of the time, blames both men's ambition. He says the city's governor was driven out to the suburbs, and he counts 137 dead in one day in a church (AMM 23176–23189; Documented as his count). An account written by Ursinus's own party blames Damasus. It says he hired charioteers, arena fighters and gravediggers, stormed a church held by the other side with axes, swords and fire, and killed 160 men and women, with no dead on his own side (AVE 5157–5168; Contested). Church writers of his own and the next generation blame Ursinus, ordained in secret by minor bishops (CHR 46055–46088; RUF 30176–30181; SS 14200–14216; Documented as their accounts). A church historian of the next century adds that the quarrel was not about doctrine, only about who should be bishop (SS 14210–14211). *Reason given in the sources:* ambition, by Ammianus; Ursinus's resentment, by the church historians; Damasus's ambition, by the Ursinian account.
+  2. **The state ends it, 367–368.** Rome's next governor, Praetextatus, calmed the tumult, and Ursinus was expelled (AMM 23972–23986; Documented). The emperors ordered the last church still held against Damasus opened to him (AVE 7933–7951; dated by its editor between November 367 and January 368, AVE 7965; Documented). *Meaning:* the contest was settled by the empire's officers, not by any council (LPD 127712–127718, Duchesne, editor).
+  3. **Holding the West to Nicaea, from about 369.** A council at Rome under Damasus condemned the bishop of Milan for rejecting Nicaea's creed. It set aside a later council at Rimini because the bishop of Rome had not agreed to it (SS 38808–38815; Documented; the year 369 is the translator's note, SS 38820). His letters of communion went east. At Alexandria, the bishop later wrote, the deacon who carried them was led through the town bound and flogged (THD 14599–14605; Documented). In Cappadocia, Basil of Caesarea begged Rome for help (BAS 28599–28625; the letter has no address, and its editors take it to be to Damasus). Later he wrote that the West's "lofty souls, when they are courted, get haughtier than ever" (BAS 41020–41021; Documented that Basil wrote it, Contested that it means Damasus).
+  4. **Apollinaris condemned, in the 370s.** Apollinaris of Laodicea taught that in Christ the Word of God took the place of a human reasoning mind (RUF 30644–30646; Documented). Damasus and the bishop of Alexandria condemned it in council at Rome. Rufinus gives the ruling: anyone who said the Son of God, truly God and truly man, lacked anything of either was outside the church (RUF 30646–30650; Documented). Damasus wrote that Apollinaris's follower had been condemned "by the judgment of the apostolic see" (THD 16117–16119; narrator may paraphrase). Year: 374 or 377 by the editors (SS 39033–39036; Contested).
+  5. **A court and a law, 378–380.** A council at Rome told the emperors that Ursinus's party had put up an accuser and sought Damasus's life, and that the emperors had found him innocent (MAN3 62301–62316; Documented). At its request, an emperor ordered that any bishop condemned by Damasus with a council of five or seven bishops, who clung to his church, be brought to Rome by the prefects (AVE 8444–8449; Documented). After the Arian emperor Valens died, the churches were handed to those in communion with Damasus, and a general enforced it (THD 15410–15423; Documented). In February 380 the emperors' law named him (CTH 83596–83603; Documented): Quote 2. The law went on to call everyone else heretics (CTH 83601–83603).
+  6. **The martyrs and the Gospels, in his last years.** He searched out the graves of the martyrs in the burial galleries outside the city and set verses on them (LPD 127133–127136, the Liber Pontificalis, about 150 years later; his surviving verses, LPD 27772–27779, LPD 109159–109166; Widely Accepted). On the place where Peter and Paul were said to have lain, his verse said the East had sent them, but Rome had won them as her own citizens (LPD 27772–27778; Documented). Jerome came to Rome, wrote his letters and his answers to councils of East and West (JER 24189–24191). At Damasus's urging he corrected the old Latin Gospels against the Greek, and he knew he would be called a forger for it (JER 46631–46645; dated 383 by Fremantle, JER 46629; Documented).
+- **What came of them** (ranked heaviest first; about a third of the story):
+  1. **His communion became the empire's test of the faith.** The law of 380 named him (CTH 83596–83601) and stood in the Theodosian Code. Sozomen retold it in the next century (SS 40612–40617). Theodoret tells how, at Antioch, a priest challenged two rival bishops to "embrace the teaching of Damasus" before the emperor's general (THD 15486–15506). *Defended: the Nicene faith of one Godhead, Father, Son and Spirit* (CTH 83598–83600). Documented.
+  2. **His ruling on Apollinaris was cited in the East.** In 431 Eastern bishops wrote that "the thrice blessed Damasus deposed" Apollinaris and his followers (THD 37893–37895). About 449 Theodoret quoted his anathema in his own quarrel (THD 34899–34902). *Defended: that Christ took a whole human nature, mind included* (TUR 41022–41030). Documented.
+  3. **Rome as a court for bishops, enforced by imperial officers** (AVE 8444–8466). Documented.
+  4. **The shrines and verses.** The Liber Pontificalis remembered the searching and the verses (LPD 127135–127136). In the next century Pope Vigilius set up an inscription honouring martyrs whom Damasus had found and marked with a poem (LPD 127955–127960). Widely Accepted.
+  5. **The Gospels revision** (JER 46631); what it became is the `jerome` story's.
+  - Optional, a clause only: the Roman calendar kept his day, 11 December (`roman-breviary_bute1908.txt` 2624, the 1908 Breviary). Not "today".
+- **Quotes** (rendered by me; none is used elsewhere on the tree, checked against every census story and card quotation):
+  1. **Praetextatus's joke.** Latin, PL23 27958–27960: "Facite me Romanae urbis episcopum, et ero protinus Christianus." *Rendering:* "Make me bishop of the city of Rome, and I will be a Christian at once." Rendered from the Latin. The scan is damaged at "Romanae" (it prints "Πο- mans"); Fremantle's English, JER 40871–40872, confirms the reading ("Make me bishop of Rome, and I will at once be a Christian"). *Job:* opens the story on what the see of Rome had become: rich and powerful enough for a pagan to joke about. Jerome reports it, and the narrator credits him.
+  2. **The law of 380.** Latin, CTH 83596–83601 (also CTL 6883): "Cunctos populos, quos clementiae nostrae regit temperamentum, in tali volumus religione versari, quam divinum Petrum apostolum tradidisse Romanis religio usque ad nunc ab ipso insinuata declarat quamque pontificem Damasum sequi claret et Petrum Alexandriae episcopum virum apostolicae sanctitatis". *Rendering:* "It is our will that all the peoples under our merciful rule live in this religion. It is the religion the divine apostle Peter handed down to the Romans. The religion he brought them, kept until now, declares it. It is plain that Bishop Damasus follows it, and Peter, bishop of Alexandria, a man of an apostle's holiness." Rendered from the Latin (Mommsen and Meyer's critical text). "Pontificem" is rendered "Bishop", since "pontiff" today suggests a later papacy. *Job:* the heaviest impact in the law's own words: an emperor's law points to one bishop by name as the measure of the faith.
+  3. **His own epitaph.** Latin, LPD 128210: "post cineres Damasum faciet quia surgere credo". *Rendering:* "I believe that, after the ashes, he will make Damasus rise." Rendered from the Latin. "He" is the one the poem's first lines describe: who walked and stilled the sea's bitter waves, who could loose the deadly chains of death, and who gave the brother back to his sister Martha (LPD 128204, 128206, 128208; lines 128205 and 128207 are damaged in the scan and are not to be used). *Job:* ends on the man in his own words, in one of the verses he set on graves. The quoted line reads cleanly. The poem is held only in Duchesne's print, whose scan is damaged elsewhere in this poem; no other held print confirms it. If the checker judges the scan damaged, the card prints the English alone.
+  - Not used, though the slate lifts them: "Damasus tells what he has heard. Christ tests it all." (the `hippolytus-of-rome` story ends on it, and three quotes is the cap); Ammianus's "one hundred and thirty-seven dead bodies" sentence (opening 2 paraphrases it instead).
+- **Names:**
+  - Damasus: acts.
+  - Praetextatus: acts (the joke; the governor who calmed the city). Not on the tree.
+  - Ursinus: acts. Not on the tree; the census spelling elsewhere on the tree is "Ursinus".
+  - Ammianus Marcellinus: link (witness). In the story, "Ammianus".
+  - Apollinaris of Laodicea: link.
+  - Basil of Caesarea: link.
+  - Jerome: acts and link.
+  - Rufinus: give as "a church writer of the next generation" unless the writer needs the name (census: "Rufinus of Aquileia").
+  - By role: the bishop before him (Liberius of Rome, on the tree, may be named as a link if the clause allows); the bishop of Milan (Auxentius); the bishop of Alexandria (Peter, not the tree's `peter-of-alexandria`, who died in 311); the emperors (Gratian, Valentinian, Theodosius); the general (Sapor); Theodoret and Sozomen, as "a church historian of the next century".
+- **Connection to carry into the story:** Damasus's name passed into imperial law. The law of 380 (CTH 83596–83603), with the order handing churches to those "in communion with Damasus" (THD 15412–15414), made agreement with one bishop something the state enforced. At Antioch rival bishops were told to show they agreed with him, before a general with an imperial order (THD 15486–15506). The listener needs to understand three things. The law did not make Damasus ruler of the church. It named him, with the bishop of Alexandria, as the measure of the right faith. And it attached the state's penalties to that faith: everyone else was to "bear the infamy of heretical teaching" (CTH 83601–83603). This is the Church and Empire point, and it should come through the acts: the law, the churches handed over, the challenge at Antioch.
+- **Ending:**
+  1. He died in December 384 (JER 2929; LPD 6324–6326, editors' dates), under the emperor Theodosius, almost eighty years old, Jerome says (THD 41384–41385). He was buried in his own church on the Via Ardeatina, near his mother and sister (LPD 127458, late). He had written his own epitaph: Quote 3.
+  2. Or close on the martyrs' verses: the man who marked so many graves with verse marked his own (LPD 127135–127136; LPD 128201–128210).
+- **Links:** Liberius of Rome: his deacon, then his successor. Ammianus Marcellinus: told his election. Apollinaris of Laodicea: condemned him. Basil of Caesarea: wrote to him (addressee per editors). Jerome: his secretary, set to revise the Gospels. Ambrose of Milan: Damasus sent him the Christian senators' memorial (AMB 40546–40551). Hippolytus of Rome: set verses on his tomb. Vigilius of Rome: honoured his verses in an inscription. Theodoret of Cyrrhus, Sozomen, Socrates of Constantinople, Rufinus of Aquileia: kept his letters or told his story. Priscillian: turned away by him. Lucifer of Cagliari's followers: their petition accuses his clergy.
+- **Who tells it:**
+  - *Ammianus*, a pagan historian of the time, writing from outside the church: the election violence and the 137 dead (AMM 23176–23189); Praetextatus's settlement (AMM 23972–23986). The listener should know he is an outsider who blames both men.
+  - *The Ursinian account*, written by Ursinus's own party, kept in a later Roman collection of letters: Damasus's hired men and the 160 dead (AVE 5097–5240). The listener must know whose account it is.
+  - *Jerome's Chronicle, Rufinus, Socrates, Sozomen*, church writers from his own time to the next century, friendly to him: Ursinus to blame (CHR 46055–46088; RUF 30176–30226; SS 14200–14216, 38781–38790). One credit, "church writers", is enough.
+  - *The election is the doubt-as-scene*: beat 1 sets the three accounts side by side, each credited, with neither chosen.
+  - *Jerome*, his friend and secretary, writing after his death: the joke, the work for him, the preface, his age at death (JER 40869–40872, 24189–24191, 46631; THD 41382–41385).
+  - *Imperial documents of the time*: the order on the church (AVE 7933–7951), the rescript on his court (AVE 8444–8449), the law of 380 (CTH 83596–83603). Contemporary.
+  - *Rufinus*: the Apollinaris ruling (RUF 30646–30650).
+  - *The Liber Pontificalis*, a book of the popes' lives written about 150 years later: the searching out of martyrs' graves (LPD 127135–127136). Credit it as late.
+  - *His own verses* (LPD 27772–27779; 128201–128210).
+- **Do not say:**
+  - "Damasus started the riot" or "Ursinus started the riot" as fact → each side's account, credited (E1–E11).
+  - Merge the counts → "137 in one day, by Ammianus; 160, by Ursinus's party". Keep "men and women" for the 160 (AVE 5166).
+  - "Ammianus says Damasus's men killed them" → Ammianus blames both and says Damasus won "by the strenuous efforts of his partisans" (AMM 23176–23185).
+  - "a council of priests chose Damasus" → that line is a later interpolation (LPD 127699–127718, Duchesne).
+  - "Praetextatus joked during the riot" or "while he was prefect" → Jerome gives no date (PL23 27955–27960).
+  - "Praetextatus ended the riots" → he "appeased a tumult", and Ursinus was expelled (AMM 23981–23984). That came after Juventius had failed (AMM 23180–23182).
+  - "the law made Damasus head of the church" → the law named the faith he followed as the empire's religion (CTH 83596–83601).
+  - "Damasus wrote the law" → the emperors issued it; it names him.
+  - "Gratian gave Damasus authority over all bishops" → bishops condemned by his judgment with a council of five or seven were to be brought to Rome by the prefects (AVE 8444–8449).
+  - "Basil called Damasus proud" → Basil wrote of the West's "lofty souls" (BAS 41020–41021); that it means Damasus is an editor's reading (BAS 8112–8115).
+  - "Damasus commissioned the Vulgate" or "translated the Bible" → he urged Jerome to correct the old Latin Gospels against the Greek (JER 46631–46634).
+  - "Damasus found the bodies of the martyrs" as fact → the Liber Pontificalis, about 150 years later, says he searched them out (LPD 127135–127136); keep its voice.
+  - "Damasus confused two splits" (of Hippolytus) → that is Duchesne's and Mommsen's view; not for this story.
+  - "pope" as his title in the story's voice → "bishop of Rome" (the sources use both; the plainer one avoids a later sense).
+  - "He died in 380" → December 384 (JER 2929; LPD 6324–6326).
+  - "the nominee of the Arian party" → the translator's claim (THD 10208); never use.
+  - "a Spaniard" → late and disputed (LPD 127130; 127685–127688); leave out.
+  - The Apollinaris teaching as "Christ had no soul" → Rufinus says he first said no soul, then a soul without its reasoning part, the Word filling it (RUF 30638–30646). Use the second.
+- **Leave out:**
+  - The charge brought by Isaac, beyond one clause in beat 5: its nature is unknown (LPD 127972–128007), and the Liber Pontificalis's "adultery" is modelled on a later pope.
+  - The Luciferian petition (AVE 6641–6644): told on `lucifer-of-cagliari`.
+  - Priscillian turned away (Sulpicius 11546–11563): told on `priscillian`, its quote barred.
+  - Ammianus on the bishops' wealth (AMM 23191–23197): its quote is barred and it is Ammianus's material.
+  - The law of 370 on clergy and widows' legacies (CTL 6944): a side story.
+  - The matrons' "ear-tickler" (AVE 5201–5202): partisan gossip; card only, credited.
+  - The St Agnes attack (AVE 5237–5240): one more charge from the same partisan source; the card can carry it.
+  - The Altar of Victory memorial (AMB 40546–40551): Ambrose's story.
+  - His verse for his sister Irene (LPD 128172–128193): side story.
+  - The Psalms and the "apocryphal" Damasus–Jerome letters (LPD 128153–128163): late.
+  - Birthplace (S7, S8): disputed.
+  - The 381–382 council letters addressed to him (THD 15898ff.): a council's text.
+  - Peter and Paul verse wording beyond the one clause: the OCR is damaged ("Borna … nierait", LPD 27777).

@@ -148,7 +148,7 @@ LIETZ 3484-3488 (editor): "Über das todesjahr des Apollinaris wissen wir nichts
 Confidence: that the confession under Athanasius's name is Apollinaris's, Dominant Modern Reconstruction (Lietzmann, Hefele, Montfaucon), contested by Pusey; that Cyril cited it as Athanasius's, Documented (Leontius; Lietzmann; Hefele).
 
 **I2. The forgeries were found out in the sixth century.**
-- Justinian's tractate against the Monophysites, 542/3 by Loofs's date (LIETZ 5718-5723, editor), quoted in LIETZ 5752-5757 (later, gap about 150 years; clean Greek):
+- Justinian's tractate against the Monophysites, 542/3 by Loofs's date (LIETZ 5718-5723, editor), quoted in LIETZ 5754-5763 (later, gap about 150 years; clean Greek). The subject "they" is Justinian's opponents of his own day, the Acephali, a party that held one nature (LIETZ 5752-5753, Lietzmann's German "die gegner"; LIETZ 5764 "Τούτων παρὰ τῶν ἀκεφάλων προφερομένων"), not Apollinaris's own pupils:
 > "τὴν γὰρ ᾿Απολλιναρίου προσηγορίαν ὡς σαφῆ δυσσεβείας ἔλεγχον δολερῶς ἀπωθούμενοι τὰς τῶν ἁγίων πατέρων ἐπωνυμίας τοῖς τούτου συγγράμμασι καὶ τοῖς ἑαυτῶν πλάσμασιν ἐπιτιθέασι κλέπτοντες τοὺς ἁπλουστέρους καὶ τὴν ὁδὸν τῆς ἀληθείας διαδιδράσκοντες. προφέρουσι γὰρ δύο ἐπιστολὰς ψευδεπιγράφους, μίαν μὲν ὡς δὴ παρὰ Ἰου λίου τοῦ ἐπισκόπου Ῥιύμῆς [Ῥώμης] ... ἑτέραν δὲ ὡς δὴ παρὰ ᾿Αθανασίου τοῦ ἐν ἁγίοις πρὸς Ἰοβιανὸν τὸν βασιλέα"
   No other held print of Justinian's Greek. The OCR of the quoted clause is clean.
 - The conference with the Severians at Constantinople, MANSI8 84764-84766 ("SEVERIANIS, Habita Constantinopoli anno domini DXXXI"), the bishop Hypatius speaking, MANSI8 85328-85331 (damaged facsimile): "nam & beati Julii famosam illam epistolam ... manifeste Apollinaris ostendimus fuisse scriptam ad Dionysium" (we showed plainly that the famous letter of the blessed Julius to Dionysius was written by Apollinaris). Documented, damaged scan.
@@ -181,7 +181,7 @@ Latin original of the Commonitorium not held.
 - **Gregory of Nyssa** (in batch): kept his own words, quoting them in a book against him (LIETZ 11480-11492; NYSSA-PG45 88005-88007). Kind: quoted his book.
 - **Basil of Caesarea** (in batch): wrote against his books (BAS 43311-43314, 43445-43447). Kind: wrote against him. Not needed in the story.
 - **Cyril of Alexandria** (`cyril-of-alexandria`, on the tree): cited his confession as Athanasius's (I1). Kind: quoted his book unknowing.
-- **Justinian I** (`justinian-i`, on the tree): exposed the forged names (LIETZ 5752-5757). Kind: wrote against his writings.
+- **Justinian I** (`justinian-i`, on the tree): charged the one-nature party of his day with using the forged names (LIETZ 5754-5764). Kind: wrote against his writings.
 - **Socrates of Constantinople**, **Sozomen**, **Theodoret of Cyrrhus** (on the tree): told his life.
 - **Philostorgius** (`philostorgius`, on the tree): praised him above Athanasius (PHIL 472).
 - **Alexander of Alexandria** (`alexander-of-alexandria`, live) cites a writer Sozomen calls "Apolinarius, the Syrian" (SOZ-ENG 29335-29356); Hartranft notes the quotation "is found nowhere else". Whether this is the same man is not stated in the source. Not used.
