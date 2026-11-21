@@ -298,6 +298,14 @@ svg.who-on .edge-line,svg.who-on .edge-hit,svg.who-on .continues{display:none!im
 .who-pill:hover .who-fig *,.who-pill:focus-visible .who-fig *,.who-pill[aria-pressed="true"] .who-fig *{fill:var(--gold-leaf)}
 svg.who-on .who-pill:not([aria-pressed="true"]){display:none}
 .node.who-under .lbl,.node.who-under .pl,.node.auto-own .pl,.node .pl.pl-cull{visibility:hidden}
+#end-marks{pointer-events:none}
+#end-marks .end-mark{display:none}
+svg.ends-on #end-marks .end-mark{display:inline}
+#end-marks .end-mark.is-off{display:none}
+#end-marks .em-tick{stroke:var(--iron-gall);stroke-opacity:.55;stroke-width:1.4;vector-effect:non-scaling-stroke}
+#end-marks .em-lbl{font-family:"Alegreya Sans",sans-serif;font-style:italic;fill:var(--iron-gall);fill-opacity:.78;paint-order:stroke;stroke:var(--parchment);stroke-linejoin:round}
+#end-marks .em-lbl.em-cull{visibility:hidden}
+svg.who-on #end-marks,svg.story-on #end-marks,svg.conn-focus #end-marks{opacity:.2}
 svg#world #rivers .river-group,svg#world #nodes .node,svg#world #stories,svg#world #councils,svg#world #across,svg#world #era-labels{transition:opacity .25s}
 svg.who-on #rivers .river-group:not(.who-lit),svg.who-on #nodes .node:not(.who-lit),svg.who-on #stories,svg.who-on #councils,svg.who-on #across,svg.who-on #era-labels{opacity:.2}
 svg.who-on #nodes .node.who-lit .pl{visibility:hidden}
@@ -127530,6 +127538,7 @@ const LINK_FAMILY_LABEL={grow:'Grew out of, continued as',influence:'Influenced'
 }
 const gBands=el('g',{id:'bands'}); gRoot.appendChild(gBands);
 const gRivers=el('g',{id:'rivers'}); gRoot.appendChild(gRivers);
+const gEndMarks=el('g',{id:'end-marks','aria-hidden':'true'}); gRoot.appendChild(gEndMarks);
 const gBandFade=el('g',{id:'band-fade'}); gRoot.appendChild(gBandFade);
 const gEdges=el('g',{id:'edges'}); gRoot.appendChild(gEdges);
 const gAcross=el('g',{id:'across'}); gRoot.appendChild(gAcross);
@@ -128515,8 +128524,9 @@ function render(){
       group.appendChild(el('path',{d, fill:'none', stroke:col, 'stroke-width':1.6, 'stroke-dasharray':'5 6',
         'vector-effect':'non-scaling-stroke', opacity:amp?0:0.8, class:cls}));
     });
-    group.addEventListener('mouseenter',(ev)=>showTip(ev,riverTip));
-    group.addEventListener('mousemove',(ev)=>positionTip(ev));
+    const tipAt=ev=>{const r=stage.getBoundingClientRect();return riverTip+riverActiveAt(members,(ev.clientY-r.top-ty)/scale);};
+    group.addEventListener('mouseenter',(ev)=>showTip(ev,tipAt(ev)));
+    group.addEventListener('mousemove',(ev)=>{const h=tipAt(ev);if(h!==group._tip){group._tip=h;showTip(ev,h);}else positionTip(ev);});
     group.addEventListener('mouseleave',hideTip);
     group.addEventListener('focus',()=>{
       const r=group.getBoundingClientRect();
@@ -128694,6 +128704,7 @@ function render(){
   renderWhoPills();
   renderStoryPills();
   renderRiverNames();
+  renderEndMarks();
 
   (DATA.stories||[]).forEach(s=>{
     const g=el('g',{class:'story','data-lane':s.laneOrder,transform:`translate(${s._x.toFixed(1)},${s._y.toFixed(1)})`,
@@ -128871,6 +128882,60 @@ function riverExplainTip(k,f,members){
     }else if(o.reason)h+=`<div class="x">${esc(o.reason)}</div>`;
   }
   return h;
+}
+// Where each tradition ends: a tick across its river and "Name · to about 400", shown once the map
+// is close enough to read (Z_READ). Living traditions have no end. Names give way to anything already placed.
+const LAST_YEAR=Math.max(...churchBodies.map(m=>m.end||0));
+const aboutYear=y=>y<1000?String(Math.round(y/10)*10):String(Math.round(y/5)*5);
+function renderEndMarks(){
+  gEndMarks.innerHTML='';
+  const groups=new Map();
+  churchBodies.forEach(m=>{
+    if(!(m.end<LAST_YEAR)||!(m.end>m.start))return;
+    const key=m.laneOrder+'|'+aboutYear(m.end);
+    if(!groups.has(key))groups.set(key,[]);
+    groups.get(key).push(m);
+  });
+  groups.forEach(ms=>{
+    ms.sort((a,b)=>a.start-b.start);
+    const m=ms[0], end=Math.max(...ms.map(x=>x.end));
+    const g=el('g',{class:'end-mark','data-lane':m.laneOrder});
+    g._m=m; g._y=yearToY(end);
+    g.appendChild(el('line',{class:'em-tick'}));
+    const t=el('text',{class:'em-lbl'}); t.textContent=`${ms.map(x=>x.shortName||x.name).join(', ')} · to about ${aboutYear(end)}`; g.appendChild(t);
+    gEndMarks.appendChild(g);
+  });
+}
+function placeEndMarks(){
+  const on=lastOrganic&&scale>=Z_READ&&!svg.classList.contains('simple');
+  svg.classList.toggle('ends-on',on);
+  if(!on)return;
+  const grid=labelFit.grid, fs=Math.min(11,13/scale), gap=6/scale;
+  gEndMarks.querySelectorAll('.end-mark').forEach(g=>{
+    if(g.classList.contains('is-off'))return;
+    const k=g._m.laneOrder, y=g._y;
+    const sp=riverSpanAt(k,y,1)||riverSpanAt(k,y-STEP,1)||[laneCenterX(k,y)-3,laneCenterX(k,y)+3];
+    const tick=g.querySelector('.em-tick'), t=g.querySelector('.em-lbl');
+    tick.setAttribute('x1',(sp[0]-3/scale).toFixed(1)); tick.setAttribute('x2',(sp[1]+3/scale).toFixed(1));
+    tick.setAttribute('y1',y.toFixed(1)); tick.setAttribute('y2',y.toFixed(1));
+    t.style.fontSize=fs+'px'; t.style.strokeWidth=(2.5/scale)+'px';
+    if(!g._w)g._w=t.getComputedTextLength()/(parseFloat(getComputedStyle(t).fontSize)||fs);
+    const w=g._w*fs, x=sp[1]+gap, ty0=y+fs*.32;
+    t.setAttribute('x',x.toFixed(1)); t.setAttribute('y',ty0.toFixed(1));
+    const r={id:'em'+g._m.id,x0:x-2,x1:x+w+2,y0:ty0-fs*.8,y1:ty0+fs*.3};
+    const clash=!grid||grid.hits(r);
+    t.classList.toggle('em-cull',clash);
+    if(!clash)grid.add(r);
+  });
+}
+// The river answers "what is still here?" for the year under the pointer.
+function riverActiveAt(members,y){
+  const yr=yearAtY(y); if(yr==null||!isFinite(yr))return '';
+  const live=members.filter(m=>m.start<=yr&&m.end>=yr);
+  const when=`about ${aboutYear(yr)}`;
+  if(!live.length)return `<div class="s">No tradition on the map is active here, ${when}.</div>`;
+  const names=live.slice(0,5).map(m=>esc(m.shortName||m.name)+(m.end<LAST_YEAR?` (to about ${aboutYear(m.end)})`:''));
+  return `<div class="s">Active here, ${when}: ${names.join(', ')}${live.length>5?`, and ${live.length-5} more`:''}.</div>`;
 }
 function renderRiverNames(){
   gRiverNames.innerHTML='';
@@ -129616,7 +129681,7 @@ function buildLegend(){
     document.querySelectorAll('.edge-line,.edge-hit').forEach(p=>{
       p.classList.toggle('is-off',mode==='off'||kindsOff.has(p.dataset.family)||(p.dataset.lanes||'').split('|').some(laneOff)||(mode==='major'&&p.dataset.major!=='1'));
     });
-    document.querySelectorAll('.river-group,.node,.story,.river-pill,.prof-pill,.river-name').forEach(g=>g.classList.toggle('is-off',laneOff(g.dataset.lane)));
+    document.querySelectorAll('.river-group,.node,.story,.river-pill,.prof-pill,.river-name,.end-mark').forEach(g=>g.classList.toggle('is-off',laneOff(g.dataset.lane)));
     gAcross.querySelectorAll('.across').forEach(g=>{const ls=acrossLanes[g.dataset.id]||new Set();g.classList.toggle('across-out',!!ls.size&&![...ls].some(k=>!laneOff(k)));});
     document.querySelectorAll('.tie').forEach(p=>p.classList.toggle('is-off',(p.dataset.lanes||'').split('|').filter(Boolean).some(laneOff)));
     document.querySelectorAll('.continues').forEach(g=>g.classList.toggle('is-off',g.dataset.lanes.split('|').some(laneOff)));
@@ -129912,6 +129977,7 @@ function labelFitRun(){
       });
     }
   }
+  placeEndMarks();
   placeWhoMarks();
   placeMidExtras();
   keepMapFocus(held);

@@ -378,6 +378,13 @@
     ]
    },
    {
+    "heading": "Counting what is used",
+    "paragraphs": [
+     "The map counts which cards are opened, which recordings are played, and minutes in use, with nothing that could identify you.",
+     "Your browser keeps one small note of when you last visited, so we can tell new visitors from returning ones. Clearing your browser's site data removes it."
+    ]
+   },
+   {
     "heading": "What your browser keeps",
     "paragraphs": [
      "The map remembers which switches you turned on or off. That choice is saved in your own browser only. It is never sent to us.",
