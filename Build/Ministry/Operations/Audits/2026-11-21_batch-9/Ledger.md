@@ -32,3 +32,5 @@ One row per agent pass: the subagent's own token count as the harness reports it
 | Epiphanius, Damasus | 2b Outline fixes | Opus | 141,921 | all applied |
 | Apollinaris, Hilary | 2b Outline fixes | Opus | 148,931 | all applied |
 | Cyril, Eusebius | 2c Outline recheck | Opus | 121,108 | 2 PASS (Cyril's Names line applied verbatim) |
+| Evagrius | 3 Write | Sonnet | 104,442 | 673 words |
+| Eunomius | 2b Outline fixes | Opus | 114,712 | applied; 2 not applied with reason |
