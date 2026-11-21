@@ -4982,3 +4982,50 @@ Mark: "the river icon should match the double river icon on the toggle".
 **Decided (Mark, 2026-11-21: "space the zoom layers so every click adds something").** Option A of three (re-space the layers; thin each layer in steps; names only). After the names finish at 0.80 the layers come one per click, in this order: voices on traditions 1.0, story titles 1.24, places 1.54, people 1.91, dates 2.37 (each at most 1.25 times the one before, so a click never skips one). The names still grow with the room from the farthest zoom-out to 0.80. The thresholds for names, councils, story marks and the reading level (0.90, used to frame the tour and era clicks) are unchanged. Everything is now on by about 2.4 instead of 3.4.
 
 **Result.** Measured per click with People and Stories on, from the opening zoom (desktop: counts of names / voice marks / story titles / places / people / dates drawn): 0.89 350/0/0/0/0/0, 1.11 350/75/0/0/0/0, 1.39 350/75/62/0/0/0, 1.73 350/75/62/337/0/0, 2.16 350/75/62/333/10/0, 2.71 350/75/62/334/2/1. Phone the same one step later. Every click up to the last layer adds a layer; past it the map is complete. Counts of people and dates depend on what is in view.
+## 2026-11-20 — Batch 7: the slate approved (Mark)
+
+**Why.** The batch 7 launch prompt (`Build/Ministry/Features/Church-Family-Tree/Launch-Prompts/CFT_Batch7_Launch_2026-11-19.md`) asks for the slate first: each story's job, its siblings and links, and the quotes barred, on one page (https://claude.ai/artifact/HVJ2mU3cXRubTNTgZ4qpKv, version 1).
+
+**Decided (Mark, 2026-11-20: "Approve").**
+1. The thirteen jobs, siblings and links as on the page and in `Build/Ministry/Operations/Audits/2026-11-20_batch-7/README.md`: eleven rewritten on the kit, Origen and Methodius of Olympus reviewed on it.
+2. The splits: Cyprian keeps his death scene and plague sermon, and Pontius keeps the dream at Curubis, why he wrote and his grief; the councils of 251 keep the lapsed as their spine, and Novatian keeps the oath, On the Trinity, his church's later life and Constantine's "ladder"; Eusebius and Lactantius tell the Nicaea word and Constantine's vision or dream only as clauses, since the live Nicaea and Constantine stories tell them.
+3. The quote allocation as listed under "Quotes barred" in that README. Dionysius's letter to Novatian, the one quote the overlap check found shared among the old texts, goes to Novatian.
+4. The order of research: Tertullian, Cyprian, Eusebius, Dionysius, Peter, Anatolius and Lactantius; then Pontius, Novatian and Pamphilus; then the councils of 251.
+
+## 2026-11-20 — Batch 7 hearts approved (Mark)
+
+**Why.** The eleven hearts went to Mark on one page (https://claude.ai/artifact/EnSrMLPZBvzqUsXZGb17fB; `Build/Ministry/Operations/Audits/2026-11-20_batch-7/Hearts.md`), with three job lines the sources corrected (Pontius's Life is not settled as the first Christian biography; Cyprian's "two years after baptism" is the editors' reckoning; the census spells "Melitius") and five questions.
+
+**Decided (Mark, 2026-11-20: "Approve as recommended").**
+1. The eleven hearts are approved as shown, with the corrected job lines.
+2. Tertullian: "never counted a saint" is left out, since no held source says it. The story tells what is held: his turn to the New Prophecy, and Augustine later counting his followers among the heretics.
+3. Peter of Alexandria: the break with Melitius is kept to two beats told from Peter's side, with the live `melitius-of-lycopolis` and `melitian-schism` named as links. Arius is left out.
+4. "Melitius" throughout, as the census spells it.
+5. Jerome's story of Cyprian asking for "the master" goes to Tertullian, as one clause among those who read him; Cyprian does not tell it.
+6. Dionysius of Alexandria runs about 4:00, the reviewer asking of each part whether the story needs it.
+7. The outline checks begin, after the researchers apply items 2 to 5.
+
+## 2026-11-20 — Batch 7: lengths held to four minutes, four and a half at most (Mark)
+
+**Why.** After the outline checks and rechecks, several batch 7 outlines planned more story than their approved times: Tertullian about 5:00, Novatian about 6:15, Lactantius about 5:45 to 6:00, the councils of 251 about 6:00, Cyprian about 4:30 (https://claude.ai/artifact/Q2DkQTFyjYAGYcmDCRJfyL; each folder's `Outline_Check.md`, `Fixes.md` and `Recheck.md` in `Build/Ministry/Operations/Audits/2026-11-20_batch-7/`). The page recommended up to 5:00 for some.
+
+**Decided (Mark, 2026-11-20: "we need to keep to 4 maybe 4:30 max").**
+1. Each batch 7 story aims at about 4:00 or less, and none runs past about 4:30. This holds for the council too.
+2. The stories already at or under about 4:00 keep their set lengths: Pontius, Anatolius, Peter and Pamphilus (about 3:40 to 3:45), Eusebius (3:50), Dionysius (4:00).
+3. Cyprian, Tertullian, Novatian, Lactantius and the councils of 251 are cut back by their researchers to about 4:00, and no more than about 4:30. Cut material goes to the card. A cut may not remove the record's force or a disagreement that must be credited; where a story cannot fit, it comes back to Mark.
+
+## 2026-11-20 — Batch 7: Tertullian is "the foremost early writer of the faith in Latin" (Mark)
+
+**Why.** Tertullian's approved heart called him "the first great writer of the faith in Latin whose books survive". The outline check found held sources differ on the order: Wallis (ANF4) dates the *Octavius* of Minucius Felix to about 166, before the Apology, and Coxe puts it after 205. What the sources hold is rank: Vincent of Lérins ("as Origen holds by far the first place among the Greeks, so does Tertullian among the Latins") and Coxe ("the founder of Latin Christianity"). Mark asked whether the claim was rank or order; it is rank.
+
+**Decided (Mark, 2026-11-20: "yes use foremost").** The essence reads "the foremost early writer of the faith in Latin, around the year 200". The story never calls him "the first" in any form. The card notes that the *Octavius* may be older and that editors differ on its date.
+
+## 2026-11-20 — Batch 7: the five long outlines are written to 4:30, not cut again (Mark)
+
+**Why.** After the researchers' length cuts, the independent check (`Cut_Check.md` in each folder) recounted five outlines, Cyprian, Tertullian, Novatian, Lactantius and the councils of 251, at about 5 to 7 minutes of planned beats. The six outlines already drafted had also been planned long, and each writer still landed at 4:30 or less.
+
+**Decided (Mark, 2026-11-20: "Write to 4:30", the recommended option).** No second round of outline cuts. Each of the five is written to about 4:30 at most, as the six were. The reviewer checks that the approved heart and every disagreement the outline must credit survived. A draft that cannot fit comes back to Mark. The cut checks' other fixes (items 2 to 4: stale references to cut items, cuts hidden inside quotes, the card list) are applied first.
+
+## 2026-11-21 — Batch 7: the recording approved, with a cap (Mark)
+
+**Decided (Mark, 2026-11-21: "Approve, cap 24,500 (Recommended)").** The thirteen batch 7 stories, about 44,900 characters (about 22,600 credits at batch 6's rate), are recorded once the second readings are done. The twelve people on batch 6's printed settings: person voice `onegjDE2z0mQtp1g0HK7`, model `eleven_v4`, `mp3_44100_64`, stability 0.95, similarity 0.68, style 0, speaker boost on, `[pause]` between paragraphs, the respellings. The councils of 251 in the council voice, Daniel (`onwK4e9ZLuTAKqWW03F9`, `eleven_multilingual_v2`, the same settings), as Nicaea was recorded in batch 4. Tertullian is recorded first for Mark's ear; the rest only after he hears it. The balance is checked before and after, and the run stops at 24,500 credits. Origen's and Methodius's old recordings are replaced, since their texts changed.

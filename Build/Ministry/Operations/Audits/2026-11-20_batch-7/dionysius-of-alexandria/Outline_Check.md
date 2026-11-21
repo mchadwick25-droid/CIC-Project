@@ -1,0 +1,52 @@
+# Outline check: Dionysius of Alexandria
+
+## My account, written before reading `Outline.md`
+
+From the census entry (teaser: bishop of Alexandria through Decius, Valerian and the plague, whose letters Eusebius kept; card), the source sheet and what he is known for.
+
+**The essence.** A pupil of Origen who headed the church's school at Alexandria and then, as its bishop from about 247 to about 264 or 265, led it through the persecutions of Decius and Valerian and a plague (Documented, Eusebius; death year, Eusebius and the Chronicle differ). His letters, which Eusebius copied into his Church History, are the eyewitness record of those years in his own words (Documented). He is on the tree as Origen's line carried into a bishop's office, and as the voice through which the church of his time is heard.
+
+**Also told.**
+- Under Decius: the search, the arrest, and the wedding guests who carried him off against his will, told in a letter answering Germanus, a bishop who charged him with running away (his own account; the charge survives only in his answer).
+- Under Valerian: trial before the prefect and exile (a clause or a beat).
+- The plague letter: the Christians who nursed the sick and died, "nothing of martyrdom", against his picture of the pagans (his words and claims).
+- His close reading of the Revelation: by a holy John, not the apostle, judged from its thought, words and Greek, yet he would not reject it (Documented, his words); with the Arsinoe conference as its occasion.
+- The quarrel over the Son with Pentapolis and Rome, the words the Arians later claimed, and Athanasius's defence; Basil, Rufinus, Jerome and the editor differ on whether the Arians had grounds (Contested; credit each).
+- Clauses: his letter to Novatian (quote barred), his rulings made church law in 692.
+
+## Verdict: FIX
+
+The heart matches mine and Mark's approved heart (`Hearts.md`) in substance: Origen's pupil, head of the school, bishop about 247 to about 264 or 265 through two persecutions and a plague, his letters the eyewitness record through Eusebius; also told, the wedding guests and Germanus's charge, the plague letter, the Revelation judgment, and the quarrel over the Son with the Arian claim and Athanasius's answer. No major contribution is left out. The rulings that touch this story are kept. The letter to Novatian is one clause and its quote goes to Novatian. The Serapion and lapsed material is left to the councils of 251. Rebaptism is left to Cyprian. The plan runs about 4:00, with cuts named. The job matches the README.
+
+Every quote and nearly every beat checks out against its cited lines. Two findings block.
+
+## BLOCKING
+
+**B1. The quarrel over the Son can lose every voice that disagrees with Athanasius.** This breaks the ruling that where held sources differ, each is credited (Decision-Log, "Batch 6: where sources disagree", 2026-11-19). The approved heart also marks the question Contested. The Length field cuts "Basil and Rufinus in What came 1 (keep Athanasius)" first, and What came 1 marks both "optional, cut first". If both go, only Athanasius's case is credited. The listener hears just an uncredited "his later readers disagree", which is the stock hedge Part 1 bars. Basil (BAS 23712–23721) and Rufinus (RUF 48560–48569; clean English at `npnf203` 45362–45375) are held sources, and both differ from Athanasius.
+*Correction.* In Length, replace "Basil and Rufinus in What came 1 (keep Athanasius)" with "Rufinus in What came 1 (Basil stays)". In What came 1, change "Two later readers, credited one clause each (optional, cut first)" to "Basil is required (one sentence, his woodman image in paraphrase, credited to him). Rufinus is optional, by role." In Names, mark Basil of Caesarea "link, required" and keep Rufinus optional. Add to Do not say:
+- "Basil called him a heretic" → Basil thought that, as far as he knew, Dionysius first sowed the seeds of a later error, out of zeal against the opposite error, not from bad faith (BAS 23712–23721). Elsewhere Basil calls him "the great Dionysius" (BAS 34882).
+- "The lines were forged" as fact → Rufinus held that they were slipped in by others. Athanasius himself says Dionysius wrote them (ATH 29543–29548).
+
+**B2. The death year follows one held source where another differs.** Beat 7 and Names have the writer say "in the twelfth year of the emperor Gallienus", which is the Church History (EUS 41901–41913). Eusebius's Chronicle, in Jerome's Latin, is held: `cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt`. It puts Maximus's ordination as Dionysius's successor in the eleventh year (44268–44269), which agrees with McGiffert's note (EUS-ed 41902–41906). The approved heart says "Eusebius and the Chronicle differ", but the outline credits only the History. The sheet's sweep missed the Chronicle and rests the difference on the editor alone.
+*Correction.* Beat 7: "He died about 264 or 265, after seventeen years as bishop. Eusebius's two books differ by a year (E12, D4)." Drop "twelfth year of Gallienus" from the story. In Names, delete Gallienus. In Who tells it and D4, add: "Chronicle (Jerome's Latin, held): seventeen years from Philip's fifth year (43881–43883, manuscripts vary) and Maximus ordained in the eleventh year (44268–44269). History: Philip's third year and Gallienus's twelfth. The card credits both." Keep "about 247" in the story: it covers both accession readings.
+
+## MINOR
+
+1. **The opening holds back his name**, which Part 1 and the writer's role bar. The plan is "soldiers had seized the bishop of Alexandria … the man who begged for his own beheading was Dionysius". *Correction.* Name him in the first sentence ("Soldiers had seized Dionysius, the bishop of Alexandria, …") and delete "Then the turn, with the name". The opening's "the story is his own" also says the one-witness line a second time; Who tells it puts it once, in beat 2. Delete it from the opening.
+2. **Ending 2 breaks time order.** It would tell What came, a century on, before beat 7's death. *Correction.* Delete Ending 2. For Ending 1, add: "told as Athanasius's proof, not as a second telling of the death".
+3. **"Presbyters" is first heard in beat 3**, at Arsinoe ("village presbyters and teachers"), not in beat 6. *Correction.* Words to explain: "presbyter: first heard in beat 3; gloss it there ('the elders who served under the bishop'), or say 'village elders and teachers' in beat 3 and gloss at beat 6."
+4. **"Another John of Asia"** (beat 3) will be heard as the continent. *Correction.* Say "another John of the same region, around Ephesus" (EUS 41555–41557).
+5. **The Novatian clause echoes the barred quote.** Beat 2 has "rather than divide the church", the wording of Novatian's Quote 2. *Correction.* Use the sibling line's wording: "urging him to step down, for the church's unity".
+6. **Arsinoe's place in the order.** It is told between Decius and Valerian, but no source dates it. *Correction.* Add to beat 3: "placed between the persecutions only as 'not improbable' (McGiffert after Dittrich, EUS-ed 41276–41278). Do not say 'after the persecution' or give a year."
+7. **The damaged scan in Quote 1.** Two words, ἐφ᾿ ὃ, are not legible in the scan (OCR "iq! ©", EUS-GR 5828). They are restored from the sense of both English prints, so "legible word by word" overstates the scan. *Correction.* In the Quotes note, add: "ἐφ᾿ ὃ is restored from the context and the English (EUS 37729, ANF6 10873)." The plan to print the English alone on the card stands.
+8. **The Connection field's "his successor"** could be heard as the next bishop, who was Maximus. *Correction.* Say "a later bishop of the same city".
+9. **Rufinus is cited only from the damaged Latin scan.** A clean English text of the same passage is held (`npnf203` 45362–45375). *Correction.* Cite it beside RUF in I1 and D3.
+
+## What I checked
+
+- **Quotes.** I rendered each from EUS-GR myself before comparing. Q1 (5828–5832), Q2 (10378–10380) and Q3 (10978–10981) are faithful. The Greek normalisations are sound; Q3's "of a John" follows Salmond (ANF6 8119–8125). Each is confirmed by McGiffert and Salmond. None is used elsewhere: I searched every census entry but this one, including `alexandria-catechetical`'s `voices`, and the batch 7 outlines.
+- **Beats.** I opened the cited lines for the search, the arrest and the rescue (EUS 37639–37749), the Libyan hiding (40394–40405, which McGiffert sets under Decius at 40360–40380), Germanus (37606–37636, 40108–40116, 40336–40352), Valerian and Cephro (40126–40258), Nepos and Arsinoe (41284–41380), the Revelation (41390–41643), the plague (41024–41126; "washings" at 41114 holds), Antioch and the death (41836–41913), Athanasius (ATH 29240–29295, 29426–29610, 29866–29886, 29936–30075), Basil, Jerome (40842–40880, 53612–53668), Trullo (C7 26742–26744), the two tombs (EUS 20526–20560) and Athanasius's list of 367 (ATH 68806). All are supported, with the right confidence and witness kind, except as noted above.
+- **Words to explain.** The glosses fit third-century Alexandria and say no more than their sources. Common words are not glossed. The gaps are Minor 3 and 4.
+- **Length.** It was counted before it was set (quotes about 120 words, glosses 65, witnesses 45), and it holds Mark's 4:00 with cuts named. It is not filled. After B1, Basil is a required sentence. Take its time from the optional What came 2–4 and beat 4.
+- **Siblings and links.** `origen` and `athanasius-of-alexandria` (live) do not name him. `novatian` (batch 7 outline) holds the letter's quote and his later attack, and there is no overlap. `councils-of-rome-and-carthage-251` (batch 7 outline) holds Serapion and peace for the dying, which are left out here. `peter-of-alexandria` cites the same Trullo canon for Peter only. `eusebius-of-caesarea` (batch 7) uses no Dionysius quote. `arius` (live) quotes "before he was begotten he was not"; this outline only paraphrases the Arians' formula. Every linked id exists in the census, and the spellings match.
+- **Library sweep (full).** I checked the corpus-map buckets `alexandria-catechetical`, `novatianism`, `roman-church-third-century`, `imperial-juridical-christianity` and `UNATTRIBUTED`, and searched `cic/texts/` for his name forms. Two held texts were missed: Jerome's Latin of Eusebius's Chronicle (B2) and the English of Rufinus (Minor 9). No other held primary text or major later witness is missing.

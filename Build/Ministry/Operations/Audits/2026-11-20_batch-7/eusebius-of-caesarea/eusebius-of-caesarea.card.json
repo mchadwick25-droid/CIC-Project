@@ -1,0 +1,208 @@
+{
+  "otherNames": [
+    "Eusebius Pamphili"
+  ],
+  "knownFor": "Bishop of Caesarea in Palestine who wrote the first history of the church and a Life of Constantine.",
+  "datesNote": "About 260 to 339",
+  "placeNote": "Caesarea in Palestine",
+  "role": "Bishop and church historian",
+  "keyWorks": [
+    {
+      "title": "Church History",
+      "about": "the church from Christ to his own day, built from the documents he could find"
+    },
+    {
+      "title": "Martyrs of Palestine",
+      "about": "the persecution he lived through"
+    },
+    {
+      "title": "Life of Constantine",
+      "about": "the emperor he knew, with the story of the cross of light"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "He has long been called the Father of Church History. Arthur McGiffert, who translated him, says the title is deserved.",
+      "Socrates of Constantinople built his own account of the Council of Nicaea on Eusebius's words.",
+      "Arthur McGiffert says the works of many earlier church writers are lost and are known only through the extracts Eusebius made.",
+      "The letter of Polycrates of Ephesus on Easter is known only in the part Eusebius quotes. McGiffert says Eusebius is the first writer known to quote the passage about Jesus in Josephus. Eusebius also retold, from the Latin Apology of Tertullian, Pliny the Younger's letter to the emperor Trajan about the Christians and Trajan's reply.",
+      "Socrates of Constantinople began his own history where Eusebius stopped, with the end of the persecution. Rufinus of Aquileia put the Church History into Latin and carried it on.",
+      "Eusebius says he was on the spot in Egypt and watched large crowds in one day, some beheaded and others tortured by fire. McGiffert says he was an eyewitness of many martyrdoms in Palestine, at Tyre and in Egypt."
+    ],
+    "remembered": [
+      "Sabinus, bishop of the Macedonians at Heraclea in Thrace, scorned the Council of Nicaea but still called Eusebius a trustworthy witness, Socrates of Constantinople says."
+    ]
+  },
+  "uncertain": [
+    "Potamo, a bishop from Heraclea in Egypt, charged at Tyre in 335 that Eusebius had escaped prison by some unlawful promise. Epiphanius of Salamis tells it, writing decades later on the side of Athanasius of Alexandria. Arthur McGiffert, who translated Eusebius, notes that Potamo only guessed, and the bishops of Egypt, in a letter Athanasius kept, say only that Eusebius was \"accused by our confessors of sacrificing to idols.\"",
+    "How far he truly accepted the Nicene wording is argued. His own letter says he accepted it only after asking what it meant. Eustathius of Antioch said he twisted it.",
+    "Constantine's vision of the cross rests on what the emperor told Eusebius under oath. Ernest Richardson, who translated the Life of Constantine, notes that the account was doubted from the first.",
+    "Eusebius wrote that he was the first to enter on the subject of a church history. Arthur McGiffert agrees, and names Hegesippus and Julius Africanus as the only two who in any sense went before him.",
+    "The month the persecution began is told three ways. Eusebius puts the edict ordering the churches torn down in March, in the nineteenth year of Diocletian, and his Martyrs of Palestine gives April. Lactantius, who was at Nicomedia, gives February 23. McGiffert trusts Lactantius and thinks Eusebius may have given the month the edicts reached other places. All agree on the year 303.",
+    "How he came to sign at Nicaea is told three ways. His own letter says he and the others agreed after questions, for the sake of peace. Socrates of Constantinople, about a century later, says he held back for a short time before he signed, and sent his people the creed so that no one would doubt his motives. Athanasius of Alexandria, who was at the council and was his opponent, says he had refused the day before.",
+    "Socrates says that when Eustathius of Antioch accused him of twisting the creed, Eusebius denied it and said in turn that Eustathius defended the opinion of Sabellius. After Eustathius was deposed, Socrates says, one party at Antioch wanted Eusebius moved there from Caesarea, and he refused.",
+    "Whether he presided at Tyre is not settled. Epiphanius says the emperor ordered him to judge there, with some others. McGiffert says it cannot be decided whether Eusebius of Caesarea, Eusebius of Nicomedia or another bishop presided. Karl Joseph von Hefele says Eusebius of Caesarea presided.",
+    "Rufinus of Aquileia, writing later in Latin, tells a like scene at Tyre that does not name Eusebius. In it Paphnutius, a confessor who had lost an eye, tells Maximus, bishop of Jerusalem, who had lost an eye and been hamstrung, that he will not let him sit in the council of the wicked. Hefele finds Rufinus's version plainly more probable than Epiphanius's, and thinks Epiphanius's may be a false version of the same event.",
+    "In his Life of Constantine he says he will pass over the emperor's wars and laws and speak only of what bears on his religious character. Socrates says the book is more intent on the emperor's praise than on an accurate account. Its telling of the council at Tyre names neither Athanasius nor Potamo and says only that envy troubled the churches of Egypt.",
+    "Whether he held that the Son was less than the Father is judged both ways. Athanasius says that in a letter to Euphration, Eusebius said plainly that Christ was not true God. Socrates answers that Eusebius was at Nicaea and agreed to what it decided. Philostorgius, known through Photius's summary, praises him but accuses him of erroneous opinions in religion. Hefele lists writers who held him orthodox and writers who called him an Arian, and judges that he did not wish to be an Arian and sought a middle way."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Church History; Life of Constantine; Oration in Praise of Constantine",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "language": "English"
+      },
+      {
+        "title": "Letter to the people of his diocese, on the Council of Nicaea",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+        "language": "English"
+      },
+      {
+        "title": "Life of Constantine (Greek)",
+        "file": "cic/texts/eusebius_werke-bd1-vita-constantini-oratio-ad-sanctos-grc_heikel1902.txt",
+        "language": "Greek"
+      },
+      {
+        "title": "Church History, Books 6 to 10 (Greek)",
+        "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt",
+        "language": "Greek and Latin"
+      },
+      {
+        "title": "Letter to the people of his diocese, on the Council of Nicaea, as Socrates of Constantinople quotes it",
+        "file": "cic/texts/socrates_historia-ecclesiastica-tomus1-grc-lat_hussey1853.txt",
+        "language": "Greek, with a Latin version"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History, Book 1, chapters 8 and 23",
+        "author": "Socrates of Constantinople",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Panarion 68.8 (Latin translation)",
+        "author": "Epiphanius of Salamis",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt"
+      },
+      {
+        "title": "Church History, Book 1, chapters 1 and 32; Book 2, chapters 4 and 21",
+        "author": "Socrates of Constantinople",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Defence of the Nicene Definition, section 3; Defence Against the Arians, the letter of the council of Egypt; On the Councils of Ariminum and Seleucia, section 17",
+        "author": "Athanasius of Alexandria",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      },
+      {
+        "title": "A History of the Councils of the Church, volume 2",
+        "author": "Karl Joseph von Hefele",
+        "date": "1876",
+        "language": "English translation",
+        "file": "cic/texts/hefele_history-of-the-councils-v2-326-429_oxenham1876.txt"
+      },
+      {
+        "title": "Epitome of the Ecclesiastical History of Philostorgius, compiled by Photius",
+        "author": "Philostorgius",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/philostorgius_ecclesiastical-history_walford1855.txt"
+      }
+    ]
+  },
+  "briefReferences": [
+    "Church History I.1.1 to 6, tr. Arthur McGiffert: his plan, the first to try the path, the passages he gathered. McGiffert's note: many earlier writings are known only through his extracts.",
+    "Church History VI.20.1: the letters kept in the library at Jerusalem, which he drew on.",
+    "Church History VIII.2.1 to 4: the churches thrown down, the Scriptures burned, the shepherds hiding; his rule to leave out those shaken by the persecution; the edict in the nineteenth year of Diocletian.",
+    "Martyrs of Palestine 7 and 11: Pamphilus, his dearest friend, cast into prison, and his martyrdom.",
+    "McGiffert, Prolegomena: born not far from 260; the name Pamphili from his friendship with Pamphilus; bishop soon after the persecution; most of the History written after the persecution; death late in 339 or early in 340; Acacius, his pupil and successor, wrote his life, now lost.",
+    "Life of Constantine I.11, I.19, I.28 and IV.41: his rule to speak only of the emperor's religious character; Constantine seen as a young man; what the emperor told him himself; the council at Tyre told without naming Athanasius or Potamo.",
+    "His letter to his church on the Council of Nicaea, in McGiffert's Prolegomena, in Athanasius and in Socrates I.8: his church's creed read, the added word, the questions asked, assent not without inquiry, and peace as the aim.",
+    "Socrates I.8: he held aloof for a short time, then signed. Athanasius, Defence of the Nicene Definition 3: he had denied the day before, then signed.",
+    "Epiphanius, Panarion 68.8, with Petavius's Latin and McGiffert's English: Constantine orders a council at Tyre; Potamo's words; Eusebius rises in anger and breaks up the court. Socrates I.32: the council deposes Athanasius.",
+    "Athanasius, Defence Against the Arians, letter of the council of Egypt (end of 338 or early 339): the charge that Eusebius was accused of sacrificing to idols.",
+    "Rufinus, Church History X.18: a like scene at Tyre, with no word of Eusebius. Rufinus, prologue: the Church History put into Latin.",
+    "Socrates I.1: his history begins where Eusebius stopped; the Life of Constantine more intent on the emperor's praise than on an accurate account.",
+    "Church History V.24, I.11 and III.33: Polycrates of Ephesus's letter on Easter, the passage on Jesus in Josephus, and Pliny the Younger's letter to Trajan, taken from Tertullian.",
+    "Socrates II.21: his defense of Eusebius. Athanasius, On the Councils of Ariminum and Seleucia 17: the letter to Euphration. Socrates II.4: Acacius, his pupil, who followed him as bishop and wrote his life."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "I confess that it is beyond my power to write a perfect and complete history. Since I am the first to enter on this subject, I am trying to travel, as it were, a lonely and untrodden path.",
+      "printed": "I confess that it is beyond my power to produce a perfect and complete history, and since I am the first to enter upon the subject, I am attempting to traverse as it were a lonely and untrodden path.",
+      "work": "Church History I.1.4, tr. Arthur McGiffert",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "6934-6937",
+      "secondReading": "same"
+    },
+    {
+      "modern": "With our own eyes we saw the houses of prayer thrown down from top to ground, to their very foundations. We saw the inspired and sacred Scriptures handed over to the fire in the middle of the market squares. We saw the shepherds of the churches hiding shamefully here and there, and some of them caught in disgrace and mocked by their enemies.",
+      "printed": "we saw with our own eyes the houses of prayer thrown down to the very foundations, and the Divine and Sacred Scriptures committed to the flames in the midst of the market-places, and the shepherds of the churches basely hidden here and there, and some of them captured ignominiously, and mocked by their enemies.",
+      "work": "Church History VIII.2.1, tr. Arthur McGiffert",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "43431-43437",
+      "uncertain": "The Greek has one verb, we saw, for all three things; the modern wording says it once for each.",
+      "secondReading": "same"
+    },
+    {
+      "modern": "You sit there, Eusebius, and Athanasius, an innocent man, is judged by you?",
+      "printed": "Dost thou sit as judge, O Eusebius; and is Athanasius, innocent as he is, judged by thee?",
+      "work": "Epiphanius, Panarion 68.8, as Arthur McGiffert gives it in the Prolegomena",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "1515-1517",
+      "uncertain": "These are the words Epiphanius gives Potamo, written about forty years later on Athanasius's side. The modern wording follows Epiphanius's Greek and agrees with Petavius's Latin in cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt (lines 44669-44675).",
+      "secondReading": "same"
+    },
+    {
+      "modern": "Tell me, were you not with me in prison in the persecution? I lost an eye for the truth. But you seem to have no part of your body maimed. You did not suffer as a martyr; you stand here alive, with nothing cut away. How did you get out of prison, unless you promised our persecutors to do something unlawful, or did it?",
+      "printed": "Pray tell me, wast thou not with me in prison during the persecution? And I lost an eye in behalf of the truth, but thou appearest to have received no bodily injury, neither hast thou suffered martyrdom, but thou hast remained alive with no mutilation. How wast thou released from prison unless thou didst promise those that put upon us the pressure of persecution to do that which is unlawful, or didst actually do it?",
+      "work": "Epiphanius, Panarion 68.8, as Arthur McGiffert gives it in the Prolegomena",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "1517-1523",
+      "uncertain": "Our persecutors renders those that put upon us the pressure of persecution. The brief leaves out the question Who can bear such things? that stands between this and the first sentence.",
+      "secondReading": "same"
+    },
+    {
+      "modern": "of one being",
+      "printed": "One in substance",
+      "work": "Eusebius, letter to his church on the Council of Nicaea, in McGiffert's Prolegomena",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "2091",
+      "original": "ὁμοούσιος",
+      "originalFile": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "originalLines": "2091",
+      "uncertain": "The creed's added word is the one Greek word homoousios, which McGiffert prints One in substance; the modern wording renders it of one being.",
+      "secondReading": "same"
+    },
+    {
+      "modern": "not without inquiry",
+      "printed": "not without inquiry",
+      "work": "Eusebius, letter to his church on the Council of Nicaea, tr. McGiffert",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "2160",
+      "original": "οὐκ ἀνεξετάστως",
+      "originalFile": "cic/texts/socrates_historia-ecclesiastica-tomus1-grc-lat_hussey1853.txt",
+      "originalLines": "7520",
+      "uncertain": "The Greek stands in Hussey's text of Socrates, which notes that two older printings leave the clause out; Athanasius's copy of the letter has it too, in the same English.",
+      "secondReading": "same"
+    },
+    {
+      "modern": "accused",
+      "printed": "accused by our confessors of sacrificing to idols",
+      "work": "Letter of the council of Egypt, in Athanasius, Defence Against the Arians, tr. Robertson",
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "lines": "22309",
+      "uncertain": "The word is the Egyptian bishops', kept in Athanasius's book. McGiffert gives the words to Athanasius himself.",
+      "secondReading": "same"
+    }
+  ]
+}

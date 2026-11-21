@@ -8,6 +8,7 @@ import { join } from "node:path";
 import { spawnSync } from "node:child_process";
 
 const census = JSON.parse(readFileSync("cic-website/data/world-census.json", "utf8"));
+const listing = JSON.parse(readFileSync("tools/quote_renderings.json", "utf8"));
 const PERSON = "tertullian-s-voice";
 const HOME = "latin-apologists";
 const FILE = "cic/texts/AUTHORS.md";
@@ -29,7 +30,10 @@ function errorsFor(change) {
   const dir = mkdtempSync(join(tmpdir(), "census-card-"));
   const path = join(dir, "census.json");
   writeFileSync(path, JSON.stringify(c));
-  const run = spawnSync("node", ["tools/validate-census.mjs", "--skip-quotes", path], { encoding: "utf8" });
+  // Each case replaces PERSON's card, so PERSON's listed renderings, which cite its real card's files, are left out.
+  const renderings = join(dir, "renderings.json");
+  writeFileSync(renderings, JSON.stringify({ ...listing, renderings: listing.renderings.filter(r => r.id !== PERSON) }));
+  const run = spawnSync("node", ["tools/validate-census.mjs", "--skip-quotes", "--renderings", renderings, path], { encoding: "utf8" });
   return run.stdout.split("\n").filter(l => l.startsWith("ERROR"));
 }
 
