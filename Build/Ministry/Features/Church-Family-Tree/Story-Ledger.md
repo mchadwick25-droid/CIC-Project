@@ -58,10 +58,10 @@ On the kit: 16. To do: 60.
 | Augustine of Hippo (`augustine-of-hippo`) | person | 5 | yes |
 | Cyril of Alexandria (`cyril-of-alexandria`) | person | 5 | yes |
 | Nestorius (`nestorius`) | person | 5 | yes |
-| Ambrose of Milan (`ambrose-of-milan`) | person | 8 | no |
+| Ambrose of Milan (`ambrose-of-milan`) | person | 8 | yes |
 | Constantine the Great (`constantine-the-great`) | person | 8 | yes |
-| Jerome (`jerome`) | person | 8 | no |
-| Leo of Rome (`leo-of-rome`) | person | 8 | no |
+| Jerome (`jerome`) | person | 8 | yes |
+| Leo of Rome (`leo-of-rome`) | person | 8 | yes |
 
 To do: Aetius of Antioch (`aetius-of-antioch`); Alexander of Alexandria (`alexander-of-alexandria`); Ammianus Marcellinus (`ammianus-marcellinus`); Apollinaris of Laodicea (`apollinaris-of-laodicea`); Auxentius of Durostorum (`auxentius-of-durostorum`); Basil of Caesarea (`basil-of-caesarea`); Conference of Carthage (`conference-of-carthage-411`, council); Council of Arles (`council-of-arles-314`, council); Council of Ephesus (`council-of-ephesus-431`, council); Council of Sardica (`council-of-sardica-343`, council); Councils of Ariminum and Seleucia (`councils-of-ariminum-and-seleucia-359`, council); Cyril of Jerusalem (`cyril-of-jerusalem`); Damasus of Rome (`damasus-of-rome`); Didymus the Blind (`didymus-the-blind`); Ephrem the Syrian (`ephrem-the-syrian`, recorded); Epiphanius of Salamis (`epiphanius-of-salamis`); Eunomius of Cyzicus (`eunomius-of-cyzicus`); Eusebius of Nicomedia (`eusebius-of-nicomedia`); Eutyches (`eutyches`); Evagrius Ponticus (`evagrius-ponticus`); Eznik of Kolb (`eznik-of-kolb`); Fabiola of Rome (`fabiola-of-rome`); First Council of Constantinople (`first-council-of-constantinople-381`, council); Frumentius (`frumentius`); Germanus of Auxerre (`germanus-of-auxerre`); Gregory of Nazianzus (`gregory-of-nazianzus`, recorded); Gregory of Nyssa (`gregory-of-nyssa`, recorded); Hilarion of Gaza (`hilarion-of-gaza`); Hilary of Arles (`hilary-of-arles`); Hilary of Poitiers (`hilary-of-poitiers`); Honoratus of Arles (`honoratus-of-arles`); John Cassian (`john-cassian`); John Chrysostom (`john-chrysostom`, recorded); Jovinian (`jovinian`); Koriun (`koriun`); Liberius of Rome (`liberius-of-rome`); Lucifer of Cagliari (`lucifer-of-cagliari`); Marcella of Rome (`marcella-of-rome`); Marcellus of Ancyra (`marcellus-of-ancyra`); Marius Mercator (`marius-mercator`); Melania the Elder (`melania-the-elder`); Melitius of Lycopolis (`melitius-of-lycopolis`); Mesrop Mashtots (`mesrop-mashtots`); Olympias of Constantinople (`olympias-of-constantinople`); Ossius of Cordoba (`ossius-of-cordoba`); Palladius of Helenopolis (`palladius-of-helenopolis`); Paula of Rome (`paula-of-rome`); Paulinus of Milan (`paulinus-of-milan`); Pelagius (`pelagius`); Philostorgius (`philostorgius`); Possidius of Calama (`possidius-of-calama`); Priscillian (`priscillian`); Prosper of Aquitaine (`prosper-of-aquitaine`); Rufinus of Aquileia (`rufinus-of-aquileia`); Socrates of Constantinople (`socrates-of-constantinople`); Sozomen (`sozomen`); Sulpicius Severus (`sulpicius-severus`); Theodoret of Cyrrhus (`theodoret-of-cyrrhus`); Tyconius (`tyconius`); Ulfila (`ulfila`).
 
@@ -104,9 +104,9 @@ On the kit: 3. To do: 3.
 
 | Story | Kind | Batch | Recorded |
 |---|---|---|---|
-| Bernard of Clairvaux (`bernard-of-clairvaux`) | person | 8 | no |
+| Bernard of Clairvaux (`bernard-of-clairvaux`) | person | 8 | yes |
 | Francis of Assisi (`francis-of-assisi`) | person | 8 | yes |
-| Thomas Aquinas (`thomas-aquinas`) | person | 8 | no |
+| Thomas Aquinas (`thomas-aquinas`) | person | 8 | yes |
 
 To do: Bonaventure (`bonaventure`); Gregory VII (`gregory-vii`); Innocent III (`innocent-iii`).
 
@@ -118,9 +118,9 @@ On the kit: 5. To do: 0.
 |---|---|---|---|
 | John Wyclif (`john-wyclif`) | person | 3 | yes |
 | Thomas à Kempis (`thomas-a-kempis`) | person | 3 | yes |
-| Catherine of Siena (`catherine-of-siena`) | person | 8 | no |
-| Gregory Palamas (`gregory-palamas`) | person | 8 | no |
-| Jan Hus (`jan-hus`) | person | 8 | no |
+| Catherine of Siena (`catherine-of-siena`) | person | 8 | yes |
+| Gregory Palamas (`gregory-palamas`) | person | 8 | yes |
+| Jan Hus (`jan-hus`) | person | 8 | yes |
 
 ## Era 7
 
@@ -131,9 +131,9 @@ On the kit: 6. To do: 2.
 | John Calvin (`john-calvin`) | person | 5 | yes |
 | Martin Luther (`martin-luther`) | person | 5 | yes |
 | William Tyndale (`william-tyndale`) | person | 5 | yes |
-| Huldrych Zwingli (`huldrych-zwingli`) | person | 8 | no |
-| Teresa of Ávila (`teresa-of-avila`) | person | 8 | no |
-| Thomas Cranmer (`thomas-cranmer`) | person | 8 | no |
+| Huldrych Zwingli (`huldrych-zwingli`) | person | 8 | yes |
+| Teresa of Ávila (`teresa-of-avila`) | person | 8 | yes |
+| Thomas Cranmer (`thomas-cranmer`) | person | 8 | yes |
 
 To do: Hugo Grotius (`hugo-grotius`); Ignatius of Loyola (`ignatius-of-loyola`).
 
