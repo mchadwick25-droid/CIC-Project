@@ -137,11 +137,43 @@ export async function countEvents(request, env) {
   return done;
 }
 
+
+// Link-preview crawlers read a page's head for its title, description and picture. LinkedIn refuses a
+// page over 3,145,728 bytes, and the map's home page is about 9.5 MB, so these crawlers get a small
+// page made from the same head tags. Only the tree's Worker runs for "/" (run_worker_first in
+// wrangler.cft.jsonc); everyone else gets the page itself.
+export const UNFURLER = /LinkedInBot|Twitterbot|Slackbot|Discordbot|WhatsApp|TelegramBot|facebookexternalhit|Facebot|SkypeUriPreview|Pinterestbot/i;
+const HEAD_LIMIT = 65536;
+const PREVIEW_TAG = /<(?:title\b[^>]*>[^<]*<\/title>|meta\s+(?:name="(?:description|twitter:[^"]*)"|property="og:[^"]*")[^>]*>|link\s+rel="canonical"[^>]*>)/gi;
+
+export async function previewPage(request, env) {
+  const upstream = await env.ASSETS.fetch(new Request(request.url, { method: 'GET', headers: { Accept: 'text/html' } }));
+  if (!upstream.ok || !upstream.body) return upstream;
+  const reader = upstream.body.getReader();
+  const decoder = new TextDecoder();
+  let head = '';
+  while (head.length < HEAD_LIMIT && !/<\/head>/i.test(head)) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    head += decoder.decode(value, { stream: true });
+  }
+  await reader.cancel();
+  const tags = (head.match(PREVIEW_TAG) || []).join('\n');
+  if (!tags) return env.ASSETS.fetch(request);
+  const html = '<!doctype html>\n<html lang="en"><head><meta charset="utf-8">\n' + tags + '\n</head><body><p><a href="/">Open the Church Family Tree</a></p></body></html>\n';
+  const headers = new Headers(BASELINE_HEADERS);
+  headers.set('Content-Type', 'text/html; charset=utf-8');
+  headers.set('Cache-Control', 'no-store');
+  headers.set('Vary', 'User-Agent');
+  return new Response(request.method === 'HEAD' ? null : html, { status: 200, headers });
+}
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     if (url.pathname === '/e') return countEvents(request, env);
     const isRead = request.method === 'GET' || request.method === 'HEAD';
+    if ((url.pathname === '/' || url.pathname === '/index.html') && isRead && UNFURLER.test(request.headers.get('User-Agent') || '')) return previewPage(request, env);
     const moved = await treeRedirect(url, env);
     if (moved) return moved;
     const isRecording = url.pathname.startsWith('/audio/') && url.pathname.endsWith('.mp3');

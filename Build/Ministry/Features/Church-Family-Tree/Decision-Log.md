@@ -5180,3 +5180,13 @@ Mark, after launch: "i see the novitism is covering the first council as it goes
 **Root cause.** The name-fit code (`labelFitRun`) picks the side of a tradition's mark by the rivers it would cross and checks other names, marks and stories in its collision grid, but council marks were never put in the grid. A name could sit on a council mark, and the side choice could not see it. On a 1440 px screen at the farthest zoom-out, "Novatianism" ran left across the 251 council's ring.
 
 **Done.** Council marks join the collision grid, and a council hit counts as one more crossing when a name picks its side, so Novatianism now reads to the right. They count only while the council marks are drawn: the Councils layer on and the map zoomed in to the council threshold (`z-council`). Measured on a local copy at 22 zoom steps from the farthest zoom-out, on a 1440 px and a 390 px screen: names over a council mark went from 1 to 0 on the desktop (Novatianism) and stayed 0 on the phone, and the number of names shown did not change at any step. A first version counted council marks that were not drawn and hid two phone names; the draw condition came from that.
+
+## 2026-11-21 — Link-preview crawlers get a small home page, so LinkedIn can show a preview
+
+Mark, posting to LinkedIn: "the linked in cant display a preview and its not pulling in the picture". LinkedIn's Post Inspector gave the cause: "We did not scrape the content because it's size was larger than our threshold. Maximum size for this input stream is 3145728 bytes."
+
+**Root cause.** The home page is about 9.5 MB (2.6 MB compressed), because the map embeds its data. LinkedIn refuses any page over 3 MB, so it never reached the title, description or picture tags, which were correct (1200 by 630 picture, tags 907 bytes into the page).
+
+**Done.** The tree's Worker answers a link-preview crawler's request for the home page ("/" or "/index.html") with a small page made from the home page's own head tags (title, description, canonical, `og:` and `twitter:` tags), read from the page at request time so the tags live in one place. The crawlers are LinkedIn, Twitter or X, Slack, Discord, WhatsApp, Telegram, Facebook, Skype and Pinterest. A browser, a search crawler and every other path get the page as before. `wrangler.cft.jsonc` now runs the Worker first for "/", which means every home page view passes through the Worker. Tests in `cic-worker/worker.test.mjs` cover the small page, the crawler list, a browser and a search crawler, HEAD, other paths, and a head with no tags.
+
+**Not done here.** The map's weight itself (see Open-Gaps).
