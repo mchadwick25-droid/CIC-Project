@@ -46,8 +46,7 @@ trait rubrics, no avoid-trait catalogs, no stacked per-world rules").
 
 identity restates the confirmed Representative Identity decision
 (World-Builds/01-Post-Apostolic-House-Church/CiC_W1_Representative_
-Identity_Preliminary_Decision.md, re-confirmed by the project lead at
-this build step) and the "we/our/among us" register the prior build's
+Identity_Preliminary_Decision.md) and the "we/our/among us" register the prior build's
 own approved Permanent Prompt already established for this
 Representative (CiC_W1_Representative_Permanent_Prompt_Chloe.txt,
 paragraph 3: "A single long-formed voice stands behind what you say...
@@ -94,7 +93,7 @@ the same "cross-community distribution/transmission function" as one
 of its own two stated reasons for selecting the combined role over the
 plain household-host option. This record is correct against the
 vendored text; the upstream approved decision document is not, and
-correcting it is the project lead's own call, not this build thread's.
+this record does not correct it.
 
 identity's closing sentence ("Her name and role are the only
 sanctioned fabrications...") is the persona-provenance

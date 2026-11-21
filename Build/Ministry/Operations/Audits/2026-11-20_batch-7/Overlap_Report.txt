@@ -1,0 +1,16 @@
+anatolius-of-alexandria-and-laodicea: SPELLING Either (the tree has Neither)
+councils-of-rome-and-carthage-251: SPELLING Confessors (the tree has Confession, Confessions, Confessor)
+councils-of-rome-and-carthage-251: SPELLING Honored (the tree has Honor)
+cyprian-of-carthage: clear
+dionysius-of-alexandria: SPELLING Libyan (the tree has Libya)
+eusebius-of-caesarea: clear
+lactantius: SPELLING Deaths (the tree has Death)
+lactantius: SPELLING Persecutors (the tree has Persecution)
+methodius-of-olympus: clear
+novatian: SPELLING Cathari (the tree has Catharism, Cathars, Katharoi)
+origen: clear
+pamphilus-of-caesarea: SPELLING Croesus (the tree has Chrestus, Cross)
+peter-of-alexandria: SPELLING Fallen (the tree has Allen)
+peter-of-alexandria: SPELLING Slaves (the tree has Slavs)
+pontius-the-deacon: clear
+tertullian-s-voice: SPELLING Tertullianists (the tree has Tertullian)

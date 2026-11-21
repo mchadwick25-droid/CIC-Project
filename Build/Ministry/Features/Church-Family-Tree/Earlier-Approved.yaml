@@ -1,0 +1,3 @@
+# Stories Mark approved before the brief kit whose text has not reached the census.
+# tools/list_story_status.py reads this list. Remove an entry once its text is live
+# or it is rewritten on the kit.

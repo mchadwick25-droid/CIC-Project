@@ -902,3 +902,12 @@ Status: OPEN. Owner: this world's thread.
 - **Finding.** 26 alx verbatim quotes named no line span in their locus.
 - **Done.** Each now names `cic/texts/<file>, lines N-M`, the span the independent Opus reviewer found in the batch review table (see "Every quote rendering reviewed by Opus against the edition", 2026-11-04). The `quote-locus` gate checks the text against it, and all 26 match. Two records cite two sources: `dionysius-plague` takes its span on the Eusebius source, whose text it quotes; the second source is a different translation. `origen-scripture-senses` takes its span on the Philocalia source. Where a locus already held a rough pointer for the same file, such as "(anf02 line 18785)" or "near line 47889", the exact span replaces it.
 - **Owner.** Library record-defects thread. Closed.
+
+### OG-42. Four faults in the narrated documented stories, 2026-11-20.
+
+- **What.** The review of the tree's narrator rewrites (`Build/Ministry/Features/Church-Family-Tree/World-Narration/alexandria-catechetical/`, the `*.review.md` files named below, confirmed in `Recheck_Round2.md`) found four faults in this world's own tellings. Church in Conversation narrates and shows them as they stand; the tree's texts carry the corrections (exact wording in each review).
+  - `alx.story.origen-daring-deed`: the "so" gives avoiding accusation as Origen's only motive. Eusebius also gives "to fulfill the Saviour's word".
+  - `alx.story.arsinoite-conference`: the quoted line follows the 1890 translation's "should", not the quote record's modern rendering. The tree's text uses `alx.quote.dionysius-nepos`'s rendering: "the truth must be loved and honored most of all."
+  - `alx.story.plague-nursing`: "The church buried its dead with open hands" is told in the narrator's voice. Only Dionysius reports it, and in his letter it is literal: they handled the bodies with their own hands.
+  - `alx.story.potamiaena`: "he told them the reason" has the soldiers hear of the vision. In Eusebius it was fellow Christians who visited him in prison.
+- **Owner.** This world's record owner (the fix goes in `records/alx/` and the world rebuild). Open.

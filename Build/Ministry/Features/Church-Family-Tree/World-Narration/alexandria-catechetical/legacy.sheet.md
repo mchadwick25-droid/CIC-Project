@@ -1,0 +1,20 @@
+# Sheet: alexandria-catechetical / legacy
+
+## Original text (as narrated now)
+
+Two things carried past this world's own horizon, in different ways. The first was a settled inheritance. This world passed on the Nicene confession, the hope of sharing God's own life, and Scripture read for a deeper meaning beneath its surface. Basil of Caesarea and Gregory of Nazianzus, teachers of a later generation, gathered an anthology of Origen's own writing while this world's own record was still open. The second thing was a live argument, not a settled one. Origen's boldest ideas kept being read, loved, and contested by turns. Interested translators carried them on both sides. The argument finally broke into open controversy right at this world's own edge.
+
+## Grounding records
+
+### alx.force.transmission-ending (records/alx/force/alx.force.transmission-ending.md)
+- formation_confidence: Widely Accepted
+
+### alx.source.origen-philocalia (records/alx/source/alx.source.origen-philocalia.md)
+- formation_confidence: Documented
+
+### alx.contested.origen-positions (records/alx/contested_claim/alx.contested.origen-positions.md)
+- formation_confidence: Contested
+
+## Quoted spans and their quote records
+
+(none)

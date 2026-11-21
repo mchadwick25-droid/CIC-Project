@@ -318,8 +318,8 @@ function checkCard(m) {
     listing("about", ["title", "author", "language", "file"], ["date"]);
   }
 }
-// --- major councils (Decision-Log 2026-11-14, "Major councils, eras 1 and 2"; Brief-Kit/Shapes.md) ---
-const COUNCIL_RIVERS = { "Origin": 0, "Syriac East": 1, "Caucasus": 2, "Greek East": 3, "Africa": 4, "Latin West": 5, "Non-Nicene": 80 };
+// --- major councils (Decision-Log 2026-11-14, "Major councils, eras 1 and 2"; Brief-Kit/Kit.md, Part 2) ---
+const COUNCIL_RIVERS = { "The First Churches": 0, "Syriac East": 1, "Caucasus": 2, "Greek East": 3, "Africa": 4, "Latin West": 5, "Non-Nicene": 80 };
 const WITNESS_KINDS = new Set(["acts", "participant", "later narrative", "modern reconstruction"]);
 const COUNCIL_PARTS = new Set(["Gathered", "Condemned", "Refused", "Affected"]);
 const COUNCIL_SOURCE_GROUPS = ["fromTheCouncil", "fromThoseThere", "writtenLater"];
@@ -378,8 +378,10 @@ function checkSourceItem(path, s, keys) {
   if (plain(s.file) && !(s.file.startsWith("cic/texts/") && existsSync(s.file))) errs.push(`${path}.file ${s.file} must be an existing file under cic/texts/`);
 }
 // Every quotation in a person's or council's prose stands verbatim in a file the entry cites (case, punctuation and
-// spelling marks aside), unless it is a listed rendering (tools/quote_renderings.json).
-const fold = s => s.normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/æ/g, "ae").replace(/œ/g, "oe").replace(/[^a-z0-9]+/g, " ").trim();
+// spelling marks aside), unless it is a listed rendering (tools/quote_renderings.json). Greek letters are compared
+// like Latin ones: accents, breathings and iota subscripts set aside, final sigma read as σ, and the scans' letter
+// variants (ϑ, ϲ, ϐ, ϕ and the like) read as their plain forms by NFKD.
+const fold = s => s.normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/æ/g, "ae").replace(/œ/g, "oe").replace(/ς/g, "σ").replace(/[^a-z0-9α-ω]+/g, " ").trim();
 function proseOf(x, out = []) {
   if (typeof x === "string") out.push(x);
   else if (Array.isArray(x)) x.forEach(y => proseOf(y, out));

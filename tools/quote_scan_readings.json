@@ -305,13 +305,6 @@
    ]
   },
   {
-   "file": "cic/texts/gregory-nyssa_opera-omnia-pg46-grc-lat_migne1863.txt",
-   "lines": "71690",
-   "scan": "Ἀθδίογβίϑι!, Τὰ οἰϊδοῖβι!, οἱ μυ)ιβοδ᾽ νἱι25 Ππίβ, γθγα ᾧ φόθον",
-   "reads": "φόβον",
-   "kind": "OCR misread, after garbled Latin column text"
-  },
-  {
    "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
    "lines": "3113",
    "scan": "IpnLENEss",
@@ -338,6 +331,356 @@
    "scan": "tlie",
    "reads": "the",
    "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/nestorius_nestoriana-fragmenta-grc-lat-deu_loofs1905.txt",
+   "lines": "14312",
+   "scan": "τεροσχύνησιν",
+   "reads": "προσκύνησιν",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/cyril-alexandria_five-tomes-against-nestorius-scholia-christ-is-one_pusey1881.txt",
+   "lines": "19881",
+   "scan": "4  ivriarp-  ing  \"^  ou  the",
+   "reads": "ing on the",
+   "kind": "margin note and note mark run into the line, with an OCR misread"
+  },
+  {
+   "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+   "lines": "35397",
+   "scan": "Satan 4 suscité",
+   "reads": "Satan a suscité",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+   "lines": "31685",
+   "scan": "Bar CGauma",
+   "reads": "Bar Çauma",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/thomas-of-marga_book-of-governors-v2-english_budge1893.txt",
+   "lines": "21980",
+   "scan": "w^homsoever",
+   "reads": "whomsoever",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/kidd_documents-illustrative-of-the-continental-reformation-lat-deu-fra-eng_1911.txt",
+   "lines": "2578",
+   "scan": "Uteris",
+   "reads": "literis",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/augustine_retractationes-lat_knoll-csel36.txt",
+   "lines": "9063",
+   "scan": "quod non 10",
+   "reads": "quod non",
+   "kind": "line number run into the line"
+  },
+  {
+   "file": "cic/texts/athanasius_opera-omnia-pg25-grc-lat_migne1857.txt",
+   "lines": "97995",
+   "scan": "χαὶ",
+   "reads": "καὶ",
+   "kind": "OCR misread (χ for κ)"
+  },
+  {
+   "file": "cic/texts/athanasius_opera-omnia-pg25-grc-lat_migne1857.txt",
+   "lines": "97995",
+   "scan": "προχινδυνεύειν",
+   "reads": "προκινδυνεύειν",
+   "kind": "OCR misread (χ for κ)"
+  },
+  {
+   "file": "cic/texts/athanasius_opera-omnia-pg25-grc-lat_migne1857.txt",
+   "lines": "97994-97995",
+   "scan": "χα: \nταλεῖψαι",
+   "reads": "καταλεῖψαι",
+   "kind": "OCR misread (χ for κ), with the line-end hyphen read as a colon"
+  },
+  {
+   "file": "cic/texts/athanasius_opera-omnia-pg26-grc-lat_migne1857.txt",
+   "lines": "113085",
+   "scan": "ἐπιδαλλέτω",
+   "reads": "ἐπιβαλλέτω",
+   "kind": "OCR misread (δ for β)"
+  },
+  {
+   "file": "cic/texts/apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846.txt",
+   "lines": "22082",
+   "scan": "sed publieari)",
+   "reads": "sed publicari)",
+   "kind": "OCR misread (e for c)"
+  },
+  {
+   "file": "cic/texts/tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt",
+   "lines": "74597",
+   "scan": "moecbomm",
+   "reads": "moechorum",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt",
+   "lines": "109160",
+   "scan": "scismk",
+   "reads": "scisma",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt",
+   "lines": "109160",
+   "scan": "XOvali",
+   "reads": "Novati",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt",
+   "lines": "81406",
+   "scan": "hima",
+   "reads": "him a",
+   "kind": "OCR misread (two words run together)"
+  },
+  {
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "2777",
+   "scan": "minatus ;  15",
+   "reads": "minatus ;",
+   "kind": "margin line number run into the line"
+  },
+  {
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "2814",
+   "scan": "Das  altrömische  Taufbekenntnis.",
+   "drop": true,
+   "kind": "running head and page number",
+   "lines_held": [
+    "6  Das  altrömische  Taufbekenntnis.  —  Das  Jüngere  „apostolische\"  Symbol."
+   ]
+  },
+  {
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "2816",
+   "scan": "argiiantur",
+   "reads": "arguantur",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt",
+   "lines": "11728",
+   "scan": "0  sententiam",
+   "reads": "O  sententiam",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt",
+   "lines": "28523",
+   "scan": "inflicted a",
+   "reads": "inflicted on",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/tatian_oratio-ad-graecos-grc-lat_otto1851.txt",
+   "lines": "12199",
+   "scan": "τῇ Ρωμαίων μεγαλαυχία καὶ τῇ Adıwalov",
+   "reads": "τῇ Ῥωμαίων μεγαλαυχίᾳ καὶ τῇ Ἀθηναίων",
+   "kind": "OCR misread; the same edition prints the clause cleanly in its note, lines 1686-1688"
+  },
+  {
+   "file": "cic/texts/tatian_oratio-ad-graecos-grc-lat_otto1851.txt",
+   "lines": "12200",
+   "scan": "τῆς δκαϑ᾽ ἡμᾶς",
+   "reads": "τῆς καϑ᾽ ἡμᾶς",
+   "kind": "OCR ran a stray letter into the word; the same edition's note reads καϑ᾽ ἡμᾶς, line 1688"
+  },
+  {
+   "file": "cic/texts/tatian_oratio-ad-graecos-grc-lat_otto1851.txt",
+   "lines": "14239",
+   "scan": "τίς Δ ἡ",
+   "reads": "τίς ἡ",
+   "kind": "OCR set the edition's margin letter into the line"
+  },
+  {
+   "file": "cic/texts/tatian_oratio-ad-graecos-grc-lat_otto1851.txt",
+   "lines": "14241",
+   "scan": "δ τῆς",
+   "reads": "τῆς",
+   "kind": "OCR set the edition's margin letter into the line"
+  },
+  {
+   "file": "cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt",
+   "lines": "9633",
+   "scan": "episco-  25",
+   "reads": "episco-",
+   "kind": "line number run into the line"
+  },
+  {
+   "file": "cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt",
+   "lines": "9634",
+   "scan": "Yalentinus",
+   "reads": "Valentinus",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt",
+   "lines": "9635-9651",
+   "scan": "11]  cf.  I  Tini.  1,  4.",
+   "drop": true,
+   "kind": "footnotes, apparatus, running head and page number",
+   "lines_held": [
+    "11]  cf.  I  Tini.  1,  4.",
+    "1  putant  F  2  ad  aliam  fort.  4  fidem  om.  P  (add.  E  in  mg.  ex",
+    "Hirsaugiensi)  ostendere  F  6  <(recor)>dabitur  se  Eng:  dabitur  te",
+    "FMF  7  aliqua  scripsi:  alia  PMF  8  fidei  PM,  filii  F  9  genimina",
+    "M  {syll.  ni  s.  u.  a  m.  ])  NGR^,  gemina  PFB^       14  neque  PM,  nec  F",
+    "16  utique   astute  scil.  non   omnes  perdocent  (-=  sie  lehren  vollstdndig)",
+    "17  omnia  (ia  ex  es  M)  scimus  MFGR^,  ornnes  sumus  PB^  18  armabimus",
+    "f.cripsi:  armauimus  PMF  20  auspicamus  (s  in  r)  M  22  nouissimus",
+    "F      originem  optime  M      25  sperauerat  R,  separauerat  P  (corr.  R)  MF",
+    "IIII.  Aduersus  Valentinianos  3—4.  •     181"
+   ]
+  },
+  {
+   "file": "cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt",
+   "lines": "9652",
+   "scan": "aliura",
+   "reads": "alium",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt",
+   "lines": "45736",
+   "scan": "᾿Δρχὴν",
+   "reads": "Ἀρχὴν",
+   "kind": "OCR misread (Δ for Α); Theodoret's Greek of the same letter prints ᾿Αρχὴν (theodoret_opera-omnia-t3-historia-religiosa-pg82-grc-lat_migne1864.txt, line 70616)"
+  },
+  {
+   "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt",
+   "lines": "45737",
+   "scan": "2 r S c δὲ 9 A L4 f. , Z4 4 ó , 9 .",
+   "drop": true,
+   "kind": "scanned apparatus set inside the span",
+   "lines_held": [
+    "2 r S c δὲ 9 A L4 f. , Z4 4 ó , 9 ."
+   ]
+  },
+  {
+   "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt",
+   "lines": "45738",
+   "scan": "ἀναρχός",
+   "reads": "ἄναρχός",
+   "kind": "OCR misread accent; Theodoret's Greek of the same letter prints ἄναρχός (theodoret_opera-omnia-t3-historia-religiosa-pg82-grc-lat_migne1864.txt, line 70616)"
+  },
+  {
+   "file": "cic/texts/cyril-alexandria_three-epistles-grc-eng_pusey1872.txt",
+   "lines": "954",
+   "scan": "πρῶτον 2",
+   "reads": "πρῶτον",
+   "kind": "OCR set the edition's margin number into the line"
+  },
+  {
+   "file": "cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt",
+   "lines": "12560",
+   "scan": "distmccionem",
+   "reads": "distinctionem",
+   "kind": "OCR misread; Oehler prints distin-ctionem (tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt, lines 43866-43867)"
+  },
+  {
+   "file": "cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt",
+   "lines": "12560",
+   "scan": "ubique  20",
+   "reads": "ubique",
+   "kind": "line number run into the line"
+  },
+  {
+   "file": "cic/texts/harnack_vita-cypriani-commentary-lat-deu_1913.txt",
+   "lines": "1311",
+   "scan": "volebatintellegi",
+   "reads": "volebat intellegi",
+   "kind": "OCR dropped a space; Hartel's print divides the words (cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt, lines 41027-41028)"
+  },
+  {
+   "file": "cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt",
+   "lines": "40269",
+   "scan": "documentum in lo",
+   "reads": "documentum in",
+   "kind": "line number run into the line"
+  },
+  {
+   "file": "cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt",
+   "lines": "41409",
+   "scan": "exulto, plus 5",
+   "reads": "exulto, plus",
+   "kind": "line number run into the line"
+  },
+  {
+   "file": "cic/texts/socrates_historia-ecclesiastica-tomus1-grc-lat_hussey1853.txt",
+   "lines": "9912",
+   "scan": "᾿Ακέσιεΐ",
+   "reads": "᾿Ακέσιε",
+   "kind": "OCR set a footnote mark into the word (note f, line 9925)"
+  },
+  {
+   "file": "cic/texts/socrates_historia-ecclesiastica-tomus1-grc-lat_hussey1853.txt",
+   "lines": "9912",
+   "scan": "εἰς τὸν ao",
+   "reads": "εἰς τὸν",
+   "kind": "line number run into the line"
+  },
+  {
+   "file": "cic/texts/socrates_historia-ecclesiastica-tomus1-grc-lat_hussey1853.txt",
+   "lines": "9913",
+   "scan": "φοὐρανόν",
+   "reads": "οὐρανόν",
+   "kind": "stray letter before a word that carries its own breathing"
+  },
+  {
+   "file": "cic/texts/socrates_historia-ecclesiastica-tomus2-grc-lat_hussey1853.txt",
+   "lines": "4372",
+   "scan": "μὴ δέχεσθαι 35",
+   "reads": "μὴ δέχεσθαι",
+   "kind": "line number run into the line"
+  },
+  {
+   "file": "cic/texts/socrates_historia-ecclesiastica-tomus2-grc-lat_hussey1853.txt",
+   "lines": "4375",
+   "scan": ", - ^ ER A5 , L4",
+   "drop": true,
+   "kind": "scanned accent row set between the lines",
+   "lines_held": [
+    ", - ^ ER A5 , L4"
+   ]
+  },
+  {
+   "file": "cic/texts/socrates_historia-ecclesiastica-tomus2-grc-lat_hussey1853.txt",
+   "lines": "4376",
+   "scan": "kai ἐξουσίαν ἔχοντι avy-",
+   "reads": "καὶ ἐξουσίαν ἔχοντι συγ-",
+   "kind": "OCR misread (Latin letters for Greek); the same formula in Hussey's Book I, chapter 10 prints καὶ ἐξουσίαν ἔχοντος συγχωρεῖν (socrates_historia-ecclesiastica-tomus1-grc-lat_hussey1853.txt, lines 9909-9910)"
+  },
+  {
+   "file": "cic/texts/socrates_historia-ecclesiastica-tomus2-grc-lat_hussey1853.txt",
+   "lines": "4377",
+   "scan": "εχωρεῖν ἁμαρτήματα",
+   "reads": "χωρεῖν ἁμαρτήματα",
+   "kind": "OCR misread; the same formula in Hussey's Book I, chapter 10 prints συγχωρεῖν ἁμαρτήματα (socrates_historia-ecclesiastica-tomus1-grc-lat_hussey1853.txt, line 9910)"
+  },
+  {
+   "file": "cic/texts/nikodemos-hagiorite_pedalion-canons-grc_1886.txt",
+   "lines": "49723",
+   "scan": "σίγματα",
+   "reads": "στίγματα",
+   "kind": "OCR misread; the editor's note on this canon prints στίγματα (anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml, line 26619)"
+  },
+  {
+   "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt",
+   "lines": "43852",
+   "scan": "0",
+   "reads": "ὁ",
+   "kind": "OCR misread; Migne's Patrologia Graeca 42 prints ὁ (epiphanius_panarion-haer-65-80-pg42-grc-lat_migne1863.txt, lines 13796-13797)"
   }
  ]
 }

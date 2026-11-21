@@ -17,4 +17,4 @@ Each folder holds the checked `Source_Sheet.md`, the old outline (`Outline.r50.m
 
 ## Where it stands (2026-11-18, evening)
 
-Steps 0 to 7 are done for all twelve. Eleven are in the census, and Cyril and Methodius waits for an entry. Six were adjusted after the listeners' read (change order, Decision-Log 2026-11-18) and checked again. The audio waits on ElevenLabs. Open points: Open-Gaps 329.
+Steps 0 to 7 are done for all twelve. All twelve are in the census; Cyril and Methodius got its entry on 2026-11-19 (Open-Gaps, "Cyril and Methodius released", 2026-11-19). Six were adjusted after the listeners' read (change order, Decision-Log 2026-11-18) and checked again. The audio waits on ElevenLabs. Open points: Open-Gaps 329.

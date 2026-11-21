@@ -1061,3 +1061,12 @@ Status: CLOSED. Owner: Library record-defects thread.
 The `modern_rendering` of `gregory-nyssa-on-becoming-god` kept the translator's capital in "the plan of Revelation". On screen, that can be read as the Book of Revelation. In the edition, it is the thing that "teaches that God was born among men": God's revealed teaching. The rendering now reads "the plan of revelation". The record's `text` keeps the edition's capital. A fresh independent Opus reader passed the phrase (`Review-Artifacts/Rendering_Review_Cappadocian_Revelation_2026-11-04.md`). This is a separate defect from the rendering covered by the cap ruling of 2026-11-04.
 
 Status: CLOSED. Owner: Library record-defects thread.
+
+### OG-65. Three claims in the narrated texts that their records do not hold as told, 2026-11-20.
+
+The review of the tree's narrator rewrites (`Build/Ministry/Features/Church-Family-Tree/World-Narration/cappadocian-nicene-pastoral-monastic-tradition/`, `story.review.md`, `legacy.review.md`, `docstory-cappadocian.story.doxology-stand.review.md`, and the recheck in `Recheck_Round2.md`) found three faults in this world's own texts. Church in Conversation narrates and shows them as they stand. The tree's texts carry the corrections; the records do not yet.
+- Story (`orientation.story`): "By his own account, a mob attacked the gathering one Easter." No grounding record holds it. `cappadocian.source.gregory-nazianzus-de-vita-sua` notes the Easter dating is unconfirmed, and the vendored Oration 33 only alludes to an attack. Tree text: the sentence is cut.
+- Legacy (`orientation.legacy`): "Even the letter most often cited to prove their agreement is disputed between two of them." It sounds like a quarrel between the teachers; `cappadocian.contested.settlement-historiography` holds only that Epistle 38's authorship is disputed between Basil and Gregory of Nyssa. Tree text: "…is in doubt, since many scholars now think it was written not by Basil but by his brother Gregory."
+- `cappadocian.story.doxology-stand` telling: "More urgent voices wanted the plain word spoken, while his friends defended his restraint." The records put the quarrel among Basil's own allies (`cappadocian.gravity.precision-reserve`). Tree text: "Some of his own allies wanted the plain word spoken, while other friends defended his restraint."
+
+Status: OPEN. Owner: this world's record owner (the fix goes in `records/cappadocian/` and the world rebuild).

@@ -1,8 +1,8 @@
 """Fail a pull request that changes the Church Family Tree writing standard
 without Mark's words in a new Decision-Log entry.
 
-Locked: everything under Brief-Kit/ (the standard, shapes, outline template,
-process and role prompts) and everything under Who-Profiles/bar/, both in
+Locked: everything under Brief-Kit/ (the kit and the
+role prompts) and everything under Who-Profiles/bar/, both in
 Build/Ministry/Features/Church-Family-Tree/. A change to any of them passes
 only when the same pull request adds an entry to that folder's
 Decision-Log.md whose heading or "Decided" line names Mark and which has a

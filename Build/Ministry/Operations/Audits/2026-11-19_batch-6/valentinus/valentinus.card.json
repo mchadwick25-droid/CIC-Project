@@ -1,0 +1,129 @@
+{
+ "knownFor": "A teacher at Rome who broke with the church and founded a school that taught a heaven of divine powers in pairs.",
+ "datesNote": "At Rome from about the time of Bishop Hyginus to Bishop Anicetus",
+ "placeNote": "Rome",
+ "role": "Teacher and founder of a school",
+ "keyWorks": [
+  {
+   "title": "Letters",
+   "about": "known only from passages Clement of Alexandria quotes in his Stromata, Book 2"
+  },
+  {
+   "title": "A sermon",
+   "about": "known only from a passage Clement of Alexandria quotes in his Stromata, Book 4"
+  }
+ ],
+ "legacy": {
+  "traces": [
+   "Tertullian of Carthage names Ptolemaeus, Heraclean, Secundus and Marcus the magician as teachers of his school, and Axionicus at Antioch as the one who kept his rules in full."
+  ],
+  "remembered": [
+   "Irenaeus of Lyon says he adapted the principles of the Gnostic teaching to his own school.",
+   "Tertullian calls him \"the disciple of Platonism.\"",
+   "Hippolytus of Rome says Valentinus claimed to have seen a newborn child who told him he was the Word."
+  ]
+ },
+ "uncertain": [
+  "Almost everything known of him comes from his opponents: Irenaeus of Lyon, Tertullian of Carthage, Clement of Alexandria and Hippolytus of Rome. His own words survive in their quotations, chiefly Clement's.",
+  "The teaching of paired divine powers is described by two opponents, Irenaeus and Hippolytus, though Hippolytus copies long passages of Irenaeus elsewhere in his book, as the American edition's note on his Book 6 shows. The division of people by nature is reported by Irenaeus and Clement, of his followers. The story of the lost bishopric is Tertullian's alone.",
+  "Tertullian places him at Rome under Bishop Eleutherus. Irenaeus places him from Hyginus to Anicetus, earlier.",
+  "That he was taught by Theudas, a pupil of Paul, is his followers' claim, as Clement reports it.",
+  "No early source we hold says where he was born."
+ ],
+ "sources": {
+  "ownWords": [
+   {
+    "title": "Fragments of his letters and a sermon, in Clement of Alexandria, Stromata, Books 2 and 4",
+    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+    "language": "English"
+   }
+  ],
+  "about": [
+   {
+    "title": "Against Heresies, Book 1 chapter 11; Book 3 chapter 4",
+    "author": "Irenaeus of Lyon",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+   },
+   {
+    "title": "Refutation of All Heresies, Book 6",
+    "author": "Hippolytus of Rome",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+   },
+   {
+    "title": "Against the Valentinians 4; Prescription against Heretics 30",
+    "author": "Tertullian of Carthage",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/anf03_tertullian.xml"
+   },
+   {
+    "title": "Against the Valentinians 4, Latin, ed. Emil Kroymann, CSEL 47",
+    "author": "Tertullian of Carthage",
+    "date": null,
+    "language": "Latin",
+    "file": "cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt"
+   },
+   {
+    "title": "Stromata, Books 2, 4, 5 and 7",
+    "author": "Clement of Alexandria",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+   }
+  ]
+ },
+ "briefReferences": [
+  "Clement of Alexandria, Stromata II.20, ANF English: his letter on the heart as an inn on the road, unclean and full of demons until the Father visits it. Clement quotes it to argue against him.",
+  "Stromata IV.13: his sermon, that his hearers were immortal from the beginning, children of eternal life, who wished death to be given to them; Clement says he held a class saved by nature. Stromata V.1: saved by nature, apart from the Savior's appearance.",
+  "Irenaeus, Against Heresies III.4.3: at Rome from the time of Hyginus to Anicetus. I.11.1: the first pairs, Unspeakable and Silence, Father and Truth, Word and Life, and the power that fell, from whose fall came the world and its maker.",
+  "Tertullian, Against the Valentinians 4, Latin, ed. Kroymann, with the ANF English: the bishopric he hoped for, the man who had suffered for the faith, the break with the church of the true rule, ambition and the wish for revenge; Ptolemy making the powers separate beings outside God; Valentinus now nowhere, his followers still named after him, and Axionicus at Antioch keeping his rules whole. The ANF editor dates the book not earlier than 207.",
+  "Tertullian, Prescription against Heretics 30: expelled from the church at Rome more than once.",
+  "Hippolytus, Refutation of All Heresies VI.29: the Father alone and all love. VI.35: the Italian and Eastern branches of the school.",
+  "World census, Valentinian and other Gnostic Christianities: the school known for eighteen centuries almost entirely through its opponents, until its own writings were found in Egypt in 1945."
+ ],
+ "quotationOriginals": [
+  {
+   "modern": "It is unclean, the home of many demons. But when the Father, who alone is good, visits it, it is made holy and shines with light.",
+   "printed": "being unclean, and the abode of many demons. But when the only good Father visits it, it is sanctified, and gleams with light.",
+   "work": "Valentinus, a letter, in Clement of Alexandria, Stromata II.20, ANF English",
+   "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+   "lines": "34300-34302",
+   "uncertain": "Clement's Greek is not held, so the modern English is rendered from the ANF English.",
+   "secondReading": "same"
+  },
+  {
+   "modern": "Valentinus had hoped to become a bishop, for he was able in mind and in speech. But another man won the place, by the claim his suffering for the faith had given him. Angry at this, Valentinus broke away from the church of the true rule.",
+   "printed": "Valentinus had expected to become a bishop, because he was an able man both in genius and eloquence. Being indignant, however, that another obtained the dignity by reason of a claim which confessorship had given him, he broke with the church of the true faith.",
+   "work": "Tertullian, Against the Valentinians 4, ANF English",
+   "file": "cic/texts/anf03_tertullian.xml",
+   "lines": "43109-43114",
+   "uncertain": "The modern English is rendered from Kroymann's Latin. \"Suffering for the faith\" renders martyrii, where the ANF has \"confessorship\"; \"the true rule\" renders authenticae regulae, where the ANF has \"the true faith\".",
+   "original": "sperauerat episcopatum Valentinus, quia et ingenio poterat et eloquio, sed alium ex martyrii praerogatiua loci potitum indignatus de ecclesia authenticae regulae abrupit",
+   "originalFile": "cic/texts/tertullian_opera-pars3-lat_kroymann-csel47.txt",
+   "originalLines": "9633-9653",
+   "secondReading": "same"
+  },
+  {
+   "modern": "love is not love unless there is something to love.",
+   "printed": "love is not love except there may be some object of affection.",
+   "work": "Hippolytus of Rome, Refutation of All Heresies VI.29, ANF English",
+   "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+   "lines": "9171-9172",
+   "uncertain": "Hippolytus gives this as the teaching of the school, and the \"he\" who says it is not named. The Greek is not held, so the modern English is rendered from the ANF English.",
+   "secondReading": "minor"
+  },
+  {
+   "modern": "death may die in you",
+   "printed": "death may die in you and by you",
+   "work": "Valentinus, a sermon, in Clement of Alexandria, Stromata IV.13, ANF English",
+   "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+   "lines": "39093",
+   "uncertain": "The ANF prints \"Valentinian\"; its index files the passage under Valentinus, and Clement goes on to answer his teaching. The modern words leave out \"and by you\".",
+   "secondReading": "same"
+  }
+ ]
+}

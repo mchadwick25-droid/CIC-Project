@@ -1085,3 +1085,9 @@ Mark ruled (2026-11-10) that the Melitian papyri in Bell 1924, Part II, are not 
 Left for this world's thread: `records/desert/voice_craft/desert.voice.craft.md` calls the Bell record "a newly-registered source". The phrase sits inside the long rationale about the five men named Paphnutius, whose other clauses narrate process the same way ("found while independently verifying"). That paragraph is commentary in a canonical record (CLAUDE.md, live surfaces). Cleaning it means restating the rationale and rebuilding desert's package.
 
 Status: OPEN. Owner: this world's thread.
+
+### OG-51. The narrated Story tells the martyrdom-to-monk succession as settled, 2026-11-20.
+
+The review of the tree's narrator rewrites (`Build/Ministry/Features/Church-Family-Tree/World-Narration/desert-monasticism/story.review.md`, confirmed in `Recheck_Round2.md`) found that this world's own Story (`orientation.story`) sets the end of persecution beside "Now the fight was…" against demons, so the listener hears that the desert struggle took martyrdom's place, as the tradition's own claim. `desert.force.martyrdom-unavailable` rates that equivalence Inferential-Thin: Athanasius links the struggle to martyrdom once, for Antony alone, and the wider link is the record's inference. Church in Conversation narrates it as it stands. The tree's text keeps the attested combat language and drops the implied succession (wording in `story.review.md`).
+
+Status: OPEN. Owner: this world's record owner (the fix goes in the world's orientation story and the rebuild).

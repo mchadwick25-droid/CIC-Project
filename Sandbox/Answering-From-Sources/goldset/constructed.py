@@ -1,6 +1,6 @@
 """Constructed gold-set items, for the failure classes the natural sentences
 leave short of the per-class minimum. Each is written by hand to carry one
-known defect, bound to the record whose own words make the defect certain,
+planted defect, bound to the record whose own words make the defect certain,
 read before use, and then labelled blind among other lines like any item.
 
 They are counted apart from natural items in every figure: the item's kind is

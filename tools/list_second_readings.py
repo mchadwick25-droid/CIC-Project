@@ -1,6 +1,6 @@
 """List the quoted spans in a Church Family Tree brief and the card entry that holds each.
 
-Brief-Kit/Process.md, step 7. Run it on each piece's folder once its brief and card are final:
+Brief-Kit/Kit.md, Part 4, step 7. Run it on each piece's folder once its brief and card are final:
 
     python tools/list_second_readings.py <piece folder> [<piece folder> ...]
 

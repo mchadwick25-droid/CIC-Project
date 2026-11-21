@@ -100,11 +100,8 @@ must speak for Strands A, B, and C together, never as a Strand C
 snapshot alone. This step's own task is confirming that identity holds
 against this build's completed content canon (Steps 2-4, Doc_08), not
 reopening it - the same disposition Syriac's own equivalent
-confirmation used (on the sibling claude/syriac-world-build branch,
-records/worlds.yaml's own syr entry: "name and role CONFIRMED...
-carrying forward the prior-framework decision" - that entry does not
-exist on this branch, since each world's build lives on its own
-branch), logged the same way here (see records/worlds.yaml, desert
+confirmation used ("name and role CONFIRMED... carrying forward the
+prior-framework decision"), logged the same way here (see records/worlds.yaml, desert
 entry, and DECISION-LOG.md).
 
 Checked against the completed canon and found to hold, on every axis

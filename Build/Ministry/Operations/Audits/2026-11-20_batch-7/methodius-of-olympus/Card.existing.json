@@ -1,0 +1,123 @@
+{
+  "knownFor": "Lycian bishop and martyr who argued against Origen that the same body rises, and who praised the life of chastity.",
+  "role": "Bishop, martyr and writer",
+  "keyWorks": [
+    {
+      "title": "The Banquet of the Ten Virgins",
+      "about": "A dialogue in which ten women praise chastity in a garden."
+    },
+    {
+      "title": "On the Resurrection",
+      "about": "Argues against Origen that the body is no fetter and rises again."
+    },
+    {
+      "title": "On Free Will",
+      "about": "A treatise Jerome lists as his, also against Origen."
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Epiphanius of Cyprus made great use of him in his own refutations of Origen.",
+      "Most of what he wrote has been lost. His books against Porphyry of Tyre survive only in slight fragments, and his commentaries are lost. The longer pieces of On the Resurrection come to us through Epiphanius and Photius.",
+      "Theodoret copied a passage from his sermon on the martyrs into a set of testimonies from earlier bishops. In it Methodius of Olympus says martyrdom is so precious that Christ himself honored it.",
+      "The complete Banquet was first printed at Rome in 1656, from a manuscript in the Vatican."
+    ],
+    "remembered": [
+      "Remembered chiefly as Origen's opponent. The church historian Socrates of Constantinople names him first among the four who reviled Origen.",
+      "Honored as a martyr. Jerome says he was crowned with martyrdom at Chalcis, and Theodoret calls him the holy Methodius, bishop and martyr."
+    ]
+  },
+  "uncertain": [
+    "Jerome knew two dates for his death. The later one, around 312, fits his writing against Origen after Origen's death, and the earlier one, under Decius, does not. Some place Chalcis in Syria rather than Greece, because Syria lay nearer his diocese. Epiphanius also calls him Eubulius, which may only be the pen name he used in his Banquet.",
+    "Only Socrates of Constantinople tells of his change of heart, and Socrates admired Origen. He names the dialogue in which Methodius of Olympus praised him: Xenon."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "From the Discourse on the Resurrection",
+        "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+        "language": "English"
+      },
+      {
+        "title": "Fragments of Methodius (general fragments; on the Cross and Passion; other and uncertain fragments)",
+        "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+        "language": "English"
+      },
+      {
+        "title": "Oration Concerning Simeon and Anna",
+        "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+        "language": "English",
+        "disputed": "widely regarded as later than Methodius"
+      },
+      {
+        "title": "Oration on the Palms",
+        "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+        "language": "English",
+        "disputed": "doubtful authenticity"
+      },
+      {
+        "title": "The Banquet of the Ten Virgins (Symposium; Concerning Chastity)",
+        "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+        "language": "English"
+      },
+      {
+        "title": "Concerning Free-Will (De Autexousio)",
+        "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+        "language": "English"
+      }
+    ],
+    "about": [
+      {
+        "title": "Ecclesiastical History, on Origen's critics",
+        "author": "Socrates",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men, chapter 83",
+        "author": "Jerome",
+        "date": "392",
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Bibliotheca, codex 234, summary of On the Resurrection",
+        "author": "Photius",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+      },
+      {
+        "title": "Introduction to Methodius (Ante-Nicene Fathers, vol. 6)",
+        "author": "William R. Clark",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+      }
+    ]
+  },
+  "briefReferences": [
+    "Socrates, Church History VI.13, tr. A. C. Zenos: Methodius a bishop in Lycia; he attacked Origen in many places, then praised him in a dialogue.",
+    "Jerome, Lives of Illustrious Men 83, tr. Ernest Cushing Richardson: bishop of Olympus and later of Tyre; martyred at Chalcis; wrote against Origen. The approximate year 300 is reckoned from his dating of the death.",
+    "Jerome, Lives of Illustrious Men 54, tr. Richardson: Origen's death under Gallus at sixty-nine, some fifty years before.",
+    "Jerome, Apology against Rufinus I.11, tr. W. H. Fremantle: Eusebius, in the sixth book of his defense of Origen, asks how Methodius dared to write against Origen now.",
+    "Photius, Bibliotheca 234 (extract), tr. W. R. Clark: Origen taught that the soul received the body as a fetter after its fall; Methodius answered that the body is no fetter and that a person is soul and body joined.",
+    "Methodius, On the Resurrection, tr. Clark: sin as a tree grown into the temple's stones, torn out so the temple may stand; the flesh raised \"with the same parts, uninjured and immortal, while sin is utterly and entirely destroyed.\"",
+    "Epiphanius, Panarion 64, Greek, ed. Karl Holl: he rests on Methodius and sets out his words word for word.",
+    "Jerome, Letter 70 to Magnus, tr. Fremantle: Methodius's answer to Porphyry, counted among those that met him well.",
+    "Theodoret, Eranistes, tr. Blomfield Jackson: a passage kept from Methodius's sermon on the martyrs, and Methodius named among the bishops and martyrs whose words witness to the faith in Christ.",
+    "World census, The Anatolian Church in the Third Century: his tradition."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "with the same parts, uninjured and immortal, while sin is utterly and entirely destroyed.",
+      "printed": "with the same parts, uninjured and immortal, while sin is utterly and entirely destroyed.",
+      "work": "Methodius, On the Resurrection, tr. Clark",
+      "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+      "lines": "35400-35402",
+      "secondReading": "minor",
+      "uncertain": "The printed text doubles the emphasis (\"utterly and entirely\"). One reading keeps the doubling, and the other has the plain \"completely destroyed\"."
+    }
+  ]
+}

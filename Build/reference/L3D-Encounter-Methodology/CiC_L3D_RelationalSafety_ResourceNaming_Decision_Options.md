@@ -1,6 +1,6 @@
 # Relational Safety Redirect: Resource-Naming Decision
 
-**Portfolio-level decision under CO-022, escalation category 2** ("portfolio-level or cross-world strategic decisions") **— escalated directly to the project lead, not self-disposed by this build thread.**
+**Portfolio-level decision (escalation category 2: "portfolio-level or cross-world strategic decisions") — reserved to the project lead.**
 
 This decision sets the pattern every future formation world's Facilitator-governed relational-safety redirect inherits. It is not specific to World #1, and it is not a construction judgment this thread has standing to make on its own — CO-022 reserves exactly this category of decision to the project lead directly, and B7 (World #1's own Phase Six Facilitation Brief) already anticipated this exact question without resolving it.
 

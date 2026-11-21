@@ -1,0 +1,179 @@
+{
+  "knownFor": "Priest of the Church of England who, after feeling his heart warmed at a society meeting in Aldersgate Street in 1738, preached in the open air from 1739 and gathered those who answered into societies and weekly classes of about twelve. Those groups held the Methodists together and became the frame of the Methodist churches.",
+  "datesNote": "Wesley's own Journal runs from his voyage to Georgia in 1735 to 1790. He left Georgia in December 1737 and met the society in Aldersgate Street on 24 May 1738. He preached in the open air at Bristol on 2 April 1739, began the classes at Bristol in February 1742, and was dragged through Walsall by a mob in October 1743. The first Conference met in June 1744, and in September 1784 he ordained men for America. Jesse Lee says he died in London on 2 March 1791, not quite eighty-eight years old. No held source gives a birth date",
+  "placeNote": "Oxford (Lincoln College); Georgia; London (Aldersgate Street, Moorfields, the Foundery); Bristol; Wednesbury and Walsall",
+  "role": "Priest of the Church of England and Fellow of Lincoln College, Oxford; open-air preacher; organizer of the Methodist societies and classes",
+  "keyWorks": [
+    {
+      "title": "Journal",
+      "about": "his own account of his life and travels from the voyage to Georgia in 1735 to 1790, published by him in extracts; Curnock's edition sets his private Diary entries and notes beside it"
+    },
+    {
+      "title": "A Plain Account of the People called Methodists",
+      "about": "his telling of how the first society arose in London, the one condition for joining, how the class began at Bristol as a way to pay a debt, and what a class leader was to do"
+    },
+    {
+      "title": "The Character of a Methodist",
+      "about": "a tract of 1742 in which he says the name Methodist was fixed on them as a reproach, first given to three or four young men at Oxford, and that he was one of the first to bear it"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Jesse Lee, an American Methodist preacher, wrote in 1810 that the Rules Wesley had drawn up in England for the societies were kept in America with very little alteration. The Discipline of 1798 prints them, with classes of twelve under a leader.",
+      "In 1784 the American preachers resolved to form an Episcopal church, and answered the question of God's design in raising up the Methodist preachers with the aim of reforming the continent and spreading scriptural holiness over these lands.",
+      "The Conference of July 1791 counted 72,476 members of the societies in Europe and 136,622 in Europe and America.",
+      "At that Conference, after his death, the preachers wrote that they would show their veneration for him by trying to follow and imitate him in doctrine, discipline and life.",
+      "John Nelson, who heard him preach in Moorfields in 1739, was one of the first lay preachers, men who were not ordained."
+    ],
+    "remembered": [
+      "Elizabeth Ritchie, who kept his house in his last months, wrote that on the day before he died he cried out with all his remaining strength that the best of all is God with us, and said it again. She says the last word he was heard to say was Farewell.",
+      "Richard Allen, founder of the African Methodist Episcopal Church, wrote that he chose the Methodist connection for its plain doctrine and good discipline, and that some preachers became tyrants, especially to the colored people, turning them out of society with no trial."
+    ]
+  },
+  "uncertain": [
+    "Most of what is known of these years rests on Wesley's own Journal, which he edited and published in extracts in his lifetime. Independent checks exist at three points: Charles Wesley's journal for the night of 24 May 1738, John Nelson's account of hearing him preach in the open air, and the Conference Minutes and American records for what the societies became.",
+    "The Aldersgate meeting. Curnock says two rival sites claim to be the place and judges the balance of evidence to favor the Nettleton Court site. He also reports a suggestion that William Holland was the one reading Luther's preface. Both are an editor's views, and the Journal's own text names neither.",
+    "The bishop of Bristol. The talk survives through Henry Moore's Life, which says the original in Wesley's hand was before him. Curnock dates it to the second interview with Bishop Butler, on 18 August 1739.",
+    "The size of the first crowd. Wesley says about three thousand. A Moravian letter of 9 April 1739, quoted by Curnock, says three or four thousand.",
+    "Who proposed the penny a week. Wesley does not name him. Curnock's note names Captain Foy, citing Wesley's Thoughts upon Methodism, which the Library does not hold.",
+    "The size of a class. The Journal says about twelve in each class. In Wesley's later telling the first collector takes eleven of the poorest with him. The American Discipline of 1798 fixes it at twelve persons.",
+    "John Nelson wrote his account later in life. His own lines say he heard Wesley from a stand in Moorfields, where he says Whitefield also preached; that the sermon was in the open air is read from this.",
+    "The ordinations of 1784. The published Journal says he appointed Whatcoat and Vasey to serve in America. His Diary for the same days says he ordained them, and Dr. Coke; the words as a Superintendent are the editor's, set in brackets beside it. The reasons are Curnock's account: Wesley held that presbyters and bishops were no different in rank.",
+    "The count of 1791. The Library's text prints the America total as 61,146, a scan fault: the United States figure of 57,621 and the West Indies figure of 6,525 make 64,146, and 64,146 with 72,476 gives the printed 136,622. A note says only half the West Indies return was set down.",
+    "Richard Allen wrote in old age, and Jesse Lee wrote about forty years after the Rules came to America. Allen's charge against some preachers is his own view."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Journal, vol. I (Curnock's Standard Edition)",
+        "language": "English",
+        "file": "cic/texts/wesley-j_journal-v1_curnock1909.txt"
+      },
+      {
+        "title": "Journal, vol. II (Curnock's Standard Edition)",
+        "language": "English",
+        "file": "cic/texts/wesley-j_journal-v2_curnock1909.txt"
+      },
+      {
+        "title": "Journal, vol. III (Curnock's Standard Edition)",
+        "language": "English",
+        "file": "cic/texts/wesley-j_journal-v3_curnock1909.txt"
+      },
+      {
+        "title": "Journal, vol. VII (Curnock's Standard Edition)",
+        "language": "English",
+        "file": "cic/texts/wesley-j_journal-v7_curnock1909.txt"
+      },
+      {
+        "title": "Journal, vol. VIII (Curnock's Standard Edition)",
+        "language": "English",
+        "file": "cic/texts/wesley-j_journal-v8_curnock1909.txt"
+      },
+      {
+        "title": "A Plain Account of the People called Methodists",
+        "language": "English",
+        "date": "1749",
+        "file": "cic/texts/wesley-j_plain-account-of-the-people-called-methodists_1749.txt"
+      },
+      {
+        "title": "The Character of a Methodist",
+        "language": "English",
+        "date": "1742",
+        "file": "cic/texts/wesley-j_character-of-a-methodist_farley1742.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Journal, vol. I",
+        "author": "Charles Wesley",
+        "language": "English",
+        "date": "1849",
+        "file": "cic/texts/wesley-c_journal-v1_jackson1849.txt"
+      },
+      {
+        "title": "Minutes of the Methodist Conferences, vol. I, 1744 to 1798",
+        "author": "The Methodist Conference",
+        "language": "English",
+        "date": "1862",
+        "file": "cic/texts/methodist-conference_minutes-v1-1744-1798_1862.txt"
+      },
+      {
+        "title": "A Short History of the Methodists in the United States",
+        "author": "Jesse Lee",
+        "language": "English",
+        "date": "1810",
+        "file": "cic/texts/lee-jesse_short-history-of-the-methodists-in-the-united-states_1810.txt"
+      },
+      {
+        "title": "Doctrines and Discipline of the Methodist Episcopal Church",
+        "author": "Thomas Coke and Francis Asbury",
+        "language": "English",
+        "date": "1798",
+        "file": "cic/texts/methodist-episcopal-church_doctrines-and-discipline_coke-asbury1798.txt"
+      },
+      {
+        "title": "Journal of John Nelson, in The Lives of Early Methodist Preachers, vol. I, with Thomas Jackson's introductory essay",
+        "author": "John Nelson",
+        "language": "English",
+        "date": "1865",
+        "file": "cic/texts/methodist-preachers_lives-of-early-methodist-preachers-v1_jackson1865.txt"
+      },
+      {
+        "title": "The Life, Experience, and Gospel Labors of Richard Allen",
+        "author": "Richard Allen",
+        "language": "English",
+        "date": "1880",
+        "file": "cic/texts/allen-richard_life-experience-and-gospel-labors_1880.txt"
+      }
+    ]
+  },
+  "briefReferences": [
+    "Journal, 24 May 1738, in Curnock's edition: he went very unwillingly to a society in Aldersgate Street, where one was reading Luther's preface to the Epistle to the Romans, and felt his heart warmed. Charles Wesley's journal for that night: his brother was brought in by friends and declared, \"I believe.\"",
+    "Journal, 31 March 1739: he could scarce reconcile himself to preaching in the fields, Whitefield having set him an example, and would have thought saving souls almost a sin if not done in a church. Curnock's note: Whitefield called Wesley to his help and left him in Bristol. On 2 April he spoke in a ground adjoining the city to about three thousand people.",
+    "Journal, 1739, his letter to the bishop of Bristol: ordained a priest and a Fellow of a College, he had no particular cure. The Character of a Methodist: the name was fixed on them by way of reproach.",
+    "Journal, August 1739, as Henry Moore prints Wesley's record and Curnock quotes it: the bishop of Bristol tells him he has no business in the diocese and advises him to go; Wesley answers that he will stay.",
+    "Journal, 15 February 1742, and A Plain Account: the Bristol society's debt, a penny a week, classes of about twelve each with one collector; the collectors report members not living as they should; the leader sees each member weekly; some turned from their ways and some were put away.",
+    "Journal, 20 October 1743: at Wednesbury the mob cried out to bring out the minister; the Walsall mob dragged him along, many crying to knock his brains out. Journal, February 1744: James Jones's account of mobs in Darlaston and Wednesbury.",
+    "Conference Minutes, 1744: the first Conference at the Foundery allows lay assistants only in cases of necessity.",
+    "Journal, 1 September 1784, and Diary, 1 and 2 September: he appointed Whatcoat and Vasey for America, and the Diary says he ordained them and Dr. Coke. Curnock's introduction to the volume: his reasons.",
+    "Lee's account of the Christmas Conference of 1784: the American preachers form an Episcopal church.",
+    "Conference Minutes, July 1791: the count of members in Europe and America, more than 130,000.",
+    "Lee on the American societies in 1770, and the Discipline of 1798: the Rules were kept with very little alteration, and classes of twelve under a leader. Richard Allen's Life: his reasons for choosing Methodism, and his charge that some preachers turned colored members out of society with no trial.",
+    "Journal, Curnock's printing of Elizabeth Ritchie's account: on Tuesday, 1 March 1791, he cried out that the best of all is God with us, and repeated it; he died on Wednesday morning with friends kneeling around his bed. Lee: he died in London on 2 March 1791, not quite eighty-eight years old.",
+    "World census, John Wesley: his own entry, and the Methodist revival, the tradition he is told within."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "I felt that I did trust in Christ, in Christ alone, for salvation. And I was given an assurance that he had taken away my sins, even mine, and saved me from the law of sin and death.",
+      "printed": "I felt I did trust in Christ, Christ alone for salvation ; and an assurance was given me that He had taken away my sins, even mine, and saved me from the law of sin and death.",
+      "work": "John Wesley, Journal, 24 May 1738, in Curnock's edition, vol. I",
+      "file": "cic/texts/wesley-j_journal-v1_curnock1909.txt",
+      "lines": "27071-27074",
+      "secondReading": "same"
+    },
+    {
+      "modern": "I believe.",
+      "printed": "I believe.",
+      "work": "Charles Wesley, Journal, 24 May 1738",
+      "file": "cic/texts/wesley-c_journal-v1_jackson1849.txt",
+      "lines": "7723-7724",
+      "secondReading": "same"
+    },
+    {
+      "modern": "Bring out the minister.",
+      "printed": "Bring out the minister",
+      "work": "John Wesley, Journal, 20 October 1743, in Curnock's edition, vol. III",
+      "file": "cic/texts/wesley-j_journal-v3_curnock1909.txt",
+      "lines": "5741-5742",
+      "secondReading": "same"
+    },
+    {
+      "modern": "The best of all is, God is with us.",
+      "printed": "The best of all is, God is with us",
+      "work": "Elizabeth Ritchie's account of Wesley's last days, in Curnock's edition of the Journal, vol. VIII",
+      "file": "cic/texts/wesley-j_journal-v8_curnock1909.txt",
+      "lines": "9033",
+      "secondReading": "same"
+    }
+  ]
+}

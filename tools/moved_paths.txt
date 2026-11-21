@@ -70,3 +70,7 @@ cic-website/audio/stories   cft-website/audio/stories
 cic-website/atlas.html   Archive/Superseded-Site-Pages/atlas.html
 cic-website/world-atlas.html   Archive/Superseded-Site-Pages/world-atlas.html
 cic/texts/van-braght_martyrs-mirror_sohm1886.txt   Archive/Retired-Library-Texts/van-braght_martyrs-mirror_sohm1886.txt
+Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Standard.md       Archive/Superseded-Method/Church-Family-Tree-Brief-Kit-2026-11-18/Standard.md
+Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Shapes.md         Archive/Superseded-Method/Church-Family-Tree-Brief-Kit-2026-11-18/Shapes.md
+Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Outline_Template.md Archive/Superseded-Method/Church-Family-Tree-Brief-Kit-2026-11-18/Outline_Template.md
+Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Process.md        Archive/Superseded-Method/Church-Family-Tree-Brief-Kit-2026-11-18/Process.md

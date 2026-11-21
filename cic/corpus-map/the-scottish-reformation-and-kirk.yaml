@@ -100,8 +100,8 @@ works:
     pages (the table of heads and chapters I-II, file lines about 28160-28280) is badly garbled,
     so for those pages this file is a second witness only; chapters from about III onward
     are clean. A clean text of the whole is in Dunlop''s Collection of Confessions (1719,
-    archive.org acollectionconf01scotgoog) and in Calderwood''s History vol. III, both verified
-    leads, not yet vendored.
+    archive.org acollectionconf01scotgoog; a verified lead, not vendored, queued in DOWNLOAD-QUEUE.md)
+    and in Calderwood''s History vol. III (vendored as calderwood_history-of-the-kirk-v3-1570-1583_thomson1843.txt).
 
     '
   source_file: kirk-of-scotland_booke-of-the-universall-kirk-1560-1602_peterkin1839.txt

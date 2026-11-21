@@ -4640,3 +4640,392 @@ Heard lengths: the people run from 2:07 (Baudonivia) to 3:12 (Arius). Toledo run
 - Radegund: her strongest moments earlier, and "Chlothar", as in Baudonivia's recorded piece.
 
 Each keeps its approved essence. One independent check follows, then the census, then the scripts go back to Mark. This is a change order on finished texts, because the faults are one-hearing faults, not polish. The kit changes for batch 5 come after.
+
+## 2026-11-18 — The brief kit for batch 5, as one document (Mark)
+
+**Why.** Four fresh listeners read the twenty-four new-kit stories and found the collection serves the tree (`Build/Ministry/Operations/Audits/2026-11-18_cft-needs-read/`). What they named was how a story is built for one hearing. Mark asked for "a cohesive kit that doesn't loose the quality we have achieved but helps narrow it in on the brief quality and content we need", decided one question at a time.
+
+**Decided (Mark, 2026-11-18).**
+1. **One line through the life** ("1"). After the hook and the essence, the beats follow the life once, in order: never the same event twice, never the ending and then back. A repeat or a jump back is blocking.
+2. **Every name earns its place** ("1 but the warning is 6 not 8 but not a cap"). A person is named only when they act in the story or are a link on the tree; anyone else is given by role; each source is named once. Past about six names, ask whether each is needed: a warning, not a cap. A new Names field in the outline. A name heard once that neither acts nor links is minor, and blocking only where the listener is lost.
+3. **How-we-know beside the claim** ("1"). Each witness is credited where their claim is told. A life resting on one witness is said once, inside a sentence about that witness. Where the doubt is the story, it becomes a scene. No stock how-we-know sentence.
+4. **Sibling stories briefed together** ("1"). At the slate, stories that share an event or a text each get their own job, and the later researcher reads the sibling first. No quote already used on the tree, unless Mark says so. One spelling across the tree. A new script, `tools/check_tree_overlap.py`, lists shared quotes and close spellings.
+5. **A line about today** ("make it optional and allowed"). One clause on who keeps this person, text or practice today, only where a held source or the tree's own sourced tradition entry says it. It sits with what came of them, never as the closing line, never as a moral.
+6. **One document** ("1", adopting the draft). `Standard.md`, `Shapes.md`, `Outline_Template.md` and `Process.md` become the four parts of `Brief-Kit/Kit.md`; the four files move to `Archive/Superseded-Method/Church-Family-Tree-Brief-Kit-2026-11-18/`. The role prompts point to its parts. Three British spellings in the old text become American.
+
+**Scope (Mark, 2026-11-18: "this is for work going forward, nothing that is complete").** The kit governs batch 5 onward. No finished story is reopened because of it.
+
+## 2026-11-18 — Batch 5: the slate and each story's job (Mark)
+
+**Why.** All 250 people on the tree have a story, but 226 were written before the new kit. The listeners' read named two gaps on the slate: nothing yet tells how the Church of the East came to stand apart, and Protestant figures are few (Open-Gaps 329).
+
+**Decided (Mark, 2026-11-18: "1"; then "i approve in a new thread").** Batch 5 rewrites twelve on the kit: Nestorius, Cyril of Alexandria, Barsauma of Nisibis, Babai the Great and Timothy I of Baghdad; Martin Luther, William Tyndale, John Calvin and John Wesley; Augustine of Hippo, Patrick of Ireland and Athanasius of Alexandria. Each story's job, and the live stories it must not repeat, are as written in `Launch-Prompts/CFT_Batch5_Launch_2026-11-18.md`. The ten older stories already recorded become batch 6. Batch 5 runs in a new session.
+
+## 2026-11-18 — Batch 5 hearts: church words explained, and Luther's job re-set (Mark)
+
+**Why.** Mark read the twelve hearts (https://claude.ai/artifact/V5gaZrGddA7eGT2BH43yfm): "i like them but there are a lot of old church words, they need an explantion". Asked whether Luther's writings against the peasants and the Jews should be told, he asked first whether they were core to the life or whether other things of the same weight were also left out ("we dont hide, but we don't make it bigger just to tell it"). The answer was that the job as set (the protest, Worms, the Bible and hymns) left out his teaching on grace, the break of 1520, the Peasants' War, the marriage and the catechisms, at the same weight.
+
+**Decided (Mark, 2026-11-18).**
+1. **Church words.** Every outline in the batch carries a "Words to explain" list after its Setting: each church or period word a general listener would not know at once, with a plain word to use instead or a short gloss worked into the sentence where it is first heard. Do not say bars each one used without its plain sense the first time. The hearts are restated in plain words (`Build/Ministry/Operations/Audits/2026-11-18_batch-5/Hearts_Plain.md`).
+2. **Luther's job, re-set** ("b is my recomondation"): what he taught about grace and why he protested; his break with Rome and his stand at Worms; the German Bible and hymns; and the hard turns of 1525. His late writings against the Jews go on the card, credited (the 1543 treatises are not held).
+3. **Luther's length** ("luther can be a time exeption and streatch to 4"): up to about 4 minutes, as an exception to the kit's three for a person.
+4. **What else the outlines leave out.** Mark asked for what was left out of the others ("give me what left out of the others"), and was shown each outline's Leave out, sorted by weight. For six, something of the same weight as what is told was missing: Calvin (his teaching on God choosing who is saved, and the quarrels it caused), Augustine (the Confessions shown through the garden in Milan, Monica, and his case for compelling the Donatists), Athanasius (his teaching, why "of one being" mattered to him; optionally Frumentius as a link), Tyndale (why the king turned against him), Barsauma (his own marriage, both versions credited), and Timothy I (the Aristotle translation, if a held source supports it). Mark: "i would allow all of these a little more time they are all significant voices, the 3 minutes is a pressure not a cap". Those six go back to their researchers, each with a little more time, set by what the added beat needs and never filled to.
+5. **The hearts approved** ("yes they are better keep going"), as shown in plain words (https://claude.ai/artifact/V5gaZrGddA7eGT2BH43yfm, version 2). The outline checks begin.
+6. **The kit's time line** ("yes the kit should pressure not cap"). Part 1 and Part 3's Length field now read about three minutes for a person and four for a council as a pressure, not a cap: longer when a major figure's turning points need it. Per the kit's own scope, this governs batch 6 on and reopens no finished story.
+7. **The smaller questions, as recommended** ("Yes for the smaller questions"): Wesley's "strangely warmed" is not quoted again (the Methodist Revival story has it); a paraphrase on a tradition page does not count as a used quote, so Timothy's letter on the Book of the Gospels may be quoted; Babai's "three Doctors" line stays out of both Babai's and Nestorius's stories; the catholicos of 484 is spelled "Babowai" across the tree; the Marcella detail stays in Marcella's story.
+8. **Length in review** (Mark, after five briefs ran a minute or more past their outlines): "we do not cut to meet a hard ceiling, that always leaves it not flowing, we want pressure to 3 minutes, but take what it needs, 4:30 for Luther might be needed". No ceiling is cut to. The reviewer asks of each part whether the story needs it: what it does not need goes; what it needs stays, whatever the clock says. The pressure is toward three minutes.
+9. **Cards for the seven without one** (Mark, 2026-11-18: "New card, checked"). Nestorius, Luther, Tyndale, Calvin, Wesley, Augustine and Patrick are older major entries with no `card`. A card writer builds a full card from the outline, source sheet and finished brief, in the format of the other cards; the checker confirms every claim against its source; it goes into the census beside the entry's existing fields, which stay unchanged.
+10. **Length, made clearer** (Mark, after reading the twelve finished stories): "i did want them closer to 3 minutes with the most robust pushing 4 or a little more, but 5:30 is beyond what studys say people will stay engaged for". The census release was paused and its live changes taken back. Each story is reshaped, not clipped, from its current text and outline: fewer beats, the heart in the first minute, the record's force, and the plain sense of every church word that stays; no quote changes. Targets: Luther about 4:15; Athanasius and Calvin about 4:00; Cyril, Nestorius, Tyndale and Wesley about 3:30; Patrick, Babai, Barsauma and Timothy I about 3:00 to 3:15. Augustine ("probably the most complex story, so maybe it takes that long"): a version tightened to about 4:30 is drafted, and an independent reader judges whether it limits the story or is as good; that comes to Mark ("review if the tightening will limit the story or be as good").
+11. **Augustine's length** (Mark, after the independent comparison: "Tightened, Luther back"). The tightened version goes forward, with Luther's two sentences restored word for word and the reader's three flow fixes; about 4:56.
+12. **The reshaped lengths stand** (Mark: "Approved"), as shown on the stories page: from about 3:17 (Babai) to about 4:59 (Augustine); the batch about 48 minutes, down from about 65. The census release resumes.
+
+## 2026-11-19 — Batch 5: Barsauma reworked, a sixth reader, then record and go live (Mark)
+
+1. **Cap ruling (2026-11-19, Mark: "Rework now (Recommended)").** Barsauma of Nisibis has used its three reviews (`Review.md`, `Recheck_Story.md`, `Reshape_Review.md`). The drift read (`Build/Ministry/Operations/Audits/2026-11-19_batch-5-read/`) found it the one story listeners lose: the pastor and the general listener rated it a miss, and the historian skeptic marked it drifting. Mark ordered a rework that keeps the approved heart and the record, follows one line, states the marriage conflict once, holds to two or three dates and ends on the person. It gets one independent review, which does not count toward the cap: `Build/Ministry/Operations/Audits/2026-11-18_batch-5/barsauma-of-nisibis/Rework_Review.md`. A card check and second readings follow for any changed quote.
+2. **A reader re-assessing their faith** is the sixth persona of the drift read (Mark: "re-assesing faith"). It is a drift check, like the others, not a request for changes.
+3. **Then record and go live** (Mark: "after go ahead and record the rest and go live"). Recording follows the paid-run rules: one item first, settings printed, the balance checked after. Promotion follows `Build/Ministry/Operations/Standing/CiC_Promotion_Runbook.md`.
+4. **Narsai added to Barsauma** (Mark: "yes add narsai to barsaumas story"). The rework review's MINOR 2 is applied word for word, so it needs no further check: "At Nisibis he welcomed the teacher Narsai and asked him to found a school, which counts them both as its founders." Barsauma is re-recorded within the same cap.
+
+## 2026-11-18 — The Who list says who each person was; the Origin river is renamed
+
+**Why.** Mark: clicking a Who figure gave "a menu … with names but not clear understanding who they are". The list showed names and dates only. Its heading, "Who: Origin, era 1", used the builder's name for the trunk river and an era number.
+
+**Decided (Mark, 2026-11-18).**
+- The list stays on the left and the person card on the right, so both are seen together ("seeing them together … makes more sense"; "Keep today's sides").
+- Each row shows the person's role line from their card, under the name ("Tacitus · Roman historian"). The tradition panel's Who list shows it too. The 27 people with no card yet show name and dates only. They fill in when the Who profile rewrite gives them cards; no role line is written for them here.
+- The heading reads "People of …" ("A"), with the era's own one-line description under it ("and a brief description"), then the era title, the count and the dates. A tradition's list reads "People of" its name.
+- The Origin river is renamed "The First Churches" everywhere ("B"). Each river carries the phrase its Who heading uses (`of` in the river list): a region reads "the Greek East", a bridge river "the Greek and Latin river", Across families "many families". The census validator's council river name changes to match; no council names the river yet.
+
+## 2026-11-18 — A click on the empty map closes the card; the brief keeps playing
+
+**Why.** Mark: a card "stays open until the x is clicked … should we also close it if the user clicks on the map to go back to it".
+
+**Decided (Mark, 2026-11-18).**
+- A plain click on empty map closes the card. A drag to move the map never does. A click on a place, person, story, council or connection still opens that card in its place. The Who list stays open.
+- A recorded brief starts by itself and runs two to four minutes, so the first rule ("the card stays open while the brief plays") would have made the click do nothing on most recorded cards. Mark chose instead: the card closes and the brief keeps playing ("Close, keep listening"). A small bar at the bottom shows "Listening:" and the card's name, with Pause or Play, "Open the card", and a close button that stops the brief. Opening the card again brings it back as it was, with the brief still playing. Opening a different card stops the old brief and hides the bar. The × on a card still closes it and stops the brief.
+
+## 2026-11-18 — Two first-visit tours: Getting started and Connections
+
+**Why.** Mark asked for "a click demonstration for those new to the site" to show its features. A research pass on comparable sites (history timelines and maps, data tools, Nielsen Norman Group and Material guidance) found that short tours that people choose are the ones they finish, and that a tour on a map works best when it shows the real move. The research page and the approved plan were reviewed as artifacts in the session.
+
+**Decided (Mark, 2026-11-18).**
+- Offered on the first visit, never forced ("Offered on first visit"). Not offered on a shared link to one tradition.
+- Each step highlights one thing, says it in one or two sentences, then does the real click; the visitor steps with Back, Next and Stop ("Shows each click, you step").
+- Getting started has five steps: the map, a tradition (Scattered Households), who was there (People of the First Churches, then Josephus), the era (the Early Church Era card), and the bar and Key ("ok for an initial intro").
+- A second tour of three steps for connections ("can we add a second one for when they open the connections"): what a line means, how sure the record is, and reading one. It is offered the first time connections are turned on, from the menu or from a card ("First use, either way in").
+- The captions and behaviours in the plan were approved as written ("they look right"): the brief never starts by itself during a tour; Stop, Escape or Done returns the map to the visitor's view; each offer is shown once, remembered in the visitor's browser; both tours can be taken again from "Take a tour" in the Key and in the phone Menu.
+
+## 2026-11-19 — The Family Tree stays a website for now; an app is looked at later
+
+**Why.** Mark asked what turning the Church Family Tree into an app would involve. Three routes were laid out: an installable web app (an app manifest, icons and offline use, on the same site and release process); the same site inside a store app (Apple and Google listings, store review on every release, a Mac to build the iPhone version, and the map's data moved out of the page so content can update without a store release); and a native rebuild (ruled out as rebuilding what already works).
+
+**Decided (Mark, 2026-11-19: "I think we stay web site for now and then look later at this").** No app work now. The question is tracked in Open-Gaps. When it is taken up again, the deciding question is what an app should do that the site does not: be found in the app stores, play briefs offline and with the screen locked, or sit on a home screen. Moving the map's data out of `index.html` into its own file is the first step any app route would need.
+
+## 2026-11-19 — Review checkmarks for rewritten Who profiles, seen only with a review link
+
+**Why.** Mark: "can we temperarily put a small green checkmark next to the updated who files so we can track what has been done and not on the live site".
+
+**Decided (Mark, 2026-11-19: "Live site, with a review link").** Opening the site with `?review` (for example `https://www.churchfamilytree.com/?review`) shows a small green check after the name of each person whose Who profile has been rewritten. It appears in the Who list, a tradition's Who list, the era card's major people and the person card's title. Visitors without the link see nothing. A rewritten profile is one whose card carries `briefReferences`, the field the batch kit adds; on 2026-11-19 that is 40 people, batches 1 to 5. The checks come out when the rewrite is done (Open-Gaps, "Review checkmarks for rewritten Who profiles: remove when the rewrite is done").
+
+## 2026-11-19 — Batch 6: era 1 first, the slate, an outside-witness shape, and the stories approved before the kit (Mark)
+
+**Why.** Mark (2026-11-19): "Launch batch 6 in new thread with updated kit. Let's focus in finishing era one then two." This replaces the plan that batch 6 would be the ten older recordings; those are reached era by era. The slate, each story's job and the kit questions went to Mark on one page (https://claude.ai/artifact/4cgx8VUgM7piGeR4bkYrSy, version 5). Mark also said Polycarp was already done ("We have already done polycarp"), and ruled that the stories approved before the kit are read for consistency once eras 1 and 2 are finished (Open-Gaps 332).
+
+**Decided (Mark, 2026-11-19: "Aprove as recomended").**
+1. **The split of era 1.** Batch 6 (twelve): Pliny the Younger, Tacitus, Suetonius, Josephus; Ignatius of Antioch, Irenaeus of Lyon, Polycrates of Ephesus; Hermas, Valentinus, Tatian, Bardaisan of Edessa, Hippolytus of Rome. Batch 7: Tertullian, Cyprian, Pontius the Deacon, Novatian, the councils of 251, Pamphilus, Eusebius of Caesarea, Dionysius of Alexandria, Peter of Alexandria, Anatolius and Lactantius.
+2. **Each batch 6 story's job, its siblings and the quote allocation**, as on the page and in `Build/Ministry/Operations/Audits/2026-11-19_batch-6/README.md`. Every quote in the approved Polycarp story and the live Marcion and Justin stories is barred from batch 6.
+3. **A sixth shape, "Outside witness"**, added to Part 2 of the kit, for Pliny, Tacitus, Suetonius and Josephus.
+4. **Two batch 5 findings carried into the kit.** Part 3 gains a "Words to explain" field (batch 5's list, made standing), with common words such as bishop, deacon, Scripture, gospel and church named as needing no gloss. Part 1's opening line now says a held-back name reveal is not a stock hinge.
+5. **The stories approved before the kit.** Origen and Methodius of Olympus, live and recorded at Standard v1 since data release 48, stay as they are until the consistency check, so batch 7 is eleven. Polycarp's approved text (`Audits/2026-11-16_polycarp-clean-write/Polycarp_approved.brief.txt`) goes live with batch 6 word for word, not reopened, with a new card built from its source sheet and checked, and is recorded with the batch.
+
+**Scope.** Per the kit's own rule, these kit changes govern batch 6 on and reopen no finished story.
+
+## 2026-11-19 — Change order: the stories approved before the kit go through review in their era's batch (Mark)
+
+**Why.** Batch 6's item 5 above released Polycarp's approved text word for word and left Origen and Methodius as they were until the consistency check at the end of era 2 (Open-Gaps 332). Mark: "Go ahead and include polycarp and others in the review process". Asked which others, he chose all of them ("All pre-kit stories").
+
+**Decided (Mark, 2026-11-19).** This replaces item 5 of the batch 6 entry above.
+1. Every story approved before the kit goes through the kit's review in the batch for its own era, beside its siblings: the overlap and variety checks, the one-hearing review and the source check, then one revision and one recheck where it fails. Approved wording is kept wherever it passes; a fix touches only what fails.
+2. Polycarp of Smyrna is reviewed in batch 6, with the new card already drafted, and recorded with the batch.
+3. Origen and Methodius of Olympus are reviewed in batch 7, which is thirteen again. They are re-recorded only if a fix changes their text.
+4. The other six (Constantine, Ephrem, Gregory of Nazianzus, Gregory of Nyssa and John Chrysostom in era 2; Gregory of Tours in era 3) are reviewed in their eras' batches.
+5. The end-of-era consistency read (Open-Gaps 332) still follows once eras 1 and 2 are done.
+
+## 2026-11-19 — Batch 6 hearts approved; Josephus told with what is held (Mark)
+
+**Why.** The twelve hearts went to Mark on one page (https://claude.ai/artifact/22bCrnfueurRHPzrhZpPiq; `Build/Ministry/Operations/Audits/2026-11-19_batch-6/Hearts.md`), with three job lines the sources corrected (Hermas was sold, not "a freed slave"; Valentinus "hoped to become a bishop", with no city named; Tatian's Diatessaron was the gospel most Syriac-speaking churches heard read, not "the one gospel"), and one question: the Library holds no scholarship after 1890 on Josephus's passage on Jesus.
+
+**Decided (Mark, 2026-11-19: "Approve as recommend").**
+1. The twelve hearts are approved as shown, with the three corrected job lines.
+2. Josephus is told with what is held: the old witnesses and the views as McGiffert set them out in 1890, each credited and marked Contested, with no claim of a current verdict. The card notes that modern work is not yet in the Library, and the Library thread adds a modern study of the passage to its wants.
+3. The outline checks begin.
+
+## 2026-11-19 — Batch 6: Irenaeus's length (Mark)
+
+**Why.** After the outline check and recheck, Irenaeus's beats would set to about six minutes of story, against the about 3:20 shown with his approved heart. A cut to about 3:40 would lose about two-fifths (`Build/Ministry/Operations/Audits/2026-11-19_batch-6/irenaeus-of-lyon/Recheck.md`).
+
+**Decided (Mark, 2026-11-19: "Let it take about 4:30 to 5:00").** Irenaeus runs about 4:30 to 5:00, like Augustine in batch 5. The writer tells what the outline holds at that length, never filling to reach it, and the reviewer asks of each part whether the story needs it.
+
+## 2026-11-19 — Batch 6: Bardaisan's length (Mark)
+
+**Why.** After review and its one revision, Bardaisan of Edessa runs about 4:30, against about 3:00 with his approved heart. The review found nothing the story does not need; its fixes restored Eusebius on his dialogues against Marcion's followers, the songs Ephrem answered, and how his argument passed into later books (`Build/Ministry/Operations/Audits/2026-11-19_batch-6/bardaisan-of-edessa/Review.md`, `Revision.md`).
+
+**Decided (Mark, 2026-11-19: "Let it stand at about 4:30").** The revised story stands at about 4:30.
+
+## 2026-11-19 — Batch 6: where sources disagree (Mark)
+
+**Why.** The card checks found places where a card stated one source's reading where held sources differ (for example, where the Chronicle sets Irenaeus's notice, and whether a scanned original can stand).
+
+**Decided (Mark, 2026-11-19: "ok we want it right, if two sorces say different things recognize that remember we are not pursuint perfection but high scholory acceptance").** Where two held sources say different things, the story or card says so and credits each, rather than choosing one. The bar is high scholarly acceptance, not perfection: a finding that something could be more exact, with nothing wrong or misleading, does not reopen a finished part.
+
+## 2026-11-19 — Batch 6: the recording approved, with a cap (Mark)
+
+**Decided (Mark, 2026-11-19: "Approve, cap 22,500 (Recommended)").** The thirteen batch 6 stories (the twelve and Polycarp), about 42,000 characters, are recorded on batch 5's printed settings: person voice `onegjDE2z0mQtp1g0HK7`, model `eleven_v4`, `mp3_44100_64`, stability 0.95, similarity 0.68, style 0, speaker boost on, `[pause]` between paragraphs, the seven respellings. Tacitus is recorded first for Mark's ear; the balance is checked before and after; the run stops at 22,500 credits.
+Mark heard the Tacitus sample (3:29, 1,506 credits) and approved the rest: "approved and go live" (2026-11-19).
+
+## 2026-11-19 — The kit after batch 6: length counted first, the writer's own checks, damaged scans flagged (Mark)
+
+**Why.** The batch 6 report (https://claude.ai/artifact/FR841atvSavxuXqn7Vhjad) found every draft ran 30 to 60 seconds past its outline, because outlines set the time before counting the quotes, glosses and credited views the kit requires. It also found the held-back name reveal in about half the drafts despite the kit line, seven of thirteen stories ending on a later writer, and quote originals held only in damaged scans found late, at the card step.
+
+**Decided (Mark, 2026-11-19: "make changes without loosing quality, i am more concerned with telling the story well than time, but over 4 minutes i think people start loosing interest unless its very compelling").**
+1. **Time.** Part 1 and Part 3's Length field: telling the story well comes before time; past about four minutes a listener starts to lose interest, so a person's story runs longer only when it is very compelling and its turning points need the room.
+2. **Length counted first.** Part 3's Length field counts the words the story must carry (its quotes, the plain sense of each word to explain and each witness it credits) before it sets the time.
+3. **The writer's own checks.** `roles/writer.md` carries the name-in-the-hook rule (no held-back reveal), the setting a clause at a time, and the ending on the person.
+4. **Damaged scans flagged at research.** `roles/researcher.md`: a quote whose original is held only in a damaged scan is flagged beside the quote, with any held print that confirms the reading; where none does, the card is planned to print the English alone.
+
+**Scope.** Per the kit's own rule, these govern batch 7 on and reopen no finished story.
+
+## 2026-11-19 — Cyril and Methodius get one person entry (Mark)
+
+**Why.** Their batch 4 story and card are finished (`Build/Ministry/Operations/Audits/2026-11-18_batch-4/cyril-and-methodius/`), but the census had no person entry for them, only the tradition `cyrillo-methodian-slavic-christianity` (Open-Gaps, "Batch 4, the rework of batches 1 and 2: what is open at the end of authoring", 2026-11-18).
+
+**Decided (Mark, 2026-11-19: "Add one entry for both (Recommended)").** One person entry, `cyril-and-methodius`, under their tradition in era 4, carries the finished story and card unchanged. A census pass checks the entry. The story is recorded on batch 6's settings once Mark sets a credit cap.
+
+**Recording and the major mark (Mark, 2026-11-19).** "Approve, cap 1,600 (Recommended)" for the one story, on batch 6's settings, and "Major (Recommended)": Cyril and Methodius carry the major mark.
+
+## 2026-11-19 — Place lines always sit under the tradition's name
+
+**Why.** Mark: "when you scroll in far enough to see location appear there are gaps and not layed out well". Each place line was placed once, when the map was laid out, from a guess at the name's width at normal size, either under the name or beside it. As the map zooms in, names are drawn smaller, so a line beside its name drifted away with a wide gap ("Anatolia, Turkey" floated far from Cappadocians), and the under-or-beside choice never changed with zoom.
+
+**Decided (Mark, 2026-11-19: "Always under the name").** Each place line now sits directly under its tradition's name, lined up with the name, the same gap every time. It is placed each time the map is drawn, measured against the name at the current zoom, with the same collision check the names use. Where there is no room under a name, the line stays hidden until zooming in opens room. While a tradition's people are shown beside it, its place line stays hidden as before.
+
+## 2026-11-19 — A new river's people sit where it turns down, not on the trunk
+
+**Why.** Mark: "the river people should sit right at the curve down, not on the early believer thread, that gets confusing with all of them looking like they are early believers not from other threads." In the era where a river begins, its people figure sat at the first point the river showed, which is where it leaves the First Churches, so Africa's "7" sat on the trunk beside Montanism.
+
+**Done (Mark's direction, 2026-11-19).** In the era where a river begins, its people figure now sits where the river has curved into its own lane and turns down (its start plus the merge window), moving further down only to clear a label. In every other era it is placed as before. Checked in era 1: Africa, Latin West, Syriac East and Non-Nicene each sit on their own river.
+
+## 2026-11-19 — A river branches only from a tradition it is linked to; the rest start on their own
+
+**Why.** Mark asked whether the rivers that leave the First Churches reflect the record or are drawn for effect, and why Non-Nicene leaves "on the third tradition down". Each river's parent follows the sourced rule of 2026-11-10, and the point where it left was its first tradition's start year (Non-Nicene's Gnostic Currents, 120). But a branch landed beside whichever trunk tradition sat at that year, so Non-Nicene looked as if it grew from The Apologists and Africa from Montanism.
+
+**Decided (Mark, 2026-11-19: "only rivers that show connection with traditions should start their otherwise they start just above the first tradition in that river"; then "All 8 start on their own").**
+- A river with a recorded descent link from one tradition (basis `lineage` in `RIVER_ORIGINS`) still branches from its parent river at its start year: Protestant & Evangelical, Syriac and Protestant, Greek and Latin, Africa and Latin, Latin and Protestant, and Across families.
+- A river whose parent is declared without such a link starts on its own, just above its first tradition: Syriac East, Greek East, Africa, Latin West, Non-Nicene, Caucasus, Church and Empire, and Global Revival & Pentecostal.
+- `RIVER_ORIGINS` is unchanged. Each river's card gains "Where it began": for a declared parent, its reason, parent, confidence and sources; for a lineage parent, the two linked traditions, the kind of link and its confidence.
+- A river's people figure in its first era sits where it settles into its own lane (for a river that starts on its own, at its start), lower only to clear a label.
+
+## 2026-11-19 — A river that starts on its own rises above its first tradition, with its people figure there
+
+**Why.** Mark: "extend the river up from the first tradition and put the who number for the river above the first tradition, here it looks like it from the tradition not the river". The river began at its first tradition and its people figure sat just below that tradition, so the figure read as the tradition's own.
+
+**Done (Mark's direction, 2026-11-19).** A river that starts on its own (no tradition-level link) now rises 90 map units above its first tradition, at full width, tapering to a point at its head. In its first era its people figure sits on that stretch, just above the first tradition and below the era line. The people figure of a river that branches from a linked tradition is placed as before.
+
+**More room above the first tradition (Mark, 2026-11-19: "extend the two that start right above the tradition up a little so there is a little seperation from the tradition and the river who number").** The river now rises 150 map units above its first tradition, and its people figure sits about one figure-height higher than before, so there is a clear gap between the figure and the tradition at every zoom. Where that would put the figure on an era's title (Church and Empire on a phone), it moves down just enough to clear it.
+
+## 2026-11-20 — Stories get river numbers and tradition marks like Who; People and Stories show one at a time
+
+**Why.** Mark: "the stories that are in the traditions on the cards are getting lost in the layers, can we do the same thing with them as the who with numbers". There are 507 stories in 267 tradition cards, seen only by opening a card and scrolling to "Documented stories", and 62 stories drawn on the map.
+
+**Decided (Mark, 2026-11-20).**
+- "exactly like who with both the era river number and traditions layed out the same, but also the stories in the gap remain with the switch is on". Each river shows a book with a count in each era, and a book sits beside each tradition with stories, where the person figure sits. Clicking either opens "Stories of …" in the left panel (the era's line, title, count and dates; each row the story's title, its tradition and when). Clicking a row opens the tradition's card with that story open. The river count includes the map stories of that river and era, which open their own card. The map stories still show between the rivers while Stories is on.
+- "One at a time": turning Stories on turns People off, and the other way round. Councils and Connections are not affected. People is on and Stories off by default (a session choice, open to change). The tour turns People on for its Who step and puts the visitor's choice back at the end.
+- A story's era comes from the first year in its "when" text when that falls within its tradition's span (60 years either side), else from the tradition's start.
+- The Key gains "Stories of a tradition" and "Stories of a river".
+
+**The starting map (Mark, 2026-11-20: "i thing we start with them both off and a very simple traditions map to start"; then "Keep Councils on").** A first visit now opens with People and Stories both off: the rivers, the traditions and the councils line only, with Connections off as before. This replaces the default above of People on. A visitor's own saved choices still apply on a return visit.
+
+## 2026-11-20 — Every card opens at its top
+
+**Why (Mark, 2026-11-20).** "if someone scrolls through a card and closes it and opens another it starts at the top, always open brings the card to the top". The card panel kept its scroll position, so a new card opened partway down.
+
+**Done.** Opening any card now starts it at the top, whether the last card was closed or not. Two cases keep their place on purpose: "Open the card" on the listening bar brings the same card back as it was, and opening a story from the story list opens its tradition's card at that story.
+
+## 2026-11-20 — Each river is named at its top, with its everyday name and a hover that explains it
+
+**Why (Mark, 2026-11-20).** "can we put the name of the river at the begining (mabey right at the top to the right) with a hover explaining, use the known name too"; then "can we add the river icon with it so they know its a river title and not a tradition".
+
+**Done.** At the top of each river, just to its right, the map shows the river symbol from the Key in the river's own colour, the river's name in small capitals, and its everyday name under it where it has one ("Greek East" / "Orthodox"). Hovering shows the name, the everyday name, the number of traditions and the years, and where it began: the recorded reason for a river that starts on its own, or the linked traditions for one that branches. Clicking opens the river's card. A name moves down a little to clear a tradition's name, a people or story number or an era title, and stays hidden until zooming in when there is no room near the top (era 2 on a phone at the opening zoom).
+
+## 2026-11-20 — The tree keeps going live on every merge
+
+**Asked.** Whether to release now, and whether the tree should publish from the reviewed `live` branch, as the conversation app does, instead of on every merge to `main`.
+
+**Decided (Mark, 2026-11-20: "everything is live and keep it that wasy, its more the timing of announcing it").** churchfamilytree.com keeps deploying from `main`: every merged change reaches visitors within minutes. No review step is added before the tree goes live; CI and the browser checks on each change stay the safeguard. The open question is when to announce the site, not whether to release it.
+
+## 2026-11-20 — The tree's own share picture and link preview
+
+**Why.** The announcement goes out on Facebook, LinkedIn, by email and by word of mouth, asking for feedback (Mark, 2026-11-20). The map page had no link-preview tags, the only shared picture was Church in Conversation's painting ("that is the picture for church in conversation, we need something different for church family tree"), and its description used older wording.
+
+**Decided (Mark, 2026-11-20: "A: Title card").** The share picture is made from the real map: "Church Family Tree", the line "Twenty centuries of Christian traditions, drawn as one map" and the address, over the first centuries of the map, 1200 by 630 (`cft-website/share/church-family-tree.jpg`). The page now carries Open Graph and Twitter card tags with the title "Church Family Tree" and the description "Twenty centuries of Christian traditions, drawn as one map. Explore and listen, then tell us what you think." (Mark, 2026-11-20: "do we want listen to and explore"), which also replaces the old page description.
+
+## 2026-11-20 — Asking for support: not in the launch posts; a gentle note after ten minutes on the map
+
+**Why.** Mark asked whether the announcement should invite financial support (the "Help us grow" page, Stripe, once or monthly). The launch posts ask pastors and scholars for review; asking for money in the same post weakens both asks.
+
+**Decided (Mark, 2026-11-20: "maybe we dont put it in the launch and we find a way for anyone who spends more than 10 minute we have a popup windo asking to help us grow"; then "Gentle note, once").**
+- The launch posts carry no request for money.
+- After ten minutes of active use (the page visible and in front of the visitor), a small note slides up in the corner, not blocking the map: "Glad you're exploring. If the map is useful to you, you can help it grow.", with "Help us grow" (the support page) and "Not now". It never appears during the tour, while the tour offer shows, or while any audio plays; it waits until they end.
+- After "Not now" or the close button it comes back after another two hours of active use on the site, counted across visits (Mark, 2026-11-20: "no not 30 days, if we say not now, then maybe 2 hours on the site"). After "Help us grow" it does not ask that visitor again. Remembered in the visitor's own browser.
+- Wording follows the support page: "support", never "donate", since payments to Faithways Studio are not charitable donations.
+
+**A line on every card (Mark, 2026-11-20: "we do need contributions and if this is available for free i don't want to be to passive"; then "lets go light for the early release and we can add more after we get everything built, Line on every card").** Every card (tradition, person, council, era, river, story, connection) now ends with "This map is free to use. If it helps you, help it grow.", linking to the support page, above the feedback buttons. The launch posts still carry no request for money. Stronger asks (after a brief ends, a sooner note) wait until the build is complete.
+
+## 2026-11-20 — Built worlds on the tree move to the standard voices, after a rewrite into the narrator's voice
+
+**Why.** Mark: "for the built words can we replace the representitve voices with the standard voices we have chosen (neo and the other)". The 11 built worlds' recordings on the tree (each world's Story, Legacy and documented stories: 122 pieces, about 152,000 characters, `cic-website/audio/worlds/`) are read in each Representative's own voice. The standard tree voices are Daniel for tradition briefs and councils and Neo for stories and Who briefs.
+
+**Decided (Mark, 2026-11-20).**
+- "Church Family Tree only": the tree gets its own Daniel and Neo recordings; Church in Conversation keeps each Representative's voice. The world Story and Legacy go to Daniel, the documented stories to Neo.
+- "Rewrite, then record": 60 of the 122 texts speak in the world's own voice ("our communities", "our tradition", "our church's memory"). Read by the map's narrator, that would claim membership of each church. Each piece is first rewritten into the tree's narrator voice through the brief kit, with quotes rechecked, then recorded after Mark hears a sample. Until then the tree keeps the Representatives' recordings. The writing runs as its own thread (Open-Gaps, "Built worlds in the standard voices").
+
+**Where the rewritten texts live (Mark, 2026-11-20: "Yes, send it").** The rewrite thread asked where its texts should live. They are drafted and reviewed as working files under `Build/Ministry/Features/Church-Family-Tree/`, laid out like `Who-Profiles/`; the world records, Church in Conversation's data and the tree's files are not touched. Once they pass review, the site thread releases them on the tree in one step: built-world cards show the rewritten text and play the matching Daniel and Neo recordings, after Mark approves a sample. The texts are written to the tree's reading-level bar, since visitors will read them as well as hear them.
+
+## 2026-11-20 — How the built worlds' texts are rewritten for the tree
+
+**Why.** The rewrite decided in "Built worlds on the tree move to the standard voices, after a rewrite into the narrator's voice" (2026-11-20) needed a home, a depth and a rule for faults already in the worlds' texts. Of the 122 texts, 111 score under grade 8, nearly all as runs of short one-act sentences, and two Legacy pieces (desert, Zurich–Geneva) fail the hard limits.
+
+**Decided (Mark, 2026-11-20).**
+- Home: option C, sent through the site thread. Working files under `World-Narration/`, one per piece per world, with a README. No edit to `records/`, `cic-website/` or `cft-website/`. The site thread releases them; the tree will show and play them.
+- Depth: "change the voice, and link the prose". Content and order kept; first person and emic hedges become the narrator's third person and plain doubt at the same strength; short runs joined with cause, contrast and time where the original supports it; only what fails the kit's blocking bar is fixed.
+- Faults already in a world's text: corrected in the tree text to what the record's sources and confidence hold, each correction independently checked, and each logged in that world's `Open_Gaps_Tracking.md` for its record owner.
+- The post-apostolic house church ran first as a pilot, through rewrite, review, one revision and a targeted recheck, before the other ten worlds.
+
+## 2026-11-20 — The narrator calls the Donatists' opponents "Caecilian's church"
+
+**Why.** The Donatist world tells the North African split from the Donatists' side, naming the other church "the rival church" or "the other side". Both churches called themselves the Catholic church until an imperial ruling gave the name to one side, and "Caecilianist" was the Donatists' own label. The tree's narrator has to name that church without taking a side (Kit Part 1, Rigor).
+
+**Decided (Mark, 2026-11-20).** Option A of three ("Caecilian's church", "the Catholic church", "the Catholic party"): the narrator says "Caecilian's church", named for its first bishop as "the party of Donatus" is named for his. Its first mention in a piece says once that it came to be called the Catholic church. Polemic labels ("Caecilianist", "traditor", "persecution") stay credited to whoever used them.
+
+## 2026-11-20 — Built worlds on the tree recorded in the standard voices, and released
+
+**Decided (Mark, 2026-11-20).** After the two samples ("Approve, cap 155,000 chars"), all built worlds' narrator texts were recorded, and Mark asked for it to go live when done ("when it's done send it live").
+
+**Done.**
+- `generate_world_narration.mjs --tree` reads each piece's reviewed text from `World-Narration/`, refuses one whose source changed after the rewrite, and writes to `cft-website/audio/worlds-tree/`, each entry with the text it was recorded from and the world's piece list.
+- The run, settings printed before every request: Daniel (`onwK4e9ZLuTAKqWW03F9`, `eleven_multilingual_v2`) for 21 Story and Legacy pieces and Neo (`onegjDE2z0mQtp1g0HK7`, `eleven_v4`) for 99 documented stories, both `mp3_44100_64`, `{"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true}`, speed 1, tempo 1. 152,331 characters, 73,861 credits, under the 155,000-character cap; with the two samples (876 credits), 122 pieces and 74,737 credits.
+- Checked: all 122 files present, each recorded from its reviewed text; on the map all 11 built-world cards show the narrator texts and play only the tree recordings. Church in Conversation keeps its texts and Representative voices.
+- The map switches a world only when every piece is recorded; a later world rebuild that changes a source text makes its piece stale, and the tool refuses it until it is rewritten.
+
+## 2026-11-20 — The map names the same number of traditions in every era at the middle zoom
+
+**Why.** Between Z_MAJOR (0.50) and Z_ALL (0.80) the map names only "major" traditions: Built & Live ones, or ones with a major person told within them. People exist for eras 1 to 4 only, so eras 5 to 10 showed almost nothing there. Traditions named per era 1..10 were 10, 19, 13, 10, 1, 2, 3, 1, 0, 0.
+
+**Decided (Mark, 2026-11-20: "this works but do drop if traditions colide").** Per era, name N traditions, where N = min(era total, max(today's count, 15, min(22, ceil(0.66 x era total)))). Traditions named today stay. The remaining slots go to the era's most connected traditions (census edges in and out, ties by name). The label-collision dropping stays: the rule picks candidates, and a label that would collide is still dropped.
+
+**Done.** `cft-website/index.html` derives the set in code (`majorTraditionIds`, beside `isMajorTradition`), so new traditions and edges are picked up. No change to the census data, the zoom thresholds or anything else on the map.
+
+**Result.** Candidates per era 1..10: 15, 19, 15, 17, 18, 16, 22, 22, 22, 22 (matches the rule). Names actually shown at zoom 0.6 after collisions, desktop 1400 px: 14, 18, 14, 17, 17, 10, 22, 21, 20, 19. Phone 390 px: 15, 19, 15, 17, 18, 16, 22, 22, 22, 20. Era 6 on desktop falls to 10 of 16 because its names crowd together.
+
+## 2026-11-20 — Names fill the room as the map zooms in, until all are shown
+
+**Why.** After the per-era floor (entry above), Mark asked for balance as readers zoom in and out until all traditions show: "as we scroll in theres room for more traditions and voices/stories as they are turned on. it is to keep things populated but clean, not overwhelming or to crowded". The map still jumped from the floor to every name at 0.80.
+
+**Decided (Mark, 2026-11-20).** Option A of three (room-led; names-first; fixed tiers). Between 0.50 and 0.80 each era may name its traditions in rank order, up to a cap that grows with the screen area the era covers (floor x (zoom / 0.50)^2, never above the era's total). The floor names are placed first, then voices and stories, then the extra names fill whatever room is left, so switching voices or stories on never crowds them out. Collision dropping is unchanged. Zoom thresholds unchanged.
+
+**Result.** Names shown per era 1..10, desktop, voices and stories on, at zoom 0.5 / 0.6 / 0.7 / 0.8: 12 16 14 14 14 9 18 19 17 18 / 19 21 17 24 24 16 28 30 30 24 / 20 23 19 25 27 24 34 42 43 41 / 20 23 19 25 27 24 36 50 62 64 (the last row is every tradition). Phone is within 1 to 2 per era of desktop. Eras 1 to 5 reach every name by about 0.6; eras 7 to 10 fill across 0.5 to 0.8.
+
+## 2026-11-20 — Fully zoomed out, every era is populated
+
+**Why.** Mark: "all the way out should have the minimum, currently era one has 2 scrolled all the wait out." Fully zoomed out the map named only Built & Live traditions, which exist in eras 1, 2 and 7 only, so most eras looked empty.
+
+**Decided (Mark, 2026-11-20).** First "sorry 4"; then, replacing it: "the built should not have any influence on this, this is about feel and sence of scope, it cant look empty" and "zoomed all the way out should have as many as the window will hold while not being crowded, i would think the 10 to 15". So below the middle zoom each era offers up to 15 traditions, chosen by connections alone (census edges, ties by name) from the names that show at 0.50, so zooming in only adds names. Collision dropping decides how many the window holds. Built & Live no longer decides anything here.
+
+**Result.** Desktop at the farthest zoom-out (0.45), names shown per era 1..10: 12 11 13 12 11 8 13 13 13 14; no overlaps in the screenshots checked. On a phone the map can zoom out to 0.18; below 0.34 the whole map switches to its simplified view, which shows no names at all. That threshold was not changed and is open for Mark.
+
+**Tested with People and Stories on (Mark: "test it with the who on then the stories on").** Compared with `main` at eras 1, 2, 5, 7 and 9, zoom 0.45 to 1.0, desktop and phone. At the farthest zoom-out the first version let story pills land on four names, so the far-out names now yield to the pills as the in-between names do. After that no name overlaps a pill or story mark, apart from invisible pill hit-boxes that touch a name by a few pixels (also on `main` at 0.8 and 1.0). Names shown across those five eras on desktop: 78 at 0.45 (12 on `main`), 85 at 0.5, 126 at 0.65, 119 at 0.8.
+
+## 2026-11-20 — River-name icon matches the Rivers toggle
+
+Mark: "the river icon should match the double river icon on the toggle".
+
+**Done.** The icon beside each river's name on the map now uses the same two-strand shape as the Rivers button in the feature bar, kept in that river's own color so it still ties to its river. The name moves over slightly to make room.
+
+## 2026-11-21 — Phones get the same names, with more zoom steps
+
+**Why.** Mark: "no, make phones work by the same principles we used" and "smaller screens more zoom options". A phone can zoom out to 0.18, where the map switched to its simplified view below 0.34 and drew no names, so it looked empty. Phones also have less room, so they need more steps to reach the same detail.
+
+**Decided (Mark, 2026-11-21).** The simplified view's cut-off moves below any zoom a phone can reach (0.34 to 0.10). The opening zoom keeps its old floor, so nothing changes at first load. Names on a phone follow the same rules as on desktop: up to 15 per era by connections, room decides how many fit, and each zoom-in step adds names. Era captions now also count as occupied space, so names no longer sit on an era title (phone captions are wider than desktop's). Desktop never zooms out that far, so it is unchanged.
+
+**Result.** Names drawn on the whole map, per zoom-in step on a phone: 45, 59, 75, 95, 115, 212, 298, 350 (zoom 0.18 to 0.87), so every step adds names until all 350 show; desktop 117 at 0.45, then 199, 302, 350. Whole-map view on a phone, names per era 1..10: 4 3 4 6 4 3 3 6 6 6. Desktop numbers are unchanged from the entries above.
+
+## 2026-11-21 — Era title first under the era line, then the river title, then the traditions
+
+**Why.** Mark: "the era titles go directly unter the line with the river title under that then the traditions". The era title sat about 35 px below the era line, a gap left for the first river's title, which therefore appeared above the era title.
+
+**Decided (Mark, 2026-11-21).** The era title and its dates sit directly under the era line. A river title that would fall inside that caption block starts just below it. Traditions follow. Nothing else about the captions changed (left margin, size, info icon).
+
+**Done.** `cft-website/index.html`: the era caption position and a shared caption height, and the river-name start in `placeRiverNames`. Checked on desktop and phone at the opening zoom and at 0.6 (eras 1 and 2).
+
+## 2026-11-21 — A tradition's name moves to the other side of its mark when its first side would cross another river
+
+**Why.** Mark asked whether rivers and traditions are mixed up. Names did not repeat between the two, but 12% to 20% of shown names ran across a neighbouring river's band (24 of 117 at the farthest zoom-out, 41 of 350 at 0.8, also on `main`). 14 of 350 traditions also sit off their own river at their date; that is in the data and not changed here.
+
+**Decided (Mark, 2026-11-21: "yes flip them").** When a name's usual side would cross another river and the other side crosses fewer, the name goes to the other side. If the flipped side has no room, the name returns to its usual side before it can be dropped, so no name is lost to this. People and story marks and place lines follow the name's side.
+
+**Result.** Names crossing another river, desktop, at 0.45 / 0.6 / 0.7 / 0.8: 13 / 13 / 19 / 18 of 119 / 236 / 299 / 350 shown (before: 24 / 29 / 39 / 41). All 350 still show at 0.8. About 25 names are flipped in an era view at 0.8.
+
+## 2026-11-21 — The zoom layers are spaced so every click in adds something
+
+**Why.** Mark asked that every zoom-in click add something until everything is on the map. The layers past 0.80 sat at uneven gaps (voices with the names at 0.80, story titles 1.3, places 1.6, people 2.2, dates 3.4), so some clicks crossed none: on `main`, desktop clicks to 1.11, 1.39 and 2.16 and phone clicks to 1.09 and 1.37 added nothing. A click multiplies the zoom by 1.25, so layers spaced by no more than that ratio can never be skipped.
+
+**Decided (Mark, 2026-11-21: "space the zoom layers so every click adds something").** Option A of three (re-space the layers; thin each layer in steps; names only). After the names finish at 0.80 the layers come one per click, in this order: voices on traditions 1.0, story titles 1.24, places 1.54, people 1.91, dates 2.37 (each at most 1.25 times the one before, so a click never skips one). The names still grow with the room from the farthest zoom-out to 0.80. The thresholds for names, councils, story marks and the reading level (0.90, used to frame the tour and era clicks) are unchanged. Everything is now on by about 2.4 instead of 3.4.
+
+**Result.** Measured per click with People and Stories on, from the opening zoom (desktop: counts of names / voice marks / story titles / places / people / dates drawn): 0.89 350/0/0/0/0/0, 1.11 350/75/0/0/0/0, 1.39 350/75/62/0/0/0, 1.73 350/75/62/337/0/0, 2.16 350/75/62/333/10/0, 2.71 350/75/62/334/2/1. Phone the same one step later. Every click up to the last layer adds a layer; past it the map is complete. Counts of people and dates depend on what is in view.
+## 2026-11-20 — Batch 7: the slate approved (Mark)
+
+**Why.** The batch 7 launch prompt (`Build/Ministry/Features/Church-Family-Tree/Launch-Prompts/CFT_Batch7_Launch_2026-11-19.md`) asks for the slate first: each story's job, its siblings and links, and the quotes barred, on one page (https://claude.ai/artifact/HVJ2mU3cXRubTNTgZ4qpKv, version 1).
+
+**Decided (Mark, 2026-11-20: "Approve").**
+1. The thirteen jobs, siblings and links as on the page and in `Build/Ministry/Operations/Audits/2026-11-20_batch-7/README.md`: eleven rewritten on the kit, Origen and Methodius of Olympus reviewed on it.
+2. The splits: Cyprian keeps his death scene and plague sermon, and Pontius keeps the dream at Curubis, why he wrote and his grief; the councils of 251 keep the lapsed as their spine, and Novatian keeps the oath, On the Trinity, his church's later life and Constantine's "ladder"; Eusebius and Lactantius tell the Nicaea word and Constantine's vision or dream only as clauses, since the live Nicaea and Constantine stories tell them.
+3. The quote allocation as listed under "Quotes barred" in that README. Dionysius's letter to Novatian, the one quote the overlap check found shared among the old texts, goes to Novatian.
+4. The order of research: Tertullian, Cyprian, Eusebius, Dionysius, Peter, Anatolius and Lactantius; then Pontius, Novatian and Pamphilus; then the councils of 251.
+
+## 2026-11-20 — Batch 7 hearts approved (Mark)
+
+**Why.** The eleven hearts went to Mark on one page (https://claude.ai/artifact/EnSrMLPZBvzqUsXZGb17fB; `Build/Ministry/Operations/Audits/2026-11-20_batch-7/Hearts.md`), with three job lines the sources corrected (Pontius's Life is not settled as the first Christian biography; Cyprian's "two years after baptism" is the editors' reckoning; the census spells "Melitius") and five questions.
+
+**Decided (Mark, 2026-11-20: "Approve as recommended").**
+1. The eleven hearts are approved as shown, with the corrected job lines.
+2. Tertullian: "never counted a saint" is left out, since no held source says it. The story tells what is held: his turn to the New Prophecy, and Augustine later counting his followers among the heretics.
+3. Peter of Alexandria: the break with Melitius is kept to two beats told from Peter's side, with the live `melitius-of-lycopolis` and `melitian-schism` named as links. Arius is left out.
+4. "Melitius" throughout, as the census spells it.
+5. Jerome's story of Cyprian asking for "the master" goes to Tertullian, as one clause among those who read him; Cyprian does not tell it.
+6. Dionysius of Alexandria runs about 4:00, the reviewer asking of each part whether the story needs it.
+7. The outline checks begin, after the researchers apply items 2 to 5.
+
+## 2026-11-20 — Batch 7: lengths held to four minutes, four and a half at most (Mark)
+
+**Why.** After the outline checks and rechecks, several batch 7 outlines planned more story than their approved times: Tertullian about 5:00, Novatian about 6:15, Lactantius about 5:45 to 6:00, the councils of 251 about 6:00, Cyprian about 4:30 (https://claude.ai/artifact/Q2DkQTFyjYAGYcmDCRJfyL; each folder's `Outline_Check.md`, `Fixes.md` and `Recheck.md` in `Build/Ministry/Operations/Audits/2026-11-20_batch-7/`). The page recommended up to 5:00 for some.
+
+**Decided (Mark, 2026-11-20: "we need to keep to 4 maybe 4:30 max").**
+1. Each batch 7 story aims at about 4:00 or less, and none runs past about 4:30. This holds for the council too.
+2. The stories already at or under about 4:00 keep their set lengths: Pontius, Anatolius, Peter and Pamphilus (about 3:40 to 3:45), Eusebius (3:50), Dionysius (4:00).
+3. Cyprian, Tertullian, Novatian, Lactantius and the councils of 251 are cut back by their researchers to about 4:00, and no more than about 4:30. Cut material goes to the card. A cut may not remove the record's force or a disagreement that must be credited; where a story cannot fit, it comes back to Mark.
+
+## 2026-11-20 — Batch 7: Tertullian is "the foremost early writer of the faith in Latin" (Mark)
+
+**Why.** Tertullian's approved heart called him "the first great writer of the faith in Latin whose books survive". The outline check found held sources differ on the order: Wallis (ANF4) dates the *Octavius* of Minucius Felix to about 166, before the Apology, and Coxe puts it after 205. What the sources hold is rank: Vincent of Lérins ("as Origen holds by far the first place among the Greeks, so does Tertullian among the Latins") and Coxe ("the founder of Latin Christianity"). Mark asked whether the claim was rank or order; it is rank.
+
+**Decided (Mark, 2026-11-20: "yes use foremost").** The essence reads "the foremost early writer of the faith in Latin, around the year 200". The story never calls him "the first" in any form. The card notes that the *Octavius* may be older and that editors differ on its date.
+
+## 2026-11-20 — Batch 7: the five long outlines are written to 4:30, not cut again (Mark)
+
+**Why.** After the researchers' length cuts, the independent check (`Cut_Check.md` in each folder) recounted five outlines, Cyprian, Tertullian, Novatian, Lactantius and the councils of 251, at about 5 to 7 minutes of planned beats. The six outlines already drafted had also been planned long, and each writer still landed at 4:30 or less.
+
+**Decided (Mark, 2026-11-20: "Write to 4:30", the recommended option).** No second round of outline cuts. Each of the five is written to about 4:30 at most, as the six were. The reviewer checks that the approved heart and every disagreement the outline must credit survived. A draft that cannot fit comes back to Mark. The cut checks' other fixes (items 2 to 4: stale references to cut items, cuts hidden inside quotes, the card list) are applied first.
+
+## 2026-11-21 — Batch 7: the recording approved, with a cap (Mark)
+
+**Decided (Mark, 2026-11-21: "Approve, cap 24,500 (Recommended)").** The thirteen batch 7 stories, about 44,900 characters (about 22,600 credits at batch 6's rate), are recorded once the second readings are done. The twelve people on batch 6's printed settings: person voice `onegjDE2z0mQtp1g0HK7`, model `eleven_v4`, `mp3_44100_64`, stability 0.95, similarity 0.68, style 0, speaker boost on, `[pause]` between paragraphs, the respellings. The councils of 251 in the council voice, Daniel (`onwK4e9ZLuTAKqWW03F9`, `eleven_multilingual_v2`, the same settings), as Nicaea was recorded in batch 4. Tertullian is recorded first for Mark's ear; the rest only after he hears it. The balance is checked before and after, and the run stops at 24,500 credits. Origen's and Methodius's old recordings are replaced, since their texts changed.
