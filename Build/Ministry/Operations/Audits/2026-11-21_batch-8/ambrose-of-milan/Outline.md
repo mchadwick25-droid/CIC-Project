@@ -146,6 +146,7 @@ No quote is lifted from another story; none of these is on the tree (sheet, Libr
 - Keep 'almost' in 'almost three hours' (PAUL 4361).
 - No motive for the massacre in the narrator's voice. Theodoret, Sozomen and Rufinus give the emperor's anger (THDT 16517–16523; SOC 42175–42176; RUF 30564). Augustine and Paulinus say he had promised pardon and was pushed by men around him (CD 11211–11213; PAUL 4278–4283). If a motive is told, credit both.
 - The emperor who approved the election (beat 1) is not the boy emperor of beat 2, and he is not Theodosius. Give him as 'the emperor of the day', or leave him out.
+- Not the start of the people's singing told in What came, after the penance. Its start is told in beat 3; What came 1 gives only the spread. Not 'thirty years later' as Paulinus's words: he says 'to this very day'; say 'Paulinus, writing some thirty years later, says…'.
 
 **Leave out**
 

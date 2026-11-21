@@ -138,6 +138,10 @@ Short phrase in the narrator's sentence: **"pass, stay, remain and return freely
 - Not 'three devils' or 'two devils' as fact. Say 'painted with devils', or credit each.
 - Not '452 lords signed'. Say the lords and knights of Bohemia and Moravia set 452 seals (DOC 30063–30076).
 - Not Schaff's words as a quote. Paraphrase: much of the book was taken from Wyclif's, his translator writes.
+- Not 'a university quarrel' with no quarrel told: tell the 1403 ban on Wyclif's articles and Hus's protest (E1).
+- Not the 1412 events told only as 'he left Prague': tell that he spoke against the pardons, the heavier ban, the city-wide ban and his appeal to Christ (E5; cut-first items 4 and 6).
+- Not the arrest without the council side's reason: credit the papal official's diary beside Peter (beat 4; E9a).
+- Not 'whom the church had condemned' of Wyclif before 1415: his books were condemned.
 
 **Leave out**
 

@@ -138,6 +138,9 @@ Checked against every census `longDescription` (other than this entry's): none o
 - Not "the whole church adopted his teaching" for the chapter acts of 1309 and 1313: it was the order's rule for its own teachers (I0).
 - Not "the church still teaches..." or "the greatest theologian" in the narrator's voice.
 - Not a word of approval, excuse or regret around the heretics passage (E10). Tell what he wrote.
+- Not "faith and reason cannot truly conflict" in the first minute without its reason. Add "because nothing true can be proved false" (E8; Mark, 2026-11-21, item 6).
+- Not "one article in the Summa of Theology of Thomas Aquinas, a Dominican friar" in the opening. Give "Summa" and "article" their plain sense in the same sentence ("one question in the Summa of Theology, his summary of the whole faith"), and gloss the Dominicans where "Dominican" is first heard.
+- Not "pressed for his canonization" bare. Say "pressed for him to be declared a saint".
 
 **Leave out: for the card, not the story** (firm; the writer does not use these)
 

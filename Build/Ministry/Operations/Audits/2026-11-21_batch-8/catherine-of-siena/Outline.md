@@ -105,6 +105,8 @@ Sheet items (S, E, I, D) are in `Source_Sheet.md`, which gives the file and line
   - "the Eight of War" bare → "the city's war council", if needed at all.
   - "she made peace between Florence and the pope" → the peace she was sent for failed; it came in July 1378, under Urban VI (E9, E12).
   - Florence's side told as innocent, or the pope's war told as just: tell both, the city's revolt against the pope's governors and the pope's sentences, interdict and war (S4).
+  - With Q1 whole, the opening stays at about three sentences: no separate sentence for the languages or for Raymond's name. 'She knows no Latin and he no Italian, so …' → '… her confessor, Raymond of Capua, … interprets' (the languages go to the card).
+  - 'she dictated his letters' → 'she dictated letters for him' (her own letters, written on Urban's behalf).
 - **Leave out**
   - The invisible stigmata at Pisa (Scudder's chronology; contested on the Who card): a wonder not needed, and disputed.
   - That she learned to write by a wonder (Scudder, Fiorilli): a wonder, and beside the job.

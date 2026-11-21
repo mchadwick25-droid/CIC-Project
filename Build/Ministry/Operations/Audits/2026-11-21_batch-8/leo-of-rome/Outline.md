@@ -144,6 +144,9 @@ That is seven names if the optional ones are dropped. Each acts or is a link.
   - Do not set Hydatius as the natural explanation against Prosper's God: Hydatius calls the famine and disease blows from heaven.
   - 'Leo called the council' or 'at Leo's request' → the emperor called it, in the East; by then Leo said none was needed, but sent envoys (E15, LEO 718–731).
   - 'his Latin letter was read to them' → it was read by the emperor's secretary (LEO 754); the record held does not say in what language.
+  - Prosper's account without God → 'Prosper says Leo trusted in God's help, and that the king, pleased by the bishop's presence, ...' (PROS 54944–54957, no. 1367).
+  - 'because the fathers had honoured old Rome as the imperial city' alone → add that Constantinople, 'New Rome', was now the imperial city (NC 22217–22232).
+  - 'That summer' → 'That year' / 'In 452'; no held source gives the season (LEO 854; Prosper gives only 452).
 - **Leave out:**
   - The Vandal sack of 455 (E24): Leo met the king outside the gates, and Prosper says his plea spared the city fire, slaughter and torture, though it was plundered for fourteen days and many thousands were carried off to Carthage. A second embassy would double beat 7 and the job does not name it. Card. (This is not Leo's force left out: it is a second scene of the same kind.)
   - The quarrel with Hilary of Arles (E5): Leo stripped him of his rights over a province. Leo's force over another bishop is told plainly through the canon fight and Dioscorus; Hilary's story tells this quarrel. Card.

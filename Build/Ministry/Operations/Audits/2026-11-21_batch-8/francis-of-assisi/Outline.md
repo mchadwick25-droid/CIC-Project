@@ -135,6 +135,8 @@ Search of every census longDescription (other than this entry's) for each quote:
 - Not "Francis was a priest". The sources do not make him one.
 - Not "born in 1182" or "born 1181". Say "born around 1182" (S1).
 - Not "he died on 4 October" as our date. Say "in October 1226" or "on the evening of 3 October" (S6).
+- Not that the 1223 Rule says to beg "when no wage came". That condition is the Testament's (ROB 5476–5512). The Rule says they go confidently for alms (OPU 2577–2582).
+- Cut-first item 7 does not remove What came 3. The sisters of San Damiano keeping his last wish in their own Rule stays (E12, I3).
 - Not "Gregory IX canonized him at Perugia" or a place beyond Assisi. Say "in 1228" (S6; the chronicle's two passages differ on place).
 - Not "the first Franciscan" or "the first friar" as fact.
 - Not "Bonaventure suppressed the earlier Lives". That is the `bonaventure` story's, told there from Salter's note.

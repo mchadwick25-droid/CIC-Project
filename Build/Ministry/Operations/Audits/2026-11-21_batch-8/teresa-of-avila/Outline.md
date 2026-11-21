@@ -147,6 +147,8 @@ No quote is used elsewhere on the tree (sheet, sweep); none is lifted under the 
 - Not "Pascal admired her" or "Pascal was devoted to her". He wrote that in her lifetime she was simply a nun (I4).
 - Not "he printed it from copies only" or "from the original" as fact (D13).
 - Not "Luis de León censored her". His edition dropped her naming of Ignatius; that is Silverio's comparison; give it as what the edition did (I2), if told.
+- Not "she saw none of that", nor any line that puts the province of 1580 after her death. She lived two years past it (E28, E29).
+- Not "she never saw the book again" as the last word on her books. In What came, tell that they were printed at Salamanca in 1588, after the Inquisition agreed (I2).
 
 **Leave out**
 

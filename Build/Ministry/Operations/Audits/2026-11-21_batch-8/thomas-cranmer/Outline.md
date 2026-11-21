@@ -139,6 +139,9 @@ Search of every census longDescription (other than this entry's, which does not 
 - Not 'aged 67'. He was in his 67th year, that is 66 (COX 747).
 - Not 'the Prayer Book is still used today'. No held source in this outline says so; the census `legacy` line is the only wording.
 - In the essence, the hand in one clause only; the scene (the arm stretched out, the hand held still, his words) is told only at the Ending.
+- Do not let the opening and the essence run past about 150 words. The opening quote is 43 words, so say 'he led its making' once, and tell 'archbishop from 1533 under Henry VIII' at beat 2 if the essence needs the room.
+- Not 'the law required everyone to attend' told of the 1549 book. The held Act is 1552's (KET 13353–13370); tell it with the 1552 book, which dropped the word Mass.
+- Do not drop that Foxe told his death as a martyr's (What came 2; approved heart). It goes in the clause that names Foxe, not to the card.
 
 **Leave out**
 

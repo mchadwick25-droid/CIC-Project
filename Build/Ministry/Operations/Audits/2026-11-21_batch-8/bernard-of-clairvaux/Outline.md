@@ -127,6 +127,9 @@ Sheet items (S, E, I, L, D) are in `Source_Sheet.md`, which gives the file and l
 - 'pardon to all who took the cross' bare → 'pardon for every sin confessed with a contrite heart', his letter says.
 - Berengar's account as a serious report → a hostile pupil's satire, which he later said should be read as a joke.
 - "Doctor of the Church" with a year → not held with a date; leave to the card (I4).
+- "'took the cross' bare → with its plain sense in the same sentence: putting the sign of the cross on their clothes, at the shoulder, as the mark of those going east (E7)."
+- "'vicar of Peter' bare → 'holds Peter's place' (HUS 6163–6164)."
+- "'his older brothers went with him' → 'his brothers went with him': younger brothers went too (VP 15974–15980)."
 
 **Leave out**
 

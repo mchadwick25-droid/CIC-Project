@@ -125,6 +125,10 @@ Sheet items (S, E, I, L, D) are in `Source_Sheet.md`, which gives the file and l
   - 'The vote was close' as the narrator's fact, or 'a few hands' in quotation marks. Say 'by a small majority, historians say'.
   - Quote 3 as said of 1531, or as the war he died in. It is of 1529. Kidd says only that in 1531 he was again 'all for renewal of the war' (KD-ed 26087-26088).
   - 'They parted as friends' or 'parted in anger.' The Luther-side summary says talks broke off over plague and they parted amicably (SCH 1151-1163). Luther says he refused to call them brothers (DW 2667-2676; CU 12756-12757). If the story says how they parted, it credits each. Otherwise it says only what the signed article says.
+  - Tell the 1519 preaching inside the essence, before the council's ruling. Never tell it after the essence as 'Years before'. With Quote 1 in the opening, the essence fits the first minute only if the hook is two short sentences.
+  - Once the essence has told the images and the Mass, beat 2 does not tell them again. It adds only what is new: the threats and the 'restrained' ruling.
+  - Never end the 7 March 1526 letter at 'such examples'. Its next clause, that it pleases God to guard in this way against evils to come, carries his approval and stays.
+  - 'He gave the house to Bullinger' or 'the new teacher of the Bible lesson, Heinrich Bullinger'. The record names Bullinger over the teaching in Zwingli's place. The Bible lesson and the house went to another man, a theologian from Bischofszell, given by role (EG 48403-48413). 'Master Ulrich' is always tied to Zwingli where it is heard.
 - **Leave out:**
   - His birth at Wildhaus (1484), Glarus, his service as chaplain with the Swiss mercenaries, Einsiedeln and his papal pension: true but they push the essence past the first minute (S1-S2). Card.
   - The Lent sausages of 1522, the petition for priests to marry, the bishop's visit of April 1522: earlier steps, outside the job. Card.

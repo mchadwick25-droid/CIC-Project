@@ -135,6 +135,8 @@ Checked against every census `longDescription` other than this entry's (2026-11-
 - Not 'the monks called him down from Athos' or 'he was already in Thessalonica' in the narrator's voice. Credit each: Philotheos, the call from the Mountain; Kantakouzenos, already in the city for care when ill.
 - Not 'the Philokalia was translated into Slavonic and Russian' or 'his writings reached Russia through the Philokalia': the held lines give the Greek Philokalia and Paisius's own Slavonic collection.
 - Not 'at Thessalonica' in the narrator's own voice for Barlaam's visit to the monk: it is Kantakouzenos's place; Philotheos puts it at Constantinople.
+- Do not drop the Philokalia to fit. It is in Also told and in the Connection. Only the Paisius and Optina clause is optional.
+- Not "the emperor John Kantakouzenos" for any time before 1347, and not "the emperor presiding" in 1341 without naming him. The emperor of 1341 was another man. Say "John Kantakouzenos, later emperor".
 
 **Leave out**
 
