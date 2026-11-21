@@ -162,7 +162,8 @@
    "work": "Bernard, Sermon 83 on the Song of Songs, 4, tr. Samuel J. Eales",
    "file": "cic/texts/bernard-clairvaux_life-and-works-v4_eales1896.txt",
    "lines": "32161-32164",
-   "uncertain": "The rendering follows the Latin, Amor praeter se non requirit causam, non fructum. Fructus ejus, usus ejus. Amo quia amo; amo, ut amem (PL183 105304-105306), whose scan reads one word of the first clause with a fault, so the Latin is not printed here. Eales renders fructum as consequence in the first clause and then fructus as fruit and usus as object and usefulness; the rendering has fruit for fructum and joins fructus and usus in one sentence, its fruit is the loving itself."
+   "uncertain": "The rendering follows the Latin, Amor praeter se non requirit causam, non fructum. Fructus ejus, usus ejus. Amo quia amo; amo, ut amem (PL183 105304-105306), whose scan reads one word of the first clause with a fault, so the Latin is not printed here. Eales renders fructum as consequence in the first clause and then fructus as fruit and usus as object and usefulness; the rendering has fruit for fructum and joins fructus and usus in one sentence, its fruit is the loving itself.",
+   "secondReading": "minor"
   },
   {
    "modern": "If one of the two must happen, I would rather people grumble against me than against God. It is good for me if he will use me as a shield. I gladly take on myself the cursing tongues of slanderers and the poisoned darts of blasphemers, so that they do not reach him.",
@@ -170,7 +171,8 @@
    "work": "Bernard, On Consideration II, 1, first clause of the passage, Latin of PL182",
    "file": "cic/texts/bernard-clairvaux_opera-t1-pl182-lat_migne1879.txt",
    "lines": "75607-75608",
-   "uncertain": "Only the first clause is printed, because the rest of the passage (PL182 75606-75611, and Geoffrey's quotation of it at VP 20932-20937) stands in two scans that each carry small faults, and no English of On Consideration is held. The rendering follows the Latin for the whole passage; where both scans can be read they agree, except that PL182 begins Etsi necesse sit and Geoffrey begins Si necesse sit."
+   "uncertain": "Only the first clause is printed, because the rest of the passage (PL182 75606-75611, and Geoffrey's quotation of it at VP 20932-20937) stands in two scans that each carry small faults, and no English of On Consideration is held. The rendering follows the Latin for the whole passage; where both scans can be read they agree, except that PL182 begins Etsi necesse sit and Geoffrey begins Si necesse sit.",
+   "secondReading": "same"
   }
  ]
 }

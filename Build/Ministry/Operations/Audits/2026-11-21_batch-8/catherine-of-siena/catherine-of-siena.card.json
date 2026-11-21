@@ -1,222 +1,226 @@
 {
-  "otherNames": [
-    "Catherine Benincasa",
-    "Caterina da Siena",
-    "Catharina de Senis",
-    "Katherin of Senis",
-    "Catharine of Sienna"
-  ],
-  "knownFor": "A dyer's daughter of Siena who joined no convent but took the habit of the Dominican Sisters of Penance, gathered a circle of followers, and dictated letters to popes, cities and rulers. She pressed Pope Gregory XI to take the papal court back from Avignon to Rome and went to Avignon for Florence in 1376; how far she moved him is disputed. In 1378 she dictated her book, the Dialogue, to her secretaries, and in the schism that followed she worked for Urban VI at Rome, writing letters for him to kings, a queen, city magistrates and cardinals.",
-  "datesNote": "Born in 1347 and died in 1380, by Vida Scudder's chronology, which gives 25 March 1347 for her birth and 30 April 1380 for her death; her confessor Raymond of Capua says she died on Sunday 29 April 1380 at about Terce, and Barduccio Canigiani, a secretary who was with her, says on a Sunday at about the sixth hour. John Covel says she died at thirty-three and was canonized about eighty years later. Her letter from Avignon to the Eight of War of Florence is dated 28 June 1376; Scudder says she reached Avignon on 18 June, that Gregory started for Rome in September 1376 and that she set out for home the same day as the pope, and elsewhere in his chronology that she left for home on 13 September. Scudder has him reach Rome on 17 January 1377, and the Mansi notice, citing Platina, on the Ides of January in 1376. The Sienese copy of the Dialogue ends in October 1378. Scudder says she took up her abode at Rome on 28 November 1378",
-  "placeNote": "Siena, where Scudder says she was born in the Strada dell' Oca, near the fountain of Fontebranda, and where Raymond says her father Jacopo made the colors that dye wool cloth, so that he and his sons were called dyers; Pisa and Lucca in 1375; Avignon from June to September 1376; Florence in 1378; Rome from 28 November 1378, where she died",
-  "role": "Lay Dominican of the Sisters of Penance (the Mantellate); leader of a circle of disciples; letter writer and peacemaker; dictator of the Dialogue",
-  "keyWorks": [
-    {
-      "title": "Letters",
-      "about": "to popes, cities, rulers and followers, held here only in Vida Scudder's English selection of 1905 because the Italian is not held; Scudder says they were talked rather than written and dictated to secretaries. Among them are her letters to Gregory XI urging him to reform the church, return to Rome and raise a crusade, and calling the rulers of his lands incarnate demons; her letter from Avignon of 28 June 1376 to the Eight of War of Florence; and her letter on an anonymous letter that warned the pope of poison if he went to Rome, which she judged a forgery, telling him to be manly and not a timorous child, to rise like a man, and to swallow the bitter for the sweet"
-    },
-    {
-      "title": "The Dialogue (Libro della divina dottrina)",
-      "about": "a book dictated in Siena in 1378 in which her soul puts four requests to God: for herself, for the reform of the church, for the whole world and the peace of Christians, and for providence in a particular case. God answers that he made a bridge of his Son so that souls would not drown crossing the river, the stormy sea of this dark life. Her secretaries say she dictated it in ecstasy. Algar Thorold put it into English in 1896, and Matilde Fiorilli edited the Italian in 1912"
-    }
-  ],
-  "legacy": {
-    "traces": [
-      "Stefano Maconi, one of her secretaries, wrote that he put the Dialogue into Latin, and Cristofano Guidini, another, made his own Latin of it for the good of his neighbor; Raymond of Capua writes that he too was working to turn it into Latin and found it hard to match her style.",
-      "Guidini tells that a French bishop who had seen her near Avignon took a copy home. Matilde Fiorilli counts many manuscript copies and takes the printing of 1472 as the first, with seven more by 1496.",
-      "Edmund Gardner writes that the Dialogue reached English in 1519 as the Orcharde of Syon, made from Raymond's Latin version first printed at Brescia in 1496, and that Wynkyn de Worde printed an English Life of her about 1493, a free translation of Raymond's Life.",
-      "Fiorilli says Stefano Maconi took the Carthusian habit on her advice and became prior of the Pavia charterhouse and then general of his order, and that Tommaso Caffarini of Siena took the largest part in the process for her canonization held at Venice. The Bollandists reckon that Raymond, made master general of the Dominicans soon after her death, wrote her Life in the tenth year after it.",
-      "The Roman Martyrology, as the Bollandists quote it, says Pius II enrolled her among the holy virgins; John Covel says she was canonized by Pius II about eighty years after her death. The Library holds no bull and no year."
-    ],
-    "remembered": [
-      "Raymond says that a thousand or more people of both sexes came down from the hills around Siena to see and hear her, and ran weeping to the confessors, of whom he was one. Gregory XI, gladdened, gave Raymond and two companions papal letters to absolve all who came to her. Barduccio Canigiani calls her our common mother and mother of thousands of souls.",
-      "Father Rodrigo Alvarez, in a note of 22 February 1582 on Teresa of Ávila's manuscript, names the books of St. Gertrude, St. Catherine of Siena and St. Bridget of Sweden as a measure by which her spirit can be known to be true. Teresa's own Life names Catherine of Siena twice, among saints who had revelations and who rejoiced in Christ's humanity.",
-      "Henry Charles Lea, historian of the medieval Inquisition, writes in 1888 that her constant theme was the corruption of every rank in the hierarchy and the immediate need for reform, and that her warnings fell upon deaf ears.",
-      "A brief of Pius XI printed in the Acta Apostolicae Sedis of 1926 names, in the church of San Domenico at Siena, the chapel where Catharina Benincasa had wonderful visions and put on the dress of the Dominican third order."
-    ]
+ "otherNames": [
+  "Catherine Benincasa",
+  "Caterina da Siena",
+  "Catharina de Senis",
+  "Katherin of Senis",
+  "Catharine of Sienna"
+ ],
+ "knownFor": "A dyer's daughter of Siena who joined no convent but took the habit of the Dominican Sisters of Penance, gathered a circle of followers, and dictated letters to popes, cities and rulers. She pressed Pope Gregory XI to take the papal court back from Avignon to Rome and went to Avignon for Florence in 1376; how far she moved him is disputed. In 1378 she dictated her book, the Dialogue, to her secretaries, and in the schism that followed she worked for Urban VI at Rome, writing letters for him to kings, a queen, city magistrates and cardinals.",
+ "datesNote": "Born in 1347 and died in 1380, by Vida Scudder's chronology, which gives 25 March 1347 for her birth and 30 April 1380 for her death; her confessor Raymond of Capua says she died on Sunday 29 April 1380 at about Terce, and Barduccio Canigiani, a secretary who was with her, says on a Sunday at about the sixth hour. John Covel says she died at thirty-three and was canonized about eighty years later. Her letter from Avignon to the Eight of War of Florence is dated 28 June 1376; Scudder says she reached Avignon on 18 June, that Gregory started for Rome in September 1376 and that she set out for home the same day as the pope, and elsewhere in his chronology that she left for home on 13 September. Scudder has him reach Rome on 17 January 1377, and the Mansi notice, citing Platina, on the Ides of January in 1376. The Sienese copy of the Dialogue ends in October 1378. Scudder says she took up her abode at Rome on 28 November 1378",
+ "placeNote": "Siena, where Scudder says she was born in the Strada dell' Oca, near the fountain of Fontebranda, and where Raymond says her father Jacopo made the colors that dye wool cloth, so that he and his sons were called dyers; Pisa and Lucca in 1375; Avignon from June to September 1376; Florence in 1378; Rome from 28 November 1378, where she died",
+ "role": "Lay Dominican of the Sisters of Penance (the Mantellate); leader of a circle of disciples; letter writer and peacemaker; dictator of the Dialogue",
+ "keyWorks": [
+  {
+   "title": "Letters",
+   "about": "to popes, cities, rulers and followers, held here only in Vida Scudder's English selection of 1905 because the Italian is not held; Scudder says they were talked rather than written and dictated to secretaries. Among them are her letters to Gregory XI urging him to reform the church, return to Rome and raise a crusade, and calling the rulers of his lands incarnate demons; her letter from Avignon of 28 June 1376 to the Eight of War of Florence; and her letter on an anonymous letter that warned the pope of poison if he went to Rome, which she judged a forgery, telling him to be manly and not a timorous child, to rise like a man, and to swallow the bitter for the sweet"
   },
-  "uncertain": [
-    "How far she caused the pope's return. Raymond, writing about ten years after her death to show her holiness, says the pope decided to come to his own see at Rome, she leading him. Scudder writes that Gregory, swayed by her representations, returned, and that she devoted all her efforts to it and succeeded. Consalvo Duranti, in 1628, says her letters to the pope carried through the whole business of the return, and Matilde Fiorilli says she did much toward it. Her own letters tell it differently: in 1375 she urges him to fulfill what he had begun with a holy resolve concerning his return, and at Avignon she writes that he had decided on his return and announced it. A notice of Gregory's life in Mansi's collection of councils says some give one cause for the move and others another. Gobelinus of Paderborn, a generation later, credits revelations that came several times to Bridget of Sweden at Rome and reached the pope through a hermit named Alphonso; Duranti also notes a revelation that the pope should come without delay. Platina, about a century later, tells of a bishop whom the pope rebuked for living away from his see and who asked why the pope did not go back to his own church, an answer said to have hastened the return. Scudder adds that Gregory, perhaps regretting his return, grew cool to her in 1378.",
-    "Raymond of Capua as witness. He was her confessor and her interpreter at Avignon, where she knew no Latin and the pope no Italian, and he says he interpreted between them several times. The Library holds no other record of her words at the audience. He wrote the Life to show the gifts God gave her, he is partisan, and he was not at her death, being then at Genoa. The Library's print of the Life is a damaged scan, legible for the lines used; Carl Mirbt's print of section 152, the audience, is cleaner.",
-    "What she said at the audience. Mirbt's print reads quae for the sins committed in the papal court, where the Acta Sanctorum prints qui. Raymond does not date the audience; it falls within her stay at Avignon, which Scudder dates from 18 June to September 1376. He says the pope, after her words, said nothing.",
-    "The peace at Avignon. Raymond, who interpreted, says the pope put the peace in her hands and told her to keep the honor of the church; he says Florence promised envoys bound to do only as she said, sent them very late, and that the pope told her they had deceived her and would deceive her. The envoys, he says, answered that they had no mandate to confer with her. Her own letter of 28 June 1376 says the pope heard her graciously and would receive Florence as sons, and in a letter to Buonaccorso di Lapo she says she never had a chance to confer with the envoys. Scudder says she failed to procure peace.",
-    "Florence in 1378. Raymond says the pope sent her, not him, because the Florentines revered her and being a woman she would not be harmed; at Florence a servant of the devil came at her with a drawn sword, stopped, Raymond says, by God's power alone. Scudder says she almost lost her life in a popular tumult and regretted not winning the crown of martyrdom.",
-    "The day he reached Rome. Scudder says 17 January 1377. The Mansi notice says the Ides of January, 13 January, and calls the year 1376, and Platina, as Duranti cites him, says the same. The Library holds no line saying the year was counted from a different new year.",
-    "When the Dialogue was finished. The Sienese copy ends in October 1378, Fiorilli reckons it was written in about three months from July to October 1378, and Scudder says it was dictated during 1378; Thorold's title page of 1896 says it was completed in 1370. Guidini says she dictated it with all her senses lost except the tongue, God the Father speaking in her and she answering, one secretary writing at a time, and Maconi says he wrote part of it as she dictated it in a wonderful manner. Raymond says she dictated it in ecstasy. That she dictated it in ecstasy is the witnesses' own account.",
-    "Her death. Raymond gives Sunday 29 April 1380 at about Terce, and says he was at Genoa. Barduccio, who was there, says Sunday at about the sixth hour, that she cried out blood, blood, said Father, into your hands I commend my soul and spirit, and died with a face like an angel's. Scudder gives 30 April. The Library holds Barduccio's letter only in the Bollandists' Latin of a printed Italian of 1517, in a damaged scan.",
-    "Her family and her habit. Scudder alone gives her as the youngest of twenty-five children of Jacopo Benincasa and Lapa, with a twin sister who died at once, and dates her habit to 1363 or 1364; the dyer is Raymond's and Scudder's. Raymond says her mother, unwilling, tried to draw her back from asking the Mantellate for the habit. Scudder says the Mantellate lived in their own homes and took no monastic vows.",
-    "Her letters and the habit of dictation. Raymond saw her dictate different letters to two scribes at once, and others told him she had dictated to three or four at once. Scudder says she learned to write only three years before her death, and tells it as a wonder; Fiorilli says she herself wrote to Raymond that she was taught in an ecstasy, in October 1377. The Library holds her letters only in Scudder's English.",
-    "The stigmata and the Florence summons of 1374. Scudder's chronology says she received the stigmata at Pisa on 1 April 1375, the marks staying invisible at her request, and that in May 1374 she visited Florence, perhaps summoned to answer charges made against her by some in her order, her ecstasies and way of life having drawn criticism and suspicion. Both rest on Scudder's chronology alone.",
-    "The numbers. The thousand or more who came to hear her is Raymond's own count.",
-    "Not held: the Italian of her letters, the contemporary Lives of Gregory XI, and a bull or year of canonization."
+  {
+   "title": "The Dialogue (Libro della divina dottrina)",
+   "about": "a book dictated in Siena in 1378 in which her soul puts four requests to God: for herself, for the reform of the church, for the whole world and the peace of Christians, and for providence in a particular case. God answers that he made a bridge of his Son so that souls would not drown crossing the river, the stormy sea of this dark life. Her secretaries say she dictated it in ecstasy. Algar Thorold put it into English in 1896, and Matilde Fiorilli edited the Italian in 1912"
+  }
+ ],
+ "legacy": {
+  "traces": [
+   "Stefano Maconi, one of her secretaries, wrote that he put the Dialogue into Latin, and Cristofano Guidini, another, made his own Latin of it for the good of his neighbor; Raymond of Capua writes that he too was working to turn it into Latin and found it hard to match her style.",
+   "Guidini tells that a French bishop who had seen her near Avignon took a copy home. Matilde Fiorilli counts many manuscript copies and takes the printing of 1472 as the first, with seven more by 1496.",
+   "Edmund Gardner writes that the Dialogue reached English in 1519 as the Orcharde of Syon, made from Raymond's Latin version first printed at Brescia in 1496, and that Wynkyn de Worde printed an English Life of her about 1493, a free translation of Raymond's Life.",
+   "Fiorilli says Stefano Maconi took the Carthusian habit on her advice and became prior of the Pavia charterhouse and then general of his order, and that Tommaso Caffarini of Siena took the largest part in the process for her canonization held at Venice. The Bollandists reckon that Raymond, made master general of the Dominicans soon after her death, wrote her Life in the tenth year after it.",
+   "The Roman Martyrology, as the Bollandists quote it, says Pius II enrolled her among the holy virgins; John Covel says she was canonized by Pius II about eighty years after her death. The Library holds no bull and no year."
   ],
-  "sources": {
-    "ownWords": [
-      {
-        "title": "Saint Catherine of Siena as seen in her Letters (tr. and ed. Vida D. Scudder)",
-        "author": "Catherine of Siena",
-        "date": "1905",
-        "language": "English translation",
-        "file": "cic/texts/catherine-of-siena_selected-letters_scudder1905.txt"
-      },
-      {
-        "title": "Libro della divina dottrina (the Dialogue), ed. Matilde Fiorilli",
-        "author": "Catherine of Siena",
-        "date": "1378",
-        "language": "Italian",
-        "file": "cic/texts/catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912.txt"
-      },
-      {
-        "title": "The Dialogue of the Seraphic Virgin Catherine of Siena (tr. Algar Thorold)",
-        "author": "Catherine of Siena",
-        "date": "1378",
-        "language": "English translation",
-        "file": "cic/texts/catherine-of-siena_dialogue_thorold1896.txt"
-      }
-    ],
-    "about": [
-      {
-        "title": "Legenda, the Life of Catherine of Siena, with the Bollandist commentary and Barduccio Canigiani's letter on her death, in Acta Sanctorum, April, volume 3",
-        "author": "Raymond of Capua; Barduccio Canigiani",
-        "date": "about 1390",
-        "language": "Latin",
-        "file": "cic/texts/acta-sanctorum_aprilis-tomus-3-lat_palme1866.txt"
-      },
-      {
-        "title": "Life of Catherine of Siena, section 152, extract in Quellen zur Geschichte des Papsttums (ed. Carl Mirbt)",
-        "author": "Raymond of Capua",
-        "date": "about 1390",
-        "language": "Latin",
-        "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt"
-      },
-      {
-        "title": "Introduction, headnotes and chronology to the Letters",
-        "author": "Vida D. Scudder",
-        "date": "1905",
-        "language": "English",
-        "file": "cic/texts/catherine-of-siena_selected-letters_scudder1905.txt"
-      },
-      {
-        "title": "Note on the Dialogue, quoting the memoir of Cristofano Guidini and the words of Stefano Maconi",
-        "author": "Matilde Fiorilli",
-        "date": "1912",
-        "language": "Italian",
-        "file": "cic/texts/catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912.txt"
-      },
-      {
-        "title": "Sacrorum conciliorum collectio, volume 26: notice of Gregory XI",
-        "author": null,
-        "date": null,
-        "language": "Latin",
-        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901.txt"
-      },
-      {
-        "title": "Revelationes S. Birgittae, with Duranti's notes",
-        "author": "Consalvo Duranti",
-        "date": "1628",
-        "language": "Latin",
-        "file": "cic/texts/birgitta_revelationes-lat_duranti1628.txt"
-      },
-      {
-        "title": "The Cell of Self-Knowledge, introduction",
-        "author": "Edmund G. Gardner",
-        "date": "1910",
-        "language": "English",
-        "file": "cic/texts/cell-of-self-knowledge_seven-early-english-mystical-treatises_gardner1910.txt"
-      },
-      {
-        "title": "Some Account of the Present Greek Church",
-        "author": "John Covel",
-        "date": "1722",
-        "language": "English",
-        "file": "cic/texts/covel_some-account-of-the-present-greek-church_1722.txt"
-      },
-      {
-        "title": "History of the Inquisition of the Middle Ages, volume 3",
-        "author": "Henry Charles Lea",
-        "date": "1888",
-        "language": "English",
-        "file": "cic/texts/lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt"
-      },
-      {
-        "title": "The Interior Castle, introduction, with Father Rodrigo Alvarez's note of 22 February 1582",
-        "author": "Rodrigo Alvarez",
-        "date": "1582",
-        "language": "English",
-        "file": "cic/texts/teresa-of-avila_interior-castle_stanbrook1912.txt"
-      },
-      {
-        "title": "The Life of Teresa of Jesus, English translation",
-        "author": "Teresa of Avila",
-        "date": null,
-        "language": "English translation",
-        "file": "cic/texts/teresa-of-avila_life_lewis1904.txt"
-      },
-      {
-        "title": "Apostolic brief on the church of San Domenico at Siena, in Acta Apostolicae Sedis, volume 18",
-        "author": "Pius XI",
-        "date": "1926",
-        "language": "Latin",
-        "file": "cic/texts/acta-apostolicae-sedis_v18-lat_1926.txt"
-      }
-    ]
-  },
-  "briefReferences": [
-    "Raymond of Capua, Life, section 152, in Mirbt: the audience before Gregory XI at Avignon, Raymond interpreting; the pope's question how she knew the court after a few days; her answer about the stench of the sins committed in the papal court; the pope's silence.",
-    "Raymond, Life, and Scudder's headnote: her father the dyer; her asking the Sisters of Penance of St. Dominic for their habit, and Scudder on how they lived in their own homes.",
-    "Scudder, introduction, and Raymond: her letters spoken aloud and written down by young men of her circle, two at once; the crowds who came down from the hills to hear her.",
-    "Scudder's chronology and the Mansi notice: the popes at Avignon for nearly seventy years.",
-    "Her letters to Gregory XI, 1375, in Scudder: to uproot the bad priests, return to Rome and raise the standard of the cross; her words for the pope's governors in Italy; Florence's revolt, the pope's sentences and the war, in Scudder's chronology and Raymond.",
-    "Her letter carried by Raymond to Gregory, in Scudder: come, come, come, and do not wait for time.",
-    "Raymond and Scudder: Florence sends her to Avignon; the pope puts the peace in her hands; Florence's envoys will not deal with her; the peace fails.",
-    "Scudder and the Mansi notice: the pope leaves in September 1376 and reaches Rome in the following January.",
-    "Raymond, Life, section 422; her letters of 1375 and 1376 in Scudder; the Mansi notice with Gobelinus and Platina: the causes of the return, each credited.",
-    "Scudder's chronology: Gregory dies in March 1378. Raymond, Guidini and Maconi, in Fiorilli's note: the Dialogue dictated in Siena in 1378, with her soul's four requests and God's answer.",
-    "Scudder's chronology and Raymond: the cardinals declare Urban VI's election invalid on 20 September 1378 and choose a rival; Urban summons her to Rome and she writes letters on his behalf.",
-    "Guidini and Maconi in Fiorilli's note; Gardner; Fiorilli on the printing of 1472: the Dialogue in Latin, copied, printed and put into English in 1519. Raymond's Life; the Roman Martyrology in the Bollandist commentary and Covel: Pius II and her canonization.",
-    "Barduccio Canigiani's letter in the Acta Sanctorum, and Scudder's chronology: her death at Rome at the end of April 1380; Barduccio on her crying out blood and her last words; the split between the two popes in Scudder's chronology."
-  ],
-  "quotationOriginals": [
-    {
-      "modern": "To the honour of almighty God, I dare to say it. While I was still in the city where I was born, I smelled the stench of the sins committed in the papal court. I smelled it more than the men who have committed them, and commit them every day, smell it themselves.",
-      "printed": "Ad honorem omnipotentis Dei audeo dicere, quod plus percepi foetorem peccatorum, quae in Romana curia committuntur, existens in civitate mea unde sum nata, quam percipiant ipsi qui ea commiserunt et committunt quotidie.",
-      "work": "Raymond of Capua, Life of Catherine, section 152, in Latin, in Carl Mirbt's Quellen zur Geschichte des Papsttums",
-      "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
-      "lines": "13887-13891",
-      "uncertain": "Mirbt's scan reads onmipotentis, read omnipotentis as the Acta Sanctorum prints it (lines 200985-200986), and has a margin number 30 inside the span. Mirbt prints quae for the sins committed in the court; the Acta Sanctorum prints qui (line 200988). The Latin is Raymond's rendering of what she said in Tuscan, given through his own interpreting."
-    },
-    {
-      "modern": "incarnate demons.",
-      "printed": "incarnate demons",
-      "work": "Catherine of Siena to Gregory XI, in Vida Scudder's English",
-      "file": "cic/texts/catherine-of-siena_selected-letters_scudder1905.txt",
-      "lines": "5039",
-      "secondReading": "checked at card",
-      "uncertain": "The Italian of her letters is not held, so the English is Scudder's."
-    },
-    {
-      "modern": "I tell you: come, come, come. Do not wait for time, because time does not wait for you.",
-      "printed": "I tell you, Come, come, come, and do not wait for time, since time does not wait for you.",
-      "work": "Catherine of Siena to Gregory XI, in Vida Scudder's English",
-      "file": "cic/texts/catherine-of-siena_selected-letters_scudder1905.txt",
-      "lines": "5221-5222",
-      "uncertain": "The Italian of her letters is not held, so the modern words render Scudder's English."
-    },
-    {
-      "modern": "decided on your return and announced it.",
-      "printed": "decided on your return and announced it",
-      "work": "Catherine of Siena to Gregory XI at Avignon, in Vida Scudder's English",
-      "file": "cic/texts/catherine-of-siena_selected-letters_scudder1905.txt",
-      "lines": "7063-7064",
-      "uncertain": "The Italian of her letters is not held, so the modern words render Scudder's English."
-    },
-    {
-      "modern": "To hear it told, this seems a thing past believing. But to those who wrote it down and heard it, it does not seem so. And I am one of them.",
-      "printed": "Questo a udire pare che sia cosa da non crédare; ma a coloro, che lo scrissero e udîro, nollo pare cosí; e io so' uno di quegli.",
-      "work": "Cristofano Guidini, memoir on the Dialogue, as quoted in Matilde Fiorilli's note, in Italian",
-      "file": "cic/texts/catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912.txt",
-      "lines": "14405-14407",
-      "uncertain": "Guidini's memoir itself is not held; it is read only in Fiorilli's quotation."
-    }
+  "remembered": [
+   "Raymond says that a thousand or more people of both sexes came down from the hills around Siena to see and hear her, and ran weeping to the confessors, of whom he was one. Gregory XI, gladdened, gave Raymond and two companions papal letters to absolve all who came to her. Barduccio Canigiani calls her our common mother and mother of thousands of souls.",
+   "Father Rodrigo Alvarez, in a note of 22 February 1582 on Teresa of Ávila's manuscript, names the books of St. Gertrude, St. Catherine of Siena and St. Bridget of Sweden as a measure by which her spirit can be known to be true. Teresa's own Life names Catherine of Siena twice, among saints who had revelations and who rejoiced in Christ's humanity.",
+   "Henry Charles Lea, historian of the medieval Inquisition, writes in 1888 that her constant theme was the corruption of every rank in the hierarchy and the immediate need for reform, and that her warnings fell upon deaf ears.",
+   "A brief of Pius XI printed in the Acta Apostolicae Sedis of 1926 names, in the church of San Domenico at Siena, the chapel where Catharina Benincasa had wonderful visions and put on the dress of the Dominican third order."
   ]
+ },
+ "uncertain": [
+  "How far she caused the pope's return. Raymond, writing about ten years after her death to show her holiness, says the pope decided to come to his own see at Rome, she leading him. Scudder writes that Gregory, swayed by her representations, returned, and that she devoted all her efforts to it and succeeded. Consalvo Duranti, in 1628, says her letters to the pope carried through the whole business of the return, and Matilde Fiorilli says she did much toward it. Her own letters tell it differently: in 1375 she urges him to fulfill what he had begun with a holy resolve concerning his return, and at Avignon she writes that he had decided on his return and announced it. A notice of Gregory's life in Mansi's collection of councils says some give one cause for the move and others another. Gobelinus of Paderborn, a generation later, credits revelations that came several times to Bridget of Sweden at Rome and reached the pope through a hermit named Alphonso; Duranti also notes a revelation that the pope should come without delay. Platina, about a century later, tells of a bishop whom the pope rebuked for living away from his see and who asked why the pope did not go back to his own church, an answer said to have hastened the return. Scudder adds that Gregory, perhaps regretting his return, grew cool to her in 1378.",
+  "Raymond of Capua as witness. He was her confessor and her interpreter at Avignon, where she knew no Latin and the pope no Italian, and he says he interpreted between them several times. The Library holds no other record of her words at the audience. He wrote the Life to show the gifts God gave her, he is partisan, and he was not at her death, being then at Genoa. The Library's print of the Life is a damaged scan, legible for the lines used; Carl Mirbt's print of section 152, the audience, is cleaner.",
+  "What she said at the audience. Mirbt's print reads quae for the sins committed in the papal court, where the Acta Sanctorum prints qui. Raymond does not date the audience; it falls within her stay at Avignon, which Scudder dates from 18 June to September 1376. He says the pope, after her words, said nothing.",
+  "The peace at Avignon. Raymond, who interpreted, says the pope put the peace in her hands and told her to keep the honor of the church; he says Florence promised envoys bound to do only as she said, sent them very late, and that the pope told her they had deceived her and would deceive her. The envoys, he says, answered that they had no mandate to confer with her. Her own letter of 28 June 1376 says the pope heard her graciously and would receive Florence as sons, and in a letter to Buonaccorso di Lapo she says she never had a chance to confer with the envoys. Scudder says she failed to procure peace.",
+  "Florence in 1378. Raymond says the pope sent her, not him, because the Florentines revered her and being a woman she would not be harmed; at Florence a servant of the devil came at her with a drawn sword, stopped, Raymond says, by God's power alone. Scudder says she almost lost her life in a popular tumult and regretted not winning the crown of martyrdom.",
+  "The day he reached Rome. Scudder says 17 January 1377. The Mansi notice says the Ides of January, 13 January, and calls the year 1376, and Platina, as Duranti cites him, says the same. The Library holds no line saying the year was counted from a different new year.",
+  "When the Dialogue was finished. The Sienese copy ends in October 1378, Fiorilli reckons it was written in about three months from July to October 1378, and Scudder says it was dictated during 1378; Thorold's title page of 1896 says it was completed in 1370. Guidini says she dictated it with all her senses lost except the tongue, God the Father speaking in her and she answering, one secretary writing at a time, and Maconi says he wrote part of it as she dictated it in a wonderful manner. Raymond says she dictated it in ecstasy. That she dictated it in ecstasy is the witnesses' own account.",
+  "Her death. Raymond gives Sunday 29 April 1380 at about Terce, and says he was at Genoa. Barduccio, who was there, says Sunday at about the sixth hour, that she cried out blood, blood, said Father, into your hands I commend my soul and spirit, and died with a face like an angel's. Scudder gives 30 April. The Library holds Barduccio's letter only in the Bollandists' Latin of a printed Italian of 1517, in a damaged scan.",
+  "Her family and her habit. Scudder alone gives her as the youngest of twenty-five children of Jacopo Benincasa and Lapa, with a twin sister who died at once, and dates her habit to 1363 or 1364; the dyer is Raymond's and Scudder's. Raymond says her mother, unwilling, tried to draw her back from asking the Mantellate for the habit. Scudder says the Mantellate lived in their own homes and took no monastic vows.",
+  "Her letters and the habit of dictation. Raymond saw her dictate different letters to two scribes at once, and others told him she had dictated to three or four at once. Scudder says she learned to write only three years before her death, and tells it as a wonder; Fiorilli says she herself wrote to Raymond that she was taught in an ecstasy, in October 1377. The Library holds her letters only in Scudder's English.",
+  "The stigmata and the Florence summons of 1374. Scudder's chronology says she received the stigmata at Pisa on 1 April 1375, the marks staying invisible at her request, and that in May 1374 she visited Florence, perhaps summoned to answer charges made against her by some in her order, her ecstasies and way of life having drawn criticism and suspicion. Both rest on Scudder's chronology alone.",
+  "The numbers. The thousand or more who came to hear her is Raymond's own count.",
+  "Not held: the Italian of her letters, the contemporary Lives of Gregory XI, and a bull or year of canonization."
+ ],
+ "sources": {
+  "ownWords": [
+   {
+    "title": "Saint Catherine of Siena as seen in her Letters (tr. and ed. Vida D. Scudder)",
+    "author": "Catherine of Siena",
+    "date": "1905",
+    "language": "English translation",
+    "file": "cic/texts/catherine-of-siena_selected-letters_scudder1905.txt"
+   },
+   {
+    "title": "Libro della divina dottrina (the Dialogue), ed. Matilde Fiorilli",
+    "author": "Catherine of Siena",
+    "date": "1378",
+    "language": "Italian",
+    "file": "cic/texts/catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912.txt"
+   },
+   {
+    "title": "The Dialogue of the Seraphic Virgin Catherine of Siena (tr. Algar Thorold)",
+    "author": "Catherine of Siena",
+    "date": "1378",
+    "language": "English translation",
+    "file": "cic/texts/catherine-of-siena_dialogue_thorold1896.txt"
+   }
+  ],
+  "about": [
+   {
+    "title": "Legenda, the Life of Catherine of Siena, with the Bollandist commentary and Barduccio Canigiani's letter on her death, in Acta Sanctorum, April, volume 3",
+    "author": "Raymond of Capua; Barduccio Canigiani",
+    "date": "about 1390",
+    "language": "Latin",
+    "file": "cic/texts/acta-sanctorum_aprilis-tomus-3-lat_palme1866.txt"
+   },
+   {
+    "title": "Life of Catherine of Siena, section 152, extract in Quellen zur Geschichte des Papsttums (ed. Carl Mirbt)",
+    "author": "Raymond of Capua",
+    "date": "about 1390",
+    "language": "Latin",
+    "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt"
+   },
+   {
+    "title": "Introduction, headnotes and chronology to the Letters",
+    "author": "Vida D. Scudder",
+    "date": "1905",
+    "language": "English",
+    "file": "cic/texts/catherine-of-siena_selected-letters_scudder1905.txt"
+   },
+   {
+    "title": "Note on the Dialogue, quoting the memoir of Cristofano Guidini and the words of Stefano Maconi",
+    "author": "Matilde Fiorilli",
+    "date": "1912",
+    "language": "Italian",
+    "file": "cic/texts/catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912.txt"
+   },
+   {
+    "title": "Sacrorum conciliorum collectio, volume 26: notice of Gregory XI",
+    "author": null,
+    "date": null,
+    "language": "Latin",
+    "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901.txt"
+   },
+   {
+    "title": "Revelationes S. Birgittae, with Duranti's notes",
+    "author": "Consalvo Duranti",
+    "date": "1628",
+    "language": "Latin",
+    "file": "cic/texts/birgitta_revelationes-lat_duranti1628.txt"
+   },
+   {
+    "title": "The Cell of Self-Knowledge, introduction",
+    "author": "Edmund G. Gardner",
+    "date": "1910",
+    "language": "English",
+    "file": "cic/texts/cell-of-self-knowledge_seven-early-english-mystical-treatises_gardner1910.txt"
+   },
+   {
+    "title": "Some Account of the Present Greek Church",
+    "author": "John Covel",
+    "date": "1722",
+    "language": "English",
+    "file": "cic/texts/covel_some-account-of-the-present-greek-church_1722.txt"
+   },
+   {
+    "title": "History of the Inquisition of the Middle Ages, volume 3",
+    "author": "Henry Charles Lea",
+    "date": "1888",
+    "language": "English",
+    "file": "cic/texts/lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt"
+   },
+   {
+    "title": "The Interior Castle, introduction, with Father Rodrigo Alvarez's note of 22 February 1582",
+    "author": "Rodrigo Alvarez",
+    "date": "1582",
+    "language": "English",
+    "file": "cic/texts/teresa-of-avila_interior-castle_stanbrook1912.txt"
+   },
+   {
+    "title": "The Life of Teresa of Jesus, English translation",
+    "author": "Teresa of Avila",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/teresa-of-avila_life_lewis1904.txt"
+   },
+   {
+    "title": "Apostolic brief on the church of San Domenico at Siena, in Acta Apostolicae Sedis, volume 18",
+    "author": "Pius XI",
+    "date": "1926",
+    "language": "Latin",
+    "file": "cic/texts/acta-apostolicae-sedis_v18-lat_1926.txt"
+   }
+  ]
+ },
+ "briefReferences": [
+  "Raymond of Capua, Life, section 152, in Mirbt: the audience before Gregory XI at Avignon, Raymond interpreting; the pope's question how she knew the court after a few days; her answer about the stench of the sins committed in the papal court; the pope's silence.",
+  "Raymond, Life, and Scudder's headnote: her father the dyer; her asking the Sisters of Penance of St. Dominic for their habit, and Scudder on how they lived in their own homes.",
+  "Scudder, introduction, and Raymond: her letters spoken aloud and written down by young men of her circle, two at once; the crowds who came down from the hills to hear her.",
+  "Scudder's chronology and the Mansi notice: the popes at Avignon for nearly seventy years.",
+  "Her letters to Gregory XI, 1375, in Scudder: to uproot the bad priests, return to Rome and raise the standard of the cross; her words for the pope's governors in Italy; Florence's revolt, the pope's sentences and the war, in Scudder's chronology and Raymond.",
+  "Her letter carried by Raymond to Gregory, in Scudder: come, come, come, and do not wait for time.",
+  "Raymond and Scudder: Florence sends her to Avignon; the pope puts the peace in her hands; Florence's envoys will not deal with her; the peace fails.",
+  "Scudder and the Mansi notice: the pope leaves in September 1376 and reaches Rome in the following January.",
+  "Raymond, Life, section 422; her letters of 1375 and 1376 in Scudder; the Mansi notice with Gobelinus and Platina: the causes of the return, each credited.",
+  "Scudder's chronology: Gregory dies in March 1378. Raymond, Guidini and Maconi, in Fiorilli's note: the Dialogue dictated in Siena in 1378, with her soul's four requests and God's answer.",
+  "Scudder's chronology and Raymond: the cardinals declare Urban VI's election invalid on 20 September 1378 and choose a rival; Urban summons her to Rome and she writes letters on his behalf.",
+  "Guidini and Maconi in Fiorilli's note; Gardner; Fiorilli on the printing of 1472: the Dialogue in Latin, copied, printed and put into English in 1519. Raymond's Life; the Roman Martyrology in the Bollandist commentary and Covel: Pius II and her canonization.",
+  "Barduccio Canigiani's letter in the Acta Sanctorum, and Scudder's chronology: her death at Rome at the end of April 1380; Barduccio on her crying out blood and her last words; the split between the two popes in Scudder's chronology."
+ ],
+ "quotationOriginals": [
+  {
+   "modern": "To the honour of almighty God, I dare to say it. While I was still in the city where I was born, I smelled the stench of the sins committed in the papal court. I smelled it more than the men who have committed them, and commit them every day, smell it themselves.",
+   "printed": "Ad honorem omnipotentis Dei audeo dicere, quod plus percepi foetorem peccatorum, quae in Romana curia committuntur, existens in civitate mea unde sum nata, quam percipiant ipsi qui ea commiserunt et committunt quotidie.",
+   "work": "Raymond of Capua, Life of Catherine, section 152, in Latin, in Carl Mirbt's Quellen zur Geschichte des Papsttums",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "13887-13891",
+   "uncertain": "Mirbt's scan reads onmipotentis, read omnipotentis as the Acta Sanctorum prints it (lines 200985-200986), and has a margin number 30 inside the span. Mirbt prints quae for the sins committed in the court; the Acta Sanctorum prints qui (line 200988). The Latin is Raymond's rendering of what she said in Tuscan, given through his own interpreting.",
+   "secondReading": "same"
+  },
+  {
+   "modern": "incarnate demons.",
+   "printed": "incarnate demons",
+   "work": "Catherine of Siena to Gregory XI, in Vida Scudder's English",
+   "file": "cic/texts/catherine-of-siena_selected-letters_scudder1905.txt",
+   "lines": "5039",
+   "secondReading": "checked at card",
+   "uncertain": "The Italian of her letters is not held, so the English is Scudder's."
+  },
+  {
+   "modern": "I tell you: come, come, come. Do not wait for time, because time does not wait for you.",
+   "printed": "I tell you, Come, come, come, and do not wait for time, since time does not wait for you.",
+   "work": "Catherine of Siena to Gregory XI, in Vida Scudder's English",
+   "file": "cic/texts/catherine-of-siena_selected-letters_scudder1905.txt",
+   "lines": "5221-5222",
+   "uncertain": "The Italian of her letters is not held, so the modern words render Scudder's English.",
+   "secondReading": "same"
+  },
+  {
+   "modern": "decided on your return and announced it.",
+   "printed": "decided on your return and announced it",
+   "work": "Catherine of Siena to Gregory XI at Avignon, in Vida Scudder's English",
+   "file": "cic/texts/catherine-of-siena_selected-letters_scudder1905.txt",
+   "lines": "7063-7064",
+   "uncertain": "The Italian of her letters is not held, so the modern words render Scudder's English.",
+   "secondReading": "same"
+  },
+  {
+   "modern": "To hear it told, this seems a thing past believing. But to those who wrote it down and heard it, it does not seem so. And I am one of them.",
+   "printed": "Questo a udire pare che sia cosa da non crédare; ma a coloro, che lo scrissero e udîro, nollo pare cosí; e io so' uno di quegli.",
+   "work": "Cristofano Guidini, memoir on the Dialogue, as quoted in Matilde Fiorilli's note, in Italian",
+   "file": "cic/texts/catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912.txt",
+   "lines": "14405-14407",
+   "uncertain": "Guidini's memoir itself is not held; it is read only in Fiorilli's quotation.",
+   "secondReading": "same"
+  }
+ ]
 }

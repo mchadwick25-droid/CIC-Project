@@ -1,239 +1,245 @@
 {
-  "otherNames": [
-    "Ambrosius"
-  ],
-  "knownFor": "Governor of Liguria and Aemilia who was acclaimed bishop of Milan in 374, before he was baptized. For twenty-three years he refused the court a church, and he would not lead communion with the emperor Theodosius present until Theodosius did public penance after the massacre at Thessalonica. The hymn-singing of his people in the nights of the siege of the church, which Paulinus says spread through almost all the provinces of the West, and the baptism of Augustine are also told of him.",
-  "datesNote": "His editor, H. de Romestin, says he was governor of Liguria and Aemilia from about 370. He was acclaimed bishop in 374 while still a catechumen. Paulinus says he was baptized and on the eighth day consecrated bishop; de Romestin puts the consecration at December 7, 374. De Romestin dates his death to Good Friday night, April 4 to 5, 397; Paulinus says his body lay in the great church on the night of the Easter vigil. His birth year is his editor's reckoning: 340 is the most generally accepted and 333 is possible. A note to Socrates's history says he was born in 333",
-  "placeNote": "Milan, in northern Italy, where the western emperors then held court. Before 374 he governed Liguria and Aemilia. His editor says his father's chief official residence was Trier, where he was probably born",
-  "role": "Governor of Liguria and Aemilia, then bishop of Milan; preacher, letter writer and hymn maker",
-  "keyWorks": [
-    {
-      "title": "Letters",
-      "about": "Letter XX to his sister Marcellina tells the siege of the church at Milan; Letters XL and XLI tell the quarrel with Theodosius over the burned synagogue at Callinicum; Letter LI, to Theodosius after the massacre at Thessalonica, says he dared not offer the sacrifice with the emperor present. They are held in English only, in the 1896 translation by H. de Romestin and others. No Latin of his letters or sermons is held"
-    },
-    {
-      "title": "Sermon Against Auxentius on the Giving Up of the Basilicas",
-      "about": "preached to the people in the same crisis; in it he answers the charge that his hymns had led them astray. English only"
-    },
-    {
-      "title": "On the Duties of the Clergy",
-      "about": "its first book tells in his own words how he was carried off from the judgment seat to the priesthood and began to teach before he began to learn. His editor's chronology places it in 391 to 392"
-    }
-  ],
-  "legacy": {
-    "traces": [
-      "Paulinus says that antiphons, hymns and vigils began first in the church of Milan in the days of the siege, and that the practice went on in his own day not only there but almost through all the provinces of the West. Augustine says that hymns and psalms were first instituted at Milan then, after the manner of the Eastern Church, and that the custom is imitated by many, almost all, congregations in the rest of the world.",
-      "Augustine quotes the verses that begin Deus creator omnium as Ambrose's own. His editor judges that probably four to twelve of the hymns ascribed to him are genuine and still in use.",
-      "The Ambrosian liturgy and rites continue in the Ambrosian basilica at Milan, differing considerably from the Roman use, with many changes since his time by his editor's account. How much of the rite goes back to him is unclear.",
-      "Augustine, in his writing against those he calls modern heretics on whether children are born bearing Adam's sin, quotes Ambrose as an authority. The chapter heading says his opponents quote him too."
-    ],
-    "remembered": [
-      "Rufinus, Paulinus, Augustine, Sozomen and Theodoret all tell the emperor's penance. Augustine counts it among the good works of Theodosius. Theodoret writes of the bishop and the emperor: \"Both to me are admirable; the former for his brave words, the latter for his docility\".",
-      "Paulinus writes that, as Elijah never feared to speak to kings or any powers, so Ambrose did not, for the fear of God.",
-      "Augustine, who came to Milan in 384 to teach rhetoric, writes that Ambrose received him like a father, and says that Ambrose's priestly office gave him the washing of regeneration.",
-      "Possidius says Augustine held that a man of God should keep three rules he had learned from Ambrose's practice: never to seek a wife for another man, not to urge anyone who wished to go to war to do so, and not to accept an invitation to a feast in his own community. Augustine, Possidius adds, used to admire and praise Ambrose's well-weighed reply when he was asked to pray for a longer life.",
-      "He is remembered as a defender of the Nicene faith against the court's party, Christians who would not say that the Son is of one being with the Father."
-    ]
+ "otherNames": [
+  "Ambrosius"
+ ],
+ "knownFor": "Governor of Liguria and Aemilia who was acclaimed bishop of Milan in 374, before he was baptized. For twenty-three years he refused the court a church, and he would not lead communion with the emperor Theodosius present until Theodosius did public penance after the massacre at Thessalonica. The hymn-singing of his people in the nights of the siege of the church, which Paulinus says spread through almost all the provinces of the West, and the baptism of Augustine are also told of him.",
+ "datesNote": "His editor, H. de Romestin, says he was governor of Liguria and Aemilia from about 370. He was acclaimed bishop in 374 while still a catechumen. Paulinus says he was baptized and on the eighth day consecrated bishop; de Romestin puts the consecration at December 7, 374. De Romestin dates his death to Good Friday night, April 4 to 5, 397; Paulinus says his body lay in the great church on the night of the Easter vigil. His birth year is his editor's reckoning: 340 is the most generally accepted and 333 is possible. A note to Socrates's history says he was born in 333",
+ "placeNote": "Milan, in northern Italy, where the western emperors then held court. Before 374 he governed Liguria and Aemilia. His editor says his father's chief official residence was Trier, where he was probably born",
+ "role": "Governor of Liguria and Aemilia, then bishop of Milan; preacher, letter writer and hymn maker",
+ "keyWorks": [
+  {
+   "title": "Letters",
+   "about": "Letter XX to his sister Marcellina tells the siege of the church at Milan; Letters XL and XLI tell the quarrel with Theodosius over the burned synagogue at Callinicum; Letter LI, to Theodosius after the massacre at Thessalonica, says he dared not offer the sacrifice with the emperor present. They are held in English only, in the 1896 translation by H. de Romestin and others. No Latin of his letters or sermons is held"
   },
-  "uncertain": [
-    "Paulinus. Much of the life rests on Paulinus, Ambrose's secretary, who wrote the Life at Augustine's request, about 412 to 413, after Ambrose's death. Augustine pointed him to the Lives of Anthony, Paul and Martin as models. The wonders in it are his voice alone: baptized infants who saw him after his death, and a star over his body.",
-    "The election. Paulinus says the voice of a child is said to have cried out, and the people took it up. Rufinus, a Latin historian writing a few years after Ambrose's death, has a shout and one voice from the quarrelling people, who cried that he should be baptized at once, for he was a catechumen. Socrates, writing in Greek, says all came suddenly to one mind, and that the emperor Valentinian called the choice the voice of God rather than the votes of men.",
-    "The flight and the stratagems. Paulinus says that Ambrose, to turn the people from him, had tortures applied to certain persons contrary to his custom, and that he left the city at midnight but was found at its gate by morning. Paulinus also says he had public women brought openly into his house; the Library's English print of that sentence is lost at a page break, and only the Latin holds it. His editor calls these some questionable expedients, and Paulinus alone tells them.",
-    "Baptism and consecration. Paulinus says Ambrose asked to be baptized only by a Catholic bishop and was consecrated on the eighth day; the date December 7 is his editor's. Socrates says the bishops baptized him and he then refused ordination with great earnestness, and the matter went to Valentinian. Ambrose's own words are that he resisted his ordination and tried to have it deferred, but the prescribed rule did not prevail against the popular eagerness. The emperor who approved the choice is Valentinian, the first of that name by a note to Augustine's Confessions, and not Theodosius.",
-    "The year of the siege of the church. His editor dates Letter XX to Easter 385 and puts the Holy Week persecution in 385. Augustine says it was about a year, or not much more, before his own baptism at Easter 387, which points to 386. The court's own law giving the right of assembly to those who hold the faith set out at the council of Ariminum, issued in the names of Valentinian, Theodosius and Arcadius and threatening as authors of sedition any who think that right theirs alone and attempt a disturbance against the order, is dated at Milan on 23 January 386. That date fits Augustine's count, against the editor's 385.",
-    "The siege. Most of the story of the court's demands, fines and soldiers comes from Ambrose's own letter to his sister, and the court's words survive only in his report. He says the heaviest sentences fell first on the whole body of merchants, from whom two hundred pounds' weight of gold was required within three days, and that the prisons were full of trades-people. He says too that the people seized \"a certain Castulus, who, the Arians said, was a priest\", and that he sent priests and deacons and rescued the man from violence. He says soldiers surrounded the church before day and then began to come to his assembly, saying they had come for prayer, not for fighting. Paulinus says an armed force was sent to guard the doors but turned its shields to guard them and let the people in. Rufinus says Justina threatened the bishops with exile unless they restored the decrees of Ariminum, and sent a band of armed men to break the doors and drag the bishop into exile. Ambrose calls what was done persecution, and so does Augustine of Justina.",
-    "Words reported only in the letter. As Ambrose reports, the boy emperor said \"If Ambrose bade you, you would deliver me up to him in chains\", and the chamberlain Calligonus said \"I will take your head from you\". He also reports that a court secretary asked him, \"If you are a tyrant I wish to know it\", and that the emperor then ordered the soldiers to leave the church and the sums taken from the merchants to be restored.",
-    "The palaces and the churches. Letter XX.19 gives his reply to the command to surrender the basilica. His editor, summarizing the same crisis, words the reply differently: that the emperor has his palaces and should leave the churches to the bishop. The brief follows the letter and writes emperor and bishop in lower case.",
-    "The hymns. Paulinus and Augustine both say the custom began at Milan in those days, and Augustine says it came after the manner of the Eastern Church, so neither makes Ambrose the inventor of hymn-singing. That he brought congregational hymn-singing to the West is Widely Accepted, not stated in those terms by either witness. How many of the hymns ascribed to him are his is Contested; the Te Deum is ascribed to him by some, a note to Augustine's Confessions says.",
-    "The synagogue at Callinicum. The sources are Ambrose's two letters, Paulinus's retelling and his editor's summary. The editor adds that a meeting-house of the Valentinian sect was also burned by Catholics, that Theodosius ordered the bishop to rebuild the synagogue at his own expense and the monks to be punished, and that the first letter seems to have failed at first. In it Ambrose wrote: \"I declare that I set fire to the synagogue, or at least that I ordered those who did it, that there might not be a place where Christ was denied.\" That is his own claim to the blame, not a charge that he burned it. In Letter XLI he says he stood until Theodosius said he would amend the edict and promised to end the whole investigation, and went to the altar on that promise. Theodosius, as Ambrose reports, said he had decided too harshly about the repairing of the synagogue by the bishop, but that this had been rectified.",
-    "The massacre at Thessalonica. Theodoret says the emperor's anger slew innocent and guilty together and adds that it is said seven thousand perished. His note, after Hodgkin, says the mob killed Botheric, a Gothic general, who had jailed a charioteer. His editor repeats about 7,000 and, in his heading to Letter LI, says over seven thousand were put to death. Paulinus says only that the city was given to the sword for almost three hours and many innocent were slain. Rufinus says a military man was killed by the people. Sozomen names the general Buthericus. For the cause, Theodoret, Sozomen and Rufinus give the emperor's anger. Augustine and Paulinus say he had promised the bishops to pardon the city, and was pushed into the killing by men around him.",
-    "How the penance came about. Ambrose's own letter says he avoided meeting the emperor on his arrival, pleaded sickness, wrote in his own hand, and dared not offer the sacrifice if the emperor were present. It says that sin is not done away but by tears and penitence; it does not itself name a public penance. Rufinus says the bishops of Italy rebuked Theodosius, and that he confessed his fault with tears and did public penance in the sight of the whole church for the time set him. Paulinus says Ambrose refused him entry to the church until he did public penance, and gives their exchange about David. Augustine, without naming Ambrose, says the emperor, held by the discipline of the church, did penance so that the people who prayed for him wept more at the sight of his imperial loftiness prostrate than they had feared it when enraged. Sozomen has Ambrose meet him at the church doors and take hold of his purple robe, and places it after the death of Eugenius, who was slain in 394 by his editor's chronology. Theodoret has Ambrose meet him outside the porch and forbid the threshold, an interval of eight months until Christmas, the official Rufinus pleading, and the emperor lying prone on the ground, plucking out his hair. Only the later Greek historians tell the door scene.",
-    "The thirty-day law. Rufinus and Sozomen say Theodosius made a law that sentences of death be delayed thirty days; Sozomen's translator notes that it is not extant. Theodoret alone makes it Ambrose's demand.",
-    "His reply when asked to pray for a longer life. Paulinus tells it as an answer to the nobles of the city whom Stilicho had sent, some days before the death, and says Honoratus, bishop of Vercelli, gave him the Body of the Lord at the end. Possidius tells the same reply as Augustine told it, in slightly different words in Latin and English; his editor Weiskotten says Paulinus records it in almost exactly the same form. The brief follows Paulinus's Latin.",
-    "Two men named Auxentius. Ambrose's predecessor at Milan, a bishop of the court's party, died in 374. His editor says a synod at Rome excommunicated him in 369 but he kept his post, and Sulpicius says he drove Martin of Tours out of Milan. The Sermon Against Auxentius answers a later man of the same name who, by the editor's chronology, claimed the see of Milan.",
-    "Told by his editor and not in the brief. His editor's chronology puts the removal of the image of Victory from the forum at Rome in 382 and the memorial of Symmachus, with Ambrose's reply in Letters XVII and XVIII, in 384; in a letter to the emperor Ambrose says Damasus sent him the memorial of the Christian senators who had protested. The editor lists two missions to the usurper Maximus, in 383 to 384 and in 387, and Letter XXIV is not held. He says Ambrose prevailed on the emperor in 381 to summon only the neighboring bishops to Aquileia, not a general council. Sulpicius says Priscillian and his companions, turned away by Damasus, found Ambrose equally opposed. Letter XLII is the reply of Ambrose and a synod at Milan to the sentence of Pope Siricius on Jovinian. His sister Marcellina received the veil from Pope Liberius, the year uncertain."
-  ],
-  "sources": {
-    "ownWords": [
-      {
-        "title": "Letters, Sermon Against Auxentius and On the Duties of the Clergy, in Nicene and Post-Nicene Fathers, second series, vol. 10 (tr. H. de Romestin and others)",
-        "author": "Ambrose",
-        "date": "1896",
-        "language": "English translation",
-        "file": "cic/texts/npnf210_ambrose-select-works-letters.xml"
-      }
-    ],
-    "about": [
-      {
-        "title": "Life of Ambrose, Latin with English translation by Sister Mary Simplicia Kaniecka",
-        "author": "Paulinus of Milan",
-        "date": "1928",
-        "language": "Latin, with English translation",
-        "file": "cic/texts/paulinus-milan_vita-ambrosii_kaniecka1928.txt"
-      },
-      {
-        "title": "Introduction and notes to the letters and works of Ambrose",
-        "author": "H. de Romestin",
-        "date": "1896",
-        "language": "English",
-        "file": "cic/texts/npnf210_ambrose-select-works-letters.xml"
-      },
-      {
-        "title": "Church History, books X and XI, in Eusebius Werke, vol. 2, part 2",
-        "author": "Rufinus of Aquileia",
-        "date": "1908",
-        "language": "Latin",
-        "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt"
-      },
-      {
-        "title": "Confessions (English, in Nicene and Post-Nicene Fathers, first series, vol. 1)",
-        "author": "Augustine of Hippo",
-        "date": null,
-        "language": "English translation",
-        "file": "cic/texts/npnf101_augustine-confessions-letters.xml"
-      },
-      {
-        "title": "Confessions (Latin, ed. Knoll)",
-        "author": "Augustine of Hippo",
-        "date": null,
-        "language": "Latin",
-        "file": "cic/texts/augustine_confessiones-lat_knoll-csel33.txt"
-      },
-      {
-        "title": "City of God (English, in Nicene and Post-Nicene Fathers, first series, vol. 2)",
-        "author": "Augustine of Hippo",
-        "date": null,
-        "language": "English translation",
-        "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml"
-      },
-      {
-        "title": "City of God (Latin, ed. Hoffmann)",
-        "author": "Augustine of Hippo",
-        "date": null,
-        "language": "Latin",
-        "file": "cic/texts/augustine_civitate-dei-1-13-lat_hoffmann-csel40-1.txt"
-      },
-      {
-        "title": "On Marriage and Concupiscence, in the anti-Pelagian writings",
-        "author": "Augustine of Hippo",
-        "date": null,
-        "language": "English translation",
-        "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml"
-      },
-      {
-        "title": "Life of Augustine, Latin with English translation by Herbert T. Weiskotten",
-        "author": "Possidius of Calama",
-        "date": "1919",
-        "language": "Latin, with English translation",
-        "file": "cic/texts/possidius_vita-augustini_weiskotten1919.txt"
-      },
-      {
-        "title": "Church History, with notes",
-        "author": "Theodoret of Cyrrhus",
-        "date": null,
-        "language": "English translation",
-        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
-      },
-      {
-        "title": "Church Histories of Socrates and Sozomen, with notes",
-        "author": "Socrates of Constantinople and Sozomen",
-        "date": null,
-        "language": "English translation",
-        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
-      },
-      {
-        "title": "Life of Martin, Dialogues and Chronicle",
-        "author": "Sulpicius Severus",
-        "date": null,
-        "language": "English translation",
-        "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml"
-      },
-      {
-        "title": "Theodosian Code, book 16, law 1.4 of 23 January 386",
-        "author": null,
-        "date": "1905",
-        "language": "Latin",
-        "file": "cic/texts/theodosianus-16_mommsen-meyer1905.txt"
-      }
-    ]
+  {
+   "title": "Sermon Against Auxentius on the Giving Up of the Basilicas",
+   "about": "preached to the people in the same crisis; in it he answers the charge that his hymns had led them astray. English only"
   },
-  "briefReferences": [
-    "Paulinus, Life of Ambrose 6, tr. Sister Mary Simplicia Kaniecka: the people of Milan, Ambrose going into the church to quell the unrest, and the voice of a child said to have cried out. Rufinus, Church History XI, and Socrates tell the election without the child.",
-    "Ambrose as governor: his editor H. de Romestin, Rufinus and Socrates.",
-    "Paulinus, Life of Ambrose 7 to 9: the tortures, the flight at midnight, baptism and consecration on the eighth day. Twenty-three years from 374 to 397.",
-    "Letter XX to his sister Marcellina, tr. H. de Romestin: the court's demand for a church, the man the court's party called a priest and his rescue, the fines on the merchants and the prisons, soldiers around the church before day, the court secretary's question about a tyrant, the soldiers who came to pray, the boy emperor's withdrawal of the soldiers and return of the fines. Justina, mother of the boy emperor Valentinian II: de Romestin's introduction and Socrates.",
-    "Letter XX.19: the palaces and the churches. Sermon Against Auxentius 34: the charge about his hymns and his answer.",
-    "Paulinus, Life of Ambrose 13: antiphons, hymns and vigils begun at Milan, and the custom continuing through almost all the provinces of the West.",
-    "Augustine, Confessions V.13 and IX.7: received like a father at Milan, and the hymns and psalms of the siege. De Romestin: baptism at Easter 387. Augustine, On Marriage and Concupiscence I.40: baptized by Ambrose.",
-    "Letters XL and XLI and de Romestin's summary: the synagogue at Callinicum, the bishop ordered to rebuild it, and Ambrose at the altar on the emperor's promise to amend the edict and end the inquiry.",
-    "Theodoret, Church History, with the note after Hodgkin; Sozomen, Rufinus and Paulinus 24: the riot at Thessalonica, the killing of the commander and the many innocent slain. Letter LI.13 to Theodosius, tr. de Romestin.",
-    "Paulinus 24, Rufinus, Augustine, City of God V.26, Sozomen and Theodoret: the public penance, told by Latin and Greek writers. Theodoret's door scene, which Ambrose's letter and Paulinus do not tell.",
-    "Paulinus 13: the singing still going on through almost all the provinces of the West.",
-    "Paulinus 45 and 47, and Possidius, Life of Augustine 27: the reply when he was asked to pray for a longer life, his death on the night of Good Friday, 397, and his prayer with arms stretched out like a cross."
+  {
+   "title": "On the Duties of the Clergy",
+   "about": "its first book tells in his own words how he was carried off from the judgment seat to the priesthood and began to teach before he began to learn. His editor's chronology places it in 391 to 392"
+  }
+ ],
+ "legacy": {
+  "traces": [
+   "Paulinus says that antiphons, hymns and vigils began first in the church of Milan in the days of the siege, and that the practice went on in his own day not only there but almost through all the provinces of the West. Augustine says that hymns and psalms were first instituted at Milan then, after the manner of the Eastern Church, and that the custom is imitated by many, almost all, congregations in the rest of the world.",
+   "Augustine quotes the verses that begin Deus creator omnium as Ambrose's own. His editor judges that probably four to twelve of the hymns ascribed to him are genuine and still in use.",
+   "The Ambrosian liturgy and rites continue in the Ambrosian basilica at Milan, differing considerably from the Roman use, with many changes since his time by his editor's account. How much of the rite goes back to him is unclear.",
+   "Augustine, in his writing against those he calls modern heretics on whether children are born bearing Adam's sin, quotes Ambrose as an authority. The chapter heading says his opponents quote him too."
   ],
-  "quotationOriginals": [
-    {
-      "modern": "Ambrose for bishop!",
-      "printed": "Ambrose Bishop.",
-      "work": "Paulinus of Milan, Life of Ambrose 6, tr. Sister Mary Simplicia Kaniecka",
-      "file": "cic/texts/paulinus-milan_vita-ambrosii_kaniecka1928.txt",
-      "lines": "3199",
-      "original": "Ambrosium episcopum.",
-      "originalFile": "cic/texts/paulinus-milan_vita-ambrosii_kaniecka1928.txt",
-      "originalLines": "3145",
-      "secondReading": "checked at card",
-      "uncertain": "The Latin is the accusative: the people ask for Ambrose as bishop. The English print reads \"Ambrose Bishop\". Rufinus's Latin has the same two words from the quarrelling people (Ambrosium episcopum postulantes)."
-    },
-    {
-      "modern": "The palaces belong to the emperor, the churches to the bishop,",
-      "printed": "The palaces belong to the Emperor, the churches to the Bishop.",
-      "work": "Ambrose, Letter XX.19 to his sister Marcellina, tr. H. de Romestin",
-      "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
-      "lines": "41691-41692",
-      "uncertain": "English only: no Latin of Ambrose's letters is held. The brief writes emperor and bishop in lower case. His editor words the same reply differently: the emperor has his palaces, and should leave the churches to the bishop."
-    },
-    {
-      "modern": "I certainly do not deny it.",
-      "printed": "I certainly do not deny it.",
-      "work": "Ambrose, Sermon Against Auxentius 34, tr. H. de Romestin",
-      "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
-      "lines": "42636",
-      "uncertain": "English only: no Latin of Ambrose's sermons is held."
-    },
-    {
-      "modern": "So they have all become teachers, who could hardly be pupils.",
-      "printed": "So they all have become teachers, who scarcely could be disciples.",
-      "work": "Ambrose, Sermon Against Auxentius 34, tr. H. de Romestin",
-      "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
-      "lines": "42641-42642",
-      "uncertain": "English only: no Latin is held. Pupils renders the print's disciples, which today would sound like religious followers; the sense is learners."
-    },
-    {
-      "modern": "I dare not offer the sacrifice if you mean to be there,",
-      "printed": "I dare not offer the sacrifice if you intend to be present.",
-      "work": "Ambrose, Letter LI.13 to Theodosius, tr. H. de Romestin",
-      "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
-      "lines": "44183",
-      "uncertain": "English only: no Latin of Ambrose's letters is held. The brief explains offer the sacrifice as leading the communion service."
-    },
-    {
-      "modern": "What is not allowed after the blood of one innocent person is shed, is it allowed after the blood of many? I do not think so.",
-      "printed": "Is that which is not allowed after shedding the blood of one innocent person, allowed after shedding the blood of many? I do not think so.",
-      "work": "Ambrose, Letter LI.13 to Theodosius, tr. H. de Romestin",
-      "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
-      "lines": "44184-44186",
-      "uncertain": "English only: no Latin of Ambrose's letters is held."
-    },
-    {
-      "modern": "I have not lived among you in such a way that I am ashamed to live. Nor am I afraid to die, because we have a good Lord.",
-      "printed": "I have not so lived among you that I am ashamed to live nor do I fear to die, because we have a good Lord!",
-      "work": "Paulinus of Milan, Life of Ambrose 45, tr. Sister Mary Simplicia Kaniecka",
-      "file": "cic/texts/paulinus-milan_vita-ambrosii_kaniecka1928.txt",
-      "lines": "5651-5653",
-      "original": "Non ita inter uos uixi ut pudeat me uiuere nec timeo mori, quia Dominum bonum habemus.",
-      "originalFile": "cic/texts/paulinus-milan_vita-ambrosii_kaniecka1928.txt",
-      "originalLines": "5601-5602",
-      "uncertain": "The brief follows Paulinus's Latin. Possidius's Latin differs slightly: Non sic vixi, ut me pudeat inter vos vivere: sed nec mori timeo, quia bonum Dominum habemus (his print reads nee for nec, a scan fault). Weiskotten's English for Possidius reads: I have not so lived that I should be ashamed to live among you, yet I do not fear to die, for we have a Lord who is good. A stray mark in the scan of Paulinus's line is left out."
-    }
+  "remembered": [
+   "Rufinus, Paulinus, Augustine, Sozomen and Theodoret all tell the emperor's penance. Augustine counts it among the good works of Theodosius. Theodoret writes of the bishop and the emperor: \"Both to me are admirable; the former for his brave words, the latter for his docility\".",
+   "Paulinus writes that, as Elijah never feared to speak to kings or any powers, so Ambrose did not, for the fear of God.",
+   "Augustine, who came to Milan in 384 to teach rhetoric, writes that Ambrose received him like a father, and says that Ambrose's priestly office gave him the washing of regeneration.",
+   "Possidius says Augustine held that a man of God should keep three rules he had learned from Ambrose's practice: never to seek a wife for another man, not to urge anyone who wished to go to war to do so, and not to accept an invitation to a feast in his own community. Augustine, Possidius adds, used to admire and praise Ambrose's well-weighed reply when he was asked to pray for a longer life.",
+   "He is remembered as a defender of the Nicene faith against the court's party, Christians who would not say that the Son is of one being with the Father."
   ]
+ },
+ "uncertain": [
+  "Paulinus. Much of the life rests on Paulinus, Ambrose's secretary, who wrote the Life at Augustine's request, about 412 to 413, after Ambrose's death. Augustine pointed him to the Lives of Anthony, Paul and Martin as models. The wonders in it are his voice alone: baptized infants who saw him after his death, and a star over his body.",
+  "The election. Paulinus says the voice of a child is said to have cried out, and the people took it up. Rufinus, a Latin historian writing a few years after Ambrose's death, has a shout and one voice from the quarrelling people, who cried that he should be baptized at once, for he was a catechumen. Socrates, writing in Greek, says all came suddenly to one mind, and that the emperor Valentinian called the choice the voice of God rather than the votes of men.",
+  "The flight and the stratagems. Paulinus says that Ambrose, to turn the people from him, had tortures applied to certain persons contrary to his custom, and that he left the city at midnight but was found at its gate by morning. Paulinus also says he had public women brought openly into his house; the Library's English print of that sentence is lost at a page break, and only the Latin holds it. His editor calls these some questionable expedients, and Paulinus alone tells them.",
+  "Baptism and consecration. Paulinus says Ambrose asked to be baptized only by a Catholic bishop and was consecrated on the eighth day; the date December 7 is his editor's. Socrates says the bishops baptized him and he then refused ordination with great earnestness, and the matter went to Valentinian. Ambrose's own words are that he resisted his ordination and tried to have it deferred, but the prescribed rule did not prevail against the popular eagerness. The emperor who approved the choice is Valentinian, the first of that name by a note to Augustine's Confessions, and not Theodosius.",
+  "The year of the siege of the church. His editor dates Letter XX to Easter 385 and puts the Holy Week persecution in 385. Augustine says it was about a year, or not much more, before his own baptism at Easter 387, which points to 386. The court's own law giving the right of assembly to those who hold the faith set out at the council of Ariminum, issued in the names of Valentinian, Theodosius and Arcadius and threatening as authors of sedition any who think that right theirs alone and attempt a disturbance against the order, is dated at Milan on 23 January 386. That date fits Augustine's count, against the editor's 385.",
+  "The siege. Most of the story of the court's demands, fines and soldiers comes from Ambrose's own letter to his sister, and the court's words survive only in his report. He says the heaviest sentences fell first on the whole body of merchants, from whom two hundred pounds' weight of gold was required within three days, and that the prisons were full of trades-people. He says too that the people seized \"a certain Castulus, who, the Arians said, was a priest\", and that he sent priests and deacons and rescued the man from violence. He says soldiers surrounded the church before day and then began to come to his assembly, saying they had come for prayer, not for fighting. Paulinus says an armed force was sent to guard the doors but turned its shields to guard them and let the people in. Rufinus says Justina threatened the bishops with exile unless they restored the decrees of Ariminum, and sent a band of armed men to break the doors and drag the bishop into exile. Ambrose calls what was done persecution, and so does Augustine of Justina.",
+  "Words reported only in the letter. As Ambrose reports, the boy emperor said \"If Ambrose bade you, you would deliver me up to him in chains\", and the chamberlain Calligonus said \"I will take your head from you\". He also reports that a court secretary asked him, \"If you are a tyrant I wish to know it\", and that the emperor then ordered the soldiers to leave the church and the sums taken from the merchants to be restored.",
+  "The palaces and the churches. Letter XX.19 gives his reply to the command to surrender the basilica. His editor, summarizing the same crisis, words the reply differently: that the emperor has his palaces and should leave the churches to the bishop. The brief follows the letter and writes emperor and bishop in lower case.",
+  "The hymns. Paulinus and Augustine both say the custom began at Milan in those days, and Augustine says it came after the manner of the Eastern Church, so neither makes Ambrose the inventor of hymn-singing. That he brought congregational hymn-singing to the West is Widely Accepted, not stated in those terms by either witness. How many of the hymns ascribed to him are his is Contested; the Te Deum is ascribed to him by some, a note to Augustine's Confessions says.",
+  "The synagogue at Callinicum. The sources are Ambrose's two letters, Paulinus's retelling and his editor's summary. The editor adds that a meeting-house of the Valentinian sect was also burned by Catholics, that Theodosius ordered the bishop to rebuild the synagogue at his own expense and the monks to be punished, and that the first letter seems to have failed at first. In it Ambrose wrote: \"I declare that I set fire to the synagogue, or at least that I ordered those who did it, that there might not be a place where Christ was denied.\" That is his own claim to the blame, not a charge that he burned it. In Letter XLI he says he stood until Theodosius said he would amend the edict and promised to end the whole investigation, and went to the altar on that promise. Theodosius, as Ambrose reports, said he had decided too harshly about the repairing of the synagogue by the bishop, but that this had been rectified.",
+  "The massacre at Thessalonica. Theodoret says the emperor's anger slew innocent and guilty together and adds that it is said seven thousand perished. His note, after Hodgkin, says the mob killed Botheric, a Gothic general, who had jailed a charioteer. His editor repeats about 7,000 and, in his heading to Letter LI, says over seven thousand were put to death. Paulinus says only that the city was given to the sword for almost three hours and many innocent were slain. Rufinus says a military man was killed by the people. Sozomen names the general Buthericus. For the cause, Theodoret, Sozomen and Rufinus give the emperor's anger. Augustine and Paulinus say he had promised the bishops to pardon the city, and was pushed into the killing by men around him.",
+  "How the penance came about. Ambrose's own letter says he avoided meeting the emperor on his arrival, pleaded sickness, wrote in his own hand, and dared not offer the sacrifice if the emperor were present. It says that sin is not done away but by tears and penitence; it does not itself name a public penance. Rufinus says the bishops of Italy rebuked Theodosius, and that he confessed his fault with tears and did public penance in the sight of the whole church for the time set him. Paulinus says Ambrose refused him entry to the church until he did public penance, and gives their exchange about David. Augustine, without naming Ambrose, says the emperor, held by the discipline of the church, did penance so that the people who prayed for him wept more at the sight of his imperial loftiness prostrate than they had feared it when enraged. Sozomen has Ambrose meet him at the church doors and take hold of his purple robe, and places it after the death of Eugenius, who was slain in 394 by his editor's chronology. Theodoret has Ambrose meet him outside the porch and forbid the threshold, an interval of eight months until Christmas, the official Rufinus pleading, and the emperor lying prone on the ground, plucking out his hair. Only the later Greek historians tell the door scene.",
+  "The thirty-day law. Rufinus and Sozomen say Theodosius made a law that sentences of death be delayed thirty days; Sozomen's translator notes that it is not extant. Theodoret alone makes it Ambrose's demand.",
+  "His reply when asked to pray for a longer life. Paulinus tells it as an answer to the nobles of the city whom Stilicho had sent, some days before the death, and says Honoratus, bishop of Vercelli, gave him the Body of the Lord at the end. Possidius tells the same reply as Augustine told it, in slightly different words in Latin and English; his editor Weiskotten says Paulinus records it in almost exactly the same form. The brief follows Paulinus's Latin.",
+  "Two men named Auxentius. Ambrose's predecessor at Milan, a bishop of the court's party, died in 374. His editor says a synod at Rome excommunicated him in 369 but he kept his post, and Sulpicius says he drove Martin of Tours out of Milan. The Sermon Against Auxentius answers a later man of the same name who, by the editor's chronology, claimed the see of Milan.",
+  "Told by his editor and not in the brief. His editor's chronology puts the removal of the image of Victory from the forum at Rome in 382 and the memorial of Symmachus, with Ambrose's reply in Letters XVII and XVIII, in 384; in a letter to the emperor Ambrose says Damasus sent him the memorial of the Christian senators who had protested. The editor lists two missions to the usurper Maximus, in 383 to 384 and in 387, and Letter XXIV is not held. He says Ambrose prevailed on the emperor in 381 to summon only the neighboring bishops to Aquileia, not a general council. Sulpicius says Priscillian and his companions, turned away by Damasus, found Ambrose equally opposed. Letter XLII is the reply of Ambrose and a synod at Milan to the sentence of Pope Siricius on Jovinian. His sister Marcellina received the veil from Pope Liberius, the year uncertain."
+ ],
+ "sources": {
+  "ownWords": [
+   {
+    "title": "Letters, Sermon Against Auxentius and On the Duties of the Clergy, in Nicene and Post-Nicene Fathers, second series, vol. 10 (tr. H. de Romestin and others)",
+    "author": "Ambrose",
+    "date": "1896",
+    "language": "English translation",
+    "file": "cic/texts/npnf210_ambrose-select-works-letters.xml"
+   }
+  ],
+  "about": [
+   {
+    "title": "Life of Ambrose, Latin with English translation by Sister Mary Simplicia Kaniecka",
+    "author": "Paulinus of Milan",
+    "date": "1928",
+    "language": "Latin, with English translation",
+    "file": "cic/texts/paulinus-milan_vita-ambrosii_kaniecka1928.txt"
+   },
+   {
+    "title": "Introduction and notes to the letters and works of Ambrose",
+    "author": "H. de Romestin",
+    "date": "1896",
+    "language": "English",
+    "file": "cic/texts/npnf210_ambrose-select-works-letters.xml"
+   },
+   {
+    "title": "Church History, books X and XI, in Eusebius Werke, vol. 2, part 2",
+    "author": "Rufinus of Aquileia",
+    "date": "1908",
+    "language": "Latin",
+    "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt"
+   },
+   {
+    "title": "Confessions (English, in Nicene and Post-Nicene Fathers, first series, vol. 1)",
+    "author": "Augustine of Hippo",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/npnf101_augustine-confessions-letters.xml"
+   },
+   {
+    "title": "Confessions (Latin, ed. Knoll)",
+    "author": "Augustine of Hippo",
+    "date": null,
+    "language": "Latin",
+    "file": "cic/texts/augustine_confessiones-lat_knoll-csel33.txt"
+   },
+   {
+    "title": "City of God (English, in Nicene and Post-Nicene Fathers, first series, vol. 2)",
+    "author": "Augustine of Hippo",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml"
+   },
+   {
+    "title": "City of God (Latin, ed. Hoffmann)",
+    "author": "Augustine of Hippo",
+    "date": null,
+    "language": "Latin",
+    "file": "cic/texts/augustine_civitate-dei-1-13-lat_hoffmann-csel40-1.txt"
+   },
+   {
+    "title": "On Marriage and Concupiscence, in the anti-Pelagian writings",
+    "author": "Augustine of Hippo",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml"
+   },
+   {
+    "title": "Life of Augustine, Latin with English translation by Herbert T. Weiskotten",
+    "author": "Possidius of Calama",
+    "date": "1919",
+    "language": "Latin, with English translation",
+    "file": "cic/texts/possidius_vita-augustini_weiskotten1919.txt"
+   },
+   {
+    "title": "Church History, with notes",
+    "author": "Theodoret of Cyrrhus",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+   },
+   {
+    "title": "Church Histories of Socrates and Sozomen, with notes",
+    "author": "Socrates of Constantinople and Sozomen",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+   },
+   {
+    "title": "Life of Martin, Dialogues and Chronicle",
+    "author": "Sulpicius Severus",
+    "date": null,
+    "language": "English translation",
+    "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml"
+   },
+   {
+    "title": "Theodosian Code, book 16, law 1.4 of 23 January 386",
+    "author": null,
+    "date": "1905",
+    "language": "Latin",
+    "file": "cic/texts/theodosianus-16_mommsen-meyer1905.txt"
+   }
+  ]
+ },
+ "briefReferences": [
+  "Paulinus, Life of Ambrose 6, tr. Sister Mary Simplicia Kaniecka: the people of Milan, Ambrose going into the church to quell the unrest, and the voice of a child said to have cried out. Rufinus, Church History XI, and Socrates tell the election without the child.",
+  "Ambrose as governor: his editor H. de Romestin, Rufinus and Socrates.",
+  "Paulinus, Life of Ambrose 7 to 9: the tortures, the flight at midnight, baptism and consecration on the eighth day. Twenty-three years from 374 to 397.",
+  "Letter XX to his sister Marcellina, tr. H. de Romestin: the court's demand for a church, the man the court's party called a priest and his rescue, the fines on the merchants and the prisons, soldiers around the church before day, the court secretary's question about a tyrant, the soldiers who came to pray, the boy emperor's withdrawal of the soldiers and return of the fines. Justina, mother of the boy emperor Valentinian II: de Romestin's introduction and Socrates.",
+  "Letter XX.19: the palaces and the churches. Sermon Against Auxentius 34: the charge about his hymns and his answer.",
+  "Paulinus, Life of Ambrose 13: antiphons, hymns and vigils begun at Milan, and the custom continuing through almost all the provinces of the West.",
+  "Augustine, Confessions V.13 and IX.7: received like a father at Milan, and the hymns and psalms of the siege. De Romestin: baptism at Easter 387. Augustine, On Marriage and Concupiscence I.40: baptized by Ambrose.",
+  "Letters XL and XLI and de Romestin's summary: the synagogue at Callinicum, the bishop ordered to rebuild it, and Ambrose at the altar on the emperor's promise to amend the edict and end the inquiry.",
+  "Theodoret, Church History, with the note after Hodgkin; Sozomen, Rufinus and Paulinus 24: the riot at Thessalonica, the killing of the commander and the many innocent slain. Letter LI.13 to Theodosius, tr. de Romestin.",
+  "Paulinus 24, Rufinus, Augustine, City of God V.26, Sozomen and Theodoret: the public penance, told by Latin and Greek writers. Theodoret's door scene, which Ambrose's letter and Paulinus do not tell.",
+  "Paulinus 13: the singing still going on through almost all the provinces of the West.",
+  "Paulinus 45 and 47, and Possidius, Life of Augustine 27: the reply when he was asked to pray for a longer life, his death on the night of Good Friday, 397, and his prayer with arms stretched out like a cross."
+ ],
+ "quotationOriginals": [
+  {
+   "modern": "Ambrose for bishop!",
+   "printed": "Ambrose Bishop.",
+   "work": "Paulinus of Milan, Life of Ambrose 6, tr. Sister Mary Simplicia Kaniecka",
+   "file": "cic/texts/paulinus-milan_vita-ambrosii_kaniecka1928.txt",
+   "lines": "3199",
+   "original": "Ambrosium episcopum.",
+   "originalFile": "cic/texts/paulinus-milan_vita-ambrosii_kaniecka1928.txt",
+   "originalLines": "3145",
+   "secondReading": "checked at card",
+   "uncertain": "The Latin is the accusative: the people ask for Ambrose as bishop. The English print reads \"Ambrose Bishop\". Rufinus's Latin has the same two words from the quarrelling people (Ambrosium episcopum postulantes)."
+  },
+  {
+   "modern": "The palaces belong to the emperor, the churches to the bishop,",
+   "printed": "The palaces belong to the Emperor, the churches to the Bishop.",
+   "work": "Ambrose, Letter XX.19 to his sister Marcellina, tr. H. de Romestin",
+   "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+   "lines": "41691-41692",
+   "uncertain": "English only: no Latin of Ambrose's letters is held. The brief writes emperor and bishop in lower case. His editor words the same reply differently: the emperor has his palaces, and should leave the churches to the bishop.",
+   "secondReading": "same"
+  },
+  {
+   "modern": "I certainly do not deny it.",
+   "printed": "I certainly do not deny it.",
+   "work": "Ambrose, Sermon Against Auxentius 34, tr. H. de Romestin",
+   "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+   "lines": "42636",
+   "uncertain": "English only: no Latin of Ambrose's sermons is held.",
+   "secondReading": "same"
+  },
+  {
+   "modern": "So they have all become teachers, who could hardly be pupils.",
+   "printed": "So they all have become teachers, who scarcely could be disciples.",
+   "work": "Ambrose, Sermon Against Auxentius 34, tr. H. de Romestin",
+   "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+   "lines": "42641-42642",
+   "uncertain": "English only: no Latin is held. Pupils renders the print's disciples, which today would sound like religious followers; the sense is learners.",
+   "secondReading": "same"
+  },
+  {
+   "modern": "I dare not offer the sacrifice if you mean to be there,",
+   "printed": "I dare not offer the sacrifice if you intend to be present.",
+   "work": "Ambrose, Letter LI.13 to Theodosius, tr. H. de Romestin",
+   "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+   "lines": "44183",
+   "uncertain": "English only: no Latin of Ambrose's letters is held. The brief explains offer the sacrifice as leading the communion service.",
+   "secondReading": "same"
+  },
+  {
+   "modern": "What is not allowed after the blood of one innocent person is shed, is it allowed after the blood of many? I do not think so.",
+   "printed": "Is that which is not allowed after shedding the blood of one innocent person, allowed after shedding the blood of many? I do not think so.",
+   "work": "Ambrose, Letter LI.13 to Theodosius, tr. H. de Romestin",
+   "file": "cic/texts/npnf210_ambrose-select-works-letters.xml",
+   "lines": "44184-44186",
+   "uncertain": "English only: no Latin of Ambrose's letters is held.",
+   "secondReading": "same"
+  },
+  {
+   "modern": "I have not lived among you in such a way that I am ashamed to live. Nor am I afraid to die, because we have a good Lord.",
+   "printed": "I have not so lived among you that I am ashamed to live nor do I fear to die, because we have a good Lord!",
+   "work": "Paulinus of Milan, Life of Ambrose 45, tr. Sister Mary Simplicia Kaniecka",
+   "file": "cic/texts/paulinus-milan_vita-ambrosii_kaniecka1928.txt",
+   "lines": "5651-5653",
+   "original": "Non ita inter uos uixi ut pudeat me uiuere nec timeo mori, quia Dominum bonum habemus.",
+   "originalFile": "cic/texts/paulinus-milan_vita-ambrosii_kaniecka1928.txt",
+   "originalLines": "5601-5602",
+   "uncertain": "The brief follows Paulinus's Latin. Possidius's Latin differs slightly: Non sic vixi, ut me pudeat inter vos vivere: sed nec mori timeo, quia bonum Dominum habemus (his print reads nee for nec, a scan fault). Weiskotten's English for Possidius reads: I have not so lived that I should be ashamed to live among you, yet I do not fear to die, for we have a Lord who is good. A stray mark in the scan of Paulinus's line is left out.",
+   "secondReading": "same"
+  }
+ ]
 }
