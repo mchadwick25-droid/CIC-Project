@@ -25,3 +25,4 @@ One row per agent pass: the subagent's own token count as the harness reports it
 | Hilary | 2 Outline check | Opus | 168,900 | FIX, 1 blocking, 14 minor |
 | Epiphanius | 2 Outline check | Opus | 208,543 | FIX, 1 blocking, 12 minor |
 | Damasus | 2 Outline check | Opus | 172,445 | FIX, 2 blocking, 13 minor |
+| Basil, Evagrius | 2b Outline fixes | Opus | 118,476 | all applied |
