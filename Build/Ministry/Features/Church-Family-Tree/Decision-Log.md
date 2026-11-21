@@ -5200,3 +5200,4 @@ Mark, posting to LinkedIn: "the linked in cant display a preview and its not pul
 2. Eunomius is researched after Basil's outline; the other eight at once.
 3. The quotes lifted and barred as the page reads them under the reuse ruling of 2026-11-21, listed in the batch README.
 4. Gregory of Nyssa stays `major: false`.
+5. Home traditions (Mark, 2026-11-21, in chat: "approved, all eleven stay where they are"), after his ruling relayed from the batch 8 session, "these should all be connected to a home tradition (unless its clear they are not and they sit in the river)": each of the eleven keeps its census `toldWithin`, as item 5 of the page (version 2) checks them against the record. Epiphanius stays in `palestinian-ascetic-monasticism-early` (Sozomen VI.32 lists him among the monks of Palestine); Damasus in `imperial-juridical-christianity`; Eusebius of Nicomedia in `homoian-arian-christianity` as its forerunner, and his story does not call him "Homoian".
