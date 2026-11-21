@@ -62,3 +62,19 @@ All twelve at once: no two share an event or a text. Constantine joins at review
 - One Open-Gaps entry for the batch, at the next free number, and one that updates "The stories approved before the kit: reviewed in their era's batch" (2026-11-19) for Constantine.
 - Take each released story off `Build/Ministry/Features/Church-Family-Tree/Earlier-Approved.yaml` where listed; `python tools/list_story_status.py --write`.
 - The launch prompt for the next batch in `Build/Ministry/Features/Church-Family-Tree/Launch-Prompts/`.
+
+## Status (2026-11-21, for a session taking over)
+
+Rulings, all in the Decision-Log (2026-11-21): "A quote may be used in more than one story…", "Batch 8: the slate approved", "Kit change order: reused quotes, fewer blind readings, hearts and lengths at one stop" (merged to `main` in #1752), "Batch 8 hearts approved, with the lengths", "Batch 8: four lengths after review" (Hus about 5:00; Ambrose about 4:45 with Augustine's quoting on the card; Leo's Nestorius and Syriac-chronicle pair on the card; Catherine's sword on the card), "Batch 8: three quoted spans with no clean print" (Bernard's Nivard told without quotation marks; Catherine's "with her leading him" without them; Palamas's χ read as κ allowed).
+
+Done for all twelve: research, outline check, fixes, recheck; writing; review (Constantine PASS, unchanged, not re-recorded); one revision; story recheck, with its word-for-word fixes applied; card, card check, card apply (`Card_Apply.md`; Bernard's shield kept to its first clause by the coordinator's call, since "blasphemorum" is faulty in both prints); second readings (`Second_Readings.md`: 38 same, 3 minor, 0 meaning; `secondReading` set on all 41 cards' entries; short quotes carry "checked at card"). Final lengths by the scorer: 656 to 680 words for ten, Ambrose 724, Hus 766.
+
+Open, in order:
+1. `Census_Check.md` (independent check of the nine `<slug>.entry.json`), then apply its FIXes word for word.
+2. Release (`Release_Prompt.md`): census, edges, `tools/quote_renderings.json`, tree pages, every local check, the ledger, `Release.md`. Catherine's brief may still carry a British "honour" inside a quote rendering: the spelling check will show it.
+3. Recording: a paid run. Waits for Mark's "Approve, cap 24,500" (estimate about 22,100 credits for twelve stories, 45,527 characters, at batch 7's rate). Batch 7's person settings (`2026-11-20_batch-7/recording/` logs). Francis first, for Mark's ear; the rest after he hears it; balance before and after.
+4. One pull request into `main`: draft, merge the latest `main` in last, push once after the local checks, mark ready, merge on green. Open-Gaps entries (batch 8; Constantine done under "The stories approved before the kit"); the ledger refreshed; the next batch's launch prompt in `Launch-Prompts/`.
+
+For Open-Gaps at release: census fields the cards found wrong or unsourced (Cranmer "watched Ridley and Latimer burn", six recantations; Catherine's tradition story's "nearly four hundred" letters and the needle; Teresa's tradition entry's Toledo, 7 July, "shown to no one"; Francis's tradition "cloth merchant", "by 1209", Greccio; Bernard's tradition's Rhine story; Ambrose `voices` "first churchman to make an emperor do public penance"; Jerome `why` and `floorNote`; the Hussite story's "emperor"; Ambrosian tradition's "within a week", "in 386"); Leo [1] `uncertain` (Mansi legible there); Library wants named in each `Researcher_Reply.md`; writers cutting outside the cut-first list (several); the template slip that put the Constantine-only reviewer section in every filled review prompt (ignored by each reviewer); the kit review (simplify, options A/B/C) still awaiting Mark.
+
+Token use: `Ledger.md`.
