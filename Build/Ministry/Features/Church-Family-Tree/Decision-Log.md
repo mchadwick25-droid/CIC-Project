@@ -5061,3 +5061,11 @@ Mark: "lets do a full review of readiness to launch, we are not looking for perf
 4. A page for a missing address (`404.html`, served by `not_found_handling` in `wrangler.cft.jsonc`), where a blank page showed before.
 
 Not fixed now, logged in Open-Gaps: the map's own copy of the data has older informal names for seven entries; the built-world cards' "coming soon" line; feedback depends on the Church in Conversation server.
+
+## 2026-11-21 — Measuring visits: Cloudflare's visit counts, then the tree's own anonymous counts, with returning visitors
+
+Mark: "i want to know how many people (real people and not computer scans or such) engage in this, how many open, time spent, what is opened etc." On the options: "a and b". On returning visitors: "yes count returning visitors". On the design: "yes build it".
+
+**Decided.** (A) Cloudflare Web Analytics on every tree page, once Mark sends the site token from the Cloudflare dashboard. (B) The map reports anonymous events to the tree's own worker (`/e`), which writes them to Workers Analytics Engine (dataset `cft_events`): a visit (new, same-day or returning; first today; first this week; source; device), a card opened, a recording played and how far, the tour started and ended, a layer turned on, minutes of real activity, the support note shown and its link followed. The browser keeps only the day and week of its last visit; nothing that stands for a person is made or sent. A visit counts only after a real action; automated browsers and bot agents send nothing.
+
+**Found on the way.** The Privacy page says the tree uses Cloudflare's cookie-free Web Analytics, but its token was never set, so no page carried it. Turning on (A) makes that true.
