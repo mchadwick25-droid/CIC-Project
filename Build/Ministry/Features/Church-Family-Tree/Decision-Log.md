@@ -5155,3 +5155,15 @@ Mark: "privacy page, short update". The Privacy page gains "Counting what is use
 Mark: "when the pop-up help us grow appears lets not have it take you to a new page you can't get back from easily, but put that page in a popup window they can close after reading and they never leave where they are", then "make sure they can see the map behind it, only cover some of the page".
 
 **Done.** Every "Help us grow" link on the map (the corner note, the line at the foot of each card, the header link and the phone menu) opens the support page's own text in a window over the map, read from `support.html`. A light backdrop keeps the map visible: a card of about 30rem by at most 62% of the screen height on a computer, a sheet from the bottom on a phone. It closes with ×, "Back to the map", Escape or a tap outside, and leaves the view and any open card as they were. The gift links open Stripe in a new tab. `support.html` stays as its own page for anyone who goes there directly.
+
+## 2026-11-21 — The brief kit: one kit, one prompt per step (Mark)
+
+**Why.** A review of the kit after batch 8 found that each batch copied the last batch's prompts and added lines, from 2,544 words in batch 4 to 4,780 in batch 8. Agents read the same rule two or three times in different words, and were sent to stacks of Decision-Log entries. The length rule in use lived outside the kit, and about half the steps of a batch ran on prompts outside it.
+
+**Decided (Mark, 2026-11-21: "A", then on the length "the aim is 3 minutes, but we allow up to 4:30 it depends on the source and story", on councils "same depending on source and content (did they make 10 decisions or 1)", on repeated rules "yes make them", and on the edited text "approved").**
+1. Every standing rule lives once, in `Brief-Kit/Kit.md` or its roles. Each step has one role prompt in `roles/`: researcher (with its fix pass), checker (with its recheck pass), writer, reviewer (with its recheck pass), reviser, card (new cards, new census entries, and its check pass), second reader (blind reading and comparison) and release.
+2. A batch prompt is only a header: the story's name, slug, folder and card file, its job and siblings, its approved heart and length, and any ruling for that batch alone. No batch prompt carries rule text or cites the Decision-Log.
+3. Length, for a person or a council alike: aim at about three minutes, and allow up to about four and a half where the sources and the content call for it; shorter when the record is thin. The outline plans only the beats its word count can carry. The cut check and the cut-first lists end.
+4. The standing rulings each become one kit line: where held sources differ, credit each; a damaged scan prints its English alone unless a held print confirms it; batches run in two halves with handover; stories approved before the kit are reviewed in their era's batch; one story is recorded first for Mark's ear.
+
+This governs batch 9 on; no finished story is reopened.
