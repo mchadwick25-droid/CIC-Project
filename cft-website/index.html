@@ -348,6 +348,15 @@ svg.conn-focus #nodes .node:not(.conn-end),svg.conn-focus #stories,svg.conn-focu
 svg.conn-focus #nodes .node.conn-end{display:inline!important}
 svg.conn-focus .who-pill,svg.conn-focus #who-auto,svg.conn-focus #who-far{display:none!important}
 svg.conn-focus .edge-line.conn-lit{opacity:1!important}
+#edgeChips{position:fixed;inset:0;z-index:21;pointer-events:none}
+#edgeChips button{position:fixed;pointer-events:auto;display:flex;align-items:center;gap:.45rem;min-height:44px;max-width:min(22rem,calc(100vw - 1.6rem));box-sizing:border-box;padding:0 .85rem;background:var(--vellum);color:var(--iron-gall);border:1px solid var(--gold-leaf);border-radius:999px;box-shadow:var(--shadow);font:700 .95rem "Alegreya Sans",sans-serif;cursor:pointer}
+#edgeChips button[hidden]{display:none}
+#edgeChips button .t{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#edgeChips button .ar{font-size:1.15rem;line-height:1}
+#edgeChips.is-line button{border-color:var(--link-line)}
+#edgeChips.is-line button .ar{color:var(--link-line)}
+#edgeChips button:hover{border-color:var(--iron-gall)}
+#edgeChips button:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
 svg.line-focus .edge-line.conn-lit{stroke:var(--link-line);stroke-width:2.4;marker-end:url(#arrow-line)}
 #connChip.is-line .cc-key li:not(.cc-line){display:none}
 #connChip:not(.is-line) .cc-key li.cc-line{display:none}
@@ -633,6 +642,7 @@ svg.strip-on #era-labels{display:none}
   <div class="tray-sort" role="group" aria-label="Order of the list"><button type="button" data-sort="date" aria-pressed="true">By date</button><button type="button" data-sort="trad" aria-pressed="false">By tradition</button></div>
   <div class="tray-body"></div>
 </aside>
+<div id="edgeChips" class="is-line"><button type="button" data-side="up" hidden></button><button type="button" data-side="down" hidden></button><button type="button" data-side="left" hidden></button><button type="button" data-side="right" hidden></button></div>
 <div id="connChip" hidden><button type="button" class="cc-x"><span class="cc-t"></span><span aria-hidden="true">&times;</span></button><ul class="cc-key"><li class="cc-line"><i style="background:var(--link-line)"></i>Direct line: grew out of, continued as</li><li><i style="background:var(--link-grow)"></i>Grew out of, continued as</li><li><i style="background:var(--link-influence)"></i>Influenced</li><li><i style="background:var(--link-conflict)"></i>Argued against, broke with</li><li><i style="background:var(--link-contact)"></i>In contact with, member of</li></ul></div>
 <div id="barToast" aria-hidden="true"></div>
 <div id="tourRing" hidden></div>
@@ -134224,6 +134234,7 @@ function buildLegend(){
 }
 
 const connChip=document.getElementById('connChip');
+const edgeChips=document.getElementById('edgeChips');
 const connSel=id=>`.edge-line[data-via~="${CSS.escape(id)}"],.edge-hit[data-via~="${CSS.escape(id)}"]`;
 function familyLine(m){
   const ids=new Set([m.id]), pairs=new Set();
@@ -134260,7 +134271,7 @@ function clearConnections(){
   const m=connFocus;
   document.querySelectorAll('.conn-lit').forEach(l=>l.classList.remove('is-lit','conn-lit'));
   gNodes.querySelectorAll('.node.conn-end').forEach(g=>g.classList.remove('conn-end'));
-  connFocus=null; connEnds=null; connLine=false; connLinePairs=null; svg.classList.remove('conn-focus','line-focus'); connChip.classList.remove('is-line'); connChip.hidden=true;
+  connFocus=null; connEnds=null; connLine=false; connLinePairs=null; drawEdgeChips(); svg.classList.remove('conn-focus','line-focus'); connChip.classList.remove('is-line'); connChip.hidden=true;
   scheduleLabelFit();
   announce('Connections cleared.');
   returnFocus(gNodes.querySelector(`.node[data-id="${CSS.escape(m.id)}"]`),[connChip]);
@@ -134293,6 +134304,69 @@ function showConnections(m,line){
   tourOfferConn();
 }
 connChip.querySelector('.cc-x').addEventListener('click',clearConnections);
+// A lit line that runs past the screen edge gets a chip on that edge naming the nearest tradition beyond it.
+let edgeChipRaf=0, edgeGlide=0;
+const EDGE_ARROW={up:'\u2191',down:'\u2193',left:'\u2190',right:'\u2192'};
+function scheduleEdgeChips(){if(!edgeChipRaf)edgeChipRaf=requestAnimationFrame(()=>{edgeChipRaf=0;drawEdgeChips();});}
+function edgeChipBounds(){
+  const card=panel.classList.contains('open')?panel.getBoundingClientRect():null;
+  let R=window.innerWidth-8;
+  if(card&&card.left>window.innerWidth/2)R=card.left-8;
+  return {L:8,R,T:topInset()+8,B:window.innerHeight-barHeight()-8,hide:!!(card&&narrowScreen())};
+}
+function drawEdgeChips(){
+  const btns=[...edgeChips.querySelectorAll('button')];
+  const off=()=>btns.forEach(b=>{b.hidden=true;b._node=null;});
+  if(!connFocus||!connEnds||(typeof tour!=='undefined'&&tour.on)){off();return;}
+  const bd=edgeChipBounds(); if(bd.hide){off();return;}
+  edgeChips.classList.toggle('is-line',connLine);
+  const sides={up:[],down:[],left:[],right:[]};
+  connEnds.forEach(id=>{
+    const o=byId[id]; if(!o||o._x==null||id===connFocus.id)return;
+    const sx=tx+o._x*scale, sy=ty+o._y*scale;
+    const dl=bd.L-sx, dr=sx-bd.R, du=bd.T-sy, dd=sy-bd.B, m=Math.max(dl,dr,du,dd);
+    if(m<=0)return;
+    sides[m===du?'up':m===dd?'down':m===dl?'left':'right'].push({o,sx,sy,d:m});
+  });
+  const chipBox=connChip.hidden?null:connChip.getBoundingClientRect(), zoom=document.getElementById('zoomCtl'), zr=zoom?zoom.getBoundingClientRect():null;
+  btns.forEach(b=>{
+    const side=b.dataset.side, list=sides[side].sort((a,c)=>a.d-c.d);
+    if(!list.length){b.hidden=true;b._node=null;return;}
+    const near=list[0], name=near.o.shortName||near.o.name, n=list.length;
+    const label=n===1?name:`${name} and ${n-1} more`;
+    b._node=near.o;
+    b.innerHTML=`<span class="ar" aria-hidden="true">${EDGE_ARROW[side]}</span><span class="t">${esc(label)}</span>`;
+    b.setAttribute('aria-label',`${label}, off the ${side==='up'?'top':side==='down'?'bottom':side} edge of the map. Go there.`);
+    b.hidden=false;
+    const w=b.offsetWidth, h=b.offsetHeight;
+    let x, y;
+    if(side==='up'||side==='down'){
+      x=Math.max(bd.L,Math.min(near.sx-w/2,bd.R-w));
+      y=side==='up'?Math.max(bd.T,chipBox?chipBox.bottom+8:bd.T):bd.B-h;
+    }else{
+      y=Math.max(bd.T+60,Math.min(near.sy-h/2,bd.B-h-8));
+      x=side==='left'?bd.L:bd.R-w;
+      if(side==='right'&&zr&&zr.width&&y<zr.bottom&&y+h>zr.top&&x+w>zr.left)x=zr.left-8-w;
+    }
+    b.style.left=x+'px'; b.style.top=y+'px';
+  });
+}
+function glideToNode(o){
+  stopGlide(); if(edgeGlide)cancelAnimationFrame(edgeGlide);
+  const bd=edgeChipBounds(), cx=(bd.L+bd.R)/2, cy=(bd.T+56+bd.B)/2;
+  const to=[cx-o._x*scale,cy-o._y*scale];
+  const done=()=>{edgeGlide=0;const nd=gNodes.querySelector(`.node[data-id="${CSS.escape(o.id)}"]`);try{(nd&&nd.tabIndex>=0?nd:stage).focus({preventScroll:true});}catch(e){}announce(`Moved to ${o.shortName||o.name}.`);};
+  if(reduceMotion.matches){tx=to[0];ty=to[1];applyTransform();done();return;}
+  const from=[tx,ty], t0=performance.now(), D=450;
+  const f=now=>{
+    const k=Math.min(1,(now-t0)/D), e=k<.5?2*k*k:1-Math.pow(-2*k+2,2)/2;
+    tx=from[0]+(to[0]-from[0])*e; ty=from[1]+(to[1]-from[1])*e; applyTransform();
+    if(k<1)edgeGlide=requestAnimationFrame(f); else done();
+  };
+  edgeGlide=requestAnimationFrame(f);
+}
+edgeChips.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{if(b._node)glideToNode(b._node);}));
+['pointerdown','wheel','touchstart'].forEach(ev=>edgeChips.addEventListener(ev,e=>e.stopPropagation(),{passive:true}));
 document.addEventListener('keydown',ev=>{if(ev.key==='Escape'&&!ev.defaultPrevented&&connFocus&&!panel.classList.contains('open'))clearConnections();});
 ['pointerdown','wheel','touchstart'].forEach(t=>connChip.addEventListener(t,ev=>ev.stopPropagation(),{passive:true}));
 
@@ -134543,6 +134617,7 @@ function applyTransform(){
   queueAutoWho();
   if(whoScope&&scale!==lastScale&&!whoRaf)whoRaf=requestAnimationFrame(()=>{whoRaf=0;drawWhoNames();});
   lastScale=scale;
+  if(connFocus)scheduleEdgeChips();
   keepMapFocus(held);
   if(rescaled)applyDetail();
 }
