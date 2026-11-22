@@ -64,3 +64,6 @@ One row per agent pass: the subagent's own token count as the harness reports it
 | Apollinaris | 5b Story recheck | Opus | 96,248 | PASS |
 | Cyril | 5 Revision | Sonnet | 98,394 | 773 words (98 over) |
 | Gregory of Nyssa | 5 Revision | Sonnet | 85,461 | 310 words |
+| Basil | 4 Review | Opus | 154,192 | REVISE, 4 blocking |
+| Hilary | 5 Revision | Sonnet | 103,653 | 698 words (23 over) |
+| Evagrius | 5 Revision | Sonnet | 100,700 | 673 words |
