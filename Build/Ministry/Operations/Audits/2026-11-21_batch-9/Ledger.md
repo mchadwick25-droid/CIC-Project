@@ -85,3 +85,4 @@ One row per agent pass: the subagent's own token count as the harness reports it
 | Evagrius, Eusebius, Hilary | 6b Card check | Opus | 173,626 | 2 PASS, 1 FIX; Hilary quote for Mark |
 | Basil, Eunomius, Apollinaris | 6b Card check | Opus | 202,607 | 3 FIX; Eunomius quote 2 for Mark |
 | Cyril, Epiphanius, Damasus | 6b Card check | Opus | 202,827 | 3 FIX |
+| all eleven | 6c Card apply | Sonnet | 104,966 | applied word for word; two quotes held for Mark |
