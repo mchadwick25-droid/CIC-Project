@@ -131884,7 +131884,7 @@ const EDGE_MARKERS=[], EDGE_MARK_PX=13;
   const MARK_SHAPES={
     grow:{ref:9,node:()=>el('path',{d:'M0,0 L10,5 L0,10 z',fill:'var(--link-grow)'})},
     influence:{ref:9,node:()=>el('path',{d:'M1,5 L5.5,1 L10,5 L5.5,9 z',fill:'none',stroke:'var(--link-influence)','stroke-width':1.8,'stroke-linejoin':'miter'})},
-    conflict:{ref:7,node:()=>el('path',{d:'M7,-1 L7,11',fill:'none',stroke:'var(--link-conflict)','stroke-width':3.2})},
+    conflict:{ref:9.6,node:()=>el('circle',{cx:5.4,cy:5,r:3.9,fill:'none',stroke:'var(--link-conflict)','stroke-width':1.9})},
     contact:{ref:5,node:()=>el('circle',{cx:5,cy:5,r:4.2,fill:'var(--link-contact)'})}
   };
   Object.keys(LINK_FAMILY_LABEL).forEach(f=>{
@@ -134134,8 +134134,8 @@ function buildLegend(){
   const lanes=FAM.filter(f=>laneKeys.includes(f.k));
   let rivers=`<button type="button" class="row" data-toggle="lanes-all" aria-pressed="true"><i style="background:conic-gradient(${lanes.slice(0,6).map((f,i,a)=>`${famColor(f)} ${i/a.length}turn ${(i+1)/a.length}turn`).join(',')})"></i><span class="sw-name">All rivers</span><span class="sw" aria-hidden="true"></span></button>`;
   lanes.forEach(f=>{rivers+=`<button type="button" class="row" data-toggle="lane:${f.k}" aria-pressed="true"><i style="background:${famColor(f)}"></i><span class="sw-name"><b>${esc(f.name)}</b>${f.common?`<small>${esc(f.common)}</small>`:''}</span><span class="sw" aria-hidden="true"></span></button>`;});
-  const KEY_END={grow:'<path d="M20,1 L26,5 L20,9 z" fill="var(--link-grow)"/>',influence:'<path d="M17.5,5 L21.5,1.2 L25.5,5 L21.5,8.8 z" fill="none" stroke="var(--link-influence)" stroke-width="1.5"/>',conflict:'<path d="M19.5,1 L24.5,5 L19.5,9" fill="none" stroke="var(--link-conflict)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M1,1.5 L1,8.5" stroke="var(--link-conflict)" stroke-width="2.4"/>',contact:'<circle cx="4" cy="5" r="3" fill="var(--link-contact)"/><circle cx="22" cy="5" r="3" fill="var(--link-contact)"/>'};
-  const colorKey=(f)=>`<svg class="linekey" viewBox="0 0 26 10" aria-hidden="true"><line x1="${f==='contact'?4:1}" y1="5" x2="${f==='contact'?22:f==='grow'?20:f==='influence'?17.5:24}" y2="5" stroke="var(--link-${f})" stroke-width="2.4"/>${KEY_END[f]}</svg>`;
+  const KEY_END={grow:'<path d="M20,1 L26,5 L20,9 z" fill="var(--link-grow)"/>',influence:'<path d="M17.5,5 L21.5,1.2 L25.5,5 L21.5,8.8 z" fill="none" stroke="var(--link-influence)" stroke-width="1.5"/>',conflict:'<path d="M19.5,1 L24.5,5 L19.5,9" fill="none" stroke="var(--link-conflict)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="4" cy="5" r="2.9" fill="none" stroke="var(--link-conflict)" stroke-width="1.7"/>',contact:'<circle cx="4" cy="5" r="3" fill="var(--link-contact)"/><circle cx="22" cy="5" r="3" fill="var(--link-contact)"/>'};
+  const colorKey=(f)=>`<svg class="linekey" viewBox="0 0 26 10" aria-hidden="true"><line x1="${f==='contact'||f==='conflict'?4:1}" y1="5" x2="${f==='contact'?22:f==='grow'?20:f==='influence'?17.5:24}" y2="5" stroke="var(--link-${f})" stroke-width="2.4"/>${KEY_END[f]}</svg>`;
   const nMajor=gEdges.querySelectorAll('.edge-line[data-major="1"]').length, nAll=gEdges.querySelectorAll('.edge-line').length;
   let links=`<div class="note">Lines join traditions where the sources record a connection. The color and the mark at the end show the kind of connection. The line's pattern shows how sure the record is. Where a connection has a direction, the mark sits at the end it points to. Where a connection joins two traditions equally, the mark sits at both ends. Click or tap a line to read about the connection and its sources.</div>`;
   links+=`<div class="conn-seg" role="group" aria-label="Which connections to show"><button type="button" data-mode="off">Off</button><button type="button" data-mode="major">Major <span>${nMajor}</span></button><button type="button" data-mode="all">All <span>${nAll}</span></button></div>`;
