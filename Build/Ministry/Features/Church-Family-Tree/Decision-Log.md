@@ -5269,6 +5269,20 @@ Mechanical, with it: `tools/list_second_readings.py --requests <batch folder> --
 2. At release, each ruling Mark made in the batch is listed with where it now lives: the kit line it changed, or "this batch only" (Kit, Part 4, step 8; `roles/release.md`).
 3. Every batch is launched from `Brief-Kit/Launch_Template.md`, with its blanks filled in and nothing else (Kit, Part 4). Recording settings are pointed to in the last batch's folder, not copied.
 
+## 2026-11-22 — Recording settings in one locked file (Mark)
+
+**Why.** Filling in the launch template for batch 10, its Recording line pointed to the last batch's folder, and batch 9 recorded no councils, so the council voice was nowhere a session would look. Batch 10, Antioch to Chalcedon, is likely to hold councils.
+
+**Decided (Mark, 2026-11-22: "One settings file (Recommended)").** Both voices and their exact settings, as used in batch 9's person runs and batch 7's council run, are in `Brief-Kit/Recording_Settings.md`, under the kit's lock. The launch template's Recording line and Kit, Part 4, step 9 point there.
+
+**Decided (Mark, 2026-11-22: "yes make that last line clearer").** The template's last line, which read "fill in this template" inside a filled-in launch prompt, now names the template by its path.
+
+## 2026-11-22 — The slate checks each home tradition's direct line (Mark)
+
+**Why.** Mark: "make sure you add the recent work on direct links for churchs on the cards". Since "Cards and tradition pages separate direct descent from influence" (2026-11-22), a tradition's card shows its direct line (continued as, gave rise to, broke with, between traditions only), and 107 of 350 traditions have none recorded. Batch 10, Antioch to Chalcedon, tells the splits of the Church of the East and the churches that rejected Chalcedon, so its stories may tell a descent or a break the cards lack or contradict.
+
+**Decided (Mark, 2026-11-22: "Check at the slate (Recommended)").** Kit, Part 4, step 0, and the launch template's slate line: each story's home tradition is shown with its direct line as its card shows it, and any descent or break the story will tell that the census lacks or contradicts is flagged on the slate. Mark decides each census change there; a story never changes the census's links on its own. The batch 10 launch carries the same line.
+
 ## 2026-11-21 — Jovinian stays, and is rebuilt on the kit (Mark)
 
 **Why.** A check of every person's home tradition found Jovinian's page still live, though Mark ruled "Take it down" on 2026-11-11 because his book is lost and his four points survive only in his opponents. Asked how aligned those opponents are, the held record shows they split: the Maurist preface to Augustine's *De bono coniugali* (`cic/texts/augustine_opera-minora-catechetica-lat_migne-pl40.txt`, lines 25313–25325) says Jerome was reported to have defended virginity only by condemning marriage, and that Augustine wrote on the good of marriage first, about 401, so as not to give the same ground; it quotes Augustine reporting Jovinian's charge that the Catholics who set virginity above marriage were patrons of the Manichees.
