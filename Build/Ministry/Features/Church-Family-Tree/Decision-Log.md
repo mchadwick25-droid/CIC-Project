@@ -5455,3 +5455,15 @@ Mark: "i notices on the two most out scrolls the counsils are not showing, they 
 **Result.** Checked in a browser on an emulated iPhone 13 and a 1280-pixel window: all 12 marks at the opening view and the farthest zoom, none with the toggle off, no page errors.
 
 **Not done.** No real-phone check. The mark in the Councils bar button is unchanged.
+
+## 2026-11-22 — Line end marks made visible; argued against gets an open arrowhead
+
+Mark: "maybe we can put an small arrowhead on them to show which way they the conflict was driven, both ways if it was both ways." Then: "Option 1, open chevron". Then, after the end marks were found hidden: "Option 1, fix all four".
+
+**Found.** The end marks of every kind of line (triangle for descent, diamond for influence, dot for contact, bar for conflict) were drawn at the centre of the tradition's house icon, under it, and were about 4 pixels across, so none could be seen. The Key and Method page already describe them.
+
+**Decided.** Each end mark is drawn at one size on screen (13 pixels) and ends just outside the house icon, recalculated whenever the zoom changes. "Argued against" now ends in a small open red chevron at the end the line points to, away from the critic; the filled triangle stays for descent, so the two are told apart by shape and not by color alone. Where two sides argued against each other, the tree already draws two links, so each end gets its own chevron. "Broke with" keeps its bars at both ends, since it has no direction. The Key row and the Method page's Red entry say so.
+
+**Result.** Checked in a browser on desktop and an emulated iPhone 13 at several zooms, no page errors; the Church & Empire fan shows chevrons on the argued-against lines, dots on contact lines, a triangle on descent and a diamond on influence.
+
+**Not done.** No real-phone check. Crowding at hubs is open (Open-Gaps, "Line end marks made visible, and an arrowhead on argued-against lines", 2026-11-22).
