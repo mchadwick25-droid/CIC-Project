@@ -5420,3 +5420,13 @@ Mark: "Defer the People layer", then, shown the new profile, chose "Fix the layo
 **Layout reads.** `chromeTop`, `barHeight` and `openingScale` showed about 0.6 s of self time in the profile. Caching the top-bar and feature-bar heights (cleared on resize, on bar size change and when the bar is positioned) was tried on a scratch change: median of five, first names, `main` against the cached version, Wi-Fi 3.9 s and 4.3 s, 4G 4.3 s and 4.3 s, slow 4G 6.0 s and 5.5 s. The runs vary by about 0.6 s and the differences go both ways, so there is no measurable gain. The forced-layout time is mostly real layout work done early, not repeated work. The change was not committed.
 
 **Where that leaves start-up.** On the emulated phone about 1.4 s is the browser's own work (parsing, style, layout, paint of about 9,700 SVG nodes) and the page script's label fitting (three runs, about 1.1 s in total), mark layout, river-name placement and era captions make up most of the rest. Further gains would come from fewer nodes at start or fewer label-fit runs, each a larger change needing Mark's call.
+
+## 2026-11-22 — Data release 52: a catch-up stamp
+
+Mark: "Option 1, release 52 dated today".
+
+**Why.** The census file said release 49, dated 16 November 2026, and the data page and its citation examples read that number at build time. Releases 50 and 51 went ahead on 17 and 18 November, and batches 8 and 9 changed the file after that, so a citation naming release 49 did not match the file the site served.
+
+**Decided.** One catch-up release, number 52, dated 2026-11-22, follows the last release the log names (51) and matches the file as served. It is stamped in the census meta, in the map page's embedded copy of that meta, and in the license credit line, which said release 44 (November 15, 2026). The data page was rebuilt from the census and now reads "release 52, dated November 22, 2026" in its opening line and its four citation examples. No record, card, recording or link changed.
+
+**Not done.** Batches 4 to 9 were not given numbers of their own. A release step that stamps the number when a batch ships is open (Open-Gaps, "The census release number had stopped at 49", 2026-11-22).
