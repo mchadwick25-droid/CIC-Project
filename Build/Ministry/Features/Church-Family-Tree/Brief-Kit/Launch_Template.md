@@ -14,6 +14,6 @@ Run Church Family Tree batch {N} end to end on the brief kit. Read `CLAUDE.md`, 
 
 **Stops for Mark:** the slate; the hearts and lengths page; a brief that still fails after its one revision; a sibling or shape question; and the recording approval, in his own words with a credit cap.
 
-**Recording.** The settings in `{LAST BATCH'S FOLDER}/recording/`, each passed on the command. Run one story per command.
+**Recording.** The settings in `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Recording_Settings.md`, each passed on the command. Run one story per command.
 
 **Release.** One pull request into `main`, merged when CI is green, then check churchfamilytree.com. Open-Gaps entries at the next free number. Promotion to `live` is Mark's call. Do not write the next batch's launch prompt unless Mark asks; when he does, fill in this template.
