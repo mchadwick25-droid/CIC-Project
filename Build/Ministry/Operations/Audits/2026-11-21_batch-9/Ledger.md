@@ -91,3 +91,4 @@ One row per agent pass: the subagent's own token count as the harness reports it
 | Blind C | 7 Second readings | Opus | 82,880 | 9 ids |
 | Comparer | 7 Second readings | Opus | 144,650 | 18 same, 10 minor, 1 not read (key error) |
 | Blind D, comparer | 7b Second reading B9-30 | Opus | 174,705 | minor |
+| Basil, Eunomius, Apollinaris | 5c Fresh read | Opus | 181,436 | 3 PASS |
