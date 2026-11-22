@@ -130635,7 +130635,9 @@ const RIVER_WHO_MAX=5, TRAD_WHO_MAX=4, WHO_FALLBACK=3;
 const MARK_PX=14, MARK_MAX_PX=18, MARK_MIN_U=10;
 function markU(){return Math.min(Math.max(MARK_MIN_U,MARK_PX/scale),MARK_MAX_PX/scale);}
 function nameU(){return Math.min(Math.max(11,13.5/scale),16/scale);}
-const narrowScreen=()=>window.innerWidth<=640;
+let narrowNow=window.innerWidth<=640;
+window.addEventListener('resize',()=>{narrowNow=window.innerWidth<=640;});
+const narrowScreen=()=>narrowNow;
 const hasPeople=m=>!!(peopleOf[m.id]&&peopleOf[m.id].length);
 function labelRun(m){
   if(m.gap)return 0;
