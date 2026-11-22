@@ -4017,6 +4017,357 @@
     "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-8/Second_Readings.md",
     "verdict": "same"
    }
+  },
+  {
+   "id": "basil-of-caesarea",
+   "quote": "Then one day, like a man roused from deep sleep, I turned my eyes to the wonderful light of the truth of the gospel.",
+   "original": {
+    "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+    "lines": "39133-39135",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-9/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "basil-of-caesarea",
+   "quote": "Whom, then, will you wash? Whom will you care for? Behind whom will you be last, if you live by yourself?",
+   "original": {
+    "file": "cic/texts/basil_opera-omnia-pg31-grc-lat_migne1857.txt",
+    "lines": "72547-72549",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-9/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "basil-of-caesarea",
+   "quote": "As we were baptized, so we confess our faith. As we confess our faith, so too we give praise.",
+   "original": {
+    "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+    "lines": "33483-33485",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-9/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "eunomius-of-cyzicus",
+   "quote": "It has been shown that he was not before himself, nor anything else before him, and that he is before all things. Then 'unbegotten' follows. Or rather, he himself is unbegotten being.",
+   "original": {
+    "file": "cic/texts/eunomius_first-apology_whiston1711.txt",
+    "lines": "38",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-9/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "apollinaris-of-laodicea",
+   "quote": "If God was joined to a man, complete to complete, they would be two. One would be Son of God by nature, and one adopted.",
+   "original": {
+    "file": "cic/texts/apollinaris-laodicea_fragmente-apollinaris-von-laodicea-und-seine-schule-grc-deu_lietzmann1904.txt",
+    "lines": "11480-11481",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-9/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "apollinaris-of-laodicea",
+   "quote": "Men sang his songs at drinking parties and at work. Women sang them at the loom.",
+   "original": {
+    "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+    "lines": "39027-39028",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-9/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "apollinaris-of-laodicea",
+   "quote": "one nature of God the Word made flesh",
+   "original": {
+    "file": "cic/texts/apollinaris-laodicea_fragmente-apollinaris-von-laodicea-und-seine-schule-grc-deu_lietzmann1904.txt",
+    "lines": "12986-12987",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-9/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "apollinaris-of-laodicea",
+   "quote": "They cunningly push aside the name of Apollinaris, because it plainly proves ungodliness. They put the names of the holy Fathers on his writings and on their own inventions.",
+   "original": {
+    "file": "cic/texts/apollinaris-laodicea_fragmente-apollinaris-von-laodicea-und-seine-schule-grc-deu_lietzmann1904.txt",
+    "lines": "5754-5756",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-9/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "evagrius-ponticus",
+   "quote": "Even if the oath was sworn in a trance, I still swore it.",
+   "original": {
+    "file": "cic/texts/palladius_lausiac-history_clarke1918.txt",
+    "lines": "457",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-9/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "evagrius-ponticus",
+   "quote": "In that state the mind is stirred no more. To put it simply, it becomes either a stone or a god.",
+   "original": {
+    "file": "cic/texts/npnf206_jerome-principal-works.xml",
+    "lines": "27825-27826",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-9/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "eusebius-of-nicomedia",
+   "quote": "We are persecuted because we said: the Son has a beginning, but God has no beginning.",
+   "original": {
+    "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+    "lines": "6045-6046",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-9/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "eusebius-of-nicomedia",
+   "quote": "We signed the creed, but we did not sign the condemnation. We were not finding fault with the creed. We did not believe the accused man was what he was said to be.",
+   "original": {
+    "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+    "lines": "3956-3958",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-9/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "eusebius-of-nicomedia",
+   "quote": "Who taught these things to so innocent a crowd? Eusebius, plainly: the partner in the tyrant's cruelty.",
+   "original": {
+    "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+    "lines": "7500-7502",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-9/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "eusebius-of-nicomedia",
+   "quote": "of one being,",
+   "original": {
+    "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+    "lines": "5906",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-9/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "eusebius-of-nicomedia",
+   "quote": "those around Eusebius.",
+   "original": {
+    "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+    "lines": "4118-4120",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-9/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "hilary-of-poitiers",
+   "quote": "I was baptized some time ago, and I had been a bishop for a while. I never heard the faith of Nicaea until I was going into exile. But the Gospels and the Apostles showed me what 'one in substance' and 'like in substance' mean.",
+   "original": {
+    "file": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml",
+    "lines": "9881-9885",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-9/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "hilary-of-poitiers",
+   "quote": "All agree on this: by the good work of Hilary alone, our provinces of Gaul were freed from the guilt of heresy.",
+   "original": {
+    "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+    "lines": "11433-11434",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-9/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "cyril-of-jerusalem",
+   "quote": "Do you see this place, Golgotha?",
+   "original": {
+    "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+    "lines": "4013-4015",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-9/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "cyril-of-jerusalem",
+   "quote": "You answer with a shout of praise, as if you agree.",
+   "original": {
+    "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+    "lines": "4016-4018",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-9/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "cyril-of-jerusalem",
+   "quote": "I knew well that seeing persuades far more than hearing. So I waited for this time.",
+   "original": {
+    "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+    "lines": "20639-20640",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-9/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "cyril-of-jerusalem",
+   "quote": "The bishop talks through each point and sets it out. Meanwhile the voices of those applauding are so loud that they can be heard outside the church.",
+   "original": {
+    "file": "cic/texts/egeria_pilgrimage-of-etheria_mcclure-feltoe1919.txt",
+    "lines": "5923-5926",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-9/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "cyril-of-jerusalem",
+   "quote": "See that you do not take it back when persecution comes.",
+   "original": {
+    "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+    "lines": "14974-14975",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-9/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "epiphanius-of-salamis",
+   "quote": "We are going to show you the names of the heresies. We will uncover their unholy deeds, which are like venom and poison. Alongside them we will fit antidotes: cures for those who have been bitten, and protection for those who may yet fall into it.",
+   "original": {
+    "file": "cic/texts/epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt",
+    "lines": "12387-12391",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-9/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "epiphanius-of-salamis",
+   "quote": "I have also drunk from the great river Euphrates. It was not spiritual water but real water, the kind you can touch with your hand and take into your mouth.",
+   "original": {
+    "file": "cic/texts/npnf206_jerome-principal-works.xml",
+    "lines": "10920-10922",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-9/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "damasus-of-rome",
+   "quote": "Make me bishop of the city of Rome, and I will be a Christian at once.",
+   "original": {
+    "file": "cic/texts/jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt",
+    "lines": "27958-27960",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-9/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "damasus-of-rome",
+   "quote": "It is our will that all the peoples under our merciful rule live in the religion that the divine apostle Peter handed down to the Romans. The faith he brought them, kept to this day, shows that he did. It is plain that Bishop Damasus follows it, and Peter, bishop of Alexandria, a man of an apostle's holiness.",
+   "original": {
+    "file": "cic/texts/codex-theodosianus_latinlibrary.txt",
+    "lines": "6883",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-9/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "damasus-of-rome",
+   "quote": "I believe that, after the ashes, he will make Damasus rise.",
+   "original": {
+    "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt",
+    "lines": "128214",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-9/Second_Readings.md",
+    "verdict": "minor"
+   }
   }
  ]
 }
