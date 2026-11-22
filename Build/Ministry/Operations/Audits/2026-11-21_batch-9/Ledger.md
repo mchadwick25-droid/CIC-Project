@@ -74,3 +74,6 @@ One row per agent pass: the subagent's own token count as the harness reports it
 | Damasus | 5b Story recheck | Opus | 108,310 | FIX, 3 replacements applied verbatim |
 | Evagrius | 5b Story recheck | Opus | 109,776 | FIX, 1 replacement applied verbatim |
 | Cyril | 5b Story recheck | Opus | 110,807 | PASS, 773 words for Mark's length ruling |
+| Epiphanius | 5b Story recheck | Opus | 124,904 | FIX, 9 replacements applied verbatim; 714 words |
+| Basil | 5b Story recheck | Opus | 108,673 | FIX, 1 replacement applied verbatim |
+| Hilary | 5b Story recheck | Opus | 119,107 | FIX, 17 replacements applied verbatim; 674 words |
