@@ -6,7 +6,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "tools"))
-from list_second_readings import listing, main  # noqa: E402
+from list_second_readings import listing, main, write_requests  # noqa: E402
 
 BRIEF = 'He wrote: "Love the work, and the work will keep you." Then, he says, "Keep the rule," and "stay."'
 
@@ -59,3 +59,15 @@ def test_main_exits_one_when_a_blind_reading_is_owed(tmp_path):
     (d / "someone.brief.txt").write_text(BRIEF, encoding="utf-8")
     (d / "someone.card.json").write_text(json.dumps({"quotationOriginals": []}), encoding="utf-8")
     assert main([str(d)]) == 1
+
+
+def test_requests_and_key_point_at_the_entry_each_blind_span_matched(tmp_path):
+    held = entry("Love the work, and the work will keep you.", None)
+    held.update({"original": "Ama opus et opus te servabit", "originalFile": "cic/texts/a.txt", "originalLines": "4-5"})
+    card = {"quotationOriginals": [entry("Keep the rule, stay.", "checked at card"), held]}
+    n = write_requests({"p": listing(BRIEF, card)}, tmp_path, "B10")
+    assert n == 1
+    req = (tmp_path / "Second_Reading_Requests.md").read_text()
+    key = (tmp_path / "Second_Reading_Key.md").read_text()
+    assert "## B10-01" in req and "`cic/texts/a.txt`, lines 4-5 (original)" in req and "Love the work" not in req
+    assert "| B10-01 | p | quotationOriginals[1] | Love the work, and the work will keep you. |" in key

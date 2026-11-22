@@ -18,6 +18,10 @@ one entry, as in tools/validate-census.mjs. Each span gets one line:
                  only when the span stands word for word in a passage already read,
                  or "checked at card")
 
+With --requests <batch folder> --prefix <id prefix>, it also writes the blind readers'
+requests and the comparer's key for every READ BLIND span, each pointing at the card entry
+that span matched.
+
 Card entries the brief no longer quotes are listed as STALE. It exits 1 when any
 span needs a blind reading or a card check, or any entry is stale.
 """
@@ -61,6 +65,7 @@ def listing(brief: str, card: dict) -> dict:
     folded = [fold(s) for s in spans]
     entries = entries_of(card)
     by_modern = {fold(e.get("modern", "")): e for e in entries if e.get("modern")}
+    index = {id(e): n for n, e in enumerate(entries)}
     rows, used, i = [], set(), 0
     while i < len(spans):
         for k in (4, 3, 2, 1):
@@ -70,11 +75,11 @@ def listing(brief: str, card: dict) -> dict:
                 used.add(run)
                 verdict = e.get("secondReading")
                 rows.append({"span": " ... ".join(spans[i:i + k]), "status": "CARRIED" if verdict else needs(run),
-                             "secondReading": verdict})
+                             "secondReading": verdict, "entry": e, "index": index[id(e)]})
                 i += k
                 break
         else:
-            rows.append({"span": spans[i], "status": needs(folded[i]), "secondReading": None})
+            rows.append({"span": spans[i], "status": needs(folded[i]), "secondReading": None, "entry": None, "index": None})
             i += 1
     stale = [e["modern"] for e in entries if e.get("modern") and fold(e["modern"]) not in used]
     return {"spans": rows, "stale": stale}
@@ -88,10 +93,47 @@ def piece(folder: Path) -> tuple[Path, Path]:
     return brief, card
 
 
+def write_requests(result: dict, out: Path, prefix: str) -> int:
+    """Write the blind readers' requests and the comparer's key for every READ BLIND span.
+
+    Each request points at the card entry the span itself matched: its original where the
+    card gives one, otherwise its printed English. Returns the number of requests."""
+    req = [f"# Second Reading Requests ({prefix})", "",
+           "For the blind reader. Render each passage into plain modern English from the lines given, "
+           "in the original language where it is named. Render only the passage pointed to.", ""]
+    key = [f"# Second Reading Key ({prefix})", "",
+           "For the comparer only. Each id, its piece, the card entry and our wording as it stands in the brief.", "",
+           "| id | piece | entry | our wording | source |", "|---|---|---|---|---|"]
+    n = 0
+    for name, r in result.items():
+        for s in r["spans"]:
+            if s["status"] != "READ BLIND":
+                continue
+            e = s["entry"]
+            if e is None:
+                raise SystemExit(f"{name}: no card entry holds the span {s['span']!r}; the card needs one first")
+            if e.get("original"):
+                f, ln, txt, kind = e.get("originalFile"), e.get("originalLines"), e["original"], "original"
+            else:
+                f, ln, txt, kind = e.get("file"), e.get("lines"), e.get("printed", ""), "printed"
+            n += 1
+            rid = f"{prefix}-{n:02d}"
+            words = txt.split()
+            req += [f"## {rid}", f"`{f}`, lines {ln} ({kind}). The passage beginning "
+                    f"\"{' '.join(words[:7])} …\" ({len(words)} words in the source).", ""]
+            key.append(f"| {rid} | {name} | quotationOriginals[{s['index']}] | {s['span']} | {f} {ln} ({kind}) |")
+    (out / "Second_Reading_Requests.md").write_text("\n".join(req), encoding="utf-8")
+    (out / "Second_Reading_Key.md").write_text("\n".join(key) + "\n", encoding="utf-8")
+    return n
+
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("folders", nargs="+", type=Path)
     ap.add_argument("--json", action="store_true")
+    ap.add_argument("--requests", type=Path, metavar="BATCH_FOLDER",
+                    help="also write Second_Reading_Requests.md and Second_Reading_Key.md there")
+    ap.add_argument("--prefix", default="B", help="the request ids' prefix, such as B10")
     args = ap.parse_args(argv)
     result, bad = {}, False
     for folder in args.folders:
@@ -99,6 +141,12 @@ def main(argv: list[str] | None = None) -> int:
         r = listing(b.read_text(encoding="utf-8"), json.loads(c.read_text(encoding="utf-8")))
         result[folder.name] = r
         bad |= bool(r["stale"]) or any(s["status"] != "CARRIED" for s in r["spans"])
+    if args.requests:
+        n = write_requests(result, args.requests, args.prefix)
+        print(f"wrote {n} blind requests and the key to {args.requests}")
+    for r in result.values():
+        for s in r["spans"]:
+            s.pop("entry", None)
     if args.json:
         print(json.dumps(result, indent=1, ensure_ascii=False))
     else:

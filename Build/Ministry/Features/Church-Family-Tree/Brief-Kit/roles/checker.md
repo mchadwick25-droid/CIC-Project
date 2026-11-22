@@ -6,8 +6,8 @@ Before you read `Outline.md`, write in `Outline_Check.md` your own account of **
 
 Open each cited source file at its cited lines and check:
 1. Every beat, impact item, link and setting line is supported, says no more than its source, and carries the right confidence level and witness kind.
-2. Every quote is verbatim. Make your own rendering of each quote first, then compare it with the outline's.
-3. The impact ranking and what they defended are right, the shape fits, the length fits (recount the words the beats, quotes, glosses and credited witnesses must carry, against the count on the hearts page), and the tradition's spoken name doesn't mislead.
+2. Every quote is verbatim and stands on what the outline says stands behind it. Make your own rendering of each quote first, then compare it with the outline's.
+3. The impact ranking and what they defended are right, the shape fits, the length fits: recount the words the beats, quotes, glosses and credited witnesses must carry, and an outline that, less its cut-first list, still runs past its approved length is BLOCKING, with what to move to the card, and the tradition's spoken name doesn't mislead.
 4. The **Connection** field says what specifically passed to whom, and its supporting passage holds.
 5. The **Do not say** list covers every wonder, qualifier, number, motive or outcome a writer could easily get wrong.
 6. The **Names**, **Sibling** and **Who tells it** fields are filled: each name acts or links and keeps the census spelling, no quote is already used elsewhere on the tree unless the slate lists it as a reuse, and any line about today has its source.

@@ -9,12 +9,6 @@ You review one Church Family Tree story about **{NAME}**, in `{FOLDER}/`. You di
 
 Score voice, craft, rigor and accessibility from 1 to 5, each with a reason. Write `Review.md`: the three lines, the scores, a verdict of PASS or REVISE, and findings marked BLOCKING or MINOR, each with what to change. For any BLOCKING error the outline left room for, give a Do not say line to add to the outline. Do not edit the story or commit. Reply in under 200 words.
 
-## The recheck pass
+## The fresh read
 
-After the one revision, read `Review.md`, `Revision.md`, `Outline.md`, `Source_Sheet.md`, `{SLUG}.brief.txt` and the old draft `{SLUG}.brief.v1.txt`, and check only these:
-1. Each factual finding in `Review.md` is fixed, or listed in `Revision.md` as not fixed, with your judgment of it.
-2. Every sentence that differs from the old draft is held by `Outline.md` or `Source_Sheet.md` at the lines you cite, says no more than its source, and credits the right witness. Quotes are verbatim in `cic/texts/`.
-3. The hook, the essence by about word 150 (give the word number), every part of what is also told, each word to explain given its plain sense when first heard, no sentence past about 30 words, the length within the outline's, and the ending on the person.
-4. The score, by `python -m engine.m1.profile_readability {FOLDER}/{SLUG}.brief.txt`.
-
-Write `Recheck_Story.md`: PASS, or FIX with the exact replacement text quoted from the brief. Reply in under 150 words.
+After the one revision, a reviewer who has not seen this story's `Review.md`, `Revision.md`, outline check or any earlier draft (`.v1`, `.v2`) reads the final `{SLUG}.brief.txt` and does this role's steps 1 to 4 in full, as if for the first time, judging against the kit and the batch header. Write `Fresh_Read.md`: the three lines, the four scores with reasons, PASS or REVISE, and each finding marked BLOCKING or MINOR with its exact change. Do not edit the story or commit. Reply in under 150 words.
