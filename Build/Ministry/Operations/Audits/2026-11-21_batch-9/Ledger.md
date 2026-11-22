@@ -98,3 +98,4 @@ One row per agent pass: the subagent's own token count as the harness reports it
 | Apollinaris, Eusebius | 5d Craft pass | Sonnet | 102,207 | 671, 669 words |
 | Hilary, Damasus | 5e Craft check | Opus | 96,632 | 2 PASS |
 | Apollinaris, Eusebius | 5e Craft check | Opus | 126,750 | 2 FIX, applied verbatim (files swapped first) |
+| all eleven | 8 Release | Opus | 189,957 | census, renderings, pages; 2 errors left (Hilary fixed, Evagrius for Mark) |
