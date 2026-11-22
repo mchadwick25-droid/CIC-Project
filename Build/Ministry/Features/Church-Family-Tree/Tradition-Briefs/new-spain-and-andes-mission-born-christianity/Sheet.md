@@ -65,7 +65,7 @@ Q2 (7028-7031): "In my judgment, and in truth, more than nine million souls of I
 C (7011-7013): "Up to this day, close to five million will have been baptized." (no noun in the source; it counts by priests; the nine-million count is by towns and provinces plus 500,000 later.)
 
 ## Added after Review round 1
-- C6 extension (Acosta, Peru; to be checked at recheck): "In Peru ... they confessed themselves verbally, almost in all provinces" (3643-3649); the bath "to cleanse himselfe in a running river", the Opacuna (3683-3706); "according to the report of some Priests, after the Christians came into that countrey, they accused themselves of their thoughts" (3678-3680); Acosta names the devil's pride as the cause of idolatry (990-991); the customs "mingled with abomination" (4060-4063).
+- C6 extension (Acosta, Peru; to be checked at recheck): "In Peru ... they confessed themselves verbally, almost in all provinces" (3643-3649); the bath "to cleanse himselfe in a running river", the Opacuna (3683-3706); "according to the report of some Priests, after the Christians came into that countrey, they accused themselves of their thoughts" (3678-3682); Acosta names the devil's pride as the cause of idolatry (993-994); the customs "mingled with abomination" (4060-4063).
 - All three counts (6900-6903, 7011-7013, 7028-7031) cover 1521-1536. Do not build arithmetic on the by-province count (7015-7027): the OCR may lose a line.
 - Not smallpox and war alone emptied the land: ten plagues, and the empty houses follow all ten.
 - Not a claim about what any library holds; the card carries that.
