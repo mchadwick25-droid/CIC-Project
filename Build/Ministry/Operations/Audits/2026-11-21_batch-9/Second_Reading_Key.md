@@ -33,3 +33,6 @@ For the comparer only. Each id, its piece, the card entry and our wording as it 
 | B9-27 | evagrius-ponticus | quotationOriginals[4] | In that state the mind is stirred no more. To put it simply, it becomes either a stone or a god. | cic/texts/npnf206_jerome-principal-works.xml 27825-27826 (printed) |
 | B9-28 | hilary-of-poitiers | quotationOriginals[0] | I was baptized some time ago, and I had been a bishop for a while. I never heard the faith of Nicaea until I was going into exile. But the Gospels and the Apostles showed me what 'one in substance' and 'like in substance' mean. | cic/texts/npnf209_hilary-poitiers-john-damascus.xml 9881-9885 (printed) |
 | B9-29 | hilary-of-poitiers | quotationOriginals[6] | All agree on this: by the good work of Hilary alone, our provinces of Gaul were freed from the guilt of heresy. | cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml 11433-11434 (printed) |
+| B9-30 | eunomius-of-cyzicus | quotationOriginals[3] | It has been shown that he was not before himself, nor anything else before him, and that he is before all things. Then 'unbegotten' follows. Or rather, he himself is unbegotten being. | cic/texts/eunomius_first-apology_whiston1711.txt 38 (printed) |
+
+B9-19 pointed at quotationOriginals[0] by a key-building error and has no verdict; B9-30 replaces it.
