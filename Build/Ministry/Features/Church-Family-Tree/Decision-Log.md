@@ -5244,6 +5244,22 @@ Mark, posting to LinkedIn: "the linked in cant display a preview and its not pul
 2. "A": Evagrius's quote of Praktikos 6 is Dysinger's English word for word (CC BY 4.0, credited on the card), not a rewording of it, since the tree quotes its own English only of an original or of English printed before 1931. Evagrius was re-recorded.
 
 **Result.** Twelve requests, 21,104 credits, under the 24,000 cap; the balance moved from 506,707 to 527,811 (`Build/Ministry/Operations/Audits/2026-11-21_batch-9/recording/Balance.md`).
+
+## 2026-11-22 — Brief kit change for batch 10 (Mark)
+
+**Why.** First-draft rigor fell over batches 7 to 9 (3.9, 3.4, 3.0), and the fresh read of batch 9's finished stories found three blocking errors after every recheck passed. The causes: outlines that still ran long after their cut-first lists, the batch 8 writer ruling ("dropping from that list and not by their own choice") never reaching the writer prompts, writing and revision drifting to Sonnet against "Opus for all" (2026-11-12), quotes whose standing was settled late, an edit carrying out a ruling that lost its context, and recording before the census check passed. The change as Mark approved it: https://claude.ai/artifact/GGmJvwZx2Zjq3FgvXEN52P (version 2).
+
+**Decided (Mark, 2026-11-22: "approve as drafted").** Each item rewrites one existing line; none adds a new one. It governs batch 10 on and reopens no finished story.
+1. Models: Opus for research, every check and review, writing, revision and blind readings; Sonnet only to count, build cards and apply changes word for word (Kit, Part 4).
+2. An outline that, less its cut-first list, still runs past its approved length is BLOCKING at the outline check (`roles/checker.md`).
+3. A writer drops only from the cut-first list, in order, and stops if it still runs long (`roles/writer.md`).
+4. The recheck is replaced by a fresh read, by a hand that has not seen the review, revision or drafts; a story at 3 or less on craft gets one checked craft pass (Kit step 5, `roles/reviewer.md`, `roles/card.md`).
+5. The researcher states what stands behind each quote, and the outline check tests it (`roles/researcher.md`, `roles/checker.md`).
+6. Any edit that carries out a ruling gets a targeted independent check that reads the sentences on either side (Kit, "Keeping the kit clean").
+7. Recording runs from the final census once the release's census check passes (Kit step 9).
+
+Mechanical, with it: `tools/list_second_readings.py --requests <batch folder> --prefix <id>` writes the blind requests and the comparer's key from the card entry each span matched; the reviser role names the backup and the live file in one sentence.
+
 ## 2026-11-21 — Jovinian stays, and is rebuilt on the kit (Mark)
 
 **Why.** A check of every person's home tradition found Jovinian's page still live, though Mark ruled "Take it down" on 2026-11-11 because his book is lost and his four points survive only in his opponents. Asked how aligned those opponents are, the held record shows they split: the Maurist preface to Augustine's *De bono coniugali* (`cic/texts/augustine_opera-minora-catechetica-lat_migne-pl40.txt`, lines 25313–25325) says Jerome was reported to have defended virginity only by condemning marriage, and that Augustine wrote on the good of marriage first, about 401, so as not to give the same ground; it quotes Augustine reporting Jovinian's charge that the Catholics who set virginity above marriage were patrons of the Manichees.
