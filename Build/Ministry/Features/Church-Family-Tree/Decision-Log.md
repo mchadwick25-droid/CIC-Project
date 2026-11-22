@@ -5340,3 +5340,13 @@ Mark: "Converged, auto mode: merge it", after looking at the before and after sc
 **Done.** Pull request 1771 merged (all CI checks green or skipped). The live page, `www.churchfamilytree.com`, serves the slim page (1.29 MB), the card files and the link details. A tradition card, a person card and a link card open on the live page with no errors, and a LinkedIn-style request gets the preview page with title and og tags. Note for later checks: `churchfamilytree.com` redirects to `www.`, so a check that does not follow the redirect reads a 167-byte page.
 
 **Live timings.** Same emulated Pixel 5, processor slowed four times, cache off, median of three, over the real network with the throttling on top: Wi-Fi 4.7 s, 4G 5.2 s, slow 4G 6.8 s to first names (local before: 5.5, 6.9, 16.7 s). Bytes when names show: about 0.65 MB. Tapping a mark to a filled card: 0.31 to 0.43 s. The live figures run about 0.4 to 0.8 s above the local ones, which is the extra network distance. The gain on slow 4G holds: 16.7 s to 6.8 s.
+
+## 2026-11-22 — Phone loading: loading the audio manifests when idle was tried and dropped
+
+Mark: "try the audio manifests idle load".
+
+**Tried.** On the slim page the three audio manifests (91 KB) loaded when the map was idle (or at the first press on a card, with the card waiting for them), instead of beside the page. Cards opened right after load matched the full page on 51 of 51 comparisons (the 11 built worlds and 40 recorded entries), so the change was correct.
+
+**Result.** No gain. Emulated Pixel 5, processor slowed four times, cache off, median of five, first names: Wi-Fi 4.9 s, 4G 5.2 s, slow 4G 6.9 s, against 4.3, 4.4 and 6.0 s without it (three runs each; the runs vary by about 1 s). Bytes at that point fell from about 0.55 MB to 0.45 MB on slow 4G, but time did not follow: the drawing work after the page arrives sets the pace.
+
+**Decided.** Not shipped; the code was not committed. The next gain has to come from the drawing work or from the page's start-up script, not from the manifests.
