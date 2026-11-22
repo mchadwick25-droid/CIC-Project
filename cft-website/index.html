@@ -26,7 +26,7 @@
   --parchment:#1d1811; --vellum:#262017; --iron-gall:#e9dfc7; --ink-faded:#a4967a;
   --rule:#453a28; --madder:#cf7a5c; --gold-leaf:#cfa55c; --tyrian:#b9a3d6;
   --tyrian-wash:#241d30; --graphite:#8f8266; --shadow:0 2px 14px rgba(0,0,0,.55);
-  --link-grow:#86cf9c; --link-influence:#c79a5e; --link-conflict:#f06a64; --link-contact:#a39a8c;
+  --link-grow:#b5e35c; --link-line:#2e9e4f; --link-influence:#c79a5e; --link-conflict:#f06a64; --link-contact:#a39a8c;
 }
 :root{color-scheme:dark}
 *{box-sizing:border-box}
@@ -348,6 +348,9 @@ svg.conn-focus #nodes .node:not(.conn-end),svg.conn-focus #stories,svg.conn-focu
 svg.conn-focus #nodes .node.conn-end{display:inline!important}
 svg.conn-focus .who-pill,svg.conn-focus #who-auto,svg.conn-focus #who-far{display:none!important}
 svg.conn-focus .edge-line.conn-lit{opacity:1!important}
+svg.line-focus .edge-line.conn-lit{stroke:var(--link-line);stroke-width:2.4;marker-end:url(#arrow-line)}
+#connChip.is-line .cc-key li:not(.cc-line){display:none}
+#connChip:not(.is-line) .cc-key li.cc-line{display:none}
 .era-label{cursor:pointer}
 .era-label:hover,.era-label:focus-visible{fill:var(--iron-gall);outline:none}
 .era-info{cursor:pointer}
@@ -492,8 +495,8 @@ svg.strip-on #era-labels{display:none}
 #panel .formal{margin-top:-.1rem}
 #panel details.era-more summary{min-height:44px;display:flex;align-items:center;font-size:.95rem}
 #panel .page-feedback{margin:1.4rem 0 0;padding:.9rem 0 0;border-top:1px solid var(--rule);max-width:none}
-#panel .who-btn.conn-btn{background:none;color:var(--iron-gall);border-color:var(--rule)}
-#panel .who-btn.conn-btn:hover{border-color:var(--gold-leaf)}
+#panel .who-btn.conn-btn,#panel .who-btn.line-btn{background:none;color:var(--iron-gall);border-color:var(--rule)}
+#panel .who-btn.conn-btn:hover,#panel .who-btn.line-btn:hover{border-color:var(--gold-leaf)}
 @media (max-width:1180px){
   .feature-bar .chip[aria-pressed] .sw{display:none}
   .feature-bar .chip{padding:.3rem .7rem}
@@ -630,7 +633,7 @@ svg.strip-on #era-labels{display:none}
   <div class="tray-sort" role="group" aria-label="Order of the list"><button type="button" data-sort="date" aria-pressed="true">By date</button><button type="button" data-sort="trad" aria-pressed="false">By tradition</button></div>
   <div class="tray-body"></div>
 </aside>
-<div id="connChip" hidden><button type="button" class="cc-x"><span class="cc-t"></span><span aria-hidden="true">&times;</span></button><ul class="cc-key"><li><i style="background:var(--link-grow)"></i>Grew out of, continued as</li><li><i style="background:var(--link-influence)"></i>Influenced</li><li><i style="background:var(--link-conflict)"></i>Argued against, broke with</li><li><i style="background:var(--link-contact)"></i>In contact with, member of</li></ul></div>
+<div id="connChip" hidden><button type="button" class="cc-x"><span class="cc-t"></span><span aria-hidden="true">&times;</span></button><ul class="cc-key"><li class="cc-line"><i style="background:var(--link-line)"></i>Direct line: grew out of, continued as</li><li><i style="background:var(--link-grow)"></i>Grew out of, continued as</li><li><i style="background:var(--link-influence)"></i>Influenced</li><li><i style="background:var(--link-conflict)"></i>Argued against, broke with</li><li><i style="background:var(--link-contact)"></i>In contact with, member of</li></ul></div>
 <div id="barToast" aria-hidden="true"></div>
 <div id="tourRing" hidden></div>
 <aside id="growAsk" role="complementary" aria-labelledby="growTitle" aria-live="polite" hidden><button type="button" class="ga-x" aria-label="Not now">&times;</button><p id="growTitle" class="ga-t">Glad you&rsquo;re exploring.</p><p class="ga-b">If the map is useful to you, you can help it grow.</p><div class="ga-btns"><a class="ga-help" href="support.html">Help us grow</a><button type="button" class="ga-later">Not now</button></div></aside>
@@ -131860,6 +131863,9 @@ const LINK_FAMILY_LABEL={grow:'Grew out of, continued as',influence:'Influenced'
     mk.appendChild(MARK_SHAPES[f].node());
     defs.appendChild(mk);
   });
+  const lineMk=el('marker',{id:'arrow-line',viewBox:'0 0 10 10',refX:'9',refY:'5',markerWidth:'3.5',markerHeight:'3.5',orient:'auto-start-reverse',overflow:'visible'});
+  lineMk.appendChild(el('path',{d:'M0,0 L10,5 L0,10 z',fill:'var(--link-line)'}));
+  defs.appendChild(lineMk);
   svg.insertBefore(defs,svg.firstChild);
 }
 const gBands=el('g',{id:'bands'}); gRoot.appendChild(gBands);
@@ -133745,7 +133751,7 @@ function openPanelNow(m){
   if(short)h+=`<p class="meta formal">${esc(m.name)}</p>`;
   if(KIND_LABEL[m.kind])h+=`<span class="statuspill kindpill">${esc(KIND_LABEL[m.kind])}</span>`;
   if(!isAcross(m))h+=whoButtonHTML(m);
-  h+=connButtonHTML(m);
+  h+=connButtonHTML(m)+lineButtonHTML(m);
   if(entry)h+=`<p class="repline"><b>${esc(entry.representativeName)}</b> — <i>${esc(entry.worldName)}</i>${entry.subtitle?` · ${esc(entry.subtitle)}`:''}</p>`+worldDoor(m);
   h+=`<p class="meta">${esc(plainDates(m.dates))} · ${esc((m.placeLabel&&CFTPlace.formatPlace(m,{today:true}))||m.region||'')}</p>`;
   if(isTraditionCard(m))h+=lineageStripHTML(m,lineageParts(m,inbound,outbound));
@@ -133804,6 +133810,7 @@ function openPanelNow(m){
   stopNarration(); panelBody.innerHTML=h; showPanel(`tree/${m.id}`); hideTip(); narrCardReady();
   wirePanelLinks();
   const cb=panelBody.querySelector('.conn-btn'); if(cb)cb.addEventListener('click',()=>showConnections(m));
+  const lb=panelBody.querySelector('.line-btn'); if(lb)lb.addEventListener('click',()=>showConnections(m,true));
   wireDocStories(m);
   if(isBuiltWorld)loadBuiltWorldOrientation(m.id);
   syncWorldURL(m.id);
@@ -133962,6 +133969,12 @@ function connButtonHTML(m){
   if(!n)return '';
   return `<button type="button" class="who-btn conn-btn"><span>Connections · ${n}</span><span class="who-state">Show on the map</span></button>`;
 }
+function lineButtonHTML(m){
+  if(!isTraditionCard(m))return '';
+  const k=familyLine(m).ids.size;
+  if(k<2)return '';
+  return `<button type="button" class="who-btn line-btn"><span>Family line · ${k} traditions</span><span class="who-state">Show on the map</span></button>`;
+}
 let lastFocused=null;
 function showPanel(page){
   pendingCard=null;
@@ -134065,7 +134078,7 @@ const BAR_ICON={
 };
 const barIcon=k=>`<svg class="bar-ico" viewBox="0 0 20 20" width="20" height="20" aria-hidden="true" focusable="false">${BAR_ICON[k]}</svg>`;
 const LINK_MODES=['off','major','all'];
-let linkMode='off', connFocus=null, connEnds=null;
+let linkMode='off', connFocus=null, connEnds=null, connLine=false, connLinePairs=null;
 const kindsOff=new Set();
 const effectiveLinkMode=()=>narrowScreen()?'off':linkMode;
 function connectionCount(id){return gEdges.querySelectorAll(`.edge-line[data-via~="${CSS.escape(id)}"]`).length;}
@@ -134212,8 +134225,32 @@ function buildLegend(){
 
 const connChip=document.getElementById('connChip');
 const connSel=id=>`.edge-line[data-via~="${CSS.escape(id)}"],.edge-hit[data-via~="${CSS.escape(id)}"]`;
+function familyLine(m){
+  const ids=new Set([m.id]), pairs=new Set();
+  const D=DATA.edges.filter(e=>DESCENT_TYPES.has(e.type)&&bothTraditions(e));
+  const walk=(dir)=>{
+    const q=[m.id], seen=new Set(q);
+    while(q.length){
+      const x=q.shift(), next=[];
+      D.forEach(e=>{
+        const n=dir==='up'?(e.to===x?e.from:null):(e.from===x?e.to:null);
+        if(n!=null){pairs.add(e.from+'>'+e.to);next.push(n);}
+      });
+      const c=dir==='down'&&byId[x]&&byId[x].continuesAs; if(c&&byId[c])next.push(c);
+      next.forEach(n=>{ids.add(n);if(!seen.has(n)){seen.add(n);q.push(n);}});
+    }
+  };
+  walk('up'); walk('down');
+  return {ids,pairs};
+}
 function lightConnections(){
   document.querySelectorAll('.conn-lit').forEach(l=>l.classList.remove('is-lit','conn-lit'));
+  if(connLine){
+    connEnds=new Set(connLinePairs.ids);
+    document.querySelectorAll('.edge-line,.edge-hit').forEach(l=>{if(connLinePairs.pairs.has(l.dataset.from+'>'+l.dataset.to))l.classList.add('is-lit','conn-lit');});
+    gNodes.querySelectorAll('.node').forEach(g=>g.classList.toggle('conn-end',connEnds.has(g.dataset.id)));
+    return;
+  }
   connEnds=new Set([connFocus.id]);
   document.querySelectorAll(connSel(connFocus.id)).forEach(l=>{l.classList.add('is-lit','conn-lit');(l.dataset.via||'').split(' ').forEach(id=>connEnds.add(id));});
   gNodes.querySelectorAll('.node').forEach(g=>g.classList.toggle('conn-end',connEnds.has(g.dataset.id)));
@@ -134223,16 +134260,16 @@ function clearConnections(){
   const m=connFocus;
   document.querySelectorAll('.conn-lit').forEach(l=>l.classList.remove('is-lit','conn-lit'));
   gNodes.querySelectorAll('.node.conn-end').forEach(g=>g.classList.remove('conn-end'));
-  connFocus=null; connEnds=null; svg.classList.remove('conn-focus'); connChip.hidden=true;
+  connFocus=null; connEnds=null; connLine=false; connLinePairs=null; svg.classList.remove('conn-focus','line-focus'); connChip.classList.remove('is-line'); connChip.hidden=true;
   scheduleLabelFit();
   announce('Connections cleared.');
   returnFocus(gNodes.querySelector(`.node[data-id="${CSS.escape(m.id)}"]`),[connChip]);
 }
-function showConnections(m){
+function showConnections(m,line){
   clearConnections(); if(whoScope)clearWho();
   lastFocused=null; closePanel();
-  connFocus=m; lightConnections();
-  svg.classList.add('conn-focus');
+  connFocus=m; connLine=!!line; connLinePairs=connLine?familyLine(m):null; lightConnections();
+  svg.classList.add('conn-focus'); svg.classList.toggle('line-focus',connLine); connChip.classList.toggle('is-line',connLine);
   const narrow=narrowScreen();
   const pts=[...connEnds].map(id=>byId[id]).filter(o=>o&&o._x!=null), xs=pts.map(o=>o._x), ys=pts.map(o=>o._y);
   const top=topInset()+56, vw=window.innerWidth-(narrow?70:120), vh=window.innerHeight-top-(narrow?barHeight()+40:40);
@@ -134242,9 +134279,16 @@ function showConnections(m){
   tx=20+vw/2-((x0+x1)/2)*scale; ty=top+vh/2-((y0+y1)/2)*scale;
   applyTransform(); applyDetail(); labelFitRun();
   const n=document.querySelectorAll('.edge-line.conn-lit').length, name=m.shortName||m.name, cn=n===1?'connection':'connections';
+  if(connLine){
+    const k=connEnds.size, tn=k===1?'tradition':'traditions';
+    connChip.querySelector('.cc-t').textContent=`Family line: ${name} · ${k} ${tn}`;
+    connChip.querySelector('.cc-x').setAttribute('aria-label',`Family line: ${name}, ${k} ${tn}. Clear it from the map.`);
+    connChip.hidden=false; announce(`The family line of ${name} is showing: ${k} ${tn}.`);
+  }else{
   connChip.querySelector('.cc-t').textContent=`Connections: ${name} · ${n}`;
   connChip.querySelector('.cc-x').setAttribute('aria-label',`Connections: ${name}, ${n}. Clear ${n===1?'it':'them'} from the map.`);
   connChip.hidden=false; announce(`${n} ${cn} of ${name} showing.`);
+  }
   connChip.querySelector('.cc-x').focus();
   tourOfferConn();
 }
