@@ -77,4 +77,4 @@ One row per agent pass: the subagent's own token count as the harness reports it
 | Epiphanius | 5b Story recheck | Opus | 124,904 | FIX, 9 replacements applied verbatim; 714 words |
 | Basil | 5b Story recheck | Opus | 108,673 | FIX, 1 replacement applied verbatim |
 | Hilary | 5b Story recheck | Opus | 119,107 | FIX, 17 replacements applied verbatim; 674 words |
-| Gregories | 6 Card | Sonnet | see notice | 2 kept with edits |
+| Gregories | 6 Card | Sonnet | 137,525 | 2 kept with edits |
