@@ -4310,5 +4310,24 @@
   "openTag": null,
   "closingTag": null,
   "requestId": "YaWRHgxM68wljiASwCfP"
+ },
+ "basil-of-caesarea": {
+  "file": "basil-of-caesarea.mp3",
+  "bytes": 2027354,
+  "chars": 3746,
+  "text_sha256": "a9419300d8721e5b777b9e46f82e1e4882652d55ded198554bb6d67448f9fb4c",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3858,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "k0lhOoZMko53AyBeNgLQ"
  }
 }
