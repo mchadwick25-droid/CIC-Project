@@ -46,3 +46,5 @@ One row per agent pass: the subagent's own token count as the harness reports it
 | Apollinaris, Hilary | 2d Replacements applied | Sonnet | 87,139 | verbatim |
 | Apollinaris | 3 Write | Sonnet | 97,294 | 674 words |
 | Hilary | 3 Write | Sonnet | 102,053 | 675 words |
+| Apollinaris | 4 Review | Opus | 138,179 | REVISE, 2 blocking |
+| Eunomius | 4 Review | Opus | 128,498 | REVISE, 3 blocking |
