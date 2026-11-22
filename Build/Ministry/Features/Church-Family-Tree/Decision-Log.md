@@ -5486,7 +5486,7 @@ This takes up build-plan row P2-S, deferred for its own design pass on 2026-11-1
 
 **Decided (Mark: "a").** Option A: write the four with sources first, one at a time; hold the other four for the source-research thread.
 
-**Done.** Four briefs, each with a sheet and each passing review (Open-Gaps 370). Each review found blocking faults the draft had made: an invented power for a governor, a town moved onto the wrong person, an editor credited with an unsigned note, a first arrival the source contradicts, a punishment offer told twice, a library statement spoken as history, and a jump back in time. All were corrected in the reviewer's wording. The repeated lessons for later briefs: credit every report to its witness; keep process and library talk off the audio; never state a date or an age the files do not hold.
+**Done.** Four briefs, each with a sheet and each passing review (Open-Gaps 375). Each review found blocking faults the draft had made: an invented power for a governor, a town moved onto the wrong person, an editor credited with an unsigned note, a first arrival the source contradicts, a punishment offer told twice, a library statement spoken as history, and a jump back in time. All were corrected in the reviewer's wording. The repeated lessons for later briefs: credit every report to its witness; keep process and library talk off the audio; never state a date or an age the files do not hold.
 
 **Not done.** Nothing in the census, no recording, no pull request. The four held traditions, and the release, wait for Mark.
 ## 2026-11-22 — Councils show at every zoom and turn gold
