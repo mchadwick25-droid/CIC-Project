@@ -1,0 +1,41 @@
+const {chromium}=require('playwright');
+const fs=require('fs');
+const CARD_IDS={tradition:'armenian-christianity-conversion-era',builtWorld:'donatism',person:'augustine-of-hippo',council:'council-of-nicaea-325'};
+(async()=>{
+ const b=await chromium.launch(); const ctx=await b.newContext({viewport:{width:1440,height:900}}); const p=await ctx.newPage();
+ const errs=[]; p.on('pageerror',e=>errs.push(e.message.slice(0,300)));
+ const phase=async(name,fn,wait=1500)=>{await p.evaluate(n=>{window.__phase=n},name); try{await fn();}catch(e){errs.push(name+': '+e.message.slice(0,200));} await p.waitForTimeout(wait);};
+ await p.goto('http://localhost:8104/',{waitUntil:'load'}); await p.waitForTimeout(7000);
+ const zoomIn=async(n)=>{await p.keyboard.down('Control');for(let i=0;i<n;i++){await p.mouse.move(720,450);await p.mouse.wheel(0,-120);await p.waitForTimeout(25);}await p.keyboard.up('Control');};
+ await phase('zoom-in-reading',()=>zoomIn(10),2500);
+ await phase('zoom-in-deep',()=>zoomIn(14),2500);
+ await phase('people-layer-on',async()=>{const pr=await p.$eval('button[data-toggle="people"]',e=>e.getAttribute('aria-pressed'));if(pr!=='true')await p.click('button[data-toggle="people"]');},2500);
+ await phase('stories-layer-on',async()=>{const pr=await p.$eval('button[data-toggle="stories"]',e=>e.getAttribute('aria-pressed'));if(pr!=='true')await p.click('button[data-toggle="stories"]');},2500);
+ await phase('hover-link',async()=>{await p.evaluate(()=>{const e=document.querySelector('.edge-hit');if(e)e.dispatchEvent(new MouseEvent('mouseenter',{bubbles:true,clientX:300,clientY:300}));});},1200);
+ await phase('tooltip-tradition',()=>p.evaluate(id=>{tipFor(entryById(id));},CARD_IDS.tradition),800);
+ await phase('tooltip-person',()=>p.evaluate(id=>{tipFor(entryById(id));},CARD_IDS.person),800);
+ await phase('open-card-tradition',()=>p.evaluate(id=>openPanel(entryById(id)),CARD_IDS.tradition),2500);
+ await phase('open-card-built-world',()=>p.evaluate(id=>openPanel(entryById(id)),CARD_IDS.builtWorld),4000);
+ await phase('open-card-person',()=>p.evaluate(id=>openPanel(entryById(id)),CARD_IDS.person),2500);
+ await phase('open-card-council',()=>p.evaluate(id=>openPanel(entryById(id)),CARD_IDS.council),2500);
+ await phase('open-story',async()=>{await p.evaluate(()=>{const s=document.querySelector('.story');if(s)s.dispatchEvent(new MouseEvent('click',{bubbles:true}));});},2500);
+ await phase('people-tray',async()=>{await p.evaluate(()=>{const b=document.querySelector('#who-pills .river-pill');if(b)b.dispatchEvent(new MouseEvent('click',{bubbles:true}));});},2500);
+ await phase('open-link-card',()=>p.evaluate(()=>{const e=DATA.edges[5];openPanelEdge(e,entryById(e.from),entryById(e.to));}),2500);
+ await phase('open-river-card',()=>p.evaluate(()=>{const g=document.querySelector('.river-group');if(g)g.dispatchEvent(new MouseEvent('click',{bubbles:true}));}),2500);
+ await phase('open-era-card',()=>p.evaluate(()=>{const g=document.querySelector('.era-info');if(g)g.dispatchEvent(new MouseEvent('click',{bubbles:true}));}),2500);
+ await phase('people-tray-tradition',()=>p.evaluate(()=>{const m=[...DATA.movements].find(x=>hasPeople(x)&&x.kind!=='person');setWho({type:'trad',m});}),2500);
+ await phase('person-from-tray',()=>p.evaluate(()=>{const row=document.querySelector('.tray-row');if(row)row.click();}),2500);
+ await phase('legend-key-and-connections',async()=>{const btns=await p.$$('.chip.has-ico');for(const b of btns.slice(0,5)){await b.click().catch(()=>{});await p.waitForTimeout(300);}},1500);
+ await phase('tour',async()=>{const t=await p.$('text=Show me');if(t)await t.click();},2500);
+ const p2=await ctx.newPage(); p2.on('pageerror',e=>errs.push('deeplink: '+e.message.slice(0,200)));
+ await p2.goto('http://localhost:8104/?world=augustine-of-hippo',{waitUntil:'load'}); await p2.waitForTimeout(7000);
+ const out=await p.evaluate(()=>({reads:window.__reads,enum:window.__enum}));
+ const out2=await p2.evaluate(()=>({reads:window.__reads,enum:window.__enum}));
+ const uni=await p.evaluate(()=>{const U={};const sz=v=>new Blob([JSON.stringify(v)]).size;
+   function walk(o,path){ if(o===null||typeof o!=='object')return; if(Array.isArray(o)){o.forEach(x=>walk(x,path+'[]'));return;}
+     for(const k of Object.keys(o)){const pp=path+'.'+k; const e=U[pp]=U[pp]||{bytes:0,n:0}; e.bytes+=sz(o[k]); e.n++; walk(o[k],pp);} }
+   walk(window.__rawData,'DATA'); return U;});
+ fs.writeFileSync('audit_reads2.json',JSON.stringify({main:out,deeplink:out2.reads,universe:uni,errors:errs},null,1));
+ console.log('phases',Object.keys(out.reads).join(', ')); console.log('errors',errs.length,errs.slice(0,6));
+ await b.close();
+})();
