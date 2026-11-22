@@ -133277,7 +133277,7 @@ function lineageStripHTML(m,parts){
 }
 function lineageRowHTML(e,otherId,label){
   const t=entryById(otherId);
-  return `<div class="edge"><span class="k">${esc(label)} · ${esc(e.confidence)}${isMajorEdge(e)?' · Major':''}</span><br><b>${esc(t?t.shortName||t.name:otherId)}</b><br>${esc(e.note)}${e.outcome?`<br><i>Lasting result:</i> ${esc(e.outcome)}`:''}</div>`;
+  return `<div class="edge"><span class="k">${esc(label)} · ${esc(e.confidence)}${isMajorEdge(e)?' · Major':''}</span><br><b>${t?lineageNameBtn(otherId):esc(otherId)}</b><br>${esc(e.note)}${e.outcome?`<br><i>Lasting result:</i> ${esc(e.outcome)}`:''}</div>`;
 }
 function connectionsByKindHTML(m,inbound,outbound){
   const P=lineageParts(m,inbound,outbound), others=P.restOut.length+P.restIn.length;
@@ -133286,7 +133286,7 @@ function connectionsByKindHTML(m,inbound,outbound){
   if(P.children.length||P.next){
     h+=P.children.map(x=>lineageRowHTML(x.e,x.id,x.label)).join('');
     if(P.next){const link=continuesLink(m.id,P.next.id);
-      h+=link?lineageRowHTML(link,P.next.id,'continued as'):`<div class="edge"><span class="k">continued as · not yet graded</span><br><b>${esc(P.next.shortName||P.next.name)}</b><br>${pairLinkNote(m.id,P.next.id)}</div>`;}
+      h+=link?lineageRowHTML(link,P.next.id,'continued as'):`<div class="edge"><span class="k">continued as · not yet graded</span><br><b>${lineageNameBtn(P.next.id)}</b><br>${pairLinkNote(m.id,P.next.id)}</div>`;}
   }else h+=`<p class="meta">No direct descendant is recorded.${others?' Its other links are influence, argument and contact.':''}</p>`;
   if(P.splits.length)h+='<h3>Broke with</h3>'+P.splits.map(x=>lineageRowHTML(x.e,x.id,x.label)).join('');
   if(others){
