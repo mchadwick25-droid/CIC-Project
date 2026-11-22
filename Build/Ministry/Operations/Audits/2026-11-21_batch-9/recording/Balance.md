@@ -15,12 +15,16 @@ Approved run: "Batch 9: the eleven" (Mark, 2026-11-22, "Approve, cap 24,000"; ca
 | 2 | Cyril of Jerusalem | 4,222 | 2,047 | 4:33 |
 | 2 | Epiphanius of Salamis | 4,156 | 2,015 | 4:43 |
 | 2 | Damasus of Rome | 3,850 | 1,867 | 4:33 |
-| **Total** | 11 stories, 11 requests | 39,650 | **19,226** | |
+| 3 | Evagrius Ponticus, re-recorded (Praktikos quote word for word, Mark's "A") | 3,874 | 1,878 | 4:30 |
+| **Total** | 11 stories, 12 requests | 43,524 | **21,104** | |
 
 | When (UTC, 2026-11-22) | character_count |
 |---|---|
 | Before batch 9 | 506,707 |
 | After run 1 (Basil) | 508,578 |
 | After run 2 (the ten) | 525,933 |
+| After run 3 (Evagrius again) | 527,811 |
 
 Run 2 followed Mark's "Yes approved to record all ten" (2026-11-22), one story per command (`batch9-run2-<slug>.log`). The balance moved by 19,226, matching the request charges exactly, under the 24,000 cap. The endpoint lagged by about one request during run 2, so the per-story readings in the session were not used; the start and end readings are.
+
+Run 3 (`batch9-run3-evagrius-ponticus.log`) moved the balance by 1,878, matching its charge. In all the batch moved it by 21,104, under the 24,000 cap. Evagrius's run-2 clip was replaced.

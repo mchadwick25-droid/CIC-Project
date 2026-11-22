@@ -5236,3 +5236,11 @@ Mark, posting to LinkedIn: "the linked in cant display a preview and its not pul
 2. Cyril of Jerusalem: Egeria's applause quote is placed in Easter week, in the tomb chapel; "by modern reckoning" and "that pilgrim" cut; Jerome's charge reads "to be given the see by the followers of Arius" (the fresh read's wording).
 3. Hilary of Poitiers runs about 4:32: Augustine's reading of him restored in the outline's wording; Ariminum reads "pressed by the emperor's threats"; the letter sentence split, keeping "the letters Hilary brought". The split is the coordinator's wording and gets a targeted independent check.
 4. The other minor findings stay in each `Fresh_Read.md`, as input to the kit change under discussion; no finished story is reopened for polish.
+
+## 2026-11-22 — Batch 9: the recording, and Evagrius's Praktikos quote (Mark)
+
+**Decided (Mark, 2026-11-22).**
+1. "Approve, cap 24,000": Basil recorded first for Mark's ear; then "Yes approved to record all ten". Settings as batch 8 (voice `onegjDE2z0mQtp1g0HK7`, `eleven_v4`, `mp3_44100_64`, stability 0.95, similarity 0.68, style 0, speaker boost on), one story per command.
+2. "A": Evagrius's quote of Praktikos 6 is Dysinger's English word for word (CC BY 4.0, credited on the card), not a rewording of it, since the tree quotes its own English only of an original or of English printed before 1931. Evagrius was re-recorded.
+
+**Result.** Twelve requests, 21,104 credits, under the 24,000 cap; the balance moved from 506,707 to 527,811 (`Build/Ministry/Operations/Audits/2026-11-21_batch-9/recording/Balance.md`).

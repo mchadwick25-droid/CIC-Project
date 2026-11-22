@@ -4368,9 +4368,9 @@
  },
  "evagrius-ponticus": {
   "file": "evagrius-ponticus.mp3",
-  "bytes": 2164444,
-  "chars": 3750,
-  "text_sha256": "91e406a906d76c9ff33269ca3afd9123b483802a42789e8f8e1736f72d812ecb",
+  "bytes": 2156712,
+  "chars": 3783,
+  "text_sha256": "06c3d149f25569a3b74de9306a624c51576653d9e6f132a19474838054439b4c",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -4380,10 +4380,10 @@
    "style": 0,
    "use_speaker_boost": true
   },
-  "charsSent": 3841,
+  "charsSent": 3874,
   "openTag": null,
   "closingTag": null,
-  "requestId": "vzxnGxMHQryTrKB1byzC"
+  "requestId": "4O3FclrKZaegO1CQWRRx"
  },
  "eusebius-of-nicomedia": {
   "file": "eusebius-of-nicomedia.mp3",
