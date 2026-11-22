@@ -5318,3 +5318,13 @@ Mark: "go ahead with the build step".
 **Choices I made, which Mark can change.** The link tooltip text (`note`, 0.20 MB) stays in the page, so link hovers need no fetch. The stories (0.21 MB) stay whole in the page, so the story layer and story cards need no fetch. Link sources (the bulk of the link details) load in one file when a link card first opens. Fields no scenario read are not dropped: they travel in the entry files.
 
 **Not done.** Nothing reads the slim copy yet and nothing is deployed from it: the site is unchanged. Step 3 changes the map to load a card's file when it opens (and ahead of time on hover and focus), shows an error with a retry if the fetch fails, then deploys the slim copy. The audit has not been run at a phone width; step 3 does that before anything ships.
+
+## 2026-11-22 — Cards and tradition pages separate direct descent from influence
+
+Mark: "yes build A and B", then "lets stay with just connecting the traditions, the who and stories are linked to a tradition".
+
+**Decided.** Tradition cards on the map and tradition pages in the tree group their links by kind and open with a one-line lineage strip. Only links between two traditions count as direct line. Descent is "continued as" and "gave rise to", one step each way. "Broke with" is its own group and carries no direction, as the Method page already says. Everything else (influenced, argued against, in contact) sits under one heading, "Influence, argument and contact". People, councils, stories and movements across churches keep the plain list.
+
+**Result.** Three descent links run from a tradition to a person or a movement across churches; they are shown in the influence group, not as direct descendants. 107 of 350 traditions have no recorded direct line, and their cards say so in plain words. The Method page gained a section, "Direct descendants and influence". A test keeps the map's and the generator's descent types and headings in step.
+
+**Not done.** Option C, a map view of the family line, waits until Mark has seen A and B.

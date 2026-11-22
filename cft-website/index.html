@@ -144,6 +144,11 @@ svg.who-on #river-names,svg.story-on #river-names{opacity:.2}
 #panel p{font-size:.92rem;line-height:1.6;margin:.3rem 0}
 #panel .edge{font-size:.85rem;padding:.4rem 0;border-bottom:1px solid var(--rule)}
 #panel .edge:last-child{border-bottom:none}
+#panel .lineage-line{display:flex;flex-wrap:wrap;gap:.25rem .6rem;align-items:baseline;font-size:.86rem;border:1px solid var(--rule);border-radius:4px;padding:.4rem .6rem;margin:.5rem 0}
+#panel .lineage-arrow{color:var(--tyrian)}
+#panel .lineage-none,#panel .conn-sub{color:var(--ink-faded)}
+#panel .conn-sub{font-variant:small-caps;font-size:.78rem;margin:.7rem 0 .1rem}
+#panel .conn-rest summary{cursor:pointer;font-weight:700;margin:.8rem 0 .2rem}
 #panel .edge .k{color:var(--tyrian);font-variant:small-caps;font-size:.76rem}
 #panel .repline{font-size:.95rem;margin:0 0 .5rem}
 #panel .act{display:block;width:100%;margin:0 0 .9rem;padding:.6rem .9rem;
@@ -133154,6 +133159,52 @@ function pairLinkNote(aId,bId){
   return other?`The checked connection between them is “${esc(other.type)}” (${esc(other.confidence)}), listed above.`:'No connection between them has been drawn and checked yet.';
 }
 function continuesLink(fromId,toId){return DATA.edges.find(e=>e.type==='continued as'&&e.from===fromId&&e.to===toId)||null;}
+
+const DESCENT_TYPES=new Set(['gave rise to','continued as']);
+const PARENT_LABEL={'gave rise to':'grew out of','continued as':'continues'};
+const isTraditionCard=m=>!m.kind||m.kind==='tradition';
+const isTraditionId=id=>{const t=entryById(id);return !!t&&isTraditionCard(t);};
+const bothTraditions=e=>isTraditionId(e.from)&&isTraditionId(e.to);
+function lineageParts(m,inbound,outbound){
+  const descent=e=>DESCENT_TYPES.has(e.type)&&bothTraditions(e), brk=e=>e.type==='broke with'&&bothTraditions(e);
+  const parents=inbound.filter(descent).map(e=>({e,id:e.from,label:PARENT_LABEL[e.type]}));
+  const children=outbound.filter(descent).map(e=>({e,id:e.to,label:e.type}));
+  const nxt=m.continuesAs&&byId[m.continuesAs];
+  const next=nxt&&!children.some(c=>c.id===nxt.id)?nxt:null;
+  const splits=outbound.filter(brk).map(e=>({e,id:e.to,label:'broke with'}))
+    .concat(inbound.filter(brk).map(e=>({e,id:e.from,label:'broke with'})));
+  const rest=e=>!descent(e)&&!brk(e);
+  return {parents,children,next,splits,restOut:outbound.filter(rest),restIn:inbound.filter(rest)};
+}
+function lineageNameBtn(id){const t=entryById(id);return `<button type="button" class="panel-link" data-id="${esc(id)}">${esc(t?t.shortName||t.name:id)}</button>`;}
+function lineageStripHTML(m,parts){
+  if(!parts.parents.length&&!parts.children.length&&!parts.next)return '';
+  const uniq=a=>[...new Set(a)];
+  const left=uniq(parts.parents.map(x=>x.id)).map(lineageNameBtn).join(' · ')||'<span class="lineage-none">no parent recorded</span>';
+  const right=uniq(parts.children.map(x=>x.id).concat(parts.next?[parts.next.id]:[])).map(lineageNameBtn).join(' · ')||'<span class="lineage-none">no descendant recorded</span>';
+  return `<p class="lineage-line" role="group" aria-label="Direct line of descent"><span>${left}</span><span class="lineage-arrow" aria-hidden="true">→</span><b>${esc(m.shortName||m.name)}</b><span class="lineage-arrow" aria-hidden="true">→</span><span>${right}</span></p>`;
+}
+function lineageRowHTML(e,otherId,label){
+  const t=entryById(otherId);
+  return `<div class="edge"><span class="k">${esc(label)} · ${esc(e.confidence)}${isMajorEdge(e)?' · Major':''}</span><br><b>${esc(t?t.shortName||t.name:otherId)}</b><br>${esc(e.note)}${e.outcome?`<br><i>Lasting result:</i> ${esc(e.outcome)}`:''}</div>`;
+}
+function connectionsByKindHTML(m,inbound,outbound){
+  const P=lineageParts(m,inbound,outbound), others=P.restOut.length+P.restIn.length;
+  let h='<h3>Descended from</h3>'+(P.parents.length?P.parents.map(x=>lineageRowHTML(x.e,x.id,x.label)).join(''):'<p class="meta">No direct parent is recorded.</p>');
+  h+='<h3>Direct descendants</h3>';
+  if(P.children.length||P.next){
+    h+=P.children.map(x=>lineageRowHTML(x.e,x.id,x.label)).join('');
+    if(P.next){const link=continuesLink(m.id,P.next.id);
+      h+=link?lineageRowHTML(link,P.next.id,'continued as'):`<div class="edge"><span class="k">continued as · not yet graded</span><br><b>${esc(P.next.shortName||P.next.name)}</b><br>${pairLinkNote(m.id,P.next.id)}</div>`;}
+  }else h+=`<p class="meta">No direct descendant is recorded.${others?' Its other links are influence, argument and contact.':''}</p>`;
+  if(P.splits.length)h+='<h3>Broke with</h3>'+P.splits.map(x=>lineageRowHTML(x.e,x.id,x.label)).join('');
+  if(others){
+    const sub=(label,list,end)=>list.length?`<p class="conn-sub">${label} (${list.length})</p>`+list.map(e=>lineageRowHTML(e,e[end],e.type)).join(''):'';
+    const body=sub('From this tradition',P.restOut,'to')+sub('To this tradition',P.restIn,'from');
+    h+=others>6?`<details class="conn-rest"><summary>Influence, argument and contact (${others})</summary>${body}</details>`:`<h3>Influence, argument and contact</h3>${body}`;
+  }
+  return h;
+}
 function edgeSentence(edg,a,b){
   return `${a.shortName||a.name} ${edg.type} ${b.shortName||b.name}`;
 }
@@ -133602,6 +133653,7 @@ function openPanel(m){
   h+=connButtonHTML(m);
   if(entry)h+=`<p class="repline"><b>${esc(entry.representativeName)}</b> — <i>${esc(entry.worldName)}</i>${entry.subtitle?` · ${esc(entry.subtitle)}`:''}</p>`+worldDoor(m);
   h+=`<p class="meta">${esc(plainDates(m.dates))} · ${esc((m.placeLabel&&CFTPlace.formatPlace(m,{today:true}))||m.region||'')}</p>`;
+  if(isTraditionCard(m))h+=lineageStripHTML(m,lineageParts(m,inbound,outbound));
   h+=`<p class="tree-link"><a href="tree/${m.id}.html">${esc(m.name)}</a> in the Family Tree</p>`;
   const lede=entry?entry.tile:m.teaser;
   if(lede)h+=`<p class="teaser">${esc(lede)}</p>`;
@@ -133621,6 +133673,8 @@ function openPanel(m){
   if(m.legacy)h+='<h3>Legacy</h3>'+m.legacy.split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('')+sectionSources(m.legacySources);
   if(m.experienceToday&&m.experienceToday.length)h+=`<h3>Experience it today</h3><ul class="exptoday">${m.experienceToday.map(e=>`<li><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.text)}</a></li>`).join('')}</ul>`;
   if(hasContent(m.relationsSummary))h+=`<h3>In its own record</h3><p><i>${esc(m.relationsSummary)}</i></p>`;
+  if(isTraditionCard(m))h+=connectionsByKindHTML(m,inbound,outbound);
+  else{
   if(outbound.length){h+='<h3>Connections from this tradition</h3>';outbound.forEach(e=>{const t=entryById(e.to);h+=`<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}${isMajorEdge(e)?' · Major':''}</span><br><b>${esc(t?t.shortName||t.name:e.to)}</b><br>${esc(e.note)}${e.outcome?`<br><i>Lasting result:</i> ${esc(e.outcome)}`:''}</div>`;});}
   if(inbound.length){h+='<h3>Connections to this tradition</h3>';inbound.forEach(e=>{const f=entryById(e.from);h+=`<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}${isMajorEdge(e)?' · Major':''}</span><br><b>${esc(f?f.shortName||f.name:e.from)}</b><br>${esc(e.note)}${e.outcome?`<br><i>Lasting result:</i> ${esc(e.outcome)}`:''}</div>`;});}
   if(m.continuesAs&&byId[m.continuesAs]){
@@ -133628,6 +133682,7 @@ function openPanel(m){
     h+=`<h3>Continues as</h3>`+(link
       ?`<div class="edge"><span class="k">${esc(link.type)} · ${esc(link.confidence)}</span><br><b>${esc(next.shortName||next.name)}</b><br>The same ongoing church, in the next window.</div>`
       :`<div class="edge"><span class="k">continued as · not yet graded</span><br><b>${esc(next.shortName||next.name)}</b><br>${pairLinkNote(m.id,next.id)}</div>`);
+  }
   }
   if(hasContent(m.sourcing)||(m.sources&&m.sources.length)){
     const sourcesLabel=m.sources&&m.sources.length?`Sources (${m.sources.length})`:'Sources';

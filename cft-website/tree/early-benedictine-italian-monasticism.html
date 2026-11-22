@@ -62,6 +62,13 @@ li{margin-bottom:.5rem}
 .lineage-section.link-conflict{border-left-color:var(--link-conflict)}.lineage-section.link-conflict h3{color:var(--link-conflict)}
 .lineage-section.link-contact h3{color:var(--link-contact)}
 .lineage-list{list-style:none;padding:0}
+.lineage-section h4{font-size:1.05rem;margin:.2rem 0 .4rem}
+.lineage-section.link-influence h4{color:var(--link-influence)}.lineage-section.link-conflict h4{color:var(--link-conflict)}.lineage-section.link-contact h4{color:var(--link-contact)}.lineage-section.link-grow h4{color:var(--link-grow)}
+.lineage-rest-heading{margin:2rem 0 .2rem}
+.lineage-kind{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;color:var(--muted);margin-right:.2rem}
+.lineage-none{color:var(--muted);font-style:italic}
+.lineage-strip{display:flex;flex-wrap:wrap;gap:.3rem .7rem;align-items:baseline;font-family:var(--sans);font-size:.95rem;background:var(--surface);border-radius:4px;padding:.55rem .8rem;margin:1rem 0 0}
+.lineage-arrow{color:var(--muted)}
 .lineage-list li{margin:0 0 .5rem;padding:0}
 .lineage-list a{color:var(--action)}
 .confidence-note{font-style:italic;color:var(--muted);font-size:.95rem}
@@ -168,21 +175,30 @@ li{margin-bottom:.5rem}
   
 
   <section>
-    <h2>In Its Own Record</h2>
-    <div class="lineage-section link-influence">
-<h3>Influenced By</h3>
+    <h2>Connections</h2>
+    <div class="lineage-section link-grow">
+<h3>Descended from</h3>
+<p class="lineage-none">No direct parent is recorded.</p>
+</div>
+<div class="lineage-section link-grow">
+<h3>Direct descendants</h3>
+<p class="lineage-none">No direct descendant is recorded. Its other links are influence, argument and contact.</p>
+</div>
+<h3 class="lineage-rest-heading">Influence, argument and contact</h3>
+<div class="lineage-section link-influence">
+<h4>Influenced By</h4>
 <ul class="lineage-list">
-<li id="desert-monasticism--early-benedictine-italian-monasticism"><a href="desert-monasticism.html">Desert Monasticism</a> <span class="lineage-confidence">Widely Accepted</span> — <span class="confidence-note">Benedict&#039;s Rule tells monks to read &#039;the Lives of the Fathers&#039; when they meet in the evening. Its last chapter names the Fathers&#039; Lives and Basil of Caesarea&#039;s Rule as models for monks. Its editor, Cardinal Gasquet, takes these to be the Lives of the Desert Fathers.</span></li>
-<li id="gallic-monastic-ascetic-christianity--early-benedictine-italian-monasticism"><a href="gallic-monastic-ascetic-christianity.html">Gallic Monastic-Ascetic Christianity</a> <span class="lineage-confidence">Widely Accepted</span> — <span class="confidence-note">Benedict&#039;s Rule tells monks to read the &#039;Collationes&#039; when they meet in the evening. It also names the &#039;Institutes&#039; as models. These are the titles of Cassian&#039;s two books. Gennadius says Cassian set up two houses for monks at Marseilles.</span></li>
+<li id="desert-monasticism--early-benedictine-italian-monasticism"><span class="lineage-kind">influenced</span> <a href="desert-monasticism.html">Desert Monasticism</a> <span class="lineage-confidence">Widely Accepted</span> — <span class="confidence-note">Benedict&#039;s Rule tells monks to read &#039;the Lives of the Fathers&#039; when they meet in the evening. Its last chapter names the Fathers&#039; Lives and Basil of Caesarea&#039;s Rule as models for monks. Its editor, Cardinal Gasquet, takes these to be the Lives of the Desert Fathers.</span></li>
+<li id="gallic-monastic-ascetic-christianity--early-benedictine-italian-monasticism"><span class="lineage-kind">influenced</span> <a href="gallic-monastic-ascetic-christianity.html">Gallic Monastic-Ascetic Christianity</a> <span class="lineage-confidence">Widely Accepted</span> — <span class="confidence-note">Benedict&#039;s Rule tells monks to read the &#039;Collationes&#039; when they meet in the evening. It also names the &#039;Institutes&#039; as models. These are the titles of Cassian&#039;s two books. Gennadius says Cassian set up two houses for monks at Marseilles.</span></li>
 </ul>
 </div>
 <div class="lineage-section link-influence">
-<h3>Influenced</h3>
+<h4>Influenced</h4>
 <ul class="lineage-list">
-<li id="early-benedictine-italian-monasticism--roman-church-gregorian"><a href="roman-church-gregorian.html">The Roman Church in the Age of Gregory the Great</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Gregory the Great tells the life of Benedict in his Dialogues. He praises the rule Benedict wrote for his monks as &#039;excellent for discretion&#039;. Gregory says he had his stories from four of the saint&#039;s disciples. One was Constantinus, the next abbot after him.</span></li>
-<li id="early-benedictine-italian-monasticism--carolingian-reform-christianity"><a href="carolingian-reform-christianity.html">Carolingian Reform Christianity</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">In 802 Charlemagne gathered abbots and monks at Aachen. There they read the Rule of Saint Benedict together. He then ordered that anything done in monasteries against the rule be put right by it. Sixty years before, in 742, Carloman&#039;s council had told monks and nuns to live by the same rule.</span><span class="lineage-outcome"><i>Lasting result:</i> In 802 Charlemagne gave an order about monasteries. Anything done in them against the Rule of Saint Benedict was to be put right by that rule.</span></li>
-<li id="early-benedictine-italian-monasticism--cluniac-reform-monasticism"><a href="cluniac-reform-monasticism.html">Cluniac Reform Monasticism</a> <span class="lineage-confidence">Inferential-Thin</span> — <span class="confidence-note">Oswald Hunter Blair was a Benedictine editor of the Rule. In 1907 he drew on the later customs of Cluny to show how it was lived. Cardinal Gasquet, another Benedictine editor, calls the Rule practically the only rule for monks in the West from the ninth to the twelfth century. He does not name Cluny. This rests on these two editors, not on Cluny&#039;s own texts. No modern study of it has been consulted.</span></li>
-<li id="early-benedictine-italian-monasticism--cistercian-monasticism"><a href="cistercian-monasticism.html">Cistercian Monasticism</a> <span class="lineage-confidence">Inferential-Thin</span> — <span class="confidence-note">The monks of Cîteaux set out to keep the Rule of St Benedict more plainly. The tie rests on a 1907 editor of the Rule, not on the early Cistercians&#039; own words. Oswald Hunter Blair notes only that early Cistercian statutes, like the Rule, set times when monks might talk.</span></li>
+<li id="early-benedictine-italian-monasticism--roman-church-gregorian"><span class="lineage-kind">influenced</span> <a href="roman-church-gregorian.html">The Roman Church in the Age of Gregory the Great</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Gregory the Great tells the life of Benedict in his Dialogues. He praises the rule Benedict wrote for his monks as &#039;excellent for discretion&#039;. Gregory says he had his stories from four of the saint&#039;s disciples. One was Constantinus, the next abbot after him.</span></li>
+<li id="early-benedictine-italian-monasticism--carolingian-reform-christianity"><span class="lineage-kind">influenced</span> <a href="carolingian-reform-christianity.html">Carolingian Reform Christianity</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">In 802 Charlemagne gathered abbots and monks at Aachen. There they read the Rule of Saint Benedict together. He then ordered that anything done in monasteries against the rule be put right by it. Sixty years before, in 742, Carloman&#039;s council had told monks and nuns to live by the same rule.</span><span class="lineage-outcome"><i>Lasting result:</i> In 802 Charlemagne gave an order about monasteries. Anything done in them against the Rule of Saint Benedict was to be put right by that rule.</span></li>
+<li id="early-benedictine-italian-monasticism--cluniac-reform-monasticism"><span class="lineage-kind">influenced</span> <a href="cluniac-reform-monasticism.html">Cluniac Reform Monasticism</a> <span class="lineage-confidence">Inferential-Thin</span> — <span class="confidence-note">Oswald Hunter Blair was a Benedictine editor of the Rule. In 1907 he drew on the later customs of Cluny to show how it was lived. Cardinal Gasquet, another Benedictine editor, calls the Rule practically the only rule for monks in the West from the ninth to the twelfth century. He does not name Cluny. This rests on these two editors, not on Cluny&#039;s own texts. No modern study of it has been consulted.</span></li>
+<li id="early-benedictine-italian-monasticism--cistercian-monasticism"><span class="lineage-kind">influenced</span> <a href="cistercian-monasticism.html">Cistercian Monasticism</a> <span class="lineage-confidence">Inferential-Thin</span> — <span class="confidence-note">The monks of Cîteaux set out to keep the Rule of St Benedict more plainly. The tie rests on a 1907 editor of the Rule, not on the early Cistercians&#039; own words. Oswald Hunter Blair notes only that early Cistercian statutes, like the Rule, set times when monks might talk.</span></li>
 </ul>
 </div>
 
