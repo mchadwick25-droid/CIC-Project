@@ -81,4 +81,4 @@ One row per agent pass: the subagent's own token count as the harness reports it
 | Gregories | 6b Card check | Opus | 141,215 | 1 FIX, 1 PASS |
 | Basil, Eunomius, Apollinaris | 6 Card | Sonnet | 359,145 | 1 new, 2 kept with edits |
 | Evagrius, Eusebius, Hilary | 6 Card | Sonnet | 283,106 | 3 kept with additions |
-| Cyril, Epiphanius, Damasus | 6 Card | Sonnet | see notice | 3 kept with edits |
+| Cyril, Epiphanius, Damasus | 6 Card | Sonnet | 412,044 | 3 kept with edits |
