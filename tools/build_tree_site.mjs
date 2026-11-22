@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
+import { slimMap, writeSlimMap } from './slim_map_data.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(ROOT, '.build', 'tree');
@@ -63,11 +64,16 @@ function main() {
   fs.mkdirSync(OUT, { recursive: true });
   const own = copyAll(TREE_FILES);
   const shared = copyAll(SHARED_FILES);
-  const mismatched = [...own, ...shared].filter(([s, d]) => digest(s) !== digest(d));
+  // The committed page holds all the data. The site gets the slim page and the card files (see
+  // tools/slim_map_data.mjs), so its copy of index.html differs from the source by design.
+  const slim = slimMap(fs.readFileSync(path.join(ROOT, 'cft-website', 'index.html'), 'utf8'));
+  writeSlimMap(slim, OUT, false);
+  const page = path.join(OUT, 'index.html');
+  const mismatched = [...own, ...shared].filter(([s, d]) => d !== page && digest(s) !== digest(d));
   for (const [s, d] of mismatched) {
     console.error(`copy differs from its source: ${path.relative(ROOT, d)} <- ${path.relative(ROOT, s)}`);
   }
-  console.log(`tree site: ${own.length} own files, ${shared.length} shared files, ${mismatched.length} mismatched, in ${path.relative(ROOT, OUT)}/`);
+  console.log(`tree site: ${own.length} own files (the map page slimmed, ${Object.keys(slim.entries).length} card files added), ${shared.length} shared files, ${mismatched.length} mismatched, in ${path.relative(ROOT, OUT)}/`);
   if (mismatched.length) process.exit(1);
 }
 

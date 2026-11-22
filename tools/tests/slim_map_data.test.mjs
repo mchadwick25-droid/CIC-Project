@@ -105,3 +105,10 @@ test('the real page: size budget for the page a phone downloads', () => {
   assert.ok(detailMb < 1.6, `the link details are ${detailMb.toFixed(2)} MB; the budget is 1.6 MB`);
   assert.equal(Object.keys(result.entries).length, result.data.movements.length);
 });
+
+test('the real page: the slim copy turns the slim switch on and the committed page leaves it off', () => {
+  assert.equal(html.split('const SLIM_MAP = false;').length, 2);
+  assert.ok(!result.html.includes('const SLIM_MAP = false;'));
+  assert.equal(result.html.split('const SLIM_MAP = true;').length, 2);
+  assert.throws(() => slimMap(html.replace('const SLIM_MAP = false;', ''), config), /SLIM_MAP/);
+});
