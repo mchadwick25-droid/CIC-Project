@@ -5420,3 +5420,17 @@ Mark: "Defer the People layer", then, shown the new profile, chose "Fix the layo
 **Layout reads.** `chromeTop`, `barHeight` and `openingScale` showed about 0.6 s of self time in the profile. Caching the top-bar and feature-bar heights (cleared on resize, on bar size change and when the bar is positioned) was tried on a scratch change: median of five, first names, `main` against the cached version, Wi-Fi 3.9 s and 4.3 s, 4G 4.3 s and 4.3 s, slow 4G 6.0 s and 5.5 s. The runs vary by about 0.6 s and the differences go both ways, so there is no measurable gain. The forced-layout time is mostly real layout work done early, not repeated work. The change was not committed.
 
 **Where that leaves start-up.** On the emulated phone about 1.4 s is the browser's own work (parsing, style, layout, paint of about 9,700 SVG nodes) and the page script's label fitting (three runs, about 1.1 s in total), mark layout, river-name placement and era captions make up most of the rest. Further gains would come from fewer nodes at start or fewer label-fit runs, each a larger change needing Mark's call.
+
+## 2026-11-22 — Phone loading: the first link card was timed, and the card files can now be cached
+
+Mark: "time the first link card and check caching", then "yes, make the header change".
+
+**First link card, live.** Emulated Pixel 5, processor slowed four times, cache off, median of three, a press then a click 80 ms later: Wi-Fi 0.36 s, 4G 0.58 s, slow 4G 1.5 s, 242 KB each. The card opens at its title with "Loading…" and fills when the file arrives; later link cards open at once. Judged acceptable.
+
+**Caching, before.** `/data/entries/*` and `/data/edges-detail.json` were served `no-store` (from the `/data/*` rule in `cft-website/_headers`), so a browser re-downloaded them on every visit. They carry ETags.
+
+**Changed.** Two rules in `cft-website/_headers` (pull request 1781) remove the inherited header with `! Cache-Control` and set `public, max-age=0, must-revalidate` for those paths, as `/assets/*` has: a browser always asks, and an unchanged file costs a "not modified" reply. After a deploy a browser cannot show stale text.
+
+**Checked live after the deploy.** The two paths return a single `public, max-age=0, must-revalidate`; the home page, `/data/world-census.json` and the tree pages stay `no-store`; a request with the ETag gets 304 with no body; and on a repeat visit in one browser the link details cost 0.9 KB instead of 242 KB and a card file 0.9 KB instead of 4.2 KB.
+
+**Not changed.** The home page stays `no-store`, as it was before this work, so every visit still downloads the slim page (about 0.36 MB compressed).
