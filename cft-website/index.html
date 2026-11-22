@@ -164,10 +164,10 @@ svg.who-on #river-names,svg.story-on #river-names{opacity:.2}
 .council{cursor:pointer}
 .council:focus-visible{outline:none}
 .council-hit{fill:transparent;pointer-events:all}
-.council-ring{fill:var(--parchment);stroke:var(--iron-gall);stroke-width:1.6;vector-effect:non-scaling-stroke}
-.council-seat{fill:var(--iron-gall)}
-.council:hover .council-ring,.council:focus-visible .council-ring,.council.is-lit .council-ring{stroke:var(--gold-leaf)}
-.council:hover .council-seat,.council:focus-visible .council-seat,.council.is-lit .council-seat{fill:var(--gold-leaf)}
+.council-ring{fill:var(--parchment);stroke:var(--gold-leaf);stroke-width:2;vector-effect:non-scaling-stroke}
+.council-seat{fill:var(--gold-leaf)}
+.council:hover .council-ring,.council:focus-visible .council-ring,.council.is-lit .council-ring{stroke:var(--iron-gall);stroke-width:2.6}
+.council:hover .council-seat,.council:focus-visible .council-seat,.council.is-lit .council-seat{fill:var(--iron-gall)}
 .council-lbl{font-family:"Alegreya",Georgia,serif;font-size:0.6875rem;fill:var(--iron-gall);
   paint-order:stroke;stroke:var(--parchment);stroke-width:3px;stroke-linejoin:round;user-select:none}
 .council-tie{fill:none;pointer-events:none;stroke-width:1.5;stroke-opacity:.75;vector-effect:non-scaling-stroke}
@@ -131882,22 +131882,26 @@ const MAJOR_BY_TYPE=new Set(['gave rise to','continued as','broke with']);
 const isMajorEdge=e=>MAJOR_BY_TYPE.has(e.type)||(typeof e.outcome==='string'&&e.outcome.trim()!=='');
 const LINK_FAMILY={'gave rise to':'grow','continued as':'grow','influenced':'influence','argued against':'conflict','broke with':'conflict','in contact with':'contact','member of':'contact'};
 const LINK_FAMILY_LABEL={grow:'Grew out of, continued as',influence:'Influenced',conflict:'Argued against, broke with',contact:'In contact with, member of'};
+const EDGE_MARKERS=[], EDGE_MARK_PX=13;
 {
   const defs=el('defs',{});
   const MARK_SHAPES={
     grow:{ref:9,node:()=>el('path',{d:'M0,0 L10,5 L0,10 z',fill:'var(--link-grow)'})},
     influence:{ref:9,node:()=>el('path',{d:'M1,5 L5.5,1 L10,5 L5.5,9 z',fill:'none',stroke:'var(--link-influence)','stroke-width':1.8,'stroke-linejoin':'miter'})},
-    conflict:{ref:7,node:()=>el('path',{d:'M7,-1 L7,11',fill:'none',stroke:'var(--link-conflict)','stroke-width':3.2})},
+    conflict:{ref:9.6,node:()=>el('circle',{cx:5.4,cy:5,r:3.9,fill:'none',stroke:'var(--link-conflict)','stroke-width':1.9})},
     contact:{ref:5,node:()=>el('circle',{cx:5,cy:5,r:4.2,fill:'var(--link-contact)'})}
   };
   Object.keys(LINK_FAMILY_LABEL).forEach(f=>{
-    const mk=el('marker',{id:`arrow-${f}`,viewBox:'0 0 10 10',refX:String(MARK_SHAPES[f].ref),refY:'5',markerWidth:'3.5',markerHeight:'3.5',orient:'auto-start-reverse',overflow:'visible'});
+    const mk=el('marker',{id:`arrow-${f}`,viewBox:'0 0 10 10',refX:String(MARK_SHAPES[f].ref),refY:'5',markerUnits:'userSpaceOnUse',markerWidth:'14',markerHeight:'14',orient:'auto-start-reverse',overflow:'visible'});
     mk.appendChild(MARK_SHAPES[f].node());
-    defs.appendChild(mk);
+    defs.appendChild(mk); EDGE_MARKERS.push({mk,tip:MARK_SHAPES[f].ref});
   });
-  const lineMk=el('marker',{id:'arrow-line',viewBox:'0 0 10 10',refX:'9',refY:'5',markerWidth:'3.5',markerHeight:'3.5',orient:'auto-start-reverse',overflow:'visible'});
+  const argMk=el('marker',{id:'arrow-argued',viewBox:'0 0 10 10',refX:'8',refY:'5',markerUnits:'userSpaceOnUse',markerWidth:'14',markerHeight:'14',orient:'auto-start-reverse',overflow:'visible'});
+  argMk.appendChild(el('path',{d:'M1.5,1 L8,5 L1.5,9',fill:'none',stroke:'var(--link-conflict)','stroke-width':2,'stroke-linecap':'round','stroke-linejoin':'round'}));
+  defs.appendChild(argMk); EDGE_MARKERS.push({mk:argMk,tip:8});
+  const lineMk=el('marker',{id:'arrow-line',viewBox:'0 0 10 10',refX:'10',refY:'5',markerUnits:'userSpaceOnUse',markerWidth:'14',markerHeight:'14',orient:'auto-start-reverse',overflow:'visible'});
   lineMk.appendChild(el('path',{d:'M0,0 L10,5 L0,10 z',fill:'var(--link-line)'}));
-  defs.appendChild(lineMk);
+  defs.appendChild(lineMk); EDGE_MARKERS.push({mk:lineMk,tip:10});
   svg.insertBefore(defs,svg.firstChild);
 }
 const gBands=el('g',{id:'bands'}); gRoot.appendChild(gBands);
@@ -132047,7 +132051,7 @@ function voiceLine(home,row){
   return cut===line?'':cut;
 }
 
-const Z_RIVER_WHO=0.30, Z_BUILT=0.34, Z_COUNCIL=0.45, Z_MAJOR=0.50, Z_COUNCIL_NAME=0.55, Z_STORY=0.65, Z_ALL=0.80,
+const Z_RIVER_WHO=0.30, Z_BUILT=0.34, Z_COUNCIL=0, Z_MAJOR=0.50, Z_COUNCIL_NAME=0.55, Z_STORY=0.65, Z_ALL=0.80,
   Z_READ=0.9, Z_VOICES=1.0, Z_STORY_TITLE=1.24, Z_PLACE=1.54, Z_PEOPLE=1.91, Z_DATES=2.37;
 const RIVER_WHO_MAX=5, TRAD_WHO_MAX=4, WHO_FALLBACK=3;
 const MARK_PX=14, MARK_MAX_PX=18, MARK_MIN_U=10;
@@ -133288,7 +133292,7 @@ function tipFor(m){
 }
 const EDGE_DASH={'Widely Accepted':'6,3','Dominant Modern Reconstruction':'6,3','Contested':'2,3','Inferential-Thin':'1,4'};
 const SYMMETRIC_EDGE_TYPES=new Set(['broke with','in contact with']);
-const linkMarks=(type,fam)=>({'marker-end':`url(#arrow-${fam})`,...(SYMMETRIC_EDGE_TYPES.has(type)?{'marker-start':`url(#arrow-${fam})`}:{})});
+const linkMarks=(type,fam)=>({'marker-end':`url(#arrow-${type==='argued against'?'argued':fam})`,...(SYMMETRIC_EDGE_TYPES.has(type)?{'marker-start':`url(#arrow-${fam})`}:{})});
 function pairLinkNote(aId,bId){
   const other=DATA.edges.find(e=>(e.from===aId&&e.to===bId)||(e.from===bId&&e.to===aId));
   return other?`The checked connection between them is “${esc(other.type)}” (${esc(other.confidence)}), listed above.`:'No connection between them has been drawn and checked yet.';
@@ -134134,8 +134138,8 @@ function buildLegend(){
   const lanes=FAM.filter(f=>laneKeys.includes(f.k));
   let rivers=`<button type="button" class="row" data-toggle="lanes-all" aria-pressed="true"><i style="background:conic-gradient(${lanes.slice(0,6).map((f,i,a)=>`${famColor(f)} ${i/a.length}turn ${(i+1)/a.length}turn`).join(',')})"></i><span class="sw-name">All rivers</span><span class="sw" aria-hidden="true"></span></button>`;
   lanes.forEach(f=>{rivers+=`<button type="button" class="row" data-toggle="lane:${f.k}" aria-pressed="true"><i style="background:${famColor(f)}"></i><span class="sw-name"><b>${esc(f.name)}</b>${f.common?`<small>${esc(f.common)}</small>`:''}</span><span class="sw" aria-hidden="true"></span></button>`;});
-  const KEY_END={grow:'<path d="M20,1 L26,5 L20,9 z" fill="var(--link-grow)"/>',influence:'<path d="M17.5,5 L21.5,1.2 L25.5,5 L21.5,8.8 z" fill="none" stroke="var(--link-influence)" stroke-width="1.5"/>',conflict:'<path d="M24,0 L24,10" stroke="var(--link-conflict)" stroke-width="2.6"/>',contact:'<circle cx="4" cy="5" r="3" fill="var(--link-contact)"/><circle cx="22" cy="5" r="3" fill="var(--link-contact)"/>'};
-  const colorKey=(f)=>`<svg class="linekey" viewBox="0 0 26 10" aria-hidden="true"><line x1="${f==='contact'?4:1}" y1="5" x2="${f==='contact'?22:f==='grow'?20:f==='influence'?17.5:24}" y2="5" stroke="var(--link-${f})" stroke-width="2.4"/>${KEY_END[f]}</svg>`;
+  const KEY_END={grow:'<path d="M20,1 L26,5 L20,9 z" fill="var(--link-grow)"/>',influence:'<path d="M17.5,5 L21.5,1.2 L25.5,5 L21.5,8.8 z" fill="none" stroke="var(--link-influence)" stroke-width="1.5"/>',conflict:'<path d="M19.5,1 L24.5,5 L19.5,9" fill="none" stroke="var(--link-conflict)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="4" cy="5" r="2.9" fill="none" stroke="var(--link-conflict)" stroke-width="1.7"/>',contact:'<circle cx="4" cy="5" r="3" fill="var(--link-contact)"/><circle cx="22" cy="5" r="3" fill="var(--link-contact)"/>'};
+  const colorKey=(f)=>`<svg class="linekey" viewBox="0 0 26 10" aria-hidden="true"><line x1="${f==='contact'||f==='conflict'?4:1}" y1="5" x2="${f==='contact'?22:f==='grow'?20:f==='influence'?17.5:24}" y2="5" stroke="var(--link-${f})" stroke-width="2.4"/>${KEY_END[f]}</svg>`;
   const nMajor=gEdges.querySelectorAll('.edge-line[data-major="1"]').length, nAll=gEdges.querySelectorAll('.edge-line').length;
   let links=`<div class="note">Lines join traditions where the sources record a connection. The color and the mark at the end show the kind of connection. The line's pattern shows how sure the record is. Where a connection has a direction, the mark sits at the end it points to. Where a connection joins two traditions equally, the mark sits at both ends. Click or tap a line to read about the connection and its sources.</div>`;
   links+=`<div class="conn-seg" role="group" aria-label="Which connections to show"><button type="button" data-mode="off">Off</button><button type="button" data-mode="major">Major <span>${nMajor}</span></button><button type="button" data-mode="all">All <span>${nAll}</span></button></div>`;
@@ -134550,6 +134554,14 @@ function syncDepth(){
   if(key!==depthKey){depthKey=key;queueMapSync();}
   [['z-council',Z_COUNCIL],['z-council-name',Z_COUNCIL_NAME],['z-story',Z_STORY],['z-story-title',Z_STORY_TITLE],['z-place',Z_PLACE]].forEach(([c,t])=>svg.classList.toggle(c,scale>=t));
 }
+// End marks keep one size on screen and sit just outside the tradition's house icon, at any zoom.
+function sizeEdgeMarks(U){
+  const m=EDGE_MARK_PX/scale, gap=(U/2+3/scale);
+  EDGE_MARKERS.forEach(({mk,tip})=>{
+    mk.setAttribute('markerWidth',m.toFixed(3)); mk.setAttribute('markerHeight',m.toFixed(3));
+    mk.setAttribute('refX',(tip+10*gap/m).toFixed(3));
+  });
+}
 function labelFitRun(){
   labelFit.queued=false;
   labelFit.extras=[];
@@ -134565,6 +134577,7 @@ function labelFitRun(){
   }
   syncDepth();
   sizeMarks(markU());
+  sizeEdgeMarks(markU());
   const grid=layoutGrid();
   labelFit.grid=grid;
   if(lastOrganic){
