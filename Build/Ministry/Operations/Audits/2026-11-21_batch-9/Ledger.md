@@ -68,3 +68,4 @@ One row per agent pass: the subagent's own token count as the harness reports it
 | Hilary | 5 Revision | Sonnet | 103,653 | 698 words (23 over) |
 | Evagrius | 5 Revision | Sonnet | 100,700 | 673 words |
 | Eusebius of Nicomedia | 5b Story recheck | Opus | 106,520 | PASS |
+| Eunomius | 5b Story recheck | Opus | 99,905 | PASS |

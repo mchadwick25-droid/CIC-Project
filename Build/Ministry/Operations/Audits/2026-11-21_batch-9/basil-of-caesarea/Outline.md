@@ -87,6 +87,9 @@ Line references are to `Source_Sheet.md` rows (S, E, R, P, B, H, Sp, D, I), each
   - "In the crush many died" or "tens of thousands" in the narrator's voice → "Gregory says"; give no number (D6, Or. 43.80).
   - "Gregory never forgave Basil" or "they were never reconciled" → "a pain, Gregory said in his funeral speech, that time had not healed" (B5). The same speech praises Basil.
   - "A council ordered all monasteries to keep Basil's rule" → "the double monasteries already standing" (I3).
+  - The new bishops of Nyssa and Sasima without the rival bishop → tell first that a rival bishop blocked his road with armed men (B4); the new bishops were his answer (B5).
+  - 'In a letter he answered' the attack on his words of praise → 'He answered from what the church already did, and in a letter put it this way'; Letter 159 (about 373) is not his reply to the attackers.
+  - 'Held back the bare words' without 'in writing' and without Gregory's 'he often preached it' → keep both (Sp7, Or. 43.68-69).
 - **Leave out:**
   - Valens's son's illness and death, and Basil's prayer (B3 context; Sozomen and Theodoret): a wonder-tinged side story.
   - Theodoret's report that Valens gave lands for the poor (H5): one witness, 70 years on; card.
