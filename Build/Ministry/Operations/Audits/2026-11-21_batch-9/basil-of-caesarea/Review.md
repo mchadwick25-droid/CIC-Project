@@ -27,7 +27,7 @@ He gave up a career in rhetoric for the ascetic life, wrote the rules that taugh
 
 ### BLOCKING
 
-**B1. Over the cap.** The scorer gives 694 words; the cap is 675. All six cut-first items are already out of the story (E2, the four lands, soup and meat, I9, R4, R2), so no cut-first item remains to pay. The restorations below (B2-B4) add about 37 words, so about 56 words must come from parts the story does not need. A tested ledger (I applied every change below to a scratch copy and scored it: 673 words, grade 7.8, reading ease 76.3):
+**B1. Over the cap.** The scorer gives 694 words; the cap is 675. All six cut-first items are already out of the story (E2, the four lands, soup and meat, I9, R4, R2), so no cut-first item remains to pay. The restorations below (B2-B4) add 37 words, so about 56 words must come from parts the story does not need. A tested ledger (I applied every change below and in B2-B4 to a scratch copy and scored it: 672 words, grade 7.5, reading ease 77.0, longest sentence 31 words):
 - Drop "In a great famine he fed the hungry and tended them himself, Gregory says." Saves 14. (Beat 3; not in the heart. P4 goes to the card.)
 - Replace "Gregory says it stood a little way from the city, filled by the rich at Basil's urging." with "The rich filled it at Basil's urging, Gregory says." Saves 8. (The essence has already placed it "a little way outside the city".)
 - Drop "Then came the fight over the Spirit." Saves 7.
