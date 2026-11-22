@@ -5443,3 +5443,27 @@ Mark: "time the first link card and check caching", then "yes, make the header c
 **Checked live after the deploy.** The two paths return a single `public, max-age=0, must-revalidate`; the home page, `/data/world-census.json` and the tree pages stay `no-store`; a request with the ETag gets 304 with no body; and on a repeat visit in one browser the link details cost 0.9 KB instead of 242 KB and a card file 0.9 KB instead of 4.2 KB.
 
 **Not changed.** The home page stays `no-store`, as it was before this work, so every visit still downloads the slim page (about 0.36 MB compressed).
+
+## 2026-11-22 — Councils show at every zoom and turn gold
+
+Mark: "i notices on the two most out scrolls the counsils are not showing, they should alwasy show if the toggle is on". Then: "go ahead with the council fix and make the icon gold to stand out a little more".
+
+**Root cause.** Council marks drew only once the map was zoomed in past 0.45, whatever the Councils toggle said. On an iPhone 13 (opening zoom 0.39, farthest 0.18) and a 1280-pixel laptop (0.40 and 0.36) the opening view and every zoom-out level sit below that, so no council showed. A 1920-pixel desktop opens at 0.61, so it did not show the fault.
+
+**Decided.** The zoom at which council marks first draw is now 0, so all 12 show at every zoom while the toggle is on, and none show when it is off. Council names still wait for 0.55. The marks are gold (the ring slightly thicker) instead of cream; hover, keyboard focus and a lit council turn the mark cream and thicker, so the state change stays visible.
+
+**Result.** Checked in a browser on an emulated iPhone 13 and a 1280-pixel window: all 12 marks at the opening view and the farthest zoom, none with the toggle off, no page errors.
+
+**Not done.** No real-phone check. The mark in the Councils bar button is unchanged.
+
+## 2026-11-22 — Line end marks made visible; argued against gets an open arrowhead
+
+Mark: "maybe we can put an small arrowhead on them to show which way they the conflict was driven, both ways if it was both ways." Then: "Option 1, open chevron". Then, after the end marks were found hidden: "Option 1, fix all four".
+
+**Found.** The end marks of every kind of line (triangle for descent, diamond for influence, dot for contact, bar for conflict) were drawn at the centre of the tradition's house icon, under it, and were about 4 pixels across, so none could be seen. The Key and Method page already describe them.
+
+**Decided.** Each end mark is drawn at one size on screen (13 pixels) and ends just outside the house icon, recalculated whenever the zoom changes. "Argued against" now ends in a small open red chevron at the end the line points to, away from the critic; the filled triangle stays for descent, so the two are told apart by shape and not by color alone. Where two sides argued against each other, the tree already draws two links, so each end gets its own chevron. "Broke with" has no direction, so it ends in a small open red ring at both ends. Mark first saw the bar and the chevron together, where a pair carries both links, and said "the bar and arrow together looks like an explosion, can we do something else"; the bar was replaced by the ring ("1, the ring"). The Key row and the Method page's Red entry say so.
+
+**Result.** Checked in a browser on desktop and an emulated iPhone 13 at several zooms, no page errors; the Church & Empire fan shows chevrons on the argued-against lines, dots on contact lines, a triangle on descent and a diamond on influence.
+
+**Not done.** No real-phone check. Crowding at hubs is open (Open-Gaps, "Line end marks made visible, and an arrowhead on argued-against lines", 2026-11-22).
