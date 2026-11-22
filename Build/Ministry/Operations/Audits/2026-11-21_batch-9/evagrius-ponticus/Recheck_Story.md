@@ -61,3 +61,6 @@ The gloss comes from Outline line 42 (Words to explain). With the fix, the reach
 - Result: pass.
 
 The grade is under 8. On the listener read it is not flat. The fix moves words without adding any, so the score should not change.
+
+## Applied (coordinator, 2026-11-22)
+The replacements above applied word for word to the brief.

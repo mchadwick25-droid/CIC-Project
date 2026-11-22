@@ -71,3 +71,5 @@ One row per agent pass: the subagent's own token count as the harness reports it
 | Eunomius | 5b Story recheck | Opus | 99,905 | PASS |
 | Basil | 5 Revision | Sonnet | 99,514 | 673 words |
 | Gregory of Nyssa | 5b Story recheck | Opus | 95,219 | FIX, one replacement applied verbatim |
+| Damasus | 5b Story recheck | Opus | 108,310 | FIX, 3 replacements applied verbatim |
+| Evagrius | 5b Story recheck | Opus | 109,776 | FIX, 1 replacement applied verbatim |

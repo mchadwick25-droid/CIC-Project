@@ -51,3 +51,6 @@ The scorer gives **677 words**: grade 7.8 (6.6 with names taken out), reading ea
    This is the outline's own wording ("take to be his", LPD 128201–128202). It saves 2 words.
 
 With all three fixes applied to a scratch copy, the scorer gives **674 words**: grade 7.8 (6.6 with names taken out), reading ease 74.9 with names taken out, pass. Apart from these three, the story passes the recheck.
+
+## Applied (coordinator, 2026-11-22)
+The replacements above applied word for word to the brief.
