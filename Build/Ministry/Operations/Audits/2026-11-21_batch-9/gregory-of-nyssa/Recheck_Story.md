@@ -40,3 +40,6 @@ Why: the sentence before it is "Christ, he writes, frees humanity from evil and 
 ## 4. Score
 
 `python -m engine.m1.profile_readability .../gregory-of-nyssa.brief.txt`: 310 words, grade 9.6 (names out 8.2), reading ease (names out) 69.1, 18.2 words a sentence, longest sentence 33 words. **Pass.** The fix above does not change the word count.
+
+## Applied (coordinator, 2026-11-22)
+The replacement above applied word for word to `gregory-of-nyssa.brief.txt`.
