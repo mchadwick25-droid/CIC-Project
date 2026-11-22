@@ -140,6 +140,8 @@ The listener must know: almost every witness opposed him. No doubt is itself the
 - "Gregory of Nazianzus said, 'What is not assumed is not healed'" as a quote. Tell it in the narrator's words, credited to Gregory.
 - "His writings were forgotten" or "as if never written" about his books in general. Say: Socrates said this of the poems and dialogues written under Julian.
 - "Apollinarius". The tree spells it "Apollinaris".
+- Gregory of Nazianzus's answer told with the teaching, before Jerome's lectures and the Roman council. Say it in its time: after 381.
+- 'a confession to the emperor Jovian'. Say 'a statement of faith to the emperor Jovian'.
 - Apollinaris of Hierapolis, a second-century bishop, is a different man (SOZ-ENG 36720-36722). Do not mix them.
 - "His banned followers forged the names to escape the laws." Say: some who shared his views but stayed in the main church put the names on (LIETZ 4151-4157); no source ties it to the laws.
 - "Women sang his hymns in church." Sozomen says at the loom; the church songs are "metrical songs" besides the customary order.
