@@ -5373,3 +5373,17 @@ Mark: "try the audio manifests idle load".
 **Result.** No gain. Emulated Pixel 5, processor slowed four times, cache off, median of five, first names: Wi-Fi 4.9 s, 4G 5.2 s, slow 4G 6.9 s, against 4.3, 4.4 and 6.0 s without it (three runs each; the runs vary by about 1 s). Bytes at that point fell from about 0.55 MB to 0.45 MB on slow 4G, but time did not follow: the drawing work after the page arrives sets the pace.
 
 **Decided.** Not shipped; the code was not committed. The next gain has to come from the drawing work or from the page's start-up script, not from the manifests.
+
+## 2026-11-22 — Phone loading: the start-up drawing work, safe fixes first
+
+Mark chose "Safe fixes first" from three scopes (safe fixes; safe fixes plus a deferred People layer; fewer SVG nodes).
+
+**Found.** A processor profile of start-up on the emulated phone (network out of the picture) showed about 5 s of work: about 1.6 s the browser's own parsing, style and paint, and about 2.8 s the page's start-up script. Inside the script, label fitting ran 4 times, river names were placed 4 times, era captions pinned 5 times, `rectsOverlap` was called about 867,000 times and `concurrentCount` about 160,000 times, and the People list, tray and 451 people marks were built while People was off and the tray hidden.
+
+**Changed (four fixes, no change to what the map shows).** (1) `concurrentCount` counts lane members by binary search on sorted starts and ends; it matched the old count on every lane and year tried (0 mismatches) and runs about 7 times faster. (2) The mark collision test checks a bounding box first; the calls to `rectsOverlap` fall from about 867,000 to about 60,000. (3) The first label fit at start-up, which a scheduled fit repeats, is skipped. (4) `renderTray` no longer re-applies the map transform when the tray was hidden and stays hidden.
+
+**Proof.** The whole SVG, every mark position, the lane samples and the tray state are identical to the previous page at the opening view and after zoom, People, Stories and who-list open and close, at 1440 px and on the emulated phone (0 differences in 14 comparisons). The full page and slim page still give identical cards on all 1,231 comparisons. Screenshots: 12 of 14 are pixel-identical straight away; the desktop who-list one differed only because it was taken sooner and is identical when taken later; the phone opening view differs by 11 antialiased pixels at one river edge, with the DOM identical (a raster difference, not a layout one). Tests: slim-data and worker pass; the map-view test's two known iPhone failures are unchanged.
+
+**Timings.** Emulated Pixel 5, processor slowed four times, cache off, median of five, first names, previous page against this one: Wi-Fi 4.7 s to 3.8 s; 4G 4.7 s to 3.9 s; slow 4G 6.3 s to 5.4 s. The estimate (about 3 s and about 5 s) is not yet met.
+
+**Not done, still open.** Building the People list and marks only when used (about 0.7 s, changes when elements exist); fewer SVG nodes at start (the map is about 9,700 nodes; the largest gain on the browser's 1.6 s, and the riskiest); the tour's per-frame placement (about 0.1 s).
