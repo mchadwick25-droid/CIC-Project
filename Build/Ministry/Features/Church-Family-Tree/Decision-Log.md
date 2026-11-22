@@ -5410,7 +5410,7 @@ Mark: "Build C, lime for one step and forest for the full line." On the first ma
 
 **Result.** Tested in a browser on desktop and an emulated iPhone 13 with no page errors. On the longest tested line (Syriac Edessa, 14 traditions) the labels name the next traditions down the line and each tap moves one step along it.
 
-**Not done.** No real-phone test. No test with colorblind readers (Open-Gaps 363). A general "show all connections" setting on phones was not asked for and stays off.
+**Not done.** No real-phone test. No test with colorblind readers (Open-Gaps, "Family line view built: option C", 2026-11-22). A general "show all connections" setting on phones was not asked for and stays off.
 ## 2026-11-22 — Phone loading: deferring the People layer and caching layout reads were checked and dropped
 
 Mark: "Defer the People layer", then, shown the new profile, chose "Fix the layout reads instead".
