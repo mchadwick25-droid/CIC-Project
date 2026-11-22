@@ -54,3 +54,9 @@ One row per agent pass: the subagent's own token count as the harness reports it
 | Cyril | 4 Review | Opus | 131,464 | REVISE, 2 blocking |
 | Epiphanius | 4 Review | Opus | 146,363 | REVISE, 4 blocking |
 | Apollinaris | 5 Revision | Sonnet | 97,671 | 671 words |
+| Eusebius of Nicomedia | 5 Revision | Sonnet | 96,736 | 673 words |
+| Evagrius | 4 Review | Opus | 138,001 | REVISE, 3 blocking |
+| Hilary | 4 Review | Opus | 141,689 | REVISE, 5 blocking |
+| Gregory of Nyssa | 4 Review | Opus | 135,071 | REVISE, 1 blocking |
+| Damasus | 5 Revision | Sonnet | 90,749 | 677 words |
+| Eunomius | 5 Revision | Sonnet | 105,272 | 675 words |

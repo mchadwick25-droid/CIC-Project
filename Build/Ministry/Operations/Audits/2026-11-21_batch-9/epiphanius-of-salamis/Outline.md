@@ -143,6 +143,8 @@ File short names and full paths are in `Source_Sheet.md` (top). Item codes (S1, 
 - "Three books." The counts differ (three, seven, six); say only "eighty heresies".
 - "He founded a monastery near Eleutheropolis." Say: he lived as a monk near his birthplace; Jerome calls his house there "the old monastery".
 - "The Panarion is reliable" or "fair." It is a foe's account; say so if its reports are told.
+- "Augustine counted twenty heresies before Christ and sixty after." Say: Augustine reports that Epiphanius counted twenty before Christ and sixty after (AUG 2420-2424).
+- "He copied his opponents' writings so no one could say he answered hearsay." Say: some heresies he knew by hearsay, he says; he copied an opponent's own writing so that no one could say he answered from hearsay alone (HOLL1 13426-13430; 34006-34011).
 - "Wonders happened at his tomb." Say: Sozomen says it was said.
 - "Ammonius proved him wrong." Say: Sozomen says he was "measurably convinced" and sent them away.
 - "He died in 403 on the way to Cyprus." Say: he died at sea before he reached Cyprus.
