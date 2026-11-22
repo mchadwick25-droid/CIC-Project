@@ -4043,3 +4043,5 @@ They are not rewritten now. Each is recorded, and a rewrite would mean recording
     - **Open.** Build the People list and marks only when used (about 0.7 s); fewer SVG nodes at start (largest, riskiest); the tour's per-frame placement (about 0.1 s). Each needs Mark's call.
     - **Open, small.** The phone opening view differs from the previous page by 11 antialiased pixels at one river edge, DOM identical. Owner: the site thread.
     - Owner: the site thread, when Mark calls for it.
+362. **Phone loading: start-up fixes live (2026-11-22).** This updates "Phone loading: start-up drawing work, safe fixes made" (2026-11-22). Merged and deployed; live first names 4.3 s (Wi-Fi), 4.2 s (4G) and 6.4 s (slow 4G) on an emulated phone, from 4.7, 5.2 and 6.8 s before (Decision-Log, "Phone loading: the start-up fixes are merged and live", 2026-11-22).
+    - **Open.** The estimate (about 3 s, about 5 s) is not met. Next, each Mark's call: the People list and marks built only when used; fewer SVG nodes at start; the tour's per-frame placement. Owner: the site thread, when Mark calls for it.

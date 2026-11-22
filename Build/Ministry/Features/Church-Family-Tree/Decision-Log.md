@@ -5387,3 +5387,13 @@ Mark chose "Safe fixes first" from three scopes (safe fixes; safe fixes plus a d
 **Timings.** Emulated Pixel 5, processor slowed four times, cache off, median of five, first names, previous page against this one: Wi-Fi 4.7 s to 3.8 s; 4G 4.7 s to 3.9 s; slow 4G 6.3 s to 5.4 s. The estimate (about 3 s and about 5 s) is not yet met.
 
 **Not done, still open.** Building the People list and marks only when used (about 0.7 s, changes when elements exist); fewer SVG nodes at start (the map is about 9,700 nodes; the largest gain on the browser's 1.6 s, and the riskiest); the tour's per-frame placement (about 0.1 s).
+
+## 2026-11-22 — Phone loading: the start-up fixes are merged and live
+
+Mark: "Converged, auto mode: merge it".
+
+**Done.** Pull request 1777 merged (all CI checks green). The new code is live on `www.churchfamilytree.com`. A card, a link card and a deep link to Donatism open on the live page with no errors, and the Donatism card is full.
+
+**Live timings.** Same emulated Pixel 5, processor slowed four times, cache off, median of five, first names, over the real network: Wi-Fi 4.3 s, 4G 4.2 s, slow 4G 6.4 s. The live page before these fixes measured 4.7, 5.2 and 6.8 s. The gain live (about 0.4 to 1.0 s) is smaller than on the local server (about 0.8 to 0.9 s, 4.7 to 3.8 s on Wi-Fi), and the live runs vary by about 1 s, so the two do not clearly differ. Tapping a mark to a filled card: 0.36 to 0.45 s.
+
+**Still open.** The estimate (about 3 s on Wi-Fi, about 5 s on slow 4G) is not met. Next options, each Mark's call: build the People list and marks only when used (about 0.7 s); fewer SVG nodes at start; the tour's per-frame placement.
