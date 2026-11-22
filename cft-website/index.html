@@ -348,6 +348,13 @@ svg.conn-focus #nodes .node:not(.conn-end),svg.conn-focus #stories,svg.conn-focu
 svg.conn-focus #nodes .node.conn-end{display:inline!important}
 svg.conn-focus .who-pill,svg.conn-focus #who-auto,svg.conn-focus #who-far{display:none!important}
 svg.conn-focus .edge-line.conn-lit{opacity:1!important}
+#peekStrip{position:fixed;z-index:23;left:.5rem;right:.5rem;bottom:calc(var(--bar-h,56px) + .5rem)}
+#peekStrip[hidden]{display:none}
+#peekStrip .pk-open{display:flex;justify-content:space-between;align-items:center;gap:.8rem;width:100%;min-height:52px;box-sizing:border-box;padding:0 1rem;background:var(--vellum);border:1px solid var(--gold-leaf);border-radius:12px;box-shadow:var(--shadow);color:var(--iron-gall);font:700 1.05rem "Alegreya Sans",sans-serif;cursor:pointer}
+#peekStrip .pk-t{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#peekStrip .pk-go{color:var(--gold-leaf);white-space:nowrap}
+#peekStrip .pk-open:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
+body.has-peek #zoomHint{display:none}
 #edgeChips{position:fixed;inset:0;z-index:21;pointer-events:none}
 #edgeChips button{position:fixed;pointer-events:auto;display:flex;align-items:center;gap:.3rem;min-height:44px;max-width:min(20rem,calc(100vw - 1.2rem));box-sizing:border-box;padding:0 .4rem;background:none;border:0;border-radius:6px;color:var(--ec,var(--link-line));font:700 .95rem "Alegreya Sans",sans-serif;text-shadow:0 0 3px var(--parchment),0 0 3px var(--parchment),0 0 6px var(--parchment);cursor:pointer}
 #edgeChips button[data-side="right"]{flex-direction:row-reverse}
@@ -641,6 +648,7 @@ svg.strip-on #era-labels{display:none}
   <div class="tray-body"></div>
 </aside>
 <div id="edgeChips"></div>
+<div id="peekStrip" hidden><button type="button" class="pk-open"><span class="pk-t"></span><span class="pk-go">Open card</span></button></div>
 <div id="connChip" hidden><button type="button" class="cc-x"><span class="cc-t"></span><span aria-hidden="true">&times;</span></button><ul class="cc-key"><li class="cc-line"><i style="background:var(--link-line)"></i>Direct line: grew out of, continued as</li><li><i style="background:var(--link-grow)"></i>Grew out of, continued as</li><li><i style="background:var(--link-influence)"></i>Influenced</li><li><i style="background:var(--link-conflict)"></i>Argued against, broke with</li><li><i style="background:var(--link-contact)"></i>In contact with, member of</li></ul></div>
 <div id="barToast" aria-hidden="true"></div>
 <div id="tourRing" hidden></div>
@@ -133997,6 +134005,7 @@ function showPanel(page){
   panel.classList.add('open');
   panel.removeAttribute('inert');
   document.getElementById('panelClose').focus();
+  if(connFocus)syncPeek();
 }
 function closePanel(keepListening){
   pendingCard=null;
@@ -134010,6 +134019,7 @@ function closePanel(keepListening){
   lastFocused=null;
   syncWorldURL(null);
   if(playing)showListenBar(playing);
+  if(connFocus)syncPeek();
 }
 const listenBar=document.getElementById('listenBar');
 const listen={audio:null,stop:null,pin:null,world:null};
@@ -134233,6 +134243,7 @@ function buildLegend(){
 
 const connChip=document.getElementById('connChip');
 const edgeChips=document.getElementById('edgeChips');
+const peekStrip=document.getElementById('peekStrip');
 const connSel=id=>`.edge-line[data-via~="${CSS.escape(id)}"],.edge-hit[data-via~="${CSS.escape(id)}"]`;
 function familyLine(m){
   const ids=new Set([m.id]), pairs=new Set();
@@ -134270,7 +134281,7 @@ function clearConnections(){
   const m=connFocus;
   document.querySelectorAll('.conn-lit').forEach(l=>l.classList.remove('is-lit','conn-lit'));
   gNodes.querySelectorAll('.node.conn-end').forEach(g=>g.classList.remove('conn-end'));
-  connFocus=null; connEnds=null; connLine=false; connLinePairs=null; edgeSamples=null; drawEdgeChips(); svg.classList.remove('conn-focus','line-focus'); connChip.classList.remove('is-line'); connChip.hidden=true;
+  connFocus=null; connEnds=null; connLine=false; connLinePairs=null; edgeSamples=null; syncPeek(); drawEdgeChips(); svg.classList.remove('conn-focus','line-focus'); connChip.classList.remove('is-line'); connChip.hidden=true;
   scheduleLabelFit();
   announce('Connections cleared.');
   returnFocus(gNodes.querySelector(`.node[data-id="${CSS.escape(m.id)}"]`),[connChip]);
@@ -134280,9 +134291,10 @@ function showConnections(m,line){
   lastFocused=null; closePanel();
   connFocus=m; connLine=!!line; connLinePairs=connLine?familyLine(m):null; lightConnections();
   svg.classList.add('conn-focus'); svg.classList.toggle('line-focus',connLine); connChip.classList.toggle('is-line',connLine);
+  syncPeek();
   const narrow=narrowScreen();
   const pts=[...connEnds].map(id=>byId[id]).filter(o=>o&&o._x!=null), xs=pts.map(o=>o._x), ys=pts.map(o=>o._y);
-  const top=topInset()+56, vw=window.innerWidth-(narrow?70:120), vh=window.innerHeight-top-(narrow?barHeight()+40:40);
+  const top=topInset()+56, vw=window.innerWidth-(narrow?70:120), vh=window.innerHeight-top-(narrow?barHeight()+40:40)-peekHeight();
   let x0=Math.min(...xs)-30, x1=Math.max(...xs)+170, y0=Math.min(...ys)-20, y1=Math.max(...ys)+20;
   scale=Math.max(0.4,Math.min(scale,1.1,vw/Math.max(1,x1-x0),vh/Math.max(1,y1-y0)));
   if((y1-y0)*scale>vh){y0=m._y-vh*.35/scale;y1=m._y+vh*.65/scale;}
@@ -134303,6 +134315,22 @@ function showConnections(m,line){
   tourOfferConn();
 }
 connChip.querySelector('.cc-x').addEventListener('click',clearConnections);
+// On a phone the card covers the map, so Connections and Family line close it and leave a strip to open it again.
+function peekHeight(){return peekStrip.hidden?0:peekStrip.offsetHeight+8;}
+function syncPeek(){
+  const show=narrowScreen()&&!!connFocus&&!panel.classList.contains('open')&&!(typeof tour!=='undefined'&&tour.on);
+  if(show){
+    const nm=connFocus.shortName||connFocus.name;
+    peekStrip.querySelector('.pk-t').textContent=nm;
+    peekStrip.querySelector('.pk-open').setAttribute('aria-label',`Open the card for ${nm}`);
+  }
+  peekStrip.hidden=!show;
+  document.body.classList.toggle('has-peek',show);
+  scheduleEdgeChips();
+}
+peekStrip.querySelector('.pk-open').addEventListener('click',()=>{if(connFocus)openPanel(connFocus);});
+window.addEventListener('resize',()=>{if(connFocus)syncPeek();});
+['pointerdown','wheel','touchstart'].forEach(ev=>peekStrip.addEventListener(ev,e=>e.stopPropagation(),{passive:true}));
 // Where a lit line runs past the screen edge, its end continues as a label in the line's colour at the
 // crossing point, naming the tradition beyond. Tapping the label moves the map there.
 let edgeChipRaf=0, edgeGlide=0;
@@ -134312,7 +134340,7 @@ function edgeChipBounds(){
   const card=panel.classList.contains('open')?panel.getBoundingClientRect():null;
   let R=window.innerWidth-8;
   if(card&&card.left>window.innerWidth/2)R=card.left-8;
-  return {L:8,R,T:topInset()+8,B:window.innerHeight-barHeight()-8,hide:!!(card&&narrowScreen())};
+  return {L:8,R,T:topInset()+8,B:window.innerHeight-barHeight()-8-peekHeight(),hide:!!(card&&narrowScreen())};
 }
 function edgeLineSamples(){
   if(edgeSamples)return edgeSamples;
