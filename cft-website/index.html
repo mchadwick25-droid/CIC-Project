@@ -349,13 +349,11 @@ svg.conn-focus #nodes .node.conn-end{display:inline!important}
 svg.conn-focus .who-pill,svg.conn-focus #who-auto,svg.conn-focus #who-far{display:none!important}
 svg.conn-focus .edge-line.conn-lit{opacity:1!important}
 #edgeChips{position:fixed;inset:0;z-index:21;pointer-events:none}
-#edgeChips button{position:fixed;pointer-events:auto;display:flex;align-items:center;gap:.45rem;min-height:44px;max-width:min(22rem,calc(100vw - 1.6rem));box-sizing:border-box;padding:0 .85rem;background:var(--vellum);color:var(--iron-gall);border:1px solid var(--gold-leaf);border-radius:999px;box-shadow:var(--shadow);font:700 .95rem "Alegreya Sans",sans-serif;cursor:pointer}
-#edgeChips button[hidden]{display:none}
+#edgeChips button{position:fixed;pointer-events:auto;display:flex;align-items:center;gap:.3rem;min-height:44px;max-width:min(20rem,calc(100vw - 1.2rem));box-sizing:border-box;padding:0 .4rem;background:none;border:0;border-radius:6px;color:var(--ec,var(--link-line));font:700 .95rem "Alegreya Sans",sans-serif;text-shadow:0 0 3px var(--parchment),0 0 3px var(--parchment),0 0 6px var(--parchment);cursor:pointer}
+#edgeChips button[data-side="right"]{flex-direction:row-reverse}
 #edgeChips button .t{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-#edgeChips button .ar{font-size:1.15rem;line-height:1}
-#edgeChips.is-line button{border-color:var(--link-line)}
-#edgeChips.is-line button .ar{color:var(--link-line)}
-#edgeChips button:hover{border-color:var(--iron-gall)}
+#edgeChips button .ar{font-size:1.3rem;line-height:1}
+#edgeChips button:hover .t{text-decoration:underline}
 #edgeChips button:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
 svg.line-focus .edge-line.conn-lit{stroke:var(--link-line);stroke-width:2.4;marker-end:url(#arrow-line)}
 #connChip.is-line .cc-key li:not(.cc-line){display:none}
@@ -642,7 +640,7 @@ svg.strip-on #era-labels{display:none}
   <div class="tray-sort" role="group" aria-label="Order of the list"><button type="button" data-sort="date" aria-pressed="true">By date</button><button type="button" data-sort="trad" aria-pressed="false">By tradition</button></div>
   <div class="tray-body"></div>
 </aside>
-<div id="edgeChips" class="is-line"><button type="button" data-side="up" hidden></button><button type="button" data-side="down" hidden></button><button type="button" data-side="left" hidden></button><button type="button" data-side="right" hidden></button></div>
+<div id="edgeChips"></div>
 <div id="connChip" hidden><button type="button" class="cc-x"><span class="cc-t"></span><span aria-hidden="true">&times;</span></button><ul class="cc-key"><li class="cc-line"><i style="background:var(--link-line)"></i>Direct line: grew out of, continued as</li><li><i style="background:var(--link-grow)"></i>Grew out of, continued as</li><li><i style="background:var(--link-influence)"></i>Influenced</li><li><i style="background:var(--link-conflict)"></i>Argued against, broke with</li><li><i style="background:var(--link-contact)"></i>In contact with, member of</li></ul></div>
 <div id="barToast" aria-hidden="true"></div>
 <div id="tourRing" hidden></div>
@@ -134088,7 +134086,7 @@ const BAR_ICON={
 };
 const barIcon=k=>`<svg class="bar-ico" viewBox="0 0 20 20" width="20" height="20" aria-hidden="true" focusable="false">${BAR_ICON[k]}</svg>`;
 const LINK_MODES=['off','major','all'];
-let linkMode='off', connFocus=null, connEnds=null, connLine=false, connLinePairs=null;
+let linkMode='off', connFocus=null, connEnds=null, connLine=false, connLinePairs=null, edgeSamples=null;
 const kindsOff=new Set();
 const effectiveLinkMode=()=>narrowScreen()?'off':linkMode;
 function connectionCount(id){return gEdges.querySelectorAll(`.edge-line[data-via~="${CSS.escape(id)}"]`).length;}
@@ -134255,6 +134253,7 @@ function familyLine(m){
   return {ids,pairs};
 }
 function lightConnections(){
+  edgeSamples=null;
   document.querySelectorAll('.conn-lit').forEach(l=>l.classList.remove('is-lit','conn-lit'));
   if(connLine){
     connEnds=new Set(connLinePairs.ids);
@@ -134271,7 +134270,7 @@ function clearConnections(){
   const m=connFocus;
   document.querySelectorAll('.conn-lit').forEach(l=>l.classList.remove('is-lit','conn-lit'));
   gNodes.querySelectorAll('.node.conn-end').forEach(g=>g.classList.remove('conn-end'));
-  connFocus=null; connEnds=null; connLine=false; connLinePairs=null; drawEdgeChips(); svg.classList.remove('conn-focus','line-focus'); connChip.classList.remove('is-line'); connChip.hidden=true;
+  connFocus=null; connEnds=null; connLine=false; connLinePairs=null; edgeSamples=null; drawEdgeChips(); svg.classList.remove('conn-focus','line-focus'); connChip.classList.remove('is-line'); connChip.hidden=true;
   scheduleLabelFit();
   announce('Connections cleared.');
   returnFocus(gNodes.querySelector(`.node[data-id="${CSS.escape(m.id)}"]`),[connChip]);
@@ -134304,9 +134303,10 @@ function showConnections(m,line){
   tourOfferConn();
 }
 connChip.querySelector('.cc-x').addEventListener('click',clearConnections);
-// A lit line that runs past the screen edge gets a chip on that edge naming the nearest tradition beyond it.
+// Where a lit line runs past the screen edge, its end continues as a label in the line's colour at the
+// crossing point, naming the tradition beyond. Tapping the label moves the map there.
 let edgeChipRaf=0, edgeGlide=0;
-const EDGE_ARROW={up:'\u2191',down:'\u2193',left:'\u2190',right:'\u2192'};
+const EDGE_ARROW={up:'↑',down:'↓',left:'←',right:'→'};
 function scheduleEdgeChips(){if(!edgeChipRaf)edgeChipRaf=requestAnimationFrame(()=>{edgeChipRaf=0;drawEdgeChips();});}
 function edgeChipBounds(){
   const card=panel.classList.contains('open')?panel.getBoundingClientRect():null;
@@ -134314,39 +134314,76 @@ function edgeChipBounds(){
   if(card&&card.left>window.innerWidth/2)R=card.left-8;
   return {L:8,R,T:topInset()+8,B:window.innerHeight-barHeight()-8,hide:!!(card&&narrowScreen())};
 }
-function drawEdgeChips(){
-  const btns=[...edgeChips.querySelectorAll('button')];
-  const off=()=>btns.forEach(b=>{b.hidden=true;b._node=null;});
-  if(!connFocus||!connEnds||(typeof tour!=='undefined'&&tour.on)){off();return;}
-  const bd=edgeChipBounds(); if(bd.hide){off();return;}
-  edgeChips.classList.toggle('is-line',connLine);
-  const sides={up:[],down:[],left:[],right:[]};
-  connEnds.forEach(id=>{
-    const o=byId[id]; if(!o||o._x==null||id===connFocus.id)return;
-    const sx=tx+o._x*scale, sy=ty+o._y*scale;
-    const dl=bd.L-sx, dr=sx-bd.R, du=bd.T-sy, dd=sy-bd.B, m=Math.max(dl,dr,du,dd);
-    if(m<=0)return;
-    sides[m===du?'up':m===dd?'down':m===dl?'left':'right'].push({o,sx,sy,d:m});
+function edgeLineSamples(){
+  if(edgeSamples)return edgeSamples;
+  edgeSamples=[];
+  document.querySelectorAll('.edge-line.conn-lit').forEach(el=>{
+    const len=el.getTotalLength(), pts=[];
+    for(let i=0;i<=48;i++){const q=el.getPointAtLength(len*i/48);pts.push([q.x,q.y]);}
+    edgeSamples.push({el,from:el.dataset.from,to:el.dataset.to,pts});
   });
+  return edgeSamples;
+}
+function edgeCrossings(bd){
+  const out=[], inside=(x,y)=>x>=bd.L&&x<=bd.R&&y>=bd.T&&y<=bd.B;
+  const sideOf=(x,y)=>{const dl=bd.L-x,dr=x-bd.R,du=bd.T-y,dd=y-bd.B,m=Math.max(dl,dr,du,dd);return m===du?'up':m===dd?'down':m===dl?'left':'right';};
+  edgeLineSamples().forEach(s=>{
+    const P=s.pts.map(([x,y])=>[tx+x*scale,ty+y*scale]), ok=P.map(([x,y])=>inside(x,y));
+    for(let i=0;i<P.length-1;i++){
+      if(ok[i]===ok[i+1])continue;
+      const a=P[i], b=P[i+1], inI=ok[i]?a:b, outI=ok[i]?b:a, forward=ok[i];
+      const target=forward?s.to:s.from, tn=byId[target];
+      if(!tn||tn._x==null)continue;
+      const tsx=tx+tn._x*scale, tsy=ty+tn._y*scale;
+      if(inside(tsx,tsy))continue;
+      let lo=0, hi=1;
+      for(let k=0;k<12;k++){const m=(lo+hi)/2, x=inI[0]+(outI[0]-inI[0])*m, y=inI[1]+(outI[1]-inI[1])*m; if(inside(x,y))lo=m; else hi=m;}
+      const x=inI[0]+(outI[0]-inI[0])*lo, y=inI[1]+(outI[1]-inI[1])*lo;
+      out.push({id:target,node:tn,x,y,side:sideOf(outI[0],outI[1]),el:s.el});
+    }
+  });
+  return out;
+}
+const edgeButtons=[];
+function drawEdgeChips(){
+  const hideAll=()=>edgeButtons.forEach(b=>{b.hidden=true;b._node=null;});
+  if(!connFocus||!connEnds||(typeof tour!=='undefined'&&tour.on)){hideAll();return;}
+  const bd=edgeChipBounds(); if(bd.hide){hideAll();return;}
+  const groups=[];
+  ['up','down','left','right'].forEach(side=>{
+    const horiz=side==='up'||side==='down', key=c=>horiz?c.x:c.y, gap=horiz?190:34;
+    const list=edgeCrossings(bd).filter(c=>c.side===side).sort((a,b)=>key(a)-key(b));
+    list.forEach(c=>{
+      const g=groups.find(g=>g.side===side&&Math.abs(key(g.items[0])-key(c))<gap);
+      if(g){if(!g.ids.has(c.id)){g.ids.add(c.id);g.items.push(c);}}
+      else groups.push({side,ids:new Set([c.id]),items:[c]});
+    });
+  });
+  groups.sort((a,b)=>b.ids.size-a.ids.size);
+  const shown=groups.slice(0,8);
+  while(edgeButtons.length<shown.length){
+    const b=document.createElement('button'); b.type='button';
+    b.addEventListener('click',()=>{if(b._node)glideToNode(b._node);});
+    edgeChips.appendChild(b); edgeButtons.push(b);
+  }
   const chipBox=connChip.hidden?null:connChip.getBoundingClientRect(), zoom=document.getElementById('zoomCtl'), zr=zoom?zoom.getBoundingClientRect():null;
-  btns.forEach(b=>{
-    const side=b.dataset.side, list=sides[side].sort((a,c)=>a.d-c.d);
-    if(!list.length){b.hidden=true;b._node=null;return;}
-    const near=list[0], name=near.o.shortName||near.o.name, n=list.length;
-    const label=n===1?name:`${name} and ${n-1} more`;
-    b._node=near.o;
-    b.innerHTML=`<span class="ar" aria-hidden="true">${EDGE_ARROW[side]}</span><span class="t">${esc(label)}</span>`;
-    b.setAttribute('aria-label',`${label}, off the ${side==='up'?'top':side==='down'?'bottom':side} edge of the map. Go there.`);
+  edgeButtons.forEach((b,i)=>{
+    const g=shown[i]; if(!g){b.hidden=true;b._node=null;return;}
+    const c=g.items[0], n=g.ids.size, name=c.node.shortName||c.node.name, label=n===1?name:`${name} and ${n-1} more`;
+    b._node=c.node; b.dataset.side=g.side;
+    b.style.setProperty('--ec',connLine?'var(--link-line)':`var(--link-${c.el.dataset.family||'contact'})`);
+    b.innerHTML=`<span class="ar" aria-hidden="true">${EDGE_ARROW[g.side]}</span><span class="t">${esc(label)}</span>`;
+    b.setAttribute('aria-label',`${label}, past the ${g.side==='up'?'top':g.side==='down'?'bottom':g.side} edge of the map. Go there.`);
     b.hidden=false;
-    const w=b.offsetWidth, h=b.offsetHeight;
-    let x, y;
-    if(side==='up'||side==='down'){
-      x=Math.max(bd.L,Math.min(near.sx-w/2,bd.R-w));
-      y=side==='up'?Math.max(bd.T,chipBox?chipBox.bottom+8:bd.T):bd.B-h;
+    const w=b.offsetWidth, h=b.offsetHeight; let x,y;
+    if(g.side==='up'||g.side==='down'){
+      x=Math.max(bd.L-8,Math.min(c.x-14,bd.R-w+8));
+      y=g.side==='down'?c.y-h/2-14:c.y-h/2+14;
+      if(g.side==='up'&&chipBox&&x<chipBox.right&&x+w>chipBox.left&&y<chipBox.bottom)y=chipBox.bottom+4;
     }else{
-      y=Math.max(bd.T+60,Math.min(near.sy-h/2,bd.B-h-8));
-      x=side==='left'?bd.L:bd.R-w;
-      if(side==='right'&&zr&&zr.width&&y<zr.bottom&&y+h>zr.top&&x+w>zr.left)x=zr.left-8-w;
+      y=c.y-h/2;
+      x=g.side==='left'?c.x-6:c.x-w+6;
+      if(g.side==='right'&&zr&&zr.width&&y<zr.bottom&&y+h>zr.top&&x+w>zr.left)x=zr.left-6-w;
     }
     b.style.left=x+'px'; b.style.top=y+'px';
   });
@@ -134365,7 +134402,6 @@ function glideToNode(o){
   };
   edgeGlide=requestAnimationFrame(f);
 }
-edgeChips.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{if(b._node)glideToNode(b._node);}));
 ['pointerdown','wheel','touchstart'].forEach(ev=>edgeChips.addEventListener(ev,e=>e.stopPropagation(),{passive:true}));
 document.addEventListener('keydown',ev=>{if(ev.key==='Escape'&&!ev.defaultPrevented&&connFocus&&!panel.classList.contains('open'))clearConnections();});
 ['pointerdown','wheel','touchstart'].forEach(t=>connChip.addEventListener(t,ev=>ev.stopPropagation(),{passive:true}));
