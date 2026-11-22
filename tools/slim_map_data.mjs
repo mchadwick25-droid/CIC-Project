@@ -6,6 +6,7 @@ import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const MARKER = 'const DATA = ';
+const SLIM_FLAG = ['const SLIM_MAP = false;', 'const SLIM_MAP = true;'];
 
 export function findDataLiteral(html) {
   const at = html.indexOf(MARKER);
@@ -129,7 +130,8 @@ export function slimMap(html, config = loadConfig()) {
       });
     } else throw new Error(`"${key}" is in the data but in none of the field lists`);
   }
-  const slimHtml = html.slice(0, start) + JSON.stringify(slimData) + html.slice(end);
+  if (html.split(SLIM_FLAG[0]).length !== 2) throw new Error(`the page must hold "${SLIM_FLAG[0]}" exactly once`);
+  const slimHtml = (html.slice(0, start) + JSON.stringify(slimData) + html.slice(end)).replace(SLIM_FLAG[0], SLIM_FLAG[1]);
   return { html: slimHtml, entries, edgesDetail, data, slimData };
 }
 
@@ -162,17 +164,22 @@ function stats(result) {
   };
 }
 
-function main() {
-  const outDir = path.resolve(ROOT, process.argv[2] || '.build/tree-slim');
-  const html = fs.readFileSync(path.join(ROOT, 'cft-website', 'index.html'), 'utf8');
-  const result = slimMap(html);
-  fs.rmSync(outDir, { recursive: true, force: true });
+// Writes the slim page and its data files into outDir. With clean, the directory is emptied first.
+export function writeSlimMap(result, outDir, clean = true) {
+  if (clean) fs.rmSync(outDir, { recursive: true, force: true });
   fs.mkdirSync(path.join(outDir, 'data', 'entries'), { recursive: true });
   fs.writeFileSync(path.join(outDir, 'index.html'), result.html);
   for (const [id, entry] of Object.entries(result.entries)) {
     fs.writeFileSync(path.join(outDir, 'data', 'entries', `${id}.json`), JSON.stringify(entry));
   }
   fs.writeFileSync(path.join(outDir, 'data', 'edges-detail.json'), JSON.stringify(result.edgesDetail));
+}
+
+function main() {
+  const outDir = path.resolve(ROOT, process.argv[2] || '.build/tree-slim');
+  const html = fs.readFileSync(path.join(ROOT, 'cft-website', 'index.html'), 'utf8');
+  const result = slimMap(html);
+  writeSlimMap(result, outDir);
   const s = stats(result);
   console.log(`slim map: page ${(s.pageBytes / 1e6).toFixed(2)} MB (${(s.pageGzipBytes / 1e6).toFixed(2)} MB compressed), ` +
     `${s.entryCount} entry files (median ${(s.entryMedianBytes / 1e3).toFixed(1)} KB, largest ${(s.entryMaxBytes / 1e3).toFixed(1)} KB), ` +

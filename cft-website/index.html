@@ -637,6 +637,7 @@ svg.strip-on #era-labels{display:none}
 <script src="assets/place-line.js"></script>
 <script>
 "use strict";
+const SLIM_MAP = false;
 const DATA = {
  "meta": {
   "title": "Church in Conversation — World Atlas Census",
@@ -131169,6 +131170,87 @@ const byId={}; DATA.movements.forEach(m=>byId[m.id]=m);
 const personById={}; personEntries.forEach(p=>personById[p.id]=p);
 const councilById={}; councilEntries.forEach(c=>councilById[c.id]=c);
 const entryById=id=>byId[id]||personById[id]||councilById[id];
+// On the slim page (SLIM_MAP) a card's text is in data/entries/<id>.json and a link's sources are in
+// data/edges-detail.json. These load once, merge into the objects the map already holds, and do nothing
+// on the full page, where the fields are already there.
+const loadedEntries=new Set(), entryLoads=new Map();
+let edgesDetailLoad=null;
+function fetchJSON(url){return fetch(url).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json();});}
+function mergeInto(to,from){
+  for(const k of Object.keys(from)){
+    const t=to[k], f=from[k];
+    if(t===undefined)to[k]=f;
+    else if(Array.isArray(t)&&Array.isArray(f))f.forEach((x,i)=>{if(t[i]===undefined)t[i]=x;else if(t[i]&&typeof t[i]==='object'&&x&&typeof x==='object')mergeInto(t[i],x);});
+    else if(t&&f&&typeof t==='object'&&typeof f==='object'&&!Array.isArray(t))mergeInto(t,f);
+  }
+}
+function ensureEntry(m){
+  if(!SLIM_MAP||!m||!m.id||loadedEntries.has(m.id))return null;
+  let p=entryLoads.get(m.id);
+  if(!p){
+    p=fetchJSON('data/entries/'+encodeURIComponent(m.id)+'.json').then(rest=>{mergeInto(m,rest);loadedEntries.add(m.id);entryLoads.delete(m.id);},err=>{entryLoads.delete(m.id);throw err;});
+    entryLoads.set(m.id,p);
+  }
+  return p;
+}
+function ensureEdgesDetail(){
+  if(!SLIM_MAP)return null;
+  if(!edgesDetailLoad){
+    edgesDetailLoad=fetchJSON('data/edges-detail.json').then(detail=>{
+      DATA.edges.concat(personEdges).forEach(e=>{if(detail[e.id])mergeInto(e,detail[e.id]);});
+      edgesDetailLoad=true;
+    },err=>{edgesDetailLoad=null;throw err;});
+  }
+  return edgesDetailLoad===true?null:edgesDetailLoad;
+}
+let pendingCard=null;
+function cardNotice(headingHTML,bodyHTML){
+  stopNarration(); hideTip();
+  panelBody.innerHTML=`<h2 id="panelTitle">${headingHTML}</h2>${bodyHTML}`;
+  panel.scrollTop=0;
+  panel.classList.add('open');
+  panel.removeAttribute('inert');
+}
+// Runs render() once everything getWaits() names has loaded. With nothing to wait for it runs at once
+// and returns undefined, as the full page always does. Otherwise it opens the card at its title, then
+// fills it, or shows a retry. The card is never shown half filled.
+const afterOpen=(done,fn)=>done&&done.then?done.then(fn):fn();
+function whenLoaded(getWaits,headingHTML,render){
+  const waits=getWaits().filter(Boolean);
+  if(!waits.length){pendingCard=null;return render();}
+  const mine=pendingCard={};
+  cardNotice(headingHTML,'<p class="meta" role="status">Loading…</p>');
+  return Promise.all(waits).then(()=>{if(pendingCard===mine){pendingCard=null;render();}},err=>{
+    console.error('card fetch failed',err);
+    if(pendingCard!==mine)return;
+    cardNotice(headingHTML,'<p class="meta" role="alert">This card did not load. Check your connection, then try again.</p><button type="button" class="act card-retry">Try again</button>');
+    panelBody.querySelector('.card-retry').addEventListener('click',()=>whenLoaded(getWaits,headingHTML,render));
+  });
+}
+// Marks the first press, hover or focus on anything that opens a card, so the file is on its way
+// before the click lands.
+function preloadFor(target){
+  if(!SLIM_MAP||!target||!target.closest)return;
+  const swallow=p=>{if(p)p.catch(()=>{});};
+  const link=target.closest('.edge-line,.edge-hit,.tie');
+  if(link){swallow(ensureEdgesDetail());return;}
+  const who=target.closest('.who-name[data-key],.tray-row[data-key]');
+  if(who){const P=whoPeople[who.dataset.key]; if(P)personCardWaits(P).forEach(swallow); return;}
+  const node=target.closest('[data-id],[data-trad]');
+  const m=node&&entryById(node.dataset.id||node.dataset.trad);
+  if(!m)return;
+  if(personById[m.id])personCardWaits(whoPeople[m.id]||{entry:m,rows:[]}).forEach(swallow);
+  else swallow(ensureEntry(m));
+}
+let hoverTimer=0;
+document.addEventListener('pointerdown',ev=>preloadFor(ev.target),{passive:true,capture:true});
+document.addEventListener('focusin',ev=>preloadFor(ev.target),{passive:true});
+document.addEventListener('pointerover',ev=>{
+  if(ev.pointerType!=='mouse')return;
+  clearTimeout(hoverTimer); const t=ev.target;
+  hoverTimer=setTimeout(()=>preloadFor(t),120);
+},{passive:true});
+document.addEventListener('pointerout',()=>clearTimeout(hoverTimer),{passive:true});
 const ACROSS_KIND='cross-church movement';
 const KIND_LABEL={[ACROSS_KIND]:'A movement across churches',person:'A person',[COUNCIL_KIND]:'Major council'};
 const isAcross=m=>!!m&&m.kind===ACROSS_KIND;
@@ -132371,13 +132453,12 @@ function renderStoryTray(){
 function openStoryItem(it){
   if(!it)return;
   if(!it.m){openPanelStory(it.s);return;}
-  openPanel(it.m);
   const show=()=>{
     const d=panelBody.querySelector(`.docstory-item[data-story-idx="${it.i}"]`);
     if(!d)return false;
     d.open=true; d.scrollIntoView({block:'start'}); return true;
   };
-  if(!show())setTimeout(show,400);
+  afterOpen(openPanel(it.m),()=>{if(!show())setTimeout(show,400);});
 }
 function zoomToStories(){
   const pts=scopeStories(storyScope).map(it=>it.m?[it.m._x,it.m._y]:[it.s._x,it.s._y]).filter(p=>p[0]!=null);
@@ -132692,7 +132773,17 @@ function quotesPanel(card){
   if(refs.length)h+=`<p class="source-group">References</p><ul class="person-list">${refs.map(r=>`<li>${esc(r)}</li>`).join('')}</ul>`;
   return h+'</details>';
 }
+// A person's card also reads the voices and source lines held in each tradition that names them, and
+// the part they played at each council, so those entries load with it.
+function personCardWaits(P){
+  const p=P.entry, own=[p,...P.rows.map(r=>r.home),...(p?councilEntries.filter(c=>(c.people||[]).some(x=>x.person===p.id)):[])];
+  return [...new Set(own.filter(Boolean))].map(ensureEntry);
+}
 function openPersonCard(P){
+  const p=P.entry;
+  return whenLoaded(()=>personCardWaits(P),esc(p?p.name:P.name),()=>openPersonCardNow(P));
+}
+function openPersonCardNow(P){
   hideTip();
   const p=P.entry, card=(p&&p.card)||{};
   pinMovement(p?p.id:null);
@@ -133364,7 +133455,8 @@ async function sha256Hex(text){
 fetch('audio/tree/manifest.json').then(r=>r.ok?r.json():{}).then(async man=>{
   for(const m of DATA.movements.concat(personEntries,councilEntries)){
     const e=man[m.id];
-    if(e&&e.text_sha256&&m.longDescription&&await sha256Hex(m.longDescription)===e.text_sha256){treeAudioCurrent.add(m.id);treeAudioMeta[m.id]=e;}
+    const hash=m.descHash||(m.longDescription?await sha256Hex(m.longDescription):null);
+    if(e&&e.text_sha256&&hash===e.text_sha256){treeAudioCurrent.add(m.id);treeAudioMeta[m.id]=e;}
   }
 }).catch(()=>{});
 function narrPlayerHTML(url,attrs){
@@ -133587,8 +133679,11 @@ function openCouncilCard(c){
 }
 const COUNCIL_VERDICT_WORDS={WHO:'Profile to come',STORY:'Told in a story',LISTED:'Listed','NOT SCORED':'Not yet assessed'};
 function openPanel(m){
+  if(personById[m.id])return openPersonCard(whoPeople[m.id]||{key:m.id,entry:m,name:m.shortName||m.name,rows:[]});
+  return whenLoaded(()=>[ensureEntry(m)],esc(m.shortName&&m.shortName!==m.name?m.shortName:m.name),()=>openPanelNow(m));
+}
+function openPanelNow(m){
   if(councilById[m.id]){openCouncilCard(m);return;}
-  if(personById[m.id]){openPersonCard(whoPeople[m.id]||{key:m.id,entry:m,name:m.shortName||m.name,rows:[]});return;}
   pinMovement(m.id);
   const allLinks=DATA.edges.concat(personEdges.filter(e=>linkEnd(e.from)!==linkEnd(e.to)));
   const inbound=allLinks.filter(e=>linkEnd(e.to)===m.id), outbound=allLinks.filter(e=>linkEnd(e.from)===m.id);
@@ -133694,6 +133789,9 @@ function openPanelStory(s){
   syncWorldURL(null);
 }
 function openPanelEdge(edg,a,b){
+  return whenLoaded(()=>[ensureEdgesDetail()],edgeHeading(edg,a,b),()=>openPanelEdgeNow(edg,a,b));
+}
+function openPanelEdgeNow(edg,a,b){
   hideTip();
   const sources=(edg.sources||[]).map(s=>`<li>${esc(s.work)}${s.locus?`, ${esc(s.locus)}`:''}</li>`).join('');
   stopNarration(); panelBody.innerHTML=`<h2 id="panelTitle">${edgeHeading(edg,a,b)}</h2>
@@ -133789,9 +133887,11 @@ function openEraCard(i){
   wirePanelLinks();
   panelBody.querySelectorAll('[data-era-story]').forEach(b=>b.addEventListener('click',()=>openPanelStory(mapStories[+b.dataset.eraStory])));
   panelBody.querySelectorAll('[data-era-trad]').forEach(b=>b.addEventListener('click',()=>{
-    const m=byId[b.dataset.eraTrad], j=b.dataset.idx; openPanel(m);
-    const item=panelBody.querySelector(`details.docstory-item[data-story-idx="${j}"]`);
-    if(item){item.open=true;item.scrollIntoView({block:'start'});const sum=item.querySelector('summary');if(sum)sum.focus();}
+    const m=byId[b.dataset.eraTrad], j=b.dataset.idx;
+    afterOpen(openPanel(m),()=>{
+      const item=panelBody.querySelector(`details.docstory-item[data-story-idx="${j}"]`);
+      if(item){item.open=true;item.scrollIntoView({block:'start'});const sum=item.querySelector('summary');if(sum)sum.focus();}
+    });
   }));
   showPanel(`era/${eras[i].num}`);
   syncWorldURL(null);
@@ -133809,6 +133909,7 @@ function connButtonHTML(m){
 }
 let lastFocused=null;
 function showPanel(page){
+  pendingCard=null;
   cftTally.open(page);
   hideListenBar();
   hideTip();
@@ -133822,6 +133923,7 @@ function showPanel(page){
   document.getElementById('panelClose').focus();
 }
 function closePanel(keepListening){
+  pendingCard=null;
   const playing=keepListening===true&&[...panelBody.querySelectorAll('audio')].find(a=>!a.paused);
   if(playing){listen.pin=pinnedMovement;listen.world=new URLSearchParams(location.search).get('world');}
   else stopNarration();
