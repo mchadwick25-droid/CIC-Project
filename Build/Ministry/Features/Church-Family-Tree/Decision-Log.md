@@ -5434,3 +5434,15 @@ Mark: "time the first link card and check caching", then "yes, make the header c
 **Checked live after the deploy.** The two paths return a single `public, max-age=0, must-revalidate`; the home page, `/data/world-census.json` and the tree pages stay `no-store`; a request with the ETag gets 304 with no body; and on a repeat visit in one browser the link details cost 0.9 KB instead of 242 KB and a card file 0.9 KB instead of 4.2 KB.
 
 **Not changed.** The home page stays `no-store`, as it was before this work, so every visit still downloads the slim page (about 0.36 MB compressed).
+
+## 2026-11-22 — Tradition briefs: four drafted and reviewed, four held (Mark: "a"; "follow the brief outlines the best tradition briefs that are already done")
+
+**Asked (Mark, 2026-11-22).** Write kit-standard briefs for the ten traditions with no tradition recording. Sonnet drafts, Opus reviews each round in its own session, no recording.
+
+**Found.** The kit's Part 1 covers a person, council or event, but the finished world narrations in `World-Narration/` are the precedent for a tradition-level text: a story of 623 to 721 words, a legacy of 57 to 193, a sheet, an Opus review, one revision and one targeted recheck. Mark ruled to follow that pattern, so no new shape or methodology change was made. Lutheran Wittenberg and the Reformed cities already have finished texts. Of the other eight, the vendored sources support Kongo, Kirishitan, New Spain and China; Ireland (to 1056), Wales (to 954), Armenia (no narrative) and the Abbasid East (the one mapped source appears to end before the window) do not.
+
+**Decided (Mark: "a").** Option A: write the four with sources first, one at a time; hold the other four for the source-research thread.
+
+**Done.** Four briefs, each with a sheet and each passing review (Open-Gaps 366). Each review found blocking faults the draft had made: an invented power for a governor, a town moved onto the wrong person, an editor credited with an unsigned note, a first arrival the source contradicts, a punishment offer told twice, a library statement spoken as history, and a jump back in time. All were corrected in the reviewer's wording. The repeated lessons for later briefs: credit every report to its witness; keep process and library talk off the audio; never state a date or an age the files do not hold.
+
+**Not done.** Nothing in the census, no recording, no pull request. The four held traditions, and the release, wait for Mark.
