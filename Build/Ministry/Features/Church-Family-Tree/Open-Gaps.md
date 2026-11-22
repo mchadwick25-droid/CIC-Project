@@ -4033,3 +4033,6 @@ They are not rewritten now. Each is recorded, and a rewrite would mean recording
     - **Open.** Merging deploys churchfamilytree.com, so Mark's look comes first. After the merge: wait for the deploy, open a card on the live page, re-run the timings against it. Choices Mark may change: the link tooltip text and the stories staying in the page; idle loading of the two audio manifests.
     - **Open, separate.** Two iPhone tests in `Build/tools/tree_map_view.test.mjs` fail with and without this change.
     - Owner: the site thread.
+357. **Phone loading, step 3: live (2026-11-22).** This updates "Phone loading, step 3: built, waiting for Mark's look" (2026-11-22). Merged and deployed; live first names after 4.7 s (Wi-Fi), 5.2 s (4G) and 6.8 s (slow 4G) on an emulated phone, from 5.5, 6.9 and 16.7 s (Decision-Log, "Phone loading, step 3: merged and live", 2026-11-22).
+    - **Open.** Loading the two audio manifests (91 KB) when the page is idle, which might save about 0.4 s on slow 4G; not measured. Owner: the site thread, when Mark calls for it.
+    - **Open, separate.** Two iPhone tests in `Build/tools/tree_map_view.test.mjs` (zoom floor; a tap leaves no hover tip) fail with and without this change. Owner: the site thread.
