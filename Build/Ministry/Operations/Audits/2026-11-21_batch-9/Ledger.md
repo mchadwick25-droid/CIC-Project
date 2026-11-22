@@ -92,3 +92,5 @@ One row per agent pass: the subagent's own token count as the harness reports it
 | Comparer | 7 Second readings | Opus | 144,650 | 18 same, 10 minor, 1 not read (key error) |
 | Blind D, comparer | 7b Second reading B9-30 | Opus | 174,705 | minor |
 | Basil, Eunomius, Apollinaris | 5c Fresh read | Opus | 181,436 | 3 PASS |
+| Evagrius, Eusebius, Hilary | 5c Fresh read | Opus | 180,924 | 2 PASS, Hilary REVISE |
+| Cyril, Epiphanius, Damasus | 5c Fresh read | Opus | 184,636 | Epiphanius PASS, 2 REVISE |
