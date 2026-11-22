@@ -164,10 +164,10 @@ svg.who-on #river-names,svg.story-on #river-names{opacity:.2}
 .council{cursor:pointer}
 .council:focus-visible{outline:none}
 .council-hit{fill:transparent;pointer-events:all}
-.council-ring{fill:var(--parchment);stroke:var(--iron-gall);stroke-width:1.6;vector-effect:non-scaling-stroke}
-.council-seat{fill:var(--iron-gall)}
-.council:hover .council-ring,.council:focus-visible .council-ring,.council.is-lit .council-ring{stroke:var(--gold-leaf)}
-.council:hover .council-seat,.council:focus-visible .council-seat,.council.is-lit .council-seat{fill:var(--gold-leaf)}
+.council-ring{fill:var(--parchment);stroke:var(--gold-leaf);stroke-width:2;vector-effect:non-scaling-stroke}
+.council-seat{fill:var(--gold-leaf)}
+.council:hover .council-ring,.council:focus-visible .council-ring,.council.is-lit .council-ring{stroke:var(--iron-gall);stroke-width:2.6}
+.council:hover .council-seat,.council:focus-visible .council-seat,.council.is-lit .council-seat{fill:var(--iron-gall)}
 .council-lbl{font-family:"Alegreya",Georgia,serif;font-size:0.6875rem;fill:var(--iron-gall);
   paint-order:stroke;stroke:var(--parchment);stroke-width:3px;stroke-linejoin:round;user-select:none}
 .council-tie{fill:none;pointer-events:none;stroke-width:1.5;stroke-opacity:.75;vector-effect:non-scaling-stroke}
@@ -132043,7 +132043,7 @@ function voiceLine(home,row){
   return cut===line?'':cut;
 }
 
-const Z_RIVER_WHO=0.30, Z_BUILT=0.34, Z_COUNCIL=0.45, Z_MAJOR=0.50, Z_COUNCIL_NAME=0.55, Z_STORY=0.65, Z_ALL=0.80,
+const Z_RIVER_WHO=0.30, Z_BUILT=0.34, Z_COUNCIL=0, Z_MAJOR=0.50, Z_COUNCIL_NAME=0.55, Z_STORY=0.65, Z_ALL=0.80,
   Z_READ=0.9, Z_VOICES=1.0, Z_STORY_TITLE=1.24, Z_PLACE=1.54, Z_PEOPLE=1.91, Z_DATES=2.37;
 const RIVER_WHO_MAX=5, TRAD_WHO_MAX=4, WHO_FALLBACK=3;
 const MARK_PX=14, MARK_MAX_PX=18, MARK_MIN_U=10;
