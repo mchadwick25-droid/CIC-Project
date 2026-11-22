@@ -5452,6 +5452,6 @@ Mark: "time the first link card and check caching", then "yes, make the header c
 
 **Decided (Mark: "a").** Option A: write the four with sources first, one at a time; hold the other four for the source-research thread.
 
-**Done.** Four briefs, each with a sheet and each passing review (Open-Gaps 366). Each review found blocking faults the draft had made: an invented power for a governor, a town moved onto the wrong person, an editor credited with an unsigned note, a first arrival the source contradicts, a punishment offer told twice, a library statement spoken as history, and a jump back in time. All were corrected in the reviewer's wording. The repeated lessons for later briefs: credit every report to its witness; keep process and library talk off the audio; never state a date or an age the files do not hold.
+**Done.** Four briefs, each with a sheet and each passing review (Open-Gaps 367). Each review found blocking faults the draft had made: an invented power for a governor, a town moved onto the wrong person, an editor credited with an unsigned note, a first arrival the source contradicts, a punishment offer told twice, a library statement spoken as history, and a jump back in time. All were corrected in the reviewer's wording. The repeated lessons for later briefs: credit every report to its witness; keep process and library talk off the audio; never state a date or an age the files do not hold.
 
 **Not done.** Nothing in the census, no recording, no pull request. The four held traditions, and the release, wait for Mark.
