@@ -5328,3 +5328,24 @@ Mark: "yes build A and B", then "lets stay with just connecting the traditions, 
 **Result.** Three descent links run from a tradition to a person or a movement across churches; they are shown in the influence group, not as direct descendants. 107 of 350 traditions have no recorded direct line, and their cards say so in plain words. The Method page gained a section, "Direct descendants and influence". A test keeps the map's and the generator's descent types and headings in step.
 
 **Not done.** Option C, a map view of the family line, waits until Mark has seen A and B.
+## 2026-11-22 — Phone loading, step 3: the map starts from the slim page and loads each card when it opens
+
+Mark: "go ahead with the build step" (the plan's step 3 is the map change and the switch of the deploy).
+
+**Built, held for Mark's look.** `ensureEntry` loads `data/entries/<id>.json` once and merges it into the entry the map already holds; `ensureEdgesDetail` does the same for link sources. Both do nothing on the committed page (`SLIM_MAP` is false there), so the tests and local work run as before. The deploy build (`tools/build_tree_site.mjs`) writes the slim page and the card files into `.build/tree`; the committed page stays the source. A tradition, built world, person, council and link card open at once at their title with "Loading…", then fill. If the fetch fails the card shows "This card did not load" with a Try again button, never half filled. A card opened while another is loading wins. A person's card also loads the traditions that name them and the councils they attended, because it reads the voice line and source line held there. The audio check uses `descHash` on the slim page.
+
+**First tap on a phone.** Chosen: the start of the press (`pointerdown`), plus hover (after 120 ms, mouse only) and keyboard focus. The file is on its way before the click lands; a card still opens at its title if the file is not there yet. Idle loading of the cards in view was not chosen: it would spend a phone's data on cards nobody opens.
+
+**Proof.** The full page and the slim page (served from the build output, fresh page load for each card, fetch path exercised) give identical panel HTML for all 629 entries, every person and named-voice card, and the people list plus a person card from it for every tradition with people (1,231 comparisons in all, 0 differences), and for all 736 link cards. The start-up trace at 1440 px and 390 px reads no field the slim page lacks. Deep links, Enter on a mark, the error and retry paths (entry and link), recordings and the link card work. The link-preview page from the Worker is built from the slim page's head (status 200, title, description and og tags present). Screenshots before and after at three zooms, at 1440 px and 390 px, are pixel-identical (one 2 px column in one card shot did not repeat in three more).
+
+**Timings.** Emulated Pixel 5, processor slowed four times, cache off, median of three, first names on the map: Wi-Fi 5.5 s to 4.3 s; 4G (9 Mbps, 150 ms) 6.9 s to 4.4 s; slow 4G (1.6 Mbps, 150 ms) 16.7 s to 6.0 s. Bytes at that point: 2.45 MB to 0.59 MB. Tapping a mark to a filled card: about 0.25 to 0.31 s. The estimate (about 3 s on Wi-Fi, about 5 s on slow 4G) was not reached: on slow 4G the page takes about 2.2 s to arrive and the drawing work after it, which this change does not touch, is the rest. The two audio manifests (91 KB) and the fonts load beside the page; loading the manifests when idle is a possible next gain.
+
+**Known.** `Build/tools/tree_map_view.test.mjs` has two failing iPhone tests (zoom floor; tap leaves no hover tip) with and without this change.
+
+## 2026-11-22 — Phone loading, step 3: merged and live
+
+Mark: "Converged, auto mode: merge it", after looking at the before and after screenshots.
+
+**Done.** Pull request 1771 merged (all CI checks green or skipped). The live page, `www.churchfamilytree.com`, serves the slim page (1.29 MB), the card files and the link details. A tradition card, a person card and a link card open on the live page with no errors, and a LinkedIn-style request gets the preview page with title and og tags. Note for later checks: `churchfamilytree.com` redirects to `www.`, so a check that does not follow the redirect reads a 167-byte page.
+
+**Live timings.** Same emulated Pixel 5, processor slowed four times, cache off, median of three, over the real network with the throttling on top: Wi-Fi 4.7 s, 4G 5.2 s, slow 4G 6.8 s to first names (local before: 5.5, 6.9, 16.7 s). Bytes when names show: about 0.65 MB. Tapping a mark to a filled card: 0.31 to 0.43 s. The live figures run about 0.4 to 0.8 s above the local ones, which is the extra network distance. The gain on slow 4G holds: 16.7 s to 6.8 s.
