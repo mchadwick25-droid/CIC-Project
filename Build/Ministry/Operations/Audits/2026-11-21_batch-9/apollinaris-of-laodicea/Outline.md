@@ -14,16 +14,16 @@ Checked against the Library: every claim above is held. "Ally of Athanasius agai
 
 **Length:** about 4:30 at most (about 675 words by the scorer), aiming at 4:00. What the story must carry: three quotes (about 75 words); the plain sense of five words (Arians, the creed of Nicaea, the Word, the holy Fathers, one nature made flesh: about 45 words); the witnesses it must credit where their claim is told (Socrates, Sozomen, Gregory of Nazianzus, Epiphanius, Damasus's council, Theodoret, Jerome, Justinian, Lietzmann by role: about 60 words); two places where held sources disagree and both must be told (why he was put out; who wrote what under Julian: about 50 words); the laws, told with their force (about 35 words). That is about 265 words before narration of eight beats and the connection, which needs room to explain a forgery. The record is long and two-sided; the slate's job has five parts. Do not fill past 675.
 
-**Cut first, in order:** Drop from the top, in order, only while the draft runs past 675 words. Together about 84 words (at least 40 words, the story being at or under 640 by the count). Each item is kept under For the card, not the story.
+**Cut first, in order:** Drop from the top, in order, only while the draft runs past 675 words. Together about 99 words (at least 40 words, the story being at or under 640 by the count). Each item is kept under For the card, not the story.
 1. Beat 1: that he served as a reader, with its gloss (SOC-ENG 9930-9938; SOZ-ENG 39067); keep his father's grammar and his own rhetoric. Saves about 14 words.
 2. Beat 5: that at Antioch he ordained the priest Vitalius, who led his followers there (THDT 15538-15539; SOZ-ENG 39006-39015); keep the separate churches under their own bishops. Saves about 12 words.
-3. Beat 4: Rufinus's and Socrates's two stages: Rufinus, writing in his lifetime or just after, and Socrates after him say he first denied Christ a soul, then granted one without its reasoning part (RUF 30638-30646; SOC-ENG 9957-9961); keep the divine Word in the place of a human mind. Saves about 15 words.
+3. Beat 4: Rufinus's and Socrates's two stages: Rufinus, who lived through those years and wrote not long after his death, and Socrates after him, say he first denied Christ a soul, then granted one without its reasoning part (RUF 30638-30646; SOC-ENG 9957-9961); keep the divine Word in the place of a human mind. Saves about 30 words.
 4. Beat 2: Sozomen's ranking of him with Athanasius and Basil as a defender of the Spirit's equal place (SOZ-ENG 38725-38731); keep the envoys to Athanasius's synod of 362. Saves about 18 words.
 5. What came of them 3: the monk of Lérins who held him up as a warning, his pupils pulled one way by the church and the other by their master (VINC 12904-12944). Saves about 25 words.
 
 **Setting:**
 - Century: the fourth; he was put out of the church in 346 by Lietzmann's date (LIETZ 479, 806-813); Julian reigned 361-363 (LIETZ 494, 502); condemned 381 (COUNC 13970-13976); died under Theodosius, year unknown (THDT 41395; LIETZ 3484). Spoken: "in the fourth century".
-- Place: Laodicea in Syria, a port city (SOC-ENG 9931); Antioch, where he lectured and had a bishop of his party (JER-L 18997-18998; THDT 15538-15539). Spoken: "Laodicea in Syria", "Antioch".
+- Place: Laodicea in Syria, a port city (SOC-ENG 9931); Antioch, where he lectured and where he ordained Vitalius, who led his followers there (JER-L 18997-18998; THDT 15538-15539; SOZ-ENG 39011-39013). Spoken: "Laodicea in Syria", "Antioch".
 - Tradition: census `apollinarian-christianity`, spoken name "Apollinarian Christianity", informal "the followers of Apollinaris" (world-census.json). He first stood within the Nicene party (SOZ-ENG 38725-38731; ATH 60171-60173).
 
 **Words to explain:**
@@ -50,7 +50,7 @@ Checked against the Library: every claim above is held. "Ally of Athanasius agai
 1. *Born to the church at Laodicea; put out of it.* His father came from Alexandria and taught grammar; the son taught rhetoric and served as a reader (SOC-ENG 9930-9938). Bishop George put him out of the church. Sozomen says it was for his friendship with Athanasius, passing through on his way home from exile; Socrates says it was for friendship with a pagan teacher, the sophist Epiphanius, or, as some told it, over George's wavering creed (SOZ-ENG 39041-39050; SOC-ENG 9944-9952). Reason: George's party shunned Athanasius (Sozomen). Gloss *reader*. Date 346, Lietzmann's. Confidence: the expulsion Documented; its reason Contested; the date Dominant Modern Reconstruction.
 2. *A defender of Nicaea.* In 362 he sent envoys to Athanasius's synod at Alexandria, which calls him "the bishop" (ATH 60171-60173). Sozomen ranks him with Athanasius and Basil as a defender of the Spirit's equal place (SOZ-ENG 38725-38731). Gloss *Arians* and *the creed of Nicaea* here. Confidence: Documented. When he became bishop is not known (LIETZ 823-835).
 3. *Julian's ban.* Under Julian, father and son, Socrates says, rewrote Scripture: the father the books of Moses in epic verse, the son the Gospels as dialogues like Plato's (SOC-ENG 11236-11246). Sozomen gives the epic, comedies like Menander's, tragedies like Euripides', and odes like Pindar's to Apollinaris himself (SOZ-ENG 36693-36702). Reason: Julian thought Greek learning made Christians strong in argument (SOZ-ENG 36690-36693). If opening 1 is used, this beat holds only what the opening did not tell: Socrates's different account. Confidence: the ban and the response Documented; who wrote what Contested.
-4. *The teaching.* He held that in Christ the divine Word stood in the place of a human mind (SOC-ENG 9957-9961; SOZ-ENG 39256-39262). His reason, in a book that Gregory of Nyssa quoted to refute: Quote 1 (LIETZ 11480-11481). Rufinus, writing in his lifetime or just after, and Socrates after him say he first denied Christ a soul, then granted one without its reasoning part (RUF 30638-30646; SOC-ENG 9957-9961). Epiphanius of Salamis, who had loved him, at first would not believe the reports (EPIPH-PG42 48853-48857, 48959-48961). Gloss *the Word*. Confidence: the core Widely Accepted; the stages Contested.
+4. *The teaching.* He held that in Christ the divine Word stood in the place of a human mind (SOC-ENG 9957-9961; SOZ-ENG 39256-39262). His reason, in a book that Gregory of Nyssa quoted to refute: Quote 1 (LIETZ 11480-11481). Rufinus, who lived through those years and wrote not long after his death, and Socrates after him, say he first denied Christ a soul, then granted one without its reasoning part (RUF 30638-30646; SOC-ENG 9957-9961). Epiphanius of Salamis, who had loved him, at first would not believe the reports (EPIPH-PG42 48853-48857, 48959-48961). Gloss *the Word*. Confidence: the core Widely Accepted; the stages Contested.
 5. *Teacher and church-builder.* Jerome heard him lecture at Antioch and says he learned Scripture from him but never took his teaching (JER-L 18996-19000). At Antioch he ordained the priest Vitalius, who led his followers there (THDT 15538-15539; SOZ-ENG 39006-39015). His followers formed churches in many cities under their own bishops and sang his songs: Quote 2 (SOZ-ENG 39021-39028; SOZ-GRC 13406-13414). Confidence: Documented; the songs rest on Sozomen alone.
 6. *Condemned, then outlawed.* A council at Rome under Damasus, with Peter of Alexandria present, condemned him and his pupil Timothy (THDT 16094-16120; SOZ-ENG 39030-39039); Lietzmann dates it 377, others 374. In 381 the council at Constantinople named the Apollinarians among the heresies it condemned (COUNC 13970-13976). After 381, Gregory of Nazianzus answered that what Christ did not take on, he did not heal (GNAZ 44690-44691; GNAZ 23222-23235). Laws of Theodosius from 383 forbade them to meet or ordain; in 388 their bishops lost the very name of bishop and were barred from the cities (CTH 7075-7080). Confidence: Documented; the Roman date Contested.
 7. *Death.* Jerome says he died in the reign of Theodosius; the year is not known (THDT 41395; LIETZ 3484). Confidence: Documented; year Inferential-Thin.
@@ -85,6 +85,7 @@ No quote is a reuse; the lifted Philostorgius line is not used.
 - Cyril of Alexandria: link (cited his confession).
 - Justinian ("the emperor Justinian"; census `justinian-i`, "Justinian I"): link.
 - Theodoret of Cyrrhus: witness; may be given by role ("a hostile bishop of the next century").
+- Rufinus of Aquileia ("Rufinus"): witness; may be given by role ("a Latin historian who lived through those years").
 - Hans Lietzmann: by role, "a German scholar who gathered his fragments in 1904".
 - The sophist Epiphanius, Peter of Alexandria, Timothy, Vincent of Lérins, Pusey, Hefele: by role.
 Past six names: Julian, George, Vitalius and Theodoret can go to role if the count runs high.
@@ -110,7 +111,7 @@ Past six names: Julian, George, Vitalius and Theodoret can go to role if the cou
 **Who tells it:**
 - His own words: fragments kept by opponents (Gregory of Nyssa, Justinian) and works under other names, as Lietzmann gathered and ascribed them in 1904. The story says once, inside the sentence about Lietzmann or about his books, that almost all we have of him comes through opponents or under other names (LIETZ 4133-4160).
 - Socrates of Constantinople, writing about 60-80 years later: his family, the expulsion by George (his reasons), Julian (father's verse, son's dialogues), the two stages of the teaching, his followers' Nicene Trinity, and the resentment motive.
-- Rufinus of Aquileia, writing about 402, in Apollinaris's lifetime or just after; hostile: the two stages of the teaching, the condemnation at Rome, Alexandria and Constantinople, and the separate churches.
+- Rufinus of Aquileia, who lived through those years and wrote about 402, not long after Apollinaris's death (THDT 41395; LIETZ 3484-3487); hostile: the two stages of the teaching, the condemnation at Rome, Alexandria and Constantinople, and the separate churches.
 - Sozomen, writing about the same time: the friendship with Athanasius, the expulsion (his reason), the epic and plays, the separate churches, the songs, the Roman council, the resentment motive marked "It is said", and the high view of his writings.
 - Gregory of Nazianzus, his own time, an opponent: the answer to his teaching.
 - Epiphanius of Salamis, his own time, once an admirer: the disbelief.
@@ -125,16 +126,16 @@ The listener must know: almost every witness opposed him. No doubt is itself the
 
 **Do not say:**
 - "He was put out for befriending Athanasius" as fact. Say: Sozomen says so; Socrates gives another reason.
-- "Out of resentment he invented a heresy", or that he taught it from love of argument (Rufinus's charge), as fact. Say, if told at all: both historians claim it, Sozomen as "it is said". Better in Leave out.
+- "Out of resentment he invented a heresy", or that he taught it from love of argument (Rufinus's charge), as fact. Say, if told at all: Socrates and Sozomen give the resentment, Sozomen as "it is said"; Rufinus gives the love of argument. Better in Leave out.
 - "Father and son rewrote the Bible" as settled. Say: Socrates gives the work to both; Sozomen to Apollinaris alone.
-- "He denied that Christ was human" or "denied Christ a soul". Say: he taught that the divine Word took the place of a human mind. Socrates says he first denied a soul; credit Socrates.
+- "He denied that Christ was human" or "denied Christ a soul". Say: he taught that the divine Word took the place of a human mind. Rufinus and Socrates say he first denied a soul; credit them.
 - "He wrote against the Arians" or "the greatest foe of Arius". Say: he stood with Athanasius for Nicaea.
 - "He was bishop of Laodicea from 362" or any year. Say: he became bishop, when is not known.
 - "Condemned at Rome in 377" without a qualifier. Say: by Lietzmann's date, 377; or "in the 370s".
 - "Died in 390". Say: under the emperor Theodosius; the year is not known.
 - "His books were burned." The held lines say his doctrinal writings were destroyed so thoroughly that they are lost (LIETZ 4134-4137); no held line says burned.
 - "Cyril was an Apollinarian" or "Cyril knowingly used a forgery". Say: Cyril cited it as Athanasius's.
-- "Apollinaris forged the letter in Athanasius's name." Say: those who shared his views put the names on, says Lietzmann (LIETZ 4150-4156). Justinian's "they" are a different group, the one-nature party of the 540s (LIETZ 5752-5753, 5764).
+- "Apollinaris forged the letter in Athanasius's name." Say: those who shared his views put the names on, says Lietzmann (LIETZ 4151-4157). Justinian's "they" are a different group, the one-nature party of the 540s (LIETZ 5752-5753, 5764).
 - "It was proved a forgery" as settled for the Jovian confession. Say: the modern editors give it to Apollinaris; one, Pusey, thought it Athanasius's.
 - "Gregory of Nazianzus said, 'What is not assumed is not healed'" as a quote. Tell it in the narrator's words, credited to Gregory.
 - "His writings were forgotten" or "as if never written" about his books in general. Say: Socrates said this of the poems and dialogues written under Julian.
@@ -162,6 +163,6 @@ None of these is the record's force: the expulsion, the condemnations and the la
 **For the card, not the story:** the cut-first items, if the story drops them.
 - Beat 1: that he served as a reader, with its gloss (SOC-ENG 9930-9938; SOZ-ENG 39067).
 - Beat 5: that at Antioch he ordained the priest Vitalius, who led his followers there (THDT 15538-15539; SOZ-ENG 39006-39015).
-- Beat 4: Rufinus's and Socrates's two stages: Rufinus, writing in his lifetime or just after, and Socrates after him say he first denied Christ a soul, then granted one without its reasoning part (RUF 30638-30646; SOC-ENG 9957-9961).
+- Beat 4: Rufinus's and Socrates's two stages: Rufinus, who lived through those years and wrote not long after his death, and Socrates after him, say he first denied Christ a soul, then granted one without its reasoning part (RUF 30638-30646; SOC-ENG 9957-9961).
 - Beat 2: Sozomen's ranking of him with Athanasius and Basil as a defender of the Spirit's equal place (SOZ-ENG 38725-38731).
 - What came of them 3: the monk of Lérins who held him up as a warning, his pupils pulled one way by the church and the other by their master (VINC 12904-12944).

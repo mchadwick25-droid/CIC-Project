@@ -6,6 +6,7 @@ Short names used below:
 - **SOZ-ENG / SOC-ENG**: `npnf202_socrates-sozomen-ecclesiastical-histories.xml` (Socrates tr. Zenos; Sozomen tr. Hartranft).
 - **SOZ-GRC**: `sozomen_historia-ecclesiastica-tomus2-libri-5-9-grc-lat_hussey1860.txt` (Hussey's Greek; OCR with accent noise between lines).
 - **THDT**: `npnf203_theodoret-jerome-gennadius-rufinus.xml` (Theodoret, Church History, tr. Jackson; Jerome, Lives of Illustrious Men, tr. Richardson).
+- **RUF**: `eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt` (Rufinus, Church History 10-11, Latin; Schwartz and Mommsen 1908, OCR).
 - **JER-L**: `npnf206_jerome-principal-works.xml` (Jerome's letters, tr. Fremantle).
 - **JER-CHRON**: `jerome_eusebii-chronici-canones-lat_fotheringham1923.txt`.
 - **GNAZ**: `npnf207_cyril-jerusalem-gregory-nazianzen.xml` (Gregory's letters, tr. Browne and Swallow).

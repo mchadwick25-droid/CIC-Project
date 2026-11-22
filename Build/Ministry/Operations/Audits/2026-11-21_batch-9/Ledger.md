@@ -40,3 +40,5 @@ One row per agent pass: the subagent's own token count as the harness reports it
 | Eusebius of Nicomedia | 3 Write | Sonnet | 100,751 | 673 words |
 | Cyril | 3 Write | Sonnet | 99,964 | 675 words |
 | Apollinaris, Hilary | 2c Outline recheck | Opus | 141,464 | 2 FIX, exact replacements |
+| Eunomius | 3 Write | Sonnet | 102,827 | 673 words |
+| Damasus | 3 Write | Sonnet | 105,700 | 666 words |
