@@ -1,0 +1,19 @@
+{
+  "movements": {
+    "keep": [
+      "id", "name", "shortName", "informalName", "kind", "status",
+      "era", "laneOrder", "start", "end", "dates", "activeYear", "continuesAs",
+      "major", "publicOpen", "toldWithin",
+      "placeLabel", "placeQualifiers",
+      "modernCountries[].place", "modernCountries[].country", "modernCountries[].placeId", "modernCountries[].countryId",
+      "documentedStories[].title", "documentedStories[].when",
+      "people[].name", "people[].person", "people[].year",
+      "card.role"
+    ],
+    "hash": { "descHash": "longDescription" }
+  },
+  "edges": {
+    "keep": ["id", "from", "to", "type", "confidence", "outcome", "note"]
+  },
+  "wholeSections": ["stories", "eras", "meta", "statusMeta"]
+}
