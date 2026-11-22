@@ -67,3 +67,6 @@ What passed on: a Kongo king who took the faith, built it into the kingdom's ord
 ## Ending
 
 Afonso's own words in 1526 (Q1), or the 1540 Easter Mass scene. Preferred: the Easter scene, told as his accusation, then close on the letter of December 1540 ending with his own sign-off as "brother" to the king of Portugal.
+
+## Added after Review round 1
+- Do not say: not that Lopes is "the main" or "only" source for 1491. He is only the one vendored here.
