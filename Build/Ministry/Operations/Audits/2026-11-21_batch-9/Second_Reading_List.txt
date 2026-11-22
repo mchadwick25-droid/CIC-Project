@@ -1,0 +1,63 @@
+apollinaris-of-laodicea: 4 spans
+  READ BLIND    If God was joined to a man, complete to complete, they would be two. One would be Son of God by nature, and one adopted.
+  READ BLIND    Men sang his songs at drinking parties and at work. Women sang them at the loom.
+  READ BLIND    one nature of God the Word made flesh
+  READ BLIND    They cunningly push aside the name of Apollinaris, because it plainly proves ungodliness. They put the names of the holy Fathers on his writings and on their own inventions.
+basil-of-caesarea: 3 spans
+  READ BLIND    Then one day, like a man roused from deep sleep, I turned my eyes to the wonderful light of the truth of the gospel.
+  READ BLIND    Whom, then, will you wash? Whom will you care for? Behind whom will you be last, if you live by yourself?
+  READ BLIND    As we were baptized, so we confess our faith. As we confess our faith, so too we give praise.
+cyril-of-jerusalem: 5 spans
+  READ BLIND    Do you see this place, Golgotha?
+  READ BLIND    You answer with a shout of praise, as if you agree.
+  READ BLIND    I knew well that seeing persuades far more than hearing. So I waited for this time.
+  READ BLIND    The bishop talks through each point and sets it out. Meanwhile the voices of those applauding are so loud that they can be heard outside the church.
+  READ BLIND    See that you do not take it back when persecution comes.
+damasus-of-rome: 3 spans
+  READ BLIND    Make me bishop of the city of Rome, and I will be a Christian at once.
+  READ BLIND    It is our will that all the peoples under our merciful rule live in the religion that the divine apostle Peter handed down to the Romans. The faith he brought them, kept to this day, shows that he did. It is plain that Bishop Damasus follows it, and Peter, bishop of Alexandria, a man of an apostle's holiness.
+  READ BLIND    I believe that, after the ashes, he will make Damasus rise.
+epiphanius-of-salamis: 2 spans
+  READ BLIND    We are going to show you the names of the heresies. We will uncover their unholy deeds, which are like venom and poison. Alongside them we will fit antidotes: cures for those who have been bitten, and protection for those who may yet fall into it.
+  READ BLIND    I have also drunk from the great river Euphrates. It was not spiritual water but real water, the kind you can touch with your hand and take into your mouth.
+eunomius-of-cyzicus: 6 spans
+  CARRIED       (checked at card) Unbegotten
+  READ BLIND    a style well suited to learners.
+  CARRIED       (checked at card) unlike.
+  READ BLIND    It has been shown that he was not before himself, nor anything else before him, and that he is before all things. Then 'unbegotten' follows. Or rather, he himself is unbegotten being.
+  CARRIED       (checked at card) or rather
+  CARRIED       (checked at card) unbegotten
+eusebius-of-nicomedia: 10 spans
+  READ BLIND    We are persecuted because we said: the Son has a beginning, but God has no beginning.
+  READ BLIND    We signed the creed, but we did not sign the condemnation. We were not finding fault with the creed. We did not believe the accused man was what he was said to be.
+  READ BLIND    Who taught these things to so innocent a crowd? Eusebius, plainly: the partner in the tyrant's cruelty.
+  CARRIED       (checked at card) the prelates
+  CARRIED       (checked at card) turned aside
+  CARRIED       (checked at card) of one being,
+  CARRIED       (checked at card) all his authority.
+  CARRIED       (checked at card) those around Eusebius.
+  CARRIED       (checked at card) the Great.
+  READ BLIND    that disturber of the public peace.
+evagrius-ponticus: 5 spans
+  READ BLIND    Even if the oath was sworn in a trance, I still swore it.
+  READ BLIND    Whether these thoughts can trouble the soul is not up to us. But whether they linger, and whether they stir up passions, is up to us.
+  READ BLIND    or among the first at least
+  CARRIED       (checked at card) the holy Evagrius
+  READ BLIND    In that state the mind is stirred no more. To put it simply, it becomes either a stone or a god.
+gregory-of-nazianzus: 4 spans
+  CARRIED       (same) Why should I fight over piglets and chickens, and ones that are not my own,
+  CARRIED       (minor) as if I were fighting for souls and church canons?
+  CARRIED       (minor) equally far from the merging of Sabellius and from the division of Arius,
+  CARRIED       (same) my teacher in the Scriptures.
+gregory-of-nyssa: 3 spans
+  CARRIED       (minor) inherited the controversy with Eunomius.
+  CARRIED       (same) is above every name.
+  CARRIED       (same) of the same rank as the Father and the Son.
+hilary-of-poitiers: 7 spans
+  READ BLIND    I was baptized some time ago, and I had been a bishop for a while. I never heard the faith of Nicaea until I was going into exile. But the Gospels and the Apostles showed me what 'one in substance' and 'like in substance' mean.
+  CARRIED       (checked at card) of one substance
+  CARRIED       (checked at card) like in substance,
+  CARRIED       (checked at card) like,
+  CARRIED       (checked at card) one in substance,
+  CARRIED       (checked at card) substance.
+  READ BLIND    All agree on this: by the good work of Hilary alone, our provinces of Gaul were freed from the guilt of heresy.
