@@ -1,0 +1,12 @@
+apollinaris-of-laodicea: clear
+basil-of-caesarea: clear
+cyril-of-jerusalem: clear
+damasus-of-rome: SPELLING Martha (the tree has Marutha)
+epiphanius-of-salamis: clear
+eunomius-of-cyzicus: ALLOWED REUSE "a style well suited to learners." also in philostorgius
+eusebius-of-nicomedia: ALLOWED REUSE "We are persecuted because we said: the Son has a beginning, but God has no beginning." also in arius
+evagrius-ponticus: SPELLING Acedia (the tree has Acadia, Macedonia)
+evagrius-ponticus: SPELLING Cells (the tree has Celts, Wells)
+gregory-of-nazianzus: clear
+gregory-of-nyssa: clear
+hilary-of-poitiers: clear
