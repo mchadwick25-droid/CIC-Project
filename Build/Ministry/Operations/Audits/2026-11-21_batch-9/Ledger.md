@@ -44,4 +44,4 @@ One row per agent pass: the subagent's own token count as the harness reports it
 | Damasus | 3 Write | Sonnet | 105,700 | 666 words |
 | Epiphanius | 3 Write | Sonnet | 106,526 | 675 words |
 | Apollinaris, Hilary | 2d Replacements applied | Sonnet | 87,139 | verbatim |
-| Apollinaris | 3 Write | Sonnet | see notice | 674 words |
+| Apollinaris | 3 Write | Sonnet | 97,294 | 674 words |
