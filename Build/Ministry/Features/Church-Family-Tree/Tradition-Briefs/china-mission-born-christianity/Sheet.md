@@ -45,3 +45,11 @@ A Chinese official defends foreign priests by speaking in the language of China'
 
 ## Ending
 His last page (C6): the Board's recommendation would send the men home; he has fasted and washed before writing.
+
+## Added after Review round 1
+- Not that the Jesuits first reached Zhaoqing, or began the mission, in 1583. Ruggieri and Pasio had stayed there before and been sent away (Purchas 14899-14928). In September 1583 it was Ruggieri and Ricci; for Ruggieri it was a return (Purchas 15909, 16081-16083).
+- Not "Ricci's journals": the held files say his commentaries, reworked by Trigault (Latin header). The 1625 English is Purchas's abridgment, not Trigault's own text.
+- Not that Xu offered to take their punishment alone: he asked to be punished with them (CR 1353-1372, 1576-1578).
+- The registry is not one of the three tests. The three tests: translate the books; debate with Buddhists and Taoists; a summary for the emperor (CR 1595-1607). The registry and the sureties are three kinds of watch (CR 1611-1713); sureties share the guilt (1666-1667, 1703-1705). Not "punished alone".
+- Not "1617" as settled: the translator's heading converts the 44th year of the reign to 1617; by the usual count it is 1616 (CR 1311-1314).
+- "Courtiers" means the Jesuits (CR 1345-1346, "your majesty's European courtiers").
