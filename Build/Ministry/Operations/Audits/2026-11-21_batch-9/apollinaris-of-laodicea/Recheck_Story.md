@@ -36,3 +36,6 @@ The word-level diff against v1 shows only the changes above.
 ## 4. Score
 
 `python -m engine.m1.profile_readability .../apollinaris-of-laodicea.brief.txt`: 671 words, grade 8.2 (names out 6.4), reading ease names out 77.8, 16.0 words a sentence, 17% short sentences, longest sentence 30 words: pass.
+
+## Spelling (coordinator, 2026-11-22)
+Two narrator uses of "honoured" set to American "honored" (the kit's spelling rule; the card check flagged it). No quote touched.
