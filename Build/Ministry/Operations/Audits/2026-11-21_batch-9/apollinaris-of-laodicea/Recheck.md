@@ -43,3 +43,12 @@ The beats run 346, 362, Julian, the teaching, Antioch and the separate churches,
 **R4. Citations.** In Do not say, the forged-letter line, replace "(LIETZ 4150-4156)" with "(LIETZ 4151-4157)". In Source_Sheet.md, add to the short names at the head: "- **RUF**: `eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt` (Rufinus, Church History 10-11, Latin; Schwartz and Mommsen 1908, OCR)." In Names, add: "- Rufinus of Aquileia (\"Rufinus\"): witness; may be given by role (\"a Latin historian who lived through those years\")."
 
 **R5. Cut first.** For item 3, replace "Saves about 15 words." with "Saves about 30 words." In the lead line, replace "Together about 84 words" with "Together about 99 words".
+
+## Applied (2026-11-22)
+
+All applied word for word; none unplaced.
+- R1: Outline.md, beat 4 (line 53), cut-first item 3 (line 20) and the For the card line (line 165) now read "Rufinus, who lived through those years and wrote not long after his death, and Socrates after him, say"; Who tells it now reads "...who lived through those years and wrote about 402, not long after Apollinaris's death (THDT 41395; LIETZ 3484-3487); hostile:".
+- R2: Outline.md, Setting, Place line replaced.
+- R3: Outline.md, Do not say, resentment line and "denied Christ a soul" line replaced.
+- R4: Outline.md, Do not say, forged-letter line now "(LIETZ 4151-4157)"; Source_Sheet.md, RUF short name added at the head (before JER-L); Outline.md Names, Rufinus entry added after Theodoret.
+- R5: Outline.md, item 3 "Saves about 30 words."; lead line "Together about 99 words".

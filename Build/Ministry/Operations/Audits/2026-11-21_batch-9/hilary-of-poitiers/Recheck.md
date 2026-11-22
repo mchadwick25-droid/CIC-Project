@@ -31,3 +31,9 @@ The beats run: Martin before 356, Béziers in 356, Phrygia, On the Councils, Sel
 **R1. Outline.md, Connection, last instruction.** Replace "let what came of him (item 3) say only that the monastery stood near Poitiers." with: "let what came of him (item 3) say only that the monastery stood not far from Hilary's town."
 
 **R2. Source_Sheet.md, row 2f, claim cell.** Replace "Watson dates its plan to Constantinople, 360 (NPNF209 2478)" with: "Watson thinks it was more probably written on the journey home in 360, while the emperor still lived (NPNF209 2476-2481)". In the verbatim cell, add after the Watson sentence: " \"It was more probably the employment of his long homeward journey.\" (NPNF209 2479-2480)".
+
+## Applied (2026-11-22)
+
+All applied word for word; none unplaced.
+- R1: Outline.md, Connection, last instruction now ends "the monastery stood not far from Hilary's town."
+- R2: Source_Sheet.md, row 2f, claim cell replaced with the Watson wording given; the sentence "It was more probably the employment of his long homeward journey." (NPNF209 2479-2480) added at the end of the verbatim cell.
