@@ -5226,3 +5226,13 @@ Mark, posting to LinkedIn: "the linked in cant display a preview and its not pul
 **Decided (Mark, 2026-11-22: "Approve both as recommended").**
 1. Eunomius of Cyzicus: Basil's answer is told in the narrator's words, without quotation marks, and its card entry goes. Its Greek is held only in one unchecked OCR scan of PG 29, and no English of the sentence is held.
 2. Hilary of Poitiers: the bishops of Gaul's letter is told in the narrator's words, credited to them, and its card entry goes ("the letters Hilary brought", which holds under both prints' verbs). Its Latin is held only in two damaged prints that differ at the verb; the card keeps the variant under `uncertain`.
+
+## 2026-11-22 — Batch 9: the fresh read, and three fixes after it (Mark)
+
+**Why.** Mark asked whether quality is drifting from batch to batch. Three Opus reviewers who saw none of the earlier reviews, revisions or drafts scored the nine finished stories on the reviewer role (`<slug>/Fresh_Read.md` in `Build/Ministry/Operations/Audits/2026-11-21_batch-9/`; https://claude.ai/artifact/5jnxRbXSc18KpTpYEMvSBW). Finished averages: voice 3.9, craft 3.7, rigor 4.2, accessibility 4.1, against first drafts 4.0, 3.4, 3.0, 3.9 (batch 8's first drafts: 4.0, 3.5, 3.4, 3.8). Six passed; three had one blocking finding each, each a part the outline must keep cut to save words.
+
+**Decided (Mark, 2026-11-22: "Approve as recommended").**
+1. Damasus: the law's threat of God's punishment and then the emperors' is told; two sentences cut to pay for it (the fresh read's wording).
+2. Cyril of Jerusalem: Egeria's applause quote is placed in Easter week, in the tomb chapel; "by modern reckoning" and "that pilgrim" cut; Jerome's charge reads "to be given the see by the followers of Arius" (the fresh read's wording).
+3. Hilary of Poitiers runs about 4:32: Augustine's reading of him restored in the outline's wording; Ariminum reads "pressed by the emperor's threats"; the letter sentence split, keeping "the letters Hilary brought". The split is the coordinator's wording and gets a targeted independent check.
+4. The other minor findings stay in each `Fresh_Read.md`, as input to the kit change under discussion; no finished story is reopened for polish.

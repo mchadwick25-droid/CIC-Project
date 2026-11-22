@@ -90,6 +90,7 @@ Census id `damasus-of-rome`. Tradition: Church and Empire. References are to `So
   - *The Liber Pontificalis*, a book of the popes' lives written about 150 years later: the searching out of martyrs' graves (LPD 127135–127136). Credit it as late.
   - *His own verses* (LPD 27772–27779; 128201–128214).
 - **Do not say:**
+  - 'everyone else would bear the shame' alone → give the law's threat too: God's punishment, then the emperors' (CTH 83603–83607; CTL 6885).
   - "Damasus started the riot" or "Ursinus started the riot" as fact → each side's account, credited (E1–E11).
   - "Damasus's men used clubs" as fact → the clubs are in the Ursinian account; Ammianus says only that both sides fought until men were wounded and killed.
   - Merge the counts → "137 in one day, by Ammianus; 160, by Ursinus's party". Keep "men and women" for the 160 (AVE 5166).

@@ -87,6 +87,7 @@ File keys: G = `cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml`; SS = `
   - Egeria, a pilgrim whose name and date are reconstructed by modern scholars: beside the pattern in What came of them. Say that she never names the bishop.
   - The whole life does not rest on one witness. The doubt over his election is told as three voices side by side (beat 3).
 - **Do not say:**
+  - Egeria's applause quote with no setting after the forty days → introduce it as Easter week, in the tomb chapel (EG 5908–5926).
   - "Cyril wrote his lectures" → "his hearers took them down as he spoke, an old note in one copy says".
   - 'The shout stays in the text because they took him down as he spoke' → the shout is in the text because Cyril answers it; the note says only that the lectures were taken down when spoken.
   - 'John wrote of our custom' → 'Jerome, writing against John, says it was the custom among them'

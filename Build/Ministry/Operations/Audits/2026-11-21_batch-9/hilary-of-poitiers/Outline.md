@@ -113,6 +113,7 @@ Nine names, past the warning: each acts in the story or is a tree link the conne
 - **Rufinus** (c. 402), Augustine (c. 400-420), Cassian (430), Socrates (c. 440), Theodoret (c. 447): later readers, credited in what came of him.
 
 **Do not say:**
+  - "terrified by threats" for Ariminum. Say: pressed by the emperor's threats (Sulpicius II.43-44); "terrified by threats" is his phrase for the Eastern deputies at Constantinople (NPNF211 11396-11398).
 - "Hilary ordained Martin a deacon." Say: Hilary tried to make him a deacon; Martin refused; Hilary made him an exorcist.
 - "Martin came to learn from him." Say: Martin sought him out and stayed with him.
 - "He was exiled for refusing to condemn Athanasius." Say: Hilary says he was exiled by a faction, on false reports; Sulpicius says the exiles offered to cut off Athanasius if the faith were first examined.
