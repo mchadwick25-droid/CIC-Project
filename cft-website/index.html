@@ -131633,8 +131633,20 @@ function driftOffset(k,y){
 const WIDTH_MIN=6, WIDTH_RANGE=84, WIDTH_EXP=0.7;
 const WIDTH_SMOOTH_SIGMA=18, WIDTH_SMOOTH_REACH=45, WIDTH_SMOOTH_STEP=5;
 const laneMembers={}; laneKeys.forEach(k=>{laneMembers[k]=churchBodies.filter(m=>m.laneOrder===k);});
+// Members with start <= year <= end: the starts at or before the year, less the ends before it. Members
+// whose dates are not numbers, or whose start is after their end, can never be counted and are left out.
+const laneBounds={}; laneKeys.forEach(k=>{
+  const ok=laneMembers[k].map(m=>[+m.start,+m.end]).filter(([a,b])=>a<=b);
+  laneBounds[k]={starts:ok.map(x=>x[0]).sort((a,b)=>a-b), ends:ok.map(x=>x[1]).sort((a,b)=>a-b)};
+});
+function countUpTo(sorted,v,inclusive){
+  let lo=0, hi=sorted.length;
+  while(lo<hi){const mid=(lo+hi)>>1; if(inclusive?sorted[mid]<=v:sorted[mid]<v)lo=mid+1; else hi=mid;}
+  return lo;
+}
 function concurrentCount(laneOrder, year){
-  return laneMembers[laneOrder].filter(m=>m.start<=year && m.end>=year).length;
+  const b=laneBounds[laneOrder];
+  return countUpTo(b.starts,year,true)-countUpTo(b.ends,year,false);
 }
 function smoothedCount(k,year){
   let sum=0, wsum=0;
@@ -131945,7 +131957,10 @@ function layoutMarks(){
   churchBodies.forEach(m=>{const y=yearToY(m.start);items.push({m,ix:laneCenterX(m.laneOrder,y),iy:y});});
   (DATA.stories||[]).forEach(s=>{const y=yearToY(s.year);items.push({s,story:true,ix:laneCenterX(s.laneOrder,y),iy:y});});
   items.sort((a,b)=>a.iy-b.iy||a.ix-b.ix||String((a.m||a.s).id).localeCompare(String((b.m||b.s).id)));
-  items.forEach(it=>{it.x=it.ix;it.y=it.iy;it.rects=markRects(it);});
+  items.forEach(it=>{
+    it.x=it.ix;it.y=it.iy;it.rects=markRects(it);
+    it.box=[Math.min(...it.rects.map(r=>r[0])),Math.min(...it.rects.map(r=>r[1])),Math.max(...it.rects.map(r=>r[2])),Math.max(...it.rects.map(r=>r[3]))];
+  });
   for(let iter=0;iter<LAYOUT_ITER;iter++){
     const dx=new Float64Array(items.length), dy=new Float64Array(items.length);
     let moved=false;
@@ -131955,6 +131970,8 @@ function layoutMarks(){
         const b=items[j];
         if(b.y-a.y>120)break;
         if(Math.abs(b.x-a.x)>400)continue;
+        if(Math.min(a.x+a.box[2],b.x+b.box[2])-Math.max(a.x+a.box[0],b.x+b.box[0])+LAYOUT_PAD<=0)continue;
+        if(Math.min(a.y+a.box[3],b.y+b.box[3])-Math.max(a.y+a.box[1],b.y+b.box[1])+LAYOUT_PAD<=0)continue;
         const o=rectsOverlap(a.rects,a.x,a.y,b.rects,b.x,b.y);
         if(!o)continue;
         moved=true;
@@ -132246,11 +132263,11 @@ function drawWhoRows(){
   const hit=(a,b)=>a[0]<b.x1&&a[2]>b.x0&&a[1]<b.y1&&a[3]>b.y0;
   items.forEach(it=>{if(it.box&&!it.g.classList.contains('who-lit')&&boxes.some(b=>hit(b,it.box)))it.g.classList.add('who-under');});
 }
-function renderWho(){
+function renderWho(fitLater){
   svg.classList.toggle('who-on',!!whoScope);
   whoPick=whoScope?scopePeople(whoScope):null;
   syncWhoControls();
-  labelFitRun();
+  if(fitLater)scheduleLabelFit();else labelFitRun();
   drawWhoNames();
   renderTray();
   queueAutoWho();
@@ -132723,9 +132740,10 @@ function trayRowHTML(a,withTrad){
 }
 function renderTray(){
   if(storyScope){renderStoryTray();return;}
+  const wasHidden=tray.hidden;
   document.body.classList.toggle('tray-open',!!whoScope);
   tray.hidden=!whoScope;
-  applyTransform();
+  if(!(wasHidden&&tray.hidden))applyTransform();
   if(!whoScope)return;
   const n=whoPick.all.length, sc=whoScope, era=sc.type==='river'?eras[sc.era]:null;
   tray.querySelector('h2').textContent=whoScopeLabel(sc);
@@ -133146,7 +133164,7 @@ function render(){
     gStories.appendChild(g);
   });
 
-  renderWho();
+  renderWho(true);
   applyDetail();
 }
 function renderAcross(){

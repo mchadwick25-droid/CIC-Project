@@ -5269,6 +5269,20 @@ Mechanical, with it: `tools/list_second_readings.py --requests <batch folder> --
 2. At release, each ruling Mark made in the batch is listed with where it now lives: the kit line it changed, or "this batch only" (Kit, Part 4, step 8; `roles/release.md`).
 3. Every batch is launched from `Brief-Kit/Launch_Template.md`, with its blanks filled in and nothing else (Kit, Part 4). Recording settings are pointed to in the last batch's folder, not copied.
 
+## 2026-11-22 — Recording settings in one locked file (Mark)
+
+**Why.** Filling in the launch template for batch 10, its Recording line pointed to the last batch's folder, and batch 9 recorded no councils, so the council voice was nowhere a session would look. Batch 10, Antioch to Chalcedon, is likely to hold councils.
+
+**Decided (Mark, 2026-11-22: "One settings file (Recommended)").** Both voices and their exact settings, as used in batch 9's person runs and batch 7's council run, are in `Brief-Kit/Recording_Settings.md`, under the kit's lock. The launch template's Recording line and Kit, Part 4, step 9 point there.
+
+**Decided (Mark, 2026-11-22: "yes make that last line clearer").** The template's last line, which read "fill in this template" inside a filled-in launch prompt, now names the template by its path.
+
+## 2026-11-22 — The slate checks each home tradition's direct line (Mark)
+
+**Why.** Mark: "make sure you add the recent work on direct links for churchs on the cards". Since "Cards and tradition pages separate direct descent from influence" (2026-11-22), a tradition's card shows its direct line (continued as, gave rise to, broke with, between traditions only), and 107 of 350 traditions have none recorded. Batch 10, Antioch to Chalcedon, tells the splits of the Church of the East and the churches that rejected Chalcedon, so its stories may tell a descent or a break the cards lack or contradict.
+
+**Decided (Mark, 2026-11-22: "Check at the slate (Recommended)").** Kit, Part 4, step 0, and the launch template's slate line: each story's home tradition is shown with its direct line as its card shows it, and any descent or break the story will tell that the census lacks or contradicts is flagged on the slate. Mark decides each census change there; a story never changes the census's links on its own. The batch 10 launch carries the same line.
+
 ## 2026-11-21 — Jovinian stays, and is rebuilt on the kit (Mark)
 
 **Why.** A check of every person's home tradition found Jovinian's page still live, though Mark ruled "Take it down" on 2026-11-11 because his book is lost and his four points survive only in his opponents. Asked how aligned those opponents are, the held record shows they split: the Maurist preface to Augustine's *De bono coniugali* (`cic/texts/augustine_opera-minora-catechetica-lat_migne-pl40.txt`, lines 25313–25325) says Jerome was reported to have defended virginity only by condemning marriage, and that Augustine wrote on the good of marriage first, about 401, so as not to give the same ground; it quotes Augustine reporting Jovinian's charge that the Catholics who set virginity above marriage were patrons of the Manichees.
@@ -5359,3 +5373,27 @@ Mark: "try the audio manifests idle load".
 **Result.** No gain. Emulated Pixel 5, processor slowed four times, cache off, median of five, first names: Wi-Fi 4.9 s, 4G 5.2 s, slow 4G 6.9 s, against 4.3, 4.4 and 6.0 s without it (three runs each; the runs vary by about 1 s). Bytes at that point fell from about 0.55 MB to 0.45 MB on slow 4G, but time did not follow: the drawing work after the page arrives sets the pace.
 
 **Decided.** Not shipped; the code was not committed. The next gain has to come from the drawing work or from the page's start-up script, not from the manifests.
+
+## 2026-11-22 — Phone loading: the start-up drawing work, safe fixes first
+
+Mark chose "Safe fixes first" from three scopes (safe fixes; safe fixes plus a deferred People layer; fewer SVG nodes).
+
+**Found.** A processor profile of start-up on the emulated phone (network out of the picture) showed about 5 s of work: about 1.6 s the browser's own parsing, style and paint, and about 2.8 s the page's start-up script. Inside the script, label fitting ran 4 times, river names were placed 4 times, era captions pinned 5 times, `rectsOverlap` was called about 867,000 times and `concurrentCount` about 160,000 times, and the People list, tray and 451 people marks were built while People was off and the tray hidden.
+
+**Changed (four fixes, no change to what the map shows).** (1) `concurrentCount` counts lane members by binary search on sorted starts and ends; it matched the old count on every lane and year tried (0 mismatches) and runs about 7 times faster. (2) The mark collision test checks a bounding box first; the calls to `rectsOverlap` fall from about 867,000 to about 60,000. (3) The first label fit at start-up, which a scheduled fit repeats, is skipped. (4) `renderTray` no longer re-applies the map transform when the tray was hidden and stays hidden.
+
+**Proof.** The whole SVG, every mark position, the lane samples and the tray state are identical to the previous page at the opening view and after zoom, People, Stories and who-list open and close, at 1440 px and on the emulated phone (0 differences in 14 comparisons). The full page and slim page still give identical cards on all 1,231 comparisons. Screenshots: 12 of 14 are pixel-identical straight away; the desktop who-list one differed only because it was taken sooner and is identical when taken later; the phone opening view differs by 11 antialiased pixels at one river edge, with the DOM identical (a raster difference, not a layout one). Tests: slim-data and worker pass; the map-view test's two known iPhone failures are unchanged.
+
+**Timings.** Emulated Pixel 5, processor slowed four times, cache off, median of five, first names, previous page against this one: Wi-Fi 4.7 s to 3.8 s; 4G 4.7 s to 3.9 s; slow 4G 6.3 s to 5.4 s. The estimate (about 3 s and about 5 s) is not yet met.
+
+**Not done, still open.** Building the People list and marks only when used (about 0.7 s, changes when elements exist); fewer SVG nodes at start (the map is about 9,700 nodes; the largest gain on the browser's 1.6 s, and the riskiest); the tour's per-frame placement (about 0.1 s).
+
+## 2026-11-22 — Phone loading: the start-up fixes are merged and live
+
+Mark: "Converged, auto mode: merge it".
+
+**Done.** Pull request 1777 merged (all CI checks green). The new code is live on `www.churchfamilytree.com`. A card, a link card and a deep link to Donatism open on the live page with no errors, and the Donatism card is full.
+
+**Live timings.** Same emulated Pixel 5, processor slowed four times, cache off, median of five, first names, over the real network: Wi-Fi 4.3 s, 4G 4.2 s, slow 4G 6.4 s. The live page before these fixes measured 4.7, 5.2 and 6.8 s. The gain live (about 0.4 to 1.0 s) is smaller than on the local server (about 0.8 to 0.9 s, 4.7 to 3.8 s on Wi-Fi), and the live runs vary by about 1 s, so the two do not clearly differ. Tapping a mark to a filled card: 0.36 to 0.45 s.
+
+**Still open.** The estimate (about 3 s on Wi-Fi, about 5 s on slow 4G) is not met. Next options, each Mark's call: build the People list and marks only when used (about 0.7 s); fewer SVG nodes at start; the tour's per-frame placement.
