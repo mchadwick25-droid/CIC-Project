@@ -28,3 +28,6 @@ The card's `uncertain` note is accurate: both prints are damaged, and the verb d
 5. Checked at card: "of one substance" matches Watson's print word for word (9674). For the Greek words, checked by hand, "like in substance" renders ὁμοιούσιον and "one in substance" renders ὁμοούσιον (9860-9861). "substance" renders "Ousia" (npnf211 11300). "like" shortens ὁμοιούσιον. The card notes that, and in the brief "like" refers back to "like in substance" in the sentence before.
 6. Not found: Watson's "born about 300" is left as it is, correctly. Nothing clearly wrong is left in.
 7. There is no census entry to check.
+
+## No-clean-print ruling applied (coordinator, 2026-11-22)
+Mark, "Approve both as recommended" (Decision-Log, "Batch 9: two quoted spans with no clean print"). The brief sentence and the card entry changed as the page worded them; `briefReferences[4]` of the Hilary card now reads "the letters Hilary brought".

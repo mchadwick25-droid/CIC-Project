@@ -36,3 +36,6 @@ The card cannot settle this itself.
 ## Not found, left in
 
 - "His master's tomb" (an `uncertain` line in the starting card) glosses Philostorgius's "the master". It is listed as not found, and it is not wrong, so it stays.
+
+## No-clean-print ruling applied (coordinator, 2026-11-22)
+Mark, "Approve both as recommended" (Decision-Log, "Batch 9: two quoted spans with no clean print"). The brief sentence and the card entry changed as the page worded them; `briefReferences[4]` of the Hilary card now reads "the letters Hilary brought".

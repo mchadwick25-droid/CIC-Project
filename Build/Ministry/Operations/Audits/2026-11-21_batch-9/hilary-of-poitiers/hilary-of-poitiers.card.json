@@ -151,7 +151,7 @@
     "On the Councils, preface and opening: the bishops of Gaul and Britain; the Gallic bishops' request that he set out what the Eastern bishops had confessed.",
     "Sulpicius Severus, Chronicle II.39-45, tr. Alexander Roberts: Saturninus, Béziers and the exile, Seleucia, Constantinople, Ariminum and the word Ousia, the return to Gaul, Saturninus cast out, Lucifer, the death in the sixth year after his return. The verdict that Hilary alone freed Gaul is in II.45.",
     "Sulpicius Severus, Life of Martin 5 and 7: Martin sought him out, the diaconate refused, the office of exorcist; Martin followed him home and set up a monastery.",
-    "Gallic bishops' letter to the Eastern bishops, 360-361, in the Collectanea antiariana Parisina (CSEL 65): the letters entrusted to Hilary, the devil's fraud, East and West divided; Auxentius cut off.",
+    "Gallic bishops' letter to the Eastern bishops, 360-361, in the Collectanea antiariana Parisina (CSEL 65): the letters Hilary brought, the devil's fraud, East and West divided; Auxentius cut off.",
     "Hilary, Against Auxentius 9: Milan in 364, the orthodox-sounding confession, the order to leave.",
     "Jerome, Lives of Illustrious Men 100: bishop of Poitiers; twelve books against the Arians. Jerome, Chronicle: On the Trinity and Gaul condemning the tricks of Ariminum.",
     "World census, Nicene Gaul: his tradition."
@@ -208,14 +208,6 @@
       "lines": "11300",
       "secondReading": "checked at card",
       "uncertain": "Roberts prints the Greek word in Latin letters; \"substance\" is its plain sense, as in his own \"of one substance\" at lines 11302-11303."
-    },
-    {
-      "modern": "From your letters, which you entrusted to our dear brother and fellow bishop Hilary, we have learned the devil's fraud. We have learned how the minds of heretics plotted against the Lord's church. So we were split between East and West, and misled by each other's differing opinions.",
-      "printed": "ex litteris enim uestris, quas dilccto fratri et consacerdoti nostro Hilario credidistis. (raudem diaboli et conspirantia aduersus 10 ccclcsiam domini haereticorum ingenia cognouimus. ut diuisi in partibus Orientis atque (lccidcntis diuersis inuiccm opinionibus 70' ' faUeremur",
-      "work": "Letter of the Gallic bishops to the Eastern bishops, 360-361, Collectanea antiariana Parisina, ed. Feder",
-      "file": "cic/texts/hilary_collectanea-antiariana-parisina-fragmenta-historica-lat_feder1916-csel65.txt",
-      "lines": "6815-6820",
-      "uncertain": "No English print is held, and both Latin prints are damaged. OCR spellings and stray line numbers are kept as printed (dilccto is dilecto, (raudem is fraudem, ccclcsiam is ecclesiam, (lccidcntis is occidentis, faUeremur is falleremur). The Migne text, at lines 56742-56744 of the file for On the Councils and the fragments, reads \"direxistis\" (sent to) where Feder has \"credidistis\" (entrusted to); the modern English follows Feder."
     },
     {
       "modern": "All agree on this: by the good work of Hilary alone, our provinces of Gaul were freed from the guilt of heresy.",

@@ -5218,3 +5218,11 @@ Mark, posting to LinkedIn: "the linked in cant display a preview and its not pul
 **Decided (Mark, 2026-11-22: "Approve both").**
 1. Cyril of Jerusalem runs about 4:50. Two sentences go to the card: Theodoret's later quoting of the fourth lecture, and Egeria's order of teaching. Her own quote and the note that she never names the bishop stay.
 2. Epiphanius of Salamis runs about 4:45, unchanged.
+
+## 2026-11-22 — Batch 9: two quoted spans with no clean print (Mark)
+
+**Why.** The card checks (`Card_Check.md` in each folder of `Build/Ministry/Operations/Audits/2026-11-21_batch-9/`) found two places where the story quotes words that no clean held print stands behind, under the originals rule of `Build/Ministry/Operations/Audits/2026-11-19_batch-6/Batch_Originals_Ruling.md` (https://claude.ai/artifact/BFgtGwHhWPgP2ywtRZsBGb).
+
+**Decided (Mark, 2026-11-22: "Approve both as recommended").**
+1. Eunomius of Cyzicus: Basil's answer is told in the narrator's words, without quotation marks, and its card entry goes. Its Greek is held only in one unchecked OCR scan of PG 29, and no English of the sentence is held.
+2. Hilary of Poitiers: the bishops of Gaul's letter is told in the narrator's words, credited to them, and its card entry goes ("the letters Hilary brought", which holds under both prints' verbs). Its Latin is held only in two damaged prints that differ at the verb; the card keeps the variant under `uncertain`.
