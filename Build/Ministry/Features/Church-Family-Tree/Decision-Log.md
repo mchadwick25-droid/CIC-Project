@@ -5397,3 +5397,17 @@ Mark: "Converged, auto mode: merge it".
 **Live timings.** Same emulated Pixel 5, processor slowed four times, cache off, median of five, first names, over the real network: Wi-Fi 4.3 s, 4G 4.2 s, slow 4G 6.4 s. The live page before these fixes measured 4.7, 5.2 and 6.8 s. The gain live (about 0.4 to 1.0 s) is smaller than on the local server (about 0.8 to 0.9 s, 4.7 to 3.8 s on Wi-Fi), and the live runs vary by about 1 s, so the two do not clearly differ. Tapping a mark to a filled card: 0.36 to 0.45 s.
 
 **Still open.** The estimate (about 3 s on Wi-Fi, about 5 s on slow 4G) is not met. Next options, each Mark's call: build the People list and marks only when used (about 0.7 s); fewer SVG nodes at start; the tour's per-frame placement.
+
+## 2026-11-22 — Family line view, line-end labels and the phone peek strip
+
+Mark: "Build C, lime for one step and forest for the full line." On the first markers: "they dont look like they are extentions of the line, it should be the same color, no button and sit on the line near the bottom of the page." On the phone card: "Option 1, peek strip."
+
+**Decided.** Option C, a map view of a tradition's family line, is built. A tradition card has a Family line button under Connections. It lights every ancestor and descendant joined by "continued as" or "gave rise to", tradition to tradition, and dims the rest. A chip at top left names the tradition and counts the line. One-step links keep the Connections view and turn lime (#b5e35c, from #86cf9c); the full line is forest green (#2e9e4f). Dashes still show how sure the record is.
+
+**Line-end labels.** Where a lit line runs past the screen edge, an arrow and the name of the tradition beyond it sit on the line at the crossing point, in the line's own color: forest in the Family line view, the link colors in the Connections view. No box or border. Tapping one moves the map there. Lines leaving close together merge into "Name and 1 more"; at most eight show. A first version with boxed buttons was rejected by Mark and replaced.
+
+**Phone peek strip.** On a phone the card covers about nine-tenths of the screen. Connections and Family line still close the card, and a strip stays above the tab bar with the tradition's name and "Open card". The map is fitted above it. Opening the card hides the strip; closing the card brings it back while the lines are lit; clearing the lines removes it.
+
+**Result.** Tested in a browser on desktop and an emulated iPhone 13 with no page errors. On the longest tested line (Syriac Edessa, 14 traditions) the labels name the next traditions down the line and each tap moves one step along it.
+
+**Not done.** No real-phone test. No test with colorblind readers (Open-Gaps 363). A general "show all connections" setting on phones was not asked for and stays off.
