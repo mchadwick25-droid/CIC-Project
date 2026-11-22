@@ -5411,3 +5411,12 @@ Mark: "Build C, lime for one step and forest for the full line." On the first ma
 **Result.** Tested in a browser on desktop and an emulated iPhone 13 with no page errors. On the longest tested line (Syriac Edessa, 14 traditions) the labels name the next traditions down the line and each tap moves one step along it.
 
 **Not done.** No real-phone test. No test with colorblind readers (Open-Gaps 363). A general "show all connections" setting on phones was not asked for and stays off.
+## 2026-11-22 — Phone loading: deferring the People layer and caching layout reads were checked and dropped
+
+Mark: "Defer the People layer", then, shown the new profile, chose "Fix the layout reads instead".
+
+**People layer.** After the first four fixes, a fresh profile showed the People layer costs almost nothing at start-up: `renderWho` 13 ms, `drawWhoNames` 7 ms, `renderWhoPills` 8 ms, and the 451 people nodes about 5% of the page's nodes (roughly 6 ms). The 257 ms under `placeWhoMarks` is almost all `placeRiverNames`, which places river names. The 0.7 s first estimated had gone with the first-label-fit and tray fixes. Deferral would save about 20 ms of 4.5 s, so it was not built.
+
+**Layout reads.** `chromeTop`, `barHeight` and `openingScale` showed about 0.6 s of self time in the profile. Caching the top-bar and feature-bar heights (cleared on resize, on bar size change and when the bar is positioned) was tried on a scratch change: median of five, first names, `main` against the cached version, Wi-Fi 3.9 s and 4.3 s, 4G 4.3 s and 4.3 s, slow 4G 6.0 s and 5.5 s. The runs vary by about 0.6 s and the differences go both ways, so there is no measurable gain. The forced-layout time is mostly real layout work done early, not repeated work. The change was not committed.
+
+**Where that leaves start-up.** On the emulated phone about 1.4 s is the browser's own work (parsing, style, layout, paint of about 9,700 SVG nodes) and the page script's label fitting (three runs, about 1.1 s in total), mark layout, river-name placement and era captions make up most of the rest. Further gains would come from fewer nodes at start or fewer label-fit runs, each a larger change needing Mark's call.
