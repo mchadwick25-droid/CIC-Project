@@ -95,6 +95,7 @@ File abbreviations as in `Source_Sheet.md` (SOC, SOC-G, THD, THD-G, PHI, ATH, AT
   - The eunuch Eusebius of Constantius's court (SOC 5712-5713; PHI 208) is a different man; give him no act.
   - "Homoian", or "a Homoian bishop", for him or his party → "Arius's side" or "the party that took up Arius's cause". The tradition is named Homoian for a creed made after his death; he is its forerunner, not a Homoian. Do not name the tradition by its census name in the story.
   - Any year for Ulfila's consecration, or "under Constantine" as fact → "Philostorgius sets it at Constantine's court; the modern historian who names this Eusebius sets it under his son Constantius."
+  - The modern historian's date for Ulfila given alone → give both: 'Philostorgius sets it at Constantine's court; a modern historian sets it under Constantius.'
   - "Athanasius threatened the grain ships" as fact → "they told the emperor Athanasius had threatened them; Socrates calls it slander."
   - Lives lost in Constantinople put in his lifetime or on his acts → "after his death, in the fight over the city's bishop, Socrates says many lives were lost."
 - **Leave out:**

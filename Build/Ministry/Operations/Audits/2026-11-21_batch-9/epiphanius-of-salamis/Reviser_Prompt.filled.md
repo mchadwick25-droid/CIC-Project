@@ -1,7 +1,7 @@
 # Batch header
 
 - **Story:** Epiphanius of Salamis (census id `epiphanius-of-salamis`). **Folder:** `Build/Ministry/Operations/Audits/2026-11-21_batch-9/epiphanius-of-salamis/`.
-- **Length (Mark, 2026-11-21):** about 4:30 at most, about 675 words by the scorer.
+- **Length (Mark, 2026-11-21):** about 4:30 at most, about 675 words by the scorer. The review finds that restoring the approved heart may not fit. Restore every heart item the review names in full, make every cut it names, and if the story still runs past 675, leave it long and say by how many words in `Revision.md`: Mark rules on that length after the recheck. Never cut heart, force or a credited disagreement to meet 675.
 
 ---
 

@@ -50,3 +50,7 @@ One row per agent pass: the subagent's own token count as the harness reports it
 | Eunomius | 4 Review | Opus | 128,498 | REVISE, 3 blocking |
 | Damasus | 4 Review | Opus | 133,474 | REVISE, 4 blocking |
 | Eusebius of Nicomedia | 4 Review | Opus | 143,273 | REVISE, 2 blocking |
+| Gregory of Nazianzus | 4 Review | Opus | 152,773 | PASS, minors for the card |
+| Cyril | 4 Review | Opus | 131,464 | REVISE, 2 blocking |
+| Epiphanius | 4 Review | Opus | 146,363 | REVISE, 4 blocking |
+| Apollinaris | 5 Revision | Sonnet | 97,671 | 671 words |

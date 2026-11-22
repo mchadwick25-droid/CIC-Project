@@ -113,6 +113,9 @@ Census id `damasus-of-rome`. Tradition: Church and Empire. References are to `So
   - "the nominee of the Arian party" → the translator's claim (THD 10208); never use.
   - "a Spaniard" → late and disputed (LPD 127130; 127685–127688); leave out.
   - The Apollinaris teaching as "Christ had no soul" → Rufinus says he first said no soul, then a soul without its reasoning part, the Word filling it (RUF 30638–30646). Use the second.
+  - "when emperors first took sides in its quarrels" → "when emperors took sides in its quarrels" (emperors took sides from Constantine on; Liberius was exiled, AVE 5052–5058).
+  - a bridge from the law of 380 into the Macarius case, such as "The cost fell on those who refused" → begin the petition with no bridge to the law (AVE 6673–6684, undated, citing no law).
+  - "his epitaph stands over his grave" or "can still be seen" → "his epitaph" (text from De Rossi's collection, LPD 128200–128201).
 - **Leave out:**
   - The charge brought by Isaac, beyond one clause in beat 5: its nature is unknown (LPD 127972–128007), and the Liber Pontificalis's "adultery" is modelled on a later pope.
   - Priscillian turned away (Sulpicius 11546–11563): told on `priscillian`, its quote barred.

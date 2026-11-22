@@ -89,6 +89,8 @@ Line references are to `Source_Sheet.md` rows (S, E, C, A, B, X, T, D, I), each 
   - "His books were all lost" → his Apology survives (I8).
   - "Substance" unglossed → "being" (Words to explain).
   - Any year of birth or death → none is held (D3).
+  - "He died soon after" placed after the law of 398 → "He died not long after his banishment" (Sozomen, D1), told before the law of 398.
+  - "his book survives only in a summary" said of Philostorgius where Eunomius is the subject → "Philostorgius's history survives only in a hostile summary by Photius" (Who tells it; Philostorgius 52).
 - **Leave out:**
   - The trial dispute: Gregory's "imaginary court" and Eunomius's "condemned by default" (D-c): a sharp exchange, but a second argument on top of the idea; card.
   - Socrates's "God knows no more of his own substance than we do" (D-e): not in the Apology; card.
