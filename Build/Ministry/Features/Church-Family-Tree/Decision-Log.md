@@ -5244,3 +5244,18 @@ Mark, posting to LinkedIn: "the linked in cant display a preview and its not pul
 2. "A": Evagrius's quote of Praktikos 6 is Dysinger's English word for word (CC BY 4.0, credited on the card), not a rewording of it, since the tree quotes its own English only of an original or of English printed before 1931. Evagrius was re-recorded.
 
 **Result.** Twelve requests, 21,104 credits, under the 24,000 cap; the balance moved from 506,707 to 527,811 (`Build/Ministry/Operations/Audits/2026-11-21_batch-9/recording/Balance.md`).
+## 2026-11-21 — Jovinian stays, and is rebuilt on the kit (Mark)
+
+**Why.** A check of every person's home tradition found Jovinian's page still live, though Mark ruled "Take it down" on 2026-11-11 because his book is lost and his four points survive only in his opponents. Asked how aligned those opponents are, the held record shows they split: the Maurist preface to Augustine's *De bono coniugali* (`cic/texts/augustine_opera-minora-catechetica-lat_migne-pl40.txt`, lines 25313–25325) says Jerome was reported to have defended virginity only by condemning marriage, and that Augustine wrote on the good of marriage first, about 401, so as not to give the same ground; it quotes Augustine reporting Jovinian's charge that the Catholics who set virginity above marriage were patrons of the Manichees.
+
+**Decided (Mark, 2026-11-21: "b").** This replaces "Jovinian: Take it down" (2026-11-11). Jovinian's page stays. He keeps his place, told within no tradition, in the Latin West river, and his story is rebuilt on the kit in era 2's batch 12 (Rome's ascetic women, and Augustine's Africa), with how his opponents answered him and one another as its spine.
+
+## 2026-11-21 — People on the map at the two farthest zoom levels, on a computer
+
+Mark, looking at the tree: "at the 2 most zoomed out levels and you turn on the who you only get the rivers, then little profiles next to the traditions etc. it does not feel populated. i would like the profiles to appear next to the profile with the number next to it (not circled like the river, but same layout). then the actual names appearing as there is space like the traditions do". Then: "im looking at desktop, phones may need to accomodate differently".
+
+**Cause.** The profile mark beside a tradition turned on at zoom 1.0 and people's names at 1.91; the two farthest levels are about 0.45 and 0.5. So only the circled river counts and a few single icons showed there.
+
+**Built (on a computer only; phones are unchanged until Mark rules on them).** With People on, from the farthest zoom: (1) each tradition whose name is shown gets the people mark beside its name, the person icon with the number of profiles, in the river count's layout but with no ring (one profile shows the single icon, as the river count does); (2) the names of its people stack under the tradition's name, in italic, one line each, as room allows. Both are placed after every tradition name, so they never take a tradition name's room: a mark that would land on something is left out, and a name that would land on a river, a council mark or another label ends that tradition's stack. Above zoom 1.0 and at Church in Conversation's deeper levels nothing changes. Clicking the mark opens that tradition's people list; clicking a name opens the person's card.
+
+**Checked on a local copy.** Tradition names shown are the same with People on as off at every zoom tried (119 at the farthest, 350 further in); a phone-sized screen shows no marks or names below zoom 1.0, as before; no page errors; the layout run takes about 24 ms against 22 ms. Status: waiting on Mark's look at screenshots before merge.
