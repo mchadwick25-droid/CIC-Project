@@ -62,6 +62,13 @@ li{margin-bottom:.5rem}
 .lineage-section.link-conflict{border-left-color:var(--link-conflict)}.lineage-section.link-conflict h3{color:var(--link-conflict)}
 .lineage-section.link-contact h3{color:var(--link-contact)}
 .lineage-list{list-style:none;padding:0}
+.lineage-section h4{font-size:1.05rem;margin:.2rem 0 .4rem}
+.lineage-section.link-influence h4{color:var(--link-influence)}.lineage-section.link-conflict h4{color:var(--link-conflict)}.lineage-section.link-contact h4{color:var(--link-contact)}.lineage-section.link-grow h4{color:var(--link-grow)}
+.lineage-rest-heading{margin:2rem 0 .2rem}
+.lineage-kind{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;color:var(--muted);margin-right:.2rem}
+.lineage-none{color:var(--muted);font-style:italic}
+.lineage-strip{display:flex;flex-wrap:wrap;gap:.3rem .7rem;align-items:baseline;font-family:var(--sans);font-size:.95rem;background:var(--surface);border-radius:4px;padding:.55rem .8rem;margin:1rem 0 0}
+.lineage-arrow{color:var(--muted)}
 .lineage-list li{margin:0 0 .5rem;padding:0}
 .lineage-list a{color:var(--action)}
 .confidence-note{font-style:italic;color:var(--muted);font-size:.95rem}
@@ -165,26 +172,35 @@ li{margin-bottom:.5rem}
   
 
   <section>
-    <h2>In Its Own Record</h2>
-    <div class="lineage-section link-influence">
-<h3>Influenced</h3>
+    <h2>Connections</h2>
+    <div class="lineage-section link-grow">
+<h3>Descended from</h3>
+<p class="lineage-none">No direct parent is recorded.</p>
+</div>
+<div class="lineage-section link-grow">
+<h3>Direct descendants</h3>
+<p class="lineage-none">No direct descendant is recorded. Its other links are influence, argument and contact.</p>
+</div>
+<h3 class="lineage-rest-heading">Influence, argument and contact</h3>
+<div class="lineage-section link-influence">
+<h4>Influenced</h4>
 <ul class="lineage-list">
-<li id="gallic-nicene-episcopate--gallic-monastic-ascetic-christianity"><a href="gallic-monastic-ascetic-christianity.html">Gallic Monastic-Ascetic Christianity</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Sulpicius Severus says Martin of Tours sought out Bishop Hilary of Poitiers and lived with him for a time. Hilary made him an exorcist. When Hilary came back from his exile, Martin set up a house for monks near the town. He had set one up at Milan before that.</span></li>
-<li id="gallic-nicene-episcopate--latin-pastoral-congregational-christianity"><a href="latin-pastoral-congregational-christianity.html">Latin Pastoral-Congregational Christianity</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Augustine quotes Hilary in his own book On the Trinity. He gives Hilary&#039;s short formula for the three persons and names Hilary&#039;s book as its source. He calls Hilary a man of real authority on Scripture and the faith.</span></li>
-<li id="gallic-nicene-episcopate--merovingian-gallic-christianity"><a href="merovingian-gallic-christianity.html">Merovingian Gallic Christianity</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Gregory of Tours wrote in the late sixth century. He tells how a light from Hilary&#039;s church at Poitiers shone over King Clovis as he marched against the Arian Visigoths. Gregory saw it as Hilary&#039;s help against &#039;those heretics&#039; he had once fought. He calls Hilary a defender of the Trinity who was sent into exile for its sake.</span></li>
+<li id="gallic-nicene-episcopate--gallic-monastic-ascetic-christianity"><span class="lineage-kind">influenced</span> <a href="gallic-monastic-ascetic-christianity.html">Gallic Monastic-Ascetic Christianity</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Sulpicius Severus says Martin of Tours sought out Bishop Hilary of Poitiers and lived with him for a time. Hilary made him an exorcist. When Hilary came back from his exile, Martin set up a house for monks near the town. He had set one up at Milan before that.</span></li>
+<li id="gallic-nicene-episcopate--latin-pastoral-congregational-christianity"><span class="lineage-kind">influenced</span> <a href="latin-pastoral-congregational-christianity.html">Latin Pastoral-Congregational Christianity</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Augustine quotes Hilary in his own book On the Trinity. He gives Hilary&#039;s short formula for the three persons and names Hilary&#039;s book as its source. He calls Hilary a man of real authority on Scripture and the faith.</span></li>
+<li id="gallic-nicene-episcopate--merovingian-gallic-christianity"><span class="lineage-kind">influenced</span> <a href="merovingian-gallic-christianity.html">Merovingian Gallic Christianity</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Gregory of Tours wrote in the late sixth century. He tells how a light from Hilary&#039;s church at Poitiers shone over King Clovis as he marched against the Arian Visigoths. Gregory saw it as Hilary&#039;s help against &#039;those heretics&#039; he had once fought. He calls Hilary a defender of the Trinity who was sent into exile for its sake.</span></li>
 </ul>
 </div>
 <div class="lineage-section link-conflict">
-<h3>Argued Against</h3>
+<h4>Argued Against</h4>
 <ul class="lineage-list">
-<li id="gallic-nicene-episcopate--homoian-arian-christianity"><a href="homoian-arian-christianity.html">Homoian (&#039;Arian&#039;) Christianity</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">Phoebadius of Agen wrote a Book Against the Arians. Hilary of Poitiers wrote On the Councils to the bishops of Gaul and Britain. He praises them for condemning the creed sent from Sirmium. He also says they had refused communion to Saturninus of Arles.</span><span class="lineage-outcome"><i>Lasting result:</i> The bishops of Gaul refused communion to Saturninus. They condemned the creed sent to them from Sirmium as soon as it came.</span></li>
-<li id="gallic-nicene-episcopate--imperial-juridical-christianity"><a href="imperial-juridical-christianity.html">Imperial and Juridical Christianity</a> <span class="lineage-confidence">Widely Accepted</span> — <span class="confidence-note">In On the Councils, Hilary writes to the Eastern bishops. He says Arian bishops misled the emperor into forcing a form of faith on the churches. Hilary stood against the emperor&#039;s creed.</span></li>
+<li id="gallic-nicene-episcopate--homoian-arian-christianity"><span class="lineage-kind">argued against</span> <a href="homoian-arian-christianity.html">Homoian (&#039;Arian&#039;) Christianity</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">Phoebadius of Agen wrote a Book Against the Arians. Hilary of Poitiers wrote On the Councils to the bishops of Gaul and Britain. He praises them for condemning the creed sent from Sirmium. He also says they had refused communion to Saturninus of Arles.</span><span class="lineage-outcome"><i>Lasting result:</i> The bishops of Gaul refused communion to Saturninus. They condemned the creed sent to them from Sirmium as soon as it came.</span></li>
+<li id="gallic-nicene-episcopate--imperial-juridical-christianity"><span class="lineage-kind">argued against</span> <a href="imperial-juridical-christianity.html">Imperial and Juridical Christianity</a> <span class="lineage-confidence">Widely Accepted</span> — <span class="confidence-note">In On the Councils, Hilary writes to the Eastern bishops. He says Arian bishops misled the emperor into forcing a form of faith on the churches. Hilary stood against the emperor&#039;s creed.</span></li>
 </ul>
 </div>
 <div class="lineage-section link-conflict">
-<h3>Opposed By</h3>
+<h4>Opposed By</h4>
 <ul class="lineage-list">
-<li id="imperial-juridical-christianity--gallic-nicene-episcopate"><a href="imperial-juridical-christianity.html">Imperial and Juridical Christianity</a> <span class="lineage-confidence">Widely Accepted</span> — <span class="confidence-note">Hilary of Poitiers was a bishop in Gaul. He says he was sent into exile after Saturninus won over the emperor. He adds that bishops who stood against the creed forced on the churches were driven out too.</span></li>
+<li id="imperial-juridical-christianity--gallic-nicene-episcopate"><span class="lineage-kind">argued against</span> <a href="imperial-juridical-christianity.html">Imperial and Juridical Christianity</a> <span class="lineage-confidence">Widely Accepted</span> — <span class="confidence-note">Hilary of Poitiers was a bishop in Gaul. He says he was sent into exile after Saturninus won over the emperor. He adds that bishops who stood against the creed forced on the churches were driven out too.</span></li>
 </ul>
 </div>
 

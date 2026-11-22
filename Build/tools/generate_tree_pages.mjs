@@ -87,6 +87,13 @@ li{margin-bottom:.5rem}
 .lineage-section.link-conflict{border-left-color:var(--link-conflict)}.lineage-section.link-conflict h3{color:var(--link-conflict)}
 .lineage-section.link-contact h3{color:var(--link-contact)}
 .lineage-list{list-style:none;padding:0}
+.lineage-section h4{font-size:1.05rem;margin:.2rem 0 .4rem}
+.lineage-section.link-influence h4{color:var(--link-influence)}.lineage-section.link-conflict h4{color:var(--link-conflict)}.lineage-section.link-contact h4{color:var(--link-contact)}.lineage-section.link-grow h4{color:var(--link-grow)}
+.lineage-rest-heading{margin:2rem 0 .2rem}
+.lineage-kind{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;color:var(--muted);margin-right:.2rem}
+.lineage-none{color:var(--muted);font-style:italic}
+.lineage-strip{display:flex;flex-wrap:wrap;gap:.3rem .7rem;align-items:baseline;font-family:var(--sans);font-size:.95rem;background:var(--surface);border-radius:4px;padding:.55rem .8rem;margin:1rem 0 0}
+.lineage-arrow{color:var(--muted)}
 .lineage-list li{margin:0 0 .5rem;padding:0}
 .lineage-list a{color:var(--action)}
 .confidence-note{font-style:italic;color:var(--muted);font-size:.95rem}
@@ -289,7 +296,7 @@ function isMajorEdge(edge) {
   return MAJOR_BY_TYPE.has(edge.type) || (typeof edge.outcome === 'string' && edge.outcome.trim() !== '');
 }
 
-function buildLineageHtml(movementId, movement) {
+function buildPlainLineageHtml(movementId, movement) {
   const incoming = edgesTo.get(movementId) || [];
   const outgoing = edgesFrom.get(movementId) || [];
   let html = '';
@@ -313,6 +320,88 @@ function buildLineageHtml(movementId, movement) {
     html += '</ul>\n</div>\n';
   }
   return html;
+}
+
+// A tradition's connections, grouped by kind: direct descent first (Mark, 2026-11-22: "lets stay with just
+// connecting the traditions"), then breaks, then influence, argument and contact. A person, a council or a
+// movement across churches keeps the plain list above.
+const DESCENT_TYPES = new Set(['gave rise to', 'continued as']);
+const PARENT_KIND = { 'gave rise to': 'grew out of', 'continued as': 'continues' };
+const isTradition = (m) => !!m && (!m.kind || m.kind === 'tradition');
+const bothTraditions = (e) => isTradition(movementMap.get(e.from)) && isTradition(movementMap.get(e.to));
+
+function lineageParts(movementId, movement) {
+  const incoming = edgesTo.get(movementId) || [];
+  const outgoing = edgesFrom.get(movementId) || [];
+  const descent = (e) => DESCENT_TYPES.has(e.type) && bothTraditions(e);
+  const split = (e) => e.type === 'broke with' && bothTraditions(e);
+  const rest = (e) => !descent(e) && !split(e);
+  const parents = incoming.filter(descent).map(e => ({ edge: e, otherId: e.from, kind: PARENT_KIND[e.type] }));
+  const children = outgoing.filter(descent).map(e => ({ edge: e, otherId: e.to, kind: e.type }));
+  const nextEntry = movement.continuesAs ? movementMap.get(movement.continuesAs) : null;
+  const next = nextEntry && !children.some(c => c.otherId === nextEntry.id) ? nextEntry : null;
+  const splits = outgoing.filter(split).map(e => ({ edge: e, otherId: e.to, kind: 'broke with' }))
+    .concat(incoming.filter(split).map(e => ({ edge: e, otherId: e.from, kind: 'broke with' })));
+  return { parents, children, next, splits, restIn: incoming.filter(rest), restOut: outgoing.filter(rest) };
+}
+
+function lineageItem(edge, otherId, kind) {
+  const other = movementMap.get(otherId);
+  let html = `<li id="${escapeHtml(edge.id)}"><span class="lineage-kind">${escapeHtml(kind)}</span> <a href="${other.id}.html">${escapeHtml(other.name)}</a>`;
+  html += ` <span class="lineage-confidence">${escapeHtml(edge.confidence)}</span>`;
+  if (isMajorEdge(edge)) html += ` <span class="lineage-major">Major</span>`;
+  if (edge.note) html += ` — <span class="confidence-note">${escapeHtml(edge.note)}</span>`;
+  if (edge.outcome) html += `<span class="lineage-outcome"><i>Lasting result:</i> ${escapeHtml(edge.outcome)}</span>`;
+  return html + '</li>\n';
+}
+
+function lineageGroup(family, heading, rows, none) {
+  let html = `<div class="lineage-section link-${family}">\n<h3>${heading}</h3>\n`;
+  html += rows.length ? `<ul class="lineage-list">\n${rows.join('')}</ul>\n` : `<p class="lineage-none">${none}</p>\n`;
+  return html + '</div>\n';
+}
+
+function buildTraditionLineageHtml(movementId, movement) {
+  const P = lineageParts(movementId, movement);
+  const others = P.restIn.length + P.restOut.length;
+  let html = lineageGroup('grow', 'Descended from', P.parents.map(x => lineageItem(x.edge, x.otherId, x.kind)), 'No direct parent is recorded.');
+  const kids = P.children.map(x => lineageItem(x.edge, x.otherId, x.kind));
+  if (P.next) {
+    const link = (edgesFrom.get(movementId) || []).find(e => e.type === 'continued as' && e.to === P.next.id);
+    kids.push(link ? lineageItem(link, P.next.id, 'continued as')
+      : `<li><span class="lineage-kind">continued as · not yet graded</span> <a href="${P.next.id}.html">${escapeHtml(P.next.name)}</a></li>\n`);
+  }
+  html += lineageGroup('grow', 'Direct descendants', kids, `No direct descendant is recorded.${others ? ' Its other links are influence, argument and contact.' : ''}`);
+  if (P.splits.length) html += lineageGroup('conflict', 'Broke With', P.splits.map(x => lineageItem(x.edge, x.otherId, x.kind)), '');
+  if (others) {
+    html += '<h3 class="lineage-rest-heading">Influence, argument and contact</h3>\n';
+    for (const [type, side, heading, family] of LINEAGE_HEADINGS) {
+      const items = [];
+      if (side !== 'out') P.restIn.filter(e => e.type === type).forEach(e => items.push([e, e.from]));
+      if (side !== 'in') P.restOut.filter(e => e.type === type).forEach(e => items.push([e, e.to]));
+      const rows = items.filter(([, otherId]) => movementMap.has(otherId));
+      if (!rows.length) continue;
+      html += `<div class="lineage-section link-${family}">\n<h4>${heading}</h4>\n<ul class="lineage-list">\n`;
+      rows.forEach(([edge, otherId]) => { html += lineageItem(edge, otherId, edge.type); });
+      html += '</ul>\n</div>\n';
+    }
+  }
+  return html;
+}
+
+function buildLineageStrip(movementId, movement) {
+  if (!isTradition(movement)) return '';
+  const P = lineageParts(movementId, movement);
+  if (!P.parents.length && !P.children.length && !P.next) return '';
+  const link = (id) => `<a href="${id}.html">${escapeHtml(movementMap.get(id).name)}</a>`;
+  const uniq = (a) => [...new Set(a)];
+  const left = uniq(P.parents.map(x => x.otherId)).map(link).join(' · ') || '<span class="lineage-none">no parent recorded</span>';
+  const right = uniq(P.children.map(x => x.otherId).concat(P.next ? [P.next.id] : [])).map(link).join(' · ') || '<span class="lineage-none">no descendant recorded</span>';
+  return `<nav class="lineage-strip" aria-label="Direct line of descent"><span>${left}</span><span class="lineage-arrow" aria-hidden="true">→</span><b>${escapeHtml(movement.name)}</b><span class="lineage-arrow" aria-hidden="true">→</span><span>${right}</span></nav>`;
+}
+
+function buildLineageHtml(movementId, movement) {
+  return isTradition(movement) ? buildTraditionLineageHtml(movementId, movement) : buildPlainLineageHtml(movementId, movement);
 }
 
 const worldsDataDir = path.join(rootDir, 'cic-website/data/worlds');
@@ -577,7 +666,7 @@ ${siteHeader('../')}
     <h1>${escapeHtml(movement.name)}</h1>
     ${toldWithinLine(movement)}
     ${KIND_LABEL[movement.kind] ? `<p class="kind-label">${escapeHtml(KIND_LABEL[movement.kind])}</p>` : ''}
-    ${isPerson && movement.card && movement.card.label ? `<p class="kind-label">${escapeHtml(movement.card.label)}</p>` : ''}
+    ${isPerson && movement.card && movement.card.label ? `<p class="kind-label">${escapeHtml(movement.card.label)}</p>` : ''}${buildLineageStrip(movement.id, movement)}
   </div>
   ${isPerson ? personCard.facts : isCouncil ? councilParts.facts : ''}
 
@@ -608,7 +697,7 @@ ${siteHeader('../')}
   ${isCouncil ? councilParts.after : ''}
 
   ${lineage ? `<section>
-    <h2>In Its Own Record</h2>
+    <h2>${isTradition(movement) ? 'Connections' : 'In Its Own Record'}</h2>
     ${lineage}
   </section>` : ''}
 

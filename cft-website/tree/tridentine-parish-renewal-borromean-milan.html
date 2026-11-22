@@ -62,6 +62,13 @@ li{margin-bottom:.5rem}
 .lineage-section.link-conflict{border-left-color:var(--link-conflict)}.lineage-section.link-conflict h3{color:var(--link-conflict)}
 .lineage-section.link-contact h3{color:var(--link-contact)}
 .lineage-list{list-style:none;padding:0}
+.lineage-section h4{font-size:1.05rem;margin:.2rem 0 .4rem}
+.lineage-section.link-influence h4{color:var(--link-influence)}.lineage-section.link-conflict h4{color:var(--link-conflict)}.lineage-section.link-contact h4{color:var(--link-contact)}.lineage-section.link-grow h4{color:var(--link-grow)}
+.lineage-rest-heading{margin:2rem 0 .2rem}
+.lineage-kind{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;color:var(--muted);margin-right:.2rem}
+.lineage-none{color:var(--muted);font-style:italic}
+.lineage-strip{display:flex;flex-wrap:wrap;gap:.3rem .7rem;align-items:baseline;font-family:var(--sans);font-size:.95rem;background:var(--surface);border-radius:4px;padding:.55rem .8rem;margin:1rem 0 0}
+.lineage-arrow{color:var(--muted)}
 .lineage-list li{margin:0 0 .5rem;padding:0}
 .lineage-list a{color:var(--action)}
 .confidence-note{font-style:italic;color:var(--muted);font-size:.95rem}
@@ -160,18 +167,27 @@ li{margin-bottom:.5rem}
   
 
   <section>
-    <h2>In Its Own Record</h2>
-    <div class="lineage-section link-influence">
-<h3>Influenced By</h3>
+    <h2>Connections</h2>
+    <div class="lineage-section link-grow">
+<h3>Descended from</h3>
+<p class="lineage-none">No direct parent is recorded.</p>
+</div>
+<div class="lineage-section link-grow">
+<h3>Direct descendants</h3>
+<p class="lineage-none">No direct descendant is recorded. Its other links are influence, argument and contact.</p>
+</div>
+<h3 class="lineage-rest-heading">Influence, argument and contact</h3>
+<div class="lineage-section link-influence">
+<h4>Influenced By</h4>
 <ul class="lineage-list">
-<li id="the-tridentine-church--tridentine-parish-renewal-borromean-milan"><a href="the-tridentine-church.html">The Tridentine Church</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">Charles Borromeo wrote that he called Milan&#039;s first provincial council because the Council of Trent had ordered it. The council met in 1565. Its decree on seminaries quotes Trent&#039;s order. Then it taxes church incomes across the province to pay for one.</span><span class="lineage-outcome"><i>Lasting result:</i> Milan&#039;s first provincial council did what Trent told it to do. It taxed church incomes in the province to found and pay for a seminary.</span></li>
-<li id="ambrosian-milan-standalone--tridentine-parish-renewal-borromean-milan"><a href="ambrosian-milan-standalone.html">Ambrosian Milan (standalone)</a> <span class="lineage-confidence">Inferential-Thin</span> — <span class="confidence-note">Borromeo&#039;s biographer says Milan had always kept the Ambrosian rite. Borromeo revised its Missal and let no one depart from it, because it was so old. Augustine says Ambrose&#039;s church began to sing hymns &#039;after the manner of the Eastern Church.&#039; How much of the later rite goes back to Ambrose is unclear.</span></li>
+<li id="the-tridentine-church--tridentine-parish-renewal-borromean-milan"><span class="lineage-kind">influenced</span> <a href="the-tridentine-church.html">The Tridentine Church</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">Charles Borromeo wrote that he called Milan&#039;s first provincial council because the Council of Trent had ordered it. The council met in 1565. Its decree on seminaries quotes Trent&#039;s order. Then it taxes church incomes across the province to pay for one.</span><span class="lineage-outcome"><i>Lasting result:</i> Milan&#039;s first provincial council did what Trent told it to do. It taxed church incomes in the province to found and pay for a seminary.</span></li>
+<li id="ambrosian-milan-standalone--tridentine-parish-renewal-borromean-milan"><span class="lineage-kind">influenced</span> <a href="ambrosian-milan-standalone.html">Ambrosian Milan (standalone)</a> <span class="lineage-confidence">Inferential-Thin</span> — <span class="confidence-note">Borromeo&#039;s biographer says Milan had always kept the Ambrosian rite. Borromeo revised its Missal and let no one depart from it, because it was so old. Augustine says Ambrose&#039;s church began to sing hymns &#039;after the manner of the Eastern Church.&#039; How much of the later rite goes back to Ambrose is unclear.</span></li>
 </ul>
 </div>
 <div class="lineage-section link-influence">
-<h3>Influenced</h3>
+<h4>Influenced</h4>
 <ul class="lineage-list">
-<li id="tridentine-parish-renewal-borromean-milan--the-tridentine-church"><a href="the-tridentine-church.html">The Tridentine Church</a> <span class="lineage-confidence">Widely Accepted</span> — <span class="confidence-note">Francisco Peña wrote in 1610, from the hearings held to make Borromeo a saint. He says bishops in many lands followed his example and his councils&#039; decrees. Many came from beyond the Alps to learn from him. His biographer says he hoped other bishops would copy his seminaries.</span></li>
+<li id="tridentine-parish-renewal-borromean-milan--the-tridentine-church"><span class="lineage-kind">influenced</span> <a href="the-tridentine-church.html">The Tridentine Church</a> <span class="lineage-confidence">Widely Accepted</span> — <span class="confidence-note">Francisco Peña wrote in 1610, from the hearings held to make Borromeo a saint. He says bishops in many lands followed his example and his councils&#039; decrees. Many came from beyond the Alps to learn from him. His biographer says he hoped other bishops would copy his seminaries.</span></li>
 </ul>
 </div>
 

@@ -62,6 +62,13 @@ li{margin-bottom:.5rem}
 .lineage-section.link-conflict{border-left-color:var(--link-conflict)}.lineage-section.link-conflict h3{color:var(--link-conflict)}
 .lineage-section.link-contact h3{color:var(--link-contact)}
 .lineage-list{list-style:none;padding:0}
+.lineage-section h4{font-size:1.05rem;margin:.2rem 0 .4rem}
+.lineage-section.link-influence h4{color:var(--link-influence)}.lineage-section.link-conflict h4{color:var(--link-conflict)}.lineage-section.link-contact h4{color:var(--link-contact)}.lineage-section.link-grow h4{color:var(--link-grow)}
+.lineage-rest-heading{margin:2rem 0 .2rem}
+.lineage-kind{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;color:var(--muted);margin-right:.2rem}
+.lineage-none{color:var(--muted);font-style:italic}
+.lineage-strip{display:flex;flex-wrap:wrap;gap:.3rem .7rem;align-items:baseline;font-family:var(--sans);font-size:.95rem;background:var(--surface);border-radius:4px;padding:.55rem .8rem;margin:1rem 0 0}
+.lineage-arrow{color:var(--muted)}
 .lineage-list li{margin:0 0 .5rem;padding:0}
 .lineage-list a{color:var(--action)}
 .confidence-note{font-style:italic;color:var(--muted);font-size:.95rem}
@@ -165,12 +172,21 @@ li{margin-bottom:.5rem}
   
 
   <section>
-    <h2>In Its Own Record</h2>
-    <div class="lineage-section link-conflict">
-<h3>Opposed By</h3>
+    <h2>Connections</h2>
+    <div class="lineage-section link-grow">
+<h3>Descended from</h3>
+<p class="lineage-none">No direct parent is recorded.</p>
+</div>
+<div class="lineage-section link-grow">
+<h3>Direct descendants</h3>
+<p class="lineage-none">No direct descendant is recorded. Its other links are influence, argument and contact.</p>
+</div>
+<h3 class="lineage-rest-heading">Influence, argument and contact</h3>
+<div class="lineage-section link-conflict">
+<h4>Opposed By</h4>
 <ul class="lineage-list">
-<li id="imperial-juridical-christianity--priscillianist-asceticism"><a href="imperial-juridical-christianity.html">Imperial and Juridical Christianity</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">Sulpicius Severus says Spanish bishops got an order from the emperor Gratian that drove the heretics out. Later Maximus, who had seized the throne, heard the case at Trier. He decreed that Priscillian and his friends be put to death.</span><span class="lineage-outcome"><i>Lasting result:</i> Once the case was reported to the palace, the emperor decreed that Priscillian and his friends be put to death.</span></li>
-<li id="ambrosian-milan-standalone--priscillianist-asceticism"><a href="ambrosian-milan-standalone.html">Ambrosian Milan (standalone)</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Sulpicius Severus says Priscillian and two bishops went to Rome and Milan around 382 to clear their names. Damasus of Rome would not see them. At Milan they found Ambrose just as opposed.</span></li>
+<li id="imperial-juridical-christianity--priscillianist-asceticism"><span class="lineage-kind">argued against</span> <a href="imperial-juridical-christianity.html">Imperial and Juridical Christianity</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">Sulpicius Severus says Spanish bishops got an order from the emperor Gratian that drove the heretics out. Later Maximus, who had seized the throne, heard the case at Trier. He decreed that Priscillian and his friends be put to death.</span><span class="lineage-outcome"><i>Lasting result:</i> Once the case was reported to the palace, the emperor decreed that Priscillian and his friends be put to death.</span></li>
+<li id="ambrosian-milan-standalone--priscillianist-asceticism"><span class="lineage-kind">argued against</span> <a href="ambrosian-milan-standalone.html">Ambrosian Milan (standalone)</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Sulpicius Severus says Priscillian and two bishops went to Rome and Milan around 382 to clear their names. Damasus of Rome would not see them. At Milan they found Ambrose just as opposed.</span></li>
 </ul>
 </div>
 
