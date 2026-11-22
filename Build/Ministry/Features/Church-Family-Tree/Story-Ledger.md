@@ -62,17 +62,17 @@ On the kit: 27. To do: 49.
 | Constantine the Great (`constantine-the-great`) | person | 8 | yes |
 | Jerome (`jerome`) | person | 8 | yes |
 | Leo of Rome (`leo-of-rome`) | person | 8 | yes |
-| Apollinaris of Laodicea (`apollinaris-of-laodicea`) | person | 9 | no |
-| Basil of Caesarea (`basil-of-caesarea`) | person | 9 | no |
-| Cyril of Jerusalem (`cyril-of-jerusalem`) | person | 9 | no |
-| Damasus of Rome (`damasus-of-rome`) | person | 9 | no |
-| Epiphanius of Salamis (`epiphanius-of-salamis`) | person | 9 | no |
-| Eunomius of Cyzicus (`eunomius-of-cyzicus`) | person | 9 | no |
-| Eusebius of Nicomedia (`eusebius-of-nicomedia`) | person | 9 | no |
-| Evagrius Ponticus (`evagrius-ponticus`) | person | 9 | no |
+| Apollinaris of Laodicea (`apollinaris-of-laodicea`) | person | 9 | yes |
+| Basil of Caesarea (`basil-of-caesarea`) | person | 9 | yes |
+| Cyril of Jerusalem (`cyril-of-jerusalem`) | person | 9 | yes |
+| Damasus of Rome (`damasus-of-rome`) | person | 9 | yes |
+| Epiphanius of Salamis (`epiphanius-of-salamis`) | person | 9 | yes |
+| Eunomius of Cyzicus (`eunomius-of-cyzicus`) | person | 9 | yes |
+| Eusebius of Nicomedia (`eusebius-of-nicomedia`) | person | 9 | yes |
+| Evagrius Ponticus (`evagrius-ponticus`) | person | 9 | yes |
 | Gregory of Nazianzus (`gregory-of-nazianzus`) | person | 9 | yes |
 | Gregory of Nyssa (`gregory-of-nyssa`) | person | 9 | yes |
-| Hilary of Poitiers (`hilary-of-poitiers`) | person | 9 | no |
+| Hilary of Poitiers (`hilary-of-poitiers`) | person | 9 | yes |
 
 To do: Aetius of Antioch (`aetius-of-antioch`); Alexander of Alexandria (`alexander-of-alexandria`); Ammianus Marcellinus (`ammianus-marcellinus`); Auxentius of Durostorum (`auxentius-of-durostorum`); Conference of Carthage (`conference-of-carthage-411`, council); Council of Arles (`council-of-arles-314`, council); Council of Ephesus (`council-of-ephesus-431`, council); Council of Sardica (`council-of-sardica-343`, council); Councils of Ariminum and Seleucia (`councils-of-ariminum-and-seleucia-359`, council); Didymus the Blind (`didymus-the-blind`); Ephrem the Syrian (`ephrem-the-syrian`, recorded); Eutyches (`eutyches`); Eznik of Kolb (`eznik-of-kolb`); Fabiola of Rome (`fabiola-of-rome`); First Council of Constantinople (`first-council-of-constantinople-381`, council); Frumentius (`frumentius`); Germanus of Auxerre (`germanus-of-auxerre`); Hilarion of Gaza (`hilarion-of-gaza`); Hilary of Arles (`hilary-of-arles`); Honoratus of Arles (`honoratus-of-arles`); John Cassian (`john-cassian`); John Chrysostom (`john-chrysostom`, recorded); Jovinian (`jovinian`); Koriun (`koriun`); Liberius of Rome (`liberius-of-rome`); Lucifer of Cagliari (`lucifer-of-cagliari`); Marcella of Rome (`marcella-of-rome`); Marcellus of Ancyra (`marcellus-of-ancyra`); Marius Mercator (`marius-mercator`); Melania the Elder (`melania-the-elder`); Melitius of Lycopolis (`melitius-of-lycopolis`); Mesrop Mashtots (`mesrop-mashtots`); Olympias of Constantinople (`olympias-of-constantinople`); Ossius of Cordoba (`ossius-of-cordoba`); Palladius of Helenopolis (`palladius-of-helenopolis`); Paula of Rome (`paula-of-rome`); Paulinus of Milan (`paulinus-of-milan`); Pelagius (`pelagius`); Philostorgius (`philostorgius`); Possidius of Calama (`possidius-of-calama`); Priscillian (`priscillian`); Prosper of Aquitaine (`prosper-of-aquitaine`); Rufinus of Aquileia (`rufinus-of-aquileia`); Socrates of Constantinople (`socrates-of-constantinople`); Sozomen (`sozomen`); Sulpicius Severus (`sulpicius-severus`); Theodoret of Cyrrhus (`theodoret-of-cyrrhus`); Tyconius (`tyconius`); Ulfila (`ulfila`).
 
