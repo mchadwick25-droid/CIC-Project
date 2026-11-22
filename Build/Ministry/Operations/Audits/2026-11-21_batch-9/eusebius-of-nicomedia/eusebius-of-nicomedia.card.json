@@ -149,7 +149,8 @@
       "work": "Arius to Eusebius, in Theodoret, Church History I.4, tr. Blomfield Jackson",
       "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
       "lines": "6045-6046",
-      "uncertain": "The Greek is held only in two damaged prints, Theodoret's in the Patrologia Graeca and Epiphanius's Panarion; they agree with the sense. The modern English follows Jackson's English."
+      "uncertain": "The Greek is held only in two damaged prints, Theodoret's in the Patrologia Graeca and Epiphanius's Panarion; they agree with the sense. The modern English follows Jackson's English.",
+      "secondReading": "minor"
     },
     {
       "modern": "We signed the creed, but we did not sign the condemnation. We were not finding fault with the creed. We did not believe the accused man was what he was said to be.",
@@ -157,7 +158,8 @@
       "work": "Plea of Eusebius and Theognis, in Socrates, Church History I.14, tr. A. C. Zenos",
       "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
       "lines": "3956-3958",
-      "uncertain": "The Greek is held only in a damaged print; its Latin on the same page and Zenos's English agree with the sense. \"The creed\" renders the Greek for \"the faith\"."
+      "uncertain": "The Greek is held only in a damaged print; its Latin on the same page and Zenos's English agree with the sense. \"The creed\" renders the Greek for \"the faith\".",
+      "secondReading": "same"
     },
     {
       "modern": "Who taught these things to so innocent a crowd? Eusebius, plainly: the partner in the tyrant's cruelty.",
@@ -165,7 +167,8 @@
       "work": "Constantine to the Nicomedians, in Theodoret, Church History I.19, tr. Blomfield Jackson",
       "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
       "lines": "7500-7502",
-      "uncertain": "The Greek is held only in two damaged prints, Theodoret's and Gelasius of Cyzicus's, which read alike; Jackson prints \"tyrants\" in the plural where the Greek has \"tyrannical cruelty\"."
+      "uncertain": "The Greek is held only in two damaged prints, Theodoret's and Gelasius of Cyzicus's, which read alike; Jackson prints \"tyrants\" in the plural where the Greek has \"tyrannical cruelty\".",
+      "secondReading": "minor"
     },
     {
       "modern": "the prelates",
@@ -224,7 +227,8 @@
       "printed": "that disturber of the public peace",
       "work": "Socrates, Church History II.12, tr. A. C. Zenos",
       "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
-      "lines": "6180-6181"
+      "lines": "6180-6181",
+      "secondReading": "same"
     }
   ]
 }

@@ -222,7 +222,8 @@
       "original": "Facite me Romanae urbis episcopum, et ero protinus Christianus",
       "originalFile": "cic/texts/jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt",
       "originalLines": "27958-27960",
-      "uncertain": "Jerome's Latin, in Migne's Patrologia Latina 23 (lines 27958-27960 of its file), is damaged at the name of the city: the scan prints Πο- mans for Romanae. Mansi's print of the same sentence (lines 42058-42060 of its file) reads Romane urbis, so the Latin is bishop of the city of Rome, and the modern wording follows it. The Latin is printed with Romanae as Mansi reads it. Jerome reports the saying as one Praetextatus made in jest, without a date, after Praetextatus had died as consul designate."
+      "uncertain": "Jerome's Latin, in Migne's Patrologia Latina 23 (lines 27958-27960 of its file), is damaged at the name of the city: the scan prints Πο- mans for Romanae. Mansi's print of the same sentence (lines 42058-42060 of its file) reads Romane urbis, so the Latin is bishop of the city of Rome, and the modern wording follows it. The Latin is printed with Romanae as Mansi reads it. Jerome reports the saying as one Praetextatus made in jest, without a date, after Praetextatus had died as consul designate.",
+      "secondReading": "same"
     },
     {
       "modern": "It is our will that all the peoples under our merciful rule live in the religion that the divine apostle Peter handed down to the Romans. The faith he brought them, kept to this day, shows that he did. It is plain that Bishop Damasus follows it, and Peter, bishop of Alexandria, a man of an apostle's holiness.",
@@ -230,7 +231,8 @@
       "work": "Edict of Gratian, Valentinian and Theodosius to the people of Constantinople, 27 February 380, Theodosian Code 16.1.2, Latin",
       "file": "cic/texts/codex-theodosianus_latinlibrary.txt",
       "lines": "6883",
-      "uncertain": "The Latin Library does not say which edition it follows. Mommsen and Meyer's critical text (lines 83597-83601 of its file, whose scan prints Cuncios for Cunctos) reads the same words. The modern wording renders pontificem as bishop. The Latin goes on to say that this is to believe in one Godhead of Father, Son and Holy Spirit; the quotation stops before that."
+      "uncertain": "The Latin Library does not say which edition it follows. Mommsen and Meyer's critical text (lines 83597-83601 of its file, whose scan prints Cuncios for Cunctos) reads the same words. The modern wording renders pontificem as bishop. The Latin goes on to say that this is to believe in one Godhead of Father, Son and Holy Spirit; the quotation stops before that.",
+      "secondReading": "same"
     },
     {
       "modern": "I believe that, after the ashes, he will make Damasus rise.",
@@ -238,7 +240,8 @@
       "work": "Epitaph of Damasus, verses that Duchesne takes to be his own, from De Rossi, in Duchesne's Liber Pontificalis",
       "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt",
       "lines": "128214",
-      "uncertain": "Duchesne's print is the only one the Library holds, and its scan is damaged in the poem's second and fourth lines (128206 and 128210); this last line reads cleanly. Duchesne says the verses were composed by Damasus himself. The one who will make Damasus rise is the one the poem's earlier lines describe: who walked and stilled the sea's bitter waves, who could loose the deadly chains of death, and who gave a brother back to his sister Martha."
+      "uncertain": "Duchesne's print is the only one the Library holds, and its scan is damaged in the poem's second and fourth lines (128206 and 128210); this last line reads cleanly. Duchesne says the verses were composed by Damasus himself. The one who will make Damasus rise is the one the poem's earlier lines describe: who walked and stilled the sea's bitter waves, who could loose the deadly chains of death, and who gave a brother back to his sister Martha.",
+      "secondReading": "minor"
     }
   ]
 }

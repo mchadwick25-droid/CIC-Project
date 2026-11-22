@@ -198,7 +198,8 @@
       "work": "Apollinaris, Demonstration of the Divine Incarnation, fragment 81, as Gregory of Nyssa quotes it, in Lietzmann's Greek",
       "file": "cic/texts/apollinaris-laodicea_fragmente-apollinaris-von-laodicea-und-seine-schule-grc-deu_lietzmann1904.txt",
       "lines": "11480-11481",
-      "uncertain": "The word in brackets, phesi, he says, is Gregory of Nyssa's, not Apollinaris's, and the modern English leaves it out. Teleios is rendered complete, since modern perfect would mislead. Migne's Gregory of Nyssa prints the same lines in a scan with faults, and reads as Lietzmann does. The book's title and the fragment's ascription are Lietzmann's reconstruction."
+      "uncertain": "The word in brackets, phesi, he says, is Gregory of Nyssa's, not Apollinaris's, and the modern English leaves it out. Teleios is rendered complete, since modern perfect would mislead. Migne's Gregory of Nyssa prints the same lines in a scan with faults, and reads as Lietzmann does. The book's title and the fragment's ascription are Lietzmann's reconstruction.",
+      "secondReading": "same"
     },
     {
       "modern": "Men sang his songs at drinking parties and at work. Women sang them at the loom.",
@@ -206,7 +207,8 @@
       "work": "Sozomen, Church History 6.25, tr. Chester D. Hartranft, in Nicene and Post-Nicene Fathers, second series, vol. 2",
       "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
       "lines": "39027-39028",
-      "uncertain": "Sozomen's Greek is held only in a scan with accent noise between the lines, so the English stands alone."
+      "uncertain": "Sozomen's Greek is held only in a scan with accent noise between the lines, so the English stands alone.",
+      "secondReading": "minor"
     },
     {
       "modern": "one nature of God the Word made flesh",
@@ -214,7 +216,8 @@
       "work": "Statement of faith to the emperor Jovian, carried under Athanasius's name, in Lietzmann's Greek",
       "file": "cic/texts/apollinaris-laodicea_fragmente-apollinaris-von-laodicea-und-seine-schule-grc-deu_lietzmann1904.txt",
       "lines": "12986-12987",
-      "uncertain": "The ascription to Apollinaris is Lietzmann's and Hefele's, and Pusey thought it might be Athanasius's. Pusey's English puts the same words as One Nature Incarnate of God the Word."
+      "uncertain": "The ascription to Apollinaris is Lietzmann's and Hefele's, and Pusey thought it might be Athanasius's. Pusey's English puts the same words as One Nature Incarnate of God the Word.",
+      "secondReading": "same"
     },
     {
       "modern": "They cunningly push aside the name of Apollinaris, because it plainly proves ungodliness. They put the names of the holy Fathers on his writings and on their own inventions.",
@@ -222,7 +225,8 @@
       "work": "Justinian, tractate against the Monophysites, quoted in Lietzmann's Greek",
       "file": "cic/texts/apollinaris-laodicea_fragmente-apollinaris-von-laodicea-und-seine-schule-grc-deu_lietzmann1904.txt",
       "lines": "5754-5756",
-      "uncertain": "No second print of Justinian's Greek is held, and the scan of these lines reads clearly. The subject is Justinian's opponents of his own day, the Acephali, a one-nature party, and not Apollinaris's own pupils. The modern English gives hos as because and renders epititheasi as they put."
+      "uncertain": "No second print of Justinian's Greek is held, and the scan of these lines reads clearly. The subject is Justinian's opponents of his own day, the Acephali, a one-nature party, and not Apollinaris's own pupils. The modern English gives hos as because and renders epititheasi as they put.",
+      "secondReading": "same"
     }
   ]
 }

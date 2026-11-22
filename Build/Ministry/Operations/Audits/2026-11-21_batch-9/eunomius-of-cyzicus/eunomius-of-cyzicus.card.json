@@ -174,7 +174,8 @@
       "work": "Philostorgius, Church History 8.18, in Photius's summary, tr. Edward Walford",
       "file": "cic/texts/philostorgius_ecclesiastical-history_walford1855.txt",
       "lines": "328",
-      "uncertain": "Photius's Greek is not held. Walford's whole sentence is: But as to perspicuity in teaching, and a style well suited to learners, he prefers Eunomius."
+      "uncertain": "Photius's Greek is not held. Walford's whole sentence is: But as to perspicuity in teaching, and a style well suited to learners, he prefers Eunomius.",
+      "secondReading": "same"
     },
     {
       "modern": "unlike.",
@@ -191,7 +192,8 @@
       "work": "Eunomius, Apology 7, tr. William Whiston, re-edited by Pearse",
       "file": "cic/texts/eunomius_first-apology_whiston1711.txt",
       "lines": "38",
-      "uncertain": "The Greek is held only in an OCR scan of Basil's quotation of the Apology, marked a second witness only, so Whiston's English stands alone. The modern English follows that Greek where it differs: has been shown for be demonstrated, follows for it thence follows, and being for Substance, which renders the Greek ousia."
+      "uncertain": "The Greek is held only in an OCR scan of Basil's quotation of the Apology, marked a second witness only, so Whiston's English stands alone. The modern English follows that Greek where it differs: has been shown for be demonstrated, follows for it thence follows, and being for Substance, which renders the Greek ousia.",
+      "secondReading": "minor"
     },
     {
       "modern": "or rather",

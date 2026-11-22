@@ -170,7 +170,8 @@
       "work": "Lausiac History, ch. 38, tr. W. K. Lowther Clarke",
       "file": "cic/texts/palladius_lausiac-history_clarke1918.txt",
       "lines": "457",
-      "uncertain": "The Greek of the Lausiac History is not held; the modern English follows Clarke's English."
+      "uncertain": "The Greek of the Lausiac History is not held; the modern English follows Clarke's English.",
+      "secondReading": "same"
     },
     {
       "modern": "Whether these thoughts can trouble the soul is not up to us. But whether they linger, and whether they stir up passions, is up to us.",
@@ -178,14 +179,16 @@
       "work": "Praktikos 6, tr. Luke Dysinger, Guide to Evagrius Ponticus, CC BY 4.0",
       "file": "cic/texts/evagrius_praktikos_dysinger.txt",
       "lines": "197",
-      "uncertain": "The Greek of Praktikos 6 is not held; the modern English follows Dysinger's English."
+      "uncertain": "The Greek of Praktikos 6 is not held; the modern English follows Dysinger's English.",
+      "secondReading": "same"
     },
     {
       "modern": "or among the first at least",
       "printed": "or among the first at least",
       "work": "Gennadius of Marseilles, Lives of Illustrious Men, ch. 11, tr. Ernest Cushing Richardson",
       "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
-      "lines": "42330-42331"
+      "lines": "42330-42331",
+      "secondReading": "same"
     },
     {
       "modern": "the holy Evagrius",
@@ -202,7 +205,8 @@
       "work": "Jerome, Letter 133, to Ctesiphon, tr. Fremantle, Lewis and Martley",
       "file": "cic/texts/npnf206_jerome-principal-works.xml",
       "lines": "27825-27826",
-      "uncertain": "Jerome's Latin is not held; the modern English follows the printed English."
+      "uncertain": "Jerome's Latin is not held; the modern English follows the printed English.",
+      "secondReading": "same"
     }
   ]
 }

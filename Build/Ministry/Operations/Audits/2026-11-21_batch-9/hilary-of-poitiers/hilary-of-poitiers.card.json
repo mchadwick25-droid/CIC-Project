@@ -163,7 +163,8 @@
       "work": "On the Councils 91, tr. E. W. Watson and L. Pullan",
       "file": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml",
       "lines": "9881-9885",
-      "uncertain": "The Latin, in the Migne text, is held only in a damaged scan, so the English stands alone. The modern wording follows the Latin: \"Evangelia et Apostoli\" is the Gospels and the Apostles, where Watson has Epistles. Watson's own note says his \"long ago\" and \"for some time\" are rather too strong; the modern English gives \"some time ago\" and \"for a while\"."
+      "uncertain": "The Latin, in the Migne text, is held only in a damaged scan, so the English stands alone. The modern wording follows the Latin: \"Evangelia et Apostoli\" is the Gospels and the Apostles, where Watson has Epistles. Watson's own note says his \"long ago\" and \"for some time\" are rather too strong; the modern English gives \"some time ago\" and \"for a while\".",
+      "secondReading": "minor"
     },
     {
       "modern": "of one substance",
@@ -215,7 +216,8 @@
       "work": "Sulpicius Severus, Chronicle II.45, tr. Alexander Roberts",
       "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
       "lines": "11433-11434",
-      "uncertain": "The Latin, in Halm's text, is held only in a damaged scan, so the English stands alone."
+      "uncertain": "The Latin, in Halm's text, is held only in a damaged scan, so the English stands alone.",
+      "secondReading": "minor"
     }
   ]
 }

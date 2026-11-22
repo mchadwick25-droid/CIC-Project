@@ -177,7 +177,8 @@
       "work": "Epiphanius, Panarion, Proem I, Greek, ed. Karl Holl",
       "file": "cic/texts/epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt",
       "lines": "12387-12391",
-      "uncertain": "Holl's edition is the only print of this preface the Library holds, and its scan has slips inside the span: τε is read as TE in line 12388, καὶ as zal in line 12390, and κ as χ in προκαταληπτικὰ in line 12391. They are read here as the only words that fit. The English is the brief's own rendering of the Greek; no printed English is held."
+      "uncertain": "Holl's edition is the only print of this preface the Library holds, and its scan has slips inside the span: τε is read as TE in line 12388, καὶ as zal in line 12390, and κ as χ in προκαταληπτικὰ in line 12391. They are read here as the only words that fit. The English is the brief's own rendering of the Greek; no printed English is held.",
+      "secondReading": "same"
     },
     {
       "modern": "I have also drunk from the great river Euphrates. It was not spiritual water but real water, the kind you can touch with your hand and take into your mouth.",
@@ -185,7 +186,8 @@
       "work": "Epiphanius, letter to John, bishop of Jerusalem (Jerome's Letter 51), tr. W. H. Fremantle, in Nicene and Post-Nicene Fathers, series 2, vol. 6",
       "file": "cic/texts/npnf206_jerome-principal-works.xml",
       "lines": "10920-10922",
-      "uncertain": "The Greek letter and Jerome's Latin of it are not held, so the English stands alone. The modern wording follows Fremantle's English."
+      "uncertain": "The Greek letter and Jerome's Latin of it are not held, so the English stands alone. The modern wording follows Fremantle's English.",
+      "secondReading": "same"
     }
   ]
 }

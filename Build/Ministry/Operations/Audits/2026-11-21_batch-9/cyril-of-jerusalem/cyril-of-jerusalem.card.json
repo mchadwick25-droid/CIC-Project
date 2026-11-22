@@ -156,7 +156,8 @@
       "original": "῾Ορᾶς τοῦ Γολγοθᾶ τὸν τόπον;",
       "originalFile": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
       "originalLines": "4013-4015",
-      "uncertain": "The Greek is held only in Gifford's note in his introduction, which gives these two sentences from the lecture; the lecture itself is not held in Greek. Gifford's English ends the sentence with an exclamation mark, and the Greek he prints ends it with a question mark, which the modern wording follows."
+      "uncertain": "The Greek is held only in Gifford's note in his introduction, which gives these two sentences from the lecture; the lecture itself is not held in Greek. Gifford's English ends the sentence with an exclamation mark, and the Greek he prints ends it with a question mark, which the modern wording follows.",
+      "secondReading": "minor"
     },
     {
       "modern": "You answer with a shout of praise, as if you agree.",
@@ -167,7 +168,8 @@
       "original": "᾽Επιβοᾶς ἐπαίνῳ ὡς συντιθέμενος.",
       "originalFile": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
       "originalLines": "4016-4018",
-      "uncertain": "The Greek is held only in Gifford's note, as for the sentence before it."
+      "uncertain": "The Greek is held only in Gifford's note, as for the sentence before it.",
+      "secondReading": "minor"
     },
     {
       "modern": "I knew well that seeing persuades far more than hearing. So I waited for this time.",
@@ -175,7 +177,8 @@
       "work": "Cyril (or, in some copies, John), Mystagogic Lecture 1, section 1, tr. Gifford, in Nicene and Post-Nicene Fathers, series 2, vol. 7",
       "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
       "lines": "20639-20640",
-      "uncertain": "The Greek is not held, so the English stands alone. The modern wording makes Gifford's one sentence two. Some copies name John as author of the five Easter-week lectures; Gifford holds them Cyril's."
+      "uncertain": "The Greek is not held, so the English stands alone. The modern wording makes Gifford's one sentence two. Some copies name John as author of the five Easter-week lectures; Gifford holds them Cyril's.",
+      "secondReading": "same"
     },
     {
       "modern": "The bishop talks through each point and sets it out. Meanwhile the voices of those applauding are so loud that they can be heard outside the church.",
@@ -183,7 +186,8 @@
       "work": "Egeria, Pilgrimage, the Easter-week teaching, tr. M. L. McClure and C. L. Feltoe",
       "file": "cic/texts/egeria_pilgrimage-of-etheria_mcclure-feltoe1919.txt",
       "lines": "5923-5926",
-      "uncertain": "Egeria's Latin is not held, so the English stands alone. The independent English of J. H. Bernard (lines 11098-11101 of its file) agrees: so loud are the voices of those applauding that they are heard outside the church. She does not name the bishop."
+      "uncertain": "Egeria's Latin is not held, so the English stands alone. The independent English of J. H. Bernard (lines 11098-11101 of its file) agrees: so loud are the voices of those applauding that they are heard outside the church. She does not name the bishop.",
+      "secondReading": "minor"
     },
     {
       "modern": "See that you do not take it back when persecution comes.",
@@ -191,7 +195,8 @@
       "work": "Cyril of Jerusalem, Catechetical Lecture 13, section 23, tr. Gifford, in Nicene and Post-Nicene Fathers, series 2, vol. 7",
       "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
       "lines": "14974-14975",
-      "uncertain": "The Greek of this sentence is not held, so the English stands alone."
+      "uncertain": "The Greek of this sentence is not held, so the English stands alone.",
+      "secondReading": "same"
     }
   ]
 }

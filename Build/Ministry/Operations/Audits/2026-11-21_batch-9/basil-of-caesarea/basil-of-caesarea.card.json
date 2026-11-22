@@ -214,7 +214,8 @@
       "work": "Basil, Letter 223.2, tr. Blomfield Jackson, in Nicene and Post-Nicene Fathers, second series, vol. 8",
       "file": "cic/texts/npnf208_basil-letters-select-works.xml",
       "lines": "39133-39135",
-      "uncertain": "The Greek of the letter is not held, so the English stands alone. The modern English keeps Jackson's order and gives once upon a time as one day, and marvellous as wonderful."
+      "uncertain": "The Greek of the letter is not held, so the English stands alone. The modern English keeps Jackson's order and gives once upon a time as one day, and marvellous as wonderful.",
+      "secondReading": "same"
     },
     {
       "modern": "Whom, then, will you wash? Whom will you care for? Behind whom will you be last, if you live by yourself?",
@@ -225,7 +226,8 @@
       "englishPrinted": "Whose feet then wilt thou wash? Whom wilt thou care for? In comparison with whom wilt thou be last if thou livest by thyself?",
       "englishFile": "cic/texts/basil_ascetic-works-longer-shorter-rules_clarke1925.txt",
       "englishLines": "13460-13464",
-      "uncertain": "The Greek has whom, with no word for feet. Clarke's English adds whose feet from the sentence before, where Christ washes the feet of the disciples. The modern English follows the Greek, and the narrator gives the feet as the plain sense."
+      "uncertain": "The Greek has whom, with no word for feet. Clarke's English adds whose feet from the sentence before, where Christ washes the feet of the disciples. The modern English follows the Greek, and the narrator gives the feet as the plain sense.",
+      "secondReading": "minor"
     },
     {
       "modern": "As we were baptized, so we confess our faith. As we confess our faith, so too we give praise.",
@@ -233,7 +235,8 @@
       "work": "Basil, Letter 159.2, tr. Blomfield Jackson, in Nicene and Post-Nicene Fathers, second series, vol. 8",
       "file": "cic/texts/npnf208_basil-letters-select-works.xml",
       "lines": "33483-33485",
-      "uncertain": "The Greek of the letter is not held, so the English stands alone. The modern English gives profess our belief as confess our faith, and so also as so too."
+      "uncertain": "The Greek of the letter is not held, so the English stands alone. The modern English gives profess our belief as confess our faith, and so also as so too.",
+      "secondReading": "same"
     }
   ]
 }
