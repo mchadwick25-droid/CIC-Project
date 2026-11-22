@@ -26,7 +26,7 @@ Judged against `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Kit.md`, Pa
 Each sentence was traced to `Outline.md` and `Source_Sheet.md`, and the key lines were re-read in `cic/texts/`.
 
 - **Quote 2, the law** (CTH 83597–83600): "Cunctos populos … in tali volumus religione versari, quam divinum Petrum apostolum tradidisse Romanis religio usque ad nunc ab ipso insinuata declarat quamque pontificem Damasum sequi claret et Petrum Alexandriae episcopum virum apostolicae sanctitatis". The rendering is faithful, and "Bishop" for "pontificem" is justified by the outline.
-- **The law's next lines** (CTH 83603–83607): "reliquos vero dementes vesanosque iudicantes haeretici dogmatis infamiam sustinere, nec conciliabula eorum ecclesiarum nomen accipere, divina primum vindicta, post etiam [motus nostri … ultione plectendos]". The law threatens God's punishment and then the emperors'. The brief gives only "the shame" (finding 1).
+- **The law's next lines** (CTH 83603–83607): "reliquos vero dementes vesanosque iudicantes haeretici dogmatis infamiam sustinere, nec conciliabula eorum ecclesiarum nomen accipere, divina primum vindicta, post etiam" (the held Mommsen print breaks off there; the full clause is in CTL 6885: "post etiam motus nostri, quem ex caelesti arbitrio sumpserimus, ultione plectendos"). The law threatens God's punishment and then the emperors'. The brief gives only "the shame" (finding 1).
 - **Quote 3, the epitaph** (LPD 128204–128214): "Qui gradiens pelagi fluctus compressit amaros … ad superos iterum Marthae donare sorori, post cineres Damasum faciet quia surgere credo". The rendering and the paraphrase hold. Duchesne's lead-in, "composée par lui" (128201), supports "its editors take to be his own".
 - **The flogged deacon** (THD 14599–14605): "led publicly through the town … with his hands tied … terribly scourged". It holds, credited to "the bishop there".
 - **The churches handed over** (THD 15410–15423): "the sacred buildings to be delivered to congregations adopting communion with Damasus. … To put his edict in force Gratianus sent Sapor the general". It holds.
@@ -69,7 +69,7 @@ The election still carries its force and its three voices, and the connection st
 
 **1. BLOCKING. The law's penalties are left out.**
 
-The outline's connection says the listener must understand that the law "attached the state's penalties to that faith". The brief says only "Everyone else, it said, would bear the shame of heretical teaching." The law goes on to threaten God's punishment first and then the emperors' (CTH 83606–83607). A listener hears a label, not a threat, and that softens the record's force.
+The outline's connection says the listener must understand that the law "attached the state's penalties to that faith". The brief says only "Everyone else, it said, would bear the shame of heretical teaching." The law goes on to threaten God's punishment first and then the emperors' (CTH 83606–83607; the clause in full at CTL 6885). A listener hears a label, not a threat, and that softens the record's force.
 
 Change:
 - From: "Everyone else, it said, would bear the shame of heretical teaching."
@@ -77,7 +77,7 @@ Change:
 
 This adds 10 words. To pay for them, cut "The office had been won with blood." from the hook (7 words), which also mends the repeat in finding 2, and "The empire's officers ended it, not any council." (8 words; this is the editor's reading, and the next sentence already shows it). That is a net of −5, about 669 words.
 
-**Do not say line to add to the outline:** "'everyone else would bear the shame' alone → give the law's threat too: God's punishment, then the emperors' (CTH 83603–83607)".
+**Do not say line to add to the outline:** "'everyone else would bear the shame' alone → give the law's threat too: God's punishment, then the emperors' (CTH 83603–83607; CTL 6885)".
 
 **2. MINOR. The hook and the essence repeat each other.**
 
