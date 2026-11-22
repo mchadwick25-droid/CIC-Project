@@ -5191,6 +5191,59 @@ Mark, posting to LinkedIn: "the linked in cant display a preview and its not pul
 
 **Not done here.** The map's weight itself (see Open-Gaps).
 
+## 2026-11-21 — Batch 9: the slate approved (Mark)
+
+**Why.** The batch 9 launch prompt (`Launch-Prompts/CFT_Batch9_Launch_2026-11-21.md`) asks for the slate first: each story's job, half, census home, siblings and the live stories beside it, with each quote already used elsewhere on the tree and any reuse the kit's quote rule allows. They are on one page (https://claude.ai/artifact/MTHTJ4X388AaneENKp9RyB, version 1). `check_tree_overlap.py` on the eleven old texts: all clear.
+
+**Decided (Mark, 2026-11-21, in chat: "approved").**
+1. Eleven stories, each on its existing census entry: Basil of Caesarea, Eunomius of Cyzicus, Apollinaris of Laodicea and Evagrius Ponticus (half A, with Gregory of Nazianzus and Gregory of Nyssa reviewed); Eusebius of Nicomedia, Hilary of Poitiers, Cyril of Jerusalem, Epiphanius of Salamis and Damasus of Rome (half B). The jobs, siblings and links are as on the page and in `Build/Ministry/Operations/Audits/2026-11-21_batch-9/README.md`.
+2. Eunomius is researched after Basil's outline; the other eight at once.
+3. The quotes lifted and barred as the page reads them under the reuse ruling of 2026-11-21, listed in the batch README.
+4. Gregory of Nyssa stays `major: false`.
+5. Home traditions (Mark, 2026-11-21, in chat: "approved, all eleven stay where they are"), after his ruling relayed from the batch 8 session, "these should all be connected to a home tradition (unless its clear they are not and they sit in the river)": each of the eleven keeps its census `toldWithin`, as item 5 of the page (version 2) checks them against the record. Epiphanius stays in `palestinian-ascetic-monasticism-early` (Sozomen VI.32 lists him among the monks of Palestine); Damasus in `imperial-juridical-christianity`; Eusebius of Nicomedia in `homoian-arian-christianity` as its forerunner, and his story does not call him "Homoian".
+
+## 2026-11-21 — Batch 9 hearts approved, with the lengths (Mark)
+
+**Why.** The nine researched hearts went to Mark on one page (https://claude.ai/artifact/C6CSjJPCPQ3RNaqZRFLgZx, version 1; `Build/Ministry/Operations/Audits/2026-11-21_batch-9/Hearts.md`), each with the outline's planned length beside an independent count (`Length_Count.md`). Three fit under 4:30, three counted within about 15 words of it, and Hilary, Damasus and Epiphanius counted 4:43 to 5:23. Four researchers wrote the heart to what the sources hold where the slate's job line said more or other.
+
+**Decided (Mark, 2026-11-21: "approve as recommended").**
+1. The nine hearts as shown, with the researchers' wording for Hilary (On the Councils as the book that explained East to West; exiled after a rival party's accusation; Martin sought him out and stayed with him), Eunomius (the creeds of 383 and his banishment told as two facts in order), Apollinaris ("stood with Athanasius for the creed of Nicaea") and Damasus (the law of 380 in the heart; the forcing of dissenters credited to the Luciferians' petition; the two lifted quotes unused).
+2. Lengths, as in batch 8: each researcher marks a cut-first list in the outline, in order, with every cut item moved to the card; the writers write to about 4:30 at most (about 675 words by the scorer), dropping from that list and not by their own choice. The reviewer checks that the heart and every disagreement the outline must credit survived. No second round of outline cuts.
+3. The outline checks begin once the cut-first lists are in.
+
+## 2026-11-22 — Batch 9: two lengths after review (Mark)
+
+**Why.** After review, one revision and the recheck, nine of the eleven stories fit under 4:30. Cyril of Jerusalem (773 words) and Epiphanius of Salamis (714) did not: the writers had cut parts of the approved heart to fit, the reviews restored them, and the rechecks found no shorter wording that keeps every fact and credit (https://claude.ai/artifact/6t8wjEGCMchi2yqczRAre5; each folder's `Review.md` and `Recheck_Story.md` in `Build/Ministry/Operations/Audits/2026-11-21_batch-9/`).
+
+**Decided (Mark, 2026-11-22: "Approve both").**
+1. Cyril of Jerusalem runs about 4:50. Two sentences go to the card: Theodoret's later quoting of the fourth lecture, and Egeria's order of teaching. Her own quote and the note that she never names the bishop stay.
+2. Epiphanius of Salamis runs about 4:45, unchanged.
+
+## 2026-11-22 — Batch 9: two quoted spans with no clean print (Mark)
+
+**Why.** The card checks (`Card_Check.md` in each folder of `Build/Ministry/Operations/Audits/2026-11-21_batch-9/`) found two places where the story quotes words that no clean held print stands behind, under the originals rule of `Build/Ministry/Operations/Audits/2026-11-19_batch-6/Batch_Originals_Ruling.md` (https://claude.ai/artifact/BFgtGwHhWPgP2ywtRZsBGb).
+
+**Decided (Mark, 2026-11-22: "Approve both as recommended").**
+1. Eunomius of Cyzicus: Basil's answer is told in the narrator's words, without quotation marks, and its card entry goes. Its Greek is held only in one unchecked OCR scan of PG 29, and no English of the sentence is held.
+2. Hilary of Poitiers: the bishops of Gaul's letter is told in the narrator's words, credited to them, and its card entry goes ("the letters Hilary brought", which holds under both prints' verbs). Its Latin is held only in two damaged prints that differ at the verb; the card keeps the variant under `uncertain`.
+
+## 2026-11-22 — Batch 9: the fresh read, and three fixes after it (Mark)
+
+**Why.** Mark asked whether quality is drifting from batch to batch. Three Opus reviewers who saw none of the earlier reviews, revisions or drafts scored the nine finished stories on the reviewer role (`<slug>/Fresh_Read.md` in `Build/Ministry/Operations/Audits/2026-11-21_batch-9/`; https://claude.ai/artifact/5jnxRbXSc18KpTpYEMvSBW). Finished averages: voice 3.9, craft 3.7, rigor 4.2, accessibility 4.1, against first drafts 4.0, 3.4, 3.0, 3.9 (batch 8's first drafts: 4.0, 3.5, 3.4, 3.8). Six passed; three had one blocking finding each, each a part the outline must keep cut to save words.
+
+**Decided (Mark, 2026-11-22: "Approve as recommended").**
+1. Damasus: the law's threat of God's punishment and then the emperors' is told; two sentences cut to pay for it (the fresh read's wording).
+2. Cyril of Jerusalem: Egeria's applause quote is placed in Easter week, in the tomb chapel; "by modern reckoning" and "that pilgrim" cut; Jerome's charge reads "to be given the see by the followers of Arius" (the fresh read's wording).
+3. Hilary of Poitiers runs about 4:32: Augustine's reading of him restored in the outline's wording; Ariminum reads "pressed by the emperor's threats"; the letter sentence split, keeping "the letters Hilary brought". The split is the coordinator's wording and gets a targeted independent check.
+4. The other minor findings stay in each `Fresh_Read.md`, as input to the kit change under discussion; no finished story is reopened for polish.
+
+## 2026-11-22 — Batch 9: the recording, and Evagrius's Praktikos quote (Mark)
+
+**Decided (Mark, 2026-11-22).**
+1. "Approve, cap 24,000": Basil recorded first for Mark's ear; then "Yes approved to record all ten". Settings as batch 8 (voice `onegjDE2z0mQtp1g0HK7`, `eleven_v4`, `mp3_44100_64`, stability 0.95, similarity 0.68, style 0, speaker boost on), one story per command.
+2. "A": Evagrius's quote of Praktikos 6 is Dysinger's English word for word (CC BY 4.0, credited on the card), not a rewording of it, since the tree quotes its own English only of an original or of English printed before 1931. Evagrius was re-recorded.
+
+**Result.** Twelve requests, 21,104 credits, under the 24,000 cap; the balance moved from 506,707 to 527,811 (`Build/Ministry/Operations/Audits/2026-11-21_batch-9/recording/Balance.md`).
 ## 2026-11-21 — Jovinian stays, and is rebuilt on the kit (Mark)
 
 **Why.** A check of every person's home tradition found Jovinian's page still live, though Mark ruled "Take it down" on 2026-11-11 because his book is lost and his four points survive only in his opponents. Asked how aligned those opponents are, the held record shows they split: the Maurist preface to Augustine's *De bono coniugali* (`cic/texts/augustine_opera-minora-catechetica-lat_migne-pl40.txt`, lines 25313–25325) says Jerome was reported to have defended virginity only by condemning marriage, and that Augustine wrote on the good of marriage first, about 401, so as not to give the same ground; it quotes Augustine reporting Jovinian's charge that the Catholics who set virginity above marriage were patrons of the Manichees.

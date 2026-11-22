@@ -1,0 +1,6 @@
+11 briefs; a move in more than 2 is marked
+OVER  3  an unnamed opening, then the name revealed: apollinaris-of-laodicea, eusebius-of-nicomedia, gregory-of-nazianzus
+OVER  4  a setting slot (a time and a place stacked in one early sentence, or "in what is now" more than once): apollinaris-of-laodicea, cyril-of-jerusalem, epiphanius-of-salamis, hilary-of-poitiers
+ok    1  the "Most of what we know" witness formula: eusebius-of-nicomedia
+OVER  3  a sentence opening with "Yet": eunomius-of-cyzicus, evagrius-ponticus, gregory-of-nazianzus
+OVER  6  an ending on a later writer or institution (a later time marker in the last two paragraphs): apollinaris-of-laodicea, basil-of-caesarea, damasus-of-rome, epiphanius-of-salamis, evagrius-ponticus, gregory-of-nazianzus

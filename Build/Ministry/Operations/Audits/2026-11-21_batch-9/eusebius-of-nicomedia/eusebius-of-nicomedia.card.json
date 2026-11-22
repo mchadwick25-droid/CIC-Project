@@ -1,0 +1,234 @@
+{
+  "knownFor": "Bishop of Berytus, Nicomedia and at last Constantinople, who took up Arius's cause against Alexander of Alexandria and led the party his opponents named after him.",
+  "datesNote": "Exiled within three months of the Council of Nicaea of 325, by Philostorgius; recalled after three years, by Philostorgius, in 328 by A. C. Zenos's note to Socrates of Constantinople; died soon after the synod of Antioch held in the fifth year after Constantine's death, by Socrates, which Zenos dates to 341",
+  "placeNote": "Berytus; Nicomedia in Bithynia; Nicaea; Constantinople; Antioch",
+  "role": "Bishop and leader of a church party",
+  "keyWorks": [
+    {
+      "title": "Letter to Paulinus of Tyre",
+      "about": "urges Paulinus to write for Arius's side and holds that the Son was not made from the Father's substance; kept by Theodoret of Cyrrhus"
+    },
+    {
+      "title": "Plea of Eusebius and Theognis to the bishops",
+      "about": "asks to be restored, saying they signed the creed of Nicaea but not the condemnation of Arius; kept by Socrates"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Philostorgius says Ulfila was made bishop of the Goths \"by Eusebius and the other prelates that were with him\". Louis Duchesne names this Eusebius as Eusebius of Nicomedia.",
+      "Socrates names Theognis of Nicaea, Maris of Chalcedon, Theodore of Heraclea, Ursacius of Singidunum and Valens of Mursa as those who \"had formerly co-operated with Eusebius\" and took up his authority after his death.",
+      "Blomfield Jackson's note to Theodoret says Constantine was baptized \"At the hand of Eusebius of Nicomedia\".",
+      "Sozomen says a synod convened in Bithynia wrote to all the bishops, asking them to hold communion with Arius and his followers and to require Alexander to do the same.",
+      "Prosper's Chronicle repeats Jerome's words that Constantine was baptized by Eusebius of Nicomedia and turned to Arius's teaching."
+    ],
+    "remembered": [
+      "Athanasius of Alexandria, in his Encyclical Letter: \"Eusebius and his fellows have always been the supporters and associates of the impious heresy of the Arian madmen\".",
+      "Constantine, writing to the people of Nicomedia: \"the co-operator in the cruelty of the tyrants\".",
+      "Archibald Robertson, editor of Athanasius, calls the Eusebians the \"personal entourage, of one man, a master of intrigue\".",
+      "Alexander of Alexandria, in his circular letter kept by Socrates, tells the bishops to pay no attention to anything Eusebius should write to them.",
+      "Athanasius says Eusebius sent to him urging him to admit Arius and his followers to communion, and threatened him in his spoken messages.",
+      "Jerome, about forty years after Constantine's death, says Constantine was baptized by Eusebius of Nicomedia and so turned to Arius's teaching, and that seizures of churches and discord across the world followed."
+    ]
+  },
+  "uncertain": [
+    "Most accounts of him come from opponents: Alexander of Alexandria, Athanasius, Constantine's letter and the Nicene historians. Philostorgius was on his side, but survives only in the hostile summary of Photius of Constantinople.",
+    "Whether he signed the creed of Nicaea is told two ways. Philostorgius says he signed and has Secundus of Ptolemais taunt him for it. Socrates says he was one of five who would not accept it. His own plea, in Socrates, says he signed the creed but not the condemnation of Arius. Walford, translating Philostorgius, takes Socrates to be mistaken.",
+    "Why he was exiled is told two ways. Constantine's letter blames his sheltering of men from Alexandria. Socrates ties it to his support for Arius, and Zenos says Socrates \"does not give the correct reason\".",
+    "When he took the see of Constantinople is told two ways. Socrates says Constantius moved him there after deposing Paul, bishop of Constantinople. Theodoret and Philostorgius place it at the death of Alexander of Constantinople, which Walford's note calls a mistake.",
+    "Theodoret does not say who baptized Constantine. The name is Blomfield Jackson's note.",
+    "Philostorgius gives Ulfila's consecrator only as \"Eusebius\". The identification is Duchesne's.",
+    "Philostorgius's story that Constantine's will was entrusted to him comes only through Photius's summary.",
+    "The year of his death, 341, is Zenos's reckoning from Socrates's dating of the synod of Antioch.",
+    "Who baptized Constantine. Eusebius of Caesarea, in the Life of Constantine, writes only that the prelates performed the ceremonies. Jerome's Chronicle names Eusebius of Nicomedia and gives the verdict that Constantine then turned to Arius's teaching; Prosper's Chronicle copies him.",
+    "Alexander of Alexandria's circular letter charges that Eusebius deserted his church at Berytus for Nicomedia, and the letter of the Egyptian bishops in 338 says the same. The charge is theirs.",
+    "A woman's charge against Eustathius of Antioch is told two ways. Theodoret says Eusebius's party bribed her; Philostorgius tells the charge as true.",
+    "Socrates says Eusebius and his allies told Constantine that Athanasius had threatened to stop the corn sent from Alexandria to Constantinople, and he calls the charge a calumny. The charge is theirs as Socrates reports it.",
+    "Philostorgius sets the embassy on which Ulfila was made bishop at the court of Constantine. Duchesne, who names Eusebius of Nicomedia as the consecrator, sets it at the court of Constantius.",
+    "Sozomen alone, with \"it is said\", tells that Eusebius and Theognis bribed the keeper of the Nicene documents to efface their signatures, and that Eusebius answered the charge by pointing to his robe.",
+    "Ambrose says Eusebius's own letter, read at Nicaea, led the council to put the word homoousios into its creed. The claim rests on Ambrose alone, and his Latin is not held.",
+    "Philostorgius says Eusebius and other pupils of Lucian yielded to persecutors and sacrificed to the gods, then made amends. It is one line in Photius's summary.",
+    "Photius's summary says Eusebius and his band accepted the Nicene sentence with a fraudulent purpose, secretly putting homoiousios for homoousios. That is Photius's framing of Philostorgius."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letter to Paulinus of Tyre, in Theodoret, Church History I.5 (tr. Blomfield Jackson)",
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Plea of Eusebius and Theognis, in Socrates, Church History I.14 (tr. A. C. Zenos)",
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History I.4, I.18-19, I.30",
+        "author": "Theodoret of Cyrrhus; with letters of Arius and Constantine",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Church History I.6, I.8, I.14, II.7-8, II.12 (Socrates); I.15 (Sozomen)",
+        "author": "Socrates of Constantinople; Sozomen; with Alexander of Alexandria's circular letter",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Ecclesiastical History, epitome by Photius, I.9-10, II.5, II.7, II.14, II.16",
+        "author": "Philostorgius",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/philostorgius_ecclesiastical-history_walford1855.txt"
+      },
+      {
+        "title": "Encyclical Letter; Prolegomena",
+        "author": "Athanasius of Alexandria; Archibald Robertson",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      },
+      {
+        "title": "Histoire ancienne de l'Église, tome 2",
+        "author": "Louis Duchesne",
+        "date": "1907",
+        "language": "French",
+        "file": "cic/texts/duchesne_histoire-ancienne-de-leglise-tome2-fra_3e-ed1907.txt"
+      },
+      {
+        "title": "Chronicle, year 2353 of Abraham (Constantine's baptism)",
+        "author": "Jerome",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt"
+      },
+      {
+        "title": "Epitoma Chronicon, year 1046 (Constantine's baptism)",
+        "author": "Prosper of Aquitaine",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/prosper_chronica-minora-1-lat_mommsen1892.txt"
+      },
+      {
+        "title": "Life of Constantine, Book IV, chapters 61-62",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "On the Faith, Book III, chapter 15",
+        "author": "Ambrose of Milan",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf210_ambrose-select-works-letters.xml"
+      }
+    ]
+  },
+  "briefReferences": [
+    "Theodoret, Church History I.4, tr. Blomfield Jackson: Arius's letter to Eusebius, his fellow pupil of Lucian, and why he was persecuted.",
+    "Theodoret, Church History I.5: Eusebius's letter to Paulinus of Tyre, the Son not made from the Father's own being, all things by God's will.",
+    "Socrates, Church History I.6: Alexander's circular letter and his word to the bishops about Eusebius's letters; Eusebius's weight with the emperor at Nicomedia.",
+    "Socrates, Church History I.8 and I.14: the signing at Nicaea told two ways, and the plea of Eusebius and Theognis, written from exile.",
+    "Philostorgius, epitome by Photius, I.9-10 and II.5-7: he signed; the exile within three months; the recall after three years; \"the Great\"; Ulfila and a bishop Eusebius.",
+    "Theodoret, Church History I.19: Constantine's letter to the Nicomedians. I.20: the bribed woman and Eustathius of Antioch.",
+    "Athanasius, Defence against the Arians: Eusebius pressed him with threats to receive Arius. Archibald Robertson's Prolegomena: the Greek phrase for the party.",
+    "Socrates, Church History I.35 and II.7-8: the charges against Athanasius, the grain ships called slander, the move to Constantinople, the meeting of ninety bishops at Antioch where Socrates says the aim was to undo the Nicene word for the Son sharing the Father's very being.",
+    "Eusebius of Caesarea, Life of Constantine IV.62: \"the prelates\" gave the baptism. Jerome, Chronicle: Constantine turning aside to Arius's teaching.",
+    "Socrates, Church History II.12: his death after the meeting at Antioch; his allies taking up \"all his authority\"; \"that disturber of the public peace\".",
+    "Duchesne, Histoire ancienne de l'Église, tome 2: Eusebius of Nicomedia as the bishop who made Ulfila a bishop, at the court of Constantius.",
+    "World census, Homoian ('Arian') Christianity: his tradition."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "We are persecuted because we said: the Son has a beginning, but God has no beginning.",
+      "printed": "We are persecuted, because we say that the Son has a beginning, but that God is without beginning.",
+      "work": "Arius to Eusebius, in Theodoret, Church History I.4, tr. Blomfield Jackson",
+      "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+      "lines": "6045-6046",
+      "uncertain": "The Greek is held only in two damaged prints, Theodoret's in the Patrologia Graeca and Epiphanius's Panarion; they agree with the sense. The modern English follows Jackson's English.",
+      "secondReading": "minor"
+    },
+    {
+      "modern": "We signed the creed, but we did not sign the condemnation. We were not finding fault with the creed. We did not believe the accused man was what he was said to be.",
+      "printed": "we subscribed the declaration of faith; we did not subscribe the anathematizing; not as objecting to the creed, but as disbelieving the party accused to be such as was represented",
+      "work": "Plea of Eusebius and Theognis, in Socrates, Church History I.14, tr. A. C. Zenos",
+      "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+      "lines": "3956-3958",
+      "uncertain": "The Greek is held only in a damaged print; its Latin on the same page and Zenos's English agree with the sense. \"The creed\" renders the Greek for \"the faith\".",
+      "secondReading": "same"
+    },
+    {
+      "modern": "Who taught these things to so innocent a crowd? Eusebius, plainly: the partner in the tyrant's cruelty.",
+      "printed": "Who has taught these doctrines to the innocent multitude? It is manifestly Eusebius, the co-operator in the cruelty of the tyrants.",
+      "work": "Constantine to the Nicomedians, in Theodoret, Church History I.19, tr. Blomfield Jackson",
+      "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+      "lines": "7500-7502",
+      "uncertain": "The Greek is held only in two damaged prints, Theodoret's and Gelasius of Cyzicus's, which read alike; Jackson prints \"tyrants\" in the plural where the Greek has \"tyrannical cruelty\".",
+      "secondReading": "minor"
+    },
+    {
+      "modern": "the prelates",
+      "printed": "the prelates",
+      "work": "Eusebius of Caesarea, Life of Constantine IV.62",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+      "lines": "67817",
+      "secondReading": "checked at card"
+    },
+    {
+      "modern": "turned aside",
+      "printed": "in Arrianum dogma declinat",
+      "work": "Jerome, Chronicle, year 2353 of Abraham",
+      "file": "cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt",
+      "lines": "45290",
+      "secondReading": "checked at card",
+      "uncertain": "The Latin \"declinat\" is turns aside, leans; the modern English gives the verb as it stands."
+    },
+    {
+      "modern": "of one being,",
+      "printed": "homoousion",
+      "work": "Socrates, Church History II.8, tr. A. C. Zenos",
+      "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+      "lines": "5906",
+      "secondReading": "checked at card",
+      "uncertain": "Zenos prints the Greek word in Latin letters; \"of one being\" is its plain sense."
+    },
+    {
+      "modern": "all his authority.",
+      "printed": "all his authority",
+      "work": "Socrates, Church History II.12, tr. A. C. Zenos",
+      "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+      "lines": "6181",
+      "secondReading": "checked at card"
+    },
+    {
+      "modern": "those around Eusebius.",
+      "printed": "οἱ περὶ Εὐσέβιον",
+      "work": "Athanasius's name for the party, as the Greek phrase stands in Archibald Robertson's Prolegomena",
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "lines": "4118-4120",
+      "secondReading": "checked at card",
+      "uncertain": "Robertson says \"the Eusebians\" is the later and inexact English for the Greek phrase. Athanasius's own Greek, in the Patrologia Graeca, is held only in a damaged print."
+    },
+    {
+      "modern": "the Great.",
+      "printed": "the Great",
+      "work": "Philostorgius, epitome by Photius I.9, tr. Edward Walford",
+      "file": "cic/texts/philostorgius_ecclesiastical-history_walford1855.txt",
+      "lines": "104",
+      "secondReading": "checked at card",
+      "uncertain": "The Greek of Philostorgius is not held; the words are Walford's English of Photius's summary."
+    },
+    {
+      "modern": "that disturber of the public peace.",
+      "printed": "that disturber of the public peace",
+      "work": "Socrates, Church History II.12, tr. A. C. Zenos",
+      "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+      "lines": "6180-6181",
+      "secondReading": "same"
+    }
+  ]
+}

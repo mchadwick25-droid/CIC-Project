@@ -2860,23 +2860,22 @@
  },
  "gregory-of-nyssa": {
   "file": "gregory-of-nyssa.mp3",
-  "bytes": 1717437,
-  "chars": 1670,
-  "text_sha256": "ef8f03242c7904c83bf5cc4b69dc36c45655f97baaab0ecd6e5d8c706a8dbb99",
-  "voiceId": "MFZUKuGQUsGJPQjTS4wC",
+  "bytes": 1009205,
+  "chars": 1777,
+  "text_sha256": "c85c61a4ab15577ff94818bdea72f9c827476659d6e54eed47c04efd68969db4",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
-  "outputFormat": "mp3_44100_128",
+  "outputFormat": "mp3_44100_64",
   "voiceSettings": {
-   "stability": 0.85,
-   "similarity_boost": 0.88,
-   "style": 0.05,
-   "use_speaker_boost": true,
-   "speed": 0.95
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
   },
-  "charsSent": 1721,
-  "openTag": "[calmly]",
-  "closingTag": "[warmly]",
-  "requestId": "qoCOnk5rJUJmpOx1M4Jd"
+  "charsSent": 1810,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "QoORBM0VMnMxPNDrBm09"
  },
  "ephrem-the-syrian": {
   "file": "ephrem-the-syrian.mp3",
@@ -2959,23 +2958,22 @@
  },
  "gregory-of-nazianzus": {
   "file": "gregory-of-nazianzus.mp3",
-  "bytes": 1819837,
-  "chars": 1875,
-  "text_sha256": "c0c49ab73d2078adc4f74aea716ebc68e2aba80ee48efd3f6ff9470102dfcd4d",
-  "voiceId": "MFZUKuGQUsGJPQjTS4wC",
+  "bytes": 1033447,
+  "chars": 1874,
+  "text_sha256": "6127555fb0407b9e1782511c7e0231fb206e2fb655f375b7725726057a793ed4",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
-  "outputFormat": "mp3_44100_128",
+  "outputFormat": "mp3_44100_64",
   "voiceSettings": {
-   "stability": 0.85,
-   "similarity_boost": 0.88,
-   "style": 0.05,
-   "use_speaker_boost": true,
-   "speed": 0.95
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
   },
-  "charsSent": 1939,
-  "openTag": "[calmly]",
-  "closingTag": "[warmly]",
-  "requestId": "AEZW4v7O7B9NUQMAowYK"
+  "charsSent": 1920,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "3L1DYtE2cmKXdS4KSIEx"
  },
  "benedict-of-nursia": {
   "file": "benedict-of-nursia.mp3",
@@ -4310,5 +4308,176 @@
   "openTag": null,
   "closingTag": null,
   "requestId": "YaWRHgxM68wljiASwCfP"
+ },
+ "basil-of-caesarea": {
+  "file": "basil-of-caesarea.mp3",
+  "bytes": 2027354,
+  "chars": 3746,
+  "text_sha256": "a9419300d8721e5b777b9e46f82e1e4882652d55ded198554bb6d67448f9fb4c",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3858,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "k0lhOoZMko53AyBeNgLQ"
+ },
+ "eunomius-of-cyzicus": {
+  "file": "eunomius-of-cyzicus.mp3",
+  "bytes": 2186178,
+  "chars": 3799,
+  "text_sha256": "7e043dd2237db96c02aee20f7fe5896a3cabb2f9558fd8503d45fef54c7c7797",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3877,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "02PPynOsCLEZyeAY5S9u"
+ },
+ "apollinaris-of-laodicea": {
+  "file": "apollinaris-of-laodicea.mp3",
+  "bytes": 2208539,
+  "chars": 3823,
+  "text_sha256": "98f3cc7a15841d85451511463732f3749b8b5707f693ecc4b3e77425f260c11a",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3908,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "PEF8VDd1vESiERFWzMfS"
+ },
+ "evagrius-ponticus": {
+  "file": "evagrius-ponticus.mp3",
+  "bytes": 2156712,
+  "chars": 3783,
+  "text_sha256": "06c3d149f25569a3b74de9306a624c51576653d9e6f132a19474838054439b4c",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3874,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "4O3FclrKZaegO1CQWRRx"
+ },
+ "eusebius-of-nicomedia": {
+  "file": "eusebius-of-nicomedia.mp3",
+  "bytes": 2277711,
+  "chars": 4034,
+  "text_sha256": "c996db825772bc756884964a73af77656c821696dfbda7cb4e67f8ee34154a98",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 4232,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "BqWHaIb7GJQkv2BGJMlj"
+ },
+ "hilary-of-poitiers": {
+  "file": "hilary-of-poitiers.mp3",
+  "bytes": 2108647,
+  "chars": 3895,
+  "text_sha256": "a9b0f08240f2bcc564c032358252f8d48b09cfd61ab5b645d410205e29b66c51",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3976,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "JReZtVL1f6zIyS8sCGTk"
+ },
+ "cyril-of-jerusalem": {
+  "file": "cyril-of-jerusalem.mp3",
+  "bytes": 2186805,
+  "chars": 4126,
+  "text_sha256": "9ce12727fe2efd3bfa7a7ef8dde566b0c8a6ba817ba0dd924055eeb92a8c1784",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 4222,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "MUFCYwwGnfCTO42ZnfEz"
+ },
+ "epiphanius-of-salamis": {
+  "file": "epiphanius-of-salamis.mp3",
+  "bytes": 2264963,
+  "chars": 4063,
+  "text_sha256": "8b34d11a4b32b7b41437bdba91d8eedf01d7283330bdf7a80a614fad5b340c5e",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 4156,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "5AKbN3gfOR3jtOQVeEO5"
+ },
+ "damasus-of-rome": {
+  "file": "damasus-of-rome.mp3",
+  "bytes": 2181580,
+  "chars": 3760,
+  "text_sha256": "1cca5a5bfa5da310aae001deaaff4998b8e2a50a37086d370e62d8bca4772cc8",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 3850,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "GJKG8yvYY6XVZVuTc9Jv"
  }
 }

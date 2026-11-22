@@ -841,6 +841,41 @@
     "Digitized by t^.ooQle",
     "CHAP. I.] FIRST MANSIONS. 5"
    ]
+  },
+  {
+   "file": "cic/texts/epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt",
+   "lines": "12388",
+   "scan": "τάς TE παρ᾽",
+   "reads": "τάς τε παρ᾽",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt",
+   "lines": "12390",
+   "scan": "δεδηγμένων zal",
+   "reads": "δεδηγμένων καὶ",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt",
+   "lines": "12391",
+   "scan": "προχαταληπτικὰ",
+   "reads": "προκαταληπτικὰ",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt",
+   "lines": "27958",
+   "scan": "Facite me Πο-",
+   "reads": "Facite me Ro-",
+   "kind": "OCR misread (Latin letters read as Greek)"
+  },
+  {
+   "file": "cic/texts/jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt",
+   "lines": "27959",
+   "scan": "mans urbis",
+   "reads": "manae urbis",
+   "kind": "OCR misread"
   }
  ]
 }
