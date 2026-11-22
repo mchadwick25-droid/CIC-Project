@@ -62,6 +62,13 @@ li{margin-bottom:.5rem}
 .lineage-section.link-conflict{border-left-color:var(--link-conflict)}.lineage-section.link-conflict h3{color:var(--link-conflict)}
 .lineage-section.link-contact h3{color:var(--link-contact)}
 .lineage-list{list-style:none;padding:0}
+.lineage-section h4{font-size:1.05rem;margin:.2rem 0 .4rem}
+.lineage-section.link-influence h4{color:var(--link-influence)}.lineage-section.link-conflict h4{color:var(--link-conflict)}.lineage-section.link-contact h4{color:var(--link-contact)}.lineage-section.link-grow h4{color:var(--link-grow)}
+.lineage-rest-heading{margin:2rem 0 .2rem}
+.lineage-kind{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;color:var(--muted);margin-right:.2rem}
+.lineage-none{color:var(--muted);font-style:italic}
+.lineage-strip{display:flex;flex-wrap:wrap;gap:.3rem .7rem;align-items:baseline;font-family:var(--sans);font-size:.95rem;background:var(--surface);border-radius:4px;padding:.55rem .8rem;margin:1rem 0 0}
+.lineage-arrow{color:var(--muted)}
 .lineage-list li{margin:0 0 .5rem;padding:0}
 .lineage-list a{color:var(--action)}
 .confidence-note{font-style:italic;color:var(--muted);font-size:.95rem}
@@ -160,19 +167,28 @@ li{margin-bottom:.5rem}
   
 
   <section>
-    <h2>In Its Own Record</h2>
-    <div class="lineage-section link-influence">
-<h3>Influenced</h3>
+    <h2>Connections</h2>
+    <div class="lineage-section link-grow">
+<h3>Descended from</h3>
+<p class="lineage-none">No direct parent is recorded.</p>
+</div>
+<div class="lineage-section link-grow">
+<h3>Direct descendants</h3>
+<p class="lineage-none">No direct descendant is recorded. Its other links are influence, argument and contact.</p>
+</div>
+<h3 class="lineage-rest-heading">Influence, argument and contact</h3>
+<div class="lineage-section link-influence">
+<h4>Influenced</h4>
 <ul class="lineage-list">
-<li id="montanism-the-new-prophecy--tertullian-s-voice"><a href="tertullian-s-voice.html">Tertullian</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Tertullian of Carthage took up the New Prophecy&#039;s claims. He quotes a saying of the Paraclete given &#039;by the mouth of the prophetess Prisca&#039;. In Against Praxeas he writes that his side withdrew from the &#039;carnally-minded&#039; over the Paraclete.</span></li>
+<li id="montanism-the-new-prophecy--tertullian-s-voice"><span class="lineage-kind">influenced</span> <a href="tertullian-s-voice.html">Tertullian</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">Tertullian of Carthage took up the New Prophecy&#039;s claims. He quotes a saying of the Paraclete given &#039;by the mouth of the prophetess Prisca&#039;. In Against Praxeas he writes that his side withdrew from the &#039;carnally-minded&#039; over the Paraclete.</span></li>
 </ul>
 </div>
 <div class="lineage-section link-conflict">
-<h3>Opposed By</h3>
+<h4>Opposed By</h4>
 <ul class="lineage-list">
-<li id="post-apostolic-house-church--montanism-the-new-prophecy"><a href="post-apostolic-house-church.html">Post-Apostolic Household-Church Christianity</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">Eusebius of Caesarea quotes a writer of about 192 whose name is lost. He says the faithful of Asia met many times to test what the prophets of Phrygia taught. They found it to be heresy, and cut those who held it off from communion. Apolinarius, bishop of Hierapolis, also wrote against the Phrygians.</span><span class="lineage-outcome"><i>Lasting result:</i> Meetings of the faithful across Asia judged the New Prophecy to be heresy. Its followers were thrown out of the church and barred from communion.</span></li>
-<li id="imperial-juridical-christianity--montanism-the-new-prophecy"><a href="imperial-juridical-christianity.html">Imperial and Juridical Christianity</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">Constantine sent an edict to the heretics, kept in Eusebius of Caesarea&#039;s Life of Constantine. It names &#039;ye who are called Cataphrygians&#039;, a common name for the Montanists. It forbids their meetings. It takes away the houses where they met.</span><span class="lineage-outcome"><i>Lasting result:</i> Constantine&#039;s law said the Montanists could not meet, not even in a private house. It urged them to join the catholic Church instead.</span></li>
-<li id="byzantine-imperial-church-justinianic--montanism-the-new-prophecy"><a href="byzantine-imperial-church-justinianic.html">The Byzantine Imperial Church (Justinianic)</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">Procopius was a hostile witness to Justinian. He says the emperor told groups such as the Montanists to give up their beliefs. He says the Montanists of Phrygia shut themselves in their churches. Then they set them on fire. A law of Justinian also names them.</span><span class="lineage-outcome"><i>Lasting result:</i> Justinian ordered the Montanists to give up their faith, Procopius says. He threatened those who held out with losing the right to leave property to their families.</span></li>
+<li id="post-apostolic-house-church--montanism-the-new-prophecy"><span class="lineage-kind">argued against</span> <a href="post-apostolic-house-church.html">Post-Apostolic Household-Church Christianity</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">Eusebius of Caesarea quotes a writer of about 192 whose name is lost. He says the faithful of Asia met many times to test what the prophets of Phrygia taught. They found it to be heresy, and cut those who held it off from communion. Apolinarius, bishop of Hierapolis, also wrote against the Phrygians.</span><span class="lineage-outcome"><i>Lasting result:</i> Meetings of the faithful across Asia judged the New Prophecy to be heresy. Its followers were thrown out of the church and barred from communion.</span></li>
+<li id="imperial-juridical-christianity--montanism-the-new-prophecy"><span class="lineage-kind">argued against</span> <a href="imperial-juridical-christianity.html">Imperial and Juridical Christianity</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">Constantine sent an edict to the heretics, kept in Eusebius of Caesarea&#039;s Life of Constantine. It names &#039;ye who are called Cataphrygians&#039;, a common name for the Montanists. It forbids their meetings. It takes away the houses where they met.</span><span class="lineage-outcome"><i>Lasting result:</i> Constantine&#039;s law said the Montanists could not meet, not even in a private house. It urged them to join the catholic Church instead.</span></li>
+<li id="byzantine-imperial-church-justinianic--montanism-the-new-prophecy"><span class="lineage-kind">argued against</span> <a href="byzantine-imperial-church-justinianic.html">The Byzantine Imperial Church (Justinianic)</a> <span class="lineage-confidence">Documented</span> <span class="lineage-major">Major</span> — <span class="confidence-note">Procopius was a hostile witness to Justinian. He says the emperor told groups such as the Montanists to give up their beliefs. He says the Montanists of Phrygia shut themselves in their churches. Then they set them on fire. A law of Justinian also names them.</span><span class="lineage-outcome"><i>Lasting result:</i> Justinian ordered the Montanists to give up their faith, Procopius says. He threatened those who held out with losing the right to leave property to their families.</span></li>
 </ul>
 </div>
 

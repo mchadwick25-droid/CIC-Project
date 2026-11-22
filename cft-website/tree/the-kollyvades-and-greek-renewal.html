@@ -62,6 +62,13 @@ li{margin-bottom:.5rem}
 .lineage-section.link-conflict{border-left-color:var(--link-conflict)}.lineage-section.link-conflict h3{color:var(--link-conflict)}
 .lineage-section.link-contact h3{color:var(--link-contact)}
 .lineage-list{list-style:none;padding:0}
+.lineage-section h4{font-size:1.05rem;margin:.2rem 0 .4rem}
+.lineage-section.link-influence h4{color:var(--link-influence)}.lineage-section.link-conflict h4{color:var(--link-conflict)}.lineage-section.link-contact h4{color:var(--link-contact)}.lineage-section.link-grow h4{color:var(--link-grow)}
+.lineage-rest-heading{margin:2rem 0 .2rem}
+.lineage-kind{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;color:var(--muted);margin-right:.2rem}
+.lineage-none{color:var(--muted);font-style:italic}
+.lineage-strip{display:flex;flex-wrap:wrap;gap:.3rem .7rem;align-items:baseline;font-family:var(--sans);font-size:.95rem;background:var(--surface);border-radius:4px;padding:.55rem .8rem;margin:1rem 0 0}
+.lineage-arrow{color:var(--muted)}
 .lineage-list li{margin:0 0 .5rem;padding:0}
 .lineage-list a{color:var(--action)}
 .confidence-note{font-style:italic;color:var(--muted);font-size:.95rem}
@@ -160,17 +167,26 @@ li{margin-bottom:.5rem}
   
 
   <section>
-    <h2>In Its Own Record</h2>
-    <div class="lineage-section link-influence">
-<h3>Influenced By</h3>
+    <h2>Connections</h2>
+    <div class="lineage-section link-grow">
+<h3>Descended from</h3>
+<p class="lineage-none">No direct parent is recorded.</p>
+</div>
+<div class="lineage-section link-grow">
+<h3>Direct descendants</h3>
+<p class="lineage-none">No direct descendant is recorded. Its other links are influence, argument and contact.</p>
+</div>
+<h3 class="lineage-rest-heading">Influence, argument and contact</h3>
+<div class="lineage-section link-influence">
+<h4>Influenced By</h4>
 <ul class="lineage-list">
-<li id="desert-monasticism--the-kollyvades-and-greek-renewal"><a href="desert-monasticism.html">Desert Monasticism</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">In 1782 Macarius of Corinth and Nikodemos of Mount Athos printed the Philokalia at Venice, a book of old Greek writings on prayer. It opens with counsels credited to Antony the Great. It also holds works by Evagrius of Pontus and by John Cassian.</span></li>
+<li id="desert-monasticism--the-kollyvades-and-greek-renewal"><span class="lineage-kind">influenced</span> <a href="desert-monasticism.html">Desert Monasticism</a> <span class="lineage-confidence">Documented</span> — <span class="confidence-note">In 1782 Macarius of Corinth and Nikodemos of Mount Athos printed the Philokalia at Venice, a book of old Greek writings on prayer. It opens with counsels credited to Antony the Great. It also holds works by Evagrius of Pontus and by John Cassian.</span></li>
 </ul>
 </div>
 <div class="lineage-section link-influence">
-<h3>Influenced</h3>
+<h4>Influenced</h4>
 <ul class="lineage-list">
-<li id="the-kollyvades-and-greek-renewal--russian-church-synodal-century"><a href="russian-church-synodal-century.html">The Russian Church — the Synodal Century</a> <span class="lineage-confidence">Widely Accepted</span> — <span class="confidence-note">In 1782 the Kollyvades printed the Philokalia, a Greek book on prayer, and Paisius Velichkovsky put it into Slavonic. A book of 1847 from Optina says the Synod&#039;s press in Moscow first printed it. Then, through the work of Philaret of Moscow, it was printed there again.</span></li>
+<li id="the-kollyvades-and-greek-renewal--russian-church-synodal-century"><span class="lineage-kind">influenced</span> <a href="russian-church-synodal-century.html">The Russian Church — the Synodal Century</a> <span class="lineage-confidence">Widely Accepted</span> — <span class="confidence-note">In 1782 the Kollyvades printed the Philokalia, a Greek book on prayer, and Paisius Velichkovsky put it into Slavonic. A book of 1847 from Optina says the Synod&#039;s press in Moscow first printed it. Then, through the work of Philaret of Moscow, it was printed there again.</span></li>
 </ul>
 </div>
 

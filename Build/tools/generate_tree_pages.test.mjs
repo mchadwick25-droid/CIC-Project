@@ -491,3 +491,71 @@ test('the page for a missing address links back with absolute paths and asks not
   assert.match(page, /<meta name="robots" content="noindex">/);
   assert.doesNotMatch(page, /(href|src)="(?!\/|https?:|#|mailto:)/);
 });
+
+const DESCENT = new Set(['gave rise to', 'continued as']);
+const kindOf = (id) => (census.movements.find(m => m.id === id) || {}).kind || 'tradition';
+const bothTraditions = (e) => kindOf(e.from) === 'tradition' && kindOf(e.to) === 'tradition';
+const descentEdges = census.edges.filter(e => DESCENT.has(e.type) && bothTraditions(e));
+const isTrad = (m) => kindOf(m.id) === 'tradition';
+const withLine = census.movements.find(m => isTrad(m) && descentEdges.some(e => e.to === m.id) && descentEdges.some(e => e.from === m.id));
+const noLine = census.movements.find(m => isTrad(m) && !descentEdges.some(e => e.from === m.id || e.to === m.id));
+const between = (page, from, to) => { const a = page.indexOf(from); const b = page.indexOf(to, a); return page.slice(a, b < 0 ? undefined : b); };
+
+test('a tradition page shows a lineage line, then its direct line, then everything else', () => {
+  const page = generate(census)(`tree/${withLine.id}.html`);
+  assert.match(page, /<nav class="lineage-strip" aria-label="Direct line of descent">/);
+  assert.ok(page.indexOf('class="lineage-strip"') < page.indexOf('<h2>About This Movement</h2>'));
+  assert.match(page, /<h2>Connections<\/h2>/);
+  const at = (h) => page.indexOf(`<h3>${h}</h3>`);
+  assert.ok(at('Descended from') > 0 && at('Descended from') < at('Direct descendants'));
+  const parents = between(page, '<h3>Descended from</h3>', '<h3>Direct descendants</h3>');
+  const kids = between(page, '<h3>Direct descendants</h3>', 'lineage-rest-heading');
+  for (const e of descentEdges.filter(x => x.to === withLine.id)) assert.ok(parents.includes(`href="${e.from}.html"`), `parent ${e.from}`);
+  for (const e of descentEdges.filter(x => x.from === withLine.id)) assert.ok(kids.includes(`href="${e.to}.html"`), `descendant ${e.to}`);
+  assert.match(parents, /class="lineage-kind">(continues|grew out of)</);
+});
+
+test('a tradition with no direct line says so, and has no lineage line', () => {
+  const page = generate(census)(`tree/${noLine.id}.html`);
+  assert.match(page, /<p class="lineage-none">No direct parent is recorded\.<\/p>/);
+  assert.match(page, /<p class="lineage-none">No direct descendant is recorded\./);
+  assert.doesNotMatch(page, /<nav class="lineage-strip"/);
+});
+
+test('people, councils and movements across churches keep the plain list of links', () => {
+  const read = generate(census);
+  const across = census.movements.find(m => m.kind === 'cross-church movement' && census.edges.some(e => e.from === m.id || e.to === m.id));
+  for (const id of ['arius', 'council-of-nicaea-325', across.id]) {
+    const page = read(`tree/${id}.html`);
+    assert.doesNotMatch(page, /Descended from|Direct descendants|class="lineage-strip"/, id);
+  }
+});
+
+test('a descent link to a person or a movement is not listed as a direct descendant', () => {
+  const odd = census.edges.find(e => DESCENT.has(e.type) && !bothTraditions(e) && kindOf(e.from) === 'tradition');
+  const page = generate(census)(`tree/${odd.from}.html`);
+  const direct = between(page, '<h3>Direct descendants</h3>', 'lineage-rest-heading');
+  assert.ok(!direct.includes(`href="${odd.to}.html"`), 'it must sit with the other links');
+  assert.ok(page.includes(`href="${odd.to}.html"`));
+});
+
+test('a break has no direction, as the Method page says', () => {
+  const brk = census.edges.find(e => e.type === 'broke with' && bothTraditions(e));
+  const page = generate(census)(`tree/${brk.from}.html`);
+  assert.match(page, /<h3>Broke With<\/h3>/);
+  assert.doesNotMatch(page, /this broke with|broke with this/);
+});
+
+test('the map card and the tradition pages sort links the same way', () => {
+  const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
+  const gen = fs.readFileSync(path.join(root, 'Build/tools/generate_tree_pages.mjs'), 'utf8');
+  assert.match(map, /const DESCENT_TYPES=new Set\(\['gave rise to','continued as'\]\)/);
+  assert.match(gen, /const DESCENT_TYPES = new Set\(\['gave rise to', 'continued as'\]\)/);
+  for (const h of ['Descended from', 'Direct descendants', 'Influence, argument and contact']) {
+    assert.ok(map.includes(h), `the map card lacks "${h}"`);
+    assert.ok(gen.includes(h), `the page generator lacks "${h}"`);
+  }
+  assert.ok(map.includes('Broke with') && gen.includes('Broke With'));
+  const method = JSON.parse(fs.readFileSync(path.join(root, 'Build/tools/tree_site_pages.json'), 'utf8')).method.sections;
+  assert.ok(method.some(s => s.heading === 'Direct descendants and influence'));
+});
