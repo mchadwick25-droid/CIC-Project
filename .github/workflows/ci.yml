@@ -241,6 +241,10 @@ jobs:
               - 'cft-website/**'
               - 'cic-worker/**'
               - 'tools/build_tree_site.mjs'
+              - 'tools/slim_map_data.mjs'
+              - 'tools/slim_map_fields.json'
+              - 'tools/tests/slim_map_data.test.mjs'
+              - 'Build/Ministry/Operations/Audits/2026-11-22_cft-phone-loading-audit/startup_fields.json'
               - 'Build/tools/generate_tree_pages*'
               - 'Build/tools/tree_site_pages.json'
               - 'wrangler.jsonc'
@@ -394,7 +398,7 @@ jobs:
           git show HEAD:cft-website/audio/tree/manifest.json > cft-website/audio/tree/manifest.json
           git show HEAD:cft-website/audio/docstories/manifest.json > cft-website/audio/docstories/manifest.json
       - run: node tools/build_tree_site.mjs
-      - run: node --test cic-worker/worker.test.mjs Build/tools/generate_tree_pages.test.mjs
+      - run: node --test cic-worker/worker.test.mjs Build/tools/generate_tree_pages.test.mjs tools/tests/slim_map_data.test.mjs
 
   check-paths:
     name: Cited paths resolve; retired paths absent
