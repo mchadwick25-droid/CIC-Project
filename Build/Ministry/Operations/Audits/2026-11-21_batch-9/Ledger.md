@@ -94,3 +94,4 @@ One row per agent pass: the subagent's own token count as the harness reports it
 | Basil, Eunomius, Apollinaris | 5c Fresh read | Opus | 181,436 | 3 PASS |
 | Evagrius, Eusebius, Hilary | 5c Fresh read | Opus | 180,924 | 2 PASS, Hilary REVISE |
 | Cyril, Epiphanius, Damasus | 5c Fresh read | Opus | 184,636 | Epiphanius PASS, 2 REVISE |
+| Hilary, Damasus | 5d Craft pass | Sonnet | 112,079 | 680, 669 words |
