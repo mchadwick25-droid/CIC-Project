@@ -35,3 +35,4 @@ One row per agent pass: the subagent's own token count as the harness reports it
 | Evagrius | 3 Write | Sonnet | 104,442 | 673 words |
 | Eunomius | 2b Outline fixes | Opus | 114,712 | applied; 2 not applied with reason |
 | Basil | 3 Write | Sonnet | 103,803 | 694 words (19 over; for review) |
+| Epiphanius, Damasus | 2c Outline recheck | Opus | 110,338 | 2 FIX, replacements applied verbatim |

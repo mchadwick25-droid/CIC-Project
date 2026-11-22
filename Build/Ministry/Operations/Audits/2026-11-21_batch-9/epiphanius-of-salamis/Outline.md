@@ -113,7 +113,7 @@ File short names and full paths are in `Source_Sheet.md` (top). Item codes (S1, 
 - Evagrius Ponticus: no held line joins them; not in the story.
 
 **Who tells it:**
-- **Epiphanius himself**, in his own time: the Panarion (about 375) and his letters. Credit beside: the sect, the medicine chest, his sources, the copied letter, Apollinaris, his charges against Origen, the river, the ordination, the curtain, his joy at the ban. The letters survive for us in Jerome's Latin, held here only in English.
+- **Epiphanius himself**, in his own time: the Panarion (about 375) and his letters. Credit beside: the sect, the medicine chest, his sources, the copied letter, Apollinaris, his charges against Origen, the river, the ordination, the curtain, the blessing on his last days (Theophilus's approval of what he had always taught, J6 19779-19782). The letters survive for us in Jerome's Latin, held here only in English.
 - **Jerome**, in his own time, an ally who was present at Jerusalem and hostile to its bishop. Credit beside: the Jerusalem scene, "the old monastery", Hilarion, the monks drawn to Cyprus, the plain people reading him.
 - **Sozomen**, a church historian a generation or more later, admiring, who reports wonders and hearsay. Credit beside: birth and training, the Cypriots' choice, his giving, the ban as Theophilus's following "his example", the Long Brother's question, the farewell, the tomb.
 - **Socrates of Constantinople**, writing about the same time, who defends Origen and doubts his own informants. Credit beside: Theophilus's motive, "simple mind and manners", the bishop from Scythia, the public denunciation.
