@@ -1,0 +1,229 @@
+{
+  "otherNames": [
+    "Hilarius (the Latin form; Hilary Bishop of Pictavium in Rufinus)"
+  ],
+  "knownFor": "The leading Latin defender of the Nicene faith in the West, bishop of Poitiers, exiled under Constantius, and author of On the Trinity.",
+  "datesNote": "Born about 300; bishop by 356; died about 367",
+  "placeNote": "Poitiers, in Aquitania, in Gaul",
+  "role": "Bishop and theologian",
+  "keyWorks": [
+    {
+      "title": "On the Trinity",
+      "about": "twelve books against the Arians, begun in exile; Jerome counts twelve, and Watson treats it as his chief work"
+    },
+    {
+      "title": "On the Councils",
+      "about": "a letter to the bishops of Gaul; Watson says it argued that the newer Eastern creeds could be read in an orthodox sense"
+    },
+    {
+      "title": "To Constantius; On Constantius; Against Auxentius",
+      "about": "his writings on the emperor's church policy and against the Arian bishop of Milan, which Jerome lists"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Nicene cause in Gaul, which Sulpicius Severus credits him with clearing of heresy after Ariminum.",
+      "Sulpicius Severus says Martin, later bishop of Tours, left the army to seek out his company; Hilary tried to make him a deacon and, when Martin refused, made him an exorcist. Martin followed him home from exile and set up a monastery not far from Poitiers.",
+      "Sulpicius says Martin left to visit his parents, with Hilary's prayers and tears that he would return in due time.",
+      "Augustine, writing his own On the Trinity, studied a line from Hilary's On the Trinity on what is proper to each of the three persons, and called him a man of no mean authority in handling the Scriptures and in asserting the faith.",
+      "John Cassian, in 430, quotes his first book on the faith, calling him a confessor; Theodoret of Cyrrhus quotes him in the Greek East under the title of bishop and confessor. A confessor is one who suffered for the faith and lived.",
+      "Socrates of Constantinople says he defended the doctrine of the homoousion with great power in books written in Latin.",
+      "Rufinus calls him gentle and calm by nature, learned and most able at persuading, and says his books on the faith corrected even those far away whom he could not speak to in person.",
+      "Jerome's Chronicle records in one line that through Hilary Gaul condemned the tricks of the treachery of Ariminum.",
+      "Jerome asks a friend to send him Hilary's work on the councils, which he had copied for Rufinus at Trier with his own hand."
+    ],
+    "remembered": [
+      "Augustine of Hippo named him with Cyprian of Carthage, Lactantius and others as men who came out of Egypt loaded with gold and silver, meaning the pagan learning they brought into the church.",
+      "Orosius, Watson notes, ranked him within a generation of his death with Cyprian and Ambrose as one of the three chief glories of Western Christendom.",
+      "Jerome calls him \"a confessor and bishop of my own day\".",
+      "Gregory of Tours, writing about two centuries later, says he \"is said to have raised the dead to life\", and tells that before Clovis fought the Arian Goths a fiery beacon came from Hilary's church over the king's head."
+    ]
+  },
+  "uncertain": [
+    "Watson, who wrote the life in the English edition, warns that Hilary's own account of his search for God in On the Trinity is too neatly shaped to read as literal history, though it shows a real search.",
+    "Little of his life is dated firmly. Watson puts his birth about 300, from Hilary's own words rather than any record, and his death in 367, following Sulpicius Severus's \"sixth year after his return\".",
+    "Hilary is silent about himself and is never named in all the works of Athanasius, Watson notes, so the narrative is short and drawn mostly from Hilary's own writings.",
+    "His legendary daughter Abra, named in a letter once printed with his works, is now generally abandoned, Watson says.",
+    "Sulpicius Severus, on whom most of the outward story of the exile and return rests beside Hilary's own letters, wrote about forty years later and openly on Hilary's side, and is hostile to Saturninus.",
+    "Why he was exiled rests on his own word. Hilary says Saturninus deceived the emperor and that he was exiled by a faction on false reports, still a bishop in communion with all Gaul.",
+    "How he came home is told three ways. Sulpicius's Chronicle says he was sent back as a troublemaker with his exile not lifted; the Life of Martin says permission to return was granted through the king's penitence; Gregory of Tours says Constantius ordered his release.",
+    "Sulpicius says the exiled bishops offered to suspend Athanasius from communion if the bishops would first inquire into the faith, and that the other side preferred to remove the most celebrated men from the dispute. This rests on Sulpicius alone.",
+    "Sulpicius says that at Seleucia Hilary was first asked about the faith of the Gauls, whom the Arians had made suspect of Sabellius's teaching, and that he set out a faith agreeing with Nicaea and was admitted to communion.",
+    "Sulpicius will not say whether Hilary or Lucifer of Cagliari, who broke even with those who received the signers of Ariminum back, was right.",
+    "His failure at Milan in 364 is told only by Hilary, in Against Auxentius; the year is Watson's.",
+    "Against Constantius. Jerome says it was written after the emperor's death; Watson thinks it more probably the work of the long journey home in 360, while he still lived.",
+    "Gregory of Tours writes two centuries after Hilary, and the raising of the dead and the fiery beacon over Clovis are his late legend, kept in his voice.",
+    "The Latin of the Gallic bishops' letter to the East is held only in damaged prints. Feder's text reads that the letters were entrusted to Hilary; the text in Migne reads that they were sent to him."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "On the Trinity; On the Councils; homilies and shorter works (tr. E. W. Watson, L. Pullan and others)",
+        "language": "English",
+        "file": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml"
+      },
+      {
+        "title": "Collected anti-Arian fragments (Collectanea antiariana Parisina)",
+        "language": "Latin",
+        "file": "cic/texts/hilary_collectanea-antiariana-parisina-fragmenta-historica-lat_feder1916-csel65.txt"
+      },
+      {
+        "title": "On the Councils, chapter 91; Against Auxentius; To Constantius II; fragments (Latin, Maurist text)",
+        "language": "Latin",
+        "file": "cic/texts/hilary_opera-tomus-posterior-de-synodis-contra-constantium-fragmenta-historica-lat_migne-pl10-1844.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "The Life and Writings of St. Hilary of Poitiers (the introduction to the English edition)",
+        "author": "E. W. Watson",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml"
+      },
+      {
+        "title": "Chronicle (Sacred History), Book 2 (the councils, the exile and the return)",
+        "author": "Sulpicius Severus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men 100",
+        "author": "Jerome of Strido",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "On Christian Doctrine, Book 2, chapter 40 (the gold of Egypt)",
+        "author": "Augustine of Hippo",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml"
+      },
+      {
+        "title": "On the Trinity, Book 6, chapter 10 (tr. Arthur West Haddan)",
+        "author": "Augustine of Hippo",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml"
+      },
+      {
+        "title": "Church History, Book 3, chapter 10",
+        "author": "Socrates of Constantinople",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Letters 5 and 70; Dialogue against the Luciferians",
+        "author": "Jerome of Strido",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf206_jerome-principal-works.xml"
+      },
+      {
+        "title": "Chronicle",
+        "author": "Jerome of Strido",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt"
+      },
+      {
+        "title": "Church History, Book 10, chapter 32 (Latin continuation of Eusebius)",
+        "author": "Rufinus of Aquileia",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt"
+      },
+      {
+        "title": "History of the Franks, Books 1 and 2 (tr. O. M. Dalton)",
+        "author": "Gregory of Tours",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt"
+      }
+    ]
+  },
+  "briefReferences": [
+    "On the Councils 91, tr. E. W. Watson and L. Pullan: his own words that he heard of the Nicene creed only on going into exile, and that to approve of the Eastern word he need not disapprove of the Nicene one. The creed itself at chapter 84.",
+    "On the Councils, preface and opening: the bishops of Gaul and Britain; the Gallic bishops' request that he set out what the Eastern bishops had confessed.",
+    "Sulpicius Severus, Chronicle II.39-45, tr. Alexander Roberts: Saturninus, Béziers and the exile, Seleucia, Constantinople, Ariminum and the word Ousia, the return to Gaul, Saturninus cast out, Lucifer, the death in the sixth year after his return. The verdict that Hilary alone freed Gaul is in II.45.",
+    "Sulpicius Severus, Life of Martin 5 and 7: Martin sought him out, the diaconate refused, the office of exorcist; Martin followed him home and set up a monastery.",
+    "Gallic bishops' letter to the Eastern bishops, 360-361, in the Collectanea antiariana Parisina (CSEL 65): the letters entrusted to Hilary, the devil's fraud, East and West divided; Auxentius cut off.",
+    "Hilary, Against Auxentius 9: Milan in 364, the orthodox-sounding confession, the order to leave.",
+    "Jerome, Lives of Illustrious Men 100: bishop of Poitiers; twelve books against the Arians. Jerome, Chronicle: On the Trinity and Gaul condemning the tricks of Ariminum.",
+    "World census, Nicene Gaul: his tradition."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "I was baptized some time ago, and I had been a bishop for a while. I never heard the faith of Nicaea until I was going into exile. But the Gospels and the Apostles showed me what 'one in substance' and 'like in substance' mean.",
+      "printed": "Though long ago regenerate in baptism, and for some time a bishop, I never heard of the Nicene creed until I was going into exile, but the Gospels and Epistles suggested to me the meaning of ὁμοούσιον and ὁμοιούσιον.",
+      "work": "On the Councils 91, tr. E. W. Watson and L. Pullan",
+      "file": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml",
+      "lines": "9881-9885",
+      "uncertain": "The Latin, in the Migne text, is held only in a damaged scan, so the English stands alone. The modern wording follows the Latin: \"Evangelia et Apostoli\" is the Gospels and the Apostles, where Watson has Epistles. Watson's own note says his \"long ago\" and \"for some time\" are rather too strong; the modern English gives \"some time ago\" and \"for a while\"."
+    },
+    {
+      "modern": "of one substance",
+      "printed": "of one substance",
+      "work": "On the Councils 84, the creed of Nicaea, tr. E. W. Watson and L. Pullan",
+      "file": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml",
+      "lines": "9674",
+      "secondReading": "checked at card"
+    },
+    {
+      "modern": "like in substance",
+      "printed": "ὁμοιούσιον",
+      "work": "On the Councils 91, tr. E. W. Watson and L. Pullan",
+      "file": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml",
+      "lines": "9860",
+      "secondReading": "checked at card",
+      "uncertain": "Watson prints the Greek word; \"like in substance\" is its plain sense."
+    },
+    {
+      "modern": "like",
+      "printed": "ὁμοιούσιον",
+      "work": "On the Councils 91, tr. E. W. Watson and L. Pullan",
+      "file": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml",
+      "lines": "9860",
+      "secondReading": "checked at card",
+      "uncertain": "The brief shortens the Greek word to \"like\" for the Eastern bishops' position."
+    },
+    {
+      "modern": "one in substance",
+      "printed": "ὁμοούσιον",
+      "work": "On the Councils 91, tr. E. W. Watson and L. Pullan",
+      "file": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml",
+      "lines": "9861",
+      "secondReading": "checked at card",
+      "uncertain": "Watson prints the Greek word; \"one in substance\" is its plain sense."
+    },
+    {
+      "modern": "substance",
+      "printed": "Ousia",
+      "work": "Sulpicius Severus, Chronicle II.44, tr. Alexander Roberts",
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": "11300",
+      "secondReading": "checked at card",
+      "uncertain": "Roberts prints the Greek word in Latin letters; \"substance\" is its plain sense, as in his own \"of one substance\" at lines 11302-11303."
+    },
+    {
+      "modern": "From your letters, which you entrusted to our dear brother and fellow bishop Hilary, we have learned the devil's fraud. We have learned how the minds of heretics plotted against the Lord's church. So we were split between East and West, and misled by each other's differing opinions.",
+      "printed": "ex litteris enim uestris, quas dilccto fratri et consacerdoti nostro Hilario credidistis. (raudem diaboli et conspirantia aduersus 10 ccclcsiam domini haereticorum ingenia cognouimus. ut diuisi in partibus Orientis atque (lccidcntis diuersis inuiccm opinionibus 70' ' faUeremur",
+      "work": "Letter of the Gallic bishops to the Eastern bishops, 360-361, Collectanea antiariana Parisina, ed. Feder",
+      "file": "cic/texts/hilary_collectanea-antiariana-parisina-fragmenta-historica-lat_feder1916-csel65.txt",
+      "lines": "6815-6820",
+      "uncertain": "No English print is held, and both Latin prints are damaged. OCR spellings and stray line numbers are kept as printed (dilccto is dilecto, (raudem is fraudem, ccclcsiam is ecclesiam, (lccidcntis is occidentis, faUeremur is falleremur). The Migne text, at lines 56742-56744 of the file for On the Councils and the fragments, reads \"direxistis\" (sent to) where Feder has \"credidistis\" (entrusted to); the modern English follows Feder."
+    },
+    {
+      "modern": "All agree on this: by the good work of Hilary alone, our provinces of Gaul were freed from the guilt of heresy.",
+      "printed": "This fact is admitted by all, that our regions of Gaul were set free from the guilt of heresy through the kind efforts of Hilarius alone.",
+      "work": "Sulpicius Severus, Chronicle II.45, tr. Alexander Roberts",
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": "11433-11434",
+      "uncertain": "The Latin, in Halm's text, is held only in a damaged scan, so the English stands alone."
+    }
+  ]
+}
