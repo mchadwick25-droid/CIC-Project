@@ -5398,6 +5398,19 @@ Mark: "Converged, auto mode: merge it".
 
 **Still open.** The estimate (about 3 s on Wi-Fi, about 5 s on slow 4G) is not met. Next options, each Mark's call: build the People list and marks only when used (about 0.7 s); fewer SVG nodes at start; the tour's per-frame placement.
 
+## 2026-11-22 — Family line view, line-end labels and the phone peek strip
+
+Mark: "Build C, lime for one step and forest for the full line." On the first markers: "they dont look like they are extentions of the line, it should be the same color, no button and sit on the line near the bottom of the page." On the phone card: "Option 1, peek strip."
+
+**Decided.** Option C, a map view of a tradition's family line, is built. A tradition card has a Family line button under Connections. It lights every ancestor and descendant joined by "continued as" or "gave rise to", tradition to tradition, and dims the rest. A chip at top left names the tradition and counts the line. One-step links keep the Connections view and turn lime (#b5e35c, from #86cf9c); the full line is forest green (#2e9e4f). Dashes still show how sure the record is.
+
+**Line-end labels.** Where a lit line runs past the screen edge, an arrow and the name of the tradition beyond it sit on the line at the crossing point, in the line's own color: forest in the Family line view, the link colors in the Connections view. No box or border. Tapping one moves the map there. Lines leaving close together merge into "Name and 1 more"; at most eight show. A first version with boxed buttons was rejected by Mark and replaced.
+
+**Phone peek strip.** On a phone the card covers about nine-tenths of the screen. Connections and Family line still close the card, and a strip stays above the tab bar with the tradition's name and "Open card". The map is fitted above it. Opening the card hides the strip; closing the card brings it back while the lines are lit; clearing the lines removes it.
+
+**Result.** Tested in a browser on desktop and an emulated iPhone 13 with no page errors. On the longest tested line (Syriac Edessa, 14 traditions) the labels name the next traditions down the line and each tap moves one step along it.
+
+**Not done.** No real-phone test. No test with colorblind readers (Open-Gaps, "Family line view built: option C", 2026-11-22). A general "show all connections" setting on phones was not asked for and stays off.
 ## 2026-11-22 — Phone loading: deferring the People layer and caching layout reads were checked and dropped
 
 Mark: "Defer the People layer", then, shown the new profile, chose "Fix the layout reads instead".
@@ -5407,3 +5420,17 @@ Mark: "Defer the People layer", then, shown the new profile, chose "Fix the layo
 **Layout reads.** `chromeTop`, `barHeight` and `openingScale` showed about 0.6 s of self time in the profile. Caching the top-bar and feature-bar heights (cleared on resize, on bar size change and when the bar is positioned) was tried on a scratch change: median of five, first names, `main` against the cached version, Wi-Fi 3.9 s and 4.3 s, 4G 4.3 s and 4.3 s, slow 4G 6.0 s and 5.5 s. The runs vary by about 0.6 s and the differences go both ways, so there is no measurable gain. The forced-layout time is mostly real layout work done early, not repeated work. The change was not committed.
 
 **Where that leaves start-up.** On the emulated phone about 1.4 s is the browser's own work (parsing, style, layout, paint of about 9,700 SVG nodes) and the page script's label fitting (three runs, about 1.1 s in total), mark layout, river-name placement and era captions make up most of the rest. Further gains would come from fewer nodes at start or fewer label-fit runs, each a larger change needing Mark's call.
+
+## 2026-11-22 — Phone loading: the first link card was timed, and the card files can now be cached
+
+Mark: "time the first link card and check caching", then "yes, make the header change".
+
+**First link card, live.** Emulated Pixel 5, processor slowed four times, cache off, median of three, a press then a click 80 ms later: Wi-Fi 0.36 s, 4G 0.58 s, slow 4G 1.5 s, 242 KB each. The card opens at its title with "Loading…" and fills when the file arrives; later link cards open at once. Judged acceptable.
+
+**Caching, before.** `/data/entries/*` and `/data/edges-detail.json` were served `no-store` (from the `/data/*` rule in `cft-website/_headers`), so a browser re-downloaded them on every visit. They carry ETags.
+
+**Changed.** Two rules in `cft-website/_headers` (pull request 1781) remove the inherited header with `! Cache-Control` and set `public, max-age=0, must-revalidate` for those paths, as `/assets/*` has: a browser always asks, and an unchanged file costs a "not modified" reply. After a deploy a browser cannot show stale text.
+
+**Checked live after the deploy.** The two paths return a single `public, max-age=0, must-revalidate`; the home page, `/data/world-census.json` and the tree pages stay `no-store`; a request with the ETag gets 304 with no body; and on a repeat visit in one browser the link details cost 0.9 KB instead of 242 KB and a card file 0.9 KB instead of 4.2 KB.
+
+**Not changed.** The home page stays `no-store`, as it was before this work, so every visit still downloads the slim page (about 0.36 MB compressed).

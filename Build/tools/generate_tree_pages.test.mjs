@@ -195,7 +195,7 @@ test('Who and the connection lines are never shown together', () => {
   const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
   assert.match(map, /svg\.who-on \.edge-line,svg\.who-on \.edge-hit,svg\.who-on \.continues\{display:none!important\}/);
   assert.match(map, /function setWho\(scope,opts\)\{\n  clearConnections\(\);/);
-  assert.match(map, /function showConnections\(m\)\{\n  clearConnections\(\); if\(whoScope\)clearWho\(\);/);
+  assert.match(map, /function showConnections\(m,line\)\{\n  clearConnections\(\); if\(whoScope\)clearWho\(\);/);
 });
 
 test('the map holds every tradition\'s people, every person\'s home tradition and card', () => {
