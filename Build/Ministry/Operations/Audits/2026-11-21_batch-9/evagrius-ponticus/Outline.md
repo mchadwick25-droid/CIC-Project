@@ -143,6 +143,9 @@ Where the sources will not hold a claim: no held text gives him the treatise *On
 - Any name for the woman, her husband or the governor. None is given.
 - "Thomas of Marga quoted 'the mind is made for prayer'." Say: he quoted the law to pray continually (budge1893 : 22401-22404).
 - "his lost book" / "now lost" for the Antirrhetikos. Say: "a second book" (Socrates, Gennadius); no claim about whether it survives.
+- "Gennadius translated the Praktikos" or "that book" pointing at the Praktikos. Say: Gennadius put the second book, the one against the eight from Scripture, into Latin.
+- "a pound of bread and a pint of oil in three months". Say: "a pound of bread, and a pint of oil in three months" (the period is the oil's only).
+- "the oath made him a monk". Say: the oath sent him from the city; his promise to Melania bound him to the monk's life.
 - "he put his clerical dress aside" or "his old clothes" as fact. Say: he slipped back into his old ways (Clarke calls the text probably corrupt).
 
 **Leave out:**

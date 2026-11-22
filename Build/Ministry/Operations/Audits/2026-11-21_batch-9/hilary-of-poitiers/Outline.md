@@ -131,6 +131,9 @@ Nine names, past the warning: each acts in the story or is a tree link the conne
 - "Ligugé" or "the first monastery in Gaul". The name and the date are the editor's (NPNF211 15445-15446). Say "a monastery not far from the town".
 - "He died in 367" as a record. Say "in the sixth year after his return" or "about 367".
 - "Raised the dead", or the fiery light over Clovis: not in this story.
+- "A young man named Martin" or "the young Martin". Say: "Martin, fresh from the army". No source gives his age.
+- "Only like the Father's" for the "like in substance" bishops. Say: "his being like the Father's".
+- Dropping beat 7 (Milan), the letter's excommunications, or Lucifer's opposite line for length. They are in the heart or are the record's conflict, and are not on Cut first. Cut only from Cut first, in order.
 
 **Leave out:**
 - His birth "about 300" and his consecration "about 350": Watson's inferences, not records (NPNF209 573, 1076).

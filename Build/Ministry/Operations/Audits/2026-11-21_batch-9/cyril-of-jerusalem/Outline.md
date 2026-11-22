@@ -107,6 +107,8 @@ File keys: G = `cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml`; SS = `
   - "The rites of the Easter week lectures are certainly his" → "some old copies name his successor, John; his editors hold them Cyril's".
   - "He was born in Jerusalem" / "he saw the tomb uncovered as a boy" → leave out (Gifford's inference, G 591–624).
   - "Constantine finished the church" → "Constantine built it"; Cyril says the present emperors had finished adorning it (G 4134–4140). Keep to "built".
+  - Dropping an Also told item to meet the length → drop only from Cut first, in order; if the heart still runs past 675, say so and stop.
+  - "Acacius used the sale as a pretext" in its own sentence, even after a "Sozomen says" sentence → credit it in the same sentence, and give Socrates's reason as Socrates's second account.
   - "the only course of its kind" → leave out, or "the fullest such course to survive, in the judgment of his English translator".
   - 'Christ's tomb' in the narrator's voice → 'the tomb', or 'the place held to be Christ's tomb' (G 3916–3919); Cyril's own words may say more, credited to him.
   - Do not add the crowd's feeling, the lecture hall's look, or any detail of his person; none is in the record.
