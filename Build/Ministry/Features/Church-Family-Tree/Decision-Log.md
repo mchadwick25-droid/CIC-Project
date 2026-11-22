@@ -5430,3 +5430,16 @@ Mark: "Option 1, release 52 dated today".
 **Decided.** One catch-up release, number 52, dated 2026-11-22, follows the last release the log names (51) and matches the file as served. It is stamped in the census meta, in the map page's embedded copy of that meta, and in the license credit line, which said release 44 (November 15, 2026). The data page was rebuilt from the census and now reads "release 52, dated November 22, 2026" in its opening line and its four citation examples. No record, card, recording or link changed.
 
 **Not done.** Batches 4 to 9 were not given numbers of their own. A release step that stamps the number when a batch ships is open (Open-Gaps, "The census release number had stopped at 49", 2026-11-22).
+## 2026-11-22 — Phone loading: the first link card was timed, and the card files can now be cached
+
+Mark: "time the first link card and check caching", then "yes, make the header change".
+
+**First link card, live.** Emulated Pixel 5, processor slowed four times, cache off, median of three, a press then a click 80 ms later: Wi-Fi 0.36 s, 4G 0.58 s, slow 4G 1.5 s, 242 KB each. The card opens at its title with "Loading…" and fills when the file arrives; later link cards open at once. Judged acceptable.
+
+**Caching, before.** `/data/entries/*` and `/data/edges-detail.json` were served `no-store` (from the `/data/*` rule in `cft-website/_headers`), so a browser re-downloaded them on every visit. They carry ETags.
+
+**Changed.** Two rules in `cft-website/_headers` (pull request 1781) remove the inherited header with `! Cache-Control` and set `public, max-age=0, must-revalidate` for those paths, as `/assets/*` has: a browser always asks, and an unchanged file costs a "not modified" reply. After a deploy a browser cannot show stale text.
+
+**Checked live after the deploy.** The two paths return a single `public, max-age=0, must-revalidate`; the home page, `/data/world-census.json` and the tree pages stay `no-store`; a request with the ETag gets 304 with no body; and on a repeat visit in one browser the link details cost 0.9 KB instead of 242 KB and a card file 0.9 KB instead of 4.2 KB.
+
+**Not changed.** The home page stays `no-store`, as it was before this work, so every visit still downloads the slim page (about 0.36 MB compressed).
