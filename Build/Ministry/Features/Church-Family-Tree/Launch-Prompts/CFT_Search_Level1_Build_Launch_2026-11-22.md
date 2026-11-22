@@ -1,0 +1,22 @@
+# Church Family Tree, search level 1 (the build): launch
+
+Paste this as the first message of a new Sonnet session.
+
+---
+
+Build Church Family Tree search, level 1. Read `CLAUDE.md`, then the Decision-Log entry "Search: three levels, and the level 1 design converged" (2026-11-22) and the Open-Gaps entries headed "Search level 1" (2026-11-22) in `Build/Ministry/Features/Church-Family-Tree/`. That entry is the frozen design: six decisions Mark made. A change to any of them is a change order for Mark, never a quiet edit. Work in auto mode inside it. No model calls and no metered spend, at build time or for a visitor.
+
+**What exists.** The map page is `cft-website/index.html`; the deploy build slims its data (`tools/slim_map_data.mjs`, `tools/slim_map_fields.json`, `tools/build_tree_site.mjs`) and serves one card file per entry under `/data/entries/`. The slim data already carries each entry's names, dates, place label and modern countries. Places are formatted by `cic-website/assets/place-line.js`; reuse it. Phone loading was just tuned (Open-Gaps, the "Phone loading" entries of 2026-11-22): search must add nothing to the first page load.
+
+**Slices, in one draft pull request where they fit, pushed once after local checks pass.**
+
+1. **Index builder, at deploy time.** A names file (names, short and everyday names, other names from people cards, era, river and region names, start and end years, countries) and a word list over the visitor-readable text only (teaser, description, card fields, modern wording of verified quotes) that points to entries, not the text itself. It reads the names file `cic-website/data/search-names.json` when the names batch has added it, and builds without it. Set a size budget from the measured figures (about 22 KB and 175 to 205 KB compressed) and fail the build over it. Unit tests.
+2. **Search box and panel on the map page.** The standard combobox pattern: arrow keys, Enter, Escape, a visible focus, the result count announced after typing stops. Results grouped under headings: Traditions, People, Councils, Places, Parts of the map, Found in the text, and an empty Topics group that is not shown while empty. The full list opens inside the panel as headings and links to the plain tree pages. Matching rules in code: accents, plurals, "St" and "Saint", hyphens, one-letter typos; a year, a range, a century, "AD" and "CE", "c."; order as the Decision-Log gives it, with living traditions first under "Living today" for a broad word. Each place or date group carries one plain line saying what it covers. When nothing matches, say so plainly, offer the nearest name, and link to the eras and rivers. The names file loads when the box is first opened; the word list only when a search goes past names.
+3. **Map moves.** An entry opens its card and centers the map; an era or a river scrolls to that part; a country or a year lights its entries. First read how the family line view lights entries and uses its strip on phones (Open-Gaps, "Search level 1: lit results on phones"). If it cannot carry lit results, stop and ask Mark.
+4. **Text search.** The sentence shown is read from the entry's card file and copied whole. A test checks every shown sentence equals the source text. The group says how many entries use the word and that other entries may cover the subject in other words.
+
+**Words on the screen.** Every label follows CLAUDE.md's reading level, American spelling, and no AI tells. The labels in the Decision-Log entry are drafts. An opponents' name is shown as one ("a name its opponents gave it"), with wording taken from the names file's kind, never written by search.
+
+**Checks.** Unit tests for the builder and the matching rules; browser tests with the keyboard alone, with an automated accessibility check, on desktop and an emulated phone; first-load weight and time measured against `main` and unchanged. Run `tools/check_live_commentary.py` on the files you edit.
+
+**Stop for Mark.** Show screenshots (desktop and phone, the four searches "nestorian", "Ethiopia", "1054", "what does origen say about heaven", and a no-match) as an Artifact before merging any visible change. Search does not go live on the map until the first names batch has merged (Open-Gaps, "Search level 1: the sourced common names"); build behind that. Merge your own pull request when CI is green; never promote `main` to `live`. Log what was built in the Decision-Log and update the Open-Gaps entries by appending dated lines.

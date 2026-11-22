@@ -103,7 +103,7 @@ applied to every shared file, not only the census.
 | P2-ML | Major links: the map switch, the `outcome` field, and the pass over eras 1–5; data release 10 | none (3-round cap) | merged (#1543) |
 | P2-M | Method page, confidence at a glance | none | merged (#1548, with P2-D) |
 | P2-D | Data and citation page | none | merged (#1548, with P2-M) |
-| P2-S | Find-your-church search | none | deferred for its own design pass (Mark, 2026-11-11) |
+| P2-S | Find-your-church search | none | level 1 design converged 2026-11-22 (Decision-Log, "Search: three levels, and the level 1 design converged"); not built |
 | P2-G1 | Gap sweep (read only) | Mark's ruling sitting | merged (#1549, ruling record #1561); ruled 2026-11-09 (Decision-Log, "The gap sweep ruled (P2-G1)") |
 | P2-G2 | Schema additions | none | merged (#1564; data release 24, schema 3): kind, toldWithin, people, concerns, livingEvidence.descentConfidence, reviewStatus; Tertullian a person; I.14 retired into II.1; leftovers in Open-Gaps 2026-11-09, "What P2-G2 leaves for P2-G3" |
 | P2-G3 | The agreed entries | Mark sees the people list (narration waits for one batch after P2-L10 and P2-G3, Mark 2026-11-10) | done (data release 29; people list ruled 2026-11-10; reviews approved; audit `2026-11-10_agreed-entries`) |

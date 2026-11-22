@@ -5443,6 +5443,40 @@ Mark: "time the first link card and check caching", then "yes, make the header c
 **Checked live after the deploy.** The two paths return a single `public, max-age=0, must-revalidate`; the home page, `/data/world-census.json` and the tree pages stay `no-store`; a request with the ETag gets 304 with no body; and on a repeat visit in one browser the link details cost 0.9 KB instead of 242 KB and a card file 0.9 KB instead of 4.2 KB.
 
 **Not changed.** The home page stays `no-store`, as it was before this work, so every visit still downloads the slim page (about 0.36 MB compressed).
+## 2026-11-22 — Search: three levels, and the level 1 design converged
+
+Mark, on what search is for: "i want to design the search to find traditions, people and other things, including perspectives on key theological perspenctios (what does origin say about heaven) or who believed salvation was eternal."
+
+Mark, on the order of work: "so this is a multi level build, we need to build the search for what we do have, then when we have credits after the who and counsil builds we can organize the library, and do that in partnership with church in conversation so they can also use the topics in conversations"
+
+Mark, on the scope of level 1: "1 with variations and common names not just our words", and "also dates and countries (parts of the map)".
+
+Mark, shown the whole level 1 design on one page: "converged, auto mode".
+
+This takes up build-plan row P2-S, deferred for its own design pass on 2026-11-11 ("Deferred").
+
+**The three levels.**
+
+1. **Level 1, now: search what the tree has.** Names of traditions, people, councils, cross-church movements and places; everyday and other names; variations and common names, not only the tree's own wording (spellings, transliterations, plurals, accents, common mistakes, older and outsider names); dates (a year, a range, a century); modern countries and regions; and the named parts of the map (eras, rivers, regions). Also a word search of the tree's own checked text that shows the matching sentence and links to the entry. No model runs, at build time or for a visitor. A "Topics" group is held open in the results and stays empty.
+2. **Level 2, later, after the Who and council builds and when the allowance carries it: organize the Library by topic,** in partnership with Church in Conversation so the same topics serve its conversations. It starts by reading how Church in Conversation already organizes records by canon cells and gravities. A shared topic list is a cross-project decision and is Mark's.
+3. **Level 3, after that: topic answers on the tree,** only as sourced statements or verified quoted passages with confidence grades, never generated summaries. Not designed here.
+
+**Level 1, decided one question at a time (Mark's choice in each).**
+
+1. **Where search lives: on the map page only.** There is no separate results page and the tree pages are not regenerated. The full list of results opens inside the search panel as headings and links to the plain tree pages, so it works without the map view.
+2. **Sourced common names: a first batch ships at launch,** covering living traditions and the best-known older and outsider names; later batches go by river. Rules done by code (accents, plurals, "St" and "Saint", date forms, one-letter typos) and the names the census already holds (short names, everyday names, the other names on people cards, era and river names) ship with the first build.
+3. **Where the sourced names are stored: a separate file beside the census,** one row per name with its entry, its kind (other name, older name, spelling, name given by opponents) and its basis, which is a line in the tree's own checked text or a cited source. The census validator checks every row. The file is part of the numbered data release and is listed on the data page. No name is shown without a recorded basis, and a name given by opponents is shown as one.
+4. **What the text search reads: only what a visitor can read on the entry's own page:** teaser, description, card fields, and the modern wording of verified quotes. The sentence shown is copied whole from that text.
+5. **Order for a broad word ("Orthodox", "Baptist"): living traditions first,** under a "Living today" heading, then the rest by date, using the census's own record of which are living. An exact name match comes first.
+6. **How a result moves the map:** an entry opens its card and the map centers on it; an era or a river scrolls the map to that part; a country or a year lights its entries. Nothing is hidden. The list in the panel stays.
+
+**Measured for the design (census as of release 52).** No name in the tree contains "Nestorian", "Mormon" or "Abyssinia". The census holds 418 short names, 405 everyday names and 448 other names on 208 people cards. Modern countries are recorded on 477 of 629 entries (294 of 350 traditions), across 57 countries. The names, dates and places come to about 22 KB compressed; a word list over the visitor-readable text (about 1.9 million characters) comes to about 175 to 205 KB compressed. Neither loads until a visitor opens the search; the word list loads only when a search goes past names; the matched sentence is read from the entry's own card file.
+
+**What level 1 will not do.** Answer a question or sum up a view; search the Library's source texts; say who believed what (a text match says a word appears, and the results say so); work with scripts turned off; appear on any page but the map.
+
+**How it is built.** Sonnet builds, in slices: the index builder with a size budget; the search box and panel with the matching rules; the map moves; the text search. Sonnet drafts each sourced-name batch and Opus reviews it, each basis re-read against its source, three rounds at most. Mark sees screenshots before any visible change merges; every label is a draft until then. Launch prompts: `Launch-Prompts/CFT_Search_Level1_Build_Launch_2026-11-22.md` and `Launch-Prompts/CFT_Search_Names_Batch1_Launch_2026-11-22.md`.
+
+**Not done.** Nothing is built. Open items are in Open-Gaps under "Search level 1" (2026-11-22).
 
 ## 2026-11-22 — Councils show at every zoom and turn gold
 
