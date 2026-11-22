@@ -5210,3 +5210,11 @@ Mark, posting to LinkedIn: "the linked in cant display a preview and its not pul
 1. The nine hearts as shown, with the researchers' wording for Hilary (On the Councils as the book that explained East to West; exiled after a rival party's accusation; Martin sought him out and stayed with him), Eunomius (the creeds of 383 and his banishment told as two facts in order), Apollinaris ("stood with Athanasius for the creed of Nicaea") and Damasus (the law of 380 in the heart; the forcing of dissenters credited to the Luciferians' petition; the two lifted quotes unused).
 2. Lengths, as in batch 8: each researcher marks a cut-first list in the outline, in order, with every cut item moved to the card; the writers write to about 4:30 at most (about 675 words by the scorer), dropping from that list and not by their own choice. The reviewer checks that the heart and every disagreement the outline must credit survived. No second round of outline cuts.
 3. The outline checks begin once the cut-first lists are in.
+
+## 2026-11-22 — Batch 9: two lengths after review (Mark)
+
+**Why.** After review, one revision and the recheck, nine of the eleven stories fit under 4:30. Cyril of Jerusalem (773 words) and Epiphanius of Salamis (714) did not: the writers had cut parts of the approved heart to fit, the reviews restored them, and the rechecks found no shorter wording that keeps every fact and credit (https://claude.ai/artifact/6t8wjEGCMchi2yqczRAre5; each folder's `Review.md` and `Recheck_Story.md` in `Build/Ministry/Operations/Audits/2026-11-21_batch-9/`).
+
+**Decided (Mark, 2026-11-22: "Approve both").**
+1. Cyril of Jerusalem runs about 4:50. Two sentences go to the card: Theodoret's later quoting of the fourth lecture, and Egeria's order of teaching. Her own quote and the note that she never names the bishop stay.
+2. Epiphanius of Salamis runs about 4:45, unchanged.

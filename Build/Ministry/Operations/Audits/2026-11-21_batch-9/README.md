@@ -58,5 +58,9 @@ Eight at once; Eunomius after Basil's outline. The two Gregories join at review.
 8. Release.
 9. Recording, with Mark's approval in his own words and a credit cap.
 
-## Status (2026-11-21, for a session taking over)
-Slate approved, with every home tradition kept (Decision-Log item 5). Research done for all nine; hearts and lengths approved (Decision-Log, "Batch 9 hearts approved, with the lengths"). Next: cut-first lists, then outline checks.
+## Status (2026-11-22, for a session taking over)
+Rulings: Decision-Log, "Batch 9: the slate approved" (with item 5, home traditions), "Batch 9 hearts approved, with the lengths" (2026-11-21) and "Batch 9: two lengths after review" (2026-11-22).
+
+Done for all eleven: research, outline check, fixes, recheck (the nine); writing; review (Gregory of Nazianzus PASS, the rest REVISE); one revision; story recheck, with every replacement it gave applied word for word. Final lengths by the scorer: 671 to 675 for seven; Cyril about 732 and Epiphanius 714 (Mark's ruling); Gregory of Nazianzus 323 (one spelling changed: re-recorded); Gregory of Nyssa 310 (one sentence added: re-recorded).
+
+Open, in order: 6. Card (`<slug>/Card_Prompt.filled.md`), card check, card apply. 7. Second readings. 8. Release. 9. Recording: waits for Mark's approval in his own words with a credit cap.

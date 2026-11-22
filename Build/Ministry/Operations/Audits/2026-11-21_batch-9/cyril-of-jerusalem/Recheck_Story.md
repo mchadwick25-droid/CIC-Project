@@ -70,3 +70,6 @@ For Mark's length ruling:
   - In the Names point above, "The emperor Julian recalled the exiles" becomes "A new emperor recalled the exiles" (−1).
 
   Together they give about 768 words.
+
+## Length ruling applied (coordinator, 2026-11-22)
+Mark, 2026-11-22, "Approve both" (Decision-Log, "Batch 9: two lengths after review"): two sentences moved to the card, removed from the brief word for word: "Theodoret of Cyrrhus later quoted the fourth as testimony in his argument about Christ." and "The Scriptures were taught from Genesis, the creed came after five weeks, and in Easter week the bishop taught in the tomb chapel with the doors shut."
