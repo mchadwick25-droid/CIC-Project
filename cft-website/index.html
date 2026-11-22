@@ -296,6 +296,11 @@ svg.who-on .edge-line,svg.who-on .edge-hit,svg.who-on .continues{display:none!im
 .who-focus{fill:none;stroke:var(--gold-leaf);stroke-width:2;vector-effect:non-scaling-stroke;display:none}
 .who-pill:focus-visible .who-focus{display:inline}
 .who-pill:hover .who-fig *,.who-pill:focus-visible .who-fig *,.who-pill[aria-pressed="true"] .who-fig *{fill:var(--gold-leaf)}
+.who-count{display:none}
+#prof-pills.compact>.who-pill:not([data-n="1"])>.who-fig{display:none}
+#prof-pills.compact>.who-pill:not([data-n="1"])>.who-count{display:block}
+#prof-pills.compact .who-n{paint-order:stroke;stroke:var(--parchment);stroke-linejoin:round}
+#who-far .who-text{font-style:italic;font-weight:600}
 svg.who-on .who-pill:not([aria-pressed="true"]){display:none}
 .node.who-under .lbl,.node.who-under .pl,.node.auto-own .pl,.node .pl.pl-cull{visibility:hidden}
 #end-marks{pointer-events:none}
@@ -329,14 +334,14 @@ svg:not(.z-council) #councils{display:none}
 svg:not(.z-council-name) #councils .council-lbl,svg:not(.z-council-name) #councils .council-cap{display:none}
 svg:not(.z-place) #nodes .node .pl{display:none}
 svg.z-place #nodes .node .pl{display:block}
-svg.no-people #who-pills,svg.no-people #prof-pills,svg.no-people #who-auto,svg.no-stories #story-pills,svg.no-stories #story-marks,svg.no-councils #councils{display:none!important}
+svg.no-people #who-pills,svg.no-people #prof-pills,svg.no-people #who-auto,svg.no-people #who-far,svg.no-stories #story-pills,svg.no-stories #story-marks,svg.no-councils #councils{display:none!important}
 #rivers .river-group.is-off,#nodes .node.is-off,#stories .story.is-off{display:inline!important;opacity:.16;pointer-events:none}
 #nodes .node.is-off .lbl,#nodes .node.is-off .trad-ico,#nodes .node.is-off .pl,#stories .story.is-off .story-title{display:none!important}
 svg.ico-on #nodes .node.is-off>circle:not(.halo):not(.focus-ring){display:inline}
 #across .across.across-out{display:none!important}
 svg.conn-focus #nodes .node:not(.conn-end),svg.conn-focus #stories,svg.conn-focus #councils,svg.conn-focus #across,svg.conn-focus #rivers .river-group,svg.conn-focus #era-labels{opacity:.22}
 svg.conn-focus #nodes .node.conn-end{display:inline!important}
-svg.conn-focus .who-pill,svg.conn-focus #who-auto{display:none!important}
+svg.conn-focus .who-pill,svg.conn-focus #who-auto,svg.conn-focus #who-far{display:none!important}
 svg.conn-focus .edge-line.conn-lit{opacity:1!important}
 .era-label{cursor:pointer}
 .era-label:hover,.era-label:focus-visible{fill:var(--iron-gall);outline:none}
@@ -130497,6 +130502,7 @@ const gStoryPills=el('g',{id:'story-pills'}); gRoot.appendChild(gStoryPills);
 const gStoryMarks=el('g',{id:'story-marks'}); gRoot.appendChild(gStoryMarks);
 const gWho=el('g',{id:'who'}); gRoot.appendChild(gWho);
 const gAuto=el('g',{id:'who-auto'}); gRoot.appendChild(gAuto);
+const gFar=el('g',{id:'who-far'}); gRoot.appendChild(gFar);
 const gRiverNames=el('g',{id:'river-names'}); gRoot.appendChild(gRiverNames);
 const gLabels=el('g',{id:'era-labels'}); gRoot.appendChild(gLabels);
 
@@ -130962,7 +130968,10 @@ function whoFigure(m){
     'aria-label':whoAriaLabel(m.shortName||m.name,scope,n)});
   g.appendChild(el('rect',{class:'who-hit'}));
   g.appendChild(el('circle',{class:'who-ring'}));
+  g.dataset.n=String(n);
   const f=el('g',{class:'who-fig','aria-hidden':'true'}); f.appendChild(personGlyph('currentColor',0,0)); g.appendChild(f);
+  const cnt=el('g',{class:'who-count','aria-hidden':'true'}); cnt.appendChild(groupGlyph());
+  const cn=el('text',{class:'who-n'}); cn.textContent=String(n); cnt.appendChild(cn); g.appendChild(cnt);
   const go=()=>setWho(scope);
   g.addEventListener('click',ev=>{ev.stopPropagation();go();});
   g.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();ev.stopPropagation();go();}});
@@ -131113,7 +131122,7 @@ function clearStories(){
   returnFocus(storyOpener,[tray,document.getElementById('who-chip')]);
   storyOpener=null;
 }
-function setWhoMark(p,cx,cy,U,away){
+function setWhoMark(p,cx,cy,U,away,compact){
   p.setAttribute('transform',`translate(${cx.toFixed(1)},${cy.toFixed(1)})`);
   const cap=p.querySelector('.who-cap'), fig=p.querySelector('.who-fig');
   if(cap){
@@ -131124,6 +131133,12 @@ function setWhoMark(p,cx,cy,U,away){
     n.setAttribute('x',(-W/2+U*1.6).toFixed(1));n.setAttribute('y',(U*.3).toFixed(1));n.style.fontSize=(U*.88)+'px';
     const ring=p.querySelector('.who-focus'), pad=U*.3;
     ring.setAttribute('x',(-W/2-pad).toFixed(1));ring.setAttribute('y',(-H/2-pad).toFixed(1));ring.setAttribute('width',(W+2*pad).toFixed(1));ring.setAttribute('height',(H+2*pad).toFixed(1));ring.setAttribute('rx',(H/2+pad).toFixed(1));
+    p._w=W;
+  }else if(compact&&p.dataset.n!=='1'&&p.querySelector('.who-count')){
+    const cnt=p.querySelector('.who-count'), gf=cnt.querySelector('.who-fig'), n=cnt.querySelector('.who-n'), W=U*(1.9+.55*n.textContent.length);
+    gf.setAttribute('transform',`translate(${(-W/2+U*.85).toFixed(1)},${(-U*.05).toFixed(2)}) scale(${(U/11.5).toFixed(3)})`);
+    n.setAttribute('x',(-W/2+U*1.6).toFixed(1)); n.setAttribute('y',(U*.3).toFixed(1));
+    n.style.fontSize=(U*.88)+'px'; n.style.strokeWidth=(U*.88*3/11)+'px';
     p._w=W;
   }else{
     fig.setAttribute('transform',`translate(0,${(U*.03).toFixed(2)}) scale(${(U/8.4).toFixed(3)})`);
@@ -131137,7 +131152,9 @@ function setWhoMark(p,cx,cy,U,away){
   }else if(hit)hit.style.r=(22/scale)+'px';
 }
 function placeWhoMarks(){
-  const showRiver=scale>=Z_RIVER_WHO||!!whoScope, showTrad=scale>=Z_VOICES||!!whoScope;
+  const showRiver=scale>=Z_RIVER_WHO||!!whoScope, showTrad=scale>=(narrowScreen()?Z_VOICES:Z_RIVER_WHO)||!!whoScope;
+  const compact=!narrowScreen()&&scale<Z_VOICES&&!whoScope;
+  gProfPills.classList.toggle('compact',compact);
   const showRiverS=scale>=Z_RIVER_WHO||!!storyScope, showTradS=scale>=Z_VOICES||!!storyScope;
   gWhoPills.style.display=showRiver?'block':'none';
   gProfPills.style.display=showTrad?'block':'none';
@@ -131184,6 +131201,7 @@ function placeWhoMarks(){
   if(tradSets.length&&grid&&labelFit.items){
     const byNode=new Map(labelFit.items.map(it=>[it.id,it]));
     tradSets.forEach(G=>G.querySelectorAll('.prof-pill').forEach(p=>{
+      if(G===gProfPills&&compact)return;
       const it=byNode.get(p.dataset.id);
       if(!it||!it.box){p.style.display='none';return;}
       const cx=it.dx+(it.end?1:-1)*U*1.02, cy=it.dy;
@@ -131193,6 +131211,51 @@ function placeWhoMarks(){
     }));
   }
   placeRiverNames(U);
+}
+
+function placeCompactPeople(){
+  const grid=labelFit.grid, on=!narrowScreen()&&scale<Z_VOICES&&!whoScope&&!storyScope&&!svg.classList.contains('no-people')&&scale>=Z_RIVER_WHO;
+  gFar.replaceChildren();
+  if(!on||!grid||!labelFit.items)return;
+  const U=markU(), byNode=new Map(labelFit.items.map(it=>[it.id,it]));
+  gProfPills.querySelectorAll('.prof-pill').forEach(p=>{
+    const it=byNode.get(p.dataset.id);
+    if(!it||!it.box){p.style.display='none';return;}
+    const dir=it.end?1:-1, count=p.dataset.n!=='1';
+    const W=count?U*(1.9+.55*p.dataset.n.length):U, cx=count?it.dx+dir*(U*.62+W/2):it.dx+dir*U*1.02, cy=it.dy;
+    const box={id:it.id,x0:cx-W/2,x1:cx+W/2,y0:cy-U/2,y1:cy+U/2};
+    if(grid.hits(box)){p.style.display='none';return;}
+    p.style.display='';
+    setWhoMark(p,cx,cy,U,dir,true);
+    grid.add({...box,id:'pp'+it.id});
+  });
+  placeFarNames(grid,U);
+}
+const farNameMeasure={ctx:null};
+function placeFarNames(grid,U){
+  const ctx=farNameMeasure.ctx||(farNameMeasure.ctx=document.createElement('canvas').getContext('2d'));
+  ctx.font='700 100px Alegreya, Georgia, serif';
+  const fu=nameU()*.92, line=fu*1.32;
+  const x0v=-tx/scale-200, x1v=(window.innerWidth-tx)/scale+200, y0v=(topInset()-ty)/scale-100, y1v=(window.innerHeight-ty)/scale+100;
+  labelFit.items.forEach(it=>{
+    const m=byId[it.id];
+    if(!it.box||it.g.classList.contains('is-off')||!hasPeople(m)||it.dx<x0v||it.dx>x1v||it.dy<y0v||it.dy>y1v)return;
+    const rows=scopePeople({type:'trad',m}).shown;
+    for(let i=0;i<rows.length;i++){
+      const P=rows[i].P, name=P.name, w=ctx.measureText(name).width/100*fu+fu*.5;
+      const x=it.end?it.box.nx1-w:it.box.nx0, y=it.dy+(i+1)*line+fu*.32;
+      const box={id:'pn'+it.id+'.'+i,x0:x-2,x1:x+w,y0:y-fu*.95,y1:y+fu*.4};
+      const crosses=laneKeys.some(l=>{if(l===it.lane)return false;const sp=riverSpanAt(l,y,1);return sp&&sp[0]<box.x1&&sp[1]>box.x0;});
+      if(crosses||grid.hits(box))break;
+      grid.add(box);
+      const g=el('g',{class:'who-name is-entry',tabindex:'-1',role:'button','data-key':P.key,transform:`translate(${x.toFixed(1)},${y.toFixed(1)})`,'aria-label':`${P.entry?P.entry.name:P.name}, ${personDates(P)}. Opens their card.`});
+      const t=el('text',{class:'who-text',x:0,y:0});
+      t.style.fontSize=fu+'px'; t.style.strokeWidth=(3*fu/11)+'px'; t.textContent=name; g.appendChild(t);
+      g.insertBefore(el('rect',{class:'who-hit',x:-2,y:-fu*.95,width:w+2,height:fu*1.35}),g.firstChild);
+      wireWhoPerson(g,P,m);
+      gFar.appendChild(g);
+    }
+  });
 }
 
 let autoKey='', autoRaf=0;
@@ -132931,6 +132994,7 @@ function labelFitRun(){
   placeEndMarks();
   placeWhoMarks();
   placeMidExtras();
+  placeCompactPeople();
   keepMapFocus(held);
 }
 function placeMidExtras(){
