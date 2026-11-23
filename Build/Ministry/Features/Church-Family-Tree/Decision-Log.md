@@ -5570,6 +5570,28 @@ Mark: "on the screen lets make the river and tradition who icons consistant, the
 
 **Not done.** No real-phone check.
 
+## 2026-11-23 — Explain it or leave it out: the kit asks what each thing was about (Mark)
+
+**Why.** Mark, hearing the batch 10 Priscillian sample: the brief says he was accused but not of what, and that he wrote a book but not about what; "this vague saying what happened and not why is the deep problem." Two blind reads confirmed it: of 24 live briefs sampled from batches 2 to 9, 9 are clear, 13 have some gaps and 2 many; of batch 10's twelve, 2 are clear, 8 have some gaps and 2 many (`Build/Ministry/Operations/Audits/2026-11-22_batch-10/What_And_Why_Scan_Earlier.md` and `What_And_Why_Scan.md`). The gap runs through every batch and follows the shape: teachers come out clear, while bishops, martyrs, founders and reformers lose the content of the charges and quarrels around them. The kit said "Tell what was at stake", but no step checked it; the test's "why" meant why the person is on the tree; the hostile-witness rule led writers to drop an enemy's charge rather than credit it; and cut-first lists dropped explanations before events. The page: https://claude.ai/artifact/TrET3GcNQ2989duGSvEEzQ (version 1).
+
+**Decided (Mark, 2026-11-23, in chat: "a").** Option A, "explain it or leave it out":
+1. Kit Part 1: the test adds "what it was about"; the stake line becomes "Explain it or leave it out. Every charge, teaching, book, quarrel or decision the story names says in plain words what it was, and why it mattered to the people in it ... If there is no room to explain it, the story does not name it."; a hostile view's charge "is given in its own content ... never dropped because only an enemy says it".
+2. Kit Part 3: each beat gives what each charge, teaching, book, quarrel or decision it names was about, with its source; the length line never cuts that meaning, and cuts an event before its meaning.
+3. Kit Part 4, the bar: a named charge, teaching, book, quarrel or decision without what it was about is missing essential material.
+4. Roles: the researcher's sheet covers what each event was about from each side; the checker blocks a beat or a cut-first list without it; the reviewer and fresh read write four lines and list each such thing named, blocking any a listener could not explain.
+
+It governs batch 11 on. What becomes of the live briefs, batch 10's twelve among them, and their audio, is decided separately; batch 10's recording is held until then.
+
+## 2026-11-23 — The live stories reopened for what each thing was about: scan everything, then a targeted pass (Mark)
+
+**Why.** After "Explain it or leave it out" (2026-11-23), the kit still said a change "never reopens a finished story", while two blind reads found the gap in most live briefs sampled. Mark then showed the Post-Apostolic Household-Church page: its connection notes say Montanism was "found to be heresy", Marcion was thrown out and Valentinus thrown out "for spreading his ideas", none with what was taught. So the gap reaches three kinds of text: the person, council and tradition stories (625 with a `longDescription`), the connection notes (736 edges), and the 12 built-world pages, which come from the world-build records rather than the brief kit. The page: https://claude.ai/artifact/TrET3GcNQ2989duGSvEEzQ (version 2).
+
+**Decided (Mark, 2026-11-23, in chat: "a, scan all three").** A change order to "A change to this kit governs the next batch on; it never reopens a finished story", for this one rule:
+1. Blind readers apply the four-line test to every live story, every connection note and every built-world page, reading only, and list each charge, teaching, book, quarrel or decision named without what it was about. The result is one list, ranked.
+2. Then a targeted pass, story by story: the missing explanation found in held sources, put in by the writer at the same length (an event cut before a meaning), and checked by a fresh reader on the changes, with the quote and source check. Batch 10's twelve first, then the worst, then the rest.
+3. A fix to a built-world page goes through that world's own records and build rules; the scan only reads it.
+
+The audio for fixed stories is decided separately.
 ## 2026-11-23 — Accessibility fixes from an automated scan
 
 Mark, after the scan results: "yes, fix those three".
@@ -5637,3 +5659,79 @@ Mark: "option 1", on the page https://claude.ai/artifact/UStZATEaBtT445YAKgNEi6 
 **Decided.** That list is the re-recording order. The text fixes go ahead now through the build cycle, Crucial first; each fixed piece is text only until its re-recording, a batch at a time under a cap Mark sets, with a sample for his ear.
 
 **Not done.** The ElevenLabs balance is not checked.
+## 2026-11-23 — Cards and listening redesigned for a visitor getting oriented (Mark)
+
+**Why.** User testing found low completion of the narrated briefs. A card opened with a two-to-four-minute brief playing by itself beside a long open text, visitors read faster than the narrator spoke, and closing the card stopped the brief. Mark restated the problem as engagement: a closed card ends the visit's thread, not only the audio. Options, the outside research and each choice are on the review page (https://claude.ai/artifact/QjMqYxqFnjbtLYWwCpAHNG).
+
+**Decided (Mark, 2026-11-23, one question at a time; "converged, auto mode, build now").**
+1. **Auto-play: A.** A card opens quiet, with one Play button that shows the brief's length. A visitor can turn on "Play briefs when a card opens", remembered in their browser. Mark then kept the two tours silent ("No, keep tours silent"): they are short guides to the map's controls, and step 2's caption already says "press play to hear it".
+2. **Layout: A, orient then explore.** The first screen gives the name, dates and place, the family line, the one-sentence line, the Play button, the fuller summary, one story to try, and the map actions as small buttons (Who, Connections, Family line). Everything else folds away, one tap from the first screen.
+3. **Folds: G1.** Read the brief · Documented stories · People · In their own words · Legacy and today · Connections · Sources and notes. All start closed, each shows a count where one helps, and an empty fold is not shown. The doctrinal floor note sits in Sources and notes.
+4. **Engagement: E1, E2 opt-in, E4, and E3 as a trial E4 measures.** Mark first asked for research on what other systems do ("im not sure, can we do some research"); the report found no study of these levers on a map or card site, one controlled study of autoplay (UChicago, Netflix, 2024), and vendor data that listening builds across many short stops. Then: "yes, go with that set".
+5. **Transcript: T2.** "Read the brief" lets a visitor tap a paragraph to play from there, and marks the paragraph being spoken, with no auto-scroll. Live highlighting was not chosen: the research found highlighting adds little beyond the audio itself.
+6. **Counting: M1**, on the site's own Worker.
+7. **Writing: the 2:00 floor stays** ("a floor of 2 minutes is fine, don't raise it to 3"). The length ceiling, the five openings, the closing upstream-and-downstream beat and spoken text kept apart from display text are a separate round, not started.
+8. **No re-recording in this project** ("i do not want to re-record things as part of this project, we can replace over time. so use the stories and briefs we have already done"). The redesign uses the recordings already made. Any later change to how briefs are written or voiced applies to new and replaced recordings as they come, not as a re-recording run.
+
+**Change order.** This reverses "A recorded brief starts by itself" in "A click on the empty map closes the card; the brief keeps playing" (2026-11-18). It extends that entry's "Close, keep listening": the brief now keeps playing through every way of leaving a card (the close button, Escape, opening another card), not only a click on the map. "The brief never starts by itself during a tour" (2026-11-18, "Two first-visit tours") stands.
+
+**Built.**
+- `cft-website/index.html`: the brief plays in one audio element outside the card. The Listening bar shows while the brief's card is closed or another card is open, and when a brief ends ("Finished", Replay). It offers "Next on this line": the entry before and the entry after on the family line (major links first, then the earliest), and the card's first documented story. "Keep listening along this line" plays the next brief in turn, off unless the visitor turns it on. The player reads "Audio Brief · Narrated Edition" with the length, has a speed menu, and has no disclaimer under it. Tradition, person, council, built-world and story cards follow layout A and the G1 folds.
+- `Build/tools/align_tree_narration.py` writes `cft-website/audio/tree/paragraph-times.json`: paragraph start times found by a speech-recognition model run locally (faster-whisper, base.en) over the existing recordings, matched word by word to the brief's text. A brief gets times only if every paragraph's opening is matched in order, and the times carry the text hash they came from. Nothing was re-recorded and no paid service was called. Of the 146 multi-paragraph tree briefs whose recording matches its text, 141 got times. Five did not, because a paragraph opening could not be matched: Georgian Church 1650–1811, the Transylvanian Unitarian Church, Moses the Black, Catherine of Siena and Eusebius of Nicomedia. Their text shows without jumps. A spot check of four placed briefs, transcribing three seconds at a stored start, heard each paragraph's first words. One-paragraph briefs need no times.
+- `cic-worker/worker.mjs` accepts one new count, `next`: a step taken from the Listening bar or the story teaser, with its kind and the card it opens. The map's counting now restarts its quarter marks when the one audio element changes brief.
+- `cic-website/assets/orientation-render.mjs`: a caller can leave out the disclaimer (`disclosure: false`); the Church in Conversation site is unchanged.
+- Standalone pages (`Build/tools/generate_tree_pages.mjs`, rebuilt): the player is labeled "Audio Brief · Narrated Edition" with its length, and the disclaimer is gone.
+- `Build/tools/tree_site_pages.json`, rebuilt: the method page gains "The narrated briefs", saying the voice is synthesized with ElevenLabs and reads the card's own words, so the AI-voice disclosure has a home. The privacy page names the new count and the listening choices kept in the browser.
+- Text in the card is at least 16px for reading and 13px for labels. Play, the story teaser, the map actions and the fold headings are at least 44px tall; the paragraph time buttons, the speed menu and the two option boxes are 28 to 36px, above the 24px WCAG 2.2 minimum.
+
+**Corrections to what the review page said.** It said the map measured nothing at card level. In fact the map already counted cards opened and how far each recording was heard (25, 50, 75 per cent and the end), so only the `next` count was added and no dashboard step is needed. It also said the short italic line was already the map's hover text. It is not, so the card keeps it. It said the first screen would show the summary above Play. On a phone that pushed Play off the first screen, so the one-sentence line comes before Play and the fuller summary directly after it; for people and councils the facts list moves below Play. The "12 Listen bars" in the request did not match the code on `main`: a card showed one player, and its documented stories were already folded.
+
+**Result.** Checked in a browser on the deploy build (the slim page), desktop and an emulated iPhone 13, with no page errors. A card opens quiet. Play, close with ×, open another card, reopen, jump to a paragraph, reach the end, the story teaser, the Who button and Stop all behave as above. An axe scan (WCAG 2.0 to 2.2 A and AA plus best practice) of a tradition, a person and a council card, folds open and a brief playing, finds no failing rule at either width. Tests: `generate_tree_pages` 48 pass, the Worker's tests pass, slim map data 10 pass, the alignment tool 6 pass. `tree_map_view` 15 pass and 2 fail, the two iPhone tests already known to fail ("Phone loading, step 3", 2026-11-22).
+
+**Not done.** No real-phone or screen-reader check. Built-world cards and story cards show their text without paragraph jumps. See Open-Gaps.
+## 2026-11-23 — Search level 1 built behind a switch that stays off (Mark: "Option A, build the rest")
+
+**Asked.** Build the four slices of search level 1 inside the frozen design (Decision-Log, "Search: three levels, and the level 1 design converged", 2026-11-22). No model calls, no metered spend.
+
+**Decided (Mark: "Option A, build the rest").** Lit results on phones (Open-Gaps 372): a country or a year lights its entries with the family line's own lighting, and the phone strip takes a second wording ("9 traditions in Ethiopia · Show the list"). The strip and the chip now accept a set of entries as well as one entry. Nothing else in the family line changed. Options B (list only, which would have reversed decision 6) and C (a new bar) were not taken.
+
+**Built.**
+1. Index builder at deploy time (`tools/build_search_index.mjs`, run by `tools/build_tree_site.mjs`). Two files under `data/search/`: `names.json` (entry ids, every name, short name, everyday name, other names on people cards, eras, rivers, the living list, and sourced names) and `words.json` (a word list over the visitor-readable text, pointing to entries). It reads `cic-website/data/search-names.json` when the names batch adds it, and builds without it. The build fails over a size budget.
+2. Search box and panel (`cft-website/search-ui.js`, matching in `cft-website/search-core.js`): combobox with arrow keys, Enter, Escape and a visible focus; the result count announced after typing stops; groups Traditions, People, Councils, Places, Parts of the map, Found in the text (Topics is held back while empty); a full list inside the panel as headings and links to the tree pages; matching for accents, plurals, "St" and "Saint", hyphens, one-letter typos, a year, a range, a century, "AD", "CE" and "c."; "Living today" first for a broad word; a plain line for each place or date result; a no-match view with the nearest name and the eras and rivers.
+3. Map moves: an entry opens its card and centers the map; an era goes into the era; a river scrolls to its head; a country or a year lights its entries.
+4. Text search: entries that use every word of the question, with the sentence copied whole from the entry's own text. The group says how many entries use the words and that other entries may cover the subject in other words.
+
+**Choices made inside the design, for Mark to veto.**
+- The code loads only when the Search button is first pointed at or focused, so the first page load gains only the button and the lighting code (3.8 KB raw, 1.1 KB compressed on the slim page; no search file is fetched on first load).
+- The eras and rivers are read at build time (rivers from the page's own list) and live in the names file, so they cannot drift from the map.
+- The census's `living` field means alive today through a continuing line, and the slim page does not carry it, so it travels in the names file.
+- A question of three or more words also finds an entry named in it (Origen in the question about heaven), and runs the text search.
+- `/data/search/*` is served with `public, max-age=0, must-revalidate` like the card files, so a repeat visit costs a "not modified" reply and not 270 KB.
+- The names file's row shape was not fixed by the names batch prompt. The builder reads a list or `{rows: [...]}`, each row with `name`, `kind` (other name, older name, spelling, name given by opponents) and one of `entry`, `country` or `region`. A row that does not fit stops the build. The names batch must match this.
+- A name given by opponents is shown as "a name its opponents gave it", taken from the row's kind; search writes no wording of its own about a name.
+
+**Measured (census release 52).** Names file 84.1 KB (25.5 KB compressed, budget 32 KB). Word list 543.9 KB (228.9 KB compressed, budget 245 KB), above the 175 to 205 KB estimate and inside the budget. Unit tests: 15 for the builder, 13 for the matching, including that every sentence shown equals a sentence in the entry's own text on all entries. Browser checks with the keyboard alone, on desktop and an emulated phone: the automated scan (axe, WCAG 2 A and AA plus best practice) reports no violation on the map, with search open and empty, with results, with no match, with the full list, with entries lit and with a card open.
+
+**Not done.** Search stays off: `SEARCH_ON` is false in `cft-website/index.html` until the first names batch has merged (Open-Gaps 370). Screenshots of "nestorian" use a test row added to a scratch copy only; the real tree holds no such name today. Nobody has used it on a real phone or with a real screen reader (Open-Gaps 371).
+
+## 2026-11-23 — Change order: search level 1 is one simple field and one short list (Mark)
+
+**Mark, on the first build.** "i think we just want a simple search field for now, one of the problems we are running into is we are bombarding people with way to many options and information, its making for a chaotic experience. we need simplicity and order that meets the users needs. clear accessability"
+
+**Decided (Mark: "One short list").** One field and one flat list of at most six matches, each a name with its dates. A country or a year gives one line that lights those traditions on the map. A miss gives one plain sentence and the nearest name. This changes decisions 1 and 4 of "Search: three levels, and the level 1 design converged" (2026-11-22) and slice 2 of the launch prompt, and it supersedes the entry above ("Search level 1 built behind a switch that stays off") where they differ.
+
+**Removed from the build.** The group headings, the "Found in the text" group and the text search (so no word list is built or served), "See all" and the full list, the era and river results, and the era and river buttons on a miss. The matching rules, the names file, the sourced-name wording ("a name its opponents gave it"), "Living today" ordering for a broad word and lighting on the map stay. The word-list builder and the sentence code stay in the code, tested and not deployed, for the later step that adds text search.
+
+**Measured.** Names file 25.5 KB compressed (budget 32 KB). Nothing but the names file is fetched, and only when the box is first opened. Automated scan (axe, WCAG 2 A and AA plus best practice) clean on the map, with search open, with results, with no match, with entries lit and with a card open, on desktop and an emulated phone, driven with the keyboard alone.
+
+**Still off.** `SEARCH_ON` stays false until the first names batch has merged (Open-Gaps 370).
+
+## 2026-11-23 — Search names batch 1 drafted and reviewed (Mark: "Converged, auto mode: keep heirs as other name")
+
+**Asked.** Draft the first batch of sourced names for search level 1 (Decision-Log, "Search: three levels, and the level 1 design converged", 2026-11-22). No model calls beyond the session, no metered spend.
+
+**Decided (Mark).** Today's names for a living heir (Assyrian Church of the East, Coptic Orthodox Church and the like) take the kind "other name".
+
+**Done.** 27 rows in `cic-website/data/search-names.json`: six names given by opponents (Nestorian on four Church of the East entries, Jacobite, Montanist), today's names for living heirs, Copts, Axum. Every basis is a line in the tree's own text, checked word for word by the census validator, which now fails a row with no real target, no valid kind or no basis (six tests). Data release 53, dated 2026-11-23, is stamped in the census meta, the license credit line and the map page's embedded meta; the data page was regenerated and lists the names file. Opus round 1 found three faults: a contested heir line shown as settled, a region labeled an older name, and two bases that quoted source citations. The first two rows were held, the other two rebased; round 2 rechecked only those. The review records and the held and wanted lists are in Build/Ministry/Operations/Audits/2026-11-23_search-names-1/.
+
+**Not done.** Seven rows wait for Mark's ruling on kind (Open-Gaps 370). `SEARCH_ON` stays false: flipping it is a separate small change after Mark sees screenshots with the real names.

@@ -70,6 +70,13 @@
     ]
    },
    {
+    "heading": "The narrated briefs",
+    "paragraphs": [
+     "Every narrated brief on the tree is read by a synthesized voice, made with the ElevenLabs text-to-speech service. No person recorded it.",
+     "The voice reads the same words the card shows under \"Read the brief\". Only the spelling of some names is changed for the voice, so that it says them correctly."
+    ]
+   },
+   {
     "heading": "How a link is made",
     "paragraphs": [
      "A link starts in a movement's own text. Each movement's page tells its story and names the movements it touched.",
@@ -296,7 +303,9 @@
     "paragraphs": [
      "The same file sits at two addresses. Neither one sends you on to another address, so a script can fetch it straight away.",
      "https://www.churchfamilytree.com/data/world-census.json",
-     "https://churchinconversation.com/data/world-census.json"
+     "https://churchinconversation.com/data/world-census.json",
+     "The names that search accepts besides the tree's own, each with the line that shows it, sit in a second file with the same release number.",
+     "https://www.churchfamilytree.com/data/search-names.json"
     ]
    },
    {
@@ -390,14 +399,14 @@
    {
     "heading": "Counting what is used",
     "paragraphs": [
-     "The map counts which cards are opened, which recordings are played, and minutes in use, with nothing that could identify you.",
+     "The map counts which cards are opened, which recordings are played and how far they are heard, which suggested next step is taken, and minutes in use, with nothing that could identify you.",
      "Your browser keeps one small note of when you last visited, so we can tell new visitors from returning ones. Clearing your browser's site data removes it."
     ]
    },
    {
     "heading": "What your browser keeps",
     "paragraphs": [
-     "The map remembers which switches you turned on or off. That choice is saved in your own browser only. It is never sent to us.",
+     "The map remembers which switches you turned on or off, and your listening choices: the speed, and whether briefs play by themselves or one after another. These choices are saved in your own browser only. They are never sent to us.",
      "Clearing your browser's site data removes it."
     ]
    },

@@ -64,3 +64,30 @@ Tractate II; Schepss's preface; Sulpicius II.46-51; Hefele on Bernays; Toledo; L
 - Procula rumor ("card if anywhere", gossip Sulpicius marks as such): not added, as in the first pass.
 
 **Validator** (`--skip-quotes`, scratch census, real census untouched). The census entry still holds the old brief text, so its quotation checks fail against it until release: three `secondReading` gaps (set at release), three `quotationOriginals` "not a quotation in the brief", and unmatched spans in the old text. No error comes from the new `uncertain` item.
+
+## Third pass: what it was about (2026-11-23)
+
+Written to `Card.pass2.json`, from `priscillian.card.json`; all else word for word. Quotations: the brief still quotes the same three spans, unchanged, so `quotationOriginals` is untouched.
+
+**`briefReferences`**
+1. Tractate II entry: "his reason for going to Rome." → "the order he says was asked against false bishops and Manichaeans; his reason for going to Rome, to clear his name." Evidence: brief ("They asked for it, Priscillian wrote, against false bishops and Mani's followers"; "went to Rome to clear his name"); Pr 4636-4638, 4672-4676, re-read.
+2. Sulpicius entry: "the portrait, the belief" → "the charge of heresy, the belief". The brief no longer tells the portrait; it now says "accused him of heresy" and "condemned ... as a heretic" (SulpE 11502-11508).
+3. Same entry: "Ithacius's loss of his bishopric." → "Ithacius's loss of his bishopric after he was attacked for taking the case to the courts." Evidence: brief sentence on Ithacius; SulpE 11714-11719, re-read.
+4. Hefele entry: "glossed as sorcery." → "glossed as sorcery; and, as his own supposition, the Saragossa canons against Sunday fasting and women's gatherings." Evidence: brief ("a modern historian thinks"); Hef2 17955-17958, 18003-18020, re-read.
+5. Leo entry: "the sword of the public laws." → "the sword of the public laws; his charge that the teaching put each life under demons and stars." Evidence: brief; Leo 3254-3259, re-read.
+- Braga entry: already names the souls; unchanged. No other entry names a cut event ("Two bishops made him bishop of Abila" and the oaths were never listed; Abila stays in the brief's opening).
+
+**`uncertain`** (new item inserted after the Saragossa item)
+- New text: Priscillian's book says Hydatius gave the council a memorandum setting down a rule for living and none of his group was censured under it (Pr 4389-4391); Hefele, in Oxenham's English, supposes that eight canons of a Saragossa synod of 380 belong to this council because they are plainly directed against the Priscillianists, among them all Christian women avoiding conventicles and no one fasting on Sunday, and notes Mansi dates it to 379 (Hef2 17955-17958, 18003-18020). Outline item 4 (card), credited to Hefele; his supposition, not fact.
+
+**Skipped**
+- Sulpicius's genealogy from Marcus of Memphis and Orosius's soul and stars report (outline item 11): already in `uncertain` (second and last items); nothing to add.
+- `sources.about`: the Hefele v2 file is already cited; no new file.
+- `legacy`: nothing in this pass sends anything there.
+- Pelagius files: none exist for this story.
+
+**Validator** (`--skip-quotes`, scratch census copy, deleted): 0 errors for this entry; 4 warnings, none on it.
+
+## Card check applied (2026-11-23)
+
+`Card_Check_About.md` (FIX, one change), applied word for word: briefReferences, Sulpicius entry: "Halm's Latin: the charge of heresy," → "Halm's Latin: his wealth and learning, the charge of heresy,". Its note that the memorandum Latin begins at Pr 4388, not 4389, concerns this file's third-pass section only.

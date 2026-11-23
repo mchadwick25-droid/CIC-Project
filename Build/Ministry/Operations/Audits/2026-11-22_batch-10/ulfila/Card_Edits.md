@@ -44,3 +44,41 @@ None. The card check lists no scan readings.
 **Skipped, already held** (each re-read against the card): Cut first 1 (Sozomen's tribute, `legacy.remembered`); 2 (Jordanes, `legacy.traces` and `sources.about`); 3 (Selinus, `legacy.traces`); 4 (Isidore, `legacy.traces`); 5 (Theodoret, `legacy.traces`); 6 (three languages, `uncertain`); 7 (Philostorgius's "first bishop" against Theophilus, `uncertain`); 9 (Socrates on Valens, `uncertain`); 10 (Christianople, `uncertain`). Leave out and For the card: Sadagolthina, Kauffmann's country bishop, Waitz's doubt, Philostorgius's own views, the Holy Spirit in the creed, Walafrid Strabo and Selenas are all on the card (`uncertain` or `legacy.traces`). Cut first 12 is marked Leave out.
 
 **Validator** (`--skip-quotes`, scratch copy of the census): two errors for this entry, the missing `secondReading` on `quotationOriginals[0]` and `[3]` (six words or more; release sets it).
+
+## Third pass: what it was about (2026-11-23)
+
+Starting card: `Card.pass2.json` (unchanged copy). Everything not listed here is word for word. `quotationOriginals` untouched: the brief still quotes the same four spans (Q1, "substance", "alone unbegotten", "subject and obedient in all things"), with unchanged rendering. NP2 = `cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml`; AUX, PHI as before.
+
+### briefReferences (edited entries)
+
+1. [0] Auxentius sections 55-63. "the persecution by a godless judge of the Goths and the martyrs" → "the persecution of the Goths and the martyrs" (the brief no longer tells the judge: "persecution drove him out, after many men and women had died as martyrs"). "the forty years, the order to Constantinople, his sudden illness" → "the emperor's order to Constantinople for a debate, to stop his opponents teaching in his churches, his sudden illness" (brief: "Later the emperor ordered Ulfila to Constantinople for a debate, to stop his opponents teaching in his churches"; AUX 15283-15286, ne Cristi eclesias ... docerent et infestarent).
+2. [4] Philostorgius. "forebears who were Christian captives from Cappadocia carried off by Gothic raiders, who won many Goths to the faith; made bishop on a Gothic embassy to the emperor's court, by Eusebius and the other bishops with him;" → "made bishop at the emperor's court, by Eusebius and other bishops;" (brief: "says it was at the emperor's court, by Eusebius and other bishops"; PHI 120). Forebears and embassy no longer told.
+3. [7] Socrates. After "banning the word substance for God" added "because, it says, the holy Scriptures nowhere mention the substance of the Father and the Son" (brief: "saying Scripture never uses it"; NP2 9564-9573). After "put down to the emperor Valens" added ", whose troops helped the chief Fritigernes in a Gothic civil war, and Fritigernes embraced the emperor's religion in gratitude" (brief: "whose help in a Gothic civil war won a chief over to his faith"; NP2 14428-14449). "Athanaric, who punished" → "Athanaric, who saw a violation of the privileges of his ancestors' religion and punished" (brief: "took this as an attack on his ancestors' religion"; NP2 14460-14465).
+4. [8] Sozomen. "among about fifty bishops at Constantinople" → "among the bishops at Constantinople" (brief: "joined the bishops"; NP2 34561-34567); the fifty moved to `uncertain`. "on the Goths' embassy, under pressure" → "on the Goths' embassy, which asked for land for them, after the leaders of the Arian party promised, it is said, to forward the request if he conformed, under pressure" (brief: "an embassy seeking land for the Goths. The other side's leaders, he heard, promised help if he joined them"; NP2 40141-40146, 40163-40171, "it is said").
+
+### briefReferences (new entry, appended)
+
+5. Arius, a presbyter, as Socrates reports him and as Theodoret gives his own letter to Eusebius of Nicomedia; Socrates 4.33 and Sozomen 6.37 name the faith after him. Evidence: brief ("after Arius, a priest who taught that the Son had a beginning"); NP2 2064-2099 (Socrates 1.5); `cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml` 6002, 6044-6046 (Theodoret 1.4, Arius's letter); NP2 14446-14449, 40180-40181.
+
+### uncertain (three appended)
+
+6. Sozomen's about fifty bishops at Constantinople, the formulary of Ariminum, the banned terms, reign not year, 360 the usual date (outline sends "about fifty" to the card; NP2 34559-34568; the "usual date" wording was in the removed reference clause).
+7. Philostorgius: the captives carried off from Cappadocia, Ulfila's forebears among them, brought many Goths to the faith (outline, cut 2, to the card; PHI 120, "Of the number of these captives were the ancestors of Urphilas").
+8. Auxentius: sent to Constantinople once forty years were complete, seven among the Goths and thirty-three on Roman soil (outline, cut 6, count to the card; AUX 15270, 15279-15283).
+
+### sources.about (titles widened so each newly cited chapter is listed)
+
+- Socrates/Sozomen entry: "Church History, Book 2, chapter 41;" → "Church History, Book 1, chapter 5; Book 2, chapter 41;" (Arius, NP2 2064-2099).
+- Theodoret entry: "Church History, Book 4, chapter 33" → "Church History, Book 1, chapter 4; Book 4, chapter 33" (Arius's letter, line 6002).
+
+### Skipped
+
+- Items 1, 2, 3, 4, 7, 8, 9, 10, 12, 15, 18: already explained, no new card content; the brief's references already carry them.
+- Item 6 (the Gothic embassy at the consecration): left out of the brief; the card's `uncertain` already tells Philostorgius's embassy.
+- Item 14's motive (Sozomen's "or, possibly") and item 17's opponents' name (damaged, editor-restored, STR 866-868): the outline marks neither for the card; the reference carries the first as Sozomen's, and the second is left unstated for want of a verified restoration reading.
+- Cut 4 (godless judge) and cut 7 (the other bishops with him): reference trimmed only; the outline sends neither to the card.
+- Applied Fresh_Read changes (Socrates "only in 360", "Two church historians", "he heard"): wording only; the card's claims were not affected. Nothing else clearly wrong; no claim not found.
+
+### Validator
+
+`node tools/validate-census.mjs --skip-quotes` on a scratch copy of the census with this card and the brief in `ulfila`: 0 errors (4 warnings, none for this entry).

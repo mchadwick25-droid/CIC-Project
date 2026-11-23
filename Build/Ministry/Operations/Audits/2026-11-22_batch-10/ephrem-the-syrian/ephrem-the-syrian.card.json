@@ -30,7 +30,8 @@
     "The later Lives of Ephrem add wonders that the early writers do not tell. They say his father was priest of an idol in Nisibis, and that Ephrem's prayer sent a cloud of gnats against the Persian army. Those stories rest on writers long after him.",
     "Palladius of Helenopolis says he died in his cell a month after the relief ended, while Sozomen says after a few days. Most writers date his death to 373, and some to 378.",
     "Sozomen tells that when men came to carry him off to be a bishop, he ran into the market-place, dragged his clothes and ate in public, until they took him for mad and left. He stayed a deacon all his life.",
-    "Sozomen and Theodoret blame Harmonius, Bardaisan's son, for the sweet tunes. In his own homily Ephrem blames Bardaisan alone."
+    "Sozomen and Theodoret blame Harmonius, Bardaisan's son, for the sweet tunes. In his own homily Ephrem blames Bardaisan alone.",
+    "The charge that Bardaisan denied the body would rise comes from his opponents, Ephrem and later Epiphanius of Salamis. A modern editor of Eusebius writes that Bardaisan \"seems\" to have denied the proper resurrection of the body, while Hort, whom he cites, held that Bardaisan kept the common faith except on isolated points. The one held work of his school, the Book of the Laws of Countries, is on fate and free will."
   ],
   "sources": {
     "ownWords": [
@@ -126,6 +127,34 @@
         "date": "about 420",
         "language": "English translation",
         "file": "cic/texts/palladius_lausiac-history_clarke1918.txt"
+      },
+      {
+        "title": "Manichaean confession-prayer (Khuastuanift) from Tun-huang",
+        "author": "A. von Le Coq",
+        "date": "1911",
+        "language": "English translation",
+        "file": "cic/texts/manichaean-texts_dr-steins-turkish-khuastuanift-in-jras-1911_le-coq1911.txt"
+      },
+      {
+        "title": "Ecclesiastical History, Book 4, chapter 30, editor's note on Bardesanes",
+        "author": "Eusebius, note by A. C. McGiffert",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Panarion, heresy 56 (Bardesanes)",
+        "author": "Epiphanius of Salamis",
+        "date": null,
+        "language": "Greek",
+        "file": "cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt"
+      },
+      {
+        "title": "The Book of the Laws of Divers Countries",
+        "author": "School of Bardaisan",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml"
       }
     ]
   },
@@ -133,9 +162,12 @@
     "Sozomen, Church History III.16, tr. Chester D. Hartranft: the famine shortly before Ephrem's death, around 372; Ephrem a native of Nisibis or its countryside.",
     "Theodoret, Church History II.26, tr. Blomfield Jackson: Nisibis on the border between Persia and Rome.",
     "Theodoret, Church History IV.26, tr. Jackson: Ephrem writing in the Syrian language.",
-    "Palladius, Lausiac History 40, tr. W. K. Lowther Clarke: Ephrem a deacon of Edessa; the famine, the rich, the exchange, \"Look, on your behalf I appoint myself to run the shelter.\"; the year of relief; his death in his cell a month after.",
+    "Palladius, Lausiac History 40, tr. W. K. Lowther Clarke: Ephrem a deacon of Edessa; the famine, the rich, the exchange, in modern English, \"See, on your behalf I appoint myself to take in and care for the needy.\"; the year of relief; his death in his cell a month after.",
     "Ephrem, Prose Refutations of Mani, Marcion and Bardaisan, tr. C. W. Mitchell: his prose against the three.",
-    "Ephrem, Nisibene Hymn 51, tr. John Gwynn: the body not raised as reproach to God's grace and slander of his justice.",
+    "Ephrem, Prose Refutations of Mani, Marcion and Bardaisan, tr. C. W. Mitchell: Mani's two Roots, Light and Darkness, mixed; Darkness framing the body as a prison for the soul, in Ephrem's telling.",
+    "Khuastuanift, a Manichaean confession-prayer from Central Asia, tr. A. von Le Coq: the two Roots, Bright and Dark, mixed and to be parted again.",
+    "Ephrem, Prose Refutations of Mani, Marcion and Bardaisan, tr. Mitchell: Marcion's second God, the Stranger above the Maker, who came down to lift souls out, as Ephrem tells it.",
+    "Ephrem, Nisibene Hymn 51, tr. John Gwynn: Ephrem's charge that a book of Bardaisan denied the body would rise; the body not raised as reproach to God's grace and slander of his justice.",
     "Sozomen, Church History III.16, tr. Hartranft: Harmonius, son of Bardaisan, and Greek ideas of soul and body; Ephrem's fear, the meters, the hymns of church teaching, and the Syrians singing his songs.",
     "Ephrem, Homily 53, Against Heretics, in the extract printed by Gwynn: he blames Bardaisan himself.",
     "Sozomen, Church History III.16, tr. Hartranft: his works put into Greek in his lifetime; Basil's admiration.",
@@ -147,13 +179,13 @@
   ],
   "quotationOriginals": [
     {
-      "modern": "Look, on your behalf I appoint myself to run the shelter.",
+      "modern": "See, on your behalf I appoint myself to take in and care for the needy.",
       "printed": "See, on your behalf I appoint myself hospitaller.",
       "work": "Palladius, Lausiac History 40, tr. W. K. Lowther Clarke",
       "file": "cic/texts/palladius_lausiac-history_clarke1918.txt",
       "lines": "471",
-      "secondReading": "changes meaning",
-      "uncertain": "\"On your behalf\" may mean \"as your agent, with your money\" or \"for your sake\". \"Hospitaller\" means one who runs a house of care for strangers, the poor and the sick, so readings include \"shelter\" and \"guesthouse\"."
+      "uncertain": "\"On your behalf\" may mean \"as your agent, with your money\" or \"for your sake\". \"Hospitaller\" means one who runs a house of care for strangers, the poor and the sick, so readings include \"shelter\" and \"guesthouse\".",
+      "secondReading": "minor"
     }
   ]
 }

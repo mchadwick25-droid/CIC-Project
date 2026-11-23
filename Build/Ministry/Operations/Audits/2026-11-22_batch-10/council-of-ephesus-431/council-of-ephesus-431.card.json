@@ -34,9 +34,12 @@
     "Cyril's second letter to Nestorius agreed with the creed of Nicaea; Nestorius's reply did not (acts, Session I).",
     "Nestorius, having refused three summonses, was excluded \"from the episcopal dignity, and from all priestly communion\" (the decree against Nestorius).",
     "No one may bring forward or compose \"a different\" faith from the one set out at Nicaea; the creed brought by the presbyter Charisius and the teachings of Nestorius were condemned (Canon VII).",
+    "The occasion of Canon VII was a rival statement of how God's Son became man, brought to the council by the presbyter Charisius of Philadelphia. The decree calls it an impious formula composed by Theodore of Mopsuestia (the decree; Canon VII).",
     "John of Antioch and the bishops with him were cut off from communion and their priestly power, the final sentence left to Celestine (the council's letter to Celestine; its circular letter).",
     "The council upheld Rome's earlier deposition of Pelagius, Caelestius and their followers (the council's letter to Celestine).",
+    "The council of Carthage in 418, held against the heresy of Pelagius and Caelestius, anathematized anyone who says that grace avails only for the remission of past sins, and not for assistance against committing sins in the future. It also anathematized anyone who says that grace helps only by revealing the commandments, and not so that we are able to do what we know we should do. Its own claim is that grace helps people not to sin and to do what they know they should (Canons CXI and CXII, in the English edition of the canons).",
     "John's assembly, for its part, declared Cyril and Memnon of Ephesus deposed and excommunicated all who sided with them until they rejected Cyril's anathemas (John's sentence, as Hefele gives it).",
+    "Cyril subjoined his twelve anathemas to his epistle to Nestorius (the epistle, in the acts).",
     "Canon VIII: after the bishop of Antioch had held ordinations in Cyprus, the churches of Cyprus kept the right to ordain their own bishops, and the same rule was to hold in every province (Canon VIII).",
     "The Messalians were condemned, and their book, the Asceticon, was anathematized (the council's letter to the bishops of Pamphylia).",
     "The decree says the bishops came, \"with many tears, to this sorrowful sentence\" (the decree against Nestorius)."
@@ -157,6 +160,8 @@
     "Socrates says Nestorius at last cried out that Mary might be called Theotokos, and that no notice was taken. Hefele follows the acts in seeing no such retreat.",
     "How the Church of the East stood to Ephesus is disputed. George Percy Badger, in 1852, says the Easterns were cut off by its decree. W. A. Wigram, in 1910, says they had not accepted it, nor formally rejected it, and had never been asked to; he dates the real separation some fifty years later.",
     "Whether Nestorius taught what Cyril's council condemned is still argued. Socrates, who read his works, judged he did not deny Christ's divinity. His own book denies the charge.",
+    "Nestorius's answering anathemas are held in the Latin of Marius Mercator, an opponent of his. That they are Nestorius's own is widely accepted.",
+    "What Pelagius himself meant by grace is contested. That the council of Carthage in 418 charged what its canons say is documented. His own answers, as Augustine reports them, claim God's help: that a man is able to be without sin and to keep the commandments of God, if he wishes, and that God is the helper of free will whenever it chooses good.",
     "Why John came late: Cyril's council says he held back with a hidden plan, and that he refused to attend, whether from friendship to Nestorius or for another reason. John's letter, as Hefele gives it, says the length of the road and the death of several horses had delayed him. Evagrius, a century and a half later, says it was not on purpose. The council says it waited sixteen days past Pentecost. Hefele adds that sixty-eight Asiatic bishops, Theodoret of Cyrrhus among them, had asked Cyril and Juvenal to wait for the bishops from Antioch.",
     "What Candidian did: his own protest is the only text of his we hold. The editor of the English acts, giving Hefele, says he cut off the council's food and had his soldiers insult its members, while Nestorius had a body-guard. The editor's note to John's assembly's report, in the volume of Theodoret's letters, says he was at first disposed to side with the Orientals. Nestorius's book says Cyril acted with full authority after shutting out the man the emperor had charged.",
     "The torches: Cyril's letter home says the people waited from dawn, and that when the sentence was heard they led the bishops to their lodgings with torches, with the city lit and women walking ahead with censers. Hefele repeats it. It is Cyril's own account, and partisan.",
@@ -259,6 +264,12 @@
         "author": "George Percy Badger",
         "language": "English",
         "file": "cic/texts/badger_nestorians-and-their-rituals-v2_1852.txt"
+      },
+      {
+        "title": "On the Proceedings of Pelagius, in the Anti-Pelagian Writings",
+        "author": "Augustine of Hippo",
+        "language": "English translation",
+        "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml"
       }
     ]
   },
@@ -271,8 +282,10 @@
     "The acts, Session I, and the decree against Nestorius: Cyril's letter judged to agree with the creed of Nicaea and Nestorius's not, and Nestorius excluded from the episcopal dignity and from priestly communion.",
     "The letter of Nestorius and his bishops to the emperor, in Latin (Mansi, tomus 5): agitators round their houses, the churches shut by Memnon, and threats of death.",
     "Letter CLII among the letters of Theodoret, the Eastern bishops' report to the emperor, and John's sentence in Hefele's English (the English edition of the canons): Cyril and Memnon deposed for holding a separate council, and Cyril's twelve chapters charged with old heresies.",
-    "The council's letter to Celestine and its circular letter: John and his bishops cut off from communion and priestly power, the final sentence left to Celestine.",
-    "Canon VII and the council's letter to Celestine: no different faith may be brought forward beside the creed of Nicaea, and Rome's determinations against Pelagius, Caelestius and their followers are upheld.",
+    "Cyril's anathemas I to III and Nestorius's answering anathemas I to III, in the English edition of the canons, Nestorius's as collected in Latin by Marius Mercator: Cyril's condemn anyone who will not confess the Holy Virgin the Mother of God, or who divides the one Christ; Nestorius's condemn saying that God and man are one and the same in nature.",
+    "The council's letter to Celestine and its circular letter: John and his bishops cut off from communion and priestly power.",
+    "Canon VII and the council's letter to Celestine: no different faith may be brought forward beside the creed of Nicaea, and Rome's determinations against Pelagius are upheld.",
+    "The council of Carthage of 418, Canons CXI and CXII, in the English edition of the canons: the canons anathematize anyone who says that grace avails only for the remission of past sins, or that it helps only by revealing the commandments. The brief gives this as the charge of his accusers, not as what Pelagius taught.",
     "Hefele, vol. 3, giving the new commissioner's report to the emperor, and Driver and Hodgson's chronology: the emperor's letter read by persuasion and force, as he reported; Nestorius, Cyril and Memnon declared deposed and arrested. Hefele's English of the emperor's edict dissolving the council.",
     "Cyril's letter to John of Antioch, tr. Pusey: the confession of 433 copied into it as John's side's own. John's letter in Hefele's English recognizes Nestorius as deposed, and Hefele calls that the condition of communion.",
     "Driver and Hodgson's chronology of the letters of 433: Theodoret of Cyrrhus accepted Cyril's faith but not Nestorius's deposition.",

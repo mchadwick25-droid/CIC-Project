@@ -1,0 +1,3 @@
+# Batch 10, the "what it was about" pass: the card check
+
+Story: **{NAME}**, folder `Build/Ministry/Operations/Audits/2026-11-22_batch-10/{SLUG}/`. You did not write the card. Do the check pass of `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/roles/card.md` on `{SLUG}.card.json`, with `Card.pass2.json` as the starting card and the section **Third pass: what it was about (2026-11-23)** of `Card_Edits.md` as the edit list, against `{SLUG}.brief.txt` as it now stands. Open every cited line. Write `Card_Check_About.md`: PASS, or FIX with each change exact (the field, the old text, the new text). Edit nothing. Reply in under 100 words.
