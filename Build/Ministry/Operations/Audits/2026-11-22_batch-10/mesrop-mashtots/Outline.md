@@ -170,3 +170,6 @@ Checked and held (words stand, no modern source under them):
 10. "Moses of Khoren, a later historian": by his own account Sahak and Mesrop sent him to Alexandria (T2 24738-24740), and he tells of Mesrop's orders after Sahak's death (T2 25390-25392). The modern dispute over his date stays on the card.
 
 Count after the pass: **667** words by `python -m engine.m1.profile_readability` (was 663; at most 675), grade 8.6, reading ease 76.5, pass.
+
+
+**Fresh read note (modern pass, 2026-11-23).** For the Albanians in the Caucasus, Moses at T2 13005-13018 is the firmer old source (`Fresh_Read_Modern.md`, MINOR 1).
