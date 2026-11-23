@@ -5,7 +5,7 @@
     "Johannes Cassianus"
   ],
   "knownFor": "Monk of Marseilles who carried the teaching of the Egyptian desert monks into Latin in his Institutes and Conferences, and whose thirteenth Conference Prosper of Aquitaine wrote against.",
-  "datesNote": "Born about 360 and in Egypt between about 380 and 400, both by Edgar Gibson's reckoning; died at Marseilles in the reign of Theodosius and Valentinian, by Gennadius of Marseilles, which Gibson places not long after 432",
+  "datesNote": "Born about 360 and in Egypt between about 380 and 400, both by the modern reckoning of Edgar Gibson, his translator; died at Marseilles in the reign of Theodosius and Valentinian, by Gennadius of Marseilles, which Gibson's modern reckoning places not long after 432",
   "placeNote": "Bethlehem, the desert of Scete in Egypt, Constantinople and Marseilles",
   "role": "Monk, presbyter and founder of two monasteries at Marseilles",
   "keyWorks": [
@@ -42,11 +42,11 @@
     "His early life is known mainly from his own writings. Gennadius of Marseilles calls him \"Scythian by race.\" Edgar Gibson, who translated his works, doubts it. The word may point to the desert of Scete, he suggests, and he thinks a Western birth, perhaps in Provence, most likely, while granting \"it is impossible to speak with certainty\". Gibson adds that Photius of Constantinople calls him a Roman, which \"need mean no more than born within the Roman Empire\".",
     "Gibson says the Conferences were written many years after the visits, and that no one can tell \"how far they really represent the discourses actually spoken by the Egyptian\" fathers, or how far they are Cassian's own.",
     "Prosper of Aquitaine, a layman and, by Gibson's account, \"an ardent Augustinian\", wrote against the thirteenth Conference. Prosper's book is not among the sources used here. Gennadius, who takes Cassian's side, believed an anonymous book \"against certain works of Cassianus, which the church of God finds salutary, but which he brands as injurious\" was Prosper's. Gibson says Prosper took twelve propositions from that Conference and allowed only the first, and \"never once names him directly\".",
-    "Gibson, and William Bright whom he quotes, call this teaching Semi-Pelagian. Cassian does not use the word. Gibson judges that \"a verdict of guilty must be returned on the charge of Semi-Pelagianism\", and adds that \"the teaching of Augustine was one-sided and required to be balanced.\"",
+    "Gibson, and William Bright, a modern scholar whom he quotes, call this teaching Semi-Pelagian. Cassian does not use the word. Gibson judges that \"a verdict of guilty must be returned on the charge of Semi-Pelagianism\", and adds that \"the teaching of Augustine was one-sided and required to be balanced.\"",
     "Gibson notes that the monks of Egypt called him John in his own writings, and that Prosper joins the two names. But Theodor Mommsen prints the line Gibson means, which calls him John surnamed Cassian, among fifteenth-century additions to Prosper's Chronicle, not Prosper's own words. Gennadius calls him only Cassianus.",
-    "Gennadius gives no year for his death. Ernest Cushing Richardson's note gives 450. Gibson says his last known act is Prosper's attack, after 432, and that he probably died soon after.",
+    "Gennadius gives no year for his death. Ernest Cushing Richardson, the modern translator of Gennadius, gives 450 in a note. Gibson says his last known act is Prosper's attack, after 432, and that he probably died soon after.",
     "Gibson says \"Of his family we know nothing\", except a sister he mentions once.",
-    "A tract on the Irish cursus, which Frederick Warren says was written by an eighth-century monk of the Irish tradition on the Continent, names Cassian and says a blessed Honorius was his companion at the monastery of Lérins. No earlier held source puts Cassian at Lérins, and Warren grants that the text is corrupt and has errors of detail.",
+    "A tract on the Irish cursus, which Frederick Warren, a modern editor, says was written by an eighth-century monk of the Irish tradition on the Continent, names Cassian and says a blessed Honorius was his companion at the monastery of Lérins. No earlier held source puts Cassian at Lérins, and Warren grants that the text is corrupt and has errors of detail.",
     "Socrates, a historian of the same century, says the people charged Nestorius with teaching that the Lord is a mere man. Having read his writings, Socrates says he cannot grant that Nestorius denied the divinity of Christ; he seemed scared at the word for Mother of God. Cassian's charge in the seven books is that Nestorius declared our Lord born a mere man.",
     "Hunter Blair, who translated the Rule of Benedict, dates it about 535. That date is his modern reckoning, not the Rule's own. The Rule itself names the Conferences for the evening reading.",
     "Gibson dates the Conferences between 426 and 428, from the dedications: the first part shortly after Castor's death in 426, the last before Honoratus died in January 429. This is his modern reckoning from those clues.",
@@ -130,14 +130,35 @@
         "date": null,
         "language": "Greek",
         "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt"
+      },
+      {
+        "title": "Dialogue on the Life of Chrysostom",
+        "author": "Palladius",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/palladius_dialogue-life-of-chrysostom_moore1921.txt"
+      },
+      {
+        "title": "Letter to Augustine, Epistle 225 among Augustine's letters, edited by Alois Goldbacher",
+        "author": "Prosper of Aquitaine",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/augustine_epistulae-critical_goldbacher-csel57-pars4.txt"
+      },
+      {
+        "title": "Institutions, book I, chapter 29, in Migne, Patrologia Latina 70",
+        "author": "Cassiodorus",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/cassiodorus_opera-institutiones-pl70-lat_migne1847.txt"
       }
     ]
   },
   "briefReferences": [
     "Conferences, preface to Part II (Conferences XI-XVII), tr. Edgar C. S. Gibson: one wished his monks taught the precepts of the Egyptian fathers, the other longed to go to Egypt and leave a province frozen with the cold of Gaul; Cassian writes so that no one need make so risky a journey. Gibson, Prolegomena: this Part of seven Conferences was dedicated to the two. The preface names the Institutes, written for Bishop Castor, and ten Conferences as already written.",
-    "Gibson, Prolegomena: born about 360; Bethlehem with Germanus; the two visits to Egypt placed between 380 and 400; ordained deacon at Constantinople by John Chrysostom.",
+    "Gibson, Prolegomena: Bethlehem with Germanus; ordained deacon at Constantinople by John Chrysostom.",
     "Conference XVII, ch. 30: the promise of a quick return, seven years in Egypt, the promise kept, then back to the desert of Scete.",
-    "Gennadius of Marseilles, Lives of Illustrious Men 62, tr. E. C. Richardson: deacon under bishop John at Constantinople, presbyter at Marseilles, two monasteries, one for men and one for women; the Institutes and Conferences; seven books against Nestorius at the request of Leo the archdeacon, afterward bishop of Rome; the end of his writing and his life at Marseilles in the reign of Theodosius and Valentinian. Gennadius is later by about fifty years and lived at Marseilles.",
+    "Gennadius of Marseilles, Lives of Illustrious Men 62, tr. E. C. Richardson: deacon under bishop John at Constantinople, presbyter at Marseilles, two monasteries, one for men and one for women; the Institutes and Conferences; seven books against Nestorius at the request of Leo the archdeacon, afterward bishop of Rome; the end of his writing and his life at Marseilles in the reign of Theodosius and Valentinian. Gennadius is later and lived at Marseilles.",
     "Palladius, Dialogue on the Life of Chrysostom, tr. H. Moore: Germanus, a priest, and Cassianus, a deacon, bring letters from John's clergy; their bishop expelled with the help of the military and sent into exile through a plot formed by four named bishops. The Dialogue's note on the name Cassianus is the editor's.",
     "Institutes, preface, tr. Gibson, and Petschenig's Latin: twelve books for Bishop Castor, whose province had no monasteries; Gennadius, Lives 62: the dress, prayers and psalms, and the eight principal faults.",
     "Conference XIII, chs. 3, 8 and 11, tr. Gibson: an old hermit, as Cassian writes him, says the first good thought and the good will come from God; God, seeing a good will begin, strengthens it, whether he planted it or it arose from our efforts; Zacchaeus and the thief on the cross; the grace of God and free will in harmony.",
