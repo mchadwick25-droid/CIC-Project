@@ -75,3 +75,32 @@ Written to `Card.pass2.json`, copied from `john-chrysostom.card.json`; every fie
 ## Card check applied (2026-11-23)
 
 `Card_Check_About.md` (FIX, three changes), applied word for word: the Oak minutes `uncertain` item ("say the first and second counts were examined" → "say several of the counts were examined, beginning with the first and second,"); the Theophilus motive `uncertain` item ("revenge on the monks." → "revenge on Isidore and Dioscorus and the removal of John."); `sources.about`: the Socrates Book 1, chapter 5 entry inserted after Book 7, chapter 45.
+
+## Fourth pass: no modern opinion (2026-11-23)
+
+Starting card kept unchanged as `Card.pass3.json`. Evidence for the sent-to-card items: `Outline.md` "Modern pass", `Modern_Pass.md`, `Fresh_Read_Modern.md`; each cited line re-read.
+
+### uncertain (four items added at the end)
+
+1. Antiochene school: new item crediting Zenos's note (`npnf202` 17173-17179, "the corner-stone of the Antiochian system of interpretation") and the Oxford preface to Matthew (`npnf110` 730-732, "reckoned the leader of the so-called Antiochian school of exegetes"), marked a modern judgment. Evidence: the brief no longer says "in the Antiochene way" (diff of `brief.v4.txt`).
+2. Oak and march dates: new item. 403 from Freese's note citing Hefele (Photius 3862-3864) and Moore's table of dates (Palladius 678); June 407 for the removal to Pityus from Moore's table (Palladius 706); Palladius gives no year for the march. Evidence: the brief no longer says "In 403" and puts 407 on the death (Socrates VI.21, `npnf202` 18609-18612).
+3. Matthew homilies at Antioch: new item, the Oxford editor's "undoubtedly delivered at Antioch" and "probably in the latter part of the time during which he preached as a Presbyter" (`npnf110` 534-536), marked modern. Evidence: the brief no longer says "There".
+4. Author of the Dialogue: new item, Moore's introduction: anonymous as it stands, "generally attributed to Palladius, Bishop of Helenopolis" (Palladius 729-731), nothing but the title suggests the speaker is Palladius (753-756), another Palladius proposed by Bigot (894-903). Evidence: the brief no longer says "who stood by John to the end".
+
+### briefReferences
+
+5. Removed "Homilies on Matthew, Preface to the Oxford Edition, by C. Marriott: the homilies were delivered at Antioch." The brief no longer places the sermon.
+6. "the Oak near Chalcedon in 403, John refusing" -> "the Oak near Chalcedon, John refusing". Brief has no year.
+7. "the second council that silenced him" -> "the second council that condemned him". Brief: "condemned".
+8. Palladius entry: "in 407 soldiers hurrying him" -> "soldiers hurrying him"; added "Socrates, Church History VI.21, tr. Zenos: his death on the way, on the 14th of September in the seventh consulate of Honorius." Evidence: `npnf202` 18609-18612. The file is already in `sources.about` (Church History, Book 6).
+9. Removed "World census, Antiochene Exegetical Christianity (Chrysostom-centered): his tradition." The brief no longer names the tradition.
+
+### Unchanged
+
+- `quotationOriginals`: one span in the brief, "Glory to God for all things.", unchanged, entry word for word.
+- The Diodore reference already cites Socrates VI.3 for the literal sense.
+- `sources`: no change. Not found: nothing new.
+
+### Validator
+
+`node tools/validate-census.mjs --skip-quotes` on a scratch census with this card and brief in place: 0 errors (4 warnings, none for this entry).

@@ -1,0 +1,196 @@
+{
+  "otherNames": [
+    "Eutyches the archimandrite"
+  ],
+  "knownFor": "A priest and head of a monastery at Constantinople whose teaching of one nature in Christ after the union was condemned in 448, upheld at Ephesus in 449 and condemned again at Chalcedon in 451.",
+  "datesNote": "Condemned at a synod under Flavian of Constantinople that S. G. F. Perry and Charles Lett Feltoe date to November 448; restored at Ephesus in 449. He told Leo of Rome that he had spent \"seventy years of life in continence and all chastity\". No source used here gives his birth or death",
+  "placeNote": "Constantinople; Ephesus",
+  "role": "Priest and archimandrite",
+  "keyWorks": [
+    {
+      "title": "Letter to Leo of Rome",
+      "about": "his appeal against Flavian's sentence; the Greek is lost, and the Library holds Feltoe's English of the Latin (Leo, Letter 21)"
+    },
+    {
+      "title": "Petition to the emperors and to the council of 449",
+      "about": "his account of the trial, in the Syriac acts in Perry's English"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Council of Chalcedon's definition receives Leo's letter to Flavian \"for the removal of the false doctrines of Eutyches\".",
+      "Later councils name Eutyches beside Nestorius in their lists of condemned teachers.",
+      "The Syriac chronicle says Peter Mongus of Alexandria, about 482, accepted the emperor Zeno's Henotikon, a letter of union that anathematized Nestorius and Eutyches.",
+      "The Life of Severus says Severus of Antioch wrote a discourse and many letters against the heresies of Eutyches, and that eastern monks anathematized the heresies of Nestorius, Eutyches and Apollinaris. Severus's own letters speak of the heresy of Eutyches.",
+      "Philoxenus of Mabbug lists Eutyches with Mani and Marcion among those who deny the Incarnation of the Word.",
+      "A book printed in English in 1912 by Ormanian, a former Armenian patriarch, says the Armenian Church officially and solemnly anathematizes his name, with those of Arius, Macedon and Nestorius.",
+      "Canon 95 of the council of 692 names Eutyches among the heretics whom converts must anathematize."
+    ],
+    "remembered": [
+      "Leo of Rome: \"very unwary and exceedingly ignorant\"; \"the ignorant old man\".",
+      "The Syriac chronicle known as that of Zachariah of Mitylene: he \"affirmed an inaccurate dogma\".",
+      "Michael the Syrian, about 700 years later, repeats the chronicle's charge that his teaching denied the reality of the body God the Word took from the Virgin."
+    ]
+  },
+  "uncertain": [
+    "His words at his trial come through the minutes of the synod that condemned him. He said the record was false, and at Ephesus in 449 Basil of Seleucia denied a sentence written as his, then said he did not remember.",
+    "Whether he appealed to Rome is disputed. He told Leo he lodged an appeal; Flavian wrote to Leo that \"this he certainly never did\".",
+    "Leo and Flavian were his opponents, and the acts of 449 come from the council that restored him.",
+    "That the court eunuch Chrysaphius was his godson rests here on Liberatus of Carthage, a later Latin writer held only in a rough scan, and on Charles Lett Feltoe's introduction to Leo's letters.",
+    "The date of Flavian's synod, November 448, is an editors' date. No source used here gives his birth, his death, or the name of his monastery.",
+    "That he was in exile after Chalcedon rests on Feltoe's summary of a letter of Leo that the English edition does not translate, which suggests he be banished to a still remoter place.",
+    "The Syriac chronicle cited here comes from the side that rejected Chalcedon; Hamilton and Brooks place its compiler in Mesopotamia, probably at Amida. It faults his teaching, though it says he was received at Ephesus after he confessed the true faith.",
+    "Leo wrote to him on June 1, 448, that his concern pleased Leo, since Nestorius's teaching was said to be reviving. Leo praised his concern, not his teaching. Feltoe's note that Eutyches had accused Domnus and Theodoret is Quesnel's opinion, an editor's.",
+    "The Syriac chronicle, which is hostile to his teaching, says soldiers of the palace visited him and were his friends, and that he relied on them when he said he was sick and old. No other held source says so.",
+    "The Syriac heading of his petition says it moved the emperor to call the council of 449. The emperors' own letter calling it blames Flavian for raising a question of the faith with him.",
+    "The chronicle calls the petition he gave the council at Ephesus a libel of recantation. The council's own minutes record only that he declared himself orthodox. Evagrius says the acts of 448 were confirmed when his complaint was heard.",
+    "Nestorius, writing in exile and hostile to Eutyches and to the emperor, says the emperor had accusers suborned to say the records of the trial at Constantinople were false.",
+    "The chronicle charges him with a teaching that used the image of air turning to rain, snow or ice. Its text is corrupt there and the translators supply some words; they are the chronicle's account of his teaching, not his words.",
+    "In his letter to Leo he asked not to be expelled after seventy years of continence, and so suffer shipwreck at the very end of life. The seventy years are his own claim.",
+    "The Greek of his answer at the trial survives in Evagrius's quotation of the acts, in a damaged print with a garbled line before its last word. Evagrius's English, Perry's English and Leo's Tome give the same words.",
+    "Hefele, a historian of the councils, doubts the text of canon 95 of the council of 692, which names Eutyches among the heretics converts must anathematize."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letter to Leo (Leo, Letter 21, tr. Charles Lett Feltoe)",
+        "language": "English translation",
+        "file": "cic/texts/npnf212_leo-great-gregory-great.xml"
+      },
+      {
+        "title": "Petition, and the minutes read at Ephesus in 449 (tr. S. G. F. Perry)",
+        "language": "English translation",
+        "file": "cic/texts/council-of-ephesus-449_second-synod-of-ephesus-syriac-acts_perry1881.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Letters 22, 26, 28 (the Tome) and 29",
+        "author": "Leo of Rome; Flavian of Constantinople",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf212_leo-great-gregory-great.xml"
+      },
+      {
+        "title": "Definition of the Faith, Council of Chalcedon",
+        "author": null,
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      },
+      {
+        "title": "The Syriac Chronicle known as that of Zachariah of Mitylene (tr. F. J. Hamilton and E. W. Brooks)",
+        "author": "Zachariah of Mitylene, so called",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt"
+      },
+      {
+        "title": "Ecclesiastical History (tr. Walford)",
+        "author": "Evagrius Scholasticus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt"
+      },
+      {
+        "title": "Ecclesiastical History (ed. Bidez and Parmentier)",
+        "author": "Evagrius Scholasticus",
+        "date": null,
+        "language": "Greek",
+        "file": "cic/texts/evagrius-scholasticus_historia-ecclesiastica-grc_bidez-parmentier1898.txt"
+      },
+      {
+        "title": "The Bazaar of Heracleides (tr. Driver and Hodgson)",
+        "author": "Nestorius",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt"
+      },
+      {
+        "title": "Life of Severus (tr. Kugener)",
+        "author": "Zacharias Scholasticus",
+        "date": null,
+        "language": "French translation of the Syriac",
+        "file": "cic/texts/zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903.txt"
+      },
+      {
+        "title": "Select Letters of Severus of Antioch, Book 6, part 1 (tr. Brooks)",
+        "author": "Severus of Antioch",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/severus-of-antioch_select-letters-book6-part1_brooks1903.txt"
+      },
+      {
+        "title": "Discourses (tr. Budge)",
+        "author": "Philoxenus of Mabbug",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/philoxenus-of-mabbug_discourses_budge1894.txt"
+      },
+      {
+        "title": "The Church of Armenia (tr. Gregory)",
+        "author": "Ormanian",
+        "date": "1912",
+        "language": "English translation",
+        "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt"
+      },
+      {
+        "title": "Chronicle, Book 8 (tr. Chabot)",
+        "author": "Michael the Syrian",
+        "date": null,
+        "language": "French translation of the Syriac",
+        "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt"
+      }
+    ]
+  },
+  "briefReferences": [
+    "Minutes of Flavian's synod read at Ephesus in 449, tr. S. G. F. Perry: his answer on the natures, the body of God and a human body taken from the Virgin, his refusal to speak of two natures, and Flavian's sentence removing him from the priesthood, communion and the government of his monastery. The notary's deposition has him denying that Christ's flesh shared our nature.",
+    "Evagrius, Ecclesiastical History, Greek and Walford's English: Eusebius of Dorylaeum charged him; his answer at the trial; Egypt's bishops at Chalcedon, the synod's demand that they anathematize Eutyches, and their request to wait for their archbishop; the refusing churches called followers of Dioscorus and Eutyches.",
+    "Eutyches to Leo, Letter 21, tr. Charles Lett Feltoe: a faction formed against him, the sentence readied before the inquiry, other abbots forced to sign, his claim that he appealed, and his claim that the fathers before him had rejected the phrase two natures.",
+    "Flavian to Leo, Letter 26, tr. Feltoe: he never did appeal. Flavian to Leo, Letter 22: his judges' account that Eutyches denied Christ's flesh was of the same substance as ours.",
+    "Leo, Letter 28, the Tome, tr. Feltoe: Eutyches very unwary and exceedingly ignorant; one Christ in two natures, each keeping its own character.",
+    "Petitions of Eutyches to the emperor and to the council of 449, tr. Perry: his quiet life from childhood to old age, the record of his trial said to be false, the crowd ready to drag him through the city as a heretic, and Flavian's lack of regard for his gray hairs. The Syriac heading says the petition moved the emperor to call the council.",
+    "Perry, the session of 449: Basil of Seleucia denied a sentence recorded as his, then said he did not remember; the sentence the record gave as his, that denying two natures after the union meant mixing God and man; the council's shout that his accuser should be burned alive and that all who affirm two natures be cursed; Eutyches declared orthodox and restored; Flavian deposed, the council ruling that he had altered the faith.",
+    "Council of Chalcedon, tr. H. R. Percival: the bishops cried that those who contradict Leo are Eutychians; the Definition receives Leo's letter for the removal of the false doctrines of Eutyches.",
+    "The Syriac chronicle known as that of Zachariah of Mitylene, tr. Hamilton and Brooks: Eutyches's account of Christ's body, which the chronicle says rejected the body from the Virgin; the Tome written on his case; Timothy Aelurus recalled from exile, and the people's demand in church that he anathematize Nestorius and Eutyches, which he did at once."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "I confess that our Lord was from two natures before the union. But after the union I confess one nature.",
+      "printed": "I confess that our LORD was of Two Natures before the Union, but after the Union I confess Him to be of One Nature.",
+      "work": "Eutyches's answer at his trial in 448, from the minutes read at Ephesus in 449, tr. S. G. F. Perry",
+      "file": "cic/texts/council-of-ephesus-449_second-synod-of-ephesus-syriac-acts_perry1881.txt",
+      "lines": "23843-23845",
+      "original": "Ὁμολογῶ ἐκ δύο φύσεων γεγενῆσθαι τὸν Κύριον ἡμῶν πρὸ τῆς ἑνώσεως, μετὰ δὲ τὴν ἕνωσιν μίαν φύσιν",
+      "originalFile": "cic/texts/evagrius-scholasticus_historia-ecclesiastica-grc_bidez-parmentier1898.txt",
+      "originalLines": "2285-2286",
+      "uncertain": "The Greek is Evagrius's quotation of the acts, in a damaged print: a garbled line stands before its last word, ὁμολογῶ (I confess), which is left out of the Greek shown. Evagrius's English (lines 1729-1731), Perry's English and Leo's Tome (lines 5597-5598) give the same words.",
+      "secondReading": "minor"
+    },
+    {
+      "modern": "He had no regard for my gray hairs. I have grown old with them in wars against heretics, and in confessing the true faith.",
+      "printed": "nor had he any regard for my grey hairs, with which I have grown old in wars against",
+      "work": "Eutyches's petition to the council of 449, tr. S. G. F. Perry, from the Syriac",
+      "file": "cic/texts/council-of-ephesus-449_second-synod-of-ephesus-syriac-acts_perry1881.txt",
+      "lines": "23494-23495",
+      "uncertain": "A page break falls after the printed words shown, and the sentence ends on line 23504: Heretics and in the Confession of the Orthodox Faith. The modern words render the whole sentence, with the Orthodox Faith as the true faith.",
+      "secondReading": "same"
+    },
+    {
+      "modern": "This he certainly never did.",
+      "printed": "this he certainly never did",
+      "work": "Flavian of Constantinople to Leo, Letter 26, tr. Charles Lett Feltoe",
+      "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+      "lines": "5028",
+      "secondReading": "checked at card"
+    },
+    {
+      "modern": "two natures",
+      "printed": "two natures",
+      "work": "Eutyches to Leo, Letter 21, tr. Charles Lett Feltoe",
+      "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+      "lines": "4560",
+      "secondReading": "checked at card"
+    }
+  ]
+}
