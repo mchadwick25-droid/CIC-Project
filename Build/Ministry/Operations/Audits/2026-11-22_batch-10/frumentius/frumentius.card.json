@@ -155,7 +155,8 @@
       "printed": "quae nos ita gesta non opinione vulgi, sed ipso Edesio Tyri presbytero postmodum facto, qui Frumentii comes prius fuerat, referente cognovimus.",
       "work": "Rufinus of Aquileia, Church History X (Latin)",
       "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt",
-      "lines": "27383-27385"
+      "lines": "27383-27385",
+      "secondReading": "same"
     },
     {
       "modern": "What other man like this could we find, with the Spirit of God in him as in you, who could carry it through in this way?",
@@ -163,7 +164,8 @@
       "work": "Rufinus of Aquileia, Church History X (Latin); Athanasius's words as Rufinus reports them",
       "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt",
       "lines": "27376-27377",
-      "uncertain": "The print reads \"sieut\", a scan fault for sicut."
+      "uncertain": "The print reads \"sieut\", a scan fault for sicut.",
+      "secondReading": "same"
     },
     {
       "modern": "So send Frumentius the bishop to Egypt with all speed.",
@@ -174,7 +176,8 @@
       "original": "Οὐκοῦν Φρουμέντιον τὸν ἐπίσκοπον ἐκπέμπετε τὴν ταχίστην εἰς Αἴγυπτον",
       "originalFile": "cic/texts/athanasius_opera-omnia-pg25-grc-lat_migne1857.txt",
       "originalLines": "92806-92807",
-      "uncertain": "Migne's Greek is a damaged scan, read by hand and confirmed by the 1892 English. The modern words follow the Greek, which says to send Frumentius the bishop to Egypt most speedily."
+      "uncertain": "Migne's Greek is a damaged scan, read by hand and confirmed by the 1892 English. The modern words follow the Greek, which says to send Frumentius the bishop to Egypt most speedily.",
+      "secondReading": "same"
     },
     {
       "modern": "This Frumentius was set in this rank by Athanasius, a man guilty of countless crimes.",
@@ -185,7 +188,8 @@
       "original": "τὸν Φρουμέντιον τοῦτον εἰς ταύτην τὴν τάξιν τοῦ βίου κατέστησεν Ἀθανάσιος, μυρίοις ἔνοχος ὢν κακοῖς",
       "originalFile": "cic/texts/athanasius_opera-omnia-pg25-grc-lat_migne1857.txt",
       "originalLines": "92812-92814",
-      "uncertain": "Migne's Greek is a damaged scan, read by hand and confirmed by the 1892 English. The modern words follow the Greek, which says Athanasius put him in this rank, being guilty of countless evils."
+      "uncertain": "Migne's Greek is a damaged scan, read by hand and confirmed by the 1892 English. The modern words follow the Greek, which says Athanasius put him in this rank, being guilty of countless evils.",
+      "secondReading": "same"
     }
   ]
 }

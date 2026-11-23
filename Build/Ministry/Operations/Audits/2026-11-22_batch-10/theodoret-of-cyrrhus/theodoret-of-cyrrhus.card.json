@@ -180,7 +180,8 @@
       "work": "Theodoret, Letter to Nestorius, tr. Blomfield Jackson",
       "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
       "lines": "38007-38010",
-      "uncertain": "The rendering is made from the Latin of the letter in the Synodicon (Mansi V, a damaged scan, so the Latin is not printed here); Jackson's English confirms the sense. Where Jackson has illegally, the Latin has a word for wickedly; where he has my infirmity, the Latin says the weakness of my soul. The Greek is lost."
+      "uncertain": "The rendering is made from the Latin of the letter in the Synodicon (Mansi V, a damaged scan, so the Latin is not printed here); Jackson's English confirms the sense. Where Jackson has illegally, the Latin has a word for wickedly; where he has my infirmity, the Latin says the weakness of my soul. The Greek is lost.",
+      "secondReading": "minor"
     },
     {
       "modern": "The form of God was not changed into the form of a servant. It stayed what it was, and took the form of the servant.",
@@ -188,7 +189,8 @@
       "work": "Theodoret, Counter-statement to Cyril's first anathema, tr. Blomfield Jackson",
       "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
       "lines": "4724-4726",
-      "uncertain": "The Greek is not held; Jackson's English is from Schulze's edition."
+      "uncertain": "The Greek is not held; Jackson's English is from Schulze's edition.",
+      "secondReading": "same"
     },
     {
       "modern": "unwillingly",
@@ -204,7 +206,8 @@
       "work": "Theodoret, Religious History, on Simeon (Greek)",
       "file": "cic/texts/theodoret_opera-omnia-t3-historia-religiosa-pg82-grc-lat_migne1864.txt",
       "lines": "113735-113738",
-      "uncertain": "One held print only (Migne, 1864), with steady OCR faults: chi for kappa, delta for beta, and a stray mark where tes should stand; the six of thirty-six is printed with a breathing mark that reads as the preposition ex. Read by hand, the numerals are six, twelve, twenty-two and thirty-six. No second print or English of this chapter is held."
+      "uncertain": "One held print only (Migne, 1864), with steady OCR faults: chi for kappa, delta for beta, and a stray mark where tes should stand; the six of thirty-six is printed with a breathing mark that reads as the preposition ex. Read by hand, the numerals are six, twelve, twenty-two and thirty-six. No second print or English of this chapter is held.",
+      "secondReading": "same"
     },
     {
       "modern": "Anathema to Nestorius",

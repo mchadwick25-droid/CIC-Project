@@ -135,7 +135,8 @@
       "work": "Auxentius of Durostorum, Letter on the faith, life and death of Ulfila, ed. Friedrich Kauffmann, Aus der Schule des Wulfila (1899); Latin",
       "file": "cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt",
       "lines": "15273-15277",
-      "uncertain": "The file is OCR and reads poptäum where the sense is populum, his people; Streitberg's second print of the passage (lines 836-842 of his file) reads populum, but it follows Kauffmann's text almost throughout, so the two prints are not independent. The last clause has no verb of its own and takes fecit from the one before, so the rendering gives serve him in the mountains after He made them cross the Danube. Confessores are those who held to the faith under persecution; de uarbarico is from the barbarians' land, the Goths' country outside the empire."
+      "uncertain": "The file is OCR and reads poptäum where the sense is populum, his people; Streitberg's second print of the passage (lines 836-842 of his file) reads populum, but it follows Kauffmann's text almost throughout, so the two prints are not independent. The last clause has no verb of its own and takes fecit from the one before, so the rendering gives serve him in the mountains after He made them cross the Danube. Confessores are those who held to the faith under persecution; de uarbarico is from the barbarians' land, the Goths' country outside the empire.",
+      "secondReading": "minor"
     },
     {
       "modern": "substance",
@@ -161,7 +162,8 @@
       "work": "Ulfila's creed, in Auxentius of Durostorum, Letter on the faith, life and death of Ulfila, ed. Friedrich Kauffmann, Aus der Schule des Wulfila (1899)",
       "file": "cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt",
       "lines": "15324",
-      "uncertain": "The file is OCR, and Streitberg's second print reads the same apart from a scan slip, oboedieniem (line 902 of his file). Subditum is subject in rank. The same words stand at lines 15322-15323 of the Holy Spirit, subject to the Son; the brief's are of the Son to the Father. In the Latin, in all things stands between his and God the Father; the brief ends the quotation at all things and gives to his God the Father in its own words."
+      "uncertain": "The file is OCR, and Streitberg's second print reads the same apart from a scan slip, oboedieniem (line 902 of his file). Subditum is subject in rank. The same words stand at lines 15322-15323 of the Holy Spirit, subject to the Son; the brief's are of the Son to the Father. In the Latin, in all things stands between his and God the Father; the brief ends the quotation at all things and gives to his God the Father in its own words.",
+      "secondReading": "same"
     }
   ]
 }

@@ -184,7 +184,8 @@
       "work": "Priscillian, Book to Damasus (Tractate II), Latin, ed. Georg Schepss",
       "file": "cic/texts/priscillian_quae-supersunt-lat_schepss1889-csel18.txt",
       "lines": "4415-4417",
-      "uncertain": "Schepss's print is the only one held, and the scan misreads letters: nee for nec, T)us for the end of parentibus, aiiima for anima, and a stray mark after deum. No second print confirms the reading, so the Latin is given as the scan stands and not as an original; the rendering follows the sense of the sentence. malluerit is the manuscript's spelling."
+      "uncertain": "Schepss's print is the only one held, and the scan misreads letters: nee for nec, T)us for the end of parentibus, aiiima for anima, and a stray mark after deum. No second print confirms the reading, so the Latin is given as the scan stands and not as an original; the rendering follows the sense of the sentence. malluerit is the manuscript's spelling.",
+      "secondReading": "minor"
     },
     {
       "modern": "My own view is that the accused displease me as much as the accusers.",
@@ -192,7 +193,8 @@
       "work": "Sulpicius Severus, Chronicle II.50, tr. Alexander Roberts",
       "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
       "lines": "11642-11643",
-      "uncertain": "Halm's Latin (lines 5890-5891 of the Halm file) is held only in a damaged scan that reads senteatia and dispUcere, so it is not printed. The story renders the Latin, mea quidem sententia est, mihi tam reos quam accusatores displicere, which puts the accused first; Roberts puts the accusers first."
+      "uncertain": "Halm's Latin (lines 5890-5891 of the Halm file) is held only in a damaged scan that reads senteatia and dispUcere, so it is not printed. The story renders the Latin, mea quidem sententia est, mihi tam reos quam accusatores displicere, which puts the accused first; Roberts puts the accusers first.",
+      "secondReading": "minor"
     },
     {
       "modern": "Even the rulers of the world loathed this unholy folly. So they cut down its founder, with most of his followers, by the sword of the public laws.",
@@ -200,7 +202,8 @@
       "work": "Leo the Great, Letter 15 to Turribius, tr. Charles Lett Feltoe, 1895",
       "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
       "lines": "3276-3278",
-      "uncertain": "Leo's Latin is not held. The story splits Feltoe's one sentence in two and uses rulers for his leaders, unholy for profane, cut down for laid low, founder for originator and followers for disciples."
+      "uncertain": "Leo's Latin is not held. The story splits Feltoe's one sentence in two and uses rulers for his leaders, unholy for profane, cut down for laid low, founder for originator and followers for disciples.",
+      "secondReading": "same"
     }
   ]
 }

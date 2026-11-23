@@ -196,7 +196,8 @@
       "work": "Jerome, Letter 3, to Rufinus the Monk, tr. 1893 (Nicene and Post-Nicene Fathers, second series, vol. 6)",
       "file": "cic/texts/npnf206_jerome-principal-works.xml",
       "lines": "3941-3942",
-      "uncertain": "The Latin of Jerome's letters is not held; the rendering rests on this English print of 1893."
+      "uncertain": "The Latin of Jerome's letters is not held; the rendering rests on this English print of 1893.",
+      "secondReading": "same"
     },
     {
       "modern": "Where I found anything in his books against the truth about the Trinity, which he teaches soundly elsewhere, I left it out as not his own. Or I set it down to agree with the rule of faith, which we find him holding to again and again.",
@@ -204,7 +205,8 @@
       "work": "Rufinus, preface to On First Principles, tr. W. H. Fremantle",
       "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
       "lines": "45775-45780",
-      "uncertain": "The Latin is not held. A second English print of 1893, in Jerome's letters (Letter 80, lines 18367-18372), differs in the second half: it says he omitted the passage as garbled and misleading, or substituted the view he found Origen frequently asserting, and has no rule of faith."
+      "uncertain": "The Latin is not held. A second English print of 1893, in Jerome's letters (Letter 80, lines 18367-18372), differs in the second half: it says he omitted the passage as garbled and misleading, or substituted the view he found Origen frequently asserting, and has no rule of faith.",
+      "secondReading": "minor"
     },
     {
       "modern": "In the books On First Principles, I simply set down what stood in the Greek. I did not want the reader to believe what I translated. I wanted him not to believe what you had translated before.",
@@ -215,7 +217,8 @@
       "original": "simpliciter quod in Greco habebatur expressi; non ut crederet lector his qui interpretabar; sed ne crederet illis, que tu ante transtuleras.",
       "originalFile": "cic/texts/jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt",
       "originalLines": "31112-31115",
-      "uncertain": "The scan misprints the Greek title of the book, so the Latin is given from the words after it."
+      "uncertain": "The scan misprints the Greek title of the book, so the Latin is given from the words after it.",
+      "secondReading": "same"
     }
   ]
 }

@@ -135,7 +135,8 @@
       "printed": "These two then; viz., the grace of God and free will seem opposed to each other, but really are in harmony",
       "work": "Conferences XIII.11, tr. Edgar C. S. Gibson (the old hermit Chaeremon, as Cassian writes him); the Latin Conferences are not held",
       "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
-      "lines": "38028-38030"
+      "lines": "38028-38030",
+      "secondReading": "same"
     },
     {
       "modern": "the Conferencer",
@@ -151,7 +152,8 @@
       "printed": "which the church of God finds salutary, but which he brands as injurious",
       "work": "Gennadius of Marseilles, Lives of Illustrious Men 85, tr. E. C. Richardson; the held Latin is damaged at the verb",
       "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
-      "lines": "43669-43671"
+      "lines": "43669-43671",
+      "secondReading": "same"
     },
     {
       "modern": "May we set the men themselves before you, embodied, as it were, in their own rules. And, what matters more, may they be speaking in Latin.",
@@ -159,7 +161,8 @@
       "work": "Conferences, preface to Part I, tr. Gibson; the Latin Conferences are not held",
       "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
       "lines": "25949-25952",
-      "uncertain": "Here Institutes means the elders' own rules of life, so the rendering says rules, not the title of the book."
+      "uncertain": "Here Institutes means the elders' own rules of life, so the rendering says rules, not the title of the book.",
+      "secondReading": "minor"
     }
   ]
 }

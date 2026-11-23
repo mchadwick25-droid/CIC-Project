@@ -164,7 +164,8 @@
       "original": "Ὁμολογῶ ἐκ δύο φύσεων γεγενῆσθαι τὸν Κύριον ἡμῶν πρὸ τῆς ἑνώσεως, μετὰ δὲ τὴν ἕνωσιν μίαν φύσιν",
       "originalFile": "cic/texts/evagrius-scholasticus_historia-ecclesiastica-grc_bidez-parmentier1898.txt",
       "originalLines": "2285-2286",
-      "uncertain": "The Greek is Evagrius's quotation of the acts, in a damaged print: a garbled line stands before its last word, ὁμολογῶ (I confess), which is left out of the Greek shown. Evagrius's English (lines 1729-1731), Perry's English and Leo's Tome (lines 5597-5598) give the same words."
+      "uncertain": "The Greek is Evagrius's quotation of the acts, in a damaged print: a garbled line stands before its last word, ὁμολογῶ (I confess), which is left out of the Greek shown. Evagrius's English (lines 1729-1731), Perry's English and Leo's Tome (lines 5597-5598) give the same words.",
+      "secondReading": "minor"
     },
     {
       "modern": "He had no regard for my grey hairs. I have grown old with them in wars against heretics, and in confessing the true faith.",
@@ -172,7 +173,8 @@
       "work": "Eutyches's petition to the council of 449, tr. S. G. F. Perry, from the Syriac",
       "file": "cic/texts/council-of-ephesus-449_second-synod-of-ephesus-syriac-acts_perry1881.txt",
       "lines": "23494-23495",
-      "uncertain": "A page break falls after the printed words shown, and the sentence ends on line 23504: Heretics and in the Confession of the Orthodox Faith. The modern words render the whole sentence, with the Orthodox Faith as the true faith."
+      "uncertain": "A page break falls after the printed words shown, and the sentence ends on line 23504: Heretics and in the Confession of the Orthodox Faith. The modern words render the whole sentence, with the Orthodox Faith as the true faith.",
+      "secondReading": "same"
     },
     {
       "modern": "This he certainly never did.",
