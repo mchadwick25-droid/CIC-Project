@@ -103,3 +103,45 @@ A writer drops these in this order until the story fits 675 words. The count met
 7. What came 5: the thirteenth-century feast of the Translators (SYN16 6239). One fact and a witness credit. The liturgy clause stays optional. **To the card.** Saves 17.
 
 Count before the list: 784. The list saves 139. Count after: 645, under 675.
+
+## What it was about
+
+Each charge, teaching, book, quarrel or decision the final brief names, with the two leads in `Gaps.md`. File keys as above; also **AUG** = `cic/texts/augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt` (De haeresibus); **MAR** = `cic/texts/maruta-of-maipherqat_de-sancta-nicaena-synodo-syrische-texte-deu_braun1898.txt` (the Syriac heresy list credited to Marutha of Maipherqat, fl. c. 400-420, in Braun's German); **CYR** = `cic/texts/cyril-alexandria_three-epistles-grc-eng_pusey1872.txt`; **NES** = `cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt`.
+
+1. **The letters (the Armenian script).** Already explained: made so the faith could be preached, written and taught in Armenian, where preaching without letters was hard. Koriun, T2 3518-3521, 3626-3656. Documented as Koriun's claim.
+2. **The Syrian bishop's letters.** Already explained: they could not carry the sounds of Armenian. Koriun, T2 3571-3584. Documented as Koriun's claim.
+3. **The translation, beginning with Proverbs.** Already explained: the Scriptures put into Armenian, Proverbs first. Koriun, T2 3634-3641. Documented.
+4. **The Persian ban.** Already explained (once): on the Persian side only Syriac learning was allowed, so Sahak and Mesrop went west. Koriun, T2 3698-3706. Documented. Its second telling goes (Room for it, cut 6).
+5. **The Georgian and Albanian letters, and the rival claim.** Already explained: Koriun says he gave the Georgians letters and renewed the Albanians'; the Georgian chronicle gives Georgia's script to an ancient king. T2 3657-3664; KART 2228-2230. Contested.
+6. **The letters refused on the Roman side (Moses).** Explain: in the emperor's letter Moses gives, Sahak had served a pagan king and turned to Syrians, not to Constantinople's scholars. Moses of Khoren, credited, T2 24190-24213 (Sahak's letter: the governors "n'ont pas accepté les caractères"), 24296-24324 (Theodosius's reply: the reproach, then the order to teach them). Documented as Moses's claim; Contested against Koriun's warm welcome (T2 3766-3777).
+7. **The bishop of Constantinople naming him a preacher.** Leave out: a church office the brief has no room to explain; Koriun's welcome is carried by the schools at public cost. T2 3716-3726. To the card.
+8. **The Borborites (Gaps 1).** Explain: Koriun never says what they taught; Latin and Syriac church writers of that century charged a sect of that name with foul rites and sexual license. Credit the enemies as enemies. AUG 1252-1261 (Augustine: called Borborites "quasi caenosos", for the foulness "quam in suis mysteriis exercere dicuntur"); MAR 3563-3567 ("ihrer Unsittlichkeit und grossen Unzucht", refusing to say more). Koriun's own words stay: T2 3779-3787. Documented as those writers' charges; that Koriun's Armenian sect is theirs is Inferential-Thin (same name only; Langlois's note, T2 3814-3820, makes the link and is the editor's). Not used: MAR's "[Obscönitäten]" and "Blut [von Kindern]", the translator's brackets; Moses's "secte criminelle" (T2 24418-24424), already for the card.
+9. **The man shut out from Ephesus and his heretical books (Gaps 2).** Explain: his books, Koriun says, followed Nestorius; the council's quarrel turned on whether Mary could be called Mother of God, while Nestorius urged "Mother of Christ" instead. Koriun, T2 4098-4110 ("des livres conformes aux hérésies de Paul de Samosate et de Nestorius"); Cyril, the winning side, CYR 5242-5244 ("nearly the whole contest ... on our affirming that the holy Virgin is Mother of God"); Nestorius, his own side, NES 6955-6960 ("Mother of Christ" as "a word which is useful toward agreement"). Documented (each side's own words). Paul of Samosata, also in Koriun's line: leave out, since explaining a second heresy has no room and the council's quarrel is Nestorius's; to the card, with the man's name "Théodore" (the bracket "[de Mopsueste]" stays barred).
+10. **The canons of Nicaea and Ephesus.** Leave out: two councils' rulings named with no room to say what they ruled; the true copies of the Scriptures carry the beat. T2 3855-3860. To the card.
+11. **The first hasty translations corrected.** Already explained: corrected against the true copies the pupils brought home. T2 3805-3877. Documented.
+12. **"Defenders of the true faith."** Leave out: Koriun's praise label, not an act; the act (driving the man out) stays. T2 4105-4106. To the card.
+13. **Mesrop going to Sahak about letters.** Leave out: the partnership is already told in the essence. T2 3554-3562.
+14. **Lazar giving the translating to Sahak.** Already explained: a later historian's different credit, told beside Koriun's. T2 36473-36488. Documented (Lazar's claim).
+15. **Koriun's Life (the book the story rests on).** Already explained: a pupil's account of men he says he saw. T2 4334-4398. Documented.
+16. **The divine Tablets.** Already explained: the tablets of the Law God gave Moses. T2 3647-3648. Documented.
+
+Nine already explained, three to explain (6, 8, 9), five left out (7, 10, 12, 13, and Paul of Samosata within 9).
+
+## Room for it
+
+- **Current count** (`wc -w mesrop-mashtots.brief.txt`): 674. Cap: 675.
+- **Words the explanations add:** 65.
+  - Item 8, after "rash and insolent": ", without saying what they taught. Latin and Syriac church writers of that century charged a sect of that name with foul rites and sexual license." (+25)
+  - Item 6, after "the letters were first refused": ": in the emperor's letter he gives, Sahak had served a pagan king and turned to Syrians, not to Constantinople's scholars." (+20)
+  - Item 9: "who came with heretical books," becomes "whose books, Koriun says, followed Nestorius,", and after "drove him out." add "That council's quarrel turned on whether Mary could be called Mother of God; Nestorius urged Mother of Christ instead." (+20)
+- **What goes** (events before meanings), 66 words:
+  1. "He learned Greek as a boy and kept the king's decrees. Then" (the sentence opens "He became a monk"): the royal secretary is in the essence. −12
+  2. "Mesrop went to Sahak about letters, and found him even more eager." (item 13). −12
+  3. ", where the bishop's letters failed": the opening already tells it, so it was the same event twice. −5
+  4. "Rising from prayer,". −3
+  5. ", and the bishop named him a preacher" (item 7; the sentence ends "sent Mesrop to them."). −7
+  6. "with Greek learning barred on the Persian side,": the ban is already told in the Koghten paragraph (item 4). −8
+  7. "and the canons of Nicaea and Ephesus" (item 10; reads "true copies of the Scriptures, and the first hasty translations were corrected"). −7
+  8. "Koriun calls them defenders of the true faith." (item 12). −8
+  9. "in the New City" (the death place, to the card). −4
+- **Count after:** 674 + 65 − 66 = 673, at or under 675 (checked by `wc -w` on a trial copy). Kept: the vision, the essence, the Borborites' force in full, every witness credit, the death scene and the closing image.
