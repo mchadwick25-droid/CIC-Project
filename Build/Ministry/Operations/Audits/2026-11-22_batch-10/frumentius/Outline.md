@@ -164,3 +164,6 @@ Added 2026-11-23 for "No modern opinion, guess or reconstruction in a story" (De
 
 Count after the pass: **652** words by `python -m engine.m1.profile_readability` (was 675; at most 675).
 
+
+
+**Do not say** (from `Fresh_Read_Modern.md`, word for word): "'in what is now Ethiopia and Eritrea', from the census. Say: in what is now Ethiopia (SYN 43584-43585, 43597-43611); the region's modern extent goes to the card."
