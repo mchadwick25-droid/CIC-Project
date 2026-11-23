@@ -876,6 +876,181 @@
    "scan": "mans urbis",
    "reads": "manae urbis",
    "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/augustine_epistulae-critical_goldbacher-csel57-pars4.txt",
+   "lines": "4513",
+   "scan": "possnnt",
+   "reads": "possunt",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/augustine_epistulae-critical_goldbacher-csel57-pars4.txt",
+   "lines": "4513",
+   "scan": "boua",
+   "reads": "bona",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/augustine_epistulae-critical_goldbacher-csel57-pars4.txt",
+   "lines": "4514",
+   "scan": "ni.i in te",
+   "reads": "nisi in te",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/augustine_epistulae-critical_goldbacher-csel57-pars4.txt",
+   "lines": "4514",
+   "scan": "optinie",
+   "reads": "optime",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/augustine_epistulae-critical_goldbacher-csel57-pars4.txt",
+   "lines": "4514",
+   "scan": "uerissiine",
+   "reads": "uerissime",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/augustine_epistulae-critical_goldbacher-csel57-pars4.txt",
+   "lines": "4514",
+   "scan": "piane",
+   "reads": "plane",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/augustine_epistulae-critical_goldbacher-csel57-pars4.txt",
+   "lines": "4515",
+   "scan": "oinniuo",
+   "reads": "omnino",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/augustine_epistulae-critical_goldbacher-csel57-pars4.txt",
+   "lines": "4515",
+   "scan": "uirns",
+   "reads": "uirus",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/hefele_history-of-the-councils-v3-431-451_clark1883.txt",
+   "lines": "7244",
+   "scan": "πύριον",
+   "reads": "κύριον",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/hefele_history-of-the-councils-v3-431-451_clark1883.txt",
+   "lines": "7244",
+   "scan": "ἀσυγχύτευ ἱνώσεως",
+   "reads": "ἀσυγχύτου ἑνώσεως",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/hefele_history-of-the-councils-v3-431-451_clark1883.txt",
+   "lines": "7244",
+   "scan": "ὁμολογοῦμεν τὸν",
+   "reads": "ὁμολογοῦμεν τὴν",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/hefele_history-of-the-councils-v3-431-451_clark1883.txt",
+   "lines": "7245",
+   "scan": "διοτόκον",
+   "reads": "θεοτόκον",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/athanasius_opera-omnia-pg25-grc-lat_migne1857.txt",
+   "lines": "92806",
+   "scan": "Οὐχοῦν",
+   "reads": "Οὐκοῦν",
+   "kind": "OCR misread (χ for κ)"
+  },
+  {
+   "file": "cic/texts/athanasius_opera-omnia-pg25-grc-lat_migne1857.txt",
+   "lines": "92806",
+   "scan": "Φρουμέντιον (36)",
+   "reads": "Φρουμέντιον",
+   "kind": "footnote marker run into the line"
+  },
+  {
+   "file": "cic/texts/athanasius_opera-omnia-pg25-grc-lat_migne1857.txt",
+   "lines": "92807",
+   "scan": "ἐπίσχοπον",
+   "reads": "ἐπίσκοπον",
+   "kind": "OCR misread (χ for κ)"
+  },
+  {
+   "file": "cic/texts/athanasius_opera-omnia-pg25-grc-lat_migne1857.txt",
+   "lines": "92807",
+   "scan": "ἐχπέμπετε",
+   "reads": "ἐκπέμπετε",
+   "kind": "OCR misread (χ for κ)"
+  },
+  {
+   "file": "cic/texts/athanasius_opera-omnia-pg25-grc-lat_migne1857.txt",
+   "lines": "92813-92814",
+   "scan": "βίον χατ- \nἔστησεν",
+   "reads": "βίου κατέστησεν",
+   "kind": "OCR misread (ν for υ and χ for κ, across the line-end hyphen)"
+  },
+  {
+   "file": "cic/texts/athanasius_opera-omnia-pg25-grc-lat_migne1857.txt",
+   "lines": "92814",
+   "scan": "χαχοῖς",
+   "reads": "κακοῖς",
+   "kind": "OCR misread (χ for κ)"
+  },
+  {
+   "file": "cic/texts/pelagius_epistula-ad-demetriadem-lat_migne.txt",
+   "lines": "815",
+   "scan": "poterii",
+   "reads": "poterit",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/pelagius_epistula-ad-demetriadem-lat_migne.txt",
+   "lines": "815",
+   "scan": "in bis",
+   "reads": "in his",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/pelagius_epistula-ad-demetriadem-lat_migne.txt",
+   "lines": "816",
+   "scan": "caeleris",
+   "reads": "caeteris",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/langlois_collection-historiens-armenie-tomes1-2-fra_1867-1869.txt",
+   "lines": "55858-55882",
+   "scan": "(1) Saint Sahag I, dit le Grand ou le Parthe, occupa",
+   "drop": true,
+   "kind": "footnotes",
+   "lines_held": [
+    "(1) Saint Sahag I, dit le Grand ou le Parthe, occupa",
+    "lo siège patriarcal de l’an 390 jusqu’à l'an 440. Durant",
+    "son pontificat, Bahram V, roi sassanide de Perse, plaça",
+    "sur le trône patriarcal, d’abord Berkischoï, puis Samuel,",
+    "deux Syriens intrus. Mais Sahag recouvra à la fin de sa",
+    "vie ses fonctions, et eut pour coadjuteur Mesrob qui",
+    "avait été durant de longues années le cooptrateur du",
+    "patriarche. — Cf. dans la Petite Bibliothèque arm., t. 1I",
+    "(Venise, 1853), l'Hist. de saint Sahag , et différents",
+    "autres écrits relatifs à ce patriarche et aux actes de son",
+    "administration spirituelle.",
+    ". (2) Vram-Schapoubh, frère de Chosroës, ou Khosrov If,",
+    "fut nommé roi de la partie perse de l'Arménie, lors du",
+    "renversement de son frère par les Perses. Il régna de",
+    "lan 392 jusqu’à sa mort, en 414, et il fut remplacé par",
+    "Chosroës III, que les Perses rétablirent comme roi d’Ar-",
+    "ménie, après l'avoir tiré de sa prison.",
+    "(3) Cf. Moïse de Khorène, Hist. d'Arm., liv. nt,",
+    "ch. 52, 53."
+   ]
   }
  ]
 }

@@ -285,6 +285,18 @@ def test_ocr_and_the_evangelist_are_not_project_history(tmp_path):
     assert [h.category for h in hits] == ["REWRITE"]
 
 
+def test_caught_by_is_history_only_when_the_build_does_the_catching(tmp_path):
+    source = '{"sources": "Orosius says the soul is caught by evil powers and put into bodies."}\n'
+    assert _scan(tmp_path, "cic-website/data/x.json", source, "cic-website") == []
+    for line in (
+        "The draft's error was caught by re-running the gates.\n",
+        "It was not caught by two prior rounds.\n",
+        "The gap is not caught by `gate_referential`.\n",
+    ):
+        hits = _scan(tmp_path, "engine/x.md", line)
+        assert [h.category for h in hits] == ["REWRITE"], line
+
+
 def test_registry_data_fields_are_protected_and_a_cue_marks_only_its_own_line(tmp_path):
     text = (
         "- date_added: '2026-09-02'\n"

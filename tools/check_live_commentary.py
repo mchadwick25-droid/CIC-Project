@@ -708,8 +708,21 @@ SOURCE_REGISTRY_REF = re.compile(
 # as the "ruled" pattern above (all-caps is the heading convention; a bare
 # lowercase "correction" or "blocking" is ordinary engineering prose, not a
 # change-history marker) - the multi-word phrases are safe case-insensitive.
+# "caught by" is a cue only when what does the catching is part of the
+# build's own process: a gerund ("caught by re-running the gates"), a code
+# span, or a process word within the next few ("caught by the cross-check",
+# "caught by two prior rounds"). Ordinary English and the sources' own
+# subjects ("caught by evil powers", "caught by the horns", "caught by the
+# OCR") are not project history.
+_CAUGHT_BY_PROCESS = (
+    r"\bcaught by(?:\s+(?:`|(?:\w+ly\s+)?[\w-]+ing\b|hand\b|eye\b|accident\b|anything\b|any of\b)"
+    r"|(?=(?:\s+[\w'`-]+){0,3}?[\s(]+(?:rounds?\b|review|re-?(?:run|check|test|verif|read)|gates?\b|gate_"
+    r"|checker|checks?\b|checklist|cross-check|audit|pass\b|CI\b|tests?\b|validator|lint|build\b|build-"
+    r"|grep|session|independent|adversarial|document|pipeline|runtime|measurement|drafting|consistency"
+    r"|tier\b|verification|truncation|agent\b|clause\b|one,?\s+plus\b)))"
+)
 CHANGE_HISTORY_CUES = re.compile(
-    r"\bCORRECTION\b|\bBLOCKING\b|(?i:\bcaught by\b(?! the (?:OCR|scan)\b)|\badversarial review\b|\bre-?confirmations?\b)"
+    rf"\bCORRECTION\b|\bBLOCKING\b|(?i:{_CAUGHT_BY_PROCESS}|\badversarial review\b|\bre-?confirmations?\b)"
 )
 # Registered as a primary pattern too, so the triggering line itself is
 # tagged "change-history-cue" in the report; scan_file separately widens

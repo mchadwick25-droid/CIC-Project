@@ -451,7 +451,10 @@ function withReadings(file, raw) {
       if (JSON.stringify(held) !== JSON.stringify(r.lines_held)) { errs.push(`tools/quote_scan_readings.json: ${file} lines ${r.lines} hold more or other than the declared lines`); continue; }
       lines.fill("", a - 1, b); continue;
     }
-    lines.splice(a - 1, b - a + 1, ...seg.replace(r.scan, r.reads).split("\n"));
+    // A reading that joins lines is padded with blank lines, so the lines below it keep their numbers.
+    const read = seg.replace(r.scan, r.reads).split("\n");
+    while (read.length < b - a + 1) read.push("");
+    lines.splice(a - 1, b - a + 1, ...read);
   }
   return lines.join("\n");
 }

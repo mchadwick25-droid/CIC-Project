@@ -5374,6 +5374,51 @@ Mark: "try the audio manifests idle load".
 
 **Decided.** Not shipped; the code was not committed. The next gain has to come from the drawing work or from the page's start-up script, not from the manifests.
 
+## 2026-11-23 — Batch 10: the slate approved (Mark)
+
+**Why.** The batch 10 launch prompt asks for the slate first: each story's job, half, census home and that tradition's direct line as its card shows it, siblings, the live stories beside it, and each quote already used elsewhere on the tree with any reuse the kit's quote rule allows. They are on one page (https://claude.ai/artifact/Vko3AEdprCTWnU717L7LFk, version 1). `check_tree_overlap.py` on the twelve old texts: ten clear; Cassian's and Priscillian's old texts each share one quote, both on the reuse list.
+
+**Decided (Mark, 2026-11-23, in chat: "Approve as recommended").**
+1. Twelve stories, each on its existing census entry. Half A: the Council of Ephesus (431), Eutyches, Theodoret of Cyrrhus, Pelagius and John Cassian, with John Chrysostom reviewed. Half B: Rufinus of Aquileia, Frumentius, Mesrop Mashtots, Ulfila and Priscillian, with Ephrem the Syrian reviewed. The jobs, siblings and links are as on the page and in `Build/Ministry/Operations/Audits/2026-11-22_batch-10/README.md`.
+2. Eight are researched at once; Theodoret after the Ephesus and Eutyches outlines, Frumentius after Rufinus's.
+3. Eutyches keeps his census home, `cyrilline-miaphysite-egyptian-christianity`, for now. The researcher tests against a primary text the two editors' claim (Payne Smith's preface to John of Ephesus, 1860; *The Christian East*, 1922) that the churches that rejected Chalcedon later cursed him by name. If it holds, his home comes back to Mark on the hearts page.
+4. The quotes lifted and barred as the page reads them under the reuse ruling of 2026-11-21, listed in the batch README; the lifts are in `Allowed_Reuse.txt`. Rufinus's "Who but you would have laid hands on God's gift" stays barred.
+5. No census change to any tradition's direct line.
+
+## 2026-11-23 — Batch 10 hearts approved, with the lengths and a cut-first line in the kit (Mark)
+
+**Why.** All ten batch 10 outlines are done. The hearts and lengths page (https://claude.ai/artifact/RRoFG9cDR3qpS5qW12kFvz, version 1) gives each heart, its planned length, and the independent count in `Build/Ministry/Operations/Audits/2026-11-22_batch-10/Length_Count.md`: all ten count over 4:30 (713 to 915 words; the council 828 against 585). `roles/checker.md` blocks an outline "that, less its cut-first list, still runs past its approved length", and `roles/writer.md` drops "only from its cut-first list", but nothing asked the researcher for that list, and none of the ten had one.
+
+**Decided (Mark, 2026-11-23, in chat: "Approve as recommend").**
+1. The ten hearts as shown on the page, with the researchers' wording where it differs from the slate's job line: Frumentius "from a family of Tyre", Rufinus at "Jerusalem", Ulfila made bishop by "Eusebius" (the full name credited to the modern historian).
+2. Lengths: 4:30 at most for each (675 words; the council 585). Each outline goes back to its researcher before the outline check to add a cut-first list that brings the count to that length, never cutting the record's force or the scene that carries the story; the checker recounts and blocks any that does not.
+3. The kit line, in `roles/researcher.md` item 2 and Kit Part 3, Length: "End the outline with a **Cut first** list, in order, each item marked for the card or Leave out, that brings the count to the approved length." It governs this batch's fix pass on and every later batch, and reopens no finished story.
+4. Eutyches moves to the river: told within no tradition, in the Greek East, as Jovinian sits in the Latin West. Timothy Aelurus of Alexandria cursed him by name about 475 (Zachariah Rhetor, `zachariah-rhetor_chronicle_hamiltonbrooks1899.txt` l.5638-5643). The census change is made at release.
+5. Priscillian: the story does not say he was the first Christian put to death on a church accusation, which rests only on editors' notes. It tells the verdict as the court's, for sorcery; the card carries the editors' claim and Bernays's view (as Hefele reports it), each credited.
+
+## 2026-11-23 — Batch 10: six drafts past 4:30, and Ulfila's creed (Mark)
+
+**Why.** All ten batch 10 drafts are written. Six run past the approved 675 words even after every Cut first item (Theodoret 817, John Cassian 788, Rufinus 740, Priscillian 734, Pelagius 733, Ulfila 722); each writer stopped, as `roles/writer.md` says. The outlines' estimates ran 15 to 30 percent below the real words. Ulfila's outline check found his deathbed creed's opening sentence already quoted on the `homoian-arian-christianity` tradition page, for the same moment; the slate lifted only two phrases. The page: https://claude.ai/artifact/7MQqQakPhBCKbugYP8zojp (version 1).
+
+**Decided (Mark, 2026-11-23, in chat: "Approve as recommend").**
+1. All ten go to review. For each of the six long drafts, the reviewer names the cuts that bring it to 675, from the writer's candidates (`<slug>/Writer_Reply.md`) first, never the heart, the record's force or the scene that carries the story. The reviser makes them in its one revision, and the fresh read checks the result. This batch only.
+2. Ulfila's creed sentence stays barred; the story tells it in the narrator's words, with the two lifted phrases quoted.
+
+## 2026-11-23 — Batch 10: the fresh read, and the fixes after it (Mark)
+
+**Why.** All twelve batch 10 stories had their one revision and a fresh read. Seven pass; Eutyches, Rufinus, Pelagius (craft 3), Priscillian and Theodoret still fail, each on one or two points the fresh read worded exactly. The batch averages 4.1 against 4.5 for both reference stories, whose scores moved from their fixed ones (`Reference_Read.md`). The page: https://claude.ai/artifact/6DyYNuqkn5Yh6ENxLZ5z56 (version 1).
+
+**Decided (Mark, 2026-11-23, in chat: "Approve as recommended").**
+1. Each of the five gets its fresh read's exact changes, word for word, and each Do not say line it gives is added to the outline. Pelagius's changes are its craft pass (craft 3), read once by an independent hand for anything added and for the two points.
+2. The minor findings that change what a listener understands or credits are applied word for word, within each story's length; those the reader marked optional are left. In John Chrysostom only "That year the emperor's chief eunuch" becomes "Not long before, the emperor's chief eunuch".
+3. Chrysostom's name stays unheard in his story; no change in this batch.
+4. The release says the batch averages below the references and that both reference stories moved. This batch only.
+
+## 2026-11-23 — Batch 10: the cards carry what the outlines sent them (Mark)
+
+**Why.** The card role says "Whatever the outline, review or fresh read sends to the card goes under `uncertain` or the field it belongs to." The batch 10 card writers carried some of the outlines' "to the card" items and not others (about 106 marked across the ten researched outlines), and the card checks did not enforce the line until Theodoret's checker raised it. The page: https://claude.ai/artifact/TCupvn82kvhdu7n97CFgCa (version 1).
+
+**Decided (Mark, 2026-11-23, in chat: "Approve as recommended").** One more pass per card (Sonnet) adds each outline item marked "to the card" that the card does not yet hold, each at its cited line, in the field it belongs to; the same pass applies the card checker's changes word for word. The card checker (Opus) checks only the additions and that each change went in. It runs before the second readings, which read the cards' quotations. This batch carries out the role's existing line; no kit change.
 ## 2026-11-22 — Phone loading: the start-up drawing work, safe fixes first
 
 Mark chose "Safe fixes first" from three scopes (safe fixes; safe fixes plus a deferred People layer; fewer SVG nodes).

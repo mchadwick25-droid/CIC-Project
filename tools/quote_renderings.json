@@ -4368,6 +4368,409 @@
     "record": "Build/Ministry/Operations/Audits/2026-11-21_batch-9/Second_Readings.md",
     "verdict": "minor"
    }
+  },
+  {
+   "id": "council-of-ephesus-431",
+   "quote": "Who was judge? Cyril. Who was the accuser? Cyril. Who was bishop of Rome? Cyril. Cyril was everything.",
+   "original": {
+    "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+    "lines": "8645-8647",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "council-of-ephesus-431",
+   "quote": "I warned you of this, then, not once but many times, and humbly begged you, and I gained nothing.",
+   "original": {
+    "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+    "lines": "7767-7768",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "council-of-ephesus-431",
+   "quote": "A union of two natures has taken place. So we confess one Christ, one Son, one Lord. In keeping with this idea of a union without mixing, we confess the holy Virgin as Mother of God.",
+   "original": {
+    "file": "cic/texts/hefele_history-of-the-councils-v3-431-451_clark1883.txt",
+    "lines": "7243-7245",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "eutyches",
+   "quote": "I confess that our Lord was from two natures before the union. But after the union I confess one nature.",
+   "original": {
+    "file": "cic/texts/evagrius-scholasticus_historia-ecclesiastica-grc_bidez-parmentier1898.txt",
+    "lines": "2285-2286",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "eutyches",
+   "quote": "He had no regard for my gray hairs. I have grown old with them in wars against heretics, and in confessing the true faith.",
+   "original": {
+    "file": "cic/texts/council-of-ephesus-449_second-synod-of-ephesus-syriac-acts_perry1881.txt",
+    "lines": "23494-23495",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "theodoret-of-cyrrhus",
+   "quote": "I will never agree to what was done against you, unjustly and wickedly, not even if someone cuts off both my hands, as God's grace works with me and strengthens my weak soul.",
+   "original": {
+    "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+    "lines": "38007-38010",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "theodoret-of-cyrrhus",
+   "quote": "The form of God was not changed into the form of a servant. It stayed what it was, and took the form of the servant.",
+   "original": {
+    "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+    "lines": "4724-4726",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "theodoret-of-cyrrhus",
+   "quote": "First he ordered it cut six cubits high, then twelve, after that twenty-two, and now thirty-six. For he longs to fly up to heaven, and to be set free from this life on earth.",
+   "original": {
+    "file": "cic/texts/theodoret_opera-omnia-t3-historia-religiosa-pg82-grc-lat_migne1864.txt",
+    "lines": "113735-113738",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "pelagius",
+   "quote": "But spiritual riches no one can give you except yourself. In these, then, you are rightly praised. In these you are rightly set above others. They cannot exist except from you and in you.",
+   "original": {
+    "file": "cic/texts/pelagius_epistula-ad-demetriadem-lat_migne.txt",
+    "lines": "814-817",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "pelagius",
+   "quote": "'These good things can only be in you': that was very well and very truly said. That is clearly food. But when he says 'only from you', that is wholly poison.",
+   "original": {
+    "file": "cic/texts/augustine_epistulae-critical_goldbacher-csel57-pars4.txt",
+    "lines": "4513-4515",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "pelagius",
+   "quote": "Is there any passage in which God's grace or help has been left out?",
+   "original": {
+    "file": "cic/texts/collectio-avellana_epistulae-imperatorum-pontificum-v1-lat_guenther1895.txt",
+    "lines": "11229-11230",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "john-cassian",
+   "quote": "So these two, the grace of God and free will, seem opposed to each other. But really they are in harmony.",
+   "original": {
+    "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+    "lines": "38028-38030",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "john-cassian",
+   "quote": "The church of God finds them wholesome, but he brands them as harmful.",
+   "original": {
+    "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+    "lines": "43669-43671",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "john-cassian",
+   "quote": "May we set the men themselves before you, embodied, as it were, in their own rules. And, what matters more, may they be speaking in Latin.",
+   "original": {
+    "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+    "lines": "25949-25952",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "rufinus-of-aquileia",
+   "quote": "A friendship that can end was never real.",
+   "original": {
+    "file": "cic/texts/npnf206_jerome-principal-works.xml",
+    "lines": "3941-3942",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "rufinus-of-aquileia",
+   "quote": "Where I found anything in his books against the truth about the Trinity, which he teaches soundly elsewhere, I left it out as not his own. Or I set it down to agree with the rule of faith, which we find him holding to again and again.",
+   "original": {
+    "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+    "lines": "45775-45780",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "rufinus-of-aquileia",
+   "quote": "In the books On First Principles, I simply set down what stood in the Greek. I did not want the reader to believe what I translated. I wanted him not to believe what you had translated before.",
+   "original": {
+    "file": "cic/texts/jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt",
+    "lines": "31112-31115",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "frumentius",
+   "quote": "We learned that these things happened so, not from common talk, but from Edesius himself, who told it. He had been Frumentius's companion, and was later made a priest at Tyre.",
+   "original": {
+    "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt",
+    "lines": "27383-27385",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "frumentius",
+   "quote": "What other man like this could we find, with the Spirit of God in him as in you, who could carry it through in this way?",
+   "original": {
+    "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt",
+    "lines": "27376-27377",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "frumentius",
+   "quote": "So send Frumentius the bishop to Egypt with all speed.",
+   "original": {
+    "file": "cic/texts/athanasius_opera-omnia-pg25-grc-lat_migne1857.txt",
+    "lines": "92806-92807",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "frumentius",
+   "quote": "This Frumentius was set in this rank by Athanasius, a man guilty of countless crimes.",
+   "original": {
+    "file": "cic/texts/athanasius_opera-omnia-pg25-grc-lat_migne1857.txt",
+    "lines": "92812-92814",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "mesrop-mashtots",
+   "quote": "At once he saw them. It was not in a dream while he slept, nor in a vision while he was awake, but in his heart. There they appeared to the eyes of his mind, traced by the wrist of a right hand writing on stone.",
+   "original": {
+    "file": "cic/texts/langlois_collection-historiens-armenie-tomes1-2-fra_1867-1869.txt",
+    "lines": "55853-55883",
+    "language": "French"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "mesrop-mashtots",
+   "quote": "They rejoiced over them as if they were the divine Tablets,",
+   "original": {
+    "file": "cic/texts/langlois_collection-historiens-armenie-tomes1-2-fra_1867-1869.txt",
+    "lines": "55910-55912",
+    "language": "French"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "mesrop-mashtots",
+   "quote": "Mesrop gathered children who were bright and well taught, with sweet voices and long breath,",
+   "original": {
+    "file": "cic/texts/langlois_collection-historiens-armenie-tomes1-2-fra_1867-1869.txt",
+    "lines": "55914-55916",
+    "language": "French"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "ulfila",
+   "quote": "Through Moses, God freed his people from the power and violence of Pharaoh and the Egyptians. He made them cross the sea, and made sure they would serve him. So too, through this man, God freed those who confessed his holy only Son from the barbarians' land. He made them cross the Danube, and serve him in the mountains, after the saints' example.",
+   "original": {
+    "file": "cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt",
+    "lines": "15273-15277",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "ulfila",
+   "quote": "subject and obedient in all things",
+   "original": {
+    "file": "cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt",
+    "lines": "15324",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "priscillian",
+   "quote": "No one should be forbidden, if he despises parents, children, wealth and rank, even his own life, and would rather love God than the world.",
+   "original": {
+    "file": "cic/texts/priscillian_quae-supersunt-lat_schepss1889-csel18.txt",
+    "lines": "4415-4417",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "priscillian",
+   "quote": "My own view is that the accused displease me as much as the accusers.",
+   "original": {
+    "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+    "lines": "11642-11643",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/Second_Readings.md",
+    "verdict": "minor"
+   }
+  },
+  {
+   "id": "priscillian",
+   "quote": "Even the rulers of the world loathed this unholy folly. So they cut down its founder, with most of his followers, by the sword of the public laws.",
+   "original": {
+    "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
+    "lines": "3276-3278",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "ulfila",
+   "quote": "alone unbegotten",
+   "original": {
+    "file": "cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt",
+    "lines": "15310",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-17_batch-3/Second_Readings_3.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "john-cassian",
+   "quote": "the Conferencer",
+   "original": {
+    "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+    "lines": "15774-15775",
+    "language": "Latin"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/Second_Readings.md",
+    "verdict": "same"
+   }
   }
  ]
 }
