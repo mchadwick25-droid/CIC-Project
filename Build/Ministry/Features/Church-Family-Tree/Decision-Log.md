@@ -5403,3 +5403,13 @@ Mark: "try the audio manifests idle load".
 **Decided (Mark, 2026-11-23, in chat: "Approve as recommend").**
 1. All ten go to review. For each of the six long drafts, the reviewer names the cuts that bring it to 675, from the writer's candidates (`<slug>/Writer_Reply.md`) first, never the heart, the record's force or the scene that carries the story. The reviser makes them in its one revision, and the fresh read checks the result. This batch only.
 2. Ulfila's creed sentence stays barred; the story tells it in the narrator's words, with the two lifted phrases quoted.
+
+## 2026-11-23 — Batch 10: the fresh read, and the fixes after it (Mark)
+
+**Why.** All twelve batch 10 stories had their one revision and a fresh read. Seven pass; Eutyches, Rufinus, Pelagius (craft 3), Priscillian and Theodoret still fail, each on one or two points the fresh read worded exactly. The batch averages 4.1 against 4.5 for both reference stories, whose scores moved from their fixed ones (`Reference_Read.md`). The page: https://claude.ai/artifact/6DyYNuqkn5Yh6ENxLZ5z56 (version 1).
+
+**Decided (Mark, 2026-11-23, in chat: "Approve as recommended").**
+1. Each of the five gets its fresh read's exact changes, word for word, and each Do not say line it gives is added to the outline. Pelagius's changes are its craft pass (craft 3), read once by an independent hand for anything added and for the two points.
+2. The minor findings that change what a listener understands or credits are applied word for word, within each story's length; those the reader marked optional are left. In John Chrysostom only "That year the emperor's chief eunuch" becomes "Not long before, the emperor's chief eunuch".
+3. Chrysostom's name stays unheard in his story; no change in this batch.
+4. The release says the batch averages below the references and that both reference stories moved. This batch only.
