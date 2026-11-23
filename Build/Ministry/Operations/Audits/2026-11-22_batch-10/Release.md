@@ -68,7 +68,7 @@ Batch 10 average, from the twelve `<slug>/Fresh_Read.md` scores before the fixes
 
 ## Not done
 
-- **The `aksumite-christianity-conversion-era` census `why`** still says "shipwrecked" and "tutor", which are not in Rufinus. That is Mark's call: Open-Gaps 360.
+- **The `aksumite-christianity-conversion-era` census `why`** still says "shipwrecked" and "tutor", which are not in Rufinus. That is Mark's call: Open-Gaps 376.
 - **Theodoret's card** already says the Religious History is held in Greek (fixed in the first card pass); nothing open.
 - **Two flags for card owners** from `Second_Readings.md`, not changed: Rufinus [2]'s `uncertain` could note the scan's "qui" read as "quae". Theodoret [0]'s could cite Mansi V 88759-88763.
 - **Recording.** Chrysostom and Ephrem changed and must be re-recorded, but `Story-Ledger.md` still marks both "Recorded: yes". The other ten are not recorded. I recorded no audio and made no commit.
