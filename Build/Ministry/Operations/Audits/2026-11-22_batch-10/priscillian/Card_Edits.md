@@ -48,3 +48,19 @@ Tractate II; Schepss's preface; Sulpicius II.46-51; Hefele on Bernays; Toledo; L
 - Quotation 1: if the page image or another print is later held, the Latin can go in as `original`.
 - The brief's "a woman who had sheltered them" is a little stronger than Roberts's "lingering ... in the territory of Euchrotia" (SulpE 11554-11555). The card states the source's words.
 - Not carried: Sulpicius's talk about Procula (outline: card if anywhere; it is gossip he marks as such).
+
+## Second pass (2026-11-23)
+
+**Checker changes.** `Card_Check.md` is PASS and lists no change; nothing to apply.
+
+**Added (1).**
+- Field `uncertain`, appended last. Text: "Orosius, in his Commonitorium, says Priscillian held that the soul is caught by evil powers and put into bodies, and that for this reason astrology (mathesis) prevailed, and that Christ loosed this bond and nailed it to the cross by his passion. Orosius then quotes a letter of Priscillian's." Outline item: Leave out, "Orosius's report of his teaching on souls and the stars ... card". The souls half was held; the stars half was not. Evidence: Pr 10247-10260 (Latin: "Unde et mathesim praevalere firmabat, adserens quia hoc chirographum soluerit Christus et adfixerit cruci per passionem suam, sicut ipse Priscillianus in quadam epistula sua dicit"), re-read.
+
+**Already held, skipped.**
+- Jerome's entry and Augustine against his followers (Links, card only): `legacy.remembered`, `sources.about`, `uncertain` (Jerome ch. 121; Against Lying).
+- Law of 407; Prosper's report of Ithacius and Ursacius cut off; the oath of the two bishops (Cut first 1-3): `legacy.traces`, `uncertain`.
+- First-execution claim with Bernays; Marcus of Memphis genealogy; curse with the sword; Augustine's Against Lying; Ambrose in Mansi's note: `uncertain`.
+- Jerome's change of tone between 392 and 414: both texts are held (`legacy.remembered`, `uncertain`); no held source states a change of tone or dates the letter, so a contrast would be our inference. Not added.
+- Procula rumor ("card if anywhere", gossip Sulpicius marks as such): not added, as in the first pass.
+
+**Validator** (`--skip-quotes`, scratch census, real census untouched). The census entry still holds the old brief text, so its quotation checks fail against it until release: three `secondReading` gaps (set at release), three `quotationOriginals` "not a quotation in the brief", and unmatched spans in the old text. No error comes from the new `uncertain` item.

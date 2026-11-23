@@ -39,3 +39,42 @@ None.
 ## Not carried to the card
 
 Outline items I could not re-read in a held print within this pass, so they are not written: Faustus of Riez on grace, Constantius of Lyon's "Pelagius the author" (the held OCR of the Vita Germani did not match on search), Vincent of Lérins (his held line names Caelestius, not Pelagius), the Lives of David (late legend). Connections to other entries are left out as told.
+
+## Second pass (2026-11-23)
+
+### Checker changes
+
+1. FIX 1, `quotationOriginals[0]` (riches passage): applied word for word (Latin print at PL30 814-817, the English kept as `englishPrinted`, `englishFile`, `englishLines`, new `uncertain`).
+2. FIX 2, `quotationOriginals[1].printed`: opening quotation mark restored. Applied word for word.
+
+### Scan readings to add
+
+For `tools/quote_scan_readings.json` (not edited here):
+
+```json
+{"file": "cic/texts/pelagius_epistula-ad-demetriadem-lat_migne.txt", "lines": "815", "scan": "poterii", "reads": "poterit", "kind": "OCR misread"},
+{"file": "cic/texts/pelagius_epistula-ad-demetriadem-lat_migne.txt", "lines": "815", "scan": "in bis", "reads": "in his", "kind": "OCR misread"},
+{"file": "cic/texts/pelagius_epistula-ad-demetriadem-lat_migne.txt", "lines": "816", "scan": "caeleris", "reads": "caeteris", "kind": "OCR misread"}
+```
+
+### Items added from the outline
+
+| Field | Exact text | Evidence |
+|---|---|---|
+| `legacy.traces` | Bede, writing in 731, calls him "a Briton" who spread "far and near" the infection of his doctrine against the assistance of God's grace. | `bede_ecclesiastical-history-english-people_giles1903.txt` 919-920; outline Links, card only (bede-of-jarrow) |
+| `legacy.traces` | Vincent of Lérins, in 434, asks who before "that profane Pelagius" gave free will so much strength "as to deny the necessity of God's grace to aid it towards good in every single act". | `npnf211_sulpitius-severus-vincent-lerins-cassian.xml` 13960-13963 and 14011-14018 (Commonitorium ch. 24); outline Who tells it, later witnesses |
+| `legacy.traces` | Faustus of Riez, about 474, begins the list of chapters of his book On Grace with the view of Pelagius, who denied grace, which he says must first be destroyed. | `faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt` 3644-3646 (OCR chapter heading); outline Links, card only (faustus-of-riez) |
+| `legacy.traces` | Constantius of Lyon, about 480, in his Life of Germanus, sets two sides of a public dispute against each other: on one side divine authority, on the other human presumption; on one side Pelagius as author, on the other Christ. Bede copies the passage. | `constantius-lyon_vita-germani_levison1920.txt` 2830-2834; Bede `...giles1903.txt` 1469-1473; outline Links, card only (constantius-of-lyon) |
+| `sources.about` | Faustus, On Grace; Constantius, Life of Germanus; Vincent, Commonitorium (three entries) | the files above, so each cited file is in `sources` |
+
+### Skipped
+
+- Items 1, 2, 4, 5, 6, 8, 9, 10, 11 and 14 of the Cut first list, the Rome-to-the-Irish letter, Julian and the eighteen bishops, the dating disputes, the Jerome Dialogue note, Prosper, Mercator and Gennadius: already on the card from the first pass.
+- Review 4 (Britain 429) and Review 5 (letters read at Diospolis): the brief still tells the first, and the card already holds the second.
+- `paulinus-of-milan` (accused Caelestius): the outline cites only NPNF105 10287, which says Caelestius came before a tribunal and does not name Paulinus.
+- The Lives of David: the outline gives no line, calls it late legend, and the Source Sheet says Leave out.
+- Outline Cut first 3, 7, 12, 13: marked Leave out, not for the card.
+
+### Validator
+
+`node tools/validate-census.mjs --skip-quotes` on a scratch census with this card: the only errors for `pelagius` are `secondReading` absent on the three quotations (release sets it). The `printed` error on the riches passage clears once the three scan readings above are in the readings file.
