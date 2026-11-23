@@ -119,3 +119,37 @@ Words saved by the count's method (a fact 11, a witness credit 6, a gloss 8).
 7. Beat 5: his trial record being read again at Chalcedon (Evag-E 4318-4347). To Leave out. Saves 11.
 
 Count before 735; the list saves 83; count after 652, under the approved 675.
+
+## What it was about
+
+1. **His sentence, one nature after the union.** Already explained: the hook glosses nature ("what Christ is, as God and as man") and the union. Eutyches, through his judges' minutes, Perry 23843-23845; Evag-G 2284-2289. *Documented as recorded.*
+2. **The teaching of Nestorius, "which divided Christ".** Already explained: Nestorius would not call Mary God-bearer, and so, his opponents held, split Christ in two. The chronicle from the side that refused Chalcedon, Zach 1140-1163. *Documented as his opponents' account.*
+3. **The fathers who "had rejected that phrase".** Explain: the phrase was "two natures"; he said the fathers before him had refused to speak of them. Eutyches, to Leo, Leo 4559-4561. *Documented as his claim.*
+4. **The charge on Christ's body.** Explain: he called it a human body from the Virgin, but his judges recorded him denying that Christ's flesh shared our nature. His judges: the notary's deposition, Perry 23808-23812 ("He had not Flesh Con-substantial with us"); Flavian to Leo, Leo 4746-4751. He said the minutes were false (Perry 23306-23311). *Documented as his judges' record; Contested by him.*
+5. **The sentence of 448, "reviving ... old heresies".** Leave out: Flavian named Valentinus and Apollinarius (Perry 23983-23985), and two more teachings to explain do not fit; item 4 now carries what his judges found wrong, and he himself cursed both names (Leo 4600-4603).
+6. **The quarrel over his appeal.** Already explained: he said he appealed at the trial; Flavian said he never did. Eutyches, Leo 4532-4535; Flavian, Leo 5024-5030. *Contested.*
+7. **Leo's Tome, and the letter Chalcedon received.** Explain: Leo taught one Christ in two natures, each keeping its own character, against Eutyches's one nature. Leo, Tome, Leo 5301-5302 ("both natures retain their own proper character without loss"), 5434-5435 ("God and man is one person"); Chalcedon, Councils 20265-20268. *Documented.*
+8. **The sentence the bishop denied at Ephesus.** Explain: the recorded sentence said that to refuse two natures after the union was to mix and confuse God and man. The minutes of 449, Basil of Seleucia's words as Flavian's record gave them, Perry 23858-23877. *Documented that it was read and denied; Contested whether he said it.*
+9. **Flavian's deposition in 449.** Explain: the council cursed all who affirmed two natures, and its judges ruled that Flavian had changed the faith. The minutes of 449, from the side that restored Eutyches: the shout, Perry 23931-23933; Dioscorus, "unsettled and altered everything", Perry 24114-24118; Juvenal, "dared to add to, or substract from, The Catholic Faith", Perry 24146-24148. *Documented as that council's ruling.*
+10. **Theodoret of Cyrrhus deposed "with others".** Leave out: the held line gives only the act, not the charge (Evag-E 1786-1787); the `theodoret-of-cyrrhus` story carries his case.
+11. **Egypt's bishops at Chalcedon.** Already explained: they cursed those who said Christ's flesh came from heaven but would not name Eutyches, and asked to wait for their archbishop. Evagrius, Chalcedon's side, from the acts, Evag-E 5063-5093. *Documented.*
+12. **"Eutychians" as a label.** Already explained: Chalcedon's side gave his name to those who opposed Leo, then to the churches that refused the council. Councils 20172-20174; Evag-E 6794-6797. *Documented.*
+13. **What the refusing churches rejected in him.** Already explained, and now set up by item 4: in their chronicle he would not confess Christ's body shared our nature. Zach 1167-1169, 4095-4097. *Documented as the chronicle's charge.*
+14. **Timothy's curse at Alexandria.** Already explained: the people feared the prefect was a Eutychian, and Timothy's curse cleared him of that suspicion. Zach 5638-5643. *Documented (one sympathetic witness).*
+
+## Room for it
+
+- **Count now:** 671 words (`wc -w eutyches.brief.txt`), against 675 at most.
+- **Explanations add 48:**
+  - item 3: "that phrase" becomes "the words "two natures"" (+2);
+  - item 4: after "a human body taken from the Virgin.", add "But his judges recorded that he denied it shared our nature." (+11);
+  - item 7: after "very unwary and exceedingly ignorant.", add "It taught one Christ in two natures, each keeping its own character." (+12);
+  - item 8: "denied a sentence the record gave as his own, then said" becomes "denied a sentence the record gave as his own: that denying two natures after the union mixed God and man. He then said" (+12);
+  - item 9: "should be burned alive." becomes "should be burned alive, and cursed all who said two natures." (+7); "Flavian deposed" becomes "Flavian deposed for changing the faith" (+4).
+- **Cuts, 48 words, events before meanings:**
+  1. Item 5, left out: "for reviving, in his judges' words, old heresies" (8); the sentence ends "and his place in the church."
+  2. Item 10, left out: ", with Theodoret of Cyrrhus and others" (6).
+  3. The context sentence, an event the brief's second paragraph already carries ("He had fought the teaching of Nestorius"): "By then Nestorius, once the city's bishop, had been deposed, and his teaching was said to be reviving." (18).
+  4. Eusebius's past, a detail: "who as a lawyer had once exposed Nestorius," (8); the sentence reads "A bishop, Eusebius of Dorylaeum, charged Eutyches before Flavian".
+  5. The setting at Chalcedon: "After that emperor died, a new one called a council at Chalcedon, across the water from Constantinople." becomes "A new emperor then called a council at Chalcedon." (17 to 9, saves 8).
+- **Count after:** 671 + 48 - 48 = 671 words, under 675. Kept whole: the hook and Q1, the appeal quarrel and Q3, Q2 and the crowd he says was set on him, the doubt scene at Ephesus, the shouts, Egypt's bishops, the "Eutychians" label with each witness credited, Timothy's curse, and the ending.
