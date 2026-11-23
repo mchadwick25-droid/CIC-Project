@@ -109,3 +109,27 @@ All seven spans are unchanged in the brief; `quotationOriginals` unchanged (no c
 
 ### Validator
 `--skip-quotes` on a scratch census with this card and the brief in the entry: 0 errors, none for this entry.
+
+## Fourth pass: no modern opinion (2026-11-23)
+
+Starting card: `Card.pass3.json`, unchanged. Brief compared: `theodoret-of-cyrrhus.brief.v4.txt` against `theodoret-of-cyrrhus.brief.txt`. Lines re-read in the files under `cic/texts/`.
+
+### `uncertain`, three new entries at the end (modern views the pass took out of the story)
+1. Jackson's description of Cyrrhus ("a wretched little place", Cyrestica), marked as the translator's modern judgment, with Theodoret's own words beside it. Old: nothing. New: the entry. Evidence: NP3 2574-2596 (Jackson); NP3 29918-29919 (his own words).
+2. Jackson's "close friendship" and "ancient friend" of Nestorius, marked as the translator's word. Old: nothing beyond the existing first entry's credit to Jackson for the friendship. New: the entry. Evidence: NP3 2714-2716, 3303-3304. The brief now says "the deposed Nestorius" and "the man whose removal he had refused to accept" (NP3 37989-37990, 38007-38010).
+3. The year of the peace (433, the editors' reckoning) and Walford's 594 AD heading for the close of Evagrius, with Evagrius's own "twelfth year of the reign of Maurice Tiberius". Old: nothing. New: the entry. Evidence: EVW 213, 12203-12204; the outline's Modern pass, items 4 and 7.
+Already in `uncertain`, so unchanged: Jackson on the envoys and Ephesus 431 (NP3 2826-2838), his summary of the later acceptance of the curses, the dates of the Church History (NP3 17855-17864), the Religious History undated.
+
+### `briefReferences`
+- Old: "Jackson's Prolegomena: Ephesus in 431, where Cyril's party opened the council without John of Antioch and his party and passed the condemnation of Nestorius, and Theodoret stood on John's side; the peace of 433 and his refusal to accept the deposition of Nestorius; the Chalcedon scene from the acts." New: the decree of Cyril's council, that council's letter, the Eastern bishops' report, the list naming Theodoret among John's men, Socrates for the year, and the refusal in his letter to Nestorius. Evidence: brief paragraphs 4 and 5 now say "Cyril's side condemned Nestorius before John's bishops arrived" and "In time"; NP14 17263-17280, 18650-18653, 17710-17720; NP3 36858-36868; NP2 20944-20945. The Chalcedon scene stays in the existing Chalcedon reference.
+- New, after the Nomus entry: Letter 32, to Theoctistus, for "a small town" (NP3 29918-29919).
+- Evagrius preface entry, appended: his closing words, the twelfth year of Maurice Tiberius, for "Long after" (EVW 12203-12204).
+
+### `quotationOriginals`
+Seven quoted spans in the brief, seven entries; every span's words are unchanged (the brief's changes are outside the quotation marks), so all entries stay word for word. No span dropped or added.
+
+### Everything else
+Word for word. Not found: none. The card's `legacy` line "writing about 593" is left in place (the field is not edited); the reckoning is credited in the new `uncertain` entry.
+
+### Validator
+`node tools/validate-census.mjs --skip-quotes` on a scratch copy of the census with this card and brief in the entry: 0 errors, none for this entry.

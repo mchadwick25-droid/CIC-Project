@@ -128,3 +128,26 @@ Unchanged: the brief still quotes the same three spans with the same renderings;
 - Place of death (New City): already in `placeNote` and `uncertain[2]`.
 - Samos/Samosata, "Mesrobian letters", the Synaxary feast: already on the card.
 - Fresh read applied file: no card corrections listed.
+
+## Fourth pass: no modern opinion (2026-11-23)
+
+T2 = `cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt`. Starting card kept unchanged as `Card.pass3.json`. Validator (scratch census, `--skip-quotes`): 0 errors for this entry.
+
+### Sent to the card (`uncertain`)
+
+- New last entry: the dates for Sahak (patriarchal see 390 to 440) and Vramshapuh (392 to 414) come from Langlois's notes, a modern editor's, not from Koriun, who gives only that Theodosius the Younger was emperor. Evidence: T2 3594-3598 ("l'an 390 jusqu'à l'an 440"), 3606-3612 ("l'an 392 jusqu'à sa mort, en 414"), 3641-3643 (Koriun: "Théodose le jeune était sur le trône"). The brief now says "in the days of the emperor Theodosius the Younger".
+- New last entry: the Albanians placed in the eastern Caucasus is a modern placing (the project's entry for Caucasian Albania); Moses of Khoren puts the Aghouank plain and mountains from the Araxes toward the Cyrus, in the north-east, and names the mountain people of the Caucasus beside the Aghouank and Iberians; neither passage says eastern Caucasus. Evidence: T2 13003-13018, 14132-14135. The brief now says "a Christian people of the Caucasus".
+
+### `briefReferences`
+
+- Koriun translation entry: added "in the days of the emperor Theodosius the Younger" (new wording in the brief; T2 3641-3643).
+- New entry after the Georgians entry: "Moses of Khoren: the Aghouank placed with the mountain people of the Caucasus." (new old source behind the Albanians gloss; T2 14132-14135; file already in `sources`).
+- No entry named wording the brief dropped ("early 400s", "eastern" were never in them).
+
+### Quotations
+
+Unchanged: the brief quotes the same three spans, words identical; three `quotationOriginals` entries kept word for word.
+
+### Not found / skipped
+
+- Every other field word for word. Fresh read MINOR 2 (name Theodosius at the letter to the emperor) not applied to the brief; nothing for the card.
