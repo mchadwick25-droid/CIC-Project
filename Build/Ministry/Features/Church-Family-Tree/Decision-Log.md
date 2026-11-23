@@ -5594,6 +5594,7 @@ Mark, after the scan results: "yes, fix those three".
 5. **Transcript: T2.** "Read the brief" lets a visitor tap a paragraph to play from there, and marks the paragraph being spoken, with no auto-scroll. Live highlighting was not chosen: the research found highlighting adds little beyond the audio itself.
 6. **Counting: M1**, on the site's own Worker.
 7. **Writing: the 2:00 floor stays** ("a floor of 2 minutes is fine, don't raise it to 3"). The length ceiling, the five openings, the closing upstream-and-downstream beat and spoken text kept apart from display text are a separate round, not started.
+8. **No re-recording in this project** ("i do not want to re-record things as part of this project, we can replace over time. so use the stories and briefs we have already done"). The redesign uses the recordings already made. Any later change to how briefs are written or voiced applies to new and replaced recordings as they come, not as a re-recording run.
 
 **Change order.** This reverses "A recorded brief starts by itself" in "A click on the empty map closes the card; the brief keeps playing" (2026-11-18). It extends that entry's "Close, keep listening": the brief now keeps playing through every way of leaving a card (the close button, Escape, opening another card), not only a click on the map. "The brief never starts by itself during a tour" (2026-11-18, "Two first-visit tours") stands.
 

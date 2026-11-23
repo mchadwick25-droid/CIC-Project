@@ -81,6 +81,31 @@
    281.41
   ]
  },
+ "babai-the-great": {
+  "text_sha256": "f46ddfdd47c03d3c8e86b6c10aca7978e712ad2633e40442d8a468782e945b51",
+  "starts": [
+   0.0,
+   21.25,
+   55.63,
+   86.87,
+   142.11
+  ]
+ },
+ "barsauma-of-nisibis": {
+  "text_sha256": "f9dc20da67d67881134520e9c439b9a930aae4538c05f6f0056609418c46baa1",
+  "starts": [
+   0.0,
+   18.99,
+   59.17,
+   100.05,
+   121.11,
+   147.49,
+   170.21,
+   175.41,
+   187.23,
+   211.35
+  ]
+ },
  "baudonivia": {
   "text_sha256": "a7a1bc88eadb993d51b754b2148a423c514774406eeb179367a188c658c86a7d",
   "starts": [
@@ -291,6 +316,19 @@
    148.71,
    173.27,
    200.23
+  ]
+ },
+ "cyril-of-alexandria": {
+  "text_sha256": "6e05b12cf638cc6382cf18226184944c7e8d162643db49c37febc1f72a4d71d2",
+  "starts": [
+   0.0,
+   23.25,
+   57.79,
+   76.11,
+   125.67,
+   154.25,
+   178.07,
+   220.75
   ]
  },
  "cyrilline-miaphysite-egyptian-christianity": {
@@ -944,6 +982,21 @@
    121.97
   ]
  },
+ "tacitus": {
+  "text_sha256": "7606529fbd52d3cb7670673750b3da542962d035f7e19e8557d2983f0e14096f",
+  "starts": [
+   0.0,
+   20.59,
+   42.67,
+   60.25,
+   87.39,
+   112.71,
+   120.95,
+   147.49,
+   159.39,
+   190.69
+  ]
+ },
  "tertullian-s-voice": {
   "text_sha256": "79a3532984c42a3a7421650de4efdc5b6c6906f569192edfab911664558a45c7",
   "starts": [
@@ -1035,6 +1088,19 @@
    72.61,
    101.29,
    119.73
+  ]
+ },
+ "timothy-i-of-baghdad": {
+  "text_sha256": "5251c9405f69b79e6c2b010429830efbbcc95b71562fe9bafb8034c9d59cfdef",
+  "starts": [
+   0.0,
+   22.33,
+   53.85,
+   80.23,
+   104.09,
+   121.57,
+   156.31,
+   191.85
   ]
  },
  "vardan-mamikonian": {
