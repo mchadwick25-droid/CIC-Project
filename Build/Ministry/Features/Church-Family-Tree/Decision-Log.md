@@ -5581,3 +5581,14 @@ Mark: "on the screen lets make the river and tradition who icons consistant, the
 4. Roles: the researcher's sheet covers what each event was about from each side; the checker blocks a beat or a cut-first list without it; the reviewer and fresh read write four lines and list each such thing named, blocking any a listener could not explain.
 
 It governs batch 11 on. What becomes of the live briefs, batch 10's twelve among them, and their audio, is decided separately; batch 10's recording is held until then.
+
+## 2026-11-23 — The live stories reopened for what each thing was about: scan everything, then a targeted pass (Mark)
+
+**Why.** After "Explain it or leave it out" (2026-11-23), the kit still said a change "never reopens a finished story", while two blind reads found the gap in most live briefs sampled. Mark then showed the Post-Apostolic Household-Church page: its connection notes say Montanism was "found to be heresy", Marcion was thrown out and Valentinus thrown out "for spreading his ideas", none with what was taught. So the gap reaches three kinds of text: the person, council and tradition stories (625 with a `longDescription`), the connection notes (736 edges), and the 12 built-world pages, which come from the world-build records rather than the brief kit. The page: https://claude.ai/artifact/TrET3GcNQ2989duGSvEEzQ (version 2).
+
+**Decided (Mark, 2026-11-23, in chat: "a, scan all three").** A change order to "A change to this kit governs the next batch on; it never reopens a finished story", for this one rule:
+1. Blind readers apply the four-line test to every live story, every connection note and every built-world page, reading only, and list each charge, teaching, book, quarrel or decision named without what it was about. The result is one list, ranked.
+2. Then a targeted pass, story by story: the missing explanation found in held sources, put in by the writer at the same length (an event cut before a meaning), and checked by a fresh reader on the changes, with the quote and source check. Batch 10's twelve first, then the worst, then the rest.
+3. A fix to a built-world page goes through that world's own records and build rules; the scan only reads it.
+
+The audio for fixed stories is decided separately.
