@@ -1,0 +1,177 @@
+{
+  "otherNames": [
+    "Abba Salama of Axum (Hartranft's note to Sozomen; \"the Father of Peace\" in the Dictionary of Christian Biography, quoted by Jackson)"
+  ],
+  "knownFor": "A Roman captive, taken as a boy when his ship's company was killed, who gathered Christians in the kingdom of Axum and was made its first bishop by Athanasius of Alexandria.",
+  "datesNote": "Fourth century; the date of his consecration is disputed (see What is uncertain)",
+  "placeNote": "Axum (Auxumis), in the kingdom of Aksum, in what is now Ethiopia",
+  "role": "Captive, royal official, missionary and first bishop of Axum",
+  "legacy": {
+    "traces": [
+      "The church of Axum, which Rufinus of Aquileia says he began among the Roman merchants and the king's household, and over which Athanasius of Alexandria made him bishop.",
+      "Hiob Ludolf, writing in 1681 from an Ethiopian informant, reports that the Ethiopians counted ninety-five metropolitans, in order, from Frumentius to Simeon."
+    ],
+    "remembered": [
+      "Chester Hartranft, who translated Sozomen, notes that he was called the Abba Salama of Axum.",
+      "Blomfield Jackson, in a note to Theodoret, says the emperor Constantius later asked the prince of Axum to replace Frumentius with an Arian, Theophilus, without success. The chapter of Athanasius he cites does not name Theophilus.",
+      "The Ethiopian book of saints, put into Ge'ez in the fifteenth century by its editors' dating, keeps his day on 26 Hamle as Abba Salama, the Revealer of the Light, and says he was so called because he preached the peace of Christ.",
+      "Sozomen says he was revered as no less than an apostle. The Greek calendar of Nikodemos the Hagiorite keeps him on 30 November and calls him equal to the apostles, and the Roman Martyrology, in the Roman Breviary, names him first bishop of Ethiopia on 27 October.",
+      "John of Nikiu, a Coptic bishop writing in the late seventh century, names Afrudit, that is Frumentius, as a man of noble birth of India whom Athanasius made bishop. Mingana, the editor of the Syriac chroniclers, says they took the story from the three Greek historians rather than from Rufinus."
+    ]
+  },
+  "uncertain": [
+    "Rufinus says he had the whole account from Edesius, Frumentius's companion, after Edesius became a presbyter at Tyre. So the story of his early life rests on that one chain. Socrates of Constantinople, Sozomen and Theodoret of Cyrrhus retell Rufinus, and Valesius, in A. C. Zenos's edition, says Socrates copied him almost word for word.",
+    "When he was consecrated is disputed. Rufinus places it soon after Athanasius became bishop, in 328. Valesius put it later, under Constantius. Archibald Robertson, who edited Athanasius in English, also puts it later, following Gwatkin: the dates in the story rule out the early year, and the emperor's letter fits a recent consecration.",
+    "The year of his death is not given in any held source.",
+    "\"India\" in these writers means Ethiopia, Zenos notes; the kingdom is Aksum, with its city of Axum.",
+    "No held source says how the rulers of Auxumis answered the emperor's letter, or what Frumentius did. The letter's date, about 356, is Robertson's dating of the Apology to Constantius (356 to 357). His table of dates gives the end of 346 as the earliest possible date for the consecration.",
+    "Theodoret differs from Rufinus on the killing: he has some of the crew drowned and the rest taken prisoner, where Rufinus has all but the two boys killed. Jackson, in a note, reads Rufinus's Roman way of prayer as the manner of the empire's citizens, not the customs of the church of Rome.",
+    "Philostorgius, in Photius's later summary, has an Arian envoy, Theophilus, come to the Auxumites. It names no Frumentius.",
+    "The Ethiopian book of saints, a late compilation, names the king Alameda, puts Frumentius's return under Abreha and Asbeha, has the two youths taught the work of war and says they brought up the king's children. None of this is in Rufinus.",
+    "A royal stone at Aksum, carved in Greek in the first half of the fourth century by Littmann's dating, names a king Aizanas and his brother Saiazanas. Littmann, following Nöldeke, matches the brother's name to Sazanas in the emperor's letter. That match is a modern reconstruction."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "Church History, Book 10, chapters 9 and 10 (Rufinus's own continuation, in Latin)",
+        "author": "Rufinus of Aquileia",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt"
+      },
+      {
+        "title": "Ecclesiastical History, Book 1, chapter 19 (translating Rufinus), with Valesius's and Zenos's notes",
+        "author": "Socrates of Constantinople",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Ecclesiastical History, Book 2, chapter 24, with Hartranft's notes",
+        "author": "Sozomen",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Apology to Constantius 29-31, with the emperor's letter to the princes of Auxumis, and Robertson's prolegomena",
+        "author": "Athanasius of Alexandria",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      },
+      {
+        "title": "Ecclesiastical History, Book 1, chapter 23, with Blomfield Jackson's notes",
+        "author": "Theodoret of Cyrrhus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Apology to Constantius 31, the emperor's letter to the princes of Auxumis (Greek, Migne's print)",
+        "author": "Athanasius of Alexandria",
+        "date": null,
+        "language": "Greek",
+        "file": "cic/texts/athanasius_opera-omnia-pg25-grc-lat_migne1857.txt"
+      },
+      {
+        "title": "A New History of Ethiopia (Historia Aethiopica, Frankfurt, 1681)",
+        "author": "Hiob Ludolf",
+        "date": null,
+        "language": "English translation of 1682",
+        "file": "cic/texts/ludolf_new-history-of-ethiopia_jp1682.txt"
+      },
+      {
+        "title": "The Ethiopian Synaxarium (Book of the Saints of the Ethiopian Church), 26 Hamle",
+        "author": null,
+        "date": null,
+        "language": "English translation by E. A. Wallis Budge, 1928",
+        "file": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt"
+      },
+      {
+        "title": "Epitome of the Ecclesiastical History, Book 3, chapter 6, in Photius's summary",
+        "author": "Philostorgius",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/philostorgius_ecclesiastical-history_walford1855.txt"
+      },
+      {
+        "title": "Chronicle",
+        "author": "John of Nikiu",
+        "date": null,
+        "language": "English translation from the Ethiopic",
+        "file": "cic/texts/john-nikiu_chronicle_charles1916.txt"
+      },
+      {
+        "title": "Synaxaristes, vol. 1 (Greek calendar of saints), 30 November",
+        "author": "Nikodemos the Hagiorite",
+        "date": null,
+        "language": "Greek",
+        "file": "cic/texts/nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt"
+      },
+      {
+        "title": "Roman Breviary, with the Roman Martyrology, 27 October",
+        "author": null,
+        "date": null,
+        "language": "English translation by John, Marquess of Bute, 1908",
+        "file": "cic/texts/roman-breviary_bute1908.txt"
+      },
+      {
+        "title": "The Aksum inscriptions, Deutsche Aksum-Expedition, vol. 4",
+        "author": "Enno Littmann",
+        "date": null,
+        "language": "German, with the inscriptions",
+        "file": "cic/texts/ezana_deutsche-aksum-expedition-bd4-inschriften-deu-gez-grc_littmann1913.txt"
+      },
+      {
+        "title": "The Early Spread of Christianity in India",
+        "author": "Alphonse Mingana",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt"
+      }
+    ]
+  },
+  "briefReferences": [
+    "Rufinus of Aquileia, Church History X (Latin): the voyage and the killing, the boys found under a tree, the king's court, the queen, the traders and their places of prayer, the return, Athanasius's answer, the signs, and Edesius as his source. The editors' date for Rufinus is about 401.",
+    "Socrates I.19, Sozomen II.24 and Theodoret I.23: the three Greek retellings, with Valesius's note that Socrates translated Rufinus almost word for word.",
+    "Athanasius, Apology to Constantius 31: the emperor's letter to the princes of Auxumis, the order to send Frumentius to Egypt, the bishop George, and the charge against Athanasius.",
+    "Archibald Robertson's prolegomena and chronology to Athanasius: Athanasius made bishop in 328, the letter about 356, and the consecration no earlier than the end of 346.",
+    "Hiob Ludolf, A New History of Ethiopia: the ninety-five metropolitans counted from Frumentius.",
+    "The Ethiopian Synaxarium, 26 Hamle: Abba Salama, the peace of Christ, and his death in peace.",
+    "World census, Aksumite Christianity (conversion era): the setting in what is now Ethiopia and Eritrea, and the church of Aksum taking its bishops from Alexandria."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "We learned that these things happened so, not from common talk, but from Edesius himself, who told it. He had been Frumentius's companion, and was later made a priest at Tyre.",
+      "printed": "quae nos ita gesta non opinione vulgi, sed ipso Edesio Tyri presbytero postmodum facto, qui Frumentii comes prius fuerat, referente cognovimus.",
+      "work": "Rufinus of Aquileia, Church History X (Latin)",
+      "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt",
+      "lines": "27383-27385"
+    },
+    {
+      "modern": "What other man like this could we find, with the Spirit of God in him as in you, who could carry it through in this way?",
+      "printed": "et quem alium invenimus virum talem, in quo sit spiritus dei in ipso sieut in te, qui haec ita possit implere?",
+      "work": "Rufinus of Aquileia, Church History X (Latin); Athanasius's words as Rufinus reports them",
+      "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt",
+      "lines": "27376-27377",
+      "uncertain": "The print reads \"sieut\", a scan fault for sicut."
+    },
+    {
+      "modern": "So send Frumentius the bishop to Egypt with all speed.",
+      "printed": "Send therefore speedily into Egypt the Bishop Frumentius",
+      "work": "Constantius to the princes of Auxumis, in Athanasius, Apology to Constantius 31, English of 1892",
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "lines": "36144-36145",
+      "uncertain": "The Greek of the letter is held only in a damaged scan (Migne, PG 25), so the 1892 English stands alone as the print. The modern words follow the Greek, which says to send Frumentius the bishop to Egypt most speedily, and that Athanasius put him in this rank, being guilty of countless evils."
+    },
+    {
+      "modern": "This Frumentius was set in this rank by Athanasius, a man guilty of countless crimes.",
+      "printed": "this Frumentius was advanced to his present rank by Athanasius, a man who is guilty of ten thousand crimes",
+      "work": "Constantius to the princes of Auxumis, in Athanasius, Apology to Constantius 31, English of 1892",
+      "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+      "lines": "36150-36151",
+      "uncertain": "The Greek of the letter is held only in a damaged scan (Migne, PG 25), so the 1892 English stands alone as the print. The modern words follow the Greek, which says to send Frumentius the bishop to Egypt most speedily, and that Athanasius put him in this rank, being guilty of countless evils."
+    }
+  ]
+}

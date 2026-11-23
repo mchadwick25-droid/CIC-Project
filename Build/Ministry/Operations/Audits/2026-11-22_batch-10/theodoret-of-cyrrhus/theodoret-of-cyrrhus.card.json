@@ -1,0 +1,203 @@
+{
+  "otherNames": [
+    "Theodoret of Cyrus",
+    "Theodoretus"
+  ],
+  "knownFor": "Bishop of Cyrrhus in Syria and a leading voice of the Antiochene side, who answered the anathemas of Cyril of Alexandria, was deposed at Ephesus in 449 and admitted at Chalcedon in 451, and wrote a Church History that takes up where Eusebius of Caesarea stopped.",
+  "datesNote": "Born in 393 by Tillemont's reckoning, which Blomfield Jackson follows (Garnier gave 386 and Möller 390); bishop from 423 by Jackson's reckoning; deposed at Ephesus in 449; died in the reign of the emperor Leo, by Gennadius of Marseilles, which Jackson thinks was probably not later than 458",
+  "placeNote": "Antioch, by Jackson's account; Cyrrhus in Syria; Chalcedon",
+  "role": "Bishop, theologian and church historian",
+  "keyWorks": [
+    {
+      "title": "Church History",
+      "about": "five books from the rise of Arius to the death of Theodore of Mopsuestia, a span the author counts as 105 years, beginning where Eusebius of Caesarea's history ends"
+    },
+    {
+      "title": "Counter-statements to the anathemas of Cyril",
+      "about": "his answers, one by one, to the twelve anathemas Cyril of Alexandria issued against Nestorius"
+    },
+    {
+      "title": "Eranistes, or Polymorphus",
+      "about": "dialogues against a speaker whom Blomfield Jackson reads as a picker-up of scraps of heresy from different quarters"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "At Chalcedon the council's officials ordered that he enter \"because the holy Archbishop Leo had restored the bishopric to him\", as the acts quoted by Blomfield Jackson record.",
+      "In 553 a council at Constantinople condemned \"those things which Theodoret impiously wrote against the right faith, and against the Twelve Chapters of the holy Cyril\". Jackson notes that he was reinstated at Chalcedon in spite of what he had written, and what he had written was condemned in spite of his reinstatement.",
+      "A. C. Zenos, in the edition of Socrates of Constantinople, reports that Epiphanius Scholasticus put the histories of Socrates, Sozomen and Theodoret into Latin under Cassiodorus, as the Tripartite History."
+    ],
+    "remembered": [
+      "Leo of Rome, writing to him after Chalcedon, speaks of \"the victory you and we together had won by assistance from on high over the blasphemy of Nestorius, as well as over the madness of Eutyches.\"",
+      "Dioscorus of Alexandria, in the Syriac acts of the council of 449 that deposed him, calls him one \"who has brought trouble on all the Churches of the East\".",
+      "Gennadius of Marseilles lists his works, among them books \"Against Eutyches the presbyter and Dioscorus bishop of Alexandria\"."
+    ]
+  },
+  "uncertain": [
+    "Much of his life comes from his own letters, written to answer his accusers and to win the help of Leo of Rome. The sentence of 449 is in the acts of the council that deposed him, which his opponents led. Blomfield Jackson, his translator, is the source for his friendship with Nestorius of Constantinople and for John of Antioch's request that he answer Cyril.",
+    "Jackson takes his birth and childhood at Antioch from Theodoret's Religious History, which the Library holds in Greek. Jackson gives 393, after Tillemont; he reports that Garnier gave 386 and Möller 390.",
+    "Whether his views changed at Chalcedon is disputed. Jackson reports that Bertram, writing in 1883, thinks Theodoret changed them, and Möller that he kept them, though put differently under pressure.",
+    "Jackson says the letter from John of Antioch's synod urging Nestorius to accept the title Theotokos \"has been generally attributed to Theodoret\". He does not settle it.",
+    "His death is not dated in any held line. Gennadius of Marseilles says he died in the reign of the emperor Leo. Ernest Cushing Richardson's note gives 457. Jackson finds \"some probability that Theodoret survived till 458; none that he lived longer.\"",
+    "Gennadius speaks of ten books of his Church History. The held translation has five.",
+    "The English of his letters spells his see Cyrus; Richardson's note spells it Cyrrhaus.",
+    "His letter to Nestorius survives only in Latin: Jackson says the Greek copies have perished and three Latin versions exist, and his English follows one of them. No held line dates it. Jackson thinks it fell not long after Theodoret received Cyril's Twelve Chapters, but in the letter he speaks of having accepted the Egyptian writings, which fits the peace of 433. The date is Inferential-Thin; the refusal to agree to what was done to Nestorius is Documented.",
+    "That no charge was brought and no accuser appeared is Theodoret's own complaint, in his letter to the consul Nomus. The Syriac acts of 449 show the presbyter Pelagius laying a written charge against him. No held line dates the emperor's order that kept him in Cyrrhus; Jackson puts the edict about a year after the deposition of Irenaeus on 17 February 448.",
+    "The Syriac acts are of the session of 22 August 449. Jackson gives 8 August for the opening of the council and 11 August for Theodoret's deposition.",
+    "Jackson calls the Chalcedon session at which Theodoret was made to curse Nestorius the eighth; Evagrius calls it the ninth meeting.",
+    "Jackson says some doubt hangs over whether Theodoret went back to Cyrrhus after Chalcedon or lived at his monastery of Nicerte.",
+    "That he won Leo over with a bribe is the charge of the Syriac chronicle, written from the side that refused Chalcedon, which says he did it with the gift which blinds the eyes of the soul. No other held witness says so.",
+    "Jackson dates the Church History to 438-439 or a little later. No held line dates the Religious History, which the Library holds only in Migne's Greek of 1864."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Church History, Dialogues (Eranistes) and Letters (tr. Blomfield Jackson)",
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Counter-statements to the anathemas of Cyril (tr. Blomfield Jackson)",
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Religious History (Greek, ed. Migne, Patrologia Graeca 82)",
+        "language": "Greek",
+        "file": "cic/texts/theodoret_opera-omnia-t3-historia-religiosa-pg82-grc-lat_migne1864.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Prolegomena, with the acts of Chalcedon quoted",
+        "author": "Blomfield Jackson",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "The Second Synod of Ephesus, Syriac acts (tr. S. G. F. Perry)",
+        "author": "Dioscorus of Alexandria and the bishops of the council of 449",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/council-of-ephesus-449_second-synod-of-ephesus-syriac-acts_perry1881.txt"
+      },
+      {
+        "title": "Letter 120, to Theodoret",
+        "author": "Leo of Rome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf212_leo-great-gregory-great.xml"
+      },
+      {
+        "title": "Sentence of the council of Constantinople, 553",
+        "author": "Council of Constantinople",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men 89",
+        "author": "Gennadius of Marseilles",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Ecclesiastical History, Book 1 (tr. Walford)",
+        "author": "Evagrius Scholasticus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt"
+      },
+      {
+        "title": "Chronicle under the name of Zachariah of Mitylene, from the side that refused Chalcedon (tr. Hamilton and Brooks)",
+        "author": "Zachariah of Mitylene (the name the chronicle bears)",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt"
+      },
+      {
+        "title": "Letter to Nestorius in Latin, from the Synodicon (a damaged scan)",
+        "author": "Giovanni Domenico Mansi (ed.)",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-5-431-441-lat_welter-facsimile1901.txt"
+      }
+    ]
+  },
+  "briefReferences": [
+    "Letter to Nestorius, tr. Blomfield Jackson: not even if one were to cut off both my hands would I ever assent to what was done against your holiness. The Greek is lost; the letter is kept in Latin, in the Synodicon in Mansi V.",
+    "Letter to the consul Nomus, tr. Jackson: the monastery and being made bishop unwillingly; the porticoes, two bridges and the conduit; the eight villages of Marcion's followers; stoned many times; no indictment published and no prosecutor.",
+    "Letter to John of Antioch on Cyril's anathemas, tr. Jackson: he was asked to answer them in writing. Counter-statement to the first anathema, tr. Jackson: the form of God not changed into the form of a servant, and the title Mother of God.",
+    "Jackson's Prolegomena: his birth at Antioch from the Religious History; Ephesus in 431 on John's side; the peace of 433, his refusal to accept the deposition of Nestorius, and his finding a meaning for the anathemas on Nestorianism, not on Nestorius; the Chalcedon scene from the acts.",
+    "Letter of Theodoret to John after the reconciliation, tr. Jackson: the Egyptian letter found in accord with their own statements.",
+    "Church History, Prologue and last chapter, tr. Jackson: it begins where Eusebius's history ends and runs a period of 105 years.",
+    "Religious History, Greek, Migne PG 82: Simeon's pillar, cut to six cubits, then twelve, twenty-two and thirty-six.",
+    "The Syriac acts of 449, tr. S. G. F. Perry: the deposition of Theodoret, Dioscorus's sentence, and the request that his treatises be committed to the fire.",
+    "Acts of Chalcedon as quoted by Jackson: the bishops at the rails of the altar, the demand for the curse, the offer to condemn Nestorius and Eutyches, the cry that he was a heretic, and the curse. Evagrius, tr. Walford, tells the curse and the restoration to his see.",
+    "Evagrius, preface to Book 1, tr. Walford: Eusebius, Sozomen, Theodoret and Socrates have produced a most excellent record, and Evagrius sets out to carry the story on.",
+    "Syriac chronicle under the name of Zachariah, tr. Hamilton and Brooks: it begins after the three Ecclesiastical Histories of Eusebius, Socrates and Theodoret; its charge that he won Leo over with a bribe.",
+    "Council of Constantinople 553, in Percival's English: it condemns what Theodoret wrote against the Twelve Chapters of Cyril.",
+    "Letter to Leo, bishop of Rome, tr. Jackson: no house, no piece of ground, no obol and no tomb in all his time as bishop. Gennadius of Marseilles, Lives of Illustrious Men 89: he died in the reign of the elder Leo.",
+    "World census, Antioch in Chrysostom's Day: his tradition."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "I will never agree to what was done against you, unjustly and wickedly, not even if someone cuts off both my hands, as God's grace works with me and strengthens my weak soul.",
+      "printed": "But to what has been done unjustly and illegally against your holiness, not even if one were to cut off both my hands would I ever assent, God’s grace helping me and supporting my infirmity.",
+      "work": "Theodoret, Letter to Nestorius, tr. Blomfield Jackson",
+      "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+      "lines": "38007-38010",
+      "uncertain": "The rendering is made from the Latin of the letter in the Synodicon (Mansi V, a damaged scan, so the Latin is not printed here); Jackson's English confirms the sense. Where Jackson has illegally, the Latin has a word for wickedly; where he has my infirmity, the Latin says the weakness of my soul. The Greek is lost."
+    },
+    {
+      "modern": "The form of God was not changed into the form of a servant. It stayed what it was, and took the form of the servant.",
+      "printed": "the form of God was not changed into the form of a servant, but, remaining what it was, took the form of the servant.",
+      "work": "Theodoret, Counter-statement to Cyril's first anathema, tr. Blomfield Jackson",
+      "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+      "lines": "4724-4726",
+      "uncertain": "The Greek is not held; Jackson's English is from Schulze's edition."
+    },
+    {
+      "modern": "unwillingly",
+      "printed": "unwillingly",
+      "work": "Theodoret, Letter to the consul Nomus, tr. Blomfield Jackson",
+      "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+      "lines": "31499",
+      "secondReading": "checked at card"
+    },
+    {
+      "modern": "First he ordered it cut six cubits high, then twelve, after that twenty-two, and now thirty-six. For he longs to fly up to heaven, and to be set free from this life on earth.",
+      "printed": "Πρῶτον μὲν ἕξ πήχεων τμηθῆναι χελεύσας, εἶτα δύο καὶ δέχα, μετὰ δὲ ταῦτα δύο χαὶ εἴχοσι, νῦν δὲ ἐξ χαὶ τριάκοντα \" ἀναπτῆναι γὰρ εἰς οὐρανὸν ἐφίεται, καὶ «ἧς ἐπιγείου ταύτης ἀπαλλαγῆναι διατριδῆς.",
+      "work": "Theodoret, Religious History, on Simeon (Greek)",
+      "file": "cic/texts/theodoret_opera-omnia-t3-historia-religiosa-pg82-grc-lat_migne1864.txt",
+      "lines": "113735-113738",
+      "uncertain": "One held print only (Migne, 1864), with steady OCR faults: chi for kappa, delta for beta, and a stray mark where kai tes should stand; the first numeral is printed with a breathing mark that reads as the preposition ex. Read by hand, the numerals are six, twelve, twenty-two and thirty-six. No second print or English of this chapter is held."
+    },
+    {
+      "modern": "Anathema to Nestorius",
+      "printed": "Anathema to Nestorius",
+      "work": "Acts of the council of Chalcedon, in Blomfield Jackson's English",
+      "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+      "lines": "3335",
+      "secondReading": "checked at card"
+    },
+    {
+      "modern": "a most excellent record",
+      "printed": "a most excellent record",
+      "work": "Evagrius Scholasticus, Ecclesiastical History, Book 1, preface, tr. Walford",
+      "file": "cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt",
+      "lines": "1110",
+      "secondReading": "checked at card"
+    },
+    {
+      "modern": "not a tomb",
+      "printed": "not a tomb",
+      "work": "Theodoret, Letter to Leo, bishop of Rome, tr. Blomfield Jackson",
+      "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+      "lines": "33203",
+      "secondReading": "checked at card"
+    }
+  ]
+}
