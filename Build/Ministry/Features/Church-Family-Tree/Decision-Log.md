@@ -5735,3 +5735,11 @@ Mark: "option 1", on the page https://claude.ai/artifact/UStZATEaBtT445YAKgNEi6 
 **Done.** 27 rows in `cic-website/data/search-names.json`: six names given by opponents (Nestorian on four Church of the East entries, Jacobite, Montanist), today's names for living heirs, Copts, Axum. Every basis is a line in the tree's own text, checked word for word by the census validator, which now fails a row with no real target, no valid kind or no basis (six tests). Data release 53, dated 2026-11-23, is stamped in the census meta, the license credit line and the map page's embedded meta; the data page was regenerated and lists the names file. Opus round 1 found three faults: a contested heir line shown as settled, a region labeled an older name, and two bases that quoted source citations. The first two rows were held, the other two rebased; round 2 rechecked only those. The review records and the held and wanted lists are in Build/Ministry/Operations/Audits/2026-11-23_search-names-1/.
 
 **Not done.** Seven rows wait for Mark's ruling on kind (Open-Gaps 370). `SEARCH_ON` stays false: flipping it is a separate small change after Mark sees screenshots with the real names.
+
+## 2026-11-23 — Search names batch 1: rulings on the held rows (Mark)
+
+**Decided (Mark).** Hicksite, Campbellite and Stoneite take the kind "other name"; Asia Minor to Turkey is dropped; the Greek Orthodox Patriarchate of Antioch stays out.
+
+**Done.** Three rows added to `cic-website/data/search-names.json` (30 rows), each basis a line in the tree's own text, checked by the census validator. Data release 54, dated 2026-11-23, stamped in the census meta, the license credit line and the map page's embedded meta; the data page was regenerated.
+
+**Not done.** The kind of Mormonism and of Abyssinia is still Mark's call (Open-Gaps 370). `SEARCH_ON` stays false.

@@ -1,4 +1,4 @@
-# Search names batch 1: draft table (27 rows in the file)
+# Search names batch 1: draft table (30 rows in the file)
 
 Opponents' names first.
 
@@ -31,3 +31,6 @@ Opponents' names first.
 | Copts | coptic-christianity-under-early-islam | other name | tree, coptic-christianity-under-early-islam, longDescription | Two European scholars, Hiob Ludolf in 1691 and Eusèbe Renaudot in 1713, read the Copts as having helped the conquerors. |
 | Copts | coptic-revival-under-cyril-iv | other name | tree, coptic-revival-under-cyril-iv, legacy | Copts who moved abroad later took that renewal to Europe, North America and Australia. |
 | Axum | aksumite-christianity | spelling | tree, aksumite-christianity, experienceToday.0.text | The Church of Our Lady Mary of Zion at Axum, Ethiopia — on the site of the kingdom's original cathedral, beside the Aksumite stelae field |
+| Hicksite | nineteenth-century-quakerism-separations | other name | tree, nineteenth-century-quakerism-separations, relationsSummary | The Hicksite separation of 1827–28 was the defining split of the century for the Society of Friends. |
+| Campbellite | the-stone-campbell-restoration-movement | other name | tree, the-stone-campbell-restoration-movement, documentedStories.0.teaser | A frontier preacher called Raccoon John tells them to be no longer Campbellites or Stoneites, and the two old men give each other their hands. |
+| Stoneite | the-stone-campbell-restoration-movement | other name | tree, the-stone-campbell-restoration-movement, documentedStories.0.teaser | A frontier preacher called Raccoon John tells them to be no longer Campbellites or Stoneites, and the two old men give each other their hands. |
