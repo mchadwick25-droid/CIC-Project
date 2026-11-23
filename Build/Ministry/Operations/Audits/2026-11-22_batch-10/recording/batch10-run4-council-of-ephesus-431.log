@@ -1,0 +1,19 @@
+=== Tree narration  ===
+629 movements total
+4 skipped - no longDescription to narrate
+12 skipped - built world with its own orientation.story, recorded in its Representative's voice
+260 skipped - person, recorded only in a person run (--people)
+0 already narrated and current (use --force to regenerate)
+0 stale - recorded from text that has since changed, re-voiced this run
+1 to generate this run, 3407 characters total
+=== PAID RUN, settings as actually used ===
+approved run     : Batch 10: the twelve (Mark, 2026-11-23, 'Approve recording, cap 24,000 credits'; 'raise cap to 25,500, record all eleven')   char cap: 3500
+default voice id : onwK4e9ZLuTAKqWW03F9
+output format    : mp3_44100_64
+model            : eleven_multilingual_v2
+settings         : {"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true}
+items            : 1   characters: 3407 text, 3407 sent
+===========================================
+  ok: council-of-ephesus-431 voice=onwK4e9ZLuTAKqWW03F9 model=eleven_multilingual_v2 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=3407 sent=3407 cost=1652 request-id=gcpq4y9ainnPIaKSw26x
+
+1/1 generated. credits charged (character-cost headers): 1652

@@ -73,18 +73,18 @@ On the kit: 39. To do: 37.
 | Gregory of Nazianzus (`gregory-of-nazianzus`) | person | 9 | yes |
 | Gregory of Nyssa (`gregory-of-nyssa`) | person | 9 | yes |
 | Hilary of Poitiers (`hilary-of-poitiers`) | person | 9 | yes |
-| Council of Ephesus (`council-of-ephesus-431`) | council | 10 | no |
+| Council of Ephesus (`council-of-ephesus-431`) | council | 10 | yes |
 | Ephrem the Syrian (`ephrem-the-syrian`) | person | 10 | yes |
-| Eutyches (`eutyches`) | person | 10 | no |
-| Frumentius (`frumentius`) | person | 10 | no |
-| John Cassian (`john-cassian`) | person | 10 | no |
+| Eutyches (`eutyches`) | person | 10 | yes |
+| Frumentius (`frumentius`) | person | 10 | yes |
+| John Cassian (`john-cassian`) | person | 10 | yes |
 | John Chrysostom (`john-chrysostom`) | person | 10 | yes |
-| Mesrop Mashtots (`mesrop-mashtots`) | person | 10 | no |
-| Pelagius (`pelagius`) | person | 10 | no |
+| Mesrop Mashtots (`mesrop-mashtots`) | person | 10 | yes |
+| Pelagius (`pelagius`) | person | 10 | yes |
 | Priscillian (`priscillian`) | person | 10 | yes |
-| Rufinus of Aquileia (`rufinus-of-aquileia`) | person | 10 | no |
-| Theodoret of Cyrrhus (`theodoret-of-cyrrhus`) | person | 10 | no |
-| Ulfila (`ulfila`) | person | 10 | no |
+| Rufinus of Aquileia (`rufinus-of-aquileia`) | person | 10 | yes |
+| Theodoret of Cyrrhus (`theodoret-of-cyrrhus`) | person | 10 | yes |
+| Ulfila (`ulfila`) | person | 10 | yes |
 
 To do: Aetius of Antioch (`aetius-of-antioch`); Alexander of Alexandria (`alexander-of-alexandria`); Ammianus Marcellinus (`ammianus-marcellinus`); Auxentius of Durostorum (`auxentius-of-durostorum`); Conference of Carthage (`conference-of-carthage-411`, council); Council of Arles (`council-of-arles-314`, council); Council of Sardica (`council-of-sardica-343`, council); Councils of Ariminum and Seleucia (`councils-of-ariminum-and-seleucia-359`, council); Didymus the Blind (`didymus-the-blind`); Eznik of Kolb (`eznik-of-kolb`); Fabiola of Rome (`fabiola-of-rome`); First Council of Constantinople (`first-council-of-constantinople-381`, council); Germanus of Auxerre (`germanus-of-auxerre`); Hilarion of Gaza (`hilarion-of-gaza`); Hilary of Arles (`hilary-of-arles`); Honoratus of Arles (`honoratus-of-arles`); Jovinian (`jovinian`); Koriun (`koriun`); Liberius of Rome (`liberius-of-rome`); Lucifer of Cagliari (`lucifer-of-cagliari`); Marcella of Rome (`marcella-of-rome`); Marcellus of Ancyra (`marcellus-of-ancyra`); Marius Mercator (`marius-mercator`); Melania the Elder (`melania-the-elder`); Melitius of Lycopolis (`melitius-of-lycopolis`); Olympias of Constantinople (`olympias-of-constantinople`); Ossius of Cordoba (`ossius-of-cordoba`); Palladius of Helenopolis (`palladius-of-helenopolis`); Paula of Rome (`paula-of-rome`); Paulinus of Milan (`paulinus-of-milan`); Philostorgius (`philostorgius`); Possidius of Calama (`possidius-of-calama`); Prosper of Aquitaine (`prosper-of-aquitaine`); Socrates of Constantinople (`socrates-of-constantinople`); Sozomen (`sozomen`); Sulpicius Severus (`sulpicius-severus`); Tyconius (`tyconius`).
 

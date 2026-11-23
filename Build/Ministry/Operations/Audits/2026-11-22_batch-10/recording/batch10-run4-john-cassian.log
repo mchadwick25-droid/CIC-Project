@@ -1,0 +1,20 @@
+=== Tree narration  ===
+629 movements total
+4 skipped - no longDescription to narrate
+12 skipped - built world with its own orientation.story, recorded in its Representative's voice
+353 skipped - not a person row (person run)
+0 already narrated and current (use --force to regenerate)
+0 stale - recorded from text that has since changed, re-voiced this run
+1 to generate this run, 3765 characters total
+=== PAID RUN, settings as actually used ===
+approved run     : Batch 10: the twelve (Mark, 2026-11-23, 'Approve recording, cap 24,000 credits'; 'raise cap to 25,500, record all eleven')   char cap: 4100
+person voice id  : onegjDE2z0mQtp1g0HK7   (kind "person", every item)
+output format    : mp3_44100_64
+model            : eleven_v4
+settings         : {"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true}
+audio tags       : open (none), before the last sentence (none), between paragraphs [pause], 7 respellings
+items            : 1   characters: 3765 text, 3873 sent
+===========================================
+  ok: john-cassian voice=onegjDE2z0mQtp1g0HK7 model=eleven_v4 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=3765 sent=3873 cost=1878 request-id=dFltMfzm07Ud5b7lBVyr
+
+1/1 generated. credits charged (character-cost headers): 1878
