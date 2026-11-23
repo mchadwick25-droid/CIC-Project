@@ -82,3 +82,39 @@ Starting card: `Card.pass2.json` (unchanged copy). Everything not listed here is
 ### Validator
 
 `node tools/validate-census.mjs --skip-quotes` on a scratch copy of the census with this card and the brief in `ulfila`: 0 errors (4 warnings, none for this entry).
+
+## Fourth pass: no modern opinion (2026-11-23)
+
+Starting card: `Card.pass3.json`, unchanged. Brief changes: the consecrator's identity, the Gothic Bible's translator, the council's year and the year of death are no longer told (`Modern_Pass.md`, `Outline.md` "Modern pass"). Every line re-read in `cic/texts/`.
+
+### uncertain (modern views marked as modern judgments, credited by name)
+
+1. Duchesne, entry on the consecration. "Louis Duchesne, in his history of the early church (1907), names him Eusebius of Nicomedia." → "... names him Eusebius of Nicomedia, a modern judgment." Evidence: DUC 20991-20995 ("Eusèbe de Nicomédie le vit ... le consacra évoque pour sa nation"); PHI 120 names only "Eusebius and the other prelates".
+2. Streitberg, entry on the fragments. "Streitberg sees no doubt that they are the remains of Ulfila's translation." → "... translation, a modern judgment." Evidence: STR 603-607.
+3. Council year, first entry. "says he held the Nicene creed until he signed the creed of the council at Constantinople in 360" → "... at Constantinople under Constantius". Evidence: Socrates gives no year (NP2 9480-9482, 9606-9612; "τότε πρῶτον", SOC-G1 27461-27466); 360 stays in the Sozomen entry as the modern date.
+4. Council year, Sozomen entry. "360 is the usual date." → "360 is the usual modern date, a modern judgment that no held old source gives." Evidence: Sozomen gives the reign only (NP2 40160-40162); the note "360 a.d." at NP2 9738-9739 dates the consecration of St Sophia, not the council. No held modern writer is named for the council's year.
+
+### datesNote
+
+5. "(Kauffmann's dates, worked from Auxentius's numbers)" → "(Kauffmann's dates, a modern judgment worked from Auxentius's numbers)". Evidence: AUX 3684, 3735 ("im Juni 383 zu Constantinopel verstorben"); AUX 15283-15292 gives no year.
+
+### briefReferences (wording the brief no longer has)
+
+6. Removed: the Kauffmann entry ("the years ... with the death at Constantinople about 383"); the brief tells no year.
+7. Removed: the Duchesne entry (Eusebius of Nicomedia as the consecrator); the brief no longer tells it.
+8. Removed: the Streitberg entry (no doubt the fragments are Ulfila's); the brief no longer tells it.
+9. Sozomen entry: "; 360 is the usual date, and Sozomen gives the reign, not the year" → "; Sozomen gives the reign, not the year". The brief says "Under the emperor Constantius" (NP2 40160-40162).
+
+No new old source and no new `sources` file: the brief's new words rest on Sozomen and Socrates, already referenced and listed. The Duchesne and Streitberg files stay in `sources.about` and `ownWords` for the `uncertain` entries.
+
+### quotationOriginals
+
+Unchanged: the brief still quotes four spans (the Exodus passage, "substance", "alone unbegotten", "subject and obedient in all things"), each with its entry word for word. None dropped, none added.
+
+### Validator
+
+`node tools/validate-census.mjs --skip-quotes` on a scratch copy of the census with this card and this brief in `ulfila`: 0 errors, 4 warnings (none for this entry).
+
+### Not found
+
+None.

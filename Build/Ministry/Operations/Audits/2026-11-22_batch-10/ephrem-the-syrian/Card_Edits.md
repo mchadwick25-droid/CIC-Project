@@ -44,3 +44,22 @@ Validator (`--skip-quotes`, scratch census with this card and the new brief in t
 ## Second reading (2026-11-23)
 
 `../About-Pass/Second-Reading/Second_Readings.md`: B10A-01 MINOR; `quotationOriginals[0].secondReading` set to "minor".
+
+## Fourth pass: no modern opinion (2026-11-23)
+
+Starting card kept unchanged as `Card.pass3.json`. Brief compared with `ephrem-the-syrian.brief.v4.txt`; the five places are in `Outline.md`, section Modern pass. Quotation: the Palladius entry stays as it is; its wording did not change.
+
+1. **uncertain, Harmonius entry** (reworded last sentence).
+   - Old: `... In his own homily Ephrem blames Bardaisan alone.`
+   - New: `... Modern judgment, John Gwynn: he reads Ephrem's Homily 53, known only from the extract he prints, as blaming Bardaisan alone (...). The held lines of the homily do not name Bardaisan. C. W. Mitchell notes that Ephrem's Hymn 55 against Heresies gives the songs to Bardaisan's "sons".`
+   - Evidence: npnf213 lines 11234-11246 (Gwynn's "attributing the work, however, to Bardesan solely"; the quoted lines "He fashioned hymns ..." do not name him); `ephraim_prose-refutations_mitchell1912-1921.txt` line 2690 ("sons" of Bardaisan).
+2. **uncertain, new entry (famine date).** New: `Modern judgment: no old source gives the famine a year. Modern dating puts it about 372 and his death in 373, from the Chronicle of Edessa's year 684 (Cowper, translator) by Assemani's era reckoning. Sozomen places the famine shortly before his death.` Evidence: `chronicle-of-edessa_cowper.txt` lines 103 (year 684, June) and 34 (era reckoning); Sozomen, npnf202 32138-32140. Brief cut "Around 372".
+3. **uncertain, new entry (the prayer).** New: `Modern judgment, A. von Le Coq: he identifies a confession-prayer found at Tun-huang as Manichaean (Journal of the Royal Asiatic Society, 1911). Its English names two Roots, Bright and Dark, mixed and to be parted again. The held lines do not name Mani.` Evidence: Khuastuanift file header and lines 16575-16585, 16643-16672. Brief cut the sentence about a later prayer.
+4. **uncertain, new entry (Barhadbeshabba's date).** New: `Modern judgment, Addai Scher, editor of Barhadbeshabba: he dates the author about 600 and has him study at Nisibis under Hnana of Adiabene. The work itself gives no year.` Evidence: Scher file header line 3 ("fl. c. 600") and lines 16929-16933 (Hnana). Brief cut "Around 600" and "the historian of the school of Nisibis". The Inferential-Thin view of Ephrem as founder of the schools is not added: the cut sentence is not a cited modern author's view, and the brief no longer says it.
+5. **briefReferences, Sozomen III.16.** Old: `... the famine shortly before Ephrem's death, around 372; ...` New: `... the famine shortly before Ephrem's death; ...` Evidence: the brief no longer gives a year.
+6. **briefReferences, Khuastuanift entry removed.** Old: `Khuastuanift, a Manichaean confession-prayer from Central Asia, ...: the two Roots ...` Evidence: the brief no longer tells the prayer.
+7. **briefReferences, Homily 53 entry removed.** Old: `Ephrem, Homily 53, Against Heretics, in the extract printed by Gwynn: he blames Bardaisan himself.` Evidence: the brief no longer says it.
+8. **briefReferences, Barhadbeshabba.** Old: `... and the schools that spread in Persia. He wrote around 600.` New: `... and the schools multiplying in the Persian empire.` Evidence: Scher lines 20738-20741 ("Les écoles se multiplièrent dans l'empire des Perses"); the brief's last paragraph.
+9. **sources.about, two files added.** Barhadbeshabba, Cause of the Foundation of the Schools (`cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt`), which the brief rests on and was not listed; the Chronicle of Edessa (`cic/texts/chronicle-of-edessa_cowper.txt`), cited in edit 2. The Khuastuanift file stays in `sources.about` because edit 3 cites it.
+
+Validator (`--skip-quotes`, scratch census with this card and brief): 0 errors, 4 warnings elsewhere (shortName length on other entries).
