@@ -71,3 +71,7 @@ Starting card `eutyches.card.json` copied to `Card.pass2.json`; every other fiel
 - Outline items 10 (Theodoret) and 5 (reviving old heresies) are left out of the brief; the card's existing claims about Chrysaphius and exile stay.
 
 **Validator** (scratch census, brief set to the current text, `--skip-quotes`): no errors for this entry. The two missing `secondReading` values reported in the second pass were not reported this time.
+
+## Card check applied (2026-11-23)
+
+`Card_Check_About.md` (FIX, one change), applied word for word: `quotationOriginals[3].printed`, `rejected the phrase “two natures,”` → `two natures`.
