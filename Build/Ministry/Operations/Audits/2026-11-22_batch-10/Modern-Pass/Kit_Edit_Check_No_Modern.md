@@ -97,3 +97,5 @@ With:
 ## Applied (2026-11-23)
 
 Findings 1, 2, 3, 4, 5 and 7 applied word for word. Finding 6 (Part 2, Outside witness) is a change to a story shape and goes to Mark.
+
+Finding 6 applied word for word on 2026-11-23, on Mark's ruling ("yes reword the outside witness shape").

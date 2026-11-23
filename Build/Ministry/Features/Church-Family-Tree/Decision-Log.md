@@ -5682,6 +5682,8 @@ Mark, after the scan results: "yes, fix those three".
 4. Batch 10: every such place is rewritten from the old sources or cut, checked and read fresh again before any more recording; Priscillian is recorded again.
 
 It governs batch 11 on, and the live tree's other stories are for the what-and-why ranking thread.
+
+**Added (Mark, 2026-11-23, in chat: "yes reword the outside witness shape").** Kit Part 2, Outside witness: the impact is in how the Christians who answered, copied or argued over the passage used it, not in "the historians who still weigh it"; the story says plainly what the old sources leave open, and the card carries the modern views on it. This is finding 6 of the independent check (Build/Ministry/Operations/Audits/2026-11-22_batch-10/Modern-Pass/Kit_Edit_Check_No_Modern.md), applied word for word. No batch 10 story uses this shape.
 ## 2026-11-23 — Search names batch 1 drafted and reviewed (Mark: "Converged, auto mode: keep heirs as other name")
 
 **Asked.** Draft the first batch of sourced names for search level 1 (Decision-Log, "Search: three levels, and the level 1 design converged", 2026-11-22). No model calls beyond the session, no metered spend.
