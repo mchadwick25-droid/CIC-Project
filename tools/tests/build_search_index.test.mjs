@@ -170,9 +170,8 @@ test('a word in most entries is left out', () => {
 test('an index over its size budget fails the build and names the file', () => {
   const ok = buildSearchIndex({ data: small, html: page, namesFile: { rows: [] } });
   assert.ok(ok.sizes.namesGzipBytes > 0);
-  assert.throws(() => buildSearchIndex({ data: small, html: page, namesFile: { rows: [] }, budget: { namesGzipBytes: 10, wordsGzipBytes: 1e6 } }), /over budget: names file/);
-  assert.throws(() => buildSearchIndex({ data: small, html: page, namesFile: { rows: [] }, budget: { namesGzipBytes: 1e6, wordsGzipBytes: 10 } }), /over budget: word list/);
-  assert.ok(BUDGET.namesGzipBytes < BUDGET.wordsGzipBytes);
+  assert.throws(() => buildSearchIndex({ data: small, html: page, namesFile: { rows: [] }, budget: { namesGzipBytes: 10 } }), /over budget: names file/);
+  assert.ok(BUDGET.namesGzipBytes > 0);
 });
 
 test('the real tree builds inside the budget, every entry is in the names index and every name finds its entry', () => {
@@ -188,9 +187,4 @@ test('the real tree builds inside the budget, every entry is in the names index 
   assert.ok(names.living.length > 5, 'the census marks some entries as living');
   assert.equal(names.eras.length, DATA.eras.length);
   assert.ok(r.sizes.namesGzipBytes <= BUDGET.namesGzipBytes);
-  assert.ok(r.sizes.wordsGzipBytes <= BUDGET.wordsGzipBytes);
-  const word = decode(JSON.parse(r.wordsJson));
-  assert.ok(word.size > 10000);
-  const heaven = word.get('heaven');
-  assert.ok(heaven && heaven.length > 3 && heaven.every((i) => i >= 0 && i < DATA.movements.length));
 });

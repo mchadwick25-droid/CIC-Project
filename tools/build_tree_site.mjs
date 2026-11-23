@@ -72,7 +72,7 @@ function main() {
   writeSlimMap(slim, OUT, false);
   const search = buildSearchIndex({ data: slim.data, html: source });
   writeSearchIndex(search, OUT);
-  console.log(`search index: names ${(search.sizes.namesBytes / 1e3).toFixed(1)} KB (${(search.sizes.namesGzipBytes / 1e3).toFixed(1)} KB compressed), word list ${(search.sizes.wordsBytes / 1e3).toFixed(1)} KB (${(search.sizes.wordsGzipBytes / 1e3).toFixed(1)} KB compressed, ${search.sizes.wordCount} words), sourced names file ${search.sizes.namesFilePresent ? 'read' : 'not there yet'}`);
+  console.log(`search index: names ${(search.sizes.namesBytes / 1e3).toFixed(1)} KB (${(search.sizes.namesGzipBytes / 1e3).toFixed(1)} KB compressed), sourced names file ${search.sizes.namesFilePresent ? 'read' : 'not there yet'}`);
   const page = path.join(OUT, 'index.html');
   const mismatched = [...own, ...shared].filter(([s, d]) => d !== page && digest(s) !== digest(d));
   for (const [s, d] of mismatched) {

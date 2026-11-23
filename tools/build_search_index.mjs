@@ -9,8 +9,8 @@ const { normalize, words, TEXT_PATHS, visibleText } = createRequire(import.meta.
 
 export const NAMES_FILE = path.join(ROOT, 'cic-website', 'data', 'search-names.json');
 
-// Measured on census release 52: about 22 KB and 175 to 205 KB compressed. The build fails over these.
-export const BUDGET = { namesGzipBytes: 32 * 1024, wordsGzipBytes: 245 * 1024 };
+// Measured on census release 52: about 22 KB compressed (25.5 KB with ids and the living list). The build fails over this.
+export const BUDGET = { namesGzipBytes: 32 * 1024 };
 
 export { TEXT_PATHS, visibleText };
 
@@ -112,24 +112,19 @@ export function buildWordIndex(data) {
 const gz = (text) => zlib.gzipSync(Buffer.from(text), { level: 9 }).length;
 
 export function buildSearchIndex({ data, html, namesFile = readNamesFile(), budget = BUDGET }) {
-  const names = buildNamesIndex(data, extractFamilies(html), namesFile);
-  const words = buildWordIndex(data);
-  const namesJson = JSON.stringify(names), wordsJson = JSON.stringify(words);
+  const namesJson = JSON.stringify(buildNamesIndex(data, extractFamilies(html), namesFile));
   const sizes = {
     namesBytes: Buffer.byteLength(namesJson), namesGzipBytes: gz(namesJson),
-    wordsBytes: Buffer.byteLength(wordsJson), wordsGzipBytes: gz(wordsJson),
-    wordCount: words.words.length, namesFilePresent: namesFile.present !== false && namesFile.rows.length > 0,
+    namesFilePresent: namesFile.present !== false && namesFile.rows.length > 0,
   };
-  const over = [];
-  if (sizes.namesGzipBytes > budget.namesGzipBytes) over.push(`names file ${sizes.namesGzipBytes} bytes compressed, budget ${budget.namesGzipBytes}`);
-  if (sizes.wordsGzipBytes > budget.wordsGzipBytes) over.push(`word list ${sizes.wordsGzipBytes} bytes compressed, budget ${budget.wordsGzipBytes}`);
-  if (over.length) throw new Error(`search index over budget: ${over.join('; ')}`);
-  return { namesJson, wordsJson, sizes };
+  if (sizes.namesGzipBytes > budget.namesGzipBytes) {
+    throw new Error(`search index over budget: names file ${sizes.namesGzipBytes} bytes compressed, budget ${budget.namesGzipBytes}`);
+  }
+  return { namesJson, sizes };
 }
 
 export function writeSearchIndex(result, outDir) {
   const dir = path.join(outDir, 'data', 'search');
   fs.mkdirSync(dir, { recursive: true });
   fs.writeFileSync(path.join(dir, 'names.json'), result.namesJson);
-  fs.writeFileSync(path.join(dir, 'words.json'), result.wordsJson);
 }
