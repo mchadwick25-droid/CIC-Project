@@ -89,10 +89,19 @@ test('the Listen block shows only when the recording matches the page text', () 
   const match = withManifest({ ...base, text_sha256: sha(m.longDescription) });
   assert.match(match, /class="narration"/);
   assert.match(match, /narration-player\.js/);
+  assert.doesNotMatch(match, /not a recording/);
   for (const stale of [withManifest({ ...base, text_sha256: sha('older text') }), withManifest(base), withManifest(null)]) {
     assert.doesNotMatch(stale, /class="narration"/);
     assert.doesNotMatch(stale, /narration-player\.js/);
   }
+});
+
+test('the Listen block is labelled as the audio brief, with its length from the recording', () => {
+  const m = census.movements.find(x => x.longDescription && !fs.existsSync(path.join(root, `cic-website/data/worlds/${x.id}.json`)));
+  const sha = crypto.createHash('sha256').update(m.longDescription, 'utf8').digest('hex');
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'tree-audio-'));
+  fs.writeFileSync(path.join(dir, 'manifest.json'), JSON.stringify({ [m.id]: { file: `${m.id}.mp3`, bytes: 1200000, outputFormat: 'mp3_44100_64', text_sha256: sha } }));
+  assert.match(generate(census, dir)(`tree/${m.id}.html`), /<p class="narration-label">Audio Brief · Narrated Edition <span>2:30<\/span><\/p>/);
 });
 
 test('the data page reads its release number, date and counts from the census', () => {
@@ -126,6 +135,12 @@ test('the method page names the latest era and the census counts', () => {
   assert.ok(page.includes(`The tenth era, ${latest.title} (${latest.dates}), is not yet linked`));
   assert.match(page, new RegExp(`Today the tree holds 25 links among ${c.movements.length} movements\\.`));
   assert.match(page, /None of it has yet been reviewed by an independent scholar\./);
+});
+
+test('the method page says the narrated briefs are a synthesized voice reading the card text', () => {
+  const page = generate(census)('method.html');
+  assert.match(page, /<h2>The narrated briefs<\/h2>/);
+  assert.match(page, /read by a synthesized voice, made with the ElevenLabs text-to-speech service\. No person recorded it\./);
 });
 
 test('the method and data pages are linked from the about page, the map, every page footer and the sitemap', () => {
@@ -454,7 +469,8 @@ test('the map card shows the printed originals and references below the brief, c
   const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
   assert.match(map, /function quotesPanel\(card\)\{/);
   assert.match(map, /<details class="sources-panel quotes-panel"><summary>Quotations and references<\/summary>/);
-  assert.match(map, /h\+='<p class="quotes-note">Quotations are given in our modern English\. The printed wording of each is below\.<\/p>';\n    h\+=quotesPanel\(card\);/);
+  assert.match(map, /read=briefTextHTML\(p\.longDescription\);\n    if\(card\.quotationOriginals&&card\.quotationOriginals\.length\)read\+='<p class="quotes-note">Quotations are given in our modern English\. The printed wording of each is below\.<\/p>';\n    read\+=quotesPanel\(card\);/);
+  assert.match(map, /folds\.push\(foldHTML\('Read the brief',readLen,\[\['',read\]\]\)\);/);
 });
 
 test('a council page shows how it worked, the printed wording behind its quotations, and its story with recording', () => {

@@ -110,7 +110,8 @@ li{margin-bottom:.5rem}
 .quotes-panel summary{cursor:pointer;font-family:var(--sans);font-weight:600}
 .narration{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin:1.5rem 0}
 .narration audio{display:block;height:2.2rem;max-width:220px;width:220px;flex:0 0 auto}
-.narration-disclosure{font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:0}
+.narration-label{flex:1 1 100%;font-family:var(--sans);font-weight:700;margin:0}
+.narration-label span{font-weight:400;color:var(--muted)}
 .action-links{margin:1.5rem 0;padding:1rem;background:var(--surface);border-radius:4px}
 .action-links p{margin:0 0 .8rem;font-family:var(--sans);font-size:.95rem}
 .action-links a{display:inline-block;padding:.6rem 1rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px;margin-right:.5rem;margin-bottom:.5rem}
@@ -420,6 +421,14 @@ function hasOwnWorldStory(movementId) {
 const treeManifestPath = path.join(audioDir, 'manifest.json');
 const treeAudioManifest = fs.existsSync(treeManifestPath) ? JSON.parse(fs.readFileSync(treeManifestPath, 'utf-8')) : {};
 
+// A recording's length as m:ss, from its size and the bitrate in its output format.
+export function briefClock(rec) {
+  if (!rec || !rec.bytes) return '';
+  const kbps = Number((/_(\d+)$/.exec(rec.outputFormat || '') || [])[1]) || 64;
+  const total = Math.round(rec.bytes * 8 / (kbps * 1000));
+  return `${Math.floor(total / 60)}:${String(total % 60).padStart(2, '0')}`;
+}
+
 // The Listen player shows only while the recording's stored fingerprint
 // matches the text the page now reads.
 function hasNarration(movement) {
@@ -604,7 +613,7 @@ function storiesHtml(movement) {
     const key = `${movement.id}-${i}`;
     const rec = docStoryManifest[key];
     const audio = rec && rec.hash === docStoryFingerprint(st.text)
-      ? `<div class="narration"><audio controls preload="none" src="../audio/docstories/${key}.mp3"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div>` : '';
+      ? `<div class="narration"><audio controls preload="none" src="../audio/docstories/${key}.mp3"></audio></div>` : '';
     const text = st.text.split('\n').map(p => p.trim()).filter(p => p).map(p => `<p>${escapeHtml(p)}</p>`).join('');
     return `<section><h2>${escapeHtml(st.title)}</h2>${audio}<div class="reading">${text}</div>${quotesHtml(st)}</section>`;
   }).join('');
@@ -683,8 +692,8 @@ ${siteHeader('../')}
     <h2>About This ${isCouncil ? 'Council' : isPerson ? 'Person' : 'Movement'}</h2>
     ${narrated ? `
     <div class="narration">
+      <p class="narration-label">Audio Brief · Narrated Edition${briefClock(treeAudioManifest[movement.id]) ? ` <span>${briefClock(treeAudioManifest[movement.id])}</span>` : ''}</p>
       <audio controls preload="none" src="../audio/tree/${movement.id}.mp3"></audio>
-      <p class="narration-disclosure">Synthesized voice — not a recording.</p>
     </div>
     ` : ''}
     ${movement.longDescription ? `<div class="reading">${escapeHtml(movement.longDescription).split('\n').map(p => p.trim()).filter(p => p).map(p => `<p>${p}</p>`).join('')}</div>` : (movement.sourcing ? `<p>${escapeHtml(movement.sourcing)}</p>` : '<p>No detailed description available.</p>')}${isCouncil ? councilParts.quotes : personCard.quotes}
