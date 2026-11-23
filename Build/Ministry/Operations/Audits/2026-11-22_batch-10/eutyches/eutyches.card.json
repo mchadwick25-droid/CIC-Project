@@ -20,7 +20,7 @@
     "traces": [
       "The Council of Chalcedon's definition receives Leo's letter to Flavian \"for the removal of the false doctrines of Eutyches\".",
       "Later councils name Eutyches beside Nestorius in their lists of condemned teachers.",
-      "The Syriac chronicle says Peter Mongus of Alexandria, about 482, accepted the emperor Zeno's Henotikon, a letter of union that anathematized Nestorius and Eutyches.",
+      "The Syriac chronicle says Peter Mongus of Alexandria accepted the emperor Zeno's Henotikon, a letter of union that anathematized Nestorius and Eutyches.",
       "The Life of Severus says Severus of Antioch wrote a discourse and many letters against the heresies of Eutyches, and that eastern monks anathematized the heresies of Nestorius, Eutyches and Apollinaris. Severus's own letters speak of the heresy of Eutyches.",
       "Philoxenus of Mabbug lists Eutyches with Mani and Marcion among those who deny the Incarnation of the Word.",
       "A book printed in English in 1912 by Ormanian, a former Armenian patriarch, says the Armenian Church officially and solemnly anathematizes his name, with those of Arius, Macedon and Nestorius.",
@@ -51,7 +51,8 @@
     "Hefele, a historian of the councils, doubts the text of canon 95 of the council of 692, which names Eutyches among the heretics converts must anathematize.",
     "Evagrius ended his history in the twelfth year of the emperor Maurice Tiberius (Evagrius, lines 12203-12204). The year 594 is a modern reckoning, Walford's, the translator's, from his title and running heads (lines 214, 12173).",
     "The year of Timothy Aelurus's return from exile, 475, is a modern date, Walford's, from his running head over the revolt of Basiliscus (Evagrius, line 5367). The Syriac chronicle gives no year; it says only that Basiliscus ordered Timothy to return (lines 5248-5249).",
-    "That the churches that refused Chalcedon were not followers of Eutyches is a modern judgment. Payne Smith, translator of John of Ephesus in 1860, writes that his party is not to be confounded with the followers of Eutyches, whom they anathematized by name (lines 225-228). J. A. Douglas, in The Christian East in 1922, writes that the Jacobite and its sister churches have never been Monophysite to the core and that rejecting Chalcedon is no proof of heresy (lines 3909-3913)."
+    "That the churches that refused Chalcedon were not followers of Eutyches is a modern judgment. Payne Smith, translator of John of Ephesus in 1860, writes that his party is not to be confounded with the followers of Eutyches, whom they anathematized by name (lines 225-228). J. A. Douglas, in The Christian East in 1922, writes that the Jacobite and its sister churches have never been Monophysite to the core and that rejecting Chalcedon is no proof of heresy (lines 3909-3913).",
+    "The year of Zeno's Henotikon, 482, is a modern date, Walford's, from his running head (Evagrius, line 5875). The Syriac chronicle gives no year for it."
   ],
   "sources": {
     "ownWords": [
@@ -143,6 +144,20 @@
         "date": null,
         "language": "French translation of the Syriac",
         "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt"
+      },
+      {
+        "title": "The Third Part of the Ecclesiastical History of John, Bishop of Ephesus, translator's preface",
+        "author": "R. Payne Smith",
+        "date": "1860",
+        "language": "English",
+        "file": "cic/texts/john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt"
+      },
+      {
+        "title": "Relations with Mar Ignatios, The Christian East, volume 3, number 1",
+        "author": "J. A. Douglas",
+        "date": "1922",
+        "language": "English",
+        "file": "cic/texts/christian-east_v3-no1-march-1922.txt"
       }
     ]
   },
