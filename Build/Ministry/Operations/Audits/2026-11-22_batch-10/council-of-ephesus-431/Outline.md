@@ -139,6 +139,8 @@ Past six names: Cyril, Nestorius, John of Antioch, Candidian and the emperor car
 - Not that John's assembly restored Nestorius or declared his teaching sound. It deposed Cyril and Memnon and demanded that Cyril's twelve curses be rejected (E10).
 - Not "Candidian took Nestorius's side" in the narrator's voice. That is Hefele's hostile reading (D5). Tell his protest in his own words.
 - Not the peace of 433 before the emperor's arrests, and not Chalcedon before the peace.
+- Not "the Eastern bishops" or "the Easterns" unexplained for the letter Chalcedon took. Say "his letter of peace to John of Antioch's bishops" (I1, E18).
+- Not "never accepted" or "never formally rejected" for Wigram. Say "had not accepted, nor formally rejected, and had never been asked to do either" (WIG 9272–9274).
 
 **Leave out**
 
