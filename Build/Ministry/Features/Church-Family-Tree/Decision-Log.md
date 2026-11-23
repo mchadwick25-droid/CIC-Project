@@ -5581,3 +5581,40 @@ Mark, after the scan results: "yes, fix those three".
 **Result.** After the fixes the same scan reports no failing rule on any of the six page types at either width, nor on the map with a card open. Screens look the same.
 
 **Not done.** Nobody has used the site with a real screen reader (VoiceOver, TalkBack, NVDA); the scan cannot judge contrast of text drawn inside the map.
+
+## 2026-11-23 — Search level 1 built behind a switch that stays off (Mark: "Option A, build the rest")
+
+**Asked.** Build the four slices of search level 1 inside the frozen design (Decision-Log, "Search: three levels, and the level 1 design converged", 2026-11-22). No model calls, no metered spend.
+
+**Decided (Mark: "Option A, build the rest").** Lit results on phones (Open-Gaps 372): a country or a year lights its entries with the family line's own lighting, and the phone strip takes a second wording ("9 traditions in Ethiopia · Show the list"). The strip and the chip now accept a set of entries as well as one entry. Nothing else in the family line changed. Options B (list only, which would have reversed decision 6) and C (a new bar) were not taken.
+
+**Built.**
+1. Index builder at deploy time (`tools/build_search_index.mjs`, run by `tools/build_tree_site.mjs`). Two files under `data/search/`: `names.json` (entry ids, every name, short name, everyday name, other names on people cards, eras, rivers, the living list, and sourced names) and `words.json` (a word list over the visitor-readable text, pointing to entries). It reads `cic-website/data/search-names.json` when the names batch adds it, and builds without it. The build fails over a size budget.
+2. Search box and panel (`cft-website/search-ui.js`, matching in `cft-website/search-core.js`): combobox with arrow keys, Enter, Escape and a visible focus; the result count announced after typing stops; groups Traditions, People, Councils, Places, Parts of the map, Found in the text (Topics is held back while empty); a full list inside the panel as headings and links to the tree pages; matching for accents, plurals, "St" and "Saint", hyphens, one-letter typos, a year, a range, a century, "AD", "CE" and "c."; "Living today" first for a broad word; a plain line for each place or date result; a no-match view with the nearest name and the eras and rivers.
+3. Map moves: an entry opens its card and centers the map; an era goes into the era; a river scrolls to its head; a country or a year lights its entries.
+4. Text search: entries that use every word of the question, with the sentence copied whole from the entry's own text. The group says how many entries use the words and that other entries may cover the subject in other words.
+
+**Choices made inside the design, for Mark to veto.**
+- The code loads only when the Search button is first pointed at or focused, so the first page load gains only the button and the lighting code (3.8 KB raw, 1.1 KB compressed on the slim page; no search file is fetched on first load).
+- The eras and rivers are read at build time (rivers from the page's own list) and live in the names file, so they cannot drift from the map.
+- The census's `living` field means alive today through a continuing line, and the slim page does not carry it, so it travels in the names file.
+- A question of three or more words also finds an entry named in it (Origen in the question about heaven), and runs the text search.
+- `/data/search/*` is served with `public, max-age=0, must-revalidate` like the card files, so a repeat visit costs a "not modified" reply and not 270 KB.
+- The names file's row shape was not fixed by the names batch prompt. The builder reads a list or `{rows: [...]}`, each row with `name`, `kind` (other name, older name, spelling, name given by opponents) and one of `entry`, `country` or `region`. A row that does not fit stops the build. The names batch must match this.
+- A name given by opponents is shown as "a name its opponents gave it", taken from the row's kind; search writes no wording of its own about a name.
+
+**Measured (census release 52).** Names file 84.1 KB (25.5 KB compressed, budget 32 KB). Word list 543.9 KB (228.9 KB compressed, budget 245 KB), above the 175 to 205 KB estimate and inside the budget. Unit tests: 15 for the builder, 13 for the matching, including that every sentence shown equals a sentence in the entry's own text on all entries. Browser checks with the keyboard alone, on desktop and an emulated phone: the automated scan (axe, WCAG 2 A and AA plus best practice) reports no violation on the map, with search open and empty, with results, with no match, with the full list, with entries lit and with a card open.
+
+**Not done.** Search stays off: `SEARCH_ON` is false in `cft-website/index.html` until the first names batch has merged (Open-Gaps 370). Screenshots of "nestorian" use a test row added to a scratch copy only; the real tree holds no such name today. Nobody has used it on a real phone or with a real screen reader (Open-Gaps 371).
+
+## 2026-11-23 — Change order: search level 1 is one simple field and one short list (Mark)
+
+**Mark, on the first build.** "i think we just want a simple search field for now, one of the problems we are running into is we are bombarding people with way to many options and information, its making for a chaotic experience. we need simplicity and order that meets the users needs. clear accessability"
+
+**Decided (Mark: "One short list").** One field and one flat list of at most six matches, each a name with its dates. A country or a year gives one line that lights those traditions on the map. A miss gives one plain sentence and the nearest name. This changes decisions 1 and 4 of "Search: three levels, and the level 1 design converged" (2026-11-22) and slice 2 of the launch prompt, and it supersedes the entry above ("Search level 1 built behind a switch that stays off") where they differ.
+
+**Removed from the build.** The group headings, the "Found in the text" group and the text search (so no word list is built or served), "See all" and the full list, the era and river results, and the era and river buttons on a miss. The matching rules, the names file, the sourced-name wording ("a name its opponents gave it"), "Living today" ordering for a broad word and lighting on the map stay. The word-list builder and the sentence code stay in the code, tested and not deployed, for the later step that adds text search.
+
+**Measured.** Names file 25.5 KB compressed (budget 32 KB). Nothing but the names file is fetched, and only when the box is first opened. Automated scan (axe, WCAG 2 A and AA plus best practice) clean on the map, with search open, with results, with no match, with entries lit and with a card open, on desktop and an emulated phone, driven with the keyboard alone.
+
+**Still off.** `SEARCH_ON` stays false until the first names batch has merged (Open-Gaps 370).
