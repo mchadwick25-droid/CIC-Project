@@ -36,11 +36,11 @@ Every cited line was opened: RUF 27264-27385; PG25 92790-92815; N204 1517-1520, 
 
 **MINOR 6. "years later" (beat 4).** Rufinus has "postmodum", afterwards (RUF 27383-27384); he gives no span. Replace "years later he became a priest there" with "later he became a priest there".
 
-**MINOR 7. "in each town" (beat 3).** Rufinus has "per loca singula", in each place (RUF 27329). Replace "in each town" with "in each place". Also, "potestatem maximam" (RUF 27328) is great authority, not freedom: replace "He gave them wide freedom" with "He gave them great authority".
+**MINOR 7. "in each town" (beat 3).** Rufinus has "per loca singula", in each place (RUF 27329-27330). Replace "in each town" with "in each place". Also, "potestatem maximam" (RUF 27329) is great authority, not freedom: replace "He gave them wide freedom" with "He gave them great authority".
 
 **MINOR 8. Who tells it: the book of saints was translated, not compiled, in Ge'ez.** Budge (SYN1 1089-1094) says "the translation of the SYNAXARIUM into Ethiopic" took place in the fifteenth century. Replace "compiled in Ge'ez in the fifteenth century" with "put into Ge'ez in the fifteenth century, by its editors' dating".
 
-**MINOR 9. Do not say: one easy addition is missing.** Add: "\"Sold as slaves\", or any age for the boys. Say: spared, out of pity, and taken to the king (RUF 27315-27316); Rufinus calls them small boys and gives no age. \"Captive\" is the slate's and the Roman Martyrology's word (BRV 83723-83724)."
+**MINOR 9. Do not say: one easy addition is missing.** Add: "\"Sold as slaves\", or any age for the boys. Say: spared, out of pity, and taken to the king (RUF 27315-27316); Rufinus calls them small boys and gives no age. \"Captive\" is the slate's and the Roman Martyrology's word (BRV 83724)."
 
 ## Field checks
 
