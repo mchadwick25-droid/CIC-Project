@@ -23,7 +23,11 @@
       "Augustine of Hippo wrote a long run of books against him and his followers, among them On Nature and Grace, On the Proceedings of Pelagius and On the Grace of Christ.",
       "Jerome of Strido wrote his Dialogue against the Pelagians at Bethlehem. W. H. Fremantle, who edited Jerome in English, says Jerome \"does not scruple to brand Pelagius as a heretic.\"",
       "Augustine answered Pelagius's book on nature without naming him. He says he left the name out to keep on friendly terms with him. Two men he calls Pelagius's former disciples, Timasius and Jacobus, had put the book in his hands.",
-      "A letter from Rome to the Irish churches, kept in Bede's History, says that the poison of the Pelagian heresy \"again springs up among you\" and that the heresy had been \"abolished these two hundred years\"."
+      "A letter from Rome to the Irish churches, kept in Bede's History, says that the poison of the Pelagian heresy \"again springs up among you\" and that the heresy had been \"abolished these two hundred years\".",
+      "Bede, writing in 731, calls him \"a Briton\" who spread \"far and near\" the infection of his doctrine against the assistance of God's grace.",
+      "Vincent of Lérins, in 434, asks who before \"that profane Pelagius\" gave free will so much strength \"as to deny the necessity of God's grace to aid it towards good in every single act\".",
+      "Faustus of Riez, about 474, begins the list of chapters of his book On Grace with the view of Pelagius, who denied grace, which he says must first be destroyed.",
+      "Constantius of Lyon, about 480, in his Life of Germanus, sets two sides of a public dispute against each other: on one side divine authority, on the other human presumption; on one side Pelagius as author, on the other Christ. Bede copies the passage."
     ],
     "remembered": [
       "Before the quarrel, Augustine called him \"a holy man, as I am told, who has made no small progress in the Christian life.\"",
@@ -164,6 +168,27 @@
         "date": null,
         "language": "English translation",
         "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
+      },
+      {
+        "title": "On Grace (De gratia), list of chapters of Book 1",
+        "author": "Faustus of Riez",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt"
+      },
+      {
+        "title": "Life of Germanus (Vita Germani)",
+        "author": "Constantius of Lyon",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/constantius-lyon_vita-germani_levison1920.txt"
+      },
+      {
+        "title": "Commonitorium, chapter 24 (Vincent of Lérins)",
+        "author": "Vincent of Lérins",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml"
       }
     ]
   },
@@ -190,15 +215,18 @@
   "quotationOriginals": [
     {
       "modern": "But spiritual riches no one can give you except yourself. In these, then, you are rightly praised. In these you are rightly set above others. They cannot exist except from you and in you.",
-      "printed": "your spiritual riches no one can have conferred on you but yourself; for these, then, you are justly praised, for these you are deservedly to be preferred to others,—for they can exist only from yourself and in yourself",
-      "work": "Pelagius, Letter to Demetrias, ch. 11, as B. B. Warfield gives it in English in his Introductory Essay",
-      "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml",
-      "lines": "1281-1282",
-      "uncertain": "The Latin is held only in damaged prints (Migne PL 30 lines 811-817, the same passage quoted in Migne PL 33 lines 62414-62419 and in Goldbacher lines 4490-4496); the rendering follows the three read together, and Warfield's English agrees with it in sense."
+      "printed": "Spirituales vero divitias nullus tibi, praeter te, conferre poterit. In his ergo jure laudanda es : in his merito caeteris praeferenda es : quae nisi ex te, et in te esse non possunt.",
+      "work": "Pelagius, Letter to Demetrias, ch. 11, ed. Migne (PL 30)",
+      "file": "cic/texts/pelagius_epistula-ad-demetriadem-lat_migne.txt",
+      "lines": "814-817",
+      "englishPrinted": "your spiritual riches no one can have conferred on you but yourself; for these, then, you are justly praised, for these you are deservedly to be preferred to others,—for they can exist only from yourself and in yourself",
+      "englishFile": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml",
+      "englishLines": "1281-1282",
+      "uncertain": "The print is damaged; the wording given here is the reading it shares with Migne PL 33 lines 62416-62419 and Goldbacher lines 4493-4496, both also damaged, which quote the passage inside Augustine's Letter 188 without \"es\" after \"laudanda\". The English is B. B. Warfield's."
     },
     {
       "modern": "'These good things can only be in you': that was very well and very truly said. That is clearly food. But when he says 'only from you', that is wholly poison.",
-      "printed": "Non possunt esse ista bona nisi in te', optime et uerissime dictum est; iste plane cibus est; quod uero ait 'non nisi ex te', hoc omnino uirus est",
+      "printed": "'Non possunt esse ista bona nisi in te', optime et uerissime dictum est; iste plane cibus est; quod uero ait 'non nisi ex te', hoc omnino uirus est",
       "work": "Augustine of Hippo and Alypius, Letter 188, to Juliana, ed. Goldbacher",
       "file": "cic/texts/augustine_epistulae-critical_goldbacher-csel57-pars4.txt",
       "lines": "4513-4515",

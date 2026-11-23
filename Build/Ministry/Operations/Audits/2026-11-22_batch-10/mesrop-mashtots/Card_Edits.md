@@ -58,3 +58,35 @@ None. Every existing claim was checked and found supported except the three corr
 ## Open item
 
 The validator reports `secondReading` missing on all three entries, as expected (release sets it). The vision quotation's French is broken by a page of footnotes at T12 55858-55882; the validator fails on `printed` until `tools/quote_scan_readings.json` lists that range as a footnote drop. Tested on a scratch copy: with the drop listed, only the `secondReading` errors remain.
+
+## Second pass (2026-11-23)
+
+T2 = `cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt`.
+
+### The checker's changes
+
+All seven applied word for word, each old text found once: `briefReferences[0]`, `[2]`, `[9]`, `[10]`, `[11]`, `[12]`; `uncertain[6]`; `legacy.remembered[2]`.
+
+### Scan readings to add
+
+None listed by the checker.
+
+### Items added
+
+- `uncertain` (new last item): "Moses of Khoren gives the full texts of four letters: Sahak to the emperor Theodosius, Sahak to Atticus, the bishop of the capital, Sahak to the general Anatole, and Theodosius's answer to Sahak. Mesrop and Sahak's nephew Vartan carry them."
+  - Evidence: T2 24200-24225 (to Theodosius), 24250-24262 (to Atticus), 24266-24280 (to Anatole), 24294-24325 (Theodosius). Outline, Leave out: "for the card".
+- `uncertain` (new last item): "Koriun's French gives the death on the eighteenth of méhégan, and Moses of Khoren and Lazar of Pharp the thirteenth. The notes in Langlois's edition turn the thirteenth into 19 February 441 in one place and 12 February 441 in another."
+  - Evidence: T2 4213-4216; 25335; 25380-25381 (19 February 441); 37889-37890 (12 February 441). Outline, Leave out: the editors' equivalents "for the card".
+
+### Skipped
+
+- French translation only: `uncertain[0]` holds it.
+- The punishment "justly inflicted on the body": `uncertain[10]` holds it.
+- The burial dispute and Vahan's church at Oshakan: `uncertain[14]` and `legacy.traces[5]` hold them.
+- The two dates of death: `uncertain[2]` holds them.
+- Hermit years, "learned in civil and military affairs": `legacy.remembered[2]` holds them.
+- Samos and Samosata: `uncertain[4]` holds it.
+- "Mesrobian letters" and the feast of the Translators: `legacy.traces[2]` and `legacy.remembered[3]` hold them.
+- Daron (fresh read): `placeNote` already names Daron. The held scan prints the canton as "Baron" (T2 3440), so no further line was added.
+- Who asked Koriun to write (D11): the outline sends it to the Koriun story. Mesrop's term at the head of the see: `uncertain[13]` holds it.
+- Validator, scratch census, `--skip-quotes`: four errors for this entry. Three are `secondReading` missing (set at release); one is `printed` of quotationOriginals[0] not standing at T12 55853-55883 (footnote page, the open item above).

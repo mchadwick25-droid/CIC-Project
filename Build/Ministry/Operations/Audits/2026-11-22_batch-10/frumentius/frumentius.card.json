@@ -27,8 +27,9 @@
     "No held source says how the rulers of Auxumis answered the emperor's letter, or what Frumentius did. The letter's date, about 356, is Robertson's dating of the Apology to Constantius (356 to 357). His table of dates gives the end of 346 as the earliest possible date for the consecration.",
     "Theodoret differs from Rufinus on the killing: he has some of the crew drowned and the rest taken prisoner, where Rufinus has all but the two boys killed. Jackson, in a note, reads Rufinus's Roman way of prayer as the manner of the empire's citizens, not the customs of the church of Rome.",
     "Philostorgius, in Photius's later summary, has an Arian envoy, Theophilus, come to the Auxumites. It names no Frumentius.",
-    "The Ethiopian book of saints, a late compilation, names the king Alameda, puts Frumentius's return under Abreha and Asbeha, has the two youths taught the work of war and says they brought up the king's children. None of this is in Rufinus.",
-    "A royal stone at Aksum, carved in Greek in the first half of the fourth century by Littmann's dating, names a king Aizanas and his brother Saiazanas. Littmann, following Nöldeke, matches the brother's name to Sazanas in the emperor's letter. That match is a modern reconstruction."
+    "The Ethiopian book of saints, a late compilation, calls him Fremenatos, names the king Alameda, puts Frumentius's return under Abreha and Asbeha, has the two youths taught the work of war and says they brought up the king's children. None of this is in Rufinus.",
+    "A royal stone at Aksum, carved in Greek in the first half of the fourth century by Littmann's dating, names a king Aizanas and his brother Saiazanas. Littmann, following Nöldeke, matches the brother's name to Sazanas in the emperor's letter. That match is a modern reconstruction.",
+    "Rufinus opens by saying that no apostle's preaching had reached this further India, and that it first received the seeds of faith in the times of Constantine."
   ],
   "sources": {
     "about": [
@@ -129,6 +130,13 @@
         "date": null,
         "language": "English",
         "file": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt"
+      },
+      {
+        "title": "The Book of the Saints of the Ethiopian Church, vol. 1, introduction (the date of the Ethiopic translation)",
+        "author": "E. A. Wallis Budge",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt"
       }
     ]
   },
@@ -139,7 +147,7 @@
     "Archibald Robertson's prolegomena and chronology to Athanasius: Athanasius made bishop in 328, the letter about 356, and the consecration no earlier than the end of 346.",
     "Hiob Ludolf, A New History of Ethiopia: the ninety-five metropolitans counted from Frumentius.",
     "The Ethiopian Synaxarium, 26 Hamle: Abba Salama, the peace of Christ, and his death in peace.",
-    "World census, Aksumite Christianity (conversion era): the setting in what is now Ethiopia and Eritrea, and the church of Aksum taking its bishops from Alexandria."
+    "World census, Aksumite Christianity (conversion era) and Post-Aksumite Ethiopian Christianity: the setting in what is now Ethiopia and Eritrea, and the church of Aksum taking its bishops from Alexandria."
   ],
   "quotationOriginals": [
     {
@@ -163,7 +171,10 @@
       "work": "Constantius to the princes of Auxumis, in Athanasius, Apology to Constantius 31, English of 1892",
       "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
       "lines": "36144-36145",
-      "uncertain": "The Greek of the letter is held only in a damaged scan (Migne, PG 25), so the 1892 English stands alone as the print. The modern words follow the Greek, which says to send Frumentius the bishop to Egypt most speedily, and that Athanasius put him in this rank, being guilty of countless evils."
+      "original": "Οὐκοῦν Φρουμέντιον τὸν ἐπίσκοπον ἐκπέμπετε τὴν ταχίστην εἰς Αἴγυπτον",
+      "originalFile": "cic/texts/athanasius_opera-omnia-pg25-grc-lat_migne1857.txt",
+      "originalLines": "92806-92807",
+      "uncertain": "Migne's Greek is a damaged scan, read by hand and confirmed by the 1892 English. The modern words follow the Greek, which says to send Frumentius the bishop to Egypt most speedily."
     },
     {
       "modern": "This Frumentius was set in this rank by Athanasius, a man guilty of countless crimes.",
@@ -171,7 +182,10 @@
       "work": "Constantius to the princes of Auxumis, in Athanasius, Apology to Constantius 31, English of 1892",
       "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
       "lines": "36150-36151",
-      "uncertain": "The Greek of the letter is held only in a damaged scan (Migne, PG 25), so the 1892 English stands alone as the print. The modern words follow the Greek, which says to send Frumentius the bishop to Egypt most speedily, and that Athanasius put him in this rank, being guilty of countless evils."
+      "original": "τὸν Φρουμέντιον τοῦτον εἰς ταύτην τὴν τάξιν τοῦ βίου κατέστησεν Ἀθανάσιος, μυρίοις ἔνοχος ὢν κακοῖς",
+      "originalFile": "cic/texts/athanasius_opera-omnia-pg25-grc-lat_migne1857.txt",
+      "originalLines": "92812-92814",
+      "uncertain": "Migne's Greek is a damaged scan, read by hand and confirmed by the 1892 English. The modern words follow the Greek, which says Athanasius put him in this rank, being guilty of countless evils."
     }
   ]
 }

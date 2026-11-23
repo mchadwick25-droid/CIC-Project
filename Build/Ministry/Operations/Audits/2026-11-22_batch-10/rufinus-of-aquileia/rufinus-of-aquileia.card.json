@@ -30,7 +30,10 @@
       "Gennadius adds that in this way Rufinus \"opened to the Latin speaking church the greater part of the Greek literature\".",
       "In his Church History Rufinus says he had the story of Frumentius, who brought the faith to a king's court in what he calls India, from Edesius, Frumentius's companion and later a priest at Tyre. Socrates of Constantinople repeats that Rufinus says so.",
       "Socrates says that in revising his first two books he still used the testimony of Rufinus \"where it is evident that he could not be mistaken.\"",
-      "The introduction to Origen in the Ante-Nicene Fathers says that only small portions of Jerome's own new translation of On First Principles have reached our day."
+      "The introduction to Origen in the Ante-Nicene Fathers says that only small portions of Jerome's own new translation of On First Principles have reached our day.",
+      "Gennadius says Rufinus wrote on Jacob's blessing on the patriarchs in a threefold sense, \"the historical, moral and mystical\".",
+      "W. H. Fremantle says Rufinus also wrote a History of the Monks of the East, partly from personal knowledge, partly from what he had heard or read of them.",
+      "Palladius of Helenopolis says that Melania and Rufinus received at their own charges those who visited Jerusalem in pursuance of a vow, bishops and monks and virgins."
     ],
     "remembered": [
       "Palladius of Helenopolis, who took his side against Jerome: \"A more learned man or a kinder than he was not to be found among men.\"",
@@ -49,7 +52,14 @@
     "His imprisonment and exile in Egypt rest on his own word. Socrates of Constantinople says only that Rufinus called himself a witness, and one of the sufferers, when the monks of Egypt were attacked.",
     "Jerome's line that \"the scorpion lies beneath the ground\" does not name him. The notes to Fremantle's edition of Jerome take the scorpion for Rufinus and date his death to 410, in Sicily.",
     "Rufinus says he followed Jerome's way of translating Origen. Jerome charges that Rufinus changed the passages on the Trinity and left the rest, so that readers would not be on guard. Fremantle says of the preface that \"the use made of his previous action can hardly be justified\", and the introduction to Origen in the Ante-Nicene Fathers says that, from the few Greek fragments, Rufinus \"was justly chargeable with altering many of Origen's expressions\".",
-    "Fremantle dates the preface to On First Principles to 397 and says it was published early in 398. He puts the Church History probably in 401, from Rufinus's words about Alaric invading Italy. The brief gives no year for either."
+    "Fremantle dates the preface to On First Principles to 397 and says it was published early in 398. He puts the Church History probably in 401, from Rufinus's words about Alaric invading Italy. The brief gives no year for either.",
+    "Rufinus says he was baptized about thirty years before at the hands of Chromatius, Jovinus and Eusebius, all now bishops. He says one of them was then a presbyter, the second an archdeacon and the third a deacon, and that the third was his teacher in the creed.",
+    "Rufinus says he stayed in Egypt six years, and two more after an interval, where Didymus lived. Fremantle calls him a pupil of Didymus, then head of the catechetical school.",
+    "Rufinus says that in the Church History he left out the tenth book of Eusebius because it was taken up with praise of particular bishops, and added what belonged to history to the ninth book. He says he compiled his own two books \"partly from the traditions of the former generation, partly from facts within my own memory\", and added them to the earlier books \"like the two fishes to the loaves\".",
+    "In his Apology to Anastasius, Rufinus says: \"I am not a defender or a champion of Origen\".",
+    "Anastasius's letter about Rufinus answers John of Jerusalem, who had asked his advice about him.",
+    "Rufinus says the brethren were constantly adjuring him to translate On First Principles, and that he yielded to Macarius. Fremantle says Urseius and Macarius asked him to translate various Greek books, among them that one.",
+    "Rufinus, in the preface to Origen on Numbers, says he had joined Pinianus and his company in their flight, for the delight of their chaste conversation. Fremantle says the party was leaving Rome by way of Sicily and Africa and that Rufinus joined their religious company."
   ],
   "sources": {
     "ownWords": [
@@ -162,20 +172,20 @@
     ]
   },
   "briefReferences": [
-    "Jerome, Letter 3, to Rufinus the Monk, written from Antioch in 374 by the editors' heading: he has heard that Rufinus is going through the remotest parts of Egypt visiting the monks, and sends the letter in the hope that it will bring him to Jerome. The brief quotes the last line on friendship. The line before it says a friend is long sought, hardly found, and with difficulty kept.",
-    "W. H. Fremantle, Prolegomena on Rufinus: Rufinus and Jerome close friends in youth, part of a society of young ascetics at Aquileia in the years 370 to 373; estranged over Origen in Palestine and reconciled before Rufinus left in 397; the preface to On First Principles meant to show Jerome as his forerunner, and the use made of that example hardly justifiable; Jerome's Apology closed the controversy, Rufinus not replying and Jerome not relenting; Origen's works known through his translations; his Numbers translation his last work, and his death soon after in Sicily.",
-    "Rufinus, Apology to Apronianus I.4: living in a monastery, baptized about thirty years before at the hands of Chromatius, Jovinus and Eusebius, all now bishops, and taught the creed by the third.",
-    "Rufinus, Apology to Apronianus II: six years in Egypt and again, after an interval, two more, where Didymus lived and among the desert monks Macarius, Isidore and Pambas.",
+    "Jerome, Letter 3, to Rufinus the Monk, written from Antioch in 374 by the editors' heading: he has heard that Rufinus is going through the remotest parts of Egypt visiting the monks, and sends the letter in the hope that it will bring him to Jerome. The brief quotes the last line on friendship.",
+    "W. H. Fremantle, Prolegomena on Rufinus: Rufinus and Jerome close friends in youth, part of a society of young ascetics at Aquileia; estranged over Origen in Palestine and reconciled before Rufinus left; the preface to On First Principles meant to show Jerome as his forerunner; Jerome's Apology closed the controversy, Rufinus not replying and Jerome not relenting; Origen's works known through his translations; his Numbers translation his last work, and his death soon after in Sicily.",
+    "Rufinus, Apology to Apronianus I.4: living in a monastery, baptized about thirty years before.",
+    "Rufinus, Apology to Apronianus II: six years in Egypt and again, after an interval, two more, among the desert monks.",
     "Rufinus, Apology to Anastasius: persecuted by the heretics while at Alexandria, he underwent imprisonment and exile; home to his family after nearly thirty years away; he cut not a few passages he suspected Origen had not written; he is no defender or champion of Origen.",
-    "Palladius, Lausiac History 46: after Melania returned to Jerusalem she founded a monastery and was in charge of a convent of fifty virgins for twenty-seven years, with Rufinus living beside her, later made a priest; they received visitors at their own charges. W. K. Lowther Clarke's note: Palladius takes Rufinus's part in the quarrel with Jerome.",
+    "Palladius, Lausiac History 46: Melania founded a monastery in Jerusalem and was in charge of a convent, with Rufinus living beside her.",
     "Rufinus, preface to On First Principles, to Macarius, in two English prints: the unnamed friend who translated Origen's homilies before him and pared away what jarred with the faith; the short treatise showing heretics had falsified Origen's books; the method for the passages on the Trinity. The Latin is not held.",
     "Jerome, Letter 81, to Rufinus (399 by Fremantle): he recognizes the preface as Rufinus's and says it was aimed at him.",
     "Jerome, Apology against Rufinus I.6 and I.7, to Pammachius and Marcella (402 by Fremantle): the friends at Rome writing that the books were falsely translated; the comparison of the Latin with the Greek; the charge that the change on the Trinity would leave the reader unwarned of the rest; his own literal translation. The Latin of I.7 is in Migne.",
-    "Anastasius, bishop of Rome, letter to John of Jerusalem about Rufinus (401 by Fremantle): the emperors' decree against reading Origen; Rufinus to bring his conscience to the bar of the divine majesty; Rufinus wholly apart from Rome, whose place of living Anastasius neither knows nor wishes to know. Fremantle finds no reason to suppose the bishop passed sentence on him.",
-    "Rufinus, preface to the Church History, Books 10 and 11, in Latin, and Fremantle's English: Chromatius's request as Alaric and his Goths broke into Italy, the hope that listeners would forget their sufferings to some extent, and the two books added, running from Constantine to the death of Theodosius.",
+    "Anastasius, bishop of Rome, letter to John of Jerusalem about Rufinus (401 by Fremantle): the emperors' decree against reading Origen; Rufinus to bring his conscience to the bar of the divine majesty; Rufinus wholly apart from Rome, whose place of living Anastasius neither knows nor wishes to know.",
+    "Rufinus, preface to the Church History, Books 10 and 11, in Latin, and Fremantle's English: Chromatius's request as Alaric and his Goths broke into Italy, the hope that listeners would forget their sufferings to some extent, and the two books added.",
     "Socrates of Constantinople, Church History II.1: his first two books followed Rufinus; after reading Athanasius he judged more credit due to him who had suffered and to eyewitnesses, and revised them.",
     "A. C. McGiffert, Prolegomena to Eusebius: the version of Rufinus had a large circulation and became in the Western Church a substitute for the original throughout the Middle Ages.",
-    "Introductory Note to the Works of Origen, Ante-Nicene Fathers vol. 4: On First Principles comes to us chiefly in Rufinus's Latin; the few Greek fragments show him altering many of Origen's expressions; Jerome's new translation survives only in small portions.",
+    "Introductory Note to the Works of Origen, Ante-Nicene Fathers vol. 4: On First Principles comes to us chiefly in Rufinus's Latin; the few Greek fragments show him altering many of Origen's expressions.",
     "Rufinus, preface to Origen's Homilies on Numbers, in Latin (Baehrens) and Fremantle's English: the Barbarian within sight, Rhegium on fire, the narrow sea between Italy and Sicily, work on quiet nights as a solace from their troubles, only the comments on Deuteronomy wanting, to be added if God restores his eyesight. Fremantle dates it 410 from the burning of Rhegium.",
     "World census, The Church of Aquileia: his home tradition."
   ],

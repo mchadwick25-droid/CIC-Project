@@ -23,3 +23,10 @@ Card: `john-chrysostom.card.json`. Everything else is word for word from `Card.e
 ## Not found / noted
 
 - legacy.remembered, third item says John was "restored to communion in the thirty-fifth year after his deposition". Socrates VII.45 says "after his deposition" at 21465 and "after his death" at 21478. Left in place.
+
+## Second pass (2026-11-23)
+
+- Checker FIX 1 (quotationOriginals[0].printed, "Glory to God for all things." to "Glory to God for all things;"): applied word for word.
+- Scan readings to add: none (the checker lists none).
+- Outline items added: none. There is no Outline.md for this story, so step 2 was not done. Review.md and Fresh_Read.md were not mined for card items; skipped for that reason.
+- Validator (`--skip-quotes`, scratch census copy with this card in place): no errors for john-chrysostom.
