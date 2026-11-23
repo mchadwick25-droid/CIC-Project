@@ -168,10 +168,11 @@
     },
     {
       "modern": "He had no regard for my grey hairs. I have grown old with them in wars against heretics, and in confessing the true faith.",
-      "printed": "nor had he any regard for my grey hairs, with which I have grown old in wars against Heretics and in the Confession of the Orthodox Faith",
+      "printed": "nor had he any regard for my grey hairs, with which I have grown old in wars against",
       "work": "Eutyches's petition to the council of 449, tr. S. G. F. Perry, from the Syriac",
       "file": "cic/texts/council-of-ephesus-449_second-synod-of-ephesus-syriac-acts_perry1881.txt",
-      "lines": "23494-23504"
+      "lines": "23494-23495",
+      "uncertain": "A page break falls after the printed words shown, and the sentence ends on line 23504: Heretics and in the Confession of the Orthodox Faith. The modern words render the whole sentence, with the Orthodox Faith as the true faith."
     },
     {
       "modern": "This he certainly never did.",
