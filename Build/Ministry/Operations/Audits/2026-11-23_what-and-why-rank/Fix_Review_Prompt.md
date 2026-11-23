@@ -8,7 +8,7 @@ For each piece, check:
 2. **Nothing is invented.** Open every source the writer cites at the lines given and confirm it says what the new text says. A claim with no source, or a source that does not hold it, is BLOCKING.
 3. **No new fault**: no new bare statement, no modern scholar or "historians" in the text, no guess told as story, no quote that is not word for word in its file, no fact lost that was right before.
 4. **It still reads well aloud**: same voice, short sentences, nothing past about 25 words, American spelling, no AI tells, length within about 15 percent.
-5. **Modern works** listed are works the piece or its sources actually named.
+5. **Modern works** listed are works the piece or its sources actually named, and every field (title, author, year) comes from a file in the repository. A year or title the writer gives from memory is BLOCKING: it must be dropped or confirmed from a file.
 
 A finding that is only "could be fuller" is not a problem.
 
