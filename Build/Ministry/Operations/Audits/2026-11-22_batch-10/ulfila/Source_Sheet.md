@@ -121,4 +121,5 @@ Witness kinds: **own** (Ulfila's own words or work); **contemporary** (his pupil
   - Bernhardt's introduction (BER): about the Gothic text; used only as the second print of the Lord's Prayer.
   - Isidore's Chronicle (`chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt` 43063): the same words as the Historia Gothorum, badly OCR-damaged.
   - Maximinus's account of the law of 383 (AUX 15339-15348): after Ulfila's death; Auxentius's story, not his.
+  - Nicephorus Callistus (`nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt` 50616): an index entry only. Mansi tome 3 (`mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt` 33241): an editor's note. Cassiodorus (`cassiodorus_variae-letters-hodgkin1886.txt` 12086): Hodgkin's note. The Life of Cyril (`vita-constantini_die-legende-vom-heiligen-cyrillus-in-denkschriften-wien-19-chu-lat-deu_duemmler-miklosich1870.txt` 18312): Dümmler's note.
   - `cic/renderings/` holds nothing for him.
