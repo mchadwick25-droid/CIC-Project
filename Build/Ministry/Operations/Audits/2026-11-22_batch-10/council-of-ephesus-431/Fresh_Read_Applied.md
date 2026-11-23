@@ -14,3 +14,6 @@ No Do not say line given.
 
 ## Scorer
 council-of-ephesus-431.brief.txt: 587 words, grade 8.2 (names out 7.3), reading ease names out 68.8, 14.7 words a sentence, 0.3 joining words per 100, 22% short sentences, longest sentence 30 words - pass
+
+
+Coordinator (2026-11-23): the fresh reader's "Trims to 585" applied word for word ("but not beyond it, in Persia." → "but not in Persia.").

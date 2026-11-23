@@ -17,3 +17,6 @@ B1 Do not say line added to Outline.md.
 
 ## Scorer
 eutyches.brief.txt: 676 words, grade 8.2 (names out 7.1), reading ease names out 71.4, 15.4 words a sentence, 0.7 joining words per 100, 16% short sentences, longest sentence 39 words - pass
+
+
+Coordinator (2026-11-23): the fresh reader's "Trims to 675" T1 and T2 applied word for word.

@@ -55,3 +55,11 @@ None of the quotes appears elsewhere on the tree (searched across `cft-website/`
 3. **MINOR. One sentence is at the limit.** Wigram's sentence is 31 words, against the kit's "about 30". With finding 1 applied, it would be 33. If finding 1 is applied, split the sentence: "Wigram, an English historian of the Church of the East, in Persia, wrote in 1910 that it had not accepted this council, nor formally rejected it. It had never been asked to do either."
 
 The fresh read found no BLOCKING finding, so no Do not say line is added.
+
+## Trims to 585
+
+The brief now stands at 587 words by the scorer, after the three minor fixes. One change brings it to 585:
+
+1. In the essence paragraph, change "The verdict held in the empire, but not beyond it, in Persia." to "The verdict held in the empire, but not in Persia." This saves 2 words. The meaning is unchanged, and Wigram's sentence now carries the tie to Persia.
+
+This was checked on a scratch copy with `python -m engine.m1.profile_readability`: 585 words, grade 8.2, reading ease 68.7 with names out, longest sentence 30 words. Pass.

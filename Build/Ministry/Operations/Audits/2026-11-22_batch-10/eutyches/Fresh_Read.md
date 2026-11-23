@@ -51,3 +51,12 @@ Read against the kit and the batch header only. Not opened: `Review.md`, `Revisi
 ## Score
 
 `python -m engine.m1.profile_readability`: 674 words, grade 8.1 (names out 6.9), reading ease 72.0 (names out), 15.0 words a sentence, longest 28. Pass. Within the approved 675.
+
+## Trims to 675
+
+Read against the brief as it now stands: 676 words by the scorer, longest sentence 39 words.
+
+1. **T1 (the trim, minus 1 word).** Para 1: "Eutyches, the aged head of a monastery in Constantinople," → "Eutyches, the head of a monastery in Constantinople,". The next sentence still carries his age ("He had said he was ill and old").
+2. **T2 (no change in length; fixes my M1).** Para 6: "as a heretic, and that Flavian had shown him no pity:" → "as a heretic. Flavian, he wrote, had shown him no pity:". As M1 worded it, the sentence runs 39 words with Q2, past the kit's limit of about 30. Splitting it keeps every word of the fix and its credit.
+
+Checked by the scorer on a scratch copy with T1 and T2 applied: 675 words, grade 8.1 (names out 7.0), reading ease 71.9 with names out, longest sentence 28 words. Pass.
