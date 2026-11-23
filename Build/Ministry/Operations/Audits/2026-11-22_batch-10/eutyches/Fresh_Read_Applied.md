@@ -20,3 +20,6 @@ eutyches.brief.txt: 676 words, grade 8.2 (names out 7.1), reading ease names out
 
 
 Coordinator (2026-11-23): the fresh reader's "Trims to 675" T1 and T2 applied word for word.
+
+
+Coordinator (2026-11-23): M4 applied by the fresh read's own fallback wording ("…and the creed of Nicaea with nothing added." → "one Christ against Nestorius."), since no outline line supports the dropped clause; noted by the independent verification (`../Fresh_Read_Fixes_Verified.md`).
