@@ -167,3 +167,8 @@ Ruling: Decision-Log, "No modern opinion, guess or reconstruction in a story" (M
 Checked and kept (old sources hold them): "in 448" (the trial's acts, Mansi 6, 72773-72777, "Consulatu Flavii Zenonis & Postumiani ... sexto Idus Novembris"; the month stays out); "the next year" (Perry 22859-22862); "in 451" (Leo 8566-8572); the gloss on the union (Perry 23834-23836, "after INCARNATION by the Virgin"; Leo 4561-4562); "head of a monastery" (Perry 23989-23990); the ending's "still holding the one nature after the union" (Zach 1158-1159, 2318-2320).
 
 Word count after: 675 (`python -m engine.m1.profile_readability`), at the approved 675.
+
+
+**Fresh read correction (modern pass, 2026-11-23).** `Fresh_Read_Modern.md` BLOCKING: Evag-E 6794-6797 does not hold the label "followers of Dioscorus and Eutyches" for the refusing churches; the label is the council's shout (Councils 20172-20173). Where "Also told" item 4, "What came of him" item 1 and "What it was about" item 12 cite Evag-E 6794-6797 for it, read Councils 20172-20173 instead; the brief's sentence crediting "a later writer on their side" is cut.
+
+**Do not say:** "A later writer on Chalcedon's side called the refusing churches followers of Dioscorus and Eutyches" (Evag-E 6794-6797) → those lines are the monks of Palestine's letter to Alcison, quoted by Evagrius; they say only that "the genuine followers of Dioscorus and Eutyches were reduced to a very small number", apart from Alexandria and Egypt. Do not use them for the label; the label is the council's shout (Councils 20172-20173). The outline's "Also told" item 4, "What came of him" item 1 and "What it was about" item 12 cite these lines for the label and need the same correction.

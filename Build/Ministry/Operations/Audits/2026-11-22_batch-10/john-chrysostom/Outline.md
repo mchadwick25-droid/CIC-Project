@@ -4,7 +4,7 @@ This story was approved before the kit and has no outline or source sheet. This 
 
 ## What it was about
 
-1. **The Antiochene way of reading Scripture** (with Diodore). Already explained: "plain way", "the literal sense". The Antiochene sentence goes (Room for it, cut 1), but its tradition link moves into the Diodore sentence.
+1. **Diodore's way of reading Scripture.** Already explained: "the literal sense" (Socrates VI.3, `npnf202` 17180-17183; Sozomen VIII.2, 42694-42698). The Antiochene sentence goes (Room for it, cut 1). The tradition label "Antiochene" is out of the story (Modern pass, place 1): it is the modern editors' label, not the old sources' words.
 2. **Eutropius's sanctuary law.** Already explained: it stripped refugees of shelter in churches. Socrates gives its aim as revenge on people who had fled into churches (Socrates VI.5, 17326-17334). Documented.
 3. **The sermon over Eutropius.** Already explained, from both sides: Socrates, "added insult to cruelty", and John's own reason (Homily I on Eutropius, `npnf109`, about 17698-17722). Documented.
 4. **Homily 50 on Matthew.** Already explained: honor Christ's body by not neglecting Him naked (`npnf110` 29929-29931). Documented.
@@ -30,7 +30,7 @@ Explained: 5 (items 7, 9, 10, 13, 15). Left out: 4 (12, 14, 17, and John's Arian
 - **Now:** 359 words (`wc -w john-chrysostom.brief.txt`).
 - **The explanations add about 120 words:** item 7, about 32 with "it is said"; item 9, about 42; item 10, about 19; item 11, 2; item 13, about 23 beyond the words it replaces; item 15, about 11; and the tradition clause in item 1, 4.
 - **Cuts, events and color before meanings (42 words):**
-  1. Paragraph 1: "He came from Antiochene Christianity, with its plain way of reading Scripture." (12). The tradition link stays: Diodore's sentence ends "…the literal sense of Scripture, as Antiochene Christians did." (+4, counted above).
+  1. Paragraph 1: "He came from Antiochene Christianity, with its plain way of reading Scripture." (12). The tradition link once stood in Diodore's sentence; the modern pass took it out (Modern pass, place 1). Diodore's sentence now ends "…the literal sense of Scripture."
   2. Paragraph 1: "in Syria" from "a preacher from Antioch in Syria" (2).
   3. Paragraph 3: "the court had chosen John, and" from "In 398 the court had chosen John, and Eutropius made…" (6). It leaves "In 398 Eutropius made Theophilus of Alexandria ordain him."
   4. Paragraph 3: ", and built more hospitals" (4). The hospital stays.
@@ -46,3 +46,22 @@ Explained: 5 (items 7, 9, 10, 13, 15). Left out: 4 (12, 14, 17, and John's Arian
 **Do not say** (added from the fresh read, word for word):
 - "Do not say his preaching on the poor led to his exile. Socrates ties the exile to his rebukes of men in power."
 - "Do not say Theophilus held a grudge as fact. It is Socrates's reading."
+- "Do not call John's or Diodore's reading of Scripture Antiochene, or a school or system. That is the modern editors' label (Zenos's note, `npnf202` 17173-17179; Prevost, `npnf110` 730-732). The old sources say only that Diodore kept to the literal sense (Socrates VI.3, `npnf202` 17180-17183)."
+- "Do not give the Synod of the Oak a year. No held old source dates it. The year 403 comes from Freese's note citing Hefele (Photius, 3862-3864) and Moore's chronology (Palladius, 678)."
+- "Do not date the march to Pityus, and do not give Palladius a year. Palladius gives none. The year 407 is the year of John's death, from Socrates VI.21 (`npnf202` 18609-18612)."
+
+## Modern pass
+
+Done 2026-11-23 under the Decision-Log entry "No modern opinion, guess or reconstruction in a story" (Mark, 2026-11-23). Every sentence of the brief was checked against the cited lines, dates included. Five places rested on a modern source; three changed in words, two stand on the old sources once re-read.
+
+1. **"in the Antiochene way"** (paragraph 2). Old: "…who kept to the literal sense of Scripture, in the Antiochene way." → New: "…who kept to the literal sense of Scripture." The label rests on the modern editors: Zenos's note, "the Antiochian system of interpretation" (`npnf202` 17173-17179), and Prevost, "the so-called Antiochian school" (`npnf110` 730-732). No old source calls it that. The words that stay are held by Socrates VI.3, Diodore "limited his attention to the literal sense of scripture, avoiding that which was mystical" (`npnf202` 17180-17183), and Sozomen VIII.2, he "avoided allegory" (42694-42698). To the card: the modern view that Diodore founded an Antiochene school or system of reading Scripture, from Zenos (`npnf202` 17173-17179) and Prevost (`npnf110` 730-732).
+2. **"In 403"** (paragraph 5, the Oak). Old: "In 403 he and his bishops, meeting at the Oak…" → New: "He and his bishops, meeting at the Oak…". No held old source gives the Oak's year: Socrates VI.15 (`npnf202` 18262-18300) and the minutes in Photius, Codex LIX (3843-3850), give none. Socrates VII.45's "thirty-fifth year after his deposition" (21465) also says "the thirty-fifth year after his death" (21478-21479), so it fixes no year. The order stays as Socrates tells it. To the card: the year 403, from Freese's note citing Hefele (Photius, 3862-3864) and Moore's chronology (Palladius, 678).
+3. **"In 407, Palladius says,"** (paragraph 6). Old: "In 407, Palladius says, soldiers hurried him toward Pityus, hoping he would die. He died on the way, with his usual words…" → New: "Palladius says soldiers hurried him toward Pityus, hoping he would die. He died on the way in 407, with his usual words…". Palladius gives no year (`palladius_dialogue…moore1921.txt` 6392-6432); the old wording gave the year to him and to the march. The year moves to the death, which Socrates VI.21 dates "on the 14th of September, in the following consulate, which was the seventh of Honorius, and the second of Theodosius" (`npnf202` 18609-18612). To the card: the march's year, 407 (June), from Moore's chronology (Palladius, 706).
+4. **"There," (the Matthew sermon at Antioch)** (paragraph 2). No change in words. The review and the fresh read placed it from the editor's preface, "undoubtedly delivered at Antioch" (`npnf110` 533-535). Re-read, the place rests on John's own words in the same course of homilies: "our city first crowned itself with the name of Christian" (Homily VII, `npnf110` 5302-5303), the city of Acts 11:26. Homily 50 itself names no city (`npnf110` 29598-30037). To the card: the editor's view that the series was preached late in his years as a presbyter (`npnf110` 535-536).
+5. **"who kept to the literal sense of Scripture"** (paragraph 2). No change in words. The review's M1 traced it to Zenos's note and Prevost's preface; Socrates VI.3 holds it himself (`npnf202` 17180-17183), so the card's reference should cite Socrates, not the notes.
+
+**Checked and held, no change.** "In 398" (Socrates VI.2, "the 26th of February, under the following consulate, which the Emperor Honorius celebrated", `npnf202` 17110-17115), "In 399" (Eutropius fell in his own consular year, Socrates VI.5, 17363-17366; Homily I on Eutropius, "Consul", "thy consulship", `npnf109` 17589, 17594), "in 404" (Socrates VI.18, the sixth consulate of Honorius, `npnf202` 18500-18502) and "In 438" (Socrates VII.45, the sixteenth consulate of Theodosius, 21470-21471). The old source gives each year by its consuls; the AD figure in the editor's note is only the conversion. "At Antioch" for the training: Socrates VI.3 sets his early life there, native of Antioch and then reader in the church at Antioch (17130, 17211-17212). "Gothic general Gainas": Socrates VI.6 heading, "Gaïnas the Goth" (17388-17391). "Given them the Eucharist": "admitted them to a participation of the mysteries" (17837).
+
+**Beats changed.** Item 1 and Room for it, cut 1, above; three Do not say lines added.
+
+Words: 445 by `python -m engine.m1.profile_readability` (was 450), grade 8.2 (names out 7.2), reading ease names out 71.4, longest sentence 29: pass.
