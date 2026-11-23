@@ -187,3 +187,55 @@ Past six names: Theodoret, Nestorius, Cyril, John, Dioscorus and Leo carry the c
 16. Beat 6, the officials' word that Leo had restored his see: the shout of "the teacher of Nestorius", the demand and the curse stay. To the card. Saves 17.
 
 Count before the list 884; the list saves 233; count after 651, under the approved 675.
+
+**What it was about** (the about-pass, 2026-11-23; every line below re-read in the file named; files under `cic/texts/`, short names as in `Source_Sheet.md`; ANF1 is `anf01_apostolic-fathers-justin-irenaeus.xml`)
+
+1. **Nestorius "deposed"; "what was done against you"** (opening; Whole-tree scan). **Explain.** At Ephesus in 431 Cyril's side opened the council without John of Antioch's bishops and condemned Nestorius; John's side called it irregular and unjust. Witness: his English translator, Jackson (EDITOR). NP3 2826-2835. *Documented* in outline. Put in at the Ephesus clause, so "John's side" is explained too (item 6).
+2. **What Nestorius was charged with teaching** (Whole-tree scan). **Explain**, at the curse: the curse Chalcedon demanded fell on Nestorius and on anyone who denied that Mary was Mother of God, or split the one Son into two sons. Witness: the acts of Chalcedon, the bishops' own wording, repeated by Theodoret. NP3 3332-3337. *Documented* as the council's charge; the narrator does not say Nestorius taught it.
+3. **Cyril's twelve curses: what they said** (Gaps 1). **Explain.** The first fell on anyone who would not confess Christ truly God and so Mary Mother of God. Witness: Cyril's own text. NP3 4616-4619. *Documented.* It also sets up the brief's line on "Mother of God ... because of the union" (NP3 4733-4734).
+4. **Cyril's curses: what was wrong with them, to Theodoret** (Gaps 1). **Explain.** He charged that they brought in a mixing of God and man, which, he wrote, destroys what each nature is. Witness: Theodoret, Counter-statements II and XI. NP3 4764-4771, 5145-5148; Letter 150, "unsound", NP3 36088-36094. *Documented* as his charge.
+5. **"the teaching of Apollinarius"** (Gaps 1). **Leave it out:** named in Letter 150 (NP3 36107-36109), and its content is held only in Counter-statement XI (God took flesh without a human soul, NP3 5145-5153); explaining it costs about 15 words, and item 4 already carries his objection.
+6. **"John's side" at Ephesus 431.** **Explain**, with item 1, same witness and lines.
+7. **His accusers: accused of what** (Gaps 2). **Explain.** They called him a heretic who split the one Christ into two sons, and told the emperor he kept calling synods at Antioch. Witness: Theodoret, Letter 82, reporting his accusers' charge (their own words not held). NP3 31544-31554. *Documented* as the charge. The lost Chalcedon cry "the teacher of Nestorius" (NP3 3231-3239) need not come back: this item and item 2 carry the charge.
+8. **The emperor's order confining him: why** (Gaps 3). **Explain.** His own stated reason: no cause but his calling a synod of bishops. Witness: Theodoret, Letter 81; Letter 82 gives the accusers' side (frequent synods at Antioch, NP3 31552-31554). NP3 31453-31458. *Documented* as his account. Who procured it (Nomus, Jackson's note, NP3 31443-31446): leave it out, an editor's note and a name the story does not need.
+9. **The deposition of 449: on what charge.** **Already explained** ("he had written against Cyril", and the burning of his books). Witness: the acts, his opponents' record. P449 15581-15603, 15641-15645. *Documented.*
+10. **Why he would not accept Nestorius's removal** (Gaps 4). **Already explained** as far as held: "unjustly and wickedly" (Quote 1). Witness: Theodoret, Letter 172. M5 88746-88765; NP3 38007-38010. *Documented.* No held line gives a fuller reason; add none.
+11. **The peace of 433: what it agreed.** **Already explained:** Cyril's letter matched his own faith, two natures unmixed (the essence's "neither mixed"). Witness: Theodoret and his synod, Letter 171. NP3 37939-37958. *Documented.*
+12. **His later acceptance of the curses on Nestorius's teaching, not the man.** **Leave it out:** an editor's summary (NP3 2859-2870) of an event, cut for room (Room for it, cut 4); the Chalcedon scene carries the conflict.
+13. **"Nestorius and Eutyches together"** (Whole-tree scan: what Eutyches taught). **Leave it out:** held (Eutyches confessed two natures before the union but one after, EVW 1729-1731; NP3 3316-3322 for Theodoret's offer), but naming him needs about 12 words the count does not have, and the scene's force is the demand for a plain curse. The offer is told as "asked to explain his faith first" (NP3 3305-3331).
+14. **Followers of Marcion: what they held.** **Already explained** ("a rival church that set aside the Old Testament"). Witness: Irenaeus, Marcion's opponent: Marcion set aside "the prophets and the law" and the God who made the world. ANF1 33572-33582. *Documented* as Irenaeus's account; the brief's gloss is the plain sense.
+15. **The Church History.** **Already explained** (carried the church's story on from Eusebius). Witness: Theodoret, Prologue. NP3 5219-5224. *Documented.*
+16. **The Religious History.** **Already explained** (the Syrian monks he says he saw and heard). Witness: Theodoret. RH 113181-113182, 113729-113738. *Documented* as his eyewitness claim.
+17. **The churches that "refused Chalcedon": what they refused.** **Explain.** Chalcedon taught one Christ "in two natures", unmixed and undivided; the chronicle's side called two natures after the union Nestorius's teaching. Witnesses: the council's definition; the Syriac chronicle, credited as that side. NP14 20288-20296; ZACH 2291, 2316-2320. *Documented.*
+18. **The bribe of Leo.** **Already explained** as the chronicle's charge, credited. ZACH 2219-2221. *Documented* as a hostile memory.
+19. **His appeal to Leo: for what.** **Already explained** by the sequence (deposed, then "Leo's help"); Letter 113 asks Leo to "succour me in my appeal". NP3 33174-33177. *Documented.*
+20. **553: what was condemned.** **Already explained** ("what he had written against Cyril"). Witness: the council of 553. NP14 23656-23661. *Documented.*
+
+Four leads from `Gaps.md` closed: Gaps 1 (items 3, 4, 5), Gaps 2 (item 7), Gaps 3 (item 8), Gaps 4 (item 10); the whole-tree scan's three (items 1, 2, 13).
+
+**Room for it**
+
+Count now: 678 words (`wc -w theodoret-of-cyrrhus.brief.txt`), already 3 over the approved 675.
+
+Words the explanations add (61), each in the narrator's words, no new quote:
+- Item 7, paragraph 3: "accusers and to win" becomes "accusers, who said he split Christ into two sons, and to win". +8.
+- Items 3 and 4, paragraph 4, after "cut a person off from the church.": "The first fell on anyone who would not call Mary Mother of God. Theodoret charged that they mixed God and man into one." +23.
+- Items 1 and 6, paragraph 4: "At Ephesus in 431 he stood with John's side." becomes "At Ephesus in 431, his English translator says, Cyril's side condemned Nestorius without waiting for John's; Theodoret stood with John's." +11. (The translator's credit moves here from cut 4, so the witness is still named once.)
+- Item 8, paragraph 7: "with no charge and no accuser, he wrote." becomes "with no charge and no accuser, he wrote, only for calling bishops together." +5.
+- Item 17, paragraph 9: "refused Chalcedon begins" becomes "refused Chalcedon's teaching of two natures begins". +4.
+- Item 2, paragraph 8: "a curse on his friend." becomes "a curse on his friend and on all who split the one Son into two." +10.
+
+What goes (66), events before meanings:
+1. Paragraph 3, an event: "There, he says, he built bridges and a water channel for the town." To the card. −13.
+2. Paragraph 6, the History told twice (the essence already says it carried the story on from Eusebius): "In these years he wrote his Church History, which begins, he says, where Eusebius of Caesarea stopped, in Constantine's day. His Religious History tells" becomes "His Religious History told". To the card (Constantine's day, "he says"). −20.
+3. Paragraph 2, a name the essence need not carry ahead (Simeon is named at the pillar): ", Simeon among them." becomes ".". −3.
+4. Paragraph 5, an editor's summary of a later event (item 12): "Some years later, his English translator says, he accepted the curses on Nestorius's teaching, though not, he said, on the man." To the card. −21.
+5. Paragraph 8, the unexplained name (item 13): "He offered to condemn Nestorius and Eutyches together, with his faith explained, but" becomes "He asked to explain his faith first, but". To the card. −5.
+6. Paragraph 4, wording: "When John of Antioch asked Theodoret to answer them, he wrote:" becomes "Asked by John of Antioch to answer them, he wrote:". −1.
+7. Paragraph 5, wording: "Two years later the two sides" becomes "In 433 the two sides" (E6). −1.
+8. Paragraph 5, wording: "agreed with his own faith" becomes "agreed with his faith". −1.
+9. Paragraph 3, wording: "He also led villages" becomes "He led villages" (its "also" followed cut 1). −1.
+
+Kept, untouched: the three quotes, the Marcion villages and the stoning, the 449 acts and the burning of his books, the Chalcedon demand, shouting and curse, Evagrius, the chronicle and its bribe charge, 553, and the ending.
+
+Count after: 678 + 61 − 66 = 673, at or under 675 (checked by `wc -w` on a scratch copy with every change applied).

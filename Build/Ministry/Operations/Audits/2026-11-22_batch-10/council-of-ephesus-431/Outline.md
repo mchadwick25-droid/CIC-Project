@@ -188,3 +188,47 @@ Past six names: Cyril, Nestorius, John of Antioch, Candidian and the emperor car
 15. Words to explain: "the Word" (beat 1 says "God's own Son, made man" instead), "envoys / legates" (no envoys are told after item 1 and the earlier cuts), and the note on "without mixing". To Leave out. Saves 24 (3 glosses).
 
 Count before the list 828; the list saves 243; count after 585, at the approved 585.
+
+## What it was about
+
+Files: ACTS = `cic/texts/npnf214_seven-ecumenical-councils.xml`; BH = `cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt`; M5 = `cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-5-431-441-lat_welter-facsimile1901.txt`; HEF = `cic/texts/hefele_history-of-the-councils-v3-431-451_clark1883.txt`; WIG = `cic/texts/wigram_introduction-to-the-history-of-the-assyrian-church-100-640_1910.txt`; BAD2 = `cic/texts/badger_nestorians-and-their-rituals-v2_1852.txt`. Every line below was re-read for this pass. No new quotes; each explanation is in the narrator's words.
+
+1. **The question, Cyril's side** (Mother of God). Already explained: Mary bore God's own Son, made man, so she is Mother of God; at stake, how God and a man are one in Christ. Witness: Cyril, his second letter to Nestorius. ACTS 15795–15799. Documented.
+2. **Why Nestorius would not simply call her that.** Explain: finding one party in his city saying Mother of God and another mother of a man, he offered Mother of Christ, a title both could share. Witness: Nestorius, his own book written in exile (Syriac, in Driver and Hodgson's English), told in one clause as his side; the history of the name stays the `nestorius` story's. BH 6908–6961. Documented (as his own account). The words "Mother of Christ" are a title in the narrator's sentence, not a quote.
+3. **The deposition of Nestorius.** Already explained: the bishops judged that Cyril's letter agreed with the creed of Nicaea and Nestorius's did not, so they removed him and cut him off. Witness: the council's own acts. ACTS 15814–15847, 17263–17280. Documented.
+4. **Candidian's protest.** Already explained: he begged them to wait four more days for John of Antioch, and was driven out. Witness: Candidian, his own posted protest. M5 76784–76946; BH 7724–7770. Documented.
+5. **Nestorius's side's complaint to the emperor.** Already explained: agitators surrounded their houses; Memnon shut the churches to them and threatened death. Witness: Nestorius and his bishops' letter. M5 76673–76689. Documented (as their charge).
+6. **John's assembly deposes Cyril and Memnon.** Already explained: for holding their council apart, before the other bishops came and against the emperor's orders. Witness: John's sentence, in Hefele's English. ACTS 17886–17903. Documented.
+7. **The charge against Cyril's twelve curses.** Explain: the curses condemned anyone who would not call Mary Mother of God, or who split the one Christ in two; Nestorius's answering curses condemned making God and man one in nature. Witnesses: Cyril's curses (I to III), and Nestorius's counter-curses, his side, held in the Latin of Marius Mercator, an opponent's collection. ACTS 16294–16303, 16652–16677 (Cyril); 16306–16318, 16660–16667, 16680–16688 (Nestorius). Documented for both texts; Widely Accepted that the counter-curses are Nestorius's own, since an opponent transmitted them.
+8. **The heresies John's sentence names: Apollinarian, Arian and Eunomian.** Leave out: why. Each is a further teaching the brief would have to explain, three more meanings with no room; the plain sense of the Eastern objection is carried by item 7. The brief now says "old heresies" without naming them. ACTS 17858–17868, 17892–17893, 18684–18687.
+9. **Cyril's council cuts John's men off.** Already explained: "in turn", for their sentence against Cyril, after John would not answer three summonses. Witness: the council's letter to Celestine. ACTS 18680–18714. Documented. Its "final sentence to Rome" goes (see Room for it).
+10. **No creed but Nicaea's** (Canon VII). Explain: the ruling came when the council was shown a rival statement of how God's Son became man; it banned any other creed beside Nicaea's. Witness: the council's own decree. ACTS 18146–18170. Documented. The statement's author (Theodore of Mopsuestia) and the priest who brought it (Charisius) are not named, for room.
+11. **The condemnation of Pelagius upheld.** Leave out: why. The only held statement of what Pelagius taught here is a modern editor's summary (Percival, 1900), from the side that condemned him; his own side is the `pelagius` story's, and the explanation, credited, would cost about 20 words the brief does not have. Canon VII (item 10) keeps the council's other business in the story. ACTS 18748–18755 (the upholding); 18018–18036 (the editor's summary). Documented that it was upheld.
+12. **The commissioner's proclamation and arrests.** Already explained: on the emperor's letter, read "by persuasion and force", he declared all three deposed. Witness: Count John's own report, in Hefele's paraphrase. HEF 4959–4997. Documented.
+13. **The confession of 433 and its "natures".** Already explained: what Christ is as God and as man, one Christ, Mary Mother of God; Quote 3 carries it. Witness: the confession as Cyril copied it. As in Quote 3's lines (PUS 5217–5222; HEF 7243–7245). Documented.
+14. **John accepts Nestorius's deposition; Theodoret refuses.** Already explained: Cyril made the deposition the condition of peace; some of John's bishops refused that price. Witness: a historian of the councils (Hefele), John's letter. HEF 7224–7225, 7463–7477. Documented (the condition, Hefele's reading: Widely Accepted).
+15. **Chalcedon's guide: Cyril's two letters.** Already explained: the letter to Nestorius (item 1) and the letter of peace (item 13). ACTS 20256–20262. Documented.
+16. **The Church of the East neither accepted nor rejected the council.** Already explained: it had never been asked to do either. Witness: Wigram, 1910. WIG 9271–9274. Contested (D6).
+17. **The rites censure Nestorius's being cut off, never the council.** Already explained. Witness: Badger, 1852. BAD2 5921–5929. Documented (as his observation).
+
+Seventeen items: three to explain (2, 7, 10); two left out (8, 11); twelve already explained.
+
+## Room for it
+
+- **Count now:** 590 words (`wc -w council-of-ephesus-431.brief.txt`), already 5 over the approved 585.
+- **The explanations add 47 words:**
+  - Item 2, replacing "but" after "would not simply call her that,": "offering Mother of Christ, a title both sides could share." (10)
+  - Item 7, after "held old heresies.": "The curses damned anyone who denied Mary the title Mother of God or split Christ in two; Nestorius's answering curses condemned making God and man one nature." (27)
+  - Item 10, at the head of the creed sentence: "Shown a rival statement of how God's Son became man," (10)
+- **What goes, 52 words, events before meanings:**
+  1. Item 11, left out: "and upheld the condemnation of Pelagius and his followers" (9), with "The council also" (3), the sentence now opening on item 10's clause. 12.
+  2. Essence, told again in full in the John beat: "John's smaller assembly deposed Cyril in turn;" and "only", so the line reads "It deposed Nestorius, removing him from office; peace came two years later." 8.
+  3. Essence, told in full in the Candidian beat: "over the protest of the emperor's officer" (7). The sentence ends at "arrived."
+  4. John beat: "leaving their final sentence to Rome" (6). The cutting-off stays. To the card.
+  5. John beat: "added to his last letter to Nestorius," (7). Item 7's explanation now says what the curses were. To the card.
+  6. Candidian beat: "read the emperor's letter and" (5); the line reads "Count Candidian, the emperor's officer, begged four days more for John." The protest, its quote and the force stay. To the card.
+  7. "of Antioch" after John, once he is named: "When John of Antioch arrived," → "When John arrived,"; "In 433, John of Antioch and his bishops" → "In 433, John and his bishops"; "John of Antioch's bishops" → "John's bishops". 6.
+  8. "but" (1), replaced by item 2's clause; "Cyril said she was" begins a new sentence.
+- **Count after:** 590 + 47 − 52 = 585, checked by `wc -w` on a scratch copy with exactly these changes: 585, at the approved length.
+- **Kept, not touched:** the opening quote and Nestorius's exile; the Mother of God spine; the sixteen days' wait (Do not say: the council did wait); Candidian's protest and the force; the soldiers, by the council's own record; Nestorius's side's complaint of agitators and Memnon's threats; "by persuasion and force"; the arrests and the dissolution; Quote 3; the condition and Theodoret's refusal; Chalcedon; Wigram; and the closing on Badger.
+- **For the writer:** with the essence's counter-deposition gone, "peace came two years later" leans on the John beat to show the quarrel; if it reads thin heard once, "the quarrel lasted two years" is the same length.
