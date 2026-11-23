@@ -5599,3 +5599,11 @@ Mark, starting this work: "we cant afford to re-record everything, so lets do a 
 **Result.** Reader prompt: `Build/Ministry/Operations/Audits/2026-11-23_what-and-why-rank/Reader_Prompt.md`. Pilot on one packet: of 27 pieces read by both readers, A found 17 bare statements and B 16, 13 shared.
 
 **Not done.** The full scan, the ranked list with credit costs, and every fix. The ElevenLabs credit balance is not checked. Before any recorded text is edited, Mark rules on the hidden player (audio question 3 of the batch 10 thread).
+
+## 2026-11-23 — A fixed recorded story goes live as text; its player waits for re-recording
+
+Mark: "option A for the player question". The question was audio question 3 on the batch 10 thread's page https://claude.ai/artifact/TrET3GcNQ2989duGSvEEzQ.
+
+**Decided.** Option A as the page gave it: "Fix the text now, re-record in order. A fixed story goes live as text, and its player disappears until it's re-recorded. Re-recording follows the fix order, a batch at a time under a credit cap you approve each time, with a sample for your ear first. Batch 10 is recorded once its twelve are fixed, within the 24,000 you approved."
+
+**What it changes here.** A recorded piece no longer waits for credits to be fixed. Its text fix goes through the build cycle like any other; the ranked list then orders the re-recording, and until then the piece is text only. The site's existing fingerprint check already hides the stale player (confirmed by the audio completion thread).
