@@ -148,6 +148,8 @@ Past six names: Theodoret, Nestorius, Cyril, John, Dioscorus and Leo carry the c
 - Not "his books were burned" or "ordered burned": the council asked the emperors to order it.
 - No tears, anguish or silence at Chalcedon: the acts give none.
 - Not "he went back to Cyrrhus after Chalcedon": "Some doubt hangs over the question" (NP3 3350).
+- Not 'he built baths': he says he 'looked after the public baths'. He built bridges and the conduit (NP3 31507-31511).
+- No year for the order confining him to Cyrrhus, and not 'in 448': no held line dates it. Say 'an order from the emperor then kept him in Cyrrhus'.
 
 **Leave out**
 - The birth-year debate, and the death-year reckonings: to the card.
