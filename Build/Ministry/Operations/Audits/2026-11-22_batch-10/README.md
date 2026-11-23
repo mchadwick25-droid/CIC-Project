@@ -28,7 +28,7 @@ Lifted for the job the slate names, one per line in `Allowed_Reuse.txt`: Ulfila'
 
 ## Steps
 0. Slate: approved by Mark (2026-11-23).
-1. Research (`<slug>/Researcher_Prompt.filled.md`): eight started 2026-11-23; Theodoret after the Ephesus and Eutyches outlines, Frumentius after Rufinus's. All ten outlines done (2026-11-23); independent count in `Length_Count.md` (all ten over). Hearts and lengths sent to Mark: https://claude.ai/artifact/RRoFG9cDR3qpS5qW12kFvz (version 1). Waiting for his ruling.
+1. Research (`<slug>/Researcher_Prompt.filled.md`): eight started 2026-11-23; Theodoret after the Ephesus and Eutyches outlines, Frumentius after Rufinus's. All ten outlines done (2026-11-23); independent count in `Length_Count.md` (all ten over). Hearts and lengths approved by Mark (2026-11-23; `Hearts.md`). Each researcher is adding a Cut first list (`Cut_First_Prompt.md`).
 2. Outline check.
 3. Write.
 4. Review, after `tools/check_brief_variety.py` and `tools/check_tree_overlap.py --allow Allowed_Reuse.txt`. Chrysostom and Ephrem join here.
@@ -39,13 +39,13 @@ Lifted for the job the slate names, one per line in `Allowed_Reuse.txt`: Ulfila'
 9. Recording, with Mark's approval in his own words and a credit cap.
 
 ## Open items
-- Kit gap, to Mark on the hearts page: `roles/checker.md` and `roles/writer.md` rely on an outline's cut-first list, but nothing asks the researcher to write one, and none of the ten outlines has one.
 - For Open-Gaps at release: the `aksumite-christianity-conversion-era` card's "shipwrecked" and "tutor" are not in Rufinus (Frumentius outline); Theodoret's card says the Religious History is not held, but it is, in Greek (PG 82).
 - Eutyches's home tradition: the researcher tests the editors' claim against a primary text; it comes back to Mark on the hearts page if it holds.
 
 - Ulfila: the creed sentence his outline quotes is also rendered, differently, on the `homoian-arian-christianity` tradition page, which `check_tree_overlap.py` does not scan. The outline check weighs it under the quote rule.
-- Eutyches: the claim held (Timothy Aelurus cursed him about 475, Zachariah Rhetor l.5638-5643; against it, Egypt's bishops would not name him at Chalcedon, Evagrius l.5063-5093). His home goes to Mark on the hearts page.
-- Priscillian: "the first put to death on a church accusation" rests only on editors (Hefele reports Bernays: he died for sorcery, not heresy); the outline bars it. For Mark on the hearts page. The lifted Sulpicius line is rendered afresh from the Latin, so it no longer matches the wording on `sulpicius-severus`; the outline check weighs that.
+- At release: Eutyches's census `toldWithin` is removed (the river, Greek East), per the hearts ruling.
+- Priscillian: the lifted Sulpicius line is rendered afresh from the Latin, so it no longer matches the wording on `sulpicius-severus`; the outline check weighs that.
 
 ## Rulings
 - "Batch 10: the slate approved" (Mark, 2026-11-23: "Approve as recommended"): the twelve and halves, the research order, Eutyches's home kept for now, the quotes, no direct-line change. This batch only.
+- "Batch 10 hearts approved, with the lengths and a cut-first line in the kit" (Mark, 2026-11-23: "Approve as recommend"): the ten hearts; 4:30 at most with a Cut first list; Eutyches to the river; Priscillian not "the first". The cut-first line now lives in Kit Part 3, Length, and `roles/researcher.md` item 2; the rest, this batch only.

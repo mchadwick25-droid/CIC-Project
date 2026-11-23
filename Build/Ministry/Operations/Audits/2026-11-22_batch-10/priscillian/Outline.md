@@ -98,7 +98,7 @@ File keys and line numbers are those of `Source_Sheet.md` (top of that file). Al
 - The doubt is part of the story at Saragossa: tell it as two accounts set side by side in beat 2.
 
 **Do not say:**
-- "He was the first Christian put to death for heresy" or "the first time a Christian state executed Christians over belief." No primary held text says it; it rests on editors' notes, and one editor (Hefele, after Bernays) argues he was executed for sorcery and night meetings, not for heresy. Say instead what happened: bishops brought the charge, a prefect convicted, the emperor ordered death.
+- "He was the first Christian put to death on a church accusation" (or "for heresy", or "the first time a Christian state executed Christians over belief"). Say instead: the verdict was the court's, for sorcery: a prefect convicted him and the emperor ordered his death. The card carries the editors' claim and Bernays's view (as Hefele reports it), each credited (Mark, Decision-Log, "Batch 10 hearts approved", item 5).
 - "He confessed to sorcery" or "he admitted magic." Say: the prefect found him guilty of sorcery; Sulpicius says he did not deny studying obscene teachings, night meetings with women and praying naked; these are the court's findings.
 - "He practised magic from boyhood." Say: Sulpicius says it "was believed."
 - "Women flocked to him" as the narrator's words. Say: many women came to him, Sulpicius says; or "men and women."
@@ -125,3 +125,11 @@ File keys and line numbers are those of `Source_Sheet.md` (top of that file). Al
 - Orosius's report of his teaching on souls and the stars; Jerome's change of tone between 392 and 414; Augustine's Against Lying: card.
 - Ambrose's refusal of communion with the bishops who sought deaths: held only as a quotation inside Mansi's note; card, credited as such.
 - Toledo's condemnation of his books and the doubt about the professions' date; the Canons on Paul.
+
+**Cut first** (in the order a writer drops them; savings by the count's method: a fact 11, a gloss 8, a witness credit 6)
+1. What came 4: the imperial law of 407 naming the Priscillianists (CTh 87374-87380). To the card. Saves 11.
+2. What came 2: the later chronicler's report that Ithacius and another accuser were cut off from communion for his death (Pros 53318-53319), with its credit. Sulpicius's line that Ithacius lost his bishopric stays. To the card. Saves 17 (one fact, one witness).
+3. Beat 1: the two bishops who bound themselves to him by a kind of oath (SulpE 11486-11490). To the card. Saves 11.
+4. Words to explain: the gloss of "ascetic"; the story says "a strict, self-denying life" in plain words wherever it needs the idea, and does not name the term. To Leave out. Saves 8.
+
+Count before the list: 713. The list saves 47. Count after: 666, under the approved 675.

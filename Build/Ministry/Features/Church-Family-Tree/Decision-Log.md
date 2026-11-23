@@ -5384,3 +5384,14 @@ Mark: "try the audio manifests idle load".
 3. Eutyches keeps his census home, `cyrilline-miaphysite-egyptian-christianity`, for now. The researcher tests against a primary text the two editors' claim (Payne Smith's preface to John of Ephesus, 1860; *The Christian East*, 1922) that the churches that rejected Chalcedon later cursed him by name. If it holds, his home comes back to Mark on the hearts page.
 4. The quotes lifted and barred as the page reads them under the reuse ruling of 2026-11-21, listed in the batch README; the lifts are in `Allowed_Reuse.txt`. Rufinus's "Who but you would have laid hands on God's gift" stays barred.
 5. No census change to any tradition's direct line.
+
+## 2026-11-23 — Batch 10 hearts approved, with the lengths and a cut-first line in the kit (Mark)
+
+**Why.** All ten batch 10 outlines are done. The hearts and lengths page (https://claude.ai/artifact/RRoFG9cDR3qpS5qW12kFvz, version 1) gives each heart, its planned length, and the independent count in `Build/Ministry/Operations/Audits/2026-11-22_batch-10/Length_Count.md`: all ten count over 4:30 (713 to 915 words; the council 828 against 585). `roles/checker.md` blocks an outline "that, less its cut-first list, still runs past its approved length", and `roles/writer.md` drops "only from its cut-first list", but nothing asked the researcher for that list, and none of the ten had one.
+
+**Decided (Mark, 2026-11-23, in chat: "Approve as recommend").**
+1. The ten hearts as shown on the page, with the researchers' wording where it differs from the slate's job line: Frumentius "from a family of Tyre", Rufinus at "Jerusalem", Ulfila made bishop by "Eusebius" (the full name credited to the modern historian).
+2. Lengths: 4:30 at most for each (675 words; the council 585). Each outline goes back to its researcher before the outline check to add a cut-first list that brings the count to that length, never cutting the record's force or the scene that carries the story; the checker recounts and blocks any that does not.
+3. The kit line, in `roles/researcher.md` item 2 and Kit Part 3, Length: "End the outline with a **Cut first** list, in order, each item marked for the card or Leave out, that brings the count to the approved length." It governs this batch's fix pass on and every later batch, and reopens no finished story.
+4. Eutyches moves to the river: told within no tradition, in the Greek East, as Jovinian sits in the Latin West. Timothy Aelurus of Alexandria cursed him by name about 475 (Zachariah Rhetor, `zachariah-rhetor_chronicle_hamiltonbrooks1899.txt` l.5638-5643). The census change is made at release.
+5. Priscillian: the story does not say he was the first Christian put to death on a church accusation, which rests only on editors' notes. It tells the verdict as the court's, for sorcery; the card carries the editors' claim and Bernays's view (as Hefele reports it), each credited.

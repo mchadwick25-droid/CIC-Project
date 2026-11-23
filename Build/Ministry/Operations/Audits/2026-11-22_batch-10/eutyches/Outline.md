@@ -13,7 +13,7 @@ Files are in `cic/texts/`; short names (Perry, Leo, Zach, Evag-E, Evag-G, Counci
   - 448 to 451, with a look ahead to about 475. Leo 4489 (June 448); Perry 22858-22859 (449); Councils 20265 (451); Zach 5555-5643 (Timothy's return).
   - Constantinople, "the emperor's city", where Eutyches headed a monastery; Ephesus (449); Chalcedon, across the water from Constantinople (451). Zach 1123-1125; Leo 4711-4713.
   - Under the emperor Theodosius II, "the emperor". Perry 23250-23252.
-  - Tradition: he is told within "the church of Alexandria" (census "The Church of Alexandria and Miaphysite Egypt"). For the listener: "the churches that refused Chalcedon", and "the church of Alexandria".
+  - Tradition: told within no tradition, on the river, in the Greek East (Mark, 2026-11-23, Decision-Log, "Batch 10 hearts approved, with the lengths and a cut-first line in the kit", item 4). For the listener: "the churches that refused Chalcedon", and "the church of Alexandria".
 - **Words to explain:**
   - nature: "what Christ is, as God and as man" (a person is who he is). Work it in at the hook.
   - the union: "the moment God the Word became man in the Virgin's womb". Perry 23843-23845 context.
@@ -98,3 +98,18 @@ Files are in `cic/texts/`; short names (Perry, Leo, Zach, Evag-E, Evag-G, Counci
   - Leo's "the ignorant old man", the seventy years and the shipwreck line, if not used: to the card.
   - The Coptic History's legend of "Eutyches, the monk" at the emperor's side in 431, and Theopistus: late.
   - Canon 95 of 692: to the card.
+
+## Cut first
+
+Words saved by the count's method (a fact 11, a witness credit 6, a gloss 8).
+
+1. Beat 1: Leo's letter of June 448 thanking him for his warning about Nestorius's teaching (Leo 4479-4489). To the card. Saves 11.
+2. Beat 4: Leo begging the emperor to put everything back and call a council in Italy (Leo 6765-6766, 6783-6784). To Leave out (the `leo-of-rome` story tells it). Saves 11.
+3. What came 1: Severus of Antioch writing against him, with the Life of Severus's credit (6855-6858). To the card. Saves 17.
+4. Beat 2: the Syriac chronicle's claim that he leaned on friends among the palace soldiers (Zach 1206-1213); the chronicle stays credited at Timothy's curse. To the card. Saves 11.
+5. What came 2: Leo writing the Tome on his case (Zach 1250-1254); Chalcedon's receiving Leo's letter stays in beat 5. To the card. Saves 11.
+6. Words to explain: the gloss for "Tome", no longer needed once item 5 goes. To Leave out. Saves 8.
+7. Beat 4: the parenthesis that the emperors' own letter blames Flavian's pressing the case (Perry 23250-23252); the petition stays credited to the Syriac record. To the card. Saves 11.
+8. Beat 5: his trial record being read again at Chalcedon (Evag-E 4318-4347). To Leave out. Saves 11.
+
+Count before 735; the list saves 91; count after 644, under the approved 675.

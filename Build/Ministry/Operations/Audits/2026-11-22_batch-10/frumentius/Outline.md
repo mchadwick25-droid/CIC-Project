@@ -104,3 +104,11 @@ Source keys and full verbatim lines: `Source_Sheet.md` in this folder (RUF, PG25
   - Ezana's conversion, his coins and his later Christian inscription: the tradition story's job, and no early source ties them to Frumentius.
   - The Ethiopian hymns to Salama in Ludolf's English verse (LUD 14931-14958): too free a paraphrase to quote.
   - The earlier Frumentius-like names in African councils, and the Jesuit-era retellings: other men, or third-hand.
+- **Cut first** (in the order a writer drops them; counted by `Length_Count.md`'s method: facts at 11, witnesses at 6, glosses at 8, quoted words as counted):
+  1. What came 3: the Ethiopian book's further details: it calls him Fremenatos, names the king Alameda, and has him arrive under Abreha and Asbeha (SYN 43575-43576, 43585, 43608-43609). 3 facts. To the card. Saves 33. Abba Salama and "the Revealer of the Light" stay.
+  2. What came 3: the Greek calendar (30 November, "equal to the apostles") and the Roman Martyrology (27 October) (NIKO 23208-23209, 35442-35443; BRV 83714, 83723-83726). 2 facts, 2 witnesses. To the card. Saves 34.
+  3. What came 2: John of Nikiu, the chronicler in Egypt who remembered him (NIK 4674-4677). 1 fact, 1 witness. To the card. Saves 17.
+  4. What came 2: the Syriac chroniclers who took the story from the Greek historians (MIN 1152-1155). 1 fact, 1 witness. To the card. Saves 17.
+  5. What came 2: Sozomen's "revered as no less than an apostle" (N202 29927-29928). A 6-word quoted phrase and 1 fact. To the card. Saves 17. The three historians' retelling, and the editor's "almost word for word", stay.
+  6. Beat 3: the editor's reading of "in the Roman way" as the empire's way, not the church of Rome's (N203 7739-7742). 1 fact, 1 witness credit. To the card. Saves 17. The Do not say line on it stays.
+  Count before the list 783; the list saves 135; count after 648, under the approved 675.

@@ -82,3 +82,17 @@ File keys as in `Source_Sheet.md`: **T2** = `cic/texts/langlois_collection-histo
   - Who asked Koriun to write (D11): the koriun story's.
   - Mesrop's term at the head of the patriarchal see after Sahak (T2 4279-4281, editor; T2 25390-25393, Moses): outside the story's heart.
   - The burial dispute and Vahan's church at Oshakan: for the card.
+
+## Cut first
+
+A writer drops these in this order until the story fits 675 words. The count method is the independent count's: about 11 words for each fact, 6 for each witness credit, 8 for each gloss.
+
+1. Beat 6: the hermit years in caves and the talks for the simplest people (T2 3910-3926, 3954-4011). Two facts. **To the card.** Saves 22.
+2. Beat 1: "learned in civil and military affairs, and liked by great and small" (T2 3446-3450). Two facts. **To the card.** Saves 22.
+3. Beat 4: his disciples John and Joseph worked on the translation while he taught the youngest to write (T2 3638-3641). Two facts. **To Leave out.** Saves 22.
+4. What came 4 ("Defended"): drop the separate item. Beat 6 already tells him driving out the condemned teacher's books, and that stays marked as what he defended. Two facts. **To Leave out.** Saves 22.
+5. Beat 3: the note that Koriun's text says Samos and editors read Samosata (T2 3627, 3671-3674). One fact and an editor credit. Say only "a hermit named Rufinus". **To the card.** Saves 17.
+6. What came 1: the editor's line that "Mesrobian letters" became the usual name (T2 3049-3051). One fact and an editor credit. **To the card.** Saves 17.
+7. What came 5: the thirteenth-century feast of the Translators (SYN16 6239). One fact and a witness credit. The liturgy clause stays optional. **To the card.** Saves 17.
+
+Count before the list: 784. The list saves 139. Count after: 645, under 675.

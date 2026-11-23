@@ -123,3 +123,10 @@ Batch 10, half A. File short names (N211, PET, N203 and the rest) are defined at
   - Benedict of Aniane's concordance of rules, Isidore, Photius's Greek epitomes: further later use. Card.
   - The Gallic Chronicle of 452 (MOM 71060-71062): a good contemporary notice of the books; card, unless the writer needs a second witness in beat 4.
   - His title "the blessed Cassian" and Eastern veneration (N211 15944-15956): an 1894 report, not a held statement of today. Card.
+- **Cut first** (in order; drop from the top until the count fits):
+  1. What came 4, second half: Gregory of Tours's monastery in Gaul that kept "the Rule of Cassian" beside Basil's, with Gregory's credit (one fact and one witness). To the card. Saves 17.
+  2. What came 3, last sentence: the African bishop who had already cleaned Cassian's books of their faults (one fact). To the card. Saves 11.
+  3. Beat 2, last sentence: the receipt for the church's gold, silver and robes, handed to the city's officials to clear John (one fact). Leave out (the exile and the soldiers stay). Saves 11.
+  4. Beat 6, first sentence: Cassian's resolve to fall silent after the Conferences (one fact). Leave out. Saves 11.
+  5. Beat 4: the people the three parts went to, the bishops and monks of Provence, among them Honoratus (one fact; Honoratus stays in the opening). To the card. Saves 11.
+  - Count before the list 724; the list saves 61; count after 663, under the approved 675.
