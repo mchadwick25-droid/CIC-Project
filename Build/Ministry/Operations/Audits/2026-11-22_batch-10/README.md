@@ -29,9 +29,9 @@ Lifted for the job the slate names, one per line in `Allowed_Reuse.txt`: Ulfila'
 ## Steps
 0. Slate: approved by Mark (2026-11-23).
 1. Research (`<slug>/Researcher_Prompt.filled.md`): eight started 2026-11-23; Theodoret after the Ephesus and Eutyches outlines, Frumentius after Rufinus's. All ten outlines done (2026-11-23); independent count in `Length_Count.md` (all ten over). Hearts and lengths approved by Mark (2026-11-23; `Hearts.md`). All ten Cut first lists added (each brings the count under the approved length).
-2a. Outline check (`<slug>/Checker_Prompt.filled.md`): all ten started 2026-11-23.
+2a. Outline check (`<slug>/Checker_Prompt.filled.md`), fix pass (`Fixes.md`) and recheck (`Recheck.md`, with `Recheck_Applied.md` where its replacements were applied word for word): nine through (2026-11-23); Ulfila's fix pass running.
 2. Outline check.
-3. Write.
+3. Write (`<slug>/Writer_Prompt.filled.md`, Opus): nine started 2026-11-23; Ulfila after his recheck.
 4. Review, after `tools/check_brief_variety.py` and `tools/check_tree_overlap.py --allow Allowed_Reuse.txt`. Chrysostom and Ephrem join here.
 5. One revision, one fresh read (with the two reference stories scored).
 6. Card.
@@ -47,6 +47,7 @@ Lifted for the job the slate names, one per line in `Allowed_Reuse.txt`: Ulfila'
 - At release: Eutyches's census `toldWithin` is removed (the river, Greek East), per the hearts ruling.
 - Priscillian: the lifted Sulpicius line is rendered afresh from the Latin, so it no longer matches the wording on `sulpicius-severus`; the outline check weighs that.
 - For batch 11 on, with Mark: why the outlines keep running long, and three fixes at research (https://claude.ai/artifact/MzbUJjBWpsjZJ377yUm3vX, version 1). This batch keeps the hearts ruling.
+- Ulfila: his deathbed creed's opening sentence ("I, Ulfila, bishop and confessor, have always believed so...") is already on the `homoian-arian-christianity` tradition page, telling the same event; the slate lifted only two phrases. Asked of Mark; until he rules, the ending tells it in the narrator's words.
 
 ## Rulings
 - "Batch 10: the slate approved" (Mark, 2026-11-23: "Approve as recommended"): the twelve and halves, the research order, Eutyches's home kept for now, the quotes, no direct-line change. This batch only.
