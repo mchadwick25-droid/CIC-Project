@@ -5743,3 +5743,11 @@ Mark: "option 1", on the page https://claude.ai/artifact/UStZATEaBtT445YAKgNEi6 
 **Done.** Three rows added to `cic-website/data/search-names.json` (30 rows), each basis a line in the tree's own text, checked by the census validator. Data release 54, dated 2026-11-23, stamped in the census meta, the license credit line and the map page's embedded meta; the data page was regenerated.
 
 **Not done.** The kind of Mormonism and of Abyssinia is still Mark's call (Open-Gaps 370). `SEARCH_ON` stays false.
+
+## 2026-11-23 — What-and-why batch 1 undone, to be redone on Opus through the kit (Mark)
+
+**Mark.** "so now i am reading the edits and it is full of ai tells and not following our writing standards, it makes dramatic statiments, finshes statements with open crap." And: "are you writing with sonnet or opus? we have found sonnet does not hold the craft, rigor or accessability."
+
+**Done.** Batch 1's text changes were undone on main ("no fix on a fix"); see Open-Gaps 405 for what was restored and the root cause.
+
+**Decided.** The fixes are redone with Opus writing, through the Brief Kit's own steps and its readability scoring, and a sample goes to Mark before the rest.

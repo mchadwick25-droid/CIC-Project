@@ -24,3 +24,7 @@ Run 2026-11-23, in the order Mark approved ("option 1", Decision-Log, "The re-re
 
 - The 218 Supporting and 356 Passing recorded pieces, and the free-queue scan of the unrecorded pieces (Open-Gaps).
 - Re-recording: the fixed recorded pieces are text only until their turn (Decision-Log, option A).
+
+## Undone (2026-11-23)
+
+Mark read the applied fixes and found AI tells, dramatic statements and hollow endings. Every change listed above was returned to its state before the batch. The writer and review prompts in this folder are kept as the record of what failed; they are not to be reused. Root cause and the redo: Open-Gaps 405 and the Decision-Log entry of the same day.
