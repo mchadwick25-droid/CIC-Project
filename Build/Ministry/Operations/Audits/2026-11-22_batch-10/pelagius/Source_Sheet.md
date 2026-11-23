@@ -82,7 +82,7 @@ In NPNF files a whole paragraph sits on one line; the line given is the paragrap
 
 **E4. His teaching as he stated it himself.** own (as recorded by synods, quoted by Augustine, English 1887). **Documented.**
 - NPNF105 10388 (John of Jerusalem's account of the Jerusalem hearing, July 415, quoted in Proceedings 54): "‘I did not say that man’s nature has received the power of being impeccable,—but I said, whosoever is willing, in the pursuit of his own salvation, to labour and struggle to abstain from sinning and to walk in the commandments of God, receives the ability to do so from God.’"
-- NPNF105 10381 (Proceedings 54, his answer at Diospolis): "“We said, that a man is able to be without sin, and to keep the commandments of God, if he wishes;”".
+- NPNF105 10383 (Proceedings 54, his answer at Diospolis): "“We said, that a man is able to be without sin, and to keep the commandments of God, if he wishes;”".
 - NPNF105 9524 (Proceedings 5, at Diospolis): "“This I stated in the interest of free will. God is its helper whenever it chooses good; man, however, when sinning is himself in fault, as under the direction of a free will.”"
 
 **E5. Augustine answers him in books, first without naming him.** contemp. **Documented.**

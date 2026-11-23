@@ -4,7 +4,7 @@ Source lines refer to `Source_Sheet.md`'s file short names (PL30, PL33, CSEL57, 
 
 - **The essence:** Pelagius, a monk from Britain who taught at Rome, held that God made human nature able to choose the good and to live without sin, and wrote to the young Demetrias on how to live it. Bishops in Palestine cleared him in 415, but after Augustine of Hippo answered him book by book, bishops in Africa and the bishop of Rome condemned him in 418, and the teaching that bears his name was ruled out of the church.
   - Britain: PROSPER 53725; MERC 7005. Widely Accepted. Monk: NPNF105 10263. Documented. Long at Rome: NPNF105 11614, 10285. Documented.
-  - Able to be without sin: his own answer, NPNF105 10381; nature's good measured by its maker, PL30 204-206 / PL33 80912-80913. Documented.
+  - Able to be without sin: his own answer, NPNF105 10383; nature's good measured by its maker, PL30 204-206 / PL33 80912-80913. Documented.
   - Cleared 415: NPNF105 10270. Condemned 418: NPNF214 36418-36421; NPNF105 10621; PROSPER 53876-53878. Documented. "Bears his name": PROSPER 53725 "dogma nominis sui". Documented.
 - **Also told:**
   1. What the letter says: first show what human nature can do; God made it good and free to choose; her birth and wealth are her family's, but spiritual riches come only from herself (PL30 168-171, 811-817). He held the power itself was God's gift (NPNF105 10388), and said he always added the help of God's grace (NPNF105 11255). Documented.
@@ -157,8 +157,8 @@ Each charge, teaching, book, quarrel or decision the final brief names, with the
 5. **Caelestius as his follower.** Explain: already explained (a follower, no charge named at this point). Augustine, NPNF105 11614. Documented.
 6. **The book on nature.** Leave it out: Augustine says it made God's grace mean the nature God created, with free will (NPNF105 10295); item 17 already gives Augustine's reading of his grace, so explaining this book would repeat it, and the sentence is an event the length cannot carry. Cut in Room for it.
 7. **The written charges from the two bishops of Gaul (Gaps 2).** Explain, through item 8: the charges included statements drawn from Caelestius, read out at Diospolis. The synod record, as Augustine quotes it, NPNF105 9487, 9882-9883. Documented.
-8. **The statements drawn from Caelestius (Gaps 1).** Explain: that Adam's sin harmed only Adam, and that newborn babies are as Adam was before he sinned. Credit: the charges, as the synod record has them (Augustine quotes it); Pelagius disowned them, NPNF105 9882-9883, 10263. Documented. The Outline's Leave out ("Caelestius's propositions on Adam and infants") and its Do not say on original sin give way for these two statements only, under "Explain it or leave it out" (2026-11-23): they are told as Caelestius's, charged against Pelagius and disowned by him, never as Pelagius's teaching.
-9. **His answer at Diospolis.** Explain: already explained. A man can be without sin and keep God's commandments if he wishes. Pelagius, NPNF105 10381. Documented.
+8. **The statements drawn from Caelestius (Gaps 1).** Explain: that Adam's sin harmed only Adam, and that newborn babies are as Adam was before he sinned. Credit: the charges, as the synod record has them (Augustine quotes it), from the Gallic bishops' indictment (NPNF105 9487, 10501); Pelagius disowned them, NPNF105 9882-9883, 9899. Documented. The Outline's Leave out ("Caelestius's propositions on Adam and infants") and its Do not say on original sin give way for these two statements only, under "Explain it or leave it out" (2026-11-23): they are told as Caelestius's, charged against Pelagius and disowned by him, never as Pelagius's teaching.
+9. **His answer at Diospolis.** Explain: already explained. A man can be without sin and keep God's commandments if he wishes. Pelagius, NPNF105 10383. Documented.
 10. **The Diospolis verdict.** Explain: already explained. Declared a member in good standing of the church. The synod, NPNF105 10270. Documented.
 11. **Augustine's judgment of Diospolis.** Explain: already explained. The judges were right on what they heard, but Pelagius did not appear cleared to him. Augustine, NPNF105 10277. Documented.
 12. **The Bethlehem report.** Explain: already explained. Beating, a deacon killed, houses burned; told as a report. Augustine, NPNF105 10590. Inferential-Thin (who did it).
@@ -181,7 +181,7 @@ Count before: 674 words by `python -m engine.m1.profile_readability` (the kit's 
 
 Added (kit count):
 - Item 8 (and 7): "He said the statements drawn from Caelestius were not his, and condemned them." (13) becomes "Some charges came from Caelestius: that Adam's sin harmed only Adam, and newborn babies are as Adam was before he sinned. Pelagius said these were not his, and condemned them." (30). Adds 17.
-- Item 20: "charged that the bishop of Constantinople taught what the Pelagians had taught before him." (14) becomes "charged the bishop of Constantinople with the Pelagians' error. Both, he wrote, made Christ a mere man who lived without sin, so others could too." (25). Adds 11.
+- Item 20: "charged that the bishop of Constantinople taught what the Pelagians had taught before him." (14) becomes "charged the bishop of Constantinople with the Pelagians' teaching. Both, he wrote, made Christ a mere man who lived without sin, so others could too." (25). Adds 11.
 
 Total added: 28.
 
