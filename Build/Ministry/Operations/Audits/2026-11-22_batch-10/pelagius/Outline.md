@@ -192,3 +192,6 @@ Cut, events before meanings (Kit Part 3, Length):
 4. "Writing with a fellow bishop, Augustine even warned" becomes "Writing with a fellow bishop, Augustine warned". Saves 1.
 
 Total cut: 27. Count after: 675 by the kit's count (686 by `wc -w`), at the approved 675. Kept: the heart, the Diospolis scene and its doubt, the Bethlehem report, the emperor's order, "poison", the condemnation, every witness credit, and Britain 429. Checked on a scratch copy with all six changes made: 675 words, grade 7.4, reading ease 79.1, longest sentence 28 words, pass.
+
+
+**Do not say** (added from `Fresh_Read_About.md` BLOCKING 1, word for word): "Augustine's warning to Juliana told after the essence and before Beat 1. Say: in the hook before the essence only if the essence still ends within the first minute; otherwise in its held order, after Zosimus's letter of September 417 and before the emperor's order of 30 April 418 (Maurist date, PL33 62249-62250), with no date given in the story."
