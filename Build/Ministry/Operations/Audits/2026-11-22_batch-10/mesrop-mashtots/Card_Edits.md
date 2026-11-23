@@ -90,3 +90,41 @@ None listed by the checker.
 - Daron (fresh read): `placeNote` already names Daron. The held scan prints the canton as "Baron" (T2 3440), so no further line was added.
 - Who asked Koriun to write (D11): the outline sends it to the Koriun story. Mesrop's term at the head of the see: `uncertain[13]` holds it.
 - Validator, scratch census, `--skip-quotes`: four errors for this entry. Three are `secondReading` missing (set at release); one is `printed` of quotationOriginals[0] not standing at T12 55853-55883 (footnote page, the open item above).
+
+## Third pass: what it was about (2026-11-23)
+
+T2 = `cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt`. Starting card kept unchanged as `Card.pass2.json`. Validator (scratch census, `--skip-quotes`): 0 errors for this entry.
+
+### New explanations (`briefReferences`)
+
+- New entry after the Moses refusal entry: "Moses of Khoren: in the emperor's letter he gives, Sahak is blamed for serving a pagan king and for turning to Syrians, not to Constantinople's scholars." Evidence: T2 24310-24319 (the emperor's reproach); brief sentence "In the emperor's letter Moses gives, Sahak is blamed ...".
+- New entry after the Borborites entry: "Koriun: he does not say what the Borborites taught." Evidence: T2 3779-3787 (no teaching given); brief sentence "Koriun never says what they taught."
+- New entry after the Ephesus entry: "Koriun, Cyril of Alexandria and Nestorius: the man the council of Ephesus shut out had books that, by Koriun's word, followed Nestorius; that council's quarrel turned on whether Mary could be called Mother of God, by Cyril's account, and Nestorius urged Mother of Christ instead." Evidence: T2 4098-4101; CYR 5241-5244; NES 6953-6958; brief's last two sentences of that paragraph.
+- `sources.about`, four files added: Augustine (`cic/texts/augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt`), Marutha (`cic/texts/maruta-of-maipherqat_de-sancta-nicaena-synodo-syrische-texte-deu_braun1898.txt`), Cyril (`cic/texts/cyril-alexandria_three-epistles-grc-eng_pusey1872.txt`), Nestorius (`cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt`).
+
+### Items sent to the card
+
+- `uncertain`, new: the Borborites. Koriun does not say what they taught; Augustine's charge (some call the Gnostics Borborites, for foulness in their mysteries; AUG 1257-1259), Marutha's (immorality and licentiousness, he refuses to say more; MAR 3563-3567), credited as those writers' charges; link to Koriun's sect on the name only, Inferential-Thin; Langlois's note (T2 3814-3816) credited as the editor's. The translator's brackets in MAR are not used.
+- `uncertain`, new: Koriun's French names the man shut out "Théodore", books after the heresies of Paul of Samosata and of Nestorius. Evidence: T2 4098-4101.
+- `legacy.traces`, new last: the canons of Nicaea and Ephesus brought home by the pupils. Evidence: T2 3855-3860.
+- `legacy.remembered`, new: the patriarch gives Mesrop the title of preacher and ranks him among the most illustrious vartapets. Evidence: T2 3716-3722.
+- `legacy.remembered`, new: Koriun calls Sahak and Mesrop defenders of the true faith. Evidence: T2 4105-4106.
+
+### Removed from `briefReferences` (no longer told)
+
+- [0] "Greek learned as a boy, the king's decrees, " removed.
+- [1] ", and Sahak found even more eager" removed.
+- [5] "the bishop names Mesrop a preacher, " removed.
+- [7] " and the canons of Nicaea and Ephesus," → ",".
+- [8] "illness and death in the New City" → "illness and death".
+
+### Quotations
+
+Unchanged: the brief still quotes the same three spans with the same renderings; `quotationOriginals` kept, three entries, each `secondReading` as it stood.
+
+### Skipped
+
+- Mesrop going to Sahak about letters (outline item 13): marked leave out, no card home.
+- Place of death (New City): already in `placeNote` and `uncertain[2]`.
+- Samos/Samosata, "Mesrobian letters", the Synaxary feast: already on the card.
+- Fresh read applied file: no card corrections listed.
