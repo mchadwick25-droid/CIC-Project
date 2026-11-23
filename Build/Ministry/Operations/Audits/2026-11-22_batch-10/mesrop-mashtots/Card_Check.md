@@ -59,3 +59,6 @@
 2. `uncertain[16]`. The "12 February" is a scan fault. T2 37889 prints "au la février"; the second scan of the same print reads "au 19 février de" 441 (T12 89832-89833), as the note to Moses does (T2 25380-25381; T12 77528-77529). Both notes give 19 February 441. The source sheet's D1 carries the same misreading.
    - Old: "The notes in Langlois's edition turn the thirteenth into 19 February 441 in one place and 12 February 441 in another."
    - New: "The notes in Langlois's edition, to Moses and to Lazar, both turn the thirteenth into 19 February 441."
+
+
+Coordinator (2026-11-23): both second pass check fixes applied word for word.

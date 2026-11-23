@@ -56,3 +56,15 @@ Append each item at the end of the field named.
 ## Not found, and nothing else clearly wrong
 
 The writer lists no claim as not found. I found nothing else clearly wrong in the starting card or the additions. There is no new census entry to check.
+
+## Second pass check (2026-11-23)
+
+### Verdict: PASS
+
+Compared the card at commit 2289ada7 (before the second pass) with the card now, field by field.
+
+1. **The four fixes went in exactly.** `quotationOriginals[3]` carries `original`, `originalFile` and `originalLines` as worded, and its `uncertain` note opens with the new two sentences, the rest unchanged. `quotationOriginals[2].uncertain` takes the new first two sentences, the last unchanged. `briefReferences` entries 4 and 14 lose only the two clauses. The four `attended` items, the `decided` item and the `calledBy` sentence stand word for word at the ends of their fields. No other field, and nothing else in these fields, moved.
+2. **The two additions hold.** `attended[13]` (Socrates on Cyril's delay till near Pentecost and Juvenal five days after it) stands at SOC 20886-20890, inside Chapter XXXIV, credited to Socrates as the outline's Cut first 1 does. `outcome[11]` (the chapter title answering "the impious Cyril" and telling the good deeds of "saint Nestorius") stands at BB 31910-31911, inside Barhadbeshabba's history (which opens at line 31511), credited to him in Nau's French. Neither says more than its lines.
+3. **Nothing sent to the card is missing.** Checked every item marked "to the card" or "for the card" in `Outline.md` (Cut first 1-5 and 7-14; Leave out, three items; For the card, fourteen items; the Sibling and Speakers lines on Theodoret's request, Maximian and Socrates). Each is now in the card: `issue[4]`, `calledBy`, `attended[0-13]`, `decided[4], [6-8]`, `outcome[1], [4]-[11]`, `uncertain[1]-[5], [7]-[11]`, `record[4]`, `datesNote`. The one skip, Chalcedon's condemnation of those refusing the name, is not marked for the card: the skip holds.
+4. **Scan readings.** The four listed in `Card_Edits.md` match fix 1 word for word. Each stands at its line in HEF: πύριον, ἀσυγχύτευ ἱνώσεως and ὁμολογοῦμεν τὸν on 7244, διοτόκον on 7245. Pusey's Greek (3519-3525) has Κύριον, ἀσυγχύτου ἑνώσεως and θεοτόκον. The readings are not yet in `tools/quote_scan_readings.json`; they go in with the card.
+5. **Rules.** Only allowed council and quotation keys. American spelling outside printed wording ("counselled" is Driver and Hodgson's print, unchanged from before). No audit, review or ruling is named.
