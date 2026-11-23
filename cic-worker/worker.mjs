@@ -106,7 +106,7 @@ export function resetRenamesForTests() { renamesPromise = null; }
 // Anonymous use counts from the Church Family Tree map, written to Workers Analytics Engine
 // (binding EVENTS, set only in wrangler.cft.jsonc). The map sends only these event types and
 // short fields: no identity, no typed text, no address. Bots and link previews are dropped.
-export const EVENT_TYPES = new Set(['visit', 'open', 'listen', 'tour', 'layer', 'active', 'grow']);
+export const EVENT_TYPES = new Set(['visit', 'open', 'listen', 'tour', 'layer', 'active', 'grow', 'next']);
 const BOT_AGENT = /bot|crawl|spider|slurp|preview|facebookexternalhit|headless|lighthouse|python|curl|wget|httpclient/i;
 const MAX_BODY = 8192;
 const MAX_EVENTS = 25;
