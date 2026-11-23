@@ -30,3 +30,35 @@ Card: `council-of-ephesus-431.card.json`, from `Card.existing.json`. Everything 
 ## Claims not found
 
 None left in place that I could not support. The validator's remaining errors on this entry are the three `secondReading` verdicts and the three modern renderings, which release adds from the second readings.
+
+## Scan readings to add
+
+For `tools/quote_scan_readings.json`, file `cic/texts/hefele_history-of-the-councils-v3-431-451_clark1883.txt`, each with `"kind": "OCR misread"`:
+- line 7244: `πύριον` reads `κύριον`
+- line 7244: `ἀσυγχύτευ ἱνώσεως` reads `ἀσυγχύτου ἑνώσεως`
+- line 7244: `ὁμολογοῦμεν τὸν` reads `ὁμολογοῦμεν τὴν`
+- line 7245: `διοτόκον` reads `θεοτόκον`
+
+## Second pass (2026-11-23)
+
+### The checker's changes
+
+1. `quotationOriginals[3]` (the confession of 433): `original`, `originalFile` (Hefele) and `originalLines` "7243-7245" added, and its `uncertain` note changed as worded: applied word for word. The four scan readings are listed above. Item 6 above no longer holds.
+2. `quotationOriginals[2]` `uncertain` (Quote 3, "by persuasion and force"): applied word for word.
+3. `briefReferences` entry 4 (message from two of John's metropolitans removed) and entry 14 ("and the order of Ephesus kept" removed): applied word for word.
+4. `attended`, four items (the two metropolitans' message; Nestorius's word that he would appear; the acclamations and Philip on Peter; Candidian at John's assembly), `decided`, one item ("with many tears"), and the `calledBy` addition on the edict's order: applied word for word.
+
+### Items added from the outline
+
+- `attended`: "Socrates of Constantinople says Cyril made some delay and did not arrive until near Pentecost, and that Juvenal of Jerusalem arrived five days after Pentecost (Socrates, Church History VII.34)." Outline Cut first 1 (credit to Socrates for Cyril's arrival). Evidence: `cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml` lines 20886-20890 (Chapter XXXIV, line 20874).
+- `outcome`: "Barhadbeshabba's history also gives a chapter as a reply to the accusations of the impious Cyril, by which the good deeds of saint Nestorius will be known (in Nau's French)." Outline Cut first 2 ("pious and a saint"). Evidence: `cic/texts/po09_barhadbeshabba-ecclesiastical-history-part2-and-others-fra_1913.txt` lines 31910-31911 (chapter title XXI, the scan reads "saint Xestorius").
+
+### Skipped
+
+- Every other "to the card" item (fifty bishops, Celestine's earlier condemnation, Candidian as protector, two hundred signatures, Pelagius upheld, Cyril home and Maximian, the 433 offer to the emperor, Chalcedon's order, the counts, John's horses, Evagrius, the sixty-eight, the torches, the envoys, Capreolus, Canon VIII, the Messalians, the eight delegates, the emperor's edict, the signatures charge, Badger, Sleewa, Socrates's order, retreat and date, Candidian's alleged starving): the card already holds each (see items 9 to 13 above and the starting card).
+- Items the checker already worded: skipped as step 1 covers them.
+- Chalcedon's condemnation of those refusing the name Mother of God: marked an optional clause, not "to the card".
+
+### Validator
+
+`--skip-quotes` against a scratch copy of the census with this card in place: no errors for this entry.

@@ -28,3 +28,19 @@ None. Each existing claim was read against the files and the brief; none is cont
 ## Claims not found
 
 None.
+
+## Scan readings to add
+
+None. The card check lists no scan readings.
+
+## Second pass (2026-11-23)
+
+**The checker's change.**
+- `keyWorks[0].about`: "written in silver and gold on purple parchment" becomes "written in the fifth or sixth century in silver and gold on purple parchment". Applied word for word. Evidence: Streitberg's file (STR) line 1352, "Geschrieben im 5./6. Jh. mit Silber- und Goldbuchstaben auf purpurgefärbtem Pergament"; Outline Cut first 11. This also covers the Cut first 11 item, so it is not added twice.
+
+**Added from the outline.**
+- Field `uncertain` (appended). Text: "Philostorgius says the emperor settled the Goths Ulfila brought over in different parts of Moesia, as he thought best, and held Ulfila in such honor that he often spoke of him as the Moses of his day." Outline Cut first 8 ("Beat 2", the settling in Moesia, with Philostorgius's credit). Evidence: `cic/texts/philostorgius_ecclesiastical-history_walford1855.txt` line 120, "This multitude of converts were located by the emperor in the different parts of Moesia, as he thought best, and he held Urphilas himself in such high honour, that he would often speak of him in conversation as the Moses of his day." The Moses saying was already on the card under `legacy.remembered`; the settling was not.
+
+**Skipped, already held** (each re-read against the card): Cut first 1 (Sozomen's tribute, `legacy.remembered`); 2 (Jordanes, `legacy.traces` and `sources.about`); 3 (Selinus, `legacy.traces`); 4 (Isidore, `legacy.traces`); 5 (Theodoret, `legacy.traces`); 6 (three languages, `uncertain`); 7 (Philostorgius's "first bishop" against Theophilus, `uncertain`); 9 (Socrates on Valens, `uncertain`); 10 (Christianople, `uncertain`). Leave out and For the card: Sadagolthina, Kauffmann's country bishop, Waitz's doubt, Philostorgius's own views, the Holy Spirit in the creed, Walafrid Strabo and Selenas are all on the card (`uncertain` or `legacy.traces`). Cut first 12 is marked Leave out.
+
+**Validator** (`--skip-quotes`, scratch copy of the census): two errors for this entry, the missing `secondReading` on `quotationOriginals[0]` and `[3]` (six words or more; release sets it).
