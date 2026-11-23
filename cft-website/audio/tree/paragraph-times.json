@@ -395,6 +395,22 @@
    235.63
   ]
  },
+ "council-of-ephesus-431": {
+  "text_sha256": "afd63cea4031c9474f9c2d870f2a107d86873cdbac738733e6b60f5410654689",
+  "starts": [
+   0.0,
+   22.63,
+   49.71,
+   73.55,
+   98.09,
+   135.25,
+   164.71,
+   177.57,
+   194.39,
+   238.77,
+   249.33
+  ]
+ },
  "council-of-nicaea-325": {
   "text_sha256": "01bd462432c7d0ac18996447ddc4bb847fcea64e2b3baecebb75822c8ad88fcf",
   "starts": [
@@ -545,6 +561,16 @@
    156.27
   ]
  },
+ "ephrem-the-syrian": {
+  "text_sha256": "291f7f4c4e02f3ff6e7f19c87ff33edabfa891be119ddfeae6ac88bf87beafa8",
+  "starts": [
+   0.0,
+   41.77,
+   78.17,
+   123.03,
+   148.37
+  ]
+ },
  "epiphanius-of-salamis": {
   "text_sha256": "8b34d11a4b32b7b41437bdba91d8eedf01d7283330bdf7a80a614fad5b340c5e",
   "starts": [
@@ -615,6 +641,21 @@
    271.29
   ]
  },
+ "eutyches": {
+  "text_sha256": "1aa53cae70fc451be17c7e6f5daf0417a6c9367144f544ecf550ad0deda99d0e",
+  "starts": [
+   0.0,
+   25.17,
+   45.01,
+   52.77,
+   87.63,
+   117.03,
+   148.61,
+   180.71,
+   207.03,
+   248.29
+  ]
+ },
  "evagrius-ponticus": {
   "text_sha256": "06c3d149f25569a3b74de9306a624c51576653d9e6f132a19474838054439b4c",
   "starts": [
@@ -646,6 +687,23 @@
    225.65,
    240.37,
    246.73
+  ]
+ },
+ "frumentius": {
+  "text_sha256": "00f7f4d7380ee66b9314064026f3e5335005a281312038ba2ce3e626eca88cb4",
+  "starts": [
+   0.0,
+   16.85,
+   45.59,
+   70.33,
+   85.83,
+   98.95,
+   121.89,
+   144.73,
+   151.43,
+   159.85,
+   224.43,
+   230.15
   ]
  },
  "german-pietism-spener-francke-halle": {
@@ -885,6 +943,36 @@
    232.07
   ]
  },
+ "john-cassian": {
+  "text_sha256": "a8a045ecb9a1763ee89bb68ee85d05c676f9b931cc3a8dab957fcb4a10dca94c",
+  "starts": [
+   0.0,
+   22.47,
+   49.61,
+   67.63,
+   87.35,
+   109.25,
+   136.17,
+   151.37,
+   187.67,
+   201.65,
+   213.39,
+   230.01,
+   241.57
+  ]
+ },
+ "john-chrysostom": {
+  "text_sha256": "4a1e2581725a101c83d660b5e27ae6dfae197809899144e6365e11e8bf77728c",
+  "starts": [
+   0.0,
+   40.07,
+   61.67,
+   74.93,
+   111.33,
+   134.75,
+   165.83
+  ]
+ },
  "john-wesley": {
   "text_sha256": "5db103cbea2485cc371ba8c2f76b5703e8c6f9705750620eb203d65661583e51",
   "starts": [
@@ -1108,6 +1196,24 @@
    191.43
   ]
  },
+ "mesrop-mashtots": {
+  "text_sha256": "59e08f33570d2f1726a038aee7465dbab29742f9ac717b4113cdd5da9969d9dc",
+  "starts": [
+   0.0,
+   26.57,
+   60.53,
+   65.19,
+   78.81,
+   93.09,
+   120.01,
+   131.23,
+   165.27,
+   183.05,
+   214.27,
+   231.75,
+   256.85
+  ]
+ },
  "methodius-of-olympus": {
   "text_sha256": "9f0f3c43a0de3899492d1610aec741c2c9f0085fb1bf43e009da0049cd583182",
   "starts": [
@@ -1277,6 +1383,21 @@
    179.21
   ]
  },
+ "pelagius": {
+  "text_sha256": "8ab0a31810327f99ba8825041a75aebc74a6f7cbb3936598c8ca828d79fbe4e7",
+  "starts": [
+   0.0,
+   29.75,
+   58.23,
+   74.15,
+   114.97,
+   136.05,
+   162.99,
+   188.05,
+   226.41,
+   256.57
+  ]
+ },
  "peter-of-alexandria": {
   "text_sha256": "32f6511a1f6f5993586a8c28189630da69a68e78f26189c498a1415d4d651597",
   "starts": [
@@ -1370,6 +1491,23 @@
    214.31
   ]
  },
+ "priscillian": {
+  "text_sha256": "1220eaa990d559b94b9f54cd8f398555a14c2e85027f9d00c4dce0b162e145c0",
+  "starts": [
+   0.0,
+   18.65,
+   42.01,
+   64.11,
+   94.39,
+   111.65,
+   138.36,
+   165.67,
+   191.57,
+   207.61,
+   220.67,
+   255.07
+  ]
+ },
  "protestant-churches-of-the-voc-world": {
   "text_sha256": "ba4caaee45a10c38ffe26f4254db359c688bc121a088654bba3d17c5e0fa885e",
   "starts": [
@@ -1425,6 +1563,20 @@
    79.19,
    95.13,
    114.89
+  ]
+ },
+ "rufinus-of-aquileia": {
+  "text_sha256": "b600c63af2b9d9a27bfe674eb6adf9e543c312aa860cdf4461e85b97a4c42265",
+  "starts": [
+   0.0,
+   16.99,
+   48.39,
+   81.93,
+   122.09,
+   158.29,
+   192.09,
+   206.61,
+   223.57
   ]
  },
  "russian-church-nikon-to-holy-synod": {
@@ -1638,6 +1790,21 @@
    152.95
   ]
  },
+ "theodoret-of-cyrrhus": {
+  "text_sha256": "7d7eacf3f9a38791066a15bcb7a3c3a216cc93155fa9696422c7de0339e703ce",
+  "starts": [
+   0.0,
+   16.49,
+   48.45,
+   74.97,
+   125.13,
+   135.77,
+   158.95,
+   181.81,
+   210.71,
+   242.65
+  ]
+ },
  "third-council-of-toledo-589": {
   "text_sha256": "473e9e49eaf70bfbfdcd77bf23afc7a38f35c565d55c7fc881c595a0b5794bd2",
   "starts": [
@@ -1699,6 +1866,23 @@
    121.57,
    156.31,
    191.85
+  ]
+ },
+ "ulfila": {
+  "text_sha256": "f81ee718350d4d3b955b628a428794ec15dcb4a3a178d43dc6bdbfb5d48a0f8d",
+  "starts": [
+   0.0,
+   25.13,
+   48.65,
+   73.99,
+   85.09,
+   95.09,
+   118.13,
+   151.83,
+   182.95,
+   215.75,
+   229.43,
+   242.61
   ]
  },
  "valentinus": {
