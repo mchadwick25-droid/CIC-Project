@@ -271,8 +271,8 @@
    "basis": {
     "source": "tree",
     "entry": "coptic-christianity-under-early-islam",
-    "field": "longDescription",
-    "text": "Two European scholars, Hiob Ludolf in 1691 and Eusèbe Renaudot in 1713, read the Copts as having helped the conquerors."
+    "field": "documentedStories.0.text",
+    "text": "the Copts rose in revolt"
    }
   },
   {
