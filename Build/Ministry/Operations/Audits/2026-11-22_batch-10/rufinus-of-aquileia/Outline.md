@@ -117,3 +117,20 @@ Source keys and full verbatim lines: `Source_Sheet.md` in this folder (N203, N20
   - The Recognitions of Clement, the Sentences of Xystus, the Benedictions of the Patriarchs, the History of the Monks: to the card.
   - The creed's "descended into hell" clause: the `aquileian-christianity` tradition story's job; one optional clause at most.
   - Birth year and Concordia: editors' details, to the card.
+- **Cut first** (in the order a writer drops them; savings by the count's method: fact 11, witness 6, gloss 8, quoted words as counted):
+  1. Beat 7: the Frumentius story and his source in Frumentius's companion (2 facts). To the card. Saves 22.
+  2. Beat 7: the tenth book folded into the ninth; "partly from his elders, partly from his own memory"; "from Constantine to the death of Theodosius" (3 facts). To the card. Saves 33.
+  3. Beat 7: the phrase "like the two fishes to the loaves" (the two added books stay, in plain words). To the card. Saves 6.
+  4. Beat 3: Palladius's report of the pilgrims received at their own cost and his praise of Rufinus, with Palladius's credit (2 facts, 1 witness). To the card (the pilgrims are told in `melania-the-elder`). Saves 28.
+  5. Beat 3: "and was made a priest" (1 fact). To the card. Saves 11.
+  6. Beat 1: the three clergy who later became bishops, Chromatius among them, and the teacher of the creed (2 facts; Chromatius is introduced in beat 7 as bishop). To the card. Saves 22.
+  7. Beat 2: the Greek historian who repeats the prison claim, with his credit (1 fact, 1 witness; "he says" stays). To Leave out. Saves 17.
+  8. Beat 2: learning from Didymus the Blind at Alexandria (1 fact; "the desert monks" stay in plain words). To the card. Saves 11.
+  9. Beat 2: the gloss on the party that held to Nicaea; say only that the monks were persecuted, and that he says he was jailed and exiled. To Leave out. Saves 8.
+  10. Beat 4: the defence of Origen he gave as the martyr Pamphilus's (1 fact; his short book arguing that heretics falsified Origen stays, as the reason for his method). To the card (told in `pamphilus-of-caesarea`). Saves 11.
+  11. Beat 5: "only fragments of Jerome's version survive, his editors note" (1 fact, 1 witness). To the card. Saves 17.
+  12. Beat 6: the quoted phrase "not a defender or a champion of Origen" (his defence to Rome stays, in the narrator's words). To the card. Saves 8.
+  13. What came 1: Gennadius's "opened to the Latin speaking church the greater part of the Greek literature", with his credit (1 fact, 1 witness, quoted words). To the card. Saves 29.
+  14. What came 2: "still using Rufinus where he could not be wrong" (1 fact). To the card. Saves 11.
+  15. Quote 1: its first sentence, "A friend is long sought, hard to find, and hard to keep"; the second sentence stays as the opening's line. To the card. Saves 10.
+  Count before the list 915; the list saves 244; count after 671, under the approved 675.

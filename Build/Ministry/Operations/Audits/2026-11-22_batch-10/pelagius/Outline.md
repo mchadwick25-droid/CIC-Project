@@ -118,3 +118,18 @@ Source lines refer to `Source_Sheet.md`'s file short names (PL30, PL33, CSEL57, 
   - Theodoret's charge at Ephesus that Cyril's side received men "of the same mind as Celestius and Pelagius": belongs to the Ephesus and Theodoret stories.
   - The dating disputes (arrival at Rome, Diospolis 415 or 416, the letter 413 or 414): card.
   The record's force stays in: the emperor's exile order, the Bethlehem report as reported, Augustine's "poison", and the condemnation.
+
+## Cut first
+
+In order; a writer drops item 1 first. Words saved by the count's method (fact 11, gloss 8, witness credit 6).
+
+1. Beat 1: his short notes on Paul's letters (NPNF105 4627). To the card. Saves 11.
+2. Beat 2: Augustine glimpsing him once or twice at Carthage, busy with the debate against a rival church (NPNF105 10286). To the card. Saves 11.
+3. Beat 2: Caelestius staying in Africa and being condemned there (NPNF105 10287). To Leave out (told in `paulinus-of-milan`). Saves 11.
+4. Beat 2: the book on nature reaching Augustine through two of his former pupils (NPNF105 10294). To the card; Augustine's answer without naming him stays. Saves 11.
+5. Beat 1: Augustine first hearing his name at Rome with great praise (NPNF105 10285). To the card. Saves 11.
+6. Beat 5: Zosimus calling him a layman of long service to God, with the gloss on monk and layman (AVELL 11277-11278). To the card; the Do not say line on "priest" stays. Saves 19.
+7. Beat 6: the line that no source follows him after 418. To Leave out, as a repeat; the ending already says no source tells where or when he died. Saves 11.
+8. Ending: the English monk three centuries later who took the letter for Julian's (PL30 68-69), with its credit. To the card. Saves 17.
+
+Count before the list 766; the list saves 102; count after 664, under the approved 675.

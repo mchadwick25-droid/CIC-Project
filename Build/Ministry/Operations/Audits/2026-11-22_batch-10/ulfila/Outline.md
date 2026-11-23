@@ -13,11 +13,6 @@ File abbreviations and row numbers (S, E, I, L) as in `Source_Sheet.md`. All fil
   - What came of him: the Goths' faith in three historians' day (I1); the Gothic Bible's survival (I2); his successors teaching in Gothic (I3); his people still in Moesia in 551 (I4).
   - The sources hold all of this. They do not hold the card's "made bishop by Eusebius of Nicomedia" as a fact: Philostorgius says only "Eusebius", and the full name is the modern historian's (E4, E4a).
 - **Length:** about 4:00 (about 600 words), at most 4:30 (675). The count it must carry: three quotes, about 130 words; glosses (confessor, reader, unbegotten, "like" the Father, of one being, the barbarians' land, Moesia, "Arian" as the opponents' name), about 70 words; credited witnesses (Auxentius as pupil and main witness, Philostorgius and his hostile summariser, Socrates, Sozomen, Theodoret, a modern historian, a modern editor of the Bible, Jordanes), about 100 words. That is about 300 words before narration. Six beats at about 45 words each, with the essence and the ending, make about 300 more. The record is rich (one close witness, four later ones, and the Bible itself), so it runs past three minutes; everything else goes to Leave out or the card.
-- **Cut first, in order** (if the draft runs past 675 words; together about 75 words):
-  1. Q2 (Sozomen's tribute), keeping in narration that Sozomen still praises him. About 20 words.
-  2. Beat 5: Sozomen's account of the second crossing under Valens; keep Athanaric's persecution. About 20 words.
-  3. What came 3: his secretary and successor teaching in Gothic and Greek. About 20 words.
-  4. Beat 1: the Cappadocian village and Parnassus; keep "Christian captives from Cappadocia". About 15 words.
 - **Setting:**
   - About 341 to 383 (Kauffmann's dates, worked from Auxentius's numbers: AUX 3752-3755, 3735). Auxentius gives no years. Spoken: "in the middle of the three-hundreds"; "about 383".
   - The Goths' land north of the Danube, which Auxentius calls the barbarians' land (AUX 15271); the Roman side, "Romania", later Moesia and Thrace (AUX 15272; PHI 120; NP2 40145); Constantinople at the end (AUX 15283). Plain words: "the Goths' land beyond the Danube"; "Roman soil"; "Moesia, the Roman province south of the lower Danube" (DUC 21018-21020: "Mésie inférieure").
@@ -132,3 +127,24 @@ File abbreviations and row numbers (S, E, I, L) as in `Source_Sheet.md`. All fil
 - No English Auxentius before 1931 is held; every Auxentius line is rendered from Kauffmann's OCR-damaged Latin, checked against Streitberg's print, which follows Kauffmann's text "fast durchweg" (STR 657). The two prints are not fully independent.
 - Sozomen book IV (the council of 360) is held in English only.
 - Philostorgius survives only in Photius's summary; his Greek is held in Streitberg's print (STR 984-1040), Walford's English in PHI.
+
+## Cut first
+
+In order; a writer drops item 1 first. Counted by `Length_Count.md`'s method (quote words as rendered, gloss 8, witness credit 6, fact 11).
+
+1. **Q2**, Sozomen's tribute ("What is more ... still pagans"), whole. To the card. Saves 22.
+2. **What came 4**, Jordanes on the Lesser Goths still in Moesia: the fact, his credit, the short phrase "whose priest and primate was Vulfila", and the Moesia gloss there. To the card. Saves 31.
+3. **What came 3**, his school: Selinus as secretary and successor teaching in Gothic and Greek, with Sozomen's credit, and the line that Auxentius wrote his life (told already in the opening). To the card. Saves 22.
+4. **What came 1**, Isidore of Seville naming "Gulfilas" as maker of the letters and Bible: the fact and his credit. To the card. Saves 18.
+5. **What came 1**, Theodoret's "up to this day" the Goths call the Father greater but not the Son a creature. Keep Socrates and Sozomen on the Goths' faith. To the card. Saves 15.
+6. **Beat 3**, Auxentius on preaching in Greek, Latin and Gothic and leaving writings in all three, with the clause that he does not mention the Bible. The letters and the Bible stay credited to Philostorgius, Socrates and Sozomen. To the card. Saves 22.
+7. **Beat 1**, Philostorgius's "first bishop" against Socrates's Theophilus: the fact and Socrates's credit there. To the card. Saves 17.
+8. **Beat 2**, Philostorgius's report that the emperor settled them in Moesia and called Ulfila the Moses of his day: the fact and the credit there. To the card. Saves 17.
+9. **Beat 5**, Sozomen's second crossing under Valens, fleeing the Huns, with Ulfila leading the embassy: the fact and the credit there. Keep Athanaric's persecution and the burnings. To the card. Saves 17.
+10. **Q3**, the creed's line "I believe there is one God the Father, alone unbegotten and invisible." Beat 4 already tells that the Father alone is unbegotten; Q3 keeps the deathbed sentences and the Son "subject and obedient in all things to his God the Father." To the card. Saves 12.
+11. **Beat 3**, Socrates setting the letters in the reign of Valens. To the card. Saves 11.
+12. **Beat 6**, Christianople and the honour from fellow bishops among a great crowd. To the card. Saves 11.
+13. **What came 2**, the Codex Argenteus's description (silver and gold on purple, a century or two after him). Keep the editor's attribution of the fragments. To the card. Saves 11.
+14. **Beat 1**, "from the office of reader", with its gloss. Keep "made bishop at thirty". To Leave out. Saves 8.
+
+Count before the list 900; the list saves 234; count after 666, under the approved 675.

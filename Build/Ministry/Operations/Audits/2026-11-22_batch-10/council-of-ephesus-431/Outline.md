@@ -162,3 +162,23 @@ Past six names: Cyril, Nestorius, John of Antioch, Candidian and the emperor car
 - Barhadbeshabba's charge of signatures got "with gold and with blows" and his "theatre of madness" (I4, D7; BB 34052–34055).
 - Badger's 1852 claim that the decree cut the Easterns off (D6; BAD1 7676–7681), and Sliba's account of 1332 that "an adversary should" not "be judge" (I4; BAD2 5969).
 - Hefele's counts: 160 at the start, 198 signatures, 126 speeches (E7, E8).
+
+**Cut first** (in order; the words saved are by the independent count's method: a fact 11, a gloss 8, a credited witness 6, quoted words as counted)
+
+1. Beat 2, whole: Cyril's arrival with fifty bishops, John's lateness, his word after sixteen days not to wait; with the credit to Socrates and the editors. The essence already says Cyril opened before John arrived. To the card. Saves 39 (3 facts, 1 witness).
+2. What came 2: Barhadbeshabba's history calling Nestorius pious and a saint and Cyril impious, and "the Church of the East kept Nestorius's memory", with his credit. Wigram's verdict stays. To the card. Saves 39 (3 facts, 1 witness).
+3. Beat 4: the counts, "forty or so, by their signatures" and "Cyril's council called them some thirty" (D4). Say "John's assembly" without a number. To the card. Saves 22 (2 facts).
+4. Beat 1: Celestine's earlier condemnation of Nestorius. To the card. Saves 11 (1 fact).
+5. Beat 1: Candidian sent to keep order, not to judge the faith, with Hefele's credit for the edict. Candidian is first met in beat 3, glossed there as "the emperor's officer". To the card. Saves 17 (1 fact, 1 witness).
+6. Beat 3: "Cyril presided, in the place of Rome's bishop". The opening already tells it. To Leave out (told in the opening). Saves 11 (1 fact).
+7. Beat 3: about two hundred bishops signed. To the card. Saves 11 (1 fact).
+8. Beat 3: Nestorius's condition, that he would come when all the bishops had come. He was summoned three times and would not come, and the soldiers by the council's record, both stay. To the card. Saves 11 (1 fact).
+9. Beat 3: the short phrase "with many tears". The sentence itself stays, in the narrator's words. To the card. Saves 3.
+10. Beat 4: Candidian's testimony to John's assembly that Nestorius had been condemned unheard. Candidian's protest (Quote 1) carries his side. To the card. Saves 11 (1 fact).
+11. Beat 5: "made earlier by Rome's bishops" for Pelagius's condemnation. The clause that the council upheld it stays. To the card. Saves 11 (1 fact).
+12. Beat 6: Cyril going home to Alexandria, and the new bishop made in Constantinople. The arrest of all three and the dissolution stay. To the card. Saves 22 (2 facts).
+13. Beat 7: that John's side had first offered the confession to the emperor at Ephesus. To the card. Saves 11 (1 fact).
+14. What came 1: "kept the order of faith set at Ephesus under Celestine and Cyril". Chalcedon taking Cyril's letters, to Nestorius and to the Eastern bishops, as its guide stays. To the card. Saves 11 (1 fact).
+15. Words to explain: "the Word" (beat 1 says "God's own Son, made man" instead), "envoys / legates" (no envoys are told after item 1 and the earlier cuts), and the note on "without mixing". To Leave out. Saves 24 (3 glosses).
+
+Count before the list 828; the list saves 254; count after 574, under the approved 585.
