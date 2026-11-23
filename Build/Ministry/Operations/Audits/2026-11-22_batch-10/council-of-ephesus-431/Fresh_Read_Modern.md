@@ -37,7 +37,7 @@ Every sentence was traced to the outline and re-read at its lines.
 - "June 431": Candidian's protest, "decimo Kalendas Julii" (M5 76870–76877); Socrates, 28 June, consulate of Bassus and Antiochus (SOC 20944–20945). Both give June, so the month holds. The verdict held: ACTS 20214–20217, 20256–20262. "saint Nestorius": BB 31905, 31910–31911.
 - Sixteen days: ACTS 18579–18580. Four days: M5 76900–76906.
 - Summoned three times, soldiers: ACTS 18600–18606. Nicaea and the two letters: ACTS 15812–15847. Nestorius's side's complaint: M5 76673–76688 ("domos nostras publice circumdantes", "Memnon ... clausit", "mortem minatur omnibus nobis").
-- John's sentence: ACTS 17886–17899, in Hefele's English, which is a translation of the old sentence and not his view. "against the emperor's orders": npnf203 36856–36866. The curses held heresies: npnf203 36872–36874, "the Chapters issued by Cyril, which are full of the Eunomian and Arian heresies". Curses I–III: ACTS 16301–16305, 16653–16657, 16677–16683. Counter-curses: ACTS 16313–16318, 16665–16667. Cut off in turn: ACTS 18680–18714.
+- John's sentence: ACTS 17886–17899, in Hefele's English, which is a translation of the old sentence and not his view. "against the emperor's orders": npnf203 36856–36866. The curses held heresies: npnf203 36873–36876, "the Chapters issued by Cyril, which are full of the Eunomian and Arian heresies". Curses I–III: ACTS 16299–16303, 16654–16657, 16672–16677. Counter-curses: ACTS 16309–16316, 16665–16667. Cut off in turn: ACTS 18680–18714.
 - Canon VII: ACTS 18157–18160. Pelagius: ACTS 18748–18753, with Carthage's canons CXI and CXII (NPNF214 36504–36527) for the accusers' charge.
 - The commissioner, the arrests: M4 123607–123647. Nestorius was given to Candidian, Cyril to Jacobus, and Memnon too, once he came. The dissolution: M5 80117–80128.
 - The peace: PUS 5175–5223. John's acceptance: M5 29073–29081. "which Cyril wrote he had required": M5 35298–35303, 35345–35355. Theodoret, one of John's men: ACTS 17719. His letter: npnf203 37998–38011.
@@ -49,7 +49,7 @@ Every sentence was traced to the outline and re-read at its lines.
 - The two calendar conversions (the consulate to 431; Nicaea "a century before") are arithmetic on old dates, not reconstructions.
 - The outline rates nothing in the story as Dominant Modern Reconstruction or Inferential-Thin.
 - The counter-curses are Widely Accepted as Nestorius's, on an old witness's transmission (Marius Mercator). The rule does not reach that rating.
-- Barhadbeshabba's name comes from the manuscript's own title and ending (BB 31541–31545, 31616–31617). His identification with the bishop of Halwan, and the date "about 600", are Nau's (31549–31556, 31577). The story uses neither.
+- Barhadbeshabba's name is the one the single manuscript gives the work (Nau's list of its contents, BB 31616–31617), with the title's and ending's own descriptions of the author (31557–31560). His identification with the bishop of Halwan, and the date "about 600", are Nau's (31559–31561, 31601–31608, 31577). The story uses neither.
 - The Theodoret letter carries no time. The editor's dating (npnf203 37985–37988) is not used. The letter's own words place it after he accepted Cyril's writings and while assent to the deposition was being required ("This I have stated in writing to those who require it", 38010–38011). So setting it beside the peace rests on the letter itself.
 
 ## Step 4, the score
@@ -96,10 +96,10 @@ There are seven changed places. Each traces to the outline's Modern pass section
 
 **MINOR 1, para 9, the pronoun.** In "But he would never agree to what was done against him", "he" is Theodoret and "him" is Nestorius. Heard once, the listener has to sort out which is which.
 Change: "what was done against him." → "what was done against Nestorius."
-Source: npnf203 38007–38009, "to what has been done unjustly and illegally against your holiness ... would I ever assent". The letter is addressed to Nestorius (37990–37992). The count is unchanged (579).
+Source: npnf203 38007–38010, "to what has been done unjustly and illegally against your holiness ... would I ever assent". The letter is addressed to Nestorius (37988–37990). The count is unchanged (579).
 
 **MINOR 2, para 11, the witness's distance (optional).** The ending's history is named but not marked as later. A listener could take it for an account from 431. Para 3's "would call" hints at the gap, but the ending stands on its own.
 Change: "The Church of the East's own history, by Barhadbeshabba," → "The Church of the East's own later history, by Barhadbeshabba,".
-Source: the history itself goes on past the council to Nestorius in exile and after (chapter list, BB 31905–31969, ch. XXX). "Later" rests on its own contents, not on Nau's "about 600" (31577), which stays on the card. Count 580.
+Source: the history itself goes on past the council to Nestorius in exile and after (chapter list, BB 31905–31969, ch. XXX at 31964). "Later" rests on its own contents, not on Nau's "about 600" (31577), which stays on the card. Count 580.
 
 No BLOCKING findings. No Do not say line is needed.
