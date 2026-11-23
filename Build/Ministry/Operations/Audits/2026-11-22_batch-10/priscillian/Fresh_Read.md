@@ -62,3 +62,23 @@ Every sentence traced to the outline and source sheet, and the key lines were re
    *Change:* "Priscillian went to Rome:" → "Priscillian went to Rome with his book:" (+2; use only if the count allows). Leaving it as it stands is acceptable.
 4. **MINOR — an ambiguous "he" in the last line.** "Among them was the book he had carried to Damasus" follows a sentence whose subject is the scholar.
    *Change:* "the book he had carried to Damasus" → "the book Priscillian had carried to Damasus" (a one-word swap, no change to the count).
+
+## Trims to 675
+
+The brief as it stands after the BLOCKING change and the "Priscillian had carried" swap is 676 words. The changes below apply the two skipped minors and cut 8 words elsewhere, with nothing taken from the heart, the creed sentence, the record's force or a credit. The edict change is reworded shorter than in finding 2, and the Rome change is finding 3. The scorer was run on a scratch copy with changes 1 to 8 applied: 675 words, grade 8.3, reading ease 70.8, longest sentence 29 words, pass.
+
+Applying the minors (+6):
+1. "that drove all heretics from the cities." → "that drove all heretics from the cities and beyond his lands." (+4; "his" is the emperor in the same sentence.)
+2. "Priscillian went to Rome:" → "Priscillian went to Rome with his book:" (+2.)
+
+Trims (−7):
+3. "Sulpicius says Priscillian stayed away and was condemned in his absence, still a layman." → "Sulpicius says Priscillian was condemned in his absence, still a layman." (−3. "In his absence" keeps the fact, and Priscillian's own "etsi absentes ibi fuimus" agrees on it.)
+4. "The deaths split the other side too." → "The deaths split the other side." (−1. The vague "too" goes.)
+5. "Nearly all we know of his life comes from" → "Nearly all we know of him comes from" (−1.)
+6. "where the bishop Ithacius accused" → "where Bishop Ithacius accused" (−1.)
+7. "Then Maximus seized" → "Maximus seized" (−1.)
+8. "Spanish bishops meeting at Toledo" → "Spanish bishops at Toledo" (−1.)
+
+Also: remove the stray trailing space after "Two bishops then made him bishop of Abila." (0 words.)
+
+**The outline's matching clause, for Story beat 1.** After "...cannot be his disciple (Pr 4365-4368, narrator's words)." add: "The same book gives his creed and curses every heresy, the Manichaeans above all, glossed as 'the followers of the Persian teacher Mani' (Pr 4483-4485, 4565-4567, narrator's words). Documented, attribution Schepss's."
