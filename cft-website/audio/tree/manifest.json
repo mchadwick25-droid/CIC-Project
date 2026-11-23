@@ -4479,5 +4479,24 @@
   "openTag": null,
   "closingTag": null,
   "requestId": "GJKG8yvYY6XVZVuTc9Jv"
+ },
+ "priscillian": {
+  "file": "priscillian.mp3",
+  "bytes": 2189940,
+  "chars": 3981,
+  "text_sha256": "c0fc0d8b22ec85bd7489f9993c516d82ff5d0530f3349c47653ea8a123547848",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  },
+  "charsSent": 4080,
+  "openTag": null,
+  "closingTag": null,
+  "requestId": "qNBRndceuzdyVHTfujcr"
  }
 }
