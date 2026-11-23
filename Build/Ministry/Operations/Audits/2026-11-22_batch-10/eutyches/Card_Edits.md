@@ -18,3 +18,30 @@ Existing fields kept word for word (checked by comparison with Card.existing.jso
 ## Not found
 
 None. Two items carried from the existing card were not re-checked against a held clean print: Chrysaphius as godson (Liberatus, rough scan, and Feltoe's introduction) and exile after Chalcedon (Feltoe's summary). They stay as the card words them.
+
+## Scan readings to add
+
+None. The checker lists no scan readings.
+
+## Second pass (2026-11-23)
+
+**Checker changes (all four applied word for word, each old text found once)**
+1. `uncertain[5]`: "That he was exiled further after Chalcedon rests on ..." became "That he was in exile after Chalcedon rests on Feltoe's summary of a letter of Leo that the English edition does not translate, which suggests he be banished to a still remoter place." Evidence: Leo 11331-11333.
+2. `uncertain[13]`: now "In his letter to Leo he asked not to be expelled after seventy years of continence, and so suffer shipwreck at the very end of life. The seventy years are his own claim." Evidence: Leo 4608-4611.
+3. `uncertain[15]`: "Hefele, an editor, doubts ..." became "Hefele, a historian of the councils, doubts the text of canon 95". Evidence: Councils 30148.
+4. `briefReferences[1]`: "the genuine followers of Dioscorus and Eutyches reduced to a small number." became "the refusing churches called followers of Dioscorus and Eutyches." Evidence: the brief's sentence; Evag-E 6794-6797.
+
+**Items added from the outline: none.** Every item the outline marks "to the card" (Outline.md lines 74, 103-105, 107, and the Cut first items 1, 3, 4, 6) was already held, so nothing was added:
+- Leo's letter of June 448 (Cut first 1): `uncertain`, Leo 4479-4489.
+- Severus of Antioch against him (Cut first 3): `legacy.traces`, Life of Severus 6855-6858.
+- Palace soldiers (Cut first 4): `uncertain`, Zach 1206-1213.
+- Emperors' letter blaming Flavian (Cut first 6): `uncertain`, Perry 23250-23252.
+- Peter Mongus and the Henotikon, eastern monks, Severus's letters, Philoxenus, Armenia's anathema (line 103): `legacy.traces` and `sources.about`.
+- Rain or snow image (line 104): `uncertain`.
+- "The ignorant old man", seventy years and shipwreck (line 105): `legacy.remembered` and `uncertain`.
+- Canon 95 of 692 (line 107): `legacy.traces` and `uncertain`.
+- Nestorius on suborned accusers (line 74): `uncertain`, Bazaar 18910-18914.
+
+**Skipped:** the outline's Leave out items not marked for the card (Chrysaphius as godson, his fate after 451, the second inquiry, Flavian's death, the Coptic legend); the existing card already carries Chrysaphius and the exile, now corrected under change 1. Review.md and Fresh_Read.md send nothing to the card.
+
+**Validator** (scratch census, `--skip-quotes`): two errors for this entry, `secondReading` missing on quotationOriginals[0] and [1] (six words or more; release sets them).
