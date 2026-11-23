@@ -105,6 +105,8 @@ File abbreviations and row numbers (S, E, I, L) as in `Source_Sheet.md`. All fil
   - "He left out the Books of Kings" as fact → "Philostorgius says he left them out". Philostorgius is the only witness (PHI 120).
   - Any word under Words to explain (confessor, reader, unbegotten, "like" the Father, of one being, the barbarians' land, Moesia, Arian) used without its plain sense the first time it is heard.
   - "The oldest book in a Germanic language", or what his name means → no held text in this outline says either; leave them out.
+  - Q3's second phrase quoted past 'in all things' → the lifted span is 'subject and obedient in all things'; 'to his God the Father' follows in the narrator's words, outside the quote marks.
+  - Any date on the letters and the Bible in the narrator's voice ('in the middle of the three-hundreds', 'after the crossing') → no date; the date is Contested, and Socrates's 'under Valens' is told only as his.
 - **Leave out:**
   - The Cappadocian village Sadagolthina near Parnassus (PHI 120): side detail. Card.
   - Kauffmann's guess that he was first a country bishop under a Moesian see (AUX 3801-3805). Card.

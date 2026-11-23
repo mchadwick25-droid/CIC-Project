@@ -116,6 +116,8 @@ Batch 10, half A. File short names (N211, PET, N203 and the rest) are defined at
   - "the Abbey of Saint-Victor" or a named house. Gennadius names neither house.
   - "Augustine wrote against Cassian" or "Augustine answered him". The held letter does not name him (N211 15721-15724).
   - "Chrysostom ordained him priest". Say: deacon, in Gennadius's word.
+  - The Benedict line moved out of the essence, or told only under what came of him. Say, in the first minute: a century later, Benedict's Rule named the Conferences first for the monks' evening reading.
+  - Gennadius 'writing fifty years later' beside the ordination at Constantinople. Say: a later priest of Marseilles; give 'some fifty years later' only beside Gaul's answer to Prosper.
 - **Leave out:**
   - Sarapion's cry that "they have taken away my God" (Conf. X.3, N211 36052): a strong scene, but a side story on another quarrel; the story has no room.
   - The interviews with each desert elder (Gibson's tour, N211 15091-15377): a list, the Monk shape's trap.
