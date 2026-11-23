@@ -29,3 +29,34 @@ Card written to `rufinus-of-aquileia.card.json` from `Card.existing.json`. Every
 - Church History date 402-403: stands only in the header of the Latin edition's library file, not in a held scholar's words; left out. Fremantle's 401 is carried.
 - Optional items left out as optional: the Creed praise by Gennadius, Jerome's Letter to Rusticus, Augustine's lament (already on the card).
 - Existing claims not found in a held source, left in place: none found. "Rufinus of Concordia" (otherNames) rests on Jerome and the editors naming Concordia his native town (N203 44045-44048), not on a held use of the name itself.
+
+## Second pass (2026-11-23)
+
+### Checker changes
+
+FIX 1 to FIX 8 (`briefReferences[0]`, `[1]`, `[2]`, `[3]`, `[5]`, `[9]`, `[10]`, `[13]`): applied word for word. Each old text occurred once.
+
+### Scan readings to add
+
+None listed by the checker.
+
+### Items added (N203 = `npnf203_theodoret-jerome-gennadius-rufinus.xml`)
+
+1. `legacy.traces`: "Gennadius says Rufinus wrote on Jacob's blessing on the patriarchs in a threefold sense, \"the historical, moral and mystical\"." Evidence: N203 42484-42487. Outline Leave out (Benedictions of the Patriarchs, to the card).
+2. `legacy.traces`: "W. H. Fremantle says Rufinus also wrote a History of the Monks of the East, partly from personal knowledge, partly from what he had heard or read of them." Evidence: N203 44396-44398. Same outline item (History of the Monks).
+3. `legacy.traces`: "Palladius of Helenopolis says that Melania and Rufinus received at their own charges those who visited Jerusalem in pursuance of a vow, bishops and monks and virgins." Evidence: `palladius_lausiac-history_clarke1918.txt` line 501, [6]. Cut first 4; Palladius credited.
+4. `uncertain`: three clergy of his baptism, Chromatius, Jovinus and Eusebius, "all now bishops"; one then presbyter, one archdeacon, one deacon, the third his teacher in the creed. Evidence: N203 46563-46575. Cut first 6. Worded as Rufinus's own account, in the order he gives.
+5. `uncertain`: six years in Egypt and two more where Didymus lived; Fremantle calls him a pupil of Didymus. Evidence: N203 49434-49439 (Rufinus); N203 44084-44088 (Fremantle). Cut first 8.
+6. `uncertain`: the tenth book of Eusebius left out for its praise of bishops and the history folded into the ninth; his own two books "partly from the traditions of the former generation, partly from facts within my own memory"; "like the two fishes to the loaves". Evidence: N203 58776-58787. Cut first 2 and 3.
+7. `uncertain`: "I am not a defender or a champion of Origen" in the Apology to Anastasius. Evidence: N203 46070-46071. Cut first 12.
+8. `uncertain`: Anastasius's letter answers John of Jerusalem, who had asked his advice about Rufinus. Evidence: N203 46149-46152; Fremantle at 44423-44425. Cut first 17.
+9. `uncertain`: the brethren constantly adjuring him to translate On First Principles, and he yielded to Macarius; Fremantle says Urseius and Macarius asked him to translate various Greek books, among them that one. Evidence: N203 45741-45745; 44208-44211. Cut first 18.
+10. `uncertain`: in the preface to Origen on Numbers he joined Pinianus and his company in their flight; Fremantle says the party left by way of Sicily and Africa and Rufinus joined their religious company. Evidence: N203 59013-59015; 44436-44441. Cut first 19.
+
+The rest of the outline's "to the card" items were already on the card: Frumentius and Edesius, "from Constantine to the death of Theodosius" (keyWorks), the Pamphilus Defence, Jerome's fragments, Gennadius's "opened to the Latin speaking church", Socrates still using him, Augustine's lament, the priesthood (`role`), the Recognitions and Xystus, the birth year and Concordia, Epiphanius's prayer (`legacy.remembered`). The fresh read's Frumentius item is trace 6.
+
+### Skipped
+
+- Jerome's "Grunnius" satire (Letter to Rusticus, outline Leave out): worded "to the card if wanted", not held as a text (only Fremantle's mention at N203 44120); left out.
+- Quote 1's first sentence (Cut first 15): the checker's FIX 1 keeps it out of `briefReferences`; the sentence is a printed line, N206 3936-3942, and no card field takes it.
+- Gennadius's praise of the Creed: not marked for the card.
