@@ -188,6 +188,8 @@ Witness kinds: **own** (Cassian's own words); **contemporary**; **later (gap)**;
 - BANG 1622-1623, later (three centuries): "Inde postea beatissimus? Cassianus, qui Linerensi (sz?) monasterio beatum Honorium habuit comparem." The tract puts Cassian at Lérins with Honoratus, which no earlier held source does.
 - Confidence: Inferential-Thin. Census edge: `gallic-monastic-ascetic-christianity--insular-irish-monastic-christianity`, Inferential-Thin.
 
+**I9. Read in Greek in the East:** the Philokalia (1782; held print 1893) prints his pieces on the eight thoughts and on discernment as Cassian the Roman's, and its preface says the Church keeps his feast on 29 February (philokalia v1 6133-6183). Later (about 1,350 years). Documented that the Philokalia prints and commemorates him.
+
 **I8. Remembered.** Editor.
 - N211 15944-15948: "Never formally canonized, his name is not found in the Calendars of the West ... He is, however, generally spoken of as 'the blessed Cassian'". N211 15955-15956: "In the East Cassian's position is somewhat better. He is there regarded as a saint".
 - N211 15940-15943, editor's verdict: "a verdict of guilty must be returned on the charge of Semi-Pelagianism in Cassian's case". The editor's view, not the record's. Leave out.
@@ -236,9 +238,10 @@ Germanus, his friend, has no census entry (he is not Germanus of Auxerre).
 
 **Count.** 344 files in `cic/texts/` contain "cassian" in some form. Most are other men (Cassian of Imola, Julius Cassianus, Cassianus Bassus, the Cassianus of Jacob Baradaeus's death), editors' notes citing Cassian's works, or later devotional and modern books.
 
-**Used.** N211, PET, N203, MOM, PAL, PG47, N202, GOLD, RB, CAS, GT-L, GT-E, BANG (above).
+**Used.** N211, PET, N203, MOM, PAL, PG47, N202, GOLD, RB, CAS, GT-L, GT-E, BANG (above), and `cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt` (I9).
 
 **Set aside, and why.**
+- `nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900.txt` 53996: "Κασσιανὸς ὁ Ῥωμαῖος, Φεβρουαρ.", an index line only.
 - `benedict-aniane_concordia-regularum-with-ardo-vita-pl103-lat_migne1851.txt` (181 hits): Benedict of Aniane's ninth-century concordance sets Cassian beside other rules; strong evidence of later use, but the hits are passages and Migne's notes, and the story has no room for a fourth later witness. Card material.
 - `isidore-seville_..._pl83` (39 hits): almost all Arevalo's notes citing Cassian; Isidore's own debt is not shown in the text itself.
 - `faustus-riez_de-gratia-..._engelbrecht1891.txt` (7 hits): Engelbrecht's notes on Faustus's and Ruricius's borrowings. Editor only.

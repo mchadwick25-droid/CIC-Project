@@ -14,10 +14,10 @@ One BLOCKING finding (the order of the Georgian and Albanian letters); the rest 
 
 ### 1. BLOCKING: the Georgian and Albanian letters are moved after the Roman journey
 
-Koriun tells the Georgian alphabet and the renewal of the Aghouank letters right after the schools on the Persian side, then "il revint en Arménie", and only then the turn west to the Greek part (T2 3657-3664, then 3693-3704). Moses keeps the same order: the Georgian alphabet in III.54 (T2 23913-23933) comes before the letters to Theodosius (T2 24205-24340). The outline's beat 6 puts the Georgians after beat 5 (Constantinople, the treasury schools, the Borborites). Heard once, that tells a listener the Georgian letters came after Constantinople. That is a detail moved onto the wrong point in the life, and the beats then fail to follow the life in order.
+Koriun tells the Georgian alphabet and the renewal of the Aghouank letters right after the schools on the Persian side, then "il revint en Arménie", and only then the turn west to the Greek part (T2 3657-3664, then 3664-3704). Moses keeps the same order: the Georgian alphabet in III.54 (T2 23913-23933) comes before the letters to Theodosius (T2 24205-24340). The outline's beat 6 puts the Georgians after beat 5 (Constantinople, the treasury schools, the Borborites). Heard once, that tells a listener the Georgian letters came after Constantinople. That is a detail moved onto the wrong point in the life, and the beats then fail to follow the life in order.
 
 Correction. Move the Georgian and Albanian sentences from beat 6 to the end of beat 4, and retitle both beats:
-- Beat 4 title → **Letters to Scripture, schools, and the neighbours.** Append to beat 4: "Then, Koriun says, he went to the Georgians and gave them an alphabet, and to the Albanians, whose alphabet he renewed, leaving teachers in both lands, before he came back to Armenia (T2 3657-3664, 3693). Contested: the Georgian chronicle gives Georgia's script to an ancient king, Pharnavaz (KART 2228-2230), and its translator notes that the chronicle is silent on Mesrop (KART 7040, editor's)."
+- Beat 4 title → **Letters to Scripture, schools, and the neighbours.** Append to beat 4: "Then, Koriun says, he went to the Georgians and gave them an alphabet, and to the Albanians, whose alphabet he renewed, leaving teachers in both lands, before he came back to Armenia (T2 3657-3664, 3696). Contested: the Georgian chronicle gives Georgia's script to an ancient king, Pharnavaz (KART 2228-2230), and its translator notes that the chronicle is silent on Mesrop (KART 7040, editor's)."
 - Beat 6 title → **The pupils, and the defence.** Delete from beat 6 the two sentences beginning "Koriun says he went to the Georgians" and "Contested: the Georgian chronicle".
 - In **Also told**, move item (6) to stand between (3) and (4), so the summary follows the same order.
 
@@ -51,7 +51,7 @@ Add these, from the source sheet's own table (I1-I7):
 
 Add:
 - "Rufinus of Aquileia", or any hint that this is the translator on the tree → "a hermit named Rufinus". Koriun's text calls him a man of Samos and a disciple of an Epiphanius. He is not Rufinus of Aquileia, whose story is in this batch (slate caution).
-- "The Persian governors burned the Greek books" → Koriun says the books had been burned earlier, by Meroujan, "à l'époque du partage de l'Arménie" (T2 3697-3700). The governors barred Greek learning.
+- "The Persian governors burned the Greek books" → Koriun says the books had been burned earlier, by Meroujan, "à l'époque du partage de l'Arménie" (T2 3698-3700). The governors barred Greek learning.
 - "Sahak and Mesrop went to Constantinople" → Sahak sent Mesrop and his nephew Vartan to the emperor and the patriarch (T2 3711-3726). Sahak stayed in the Roman part of Armenia.
 
 ### 7. MINOR: Words to explain lacks two words the story may use

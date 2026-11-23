@@ -46,6 +46,7 @@ Lifted for the job the slate names, one per line in `Allowed_Reuse.txt`: Ulfila'
 - Ulfila: the creed sentence his outline quotes is also rendered, differently, on the `homoian-arian-christianity` tradition page, which `check_tree_overlap.py` does not scan. The outline check weighs it under the quote rule.
 - At release: Eutyches's census `toldWithin` is removed (the river, Greek East), per the hearts ruling.
 - Priscillian: the lifted Sulpicius line is rendered afresh from the Latin, so it no longer matches the wording on `sulpicius-severus`; the outline check weighs that.
+- For batch 11 on, with Mark: why the outlines keep running long, and three fixes at research (https://claude.ai/artifact/MzbUJjBWpsjZJ377yUm3vX, version 1). This batch keeps the hearts ruling.
 
 ## Rulings
 - "Batch 10: the slate approved" (Mark, 2026-11-23: "Approve as recommended"): the twelve and halves, the research order, Eutyches's home kept for now, the quotes, no direct-line change. This batch only.
