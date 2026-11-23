@@ -28,7 +28,7 @@ Lifted for the job the slate names, one per line in `Allowed_Reuse.txt`: Ulfila'
 
 ## Steps
 0. Slate: approved by Mark (2026-11-23).
-1. Research (`<slug>/Researcher_Prompt.filled.md`): eight started 2026-11-23; Theodoret after the Ephesus and Eutyches outlines, Frumentius after Rufinus's. Then the hearts and lengths go to Mark.
+1. Research (`<slug>/Researcher_Prompt.filled.md`): eight started 2026-11-23; Theodoret after the Ephesus and Eutyches outlines, Frumentius after Rufinus's. All ten outlines done (2026-11-23); independent count in `Length_Count.md` (all ten over). Hearts and lengths sent to Mark: https://claude.ai/artifact/RRoFG9cDR3qpS5qW12kFvz (version 1). Waiting for his ruling.
 2. Outline check.
 3. Write.
 4. Review, after `tools/check_brief_variety.py` and `tools/check_tree_overlap.py --allow Allowed_Reuse.txt`. Chrysostom and Ephrem join here.
@@ -39,6 +39,8 @@ Lifted for the job the slate names, one per line in `Allowed_Reuse.txt`: Ulfila'
 9. Recording, with Mark's approval in his own words and a credit cap.
 
 ## Open items
+- Kit gap, to Mark on the hearts page: `roles/checker.md` and `roles/writer.md` rely on an outline's cut-first list, but nothing asks the researcher to write one, and none of the ten outlines has one.
+- For Open-Gaps at release: the `aksumite-christianity-conversion-era` card's "shipwrecked" and "tutor" are not in Rufinus (Frumentius outline); Theodoret's card says the Religious History is not held, but it is, in Greek (PG 82).
 - Eutyches's home tradition: the researcher tests the editors' claim against a primary text; it comes back to Mark on the hearts page if it holds.
 
 - Ulfila: the creed sentence his outline quotes is also rendered, differently, on the `homoian-arian-christianity` tradition page, which `check_tree_overlap.py` does not scan. The outline check weighs it under the quote rule.
