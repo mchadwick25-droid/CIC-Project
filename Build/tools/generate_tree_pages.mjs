@@ -151,9 +151,8 @@ const ANALYTICS_TOKEN = siteContent.analyticsToken;
 const analyticsTag = ANALYTICS_TOKEN ? `<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "${ANALYTICS_TOKEN}"}'></script>\n` : '';
 
 function siteHeader(up) {
-  return `<a href="${up}" class="skip-link">Skip to the map</a>
-
-<header class="site-header">
+  return `<header class="site-header">
+  <a href="${up}" class="skip-link">Skip to the map</a>
   <div class="row">
     <a href="${up}" class="wordmark">Church Family Tree</a>
     <nav aria-label="Site">
