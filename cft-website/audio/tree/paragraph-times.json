@@ -31,6 +31,19 @@
    160.87
   ]
  },
+ "arius": {
+  "text_sha256": "46c99af97732edea7f8c91991f627840459c33a928972021e20a633bdae4a41c",
+  "starts": [
+   0.0,
+   12.07,
+   51.47,
+   77.67,
+   92.89,
+   116.65,
+   133.41,
+   175.09
+  ]
+ },
  "armenian-christianity-zartonk": {
   "text_sha256": "7524280796f923331e20f42aa4bf3147991598d11165479e46a8300182fd2625",
   "starts": [
@@ -52,6 +65,30 @@
    170.07,
    207.29,
    235.43
+  ]
+ },
+ "augustine-of-hippo": {
+  "text_sha256": "8634e6fd713c0490179c0aa20267460295523b40daccf17506e4f1947c76c839",
+  "starts": [
+   0.0,
+   20.21,
+   62.27,
+   117.19,
+   153.99,
+   187.71,
+   224.05,
+   236.45,
+   281.41
+  ]
+ },
+ "baudonivia": {
+  "text_sha256": "a7a1bc88eadb993d51b754b2148a423c514774406eeb179367a188c658c86a7d",
+  "starts": [
+   0.0,
+   38.87,
+   65.11,
+   104.05,
+   112.73
   ]
  },
  "benedict-of-nursia": {
@@ -570,6 +607,32 @@
    113.41
   ]
  },
+ "narsai": {
+  "text_sha256": "387c26fa1483382519a73aaf5f80149c61d9a2b35f9c7d901ac1c9d4a72fffe7",
+  "starts": [
+   0.0,
+   14.25,
+   55.71,
+   76.89,
+   99.23,
+   113.63,
+   140.53
+  ]
+ },
+ "nestorius": {
+  "text_sha256": "201924b3efc0151bf71dc95d0ff4cdd9b662924f4db3dc46803377c9a01ecde6",
+  "starts": [
+   0.0,
+   25.01,
+   66.87,
+   86.57,
+   97.39,
+   129.05,
+   146.31,
+   163.93,
+   203.45
+  ]
+ },
  "new-france-mission-born-christianity": {
   "text_sha256": "fdfe1446776ebbec0fe031710e9cd169d491335393bf31dd683d2d0c4415ce33",
   "starts": [
@@ -632,6 +695,17 @@
    0.0,
    88.75,
    116.17
+  ]
+ },
+ "pachomius": {
+  "text_sha256": "337bd5fdd8aee6c0d27725818d9c1e167df9262f236a87fb9a4000d7f15aa0ae",
+  "starts": [
+   0.0,
+   29.73,
+   57.65,
+   90.41,
+   112.29,
+   139.45
   ]
  },
  "philippine-catholicism-gomburza-to-aglipay": {
@@ -902,6 +976,19 @@
    72.61,
    101.29,
    119.73
+  ]
+ },
+ "vardan-mamikonian": {
+  "text_sha256": "fe6d518bf626cd900cfc142f8f9ee4f33e8bf32eb3bb3001980557d8e2e72b73",
+  "starts": [
+   0.0,
+   31.99,
+   57.51,
+   77.37,
+   91.55,
+   119.69,
+   130.55,
+   147.29
   ]
  },
  "victorian-church-of-england": {
