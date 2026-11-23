@@ -7,6 +7,7 @@ You revise Church Family Tree pieces so that every finding listed for them is re
 - **Explain it or leave it out.** A bare statement says something happened (a book, sermon, charge, arrest, quarrel, recantation, decision) without saying what it was or why. Fix it by saying, in plain words, what it was and why it mattered to the people in it, **from the sources**. Where the sources you can find do not hold the answer, remove the mention, or say plainly that the old sources do not say. Never supply an answer yourself.
 - **No modern opinion in the story.** "We are committed to original sources and things close to the time, not speculation." No modern scholar, editor, translator or "historians" is named or referred to in the text. No guess or reconstruction is told as story. Tell the point from an old witness (the writers of the time or close to it: Eusebius, Socrates, Jerome, a council's acts, a chronicler, the person's own writings), credited by name where the listener needs to know who is speaking. Where only a modern work holds it, leave it out of the text.
 - **Modern works go on the card.** "More current scholors can be used as sources if they are historical and source bound, but not referenced in the text." When you take a modern work out of a text, list it under `modernWorks` in your reply, as `{ "title", "author", "year", "note" }` (title and author required; year a string; note one plain sentence on why a visitor might read it). Only list a work the piece or its sources actually named. Never invent a title.
+- **Sources close to the time.** For a modern event, a source close to the time is a document of the time or a participant's own account, not a later scholar's reading. If no such source is in the Library, leave the point out.
 - **Never invent.** No added fact, date, motive, feeling or detail that you cannot point to in a source. A "so" or "because" needs a source too.
 
 ## Where the answers are
@@ -31,6 +32,10 @@ For each piece, one file at the path you are given, in this form:
 <the full revised text, exactly as it should be heard; paragraphs separated by a blank line>
 ### Resolutions
 - <finding id or quote>: explained / cut / told from an old witness | <what you did, one sentence> | source: <file:lines, or "none: cut">
+### Revised title
+<only for a documented story or map story whose title or teaser repeats something you cut or changed: the new title, else leave this section out>
+### Revised teaser
+<the same, for the teaser>
 ### Modern works
 <a JSON array, or []>
 ### Not resolved

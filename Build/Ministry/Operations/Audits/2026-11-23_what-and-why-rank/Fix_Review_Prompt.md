@@ -12,6 +12,8 @@ For each piece, check:
 
 A finding that is only "could be fuller" is not a problem.
 
+The "Heart" line in the packet is a reader's working note, not text on the site: never review it and never block on it. A documented story's or map story's title and teaser are on the site: if a cut leaves one repeating the removed claim, that is BLOCKING, and the writer may give a revised title or teaser.
+
 Write one file at the path you are given:
 
 ```
