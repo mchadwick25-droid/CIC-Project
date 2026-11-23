@@ -1,0 +1,323 @@
+{
+ "rows": [
+  {
+   "name": "Nestorian",
+   "kind": "name given by opponents",
+   "entry": "the-church-of-the-east-under-persia",
+   "basis": {
+    "source": "tree",
+    "entry": "the-church-of-the-east-under-persia",
+    "field": "floorNote",
+    "text": "\"Nestorian\" was a name its opponents gave it."
+   }
+  },
+  {
+   "name": "Nestorian",
+   "kind": "name given by opponents",
+   "entry": "persian-church-of-the-east-early",
+   "basis": {
+    "source": "tree",
+    "entry": "persian-church-of-the-east-early",
+    "field": "floorNote",
+    "text": "The label \"Nestorian\" came from this church's rivals, not from itself — we judged what it actually taught from its own surviving texts, not the label its opponents pinned on it."
+   }
+  },
+  {
+   "name": "Nestorian",
+   "kind": "name given by opponents",
+   "entry": "the-church-of-the-east-on-the-silk-road",
+   "basis": {
+    "source": "tree",
+    "entry": "the-church-of-the-east-on-the-silk-road",
+    "field": "floorNote",
+    "text": "'Nestorian', the label most often attached to this church, was given to it by opponents rather than chosen by itself."
+   }
+  },
+  {
+   "name": "Nestorian",
+   "kind": "name given by opponents",
+   "entry": "church-of-the-east-under-the-mongols",
+   "basis": {
+    "source": "tree",
+    "entry": "church-of-the-east-under-the-mongols",
+    "field": "longDescription",
+    "text": "For a few decades the church that Latin Europe called Nestorian had extraordinary access: tolerated and sometimes favored at the Mongol court, and in 1281 a monk who had traveled the whole width of Asia from China was elected its catholicos as Yahballaha III."
+   }
+  },
+  {
+   "name": "Jacobite",
+   "kind": "name given by opponents",
+   "entry": "syriac-orthodox-west-syriac-christianity",
+   "basis": {
+    "source": "tree",
+    "entry": "syriac-orthodox-west-syriac-christianity",
+    "field": "documentedStories.0.text",
+    "text": "His name became the label ‘Jacobite’ that outsiders attached to the West Syriac church for a thousand years, though it never called itself that."
+   }
+  },
+  {
+   "name": "Montanist",
+   "kind": "name given by opponents",
+   "entry": "montanism-the-new-prophecy",
+   "basis": {
+    "source": "tree",
+    "entry": "montanism-the-new-prophecy",
+    "field": "longDescription",
+    "text": "They did not call themselves Montanists — that was their opponents' label."
+   }
+  },
+  {
+   "name": "Assyrian Church of the East",
+   "kind": "other name",
+   "entry": "persian-church-of-the-east-early",
+   "basis": {
+    "source": "tree",
+    "entry": "persian-church-of-the-east-early",
+    "field": "legacy",
+    "text": "Its descendants are living communities today — the Assyrian Church of the East and the Ancient Church of the East, along with the Chaldean Catholic Church and the Syro-Malabar Church of Kerala."
+   }
+  },
+  {
+   "name": "Assyrian Church of the East",
+   "kind": "other name",
+   "entry": "the-church-of-the-east-under-persia",
+   "basis": {
+    "source": "tree",
+    "entry": "the-church-of-the-east-under-persia",
+    "field": "legacy",
+    "text": "Its heirs also live on as the Assyrian Church of the East and the Chaldean Catholic Church."
+   }
+  },
+  {
+   "name": "Assyrian Church of the East",
+   "kind": "other name",
+   "entry": "church-of-the-east-timur-to-hakkari",
+   "basis": {
+    "source": "tree",
+    "entry": "church-of-the-east-timur-to-hakkari",
+    "field": "legacy",
+    "text": "The two lines run to the present as the Assyrian Church of the East and the Chaldean Catholic Church."
+   }
+  },
+  {
+   "name": "Chaldean Catholic Church",
+   "kind": "other name",
+   "entry": "persian-church-of-the-east-early",
+   "basis": {
+    "source": "tree",
+    "entry": "persian-church-of-the-east-early",
+    "field": "legacy",
+    "text": "Its descendants are living communities today — the Assyrian Church of the East and the Ancient Church of the East, along with the Chaldean Catholic Church and the Syro-Malabar Church of Kerala."
+   }
+  },
+  {
+   "name": "Chaldean Catholic Church",
+   "kind": "other name",
+   "entry": "the-church-of-the-east-under-persia",
+   "basis": {
+    "source": "tree",
+    "entry": "the-church-of-the-east-under-persia",
+    "field": "legacy",
+    "text": "Its heirs also live on as the Assyrian Church of the East and the Chaldean Catholic Church."
+   }
+  },
+  {
+   "name": "Chaldean Catholic Church",
+   "kind": "other name",
+   "entry": "church-of-the-east-timur-to-hakkari",
+   "basis": {
+    "source": "tree",
+    "entry": "church-of-the-east-timur-to-hakkari",
+    "field": "legacy",
+    "text": "The two lines run to the present as the Assyrian Church of the East and the Chaldean Catholic Church."
+   }
+  },
+  {
+   "name": "Ancient Church of the East",
+   "kind": "other name",
+   "entry": "persian-church-of-the-east-early",
+   "basis": {
+    "source": "tree",
+    "entry": "persian-church-of-the-east-early",
+    "field": "legacy",
+    "text": "Its descendants are living communities today — the Assyrian Church of the East and the Ancient Church of the East, along with the Chaldean Catholic Church and the Syro-Malabar Church of Kerala."
+   }
+  },
+  {
+   "name": "Ethiopian Orthodox Tewahedo Church",
+   "kind": "other name",
+   "entry": "aksumite-christianity",
+   "basis": {
+    "source": "tree",
+    "entry": "aksumite-christianity",
+    "field": "legacy",
+    "text": "The same institution continued without interruption and is today the Ethiopian Orthodox Tewahedo Church, one of the largest of the Oriental Orthodox communions, alongside its Eritrean counterpart."
+   }
+  },
+  {
+   "name": "Ethiopian Orthodox Tewahedo Church",
+   "kind": "other name",
+   "entry": "post-aksumite-ethiopian-christianity",
+   "basis": {
+    "source": "tree",
+    "entry": "post-aksumite-ethiopian-christianity",
+    "field": "legacy",
+    "text": "The same institution continues directly into the Zagwe period — the age of the rock-hewn churches of Lalibela — and on into the Ethiopian Orthodox Tewahedo Church of today, one of the largest ancient churches in the world."
+   }
+  },
+  {
+   "name": "Ethiopian Orthodox Tewahedo Church",
+   "kind": "other name",
+   "entry": "zagwe-and-early-solomonic-ethiopian-christianity",
+   "basis": {
+    "source": "tree",
+    "entry": "zagwe-and-early-solomonic-ethiopian-christianity",
+    "field": "legacy",
+    "text": "The Ethiopian Orthodox Tewahedo Church is one of the largest ancient churches in the world today, and it runs in an unbroken line through this period."
+   }
+  },
+  {
+   "name": "Ethiopian Orthodox Tewahedo Church",
+   "kind": "other name",
+   "entry": "aksumite-christianity-conversion-era",
+   "basis": {
+    "source": "tree",
+    "entry": "aksumite-christianity-conversion-era",
+    "field": "legacy",
+    "text": "This became, and remains, one of the great ancient churches of the world: the Ethiopian Orthodox Tewahedo Church and the Eritrean Orthodox Tewahedo Church together count tens of millions of members."
+   }
+  },
+  {
+   "name": "Eritrean Orthodox Tewahedo Church",
+   "kind": "other name",
+   "entry": "aksumite-christianity-conversion-era",
+   "basis": {
+    "source": "tree",
+    "entry": "aksumite-christianity-conversion-era",
+    "field": "legacy",
+    "text": "This became, and remains, one of the great ancient churches of the world: the Ethiopian Orthodox Tewahedo Church and the Eritrean Orthodox Tewahedo Church together count tens of millions of members."
+   }
+  },
+  {
+   "name": "Coptic Orthodox Church",
+   "kind": "other name",
+   "entry": "alexandria-catechetical",
+   "basis": {
+    "source": "tree",
+    "entry": "alexandria-catechetical",
+    "field": "livingEvidence.basis",
+    "text": "The world built from this entry names the Coptic Orthodox Church as its main living heir."
+   }
+  },
+  {
+   "name": "Coptic Orthodox Church",
+   "kind": "other name",
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "basis": {
+    "source": "tree",
+    "entry": "cyrilline-miaphysite-egyptian-christianity",
+    "field": "legacy",
+    "text": "Its line of patriarchs runs without a break to the Coptic Orthodox pope of Alexandria today."
+   }
+  },
+  {
+   "name": "Greek Orthodox Patriarchate of Antioch",
+   "kind": "other name",
+   "entry": "antiochene-church-third-century",
+   "basis": {
+    "source": "tree",
+    "entry": "antiochene-church-third-century",
+    "field": "livingEvidence.basis",
+    "text": "The church of Antioch is alive today as the Greek Orthodox Patriarchate of Antioch, which published a dated synod address in October 2026."
+   }
+  },
+  {
+   "name": "Greek Orthodox Patriarchate of Jerusalem",
+   "kind": "other name",
+   "entry": "jerusalem-liturgical-pilgrimage-christianity",
+   "basis": {
+    "source": "tree",
+    "entry": "jerusalem-liturgical-pilgrimage-christianity",
+    "field": "livingEvidence.evidence",
+    "text": "Greek Orthodox Patriarchate of Jerusalem (8 November 2026)"
+   }
+  },
+  {
+   "name": "Roman Catholic Church",
+   "kind": "other name",
+   "entry": "latin-papal-church-gregorian",
+   "basis": {
+    "source": "tree",
+    "entry": "latin-papal-church-gregorian",
+    "field": "legacy",
+    "text": "It never stopped: this is the Roman Catholic Church."
+   }
+  },
+  {
+   "name": "Roman Catholic Church",
+   "kind": "other name",
+   "entry": "latin-papal-church-avignon-to-lateran-v",
+   "basis": {
+    "source": "tree",
+    "entry": "latin-papal-church-avignon-to-lateran-v",
+    "field": "legacy",
+    "text": "The same church, reorganized by the Council of Trent a generation later, is the Roman Catholic Church of today."
+   }
+  },
+  {
+   "name": "Church of Jesus Christ of Latter-day Saints",
+   "kind": "other name",
+   "entry": "latter-day-saints-lds",
+   "basis": {
+    "source": "tree",
+    "entry": "latter-day-saints-lds",
+    "field": "livingEvidence.evidence",
+    "text": "The Church of Jesus Christ of Latter-day Saints Newsroom (31 December 2025)"
+   }
+  },
+  {
+   "name": "Copts",
+   "kind": "other name",
+   "entry": "coptic-christianity-under-early-islam",
+   "basis": {
+    "source": "tree",
+    "entry": "coptic-christianity-under-early-islam",
+    "field": "longDescription",
+    "text": "Two European scholars, Hiob Ludolf in 1691 and Eusèbe Renaudot in 1713, read the Copts as having helped the conquerors."
+   }
+  },
+  {
+   "name": "Copts",
+   "kind": "other name",
+   "entry": "coptic-revival-under-cyril-iv",
+   "basis": {
+    "source": "tree",
+    "entry": "coptic-revival-under-cyril-iv",
+    "field": "legacy",
+    "text": "Copts who moved abroad later took that renewal to Europe, North America and Australia."
+   }
+  },
+  {
+   "name": "Asia Minor",
+   "kind": "older name",
+   "country": "Turkey",
+   "basis": {
+    "source": "tree",
+    "entry": "polycrates-of-ephesus",
+    "field": "card.briefReferences.11",
+    "text": "World census, The Scattered Households: Asia Minor, in today's Turkey."
+   }
+  },
+  {
+   "name": "Axum",
+   "kind": "spelling",
+   "entry": "aksumite-christianity",
+   "basis": {
+    "source": "tree",
+    "entry": "aksumite-christianity",
+    "field": "experienceToday.0.text",
+    "text": "The Church of Our Lady Mary of Zion at Axum, Ethiopia — on the site of the kingdom's original cathedral, beside the Aksumite stelae field"
+   }
+  }
+ ]
+}

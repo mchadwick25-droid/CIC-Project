@@ -303,7 +303,9 @@
     "paragraphs": [
      "The same file sits at two addresses. Neither one sends you on to another address, so a script can fetch it straight away.",
      "https://www.churchfamilytree.com/data/world-census.json",
-     "https://churchinconversation.com/data/world-census.json"
+     "https://churchinconversation.com/data/world-census.json",
+     "The names that search accepts besides the tree's own, each with the line that shows it, sit in a second file with the same release number.",
+     "https://www.churchfamilytree.com/data/search-names.json"
     ]
    },
    {
