@@ -71,3 +71,29 @@ For `tools/quote_scan_readings.json`, file `cic/texts/athanasius_opera-omnia-pg2
 **Skipped:** none beyond the above.
 
 **Validator** (`--skip-quotes`, scratch census): 14 errors for this entry, all expected before release: secondReading missing on the four quotations; brief-quote mismatches because the scratch entry still holds the old brief; the two new Greek originals not standing until the scan readings above are added.
+
+## Third pass: what it was about (2026-11-23)
+
+Written to `Card.pass2.json`, copied from `frumentius.card.json`; every other field word for word.
+
+**Edits**
+1. `briefReferences`, new entry after the Robertson entry, for the two new explanations (the teaching, the charges).
+   - Old: none. New: "Athanasius, Apology to Constantius 29 to 31, Robertson's prolegomena, Theodoret I.4 (the letter of Arius) and the Nicene creed as Athanasius gives it: the teaching of Arius and of Athanasius, the name Arians as Athanasius used it, and the charges the emperor's side made against Athanasius, which he denied."
+   - Evidence: the brief's sentences on Arians, Arius and the Son, and on the charges. Lines re-read: N204 35938-35940 ("the professors of Arianism"); N203 6043-6047 (Arius: "the Son has a beginning, but that God is without beginning"); N204 19675-19680 (creed: "from the essence of the Father", "One in essence with the Father"); N204 34917-34924 and 35099-35104 (the two charges); N204 5741-5744 and 5748-5752 (Robertson). No new file: all three held files are already in `sources.about`.
+2. `uncertain`, new item: "The name Arians for the emperor's bishops of 356 is Athanasius's. Robertson says the East generally rejected the Nicene wording without being Arian." Evidence: Outline, What it was about 1 (Contested note); N204 5741-5744.
+3. `uncertain`, new item: "The charges the emperor's side made against Athanasius, that he turned Constans against Constantius and wrote to Magnentius, are held only with his denial in the Apology to Constantius and the emperor's assertion in the letter. Whether they were true is not settled by any held source." Evidence: Outline, What it was about 2 (Contested note); N204 34917-34924, 35099-35104, 36151-36153.
+4. `briefReferences[1]`: the brief no longer says the editor's "almost word for word".
+   - Old: "...: the three Greek retellings, with Valesius's note that Socrates translated Rufinus almost word for word."
+   - New: "...: the three Greek retellings."
+   - Evidence: the brief's "Three Greek church historians retold the story in the century after Rufinus." The Valesius point stays in `uncertain[0]`.
+5. `briefReferences`, Ludolf entry removed ("Hiob Ludolf, A New History of Ethiopia: the ninety-five metropolitans counted from Frumentius."). Evidence: the brief no longer tells the 1681 count. Ludolf stays in `legacy.traces` and `sources.about`.
+
+**Quotations:** none changed. The four quoted spans in the brief are the four `quotationOriginals` entries, wording identical. The one changed sentence ("The letter ordered:") keeps its quote as before. `secondReading` entries left as the starting card has them.
+
+**Skipped**
+- Outline item 8 (Philostorgius's envoy, "to the card"): already held in `uncertain[6]`.
+- Cuts 1 and 2 ("to the card"): Ludolf's count is already in `legacy.traces`; Valesius's "almost word for word" is already in `uncertain[0]`.
+- Cuts 3 to 7 (recency of the letter, sites for buildings, wife and small son as heirs, "calls Frumentius its bishop", "sharp and wise"): the outline does not send them to the card; the first is already held in `uncertain[1]`.
+- Items 3 to 7 of What it was about: already explained in the brief, no new source.
+
+**Validator** (`--skip-quotes`, scratch census copy with this card in the frumentius entry): 0 errors for this entry (0 errors overall, 4 warnings for other entries).

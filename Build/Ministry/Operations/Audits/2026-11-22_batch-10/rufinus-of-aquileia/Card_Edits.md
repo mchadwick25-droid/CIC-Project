@@ -60,3 +60,34 @@ The rest of the outline's "to the card" items were already on the card: Frumenti
 - Jerome's "Grunnius" satire (Letter to Rusticus, outline Leave out): worded "to the card if wanted", not held as a text (only Fremantle's mention at N203 44120); left out.
 - Quote 1's first sentence (Cut first 15): the checker's FIX 1 keeps it out of `briefReferences`; the sentence is a printed line, N206 3936-3942, and no card field takes it.
 - Gennadius's praise of the Creed: not marked for the card.
+
+## Third pass: what it was about (2026-11-23)
+
+Written to `Card.pass2.json` from `rufinus-of-aquileia.card.json`; every field not listed is word for word. `N202` = `npnf202_socrates-sozomen-ecclesiastical-histories.xml`, `N203` = `npnf203_theodoret-jerome-gennadius-rufinus.xml`, `N206` = `npnf206_jerome-principal-works.xml`.
+
+### New explanations in the brief
+1. `briefReferences`, new: Socrates IV.24 (Valens's edict; Rufinus a witness and one of the sufferers). Evidence: N202 13725-13742; brief: "When the emperor turned on the monks there for their creed, he says, he was jailed and exiled."
+2. `briefReferences`, new: Epiphanius, Letter 51.4-5, and the sides in the dispute. Evidence: N206 10810-10818, 10874-10879, 10899-10901, 10976-10979; N203 46253-46262; brief: "a bishop from Cyprus charged that Origen taught souls had sinned in heaven before birth, that the devil would be saved, and that this flesh would not rise. Jerome took his side, Rufinus the other".
+3. `briefReferences`, new: Jerome, Letter 124.2, dated 409 or 410 by its heading. Evidence: N206 24625-24629, 24685-24693 and the Son/Spirit passage after it; brief: "In the Greek, Jerome later wrote, Origen ranked the Son below the Father, the Spirit below the Son."
+4. `briefReferences[4]` (Apology to Anastasius), appended: "; he believes it will be this very flesh that rises, and that the devil and his angels will receive the eternal fire". Evidence: N203 45988-45993, 46008-46012; brief: "He affirmed that this very flesh would rise, and the devil burn forever."
+5. `briefReferences[9]` (Anastasius), inserted: "Anastasius's view that Origen's object was to disintegrate the faith of the apostles;" before the emperors' decree. Evidence: N203 46162-46166, 46204-46207; brief: "that Origen meant to undermine the faith, and that the emperors had banned his books."
+6. `sources.about`, new entry: Letter 124, to Avitus (Jerome), N206. Evidence: N206 24608-24693.
+7. `uncertain`, two new entries (outline: Documented as the accusers' charges; Contested as Origen's own teaching and meaning). First: Epiphanius's charges, Jerome's 409 or 410 report, Rufinus's claim of falsification (N206 10813-10818, 24685-24693; N203 45750-45765). Second: the note that Jerome's charge that Origen made the Son not born is not borne out by the fragments (N206 24660-24663); the brief does not use it. Credited to "a note in the translation", since the file's note is unsigned.
+
+### Removed (the brief no longer tells it)
+8. `briefReferences[1]`: ", part of a society of young ascetics at Aquileia" removed (the circle of young monks is cut).
+9. `briefReferences[2]`: "Rufinus, Apology to Apronianus I.4: living in a monastery, baptized about thirty years before." removed (beat 1 cut). The baptism stays in `uncertain`.
+10. `briefReferences[5]`: the Palladius line on Melania and the convent removed (Melania cut). The Palladius entries in `legacy.traces` and `sources.about` stay.
+11. `briefReferences[8]`: "the comparison of the Latin with the Greek; " removed ("Comparing the Latin with the Greek" is cut).
+12. `briefReferences[10]`: "as Alaric and his Goths broke" -> "as the Goths broke" (Alaric no longer named). `uncertain` on Alaric and the Church History's year is unchanged.
+
+### Quotations
+13. `quotationOriginals`: unchanged. The brief still quotes the same three spans, word for word as before, and the printed and original wording was re-read at its lines (N206 3941-3942; N203 45775-45780, 51325-51331; PL23 31111-31115). No `secondReading` changed.
+
+### Skipped
+- "Reworded Latin" (Fresh read fix): the card's `legacy.traces[0]` already says "known chiefly through his Latin"; nothing there is wrong, so left as is.
+- "Left out or reworded the passages he judged corrupt" (cut 1): not sent to the card; the card's `uncertain` already holds his claim and Jerome's charge.
+- Six and two years in Egypt (cut 3): `briefReferences[3]` and `uncertain` already hold it; the brief's "eight years" is the sum, so the reference stays.
+- Origin of souls (Rufinus saying he did not know where souls come from, N203 46037-46046): outline "leave it out", no card home named; not added.
+- Melania, baptism and the circle of young monks: already on the card in `legacy.traces`, `uncertain` or `datesNote`.
+- Validator: `node tools/validate-census.mjs --skip-quotes` on a scratch census with this card in place: 0 errors (4 warnings, none for this entry).
