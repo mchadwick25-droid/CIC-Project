@@ -32,7 +32,7 @@ Lifted for the job the slate names, one per line in `Allowed_Reuse.txt`: Ulfila'
 2a. Outline check (`<slug>/Checker_Prompt.filled.md`), fix pass (`Fixes.md`) and recheck (`Recheck.md`, with `Recheck_Applied.md` where its replacements were applied word for word): all ten through (2026-11-23).
 2. Outline check.
 3. Write (`<slug>/Writer_Prompt.filled.md`, Opus): all ten drafted 2026-11-23 (`<slug>/Writer_Reply.md`). Four fit; six run past 675 (Theodoret 817, Cassian 788, Rufinus 740, Priscillian 734, Pelagius 733, Ulfila 722). To Mark with Ulfila's creed: https://claude.ai/artifact/7MQqQakPhBCKbugYP8zojp (version 1).
-4. Review, after `tools/check_brief_variety.py` and `tools/check_tree_overlap.py --allow Allowed_Reuse.txt`. Chrysostom and Ephrem join here.
+4. Review (`<slug>/Reviewer_Prompt.filled.md`, Opus): `Variety_Report.txt` and `Overlap_Report.txt` run (no shared quote; one name note); all twelve reviews started 2026-11-23, Chrysostom and Ephrem with them (`<slug>.brief.approved.txt` is each live text). The six long drafts' reviews name the cuts to 675.
 5. One revision, one fresh read (with the two reference stories scored).
 6. Card.
 7. Second readings.
