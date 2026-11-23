@@ -870,6 +870,50 @@ if (treeDir) {
   }
 }
 
+// --- sourced search names: every row has a real target, a kind and a basis that is really there ---
+{
+  const namesPath = new URL("search-names.json", new URL(path, `file://${process.cwd()}/`)).pathname;
+  if (existsSync(namesPath)) {
+    let nf;
+    try { nf = JSON.parse(readFileSync(namesPath, "utf8")); } catch (e) { errs.push(`search-names.json: ${e.message}`); }
+    const rows = Array.isArray(nf) ? nf : nf?.rows;
+    if (nf && !Array.isArray(rows)) errs.push("search-names.json: holds no list of rows");
+    const kinds = new Set(["other name", "older name", "spelling", "name given by opponents"]);
+    const countries = new Set((d.movements ?? []).flatMap(m => (m.modernCountries ?? []).map(c => c.country)));
+    const regions = new Set((d.movements ?? []).flatMap(m => m.regions ?? []));
+    const squash = s => String(s).replace(/\s+/g, "");
+    const seen = new Set();
+    (rows ?? []).forEach((r, i) => {
+      const at = `search-names.json row ${i} (${r?.name ?? "no name"})`;
+      if (!r || typeof r.name !== "string" || !r.name.trim()) { errs.push(`${at}: no name`); return; }
+      if (!kinds.has(r.kind)) errs.push(`${at}: kind must be one of ${[...kinds].join(", ")}`);
+      const targets = ["entry", "country", "region"].filter(k => r[k] != null);
+      if (targets.length !== 1) errs.push(`${at}: needs exactly one of entry, country or region`);
+      else if (r.entry != null && !byId.has(r.entry)) errs.push(`${at}: no entry ${r.entry}`);
+      else if (r.country != null && !countries.has(r.country)) errs.push(`${at}: the census holds no country ${r.country}`);
+      else if (r.region != null && !regions.has(r.region)) errs.push(`${at}: the census holds no region ${r.region}`);
+      const key = `${r.name.toLowerCase()}|${targets.map(k => r[k]).join()}`;
+      if (seen.has(key)) errs.push(`${at}: the same name and target twice`); seen.add(key);
+      const b = r.basis;
+      if (!b || typeof b.text !== "string" || !b.text.trim()) { errs.push(`${at}: no basis`); return; }
+      if (b.source === "tree") {
+        let o = byId.get(b.entry);
+        if (!o) { errs.push(`${at}: basis entry ${b.entry} does not exist`); return; }
+        for (const part of String(b.field).split(".")) o = o == null ? undefined : o[part];
+        if (typeof o !== "string") errs.push(`${at}: basis field ${b.field} is not text on ${b.entry}`);
+        else if (!o.includes(b.text)) errs.push(`${at}: basis text is not word for word in ${b.entry} ${b.field}`);
+      } else if (b.source === "library") {
+        const m = /^(\d+)-(\d+)$/.exec(String(b.lines));
+        if (!m || typeof b.file !== "string" || !b.file.startsWith("cic/texts/")) { errs.push(`${at}: a library basis needs a cic/texts file and lines like 10-14`); return; }
+        if (skipQuotes) return;
+        if (!existsSync(b.file)) { errs.push(`${at}: basis file ${b.file} does not exist`); return; }
+        const seg = readFileSync(b.file, "utf8").split("\n").slice(Number(m[1]) - 1, Number(m[2])).join("");
+        if (!squash(seg).includes(squash(b.text))) errs.push(`${at}: basis words are not in ${b.file} lines ${b.lines}`);
+      } else errs.push(`${at}: basis source must be "tree" or "library"`);
+    });
+  }
+}
+
 // --- report ---
 warn.forEach(w => console.log("WARN  " + w));
 errs.forEach(e => console.log("ERROR " + e));
