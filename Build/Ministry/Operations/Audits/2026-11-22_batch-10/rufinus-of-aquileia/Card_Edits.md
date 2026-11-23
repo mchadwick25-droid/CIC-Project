@@ -95,3 +95,34 @@ Written to `Card.pass2.json` from `rufinus-of-aquileia.card.json`; every field n
 ## Card check applied (2026-11-23)
 
 `Card_Check_About.md` (FIX, two changes), applied word for word: `briefReferences[14]` "Fremantle, Prolegomena:" → "Fremantle, introduction to the Apology to Apronianus:"; `uncertain[18]` "that Origen made the Son not born" → "that Origen said Christ was made God's Son, not born". (The third-pass header above names the files the wrong way round: `Card.pass2.json` is the starting card, `rufinus-of-aquileia.card.json` the edited one.)
+
+## Fourth pass: no modern opinion (2026-11-23)
+
+Starting card: `Card.pass3.json` (unchanged copy). Edited card: `rufinus-of-aquileia.card.json`. Evidence is from `Modern_Pass.md`, `Fresh_Read_Modern.md` and `Fresh_Read_Modern_Applied.md`, with each line re-read in its file.
+
+### briefReferences (trimmed)
+1. `[0]` Letter 3: "written from Antioch in 374 by the editors' heading" -> "written from Antioch by the editors' heading". The brief no longer gives 374. Evidence: N206 3759-3760.
+2. `[1]` Fremantle: cut "; Jerome's Apology closed the controversy, Rufinus not replying and Jerome not relenting; Origen's works known through his translations; his Numbers translation his last work, and his death soon after in Sicily." and ended with a period. The brief no longer tells these. Evidence: N203 44027-44030, 44366-44368, 44447-44449.
+3. `[10]` McGiffert (Prolegomena to Eusebius): removed. The brief's "substitute ... Middle Ages" sentence is gone. Evidence: N201 5232-5233.
+4. `[11]` Introductory Note to Origen, Ante-Nicene Fathers: removed. The brief no longer tells the Latin survival or the altered wording. Evidence: ANF4 22122-22124, 21996-22002.
+5. `[12]` Numbers preface: cut "Fremantle dates it 410 from the burning of Rhegium."; added "Pinianus's company joined in their flight" for the brief's "Rufinus fled to Sicily". Evidence: N203 58972-58975, 59013-59015.
+6. `[14]` (now `[12]` onward shifted by two): cut "Fremantle, introduction to the Apology to Apronianus: ... Jerome sided with Epiphanius and Rufinus with John of Jerusalem."; added Jerome, Apology against Rufinus III.33 (he translated Epiphanius's letter for Rufinus) and Apology III (signs of peace, accompanied him on his journey), for "Jerome put it into Latin for the bishop" and "made peace". Evidence: N203 55925-55929, 55557-55560.
+7. New, before the census entry: Gennadius, Lives of Illustrious Men 17, for "A later church writer wrote that Rufinus opened ...". Evidence: N203 42467-42474. File already in `sources`.
+
+### uncertain (new entries 19 to 25, modern views credited by name)
+8. Letter 3 year 374 (editors' heading, N206 3759-3760) and the preface early 398 (Fremantle, N203 44222); the brief gives no year.
+9. Survival chiefly in Rufinus's Latin: Ante-Nicene Fathers vol. 4 (ANF4 22122-22124) and Fremantle (N203 44027-44030).
+10. Estrangement over Origenism, Jerome siding with Epiphanius and Rufinus with John, reconciliation in 397 (Fremantle, N203 46255-46260); Jerusalem about 390 (Richardson, N203 42466). The lines do not hold "the 390s" as the pass's note named them; only "about 390" is in Richardson.
+11. "Rufinus did not reply, Jerome did not relent" (Fremantle, N203 44366-44368).
+12. McGiffert on the Western circulation of the Church History (N201 5232-5233).
+13. Numbers translation as his last work, death soon after in Sicily, 410 for the preface and for the death (Fremantle N203 44447-44449, 58972-58975; Richardson N203 42466).
+14. Richardson's judgment that the paragraph on Gennadius himself is by a later hand (N203 38477-38480), from `Fresh_Read_Modern.md` item 4.
+
+### Quotations
+15. `quotationOriginals`: unchanged. The brief still quotes the same three spans, word for word; no `secondReading` changed.
+
+### Validator
+`node tools/validate-census.mjs --skip-quotes` on a scratch census with this card and brief: 0 errors, 4 warnings, none for this entry.
+
+### Not found
+None. Note: the pass's "390s" is not in N203 46255-46260; the card says "about 390" on Richardson's note.

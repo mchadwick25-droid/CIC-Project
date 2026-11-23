@@ -98,3 +98,23 @@ Written to `Card.pass2.json` (copy of `council-of-ephesus-431.card.json`, every 
 ## Card check applied (2026-11-23)
 
 `Card_Check_About.md` (FIX, two changes), applied word for word: `decided[6]` "which condemned Pelagius and Celestius" → "held against the heresy of Pelagius and Caelestius"; `uncertain[7]` "held only in the Latin" → "held in the Latin".
+
+## Fourth pass: no modern opinion (2026-11-23)
+
+Starting card: `Card.pass3.json`, unchanged. Every field not listed here is word for word.
+
+1. `uncertain`, new entry 16 (the commissioner's month). Old: none. New: Hefele has him arrive "at the beginning of August", called universally admitted; Driver and Hodgson list the arrival under August; both modern judgments; Count John's own Latin report gives no month. Evidence: HEF 4932-4935; Driver and Hodgson chronology, lines 1125-1141; Mansi, tomus 4, 123607-123661 (re-read).
+2. `uncertain`, new entry 17 (the dissolution). Old: none. New: Driver and Hodgson say September; Hefele has Cyril reach Alexandria on 30 October 431; the dissolving lines of the edict carry no date. Evidence: Driver and Hodgson lines 262-270; HEF 6203-6207; Mansi, tomus 5, 80115-80129.
+3. `uncertain`, new entry 18 (the year of the peace). Old: none. New: Hefele's reckoning from a Latin sermon "probably of the year 433", Tillemont's March 433, the date's slight weight; Driver and Hodgson list 433. Evidence: HEF 7580-7590; Driver and Hodgson lines 1248-1251, 1338-1341.
+4. `uncertain`, new entry 19 (the condition). Old: none. New: Hefele's "conditio sine qua non" is his reading; Cyril's letter to Donatus says what he required. Evidence: HEF 7222-7226; Mansi, tomus 5, 35298-35355.
+5. `uncertain`, new entry 20 (who refused). Old: none. New: the editors' chronology (Theodoret, Andrew, Alexander, Zeugma in 433) marked as their reckoning; Theodoret's own undated letter. Evidence: Driver and Hodgson lines 1269-1274, 1324-1344; npnf203 37983-38012.
+6. Wigram's verdict and Badger's readings: already in `uncertain` (entries 6 and 14), credited and marked as modern; no change.
+7. `briefReferences[12]` (commissioner). Old: "Hefele, vol. 3, giving the new commissioner's report ... Hefele's English of the emperor's edict dissolving the council." New: Count John's own Latin report (Mansi, tomus 4) and Hefele's English of it, the same facts, and the edict in Latin (Mansi, tomus 5). Evidence: brief paragraph on the commissioner; M4 123609-123647; M5 80117-80128.
+8. `briefReferences[13]` (peace). Old: "the confession of 433 ...; Hefele calls that the condition of communion." New: year and Hefele's condition dropped; Cyril's letter to Donatus added. Evidence: brief ("which Cyril wrote he had required"); M5 35298-35303, 35345-35355.
+9. `briefReferences[14]` (Theodoret). Old: "Driver and Hodgson's chronology of the letters of 433: ..." New: Theodoret's own letter to Nestorius. Evidence: brief; npnf203 37998-38011.
+10. `briefReferences`, Wigram entry and Badger entry: removed; the brief no longer tells either.
+11. `briefReferences`, new last entry: Barhadbeshabba (chapter list; the corner of a church, gold and blows), credited as that church's later history and a hostile charge. Evidence: brief's last paragraph; BB 31905-31911, 34040-34055.
+12. `sources`: no change (Mansi 4 and 5, npnf203, Barhadbeshabba and Pusey already there).
+13. `quotationOriginals`: no change. The brief quotes four spans, the card has four entries, and no span's words changed.
+
+Validator: `node tools/validate-census.mjs --skip-quotes` on a scratch copy of the census with this card and brief in place: 0 errors for this entry.

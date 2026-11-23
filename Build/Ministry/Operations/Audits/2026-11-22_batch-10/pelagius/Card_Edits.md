@@ -102,3 +102,35 @@ The starting card is `Card.pass2.json` (unchanged copy). All edits are in `brief
 ### Validator
 
 `node tools/validate-census.mjs --skip-quotes` on a scratch census with this card: 0 errors; no warning for `pelagius`.
+
+## Fourth pass: no modern opinion (2026-11-23)
+
+The starting card is `Card.pass3.json` (unchanged copy). Edits are in `uncertain` and `briefReferences`; no other field moved. Brief changes read against `pelagius.brief.v4.txt`.
+
+| Field | Old → new | Evidence |
+|---|---|---|
+| `uncertain` (new, last) | (none) → Warfield's 411 landing in Africa, flight from Alaric, and later departure for Palestine, marked as his judgment; Augustine says only that Pelagius reached Africa and hurried away across the sea | Brief: "He crossed to Africa, then hurried away across the sea." `npnf105_augustine-anti-pelagian-writings.xml` 880 (Warfield), 10286-10287 (Augustine), re-read |
+| `uncertain` (new) | (none) → the Maurist editors date Letter 188 to the end of 417 or the start of 418, in a damaged print; the letter carries no date | Brief: "though no early record says when." `augustine_epistulae-maurist-order-lat_migne-pl33.txt` 62249-62250 (damaged; legible "417, aut ... 418"), re-read; CSEL57 letter has no date |
+| `uncertain` (new) | (none) → the English editor of the Retractations puts On the Grace of Christ and On Original Sin in 418; Augustine says only "after" Innocent, then Zosimus | Brief: "Afterwards, Augustine judged that..." `npnf105` 10615-10621, re-read |
+| `uncertain` (new) | (none) → the English editor of Cassian dates Against Nestorius to about 430; Cassian gives no year | Brief: "John Cassian, a monk in Gaul, charged..." (no date). `npnf211_sulpitius-severus-vincent-lerins-cassian.xml` 15434, re-read |
+| `briefReferences` (Proceedings, Diospolis) | "Diospolis, December 415 by Warfield's date;" → "Diospolis;" | Brief no longer dates Diospolis. The date stays in `uncertain` (Warfield 415; Fremantle 415 and 416) |
+| `briefReferences` (Letter 188) | ...does not name him." → "...does not name him. The letter carries no date." | Brief: "though no early record says when." CSEL57 4484-4515 |
+| `briefReferences` (new, second entry) | (none) → Pelagius, letter to Innocent, quoted in On the Grace of Christ: he wrote to Demetrias when he was in the East | Brief: "From the East, Pelagius wrote to Demetrias". `npnf105` 11255, re-read |
+| `briefReferences` (new, after Grace of Christ entry) | (none) → Retractations 2.50: he wrote the two books after Innocent, then Zosimus, condemned the heresy | Brief: "Afterwards, Augustine judged". `npnf105` 10621, re-read |
+
+### Already on the card, no edit
+
+- 413 or 413/414 for the Letter to Demetrias (Warfield; Migne editors) and December 415 for Diospolis: already in `uncertain`, credited by name; `datesNote` already marks 411, Palestine and the 417 year as Warfield's dates.
+- Year 417 for Zosimus's September letter: held by Zosimus's preceding letter (AVELL 11204-11211), so not a modern view; no edit.
+
+### Not added
+
+- "Pelagius was then in the East" in April 418: the outline calls it an inference with no source cited; nothing to cite, so not put on the card.
+
+### Unchanged
+
+`quotationOriginals`: the brief's three quoted spans are unchanged, no entry added or removed. `sources`: every cited file already listed.
+
+### Validator
+
+`node tools/validate-census.mjs --skip-quotes` on a scratch census with this card and brief: 0 errors, no warning for `pelagius`.

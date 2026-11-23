@@ -79,3 +79,33 @@ Skipped:
 ## Card check applied (2026-11-23)
 
 `Card_Check_About.md` (FIX, one change), applied word for word: `briefReferences[12]`, the Rule of Benedict entry, to "Rule of Benedict, ch. 42, ed. Hunter Blair: the Conferences read aloud after supper, first among the readings. ..." (the tools clause and ch. 73 dropped; `legacy.traces` keeps them). (The third-pass header above names the files the wrong way round, and the two new sources sit before the Gallic Chronicle entry, not after.)
+
+## Fourth pass: no modern opinion (2026-11-23)
+
+Starting card: `Card.pass3.json` (unchanged copy). Edited: `john-cassian.card.json`. Brief: `john-cassian.brief.txt`, compared with `john-cassian.brief.v4.txt`. Every other field is word for word. Lines re-read in the held files.
+
+**Modern views moved to `uncertain` (five new entries, appended, each credited by name and marked as a modern reckoning):**
+
+1. Hunter Blair on the Rule's date, about 535. New: "Hunter Blair, who translated the Rule of Benedict, dates it about 535. That date is his modern reckoning, not the Rule's own. The Rule itself names the Conferences for the evening reading." Evidence: Hunter Blair's preface, lines 120-150 of the held Rule file (Benedict at Monte Cassino, footnote "About 535 a. d."); the Rule's chapter 42, lines 6838-6846 ("legat unus Collationes").
+2. Gibson on the Conferences, 426 to 428. Evidence: N211 15544-15569 (Part I after Castor's death in 426; Part III before Honoratus died in January 429; "completed between the years 426 and 428").
+3. Gibson on the letter, 429. Evidence: N211 15724-15726 (names Hilary, who had just succeeded Honoratus; "fixes the date of the correspondence as 429").
+4. Gibson on Nestorius consecrated in 428, and On the Incarnation in 430. Evidence: N211 48514-48519 (consecrated 428); 15599-15603 (published 430, before Ephesus, as Cassian speaks of Nestorius as still bishop; before Augustine's death in August 430).
+5. Gibson on Prosper's book, not earlier than 432, and "never once names him directly", set beside the second title as Mommsen prints it. Evidence: N211 15905-15912 (Celestine died April 432); 15774-15785; MOM 42762-42764 ("contra Cassiani presbyteri librum"). The twelve propositions are already in the existing `uncertain` entry on Prosper, unchanged.
+
+**`briefReferences` trimmed or added (index in the list):**
+
+- [0], added at end: "The preface names the Institutes, written for Bishop Castor, and ten Conferences as already written." Evidence: N211 36737-36745; brief, "Then came twenty-four Conferences."
+- [1], old "...; the Conferences completed between 426 and 428." → new "." (the brief no longer gives the date).
+- [7], old "..., and the letters date from 429." → new "." (brief: "Prosper told Augustine", no year).
+- [8], old " Gibson dates the work to 430, before the Council of Ephesus." → new " Cassian's preface: he had finished the Conferences and had almost decided to keep silent when Leo pressed him." Evidence: N211 48475-48487; brief, "When the Conferences were done, Cassian wrote, he had almost decided to fall silent."
+- [9], old " Gibson dates On the Incarnation to the year before the council." → new " Socrates: Nestorius brought from Antioch and ordained." Evidence: N202 20520-20556; brief, "Nestorius, bishop of Constantinople".
+- [10], old: "Prosper's book, as Mommsen lists it among Prosper's works, and Gibson, Prolegomena: against the Conferencer, in defense of Augustine; it examines the thirteenth Conference, takes twelve propositions from it, grants only the first, ... and rejects the others, among them that the first beginnings of a good will sometimes arise in us; he never names Cassian directly. Prosper's book is not among the sources held. Gibson: Cassian made no reply known, and this is the last event known in his life." → new: "Prosper's book, by the titles Mommsen gives among Prosper's works: against the Conferencer, and, as a second title, in defense of Augustine against the book of Cassian the presbyter headed On the Protection of God; Conference XIII, tr. Gibson, bears that heading. Prosper's book is not among the sources held." Evidence: MOM 42762-42764; N211 37475-37479; brief, "A second title sets it against the thirteenth Conference, On the Protection of God, and names Cassian." The dropped views stay in `uncertain`.
+- [12], old " Hunter Blair dates the Rule about 535." → removed (now in `uncertain`).
+
+**Sources:** no new file needed; Mommsen, Socrates and Gibson are already in `sources`.
+
+**Quotations:** the brief quotes the same four spans, wording unchanged; `quotationOriginals` untouched, one entry each.
+
+**Not placed:** Cassiodorus "a century and more later" (about 550). No held source gives a date for the Institutiones (Gibson, N211 15503-15508 and 16048-16062, names Cassiodorus without one), so there is no modern source to credit; nothing added.
+
+**Validator:** `node tools/validate-census.mjs --skip-quotes` on a scratch copy of the census with this card and brief in place: 0 errors for this entry (4 warnings elsewhere, none for this entry).
