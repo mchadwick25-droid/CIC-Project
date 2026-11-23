@@ -625,7 +625,7 @@ svg.strip-on #era-labels{display:none}
   <button type="button" data-tour="intro">Getting started</button>
   <button type="button" data-tour="conn">Connections</button>
 </nav>
-<div class="feature-bar switches" id="switchbar" role="toolbar" aria-label="Show or hide parts of the map"></div>
+<div role="region" aria-label="Map layers"><div class="feature-bar switches" id="switchbar" role="toolbar" aria-label="Show or hide parts of the map"></div></div>
 <div id="mapStatus" class="sr-only" role="status" aria-live="polite"></div>
 <div id="eraStrip" hidden><button type="button" id="eraStripBtn"><span class="es-t"></span><span class="es-d"></span><svg viewBox="-8 -8 16 16" width="16" height="16" aria-hidden="true" focusable="false"><circle r="7" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M0,-.9 V3.7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cy="-3.4" r="1.05" fill="currentColor"/></svg></button></div>
 
@@ -635,7 +635,7 @@ svg.strip-on #era-labels{display:none}
 
 <div id="tip"></div>
 <div id="panel" role="dialog" aria-modal="true" aria-labelledby="panelTitle" tabindex="-1" inert><button class="close" id="panelClose" aria-label="Close">&times;</button><div id="panelBody"></div></div>
-<div id="zoomCtl" role="group" aria-label="Zoom the map">
+<div id="zoomCtl" role="region" aria-label="Zoom the map">
   <button id="zoomInBtn" type="button" aria-label="Zoom in" title="Zoom in (plus key)">+</button>
   <button id="zoomOutBtn" type="button" aria-label="Zoom out" title="Zoom out (minus key)">&minus;</button>
   <button id="zoomResetBtn" type="button" aria-label="Reset view" title="Reset view">&#10226;</button>
@@ -656,7 +656,7 @@ svg.strip-on #era-labels{display:none}
 <dialog id="growDlg" aria-labelledby="growDlgTitle"><div class="gd-in"><button type="button" class="gd-x" aria-label="Close">&times;</button><div class="gd-body"><h1 id="growDlgTitle">Help us grow</h1><p>Loading…</p></div><div class="gd-done"><button type="button" class="gd-close">Back to the map</button></div></div></dialog>
 <div id="tourBox" role="dialog" aria-modal="false" aria-labelledby="tourCount tourTitle" aria-describedby="tourText" hidden><p class="tb-count" id="tourCount"></p><h2 id="tourTitle" tabindex="-1"></h2><p id="tourText"></p><div class="tb-btns"><button type="button" class="tb-back">Back</button><button type="button" class="tb-next">Next</button></div><button type="button" class="tb-stop" aria-label="Stop the tour">&times;</button></div>
 <div id="listenBar" role="region" aria-label="Narration" hidden><button type="button" class="lb-play">Pause</button><span class="lb-text"><span class="lb-wide">Listening: </span><span class="lb-name"></span></span><button type="button" class="lb-open" aria-label="Open the card">Open<span class="lb-wide"> the card</span></button><button type="button" class="lb-stop" aria-label="Stop listening">&times;</button></div>
-<div id="zoomHint">Scroll to move &middot; Ctrl + scroll to zoom</div>
+<div role="region" aria-label="How to move the map"><div id="zoomHint">Scroll to move &middot; Ctrl + scroll to zoom</div></div>
 
 <script src="assets/place-line.js"></script>
 <script>
@@ -133920,7 +133920,7 @@ function traditionEnd(id){
 function whoButtonHTML(m){
   if(!(peopleOf[m.id]||[]).length)return '';
   const {names,more}=whoTipParts({type:'trad',m}), rest=more+names.length-1, tail=rest?` +${rest} more`:'';
-  return `<button type="button" class="who-btn who-list-btn" aria-controls="people-section" aria-label="${esc(`Who · ${names[0]}${tail}. See the list`)}"><span class="who-line"><span class="who-first">Who · ${esc(names[0])}</span>${tail?`<span class="who-more">${tail}</span>`:''}</span><span class="who-state">See the list</span></button>`;
+  return `<button type="button" class="who-btn who-list-btn" aria-controls="people-section" aria-label="${esc(`Who · ${names[0]}${tail} See the list`)}"><span class="who-line"><span class="who-first">Who · ${esc(names[0])}</span>${tail?`<span class="who-more">${tail}</span>`:''}</span><span class="who-state"> See the list</span></button>`;
 }
 function peopleHTML(m){
   const list=(peopleOf[m.id]||[]).length?scopePeople({type:'trad',m}).all.map(a=>a.P):[];
@@ -134561,11 +134561,11 @@ function renderRiverNames(){
     if(!members.length)return;
     const tip=riverExplainTip(k,f,members);
     const g=el('g',{class:'river-name',tabindex:'0',role:'button','data-lane':k,
-      'aria-label':`${f.name}${f.common?`, ${f.common}`:''}. Opens the river's card.`});
+      'aria-label':`${f.name}${f.common?` ${f.common}`:''}. Opens the river's card.`});
     const ico=el('g',{class:'rn-ico','aria-hidden':'true'});
     ico.appendChild(el('path',{d:'M3 2c3 3-3 6 0 9s-3 6 0 9M9 2c3 3-3 6 0 9s-3 6 0 9',transform:'scale(.78) translate(-6 -11)',fill:'none',stroke:famColor(f),'stroke-width':2.8,'stroke-linecap':'round'}));
     g.appendChild(ico);
-    const t=el('text',{class:'rn-name'}); t.textContent=f.name; g.appendChild(t);
+    const t=el('text',{class:'rn-name'}); t.textContent=f.common?f.name+' ':f.name; g.appendChild(t);
     if(f.common){const c=el('text',{class:'rn-common'}); c.textContent=f.common; g.appendChild(c);}
     g.addEventListener('mouseenter',ev=>showTip(ev,tip));
     g.addEventListener('mousemove',ev=>positionTip(ev));

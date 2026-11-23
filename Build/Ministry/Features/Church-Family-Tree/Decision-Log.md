@@ -5569,3 +5569,15 @@ Mark: "on the screen lets make the river and tradition who icons consistant, the
 **Result.** Checked in a browser on desktop at three zooms and on an emulated iPhone 13, no page errors. The Stories marks are unchanged.
 
 **Not done.** No real-phone check.
+
+## 2026-11-23 — Accessibility fixes from an automated scan
+
+Mark, after the scan results: "yes, fix those three".
+
+**Found.** An automated scan (axe, WCAG 2 A and AA plus best practice) of the map, a tradition page, a person page, About, Method and Data, at desktop and phone width, and the map with a card open, found three rules failing. The first run also read the test server's error page for five of the six pages and reported a missing main landmark that does not exist; the pages already have one. The real findings, after rerunning on the page files: (1) a visible label that was not part of the accessible name: the river names on the map, the Who button on a card, and the narration play button on tradition and person pages; (2) the zoom controls, the layer switches and the zoom hint on the map, and the skip link on the static pages, sat outside any landmark.
+
+**Decided.** Each accessible name now contains its visible text: river names say "Syriac East Church of the East and other Syriac churches" and not a comma-split form; the Who button says "Who · Tatian +1 more See the list"; the narration button says "Listen to the narration", "Resume the narration" or "Pause the narration" to match "Listen", "Resume", "Pause". The layer switches, zoom controls and zoom hint are landmarks with their own labels. The skip link sits inside the page header. The narration player is shared with Church in Conversation, so its change shows on both sites.
+
+**Result.** After the fixes the same scan reports no failing rule on any of the six page types at either width, nor on the map with a card open. Screens look the same.
+
+**Not done.** Nobody has used the site with a real screen reader (VoiceOver, TalkBack, NVDA); the scan cannot judge contrast of text drawn inside the map.

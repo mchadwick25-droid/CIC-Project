@@ -117,8 +117,9 @@
       rail.setAttribute('aria-valuetext', d > 0 ? clock(t) + ' of ' + clock(d) : clock(t));
       time.textContent = d > 0 ? clock(t) + ' / ' + clock(d) : clock(t);
       var playing = !audio.paused && !audio.ended;
-      play.innerHTML = (playing ? PAUSE : PLAY) + '<span>' + (playing ? 'Pause' : (t > 0 && !audio.ended ? 'Resume' : 'Listen')) + '</span>';
-      play.setAttribute('aria-label', playing ? 'Pause narration' : 'Play narration');
+      var word = playing ? 'Pause' : (t > 0 && !audio.ended ? 'Resume' : 'Listen');
+      play.innerHTML = (playing ? PAUSE : PLAY) + '<span>' + word + '</span>';
+      play.setAttribute('aria-label', word + (word === 'Listen' ? ' to the narration' : ' the narration'));
     }
 
     play.addEventListener('click', function () {
