@@ -81,7 +81,7 @@ On the kit: 39. To do: 37.
 | John Chrysostom (`john-chrysostom`) | person | 10 | yes |
 | Mesrop Mashtots (`mesrop-mashtots`) | person | 10 | no |
 | Pelagius (`pelagius`) | person | 10 | no |
-| Priscillian (`priscillian`) | person | 10 | no |
+| Priscillian (`priscillian`) | person | 10 | yes |
 | Rufinus of Aquileia (`rufinus-of-aquileia`) | person | 10 | no |
 | Theodoret of Cyrrhus (`theodoret-of-cyrrhus`) | person | 10 | no |
 | Ulfila (`ulfila`) | person | 10 | no |

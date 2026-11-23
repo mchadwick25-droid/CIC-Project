@@ -113,3 +113,7 @@ Written to `priscillian.card.json`, from `Card.pass3.json` (the starting card, u
 **Not changed, listed:** `uncertain` items and `keyWorks` that say "Priscillian, in his book to Damasus", and the Tractate II title, still carry Schepss's attribution as the earlier card has it; kept word for word as outside this pass, and the new Würzburg sentence records it as his judgment.
 
 **Validator** (`--skip-quotes`, scratch census copy with this card and brief in place, real census untouched): 0 errors; 4 warnings, none on this entry.
+
+## Release fix (2026-11-23)
+
+The census validator read the new Prosper and Hydatius entry's quoted "sixty years on" (the brief's own words) as a source quotation not held in its cited files. The coordinator reworded the end of that `briefReferences` entry, in the card and the census: `, for \"sixty years on\".` → `, for the interval the story gives as sixty years.` No quotation marks; the entry's claim is unchanged.
