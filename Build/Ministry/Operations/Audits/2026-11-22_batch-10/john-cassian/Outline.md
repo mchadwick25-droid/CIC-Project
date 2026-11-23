@@ -208,3 +208,8 @@ Ruling: Decision-Log, "No modern opinion, guess or reconstruction in a story" (M
 Checked and kept: "As a young man" (Germanus in Conf. XVII: the elders "taught us from our youth up", N211 41150-41155; N211 36779-36782); "southern Gaul" (Cassian, writing at Marseilles, of "this province ... frozen as it were with the cold of Gaul", N211 36717-36737; N203 43244-43246); "a later priest of Marseilles" (N203 43968-43969, and Gennadius reports the death); the deacon and the letter-carriers (Widely Accepted, from the old names); "Gennadius, on Cassian's side" (his own words, N203 43669-43671); "the title is Cassian's" (Cassian's own title, N211 25945-25952).
 
 Count: 9 places. Brief 630 words by `python -m engine.m1.profile_readability` (cap 675).
+
+
+**Do not say** (from `Fresh_Read_Modern.md` finding 1, word for word): "His death told after Prosper's book. Say, with Gennadius: the Nestorius book was the end of his writing and his life (N203 43268-43272); give Prosper's book no place in his lifetime."
+
+**Who tells it, added (from `Fresh_Read_Modern.md`):** Prosper's book is not held; its two titles ("the Conferencer"; "Cassiani presbyteri", "de protectione dei") are held only as Mommsen quotes them in his 1892 preface (MOM 42762-42764), the work's transmitted titles, reported by an editor.
