@@ -179,7 +179,7 @@ Past six names: Cyril, Nestorius, John of Antioch, Candidian and the emperor car
 8. Beat 3: Nestorius's condition, that he would come when all the bishops had come. He was summoned three times and would not come, and the soldiers by the council's record, both stay. To the card. Saves 11 (1 fact).
 9. Beat 3: the short phrase "with many tears". The sentence itself stays, in the narrator's words. To the card. Saves 3.
 10. Beat 4: Candidian's testimony to John's assembly that Nestorius had been condemned unheard. Candidian's protest (Quote 1) carries his side. To the card. Saves 11 (1 fact).
-11. Beat 5: "made earlier by Rome's bishops" for Pelagius's condemnation. The clause that the council upheld it stays. To the card. Saves 11 (1 fact).
+11. Beat 5: "made earlier at Rome" for Pelagius's condemnation. The clause that the council upheld it stays. To the card. Saves 11 (1 fact).
 12. Beat 6: Cyril going home to Alexandria, and the new bishop made in Constantinople. The arrest of all three and the dissolution stay. To the card. Saves 22 (2 facts).
 13. Beat 7: that John's side had first offered the confession to the emperor at Ephesus. To the card. Saves 11 (1 fact).
 14. What came 1: "kept the order of faith set at Ephesus under Celestine and Cyril". Chalcedon taking Cyril's letters, to Nestorius and to the Eastern bishops, as its guide stays. To the card. Saves 11 (1 fact).
