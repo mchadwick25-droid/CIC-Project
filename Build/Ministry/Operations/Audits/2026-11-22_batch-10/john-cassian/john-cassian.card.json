@@ -1,0 +1,165 @@
+{
+  "otherNames": [
+    "Cassian",
+    "Cassianus",
+    "Johannes Cassianus"
+  ],
+  "knownFor": "Monk of Marseilles who carried the teaching of the Egyptian desert monks into Latin in his Institutes and Conferences, and whose thirteenth Conference Prosper of Aquitaine wrote against.",
+  "datesNote": "Born about 360 and in Egypt between about 380 and 400, both by Edgar Gibson's reckoning; died at Marseilles in the reign of Theodosius and Valentinian, by Gennadius of Marseilles, which Gibson places not long after 432",
+  "placeNote": "Bethlehem, the desert of Scete in Egypt, Constantinople and Marseilles",
+  "role": "Monk, presbyter and founder of two monasteries at Marseilles",
+  "keyWorks": [
+    {
+      "title": "The Institutes",
+      "about": "twelve books for Castor, a bishop in Gaul, on the dress, prayers and rules of the monks of Egypt and Palestine, and the remedies for eight principal faults"
+    },
+    {
+      "title": "The Conferences",
+      "about": "twenty-four talks with the fathers of the Egyptian desert, in three parts; the thirteenth, on the protection of God, is the one Prosper of Aquitaine attacked"
+    },
+    {
+      "title": "On the Incarnation of the Lord, against Nestorius",
+      "about": "seven books written at the request of Leo, then archdeacon of Rome"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Rule of Benedict of Nursia has the \"Conferences\" read aloud to the monks after supper, and later names the Conferences of the Fathers and their Institutes among a monk's tools. Edgar Gibson takes these for Cassian's books.",
+      "Gennadius of Marseilles says Eucherius of Lyons, \"revising and condensing certain works of Saint Cassianus, he compressed them into one volume.\"",
+      "Gibson calls him \"the first organizer and systematizer, of Western monachism\", though not its founder.",
+      "Gregory of Tours, writing in the late sixth century, tells of a monastery in Gaul, founded by the abbot Aredius of Limoges, where the Rule of Cassian was kept beside the Rules of Basil and of other abbots.",
+      "Gibson, citing Cassiodorus, says Victor, bishop of Martyrites, made a recension of Cassian's works for use in Africa, taking out some things and adding others in the interests of orthodoxy. It is no longer extant.",
+      "The Gallic Chronicle of 452 notes at the year 429 that Cassian sets out, in books given to many, the lives, teachings and rules of the fathers he came to know in Egypt. The held print is damaged in places, but the sense is clear.",
+      "The Philokalia, in its 1893 Greek print, gives his work to Bishop Castor on the eight thoughts of evil under the name of Cassian the Roman."
+    ],
+    "remembered": [
+      "Gennadius of Marseilles says \"He wrote from experience, and in forcible language\".",
+      "Gibson says he was \"Never formally canonized\" and is known in the West as \"the blessed Cassian\", while in the East he is regarded as a saint."
+    ]
+  },
+  "uncertain": [
+    "His early life is known mainly from his own writings. Gennadius of Marseilles calls him \"Scythian by race.\" Edgar Gibson, who translated his works, doubts it. The word may point to the desert of Scete, he suggests, and he thinks a Western birth, perhaps in Provence, most likely, while granting \"it is impossible to speak with certainty\". Gibson adds that Photius of Constantinople calls him a Roman, which \"need mean no more than born within the Roman Empire\".",
+    "Gibson says the Conferences were written many years after the visits, and that no one can tell \"how far they really represent the discourses actually spoken by the Egyptian\" fathers, or how far they are Cassian's own.",
+    "Prosper of Aquitaine, a layman and, by Gibson's account, \"an ardent Augustinian\", wrote against the thirteenth Conference. Prosper's book is not among the sources used here. Gennadius, who takes Cassian's side, believed an anonymous book \"against certain works of Cassianus, which the church of God finds salutary, but which he brands as injurious\" was Prosper's. Gibson says Prosper took twelve propositions from that Conference and allowed only the first, and \"never once names him directly\".",
+    "Gibson, and William Bright whom he quotes, call this teaching Semi-Pelagian. Cassian does not use the word. Gibson judges that \"a verdict of guilty must be returned on the charge of Semi-Pelagianism\", and adds that \"the teaching of Augustine was one-sided and required to be balanced.\"",
+    "Gibson notes that the monks of Egypt called him John in his own writings, and that Prosper joins the two names. Gennadius calls him only Cassianus.",
+    "Gennadius gives no year for his death. Ernest Cushing Richardson's note gives 450. Gibson says his last known act is Prosper's attack, after 432, and that he probably died soon after.",
+    "Gibson says \"Of his family we know nothing\", except a sister he mentions once.",
+    "A tract on the Irish cursus, which Frederick Warren says was written by an eighth-century monk of the Irish tradition on the Continent, names Cassian and says a blessed Honorius was his companion at the monastery of Lérins. No earlier held source puts Cassian at Lérins, and Warren notes that the tract is uncorroborated in other quarters on the origins of the Irish cursus."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Institutes, the Conferences and On the Incarnation against Nestorius, translated by Edgar C. S. Gibson",
+        "language": "English translation",
+        "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml"
+      },
+      {
+        "title": "Institutionum libri XII and Contra Nestorium, edited by Michael Petschenig",
+        "language": "Latin",
+        "file": "cic/texts/cassian_institutes-and-contra-nestorium_petschenig1888.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Lives of Illustrious Men, chapters 62, 64 and 85",
+        "author": "Gennadius of Marseilles",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Prolegomena to The Works of John Cassian",
+        "author": "Edgar C. S. Gibson",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml"
+      },
+      {
+        "title": "The Rule of Saint Benedict, chapters 42 and 73",
+        "author": "Benedict of Nursia",
+        "date": null,
+        "language": "Latin and English",
+        "file": "cic/texts/benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt"
+      },
+      {
+        "title": "History of the Franks, book X, chapter 29",
+        "author": "Gregory of Tours",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt"
+      },
+      {
+        "title": "Gallic Chronicle of 452, in Chronica Minora I, edited by Theodor Mommsen",
+        "author": null,
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/prosper_chronica-minora-1-lat_mommsen1892.txt"
+      },
+      {
+        "title": "Introduction to The Antiphonary of Bangor, part II, edited by Frederick E. Warren, quoting the Cursus Scottorum tract",
+        "author": null,
+        "date": null,
+        "language": "Latin and English",
+        "file": "cic/texts/antiphonary-of-bangor-pt2-lat_warren1895.txt"
+      },
+      {
+        "title": "Philokalia of the Holy Neptic Fathers, volume 1",
+        "author": null,
+        "date": null,
+        "language": "Greek",
+        "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt"
+      }
+    ]
+  },
+  "briefReferences": [
+    "Conferences, preface to Part II (Conferences XI-XVII), tr. Edgar C. S. Gibson: addressed to Honoratus and Eucherius; one wished his monks taught the precepts of the Egyptian fathers, the other longed to go to Egypt and leave a province frozen with the cold of Gaul; Cassian writes so that no one need make so risky a journey. Gibson, Prolegomena: this Part was dedicated to Honoratus and Eucherius.",
+    "Gibson, Prolegomena: born about 360; Bethlehem with Germanus; the two visits to Egypt placed between 380 and 400; ordained deacon at Constantinople by John Chrysostom; the Conferences completed between 426 and 428.",
+    "Conference XVII, ch. 30: the promise of a quick return, seven years in Egypt, the promise kept, then back to the desert of Scete.",
+    "Gennadius of Marseilles, Lives of Illustrious Men 62, tr. E. C. Richardson: deacon under bishop John at Constantinople, presbyter at Marseilles, two monasteries, one for men and one for women; the Institutes and Conferences; seven books against Nestorius at the request of Leo the archdeacon, afterward bishop of Rome; the end of his writing and his life at Marseilles in the reign of Theodosius and Valentinian. Gennadius is later by about fifty years and lived at Marseilles.",
+    "Palladius, Dialogue on the Life of Chrysostom, tr. H. Moore: Germanus, a priest, and Cassianus, a deacon, bring letters from John's clergy; their bishop expelled with the help of the military. The Dialogue's note on the name Cassianus is the editor's.",
+    "Institutes, preface, tr. Gibson, and Petschenig's Latin: twelve books for Bishop Castor, whose province had no monasteries; Egypt's rules tempered with the customs of Palestine and Mesopotamia where harsh climate or different ways made them hard in Gaul. Gennadius, Lives 62: the dress, prayers and psalms, and the eight principal faults.",
+    "Conference XIII, chs. 3, 8 and 11, tr. Gibson: Chaeremon, as Cassian writes him, says the first good thought and the good will come from God; God, seeing a good will begin, strengthens it, whether he planted it or it arose from our efforts; Zacchaeus and the thief on the cross; the grace of God and free will in harmony.",
+    "Prosper of Aquitaine's letter to Augustine (Augustine, Epistle 225.2, Goldbacher): many servants of Christ at Marseilles think his teaching on the calling of the chosen runs against the Fathers. Gibson: Cassian's name is never mentioned in the correspondence, and the letters date from 429.",
+    "On the Incarnation of the Lord, against Nestorius, preface and Book I, ch. 3, tr. Gibson: written at the urging of Leo; the Pelagians said that men could also be without sin if they liked. Gibson dates the work to 430, before the Council of Ephesus.",
+    "Prosper's book, as Mommsen lists it among Prosper's works, and Gibson, Prolegomena: against the Conferencer, in defense of Augustine; it examines the thirteenth Conference, takes twelve propositions from it, grants only the first, and never names Cassian directly. Prosper's book is not among the sources held. Gibson: Cassian made no reply known, and this is the last event known in his life.",
+    "Gennadius of Marseilles, Lives of Illustrious Men 85, tr. E. C. Richardson: the anonymous book against certain works of Cassian, which Gennadius took to be Prosper's, and his words on the opinions of Cassian and Prosper on grace and free will.",
+    "Rule of Benedict, chs. 42 and 73, ed. Hunter Blair: the Conferences read aloud after supper, first among the readings; the Conferences, Institutes and Lives of the Fathers named among a monk's tools. The Rule names no author; Gibson takes them for Cassian's books. Hunter Blair dates the Rule about 535.",
+    "Cassiodorus, Institutions I.29 (Migne PL 70, a damaged print; Gibson cites the passage): read Cassian with care, and hear him gladly on the eight principal faults; on free will, Prosper blamed him.",
+    "Conferences, preface to Part I (Conferences I-X), tr. Gibson: his hope to set the desert fathers themselves before the reader, in their own rules, speaking in the Latin tongue.",
+    "Gregory of Tours, Gallic Chronicle of 452, the Philokalia and the Cursus Scottorum tract: later notices of his books and name, kept on the card and not told in the brief."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "So these two, the grace of God and free will, seem opposed to each other. But really they are in harmony.",
+      "printed": "These two then; viz., the grace of God and free will seem opposed to each other, but really are in harmony",
+      "work": "Conferences XIII.11, tr. Edgar C. S. Gibson (the old hermit Chaeremon, as Cassian writes him); the Latin Conferences are not held",
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": "38028-38030"
+    },
+    {
+      "modern": "the Conferencer",
+      "printed": "Contra Collatorem",
+      "work": "Prosper of Aquitaine's book, by its title as given in Gibson's Prolegomena",
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": "15774-15775",
+      "secondReading": "checked at card",
+      "uncertain": "Collator is the author of the Collationes, the Conferences; \"the Conferencer\" is our English for it."
+    },
+    {
+      "modern": "The church of God finds them wholesome, but he brands them as harmful.",
+      "printed": "which the church of God finds salutary, but which he brands as injurious",
+      "work": "Gennadius of Marseilles, Lives of Illustrious Men 85, tr. E. C. Richardson; the held Latin is damaged at the verb",
+      "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+      "lines": "43669-43671"
+    },
+    {
+      "modern": "May we set the men themselves before you, embodied, as it were, in their own rules. And, what matters more, may they be speaking in Latin.",
+      "printed": "may succeed in setting before you the men themselves incorporated, as it were, in their own Institutes, and what is more to the point, speaking in the Latin tongue",
+      "work": "Conferences, preface to Part I, tr. Gibson; the Latin Conferences are not held",
+      "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+      "lines": "25949-25952",
+      "uncertain": "Here Institutes means the elders' own rules of life, so the rendering says rules, not the title of the book."
+    }
+  ]
+}
