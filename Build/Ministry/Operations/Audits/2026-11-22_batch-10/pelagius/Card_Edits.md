@@ -78,3 +78,27 @@ For `tools/quote_scan_readings.json` (not edited here):
 ### Validator
 
 `node tools/validate-census.mjs --skip-quotes` on a scratch census with this card: the only errors for `pelagius` are `secondReading` absent on the three quotations (release sets it). The `printed` error on the riches passage clears once the three scan readings above are in the readings file.
+
+## Third pass: what it was about (2026-11-23)
+
+The starting card is `Card.pass2.json` (unchanged copy). All edits are in `briefReferences`; no other field moved.
+
+| Field | Old → new | Evidence |
+|---|---|---|
+| `briefReferences` (new entry, after the Diospolis entry) | (none) → "Augustine, On the Proceedings of Pelagius, as the synod's record gives the Gaulish bishops' charges: statements said to be found among the opinions of his disciple Caelestius, that Adam's sin injured only himself and that newborn infants are in the same condition as Adam before the fall; Pelagius answers that these opinions are not his, and that anyone who holds opinions different from the Church's is to be anathema." | Brief: "Some charges were Caelestius's views: that Adam's sin harmed only Adam, and newborn babies are as Adam was before he sinned. Pelagius said these were not his, and condemned them." `npnf105_augustine-anti-pelagian-writings.xml` 9882-9883, 10263-10264, re-read; Outline item 8 |
+| `briefReferences` (new entry, after the Cassian entry) | (none) → "John Cassian, On the Incarnation of the Lord, Against Nestorius, I.3: he says the Pelagians held that Jesus Christ lived as a mere man without any stain of sin, so that men could also be without sin; he charges the bishop of Constantinople with saying the same, so that all men can be without sin." | Brief: "Both, he wrote, made Christ a mere man who lived without sin, so others could too." `npnf211_sulpitius-severus-vincent-lerins-cassian.xml` 48715-48718, 48740-48744, re-read; Outline item 20 |
+| `briefReferences` (Proceedings 46) | "...his arrival in Africa; Augustine glimpsed him; he hurried away across the sea. On Original Sin 9..." → "...his arrival in Africa; he went away across the sea. On Original Sin 9..." | The brief no longer tells the glimpse or "hurried": "About 411 he crossed to Africa, then sailed on to Palestine." `npnf105` 10286-10287 |
+| `briefReferences` (Proceedings 47) | "Augustine, On the Proceedings of Pelagius, 47: the book on nature, answered without naming him." → removed | The brief cut the sentence on the book on nature. The same fact stays in `legacy.traces` |
+| `briefReferences` (Letter 188) | "the warning against the book ... the letter asks her who wrote the book" → "the warning against Pelagius's letter ... Letter 188 asks her who wrote the book" | Brief: "Augustine warned Demetrias's mother against Pelagius's letter." "Letter 188" replaces "the letter" so it is not read as Pelagius's letter. Source clause unchanged (PL33 62406-62409) |
+
+### Skipped
+
+- Items marked "to the card" in the Outline (Cut first 1, 2, 4, 5, 6, 8, 9, 10, 11, 14, the Leave out list): already on the card from earlier passes; nothing in this pass marks a new one.
+- `uncertain` entry for Cassian's charge (that Pelagius himself taught it is Inferential-Thin): the outline does not send it to the card; the brief credits the charge to Cassian and says it of "the Pelagians".
+- `quotationOriginals`: the brief's three quoted spans are unchanged; no entry added or removed.
+- `sources`: every file cited is already listed.
+- Line reference fix (10381 to 10383): the card cites no NPNF105 line numbers, so nothing to correct.
+
+### Validator
+
+`node tools/validate-census.mjs --skip-quotes` on a scratch census with this card: 0 errors; no warning for `pelagius`.

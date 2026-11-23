@@ -33,9 +33,9 @@
     "Socrates of Constantinople says Eutropius made Theophilus of Alexandria ordain John by collecting the memorials of charges laid against Theophilus, showing them to him, and bidding him choose between ordaining John and standing trial on those charges.",
     "John Chrysostom ate alone, and Socrates of Constantinople says no one knew why for certain. Palladius of Helenopolis, who knew him, says he drank no wine, had a disordered stomach, and sometimes put off his meals while absorbed in prayer and study. Socrates also says people gave other reasons, and that the habit helped his enemies.",
     "Socrates of Constantinople says John Chrysostom died in Comana. Palladius of Helenopolis says the soldiers lodged him at a martyr's shrine five or six miles outside the town and that he died there.",
-    "Socrates of Constantinople says Theophilus of Alexandria resolved to unseat John when he heard, falsely, that John had admitted the Egyptian monks to the mysteries, and that his letters condemning the books of Origen hid his real motive, which was revenge on the monks. Socrates also says that at the Oak no mention was made of Origen.",
+    "Socrates of Constantinople says Theophilus of Alexandria resolved to unseat John when he heard, falsely, that John had admitted the Egyptian monks to the mysteries, and that his letters condemning the books of Origen hid his real motive, which was revenge on Isidore and Dioscorus and the removal of John. Socrates also says that at the Oak no mention was made of Origen.",
     "The charges laid against John at the Oak are known from the synod's own minutes, which Photius, writing more than four centuries later, summarizes in his Library, Codex 59. Photius calls the synod unlawfully summoned and John a holy man. Socrates of Constantinople calls many of the charges ridiculous. Nothing held proves any of them.",
-    "Socrates of Constantinople says the bishops at the Oak deposed John for refusing the summons and gave no other cause. The minutes, as Photius gives them, say the first and second counts were examined and then the forty-five members present voted unanimously to deprive him.",
+    "Socrates of Constantinople says the bishops at the Oak deposed John for refusing the summons and gave no other cause. The minutes, as Photius gives them, say several of the counts were examined, beginning with the first and second, and then the forty-five members present voted unanimously to deprive him.",
     "Socrates of Constantinople says the Oak followed a public sermon of John against women in general, which the people took as aimed at the empress Eudoxia. She complained to the emperor, and the emperor authorized Theophilus of Alexandria to call a synod against John.",
     "Socrates of Constantinople says that at the second council John answered that the rule used against him was an Arian canon, framed at the council at Antioch against Athanasius, and that the bishops would not listen to his defense."
   ],
@@ -249,6 +249,13 @@
       },
       {
         "title": "Church History, Book 7, chapter 45",
+        "author": "Socrates",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Church History, Book 1, chapter 5",
         "author": "Socrates",
         "date": null,
         "language": "English translation",

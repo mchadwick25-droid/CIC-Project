@@ -91,3 +91,7 @@ Written to `Card.pass2.json` from `rufinus-of-aquileia.card.json`; every field n
 - Origin of souls (Rufinus saying he did not know where souls come from, N203 46037-46046): outline "leave it out", no card home named; not added.
 - Melania, baptism and the circle of young monks: already on the card in `legacy.traces`, `uncertain` or `datesNote`.
 - Validator: `node tools/validate-census.mjs --skip-quotes` on a scratch census with this card in place: 0 errors (4 warnings, none for this entry).
+
+## Card check applied (2026-11-23)
+
+`Card_Check_About.md` (FIX, two changes), applied word for word: `briefReferences[14]` "Fremantle, Prolegomena:" → "Fremantle, introduction to the Apology to Apronianus:"; `uncertain[18]` "that Origen made the Son not born" → "that Origen said Christ was made God's Son, not born". (The third-pass header above names the files the wrong way round: `Card.pass2.json` is the starting card, `rufinus-of-aquileia.card.json` the edited one.)

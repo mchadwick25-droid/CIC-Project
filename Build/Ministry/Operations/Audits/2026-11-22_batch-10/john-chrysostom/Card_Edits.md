@@ -71,3 +71,7 @@ Written to `Card.pass2.json`, copied from `john-chrysostom.card.json`; every fie
 ### Validator
 
 `node tools/validate-census.mjs --skip-quotes` on a scratch census copy with this card: 0 errors (4 warnings, none for this entry).
+
+## Card check applied (2026-11-23)
+
+`Card_Check_About.md` (FIX, three changes), applied word for word: the Oak minutes `uncertain` item ("say the first and second counts were examined" → "say several of the counts were examined, beginning with the first and second,"); the Theophilus motive `uncertain` item ("revenge on the monks." → "revenge on Isidore and Dioscorus and the removal of John."); `sources.about`: the Socrates Book 1, chapter 5 entry inserted after Book 7, chapter 45.

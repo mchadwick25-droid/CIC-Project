@@ -75,3 +75,7 @@ Skipped:
 - Item 11, the charges against John: leave out, not card.
 - Items 5 and 6, Prosper's and the monks' points as Cassian's own view: the card already says Prosper's book is not held and that the letter does not name Cassian; no further line added.
 - Pelagius clause files: none exist.
+
+## Card check applied (2026-11-23)
+
+`Card_Check_About.md` (FIX, one change), applied word for word: `briefReferences[12]`, the Rule of Benedict entry, to "Rule of Benedict, ch. 42, ed. Hunter Blair: the Conferences read aloud after supper, first among the readings. ..." (the tools clause and ch. 73 dropped; `legacy.traces` keeps them). (The third-pass header above names the files the wrong way round, and the two new sources sit before the Gallic Chronicle entry, not after.)
