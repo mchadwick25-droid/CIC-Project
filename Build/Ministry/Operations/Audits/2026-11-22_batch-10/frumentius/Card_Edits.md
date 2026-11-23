@@ -97,3 +97,27 @@ Written to `Card.pass2.json`, copied from `frumentius.card.json`; every other fi
 - Items 3 to 7 of What it was about: already explained in the brief, no new source.
 
 **Validator** (`--skip-quotes`, scratch census copy with this card in the frumentius entry): 0 errors for this entry (0 errors overall, 4 warnings for other entries).
+
+## Fourth pass: no modern opinion (2026-11-23)
+
+Starting card kept unchanged as `Card.pass3.json`; edits made in `frumentius.card.json`. Every other field word for word. Lines re-read.
+
+**Edits**
+1. `uncertain[1]` (the consecration date), appended: " These are modern editors' judgments; no old source gives another date."
+   - Evidence: the brief now says only "Rufinus gives no year, but sets it just after Athanasius became bishop, which was in 328." Robertson N204 5674-5684, 10405-10408; Valesius N202 4294-4296; Rufinus 27374-27375.
+2. `uncertain`, new item after the consecration item. Old: none. New: "Fremantle, in his introduction to Rufinus in the Nicene and Post-Nicene Fathers, dates Rufinus's history probably 401. This is a modern judgment."
+   - Evidence: N203 44550-44552 ("The date is probably 401"). The brief says "around 400", now resting on Rufinus's preface (RUF 26046-26047) and Prosper (53486-53488).
+3. `uncertain`, new last item. Old: none. New: "The tree's own listing places the kingdom in what is now Ethiopia and Eritrea. That extent comes from the listing, not from any held old source."
+   - Evidence: the brief now says only "in what is now Ethiopia" (SYN 43584-43585, 43597-43611); the region's extent went to the card.
+4. `briefReferences[0]`: old "The editors' date for Rufinus is about 401." New "Rufinus's preface, written when Alaric's Goths broke into Italy, with Prosper's chronicle under the year 400: the date of Rufinus's writing, around 400." Evidence: RUF 26046-26047; Prosper 53486-53488.
+5. `sources.about`, added Prosper's Chronicle (`cic/texts/prosper_chronica-minora-1-lat_mommsen1892.txt`). Evidence: lines 53486-53488 ("Stilichone et Aureliano. a. 400"; "Gothi Italiam Alarico et Radagaiso ducibus ingressi").
+6. `briefReferences[3]`: removed "Robertson's prolegomena, ". Evidence: the brief's Arians and charges rest on Athanasius (N204 35938-35940, 34915-34921, 35101-35104), not Robertson's note.
+7. `briefReferences[4]`: old "Archibald Robertson's prolegomena and chronology to Athanasius: Athanasius made bishop in 328, the letter about 356, and the consecration no earlier than the end of 346." New "Athanasius, Easter letters, the Alexandrian index (Select Works): Athanasius made bishop in the consulship of Januarius and Justus, which is 328, and driven from Alexandria on the night of 13 to 14 Mechir in 356." Evidence: N204 64076-64081, 64351-64362; the brief's "After Athanasius was driven from his city in 356" and "which was in 328". Robertson's views stay in `uncertain`.
+8. `briefReferences[5]`: old "The Ethiopian Synaxarium, 26 Hamle: Abba Salama, the peace of Christ, and his death in peace." New adds " ... and its lives of Cosmas and Gabriel", "and later bishops of Alexandria making the bishop of Ethiopia, which shows the book was written centuries later." Evidence: SYN 18812-18830, 25056-25069; the brief's "Centuries later ... later bishops of Alexandria still make the bishop of Ethiopia."
+9. `briefReferences[6]` (world census entry) removed. Evidence: the brief no longer tells "the church of Aksum kept taking its bishops from Alexandria" or "Ethiopia and Eritrea".
+
+**Quotations:** none changed. The four quoted spans stand word for word, and the four `quotationOriginals` entries are unchanged.
+
+**Already held, left in place:** Littmann's fifteenth-century date (`legacy.remembered`, credited "by its editors' dating"); Ludolf's ninety-five metropolitans (`legacy.traces`); Robertson's 356 to 357 and 346 (`uncertain`); the stone of Aizanas (`uncertain`).
+
+**Validator** (`--skip-quotes`, scratch census copy with this card and brief in the frumentius entry): 0 errors for this entry (0 errors overall, 4 warnings for other entries).

@@ -91,3 +91,25 @@ Written to `Card.pass2.json`, from `priscillian.card.json`; all else word for wo
 ## Card check applied (2026-11-23)
 
 `Card_Check_About.md` (FIX, one change), applied word for word: briefReferences, Sulpicius entry: "Halm's Latin: the charge of heresy," → "Halm's Latin: his wealth and learning, the charge of heresy,". Its note that the memorandum Latin begins at Pr 4388, not 4389, concerns this file's third-pass section only.
+
+## Fourth pass: no modern opinion (2026-11-23)
+
+Written to `priscillian.card.json`, from `Card.pass3.json` (the starting card, unchanged); all else word for word. The brief now quotes the same three spans with the same words, so `quotationOriginals` is untouched.
+
+**`uncertain`**
+1. Würzburg item, added after the Schepss judgment: "This is a modern judgment, his alone. In his preface he also writes that the judgment on Priscillian had hung on his enemies, chiefly Sulpicius, until the treatises turned up. Schepss attributes the Book to Damasus to Priscillian himself; the story says only that his party wrote it." Evidence: the brief's cut lines and "Priscillian's party"; Pr 80-84, 85-93 (preface), re-read.
+2. Year item: "The story says in about 385." → "The story gives 385 by Prosper's chronicle, which names the consuls Arcadius and Bauto, and 387 by Hydatius's, which names Theodosius's ninth year; the Roman year in each is an editor's margin." Evidence: the brief ("385 by one old chronicle and 387 by another"); Pros 53277, 53284-53287; Hyd 1143-1145, re-read.
+- Hefele's Saragossa supposition and Bernays's gloss: already in `uncertain`, credited by name as his supposition and view; nothing to add.
+
+**`briefReferences`**
+3. Tractate II entry: "why he and his friends gave themselves" → "why his party gave themselves"; "his creed and his curse" → "their creed and their curse"; "what he says of Saragossa" → "what the book says of Saragossa"; "the order he says was asked" → "the order it says was asked"; "his reason for going to Rome, to clear his name." → "the party's reason for going to Rome; the bishop of Emerita and the council at Saragossa it names, which Sulpicius names too."; and "(a book of Priscillian's party, not shown to be his own)" after the call. Evidence: brief paragraphs 1, 4, 5, 6 and 11; Pr 4334, 4347, 4363-4365, 4382-4392, 4394, 4635-4638, 4672-4677; SulpE 11492, 11502-11508, 11546-11548, 11530-11531, re-read.
+4. Schepss entry: "the eleven unsigned treatises found at Würzburg in 1885, and his judgment that they could be no one's but Priscillian's." → "the eleven unsigned treatises found at Würzburg in 1885." Evidence: brief last paragraph; Pr 80-89.
+5. Sulpicius entry: "Gratian's order" → "the emperor's order won by the bishop of Emerita"; "the prefect's two hearings and their findings" → "the prefect's two hearings, the finding of sorcery (maleficium) and the court's findings". Evidence: brief ("The bishop of Emerita won an order from the emperor"; "guilty of sorcery"); SulpE 11530-11531; SulpL 5772, 5913-5914.
+6. Hefele entry (Bernays's gloss; the Saragossa canons): removed. The brief tells neither now (sorcery rests on Sulpicius's maleficium). The file stays in `sources.about`, used by `uncertain`.
+7. Toledo entry: added "and the council's own date, Spanish era 438, which gives 400." Evidence: brief ("In 400"); Mansi3 96555, 96780-96781.
+8. Jerome entry: ", and the dating note" removed; the brief no longer tells Jerome's date.
+9. New entry after Jerome: Prosper and Hydatius chronicles, for the two years and for "sixty years on" (Hydatius's 387 and Leo's writings sent to Spain in 447). Evidence: brief; Pros 53277-53287; Hyd 1143-1145, 1916-1918. Both files are already in `sources.about`.
+
+**Not changed, listed:** `uncertain` items and `keyWorks` that say "Priscillian, in his book to Damasus", and the Tractate II title, still carry Schepss's attribution as the earlier card has it; kept word for word as outside this pass, and the new Würzburg sentence records it as his judgment.
+
+**Validator** (`--skip-quotes`, scratch census copy with this card and brief in place, real census untouched): 0 errors; 4 warnings, none on this entry.
