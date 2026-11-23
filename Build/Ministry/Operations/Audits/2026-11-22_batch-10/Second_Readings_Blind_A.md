@@ -50,9 +50,7 @@ Source: `cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml`, lines 38007-
 
 Read: "But to what has been done unjustly and illegally against your holiness, not even if one were to cut off both my hands would I ever assent, God's grace helping me and supporting my infirmity."
 
-Rendering: But I will never agree to what has been done against you, against your holiness, unjustly and against the law. I would not agree even if someone cut off both my hands. God's grace will help me and hold up my weakness.
-
-Note on that rendering: "against you, against your holiness" repeats the address. A tighter version: But I will never agree to what has been done to your holiness unjustly and against the law, not even if someone cut off both my hands. God's grace helps me and holds up my weakness.
+Rendering: But I will never agree to what has been done to your holiness unjustly and against the law. I would not agree even if someone cut off both my hands. God's grace helps me and holds up my weakness.
 
 Scan: clean.
 
