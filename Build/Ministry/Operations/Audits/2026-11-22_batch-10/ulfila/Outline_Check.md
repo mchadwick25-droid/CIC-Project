@@ -1,0 +1,8 @@
+# Outline check: Ulfila
+
+## My account, written before reading Outline.md
+
+**Essence.** Ulfila, a Goth of Cappadocian captive descent, was made bishop for the Christians in the Gothic land (by "Eusebius", Philostorgius; Eusebius of Nicomedia in the editors' reading). He made the Goths letters and put the Scriptures into Gothic, and he taught the Homoian creed ("like the Father according to the Scriptures") that the Goths carried into the kingdoms after Rome. He is on the tree as the source of the Gothic church and its faith, the line that gave rise to gothic-and-vandal-homoian-christianity.
+
+**Also told.** Seven years as bishop beyond the Danube; a persecution by a Gothic judge; he led a crowd of confessors across the Danube onto Roman soil, received with honour under Constantius ("the Moses of his day"). Forty years preaching in Greek, Latin and Gothic, with treatises and interpretations. At Constantinople in 360 he confirmed the creed of Ariminum. The Greek historians disagree on when he took that creed (Socrates: first then; Sozomen: later, under pressure or conviction; Theodoret: under Valens, by Eudoxius's eloquence and bribes); his pupil Auxentius gives his deathbed creed, "I have always believed so". He died at Constantinople, about 383 (Kauffmann's June 383), having gone at the emperor's summons to a debate. What came: the Goths' Homoian faith that the historians say lasted in their day; the Gothic Bible (fragments, Codex Argenteus, editor-attributed); his pupils Auxentius and Selinus; the Lesser Goths of Moesia (Jordanes). Told from Auxentius, with each Greek historian credited.
+
