@@ -9,3 +9,24 @@
 5. **"Checked at card".** None; all three quotations run six words or more.
 6. **Not found / clearly wrong.** None listed, none found. Quote 1's note that malluerit is the manuscript's spelling is supported by Schepss's index, which lists it among the text's forms beside maluit (Pr 18175, 20895); `Card_Edits.md` gives no line for it.
 7. **Census entry.** None (existing entry).
+
+## Second pass check (2026-11-23)
+
+**FIX**
+
+Checked: the card at 92c9a304 (the version checked above) against the card now. Only one field moved: one item appended to `uncertain`. The checker gave no change, and none was applied. Keys are all allowed; spelling is American; no audit named. No **Scan readings to add** listed.
+
+1. **The Orosius item (`uncertain`, last).** It stands at Pr 10247-10257 and credits Orosius, but it says "Christ loosed this bond" without naming the bond. Orosius names it: "in corpora diuersa contrudi eisque adscribi chirographum" (Pr 10252-10253).
+   - Field: `uncertain`, last item.
+   - Old: "says Priscillian held that the soul is caught by evil powers and put into bodies, and that for this reason"
+   - New: "says Priscillian held that the soul is caught by evil powers and put into bodies, with a written bond (chirographum) set down against them, and that for this reason"
+
+2. **Jerome's change of tone (outline, Leave out: "card").** The skip's reason does not hold as stated. A held source dates both texts. Jerome says his book runs "until the fourteenth year of the Emperor Theodosius" (JerVir file 38784-38785). Fremantle gives "The date of the letter is 415 a.d." (JerEp 27657-27658; the outline's 414 is not his). The card already holds both voices: the defenders in `uncertain`, the later letter in `uncertain`. The tone contrast stays out, since that would be our inference. The two dates carry the rest, each credited.
+   - Field: `uncertain`, the Jerome and Augustine item.
+   - Old: "Jerome, in a later letter, speaks of him as"
+   - New: "Jerome, whose Lives of Illustrious Men runs to the fourteenth year of the emperor Theodosius, speaks of him, in a letter that Fremantle dates 415, as"
+
+All other skips hold: the law of 407, Prosper on Ithacius and Ursacius, the oath, Bernays, Marcus of Memphis, the curse with the sword, Against Lying and Ambrose are held at their fields. The Procula rumor was sent "card if anywhere", and Sulpicius marks it as gossip.
+
+
+Coordinator (2026-11-23): both second pass check fixes applied word for word.

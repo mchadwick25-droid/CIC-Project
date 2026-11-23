@@ -46,3 +46,19 @@ Checked: `rufinus-of-aquileia.card.json` against `Card.existing.json`, `Card_Edi
 **FIX 8.** `briefReferences[13]` (Cut first 11: this stays in `legacy.traces[7]`).
 - Old: `; the few Greek fragments show him altering many of Origen's expressions; Jerome's new translation survives only in small portions.`
 - New: `; the few Greek fragments show him altering many of Origen's expressions.`
+
+## Second pass check (2026-11-23)
+
+Compared: the card at `db30b801` (before the second pass) with the card now, field by field.
+
+### Verdict: FIX
+
+1. **Checker changes.** FIX 1 to FIX 8 went in word for word. Nothing else in `briefReferences[0]`, `[1]`, `[2]`, `[3]`, `[5]`, `[9]`, `[10]` or `[13]` moved, and no other `briefReferences` entry changed. The only other changes are the three appended `legacy.traces` (8-10) and seven appended `uncertain` entries (10-16). Every other field is word for word and in order.
+2. **Items added.** Each was re-read at its lines. Trace 8 (Gennadius, N203 42484-42487), trace 9 (Fremantle, N203 44396-44398) and trace 10 (Palladius, Lausiac History line 501, [6]) hold, each with its witness. `uncertain[10]` (N203 46563-46575), `[11]` (N203 49434-49439, 44084-44088), `[12]` (N203 58776-58787), `[13]` (N203 46070-46071), `[14]` (N203 46149-46150, 44423-44425) and `[15]` (N203 45741-45745, 44208-44211) hold. `uncertain[16]` says more than its source (below).
+3. **Outline "to the card" items.** All are on the card: Epiphanius (`legacy.remembered`); the Recognitions and Xystus (trace 1); the Benedictions (trace 8); the History of the Monks (trace 9); birth year and Concordia (`datesNote`, `uncertain[1]`, `[2]`); Cut first 1 (trace 5); 2 (`keyWorks`, `uncertain[12]`); 3 (`uncertain[12]`); 4 (trace 10, and the praise in `legacy.remembered`); 5 (`role`, `knownFor`); 6 (`uncertain[10]`); 8 (`uncertain[11]`); 10 (`uncertain[4]`); 11 (trace 7); 12 (`uncertain[13]`); 13 (trace 4); 14 (trace 6); 16 (`legacy.remembered`); 17 (`uncertain[14]`); 18 (`uncertain[15]`); 19 (`uncertain[16]`). The two skips hold. "Grunnius" is marked only "if wanted", and no held text carries it. Quote 1's first sentence is a printed line that the brief no longer quotes, so it cannot go in `quotationOriginals`, and no other field takes it.
+4. **Scan readings.** None were listed, and the first check gave none.
+5. **Census rules.** The keys are unchanged and allowed. The new text uses American spelling, and no audit, review or ruling is named. Each new cited file is in `sources`.
+
+**FIX 1.** `uncertain[16]`. Fremantle does not say the party left from Rome. At N203 44434-44439 he says Melania "was either there or with Paulinus at Nola", and that "the whole party were starting by way of Sicily and Africa".
+- Old: `Fremantle says the party was leaving Rome by way of Sicily and Africa and that Rufinus joined their religious company.`
+- New: `Fremantle says the party was starting out by way of Sicily and Africa and that Rufinus joined their religious company.`
