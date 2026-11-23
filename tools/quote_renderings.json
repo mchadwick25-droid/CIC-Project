@@ -198,15 +198,15 @@
   },
   {
    "id": "ephrem-the-syrian",
-   "quote": "Look, on your behalf I appoint myself to run the shelter.",
+   "quote": "See, on your behalf I appoint myself to take in and care for the needy.",
    "original": {
     "file": "cic/texts/palladius_lausiac-history_clarke1918.txt",
     "lines": "471",
     "language": "English"
    },
    "second_reading": {
-    "record": "Build/Ministry/Operations/Audits/2026-11-16_eight-standard-v1/renderings/eight/comparison.md",
-    "verdict": "changes meaning"
+    "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/About-Pass/Second-Reading/Second_Readings.md",
+    "verdict": "minor"
    }
   },
   {
