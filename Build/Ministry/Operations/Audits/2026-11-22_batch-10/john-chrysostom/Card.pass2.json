@@ -19,8 +19,7 @@
     "traces": [
       "Socrates of Constantinople says his sermons reached readers two ways: some John Chrysostom published himself, and others were taken down in shorthand as he spoke.",
       "Palladius of Helenopolis, a bishop who stood by him, wrote a dialogue on his life and fall, and tells the journey into exile.",
-      "After his deposition John Chrysostom's followers, called Johannites by their opponents, left the church and held their own services in the public baths and elsewhere. They came back, Socrates says, only when Proclus of Constantinople brought John's body home on the twenty-seventh of January, 438. He laid it in the Church of the Apostles.",
-      "Socrates of Constantinople says that on the day John was led into exile some of the Johannites set fire to the church, and the fire spread to the senate-house."
+      "After his deposition John Chrysostom's followers, called Johannites by their opponents, left the church and held their own services in the public baths and elsewhere. They came back, Socrates says, only when Proclus of Constantinople brought John's body home on the twenty-seventh of January, 438. He laid it in the Church of the Apostles."
     ],
     "remembered": [
       "Honored by Palladius of Helenopolis, who defends him throughout his dialogue, and by the crowds who kept watch all night to stop his removal from the church.",
@@ -30,14 +29,8 @@
   },
   "uncertain": [
     "Socrates of Constantinople reports that the sermon over Eutropius, the emperor's chief eunuch, struck some as cruel. In the sermon itself John Chrysostom says he was blamed for taking Eutropius into the sanctuary, and that he described the man's fall to move the people to mercy. Socrates also passes on that John was said to be stern and severe, and that a friend of his youth found him more prone to irritability than to modesty.",
-    "Socrates of Constantinople says Eutropius made Theophilus of Alexandria ordain John by collecting the memorials of charges laid against Theophilus, showing them to him, and bidding him choose between ordaining John and standing trial on those charges.",
     "John Chrysostom ate alone, and Socrates of Constantinople says no one knew why for certain. Palladius of Helenopolis, who knew him, says he drank no wine, had a disordered stomach, and sometimes put off his meals while absorbed in prayer and study. Socrates also says people gave other reasons, and that the habit helped his enemies.",
-    "Socrates of Constantinople says John Chrysostom died in Comana. Palladius of Helenopolis says the soldiers lodged him at a martyr's shrine five or six miles outside the town and that he died there.",
-    "Socrates of Constantinople says Theophilus of Alexandria resolved to unseat John when he heard, falsely, that John had admitted the Egyptian monks to the mysteries, and that his letters condemning the books of Origen hid his real motive, which was revenge on the monks. Socrates also says that at the Oak no mention was made of Origen.",
-    "The charges laid against John at the Oak are known from the synod's own minutes, which Photius, writing more than four centuries later, summarizes in his Library, Codex 59. Photius calls the synod unlawfully summoned and John a holy man. Socrates of Constantinople calls many of the charges ridiculous. Nothing held proves any of them.",
-    "Socrates of Constantinople says the bishops at the Oak deposed John for refusing the summons and gave no other cause. The minutes, as Photius gives them, say the first and second counts were examined and then the forty-five members present voted unanimously to deprive him.",
-    "Socrates of Constantinople says the Oak followed a public sermon of John against women in general, which the people took as aimed at the empress Eudoxia. She complained to the emperor, and the emperor authorized Theophilus of Alexandria to call a synod against John.",
-    "Socrates of Constantinople says that at the second council John answered that the rule used against him was an Arian canon, framed at the council at Antioch against Athanasius, and that the bishops would not listen to his defense."
+    "Socrates of Constantinople says John Chrysostom died in Comana. Palladius of Helenopolis says the soldiers lodged him at a martyr's shrine five or six miles outside the town and that he died there."
   ],
   "sources": {
     "ownWords": [
@@ -260,34 +253,23 @@
         "date": null,
         "language": "English translation",
         "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
-      },
-      {
-        "title": "Library, Codex 59 (the proceedings of the Synod of the Oak)",
-        "author": "Photius",
-        "date": null,
-        "language": "English translation",
-        "file": "cic/texts/photius_library-v1_freese1920.txt"
       }
     ]
   },
   "briefReferences": [
-    "Socrates, Church History VI.3, tr. A. C. Zenos: John a native of Antioch.",
+    "Socrates, Church History VI.3, tr. A. C. Zenos: John a native of Antioch in Syria.",
     "Socrates, Church History VI.5, tr. Zenos: Eutropius's law against sanctuary, his fall and flight into the cathedral, trembling under the altar table; John's sermon, which some thought added insult to cruelty.",
     "John Chrysostom, Homily I on Eutropius: John's own account, that he spoke to soften hearts toward Eutropius, the church like a mother hiding her enemy under her cloak.",
     "Sozomen, Church History VIII.2, tr. Hartranft: John's training under Diodore. Socrates, Church History VI.3, tr. Zenos: Diodore's literal sense of Scripture.",
-    "Socrates, Church History VI.2, tr. Zenos: Eutropius making Theophilus of Alexandria ordain John in 398.",
-    "Palladius, Dialogue on the Life of Chrysostom, tr. Herbert Moore: the bishop's spending moved to the hospital.",
+    "Socrates, Church History VI.2, tr. Zenos: the court's choice of John in 398; Eutropius making Theophilus of Alexandria ordain him.",
+    "Palladius, Dialogue on the Life of Chrysostom, tr. Herbert Moore: Palladius bishop of Helenopolis; the bishop's spending moved to the hospital and more hospitals built.",
     "John Chrysostom, Homily 50 on Matthew, tr. George Prevost: honor Christ's body, and do not neglect Him when He is naked.",
     "Homilies on Matthew, Preface to the Oxford Edition, by C. Marriott: the homilies were delivered at Antioch.",
-    "Socrates, Church History VI.5, tr. Zenos: his rebukes of men in office turning the tide against him; Theophilus's grudge over his favorite.",
-    "Socrates, Church History VI.5, tr. Zenos: John's rebukes reaching the Gothic general Gainas, who asked for a church in the city for the Arians, told with Socrates's \"it is said\". Socrates, Church History I.5, tr. Zenos: the Arian teaching that the Son had a beginning.",
-    "Socrates, Church History VI.7 and VI.9, tr. Zenos: the Egyptian monks driven out by Theophilus in a quarrel over whether God has a human form; their coming to John at Constantinople; the false report that reached Theophilus that John had admitted them to the mysteries, and his resolve to unseat John.",
-    "Photius, Library, Codex 59, tr. J. H. Freese: the charges laid against John at the Oak, among them that he sold much valuable church property, reviled the clergy, struck Memnon with his fist and ate gluttonously alone.",
+    "Socrates, Church History VI.5, tr. Zenos: his rebukes of men in office turning the tide against him, the Eutropius sermon making it worse; Theophilus's grudge over his own favorite.",
     "Socrates, Church History VI.15, tr. Zenos: the Oak near Chalcedon in 403, John refusing judges who were his enemies, and his deposition for refusing.",
     "Socrates, Church History VI.15-16, tr. Zenos: the people rising and John's recall.",
-    "Socrates, Church History VI.18, tr. Zenos: the silver statue of Eudoxia beside the cathedral, the games held at it, John's mockery of those who allowed them, and her taking his words as aimed at her; the second council's single ground, that he took back his see after his deposition without an ecclesiastical council's authority; the emperor's decree of exile.",
     "Socrates, Church History VI.18, tr. Zenos: the clash with Eudoxia, the second council that silenced him, the decree of exile in 404.",
-    "Palladius, Dialogue on the Life of Chrysostom, tr. Moore: in 407 soldiers hurrying him toward Pityus; his death on the way, using his customary formula, \"Glory to God for all things\".",
+    "Palladius, Dialogue on the Life of Chrysostom, tr. Moore: in 407 soldiers hurrying him toward Pityus on the Black Sea; his death on the way, using his customary formula, \"Glory to God for all things\".",
     "Socrates, Church History VII.45, tr. Zenos: Proclus carrying John's body back to Constantinople in 438, and by this winning back the followers who had left the church's communion.",
     "World census, Antiochene Exegetical Christianity (Chrysostom-centered): his tradition."
   ],

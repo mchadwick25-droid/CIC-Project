@@ -87,3 +87,7 @@ Written to `Card.pass2.json`, from `priscillian.card.json`; all else word for wo
 - Pelagius files: none exist for this story.
 
 **Validator** (`--skip-quotes`, scratch census copy, deleted): 0 errors for this entry; 4 warnings, none on it.
+
+## Card check applied (2026-11-23)
+
+`Card_Check_About.md` (FIX, one change), applied word for word: briefReferences, Sulpicius entry: "Halm's Latin: the charge of heresy," → "Halm's Latin: his wealth and learning, the charge of heresy,". Its note that the memorandum Latin begins at Pr 4388, not 4389, concerns this file's third-pass section only.
