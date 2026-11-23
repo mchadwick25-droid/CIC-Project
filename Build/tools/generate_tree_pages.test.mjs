@@ -96,7 +96,7 @@ test('the Listen block shows only when the recording matches the page text', () 
   }
 });
 
-test('the Listen block is labelled as the audio brief, with its length from the recording', () => {
+test('the Listen block is labeled as the audio brief, with its length from the recording', () => {
   const m = census.movements.find(x => x.longDescription && !fs.existsSync(path.join(root, `cic-website/data/worlds/${x.id}.json`)));
   const sha = crypto.createHash('sha256').update(m.longDescription, 'utf8').digest('hex');
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'tree-audio-'));

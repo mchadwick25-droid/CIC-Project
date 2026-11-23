@@ -64,7 +64,7 @@ def words_of(text: str) -> list[str]:
 def paragraph_starts(text: str, heard: list[tuple[str, float]]) -> list[float] | None:
     """Seconds at which each paragraph starts, or None when any start can't be placed surely.
 
-    heard is the recognised words in order, each with its start second.
+    heard is the recognized words in order, each with its start second.
     """
     paras = paragraphs(text)
     if len(paras) < 2:
