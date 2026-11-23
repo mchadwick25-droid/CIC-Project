@@ -56,9 +56,9 @@ Every sentence traced to the outline and source sheet, and the key lines were re
    - Cut "At Emerita, he says, his group came in peace and was beaten in the church." (−15). This is one side's account, beyond the heart's list. The harassment by the bishop of Emerita stays.
    - Net 674 + 18 − 17 = 675. Confirm with the scorer.
    *Do not say line for the outline:* "Leaving out what the book to Damasus teaches beyond the ascetic call. Say also: the book gives his creed and curses every heresy, the followers of the Persian teacher Mani above all (Pr 4483-4485, 4565-4567)." Add a matching clause to Story beat 1, which does not carry this item now.
-2. **MINOR — an edict's force understated.** Gratian's rescript ordered heretics "not only to leave churches or cities, but to be driven forth beyond all the territory" (SulpE 11534-11538). "Drove all heretics from the cities" narrows it.
+2. **MINOR — an edict's force understated.** Gratian's rescript ordered heretics "not only to leave churches or cities, but to be driven forth beyond all the territory" (SulpE 11526-11541). "Drove all heretics from the cities" narrows it.
    *Change:* "...that drove all heretics from the cities" → "...that drove all heretics out of the cities and beyond all its lands." (+5 words. If the length forces a choice, make finding 1's change first and keep this one only if the count holds.)
 3. **MINOR — the hook and the refusal at Rome.** The listener hears that he "carried a book to Damasus", and later that "Damasus would not even see him". They may wonder how the book reached him.
    *Change:* "Priscillian went to Rome:" → "Priscillian went to Rome with his book:" (+2; use only if the count allows). Leaving it as it stands is acceptable.
 4. **MINOR — an ambiguous "he" in the last line.** "Among them was the book he had carried to Damasus" follows a sentence whose subject is the scholar.
-   *Change:* "the book he had carried to Damasus" → "the book Priscillian had carried to Damasus" (0 net change if finding 1's "German" cut is made; otherwise +0, a swap of one word).
+   *Change:* "the book he had carried to Damasus" → "the book Priscillian had carried to Damasus" (a one-word swap, no change to the count).
