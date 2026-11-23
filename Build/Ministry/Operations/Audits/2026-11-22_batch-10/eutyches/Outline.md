@@ -94,6 +94,7 @@ Files are in `cic/texts/`; short names (Perry, Leo, Zach, Evag-E, Evag-G, Counci
   - "He recanted at Ephesus" → the minutes of 449 record that he declared himself orthodox and was restored (Perry 24016-24020); the Syriac chronicle calls his petition a recantation (Zach 1308-1310).
   - "Flavian was killed at the council" or "Dioscorus trampled him" → leave out; it is a later charge reported by Evagrius (Evag-E 2823-2825), and the Chalcedon and Dioscorus stories carry it.
   - "About 475, the chronicle says" → the chronicle gives no year; give "about 475" in the narrator's voice and credit the chronicle only for the scene in church (Zach 5248, 5638-5643).
+  - "A judge said the record put false words in Eutyches's mouth" → a bishop who had judged him denied a sentence recorded as his own (Basil's), then said he did not remember (Perry 23858-23877).
 - **Leave out:**
   - Chrysaphius as his godson (editor and a rough Latin scan only).
   - His fate after 451 (only an editor's summary of an untranslated letter).

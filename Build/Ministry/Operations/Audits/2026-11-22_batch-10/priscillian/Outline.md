@@ -117,6 +117,7 @@ File keys and line numbers are those of `Source_Sheet.md` (top of that file). Al
 - "He appealed to escape the bishops" as narrator's fact. Say: Sulpicius says so.
 - "Schepss proved the treatises his." Say: Schepss judged them his.
 - Do not add irony or a moral to his curse on sorcerers or his appeal to the emperor; if told, tell them plainly and let them stand.
+- Leaving out what the book to Damasus teaches beyond the ascetic call. Say also: the book gives his creed and curses every heresy, the followers of the Persian teacher Mani above all (Pr 4483-4485, 4565-4567).
 
 **Leave out:**
 - The "first execution for heresy" claim (see Do not say): editors' views only, and contested. Mark for Mark on the hearts page; the census tradition text states it, and the card can carry the editors' views with their names.

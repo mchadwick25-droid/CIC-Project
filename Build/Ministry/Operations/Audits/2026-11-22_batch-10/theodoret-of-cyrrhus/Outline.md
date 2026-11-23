@@ -150,6 +150,8 @@ Past six names: Theodoret, Nestorius, Cyril, John, Dioscorus and Leo carry the c
 - Not "he went back to Cyrrhus after Chalcedon": "Some doubt hangs over the question" (NP3 3350).
 - Not 'he built baths': he says he 'looked after the public baths'. He built bridges and the conduit (NP3 31507-31511).
 - No year for the order confining him to Cyrrhus, and not 'in 448': no held line dates it. Say 'an order from the emperor then kept him in Cyrrhus'.
+- Not "with no charge and no accuser" as the narrator's fact. Say "he wrote": it is his own complaint in Letter 81, and the acts of 449 name an accuser.
+- Not "Mother of God, the one who gave birth to God" inside his own words. Keep his qualifier: "not because she bore God by nature, but because of the union" (NP3 4733-4734).
 
 **Leave out**
 - The birth-year debate, and the death-year reckonings: to the card.

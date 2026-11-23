@@ -108,6 +108,7 @@ Source lines refer to `Source_Sheet.md`'s file short names (PL30, PL33, CSEL57, 
   - "Augustine debated Pelagius" or "the two men met and argued". Say: Augustine glimpsed him once or twice in Africa, and they never discussed the question (NPNF105 10285-10287).
   - "a younger man" for Caelestius. No held source gives his age. Say: "Caelestius, his follower" (NPNF105 11614; PROSPER 53726).
   - "it had almost persuaded him" with no object. Say, if used: it almost persuaded him that Pelagius did acknowledge the grace in question, before his other books changed his mind (NPNF105 11255).
+  - Do not cut Britain, 429 (Also told 5, What came of them 4): it is in the approved heart, not on the Cut first list.
 - **Leave out:**
   - Marius Mercator's claim that "a Syrian named Rufinus" first taught him (MERC 6998-7008): a hostile origin story no other held source repeats. Card.
   - Jerome's insults, "Scots porridge" and "hound of Albion": held only in an editor's summary, and Jerome does not name the man. Card, as the editor's.

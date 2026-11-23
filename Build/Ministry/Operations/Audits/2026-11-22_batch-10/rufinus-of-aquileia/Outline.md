@@ -108,6 +108,7 @@ Source keys and full verbatim lines: `Source_Sheet.md` in this folder (N203, N20
   - "Chromatius taught him the creed." Say: he received the faith from three clergy, Chromatius among them; the one he calls his teacher in the creed is the third (N203 46566-46575).
   - "The bishop of Rome answered Rufinus." Say: the bishop of Rome wrote to the bishop of Jerusalem, who had asked about him (N203 46149-46152).
   - "He cut Eusebius's tenth book." Say: he left out its praise of bishops and folded its history into the ninth (N203 58776-58783).
+  - "Rufinus was wholly apart from them" next to the emperors or any group other than the bishop of Rome's own. Say: wholly apart from Rome (Anastasius's "us"), so that it cannot be heard as apart from the emperors (N203 46222-46224).
 - **Leave out:**
   - The Bible-translation charge and "Who but you ..." (the `jerome` story's job; barred).
   - The authorship dispute over the Defence (the `pamphilus-of-caesarea` story's job).
