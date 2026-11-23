@@ -95,6 +95,7 @@ function visibleTextAt(m, p) {
 test('the names index lists every entry once by id and points each name at its entry', () => {
   const idx = buildNamesIndex(small, FAMILIES);
   assert.deepEqual(idx.entries, ['a', 'b', 'c']);
+  assert.deepEqual(idx.living, [0]);
   const ephrem = idx.names.filter(([, i]) => i === 1).map(([n, , k]) => `${k}:${n}`).sort();
   assert.deepEqual(ephrem, ['n:saint ephrem', 'o:ephrem the syrian', 'o:mar aphrem']);
   assert.deepEqual(idx.names.map(([n]) => n), [...idx.names.map(([n]) => n)].sort());
@@ -183,6 +184,8 @@ test('the real tree builds inside the budget, every entry is in the names index 
   assert.equal(found.size, DATA.movements.length, 'an entry with no name in the index');
   assert.ok(names.names.some(([n]) => n === 'saint augustine' || n.includes('augustine')));
   assert.equal(names.rivers.length, FAMILIES.length);
+  assert.deepEqual(names.living.map((i) => DATA.movements[i].id), DATA.movements.filter((m) => m.living).map((m) => m.id));
+  assert.ok(names.living.length > 5, 'the census marks some entries as living');
   assert.equal(names.eras.length, DATA.eras.length);
   assert.ok(r.sizes.namesGzipBytes <= BUDGET.namesGzipBytes);
   assert.ok(r.sizes.wordsGzipBytes <= BUDGET.wordsGzipBytes);

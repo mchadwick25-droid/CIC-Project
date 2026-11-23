@@ -17,6 +17,10 @@
   ! Cache-Control
   Cache-Control: public, max-age=0, must-revalidate
 
+/data/search/*
+  ! Cache-Control
+  Cache-Control: public, max-age=0, must-revalidate
+
 /data/edges-detail.json
   ! Cache-Control
   Cache-Control: public, max-age=0, must-revalidate

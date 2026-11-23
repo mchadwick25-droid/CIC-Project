@@ -5,56 +5,19 @@ import { createRequire } from 'node:module';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const { normalize, words } = createRequire(import.meta.url)(path.join(ROOT, 'cft-website', 'search-core.js'));
+const { normalize, words, TEXT_PATHS, visibleText } = createRequire(import.meta.url)(path.join(ROOT, 'cft-website', 'search-core.js'));
 
 export const NAMES_FILE = path.join(ROOT, 'cic-website', 'data', 'search-names.json');
 
 // Measured on census release 52: about 22 KB and 175 to 205 KB compressed. The build fails over these.
 export const BUDGET = { namesGzipBytes: 32 * 1024, wordsGzipBytes: 245 * 1024 };
 
-// Every path here is text a visitor can read on the entry's own card or tree page. "[]" walks a list.
-export const TEXT_PATHS = [
-  'teaser', 'longDescription', 'why', 'floorNote', 'relationsSummary', 'peopleNote',
-  'voices[]', 'legacy',
-  'experienceToday[].text',
-  'documentedStories[].title', 'documentedStories[].teaser', 'documentedStories[].text', 'documentedStories[].caveat',
-  'card.knownFor', 'card.role', 'card.placeNote', 'card.datesNote', 'card.uncertain[]',
-  'card.keyWorks[].title', 'card.keyWorks[].about',
-  'card.legacy.traces[]', 'card.legacy.remembered[]',
-  'card.quotationOriginals[].modern',
-  'council.knownFor', 'council.calledBy', 'council.issue[]', 'council.attended[]', 'council.decided[]',
-  'council.outcome[]', 'council.uncertain[]', 'council.record[].note', 'council.traditions[].note',
-];
+export { TEXT_PATHS, visibleText };
 
-// How a name reached the index: the census's own name, short name, everyday name, other name on a
-// person's card, or a sourced name from the names file.
 export const NAME_KIND = { name: 'n', short: 's', everyday: 'e', other: 'o' };
 export const SOURCED_KIND = {
   'other name': 'o', 'older name': 'l', spelling: 'p', 'name given by opponents': 'x',
 };
-
-function collect(value, parts, out) {
-  if (value == null) return;
-  if (parts.length === 0) {
-    if (typeof value === 'string') out.push(value);
-    return;
-  }
-  const [head, ...rest] = parts;
-  const list = head.endsWith('[]');
-  const key = list ? head.slice(0, -2) : head;
-  const next = value[key];
-  if (next == null) return;
-  if (list) {
-    if (!Array.isArray(next)) return;
-    for (const el of next) collect(el, rest, out);
-  } else collect(next, rest, out);
-}
-
-export function visibleText(entry) {
-  const out = [];
-  for (const p of TEXT_PATHS) collect(entry, p.split('.'), out);
-  return out;
-}
 
 export function extractFamilies(html) {
   const m = /const FAM=(\[[\s\S]*?\n\]);/.exec(html);
@@ -108,7 +71,7 @@ export function buildNamesIndex(data, families, namesFile = { rows: [] }) {
     v: 1,
     eras: data.eras.map((e) => [e.num, e.title, e.academicName || '', e.dates]),
     rivers: families.map((f) => [f.k, f.name, f.common]),
-    entries, names, places,
+    entries, living: movements.flatMap((m, i) => (m.living ? [i] : [])), names, places,
   };
 }
 
