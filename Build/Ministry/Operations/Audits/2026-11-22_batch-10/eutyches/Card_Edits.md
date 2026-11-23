@@ -75,3 +75,20 @@ Starting card `eutyches.card.json` copied to `Card.pass2.json`; every other fiel
 ## Card check applied (2026-11-23)
 
 `Card_Check_About.md` (FIX, one change), applied word for word: `quotationOriginals[3].printed`, `rejected the phrase “two natures,”` → `two natures`.
+
+## Fourth pass: no modern opinion (2026-11-23)
+
+Starting card `eutyches.card.json` copied unchanged to `Card.pass3.json`; every other field word for word. Brief compared with `eutyches.brief.v4.txt` (three sentences changed in paragraphs 8 and 9, plus the cut of the "later writer" sentence).
+
+**uncertain (three entries appended, each a modern judgment credited by name)**
+1. Evagrius's date. New: "Evagrius ended his history in the twelfth year of the emperor Maurice Tiberius ... The year 594 is a modern reckoning, Walford's, the translator's ..." Evidence: Evag-E 12203-12204; Walford's title and running head, Evag-E 214, 12173. Holds no more than that.
+2. Timothy's return. New: the year 475 is Walford's, from his running head; the chronicle gives no year. Evidence: Evag-E 5367; Zach 5248-5249 (Basiliscus ordered Timothy to return; the outline's 5247-5248 is the same sentence, re-read at 5248-5249).
+3. The churches not followers. New: Payne Smith (1860) and J. A. Douglas (1922) as modern judgments. Evidence: Payne Smith 225-228 (the party "not to be confounded with the followers of Eutyches, whom they anathematized by name"); Douglas, The Christian East v3 no1, 3909-3913 ("have never been so to the core", rejecting Chalcedon "cannot be taken as proof of their heresy").
+
+**briefReferences**
+4. `[1]` (Evagrius): old "...their request to wait for their archbishop; the refusing churches called followers of Dioscorus and Eutyches." → new "...their request to wait for their archbishop." Evidence: the brief no longer says it; Evag-E 6794-6797 is the monks of Palestine's letter, which holds only that the "genuine followers of Dioscorus and Eutyches were reduced to a very small number", not a label for the refusing churches.
+5. `[8]` (Zachariah): "Timothy Aelurus recalled from exile, and the people's demand" → "Timothy Aelurus recalled from exile, his letters against those who hold the opinions of Eutyches, and the people's demand". Evidence: brief, "did not count themselves his followers"; Zach 4093-4097; 5638-5643 (the curse and the suspicion cleared) already carried.
+
+**Unchanged:** `sources` (every file already listed), `quotationOriginals` (the brief's four quoted spans and their wording are unchanged; the "Eutychians" shout is not quoted).
+
+**Validator** (scratch copy of the census, this card and this brief in place, `--skip-quotes`): no errors for this entry.

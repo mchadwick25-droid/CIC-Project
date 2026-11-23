@@ -30,8 +30,11 @@
     "The later Lives of Ephrem add wonders that the early writers do not tell. They say his father was priest of an idol in Nisibis, and that Ephrem's prayer sent a cloud of gnats against the Persian army. Those stories rest on writers long after him.",
     "Palladius of Helenopolis says he died in his cell a month after the relief ended, while Sozomen says after a few days. Most writers date his death to 373, and some to 378.",
     "Sozomen tells that when men came to carry him off to be a bishop, he ran into the market-place, dragged his clothes and ate in public, until they took him for mad and left. He stayed a deacon all his life.",
-    "Sozomen and Theodoret blame Harmonius, Bardaisan's son, for the sweet tunes. In his own homily Ephrem blames Bardaisan alone.",
-    "The charge that Bardaisan denied the body would rise comes from his opponents, Ephrem and later Epiphanius of Salamis. A modern editor of Eusebius writes that Bardaisan \"seems\" to have denied the proper resurrection of the body, while Hort, whom he cites, held that Bardaisan kept the common faith except on isolated points. The one held work of his school, the Book of the Laws of Countries, is on fate and free will."
+    "Sozomen and Theodoret blame Harmonius, Bardaisan's son, for the sweet tunes. Modern judgment, John Gwynn: he reads Ephrem's Homily 53, known only from the extract he prints, as blaming Bardaisan alone (Gwynn, Nicene and Post-Nicene Fathers, series 2, vol. 13, introductory essay). The held lines of the homily do not name Bardaisan. C. W. Mitchell notes that Ephrem's Hymn 55 against Heresies gives the songs to Bardaisan's \"sons\".",
+    "The charge that Bardaisan denied the body would rise comes from his opponents, Ephrem and later Epiphanius of Salamis. A modern editor of Eusebius writes that Bardaisan \"seems\" to have denied the proper resurrection of the body, while Hort, whom he cites, held that Bardaisan kept the common faith except on isolated points. The one held work of his school, the Book of the Laws of Countries, is on fate and free will.",
+    "Modern judgment: no old source gives the famine a year. Modern dating puts it about 372 and his death in 373, from the Chronicle of Edessa's year 684 (Cowper, translator) by Assemani's era reckoning. Sozomen places the famine shortly before his death.",
+    "Modern judgment, A. von Le Coq: he identifies a confession-prayer found at Tun-huang as Manichaean (Journal of the Royal Asiatic Society, 1911). Its English names two Roots, Bright and Dark, mixed and to be parted again. The held lines do not name Mani.",
+    "Modern judgment, Addai Scher, editor of Barhadbeshabba: he dates the author about 600 and has him study at Nisibis under Hnana of Adiabene. The work itself gives no year."
   ],
   "sources": {
     "ownWords": [
@@ -155,26 +158,38 @@
         "date": null,
         "language": "English translation",
         "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml"
+      },
+      {
+        "title": "Cause of the Foundation of the Schools",
+        "author": "Barhadbeshabba 'Arbaya",
+        "date": null,
+        "language": "French translation",
+        "file": "cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt"
+      },
+      {
+        "title": "The Chronicle of Edessa",
+        "author": "Anonymous",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/chronicle-of-edessa_cowper.txt"
       }
     ]
   },
   "briefReferences": [
-    "Sozomen, Church History III.16, tr. Chester D. Hartranft: the famine shortly before Ephrem's death, around 372; Ephrem a native of Nisibis or its countryside.",
+    "Sozomen, Church History III.16, tr. Chester D. Hartranft: the famine shortly before Ephrem's death; Ephrem a native of Nisibis or its countryside.",
     "Theodoret, Church History II.26, tr. Blomfield Jackson: Nisibis on the border between Persia and Rome.",
     "Theodoret, Church History IV.26, tr. Jackson: Ephrem writing in the Syrian language.",
     "Palladius, Lausiac History 40, tr. W. K. Lowther Clarke: Ephrem a deacon of Edessa; the famine, the rich, the exchange, in modern English, \"See, on your behalf I appoint myself to take in and care for the needy.\"; the year of relief; his death in his cell a month after.",
     "Ephrem, Prose Refutations of Mani, Marcion and Bardaisan, tr. C. W. Mitchell: his prose against the three.",
     "Ephrem, Prose Refutations of Mani, Marcion and Bardaisan, tr. C. W. Mitchell: Mani's two Roots, Light and Darkness, mixed; Darkness framing the body as a prison for the soul, in Ephrem's telling.",
-    "Khuastuanift, a Manichaean confession-prayer from Central Asia, tr. A. von Le Coq: the two Roots, Bright and Dark, mixed and to be parted again.",
     "Ephrem, Prose Refutations of Mani, Marcion and Bardaisan, tr. Mitchell: Marcion's second God, the Stranger above the Maker, who came down to lift souls out, as Ephrem tells it.",
     "Ephrem, Nisibene Hymn 51, tr. John Gwynn: Ephrem's charge that a book of Bardaisan denied the body would rise; the body not raised as reproach to God's grace and slander of his justice.",
     "Sozomen, Church History III.16, tr. Hartranft: Harmonius, son of Bardaisan, and Greek ideas of soul and body; Ephrem's fear, the meters, the hymns of church teaching, and the Syrians singing his songs.",
-    "Ephrem, Homily 53, Against Heretics, in the extract printed by Gwynn: he blames Bardaisan himself.",
     "Sozomen, Church History III.16, tr. Hartranft: his works put into Greek in his lifetime; Basil's admiration.",
     "Jerome, Lives of Illustrious Men 115, tr. Ernest Cushing Richardson: his writings read aloud in some churches after the Scriptures.",
     "Jerome, Lives of Illustrious Men 115, tr. Richardson: Ephrem a deacon of the church at Edessa, who composed many works in the Syriac language.",
     "Theodoret, Church History IV.26, tr. Jackson: his hymns at the festivals of the martyrs.",
-    "Barhadbeshabba, Cause of the Foundation of the Schools, ed. and tr. Addai Scher (French): Ephrem's school at Edessa, its growth under his disciples, Narsai's school at Nisibis, and the schools that spread in Persia. He wrote around 600.",
+    "Barhadbeshabba, Cause of the Foundation of the Schools, ed. and tr. Addai Scher (French): Ephrem's school at Edessa, its growth under his disciples, Narsai's school at Nisibis, and the schools multiplying in the Persian empire.",
     "World census, Syriac Christianity (Edessa/Nisibis): his tradition."
   ],
   "quotationOriginals": [
