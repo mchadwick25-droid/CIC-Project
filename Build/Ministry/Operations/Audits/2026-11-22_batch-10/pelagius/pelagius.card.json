@@ -51,7 +51,7 @@
     "Marius Mercator, writing against the teaching of Caelestius, says that a Syrian named Rufinus first brought the teaching to Rome in the time of Pope Anastasius and misled Pelagius, a British monk, into it. No other source held here says so.",
     "Jerome's Commentary on Jeremiah is not held here. W. H. Fremantle's English summary of it has Jerome say that the devil \"now barks through the hound of Albion (Pelagius), who is like a mountain of fat\". The name in brackets is Fremantle's; Jerome's words as summarized do not name him.",
     "After Zosimus condemned him, B. B. Warfield says, eighteen Italian bishops, with Julian of Eclanum at their head, refused to sign Zosimus's paper and were deposed, though several later recanted and were restored.",
-    "B. B. Warfield, a modern editor, says that Pelagius and Caelestius fled Alaric's second raid on Rome and landed together in Africa in 411, and that Pelagius soon afterwards departed for Palestine. This is his judgment. Augustine, whom he draws on, says only that Pelagius reached Africa and hurried away across the sea.",
+    "B. B. Warfield, a modern editor, says that Pelagius and Caelestius fled Alaric's second raid on Rome and landed together in Africa in 411, and that Pelagius soon afterwards departed for Palestine. The flight, the landing together and the voyage to Palestine are his judgment. Augustine, whom he draws on, says he glimpsed Pelagius in Africa while preparing for the conference with the Donatists, and that Pelagius hurried away across the sea. The conference's own record dates it to 1 June 411.",
     "The Maurist editors, in a note on Augustine's Letter 188 in Migne PL 33, date the letter to the end of 417 or the start of 418. The print of the note is damaged. The letter itself carries no date.",
     "The editor of Augustine's Retractations in the English edition says the books On the Grace of Christ and On Original Sin belong to 418. Augustine himself says only that he wrote them after Innocent, and then Zosimus, condemned the Pelagian heresy.",
     "The English editor of John Cassian's works dates his book On the Incarnation of the Lord, Against Nestorius, to about 430. Cassian's text gives no year."
@@ -193,6 +193,13 @@
         "date": null,
         "language": "English translation",
         "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml"
+      },
+      {
+        "title": "Acts of the Conference of Carthage with the Donatists (Gesta Collationis Carthaginiensis), opening date line, in Migne, Patrologia Latina 43",
+        "author": "The conference of Carthage, 411",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/augustine_scripta-contra-donatistas-opera-omnia-t9-lat_migne-pl43.txt"
       }
     ]
   },
