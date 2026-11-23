@@ -19,4 +19,4 @@ Backup of the reviewed brief: `ulfila.brief.v1.txt` (not edited). Live file: `ul
 
 - Essence complete at word 198, "when he took it."
 - 674 words by the scorer, 4:30 at 150 a minute (approved at most 675).
-- Scorer: `673`→`674 words, grade 9.0 (names out 7.7), reading ease names out 70.5, 17.3 words a sentence, longest sentence 29 words - pass`.
+- Scorer: `674 words, grade 9.0 (names out 7.7), reading ease names out 70.5, 17.3 words a sentence, longest sentence 29 words - pass`.
