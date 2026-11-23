@@ -95,3 +95,5 @@
   "new": "the quarrel among the other side"
  }
 ]
+
+Validator (node tools/validate-census.mjs --skip-quotes, scratch census with this card and brief): 0 errors for priscillian (629 movements, 4 warnings, none for this entry).

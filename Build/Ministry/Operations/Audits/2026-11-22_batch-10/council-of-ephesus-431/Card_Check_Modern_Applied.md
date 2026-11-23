@@ -50,3 +50,5 @@
   "new": "Count John's own report to the emperor, in Latin (Mansi, tomus 4), and Hefele's English of it: the emperor's letter"
  }
 ]
+
+Validator (node tools/validate-census.mjs --skip-quotes, scratch census): 0 errors, 4 warnings (none for council-of-ephesus-431).

@@ -40,3 +40,5 @@
   "new": "(entry removed)"
  }
 ]
+
+Validator (node tools/validate-census.mjs --skip-quotes, scratch copy): 0 errors for rufinus-of-aquileia (629 movements, 4 unrelated shortName warnings).

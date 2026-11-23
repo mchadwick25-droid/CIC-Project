@@ -63,3 +63,5 @@
   }
  }
 ]
+
+Validator (`node tools/validate-census.mjs --skip-quotes` on scratch census with this card and the brief): 0 errors, 4 warnings (none for john-cassian).
