@@ -59,7 +59,9 @@
     "In his Apology to Anastasius, Rufinus says: \"I am not a defender or a champion of Origen\".",
     "Anastasius's letter about Rufinus answers John of Jerusalem, who had asked his advice about him.",
     "Rufinus says the brethren were constantly adjuring him to translate On First Principles, and that he yielded to Macarius. Fremantle says Urseius and Macarius asked him to translate various Greek books, among them that one.",
-    "Rufinus, in the preface to Origen on Numbers, says he had joined Pinianus and his company in their flight, for the delight of their chaste conversation. Fremantle says the party was starting out by way of Sicily and Africa and that Rufinus joined their religious company."
+    "Rufinus, in the preface to Origen on Numbers, says he had joined Pinianus and his company in their flight, for the delight of their chaste conversation. Fremantle says the party was starting out by way of Sicily and Africa and that Rufinus joined their religious company.",
+    "Whether Origen taught what his accusers charge is disputed. Epiphanius of Salamis, in a letter Jerome put into Latin, charged that souls had sinned in heaven before birth, that the devil would be restored, and that this flesh would not rise. Jerome, in a letter his editors date to 409 or 410, says that in the Greek Origen ranked the Son below the Father and the Spirit below the Son. Rufinus says heretics falsified Origen's books.",
+    "A note in the translation of Jerome's Letter 124 says that another of Jerome's charges there, that Origen said Christ was made God's Son, not born, is not borne out by the existing fragments of First Principles. The brief does not use that charge."
   ],
   "sources": {
     "ownWords": [
@@ -168,25 +170,33 @@
         "date": null,
         "language": "English",
         "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Letter 124, to Avitus",
+        "author": "Jerome of Strido",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf206_jerome-principal-works.xml"
       }
     ]
   },
   "briefReferences": [
     "Jerome, Letter 3, to Rufinus the Monk, written from Antioch in 374 by the editors' heading: he has heard that Rufinus is going through the remotest parts of Egypt visiting the monks, and sends the letter in the hope that it will bring him to Jerome. The brief quotes the last line on friendship.",
-    "W. H. Fremantle, Prolegomena on Rufinus: Rufinus and Jerome close friends in youth, part of a society of young ascetics at Aquileia; estranged over Origen in Palestine and reconciled before Rufinus left; the preface to On First Principles meant to show Jerome as his forerunner; Jerome's Apology closed the controversy, Rufinus not replying and Jerome not relenting; Origen's works known through his translations; his Numbers translation his last work, and his death soon after in Sicily.",
-    "Rufinus, Apology to Apronianus I.4: living in a monastery, baptized about thirty years before.",
+    "W. H. Fremantle, Prolegomena on Rufinus: Rufinus and Jerome close friends in youth; estranged over Origen in Palestine and reconciled before Rufinus left; the preface to On First Principles meant to show Jerome as his forerunner; Jerome's Apology closed the controversy, Rufinus not replying and Jerome not relenting; Origen's works known through his translations; his Numbers translation his last work, and his death soon after in Sicily.",
     "Rufinus, Apology to Apronianus II: six years in Egypt and again, after an interval, two more, among the desert monks.",
-    "Rufinus, Apology to Anastasius: persecuted by the heretics while at Alexandria, he underwent imprisonment and exile; home to his family after nearly thirty years away; he cut not a few passages he suspected Origen had not written; he is no defender or champion of Origen.",
-    "Palladius, Lausiac History 46: Melania founded a monastery in Jerusalem and was in charge of a convent, with Rufinus living beside her.",
+    "Rufinus, Apology to Anastasius: persecuted by the heretics while at Alexandria, he underwent imprisonment and exile; home to his family after nearly thirty years away; he cut not a few passages he suspected Origen had not written; he is no defender or champion of Origen; he believes it will be this very flesh that rises, and that the devil and his angels will receive the eternal fire.",
     "Rufinus, preface to On First Principles, to Macarius, in two English prints: the unnamed friend who translated Origen's homilies before him and pared away what jarred with the faith; the short treatise showing heretics had falsified Origen's books; the method for the passages on the Trinity. The Latin is not held.",
     "Jerome, Letter 81, to Rufinus (399 by Fremantle): he recognizes the preface as Rufinus's and says it was aimed at him.",
-    "Jerome, Apology against Rufinus I.6 and I.7, to Pammachius and Marcella (402 by Fremantle): the friends at Rome writing that the books were falsely translated; the comparison of the Latin with the Greek; the charge that the change on the Trinity would leave the reader unwarned of the rest; his own literal translation. The Latin of I.7 is in Migne.",
-    "Anastasius, bishop of Rome, letter to John of Jerusalem about Rufinus (401 by Fremantle): the emperors' decree against reading Origen; Rufinus to bring his conscience to the bar of the divine majesty; Rufinus wholly apart from Rome, whose place of living Anastasius neither knows nor wishes to know.",
-    "Rufinus, preface to the Church History, Books 10 and 11, in Latin, and Fremantle's English: Chromatius's request as Alaric and his Goths broke into Italy, the hope that listeners would forget their sufferings to some extent, and the two books added.",
+    "Jerome, Apology against Rufinus I.6 and I.7, to Pammachius and Marcella (402 by Fremantle): the friends at Rome writing that the books were falsely translated; the charge that the change on the Trinity would leave the reader unwarned of the rest; his own literal translation. The Latin of I.7 is in Migne.",
+    "Anastasius, bishop of Rome, letter to John of Jerusalem about Rufinus (401 by Fremantle): Anastasius's view that Origen's object was to disintegrate the faith of the apostles; the emperors' decree against reading Origen; Rufinus to bring his conscience to the bar of the divine majesty; Rufinus wholly apart from Rome, whose place of living Anastasius neither knows nor wishes to know.",
+    "Rufinus, preface to the Church History, Books 10 and 11, in Latin, and Fremantle's English: Chromatius's request as the Goths broke into Italy, the hope that listeners would forget their sufferings to some extent, and the two books added.",
     "Socrates of Constantinople, Church History II.1: his first two books followed Rufinus; after reading Athanasius he judged more credit due to him who had suffered and to eyewitnesses, and revised them.",
     "A. C. McGiffert, Prolegomena to Eusebius: the version of Rufinus had a large circulation and became in the Western Church a substitute for the original throughout the Middle Ages.",
     "Introductory Note to the Works of Origen, Ante-Nicene Fathers vol. 4: On First Principles comes to us chiefly in Rufinus's Latin; the few Greek fragments show him altering many of Origen's expressions.",
     "Rufinus, preface to Origen's Homilies on Numbers, in Latin (Baehrens) and Fremantle's English: the Barbarian within sight, Rhegium on fire, the narrow sea between Italy and Sicily, work on quiet nights as a solace from their troubles, only the comments on Deuteronomy wanting, to be added if God restores his eyesight. Fremantle dates it 410 from the burning of Rhegium.",
+    "Socrates of Constantinople, Church History IV.24: the emperor Valens's edict that the orthodox be persecuted in Alexandria and the rest of Egypt, and the assault on the monks there; Rufinus declares he was a witness and one of the sufferers.",
+    "Epiphanius of Salamis, Letter 51, 4 and 5, in Jerome's Latin: the charges that Origen taught that souls were once angels who sinned in heaven and were confined in bodies as a penalty, that the devil will return to his former dignity in the kingdom of heaven, and that he denies the resurrection of this flesh; his prayer that God free Rufinus from the heresy of Origen. Fremantle, introduction to the Apology to Apronianus: in the disputes over Origen Jerome sided with Epiphanius and Rufinus with John of Jerusalem.",
+    "Jerome, Letter 124, to Avitus, 2, dated 409 or 410 by the editors' heading: Origen places the Son second to the Father and the Holy Spirit third, and calls the Son inferior to the Father and the Spirit inferior to the Son.",
     "World census, The Church of Aquileia: his home tradition."
   ],
   "quotationOriginals": [

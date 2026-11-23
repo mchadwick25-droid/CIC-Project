@@ -51,7 +51,10 @@
     "In the creed Auxentius keeps, the Holy Spirit is neither God nor Lord but the faithful minister of Christ, not equal to the Son but subject and obedient to him in all things.",
     "Auxentius calls the city where Ulfila died Constantinople, or rather Christianople, and says his fellow bishops honored him there in a great crowd of Christians.",
     "Socrates names a bishop of the Goths, Selenas, a Goth by his father's side and a Phrygian by his mother's. His translator, Zenos, notes that Sozomen makes him Ulfila's secretary and successor.",
-    "Philostorgius says the emperor settled the Goths Ulfila brought over in different parts of Moesia, as he thought best, and held Ulfila in such honor that he often spoke of him as the Moses of his day."
+    "Philostorgius says the emperor settled the Goths Ulfila brought over in different parts of Moesia, as he thought best, and held Ulfila in such honor that he often spoke of him as the Moses of his day.",
+    "Sozomen says about fifty bishops met at Constantinople, Ulfila among them, and confirmed the formulary of Ariminum, adding that the terms substance and hypostasis should never again be used of God. He gives the reign of Constantius, not the year; 360 is the usual date.",
+    "Philostorgius says the Christian captives carried off from Cappadocia by Gothic raiders, among them Ulfila's forebears, brought a great number of Goths to the faith.",
+    "Auxentius says the emperor ordered Ulfila to Constantinople once forty years were complete, counting seven years among the Goths and thirty-three on Roman soil."
   ],
   "sources": {
     "ownWords": [
@@ -87,7 +90,7 @@
         "file": "cic/texts/philostorgius_ecclesiastical-history_walford1855.txt"
       },
       {
-        "title": "Church History, Book 2, chapter 41; Book 4, chapter 33 (Socrates); Book 4, chapter 24; Book 6, chapter 37; Book 7, chapter 17 (Sozomen)",
+        "title": "Church History, Book 1, chapter 5; Book 2, chapter 41; Book 4, chapter 33 (Socrates); Book 4, chapter 24; Book 6, chapter 37; Book 7, chapter 17 (Sozomen)",
         "author": "Socrates of Constantinople; Sozomen",
         "date": null,
         "language": "English translation",
@@ -101,7 +104,7 @@
         "file": "cic/texts/duchesne_histoire-ancienne-de-leglise-tome2-fra_3e-ed1907.txt"
       },
       {
-        "title": "Church History, Book 4, chapter 33",
+        "title": "Church History, Book 1, chapter 4; Book 4, chapter 33",
         "author": "Theodoret of Cyrrhus",
         "date": null,
         "language": "English translation",
@@ -117,16 +120,17 @@
     ]
   },
   "briefReferences": [
-    "Auxentius of Durostorum, Letter on the Faith, Life and Death of Ulfila, in Maximinus's book, ed. Friedrich Kauffmann, sections 55-63: his pupil's account, on which nearly all of the life rests. Made bishop at thirty, seven years among the Goths, the persecution by a godless judge of the Goths and the martyrs, the crossing under Constantius told as a new Exodus, the forty years, the order to Constantinople, his sudden illness and death.",
+    "Auxentius of Durostorum, Letter on the Faith, Life and Death of Ulfila, in Maximinus's book, ed. Friedrich Kauffmann, sections 55-63: his pupil's account, on which nearly all of the life rests. Made bishop at thirty, seven years among the Goths, the persecution of the Goths and the martyrs, the crossing under Constantius told as a new Exodus, the emperor's order to Constantinople for a debate, to stop his opponents teaching in his churches, his sudden illness and death.",
     "Auxentius, sections 42-48: what he taught. The Father alone unbegotten and the one true God; the Son God and maker of all creation, with the Father as his God, and like the Father according to the Scriptures; Nicaea's profession spurned as a devilish invention.",
     "Auxentius, section 63: the creed he left in writing by testament. The Father alone unbegotten; the Son subject and obedient in all things to his God the Father; that he had always believed so and in this faith made his crossing to his Lord.",
     "Friedrich Kauffmann, introduction to Auxentius: the years, worked from Auxentius's numbers, with the death at Constantinople about 383.",
-    "Philostorgius, Church History 2.5, in the summary of Photius, tr. Edward Walford: forebears who were Christian captives from Cappadocia carried off by Gothic raiders, who won many Goths to the faith; made bishop on a Gothic embassy to the emperor's court, by Eusebius and the other bishops with him; the letters; all of Scripture put into Gothic except the Books of Kings.",
+    "Philostorgius, Church History 2.5, in the summary of Photius, tr. Edward Walford: made bishop at the emperor's court, by Eusebius and other bishops; the letters; all of Scripture put into Gothic except the Books of Kings.",
     "Louis Duchesne, Histoire ancienne de l'Église, volume 2: Eusebius of Nicomedia as the bishop who made him bishop.",
     "Wilhelm Streitberg, Die gotische Bibel, volume 1, introduction: no doubt that the Gothic fragments are the remains of Ulfila's translation.",
-    "Socrates, Church History 2.41: the creed of Constantinople, banning the word substance for God; Ulfila gave his assent, having held the faith of Nicaea before. Church History 4.33: the Goths' Arian faith put down to the emperor Valens; Ulfila's teaching among the people of Athanaric, who punished the Christians so that many died as martyrs.",
-    "Sozomen, Church History 4.24: Ulfila among about fifty bishops at Constantinople who confirmed the creed of Ariminum and banned the terms substance and hypostasis; 360 is the usual date, and Sozomen gives the reign, not the year. Church History 6.37: he signed from thoughtlessness, changed sides years later under Valens on the Goths' embassy, under pressure or perhaps from conviction, and was the reason the barbarians on the Danube followed Arius.",
-    "Theodoret, Church History 4.33: under Valens a bishop of the emperor's party, Eudoxius, won him over with eloquence and bribes."
+    "Socrates, Church History 2.41: the creed of Constantinople, banning the word substance for God because, it says, the holy Scriptures nowhere mention the substance of the Father and the Son; Ulfila gave his assent, having held the faith of Nicaea before. Church History 4.33: the Goths' Arian faith put down to the emperor Valens, whose troops helped the chief Fritigernes in a Gothic civil war, and Fritigernes embraced the emperor's religion in gratitude; Ulfila's teaching among the people of Athanaric, who saw a violation of the privileges of his ancestors' religion and punished the Christians so that many died as martyrs.",
+    "Sozomen, Church History 4.24: Ulfila among the bishops at Constantinople who confirmed the creed of Ariminum and banned the terms substance and hypostasis; 360 is the usual date, and Sozomen gives the reign, not the year. Church History 6.37: he signed from thoughtlessness, changed sides years later under Valens on the Goths' embassy, which asked for land for them, after the leaders of the Arian party promised, it is said, to forward the request if he conformed, under pressure or perhaps from conviction, and was the reason the barbarians on the Danube followed Arius.",
+    "Theodoret, Church History 4.33: under Valens a bishop of the emperor's party, Eudoxius, won him over with eloquence and bribes.",
+    "Arius, a presbyter, as Socrates reports him (Church History 1.5: if the Father begat the Son, the Son had a beginning of existence) and as he writes in his own letter to Eusebius of Nicomedia, given by Theodoret (Church History 1.4: the Son has a beginning, but God is without beginning). Socrates 4.33 and Sozomen 6.37 name the faith of the Goths after him."
   ],
   "quotationOriginals": [
     {

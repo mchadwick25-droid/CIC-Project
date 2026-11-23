@@ -38,7 +38,8 @@ Lifted for the job the slate names, one per line in `Allowed_Reuse.txt`: Ulfila'
 6. Card (`<slug>/Card_Prompt.filled.md`, then `Card_Check_Prompt.filled.md`): started 2026-11-23.
 7. Second readings.
 8. Release.
-9. Recording, with Mark's approval in his own words and a credit cap.
+9. Recording, with Mark's approval in his own words and a credit cap: approved (Mark, 2026-11-23, "Approve recording, cap 24,000 credits"). The Priscillian sample was recorded (`recording/`, 1,978 credits); on hearing it Mark found the brief says he was accused but not of what. Recording is held.
+10. The "what it was about" pass (Mark, 2026-11-23: "fix the batch 10 files now and get them right before recording"), under the kit's new rule ("Explain it or leave it out", Decision-Log 2026-11-23). Each story's leads from two blind reads are in `<slug>/Gaps.md`. Per story, each by a fresh hand on Opus (`About-Pass/`): the researcher adds **What it was about** and **Room for it** to `Outline.md`; a checker writes `About_Check.md`; the writer makes targeted changes (`<slug>.brief.v3.txt` is the brief before, `Writer_About_Reply.md` the changes); a fresh read writes `Fresh_Read_About.md`. Lengths: persons 675 words at most, the council 585; Chrysostom and Ephrem, approved before the kit, up to 450 only to make room. Then the cards, release and recording again, Priscillian re-recorded.
 
 ## Open items
 - For Open-Gaps at release: the `aksumite-christianity-conversion-era` card's "shipwrecked" and "tutor" are not in Rufinus (Frumentius outline); Theodoret's card says the Religious History is not held, but it is, in Greek (PG 82).

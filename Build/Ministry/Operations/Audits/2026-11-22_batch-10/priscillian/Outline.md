@@ -118,6 +118,7 @@ File keys and line numbers are those of `Source_Sheet.md` (top of that file). Al
 - "Schepss proved the treatises his." Say: Schepss judged them his.
 - Do not add irony or a moral to his curse on sorcerers or his appeal to the emperor; if told, tell them plainly and let them stand.
 - Leaving out what the book to Damasus teaches beyond the ascetic call. Say also: the book gives his creed and curses every heresy, the followers of the Persian teacher Mani above all (Pr 4483-4485, 4565-4567).
+- "The council at Saragossa banned Sunday fasting" as fact. Say: a modern historian thinks it did (Hef2 17955-18020).
 
 **Leave out:**
 - The "first execution for heresy" claim (see Do not say): editors' views only, and contested. Mark for Mark on the hearts page; the census tradition text states it, and the card can carry the editors' views with their names.
@@ -137,3 +138,31 @@ File keys and line numbers are those of `Source_Sheet.md` (top of that file). Al
 4. Words to explain: the gloss of "ascetic"; the story says "a strict, self-denying life" in plain words wherever it needs the idea, and does not name the term. To Leave out. Saves 8.
 
 Count before the list: 721 (713, plus 8 for the Gnostics gloss). The list saves 47. Count after: 674, under the approved 675.
+
+**What it was about** (file keys as in `Source_Sheet.md`; all under `cic/texts/`)
+1. **The charge (essence: "Other bishops accused him").** Explain. Of heresy: the Gnostic heresy in Sulpicius's name for it; in Priscillian's account, Manichaeism (item 5). Witness: Sulpicius, hostile (SulpE 11449-11453, 11504-11508); Priscillian (Pr 4636-4638). Documented, as each side says it.
+2. **The book to Damasus.** Explain. A defence: he came to Rome so his silence would not be taken for guilt, to clear his name; it gives his call, his creed and his curse on Mani. Witness: Priscillian (Pr 4672-4676); Sulpicius, "the wish of clearing themselves" (SulpE 11561-11563). Documented, attribution Schepss's.
+3. **"The heresy of the Gnostics."** Already explained, as far as Sulpicius goes: the gloss "a heresy of secret knowledge" stands; Sulpicius gives no teaching, only that it hid under secret rites (SulpE 11455-11458). What was taught, by his enemies' account, comes at items 8 and 9. Documented as Sulpicius's label.
+4. **Saragossa's condemnation.** Explain. Sulpicius says it condemned them in absence as heretics, naming no charge; Priscillian says no charge was laid against his group's name, aim or life, and that the rules for living the council issued censured none of them. Witness: Sulpicius (SulpE 11502-11508); Priscillian (Pr 4382-4391). Contested. Clause in the brief: "Bishops met at Saragossa, where, a modern historian thinks, they banned Sunday fasting and barred women from private meetings." A modern historian, Hefele, supposes that eight canons of a Saragossa synod of 380 belong to this council, among them that no one fast on Sunday and that women avoid private gatherings; credit it as his view, by role (Hef2 17955-18020). Dominant Modern Reconstruction as Hefele's supposition; Contested as fact. Card: Hydatius's memorandum (Pr 4389-4391) and the eight canons Hefele assigns to this synod by supposition (Hef2 17955-17958, 18003-18020, Dominant Modern Reconstruction at most).
+5. **The emperor's order against "all heretics."** Explain. His enemies, Priscillian wrote, asked for it against false bishops and Manichaeans, names, he says, that no one could hear without hating them. Witness: Priscillian, one side's account (Pr 4636-4638, 4655-4656); Sulpicius, "all heretics" (SulpE 11530-11534). Documented that he says it.
+6. **Ithacius's accusation at Trier and the trial.** Already explained: sorcery, with the court's findings (obscene teachings, night meetings of women, praying naked), credited to the court. Witness: Sulpicius (SulpL 5913-5917). Documented, as the court found it.
+7. **The bishops' quarrel and Ithacius's fall.** Explain. Ithacius was attacked over the prosecution he had defended as lawful in the courts, and was the only accuser put out of his see. Witness: Sulpicius (SulpE 11714-11719; SulpL 5964-5968). Documented as Sulpicius's account. Beyond the prosecution and the deaths, Sulpicius gives no other cause for the fifteen years' discord among his own side (SulpL 6003-6005); the brief says no more.
+8. **Leo's letter, "this unholy folly."** Explain. Leo charged that the heresy put faith and conduct under the power of demons and stars, fate fixed by the stars, each limb under a zodiac sign. Witness: Leo, an enemy, credited as his (Leo 3254-3271). Documented as Leo's charge.
+9. **Braga's curses, "teachings it called his."** Explain. Among them, that human souls sinned first in heaven and were cast down into bodies for it. Witness: the council at Braga, 561, its attribution (Bruns 2513-2515). Documented as the council's attribution.
+10. **Martin's plea, the appeal at Bordeaux, the Toledo report, the 1885 treatises.** Already explained in the brief (a bishops' sentence was enough; from the bishops to the emperor; clergy calling him a holy martyr; the book to Damasus among them).
+11. **Sulpicius's genealogy from Marcus of Memphis; Orosius's soul teaching.** Leave it out: the genealogy names no teaching; Orosius would add a witness where Braga carries the soul teaching more cheaply. Card.
+
+**Room for it**
+- Count now (`wc -w`): 676, one over the 675 ceiling.
+- Added, 55 words: "to clear his name" (4); "of heresy" (2); "as a heretic" (3); "They asked for it, Priscillian wrote, against false bishops and Mani's followers." (12); "attacked for bringing the case before the courts," (8); "Their teaching, he wrote, put each life under the power of demons and stars." with "and praised" becoming ". He praised" (14); ", among them that souls sinned in heaven and were cast down into bodies" (13).
+- Cut, 56 words, events before meanings:
+  1. "He describes a well-born, gifted speaker who could go without sleep, food and drink, and cared little for money." (19; portrait; the call stays in his own words).
+  2. "Two bishops then made him bishop of Abila." (8; told already in the essence).
+  3. "While Martin was in Trier, the case waited. After he left," becomes "After Martin left," (8).
+  4. ", among them a woman who had sheltered them" (8; "with several companions" stays).
+  5. ", and swore oaths by his name" (6; the martyr's cult stays in the funerals and Toledo).
+  6. "with his book" in "Priscillian went to Rome with his book:" (3; the opening carries the book to Rome).
+  7. "in Britain" (2).
+  8. "no one of his group was accused or condemned there" becomes "no charge was laid against his group there" (2, and it carries item 4).
+  9. In the essence: "put to death by the sword" becomes "put to the sword" (2).
+- Count after: 674 (checked on a scratch copy by `wc -w`). Kept: the opening, all three quotes, the Saragossa scene, the trial's charges, Martin's plea, Leo and the find.

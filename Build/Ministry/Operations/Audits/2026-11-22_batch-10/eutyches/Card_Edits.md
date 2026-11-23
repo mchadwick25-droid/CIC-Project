@@ -45,3 +45,33 @@ None. The checker lists no scan readings.
 **Skipped:** the outline's Leave out items not marked for the card (Chrysaphius as godson, his fate after 451, the second inquiry, Flavian's death, the Coptic legend); the existing card already carries Chrysaphius and the exile, now corrected under change 1. Review.md and Fresh_Read.md send nothing to the card.
 
 **Validator** (scratch census, `--skip-quotes`): two errors for this entry, `secondReading` missing on quotationOriginals[0] and [1] (six words or more; release sets them).
+
+## Third pass: what it was about (2026-11-23)
+
+Starting card `eutyches.card.json` copied to `Card.pass2.json`; every other field word for word. Brief compared with `eutyches.brief.v3.txt`.
+
+**briefReferences (new explanations)**
+1. `[0]` (Perry minutes): added "The notary's deposition has him denying that Christ's flesh shared our nature." Evidence: brief, "his judges recorded that he denied it shared our nature"; Perry 23807-23809.
+2. `[2]` (Eutyches to Leo): "and his claim that he appealed." → "his claim that he appealed, and his claim that the fathers before him had rejected the phrase two natures." Evidence: brief, "the fathers who, he said, had rejected the words "two natures""; Leo 4560.
+3. `[3]` (Flavian to Leo, Letter 22): "the old evil dogmas of Valentinus and Apollinaris revived." → "his judges' account that Eutyches denied Christ's flesh was of the same substance as ours." Evidence: Leo 4744-4746. The old clause named the cut "old heresies" charge.
+4. `[4]` (Tome): added "; one Christ in two natures, each keeping its own character." Evidence: brief; Leo 5301-5302, 5434-5435.
+5. `[6]` (Perry, session of 449): added the sentence the record gave as Basil's (denying two natures after the union meant mixing God and man; Perry 23858-23859), the shout that all who affirm two natures be cursed (Perry 23931-23933), and Flavian deposed, the council ruling that he had altered the faith (Perry 24114-24118, 24146-24148). Evidence: brief paragraphs 7.
+
+**briefReferences (cut events removed)**
+6. `[1]`: "a rhetorician when he first exposed Nestorius, " removed (brief no longer says it); " Theodoret deposed at Ephesus;" removed (brief no longer names him).
+7. `[3]`: the Valentinus and Apollinaris sentence replaced (see 3).
+8. `[8]`: "Nestorius deposed; " removed (brief no longer says he was deposed).
+
+**quotationOriginals**
+9. Appended a fourth entry for the new quoted span "two natures": printed "rejected the phrase “two natures,”", Eutyches to Leo, Letter 21, tr. Feltoe, `cic/texts/npnf212_leo-great-gregory-great.xml` line 4560 (verified verbatim); `secondReading` "checked at card" (two words); no original held. The three existing entries are unchanged (the brief's three quotations are unchanged).
+
+**Skipped**
+- Outline items marked "to the card" (Leo's letter of June 1, 448; Severus; palace soldiers; the emperors' letter; Mongus and the Henotikon; rain or snow; "ignorant old man" and shipwreck; canon 95; Nestorius on suborned accusers): already on the card under `uncertain`, `legacy.traces` and `legacy.remembered`; nothing to add.
+- Fresh read's "gray hairs" to "grey hairs": not applied. The rendering stays "gray hairs" and the printed field keeps Perry's "grey".
+- Outline items 10 (Theodoret) and 5 (reviving old heresies) are left out of the brief; the card's existing claims about Chrysaphius and exile stay.
+
+**Validator** (scratch census, brief set to the current text, `--skip-quotes`): no errors for this entry. The two missing `secondReading` values reported in the second pass were not reported this time.
+
+## Card check applied (2026-11-23)
+
+`Card_Check_About.md` (FIX, one change), applied word for word: `quotationOriginals[3].printed`, `rejected the phrase “two natures,”` → `two natures`.

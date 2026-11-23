@@ -5570,6 +5570,28 @@ Mark: "on the screen lets make the river and tradition who icons consistant, the
 
 **Not done.** No real-phone check.
 
+## 2026-11-23 — Explain it or leave it out: the kit asks what each thing was about (Mark)
+
+**Why.** Mark, hearing the batch 10 Priscillian sample: the brief says he was accused but not of what, and that he wrote a book but not about what; "this vague saying what happened and not why is the deep problem." Two blind reads confirmed it: of 24 live briefs sampled from batches 2 to 9, 9 are clear, 13 have some gaps and 2 many; of batch 10's twelve, 2 are clear, 8 have some gaps and 2 many (`Build/Ministry/Operations/Audits/2026-11-22_batch-10/What_And_Why_Scan_Earlier.md` and `What_And_Why_Scan.md`). The gap runs through every batch and follows the shape: teachers come out clear, while bishops, martyrs, founders and reformers lose the content of the charges and quarrels around them. The kit said "Tell what was at stake", but no step checked it; the test's "why" meant why the person is on the tree; the hostile-witness rule led writers to drop an enemy's charge rather than credit it; and cut-first lists dropped explanations before events. The page: https://claude.ai/artifact/TrET3GcNQ2989duGSvEEzQ (version 1).
+
+**Decided (Mark, 2026-11-23, in chat: "a").** Option A, "explain it or leave it out":
+1. Kit Part 1: the test adds "what it was about"; the stake line becomes "Explain it or leave it out. Every charge, teaching, book, quarrel or decision the story names says in plain words what it was, and why it mattered to the people in it ... If there is no room to explain it, the story does not name it."; a hostile view's charge "is given in its own content ... never dropped because only an enemy says it".
+2. Kit Part 3: each beat gives what each charge, teaching, book, quarrel or decision it names was about, with its source; the length line never cuts that meaning, and cuts an event before its meaning.
+3. Kit Part 4, the bar: a named charge, teaching, book, quarrel or decision without what it was about is missing essential material.
+4. Roles: the researcher's sheet covers what each event was about from each side; the checker blocks a beat or a cut-first list without it; the reviewer and fresh read write four lines and list each such thing named, blocking any a listener could not explain.
+
+It governs batch 11 on. What becomes of the live briefs, batch 10's twelve among them, and their audio, is decided separately; batch 10's recording is held until then.
+
+## 2026-11-23 — The live stories reopened for what each thing was about: scan everything, then a targeted pass (Mark)
+
+**Why.** After "Explain it or leave it out" (2026-11-23), the kit still said a change "never reopens a finished story", while two blind reads found the gap in most live briefs sampled. Mark then showed the Post-Apostolic Household-Church page: its connection notes say Montanism was "found to be heresy", Marcion was thrown out and Valentinus thrown out "for spreading his ideas", none with what was taught. So the gap reaches three kinds of text: the person, council and tradition stories (625 with a `longDescription`), the connection notes (736 edges), and the 12 built-world pages, which come from the world-build records rather than the brief kit. The page: https://claude.ai/artifact/TrET3GcNQ2989duGSvEEzQ (version 2).
+
+**Decided (Mark, 2026-11-23, in chat: "a, scan all three").** A change order to "A change to this kit governs the next batch on; it never reopens a finished story", for this one rule:
+1. Blind readers apply the four-line test to every live story, every connection note and every built-world page, reading only, and list each charge, teaching, book, quarrel or decision named without what it was about. The result is one list, ranked.
+2. Then a targeted pass, story by story: the missing explanation found in held sources, put in by the writer at the same length (an event cut before a meaning), and checked by a fresh reader on the changes, with the quote and source check. Batch 10's twelve first, then the worst, then the rest.
+3. A fix to a built-world page goes through that world's own records and build rules; the scan only reads it.
+
+The audio for fixed stories is decided separately.
 ## 2026-11-23 — Accessibility fixes from an automated scan
 
 Mark, after the scan results: "yes, fix those three".
