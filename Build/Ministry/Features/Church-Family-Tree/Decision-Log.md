@@ -5604,6 +5604,61 @@ Mark, after the scan results: "yes, fix those three".
 
 **Not done.** Nobody has used the site with a real screen reader (VoiceOver, TalkBack, NVDA); the scan cannot judge contrast of text drawn inside the map.
 
+## 2026-11-23 — What-and-why: the bare-statement test, the rank and the scan
+
+Mark, starting this work: "we cant afford to re-record everything, so lets do a catagory ranking (you design a system to evaluate all content for this and quality) then we fix what is not recorded, and then put batches of real problems should be addressed now to passes, not work needed." Then: "yes, but i want the priority so we can fix later as we have 11-labs credits", and "this all should be managed in a new thread and i think we need quality". On the problem: "when it says someone was accoused of something it never says what and these kinds of things"; the first time it was addressed "it didn't carry".
+
+**Found.** The batch 10 thread's two scans (`Build/Ministry/Operations/Audits/2026-11-22_batch-10/What_And_Why_Scan_Earlier.md` and `What_And_Why_Scan.md`, on branch `claude/happy-ritchie-u8wn8l`) and its Tree Fix Triage proposal (https://claude.ai/artifact/QiYrx3VxQWbdrNwevtn1pu, not approved). A count by script of everything a visitor reads or hears: 1,079 recorded pieces whose recording matches today's text (83 person, 4 council and 331 tradition briefs, 477 documented stories, 122 built-world pieces, 62 Stories-layer clips with no saved fingerprint); 35 recordings whose text has changed since (2 person briefs, 6 tradition briefs, 27 documented stories); and the unrecorded rest (175 person, 8 council and 8 tradition briefs, 49 built-world files, 249 cards, 736 connection notes). Listening in the last 30 days: 93 visits, 52 recordings started, none more than 4 times.
+
+**Decided.** Each step in Mark's words on the pages https://claude.ai/artifact/1vpdAiK96JurH78stpx72w, https://claude.ai/artifact/79ZVWi2maiyGuYy72GscEa and https://claude.ai/artifact/GEJTDQQnnX354Y1raGK4ri:
+1. The test, after "the core issue we are looking at is are general statements like he wrote a book or gave a sermon or was arrested and it isn't explained why or what the content is" and "it is about everytime a generality is said without what it was about": a bare statement says something happened and leaves out what it was, why, or both. Every one counts, all the same; readers look for nothing else. "yes, that's the test".
+2. The rank, after "now you can grade how crucial a gap is against the heart of the story to help rank the importance of the change" and "then cost is the next factor": each gap is weighed against the story's heart (3 Crucial, 2 Supporting, 1 Passing); an item is placed by its most crucial gap, then cheapest re-recording first; reach and the count of gaps only break ties. "yes, option 1 but if the fix is free it can jump ahead of one that has cost if we don't have lab-11 credits": two queues, the free queue (no recording) runs now in weight order, the paid queue waits for credits.
+3. The split with the audio completion thread: "option 1". This thread owns the words (scan, rank, text fixes); that thread owns the site and the player. It confirmed by message that it changes no story, card, note or narration text.
+4. The scope: "option 1". Everything listed above; the 35 out-of-date recordings go to the free queue, fixed first; the 62 Stories clips count as recorded.
+5. The scan: "option 1". The paid queue now, two blind readers (Sonnet, in plan) each, spread over the week; an Opus third read where only one reader flags a finding; the free queue read batch by batch just before it is fixed.
+6. Change order, "option 1": whether the sources hold an answer is checked in the fix pass, for each finding, not during the scan. Where they don't, the fix drops the mention.
+
+**Result.** Reader prompt: `Build/Ministry/Operations/Audits/2026-11-23_what-and-why-rank/Reader_Prompt.md`. Pilot on one packet: of 27 pieces read by both readers, A found 17 bare statements and B 16, 13 shared.
+
+**Not done.** The full scan, the ranked list with credit costs, and every fix. The ElevenLabs credit balance is not checked. Before any recorded text is edited, Mark rules on the hidden player (audio question 3 of the batch 10 thread).
+
+## 2026-11-23 — A fixed recorded story goes live as text; its player waits for re-recording
+
+Mark: "option A for the player question". The question was audio question 3 on the batch 10 thread's page https://claude.ai/artifact/TrET3GcNQ2989duGSvEEzQ.
+
+**Decided.** Option A as the page gave it: "Fix the text now, re-record in order. A fixed story goes live as text, and its player disappears until it's re-recorded. Re-recording follows the fix order, a batch at a time under a credit cap you approve each time, with a sample for your ear first. Batch 10 is recorded once its twelve are fixed, within the 24,000 you approved."
+
+**What it changes here.** A recorded piece no longer waits for credits to be fixed. Its text fix goes through the build cycle like any other; the ranked list then orders the re-recording, and until then the piece is text only. The site's existing fingerprint check already hides the stale player (confirmed by the audio completion thread).
+
+## 2026-11-23 — Modern opinion: a separate pass, and where a modern scholar may stand
+
+Mark: "ok we found another problem, that i want to inlcude, some of the briefs and stories are using modern interpritation, we are committed to original sources and things close to the time, not speculation." Then: "more current scholors can be used as sources if they are historical and source bound, but not referenced in the text of the briefs and stories. they if they are needed then they go in the reference list after the story or brief." Then: "yes a seperate modern0opinion pass a."
+
+**Found.** The batch 10 thread logged Mark's ruling "No modern opinion, guess or reconstruction in a story" the same day (its Decision-Log, branch `claude/happy-ritchie-u8wn8l`). A word search of the 1,079 recorded pieces marks 362 sentences in 243 pieces as candidates; it cannot find a modern date or identification given with no writer named.
+
+**Decided.**
+1. A modern scholar may be a source where the work is historical and bound to the old sources, but is never named or referred to in the text of a brief or story. Where a credit is needed it goes in the reference list after the story or brief. A guess, speculation or reconstruction is not told in the story. The batch 10 thread was sent these words, since its kit line sends a modern view "to the card".
+2. A separate modern-opinion pass reads every recorded piece for this alone (`Build/Ministry/Operations/Audits/2026-11-23_what-and-why-rank/Modern_Reader_Prompt.md`), with the word search's sentences marked as a starting point. Each finding is weighed against the heart like a bare statement and joins the same rank. The bare-statement scan is unchanged.
+
+**Added the same day (Mark): "always within the accepted rule of domain, public domain and referencing".** A modern scholar used as a source must sit within the project's existing rights rules (public domain or otherwise cleared, as the Library's rights audits and `Build/worlds/_cross-world/CORPUS-USE.md` already govern) and be referenced the way the project already references sources. The fix pass checks this for every modern source it moves into a reference list; a work that is not cleared is not used, and the point it carried is told from an old source or left out.
+
+## 2026-11-23 — The card carries two reference lists: original sources and modern works
+
+Mark: "the story and brief are the same, the card is deeper, so it can be a part of the references, what i would like is a original list of references that built is and a modern works for for the user to know other places to go". Then, on who builds the modern list: "option 1". The page: https://claude.ai/artifact/MyZnJkmRQi8Aw8SwnTpL9C (version 1).
+
+**Found.** Person and council cards (249) already list the old sources ("their own words", "about them"), each tied to a vendored file, and no modern works. Tradition source lists mark 760 entries primary, 334 secondary and 214 reference, never checked as a reading list.
+
+**Decided.** The story never names a modern scholar. The card holds two lists: Original sources, the old witnesses the story was built from; and Modern works, for a visitor who wants to go further, within the rights and referencing rules. The kit line sending a modern view "to the card" stands. When a fix in this work takes a modern scholar out of a story, that work goes into the card's Modern works list. A full Modern works list for every card is a later job for the source-research thread. Showing the new list on the card is the audio completion thread's (site and player).
+
+## 2026-11-23 — The re-recording order approved
+
+Mark: "option 1", on the page https://claude.ai/artifact/UStZATEaBtT445YAKgNEi6 (version 1).
+
+**Found.** Of 1,079 recorded pieces, 631 hold at least one real problem: 1,247 findings held (790 bare statements, 457 modern opinions in 256 pieces), each flagged by both readers or upheld by an Opus read. By worst weight: 57 Crucial (about 43,000 credits), 218 Supporting (about 168,000), 356 Passing (about 273,000); about 485,000 credits for all, at half a credit per character (Basil: 3,746 characters, 1,871 credits). The list: `Build/Ministry/Operations/Audits/2026-11-23_what-and-why-rank/Ranked_List.csv`.
+
+**Decided.** That list is the re-recording order. The text fixes go ahead now through the build cycle, Crucial first; each fixed piece is text only until its re-recording, a batch at a time under a cap Mark sets, with a sample for his ear.
+
+**Not done.** The ElevenLabs balance is not checked.
 ## 2026-11-23 — Cards and listening redesigned for a visitor getting oriented (Mark)
 
 **Why.** User testing found low completion of the narrated briefs. A card opened with a two-to-four-minute brief playing by itself beside a long open text, visitors read faster than the narrator spoke, and closing the card stopped the brief. Mark restated the problem as engagement: a closed card ends the visit's thread, not only the audio. Options, the outside research and each choice are on the review page (https://claude.ai/artifact/QjMqYxqFnjbtLYWwCpAHNG).
