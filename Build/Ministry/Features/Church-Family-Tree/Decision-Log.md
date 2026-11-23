@@ -5512,3 +5512,15 @@ Mark: "maybe we can put an small arrowhead on them to show which way they the co
 **Result.** Checked in a browser on desktop and an emulated iPhone 13 at several zooms, no page errors; the Church & Empire fan shows chevrons on the argued-against lines, dots on contact lines, a triangle on descent and a diamond on influence.
 
 **Not done.** No real-phone check. Crowding at hubs is open (Open-Gaps, "Line end marks made visible, and an arrowhead on argued-against lines", 2026-11-22).
+
+## 2026-11-23 — People marks made consistent: rivers and traditions
+
+Mark: "on the screen lets make the river and tradition who icons consistant, the river is always the multi people with the number, even if it is 1, and the tradition is always the single profile with a number no circle/button."
+
+**Found.** A river's People mark showed the multi-person icon with a number, except where a river held one person: then it showed a single person in a circle with no number. A tradition's mark showed the multi-person icon with a number where it held two or more people, and a single person with no number where it held one. Rivers and traditions used the same icons in different ways.
+
+**Decided.** A river's mark is always the multi-person icon with the number, even for 1, inside its capsule. A tradition's mark is always the single-person icon with the number, even for 1, with no circle or button around it. This holds at every zoom, on phones as well as computers.
+
+**Result.** Checked in a browser on desktop at three zooms and on an emulated iPhone 13, no page errors. The Stories marks are unchanged.
+
+**Not done.** No real-phone check.
