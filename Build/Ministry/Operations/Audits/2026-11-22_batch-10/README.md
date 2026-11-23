@@ -1,15 +1,15 @@
 # Batch 10: era 2, Antioch to Chalcedon and the edges of the empire
 
-The group: Mark's approval in the batch 8 slate (Decision-Log, "Batch 8: the slate approved", 2026-11-21, item 3), with John Chrysostom and Ephrem the Syrian reviewed under "Change order: the stories approved before the kit go through review in their era's batch" (2026-11-19). Quote rule: "A quote may be used in more than one story where its author influenced more than one tradition or person" (2026-11-21). Kit: `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Kit.md`, as it stands after "Brief kit change for batch 10" (2026-11-22). The slate for Mark: https://claude.ai/artifact/Vko3AEdprCTWnU717L7LFk (version 1).
+The group: Mark's approval in the batch 8 slate (Decision-Log, "Batch 8: the slate approved", 2026-11-21, item 3), with John Chrysostom and Ephrem the Syrian reviewed under "Change order: the stories approved before the kit go through review in their era's batch" (2026-11-19). Quote rule: "A quote may be used in more than one story where its author influenced more than one tradition or person" (2026-11-21). Kit: `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Kit.md`, as it stands after "Brief kit change for batch 10" (2026-11-22). The slate as Mark approved it: https://claude.ai/artifact/Vko3AEdprCTWnU717L7LFk (version 1); Decision-Log, "Batch 10: the slate approved" (2026-11-23).
 
 Every story already has a census entry; none needs a new one. `Overlap_Report_Old_Texts.txt` is the one run of `tools/check_tree_overlap.py` on the twelve old texts (ten clear; Cassian and Priscillian each share a quote that the slate lists as a reuse).
 
-## The twelve, as proposed on the slate
+## The twelve and their jobs (approved)
 
 | Census id | Half | Shape | Siblings and order |
 |---|---|---|---|
 | `council-of-ephesus-431` | A | Council | Live: `nestorius`, `cyril-of-alexandria` (each tells Ephesus from its side). In the batch: `theodoret-of-cyrrhus`, `pelagius` (a clause each way). |
-| `eutyches` | A | Teacher or thinker | `theodoret-of-cyrrhus` (449). Live: `leo-of-rome`, `council-of-chalcedon-451`. Home tradition is item 3 on the slate. |
+| `eutyches` | A | Teacher or thinker | `theodoret-of-cyrrhus` (449). Live: `leo-of-rome`, `council-of-chalcedon-451`. Home kept for now; tested in research. |
 | `theodoret-of-cyrrhus` | A | Teacher or thinker | Researched after the Ephesus and Eutyches outlines. |
 | `pelagius` | A | Teacher or thinker | Links: Ephesus, Cassian. Live: `augustine-of-hippo`, `jerome`. |
 | `john-cassian` | A | Monk or ascetic | Links: Chrysostom, Pelagius, Ephesus. Live: `evagrius-ponticus`, `leo-of-rome`. |
@@ -21,11 +21,14 @@ Every story already has a census entry; none needs a new one. `Overlap_Report_Ol
 | `priscillian` | B | Martyr | Live: `martin-of-tours`. Later: `sulpicius-severus`. |
 | `ephrem-the-syrian` | B | Reviewed | Approved before the kit; joins at review. |
 
-The jobs, the direct lines, the lifted and barred quotes, and the reasons are on the slate page.
+Each story's job line, direct line and siblings as approved are in its `<slug>/Researcher_Prompt.filled.md` header, copied from the slate. Each folder holds `Card.existing.json`, the census `card` (or `council`) field.
+
+## Quotes
+Lifted for the job the slate names, one per line in `Allowed_Reuse.txt`: Ulfila's creed ("alone unbegotten", "subject and obedient in all things", from `arius`); Sulpicius on Priscillian's accusers (`sulpicius-severus`); Gennadius's "brands as injurious" and "which the church of God finds salutary" for Cassian; Socrates's "that more credit was due to him who had suffered" for Rufinus; Cyril's "one incarnate nature of the Word" for Eutyches, only where his own appeal calls on it; Theodoret's History lines in `alexander-of-alexandria` and `ossius-of-cordoba`. Barred: every quote in `nestorius` and `cyril-of-alexandria` for Ephesus; Leo's two "robbery" lines and Chalcedon's text for Eutyches and Theodoret; Rufinus's "Who but you" (`jerome`, Mark kept the bar) and "is said to have written" (`pamphilus-of-caesarea`); Martin's plea at Trier (`martin-of-tours`) for Priscillian; Evagrius's lines for Cassian; editors' verdicts; every quote in Chrysostom's and Ephrem's live texts. Inside the batch, no quote is shared.
 
 ## Steps
-0. Slate: sent to Mark (2026-11-22). Waiting for his ruling.
-1. Research. Then the hearts and lengths go to Mark.
+0. Slate: approved by Mark (2026-11-23).
+1. Research (`<slug>/Researcher_Prompt.filled.md`): eight started 2026-11-23; Theodoret after the Ephesus and Eutyches outlines, Frumentius after Rufinus's. Then the hearts and lengths go to Mark.
 2. Outline check.
 3. Write.
 4. Review, after `tools/check_brief_variety.py` and `tools/check_tree_overlap.py --allow Allowed_Reuse.txt`. Chrysostom and Ephrem join here.
@@ -36,7 +39,7 @@ The jobs, the direct lines, the lifted and barred quotes, and the reasons are on
 9. Recording, with Mark's approval in his own words and a credit cap.
 
 ## Open items
-- The slate's five items await Mark: the twelve and halves, the research order, Eutyches's home tradition, the quotes, and no census change to any direct line.
+- Eutyches's home tradition: the researcher tests the editors' claim against a primary text; it comes back to Mark on the hearts page if it holds.
 
 ## Rulings
-None yet.
+- "Batch 10: the slate approved" (Mark, 2026-11-23: "Approve as recommended"): the twelve and halves, the research order, Eutyches's home kept for now, the quotes, no direct-line change. This batch only.

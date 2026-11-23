@@ -5373,3 +5373,14 @@ Mark: "try the audio manifests idle load".
 **Result.** No gain. Emulated Pixel 5, processor slowed four times, cache off, median of five, first names: Wi-Fi 4.9 s, 4G 5.2 s, slow 4G 6.9 s, against 4.3, 4.4 and 6.0 s without it (three runs each; the runs vary by about 1 s). Bytes at that point fell from about 0.55 MB to 0.45 MB on slow 4G, but time did not follow: the drawing work after the page arrives sets the pace.
 
 **Decided.** Not shipped; the code was not committed. The next gain has to come from the drawing work or from the page's start-up script, not from the manifests.
+
+## 2026-11-23 — Batch 10: the slate approved (Mark)
+
+**Why.** The batch 10 launch prompt asks for the slate first: each story's job, half, census home and that tradition's direct line as its card shows it, siblings, the live stories beside it, and each quote already used elsewhere on the tree with any reuse the kit's quote rule allows. They are on one page (https://claude.ai/artifact/Vko3AEdprCTWnU717L7LFk, version 1). `check_tree_overlap.py` on the twelve old texts: ten clear; Cassian's and Priscillian's old texts each share one quote, both on the reuse list.
+
+**Decided (Mark, 2026-11-23, in chat: "Approve as recommended").**
+1. Twelve stories, each on its existing census entry. Half A: the Council of Ephesus (431), Eutyches, Theodoret of Cyrrhus, Pelagius and John Cassian, with John Chrysostom reviewed. Half B: Rufinus of Aquileia, Frumentius, Mesrop Mashtots, Ulfila and Priscillian, with Ephrem the Syrian reviewed. The jobs, siblings and links are as on the page and in `Build/Ministry/Operations/Audits/2026-11-22_batch-10/README.md`.
+2. Eight are researched at once; Theodoret after the Ephesus and Eutyches outlines, Frumentius after Rufinus's.
+3. Eutyches keeps his census home, `cyrilline-miaphysite-egyptian-christianity`, for now. The researcher tests against a primary text the two editors' claim (Payne Smith's preface to John of Ephesus, 1860; *The Christian East*, 1922) that the churches that rejected Chalcedon later cursed him by name. If it holds, his home comes back to Mark on the hearts page.
+4. The quotes lifted and barred as the page reads them under the reuse ruling of 2026-11-21, listed in the batch README; the lifts are in `Allowed_Reuse.txt`. Rufinus's "Who but you would have laid hands on God's gift" stays barred.
+5. No census change to any tradition's direct line.
