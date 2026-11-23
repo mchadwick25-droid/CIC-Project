@@ -10,7 +10,7 @@ File keys and line numbers are those of `Source_Sheet.md` (top of that file). Al
 - The trial: Priscillian's own appeal to the emperor, Ithacius's suspicion of everyone who fasted or read, Martin's plea, the prefect's two hearings and the charge of sorcery, and the deaths. (SulpE 11580-11705; SulpL 5857, 5895-5920. Documented, as Sulpicius tells it.)
 - What came of it: a martyr's cult in Spain; bishops quarreling for fifteen years and his accusers cut off; a bishop of Rome, sixty years on, praising the sword that killed him; councils in Spain still cursing his name in 561; and his own writings found in 1885. (See What came of them.)
 
-**Length:** 4 minutes 25 seconds, about 666 words after the Cut first list (713 before); approved ceiling 675 (Mark, 2026-11-23). What the story must carry: three quotes, about 75 words with their framing; plain senses for sorcery (maleficium), usurper, communion and, if used, Manichaeans and ascetic, about 30 words; credited witnesses (Sulpicius with his view of both sides, Priscillian's own book and its 1885 find, the council at Toledo, Leo, the council at Braga, a later chronicler), about 60 words; the two Saragossa accounts side by side and the trial's charges credited to the court, about 70 words. Five beats at about 65 words (the first, which brings in the witness, nearer 90), plus opening and essence of about 80 and what came of him of about 150, comes to about 560. The record is full on both sides and the story is a stand, its cost and a memory the church split over, so it runs past the three-minute aim but inside the ceiling of 675.
+**Length:** 4 minutes 25 seconds, about 674 words after the Cut first list (721 before); approved ceiling 675 (Mark, 2026-11-23). What the story must carry: three quotes, about 75 words with their framing; plain senses for sorcery (maleficium), usurper, communion and, if used, Manichaeans and ascetic, about 30 words; credited witnesses (Sulpicius with his view of both sides, Priscillian's own book and its 1885 find, the council at Toledo, Leo, the council at Braga, a later chronicler), about 60 words; the two Saragossa accounts side by side and the trial's charges credited to the court, about 70 words. By the count's method (a fact 11, a gloss 8, a witness credit 6, quotes as worded), the outline carries 721 words before the Cut first list and 674 after, with the added gloss for Gnostics. The record is full on both sides and the story is a stand, its cost and a memory the church split over, so it runs past the three-minute aim but inside the ceiling of 675.
 
 **Setting:**
 - Fourth century, the 370s and 380s; he rises under Gratian (Pros 53140-53145, dated 379); dies about 385 (JerVir 41626 note; JerEp 2970 gives 386; Hyd 1143-1145 a later year). Say "in about 385."
@@ -94,7 +94,7 @@ File keys and line numbers are those of `Source_Sheet.md` (top of that file). Al
 - **The council at Toledo**, in about 400: the clergy who called him a holy martyr.
 - **Leo of Rome**, in 447: Quote 3.
 - **The council at Braga**, in 561: the curses on teachings it called his.
-- **A later chronicler** (Prosper, fifth century, by role): the accusers cut off from communion.
+- **A later chronicler** (Prosper, fifth century, by role): the appeal at Bordeaux and the trial at Trier (Pros 53284-53291); the accusers cut off from communion (Pros 53318-53319).
 - **Georg Schepss**, the editor, 1889: the find and the attribution.
 - The doubt is part of the story at Saragossa: tell it as two accounts set side by side in beat 2.
 
@@ -135,4 +135,4 @@ File keys and line numbers are those of `Source_Sheet.md` (top of that file). Al
 3. Beat 1: the two bishops who bound themselves to him by a kind of oath (SulpE 11486-11490). To the card. Saves 11.
 4. Words to explain: the gloss of "ascetic"; the story says "a strict, self-denying life" in plain words wherever it needs the idea, and does not name the term. To Leave out. Saves 8.
 
-Count before the list: 713. The list saves 47. Count after: 666, under the approved 675.
+Count before the list: 721 (713, plus 8 for the Gnostics gloss). The list saves 47. Count after: 674, under the approved 675.

@@ -102,5 +102,5 @@ Witness kinds: OWN (his own words), CONTEMP (written in his lifetime by someone 
   - Bar Hebraeus, John of Damascus, Bessarion, Gennadius Scholarius, Nicephorus Callistus, Theophanes and the Greek liturgical books: later readers citing his works; none adds to the life.
   - The many files that cite his Church History for other subjects (Philostorgius, Gelasius of Cyzicus, the Eusebius volumes, Athanasius, Basil): uses of his History for other stories, already carried by those stories.
   - The letter on Cyril's death (NP3 38162): authenticity disputed by the editors themselves.
-  - `assemani_bibliotheca-orientalis-tomus1-...` and `acta-sanctorum_maii-tomus-5`: other lives of Simeon; the story uses only Theodoret's own account. For the card.
+  - `assemani_bibliotheca-orientalis-tomus1-...`: another life of Simeon the Stylite (line 53919); the story uses only Theodoret's own account. For the card. (`acta-sanctorum_maii-tomus-5` is of Symeon the Younger, died 596, and does not bear on this story.)
   - The portrait carried in procession at Cyrrhus in the sixth century: only Jackson's summary of the acts of 553 (NP3 3539-3545); the acts of that session are not held.
