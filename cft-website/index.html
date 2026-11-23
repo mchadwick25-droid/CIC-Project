@@ -363,6 +363,7 @@ body.has-peek #zoomHint{display:none}
 #edgeChips button:hover .t{text-decoration:underline}
 #edgeChips button:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
 svg.line-focus .edge-line.conn-lit{stroke:var(--link-line);stroke-width:2.4;marker-end:url(#arrow-line)}
+#connChip.is-lit .cc-key{display:none}
 #connChip.is-line .cc-key li:not(.cc-line){display:none}
 #connChip:not(.is-line) .cc-key li.cc-line{display:none}
 .era-label{cursor:pointer}
@@ -612,6 +613,7 @@ svg.strip-on #era-labels{display:none}
   <div class="spacer"></div>
   <a class="support-link" href="support.html">Help us grow</a>
   <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
+  <button id="searchBtn" type="button" aria-haspopup="dialog" aria-expanded="false" hidden>Search</button>
   <button id="resetBtn" type="button">Reset view</button>
   <button id="menuBtn" type="button" aria-expanded="false" aria-controls="siteMenu">Menu</button>
   <span class="tag">an interactive map of Christian tradition, from the first house-churches to about 2010</span>
@@ -625,7 +627,7 @@ svg.strip-on #era-labels{display:none}
   <button type="button" data-tour="intro">Getting started</button>
   <button type="button" data-tour="conn">Connections</button>
 </nav>
-<div class="feature-bar switches" id="switchbar" role="toolbar" aria-label="Show or hide parts of the map"></div>
+<div role="region" aria-label="Map layers"><div class="feature-bar switches" id="switchbar" role="toolbar" aria-label="Show or hide parts of the map"></div></div>
 <div id="mapStatus" class="sr-only" role="status" aria-live="polite"></div>
 <div id="eraStrip" hidden><button type="button" id="eraStripBtn"><span class="es-t"></span><span class="es-d"></span><svg viewBox="-8 -8 16 16" width="16" height="16" aria-hidden="true" focusable="false"><circle r="7" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M0,-.9 V3.7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cy="-3.4" r="1.05" fill="currentColor"/></svg></button></div>
 
@@ -635,7 +637,7 @@ svg.strip-on #era-labels{display:none}
 
 <div id="tip"></div>
 <div id="panel" role="dialog" aria-modal="true" aria-labelledby="panelTitle" tabindex="-1" inert><button class="close" id="panelClose" aria-label="Close">&times;</button><div id="panelBody"></div></div>
-<div id="zoomCtl" role="group" aria-label="Zoom the map">
+<div id="zoomCtl" role="region" aria-label="Zoom the map">
   <button id="zoomInBtn" type="button" aria-label="Zoom in" title="Zoom in (plus key)">+</button>
   <button id="zoomOutBtn" type="button" aria-label="Zoom out" title="Zoom out (minus key)">&minus;</button>
   <button id="zoomResetBtn" type="button" aria-label="Reset view" title="Reset view">&#10226;</button>
@@ -656,7 +658,7 @@ svg.strip-on #era-labels{display:none}
 <dialog id="growDlg" aria-labelledby="growDlgTitle"><div class="gd-in"><button type="button" class="gd-x" aria-label="Close">&times;</button><div class="gd-body"><h1 id="growDlgTitle">Help us grow</h1><p>Loading…</p></div><div class="gd-done"><button type="button" class="gd-close">Back to the map</button></div></div></dialog>
 <div id="tourBox" role="dialog" aria-modal="false" aria-labelledby="tourCount tourTitle" aria-describedby="tourText" hidden><p class="tb-count" id="tourCount"></p><h2 id="tourTitle" tabindex="-1"></h2><p id="tourText"></p><div class="tb-btns"><button type="button" class="tb-back">Back</button><button type="button" class="tb-next">Next</button></div><button type="button" class="tb-stop" aria-label="Stop the tour">&times;</button></div>
 <div id="listenBar" role="region" aria-label="Narration" hidden><button type="button" class="lb-play">Pause</button><span class="lb-text"><span class="lb-wide">Listening: </span><span class="lb-name"></span></span><button type="button" class="lb-open" aria-label="Open the card">Open<span class="lb-wide"> the card</span></button><button type="button" class="lb-stop" aria-label="Stop listening">&times;</button></div>
-<div id="zoomHint">Scroll to move &middot; Ctrl + scroll to zoom</div>
+<div role="region" aria-label="How to move the map"><div id="zoomHint">Scroll to move &middot; Ctrl + scroll to zoom</div></div>
 
 <script src="assets/place-line.js"></script>
 <script>
@@ -133570,7 +133572,7 @@ function returnFocus(opener,within){
   else{syncMapStop();if(mapActive)mapActive.focus({preventScroll:true});else stage.focus();}
 }
 function setWho(scope,opts){
-  clearConnections();
+  clearConnections(); clearLit(true);
   if(storyScope)clearStories();
   const wasOpen=!!whoScope;
   if(wasOpen&&whoScopeKey(scope)===whoScopeKey(whoScope)&&!(opts&&opts.on)){clearWho();return;}
@@ -134075,7 +134077,7 @@ function traditionEnd(id){
 function whoButtonHTML(m){
   if(!(peopleOf[m.id]||[]).length)return '';
   const {names,more}=whoTipParts({type:'trad',m}), rest=more+names.length-1, tail=rest?` +${rest} more`:'';
-  return `<button type="button" class="who-btn who-list-btn" aria-controls="people-section" aria-label="${esc(`Who · ${names[0]}${tail}. See the list`)}"><span class="who-line"><span class="who-first">Who · ${esc(names[0])}</span>${tail?`<span class="who-more">${tail}</span>`:''}</span><span class="who-state">See the list</span></button>`;
+  return `<button type="button" class="who-btn who-list-btn" aria-controls="people-section" aria-label="${esc(`Who · ${names[0]}${tail} See the list`)}"><span class="who-line"><span class="who-first">Who · ${esc(names[0])}</span>${tail?`<span class="who-more">${tail}</span>`:''}</span><span class="who-state"> See the list</span></button>`;
 }
 function peopleHTML(m){
   const list=(peopleOf[m.id]||[]).length?scopePeople({type:'trad',m}).all.map(a=>a.P):[];
@@ -134716,11 +134718,11 @@ function renderRiverNames(){
     if(!members.length)return;
     const tip=riverExplainTip(k,f,members);
     const g=el('g',{class:'river-name',tabindex:'0',role:'button','data-lane':k,
-      'aria-label':`${f.name}${f.common?`, ${f.common}`:''}. Opens the river's card.`});
+      'aria-label':`${f.name}${f.common?` ${f.common}`:''}. Opens the river's card.`});
     const ico=el('g',{class:'rn-ico','aria-hidden':'true'});
     ico.appendChild(el('path',{d:'M3 2c3 3-3 6 0 9s-3 6 0 9M9 2c3 3-3 6 0 9s-3 6 0 9',transform:'scale(.78) translate(-6 -11)',fill:'none',stroke:famColor(f),'stroke-width':2.8,'stroke-linecap':'round'}));
     g.appendChild(ico);
-    const t=el('text',{class:'rn-name'}); t.textContent=f.name; g.appendChild(t);
+    const t=el('text',{class:'rn-name'}); t.textContent=f.common?f.name+' ':f.name; g.appendChild(t);
     if(f.common){const c=el('text',{class:'rn-common'}); c.textContent=f.common; g.appendChild(c);}
     g.addEventListener('mouseenter',ev=>showTip(ev,tip));
     g.addEventListener('mousemove',ev=>positionTip(ev));
@@ -135328,7 +135330,7 @@ function closePanel(keepListening){
   lastFocused=null;
   syncWorldURL(null);
   if(playing)showListenBar(playing);
-  if(connFocus)syncPeek();
+  if(connFocus||litSet)syncPeek();
 }
 const listenBar=document.getElementById('listenBar');
 const listen={audio:null,stop:null,pin:null,world:null};
@@ -135405,7 +135407,7 @@ const BAR_ICON={
 };
 const barIcon=k=>`<svg class="bar-ico" viewBox="0 0 20 20" width="20" height="20" aria-hidden="true" focusable="false">${BAR_ICON[k]}</svg>`;
 const LINK_MODES=['off','major','all'];
-let linkMode='off', connFocus=null, connEnds=null, connLine=false, connLinePairs=null, edgeSamples=null;
+let linkMode='off', connFocus=null, connEnds=null, connLine=false, connLinePairs=null, edgeSamples=null, litSet=null;
 const kindsOff=new Set();
 const effectiveLinkMode=()=>narrowScreen()?'off':linkMode;
 function connectionCount(id){return gEdges.querySelectorAll(`.edge-line[data-via~="${CSS.escape(id)}"]`).length;}
@@ -135596,7 +135598,7 @@ function clearConnections(){
   returnFocus(gNodes.querySelector(`.node[data-id="${CSS.escape(m.id)}"]`),[connChip]);
 }
 function showConnections(m,line){
-  clearConnections(); if(whoScope)clearWho();
+  clearConnections(); if(whoScope)clearWho(); clearLit(true);
   lastFocused=null; closePanel();
   connFocus=m; connLine=!!line; connLinePairs=connLine?familyLine(m):null; lightConnections();
   svg.classList.add('conn-focus'); svg.classList.toggle('line-focus',connLine); connChip.classList.toggle('is-line',connLine);
@@ -135623,22 +135625,23 @@ function showConnections(m,line){
   connChip.querySelector('.cc-x').focus();
   tourOfferConn();
 }
-connChip.querySelector('.cc-x').addEventListener('click',clearConnections);
+connChip.querySelector('.cc-x').addEventListener('click',()=>{if(litSet)clearLit();else clearConnections();});
 // On a phone the card covers the map, so Connections and Family line close it and leave a strip to open it again.
 function peekHeight(){return peekStrip.hidden?0:peekStrip.offsetHeight+8;}
 function syncPeek(){
-  const show=narrowScreen()&&!!connFocus&&!panel.classList.contains('open')&&!(typeof tour!=='undefined'&&tour.on);
+  const show=narrowScreen()&&!!(connFocus||litSet)&&!panel.classList.contains('open')&&!(typeof tour!=='undefined'&&tour.on);
   if(show){
-    const nm=connFocus.shortName||connFocus.name;
+    const nm=connFocus?(connFocus.shortName||connFocus.name):litSet.label;
     peekStrip.querySelector('.pk-t').textContent=nm;
-    peekStrip.querySelector('.pk-open').setAttribute('aria-label',`Open the card for ${nm}`);
+    peekStrip.querySelector('.pk-go').textContent=connFocus?'Open card':'Show the list';
+    peekStrip.querySelector('.pk-open').setAttribute('aria-label',connFocus?`Open the card for ${nm}`:`${nm}. Show the search list.`);
   }
   peekStrip.hidden=!show;
   document.body.classList.toggle('has-peek',show);
   scheduleEdgeChips();
 }
-peekStrip.querySelector('.pk-open').addEventListener('click',()=>{if(connFocus)openPanel(connFocus);});
-window.addEventListener('resize',()=>{if(connFocus)syncPeek();});
+peekStrip.querySelector('.pk-open').addEventListener('click',()=>{if(connFocus)openPanel(connFocus);else if(litSet)openSearch();});
+window.addEventListener('resize',()=>{if(connFocus||litSet)syncPeek();});
 ['pointerdown','wheel','touchstart'].forEach(ev=>peekStrip.addEventListener(ev,e=>e.stopPropagation(),{passive:true}));
 // Where a lit line runs past the screen edge, its end continues as a label in the line's colour at the
 // crossing point, naming the tradition beyond. Tapping the label moves the map there.
@@ -135741,6 +135744,76 @@ function glideToNode(o){
 }
 ['pointerdown','wheel','touchstart'].forEach(ev=>edgeChips.addEventListener(ev,e=>e.stopPropagation(),{passive:true}));
 document.addEventListener('keydown',ev=>{if(ev.key==='Escape'&&!ev.defaultPrevented&&connFocus&&!panel.classList.contains('open'))clearConnections();});
+// Search (see search-ui.js). The code loads when the box is first opened, so the first page load is unchanged.
+const SEARCH_ON=false;
+const searchBtn=document.getElementById('searchBtn');
+function clearLit(silent){
+  if(!litSet)return;
+  litSet=null;
+  gNodes.querySelectorAll('.node.conn-end').forEach(g=>g.classList.remove('conn-end'));
+  svg.classList.remove('conn-focus'); connChip.classList.remove('is-lit'); connChip.hidden=true;
+  syncPeek(); scheduleLabelFit();
+  if(!silent){announce('Lit entries cleared.'); returnFocus(searchBtn,[]);}
+}
+// Lights a set of traditions the way the family line does: the rest dim, and on a phone the strip names the set.
+function showLit(ids,label){
+  clearConnections(); clearLit(true); if(whoScope)clearWho();
+  lastFocused=null; closePanel();
+  const set=new Set(ids.filter(id=>byId[id]&&byId[id]._x!=null));
+  litSet={ids:set,label};
+  gNodes.querySelectorAll('.node').forEach(g=>g.classList.toggle('conn-end',set.has(g.dataset.id)));
+  svg.classList.add('conn-focus'); connChip.classList.add('is-lit'); connChip.classList.remove('is-line');
+  connChip.querySelector('.cc-t').textContent=label;
+  connChip.querySelector('.cc-x').setAttribute('aria-label',`${label}. Clear them from the map.`);
+  connChip.hidden=false; syncPeek();
+  const narrow=narrowScreen();
+  const pts=[...set].map(id=>byId[id]), xs=pts.map(o=>o._x), ys=pts.map(o=>o._y);
+  if(pts.length){
+    const top=topInset()+56, vw=window.innerWidth-(narrow?70:120), vh=window.innerHeight-top-(narrow?barHeight()+40:40)-peekHeight();
+    const x0=Math.min(...xs)-30, x1=Math.max(...xs)+170, y0=Math.min(...ys)-20, y1=Math.max(...ys)+20;
+    scale=Math.max(0.4,Math.min(scale,1.1,vw/Math.max(1,x1-x0),vh/Math.max(1,y1-y0)));
+    tx=20+vw/2-((x0+x1)/2)*scale; ty=top+vh/2-((y0+y1)/2)*scale;
+    applyTransform(); applyDetail(); labelFitRun();
+  }
+  announce(`${label} showing.`);
+  connChip.querySelector('.cc-x').focus();
+}
+document.addEventListener('keydown',ev=>{if(ev.key==='Escape'&&!ev.defaultPrevented&&litSet&&!panel.classList.contains('open'))clearLit();});
+function searchOpenEntry(m){
+  const at=personById[m.id]?traditionEnd(m.id):councilById[m.id]?null:m;
+  if(at)focusWorld(at);
+  openPanel(m);
+}
+function searchGoEra(num){
+  const i=eras.findIndex(e=>e.num===num);
+  if(i>=0)goIntoEra(i);
+}
+function searchGoRiver(k){
+  const y=k===0?Math.max(riverHeadY(0),eraY0[0]+22):riverHeadY(k), f=famOf(k);
+  scale=Math.max(scale,0.5);
+  tx=window.innerWidth/2-laneCenterX(k,y+60)*scale; ty=topInset()+90-y*scale;
+  applyTransform(); applyDetail();
+  announce(`Moved to the ${f.name} river.`);
+}
+let searchLoad=null;
+function openSearch(){
+  if(!SEARCH_ON)return;
+  const go=()=>window.CFTSearchUI.open({
+    movements:DATA.movements.concat(personEntries,councilEntries), button:searchBtn, openEntry:searchOpenEntry, goEra:searchGoEra, goRiver:searchGoRiver,
+    lightSet:showLit, ensureEntry:m=>ensureEntry(m), href:id=>'tree/'+id+'.html',
+  });
+  if(window.CFTSearchUI){go();return;}
+  prepareSearch().then(go,()=>{searchLoad=null;announce('Search did not load. Check your connection, then try again.');});
+}
+// The two files are fetched when the button is first pointed at or focused, so they are usually there by the click.
+function prepareSearch(){
+  const add=src=>new Promise((ok,bad)=>{const t=document.createElement('script');t.src=src;t.onload=ok;t.onerror=bad;document.head.appendChild(t);});
+  return searchLoad=searchLoad||add('search-core.js').then(()=>add('search-ui.js'));
+}
+if(SEARCH_ON){
+  searchBtn.hidden=false; searchBtn.addEventListener('click',openSearch);
+  ['pointerenter','focus','touchstart'].forEach(t=>searchBtn.addEventListener(t,()=>{prepareSearch().catch(()=>{searchLoad=null;});},{once:true,passive:true}));
+}
 ['pointerdown','wheel','touchstart'].forEach(t=>connChip.addEventListener(t,ev=>ev.stopPropagation(),{passive:true}));
 
 const stage=document.getElementById('stage');
