@@ -1,0 +1,7 @@
+# Priscillian — Outline Check
+
+## My own account, written before reading Outline.md
+
+**Essence.** Priscillian, a rich and learned Spanish layman, drew men and women into a strict ascetic life of fasting, reading and giving up the world. Spain's bishops condemned the movement, and after his appeals to Damasus and Ambrose failed, he was tried at the usurper Maximus's court at Trier, convicted of sorcery (*maleficium*) and beheaded about 385, with companions. He is on the tree because his followers honored him as a martyr, and because his death, a bishop-prosecuted case ending in a secular death sentence, divided the Western bishops and was later cited by Leo as a precedent.
+
+**Also told.** What he taught, in his own surviving tracts: no one who gives up family, wealth and rank for God should be stopped by the churches; a creed that curses Arians, Manichaeans and other heresies. Made bishop of Abila by Instantius and Salvianus. The Saragossa dispute (condemned in absence, says Sulpicius; no one accused, says Priscillian). Martin pleaded at Trier for no bloodshed. The witness: Sulpicius, who disliked accusers and accused alike. What came of it: the martyr cult and burial in Spain (Toledo 400 still hearing clergy call him a holy martyr); the accusers deposed or cut off and fifteen years of bishops' discord; the church's continued condemnation (law of 407, Leo 447, Braga 561); his own voice recovered in 1885. Not said: "the first Christian executed for heresy" (editors only; batch ruling).

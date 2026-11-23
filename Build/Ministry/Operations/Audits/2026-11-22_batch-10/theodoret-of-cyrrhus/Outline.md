@@ -160,3 +160,23 @@ Past six names: Theodoret, Nestorius, Cyril, John, Dioscorus and Leo carry the c
 - The Eranistes, the heresy book, the Diatessaron copies, the passage kept from Methodius: side works; to the card.
 - Marius Mercator's attacks; Facundus's defense: side quarrels.
 - Dioscorus sitting on the pavement at Chalcedon ("the story goes", ZACH 2429-2436): a story about Dioscorus; to the card.
+
+**Cut first** (in order; savings by the count's method: a fact 11, a gloss 8, a witness credit 6, quoted words as counted)
+1. The "council / synod" gloss: councils are named by place and year without it. To Leave out. Saves 8.
+2. Beat 6, the emperor Theodosius's death and the new emperor's summons, with the translator's credit: open the beat at Chalcedon in 451. To the card. Saves 17.
+3. Beat 5, the withdrawal to his monastery (his request and the translator's word that it was granted). To the card. Saves 17.
+4. What came 3, Jackson's verdict ("restored in spite of what he wrote ..."): the condemnation of 553 itself stays. To the card. Saves 17.
+5. What came 1, Cassiodorus's Latin history in twelve books, with his credit: Evagrius and the Syriac chronicle, the two sides, stay. To the card. Saves 17.
+6. Beat 2, the envoys to the emperor in 431, with the translator's credit: "he stood with John's side at Ephesus" stays. To the card. Saves 17.
+7. Beat 2, the Apollinarius point, the short phrase "long ago stamped out" and its by-role gloss. To the card. Saves 23.
+8. Beat 1, his parents' promise before his birth: the monastery and "unwillingly" stay. To the card. Saves 11.
+9. Beat 4, his stated purpose for the History (forgetting robbing good deeds of fame). To the card. Saves 11.
+10. Beat 4, the translator's dating of the History (438-440): "in these years" stays. To Leave out. Saves 6.
+11. Beat 4, the crowds tearing at Simeon's leather clothes as the reason for the pillar: the narrator says only that he stood on a pillar before Quote 3. To the card. Saves 11.
+12. Beat 4, the Arabs coming in hundreds to be baptized. To the card. Saves 11.
+13. Beat 5, the clause that the same council restored Eutyches. To the card. Saves 11.
+14. Beat 5, his second request to Leo (whether he must accept the sentence): "condemned without a trial" stays. To the card. Saves 11.
+15. Beat 5, the short phrase "No indictment was published; no prosecutor appeared": the fact stays, in the narrator's words. To Leave out. Saves 8.
+16. Beat 6, the officials' word that Leo had restored his see: the shout of "the teacher of Nestorius", the demand and the curse stay. To the card. Saves 17.
+
+Count before the list 884; the list saves 233; count after 651, under the approved 675.

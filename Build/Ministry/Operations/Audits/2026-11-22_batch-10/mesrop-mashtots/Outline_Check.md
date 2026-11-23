@@ -1,0 +1,8 @@
+# Outline check: Mesrop Mashtots
+
+## My account, written before reading Outline.md
+
+**Essence.** A royal secretary turned monk who, finding he could not preach to new Armenian converts without letters for their tongue, searched for and made the Armenian letters with the catholicos Sahak and King Vramshapuh, began putting the Scriptures into Armenian, and taught the letters in schools on both the Persian and the Roman side of a divided Armenia. That changed the Armenian church from one whose worship and learning ran in Syriac (and Greek), which the people did not understand, to one that read, sang and wrote in its own language; it is why he is on the tree, and nearly all of it rests on his pupil Koriun.
+
+**Also told.** The search: Syrian Mesopotamia, the Syrian bishop Daniel's letters that failed, the vision of the letters in his heart (Koriun's wonder), the shaping with the hermit Rufinus. The first translation (Proverbs first) and the gift received by Sahak and the king "as if the divine Tablets". The schools, on the Persian side and then under Roman rule with the general's public support, and the force used against the Borborites in the same campaign. The Georgian and Albanian letters credited to him by Koriun (contested by the Georgian chronicle). The pupils sent to Edessa and Constantinople who came back with sound copies and the canons of Nicaea and Ephesus, and the correction of the first hasty versions. What he defended: Ephesus's faith, against "Theodore"'s books. His late life of teaching, hermit retreats, freeing captives; Sahak's death and his own, ten months after, with the cross of light (wonder). Kept as one of the Holy Translators.
+
