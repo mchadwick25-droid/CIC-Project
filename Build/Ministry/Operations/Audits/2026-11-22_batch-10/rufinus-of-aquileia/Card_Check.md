@@ -62,3 +62,6 @@ Compared: the card at `db30b801` (before the second pass) with the card now, fie
 **FIX 1.** `uncertain[16]`. Fremantle does not say the party left from Rome. At N203 44434-44439 he says Melania "was either there or with Paulinus at Nola", and that "the whole party were starting by way of Sicily and Africa".
 - Old: `Fremantle says the party was leaving Rome by way of Sicily and Africa and that Rufinus joined their religious company.`
 - New: `Fremantle says the party was starting out by way of Sicily and Africa and that Rufinus joined their religious company.`
+
+
+Coordinator (2026-11-23): the second pass check's fix applied word for word.
