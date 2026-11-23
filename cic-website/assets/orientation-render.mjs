@@ -83,18 +83,18 @@ function figureDateSpan(figure) {
 }
 
 
-function narrationPlayer(url) {
+function narrationPlayer(url, opts) {
   if (!url) return "";
   return [
     '<div class="narration">',
     `<audio controls preload="none" src="${escapeHtml(url)}"></audio>`,
-    '<p class="narration-disclosure">Synthesized voice \u2014 not a recording.</p></div>',
+    opts && opts.disclosure === false ? '</div>' : '<p class="narration-disclosure">Synthesized voice \u2014 not a recording.</p></div>',
   ].join("");
 }
 
 export function renderStory(compiled, opts) {
   const story = (compiled.orientation && compiled.orientation.story) || [];
-  const player = narrationPlayer(opts && opts.narration && opts.narration.story);
+  const player = narrationPlayer(opts && opts.narration && opts.narration.story, opts);
   const marks = highlighter(compiled);
   return player + story.map((unit) => paragraphs(unit.text, marks)).join("\n");
 }
@@ -132,7 +132,7 @@ export function renderDocumentedStories(compiled, opts) {
     if (s.teaser) head.push(`<p class="teaser">${escapeHtml(s.teaser)}</p>`);
     const account = s.telling || s.tellable_as;
     const documented = (opts && opts.narration && opts.narration.documented) || {};
-    const body = account ? narrationPlayer(documented[s.story_id]) + paragraphs(account, highlighter(compiled)) : "";
+    const body = account ? narrationPlayer(documented[s.story_id], opts) + paragraphs(account, highlighter(compiled)) : "";
     return [
       '<div class="docstory-entry">',
       ...head,
@@ -154,7 +154,7 @@ export function renderFloorNote(compiled) {
 
 export function renderLegacy(compiled, opts) {
   const legacy = (compiled.orientation && compiled.orientation.legacy) || [];
-  const player = narrationPlayer(opts && opts.narration && opts.narration.legacy);
+  const player = narrationPlayer(opts && opts.narration && opts.narration.legacy, opts);
   return player + legacy.map((unit) => paragraphs(unit.text)).join("\n");
 }
 

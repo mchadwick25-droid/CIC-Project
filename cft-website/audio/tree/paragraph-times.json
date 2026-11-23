@@ -1,0 +1,1770 @@
+{
+ "alopen": {
+  "text_sha256": "804259bd251c3aa35e222645af23d1a43977c5f52066c5e987f1f73f0dea86fa",
+  "starts": [
+   0.0,
+   18.27,
+   45.61,
+   72.57,
+   115.77
+  ]
+ },
+ "ambrose-of-milan": {
+  "text_sha256": "4df281f73954594f6e7dd24a98fae070e3a8e044f2ab08e731c6280b16cbea56",
+  "starts": [
+   0.0,
+   25.81,
+   57.95,
+   77.25,
+   116.81,
+   141.49,
+   150.89,
+   166.83,
+   201.31,
+   229.65,
+   242.67
+  ]
+ },
+ "anatolius-of-alexandria-and-laodicea": {
+  "text_sha256": "caef9af3f77a98896178e978142ba85f18f5d7182aefecaaf921f73f7ba44e34",
+  "starts": [
+   0.0,
+   32.53,
+   49.17,
+   60.71,
+   80.13,
+   110.29,
+   143.79,
+   181.23,
+   230.63,
+   246.63
+  ]
+ },
+ "antony-the-great": {
+  "text_sha256": "cce2a1cd1407d51fbab2ad6cf0da1349017e2bd83d2e5b008160c737c78f4eaa",
+  "starts": [
+   0.0,
+   20.91,
+   44.61,
+   73.11,
+   96.33,
+   138.79
+  ]
+ },
+ "apollinaris-of-laodicea": {
+  "text_sha256": "98f3cc7a15841d85451511463732f3749b8b5707f693ecc4b3e77425f260c11a",
+  "starts": [
+   0.0,
+   23.85,
+   54.55,
+   84.05,
+   100.25,
+   128.55,
+   148.41,
+   186.77,
+   240.19,
+   263.95
+  ]
+ },
+ "arab-evangelical-churches": {
+  "text_sha256": "603e05040dbfaab96c93146a1f5e49168ab5f924bb874b18b07a610d46bee463",
+  "starts": [
+   0.0,
+   29.05,
+   63.21,
+   95.43,
+   117.79,
+   160.87
+  ]
+ },
+ "arius": {
+  "text_sha256": "46c99af97732edea7f8c91991f627840459c33a928972021e20a633bdae4a41c",
+  "starts": [
+   0.0,
+   12.07,
+   51.47,
+   77.67,
+   92.89,
+   116.65,
+   133.41,
+   175.09
+  ]
+ },
+ "armenian-christianity-zartonk": {
+  "text_sha256": "7524280796f923331e20f42aa4bf3147991598d11165479e46a8300182fd2625",
+  "starts": [
+   0.0,
+   68.79,
+   75.63,
+   84.85,
+   92.69
+  ]
+ },
+ "athanasius-of-alexandria": {
+  "text_sha256": "5c2692f12bfc3e69d3ae134b86542ace92d4af5caa6b687498ac433bfa737785",
+  "starts": [
+   0.0,
+   26.43,
+   68.43,
+   87.31,
+   115.23,
+   170.07,
+   207.29,
+   235.43
+  ]
+ },
+ "augustine-of-hippo": {
+  "text_sha256": "8634e6fd713c0490179c0aa20267460295523b40daccf17506e4f1947c76c839",
+  "starts": [
+   0.0,
+   20.21,
+   62.27,
+   117.19,
+   153.99,
+   187.71,
+   224.05,
+   236.45,
+   281.41
+  ]
+ },
+ "babai-the-great": {
+  "text_sha256": "f46ddfdd47c03d3c8e86b6c10aca7978e712ad2633e40442d8a468782e945b51",
+  "starts": [
+   0.0,
+   21.25,
+   55.63,
+   86.87,
+   142.11
+  ]
+ },
+ "bardaisan-of-edessa": {
+  "text_sha256": "61bb3383d2d5f4ff54a9b85e44b3e2f61dcff6f30e501b43a522a004002d5837",
+  "starts": [
+   0.0,
+   23.07,
+   55.75,
+   95.77,
+   113.81,
+   137.63,
+   170.89,
+   227.53,
+   252.29
+  ]
+ },
+ "barsauma-of-nisibis": {
+  "text_sha256": "f9dc20da67d67881134520e9c439b9a930aae4538c05f6f0056609418c46baa1",
+  "starts": [
+   0.0,
+   18.99,
+   59.17,
+   100.05,
+   121.11,
+   147.49,
+   170.21,
+   175.41,
+   187.23,
+   211.35
+  ]
+ },
+ "basil-of-caesarea": {
+  "text_sha256": "a9419300d8721e5b777b9e46f82e1e4882652d55ded198554bb6d67448f9fb4c",
+  "starts": [
+   0.0,
+   20.75,
+   51.23,
+   75.03,
+   104.67,
+   118.19,
+   157.47,
+   178.71,
+   217.69,
+   249.19
+  ]
+ },
+ "baudonivia": {
+  "text_sha256": "a7a1bc88eadb993d51b754b2148a423c514774406eeb179367a188c658c86a7d",
+  "starts": [
+   0.0,
+   38.87,
+   65.11,
+   104.05,
+   112.73
+  ]
+ },
+ "benedict-of-nursia": {
+  "text_sha256": "23af0daab9d98b9c50a5f0ffb6e5ece54e442d8d7608117a1f31497d05141630",
+  "starts": [
+   0.0,
+   13.75,
+   50.07,
+   78.89,
+   106.31,
+   126.33,
+   140.25,
+   164.75
+  ]
+ },
+ "bernard-of-clairvaux": {
+  "text_sha256": "b4ed558997b4d787ea3bd0b50906f8e79f64f4437577e54e70dd7a20141b899f",
+  "starts": [
+   0.0,
+   23.93,
+   47.35,
+   63.91,
+   89.99,
+   122.87,
+   153.91,
+   169.87,
+   211.99,
+   241.15
+  ]
+ },
+ "canudos-belo-monte": {
+  "text_sha256": "03de804c5a4d4836b54bafd59d78fbda103b20950bf8d34c6725bd8c752eb4c6",
+  "starts": [
+   0.0,
+   25.99,
+   56.57,
+   115.81,
+   161.37
+  ]
+ },
+ "caribbean-churches-of-slavery-and-emancipation": {
+  "text_sha256": "c95a52aec575f3db01ec936dfa9d181e09cb0eec2d48c265c1d8ac9c8c15b312",
+  "starts": [
+   0.0,
+   36.91,
+   51.17,
+   96.85,
+   114.11,
+   147.83
+  ]
+ },
+ "carthusians-later-middle-ages": {
+  "text_sha256": "ef70d73d933b3e96e1e5c3f1d3d1892556799f9404df69ee8b621374228dfe9d",
+  "starts": [
+   0.0,
+   35.07,
+   67.57,
+   92.55,
+   135.11
+  ]
+ },
+ "catholic-church-ancien-regime": {
+  "text_sha256": "df7ab5e44126b250b21278ed3a43ed42e8cf9954efc724c41e558e85ac3b12a8",
+  "starts": [
+   0.0,
+   71.69,
+   81.85,
+   100.47,
+   119.55
+  ]
+ },
+ "catholic-church-long-nineteenth-century": {
+  "text_sha256": "5d6dbcc04094d3ca8ab4b233851e40348959166bac3172b4cf122daca144811b",
+  "starts": [
+   0.0,
+   72.29,
+   88.91,
+   109.09,
+   121.55,
+   140.25,
+   152.41,
+   157.79
+  ]
+ },
+ "catholics-of-dutch-ceylon": {
+  "text_sha256": "8387d73f33a61e7d21e7cf122a7c58dbb9240bbf6c20fa5d1f5b924f295b5126",
+  "starts": [
+   0.0,
+   24.23,
+   67.71,
+   111.63,
+   152.83
+  ]
+ },
+ "catholics-of-the-ottoman-balkans": {
+  "text_sha256": "f556353e369b8f185cf82e02e1bbf6cd7ce8d6724ea32e4bab55236243135071",
+  "starts": [
+   0.0,
+   16.21,
+   48.57,
+   65.11,
+   90.57
+  ]
+ },
+ "chinese-catholicism-1650-1906": {
+  "text_sha256": "1e1dfcf937954b214ec10da039390b983e2b8fb531a5704e0c02ebd9aaeb14e4",
+  "starts": [
+   0.0,
+   30.39,
+   53.17,
+   75.91,
+   86.41,
+   89.19,
+   122.51,
+   131.11,
+   152.03,
+   177.53,
+   207.81,
+   223.23,
+   258.83
+  ]
+ },
+ "church-of-the-east-chaldean-consolidation": {
+  "text_sha256": "bd2184e99ccccdbc8422dcba854455f7c80a041cff2affc792a0e604e2721d46",
+  "starts": [
+   0.0,
+   71.39
+  ]
+ },
+ "church-of-the-east-three-patriarchates": {
+  "text_sha256": "12931c522e46b7230a9c59d10cd796865a42daef03346d2867b35356f4e02989",
+  "starts": [
+   0.0,
+   20.67,
+   38.87,
+   62.89,
+   75.09,
+   112.81
+  ]
+ },
+ "clement-of-alexandria": {
+  "text_sha256": "f5a789306ffe40050d90cbcdab505a36b44fbad3523e4566758120162bbc6d54",
+  "starts": [
+   0.0,
+   17.99,
+   51.15,
+   66.57,
+   96.85,
+   112.41,
+   134.53
+  ]
+ },
+ "colonial-latin-american-devotional-catholicism": {
+  "text_sha256": "485f6982f5d950ec8899f9cc612720b85780e14936002f0b861725697eefa0f6",
+  "starts": [
+   0.0,
+   77.63,
+   156.41,
+   187.17,
+   217.03,
+   259.99,
+   291.11,
+   303.59,
+   324.71,
+   336.51,
+   355.63,
+   379.35,
+   399.29
+  ]
+ },
+ "columba": {
+  "text_sha256": "62b4f2fb975e93d49972cd9e31fde21b3fbb29af85abaec80805cb54ec57be49",
+  "starts": [
+   0.0,
+   18.07,
+   39.79,
+   74.21,
+   88.53,
+   121.53,
+   150.51
+  ]
+ },
+ "constantine-the-great": {
+  "text_sha256": "ab16cde6b5da2d8635333cefb1607e7629b303b4fdbf7aa8d36fa9ba4dba7a6e",
+  "starts": [
+   0.0,
+   43.21,
+   63.31,
+   90.77,
+   111.09
+  ]
+ },
+ "council-of-chalcedon-451": {
+  "text_sha256": "3e63cf81a5e1e08dc148665a357a70370e7e2435251bffb2fcf23c51c7f936e9",
+  "starts": [
+   0.0,
+   35.65,
+   68.15,
+   91.93,
+   114.73,
+   151.15,
+   180.75,
+   208.91,
+   235.63
+  ]
+ },
+ "council-of-nicaea-325": {
+  "text_sha256": "01bd462432c7d0ac18996447ddc4bb847fcea64e2b3baecebb75822c8ad88fcf",
+  "starts": [
+   0.0,
+   22.75,
+   49.97,
+   94.21,
+   129.11,
+   148.71,
+   173.27,
+   200.23
+  ]
+ },
+ "councils-of-rome-and-carthage-251": {
+  "text_sha256": "552234c769ed217bc1baccf169cb47dee899dcae80d35d964ca7999116c6ec59",
+  "starts": [
+   0.0,
+   22.73,
+   54.79,
+   68.17,
+   98.29,
+   115.01,
+   151.33,
+   172.83,
+   204.71,
+   223.31,
+   239.81
+  ]
+ },
+ "cyprian-of-carthage": {
+  "text_sha256": "71611528150a067f93ef4a752e3f79d5dd1d23070bbf2b7e7435c5d9e11d3e63",
+  "starts": [
+   0.0,
+   16.79,
+   40.29,
+   70.23,
+   87.85,
+   110.53,
+   164.63,
+   195.63,
+   225.69,
+   254.09
+  ]
+ },
+ "cyril-and-methodius": {
+  "text_sha256": "f0cfeae6621cd70894fd05fa334b086aa4a8c37df70d3ba1d22173a3b5ee4013",
+  "starts": [
+   0.0,
+   14.85,
+   60.63,
+   80.59,
+   99.95,
+   116.37,
+   142.19,
+   181.85
+  ]
+ },
+ "cyril-of-alexandria": {
+  "text_sha256": "6e05b12cf638cc6382cf18226184944c7e8d162643db49c37febc1f72a4d71d2",
+  "starts": [
+   0.0,
+   23.25,
+   57.79,
+   76.11,
+   125.67,
+   154.25,
+   178.07,
+   220.75
+  ]
+ },
+ "cyril-of-jerusalem": {
+  "text_sha256": "9ce12727fe2efd3bfa7a7ef8dde566b0c8a6ba817ba0dd924055eeb92a8c1784",
+  "starts": [
+   0.0,
+   12.51,
+   55.69,
+   63.11,
+   80.05,
+   120.55,
+   154.77,
+   189.43,
+   204.49,
+   225.15,
+   266.47
+  ]
+ },
+ "cyrilline-miaphysite-egyptian-christianity": {
+  "text_sha256": "5e438c920b8ecd2f5b4885c004161ed39167a45cab61786d141e1cbe1b3a813f",
+  "starts": [
+   0.0,
+   21.03,
+   44.97,
+   77.59,
+   110.07,
+   131.55
+  ]
+ },
+ "damasus-of-rome": {
+  "text_sha256": "1cca5a5bfa5da310aae001deaaff4998b8e2a50a37086d370e62d8bca4772cc8",
+  "starts": [
+   0.0,
+   13.95,
+   40.75,
+   90.77,
+   97.53,
+   122.31,
+   154.75,
+   180.27,
+   197.75,
+   230.55,
+   251.53
+  ]
+ },
+ "dhuoda": {
+  "text_sha256": "9f3ba02feefc0a1613ba0b7c1297302c312b5a1be0ff71e8bb49202bccaad6dc",
+  "starts": [
+   0.0,
+   35.07,
+   62.49,
+   89.97,
+   106.37,
+   124.39,
+   150.93
+  ]
+ },
+ "dionysius-of-alexandria": {
+  "text_sha256": "b79e1c539df4c69557fe21bef65dd8feb1a5dfbaf81efa0d127bd1f5b324ae9d",
+  "starts": [
+   0.0,
+   30.83,
+   52.89,
+   83.01,
+   115.91,
+   155.99,
+   187.79,
+   232.85
+  ]
+ },
+ "english-unitarianism": {
+  "text_sha256": "de8eadb1657d9499f22558c90282ac8e9fcac3ded67f3f5d71c4836fed30341d",
+  "starts": [
+   0.0,
+   24.67,
+   51.25,
+   81.41,
+   102.31,
+   130.11,
+   156.27
+  ]
+ },
+ "epiphanius-of-salamis": {
+  "text_sha256": "8b34d11a4b32b7b41437bdba91d8eedf01d7283330bdf7a80a614fad5b340c5e",
+  "starts": [
+   0.0,
+   24.93,
+   59.53,
+   95.41,
+   146.55,
+   174.19,
+   210.87,
+   240.75,
+   272.99
+  ]
+ },
+ "ethiopian-christianity-gondar-to-the-zemene-mesafint": {
+  "text_sha256": "e7e1bbdcc30a292931341ab70ec839176fbc01d962e16e2ed4b1c43a781cd75c",
+  "starts": [
+   0.0,
+   20.05,
+   49.93,
+   79.09,
+   117.45,
+   131.35,
+   149.59,
+   168.97,
+   198.53
+  ]
+ },
+ "ethiopian-christianity-tewodros-to-menelik": {
+  "text_sha256": "295f43d00532be804e51a7b7a7e39502db7848fac28f75bd6d1bc35a977ef523",
+  "starts": [
+   0.0,
+   78.57,
+   90.59,
+   99.73
+  ]
+ },
+ "eunomius-of-cyzicus": {
+  "text_sha256": "7e043dd2237db96c02aee20f7fe5896a3cabb2f9558fd8503d45fef54c7c7797",
+  "starts": [
+   0.0,
+   13.33,
+   42.75,
+   85.85,
+   113.83,
+   160.41,
+   188.79,
+   242.89,
+   260.31
+  ]
+ },
+ "eusebius-of-caesarea": {
+  "text_sha256": "414792ad97b976d893c194e5ca71213c15e0ecd0c5e9a1c54b842ba468d2daf9",
+  "starts": [
+   0.0,
+   19.97,
+   34.89,
+   42.51,
+   74.85,
+   84.61,
+   109.37,
+   114.49,
+   144.95,
+   192.67,
+   217.49,
+   235.05,
+   256.99,
+   271.29
+  ]
+ },
+ "evagrius-ponticus": {
+  "text_sha256": "06c3d149f25569a3b74de9306a624c51576653d9e6f132a19474838054439b4c",
+  "starts": [
+   0.0,
+   26.71,
+   52.67,
+   67.85,
+   99.03,
+   121.23,
+   141.17,
+   187.97,
+   217.49,
+   252.95
+  ]
+ },
+ "francis-of-assisi": {
+  "text_sha256": "0dc53ae613c2f702cef442b14e48fa5287b71240d6093307ce76fb5bd0025525",
+  "starts": [
+   0.0,
+   20.55,
+   40.07,
+   65.25,
+   101.93,
+   121.49,
+   132.31,
+   159.07,
+   165.75,
+   190.23,
+   225.65,
+   240.37,
+   246.73
+  ]
+ },
+ "german-pietism-spener-francke-halle": {
+  "text_sha256": "ae97670d882531cef447cead1537508ae5bbb24efceb21f4340d03d34c7310ba",
+  "starts": [
+   0.0,
+   72.01
+  ]
+ },
+ "gregory-of-nazianzus": {
+  "text_sha256": "6127555fb0407b9e1782511c7e0231fb206e2fb655f375b7725726057a793ed4",
+  "starts": [
+   0.0,
+   33.19,
+   53.71,
+   90.63,
+   115.27
+  ]
+ },
+ "gregory-of-nyssa": {
+  "text_sha256": "c85c61a4ab15577ff94818bdea72f9c827476659d6e54eed47c04efd68969db4",
+  "starts": [
+   0.0,
+   37.09,
+   75.89,
+   109.61
+  ]
+ },
+ "gregory-of-tours": {
+  "text_sha256": "9c08af14d91cae9b431417af9face4f4b9b770868d8c8e80ddd714e594904140",
+  "starts": [
+   0.0,
+   22.79,
+   76.75,
+   99.83
+  ]
+ },
+ "gregory-palamas": {
+  "text_sha256": "f97b000c0df1ef74fdca8793ef5526a72d9532d849ccbe6b9e1f273fc1ff3b86",
+  "starts": [
+   0.0,
+   34.69,
+   63.05,
+   75.13,
+   103.09,
+   132.09,
+   158.87,
+   198.17,
+   210.35,
+   236.47,
+   262.29
+  ]
+ },
+ "hermas": {
+  "text_sha256": "a102c787c304acb806431581840c863eff39ac23b1624568b9658f248d9dec22",
+  "starts": [
+   0.0,
+   20.99,
+   56.67,
+   90.97,
+   125.07,
+   147.23,
+   167.75
+  ]
+ },
+ "hilary-of-poitiers": {
+  "text_sha256": "a9b0f08240f2bcc564c032358252f8d48b09cfd61ab5b645d410205e29b66c51",
+  "starts": [
+   0.0,
+   23.63,
+   59.79,
+   90.35,
+   114.47,
+   141.47,
+   164.1,
+   185.84,
+   240.0,
+   256.24
+  ]
+ },
+ "hild-of-whitby": {
+  "text_sha256": "0e526ef60163845a812ec3482014f33ecd3de343cfac22651634f07b58a4e92c",
+  "starts": [
+   0.0,
+   28.27,
+   47.81,
+   70.31,
+   95.85,
+   134.61
+  ]
+ },
+ "hippolytus-of-rome": {
+  "text_sha256": "7fafc1c5b1667fc40f6d4808151e90c66c6a6fa76ef2107c7d1e49d2c2930fd1",
+  "starts": [
+   0.0,
+   29.09,
+   58.83,
+   83.47,
+   111.61,
+   155.93,
+   185.57,
+   203.73
+  ]
+ },
+ "huldrych-zwingli": {
+  "text_sha256": "26cf6e97b890d648da1db9358d1a5c84dd61b649f5a2f412799c7886212cd27f",
+  "starts": [
+   0.0,
+   14.93,
+   30.81,
+   63.85,
+   82.85,
+   134.67,
+   144.41,
+   160.71,
+   182.97,
+   203.79,
+   223.47,
+   238.33
+  ]
+ },
+ "hungarian-and-transylvanian-protestantism-1650-1815": {
+  "text_sha256": "26a22d6234afe40ab175b953a3112e4cf45a4a7c13f8a45e786820cc58edf531",
+  "starts": [
+   0.0,
+   14.67,
+   26.29,
+   45.91,
+   62.15,
+   82.55,
+   99.21,
+   126.61,
+   153.33
+  ]
+ },
+ "hutterite-brethren": {
+  "text_sha256": "5f911a3992f8ab091e87f81d3b71a0d58b8a78abac7256d1a970064e679b062b",
+  "starts": [
+   0.0,
+   27.29,
+   51.09,
+   78.33
+  ]
+ },
+ "ignatius-of-antioch": {
+  "text_sha256": "d3ac1c172da84dcce9c59db7758092d12c739af7ae117e4afe428b21f141b941",
+  "starts": [
+   0.0,
+   22.45,
+   43.37,
+   47.31,
+   66.99,
+   96.07,
+   121.47,
+   144.55,
+   179.07,
+   198.71
+  ]
+ },
+ "irenaeus-of-lyon": {
+  "text_sha256": "432423757e0fb52d0b18ee2ce2af57a690c3801b21f643d742a866a32f64d1e3",
+  "starts": [
+   0.0,
+   17.89,
+   44.37,
+   71.25,
+   102.19,
+   129.03,
+   173.67,
+   198.59,
+   213.67,
+   259.99,
+   288.71
+  ]
+ },
+ "jan-hus": {
+  "text_sha256": "88d6199816a6376535d2ae0a66d40cc973bd8ca96241f5cfd0122324089e8b15",
+  "starts": [
+   0.0,
+   24.47,
+   54.09,
+   63.75,
+   113.37,
+   141.45,
+   177.11,
+   244.81,
+   283.11
+  ]
+ },
+ "japanese-christianity-hidden-emergence-meiji": {
+  "text_sha256": "cdd189efad9147e63fe94b5601bb35e482cad72d82fc43d09fa392275d98d4b6",
+  "starts": [
+   0.0,
+   84.67
+  ]
+ },
+ "japans-hidden-christians": {
+  "text_sha256": "020838d4f355cc6430eb3ec7ab814385d3b76206d660966761c6cf633c79c4ac",
+  "starts": [
+   0.0,
+   30.31,
+   40.57,
+   51.87,
+   66.19,
+   71.85,
+   76.43,
+   110.41,
+   134.55
+  ]
+ },
+ "jerome": {
+  "text_sha256": "bc6add072bf66ef4e25e98c186046fe0041c47c128a3b8831e758d46e0771918",
+  "starts": [
+   0.0,
+   25.99,
+   43.27,
+   57.41,
+   96.85,
+   122.43,
+   160.69,
+   203.31,
+   220.07,
+   246.65
+  ]
+ },
+ "john-calvin": {
+  "text_sha256": "fdd4d36c6d18bffc5d079466f70b2286a4e08024bc355fd42a05da21d4368e7c",
+  "starts": [
+   0.0,
+   37.31,
+   59.17,
+   73.19,
+   99.45,
+   142.67,
+   183.91,
+   207.57,
+   232.07
+  ]
+ },
+ "john-wesley": {
+  "text_sha256": "5db103cbea2485cc371ba8c2f76b5703e8c6f9705750620eb203d65661583e51",
+  "starts": [
+   0.0,
+   18.01,
+   45.47,
+   70.97,
+   96.19,
+   106.47,
+   140.73,
+   164.65,
+   176.71,
+   186.85,
+   199.97,
+   227.11
+  ]
+ },
+ "john-wyclif": {
+  "text_sha256": "14b69a05648c752c676dbcfd8d631415ffbae71a080cbb6b900519a6e1abb222",
+  "starts": [
+   0.0,
+   21.39,
+   60.09,
+   74.45,
+   95.57,
+   111.09,
+   152.27,
+   162.09
+  ]
+ },
+ "josephus": {
+  "text_sha256": "0e09bfa70617a0d8abf939e989efe43dd56cfacdee2d28c8fed89a1d06fc0dd4",
+  "starts": [
+   0.0,
+   27.13,
+   55.11,
+   82.43,
+   105.59,
+   150.63,
+   169.81,
+   197.81,
+   217.93
+  ]
+ },
+ "justin-martyr": {
+  "text_sha256": "8005780730bc95967ad32aa85cdd32434d3b46898329ce60eb184c6487281db1",
+  "starts": [
+   0.0,
+   10.11,
+   32.07,
+   46.21,
+   57.33,
+   69.29,
+   94.39,
+   106.73,
+   132.57,
+   168.85
+  ]
+ },
+ "kongo-christianity-after-1650": {
+  "text_sha256": "1cbeaaa7d000fecd4fe8755034292dea75f87885a23ce49e4dec87efd002dbcf",
+  "starts": [
+   0.0,
+   28.53,
+   46.97,
+   68.99,
+   85.38,
+   95.13
+  ]
+ },
+ "korean-catholic-origins": {
+  "text_sha256": "fdae1c6c0834dbd99ffc8aaf65b21e2fff4a18c8652436c80c801e92776c10e2",
+  "starts": [
+   0.0,
+   73.23,
+   77.79
+  ]
+ },
+ "lactantius": {
+  "text_sha256": "cc15ac7b0fa6008b92dca8615e6d093ce1078394b89ae5e5bdb0784a3854e876",
+  "starts": [
+   0.0,
+   26.09,
+   58.21,
+   77.73,
+   107.87,
+   132.93,
+   150.25,
+   188.71,
+   205.53,
+   232.73,
+   236.61,
+   272.91
+  ]
+ },
+ "leo-of-rome": {
+  "text_sha256": "584d49134ee403b3f5dd5ede1c500feeff6d17f342c3e416477b1b1672ea53a4",
+  "starts": [
+   0.0,
+   27.51,
+   54.73,
+   78.91,
+   109.73,
+   145.85,
+   173.65,
+   216.23,
+   252.85,
+   266.53
+  ]
+ },
+ "luciferians": {
+  "text_sha256": "15d24e1916017c072190ae6c7f7270c709eb53a63c7e218522991717b432bf84",
+  "starts": [
+   0.0,
+   38.35,
+   77.55,
+   109.87,
+   146.23
+  ]
+ },
+ "macrina-the-younger": {
+  "text_sha256": "cacf279a35d7012b76643a3a43299f6fb33619d39f0e334e089aa79a0429828e",
+  "starts": [
+   0.0,
+   12.15,
+   38.95,
+   58.63,
+   84.97,
+   99.21,
+   116.71
+  ]
+ },
+ "marcion-of-pontus": {
+  "text_sha256": "4dfc18f75c1a3fbe01e9acb5ab0cfbcea3b342076bce9b22294068645cd7c486",
+  "starts": [
+   0.0,
+   18.75,
+   45.19,
+   67.49,
+   96.91,
+   120.73,
+   149.29
+  ]
+ },
+ "maronite-church-1815-1906": {
+  "text_sha256": "f47448379f1d81fe14e760185842b159e2643dbe1af85e10a9f87fdea28ce7c9",
+  "starts": [
+   0.0,
+   17.63,
+   60.75,
+   85.77
+  ]
+ },
+ "martin-luther": {
+  "text_sha256": "5fbb028131446c7afefde6e47266abe75134891791191c3a9f1952fd5042632a",
+  "starts": [
+   0.0,
+   23.41,
+   64.03,
+   81.55,
+   101.79,
+   129.57,
+   160.97,
+   201.91,
+   235.93,
+   251.35
+  ]
+ },
+ "martin-of-tours": {
+  "text_sha256": "78ac3de03e4bf546e072605204598df59381d0ad8a71c78cb34b71b8b661b81d",
+  "starts": [
+   0.0,
+   19.51,
+   34.17,
+   61.01,
+   81.31,
+   95.35,
+   128.59,
+   157.49,
+   200.83
+  ]
+ },
+ "melitian-schism": {
+  "text_sha256": "7fd925bf49e7dea47991c84473f85904a7c81a670241e2b6f7aa3cc96e6c116b",
+  "starts": [
+   0.0,
+   23.59,
+   53.67,
+   74.03,
+   103.87,
+   130.15
+  ]
+ },
+ "melkite-greek-catholic-church": {
+  "text_sha256": "6f63047154b8545a45fb1b6a9231b94d93ba8083251b6281c1251126103b67ff",
+  "starts": [
+   0.0,
+   60.63,
+   77.25
+  ]
+ },
+ "melkite-greek-catholic-church-after-1815": {
+  "text_sha256": "d179a724dad6229e9c90c130d80c60f15735eac5a4a1768a5443bcf0d444e1b6",
+  "starts": [
+   0.0,
+   17.61,
+   34.51,
+   59.59,
+   86.93
+  ]
+ },
+ "mennonites-and-amish-after-1650": {
+  "text_sha256": "a315b6b9763cfa1d7fe6bc95f88a2406bb4b1e1e5cf600a318ddc2c77a67c372",
+  "starts": [
+   0.0,
+   34.61,
+   52.85,
+   84.27,
+   107.75,
+   150.03,
+   191.43
+  ]
+ },
+ "methodius-of-olympus": {
+  "text_sha256": "9f0f3c43a0de3899492d1610aec741c2c9f0085fb1bf43e009da0049cd583182",
+  "starts": [
+   0.0,
+   21.95,
+   47.65,
+   62.35,
+   110.31
+  ]
+ },
+ "moravian-church-after-1815": {
+  "text_sha256": "93f5a6d2f410fa873ce612c02893688d98f9184a8658441dfc75edfb144275a5",
+  "starts": [
+   0.0,
+   22.25,
+   55.31,
+   81.43,
+   99.55,
+   113.41
+  ]
+ },
+ "narsai": {
+  "text_sha256": "387c26fa1483382519a73aaf5f80149c61d9a2b35f9c7d901ac1c9d4a72fffe7",
+  "starts": [
+   0.0,
+   14.25,
+   55.71,
+   76.89,
+   99.23,
+   113.63,
+   140.53
+  ]
+ },
+ "nestorius": {
+  "text_sha256": "201924b3efc0151bf71dc95d0ff4cdd9b662924f4db3dc46803377c9a01ecde6",
+  "starts": [
+   0.0,
+   25.01,
+   66.87,
+   86.57,
+   97.39,
+   129.05,
+   146.31,
+   163.93,
+   203.45
+  ]
+ },
+ "new-france-mission-born-christianity": {
+  "text_sha256": "fdfe1446776ebbec0fe031710e9cd169d491335393bf31dd683d2d0c4415ce33",
+  "starts": [
+   0.0,
+   22.91,
+   50.05,
+   78.68,
+   102.27,
+   127.57,
+   158.33
+  ]
+ },
+ "nineteenth-century-latin-american-catholicism": {
+  "text_sha256": "057188f5dc04b9e46a4e842fee752e0b3821057dcdac26da4e4c53f049374a80",
+  "starts": [
+   0.0,
+   84.93,
+   114.67,
+   136.59
+  ]
+ },
+ "novatian": {
+  "text_sha256": "39960917fe935d2ee7a1f3591c0d7708696194c05dcfc30bda079df5d886a679",
+  "starts": [
+   0.0,
+   21.21,
+   35.67,
+   59.37,
+   79.11,
+   96.35,
+   125.29,
+   142.67,
+   167.07,
+   178.71,
+   210.83,
+   241.73,
+   252.11
+  ]
+ },
+ "old-believers-after-1815": {
+  "text_sha256": "4bc051f3c9cd16049f4dd99e4a8efb88082fb9e4b65b7d2dafbc802d94c7bcb1",
+  "starts": [
+   0.0,
+   18.11,
+   43.19,
+   54.41,
+   76.75,
+   106.83,
+   119.29,
+   143.89,
+   165.37,
+   174.45,
+   191.03
+  ]
+ },
+ "origen": {
+  "text_sha256": "9a94d36c054e4dd3805db4e26a64a18ac490355e0fb0dcea799a485e176e6fb4",
+  "starts": [
+   0.0,
+   29.25,
+   42.77,
+   81.91,
+   105.45,
+   117.91
+  ]
+ },
+ "orthodoxy-after-1821-balkan-autocephalies": {
+  "text_sha256": "f85803449818a5bc2c3e9f263436095dca0113bf616219f7ad86b4d11b7611d6",
+  "starts": [
+   0.0,
+   73.93,
+   94.59
+  ]
+ },
+ "orthodoxy-under-the-ottomans-1650-1821": {
+  "text_sha256": "1101a7e7a68a0049f8a814a8d18bc31d3240f08f18399dd7814f2a95d8d01e5b",
+  "starts": [
+   0.0,
+   88.75,
+   116.17
+  ]
+ },
+ "pachomius": {
+  "text_sha256": "337bd5fdd8aee6c0d27725818d9c1e167df9262f236a87fb9a4000d7f15aa0ae",
+  "starts": [
+   0.0,
+   29.73,
+   57.65,
+   90.41,
+   112.29,
+   139.45
+  ]
+ },
+ "pamphilus-of-caesarea": {
+  "text_sha256": "15d1b270983e8ba0c69dc174fa1339c12ccd145c1a27facc65913d2cb17f6f4a",
+  "starts": [
+   0.0,
+   27.43,
+   63.53,
+   73.33,
+   105.67,
+   119.95,
+   150.13,
+   163.77,
+   203.73,
+   224.99,
+   248.19
+  ]
+ },
+ "patrick-of-ireland": {
+  "text_sha256": "7fa988c2e7732aee54cf2d01bbbe2d8b3098cdd11693c6ff1c5138bfb0dd87f3",
+  "starts": [
+   0.0,
+   17.61,
+   43.41,
+   60.27,
+   77.63,
+   121.55,
+   151.17,
+   179.21
+  ]
+ },
+ "peter-of-alexandria": {
+  "text_sha256": "32f6511a1f6f5993586a8c28189630da69a68e78f26189c498a1415d4d651597",
+  "starts": [
+   0.0,
+   21.89,
+   48.83,
+   64.99,
+   111.09,
+   155.47,
+   191.31,
+   218.73,
+   230.75,
+   246.59
+  ]
+ },
+ "philippine-catholicism-gomburza-to-aglipay": {
+  "text_sha256": "2b6b0989e5b06a6bed16a01a11b04f92cd1ec057a8ed8b8a1bb40225acc708d8",
+  "starts": [
+   0.0,
+   73.01,
+   107.67,
+   146.15,
+   183.67
+  ]
+ },
+ "pliny-the-younger": {
+  "text_sha256": "3a4232f324fb64d2b09fae98b14424e3ba8e1ab44fd05b42e2608cc77eaad6d3",
+  "starts": [
+   0.0,
+   13.39,
+   31.61,
+   61.85,
+   82.53,
+   119.41,
+   133.15,
+   157.49,
+   192.83,
+   227.07
+  ]
+ },
+ "polish-and-lithuanian-catholicism-under-the-partitions": {
+  "text_sha256": "d7963c5295bd7e0c0d725d5b41a1db6c51db6d9e9e1fcf6d810ead4851472601",
+  "starts": [
+   0.0,
+   20.91,
+   33.23,
+   51.41,
+   67.31,
+   79.63,
+   92.89
+  ]
+ },
+ "polycarp-of-smyrna": {
+  "text_sha256": "b3e59eace2d2e1e080868e6d8d2db47e0bdf81f7a1e6bfa683331f5d91bbd861",
+  "starts": [
+   0.0,
+   9.01,
+   32.47,
+   55.65,
+   67.61,
+   96.93,
+   118.51,
+   151.15,
+   166.03
+  ]
+ },
+ "polycrates-of-ephesus": {
+  "text_sha256": "4dd90463813debba89e9cdfb339877a3abc8d9be6250386da70eacd6ee56e073",
+  "starts": [
+   0.0,
+   29.23,
+   52.83,
+   77.77,
+   126.43,
+   157.29,
+   190.69
+  ]
+ },
+ "pontius-the-deacon": {
+  "text_sha256": "ebd9a9feaafc24af2adc5780383600a0cd3fd781de81c51ecaeccd41d47134bd",
+  "starts": [
+   0.0,
+   18.43,
+   60.73,
+   76.91,
+   116.59,
+   127.91,
+   151.33,
+   183.57,
+   202.11,
+   214.31
+  ]
+ },
+ "protestant-churches-of-the-voc-world": {
+  "text_sha256": "ba4caaee45a10c38ffe26f4254db359c688bc121a088654bba3d17c5e0fa885e",
+  "starts": [
+   0.0,
+   54.67,
+   74.49,
+   103.21,
+   110.35
+  ]
+ },
+ "protestantism-in-latin-america": {
+  "text_sha256": "1d0fbb00eda51161f0ea6b30925fb23233ebb4de29068fde8be42f4a4fd0f968",
+  "starts": [
+   0.0,
+   39.83
+  ]
+ },
+ "radegund": {
+  "text_sha256": "3edd9d79750abb1067baaec42fa92a93753f3bf247f34b13e06ef58a5a9f00a9",
+  "starts": [
+   0.0,
+   16.95,
+   32.45,
+   50.07,
+   76.49,
+   98.37,
+   120.55,
+   141.93,
+   149.27
+  ]
+ },
+ "romanian-greek-catholic-church-1698-1815": {
+  "text_sha256": "2a052ccc54c263f99f3afd07fc0351e522d04ce69d96ca41e7486eb411767f1d",
+  "starts": [
+   0.0,
+   19.67,
+   38.45,
+   68.19,
+   97.49,
+   118.75,
+   155.13,
+   195.69
+  ]
+ },
+ "romanian-greek-catholic-church-1815-1906": {
+  "text_sha256": "5320ed0b4b0e52bb916d08c1bd0190b54bc150b4e693b888eddc357128a1d89e",
+  "starts": [
+   0.0,
+   12.85,
+   26.11,
+   39.07,
+   56.39,
+   79.19,
+   95.13,
+   114.89
+  ]
+ },
+ "russian-church-nikon-to-holy-synod": {
+  "text_sha256": "5d8304b20a200dc1762d9e43faad6d20953641265d5478d352a5549ca8969d57",
+  "starts": [
+   0.0,
+   72.05,
+   101.33,
+   130.03,
+   148.87,
+   187.99,
+   208.09
+  ]
+ },
+ "russian-church-synodal-century": {
+  "text_sha256": "37198a869b17215c216d7d3996b879ed57b37574152b14308ac1f2f63f1404b1",
+  "starts": [
+   0.0,
+   71.75,
+   125.95
+  ]
+ },
+ "ruthenian-uniate-18th-century": {
+  "text_sha256": "7e05603d1b78e70ce2e67db7ec5f6bbb6552c83268d29a0680dae37811e8828a",
+  "starts": [
+   0.0,
+   73.51,
+   91.61,
+   115.93,
+   120.37,
+   138.83
+  ]
+ },
+ "society-of-jesus-1650-1814": {
+  "text_sha256": "9f6e4936d53e3f40bbd34feb4f32f89df9171f54d33e4b28379b7dd249c8b09e",
+  "starts": [
+   0.0,
+   20.23,
+   36.25,
+   47.73,
+   70.69,
+   87.93,
+   142.37,
+   183.19,
+   207.31
+  ]
+ },
+ "southern-african-mission-churches": {
+  "text_sha256": "607a8222c7852c179403df5226334f0e3abda4666b8340e931d2a71842c9c72b",
+  "starts": [
+   0.0,
+   34.65,
+   49.39,
+   55.45,
+   65.43,
+   77.49,
+   98.29,
+   121.69,
+   148.67
+  ]
+ },
+ "st-thomas-christians-two-obediences": {
+  "text_sha256": "a4f31b8b85bdfc3d657fda7648f8353f254e191c92893395329b9482c9af38aa",
+  "starts": [
+   0.0,
+   29.93,
+   48.17,
+   71.87,
+   91.85,
+   103.59,
+   126.83,
+   132.07,
+   159.11
+  ]
+ },
+ "suetonius": {
+  "text_sha256": "b03d25d1b436a55e8583948a8dff21786b28bd2d88522916f275f9345de99304",
+  "starts": [
+   0.0,
+   21.87,
+   43.83,
+   52.75,
+   89.51,
+   126.19,
+   160.53
+  ]
+ },
+ "swedish-lutherans-of-new-sweden": {
+  "text_sha256": "cf2272888f1217e386691771abf2fcacbddd2ef23b47d39121631d0cd39b5d6d",
+  "starts": [
+   0.0,
+   14.41,
+   42.89,
+   76.53,
+   97.41,
+   121.97
+  ]
+ },
+ "tacitus": {
+  "text_sha256": "7606529fbd52d3cb7670673750b3da542962d035f7e19e8557d2983f0e14096f",
+  "starts": [
+   0.0,
+   20.59,
+   42.67,
+   60.25,
+   87.39,
+   112.71,
+   120.95,
+   147.49,
+   159.39,
+   190.69
+  ]
+ },
+ "tatian": {
+  "text_sha256": "b1d93da543ac4f80b615a4ba9278d9aa19adc5a927b884653c6950a45006e8b8",
+  "starts": [
+   0.0,
+   17.11,
+   48.49,
+   76.33,
+   107.73,
+   142.45,
+   162.17,
+   211.97
+  ]
+ },
+ "teresa-of-avila": {
+  "text_sha256": "faca93ab1525ef3f41b03094b56651c441574d75131c3e9eba8866f1e4bff94f",
+  "starts": [
+   0.0,
+   19.57,
+   50.33,
+   68.21,
+   83.69,
+   107.67,
+   132.47,
+   147.81,
+   200.51,
+   227.39,
+   246.71
+  ]
+ },
+ "tertullian-s-voice": {
+  "text_sha256": "79a3532984c42a3a7421650de4efdc5b6c6906f569192edfab911664558a45c7",
+  "starts": [
+   0.0,
+   22.37,
+   53.49,
+   76.65,
+   115.51,
+   154.13,
+   202.25,
+   216.79,
+   242.91,
+   257.31
+  ]
+ },
+ "the-black-church-in-america": {
+  "text_sha256": "7f0286bad835be2582a118f3b2caeb409392fe8d5d3b64cf581f4c31121707db",
+  "starts": [
+   0.0,
+   83.39,
+   119.75,
+   135.99
+  ]
+ },
+ "the-coptic-church-under-the-ottomans": {
+  "text_sha256": "095597bdfe94da81306269ff7f9a54be9d846db9be2d97104ef4b2eb3b42bd46",
+  "starts": [
+   0.0,
+   18.05,
+   45.21,
+   71.11,
+   86.23,
+   95.03,
+   108.55
+  ]
+ },
+ "the-dutch-reformed-church-at-the-cape": {
+  "text_sha256": "0de3d00b69bbb777202fa3bec013f006e1f1b82de048b814a5b0513e3d1b0710",
+  "starts": [
+   0.0,
+   15.99,
+   37.35,
+   49.81,
+   61.59,
+   68.57,
+   74.41,
+   89.37,
+   103.25,
+   120.71
+  ]
+ },
+ "the-missionary-movement-s-native-churches-seramp": {
+  "text_sha256": "d3baeb886b5c34184328d68e1653d3bd5985fe34eceb006fef724391595a66a7",
+  "starts": [
+   0.0,
+   85.79,
+   150.85,
+   181.65,
+   198.77,
+   216.05
+  ]
+ },
+ "the-moravian-church-at-herrnhut": {
+  "text_sha256": "9f6618ac7db657dc6252da36936e023f167c6e24b0b88344512b53469883b2dd",
+  "starts": [
+   0.0,
+   82.07,
+   114.41,
+   152.95
+  ]
+ },
+ "third-council-of-toledo-589": {
+  "text_sha256": "473e9e49eaf70bfbfdcd77bf23afc7a38f35c565d55c7fc881c595a0b5794bd2",
+  "starts": [
+   0.0,
+   34.95,
+   75.37,
+   105.57,
+   148.97,
+   164.63
+  ]
+ },
+ "thomas-a-kempis": {
+  "text_sha256": "5cb9c640de7ded736a9383a32b18bb6727a3710a5428ee4ea6307f71e944afac",
+  "starts": [
+   0.0,
+   30.15,
+   58.41,
+   72.61,
+   101.29,
+   119.73
+  ]
+ },
+ "thomas-aquinas": {
+  "text_sha256": "c8702a8e76fdd81a94a9fe0e2bb288d461f55ea75bc1d80dd5e4d95bed754115",
+  "starts": [
+   0.0,
+   20.57,
+   45.19,
+   67.55,
+   78.17,
+   122.23,
+   161.37,
+   199.81,
+   209.65,
+   240.45
+  ]
+ },
+ "thomas-cranmer": {
+  "text_sha256": "87ef4d4d45ee8ad68df9062115e13a0bb0eeae1a0a4812155d9c5a59b1289de1",
+  "starts": [
+   0.0,
+   30.19,
+   59.29,
+   103.87,
+   144.27,
+   184.49,
+   217.15,
+   235.49
+  ]
+ },
+ "timothy-i-of-baghdad": {
+  "text_sha256": "5251c9405f69b79e6c2b010429830efbbcc95b71562fe9bafb8034c9d59cfdef",
+  "starts": [
+   0.0,
+   22.33,
+   53.85,
+   80.23,
+   104.09,
+   121.57,
+   156.31,
+   191.85
+  ]
+ },
+ "valentinus": {
+  "text_sha256": "561dfb46929ccffceb2d7fff3a6da76dcce815e4e2e7050e3b20083dec95a774",
+  "starts": [
+   0.0,
+   32.07,
+   59.75,
+   94.81,
+   139.87,
+   158.51,
+   189.17
+  ]
+ },
+ "vardan-mamikonian": {
+  "text_sha256": "fe6d518bf626cd900cfc142f8f9ee4f33e8bf32eb3bb3001980557d8e2e72b73",
+  "starts": [
+   0.0,
+   31.99,
+   57.51,
+   77.37,
+   91.55,
+   119.69,
+   130.55,
+   147.29
+  ]
+ },
+ "victorian-church-of-england": {
+  "text_sha256": "180cade2dda1f1e6c6e2e4dd38150776baadebeb7b69526f7fc5bccccae60541",
+  "starts": [
+   0.0,
+   66.65,
+   97.67,
+   126.01
+  ]
+ },
+ "vietnamese-catholicism-1815-1906": {
+  "text_sha256": "292970048ab6451983247984bc2af8acf93076e59bd8cd8185e6ebf090e4b71a",
+  "starts": [
+   0.0,
+   52.74,
+   76.25,
+   93.69
+  ]
+ },
+ "vietnamese-catholicism-to-1815": {
+  "text_sha256": "f045e1378338616601609fc0e540ed647200775615611939c604d4e06f8ba6f5",
+  "starts": [
+   0.0,
+   36.95,
+   78.31,
+   108.37
+  ]
+ },
+ "william-tyndale": {
+  "text_sha256": "126cf45e62164506ca80c913c96ca624ac04a07ac30e1c144377a6d1505f88da",
+  "starts": [
+   0.0,
+   22.93,
+   53.91,
+   71.39,
+   103.57,
+   141.41,
+   175.09,
+   209.17,
+   225.85
+  ]
+ }
+}

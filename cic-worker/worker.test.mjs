@@ -284,6 +284,16 @@ test('events: listed types are written as short anonymous points; others are dro
   assert.equal(env.ASSETS.calls.length, 0);
 });
 
+test('events: a step onward from a brief is counted with its kind and the card it opens', async () => {
+  const { points, env } = eventsEnv();
+  const body = JSON.stringify([
+    { t: 'next', a: 'after', b: 'coptic-orthodox-church' },
+    { t: 'next', a: 'teaser', b: 'donatism' },
+  ]);
+  assert.equal((await worker.fetch(post(body), env)).status, 204);
+  assert.deepEqual(points.map((p) => p.blobs.slice(0, 3)), [['next', 'after', 'coptic-orthodox-church'], ['next', 'teaser', 'donatism']]);
+});
+
 test('events: bots, wrong methods, oversized bodies and a site without the binding write nothing', async () => {
   const { points, env } = eventsEnv();
   const one = JSON.stringify([{ t: 'open', a: 'tradition', b: 'x' }]);
