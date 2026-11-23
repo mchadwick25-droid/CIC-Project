@@ -26,3 +26,5 @@ Complete at "naked" (word 158 of the file), at Antioch, within the first minute:
 - Heard once as the listener. The Matthew line now sits with Antioch, and "There" points back to it plainly. The Constantinople paragraph runs from 398 to the hospitals and on to the rebukes without a break.
 - Four faults re-read: no one witness's claim told as fact (Palladius and Socrates are still credited); no editor's view given to a source (the card now credits the literal sense to Zenos and Prevost); no date or detail on the wrong event (B1 fixed); no force or conflict softened.
 - Length: 352 words by the scorer (358 by whitespace), about 2.3 minutes at 150 words a minute. Not lengthened.
+
+Coordinator's note (2026-11-23): the M1 change to `Card.existing.json` was undone; that file stays the census card as it stands. M1 (the Diodore "literal sense" reference credited to Socrates VI.3, where it comes from Zenos's note and Prevost's preface) goes to the card step as a card correction.
