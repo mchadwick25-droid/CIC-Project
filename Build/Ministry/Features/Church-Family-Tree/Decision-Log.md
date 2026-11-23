@@ -5413,3 +5413,9 @@ Mark: "try the audio manifests idle load".
 2. The minor findings that change what a listener understands or credits are applied word for word, within each story's length; those the reader marked optional are left. In John Chrysostom only "That year the emperor's chief eunuch" becomes "Not long before, the emperor's chief eunuch".
 3. Chrysostom's name stays unheard in his story; no change in this batch.
 4. The release says the batch averages below the references and that both reference stories moved. This batch only.
+
+## 2026-11-23 — Batch 10: the cards carry what the outlines sent them (Mark)
+
+**Why.** The card role says "Whatever the outline, review or fresh read sends to the card goes under `uncertain` or the field it belongs to." The batch 10 card writers carried some of the outlines' "to the card" items and not others (about 106 marked across the ten researched outlines), and the card checks did not enforce the line until Theodoret's checker raised it. The page: https://claude.ai/artifact/TCupvn82kvhdu7n97CFgCa (version 1).
+
+**Decided (Mark, 2026-11-23, in chat: "Approve as recommended").** One more pass per card (Sonnet) adds each outline item marked "to the card" that the card does not yet hold, each at its cited line, in the field it belongs to; the same pass applies the card checker's changes word for word. The card checker (Opus) checks only the additions and that each change went in. It runs before the second readings, which read the cards' quotations. This batch carries out the role's existing line; no kit change.
