@@ -144,15 +144,15 @@
     ]
   },
   "briefReferences": [
-    "Minutes of Flavian's synod read at Ephesus in 449, tr. S. G. F. Perry: his answer on the natures, the body of God and a human body taken from the Virgin, his refusal to speak of two natures, and Flavian's sentence removing him from the priesthood, communion and the government of his monastery. The notary's deposition has him denying that Christ's flesh shared our nature.",
-    "Evagrius, Ecclesiastical History, Greek and Walford's English: Eusebius of Dorylaeum charged him; his answer at the trial; Egypt's bishops at Chalcedon, the synod's demand that they anathematize Eutyches, and their request to wait for their archbishop; the refusing churches called followers of Dioscorus and Eutyches.",
-    "Eutyches to Leo, Letter 21, tr. Charles Lett Feltoe: a faction formed against him, the sentence readied before the inquiry, other abbots forced to sign, his claim that he appealed, and his claim that the fathers before him had rejected the phrase two natures.",
-    "Flavian to Leo, Letter 26, tr. Feltoe: he never did appeal. Flavian to Leo, Letter 22: his judges' account that Eutyches denied Christ's flesh was of the same substance as ours.",
-    "Leo, Letter 28, the Tome, tr. Feltoe: Eutyches very unwary and exceedingly ignorant; one Christ in two natures, each keeping its own character.",
+    "Minutes of Flavian's synod read at Ephesus in 449, tr. S. G. F. Perry: his answer on the natures, the body of God and a human body taken from the Virgin, his refusal to speak of two natures, and Flavian's sentence removing him from the priesthood, communion and the government of his monastery.",
+    "Evagrius, Ecclesiastical History, Greek and Walford's English: Eusebius of Dorylaeum, a rhetorician when he first exposed Nestorius, charged him; his answer at the trial; Theodoret deposed at Ephesus; Egypt's bishops at Chalcedon, the synod's demand that they anathematize Eutyches, and their request to wait for their archbishop; the refusing churches called followers of Dioscorus and Eutyches.",
+    "Eutyches to Leo, Letter 21, tr. Charles Lett Feltoe: a faction formed against him, the sentence readied before the inquiry, other abbots forced to sign, and his claim that he appealed.",
+    "Flavian to Leo, Letter 26, tr. Feltoe: he never did appeal. Flavian to Leo, Letter 22: the old evil dogmas of Valentinus and Apollinaris revived.",
+    "Leo, Letter 28, the Tome, tr. Feltoe: Eutyches very unwary and exceedingly ignorant.",
     "Petitions of Eutyches to the emperor and to the council of 449, tr. Perry: his quiet life from childhood to old age, the record of his trial said to be false, the crowd ready to drag him through the city as a heretic, and Flavian's lack of regard for his gray hairs. The Syriac heading says the petition moved the emperor to call the council.",
-    "Perry, the session of 449: Basil of Seleucia denied a sentence recorded as his, then said he did not remember; the sentence the record gave as his, that denying two natures after the union meant mixing God and man; the council's shout that his accuser should be burned alive and that all who affirm two natures be cursed; Eutyches declared orthodox and restored; Flavian deposed, the council ruling that he had altered the faith.",
+    "Perry, the session of 449: Basil of Seleucia denied a sentence recorded as his, then said he did not remember; the council's shout that his accuser should be burned alive; Eutyches declared orthodox and restored.",
     "Council of Chalcedon, tr. H. R. Percival: the bishops cried that those who contradict Leo are Eutychians; the Definition receives Leo's letter for the removal of the false doctrines of Eutyches.",
-    "The Syriac chronicle known as that of Zachariah of Mitylene, tr. Hamilton and Brooks: Eutyches's account of Christ's body, which the chronicle says rejected the body from the Virgin; the Tome written on his case; Timothy Aelurus recalled from exile, and the people's demand in church that he anathematize Nestorius and Eutyches, which he did at once."
+    "The Syriac chronicle known as that of Zachariah of Mitylene, tr. Hamilton and Brooks: Nestorius deposed; Eutyches's account of Christ's body, which the chronicle says rejected the body from the Virgin; the Tome written on his case; Timothy Aelurus recalled from exile, and the people's demand in church that he anathematize Nestorius and Eutyches, which he did at once."
   ],
   "quotationOriginals": [
     {
@@ -182,14 +182,6 @@
       "work": "Flavian of Constantinople to Leo, Letter 26, tr. Charles Lett Feltoe",
       "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
       "lines": "5028",
-      "secondReading": "checked at card"
-    },
-    {
-      "modern": "two natures",
-      "printed": "rejected the phrase “two natures,”",
-      "work": "Eutyches to Leo, Letter 21, tr. Charles Lett Feltoe",
-      "file": "cic/texts/npnf212_leo-great-gregory-great.xml",
-      "lines": "4560",
       "secondReading": "checked at card"
     }
   ]
