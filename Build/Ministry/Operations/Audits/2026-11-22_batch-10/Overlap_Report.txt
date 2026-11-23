@@ -1,0 +1,18 @@
+council-of-ephesus-431: SPELLING Could (the tree has Cloud)
+ephrem-the-syrian: clear
+eutyches: SPELLING Eutychians (the tree has Eutychius)
+frumentius: clear
+john-cassian: SPELLING Conferencer (the tree has Conference, Conferences)
+john-cassian: SPELLING Eight (the tree has Eighth, Eighty, Right)
+john-chrysostom: clear
+mesrop-mashtots: SPELLING Albanians (the tree has Albania, Albanian, Albazinians)
+mesrop-mashtots: SPELLING Borborites (the tree has Borborides)
+mesrop-mashtots: SPELLING Tablets (the tree has Table)
+mesrop-mashtots: SPELLING Translation (the tree has Translations)
+pelagius: SPELLING Lydda (the tree has Lydia)
+priscillian: clear
+rufinus-of-aquileia: clear
+theodoret-of-cyrrhus: clear
+ulfila: clear
+
+Note (coordinator, 2026-11-23): no shared quote; the run passes with Allowed_Reuse.txt. Of the SPELLING lines, only "Borborites" is a name: the tree's "Borborides" is in Mesrop's own old text, which this story replaces, so no other entry spells it differently. The rest are common words, not names.

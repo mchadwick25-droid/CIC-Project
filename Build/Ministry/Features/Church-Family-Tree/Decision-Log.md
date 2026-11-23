@@ -5395,3 +5395,11 @@ Mark: "try the audio manifests idle load".
 3. The kit line, in `roles/researcher.md` item 2 and Kit Part 3, Length: "End the outline with a **Cut first** list, in order, each item marked for the card or Leave out, that brings the count to the approved length." It governs this batch's fix pass on and every later batch, and reopens no finished story.
 4. Eutyches moves to the river: told within no tradition, in the Greek East, as Jovinian sits in the Latin West. Timothy Aelurus of Alexandria cursed him by name about 475 (Zachariah Rhetor, `zachariah-rhetor_chronicle_hamiltonbrooks1899.txt` l.5638-5643). The census change is made at release.
 5. Priscillian: the story does not say he was the first Christian put to death on a church accusation, which rests only on editors' notes. It tells the verdict as the court's, for sorcery; the card carries the editors' claim and Bernays's view (as Hefele reports it), each credited.
+
+## 2026-11-23 — Batch 10: six drafts past 4:30, and Ulfila's creed (Mark)
+
+**Why.** All ten batch 10 drafts are written. Six run past the approved 675 words even after every Cut first item (Theodoret 817, John Cassian 788, Rufinus 740, Priscillian 734, Pelagius 733, Ulfila 722); each writer stopped, as `roles/writer.md` says. The outlines' estimates ran 15 to 30 percent below the real words. Ulfila's outline check found his deathbed creed's opening sentence already quoted on the `homoian-arian-christianity` tradition page, for the same moment; the slate lifted only two phrases. The page: https://claude.ai/artifact/7MQqQakPhBCKbugYP8zojp (version 1).
+
+**Decided (Mark, 2026-11-23, in chat: "Approve as recommend").**
+1. All ten go to review. For each of the six long drafts, the reviewer names the cuts that bring it to 675, from the writer's candidates (`<slug>/Writer_Reply.md`) first, never the heart, the record's force or the scene that carries the story. The reviser makes them in its one revision, and the fresh read checks the result. This batch only.
+2. Ulfila's creed sentence stays barred; the story tells it in the narrator's words, with the two lifted phrases quoted.

@@ -47,8 +47,8 @@ Lifted for the job the slate names, one per line in `Allowed_Reuse.txt`: Ulfila'
 - At release: Eutyches's census `toldWithin` is removed (the river, Greek East), per the hearts ruling.
 - Priscillian: the lifted Sulpicius line is rendered afresh from the Latin, so it no longer matches the wording on `sulpicius-severus`; the outline check weighs that.
 - For batch 11 on, with Mark: why the outlines keep running long, and three fixes at research (https://claude.ai/artifact/MzbUJjBWpsjZJ377yUm3vX, version 1). This batch keeps the hearts ruling.
-- Ulfila: his deathbed creed's opening sentence ("I, Ulfila, bishop and confessor, have always believed so...") is already on the `homoian-arian-christianity` tradition page, telling the same event; the slate lifted only two phrases. Asked of Mark; until he rules, the ending tells it in the narrator's words.
 
 ## Rulings
 - "Batch 10: the slate approved" (Mark, 2026-11-23: "Approve as recommended"): the twelve and halves, the research order, Eutyches's home kept for now, the quotes, no direct-line change. This batch only.
 - "Batch 10 hearts approved, with the lengths and a cut-first line in the kit" (Mark, 2026-11-23: "Approve as recommend"): the ten hearts; 4:30 at most with a Cut first list; Eutyches to the river; Priscillian not "the first". The cut-first line now lives in Kit Part 3, Length, and `roles/researcher.md` item 2; the rest, this batch only.
+- "Batch 10: six drafts past 4:30, and Ulfila's creed" (Mark, 2026-11-23: "Approve as recommend"): the reviewer names the cuts to 675 for the six long drafts, the reviser makes them; Ulfila's creed sentence stays barred. This batch only.
