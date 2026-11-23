@@ -5619,3 +5619,11 @@ Mark: "ok we found another problem, that i want to inlcude, some of the briefs a
 2. A separate modern-opinion pass reads every recorded piece for this alone (`Build/Ministry/Operations/Audits/2026-11-23_what-and-why-rank/Modern_Reader_Prompt.md`), with the word search's sentences marked as a starting point. Each finding is weighed against the heart like a bare statement and joins the same rank. The bare-statement scan is unchanged.
 
 **Added the same day (Mark): "always within the accepted rule of domain, public domain and referencing".** A modern scholar used as a source must sit within the project's existing rights rules (public domain or otherwise cleared, as the Library's rights audits and `Build/worlds/_cross-world/CORPUS-USE.md` already govern) and be referenced the way the project already references sources. The fix pass checks this for every modern source it moves into a reference list; a work that is not cleared is not used, and the point it carried is told from an old source or left out.
+
+## 2026-11-23 — The card carries two reference lists: original sources and modern works
+
+Mark: "the story and brief are the same, the card is deeper, so it can be a part of the references, what i would like is a original list of references that built is and a modern works for for the user to know other places to go". Then, on who builds the modern list: "option 1". The page: https://claude.ai/artifact/MyZnJkmRQi8Aw8SwnTpL9C (version 1).
+
+**Found.** Person and council cards (249) already list the old sources ("their own words", "about them"), each tied to a vendored file, and no modern works. Tradition source lists mark 760 entries primary, 334 secondary and 214 reference, never checked as a reading list.
+
+**Decided.** The story never names a modern scholar. The card holds two lists: Original sources, the old witnesses the story was built from; and Modern works, for a visitor who wants to go further, within the rights and referencing rules. The kit line sending a modern view "to the card" stands. When a fix in this work takes a modern scholar out of a story, that work goes into the card's Modern works list. A full Modern works list for every card is a later job for the source-research thread. Showing the new list on the card is the audio completion thread's (site and player).
