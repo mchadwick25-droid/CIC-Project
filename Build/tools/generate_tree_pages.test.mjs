@@ -413,15 +413,18 @@ test('the map draws major councils in their own column, off the rivers, and a co
   assert.match(map, /cap\.textContent='Major councils';/);
 });
 
-test('Who is a mark: a group figure with a count for each river in each era, and a single figure beside each tradition', () => {
+test('Who is a mark: a group figure with a count for each river in each era, and a single figure with a count beside each tradition, even for one person', () => {
   const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
   assert.match(map, /class:'who-pill river-pill'/);
   assert.match(map, /class:'who-pill prof-pill'/);
   const river = map.slice(map.indexOf('function renderWhoPills'), map.indexOf('function whoFigure'));
   assert.match(river, /groupGlyph\(\)/);
-  assert.match(river, /t\.textContent=n===1\?'':String\(n\)/);
+  assert.match(river, /t\.textContent=String\(n\)/);
+  assert.doesNotMatch(river, /n===1\?''/);
   const figure = map.slice(map.indexOf('function whoFigure'), map.indexOf('function setWhoMark'));
   assert.match(figure, /personGlyph/);
+  assert.match(figure, /cn\.textContent=String\(n\)/);
+  assert.doesNotMatch(figure, /groupGlyph/);
   assert.doesNotMatch(map.slice(map.indexOf('function renderWhoPills'), map.indexOf('function setWhoMark')), /textContent='Who'/);
 });
 

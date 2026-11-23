@@ -302,8 +302,8 @@ svg.who-on .edge-line,svg.who-on .edge-hit,svg.who-on .continues{display:none!im
 .who-pill:focus-visible .who-focus{display:inline}
 .who-pill:hover .who-fig *,.who-pill:focus-visible .who-fig *,.who-pill[aria-pressed="true"] .who-fig *{fill:var(--gold-leaf)}
 .who-count{display:none}
-#prof-pills.compact>.who-pill:not([data-n="1"])>.who-fig{display:none}
-#prof-pills.compact>.who-pill:not([data-n="1"])>.who-count{display:block}
+#prof-pills>.who-pill:not(.story-mark)>.who-fig{display:none}
+#prof-pills>.who-pill:not(.story-mark)>.who-count{display:block}
 #prof-pills.compact .who-n{paint-order:stroke;stroke:var(--parchment);stroke-linejoin:round}
 #who-far .who-text{font-style:italic;font-weight:600}
 svg.who-on .who-pill:not([aria-pressed="true"]){display:none}
@@ -132374,9 +132374,8 @@ function renderWhoPills(){
     g.appendChild(el('circle',{class:'who-hit',r:0}));
     g.appendChild(el('rect',{class:'who-cap',stroke:col}));
     g.appendChild(el('rect',{class:'who-focus'}));
-    if(n===1){const f=el('g',{class:'who-fig','aria-hidden':'true'});f.appendChild(personGlyph('currentColor',0,0));g.appendChild(f);}
-    else g.appendChild(groupGlyph());
-    const t=el('text',{class:'who-n','aria-hidden':'true'}); t.textContent=n===1?'':String(n); g.appendChild(t);
+    g.appendChild(groupGlyph());
+    const t=el('text',{class:'who-n','aria-hidden':'true'}); t.textContent=String(n); g.appendChild(t);
     const go=()=>setWho(scope);
     g.addEventListener('click',ev=>{ev.stopPropagation();go();});
     g.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();ev.stopPropagation();go();}});
@@ -132394,7 +132393,7 @@ function whoFigure(m){
   g.appendChild(el('circle',{class:'who-ring'}));
   g.dataset.n=String(n);
   const f=el('g',{class:'who-fig','aria-hidden':'true'}); f.appendChild(personGlyph('currentColor',0,0)); g.appendChild(f);
-  const cnt=el('g',{class:'who-count','aria-hidden':'true'}); cnt.appendChild(groupGlyph());
+  const cnt=el('g',{class:'who-count','aria-hidden':'true'}); const pf=el('g',{class:'who-fig','aria-hidden':'true'}); pf.appendChild(personGlyph('currentColor',0,0)); cnt.appendChild(pf);
   const cn=el('text',{class:'who-n'}); cn.textContent=String(n); cnt.appendChild(cn); g.appendChild(cnt);
   const go=()=>setWho(scope);
   g.addEventListener('click',ev=>{ev.stopPropagation();go();});
@@ -132557,11 +132556,12 @@ function setWhoMark(p,cx,cy,U,away,compact){
     const ring=p.querySelector('.who-focus'), pad=U*.3;
     ring.setAttribute('x',(-W/2-pad).toFixed(1));ring.setAttribute('y',(-H/2-pad).toFixed(1));ring.setAttribute('width',(W+2*pad).toFixed(1));ring.setAttribute('height',(H+2*pad).toFixed(1));ring.setAttribute('rx',(H/2+pad).toFixed(1));
     p._w=W;
-  }else if(compact&&p.dataset.n!=='1'&&p.querySelector('.who-count')){
-    const cnt=p.querySelector('.who-count'), gf=cnt.querySelector('.who-fig'), n=cnt.querySelector('.who-n'), W=U*(1.9+.55*n.textContent.length);
-    gf.setAttribute('transform',`translate(${(-W/2+U*.85).toFixed(1)},${(-U*.05).toFixed(2)}) scale(${(U/11.5).toFixed(3)})`);
-    n.setAttribute('x',(-W/2+U*1.6).toFixed(1)); n.setAttribute('y',(U*.3).toFixed(1));
+  }else if(p.querySelector('.who-count')){
+    const cnt=p.querySelector('.who-count'), gf=cnt.querySelector('.who-fig'), n=cnt.querySelector('.who-n'), W=U*(1.5+.55*n.textContent.length);
+    gf.setAttribute('transform',`translate(${(-W/2+U*.5).toFixed(1)},${(U*.03).toFixed(2)}) scale(${(U/8.4).toFixed(3)})`);
+    n.setAttribute('x',(-W/2+U*1.1).toFixed(1)); n.setAttribute('y',(U*.3).toFixed(1));
     n.style.fontSize=(U*.88)+'px'; n.style.strokeWidth=(U*.88*3/11)+'px';
+    const ring=p.querySelector('.who-ring'); if(ring)ring.setAttribute('r',(W/2+U*.2).toFixed(2));
     p._w=W;
   }else{
     fig.setAttribute('transform',`translate(0,${(U*.03).toFixed(2)}) scale(${(U/8.4).toFixed(3)})`);
@@ -132627,10 +132627,11 @@ function placeWhoMarks(){
       if(G===gProfPills&&compact)return;
       const it=byNode.get(p.dataset.id);
       if(!it||!it.box){p.style.display='none';return;}
-      const cx=it.dx+(it.end?1:-1)*U*1.02, cy=it.dy;
+      const dir=it.end?1:-1, wide=p.dataset.n&&p.querySelector('.who-count'), W=wide?U*(1.5+.55*p.dataset.n.length):U;
+      const cx=wide?it.dx+dir*(U*.62+W/2):it.dx+dir*U*1.02, cy=it.dy;
       p.style.display='';
-      setWhoMark(p,cx,cy,U,it.end?1:-1);
-      grid.add({id:'pp'+it.id,x0:cx-U/2,x1:cx+U/2,y0:cy-U/2,y1:cy+U/2});
+      setWhoMark(p,cx,cy,U,dir);
+      grid.add({id:'pp'+it.id,x0:cx-W/2,x1:cx+W/2,y0:cy-U/2,y1:cy+U/2});
     }));
   }
   placeRiverNames(U);
@@ -132644,8 +132645,8 @@ function placeCompactPeople(){
   gProfPills.querySelectorAll('.prof-pill').forEach(p=>{
     const it=byNode.get(p.dataset.id);
     if(!it||!it.box){p.style.display='none';return;}
-    const dir=it.end?1:-1, count=p.dataset.n!=='1';
-    const W=count?U*(1.9+.55*p.dataset.n.length):U, cx=count?it.dx+dir*(U*.62+W/2):it.dx+dir*U*1.02, cy=it.dy;
+    const dir=it.end?1:-1;
+    const W=U*(1.5+.55*p.dataset.n.length), cx=it.dx+dir*(U*.62+W/2), cy=it.dy;
     const box={id:it.id,x0:cx-W/2,x1:cx+W/2,y0:cy-U/2,y1:cy+U/2};
     if(grid.hits(box)){p.style.display='none';return;}
     p.style.display='';
