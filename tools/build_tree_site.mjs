@@ -15,6 +15,7 @@ export const TREE_FILES = [
 
 export const SHARED_FILES = [
   'data/world-census.json',
+  'data/search-names.json',
   'data/worlds',
   'assets/narration-player.js',
   'assets/feedback.js',

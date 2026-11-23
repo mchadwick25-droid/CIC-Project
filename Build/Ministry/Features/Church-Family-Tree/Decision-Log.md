@@ -5682,3 +5682,12 @@ Mark, after the scan results: "yes, fix those three".
 4. Batch 10: every such place is rewritten from the old sources or cut, checked and read fresh again before any more recording; Priscillian is recorded again.
 
 It governs batch 11 on, and the live tree's other stories are for the what-and-why ranking thread.
+## 2026-11-23 — Search names batch 1 drafted and reviewed (Mark: "Converged, auto mode: keep heirs as other name")
+
+**Asked.** Draft the first batch of sourced names for search level 1 (Decision-Log, "Search: three levels, and the level 1 design converged", 2026-11-22). No model calls beyond the session, no metered spend.
+
+**Decided (Mark).** Today's names for a living heir (Assyrian Church of the East, Coptic Orthodox Church and the like) take the kind "other name".
+
+**Done.** 27 rows in `cic-website/data/search-names.json`: six names given by opponents (Nestorian on four Church of the East entries, Jacobite, Montanist), today's names for living heirs, Copts, Axum. Every basis is a line in the tree's own text, checked word for word by the census validator, which now fails a row with no real target, no valid kind or no basis (six tests). Data release 53, dated 2026-11-23, is stamped in the census meta, the license credit line and the map page's embedded meta; the data page was regenerated and lists the names file. Opus round 1 found three faults: a contested heir line shown as settled, a region labeled an older name, and two bases that quoted source citations. The first two rows were held, the other two rebased; round 2 rechecked only those. The review records and the held and wanted lists are in Build/Ministry/Operations/Audits/2026-11-23_search-names-1/.
+
+**Not done.** Seven rows wait for Mark's ruling on kind (Open-Gaps 370). `SEARCH_ON` stays false: flipping it is a separate small change after Mark sees screenshots with the real names.
