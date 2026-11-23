@@ -4,6 +4,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { slimMap, writeSlimMap } from './slim_map_data.mjs';
+import { buildSearchIndex, writeSearchIndex } from './build_search_index.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(ROOT, '.build', 'tree');
@@ -66,8 +67,12 @@ function main() {
   const shared = copyAll(SHARED_FILES);
   // The committed page holds all the data. The site gets the slim page and the card files (see
   // tools/slim_map_data.mjs), so its copy of index.html differs from the source by design.
-  const slim = slimMap(fs.readFileSync(path.join(ROOT, 'cft-website', 'index.html'), 'utf8'));
+  const source = fs.readFileSync(path.join(ROOT, 'cft-website', 'index.html'), 'utf8');
+  const slim = slimMap(source);
   writeSlimMap(slim, OUT, false);
+  const search = buildSearchIndex({ data: slim.data, html: source });
+  writeSearchIndex(search, OUT);
+  console.log(`search index: names ${(search.sizes.namesBytes / 1e3).toFixed(1)} KB (${(search.sizes.namesGzipBytes / 1e3).toFixed(1)} KB compressed), word list ${(search.sizes.wordsBytes / 1e3).toFixed(1)} KB (${(search.sizes.wordsGzipBytes / 1e3).toFixed(1)} KB compressed, ${search.sizes.wordCount} words), sourced names file ${search.sizes.namesFilePresent ? 'read' : 'not there yet'}`);
   const page = path.join(OUT, 'index.html');
   const mismatched = [...own, ...shared].filter(([s, d]) => d !== page && digest(s) !== digest(d));
   for (const [s, d] of mismatched) {
