@@ -41,5 +41,8 @@ Lifted for the job the slate names, one per line in `Allowed_Reuse.txt`: Ulfila'
 ## Open items
 - Eutyches's home tradition: the researcher tests the editors' claim against a primary text; it comes back to Mark on the hearts page if it holds.
 
+- Ulfila: the creed sentence his outline quotes is also rendered, differently, on the `homoian-arian-christianity` tradition page, which `check_tree_overlap.py` does not scan. The outline check weighs it under the quote rule.
+- Eutyches: the claim held (Timothy Aelurus cursed him about 475, Zachariah Rhetor l.5638-5643; against it, Egypt's bishops would not name him at Chalcedon, Evagrius l.5063-5093). His home goes to Mark on the hearts page.
+
 ## Rulings
 - "Batch 10: the slate approved" (Mark, 2026-11-23: "Approve as recommended"): the twelve and halves, the research order, Eutyches's home kept for now, the quotes, no direct-line change. This batch only.

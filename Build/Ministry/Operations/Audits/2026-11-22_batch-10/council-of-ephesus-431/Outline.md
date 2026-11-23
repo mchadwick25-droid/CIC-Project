@@ -30,7 +30,7 @@ Sheet items (S, E, I, D) are in `Source_Sheet.md`, which gives the file and line
 - **"without mixing"** (Quote 3): the narrator need add nothing; the rendering is already plain.
 
 - **Shape:** Council. What called it: Nestorius's refusal to call Mary Mother of God, Cyril's answer, Rome's condemnation, the emperor's summons. The major issue and the spine: whether Mary is Mother of God, and so how God and a man are one in Christ; every beat returns to it, through the deposition, John's charge against Cyril's curses, and the confession of 433. Other business: no other creed beside Nicaea's; Pelagius's condemnation upheld; John's men cut off. Decisions: told in beats 3 to 5. Impact: whether the decisions held (the peace, Chalcedon) and whom they divided (Theodoret's refusal, the Church of the East). Voices followed: Candidian (his protest), Nestorius (his book), John of Antioch (his sentence and his confession), with Cyril through his own council's acts and letters. The trap is one dispute swallowing the council: Nestorius's own life, teaching and exile are his story's; here he is the one judged.
-- **Sibling:** `nestorius` (live; job: his life and teaching, from his own words and the Church of the East's memory). It tells the quarrel over the name through Socrates and Nestorius, his exile, his book's pen name, "Let Nestorius be anathema" and Abdisho's "followed them, and not they him"; here the name is one clause, his exile one clause at most, and none of his quotes is used. `cyril-of-alexandria` (live; job: his life, Alexandria, Hypatia, his Christ, his legacy among the Miaphysites). It tells his letter of Mary, the gifts to the court and "the gold of iniquity"; here his council is told, his letter is paraphrased in one clause, and the gifts are left to his story. Both live texts' quotes stay barred (slate). `theodoret-of-cyrrhus` (batch; his part here is a clause: he asked the council to wait, and in 433 accepted Cyril's faith but not Nestorius's deposition). `pelagius` (batch; a clause: the council upheld his condemnation). `council-of-chalcedon-451` (live; tells 449 and 451); here 451 is one sentence on what it kept from Ephesus, in the narrator's words, with none of its quotes. `leo-of-rome` tells Ephesus 449: never confuse the two; say "the council of 431" or "this council". `john-cassian`: link only, not told.
+- **Sibling:** `nestorius` (live; job: his life and teaching, from his own words and the Church of the East's memory). It tells the quarrel over the name through Socrates and Nestorius, his exile, his book's pen name, "Let Nestorius be anathema" and Abdisho's "followed them, and not they him"; here the name is one clause, his exile one clause at most, and none of his quotes is used. `cyril-of-alexandria` (live; job: his life, Alexandria, Hypatia, his Christ, his legacy among the Miaphysites). It tells his letter of Mary, the gifts to the court and "the gold of iniquity"; here his council is told, his letter is paraphrased in one clause, and the gifts are left to his story. Both live texts' quotes stay barred (slate). `theodoret-of-cyrrhus` (batch; his part here is a clause: in 433 he accepted Cyril's faith but not Nestorius's deposition; his earlier request to wait is for the card). `pelagius` (batch; a clause: the council upheld his condemnation). `council-of-chalcedon-451` (live; tells 449 and 451); here 451 is one sentence on what it kept from Ephesus, in the narrator's words, with none of its quotes. `leo-of-rome` tells Ephesus 449: never confuse the two; say "the council of 431" or "this council". `john-cassian`: link only, not told.
 - **Openings:**
   1. **Chosen. "Who was judge? Cyril."** (I5; BH 8643–8648, NAU 7136–7140). In about three sentences: Nestorius, once bishop of Constantinople, writing in exile of the council that had removed him; Quote 2; then the plain sense, that Cyril of Alexandria had led it, sitting in the place of the bishop of Rome. Then straight into the essence. It is his later verdict, not an event, so no beat repeats it. Credit it as his own view, written years later.
   2. Not chosen: the torches at nightfall (E9). A strong scene, but it tells the deposition before the beats reach it, and it is Cyril's own partisan account; cut for length, for the card.
@@ -67,22 +67,22 @@ Only Quotes 1–3 are quoted aloud. "With insult and by force", "with many tears
 - John of Antioch: acts. Not a page on the tree; the tree's texts spell "John of Antioch". Always in full, to keep him apart from Count John.
 - Theodosius II: acts, as "the emperor Theodosius II" once, then "the emperor". The tree spells "Theodosius II".
 - Candidian: acts. "Count Candidian, the emperor's officer". Not on the tree.
-- Celestine: acts (one clause). "Celestine, bishop of Rome". The tree spells "Celestine".
+- Celestine: acts (one clause in beat 1), or by role, "Rome's bishop". The tree spells "Celestine".
 - Memnon: acts. "Memnon, bishop of Ephesus". The tree spells "Memnon".
-- Count John: acts, or by role, "the emperor's new commissioner". Prefer the role.
-- Maximian: may be "a new bishop" by role.
+- Count John: by role only, "the emperor's new commissioner" (beat 6). Never "John".
+- Maximian: by role only, "a new bishop" (beat 6); his name is for the card.
 - Theodoret of Cyrrhus: link (batch). Census "Theodoret of Cyrrhus".
 - Pelagius: link (batch). Census "Pelagius".
 - Barhadbeshabba: by role, "its own history, around 600", unless named once. Census "Barhadbeshabba 'Arbaia of Halwan"; say "Barhadbeshabba" if named.
 - W. A. Wigram: named once, as a witness ("Wigram, an English historian of the Church of the East, writing in 1910").
-- Anyone else by role: Rome's envoys, Juvenal, Hefele ("a historian of the councils"), Badger ("an English visitor in 1852").
+- Anyone else by role: Juvenal, Hefele ("a historian of the councils"), Badger ("an English writer on its rites, in 1852"), unless Badger is named once in the ending.
 
-Past six names: Cyril, Nestorius, John of Antioch, Candidian and the emperor carry the story; Celestine, Memnon, Count John and Maximian can each go to a role if the count is tight; Theodoret and Pelagius are links.
+Past six names: Cyril, Nestorius, John of Antioch, Candidian and the emperor carry the story; Memnon acts in beats 3, 4 and 6; Celestine can go to a role; Count John and Maximian are given by role; Theodoret and Pelagius are links; Wigram (and Badger, if named) are credited witnesses.
 
 **Connection to carry into the story:** what passed from this council was a verdict and a confession. The verdict: Nestorius was removed and cut off, and the empire's churches held to it (E8, E17, I1). The confession: two years later, John of Antioch's bishops, who had deposed Cyril, accepted that verdict and confessed Mary Mother of God, while Cyril accepted their words "a union of two natures" (E18; PUS 5175–5223; HEF 7463–7477). At Chalcedon in 451, that letter of peace and Cyril's letter to Nestorius became the guide for the empire's churches (I1; ACTS 20256–20262). The listener must understand three things. First, that the quarrel over a name was a quarrel over Christ: whether the one born of Mary was God himself, made man (E1). Second, that the peace was real but had a price, Nestorius's deposition, and that some of John's own bishops, Theodoret among them, would not pay it (E18). Third, that the council's reach ended at the empire's border: the Church of the East, beyond it, kept Nestorius's name and never made the council its own (I3, I4). Tell it through what the bishops decided and what each church kept, not as a "this matters because" sentence.
 
 **Ending:**
-1. **Chosen. The rites that never curse the council** (I3, D6; BAD2 5921–5929). An English visitor, George Percy Badger, studying the Church of the East's books in 1852, was surprised: its rites often lament that Nestorius was cut off, yet never once formally condemn the council that cut him off. One or two sentences, credited to Badger by role or name; paraphrase. It closes on the council's own reach, held at arm's length, which is the story's point.
+1. **Chosen. The rites that never name the council** (I3, D6; BAD2 5921–5929). George Percy Badger, an English writer on the Church of the East's rites, in 1852, was surprised: its rites often refer to Nestorius's being cut off, and blame it, yet contain no formal condemnation of the council, and make no mention of the council that expelled him. One or two sentences, credited to Badger by role or name; paraphrase. Do not say "lament" or "curse": Badger says "referred to and censured". It closes on the council's own reach, held at arm's length, which is the story's point.
 2. Not chosen: Wigram's verdict as the last line (I3). It is the connection's evidence, and ends on a modern writer; keep it in What came 2.
 
 **Links**
@@ -102,7 +102,7 @@ Past six names: Cyril, Nestorius, John of Antioch, Candidian and the emperor car
 - **Candidian**, the emperor's officer, in his protest of the day (E5). His own words, the opening's force.
 - **Nestorius**, in his book, written in exile about twenty years later, surviving in Syriac (I5); and in his petition to the emperor at Ephesus (E6). Credit Quote 2 as his later view.
 - **John of Antioch's assembly**, in its sentence on Cyril, held in Latin and through Hefele's English (E10); John's side's confession, in Cyril's letter (E18).
-- **Cyril**, in his letter home (E9). Credit the torches to him.
+- **Cyril**, in his letter home (E9): the torches, for the card.
 - **Hefele**, a nineteenth-century historian of the councils, openly on Cyril's side (S2, E16, E17, E18). He is the English for the commissioner's report and the emperor's edict; the narrator credits those to the documents ("he reported", "the emperor ordered"), never adopts Hefele's own verdicts (D8).
 - **Driver and Hodgson**, the editors of Nestorius's book, for the arrests, the dates and Theodoret's refusal (E16, E18). Credit to the record or by role ("the record of the letters shows").
 - **Wigram** (1910) and **Badger** (1852), modern English outsiders, on the Church of the East (I3). Credit each by name or role where their claim is told.
@@ -124,7 +124,7 @@ Past six names: Cyril, Nestorius, John of Antioch, Candidian and the emperor car
 - Not that Rome's envoys took part in the first session. They arrived after it and confirmed it (E12).
 - Not "the pope" for Celestine. "The bishop of Rome".
 - Not "the emperor sided with Nestorius" or "with Cyril" as fact. He had all three arrested, then dissolved the council (E16, E17).
-- Not "John of Antioch" for the emperor's commissioner. He is Count John, "the emperor's new commissioner" (E16).
+- Not "John" in any form for the emperor's commissioner. Give him by role, "the emperor's new commissioner" (E16), so no listener confuses him with John of Antioch.
 - Not "the council ended in September" or a day for the dissolution. "In the autumn of 431" (E17; the editors say September, Hefele has Cyril home on 30 October).
 - Not "Cyril and John were reconciled because Cyril dropped his twelve curses". The record says only that neither side mentioned them (E18; EDITOR).
 - Not "all of Syria accepted the peace". Theodoret accepted Cyril's faith but not the deposition; others refused (E18).
@@ -134,7 +134,7 @@ Past six names: Cyril, Nestorius, John of Antioch, Candidian and the emperor car
 - Not "Chalcedon confirmed Ephesus" in Chalcedon's own words: its definition is its own story's. Paraphrase: it kept the order of faith set at Ephesus and took Cyril's letters as its guide (I1).
 - Not the council of 449 at Ephesus, Leo's "robbery", or Dioscorus: another council, told in `leo-of-rome` and `council-of-chalcedon-451`.
 - Not "today" for any church's keeping of the council.
-- Not the torches before the sentence, and not the peace of 433 before the emperor's arrests.
+- Not the peace of 433 before the emperor's arrests, and not Chalcedon before the peace.
 
 **Leave out**
 
@@ -149,7 +149,11 @@ Past six names: Cyril, Nestorius, John of Antioch, Candidian and the emperor car
 **For the card, not the story:** (cut for length)
 
 - John's letter on the road and his dead horses (E3; HEF 2933–2941); Evagrius's later view that he came late "not intentionally" (D3; EV 1303–1307).
-- The sixty-eight bishops' request to wait, beyond Theodoret's part in it (E4; HEF 2992–2997); the story keeps only Theodoret's request, in beat 7's clause.
+- The sixty-eight bishops' request to wait, Theodoret among them, by Hefele (E4; HEF 2992–2997).
+- The torches at nightfall, in Cyril's letter home (E9; M4 109177–109189; HEF 3273–3291).
+- Rome's envoys, their arrival after the first session and their confirmation (E12; ACTS 17321–17323, 17615–17625).
+- Memnon kept as bishop of Ephesus, Nestorius sent back to his monastery at Antioch, and the new bishop's name, Maximian (E17).
+- Cyril's reply of 433, "Let the heavens rejoice, and let the earth be glad" (E18; PUS 5120–5124; ACTS 19428–19430).
 - Socrates's different order of events (D2; SOC 20900–20914) and his date of 28 June (D1).
 - The letter of Capreolus of Carthage (E7; ACTS 17237–17247).
 - Canon VIII on Cyprus and the Messalians' condemnation (E15).
