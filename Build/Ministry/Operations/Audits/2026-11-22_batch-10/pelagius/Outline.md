@@ -145,3 +145,50 @@ In order; a writer drops item 1 first. Words saved by the count's method (fact 1
 14. Ending: Augustine's quotation of the letter to Innocent proving authorship (PL30 73-81; NPNF105 11255). To the card. The ending closes on the letter printed among the works of Jerome, who wrote against the Pelagians. Saves 11.
 
 Count before the list 766 by the batch count (about 832 by the outline check's recount); the list saves 168; count after about 598 (about 664 by the recount), under the approved 675.
+
+## What it was about
+
+Each charge, teaching, book, quarrel or decision the final brief names, with the three `Gaps.md` raises (items 7, 8 and 20). Lines refer to the Source sheet's short names; every line cited here was re-read in `cic/texts/`.
+
+1. **The letter to Demetrias.** Explain: already explained. God made human nature good and free to choose; her spiritual riches come only from herself. Pelagius, PL30 168-171, 811-817. Documented.
+2. **His teaching.** Explain: already explained. God made human nature able, by God's gift, to choose the good and live without sin. Pelagius, NPNF105 10381, 10388. Documented.
+3. **Augustine answered him book by book.** Explain: already explained, by item 17: what Augustine said Pelagius made grace mean. Augustine, NPNF105 11236, 11255. Contested (what he meant).
+4. **The warning to Demetrias's mother.** Explain: already explained. Goodness might live in her, but did not come from her. Augustine and Alypius, PL33 62421-62424; CSEL57 4512-4515. Documented.
+5. **Caelestius as his follower.** Explain: already explained (a follower, no charge named at this point). Augustine, NPNF105 11614. Documented.
+6. **The book on nature.** Leave it out: Augustine says it made God's grace mean the nature God created, with free will (NPNF105 10295); item 17 already gives Augustine's reading of his grace, so explaining this book would repeat it, and the sentence is an event the length cannot carry. Cut in Room for it.
+7. **The written charges from the two bishops of Gaul (Gaps 2).** Explain, through item 8: the charges included statements drawn from Caelestius, read out at Diospolis. The synod record, as Augustine quotes it, NPNF105 9487, 9882-9883. Documented.
+8. **The statements drawn from Caelestius (Gaps 1).** Explain: that Adam's sin harmed only Adam, and that newborn babies are as Adam was before he sinned. Credit: the charges, as the synod record has them (Augustine quotes it); Pelagius disowned them, NPNF105 9882-9883, 10263. Documented. The Outline's Leave out ("Caelestius's propositions on Adam and infants") and its Do not say on original sin give way for these two statements only, under "Explain it or leave it out" (2026-11-23): they are told as Caelestius's, charged against Pelagius and disowned by him, never as Pelagius's teaching.
+9. **His answer at Diospolis.** Explain: already explained. A man can be without sin and keep God's commandments if he wishes. Pelagius, NPNF105 10381. Documented.
+10. **The Diospolis verdict.** Explain: already explained. Declared a member in good standing of the church. The synod, NPNF105 10270. Documented.
+11. **Augustine's judgment of Diospolis.** Explain: already explained. The judges were right on what they heard, but Pelagius did not appear cleared to him. Augustine, NPNF105 10277. Documented.
+12. **The Bethlehem report.** Explain: already explained. Beating, a deacon killed, houses burned; told as a report. Augustine, NPNF105 10590. Inferential-Thin (who did it).
+13. **Innocent's condemnation, early 417.** Explain: already explained in substance: it condemns the teaching set out in the essence. Innocent's own grounds (Ep. 181) are held only in the damaged PL33 OCR and Warfield's summary (NPNF105 922), so nothing is added. Prosper, PROSPER 53816-53818; Augustine, NPNF105 10621. Documented.
+14. **His letter to Innocent.** Explain: already explained. He always added the help of God's grace. Pelagius, NPNF105 11255. Documented.
+15. **Zosimus's letter, September 417.** Explain: already explained. No passage left out God's grace; men of complete faith had been slandered. Zosimus, AVELL 11222-11230. Documented.
+16. **The emperor's order, 30 April 418.** Explain: already explained. Caelestius and Pelagius driven from Rome; anyone spreading their teaching tried and exiled. The emperor, MANSI4 44536-44538, 44559-44560. Documented.
+17. **The Carthage rulings, 1 May 418, and Augustine's reading that year.** Explain: already explained. Grace does not only forgive or teach; it helps us do the good. Council, NPNF214 36504-36506, 36522-36527; Augustine, NPNF105 11236, 11255. Documented; what he meant: Contested.
+18. **Rome's condemnation under Zosimus.** Explain: already explained in substance: Rome approved the Carthage decrees (item 17). Augustine, NPNF105 10621; Prosper, PROSPER 53876-53878. Documented.
+19. **Britain, 429.** Explain: already explained: the same teaching spread in Britain's churches. Prosper, PROSPER 54151-54156. Documented.
+20. **Cassian's charge against the bishop of Constantinople (Gaps 3).** Explain: both, Cassian wrote, made Christ a mere man who lived without sin, so others could be without sin too. Credit: John Cassian, an opponent, as his charge. NPNF211 48715-48718, 48740-48744. Documented (that Cassian charged it); that Pelagius himself taught it: Inferential-Thin (no held text of his says so).
+21. **Ephesus, 431.** Explain: already explained: it upheld the sentence on the Pelagians. The council's letter to Rome, NPNF214 18748-18753. Documented.
+22. **Jerome, who had written against the Pelagians.** Explain: already explained in substance: against the teaching the story sets out. NPNF206 1872. Documented.
+
+Explained anew: 3 (items 7, 8, 20; 7 through 8's sentence). Left out: 1 (item 6). Already explained: 18.
+
+## Room for it
+
+Count before: 674 words by `python -m engine.m1.profile_readability` (the kit's count); `wc -w` gives 685. Approved: at most 675.
+
+Added (kit count):
+- Item 8 (and 7): "He said the statements drawn from Caelestius were not his, and condemned them." (13) becomes "Some charges came from Caelestius: that Adam's sin harmed only Adam, and newborn babies are as Adam was before he sinned. Pelagius said these were not his, and condemned them." (30). Adds 17.
+- Item 20: "charged that the bishop of Constantinople taught what the Pelagians had taught before him." (14) becomes "charged the bishop of Constantinople with the Pelagians' error. Both, he wrote, made Christ a mere man who lived without sin, so others could too." (25). Adds 11.
+
+Total added: 28.
+
+Cut, events before meanings (Kit Part 3, Length):
+1. "Augustine answered a book of his on nature, but left his name out, he says, to stay on good terms." The whole sentence (item 6, Leave it out). An event; Augustine's reading of his grace stays in the 418 paragraph. Saves 20.
+2. "then hurried on across the sea, to Palestine." becomes "then sailed on to Palestine." The journey stays. Saves 3.
+3. "at Diospolis, the old Lydda." becomes "at Diospolis." A place gloss; the scene stays. Saves 3.
+4. "Writing with a fellow bishop, Augustine even warned" becomes "Writing with a fellow bishop, Augustine warned". Saves 1.
+
+Total cut: 27. Count after: 675 by the kit's count (686 by `wc -w`), at the approved 675. Kept: the heart, the Diospolis scene and its doubt, the Bethlehem report, the emperor's order, "poison", the condemnation, every witness credit, and Britain 429. Checked on a scratch copy with all six changes made: 675 words, grade 7.4, reading ease 79.1, longest sentence 28 words, pass.

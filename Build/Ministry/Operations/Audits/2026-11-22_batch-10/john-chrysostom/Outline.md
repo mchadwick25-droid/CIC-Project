@@ -39,3 +39,10 @@ Explained: 5 (items 7, 9, 10, 13, 15). Left out: 4 (12, 14, 17, and John's Arian
   7. Last paragraph: "of Constantinople" from "Bishop Proclus of Constantinople" (2), and "back to the city in procession" becomes "back to Constantinople" (3).
 - **Kept whole:** the Eutropius scene and both its witnesses, the Matthew line, the Palladius credits, "Socrates says that turned the tide against him", the grudge, the Oak, the refusal, the recall, the exile, the march to Pityus, the last words, and Proclus's reconciliation.
 - **After:** by a full trial draft, 449 words with cut 7 as revised below. If the writer lands over 450, cut next "the eastern capital" only if Constantinople is placed elsewhere, never an explanation, the hook's "himself", or a credit.
+
+
+**Essence** (added from the fresh read, `Fresh_Read_About.md` BLOCKING 1, word for word): "He preached plainly about the poor, and his blunt words to the powerful led to his exile." Sources: Socrates VI.5 (17316-17320), with the census entry.
+
+**Do not say** (added from the fresh read, word for word):
+- "Do not say his preaching on the poor led to his exile. Socrates ties the exile to his rebukes of men in power."
+- "Do not say Theophilus held a grudge as fact. It is Socrates's reading."

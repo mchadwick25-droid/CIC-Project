@@ -152,3 +152,53 @@ In order; a writer drops item 1 first. Counted by `Length_Count.md`'s method (qu
 12. **Beat 1**, "from the office of reader", with its gloss. Keep "made bishop at thirty". To Leave out. Saves 8.
 
 Count before the list 872; the list saves 205; count after 667, under the approved 675.
+
+## What it was about
+
+Each charge, teaching, book, quarrel or decision the final brief names, with the two blind reads' leads (`Gaps.md`). Files under `cic/texts/`; abbreviations as in `Source_Sheet.md` (NP2 is `npnf202_socrates-sozomen-ecclesiastical-histories.xml`). Every line cited was re-read for this pass.
+
+1. **The persecution that drove him out** (opening; the beat 2 sentence). Already explained: a persecution of the Christians in the Goths' land, with many martyrs. Auxentius gives no earthly cause, only "the envy and working of the enemy", the devil (AUX 15261-15268). No held text says why the judge acted (`Gaps.md` lead 2). Documented as Auxentius tells it. Nothing to add; the beat 2 repeat goes (Room for it, cut 4).
+2. **The crossing as Exodus** (Q1). Already explained: God freed the confessors from the Goths' land as he freed Israel from Egypt; glossed after the quote. Auxentius (AUX 15268-15277). Documented.
+3. **The letters and the Scriptures in Gothic.** Already explained: he made an alphabet and put Scripture into Gothic. Philostorgius, Socrates, Sozomen (PHI 120; NP2 14448-14459, 40178-40179). Widely Accepted.
+4. **The creed that called the Son like the Father.** Already explained in the teaching paragraph and the Homoian gloss. Auxentius (AUX 15114-15118, 15167-15176). Documented.
+5. **"Arian", and Sozomen's "followed Arius".** Explain: his opponents named the faith after Arius, a priest who taught that the Son had a beginning, "a time when the Son was not". Socrates, a Nicene historian, reporting Arius (NP2 2075-2097; the opponents' name, NP2 14446-14449, 40180-40181). Documented that Socrates says it; told as the opponents' name, never the narrator's label.
+6. **Philostorgius's Gothic embassy at his consecration.** Leave it out: no held text says what the embassy was for; Philostorgius says only that the Gothic king sent him (PHI 120). Say "at the emperor's court".
+7. **The consecration by Eusebius.** Already explained: Philostorgius's "Eusebius and other bishops", the modern historian's Nicomedia. PHI 120; DUC 20991-20995. Contested; the name Dominant Modern Reconstruction.
+8. **The Books of Kings left out.** Already explained: Philostorgius says they told of war, and the Goths loved war already (PHI 120). Documented that he says it.
+9. **The Gothic Bible fragments.** Already explained: no translator's name; the 1908 editor's attribution. Streitberg (STR 603-607). Dominant Modern Reconstruction.
+10. **Nicaea's "of one being", and the "devilish invention".** Already explained: Nicaea said the Son shares the Father's very being, and Ulfila spurned it. Auxentius (AUX 15139-15142). Documented.
+11. **The creed of Constantinople, 360, banning "substance".** Explain: the creed dropped the word because, it said, Scripture never uses it and it confused the people; Scripture calls the Son like the Father. The creed's own text in Socrates (NP2 9564-9573; Sozomen's account, NP2 34561-34567). Documented.
+12. **The quarrel over when he took the creed.** Already explained: three historians' answers, and why it matters (the Goths' faith in their day). NP2 9606-9612, 40158-40171; THD 15309-15315. Contested; each credited.
+13. **Socrates putting the Goths' faith down to Valens.** Explain: in a Gothic civil war Valens sent troops to help the chief Fritigern, who took the emperor's faith out of gratitude and led his people into it. Socrates (NP2 14428-14449); Sozomen tells the same (NP2 40146-40156). Documented that each says it. Fritigern by role ("a chief").
+14. **Sozomen's "under pressure": the embassy under Valens.** Explain: Ulfila led an embassy asking land for the Goths; the leaders of the other side, Sozomen's "Arian faction", promised to forward it if he agreed with them. Sozomen (NP2 40141-40146, 40163-40171). Documented that Sozomen says it; the motive Contested, as Sozomen himself leaves it ("or, possibly").
+15. **Theodoret's charge of eloquence and bribes.** Already explained, credited to Theodoret as a hostile witness (THD 15309-15315). Contested; Theodoret's charge.
+16. **Athanaric's persecution.** Explain: Athanaric took Ulfila's teaching of his people as a breach of his ancestors' religion, and punished the Christians. Socrates (NP2 14460-14465). Documented that Socrates says it.
+17. **The debate at Constantinople** (`Gaps.md` lead 1). Explain: Auxentius says he went to stop his opponents from teaching in, and troubling, the churches given to his care (AUX 15283-15285). The opponents' name is damaged and editor-restored (STR 866-868), so the story says "his opponents" and names no party. Documented for the purpose; the opponents' name Inferential-Thin, not told.
+18. **His creed left by testament.** Already explained: the two lifted phrases quoted, the rest in the narrator's words; the deathbed creed sentence stays barred (Mark's ruling). Auxentius (AUX 15301-15306, 15324). Documented.
+
+Explain 6 (items 5, 11, 13, 14, 16, 17); leave out 1 (item 6); 11 already explained.
+
+## Room for it
+
+Counted with `python -m engine.m1.profile_readability`, the kit's count. The brief now: 669 (`wc -w` 672). Limit 675.
+
+**What the explanations add** (narrator's words, no new quotes):
+- Item 5: after "His opponents called that faith Arian," add "after Arius, a priest who taught that the Son had a beginning." +12.
+- Item 11: after 'banned the word "substance" for God,' add "saying Scripture never uses it." +5.
+- Item 13: after "Socrates puts it down to the emperor Valens," add "whose help in a Gothic civil war won a chief over to his faith." Then "But Sozomen says ..." as its own sentence. +14.
+- Item 14: "on an embassy for the Goths" becomes "on an embassy seeking land for the Goths", then "The other side's leaders promised to help it if he joined them. He did, under pressure or perhaps from conviction." +16.
+- Item 16: "who in a later persecution punished the Christians" becomes ". The chief took this as an attack on his ancestors' religion and punished the Christians" (the later persecution stays plain from "Under Valens"). +7.
+- Item 17: after "to Constantinople for a debate," add "to stop his opponents teaching in his churches." +8.
+- Total +62. Without cuts, 731.
+
+**What goes**, events before meanings:
+1. In the essence: "and the Greek historians disagree on when he took it" (the scene tells the doubt in full). −10.
+2. The forebears sentence, whole: "Philostorgius, a historian of the next century, says Ulfila's forebears were Christian captives from Cappadocia, carried off by Gothic raiders, who won many Goths to the faith." To the card. His introduction, "a historian of the next century", moves to the next Philostorgius sentence (+6). Net −21.
+3. Item 6: "during a Gothic embassy to" becomes "at": "Philostorgius, a historian of the next century, says it was at the emperor's court". Net −4.
+4. In beat 2: ", until a godless Gothic judge raised the persecution with tyrannical terror" (the opening already tells the persecution and its martyrs; the force stays there). −11.
+5. "about fifty bishops" becomes "the bishops". To the card. Net −1.
+6. "After forty years, as Auxentius counts them," becomes "Later". The count goes to the card. Net −6.
+7. "by Eusebius and the other bishops with him" becomes "by Eusebius and other bishops". Net −3.
+- Total −56.
+
+**Count after:** 669 + 62 − 56 = 675, at the approved 675 (tested on a scratch copy: 675 by the kit's count, `wc -w` 678; grade 8.2, reading ease 73.4, longest sentence 27 words, pass). Kept: the opening crossing and Q1, the persecution and martyrs, the creed and Nicaea's word refused, the four-witness doubt scene with Theodoret's charge, Athanaric's martyrs, the death and the creed by testament, every needed witness credit.
