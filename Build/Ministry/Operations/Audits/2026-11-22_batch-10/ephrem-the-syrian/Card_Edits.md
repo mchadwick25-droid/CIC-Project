@@ -36,3 +36,11 @@ Starting card kept unchanged as `Card.pass2.json`; edits made in `ephrem-the-syr
 Skipped: outline item 10 (Narsai's quarrel): the brief names none, nothing to add. The outline's confidence notes on Mani's body-as-prison wording, Marcion (Ephrem only) and the schools ("began with Ephrem") are not marked for the card; the brief already credits each to its witness, so no `uncertain` entries added. The quotation's `uncertain` note (hospitaller, "on your behalf") left as is.
 
 Validator (`--skip-quotes`, scratch census with this card and the new brief in the entry): the only error is the missing `secondReading` noted in edit 3, which release sets. Against the old brief text in the entry, it also reports the quotation mismatch, as expected.
+
+## Card check applied (2026-11-23)
+
+`Card_Check_About.md` (FIX, three changes), applied word for word: FIX 1, the Bardaisan `uncertain` entry reworded as given; FIX 2, the Epiphanius (Panarion 56) and Book of the Laws of Divers Countries entries inserted in `sources.about` after the editor's note on Bardesanes; FIX 3, the Palladius `briefReferences` entry "the exchange, \"See, ..." → "the exchange, in modern English, \"See, ...".
+
+## Second reading (2026-11-23)
+
+`../About-Pass/Second-Reading/Second_Readings.md`: B10A-01 MINOR; `quotationOriginals[0].secondReading` set to "minor".
