@@ -94,3 +94,7 @@ Written to `Card.pass2.json` (copy of `council-of-ephesus-431.card.json`, every 
 ### Validator
 
 `node tools/validate-census.mjs --skip-quotes` on a scratch copy of the census with this card and the new brief in place: 0 errors (no errors for this entry).
+
+## Card check applied (2026-11-23)
+
+`Card_Check_About.md` (FIX, two changes), applied word for word: `decided[6]` "which condemned Pelagius and Celestius" → "held against the heresy of Pelagius and Caelestius"; `uncertain[7]` "held only in the Latin" → "held in the Latin".
