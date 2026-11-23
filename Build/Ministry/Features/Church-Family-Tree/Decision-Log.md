@@ -5607,3 +5607,13 @@ Mark: "option A for the player question". The question was audio question 3 on t
 **Decided.** Option A as the page gave it: "Fix the text now, re-record in order. A fixed story goes live as text, and its player disappears until it's re-recorded. Re-recording follows the fix order, a batch at a time under a credit cap you approve each time, with a sample for your ear first. Batch 10 is recorded once its twelve are fixed, within the 24,000 you approved."
 
 **What it changes here.** A recorded piece no longer waits for credits to be fixed. Its text fix goes through the build cycle like any other; the ranked list then orders the re-recording, and until then the piece is text only. The site's existing fingerprint check already hides the stale player (confirmed by the audio completion thread).
+
+## 2026-11-23 — Modern opinion: a separate pass, and where a modern scholar may stand
+
+Mark: "ok we found another problem, that i want to inlcude, some of the briefs and stories are using modern interpritation, we are committed to original sources and things close to the time, not speculation." Then: "more current scholors can be used as sources if they are historical and source bound, but not referenced in the text of the briefs and stories. they if they are needed then they go in the reference list after the story or brief." Then: "yes a seperate modern0opinion pass a."
+
+**Found.** The batch 10 thread logged Mark's ruling "No modern opinion, guess or reconstruction in a story" the same day (its Decision-Log, branch `claude/happy-ritchie-u8wn8l`). A word search of the 1,079 recorded pieces marks 362 sentences in 243 pieces as candidates; it cannot find a modern date or identification given with no writer named.
+
+**Decided.**
+1. A modern scholar may be a source where the work is historical and bound to the old sources, but is never named or referred to in the text of a brief or story. Where a credit is needed it goes in the reference list after the story or brief. A guess, speculation or reconstruction is not told in the story. The batch 10 thread was sent these words, since its kit line sends a modern view "to the card".
+2. A separate modern-opinion pass reads every recorded piece for this alone (`Build/Ministry/Operations/Audits/2026-11-23_what-and-why-rank/Modern_Reader_Prompt.md`), with the word search's sentences marked as a starting point. Each finding is weighed against the heart like a bare statement and joins the same rank. The bare-statement scan is unchanged.
