@@ -12,9 +12,9 @@ How the dedicated source-research thread works. `CLAUDE.md` 3.4 points here. Mov
 
 Before searching, check `CORPUS-USE.md`'s tier method against the new worlds: named-never-opened, same time and place, same time and different region, out of window. Much of what's needed may already sit unused among the vendored files.
 
-## Known blocker
+## Hosts a script cannot reach
 
-The sandbox blocks the patristic text hosts outright, regardless of real scarcity. Widening that network policy is a live open item.
+The environment's network is unrestricted. Some hosts, such as HathiTrust, block automated clients themselves with a browser check. Their items are fetched by a person in a browser, and each one is logged as wanted until then.
 
 ## Keep sessions fresh
 
