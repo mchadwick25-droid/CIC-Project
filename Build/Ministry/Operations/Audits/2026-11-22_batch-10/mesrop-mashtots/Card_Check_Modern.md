@@ -15,7 +15,7 @@ Check pass of `roles/card.md` on `mesrop-mashtots.card.json`. Starting card: `Ca
 ## What fails
 
 1. `uncertain[19]` credits Langlois but does not mark his dates as modern, as the pass requires.
-2. `uncertain[20]` says more than Moses's lines hold. The plain from the Araxes runs "jusqu'à la forteresse qui est appelée Hénaraguerd" (T2 13016-13017). The north-east country "près du Cyrus" is the one given to Aran (T2 13011-13013), not the Aghouank plain.
+2. `uncertain[20]` says more than Moses's lines hold. The plain from the Araxes runs "jusqu'à la forteresse qui est appelée Hénaraguerd" (T2 13014-13015). The north-east country "près du Cyrus" is the one given to Aran (T2 13006-13009), not the Aghouank plain.
 3. The brief's "a Christian people" now rests on Eghishe (Outline, Words to explain and Modern pass 2: T2 26944-26946, 29194-29195), not on the census. The card gives no reference for Eghishe, and `sources` does not list his work.
 4. Older modern views are credited by name but not marked as modern, the same standard the other batch-10 checks applied.
 
@@ -30,12 +30,12 @@ Check pass of `roles/card.md` on `mesrop-mashtots.card.json`. Starting card: `Ca
 **A2. `uncertain[20]`, third sentence**
 - Old: `Moses of Khoren puts the Aghouank plain and its mountain region from the Araxes toward the Cyrus, in the north-east, and names the people of the mountain of the Caucasus beside the Aghouank and the Iberians.`
 - New: `Moses of Khoren gives the house of Sissag the Aghouank plain and its mountain region, from the Araxes to the fortress called Hénaraguerd, and gives Aran, of that house, the great country of the north-east near the Cyrus. He also names the people of the mountain of the Caucasus beside the Aghouank and the Iberians.`
-- Evidence: T2 13010-13018, 14132-14135.
+- Evidence: T2 13006-13018, 14132-14135.
 
 **A3. `briefReferences`, new entry after `briefReferences[5]` (the Moses Aghouank entry)**
 - Old: (none)
 - New: `Eghishe, History of Vartan: the Aghouank among those faithful to the Gospel of Christ, and their general with the province's holy bishop.`
-- Evidence: T2 26944-26946 ("des Aghouank, et tous ceux qui étaient fidèles au saint Évangile du Christ"), 29194-29195 ("le général en chef des Aghouank ... avec le saint évèque de la province").
+- Evidence: T2 26944-26946 ("des Aghouanky et tous ceux qui étaient fidèles au saint Évangile du Christ", OCR), 29194-29195 ("le général en chef des Aghouank ... avec le saint évèque de la province").
 
 **A4. `sources.about`, new entry after the Lazar of Pharp entry**
 - Old: (none)
