@@ -145,3 +145,6 @@ Nine already explained, three to explain (6, 8, 9), five left out (7, 10, 12, 13
   8. "Koriun calls them defenders of the true faith." (item 12). −8
   9. "in the New City" (the death place, to the card). −4
 - **Count after:** 674 + 6 + 23 + 20 − 66 = 657, at or under 675 (checked by `python -m engine.m1.profile_readability` on a trial copy). Kept: the vision, the essence, the Borborites' force in full, every witness credit, the death scene and the closing image.
+
+
+**Do not say** (added from `Fresh_Read_About.md` BLOCKING 1, word for word): "'He fought the Borborites' after a sentence whose subject is Sahak or the emperor" → "Mesrop fought the Borborites".
