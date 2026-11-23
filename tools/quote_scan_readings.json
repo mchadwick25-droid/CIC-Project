@@ -876,6 +876,62 @@
    "scan": "mans urbis",
    "reads": "manae urbis",
    "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/augustine_epistulae-critical_goldbacher-csel57-pars4.txt",
+   "lines": "4513",
+   "scan": "possnnt",
+   "reads": "possunt",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/augustine_epistulae-critical_goldbacher-csel57-pars4.txt",
+   "lines": "4513",
+   "scan": "boua",
+   "reads": "bona",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/augustine_epistulae-critical_goldbacher-csel57-pars4.txt",
+   "lines": "4514",
+   "scan": "ni.i in te",
+   "reads": "nisi in te",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/augustine_epistulae-critical_goldbacher-csel57-pars4.txt",
+   "lines": "4514",
+   "scan": "optinie",
+   "reads": "optime",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/augustine_epistulae-critical_goldbacher-csel57-pars4.txt",
+   "lines": "4514",
+   "scan": "uerissiine",
+   "reads": "uerissime",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/augustine_epistulae-critical_goldbacher-csel57-pars4.txt",
+   "lines": "4514",
+   "scan": "piane",
+   "reads": "plane",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/augustine_epistulae-critical_goldbacher-csel57-pars4.txt",
+   "lines": "4515",
+   "scan": "oinniuo",
+   "reads": "omnino",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/augustine_epistulae-critical_goldbacher-csel57-pars4.txt",
+   "lines": "4515",
+   "scan": "uirns",
+   "reads": "uirus",
+   "kind": "OCR misread"
   }
  ]
 }
