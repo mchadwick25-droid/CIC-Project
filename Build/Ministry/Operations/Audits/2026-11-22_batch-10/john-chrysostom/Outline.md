@@ -65,3 +65,6 @@ Done 2026-11-23 under the Decision-Log entry "No modern opinion, guess or recons
 **Beats changed.** Item 1 and Room for it, cut 1, above; three Do not say lines added.
 
 Words: 445 by `python -m engine.m1.profile_readability` (was 450), grade 8.2 (names out 7.2), reading ease names out 71.4, longest sentence 29: pass.
+
+
+**Do not say** (from `Fresh_Read_Modern.md`, word for word): "Do not call Palladius John's companion, or say he stood by John to the end. The Dialogue is anonymous; its author's identity with Palladius of Helenopolis is the translator's view (Moore, introduction, 730-756, 895-903). Say he wrote John's life and took his side (Photius, 9984-9986; Palladius 6411, 6418)."
