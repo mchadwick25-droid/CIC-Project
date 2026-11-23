@@ -25,7 +25,7 @@
 
 ## BLOCKING
 
-**B1. The creed quote runs past the lifted phrase.** The brief has: "subject and obedient in all things to his God the Father." The slate lifts only "subject and obedient in all things", as the live `arius` story quotes it ("yet "subject and obedient in all things" to the Father"). Mark's ruling (item 2) is that the creed is told "in the narrator's words, with the two lifted phrases quoted". "to his God the Father" is the barred creed's own wording (AUX 15317-15318: "filium subditum et oboedientem suo in omnibus deo patri"). The outline's Q3 carried the longer span, so the outline left room for this.
+**B1. The creed quote runs past the lifted phrase.** The brief has: "subject and obedient in all things to his God the Father." The slate lifts only "subject and obedient in all things", as the live `arius` story quotes it ("yet "subject and obedient in all things" to the Father"). Mark's ruling (item 2) is that the creed is told "in the narrator's words, with the two lifted phrases quoted". "to his God the Father" is the barred creed's own wording (AUX 15324: "filium subditum et oboedientem suo in omnibus deo patri"). The outline's Q3 carried the longer span, so the outline left room for this.
 *Change:* close the quote after "all things": of the Son, "subject and obedient in all things" to his God the Father. No word cost.
 *Do not say (add to the outline):* "Q3's second phrase quoted past 'in all things' → the lifted span is 'subject and obedient in all things'; 'to his God the Father' follows in the narrator's words, outside the quote marks."
 
@@ -46,7 +46,7 @@ The brief is 722 words by the scorer. These seven cuts take it to **669** (check
 1. **Paragraph 3:** "In the middle of the three-hundreds, Ulfila gave the Goths letters" → "Ulfila gave the Goths letters". Saves 6. (Also fixes B2 and MINOR 1.)
 2. **Paragraph 3:** "the barbarians' land was the Goths' country beyond the frontier" → "the barbarians' land was the Goths' country". Saves 3.
 3. **Paragraph 4:** "A modern historian takes this Eusebius for the bishop of Nicomedia, at the court of Constantine's son Constantius." → "A modern historian takes this Eusebius for the bishop of Nicomedia." Saves 7. (Philostorgius's "the emperor's court" still holds the place, as the outline's Do not say allows.)
-4. **Paragraph 12:** "As he entered the city, his opponents were having second thoughts about the council the emperor had promised, and at once he fell ill." → "As he entered the city, he fell ill at once." Saves 14. (Removes the point where the listener gets lost.)
+4. **Paragraph 11:** "As he entered the city, his opponents were having second thoughts about the council the emperor had promised, and at once he fell ill." → "As he entered the city, he fell ill at once." Saves 14. (Removes the point where the listener gets lost.)
 5. **Paragraph 9:** "Sozomen says he signed in 360 from thoughtlessness" → "Sozomen says he signed from thoughtlessness". Saves 2. (The year is in the paragraph before.)
 6. **Paragraph 6:** "their editor in 1908 had no doubt they were Ulfila's, made from the Greek." → "their editor in 1908 had no doubt they were Ulfila's." Saves 4.
 7. **Paragraph 10:** delete the whole sentence "Sozomen reports a story that Athanaric's men burned those who refused to sacrifice, together with their tents." Saves 17. (Socrates's "punished the Christians, so that many died as martyrs" keeps the force.)
@@ -56,5 +56,5 @@ Total saved: 53. 722 − 53 = 669, under 675.
 ## Source check
 
 - Q1 checked against AUX 15272-15277 (with STR's "populum"). The rendering matches the outline word for word and the Latin clause by clause.
-- "Alone unbegotten" (AUX 15308, "solum ingenitum") and the testament's "semper sic credidi ... in hac fide sola ... transitum facio" (AUX 15304-15305) hold. On "subject and obedient", see B1.
+- "Alone unbegotten" (AUX 15310, "solum ingenitum") and the testament's "semper sic credidi ... in hac fide sola ... transitum facio" (AUX 15304-15305) hold. On "subject and obedient", see B1.
 - Every other sentence traces to the outline and its lines: PHI 120 (forebears, embassy, "Eusebius", letters, Kings); AUX 15117-15118, 15130-15142 (unbegotten, maker of all creation, "a devilish invention"); AUX 15240-15290 (thirty, starved of preaching, the judge, the forty years, the illness); NP2 9606-9612, 14444-14465, 34561-34567, 40158-40194; THD 15309-15315; STR 603-607, 1684-1686; DUC 20993-20995. The Do not say list is honoured throughout. No unsupported claim was found beyond B2.
