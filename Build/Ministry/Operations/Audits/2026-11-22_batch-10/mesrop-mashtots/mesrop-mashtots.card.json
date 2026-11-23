@@ -82,13 +82,15 @@
         "title": "Le Synaxaire arménien de Ter Israël, month of Navasard, 30 Navasard, in Patrologia Orientalis 5 (tr. G. Bayan)",
         "date": "1910",
         "language": "French translation",
-        "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt"
+        "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+        "author": null
       },
       {
         "title": "Le Synaxaire arménien de Ter Israël, month of Tré, 17 Tré, in Patrologia Orientalis 16 (tr. G. Bayan)",
         "date": "1922",
         "language": "French translation",
-        "file": "cic/texts/patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922.txt"
+        "file": "cic/texts/patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922.txt",
+        "author": null
       },
       {
         "title": "Georgian chronicle (Kartlis Tskhovreba), Histoire de la Géorgie, part 1, tr. Marie-Félicité Brosset, with his notes",
