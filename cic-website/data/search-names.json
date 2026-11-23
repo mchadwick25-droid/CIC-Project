@@ -271,8 +271,8 @@
    "basis": {
     "source": "tree",
     "entry": "coptic-christianity-under-early-islam",
-    "field": "longDescription",
-    "text": "Two European scholars, Hiob Ludolf in 1691 and Eusèbe Renaudot in 1713, read the Copts as having helped the conquerors."
+    "field": "documentedStories.0.text",
+    "text": "the Copts rose in revolt"
    }
   },
   {
@@ -295,6 +295,39 @@
     "entry": "aksumite-christianity",
     "field": "experienceToday.0.text",
     "text": "The Church of Our Lady Mary of Zion at Axum, Ethiopia — on the site of the kingdom's original cathedral, beside the Aksumite stelae field"
+   }
+  },
+  {
+   "name": "Hicksite",
+   "kind": "other name",
+   "entry": "nineteenth-century-quakerism-separations",
+   "basis": {
+    "source": "tree",
+    "entry": "nineteenth-century-quakerism-separations",
+    "field": "relationsSummary",
+    "text": "The Hicksite separation of 1827–28 was the defining split of the century for the Society of Friends."
+   }
+  },
+  {
+   "name": "Campbellite",
+   "kind": "other name",
+   "entry": "the-stone-campbell-restoration-movement",
+   "basis": {
+    "source": "tree",
+    "entry": "the-stone-campbell-restoration-movement",
+    "field": "documentedStories.0.teaser",
+    "text": "A frontier preacher called Raccoon John tells them to be no longer Campbellites or Stoneites, and the two old men give each other their hands."
+   }
+  },
+  {
+   "name": "Stoneite",
+   "kind": "other name",
+   "entry": "the-stone-campbell-restoration-movement",
+   "basis": {
+    "source": "tree",
+    "entry": "the-stone-campbell-restoration-movement",
+    "field": "documentedStories.0.teaser",
+    "text": "A frontier preacher called Raccoon John tells them to be no longer Campbellites or Stoneites, and the two old men give each other their hands."
    }
   }
  ]
