@@ -24,3 +24,18 @@ Move the paragraph only, with no change to any word. Current paragraphs 2 and 3 
 - **New order:** (1) "About 413, Pelagius wrote to Demetrias ..." (2) "Pelagius, a monk from Britain who taught at Rome, held that ... The teaching that bears his name was ruled out of the church." (3) "Writing with a fellow bishop, Augustine even warned Demetrias's mother against the book. ..." (4) "He lived long at Rome ..."
 
 After the move, `Fresh_Read_Applied.md`'s line for finding 1 becomes true, and all five points are met.
+
+
+Coordinator (2026-11-23): the checker's fix applied: paragraphs 2 and 3 swapped, no word changed (the word lists before and after are identical).
+
+## Recheck after the move (2026-11-23)
+
+The brief as it now stands is identical to the test copy above. The only change is that paragraphs 2 and 3 have swapped. A word-by-word comparison with `pelagius.brief.v2.txt` shows only the fresh read's own edits.
+
+1. **Met.** The essence paragraph now follows the hook and ends at word 150. The Britain by 429 sentence is still in, word for word.
+2. **Met.** Nothing was added beyond the fresh read's wording.
+3. **Met.** "But Augustine of Hippo answered him book by book" introduces him. "Writing with a fellow bishop, Augustine even warned Demetrias's mother against the book" then builds on it. The warning is told once, as the essence's reach-ahead. No event is told twice. The return to "He lived long at Rome" is the order the fresh read set out.
+4. **Met.** The Britain sentence is supported at PROSPER 54148-54155, unchanged from the check above.
+5. **Met.** 674 words, grade 7.4 (names out 5.9), reading ease names out 79.3, longest sentence 28 words, pass.
+
+## Verdict: PASS

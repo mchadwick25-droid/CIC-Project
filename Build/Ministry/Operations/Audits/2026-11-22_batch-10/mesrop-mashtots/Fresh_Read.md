@@ -78,3 +78,19 @@ No factual error found.
 4. **MINOR: one sentence past 30 words.** "With the king and Sahak, the catholicos who led the Armenian church, he began putting the Scriptures into Armenian and founded schools on both sides of the Persian and Roman border" is 31 words. Split it after "church": "He worked with the king and with Sahak, the catholicos who led the Armenian church. Together they began putting the Scriptures into Armenian and founded schools on both sides of the Persian and Roman border."
 
 None of these is an error the outline left room for, so no Do not say line is added.
+
+## Trims to 675
+
+I read the brief as it stands after the four minor fixes: 698 words by the scorer. Finding 2 was applied with a leftover tail. The sentence now reads "...and the bishop named him a preacher, who named him a preacher." Trim 1 removes that duplicate. It is a correction, not a cut. The other trims touch no part of the heart, no force, no credit, no gloss and no wording the fixes added.
+
+1. "and the bishop named him a preacher, who named him a preacher." → "and the bishop named him a preacher."
+2. "He came from Daron, learned Greek as a boy, and kept the king's decrees in the royal archives." → "He learned Greek as a boy and kept the king's decrees." ("royal secretary" in the essence already carries the archives. Daron, a place heard once, goes to the card.)
+3. "living on herbs, in a hair shirt, sleeping on bare ground" → "living on herbs and sleeping on bare ground"
+4. "preaching to new converts was hard" → "preaching was hard"
+5. "Koriun says he went on to give the Georgians an alphabet and renew" → "Koriun says he then gave the Georgians an alphabet and renewed"
+6. "In the emperor's lands, children" → "In Roman Armenia, children" (T2 3766-3768: "les provinces et les villes de l'Arménie qui étaient soumises à la domination de l'empereur")
+7. "He also fought the Borborites" → "He fought the Borborites"
+8. "and from there they went on to Constantinople" → "and from there they went to Constantinople" (the Do not say wording "from there they went" is kept)
+9. `Then "Mesrop gathered` → `"Mesrop gathered`
+
+I ran the scorer on a scratch copy with all nine trims applied: 674 words, grade 8.4, reading ease 76.6, longest sentence 28 words. Pass.
