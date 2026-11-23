@@ -2,7 +2,7 @@
 
 Story: **{NAME}**, folder `Build/Ministry/Operations/Audits/2026-11-22_batch-10/{SLUG}/`. Read `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/roles/card.md` and follow it, with these specifics. Do not edit the brief, the census, any file under `tools/`, or any other folder. Write any scratch script inside your own folder and delete it when you are done.
 
-- **The starting card** is `{SLUG}.card.json` as it now stands (already checked twice in this batch). Copy it to `Card.pass2.json` first, and keep it word for word except for the edits below.
+- **The starting card** is `{SLUG}.card.json` as it now stands (already checked twice in this batch). First copy it, unchanged, to `Card.pass2.json`: that copy is the starting card and is never edited. Then make every edit below in `{SLUG}.card.json` itself, so that `{SLUG}.card.json` is the new card, word for word with the starting card except for those edits.
 - **What changed:** the brief was changed by this pass. Read `{SLUG}.brief.txt`, compare it with `{SLUG}.brief.v3.txt` (`diff`), and read `Outline.md`'s **What it was about** and **Room for it** sections, `Writer_About_Reply.md`, `Fresh_Read_About.md` and `Fresh_Read_About_Applied.md` (and `Pelagius_Clause_Fix.md` and `Pelagius_Clause_Check.md` where they exist).
 - **Edits to make:**
   1. Each new explanation the brief now tells, with its source: add its reference (`briefReferences`, and `sources` for any newly cited file), saying no more than the brief and its cited lines, which you re-read.

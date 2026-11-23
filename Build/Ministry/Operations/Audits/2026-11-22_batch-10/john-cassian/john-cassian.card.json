@@ -11,7 +11,7 @@
   "keyWorks": [
     {
       "title": "The Institutes",
-      "about": "twelve books for Castor, a bishop in Gaul, on the dress, prayers and rules of the monks of Egypt and Palestine, and the remedies for eight principal faults"
+      "about": "twelve books for Castor, a bishop in Gaul, on the dress, prayers and rules of the monks of Egypt and Palestine, and the remedies for eight principal faults; in its preface Cassian says he will leave out the wonders and tell only the rules of the monasteries and the remedies for the eight faults, and that he will temper Egypt's rules by the customs of Palestine and Mesopotamia where harsh climate or different ways made them hard"
     },
     {
       "title": "The Conferences",
@@ -46,7 +46,8 @@
     "Gibson notes that the monks of Egypt called him John in his own writings, and that Prosper joins the two names. But Theodor Mommsen prints the line Gibson means, which calls him John surnamed Cassian, among fifteenth-century additions to Prosper's Chronicle, not Prosper's own words. Gennadius calls him only Cassianus.",
     "Gennadius gives no year for his death. Ernest Cushing Richardson's note gives 450. Gibson says his last known act is Prosper's attack, after 432, and that he probably died soon after.",
     "Gibson says \"Of his family we know nothing\", except a sister he mentions once.",
-    "A tract on the Irish cursus, which Frederick Warren says was written by an eighth-century monk of the Irish tradition on the Continent, names Cassian and says a blessed Honorius was his companion at the monastery of Lérins. No earlier held source puts Cassian at Lérins, and Warren grants that the text is corrupt and has errors of detail."
+    "A tract on the Irish cursus, which Frederick Warren says was written by an eighth-century monk of the Irish tradition on the Continent, names Cassian and says a blessed Honorius was his companion at the monastery of Lérins. No earlier held source puts Cassian at Lérins, and Warren grants that the text is corrupt and has errors of detail.",
+    "Socrates, a historian of the same century, says the people charged Nestorius with teaching that the Lord is a mere man. Having read his writings, Socrates says he cannot grant that Nestorius denied the divinity of Christ; he seemed scared at the word for Mother of God. Cassian's charge in the seven books is that Nestorius declared our Lord born a mere man."
   ],
   "sources": {
     "ownWords": [
@@ -91,6 +92,20 @@
         "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt"
       },
       {
+        "title": "Ecclesiastical History, book 7, chapter 32",
+        "author": "Socrates Scholasticus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Decree of the Council of Ephesus against Nestorius, in The Seven Ecumenical Councils",
+        "author": null,
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      },
+      {
         "title": "Gallic Chronicle of 452 and the fifteenth-century additions to Prosper's Chronicle, in Chronica Minora I, edited by Theodor Mommsen",
         "author": null,
         "date": null,
@@ -114,16 +129,17 @@
     ]
   },
   "briefReferences": [
-    "Conferences, preface to Part II (Conferences XI-XVII), tr. Edgar C. S. Gibson: addressed to Honoratus and Eucherius; one wished his monks taught the precepts of the Egyptian fathers, the other longed to go to Egypt and leave a province frozen with the cold of Gaul; Cassian writes so that no one need make so risky a journey. Gibson, Prolegomena: this Part was dedicated to Honoratus and Eucherius.",
+    "Conferences, preface to Part II (Conferences XI-XVII), tr. Edgar C. S. Gibson: one wished his monks taught the precepts of the Egyptian fathers, the other longed to go to Egypt and leave a province frozen with the cold of Gaul; Cassian writes so that no one need make so risky a journey. Gibson, Prolegomena: this Part of seven Conferences was dedicated to the two.",
     "Gibson, Prolegomena: born about 360; Bethlehem with Germanus; the two visits to Egypt placed between 380 and 400; ordained deacon at Constantinople by John Chrysostom; the Conferences completed between 426 and 428.",
     "Conference XVII, ch. 30: the promise of a quick return, seven years in Egypt, the promise kept, then back to the desert of Scete.",
     "Gennadius of Marseilles, Lives of Illustrious Men 62, tr. E. C. Richardson: deacon under bishop John at Constantinople, presbyter at Marseilles, two monasteries, one for men and one for women; the Institutes and Conferences; seven books against Nestorius at the request of Leo the archdeacon, afterward bishop of Rome; the end of his writing and his life at Marseilles in the reign of Theodosius and Valentinian. Gennadius is later by about fifty years and lived at Marseilles.",
-    "Palladius, Dialogue on the Life of Chrysostom, tr. H. Moore: Germanus, a priest, and Cassianus, a deacon, bring letters from John's clergy; their bishop expelled with the help of the military. The Dialogue's note on the name Cassianus is the editor's.",
-    "Institutes, preface, tr. Gibson, and Petschenig's Latin: twelve books for Bishop Castor, whose province had no monasteries; Egypt's rules tempered with the customs of Palestine and Mesopotamia where harsh climate or different ways made them hard in Gaul. Gennadius, Lives 62: the dress, prayers and psalms, and the eight principal faults.",
-    "Conference XIII, chs. 3, 8 and 11, tr. Gibson: Chaeremon, as Cassian writes him, says the first good thought and the good will come from God; God, seeing a good will begin, strengthens it, whether he planted it or it arose from our efforts; Zacchaeus and the thief on the cross; the grace of God and free will in harmony.",
-    "Prosper of Aquitaine's letter to Augustine (Augustine, Epistle 225.2, Goldbacher): many servants of Christ at Marseilles think his teaching on the calling of the chosen runs against the Fathers. Gibson: Cassian's name is never mentioned in the correspondence, and the letters date from 429.",
-    "On the Incarnation of the Lord, against Nestorius, preface and Book I, ch. 3, tr. Gibson: written at the urging of Leo; the Pelagians said that men could also be without sin if they liked. Gibson dates the work to 430, before the Council of Ephesus.",
-    "Prosper's book, as Mommsen lists it among Prosper's works, and Gibson, Prolegomena: against the Conferencer, in defense of Augustine; it examines the thirteenth Conference, takes twelve propositions from it, grants only the first, and never names Cassian directly. Prosper's book is not among the sources held. Gibson: Cassian made no reply known, and this is the last event known in his life.",
+    "Palladius, Dialogue on the Life of Chrysostom, tr. H. Moore: Germanus, a priest, and Cassianus, a deacon, bring letters from John's clergy; their bishop expelled with the help of the military and sent into exile through a plot formed by four named bishops. The Dialogue's note on the name Cassianus is the editor's.",
+    "Institutes, preface, tr. Gibson, and Petschenig's Latin: twelve books for Bishop Castor, whose province had no monasteries; Gennadius, Lives 62: the dress, prayers and psalms, and the eight principal faults.",
+    "Conference XIII, chs. 3, 8 and 11, tr. Gibson: an old hermit, as Cassian writes him, says the first good thought and the good will come from God; God, seeing a good will begin, strengthens it, whether he planted it or it arose from our efforts; Zacchaeus and the thief on the cross; the grace of God and free will in harmony.",
+    "Prosper of Aquitaine's letter to Augustine (Augustine, Epistle 225.2, Goldbacher): many servants of Christ at Marseilles think his teaching on the calling of the chosen runs against the Fathers; the monks held that a choice of the chosen and the rejected made before the world began leaves effort useless. Gibson: Cassian's name is never mentioned in the correspondence, and the letters date from 429.",
+    "On the Incarnation of the Lord, against Nestorius, preface and Book I, ch. 3, tr. Gibson: written at the urging of Leo; Nestorius, as Gibson's note names him, declares that our Lord was born a mere man, and Cassian says the Pelagians said the same before him; the Pelagians said that men could also be without sin if they liked. Gibson dates the work to 430, before the Council of Ephesus.",
+    "Socrates, Ecclesiastical History, book 7, chapter 32, in the held English translation: Nestorius's priest Anastasius preached against calling Mary the Mother of God, and Nestorius rejected the word. Council of Ephesus, decree against Nestorius, in Seven Ecumenical Councils: Nestorius excluded from the episcopal dignity. Gibson dates On the Incarnation to the year before the council.",
+    "Prosper's book, as Mommsen lists it among Prosper's works, and Gibson, Prolegomena: against the Conferencer, in defense of Augustine; it examines the thirteenth Conference, takes twelve propositions from it, grants only the first, that the beginning of every good thought is from God, and rejects the others, among them that the first beginnings of a good will sometimes arise in us; he never names Cassian directly. Prosper's book is not among the sources held. Gibson: Cassian made no reply known, and this is the last event known in his life.",
     "Gennadius of Marseilles, Lives of Illustrious Men 85, tr. E. C. Richardson: the anonymous book against certain works of Cassian, which Gennadius took to be Prosper's, and his words on the opinions of Cassian and Prosper on grace and free will.",
     "Rule of Benedict, chs. 42 and 73, ed. Hunter Blair: the Conferences read aloud after supper, first among the readings; the Conferences, Institutes and Lives of the Fathers named among a monk's tools. The Rule names no author; Gibson takes them for Cassian's books. Hunter Blair dates the Rule about 535.",
     "Cassiodorus, Institutions I.29 (Migne PL 70, a damaged print; Gibson cites the passage): read Cassian with care, and hear him gladly on the eight principal faults; on free will, Prosper blamed him.",

@@ -79,3 +79,33 @@ Evidence file short names: NP3 = `npnf203_theodoret-jerome-gennadius-rufinus.xml
 
 ### Validator
 `--skip-quotes` on a scratch census: no errors outside the quotation checks. The 23 quotation errors (brief spans not matching the census's old long description) are from the census holding the old text.
+
+## Third pass: what it was about (2026-11-23)
+
+Starting card: `theodoret-of-cyrrhus.card.json` as it stood, copied to `Card.pass2.json`. Evidence short names as in the second pass. Brief: `theodoret-of-cyrrhus.brief.txt` against `.brief.v3.txt`. Fresh_Read_About_Applied.md asks for no card correction.
+
+### Edits (all in `Card.pass2.json`)
+
+1. `briefReferences[1]` (Nomus letter). Old: "...unwillingly; two bridges and the conduit; the eight villages..." New: "...unwillingly; the eight villages...". Evidence: the brief no longer tells the bridges and water channel (cut 1).
+2. `briefReferences[1]`. Old: "no indictment published and no prosecutor." New: "no indictment published and no prosecutor, and no cause for the decree but his convening a synod of bishops." Evidence: brief, "with no charge and no accuser, he wrote, only for calling bishops together"; NP3 31453-31458.
+3. `briefReferences`, new entry after the Letter 150 entry: Cyril's first anathema (falls on anyone who refuses to confess the Virgin Mother of God) and Theodoret's counter-statements to the second and eleventh anathemas (a mixture of flesh and Godhead destroys what each nature is). Evidence: brief, "The first fell on anyone who would not call Mary Mother of God. Theodoret charged that they mixed God and man."; NP3 4616-4619, 4764-4771, 5145-5148.
+4. `briefReferences`, new entry: Letter to Eusebius of Ancyra, his accusers called him a heretic and charged him with dividing one Lord Jesus Christ into two sons. Evidence: brief, "his accusers, who said he split Christ into two sons"; NP3 31544-31549 (Letter 82).
+5. `briefReferences`, Jackson's Prolegomena entry. Old: "Ephesus in 431 on John's side; the peace of 433, his refusal to accept the deposition of Nestorius, and his finding a meaning for the anathemas on Nestorianism, not on Nestorius;" New: "Ephesus in 431, where Cyril's party opened the council without John of Antioch and his party and passed the condemnation of Nestorius, and Theodoret stood on John's side; the peace of 433 and his refusal to accept the deposition of Nestorius;". Evidence: brief's Ephesus clause; NP3 2826-2835. The later-acceptance clause is cut from the brief (cut 4).
+6. `briefReferences`, Chalcedon acts entry. Old: "the offer to condemn Nestorius and Eutyches, the cry that he was a heretic, and the curse." New: "his answer that he anathematizes Nestorius and asks to set out his faith first, the cry that he was a heretic, and the curse on Nestorius and on whoever divides the only begotten Son into two Sons." Evidence: brief, "He said he condemned him, but asked to explain his faith first ... a curse on his friend and on all who split the one Son into two"; NP3 3316-3337.
+7. `briefReferences`, new entry before the census entry: Chalcedon's definition (one Son in two natures, unconfusedly, immutably, indivisibly, inseparably) and the chronicle's Dioscorus not confessing two natures after the union. Evidence: brief, "Chalcedon's teaching of two natures, God and man"; NP14 20288-20296; ZACH 2316-2320. The file is already in `sources`.
+8. `uncertain`, new (cut 1): his own claim of two large bridges and a conduit, Nomus letter. NP3 31507-31511.
+9. `uncertain`, new (cut 2): the Prologue, Eusebius's history to Constantine, and where his begins. NP3 5219-5224.
+10. `uncertain`, new (cut 4, item 12): Jackson's summary of the later acceptance of the anathemas on Nestorianism, not on Nestorius, credited as the translator's. NP3 2862-2870.
+11. `uncertain`, new (cut 5, item 13): his Chalcedon answer naming Nestorius and Eutyches, with the shouts; Eutyches's two natures before the union, one after, credited to Evagrius. NP3 3316-3331; EVW 1728-1730.
+
+### Quotations
+All seven spans are unchanged in the brief; `quotationOriginals` unchanged (no changed rendering, no dropped span). Lines re-read: NP3 38007-38010, 4724-4726, 31499, 3335, 33203; RH 113735-113738; EVW 1110.
+
+### Skipped
+- Item 5 (Apollinarius) and the "long ago stamped out" line: already in `uncertain`; its content is marked leave out.
+- Item 8's Nomus as procurer, cut 3 (", Simeon among them"), items 9-11, 14-16, 18-20: already told in the brief and held, or not marked for the card.
+- Cuts 6-10 (wording only): no card change.
+- No Pelagius clause files exist for this entry.
+
+### Validator
+`--skip-quotes` on a scratch census with this card and the brief in the entry: 0 errors, none for this entry.
