@@ -19,7 +19,7 @@ Every entry names something the brief still tells: the famine and its date, Nisi
 
 ## 4. Census rules
 
-- Keys: only allowed keys; no `briefLength`.
+- Keys: only allowed keys; no `briefLength`. `tools/validate-census.mjs` on a scratch copy of the census with this card in place gives 0 errors. The 4 warnings are other entries' shortNames.
 - `quotationOriginals`: the brief has one quoted span (`tools/list_second_readings.py`: 1 span, CARRIED). One entry, `modern` identical to the brief.
 - `printed` is verbatim at `cic/texts/palladius_lausiac-history_clarke1918.txt` line 471 (re-read). The file is in `sources.about`.
 - `secondReading` "changes meaning" is carried from the existing card, set by an earlier release. The validator requires a verdict for a quotation of six or more words. The fresh read's MINOR 2 sends this to the second-reading step; that is not a card fault.
