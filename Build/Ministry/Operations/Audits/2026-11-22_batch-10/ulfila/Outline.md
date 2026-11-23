@@ -161,7 +161,7 @@ Each charge, teaching, book, quarrel or decision the final brief names, with the
 2. **The crossing as Exodus** (Q1). Already explained: God freed the confessors from the Goths' land as he freed Israel from Egypt; glossed after the quote. Auxentius (AUX 15268-15277). Documented.
 3. **The letters and the Scriptures in Gothic.** Already explained: he made an alphabet and put Scripture into Gothic. Philostorgius, Socrates, Sozomen (PHI 120; NP2 14448-14459, 40178-40179). Widely Accepted.
 4. **The creed that called the Son like the Father.** Already explained in the teaching paragraph and the Homoian gloss. Auxentius (AUX 15114-15118, 15167-15176). Documented.
-5. **"Arian", and Sozomen's "followed Arius".** Explain: his opponents named the faith after Arius, a priest who taught that the Son had a beginning, "a time when the Son was not". Socrates, a Nicene historian, reporting Arius (NP2 2075-2097; the opponents' name, NP2 14446-14449, 40180-40181). Documented that Socrates says it; told as the opponents' name, never the narrator's label.
+5. **"Arian", and Sozomen's "followed Arius".** Explain: his opponents named the faith after Arius, a priest who taught that the Son had a beginning. Arius in his own words, his letter to Eusebius of Nicomedia in Theodoret ("we say that the Son has a beginning, but that God is without beginning", `npnf203_theodoret-jerome-gennadius-rufinus.xml` 6044-6046); Socrates, a Nicene historian, reports the same (NP2 2075-2097). The opponents' name: NP2 14446-14449, 40180-40181. Documented in Arius's own words; told as the opponents' name, never the narrator's label.
 6. **Philostorgius's Gothic embassy at his consecration.** Leave it out: no held text says what the embassy was for; Philostorgius says only that the Gothic king sent him (PHI 120). Say "at the emperor's court".
 7. **The consecration by Eusebius.** Already explained: Philostorgius's "Eusebius and other bishops", the modern historian's Nicomedia. PHI 120; DUC 20991-20995. Contested; the name Dominant Modern Reconstruction.
 8. **The Books of Kings left out.** Already explained: Philostorgius says they told of war, and the Goths loved war already (PHI 120). Documented that he says it.
@@ -186,7 +186,7 @@ Counted with `python -m engine.m1.profile_readability`, the kit's count. The bri
 - Item 5: after "His opponents called that faith Arian," add "after Arius, a priest who taught that the Son had a beginning." +12.
 - Item 11: after 'banned the word "substance" for God,' add "saying Scripture never uses it." +5.
 - Item 13: after "Socrates puts it down to the emperor Valens," add "whose help in a Gothic civil war won a chief over to his faith." Then "But Sozomen says ..." as its own sentence. +14.
-- Item 14: "on an embassy for the Goths" becomes "on an embassy seeking land for the Goths", then "The other side's leaders promised to help it if he joined them. He did, under pressure or perhaps from conviction." +16.
+- Item 14: "on an embassy for the Goths" becomes "on an embassy seeking land for the Goths", then "The other side's leaders, he says, promised help if he joined them. He did, under pressure or perhaps from conviction." +16.
 - Item 16: "who in a later persecution punished the Christians" becomes ". The chief took this as an attack on his ancestors' religion and punished the Christians" (the later persecution stays plain from "Under Valens"). +7.
 - Item 17: after "to Constantinople for a debate," add "to stop his opponents teaching in his churches." +8.
 - Total +62. Without cuts, 731.
