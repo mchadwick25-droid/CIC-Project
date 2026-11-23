@@ -4,8 +4,10 @@ Approved run: "Batch 10: the twelve" (Mark, 2026-11-23, "Approve recording, cap 
 
 | Run | Item | Characters sent | Credits charged | Length |
 |---|---|---|---|---|
-| 1, the sample | Priscillian | 4,080 | 1,978 | 4:34 |
+| 1, the first sample (old text; removed before release) | Priscillian | 4,080 | 1,978 | 4:34 |
+| 2, the sample of the final text | Priscillian | 4,123 | 1,999 | 4:36 |
 
 | When (UTC, 2026-11-23) | character_count |
 |---|---|
 | Before batch 10 (14:33) | 527,811 |
+| Before run 2 (18:14) | 529,789 |
