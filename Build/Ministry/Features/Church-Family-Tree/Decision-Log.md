@@ -5699,3 +5699,22 @@ It governs batch 11 on, and the live tree's other stories are for the what-and-w
 **Why.** Mark, on the batch 10 council caps: "wait why is the council number smaller, we originally said they could be a little longer, our floor is 2 minutes and our ceiling is about 4.5 minutes counsels should be the same or more if absolutly needed". The lower word count for a council follows the council voice's slower pace (about 130 words a minute against 150), so the time is the same; the kit gave no room past 4 minutes 30.
 
 **Decided (Mark, 2026-11-23, in chat: "yes, councils can run past 4:30 if needed").** Kit Part 1 and Part 3, Length: a council may run past 4 minutes 30, and past 585 words, only where its business truly needs it. The outline says why, and Mark rules on that length with the hearts, as for any length. A person's ceiling stays at about 4 minutes 30. It governs batch 11 on; batch 10's Ephesus is recorded and stays as it is.
+
+## 2026-11-23 — Batch 10's lessons folded into the kit (Mark)
+
+**Why.** Batch 10 needed two extra hand-run passes (what it was about, and no modern opinion) and several fixes by hand. A read of the batch found ten method gaps that would recur in batch 11 under the kit as it stood: `Build/Ministry/Operations/Audits/2026-11-22_batch-10/Kit_Lessons.md`, with each gap's evidence.
+
+**Decided (Mark, 2026-11-23, choosing "Fold batch 10's lessons in" over fixing the live stories here, which the what-and-why ranking thread owns).**
+1. Kit Part 4, the batch header: no hand is sent anything after its prompt; content the outline lacks goes back to the researcher and the outline check (the Saragossa clause came in this way).
+2. `roles/reviewer.md` step 3: a sentence the outline does not hold is BLOCKING and is cut, never written into the outline to match.
+3. Kit step 2: the recheck's exact replacements go into `Outline.md` word for word before the writer starts.
+4. `roles/card.md`: quotation marks in card prose only around a source's own words, matching the census validator.
+5. `roles/card.md`: scratch scripts and census copies outside the repository, one folder per story.
+6. `roles/card.md` check pass: each item sent to the card is on it, a modern view credited by name; the checker reads the outline, review and fresh read.
+7. `roles/checker.md` item 7: each thing called not held is searched for in `cic/texts/`.
+8. Kit step 0: a story approved before the kit gets a source sheet and an outline, both through the outline check, before review.
+9. Kit step 9: paragraph times remade after recording, and a recording whose text changes comes off the branch.
+10. `roles/release.md` step 5: the release runs the commentary and Open-Gaps checks as CI does.
+
+An independent check (`Kit_Lessons_Check.md`) passed eight and gave exact fixes for 6 and 8, applied word for word. It governs batch 11 on.
+

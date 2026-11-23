@@ -11,7 +11,7 @@ Open each cited source file at its cited lines and check:
 4. The **Connection** field says what specifically passed to whom, and its supporting passage holds.
 5. The **Do not say** list covers every wonder, qualifier, number, motive or outcome a writer could easily get wrong.
 6. The **Names**, **Sibling** and **Who tells it** fields are filled: each name acts or links and keeps the census spelling, no quote is already used elsewhere on the tree unless the slate lists it as a reuse, and any line about today has its source.
-7. The sheet's **Library sweep** is real. Spot-check the corpus-map buckets and a search for the subject: no held primary text or major later witness is missing, and every claim that rests only on an editor or a modern historian is marked modern.
+7. The sheet's **Library sweep** is real. Spot-check the corpus-map buckets and a search for the subject: no held primary text or major later witness is missing, every claim that rests only on an editor or a modern historian is marked modern, and each thing the sheet or outline calls not held is searched for in `cic/texts/` by its name forms.
 
 The bar is in Part 4 of `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Kit.md`. Write `Outline_Check.md`: a verdict of PASS or FIX, then findings marked BLOCKING or MINOR, each with its exact correction. Edit nothing else and do not commit. Reply in under 200 words.
 
