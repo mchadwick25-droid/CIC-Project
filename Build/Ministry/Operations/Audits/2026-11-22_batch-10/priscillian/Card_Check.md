@@ -1,0 +1,11 @@
+# Priscillian: card check
+
+**PASS**
+
+1. **Edits justified.** Each added trace, `uncertain` item and source was re-read at its cited lines: Mansi3 96553-96555, 96780-96784 (Herenas's clergy, era 438); SulpE 11713-11722 (Ithacius thrust out, Ydacius resigned); Leo 3276-3286 (sword of the public laws, the law of gentleness); CTh 87378-87380 (law of 407); JerVir 41626 (died 385), JerEp 2970 (386), Hyd 1143-1145 (Mommsen's margin 387); JerVir file 16390-16391 (Jackson's note); Hef2 23503-23512 (Bernays); SulpE 11660, 11667-11668 and SulpL 5907-5908, 5913, 6003-6004 (Martin at Trier, maleficii, inter nostros); Hyd 1136-1137; Pros 53287-53290, 53318-53319; SulpE 11458-11463, 11487-11495, 11554-11555, 11564-11575, 11691-11692; Pr 4636-4638, 4655-4657, 2797, 3746-3748, 3831-3836, 80-93; JerEp 27806-27807; AugE 39221-39225; Mansi3 96618-96620, 96692-96698, 83136-83141. All stand.
+2. **Nothing else moved.** `otherNames`, `knownFor`, `datesNote`, `placeNote`, `role`, `keyWorks`, `legacy.remembered`, the three existing traces, the seven existing `uncertain` items and the five existing sources are word for word.
+3. **briefReferences.** Each of the nine names something the brief tells. No quotation marks.
+4. **Census rules.** Keys are all in `CARD_KEYS`; no `briefLength`. Three quoted spans in the brief, three `quotationOriginals`. Each `printed` stands at its lines under the validator's fold (Pr 4415-4417, the backslash after deum folding away; SulpE 11642-11643; Leo 3276-3278). Every cited file is in `sources`. No audit named. American spelling outside quoted print ("practised" is Roberts's). Quote 1: the outline renders from Schepss's Latin, the only held print, a scan with letter faults and no English print; the card gives the scan as `printed` with its faults named, not as `original`, as the Wyclif card does. Quote 2: Halm's Latin damaged, Roberts's English alone.
+5. **"Checked at card".** None; all three quotations run six words or more.
+6. **Not found / clearly wrong.** None listed, none found. Quote 1's note that malluerit is the manuscript's spelling is supported by Schepss's index, which lists it among the text's forms beside maluit (Pr 18175, 20895); `Card_Edits.md` gives no line for it.
+7. **Census entry.** None (existing entry).
