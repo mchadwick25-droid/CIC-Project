@@ -22,3 +22,20 @@ Checked `ulfila.card.json` against `Card.existing.json`, `Card_Edits.md`, `ulfil
 7. **Census entry.** None (entry exists).
 
 Note, no change required: outline cut item 1 sends Sozomen's tribute "whole"; the card's `legacy.remembered` already carries its substance in Hartranft's held English.
+
+## Second pass check (2026-11-23)
+
+### Verdict: PASS
+
+Compared `ulfila.card.json` now with the version before the second pass (commit 92c9a304). Two fields moved, and nothing else.
+
+1. **Checker's change.** `keyWorks[0].about` now reads "written in the fifth or sixth century in silver and gold on purple parchment", word for word as Fix 1 gave it. The rest of the field is unchanged.
+2. **Addition.** One item was appended to `uncertain`: Philostorgius on the settling in Moesia and "the Moses of his day". It is in the right field and credits Philostorgius, as Cut first 8 asks. Against PHI 120 ("located by the emperor in the different parts of Moesia, as he thought best ... the Moses of his day") it says no more than the source. The existing `uncertain` items stand unchanged and in order.
+3. **Outline items to the card.** Cut first 1-11, the four "Card" items under Leave out and the four under For the card, listed and checked against the card:
+   - All are held, either from the first pass or from this one.
+   - Cut first 1: `legacy.remembered` carries Sozomen's tribute in substance, as noted before.
+   - Cut first 12 goes to Leave out, not to the card.
+   - `Review.md` and `Fresh_Read.md` send nothing to the card.
+   - Every skip in `Card_Edits.md` holds.
+4. **Scan readings.** None listed in `Card_Check.md` or `Card_Edits.md`.
+5. **Keys and spelling.** The keys are unchanged and allowed. Spelling is American ("honor"). No audit is named.
