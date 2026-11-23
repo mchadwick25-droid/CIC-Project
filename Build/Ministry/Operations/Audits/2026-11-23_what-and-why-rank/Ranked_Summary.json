@@ -1,0 +1,17 @@
+{
+ "pieces_with_problems": 631,
+ "of_recorded": 1079,
+ "findings_held": 1247,
+ "pending_rulings": 0,
+ "by_worst": {
+  "3": 57,
+  "2": 218,
+  "1": 356
+ },
+ "chars_by_worst": {
+  "3": 86241,
+  "2": 336424,
+  "1": 546648
+ },
+ "total_chars": 969313
+}
