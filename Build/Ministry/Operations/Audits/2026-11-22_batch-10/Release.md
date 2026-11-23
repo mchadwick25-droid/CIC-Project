@@ -40,9 +40,7 @@ This release covers twelve stories that are already in the census: council-of-ep
 - `node tools/build_tree_site.mjs`: 1775 own files, 173 shared, 0 mismatched.
 - `node --test cic-worker/worker.test.mjs Build/tools/generate_tree_pages.test.mjs`: 77 pass, 0 fail.
 - `python tools/check_live_commentary.py`: exit 0.
-- `python tools/check_spelling.py --enforce --base origin/main` (origin/main fetched fresh): **FAIL**, "6 British spelling(s) found in 3 file(s)". The cause is brief and card content, so I did not fix it:
-  - "grey" in Eutyches's brief, in the modern rendering "He had no regard for my grey hairs". It appears in the census `longDescription` and in the card `modern` (both at census line 105927 and 105946), and on `eutyches.html`. The card check noted that the card must match the brief. Only a brief change can fix it, followed by the card, the renderings listing and `Second_Readings`.
-  - "counselled" in Ephesus's card, `quotationOriginals[1].uncertain`: "Driver and Hodgson's English ... is looser, counselled and persuaded for warned and begged". These are the print's words cited inside our prose, without quotation marks. It appears at census lines 108579 and 108582, and on `council-of-ephesus-431.html`. The card owner decides whether to quote them or to reword.
+- `python tools/check_spelling.py --enforce --base origin/main`: the release's first run failed on 6 British spellings in 3 files. The coordinator fixed the cause (2026-11-23): "grey" in Eutyches's modern rendering and in his card's `sources` note is our English and became "gray" in the brief, the card, the census, `tools/quote_renderings.json` and the rebuilt page (the printed 1881 wording keeps "grey"); "counselled" and "persuaded" in Ephesus's note are the print's words and are now in quotation marks; and `englishPrinted`, the verbatim English print, is now skipped as `printed` already was (`tools/check_spelling.py`; its 39 tests pass). Final run: **0 British spellings**.
 - `python -m engine.m1.profile_readability` on the twelve briefs: 12 graded, 0 failing. Grades run from 7.4 to 9.0. Cassian (7.8) and Pelagius (7.4) carry the under-8 listener-read note.
 - `python tools/check_standard_lock.py --base origin/main`: exit 0. `Kit.md` and `roles/researcher.md` changed, with a Decision-Log entry carrying Mark's words (the cut-first line).
 
@@ -70,8 +68,7 @@ Batch 10 average, from the twelve `<slug>/Fresh_Read.md` scores before the fixes
 
 ## Not done
 
-- **The spelling check fails** on Eutyches's "grey" and Ephesus's "counselled" (above). The brief and card owners must change these before this can merge.
-- **The `aksumite-christianity-conversion-era` census `why`** still says "shipwrecked" and "tutor", which are not in Rufinus. That is Mark's call, for the CFT Open-Gaps, and is not in this release.
-- **Theodoret's card** says the Religious History is not held, but it is held, in Greek (PG 82). This is from the README's open items, for Open-Gaps.
+- **The `aksumite-christianity-conversion-era` census `why`** still says "shipwrecked" and "tutor", which are not in Rufinus. That is Mark's call: Open-Gaps 360.
+- **Theodoret's card** already says the Religious History is held in Greek (fixed in the first card pass); nothing open.
 - **Two flags for card owners** from `Second_Readings.md`, not changed: Rufinus [2]'s `uncertain` could note the scan's "qui" read as "quae". Theodoret [0]'s could cite Mansi V 88759-88763.
 - **Recording.** Chrysostom and Ephrem changed and must be re-recorded, but `Story-Ledger.md` still marks both "Recorded: yes". The other ten are not recorded. I recorded no audio and made no commit.
