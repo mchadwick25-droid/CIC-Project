@@ -39,3 +39,43 @@ Each traces to the brief's sentence and the lines in `Source_Sheet.md`; lines re
 
 - Existing `keyWorks[0].about`, "to the death of Theodore of Mopsuestia": Theodoret's own words are "the death of the admirable Theodorus and Theodotus" (NP3 18272-18274), with Jackson's note tying Theodotus to 429 and Theodore of Mopsuestia. Not contradicted outright, so left; flagged.
 - Every existing quotation on the card (legacy) was re-read against NP3 3234-3235, 43772-43776, P449 15594-15595 and NP14 23656-23661, and holds.
+
+## Second pass (2026-11-23)
+
+### Checker changes
+1. `quotationOriginals[3].uncertain`, the scan-fault wording: applied word for word.
+2. `briefReferences[1]`, "the porticoes, " removed: applied word for word.
+3. `briefReferences[3]`, "his birth at Antioch from the Religious History; " removed: applied word for word.
+
+### Scan readings to add
+None listed in the card check.
+
+### Items added from the outline (all in `theodoret-of-cyrrhus.card.json`)
+Evidence file short names: NP3 = `npnf203_theodoret-jerome-gennadius-rufinus.xml`; EVW = Walford's Evagrius; P449 = Perry's Syriac acts; ZACH = Hamilton and Brooks's chronicle; RH = Migne's Greek; NP2 = `npnf202_socrates-sozomen-ecclesiastical-histories.xml`; ANF9 = `anf09_gospel-of-peter-diatessaron-origen-commentaries.xml`.
+
+- `legacy.traces` (Outline 164 and 16, Review 13): the first-session cries at Chalcedon: "Cast out the teacher of Nestorius", "Do not call him a bishop! ... Cast out the Jew!", the blank-paper cry, and the officials' "The vulgar cries are not worthy of bishops". Evidence: NP3 3231-3242, 3270-3272, 3290-3291.
+- `legacy.traces` (Outline 173.2): Theodosius's death in July 450, the conceded council, Marcian's summons, the decree rescinded; credited to Jackson. NP3 3186-3205 (note 79 at 3195-3199).
+- `legacy.traces` (Outline 13/Cut 13): Evagrius on the council of 449 revoking Eutyches's deposition and deposing Theodoret. EVW 1773-1787.
+- `legacy.traces` (Outline 5): Zenos on the Tripartite History in twelve books. NP2 1695-1699. Cassiodorus's own Latin (CASS 83303-83307) not used: too damaged to quote.
+- `legacy.remembered` (Outline 163): Juvenal on salt. P449 15695-15709.
+- `legacy.remembered` (Outline 169): Dioscorus on the pavement, credited to the chronicle; council left unnamed as the sentence leaves it. ZACH 2429-2436.
+- `uncertain` (Outline 8): parents' promise, own letter to Nomus. NP3 31496-31498.
+- `uncertain` (Review 12, Outline 14): "condemned without a trial" and the second request to Leo. NP3 33171-33172, 33189-33193.
+- `uncertain` (Outline 3): the request to go West or live in his monastery; Jackson says the second was granted. NP3 33476-33485, 3064-3069.
+- `uncertain` (Outline 9): the Prologue's reason for the History. NP3 5208-5213.
+- `uncertain` (Outline 7): "long ago stamped out", Apollinarius, Letter 150. NP3 36107-36109.
+- `uncertain` (Outline 6): Ephesus 431, the deputies stopped at Chalcedon, credited to Jackson. NP3 2826-2838.
+- `uncertain` (Outline 167): Compendium of Heretical Fables (Jackson, Photius): NP3 3630-3634, 3666-3667. Not a `keyWorks` entry: the validator allows three.
+- `uncertain` (Outline 167): the Methodius fragment in Eranistes Dialogue I. NP3 20518-20520.
+- `uncertain` (Outline 167): the Diatessaron passage and the two hundred copies, credited to Hogg. ANF9 1788-1794, 1922-1923.
+- `uncertain` (Outline 11): leather clothes and the pillar. RH 113729-113734.
+- `uncertain` (Outline 12): the Ishmaelites. RH 113926-113940.
+- `sources.about`: NP2 (Zenos) and ANF9 (Hogg), the two new files cited above.
+
+### Skipped
+- Birth-year and death-year debate (157), ten books (166), Jackson's 553 verdict (Cut 4), officials' word that Leo restored the see (Cut 16): the card already holds them.
+- Cut 8's wonder of birth, Cut 10 and Cut 15 (marked Leave out), and the Latin survival of the letter (Review 1): not marked for the card, or already held.
+- Cassiodorus's own Latin: damaged scan.
+
+### Validator
+`--skip-quotes` on a scratch census: no errors outside the quotation checks. The 23 quotation errors (brief spans not matching the census's old long description) are from the census holding the old text.

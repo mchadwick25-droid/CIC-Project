@@ -45,3 +45,15 @@ Read: `CLAUDE.md` (Trust and source fidelity), the card role, `frumentius.brief.
 ## Noted, not a card change
 
 The census `why` of `aksumite-christianity-conversion-era` still says "shipwrecked", "tutor the royal household" and "around 330", against RUF 27310-27325 and the brief. The outline flagged this. It is a census change for Mark, not for this card.
+
+## Second pass check (2026-11-23)
+
+Compared the card at commit 265332d5 (before the second pass) with the card now, field by field (script).
+
+1. **Changes went in as worded.** All six changes above stand exactly as given: the two Greek originals with their file and lines, the two new `uncertain` notes, "calls him Fremenatos," in `uncertain[7]`, the new last `uncertain` item on Rufinus's opening, the Budge volume 1 entry as `sources.about[14]`, and `briefReferences[6]`. Nothing else in any field moved.
+2. **Second-pass additions.** None were made, so there is nothing to check at its lines.
+3. **Outline "to the card" items.** Twelve, all held: Theodoret's crew (l.32) and Jackson on "in the Roman way" (l.115) in `uncertain[5]`; the Aizanas stone (l.38) in `uncertain[8]`; Philostorgius (l.101) in `uncertain[6]`; Rufinus's opening (l.104, RUF 27266-27269, 27302-27303) in `uncertain[9]`; the Ethiopian book's details (l.105, l.110) in `uncertain[7]`; the calendars and Sozomen (l.111, l.114) in `legacy.remembered[3]`; John of Nikiu and the Syriac chroniclers (l.112-113) in `legacy.remembered[4]`. None skipped.
+4. **Scan readings.** Identical to the ones given above, and each scan form stands at its line (92806 "Οὐχοῦν", "Φρουμέντιον (36) "; 92807 "ἐπίσχοπον", "ἐχπέμπετε"; 92813-92814 "βίον χατ- \nἔστησεν"; 92814 "χαχοῖς"). With them, the 92812-92813 hyphen "Φρου-/μέντιον" is joined by the validator. The scan's "ὧν" and "᾿Α" fold the same as the card's "ὢν" and "Ἀ", and the card's forms are the right Greek, so they need no readings.
+5. **Rules.** Allowed keys only, no `briefLength`, no audit named, American spelling throughout.
+
+**Verdict: PASS.**

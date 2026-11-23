@@ -27,3 +27,22 @@ Log both in `Card_Edits.md` under "Clearly wrong", with the evidence MOM 56178-5
 ## Not found
 
 The writer listed no claim as not found. The Palladius note (PAL 2641, 2661-2669) is correctly given as the editor's. No other clearly wrong statement is left in.
+
+## Second pass check (2026-11-23)
+
+**Verdict: FIX** (one edit)
+
+1. Checker changes. Both went in word for word (`uncertain` entry 5; Mommsen `title` in `sources.about`). A diff of the card at commit ac5e90be (the checked card) against now shows nothing else moved in those fields. The "needs a ruling" note is gone from `Card_Edits.md`.
+2. Additions.
+   - `keyWorks`, Conferences `about`: holds. Gibson gives Conferences I-X to "Leontius, Bishop (probably) of Fréjus, and Helladius, who is termed 'frater'" (N211 15535-15538), Part II to Honoratus and Eucherius, Part III to Jovinian, Minervius, Leontius and Theodore (N211 15546-15558). The preface itself has "blessed Pope Leontius, and holy brother Helladius" (N211 25897-25902). Gibson is credited. "Provence" rightly left out.
+   - `legacy.traces`, Philokalia preface: the preface is credited and the rest holds against philokalia v1 6136-6175, read by hand ("ὁ περὶ τῶν ὀκτὼ λογισμῶν, καὶ ὁ περὶ διακρίσεως ὧδε ἐτέθησαν"; the scan's "χθ΄" is its usual χ-for-κ error, as in "χαὶ", so κθ΄, the twenty-ninth). But the preface says only "ὁ σοφώτατος Φώτιος" (6148-6149). "of Constantinople" is not at the lines.
+3. Outline "card" items: the Cursus tract, the Gallic Chronicle, "the blessed Cassian" (N211 15944-15948), Gregory of Tours, Victor's recension, the Philokalia and the dedications are all on the card. The skips hold: the Benedict of Aniane hits are Migne's notes in a damaged scan (e.g. 58855-58909), with no line of Benedict's own cited; Isidore's hits are Arevalo's notes; Photius's codex is not held. Cut first 3 and 4 are Leave out.
+4. Scan readings: none listed, and the first check gave none.
+5. No new keys, American spelling ("honors"), no audit named.
+
+**Edit 1.** Field `legacy.traces`, last entry.
+- Old: `and says Photius of Constantinople mentions them.`
+- New: `and says the most learned Photius mentions them.`
+
+
+Coordinator (2026-11-23): the second pass check's edit applied word for word (`legacy.traces`, last entry: "Photius of Constantinople" → "the most learned Photius").

@@ -39,3 +39,23 @@
 7. `legacy.remembered[2]`. Koriun says he came down when told of something useful to do in the lands he had taught (T2 4005-4011). Koriun does not say "to teach".
    - Old: "coming down only when he was needed to teach."
    - New: "coming down only when he was needed in the lands he had taught."
+
+## Second pass check (2026-11-23)
+
+**Verdict: FIX** (two changes, below). T12 = `cic/texts/langlois_collection-historiens-armenie-tomes1-2-fra_1867-1869.txt`.
+
+### What holds
+
+- **The checker's changes.** A diff of the card at `cd102480` against the card now shows all seven changes word for word, and nothing else in those fields moved. The only other differences are the two new `uncertain` items.
+- **Outline items "to the card".** Each is held: the French translation only (`uncertain[0]`); the "justly inflicted on the body" line (`uncertain[10]`); the two dates of death (`uncertain[2]`) and the Julian equivalents (the new last item); the burial dispute and Vahan's church (`uncertain[14]`, `legacy.traces[5]`); the hermit years and talks for the simplest people (`legacy.remembered[2]`, `uncertain[8]`); civil and military affairs (`legacy.remembered[2]`); Samos and Samosata (`uncertain[4]`); "Mesrobian letters" (`legacy.traces[2]`); the feast of the Translators (`legacy.remembered[3]`); Daron from the fresh read (`placeNote`); Moses's letters (the new item). The skip of D11 holds: the outline gives it to the Koriun story, not the card.
+- **Scan readings to add.** None given, none listed.
+- **Keys, spelling, audit.** No new key. The new items use American spelling. No audit is named.
+
+### FIX
+
+1. `uncertain[15]`. Moses gives five letters, not four: Atticus's answer to Sahak follows Theodosius's (T2 24338-24372). The text says Mesrop and Vartan carry Sahak's letters (T2 24196-24197, 24254-24255, 24270-24271) and come back with the emperor's (T2 24291-24292); it does not say who carried Atticus's.
+   - Old: "Moses of Khoren gives the full texts of four letters: Sahak to the emperor Theodosius, Sahak to Atticus, the bishop of the capital, Sahak to the general Anatole, and Theodosius's answer to Sahak. Mesrop and Sahak's nephew Vartan carry them."
+   - New: "Moses of Khoren gives the full texts of five letters: Sahak to the emperor Theodosius, Sahak to Atticus, the bishop of the capital, Sahak to the general Anatole, and the answers of Theodosius and of Atticus to Sahak. Mesrop and Sahak's nephew Vartan carry Sahak's letters and bring back the emperor's."
+2. `uncertain[16]`. The "12 February" is a scan fault. T2 37889 prints "au la février"; the second scan of the same print reads "au 19 février de" 441 (T12 89832-89833), as the note to Moses does (T2 25380-25381; T12 77528-77529). Both notes give 19 February 441. The source sheet's D1 carries the same misreading.
+   - Old: "The notes in Langlois's edition turn the thirteenth into 19 February 441 in one place and 12 February 441 in another."
+   - New: "The notes in Langlois's edition, to Moses and to Lazar, both turn the thirteenth into 19 February 441."
