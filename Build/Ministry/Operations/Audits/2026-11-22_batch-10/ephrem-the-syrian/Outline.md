@@ -29,3 +29,6 @@ Totals: 4 to explain (items 2 to 5, carried by three new or changed passages), 6
 - **After:** about 412 by the kit's count (trial text in scratch only, not in the brief): grade 8.5, reading ease names out 79.1, longest sentence 28. Pass.
 - **Cuts:** none. 410 is under the 450 ceiling, and the length rises only by the explanations. Nothing else is lengthened. The heart (the hymns answering Harmonius's songs), the famine scene, the Harmonius-or-Bardaisan dispute and every witness credit stay as they are.
 - **Note for the checker:** the change also fixes a small misplacement. The resurrection answer comes from a hymn against Bardaisan, but the brief now sets it under his prose without saying whose teaching it answers.
+
+
+**Do not say** (added from `Fresh_Read_About.md` BLOCKING 1, word for word): Do not say "Look, on your behalf I appoint myself to run the shelter." as Palladius's words. Quote Clarke's "See, on your behalf I appoint myself hospitaller." with its plain sense beside it, or the record's rendering "See, on your behalf I appoint myself to take in and care for the needy."
