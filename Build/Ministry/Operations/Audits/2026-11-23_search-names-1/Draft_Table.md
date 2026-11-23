@@ -1,4 +1,4 @@
-# Search names batch 1: draft table (29 rows in the file)
+# Search names batch 1: draft table (27 rows in the file)
 
 Opponents' names first.
 
@@ -24,12 +24,10 @@ Opponents' names first.
 | Eritrean Orthodox Tewahedo Church | aksumite-christianity-conversion-era | other name | tree, aksumite-christianity-conversion-era, legacy | This became, and remains, one of the great ancient churches of the world: the Ethiopian Orthodox Tewahedo Church and the Eritrean Orthodox Tewahedo Church together count tens of millions of members. |
 | Coptic Orthodox Church | alexandria-catechetical | other name | tree, alexandria-catechetical, livingEvidence.basis | The world built from this entry names the Coptic Orthodox Church as its main living heir. |
 | Coptic Orthodox Church | cyrilline-miaphysite-egyptian-christianity | other name | tree, cyrilline-miaphysite-egyptian-christianity, legacy | Its line of patriarchs runs without a break to the Coptic Orthodox pope of Alexandria today. |
-| Greek Orthodox Patriarchate of Antioch | antiochene-church-third-century | other name | tree, antiochene-church-third-century, livingEvidence.basis | The church of Antioch is alive today as the Greek Orthodox Patriarchate of Antioch, which published a dated synod address in October 2026. |
-| Greek Orthodox Patriarchate of Jerusalem | jerusalem-liturgical-pilgrimage-christianity | other name | tree, jerusalem-liturgical-pilgrimage-christianity, livingEvidence.evidence | Greek Orthodox Patriarchate of Jerusalem (8 November 2026) |
+| Greek Orthodox Patriarchate of Jerusalem | jerusalem-liturgical-pilgrimage-christianity | other name | tree, jerusalem-liturgical-pilgrimage-christianity, livingEvidence.basis | The church of Jerusalem is alive today as the Greek Orthodox Patriarchate |
 | Roman Catholic Church | latin-papal-church-gregorian | other name | tree, latin-papal-church-gregorian, legacy | It never stopped: this is the Roman Catholic Church. |
 | Roman Catholic Church | latin-papal-church-avignon-to-lateran-v | other name | tree, latin-papal-church-avignon-to-lateran-v, legacy | The same church, reorganized by the Council of Trent a generation later, is the Roman Catholic Church of today. |
-| Church of Jesus Christ of Latter-day Saints | latter-day-saints-lds | other name | tree, latter-day-saints-lds, livingEvidence.evidence | The Church of Jesus Christ of Latter-day Saints Newsroom (31 December 2025) |
+| Church of Jesus Christ of Latter-day Saints | latter-day-saints-lds | other name | tree, latter-day-saints-lds, livingEvidence.evidence | Facts and Statistics, The Church of Jesus Christ of Latter-day Saints Newsroom (31 December 2025): own-voice; verified. |
 | Copts | coptic-christianity-under-early-islam | other name | tree, coptic-christianity-under-early-islam, longDescription | Two European scholars, Hiob Ludolf in 1691 and Eusèbe Renaudot in 1713, read the Copts as having helped the conquerors. |
 | Copts | coptic-revival-under-cyril-iv | other name | tree, coptic-revival-under-cyril-iv, legacy | Copts who moved abroad later took that renewal to Europe, North America and Australia. |
-| Asia Minor | country: Turkey | older name | tree, polycrates-of-ephesus, card.briefReferences.11 | World census, The Scattered Households: Asia Minor, in today's Turkey. |
 | Axum | aksumite-christianity | spelling | tree, aksumite-christianity, experienceToday.0.text | The Church of Our Lady Mary of Zion at Axum, Ethiopia — on the site of the kingdom's original cathedral, beside the Aksumite stelae field |

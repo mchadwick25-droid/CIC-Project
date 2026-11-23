@@ -221,25 +221,14 @@
    }
   },
   {
-   "name": "Greek Orthodox Patriarchate of Antioch",
-   "kind": "other name",
-   "entry": "antiochene-church-third-century",
-   "basis": {
-    "source": "tree",
-    "entry": "antiochene-church-third-century",
-    "field": "livingEvidence.basis",
-    "text": "The church of Antioch is alive today as the Greek Orthodox Patriarchate of Antioch, which published a dated synod address in October 2026."
-   }
-  },
-  {
    "name": "Greek Orthodox Patriarchate of Jerusalem",
    "kind": "other name",
    "entry": "jerusalem-liturgical-pilgrimage-christianity",
    "basis": {
     "source": "tree",
     "entry": "jerusalem-liturgical-pilgrimage-christianity",
-    "field": "livingEvidence.evidence",
-    "text": "Greek Orthodox Patriarchate of Jerusalem (8 November 2026)"
+    "field": "livingEvidence.basis",
+    "text": "The church of Jerusalem is alive today as the Greek Orthodox Patriarchate"
    }
   },
   {
@@ -272,7 +261,7 @@
     "source": "tree",
     "entry": "latter-day-saints-lds",
     "field": "livingEvidence.evidence",
-    "text": "The Church of Jesus Christ of Latter-day Saints Newsroom (31 December 2025)"
+    "text": "Facts and Statistics, The Church of Jesus Christ of Latter-day Saints Newsroom (31 December 2025): own-voice; verified."
    }
   },
   {
@@ -295,17 +284,6 @@
     "entry": "coptic-revival-under-cyril-iv",
     "field": "legacy",
     "text": "Copts who moved abroad later took that renewal to Europe, North America and Australia."
-   }
-  },
-  {
-   "name": "Asia Minor",
-   "kind": "older name",
-   "country": "Turkey",
-   "basis": {
-    "source": "tree",
-    "entry": "polycrates-of-ephesus",
-    "field": "card.briefReferences.11",
-    "text": "World census, The Scattered Households: Asia Minor, in today's Turkey."
    }
   },
   {
