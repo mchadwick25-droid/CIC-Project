@@ -5670,3 +5670,15 @@ Mark, after the scan results: "yes, fix those three".
 **Measured.** Names file 25.5 KB compressed (budget 32 KB). Nothing but the names file is fetched, and only when the box is first opened. Automated scan (axe, WCAG 2 A and AA plus best practice) clean on the map, with search open, with results, with no match, with entries lit and with a card open, on desktop and an emulated phone, driven with the keyboard alone.
 
 **Still off.** `SEARCH_ON` stays false until the first names batch has merged (Open-Gaps 370).
+
+## 2026-11-23 — No modern opinion, guess or reconstruction in a story (Mark)
+
+**Why.** Mark, after hearing the batch 10 Priscillian sample of the final text: "why are we referencing later peoples opinions, that is against our principles of drawing the story from original sources and trusted sources close to the time"; then "that is the biggest rule we have, no fabrication, no quessing, not speculation this really concerns me, this will break trust of the truth and rigor faster than anything." The batch 10 briefs held fifteen places where a modern editor or historian speaks in the story, among them Priscillian's Saragossa clause ("a modern historian thinks, they banned Sunday fasting and barred women from private meetings"), which rests on Hefele's supposition and was added in the "what it was about" pass at the coordinator's push. The kit allowed it: it said only "prefer the primary text to an editor's note", and the checks passed a credited modern claim. The page: https://claude.ai/artifact/VAKTM2h7DPKrPyzaGxZFtt (version 1).
+
+**Decided (Mark, 2026-11-23, in chat: "yes go ahead, option A stricter").**
+1. Kit Part 1, Rigor: "Nothing in the story rests on a modern opinion, guess or reconstruction, credited or not." A modern editor's or historian's judgment, and any claim rated Dominant Modern Reconstruction or Inferential-Thin, goes to the card as a modern view. Where the old sources are silent, the story says so or leaves the point out. A modern event in the record, such as a lost text found, may be told as an event, without anyone's judgment of it.
+2. Kit Part 3, Who tells it: each source marked old or modern. Kit Part 4, the bar: such a sentence is an unsupported claim.
+3. Roles: the researcher marks a modern-only claim modern and keeps it out of the beats; the checker, the review and the fresh read block any sentence resting on a modern source or on a claim so rated.
+4. Batch 10: every such place is rewritten from the old sources or cut, checked and read fresh again before any more recording; Priscillian is recorded again.
+
+It governs batch 11 on, and the live tree's other stories are for the what-and-why ranking thread.
