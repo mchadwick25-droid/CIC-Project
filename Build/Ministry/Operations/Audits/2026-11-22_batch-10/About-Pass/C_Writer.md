@@ -4,7 +4,7 @@ Story: **{NAME}**, folder `Build/Ministry/Operations/Audits/2026-11-22_batch-10/
 
 Read Parts 1 and 2 of `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Kit.md` as they now stand, then `Outline.md` (above all its last two sections, **What it was about** and **Room for it**, as checked in `About_Check.md`) and `{SLUG}.brief.txt`.
 
-Copy `{SLUG}.brief.txt` to `{SLUG}.brief.v3.txt` first. Then make targeted changes in `{SLUG}.brief.txt` only:
+First apply every exact replacement `About_Check.md` gives for `Outline.md` to `Outline.md` itself, word for word, so that every sentence you write traces to the outline as checked; record each in `Outline_Synced.md` (old → new). Then copy `{SLUG}.brief.txt` to `{SLUG}.brief.v3.txt`, and make targeted changes in `{SLUG}.brief.txt` only:
 1. Put each "explain" line into the story where the thing is first named, in the narrator's words, woven into the sentence as part of what happens, with its witness credited where the outline says. Never a bolted-on "this was about" sentence.
 2. Stop naming each "leave it out" item, smoothing the sentence around it.
 3. Make the cuts **Room for it** names, and no others, so the brief is at or under {LEN} words (`wc -w`).

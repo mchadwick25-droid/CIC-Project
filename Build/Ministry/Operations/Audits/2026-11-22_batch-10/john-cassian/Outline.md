@@ -168,16 +168,16 @@ Count: 17 items. Already explained 9 (1, 2, 3, 4, 9, 12, 14, 15, and 8 once 7 ho
 - **The explanations add 56:**
   - Item 5, beat 7: "from the thirteenth Conference, accepts only the first, and never names Cassian directly." becomes "from the thirteenth Conference and accepts only the first, that God begins every good thought. It rejects the rest, among them that a good will may sometimes begin in us, and never names Cassian directly." (+22)
   - Item 6, beat 5: after "ran against the Fathers." add "If God chose before time who would be saved, they said, effort was in vain." (+15)
-  - Items 7 and 10, beat 6: "whose teaching on Christ was under attack. In seven books, the year before the council at Ephesus, Cassian tied that error" becomes "who would not call Mary the Mother of God. In seven books, the year before a council at Ephesus removed him, Cassian charged him with saying Christ was born a mere man. He tied that error" (+15)
+  - Items 7 and 10, beat 6: "whose teaching on Christ was under attack. In seven books, the year before the council at Ephesus, Cassian tied that error" becomes "who would not call Mary the Mother of God. In seven books, the year before a council at Ephesus removed Nestorius, Cassian charged him with saying Christ was born a mere man. He tied that error" (+15)
   - Item 11, beat 2: "telling how soldiers had helped drive their bishop out." becomes "telling how bishops had plotted and soldiers had helped drive their bishop out." (+4)
 - **What goes, 55 words, events and extras before meanings:**
   1. Beat 3: "He would tell no wonders." (−5; item 16)
   2. Beat 3: "Where Egypt's rules were too hard for Gaul's harsher climate or different ways, he would temper them with the customs of Palestine and Mesopotamia." (−24; item 17)
   3. What came 1: "The Rule's last chapter names the Conferences and Institutes of the Fathers as tools for reaching virtue. It names no author, but these are Cassian's titles." becomes "The Rule names no author for its Conferences, but the title is Cassian's." (−13; item 13; the no-author line stays)
   4. Essence: "His Institutes were rules for monks; his Conferences, talks with" becomes "His Conferences were talks with" (−5; the Institutes are first heard, and explained, in beat 3)
-  5. Opening: "Honoratus and Eucherius," goes; they stay "Two monks of southern Gaul" (−3; given by role, as Names allows when the count runs high)
+  5. Opening: "Honoratus and Eucherius," goes; they stay "Two monks of southern Gaul" (−3; Honoratus by role, as Names allows when the count runs high; Eucherius, who has no census entry or tree page, by role for the same count)
   6. Beat 5: "an old hermit named Chaeremon" becomes "an old hermit" (−2; by role, as Names allows)
   7. Beat 5: "many servants of Christ at Marseilles" becomes "many at Marseilles" (−3)
 - **After:** 674 + 56 − 55 = 675, at the cap. Checked on a scratch copy with all the changes applied: `wc -w` 675.
 - **Kept, not cut:** the opening scene; the essence with Benedict's Rule; Germanus, the broken promise and the return to Scete; Gennadius's credit for the deacon; the exile and the soldiers; Chaeremon's teaching with Zacchaeus and the thief, and Q2; "The letter does not name Cassian."; Gennadius's and Cassiodorus's verdicts with their credits; Q1 as the ending.
-- **For the writer:** in beat 6, "removed him" must plainly mean Nestorius; the second sentence stays under 30 words (23).
+- **For the writer:** the second sentence of beat 6 stays under 30 words (23).
