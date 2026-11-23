@@ -96,6 +96,7 @@ Source keys and full verbatim lines: `Source_Sheet.md` in this folder (RUF, PG25
   - "Abba Salama means Father of Peace" as the Ethiopian book's words. Say: the book says he was called Abba Salama because he preached the peace of Christ (SYN 43610-43611); "the Father of Peace" is an editor's gloss (N203 7768-7769).
   - "Edesius told Rufinus at Tyre". Rufinus says Edesius later became a priest at Tyre, not where they met.
   - Any year for his birth or death. No held source gives one.
+  - "'In the next century' for the Greek historians, unless Rufinus or 400 is the time named just before it. Say: in the century after Rufinus."
 - **Leave out:**
   - Philostorgius's Arian envoy Theophilus at Aksum (PHI 160): a rival account that never names Frumentius, in a ninth-century summary; to the card.
   - Theodoret's version of Athanasius's words (N203 7754-7757): a reworking of Rufinus's; not needed beside Quote 1.
