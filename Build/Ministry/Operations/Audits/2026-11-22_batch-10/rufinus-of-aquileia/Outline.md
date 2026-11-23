@@ -103,6 +103,7 @@ Source keys and full verbatim lines: `Source_Sheet.md` in this folder (N203, N20
   - Socrates "rejected" Rufinus. Say: he followed him, then rewrote, still using him where he could not be wrong.
   - Rufinus "translated all the Greek fathers". Say: Gennadius's words, credited.
   - Don't call Jerome's literal version a lasting text; only fragments survive.
+  - "He followed that (Jerome's) method" in the narrator's voice. Say: he said he followed that friend's method; whether he did is the quarrel (N203 45702-45706, editor; N203 51287-51303, Jerome).
   - "He was going blind" (or "blind"). Say: he hoped God would give him back his eyesight, in his own words (N203 59012-59013); an editor says he was suffering in his eyes (N203 44447-44448).
   - "Chromatius taught him the creed." Say: he received the faith from three clergy, Chromatius among them; the one he calls his teacher in the creed is the third (N203 46566-46575).
   - "The bishop of Rome answered Rufinus." Say: the bishop of Rome wrote to the bishop of Jerusalem, who had asked about him (N203 46149-46152).
