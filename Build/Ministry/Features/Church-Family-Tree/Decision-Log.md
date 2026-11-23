@@ -5627,3 +5627,13 @@ Mark: "the story and brief are the same, the card is deeper, so it can be a part
 **Found.** Person and council cards (249) already list the old sources ("their own words", "about them"), each tied to a vendored file, and no modern works. Tradition source lists mark 760 entries primary, 334 secondary and 214 reference, never checked as a reading list.
 
 **Decided.** The story never names a modern scholar. The card holds two lists: Original sources, the old witnesses the story was built from; and Modern works, for a visitor who wants to go further, within the rights and referencing rules. The kit line sending a modern view "to the card" stands. When a fix in this work takes a modern scholar out of a story, that work goes into the card's Modern works list. A full Modern works list for every card is a later job for the source-research thread. Showing the new list on the card is the audio completion thread's (site and player).
+
+## 2026-11-23 — The re-recording order approved
+
+Mark: "option 1", on the page https://claude.ai/artifact/UStZATEaBtT445YAKgNEi6 (version 1).
+
+**Found.** Of 1,079 recorded pieces, 631 hold at least one real problem: 1,247 findings held (790 bare statements, 457 modern opinions in 256 pieces), each flagged by both readers or upheld by an Opus read. By worst weight: 57 Crucial (about 43,000 credits), 218 Supporting (about 168,000), 356 Passing (about 273,000); about 485,000 credits for all, at half a credit per character (Basil: 3,746 characters, 1,871 credits). The list: `Build/Ministry/Operations/Audits/2026-11-23_what-and-why-rank/Ranked_List.csv`.
+
+**Decided.** That list is the re-recording order. The text fixes go ahead now through the build cycle, Crucial first; each fixed piece is text only until its re-recording, a batch at a time under a cap Mark sets, with a sample for his ear.
+
+**Not done.** The ElevenLabs balance is not checked.
