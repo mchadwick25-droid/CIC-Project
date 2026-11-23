@@ -202,3 +202,6 @@ Counted with `python -m engine.m1.profile_readability`, the kit's count. The bri
 - Total −56.
 
 **Count after:** 669 + 62 − 56 = 675, at the approved 675 (tested on a scratch copy: 675 by the kit's count, `wc -w` 678; grade 8.2, reading ease 73.4, longest sentence 27 words, pass). Kept: the opening crossing and Q1, the persecution and martyrs, the creed and Nicaea's word refused, the four-witness doubt scene with Theodoret's charge, Athanaric's martyrs, the death and the creed by testament, every needed witness credit.
+
+
+**Do not say** (added from `Fresh_Read_About.md` BLOCKING 1, word for word): "'Socrates says he took the creed only then' after any Valens sentence → 'only in 360'."
