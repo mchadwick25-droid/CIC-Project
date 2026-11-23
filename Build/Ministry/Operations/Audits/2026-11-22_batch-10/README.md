@@ -29,9 +29,9 @@ Lifted for the job the slate names, one per line in `Allowed_Reuse.txt`: Ulfila'
 ## Steps
 0. Slate: approved by Mark (2026-11-23).
 1. Research (`<slug>/Researcher_Prompt.filled.md`): eight started 2026-11-23; Theodoret after the Ephesus and Eutyches outlines, Frumentius after Rufinus's. All ten outlines done (2026-11-23); independent count in `Length_Count.md` (all ten over). Hearts and lengths approved by Mark (2026-11-23; `Hearts.md`). All ten Cut first lists added (each brings the count under the approved length).
-2a. Outline check (`<slug>/Checker_Prompt.filled.md`), fix pass (`Fixes.md`) and recheck (`Recheck.md`, with `Recheck_Applied.md` where its replacements were applied word for word): nine through (2026-11-23); Ulfila's fix pass running.
+2a. Outline check (`<slug>/Checker_Prompt.filled.md`), fix pass (`Fixes.md`) and recheck (`Recheck.md`, with `Recheck_Applied.md` where its replacements were applied word for word): all ten through (2026-11-23).
 2. Outline check.
-3. Write (`<slug>/Writer_Prompt.filled.md`, Opus): nine started 2026-11-23; Ulfila after his recheck.
+3. Write (`<slug>/Writer_Prompt.filled.md`, Opus): all ten started 2026-11-23.
 4. Review, after `tools/check_brief_variety.py` and `tools/check_tree_overlap.py --allow Allowed_Reuse.txt`. Chrysostom and Ephrem join here.
 5. One revision, one fresh read (with the two reference stories scored).
 6. Card.
