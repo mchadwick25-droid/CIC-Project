@@ -5419,3 +5419,153 @@ Mark: "try the audio manifests idle load".
 **Why.** The card role says "Whatever the outline, review or fresh read sends to the card goes under `uncertain` or the field it belongs to." The batch 10 card writers carried some of the outlines' "to the card" items and not others (about 106 marked across the ten researched outlines), and the card checks did not enforce the line until Theodoret's checker raised it. The page: https://claude.ai/artifact/TCupvn82kvhdu7n97CFgCa (version 1).
 
 **Decided (Mark, 2026-11-23, in chat: "Approve as recommended").** One more pass per card (Sonnet) adds each outline item marked "to the card" that the card does not yet hold, each at its cited line, in the field it belongs to; the same pass applies the card checker's changes word for word. The card checker (Opus) checks only the additions and that each change went in. It runs before the second readings, which read the cards' quotations. This batch carries out the role's existing line; no kit change.
+## 2026-11-22 — Phone loading: the start-up drawing work, safe fixes first
+
+Mark chose "Safe fixes first" from three scopes (safe fixes; safe fixes plus a deferred People layer; fewer SVG nodes).
+
+**Found.** A processor profile of start-up on the emulated phone (network out of the picture) showed about 5 s of work: about 1.6 s the browser's own parsing, style and paint, and about 2.8 s the page's start-up script. Inside the script, label fitting ran 4 times, river names were placed 4 times, era captions pinned 5 times, `rectsOverlap` was called about 867,000 times and `concurrentCount` about 160,000 times, and the People list, tray and 451 people marks were built while People was off and the tray hidden.
+
+**Changed (four fixes, no change to what the map shows).** (1) `concurrentCount` counts lane members by binary search on sorted starts and ends; it matched the old count on every lane and year tried (0 mismatches) and runs about 7 times faster. (2) The mark collision test checks a bounding box first; the calls to `rectsOverlap` fall from about 867,000 to about 60,000. (3) The first label fit at start-up, which a scheduled fit repeats, is skipped. (4) `renderTray` no longer re-applies the map transform when the tray was hidden and stays hidden.
+
+**Proof.** The whole SVG, every mark position, the lane samples and the tray state are identical to the previous page at the opening view and after zoom, People, Stories and who-list open and close, at 1440 px and on the emulated phone (0 differences in 14 comparisons). The full page and slim page still give identical cards on all 1,231 comparisons. Screenshots: 12 of 14 are pixel-identical straight away; the desktop who-list one differed only because it was taken sooner and is identical when taken later; the phone opening view differs by 11 antialiased pixels at one river edge, with the DOM identical (a raster difference, not a layout one). Tests: slim-data and worker pass; the map-view test's two known iPhone failures are unchanged.
+
+**Timings.** Emulated Pixel 5, processor slowed four times, cache off, median of five, first names, previous page against this one: Wi-Fi 4.7 s to 3.8 s; 4G 4.7 s to 3.9 s; slow 4G 6.3 s to 5.4 s. The estimate (about 3 s and about 5 s) is not yet met.
+
+**Not done, still open.** Building the People list and marks only when used (about 0.7 s, changes when elements exist); fewer SVG nodes at start (the map is about 9,700 nodes; the largest gain on the browser's 1.6 s, and the riskiest); the tour's per-frame placement (about 0.1 s).
+
+## 2026-11-22 — Phone loading: the start-up fixes are merged and live
+
+Mark: "Converged, auto mode: merge it".
+
+**Done.** Pull request 1777 merged (all CI checks green). The new code is live on `www.churchfamilytree.com`. A card, a link card and a deep link to Donatism open on the live page with no errors, and the Donatism card is full.
+
+**Live timings.** Same emulated Pixel 5, processor slowed four times, cache off, median of five, first names, over the real network: Wi-Fi 4.3 s, 4G 4.2 s, slow 4G 6.4 s. The live page before these fixes measured 4.7, 5.2 and 6.8 s. The gain live (about 0.4 to 1.0 s) is smaller than on the local server (about 0.8 to 0.9 s, 4.7 to 3.8 s on Wi-Fi), and the live runs vary by about 1 s, so the two do not clearly differ. Tapping a mark to a filled card: 0.36 to 0.45 s.
+
+**Still open.** The estimate (about 3 s on Wi-Fi, about 5 s on slow 4G) is not met. Next options, each Mark's call: build the People list and marks only when used (about 0.7 s); fewer SVG nodes at start; the tour's per-frame placement.
+
+## 2026-11-22 — Family line view, line-end labels and the phone peek strip
+
+Mark: "Build C, lime for one step and forest for the full line." On the first markers: "they dont look like they are extentions of the line, it should be the same color, no button and sit on the line near the bottom of the page." On the phone card: "Option 1, peek strip."
+
+**Decided.** Option C, a map view of a tradition's family line, is built. A tradition card has a Family line button under Connections. It lights every ancestor and descendant joined by "continued as" or "gave rise to", tradition to tradition, and dims the rest. A chip at top left names the tradition and counts the line. One-step links keep the Connections view and turn lime (#b5e35c, from #86cf9c); the full line is forest green (#2e9e4f). Dashes still show how sure the record is.
+
+**Line-end labels.** Where a lit line runs past the screen edge, an arrow and the name of the tradition beyond it sit on the line at the crossing point, in the line's own color: forest in the Family line view, the link colors in the Connections view. No box or border. Tapping one moves the map there. Lines leaving close together merge into "Name and 1 more"; at most eight show. A first version with boxed buttons was rejected by Mark and replaced.
+
+**Phone peek strip.** On a phone the card covers about nine-tenths of the screen. Connections and Family line still close the card, and a strip stays above the tab bar with the tradition's name and "Open card". The map is fitted above it. Opening the card hides the strip; closing the card brings it back while the lines are lit; clearing the lines removes it.
+
+**Result.** Tested in a browser on desktop and an emulated iPhone 13 with no page errors. On the longest tested line (Syriac Edessa, 14 traditions) the labels name the next traditions down the line and each tap moves one step along it.
+
+**Not done.** No real-phone test. No test with colorblind readers (Open-Gaps, "Family line view built: option C", 2026-11-22). A general "show all connections" setting on phones was not asked for and stays off.
+## 2026-11-22 — Phone loading: deferring the People layer and caching layout reads were checked and dropped
+
+Mark: "Defer the People layer", then, shown the new profile, chose "Fix the layout reads instead".
+
+**People layer.** After the first four fixes, a fresh profile showed the People layer costs almost nothing at start-up: `renderWho` 13 ms, `drawWhoNames` 7 ms, `renderWhoPills` 8 ms, and the 451 people nodes about 5% of the page's nodes (roughly 6 ms). The 257 ms under `placeWhoMarks` is almost all `placeRiverNames`, which places river names. The 0.7 s first estimated had gone with the first-label-fit and tray fixes. Deferral would save about 20 ms of 4.5 s, so it was not built.
+
+**Layout reads.** `chromeTop`, `barHeight` and `openingScale` showed about 0.6 s of self time in the profile. Caching the top-bar and feature-bar heights (cleared on resize, on bar size change and when the bar is positioned) was tried on a scratch change: median of five, first names, `main` against the cached version, Wi-Fi 3.9 s and 4.3 s, 4G 4.3 s and 4.3 s, slow 4G 6.0 s and 5.5 s. The runs vary by about 0.6 s and the differences go both ways, so there is no measurable gain. The forced-layout time is mostly real layout work done early, not repeated work. The change was not committed.
+
+**Where that leaves start-up.** On the emulated phone about 1.4 s is the browser's own work (parsing, style, layout, paint of about 9,700 SVG nodes) and the page script's label fitting (three runs, about 1.1 s in total), mark layout, river-name placement and era captions make up most of the rest. Further gains would come from fewer nodes at start or fewer label-fit runs, each a larger change needing Mark's call.
+
+## 2026-11-22 — Data release 52: a catch-up stamp
+
+Mark: "Option 1, release 52 dated today".
+
+**Why.** The census file said release 49, dated 16 November 2026, and the data page and its citation examples read that number at build time. Releases 50 and 51 went ahead on 17 and 18 November, and batches 8 and 9 changed the file after that, so a citation naming release 49 did not match the file the site served.
+
+**Decided.** One catch-up release, number 52, dated 2026-11-22, follows the last release the log names (51) and matches the file as served. It is stamped in the census meta, in the map page's embedded copy of that meta, and in the license credit line, which said release 44 (November 15, 2026). The data page was rebuilt from the census and now reads "release 52, dated November 22, 2026" in its opening line and its four citation examples. No record, card, recording or link changed.
+
+**Not done.** Batches 4 to 9 were not given numbers of their own. A release step that stamps the number when a batch ships is open (Open-Gaps, "The census release number had stopped at 49", 2026-11-22).
+## 2026-11-22 — Phone loading: the first link card was timed, and the card files can now be cached
+
+Mark: "time the first link card and check caching", then "yes, make the header change".
+
+**First link card, live.** Emulated Pixel 5, processor slowed four times, cache off, median of three, a press then a click 80 ms later: Wi-Fi 0.36 s, 4G 0.58 s, slow 4G 1.5 s, 242 KB each. The card opens at its title with "Loading…" and fills when the file arrives; later link cards open at once. Judged acceptable.
+
+**Caching, before.** `/data/entries/*` and `/data/edges-detail.json` were served `no-store` (from the `/data/*` rule in `cft-website/_headers`), so a browser re-downloaded them on every visit. They carry ETags.
+
+**Changed.** Two rules in `cft-website/_headers` (pull request 1781) remove the inherited header with `! Cache-Control` and set `public, max-age=0, must-revalidate` for those paths, as `/assets/*` has: a browser always asks, and an unchanged file costs a "not modified" reply. After a deploy a browser cannot show stale text.
+
+**Checked live after the deploy.** The two paths return a single `public, max-age=0, must-revalidate`; the home page, `/data/world-census.json` and the tree pages stay `no-store`; a request with the ETag gets 304 with no body; and on a repeat visit in one browser the link details cost 0.9 KB instead of 242 KB and a card file 0.9 KB instead of 4.2 KB.
+
+**Not changed.** The home page stays `no-store`, as it was before this work, so every visit still downloads the slim page (about 0.36 MB compressed).
+## 2026-11-22 — Search: three levels, and the level 1 design converged
+
+Mark, on what search is for: "i want to design the search to find traditions, people and other things, including perspectives on key theological perspenctios (what does origin say about heaven) or who believed salvation was eternal."
+
+Mark, on the order of work: "so this is a multi level build, we need to build the search for what we do have, then when we have credits after the who and counsil builds we can organize the library, and do that in partnership with church in conversation so they can also use the topics in conversations"
+
+Mark, on the scope of level 1: "1 with variations and common names not just our words", and "also dates and countries (parts of the map)".
+
+Mark, shown the whole level 1 design on one page: "converged, auto mode".
+
+This takes up build-plan row P2-S, deferred for its own design pass on 2026-11-11 ("Deferred").
+
+**The three levels.**
+
+1. **Level 1, now: search what the tree has.** Names of traditions, people, councils, cross-church movements and places; everyday and other names; variations and common names, not only the tree's own wording (spellings, transliterations, plurals, accents, common mistakes, older and outsider names); dates (a year, a range, a century); modern countries and regions; and the named parts of the map (eras, rivers, regions). Also a word search of the tree's own checked text that shows the matching sentence and links to the entry. No model runs, at build time or for a visitor. A "Topics" group is held open in the results and stays empty.
+2. **Level 2, later, after the Who and council builds and when the allowance carries it: organize the Library by topic,** in partnership with Church in Conversation so the same topics serve its conversations. It starts by reading how Church in Conversation already organizes records by canon cells and gravities. A shared topic list is a cross-project decision and is Mark's.
+3. **Level 3, after that: topic answers on the tree,** only as sourced statements or verified quoted passages with confidence grades, never generated summaries. Not designed here.
+
+**Level 1, decided one question at a time (Mark's choice in each).**
+
+1. **Where search lives: on the map page only.** There is no separate results page and the tree pages are not regenerated. The full list of results opens inside the search panel as headings and links to the plain tree pages, so it works without the map view.
+2. **Sourced common names: a first batch ships at launch,** covering living traditions and the best-known older and outsider names; later batches go by river. Rules done by code (accents, plurals, "St" and "Saint", date forms, one-letter typos) and the names the census already holds (short names, everyday names, the other names on people cards, era and river names) ship with the first build.
+3. **Where the sourced names are stored: a separate file beside the census,** one row per name with its entry, its kind (other name, older name, spelling, name given by opponents) and its basis, which is a line in the tree's own checked text or a cited source. The census validator checks every row. The file is part of the numbered data release and is listed on the data page. No name is shown without a recorded basis, and a name given by opponents is shown as one.
+4. **What the text search reads: only what a visitor can read on the entry's own page:** teaser, description, card fields, and the modern wording of verified quotes. The sentence shown is copied whole from that text.
+5. **Order for a broad word ("Orthodox", "Baptist"): living traditions first,** under a "Living today" heading, then the rest by date, using the census's own record of which are living. An exact name match comes first.
+6. **How a result moves the map:** an entry opens its card and the map centers on it; an era or a river scrolls the map to that part; a country or a year lights its entries. Nothing is hidden. The list in the panel stays.
+
+**Measured for the design (census as of release 52).** No name in the tree contains "Nestorian", "Mormon" or "Abyssinia". The census holds 418 short names, 405 everyday names and 448 other names on 208 people cards. Modern countries are recorded on 477 of 629 entries (294 of 350 traditions), across 57 countries. The names, dates and places come to about 22 KB compressed; a word list over the visitor-readable text (about 1.9 million characters) comes to about 175 to 205 KB compressed. Neither loads until a visitor opens the search; the word list loads only when a search goes past names; the matched sentence is read from the entry's own card file.
+
+**What level 1 will not do.** Answer a question or sum up a view; search the Library's source texts; say who believed what (a text match says a word appears, and the results say so); work with scripts turned off; appear on any page but the map.
+
+**How it is built.** Sonnet builds, in slices: the index builder with a size budget; the search box and panel with the matching rules; the map moves; the text search. Sonnet drafts each sourced-name batch and Opus reviews it, each basis re-read against its source, three rounds at most. Mark sees screenshots before any visible change merges; every label is a draft until then. Launch prompts: `Launch-Prompts/CFT_Search_Level1_Build_Launch_2026-11-22.md` and `Launch-Prompts/CFT_Search_Names_Batch1_Launch_2026-11-22.md`.
+
+**Not done.** Nothing is built. Open items are in Open-Gaps under "Search level 1" (2026-11-22).
+
+## 2026-11-22 — Tradition briefs: four drafted and reviewed, four held (Mark: "a"; "follow the brief outlines the best tradition briefs that are already done")
+
+**Asked (Mark, 2026-11-22).** Write kit-standard briefs for the ten traditions with no tradition recording. Sonnet drafts, Opus reviews each round in its own session, no recording.
+
+**Found.** The kit's Part 1 covers a person, council or event, but the finished world narrations in `World-Narration/` are the precedent for a tradition-level text: a story of 623 to 721 words, a legacy of 57 to 193, a sheet, an Opus review, one revision and one targeted recheck. Mark ruled to follow that pattern, so no new shape or methodology change was made. Lutheran Wittenberg and the Reformed cities already have finished texts. Of the other eight, the vendored sources support Kongo, Kirishitan, New Spain and China; Ireland (to 1056), Wales (to 954), Armenia (no narrative) and the Abbasid East (the one mapped source appears to end before the window) do not.
+
+**Decided (Mark: "a").** Option A: write the four with sources first, one at a time; hold the other four for the source-research thread.
+
+**Done.** Four briefs, each with a sheet and each passing review (Open-Gaps 375). Each review found blocking faults the draft had made: an invented power for a governor, a town moved onto the wrong person, an editor credited with an unsigned note, a first arrival the source contradicts, a punishment offer told twice, a library statement spoken as history, and a jump back in time. All were corrected in the reviewer's wording. The repeated lessons for later briefs: credit every report to its witness; keep process and library talk off the audio; never state a date or an age the files do not hold.
+
+**Not done.** Nothing in the census, no recording, no pull request. The four held traditions, and the release, wait for Mark.
+## 2026-11-22 — Councils show at every zoom and turn gold
+
+Mark: "i notices on the two most out scrolls the counsils are not showing, they should alwasy show if the toggle is on". Then: "go ahead with the council fix and make the icon gold to stand out a little more".
+
+**Root cause.** Council marks drew only once the map was zoomed in past 0.45, whatever the Councils toggle said. On an iPhone 13 (opening zoom 0.39, farthest 0.18) and a 1280-pixel laptop (0.40 and 0.36) the opening view and every zoom-out level sit below that, so no council showed. A 1920-pixel desktop opens at 0.61, so it did not show the fault.
+
+**Decided.** The zoom at which council marks first draw is now 0, so all 12 show at every zoom while the toggle is on, and none show when it is off. Council names still wait for 0.55. The marks are gold (the ring slightly thicker) instead of cream; hover, keyboard focus and a lit council turn the mark cream and thicker, so the state change stays visible.
+
+**Result.** Checked in a browser on an emulated iPhone 13 and a 1280-pixel window: all 12 marks at the opening view and the farthest zoom, none with the toggle off, no page errors.
+
+**Not done.** No real-phone check. The mark in the Councils bar button is unchanged.
+
+## 2026-11-22 — Line end marks made visible; argued against gets an open arrowhead
+
+Mark: "maybe we can put an small arrowhead on them to show which way they the conflict was driven, both ways if it was both ways." Then: "Option 1, open chevron". Then, after the end marks were found hidden: "Option 1, fix all four".
+
+**Found.** The end marks of every kind of line (triangle for descent, diamond for influence, dot for contact, bar for conflict) were drawn at the centre of the tradition's house icon, under it, and were about 4 pixels across, so none could be seen. The Key and Method page already describe them.
+
+**Decided.** Each end mark is drawn at one size on screen (13 pixels) and ends just outside the house icon, recalculated whenever the zoom changes. "Argued against" now ends in a small open red chevron at the end the line points to, away from the critic; the filled triangle stays for descent, so the two are told apart by shape and not by color alone. Where two sides argued against each other, the tree already draws two links, so each end gets its own chevron. "Broke with" has no direction, so it ends in a small open red ring at both ends. Mark first saw the bar and the chevron together, where a pair carries both links, and said "the bar and arrow together looks like an explosion, can we do something else"; the bar was replaced by the ring ("1, the ring"). The Key row and the Method page's Red entry say so.
+
+**Result.** Checked in a browser on desktop and an emulated iPhone 13 at several zooms, no page errors; the Church & Empire fan shows chevrons on the argued-against lines, dots on contact lines, a triangle on descent and a diamond on influence.
+
+**Not done.** No real-phone check. Crowding at hubs is open (Open-Gaps, "Line end marks made visible, and an arrowhead on argued-against lines", 2026-11-22).
+
+## 2026-11-23 — People marks made consistent: rivers and traditions
+
+Mark: "on the screen lets make the river and tradition who icons consistant, the river is always the multi people with the number, even if it is 1, and the tradition is always the single profile with a number no circle/button."
+
+**Found.** A river's People mark showed the multi-person icon with a number, except where a river held one person: then it showed a single person in a circle with no number. A tradition's mark showed the multi-person icon with a number where it held two or more people, and a single person with no number where it held one. Rivers and traditions used the same icons in different ways.
+
+**Decided.** A river's mark is always the multi-person icon with the number, even for 1, inside its capsule. A tradition's mark is always the single-person icon with the number, even for 1, with no circle or button around it. This holds at every zoom, on phones as well as computers.
+
+**Result.** Checked in a browser on desktop at three zooms and on an emulated iPhone 13, no page errors. The Stories marks are unchanged.
+
+**Not done.** No real-phone check.

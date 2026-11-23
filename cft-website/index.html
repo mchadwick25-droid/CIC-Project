@@ -26,7 +26,7 @@
   --parchment:#1d1811; --vellum:#262017; --iron-gall:#e9dfc7; --ink-faded:#a4967a;
   --rule:#453a28; --madder:#cf7a5c; --gold-leaf:#cfa55c; --tyrian:#b9a3d6;
   --tyrian-wash:#241d30; --graphite:#8f8266; --shadow:0 2px 14px rgba(0,0,0,.55);
-  --link-grow:#86cf9c; --link-influence:#c79a5e; --link-conflict:#f06a64; --link-contact:#a39a8c;
+  --link-grow:#b5e35c; --link-line:#2e9e4f; --link-influence:#c79a5e; --link-conflict:#f06a64; --link-contact:#a39a8c;
 }
 :root{color-scheme:dark}
 *{box-sizing:border-box}
@@ -164,10 +164,10 @@ svg.who-on #river-names,svg.story-on #river-names{opacity:.2}
 .council{cursor:pointer}
 .council:focus-visible{outline:none}
 .council-hit{fill:transparent;pointer-events:all}
-.council-ring{fill:var(--parchment);stroke:var(--iron-gall);stroke-width:1.6;vector-effect:non-scaling-stroke}
-.council-seat{fill:var(--iron-gall)}
-.council:hover .council-ring,.council:focus-visible .council-ring,.council.is-lit .council-ring{stroke:var(--gold-leaf)}
-.council:hover .council-seat,.council:focus-visible .council-seat,.council.is-lit .council-seat{fill:var(--gold-leaf)}
+.council-ring{fill:var(--parchment);stroke:var(--gold-leaf);stroke-width:2;vector-effect:non-scaling-stroke}
+.council-seat{fill:var(--gold-leaf)}
+.council:hover .council-ring,.council:focus-visible .council-ring,.council.is-lit .council-ring{stroke:var(--iron-gall);stroke-width:2.6}
+.council:hover .council-seat,.council:focus-visible .council-seat,.council.is-lit .council-seat{fill:var(--iron-gall)}
 .council-lbl{font-family:"Alegreya",Georgia,serif;font-size:0.6875rem;fill:var(--iron-gall);
   paint-order:stroke;stroke:var(--parchment);stroke-width:3px;stroke-linejoin:round;user-select:none}
 .council-tie{fill:none;pointer-events:none;stroke-width:1.5;stroke-opacity:.75;vector-effect:non-scaling-stroke}
@@ -302,8 +302,8 @@ svg.who-on .edge-line,svg.who-on .edge-hit,svg.who-on .continues{display:none!im
 .who-pill:focus-visible .who-focus{display:inline}
 .who-pill:hover .who-fig *,.who-pill:focus-visible .who-fig *,.who-pill[aria-pressed="true"] .who-fig *{fill:var(--gold-leaf)}
 .who-count{display:none}
-#prof-pills.compact>.who-pill:not([data-n="1"])>.who-fig{display:none}
-#prof-pills.compact>.who-pill:not([data-n="1"])>.who-count{display:block}
+#prof-pills>.who-pill:not(.story-mark)>.who-fig{display:none}
+#prof-pills>.who-pill:not(.story-mark)>.who-count{display:block}
 #prof-pills.compact .who-n{paint-order:stroke;stroke:var(--parchment);stroke-linejoin:round}
 #who-far .who-text{font-style:italic;font-weight:600}
 svg.who-on .who-pill:not([aria-pressed="true"]){display:none}
@@ -348,6 +348,23 @@ svg.conn-focus #nodes .node:not(.conn-end),svg.conn-focus #stories,svg.conn-focu
 svg.conn-focus #nodes .node.conn-end{display:inline!important}
 svg.conn-focus .who-pill,svg.conn-focus #who-auto,svg.conn-focus #who-far{display:none!important}
 svg.conn-focus .edge-line.conn-lit{opacity:1!important}
+#peekStrip{position:fixed;z-index:23;left:.5rem;right:.5rem;bottom:calc(var(--bar-h,56px) + .5rem)}
+#peekStrip[hidden]{display:none}
+#peekStrip .pk-open{display:flex;justify-content:space-between;align-items:center;gap:.8rem;width:100%;min-height:52px;box-sizing:border-box;padding:0 1rem;background:var(--vellum);border:1px solid var(--gold-leaf);border-radius:12px;box-shadow:var(--shadow);color:var(--iron-gall);font:700 1.05rem "Alegreya Sans",sans-serif;cursor:pointer}
+#peekStrip .pk-t{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#peekStrip .pk-go{color:var(--gold-leaf);white-space:nowrap}
+#peekStrip .pk-open:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
+body.has-peek #zoomHint{display:none}
+#edgeChips{position:fixed;inset:0;z-index:21;pointer-events:none}
+#edgeChips button{position:fixed;pointer-events:auto;display:flex;align-items:center;gap:.3rem;min-height:44px;max-width:min(20rem,calc(100vw - 1.2rem));box-sizing:border-box;padding:0 .4rem;background:none;border:0;border-radius:6px;color:var(--ec,var(--link-line));font:700 .95rem "Alegreya Sans",sans-serif;text-shadow:0 0 3px var(--parchment),0 0 3px var(--parchment),0 0 6px var(--parchment);cursor:pointer}
+#edgeChips button[data-side="right"]{flex-direction:row-reverse}
+#edgeChips button .t{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#edgeChips button .ar{font-size:1.3rem;line-height:1}
+#edgeChips button:hover .t{text-decoration:underline}
+#edgeChips button:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
+svg.line-focus .edge-line.conn-lit{stroke:var(--link-line);stroke-width:2.4;marker-end:url(#arrow-line)}
+#connChip.is-line .cc-key li:not(.cc-line){display:none}
+#connChip:not(.is-line) .cc-key li.cc-line{display:none}
 .era-label{cursor:pointer}
 .era-label:hover,.era-label:focus-visible{fill:var(--iron-gall);outline:none}
 .era-info{cursor:pointer}
@@ -492,8 +509,8 @@ svg.strip-on #era-labels{display:none}
 #panel .formal{margin-top:-.1rem}
 #panel details.era-more summary{min-height:44px;display:flex;align-items:center;font-size:.95rem}
 #panel .page-feedback{margin:1.4rem 0 0;padding:.9rem 0 0;border-top:1px solid var(--rule);max-width:none}
-#panel .who-btn.conn-btn{background:none;color:var(--iron-gall);border-color:var(--rule)}
-#panel .who-btn.conn-btn:hover{border-color:var(--gold-leaf)}
+#panel .who-btn.conn-btn,#panel .who-btn.line-btn{background:none;color:var(--iron-gall);border-color:var(--rule)}
+#panel .who-btn.conn-btn:hover,#panel .who-btn.line-btn:hover{border-color:var(--gold-leaf)}
 @media (max-width:1180px){
   .feature-bar .chip[aria-pressed] .sw{display:none}
   .feature-bar .chip{padding:.3rem .7rem}
@@ -630,7 +647,9 @@ svg.strip-on #era-labels{display:none}
   <div class="tray-sort" role="group" aria-label="Order of the list"><button type="button" data-sort="date" aria-pressed="true">By date</button><button type="button" data-sort="trad" aria-pressed="false">By tradition</button></div>
   <div class="tray-body"></div>
 </aside>
-<div id="connChip" hidden><button type="button" class="cc-x"><span class="cc-t"></span><span aria-hidden="true">&times;</span></button><ul class="cc-key"><li><i style="background:var(--link-grow)"></i>Grew out of, continued as</li><li><i style="background:var(--link-influence)"></i>Influenced</li><li><i style="background:var(--link-conflict)"></i>Argued against, broke with</li><li><i style="background:var(--link-contact)"></i>In contact with, member of</li></ul></div>
+<div id="edgeChips"></div>
+<div id="peekStrip" hidden><button type="button" class="pk-open"><span class="pk-t"></span><span class="pk-go">Open card</span></button></div>
+<div id="connChip" hidden><button type="button" class="cc-x"><span class="cc-t"></span><span aria-hidden="true">&times;</span></button><ul class="cc-key"><li class="cc-line"><i style="background:var(--link-line)"></i>Direct line: grew out of, continued as</li><li><i style="background:var(--link-grow)"></i>Grew out of, continued as</li><li><i style="background:var(--link-influence)"></i>Influenced</li><li><i style="background:var(--link-conflict)"></i>Argued against, broke with</li><li><i style="background:var(--link-contact)"></i>In contact with, member of</li></ul></div>
 <div id="barToast" aria-hidden="true"></div>
 <div id="tourRing" hidden></div>
 <aside id="growAsk" role="complementary" aria-labelledby="growTitle" aria-live="polite" hidden><button type="button" class="ga-x" aria-label="Not now">&times;</button><p id="growTitle" class="ga-t">Glad you&rsquo;re exploring.</p><p class="ga-b">If the map is useful to you, you can help it grow.</p><div class="ga-btns"><a class="ga-help" href="support.html">Help us grow</a><button type="button" class="ga-later">Not now</button></div></aside>
@@ -667,8 +686,8 @@ const DATA = {
   "notes": "Single source of truth for all three Atlas surfaces: the Story (cic-website/atlas.html and index.html), and the Wall Chart and Research Table (both consolidated into cic-website/world-atlas.html, reading this file at runtime instead of each keeping its own embedded copy). Status here follows records/worlds/*.yaml (this project's own registry), synced via engine.m6.census_sync; Imperial and Juridical Christianity's 'living' flag reflects its own confirmed Article 29 Living Tradition Status. Movements also carry numeric start/end year fields, sourced from the Wall Chart’s verified per-entry timeline data, so any surface can sort chronologically without re-parsing the display \"dates\" string. Entry kinds: `kind` is absent for a movement, \"person\" for a person entry, \"cross-church movement\", or \"major-council\" for a meeting of church leaders from more than one tradition. A person entry carries `toldWithin`, the ID of the movement whose story tells it, or null when no tradition tells it. Each movement has a `people` list, in date order: the person entries told within it, as {\"person\": ID}, and named voices from its `voices`, as {\"name\", \"year\", \"voice\": the index of the voices line that names them, and either \"author\" with \"held\": the Library author and the row_id of a work by them on the movement’s own shelf, or \"source\": {\"work\", \"file\", \"lines\", \"quote\"}, a quote of their own words}. A link may carry `concerns`, the ID of the person entry it is about, set only where its note or a source quote names that person. `livingEvidence.descentConfidence` grades a living tradition’s claim of descent on the five formation_confidence levels (Documented, Widely Accepted, Dominant Modern Reconstruction, Contested, Inferential-Thin), with livingEvidence.basis saying what the grade rests on. Where a living tradition has no other livingEvidence, the object may hold just these two fields. `reviewStatus` says how far an entry has been checked: \"AI-checked\", \"partner-contributed\" or \"scholar-reviewed\". A retired movement with `redirectTo` was taken into that movement, and its address leads there. A movement whose people list is empty carries `peopleNote`, one plain sentence saying why no one is shown. A named voice is listed only on words of their own: their own writing, a document issued or signed in their name, or verbatim minutes; speech others report for them and works of disputed authorship are not used. The `living` flag means the tradition an entry names is alive today (the method page, \"What the living mark means\"). `livingEvidence` says what the mark rests on: `basis`, in plain words; `carrier`, the entries that carry the same tradition today and hold its dated evidence; or the entry's own `evidence` and `grade` (CD, Contemporary-Documented; CR, Contemporary-Reported; or none, with no dated item after 2010 found); and `group`, how the mark was reached (line, episode, own, ended, influence). A person entry may carry `card`, the facts its person card shows: `knownFor`, one line; `role`; `keyWorks`, at most three, each with `title` and `about`; `legacy`, with `traces` (what traces to them) and `remembered` (how they are remembered, and by whom); `uncertain`, what is not settled; and `sources`, with `ownWords` (their works in the Library, each with `title`, `file` and `language`, and `disputed` only where the Library row says the authorship is in doubt) and `about` (works about them, each with `title`, `author`, `date`, `language` and `file`). A missing field is left out, never filled. Who, on the map and the tree pages, shows a tradition's person entries only; its named voices stay in this file and are not shown as people. A person card may also carry `otherNames` (other forms of the name), `label` (only \"Outside witness\", for someone who writes of the church from outside it), `datesNote` and `placeNote` (the dates and places in the careful wording of the profile; `dates` and `placeLabel` stay the short forms for lists), and its `ownWords` sources may carry `author` and `date`. For a person entry, `start` and `end` place the person on the map: the earliest and latest years the card names; where it names none, a year from the Who scan or the census record. The dates line says what the sources give. Every quotation in a person's or a council's text stands word for word in a file listed under its sources. A major council has no `toldWithin`. Its `people` list is its Who: an item is {\"person\": ID, \"part\"} for someone who has a person entry (told within their own tradition and listed here as well), or {\"name\", \"verdict\", \"part\"} for someone with none, where `verdict` is WHO, STORY, LISTED or NOT SCORED and `part` says what part they played; no verdict is made by the council itself. Its `council` object holds `rivers` (the rivers it reached, by name, the first being its lane), `knownFor`, `datesNote`, `calledBy`, `issue` (what brought them together), `attended`, `decided`, `outcome`, `record` (each main witness with `witness`, `kind`, which is acts, participant, later narrative or modern reconstruction, an optional `side`, and `note`), `traditions` (each with `id`, `name`, `part`, which is Gathered, Condemned, Refused or Affected, and a sourced `note`), `uncertain`, and `sources` in three groups, `fromTheCouncil`, `fromThoseThere` and `writtenLater`, each item with `title`, `language`, `file` under cic/texts/ and an `author` where one applies. A missing field is left out, never filled.",
   "schemaVersion": 3,
   "release": {
-   "number": 49,
-   "date": "2026-11-16"
+   "number": 52,
+   "date": "2026-11-22"
   },
   "identifiers": "Movement IDs and link IDs are permanent. Once published, an ID is never changed or reused. If a link is removed or merged, its ID moves to retiredLinks with the date, the reason and any replacement. If a movement is renamed, its old address redirects to the new one. If a movement is retired into another, it moves to retiredMovements with the date, the reason and redirectTo, and its old address redirects to the movement that took it in. Each release of this file carries a number and a date, so a citation can name the exact version it used. The Church Family Tree's home is https://www.churchfamilytree.com. Its movement pages, with their link anchors, also answer at the earlier address https://churchinconversation.com/tree/<id>, which redirects permanently, in one step, to the same page there. This file is served unchanged at both https://www.churchfamilytree.com/data/world-census.json and https://churchinconversation.com/data/world-census.json, and is never redirected.",
   "license": {
@@ -676,7 +695,7 @@ const DATA = {
    "url": "https://churchinconversation.com/license",
    "name": "CC BY-NC 4.0",
    "holder": "Faithways Studio, Inc.",
-   "credit": "From the Church Family Tree by Faithways Studio, Inc., release 44 (November 15, 2026), CC BY-NC 4.0."
+   "credit": "From the Church Family Tree by Faithways Studio, Inc., release 52 (November 22, 2026), CC BY-NC 4.0."
   }
  },
  "eras": [
@@ -56330,7 +56349,8 @@ const DATA = {
    "c2": null,
    "continuesAs": "kongo-christianity-after-1650",
    "people": [],
-   "peopleNote": "No people have been added to this entry yet, so no one is shown."
+   "peopleNote": "No people have been added to this entry yet, so no one is shown.",
+   "longDescription": "In July 1526, Afonso I, the Christian king of Kongo, wrote to the king of Portugal. He asked for wine and flour for the Mass. Then he warned that his land was being emptied of its people, who were being carried off to be sold. Contact with Portugal had brought Kongo both the faith and this trade, and in his letters Afonso set the one against the other.\n\nPortuguese ships reached the mouth of the Zaire River in 1491. A report written down a century later says Kongo's king was baptized and took the name Dom João, and that his son, who took the name Afonso, soon followed.\n\nAfonso spoke for himself in letters his scribes wrote down, and they survive, while almost everything else about Kongo's Christians was written by Portuguese and Italian outsiders. In a letter to the pope in 1512, which a Portuguese chronicler later printed, Afonso said Portuguese religious men had led his people away from idols. In 1517 he wrote that he sent his kin to Portugal to learn the faith and bring light to the blind in his kingdom. He wanted them to uphold the faith after his death.\n\nNot everyone at court welcomed the faith. The report says his brother Pango stood against him, and that the rule of one wife turned some nobles and their wives against it. It says Afonso lost his province on a charge that he wanted the throne, and later won it back. When the old king died, the report adds, Afonso's mother kept the death secret for three days so that he could reach the capital in time. Then, it says, Pango brought a great army against him, and Afonso defeated it and kept the throne.\n\nBy 1526, the letters turn to a harm that came with Portugal. Afonso wrote that merchants and thieves were carrying off his people every day, including the sons of nobles and his own kin. He asked for priests and teachers for his schools, and for no merchants at all. In his words: \"It is our will that in these kingdoms there be no trade in slaves, and no outlet for them.\" His letter is a plea. It does not tell us what came of it.\n\nIn December 1540, fourteen years on, he wrote to Portugal of an attempt on his life. He said a friar had arranged for seven or eight white men to fire at him during Easter Mass. The shot passed by the skirts of his robe, he said. It killed one man and wounded two. That charge rests on his word alone.\n\nHe wrote that letter as he wrote the others, calling the king of Portugal his brother and signing himself king."
   },
   {
    "id": "kirishitan-japan",
@@ -56374,7 +56394,8 @@ const DATA = {
    "c2": null,
    "continuesAs": "japans-hidden-christians",
    "people": [],
-   "peopleNote": "No people have been added to this entry yet, so no one is shown."
+   "peopleNote": "No people have been added to this entry yet, so no one is shown.",
+   "longDescription": "A Japanese Christian stood before a governor who was leading an inquiry against the Christians. The governor told him that to follow a faith the lord had forbidden was a capital crime, and that he could still be safe if he gave it up. The man, Jean Ingoro, answered that nothing could give him more joy than to shed his blood for God. The governor said: \"I have never seen anyone as happy as you seem to be.\"\n\nIngoro was one of Japan's Christians. Their church began in 1549, when Francis Xavier landed at Kagoshima and wrote from there that November. By the early 1600s its members faced prison, exile and execution. A few of them wrote about it in their own words. Most of their letters went to Jesuit priests, and missionaries chose them and printed them in their own books. A French editor translated them in 1870. So we hear these few Christians through the hands of the mission.\n\nAsked where such joy came from, Ingoro told the governor how he had come to believe. He had read the writings of the Japanese sects, and he found nothing in them about a Creator. He heard the preachers and argued with them many times, and he thought no priest could stand up to him. Then a Christian came back from Korea to the town where Ingoro was living. He converted most of its people and nobles, and Ingoro with them, by his own account the most stubborn of all. The governor answered that he did not know whether the missionaries could be trusted, and he had Ingoro jailed.\n\nHis letter stops there. A note printed after it adds that the governor accused him of stealing the bodies of four crucified Christians, among them little Luis, to sell them at Nagasaki. Ingoro answered that he had only gathered bones that had fallen, to bury them with Christian rites.\n\nMichel Fieoyemon wrote from prison in January 1609. He had been there four years for confessing the name of God, and had borne trials without number, of every kind. He wrote: \"I have borne them with such keen joy and comfort that I seem to have been a prisoner for only one day.\"\n\nIn May 1614, a group of Christians sailed into exile to Tsugaru. The lord of the province, in the name of the country's ruler, ordered them to clear unworked land. They answered that they would obey in everything if they could keep their faith. In their letter to the priests, they asked that one of them visit the next year, though they knew it could not be this year.\n\nAn outsider saw the same years. Richard Cocks, an English trader at Hirado, heard in August 1615 that the king of Spain was sending the emperor a gift for his kindness to Christians. The king little knew, Cocks wrote, that the emperor had already banished all the friars, monks, Jesuits and priests.\n\nOne more exchange survives. A woman named Maria heard it said that her husband, Jean Pioyemon, had been condemned to die. She asked him to send her his reliquary, a small case for holy relics, and some of his hair to remember him by. She hoped to be there at his death, to say a last farewell. He answered that to die as a martyr was far above what he deserved. He feared he might be set free instead, and he asked at least to have his fingers cut off for God, as other Christians had at Suruga. He would gladly exchange reliquaries with her, he wrote, but she was not to speak of his hair. If by God's grace he were put to death, she would then receive the great gift she asked of him."
   },
   {
    "id": "china-mission-born-christianity",
@@ -56411,7 +56432,8 @@ const DATA = {
    "c2": null,
    "continuesAs": "chinese-catholicism-1650-1906",
    "people": [],
-   "peopleNote": "No people have been added to this entry yet, so no one is shown."
+   "peopleNote": "No people have been added to this entry yet, so no one is shown.",
+   "longDescription": "In the Ming court, a Chinese minister wrote to the emperor in defense of foreign priests. He called them, in the translator's English, \"worthies and sages,\" the words China used for its own great teachers. If they were guilty, he wrote, then so was he.\n\nThe minister was Xu Guangqi, known in English as Paul Su. He was one of the scholars and officials whom Jesuit missionaries had won to Christianity in Ming China. He argued for the faith in the words of China's own teachers. His memorial is a rare convert's own voice, though it reaches us in an English translation of 1850, and its wording is the translator's.\n\nThe mission's own story was written by the Jesuit Nicolas Trigault, from Matteo Ricci's own writings. In September 1583, it tells, Ricci and a fellow Jesuit, Michele Ruggieri, reached the city of Zhaoqing. Ruggieri had stayed there once before and been sent away. Kneeling before the governor, they asked for a place to build a house and a church. He answered kindly, and told them to look about the city for a place.\n\nThe memorial answers a report from the Board of Rites, made in 1616 or 1617. The Board had impeached the Jesuits at court. Its report said their teaching was spreading, so that even men of eminence were believing in it.\n\nXu did not deny it. He wrote that he had talked with the Jesuits about religion for years. He said they had come thousands of miles because they heard that China's own teachers served Heaven through virtue, as theirs served the Lord of Heaven. He called Buddhism false, since it had not reformed hearts in eighteen hundred years. In his view the Jesuits' teaching could repair and strengthen the royal laws and the learning of the scholars, and even correct the Buddhists.\n\nThen he proposed three tests. The Jesuits' books should be translated, and the emperor's ministers should judge whether they were sound. The Jesuits should debate the leading Buddhists and Taoists in writing, and scholar-officials should decide. A summary of their teaching should go before the emperor himself. If the teaching proved wicked, he wrote, the Jesuits should be sent away, and he would accept the punishment due to those who helped deceive the emperor.\n\nNear the end, he wrote that for peace and good government, \"nothing can surpass this that is taught by your majesty's courtiers.\" The courtiers were the Jesuits; he called them the emperor's own. If the Board had its way, he wrote, these men must at once return to their own countries. He had fasted and washed, he said, before he dared to lay their case before the throne."
   },
   {
    "id": "new-spain-and-andes-mission-born-christianity",
@@ -56447,7 +56469,8 @@ const DATA = {
    "overlayCurrent": false,
    "c2": null,
    "people": [],
-   "peopleNote": "No people have been added to this entry yet, so no one is shown."
+   "peopleNote": "No people have been added to this entry yet, so no one is shown.",
+   "longDescription": "In 1536, a Franciscan friar in Mexico wrote down a number. \"I believe more than four million souls were baptized from the time the land was won until the time I write this.\" The land had been won in 1521. The friar was Toribio de Benavente, called Motolinía.\n\nHe wrote the mission's story from the inside. Twelve friars, he says, left Spain in January 1523 for the land of Anahuac, now called New Spain. They came for the conversion of its native peoples. We hear the people they baptized only through the friars' pens.\n\nThe land the friars reached had already been struck. Smallpox came with a sick man on a Spanish ship, and in most provinces, Motolinía says, more than half the people died. War killed many others, above all around Mexico City. He counts ten plagues in all. After smallpox and war came hunger, and then the weight of Spanish rule: tribute, slavery and forced work in the gold mines. Many houses, he wrote, stood empty.\n\nMotolinía read this as God's work. He wrote that God had killed many of the lords who would not accept the new law, through those same plagues. Their sons, baptized as small children, then inherited their lands. That is his own reading.\n\nHe also told a smaller scene. Friars visited two provinces from their house at Cuauhnahuac, and people came from the small town to the larger one to hear them and to have their children baptized. One night, heavy rain turned a stream into a river. The friars preached from one bank to the people on the other, and the people would not go home until their children were baptized. So they made a poor raft of canes. Half in the water and half in their arms, they carried the children across, and the friars baptized them with great effort, he says, because there were so many.\n\nHis counts are his own, and they do not agree. In one book he gives three totals for the same fifteen years: more than four million, close to five million, and more than nine million. \"In my judgment, and in truth, more than nine million souls of Indians will have been baptized in the time I speak of.\" The numbers count baptisms. They do not tell what the people believed.\n\nA Jesuit, José de Acosta, wrote about the Indians of Peru and Mexico some fifty years later, around 1590. He said many of their customs resembled the law of Moses, and some came near the Gospel. In Peru, he wrote, people confessed their sins aloud and washed in water to cleanse them. The Mexica even had a kind of baptism of newborn children. He judged these customs mixed with great abomination, and he named the devil's pride as the cause of their idol worship. But some priests told him that after the Christians came to Peru, people there confessed even their thoughts."
   },
   {
    "id": "anti-trinitarian-currents-servetus-polish-brethr",
@@ -132741,8 +132764,20 @@ function driftOffset(k,y){
 const WIDTH_MIN=6, WIDTH_RANGE=84, WIDTH_EXP=0.7;
 const WIDTH_SMOOTH_SIGMA=18, WIDTH_SMOOTH_REACH=45, WIDTH_SMOOTH_STEP=5;
 const laneMembers={}; laneKeys.forEach(k=>{laneMembers[k]=churchBodies.filter(m=>m.laneOrder===k);});
+// Members with start <= year <= end: the starts at or before the year, less the ends before it. Members
+// whose dates are not numbers, or whose start is after their end, can never be counted and are left out.
+const laneBounds={}; laneKeys.forEach(k=>{
+  const ok=laneMembers[k].map(m=>[+m.start,+m.end]).filter(([a,b])=>a<=b);
+  laneBounds[k]={starts:ok.map(x=>x[0]).sort((a,b)=>a-b), ends:ok.map(x=>x[1]).sort((a,b)=>a-b)};
+});
+function countUpTo(sorted,v,inclusive){
+  let lo=0, hi=sorted.length;
+  while(lo<hi){const mid=(lo+hi)>>1; if(inclusive?sorted[mid]<=v:sorted[mid]<v)lo=mid+1; else hi=mid;}
+  return lo;
+}
 function concurrentCount(laneOrder, year){
-  return laneMembers[laneOrder].filter(m=>m.start<=year && m.end>=year).length;
+  const b=laneBounds[laneOrder];
+  return countUpTo(b.starts,year,true)-countUpTo(b.ends,year,false);
 }
 function smoothedCount(k,year){
   let sum=0, wsum=0;
@@ -132974,19 +133009,26 @@ const MAJOR_BY_TYPE=new Set(['gave rise to','continued as','broke with']);
 const isMajorEdge=e=>MAJOR_BY_TYPE.has(e.type)||(typeof e.outcome==='string'&&e.outcome.trim()!=='');
 const LINK_FAMILY={'gave rise to':'grow','continued as':'grow','influenced':'influence','argued against':'conflict','broke with':'conflict','in contact with':'contact','member of':'contact'};
 const LINK_FAMILY_LABEL={grow:'Grew out of, continued as',influence:'Influenced',conflict:'Argued against, broke with',contact:'In contact with, member of'};
+const EDGE_MARKERS=[], EDGE_MARK_PX=13;
 {
   const defs=el('defs',{});
   const MARK_SHAPES={
     grow:{ref:9,node:()=>el('path',{d:'M0,0 L10,5 L0,10 z',fill:'var(--link-grow)'})},
     influence:{ref:9,node:()=>el('path',{d:'M1,5 L5.5,1 L10,5 L5.5,9 z',fill:'none',stroke:'var(--link-influence)','stroke-width':1.8,'stroke-linejoin':'miter'})},
-    conflict:{ref:7,node:()=>el('path',{d:'M7,-1 L7,11',fill:'none',stroke:'var(--link-conflict)','stroke-width':3.2})},
+    conflict:{ref:9.6,node:()=>el('circle',{cx:5.4,cy:5,r:3.9,fill:'none',stroke:'var(--link-conflict)','stroke-width':1.9})},
     contact:{ref:5,node:()=>el('circle',{cx:5,cy:5,r:4.2,fill:'var(--link-contact)'})}
   };
   Object.keys(LINK_FAMILY_LABEL).forEach(f=>{
-    const mk=el('marker',{id:`arrow-${f}`,viewBox:'0 0 10 10',refX:String(MARK_SHAPES[f].ref),refY:'5',markerWidth:'3.5',markerHeight:'3.5',orient:'auto-start-reverse',overflow:'visible'});
+    const mk=el('marker',{id:`arrow-${f}`,viewBox:'0 0 10 10',refX:String(MARK_SHAPES[f].ref),refY:'5',markerUnits:'userSpaceOnUse',markerWidth:'14',markerHeight:'14',orient:'auto-start-reverse',overflow:'visible'});
     mk.appendChild(MARK_SHAPES[f].node());
-    defs.appendChild(mk);
+    defs.appendChild(mk); EDGE_MARKERS.push({mk,tip:MARK_SHAPES[f].ref});
   });
+  const argMk=el('marker',{id:'arrow-argued',viewBox:'0 0 10 10',refX:'8',refY:'5',markerUnits:'userSpaceOnUse',markerWidth:'14',markerHeight:'14',orient:'auto-start-reverse',overflow:'visible'});
+  argMk.appendChild(el('path',{d:'M1.5,1 L8,5 L1.5,9',fill:'none',stroke:'var(--link-conflict)','stroke-width':2,'stroke-linecap':'round','stroke-linejoin':'round'}));
+  defs.appendChild(argMk); EDGE_MARKERS.push({mk:argMk,tip:8});
+  const lineMk=el('marker',{id:'arrow-line',viewBox:'0 0 10 10',refX:'10',refY:'5',markerUnits:'userSpaceOnUse',markerWidth:'14',markerHeight:'14',orient:'auto-start-reverse',overflow:'visible'});
+  lineMk.appendChild(el('path',{d:'M0,0 L10,5 L0,10 z',fill:'var(--link-line)'}));
+  defs.appendChild(lineMk); EDGE_MARKERS.push({mk:lineMk,tip:10});
   svg.insertBefore(defs,svg.firstChild);
 }
 const gBands=el('g',{id:'bands'}); gRoot.appendChild(gBands);
@@ -133050,7 +133092,10 @@ function layoutMarks(){
   churchBodies.forEach(m=>{const y=yearToY(m.start);items.push({m,ix:laneCenterX(m.laneOrder,y),iy:y});});
   (DATA.stories||[]).forEach(s=>{const y=yearToY(s.year);items.push({s,story:true,ix:laneCenterX(s.laneOrder,y),iy:y});});
   items.sort((a,b)=>a.iy-b.iy||a.ix-b.ix||String((a.m||a.s).id).localeCompare(String((b.m||b.s).id)));
-  items.forEach(it=>{it.x=it.ix;it.y=it.iy;it.rects=markRects(it);});
+  items.forEach(it=>{
+    it.x=it.ix;it.y=it.iy;it.rects=markRects(it);
+    it.box=[Math.min(...it.rects.map(r=>r[0])),Math.min(...it.rects.map(r=>r[1])),Math.max(...it.rects.map(r=>r[2])),Math.max(...it.rects.map(r=>r[3]))];
+  });
   for(let iter=0;iter<LAYOUT_ITER;iter++){
     const dx=new Float64Array(items.length), dy=new Float64Array(items.length);
     let moved=false;
@@ -133060,6 +133105,8 @@ function layoutMarks(){
         const b=items[j];
         if(b.y-a.y>120)break;
         if(Math.abs(b.x-a.x)>400)continue;
+        if(Math.min(a.x+a.box[2],b.x+b.box[2])-Math.max(a.x+a.box[0],b.x+b.box[0])+LAYOUT_PAD<=0)continue;
+        if(Math.min(a.y+a.box[3],b.y+b.box[3])-Math.max(a.y+a.box[1],b.y+b.box[1])+LAYOUT_PAD<=0)continue;
         const o=rectsOverlap(a.rects,a.x,a.y,b.rects,b.x,b.y);
         if(!o)continue;
         moved=true;
@@ -133131,7 +133178,7 @@ function voiceLine(home,row){
   return cut===line?'':cut;
 }
 
-const Z_RIVER_WHO=0.30, Z_BUILT=0.34, Z_COUNCIL=0.45, Z_MAJOR=0.50, Z_COUNCIL_NAME=0.55, Z_STORY=0.65, Z_ALL=0.80,
+const Z_RIVER_WHO=0.30, Z_BUILT=0.34, Z_COUNCIL=0, Z_MAJOR=0.50, Z_COUNCIL_NAME=0.55, Z_STORY=0.65, Z_ALL=0.80,
   Z_READ=0.9, Z_VOICES=1.0, Z_STORY_TITLE=1.24, Z_PLACE=1.54, Z_PEOPLE=1.91, Z_DATES=2.37;
 const RIVER_WHO_MAX=5, TRAD_WHO_MAX=4, WHO_FALLBACK=3;
 const MARK_PX=14, MARK_MAX_PX=18, MARK_MIN_U=10;
@@ -133351,11 +133398,11 @@ function drawWhoRows(){
   const hit=(a,b)=>a[0]<b.x1&&a[2]>b.x0&&a[1]<b.y1&&a[3]>b.y0;
   items.forEach(it=>{if(it.box&&!it.g.classList.contains('who-lit')&&boxes.some(b=>hit(b,it.box)))it.g.classList.add('who-under');});
 }
-function renderWho(){
+function renderWho(fitLater){
   svg.classList.toggle('who-on',!!whoScope);
   whoPick=whoScope?scopePeople(whoScope):null;
   syncWhoControls();
-  labelFitRun();
+  if(fitLater)scheduleLabelFit();else labelFitRun();
   drawWhoNames();
   renderTray();
   queueAutoWho();
@@ -133454,9 +133501,8 @@ function renderWhoPills(){
     g.appendChild(el('circle',{class:'who-hit',r:0}));
     g.appendChild(el('rect',{class:'who-cap',stroke:col}));
     g.appendChild(el('rect',{class:'who-focus'}));
-    if(n===1){const f=el('g',{class:'who-fig','aria-hidden':'true'});f.appendChild(personGlyph('currentColor',0,0));g.appendChild(f);}
-    else g.appendChild(groupGlyph());
-    const t=el('text',{class:'who-n','aria-hidden':'true'}); t.textContent=n===1?'':String(n); g.appendChild(t);
+    g.appendChild(groupGlyph());
+    const t=el('text',{class:'who-n','aria-hidden':'true'}); t.textContent=String(n); g.appendChild(t);
     const go=()=>setWho(scope);
     g.addEventListener('click',ev=>{ev.stopPropagation();go();});
     g.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();ev.stopPropagation();go();}});
@@ -133474,7 +133520,7 @@ function whoFigure(m){
   g.appendChild(el('circle',{class:'who-ring'}));
   g.dataset.n=String(n);
   const f=el('g',{class:'who-fig','aria-hidden':'true'}); f.appendChild(personGlyph('currentColor',0,0)); g.appendChild(f);
-  const cnt=el('g',{class:'who-count','aria-hidden':'true'}); cnt.appendChild(groupGlyph());
+  const cnt=el('g',{class:'who-count','aria-hidden':'true'}); const pf=el('g',{class:'who-fig','aria-hidden':'true'}); pf.appendChild(personGlyph('currentColor',0,0)); cnt.appendChild(pf);
   const cn=el('text',{class:'who-n'}); cn.textContent=String(n); cnt.appendChild(cn); g.appendChild(cnt);
   const go=()=>setWho(scope);
   g.addEventListener('click',ev=>{ev.stopPropagation();go();});
@@ -133637,11 +133683,12 @@ function setWhoMark(p,cx,cy,U,away,compact){
     const ring=p.querySelector('.who-focus'), pad=U*.3;
     ring.setAttribute('x',(-W/2-pad).toFixed(1));ring.setAttribute('y',(-H/2-pad).toFixed(1));ring.setAttribute('width',(W+2*pad).toFixed(1));ring.setAttribute('height',(H+2*pad).toFixed(1));ring.setAttribute('rx',(H/2+pad).toFixed(1));
     p._w=W;
-  }else if(compact&&p.dataset.n!=='1'&&p.querySelector('.who-count')){
-    const cnt=p.querySelector('.who-count'), gf=cnt.querySelector('.who-fig'), n=cnt.querySelector('.who-n'), W=U*(1.9+.55*n.textContent.length);
-    gf.setAttribute('transform',`translate(${(-W/2+U*.85).toFixed(1)},${(-U*.05).toFixed(2)}) scale(${(U/11.5).toFixed(3)})`);
-    n.setAttribute('x',(-W/2+U*1.6).toFixed(1)); n.setAttribute('y',(U*.3).toFixed(1));
+  }else if(p.querySelector('.who-count')){
+    const cnt=p.querySelector('.who-count'), gf=cnt.querySelector('.who-fig'), n=cnt.querySelector('.who-n'), W=U*(1.5+.55*n.textContent.length);
+    gf.setAttribute('transform',`translate(${(-W/2+U*.5).toFixed(1)},${(U*.03).toFixed(2)}) scale(${(U/8.4).toFixed(3)})`);
+    n.setAttribute('x',(-W/2+U*1.1).toFixed(1)); n.setAttribute('y',(U*.3).toFixed(1));
     n.style.fontSize=(U*.88)+'px'; n.style.strokeWidth=(U*.88*3/11)+'px';
+    const ring=p.querySelector('.who-ring'); if(ring)ring.setAttribute('r',(W/2+U*.2).toFixed(2));
     p._w=W;
   }else{
     fig.setAttribute('transform',`translate(0,${(U*.03).toFixed(2)}) scale(${(U/8.4).toFixed(3)})`);
@@ -133707,10 +133754,11 @@ function placeWhoMarks(){
       if(G===gProfPills&&compact)return;
       const it=byNode.get(p.dataset.id);
       if(!it||!it.box){p.style.display='none';return;}
-      const cx=it.dx+(it.end?1:-1)*U*1.02, cy=it.dy;
+      const dir=it.end?1:-1, wide=p.dataset.n&&p.querySelector('.who-count'), W=wide?U*(1.5+.55*p.dataset.n.length):U;
+      const cx=wide?it.dx+dir*(U*.62+W/2):it.dx+dir*U*1.02, cy=it.dy;
       p.style.display='';
-      setWhoMark(p,cx,cy,U,it.end?1:-1);
-      grid.add({id:'pp'+it.id,x0:cx-U/2,x1:cx+U/2,y0:cy-U/2,y1:cy+U/2});
+      setWhoMark(p,cx,cy,U,dir);
+      grid.add({id:'pp'+it.id,x0:cx-W/2,x1:cx+W/2,y0:cy-U/2,y1:cy+U/2});
     }));
   }
   placeRiverNames(U);
@@ -133724,8 +133772,8 @@ function placeCompactPeople(){
   gProfPills.querySelectorAll('.prof-pill').forEach(p=>{
     const it=byNode.get(p.dataset.id);
     if(!it||!it.box){p.style.display='none';return;}
-    const dir=it.end?1:-1, count=p.dataset.n!=='1';
-    const W=count?U*(1.9+.55*p.dataset.n.length):U, cx=count?it.dx+dir*(U*.62+W/2):it.dx+dir*U*1.02, cy=it.dy;
+    const dir=it.end?1:-1;
+    const W=U*(1.5+.55*p.dataset.n.length), cx=it.dx+dir*(U*.62+W/2), cy=it.dy;
     const box={id:it.id,x0:cx-W/2,x1:cx+W/2,y0:cy-U/2,y1:cy+U/2};
     if(grid.hits(box)){p.style.display='none';return;}
     p.style.display='';
@@ -133828,9 +133876,10 @@ function trayRowHTML(a,withTrad){
 }
 function renderTray(){
   if(storyScope){renderStoryTray();return;}
+  const wasHidden=tray.hidden;
   document.body.classList.toggle('tray-open',!!whoScope);
   tray.hidden=!whoScope;
-  applyTransform();
+  if(!(wasHidden&&tray.hidden))applyTransform();
   if(!whoScope)return;
   const n=whoPick.all.length, sc=whoScope, era=sc.type==='river'?eras[sc.era]:null;
   tray.querySelector('h2').textContent=whoScopeLabel(sc);
@@ -134251,7 +134300,7 @@ function render(){
     gStories.appendChild(g);
   });
 
-  renderWho();
+  renderWho(true);
   applyDetail();
 }
 function renderAcross(){
@@ -134371,7 +134420,7 @@ function tipFor(m){
 }
 const EDGE_DASH={'Widely Accepted':'6,3','Dominant Modern Reconstruction':'6,3','Contested':'2,3','Inferential-Thin':'1,4'};
 const SYMMETRIC_EDGE_TYPES=new Set(['broke with','in contact with']);
-const linkMarks=(type,fam)=>({'marker-end':`url(#arrow-${fam})`,...(SYMMETRIC_EDGE_TYPES.has(type)?{'marker-start':`url(#arrow-${fam})`}:{})});
+const linkMarks=(type,fam)=>({'marker-end':`url(#arrow-${type==='argued against'?'argued':fam})`,...(SYMMETRIC_EDGE_TYPES.has(type)?{'marker-start':`url(#arrow-${fam})`}:{})});
 function pairLinkNote(aId,bId){
   const other=DATA.edges.find(e=>(e.from===aId&&e.to===bId)||(e.from===bId&&e.to===aId));
   return other?`The checked connection between them is “${esc(other.type)}” (${esc(other.confidence)}), listed above.`:'No connection between them has been drawn and checked yet.';
@@ -134872,7 +134921,7 @@ function openPanelNow(m){
   if(short)h+=`<p class="meta formal">${esc(m.name)}</p>`;
   if(KIND_LABEL[m.kind])h+=`<span class="statuspill kindpill">${esc(KIND_LABEL[m.kind])}</span>`;
   if(!isAcross(m))h+=whoButtonHTML(m);
-  h+=connButtonHTML(m);
+  h+=connButtonHTML(m)+lineButtonHTML(m);
   if(entry)h+=`<p class="repline"><b>${esc(entry.representativeName)}</b> — <i>${esc(entry.worldName)}</i>${entry.subtitle?` · ${esc(entry.subtitle)}`:''}</p>`+worldDoor(m);
   h+=`<p class="meta">${esc(plainDates(m.dates))} · ${esc((m.placeLabel&&CFTPlace.formatPlace(m,{today:true}))||m.region||'')}</p>`;
   if(isTraditionCard(m))h+=lineageStripHTML(m,lineageParts(m,inbound,outbound));
@@ -134931,6 +134980,7 @@ function openPanelNow(m){
   stopNarration(); panelBody.innerHTML=h; showPanel(`tree/${m.id}`); hideTip(); narrCardReady();
   wirePanelLinks();
   const cb=panelBody.querySelector('.conn-btn'); if(cb)cb.addEventListener('click',()=>showConnections(m));
+  const lb=panelBody.querySelector('.line-btn'); if(lb)lb.addEventListener('click',()=>showConnections(m,true));
   wireDocStories(m);
   if(isBuiltWorld)loadBuiltWorldOrientation(m.id);
   syncWorldURL(m.id);
@@ -135089,6 +135139,12 @@ function connButtonHTML(m){
   if(!n)return '';
   return `<button type="button" class="who-btn conn-btn"><span>Connections · ${n}</span><span class="who-state">Show on the map</span></button>`;
 }
+function lineButtonHTML(m){
+  if(!isTraditionCard(m))return '';
+  const k=familyLine(m).ids.size;
+  if(k<2)return '';
+  return `<button type="button" class="who-btn line-btn"><span>Family line · ${k} traditions</span><span class="who-state">Show on the map</span></button>`;
+}
 let lastFocused=null;
 function showPanel(page){
   pendingCard=null;
@@ -135103,6 +135159,7 @@ function showPanel(page){
   panel.classList.add('open');
   panel.removeAttribute('inert');
   document.getElementById('panelClose').focus();
+  if(connFocus)syncPeek();
 }
 function closePanel(keepListening){
   pendingCard=null;
@@ -135116,6 +135173,7 @@ function closePanel(keepListening){
   lastFocused=null;
   syncWorldURL(null);
   if(playing)showListenBar(playing);
+  if(connFocus)syncPeek();
 }
 const listenBar=document.getElementById('listenBar');
 const listen={audio:null,stop:null,pin:null,world:null};
@@ -135192,7 +135250,7 @@ const BAR_ICON={
 };
 const barIcon=k=>`<svg class="bar-ico" viewBox="0 0 20 20" width="20" height="20" aria-hidden="true" focusable="false">${BAR_ICON[k]}</svg>`;
 const LINK_MODES=['off','major','all'];
-let linkMode='off', connFocus=null, connEnds=null;
+let linkMode='off', connFocus=null, connEnds=null, connLine=false, connLinePairs=null, edgeSamples=null;
 const kindsOff=new Set();
 const effectiveLinkMode=()=>narrowScreen()?'off':linkMode;
 function connectionCount(id){return gEdges.querySelectorAll(`.edge-line[data-via~="${CSS.escape(id)}"]`).length;}
@@ -135208,8 +135266,8 @@ function buildLegend(){
   const lanes=FAM.filter(f=>laneKeys.includes(f.k));
   let rivers=`<button type="button" class="row" data-toggle="lanes-all" aria-pressed="true"><i style="background:conic-gradient(${lanes.slice(0,6).map((f,i,a)=>`${famColor(f)} ${i/a.length}turn ${(i+1)/a.length}turn`).join(',')})"></i><span class="sw-name">All rivers</span><span class="sw" aria-hidden="true"></span></button>`;
   lanes.forEach(f=>{rivers+=`<button type="button" class="row" data-toggle="lane:${f.k}" aria-pressed="true"><i style="background:${famColor(f)}"></i><span class="sw-name"><b>${esc(f.name)}</b>${f.common?`<small>${esc(f.common)}</small>`:''}</span><span class="sw" aria-hidden="true"></span></button>`;});
-  const KEY_END={grow:'<path d="M20,1 L26,5 L20,9 z" fill="var(--link-grow)"/>',influence:'<path d="M17.5,5 L21.5,1.2 L25.5,5 L21.5,8.8 z" fill="none" stroke="var(--link-influence)" stroke-width="1.5"/>',conflict:'<path d="M24,0 L24,10" stroke="var(--link-conflict)" stroke-width="2.6"/>',contact:'<circle cx="4" cy="5" r="3" fill="var(--link-contact)"/><circle cx="22" cy="5" r="3" fill="var(--link-contact)"/>'};
-  const colorKey=(f)=>`<svg class="linekey" viewBox="0 0 26 10" aria-hidden="true"><line x1="${f==='contact'?4:1}" y1="5" x2="${f==='contact'?22:f==='grow'?20:f==='influence'?17.5:24}" y2="5" stroke="var(--link-${f})" stroke-width="2.4"/>${KEY_END[f]}</svg>`;
+  const KEY_END={grow:'<path d="M20,1 L26,5 L20,9 z" fill="var(--link-grow)"/>',influence:'<path d="M17.5,5 L21.5,1.2 L25.5,5 L21.5,8.8 z" fill="none" stroke="var(--link-influence)" stroke-width="1.5"/>',conflict:'<path d="M19.5,1 L24.5,5 L19.5,9" fill="none" stroke="var(--link-conflict)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="4" cy="5" r="2.9" fill="none" stroke="var(--link-conflict)" stroke-width="1.7"/>',contact:'<circle cx="4" cy="5" r="3" fill="var(--link-contact)"/><circle cx="22" cy="5" r="3" fill="var(--link-contact)"/>'};
+  const colorKey=(f)=>`<svg class="linekey" viewBox="0 0 26 10" aria-hidden="true"><line x1="${f==='contact'||f==='conflict'?4:1}" y1="5" x2="${f==='contact'?22:f==='grow'?20:f==='influence'?17.5:24}" y2="5" stroke="var(--link-${f})" stroke-width="2.4"/>${KEY_END[f]}</svg>`;
   const nMajor=gEdges.querySelectorAll('.edge-line[data-major="1"]').length, nAll=gEdges.querySelectorAll('.edge-line').length;
   let links=`<div class="note">Lines join traditions where the sources record a connection. The color and the mark at the end show the kind of connection. The line's pattern shows how sure the record is. Where a connection has a direction, the mark sits at the end it points to. Where a connection joins two traditions equally, the mark sits at both ends. Click or tap a line to read about the connection and its sources.</div>`;
   links+=`<div class="conn-seg" role="group" aria-label="Which connections to show"><button type="button" data-mode="off">Off</button><button type="button" data-mode="major">Major <span>${nMajor}</span></button><button type="button" data-mode="all">All <span>${nAll}</span></button></div>`;
@@ -135338,9 +135396,36 @@ function buildLegend(){
 }
 
 const connChip=document.getElementById('connChip');
+const edgeChips=document.getElementById('edgeChips');
+const peekStrip=document.getElementById('peekStrip');
 const connSel=id=>`.edge-line[data-via~="${CSS.escape(id)}"],.edge-hit[data-via~="${CSS.escape(id)}"]`;
+function familyLine(m){
+  const ids=new Set([m.id]), pairs=new Set();
+  const D=DATA.edges.filter(e=>DESCENT_TYPES.has(e.type)&&bothTraditions(e));
+  const walk=(dir)=>{
+    const q=[m.id], seen=new Set(q);
+    while(q.length){
+      const x=q.shift(), next=[];
+      D.forEach(e=>{
+        const n=dir==='up'?(e.to===x?e.from:null):(e.from===x?e.to:null);
+        if(n!=null){pairs.add(e.from+'>'+e.to);next.push(n);}
+      });
+      const c=dir==='down'&&byId[x]&&byId[x].continuesAs; if(c&&byId[c])next.push(c);
+      next.forEach(n=>{ids.add(n);if(!seen.has(n)){seen.add(n);q.push(n);}});
+    }
+  };
+  walk('up'); walk('down');
+  return {ids,pairs};
+}
 function lightConnections(){
+  edgeSamples=null;
   document.querySelectorAll('.conn-lit').forEach(l=>l.classList.remove('is-lit','conn-lit'));
+  if(connLine){
+    connEnds=new Set(connLinePairs.ids);
+    document.querySelectorAll('.edge-line,.edge-hit').forEach(l=>{if(connLinePairs.pairs.has(l.dataset.from+'>'+l.dataset.to))l.classList.add('is-lit','conn-lit');});
+    gNodes.querySelectorAll('.node').forEach(g=>g.classList.toggle('conn-end',connEnds.has(g.dataset.id)));
+    return;
+  }
   connEnds=new Set([connFocus.id]);
   document.querySelectorAll(connSel(connFocus.id)).forEach(l=>{l.classList.add('is-lit','conn-lit');(l.dataset.via||'').split(' ').forEach(id=>connEnds.add(id));});
   gNodes.querySelectorAll('.node').forEach(g=>g.classList.toggle('conn-end',connEnds.has(g.dataset.id)));
@@ -135350,32 +135435,156 @@ function clearConnections(){
   const m=connFocus;
   document.querySelectorAll('.conn-lit').forEach(l=>l.classList.remove('is-lit','conn-lit'));
   gNodes.querySelectorAll('.node.conn-end').forEach(g=>g.classList.remove('conn-end'));
-  connFocus=null; connEnds=null; svg.classList.remove('conn-focus'); connChip.hidden=true;
+  connFocus=null; connEnds=null; connLine=false; connLinePairs=null; edgeSamples=null; syncPeek(); drawEdgeChips(); svg.classList.remove('conn-focus','line-focus'); connChip.classList.remove('is-line'); connChip.hidden=true;
   scheduleLabelFit();
   announce('Connections cleared.');
   returnFocus(gNodes.querySelector(`.node[data-id="${CSS.escape(m.id)}"]`),[connChip]);
 }
-function showConnections(m){
+function showConnections(m,line){
   clearConnections(); if(whoScope)clearWho();
   lastFocused=null; closePanel();
-  connFocus=m; lightConnections();
-  svg.classList.add('conn-focus');
+  connFocus=m; connLine=!!line; connLinePairs=connLine?familyLine(m):null; lightConnections();
+  svg.classList.add('conn-focus'); svg.classList.toggle('line-focus',connLine); connChip.classList.toggle('is-line',connLine);
+  syncPeek();
   const narrow=narrowScreen();
   const pts=[...connEnds].map(id=>byId[id]).filter(o=>o&&o._x!=null), xs=pts.map(o=>o._x), ys=pts.map(o=>o._y);
-  const top=topInset()+56, vw=window.innerWidth-(narrow?70:120), vh=window.innerHeight-top-(narrow?barHeight()+40:40);
+  const top=topInset()+56, vw=window.innerWidth-(narrow?70:120), vh=window.innerHeight-top-(narrow?barHeight()+40:40)-peekHeight();
   let x0=Math.min(...xs)-30, x1=Math.max(...xs)+170, y0=Math.min(...ys)-20, y1=Math.max(...ys)+20;
   scale=Math.max(0.4,Math.min(scale,1.1,vw/Math.max(1,x1-x0),vh/Math.max(1,y1-y0)));
   if((y1-y0)*scale>vh){y0=m._y-vh*.35/scale;y1=m._y+vh*.65/scale;}
   tx=20+vw/2-((x0+x1)/2)*scale; ty=top+vh/2-((y0+y1)/2)*scale;
   applyTransform(); applyDetail(); labelFitRun();
   const n=document.querySelectorAll('.edge-line.conn-lit').length, name=m.shortName||m.name, cn=n===1?'connection':'connections';
+  if(connLine){
+    const k=connEnds.size, tn=k===1?'tradition':'traditions';
+    connChip.querySelector('.cc-t').textContent=`Family line: ${name} · ${k} ${tn}`;
+    connChip.querySelector('.cc-x').setAttribute('aria-label',`Family line: ${name}, ${k} ${tn}. Clear it from the map.`);
+    connChip.hidden=false; announce(`The family line of ${name} is showing: ${k} ${tn}.`);
+  }else{
   connChip.querySelector('.cc-t').textContent=`Connections: ${name} · ${n}`;
   connChip.querySelector('.cc-x').setAttribute('aria-label',`Connections: ${name}, ${n}. Clear ${n===1?'it':'them'} from the map.`);
   connChip.hidden=false; announce(`${n} ${cn} of ${name} showing.`);
+  }
   connChip.querySelector('.cc-x').focus();
   tourOfferConn();
 }
 connChip.querySelector('.cc-x').addEventListener('click',clearConnections);
+// On a phone the card covers the map, so Connections and Family line close it and leave a strip to open it again.
+function peekHeight(){return peekStrip.hidden?0:peekStrip.offsetHeight+8;}
+function syncPeek(){
+  const show=narrowScreen()&&!!connFocus&&!panel.classList.contains('open')&&!(typeof tour!=='undefined'&&tour.on);
+  if(show){
+    const nm=connFocus.shortName||connFocus.name;
+    peekStrip.querySelector('.pk-t').textContent=nm;
+    peekStrip.querySelector('.pk-open').setAttribute('aria-label',`Open the card for ${nm}`);
+  }
+  peekStrip.hidden=!show;
+  document.body.classList.toggle('has-peek',show);
+  scheduleEdgeChips();
+}
+peekStrip.querySelector('.pk-open').addEventListener('click',()=>{if(connFocus)openPanel(connFocus);});
+window.addEventListener('resize',()=>{if(connFocus)syncPeek();});
+['pointerdown','wheel','touchstart'].forEach(ev=>peekStrip.addEventListener(ev,e=>e.stopPropagation(),{passive:true}));
+// Where a lit line runs past the screen edge, its end continues as a label in the line's colour at the
+// crossing point, naming the tradition beyond. Tapping the label moves the map there.
+let edgeChipRaf=0, edgeGlide=0;
+const EDGE_ARROW={up:'↑',down:'↓',left:'←',right:'→'};
+function scheduleEdgeChips(){if(!edgeChipRaf)edgeChipRaf=requestAnimationFrame(()=>{edgeChipRaf=0;drawEdgeChips();});}
+function edgeChipBounds(){
+  const card=panel.classList.contains('open')?panel.getBoundingClientRect():null;
+  let R=window.innerWidth-8;
+  if(card&&card.left>window.innerWidth/2)R=card.left-8;
+  return {L:8,R,T:topInset()+8,B:window.innerHeight-barHeight()-8-peekHeight(),hide:!!(card&&narrowScreen())};
+}
+function edgeLineSamples(){
+  if(edgeSamples)return edgeSamples;
+  edgeSamples=[];
+  document.querySelectorAll('.edge-line.conn-lit').forEach(el=>{
+    const len=el.getTotalLength(), pts=[];
+    for(let i=0;i<=48;i++){const q=el.getPointAtLength(len*i/48);pts.push([q.x,q.y]);}
+    edgeSamples.push({el,from:el.dataset.from,to:el.dataset.to,pts});
+  });
+  return edgeSamples;
+}
+function edgeCrossings(bd){
+  const out=[], inside=(x,y)=>x>=bd.L&&x<=bd.R&&y>=bd.T&&y<=bd.B;
+  const sideOf=(x,y)=>{const dl=bd.L-x,dr=x-bd.R,du=bd.T-y,dd=y-bd.B,m=Math.max(dl,dr,du,dd);return m===du?'up':m===dd?'down':m===dl?'left':'right';};
+  edgeLineSamples().forEach(s=>{
+    const P=s.pts.map(([x,y])=>[tx+x*scale,ty+y*scale]), ok=P.map(([x,y])=>inside(x,y));
+    for(let i=0;i<P.length-1;i++){
+      if(ok[i]===ok[i+1])continue;
+      const a=P[i], b=P[i+1], inI=ok[i]?a:b, outI=ok[i]?b:a, forward=ok[i];
+      const target=forward?s.to:s.from, tn=byId[target];
+      if(!tn||tn._x==null)continue;
+      const tsx=tx+tn._x*scale, tsy=ty+tn._y*scale;
+      if(inside(tsx,tsy))continue;
+      let lo=0, hi=1;
+      for(let k=0;k<12;k++){const m=(lo+hi)/2, x=inI[0]+(outI[0]-inI[0])*m, y=inI[1]+(outI[1]-inI[1])*m; if(inside(x,y))lo=m; else hi=m;}
+      const x=inI[0]+(outI[0]-inI[0])*lo, y=inI[1]+(outI[1]-inI[1])*lo;
+      out.push({id:target,node:tn,x,y,side:sideOf(outI[0],outI[1]),el:s.el});
+    }
+  });
+  return out;
+}
+const edgeButtons=[];
+function drawEdgeChips(){
+  const hideAll=()=>edgeButtons.forEach(b=>{b.hidden=true;b._node=null;});
+  if(!connFocus||!connEnds||(typeof tour!=='undefined'&&tour.on)){hideAll();return;}
+  const bd=edgeChipBounds(); if(bd.hide){hideAll();return;}
+  const groups=[];
+  ['up','down','left','right'].forEach(side=>{
+    const horiz=side==='up'||side==='down', key=c=>horiz?c.x:c.y, gap=horiz?190:34;
+    const list=edgeCrossings(bd).filter(c=>c.side===side).sort((a,b)=>key(a)-key(b));
+    list.forEach(c=>{
+      const g=groups.find(g=>g.side===side&&Math.abs(key(g.items[0])-key(c))<gap);
+      if(g){if(!g.ids.has(c.id)){g.ids.add(c.id);g.items.push(c);}}
+      else groups.push({side,ids:new Set([c.id]),items:[c]});
+    });
+  });
+  groups.sort((a,b)=>b.ids.size-a.ids.size);
+  const shown=groups.slice(0,8);
+  while(edgeButtons.length<shown.length){
+    const b=document.createElement('button'); b.type='button';
+    b.addEventListener('click',()=>{if(b._node)glideToNode(b._node);});
+    edgeChips.appendChild(b); edgeButtons.push(b);
+  }
+  const chipBox=connChip.hidden?null:connChip.getBoundingClientRect(), zoom=document.getElementById('zoomCtl'), zr=zoom?zoom.getBoundingClientRect():null;
+  edgeButtons.forEach((b,i)=>{
+    const g=shown[i]; if(!g){b.hidden=true;b._node=null;return;}
+    const c=g.items[0], n=g.ids.size, name=c.node.shortName||c.node.name, label=n===1?name:`${name} and ${n-1} more`;
+    b._node=c.node; b.dataset.side=g.side;
+    b.style.setProperty('--ec',connLine?'var(--link-line)':`var(--link-${c.el.dataset.family||'contact'})`);
+    b.innerHTML=`<span class="ar" aria-hidden="true">${EDGE_ARROW[g.side]}</span><span class="t">${esc(label)}</span>`;
+    b.setAttribute('aria-label',`${label}, past the ${g.side==='up'?'top':g.side==='down'?'bottom':g.side} edge of the map. Go there.`);
+    b.hidden=false;
+    const w=b.offsetWidth, h=b.offsetHeight; let x,y;
+    if(g.side==='up'||g.side==='down'){
+      x=Math.max(bd.L-8,Math.min(c.x-14,bd.R-w+8));
+      y=g.side==='down'?c.y-h/2-14:c.y-h/2+14;
+      if(g.side==='up'&&chipBox&&x<chipBox.right&&x+w>chipBox.left&&y<chipBox.bottom)y=chipBox.bottom+4;
+    }else{
+      y=c.y-h/2;
+      x=g.side==='left'?c.x-6:c.x-w+6;
+      if(g.side==='right'&&zr&&zr.width&&y<zr.bottom&&y+h>zr.top&&x+w>zr.left)x=zr.left-6-w;
+    }
+    b.style.left=x+'px'; b.style.top=y+'px';
+  });
+}
+function glideToNode(o){
+  stopGlide(); if(edgeGlide)cancelAnimationFrame(edgeGlide);
+  const bd=edgeChipBounds(), cx=(bd.L+bd.R)/2, cy=(bd.T+56+bd.B)/2;
+  const to=[cx-o._x*scale,cy-o._y*scale];
+  const done=()=>{edgeGlide=0;const nd=gNodes.querySelector(`.node[data-id="${CSS.escape(o.id)}"]`);try{(nd&&nd.tabIndex>=0?nd:stage).focus({preventScroll:true});}catch(e){}announce(`Moved to ${o.shortName||o.name}.`);};
+  if(reduceMotion.matches){tx=to[0];ty=to[1];applyTransform();done();return;}
+  const from=[tx,ty], t0=performance.now(), D=450;
+  const f=now=>{
+    const k=Math.min(1,(now-t0)/D), e=k<.5?2*k*k:1-Math.pow(-2*k+2,2)/2;
+    tx=from[0]+(to[0]-from[0])*e; ty=from[1]+(to[1]-from[1])*e; applyTransform();
+    if(k<1)edgeGlide=requestAnimationFrame(f); else done();
+  };
+  edgeGlide=requestAnimationFrame(f);
+}
+['pointerdown','wheel','touchstart'].forEach(ev=>edgeChips.addEventListener(ev,e=>e.stopPropagation(),{passive:true}));
 document.addEventListener('keydown',ev=>{if(ev.key==='Escape'&&!ev.defaultPrevented&&connFocus&&!panel.classList.contains('open'))clearConnections();});
 ['pointerdown','wheel','touchstart'].forEach(t=>connChip.addEventListener(t,ev=>ev.stopPropagation(),{passive:true}));
 
@@ -135473,6 +135682,14 @@ function syncDepth(){
   if(key!==depthKey){depthKey=key;queueMapSync();}
   [['z-council',Z_COUNCIL],['z-council-name',Z_COUNCIL_NAME],['z-story',Z_STORY],['z-story-title',Z_STORY_TITLE],['z-place',Z_PLACE]].forEach(([c,t])=>svg.classList.toggle(c,scale>=t));
 }
+// End marks keep one size on screen and sit just outside the tradition's house icon, at any zoom.
+function sizeEdgeMarks(U){
+  const m=EDGE_MARK_PX/scale, gap=(U/2+3/scale);
+  EDGE_MARKERS.forEach(({mk,tip})=>{
+    mk.setAttribute('markerWidth',m.toFixed(3)); mk.setAttribute('markerHeight',m.toFixed(3));
+    mk.setAttribute('refX',(tip+10*gap/m).toFixed(3));
+  });
+}
 function labelFitRun(){
   labelFit.queued=false;
   labelFit.extras=[];
@@ -135488,6 +135705,7 @@ function labelFitRun(){
   }
   syncDepth();
   sizeMarks(markU());
+  sizeEdgeMarks(markU());
   const grid=layoutGrid();
   labelFit.grid=grid;
   if(lastOrganic){
@@ -135626,6 +135844,7 @@ function applyTransform(){
   queueAutoWho();
   if(whoScope&&scale!==lastScale&&!whoRaf)whoRaf=requestAnimationFrame(()=>{whoRaf=0;drawWhoNames();});
   lastScale=scale;
+  if(connFocus)scheduleEdgeChips();
   keepMapFocus(held);
   if(rescaled)applyDetail();
 }

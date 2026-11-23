@@ -13,6 +13,14 @@
 /data/*
   Cache-Control: no-store
 
+/data/entries/*
+  ! Cache-Control
+  Cache-Control: public, max-age=0, must-revalidate
+
+/data/edges-detail.json
+  ! Cache-Control
+  Cache-Control: public, max-age=0, must-revalidate
+
 /tree/*
   Cache-Control: no-store
 
