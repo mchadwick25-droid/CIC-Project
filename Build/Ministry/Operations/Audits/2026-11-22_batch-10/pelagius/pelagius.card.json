@@ -1,0 +1,215 @@
+{
+  "knownFor": "A monk at Rome who taught that God gave human nature the power to live without sin, and whose teaching on grace and free will was condemned in Africa and at Rome in 418.",
+  "datesNote": "At Rome in the early 400s; to Africa in 411 and on to Palestine; cleared by the Synod of Diospolis late in 415; declared orthodox by Zosimus of Rome in September 417, then condemned by him in 418 (B. B. Warfield's dates)",
+  "placeNote": "Rome; Africa; Palestine",
+  "role": "Monk and teacher",
+  "keyWorks": [
+    {
+      "title": "Letter to Demetrias",
+      "about": "his counsel to a Roman noblewoman vowed to Christ as a virgin, written from the East about 413; long printed among Jerome's works, it survives whole in Latin"
+    },
+    {
+      "title": "Answers at the Synod of Diospolis",
+      "about": "his replies to the charges, kept in the synod's record, which Augustine of Hippo quotes in On the Proceedings of Pelagius"
+    },
+    {
+      "title": "Letter and statement of faith to Innocent of Rome",
+      "about": "sent to Rome in 417 to win Rome to his side, as Warfield tells it; Warfield says that on its arrival Zosimus, Innocent's successor, declared Pelagius and Caelestius orthodox and rebuked the Africans; known here from the passages Augustine quotes in On the Grace of Christ and Warfield quotes in his essay"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Pelagians were named after him. B. B. Warfield says a council of about two hundred bishops at Carthage condemned their teaching in nine canons on 1 May 418.",
+      "Augustine of Hippo wrote a long run of books against him and his followers, among them On Nature and Grace, On the Proceedings of Pelagius and On the Grace of Christ.",
+      "Jerome of Strido wrote his Dialogue against the Pelagians at Bethlehem. W. H. Fremantle, who edited Jerome in English, says Jerome \"does not scruple to brand Pelagius as a heretic.\"",
+      "Augustine answered Pelagius's book on nature without naming him. He says he left the name out to keep on friendly terms with him. Two men he calls Pelagius's former disciples, Timasius and Jacobus, had put the book in his hands.",
+      "A letter from Rome to the Irish churches, kept in Bede's History, says that the poison of the Pelagian heresy \"again springs up among you\" and that the heresy had been \"abolished these two hundred years\"."
+    ],
+    "remembered": [
+      "Before the quarrel, Augustine called him \"a holy man, as I am told, who has made no small progress in the Christian life.\"",
+      "Gennadius of Marseilles calls him \"the heresiarch,\" but says that before he was proclaimed a heretic he wrote three books on belief in the Trinity and a book of selections from Scripture on the Christian life.",
+      "B. B. Warfield, writing on Augustine's side, says Pelagius escaped condemnation at Diospolis \"only by a course of most ingenious disingenuousness.\""
+    ]
+  },
+  "uncertain": [
+    "Apart from his letter to Demetrias and his answers at Diospolis, his story comes through Augustine of Hippo and Jerome of Strido. Augustine appealed to Jerome, who wrote against him too. It also comes through modern editors who take Augustine's side, such as B. B. Warfield.",
+    "The synod of Diospolis declared him in communion with the Catholic Church. Augustine accepts that the bishops judged rightly on what they heard, but holds that Pelagius condemned views that were his own. Pelagius, in a letter Augustine quotes and doubts is his, says fourteen bishops approved his statement that a man is able to be without sin, \"and easily to keep the commandments of God, if he wishes.\"",
+    "What he meant by grace is disputed. Pelagius told Innocent that he always adds \"the help of God's grace.\" Augustine judged that he meant teaching, the forgiveness of past sins and the example of Christ, and no help within each act of the will.",
+    "Peter Holmes, who translated Augustine, says Augustine, Prosper of Aquitaine and Gennadius call him a Briton, and that Jerome ties him to the Scots near Britain. Holmes calls it \"quite uncertain\" what part of Britain he came from. The English of Gennadius held here does not name his country.",
+    "When he came to Rome is told two ways. Warfield and Holmes place him there from about the start of the fifth century. W. H. Fremantle, in his edition of Jerome, says he came to Rome in 409.",
+    "Warfield dates Diospolis to December 415. Fremantle gives 415 in his tables and 416 in his note to Jerome's Dialogue.",
+    "Warfield dates the Letter to Demetrias to 413. The note printed before it in Migne's Latin edition gives 413 or 414.",
+    "The sources used here do not give his birth, his death or where he died.",
+    "Augustine says he first learned Pelagius's name, with great praise of him, while Pelagius lived at Rome. He says he glimpsed him once or twice in Africa, while busy preparing for the conference with the Donatists, and that Pelagius hurried away across the sea. In On the Merits and Forgiveness of Sins he says he has lately read some very brief expository notes by Pelagius on the epistles of Paul. Those notes are not held here.",
+    "Augustine says that at Diospolis Pelagius produced even the private letters Augustine and his colleagues had written to him and read them at the trial. Asked about the passage where he wrote that all men are ruled by their own will, Pelagius answered, in the record Augustine quotes: \"God is its helper whenever it chooses good.\"",
+    "Zosimus, in his letter of 21 September 417 to the African bishops, calls Pelagius a layman who strove toward good fruit by long service to God, and says he sees him slandered by the writings of Heros and Lazarus, the two bishops from Gaul who charged him at Diospolis.",
+    "The letter to Demetrias says it was written at the request, or rather the command, of her mother. The Migne editors say it was ascribed to other writers of his party, first to Julian, as Bede thought, and also to Caelestius. They hold it to be Pelagius's own, on the strength of Augustine's On the Grace of Christ, where Pelagius, writing to Innocent, names it as his.",
+    "Marius Mercator, writing against the teaching of Caelestius, says that a Syrian named Rufinus first brought the teaching to Rome in the time of Pope Anastasius and misled Pelagius, a British monk, into it. No other source held here says so.",
+    "Jerome's Commentary on Jeremiah is not held here. W. H. Fremantle's English summary of it has Jerome say that the devil \"now barks through the hound of Albion (Pelagius), who is like a mountain of fat\". The name in brackets is Fremantle's; Jerome's words as summarized do not name him.",
+    "After Zosimus condemned him, B. B. Warfield says, eighteen Italian bishops, with Julian of Eclanum at their head, refused to sign Zosimus's paper and were deposed, though several later recanted and were restored."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letter to Demetrias (Epistola ad Demetriadem), in Migne, Patrologia Latina 30",
+        "language": "Latin",
+        "file": "cic/texts/pelagius_epistula-ad-demetriadem-lat_migne.txt"
+      },
+      {
+        "title": "His answers at the Synod of Diospolis, in Augustine's On the Proceedings of Pelagius",
+        "language": "English translation",
+        "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml"
+      },
+      {
+        "title": "His letter to Innocent and passages of the Letter to Demetrias, in Augustine's On the Grace of Christ, and in B. B. Warfield's Introductory Essay",
+        "language": "English translation",
+        "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml"
+      }
+    ],
+    "about": [
+      {
+        "title": "On the Merits and Forgiveness of Sins, Book 3; On the Proceedings of Pelagius; On the Grace of Christ, and on Original Sin; On the Gift of Perseverance, chapter 53",
+        "author": "Augustine of Hippo",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml"
+      },
+      {
+        "title": "Introductory Essay on Augustin and the Pelagian Controversy",
+        "author": "B. B. Warfield",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml"
+      },
+      {
+        "title": "Preface to Volume I of the Edinburgh edition",
+        "author": "Peter Holmes",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men, chapter 43",
+        "author": "Gennadius of Marseilles",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Against the Pelagians, with W. H. Fremantle's prolegomena and notes",
+        "author": "Jerome of Strido",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf206_jerome-principal-works.xml"
+      },
+      {
+        "title": "Letter 188, to Juliana, mother of Demetrias (Maurist order)",
+        "author": "Augustine of Hippo and Alypius",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/augustine_epistulae-maurist-order-lat_migne-pl33.txt"
+      },
+      {
+        "title": "Letter 188, to Juliana, mother of Demetrias (critical edition)",
+        "author": "Augustine of Hippo and Alypius",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/augustine_epistulae-critical_goldbacher-csel57-pars4.txt"
+      },
+      {
+        "title": "Letter to the bishops of Africa, 21 September 417 (Collectio Avellana, letter 46)",
+        "author": "Zosimus of Rome",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/collectio-avellana_epistulae-imperatorum-pontificum-v1-lat_guenther1895.txt"
+      },
+      {
+        "title": "Imperial order of 30 April 418, issued at Ravenna, in Mansi, Sacrorum conciliorum collectio, vol. 4",
+        "author": "Emperor Honorius",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901.txt"
+      },
+      {
+        "title": "Epitoma Chronicon",
+        "author": "Prosper of Aquitaine",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/prosper_chronica-minora-1-lat_mommsen1892.txt"
+      },
+      {
+        "title": "Commonitorium on Caelestius",
+        "author": "Marius Mercator",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/marius-mercator_opera-omnia-lat_migne-pl48.txt"
+      },
+      {
+        "title": "Canons of the synod at Carthage against Pelagius and Caelestius, 1 May 418; the letter of the Synod of Ephesus to Pope Celestine",
+        "author": "The African bishops; the Council of Ephesus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      },
+      {
+        "title": "On the Incarnation of the Lord, Against Nestorius, Book I, chapter 3",
+        "author": "John Cassian",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml"
+      },
+      {
+        "title": "Ecclesiastical History of the English Nation, Book II, chapter 19",
+        "author": "Bede",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
+      }
+    ]
+  },
+  "briefReferences": [
+    "Letter to Demetrias, ch. 1 (Migne PL 30): Demetrias, a virgin of Christ, noble and rich, who gave up noble heirs for love of virginity.",
+    "Letter to Demetrias, chs. 2 and 3: he measures the good of human nature by its maker; God gave the reasoning creature the power of free choice.",
+    "Letter to Demetrias, ch. 11: birth and wealth are her family's, spiritual riches come from herself; quoted in the brief in modern English, from the Latin as Migne PL 30, Migne PL 33 and Goldbacher give it together, with Warfield's English beside it.",
+    "Letter 188 of Augustine and Alypius to Juliana, mother of Demetrias: the warning against the book, with the passage on food and poison; the letter asks her who wrote the book and does not name him.",
+    "Augustine, On the Proceedings of Pelagius, 46: he lived long at Rome; his arrival in Africa; Augustine glimpsed him; he hurried away across the sea. On Original Sin 9 calls Caelestius his disciple.",
+    "Augustine, On the Proceedings of Pelagius, 47: the book on nature, answered without naming him.",
+    "Augustine, On the Proceedings of Pelagius: Diospolis, December 415 by Warfield's date; the two Gaulish accusers absent; fourteen Greek-speaking bishops and an interpreter; Pelagius disowns the statements drawn from Caelestius; his answer that a man can be without sin and keep God's commandments if he wishes; the verdict, and Augustine's judgment that he does not appear cleared.",
+    "Augustine, On the Proceedings of Pelagius, 66: the report that followers of Pelagius beat the monks and nuns in Jerome's care at Bethlehem, killed a deacon and burned their houses.",
+    "Prosper of Aquitaine, Epitoma Chronicon, and Augustine, Retractations 2.50: Innocent condemned the Pelagians, then Zosimus; Pelagius from Britain, the teaching named after him.",
+    "Augustine, On the Grace of Christ, quoting Pelagius's letter to Innocent: he always adds the help of God's grace; and Augustine's judgment that Pelagius made grace mean teaching, forgiveness of past sins and the example of Christ.",
+    "Zosimus, letter to the African bishops, 21 September 417 (Collectio Avellana, letter 46): the letters read aloud, the hearers' tears, and the question whether any passage leaves out God's grace; quoted in the brief in modern English.",
+    "Imperial order of 30 April 418, issued at Ravenna (Mansi, vol. 4): Caelestius and Pelagius to be driven from Rome, and any who spread their teaching to be tried and exiled.",
+    "Synod at Carthage, 1 May 418 (Canons of the African Code, in Nicene and Post-Nicene Fathers, series 2, vol. 14): grace does not only forgive past sins and does not only show what to do, but helps us do it.",
+    "Prosper of Aquitaine, Epitoma Chronicon, entry for 429: the Pelagian Agricola corrupting the churches of Britain, and Germanus of Auxerre sent against him.",
+    "John Cassian, On the Incarnation of the Lord, Against Nestorius, I.3: the bishop of Constantinople says what the Pelagians said before him.",
+    "Letter of the Synod of Ephesus to Pope Celestine, 431: the deposition of the Pelagians, Pelagius among them, stands.",
+    "Letter to Demetrias, Migne PL 30, heading and note: printed among the spurious works attributed to Jerome.",
+    "World census, The Pelagians: the name of his followers."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "But spiritual riches no one can give you except yourself. In these, then, you are rightly praised. In these you are rightly set above others. They cannot exist except from you and in you.",
+      "printed": "your spiritual riches no one can have conferred on you but yourself; for these, then, you are justly praised, for these you are deservedly to be preferred to others,—for they can exist only from yourself and in yourself",
+      "work": "Pelagius, Letter to Demetrias, ch. 11, as B. B. Warfield gives it in English in his Introductory Essay",
+      "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml",
+      "lines": "1281-1282",
+      "uncertain": "The Latin is held only in damaged prints (Migne PL 30 lines 811-817, the same passage quoted in Migne PL 33 lines 62414-62419 and in Goldbacher lines 4490-4496); the rendering follows the three read together, and Warfield's English agrees with it in sense."
+    },
+    {
+      "modern": "'These good things can only be in you': that was very well and very truly said. That is clearly food. But when he says 'only from you', that is wholly poison.",
+      "printed": "Non possunt esse ista bona nisi in te', optime et uerissime dictum est; iste plane cibus est; quod uero ait 'non nisi ex te', hoc omnino uirus est",
+      "work": "Augustine of Hippo and Alypius, Letter 188, to Juliana, ed. Goldbacher",
+      "file": "cic/texts/augustine_epistulae-critical_goldbacher-csel57-pars4.txt",
+      "lines": "4513-4515",
+      "uncertain": "The print is damaged; the wording given here is the reading it shares with Migne PL 33 lines 62421-62424, which is also damaged (it reads \"ex u\\\" for \"ex te\")."
+    },
+    {
+      "modern": "Is there any passage in which God's grace or help has been left out?",
+      "printed": "estne ullus locus, in quo dei gratia uel adiutorium praetermissum sit?",
+      "work": "Zosimus of Rome, letter to the bishops of Africa, 21 September 417 (Collectio Avellana, letter 46), ed. Günther",
+      "file": "cic/texts/collectio-avellana_epistulae-imperatorum-pontificum-v1-lat_guenther1895.txt",
+      "lines": "11229-11230"
+    }
+  ]
+}
