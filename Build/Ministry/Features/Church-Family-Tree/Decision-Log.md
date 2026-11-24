@@ -5769,7 +5769,8 @@ Mark: "option 1", on the page https://claude.ai/artifact/UStZATEaBtT445YAKgNEi6 
 10. "a" (stories): documented and map stories share one kit.
 11. "a" (lengths): the table as drafted, with the 2:00 floor (2026-11-23) for person, council, tradition and era briefs.
 12. "a" (CLAUDE.md): one line saying Church Family Tree texts follow the kit for models and review rounds.
-13. Throughout: "dont add rule on rule but we want a clean easy to follow kit that doesn't contridict itself and gets us the results that have been talked about."
+13. Then "can we also clean the CLAUDE.md of any crap that may have been added", and "a". Compared with the version Mark restored on 2026-10-21, four Church Family Tree lines (added 2026-11-12, 11-16, 11-18 and 11-24) became one pointer to the kit, which now holds those rules once. In Mark's text, the round-2 rule is said once, the usage section's opening is a whole sentence, and the renderings exception sits under the model rule. No rule's meaning changed.
+14. Throughout: "dont add rule on rule but we want a clean easy to follow kit that doesn't contridict itself and gets us the results that have been talked about."
 
 **Done.**
 - `Brief-Kit/Kit.md` now holds only what every kind shares:
@@ -5787,7 +5788,7 @@ Mark: "option 1", on the page https://claude.ai/artifact/UStZATEaBtT445YAKgNEi6 
   - `tools/check_brief_craft.py` lists for the reviewer the sentences Part 1 most often catches, judging nothing;
   - `tools/validate-census.mjs` checks the agreed `modernWorks` shape;
   - the World-Narration roles moved to `Archive/Church-Family-Tree-World-Narration-roles-2026-11-20/`;
-  - CLAUDE.md has two pointer lines.
+  - CLAUDE.md has one pointer line to the kit, and the cleanup in decision 13.
 
 **Change orders.**
 - To "A change to this kit governs the next batch on; it never reopens a finished story." The kit now says it reopens one only when Mark says so, as a named change order, as he did on 2026-11-23.
