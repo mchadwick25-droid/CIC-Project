@@ -15,7 +15,7 @@ It should include what called it, the major issue and the story of it, what else
 
 ## Length
 
-Aim at about three minutes (about 390 words), up to about four and a half (585) where the content calls for it. A council may run past that only where its business truly needs it; the outline says why, and Mark rules on that length with the hearts.
+At least about two minutes, unless the record is too thin to carry it. Aim at about three minutes (about 390 words), up to about four and a half (585) where the content calls for it. A council may run past that only where its business truly needs it; the outline says why, and Mark rules on that length with the hearts.
 
 ## References
 

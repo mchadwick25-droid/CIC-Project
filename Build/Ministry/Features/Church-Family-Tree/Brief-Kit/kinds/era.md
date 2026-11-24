@@ -22,7 +22,7 @@ An era is a survey of its time, so it draws on the broad historical scholarship 
 
 ## Length
 
-Aim at about three minutes. Mark rules on each era's length with its heart.
+At least about two minutes, unless the record is too thin to carry it. Aim at about three minutes. Mark rules on each era's length with its heart.
 
 ## Traps
 

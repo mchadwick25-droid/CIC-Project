@@ -10,7 +10,7 @@
 
 ## Length
 
-Aim at about three minutes (about 450 words), up to about four and a half (675) where the sources and the content call for it, and as short as the record is thin.
+At least about two minutes, unless the record is too thin to carry it. Aim at about three minutes (about 450 words), up to about four and a half (675) where the sources and the content call for it.
 
 ## Shapes
 

@@ -25,7 +25,7 @@ A built world's records (`cic-website/data/worlds/<id>.json`, with its forces, g
 
 ## Length
 
-Aim at about three minutes (about 450 words), up to about four and a half (675) where the content calls for it.
+At least about two minutes, unless the record is too thin to carry it. Aim at about three minutes (about 450 words), up to about four and a half (675) where the content calls for it.
 
 ## Traps
 
