@@ -1,0 +1,193 @@
+{
+  "otherNames": [
+    "Epiphanius of Cyprus",
+    "Epiphanius, bishop of Constantia in Cyprus"
+  ],
+  "knownFor": "Bishop of Salamis in Cyprus, author of the Panarion against the heresies, and a leading accuser of Origen in the quarrels of the 390s and early 400s.",
+  "datesNote": "Born about 310, bishop about 368 or 369, died in 403 (Ernest Cushing Richardson's note to the Lives of Illustrious Men by Jerome of Strido)",
+  "placeNote": "Born at Besauduc near Eleutheropolis in Palestine; bishop at Salamis, also called Constantia, in Cyprus",
+  "role": "Bishop and heresy-writer",
+  "keyWorks": [
+    {
+      "title": "Panarion",
+      "about": "his book against the heresies, which Jerome calls \"Against all heresies\"; heresies 1 to 80 are held in Greek"
+    },
+    {
+      "title": "Ancoratus",
+      "about": "\"The Anchored\", which the monk Ammonius says in Sozomen's account he had read often; held in Greek"
+    },
+    {
+      "title": "Letter to John, bishop of Jerusalem",
+      "about": "his defense of the ordination of Paulinian and his charges against Origen, held in Jerome's Latin version, in English"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Panarion's account of the heresies. It keeps writings of some of those it attacks, among them the propositions of Aetius of Antioch, quoted in heresy 76.",
+      "The condemnation of Origen's books in Cyprus, which Socrates of Constantinople and Sozomen say he decreed at a synod there.",
+      "Augustine, in On Heresies, written about 428 by its editors' date, says that in listing the heretics he followed Epiphanius's order but not his measure. He says he took fifty-seven heresies from Epiphanius's own work, and that among the Greeks Epiphanius was counted among the great.",
+      "Photius, a patriarch of Constantinople in the ninth century, judged that Epiphanius wrote more fully and effectively against heretics than any of his predecessors, and that his style is poor.",
+      "Jerome says Epiphanius, who had much intercourse with Hilarion, set out Hilarion's praises in a short letter that was widely circulated. The letter is not held."
+    ],
+    "remembered": [
+      "Sozomen calls him \"the most revered man under the whole heaven\", and says it was reported that demons were driven out and diseases healed at his tomb.",
+      "Jerome says his books were read by the learned for their matter, \"and also by the plain people, on account of their language.\"",
+      "Socrates of Constantinople says that \"on account of his extraordinary piety\" he was \"a man of simple mind and manners\", and that Theophilus of Alexandria used him.",
+      "Sozomen says he was instructed from his youth by the most celebrated ascetics and for that reason passed most of his time in Egypt.",
+      "Sozomen says he was extremely liberal to the needy, among them those who had suffered shipwreck, and that after spending his whole inheritance on them he applied the treasures of the church to the same purpose.",
+      "Jerome says monks came to Cyprus from all parts of the world for love of him.",
+      "The Dialogue on the life of Chrysostom says he ruled the church in Cyprus for thirty-six years.",
+      "Theophilus of Alexandria, in a letter in Jerome's Latin, says he \"has shone throughout all the world a bright star among bishops\"."
+    ]
+  },
+  "uncertain": [
+    "Epiphanius wrote against the heresies as their enemy, and his reports of them are a foe's.",
+    "Socrates and Sozomen report his last words to John Chrysostom, and John's answer, as hearsay. Socrates says he cannot be sure his informants spoke the truth.",
+    "Theophilus of Alexandria once accused him of thinking that God has a human form, Socrates says. A. C. Zenos, in a note to his translation of Socrates, says Epiphanius himself rejected that view, on Jerome's testimony.",
+    "Theophilus's own judgment of him changed. The Dialogue on the life of Chrysostom, which Herbert Moore gives to Palladius of Helenopolis, says Theophilus first called him \"a heretic, or a paltry schismatic\", and later \"a most holy saint\".",
+    "His dates are Richardson's reckoning. No held ancient source gives the year of his birth.",
+    "The Library holds the Panarion in Greek from heresy 1 on, and the Ancoratus in Greek.",
+    "The books of the Panarion are counted three ways. His own preface says three. Photius says three volumes holding seven books. Augustine says Epiphanius made six books of the whole.",
+    "In his letter to John of Jerusalem he gives reasons for two acts. For ordaining Jerome's brother, he says the monks of that monastery had no one to celebrate the sacraments for them, he feared that too great strictness would turn them from the Church and its ancient faith, and the monastery was not under the bishop of Jerusalem. For tearing the curtain, he says an image of a man should not hang in Christ's church against the teaching of the Scriptures. The letter is held only in Fremantle's English, from Jerome's Latin of his Greek.",
+    "Jerome says he put Epiphanius's letter to John into Latin at a friend's request, and that when the translation reached Jerusalem he was accused of falsifying it; he answers the charge in his Letter 57 to Pammachius. The letter itself names the presbyter Rufinus among those to be kept from the heresy of Origen. In his Apology against Rufinus, Jerome quotes Rufinus as saying that one of Origen's detractors once declared before a great crowd that he had read six thousand of his books, and Jerome takes this as aimed at Epiphanius.",
+    "Socrates says that a short time after Epiphanius sailed, John Chrysostom was driven from his see. No held source makes Epiphanius the cause.",
+    "Sozomen says it was reported that on the shore, about to board, Epiphanius told the bishops who had come with him that he left them the city, the palace and the pretense, and that he was going in a great hurry. The Greek word for the pretense is the one for acting or hypocrisy; Hartranft's English has the stage, and Herbert Moore's note has the hypocrisy.",
+    "Whether the writings against images that the council of 754 quoted under his name are his is disputed. The council of 787 ruled that the passage was none of his, because his eighty chapters list no heresy of making images. The Caroline Books, written at Charlemagne's order, answered with his own letter to John, which they accept as his.",
+    "Jerome says Paula was detained ten days in Cyprus by Epiphanius. The Dialogue on the life of Chrysostom says Olympias made gifts of lands and money to him among others.",
+    "Late sources keep his day: the Ethiopic Synaxarium on 17 Genbot, and the Acta Sanctorum on 12 May. Both are late legend."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Panarion, heresies 34 to 64 (ed. Holl)",
+        "language": "Greek",
+        "file": "cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt"
+      },
+      {
+        "title": "Panarion, heresies 48 to 69 (ed. Oehler)",
+        "language": "Greek, with Petavius's Latin translation",
+        "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt"
+      },
+      {
+        "title": "Panarion, heresies 65 to 80 (Patrologia Graeca 42)",
+        "language": "Greek",
+        "file": "cic/texts/epiphanius_panarion-haer-65-80-pg42-grc-lat_migne1863.txt"
+      },
+      {
+        "title": "Letter 51 in Jerome's letters, to John, bishop of Jerusalem (Jerome's Latin, tr. Fremantle, Lewis and Martley)",
+        "language": "English translation",
+        "file": "cic/texts/npnf206_jerome-principal-works.xml"
+      },
+      {
+        "title": "Ancoratus and Panarion, heresies 1 to 33 (ed. Holl)",
+        "language": "Greek",
+        "file": "cic/texts/epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Ecclesiastical History, Book 6, chapters 10 to 14 (Socrates); Book 6, chapter 32, Book 7, chapter 27, and Book 8, chapters 14 and 15 (Sozomen)",
+        "author": "Socrates of Constantinople; Sozomen",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men, chapter 114, with Richardson's note; Apology against Rufinus",
+        "author": "Jerome of Strido",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Letter 57, to Pammachius; Letter 66, to Pammachius; Letter 108, to Eustochium; Letter 113, from Theophilus to Jerome; Against John of Jerusalem, chapter 11; Life of Hilarion",
+        "author": "Jerome of Strido",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf206_jerome-principal-works.xml"
+      },
+      {
+        "title": "The Dialogue Concerning the Life of Chrysostom (tr. Moore)",
+        "author": "Palladius of Helenopolis, as Herbert Moore identifies him",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/palladius_dialogue-life-of-chrysostom_moore1921.txt"
+      },
+      {
+        "title": "On Heresies (De haeresibus), in Patrologia Latina 42",
+        "author": "Augustine of Hippo",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt"
+      },
+      {
+        "title": "Library, codex 122 (Photius)",
+        "author": "Photius",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/photius_library-v1_freese1920.txt"
+      },
+      {
+        "title": "The Seventh General Council, the Second of Nicaea (787), tr. John Mendham, with notes from the Caroline Books",
+        "author": null,
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/mendham_seventh-general-council-second-of-nicaea_1850.txt"
+      },
+      {
+        "title": "Church History, Book 8, chapter 15 (Greek)",
+        "author": "Sozomen",
+        "date": null,
+        "language": "Greek",
+        "file": "cic/texts/sozomen_historia-ecclesiastica-tomus2-libri-5-9-grc-lat_hussey1860.txt"
+      },
+      {
+        "title": "The Ethiopic Synaxarium, 17 Genbot",
+        "author": null,
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt"
+      },
+      {
+        "title": "Acta Sanctorum, May, volume 3, 12 May",
+        "author": null,
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_maii-tomus-3-lat-grc_palme1866.txt"
+      }
+    ]
+  },
+  "briefReferences": [
+    "Panarion, Proem I, Greek, ed. Holl: the name Panarion, the medicine chest, what the book is for, the eighty heresies, and the church set after them.",
+    "Panarion, Proem II: some heresies known from study, some by hearsay, some with his own ears and eyes; the date by the reigns of Valentinian, Valens and Gratian, which Holl's note reads as 375.",
+    "Panarion 33: Ptolemy's letter to Flora copied whole, so that no one could say he refuted it from hearsay alone.",
+    "Panarion 77: Apollinaris, always dear to him, and his followers listed.",
+    "Sozomen, Church History 6.32: his birth near Eleutheropolis and his choice as bishop by the people of Cyprus.",
+    "Jerome, Against John of Jerusalem 11: his sermon against Origen at Jerusalem, the mockery of the bishop's party, and the crowds pressing to kiss his feet.",
+    "Letter to John of Jerusalem (Jerome's Letter 51), tr. Fremantle: Origen's teaching on souls and the resurrection of this flesh, Eden read as hidden meanings, the rivers of Eden and the Euphrates; the seizing and ordination of Jerome's brother; the curtain at Anablatha.",
+    "Socrates, Church History 6.10, 6.12 and 6.14, and Sozomen, Church History 8.14 and 8.15: Theophilus and the ban in Cyprus, the voyage to Constantinople, the ordination in John's territory, the refusal to pray with John, the Long Brother's question, and the death at sea.",
+    "Augustine, On Heresies: Epiphanius's twenty heresies before Christ and sixty after, and his order followed.",
+    "The council of 787 and the Caroline Books, in Mendham's translation: the ruling that the passage against images was none of his, and the reply from his letter on the curtain.",
+    "World census, Early Palestinian Ascetic Monasticism: his tradition."
+  ],
+  "quotationOriginals": [
+    {
+      "modern": "We are going to show you the names of the heresies. We will uncover their unholy deeds, which are like venom and poison. Alongside them we will fit antidotes: cures for those who have been bitten, and protection for those who may yet fall into it.",
+      "printed": "ἐπειδὴ γὰρ μέλλομεν ὑμῖν τά τε ὀνόματα τῶν αἱρέσεων δηλοῦν τάς τε παρ᾽ αὐτοῖς ἀϑεμίτους πράξεις ἀνακαλύπτειν, ὥσπερ ἰοὺς καὶ δηλητήρια ὄντα, σὺν αὐτοῖς δὲ ἅμα καὶ ἀντιδότους ἐφαρμόσαι, ἀλεξητήρια τῶν δεδηγμένων καὶ προκαταληπτικὰ τῶν μελλόντων εἰς τοῦτο ἐμπίπτειν",
+      "work": "Epiphanius, Panarion, Proem I, Greek, ed. Karl Holl",
+      "file": "cic/texts/epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt",
+      "lines": "12387-12391",
+      "uncertain": "Holl's edition is the only print of this preface the Library holds, and its scan has slips inside the span: τε is read as TE in line 12388, καὶ as zal in line 12390, and κ as χ in προκαταληπτικὰ in line 12391. They are read here as the only words that fit. The English is the brief's own rendering of the Greek; no printed English is held.",
+      "secondReading": "same"
+    },
+    {
+      "modern": "I have also drunk from the great river Euphrates. It was not spiritual water but real water, the kind you can touch with your hand and take into your mouth.",
+      "printed": "I have drunk also from the great river Euphrates, not spiritual but actual water, such as you can touch with your hand and imbibe with your mouth.",
+      "work": "Epiphanius, letter to John, bishop of Jerusalem (Jerome's Letter 51), tr. W. H. Fremantle, in Nicene and Post-Nicene Fathers, series 2, vol. 6",
+      "file": "cic/texts/npnf206_jerome-principal-works.xml",
+      "lines": "10920-10922",
+      "uncertain": "The Greek letter and Jerome's Latin of it are not held, so the English stands alone. The modern wording follows Fremantle's English.",
+      "secondReading": "same"
+    }
+  ]
+}
