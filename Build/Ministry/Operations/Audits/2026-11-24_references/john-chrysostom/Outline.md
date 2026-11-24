@@ -12,9 +12,9 @@ File short names and full paths are in `Source_Sheet.md` (top). Item codes (S1, 
 3. Whom he rebuked (Documented). A fallen minister in sanctuary; a general asking a church for the Arians; many others in office (E5, E6).
 4. How his fall came (Contested in motive and ground). Theophilus's campaign, the Oak, the statue, the second council (E7-E11).
 
-**Length:** about 4:15 (about 630 words by the scorer), moved from batch 10's 450. This needs Mark's ruling on the hearts page before the writer starts. The kit allows up to 675 where the sources call for it, and here they do: both accounts of the Oak (the old sources differ), his harshness with his clergy (the record's force on his own side), and the split and the return of his followers (the connection). The count behind it: the quotes come to about 66 words; the glosses to about 135; the credits to about 45; the opening, essence, beats, What came of them and ending need about 730 before Cut first, and about 630 after it. **For Mark's ruling; provisional.**
+**Length:** about 4:20 (about 650 words by the scorer), moved from batch 10's 450. This needs Mark's ruling on the hearts page before the writer starts. The kit allows up to 675 where the sources call for it, and here they do: both accounts of the Oak (the old sources differ), his harshness with his clergy (the record's force on his own side), and the split and the return of his followers (the connection). The count behind it: the quotes come to about 66 words; the glosses to about 135; the credits to about 45; the opening, essence, beats, What came of them and ending need about 730 after Cut first items 1-7, about 650 after items 8-14, and about 580 after items 15-17. **For Mark's ruling; provisional.**
 
-**Cut first, in order** (drop from the top while the draft runs past its length; items 1-14 bring it to about 630, and items 15-17 to about 530 if Mark keeps a shorter length):
+**Cut first, in order** (drop from the top while the draft runs past its length; items 1-14 bring it to about 650, and items 15-17 to about 580 if Mark keeps a shorter length):
 1. The gloss on "Chrysostom", "golden-mouthed", with its note that the name comes from later titles (S2 note; Source_Sheet §5). About 10 words. **Card.**
 2. Cassian in What came 2: the deacon he ordained held him up, a generation later, as the teacher Constantinople should follow (CASS 55143-55144, 55167-55172; Gennadius, THDT 43243-43245). About 25 words. **Card.**
 3. The night watch after the Oak (SS 18298-18301). Keep that he was sent away and soon called back. About 12 words. **Card.**
@@ -27,17 +27,17 @@ File short names and full paths are in `Source_Sheet.md` (top). Item codes (S1, 
 10. In Beat 4, John's holding back Communion until the case was heard. Keep "Theophilus heard, falsely, that John had given them Communion, and resolved to unseat him" (SS 17836-17840). About 12 words. **Card.**
 11. In Beat 3, "went to the palace with the bishops". Keep "spoke against it before the emperor" (SS 42893-42895). About 6 words. **Leave out.**
 12. In Beat 7, "Three months on the road" (PALL 6421-6422), and Cucusus by name. Keep "first exiled to Armenia". About 8 words. **Card.** Palladius's reason for the move stays, because it is the act's explanation.
-13. What came 2, the West's demand and his name restored to the list (THDT 17765-17777, 17832-17842), with its gloss. The Ending's return of his followers carries the connection. About 35 words. **Card.**
+13. What came 2, the West's demand and his name restored to the list (THDT 17765-17777, 17832-17842), with its gloss. The Ending's return of his followers carries the connection. About 35 words. **Card.** When this item is cut, the Connection's "his name restored" goes to the card with it. The story's connection is then carried by his followers meeting apart, and by their return when his body came home.
 14. Shorten the essence's added sentence to: "His sermons were read for centuries, and the followers who left over his fall came back only when his body came home." About 10 words saved.
 
-Items 8-14 together free about 100 words: **here the story stands at about 630**, the provisional length.
+Items 8-14 together free about 75 words: **here the story stands at about 650**, the provisional length.
 
-**If Mark holds 450:** cut further, in this order.
+**If Mark wants it shorter:** cut further, in this order.
 15. Gainas and the Arians, with their gloss, go to the card. Keep only "He rebuked men in office too, and those rebukes made him powerful enemies." About 40 words. **Card.**
-16. The monks from Egypt and their quarrel go to the card. Keep Socrates's reading of Theophilus's grudge. About 45 words. **Card.**
+16. The monks from Egypt and their quarrel go to the card, with the false report about them (the clause item 10 keeps). Keep Socrates's reading of Theophilus's grudge, and that he resolved to unseat John (SS 17375-17381, 17838-17840). About 45 words. **Card.**
 17. The Diodore clause goes to the card (the tradition page tells it). About 15 words. **Card.**
 
-**Here the story stands at about 530.** Below that, the story would lose the record's force or a required explanation, so the story is not cut below about 530; plan about 3:30 at the least.
+**Here the story stands at about 580.** Below that, the story would lose the record's force or a required explanation, so the story is not cut below about 580; plan about 3:50 at the least. A length of 450 or 530 cannot be met.
 
 **Setting:**
 - Time: the late fourth century to the early fifth. Fixed by consuls: ordained bishop 398, Eutropius's fall 399, exiled 404, died 407, body brought back 438 (S5). Antioch: twelve years a presbyter, no years given (PALL 3444-3446). Spoken: "In 398", "in 399", "in 404", "in 407", "in 438"; no year for the Oak or the statue.
@@ -193,3 +193,11 @@ Items 8-14 together free about 100 words: **here the story stands at about 630**
 - Pityus was a desolate spot on the Black Sea (PALL 6399-6401).
 - The Gothic general was Gainas; the bishop who brought the body home was Proclus (SS 17368-17372; SS 21459-21460).
 - At the coffin the emperor, son of the rulers who exiled him, laid his head against it and prayed for his parents and for pardon on those who had sinned in ignorance (THDT 17864-17867).
+- His boldness pleased the people and grieved the wealthy and the powerful (Sozomen, SS 42723-42728).
+- Eutropius made Theophilus choose between ordaining John and a trial on the charges against him (SS 17098-17108).
+- John received the monks from Egypt but put off their Communion until their case was heard (SS 17832-17836).
+- The journey into the second exile took three months; his first exile was at Cucusus in Armenia (PALL 6421-6422; SS 44066-44069).
+- The bishops of the West would not share Communion with the East until his name was put back on the list of bishops remembered in prayer; at Antioch, Bishop Alexander first did it (THDT 17765-17777, 17832-17842).
+- The Gothic general Gainas asked the emperor for a church inside the city for the Arians, and John went to the palace with the bishops and spoke against it (SS 42884-42905).
+- Monks Theophilus had driven out of Egypt, in a quarrel over whether God has a human body, came to John for help; Theophilus heard, falsely, that John had admitted them to Communion (SS 17578-17592, 17655-17693, 17825-17840).
+- He trained under Diodore, who kept to the plain meaning of Scripture (SS 17170-17185; SS 42693-42698).

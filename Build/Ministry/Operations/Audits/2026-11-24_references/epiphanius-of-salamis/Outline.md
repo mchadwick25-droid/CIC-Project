@@ -160,6 +160,7 @@ Items 1-11 are spent in the writer's revision, which runs 762 words by the score
 - "Ammonius proved him wrong." Say: Sozomen says he was "measurably convinced" and sent them away.
 - "He died in 403 on the way to Cyprus." Say: he died at sea before he reached Cyprus.
 - Any phrase of this outline in quotation marks, outside Q1-Q3, spoken as a quote (for example "silly old man", "a bright star among bishops", "none of his", "his order, not his measure", the plain-people line). They are here so the writer can check the sense. Paraphrase them, credited to their witness.
+- "The monks there had no priest." Say: for a year they had complained that no one celebrated the sacraments for them, because its priests, Jerome and Vincent, held back from it out of humility (J6 10671-10676, 10706-10708).
 
 **Leave out:**
 - The beggar who feigned death, and the treasurer's bag of gold (Sozomen 7.27): wonder stories; the tomb line is enough.

@@ -31,3 +31,19 @@ Fix pass on `Outline.md`, applying `Outline_Check.md` (verdict FIX: one BLOCKING
 None.
 
 Other checks: the cited lines for each change were re-read in their files (PALL 3745-3753; N110 29952-29954; SS 17328-17366, 18273-18278, 18494-18503; THDT 43241-43245; PHOT 3842-3849; CASS 55142-55145; Marcellinus 5336-5368). No quote, heart wording or beat outside the findings was changed. The approved heart is unchanged in substance.
+
+## Recheck replacements applied
+
+All in `Outline.md`; line numbers are those of the file before the edits, as `Recheck.md` gave them.
+
+- Fix 1, line 15: "about 4:15 (about 630 words by the scorer)" replaced with "about 4:20 (about 650 words by the scorer)".
+- Fix 1, line 15: "need about 730 before Cut first, and about 630 after it." replaced with "need about 730 after Cut first items 1-7, about 650 after items 8-14, and about 580 after items 15-17."
+- Fix 1, line 17: "items 1-14 bring it to about 630, and items 15-17 to about 530 if Mark keeps a shorter length" replaced with "items 1-14 bring it to about 650, and items 15-17 to about 580 if Mark keeps a shorter length".
+- Fix 1, line 33: line replaced with "Items 8-14 together free about 75 words: **here the story stands at about 650**, the provisional length."
+- Fix 1, line 35: "**If Mark holds 450:** cut further, in this order." replaced with "**If Mark wants it shorter:** cut further, in this order."
+- Fix 1, line 40: line replaced with "**Here the story stands at about 580.** Below that, the story would lose the record's force or a required explanation, so the story is not cut below about 580; plan about 3:50 at the least. A length of 450 or 530 cannot be met."
+- Fix 2, line 37: item 16 replaced with the recheck's new item 16.
+- Fix 3, line 30: the two sentences about "his name restored" appended to item 13.
+- Fix 4, after line 195: the eight new Card bullets added to "For the card, not the story" (now lines 196-203).
+
+Not applied: none.
