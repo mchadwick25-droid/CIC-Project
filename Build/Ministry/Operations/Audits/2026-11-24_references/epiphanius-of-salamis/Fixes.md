@@ -1,6 +1,6 @@
 # Fixes: Epiphanius of Salamis (`epiphanius-of-salamis`)
 
-Fix pass on `Outline.md`, applying `Calibration_Findings.md` (trust read T1-T14, first-time listener L1-L7, AI-skeptic listener A1-A7; the numbers are the findings file's own) only where the fault starts in an outline line, and bringing **Who tells it** to Part 2. The approved heart (The essence, Also told) and the beats are kept; no beat was added, dropped or moved. No finding gave exact wording, so nothing is applied verbatim. Line numbers for the outline are its new lines; the full old and new text of every changed line is in the last section, for the recheck.
+Fix pass on `Outline.md`, applying `Calibration_Findings.md` (trust read T1-T14, first-time listener L1-L7, AI-skeptic listener A1-A7; the numbers are the findings file's own) only where the fault starts in an outline line, and bringing **Who tells it** to Part 2. The approved heart (The essence, Also told) and the beats are kept; no beat was added, dropped or moved. No finding gave exact wording, so nothing is applied verbatim. Line numbers for the outline are its new lines; the full old and new text of every changed line is in the last section, for the recheck. Greek cited below is given with the OCR's letter slips normalized (χ for κ, ϑ for θ, δ for β); the words are the file's.
 
 ## Applied verbatim
 
