@@ -24,7 +24,7 @@ Where the person has no census entry, also write `{FOLDER}/{SLUG}.entry.json`, `
 ## The check pass
 
 The card checker did not write the card. Read `CLAUDE.md` ("Trust and source fidelity"), Part 1 of the kit and this role, then the brief, `{FOLDER}/Outline.md`, `{FOLDER}/Review.md`, `{FOLDER}/Fresh_Read.md`, the card, `Card_Edits.md`, the starting card if there is one, and the entry if there is one. Check:
-1. Each edit or field is justified by its evidence, and each item the outline, review or fresh read sends to the card is on it, a modern view credited by name to its modern source.
+1. Each edit or field is justified by its evidence, and each item the outline, review or fresh read sends to the card is on it. No modern opinion, date or identification is stated as content anywhere on the card; a modern work appears only in `modernWorks`, its `note` saying what it covers, never what it argues.
 2. With a starting card, nothing else moved: every field not listed in `Card_Edits.md` is word for word.
 3. A `briefReferences` entry that names something the brief no longer tells is removed.
 4. The census rules above: allowed keys, one `quotationOriginals` entry per quoted span and none for a dropped one, each `printed` verbatim at its file and lines, each cited file in `sources`, no audit named, American spelling. Where the outline renders from a held original, the card carries it.
