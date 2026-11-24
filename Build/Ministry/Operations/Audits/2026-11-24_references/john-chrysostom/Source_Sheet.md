@@ -202,6 +202,7 @@ In SS, N109, N110, THDT and CASS the XML lines carry editors' endnotes inside th
 - **The trigger of the Oak:** Socrates, a sermon against women taken as aimed at Eudoxia (SS 18239-18249); the Dialogue reports his enemies' charge that he called the queen Jezebel (PALL 5205-5207). Card.
 - **The name "Chrysostom", "golden-mouthed":** no held writer of his lifetime gives it to him. It appears in the Dialogue's title (PALL 734-736; PG47 7070, "τοῦ Χρυσοστόμου") and the chapter headings of Sozomen (SOZG 26525). Sozomen says some called another bishop, Antiochus of Ptolemais, "Chrysostom" for his fine voice (SS 43264-43267; SOZG 28792-28793). Inferential-Thin as a name his hearers used; Documented as the name the record gives him.
 - **Late witnesses:** Photius (ninth century) on the minutes; the Life under Theodore of Trimithus (later; date not held).
+- Marcellinus says the exile was against Arcadius's will; Socrates gives the emperor's decree (SS 18496-18502). Card.
 
 ---
 
@@ -244,5 +245,6 @@ In SS, N109, N110, THDT and CASS the XML lines carry editors' endnotes inside th
 - Hefele and Duchesne: modern histories; used for nothing.
 - Socrates and Sozomen Greek (Hussey): the English is a clean print; the Greek was checked only for the name "Chrysostom".
 - Palladius, Lausiac History: names "the blessed John" once (the Palladius sibling's job).
+- Marcellinus Comes, Chronicle (`cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt` 5340-5366; Latin, early sixth century, later). Under the consuls Theodosius the younger and Rumoridius it gives the silver statue of Eudoxia beside the church; John's exile to Cucusus by rival bishops, "nolente Arcadio principe" (against the emperor's will); his move a year later to Comana; and the faithful burying him there in a new tomb, warned in a dream by the martyr Basiliscus. Not used in the story: it is later than Socrates and Sozomen, adds nothing the story tells, and the statue keeps no year in the story. Its "against the emperor's will" goes to §5 and the card.
 
 **Card notes (for the card step).** The Greek of Homily I on Eutropius is held (PG52 652 on); the Greek of the Homilies on Matthew is not. The Dialogue is held in Greek (PG47 7061 on) and English.
