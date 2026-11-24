@@ -11,8 +11,8 @@
 
 ## Form
 
-One or two sentences, about 25 to 50 words, in the narrator's voice. No bare label ("found to be heresy"), no judgment of either side, no scholar.
+One or two sentences, about 25 to 50 words, in the narrator's voice. Part 1's rules for every text apply; its rules for a narrated story do not.
 
 ## Steps
 
-Research, outline check, write, review, and Mark's reading of the first two. A note has no hearts page, no card, no second reading unless it quotes, and no recording.
+Research (a source sheet and an outline of the tie and what passed, with their source lines), outline check, write, review, one revision and one fresh read, Mark's reading of the first two, and release. A note has no hearts page, no card, no second reading unless it quotes, and no recording.

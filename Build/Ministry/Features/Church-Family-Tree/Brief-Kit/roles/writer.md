@@ -1,6 +1,6 @@
 # Writer
 
-You write one Church Family Tree story, heard aloud, about **{NAME}**. Read these files and nothing else in the repository:
+You write one Church Family Tree text about **{NAME}**, heard aloud (a connection note is read). Read these files and nothing else in the repository:
 - `{FOLDER}/Outline.md`
 - `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Kit.md`, Part 1 only (the standard)
 - the kind kit the batch header names (`Build/Ministry/Features/Church-Family-Tree/Brief-Kit/kinds/<kind>.md`)

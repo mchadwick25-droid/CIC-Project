@@ -1,5 +1,7 @@
 # World narration in the tree's voice
 
+New work on a built world's narration runs on the Brief Kit (`Brief-Kit/kinds/tradition.md` for its story and legacy, `Brief-Kit/kinds/story.md` for its documented stories), with the kit's roles (Decision-Log, "The brief kit consolidated: one standard, six kind kits", 2026-11-24). This folder keeps the 2026-11-20 rewrite and its record; the roles it used are in `Archive/Church-Family-Tree-World-Narration-roles-2026-11-20/`.
+
 The tree's narrator texts for the 11 built worlds: each world's Story, Legacy and documented stories, rewritten from the world's own voice into the narrator's. The tree will show them and play them in its standard voices (Daniel for Story and Legacy, Neo for documented stories). Church in Conversation keeps the original texts in `records/` and its Representative recordings.
 
 Source: Decision-Log, "Built worlds on the tree move to the standard voices, after a rewrite into the narrator's voice" (2026-11-20); Open-Gaps, "Built worlds in the standard voices: rewrite, then record" (2026-11-20).
@@ -30,4 +32,4 @@ One folder per world, named by its census id. For each piece `<key>` (`story`, `
 
 ## Status
 
-All 122 pieces passed review on 2026-11-20. The hand-off for recording is in Open-Gaps, "Built worlds in the standard voices: the writing is done, hand-off for recording" (2026-11-20). The roles each step used are in `roles/`.
+All 122 pieces passed review on 2026-11-20. The hand-off for recording is in Open-Gaps, "Built worlds in the standard voices: the writing is done, hand-off for recording" (2026-11-20). The roles each step used are in `Archive/Church-Family-Tree-World-Narration-roles-2026-11-20/`.

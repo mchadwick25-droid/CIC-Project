@@ -2,8 +2,6 @@
 
 **Purpose.** Let a listener meet one person: what they did, what it changed, and why they are on the tree.
 
-**The test, for a person.** Who this was, what they did, what it was about, and why the connection matters.
-
 ## The heart
 
 - **The essence:** what they did, what it changed, and why they are on the tree.

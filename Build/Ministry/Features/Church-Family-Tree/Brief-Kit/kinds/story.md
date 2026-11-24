@@ -18,6 +18,10 @@ As the record holds it: most run one to two minutes.
 
 Retelling the whole life around the happening; a happening told only through what a later writer made of it; a scene the old sources do not describe.
 
+## Steps
+
+Every step. A documented story's card is its entry's card; a map story has none. Both are recorded.
+
 ## References
 
 None of its kind yet. Read the person references for voice.

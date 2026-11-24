@@ -1,6 +1,6 @@
 # Recording settings
 
-Every paid run passes these on the command, one story per command, and its printed settings are checked against this page before the run is called valid (Kit, Part 4, step 9). They change only with Mark's words in the Decision-Log.
+Every paid run passes these on the command, one story per command, and its printed settings are checked against this page before the run is called valid (Kit, Part 3, step 9). They change only with Mark's words in the Decision-Log.
 
 ## A person
 

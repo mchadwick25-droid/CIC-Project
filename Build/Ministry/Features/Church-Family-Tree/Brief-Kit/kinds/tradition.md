@@ -6,9 +6,9 @@
 
 ## The heart
 
-- **The essence:** who they were, when and where, and the one or two things everything else turned on.
+- **The essence:** who they were, when and where, and what held them together.
 - **Who they were:** the community, by a name a narrator can say aloud.
-- **When and where:** their time and place, brought in a clause at a time.
+- **When and where:** their time and place.
 - **What they faced:** what brought them into being, what pressed on them, and what ended or changed them.
 - **What they believed:** what they held and what they fought over, told as they held it, in their own words where the record gives them.
 - **How they practiced:** worship, prayer, daily life, and how they formed their people.
@@ -21,7 +21,7 @@ The heart is what the story carries, never a list of sections. Open on one momen
 
 ## Sources
 
-A built world brings its own records: its forces, gravities, terms, stories and honest limits, each traced to its source lines. Every other tradition draws on the census entry and the Library, at the confidence they bear. Either way, the heart comes to Mark on the hearts page.
+A built world's records (`cic-website/data/worlds/<id>.json`, with its forces, gravities, terms, stories and honest limits) are read first, and each claim taken from them is traced to its source lines. For every tradition, the census entry is a starting list, never a source: each claim stands on the old sources in the Library.
 
 ## Length
 
@@ -33,4 +33,4 @@ An encyclopedia entry; a founder's biography; a list of beliefs with no people i
 
 ## References
 
-None of its kind yet. Read the person references for voice. The finished Lutheran Wittenberg narration shows the story form until a tradition meets this kit and is frozen here.
+None of its kind yet. Read the person references for voice. The finished Lutheran Wittenberg narration (`Build/Ministry/Features/Church-Family-Tree/World-Narration/lutheran-wittenberg-and-its-congregations/story.txt`) shows the story form until a tradition meets this kit and is frozen here.

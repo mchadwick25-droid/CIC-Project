@@ -14,11 +14,11 @@
 
 ## The form: a story of the age
 
-Open on one moment that holds the era, then widen to the bigger picture, told through events and the voices of the time, in order. Hand on to the traditions without telling each one's story.
+Open on one moment that holds the era, then widen to the bigger picture, told through events and the voices of the time, in order. It ends on the age itself, with the questions it left for the traditions, without telling each one's story.
 
 ## Sources
 
-An era is a survey of its time, so it draws on the broad historical scholarship for the events, trends and geography of the age, as well as the old sources. Documented, Widely Accepted and Dominant Modern Reconstruction claims are told plainly as the picture of the age. Where historians genuinely disagree, the era says so in a clause, or leaves it out. Inferential-Thin claims stay out. No historian is named in the narration; the era card lists the works under Modern works, within the rights rules. No speculation, and no verdict on the age as golden or declining.
+An era is a survey of its time, so it draws on the broad historical scholarship for the events, trends and geography of the age, as well as the old sources. Documented, Widely Accepted and Dominant Modern Reconstruction claims are told plainly as the picture of the age. Where historians genuinely disagree, the era says so in a clause, or leaves it out. Inferential-Thin claims stay out. No historian is named in the narration, and its works are listed under Modern works. No speculation.
 
 ## Length
 
@@ -30,4 +30,4 @@ A list of dates; a textbook summary; retelling the traditions' own stories; judg
 
 ## Steps
 
-Every step. The era card is not built yet, so an era brief waits for it, or for Mark's word.
+The era card is not built yet, so an era brief waits for it, or for Mark's word.
