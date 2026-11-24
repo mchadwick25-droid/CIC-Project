@@ -32,7 +32,7 @@ Two listeners who see no source, outline or other read: a first-time visitor, wi
 
 Then run `python -m engine.m1.profile_readability {FOLDER}/{SLUG}.brief.txt` and `python tools/check_brief_craft.py {FOLDER}/{SLUG}.brief.txt`, and judge each line the second lists by Part 1.
 
-Each unfilled test line, failing sentence, bare statement or tell is BLOCKING. A citation read aloud is MINOR: give the sentence in the narrator's voice. Where attention drifts, say why, for the reviser. Write `Listen_FirstTime.md` or `Listen_Skeptic.md`.
+Each unfilled test line, bare statement or tell is BLOCKING, and so is an opening that leaves the listener lost about who or where. A failing sentence is MINOR, and BLOCKING only where it loses the thread of the story. A citation read aloud is MINOR: give the sentence in the narrator's voice. Where attention drifts, say why, for the reviser. Write `Listen_FirstTime.md` or `Listen_Skeptic.md`.
 
 ## The verdict
 
@@ -40,6 +40,6 @@ Each unfilled test line, failing sentence, bare statement or tell is BLOCKING. A
 
 ## The fresh read
 
-After the one revision, a new trust reader and a new first-time listener, who have not seen this story's reads, `Revision.md` or any earlier draft, read the final `{SLUG}.brief.txt` in full in the same way. They write `Fresh_Read.md`: the counts, PASS or REVISE, and each finding with its exact change. Once per batch, the same hands read the kind's reference stories in `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/reference/` in the same way, without opening `Scores.md`, and `Reference_Read.md` sets their counts beside those in `Scores.md`.
+After the one revision, a new trust reader and a new first-time listener, who have not seen this story's reads, `Revision.md` or any earlier draft, read the final `{SLUG}.brief.txt` in full in the same way. They write `Fresh_Read.md`: the counts, PASS or REVISE, and each finding with its exact change. The fresh read blocks only for what the bar blocks. A MINOR finding there is applied word for word or noted, never the start of another round: the aim is reliable, sound work, not perfection. Once per batch, the same hands read the kind's reference stories in `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/reference/` in the same way, without opening `Scores.md`, and `Reference_Read.md` sets their counts beside those in `Scores.md`.
 
 Do not edit the story or commit. Each reply is under 150 words.
