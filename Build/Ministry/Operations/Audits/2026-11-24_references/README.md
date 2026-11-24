@@ -45,3 +45,5 @@ Mark's words for the batch (Decision-Log, "How a brief's success is measured", 2
 - **Chrysostom after the one revision runs 756 words (about 5:00).** The listeners' bare-statement finding on his rebukes had no other outline content, so the reviser put back the Gothic general and the Arians (Cut first 15). Over the kit's "about 675"; for Mark's ruling.
 
 ## Rulings
+
+- **Mark, 2026-11-24, on the page (https://claude.ai/artifact/LyXy1LGWYovdCDG3ADzUgB):** asked the audio length (Basil about 4:53, Epiphanius about 4:58, Chrysostom about 4:57 at 150 words a minute), then: "keep them as they are, approved". This keeps all three lengths, approves Chrysostom's two-sentence essence and the fresh-read counts as the `Scores.md` counts, and approves the three briefs. Where it lives: this batch only.
