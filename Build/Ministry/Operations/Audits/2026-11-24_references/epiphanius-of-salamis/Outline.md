@@ -186,7 +186,7 @@ Items 1-11 are spent in the writer's revision, which runs 762 words by the score
 - Sozomen says he gave his whole inheritance to the shipwrecked and the needy, and then the church's funds (SS 42340-42345).
 - Theophilus, who had once called him "a heretic, or a paltry schismatic", later called him "a most holy saint" (Palladius's Dialogue, PALL 8921-8925), and in his own letter "a bright star among bishops" (J6 22472-22474).
 - Q3, his farewell at the shore, as Sozomen reports it: "I leave you the city, the palace and the play-acting. I am going away, because I am in a hurry, a great hurry." (SOZG 30108-30116; Hartranft's English, SS 43625-43626.)
-- Jerome, who was there and on his side, says the bishop of Jerusalem's party mocked him as an old man while he preached against Origen, and crowds pressed to kiss his feet (J6 40982-40996).
+- Jerome, who was there and on his side, says the bishop of Jerusalem's party mocked him as an old fool while he preached against Origen, and crowds pressed to kiss his feet (J6 40982-40996).
 - He was born near Eleutheropolis and lived as a monk near his birthplace; the people of Cyprus chose him as their bishop (Sozomen, SS 39793-39799; J6 18736-18739).
 - He listed the followers of Apollinaris, whom he called always dear to him, for teaching that Christ took flesh and a soul but no human mind (PG42 48828-48833, 48853-48857).
 - Theophilus had once accused him of thinking God has a human form (Socrates, SS 17868-17870; Sozomen, SS 43502-43508).
