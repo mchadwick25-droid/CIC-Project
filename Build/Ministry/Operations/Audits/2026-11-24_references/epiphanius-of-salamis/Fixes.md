@@ -222,3 +222,32 @@ New:
 
 1. Outline.md line 47: image-quarrel bullet now cites Hadrian's letter (MEN 8494-8495).
 2. Outline.md line 70: image-quarrel sentence now cites MEN 8494-8495 first.
+
+## Length fix
+
+Finding: `Length_Finding.md`, BLOCKING (Part 2, Length). The writer's revision runs 762 words by the scorer; items 1-11 of Cut first are spent. Applying items 12-15 below to that draft gives 675 by the scorer (checked by applying them to a copy). Nothing else in the outline changed. Kept uncut: the record's force (the forced ordination, the curtain, the deacon ordained against church rules, the refusal to pray with John), every gloss Part 1 requires, the two historians' disagreement, and the shape's scene (the medicine chest, the river).
+
+**Outline.md, Cut first.**
+
+Old (after item 11):
+> (nothing)
+
+New (lines 31-35):
+> Items 1-11 are spent in the writer's revision, which runs 762 words by the scorer. Items 12-15 free about 87 more, bringing it to about 675. Word counts are the draft's own, by the scorer.
+> 12. For the card: the Jerusalem mockery and the crowds, with its credit to Jerome (J6 40982-40996): the sentence "The scholar Jerome, who was there and on his side, says the bishop of Jerusalem's party mocked him as an old fool, while crowds pressed to kiss his feet." 29 words. Keep the sermon against Origen in the church at Jerusalem, and in the next sentence name the bishop of Jerusalem ("In a letter to the bishop of Jerusalem"), which adds 2. Net about 27.
+> 13. For the card: his birthplace and the Cypriots' choice (SS 39793-39799): the sentence "He was born near Eleutheropolis and lived as a monk near his birthplace, and the people of Cyprus chose him as their bishop." 23 words. This drops what item 8 kept. The essence already tells a monk from Palestine who became bishop of Salamis.
+> 14. For the card: the Apollinaris clause (PG42 48828-48833, 48853-48857): the sentence "He listed even the followers of Apollinaris, a man he says was always dear to him, for teaching that Christ took no human mind." 24 words. Also told 1 keeps what the book holds without it; Names already makes Apollinaris first to drop.
+> 15. For the card: Theophilus's earlier charge, in Socrates and Sozomen (SS 17868-17870; SS 43502-43508): the clause "though Theophilus had once accused Epiphanius of thinking God has a human form". 13 words. An event before its meaning: keep that Theophilus wrote to win him, and both historians' readings of why.
+
+**Outline.md, For the card, not the story** (the Cut first header says each item is kept there).
+
+Old (after the Q3 line):
+> (nothing)
+
+New (lines 189-192):
+> - Jerome, who was there and on his side, says the bishop of Jerusalem's party mocked him as an old fool while he preached against Origen, and crowds pressed to kiss his feet (J6 40982-40996).
+> - He was born near Eleutheropolis and lived as a monk near his birthplace; the people of Cyprus chose him as their bishop (Sozomen, SS 39793-39799; J6 18736-18739).
+> - He listed the followers of Apollinaris, whom he called always dear to him, for teaching that Christ took flesh and a soul but no human mind (PG42 48828-48833, 48853-48857).
+> - Theophilus had once accused him of thinking God has a human form (Socrates, SS 17868-17870; Sozomen, SS 43502-43508).
+
+Arithmetic: 762 - 29 + 2 - 23 - 24 - 13 = 675.
