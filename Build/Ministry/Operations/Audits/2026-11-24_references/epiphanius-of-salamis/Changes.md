@@ -75,3 +75,12 @@ Baseline: `epiphanius-of-salamis.brief.v0.txt` (714 words, never edited). Revise
 ## Length
 
 The revised text runs 762 words by the scorer, about 5:05 at 150 words a minute, against the outline's 675 at most. The live text was already over, at 714. None of the outline's Cut first items is in the text, so nothing on that list is left to drop. The added words come from fixes the kit requires: the reasons for the two acts of force, the plain senses of heresy, Apollinaris's teaching and the image quarrel. Per the writer's role, the writer stops here and does not cut further. The outline's own shortest cut, sending the Apollinaris clause to the card, would free about 25 words but would not reach 675; that call, or a new length, is Mark's.
+
+## Length cuts (Cut first 12-15)
+
+Applied word for word from `Fixes.md` "Length fix". Result matches the checker's cut copy (`diff` clean). Scorer: 762 to 675 words.
+
+- Item 12. Removed: "The scholar Jerome, who was there and on his side, says the bishop of Jerusalem's party mocked him as an old fool, while crowds pressed to kiss his feet." Changed: "In a letter to that bishop" to "In a letter to the bishop of Jerusalem".
+- Item 13. Removed: "He was born near Eleutheropolis and lived as a monk near his birthplace, and the people of Cyprus chose him as their bishop."
+- Item 14. Removed: "He listed even the followers of Apollinaris, a man he says was always dear to him, for teaching that Christ took no human mind."
+- Item 15. Removed: ", though Theophilus had once accused Epiphanius of thinking God has a human form".

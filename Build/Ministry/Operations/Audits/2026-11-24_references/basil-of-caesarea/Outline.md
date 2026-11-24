@@ -10,13 +10,24 @@ Line references are to `Source_Sheet.md` rows (S, E, R, P, B, H, Sp, D, I), each
   - The cost: an emperor's official threatened him with loss of goods, exile, torture and death; he faced a quarrel with his own bishop and a rival bishop who blocked his road. (B2-B4, P2; Documented as Gregory's account, B3 confirms)
   - Checked against the Library: all held. "Outside Caesarea" is held as Gregory's "a little way from the city" (H3); "suburbs" is the editor's (H6). "Rules that shaped Greek monks" is held as his friend's "legislation" (R3) and the council of 787 (I3); the Rules' date is not held (R8).
 - **Length:** about 4:30 at most (about 675 words by the scorer), aiming at 4:00. Must carry: quotes 62 words; seven plain-sense glosses about 55 words (rhetoric, the ascetic life, the Rules, the form of praise, the emperor's official, the party that ranked the Son below the Father, double monastery); credited witnesses about 60 words (Basil himself, Gregory of Nazianzus twice, Gregory of Nyssa, Rufinus, Sozomen, Benedict, the council of 787). About 175 words before the beats. Six beats, the impact and the ending need about 425 more. The record is rich (his own letters, rules and treatise, a friend's long eulogy, three later historians), and four strands of the heart each need a scene, so the story runs past 3 minutes.
-- **Cut first, in order:** Drop from the top, in order, only while the draft runs past 675 words. Together about 61 words (at least 6 words, the count's excess over 640). Each item is kept under For the card, not the story.
+- **Cut first, in order:** Drop from the top, in order, only while the draft runs past 675 words. Items 1-6 together about 61 words; none is in the draft of 2026-11-24 (723 words by the scorer). Items 7-14 are outline content that draft does not carry (0 words each). Items 15-17 together 46 words by the scorer, which bring that draft to 677, the approved about 675. Each item is kept under For the card, not the story.
   1. Beat 1: that Caesarea welcomed him home (E2). Saves about 6 words.
   2. Beat 1: the four lands he searched for monks, Egypt, Palestine, Syria and Mesopotamia (E4); say only that he went looking for monks. Saves about 5 words.
   3. Beat 3: what he fed the hungry in the famine, soup and meat (P4); keep that he fed and tended them himself. Saves about 4 words.
   4. What came of them 1: the optional line that the tree's tradition entry says his rules remain foundational for Eastern Orthodox monasticism (I9). Saves about 12 words.
   5. Beat 2: Gregory's report that he brought hermits and communities together rather than walling them apart (R4). Saves about 12 words.
   6. Beat 2: Rufinus's report that he went through the towns and countryside, teaching people to come together, build monasteries, pray and care for the poor (R2); Rufinus stays credited in Beat 1 and the impact. Saves about 22 words.
+  7. Beat 1: that he studied at Athens with Gregory of Nazianzus (E1). Card. Not in the draft: 0 words.
+  8. Beat 2: his friend's word "legislation" for his rules (R3). Card. Not in the draft: 0 words.
+  9. Beat 3: that the monks wanted to break away with him, and he went back to Pontus rather than split the church (P2); keep the quarrel and his return to serve the bishop. Card. Not in the draft: 0 words.
+  10. Beat 3: the famine, and how he fed and tended the hungry (P4); item 3 is then spent with it. Card. Not in the draft: 0 words.
+  11. Beat 4: the official's word that no one had spoken to him so boldly, and Basil's "perhaps he had never met a bishop" (B2); keep the threat and Basil's answer, in Gregory's telling. Card. Not in the draft: 0 words.
+  12. Beat 4: Sozomen's matching account of the threat and refusal (B3); Sozomen is then credited nowhere in the story. Card. Not in the draft: 0 words.
+  13. What came of them 3, cut whole: the house's name, the Basileias, and its fame two generations later, in Sozomen (I7). Card. Not in the draft: 0 words.
+  14. What came of them 2, its second sentence: his brother carrying on his answer to Eunomius (I6, sibling clause); keep the council of 381. Card. Not in the draft: 0 words.
+  15. Beat 4: Gregory of Nazianzus made bishop at Sasima, and his hurt that time had not healed (B5); keep that Basil answered the rival bishop by making more bishops, Gregory says. The sibling tells Sasima. Card. Saves 17 words.
+  16. Beat 1: that he went looking for monks (E4); keep that he read in the gospel of selling goods and sharing with the poor. Card. Saves 5 words.
+  17. What came of them 1, its third sentence: the council of 787 telling the double monasteries still standing to keep his rule (I3); keep Rufinus's Latin and Benedict. Card. Saves 24 words.
 - **Setting:**
   - Time: the fourth century. Bishop in the reign of the emperor Valens (S4, B2); died eight years after he became bishop (D1), before the council of 381 (D2). Told in no sentence, since only modern editors give them: born 329 or 330 (S1, Jackson); bishop from 370 (B1, Jackson); died 1 January 379 or at the end of 378 (D2, Jackson, Clarke, Gwynn).
   - Place: Caesarea in Cappadocia, an inland city (S2, S3), in what is now Turkey (S6). Plain gloss, not from a source: in the middle of Asia Minor. His retreat: Pontus, by the river Iris (E7, R1). Plain gloss: near the Black Sea.
@@ -130,3 +141,14 @@ Line references are to `Source_Sheet.md` rows (S, E, R, P, B, H, Sp, D, I), each
   - What came of them 1: the optional line that the tree's tradition entry says his rules remain foundational for Eastern Orthodox monasticism (I9).
   - Beat 2: Gregory's report that he brought hermits and communities together rather than walling them apart (R4).
   - Beat 2: Rufinus's report that he went through the towns and countryside, teaching people to come together, build monasteries, pray and care for the poor (R2).
+  - Beat 1: that he studied at Athens with Gregory of Nazianzus (E1).
+  - Beat 2: his friend's word "legislation" for his rules (R3).
+  - Beat 3: that the monks wanted to break away with him, and he went back to Pontus rather than split the church (P2).
+  - Beat 3: the famine, and how he fed and tended the hungry (P4).
+  - Beat 4: the official's word that no one had spoken to him so boldly, and Basil's "perhaps he had never met a bishop" (B2).
+  - Beat 4: Sozomen's matching account of the threat and refusal (B3).
+  - What came of them 3: the house's name, the Basileias, and its fame two generations later, in Sozomen (I7).
+  - What came of them 2: his brother carrying on his answer to Eunomius (I6).
+  - Beat 4: Gregory of Nazianzus made bishop at Sasima, and his hurt that time had not healed (B5).
+  - Beat 1: that he went looking for monks (E4).
+  - What came of them 1: the council of 787 telling the double monasteries still standing to keep his rule (I3).
