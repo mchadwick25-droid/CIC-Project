@@ -18,13 +18,13 @@ Mark's words for the batch (Decision-Log, "How a brief's success is measured", 2
 
 | Step | Basil | Epiphanius | Chrysostom |
 |---|---|---|---|
-| 1. Research fix pass / new outline | | | |
-| 1b. Outline check on what changed | | | |
-| 2. Writer revises failing sentences | | | |
-| 3. Trust read, first-time, AI skeptic | | | |
-| 4. One revision | | | |
-| 5. One fresh read | | | |
-| Mark reads all three | waiting | waiting | waiting |
+| 1. Research fix pass / new outline | done (`Fixes.md`), plus a length fix | done (`Fixes.md`), plus a length fix | new `Source_Sheet.md` and `Outline.md`, fix pass |
+| 1b. Outline check on what changed | `Recheck.md`, `Recheck_Length.md`: applied | `Recheck.md`, `Recheck_Length.md`: applied | `Outline_Check.md`, `Recheck.md`: applied |
+| 2. Writer revises failing sentences | done (`Changes.md`) | done | done |
+| 3. Trust read, first-time, AI skeptic | `Review.md`: REVISE | `Review.md`: REVISE | `Review.md`: REVISE |
+| 4. One revision | `Revision.md`, 723 words | `Revision.md`, 724 words | `Revision.md`, 756 words |
+| 5. One fresh read | `Fresh_Read.md`: trust PASS; listener's blocking point fixed by its exact change; 733 words | `Fresh_Read.md`: trust's one softened clause fixed by its exact change; listener PASS; 744 words | `Fresh_Read.md`: trust PASS; listener's bare sentence cut by its exact change; 742 words |
+| Mark reads all three | waiting: https://claude.ai/artifact/LyXy1LGWYovdCDG3ADzUgB | waiting | waiting |
 
 ## Judgment calls
 

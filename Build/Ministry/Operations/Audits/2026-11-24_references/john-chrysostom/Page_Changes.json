@@ -1,0 +1,308 @@
+{
+  "slug": "john-chrysostom",
+  "source_key": {
+    "SS": "npnf202 Socrates/Sozomen",
+    "PALL": "Moore's Dialogue",
+    "PG47": "Migne Greek",
+    "PG52": "Migne Greek",
+    "N109": "NPNF Chrysostom",
+    "N110": "NPNF Chrysostom",
+    "PHOT": "Freese's Photius"
+  },
+  "changes": [
+    {
+      "before": "In 399 the bishop of Constantinople, the eastern capital, was John, a preacher from Antioch.",
+      "after": null,
+      "mark": null,
+      "source": null,
+      "reason": "Outline: Openings 1 (line 69). Rule: Part 1 opens on one moment in about three sentences; this was a set-up sentence ahead of the moment, and \"the eastern capital\" is not the outline's wording. The year moves into the fall of Eutropius; the name comes in at the pulpit."
+    },
+    {
+      "before": "Not long before, the emperor's chief eunuch, Eutropius, had a law passed that stripped refugees of the right to shelter in churches.",
+      "after": "The emperor's chief chamberlain, Eutropius, had a law passed that stripped people who fled into churches of the right to shelter there.",
+      "mark": "HELD",
+      "source": "The Eutropius law (SS 17337-17341)",
+      "reason": null
+    },
+    {
+      "before": "Then he fell from favor and fled into the cathedral.",
+      "after": "Soon after, in 399, he fell from favor and himself fled into the cathedral of Constantinople, the emperor's city.",
+      "mark": "HELD",
+      "source": "his fall and flight, 399 by his consulate (SS 17341-17347, 17360-17364)",
+      "reason": null
+    },
+    {
+      "before": "As he lay trembling under the altar, John climbed into the pulpit and preached against him.",
+      "after": "As he lay trembling under the altar, the bishop, John Chrysostom, climbed into the pulpit and preached against him.",
+      "mark": "HELD",
+      "source": "\"lay under the table of the altar, mounting the pulpit\" (SS 17349-17357)",
+      "reason": null
+    },
+    {
+      "before": "Socrates of Constantinople says some thought John added insult to cruelty.",
+      "after": "Some thought he was attacking a man already brought low.",
+      "mark": "SUMMARY HOLDS",
+      "source": "Socrates: \"he seemed to create greater displeasure in some, as he not only denied compassion to the unfortunate, but added insult to cruelty\" (SS 17357-17360).",
+      "reason": null
+    },
+    {
+      "before": "John said he spoke to soften the people's hearts toward him, for the church, like a mother, had hidden her enemy under her cloak.",
+      "after": "John said he spoke to soften the people's hearts, for the church had sheltered its enemy: \"When everyone ignored him in his desolation, she alone, like a loving mother, hid him behind her curtains.",
+      "mark": "SUMMARY HOLDS",
+      "source": "John: \"from a desire to soften your minds towards him, and to induce you to compassion\" (N109 17699-17702); \"having received her enemy as a captive, she spares him\" (N109 17721-17722), offered in answer to those angry that the man \"who…",
+      "reason": null
+    },
+    {
+      "before": null,
+      "after": "She stood against the emperor's anger, the people's fury and unbearable hatred.\"",
+      "mark": "SUMMARY HOLDS",
+      "source": "John: \"from a desire to soften your minds towards him, and to induce you to compassion\" (N109 17699-17702); \"having received her enemy as a captive, she spares him\" (N109 17721-17722), offered in answer to those angry that the man \"who…",
+      "reason": null
+    },
+    {
+      "before": null,
+      "after": "His sermons were read for centuries, and the followers who left the church over his fall came back only when his body came home.",
+      "mark": "SUMMARY HOLDS",
+      "source": "Socrates: \"must read for themselves\" (SS 17303-17308); the Augsburg Confession (AUGC 880-881) and Calvin (CALV1 18508-18510) carry the centuries. Socrates VII.45: Proclus \"brought back to the Church those who had separated themselves from it on account of Bishop John's deposition…",
+      "reason": null
+    },
+    {
+      "before": "At Antioch John had trained under Diodore, who kept to the literal sense of Scripture.",
+      "after": "John was born at Antioch, in Syria, and as a priest there for twelve years he preached on what the rich owed the poor.",
+      "mark": "SUMMARY HOLDS",
+      "source": "SS 17130-17131 (\"a native of Antioch in Syria-Cœle\"); PALL 3444-3446 (\"For twelve years he was a shining light in the Church of Antioch\"); Homily 50 is Antioch's by Homily VII's \"our city first crowned itself with the name of Christian\"…",
+      "reason": null
+    },
+    {
+      "before": null,
+      "after": "They decked the altar, where the bread of Communion lies, which Christians call Christ's body, with gold cups and silk.",
+      "mark": "SUMMARY HOLDS (first trust read)",
+      "source": "N110 29913-29914: \"we offer for this table a gold and jewelled cup\". N110 29952-29954: \"not forbidding such offerings ... but requiring you, together with them, and before them, to give alms\". (first trust read)",
+      "reason": null
+    },
+    {
+      "before": "In a sermon on Matthew, he told his listeners that if they wanted to honor the body of Christ, they must not neglect Him when He is naked.",
+      "after": "In one sermon he told them to honor Christ in the poor first: \"Do you want to honor Christ's body?",
+      "mark": "SUMMARY HOLDS (first trust read)",
+      "source": "Q2 against Prevost (N110 29931-29934): \"Wouldest thou do honor to Christ's body? Neglect Him not when naked; do not while here thou honorest Him with silken garments, neglect Him perishing without of cold and nakedness.\" The rendering is faithful. (first…",
+      "reason": null
+    },
+    {
+      "before": null,
+      "after": "Do not neglect him when he is naked.",
+      "mark": "HELD",
+      "source": "the sermon on Matthew and Q2, word for word against Prevost (N110 29931-29933; \"together with them, and before them, to give alms\", 29952-29954)",
+      "reason": null
+    },
+    {
+      "before": null,
+      "after": "While you honor him here with silk clothes, do not neglect him outside, dying of cold and nakedness.\"",
+      "mark": "HELD",
+      "source": "the sermon on Matthew and Q2, word for word against Prevost (N110 29931-29933; \"together with them, and before them, to give alms\", 29952-29954)",
+      "reason": null
+    },
+    {
+      "before": null,
+      "after": "He published some of his sermons, and shorthand writers took down others as he spoke.",
+      "mark": "HELD",
+      "source": "he published some sermons, shorthand writers took others (SS 17304-17306)",
+      "reason": null
+    },
+    {
+      "before": null,
+      "after": "Both kinds were kept and read.",
+      "mark": "SUMMARY HOLDS",
+      "source": "Socrates's \"both those which were published by himself, and such as were noted down by short-hand writers ... must read for themselves\" (SS 17304-17308).",
+      "reason": null
+    },
+    {
+      "before": "In 398 Eutropius made Theophilus of Alexandria ordain him.",
+      "after": "In 398 the court chose him as bishop of Constantinople, and Eutropius made Theophilus, bishop of Alexandria, ordain him.",
+      "mark": "HELD",
+      "source": "398, the court's choice and Eutropius's pressure on Theophilus (SS 17097-17115)",
+      "reason": null
+    },
+    {
+      "before": "Palladius, who wrote John's life and took his side, says he moved the bishop's extravagant spending to the hospital.",
+      "after": "As bishop he cut the bishop's own spending and gave the money to a hospital.",
+      "mark": "HELD",
+      "source": "the bishop's spending moved \"to the hospital\" (PALL 3749-3753)",
+      "reason": null
+    },
+    {
+      "before": "Socrates says his rebukes of men in office turned the tide against him.",
+      "after": null,
+      "mark": null,
+      "source": null,
+      "reason": null
+    },
+    {
+      "before": null,
+      "after": "He corrected his clergy sharply over how they lived and put some of them out of the church, and many came to hate him.",
+      "mark": "SUMMARY HOLDS",
+      "source": "Socrates: \"more than proper superciliousness, designing to correct the morals of the clergy ... others became his bitter enemies ... expelled many of them from the church\" (SS 17262-17275); Sozomen: \"ejected some of the clergy\" (SS 42798-42800), \"hated by the…",
+      "reason": null
+    },
+    {
+      "before": "It is said he was as blunt with the Gothic general Gainas, who asked for a city church for the Arians.",
+      "after": "When a Gothic general asked for a church inside the city for the Arians, who taught that the Son of God had a beginning, John spoke against it before the emperor.",
+      "mark": "HELD",
+      "source": "Gainas, the Arians' church, John before the emperor (SS 17368-17372; SS 42887-42894; the gloss, SS 2094-2096)",
+      "reason": null
+    },
+    {
+      "before": "They taught that the Son of God had a beginning.",
+      "after": null,
+      "mark": null,
+      "source": null,
+      "reason": "Outline: Cut first 15 (to the card). Length."
+    },
+    {
+      "before": "Socrates says Theophilus held a grudge, since his favorite had lost the see to John.",
+      "after": "Socrates, a church historian of the city writing a generation later, says Theophilus also held a grudge, since his own choice for bishop had lost out to John, and that he resolved to unseat him.",
+      "mark": "HELD",
+      "source": "Socrates's reading of Theophilus, credited (SS 17097, 17375-17381, 17838-17840)",
+      "reason": null
+    },
+    {
+      "before": "Monks Theophilus had driven out of Egypt, in a quarrel over whether God has a human body, came to John for help.",
+      "after": null,
+      "mark": null,
+      "source": null,
+      "reason": "Outline: Cut first 16 (to the card). Length."
+    },
+    {
+      "before": "Socrates says that when Theophilus heard, falsely, that John had given them the Eucharist, he resolved to unseat him.",
+      "after": null,
+      "mark": null,
+      "source": null,
+      "reason": "Outline: Cut first 16 (to the card). Length."
+    },
+    {
+      "before": "He and his bishops, meeting at the Oak near Chalcedon, cited John to appear.",
+      "after": "Theophilus and his bishops met at a place called the Oak, outside Chalcedon, and summoned John.",
+      "mark": "HELD",
+      "source": "the Oak and the summons (SS 18275-18283)",
+      "reason": null
+    },
+    {
+      "before": null,
+      "after": "John refused to come before judges he called his enemies, and asked for a council of the whole church.",
+      "mark": "HELD",
+      "source": "the refusal and the general council (SS 18285-18291; PHOT 3939-3943)",
+      "reason": null
+    },
+    {
+      "before": "When John refused them as his enemies, they deposed him, Socrates says, for refusing.",
+      "after": "Socrates says they removed him from office only for refusing to come.",
+      "mark": "HELD",
+      "source": "\"Socrates says ... only for refusing\" (SS 18291-18295)",
+      "reason": null
+    },
+    {
+      "before": null,
+      "after": "A later bishop of Constantinople summed up the meeting's own written record, and they tell it differently: some charges were heard, and then all forty-five bishops voted to remove him.",
+      "mark": "HELD (first trust read)",
+      "source": "PHOT 3946, 4028-4032, \"The first and second counts were then investigated ... forty-five in all ... unanimously\". (first trust read)",
+      "reason": null
+    },
+    {
+      "before": "The people rose, and he was recalled.",
+      "after": "The emperor ordered him into exile, and John gave himself up, but he was soon called back.",
+      "mark": "HELD",
+      "source": "exile, surrender, recall (SS 18302-18307, 18338-18340)",
+      "reason": null
+    },
+    {
+      "before": "Public games were held at a silver statue of the empress Eudoxia beside the cathedral.",
+      "after": "Public games were held at a silver statue of the empress Eudoxia, just across the street from the cathedral.",
+      "mark": "SUMMARY HOLDS",
+      "source": "SS 18427-18438: \"one-half the breadth of the street separated them. At this statue public games were accustomed to be performed\".",
+      "reason": null
+    },
+    {
+      "before": "John mocked those who allowed them, and she took this as aimed at her.",
+      "after": "John mocked those who allowed them, calling the games an insult to the church, and the empress took this as aimed at her and sought another council.",
+      "mark": "HELD",
+      "source": "\"ridiculed those who had enjoined such practices ... another council\" (SS 18438-18446)",
+      "reason": null
+    },
+    {
+      "before": "A second council condemned him for taking back his see without a council's leave, and in 404 the emperor sent him into exile.",
+      "after": "It condemned him for taking back his place as bishop, after his removal, without a council's leave.",
+      "mark": "HELD",
+      "source": "the second condemnation (SS 18469-18472)",
+      "reason": null
+    },
+    {
+      "before": null,
+      "after": "Since two councils had condemned him, the emperor barred him from the church, and John was silenced.",
+      "mark": "HELD",
+      "source": "\"two Synods had condemned him ... silenced\" (SS 18486-18489)",
+      "reason": null
+    },
+    {
+      "before": null,
+      "after": "His followers kept Easter in the public baths, and from then on they met apart from the church.",
+      "mark": "HELD",
+      "source": "Easter in the baths, met apart (SS 18489-18494)",
+      "reason": null
+    },
+    {
+      "before": null,
+      "after": "In 404 he was taken into exile by force.",
+      "mark": "HELD",
+      "source": "led into exile by force, 404 by the sixth consulate of Honorius (SS 18496-18502)",
+      "reason": null
+    },
+    {
+      "before": null,
+      "after": "He was first exiled to Armenia.",
+      "mark": "HELD",
+      "source": "Cucusus, a city of Armenia (SS 44066-44069)",
+      "reason": null
+    },
+    {
+      "before": null,
+      "after": "Palladius, who wrote John's life and took his side, says bishops in Syria, seeing the church of Antioch still looking to John, had him moved to Pityus, a more distant place on the Black Sea.",
+      "mark": "SUMMARY HOLDS (first trust read)",
+      "source": "PALL 6337-6351: \"bishops of Syria ... set to work to get him again transferred elsewhere ... when they saw the Church of Antioch migrating to the Church of Armenia\". PALL 6397-6401: \"produced a rescript ... John was to be transferred…",
+      "reason": null
+    },
+    {
+      "before": "Palladius says soldiers hurried him toward Pityus, hoping he would die.",
+      "after": "In his telling, the soldiers hurried John on, saying they had been told his death would bring them promotion.",
+      "mark": "HELD",
+      "source": "the soldiers' \"instructions\" and promotion (PALL 6402-6406)",
+      "reason": null
+    },
+    {
+      "before": "He died on the way in 407, with his usual words, \"Glory to God for all things.\"",
+      "after": "Near Comana he asked for white clothes, took Communion and prayed the words he always used: \"Glory to God for all things.\"",
+      "mark": "HELD",
+      "source": "white clothes, Communion, \"Glory to God for all things\" (PALL 6457-6460, 6494-6498; Greek PG47 11682-11683, Δόξα τῷ Θεῷ πάντων ἕνεκεν)",
+      "reason": null
+    },
+    {
+      "before": null,
+      "after": "He died there, in September 407.",
+      "mark": "HELD",
+      "source": "September 407 (SS 18609-18612)",
+      "reason": null
+    },
+    {
+      "before": "In 438 Bishop Proclus carried John's body back to Constantinople.",
+      "after": "In 438 the bishop of Constantinople had the emperor's leave to bring John's body home from Comana.",
+      "mark": "HELD",
+      "source": "438, the emperor's leave, the procession, the Apostles, the return (SS 21459-21471)",
+      "reason": null
+    },
+    {
+      "before": "By this, Socrates says, he brought back to the church's communion the followers who had left it over John's deposition.",
+      "after": "He carried it through the city in procession and laid it in the Church of the Apostles, and those who had left the church over John's fall came back.",
+      "mark": "HELD",
+      "source": "438, the emperor's leave, the procession, the Apostles, the return (SS 21459-21471)",
+      "reason": null
+    }
+  ]
+}
