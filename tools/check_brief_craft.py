@@ -16,57 +16,88 @@ import sys
 from pathlib import Path
 
 MAX_WORDS = 30
+SHORT_WORDS = 7
+SHORT_RUN = 3
 
-CHECKS: dict[str, re.Pattern[str]] = {
-    "dash": re.compile(r"—|–|\s-\s"),
+PRONOUN = r"(?!(?:He|She|They|It|We|I|You|His|Her|Their|This|That)\b)"
+QUOTED = re.compile(r"\"[^\"]*\"|“[^”]*”")
+
+# Checks on the narrator's own words (quotations removed first).
+NARRATOR: dict[str, re.Pattern[str]] = {
+    "dash": re.compile(r"(?<!\d)[—–](?!\d)|\s-\s"),
     "not X but Y": re.compile(r"\bnot\b[^.;:!?]{1,60}?,?\s+but\b", re.I),
-    "stock word": re.compile(
-        r"\b(?:legacy|profound(?:ly)?|testament|tapestry|enduring|remarkabl[ey]|"
-        r"pivotal|indelible|timeless|resonat\w*)\b",
-        re.I,
-    ),
+    "stock word": re.compile(r"\b(?:legacy|profound(?:ly)?|testament|tapestry|enduring|remarkabl[ey])\b", re.I),
     "silence sentence": re.compile(
         r"\b(?:do(?:es)? not (?:say|tell|record|name)|did not (?:say|record)|"
         r"(?:we|no one) (?:do(?:es)? not|cannot|can't) know|is not known|unknown|"
         r"(?:are|is|were|was) silent|no (?:record|source) (?:says|tells|survives))\b",
         re.I,
     ),
+}
+# Checks on the whole sentence.
+WHOLE: dict[str, re.Pattern[str]] = {
     "modern-scholar word": re.compile(
-        r"\b(?:modern|scholars?|scholarship|editors?|translators?|historians?)\b", re.I
+        r"\b(?:modern|editors?|translators?|scholarship)\b"
+        r"|\b(?:a|an|one|some|many|most|later|recent|other)\s+(?:\w+\s+)?(?:historians?|scholars?)\b"
+        r"|\b(?:historians|scholars)\b(?!,?\s+[A-Z])",
+        re.I,
     ),
     "names a source": re.compile(
-        r"\b(?:says|said|writes|wrote that|records|recorded that|reports|according to|"
-        r"tells us|claims|credits)\b",
-        re.I,
+        PRONOUN + r"\b[A-Z][a-z]+(?:\s+of\s+[A-Z][a-z]+)?,?\s+(?:says|said|writes|records|reports|claims|credits)\b"
+        r"|\b(?:says|writes|records|reports)\s+" + PRONOUN + r"[A-Z][a-z]+"
+        r"|\baccording to\b"
     ),
     "possible bare statement": re.compile(
         r"\b(?:wrote (?:a|his|her|their|several|many)|preached|was arrested|"
         r"(?:was|were) (?:accused|condemned|exiled|banished|deposed|excommunicated)|"
-        r"accused (?:him|her|them)|heres(?:y|ies)|heretics?|"
-        r"(?:his|her|their) (?:ideas|teachings?|views|reforms|works)|controversy|dispute)\b",
+        r"heres(?:y|ies)|heretics?|(?:his|her|their) (?:ideas|teachings?|views|reforms)|controversy|dispute)\b",
         re.I,
     ),
 }
+EXPLAINED = re.compile(r"\b(?:because|about|over|against|meaning|that is|for teaching|for saying|charging)\b|:", re.I)
 
 SENTENCE = re.compile(r"(?<=[.!?])[\"”’']?\s+(?=[\"“‘']?[A-Z0-9])")
 
 
-def sentences(text: str) -> list[str]:
-    return [s.strip() for s in SENTENCE.split(" ".join(text.split())) if s.strip()]
+def sentences(text: str) -> list[tuple[str, str]]:
+    """Each sentence, with the narrator's own words (quoted spans blanked, even across sentences)."""
+    flat = " ".join(text.split())
+    own_flat = QUOTED.sub(lambda m: " " * len(m.group(0)), flat)
+    out, start = [], 0
+    for m in list(SENTENCE.finditer(flat)) + [None]:
+        end = m.start() if m else len(flat)
+        s, own = flat[start:end].strip(), own_flat[start:end].strip()
+        if s:
+            out.append((s, own))
+        if m:
+            start = m.end()
+    return out
+
+
+LABEL = re.compile(r"\b(?:heres(?:y|ies)|heretics?)\b", re.I)
 
 
 def check_text(text: str) -> list[dict[str, object]]:
     found: list[dict[str, object]] = []
-    sents = sentences(text)
-    for i, s in enumerate(sents, 1):
-        for name, pat in CHECKS.items():
-            if pat.search(s):
-                found.append({"sentence": i, "check": name, "text": s})
+    run = 0
+    label_seen = False
+    for i, (s, own) in enumerate(sentences(text), 1):
+        hits = [n for n, pat in NARRATOR.items() if pat.search(own)]
+        hits += [n for n, pat in WHOLE.items() if pat.search(s)]
+        if "possible bare statement" in hits:
+            only_label = LABEL.search(s) and not WHOLE["possible bare statement"].search(LABEL.sub("", s))
+            if EXPLAINED.search(s) or (only_label and label_seen):
+                hits.remove("possible bare statement")
+        label_seen = label_seen or bool(LABEL.search(s))
+        if own.rstrip().endswith("?"):
+            hits.append("question")
         words = len(s.split())
         if words > MAX_WORDS:
-            found.append({"sentence": i, "check": f"over {MAX_WORDS} words ({words})", "text": s})
-        if s.endswith("?") and i < len(sents):
-            found.append({"sentence": i, "check": "question", "text": s})
+            hits.append(f"over {MAX_WORDS} words ({words})")
+        run = run + 1 if words <= SHORT_WORDS else 0
+        if run == SHORT_RUN:
+            hits.append(f"run of {SHORT_RUN} short sentences")
+        found += [{"sentence": i, "check": h, "text": s} for h in hits]
     return found
 
 
