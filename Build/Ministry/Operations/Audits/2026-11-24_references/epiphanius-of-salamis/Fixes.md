@@ -217,3 +217,8 @@ Old:
 
 New:
 > - Augustine took fifty-seven heresies from the Panarion and called him a man the Greeks counted among the great (AUG 2411-2426).
+
+## Recheck replacements applied
+
+1. Outline.md line 47: image-quarrel bullet now cites Hadrian's letter (MEN 8494-8495).
+2. Outline.md line 70: image-quarrel sentence now cites MEN 8494-8495 first.

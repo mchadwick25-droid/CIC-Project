@@ -252,3 +252,9 @@ New:
 
       - Eustathius of Sebaste, his first guide and later opponent, and Sozomen's report that some gave him the rules (D3): too much for the time; card. Keep "defending himself in a letter", with what he answered (Opening 1), without naming Eustathius.
 
+
+## Recheck replacements applied
+
+- Recheck 1, Source_Sheet.md line 119 (row I1): Source, Kind and Quote columns replaced as given.
+- Recheck 1, Outline.md line 66: Rufinus credit line replaced as given.
+- Recheck 2, Outline.md line 38: plain-sense sentence added as given.
