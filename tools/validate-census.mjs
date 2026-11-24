@@ -320,7 +320,7 @@ function checkCard(m) {
     listing("about", ["title", "author", "language", "file"], ["date"]);
   }
 }
-// --- major councils (Decision-Log 2026-11-14, "Major councils, eras 1 and 2"; Brief-Kit/Kit.md, Part 2) ---
+// --- major councils (Decision-Log 2026-11-14, "Major councils, eras 1 and 2"; Brief-Kit/kinds/council.md) ---
 const COUNCIL_RIVERS = { "The First Churches": 0, "Syriac East": 1, "Caucasus": 2, "Greek East": 3, "Africa": 4, "Latin West": 5, "Non-Nicene": 80 };
 const WITNESS_KINDS = new Set(["acts", "participant", "later narrative", "modern reconstruction"]);
 const COUNCIL_PARTS = new Set(["Gathered", "Condemned", "Refused", "Affected"]);
@@ -370,6 +370,24 @@ function checkCouncil(m) {
     Object.keys(c.sources).filter(k => !COUNCIL_SOURCE_GROUPS.includes(k)).forEach(k => errs.push(`${at(`sources.${k}`)} is not allowed (allowed: ${COUNCIL_SOURCE_GROUPS.join(", ")})`));
     COUNCIL_SOURCE_GROUPS.forEach(g => (c.sources[g] ?? []).forEach((s, i) => checkSourceItem(`${m.id}: council.sources.${g}[${i}]`, s, ["title", "author", "language", "file"])));
   }
+}
+// Modern works a visitor may read further in: on an entry, or on one of its documented stories. Each names a
+// title and an author; year, publisher, url and note are optional strings, the note one plain sentence.
+const MODERN_WORK_KEYS = ["title", "author", "year", "publisher", "url", "note"];
+function checkModernWorks(m) {
+  const one = (list, path) => {
+    if (list === undefined) return;
+    if (!Array.isArray(list) || !list.length) { errs.push(`${path} must be a non-empty list`); return; }
+    list.forEach((w, i) => {
+      const at = `${path}[${i}]`;
+      if (!isObj(w)) { errs.push(`${at} must be an object`); return; }
+      Object.keys(w).filter(k => !MODERN_WORK_KEYS.includes(k)).forEach(k => errs.push(`${at}.${k} is not allowed (allowed: ${MODERN_WORK_KEYS.join(", ")})`));
+      ["title", "author"].forEach(k => { if (!plain(w[k])) errs.push(`${at}.${k} must be a non-empty string`); });
+      ["year", "publisher", "url", "note"].forEach(k => { if (w[k] !== undefined && !plain(w[k])) errs.push(`${at}.${k} must be a non-empty string`); });
+    });
+  };
+  one(m.modernWorks, `${m.id}: modernWorks`);
+  (m.documentedStories ?? []).forEach((s, i) => one(s?.modernWorks, `${m.id}: documentedStories[${i}].modernWorks`));
 }
 // One source line of a card or council: title, language and an existing file under cic/texts/, with an author where one applies.
 function checkSourceItem(path, s, keys) {
@@ -524,6 +542,7 @@ function finishQuotes() {
   }
   if (isPerson(m) && m.peopleNote !== undefined) errs.push(`${m.id}: a person entry has no peopleNote`);
   if (m.card !== undefined) checkCard(m);
+  checkModernWorks(m);
   if (isCouncil(m) || m.council !== undefined) checkCouncil(m);
   if (isPerson(m) || isCouncil(m)) checkQuotes(m);
   if (!REVIEW.has(m.reviewStatus)) errs.push(`${m.id}: reviewStatus must be "AI-checked", "partner-contributed" or "scholar-reviewed"`);
