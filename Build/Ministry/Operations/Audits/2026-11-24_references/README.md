@@ -37,5 +37,6 @@ Mark's words for the batch (Decision-Log, "How a brief's success is measured", 2
 - **Chrysostom's essence and length moved.** The researcher kept batch 10's essence and added a second sentence (what it changed: his sermons read for centuries; his followers back only when his body came home), and set the length at about 3:25 (515 words), with a Cut first list back to 450. Both are for Mark's ruling on the page at the stop.
 
 - **Chrysostom's length, provisional.** The outline check found the beats need about 630 words, not 450 or 515 (BLOCKING). The fix pass set about 630; the recheck found the Cut first list reaches only about 650 and a floor of about 580 (530 would cut the record's force or a required explanation), and the outline now says so. The story is written and reviewed at about 650, provisional, for Mark's ruling; if he wants it shorter, the Cut first list takes it to about 580.
+- **Epiphanius after the one revision runs 724 words (about 4:50)**, about 50 over the approved 675, every added word answering a review finding (the reasons for the Long Brothers' expulsion and the forced ordination, what Augustine did). The Cut first list is spent. For Mark's ruling on length; no further round was run for it.
 
 ## Rulings
