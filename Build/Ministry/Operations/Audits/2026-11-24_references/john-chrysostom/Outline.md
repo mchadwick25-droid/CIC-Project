@@ -154,7 +154,7 @@ Items 8-14 together free about 100 words: **here the story stands at about 630**
 - "Theophilus called the Oak himself." Say "he and his bishops"; Socrates says the emperor authorized it (card).
 - Gainas as the cause of the turn. The turn is his rebukes of many in office; Gainas is one.
 - "The bishop's lavish spending" or "extravagance" in the narrator's voice. That is Palladius's judgment; say "the bishop's own spending".
-- "He told the rich to stop giving gold cups to the church", or "instead of decking the altar". He says he does not forbid such gifts, but asks for alms with them and before them (N110 29948-29951). Say he told them to honor Christ in the poor first.
+- "He told the rich to stop giving gold cups to the church", or "instead of decking the altar". He says he does not forbid such gifts, but asks for alms with them and before them (N110 29952-29954). Say he told them to honor Christ in the poor first.
 - "His hearers called him golden-mouthed." No held writer of his lifetime gives him the name; later titles do, and Sozomen says some gave it to another bishop.
 - "Antioch, where he preached the Homilies on Matthew to Constantinople", or any sermon of Constantinople placed at Antioch. Homily 50 is Antioch's (N110 5301-5303); Homily I on Eutropius is Constantinople's.
 - "He died on the way to his exile at Cucusus." He died on the way from Cucusus toward Pityus, a farther place.
