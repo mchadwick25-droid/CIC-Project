@@ -258,3 +258,49 @@ New:
 - Recheck 1, Source_Sheet.md line 119 (row I1): Source, Kind and Quote columns replaced as given.
 - Recheck 1, Outline.md line 66: Rufinus credit line replaced as given.
 - Recheck 2, Outline.md line 38: plain-sense sentence added as given.
+
+## Length fix
+
+Second fix pass, on length only, against `Length_Finding.md` (BLOCKING, Part 2, Length). Word counts are by the scorer (`engine.m1.profile_readability`) on `basil-of-caesarea.brief.txt` with each cut applied in turn: 723, then 706 (item 15), 701 (item 16), 677 (item 17). Nothing else in the outline changed.
+
+Not cut, and why: the official's threat and Basil's answer, the rival bishop who blocked his road, and the quarrel with his own bishop (the record's force, and the heart's Also told, The cost); the glosses and the explanations the Do not say list requires; Beat 1's three accounts of his turn (the scene that carries the craft); the Rufinus and Benedict lines (the Connection); every part of the heart's Also told.
+
+Ranked What came of them items cut: 1, its third sentence (the council of 787, item 17); 2, its second sentence (his brother and Eunomius, item 14; never in the draft); 3, whole (the house's fame in Sozomen, item 13; never in the draft).
+
+### Outline line 13 (the Cut first header)
+
+Old:
+
+    - **Cut first, in order:** Drop from the top, in order, only while the draft runs past 675 words. Together about 61 words (at least 6 words, the count's excess over 640). Each item is kept under For the card, not the story.
+
+New:
+
+    - **Cut first, in order:** Drop from the top, in order, only while the draft runs past 675 words. Items 1-6 together about 61 words; none is in the draft of 2026-11-24 (723 words by the scorer). Items 7-14 are outline content that draft does not carry (0 words each). Items 15-17 together 46 words by the scorer, which bring that draft to 677, the approved about 675. Each item is kept under For the card, not the story.
+
+### New Cut first items, Outline lines 20-30 (after item 6; nothing before them)
+
+      7. Beat 1: that he studied at Athens with Gregory of Nazianzus (E1). Card. Not in the draft: 0 words.
+      8. Beat 2: his friend's word "legislation" for his rules (R3). Card. Not in the draft: 0 words.
+      9. Beat 3: that the monks wanted to break away with him, and he went back to Pontus rather than split the church (P2); keep the quarrel and his return to serve the bishop. Card. Not in the draft: 0 words.
+      10. Beat 3: the famine, and how he fed and tended the hungry (P4); item 3 is then spent with it. Card. Not in the draft: 0 words.
+      11. Beat 4: the official's word that no one had spoken to him so boldly, and Basil's "perhaps he had never met a bishop" (B2); keep the threat and Basil's answer, in Gregory's telling. Card. Not in the draft: 0 words.
+      12. Beat 4: Sozomen's matching account of the threat and refusal (B3); Sozomen is then credited nowhere in the story. Card. Not in the draft: 0 words.
+      13. What came of them 3, cut whole: the house's name, the Basileias, and its fame two generations later, in Sozomen (I7). Card. Not in the draft: 0 words.
+      14. What came of them 2, its second sentence: his brother carrying on his answer to Eunomius (I6, sibling clause); keep the council of 381. Card. Not in the draft: 0 words.
+      15. Beat 4: Gregory of Nazianzus made bishop at Sasima, and his hurt that time had not healed (B5); keep that Basil answered the rival bishop by making more bishops, Gregory says. The sibling tells Sasima. Card. Saves 17 words.
+      16. Beat 1: that he went looking for monks (E4); keep that he read in the gospel of selling goods and sharing with the poor. Card. Saves 5 words.
+      17. What came of them 1, its third sentence: the council of 787 telling the double monasteries still standing to keep his rule (I3); keep Rufinus's Latin and Benedict. Card. Saves 24 words.
+
+### New For the card lines, Outline lines 144-154 (after the last card line; nothing before them)
+
+      - Beat 1: that he studied at Athens with Gregory of Nazianzus (E1).
+      - Beat 2: his friend's word "legislation" for his rules (R3).
+      - Beat 3: that the monks wanted to break away with him, and he went back to Pontus rather than split the church (P2).
+      - Beat 3: the famine, and how he fed and tended the hungry (P4).
+      - Beat 4: the official's word that no one had spoken to him so boldly, and Basil's "perhaps he had never met a bishop" (B2).
+      - Beat 4: Sozomen's matching account of the threat and refusal (B3).
+      - What came of them 3: the house's name, the Basileias, and its fame two generations later, in Sozomen (I7).
+      - What came of them 2: his brother carrying on his answer to Eunomius (I6).
+      - Beat 4: Gregory of Nazianzus made bishop at Sasima, and his hurt that time had not healed (B5).
+      - Beat 1: that he went looking for monks (E4).
+      - What came of them 1: the council of 787 telling the double monasteries still standing to keep his rule (I3).
