@@ -151,3 +151,22 @@ Before: `basil-of-caesarea.brief.v0.txt` (673 words by the scorer). After: `basi
 The revised brief is 723 words by the scorer, about 4:50 at 150 words a minute, past the outline's 675. The fixes above add about 50 words, mostly from content the Do not say list requires (the letter's charge, the bishops' envy, the rival bishop's claim, the charge before the governor, the book). None of the cut-first items is in the brief, so that list has nothing left to drop; the writer stopped there.
 
 Outline beat content the live brief never carried, left out of this revision under the batch ruling (only failing sentences change) and for length: Athens with Gregory of Nazianzus (E1); Gregory's "legislation" (R3); the monks' wish to break away and his return to Pontus (P2); the famine (P4); the official's "never met a bishop" exchange and Sozomen's matching account (B2, B3); his house's name and fame in Sozomen (I7); his brother carrying on the answer to Eunomius (I6).
+
+## Length cuts (Cut first 15-17)
+
+Cut first item 15 (Outline, Beat 4):
+- Before: Basil answered by making more bishops, Gregory says, and Gregory was one of them, at Sasima: a hurt, he said, that time had not healed.
+- After: Basil answered by making more bishops, Gregory says.
+- Removed span: ", and Gregory was one of them, at Sasima: a hurt, he said, that time had not healed" (17 words).
+
+Cut first item 16 (Outline, Beat 1):
+- Before: In his own telling, he read in the gospel of selling goods and sharing with the poor, and went looking for monks.
+- After: In his own telling, he read in the gospel of selling goods and sharing with the poor.
+- Removed span: ", and went looking for monks" (5 words).
+
+Cut first item 17 (Outline, What came of them 1):
+- Before: ...pointing his monks to Basil's as an example of good living. In 787 a council told the houses still standing where men and women lived as monks, side by side but apart, to keep his rule.
+- After: ...pointing his monks to Basil's as an example of good living.
+- Removed span: the whole last sentence, "In 787 a council told the houses still standing where men and women lived as monks, side by side but apart, to keep his rule." (24 words).
+
+Result: 723 to 677 words by the scorer.

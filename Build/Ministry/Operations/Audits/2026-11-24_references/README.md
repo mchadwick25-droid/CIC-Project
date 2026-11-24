@@ -36,4 +36,6 @@ Mark's words for the batch (Decision-Log, "How a brief's success is measured", 2
 - **Basil and Epiphanius run long after the writer's fixes** (Basil 723 words, Epiphanius 762, against about 675). Both outlines' Cut first lists were spent; each went back to the researcher for a length fix pass and a recheck of it before the writer applies the cuts.
 - **Chrysostom's essence and length moved.** The researcher kept batch 10's essence and added a second sentence (what it changed: his sermons read for centuries; his followers back only when his body came home), and set the length at about 3:25 (515 words), with a Cut first list back to 450. Both are for Mark's ruling on the page at the stop.
 
+- **Chrysostom's length, provisional.** The outline check found the beats need about 630 words, not 450 or 515 (BLOCKING). The fix pass sets about 630, marked for Mark's ruling, with a Cut first list that also reaches a fallback of about 530. The story is written and reviewed at the provisional length; if Mark keeps a shorter one, the Cut first list applies.
+
 ## Rulings
