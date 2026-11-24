@@ -124,6 +124,7 @@ Line references are to `Source_Sheet.md` rows (S, E, R, P, B, H, Sp, D, I), each
   - "A man alone has no one to serve" as a line after Quote 2 → the plain sense goes before the quote, in its setup (Beat 2).
   - "Accused before the governor" with no charge → Basil asks what harm the state suffers from him and his building (H2; Letter 94, `npnf208...xml` 30010-30016); give no charge beyond that.
   - 'Held back the bare words' without 'in writing' and without Gregory's 'he often preached it' → keep both (Sp7, Or. 43.68-69).
+  - "Later" (or any time word) setting the rival bishop after the prefect → no order between them; Gregory gives none (Or. 43.48-50, 43.58), and the sequence is the editor's chronology.
 - **Leave out:**
   - Valens's son's illness and death, and Basil's prayer (B3 context; Sozomen and Theodoret): a wonder-tinged side story.
   - Theodoret's report that Valens gave lands for the poor (H5): one witness, 70 years on; card.

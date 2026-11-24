@@ -170,3 +170,87 @@ Cut first item 17 (Outline, What came of them 1):
 - Removed span: the whole last sentence, "In 787 a council told the houses still standing where men and women lived as monks, side by side but apart, to keep his rule." (24 words).
 
 Result: 723 to 677 words by the scorer.
+
+## The one revision
+
+Starting copy `basil-of-caesarea.brief.v1.txt` (677 words by the scorer); revised live brief 723 words by the scorer.
+
+1. **Changed.**
+   - Before: Years later, defending himself in a letter against men who, he wrote, were blackening his name, Basil of Caesarea looked back.
+   - After: Years later, defending himself in a letter against men who, he wrote, were spreading lies about him, Basil of Caesarea looked back.
+   - Outline: Openings 1 (Letter 223, `npnf208...xml` 39108-39112, "my slanderers").
+   - Finding: Review, MINOR, Listen_FirstTime.md ("blackening his name" is an idiom that slowed the listener).
+
+2. **Changed.**
+   - Before: That waking set the course of his life in Caesarea, an inland city in Asia Minor.
+   - After: That waking set the course of his life in Caesarea, an inland city in Asia Minor, in the fourth century.
+   - Outline: Setting, Time ("the fourth century").
+   - Finding: Review, MINOR, Opening: when is missing (both listening reads).
+
+3. **Changed (two sentences joined).**
+   - Before: He wrote rules that taught monks to live together and serve one another. He built a great lodging for the poor and the sick a little way outside the city.
+   - After: He wrote rules that taught monks to live together and serve one another, and he built a great lodging for the poor and the sick a little way outside the city.
+   - Outline: The essence.
+   - Finding: Review, MINOR, Listen_Skeptic.md (paragraph 2 run of "He..." sentences; the review's wording).
+
+4. **Changed (paragraph 3 rewritten).**
+   - Before: He taught rhetoric, the historian Rufinus says. In his own telling, he read in the gospel of selling goods and sharing with the poor. His brother, Gregory of Nyssa, gives the credit to their sister Macrina. Rufinus says his friend Gregory of Nazianzus took him from the teacher's chair.
+   - After: The old writers differ on what turned him. In his own telling, he read in the gospel of selling goods and sharing with the poor. His brother, Gregory of Nyssa, says their sister Macrina turned him, while the historian Rufinus says his friend Gregory of Nazianzus drew him away from teaching.
+   - Outline: Story beats 1 (E4, E5, E6; the turn Documented, who caused it Contested); Who tells it (the doubt is a scene).
+   - Finding: Review, BLOCKING, Listen_FirstTime.md B1 and Listen_Skeptic.md 3a; MINOR, Listen_Skeptic.md 3b ("drew him away from teaching"), the credited "He taught rhetoric" (cut; paragraph 2 holds it), and the run of four attributions (joined with "while").
+
+5. **Changed.**
+   - Before: His rules were answers to his brothers' questions, and one asks whether to live alone or with others.
+   - After: His rules were answers to his brother monks' questions, and one asks whether to live alone or with others.
+   - Outline: Also told, the rules (R5); Words to explain, the Rules.
+   - Finding: Review, MINOR, Listen_FirstTime.md ("his brothers" heard as his real brothers).
+
+6. **Changed.**
+   - Before: The bishop of Caesarea made him a priest, though they quarreled.
+   - After: The bishop of Caesarea made him a priest, but they quarreled, and Basil went back to Pontus.
+   - Outline: Story beats 3 (P1, P2: they quarrelled, Gregory will not say why; Basil went back to Pontus).
+   - Finding: Review, BLOCKING, Listen_FirstTime.md B2 and Listen_Skeptic.md 4a (the quarrel told as the source gives it, with no reason; "came back" now has a place).
+
+7. **Changed.**
+   - Before: Later a rival bishop claimed part of his churches and once blocked his road with armed men.
+   - After: When the province was divided, a rival bishop claimed part of his churches and once blocked his road with armed men.
+   - Outline: Story beats 4 (B4, Or. 43.58); Do not say ("Later" setting the rival bishop after the prefect).
+   - Finding: Review, BLOCKING, Trust.md 22 (the review's alternative wording, the outline's own cause).
+
+8. **Changed.**
+   - Before: Basil answered by making more bishops, Gregory says.
+   - After: Basil answered by making more bishops for the province, Gregory says.
+   - Outline: Story beats 4 (B5, "for the province"); Do not say (the new bishops were his answer, Gregory says).
+   - Finding: Review, BLOCKING, Listen_Skeptic.md 4c; MINOR, Listen_FirstTime.md (how the new bishops answer the rival).
+
+9. **Changed.**
+   - Before: His accusers had the governor's ear, and Basil wrote to ask what harm it did the state to build a lodging for strangers, travelers and the sick, with doctors and transport.
+   - After: His accusers had the governor's ear, and Basil wrote to ask what harm the state suffered from him, or from building a lodging for strangers, travelers and the sick, with doctors and transport.
+   - Outline: Story beats 5 (H1, H2; Letter 94, `npnf208...xml` 30010-30016); Do not say ("Accused before the governor" with no charge).
+   - Finding: Review, BLOCKING, Listen_Skeptic.md 4b; MINOR, Listen_FirstTime.md (the charge in its own content).
+
+10. **Changed (prayer forms).**
+    - Before: Basil closed prayers with praise to the Father with the Son, together with the Holy Spirit, and at other times through the Son, in the Holy Spirit. Some attacked these as new, contradictory words. The Spirit, they held, could not be ranked with the Father and the Son.
+    - After: Basil closed prayers with praise to the Father in two forms: with the Son, together with the Holy Spirit, and through the Son, in the Holy Spirit. The first set the Spirit beside the Father and the Son. Some attacked these as new, contradictory words, holding that the Spirit could not be ranked with the Father and the Son.
+    - Outline: Story beats 6 (Sp1, Sp4); Words to explain (the Spirit's place beside the Father and the Son).
+    - Finding: Review, BLOCKING, Listen_FirstTime.md B3; MINOR, Listen_Skeptic.md 3c.
+
+11. **Changed.**
+    - Before: He answered in a book, On the Holy Spirit, from what the church already did in baptism.
+    - After: He answered in a book, On the Holy Spirit, that the church already baptized in the name of the Father, the Son and the Holy Spirit together.
+    - Outline: Story beats 6 (Sp5; plain sense: the church baptizes in the name of Father, Son and Spirit, so it must praise them alike).
+    - Finding: Review, BLOCKING, Listen_FirstTime.md B3; MINOR, Listen_Skeptic.md 3d.
+
+12. **Changed.**
+    - Before: Gregory says that in writing Basil held back the bare words that the Spirit is God, from caution, though he often preached it.
+    - After: Gregory says that Basil, out of caution, held back in writing the bare words that the Spirit is God, though he often preached it.
+    - Outline: Also told, the Spirit (Sp7); Do not say (keep "in writing" and "he often preached it").
+    - Finding: Review, MINOR, Listen_Skeptic.md 3e (order untangled; the review's "never wrote outright" not used, see Revision.md).
+
+13. **Moved.**
+    - Before: the last paragraph, "The whole city poured around Basil as he died.", after Benedict.
+    - After: the same sentence opens the last paragraph, before "In 381, after his death, a council at Constantinople..."
+    - Outline: Ending 1 (D5); What came of them 1 and 2.
+    - Finding: Review, BLOCKING, Listen_Skeptic.md, the jump-back close; MINOR, Listen_FirstTime.md, closing note.
+
+Do not say: Trust.md's line on "Later" added to `Outline.md` word for word.
