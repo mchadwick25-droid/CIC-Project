@@ -1,0 +1,74 @@
+[
+ {
+  "id": "P01",
+  "piece": "Post-Apostolic house church entry summary (Mark: \"horrible\")",
+  "mark": "bad",
+  "words": 80
+ },
+ {
+  "id": "P02",
+  "piece": "Lutheran Wittenberg narration, a model Mark named (2026-11-22)",
+  "mark": "good",
+  "words": 665
+ },
+ {
+  "id": "P03",
+  "piece": "Tacitus, fix batch 1 (reverted: \"full of ai tells\")",
+  "mark": "bad",
+  "words": 423
+ },
+ {
+  "id": "P04",
+  "piece": "Basil of Caesarea, frozen reference",
+  "mark": "good",
+  "words": 680
+ },
+ {
+  "id": "P05",
+  "piece": "Rufinus of Aquileia, live (five \"his editors note\")",
+  "mark": "mixed",
+  "words": 677
+ },
+ {
+  "id": "P06",
+  "piece": "Kongo Christianity, Sonnet-drafted tradition brief, passed review",
+  "mark": "mixed",
+  "words": 454
+ },
+ {
+  "id": "P07",
+  "piece": "Ulfila, live (\"A modern historian takes...\")",
+  "mark": "mixed",
+  "words": 679
+ },
+ {
+  "id": "P08",
+  "piece": "Epiphanius of Salamis, frozen reference",
+  "mark": "good",
+  "words": 716
+ },
+ {
+  "id": "P09",
+  "piece": "Catholic Church of the ancien regime, fix batch 1 (reverted)",
+  "mark": "bad",
+  "words": 329
+ },
+ {
+  "id": "P10",
+  "piece": "Priscillian, the draft Mark heard (\"accused but not of what\")",
+  "mark": "bad",
+  "words": 676
+ },
+ {
+  "id": "P11",
+  "piece": "Jerome, fix batch 1 (reverted)",
+  "mark": "bad",
+  "words": 678
+ },
+ {
+  "id": "P12",
+  "piece": "Tacitus, the version Mark approved by ear (2026-11-19)",
+  "mark": "good",
+  "words": 530
+ }
+]
