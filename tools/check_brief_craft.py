@@ -15,7 +15,8 @@ import re
 import sys
 from pathlib import Path
 
-MAX_WORDS = 30
+TARGET_WORDS = 30
+LIST_PAST = 36  # list only sentences well past the target; a word or two over is never a finding
 SHORT_WORDS = 7
 SHORT_RUN = 3
 
@@ -92,8 +93,8 @@ def check_text(text: str) -> list[dict[str, object]]:
         if own.rstrip().endswith("?"):
             hits.append("question")
         words = len(s.split())
-        if words > MAX_WORDS:
-            hits.append(f"over {MAX_WORDS} words ({words})")
+        if words > LIST_PAST:
+            hits.append(f"well past {TARGET_WORDS} words ({words})")
         run = run + 1 if words <= SHORT_WORDS else 0
         if run == SHORT_RUN:
             hits.append(f"run of {SHORT_RUN} short sentences")

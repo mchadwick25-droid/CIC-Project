@@ -37,9 +37,9 @@ def test_clean_narration_lists_nothing():
     assert check_text(text) == []
 
 
-def test_long_sentence_is_listed():
-    text = " ".join(["word"] * 31) + "."
-    assert any(i["check"].startswith("over 30 words") for i in check_text(text))
+def test_only_sentences_well_past_the_target_are_listed():
+    assert check_text(" ".join(["word"] * 32) + ".") == []
+    assert any(i["check"].startswith("well past 30 words") for i in check_text(" ".join(["word"] * 37) + "."))
 
 
 def test_ancient_historian_subject_words_and_quotes_are_not_listed():
