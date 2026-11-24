@@ -118,3 +118,47 @@ Length: the draft with Cut first items 1-14 ran to 770 words; items 15, 16 and 1
 ## Length, for Mark
 
 All of Cut first 1-17 is applied. The text stands at 690 words, about 4:36, above both the outline's provisional 650 and the kind kit's 675. The outline's own counts (650 after item 14, 580 after item 17) ran about 100 words low against this draft. Nothing further is cut, since the list is used up; the writer stops here and says so. The rest needs Mark's ruling on length, or a researcher's further Cut first item.
+
+## The one revision
+
+Backup of the brief before this revision: `john-chrysostom.brief.v1.txt`. Findings are `Review.md`'s.
+
+30. Before: "The emperor's chief eunuch, Eutropius, had a law passed..."
+    After: "The emperor's chief chamberlain, Eutropius, had a law passed..."
+    Outline: Opening 1 ("the emperor's chief chamberlain"). Finding: M7 (unexplained "chief eunuch"; the outline's word used).
+31. Before: "Soon after, in 399, he fell from favor and fled into the cathedral of Constantinople himself."
+    After: "Soon after, in 399, he fell from favor and himself fled into the cathedral of Constantinople, the emperor's city."
+    Outline: Setting, Places ("Bishop of Constantinople, the emperor's city", SS 17097-17098). Finding: M1 (which empire).
+32. Before: "Some thought he had added insult to cruelty."
+    After: "Some thought he was attacking a man already brought low."
+    Outline: Opening 1 (SS 17357-17360; SS 43132-43137: "denied compassion to the unfortunate"; "rebuked instead of compassionating, one who was suffering under the calamities of adverse fortunes"); Do not say (the phrase not spoken as a quote). Finding: M5.
+33. Before: "His sermons were read for centuries, and the followers who left over his fall came back only when his body came home."
+    After: "His sermons were read for centuries, and the followers who left the church over his fall came back only when his body came home."
+    Outline: Cut first 14 (the essence's added sentence). Finding: M2 (the review's wording).
+34. Before: "They honored the bread of Communion on the altar with gold cups and silk, and in a sermon on Matthew he told them to honor Christ in the poor first: ..."
+    After: "They honored the bread of Communion, which Christians call Christ's body, on the altar with gold cups and silk. In a sermon on Matthew he told them to honor Christ in the poor first: ..."
+    Outline: Words to explain (Christ's body, Q2); Q2's note. Finding: M3 (the review's wording); the sentence split at "silk" because the gloss took it past 40 words.
+35. Moved, word for word: "He published some of his sermons, and shorthand writers took down others as he spoke. Both kinds were kept and read." From after the death in 407 to the end of the Antioch paragraph, after the Q2 quote.
+    Outline: What came of them 1 (SS 17303-17308); the kit's "tell it once, in order". Finding: B5 (Listen_FirstTime's exact change).
+36. Before: "As bishop he cut the bishop's own spending and gave the money to the hospital."
+    After: "As bishop he cut the bishop's own spending and gave the money to a hospital."
+    Outline: Beat 2 (no hospital named). Finding: M7 ("the hospital": which one).
+37. Before: "He corrected his clergy sharply and put some of them out of the church, and many came to hate him."
+    After: "He corrected his clergy sharply over how they lived and put some of them out of the church, and many came to hate him."
+    Outline: Beat 2 (SS 17261-17276: "designing to correct the morals of the clergy under him", as Trust.md cites at SS 17262-17267). Finding: B2.
+38. Before: "He rebuked men in office too, and those rebukes made him powerful enemies."
+    After: "When a Gothic general asked for a church inside the city for the Arians, who taught that the Son of God had a beginning, John spoke against it before the emperor. He rebuked many others in office too, and those rebukes made him powerful enemies."
+    Outline: Beat 3 (SS 42884-42905; SS 17368-17374); Cut first 6 and 11 kept forms ("a Gothic general"; "spoke against it before the emperor"); Words to explain (the Arians); Do not say (Gainas not the cause of the turn: "many others" keeps him one of many). Finding: B3. This undoes Cut first 15 for this one beat, since the review requires the rebukes' content and the outline holds no other.
+39. Before: "Socrates says Theophilus also held a grudge..."
+    After: "Socrates, a church historian of the city writing a generation later, says Theophilus also held a grudge..."
+    Outline: Who tells it (Socrates). Finding: B1.
+40. Before: "The accounts differ. Socrates says they removed him from office only for refusing to come. The meeting's own minutes, as a later patriarch summed them up, say some charges were heard, and then all forty-five bishops voted to remove him."
+    After: "Socrates says they removed him from office only for refusing to come. A later bishop of Constantinople summed up the meeting's own minutes, and they tell it differently: some charges were heard, and then all forty-five bishops voted to remove him."
+    Outline: Beat 5 (PHOT 3946, 4028-4032); Who tells it (the minutes through Photius, a patriarch); Links (Photius of Constantinople). Findings: M4 (Listen_FirstTime's wording for the minutes, "bishop of Constantinople" for "patriarch") and M6 (the bare signpost cut; the difference said inside the telling).
+41. Before: "Palladius says bishops in Syria..."
+    After: "Palladius, who wrote John's life and took his side, says bishops in Syria..."
+    Outline: Do not say ("Say he wrote John's life and took his side"). Finding: B1.
+
+Not changed: "but he was soon called back" (B4). The trust read found no reason line, so by the review's own lead-in the finding drops; the outline's Leave out sends the causes of the recall to the card, since Socrates and Theodoret differ. "ordain" and "white clothes" stand (M7, "may stand"). M8: no change required; its items 3 and 4 are met by B3 and B5.
+
+Length: 756 words by the scorer, about 5:00, up from 690. The rise is the review's required content, most of it the Gothic general's request (B3). The text is now above the outline's provisional 650 and the kind kit's 675; this needs Mark's ruling on length.

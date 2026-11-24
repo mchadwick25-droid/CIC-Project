@@ -42,5 +42,6 @@ Mark's words for the batch (Decision-Log, "How a brief's success is measured", 2
 - **Basil after the one revision runs 723 words (about 4:50)**, about 50 over 675; the added words answer the review's blocking findings (what the quarrel, the charge and the credit to Macrina were). Cut first is spent. For Mark's ruling on length.
 - **Chrysostom's overlap check** lists "SPELLING Comana (the tree has Colman)". Comana is the place where he died (Palladius; Socrates), not a person's name; Colman is an unrelated name on the tree. No change.
 - **Fresh-read changes.** A fresh read's exact changes, its one BLOCKING clause included where it gives exact wording, are applied word for word (Kit, Part 3, step 5); a finding with no exact wording is noted, not applied. No further round is run on them.
+- **Chrysostom after the one revision runs 756 words (about 5:00).** The listeners' bare-statement finding on his rebukes had no other outline content, so the reviser put back the Gothic general and the Arians (Cut first 15). Over the kit's "about 675"; for Mark's ruling.
 
 ## Rulings
