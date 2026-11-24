@@ -5795,3 +5795,36 @@ Mark: "option 1", on the page https://claude.ai/artifact/UStZATEaBtT445YAKgNEi6 
 - A ruling that changes the kit now merges to main the day it is made.
 
 **Not done.** See Open-Gaps 406 to 412.
+
+## 2026-11-24 — How a brief's success is measured: a trust read with the sources, two listeners, counts (Mark)
+
+**Why.** Mark asked how success is measured ("fidility to quotes may be important, but its not whole picture"), and asked to test the measures on finished work before any rewrite. The test, its key and every read are in `Build/Ministry/Operations/Audits/2026-11-24_calibration/`.
+
+**Found.**
+- **Run 1.** Five blind listener personas (scholar, pastor, first-time visitor, someone re-evaluating faith, AI skeptic) and a source spot-check read 12 pieces Mark had judged. They agreed with each other, and with Mark at both ends, but disagreed with his verdicts on five pieces. The old 1-to-5 scores had rated Rufinus "Rigor 4" with five "his editors note", and Basil "Rigor 5" with seven "Gregory says".
+- **Mark's blind reading.**
+  - The two Tacitus versions: "A is better, the drama is real, no added lines". A was fix batch 1's rewrite.
+  - Jerome: "opening sentance doesnt make sense, he was in the the desert when?" Against Letter 125.12, it also softens "the promptings of sin and the natural heat of my blood" to "his restless mind".
+  - Wittenberg: "it doesnt make sense as its not a clean sentence".
+- **Run 2.** A scholar with the sources open checked every sentence (about 400). It caught Jerome's softening, and it ranked the Tacitus pair as Mark did (2 non-holding sentences against 9). Both listeners caught Jerome's missing when and where.
+
+**Decided (Mark, 2026-11-24).**
+1. Success has nine parts: true to the sources; meaning; the heart; understood once; told by a person; holds attention; accessible, not childish; fits the tree; and, in Mark's words, "not ai recognizable (no tells, add on statements, dramatic)". He added "xy" and "is it captivating".
+2. The readers who count faults are a scholar ("not perfect but appreciated"), a pastor, a first-time visitor, someone re-evaluating faith and "an ai skeptic, they dont trust ai material by nature".
+3. "there are two things that are essential, it has to remain faithful to the sources, even when summarizing, no added assumptions, that is trust, and it has to be crafted well or people will not listen." Then "so the scholor test knows the texts (has them to reference)" and "yes, rerun it that way".
+4. Dates: "the exact date after comes out if its not clear", then "a, settled dates plainly". A date the old sources fix, or one so settled it is Widely Accepted, is told plainly. A date resting on one editor's reckoning is told only as roughly as the old sources allow, or left out.
+5. "remember we are not pursuing perfection, just reliability, appreciation for rigor. we cant pursue loops of minor tweeks."
+6. "a, approve it": the measure goes into the kit.
+
+**Done.**
+- **The reviewer role** has three reads.
+  - The trust read, with the sources open, marks each sentence held, summary holds, softened, assumption added, modern only or not found. Every mark except the first two blocks.
+  - Two listeners, a first-time visitor and an AI skeptic, count faults. An unfilled test line, a bare statement, a tell or a lost opening blocks. A sentence that fails on one hearing is minor unless it loses the thread.
+  - Counts replace the 1-to-5 scores.
+- **The fresh read** blocks only for what the bar blocks; a minor finding there never starts another round.
+- **Part 1** carries the date rule. **Part 3, the bar and release** speak of counts.
+- **`reference/Scores.md`** holds fixed counts, set when the person references are brought to the kit.
+
+**Change orders.** These replace the reviewer's single read and its four scores ("One revision, one fresh read", 2026-11-22) and the 2026-11-24 line "a date only an editor gives is a modern date".
+
+**Cost.** Three readers a piece. In the test the trust read took about 60,000 tokens a piece, drawn from the weekly allowance with no metered spend.
