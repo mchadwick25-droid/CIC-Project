@@ -1,6 +1,6 @@
 """Check new Church Family Tree briefs against the stories already on the tree.
 
-Brief-Kit/Kit.md, Part 4, step 4. Run it over a batch's briefs before review:
+Brief-Kit/Kit.md, Part 3, step 4. Run it over a batch's briefs before review:
 
     python tools/check_tree_overlap.py <brief.txt> [<brief.txt> ...]
 

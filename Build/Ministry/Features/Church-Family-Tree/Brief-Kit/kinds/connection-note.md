@@ -1,0 +1,18 @@
+# Kind kit: a connection note
+
+**Purpose.** Tell a visitor, in one or two sentences, what passed between two entries on the tree.
+
+**The test, for a note.** What the tie was, what passed along it, and what that was about.
+
+## The heart
+
+- **The tie:** its kind on the tree (continued as, gave rise to, broke with, argued against, drew on), and the old line that shows it.
+- **What passed:** the teaching, practice, text or people that went from one to the other, and what it was about.
+
+## Form
+
+One or two sentences, about 25 to 50 words, in the narrator's voice. No bare label ("found to be heresy"), no judgment of either side, no scholar.
+
+## Steps
+
+Research, outline check, write, review, and Mark's reading of the first two. A note has no hearts page, no card, no second reading unless it quotes, and no recording.

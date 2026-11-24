@@ -1,7 +1,7 @@
 """List the sentences in a Church Family Tree brief that a reviewer must look at.
 
 The kit's Part 1 names the faults; this lists where each may sit, so none is
-missed by hand (Brief-Kit/Kit.md, Part 4, step 4). It judges nothing: the
+missed by hand (Brief-Kit/Kit.md, Part 3, step 4). It judges nothing: the
 writer and reviewer clear each line. It runs locally and calls no model.
 
     python tools/check_brief_craft.py <brief.txt> [<brief.txt> ...]

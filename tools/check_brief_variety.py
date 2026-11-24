@@ -1,7 +1,7 @@
 """Count the story moves that repeat across a batch of Church Family Tree briefs.
 
 The counts are a report for Mark and the reviewer, kept with the batch; nothing
-is recast because of them (Brief-Kit/Kit.md, Part 4, step 4). Run it over the whole
+is recast because of them (Brief-Kit/Kit.md, Part 3, step 4). Run it over the whole
 batch:
 
     python tools/check_brief_variety.py <brief.txt> [<brief.txt> ...]
