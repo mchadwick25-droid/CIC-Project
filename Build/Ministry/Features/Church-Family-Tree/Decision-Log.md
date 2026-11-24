@@ -5751,3 +5751,46 @@ Mark: "option 1", on the page https://claude.ai/artifact/UStZATEaBtT445YAKgNEi6 
 **Done.** Batch 1's text changes were undone on main ("no fix on a fix"); see Open-Gaps 405 for what was restored and the root cause.
 
 **Decided.** The fixes are redone with Opus writing, through the Brief Kit's own steps and its readability scoring, and a sample goes to Mark before the rest.
+
+## 2026-11-24 — The brief kit consolidated: one standard, six kind kits (Mark)
+
+**Why.** A governing thread opened over the Church Family Tree after quality fell. Over four days (2026-11-20 to 11-23), commits rose from 8 to 159 a day, and seven or more threads wrote to the same census and kit. Three things had happened. Fix batch 1 ran from its own prompt and was reverted (Open-Gaps 405). The rule against modern opinion lived only on batch 10's branch. Main's kit named no AI tells. On the live site, 613 of 629 entries and every connection note read as they did at launch (2026-11-21). Batch 10's twelve stories explain more, but about a dozen of their sentences name modern editors and historians. A scan of the Decision-Log and audits found nine issues that kept coming back, under eight causes. The three largest were rules lost or stranded on branches, side prompts that skipped the kit, and rules with no check behind them. The pages: https://claude.ai/artifact/DsiW4GcNXRQzqrkUH4LKQ5, https://claude.ai/artifact/XAyoQ7rdABXDfEd3WBKgFD, https://claude.ai/artifact/MaGd9TCgZuV99HR4FspKae and https://claude.ai/artifact/HuN9hfNEX1nUKo49dSzaWx.
+
+**Decided (Mark, 2026-11-24, one question at a time).**
+1. "a, pause and consolidate first." All open threads paused; production restarts one line at a time.
+2. "a, voices not citations, modern for clarification of old text or finding of sources from that period, not opinion or speculation." Every claim, date and "so" or "because" stands on an old source. A modern work only clarifies an old text or leads to one. It is never named in the story. Old witnesses are named only where a listener would otherwise be misled. This supersedes "a modern scholar may be a source … never named" (Decision-Log, "Modern opinion: a separate pass, and where a modern scholar may stand", 2026-11-23), which let a modern scholar carry a claim unnamed.
+3. "a, three references, use Chrysostom as the third", then "a, bring all three up to the new rules first." The writer reads the person references for voice, never for their order or moves.
+4. "a, first two of every batch." The first two finished briefs of every batch or fix come to Mark before any other is written.
+5. "a" (an act of force the sources don't explain): it is told as the record gives it, with no reason added and no word on the missing one.
+6. "a" (the card): modern works are a reading list only, each with one line on what it covers, never what it argues. No modern opinion, date or identification appears anywhere on the tree. This is a change order to "The card carries two reference lists: original sources and modern works" (2026-11-23), which let the card carry a modern view, named.
+7. "a", then "these are targets, not absolute rules, no cutting off a sentance that is one or two words short." Narration aims under about 30 words a sentence and quote renderings about 25, as targets, never cuts. CLAUDE.md gains the pointer.
+8. "i think we need a seperate kit for each kind as far as shape, purpose and heart goes, but same for craft, rigor and accessability." Then "for the briefs lets not seperate built worlds and the tradition brief, this should be about who they were, when where, what they faced, what they believed how they practiced etc."; "it should be a story, that makes listening easier and more engaging"; and on the two added heart lines ("what held them together", "what came of them"), "keep both."
+9. Eras: "we have era too, that are more about the bigger picture, summaries of whats happening in this era, whats happeing in history for context, whats happeing geographicly, sets the stage for the traditions." Then "it doesn't, this is more history of the time and trends, yes they are relevent, but they need a broader historical survery," and "a." An era is the one kind that draws on the broad historical scholarship. The consensus is told plainly; genuine disagreement gets a clause or is left out; Inferential-Thin claims stay out; no historian is named.
+10. "a" (stories): documented and map stories share one kit.
+11. "a" (lengths): the table as drafted, with the 2:00 floor (2026-11-23) for person, council, tradition and era briefs.
+12. "a" (CLAUDE.md): one line saying Church Family Tree texts follow the kit for models and review rounds.
+13. Throughout: "dont add rule on rule but we want a clean easy to follow kit that doesn't contridict itself and gets us the results that have been talked about."
+
+**Done.**
+- `Brief-Kit/Kit.md` now holds only what every kind shares:
+  - Part 1, the standard: rules for every text, and rules for a narrated story;
+  - Part 2, the outline;
+  - Part 3, how a text is made.
+- `Brief-Kit/kinds/` holds the six kind kits: person, council, tradition, story, connection note and era.
+- The roles read Part 1 and the kind kit, and follow its test and source rule.
+- The kit carries batch 10's kit lines from its branch:
+  - councils past 4:30 (Mark: "yes, councils can run past 4:30 if needed");
+  - the outside witness reworded (Mark: "yes reword the outside witness shape");
+  - sources marked old or modern.
+- Two independent audits found 10 contradictions, 9 duplicated rules, 10 lines open to misreading, 8 gaps and 4 broken references in the draft. Their fixes are in.
+- The changes outside the kit:
+  - `tools/check_brief_craft.py` lists for the reviewer the sentences Part 1 most often catches, judging nothing;
+  - `tools/validate-census.mjs` checks the agreed `modernWorks` shape;
+  - the World-Narration roles moved to `Archive/Church-Family-Tree-World-Narration-roles-2026-11-20/`;
+  - CLAUDE.md has two pointer lines.
+
+**Change orders.**
+- To "A change to this kit governs the next batch on; it never reopens a finished story." The kit now says it reopens one only when Mark says so, as a named change order, as he did on 2026-11-23.
+- A ruling that changes the kit now merges to main the day it is made.
+
+**Not done.** See Open-Gaps 406 to 412.
