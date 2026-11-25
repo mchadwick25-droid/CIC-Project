@@ -45,3 +45,12 @@ The one checked craft pass under Mark's ruling "a" (Decision-Log, "Batch 11: the
 
 - `wc -w`: **675** (cap 675).
 - `python -m engine.m1.profile_readability .../ebionite-nazoraean-current.brief.txt`: 672 words, grade 8.2 (names out 7.2), reading ease names out 77.5, 19.2 words a sentence, 0.6 joining words per 100, 14% short sentences, longest sentence 33 words - pass.
+
+## Craft check fixes applied
+
+- Change A (delete " Its words survive only in their opponents' quotations."): applied.
+- Change B (replace `their name came from Ebion, Hebrew for "poor".` with `their name came from the Hebrew word for "poor".`): applied.
+- Change C (replace "and the writers who called them heretics used his version." with "and writers who called them heretics used his version."): applied.
+- Outline.md: none of the three targets is named there; unchanged.
+- Count: `wc -w` 667.
+- Scorer: 664 words, grade 8.3 (names out 7.3), reading ease names out 77.8, 19.5 words a sentence, longest sentence 33 words - pass.
