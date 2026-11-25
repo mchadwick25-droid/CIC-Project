@@ -1,0 +1,15 @@
+# Outline check: Alexandrian Christianity (`alexandria-catechetical`)
+
+## My own account of the heart (written before reading `Outline.md`)
+
+From the census entry, the slate job, the built world (`cic-website/data/worlds/alexandria-catechetical.json`), the card and `Source_Sheet.md`.
+
+- **Essence:** From about 180 into the early 300s, the Christians of Alexandria learned their faith the way their city learned everything, as a school. Teachers, from Pantaenus and Clement to Origen, Heraclas and Dionysius, led inquirers, catechumens (learners not yet baptized) and curious pagans step by step through Scripture, read for its plain sense and for a deeper sense about Christ and the soul. Almost all of it reaches us through Eusebius, writing a century on.
+- **Who they were:** the Christians of Alexandria, teachers and learners together: catechumens, the newly baptized, educated pagans, women as well as men (Sheet C5, C6, C8).
+- **When and where:** Alexandria, Egypt, from about 180 (Pantaenus, B1) through Origen's teaching from about 202 to 231 (C1, C10), Dionysius's headship and episcopate (C11, C12), to the villages of the Arsinoite district in the 250s or so (C15), and the school still running in Eusebius's day (C18).
+- **What they faced:** the persecution under Severus (about 202): the teachers fled, an eighteen-year-old took the instruction, and his pupils died (B7, C1-C5); crowds too many for one teacher (C7); a quarrel inside Egypt over how to read Scripture, Nepos's book against the allegorists, which had split whole village churches (C13-C15). The teacher-bishop tension (Origen's departure, built world gravity) belongs mostly to the Origen story.
+- **What they believed:** the Word, Jesus, is the one Instructor, who first urges, then trains, then teaches (D1, D2); faith is taught even without letters, its handbook is love (D3); Scripture has flesh, soul and spirit, for the simple, the advancing and the perfect (D5); the hope of resurrection and being made like Christ, against a thousand years of plenty on earth (C14).
+- **How they practiced:** instruction before baptism; graded teaching (Heraclas the beginners, Origen the advanced; geometry and philosophy for the gifted, the basics for the less learned, all toward Scripture) (C7, C8); public examination of a dispute from Scripture over three days, minds changed when the reasons satisfied (C15-C17). The built world also names a second way (baptism, the Eucharist and the fasts reaching those who could not read); the sheet holds no lines for it, and Clement's "taught without letters" (D3) is the held line that keeps the unlettered in view.
+- **What held them together:** the Word as the one teacher, and Scripture read as something that forms the reader in stages (built world gravities `logos-unity`, `scripture-formative`).
+- **What came of them:** pupils became the city's teachers and bishops (Heraclas, Dionysius) (F1); the way of reading carried on through Basil and Gregory of Nazianzus and the Philocalia (F2); the school still running in Eusebius's day (F3). The census link to Desert Monasticism is not carried by the old sources tested (E, last item).
+
