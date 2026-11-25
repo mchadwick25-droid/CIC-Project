@@ -5991,3 +5991,13 @@ This batch only.
 2. Batch 12 starts only once batch 11 has finished and Mark has judged its results. Mark: "lets finish era 1 to make sure we are on track and not just writing in circles before going forward".
 3. Pushed off, too thin in the Library: `apollinarian-christianity` (4 works), `melitian-schism` (1), `aksumite-christianity-conversion-era` (0) and `luciferians` (0). They go to the source-research thread first (Open-Gaps 419).
 4. Pushed off, already C or B: `imperial-juridical-christianity`, `hieronymian-ascetic-literary`, `ambrosian-milan-standalone`, `gallic-nicene-episcopate` (C), and `palestinian-ascetic-monasticism-early`, `pelagianism` (B). The two built worlds, Imperial and Hieronymian, come first when the C pass starts (Open-Gaps 420).
+
+## 2026-11-25 — Batch 11: Montanism released alone and recorded (Mark)
+
+**Why.** Mark asked to hear the best brief on audio. The recommendation was Montanism, the one brief to pass every fresh read with nothing blocking, its card checked. The recording tool reads the census, so the brief must be released first; doing that ahead of the batch means a second pull request. `Recording_Settings.md` has no tradition line; the proposal was the council line (the tree's default narrator).
+
+**Decided (Mark, 2026-11-25): "yes i want to make sure we are on the right track, release and record"**, in answer to: record Montanism, cap 4,000 characters, with the council voice and settings.
+1. Montanism goes through second readings and release on its own, in its own pull request, ahead of the batch.
+2. One recording: `montanism-the-new-prophecy`, voice `onwK4e9ZLuTAKqWW03F9`, model `eleven_multilingual_v2`, the council line's fixed format and delivery, `--char-cap 4000`. The file goes to Mark to hear before any other story is recorded.
+
+This batch only. Whether traditions keep the council line is for `Recording_Settings.md` once Mark has heard it.
