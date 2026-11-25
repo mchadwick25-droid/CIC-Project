@@ -208,4 +208,4 @@ Witness kinds: **own words** (the community or its own teachers), **contemporary
   - Clement of Alexandria, Stromata III: the Greek is not held; the ANF2 volume gives book III only in Latin; used only as quoted in Holl's apparatus, card-level.
   - Canon 7 of Constantinople and Basil's canons (NPNF 2.14): later canonical texts; the canon's own text is disputed by its editor (Hefele, npnf214 30147-30156). Card at most.
   - Modern histories in the Library (Harnack, Duchesne, Monceaux, Schanz-Hosius, Bardy): modern claims; not witnesses.
-  - Not held: the Lebaba inscription; the Dialogue of Adamantius; Eznik of Kolb; Epiphanius in English; Theodoret's letters and Church History in Greek; Cyril's Greek; Eusebius's Greek for Books I-V.
+  - Not held: the Lebaba inscription; the Dialogue of Adamantius in full (one doctrinal passage is held in Origen's Philocalia 24, `origen_philocalia_lewis1911.txt` 414: no community detail; set aside); Eznik of Kolb; Epiphanius in English; Theodoret's letters and Church History in Greek; Cyril's Greek; Eusebius's Greek for Books I-V.
