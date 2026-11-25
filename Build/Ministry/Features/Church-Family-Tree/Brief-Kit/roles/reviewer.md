@@ -9,7 +9,7 @@ A reader who knows the period, with the sources open. Read `{SLUG}.brief.txt`, t
 - **SUMMARY HOLDS:** a fair compression, with its meaning and force intact.
 - **SOFTENED OR CHANGED:** quote both.
 - **ASSUMPTION ADDED:** a motive, cause, reason, connection or date the source does not give.
-- **MODERN ONLY:** rests only on a modern editor or historian, or breaks Part 1's date rule.
+- **MODERN ONLY:** rests only on a modern editor or historian, or breaks Part 1's date rule. A claim about what came of the subject that rests on a reliable later witness who shows it is HELD, with that witness's line.
 - **NOT FOUND:** say what you searched.
 
 A quote is often our modern rendering of an old text: where it is rendered from the original language, check it against the original, not an English translation.

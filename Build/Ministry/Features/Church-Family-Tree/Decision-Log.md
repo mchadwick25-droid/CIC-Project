@@ -5846,3 +5846,5 @@ Mark: "option 1", on the page https://claude.ai/artifact/UStZATEaBtT445YAKgNEi6 
 **Done.**
 - `Brief-Kit/roles/reviewer.md` adds the second trust read, at review and after the revision.
 - Kit Part 3, step 4 names it.
+
+**Added (Mark, 2026-11-25), on "His sermons were read for centuries":** "it is ok to use later sources to show impact if they are reliable." Part 1 now says that what came of a person or tradition may rest on a reliable later witness who shows it, such as a later writer who quotes, keeps or answers them. The trust read marks such a claim HELD, with that witness's line. The Chrysostom sentence stays, on Socrates, the Augsburg Confession and Calvin.
