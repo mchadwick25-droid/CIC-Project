@@ -6056,6 +6056,8 @@ This batch only.
 
 **How it is carried out.** The card step writes the timeline and the short description after the story, from the source sheet, the outline, the census entry and the card; the card checker checks each line and headline against its source. The kit and the card role change after batch 11 finishes. The site build is its own piece of work, after that. Whether the Documented stories section leaves the card once its events are in the timeline is still open.
 
+**Added (Mark, 2026-11-25): "the documented stories are a full story to listen to, not just an event on a timeline".** Documented stories stay on the card as their own section in the menu, each a full story to listen to. Their events may also appear in the timeline as dated lines.
+
 ## 2026-11-25 — Church in Conversation on hold (Mark)
 
 **Decided (Mark, 2026-11-25).** "church in conversation is on hold." The Church in Conversation app is not promoted from `main` to `live` while it is on hold. The Church Family Tree, which is served from `main`, goes on.
