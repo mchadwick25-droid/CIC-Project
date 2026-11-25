@@ -1,0 +1,354 @@
+rank,id,name,overall,action,rigor,craft,reach,reach_basis
+1,alexandria-catechetical,Alexandrian Catechetical / Christian-Platonist Tradition,F,must be redone,C,F,5,"built world, living"
+2,desert-monasticism,Desert Monasticism,F,must be redone,F,B,5,"built world, living"
+3,gallic-monastic-ascetic-christianity,Gallic Monastic-Ascetic Christianity,F,must be redone,C,F,5,"built world, living"
+4,syriac-edessa-nisibis,Syriac Christianity (Edessa/Nisibis),F,must be redone,F,C,5,"built world, living"
+5,the-reformed-cities-zurich-and-geneva,The Reformed Cities - Zurich & Geneva,F,must be redone,B,F,5,"built world, living"
+6,donatism,Donatism,F,must be redone,F,B,4,built world
+7,african-diaspora-and-reverse-mission-churches-in,African Diaspora & Reverse-Mission Churches in Europe,F,must be redone,B,F,1,living
+8,african-initiated-churches-harrist-aladura-zioni,African-Initiated Churches (Harrist; Aladura; Zionist/ZCC; Kimbanguist),F,must be redone,D,F,1,living
+9,aksumite-christianity,Aksumite Christianity,F,must be redone,B,F,1,living
+10,american-orthodoxy-autocephaly-and-the-convert-wave,American Orthodoxy — Autocephaly & the Convert Wave,F,must be redone,B,F,1,living
+11,american-unitarianism-universalism-consolidations,American Unitarianism & Universalism — the Consolidations,F,must be redone,B,F,1,living
+12,anti-trinitarian-currents-servetus-polish-brethr,Anti-Trinitarian Currents (Servetus; Polish Brethren/Socinians; Transylvanian Unitarians),F,must be redone,B,F,1,living
+13,antiochene-church-third-century,The Church of Antioch in the Third Century,F,must be redone,F,B,1,living
+14,armenian-apostolic-church-era-8,Armenian Apostolic Church — Etchmiadzin and Constantinople,F,must be redone,C,F,1,living
+15,armenian-christianity-conversion-era,Armenian Christianity (conversion era),F,must be redone,B,F,1,living
+16,armenian-christianity-era-8,Armenian Christianity — the Mekhitarists and the Catholic Patriarchate,F,must be redone,F,F,1,living
+17,armenian-christianity-new-julfa,Armenian Christianity — Etchmiadzin and New Julfa,F,must be redone,B,F,1,living
+18,armenian-christianity-zartonk,Armenian Christianity — the Zartonk Century,F,must be redone,B,F,1,living
+19,armenian-cilicia,Armenian Christianity in Cilicia,F,must be redone,C,F,1,living
+20,armenian-cilicia-after-the-kingdom,Armenian Christianity after the Kingdom (Sis to Etchmiadzin),F,must be redone,B,F,1,living
+21,azusa-street-and-early-pentecostalism,Azusa Street & Early Pentecostalism,F,must be redone,B,F,1,living
+22,bagratid-armenian-christianity,Bagratid Armenian Christianity,F,must be redone,B,F,1,living
+23,british-welsh-christianity,British and Welsh Christianity,F,must be redone,B,F,1,living
+24,byzantine-church-palaiologan,"The Byzantine Church, Palaiologan Era",F,must be redone,C,F,1,living
+25,byzantine-imperial-church-heraclian-iconoclast,The Byzantine Imperial Church (Heraclian & Iconoclast Eras),F,must be redone,B,F,1,living
+26,byzantine-imperial-church-justinianic,The Byzantine Imperial Church (Justinianic),F,must be redone,C,F,1,living
+27,byzantine-imperial-church-macedonian,The Byzantine Imperial Church (Macedonian Era),F,must be redone,B,F,1,living
+28,canons-regular-victorine-school,Canons Regular / Victorine School,F,must be redone,C,F,1,living
+29,carolingian-reform-christianity,Carolingian Reform Christianity,F,must be redone,B,F,1,living
+30,carthusians-later-middle-ages,The Carthusians — The Later Medieval Charterhouses,F,must be redone,F,D,1,living
+31,catholic-church-ancien-regime,The Catholic Church of the Ancien Régime,F,must be redone,D,F,1,living
+32,catholic-church-long-nineteenth-century,The Catholic Church of the Long Nineteenth Century,F,must be redone,B,F,1,living
+33,catholic-lay-renewal-worlds-catholic-worker-foco,Catholic Lay Renewal Traditions (Catholic Worker; Focolare; Charismatic Renewal; L'Arche),F,must be redone,C,F,1,living
+34,catholics-of-the-ottoman-balkans,Catholics of the Ottoman Balkans: the Bosnian Franciscans,F,must be redone,B,F,1,living
+35,chalcedonian-monasticism-judean-desert-and-gaza,Chalcedonian Monasticism - Judean Desert & Gaza,F,must be redone,B,F,1,living
+36,charismatic-renewal-and-the-jesus-movement,Charismatic Renewal & the Jesus Movement,F,must be redone,B,F,1,living
+37,chinese-catholicism-1650-1906,Chinese Catholics Under Edict and Treaty,F,must be redone,F,F,1,living
+38,chinese-catholicism-twentieth-century,Chinese Catholicism — the First Chinese Bishops to the Divided Church,F,must be redone,B,F,1,living
+39,christian-science,Christian Science,F,must be redone,B,F,1,living
+40,church-of-the-east-chaldean-consolidation,The Church of the East & the Chaldean Consolidation,F,must be redone,D,F,1,living
+41,church-of-the-east-schism-of-1552,The Church of the East — the Schism of 1552,F,must be redone,C,F,1,living
+42,church-of-the-east-three-patriarchates,The Church of the East — Three Patriarchates,F,must be redone,F,F,1,living
+43,church-of-the-east-timur-to-hakkari,The Church of the East — Timur's Catastrophe and the Northern Remnant,F,must be redone,B,F,1,living
+44,church-of-the-east-under-the-mongols,The Church of the East under the Mongols,F,must be redone,C,F,1,living
+45,church-of-utrecht,The Church of Utrecht,F,must be redone,C,F,1,living
+46,churches-of-christ-twentieth-century,Churches of Christ,F,must be redone,C,F,1,living
+47,colonial-latin-american-devotional-catholicism,Colonial Latin American Devotional Catholicism,F,must be redone,B,F,1,living
+48,coptic-christianity-fatimid-to-mamluk,"Coptic Christianity, Fatimid to Mamluk",F,must be redone,B,F,1,living
+49,coptic-christianity-under-early-islam,Coptic Christianity under Early Islam,F,must be redone,B,F,1,living
+50,czech-churches-last-century,The Czech Churches' Last Century (Utraquists and Unitas),F,must be redone,C,F,1,living
+51,disciples-of-christ-and-independent-christian-churches,Disciples of Christ & the Independent Christian Churches,F,must be redone,C,F,1,living
+52,dispensational-prophecy-culture,Dispensational Prophecy Culture,F,must be redone,B,F,1,living
+53,dutch-further-reformation-and-refuge-culture,Dutch Further Reformation & Refuge Culture,F,must be redone,C,F,1,living
+54,early-american-unitarians-universalists,Early American Unitarians & Universalists,F,must be redone,B,F,1,living
+55,early-benedictine-italian-monasticism,Early Benedictine / Italian Monasticism,F,must be redone,F,A,1,living
+56,ecumenical-community-worlds-taize-and-iona,Ecumenical Community Traditions - Taize & Iona,F,must be redone,B,F,1,living
+57,emigre-orthodoxy-and-the-paris-school,Emigre Orthodoxy & the Paris School,F,must be redone,B,F,1,living
+58,english-old-dissent,English Old Dissent — Presbyterians and Congregationalists,F,must be redone,B,F,1,living
+59,ethiopian-christianity-gondar-to-the-zemene-mesafint,Ethiopian Christianity — Gondar to the Zemene Mesafint,F,must be redone,D,F,1,living
+60,ethiopian-christianity-gragn-to-fasilides,Ethiopian Christianity — Gragn to Fasilides,F,must be redone,B,F,1,living
+61,fundamentalism-1910-1970s,Fundamentalism,F,must be redone,B,F,1,living
+62,georgian-christianity,Georgian Christianity,F,must be redone,C,F,1,living
+63,georgian-church-1650-1811,"The Georgian Church — Between Persia, the Ottomans and Russia",F,must be redone,F,F,1,living
+64,georgian-revival-tao-klarjeti,Georgian Revival — Tao-Klarjeti and Athos,F,must be redone,F,F,1,living
+65,german-pietism-spener-francke-halle,"German Pietism - Spener, Francke, Halle",F,must be redone,D,F,1,living
+66,global-south-pentecostal-christianity,Global South Pentecostal Christianity,F,must be redone,C,F,1,living
+67,haitian-church-rupture-to-concordat,The Haitian Church — Rupture to Concordat,F,must be redone,C,F,1,living
+68,hebrew-roots-and-torah-observance-movements,Hebrew Roots & Torah-Observance Movements,F,must be redone,C,F,1,living
+69,hungarian-and-transylvanian-protestantism-1650-1815,"Hungarian and Transylvanian Protestantism, 1650 to 1815",F,must be redone,F,F,1,living
+70,iglesia-ni-cristo,Iglesia ni Cristo,F,must be redone,C,F,1,living
+71,iglesia-ni-cristo-the-way-international-unificat,The Way International; Unification Church; La Luz del Mundo,F,must be redone,B,F,1,living
+72,indonesian-christianity,Indonesian Christianity,F,must be redone,C,F,1,living
+73,indonesian-christianity-the-independent-century,Indonesian Christianity — the Independent Century,F,must be redone,F,F,1,living
+74,insular-irish-monastic-christianity,Insular / Irish Monastic Christianity,F,must be redone,B,F,1,living
+75,japans-hidden-christians,Japan's Hidden Christians,F,must be redone,F,B,1,living
+76,jehovah-s-witnesses-bible-students,Jehovah's Witnesses (Bible Students),F,must be redone,B,F,1,living
+77,jerusalem-liturgical-pilgrimage-christianity,Jerusalem Liturgical-Pilgrimage Christianity,F,must be redone,B,F,1,living
+78,kievan-rus-christianity-1054-1240,"Kievan Rus' Christianity, 1054-1240",F,must be redone,B,F,1,living
+79,kongo-christianity-after-1650,Kongo Christianity after 1650,F,must be redone,F,F,1,living
+80,korean-catholic-origins,Korean Catholic Origins,F,must be redone,F,F,1,living
+81,korean-protestantism-twentieth-century,Korean Protestantism in the Twentieth Century,F,must be redone,C,F,1,living
+82,laestadianism-and-the-nordic-revivals,Laestadianism & the Nordic Revivals,F,must be redone,C,F,1,living
+83,late-medieval-lay-parish-piety,Late-Medieval Lay Parish Piety,F,must be redone,B,F,1,living
+84,latin-american-base-communities,Latin American Base Communities,F,must be redone,C,F,1,living
+85,latin-american-catholicism-twentieth-century,Latin American Catholicism in the Twentieth Century,F,must be redone,D,F,1,living
+86,latin-papal-church-avignon-to-lateran-v,The Latin Papal Church (Avignon to Fifth Lateran),F,must be redone,C,F,1,living
+87,latin-papal-church-gregorian,The Latin Papal Church (Gregorian Reform to Innocent III),F,must be redone,C,F,1,living
+88,lausanne-era-global-evangelicalism,Lausanne-Era Global Evangelicalism,F,must be redone,B,F,1,living
+89,maronite-christianity,Maronite Christianity,F,must be redone,C,F,1,living
+90,maronite-christianity-era-6,Maronite Christianity — the Union Formalized,F,must be redone,B,F,1,living
+91,maronite-church-1815-1906,"The Maronite Church — Mountain, War and One Governor",F,must be redone,F,F,1,living
+92,melkite-arabic-christianity,Melkite Arabic Christianity,F,must be redone,B,F,1,living
+93,melkite-greek-catholic-church,The Melkite Greek Catholic Split,F,must be redone,C,F,1,living
+94,melkite-greek-catholic-church-after-1815,The Melkite Greek Catholic Church after 1815,F,must be redone,B,F,1,living
+95,mennonites-and-amish-after-1650,The Mennonites and the Amish,F,must be redone,D,F,1,living
+96,merovingian-gallic-christianity,Merovingian Gallic Christianity,F,must be redone,B,F,1,living
+97,messianic-judaism,Messianic Judaism,F,must be redone,B,F,1,living
+98,military-religious-orders-templars-hospitallers,"Military-Religious Orders (Templars, Hospitallers)",F,must be redone,C,F,1,living
+99,mission-born-christianities-kirishitan-japan-kon,Mission-Born Christianities (Kirishitan Japan; Kongo; China; New Spain/Andes),F,must be redone,B,F,1,living
+100,modern-ethiopian-and-eritrean-christianity,Modern Ethiopian & Eritrean Christianity,F,must be redone,B,F,1,living
+101,moravian-church-after-1815,The Moravian Church after 1815,F,must be redone,F,D,1,living
+102,new-calvinism-young-restless-reformed,"New Calvinism (Young, Restless, Reformed)",F,must be redone,B,F,1,living
+103,nineteenth-century-baptists,Nineteenth-Century Baptists,F,must be redone,B,F,1,living
+104,nineteenth-century-latin-american-catholicism,Nineteenth-Century Latin American Catholicism,F,must be redone,B,F,1,living
+105,nineteenth-century-methodism,Nineteenth-Century Methodism,F,must be redone,B,F,1,living
+106,nineteenth-century-quakerism-separations,Nineteenth-Century Quakerism — the Separations,F,must be redone,B,F,1,living
+107,northeast-india-and-mar-thoma-twentieth-century,Northeast India & the Mar Thoma Church — the 20th Century,F,must be redone,B,F,1,living
+108,northeast-india-revivals-and-the-mar-thoma-refor,Northeast India Revivals & the Mar Thoma Reform,F,must be redone,B,F,1,living
+109,old-believers-after-1815,The Old Believers After 1815,F,must be redone,F,F,1,living
+110,old-catholic-churches-union-of-utrecht,The Old Catholic Churches — Utrecht to the Union,F,must be redone,B,F,1,living
+111,orthodoxy-after-1821-balkan-autocephalies,Orthodoxy after 1821 — the National Churches,F,must be redone,D,F,1,living
+112,orthodoxy-in-the-communist-balkans,"Orthodoxy in the Communist Balkans — the Serbian, Romanian, Bulgarian and Albanian Churches",F,must be redone,B,F,1,living
+113,orthodoxy-under-the-ottomans-1650-1821,Orthodoxy under the Ottomans — the Second Act,F,must be redone,F,F,1,living
+114,orthodoxy-under-the-ottomans-parish-millet-and-n,"Orthodoxy under the Ottomans - Parish, Millet & Neomartyrs",F,must be redone,B,F,1,living
+115,persecuted-church-worlds-of-the-communist-era-in,Persecuted-Church Traditions of the Communist Era (Initsiativniki Baptists; Romania's Lord's Army),F,must be redone,B,F,1,living
+116,persian-church-of-the-east-early,Persian Church of the East (early),F,must be redone,B,F,1,living
+117,philippine-catholicism,Philippine Catholicism,F,must be redone,B,F,1,living
+118,philippine-catholicism-era-8,Philippine Catholicism — Era-8 Segment,F,must be redone,B,F,1,living
+119,philippine-catholicism-twentieth-century,Philippine Catholicism in the Twentieth Century,F,must be redone,F,F,1,living
+120,plymouth-brethren-and-dispensational-formation,Plymouth Brethren & Dispensational Formation,F,must be redone,F,F,1,living
+121,polish-and-lithuanian-catholicism-under-the-partitions,Polish and Lithuanian Catholicism Under the Partitions,F,must be redone,F,F,1,living
+122,polish-catholicism-wyszynski-and-john-paul-ii,Polish Catholicism — Wyszyński and John Paul II,F,must be redone,C,F,1,living
+123,post-aksumite-ethiopian-christianity,Post-Aksumite Ethiopian Christianity,F,must be redone,F,F,1,living
+124,progressive-christianity-a-broad-label-not-one-m,"Progressive Christianity (a broad label, not one movement)",F,must be redone,B,F,1,living
+125,protestant-churches-of-the-voc-world,Protestant Churches of the VOC World,F,must be redone,C,F,1,living
+126,protestantism-in-latin-america,Protestantism in Latin America,F,must be redone,F,F,1,living
+127,puritanism,Puritanism,F,must be redone,B,F,1,living
+128,radical-pietism-and-the-brethren-dunkers-ephrata,"Radical Pietism & the Brethren (Dunkers, Ephrata)",F,must be redone,B,F,1,living
+129,ratana-church-and-pacific-adjustment-movements,Ratana Church & Pacific Adjustment Movements,F,must be redone,B,F,1,living
+130,recusant-english-catholicism,Recusant English Catholicism,F,must be redone,B,F,1,living
+131,restoration-georgian-church-of-england,The Restoration and Georgian Church of England,F,must be redone,C,F,1,living
+132,restorationist-apocalyptic-ferment-and-adventism,Restorationist-Apocalyptic Ferment & Adventism,F,must be redone,C,F,1,living
+133,roman-church-third-century,The Roman Church in the Third Century,F,must be redone,B,F,1,living
+134,romanian-greek-catholic-church-1698-1815,"The Romanian Greek Catholic Church, 1698 to 1815",F,must be redone,F,C,1,living
+135,romanian-greek-catholic-church-1815-1906,"The Romanian Greek Catholic Church, 1815 to 1906",F,must be redone,B,F,1,living
+136,russian-church-nikon-to-holy-synod,The Russian Church — Nikon to the Holy Synod,F,must be redone,F,F,1,living
+137,russian-church-stoglav-to-nikon,"The Russian Church, Stoglav to the Eve of Nikon",F,must be redone,C,F,1,living
+138,russian-church-synodal-century,The Russian Church — the Synodal Century,F,must be redone,D,F,1,living
+139,ruthenian-greek-catholic-polotsk-to-galicia,The Ruthenian Greek Catholic Church — Polotsk to Galicia,F,must be redone,B,F,1,living
+140,ruthenian-uniate-18th-century,The Ruthenian Uniate Church — Zamość to the Partitions,F,must be redone,D,F,1,living
+141,scandinavian-conversion-christianity,Scandinavian Conversion Christianity,F,must be redone,C,F,1,living
+142,scandinavian-reformation-kingdoms,The Scandinavian Reformation Kingdoms,F,must be redone,C,F,1,living
+143,schwenckfelders,Schwenckfelders,F,must be redone,B,F,1,living
+144,serbian-and-bulgarian-medieval-monasticism,Serbian & Bulgarian Medieval Monasticism,F,must be redone,F,C,1,living
+145,seventh-day-adventist-church-twentieth-century,The Seventh-day Adventist Church in the 20th Century,F,must be redone,B,F,1,living
+146,shakers,Shakers,F,must be redone,B,F,1,living
+147,society-of-jesus-1650-1814,"The Society of Jesus, 1650 to 1814",F,must be redone,B,F,1,living
+148,southern-african-mission-churches,Southern African Mission Churches,F,must be redone,F,F,1,living
+149,spiritualism-new-thought,Spiritualism / New Thought,F,must be redone,B,F,1,living
+150,st-thomas-christians-1300-1517,"St Thomas Christians, 1300-1517",F,must be redone,B,F,1,living
+151,st-thomas-christians-of-india,St. Thomas Christians of India,F,must be redone,B,F,1,living
+152,st-thomas-christians-two-obediences,The St Thomas Christians — Two Obediences,F,must be redone,D,F,1,living
+153,st-thomas-christians-under-portuguese-pressure-d,St. Thomas Christians under Portuguese Pressure - Diamper & the Coonan Cross,F,must be redone,C,F,1,living
+154,sudanese-christianity-through-the-civil-wars,Sudanese Christianity through the Civil Wars,F,must be redone,F,F,1,living
+155,swedenborgian-new-church,Swedenborgian New Church,F,must be redone,B,F,1,living
+156,syriac-orthodox-under-islam,Syriac Orthodox Christianity under Islam,F,must be redone,B,F,1,living
+157,syriac-renaissance,The Syriac Renaissance,F,must be redone,B,F,1,living
+158,the-1904-07-revival-family-wales-mukti-india-pyo,The 1904-07 Revival Family (Wales; Mukti India; Pyongyang Korea),F,must be redone,B,F,1,living
+159,the-anglican-communion-twentieth-century,The Anglican Communion in the Twentieth Century,F,must be redone,C,F,1,living
+160,the-armenian-church-after-the-genocide-medz-yegh,The Armenian Church after the Genocide (Medz Yeghern),F,must be redone,B,F,1,living
+161,the-baptists,The Baptists,F,must be redone,F,C,1,living
+162,the-black-church-in-america,The Black Church in America,F,must be redone,B,F,1,living
+163,the-black-church-in-the-twentieth-century,The Black Church in the Twentieth Century,F,must be redone,B,F,1,living
+164,the-catholic-church-in-africa-twentieth-century,The Catholic Church in Africa in the Twentieth Century,F,must be redone,F,F,1,living
+165,the-catholic-church-pius-x-to-the-council,The Catholic Church — Pius X to the Eve of the Council,F,must be redone,C,F,1,living
+166,the-chinese-church-indigenous-and-suffering,The Chinese Church - Indigenous & Suffering,F,must be redone,C,F,1,living
+167,the-christian-homeschool-movement,The Christian Homeschool Movement,F,must be redone,F,F,1,living
+168,the-christian-right,The Christian Right,F,must be redone,B,F,1,living
+169,the-church-of-the-east-on-the-silk-road,The Church of the East on the Silk Road,F,must be redone,B,F,1,living
+170,the-church-of-the-east-under-persia,The Church of the East under Persia,F,must be redone,B,F,1,living
+171,the-coptic-church-under-the-ottomans,The Coptic Church under the Ottomans: the Patriarchate and the Archons,F,must be redone,F,F,1,living
+172,the-coptic-monastic-and-sunday-school-revival,The Coptic Monastic & Sunday-School Revival,F,must be redone,B,F,1,living
+173,the-dominican-order,The Dominican Order,F,must be redone,B,F,1,living
+174,the-dutch-reformed-church-at-the-cape,The Dutch Reformed Church at the Cape,F,must be redone,F,D,1,living
+175,the-east-african-revival-balokole,The East African Revival (Balokole),F,must be redone,B,F,1,living
+176,the-ecumenical-movement-and-the-wcc,The Ecumenical Movement & the World Council of Churches,F,must be redone,B,F,1,living
+177,the-english-reformation-and-elizabethan-settleme,The English Reformation & Elizabethan Settlement,F,must be redone,C,F,1,living
+178,the-evangelical-awakening-in-new-england,The Evangelical Awakening in New England,F,must be redone,F,C,1,living
+179,the-franciscan-movement,The Franciscan Movement,F,must be redone,B,F,1,living
+180,the-georgian-golden-age,The Georgian Golden Age,F,must be redone,B,F,1,living
+181,the-georgian-orthodox-church-restored,The Georgian Orthodox Church Restored,F,must be redone,B,F,1,living
+182,the-greek-church-and-the-ecumenical-patriarchate,The Greek Church and the Ecumenical Patriarchate in the Twentieth Century,F,must be redone,D,F,1,living
+183,the-hesychast-revival-paisius-and-the-philokalia,The Hesychast Revival - Paisius & the Philokalia,F,must be redone,B,F,1,living
+184,the-holiness-movement,The Holiness Movement,F,must be redone,B,F,1,living
+185,the-huguenots,The Huguenots,F,must be redone,C,F,1,living
+186,the-kollyvades-and-greek-renewal,The Kollyvades & Greek Renewal,F,must be redone,F,C,1,living
+187,the-kyiv-mohyla-orthodox-revival,The Kyiv-Mohyla Orthodox Revival,F,must be redone,B,F,1,living
+188,the-mainline-century-liberal-and-neo-orthodox,The Mainline Century — Liberal Protestantism & Neo-Orthodoxy,F,must be redone,B,F,1,living
+189,the-malankara-churches-orthodox-and-jacobite,The Malankara Churches — Orthodox & Jacobite,F,must be redone,C,F,1,living
+190,the-megachurch-and-seeker-movement,The Megachurch & Seeker Movement,F,must be redone,B,F,1,living
+191,the-methodist-revival,The Methodist Revival,F,must be redone,B,F,1,living
+192,the-missionary-movement-s-native-churches-seramp,The Missionary Movement's Native Churches (Serampore India; Sierra Leone & the Niger; Pacific Islands; China Coast & CIM),F,must be redone,B,F,1,living
+193,the-moravian-church-at-herrnhut,The Moravian Church at Herrnhut,F,must be redone,D,F,1,living
+194,the-narrative-kingdom-renewal-the-bible-as-one-s,The Narrative-Kingdom Renewal (the Bible as one story fulfilled in Jesus),F,must be redone,B,F,1,living
+195,the-old-believers,The Old Believers,F,must be redone,B,F,1,living
+196,the-post-vatican-ii-parish-world,The Post-Vatican-II Parish Tradition,F,must be redone,B,F,1,living
+197,the-quakers-religious-society-of-friends,The Quakers (Religious Society of Friends),F,must be redone,B,F,1,living
+198,the-remonstrants-and-dort,The Remonstrants and Dort,F,must be redone,C,F,1,living
+199,the-rescue-mission-movement,The Rescue Mission Movement,F,must be redone,F,F,1,living
+200,the-reveil-and-inner-mission-awakening,The Reveil & Inner-Mission Awakening,F,must be redone,B,F,1,living
+201,the-romanian-greek-catholic-church-suppression-and-return,The Romanian Greek Catholic Church — Suppression and Return,F,must be redone,D,F,1,living
+202,the-russian-new-martyrs-and-the-catacomb-church,The Russian New Martyrs & the Catacomb Church,F,must be redone,B,F,1,living
+203,the-russian-orthodox-church-council-patriarchate-and-reunion,"The Russian Orthodox Church — Council, Patriarchate and Reunion",F,must be redone,F,F,1,living
+204,the-sayfo-and-the-syriac-diaspora,The Sayfo & the Syriac Diaspora,F,must be redone,C,F,1,living
+205,the-scottish-reformation-and-kirk,The Scottish Reformation & Kirk,F,must be redone,B,F,1,living
+206,the-second-great-awakening-and-camp-meeting-worl,The Second Great Awakening & Camp-Meeting Tradition,F,must be redone,B,F,1,living
+207,the-stone-campbell-restoration-movement,The Stone-Campbell Restoration Movement,F,must be redone,C,F,1,living
+208,the-sunday-school-and-bible-institute-movement,The Sunday School & Bible-Institute Movement,F,must be redone,F,F,1,living
+209,the-third-wave-and-the-vineyard,The Third Wave & the Vineyard,F,must be redone,D,F,1,living
+210,the-tridentine-church,The Tridentine Church,F,must be redone,C,F,1,living
+211,the-union-of-brest-and-ruthenian-greek-catholic-,The Union of Brest & Ruthenian Greek Catholic Christianity,F,must be redone,D,F,1,living
+212,the-waldensian-reformed-union,The Waldensian-Reformed Union,F,must be redone,C,F,1,living
+213,the-welsh-revival-tradition,The Welsh Revival Tradition,F,must be redone,B,F,1,living
+214,transylvanian-unitarian-church-1660-1906,"The Transylvanian Unitarian Church, 1660 to 1906",F,must be redone,F,F,1,living
+215,victorian-church-of-england,The Victorian Church of England,F,must be redone,C,F,1,living
+216,vietnamese-catholicism-1815-1906,Vietnamese Catholicism — Edicts and French Conquest,F,must be redone,F,F,1,living
+217,vietnamese-catholicism-to-1815,Vietnamese Catholicism — Vicars Apostolic and Catechists,F,must be redone,F,D,1,living
+218,waldensians-in-the-alps,The Waldensians in the Alps,F,must be redone,C,F,1,living
+219,zagwe-and-early-solomonic-ethiopian-christianity,Zagwe Ethiopian Christianity,F,must be redone,B,F,1,living
+220,anomoean-eunomian-christianity,Anomoean (Eunomian) Christianity,F,must be redone,C,F,0,
+221,antiochene-exegetical-christianity-chrysostom-ce,Antiochene Exegetical Christianity (Chrysostom-centered),F,must be redone,F,C,0,
+222,apocryphal-and-pseudepigraphal-literature,Apocryphal and Pseudepigraphal Literature in Christian Transmission,F,must be redone,F,F,0,
+223,apollinarian-christianity,Apollinarian Christianity,F,must be redone,B,F,0,
+224,aquileian-christianity,The Church of Aquileia,F,must be redone,C,F,0,
+225,balkan-bogomil-continuation,"Balkan Bogomilism, 1054-1300",F,must be redone,B,F,0,
+226,bardaisanite-current,Bardaisan and the Bardaisanites,F,must be redone,B,F,0,
+227,bogomils,Bogomils,F,must be redone,B,F,0,
+228,branch-davidians-and-apocalyptic-splinters,Branch Davidians & Apocalyptic Splinters,F,must be redone,B,F,0,
+229,cathars-albigensians,Cathars / Albigensians,F,must be redone,F,F,0,
+230,church-of-caucasian-albania,The Church of Caucasian Albania,F,must be redone,D,F,0,
+231,cluniac-reform-monasticism,Cluniac Reform Monasticism,F,must be redone,B,F,0,
+232,ebionite-nazoraean-current,Ebionite / Nazoraean Current,F,must be redone,F,F,0,
+233,family-of-love-and-spiritualists-franck-niclaes,"Family of Love & Spiritualists (Franck, Niclaes)",F,must be redone,C,F,0,
+234,free-spirit-heresy,'Free Spirit' Heresy,F,must be redone,F,F,0,
+235,gothic-and-vandal-homoian-christianity,"Gothic, Vandal & Lombard Homoian Christianity",F,must be redone,B,F,0,
+236,greek-apologists-second-century,The Second-Century Greek Apologists,F,must be redone,B,F,0,
+237,homoian-arian-christianity,Homoian ('Arian') Christianity,F,must be redone,B,F,0,
+238,inquisition-record-sects-adamites-and-kin,Inquisition-Record 'Sects' (Adamites and kin),F,must be redone,F,F,0,
+239,latin-apologists,The Latin Apologists,F,must be redone,C,F,0,
+240,latin-church-of-outremer,The Latin Church of Outremer,F,must be redone,B,F,0,
+241,latin-pastoral-congregational-christianity,Latin Pastoral-Congregational Christianity,F,must be redone,C,F,0,
+242,lollardy,Lollardy,F,must be redone,B,F,0,
+243,makurian-nubian-christianity,Makurian Nubian Christianity,F,must be redone,B,F,0,
+244,manichaeism,Manichaeism,F,must be redone,B,F,0,
+245,marcion-marcionism,Marcion / Marcionism,F,must be redone,F,B,0,
+246,modalist-monarchianism,Modalist Monarchianism,F,must be redone,F,F,0,
+247,montanism-the-new-prophecy,Montanism (the New Prophecy),F,must be redone,B,F,0,
+248,nubian-christianity,Nubian Christianity,F,must be redone,B,F,0,
+249,pneumatomachian-current,Pneumatomachian ('Macedonian') Christianity,F,must be redone,B,F,0,
+250,port-royal-jansenism,Port-Royal Jansenism,F,must be redone,C,F,0,
+251,priscillianist-asceticism,Priscillianist Asceticism,F,must be redone,F,B,0,
+252,quietist-controversy-molinos-guyon,"Quietist Controversy (Molinos, Guyon)",F,must be redone,C,F,0,
+253,rhineland-mysticism-and-the-friends-of-god,Rhineland Mysticism & the Friends of God,F,must be redone,B,F,0,
+254,taiping-heavenly-kingdom,The Taiping Heavenly Kingdom,F,must be redone,F,B,0,
+255,terminal-christian-nubia,Terminal Christian Nubia (Late Makuria and Dotawo),F,must be redone,B,F,0,
+256,the-beguines,The Beguines,F,must be redone,C,F,0,
+257,the-bosnian-church,The Bosnian Church (Krstjani),F,must be redone,F,F,0,
+258,the-church-struggle-against-apartheid,The Church Struggle against Apartheid,F,must be redone,C,F,0,
+259,the-confessing-church,The Confessing Church,F,must be redone,C,F,0,
+260,the-emerging-church-and-post-evangelical-movemen,The Emerging Church & Post-Evangelical Movement,F,must be redone,C,F,0,
+261,the-english-mystics-and-devout,The English Mystics and Devout,F,must be redone,B,F,0,
+262,the-liturgical-movement,The Liturgical Movement,F,must be redone,F,F,0,
+263,the-student-volunteer-movement-and-edinburgh-191,The Student Volunteer Movement & Edinburgh 1910,F,must be redone,F,B,0,
+264,post-apostolic-house-church,Post-Apostolic Household-Church Christianity,D,should be redone,C,D,13,"first-visit tour, built world, living"
+265,cappadocian-nicene-pastoral-monastic-tradition,Cappadocian Christianity,D,should be redone,D,D,5,"built world, living"
+266,catholics-of-dutch-ceylon,Catholics of Dutch Ceylon,D,should be redone,D,C,1,living
+267,china-mission-born-christianity,Mission-Born Christianity in Ming China,D,should be redone,D,C,1,living
+268,cyrilline-miaphysite-egyptian-christianity,The Church of Alexandria and Miaphysite Egypt,D,should be redone,C,D,1,living
+269,philippine-catholicism-gomburza-to-aglipay,Philippine Catholicism — Gomburza to the Aglipayan Schism,D,should be redone,D,D,1,living
+270,the-ukrainian-greek-catholic-underground,The Ukrainian Greek Catholic Underground,D,should be redone,D,D,1,living
+271,canudos-belo-monte,Canudos (Belo Monte),D,should be redone,D,C,0,
+272,danubian-latin-christianity,Latin Christianity in the Danubian Provinces,D,should be redone,C,D,0,
+273,latin-africa-under-byzantium,Latin African Christianity under Byzantium,D,should be redone,D,C,0,
+274,melitian-schism,The Melitian Schism,D,should be redone,D,B,0,
+275,imperial-juridical-christianity,Imperial and Juridical Christianity,C,would benefit,C,C,5,"built world, living"
+276,lutheran-wittenberg-and-its-congregations,Lutheran Wittenberg & Its Congregations,C,would benefit,C,C,5,"built world, living"
+277,hieronymian-ascetic-literary,Hieronymian Ascetic-Literary Christianity,C,would benefit,C,C,4,built world
+278,aksumite-christianity-conversion-era,Aksumite Christianity (conversion era),C,would benefit,B,C,1,living
+279,alaskan-mission-herman-veniaminov,The Alaskan Mission — Herman’s Decades & Veniaminov,C,would benefit,C,B,1,living
+280,ambrosian-milan-standalone,Ambrosian Milan (standalone),C,would benefit,C,C,1,living
+281,anglo-saxon-christianity,Anglo-Saxon Christianity,C,would benefit,C,B,1,living
+282,arab-evangelical-churches,"The Arab Evangelical Churches of Syria, Lebanon and Egypt",C,would benefit,C,C,1,living
+283,byzantine-church-after-1054,The Byzantine Church after the Schism,C,would benefit,C,C,1,living
+284,caribbean-churches-of-slavery-and-emancipation,The Caribbean Churches of Slavery and Emancipation,C,would benefit,B,C,1,living
+285,carmelite-reform-and-spanish-mystics,The Carmelite Reform and the Spanish Mystics,C,would benefit,C,C,1,living
+286,church-of-the-desert-huguenots,The Church of the Desert,C,would benefit,B,C,1,living
+287,coptic-revival-under-cyril-iv,The Coptic Revival — Cyril IV and After,C,would benefit,B,C,1,living
+288,cyrillo-methodian-slavic-christianity,Cyrillo-Methodian Slavic Christianity,C,would benefit,B,C,1,living
+289,dutch-neo-calvinism-secession-churches,Dutch Neo-Calvinism & the Secession Churches,C,would benefit,C,C,1,living
+290,east-african-christianity-uganda-martyrs,East African Christianity & the Uganda Martyrs,C,would benefit,C,B,1,living
+291,english-unitarianism,English Unitarianism,C,would benefit,C,C,1,living
+292,ethiopian-christianity-tewodros-to-menelik,Ethiopian Christianity — Tewodros to Menelik,C,would benefit,C,C,1,living
+293,franciscan-order-era-6,The Franciscan Order — Spirituals Crisis to the Great Division,C,would benefit,C,B,1,living
+294,hesychasm-and-the-palamite-synthesis,Hesychasm & the Palamite Synthesis,C,would benefit,B,C,1,living
+295,hutterite-brethren,The Hutterite Brethren,C,would benefit,C,C,1,living
+296,iconophile-byzantine-monasticism,Iconophile Byzantine Monasticism,C,would benefit,C,B,1,living
+297,japanese-christianity-after-1906,Japanese Christianity after 1906,C,would benefit,C,B,1,living
+298,japanese-christianity-hidden-emergence-meiji,Japanese Christianity — the Hidden Christians’ Emergence & the Meiji Church,C,would benefit,C,A,1,living
+299,kievan-rus-christianity,Kievan Rus' Christianity,C,would benefit,B,C,1,living
+300,kirishitan-japan,Kirishitan Japan,C,would benefit,C,C,1,living
+301,kongo-christianity-afonso-to-1650,"Kongo Christianity, Afonso I to 1650",C,would benefit,C,B,1,living
+302,late-anglo-saxon-christianity,Late Anglo-Saxon Christianity,C,would benefit,C,B,1,living
+303,malagasy-christianity,Malagasy Christianity — the Self-Carried Church,C,would benefit,C,C,1,living
+304,mozarabic-christianity,Mozarabic Christianity,C,would benefit,C,B,1,living
+305,muscovite-monastic-christianity,Muscovite Monastic Christianity,C,would benefit,B,C,1,living
+306,new-spain-and-andes-mission-born-christianity,Mission-Born Christianity in New Spain and the Andes,C,would benefit,B,C,1,living
+307,nicene-visigothic-iberia,Nicene Visigothic Iberia,C,would benefit,C,C,1,living
+308,observant-reform-and-popular-preaching,Observant Reform & Popular Preaching,C,would benefit,C,C,1,living
+309,palestinian-church-pre-constantinian,The Church of Roman Palestine before Constantine,C,would benefit,B,C,1,living
+310,philippine-independent-church-twentieth-century,The Philippine Independent Church in the Twentieth Century,C,would benefit,B,C,1,living
+311,promise-keepers-and-the-christian-mens-movement,Promise Keepers & the Christian Men's Movement,C,would benefit,C,B,1,living
+312,syriac-orthodox-west-syriac-christianity,Syriac Orthodox (West Syriac) Christianity,C,would benefit,B,C,1,living
+313,the-haugean-awakening,The Haugean Awakening,C,would benefit,C,C,1,living
+314,the-hussite-and-bohemian-brethren-movement,The Hussite & Bohemian Brethren Movement,C,would benefit,C,B,1,living
+315,the-optina-elders-and-russian-ascetic-renewal,The Optina Elders & Russian Ascetic Renewal,C,would benefit,B,C,1,living
+316,the-oxford-movement-and-anglo-catholic-revival,The Oxford Movement & Anglo-Catholic Revival,C,would benefit,B,C,1,living
+317,the-society-of-jesus,The Society of Jesus,C,would benefit,C,B,1,living
+318,the-waldensians,The Waldensians,C,would benefit,C,B,1,living
+319,anatolian-church-third-century,The Anatolian Church in the Third Century,C,would benefit,C,C,0,
+320,camisard-prophetism,Camisard Prophetism,C,would benefit,C,B,0,
+321,catholic-apostolic-church-irvingites,Catholic Apostolic Church (Irvingites),C,would benefit,B,C,0,
+322,devotio-moderna-brethren-of-the-common-life,Devotio Moderna / Brethren of the Common Life,C,would benefit,C,C,0,
+323,gallic-nicene-episcopate,The Gallic Nicene Episcopate,C,would benefit,B,C,0,
+324,joachimite-current,Joachimite Current,C,would benefit,C,B,0,
+325,taborite-radicalism,Taborite Radicalism,C,would benefit,C,B,0,
+326,the-humiliati,The Humiliati,C,would benefit,C,B,0,
+327,the-social-gospel,The Social Gospel,C,would benefit,B,C,0,
+328,armenian-christianity-after-avarayr,Armenian Christianity after Avarayr,B,OK to keep,B,B,1,living
+329,athonite-and-comnenian-byzantine-monasticism,Athonite & Comnenian Byzantine Monasticism,B,OK to keep,B,A,1,living
+330,carthusian-life,Carthusian Life,B,OK to keep,B,B,1,living
+331,christadelphians,Christadelphians,B,OK to keep,B,B,1,living
+332,cistercian-monasticism,Cistercian Monasticism,B,OK to keep,B,B,1,living
+333,confessional-lutheran-revival-emigrations,The Confessional Lutheran Revival & the Emigrations,B,OK to keep,B,B,1,living
+334,latter-day-saints-lds,Latter-day Saints (LDS),B,OK to keep,B,B,1,living
+335,new-france-mission-born-christianity,Mission-Born Christianity in New France,B,OK to keep,B,B,1,living
+336,oneness-pentecostalism,Oneness Pentecostalism,B,OK to keep,B,B,1,living
+337,palestinian-ascetic-monasticism-early,Early Palestinian Ascetic Monasticism,B,OK to keep,B,B,1,living
+338,roman-church-gregorian,The Roman Church in the Age of Gregory the Great,B,OK to keep,B,B,1,living
+339,russian-evangelicals-stundists,Russian Evangelicals — Stundists to the Baptist Union,B,OK to keep,B,B,1,living
+340,swedish-lutherans-of-new-sweden,The Swedish Lutherans of New Sweden,B,OK to keep,B,B,1,living
+341,the-anabaptist-movements,The Anabaptist Movements,B,OK to keep,B,B,1,living
+342,the-carmelites,The Carmelites,B,OK to keep,B,B,1,living
+343,the-ethiopian-monastic-flowering,The Ethiopian Monastic Flowering,B,OK to keep,B,B,1,living
+344,the-salvation-army,The Salvation Army,B,OK to keep,B,B,1,living
+345,tridentine-parish-renewal-borromean-milan,Tridentine Parish Renewal - Borromean Milan,B,OK to keep,B,B,1,living
+346,fraticelli-spiritual-franciscan-rigorists,Fraticelli (Spiritual Franciscan rigorists),B,OK to keep,B,B,0,
+347,luciferians,The Luciferians,B,OK to keep,B,B,0,
+348,novatianism,Novatianism,B,OK to keep,B,B,0,
+349,oneida-community,Oneida Community,B,OK to keep,B,B,0,
+350,paulicians,Paulicians,B,OK to keep,B,B,0,
+351,pelagianism,Pelagianism,B,OK to keep,B,B,0,
+352,the-antonian-movement-in-kongo,The Antonian Movement in Kongo,B,OK to keep,B,B,0,
+353,valentinian-and-other-gnostic-christianities,Valentinian & other Gnostic Christianities,B,OK to keep,B,B,0,
