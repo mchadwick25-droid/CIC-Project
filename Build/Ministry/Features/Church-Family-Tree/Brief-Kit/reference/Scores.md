@@ -4,11 +4,11 @@ Each story here is frozen with its brief, its outline and its source sheet once 
 
 ## Person
 
-Brought to the kit of 2026-11-24 and frozen on Mark's approval ("keep them as they are, approved", 2026-11-24). The counts are each story's fresh read: a trust reader with the sources open and a first-time listener. The fresh read's exact changes were then applied word for word, so the frozen brief carries the fix for each blocking finding counted here.
+Brought to the kit of 2026-11-24 and frozen on Mark's approval ("keep them as they are, approved", 2026-11-24). The first counts are each story's fresh read: a trust reader with the sources open and a first-time listener. Then, on Mark's ruling "a, second trust read on changed sentences", an independent second trust reader read every sentence that differs from the text before this batch. The exact changes of both reads were applied word for word, so the frozen brief carries the fix for each blocking finding counted here.
 
 | | Basil of Caesarea | Epiphanius of Salamis | John Chrysostom |
 |---|---|---|---|
-| Words, frozen brief | 733 | 744 | 742 |
+| Words, frozen brief | 733 | 756 | 742 |
 | **Trust read: sentences** | 34 | 41 | 37 |
 | Held | 16 | 33 | 26 |
 | Summary holds | 18 | 7 | 11 |
@@ -25,3 +25,10 @@ Brought to the kit of 2026-11-24 and frozen on Mark's approval ("keep them as th
 | Unexplained words | 2 | 2 | 4 |
 | Runs of short one-act sentences | 0 | 0 | 0 |
 | Talking down | 0 | 0 | 0 |
+| **Second trust read: changed sentences** | 31 | 26 | 37 |
+| Held | 11 | 14 | 26 |
+| Summary holds | 20 | 10 | 11 |
+| Softened or changed | 0 | 2 | 0 |
+| Assumption added | 0 | 0 | 0 |
+| Modern only | 0 | 0 | 0 |
+| Not found | 0 | 0 | 0 |

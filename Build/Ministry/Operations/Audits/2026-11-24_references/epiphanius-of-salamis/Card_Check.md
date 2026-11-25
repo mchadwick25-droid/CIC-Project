@@ -44,3 +44,11 @@ PASS
 
 - **Q1's Greek, held only in Holl's scan.** The outline planned English alone unless the Greek was confirmed. The slips are three single-letter OCR misreads, the reading is unambiguous, and each slip is registered and named on the card. No printed English is held to stand alone. The existing, earlier-checked card kept the Greek, and Mark's ruling for this batch keeps approved wording that passes. It stays.
 - **The entry's `dates`, `start`, `end` and `activeYear`.** They rest on Richardson's years only. The writer flagged them for Mark rather than changing them, which is right, since a rule for timeline years is a fleet-level call. `uncertain[4]` ("His dates are Richardson's reckoning") still describes them truly.
+
+## Follow-up check (2026-11-25)
+
+PASS.
+
+- **Edit 20, `briefReferences[6]` (Letter 51).** Supported: J6 10676-10680 (the monastery of "the reverend presbyters, Jerome and Vincent"), 10703-10705 (the letter to the presbyters and brothers of that monastery, and "For a year before I had heard many of them complain that they had no one to celebrate for them the sacraments of the Lord"), and 10662-10665 ("the fear of God which has compelled me to act in this way ... I have simply made provision for the wants of the Church"). It matches the brief's paragraph on Jerome's brother. It keeps the list's old shape and reads cleanly. No quotation marks, no modern opinion or date.
+- **Edit 21, `briefReferences[7]` (Letter 90).** Supported: J6 19745-19747 ("a few men have been expelled from the Church", with joy "throughout all Egypt"), and 19717-19719 for the Origenist monks of Nitria. It matches the brief: "he had put a few monks who followed Origen out of the church in Egypt." It reads cleanly before "and the call to gather the bishops of Cyprus." No modern opinion or date.
+- **Nothing else moved.** `git diff` against HEAD shows only these two lines of the card changed. `briefReferences[8]` (Socrates on "the monks he had driven out") is Socrates's account, which the brief tells as his. `uncertain[7]` reports the letter at J6 10657-10659. Neither conflicts.

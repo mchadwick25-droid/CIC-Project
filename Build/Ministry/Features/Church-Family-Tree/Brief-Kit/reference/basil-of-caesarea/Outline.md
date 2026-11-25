@@ -123,6 +123,7 @@ Line references are to `Source_Sheet.md` rows (S, E, R, P, B, H, Sp, D, I), each
   - "Who turned him away?" or any question the narrator asks and answers → the three accounts told one after another (Beat 1).
   - "A man alone has no one to serve" as a line after Quote 2 → the plain sense goes before the quote, in its setup (Beat 2).
   - "Accused before the governor" with no charge → Basil asks what harm the state suffers from him and his building (H2; Letter 94, `npnf208...xml` 30010-30016); give no charge beyond that.
+  - "His accusers had won over the governor" → his accusers were filling the governor's ears ("besieging your impartial ears", Letter 94, `npnf208...xml` 30010-30012); do not say the governor took their side.
   - 'Held back the bare words' without 'in writing' and without Gregory's 'he often preached it' → keep both (Sp7, Or. 43.68-69).
   - "Later" (or any time word) setting the rival bishop after the prefect → no order between them; Gregory gives none (Or. 43.48-50, 43.58), and the sequence is the editor's chronology.
 - **Leave out:**
