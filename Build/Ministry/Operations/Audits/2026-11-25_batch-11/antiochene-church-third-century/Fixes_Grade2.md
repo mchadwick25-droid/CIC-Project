@@ -7,10 +7,10 @@ Count: the live brief is 671 words (`wc -w`). With all changes below applied it 
 ## What the sources hold
 
 **The church house (fix 1).** One witness only: Eusebius, HE 7.30.18-19, later (a generation or two), Documented (`Source_Sheet.md` A1, line 118).
-- Who refused: Paul. "But as Paul refused to surrender the church building" (`cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml` 42324-42325); Greek "μηδαμῶς ἐκστῆναι τοῦ Παύλου τοῦ τῆς ἐκκλησίας οἴχου ϑέλοντος" (`eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt` 12114-12115).
-- Who petitioned: **no held source names anyone.** The Greek is passive, "βασιλεὺς ἐντευχϑεὶς Αὐρηλιανὸς", "the emperor Aurelian, being appealed to" (E-Gk 12115-12116; E-Eng 42325-42326, "the Emperor Aurelian was petitioned"). The brief therefore says "the case went to the emperor Aurelian", which names no petitioner and adds none.
-- Who got it and why: the house went "to those to whom the bishops of Italy and of the city of Rome should adjudge it" (E-Eng 42326-42328); Greek "τούτοις ... οἷς ἂν οἱ κατὰ τὴν Ἰταλίαν καὶ τὴν Ῥωμαίων πόλιν ἐπίσκοποι τοῦ δόγματος ἐπιστέλλοιεν", "to those to whom ... should write" (E-Gk 12116-12118). Who that side was: the bishops' letter, addressed "To Dionysius [of Rome] and Maximus, and to all our fellow-ministers throughout the world" (M5, line 105; E-Eng 42003-42027, contemporary, Documented), had appointed a new bishop and asked them "that you may write to him, and may receive letters of communion from him. But let this man write to Artemas" (M6, line 106; E-Eng 42274-42314, E-Gk 12018-12026, contemporary, Documented). Eusebius then says Domnus "became bishop of the church at Antioch" (E-Eng 42314-42316) and, after the ruling, "Thus this man was driven out of the church ... by the worldly power" (E-Eng 42328-42330; E-Gk 12118-12120, "οὕτω δῆτα").
-- Why Aurelian so ruled, in his own mind: no motive is held. Eusebius says only that he judged "most equitably" (αἰσιώτατα, E-Gk 12116), already on the card (Ruled 4). The why the listener lacked is the mechanism, and that is held: the bishops of Italy and Rome had been asked to write to the new bishop, not to Paul. The outline's Do not say (line 159) bars "in communion with Rome" and "judged the faith"; the new wording uses neither.
+- Who refused: Paul. "But as Paul refused to surrender the church building" (`cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml` 42324-42325); Greek "μηδαμῶς ἐκστῆναι τοῦ Παύλου τοῦ τῆς ἐκκλησίας οἴχου ϑέλοντος" (`eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt` 12116-12117).
+- Who petitioned: **no held source names anyone.** The Greek is passive, "βασιλεὺς ἐντευχϑεὶς Αὐρηλιανὸς", "the emperor Aurelian, being appealed to" (E-Gk 12117-12118; E-Eng 42325-42326, "the Emperor Aurelian was petitioned"). The brief therefore says "the case went to the emperor Aurelian", which names no petitioner and adds none.
+- Who got it and why: the house went "to those to whom the bishops of Italy and of the city of Rome should adjudge it" (E-Eng 42326-42327); Greek "τούτοις ... οἷς ἂν οἱ κατὰ τὴν Ἰταλίαν καὶ τὴν Ῥωμαίων πόλιν ἐπίσκοποι τοῦ δόγματος ἐπιστέλλοιεν", "to those to whom ... should write" (E-Gk 12118-12120). Who that side was: the bishops' letter, addressed "To Dionysius [of Rome] and Maximus, and to all our fellow-ministers throughout the world" (M5, line 105; E-Eng 42003-42027, contemporary, Documented), had appointed a new bishop and asked them "that you may write to him, and may receive letters of communion from him. But let this man write to Artemas" (M6, line 106; E-Eng 42274-42314, E-Gk 12018-12026, contemporary, Documented). Eusebius then says Domnus "became bishop of the church at Antioch" (E-Eng 42320-42322) and, after the ruling, "Thus this man was driven out of the church ... by the worldly power" (E-Eng 42329-42330; E-Gk 12120-12122, "οὕτω δῆτα").
+- Why Aurelian so ruled, in his own mind: no motive is held. Eusebius says only that he judged "most equitably" (αἰσιώτατα, E-Gk 12118), already on the card (Ruled 4). The why the listener lacked is the mechanism, and that is held: the bishops of Italy and Rome had been asked to write to the new bishop, not to Paul. The outline's Do not say (line 159) bars "in communion with Rome" and "judged the faith"; the new wording uses neither.
 
 **Lucian out of communion (fix 2).** No held source gives a reason. Two pre-1931 English translations of the one witness, Alexander of Alexandria's letter (later, c. 320s, Arius's enemy, Documented as his charge):
 - Theodoret's text, trans. Jackson 1892: "Lucianus, his successor, withdrew himself from communion with these bishops during a period of many years" (`cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml` 5759-5762; `Source_Sheet.md` L4, line 134).
@@ -38,7 +38,7 @@ What each fixes:
 |---|---|---|---|
 | Eusebius's judgment on Malchion, "and Eusebius says he alone could catch out a man who hid his mind" (M2, `Source_Sheet.md` line 102; E-Eng 41977-41984) | 14 | the card | A judgment in Eusebius's voice, not an event. Not the heart (`Outline.md` line 9), not the record's force, not a Part 1 explanation. The Never-cut line keeps "Malchion's questioning", and the questioning before shorthand writers stays. |
 
-The 14 words cut pay for the 18 added beyond the old text, with the remaining 4 inside the 675 cap. Nothing from the Never-cut list (`Outline.md` line 216), the heart, the ruling and its plain sense, or Alexander's charge as a charge is touched.
+The 14 words cut pay for the 18 added beyond the old text, with the remaining 4 inside the 675 cap. Nothing from the Never-cut list (`Outline.md` line 215), the heart, the ruling and its plain sense, or Alexander's charge as a charge is touched.
 
 ## Outline and sheet lines to change
 
@@ -54,7 +54,7 @@ Old:
 > The emperor Aurelian, who defeated Zenobia, queen of the East, near Antioch (S6, Jerome's Chronicle; a clause, Cut first 5) [cut: Leave out], was petitioned. He ordered the house given to those to whom the bishops of Italy and Rome wrote (A1, Greek).
 
 New:
-> So the case went to the emperor Aurelian (A1, ἐντευχϑεὶς, passive: no source names who petitioned; name none). The clause that he defeated Zenobia, queen of the East, near Antioch (S6, Jerome's Chronicle; Cut first 5) [cut: Leave out]. He gave the house to whichever side the bishops of Italy and Rome wrote to (A1, Greek). Paul's judges had named a new bishop and asked them to write to him, not Paul (M5, M6; the new bishop by role, his name Domnus on the card, Cut first 7).
+> So the case went to the emperor Aurelian, who defeated Zenobia, queen of the East, near Antioch (S6, Jerome's Chronicle; a clause, Cut first 5) [cut: Leave out] (A1, ἐντευχϑεὶς, passive: no source names who petitioned; name none). He gave the house to whichever side the bishops of Italy and Rome wrote to (A1, Greek). Paul's judges had named a new bishop and asked them to write to him, not Paul (M5, M6; the new bishop by role, his name Domnus on the card, Cut first 7).
 
 **`Outline.md` line 73 (beat 6).**
 Old:
@@ -72,7 +72,7 @@ Old (end of the bullet):
 > He judged who held communion, not what was true about Christ.
 
 New:
-> He judged who held communion, not what was true about Christ. Who the bishops of Italy and Rome were asked to write to: the new bishop, not Paul (M5, M6). Who petitioned: the Greek is passive (ἐντευχϑεὶς, E-Gk 12115); no held source names anyone.
+> He judged who held communion, not what was true about Christ. Who the bishops of Italy and Rome were asked to write to: the new bishop, not Paul (M5, M6). Who petitioned: the Greek is passive (ἐντευχϑεὶς, E-Gk 12117); no held source names anyone.
 
 ## Totals
 
