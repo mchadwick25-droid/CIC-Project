@@ -5864,3 +5864,40 @@ Mark: "option 1", on the page https://claude.ai/artifact/UStZATEaBtT445YAKgNEi6 
 **Result.** The three are frozen in `Brief-Kit/reference/<slug>/` (Chrysostom's folder is new, and `kinds/person.md` names it), with their counts in `Brief-Kit/reference/Scores.md`: Basil 733 words, Epiphanius 756, Chrysostom 742. In the second trust read, every changed sentence holds or is a fair summary once its exact change is applied. The briefs and cards are released into the census. Their recordings were made from the old texts, so their players are hidden until re-recording.
 
 **Not done.** Re-recording waits for a cap Mark sets (Open-Gaps 413). Epiphanius's census dates rest on editors' years only and feed the timeline (Open-Gaps 414). The Library holds neither the Greek of Chrysostom's Homily 50 on Matthew nor the Greek or Latin of Epiphanius's Letter 51, so those quotes were checked against their old English (Open-Gaps 415). Basil's story now ends on Benedict, a later writer, after the revision moved the deathbed line; no read blocked on it, and it is left for Mark to see.
+
+## 2026-11-25 — Tradition briefs graded; the rebuild order (Mark)
+
+**Why.** Mark: "so we need to deside what to do, to redo everything is a huge task, is there a way to decide what the prioriites are. so we can keep it live and fix the biggest needs first, and then balance growth to new and improving steadily". Then: "traditions are the main thing everything else gives depth and context to the tradtions, so we need to fix the worst of those."
+
+**Decided (Mark, 2026-11-25).**
+1. "i would do a combined focus of rigor and craft if either fails badly then that is higher priority", then "no like a grade, if either has an f score ... it becomes a high priority, then ds then cs etc". Each tradition brief gets a rigor grade and a craft grade, A to F, and its overall grade is the lower of the two.
+2. "a, grade all 353 traditions with the idea what must be redone, what should be, what would benifit, what is ok to keep, what is great as is." F is must be redone, D should be redone, C would benefit, B OK to keep, A great as is.
+3. "a, and yes to the scans and guess as F":
+   - A summary rather than a story grades D on craft, and F when it is also under the two-minute floor.
+   - The 16 unscanned briefs get the 2026-11-23 scans.
+   - A guess told as the record is rigor F.
+4. "why do we say trust before craft, they are both equal one without the other fails", then "worst on either side then reach". The rebuild order is the overall grade, then reach (the first-visit tour, the built worlds, major, living).
+5. Three calls stand unless Mark says otherwise:
+   - Athonite and Comnenian monasticism takes its failed trust read, F.
+   - One Supporting bare statement grades C.
+   - When two scan readers weigh a finding differently, the higher weight stands.
+
+**Found.** The audit is `Build/Ministry/Operations/Audits/2026-11-25_tradition-grades/` (pull request #1804).
+
+| Grade | Briefs |
+|---|---|
+| F | 263 |
+| D | 11 |
+| C | 53 |
+| B | 26 |
+| A | 0 |
+
+- **Craft drives most of the Fs.** 303 briefs are under about 300 words, 248 were heard as summaries, and 207 fail on craft alone.
+- **Rigor:** 56 are F.
+- **The one A candidate failed its trust read,** so a scan's rigor B is not a sentence-by-sentence check.
+
+**Done.** `Rebuild_Order.csv` in the audit folder ranks all 353 by overall grade, then reach.
+
+**Not done.** See Open-Gaps 416: a built world's card texts were not graded.
+
+**Added (Mark, 2026-11-25): "only do the eras and traditions we have the library built out", then "eras 1-7 should be fine, 8 is partialy built".** The rebuild takes every tradition in eras 1 to 7, and in era 8 those with 10 or more vendored works assigned in `cic-website/data/corpus-coverage.json`. That puts 198 in scope (138 F, 7 D, 35 C, 18 B). Era 8's other 22, and eras 9 and 10 (133), wait for sources. `Rebuild_Order.csv` carries each one's era, library count and scope. Eighteen traditions in eras 1 to 7 have two works or fewer. They stay in scope, but a tradition whose research finds too little goes to the source-research thread, which takes the thin and waiting traditions as its want list.
