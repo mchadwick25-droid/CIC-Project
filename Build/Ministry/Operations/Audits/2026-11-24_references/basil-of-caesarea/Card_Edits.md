@@ -117,9 +117,8 @@ For release to apply once the checker passes them. Release also sets `longDescri
 
 ## Not found
 
-- `placeNote`, "The monastery on the river Iris in Pontus": no old source held names the Iris for Basil's own community. Basil's Letter 14 describes the place and its river without a name (`npnf208...xml` 23988-24006); the Iris is in Jackson's chronology (`npnf208...xml` 600-605) and Clarke's introduction (`gregory-nyssa_life-of-macrina_clarke1916.txt` 78). The outline rates it Widely Accepted (Setting; Source_Sheet E7). Left in place.
+None. `placeNote`'s "The monastery on the river Iris in Pontus" stands on Basil's Letter 223.5 (`npnf208...xml` 39261-39262, "my monastery on the Iris").
 
 ## Left as they stand
 
-- The card's credited modern dates and views (`datesNote`; `keyWorks` "placed in"; `legacy.traces` Fremantle; `legacy.remembered` Jackson's 358; `uncertain` Hefele, Morison, Jackson) are each credited to their editor. The outline sends them to the card (Who tells it; Leave out), as the `cyril-and-methodius` card does with its editors.
 - Entry `legacy` and `voices` are not among the fields this role lists. The entry `voices` line "whom he made bishop of Sasima" stands on Or. 43.59 and Socrates, and the card does not contradict it.

@@ -4771,6 +4771,32 @@
     "record": "Build/Ministry/Operations/Audits/2026-11-22_batch-10/Second_Readings.md",
     "verdict": "same"
    }
+  },
+  {
+   "id": "john-chrysostom",
+   "quote": "When everyone ignored him in his desolation, she alone, like a loving mother, hid him behind her curtains. She stood against the emperor's anger, the people's fury and unbearable hatred.",
+   "original": {
+    "file": "cic/texts/john-chrysostom_opera-pg52-epistulae-grc-lat_migne1862.txt",
+    "lines": "822-827",
+    "language": "Greek"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-24_references/Second_Readings.md",
+    "verdict": "same"
+   }
+  },
+  {
+   "id": "john-chrysostom",
+   "quote": "Do you want to honor Christ's body? Do not neglect him when he is naked. While you honor him here with silk clothes, do not neglect him outside, dying of cold and nakedness.",
+   "original": {
+    "file": "cic/texts/npnf110_chrysostom-homilies-matthew.xml",
+    "lines": "29931-29933",
+    "language": "English"
+   },
+   "second_reading": {
+    "record": "Build/Ministry/Operations/Audits/2026-11-24_references/Second_Readings.md",
+    "verdict": "same"
+   }
   }
  ]
 }

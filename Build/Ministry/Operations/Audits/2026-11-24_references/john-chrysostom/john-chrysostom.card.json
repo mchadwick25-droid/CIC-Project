@@ -371,7 +371,8 @@
       "work": "John Chrysostom, Homily I on Eutropius, tr. W. R. W. Stephens",
       "file": "cic/texts/npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml",
       "lines": "17722-17727",
-      "uncertain": "The modern English is rendered from the Greek, Patrologia Graeca 52, lines 822-827 of its file, the only Greek print held. Its scan misreads several letters, so the English print stands here. The Greek has her curtains where Stephens has her cloak; his note takes it as the curtain drawn before the altar."
+      "secondReading": "same",
+      "uncertain": "The modern English is rendered from the Greek, Patrologia Graeca 52, lines 822-827 of its file, the only Greek print held. Its scan misreads several letters, so the English print stands here. The Greek has her curtains where Stephens has her cloak."
     },
     {
       "modern": "Do you want to honor Christ's body? Do not neglect him when he is naked. While you honor him here with silk clothes, do not neglect him outside, dying of cold and nakedness.",
@@ -379,6 +380,7 @@
       "work": "John Chrysostom, Homily 50 on Matthew, tr. George Prevost, rev. M. B. Riddle",
       "file": "cic/texts/npnf110_chrysostom-homilies-matthew.xml",
       "lines": "29931-29933",
+      "secondReading": "same",
       "uncertain": "The Greek of this homily is not held; the modern English is rendered from Prevost's."
     },
     {
