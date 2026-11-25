@@ -1,0 +1,13 @@
+alexandria-catechetical: clear
+antiochene-church-third-century: clear
+apocryphal-and-pseudepigraphal-literature: clear
+ebionite-nazoraean-current: clear
+greek-apologists-second-century: clear
+latin-apologists: clear
+latin-pastoral-congregational-christianity: clear
+manichaeism: clear
+marcion-marcionism: clear
+montanism-the-new-prophecy: clear
+post-apostolic-house-church: clear
+roman-church-third-century: clear
+syriac-edessa-nisibis: clear
