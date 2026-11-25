@@ -1,0 +1,20 @@
+{
+ "gregory-of-nyssa": {
+  "all_hold": false,
+  "not_holding": 1,
+  "heart_blocking": true,
+  "file": "trust/gregory-of-nyssa.Trust.md"
+ },
+ "john-wesley": {
+  "all_hold": true,
+  "not_holding": 0,
+  "heart_blocking": false,
+  "file": "trust/john-wesley.Trust.md"
+ },
+ "moses-the-black": {
+  "all_hold": false,
+  "not_holding": 1,
+  "heart_blocking": false,
+  "file": "trust/moses-the-black.Trust.md"
+ }
+}
