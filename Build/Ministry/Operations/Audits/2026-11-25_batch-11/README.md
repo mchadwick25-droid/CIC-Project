@@ -64,3 +64,4 @@ Jobs, direct lines, siblings, the live stories beside each one, and quote bars: 
 - Alexandria through fresh read (2026-11-25): one sentence failed the fresh read (Coracion "in the villages"); exact fix applied; 625 words, grade 9.9. To Mark with the reason and fix, with the next set of finished briefs.
 - Latin Apologists through fresh read (2026-11-25): one sentence failed ("As lawyers, he and Minucius..."); exact fix applied; scorer 675, `wc -w` 677. To Mark with Alexandria.
 - Ebionites through fresh read and checked craft pass (2026-11-25): one trust sentence failed (Origen "poverty of the law"), exact fix applied; book-of-columns clause cut; 658 words, grade 8.0; `Craft_Check.md` PASS. To Mark with Alexandria and Latin Apologists.
+- **For the release's rulings list:** Marcionism heart wording changed by review fixes B9 and M2 ("made" to "called"; `marcion-marcionism/Revision.md`).
