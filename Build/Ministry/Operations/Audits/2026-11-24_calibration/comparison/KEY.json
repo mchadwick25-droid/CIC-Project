@@ -1,0 +1,42 @@
+[
+ {
+  "id": "Q1",
+  "piece": "Chrysostom, live at launch (2026-11-21)",
+  "words": 358
+ },
+ {
+  "id": "Q2",
+  "piece": "Epiphanius, new (kit 2026-11-24)",
+  "words": 746
+ },
+ {
+  "id": "Q3",
+  "piece": "Chrysostom, new (kit 2026-11-24)",
+  "words": 746
+ },
+ {
+  "id": "Q4",
+  "piece": "Basil, new (kit 2026-11-24)",
+  "words": 734
+ },
+ {
+  "id": "Q5",
+  "piece": "Chrysostom, batch 10 branch (held PR)",
+  "words": 450
+ },
+ {
+  "id": "Q6",
+  "piece": "Basil, live (old reference)",
+  "words": 680
+ },
+ {
+  "id": "Q7",
+  "piece": "Chrysostom, live today (batch 10 pass, 2026-11-23)",
+  "words": 456
+ },
+ {
+  "id": "Q8",
+  "piece": "Epiphanius, live (old reference)",
+  "words": 716
+ }
+]
