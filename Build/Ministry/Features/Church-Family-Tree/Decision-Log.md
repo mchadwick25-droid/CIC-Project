@@ -5899,3 +5899,5 @@ Mark: "option 1", on the page https://claude.ai/artifact/UStZATEaBtT445YAKgNEi6 
 **Done.** `Rebuild_Order.csv` in the audit folder ranks all 353 by overall grade, then reach.
 
 **Not done.** See Open-Gaps 416: a built world's card texts were not graded.
+
+**Added (Mark, 2026-11-25): "only do the eras and traditions we have the library built out", then "eras 1-7 should be fine, 8 is partialy built".** The rebuild takes every tradition in eras 1 to 7, and in era 8 those with 10 or more vendored works assigned in `cic-website/data/corpus-coverage.json`. That puts 198 in scope (138 F, 7 D, 35 C, 18 B). Era 8's other 22, and eras 9 and 10 (133), wait for sources. `Rebuild_Order.csv` carries each one's era, library count and scope. Eighteen traditions in eras 1 to 7 have two works or fewer. They stay in scope, but a tradition whose research finds too little goes to the source-research thread, which takes the thin and waiting traditions as its want list.
