@@ -162,7 +162,7 @@ What passed on, in the held record: their books, which Eusebius kept and quoted,
 - "secret meals" → "at their feasts" (athen-grc 179–180, δεῖπνα).
 - "were troubling the Christians" → "were trying to trouble" (Eusebius: "had attempted").
 - "had been told the books were new" → "thought the books were new" (Theophilus: "you suppose").
-- "his petition survives" → "only the passages Eusebius copied survive".
+- "only the passages Eusebius copied survive" / "nothing else of it survives" → "Eusebius copied passages from his petition" (anf08 71060–71070 holds a further fragment from the *Chronicon Alexandrinum*).
 - "atheists of such gods, yes, but not…" → "he granted they were atheists of such gods, and said they worshipped the most true God".
 - Marcion's followers "were not persecuted" without "for their teaching" → keep the limit (κἂν διὰ τὰ δόγματα, 1apol-grc 742); and not "Marcion, still alive" (the Greek says "still teaching").
 - "because the books were new, they were thought false" → no "because": the friend held both views together (anf02 10155–10157).

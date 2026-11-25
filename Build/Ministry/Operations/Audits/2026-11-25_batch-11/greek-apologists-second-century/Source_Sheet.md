@@ -186,5 +186,5 @@ What was defended: that Christians worship one God, the maker of all, and are ne
 - `minucius-felix_octavius-*` and Tertullian's Apology: the Latin Apologists' material.
 - npnf201 V.1 (Lyon, 177): the same charges made in Gaul, but told on the Irenaeus of Lyon page, and no old source ties it to any apologist.
 - `knopf_ausgewaehlte-maertyrerakten…` / `acta-martyrum-selecta_gebhardt1902.txt` (Acts of Justin): justin-martyr's trial, not retold.
-- anf08 70117–71395 (Melito, the Philosopher): the Syriac 'Discourse in the Presence of Antoninus Caesar', whose ascription to Melito the ANF introduction treats as uncertain, and fragments of his Apology that repeat Eusebius's extracts. The story's Melito rests on Eusebius's quotation.
+- anf08 70117–71395 (Melito, the Philosopher): the Syriac 'Discourse in the Presence of Antoninus Caesar', whose ascription to Melito the ANF introduction treats as uncertain, and fragments of his Apology: Fragment II repeats Eusebius's extracts (anf08 70962–71058); Fragment III, "From the Same Apology", comes from the *Chronicon Alexandrinum*, not Eusebius (anf08 71060–71070). The story's Melito rests on Eusebius's quotation.
 - The census card's notes, the existing `longDescription` and `brief.approved.txt`: not used (the census dump showed the `longDescription` once in passing; nothing here is drawn from it).
