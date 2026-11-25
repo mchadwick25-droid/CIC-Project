@@ -132,10 +132,10 @@ Findings: 3
 Also noticed: none
 
 ## tree/priscillian
-Heart: Priscillian, a Spanish layman turned bishop, called people to a strict life given wholly to God. Accused of heresy and sorcery by other bishops, he was tried before the emperor and put to death, the first such killing, and his followers honored him as a martyr.
+Heart: Priscillian, a Spanish layman turned bishop, called people to a strict life given wholly to God. Accused of heresy and sorcery by other bishops, he was tried before the emperor and put to death, and his followers honored him as a martyr.
 Findings: 1
 - "But Damasus would not even see him, and at Milan Ambrose was just as opposed." | missing: why | weight: 1 | asks: Why would they not hear him?
-Also noticed: The heart's "the first such killing" is not in the piece; I have not relied on it.
+Also noticed: none
 
 ## tree/prosper-of-aquitaine
 Heart: Prosper of Aquitaine defended Augustine's teaching on grace and God's choosing against the monks of Marseilles and John Cassian. He also kept a chronicle.

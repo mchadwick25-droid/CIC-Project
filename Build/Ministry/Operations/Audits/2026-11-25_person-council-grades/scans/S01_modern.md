@@ -98,13 +98,12 @@ Findings: 1
 
 ## tree/first-council-of-constantinople-381
 Heart: Theodosius's council at Constantinople in 381 restored the Nicene faith, set the Spirit's place in its creed, and saw Gregory of Nazianzus give up his see.
-Findings: 6
+Findings: 5
 - "The creed comes down to us in the acts of the Council of Chalcedon, seventy years later, as Henry Percival, the council's English editor, notes." | kind: modern writer | weight: 1 | who: Henry Percival
 - "By the reading of Charles Joseph Hefele, the historian of the councils, Meletius of Antioch led them at first." | kind: modern writer | weight: 1 | who: Charles Joseph Hefele
 - "Hefele thinks the bishops reworked a creed already in use." | kind: modern writer | weight: 3 | who: Charles Joseph Hefele
 - "F. J. A. Hort argued they issued none." | kind: modern writer | weight: 3 | who: F. J. A. Hort
 - "Rome accepted the creed but long refused the canons, Hefele says." | kind: modern writer | weight: 2 | who: Charles Joseph Hefele
-- "Thirty-six bishops of the Macedonian party, led by Eleusius of Cyzicus, also came." | kind: modern writer | weight: 1 | who: Charles Joseph Hefele (sentence falls under "By the reading of Charles Joseph Hefele")
 
 ## tree/frumentius
 Heart: Frumentius, a captive boy from Tyre who rose at the court of Aksum, gathered its Christians and came back from Alexandria as their first bishop.

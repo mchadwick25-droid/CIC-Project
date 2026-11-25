@@ -143,7 +143,7 @@ Heart: Dioscorus, bishop of Alexandria after Cyril, presided at the council of 4
 Findings: 4
 - "the minutes of Eutyches's trial were read" | missing: what | weight: 2 | asks: Tried for what?
 - "Leo wrote to him in 445 to lay down church rules" | missing: what | weight: 1 | asks: What rules?
-- "He judged them \"alien from all the Honor of the Priesthood and of the Episcopate.\"" | missing: why | weight: 3 | asks: Why did he depose Flavian and Eusebius?
+- "give his sentence on Flavian, bishop of Constantinople, and Eusebius of Dorylaeum" | missing: why | weight: 3 | asks: Why did he depose Flavian and Eusebius?
 - "Chalcedon convicted Dioscorus of hiding Leo's letter" | missing: what | weight: 1 | asks: What letter, saying what?
 Also noticed: none
 
