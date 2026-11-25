@@ -1,0 +1,173 @@
+# Outline: Apocryphal and Pseudepigraphal Literature
+
+Kind: tradition (`kinds/tradition.md`). Census id `apocryphal-and-pseudepigraphal-literature`; spoken name **Christian Apocrypha**, or in full "the books that were never canon" (census `shortName`, `informalName`). Shape ruling (Mark, 2026-11-25): not a community; told through the people who wrote, read, copied and judged the books. All lines cite `Source_Sheet.md` rows and, through them, `cic/texts/` lines.
+
+## The heart
+
+- **The essence:** In the second to fourth centuries, Christians wrote and read gospels and tales of the apostles under the apostles' own names, books that never entered the New Testament. Congregations read them aloud and argued over them, and bishops and teachers had to judge them by reading them against what had been handed down. (Sheet B1b–e, B2b, B5; Documented.)
+- **Who they were:** the people who met these books: a congregation at Rhossus and its bishop, Serapion of Antioch; a presbyter in Asia who wrote one; Christians who cited it; Tertullian who answered them; Eusebius who sorted them; a pilgrim, Egeria, who heard one read. (B1, B2, B5, B6; Documented.)
+- **When and where:** about 200 to the late 300s; Syria (Rhossus, Antioch), Asia (western Turkey), Carthage, Caesarea, and Seleucia in Isauria on the south Turkish coast. (A1–A5; Documented, Egeria's date Widely Accepted as "late fourth century" only.)
+- **What they faced:** a book read in church could carry teaching the bishop held false (B1d–e); a book under Paul's name was cited to let women teach and baptize (B2b); its writer was found out (B2b). (Documented.)
+- **What they believed:** the judges: receive the apostles "as Christ", refuse writings falsely put under their names, keep what was handed down (B1b); the book's own side: Thecla's word, "In the name of Jesus Christ I am baptized on my last day," and Paul's "Go and teach the word of God" (B3b–c). (Documented as what each says.)
+- **How they practiced:** books read aloud in the congregation (B1c); a bishop borrowing a copy and reading it through (B1e); the whole Acts of Thecla read at her shrine after prayer (B6c). (Documented.)
+- **What held them together:** the apostles' names. Love of an apostle made the presbyter write ("for love of Paul"), and loyalty to the apostles made Serapion refuse what they had not handed down (B1b, B2b). (Documented.)
+- **What came of them:** the books outlived the verdicts: the Acts of Thecla read in full at her shrine (B6c); a book of James on Mary's childhood kept in many later copies (B4g); the test of what was handed down kept by Eusebius (B5). (Documented.)
+
+## Length
+
+**500 words, about 3 minutes 20 seconds** (kit range 450–675). Count the story must carry: three quotes, 97 words; glosses (presbyter, heresy, "handed down", Eusebius's two kinds of rejected book, what Thecla's book told), about 70; witnesses credited (Eusebius keeps Serapion's letter; Tertullian argues against the book; Origen reports "some say"; Egeria's own account; the book's own voice for its wonders), about 45. Beats as planned run to about 520; the Cut first list brings it to 500, and further to 450 if Mark sets the floor.
+
+## Setting
+
+- **Century and place:** "about the year 200" for Serapion and Tertullian (A1, A2, A4; Widely Accepted). Rhossus, "a town on the coast of Syria, near Antioch" (A3). Carthage, "in Roman Africa" (A4). Seleucia, "on the south coast of today's Turkey" (A5).
+- **Tradition:** none of its own; the books passed through the churches of Syria, Asia, Africa and Palestine. Spoken word: "the churches".
+- Weave a clause at a time; never all in one sentence.
+
+## Words to explain
+
+| Word | Plain sense to work in |
+|---|---|
+| presbyter | "a presbyter, an elder of the church" (B2b, CSEL 20 12262) |
+| heresy | "a teaching he held false" (B1d, Schwartz 2517) |
+| falsely put under their names | "books that carried an apostle's name he did not write" (B1b) |
+| handed down | "received in the churches from the apostles" (B1b, B5a) |
+| Eusebius's "rejected" books | "read by many, but not genuine" (B5c); the heretics' books "cast aside" outright (B5d) |
+| baptize | known word; but Thecla's act needs its scene: she throws herself into a pit of water in the arena (B3b) |
+| Acts (of Paul) | "a book of Paul's travels and deeds" (B2b, B3) |
+
+## Shape
+
+Told through the people who wrote, read, copied and judged the books (Mark's ruling). The kind kit's form, a story in time order.
+
+## Sibling
+
+- **Ebionite-Nazoraean current** (this batch): the Jewish-Christian gospels are told there; this story leaves them out.
+- **Alexandria** (this batch): Origen's use of the books, a clause at most here (beat 3). Its prompt confirms: "a clause there, not here".
+- **hermas** (live): the Shepherd as read but not read out in church. This story names no Shepherd line and leaves Eusebius's listing of it out (B5c).
+- Athanasius (live) tells Festal Letter 39; not told here.
+
+## Openings
+
+1. **"Let it be read."** On a visit to Rhossus, a small church on the Syrian coast, Bishop Serapion of Antioch found the people quarrelling over a gospel that carried Peter's name. He had not read it, and he thought them all sound in faith. So he gave a short answer (Quote 1). (B1c; Documented.)
+2. **The presbyter's confession.** Tertullian, writing in Carthage, answered people who cited a book of Paul's deeds: its writer, a presbyter in Asia, had been found out and had confessed (Quote 3). (B2b; Documented.) Use only if opening 1 is not taken.
+
+## Story beats
+
+1. **Serapion changes his mind.** After he left, Serapion was told the gospel's backers had a mind "lurking in some heresy", a teaching he held false. He wrote that he would hurry back: "expect me soon". He borrowed the book from those who had used it from the first, read it through, found most of it agreed with the Saviour's true teaching, and some things added. He set those out for them. His rule (Quote 2). Reason: what he was told of the backers' teaching, then his own reading. Eusebius, a century later, kept these lines; the list of additions is lost. (B1a–f; Documented.)
+2. **Thecla's book, and its writer.** About the same years, a book under Paul's name told of Thecla, a girl of Iconium who listened at a window to Paul, refused the man she was promised to, and was condemned to the fire for it. Later, at Antioch, a governor sent her to the beasts for shaming a powerful man who had seized her in the street. In the arena she threw herself into a pit of water: "In the name of Jesus Christ I am baptized on my last day." Paul later told her, "Go and teach the word of God." (Told as the book tells it: the seals killed by fire are its wonder.) Some cited her example as leave for women to teach and baptize. Tertullian, writing in Carthage, answered that Paul did not even let a woman learn too boldly. Then he told of the writer (Quote 3). Reason he left office: he was found out and confessed; Tertullian gives "for love of Paul". (B2a–d, B3a–c; ANF8 47884–47892 for the fire, 47943–47957 for the beasts; Documented.)
+3. **A book of James and Mary's childhood.** Another book carried the name of James and told what the Gospels do not: Mary's birth to a childless couple, Joachim and Anna; her years in the temple from the age of three, fed, it says, by an angel's hand; and her betrothal at twelve to Joseph, an old man with sons. Origen, the great teacher of Alexandria, knew a "Book of James" from which some said Jesus's brothers were Joseph's sons by an earlier wife; they meant to keep Mary's virginity honoured. (B4a, c–f; Documented as what each says. Narrate Origen; his words are barred.)
+4. **Eusebius sorts the books.** Early in the fourth century, Eusebius of Caesarea, writing his Church History, set the books in order. The Acts of Paul he counted among books read but not genuine. The gospels of Peter and Thomas and the Acts of Andrew and John he set lower: books under the apostles' names that no church writer had thought worth mention, unlike the apostles in style and thought, to be cast aside, in his words, "as absurd and impious". Reason: they were not handed down, and their teaching was not the churches'. (B5a–d; Documented.)
+5. **Egeria at Thecla's shrine.** Late in the fourth century, Egeria, a pilgrim from the West, came to Seleucia, where Thecla's book says she ended her days. On a low hill outside the city stood her church, with cells of men and women round it, and a wall against robbers. A deaconess, Marthana, ruled the cells of the virgins. There, Egeria writes, prayer was made at the memorial, and the whole of the Acts of Thecla was read. (B3d, B6a–c; Documented.)
+
+## What came of it
+
+1. **The test of what was handed down** (defended): Serapion's rule, kept by Eusebius, who sorts by the same test (B1b, B5). Athanasius in 367 calls such books "an invention of heretics" (C1): card only.
+2. **Thecla's book read on at her shrine** (B6c); Jerome still knows it around 392 and counts it apocryphal (C2).
+3. **The book of James kept and copied:** many later manuscripts; later Latin retellings drawn from it (B4g, C3). The later books come in only as this.
+4. **Jerome's warning to a mother, about 403:** read such books, if at all, as gold in dirt (C4). Card.
+5. **The Gospel of Peter fragment** found at Akhmim in 1886 (C5). Card; its identity with Serapion's book is modern.
+
+## Quotes
+
+1. **Serapion** (render from Greek, Schwartz 2515–2516, a clean print with OCR damage, confirmed by Rufinus's Latin 2582–2583 and npnf201 33711–33712): "If this is the only thing that seems to be causing bad feeling among you, let it be read." Job: the opening; shows how a book came to be read in church, and the trust he began with.
+2. **Serapion** (Greek, Schwartz 2510–2513, same confirmation, Rufinus 2576–2579, npnf201 33704–33707): "Brothers, we receive Peter and the other apostles as we receive Christ. But the writings falsely put under their names we refuse, as people with experience. We know that such things were not handed down to us." Job: his rule, the test the whole story turns on.
+3. **Tertullian** (render from Latin, CSEL 20 12262–12264, a clean print, confirmed by Oehler 59436–59439, a damaged print): "Let them know that the presbyter in Asia who put that writing together, as if adding to Paul's fame from his own store, was found out. He confessed that he had done it for love of Paul, and he left his office." Job: the writer's side, and the price; carries what held the books together.
+
+None is used elsewhere on the tree (census search: the only other uses are this entry's own card). No reuse; no barred quote.
+
+## Names
+
+| Name | Mark | Spelling |
+|---|---|---|
+| Serapion | acts; link (Antioch, people) | Serapion |
+| Tertullian | acts; link `tertullian-s-voice` | Tertullian |
+| Thecla | acts (in the book) | Thecla |
+| Paul | link (in the book) | Paul |
+| Origen | link `origen`, Alexandria | Origen |
+| Eusebius of Caesarea | acts; link | Eusebius of Caesarea |
+| Egeria | acts; link (Jerusalem tradition) | Egeria |
+| Peter, James, Mary, Joseph | in the books' titles and stories | as given |
+| Joachim and Anna, Marthana | optional (Cut first) | — |
+
+Everyone else by role: the presbyter, the backers at Rhossus.
+
+## Connection to carry into the story
+
+The books passed hand to hand, and so did the judging. At Rhossus the gospel came to the bishop from the very group that used it (B1e); Thecla's story crossed from Asia to Carthage as an argument (B2b) and on to Seleucia as a reading at her tomb (B6c). Serapion's test, what the apostles handed down, passed to Eusebius, who kept his letter and sorted the books by it (B1a, B5). The listener must understand that the same love of the apostles drove both the writing and the refusing, and that the verdicts did not stop the reading. Show it through the borrowed copy, the confession and the reading at the shrine; never in a "this matters because" line.
+
+## Ending
+
+1. **The reading at Thecla's memorial** (B6c): prayer, then the whole of her Acts read, the book whose writer had left his office now read in full at her tomb. Do not add that Egeria knew of the presbyter.
+2. **Thecla's own end in her book** (B3d, Gebhardt form): she went to Seleucia, taught many, and fell asleep, then Egeria arriving there.
+
+## Links
+
+- Serapion: bishop of Antioch, in `antiochene-church-third-century` (people). Kind: "judged a book read at".
+- `tertullian-s-voice`: wrote against the book's use.
+- `origen`; `alexandria-catechetical`: census edge "influenced" (Documented), reported a book of James.
+- `eusebius-of-caesarea`: kept Serapion's letter; sorted the books.
+- `jerusalem-liturgical-pilgrimage-christianity` (Egeria): heard the Acts of Thecla read.
+- `aquileian-christianity`: census edge "influenced" (Rufinus's Recognitions); not told.
+
+## Who tells it
+
+| Source | Old or modern | Time | Credited beside |
+|---|---|---|---|
+| Serapion's letter, in Eusebius, Church History 6.12 | old, own words, kept a century later | c. 200; Eusebius c. 300–325 | beat 1, quotes 1–2. The story says once, inside the sentence about Serapion's letter, that Eusebius kept it. |
+| Eusebius, Church History 3.3, 3.25, 5.22, 6.11 | old, later witness | early fourth century | beat 4; dates of Serapion |
+| Tertullian, On Baptism 17 | old, contemporary; argues against the book's use | c. 200 | beat 2, quote 3 (credit: Tertullian, answering those who cited it) |
+| Acts of Paul and Thecla (Gebhardt Greek; ANF 8) | old, the book itself, in later copies | composition date uncertain | beat 2 (its wonders in its voice) |
+| Book of James (Protevangelium, ANF 8) | old, the book itself, eleventh-century and later copies | composition date uncertain | beat 3 |
+| Origen, Commentary on Matthew 10.17 (ANF 9) | old, later witness | first half of third century | beat 3 ("some say") |
+| Egeria, Pilgrimage (McClure–Feltoe 1919; Bernard 1896) | old, own words; her date is editors' reckoning | late fourth century | beat 5, ending |
+| Schwartz–Mommsen; Reifferscheid–Wissowa; Gebhardt | modern, clarify (editions) | — | texts only |
+| McGiffert, Thelwall, Walker, Robinson notes and intros | modern; clarify (place of Rhossus, manuscripts, the Akhmim find); McGiffert on the Docetae and ANF8 on Origen's book make claims of their own | — | not told |
+| Foster 2010; Ehrman 2013 (card) | modern, claims of their own | — | Modern works list only |
+
+The doubt is not itself the story; no scene of doubt.
+
+## Do not say
+
+| Wrong | Right |
+|---|---|
+| Serapion "allowed" the book after reading it, or "banned" it at once | He let it be read without reading it; after what he was told, he borrowed it and read it (B1c–e). |
+| "He condemned the whole book" | "most of it" agreed with the Saviour's true teaching; "some things" were added (B1e). |
+| Any account of what the additions were | Not kept; Eusebius quotes no list (B1f). |
+| "Docetists, who said Christ's body was not real" | Leave the name out; say "the group that had used it from the first" (B1e; the gloss is modern, disputed). |
+| "Serapion returned and…" | He promised to come soon; the record does not say he came (B1d). |
+| "The presbyter was deposed / excommunicated / tried before John" | "he left his office" (Tertullian); "before John" is Jerome's later addition (E). |
+| "The presbyter wrote the very book we have" | "a book under Paul's name told of Thecla" (B2b, B3). |
+| Thecla told as a person of history | Thecla as the book tells her; her shrine as Egeria saw it. |
+| "The seals were struck dead by lightning" in the narrator's voice | "the book says" (B3b). |
+| "Mary was fed by an angel" as fact | "fed, it says, by an angel's hand" (B4e). |
+| "Origen read the Protevangelium" | "Origen knew a book of James" (B4a–b). |
+| "the mid-second-century Protevangelium", any date for the books | No composition date. |
+| "Eusebius banned / the church voted" | Eusebius sorted them in his history (B5). |
+| "Egeria read the Acts" | "the whole of the Acts of Thecla was read" (passive, B6c). |
+| "in 384" or any exact year for Egeria | "late in the fourth century". |
+| "a local council" or "the canon was fixed" | Not in these sources. |
+| "She was sent to the beasts for her faith" | Fire: for refusing to marry; beasts: for shaming the man who seized her (ANF8 47888–47892, 47944–47957). |
+| "Thecla became one of the most venerated women" | Show only the shrine, the cells and the reading (B6). |
+
+## Leave out
+
+- The Gospel of Peter fragment's content and the Akhmim find (modern identification; card).
+- Docetae and Marcianus (name only, or a sentence the editor marks faulty).
+- The Muratorian Fragment (date and place modern; its Shepherd lines belong to hermas).
+- Athanasius's Festal Letter 39 (told in his own story; card).
+- Jerome's "before John" and "the lion baptized" (late legend; card).
+- Jerome's Letter 107 (after the window; card).
+- The Testaments of the Twelve Patriarchs and Jewish pseudepigrapha (no held old witness in the window; card's claim modern).
+- The later books: Pseudo-Matthew, Infancy Thomas, the Passing of Mary, Pilate cycle, later Acts (only as "what came of it", card).
+- Origen's De principiis use of the Acts of Paul (one Origen clause is the slate's limit).
+- Egeria's Thomas reading at Edessa (which book is uncertain).
+- The Jewish-Christian gospels (Ebionite story).
+- The Shepherd (hermas).
+
+## Cut first
+
+1. Joachim and Anna's names: "a childless couple" only. Leave out. (−4)
+2. Marthana's name and the deaconess: "cells of men and women". Card. (−12)
+3. Eusebius's reasons beyond "not handed down" (style and thought). Card. (−14)
+4. Origen's purpose clause (to keep Mary's virginity honoured). Card. (−10)
+5. To reach 450 only if Mark sets it: the Thecla seals wonder and "listened at a window". Leave out. (−25)
