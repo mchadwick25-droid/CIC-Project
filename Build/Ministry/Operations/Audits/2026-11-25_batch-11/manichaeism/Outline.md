@@ -23,6 +23,8 @@ The count the story must carry first: three quotes (Q1 about 65 words, Q2 about 
 
 Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommended"): the heart above, and **675 words** (the independent count in `Length_Count.md`, rounded up, capped at 675). Every Cut first item goes to the card or Leave out as it is marked. The independent count is 687 after Cut first, so this outline adds to its Cut first list to reach 675.
 
+**Length ruling:** Mark, 2026-11-25 ("Batch 11: lengths, up to 4:30 and cut at the outline", "a"): up to 675 words, and no longer than the heart needs; the approved figure above stands unless a draft runs past 675, when the outline goes back to its researcher.
+
 ## Setting
 
 - **Century and years:** Mani born in Babylonia in 216 (A1; Widely Accepted). His first revelation "at twelve" (B2; A2). Under King Shapur (A4, B4), then, by Biruni's and the Fihrist's account, King Bahram, under whom he died; Alexander, writing about 300, puts the death under Shapur (B10, ALX 24496-24498; the 270s is modern reckoning, so say "under King Bahram"). Egypt "by about 300" (B12; Alexander writes then). Roman laws: 372 and 399 (B13, B21). Hippo: August 392 (B17). China: 732, 768, 806, 843 (B22-B26). Biruni "about the year 1000" (BIR, title note; Widely Accepted).

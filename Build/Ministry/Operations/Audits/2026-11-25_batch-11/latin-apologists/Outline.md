@@ -22,6 +22,8 @@ Lines are file lines in `cic/texts/`; file abbreviations as in `Source_Sheet.md`
 
 Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommended"): the heart above, and **515 words** (the independent count in `Length_Count.md`, rounded up, capped at 675). Every Cut first item goes to the card or Leave out as it is marked. The job drops "a language with no words for it yet".
 
+**Length ruling:** Mark, 2026-11-25 ("Batch 11: lengths, up to 4:30 and cut at the outline", "a"): up to 675 words, and no longer than the heart needs; the approved figure above stands unless a draft runs past 675, when the outline goes back to its researcher.
+
 ## Setting
 
 - **Time:** around 200 (Tertullian, NPNF2-3 40498-40499); "in Diocletian's reign" for Arnobius and Lactantius (NPNF2-3 41022-41025, 41033-41035); the destruction of churches (ANF7 4487). No year for the Apology (ANF3 1443-1446) or the Octavius.

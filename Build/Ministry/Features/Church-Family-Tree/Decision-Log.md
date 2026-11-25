@@ -5943,3 +5943,14 @@ All of it is this batch only.
 5. The roll-call risk in Greek Apologists and Ebionites is a test for the outline check.
 
 All of it is this batch only.
+
+## 2026-11-25 — Batch 11: lengths, up to 4:30 and cut at the outline (Mark)
+
+**Why.** The approved lengths (the independent count, a formula) ran short of the real telling: the outline checks found Alexandria about 525 against 445, Syriac about 650 against 540, Montanism about 540 against 500, Latin Pastoral about 870 against 650 and the Ebionites about 730 against 660; the first two drafts ran Antioch 675 against 535 and the Roman Church 960 against 625 (its check had passed it at about 622). The page: https://claude.ai/artifact/5Q6eUCoiF48RMJRqsG6WeM (version 6).
+
+**Decided (Mark, 2026-11-25): "a".**
+1. Every story may run up to 675 words (4:30), and no longer than its heart needs. Where a draft or a check runs past 675, the outline goes back to its researcher, who moves beats to the card or Leave out until it fits; the checker confirms nothing from the heart or Part 1's required explanations goes; then the writer drafts again.
+2. Antioch stays at 675 as drafted; the reviewer may name cuts of lines that do not carry the heart. The Roman Church outline is cut back to 675 that way. The Ebionites take Cut first items 7 and 8 (Ending 2 in place of Augustine's ending; the Pella beginning left out), about 660. Latin Pastoral takes its recheck's moves 1 to 7 and keeps its essence whole, about 690. Alexandria (about 525), Syriac (about 650) and Montanism (about 540) keep the lengths their checks found.
+3. The three heart wordings the outline check changed (Alexandria, Latin Apologists, House Church) stand.
+
+This batch only. A kit change, so that the hearts page's count comes from a test telling rather than a formula, would come to Mark on its own.

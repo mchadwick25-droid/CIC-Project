@@ -23,6 +23,8 @@ Count of what must be carried: three quotes about 95 words (Herais 25, Clement 5
 
 Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommended"): the heart above, and **445 words** (the independent count in `Length_Count.md`, rounded up, capped at 675). Every Cut first item goes to the card or Leave out as it is marked.
 
+**Length ruling:** Mark, 2026-11-25 ("Batch 11: lengths, up to 4:30 and cut at the outline", "a"): about 525 words, the length the check found.
+
 ## Setting
 
 - **Time:** late second century to the mid-third: "the first year of Commodus" for Pantaenus (E-en 28467-28476, 28488), about 180; "the tenth year of the reign of Severus", about 202 (E-en 32523-32533); Origen leaves about 231 (E-en 36330-36332); Dionysius bishop from about 247/8 (E-en 37071-37080). Spoken: "about 180", "around 200", "in the middle of the next century".

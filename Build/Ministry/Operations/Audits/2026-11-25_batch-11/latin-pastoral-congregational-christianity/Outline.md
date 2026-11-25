@@ -23,6 +23,8 @@ Recount, after the eleven Cut first items and the outline check's B1 items (all 
 
 Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommended"): the heart above, and **650 words** (the independent count in `Length_Count.md`, rounded up, capped at 675). Every Cut first item goes to the card or Leave out as it is marked.
 
+**Length ruling:** Mark, 2026-11-25 ("Batch 11: lengths, up to 4:30 and cut at the outline", "a"): about 690 words: the recheck's length moves 1 to 7 apply, and the essence is kept whole (move 8 is not taken).
+
 ## Setting
 
 - **Century and years:** "in 250", under an emperor's order to sacrifice (S4; Decius may be named, Widely Accepted). The plague: "a few years later" (P1; its year is modern reckoning). Cyprian's death: 14 September 258 (D5). The split at Carthage: "soon after the great persecution ended", or "early in the 300s" (R1; 311 or 312 Contested). Augustine made priest: "in the 390s" (H1; the year 391 is modern reckoning, so not told). The siege of Hippo and his death: 430 (V7).

@@ -21,6 +21,8 @@ Lines are file lines in `cic/texts/`; file abbreviations and the full passages a
 
 Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommended"): the heart above, and **500 words** (the independent count in `Length_Count.md`, rounded up, capped at 675). Every Cut first item goes to the card or Leave out as it is marked.
 
+**Length ruling:** Mark, 2026-11-25 ("Batch 11: lengths, up to 4:30 and cut at the outline", "a"): about 540 words, the length the check found.
+
 ## Setting
 
 - **Time:** "in the second century" for the start (Contested: HE 29591-29592; PanH 17019; HE 30456-30458). "By the 170s" for word reaching Gaul (HE 26706-26707, 27655-27680). "Around 200" and "in the early third century" for Tertullian. "About 375" for Epiphanius (PanH 17224-17226: the twelfth year of Valentinian and Valens). "In the fifth century" for Sozomen; "in the sixth century, under Justinian" for the end.

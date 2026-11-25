@@ -21,6 +21,8 @@ Kind: tradition (`kinds/tradition.md`). Census id `ebionite-nazoraean-current`; 
 
 Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommended"): the heart above, and **660 words** (the independent count in `Length_Count.md`, rounded up, capped at 675). Every Cut first item goes to the card or Leave out as it is marked. The outline check tests the roll-call risk: each beat carries people acting.
 
+**Length ruling:** Mark, 2026-11-25 ("Batch 11: lengths, up to 4:30 and cut at the outline", "a"): about 660 words: Cut first items 7 and 8 apply too (Ending 2 in place of Augustine's ending; the Pella beginning left out).
+
 ## Setting
 
 - **Century and place:** mid-second century for Justin (A2; Eusebius alone places the dialogue at Ephesus, A1: leave the place out); "about 180" for Irenaeus (A3); Origen "in his last years" (A4: over sixty); Eusebius "under Constantine" (A5); Epiphanius "about 375" (A6); Jerome 392 and 404 (A7, A8). Spoken places: "Palestine and Syria"; "Beroea, in Syria" (A11); "Pella, a town beyond the Jordan" (H1); "Kokaba" (A9). Lyon "in Gaul", Cyprus, Alexandria, Africa as clauses for the witnesses.

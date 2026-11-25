@@ -21,6 +21,8 @@ Kind: tradition (`kinds/tradition.md`). Census id `apocryphal-and-pseudepigrapha
 
 Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommended"): the heart above, and **510 words** (the independent count in `Length_Count.md`, rounded up, capped at 675). Every Cut first item goes to the card or Leave out as it is marked.
 
+**Length ruling:** Mark, 2026-11-25 ("Batch 11: lengths, up to 4:30 and cut at the outline", "a"): up to 675 words, and no longer than the heart needs; the approved figure above stands unless a draft runs past 675, when the outline goes back to its researcher.
+
 ## Setting
 
 - **Century and place:** "about the year 200" for Serapion and Tertullian (A1, A2, A4; Widely Accepted). Rhossus, "a town on the coast of Syria, near Antioch" (A3). Carthage, "in Roman Africa" (A4). Seleucia, "on the south coast of today's Turkey" (A5).

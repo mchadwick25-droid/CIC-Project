@@ -21,6 +21,8 @@ About **4 minutes, about 600 words** (inside the kind's 450–675). Approved len
 
 Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommended"): the heart above, and **505 words** (the independent count in `Length_Count.md`, rounded up, capped at 675). Every Cut first item goes to the card or Leave out as it is marked. The outline check tests the roll-call risk: each beat carries people acting.
 
+**Length ruling:** Mark, 2026-11-25 ("Batch 11: lengths, up to 4:30 and cut at the outline", "a"): up to 675 words, and no longer than the heart needs; the approved figure above stands unless a draft runs past 675, when the outline goes back to its researcher.
+
 ## Setting
 
 - Century: the second century. Spoken: "in the reign of Hadrian", "at Rome, under Antoninus Pius", "under Marcus Aurelius". No year numbers for Quadratus or Justin (Source Sheet §6).

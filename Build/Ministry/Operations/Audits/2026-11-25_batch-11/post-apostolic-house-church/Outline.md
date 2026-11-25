@@ -21,6 +21,8 @@ About **4 minutes, about 620 words** (inside the kind's 450–675). Must carry f
 
 Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommended"): the heart above, and **675 words** (the independent count in `Length_Count.md`, rounded up, capped at 675). Every Cut first item goes to the card or Leave out as it is marked. The independent count is 684 after Cut first, so this outline adds to its Cut first list to reach 675.
 
+**Length ruling:** Mark, 2026-11-25 ("Batch 11: lengths, up to 4:30 and cut at the outline", "a"): up to 675 words, and no longer than the heart needs; the approved figure above stands unless a draft runs past 675, when the outline goes back to its researcher.
+
 ## Setting
 
 - Century: from near the end of the first century to near the end of the second. Spoken: "near the end of the first century" (Rome's letter, by Eusebius's and Irenaeus's placing in Clement's time: npnf201 16634–16636; anf01 39833–39836); "under the emperor Trajan" (Pliny, mirbt 2768); "under Antoninus Pius" (Justin, 1apol-grc 68–71); "when Soter was bishop of Rome" (npnf201 25082–25094); "near the end of the century" (Victor, npnf201 31003). No year numbers.

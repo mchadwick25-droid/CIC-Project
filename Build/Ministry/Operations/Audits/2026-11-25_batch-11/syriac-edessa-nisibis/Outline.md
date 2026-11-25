@@ -19,6 +19,8 @@ Kind: tradition (`Brief-Kit/kinds/tradition.md`). Every line points to `Source_S
 
 Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommended"): the heart above, and **540 words** (the independent count in `Length_Count.md`, rounded up, capped at 675). Every Cut first item goes to the card or Leave out as it is marked.
 
+**Length ruling:** Mark, 2026-11-25 ("Batch 11: lengths, up to 4:30 and cut at the outline", "a"): about 650 words, the length the check found.
+
 ## Setting
 
 - **Century and place:** about 200 to 410; Edessa (Roman) and Nisibis (Roman frontier fortress until 363, then Persian), on the frontier of Rome and Persia (S1, S2, S3). Plainest words: "Edessa", "Nisibis", "the Roman and Persian empires".

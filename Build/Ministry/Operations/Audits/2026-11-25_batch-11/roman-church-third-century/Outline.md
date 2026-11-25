@@ -25,6 +25,8 @@ The count the story must carry first: three quotes (about 95 words); the plain s
 
 Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommended"): the heart above, and **625 words** (the independent count in `Length_Count.md`, rounded up, capped at 675). Every Cut first item goes to the card or Leave out as it is marked. The story ends at 251, with the confessors' return.
 
+**Length ruling:** Mark, 2026-11-25 ("Batch 11: lengths, up to 4:30 and cut at the outline", "a"): up to 675 words. The first draft ran 960, so this outline goes back to its researcher to move beats to the card or Leave out until a telling fits 675, checked before the writer drafts again.
+
 ## Setting
 
 - **Century and years:** Zephyrinus became bishop about the ninth year of Severus (S1): say "around 200". Zephyrinus's death and Callistus's accession: say "when Zephyrinus died" or "around 217" (S2, S3, X8). Exile of Rome's bishop and Hippolytus: 235 (P1). Fabian died under Decius, 250 (D1). Cornelius and the split: 251 (N1, N4, N11).
