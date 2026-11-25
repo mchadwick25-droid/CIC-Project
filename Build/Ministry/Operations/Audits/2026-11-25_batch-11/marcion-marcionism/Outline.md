@@ -15,7 +15,7 @@ Lines are file lines in `cic/texts/`; abbreviations as in `Source_Sheet.md` (E-e
 
 ## Length
 
-**Approved 495 words.** Must carry: three quotes (about 85 words), seven glosses (about 55), credited witnesses and their hedges (about 55). Every Cut first item is outside the count.
+**Approved 495 words.** Must carry: three quotes (about 85 words), seven glosses (about 55), credited witnesses and their hedges (about 55). Every Cut first item is outside the count. **Recount after the length fix pass (2026-11-25):** the first draft, written with items 1-6 out, ran 711 words (`marcion-marcionism.brief.v1.txt`, `wc -w`); items 7-11, measured against that draft's own sentences, take out about 57, leaving about 654 against the ruled 675 (`Fixes_Length.md`).
 
 ## Approved heart and length
 
@@ -37,7 +37,7 @@ Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommend
 - **the incense test:** an accused Christian was told to sprinkle incense from a box (*acerra*) to the gods; to do it was to deny and go free (Kr 16287-16288; Pion 5562-5563, "Many others have sacrificed and live").
 - **the Catholic Church:** the name for the church "over all the world" (Cyr 20271-20273), against meetings that also called themselves churches (Cyr 20356-20359).
 - **the edict:** an emperor's law, read out to the heretics by name (E-en 66068-66080).
-- **Cyrrhus:** Theodoret's see in Syria, with eight hundred parish churches (Thdt 33165-33166).
+- **Cyrrhus:** Theodoret's see in Syria, with eight hundred parish churches (Thdt 33165-33166; the count: card, Cut first 8; "in northern Syria" carries the place).
 
 ## Shape
 
@@ -60,11 +60,11 @@ The kind kit's one form, a story, in time order: Rome (the founding, short), Asi
 
 ## Story beats
 
-1. **A generation on: the teachers divide.** Rhodon, a writer from Asia, found Marcion's followers split: Apelles held one first source, others two as Marcion did, Syneros three (E-en 28922-28928, 28967-29105). He spoke with "the old man Apelles". Q2. *Explain:* a first source (Greek *archē*), where all things come from (E-en 29002, 29073-29074). Documented (Rhodon's account, in Eusebius).
-2. **Carthage, about 207: how they lived.** Tertullian, writing five books against them, reports that their churches baptized only virgins, widows, the unmarried and the divorced (ANF3 24533-24537; Kr 16349-16351). Their God was good and judged no one, so he asked why they did not deny under persecution. Q1. A writer of the same years granted that the Marcionites claimed "a multitude of martyrs for Christ" (E-en 29926-29930). *Explain:* the incense test. *Reason for the marriage rule:* Tertullian says it condemns marriage (Kr 16352-16353); the reason from their side, as Clement reports it, was not to fill the maker's world (card). Documented as Tertullian's report.
-3. **Smyrna and Caesarea: their martyrs.** At Caesarea in Palestine, under Valerian, after three men were given to the beasts, a woman 'endured a similar conflict'; Eusebius says she was "reported" to be a Marcionite (E-gr 9662-9664; E-en 40459-40474). In the persecution that began under Diocletian, in his own city, Eusebius records an ascetic, Peter, burned, and with him Asclepius, "supposed to be" a Marcionite bishop, with zeal "as he thought" for God, who ended his life "on one and the same pyre" (E-gr 24595-24599; E-en 47046-47059). *Reason, as each source gives it:* at Smyrna the proconsul demanded sacrifice of Pionius, who answered 'I fear the living God' (Pion 5561-5563); the record gives Metrodorus no words. At Caesarea the judge begged Peter many times to spare himself, and he would not (E-en 47049-47052). For Asclepius and for the woman the sources give only the death: tell it as given. Documented; both hedges are Eusebius's.
+1. **A generation on: the teachers divide.** Rhodon, a writer from Asia, found Marcion's followers split: Apelles held one first source, others two as Marcion did, Syneros three (E-en 28922-28928, 28967-29105). He spoke with "the old man Apelles" ("old man": card, Cut first 9). Q2. *Explain:* a first source (Greek *archē*), where all things come from (E-en 29002, 29073-29074). Documented (Rhodon's account, in Eusebius).
+2. **Carthage, about 207: how they lived.** Tertullian (his five books: card, Cut first 10) reports that their churches baptized only virgins, widows, the unmarried and the divorced (ANF3 24533-24537; Kr 16349-16351). Their God was good and judged no one, so he asked why they did not deny under persecution. Q1. A writer of the same years granted that the Marcionites claimed "a multitude of martyrs for Christ" (E-en 29926-29930). *Explain:* the incense test. *Reason for the marriage rule:* Tertullian says it condemns marriage (Kr 16352-16353); the reason from their side, as Clement reports it, was not to fill the maker's world (card). Documented as Tertullian's report.
+3. **Smyrna and Caesarea: their martyrs.** At Caesarea in Palestine, under Valerian, after three men were given to the beasts, a woman 'endured a similar conflict'; Eusebius says she was "reported" to be a Marcionite (E-gr 9662-9664; E-en 40459-40474). In the persecution that began under Diocletian, in his own city, Eusebius records an ascetic, Peter, burned (Peter and the judge's pleading: card, Cut first 11), and with him Asclepius, "supposed to be" a Marcionite bishop, with zeal "as he thought" for God, who ended his life "on one and the same pyre" (E-gr 24595-24599; E-en 47046-47059). *Reason, as each source gives it:* at Smyrna the proconsul demanded sacrifice of Pionius, who answered 'I fear the living God' (Pion 5561-5563); the record gives Metrodorus no words. At Caesarea the judge begged Peter many times to spare himself, and he would not (E-en 47049-47052; goes with Peter, Cut first 11). For Asclepius and for the woman the sources give only the death: tell it as given. Documented; both hedges are Eusebius's.
 4. **After the persecutions: the edict, and churches still standing.** Constantine wrote to the "Novatians, Valentinians, Marcionites" and others, forbidding their meetings, even in private houses, and gave their houses of prayer to the catholic Church; some, Eusebius says, frightened by the threats, crept into the Church hiding what they thought (E-en 66071-66080, 66113-66146, 66161-66164; VC-gr 13038). *Reason, the edict's own:* their teaching made "the healthy soul" sick (E-en 66083). Yet their meetings went on: at Jerusalem, Cyril told those about to be baptized that in a strange city they should not ask for the church, since Marcionists and other heretics also called their meetings churches, but for the Catholic Church (Cyr 20348-20359). In Edessa, Ephrem reports their claim that they prayed more than Daniel (Ephr 1585). *Explain:* the edict; the Catholic Church. Documented.
-5. **Cyrrhus, the fifth century: the last villages.** In Theodoret's district, John Chrysostom had urged the bishop to drive out Marcion's followers, offering "the aid of the imperial edicts" (Thdt 17542-17545). Theodoret, bishop there for twenty-five years, wrote: Q3. Elsewhere he says he brought more than ten thousand of them to baptism (Thdt 35164-35166), and that he was stoned many times by the heretics he fought (Thdt 31514-31516). *Reason:* to bring them to the one Son, "not only good but just" (Thdt 35009-35010). Documented as Theodoret's own claims.
+5. **Cyrrhus, the fifth century: the last villages.** In Theodoret's district, John Chrysostom had urged the bishop to drive out Marcion's followers, offering "the aid of the imperial edicts" (Thdt 17542-17545). Theodoret, bishop there for twenty-five years, wrote: Q3. Elsewhere he says he brought more than ten thousand of them to baptism (Thdt 35164-35166), and that he was stoned many times by the heretics he fought (Thdt 31514-31516; card, Cut first 7). *Reason:* to bring them to the one Son, "not only good but just" (Thdt 35009-35010). Documented as Theodoret's own claims.
 
 ## What came of it (heaviest first)
 
@@ -96,7 +96,7 @@ None is used in another story on the tree (census and both sites searched for ea
 - Cyril of Jerusalem — acts, link (`cyril-of-jerusalem`)
 - Theodoret — acts, link (`theodoret-of-cyrrhus`)
 - John Chrysostom — acts, link (`john-chrysostom`)
-- By role, not name: Potitus, Basilicus, Syneros ("others", "a third"); Peter Apselamus ("an ascetic"); the woman at Caesarea; the anonymous writer; Ephrem (cut first). Decius, Valerian and Diocletian come in only as time clauses.
+- By role, not name: Potitus, Basilicus, Syneros ("others", "a third"); Peter Apselamus ("an ascetic"; card, Cut first 11); the woman at Caesarea; the anonymous writer; Ephrem (cut first). Decius, Valerian and Diocletian come in only as time clauses.
 
 ## Connection to carry into the story
 
@@ -189,3 +189,13 @@ What passed was a rival church with its own Scripture, and the mainstream church
 4. The Marcionites who "crept into the Church" hiding their minds, beat 4 — card. (about 15)
 5. The woman at Caesarea under Valerian, beat 3 — card. (about 30)
 6. Theodoret's "more than ten thousand", beat 5 — card. (about 15)
+
+Length fix pass (Mark, 2026-11-25, "Batch 11: lengths, up to 4:30 and cut at the outline", "a"): the first draft ran 711 with items 1-6 out, so items 7-11 are also applied, in this order. Each word cost is measured on the first draft (`Fixes_Length.md`).
+
+7. Theodoret stoned many times by the heretics he fought (beat 5, Thdt 31514-31516), keeping his reason, the one Son "not only good but just", about 9 words: **for the card**.
+8. The eight hundred parish churches of Cyrrhus (beat 5, Thdt 33165-33166), keeping "the district of Cyrrhus, in northern Syria", about 6 words: **for the card**.
+9. Apelles "by then an old man" (beat 1, E-en 29119), keeping him as one of their teachers who held one first source, about 6 words: **for the card**.
+10. Tertullian's five books against Marcion (beat 2), keeping Carthage, about 207, and Tertullian credited by name for the report, about 6 words: **for the card**.
+11. Peter the ascetic, with its gloss, and the judge's pleading that he spare himself (beat 3, E-en 47046-47052), keeping Asclepius burned in Eusebius's own city, in the persecution that began under Diocletian, "supposed to be" a Marcionite bishop, with zeal "as he thought" for God; for Asclepius the sources give only the death, so tell it as given, about 30 words: **for the card**.
+
+With cuts 1-11 applied, the story stands at about 654 words by the first draft's measure, against the ruled 675. Never cut: the Smyrna opening with Pionius's reason (Pion 5561-5563), the essence with Tertullian's reason for the break and Irenaeus's credit and the one-witness clause, the first sources with their gloss, Q1 with the marriage rule and Tertullian's charge and the incense test, Asclepius with both of Eusebius's hedges, the edict with its gloss and its reason, "Yet their meetings went on", Cyril with the Catholic Church and its gloss, Chrysostom's offer of the edicts, Theodoret's reason, Q3.
