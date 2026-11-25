@@ -174,6 +174,8 @@ What passed was a rival church with its own Scripture, and the mainstream church
 - "heretics" with no plain sense, or "people who disagreed with the church" → their enemies' word, from the Greek for a choice: those who, their enemies said, chose error (ANF3 20274-20279). Not "those judged to teach falsely": no held line says it.
 - "curiosity about philosophy" / "about evil" / "about Scripture" as Tertullian's reason for the break → Prescription 30 names no object (ANF3 21338-21339); tell "his restless curiosity" alone.
 - "Marcion's two first sources were a good God and an evil God" → Rhodon gives "two principles" only (E-en 29073-29085); the two Gods are Irenaeus's, a good Father "above the God that made the world" (ANF1 33577-33582). McGiffert's note 1543 (begins E-en 29002, runs to 29029: the maker "an angel", "Satan") are a modern editor's claims: leave out.
+- "the law and the prophets, which Jesus set aside" → "abolishing the prophets and the law" (ANF1 33581).
+- "burned in his own city" with Asclepius as the nearest "he" → "burned at Caesarea, Eusebius's own city".
 
 ## Leave out
 
