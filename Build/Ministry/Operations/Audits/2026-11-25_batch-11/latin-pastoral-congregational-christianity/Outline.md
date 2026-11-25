@@ -4,7 +4,7 @@ Census id `latin-pastoral-congregational-christianity` (census name: Latin Pasto
 
 ## The heart
 
-- **The essence:** From the 250s to 430, the Latin-speaking Christians of Roman Africa lived as congregations around one bishop, at Carthage under Cyprian and later at Hippo under Augustine. He taught them, fed their poor, bought back their captives, judged their quarrels and decided with them whom to take back after sin. Persecution, plague and a rival church in the same towns pressed on them, and the record keeps asking what a bishop and his people owed each other in danger. (K1, K3-K5, L1, P2-P5, R3, B2-B5, V3.)
+- **The essence:** From the 250s to 430, the Latin-speaking Christians of Roman Africa lived as congregations around one bishop, at Carthage under Cyprian and later at Hippo under Augustine. He taught them, fed their poor, bought back their captives, judged their quarrels and decided with them whom to take back after sin. Persecution, plague and a rival church in the same towns pressed on them, and the record keeps asking what a bishop and his people owed each other in danger. (K1, K3-K6, L1, P2-P5, R3, B2-B5, V3.)
 - **Who they were:** the church of each town with its bishop, clergy and people; they called it the Catholic Church, and at Hippo they were "the Catholics" (S2). Cyprian calls the whole body the brethren (K1, K4). Spoken name: "the Latin-speaking churches of Roman Africa"; title "Latin Pastoral Christianity in Africa" (S1).
 - **When and where:** Carthage, from the persecution of 250 to Cyprian's death in 258 (S4, D5); Hippo, from Augustine's ordination as priest to the Vandal siege of 430 (H1, V7). Between them, the split of the early 300s (R1-R3).
 - **What they faced:** an emperor's order to sacrifice, and many who gave way (S4, S5); a stricter party with a second bishop (L2, L4); plague (P1); raiders who took Christians captive (P4); the Roman rites ordered again, and their bishop's death (S6, D3-D5); a second church that baptized again (R3-R5); the Vandals (S7, V6, V9).
@@ -26,7 +26,7 @@ Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommend
 ## Setting
 
 - **Century and years:** "in 250", under an emperor's order to sacrifice (S4; Decius may be named, Widely Accepted). The plague: "a few years later" (P1; its year is modern reckoning). Cyprian's death: 14 September 258 (D5). The split at Carthage: "soon after the great persecution ended", or "early in the 300s" (R1; 311 or 312 Contested). Augustine made priest: "in the 390s" (H1; the year 391 is modern reckoning, so not told). The siege of Hippo and his death: 430 (V7).
-- **Place:** Carthage, the great city of Roman Africa, today's Tunisia; Hippo, a town in Roman Africa, today's Algeria (S1); Numidia, inland, where the captives were taken (P4).
+- **Place:** Carthage, the great city of Roman Africa, today's Tunisia; Hippo, a town in Roman Africa, today's Algeria (S1).
 - **Tradition:** the Latin-speaking Catholic churches of Roman Africa, each with one bishop, priests, deacons and people (S2).
 
 ## Words to explain
@@ -37,16 +37,12 @@ Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommend
 | the fallen (the lapsed) | "those who had given way and sacrificed" | S5 |
 | penance; peace | "a time of public repentance"; "peace", the church's word for taking someone back to share the bread and cup | L1 |
 | a second bishop | "a second bishop of Rome, set up against the one already chosen" | L4 |
-| Stephen's rule / Cyprian's | Stephen: those baptized among heretics, in groups cut off from the church, were received with a laying on of hands; Cyprian: washing outside the church was no baptism, so they were baptized | D1, D2 |
 | the Roman rites | "the sacrifices of the Roman gods the emperors ordered" | S6 |
-| the rival church's charge | that the new bishop's consecrator had handed over the Scriptures to be burned, and a stained hand could not wash away sins | R2, R4 |
+| the rival church's charge | that the new bishop's consecrator had handed over the Scriptures in the persecution, and one who was himself stained could not wash away sins | R2, R4 |
 | baptizing again | they baptized again those who came over to them | R5 |
-| Manichaeans | "a religion that taught two opposed powers, good and evil" | H4 |
 | the Gladness (Laetitia) | "a feast they called the Gladness, with eating and drinking in the church" | E2 |
-| first teaching (catechumens) | "newcomers brought to be taught the faith before baptism" | B2 |
 | reconciled | "taken back into communion after penance" | V4, V5 |
 | the Vandals | "peoples from beyond the empire who crossed from Spain" | S7 |
-| sesterces | "Roman coins" | P5 |
 
 ## Shape
 
@@ -54,8 +50,8 @@ The kind kit's one form, a story: the opening at Hippo, then in time order from 
 
 ## Sibling
 
-- **The Roman Church in the Third Century** (this batch; outline read). Shared: Novatian's split and Stephen. Job here: Novatian only as his envoys at Carthage (beat 2); Stephen in one clause (beat 4). The Roman outline tells the split at Rome and sends Stephen to its card. No Roman quote is used here.
-- **Manichaeism** (this batch; researched after this outline). Shared: Augustine as a Manichaean. Job here: one clause, his nine years among them and what they taught (beat 5). Manichaeism tells his life as a Hearer.
+- **The Roman Church in the Third Century** (this batch; outline read). Shared: Novatian's split and Stephen. Job here: Novatian only as his envoys at Carthage (beat 2); Stephen to the card (cut 8). The slate gave Stephen "told here"; the hearts and lengths ruling sent him to the card with cut 8. The Roman outline tells the split at Rome and sends Stephen to its card. No Roman quote is used here.
+- **Manichaeism** (this batch; researched after this outline). Shared: Augustine as a Manichaean. Job here: none here (cut 1); Manichaeism tells it. The slate gave the Manichaean "a clause here"; the hearts and lengths ruling left it out with cut 1. Manichaeism tells his life as a Hearer.
 - Live stories beside it, read for their quotes (all barred): `cyprian-of-carthage` (his election, flight, "mother" line, plague questions, Stephen and the council of 256, the trial and both claims on him: this story names none of them in quotation); `pontius-the-deacon` (the exile, the dream, the last night); `possidius-of-calama` and `augustine-of-hippo` (the siege prayer, the conversion, the library, the death; `augustine-of-hippo` also tells his turn to the emperors' laws, which this story gives in one clause, B9, for the congregation's side of the quarrel); `councils-of-rome-and-carthage-251` (the terms for the lapsed); `novatian`; `donatism` and `pelagianism` (the split, the laws, the conference of 411, Pelagius). This story tells the congregation in these same events, with new lines.
 
 ## Openings
