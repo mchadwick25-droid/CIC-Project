@@ -26,3 +26,10 @@ Kit Part 3, step 5: one craft pass on the listener faults in `Fresh_Listen.md`, 
 
 - `wc -w`: 654 (from 672), under the cap of 675.
 - Scorer: `syriac-edessa-nisibis.brief.txt: 647 words, grade 7.7 (names out 6.7), reading ease names out 79.7, 18.5 words a sentence, 0.5 joining words per 100, 3% short sentences, longest sentence 39 words - pass (note: grade 7.7 is under 8: the listener read checks it is not flat)`
+
+## Craft check outline fixes applied
+
+Source: `Craft_Check.md` (FIX, outline only). The brief was not touched. Not committed.
+
+1. Never cut paragraph in `Outline.md`: replaced "the synod's gloss and one bishop to a city with what it ended (two or three in one city); the bishops' words that close it;" with "and the synod's gloss; the bishops' words that close it;". Applied.
+2. Cut first, new item 30 added after item 29 ("One bishop to a city ... About 13."), as written. Applied.
