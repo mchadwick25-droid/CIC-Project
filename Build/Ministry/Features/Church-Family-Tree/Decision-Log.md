@@ -5974,3 +5974,20 @@ This batch only.
 2. Latin Pastoral Christianity in Africa: about 760 words (5:03). Novatian's envoys at Carthage kept, so the slate's job (Novatian told here) stays whole.
 
 This batch only.
+**Added (Mark, 2026-11-25): "a".** Asked "why do we need to regrade batch 11, or just after", he chose an independent grading of the new texts only. Once batch 11 has finished, its 13 new texts are graded once by readers outside the batch, who have not seen its drafts or reviews. They use the same scans, the same first-time listener and the same A to F rules as `Build/Ministry/Operations/Audits/2026-11-25_tradition-grades/`. Each text's grade before and after goes to Mark on one page, beside his own listening. Batch 12 waits on that page.
+
+## 2026-11-25 — Era 2 traditions: thirteen rebuilt now, ten pushed off (Mark)
+
+**Why.** Mark: "show me era 2 grades". The era 2 grades (from `Build/Ministry/Operations/Audits/2026-11-25_tradition-grades/Rebuild_Order.csv`) went to him on one page, https://claude.ai/artifact/Tyhrs9Fw6y18SAdYjrE7vY (version 1).
+
+**Found.** Era 2 has 23 traditions, all in scope: 13 F, 2 D, 5 C, 3 B. Six are built worlds. Desert Monasticism and Donatism are stories of about 500 words, each F on one modern-guess sentence. Most other Fs are summaries of about 175 to 250 words. Four have four vendored works or fewer. Three sit beside batch 10's people, still on the held pull request #1796 (Open-Gaps 408): Antiochene Exegetical with `john-chrysostom`, Priscillianist Asceticism with `priscillian`, Pelagianism with `pelagius`.
+
+**Decided (Mark, 2026-11-25): "a, do the 13 now and push off the 10".**
+1. Batch 12 rebuilds 13 era 2 traditions through the full brief kit, with `kinds/tradition.md`, worst grade first, then reach.
+   - Half A: `desert-monasticism`, `gallic-monastic-ascetic-christianity`, `donatism`, `armenian-christianity-conversion-era`, `jerusalem-liturgical-pilgrimage-christianity`, `persian-church-of-the-east-early`, `anomoean-eunomian-christianity`.
+   - Half B: `antiochene-exegetical-christianity-chrysostom-ce`, `aquileian-christianity`, `homoian-arian-christianity`, `pneumatomachian-current`, `priscillianist-asceticism`, `cappadocian-nicene-pastoral-monastic-tradition`.
+   - The four built worlds among them also rebuild their census `entry` texts (Open-Gaps 416).
+   - Antiochene Exegetical and Priscillianist Asceticism are siblings of batch 10's Chrysostom and Priscillian. Each is researched after its person's text is settled.
+2. Batch 12 starts only once batch 11 has finished and Mark has judged its results. Mark: "lets finish era 1 to make sure we are on track and not just writing in circles before going forward".
+3. Pushed off, too thin in the Library: `apollinarian-christianity` (4 works), `melitian-schism` (1), `aksumite-christianity-conversion-era` (0) and `luciferians` (0). They go to the source-research thread first (Open-Gaps 419).
+4. Pushed off, already C or B: `imperial-juridical-christianity`, `hieronymian-ascetic-literary`, `ambrosian-milan-standalone`, `gallic-nicene-episcopate` (C), and `palestinian-ascetic-monasticism-early`, `pelagianism` (B). The two built worlds, Imperial and Hieronymian, come first when the C pass starts (Open-Gaps 420).
