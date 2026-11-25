@@ -73,6 +73,8 @@ The overall grade is the lower of the two. F: must be redone. D: should be redon
 
 ## Result
 
+See `Grades.csv` and the page for Mark (https://claude.ai/artifact/KGibkbmL7Rh6hBHdjgqi6g).
+
 | Overall | Action | All | Kit batches (98) | Before the kit (174) |
 |---|---|---|---|---|
 | F | must be redone | 158 | 30 | 128 |
