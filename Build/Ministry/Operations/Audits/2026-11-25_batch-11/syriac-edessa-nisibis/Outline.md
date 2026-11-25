@@ -142,7 +142,7 @@ The kind has one form: a story. Open on the flood, follow the community through 
 - "the Christian king Abgar" → "the king" (opening; Abgar's conversion is the legend left out).
 - "the oldest church building in the world" → "the church of the Christians" (the chronicle's words, 53).
 - "the first sure sign of a church there" → leave out (a modern judgment; the chronicle says only "the temple of the church of the Christians", 53).
-- "they heard the Gospel as one story" in the narrator's voice, or across the span → "Edessa's later founding story pictures its people hearing the four Gospels read as one story" (Addai 65 is the only old witness).
+- "they heard the Gospel as one story" in the narrator's voice, or across the span → "Edessa's later founding story pictures its people hearing the Diatessaron read: the one story Tatian wove from the four Gospels" (Addai 65 is the only old witness).
 - "from the flood" for the hymns and the covenant → "in the 300s" (their evidence begins with Aphrahat, 337 and 344, and Ephrem).
 - "serving in the church" for Aphrahat's covenant → leave out (Chabot's note on later synods only, 16181-16186).
 - "a single voice sang the verses, and the people sang a line back", "the people sang" → "each with a refrain, a line that came back after every verse"; introduce Q1 with "So the refrain runs" (the print's "R." only).
