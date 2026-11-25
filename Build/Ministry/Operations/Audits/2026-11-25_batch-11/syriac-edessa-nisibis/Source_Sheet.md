@@ -54,7 +54,7 @@ Palladius, *Lausiac History* 40, `palladius_lausiac-history_clarke1918.txt` 471 
   - 25929-25930 (VI.6): "The Only Begotten Who is from the bosom of His Father shall cause all the solitaries to rejoice."
 - The same in Parisot's Latin (1894) of the Syriac, `aphrahat_demonstrationes-1-22-syr-lat_parisot1894.txt`. Parisot's Latin confirms the NPNF English; the Syriac in this file is unreadable OCR.
   - 18150-18151 (VI.8): "quae deccnt mo- nachos, foederis filios, caelibes ac san- ctos." ("monks, sons of the covenant, celibates and holy ones": the NPNF "monks" stands for the vowed members.)
-  - 18113-18116 (VI.7): "sic ei responde : Viro Regi sum desponsata et illi servio."
+  - 18126-18134 (VI.7): "sic ei responde : Viro Regi sum desponsata et illi servio."
   - 18075-18076 (VI.6): "Solitarios omnes Unigenitus a sinu Patris laetificabit."
   - Parisot's introduction 3291-3293 (modern editor, clarifies a word): the Syriac name "ad litteram sonat « filii foederis », eosque significat qui se Deo ad servandam continentiam pacto devoverunt" (it literally means "sons of the covenant", and names those who vowed themselves to God to keep celibacy).
 - Aphrahat, *Demonstration* VII.20-21 and 25, tr. Hallock (1932), `aphrahat_demonstrations-2-7_hallock1932.txt` 57, 58, 62. Own words; a translation printed after 1931, so it is used for claims, never quoted. Confirmed by Parisot's Latin VII.21, line 21939-21942 ("Cum igitur universo foederi Dei praedicaverint ... ad aquas baptismi omnes ad praelium electos iubebunt accedere"). Documented.
