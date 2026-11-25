@@ -6056,6 +6056,18 @@ This batch only.
 
 **How it is carried out.** The card step writes the timeline and the short description after the story, from the source sheet, the outline, the census entry and the card; the card checker checks each line and headline against its source. The kit and the card role change after batch 11 finishes. The site build is its own piece of work, after that. Whether the Documented stories section leaves the card once its events are in the timeline is still open.
 
+**Added (Mark, 2026-11-25): "the documented stories are a full story to listen to, not just an event on a timeline".** Documented stories stay on the card as their own section in the menu, each a full story to listen to. Their events may also appear in the timeline as dated lines.
+
+**Added (Mark, 2026-11-25): "can we put the who and stories as one section", then "the who is the primary thing people are looking for, we need that to be first then other stories after".** People and documented stories are one section of the menu: the people first, then the other stories.
+
 ## 2026-11-25 — Church in Conversation on hold (Mark)
 
 **Decided (Mark, 2026-11-25).** "church in conversation is on hold." The Church in Conversation app is not promoted from `main` to `live` while it is on hold. The Church Family Tree, which is served from `main`, goes on.
+
+## 2026-11-25 — Recording settings for tradition briefs (Mark)
+
+**Why.** `Brief-Kit/Recording_Settings.md` had settings for a person and a council only, and the council command left its output format and delivery to the script (Open-Gaps 411), against CLAUDE.md's rule that every paid setting is passed on the command.
+
+**Decided (Mark, 2026-11-25): "a".** A tradition brief is recorded as the councils and the tree's earlier traditions are: Daniel (`onwK4e9ZLuTAKqWW03F9`), `eleven_multilingual_v2`, `mp3_44100_64`, `{"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true}`, every one passed on the command. A sample goes to Mark's ear before the run, and each run is capped under 25,000 credits ("The project order", 2026-11-25).
+
+**Done.** `Build/tools/generate_tree_narration.mjs` now requires `--output-format` and `--voice-settings` for every paid run, not only a person run, and sends what the command names. `Build/tools/generate_world_narration.mjs`, which takes its own settings, checks only the voice and model. The council and tradition commands in `Recording_Settings.md` pass both.
