@@ -8,10 +8,10 @@ Kind: tradition (`kinds/tradition.md`). Census id `apocryphal-and-pseudepigrapha
 - **Who they were:** the people who met these books: a congregation at Rhossus and its bishop, Serapion of Antioch; a presbyter in Asia who wrote one; Christians who cited it; Tertullian who answered them; Eusebius who sorted them; a pilgrim, Egeria, who heard one read. (B1, B2, B5, B6; Documented.)
 - **When and where:** about 200 to the late 300s; Syria (Rhossus, Antioch), Asia (western Turkey), Carthage, Caesarea, and Seleucia in Isauria on the south Turkish coast. (A1–A5; Documented, Egeria's date Widely Accepted as "late fourth century" only.)
 - **What they faced:** a book read in church could carry teaching the bishop held false (B1d–e); a book under Paul's name was cited to let women teach and baptize (B2b); its writer was found out (B2b). (Documented.)
-- **What they believed:** the judges: receive the apostles "as Christ", refuse writings falsely put under their names, keep what was handed down (B1b); the book's own side: Thecla's word, "In the name of Jesus Christ I am baptized on my last day," and Paul's "Go and teach the word of God" (B3b–c). (Documented as what each says.)
+- **What they believed:** the judges: receive the apostles "as Christ", refuse writings falsely put under their names, keep what was handed down (B1b); the book's own side: Thecla's word, "In the name of Jesus Christ I am baptized on my last day," and Paul's "Go and teach the word of God" (narrate; not a story quote) (B3b–c). (Documented as what each says.)
 - **How they practiced:** books read aloud in the congregation (B1c); a bishop borrowing a copy and reading it through (B1e); the whole Acts of Thecla read at her shrine after prayer (B6c). (Documented.)
 - **What held them together:** the apostles' names. Love of an apostle made the presbyter write ("for love of Paul"), and loyalty to the apostles made Serapion refuse what they had not handed down (B1b, B2b). (Documented.)
-- **What came of them:** the books outlived the verdicts: the Acts of Thecla read in full at her shrine (B6c); a book of James on Mary's childhood kept in many later copies (B4g); the test of what was handed down kept by Eusebius (B5). (Documented.)
+- **What came of them:** the books outlived the verdicts: the test of what was handed down kept by Eusebius (B5); the Acts of Thecla read in full at her memorial (B6c); a book under James's name kept in many later copies (B4g). (Documented.)
 
 ## Length
 
@@ -35,7 +35,7 @@ Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommend
 | heresy | "a teaching he held false" (B1d, Schwartz 2517) |
 | falsely put under their names | "books that carried an apostle's name he did not write" (B1b) |
 | handed down | "received in the churches from the apostles" (B1b, B5a) |
-| Eusebius's "rejected" books | "read by many, but not genuine" (B5c); the heretics' books "cast aside" outright (B5d) |
+| Eusebius's "rejected" books | "known to most church writers, but not genuine" (B5c); the heretics' books "cast aside" outright (B5d) |
 | baptize | known word; but Thecla's act needs its scene: she throws herself into a pit of water in the arena (B3b) |
 | Acts (of Paul) | "a book of Paul's travels and deeds" (B2b, B3) |
 
@@ -52,22 +52,22 @@ Told through the people who wrote, read, copied and judged the books (Mark's rul
 
 ## Openings
 
-1. **"Let it be read."** On a visit to Rhossus, a small church on the Syrian coast, Bishop Serapion of Antioch found the people quarrelling over a gospel that carried Peter's name. He had not read it, and he thought them all sound in faith. So he gave a short answer (Quote 1). (B1c; Documented.)
+1. **"Let it be read."** On a visit to Rhossus, a church on the Syrian coast, Bishop Serapion of Antioch found the people quarrelling over a gospel that carried Peter's name. He had not read it, and he thought them all sound in faith. So he gave a short answer (Quote 1). (B1c; Documented.)
 2. **The presbyter's confession.** Tertullian, writing in Carthage, answered people who cited a book of Paul's deeds: its writer, a presbyter in Asia, had been found out and had confessed (Quote 3). (B2b; Documented.) Use only if opening 1 is not taken.
 
 ## Story beats
 
-1. **Serapion changes his mind.** After he left, Serapion was told the gospel's backers had a mind "lurking in some heresy", a teaching he held false. He wrote that he would hurry back: "expect me soon". He borrowed the book from those who had used it from the first, read it through, found most of it agreed with the Saviour's true teaching, and some things added. He set those out for them. His rule (Quote 2). Reason: what he was told of the backers' teaching, then his own reading. Eusebius, a century later, kept these lines; the list of additions is lost. (B1a–f; Documented.)
-2. **Thecla's book, and its writer.** About the same years, a book under Paul's name told of Thecla, a girl of Iconium who listened at a window to Paul, refused the man she was promised to, and was condemned to the fire for it. Later, at Antioch, a governor sent her to the beasts for shaming a powerful man who had seized her in the street. In the arena she threw herself into a pit of water: "In the name of Jesus Christ I am baptized on my last day." Paul later told her, "Go and teach the word of God." (Told as the book tells it: the seals killed by fire are its wonder.) Some cited her example as leave for women to teach and baptize. Tertullian, writing in Carthage, answered that Paul did not even let a woman learn too boldly. Then he told of the writer (Quote 3). Reason he left office: he was found out and confessed; Tertullian gives "for love of Paul". (B2a–d, B3a–c; ANF8 47884–47892 for the fire, 47943–47957 for the beasts; Documented.)
-3. **A book of James and Mary's childhood.** Another book carried the name of James and told what the Gospels do not: Mary's birth to a childless couple, Joachim and Anna; her years in the temple from the age of three, fed, it says, by an angel's hand; and her betrothal at twelve to Joseph, an old man with sons. Origen, the great teacher of Alexandria, knew a "Book of James" from which some said Jesus's brothers were Joseph's sons by an earlier wife; they meant to keep Mary's virginity honoured. (B4a, c–f; Documented as what each says. Narrate Origen; his words are barred.)
-4. **Eusebius sorts the books.** Early in the fourth century, Eusebius of Caesarea, writing his Church History, set the books in order. The Acts of Paul he counted among books read but not genuine. The gospels of Peter and Thomas and the Acts of Andrew and John he set lower: books under the apostles' names that no church writer had thought worth mention, unlike the apostles in style and thought, to be cast aside, in his words, "as absurd and impious". Reason: they were not handed down, and their teaching was not the churches'. (B5a–d; Documented.)
-5. **Egeria at Thecla's shrine.** Late in the fourth century, Egeria, a pilgrim from the West, came to Seleucia, where Thecla's book says she ended her days. On a low hill outside the city stood her church, with cells of men and women round it, and a wall against robbers. A deaconess, Marthana, ruled the cells of the virgins. There, Egeria writes, prayer was made at the memorial, and the whole of the Acts of Thecla was read. (B3d, B6a–c; Documented.)
+1. **Serapion changes his mind.** After he left, Serapion was told the gospel's backers had minds caught up in some heresy, a teaching he held false. He borrowed the book from those who had used it from the first, read it through, found most of it agreed with the Saviour's true teaching, and some things added. He set those out for them. His rule (Quote 2). Reason: what he was told of the backers' teaching, then his own reading. Eusebius, a century later, kept these lines; the list of additions is lost. (B1a–f; Documented.)
+2. **Thecla's book, and its writer.** About the same years, a book under Paul's name told of Thecla (the details from its later copies, B3; Tertullian attests her example only), a girl of Iconium who listened at a window to Paul, refused the man she was promised to, and was condemned to the fire for it. Later, at Antioch, a governor sent her to the beasts for shaming a powerful man who had seized her in the street. In the arena she threw herself into a pit of water and baptized herself in the name of Jesus Christ, on what she called her last day. Later Paul sent her to teach the word of God. (Told as the book tells it: the seals killed by fire are its wonder.) Some cited her example as leave for women to teach and baptize. Tertullian, writing in Carthage, answered that Paul did not even let a woman learn too boldly. Then he told of the writer (Quote 3). Reason he left office: he was found out and confessed; Tertullian gives "for love of Paul". (B2a–d, B3a–c; ANF8 47884–47892 for the fire, 47943–47957 for the beasts; Documented.)
+3. **A book of James and Mary's childhood.** Origen, the great teacher of Alexandria, reported that some, drawing on the Gospel according to Peter or a "Book of James", held that Jesus's brothers were Joseph's sons by an earlier wife; those who said so meant to keep Mary's virginity honoured to the end. A book under James's name survives in later copies, the printed one from an eleventh-century manuscript. It tells what the Gospels do not: Mary born to a childless couple, Joachim and Anna; her years in the temple from the age of three, fed, it says, by an angel's hand; and her betrothal to Joseph, an old man with children. (B4a–g; Documented as what each says. Narrate Origen; his words are barred. Do not tie the two books together.)
+4. **Eusebius sorts the books.** Early in the fourth century, Eusebius of Caesarea, writing his Church History, set the books in order. The Acts of Paul he counted among books known to most church writers but not genuine. The gospels of Peter and Thomas and the Acts of Andrew and John he set lower: books under the apostles' names that no church writer had thought worth mention, unlike the apostles in style and thought, to be thrown out entirely as absurd and godless. Reason: they were not handed down, and their teaching was not the churches'. (B5a–d; Documented.)
+5. **Egeria at Thecla's shrine.** Late in the fourth century, Egeria, a pilgrim who had come, as a bishop told her, from far-distant lands, came to Seleucia, where, in one form of Thecla's book, she taught many and fell asleep. On a low hill outside the city stood her church, with cells of men and women round it, and a wall against robbers. A deaconess, Marthana, ruled the cells of the virgins. There, Egeria writes, prayer was made at the memorial, and the whole of the Acts of Thecla was read. (B3d, B6a–c; Documented.)
 
 ## What came of it
 
 1. **The test of what was handed down** (defended): Serapion's rule, kept by Eusebius, who sorts by the same test (B1b, B5). Athanasius in 367 calls such books "an invention of heretics" (C1): card only.
 2. **Thecla's book read on at her shrine** (B6c); Jerome still knows it around 392 and counts it apocryphal (C2).
-3. **The book of James kept and copied:** many later manuscripts; later Latin retellings drawn from it (B4g, C3). The later books come in only as this.
+3. A book under James's name, kept in many later copies (B4g), with later Latin retellings drawn from it (C3).
 4. **Jerome's warning to a mother, about 403:** read such books, if at all, as gold in dirt (C4). Card.
 5. **The Gospel of Peter fragment** found at Akhmim in 1886 (C5). Card; its identity with Serapion's book is modern.
 
@@ -97,11 +97,11 @@ Everyone else by role: the presbyter, the backers at Rhossus.
 
 ## Connection to carry into the story
 
-The books passed hand to hand, and so did the judging. At Rhossus the gospel came to the bishop from the very group that used it (B1e); Thecla's story crossed from Asia to Carthage as an argument (B2b) and on to Seleucia as a reading at her tomb (B6c). Serapion's test, what the apostles handed down, passed to Eusebius, who kept his letter and sorted the books by it (B1a, B5). The listener must understand that the same love of the apostles drove both the writing and the refusing, and that the verdicts did not stop the reading. Show it through the borrowed copy, the confession and the reading at the shrine; never in a "this matters because" line.
+The books passed hand to hand, and so did the judging. At Rhossus the gospel came to the bishop from the very group that used it (B1e); Thecla's story crossed from Asia to Carthage as an argument (B2b) and on to Seleucia as a reading at her memorial (B6c). Serapion's test, what the apostles handed down, passed to Eusebius, who kept his letter and sorted the books by it (B1a, B5). The presbyter wrote for love of Paul; Serapion refused in the apostles' name, receiving them as Christ. The listener must understand that the apostles' names drove both the writing and the refusing, and that the verdicts did not stop the reading. Show it through the borrowed copy, the confession and the reading at the shrine; never in a "this matters because" line.
 
 ## Ending
 
-1. **The reading at Thecla's memorial** (B6c): prayer, then the whole of her Acts read, the book whose writer had left his office now read in full at her tomb. Do not add that Egeria knew of the presbyter.
+1. **The reading at Thecla's memorial** (B6c): prayer, then the whole of her Acts read, the book whose writer had left his office (Jerome, De viris 7: npnf203 39502–39515; PL23 49226–49230) now read in full at her memorial. Do not add that Egeria knew of the presbyter.
 2. **Thecla's own end in her book** (B3d, Gebhardt form): she went to Seleucia, taught many, and fell asleep, then Egeria arriving there.
 
 ## Links
@@ -120,6 +120,7 @@ The books passed hand to hand, and so did the judging. At Rhossus the gospel cam
 | Serapion's letter, in Eusebius, Church History 6.12 | old, own words, kept a century later | c. 200; Eusebius c. 300–325 | beat 1, quotes 1–2. The story says once, inside the sentence about Serapion's letter, that Eusebius kept it. |
 | Eusebius, Church History 3.3, 3.25, 5.22, 6.11 | old, later witness | early fourth century | beat 4; dates of Serapion |
 | Tertullian, On Baptism 17 | old, contemporary; argues against the book's use | c. 200 | beat 2, quote 3 (credit: Tertullian, answering those who cited it) |
+| Jerome, De viris 7 (npnf203 39502–39515; PL23 49226–49230) | old, later witness, c. 392; ties the Acts of Paul and Thecla to Tertullian's presbyter | c. 392 | ending 1; not credited aloud |
 | Acts of Paul and Thecla (Gebhardt Greek; ANF 8) | old, the book itself, in later copies | composition date uncertain | beat 2 (its wonders in its voice) |
 | Book of James (Protevangelium, ANF 8) | old, the book itself, eleventh-century and later copies | composition date uncertain | beat 3 |
 | Origen, Commentary on Matthew 10.17 (ANF 9) | old, later witness | first half of third century | beat 3 ("some say") |
@@ -152,6 +153,11 @@ The doubt is not itself the story; no scene of doubt.
 | "a local council" or "the canon was fixed" | Not in these sources. |
 | "She was sent to the beasts for her faith" | Fire: for refusing to marry; beasts: for shaming the man who seized her (ANF8 47888–47892, 47944–47957). |
 | "Thecla became one of the most venerated women" | Show only the shrine, the cells and the reading (B6). |
+| "the book Origen knew told of Mary's temple years" / "Origen's Book of James" made one with the surviving book | Tell them separately: Origen reports what some drew from a Book of James; a book under James's name survives in later copies (B4a–b, B4g). |
+| "Thecla died / was buried at Seleucia" or "her tomb" | "in one form of her book, she taught many and fell asleep" there; the other form ends in Rome; Egeria saw "the memorial" (B3d; ANF8 48117–48122). |
+| "from Spain / Gaul / the West", "a nun" | "from far-distant lands" (3419–3421) |
+| "at twelve" as the book's fixed age | leave the age out; the copies differ (ANF8 1578) |
+| "the church at Rhossus was heretical" | only "those who put the book forward", "the backers" (B1d; Rufinus 2584: "hi, qui codicem illum legi debere adserunt") |
 
 ## Leave out
 
@@ -173,5 +179,5 @@ The doubt is not itself the story; no scene of doubt.
 1. Joachim and Anna's names: "a childless couple" only. Leave out. (−4)
 2. Marthana's name and the deaconess: "cells of men and women". Card. (−12)
 3. Eusebius's reasons beyond "not handed down" (style and thought). Card. (−14)
-4. Origen's purpose clause (to keep Mary's virginity honoured). Card. (−10)
+4. Serapion's promise to come again ("He wrote that he would hurry back: expect me soon"). Leave out. (−10)
 5. To reach 450 only if Mark sets it: the Thecla seals wonder and "listened at a window". Leave out. (−25)
