@@ -19,9 +19,7 @@ Kit Part 3, step 5. Backup before any change: `greek-apologists-second-century.b
    - Old: "let the emperors destroy the Christians root and branch, with their wives and children."
    - New: "let the emperors destroy the Christians root and branch."
 3. Do not say line added to `Outline.md`, from `Fresh_Trust_Second.md`, word for word: "'He said he drew on earlier Christian writers, and named Justin first' straight after 'the same task' → it implies he drew on Justin for his defence; Tertullian names Justin as a guide against heresy (*Against the Valentinians* 5): say so."
-4. Trust MINOR, sentence 10 (`Fresh_Trust.md`, word for word).
-   - Old: "because they refused the cities' gods and would not sacrifice to them."
-   - New: "because they refused such gods and would not sacrifice to them."
+4. Trust MINOR, sentence 10 (`Fresh_Trust.md`, optional): not applied. Its wording, "because they refused such gods", contradicts the outline's own Do not say line ("called atheists because they would not sacrifice to the cities' gods"), and "such gods" has nothing before it to point to on one hearing. The read itself says the meaning is intact either way. Unchanged: "because they refused the cities' gods and would not sacrifice to them."
 5. Listener BLOCKING, Marcion: cut. `Outline.md` holds Justin's reason at a cited line (beat 2: "men the demons put forward were not persecuted but honoured", 1apol-grc 706–709), but not in few words a listener can take: it needs the demons, a new idea with no gloss, and at least six words the 675 ceiling could not carry without reopening other sentences. So the sentence goes, per the listener's own fallback; the Marcionism census card line carries Justin against Marcion. This cuts an item on the outline's Never cut list; that is recorded here for Mark.
    - Old: "He also named Marcion, still teaching another god above the Creator, whose followers, also called Christians, were not persecuted for their teaching."
    - New: (cut)
