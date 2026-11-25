@@ -5916,3 +5916,17 @@ Mark: "option 1", on the page https://claude.ai/artifact/UStZATEaBtT445YAKgNEi6 
 2. Pushed off, too thin in the Library: `bardaisanite-current` (3 works), `modalist-monarchianism` (3) and `danubian-latin-christianity` (2). They go to the source-research thread first (Open-Gaps 417).
 3. Pushed off, already C or B: `palestinian-church-pre-constantinian` and `anatolian-church-third-century` (C), and `novatianism` and `valentinian-and-other-gnostic-christianities` (B). They wait until after era 2's Fs (Open-Gaps 418).
 4. Then era 2 the same way: its grades to Mark first, then his call on what to do and what to push off.
+
+## 2026-11-25 — Batch 11: the slate approved (Mark)
+
+**Why.** Step 0 of batch 11 (era 1 traditions). The slate went to Mark on one page, https://claude.ai/artifact/DsZbVTkmK5mK4YtSbe1mer (version 1).
+
+**Decided (Mark, 2026-11-25): "Approve as recommended".**
+1. The thirteen jobs and halves as the slate gives them.
+2. Research order: Alexandria, Syriac, Antioch, Apocryphal and Greek Apologists first; Roman Church after Antioch's outline; Ebionites after Apocryphal's; Latin Pastoral after Roman Church's; Latin Apologists and House Church (after Greek Apologists') first in half B; Manichaeism after Latin Pastoral's; Marcionism and Montanism after Latin Apologists'.
+3. Apocryphal literature is told through the people who wrote, read, copied and judged the books, centred on the second to fourth centuries.
+4. No census direct-line change: the Ebionites' descent from the Pella believers is told in Epiphanius's voice only, if held; no continued-as line from the House Church to the third-century churches of Antioch and Anatolia; Alexandria's Contested link to Desert Monasticism stays off the story unless the old sources carry it.
+5. Quotes: no reuse; every quote in the live stories beside each one stays barred; the House Church drops the "ten leopards" scene, which `ignatius-of-antioch` opens on. Pliny's hymn "as God" and the two *ministrae* may stay there.
+6. Every story kept, with the job split the slate gives; Marcionism opens after the break with Rome.
+
+All of it is this batch only.

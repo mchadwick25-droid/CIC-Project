@@ -1,0 +1,77 @@
+{
+ "why": "A Carthaginian convert named Tertullian had to invent Latin words for the Trinity and the sacraments just to defend his faith, coining terms like trinitas, persona, and substantia. The argument he opened ran a further century, through Minucius Felix's dialogue giving pagan objections their fullest voice, to Lactantius, who wrote his own defense in the middle of persecution and later tutored the emperor's son.",
+ "sourcing": "Substantial evidence survives for this tradition. Minucius Felix's Octavius (about twenty-four thousand words), Commodian's Instructiones (about fifteen thousand), and Arnobius' seven books Against the Heathen (a hundred and forty thousand) survive whole. Lactantius' writings survive at even greater length: the Divine Institutes alone runs to two hundred and forty thousand words, and with the Anger of God, the Workmanship of God, and other fragments, his surviving work totals just under half a million words. Tertullian's own corpus of thirty-two works also survives complete — the Apology, the five books Against Marcion (his longest single work, about a hundred and eighty-four thousand words), Against Praxeas, the Prescription Against Heretics, and the rest — along with the Passion of Perpetua and Felicitas, transmitted alongside his writings. In all, well over a million words survive from these five authors together. Three of the five are barely datable: Minucius Felix within a century, Commodian within three centuries; Tertullian's own dates, roughly 197 to 220, are the best anchored of the set.",
+ "floorNote": "Not in question for the corpus as a whole. Tertullian's own later years aligned with the New Prophecy (Montanism) out of Phrygia - a real, disclosed complication, but not a floor question: the census's own Montanism entry states plainly that the New Prophecy \"held the same doctrine as the churches that condemned it,\" the dispute being one of authority and discipline, not of the Creed's own commitments.",
+ "relationsSummary": "This is the Latin counterpart to the Greek apologists of the second century, a generation later and never as coherent a body. It includes Tertullian, whose Latin apologetic writing opened the tradition and gave it its vocabulary before the other authors continued it. Its clearest link to the later imperial church runs through Lactantius, who wrote his own defense during persecution and then tutored the son of the emperor who ended it.",
+ "teaser": "A Carthaginian lawyer invented the Latin words for the Trinity while defending Christians against Roman slander - and the argument he opened ran a further century, through Rome, Numidia, and the emperor's own new capitals.",
+ "voices": [
+  "Tertullian of Carthage - a convert and trained rhetorician who opened the whole enterprise in 197, forged most of the Latin vocabulary of Christian argument, and grew more rigorist and Montanist-aligned in his later years",
+  "Minucius Felix - a Roman advocate whose dialogue gives the pagan side the better speech, and whose own date nobody can fix within a century",
+  "Arnobius of Sicca - a teacher of rhetoric who wrote seven books against the gods, by one account to convince his bishop that he meant it",
+  "Commodianus - who wrote catechism in acrostic verse that does not scan, and whom scholars have placed anywhere between the third century and the fifth",
+  "Lactantius - Arnobius' pupil on Jerome's account, who wrote the fullest of the Latin defenses while the persecution was still running and afterwards tutored the son of the emperor who ended it"
+ ],
+ "legacy": "The Latin vocabulary of Christian argument was made here. Tertullian coined most of the technical words Western Christians still use for the Trinity and the sacraments, and left lines that entered common Christian speech, most famously that the blood of Christians is seed; the Western habit of thinking about God, the church, and the sacraments in legal and forensic categories owes a great deal to a man trained as an advocate. Minucius Felix gave the West its model for the apologetic dialogue and preserved, inadvertently, the most complete record of what educated Romans actually said against the church. Arnobius is now read mostly by historians of Roman religion, who need him precisely because he described in detail the thing he was trying to demolish. And Lactantius' Latin was good enough that the Renaissance called him the Christian Cicero and printed him before it printed most of the Fathers - the Divine Institutes was among the first books off a press in Italy, in 1465.",
+ "documentedStories": [
+  {
+   "title": "The Morning the Church at Nicomedia Came Down",
+   "when": "23–24 February 303",
+   "tier": "1",
+   "verification": "checked directly against the primary text",
+   "teaser": "A professor of rhetoric in Diocletian’s capital watches the Great Persecution begin from across the street.",
+   "text": "Lactantius was teaching Latin rhetoric at Nicomedia when, at first light on the feast of the Terminalia, the prefect arrived at the city’s church with officers and soldiers. It stood on rising ground in full view of the palace, and Lactantius says Diocletian and Galerius watched from a height, arguing about whether to burn it. Fire might spread to the houses; so the Praetorians came with axes and leveled it ‘in a few hours’. The doors were forced, the Scriptures found and burned, the building plundered. The next day the edict was posted: Christians stripped of legal standing, their books surrendered, their assemblies forbidden. A man — Lactantius gives no name, only that he was of high rank — tore the edict down, mocking it aloud as a proclamation of victories over Goths and Sarmatians; he was arrested, ‘not merely tortured but roasted’, and, the text says, bore it with patience. Lactantius lost his post. He wrote the Divine Institutes over the following years to make the Christian case to exactly the educated class that had watched the church come down, and in old age wrote On the Deaths of the Persecutors to record how each emperor who signed the edict died. It is a partisan book, unsparing about its enemies’ agonies; but for the first day of the persecution it is the only eyewitness.",
+   "caveat": "Lactantius was in the city and is the primary witness, but wrote On the Deaths of the Persecutors more than a decade later with an openly providential thesis; the man who tore down the edict is named only in later tradition.",
+   "sources": [
+    {
+     "work": "Lactantius, On the Manner in Which the Persecutors Died, ch. 12–13",
+     "type": "primary",
+     "note": "The demolition, the edict, the man who tore it down."
+    },
+    {
+     "work": "Lactantius, Divine Institutes, book V",
+     "type": "primary",
+     "note": "Written during the persecution; the argument against persecutors."
+    },
+    {
+     "work": "Eusebius, Church History VIII.5",
+     "type": "primary",
+     "note": "Independent notice of the man who tore down the edict."
+    },
+    {
+     "work": "T. D. Barnes, Constantine and Eusebius (Harvard, 1981)",
+     "type": "reference",
+     "note": "Chronology of the edicts."
+    }
+   ]
+  }
+ ],
+ "people": [
+  {
+   "person": "tertullian-s-voice"
+  },
+  {
+   "name": "Minucius Felix",
+   "year": 205,
+   "voice": 1,
+   "author": "felix",
+   "held": "anf04_tertullian4-minucius-felix-commodian-origen1-2--the-octavius-of-minucius-felix"
+  },
+  {
+   "name": "Commodianus",
+   "year": 250,
+   "voice": 3,
+   "author": "commodian",
+   "held": "anf04_tertullian4-minucius-felix-commodian-origen1-2--the-instructions-of-commodianus-instructiones"
+  },
+  {
+   "name": "Arnobius of Sicca",
+   "year": 295,
+   "voice": 2,
+   "author": "arnobius",
+   "held": "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-seven-books-of-arnobius-against-the-heathen-adversus"
+  },
+  {
+   "person": "lactantius"
+  }
+ ]
+}
