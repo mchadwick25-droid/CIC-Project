@@ -5954,3 +5954,13 @@ All of it is this batch only.
 3. The three heart wordings the outline check changed (Alexandria, Latin Apologists, House Church) stand.
 
 This batch only. A kit change, so that the hearts page's count comes from a test telling rather than a formula, would come to Mark on its own.
+
+## 2026-11-25 — Batch 11: the first two briefs approved (Mark)
+
+**Why.** Kit Part 3, step 5: the first two briefs to pass the one revision and the fresh read come to Mark before any other is written. Antioch (670 words, grade 8.2) and the Roman Church (678, grade 8.5) each failed its fresh read on one sentence and carried that reader's exact fix. The page: https://claude.ai/artifact/RmjJuuRMUeE6iLyTu5Fytx (version 1).
+
+**Decided (Mark, 2026-11-25): "approve both, write the other eleven in parallel".**
+1. Both briefs approved as they stand, the Roman Church at 678, three words past 675.
+2. The other eleven are written now, in parallel.
+
+This batch only.

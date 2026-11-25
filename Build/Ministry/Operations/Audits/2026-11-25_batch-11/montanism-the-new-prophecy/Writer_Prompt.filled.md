@@ -6,10 +6,11 @@
 - **Descent or break:** None. The old text's close, Pepuza found in 2000, is a modern event: it stays out unless a held source tells it.
 - **Siblings in the batch:** Latin Apologists (Tertullian: read its outline first). House Church (which argued against it: the House Church leaves it out).
 - **Live beside it:** tertullian-s-voice, eusebius-of-caesarea (whose history holds the anonymous writer against them).
-- **Heart and length:** approved (Mark, 2026-11-25, "Batch 11: hearts and lengths approved": "Approve as recommended"): the heart as `Outline.md` holds it under "The heart", and **500 words**, as its "Approved heart and length" section records. Every Cut first item goes to the card or Leave out as it is marked. Also kept by that ruling: nothing further.
+- **Heart and length:** approved (Mark, 2026-11-25, "Batch 11: hearts and lengths approved": "Approve as recommended"): the heart as `Outline.md` holds it under "The heart", and **500 words**, as its "Approved heart and length" section records. Every Cut first item goes to the card or Leave out as it is marked. Also kept by that ruling: nothing further. **Length now governs as ruled:** Mark, 2026-11-25 ("Batch 11: lengths, up to 4:30 and cut at the outline", "a"): about 540 words, the length the check found. The heart as `Outline.md` now holds it governs, with any wording the outline check corrected.
 - **This batch's rulings (Mark, 2026-11-25, "Batch 11: the slate approved": "Approve as recommended". This batch only.):** Quotes: no reuse is planned for this batch. Every quote in the live stories named under Live beside stays barred; a quote another story on the tree uses may be used only where the slate lists it, and the slate lists none. Inside the batch, no quote is shared. A researcher who wants a barred quote asks. Barred: every quote in tertullian-s-voice and eusebius-of-caesarea.
 
 - **Approved before the kit (Kit Part 3, step 0):** this tradition's live text, `Build/Ministry/Operations/Audits/2026-11-25_batch-11/montanism-the-new-prophecy/montanism-the-new-prophecy.brief.approved.txt`, was approved before the kit and goes through every step here. Read it too. Keep its wording wherever it passes the standard and the outline; change what does not, and use nothing in it the outline does not hold.
+- **Length:** every Cut first item marked in `Outline.md` applies. If the draft still runs past the ruled length, stop and say so, with the beats that carry the weight; do not cut beats yourself.
 
 ---
 

@@ -1,0 +1,24 @@
+# Batch header
+
+- **Story:** The Ebionites and Nazoraeans (census name: Ebionite / Nazoraean Current) (census id `ebionite-nazoraean-current`). **Kind:** tradition (`Build/Ministry/Features/Church-Family-Tree/Brief-Kit/kinds/tradition.md`). **Folder:** `Build/Ministry/Operations/Audits/2026-11-25_batch-11/ebionite-nazoraean-current/`. **Card file:** `Build/Ministry/Operations/Audits/2026-11-25_batch-11/ebionite-nazoraean-current/Card.existing.json` (the census entry's card fields; a tradition has no `card` field).
+- **Job on the slate (Mark, 2026-11-25, "Batch 11: the slate approved": "Approve as recommended". This batch only.):** Jewish believers in Jesus who went on keeping the Law, met only through the writers who opposed them. The doubt is the story: the old witnesses describe them differently, and the story makes that a scene of its own, in their own words, never a modern debate. Half A.
+- **Census home and direct line:** Its own entry. No direct line: only argued against by Alexandria, the Hieronymian circle and the imperial church.
+- **Descent or break:** Epiphanius gives the Nazoraeans a descent from the Jerusalem believers who fled to Pella. The census has no such line. Ruling: tell it in Epiphanius's voice only, if research holds the passage; no census change (one hostile, late witness).
+- **Siblings in the batch:** Apocryphal (the gospels they used: told here; read its outline first). Alexandria (Origen's report: told here).
+- **Live beside it:** irenaeus-of-lyon, epiphanius-of-salamis, jerome, origen. None of them tells their passages on these groups.
+- **Heart and length:** approved (Mark, 2026-11-25, "Batch 11: hearts and lengths approved": "Approve as recommended"): the heart as `Outline.md` holds it under "The heart", and **660 words**, as its "Approved heart and length" section records. Every Cut first item goes to the card or Leave out as it is marked. The outline check tests the roll-call risk: each beat carries people acting, never a list of names or sources. Also kept by that ruling: nothing further. **Length now governs as ruled:** Mark, 2026-11-25 ("Batch 11: lengths, up to 4:30 and cut at the outline", "a"): about 660 words: Cut first items 7 and 8 apply too (Ending 2 in place of Augustine's ending; the Pella beginning left out). The heart as `Outline.md` now holds it governs, with any wording the outline check corrected.
+- **This batch's rulings (Mark, 2026-11-25, "Batch 11: the slate approved": "Approve as recommended". This batch only.):** Quotes: no reuse is planned for this batch. Every quote in the live stories named under Live beside stays barred; a quote another story on the tree uses may be used only where the slate lists it, and the slate lists none. Inside the batch, no quote is shared. A researcher who wants a barred quote asks. Barred: every quote in those four stories.
+
+---
+
+# Reviser
+
+You make the one revision of one Church Family Tree story about **The Ebionites and Nazoraeans**, in `Build/Ministry/Operations/Audits/2026-11-25_batch-11/ebionite-nazoraean-current/`. You did not write or review it. Read `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Kit.md`, Part 1, and the kind kit the batch header names (`Build/Ministry/Features/Church-Family-Tree/Brief-Kit/kinds/<kind>.md`), then `Outline.md`, `Review.md` and `ebionite-nazoraean-current.brief.txt`. Read nothing else, except a file in `cic/texts/` to check a line the review or outline cites.
+
+1. Before you change anything, copy the brief to the next free backup, `ebionite-nazoraean-current.brief.v1.txt` (or `.v2.txt` on a craft pass), which is never edited; every change goes into `ebionite-nazoraean-current.brief.txt`, the live file.
+2. Add each Do not say line that `Review.md` gives to `Outline.md`, word for word.
+3. Fix every finding in `Review.md`, BLOCKING and MINOR, using only what the outline holds. Where the review gives exact wording, use it word for word. Keep every sentence the review does not touch, word for word. Make the review's cuts, and add only what a finding requires. Keep to the outline's length; never cut the record's force, a credited disagreement or a plain sense to save time.
+4. Run `python -m engine.m1.profile_readability Build/Ministry/Operations/Audits/2026-11-25_batch-11/ebionite-nazoraean-current/ebionite-nazoraean-current.brief.txt`. It must pass. Hear it once as the listener. Re-read your work for the four faults in Part 1 of the kit. American spelling outside quotes.
+5. Write `Revision.md`: each finding and what you did; each new sentence that is neither the outline's nor the old brief's wording, with its outline line; the word at which the essence is complete; the word count and minutes.
+
+Do not commit. Reply in under 150 words: the word count, the scorer line, the word at which the essence ends, and anything you could not do.
