@@ -17,4 +17,4 @@ Same method as `../Grades/Grades.md` (two bare readers, modern reader, merge.py 
 | Apocryphal | C | C (2 Supporting) | B (1) | **C** |
 | Ebionites | D | B (none held) | D: summary (outside writers describing the group) | **D** |
 
-Modern opinion: none in any. Every listener would listen to the end. Counts: first grade 3 B, 7 C, 2 D; regrade 6 B, 5 C, 1 D. Craft blocking faults across the 11 graded twice: 20 before, 15 after.
+Modern opinion: none in any. Every listener would listen to the end. Counts: first grade 3 B, 7 C, 2 D; regrade 6 B, 5 C, 1 D. Craft blocking faults across the 11 graded twice: 19 before, 13 after.
