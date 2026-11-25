@@ -170,3 +170,11 @@ From `epiphanius-of-salamis.brief.v1.txt` (675 words) to the live brief (724 wor
     **Finding:** M10 ("Christ's holy bride").
 
 `Outline.md`: the B1 Do not say line added word for word at the end of the Do not say list.
+
+## Second-trust fixes (2026-11-25)
+
+- **Old:** The monks there had complained for a year that no one celebrated the sacraments, the church's holy rites, for them, he explains, and he feared they would drift from the church.
+- **New:** The monks there had complained for a year that no one celebrated the sacraments, the church's holy rites, for them, he explains, and he acted from the fear of God, to provide what the church needed.
+- **Source:** Letter 51, `cic/texts/npnf206_jerome-principal-works.xml` (J6) 10662-10665: "it is the fear of God which has compelled me to act in this way ... I have simply made provision for the wants of the Church"; 10704-10706: "For a year before I had heard many of them complain that they had no one to celebrate for them the sacraments of the Lord."
+- **Finding:** second trust read, an assumption added (the fear of drift).
+- `Outline.md`: one Do not say line added at the end of the list.

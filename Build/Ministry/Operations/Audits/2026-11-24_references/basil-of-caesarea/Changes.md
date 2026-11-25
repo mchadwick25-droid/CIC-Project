@@ -254,3 +254,11 @@ Starting copy `basil-of-caesarea.brief.v1.txt` (677 words by the scorer); revise
     - Finding: Review, BLOCKING, Listen_Skeptic.md, the jump-back close; MINOR, Listen_FirstTime.md, closing note.
 
 Do not say: Trust.md's line on "Later" added to `Outline.md` word for word.
+
+## Second-trust fixes (2026-11-25)
+
+- **Old:** His accusers had won over the governor, and Basil wrote to ask what harm the state suffered from him, ...
+- **New:** His accusers were filling the governor's ears, and Basil wrote to ask what harm the state suffered from him, ...
+- **Source:** Letter 94, To Elias, Governor of the Province, `cic/texts/npnf208_basil-letters-select-works.xml` 30010-30012: "those who are besieging your impartial ears to be asked what harm the government suffers from me?"
+- **Finding:** second trust read, the source softened/changed (the letter does not say the governor was won over; Basil calls his ears "impartial").
+- `Outline.md`: one Do not say line added after the "Accused before the governor" line.
