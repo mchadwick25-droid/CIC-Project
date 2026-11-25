@@ -153,6 +153,7 @@ What passed on, in the held record: their books, which Eusebius kept and quoted,
 - "atheists of such gods, yes, but not…" → "he granted they were atheists of such gods, and said they worshipped the most true God".
 - Marcion's followers "were not persecuted" without "for their teaching" → keep the limit (κἂν διὰ τὰ δόγματα, 1apol-grc 742); and not "Marcion, still alive" (the Greek says "still teaching").
 - "because the books were new, they were thought false" → no "because": the friend held both views together (anf02 10155–10157).
+- "Athenagoras named the three charges" → "If the charges were true, Athenagoras said" (the charges are named once, in the essence).
 
 ## Leave out
 
