@@ -15,7 +15,7 @@ Kind: tradition (`kinds/tradition.md`). Census id `apocryphal-and-pseudepigrapha
 
 ## Length
 
-**Length pass recount (Mark, 2026-11-25, "up to 4:30 and cut at the outline"): about 650 words, about 4 minutes 20 seconds**, measured against draft v1 (713 words) with the Length pass moves below applied: 658, under the 675 cap. Moves and their cost in `Fixes_Length.md`. Earlier plan: **500 words, about 3 minutes 20 seconds** (kit range 450–675). Count the story must carry: three quotes, 97 words; glosses (presbyter, heresy, "handed down", Eusebius's two kinds of rejected book, what Thecla's book told), about 70; witnesses credited (Eusebius keeps Serapion's letter; Tertullian argues against the book; Origen reports "some say"; Egeria's own account; the book's own voice for its wonders), about 45. Beats as planned run to about 520; the Cut first list brings it to 500, and further to 450 if Mark sets the floor.
+**Length pass recount (Mark, 2026-11-25, "up to 4:30 and cut at the outline"): about 650 words, about 4 minutes 20 seconds**, measured against draft v1 (713 words) with the Length pass moves below applied: 658, under the 675 cap. Moves and their cost in `Fixes_Length.md`. Earlier plan: **500 words, about 3 minutes 20 seconds** (kit range 450–675). Count the story must carry: three quotes, 97 words; glosses (presbyter, heresy, "handed down", Eusebius's two kinds of rejected book, what Thecla's book told), about 70; witnesses credited (Eusebius keeps Serapion's letter; Tertullian argues against the book; Origen reports "some say"; Egeria's own account; the book's own voice for its wonders), about 45. Review fix pass: **672** (see the end of Cut first). Beats as planned run to about 520; the Cut first list brings it to 500, and further to 450 if Mark sets the floor.
 
 ## Approved heart and length
 
@@ -34,7 +34,7 @@ Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommend
 | Word | Plain sense to work in |
 |---|---|
 | presbyter | "a presbyter, an elder of the church" (B2b, CSEL 20 12262) |
-| heresy | "a teaching he held false" (B1d, Schwartz 2517) |
+| heresy | "a teaching he held false" (B1d, Schwartz 2517); what it was, as Serapion reports it: "what one Marcianus held", a man who "contradicted himself, not understanding what he said" (B1g). No old source of the period says more. |
 | falsely put under their names | "books that carried an apostle's name he did not write" (B1b) |
 | handed down | "received in the churches from the apostles" (B1b, B5a) |
 | Eusebius's "rejected" books | "known to most church writers, but not genuine" (B5c); the heretics' books "cast aside" outright (B5d) |
@@ -59,8 +59,8 @@ Told through the people who wrote, read, copied and judged the books (Mark's rul
 
 ## Story beats
 
-1. **Serapion changes his mind.** After he left, Serapion was told the gospel's backers had minds caught up in some heresy, a teaching he held false. He borrowed the book from those who had used it from the first, read it through, found most of it agreed with the Saviour's true teaching, and some things added. He set those out for them. His rule (Quote 2). Reason: what he was told of the backers' teaching, then his own reading. Eusebius, a century later, kept these lines; the list of additions is lost. (B1a–f; Documented.)
-2. **Thecla's book, and its writer.** About the same years, a book under Paul's name told of Thecla (the details from its later copies, B3; Tertullian attests her example only), a girl of Iconium who heard Paul [Length pass: "listened at a window" left out], refused the man she was promised to, and was condemned to the fire for it; the book says a storm of rain and hail put the fire out, and she was saved [Length pass: tells why she is alive later; in the book's voice, ANF8 47906–47911: "a cloud … full of water and hail"; "the fire was put out, and Thecla saved"]. Later a governor [Length pass: "at Antioch" left out, so it is not heard as Serapion's Antioch; the book names only "Antioch" and says nothing more of which city, ANF8 47943] sent her to the beasts for shaming a powerful man who had seized her in the street. In the arena she threw herself into a pit of water and baptized herself in the name of Jesus Christ, on what she called her last day. Later Paul sent her to teach the word of God. (Told as the book tells it. [Length pass: the seals killed by fire, Leave out.]) Some cited her example as leave for women to teach and baptize. Tertullian, writing in Carthage, answered that Paul did not even let a woman learn too boldly. Then he told of the writer (Quote 3). Reason he left office: he was found out and confessed; Tertullian gives "for love of Paul". (B2a–d, B3a–c; ANF8 47884–47892 for the fire, 47943–47957 for the beasts; Documented.)
+1. **Serapion changes his mind.** After he left, Serapion was told the gospel's backers had minds caught up in a teaching he held false. Then Serapion's report of the teaching, in plain wording the writer may use (16 words, narrator's voice, not a quote): He saw what one Marcianus held: a man who contradicted himself, not understanding what he said. (B1g. This is all the record keeps of the teaching; no old source of the period says what it taught.) He borrowed the book from those who had used it from the first, read it through, found most of it agreed with the Saviour's true teaching, and some things added. He set those out for them. His rule (Quote 2). Reason: what he was told of the backers' teaching, then what he saw of Marcianus, then his own reading. Eusebius, a century later, kept these lines; the list of additions is lost. (B1a–f; Documented.)
+2. **Thecla's book, and its writer.** About the same years, a book under Paul's name told of Thecla (the details from its later copies, B3; Tertullian attests her example only), a girl of Iconium who heard Paul [Length pass: "listened at a window" left out], refused the man she was promised to, and was condemned to the fire for it; the book says a storm of rain and hail put the fire out, and she was saved [Length pass: tells why she is alive later; in the book's voice, ANF8 47906–47911: "a cloud … full of water and hail"; "the fire was put out, and Thecla saved"]. Later a governor [Length pass: "at Antioch" left out, so it is not heard as Serapion's Antioch; the book names only "Antioch" and says nothing more of which city, ANF8 47943] sent her to the beasts for shaming a powerful man who had seized her in the street. In the arena she threw herself into a pit of water and baptized herself in the name of Jesus Christ, on what she called her last day. Later Paul sent her to teach the word of God. (Told as the book tells it. [Length pass: the seals killed by fire, Leave out.]) Some cited her example as leave for women to teach and baptize. Tertullian, writing in Carthage, answered them. He named the writer first (Quote 3); he also gave Paul's rule, that a woman may not even learn too boldly. No order word between the two, or the presbyter first (CSEL 20 12260–12267). Reason he left office: he was found out and confessed; Tertullian gives "for love of Paul". (B2a–d, B3a–c; ANF8 47884–47892 for the fire, 47943–47957 for the beasts; Documented.)
 3. **A book of James and Mary's childhood.** [Length pass, Card: Origen's report (that some, drawing on the Gospel according to Peter or a "Book of James", held Jesus's brothers to be Joseph's sons by an earlier wife, to keep Mary's virginity honoured to the end; B4a) moves to the card whole, since no half of it stands alone.] A book under James's name, kept in later copies, tells what the Gospels do not: Mary born to a childless couple, Joachim and Anna; her years in the temple from the age of three, fed, it says, by an angel's hand; and her betrothal to Joseph [Length pass, Card: "an old man with children", which answered Origen's report]. (B4c–g; Documented as what the book says. Do not tie it to any book Origen names.)
 4. **Eusebius sorts the books.** Early in the fourth century, Eusebius of Caesarea, writing his Church History, set the books in order. The Acts of Paul he counted among books known to most church writers but not genuine. The gospels of Peter and Thomas and the Acts of Andrew and John he set lower: books under the apostles' names [Length pass, Card: "that no church writer had thought worth mention"], unlike the apostles in style and thought, to be thrown out entirely as absurd and godless. Reason: they were not handed down, and their teaching was not the churches'. (B5a–d; Documented.)
 5. **Egeria at Thecla's shrine.** Late in the fourth century, Egeria, a pilgrim from far-distant lands, came to Seleucia, where, in one form of Thecla's book, she taught many and fell asleep. On a low hill outside the city stood her church, with cells of men and women round it, and a wall against robbers. A deaconess, Marthana, ruled the cells of the virgins. There, Egeria writes, prayer was made at the memorial, and the whole of the Acts of Thecla was read. (B3d, B6a–c; Documented.)
@@ -103,7 +103,7 @@ The books passed hand to hand, and so did the judging. At Rhossus the gospel cam
 
 ## Ending
 
-1. **The reading at Thecla's memorial** (B6c): prayer, then the whole of her Acts read, the book whose writer had left his office (Jerome, De viris 7: npnf203 39502–39515; PL23 49226–49230) now read in full at her memorial. Do not add that Egeria knew of the presbyter.
+1. **The reading at Thecla's memorial** (B6c): prayer, then the whole of her Acts read. End on the reading itself. The link from Thecla's book to Eusebius's verdict is carried earlier, in beat 4, by the gloss "The Acts of Paul, Paul's travels and deeds" (Words to explain; Review M4). Do not add that Egeria knew of the presbyter.
 2. **Thecla's own end in her book** (B3d, Gebhardt form): she went to Seleucia, taught many, and fell asleep, then Egeria arriving there.
 
 ## Links
@@ -159,12 +159,18 @@ The doubt is not itself the story; no scene of doubt.
 | "Thecla died / was buried at Seleucia" or "her tomb" | "in one form of her book, she taught many and fell asleep" there; the other form ends in Rome; Egeria saw "the memorial" (B3d; ANF8 48117–48121). |
 | "from Spain / Gaul / the West", "a nun" | "from far-distant lands" (3419–3421) |
 | "at twelve" as the book's fixed age | leave the age out; the copies differ (ANF8 1578) |
+| "his letter" (what Serapion wrote to Rhossus) | "what he wrote to them" (Schwartz 2502–2504: a λόγος, listed apart from his letters) |
+| "Tertullian gave Paul's rule, then told of the presbyter" | "He also told of the presbyter", with no order word, or the presbyter first (CSEL 20 12260–12267) |
+| "Marcianus taught that…", "Marcianus led the backers", "Marcianus was Marcion", or any content for his teaching | "He saw what one Marcianus held: a man who contradicted himself, not understanding what he said" (B1g); nothing more is kept |
+| "never canon" with no gloss | "never entered the New Testament" |
+| the Thomas, Andrew and John titles in a list | "the gospel of Peter and other books like it" (B5d) |
+| "the book whose writer had left his office" at the close | end on the reading itself (B6c) |
 | "the church at Rhossus was heretical" | only "those who put the book forward", "the backers" (B1d; Rufinus 2584: "hi, qui codicem illum legi debere adserunt") |
 
 ## Leave out
 
 - The Gospel of Peter fragment's content and the Akhmim find (modern identification; card).
-- Docetae and Marcianus (name only, or a sentence the editor marks faulty).
+- Docetae (name only; the modern gloss is barred). Marcianus is now told, in beat 1, in Serapion's own report only (B1g).
 - The Muratorian Fragment (date and place modern; its Shepherd lines belong to hermas).
 - Athanasius's Festal Letter 39 (told in his own story; card).
 - Jerome's "before John" and "the lion baptized" (late legend; card).
@@ -196,3 +202,7 @@ Measured against draft v1; full list with costs in `Fixes_Length.md`.
 10. Added, not cut: the storm that put out the fire, in the book's voice (beat 2). (+9)
 
 Recount: 713 − 64 + 9 = 658.
+
+### Review fix pass (`Review.md`, 2026-11-25)
+
+The brief stood at 672. The review's fixed changes (B1 +3, B5 −9, B6 −5, B7 −8, M4 +5) bring it to 658. B3: "some heresy," out (−2), the Marcianus sentence in (+16): **672**, under the 675 cap. If a draft runs past 675, cut "from far-distant lands" (beat 5, −3) first.

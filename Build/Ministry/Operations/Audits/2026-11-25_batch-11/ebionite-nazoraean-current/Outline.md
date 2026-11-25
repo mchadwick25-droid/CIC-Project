@@ -15,7 +15,7 @@ Kind: tradition (`kinds/tradition.md`). Census id `ebionite-nazoraean-current`; 
 
 ## Length
 
-**660 words (approved), about 4 minutes 25 seconds** (kit range 450–675; the record is many hostile witnesses, each brief). Count the story must carry: three quotes, 111 words (Q1 26, Q2 48, Q3 37); glosses, about 75 (the Law of Moses, Gentile, the Christ, apostate, "Ebionites" as "poor", "Nazoraeans" from Nazareth, Origen's columns, the Gospel according to the Hebrews, James's oath, "those who sleep", the Pharisees); witnesses credited, about 70 (one early line that all we know comes from their opponents; Justin; Irenaeus; Origen; Epiphanius's "he says" for the curse, the descent and the places; Jerome twice; Augustine). Must-carry total about 257. After the outline check's fixes, the beats with Cut first 1–6 and 4b–4e taken out run to about 730 (recheck count), about 70 past the approved 660. Items 7 and 8 together would bring them to about 660; that is for Mark's ruling on the length. **Recount after the length fix pass (2026-11-25):** the first draft, written with items 1-8 out, ran 723 words by `wc -w`; items 11-16, measured against that draft's own sentences, take out 75, leaving about 648 against the ruled 675 (`Fixes_Length.md`).
+**660 words (approved), about 4 minutes 25 seconds** (kit range 450–675; the record is many hostile witnesses, each brief). Count the story must carry: three quotes, 111 words (Q1 26, Q2 48, Q3 37); glosses, about 75 (the Law of Moses, Gentile, the Christ, apostate, "Ebionites" as "poor", "Nazoraeans" from Nazareth, Origen's columns, the Gospel according to the Hebrews, James's oath, "those who sleep", the Pharisees); witnesses credited, about 70 (one early line that all we know comes from their opponents; Justin; Irenaeus; Origen; Epiphanius's "he says" for the curse, the descent and the places; Jerome twice; Augustine). Must-carry total about 257. After the outline check's fixes, the beats with Cut first 1–6 and 4b–4e taken out run to about 730 (recheck count), about 70 past the approved 660. Items 7 and 8 together would bring them to about 660; that is for Mark's ruling on the length. **Recount after the length fix pass (2026-11-25):** the first draft, written with items 1-8 out, ran 723 words by `wc -w`; items 11-16, measured against that draft's own sentences, take out 75, leaving about 648 against the ruled 675 (`Fixes_Length.md`). **After the review (2026-11-25, `Review.md`, `Fixes_Review.md`):** the second draft ran 668; the outline's fixes B1 (+11), B2 (+4), B4 (+5), B5 (+2) and B7 (−13), with the reviser's B3, B6, M4, M5 and M8, bring it to about 672 (the review's scratch count), under 675.
 
 ## Approved heart and length
 
@@ -190,6 +190,12 @@ The whole story rests on opponents, all but Justin: the essence says so once, in
 | "Modern Messianic Jews descend from them" | Not in these sources; census: no line. |
 | "Paul circumcised Timothy" | That is Jerome's and Augustine's argument about Paul, not about these groups; leave out. |
 | "Epiphanius visited them" | He "places" them; he does not say he met them in these lines. |
+| "lived in Palestine and Syria from Justin's day" | "the later writers place them in Syria and beyond the Jordan" (Pan 25026–25028; PL23 48161–48162). Justin, Irenaeus and Origen give no place (A13). |
+| "lived ... to about 400" | "church writers wrote of them to about 400"; Jerome in 404: "usque hodie", to this day (CSEL34 23235). |
+| "only through church writers who argued against them" | "through other church writers, nearly all of whom argued against them" (JusG 2166–2173). |
+| "under two names, Nazoraeans and Ebionites" | "as two heresies, side by side: the Nazoraeans and the Ebionites" (Pan 12578). |
+| "In 392 ... He calls it the Gospel according to the Hebrews" | "Elsewhere he calls it the Gospel according to the Hebrews" (PL23 44505–44509); in 392, at Beroea, Matthew's Hebrew (PL23 48155–48162), which stays out (Cut first 5). |
+| Juliana's books named without what they were | Leave Juliana to the card (G2; Cut first 4). |
 
 ## Leave out
 
