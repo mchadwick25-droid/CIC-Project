@@ -205,3 +205,7 @@ Each cut is marked for the card or Leave out. Every item goes, per Mark's ruling
 12. Beat 4's flight across the river of Balkh: shorten to "they fled east into the lands of the Turks", which saves about 8 words: **card**.
 13. Beat 2's "the Fihrist says" after the seven books, about 3 words: **card**. Keep "He said he was the Paraclete, the Helper Jesus had promised"; the Fihrist is already credited in beat 1.
 14. The 732 edict's allowance for the Hu (B22, beat 6), with its Hu gloss, about 25 words: **card**.
+15. The 843 chronicle's "some seventy of their women religious at the capital all died", with its late-chronicle credit (B26, beat 6), about 20 words: **card**. Keep the edict that closed their temples across the empire.
+16. Beat 4's "Augustine, who had kept it, says they kept Easter with little care but the Bema with great honor" (C11), about 20 words: **card**. Keep the Bema, its gloss, and the reason they gave Augustine for it.
+
+Recount with all fixes in and items 1-16 cut, by the method of `Length_Count.md` (quotes by machine; 8 words a gloss, 6 a credit, 11 a fact): the independent 687, plus 84 for what the check's fixes add (six facts and three credits), less 69 for items 8-14 (three facts, one credit, and the Hu fact and gloss), is 702; items 15 and 16 (two facts, one credit) take 28 more, for **674 words**.

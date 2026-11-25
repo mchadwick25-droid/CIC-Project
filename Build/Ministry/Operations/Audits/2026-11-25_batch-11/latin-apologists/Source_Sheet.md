@@ -16,6 +16,8 @@ Every line number is a file line in `cic/texts/<file>`. Witness kinds: **own** (
 - **LactLat** `lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt` (Brandt, CSEL 19, 1890; clean TEI)
 - **TertLat1** `tertullian_quae-supersunt-t1-apologetica-lat_oehler1853.txt` (Oehler 1853; OCR noisy)
 - **AugLat** `augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt` (PL 42, holds De Trinitate)
+- **NPNF2-1** `npnf201_eusebius-church-history-life-of-constantine.xml` (Eusebius, Church History, English, 1890)
+- **Mansi 8** `mansi_sacrorum-conciliorum-collectio-tomus-8-492-536-lat_welter-facsimile1901.txt` (Mansi, tome 8, facsimile 1901; holds the Decretum Gelasianum lists; OCR damaged)
 
 ---
 
@@ -148,7 +150,7 @@ Every line number is a file line in `cic/texts/<file>`. Witness kinds: **own** (
 - **Card `sources`**: the card here has no general `sources` list; its documented story cites Lactantius DMP 12-13, DI V, Eusebius HE VIII.5, Barnes. Those are the lactantius story's ground (the Nicomedia morning) and were not used. Card `people` held ids pointed to the ANF4 Octavius, ANF4 Commodian and ANF6 Arnobius, all read.
 - **Corpus map**: `cic/corpus-map/latin-apologists.yaml` (117 rows: Arnobius ×3, Commodian ×5, Cyprian ×6, Minucius ×4, Gennadius, Jerome ×6, Lactantius ×9, Passion of Perpetua ×4, Tertullian ×~70, plus Monceaux, Harnack, Audollent, Brewer, Schanz-Hosius-Krüger as modern works). Tertullian and Lactantius have no buckets of their own; their census `toldWithin` is this entry. `WORKS.yaml` and `AUTHOR-IDS.yaml` checked for felix, arnobius, commodian, lactantius, tertullian; `RETRIEVAL-HINTS.md` holds no entry for these names.
 - **Text search of `cic/texts/`**: files naming Minucius 176 (most are the Roman name Minucius in other contexts), Arnobius 173, Lactantius 312, Tertullian 613, Commodian 58, Octavius 136. Later witnesses who carry the subject on: Lactantius (DI I.11, V.1-4), Jerome (DVI 53, 58, 79, 80; Chronicle; Letters 58, 70), Gennadius XV, Augustine De Trin. V.9. The Decretum Gelasianum is held in Mansi 8 (17220, 17222, 17233, 17301, OCR damaged): the works of Tertullian, Lactantius, Commodian and Arnobius are listed as 'apocrypha', books not to be received. Attribution and date (Gelasius or Hormisdas recension) Contested.
-- **Used**: ANF3, ANF4, ANF6, ANF7, NPNF2-3, NPNF2-6, NPNF1-3; Latin: MinLat, ArnLat (+scan twin), JerChron (+Monc3 confirming), LactLat, TertLat1, AugLat.
+- **Used**: ANF3, ANF4, ANF6, ANF7, NPNF2-1, NPNF2-3, NPNF2-6, NPNF1-3, Mansi 8; Latin: MinLat, ArnLat (+scan twin), JerChron (+Monc3 confirming), LactLat, TertLat1, AugLat.
 - **Set aside**: Commodian's Instructiones and Carmen (date uncertain by centuries; Gennadius alone, a century and more later; a story of its own if ever); Cyprian's Ad Demetrianum and Quod idola (Cyprian's own entry and the Latin pastoral story); Passion of Perpetua (a martyr text, not a defense; its own story); Tertullian's other treatises (his own page); Lactantius's On the Deaths of the Persecutors (the lactantius story and the census documented story); Waltzing and Boenig Octavius (checked as second prints only); Harnack, Schanz-Hosius-Krüger, Monceaux, Audollent, Brewer (modern: only Monceaux used, and only as a second print of Jerome's Latin).
 
 ## Modern works (for the card's Modern works list; never witnesses)
