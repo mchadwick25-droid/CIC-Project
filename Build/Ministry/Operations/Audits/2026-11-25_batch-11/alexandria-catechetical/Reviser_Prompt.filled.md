@@ -10,6 +10,8 @@
 - **This batch's rulings (Mark, 2026-11-25, "Batch 11: the slate approved": "Approve as recommended". This batch only.):** Quotes: no reuse is planned for this batch. Every quote in the live stories named under Live beside stays barred; a quote another story on the tree uses may be used only where the slate lists it, and the slate lists none. Inside the batch, no quote is shared. A researcher who wants a barred quote asks. Barred: Clement's "I tracked him down where he was hidden in Egypt…" (clement-of-alexandria and this entry's card voices), Dionysius's "That he was called John…", and every other quote in the stories beside it.
 - **Also:** A built world: read `cic-website/data/worlds/alexandria-catechetical.json` first (Kind kit, Sources). Its census `entry` texts (`tile`, `intro`, `summary`, `recordHolds`) are rebuilt in this batch too (Open-Gaps 416); the outline's heart serves them.
 
+- **Approved before the kit (Kit Part 3, step 0):** this tradition's live text, `Build/Ministry/Operations/Audits/2026-11-25_batch-11/alexandria-catechetical/alexandria-catechetical.brief.approved.txt`, was approved before the kit and goes through every step here. Read it too. Keep its wording wherever it passes the standard and the outline; change what does not, and use nothing in it the outline does not hold.
+
 ---
 
 # Reviser

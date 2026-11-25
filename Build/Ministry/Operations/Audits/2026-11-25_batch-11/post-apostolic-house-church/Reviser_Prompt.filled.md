@@ -10,6 +10,8 @@
 - **This batch's rulings (Mark, 2026-11-25, "Batch 11: the slate approved": "Approve as recommended". This batch only.):** Quotes: no reuse is planned for this batch. Every quote in the live stories named under Live beside stays barred; a quote another story on the tree uses may be used only where the slate lists it, and the slate lists none. Inside the batch, no quote is shared. A researcher who wants a barred quote asks. Ruling: drop the "ten leopards" scene (ignatius-of-antioch opens on it). Pliny's hymn to Christ "as God" and the two ministrae may stay, for a new job (what the meetings were). Barred: Pliny's "Those who confessed, I asked a second and a third time…" and Trajan's reply, Ignatius's "I am God's wheat…" and "From Syria all the way to Rome…", and every other quote in the stories beside it.
 - **Also:** A built world: read `cic-website/data/worlds/post-apostolic-house-church.json` first (Kind kit, Sources). Its census `entry` texts (`tile`, `intro`, `summary`, `recordHolds`) are rebuilt in this batch too (Open-Gaps 416; Mark called the summary "horrible", Open-Gaps 405); the outline's heart serves them.
 
+- **Approved before the kit (Kit Part 3, step 0):** this tradition's live text, `Build/Ministry/Operations/Audits/2026-11-25_batch-11/post-apostolic-house-church/post-apostolic-house-church.brief.approved.txt`, was approved before the kit and goes through every step here. Read it too. Keep its wording wherever it passes the standard and the outline; change what does not, and use nothing in it the outline does not hold.
+
 ---
 
 # Reviser

@@ -10,6 +10,8 @@
 - **This batch's rulings (Mark, 2026-11-25, "Batch 11: the slate approved": "Approve as recommended". This batch only.):** Quotes: no reuse is planned for this batch. Every quote in the live stories named under Live beside stays barred; a quote another story on the tree uses may be used only where the slate lists it, and the slate lists none. Inside the batch, no quote is shared. A researcher who wants a barred quote asks. Barred: both quotes in augustine-of-hippo.
 - **Also:** Held for research, among others: the Acts of Archelaus, Augustine's anti-Manichaean works (npnf104), the Fihrist, the Khuastuanift, the Chinese treatise (French), Alexander of Lycopolis.
 
+- **Approved before the kit (Kit Part 3, step 0):** this tradition's live text, `Build/Ministry/Operations/Audits/2026-11-25_batch-11/manichaeism/manichaeism.brief.approved.txt`, was approved before the kit and goes through every step here. Read it too. Keep its wording wherever it passes the standard and the outline; change what does not, and use nothing in it the outline does not hold.
+
 ---
 
 # Reviser
