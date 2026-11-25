@@ -1,6 +1,6 @@
 # Third read packet
 
-The pieces are in `Build/Ministry/Operations/Audits/2026-11-25_batch-11/Grades3/Packet.md`. Read each piece whole before ruling on its findings.
+The pieces are in `Build/Ministry/Operations/Audits/2026-11-25_tradition-grades/packets/S01.md`. Read each piece whole before ruling on its findings.
 
 ## S001
 Piece: roman-church-third-century
