@@ -70,3 +70,17 @@ Sentences failed the fresh trust read: F1, F2, and F3/T2-1. Under Kit Part 3, st
 Still open for him:
 1. Bithynia remains in the outline's heart and Setting. This needs either a ruling that it is Widely Accepted or a change to the heart.
 2. Why Justin wrote to the emperor is not in the outline. It goes back to the researcher if the story should tell it.
+
+## Craft check outline fixes applied
+
+Applied to `Outline.md` exactly as `Craft_Check.md` lists them. The brief was not touched.
+
+1. The heart, When and where (line 9): Bithynia replaced with "the province Pliny governed (unnamed in the held old texts)". Applied.
+2. Setting, Places (line 31): Bithynia entry replaced with the unnamed-province entry and its sources. Applied.
+3. Openings 1 (line 64): heading changed to "Before dawn, under Trajan."; "Pliny, a Roman governor ruling a province, questioned people". Applied.
+4. Do not say, new entry at the end (line 178): Pliny and any named province. Applied.
+5. Cut first 23 (line 226): "drew counsel from the letter Rome had sent". Applied.
+6. Do not say, former lines 177-178: two entries replaced with one (line 177). Applied.
+7. Ending 1 (line 108): "only on Sunday", "Irenaeus of Lyon reminded him", "Those elders kept a different day". Applied (line 108 only; the quote at Cut first 25 was not listed and was left as is).
+
+Not applied: none.
