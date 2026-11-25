@@ -17,7 +17,7 @@ Census id `roman-church-third-century`. Kind: tradition (`kinds/tradition.md`). 
 
 ## Length
 
-Planned about 660 before cuts. Per Mark's ruling every Cut first item is applied, leaving about 622 (`../Length_Count.md`) against the approved 625.
+Planned about 660 before cuts. Per Mark's ruling every Cut first item is applied, leaving about 622 (`../Length_Count.md`) against the approved 625. **Recount after the length fix pass (2026-11-25):** the first draft, written with items 1-10 out, ran 961 words; items 11-29, measured against that draft's own sentences, take out about 291, leaving about 670 against the ruled 675 (`Fixes_Length.md`).
 
 The count the story must carry first: three quotes (about 95 words); the plain sense of each word to explain (confessor; cut off from communion; Theodotus's and Sabellius's teachings; Callistus's rule on forgiveness and the "school"; the marriage rule and Hippolytus's charge against it; the fallen; the lesser clergy; the second bishop: about 165); the witnesses it credits (Hippolytus once, early; the anonymous writer of Natalius's story; Eusebius for the dove; the Liberian list; Cyprian; Cornelius: about 75). About 335 words fixed, leaving about 325 for seven beats, the opening and the ending. It needs the top of the range because the job holds three quarrels and a split, and each thing named needs its plain sense. Cut first brings it to about 470 (three minutes ten).
 
@@ -192,12 +192,15 @@ The whole of beats 1-4 rests on one witness: the story says so once, early, in t
 - "During the episcopate of this one, second baptism was for the first time presumptuously attempted" (H 13955-13956): unclear who did what.
 - Stephen and rebaptism, Xystus's death, Dionysius of Rome, Aurelian: after 251 (unless Ending 2).
 - Cyprian's praise of Cornelius sitting in the bishop's chair while the emperor would sooner hear of a rival emperor (N2): a judgment of praise, no room; card.
+- Hippolytus's names for Callistus's following, "school" and "Callistians" (C14): Cut first 17.
+- Callistus's charge that Hippolytus's side worshipped two gods (Z9): Cut first 21; `hippolytus-of-rome` tells it.
+- For the card in the length fix pass, each listed in Cut first: items 11-16, 18-20, 22-29.
 - The Liber Pontificalis lives: late legend.
 - Editors' claims on dates, the catacomb and Hippolytus's office: modern.
 
 ## Cut first
 
-In order; each saves roughly the words shown. The plan above is about 660. Per Mark's ruling (2026-11-25) all ten are applied.
+In order; each saves roughly the words shown. The plan above is about 660. Per Mark's ruling (2026-11-25) all ten are applied, and items 11-29 below by the length ruling.
 
 1. The "risen through every office" clause and Cyprian's credit for the election (beat 7), keeping "chosen by the clergy and the people", about 10 words: **for the card**.
 2. Fabian's regions and buildings, with the list's credit (beat 5), about 20 words: **for the card**.
@@ -210,4 +213,26 @@ In order; each saves roughly the words shown. The plan above is about 660. Per M
 9. Twice-married clergy and the bishop not removed (beat 3), about 30 words: **for the card**.
 10. The clergy's list of widows, bedridden and prisoners (beat 6), keeping the burial of martyrs, about 15 words: **for the card**.
 
-With cuts 1-10 applied, the story stands at about 622 words by the independent count (`../Length_Count.md`). Never cut: Natalius at the bishop's feet, the one-witness sentence about Hippolytus, Q1, Callistus's rule and who came to him, the marriage rule with Hippolytus's charge, Fabian's election by the people, Q2, Cornelius's count, the split and the bishops' decision, Q3.
+Length fix pass (Mark, 2026-11-25, "Batch 11: lengths, up to 4:30 and cut at the outline", "a"): the first draft ran 961 with items 1-10 out, so items 11-29 are also applied, in this order. Each word cost is measured on the first draft (`Fixes_Length.md`).
+
+11. The confessors' coming to the elders and five bishops and asking that what they had done be forgotten (Ending, N7), keeping that the confessors who had sided with Novatian came back, about 14 words: **for the card**.
+12. The people told so they could see the men they had mourned as wanderers (Ending, N7), about 19 words: **for the card**.
+13. Maximus taking his place again and the rest received with the people's approval (Ending, N10), about 20 words: **for the card**.
+14. The burial of martyrs, the last of the clergy's instructions to Carthage (beat 6, D4), about 10 words: **for the card**.
+15. The clergy's calling back people on their way up to sacrifice (beat 6, D3), keeping that Rome's elders and deacons wrote to Carthage's clergy, about 17 words: **for the card**.
+16. Cornelius's election by almost all the clergy and the vote of the people present (beat 7, N1), keeping Cornelius named as bishop in 251, about 12 words: **for the card**.
+17. Hippolytus's names for Callistus's following, a "school" and "Callistians", with the gloss (beat 3, C14), about 19 words: **Leave out** (his charge; the slate tells Callistus's side, not Hippolytus's charges again).
+18. Paul's word that no one should judge another's servant (beat 3, C10), keeping the tares, about 12 words: **for the card**.
+19. The leather-worker and the bishop before Zephyrinus who cut him off (Opening, Z1), keeping that the group taught Christ was only a man, about 19 words: **for the card**.
+20. Zephyrinus's saying to the people, one God, Jesus Christ, and no other who was born and suffered (beat 1, Z8), about 21 words: **for the card**.
+21. Hippolytus's side withstanding Zephyrinus and Callistus, and Callistus's charge that they worshipped two gods (beat 1, Z9), about 16 words: **Leave out** (`hippolytus-of-rome` tells the charge).
+22. The teaching from Smyrna reaching Rome (beat 1, Z6), the Father-Son quarrel now carried by Sabellius's teaching and Q1, about 19 words: **for the card**.
+23. Zephyrinus's date, "bishop from around 200" (beat 1, S1), the essence keeping "the first half of the 200s", about 6 words: **for the card**.
+24. Callistus's charge of the church's cemetery (beat 1, C2), keeping that he had been a slave and once sent to the mines, about 8 words: **for the card**.
+25. The returned confessors' confession of one God, one Christ, one Holy Spirit and one bishop in the catholic church (Ending, N9), about 17 words: **for the card**.
+26. "His people called themselves the Catholic Church", with its gloss (beat 3, C14), about 12 words: **for the card**.
+27. Natalius warned in visions and beaten all night by holy angels, the writer's credit, and his welts (Opening, Z3), keeping the sackcloth and ashes, the bishop's feet, clergy and people, and "scarcely taken back", about 24 words: **for the card**.
+28. Natalius's monthly salary (Opening, Z2), about 5 words: **for the card**.
+29. Callistus's reason from the tares left to grow with the wheat (beat 3, C10), about 21 words: **for the card**. The last move before the heart: with it, Callistus's side stands in Q1 and in who came to him.
+
+With cuts 1-29 applied, the story stands at about 670 words by the first draft's measure, against the ruled 675. Never cut, besides the list below: Hippolytus's reasons for cutting off Sabellius (C4) and Eusebius's reason for Decius's persecution (D1), which Part 1 requires (Explain it). Never cut: Natalius at the bishop's feet, the one-witness sentence about Hippolytus, Q1, Callistus's rule and who came to him, the marriage rule with Hippolytus's charge, Fabian's election by the people, Q2, Cornelius's count, the split and the bishops' decision, Q3.
