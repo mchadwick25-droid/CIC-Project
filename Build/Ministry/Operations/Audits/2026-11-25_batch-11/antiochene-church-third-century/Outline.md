@@ -93,7 +93,7 @@ The kind kit's one form, a story, told in time order from Paul's rise to Lucian'
 | Arius | link |
 | Eusebius of Nicomedia | link |
 
-By role: Demetrianus ("the bishop before him"), Domnus ("a new bishop, son of an earlier one"), Zenobia ("the queen who had held the East", if Cut first 5 is not taken), Alexander ("the bishop of Alexandria who fought Arius"), Philostorgius ("a historian on Arius's side"), Jerome ("a writer of the next century").
+By role: Demetrianus ("the bishop before him"), Domnus ("a new bishop, son of an earlier one"), Zenobia ("the queen who had held the East", if Cut first 5 is not taken), Alexander ("the bishop of Alexandria who fought Arius"), Philostorgius ("a historian on Arius's side"), Jerome ("a Latin writer of the late fourth century").
 
 ## Connection to carry into the story
 
@@ -101,10 +101,10 @@ What passed from this church to the Arian party was a teacher and his pupils. Lu
 
 ## Ending
 
-1. **Recommended: the pupils.** Some of his pupils became bishops of Nicomedia, Nicaea and Antioch itself (L6). Driven out of Alexandria by his bishop, one of them, Arius, wrote to another, Eusebius of Nicomedia, and ended with Q2. (L5, L6; Thdt 6005-6026 for the occasion; Epiph-Gk 45744-45746; Thdt 6063-6064; Philost 138.) It ends on the circle in its own words, as the slate asks.
+1. **Recommended: the pupils.** A historian on Arius's side says some of his pupils became bishops of Nicomedia, Nicaea and Antioch itself (L6). Driven out of Alexandria by his bishop, one of them, Arius, wrote to another, Eusebius of Nicomedia, and ended with Q2. (L5, L6; Thdt 6005-6026 for the occasion; Epiph-Gk 45744-45746; Thdt 6063-6064; Philost 138.) It ends on the circle in its own words, as the slate asks.
 2. **Alternative: Lucian's one answer.** End on Q3 and move the pupils before his death, as his students at Antioch (L6). Weaker for the connection, since the pupils' own word (Q2) is lost or moved before the death it follows.
 
-Considered and set aside: closing on the 350s quarrel over "homoousios". It would put a later event after Lucian's death but before nothing; the story would end on later writers, and its three witnesses disagree on the reason (D3), needing about 90 words. It goes to the card.
+Considered and set aside: closing on the 350s quarrel over "homoousios". It falls after the pupils in time, so the story would have to end on later writers; and its three witnesses disagree on the reason (D3), which needs about 90 words to tell fairly. It goes to the card.
 
 ## Links
 
@@ -125,7 +125,7 @@ Considered and set aside: closing on the 350s quarrel over "homoousios". It woul
 | The synod's letter (in E-Gk, E-Eng, ANF6) | The bishops who deposed Paul, at the time | Old; contemporary; an enemy's document | Every charge against Paul (beats 1, 3, 4); Firmilian's visits (beat 2). Said once, early in beat 1, inside the sentence about the letter. |
 | Eusebius of Caesarea, Church History VII | A bishop of Palestine, writing within living memory | Old; near-contemporary | His frame (beat 1 "common man"; beat 2 "despoiler"; beat 4 Malchion "alone"; beat 5 the ruling); Lucian's death (beat 6) |
 | Jerome, Lives 71, 77; Chronicle | Latin writer, 380s-390s | Old; later | Copies bearing Lucian's name (beat 6); Zenobia near Antioch (beat 5, clause) |
-| Alexander of Alexandria, in Theodoret | Arius's bishop and enemy, 320s | Old; later; hostile | Lucian followed Paul and stayed out of communion (beat 6) |
+| Alexander of Alexandria, in Theodoret | Arius's bishop and enemy, 320s | Old; later; hostile | Lucian was Paul's successor and stayed out of communion (beat 6) |
 | John Chrysostom, Homily on Lucian | Preacher, two generations after Lucian | Old; later; a sermon; held in Latin translation | Q3 (beat 6) |
 | Arius, letter to Eusebius of Nicomedia | Arius, driven out of Alexandria by his bishop (Thdt 6005-6026) | Old; own words | Q2 (ending) |
 | Philostorgius, in Photius's summary | Historian friendly to Arius's side, about 425, known through a hostile summary | Old; later | The list of pupils (ending) |
