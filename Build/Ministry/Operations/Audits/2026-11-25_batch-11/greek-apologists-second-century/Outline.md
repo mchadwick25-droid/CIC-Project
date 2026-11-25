@@ -15,7 +15,7 @@ Kind: tradition. Every line points to `Source_Sheet.md` and, through it, to `cic
 
 ## Length
 
-About **4 minutes, about 600 words** (inside the kind's 450–675). Must carry first: three quotes (about 105 words); glosses for apology, atheism, the two rumours, informers and decrees, gladiator shows, Trinity (about 65); credited witnesses: Eusebius for Quadratus and Melito, the two headings of Aristides, the unknown writer to Diognetus (about 45). About 215 words before any narration; six beats, the opening and the close carry the rest. The record is rich, so the length is set by the heart, not by thin sources.
+About **4 minutes, about 600 words** (inside the kind's 450–675). Approved length 505 (below); the independent count after Cut first is 503. Must carry first: three quotes (about 105 words); glosses for apology, atheism, the two rumours, informers and decrees, gladiator shows, Trinity (about 65); credited witnesses: Eusebius for Quadratus and Melito, the two headings of Aristides, the unknown writer to Diognetus (about 45). About 215 words before any narration; six beats, the opening and the close carry the rest. The record is rich, so the length is set by the heart, not by thin sources.
 
 ## Approved heart and length
 
@@ -35,7 +35,6 @@ Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommend
 - **informers**: "people who laid charges against others and took their goods" (npnf201 25823–25826).
 - **decree**: "a new written order".
 - **gladiator shows**: "fights to the death between armed men, or with wild beasts, staged for crowds" (athen-grc 1543–1546).
-- **Trinity**: Theophilus's own terms: "God, his Word and his Wisdom" (anf02 8990–8996).
 - **province of Asia**: "the Roman province of Asia, in today's western Turkey".
 
 ## Shape
@@ -57,16 +56,16 @@ The tradition kit has no shapes: a story, through the people who wrote, in time 
 ## Story beats
 
 1. **Under Hadrian: Quadratus and Aristides.** Quadratus gave the emperor a defence, Eusebius says, because certain wicked men were troubling the Christians; Eusebius, writing in the early 300s, still had the book, and quotes its one surviving passage: people Jesus healed or raised lived on, some "even to our day" (narrated, not quoted). Aristides, an Athenian, also wrote to the emperor, Hadrian as Eusebius tells it (the Syriac version's longer heading reads "Titus Hadrianus Antoninus", which its editor took for Antoninus Pius: card). He told the emperor that Christians take a stranger under their roof and rejoice over him as a brother, and that those who have give to those who have not. (npnf201 20992–20995, 21048–21068, 21073–21075; anf09 19005–19008, 18960–18964.) Reason for the act: Christians being troubled (Eusebius's reason). Documented; which emperor Contested.
-2. **At Rome, under Antoninus Pius: Justin.** Justin, a Christian philosopher teaching at Rome, wrote to the emperor and his sons. Christians were called atheists, he said, because they refused such gods; atheists of those, yes, but not of the most true God. They paid their taxes first of all; they worshipped God alone and in other things gladly served the emperors. You can kill us, he told them, but you cannot harm us. He also named Marcion, still alive and teaching another god above the Creator. A philosopher named Crescens, Justin writes, was telling crowds that Christians were godless and impious, and Justin expected to be killed; he was put to death at Rome under Marcus Aurelius. (1apol-grc 68–71, 94–96, 186–188, 506–516; anf01 14943–14945, 16849–16859; npnf201 23746–23747, 23749–23764.) Explain "atheists". Documented; his death under Marcus Aurelius Widely Accepted (Eusebius places it there).
+2. **At Rome, under Antoninus Pius: Justin.** Justin, a Christian philosopher teaching at Rome, wrote to the emperor and his sons. Christians were called atheists, he said, because they refused such gods; atheists of those, yes, but not of the most true God. They paid their taxes first of all; they worshipped God alone and in other things gladly served the emperors. You can kill us, he told them, but you cannot harm us. He also named Marcion, still alive and teaching another god above the Creator. A philosopher named Crescens, Justin writes, was telling crowds that Christians were godless and impious, and Justin expected to be killed; he was put to death at Rome under Marcus Aurelius, condemned with others for refusing to sacrifice to the gods (Acts of Justin, anf01 29397–29398; the trial itself is justin-martyr's and is not retold). (1apol-grc 68–71, 94–96, 186–188, 506–516; anf01 14943–14945, 16849–16859; npnf201 23746–23747, 23749–23764.) Explain "atheists". Documented; his death under Marcus Aurelius Widely Accepted (Eusebius places it there).
 3. **In Asia, under Marcus Aurelius: Melito of Sardis.** Melito, bishop of Sardis, wrote that something new was happening: in Asia the godly were driven about by new decrees, and informers used them to rob the innocent night and day. Quote 1. But if the decree was not the emperor's, he begged not to be left to the plundering of the crowd, and reminded him that his father had written to the cities forbidding new measures against Christians. (npnf201 25818–25829, 25834–25838, 25890–25897.) Explain informers, decrees. The whole beat rests on Eusebius's quotation of Melito: say so once. Documented.
-4. **At Athens, to Marcus Aurelius and Commodus: Athenagoras answers.** He named the three charges: if they were true, he said, destroy us root and branch, with our wives and children; if not, look into our lives, our teaching and our loyalty. Godless? The poets and philosophers spoke freely of one God, yet a law lay against Christians alone. Eating human flesh? No one claimed to have seen it, and not one of their slaves had told such a lie. Then he turned to the emperors' own games. Quote 2. He ended praying that the throne pass from father to son. (athen-grc 179–182, 196–198, 311–318, 1534–1550, 1601–1602; anf02 11553–11558, 11728–11735.) Do not retell the opening heading. Documented.
-5. **At Antioch: Theophilus to Autolycus.** His friend had heard the rumours: shared wives, incest with sisters, the eating of human flesh, and that Christian books were new. Theophilus answered that Christians may not even watch gladiators, and counted back the years to show Moses's books older than the Greeks'. Writing of God, his Word and his Wisdom, he used the word Trinity. (anf02 10155–10160, 10239–10246, 10610–10614, 10880–10885, 8990–8996; npnf201 25228–25231.) Documented; "first" use not claimed.
+4. **Athenagoras the Athenian, to Marcus Aurelius and Commodus: Athenagoras answers.** He named the three charges: if they were true, he said, destroy us root and branch, with our wives and children; if not, look into our lives, our teaching and our loyalty. As for godlessness, the poets and philosophers had searched for God and guessed at him, and spoke and wrote freely of one God, yet a law lay against Christians alone, who could show their reasons (athen-grc 230, 311–324). As for eating human flesh, no one claimed to have seen it, and not one of their slaves had told such a lie. Then he turned to the emperors' own games. Quote 2. He ended praying that the throne pass from father to son. (athen-grc 179–182, 196–198, 311–318, 1534–1550, 1601–1602; anf02 11553–11558, 11728–11735.) Do not retell the opening heading. Documented.
+5. **At Antioch: Theophilus to Autolycus.** His friend had heard the rumours: shared wives, incest with sisters, the eating of human flesh, and that Christian books were new. Theophilus answered that Christians may not even watch gladiators, and counted back the years to show Moses's books older than the Greeks'. (anf02 10155–10160, 10239–10246, 10610–10614, 10880–10885; npnf201 25228–25231.) Documented.
 6. **What came of them** (see below), told through what later writers did.
 
 ## What came of it
 
 1. Eusebius kept their books and quoted the lost ones: Quadratus's passage, Melito's petition (npnf201 21049–21068, 25818–25859). Documented. **Defended:** the one God and Christians' innocence.
-2. Tertullian at Carthage, writing in Latin, named "Justin, philosopher and martyr" among the writers before him (anf03 43160–43163). Latin Apologists clause. Documented.
+2. Tertullian at Carthage, writing in Latin against the Valentinians, said he was not inventing his own arguments: earlier writers had already set down the refutations, and he named Justin first among them (anf03 43158–43163). Latin Apologists clause. Documented. Narrate it; do not quote Tertullian's phrase for Justin (barred: live on justin-martyr).
 3. At Alexandria, Clement praised Tatian, a hearer of Justin's, for his careful account of Moses's age, the argument Theophilus also made (anf02 29724–29727, 10155–10160; Irenaeus, anf01 33664). Documented.
 4. Aristides's book was lost, carried unrecognised inside a later Christian romance, Barlaam and Josaphat, and found in Syriac at Sinai in 1889 (anf09 18398–18403, 18416–18421, 18451–18462). Modern event. Documented.
 Keepers today: none sourced; left out.
@@ -90,7 +89,7 @@ None is used elsewhere on the tree (census search, 2026-11-25); none is on the s
 
 ## Connection to carry into the story
 
-What passed on was a way of answering: set out openly what Christians believe and do, and ask to be judged on that (athen-grc 196–198; 1apol-grc 124–141). Eusebius kept it by copying and quoting (npnf201 21049–21068); Tertullian, defending the faith in Latin, counted Justin among his predecessors (anf03 43160–43163); Clement at Alexandria used the proof from Moses's age and credited Tatian with it (anf02 29724–29727). The writer must make clear that the Latin and Alexandrian writers *used* the Greek work, not merely came later.
+What passed on, in the held record: their books, which Eusebius kept and quoted, still holding Quadratus's defence and copying Melito's petition, without which both would be names only (npnf201 21049–21068, 25818–25859); and Justin's writing against the heretics, which Tertullian, writing in Latin against the Valentinians, says he drew on, naming Justin among the earlier writers who had already refuted them (anf03 43158–43163). (Clement's use of the proof from Moses's age, crediting Tatian, anf02 29724–29727, goes to the card under Cut first 6.) The writer must make clear that Eusebius preserved the actual texts and that Tertullian used Justin's work, not merely that both came later.
 
 ## Ending
 
@@ -114,11 +113,13 @@ What passed on was a way of answering: set out openly what Christians believe an
 - Quadratus and Melito: old, own words, but only as quoted by Eusebius, writing in the early 300s, 150 to 190 years later. The story says so once, inside the Quadratus or Melito sentence.
 - Eusebius (old, later): credited beside Quadratus's reason, the books he still had, and Melito's petition.
 - Jerome (old, later, dependent on Eusebius): card only.
+- Acts of Justin (old; a court record later shaped for reading in church): credited only for the reason Justin was condemned, refusing to sacrifice (anf01 29397–29398).
+- Eusebius's Chronicle, in Jerome's Latin (old, later): card only; places Quadratus and Aristides under Hadrian (jerome_eusebii-chronici-canones-lat_fotheringham1923.txt 42525–42545).
 - McGiffert, ANF editors, Kay (modern): clarify texts (the myths behind the charges, the 1889 find); their claims (first use of "Trinity", spurious edicts, dates) stay out.
 
 ## Do not say
 
-- "the first writer to use the word Trinity" → "he used the word Trinity" (only a modern note says first).
+- any mention of Trinity → card only (only a modern note says 'first', and told bare it implies it).
 - "in 124" / "around 124" for Quadratus → "in the reign of Hadrian".
 - "about 165" for Justin's death → "under Marcus Aurelius".
 - "Aristides addressed Hadrian" as settled → "Hadrian, as Eusebius tells it"; the Syriac heading and its editor's reading go to the card.
@@ -126,7 +127,7 @@ What passed on was a way of answering: set out openly what Christians believe an
 - "Christians fasted to feed the poor" (in Aristides) → only with "the Syriac version adds"; the Greek lacks it.
 - "called cannibals because of what they said about eating a body" or any Eucharist reason → no reason given; the sources call it a rumour.
 - "disloyal because they would not sacrifice to the emperor" → "called atheists because they would not sacrifice to the cities' gods"; loyalty is Athenagoras's and Justin's own theme.
-- "the emperor answered", "was persuaded", "issued a favourable edict" → no reply is recorded; Melito's claim about earlier letters is his, credited.
+- "the emperor answered", "was persuaded", "issued a favourable edict" → no old source says an emperor answered these defences; Eusebius's Chronicle ties Hadrian's letter to Fundanus to a governor's letter, not to Quadratus (card); Melito's claim about earlier letters is his, credited.
 - "Melito's petition was answered" / "Athenagoras was heard" → nothing is recorded.
 - "the Epistle to Diognetus, written in the second century" → "a letter whose writer and date are unknown".
 - "Theophilus converted his friend" → the record does not say.
@@ -135,6 +136,11 @@ What passed on was a way of answering: set out openly what Christians believe an
 - Justin's trial, his conversion by the sea, his Logos and seeds, the Sunday meal → not here.
 - "Eusebius says Crescens's plot killed Justin" → not told.
 - Melito's "examine the authors of such strife" → not quoted or paraphrased (its meaning is unclear in the held English; the Greek is not held).
+- 'scourged and beheaded', the prefect, the questions at the trial → not here; only 'condemned for refusing to sacrifice to the gods'.
+- 'Justin, philosopher and martyr' (Tertullian's phrase) → barred; say 'Tertullian named Justin among the earlier writers he drew on'.
+- 'at Athens' for Athenagoras's or Aristides's writing → 'an Athenian'.
+- 'later', 'a few years after Athenagoras' for Theophilus → no order claim; 'at Antioch, a bishop also wrote…'.
+- 'to watch a killing is the same as killing' → 'close to killing' (πλησίον).
 
 ## Leave out
 
@@ -148,14 +154,15 @@ What passed on was a way of answering: set out openly what Christians believe an
 - Lucian's Peregrinus: an outsider's satire, not about the apologists; card's further reading at most.
 - Athenagoras On the Resurrection; Melito's other works; Theophilus against Hermogenes.
 - Jerome's additions about Quadratus.
+- Theophilus's use of the word Trinity (anf02 8990–8996): a passing figure for the three days before the lights; told bare it implies 'first', which only a modern note claims. Card.
 
 ## Cut first
 
-To bring about 600 words to the approved length, in order:
+To bring the plan to the approved 505 words, in order:
 1. Aristides found at Sinai in 1889 (What came of it 4): **card**.
 2. Theophilus's gladiator line (beat 5), which repeats Athenagoras's: **Leave out**.
 3. Crescens's public charge (beat 2): **card**.
 4. Quadratus's surviving passage about the healed (beat 1): **card**.
 5. The father's letters to the cities (beat 3): **card**.
 6. Clement and Tatian (What came of it 3): **card**.
-7. Aristides (beat 1), keeping Quadratus alone for Hadrian's reign: **card**. (Brings the story to about 450 words.)
+7. Aristides (beat 1), keeping Quadratus alone for Hadrian's reign: **card**. (Brings the count to about 503 words, the independent count.)

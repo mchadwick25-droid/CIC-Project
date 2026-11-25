@@ -4,13 +4,13 @@ Kind: tradition. Sources: `Source_Sheet.md` in this folder (S-numbers below are 
 
 ## The heart
 
-- **The essence:** From about 180 to the middle of the next century, the Christians of Alexandria, in Egypt, learned their faith the way their city learned everything, from teachers, in what Eusebius calls a school. Teachers took pagans and catechumens, learners not yet baptized, through Scripture read for a deeper sense beneath the plain story, and when village churches rejected that reading, Dionysius, once a pupil there, sat with them for three days and argued it through. (B1, C1, C7, D5, C15. Widely Accepted; "school" as Eusebius's word, Contested as an institution.)
+- **The essence:** From about 180 to the middle of the next century, the Christians of Alexandria, in Egypt, learned their faith from teachers, as the city's pagans learned grammar and philosophy, in what Eusebius calls a school. Teachers took pagans and catechumens, learners not yet baptized, through Scripture read for a deeper sense beneath the plain story, and when village churches rejected that reading, Dionysius, once a pupil there, sat with them for three days and argued it through. (B1, C1, C3, C4, C7, C9, D5, C15. Widely Accepted; "school" as Eusebius's word, Contested as an institution.)
 - **Who they were:** "Alexandrian Christianity" (census spoken name): the city's believers, their teachers, and the pupils who came to them, pagans, catechumens and the newly baptized, men and women (C1, C4, C5, C6). Documented / Widely Accepted.
 - **When and where:** Alexandria, about 180 (Pantaenus, B1) to the middle of the third century (Dionysius, C11-C17); the Arsinoite villages of the Egyptian countryside (C15). Widely Accepted.
 - **What they faced:** persecution that killed the learners themselves, about 202 (B7, C5); crowds too large for one teacher (C7); and dissent from inside, a bishop's book against the allegorists that split whole churches (C13, C15). Widely Accepted / Documented.
-- **What they believed:** that the Word, Jesus, first urges people on, then trains them, then teaches them (D1, D2); that Scripture has a body, a soul and a spirit, a plain sense for the simple and deeper ones for those further on (D5); that faith is taught to those who cannot read too, and its handbook is love (D3). Their own words; Documented.
+- **What they believed:** that the Word, Jesus, first urges people on, then trains them, then teaches them (D1, D2); that Scripture has a body, a soul and a spirit, a plain sense for the simple and deeper ones for those further on (D5); that faith is taught to those who cannot read too, and its handbook is love (D3); and that God's promises meant the resurrection and being made like Christ, not small and mortal things on this earth (C14). Their own words; Documented.
 - **How they practiced:** pupils with a teacher, from morning to evening (C7); beginners with one teacher, the advanced with another (C7); geometry and philosophy for the gifted, the basics for the less learned, all toward reading Scripture (C8); learners went with the teacher to the martyrs (C2). Widely Accepted.
-- **What held them together:** the bond of teacher and pupil around Scripture read in layers (C7, C8, D5); and a habit of settling a quarrel over reading by public argument rather than by decree (C14-C16). (The built world's gravities: Scripture as formation, learning as formation.)
+- **What held them together:** the bond of teacher and pupil around Scripture read in layers (C7, C8, D5); and, when a book against that reading split the village churches, three days of public examination of it from Scripture, as Dionysius tells it (C14-C16). (The built world's gravities: the Word as the one center, Scripture as formation, learning as formation; D1, D2.)
 - **What came of them:** pupils became the teachers and bishops of the city (C10-C12); the reading itself was carried on (F2); the school ran on in Eusebius's own day (C18).
 
 ## Length
@@ -32,7 +32,6 @@ Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommend
 ## Words to explain
 
 - **catechumen:** a learner not yet baptized (E-en 32914-32916). Glossed where Herais is first heard, before the quote.
-- **Stoics:** a school of Greek philosophers (E-en 28575-28576).
 - **the deeper sense (allegory):** reading beneath the plain words for a hidden meaning about Christ and the soul (Ph 76). Give the word "allegorists" only with Nepos's book title, glossed.
 - **Refutation of Allegorists:** a book against those who read Scripture for hidden meanings (E-en 41293-41295).
 - **the thousand-year kingdom:** that Christ would reign on this earth for a thousand years of bodily plenty, as Nepos's opponents describe it (E-en 41288-41291).
@@ -43,7 +42,7 @@ Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommend
 
 ## Shape
 
-The story form (kind kit): open on the pupils going to their deaths about 202, then the essence, then the community through time, from Pantaenus to Dionysius's three days.
+The story form (kind kit): open on the pupils going to their deaths around 200, then the essence, then the community through time, from Pantaenus to Dionysius's three days.
 
 ## Sibling
 
@@ -55,38 +54,38 @@ The story form (kind kit): open on the pupils going to their deaths about 202, t
 
 ## Openings
 
-1. **(Planned.) The pupils who died, about 202.** Persecution under the emperor Severus had driven every teacher of the faith from Alexandria, and pagans came to hear the word of God from Origen, who in his eighteenth year took charge of the instruction. Some of his pupils were taken and put to death: one still a catechumen, one just baptized, and a young woman, Herais, who had not yet been baptized. Quote 1. (E-en 32670-32682, 32732-32733, 32893-32925; E-gr 1607-1614. Widely Accepted.)
+1. **(Planned.) The pupils who died, soon after 202.** Persecution under the emperor Severus had driven every teacher of the faith from Alexandria, and pagans came to hear the word of God from Origen, who in his eighteenth year took charge of the instruction. Some of his pupils were taken and put to death: one still a catechumen, one just baptized, and a woman, Herais, who had not yet been baptized. Quote 1. (E-en 32670-32682, 32732-32733, 32893-32925; E-gr 1607-1614. Widely Accepted.)
 2. (Alternative, for the card or Leave out.) The boy Origen puzzling his father with questions about the true meaning of Scripture, and the father rebuking him to his face, then thanking God in private (E-en 32588-32599). Set aside: it opens on a founder, the kit's trap.
 
 ## Story beats
 
-**Hook** (Opening 1). One witness: say once, inside a sentence about him, that nearly all we know of these classrooms comes from Eusebius of Caesarea, writing about a century later from Origen's letters and from people who had known him (E-en 32511-32517).
+**Hook** (Opening 1). One witness: say once, inside a sentence about him, that nearly all we know of these classrooms comes from Eusebius of Caesarea, writing about a century later from letters and from people who had known Origen (E-en 32511-32517).
 
 **Essence** (as in the heart).
 
-1. **Before the persecution: a teacher, then Clement (about 180 to 200).** Eusebius says a school of the faithful had stood in Alexandria "from ancient times", and that about 180 Pantaenus, trained among the Stoics, was its best-known teacher (E-en 28488-28539, 28561-28576; Widely Accepted; the institution, Contested). A bishop who had known them both later called Pantaenus and Clement "master" in a letter (E-en 34330-34356; Documented); do not say he studied in Alexandria. Clement, who taught there next (E-en 33040-33044; Widely Accepted), wrote that the Word, his name for Jesus, first urges people on, then trains them, and last of all teaches them (Cl 18726-18729, 19998-19999; Documented). He wrote for those who could not read as well. Quote 2 (Cl 26367-26372). Explain: the "school" is Eusebius's word; tell it as his.
-2. **Origen's classroom (about 202 to 231).** The bishop, Demetrius, put the instruction in Origen's hands alone, and he gave up teaching grammar because he thought it did not fit with teaching the faith (E-en 32796-32813; Widely Accepted). Men and women came to study with him (E-en 33201-33203). The crowds came from morning to evening and left him no time to breathe, so he divided them: Heraclas, one of his first pupils, took the beginners and Origen kept the advanced (E-en 34407-34418; Widely Accepted). The gifted learned geometry, arithmetic and the philosophers; the less learned the basics; he said both helped them understand Scripture (E-en 34825-34843; Widely Accepted). Explain the reading in his own terms: Scripture, like a person, has body, soul and spirit; the plain story feeds the simple, its soul those who have gone further, its spirit the perfect (Ph 76; Documented). Narrator's words, no quote. Tell the reading and the division side by side; draw no link between them (no source makes it).
+1. **Before the persecution: a teacher, then Clement (about 180 to 200).** Eusebius says a school of the faithful had stood in Alexandria "from ancient times", and that about 180 Pantaenus, trained among the Stoics, was its best-known teacher (E-en 28488-28539, 28561-28576; Widely Accepted; the institution, Contested). A bishop who had known them both later called Pantaenus and Clement "master" in a letter (E-en 34330-34356; Documented); do not say he studied in Alexandria. Clement, who taught there next (E-en 33040-33044; Widely Accepted), wrote that the Word, his name for Jesus, first urges people on, then trains them, and last of all teaches them (Cl 18726-18729, 19998-19999; Documented). He wrote that faith was taught to those who could not read as well. Quote 2 (Cl 26367-26372). Explain: the "school" is Eusebius's word; tell it as his.
+2. **Origen's classroom (about 202 to 231).** The bishop, Demetrius, put the instruction in Origen's hands alone, and he gave up teaching grammar because he thought it did not fit with teaching the faith (E-en 32796-32813; Widely Accepted). Men and women came to study with him (E-en 33201-33203). The crowds came from morning to evening and left him no time to breathe, so he divided them: Heraclas, one of his first pupils, took the beginners and Origen kept the advanced (E-en 34407-34418; Widely Accepted). The gifted learned geometry, arithmetic and the philosophers; the less learned the basics; he said both helped them understand Scripture (E-en 34825-34843; Widely Accepted). Explain the reading in his own terms: Scripture, like a person, has body, soul and spirit; the plain story feeds the simple, its soul those who have gone further, its spirit the perfect (Ph 76; Documented; written before he left Alexandria, HE 6.24.3, E-en 36068-36069, 36098). Narrator's words, no quote. Tell the reading and the division side by side; draw no link between them (no source makes it).
 3. **The pupils go on (231 to about 248).** Heraclas had already studied five years with a philosophy teacher and wore the philosopher's cloak, Origen wrote (E-en 35270-35280; Documented). When Origen left for Caesarea about 231, Heraclas took over the instruction and then became bishop (E-en 36330-36339; Widely Accepted). Dionysius, another of Origen's pupils, followed him in both (E-en 36552-36559, 37071-37080; Widely Accepted). The reason Origen left is not this story's (Origen story); give only that he left.
-4. **The villages of Arsinoe (Dionysius's time; Eusebius gives no year).** Nepos, a bishop in Egypt, now dead, had written a book called Refutation of Allegorists. As his opponents describe it, he taught that Christ would reign for a thousand years of bodily plenty on this earth (E-en 41287-41295; Documented that he wrote it; its content only through opponents). In the district of Arsinoe, his teaching had split whole churches from the rest (E-en 41349-41351). Dionysius loved Nepos for his faith, his work on Scripture and the psalms the brethren still sang, but he would answer the book (E-en 41312-41320). He called together the presbyters and teachers of the villages, with any others who wished to come, and asked for a public examination; they brought him the book like a weapon and a fortress no one could take; he sat with them for three days, from morning to evening (E-en 41352-41359; Documented, own words). Quote 3 (E-gr 10734-10735). Say once that this is his own account; the other side left none.
+4. **The villages of Arsinoe (Dionysius's time; Eusebius gives no year).** Nepos, a bishop in Egypt, now dead, had written a book called Refutation of Allegorists. As his opponents describe it, he taught that Christ would reign for a thousand years of bodily plenty on this earth (E-en 41287-41295; Documented that he wrote it; its content only through opponents). In the district of Arsinoe, his teaching had split whole churches (E-en 41349-41351). Dionysius loved Nepos for his faith, his work on Scripture and the many psalms of his that the brethren still delighted in, but he would answer the book (E-en 41312-41320). He gives his reason: the book led simpler believers to hope for small and mortal things in God's kingdom, and gave them no lofty thought of the resurrection and of being made like Christ (E-en 41330-41340; Documented, own words). He called together the presbyters and teachers of the villages, with any others who wished to come, and asked for a public examination; they brought him the book like a weapon and a fortress no one could take; he sat with them for three days, from morning to evening (E-en 41352-41359; Documented, own words). Quote 3 (E-gr 10734-10735). Say once that this is his own account; the other side left none.
 
-**Ending** (Option 1): Coracion, the leader of Nepos's party, said before all the brethren that he was convinced and would no longer hold or teach it; some of the brethren said they were glad of the meeting and of the agreement all had shown (E-en 41374-41381; Documented).
+**Ending** (Option 1): Coracion, who had led this teaching in the villages, said before all the brethren that he was convinced and would no longer hold or teach it; some of the brethren said they were glad of the meeting and of the agreement all had shown (E-en 41374-41381; Documented).
 
 ## What came of it (heaviest first)
 
-1. Pupils became the city's teachers and then its bishops: Heraclas, then Dionysius (C10-C12). Widely Accepted. Told in Beat 3.
-2. The reading was carried on. A fifth-century historian, Socrates, says Basil and Gregory of Nazianzus drew "the right interpretation of the sacred Scriptures" from Origen's works (Soc 13913-13915); about 382 Gregory sent a friend "the volume of the Philocalia of Origen" (GN 47450-47451), a book of his passages that opens with how to read Scripture (Ph 16-17, 76). Documented. Card.
+1. The reading was carried on. A fifth-century historian, Socrates, says Basil and Gregory of Nazianzus drew "the right interpretation of the sacred Scriptures" from Origen's works (Soc 13913-13915); Gregory sent a friend "the volume of the Philocalia of Origen" (GN 47450-47451), a book of his passages that opens with how to read Scripture (Ph 16-17, 76). Documented (that Gregory sent it); the date is the editor's, not used. Card.
+2. Pupils became the city's teachers and then its bishops: Heraclas, then Dionysius (C10-C12). Widely Accepted. Told in Beat 3.
 3. The school ran on: in Eusebius's own day Achillas "was placed over the school of the sacred faith" (E-en 43201-43204). Documented. Card.
-- Marked as defended: the public examination of a disputed reading, against settling it by decree (C14, C16).
+- Marked as defended: the deeper reading of the promises, and the hope of the resurrection and of being made like Christ, against Nepos's thousand years (E-en 41322-41341); defended by a public examination from Scripture (E-en 41349-41372).
 - Who keeps it today: leave out.
 
 ## Quotes
 
-1. **Herais.** Rendering: "Among the women, too, Herais was still a catechumen. She received baptism, as Origen himself says somewhere, the baptism by fire, and left this life."
-   Source: Eusebius, Church History 6.4.3. Rendered from the Greek, E-gr 1613-1614, a damaged print (OCR) that the English of E-en 32919-32925 (McGiffert, 1890) confirms. "Origen himself" renders αὐτός ("he himself"), whose referent is Origen in the sentence before. Job: the learners in the record's own words; Origen's own phrase for a death before baptism. Not used elsewhere on the tree.
+1. **Herais.** Rendering: "Among the women, too, Herais was still a catechumen. She received baptism, as he himself says somewhere, the baptism by fire, and left this life."
+   Source: Eusebius, Church History 6.4.3. Rendered from the Greek, E-gr 1613-1614, a damaged print (OCR) that the English of E-en 32919-32925 (McGiffert, 1890) confirms. "he himself" renders αὐτός, whose referent is Origen in the sentence before. Job: the learners in the record's own words; Origen's own phrase for a death before baptism. Not used elsewhere on the tree.
 2. **Clement.** Rendering: "Someone says, 'I have not learned to read.' But if you have not learned to read, you cannot excuse yourself from hearing, for hearing is not taught. Faith belongs not to the wise by the world's measure, but to the wise by God's. It is taught without letters. Its handbook, unpolished and divine at once, is called love, a spiritual book."
    Source: Clement, The Instructor 3.11, Cl 26367-26372: English printed in 1885 (Wilson, ANF 2); the Greek is not held. "rude" rendered "unpolished" (its modern sense misleads). Job: the teaching reached those who could not read; a classroom faith that was not only for the lettered. Not used elsewhere on the tree.
 3. **Dionysius.** Rendering: "If the argument won, we were not ashamed to change our minds and agree."
-   Source: Dionysius, On the Promises, in Eusebius, Church History 7.24.8. Rendered from the Greek, E-gr 10734-10735, a damaged print ("cíooi" for αἱροίη) that Schwartz's own apparatus (E-gr 10750) and the English of E-en 41368-41369 confirm. Job: how the three days were argued, in the bishop's own words; "we" is Dionysius and the brethren together. Not used elsewhere on the tree; the built world's line "the truth should be loved and honored most of all" is not used.
+   Source: Dionysius, On the Promises, in Eusebius, Church History 7.24.8. Rendered from the Greek, E-gr 10734-10735, a damaged print ("cíooi" for αἱροίη) that Schwartz's own apparatus (E-gr 10750) and the English of E-en 41368-41369 confirm. Some manuscripts read 'they' (the brethren) for 'we' in the governing verb (E-gr 10747); Schwartz prints 'we'. Job: how the three days were argued, in the bishop's own words; "we" is Dionysius and the brethren together. Not used elsewhere on the tree; the built world's line "the truth should be loved and honored most of all" is not used.
 
 ## Names
 
@@ -104,8 +103,8 @@ The story form (kind kit): open on the pupils going to their deaths about 202, t
 
 ## Connection to carry into the story
 
-- The teacher-pupil bond passed the instruction down a line of the city's own pupils: Origen to Heraclas, Heraclas to Dionysius, each taking the instruction and then the bishop's chair (E-en 36330-36339, 36552-36559, 37071-37080). The listener needs to see that the bishop who sat three days in the villages was himself a pupil of that classroom (E-en 36557-36559); say it in Beat 3, so Beat 4 shows the classroom's habit of question and answer carried into a quarrel (E-en 41322-41324, 41361-41369). Through action, not a "this matters because" line.
-- The villages had "teachers" of their own (E-en 41352-41353): the same pattern of teaching reached the countryside. Let the word stand; do not explain it further.
+- The teacher-pupil bond passed the instruction down a line of the city's own pupils: Origen to Heraclas, Heraclas to Dionysius, each taking the instruction and then the bishop's chair (E-en 36330-36339, 36552-36559, 37071-37080). The listener needs to see that the bishop who sat three days in the villages was himself a pupil of that classroom (E-en 36557-36559); say it in Beat 3, so the listener knows, when Beat 4 comes, that the bishop who sat three days with the villages had been a pupil in that classroom. Draw no link between the classroom's teaching and how he argued; no source makes it. Through action, not a "this matters because" line.
+- The villages had "teachers" of their own (E-en 41352-41353): Let the word stand; do not explain it further.
 
 ## Ending
 
@@ -123,7 +122,7 @@ The story form (kind kit): open on the pupils going to their deaths about 202, t
 
 ## Who tells it
 
-- **Eusebius of Caesarea** (old; later, writing about a century after 202, from Origen's letters and people who knew him, E-en 32511-32517). Credited beside the "school from ancient times" and Pantaenus (Beat 1), and once early in the hook as the source of nearly everything before Dionysius. The whole story before Beat 4 rests on him: the hook says so, once, inside a sentence about him.
+- **Eusebius of Caesarea** (old; later, writing about a century after 202, from letters and people who knew Origen, E-en 32511-32517). Credited beside the "school from ancient times" and Pantaenus (Beat 1), and once early in the hook as the source of nearly everything before Dionysius. The whole story before Beat 4 rests on him: the hook says so, once, inside a sentence about him.
 - **Origen** (old; own words through Eusebius): Herais's baptism by fire (Quote 1); Heraclas and the philosopher's cloak (E-en 35259-35280); the reading in three senses (Ph 76, through the Philocalia, English of 1911).
 - **Clement** (old; own words): Beat 1 and Quote 2.
 - **Alexander of Jerusalem** (old; contemporary): "master" for Pantaenus and Clement (E-en 34353-34356).
@@ -151,6 +150,15 @@ The story form (kind kit): open on the pupils going to their deaths about 202, t
 - "the classroom fed the desert monks" / "Antony learned from Origen" → leave out (see Leave out).
 - "Origen was condemned for these ideas" → not this story.
 - "philosophy" as a modern academic subject → "the Greek philosophers' teaching" where needed.
+- "the city of the great Library", "the Museum", "the learning capital of the world" → no held source; "as the city's pagans learned grammar and philosophy, from teachers" (E-en 32796-32813, 35270-35276).
+- "a young woman" / "a girl" for Herais → "a woman, Herais" (E-gr 1613).
+- "Clement wrote for the unlettered" → "Clement wrote that faith is taught without letters" (Cl 26369-26371).
+- "the Alexandrians always settled quarrels by argument" / "Dionysius argued as he had learned in Origen's classroom" / "rather than by decree" → tell what Dionysius did and said (E-en 41343-41381).
+- "Nepos, bishop of Arsinoe" / "Nepos's own community at Arsinoe" → "Nepos, a bishop in Egypt"; the teaching "had prevailed for a long time" in the district of Arsinoe (E-en 41287-41288, 41343-41351). "Clement fled the persecution" → leave out (only McGiffert's note, E-en 33015-33044, says it; modern).
+- "in 202 his pupils died" → "around 200" / "in those years".
+- "the brethren still sang Nepos's psalms" → "still delighted in" (E-en 41315).
+- "Origen moved on to new work" or any reason for the move → "Origen left for Caesarea" only; the break with his bishop is the Origen story's.
+- "the teachers fled in fear" → "all were driven away by the threat of persecution" (E-en 32672-32673).
 
 ## Leave out
 
@@ -171,7 +179,13 @@ The story form (kind kit): open on the pupils going to their deaths about 202, t
 1. Pantaenus's Stoic training and Alexander's "master" line (Beat 1) → card. (about 30 words)
 2. The geometry and philosophy for the gifted (Beat 2) → card. (about 30 words)
 3. Heraclas's philosopher's cloak (Beat 3) → Leave out. (about 20 words)
-4. Clement's "Faith belongs not to the wise by the world's measure…" sentence: shorten Quote 2's span to begin "It is taught without letters" only after a fresh rendering check of the shortened span → card keeps the full passage. (about 30 words)
+4. (Replaced by item 10.)
 5. Dionysius's love for Nepos's psalms (Beat 4) → card; keep "he loved Nepos" (about 15 words)
 6. Men and women together at Origen's lessons (Beat 2) → card. (about 10 words)
-Cutting 1-6 brings the count to about 430 words (just under 3 minutes). Never cut: the hook with Herais, the essence, the reading in three senses, the division of beginners and advanced, Dionysius as Origen's pupil, the three days, the quote's "we", the ending.
+7. Beat 2's first sentence: the bishop puts the instruction in Origen's hands alone, and Origen gives up teaching grammar, with his reason (E-en 32796-32813) → card. (about 30 words; this also keeps the hook's "took charge of the instruction" from being told twice)
+8. Beat 1's first sentence, the school "from ancient times" and Pantaenus (E-en 28537-28576) → card. The essence keeps "what Eusebius calls a school" and "from about 180" (B1). Pantaenus then leaves Names. (about 30 words)
+9. Beat 2's "the less learned the basics" and its reason (E-en 34840-34843) → card; with item 2, all of C8 goes to the card. (about 15 words)
+10. (replaces item 4) Quote 2 shortened to "Faith is taught without letters. Its handbook, unpolished and divine at once, is called love, a spiritual book." Run a fresh rendering check of the shortened span against Cl 26369-26371 first. The card keeps the full passage. (about 40 words) Rendering check run in the fix pass against Cl 26369-26371: it holds.
+11. The ending's second sentence, the brethren glad of the meeting (E-en 41379-41381) → card. Keep the Do not say line on "everyone agreed". (about 18 words)
+12. Opening 1's "one still a catechumen, one just baptized" (E-en 32914-32916) → card; gloss "catechumen" where Herais is heard. (about 15 words)
+Cutting 1-12, with Beat 4's reason (B6) added, brings the count to about 525 words (about 3:30), by the outline check's recount; the approved 445 is not reached without cutting what must be kept, so the length goes back to Mark. Never cut: the hook with Herais, the essence, the reading in three senses, the division of beginners and advanced, Dionysius as Origen's pupil, the three days, the quote's "we", the ending.

@@ -208,4 +208,4 @@ In order; each saves roughly the words shown. The plan above is about 660. Per M
 9. Twice-married clergy and the bishop not removed (beat 3), about 30 words: **for the card**.
 10. The clergy's list of widows, bedridden and prisoners (beat 6), keeping the burial of martyrs, about 15 words: **for the card**.
 
-Cuts 1-10 together save about 195 words, bringing the story to about 622 words by the independent count. Never cut: Natalius at the bishop's feet, the one-witness sentence about Hippolytus, Q1, Callistus's rule and who came to him, the marriage rule with Hippolytus's charge, Fabian's election by the people, Q2, Cornelius's count, the split and the bishops' decision, Q3.
+With cuts 1-10 applied, the story stands at about 622 words by the independent count (`../Length_Count.md`). Never cut: Natalius at the bishop's feet, the one-witness sentence about Hippolytus, Q1, Callistus's rule and who came to him, the marriage rule with Hippolytus's charge, Fabian's election by the people, Q2, Cornelius's count, the split and the bishops' decision, Q3.
