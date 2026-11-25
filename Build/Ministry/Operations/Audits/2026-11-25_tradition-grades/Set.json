@@ -1,0 +1,2473 @@
+[
+ {
+  "id": "post-apostolic-house-church",
+  "name": "Post-Apostolic Household-Church Christianity",
+  "status": "Built & Live",
+  "kind": "tradition",
+  "words": 417
+ },
+ {
+  "id": "greek-apologists-second-century",
+  "name": "The Second-Century Greek Apologists",
+  "status": "Possible Future World (on record)",
+  "kind": "tradition",
+  "words": 208
+ },
+ {
+  "id": "latin-apologists",
+  "name": "The Latin Apologists",
+  "status": "Possible Future World (on record)",
+  "kind": "tradition",
+  "words": 464
+ },
+ {
+  "id": "apocryphal-and-pseudepigraphal-literature",
+  "name": "Apocryphal and Pseudepigraphal Literature in Christian Transmission",
+  "status": "Possible Future World (on record)",
+  "kind": "tradition",
+  "words": 258
+ },
+ {
+  "id": "alexandria-catechetical",
+  "name": "Alexandrian Catechetical / Christian-Platonist Tradition",
+  "status": "Built & Live",
+  "kind": "tradition",
+  "words": 263
+ },
+ {
+  "id": "syriac-edessa-nisibis",
+  "name": "Syriac Christianity (Edessa/Nisibis)",
+  "status": "Built & Live",
+  "kind": "tradition",
+  "words": 496
+ },
+ {
+  "id": "latin-pastoral-congregational-christianity",
+  "name": "Latin Pastoral-Congregational Christianity",
+  "status": "Selected - Not Yet Built",
+  "kind": "tradition",
+  "words": 285
+ },
+ {
+  "id": "marcion-marcionism",
+  "name": "Marcion / Marcionism",
+  "status": "Excluded - Doctrinal Floor (C1)",
+  "kind": "tradition",
+  "words": 206
+ },
+ {
+  "id": "valentinian-and-other-gnostic-christianities",
+  "name": "Valentinian & other Gnostic Christianities",
+  "status": "Excluded - Doctrinal Floor (C1)",
+  "kind": "tradition",
+  "words": 206
+ },
+ {
+  "id": "manichaeism",
+  "name": "Manichaeism",
+  "status": "Excluded - Doctrinal Floor (C1)",
+  "kind": "tradition",
+  "words": 188
+ },
+ {
+  "id": "ebionite-nazoraean-current",
+  "name": "Ebionite / Nazoraean Current",
+  "status": "Contested - Evidentiary",
+  "kind": "tradition",
+  "words": 166
+ },
+ {
+  "id": "montanism-the-new-prophecy",
+  "name": "Montanism (the New Prophecy)",
+  "status": "Contested - Evidentiary",
+  "kind": "tradition",
+  "words": 156
+ },
+ {
+  "id": "novatianism",
+  "name": "Novatianism",
+  "status": "Contested - Evidentiary",
+  "kind": "tradition",
+  "words": 199
+ },
+ {
+  "id": "anatolian-church-third-century",
+  "name": "The Anatolian Church in the Third Century",
+  "status": "Possible Future World (on record)",
+  "kind": "tradition",
+  "words": 213
+ },
+ {
+  "id": "antiochene-church-third-century",
+  "name": "The Church of Antioch in the Third Century",
+  "status": "Possible Future World (on record)",
+  "kind": "tradition",
+  "words": 259
+ },
+ {
+  "id": "palestinian-church-pre-constantinian",
+  "name": "The Church of Roman Palestine before Constantine",
+  "status": "Possible Future World (on record)",
+  "kind": "tradition",
+  "words": 196
+ },
+ {
+  "id": "roman-church-third-century",
+  "name": "The Roman Church in the Third Century",
+  "status": "Possible Future World (on record)",
+  "kind": "tradition",
+  "words": 159
+ },
+ {
+  "id": "danubian-latin-christianity",
+  "name": "Latin Christianity in the Danubian Provinces",
+  "status": "Possible Future World (on record)",
+  "kind": "tradition",
+  "words": 235
+ },
+ {
+  "id": "desert-monasticism",
+  "name": "Desert Monasticism",
+  "status": "Built & Live",
+  "kind": "tradition",
+  "words": 505
+ },
+ {
+  "id": "palestinian-ascetic-monasticism-early",
+  "name": "Early Palestinian Ascetic Monasticism",
+  "status": "Possible Future World (on record)",
+  "kind": "tradition",
+  "words": 181
+ },
+ {
+  "id": "donatism",
+  "name": "Donatism",
+  "status": "Built & Live",
+  "kind": "tradition",
+  "words": 509
+ },
+ {
+  "id": "cappadocian-nicene-pastoral-monastic-tradition",
+  "name": "Cappadocian Christianity",
+  "status": "Built & Live",
+  "kind": "tradition",
+  "words": 380
+ },
+ {
+  "id": "imperial-juridical-christianity",
+  "name": "Imperial and Juridical Christianity",
+  "status": "Built & Live",
+  "kind": "tradition",
+  "words": 406
+ },
+ {
+  "id": "hieronymian-ascetic-literary",
+  "name": "Hieronymian Ascetic-Literary Christianity",
+  "status": "Built & Live",
+  "kind": "tradition",
+  "words": 320
+ },
+ {
+  "id": "armenian-christianity-conversion-era",
+  "name": "Armenian Christianity (conversion era)",
+  "status": "Deferred by Step 0",
+  "kind": "tradition",
+  "words": 176
+ },
+ {
+  "id": "aksumite-christianity-conversion-era",
+  "name": "Aksumite Christianity (conversion era)",
+  "status": "Deferred by Step 0",
+  "kind": "tradition",
+  "words": 167
+ },
+ {
+  "id": "persian-church-of-the-east-early",
+  "name": "Persian Church of the East (early)",
+  "status": "Deferred by Step 0",
+  "kind": "tradition",
+  "words": 213
+ },
+ {
+  "id": "antiochene-exegetical-christianity-chrysostom-ce",
+  "name": "Antiochene Exegetical Christianity (Chrysostom-centered)",
+  "status": "Possible Future World (on record)",
+  "kind": "tradition",
+  "words": 208
+ },
+ {
+  "id": "jerusalem-liturgical-pilgrimage-christianity",
+  "name": "Jerusalem Liturgical-Pilgrimage Christianity",
+  "status": "Possible Future World (on record)",
+  "kind": "tradition",
+  "words": 212
+ },
+ {
+  "id": "ambrosian-milan-standalone",
+  "name": "Ambrosian Milan (standalone)",
+  "status": "Possible Future World (on record)",
+  "kind": "tradition",
+  "words": 156
+ },
+ {
+  "id": "aquileian-christianity",
+  "name": "The Church of Aquileia",
+  "status": "Possible Future World (on record)",
+  "kind": "tradition",
+  "words": 244
+ },
+ {
+  "id": "gallic-nicene-episcopate",
+  "name": "The Gallic Nicene Episcopate",
+  "status": "Possible Future World (on record)",
+  "kind": "tradition",
+  "words": 178
+ },
+ {
+  "id": "gallic-monastic-ascetic-christianity",
+  "name": "Gallic Monastic-Ascetic Christianity",
+  "status": "Built & Live",
+  "kind": "tradition",
+  "words": 220
+ },
+ {
+  "id": "priscillianist-asceticism",
+  "name": "Priscillianist Asceticism",
+  "status": "Possible Future World (on record)",
+  "kind": "tradition",
+  "words": 203
+ },
+ {
+  "id": "pelagianism",
+  "name": "Pelagianism",
+  "status": "Possible Future World (on record)",
+  "kind": "tradition",
+  "words": 163
+ },
+ {
+  "id": "homoian-arian-christianity",
+  "name": "Homoian ('Arian') Christianity",
+  "status": "Excluded - Doctrinal Floor (C1)",
+  "kind": "tradition",
+  "words": 254
+ },
+ {
+  "id": "anomoean-eunomian-christianity",
+  "name": "Anomoean (Eunomian) Christianity",
+  "status": "Floor Question (register)",
+  "kind": "tradition",
+  "words": 219
+ },
+ {
+  "id": "pneumatomachian-current",
+  "name": "Pneumatomachian ('Macedonian') Christianity",
+  "status": "Floor Question (register)",
+  "kind": "tradition",
+  "words": 175
+ },
+ {
+  "id": "apollinarian-christianity",
+  "name": "Apollinarian Christianity",
+  "status": "Floor Question (register)",
+  "kind": "tradition",
+  "words": 174
+ },
+ {
+  "id": "modalist-monarchianism",
+  "name": "Modalist Monarchianism",
+  "status": "Floor Question (register)",
+  "kind": "tradition",
+  "words": 155
+ },
+ {
+  "id": "bardaisanite-current",
+  "name": "Bardaisan and the Bardaisanites",
+  "status": "Floor Question (register)",
+  "kind": "tradition",
+  "words": 147
+ },
+ {
+  "id": "cyrilline-miaphysite-egyptian-christianity",
+  "name": "The Church of Alexandria and Miaphysite Egypt",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 336
+ },
+ {
+  "id": "syriac-orthodox-west-syriac-christianity",
+  "name": "Syriac Orthodox (West Syriac) Christianity",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 216
+ },
+ {
+  "id": "the-church-of-the-east-under-persia",
+  "name": "The Church of the East under Persia",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 179
+ },
+ {
+  "id": "armenian-christianity-after-avarayr",
+  "name": "Armenian Christianity after Avarayr",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 155
+ },
+ {
+  "id": "chalcedonian-monasticism-judean-desert-and-gaza",
+  "name": "Chalcedonian Monasticism - Judean Desert & Gaza",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 199
+ },
+ {
+  "id": "early-benedictine-italian-monasticism",
+  "name": "Early Benedictine / Italian Monasticism",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 164
+ },
+ {
+  "id": "roman-church-gregorian",
+  "name": "The Roman Church in the Age of Gregory the Great",
+  "status": "Possible Future World (on record)",
+  "kind": "tradition",
+  "words": 289
+ },
+ {
+  "id": "merovingian-gallic-christianity",
+  "name": "Merovingian Gallic Christianity",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 175
+ },
+ {
+  "id": "insular-irish-monastic-christianity",
+  "name": "Insular / Irish Monastic Christianity",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 179
+ },
+ {
+  "id": "aksumite-christianity",
+  "name": "Aksumite Christianity",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 186
+ },
+ {
+  "id": "georgian-christianity",
+  "name": "Georgian Christianity",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 164
+ },
+ {
+  "id": "nubian-christianity",
+  "name": "Nubian Christianity",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 163
+ },
+ {
+  "id": "gothic-and-vandal-homoian-christianity",
+  "name": "Gothic, Vandal & Lombard Homoian Christianity",
+  "status": "Floor Question (register)",
+  "kind": "tradition",
+  "words": 190
+ },
+ {
+  "id": "byzantine-imperial-church-justinianic",
+  "name": "The Byzantine Imperial Church (Justinianic)",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 152
+ },
+ {
+  "id": "church-of-caucasian-albania",
+  "name": "The Church of Caucasian Albania",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 176
+ },
+ {
+  "id": "latin-africa-under-byzantium",
+  "name": "Latin African Christianity under Byzantium",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 182
+ },
+ {
+  "id": "nicene-visigothic-iberia",
+  "name": "Nicene Visigothic Iberia",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 186
+ },
+ {
+  "id": "british-welsh-christianity",
+  "name": "British and Welsh Christianity",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 175
+ },
+ {
+  "id": "the-church-of-the-east-on-the-silk-road",
+  "name": "The Church of the East on the Silk Road",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 169
+ },
+ {
+  "id": "melkite-arabic-christianity",
+  "name": "Melkite Arabic Christianity",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 170
+ },
+ {
+  "id": "coptic-christianity-under-early-islam",
+  "name": "Coptic Christianity under Early Islam",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 219
+ },
+ {
+  "id": "anglo-saxon-christianity",
+  "name": "Anglo-Saxon Christianity",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 165
+ },
+ {
+  "id": "carolingian-reform-christianity",
+  "name": "Carolingian Reform Christianity",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 177
+ },
+ {
+  "id": "iconophile-byzantine-monasticism",
+  "name": "Iconophile Byzantine Monasticism",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 176
+ },
+ {
+  "id": "cyrillo-methodian-slavic-christianity",
+  "name": "Cyrillo-Methodian Slavic Christianity",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 179
+ },
+ {
+  "id": "kievan-rus-christianity",
+  "name": "Kievan Rus' Christianity",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 178
+ },
+ {
+  "id": "mozarabic-christianity",
+  "name": "Mozarabic Christianity",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 156
+ },
+ {
+  "id": "cluniac-reform-monasticism",
+  "name": "Cluniac Reform Monasticism",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 188
+ },
+ {
+  "id": "st-thomas-christians-of-india",
+  "name": "St. Thomas Christians of India",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 164
+ },
+ {
+  "id": "paulicians",
+  "name": "Paulicians",
+  "status": "Contested - Evidentiary",
+  "kind": "tradition",
+  "words": 149
+ },
+ {
+  "id": "bogomils",
+  "name": "Bogomils",
+  "status": "Floor Question (register)",
+  "kind": "tradition",
+  "words": 136
+ },
+ {
+  "id": "scandinavian-conversion-christianity",
+  "name": "Scandinavian Conversion Christianity",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 187
+ },
+ {
+  "id": "byzantine-imperial-church-heraclian-iconoclast",
+  "name": "The Byzantine Imperial Church (Heraclian & Iconoclast Eras)",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 189
+ },
+ {
+  "id": "byzantine-imperial-church-macedonian",
+  "name": "The Byzantine Imperial Church (Macedonian Era)",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 140
+ },
+ {
+  "id": "bagratid-armenian-christianity",
+  "name": "Bagratid Armenian Christianity",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 165
+ },
+ {
+  "id": "syriac-orthodox-under-islam",
+  "name": "Syriac Orthodox Christianity under Islam",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 157
+ },
+ {
+  "id": "makurian-nubian-christianity",
+  "name": "Makurian Nubian Christianity",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 156
+ },
+ {
+  "id": "late-anglo-saxon-christianity",
+  "name": "Late Anglo-Saxon Christianity",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 193
+ },
+ {
+  "id": "georgian-revival-tao-klarjeti",
+  "name": "Georgian Revival \u2014 Tao-Klarjeti and Athos",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 178
+ },
+ {
+  "id": "post-aksumite-ethiopian-christianity",
+  "name": "Post-Aksumite Ethiopian Christianity",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 183
+ },
+ {
+  "id": "cistercian-monasticism",
+  "name": "Cistercian Monasticism",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 163
+ },
+ {
+  "id": "carthusian-life",
+  "name": "Carthusian Life",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 196
+ },
+ {
+  "id": "canons-regular-victorine-school",
+  "name": "Canons Regular / Victorine School",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 143
+ },
+ {
+  "id": "the-franciscan-movement",
+  "name": "The Franciscan Movement",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 181
+ },
+ {
+  "id": "the-dominican-order",
+  "name": "The Dominican Order",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 143
+ },
+ {
+  "id": "athonite-and-comnenian-byzantine-monasticism",
+  "name": "Athonite & Comnenian Byzantine Monasticism",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 152
+ },
+ {
+  "id": "the-beguines",
+  "name": "The Beguines",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 158
+ },
+ {
+  "id": "the-waldensians",
+  "name": "The Waldensians",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 139
+ },
+ {
+  "id": "zagwe-and-early-solomonic-ethiopian-christianity",
+  "name": "Zagwe Ethiopian Christianity",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 174
+ },
+ {
+  "id": "maronite-christianity",
+  "name": "Maronite Christianity",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 155
+ },
+ {
+  "id": "military-religious-orders-templars-hospitallers",
+  "name": "Military-Religious Orders (Templars, Hospitallers)",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 167
+ },
+ {
+  "id": "cathars-albigensians",
+  "name": "Cathars / Albigensians",
+  "status": "Floor Question (register)",
+  "kind": "tradition",
+  "words": 164
+ },
+ {
+  "id": "joachimite-current",
+  "name": "Joachimite Current",
+  "status": "Within Another World (A5)",
+  "kind": "tradition",
+  "words": 150
+ },
+ {
+  "id": "free-spirit-heresy",
+  "name": "'Free Spirit' Heresy",
+  "status": "Contested - Evidentiary",
+  "kind": "tradition",
+  "words": 159
+ },
+ {
+  "id": "the-georgian-golden-age",
+  "name": "The Georgian Golden Age",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 122
+ },
+ {
+  "id": "serbian-and-bulgarian-medieval-monasticism",
+  "name": "Serbian & Bulgarian Medieval Monasticism",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 163
+ },
+ {
+  "id": "byzantine-church-after-1054",
+  "name": "The Byzantine Church after the Schism",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 127
+ },
+ {
+  "id": "latin-papal-church-gregorian",
+  "name": "The Latin Papal Church (Gregorian Reform to Innocent III)",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 177
+ },
+ {
+  "id": "kievan-rus-christianity-1054-1240",
+  "name": "Kievan Rus' Christianity, 1054-1240",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 136
+ },
+ {
+  "id": "armenian-cilicia",
+  "name": "Armenian Christianity in Cilicia",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 140
+ },
+ {
+  "id": "syriac-renaissance",
+  "name": "The Syriac Renaissance",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 137
+ },
+ {
+  "id": "church-of-the-east-under-the-mongols",
+  "name": "The Church of the East under the Mongols",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 161
+ },
+ {
+  "id": "the-carmelites",
+  "name": "The Carmelites",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 144
+ },
+ {
+  "id": "balkan-bogomil-continuation",
+  "name": "Balkan Bogomilism, 1054-1300",
+  "status": "Floor Question (register)",
+  "kind": "tradition",
+  "words": 139
+ },
+ {
+  "id": "latin-church-of-outremer",
+  "name": "The Latin Church of Outremer",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 143
+ },
+ {
+  "id": "coptic-christianity-fatimid-to-mamluk",
+  "name": "Coptic Christianity, Fatimid to Mamluk",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 143
+ },
+ {
+  "id": "the-humiliati",
+  "name": "The Humiliati",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 153
+ },
+ {
+  "id": "the-english-mystics-and-devout",
+  "name": "The English Mystics and Devout",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 202
+ },
+ {
+  "id": "rhineland-mysticism-and-the-friends-of-god",
+  "name": "Rhineland Mysticism & the Friends of God",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 187
+ },
+ {
+  "id": "devotio-moderna-brethren-of-the-common-life",
+  "name": "Devotio Moderna / Brethren of the Common Life",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 205
+ },
+ {
+  "id": "hesychasm-and-the-palamite-synthesis",
+  "name": "Hesychasm & the Palamite Synthesis",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 158
+ },
+ {
+  "id": "lollardy",
+  "name": "Lollardy",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 187
+ },
+ {
+  "id": "the-hussite-and-bohemian-brethren-movement",
+  "name": "The Hussite & Bohemian Brethren Movement",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 179
+ },
+ {
+  "id": "the-ethiopian-monastic-flowering",
+  "name": "The Ethiopian Monastic Flowering",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 175
+ },
+ {
+  "id": "muscovite-monastic-christianity",
+  "name": "Muscovite Monastic Christianity",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 181
+ },
+ {
+  "id": "observant-reform-and-popular-preaching",
+  "name": "Observant Reform & Popular Preaching",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 190
+ },
+ {
+  "id": "late-medieval-lay-parish-piety",
+  "name": "Late-Medieval Lay Parish Piety",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 166
+ },
+ {
+  "id": "taborite-radicalism",
+  "name": "Taborite Radicalism",
+  "status": "Within Another World (A5)",
+  "kind": "tradition",
+  "words": 182
+ },
+ {
+  "id": "fraticelli-spiritual-franciscan-rigorists",
+  "name": "Fraticelli (Spiritual Franciscan rigorists)",
+  "status": "Within Another World (A5)",
+  "kind": "tradition",
+  "words": 168
+ },
+ {
+  "id": "inquisition-record-sects-adamites-and-kin",
+  "name": "Inquisition-Record 'Sects' (Adamites and kin)",
+  "status": "Contested - Evidentiary",
+  "kind": "tradition",
+  "words": 133
+ },
+ {
+  "id": "latin-papal-church-avignon-to-lateran-v",
+  "name": "The Latin Papal Church (Avignon to Fifth Lateran)",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 188
+ },
+ {
+  "id": "byzantine-church-palaiologan",
+  "name": "The Byzantine Church, Palaiologan Era",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 182
+ },
+ {
+  "id": "waldensians-in-the-alps",
+  "name": "The Waldensians in the Alps",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 162
+ },
+ {
+  "id": "church-of-the-east-timur-to-hakkari",
+  "name": "The Church of the East \u2014 Timur's Catastrophe and the Northern Remnant",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 174
+ },
+ {
+  "id": "terminal-christian-nubia",
+  "name": "Terminal Christian Nubia (Late Makuria and Dotawo)",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 151
+ },
+ {
+  "id": "franciscan-order-era-6",
+  "name": "The Franciscan Order \u2014 Spirituals Crisis to the Great Division",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 171
+ },
+ {
+  "id": "the-bosnian-church",
+  "name": "The Bosnian Church (Krstjani)",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 150
+ },
+ {
+  "id": "armenian-cilicia-after-the-kingdom",
+  "name": "Armenian Christianity after the Kingdom (Sis to Etchmiadzin)",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 201
+ },
+ {
+  "id": "maronite-christianity-era-6",
+  "name": "Maronite Christianity \u2014 the Union Formalized",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 186
+ },
+ {
+  "id": "st-thomas-christians-1300-1517",
+  "name": "St Thomas Christians, 1300-1517",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 185
+ },
+ {
+  "id": "lutheran-wittenberg-and-its-congregations",
+  "name": "Lutheran Wittenberg & Its Congregations",
+  "status": "Built & Live",
+  "kind": "tradition",
+  "words": 188
+ },
+ {
+  "id": "the-reformed-cities-zurich-and-geneva",
+  "name": "The Reformed Cities - Zurich & Geneva",
+  "status": "Built & Live",
+  "kind": "tradition",
+  "words": 128
+ },
+ {
+  "id": "the-anabaptist-movements",
+  "name": "The Anabaptist Movements",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 143
+ },
+ {
+  "id": "the-english-reformation-and-elizabethan-settleme",
+  "name": "The English Reformation & Elizabethan Settlement",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 147
+ },
+ {
+  "id": "the-scottish-reformation-and-kirk",
+  "name": "The Scottish Reformation & Kirk",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 131
+ },
+ {
+  "id": "the-huguenots",
+  "name": "The Huguenots",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 119
+ },
+ {
+  "id": "recusant-english-catholicism",
+  "name": "Recusant English Catholicism",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 110
+ },
+ {
+  "id": "puritanism",
+  "name": "Puritanism",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 126
+ },
+ {
+  "id": "dutch-further-reformation-and-refuge-culture",
+  "name": "Dutch Further Reformation & Refuge Culture",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 131
+ },
+ {
+  "id": "the-waldensian-reformed-union",
+  "name": "The Waldensian-Reformed Union",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 115
+ },
+ {
+  "id": "the-society-of-jesus",
+  "name": "The Society of Jesus",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 138
+ },
+ {
+  "id": "tridentine-parish-renewal-borromean-milan",
+  "name": "Tridentine Parish Renewal - Borromean Milan",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 135
+ },
+ {
+  "id": "mission-born-christianities-kirishitan-japan-kon",
+  "name": "Mission-Born Christianities (Kirishitan Japan; Kongo; China; New Spain/Andes)",
+  "status": "Label - Assessed Per Body (A3)",
+  "kind": "tradition",
+  "words": 153
+ },
+ {
+  "id": "kongo-christianity-afonso-to-1650",
+  "name": "Kongo Christianity, Afonso I to 1650",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 454
+ },
+ {
+  "id": "kirishitan-japan",
+  "name": "Kirishitan Japan",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 628
+ },
+ {
+  "id": "china-mission-born-christianity",
+  "name": "Mission-Born Christianity in Ming China",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 447
+ },
+ {
+  "id": "new-spain-and-andes-mission-born-christianity",
+  "name": "Mission-Born Christianity in New Spain and the Andes",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 488
+ },
+ {
+  "id": "anti-trinitarian-currents-servetus-polish-brethr",
+  "name": "Anti-Trinitarian Currents (Servetus; Polish Brethren/Socinians; Transylvanian Unitarians)",
+  "status": "Floor Question (register)",
+  "kind": "tradition",
+  "words": 108
+ },
+ {
+  "id": "schwenckfelders",
+  "name": "Schwenckfelders",
+  "status": "Floor Question (register)",
+  "kind": "tradition",
+  "words": 118
+ },
+ {
+  "id": "family-of-love-and-spiritualists-franck-niclaes",
+  "name": "Family of Love & Spiritualists (Franck, Niclaes)",
+  "status": "Floor Question (register)",
+  "kind": "tradition",
+  "words": 120
+ },
+ {
+  "id": "orthodoxy-under-the-ottomans-parish-millet-and-n",
+  "name": "Orthodoxy under the Ottomans - Parish, Millet & Neomartyrs",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 133
+ },
+ {
+  "id": "st-thomas-christians-under-portuguese-pressure-d",
+  "name": "St. Thomas Christians under Portuguese Pressure - Diamper & the Coonan Cross",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 127
+ },
+ {
+  "id": "philippine-catholicism",
+  "name": "Philippine Catholicism",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 133
+ },
+ {
+  "id": "the-union-of-brest-and-ruthenian-greek-catholic-",
+  "name": "The Union of Brest & Ruthenian Greek Catholic Christianity",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 133
+ },
+ {
+  "id": "the-kyiv-mohyla-orthodox-revival",
+  "name": "The Kyiv-Mohyla Orthodox Revival",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 122
+ },
+ {
+  "id": "the-tridentine-church",
+  "name": "The Tridentine Church",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 126
+ },
+ {
+  "id": "russian-church-stoglav-to-nikon",
+  "name": "The Russian Church, Stoglav to the Eve of Nikon",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 146
+ },
+ {
+  "id": "czech-churches-last-century",
+  "name": "The Czech Churches' Last Century (Utraquists and Unitas)",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 150
+ },
+ {
+  "id": "ethiopian-christianity-gragn-to-fasilides",
+  "name": "Ethiopian Christianity \u2014 Gragn to Fasilides",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 116
+ },
+ {
+  "id": "the-remonstrants-and-dort",
+  "name": "The Remonstrants and Dort",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 131
+ },
+ {
+  "id": "scandinavian-reformation-kingdoms",
+  "name": "The Scandinavian Reformation Kingdoms",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 125
+ },
+ {
+  "id": "armenian-christianity-new-julfa",
+  "name": "Armenian Christianity \u2014 Etchmiadzin and New Julfa",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 122
+ },
+ {
+  "id": "carmelite-reform-and-spanish-mystics",
+  "name": "The Carmelite Reform and the Spanish Mystics",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 142
+ },
+ {
+  "id": "church-of-the-east-schism-of-1552",
+  "name": "The Church of the East \u2014 the Schism of 1552",
+  "status": "Within Another World (A5)",
+  "kind": "tradition",
+  "words": 116
+ },
+ {
+  "id": "the-quakers-religious-society-of-friends",
+  "name": "The Quakers (Religious Society of Friends)",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 154
+ },
+ {
+  "id": "german-pietism-spener-francke-halle",
+  "name": "German Pietism - Spener, Francke, Halle",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 182
+ },
+ {
+  "id": "radical-pietism-and-the-brethren-dunkers-ephrata",
+  "name": "Radical Pietism & the Brethren (Dunkers, Ephrata)",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 148
+ },
+ {
+  "id": "the-moravian-church-at-herrnhut",
+  "name": "The Moravian Church at Herrnhut",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 407
+ },
+ {
+  "id": "the-methodist-revival",
+  "name": "The Methodist Revival",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 178
+ },
+ {
+  "id": "the-evangelical-awakening-in-new-england",
+  "name": "The Evangelical Awakening in New England",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 166
+ },
+ {
+  "id": "the-old-believers",
+  "name": "The Old Believers",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 163
+ },
+ {
+  "id": "the-hesychast-revival-paisius-and-the-philokalia",
+  "name": "The Hesychast Revival - Paisius & the Philokalia",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 136
+ },
+ {
+  "id": "port-royal-jansenism",
+  "name": "Port-Royal Jansenism",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 170
+ },
+ {
+  "id": "the-welsh-revival-tradition",
+  "name": "The Welsh Revival Tradition",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 140
+ },
+ {
+  "id": "the-antonian-movement-in-kongo",
+  "name": "The Antonian Movement in Kongo",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 121
+ },
+ {
+  "id": "shakers",
+  "name": "Shakers",
+  "status": "Floor Question (register)",
+  "kind": "tradition",
+  "words": 151
+ },
+ {
+  "id": "swedenborgian-new-church",
+  "name": "Swedenborgian New Church",
+  "status": "Floor Question (register)",
+  "kind": "tradition",
+  "words": 129
+ },
+ {
+  "id": "quietist-controversy-molinos-guyon",
+  "name": "Quietist Controversy (Molinos, Guyon)",
+  "status": "Within Another World (A5)",
+  "kind": "tradition",
+  "words": 125
+ },
+ {
+  "id": "camisard-prophetism",
+  "name": "Camisard Prophetism",
+  "status": "Within Another World (A5)",
+  "kind": "tradition",
+  "words": 146
+ },
+ {
+  "id": "the-baptists",
+  "name": "The Baptists",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 189
+ },
+ {
+  "id": "colonial-latin-american-devotional-catholicism",
+  "name": "Colonial Latin American Devotional Catholicism",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 970
+ },
+ {
+  "id": "orthodoxy-under-the-ottomans-1650-1821",
+  "name": "Orthodoxy under the Ottomans \u2014 the Second Act",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 338
+ },
+ {
+  "id": "catholic-church-ancien-regime",
+  "name": "The Catholic Church of the Ancien R\u00e9gime",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 283
+ },
+ {
+  "id": "restoration-georgian-church-of-england",
+  "name": "The Restoration and Georgian Church of England",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 171
+ },
+ {
+  "id": "russian-church-nikon-to-holy-synod",
+  "name": "The Russian Church \u2014 Nikon to the Holy Synod",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 475
+ },
+ {
+  "id": "church-of-the-desert-huguenots",
+  "name": "The Church of the Desert",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 166
+ },
+ {
+  "id": "melkite-greek-catholic-church",
+  "name": "The Melkite Greek Catholic Split",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 243
+ },
+ {
+  "id": "armenian-apostolic-church-era-8",
+  "name": "Armenian Apostolic Church \u2014 Etchmiadzin and Constantinople",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 369
+ },
+ {
+  "id": "armenian-christianity-era-8",
+  "name": "Armenian Christianity \u2014 the Mekhitarists and the Catholic Patriarchate",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 165
+ },
+ {
+  "id": "church-of-utrecht",
+  "name": "The Church of Utrecht",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 128
+ },
+ {
+  "id": "english-old-dissent",
+  "name": "English Old Dissent \u2014 Presbyterians and Congregationalists",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 204
+ },
+ {
+  "id": "early-american-unitarians-universalists",
+  "name": "Early American Unitarians & Universalists",
+  "status": "Floor Question (register)",
+  "kind": "tradition",
+  "words": 126
+ },
+ {
+  "id": "ruthenian-uniate-18th-century",
+  "name": "The Ruthenian Uniate Church \u2014 Zamo\u015b\u0107 to the Partitions",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 321
+ },
+ {
+  "id": "philippine-catholicism-era-8",
+  "name": "Philippine Catholicism \u2014 Era-8 Segment",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 171
+ },
+ {
+  "id": "the-black-church-in-america",
+  "name": "The Black Church in America",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 339
+ },
+ {
+  "id": "the-second-great-awakening-and-camp-meeting-worl",
+  "name": "The Second Great Awakening & Camp-Meeting Tradition",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 135
+ },
+ {
+  "id": "the-stone-campbell-restoration-movement",
+  "name": "The Stone-Campbell Restoration Movement",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 161
+ },
+ {
+  "id": "the-holiness-movement",
+  "name": "The Holiness Movement",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 163
+ },
+ {
+  "id": "the-oxford-movement-and-anglo-catholic-revival",
+  "name": "The Oxford Movement & Anglo-Catholic Revival",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 169
+ },
+ {
+  "id": "the-salvation-army",
+  "name": "The Salvation Army",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 148
+ },
+ {
+  "id": "the-missionary-movement-s-native-churches-seramp",
+  "name": "The Missionary Movement's Native Churches (Serampore India; Sierra Leone & the Niger; Pacific Islands; China Coast & CIM)",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 548
+ },
+ {
+  "id": "the-haugean-awakening",
+  "name": "The Haugean Awakening",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 127
+ },
+ {
+  "id": "the-reveil-and-inner-mission-awakening",
+  "name": "The Reveil & Inner-Mission Awakening",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 142
+ },
+ {
+  "id": "restorationist-apocalyptic-ferment-and-adventism",
+  "name": "Restorationist-Apocalyptic Ferment & Adventism",
+  "status": "Floor Question (register)",
+  "kind": "tradition",
+  "words": 139
+ },
+ {
+  "id": "the-optina-elders-and-russian-ascetic-renewal",
+  "name": "The Optina Elders & Russian Ascetic Renewal",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 139
+ },
+ {
+  "id": "the-kollyvades-and-greek-renewal",
+  "name": "The Kollyvades & Greek Renewal",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 162
+ },
+ {
+  "id": "coptic-revival-under-cyril-iv",
+  "name": "The Coptic Revival \u2014 Cyril IV and After",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 131
+ },
+ {
+  "id": "latter-day-saints-lds",
+  "name": "Latter-day Saints (LDS)",
+  "status": "Floor Question (register)",
+  "kind": "tradition",
+  "words": 166
+ },
+ {
+  "id": "jehovah-s-witnesses-bible-students",
+  "name": "Jehovah's Witnesses (Bible Students)",
+  "status": "Floor Question (register)",
+  "kind": "tradition",
+  "words": 167
+ },
+ {
+  "id": "christian-science",
+  "name": "Christian Science",
+  "status": "Floor Question (register)",
+  "kind": "tradition",
+  "words": 157
+ },
+ {
+  "id": "christadelphians",
+  "name": "Christadelphians",
+  "status": "Floor Question (register)",
+  "kind": "tradition",
+  "words": 144
+ },
+ {
+  "id": "catholic-apostolic-church-irvingites",
+  "name": "Catholic Apostolic Church (Irvingites)",
+  "status": "Floor Question (register)",
+  "kind": "tradition",
+  "words": 163
+ },
+ {
+  "id": "oneida-community",
+  "name": "Oneida Community",
+  "status": "Floor Question (register)",
+  "kind": "tradition",
+  "words": 131
+ },
+ {
+  "id": "spiritualism-new-thought",
+  "name": "Spiritualism / New Thought",
+  "status": "Outside Article 4 Scope",
+  "kind": "tradition",
+  "words": 160
+ },
+ {
+  "id": "korean-catholic-origins",
+  "name": "Korean Catholic Origins",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 214
+ },
+ {
+  "id": "laestadianism-and-the-nordic-revivals",
+  "name": "Laestadianism & the Nordic Revivals",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 139
+ },
+ {
+  "id": "plymouth-brethren-and-dispensational-formation",
+  "name": "Plymouth Brethren & Dispensational Formation",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 159
+ },
+ {
+  "id": "the-sunday-school-and-bible-institute-movement",
+  "name": "The Sunday School & Bible-Institute Movement",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 148
+ },
+ {
+  "id": "the-student-volunteer-movement-and-edinburgh-191",
+  "name": "The Student Volunteer Movement & Edinburgh 1910",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 163
+ },
+ {
+  "id": "indonesian-christianity",
+  "name": "Indonesian Christianity",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 163
+ },
+ {
+  "id": "northeast-india-revivals-and-the-mar-thoma-refor",
+  "name": "Northeast India Revivals & the Mar Thoma Reform",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 159
+ },
+ {
+  "id": "orthodoxy-after-1821-balkan-autocephalies",
+  "name": "Orthodoxy after 1821 \u2014 the National Churches",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 244
+ },
+ {
+  "id": "catholic-church-long-nineteenth-century",
+  "name": "The Catholic Church of the Long Nineteenth Century",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 378
+ },
+ {
+  "id": "victorian-church-of-england",
+  "name": "The Victorian Church of England",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 327
+ },
+ {
+  "id": "russian-church-synodal-century",
+  "name": "The Russian Church \u2014 the Synodal Century",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 296
+ },
+ {
+  "id": "armenian-christianity-zartonk",
+  "name": "Armenian Christianity \u2014 the Zartonk Century",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 210
+ },
+ {
+  "id": "old-catholic-churches-union-of-utrecht",
+  "name": "The Old Catholic Churches \u2014 Utrecht to the Union",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 151
+ },
+ {
+  "id": "nineteenth-century-methodism",
+  "name": "Nineteenth-Century Methodism",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 162
+ },
+ {
+  "id": "nineteenth-century-baptists",
+  "name": "Nineteenth-Century Baptists",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 131
+ },
+ {
+  "id": "nineteenth-century-quakerism-separations",
+  "name": "Nineteenth-Century Quakerism \u2014 the Separations",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 160
+ },
+ {
+  "id": "american-unitarianism-universalism-consolidations",
+  "name": "American Unitarianism & Universalism \u2014 the Consolidations",
+  "status": "Floor Question (register)",
+  "kind": "tradition",
+  "words": 213
+ },
+ {
+  "id": "ruthenian-greek-catholic-polotsk-to-galicia",
+  "name": "The Ruthenian Greek Catholic Church \u2014 Polotsk to Galicia",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 160
+ },
+ {
+  "id": "philippine-catholicism-gomburza-to-aglipay",
+  "name": "Philippine Catholicism \u2014 Gomburza to the Aglipayan Schism",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 471
+ },
+ {
+  "id": "church-of-the-east-chaldean-consolidation",
+  "name": "The Church of the East & the Chaldean Consolidation",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 219
+ },
+ {
+  "id": "confessional-lutheran-revival-emigrations",
+  "name": "The Confessional Lutheran Revival & the Emigrations",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 159
+ },
+ {
+  "id": "malagasy-christianity",
+  "name": "Malagasy Christianity \u2014 the Self-Carried Church",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 158
+ },
+ {
+  "id": "east-african-christianity-uganda-martyrs",
+  "name": "East African Christianity & the Uganda Martyrs",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 160
+ },
+ {
+  "id": "taiping-heavenly-kingdom",
+  "name": "The Taiping Heavenly Kingdom",
+  "status": "Floor Question (register)",
+  "kind": "tradition",
+  "words": 178
+ },
+ {
+  "id": "japanese-christianity-hidden-emergence-meiji",
+  "name": "Japanese Christianity \u2014 the Hidden Christians\u2019 Emergence & the Meiji Church",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 230
+ },
+ {
+  "id": "haitian-church-rupture-to-concordat",
+  "name": "The Haitian Church \u2014 Rupture to Concordat",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 158
+ },
+ {
+  "id": "alaskan-mission-herman-veniaminov",
+  "name": "The Alaskan Mission \u2014 Herman\u2019s Decades & Veniaminov",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 169
+ },
+ {
+  "id": "nineteenth-century-latin-american-catholicism",
+  "name": "Nineteenth-Century Latin American Catholicism",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 364
+ },
+ {
+  "id": "ethiopian-christianity-tewodros-to-menelik",
+  "name": "Ethiopian Christianity \u2014 Tewodros to Menelik",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 245
+ },
+ {
+  "id": "dutch-neo-calvinism-secession-churches",
+  "name": "Dutch Neo-Calvinism & the Secession Churches",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 178
+ },
+ {
+  "id": "russian-evangelicals-stundists",
+  "name": "Russian Evangelicals \u2014 Stundists to the Baptist Union",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 192
+ },
+ {
+  "id": "azusa-street-and-early-pentecostalism",
+  "name": "Azusa Street & Early Pentecostalism",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 164
+ },
+ {
+  "id": "the-1904-07-revival-family-wales-mukti-india-pyo",
+  "name": "The 1904-07 Revival Family (Wales; Mukti India; Pyongyang Korea)",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 159
+ },
+ {
+  "id": "the-east-african-revival-balokole",
+  "name": "The East African Revival (Balokole)",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 141
+ },
+ {
+  "id": "african-initiated-churches-harrist-aladura-zioni",
+  "name": "African-Initiated Churches (Harrist; Aladura; Zionist/ZCC; Kimbanguist)",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 259
+ },
+ {
+  "id": "the-chinese-church-indigenous-and-suffering",
+  "name": "The Chinese Church - Indigenous & Suffering",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 181
+ },
+ {
+  "id": "the-confessing-church",
+  "name": "The Confessing Church",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 152
+ },
+ {
+  "id": "catholic-lay-renewal-worlds-catholic-worker-foco",
+  "name": "Catholic Lay Renewal Traditions (Catholic Worker; Focolare; Charismatic Renewal; L'Arche)",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 187
+ },
+ {
+  "id": "latin-american-base-communities",
+  "name": "Latin American Base Communities",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 156
+ },
+ {
+  "id": "emigre-orthodoxy-and-the-paris-school",
+  "name": "Emigre Orthodoxy & the Paris School",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 158
+ },
+ {
+  "id": "the-coptic-monastic-and-sunday-school-revival",
+  "name": "The Coptic Monastic & Sunday-School Revival",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 122
+ },
+ {
+  "id": "global-south-pentecostal-christianity",
+  "name": "Global South Pentecostal Christianity",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 148
+ },
+ {
+  "id": "persecuted-church-worlds-of-the-communist-era-in",
+  "name": "Persecuted-Church Traditions of the Communist Era (Initsiativniki Baptists; Romania's Lord's Army)",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 144
+ },
+ {
+  "id": "messianic-judaism",
+  "name": "Messianic Judaism",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 164
+ },
+ {
+  "id": "ecumenical-community-worlds-taize-and-iona",
+  "name": "Ecumenical Community Traditions - Taize & Iona",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 126
+ },
+ {
+  "id": "oneness-pentecostalism",
+  "name": "Oneness Pentecostalism",
+  "status": "Floor Question (register)",
+  "kind": "tradition",
+  "words": 203
+ },
+ {
+  "id": "iglesia-ni-cristo-the-way-international-unificat",
+  "name": "The Way International; Unification Church; La Luz del Mundo",
+  "status": "Floor Question (register)",
+  "kind": "tradition",
+  "words": 122
+ },
+ {
+  "id": "branch-davidians-and-apocalyptic-splinters",
+  "name": "Branch Davidians & Apocalyptic Splinters",
+  "status": "Floor Question (register)",
+  "kind": "tradition",
+  "words": 133
+ },
+ {
+  "id": "progressive-christianity-a-broad-label-not-one-m",
+  "name": "Progressive Christianity (a broad label, not one movement)",
+  "status": "Label - Assessed Per Body (A3)",
+  "kind": "tradition",
+  "words": 148
+ },
+ {
+  "id": "the-sayfo-and-the-syriac-diaspora",
+  "name": "The Sayfo & the Syriac Diaspora",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 153
+ },
+ {
+  "id": "modern-ethiopian-and-eritrean-christianity",
+  "name": "Modern Ethiopian & Eritrean Christianity",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 163
+ },
+ {
+  "id": "the-ukrainian-greek-catholic-underground",
+  "name": "The Ukrainian Greek Catholic Underground",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 180
+ },
+ {
+  "id": "the-russian-new-martyrs-and-the-catacomb-church",
+  "name": "The Russian New Martyrs & the Catacomb Church",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 151
+ },
+ {
+  "id": "the-post-vatican-ii-parish-world",
+  "name": "The Post-Vatican-II Parish Tradition",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 138
+ },
+ {
+  "id": "lausanne-era-global-evangelicalism",
+  "name": "Lausanne-Era Global Evangelicalism",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 150
+ },
+ {
+  "id": "african-diaspora-and-reverse-mission-churches-in",
+  "name": "African Diaspora & Reverse-Mission Churches in Europe",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 120
+ },
+ {
+  "id": "ratana-church-and-pacific-adjustment-movements",
+  "name": "Ratana Church & Pacific Adjustment Movements",
+  "status": "Floor Question (register)",
+  "kind": "tradition",
+  "words": 151
+ },
+ {
+  "id": "the-armenian-church-after-the-genocide-medz-yegh",
+  "name": "The Armenian Church after the Genocide (Medz Yeghern)",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 116
+ },
+ {
+  "id": "the-emerging-church-and-post-evangelical-movemen",
+  "name": "The Emerging Church & Post-Evangelical Movement",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 136
+ },
+ {
+  "id": "dispensational-prophecy-culture",
+  "name": "Dispensational Prophecy Culture",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 152
+ },
+ {
+  "id": "the-megachurch-and-seeker-movement",
+  "name": "The Megachurch & Seeker Movement",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 156
+ },
+ {
+  "id": "the-narrative-kingdom-renewal-the-bible-as-one-s",
+  "name": "The Narrative-Kingdom Renewal (the Bible as one story fulfilled in Jesus)",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 119
+ },
+ {
+  "id": "fundamentalism-1910-1970s",
+  "name": "Fundamentalism",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 147
+ },
+ {
+  "id": "the-social-gospel",
+  "name": "The Social Gospel",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 133
+ },
+ {
+  "id": "the-mainline-century-liberal-and-neo-orthodox",
+  "name": "The Mainline Century \u2014 Liberal Protestantism & Neo-Orthodoxy",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 149
+ },
+ {
+  "id": "new-calvinism-young-restless-reformed",
+  "name": "New Calvinism (Young, Restless, Reformed)",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 145
+ },
+ {
+  "id": "indonesian-christianity-the-independent-century",
+  "name": "Indonesian Christianity \u2014 the Independent Century",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 157
+ },
+ {
+  "id": "northeast-india-and-mar-thoma-twentieth-century",
+  "name": "Northeast India & the Mar Thoma Church \u2014 the 20th Century",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 132
+ },
+ {
+  "id": "the-malankara-churches-orthodox-and-jacobite",
+  "name": "The Malankara Churches \u2014 Orthodox & Jacobite",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 122
+ },
+ {
+  "id": "the-georgian-orthodox-church-restored",
+  "name": "The Georgian Orthodox Church Restored",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 142
+ },
+ {
+  "id": "churches-of-christ-twentieth-century",
+  "name": "Churches of Christ",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 149
+ },
+ {
+  "id": "disciples-of-christ-and-independent-christian-churches",
+  "name": "Disciples of Christ & the Independent Christian Churches",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 119
+ },
+ {
+  "id": "the-black-church-in-the-twentieth-century",
+  "name": "The Black Church in the Twentieth Century",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 142
+ },
+ {
+  "id": "seventh-day-adventist-church-twentieth-century",
+  "name": "The Seventh-day Adventist Church in the 20th Century",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 202
+ },
+ {
+  "id": "charismatic-renewal-and-the-jesus-movement",
+  "name": "Charismatic Renewal & the Jesus Movement",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 144
+ },
+ {
+  "id": "the-ecumenical-movement-and-the-wcc",
+  "name": "The Ecumenical Movement & the World Council of Churches",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 178
+ },
+ {
+  "id": "the-catholic-church-pius-x-to-the-council",
+  "name": "The Catholic Church \u2014 Pius X to the Eve of the Council",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 143
+ },
+ {
+  "id": "american-orthodoxy-autocephaly-and-the-convert-wave",
+  "name": "American Orthodoxy \u2014 Autocephaly & the Convert Wave",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 119
+ },
+ {
+  "id": "hebrew-roots-and-torah-observance-movements",
+  "name": "Hebrew Roots & Torah-Observance Movements",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 190
+ },
+ {
+  "id": "the-christian-right",
+  "name": "The Christian Right",
+  "status": "Pre-Survey Candidate",
+  "kind": "cross-church movement",
+  "words": 130
+ },
+ {
+  "id": "iglesia-ni-cristo",
+  "name": "Iglesia ni Cristo",
+  "status": "Floor Question (register)",
+  "kind": "tradition",
+  "words": 107
+ },
+ {
+  "id": "the-anglican-communion-twentieth-century",
+  "name": "The Anglican Communion in the Twentieth Century",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 142
+ },
+ {
+  "id": "the-rescue-mission-movement",
+  "name": "The Rescue Mission Movement",
+  "status": "Pre-Survey Candidate",
+  "kind": "cross-church movement",
+  "words": 131
+ },
+ {
+  "id": "the-christian-homeschool-movement",
+  "name": "The Christian Homeschool Movement",
+  "status": "Pre-Survey Candidate",
+  "kind": "cross-church movement",
+  "words": 144
+ },
+ {
+  "id": "the-liturgical-movement",
+  "name": "The Liturgical Movement",
+  "status": "Pre-Survey Candidate",
+  "kind": "cross-church movement",
+  "words": 108
+ },
+ {
+  "id": "the-third-wave-and-the-vineyard",
+  "name": "The Third Wave & the Vineyard",
+  "status": "Pre-Survey Candidate",
+  "kind": "cross-church movement",
+  "words": 156
+ },
+ {
+  "id": "promise-keepers-and-the-christian-mens-movement",
+  "name": "Promise Keepers & the Christian Men's Movement",
+  "status": "Pre-Survey Candidate",
+  "kind": "cross-church movement",
+  "words": 126
+ },
+ {
+  "id": "the-catholic-church-in-africa-twentieth-century",
+  "name": "The Catholic Church in Africa in the Twentieth Century",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 221
+ },
+ {
+  "id": "the-church-struggle-against-apartheid",
+  "name": "The Church Struggle against Apartheid",
+  "status": "Pre-Survey Candidate",
+  "kind": "cross-church movement",
+  "words": 121
+ },
+ {
+  "id": "sudanese-christianity-through-the-civil-wars",
+  "name": "Sudanese Christianity through the Civil Wars",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 148
+ },
+ {
+  "id": "latin-american-catholicism-twentieth-century",
+  "name": "Latin American Catholicism in the Twentieth Century",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 282
+ },
+ {
+  "id": "protestantism-in-latin-america",
+  "name": "Protestantism in Latin America",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 323
+ },
+ {
+  "id": "korean-protestantism-twentieth-century",
+  "name": "Korean Protestantism in the Twentieth Century",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 133
+ },
+ {
+  "id": "chinese-catholicism-twentieth-century",
+  "name": "Chinese Catholicism \u2014 the First Chinese Bishops to the Divided Church",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 163
+ },
+ {
+  "id": "philippine-catholicism-twentieth-century",
+  "name": "Philippine Catholicism in the Twentieth Century",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 107
+ },
+ {
+  "id": "philippine-independent-church-twentieth-century",
+  "name": "The Philippine Independent Church in the Twentieth Century",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 156
+ },
+ {
+  "id": "japanese-christianity-after-1906",
+  "name": "Japanese Christianity after 1906",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 143
+ },
+ {
+  "id": "the-russian-orthodox-church-council-patriarchate-and-reunion",
+  "name": "The Russian Orthodox Church \u2014 Council, Patriarchate and Reunion",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 159
+ },
+ {
+  "id": "polish-catholicism-wyszynski-and-john-paul-ii",
+  "name": "Polish Catholicism \u2014 Wyszy\u0144ski and John Paul II",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 180
+ },
+ {
+  "id": "orthodoxy-in-the-communist-balkans",
+  "name": "Orthodoxy in the Communist Balkans \u2014 the Serbian, Romanian, Bulgarian and Albanian Churches",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 153
+ },
+ {
+  "id": "the-greek-church-and-the-ecumenical-patriarchate",
+  "name": "The Greek Church and the Ecumenical Patriarchate in the Twentieth Century",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 107
+ },
+ {
+  "id": "the-romanian-greek-catholic-church-suppression-and-return",
+  "name": "The Romanian Greek Catholic Church \u2014 Suppression and Return",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 60
+ },
+ {
+  "id": "melitian-schism",
+  "name": "The Melitian Schism",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 377
+ },
+ {
+  "id": "luciferians",
+  "name": "The Luciferians",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 415
+ },
+ {
+  "id": "carthusians-later-middle-ages",
+  "name": "The Carthusians \u2014 The Later Medieval Charterhouses",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 386
+ },
+ {
+  "id": "new-france-mission-born-christianity",
+  "name": "Mission-Born Christianity in New France",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 402
+ },
+ {
+  "id": "swedish-lutherans-of-new-sweden",
+  "name": "The Swedish Lutherans of New Sweden",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 312
+ },
+ {
+  "id": "english-unitarianism",
+  "name": "English Unitarianism",
+  "status": "Floor Question (register)",
+  "kind": "tradition",
+  "words": 404
+ },
+ {
+  "id": "hutterite-brethren",
+  "name": "The Hutterite Brethren",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 225
+ },
+ {
+  "id": "mennonites-and-amish-after-1650",
+  "name": "The Mennonites and the Amish",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 460
+ },
+ {
+  "id": "melkite-greek-catholic-church-after-1815",
+  "name": "The Melkite Greek Catholic Church after 1815",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 230
+ },
+ {
+  "id": "the-coptic-church-under-the-ottomans",
+  "name": "The Coptic Church under the Ottomans: the Patriarchate and the Archons",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 270
+ },
+ {
+  "id": "catholics-of-the-ottoman-balkans",
+  "name": "Catholics of the Ottoman Balkans: the Bosnian Franciscans",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 238
+ },
+ {
+  "id": "chinese-catholicism-1650-1906",
+  "name": "Chinese Catholics Under Edict and Treaty",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 595
+ },
+ {
+  "id": "church-of-the-east-three-patriarchates",
+  "name": "The Church of the East \u2014 Three Patriarchates",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 296
+ },
+ {
+  "id": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+  "name": "Ethiopian Christianity \u2014 Gondar to the Zemene Mesafint",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 485
+ },
+ {
+  "id": "georgian-church-1650-1811",
+  "name": "The Georgian Church \u2014 Between Persia, the Ottomans and Russia",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 243
+ },
+ {
+  "id": "hungarian-and-transylvanian-protestantism-1650-1815",
+  "name": "Hungarian and Transylvanian Protestantism, 1650 to 1815",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 379
+ },
+ {
+  "id": "japans-hidden-christians",
+  "name": "Japan's Hidden Christians",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 318
+ },
+ {
+  "id": "kongo-christianity-after-1650",
+  "name": "Kongo Christianity after 1650",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 264
+ },
+ {
+  "id": "protestant-churches-of-the-voc-world",
+  "name": "Protestant Churches of the VOC World",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 278
+ },
+ {
+  "id": "society-of-jesus-1650-1814",
+  "name": "The Society of Jesus, 1650 to 1814",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 500
+ },
+ {
+  "id": "vietnamese-catholicism-to-1815",
+  "name": "Vietnamese Catholicism \u2014 Vicars Apostolic and Catechists",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 318
+ },
+ {
+  "id": "the-dutch-reformed-church-at-the-cape",
+  "name": "The Dutch Reformed Church at the Cape",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 309
+ },
+ {
+  "id": "catholics-of-dutch-ceylon",
+  "name": "Catholics of Dutch Ceylon",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 384
+ },
+ {
+  "id": "st-thomas-christians-two-obediences",
+  "name": "The St Thomas Christians \u2014 Two Obediences",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 392
+ },
+ {
+  "id": "romanian-greek-catholic-church-1698-1815",
+  "name": "The Romanian Greek Catholic Church, 1698 to 1815",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 469
+ },
+ {
+  "id": "southern-african-mission-churches",
+  "name": "Southern African Mission Churches",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 351
+ },
+ {
+  "id": "caribbean-churches-of-slavery-and-emancipation",
+  "name": "The Caribbean Churches of Slavery and Emancipation",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 400
+ },
+ {
+  "id": "maronite-church-1815-1906",
+  "name": "The Maronite Church \u2014 Mountain, War and One Governor",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 240
+ },
+ {
+  "id": "moravian-church-after-1815",
+  "name": "The Moravian Church after 1815",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 330
+ },
+ {
+  "id": "old-believers-after-1815",
+  "name": "The Old Believers After 1815",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 449
+ },
+ {
+  "id": "polish-and-lithuanian-catholicism-under-the-partitions",
+  "name": "Polish and Lithuanian Catholicism Under the Partitions",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 220
+ },
+ {
+  "id": "romanian-greek-catholic-church-1815-1906",
+  "name": "The Romanian Greek Catholic Church, 1815 to 1906",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 291
+ },
+ {
+  "id": "vietnamese-catholicism-1815-1906",
+  "name": "Vietnamese Catholicism \u2014 Edicts and French Conquest",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 247
+ },
+ {
+  "id": "arab-evangelical-churches",
+  "name": "The Arab Evangelical Churches of Syria, Lebanon and Egypt",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 380
+ },
+ {
+  "id": "canudos-belo-monte",
+  "name": "Canudos (Belo Monte)",
+  "status": "Pre-Survey Candidate",
+  "kind": "tradition",
+  "words": 412
+ },
+ {
+  "id": "transylvanian-unitarian-church-1660-1906",
+  "name": "The Transylvanian Unitarian Church, 1660 to 1906",
+  "status": "Floor Question (register)",
+  "kind": "tradition",
+  "words": 890
+ }
+]
