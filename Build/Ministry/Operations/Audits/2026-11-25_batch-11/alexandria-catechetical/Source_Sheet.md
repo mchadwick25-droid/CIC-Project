@@ -108,7 +108,7 @@ Greek of the book image, E-gr 10724-10725: "τὸ βιβλίον ὥς τι / �
 **C16. How they argued.** E-en 41361-41372 (HE 7.24.8). Own words. Documented. Greek E-gr 10726-10735.
 > "8. And I rejoiced over the constancy, sincerity, docility, and intelligence of the brethren, as we considered in order and with moderation the questions and the difficulties and the points of agreement. And we abstained from defending in every manner and contentiously the opinions which we had once held, unless they appeared to be correct. Nor did we evade objections, but we endeavored as far as possible to hold to and confirm the things which lay before us, and if the reason given satisfied us, we were not ashamed to change our opinions and agree with others; but on the contrary, conscientiously and sincerely, and with hearts laid open before God, we accepted whatever was established by the proofs and teachings of the Holy Scriptures."
 
-Greek of the planned quote's span, E-gr 10734-10735 (OCR as printed; "cíooi" is αἱροίη; Schwartz's apparatus at the foot of the page gives the variants "αἴροι … αἱρεῖ", confirming the word; E-en 41368-41369 confirms the sense):
+Greek of the planned quote's span, E-gr 10734-10735 (OCR as printed; "cíooi" is αἱροίη; Schwartz's apparatus, E-gr 10750, reads "24 αἴροι EBD Zoo: T!M αἵρεῖ ATTR", the manuscript variants of that word, confirming it; E-en 41368-41369 confirms the sense):
 > "μήτε, εἰ λόγος cíooi, μεταπείϑεσϑαι καὶ συνομολογεῖν αἰδού- / σμεροι,"
 
 **C17. Coracion gives it up; the brethren are glad.** E-en 41374-41381 (HE 7.24.9). Own words. Documented. Dionysius's account is his own telling of his own success; the other side left nothing.
@@ -136,7 +136,7 @@ Greek of the planned quote's span, E-gr 10734-10735 (OCR as printed; "cíooi" is
 **D5. Origen: Scripture has flesh, soul and spirit, for the simple, the advancing and the perfect.** Ph line 76 (Philocalia 1.11 = On First Principles 4.2.4). Own words (English of the Greek Philocalia, 1911). Documented.
 > "A man ought then in three ways to record in his own soul the purposes of the Holy Scriptures; that the simple may be edified by, as it were, the flesh of Scripture (for thus we designate the primary sense), the more advanced by its soul, and the perfect by the spiritual law, which has a shadow of the good things to come. … As man consists of body, soul, and spirit, so too does Scripture which has been granted by God for the salvation of men."
 
-Note: the live Origen story tells this teaching in paraphrase. This story gives it as the reading its classrooms were built on (C7, C8), in the narrator's words, with no quote.
+Note: the live Origen story tells this teaching in paraphrase. This story tells it beside the classroom (C7, C8), in the narrator's words, with no quote, and draws no link between the two that the sources do not draw.
 
 **D6. The young Origen asks for more than the plain sense.** E-en 32588-32599 (HE 6.2.9-10). Later. Widely Accepted. Possible second opening; set aside below.
 > "9. … And he was not satisfied with learning what was simple and obvious in the sacred words, but sought for something more, and even at that age busied himself with deeper speculations. So that he puzzled his father with inquiries for the true meaning of the inspired Scriptures. 10. And his father rebuked him seemingly to his face, telling him not to search beyond his age, or further than the manifest meaning. But by himself he rejoiced greatly and thanked God, the author of all good, that he had deemed him worthy to be the father of such a child."
