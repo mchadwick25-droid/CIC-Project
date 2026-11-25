@@ -121,7 +121,7 @@ Nine to eleven names spoken (Juliana to the card): past six, each acts or links.
 
 ## Connection to carry into the story
 
-Everything about them passed through their opponents' hands, and some of their own work did too. Symmachus's Greek version stood in Origen's columns (G1), and Origen had Symmachus's own writings on the Scriptures from Juliana, who had them from Symmachus himself (G2). The Nazoraeans of Beroea let Jerome copy the gospel they used, and he translated and quoted it (F5–F8). The listener must understand that the writers who called them heretics were also the ones who kept and used their books, so that what survives of the gospels they used survives in their opponents' quotations. Show it through Symmachus's version in Origen's columns and Jerome's copying; never in a "this matters because" line. No line of descent is claimed: Epiphanius's Pella beginning stays in his voice.
+Everything about them passed through their opponents' hands, and some of their own work did too. Symmachus's Greek version stood in Origen's columns (G1), and Origen had Symmachus's own writings on the Scriptures from Juliana, who had them from Symmachus himself (G2; card, Cut first 4). The Nazoraeans of Beroea let Jerome copy the gospel they used, and he translated and quoted it (F5–F8). The listener must understand that the writers who called them heretics were also the ones who kept and used their books, so that what survives of the gospels they used survives in their opponents' quotations. Show it through Symmachus's version in Origen's columns and Jerome's copying; never in a "this matters because" line. No line of descent is claimed: Epiphanius's Pella beginning stays in his voice.
 
 ## Ending
 

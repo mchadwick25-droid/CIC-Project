@@ -93,6 +93,7 @@ None is used elsewhere on the tree (census search: the only other uses are this 
 | Eusebius of Caesarea | acts; link | Eusebius of Caesarea |
 | Egeria | acts; link (Jerusalem tradition) | Egeria |
 | Peter, James, Mary, Joseph | in the books' titles and stories | as given |
+| Marcianus | in Serapion's report only (beat 1, B1g); no link, nothing more known from old sources | Marcianus |
 | Joachim and Anna, Marthana | optional (Cut first) | — |
 
 Everyone else by role: the presbyter, the backers at Rhossus.
