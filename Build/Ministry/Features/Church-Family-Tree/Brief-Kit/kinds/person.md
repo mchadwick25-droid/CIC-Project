@@ -30,4 +30,4 @@ Each shape gives how that kind of life usually moves, where its impact sits, and
 
 ## References
 
-Basil of Caesarea (`Build/Ministry/Features/Church-Family-Tree/Brief-Kit/reference/basil-of-caesarea/`), Epiphanius of Salamis (`Build/Ministry/Features/Church-Family-Tree/Brief-Kit/reference/epiphanius-of-salamis/`) and John Chrysostom, whose folder is added beside them when he is brought to this kit, read for voice, never for their order or moves.
+Basil of Caesarea (`Build/Ministry/Features/Church-Family-Tree/Brief-Kit/reference/basil-of-caesarea/`), Epiphanius of Salamis (`Build/Ministry/Features/Church-Family-Tree/Brief-Kit/reference/epiphanius-of-salamis/`) and John Chrysostom (`Build/Ministry/Features/Church-Family-Tree/Brief-Kit/reference/john-chrysostom/`), read for voice, never for their order or moves.

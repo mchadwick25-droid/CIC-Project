@@ -1,5 +1,34 @@
 # The reference stories and their fixed counts
 
-Each story here is frozen with its brief, its outline and its source sheet once it meets the kit; its kind kit names it. Its fixed counts are the reviewer role's reads of the frozen brief: the trust read's marks and the two listeners' faults. Each fresh read counts its kind's references the same way (Kit, Part 3, step 5), against the outline and source sheet in each folder.
+Each story here is frozen with its brief, its outline and its source sheet once it meets the kit; its kind kit names it. Its fixed counts are the reviewer role's reads of the frozen brief: the trust read's marks and the listeners' faults. Each fresh read counts its kind's references the same way (Kit, Part 3, step 5), against the outline and source sheet in each folder.
 
-The person references (Basil of Caesarea, Epiphanius of Salamis, and John Chrysostom, still to be added) are being brought to the kit of 2026-11-24 (Open-Gaps, "The three person references, brought to the 2026-11-24 kit", 2026-11-24). Their counts are set here when that is done. Until then, a fresh read records the references' counts in its batch's `Reference_Read.md` with nothing to set them beside.
+## Person
+
+Brought to the kit of 2026-11-24 and frozen on Mark's approval ("keep them as they are, approved", 2026-11-24). The first counts are each story's fresh read: a trust reader with the sources open and a first-time listener. Then, on Mark's ruling "a, second trust read on changed sentences", an independent second trust reader read every sentence that differs from the text before this batch. The exact changes of both reads were applied word for word, so the frozen brief carries the fix for each blocking finding counted here.
+
+| | Basil of Caesarea | Epiphanius of Salamis | John Chrysostom |
+|---|---|---|---|
+| Words, frozen brief | 733 | 756 | 742 |
+| **Trust read: sentences** | 34 | 41 | 37 |
+| Held | 16 | 33 | 26 |
+| Summary holds | 18 | 7 | 11 |
+| Softened or changed | 0 | 1 | 0 |
+| Assumption added | 0 | 0 | 0 |
+| Modern only | 0 | 0 | 0 |
+| Not found | 0 | 0 | 0 |
+| **First-time listener** | | | |
+| Test lines unfilled | 1 (partly) | 0 | 0 |
+| Bare statements | 1 | 0 | 1 |
+| Sentences failing on one hearing | 5 | 4 | 0 |
+| Citations read aloud not called for | 1 | 0 | 1 |
+| Tells Part 1 names | 0 | 0 | 0 |
+| Unexplained words | 2 | 2 | 4 |
+| Runs of short one-act sentences | 0 | 0 | 0 |
+| Talking down | 0 | 0 | 0 |
+| **Second trust read: changed sentences** | 31 | 26 | 37 |
+| Held | 11 | 14 | 26 |
+| Summary holds | 20 | 10 | 11 |
+| Softened or changed | 0 | 2 | 0 |
+| Assumption added | 0 | 0 | 0 |
+| Modern only | 0 | 0 | 0 |
+| Not found | 0 | 0 | 0 |

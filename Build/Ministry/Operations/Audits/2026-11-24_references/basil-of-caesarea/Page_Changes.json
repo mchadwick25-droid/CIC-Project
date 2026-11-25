@@ -1,0 +1,293 @@
+{
+ "slug": "basil-of-caesarea",
+ "source_key": {
+  "208": "npnf208_basil-letters-select-works.xml",
+  "207": "npnf207_cyril-jerusalem-gregory-nazianzus.xml",
+  "214": "npnf214_seven-ecumenical-councils.xml",
+  "202": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+  "Clarke": "basil_ascetic-works-longer-shorter-rules_clarke1925.txt",
+  "Rufinus": "eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt"
+ },
+ "changes": [
+  {
+   "before": "Years later, defending himself in a letter, Basil of Caesarea looked back.",
+   "after": "Years later, defending himself in a letter against men who, he wrote, were spreading lies about him, Basil of Caesarea looked back.",
+   "mark": "SUMMARY HOLDS",
+   "source": "Letter 223, `208` 39108-39112: \"my slanderers… sullying my reputation among the brethren… the bitter torrent of falsehood that has gushed out against me.\"",
+   "reason": null
+  },
+  {
+   "before": "He had wasted nearly all his youth, he wrote, in the vain labor of learning a wisdom God had made foolish.",
+   "after": "He had wasted nearly all his youth, he wrote, in the vain labor of learning a wisdom God had made foolish, the learning of this world.",
+   "mark": "HELD",
+   "source": "Letter 223.2, `208` 39131-39135, \"the wisdom made foolish by God\"; \"the wisdom of the princes of this world\" (first trust read)",
+   "reason": null
+  },
+  {
+   "before": "That waking set the course of his life in Caesarea, an inland city in Asia Minor.",
+   "after": "That waking set the course of his life in Caesarea, an inland city in Asia Minor, in the fourth century.",
+   "mark": "SUMMARY HOLDS",
+   "source": "Letter 223, `208` 39135-39153 (the waking leads him to the gospel and to the monks); `207` 41972-41976 (\"an inland city like ours\"); `207` 41700-41701 (Caesarea takes him as its own). \"Asia Minor\" is the outline's plain gloss.",
+   "reason": null
+  },
+  {
+   "before": "Basil gave up teaching rhetoric for a life of prayer and shared work.",
+   "after": "Basil gave up teaching rhetoric, the art of public speaking, for a life of prayer and shared work.",
+   "mark": "SUMMARY HOLDS",
+   "source": "Rufinus HE 11.9, `eusebius_werke…schwartz-mommsen1908.txt` 29989-29994 (\"ad profitendam rhetoricam… de doctoris cathedra deponeret… ad monasterium\"); Life of Macrina 136 (\"deserted it for this busy life where one toils with one's hands\"); Longer Rules, Clarke 1925, 17072-17094 (prayer with work).",
+   "reason": null
+  },
+  {
+   "before": "He wrote rules that taught monks to live together and serve one another.",
+   "after": "He wrote rules that taught monks to live together and serve one another, and he built a great lodging for the poor and the sick a little way outside the city.",
+   "mark": "SUMMARY HOLDS",
+   "source": "Clarke 1925 13174-13191; Letter 94, `208` 30011-30016; Or. 43.63, `207` 42734-42742 (\"a little way from the city… the new city\").",
+   "reason": null
+  },
+  {
+   "before": "He built a great lodging for the poor and the sick a little way outside the city.",
+   "after": null,
+   "mark": null,
+   "source": null,
+   "reason": null
+  },
+  {
+   "before": "As bishop from 370, he defended the Holy Spirit's place beside the Father and the Son.",
+   "after": "As its bishop, he defended the Holy Spirit's place beside the Father and the Son, and he died before a council, a meeting of bishops, declared it in its creed.",
+   "mark": "SUMMARY HOLDS",
+   "source": "Or. 43.68, `207` 42925-42940 (the fight over the Spirit, with his see at stake); Life of Macrina 180 (\"Eight years after\"); creed, `npnf214…xml` 13393-13396. No cause from Basil to the council is stated.",
+   "reason": null
+  },
+  {
+   "before": "He died in 378 or 379, before a council confessed it.",
+   "after": null,
+   "mark": null,
+   "source": null,
+   "reason": "two editors' dates told as the record (a modern work is a tool, never a witness), and \"council\" and \"confessed\" left unexplained."
+  },
+  {
+   "before": "He taught rhetoric, the art of public speaking, the historian Rufinus says.",
+   "after": null,
+   "mark": null,
+   "source": null,
+   "reason": null
+  },
+  {
+   "before": "Who turned him away?",
+   "after": null,
+   "mark": null,
+   "source": null,
+   "reason": "a question asked only to answer it."
+  },
+  {
+   "before": null,
+   "after": "The old writers differ on what turned him.",
+   "mark": "SUMMARY HOLDS",
+   "source": "The three accounts: `208` 39133-39145, Life of Macrina 136, Rufinus 29992-29994.",
+   "reason": null
+  },
+  {
+   "before": "In his own telling, he read in the gospel of selling goods and sharing with the poor, and went looking for monks.",
+   "after": "In his own telling, he read in the gospel of selling goods and sharing with the poor.",
+   "mark": "SUMMARY HOLDS",
+   "source": "`208` 39143-39145: \"Then I read the Gospel… the selling of one's goods, the sharing them with the poor.\" See MINOR note 2.",
+   "reason": null
+  },
+  {
+   "before": "His brother, Gregory of Nyssa, gives the credit to their sister Macrina.",
+   "after": "His brother, Gregory of Nyssa, says their sister Macrina turned him, while the historian Rufinus says his friend Gregory of Nazianzus drew him away from teaching.",
+   "mark": "HELD",
+   "source": "Life of Macrina 136, \"Macrina took him in hand\"; Rufinus 29992-29994 (first trust read)",
+   "reason": null
+  },
+  {
+   "before": "Rufinus says his friend Gregory of Nazianzus took him from the teacher's chair.",
+   "after": null,
+   "mark": null,
+   "source": null,
+   "reason": null
+  },
+  {
+   "before": "In Pontus, near the Black Sea, Basil founded a community and led it, Gregory says.",
+   "after": "In Pontus, near the Black Sea, Basil founded a community and led it.",
+   "mark": "SUMMARY HOLDS",
+   "source": "Or. 43.29, `207` 41819-41821: \"presided over the abodes of contemplation there. He himself too founded one.\" See MINOR note 1.",
+   "reason": null
+  },
+  {
+   "before": "His rules were answers to his brothers' questions, and one asks whether to live alone or with others.",
+   "after": "His rules were answers to his brother monks' questions, and one asks whether to live alone or with others.",
+   "mark": "HELD",
+   "source": "Clarke 13180-13184; Rufinus's preface, \"interrogantibus monachis ... responsa\", `benedict-aniane_concordia-regularum...` 40460-40512 (first trust read)",
+   "reason": null
+  },
+  {
+   "before": "Love does not seek its own good, Basil answers, and Christ washed his disciples' feet.",
+   "after": "Love does not seek its own good, Basil answers, and Christ washed his disciples' feet, but a man alone has no one to serve.",
+   "mark": "SUMMARY HOLDS",
+   "source": "Clarke 1925 13209-13215 (\"the solitary life has one aim, the service of the needs of the individual\"); 13452-13456.",
+   "reason": null
+  },
+  {
+   "before": "A man alone has no one to serve.",
+   "after": null,
+   "mark": null,
+   "source": null,
+   "reason": "the plain sense stood after the quote as a closing line."
+  },
+  {
+   "before": "The bishop of Caesarea made him a priest, though they quarreled.",
+   "after": "The bishop of Caesarea made him a priest, but they quarreled, and Basil went back to Pontus.",
+   "mark": "SUMMARY HOLDS",
+   "source": "Or. 43.27-29, `207` 41760-41821 (\"in the seat of the Presbyters\"; \"There arose a disagreement\"; \"into Pontus\"). Gregory does not name who ordained him. Ordination by the see's own bishop is a fair reading.",
+   "reason": null
+  },
+  {
+   "before": "When the emperor Valens, who favored the party that ranked the Son below the Father, moved against the churches that held them equal, Basil came back to serve the bishop.",
+   "after": "When the emperor Valens, who favored the party that ranked Christ, the Son, below God the Father, moved against the churches that held them equal, Basil came back to serve the bishop.",
+   "mark": "SUMMARY HOLDS",
+   "source": "Or. 43.30-33, `207` 41836-41936 (\"his unequal degrees of Godhead\"; \"He immediately returned with me from Pontus\").",
+   "reason": null
+  },
+  {
+   "before": "When the old bishop died, Gregory says, Basil was chosen against the bishops of the province.",
+   "after": "When the old bishop died, Basil was made bishop, though the bishops of the province fought it out of envy, Gregory of Nazianzus says in his speech in Basil's memory.",
+   "mark": "HELD",
+   "source": "Or. 43.37, `207` 42046-42051, \"the envious struggles of the prelates\" (first trust read)",
+   "reason": null
+  },
+  {
+   "before": "The emperor's highest official ordered him to accept the emperor's faith, on pain of losing his goods, exile, torture and death.",
+   "after": "The emperor's highest official ordered him to accept the emperor's faith, or else lose his goods and face exile, torture and death.",
+   "mark": "SUMMARY HOLDS",
+   "source": "Or. 43.48-49, `207` 42305-42350 (\"refusing to respect the religion of your Sovereign\"; \"Confiscation, banishment, torture, death\"); Sozomen 6.16, `npnf202…xml` 38325-38339 (\"commanded him to embrace the religious sentiments of the emperor\"). It sits between two credits to Gregory, as the outline places it.",
+   "reason": null
+  },
+  {
+   "before": "Gregory's speech in Basil's memory is praise.",
+   "after": null,
+   "mark": null,
+   "source": null,
+   "reason": "a stock how-we-know sentence."
+  },
+  {
+   "before": "In his telling, Basil answered that a man who owns only rags and a few books cannot be robbed, and that death would only send him sooner to God.",
+   "after": "In Gregory's telling, Basil answered that a man who owns only rags and a few books cannot be robbed, and that death would only send him sooner to God.",
+   "mark": "HELD",
+   "source": "Or. 43.49, 42353-42364 (first trust read)",
+   "reason": null
+  },
+  {
+   "before": "A rival bishop once blocked his road with armed men.",
+   "after": "When the province was divided, a rival bishop claimed part of his churches and once blocked his road with armed men.",
+   "mark": "SUMMARY HOLDS",
+   "source": "Or. 43.58, `207` 42569-42603 (\"claimed those newly added\"; \"bar the passage with a robber band\").",
+   "reason": null
+  },
+  {
+   "before": "Basil answered by making his brother bishop of Nyssa and his friend bishop of Sasima, a hurt, Gregory said, that time had not healed.",
+   "after": "Basil answered by making more bishops for the province, Gregory says.",
+   "mark": "HELD",
+   "source": "Or. 43.59, 42611-42613, \"the multiplication of the Bishops\" (first trust read)",
+   "reason": null
+  },
+  {
+   "before": "Accused before the governor, Basil wrote: whom does it harm to build a lodging for strangers, travelers and the sick, with doctors and transport?",
+   "after": "His accusers had won over the governor, and Basil wrote to ask what harm the state suffered from him, or from building a lodging for strangers, travelers and the sick, with doctors and transport.",
+   "mark": "SUMMARY HOLDS",
+   "source": "Letter 94: \"those who are besieging your impartial ears ... what harm the government suffers from me?\"; \"physicians, doctors, means of conveyance\" (`208` 30011-30016) (first trust read)",
+   "reason": null
+  },
+  {
+   "before": "The rich filled it at Basil's urging, Gregory says.",
+   "after": "The rich gave to it at his urging.",
+   "mark": "HELD",
+   "source": "Or. 43.63, 42738-42740, \"in consequence of his exhortations\" (first trust read)",
+   "reason": null
+  },
+  {
+   "before": "Lepers driven from their towns were taken in, and Basil greeted them as brothers and tended them himself, Gregory says.",
+   "after": "Lepers driven from their towns were taken in, and Basil greeted them as brothers and tended them himself.",
+   "mark": "SUMMARY HOLDS",
+   "source": "Or. 43.63, `207` 42755-42776 (\"driven away from their cities and homes\"; \"saluted them as brethren… approaching to tend them\").",
+   "reason": null
+  },
+  {
+   "before": "Basil closed prayers with praise to the Father with the Son, together with the Holy Spirit, and at other times through the Son, in the Holy Spirit.",
+   "after": "Basil closed prayers by giving glory to the Father in two forms: with the Son, together with the Holy Spirit, and through the Son, in the Holy Spirit.",
+   "mark": "SUMMARY HOLDS",
+   "source": "On the Holy Spirit 1.3: \"using the full doxology to God the Father in both forms, at one time 'with the Son together with the Holy Ghost,' and at another 'through the Son in the Holy Ghost'\" (`208` 8793-8796) (first trust read)",
+   "reason": null
+  },
+  {
+   "before": "Some attacked these as new, contradictory words.",
+   "after": "Some attacked these as new, contradictory words, holding that the Spirit could not be ranked with the Father and the Son.",
+   "mark": "SUMMARY HOLDS",
+   "source": "On the Holy Spirit 1.3, `208` 8793-8799; 2.4, `208` 8827-8835 (their care over syllables aims to show \"a variation in nature\"); 10.24, `208` 10556-10558.",
+   "reason": null
+  },
+  {
+   "before": null,
+   "after": "The first set the Spirit beside the Father and the Son.",
+   "mark": "SUMMARY HOLDS",
+   "source": "On the Holy Spirit 27.68, `208` 14160-14166 (\"to combine in our confession… Him who is numbered with Them at Baptism\"); Letter 159, `208` 33487-33488 (\"We glorify the Holy Ghost together with the Father and the Son\").",
+   "reason": null
+  },
+  {
+   "before": "The Spirit, they held, could not be ranked with the Father and the Son.",
+   "after": null,
+   "mark": null,
+   "source": null,
+   "reason": null
+  },
+  {
+   "before": "He answered from what the church already did, and in a letter put it this way: \"As we were baptized, so we confess our faith.",
+   "after": "He answered in a book, On the Holy Spirit, that the church already baptized new believers in the name of the Father, the Son and the Holy Spirit together.",
+   "mark": "SUMMARY HOLDS",
+   "source": "`208` 14164-14170: \"not to baptize as we have received, or not to believe as we were baptized, or not to ascribe glory as we have believed.\"",
+   "reason": null
+  },
+  {
+   "before": null,
+   "after": "A letter of his puts the same thought in two lines: \"As we were baptized, so we confess our faith.",
+   "mark": "HELD",
+   "source": "Letter 159.2, 33483-33485; meaning matches (first trust read)",
+   "reason": null
+  },
+  {
+   "before": "Gregory admits that in writing Basil held back the bare words that the Spirit is God, from caution, though he often preached it.",
+   "after": "Gregory says that Basil, out of caution, held back from writing in plain words that the Spirit is God, though he often preached it.",
+   "mark": "SUMMARY HOLDS",
+   "source": "Or. 43.68-69, `207` 42927-42966 (\"He postponed for the time the use of the exact term\"; \"his often having publicly preached this truth\"). \"In writing\" follows from Gregory's frame, his treatises (43.68) set against his preaching (43.69).",
+   "reason": null
+  },
+  {
+   "before": "Gregory says the whole city poured around Basil as he died.",
+   "after": "The whole city poured around Basil as he died.",
+   "mark": "HELD",
+   "source": "Or. 43.79, `207` 43240-43241 (first trust read)",
+   "reason": null
+  },
+  {
+   "before": "In 381, after his death, a council at Constantinople confessed the Spirit worshipped and glorified with the Father and the Son.",
+   "after": "In 381, after his death, a council at Constantinople declared in its creed that the Spirit is worshipped and glorified with the Father and the Son.",
+   "mark": "HELD",
+   "source": "`214` 13393-13396; Socrates 5.8 (first trust read)",
+   "reason": null
+  },
+  {
+   "before": "Rufinus put his Rule into Latin in 397 or 398.",
+   "after": "Rufinus put his works, his rules for monks among them, into Latin.",
+   "mark": "HELD",
+   "source": "Rufinus's preface; Gennadius 17, `npnf203...xml` 42470-42471 (first trust read)",
+   "reason": null
+  },
+  {
+   "before": "In 787 a council told the houses still standing where men and women lived as monks, side by side but apart, to keep his rule.",
+   "after": null,
+   "mark": null,
+   "source": null,
+   "reason": null
+  }
+ ]
+}
