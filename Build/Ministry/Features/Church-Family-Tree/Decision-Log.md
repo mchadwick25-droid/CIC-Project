@@ -6028,3 +6028,7 @@ This batch only.
 **Decided (Mark, 2026-11-25): "a".** Ship the rebuilt versions after one checked craft pass on the named gaps and the one unsourced sentence, each from the sources or cut. A kit shape for traditions known only through their opponents or their writings comes to Mark separately.
 
 This batch only.
+
+## Batch 11: second-grade fixes (2026-11-25)
+
+Mark, on the second grade (`Build/Ministry/Operations/Audits/2026-11-25_batch-11/Grades2/Grades.md`; page https://claude.ai/artifact/L7u4RGu7dbHmMf6ppeLP5Z): "make fixes". One round, as recommended. Source-check fixes for Greek Apologists (what the new decrees did; who the wicked men were), Roman Church (why Natalius gave in; why the confessors came back), Antioch (the Aurelian sentence; Lucian's reason or a plain no-reason), Syriac (why the later king rebuilt), Manichaeism (why the 843 edict; the Augustine sentence) and Alexandria (the baptism by fire said plainly). Craft-only passes for the House Church, Latin Apologists and Marcionism. Each goes through a fixer and an independent recheck; no full regrade. Left as they are: Apocryphal (ruling A), Ebionites (ruling A), Latin Pastoral (the approved essence line), Montanism (live). This batch only.
