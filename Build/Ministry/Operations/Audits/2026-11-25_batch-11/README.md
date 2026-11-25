@@ -4,7 +4,7 @@ The group: Mark's ruling "Era 1 traditions: thirteen rebuilt now, seven pushed o
 
 Each folder `<slug>/` holds `<slug>.brief.approved.txt`, the live `longDescription` as it stood on 2026-11-25. `Overlap_Report_Old_Texts.txt` is the one run of `tools/check_tree_overlap.py` on the thirteen old texts: all clear. A hand check of the House Church's five quotes under five words found none elsewhere on the tree either.
 
-## The thirteen (proposed on the slate)
+## The thirteen (approved)
 
 | Census id | Half | Grade | Research order |
 |---|---|---|---|
@@ -25,14 +25,15 @@ Each folder `<slug>/` holds `<slug>.brief.approved.txt`, the live `longDescripti
 Jobs, direct lines, siblings, the live stories beside each one, and quote bars: the slate, https://claude.ai/artifact/DsZbVTkmK5mK4YtSbe1mer (version 1).
 
 ## Steps
-0. Slate: to Mark 2026-11-25. Awaiting his ruling. Research starts only after he approves.
+0. Slate: approved by Mark (2026-11-25, "Approve as recommended"; Decision-Log, "Batch 11: the slate approved").
+1. Research (`<slug>/Researcher_Prompt.filled.md`, each a filled `roles/researcher.md`; all thirteen written). Half A first wave started 2026-11-25: Alexandria, Syriac, Antioch, Apocryphal, Greek Apologists. Roman Church waits on Antioch's outline, Ebionites on Apocryphal's.
 
 ## Open items
-- Slate decision 3: the Apocryphal entry is not a community. Recommended: tell it through the people who wrote, read, copied and judged the books (Serapion and the Gospel of Peter, Eusebius HE 6.12, held in `npnf201`; the presbyter of the Acts of Paul, Tertullian On Baptism 17, held in `anf03`).
-- Slate decision 4: three census lines the stories may touch, with no change recommended. Ebionites: Epiphanius's descent from the Pella believers. House Church: no continued-as line to the third-century churches of Antioch and Anatolia. Alexandria: the Contested gave-rise-to link to Desert Monasticism.
+- (Ruled) Slate decision 3: the Apocryphal entry is not a community. Recommended: tell it through the people who wrote, read, copied and judged the books (Serapion and the Gospel of Peter, Eusebius HE 6.12, held in `npnf201`; the presbyter of the Acts of Paul, Tertullian On Baptism 17, held in `anf03`).
+- (Ruled, no change) Slate decision 4: three census lines the stories may touch, with no change recommended. Ebionites: Epiphanius's descent from the Pella believers. House Church: no continued-as line to the third-century churches of Antioch and Anatolia. Alexandria: the Contested gave-rise-to link to Desert Monasticism.
 - `Story-Ledger.md` does not track traditions: `tools/list_story_status.py` counts only persons and councils (`KINDS`). For Open-Gaps at release, unless Mark rules otherwise.
 - Pushed-off traditions (Open-Gaps 417, 418) come into these stories only as clauses: `novatianism`, `bardaisanite-current`, `modalist-monarchianism`, `valentinian-and-other-gnostic-christianities`, `anatolian-church-third-century`, `palestinian-church-pre-constantinian`.
 - Before the pull request: bring `main` into this branch once #1806 has merged.
 
 ## Rulings
-None yet.
+- "Batch 11: the slate approved" (Mark, 2026-11-25: "Approve as recommended"): the thirteen jobs and halves, the research order, Apocryphal told through the people who met the books, no census direct-line change, no quote reuse (the House Church drops the leopards scene), every story kept with its job split. This batch only.
