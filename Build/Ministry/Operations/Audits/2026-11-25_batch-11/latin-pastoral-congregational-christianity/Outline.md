@@ -193,6 +193,7 @@ The story does not rest on one witness. Every main witness is a churchman of thi
 | "in Numidia" | Not in the letter (M6) |
 | "a stained hand" | "one who was stained" (M5) |
 | "killed only for being a Christian" | The Acta's sentence calls him an enemy of the Roman gods and their rites, and the leader of men gathered in a wicked conspiracy (PonL 41566-41575) |
+| "the emperors ordered sacrifice" (257-258) | "the Roman rites" ("Romanas caeremonias recognoscere", "caeremoniari"; PonL 41418-41419, 41528) |
 
 ## Leave out
 
