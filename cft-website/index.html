@@ -136217,7 +136217,7 @@ function glideToNode(o){
 ['pointerdown','wheel','touchstart'].forEach(ev=>edgeChips.addEventListener(ev,e=>e.stopPropagation(),{passive:true}));
 document.addEventListener('keydown',ev=>{if(ev.key==='Escape'&&!ev.defaultPrevented&&connFocus&&!panel.classList.contains('open'))clearConnections();});
 // Search (see search-ui.js). The code loads when the box is first opened, so the first page load is unchanged.
-const SEARCH_ON=false;
+const SEARCH_ON=true;
 const searchBtn=document.getElementById('searchBtn');
 function clearLit(silent){
   if(!litSet)return;

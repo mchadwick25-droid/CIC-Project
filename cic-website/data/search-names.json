@@ -329,6 +329,28 @@
     "field": "documentedStories.0.teaser",
     "text": "A frontier preacher called Raccoon John tells them to be no longer Campbellites or Stoneites, and the two old men give each other their hands."
    }
+  },
+  {
+   "name": "Mormonism",
+   "kind": "other name",
+   "entry": "latter-day-saints-lds",
+   "basis": {
+    "source": "library",
+    "file": "cic/texts/noyes_history-of-american-socialisms_1870.txt",
+    "lines": "6667-6668",
+    "text": "concentrated on Brigham Young as its second medium, and he has organized Mormonism."
+   }
+  },
+  {
+   "name": "Abyssinia",
+   "kind": "older name",
+   "country": "Ethiopia",
+   "basis": {
+    "source": "library",
+    "file": "cic/texts/budge_history-of-ethiopia-nubia-and-abyssinia-v1_1928.txt",
+    "lines": "165-171",
+    "text": "Abyssinians of all classes speak of their country as “Ethiopia,”"
+   }
   }
  ]
 }
