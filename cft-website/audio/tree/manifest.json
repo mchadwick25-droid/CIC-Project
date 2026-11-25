@@ -1150,12 +1150,18 @@
  },
  "montanism-the-new-prophecy": {
   "file": "montanism-the-new-prophecy.mp3",
-  "bytes": 580170,
-  "chars": 971,
-  "text_sha256": "ff995b57fb571e253d112e694b708fadfe88dfb3c8b68cb6b32c7a86a867b71d",
+  "bytes": 2334763,
+  "chars": 3879,
+  "text_sha256": "f34d0987ee9e404a8d5f5b53f57f9370e8a24a7a03359349b802fa81ba841e19",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
-  "outputFormat": "mp3_44100_64"
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  }
  },
  "mozarabic-christianity": {
   "file": "mozarabic-christianity.mp3",
