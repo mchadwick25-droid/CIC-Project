@@ -147,7 +147,7 @@ The doubt is not itself the story; no scene of doubt.
 | Thecla told as a person of history | Thecla as the book tells her; her shrine as Egeria saw it. |
 | "The seals were struck dead by lightning" in the narrator's voice | "the book says" (B3b). |
 | "Mary was fed by an angel" as fact | "fed, it says, by an angel's hand" (B4e). |
-| "Origen read the Protevangelium" | "Origen knew a book of James" (B4a–b). |
+| "Origen read the Protevangelium" | "Origen is not named in the story (card only, Length pass)" (B4a–b). |
 | "the mid-second-century Protevangelium", any date for the books | No composition date. |
 | "Eusebius banned / the church voted" | Eusebius sorted them in his history (B5). |
 | "Egeria read the Acts" | "the whole of the Acts of Thecla was read" (passive, B6c). |
