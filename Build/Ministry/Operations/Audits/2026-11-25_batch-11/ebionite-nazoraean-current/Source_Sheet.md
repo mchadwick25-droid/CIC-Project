@@ -22,6 +22,7 @@ Short names used below:
 | AugE | `npnf101_augustine-confessions-letters.xml` | Augustine's letters, with Jerome's Letter 112 as Augustine Letter 75 (English, 1886) |
 | CSEL34 | `augustine_epistulae-1-123-lat_goldbacher-csel34.txt` | the same letters, Latin (Goldbacher 1895–98, OCR, clean) |
 | AugF | `npnf104_augustine-anti-manichaean-anti-donatist.xml` | Augustine, Against Faustus (English, 1887) |
+| PL42 | `augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt` | Augustine, On Heresies; Against Faustus (Latin, Migne 1886, OCR) |
 
 Witness kinds: **own** (their own words), **contemporary**, **later** (with rough gap), **late legend**. Confidence: Documented, Widely Accepted, Dominant Modern Reconstruction, Contested, Inferential-Thin. "Documented as X's report" means the text certainly says it; whether it is true of the community is the question the story keeps open.
 
@@ -112,8 +113,9 @@ Spoken words: "Palestine and Syria" (census `region`); "Beroea, in Syria" (Jerom
 | E9 | Epiphanius on the Ebionites: Jesus born of a man's seed (with his Christ-and-devil scheme) | Pan 26599–26607 | later, hostile | Documented as his report | "καὶ τούτου ἕνεχα Ιησοῦν γεγεννημένον ἐχ σπέρματος ἀνδρὸς" |
 | E10 | Jerome (404): the Nazarenes believe in Christ, Son of God, born of the Virgin Mary, who suffered under Pontius Pilate and rose, in whom we too believe; wanting to be both Jews and Christians, they are neither | CSEL34 23272–23275; AugE 33605–33609 | contemporary, hostile | Documented as Jerome's report | "Christum filium dei natum de Maria uirgine et eum dicunt esse, qui sub Pontio Pilato et passus est et resurrexit, in quem et nos credimus, sed dum uolunt et Iudaei esse et Christiani, nec Iudaei sunt nec Christiani" / "they believe in Christ the Son of God, born of the Virgin Mary; and they say that He who suffered under Pontius Pilate and rose again, is the same as the one in whom we believe. But while they desire to be both Jews and Christians, they are neither the one nor the other." |
 | E11 | Two names, two chapters: Epiphanius writes of Nazoraeans (Panarion 29) and Ebionites (30) as two heresies; he cannot say exactly which came first | Pan 24391, 24394–24398, 25227 | later | Documented as his arrangement | "1. Ναζωραῖοι καϑεξῆς τούτοις ἕπονται, ἅμα τε αὐτοῖς ὄντες ἢ καὶ πρὸ αὐτῶν ἢ σὺν αὐτοῖς ἢ μετ᾽ αὐτούς, ὅμως σύγχρονοι᾽ οὐ γὰρ ἀχριβέστερον δύναμαι ἐξειπεῖν τίνες τίνας | διεδέξαντο." |
+| E12 | Augustine, On Heresies 9–10 (late, about 428 per its preface, PL42 995–1000; credits Epiphanius by name, 1347–1352): the Nazaraeans confess Christ the Son of God but keep all the old Law; the Ebionites say Christ was only a man and keep circumcision and the Law's carnal commands | PL42 1337–1352 (OCR heading "Nazamzxi"; "Scriptus circiter annum 428" at 1098) | later (about 428), hostile | Documented as Augustine's report | "Nazamzxi, cum Dei Filium confiteantur esse Christum, omnia tamen veteris Legis observant" … "EBroN1 Christum etiam ipsi tantummodo hominem dicunt. Mandata carnalia Legis observant, circumcisionem scilicet carnis, et cetera" |
 
-**Where the witnesses differ (for the scene):** Irenaeus and Eusebius's first kind: born of Joseph (E2, E6). Origen and Eusebius's second kind: two kinds, one confessing the virgin birth (E4, E6). Epiphanius: cannot say for the Nazoraeans (E8); for the Ebionites, born of a man (E9). Jerome: they believe as "we" do (E10). Eusebius and Origen give one name to both kinds (C9); Epiphanius two names and two chapters (E11); Jerome both names in one letter (D6, C7). The census `floorNote` and `status` ("Contested - Evidentiary") match this.
+**Where the witnesses differ (for the scene):** Irenaeus and Eusebius's first kind: born of Joseph (E2, E6). Origen and Eusebius's second kind: two kinds, one confessing the virgin birth (E4, E6). Epiphanius: cannot say for the Nazoraeans (E8); for the Ebionites, born of a man (E9). Jerome: they believe as "we" do (E10). Augustine, later: the Nazaraeans confess Christ the Son of God, the Ebionites call him only a man (E12). Eusebius and Origen give one name to both kinds (C9); Epiphanius two names and two chapters (E11); Jerome both names in one letter (D6, C7). The census `floorNote` and `status` ("Contested - Evidentiary") match this.
 
 ## F. Their gospel
 
@@ -168,7 +170,7 @@ Who keeps them today: no held source; census `livingEvidence` says "Its carriers
 
 ## J. Where the sources disagree or come late
 
-- **Christ's birth and nature:** E1–E10 (above).
+- **Christ's birth and nature:** E1–E10 (above); Augustine, On Heresies 9–10, a third witness to the split, sets the two names apart on Christ (E12; late, about 428, credits Epiphanius by name; card).
 - **One group or two:** Origen and Eusebius one name, two kinds (E4, E6, C9); Epiphanius two heresies and two chapters (E11); Jerome both names (D6, C7); Augustine "Symmachians or Nazareans" (C8).
 - **Their gospel:** Irenaeus, Matthew only (B3); Eusebius, only the Gospel according to the Hebrews (F1); Epiphanius, Nazoraeans have Matthew complete in Hebrew (F2), Ebionites a gospel he quotes as altered (F3); Jerome, the Gospel according to the Hebrews, "as most maintain" Matthew's (F8).
 - **The name:** Origen from "poor" (C2, C3); Eusebius "poor" opinions (C4); Tertullian, Hippolytus, Epiphanius a founder Ebion (C5); Epiphanius, Nazoraeans from Nazareth (C6).
@@ -201,7 +203,7 @@ Who keeps them today: no held source; census `livingEvidence` says "Its carriers
 
 **Count.** 336 files match a name form; 297 match Ebion- forms. Most are late (medieval, Reformation and modern) uses of "Ebion" as a byword or Bible text (Acts 24.5 "the sect of the Nazarenes"). About 48 are patristic or editions of patristic texts.
 
-**Used.** ANF1 (Justin, Irenaeus), JusG, ANF3 (Tertullian), ANF4 (Origen), ANF5 (Hippolytus), ANF9 and OrMt (Origen on Matthew), HE and HEg (Eusebius, with Rufinus), Pan (Epiphanius 29–30), VI and PL23 (Jerome, Lives; Damasus's creed in Theodoret), JP (Jerome against the Pelagians), AugE and CSEL34 (Jerome's Letter 112), AugF (Augustine against Faustus), `npnf209` (Hilary, one line).
+**Used.** ANF1 (Justin, Irenaeus), JusG, ANF3 (Tertullian), ANF4 (Origen), ANF5 (Hippolytus), ANF9 and OrMt (Origen on Matthew), HE and HEg (Eusebius, with Rufinus), Pan (Epiphanius 29–30), VI and PL23 (Jerome, Lives; Damasus's creed in Theodoret), JP (Jerome against the Pelagians), AugE and CSEL34 (Jerome's Letter 112), AugF (Augustine against Faustus), `npnf209` (Hilary, one line), PL42 (Augustine, On Heresies 9–10, E12, card only; its OCR prints the Nazaraeans' heading as "Nazamzxi", which the name search missed; and the Latin of Against Faustus 19.17, 27450–27455).
 
 **Set aside, and why.**
 - **Aristo of Pella** (ANF8; Otto; Routh): the fragments do not name these groups; the bucket note says the tie "is not demonstrated by the fragments". The Greek scans are second-witness only.
@@ -216,4 +218,5 @@ Who keeps them today: no held source; census `livingEvidence` says "Its carriers
 - **Julius Africanus on the Lord's relatives at Nazareth and Kokaba** (HE 1.7.14): not called Ebionites or Nazoraeans in the held text; the tie is in Holl's apparatus (Pan 25057–25058), modern.
 - **Methodius, Symposium 8.10** (`anf06`): one line on Ebionites and the prophets; adds nothing the story can carry.
 - **Tertullian's Latin prints and John of Damascus's Heresies** (PG94): restate Epiphanius's and Tertullian's summaries; not needed.
+- **Pamphilus, Apology for Origen** (`origen_opera-omnia-t7-pamphilus-apologia-pg17-grc-lat_migne1857.txt` 42869; `pamphilus_apologia-pro-origene-rufinus-lat_lommatzsch1846.txt` 15371): quotes Origen on the Ebionites' "born of Joseph and Mary"; a second Origen witness, nothing new.
 - **Modern works in the Library** (McGiffert's notes in HE; Harnack, Duchesne, Hefele): used only to find texts. McGiffert's claims of his own (that the Ebionites "were not originally heretics", HE 18446; that Epiphanius "is the first to make two distinct heretical sects", HE 18489–18490; that "Ebion is a myth", HE 18547) stay out of the story and card.

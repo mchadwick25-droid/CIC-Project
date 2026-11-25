@@ -104,7 +104,7 @@ The story form (kind kit): open on the pupils going to their deaths around 200, 
 ## Connection to carry into the story
 
 - The teacher-pupil bond passed the instruction down a line of the city's own pupils: Origen to Heraclas, Heraclas to Dionysius, each taking the instruction and then the bishop's chair (E-en 36330-36339, 36552-36559, 37071-37080). The listener needs to see that the bishop who sat three days in the villages was himself a pupil of that classroom (E-en 36557-36559); say it in Beat 3, so the listener knows, when Beat 4 comes, that the bishop who sat three days with the villages had been a pupil in that classroom. Draw no link between the classroom's teaching and how he argued; no source makes it. Through action, not a "this matters because" line.
-- The villages had "teachers" of their own (E-en 41352-41353): Let the word stand; do not explain it further.
+- The villages had "teachers" of their own (E-en 41352-41353). Let the word stand; do not explain it further.
 
 ## Ending
 

@@ -182,6 +182,10 @@ Gwynn's note in the same line gives "337 and 344". Widely Accepted. Aphrahat as 
 - `school-of-nisibis_statuti...guidi1890.txt`: the later school (after 410). Out of window.
 - `maruta-of-maipherqat_de-sancta-nicaena-synodo...braun1898.txt`: Marutha's Nicaea texts. Belongs to the Persian church story.
 - Jerome, *Lives of Illustrious Men* 115 (`npnf203`): used on the live Ephrem page; adds nothing here.
+- `egeria_pilgrimage-of-etheria_mcclure-feltoe1919.txt` 3394-3440: an outside eyewitness at Edessa about 384, who saw the great new church of Thomas, monks at the shrines, and the bishop showing the Abgar story. Card (monks at Edessa, and the legend shown in the city by 384); not the story.
+- `anf09_gospel-of-peter-diatessaron-origen-commentaries.xml`: the harmony's text in its later Arabic transmission. The Tatian page.
+- `palladius_paradise-v1-syriac_budge1907.txt`: a later Syriac recension of Ephrem's life, with visions. The Ephrem page.
+- `npnf208_basil-letters-select-works.xml`: context only.
 - Not held: Ephrem's commentary on the Diatessaron; Jacob of Serug's homily on Ephrem; a readable Syriac text of Ephrem or Aphrahat.
 
 **Modern works list (for the card; each one line on what it covers).**

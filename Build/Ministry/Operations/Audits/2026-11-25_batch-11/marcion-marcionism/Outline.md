@@ -11,7 +11,7 @@ Lines are file lines in `cic/texts/`; abbreviations as in `Source_Sheet.md` (E-e
 - **What they believed:** Jesus came from "that father who is above the God that made the world", abolishing "the prophets and the law" (ANF1 33577-33582, Irenaeus); a good God who does not punish, the sinner only "cast away out of sight" (ANF3 24462-24464, Tertullian); for Apelles, salvation for "those who trusted in the Crucified", if found "doing good works" (E-en 29122-29123). What they fought over: one source of all things, or two, or three (E-en 28967-29105). All as their enemies report them. Documented as reported.
 - **How they practiced:** baptism only for the unmarried, widowed, celibate or divorced (ANF3 24533-24537; Kr 16349-16351); washing with water, anointing with oil, honey and milk for the newly baptized, bread for Christ's body (ANF3 23412-23419; Kr 15351-15355); refusal to deny under persecution (Kr 16287-16288); long prayer, by their own claim as Ephrem reports it (Ephr 1585, cut first); a Sabbath fast, in Epiphanius's report (Epi 7742-7748, card). Documented as Tertullian's, Ephrem's and Epiphanius's reports.
 - **What held them together:** Marcion's two books, one Gospel and ten letters of Paul, "the only ones he uses" (Epi 8274-8279); and faith in a good God, Father of Jesus, other than the maker of the world (ANF1 33577-33582). Documented.
-- **What came of them:** writer after writer answered them for three centuries, and the mainstream church sharpened its own name against them: Cyril told the newly baptized to ask in a strange city for "the Catholic Church", since Marcionists also called their meetings churches (Cyr 20348-20359). Their martyrs were kept in the record by the other side (Pion; E-en 23679-23681; E-gr 9662-9664, 24595-24599). Nothing in the held record descends from them. Documented.
+- **What came of them:** writer after writer answered them for three centuries, and the mainstream church drew its line against them: explaining the creed's 'one Holy Catholic Church', Cyril named the Marcionists first among the heretics whose meetings also went by the name of church, and told the newly baptized to ask in a strange city for "the Catholic Church" (Cyr 20348-20359). Their martyrs were kept in the record by the other side (Pion; E-en 23679-23681; E-gr 9662-9664, 24595-24599). Nothing in the held record descends from them. Documented.
 
 ## Length
 
@@ -43,9 +43,9 @@ The kind kit's one form, a story, in time order: Rome (the founding, short), Asi
 
 ## Sibling
 
-- **marcion-of-pontus** (live, told within this entry): Marcion's life, the gift returned, the two Gods, the Antitheses, his Gospel, Justin's and Tertullian's lines, Polycarp's meeting. Here the founding is a short essence only (B1), with none of its quotes and none of its scenes. Its paraphrase of Epiphanius's map ("from Rome and Italy through Egypt, Syria and Cyprus, and even in Persia") is not repeated: here "from Rome to Persia" stays in the essence only. Its "wasps make combs" line is not used.
-- **tertullian-s-voice** (live): Tertullian's life and his "By what right, Marcion" quote. Here Tertullian is a witness to Marcionite practice (B3), from Against Marcion I.14, I.27, I.29, which that story does not use.
-- **polycarp-of-smyrna**, **irenaeus-of-lyon**, **justin-martyr** (live): their Marcion lines stay theirs. Irenaeus here only for what Marcion taught (B1), as narrator's paraphrase.
+- **marcion-of-pontus** (live, told within this entry): Marcion's life, the gift returned, the two Gods, the Antitheses, his Gospel, Justin's and Tertullian's lines, Polycarp's meeting. Here the founding is a short essence only, with none of its quotes and none of its scenes. Its paraphrase of Epiphanius's map ("from Rome and Italy through Egypt, Syria and Cyprus, and even in Persia") is not repeated: here "from Rome to Persia" stays in the essence only. Its "wasps make combs" line is not used.
+- **tertullian-s-voice** (live): Tertullian's life and his "By what right, Marcion" quote. Here Tertullian is a witness to Marcionite practice (beat 2), from Against Marcion I.27 and I.29, which that story does not use; I.14 is on the card.
+- **polycarp-of-smyrna**, **irenaeus-of-lyon**, **justin-martyr** (live): their Marcion lines stay theirs. Irenaeus here only for what Marcion taught (the essence), as narrator's paraphrase.
 - **latin-apologists** (batch, outline read): Against Marcion is a cut-first clause there; its story is Tertullian's Apology. No shared quote.
 - **syriac-edessa-nisibis** (batch, outline read): Ephrem's answer to Marcion is a clause there and its Q3 quotes Ephr 1205. Here Ephrem is a clause (Ephr 1585), not quoted, and is first to cut.
 - **greek-apologists-second-century** (batch, outline read): Justin against Marcion, one clause there. Not used here.
@@ -181,7 +181,7 @@ What passed was a rival church with its own Scripture, and the mainstream church
 
 ## Cut first
 
-1. Ephrem's "praying the whole day" clause, beat 4 — card. (about 15 words)
+1. Ephrem's report of their claim to pray more than Daniel, beat 4 — card. (about 15 words)
 2. The anonymous writer's "multitude of martyrs", beat 2 — card. (about 20)
 3. The three opinions named (Syneros's three, the others' two), beat 1, keeping "divided" and Apelles — card. (about 20)
 4. The Marcionites who "crept into the Church" hiding their minds, beat 4 — card. (about 15)
