@@ -168,3 +168,19 @@ On the kit: 1. To do: 0.
 |---|---|---|---|
 | John Wesley (`john-wesley`) | person | 5 | yes |
 
+## On the kit, not in the census
+
+- `alexandria-catechetical` (batch 11)
+- `antiochene-church-third-century` (batch 11)
+- `apocryphal-and-pseudepigraphal-literature` (batch 11)
+- `ebionite-nazoraean-current` (batch 11)
+- `greek-apologists-second-century` (batch 11)
+- `latin-apologists` (batch 11)
+- `latin-pastoral-congregational-christianity` (batch 11)
+- `manichaeism` (batch 11)
+- `marcion-marcionism` (batch 11)
+- `montanism-the-new-prophecy` (batch 11)
+- `post-apostolic-house-church` (batch 11)
+- `roman-church-third-century` (batch 11)
+- `syriac-edessa-nisibis` (batch 11)
+
