@@ -70,3 +70,4 @@ Jobs, direct lines, siblings, the live stories beside each one, and quote bars: 
 - Syriac's craft pass cut the 410 one-bishop clause, which breaks the outline's Never cut line; the craft check rules on it (`syriac-edessa-nisibis/Craft_Check.md`).
 - Marcionism through fresh read (2026-11-25): one trust sentence failed (Chrysostom "drive out the plague"); exact fix applied; 660 words, grade 9.4. To Mark with the others.
 - Syriac through fresh read and checked craft pass (2026-11-25): all trust reads PASS; 410 one-bishop clause cut, Never cut line updated (`Craft_Check.md`); 654 words, grade 7.7. Card step started.
+- **For Mark (slate job):** Greek Apologists: the Marcion sentence (slate sibling clause; review B7) is cut, because Justin's reason needs the demons, a gloss and over 30 words (`greek-apologists-second-century/Craft_Check.md`, ruling b). Marcion now stays on the card. Shown to Mark with the brief.
