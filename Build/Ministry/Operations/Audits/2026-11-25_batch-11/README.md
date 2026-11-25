@@ -45,6 +45,7 @@ Jobs, direct lines, siblings, the live stories beside each one, and quote bars: 
 - Antioch's Length section keeps a stale second sentence; the "Approved heart and length" section governs.
 - For the release's rulings list: the heart wordings changed by checked fixes. Antioch: the essence's "refusing to confess" and "met again and again over him, until at last they put him out" (`Fixes_Review.md`). Roman Church: "a large, mixed church", "a writer of that time", "some gave way", and the three quarrels reordered (`Fixes_Review.md`, `Recheck_Review.md` PASS). Alexandria, Latin Apologists, House Church: as on the lengths page.
 - Reference read (Kit step 5, once per batch): the tradition kind kit names no reference stories of its kind, and `reference/` holds only person stories, so there is none to read for this kind. Said in the release.
+- **For Mark (length, collecting):** Manichaeism cannot reach 675 without cutting the heart (`manichaeism/Fixes_Length.md`): nine moves that cost no heart bring a telling to about 770; then Mani's own words (Q1, about 70) and the Bema (38) or the Hippo opening (77) would have to go, or the cap rise. Outline unchanged pending the ruling.
 - Before the pull request: bring `main` into this branch once #1806 has merged.
 
 ## Rulings
