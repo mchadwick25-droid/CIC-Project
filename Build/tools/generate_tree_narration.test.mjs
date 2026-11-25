@@ -331,14 +331,16 @@ test('synthesizeWithCost: sends output_format and returns the character-cost hea
   assert.equal(audio.length, 2);
 });
 
+const PAID = { voiceSettings: { stability: 0.95, similarity_boost: 0.68, style: 0, use_speaker_boost: true }, outputFormat: 'mp3_44100_64' };
+
 test('requirePaidSettings: refuses a missing voice or model, never reads the environment', () => {
   const saved = process.env.ELEVENLABS_VOICE_ID;
   process.env.ELEVENLABS_VOICE_ID = 'from-env';
   try {
-    assert.throws(() => requirePaidSettings({ voiceId: null, model: 'm' }), /--voice-id is required/);
-    assert.throws(() => requirePaidSettings({ voiceId: 'v', model: null }), /--model is required/);
-    assert.throws(() => requirePaidSettings({ voiceId: '--model', model: 'm' }), /--voice-id is required/);
-    requirePaidSettings({ voiceId: 'v', model: 'm' });
+    assert.throws(() => requirePaidSettings({ voiceId: null, model: 'm', ...PAID }), /--voice-id is required/);
+    assert.throws(() => requirePaidSettings({ voiceId: 'v', model: null, ...PAID }), /--model is required/);
+    assert.throws(() => requirePaidSettings({ voiceId: '--model', model: 'm', ...PAID }), /--voice-id is required/);
+    requirePaidSettings({ voiceId: 'v', model: 'm', ...PAID });
   } finally {
     if (saved === undefined) delete process.env.ELEVENLABS_VOICE_ID; else process.env.ELEVENLABS_VOICE_ID = saved;
   }
@@ -390,12 +392,13 @@ test('requirePaidSettings: a person run requires --person-voice-id, takes no --v
     assert.throws(() => requirePaidSettings({ people: true, personVoiceId: '--model', model: 'm', voiceSettings: vs, outputFormat: fmt }), /--person-voice-id is required/);
     assert.throws(() => requirePaidSettings({ people: true, personVoiceId: 'pv', model: null, voiceSettings: vs, outputFormat: fmt }), /--model is required/);
     assert.throws(() => requirePaidSettings({ people: true, personVoiceId: 'pv', voiceId: 'v', model: 'm', voiceSettings: vs, outputFormat: fmt }), /not --voice-id/);
-    assert.throws(() => requirePaidSettings({ people: false, personVoiceId: 'pv', voiceId: 'v', model: 'm' }), /needs --people/);
+    assert.throws(() => requirePaidSettings({ people: false, personVoiceId: 'pv', voiceId: 'v', model: 'm', voiceSettings: vs, outputFormat: fmt }), /needs --people/);
     assert.throws(() => requirePaidSettings({ people: true, personVoiceId: 'pv', model: 'm', outputFormat: fmt }), /--voice-settings is required/);
     assert.throws(() => requirePaidSettings({ people: true, personVoiceId: 'pv', model: 'm', voiceSettings: vs }), /--output-format is required/);
-    assert.throws(() => requirePaidSettings({ people: false, voiceId: 'v', model: 'm', outputFormat: fmt }), /need --people/);
-    assert.throws(() => requirePaidSettings({ people: false, voiceId: 'v', model: 'm', openTag: '[calmly]' }), /need --people/);
-    assert.throws(() => requirePaidSettings({ people: false, voiceId: 'v', model: 'm', voiceSettings: vs }), /--voice-settings needs --people/);
+    assert.throws(() => requirePaidSettings({ people: false, voiceId: 'v', model: 'm', voiceSettings: vs, outputFormat: fmt, openTag: '[calmly]' }), /need --people/);
+    assert.throws(() => requirePaidSettings({ people: false, voiceId: 'v', model: 'm', outputFormat: fmt }), /--voice-settings is required/);
+    assert.throws(() => requirePaidSettings({ people: false, voiceId: 'v', model: 'm', voiceSettings: vs }), /--output-format is required/);
+    requirePaidSettings({ people: false, voiceId: 'v', model: 'm', voiceSettings: vs, outputFormat: fmt });
     requirePaidSettings({ people: true, personVoiceId: 'pv', model: 'm', voiceSettings: vs, outputFormat: fmt });
   } finally {
     if (saved === undefined) delete process.env.ELEVENLABS_PERSON_VOICE_ID; else process.env.ELEVENLABS_PERSON_VOICE_ID = saved;
