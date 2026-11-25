@@ -6036,3 +6036,7 @@ Mark, on the second grade (`Build/Ministry/Operations/Audits/2026-11-25_batch-11
 ## Batch 11: third grade and the two small fixes (2026-11-25)
 
 Mark, on the third grade (`Build/Ministry/Operations/Audits/2026-11-25_batch-11/Grades3/Grades.md`, `Why_Held.md`): "only regrade those that were significantly worked on and needed to up the grade to pass", then, on the recommendation, "yes and finalize and let me see the test in the right panel". Syriac takes the seven words from the acts of 410 for what the envoy did; Roman Church takes Hippolytus's four words for what the writer lost; each through a fixer and an independent recheck. Antioch stays as it is at C (Lucian's reason is the record's limit; the clause is part of the heart). The finished texts go to Mark on a page. This batch only.
+
+## The audio introduction is a brief, not a story (2026-11-25)
+
+Mark, 2026-11-25: "for the initial audio introduction to anything should be called a brief, not a story (this is a change) we have stories that are stories and i don't want people confused". The opening audio text on any page (person, council, tradition) is called a **brief** everywhere: in conversation, review pages, release notes and prompts. "Story" is kept for the stories themselves (the documented stories, story repositories). The site already labels the player "Audio Brief". The kit and role files still say "story" for the brief in places (Kit.md has about 26 uses of the word, some of them meaning real stories); bringing their wording into line is open, to be done as a separate checked pass.
