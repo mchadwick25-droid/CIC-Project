@@ -6001,3 +6001,11 @@ This batch only.
 2. One recording: `montanism-the-new-prophecy`, voice `onwK4e9ZLuTAKqWW03F9`, model `eleven_multilingual_v2`, the council line's fixed format and delivery, `--char-cap 4000`. The file goes to Mark to hear before any other story is recorded.
 
 This batch only. Whether traditions keep the council line is for `Recording_Settings.md` once Mark has heard it.
+
+## 2026-11-25 — Batch 11: Montanism fixed and regraded before recording (Mark)
+
+**Why.** The new Montanism brief graded C (from F): rigor C on one Supporting bare statement (Justinian's order, no why), craft B on two blocking faults (no when in the opening; the elder's dare loses the thread). `montanism-the-new-prophecy/Grade/Grade.md`.
+
+**Decided (Mark, 2026-11-25): "so fix and regrade".** One checked craft pass on: the opening's when; the elder's sentence; what the Asian synods found "novel and profane" (from the sources); Justinian's reason only if Procopius gives one. Tertullian's reason and who razed Pepuza are left. Then the same four graders again, and a trust read of the changed sentences, before the recording.
+
+This batch only.
