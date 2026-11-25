@@ -6027,3 +6027,17 @@ This batch only.
 1. Batch 10 does not restart. Its held pull request #1796 (`claude/happy-ritchie-u8wn8l`) is not merged.
 2. Its eleven people other than John Chrysostom, already released as a reference, stay live as they are, modern-scholar sentences included, until a person rebuild runs through the current kit.
 3. Batch 11 finishes before batch 12 starts.
+
+## 2026-11-25 — The project order: what goes on now and what is held (Mark)
+
+**Why.** Mark asked for "a project order of priority, what can we do quickly to get off the list, what are the dependensies to move forward". The order went to him on one page, https://claude.ai/artifact/3fufJaZc8baiYWUCsP4Aid (version 2).
+
+**Decided (Mark, 2026-11-25).**
+1. Batch 11: "i will work ith the cft batch 11 thread." Mark works with the batch 11 session directly.
+2. The tradition card: "this timeline should be integrated into the current traditions cards, and maybe delete any other story elements. the card has the top, brief, biography, timeline, and other components on the menue as the new cards have." The timeline goes into the tradition card beside the brief and its bibliography, in the card's menu like the person cards. Which other story elements go is still open.
+3. Recording: "caps are approved should be less that 25000." Each recording run is capped under 25,000 credits. The tradition settings (Open-Gaps 411) still need Mark's words.
+4. Batch 12: "wait on batch 12 until we have 11 fully live and the other things done that we can do."
+5. Search: "launch the search if it is ready, or get it ready for launch."
+6. The source-research thread: "hold the source-search thread until we are done with the current projects."
+7. The tradition rebuild: "hold the tradition rebuild it is part of 4."
+8. The other content lines: "archive what is not going forward but don't loose the information, most of these are now integrated into the tradition work." They are held, with their records kept (Open-Gaps 422), and their finished sessions archived, not deleted.
