@@ -6055,3 +6055,7 @@ This batch only.
 6. Asked whether 57 lines was too much: "a". The timeline is grouped in periods, each with a date and a one-line headline, closed until opened, with a control to open them all. Where one witness carries a period, it is named once at the period's head; a line keeps its own note only where it differs.
 
 **How it is carried out.** The card step writes the timeline and the short description after the story, from the source sheet, the outline, the census entry and the card; the card checker checks each line and headline against its source. The kit and the card role change after batch 11 finishes. The site build is its own piece of work, after that. Whether the Documented stories section leaves the card once its events are in the timeline is still open.
+
+## 2026-11-25 — Church in Conversation on hold (Mark)
+
+**Decided (Mark, 2026-11-25).** "church in conversation is on hold." The Church in Conversation app is not promoted from `main` to `live` while it is on hold. The Church Family Tree, which is served from `main`, goes on.
