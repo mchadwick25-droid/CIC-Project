@@ -173,6 +173,7 @@ The story does not rest on one witness. Where the doubt is itself the story: non
 | "which Persia then ruled" for 216 | Biruni dates the birth under King Adharban, of the Ashkanians; Persia's King Ardashir ruled by Mani's thirteenth year (BIR 29094-29104) |
 | the 732 order told as a total ban | it forbade the teaching but let the western foreigners keep their own religion (B22, CHI 6877-6886) |
 | "he wrote his own scriptures" with nothing said of them | what they were, from B6, in a clause: "among them his gospel" (BIR 29061-29062, 29112-29115) |
+| "his gospel" named, not explained | Do not name Mani's gospel unless the story says what it was. (Fresh_Listen, 2026-11-25) |
 
 ## Leave out
 
