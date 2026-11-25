@@ -169,7 +169,7 @@ What passed was a rival church with its own Scripture, and the mainstream church
 - Marcion's own life: Sinope, the ship, the money, Polycarp, the Antitheses, the late offer to repent (the `marcion-of-pontus` story).
 - Philumene and Apelles' life at Alexandria (Rhodon's and Tertullian's charges about a prophetess and women): a side story, the sources differ. Card.
 - Rhodon's exchange with Apelles: Apelles swore he did not know how there is one God but believed it, and Rhodon laughed (E-en 29160-29199). Card.
-- Tertullian on their rites: water, oil, honey and milk for the newly baptized, bread for Christ's body (ANF3 23412-23419; Kr 15351-15355). Card.
+- Tertullian on their rites: the water they washed in, the oil they anointed with, honey and milk to feed them as infants, the bread for Christ's body (ANF3 23412-23419; Kr 15351-15355). Card.
 - Prepon the Assyrian and his book to Bardaisan (ANF5 12054-12060). Card.
 - Epiphanius on the Sabbath fast, rites before learners, women baptizing, three washings (Epi 7742-7753, 7893-7897). Card, in his voice.
 - Chrysostom's charge of baptism for the dead, a living man hidden under the bier (Chrys 24419-24429): an enemy's mockery, told for laughter by his own word. Card.

@@ -23,7 +23,7 @@ Applied from `Outline_Check.md` (verdict FIX: B1-B2, M1-M14) to `Outline.md`, an
 
 ## Worded by me
 
-- **B2, Source_Sheet row D1.** The check asks for the two spans to be added but gives no wording. Appended to the row's verbatim cell: `Also E 37413-37414: "On account of his hatred of Philip, he commenced a persecution of the churches"; of Philip, E 36995-36996: "It is reported that he, being a Christian, desired …"`. Checked in `cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml`: line 37413 "On account of his hatred of Philip, he" and line 37414 "commenced a persecution of the churches"; line 36995 "that he, being a Christian, desired", with "It is reported" at the end of line 36994.
+- **B2, Source_Sheet row D1.** The check asks for the two spans to be added but gives no wording. Appended to the row's verbatim cell: `Also E 37413-37414: "On account of his hatred of Philip, he commenced a persecution of the churches"; of Philip, E 36995-36996: "It is reported that he, being a Christian, desired …"`. Checked in `cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml`: line 37413 "On account of his hatred of Philip, he" and line 37414 "commenced a persecution of the churches"; line 36995 ends "It is reported" and line 36996 reads "that he, being a Christian, desired".
 
 ## Not applied
 
