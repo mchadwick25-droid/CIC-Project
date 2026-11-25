@@ -6041,3 +6041,21 @@ This batch only.
 6. The source-research thread: "hold the source-search thread until we are done with the current projects."
 7. The tradition rebuild: "hold the tradition rebuild it is part of 4."
 8. The other content lines: "archive what is not going forward but don't loose the information, most of these are now integrated into the tradition work." They are held, with their records kept (Open-Gaps 422), and their finished sessions archived, not deleted.
+
+## 2026-11-25 — The card design: one layout, and a timeline in periods (Mark)
+
+**Why.** A tradition's cut research went into card fields the site does not show (Open-Gaps 422 and batch 11's card checks). Mark: "the information should be valuable on the card, maybe an outline of the story that allows the user to explore deeper, but hidded unless opened". The pages: https://claude.ai/artifact/ReHBooaNkGyCymeyVYfbCK (version 5), https://claude.ai/artifact/B9gHdK1qzAogQLE5G9r2qD (version 2), and the sample timelines https://claude.ai/artifact/GFDDjSe5QND6ThwQWqsriD and https://claude.ai/artifact/LLmc55kyt3TqZvbQoa7nVB (version 1 each), built from batch 11's Roman Church research.
+
+**Decided (Mark, 2026-11-25).**
+1. "a but in timeline, not storytelling", then "it is all the components in a timeline, not a story, it is a map of the progress and events. we dont need to mark its in the story".
+2. "its developed after the story so it doesn't influence the story".
+3. "there should be a simple biblicography for the story and then each line in the timeline has the reference directly after the outline point".
+4. The layout: "the short descriptions (one/two sentence, the direct link chain and player on the screen then the brief text below closed (but can open) then the menu", with the brief open where there is no recording, the direct line one step each way, the short bibliography under the brief's text, and the short description written fresh and checked like the brief. Then "a": one layout for every card, tradition, person and council, each kind keeping its own menu sections.
+5. "using all the outline and traditions information to make a real timeline as it can (if dates are unknown we say that and just put it without a date in the progression where is naturally sits) and all references with the events".
+6. Asked whether 57 lines was too much: "a". The timeline is grouped in periods, each with a date and a one-line headline, closed until opened, with a control to open them all. Where one witness carries a period, it is named once at the period's head; a line keeps its own note only where it differs.
+
+**How it is carried out.** The card step writes the timeline and the short description after the story, from the source sheet, the outline, the census entry and the card; the card checker checks each line and headline against its source. The kit and the card role change after batch 11 finishes. The site build is its own piece of work, after that. Whether the Documented stories section leaves the card once its events are in the timeline is still open.
+
+## 2026-11-25 — Church in Conversation on hold (Mark)
+
+**Decided (Mark, 2026-11-25).** "church in conversation is on hold." The Church in Conversation app is not promoted from `main` to `live` while it is on hold. The Church Family Tree, which is served from `main`, goes on.
