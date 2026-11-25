@@ -17,6 +17,10 @@ Kind: tradition. Every line points to `Source_Sheet.md` (item numbers) and, thro
 
 About **4 minutes, about 620 words** (inside the kind's 450–675). Must carry first: three quotes (about 140 words); glosses for the Two Ways, running water, thanksgiving, elders, ministrae, clubs, superstition, the memoirs of the apostles, the Sun's day, the mines (about 70); credited witnesses: Pliny as a hostile outsider, the unknown manual, Rome's letter as the only side held, Hermas's vision, Eusebius for Dionysius and Irenaeus (about 45). About 255 words before narration; the opening, essence, seven beats and the ending carry the rest. The record is rich, so the length is set by the heart.
 
+## Approved heart and length
+
+Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommended"): the heart above, and **675 words** (the independent count in `Length_Count.md`, rounded up, capped at 675). Every Cut first item goes to the card or Leave out as it is marked. The independent count is 684 after Cut first, so this outline adds to its Cut first list to reach 675.
+
 ## Setting
 
 - Century: from near the end of the first century to near the end of the second. Spoken: "near the end of the first century" (Rome's letter, by Eusebius's and Irenaeus's placing in Clement's time: npnf201 16634–16636; anf01 39833–39836); "under the emperor Trajan" (Pliny, mirbt 2768); "under Antoninus Pius" (Justin, 1apol-grc 68–71); "when Soter was bishop of Rome" (npnf201 25082–25094); "near the end of the century" (Victor, npnf201 31003). No year numbers.

@@ -19,6 +19,10 @@ About 4 minutes 20 seconds: **about 650 words** at 150 a minute.
 
 The count the story must carry first: three quotes (Q1 about 65 words, Q2 about 45, Q3 about 30: about 140); the plain sense of each word to explain (Elect; Hearers; Light and Darkness; the baptizers; the Paraclete; the alms and the Light in food, from both sides; the Bema; the Hu; the Uyghurs; the refrain "forgive my sin": about 130); the witnesses it credits (the Fihrist as a Baghdad scholar of the 900s; Biruni for Mani's own book and for the death; the sources differing on Shapur and on the death; Augustine for the Bema and Faustus's exile; the Chinese texts for 732 and 843: about 70). About 340 words fixed, leaving about 310 for the opening scene, the essence, six beats and the ending. It needs the upper part of the range because the job holds three empires and two directions of spread, with persecution in each. Cut first brings it to about 470 (just over three minutes) if a shorter length is approved.
 
+## Approved heart and length
+
+Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommended"): the heart above, and **675 words** (the independent count in `Length_Count.md`, rounded up, capped at 675). Every Cut first item goes to the card or Leave out as it is marked. The independent count is 687 after Cut first, so this outline adds to its Cut first list to reach 675.
+
 ## Setting
 
 - **Century and years:** Mani born in Babylonia in 216 (A1; Widely Accepted). His first revelation "at twelve" (B2; A2). Under King Shapur (A4, B4), then King Bahram, under whom he died (B9, B10; the 270s is modern reckoning, so say "under King Bahram"). Egypt "by about 300" (B12; Alexander writes then). Roman laws: 372 and 399 (B13, B21). Hippo: August 392 (B17). China: 732, 768, 806, 843 (B22-B26). Biruni "about the year 1000" (BIR, title note; Widely Accepted).

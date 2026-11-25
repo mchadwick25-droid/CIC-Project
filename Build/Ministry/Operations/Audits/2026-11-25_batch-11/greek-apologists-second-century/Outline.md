@@ -17,6 +17,10 @@ Kind: tradition. Every line points to `Source_Sheet.md` and, through it, to `cic
 
 About **4 minutes, about 600 words** (inside the kind's 450–675). Must carry first: three quotes (about 105 words); glosses for apology, atheism, the two rumours, informers and decrees, gladiator shows, Trinity (about 65); credited witnesses: Eusebius for Quadratus and Melito, the two headings of Aristides, the unknown writer to Diognetus (about 45). About 215 words before any narration; six beats, the opening and the close carry the rest. The record is rich, so the length is set by the heart, not by thin sources.
 
+## Approved heart and length
+
+Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommended"): the heart above, and **505 words** (the independent count in `Length_Count.md`, rounded up, capped at 675). Every Cut first item goes to the card or Leave out as it is marked. The outline check tests the roll-call risk: each beat carries people acting.
+
 ## Setting
 
 - Century: the second century. Spoken: "in the reign of Hadrian", "at Rome, under Antoninus Pius", "under Marcus Aurelius". No year numbers for Quadratus or Justin (Source Sheet §6).

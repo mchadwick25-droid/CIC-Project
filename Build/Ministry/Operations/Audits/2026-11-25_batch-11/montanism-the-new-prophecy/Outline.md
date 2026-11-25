@@ -17,6 +17,10 @@ Lines are file lines in `cic/texts/`; file abbreviations and the full passages a
 
 **About 4¼ minutes, 640 words.** Must carry: three quotes (about 92 words); seven glosses (New Prophecy, Paraclete, ecstasy, barred from communion, letter of peace, rule of faith, Stations and dry food: about 75); credited witnesses (the anonymous writer copied by Eusebius, said once early; Apollonius; the bishop's signature in Serapion's letter; Tertullian; Epiphanius with his date; the fifth-century historian; Procopius: about 85); the uncertainty of the start and of which prophetess saw the vision (about 20). About 270 words fixed; the opening scene and seven beats carry the rest at about 50 words each. Tradition range 450-675.
 
+## Approved heart and length
+
+Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommended"): the heart above, and **500 words** (the independent count in `Length_Count.md`, rounded up, capped at 675). Every Cut first item goes to the card or Leave out as it is marked.
+
 ## Setting
 
 - **Time:** "in the second century" for the start (Contested: HE 29591-29592; PanH 17019; HE 30456-30458). "By the 170s" for word reaching Gaul (HE 26706-26707, 27655-27680). "Around 200" and "in the early third century" for Tertullian. "About 375" for Epiphanius (PanH 17224-17226: the twelfth year of Valentinian and Valens). "In the fifth century" for Sozomen; "in the sixth century, under Justinian" for the end.

@@ -17,6 +17,10 @@ Lines are file lines in `cic/texts/`; abbreviations as in `Source_Sheet.md` (E-e
 
 **About 4 minutes, 600 words.** Must carry: three quotes (about 80 words); eight glosses (presbyter, Marcion's two books, the two Gods, the incense test, honey and milk, the Catholic Church, the edict, Cyrrhus: about 75); credited witnesses and their hedges (the Acts of Pionius, Irenaeus, Rhodon, Tertullian, Eusebius twice with "supposed to be" and "as he thought", Cyril, Theodoret: about 70). About 225 words fixed; seven scenes carry the rest. The beats as planned come to about 650; the first three Cut first items bring it to 600. Tradition range 450-675.
 
+## Approved heart and length
+
+Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommended"): the heart above, and **495 words** (the independent count in `Length_Count.md`, rounded up, capped at 675). Every Cut first item goes to the card or Leave out as it is marked.
+
 ## Setting
 
 - **Time:** the founding "in the middle of the second century" (from Justin and Irenaeus writing in and just after Marcion's life; no year held: ANF1 33572). Rhodon "at this time" in Eusebius's Book V, after 177 (E-en 28896-28897, 26707): "late in the second century". Tertullian about 207 (ANF3 898-901, Widely Accepted). Smyrna, March 250, under Decius (Pion 5655-5658; Widely Accepted for the year). Caesarea under Valerian (E-en 40459). Caesarea in the persecution that began "in the nineteenth year of the reign of Diocletian" (E-en 45893). Constantine's edict, no date in the text (E-en 66068-66150). Cyril and Ephrem: the fourth century (Widely Accepted). Theodoret: after twenty-five years as bishop (Thdt 31501), the fifth century (Widely Accepted).

@@ -19,6 +19,10 @@ About 4 minutes 30 seconds: **about 675 words** at 150 a minute.
 
 The count the story must carry first: three quotes (about 130 words); the plain sense of each word to explain (confessor; the fallen; penance and peace; Novatian's second bishop; Stephen's rule and Cyprian's; the Roman rites; the rival church's charge and its second baptism; the Manichaeans; the Gladness feast; first teaching; reconciliation; the Vandals: about 150); the witnesses it credits (Pontius for the plague; Possidius for Hippo's split and the siege; Augustine once for the rival church in the opening: about 35). About 315 words fixed, leaving about 360 for the opening's scene, the essence, six beats and the ending. It needs the top of the range because the job holds two towns and two bishops across 180 years, with a split between them. Cut first brings it to about 455 (three minutes).
 
+## Approved heart and length
+
+Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommended"): the heart above, and **650 words** (the independent count in `Length_Count.md`, rounded up, capped at 675). Every Cut first item goes to the card or Leave out as it is marked.
+
 ## Setting
 
 - **Century and years:** "in 250", under an emperor's order to sacrifice (S4; Decius may be named, Widely Accepted). The plague: "a few years later" (P1; its year is modern reckoning). Cyprian's death: 14 September 258 (D5). The split at Carthage: "soon after the great persecution ended", or "early in the 300s" (R1; 311 or 312 Contested). Augustine made priest: "in the 390s" (H1; the year 391 is modern reckoning, so not told). The siege of Hippo and his death: 430 (V7).

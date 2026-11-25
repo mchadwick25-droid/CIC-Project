@@ -18,6 +18,10 @@ Lines are file lines in `cic/texts/`; file abbreviations as in `Source_Sheet.md`
 
 **About 4 minutes, 600 words.** Must carry: three quotes (92 words), seven glosses (apology, Serapis, pleader, rhetoric, New Prophecy, Marcion's two gods, Nicomedia: about 60), credited witnesses (Minucius as teller, Jerome for Arnobius with his gap, Jerome for the pupil link, Lactantius's judgments: about 45), the uncertainty of the Octavius's date (about 15). About 210 words fixed; four scenes and two turns carry the rest. Tradition range 450-675.
 
+## Approved heart and length
+
+Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommended"): the heart above, and **515 words** (the independent count in `Length_Count.md`, rounded up, capped at 675). Every Cut first item goes to the card or Leave out as it is marked. The job drops "a language with no words for it yet".
+
 ## Setting
 
 - **Time:** around 200 (Tertullian, NPNF2-3 40498-40499); "in Diocletian's reign" for Arnobius and Lactantius (NPNF2-3 41022-41025, 41033-41035); the destruction of churches (ANF7 4487). No year for the Apology (ANF3 1443-1446) or the Octavius.

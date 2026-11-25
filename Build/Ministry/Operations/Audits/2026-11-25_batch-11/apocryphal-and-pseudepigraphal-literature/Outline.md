@@ -17,6 +17,10 @@ Kind: tradition (`kinds/tradition.md`). Census id `apocryphal-and-pseudepigrapha
 
 **500 words, about 3 minutes 20 seconds** (kit range 450–675). Count the story must carry: three quotes, 97 words; glosses (presbyter, heresy, "handed down", Eusebius's two kinds of rejected book, what Thecla's book told), about 70; witnesses credited (Eusebius keeps Serapion's letter; Tertullian argues against the book; Origen reports "some say"; Egeria's own account; the book's own voice for its wonders), about 45. Beats as planned run to about 520; the Cut first list brings it to 500, and further to 450 if Mark sets the floor.
 
+## Approved heart and length
+
+Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommended"): the heart above, and **510 words** (the independent count in `Length_Count.md`, rounded up, capped at 675). Every Cut first item goes to the card or Leave out as it is marked.
+
 ## Setting
 
 - **Century and place:** "about the year 200" for Serapion and Tertullian (A1, A2, A4; Widely Accepted). Rhossus, "a town on the coast of Syria, near Antioch" (A3). Carthage, "in Roman Africa" (A4). Seleucia, "on the south coast of today's Turkey" (A5).

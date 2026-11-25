@@ -17,6 +17,10 @@ Kind: tradition (`kinds/tradition.md`). Census id `ebionite-nazoraean-current`; 
 
 **600 words, 4 minutes** (kit range 450–675; the record is many hostile witnesses, each brief). Count the story must carry: three quotes, 109 words (Q1 24, Q2 48, Q3 37); glosses, about 75 (the Law of Moses, Gentile, the Christ, apostate, "Ebionites" as "poor", "Nazoraeans" from Nazareth, Origen's columns, the Gospel according to the Hebrews, James's oath, "those who sleep", the Pharisees); witnesses credited, about 70 (one early line that all we know comes from their opponents; Justin; Irenaeus; Origen; Epiphanius's "he says" for the curse, the descent and the places; Jerome twice; Augustine). Must-carry total about 255. The beats as planned run to about 700; the Cut first list brings them to 600, and further to 525 or 450 if Mark sets a shorter length.
 
+## Approved heart and length
+
+Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommended"): the heart above, and **660 words** (the independent count in `Length_Count.md`, rounded up, capped at 675). Every Cut first item goes to the card or Leave out as it is marked. The outline check tests the roll-call risk: each beat carries people acting.
+
 ## Setting
 
 - **Century and place:** mid-second century for Justin (A2; Eusebius alone places the dialogue at Ephesus, A1: leave the place out); "about 180" for Irenaeus (A3); Origen "in his last years" (A4: over sixty); Eusebius "under Constantine" (A5); Epiphanius "about 375" (A6); Jerome 392 and 404 (A7, A8). Spoken places: "Palestine and Syria"; "Beroea, in Syria" (A11); "Pella, a town beyond the Jordan" (H1); "Kokaba" (A9). Lyon "in Gaul", Cyprus, Alexandria, Africa as clauses for the witnesses.

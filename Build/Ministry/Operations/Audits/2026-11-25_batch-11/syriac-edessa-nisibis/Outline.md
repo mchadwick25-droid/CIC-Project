@@ -15,6 +15,10 @@ Kind: tradition (`Brief-Kit/kinds/tradition.md`). Every line points to `Source_S
 
 **Length:** about four minutes, **about 600 words** (proposed; for Mark on the hearts page). The count the story must carry: three quotes, 80 words; plain senses for the covenant, the harmony, the hymn's refrain, the bow, the Magi and the synod, about 70 words; the rivals' three teachings as Ephrem gives them, about 40 words; credited witnesses (the chronicle copied about 340 years later; Theodoret a century later; the Greek historian Sozomen), about 40 words. Six beats, an opening and an ending carry the rest, about 370 words. The **Cut first** list below brings it to about 480 words (three and a quarter minutes) if Mark sets three minutes.
 
+## Approved heart and length
+
+Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommended"): the heart above, and **540 words** (the independent count in `Length_Count.md`, rounded up, capped at 675). Every Cut first item goes to the card or Leave out as it is marked.
+
 ## Setting
 
 - **Century and place:** about 200 to 410; Edessa (Roman) and Nisibis (Roman frontier fortress until 363, then Persian), on the frontier of Rome and Persia (S1, S2, S3). Plainest words: "Edessa", "Nisibis", "the Roman and Persian empires".

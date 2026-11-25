@@ -5930,3 +5930,16 @@ Mark: "option 1", on the page https://claude.ai/artifact/UStZATEaBtT445YAKgNEi6 
 6. Every story kept, with the job split the slate gives; Marcionism opens after the break with Rome.
 
 All of it is this batch only.
+
+## 2026-11-25 — Batch 11: hearts and lengths approved (Mark)
+
+**Why.** Kit Part 3, step 1. The thirteen hearts, their confidence and an independent length count went to Mark on one page, https://claude.ai/artifact/DaEJUTfxzvZEfwhyyFKzCU (version 1); the count is `Build/Ministry/Operations/Audits/2026-11-25_batch-11/Length_Count.md`.
+
+**Decided (Mark, 2026-11-25): "Approve as recommended".**
+1. The thirteen hearts as each `Outline.md` holds them. Latin Apologists' job drops "a language with no words for it yet".
+2. Each length is its independent count, rounded up to the next 5 words and capped at 675: Alexandria 445, Syriac 540, Antioch 535, Roman Church 625, Apocryphal 510, Ebionites 660, Greek Apologists 505, Latin Apologists 515, Latin Pastoral 650, Manichaeism 675, Marcionism 495, Montanism 500, House Church 675. Every Cut first item goes to the card or Leave out as it is marked; Manichaeism and the House Church add to their Cut first lists to reach 675.
+3. The Roman Church ends at 251, with the confessors' return.
+4. Kept: Theodoret's Marcionite villages in Marcionism; Pliny's dawn hymn and Justin's Sunday in the House Church.
+5. The roll-call risk in Greek Apologists and Ebionites is a test for the outline check.
+
+All of it is this batch only.

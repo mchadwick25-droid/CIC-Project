@@ -21,6 +21,10 @@ About 4 minutes 25 seconds: **about 660 words** at 150 a minute.
 
 The count the story must carry first: three quotes (about 95 words); the plain sense of each word to explain (confessor; cut off from communion; Theodotus's and Sabellius's teachings; Callistus's rule on forgiveness and the "school"; the marriage rule and Hippolytus's charge against it; the fallen; the lesser clergy; the second bishop: about 165); the witnesses it credits (Hippolytus once, early; the anonymous writer of Natalius's story; Eusebius for the dove; the Liberian list; Cyprian; Cornelius: about 75). About 335 words fixed, leaving about 325 for seven beats, the opening and the ending. It needs the top of the range because the job holds three quarrels and a split, and each thing named needs its plain sense. Cut first brings it to about 470 (three minutes ten).
 
+## Approved heart and length
+
+Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommended"): the heart above, and **625 words** (the independent count in `Length_Count.md`, rounded up, capped at 675). Every Cut first item goes to the card or Leave out as it is marked. The story ends at 251, with the confessors' return.
+
 ## Setting
 
 - **Century and years:** Zephyrinus became bishop about the ninth year of Severus (S1): say "around 200". Zephyrinus's death and Callistus's accession: say "when Zephyrinus died" or "around 217" (S2, S3, X8). Exile of Rome's bishop and Hippolytus: 235 (P1). Fabian died under Decius, 250 (D1). Cornelius and the split: 251 (N1, N4, N11).

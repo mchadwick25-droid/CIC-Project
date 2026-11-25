@@ -19,6 +19,10 @@ About 4 minutes 25 seconds: **about 660 words** at 150 a minute.
 
 The count the story must carry first, before narrative: three quotes (about 105 words), the plain sense of each word to explain (synod, presbyter, the singers' charge, excommunication, letters of communion, the emperor's ruling, Lucianist: about 85), and the witnesses it credits (the bishops' letter as an enemy's document, once; Eusebius; the bishop of Alexandria's charge; Chrysostom; Philostorgius: about 70). About 260 words fixed, leaving about 400 for the six beats, the opening and the ending. That needs more than the kit's three-minute aim, because the story carries three separate sources of force: the long fight, the emperor's ruling, and Lucian and his pupils. It stays inside four and a half minutes.
 
+## Approved heart and length
+
+Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommended"): the heart above, and **535 words** (the independent count in `Length_Count.md`, rounded up, capped at 675). Every Cut first item goes to the card or Leave out as it is marked.
+
 ## Setting
 
 - **Century and years:** Paul became bishop when Demetrianus died, about the time Dionysius became bishop of Rome (S1); Jerome's Chronicle puts it in Gallienus's seventh year (S2). Say "around 260". The last synod is given no year (D1). Lucian died under Maximinus (L1); say "in the last persecution, under the emperor Maximinus".

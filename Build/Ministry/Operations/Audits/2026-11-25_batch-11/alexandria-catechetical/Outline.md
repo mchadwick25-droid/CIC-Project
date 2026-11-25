@@ -19,6 +19,10 @@ About 3 minutes 45 seconds: **about 565 words** at 150 a minute.
 
 Count of what must be carried: three quotes about 95 words (Herais 25, Clement 57, Dionysius 14); glosses about 60 words (catechumen, Stoics, the deeper sense, Nepos's thousand-year kingdom, Refutation of Allegorists, presbyters as elders, the philosopher's cloak); credited witnesses about 40 words (Eusebius once early, Origen as source for Herais, Clement, Origen on reading, Nepos only through his opponents, Dionysius's own account). The beats around them carry the rest: hook 75, essence 50, Beat 1 110, Beat 2 110, Beat 3 55, Beat 4 115, ending 45 (these include the quotes and glosses above). Within the kind kit's range (450 to 675).
 
+## Approved heart and length
+
+Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommended"): the heart above, and **445 words** (the independent count in `Length_Count.md`, rounded up, capped at 675). Every Cut first item goes to the card or Leave out as it is marked.
+
 ## Setting
 
 - **Time:** late second century to the mid-third: "the first year of Commodus" for Pantaenus (E-en 28467-28476, 28488), about 180; "the tenth year of the reign of Severus", about 202 (E-en 32523-32533); Origen leaves about 231 (E-en 36330-36332); Dionysius bishop from about 247/8 (E-en 37071-37080). Spoken: "about 180", "around 200", "in the middle of the next century".
