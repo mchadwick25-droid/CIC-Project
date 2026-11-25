@@ -176,6 +176,7 @@ What passed was a rival church with its own Scripture, and the mainstream church
 - "Marcion's two first sources were a good God and an evil God" → Rhodon gives "two principles" only (E-en 29073-29085); the two Gods are Irenaeus's, a good Father "above the God that made the world" (ANF1 33577-33582). McGiffert's note 1543 (begins E-en 29002, runs to 29029: the maker "an angel", "Satan") are a modern editor's claims: leave out.
 - "the law and the prophets, which Jesus set aside" → "abolishing the prophets and the law" (ANF1 33581).
 - "burned in his own city" with Asclepius as the nearest "he" → "burned at Caesarea, Eusebius's own city".
+- "Chrysostom urged the bishop to drive out Marcion's followers" → he charged the bishop to "drive out the plague" that some men there were "infected with" (Thdt 17542-17545). The object is the teaching, not the people.
 
 ## Leave out
 

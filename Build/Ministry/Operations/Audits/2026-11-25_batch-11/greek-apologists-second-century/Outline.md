@@ -145,6 +145,7 @@ What passed on, in the held record: their books, which Eusebius kept and quoted,
 - 'to watch a killing is the same as killing' → 'close to killing' (πλησίον).
 - 'first of all', 'before anyone else', 'more readily than anyone else' for the taxes → 'they took care to pay their taxes, as Christ had taught them' (πρὸ πάντων may mean 'above all' or 'before all others'; the text does not settle it; 1apol-grc 506–508).
 - no unexplained opponents for Tertullian: 'he drew on earlier Christian writers, and named Justin first'.
+- 'He said he drew on earlier Christian writers, and named Justin first' straight after 'the same task' → it implies he drew on Justin for his defence; Tertullian names Justin as a guide against heresy (*Against the Valentinians* 5): say so.
 - "a circle", "a group", "a movement" for the apologists → "a number of Christians who wrote" (no old source links them).
 - "secret meals" → "at their feasts" (athen-grc 179–180, δεῖπνα).
 - "were troubling the Christians" → "were trying to trouble" (Eusebius: "had attempted").
