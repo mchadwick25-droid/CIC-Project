@@ -77,7 +77,27 @@ Mark: "a, and yes to the scans and guess as F".
 
 ## Result
 
-See `Grades.csv` and the page for Mark. TRUST_RESULT
+See `Grades.csv` and the page for Mark (https://claude.ai/artifact/4ptqjtgCssAcH7ePVFGa8G).
+
+| Overall | Action | Briefs |
+|---|---|---|
+| F | must be redone | 263 |
+| D | should be redone | 11 |
+| C | would benefit | 53 |
+| B | OK to keep | 26 |
+| A | great as is | 0 |
+
+- Rigor: F 56, D 25, C 100, B 172.
+- Craft: F 243, D 10, C 46, B 51, A 3.
+- The listener called 248 of the 353 a summary rather than a story, and would leave 76. Most of the F grades come from the summary rule: 303 briefs are under about 300 words.
+
+**The trust read.** Only one brief would otherwise grade A or B on rigor and A on craft: athonite-and-comnenian-byzantine-monasticism (`trust/`). Its 11 sentences:
+- SUMMARY HOLDS: 5.
+- SOFTENED OR CHANGED: 3.
+- ASSUMPTION ADDED: 2.
+- NOT FOUND: 1.
+
+The reader also judged its heart missing: nothing Comnenian and no ordinary monks, in 152 words. It does not earn an A. The brief's rules give no lower grade for a failed trust read, so its rigor stays at the scans' B and the failure is written into its basis. It is graded B, OK to keep, on rules that never checked its sentences. That is left for Mark.
 
 ## Files
 

@@ -5989,7 +5989,7 @@
   "status": "Pre-Survey Candidate",
   "words": 152,
   "rigor": "B",
-  "rigor_basis": "no fault found by the scans [0 bare (3:0 2:0), 0 modern (0 guess); scan: 11-23 rank]",
+  "rigor_basis": "no fault found by the scans; trust read found 6 sentence(s) that do not hold [0 bare (3:0 2:0), 0 modern (0 guess); scan: 11-23 rank]",
   "craft": "A",
   "craft_counts": "0 blocking: 0 test lines, 0 opening, 0 bare, 0 tells, 0 thread",
   "listen_to_end": "yes",
@@ -5997,7 +5997,7 @@
   "drift": "\"Each ran on a written charter, called a typikon.\" | the story pauses for how the houses were run",
   "overall": "B",
   "action": "OK to keep",
-  "reason": "rigor B: no fault found by the scans; craft A: 0 blocking",
+  "reason": "rigor B: no fault found by the scans; trust read found 6 sentence(s) that do not hold; craft A: 0 blocking",
   "blocking": 0
  }
 ]
