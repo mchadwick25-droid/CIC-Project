@@ -16,7 +16,7 @@ Lines are file lines in `cic/texts/`; file abbreviations as in `Source_Sheet.md`
 
 ## Length
 
-**Planned 600; approved 515; after Cut first, about 465 to 490.** Must carry: three quotes (92 words), seven glosses (apology, Serapis, pleader, rhetoric, New Prophecy, Marcion's two gods, Nicomedia: about 60), credited witnesses (Minucius as teller, Jerome for Arnobius with his gap, Jerome for the pupil link, Lactantius's judgments: about 45), the uncertainty of the Octavius's date (about 15). About 210 words fixed; four scenes and two turns carry the rest. Tradition range 450-675.
+**Planned 600; approved 515; after Cut first, about 465 to 490.** Must carry: three quotes (92 words), eight glosses (apology, Serapis, pleader, rhetoric, New Prophecy, Marcion's two gods, Nicomedia, Diocletian's persecution: about 60, the last counted below), credited witnesses (Minucius as teller, Jerome for Arnobius with his gap, Jerome for the pupil link, Lactantius's judgments: about 45), Diocletian's persecution in one line (about 28), Jerome's letter to Magnus in one line (about 21). About 245 words fixed; four scenes and two turns carry the rest. Tradition range 450-675.
 
 ## Approved heart and length
 
@@ -33,12 +33,13 @@ Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommend
 ## Words to explain
 
 - **apology / Apologist:** a defense speech for the accused, addressed to judges (ANF3 1448-1453).
-- **Serapis:** a god whose image stood by the road to the sea; Octavius calls such images carved stones, "anointed and crowned" (ANF4 17256-17271).
+- **Serapis:** a god whose image Caecilius saw as the three walked along the shore toward the sea (MinLat 220-223; ANF4 17252-17256); Octavius calls such images carved stones, "anointed and crowned" (ANF4 17256-17271).
 - **pleader:** a lawyer who argues cases in court (ANF7 4470: "pleaders"; LactLat 22702 "causidicos").
 - **rhetoric:** the art of public speaking, taught to young men (JerChron 45066-45068; NPNF2-3 41022-41023).
 - **the New Prophecy:** a movement whose followers held that the Paraclete, the Holy Spirit, was now giving a stricter rule; writing for it, Tertullian judged a second marriage unlawful and fasted more often than others (ANF4 5769-5773, 6895-6905; own words; Documented).
 - **Marcion:** a teacher who brought in two Gods, the Creator and a higher one of his own (ANF3 22609-22612).
 - **Nicomedia:** a Greek city in Bithynia, where Lactantius was called to teach in Diocletian's reign (NPNF2-3 41033-41038; ANF7 4487).
+- **Diocletian's persecution:** say it where the story first names it: "Diocletian was the emperor. Lactantius says his officers burned the Scriptures and levelled the church at Nicomedia, and next day an order made every Christian open to torture." (ANF7 10079, 10161, 10174, On the Deaths of the Persecutors 7, 12-13: Lactantius, own words, contemporary, at Nicomedia; Documented. Eusebius, contemporary, says the edicts ran everywhere, ordering the churches levelled and the Scriptures burned: NPNF2-1 43486-43491; Documented.) Keep it apart from the ANF7 4487 sentence, which stays without a cause. Arnobius's burned writings and torn-down meeting places (ANF6 48676-48678) sit beside it by time only: their tie to Diocletian rests on Jerome's dating (NPNF2-3 41022-41025), which his Chronicle contradicts (JerChron 45066); Inferential-Thin as a cause, so never say the edicts caused them.
 
 ## Shape
 
@@ -59,15 +60,15 @@ A story in four places, in time order where the record allows: Ostia (undated), 
 ## Story beats
 
 1. **The pagan's case on the breakwater.** Caecilius argues that Christians are gathered from the dregs, the unlearned and credulous women; that they meet at night; that a novice is made to kill an infant hidden in meal; that their feasts end in incest when a dog tied to the lamp puts out the light; that they worship a donkey's head and a crucified criminal; that they have no temples, altars or images. Minucius, who wrote it, gives the pagan the full case. *Reason:* he holds the old religion is ancient and useful (ANF4 17558-17563). *Explain:* Caecilius gives them as common report and cites the orator Fronto's speech for the feast (ANF4 17628-17632, 17653-17659); Octavius calls them fables never inquired into or proved (ANF4 18829-18832). ANF4 17582-17690; MinLat 822-828, 894, 914, 947. Documented (as a charge). Q1.
-2. **Octavius answers, and Caecilius yields.** They had once believed the same things: as lawyers they defended the worst criminals but would not hear Christians, and tortured them to make them deny. Christians, he says, keep one marriage, eat sober meals, and love one another because they do not know how to hate. No temple can hold God; the offering he wants is a good mind. He beats the objectors with the philosophers' own weapons. Caecilius says Octavius has conquered him, and he has conquered his error; the rest can wait till morning, for the sun is setting. They part glad. Minucius wrote it after Octavius had died, and no one knows whether before Tertullian or after. ANF4 17195-17221, 18824-18848, 19018-19044, 19058-19076, 19475-19526; MinLat 4396-4397, 4410-4425, 4464-4466. Documented; date Contested.
-3. **Tertullian at Carthage (short turn).** Around 200 he wrote his Apology to the governors who judged Christians. He met the same charges, and said the torturer was made to force denial, not confession. He set out what Christians did: prayed for the emperors, gave a free monthly gift to bury the poor and keep orphans, the old, the shipwrecked and prisoners; and that very love, he says, marked them out in pagan eyes: 'See, they say, how they love one another' (ANF3 3907-3913). Later, driven, Jerome says, by the envy and insults of the Roman clergy, he went over to the New Prophecy (NPNF2-3 40506-40508; motive Contested, in Jerome's voice), and he wrote against Marcion. ANF3 1946-1958, 3868-3913; NPNF2-3 40493-40513; ANF3 22609-22612. Documented; motive for his turn Contested (Montanism's job).
+2. **Octavius answers, and Caecilius yields.** They had once believed the same things: as lawyers they defended the worst criminals but would not hear Christians, and tortured them to make them deny. Christians, he says, keep one marriage, eat sober meals, and love one another because they do not know how to hate. No temple can hold God; the offering he wants is a good mind. He beats the objectors with the philosophers' own weapons. Caecilius says Octavius has conquered him, and he has conquered his error; the rest can wait till morning, for the sun is setting. They part glad. Minucius wrote it after Octavius had died (ANF4 17203). ANF4 17195-17221, 18824-18848, 19018-19044, 19058-19076, 19475-19526; MinLat 4396-4397, 4410-4425, 4464-4466. Documented; date Contested.
+3. **Tertullian at Carthage (short turn).** Around 200 he wrote his Apology to the governors who judged Christians. He met the same charges, and said the torturer's task was turned around, to make Christians deny what they were. He set out what Christians did: prayed for the emperors, gave a free monthly gift to bury the poor and keep orphans, the old, the shipwrecked and prisoners; and that very love, he says, marked them out in pagan eyes: 'See, they say, how they love one another' (ANF3 3907-3913). Later, driven, Jerome says, by the envy and insults of the Roman clergy, he went over to the New Prophecy (NPNF2-3 40506-40508; motive Contested, in Jerome's voice), and he wrote against Marcion. ANF3 1946-1958, 3868-3913; NPNF2-3 40493-40513; ANF3 22609-22612. Documented; motive for his turn Contested (Montanism's job).
 4. **The convert at Sicca.** In Diocletian's reign Arnobius taught rhetoric at Sicca. Jerome, writing about eighty years later, says dreams drove him, still a pagan, toward belief, and the bishop would not take him in. Q2. His books answer the claim that the world had gone to ruin since Christians came. He owns his own past: Q3. He asks why the Christians' writings are burned and their meeting-places torn down, where prayer is made for magistrates, armies, kings, friends and enemies. JerChron 45066-45076 (Monc3 21713-21718); NPNF2-3 41022-41025; ANF6 39480-39515, 40657-40670, 48676-48705. Documented that Jerome says it; story rests on Jerome alone; date Contested (Chronicle vs Lives).
 5. **Lactantius at Nicomedia (short turn).** Arnobius's pupil, Jerome says, was called to teach rhetoric in Nicomedia, a Greek city, found few pupils and turned to writing. He was teaching there when, he says, the church was thrown down. In his seven books he looked back on those before him: the learned would not believe the Scriptures because the prophets spoke plainly, and truth, he wrote, lacked fit heralds; Tertullian's Apology, he granted, had pleaded the same cause in full; but answering accusers was one thing, and teaching the whole faith another, and that second task was the one he took on. NPNF2-3 41033-41038; ANF7 4456, 4487, 4565-4571; LactLat 22697-22699, 23225ff. Documented.
 
 ## What came of it (heaviest first)
 
 1. Lactantius named Minucius and Tertullian, cited the Octavius by title (correcting it), and judged that the learned defenders before him had not been enough; Tertullian had answered accusers, and he set out to teach the whole faith (ANF7 890, 4456-4470, 4565-4571). *Defended:* the faith taught whole to the learned in their own terms.
-2. Jerome, in a letter to Magnus (dated 397 by its editor), named Tertullian, Minucius, Arnobius and Lactantius together to defend a Christian's use of pagan books (NPNF2-6 16477-16480, 16704-16720). *Defended:* a Christian's right to use pagan learning. Card.
+2. Jerome, in a letter to Magnus (dated 397 by its editor), named Tertullian, Minucius, Arnobius and Lactantius together to defend a Christian's use of pagan books (NPNF2-6 16477-16480, 16704-16720). *Defended:* a Christian's right to use pagan learning. Story, after beat 5 and before the Ending, in one line: "Later, asked why he quoted pagan books, Jerome named all four together. Their books, he said, were full of the pagans' own learning." (NPNF2-6 16477-16480, 16704-16721; later, about 90 years after Lactantius wrote; Documented that Jerome says it.) No year, and no quotation marks in the story.
 3. Jerome's verdicts on their style (NPNF2-6 14107-14116). Card.
 4. Augustine on "three persons" for want of a fitter word (NPNF1-3 8211-8227); names no writer. Card, Inferential-Thin as a link.
 5. A later Latin list of books not to be received, under Gelasius's name, sets the works of Tertullian, Lactantius, Commodian and Arnobius among the 'apocrypha' (Mansi 8, 17220-17233, 17301). Documented that the list says it; attribution Contested. Card.
@@ -90,7 +91,7 @@ None is used elsewhere on the tree (census searched for each span); none is in t
 - Arnobius (census card "Arnobius of Sicca") — acts
 - Lactantius — acts, link (lactantius)
 - Jerome — link (jerome; witness)
-- Diocletian — time only ('in Diocletian's reign')
+- Diocletian — the emperor; one line (Words to explain, Diocletian's persecution)
 - Marcion — link (marcion-marcionism); card once Cut first 1-2 are applied
 - Justin Martyr — link (greek-apologists-second-century); Cut first; card once Cut first 1-2 are applied
 
@@ -100,7 +101,7 @@ What passed was the case itself, and a judgment on how it had been made. Lactant
 
 ## Ending
 
-1. **Lactantius on Minucius (recommended).** Of those known to him, Lactantius wrote, Minucius Felix stood well among pleaders, and his Octavius showed how fit a champion of truth he might have been, had he given himself wholly to it. Circles back to the breakwater at Ostia. ANF7 4470; LactLat 22701-22705.
+1. **Lactantius on Minucius (recommended).** Of the writers known to him, Lactantius wrote, Minucius Felix stood well among pleaders, and his Octavius showed how fit a champion of truth he might have been, had he given himself wholly to it. Circles back to the breakwater at Ostia. ANF7 4470; LactLat 22701-22705.
 2. **Lactantius's own line:** truth lacked fit heralds, and the learned who came over were not enough to defend it (ANF7 4456; LactLat 22697-22699). If used, cut the same line from beat 5.
 
 ## Links
@@ -145,13 +146,18 @@ What passed was the case itself, and a judgment on how it had been made. Lactant
 - No quotation marks beyond Q1-Q3.
 - "Lactantius studied under Arnobius at Sicca" → Jerome names no place (NPNF2-3 41033-41034).
 - "Tertullian the lawyer" → only "well versed in the laws of the Romans, Eusebius says".
+- "the image stood by the road" → they walked along the shore toward the sea (MinLat 220-222).
+- "those he knew" (as if Lactantius knew Minucius) → "the writers known to him".
+- "force denial, not confession" → the torturer's task turned around, to make Christians deny what they were.
+- Any clause naming the Octavius's unknown date → say only that he wrote after Octavius died. Its existing "Any year…" line stands.
+- "Diocletian's persecution" named bare → say what it did, per the researcher's line.
 
 ## Leave out
 
 - Commodian (dates spread over centuries; Gennadius alone). Card.
 - The Passion of Perpetua (a martyr text, its own story).
 - Cyprian's Ad Demetrianum and Lactantius's criticism of it (the lactantius and cyprian stories).
-- The Nicomedia demolition morning, the edicts, On the Deaths of the Persecutors, Crispus (the lactantius story and the census documented story).
+- The Nicomedia demolition morning, the edicts, On the Deaths of the Persecutors, Crispus (the lactantius story and the census documented story), beyond the one line under Words to explain.
 - The donkey's-head charge traced to Tacitus (ANF3 10078-10093). Card.
 - Arnobius's "almost three hundred years" of Christianity (ANF6 39891). Card.
 - The Octavius once printed as Arnobius's eighth book (ANF4 19535-19539, editor's note). Leave out.
@@ -166,3 +172,15 @@ What passed was the case itself, and a judgment on how it had been made. Lactant
 5. Lactantius on the plain speech of Scripture, keeping "truth lacked fit heralds" — card.
 6. The list of charges in beat 1, trimmed to the infant in meal and the lamp put out — card.
 Items 1-6 take about 135 words, leaving about 465 (about 490 with B1 and B2), under the approved 515.
+
+**To hold 675 after the review (2026-11-25)**, in order, stopping once the draft is at 675:
+
+7. The sunset clause in beat 2, "The rest can wait, for the sun is setting, and" (−10, leaving "They part glad.") — Leave out.
+8. The second-marriage line, "Writing for it, he judged a second marriage unlawful." (−9) — Leave out (Montanism's job).
+9. The Marcion clause in beat 3, where the draft still carries it (about −6) — card (Marcionism's job; item 2).
+10. Whom the monthly gift kept, trimmed to "to bury the poor and keep orphans" (about −8) — card (item 4).
+11. Arnobius's answer to "the world has gone to ruin" in beat 4 (about −14) — card (item 3).
+12. Lactantius "found few pupils and turned to writing" in beat 5 (about −8) — card.
+13. The charges in beat 1, trimmed to the infant in flour and the lamp put out (about −20) — card (item 6).
+
+Items 9-13 take about 56 words against the about 49 that fixes 9 and 10 add. None touches the heart, Q1-Q3, the credited witnesses, or a required gloss.
