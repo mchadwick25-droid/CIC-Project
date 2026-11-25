@@ -77,3 +77,32 @@ test("a source needs its title, language and author, and a date that is a string
   assert.equal(errorsFor((c, m) => { const k = card(); k.sources.about[0].date = 553; m(PERSON).card = k; }).length, 1);
   assert.equal(errorsFor((c, m) => { const k = card(); delete k.keyWorks[0].about; m(PERSON).card = k; }).length, 1);
 });
+
+test("an other name is a plain name, or a name with its note", () => {
+  assert.deepEqual(errorsFor((c, m) => { m(PERSON).card = { ...card(), otherNames: ["Tertullianus", { name: "Septimius Tertullianus", note: "in Jerome" }] }; }), []);
+  assert.deepEqual(errorsFor((c, m) => { m(PERSON).card = { ...card(), otherNames: ["Severus the presbyter, surnamed Sulpitius", "Hermas, author of the Shepherd"] }; }), []);
+});
+
+test("an other name that still carries its note fails", () => {
+  for (const s of [
+    "Novatus (in Eusebius and the Greek writers)",
+    "Marcion of Sinope, in Epiphanius of Salamis",
+    "Vartan the Great, by a note in Victor Langlois's edition of Lazar of Pharp",
+    "Luciferus; Lucifer Calaritanus",
+    "Victor, bishop of Vita",
+    "Nicetas Pectoratus, the Latin form",
+    "Constantine the Philosopher, Cyril's name until he took the name Cyril in Rome",
+    "John the Presbyter, the title's name for John",
+    "Atheus, \"the godless\", a name Socrates and Sozomen report",
+  ]) {
+    assert.equal(errorsFor((c, m) => { m(PERSON).card = { ...card(), otherNames: [s] }; }).length, 1, s);
+    assert.equal(errorsFor((c, m) => { m(PERSON).card = { ...card(), otherNames: [{ name: s, note: "a note" }] }; }).length, 1, s);
+  }
+});
+
+test("a split other name needs both its name and its note, and nothing else", () => {
+  assert.equal(errorsFor((c, m) => { m(PERSON).card = { ...card(), otherNames: [{ name: "Tertullianus" }] }; }).length, 1);
+  assert.equal(errorsFor((c, m) => { m(PERSON).card = { ...card(), otherNames: [{ name: "", note: "in Jerome" }] }; }).length, 1);
+  assert.equal(errorsFor((c, m) => { m(PERSON).card = { ...card(), otherNames: [{ name: "Tertullianus", note: "in Jerome", source: "x" }] }; }).length, 1);
+  assert.equal(errorsFor((c, m) => { m(PERSON).card = { ...card(), otherNames: [7] }; }).length, 1);
+});

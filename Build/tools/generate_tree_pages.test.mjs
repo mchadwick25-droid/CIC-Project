@@ -413,6 +413,18 @@ test('a person page shows the card: facts, key works, legacy, councils, what is 
   assert.doesNotMatch(page, /<p class="kind-label">Outside witness<\/p>/);
 });
 
+test('a person page shows each other name with its note beside it', () => {
+  const c = structuredClone(census);
+  c.movements.find(m => m.id === 'frumentius').card.otherNames = [{ name: 'Abba Salama of Axum', note: 'a note' }, 'Frumentios'];
+  const page = generate(c)('tree/frumentius.html');
+  assert.match(page, /<dt>Also called<\/dt><dd>Abba Salama of Axum \(a note\), Frumentios<\/dd>/);
+});
+
+test('the map card shows each other name with its note beside it, and drops one that is the entry\'s own name', () => {
+  const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
+  assert.match(map, /\.map\(n=>typeof n==='string'\?\{name:n\}:n\)\.filter\(o=>normName\(o\.name\)!==normName\(fullName\)\)\.map\(o=>o\.note\?`\$\{o\.name\} \(\$\{o\.note\}\)`:o\.name\)/);
+});
+
 test('a page with nothing in its own record leaves the record heading out', () => {
   assert.doesNotMatch(generate(census)('tree/bede-of-jarrow.html'), /<h2>In Its Own Record<\/h2>/);
 });

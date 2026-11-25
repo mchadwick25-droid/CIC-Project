@@ -41,7 +41,7 @@ export function namesOf(m) {
   const out = [];
   const add = (text, kind) => { const n = normalize(text); if (n) out.push([n, kind]); };
   add(m.name, 'n'); add(m.shortName, 's'); add(m.informalName, 'e');
-  for (const o of (m.card && m.card.otherNames) || []) add(o, 'o');
+  for (const o of (m.card && m.card.otherNames) || []) add(typeof o === 'string' ? o : o.name, 'o');
   const seen = new Set();
   return out.filter(([n]) => (seen.has(n) ? false : seen.add(n)));
 }
