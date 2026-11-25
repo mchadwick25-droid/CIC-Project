@@ -40,6 +40,7 @@ Jobs, direct lines, siblings, the live stories beside each one, and quote bars: 
 - **Lengths to Mark (2026-11-25):** https://claude.ai/artifact/5Q6eUCoiF48RMJRqsG6WeM (version 2): the checked length (recommended) or the approved lengths. Antioch's writer stopped at 675 against 535. The same page reports three heart wordings the outline check changed (Alexandria, Latin Apologists, House Church). The Roman Church writer stopped at 960 against 625 (the outline check and recheck had passed it at about 622). The page (now version 5) recommends 4:30 at most, with over-long outlines cut back at the outline by the researcher and checked.
 - **For Mark (report, not a question):** Antioch's review B1 corrects the approved essence wording "met again and again ... to put him out" (no source gives that aim; only the last meeting cut him off). Applied as a checked fix, as the kit allows for a finding that would change the heart; listed in `antiochene-church-third-century/Fixes_Review.md`.
 - Antioch's Length section keeps a stale second sentence; the "Approved heart and length" section governs.
+- Reference read (Kit step 5, once per batch): the tradition kind kit names no reference stories of its kind, and `reference/` holds only person stories, so there is none to read for this kind. Said in the release.
 - Before the pull request: bring `main` into this branch once #1806 has merged.
 
 ## Rulings
