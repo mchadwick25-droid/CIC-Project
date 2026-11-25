@@ -75,9 +75,9 @@ None of the three stories was in `Earlier-Approved.yaml`, so nothing was removed
 | Check | Output line |
 |---|---|
 | `node tools/validate-census.mjs --atlas cft-website/index.html --tree cft-website/tree cic-website/data/world-census.json` | `629 movements, 736 edges, 10 eras — 0 errors, 4 warnings` (the four `shortName` warnings, all on other entries) |
-| `node --test tools/tests/validate_census_*.test.mjs` | CENSUS_TESTS |
-| `python -m engine.m6.cli atlas-check` | ATLAS_CHECK |
-| `python -m engine.m6.cli atlas-check --edges-only` | ATLAS_EDGES |
+| `node --test tools/tests/validate_census_*.test.mjs` | `# tests 118`, `# pass 118`, `# fail 0` |
+| `python -m engine.m6.cli atlas-check` | exit 0, `"pass": true`, no eras or edges differ, `"changes": []` |
+| `python -m engine.m6.cli atlas-check --edges-only` | exit 0, `"pass": true`, `"edges_differ": false`, `"changes": []` |
 | `node tools/build_tree_site.mjs` | `tree site: 1778 own files (the map page slimmed, 629 card files added), 174 shared files, 0 mismatched, in .build/tree/` |
 | `node --test cic-worker/worker.test.mjs Build/tools/generate_tree_pages.test.mjs` | `# tests 80`, `# pass 80`, `# fail 0` |
 | `python tools/check_live_commentary.py --base origin/main --enforce` | exit 0 (KEEP and WAIVED lines only) |
