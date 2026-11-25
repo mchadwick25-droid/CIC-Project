@@ -42,3 +42,25 @@ Under Mark's ruling "a" (Decision-Log, "Batch 11: the two rebuilt stories ship")
 
 `python -m engine.m1.profile_readability …/greek-apologists-second-century.brief.txt`:
 `675 words, grade 7.9 (names out 7.1), reading ease names out 73.6, 16.5 words a sentence, 0.7 joining words per 100, 10% short sentences, longest sentence 38 words - pass (note: grade 7.9 is under 8: the listener read checks it is not flat)`
+
+## Craft check fixes applied
+
+Brief (`greek-apologists-second-century.brief.txt`):
+- A, Justin loyalty sentence restored: applied.
+- B, Melito and Eusebius folded into one sentence: applied.
+- C1, Athenagoras "no one claimed to have seen it" cut: applied.
+- C2, "in the reign of Hadrian" to "under Hadrian": applied.
+- D, Quadratus wording (MINOR): applied.
+- E, Theophilus "Christian teaching true" (MINOR): applied.
+
+Outline (`Outline.md`):
+- F1, beat 4: applied.
+- F2, Cut first 9: applied.
+- F3, What came of it 1: applied.
+- F4, new Cut first 24 and "Cut first 4 partly reversed" line: applied.
+- F5, Setting, "under Hadrian": applied.
+
+`wc -w`: 675 (cap 675).
+
+`python -m engine.m1.profile_readability …/greek-apologists-second-century.brief.txt`:
+`675 words, grade 8.4 (names out 7.5), reading ease names out 72.2, 17.3 words a sentence, 0.7 joining words per 100, 8% short sentences, longest sentence 38 words - pass`
