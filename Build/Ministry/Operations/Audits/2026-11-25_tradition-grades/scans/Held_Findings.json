@@ -1,0 +1,579 @@
+{
+ "tree/post-apostolic-house-church": [
+  {
+   "quote": "the governor Pliny the Younger wrote to the emperor Trajan describing an investigation",
+   "missing": "why",
+   "weight": 2,
+   "weights": [
+    2,
+    2
+   ],
+   "asks": "Why was he investigating them?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "New believers were taught the Two Ways on the road to baptism",
+   "missing": "what",
+   "weight": 1,
+   "asks": "What were the Two Ways?",
+   "test": "bare statement",
+   "decided_by": "Opus third read",
+   "id": "S001"
+  },
+  {
+   "quote": "the reading of the memoirs",
+   "missing": "what",
+   "weight": 1,
+   "asks": "Whose memoirs?",
+   "test": "bare statement",
+   "decided_by": "Opus third read",
+   "id": "S002"
+  },
+  {
+   "quote": "being marched toward Rome under armed guard",
+   "missing": "why",
+   "weight": 2,
+   "asks": "Why was he arrested, and by whom?",
+   "test": "bare statement",
+   "decided_by": "Opus third read",
+   "id": "S003"
+  }
+ ],
+ "tree/alexandria-catechetical": [
+  {
+   "quote": "before falling out with his bishop and moving his teaching to Caesarea around 231",
+   "missing": "what",
+   "weight": 2,
+   "weights": [
+    2,
+    2
+   ],
+   "asks": "Over what did they fall out?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "Historians still argue about how formal the whole thing was",
+   "kind": "modern writer",
+   "weight": 2,
+   "who": "unnamed (historians)",
+   "test": "modern opinion",
+   "decided_by": "Opus third read",
+   "id": "S004"
+  }
+ ],
+ "tree/syriac-edessa-nisibis": [
+  {
+   "quote": "once drafted a synodal letter in the name of a council of bishops",
+   "missing": "what",
+   "weight": 1,
+   "weights": [
+    1,
+    1
+   ],
+   "asks": "Saying what?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "answering by name the teachings of the philosopher Bardaisan, of Marcion, and of Mani",
+   "missing": "what",
+   "weight": 1,
+   "weights": [
+    1,
+    1
+   ],
+   "asks": "What did they teach?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "the persecution already underway since the 340s took bishop Simeon bar Sabbae and his clergy",
+   "missing": "why",
+   "weight": 2,
+   "weights": [
+    2,
+    2
+   ],
+   "asks": "Why were they persecuted, and by whom?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "when the Roman emperor Jovian ceded it to Persia",
+   "missing": "why",
+   "weight": 1,
+   "weights": [
+    1,
+    1
+   ],
+   "asks": "Why did he give it up?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "In 338, Shapur II of Persia besieged Nisibis",
+   "missing": "why",
+   "weight": 2,
+   "asks": "Why did he besiege it?",
+   "test": "bare statement",
+   "decided_by": "Opus third read",
+   "id": "S005"
+  },
+  {
+   "quote": "it is best heard as the community's own cherished memory, not as history",
+   "kind": "guess",
+   "weight": 1,
+   "who": "unnamed",
+   "test": "modern opinion",
+   "decided_by": "Opus third read",
+   "id": "S006"
+  }
+ ],
+ "tree/desert-monasticism": [
+  {
+   "quote": "Soon after, Evagrius's circle was driven out of Egypt.",
+   "missing": "why",
+   "weight": 2,
+   "weights": [
+    1,
+    2
+   ],
+   "asks": "By whom, and why?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "part of them was handed down for centuries under another name",
+   "missing": "why",
+   "weight": 1,
+   "weights": [
+    1,
+    1
+   ],
+   "asks": "Why under another name?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "These settlements sat closer to ordinary life than their own rhetoric of total withdrawal suggests: excavation at Kellia has uncovered at least one commercial center operating alongside the ascetic cells, real evidence of trade with the surrounding villages.",
+   "kind": "guess",
+   "weight": 1,
+   "who": "unnamed (archaeological view)",
+   "test": "modern opinion",
+   "decided_by": "Opus third read",
+   "id": "S007"
+  }
+ ],
+ "tree/donatism": [
+  {
+   "quote": "It appealed to Constantine in 313 and to the emperor Julian in 361.",
+   "missing": "what",
+   "weight": 2,
+   "weights": [
+    2,
+    2
+   ],
+   "asks": "Appealed for what?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "against its own breakaway bishops, the Maximianists",
+   "missing": "what",
+   "weight": 1,
+   "weights": [
+    1,
+    1
+   ],
+   "asks": "Over what did they break away?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "The verdict went against them",
+   "missing": "why",
+   "weight": 2,
+   "weights": [
+    2,
+    2
+   ],
+   "asks": "Why did the judge rule against them?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "In 535 Justinian's law for Africa barred Donatists from holding services.",
+   "missing": "why",
+   "weight": 1,
+   "weights": [
+    1,
+    1
+   ],
+   "asks": "Why then?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "A bishop named Marculus was seized, paraded through several towns, and thrown from a cliff called Novapetra.",
+   "missing": "why",
+   "weight": 2,
+   "weights": [
+    1,
+    2
+   ],
+   "asks": "Why him, and by whom?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "An imperial law of 412 fined them as a class of their own",
+   "missing": "why",
+   "weight": 1,
+   "asks": "Fined for what?",
+   "test": "bare statement",
+   "decided_by": "Opus third read",
+   "id": "S008"
+  },
+  {
+   "quote": "who had reason to make them look like a mob",
+   "kind": "guess",
+   "weight": 1,
+   "who": "unnamed",
+   "test": "modern opinion",
+   "decided_by": "Opus third read",
+   "id": "S009"
+  }
+ ],
+ "tree/cappadocian-nicene-pastoral-monastic-tradition": [
+  {
+   "quote": "Epistle 38 is the letter most often used to show that the three men agreed on the technical terms.",
+   "missing": "what",
+   "weight": 2,
+   "weights": [
+    2,
+    1
+   ],
+   "asks": "Which terms, and what did they agree?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "a hostile church party had Gregory of Nyssa thrown out of office",
+   "missing": "why",
+   "weight": 2,
+   "weights": [
+    1,
+    2
+   ],
+   "asks": "Which party, and why?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "Eupsychius of Caesarea, who was put to death under the emperor Julian in 362",
+   "missing": "why",
+   "weight": 1,
+   "weights": [
+    1,
+    1
+   ],
+   "asks": "Why was he killed?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "how settled that settlement really was is itself now a live scholarly question",
+   "kind": "modern writer",
+   "weight": 2,
+   "who": "unnamed (scholars)",
+   "test": "modern opinion",
+   "decided_by": "Opus third read",
+   "id": "S010"
+  },
+  {
+   "quote": "Yet even its author is in dispute. Modern scholars still argue over whether Basil or Gregory of Nyssa wrote it.",
+   "kind": "modern writer",
+   "weight": 2,
+   "who": "unnamed (modern scholars)",
+   "test": "modern opinion",
+   "decided_by": "Opus third read",
+   "id": "S011"
+  }
+ ],
+ "tree/imperial-juridical-christianity": [
+  {
+   "quote": "It took that letter as the last word on Christ's two natures.",
+   "missing": "what",
+   "weight": 2,
+   "weights": [
+    2,
+    2
+   ],
+   "asks": "What did the letter say?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "a disputed election to the bishopric of Rome left the city so violent",
+   "missing": "both",
+   "weight": 2,
+   "weights": [
+    2,
+    2
+   ],
+   "asks": "Disputed between whom, and over what?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "until he did public penance for a massacre at Thessalonica",
+   "missing": "why",
+   "weight": 2,
+   "asks": "What massacre, and why did it happen?",
+   "test": "bare statement",
+   "decided_by": "Opus third read",
+   "id": "S012"
+  }
+ ],
+ "tree/hieronymian-ascetic-literary": [
+  {
+   "quote": "when its bishop read the new wording of a single word in Jonah",
+   "missing": "what",
+   "weight": 1,
+   "weights": [
+    1,
+    1
+   ],
+   "asks": "Which word?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "an attack tied to the Pelagian dispute set fire to the Bethlehem monasteries",
+   "missing": "both",
+   "weight": 2,
+   "weights": [
+    2,
+    2
+   ],
+   "asks": "What was the dispute, and who attacked them?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  }
+ ],
+ "tree/gallic-monastic-ascetic-christianity": [
+  {
+   "quote": "It was the monks of Marseilles who resisted Augustine's late teaching on grace and human effort.",
+   "missing": "what",
+   "weight": 2,
+   "weights": [
+    2,
+    2
+   ],
+   "asks": "What did his teaching say, and what did they object to?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "Augustine answered them in two treatises",
+   "missing": "what",
+   "weight": 1,
+   "weights": [
+    1,
+    1
+   ],
+   "asks": "Saying what?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "the people of Tours seized him and made him their bishop",
+   "missing": "why",
+   "weight": 1,
+   "asks": "Why him?",
+   "test": "bare statement",
+   "decided_by": "Opus third read",
+   "id": "S014"
+  }
+ ],
+ "tree/lutheran-wittenberg-and-its-congregations": [
+  {
+   "quote": "The movement settled its own arguments in writing",
+   "missing": "what",
+   "weight": 2,
+   "weights": [
+    2,
+    2
+   ],
+   "asks": "Arguments over what?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "emptied monasteries",
+   "missing": "why",
+   "weight": 1,
+   "weights": [
+    1,
+    1
+   ],
+   "asks": "Why were they emptied?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "historians still disagree over whether it happened",
+   "kind": "modern writer",
+   "weight": 1,
+   "who": "unnamed (historians)",
+   "test": "modern opinion",
+   "decided_by": "Opus third read",
+   "id": "S016"
+  }
+ ],
+ "tree/the-reformed-cities-zurich-and-geneva": [],
+ "tree/latin-pastoral-congregational-christianity": [
+  {
+   "quote": "He refused communion to the envoys of Novatian, a rival bishop at Rome.",
+   "missing": "why",
+   "weight": 1,
+   "weights": [
+    1,
+    1
+   ],
+   "asks": "Why was Novatian a rival, and why refuse them?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "He was beheaded outside Carthage in 258.",
+   "missing": "why",
+   "weight": 2,
+   "weights": [
+    2,
+    2
+   ],
+   "asks": "Why, and by whom?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "A rival Donatist church stood in the same towns, and he argued with it for decades.",
+   "missing": "what",
+   "weight": 1,
+   "weights": [
+    1,
+    1
+   ],
+   "asks": "Over what?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "He answered the Manichaeans",
+   "missing": "what",
+   "weight": 1,
+   "weights": [
+    1,
+    1
+   ],
+   "asks": "What did they teach?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  }
+ ],
+ "tree/kongo-christianity-afonso-to-1650": [
+  {
+   "quote": "He said a friar had arranged for seven or eight white men to fire at him during Easter Mass.",
+   "missing": "why",
+   "weight": 2,
+   "weights": [
+    2,
+    2
+   ],
+   "asks": "Why would a friar want him dead?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  }
+ ],
+ "tree/kirishitan-japan": [
+  {
+   "quote": "By the early 1600s its members faced prison, exile and execution.",
+   "missing": "why",
+   "weight": 2,
+   "weights": [
+    2,
+    2
+   ],
+   "asks": "Why, and by whom?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "the emperor had already banished all the friars, monks, Jesuits and priests",
+   "missing": "why",
+   "weight": 1,
+   "weights": [
+    1,
+    1
+   ],
+   "asks": "Why did he banish them?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "A French editor translated them in 1870.",
+   "kind": "modern writer",
+   "weight": 1,
+   "who": "unnamed French editor (1870)",
+   "test": "modern opinion",
+   "decided_by": "Opus third read",
+   "id": "S018"
+  }
+ ],
+ "tree/china-mission-born-christianity": [
+  {
+   "quote": "Ruggieri had stayed there once before and been sent away.",
+   "missing": "why",
+   "weight": 1,
+   "weights": [
+    1,
+    1
+   ],
+   "asks": "Why was he sent away?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "in the translator's English",
+   "kind": "modern writer",
+   "weight": 1,
+   "who": "unnamed translator (1850)",
+   "test": "modern opinion",
+   "decided_by": "Opus third read",
+   "id": "S019"
+  },
+  {
+   "quote": "though it reaches us in an English translation of 1850, and its wording is the translator's",
+   "kind": "modern writer",
+   "weight": 1,
+   "who": "unnamed translator (1850)",
+   "test": "modern opinion",
+   "decided_by": "Opus third read",
+   "id": "S020"
+  }
+ ],
+ "tree/new-spain-and-andes-mission-born-christianity": [
+  {
+   "quote": "The land had been won in 1521.",
+   "missing": "both",
+   "weight": 1,
+   "asks": "Won by whom, and how?",
+   "test": "bare statement",
+   "decided_by": "Opus third read",
+   "id": "S021"
+  }
+ ]
+}
