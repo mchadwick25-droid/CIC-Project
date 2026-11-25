@@ -5917,6 +5917,8 @@ Mark: "option 1", on the page https://claude.ai/artifact/UStZATEaBtT445YAKgNEi6 
 3. Pushed off, already C or B: `palestinian-church-pre-constantinian` and `anatolian-church-third-century` (C), and `novatianism` and `valentinian-and-other-gnostic-christianities` (B). They wait until after era 2's Fs (Open-Gaps 418).
 4. Then era 2 the same way: its grades to Mark first, then his call on what to do and what to push off.
 
+**Added (Mark, 2026-11-25): "a".** Asked "why do we need to regrade batch 11, or just after", he chose an independent grading of the new texts only. Once batch 11 has finished, its 13 new texts are graded once by readers outside the batch, who have not seen its drafts or reviews. They use the same scans, the same first-time listener and the same A to F rules as `Build/Ministry/Operations/Audits/2026-11-25_tradition-grades/`. Each text's grade before and after goes to Mark on one page, beside his own listening. Batch 12 waits on that page.
+
 ## 2026-11-25 — Era 2 traditions: thirteen rebuilt now, ten pushed off (Mark)
 
 **Why.** Mark: "show me era 2 grades". The era 2 grades (from `Build/Ministry/Operations/Audits/2026-11-25_tradition-grades/Rebuild_Order.csv`) went to him on one page, https://claude.ai/artifact/Tyhrs9Fw6y18SAdYjrE7vY (version 1).
