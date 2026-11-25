@@ -4,3 +4,4 @@
 - MINOR Never cut list (Outline.md): applied
 - MINOR Names (Outline.md): applied
 - MINOR Connection first item (Outline.md): applied
+- B6 Do not say addition (Outline.md): applied

@@ -159,6 +159,7 @@ The story form (kind kit): open on the pupils going to their deaths around 200, 
 - "the brethren still sang Nepos's psalms" → "still delighted in" (E-en 41315).
 - "Origen moved on to new work" or any reason for the move → "Origen left for Caesarea" only; the break with his bishop is the Origen story's.
 - "the teachers fled in fear" → "all were driven away by the threat of persecution" (E-en 32672-32673).
+- "the book misled the simple" / "Nepos misled them" → "some teachers, relying on the book" (E-en 41324-41330).
 
 ## Leave out
 
