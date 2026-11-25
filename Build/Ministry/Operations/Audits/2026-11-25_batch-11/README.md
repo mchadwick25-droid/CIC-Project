@@ -51,6 +51,7 @@ Jobs, direct lines, siblings, the live stories beside each one, and quote bars: 
 - Before the pull request: bring `main` into this branch once #1806 has merged.
 
 ## Rulings
+- "Batch 11: the two long stories" (Mark, 2026-11-25: "approve the two long ones", option A for both): Manichaeism about 725 (nine cuts; Mani's messengers line in narration; the baptizers break cut); Latin Pastoral about 760 (Novatian's envoys kept). This batch only.
 - "Batch 11: the first two briefs approved" (Mark, 2026-11-25): Antioch and the Roman Church approved as they stand (the Roman Church at 678); the other eleven written in parallel. This batch only.
 - "Batch 11: lengths, up to 4:30 and cut at the outline" (Mark, 2026-11-25: "a"): every story up to 675 and no longer than its heart needs; over-long outlines cut back at the outline by the researcher and checked; Antioch 675 as drafted; Roman Church cut to 675; Ebionites take items 7 and 8 (about 660); Latin Pastoral moves 1 to 7, essence kept (about 690); Alexandria 525, Syriac 650, Montanism 540. Each outline records it under "Length ruling". This batch only.
 - "Batch 11: hearts and lengths approved" (Mark, 2026-11-25: "Approve as recommended"): the thirteen hearts; each length the independent count rounded up, capped at 675 (Manichaeism and the House Church add to their Cut first lists); Roman Church ends at 251; the Marcionite villages, Pliny's hymn and Justin's Sunday kept; the roll-call risk tested at the outline check. Latin Apologists' job drops "a language with no words for it yet". This batch only.

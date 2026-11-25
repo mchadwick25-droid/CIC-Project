@@ -26,7 +26,7 @@ Length fix pass (2026-11-25): the first draft, written to this outline with ever
 
 Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommended"): the heart above, and **650 words** (the independent count in `Length_Count.md`, rounded up, capped at 675). Every Cut first item goes to the card or Leave out as it is marked.
 
-**Length ruling:** Mark, 2026-11-25 ("Batch 11: lengths, up to 4:30 and cut at the outline", "a"): about 690 words: the recheck's length moves 1 to 7 apply, and the essence is kept whole (move 8 is not taken).
+**Length ruling:** Mark, 2026-11-25 ("Batch 11: the two long stories", "approve the two long ones", option A): about 760 words. The ten length moves already applied stand; Novatian's envoys at Carthage (the heart's "a stricter party with a second bishop") are kept.
 
 ## Setting
 

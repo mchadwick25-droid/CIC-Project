@@ -5964,3 +5964,13 @@ This batch only. A kit change, so that the hearts page's count comes from a test
 2. The other eleven are written now, in parallel.
 
 This batch only.
+
+## 2026-11-25 — Batch 11: the two long stories (Mark)
+
+**Why.** Under "Batch 11: lengths, up to 4:30 and cut at the outline", Manichaeism and Latin Pastoral could not reach their lengths without cutting the heart. The page: https://claude.ai/artifact/FpZMt6qFiHrKXKh3F9H5y1 (version 1).
+
+**Decided (Mark, 2026-11-25): "approve the two long ones"** (the page's recommended option A for both).
+1. Manichaeism: about 725 words (4:50). The nine cuts that cost no heart, and Mani's line about the messengers told in the narrator's words instead of quoted. Mani's break with the baptizers is among the nine cuts.
+2. Latin Pastoral Christianity in Africa: about 760 words (5:03). Novatian's envoys at Carthage kept, so the slate's job (Novatian told here) stays whole.
+
+This batch only.
