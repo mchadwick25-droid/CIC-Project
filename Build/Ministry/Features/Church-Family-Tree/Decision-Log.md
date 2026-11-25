@@ -5901,3 +5901,18 @@ Mark: "option 1", on the page https://claude.ai/artifact/UStZATEaBtT445YAKgNEi6 
 **Not done.** See Open-Gaps 416: a built world's card texts were not graded.
 
 **Added (Mark, 2026-11-25): "only do the eras and traditions we have the library built out", then "eras 1-7 should be fine, 8 is partialy built".** The rebuild takes every tradition in eras 1 to 7, and in era 8 those with 10 or more vendored works assigned in `cic-website/data/corpus-coverage.json`. That puts 198 in scope (138 F, 7 D, 35 C, 18 B). Era 8's other 22, and eras 9 and 10 (133), wait for sources. `Rebuild_Order.csv` carries each one's era, library count and scope. Eighteen traditions in eras 1 to 7 have two works or fewer. They stay in scope, but a tradition whose research finds too little goes to the source-research thread, which takes the thin and waiting traditions as its want list.
+
+## 2026-11-25 — Era 1 traditions: thirteen rebuilt now, seven pushed off (Mark)
+
+**Why.** Mark: "lets test era by era", then "i want to see the results for era 1 of the test, then make a decision of what to do and what to push off". The era 1 grades (from `Build/Ministry/Operations/Audits/2026-11-25_tradition-grades/Rebuild_Order.csv`) went to him on one page, https://claude.ai/artifact/5jZEtMFpk7aqeXY65o1otw (version 1).
+
+**Found.** Era 1 has 20 traditions, all in scope: 14 F, 2 D, 2 C, 2 B. Eighteen are under the tradition kit's floor of about 300 words, and eleven are summaries rather than stories. Each rigor F rests on one or two sentences of modern guess or modern opinion. Three have three vendored works or fewer.
+
+**Decided (Mark, 2026-11-25): "a, do the 13 now and push off the 7".**
+1. Batch 11 rebuilds 13 era 1 traditions through the full brief kit, with `kinds/tradition.md`, worst grade first, then reach.
+   - Half A: `alexandria-catechetical`, `syriac-edessa-nisibis`, `antiochene-church-third-century`, `roman-church-third-century`, `apocryphal-and-pseudepigraphal-literature`, `ebionite-nazoraean-current`, `greek-apologists-second-century`.
+   - Half B: `latin-apologists`, `latin-pastoral-congregational-christianity`, `manichaeism`, `marcion-marcionism`, `montanism-the-new-prophecy`, `post-apostolic-house-church`.
+   - The three built worlds among them also rebuild their `entry` texts (Open-Gaps 416).
+2. Pushed off, too thin in the Library: `bardaisanite-current` (3 works), `modalist-monarchianism` (3) and `danubian-latin-christianity` (2). They go to the source-research thread first (Open-Gaps 417).
+3. Pushed off, already C or B: `palestinian-church-pre-constantinian` and `anatolian-church-third-century` (C), and `novatianism` and `valentinian-and-other-gnostic-christianities` (B). They wait until after era 2's Fs (Open-Gaps 418).
+4. Then era 2 the same way: its grades to Mark first, then his call on what to do and what to push off.
