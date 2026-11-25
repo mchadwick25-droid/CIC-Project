@@ -5828,3 +5828,23 @@ Mark: "option 1", on the page https://claude.ai/artifact/UStZATEaBtT445YAKgNEi6 
 **Change orders.** These replace the reviewer's single read and its four scores ("One revision, one fresh read", 2026-11-22) and the 2026-11-24 line "a date only an editor gives is a modern date".
 
 **Cost.** Three readers a piece. In the test the trust read took about 60,000 tokens a piece, drawn from the weekly allowance with no metered spend.
+
+## 2026-11-25 — A second trust read of every new or changed sentence (Mark)
+
+**Why.** Mark asked to compare the new kit's work with what is live and what the batches made. Eight versions of Basil, Epiphanius and Chrysostom were read blind under codes: two trust readers with the sources open, and two listeners. The record is in `Build/Ministry/Operations/Audits/2026-11-24_calibration/comparison/`.
+- **Craft.** Faults per 100 words fell by about 80% in the new versions, and both listeners chose the new version of every person.
+- **Trust.** Old and new alike carry one or two sentences that don't hold. The independent reader flagged four in the new versions, all in sentences the writer added or changed. The reference session's own fresh read had passed them.
+  - Two were clear and agreed: Epiphanius's "he feared they would drift from the church" (an added motive) and Basil's "His accusers had won over the governor" (softened from Letter 94).
+  - One was withdrawn. "hid him behind her curtains" is rendered from the Greek (PG 52, "ὑπὸ τὰ παραπετάσματα αὑτῆς ἔκρυψε"), and the reader had checked an English translation.
+  - One is for Mark: "His sermons were read for centuries".
+
+**Decided (Mark, 2026-11-25: "a, second trust read on changed sentences").**
+- A second reader who knows the period, who has not seen the first trust read, checks every sentence the writer added or changed: every sentence in a new brief, and in a fix the sentences that differ from the approved text.
+- A finding either read makes blocks until it is fixed, or until a third reader shows from the source that it holds.
+- A quote rendered from the original language is checked against the original.
+
+**Done.**
+- `Brief-Kit/roles/reviewer.md` adds the second trust read, at review and after the revision.
+- Kit Part 3, step 4 names it.
+
+**Added (Mark, 2026-11-25), on "His sermons were read for centuries":** "it is ok to use later sources to show impact if they are reliable." Part 1 now says that what came of a person or tradition may rest on a reliable later witness who shows it, such as a later writer who quotes, keeps or answers them. The trust read marks such a claim HELD, with that witness's line. The Chrysostom sentence stays, on Socrates, the Augsburg Confession and Calvin.
