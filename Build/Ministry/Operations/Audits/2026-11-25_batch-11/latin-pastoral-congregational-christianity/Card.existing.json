@@ -1,0 +1,113 @@
+{
+ "why": "Cyprian, bishop of Carthage in the mid-200s, told his congregation to nurse their pagan neighbors through the plague that now bears his name, before he was beheaded outside the city in 258. A century and a half later, Augustine preached to the same Hippo congregation several times a week for thirty-five years, and stenographers took down much of what he said.",
+ "sourcing": "Rich (Cyprian's letters, Augustine's sermons to his own flock)",
+ "floorNote": "Nothing in this tradition's confession diverges from the doctrine the Nicene Creed states.",
+ "relationsSummary": "The churches led by Cyprian at Carthage and Augustine at Hippo. From the 310s a rival Donatist church stood in the same towns.",
+ "teaser": "Roman North Africa, c. 240s to 430 CE — the parish before the word existed: bishops burying plague victims, preaching to the same faces every week, and deciding what to do about the people who had failed.",
+ "voices": [
+  "Cyprian of Carthage — bishop through persecution and plague, whose letters are the fullest surviving picture of how a third-century congregation actually ran",
+  "Pontius the Deacon — Cyprian's deacon, who wrote an account of his bishop's life and death",
+  "Augustine of Hippo — bishop of Hippo Regius for thirty-five years, and the most extensively documented working pastor of the ancient world",
+  "Possidius of Calama — Augustine's friend and fellow bishop, who wrote his biography and cataloged his works"
+ ],
+ "legacy": "The North African church itself did not survive. The Vandals took the province in the 430s. The Arab conquest came in the seventh century. After it, Latin Christianity there slowly died out. What it left behind is the working vocabulary of Western church life. Cyprian's letters laid the ground for how the West thinks about the bishop's office and the unity of the church. Later, the Donatists quoted them in their own defense. Augustine's sermons shaped Christian preaching for well over a thousand years. These congregations also worked out the catechumenate, the training of new believers before baptism. They worked out the practice of penance too. Both became the pattern for Western sacramental discipline. In Geneva, Calvin wrote that he could fill a whole book with Augustine's words on God's choice of the saved. Latin Christianity's basic ideas about what a local church is took shape largely in these two African towns.",
+ "documentedStories": [
+  {
+   "title": "Cyprian’s Flight and the Sneer from Rome",
+   "when": "250",
+   "tier": "1",
+   "verification": "checked directly against the primary text",
+   "teaser": "When the persecution comes, the bishop of Carthage withdraws. The clergy of Rome, whose own bishop has just been killed, write to ask why.",
+   "text": "Decius’ order that everyone sacrifice reached Carthage early in 250, and the crowd in the amphitheater was already shouting for Cyprian by name. He left the city. The Roman clergy, whose bishop Fabian had just been executed, wrote to the Carthaginian clergy a letter that Cyprian later had to answer. It opened by noting that they had heard ‘the blessed father Cyprian has withdrawn’, and went on to quote the Gospel: the good shepherd lays down his life for the sheep, but ‘the hireling, who is not the shepherd, seeth the wolf coming, and leaveth the sheep, and fleeth.’ It was not subtle. Cyprian’s reply, and the stream of letters he sent from hiding, make his case: his presence would provoke worse violence against the congregation; he had continued to govern the church by correspondence; he had ordered the clergy to keep visiting the imprisoned confessors, and to do it in shifts and in ordinary dress so as not to draw attention. ‘Nothing on my own private opinion,’ he wrote of the readmission of the lapsed, promising to decide with the clergy and people when he could return. He did return, faced down a schism over exactly this question, and eight years later stood trial without flinching. But the charge of cowardice followed him, and his own biographer Pontius spends paragraphs answering it. The record keeps both the flight and the reasons.",
+   "caveat": "All the letters are contemporary and Cyprian preserved even the hostile one; but the collection was assembled by his own church, and his side of the argument is far better represented than the Roman clergy’s.",
+   "sources": [
+    {
+     "work": "Cyprian, Epistles (ANF numbering) II: From the Roman Clergy to the Carthaginian Clergy, About the Retirement of the Blessed Cyprian",
+     "type": "primary",
+     "note": "The ‘hireling’ letter (Ep. 8 in the Oxford numbering)."
+    },
+    {
+     "work": "Cyprian, Epistles (ANF) V, To the Presbyters and Deacons",
+     "type": "primary",
+     "note": "Instructions from hiding; ‘nothing on my own private opinion’."
+    },
+    {
+     "work": "Pontius the Deacon, Life and Passion of Cyprian, ch. 7–8",
+     "type": "primary",
+     "note": "The biographer’s defense of the withdrawal."
+    },
+    {
+     "work": "J. Patout Burns, Cyprian the Bishop (Routledge, 2002)",
+     "type": "reference",
+     "note": "On the flight, the Roman letter and the lapsed controversy."
+    }
+   ]
+  },
+  {
+   "title": "The Night Watch Outside the Officer’s House",
+   "when": "13–14 September 258",
+   "tier": "1",
+   "verification": "checked directly against the primary text",
+   "teaser": "Carthage learns that its bishop has been brought in, and the congregation spends the night in the street.",
+   "text": "Under Valerian’s second edict, bishops were to be executed. Cyprian was arrested at his garden estate and taken to the proconsul’s residence, then, because the hearing was put off to the next day, held overnight at the house of an officer of the guard. Pontius, his deacon, was there. He says a rumor ran through the city ‘that now Thascius was brought forward’, and that everyone came — ‘to us glorious from the devotion of faith, and to be mourned over even by the Gentiles.’ The custody was gentle; the friends were allowed in. And ‘the whole people, in anxiety that nothing should be done throughout the night without their knowledge, kept watch before the officer’s door.’ Pontius’ comment is that God granted that ‘God’s people should watch on the passion of the priest’. The next morning the proconsul Galerius Maximus asked Cyprian to confirm his name and to perform the rites; the official record of the exchange, the Acta, gives his refusal in a handful of words and the sentence: to be executed by the sword. Cyprian said ‘Thanks be to God’, and the crowd, by Pontius’ account, cried out to be killed with him. He was beheaded in a field outside the city, having ordered that the executioner be paid twenty-five gold pieces. The vigil is the detail to keep: a congregation that had watched him flee eight years earlier now stood all night outside a door.",
+   "caveat": "Pontius was an eyewitness writing within a year or two, but as a devoted biographer; the trial dialogue rests on the Acta Proconsularia, a separate court-style record whose text has been lightly edited in transmission.",
+   "sources": [
+    {
+     "work": "Pontius the Deacon, Life and Passion of Cyprian, ch. 15–18",
+     "type": "primary",
+     "note": "The night vigil and the execution."
+    },
+    {
+     "work": "Acta Proconsularia Sancti Cypriani",
+     "type": "primary",
+     "note": "The court-style record of the two hearings; English in Musurillo, The Acts of the Christian Martyrs (Oxford, 1972)."
+    },
+    {
+     "work": "Cyprian, Epistles (ANF) LXXXI, To Successus",
+     "type": "primary",
+     "note": "Cyprian reports Valerian’s rescript and the death of Xistus of Rome weeks before his own."
+    }
+   ]
+  },
+  {
+   "title": "The Psalms on the Wall of Augustine’s Room",
+   "when": "August 430",
+   "tier": "1",
+   "verification": "from reference summaries; primary text not yet read",
+   "teaser": "With the Vandals outside Hippo, an old bishop asks for the penitential psalms to be written out and hung where he can see them.",
+   "text": "Possidius, bishop of Calama, had known Augustine for nearly forty years and was in Hippo Regius when the Vandal army closed round it in the summer of 430. His Life of Augustine, written within a few years, describes the end. Refugee bishops and clergy had crowded into the city; Augustine, seventy-five, watched churches burn across the province and quoted to his companions a saying he had made his own: ‘He is no great man who thinks it a great matter that trees and stones fall and mortals die.’ In the third month of the siege he fell ill with fever. He asked that the four penitential psalms — the ‘Psalms of David that deal with repentance’ — be copied out in large letters and fixed to the wall opposite his bed, and he lay reading them and weeping. He asked that no one come in except the physicians and those bringing food, so that he could pray. He had always said, Possidius notes, that even a good Christian and bishop should not leave this life without repentance. He died on 28 August. He made no will, Possidius adds, ‘because as a poor man of God he had nothing to leave’ — the library he asked to be kept for the church. The city fell the following year. It is the last documented scene of the most documented pastor of antiquity, and it is a scene of penitence rather than triumph.",
+   "caveat": "Possidius was an eyewitness and friend writing a memorial; the account is sober by the standards of the genre but is an admirer’s. The exact psalms are not specified beyond ‘the penitential ones’.",
+   "sources": [
+    {
+     "work": "Possidius of Calama, Life of Augustine, ch. 28–31",
+     "type": "primary",
+     "note": "The siege, the illness, the psalms, the will."
+    },
+    {
+     "work": "Augustine, Letter 228 (to Honoratus)",
+     "type": "primary",
+     "note": "Augustine’s own letter, quoted by Possidius, on whether clergy should flee before the Vandals."
+    },
+    {
+     "work": "Peter Brown, Augustine of Hippo: A Biography, new ed. (California, 2000)",
+     "type": "reference",
+     "note": "On the last years and Possidius’ account."
+    }
+   ]
+  }
+ ],
+ "people": [
+  {
+   "person": "cyprian-of-carthage"
+  },
+  {
+   "person": "pontius-the-deacon"
+  },
+  {
+   "person": "augustine-of-hippo"
+  },
+  {
+   "person": "possidius-of-calama"
+  }
+ ]
+}

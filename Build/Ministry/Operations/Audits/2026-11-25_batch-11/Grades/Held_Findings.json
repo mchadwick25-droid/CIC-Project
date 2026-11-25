@@ -1,0 +1,177 @@
+{
+ "alexandria-catechetical": [
+  {
+   "quote": "When Origen left for Caesarea, about 231",
+   "missing": "why",
+   "weight": 1,
+   "asks": "Why did he leave?",
+   "test": "bare statement",
+   "decided_by": "Opus third read",
+   "id": "S001"
+  }
+ ],
+ "antiochene-church-third-century": [
+  {
+   "quote": "Lucian, he wrote, kept out of communion with the bishops for many years",
+   "missing": "why",
+   "weight": 2,
+   "weights": [
+    2,
+    2
+   ],
+   "asks": "Why was Lucian out of communion?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  }
+ ],
+ "roman-church-third-century": [
+  {
+   "quote": "That year, too, the confessors who had sided with Novatian came back.",
+   "missing": "why",
+   "weight": 2,
+   "asks": "Why did they leave Novatian and come back?",
+   "test": "bare statement",
+   "decided_by": "Opus third read",
+   "id": "S003"
+  },
+  {
+   "quote": "Then he put on sackcloth and ashes and threw himself down before Zephyrinus",
+   "missing": "why",
+   "weight": 2,
+   "asks": "What made him repent?",
+   "test": "bare statement",
+   "decided_by": "Opus third read",
+   "id": "S004"
+  }
+ ],
+ "apocryphal-and-pseudepigraphal-literature": [
+  {
+   "quote": "the book's backers had minds caught up in a teaching he held false",
+   "missing": "what",
+   "weight": 2,
+   "weights": [
+    2,
+    2
+   ],
+   "asks": "Which teaching?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "some things had been added, and he set those out for them",
+   "missing": "what",
+   "weight": 2,
+   "weights": [
+    2,
+    2
+   ],
+   "asks": "What had been added?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  }
+ ],
+ "ebionite-nazoraean-current": [],
+ "greek-apologists-second-century": [
+  {
+   "quote": "Writing against teachers he held false",
+   "missing": "what",
+   "weight": 1,
+   "weights": [
+    1,
+    1
+   ],
+   "asks": "Which teachers, teaching what?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "Quadratus addressed a defense to the emperor",
+   "missing": "what",
+   "weight": 1,
+   "asks": "Saying what?",
+   "test": "bare statement",
+   "decided_by": "Opus third read",
+   "id": "S007"
+  },
+  {
+   "quote": "the godly in Asia were driven about by new decrees, new written orders",
+   "missing": "what",
+   "weight": 2,
+   "asks": "What did the decrees order?",
+   "test": "bare statement",
+   "decided_by": "Opus third read",
+   "id": "S008"
+  },
+  {
+   "quote": "certain wicked men were trying to trouble the Christians",
+   "missing": "what",
+   "weight": 1,
+   "asks": "Trouble them how?",
+   "test": "bare statement",
+   "decided_by": "Opus third read",
+   "id": "S009"
+  }
+ ],
+ "latin-apologists": [
+  {
+   "quote": "He was teaching when the Christians' church there was torn down.",
+   "missing": "why",
+   "weight": 2,
+   "weights": [
+    1,
+    2
+   ],
+   "asks": "Why, and by whose order?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "the Roman clergy's envy and insults",
+   "missing": "what",
+   "weight": 1,
+   "asks": "Envy and insults over what?",
+   "test": "bare statement",
+   "decided_by": "Opus third read",
+   "id": "S010"
+  }
+ ],
+ "marcion-marcionism": [],
+ "post-apostolic-house-church": [
+  {
+   "quote": "the church at Corinth, in Greece, removed some of its elders",
+   "missing": "why",
+   "weight": 2,
+   "weights": [
+    2,
+    2
+   ],
+   "asks": "Why did they remove them?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  },
+  {
+   "quote": "asked Polycarp, bishop of Smyrna, to have churches send messengers or letters to Antioch",
+   "missing": "why",
+   "weight": 1,
+   "asks": "Why send them to Antioch?",
+   "test": "bare statement",
+   "decided_by": "Opus third read",
+   "id": "S011"
+  }
+ ],
+ "syriac-edessa-nisibis": [
+  {
+   "quote": "a later king ordered the churches his fathers had torn down to be rebuilt",
+   "missing": "why",
+   "weight": 2,
+   "weights": [
+    2,
+    2
+   ],
+   "asks": "Why did the king change course?",
+   "test": "bare statement",
+   "decided_by": "both readers"
+  }
+ ],
+ "latin-pastoral-congregational-christianity": []
+}

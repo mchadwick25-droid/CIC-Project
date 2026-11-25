@@ -1,0 +1,69 @@
+{
+ "why": "Teachers here read Scripture in layers, the plain story and a deeper meaning beneath it, confident that Greek philosophy could serve Christ rather than threaten him - a method that shaped how much of the church has read the Bible ever since.",
+ "sourcing": "Rich (Clement of Alexandria, Origen); school-institution question is live scholarship. One real gap: Clement's fullest surviving treatment of marriage and the body exists only in his own Greek — no public-domain English translation has ever been made of it.",
+ "floorNote": "This tradition's core confession does not diverge from the doctrine the Nicene Creed later stated — though one of its own greatest figures held things more loosely. Origen speculated boldly toward the soul's pre-existence and the final restoration of all things. The rupture of his own lifetime was not over these ideas: his bishop condemned his ordination, not his doctrine. The dispute over the doctrines themselves broke into open controversy only around 399–400, nearly a century and a half after his death, and a church council formally condemned them three centuries after that.",
+ "relationsSummary": "A contested influence on Desert Monasticism, real at one disputed point and denied as a general continuation; scholarship parent of the Bethlehem Circle",
+ "voices": [
+  "Pantaenus was the earliest teacher named in the tradition, remembered as a philosopher who had converted from Stoicism. Clement of Alexandria later paid tribute to a beloved teacher as 'the true, the Sicilian bee,' though Clement himself never names him, and the identification with Pantaenus comes only from Eusebius of Caesarea.",
+  "Clement of Alexandria wrote for educated Greeks, arguing that philosophy had been a tutor leading them toward Christ.",
+  "Origen dominates the surviving record here: a commentator, a textual scholar, and the first Christian to attempt a systematic account of the faith.",
+  "Dionysius of Alexandria studied under Origen and later became bishop, steering the Egyptian church through persecution and plague. Of Christians who nursed the dying while an epidemic emptied the city, he wrote: they 'held fast to each other and visited the sick fearlessly... and died with them most joyfully, taking the affliction of others, and drawing the sickness from their neighbors to themselves.'",
+  "Didymus the Blind lost his sight at four, yet taught in Alexandria for decades — later tradition remembers him as heading the school in its final generation, though no surviving primary account actually says so. Jerome studied under him. Didymus's own books vanished for over fifteen centuries, until a cache of them turned up by chance in the Egyptian sand near Tura in 1941; none has yet been translated into English, so his voice here comes only through his students.",
+  "Most of the ordinary people who filled these classrooms and congregations left no words of their own. Potamiaena, a young woman the church remembered by name for her courage under execution, is typical of what survives: her story, never her own words. Everything that survives here was written by the literate few — teachers, bishops, and their own students."
+ ],
+ "legacy": "The Alexandrian way of reading Scripture — that the text has depths beneath its surface, and that reading it is a lifelong formation rather than an act of information-gathering — became one of Christianity's most influential approaches, shaping how the East and West alike read Scripture for centuries.\n\nOrigen worked closely on texts. He set the standard for taking seriously the languages they were first written in. Basil of Caesarea and Gregory of Nazianzus studied his books. The two are credited with a book of pieces from his work, the Philocalia. Ambrose and Jerome read him closely too, even when they were careful about saying so.\n\nWhether the tradition also fed Egypt's monks is still argued. One modern reading finds Origen's ideas in Antony's letters. But Athanasius of Alexandria shows him as a boy raised at home by Christian parents, a boy who would not be taught to read.\n\nThe church of Alexandria later remembered the school in two minds. Its History of the Patriarchs was put together much later, and it condemns the books of Origen. Yet the same book honors Dionysius of Alexandria as patriarch.",
+ "sources": [
+  {
+   "work": "Clement of Alexandria, Stromata (Miscellanies)",
+   "type": "primary",
+   "note": "Clement's case, addressed to educated Greek readers, that philosophy had served as a tutor leading toward Christ.",
+   "url": "https://www.newadvent.org/fathers/0210.htm"
+  },
+  {
+   "work": "Origen, De Principiis (On First Principles)",
+   "type": "primary",
+   "note": "The first attempt by a Christian writer at a systematic account of the faith; some of its speculative proposals were condemned by a church council three centuries after Origen's death.",
+   "url": "https://www.newadvent.org/fathers/0412.htm"
+  },
+  {
+   "work": "Eusebius, Church History, Book VI",
+   "type": "primary",
+   "note": "The source of the traditional picture of Alexandria as one continuous school with a succession of appointed heads — the very account modern scholars now question.",
+   "url": "https://www.newadvent.org/fathers/250106.htm"
+  },
+  {
+   "work": "Gustave Bardy, \"Aux origines de l'École d'Alexandrie\"",
+   "type": "reference",
+   "note": "The 1932 study that first argued, against Eusebius's tidy succession-list, that Alexandria's teaching looked more like a sequence of private Christian tutors than one formal institution — the opening move in a scholarly debate that remains unsettled today."
+  }
+ ],
+ "people": [
+  {
+   "person": "clement-of-alexandria"
+  },
+  {
+   "person": "origen"
+  },
+  {
+   "person": "dionysius-of-alexandria"
+  },
+  {
+   "person": "anatolius-of-alexandria-and-laodicea"
+  },
+  {
+   "person": "peter-of-alexandria"
+  },
+  {
+   "person": "pamphilus-of-caesarea"
+  },
+  {
+   "person": "alexander-of-alexandria"
+  },
+  {
+   "person": "athanasius-of-alexandria"
+  },
+  {
+   "person": "didymus-the-blind"
+  }
+ ]
+}

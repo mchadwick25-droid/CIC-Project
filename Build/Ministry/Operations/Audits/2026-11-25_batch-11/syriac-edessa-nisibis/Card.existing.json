@@ -1,0 +1,101 @@
+{
+ "why": "This is the church that sang its teaching rather than argued it in treatises - Ephrem's hymns carried its doctrine, and men and women bound themselves to a covenant of celibacy and service inside the ordinary congregation, not apart from it.",
+ "sourcing": "Rich in hymns and doctrinal teaching (Ephrem, Aphrahat's twenty-three Demonstrations); thin on ordinary believers, the daughters of the covenant's own words, and the years after Ephrem's death in 373.",
+ "floorNote": "This tradition holds the doctrine the Nicene Creed states. One figure inside it, the philosopher-poet Bardaisan, taught cosmological ideas his own later tradition repudiated; exactly where he stands relative to that doctrine remains an open question.",
+ "relationsSummary": "Its see of Nisibis passed into the Church of the East. The Syriac Orthodox Church also counts it as a root. Syriac translators later carried Greek philosophy and medicine into Arabic. From there, that learning came back to Europe.",
+ "voices": [
+  "Ephrem was a deacon, first at Nisibis and then, after 363, at Edessa, and this tradition's most prolific poet: hundreds of hymns carried its doctrine in verse a congregation could sing. He spent his last year running famine relief in the city and died within the month the crisis ended.",
+  "Aphrahat, remembered simply as 'the Persian sage,' wrote twenty-three dated letters from inside the Persian empire between 336 and 345, the last of them composed deep inside Shapur's persecution. He once drafted a circular letter in a synod of bishops' own name, yet whether he held that office himself is a question his own tradition never answers.",
+  "Tatian wove the four Gospels into one continuous story a generation before this Christian tradition's own window opens, and these Syriac communities read his harmony as their standard Gospel text for two centuries afterward. Greek church history also remembers him breaking with Rome and founding a rigorist sect of his own—a controversy that belongs to his life outside this Syriac tradition, not inside it.",
+  "Bardaisan was a philosopher and poet at the court of King Abgar the Great. His one surviving dialogue argues that free will, not the stars, decides how people live—Christians the world over follow one law, whatever horoscope they were born under. His own later tradition rejected him over a separate question, whether the body itself is raised, and exactly where he stood on it is a question the record leaves open.",
+  "Jacob, bishop of Nisibis from about 309 and a signatory at the Council of Nicaea in 325, was remembered as the city's protector through Persian siege — though even his own people could not agree on when he died: one chronicle places it in 338, the year of the first siege, another has him still at his post in 350.",
+  "The daughters of the covenant sang this tradition's hymns in every church that had them. Not one line composed by one of them survives; everything known of their voices—their vows, their singing, their service—was written by men.",
+  "Simeon bar Sabbae, bishop of Seleucia-Ctesiphon, was ordered to collect a crushing new tax on Persia's Christians and refused. Arrested and brought before Shapur II, tradition says he was offered gifts, then threatened, and each time refused to worship the sun. He was executed with his own clergy — tradition remembers him as the first of the persecution's bishops to die for his faith. His death opened the twenty-year vacancy the Persian church endured. The year itself is disputed: 341 by the traditional count, with some historians arguing for 344 instead."
+ ],
+ "legacy": "Syriac is still a language of worship in the Assyrian Church of the East, the Syriac Orthodox Church, and the Eastern Catholic churches in union with Rome. All of them still sing Ephrem's hymns, and each counts this tradition as a root.\n\nWithin a generation of this tradition's own close, the Gospel harmony these communities had read for two centuries gave way to a new translation, the Peshitta, and churches began reading the four Gospels separately again. Tradition credits Bishop Rabbula of Edessa (411–435) with the change; historians dispute whether he caused it or only presided over a shift already under way.\n\nMissionaries carried the faith east along the trade routes into Persia and India, and by the seventh century as far as Tang-dynasty China. Centuries later, Syriac translators became the channel through which Greek philosophy and medicine reached the Arabic-speaking world, and from there passed back into Europe.\n\nA separate school of formal theological training later grew up at Nisibis—founded around 490, two generations after this tradition's own record closes—and became one of the ancient world's most important centers of Christian education, distinct from the teaching Jacob and Ephrem had given the same city a century earlier.",
+ "sources": [
+  {
+   "work": "Aphrahat, Select Demonstrations",
+   "type": "primary",
+   "note": "Twenty-three dated letters written from inside the Persian empire, 336–345; the earliest firmly dated source for the covenant order and, in Demonstration 21, for the persecution itself."
+  },
+  {
+   "work": "Ephrem the Syrian, Nisibene Hymns",
+   "type": "primary",
+   "note": "Hymns composed for the city Ephrem served until its surrender to Persia in 363, and for Edessa after his move there.",
+   "url": "https://www.newadvent.org/fathers/3702.htm"
+  },
+  {
+   "work": "Tatian, The Diatessaron",
+   "type": "primary",
+   "note": "A single continuous gospel woven from all four, used as the standard gospel text in Syriac churches for centuries.",
+   "url": "https://www.newadvent.org/fathers/1002.htm"
+  },
+  {
+   "work": "Bardaisan of Edessa, The Book of the Laws of Divers Countries",
+   "type": "primary",
+   "note": "The free-will dialogue, recorded by his student Philip; the one near-primary witness to the court philosopher Ephrem's own hymns were written to answer."
+  },
+  {
+   "work": "Eusebius, Church History I.13, IV.29, IV.30",
+   "type": "primary",
+   "note": "The earliest datable witness to the Abgar legend (as a document Eusebius himself accepted, which this Christian tradition's own record does not); also the earliest Greek notices of Tatian's harmony and Bardaisan's dialogues."
+  },
+  {
+   "work": "The Chronicle of Edessa",
+   "type": "primary",
+   "note": "A sober civic-and-church record, compiled c. 540s from archives; its year-201 flood entry is the earliest hard evidence of a Christian community at Edessa."
+  },
+  {
+   "work": "The Doctrine of Addai",
+   "type": "tradition",
+   "note": "This Christian tradition's own fuller telling of its Abgar-and-Addai foundation story — its self-understanding, not a historical record."
+  },
+  {
+   "work": "Theodoret, Ecclesiastical History II.26",
+   "type": "primary",
+   "note": "The remembered story of Bishop Jacob's prayer and the siege of Nisibis, written a century after the event."
+  },
+  {
+   "work": "Sozomen, Ecclesiastical History II.9–14, III.16",
+   "type": "primary",
+   "note": "The fullest surviving narrative of Shapur II's persecution of the Persian church, and an independent notice of Ephrem's famine relief in his last year."
+  },
+  {
+   "work": "Palladius, Lausiac History, ch. 40 (Ephraim)",
+   "type": "primary",
+   "note": "The fullest account of Ephrem's famine relief and death, gathered about fifty years after the fact."
+  },
+  {
+   "work": "\"Bardesanes and Bardesanites\", Catholic Encyclopedia",
+   "type": "reference",
+   "note": "Background on the Edessan philosopher-poet whose cosmology Ephrem's own hymns were written to refute.",
+   "url": "https://www.newadvent.org/cathen/02293a.htm"
+  },
+  {
+   "work": "Ute Possekel, \"Bardaisan of Edessa: Philosopher or Theologian?\", Zeitschrift für Antikes Christentum 10.3 (2006)",
+   "type": "reference",
+   "note": "The strongest non-hostile modern reconstruction; even on this reading, Bardaisan's own cosmology likely diverges from bodily resurrection specifically."
+  },
+  {
+   "work": "Sebastian Brock, The Luminous Eye: The Spiritual World Vision of Saint Ephrem the Syrian",
+   "type": "secondary",
+   "note": "Cistercian Studies 124, 1985 — by the scholar generally regarded as the leading authority on Ephrem and Syriac Christianity writing in English."
+  }
+ ],
+ "people": [
+  {
+   "person": "tatian"
+  },
+  {
+   "name": "Aphrahat",
+   "year": 336,
+   "voice": 1,
+   "author": "aphrahat",
+   "held": "npnf213_gregory-great-ephraim-syrus-aphrahat--select-demonstrations-of-aphrahat"
+  },
+  {
+   "person": "ephrem-the-syrian"
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "why": "Marcion was a wealthy shipowner from Sinope. He concluded that the strict God of the Hebrew Scriptures, who gave the law, could not be the same being as the merciful Father whom Jesus revealed. The Roman church expelled him and gave back his money, by tradition in 144. He then built a rival network of churches with its own edited Scripture: a version of Luke and ten letters of Paul, which he had stripped of what he judged to be Jewish corruption.",
+ "sourcing": "Substantial, almost entirely via opponents",
+ "floorNote": "Marcion taught two distinct gods — the creator of the Hebrew Scriptures and a higher Father revealed by Jesus — and a Christ who only appeared to have a body. Both directly contradict the creed's confession of one God, maker of all things, and a Son truly made flesh.",
+ "relationsSummary": "Second-century rival the proto-orthodox defined themselves against",
+ "teaser": "Rome and across the empire, c. 140 into the 300s CE — a shipowner who concluded the God of the Hebrew Scriptures could not possibly be the Father of Jesus, and built a rival church on that conviction.",
+ "voices": [
+  "Marcion of Sinope — shipowner and organizer, who founded an alternative church with its own bishops and its own edited Scripture",
+  "Tertullian of Carthage — wrote five books Against Marcion, the fullest surviving account of what Marcion actually taught",
+  "Irenaeus of Lyons — one of the earliest to answer him, and the source for the story that Polycarp, meeting Marcion in the street, called him 'the firstborn of Satan'",
+  "Justin Martyr — wrote against him within Marcion's own lifetime, in a work now lost"
+ ],
+ "legacy": "Marcionite churches faded in the West by roughly the fourth century and lingered considerably longer in Syria and the East, but nothing descends from them. What Marcion left behind is what he provoked. Congregations that had never needed to specify which books counted as Scripture discovered that they now had to, and the confession of one God, maker of heaven and earth, whose Son truly took flesh, was hammered into its sharpest early form in argument against him. How far he actually caused the New Testament canon rather than accelerated a process already under way is still debated by historians.",
+ "documentedStories": [
+  {
+   "title": "The Marcionites Who Died Beside the Catholics",
+   "when": "c. 250 and c. 259",
+   "tier": "1",
+   "verification": "from reference summaries; primary text not yet read",
+   "teaser": "The church that anathematized Marcion’s followers also recorded, more than once, that they died for the name of Christ.",
+   "text": "Almost everything about the Marcionite congregations comes from writers who wanted them gone. But Eusebius, working from earlier documents, twice notes something his sources could have left out. In the account of the martyrs of Smyrna he appends to Polycarp’s story, he records that a presbyter named Metrodorus, ‘who appeared to be a member of the sect of Marcion’, was burned alive in the same city with the presbyter Pionius, in the Decian persecution. And describing the persecution under Valerian in Palestine, he names three men executed at Caesarea for provoking the judge by their confession, and adds: ‘a woman also, who is said to have belonged to the sect of Marcion, is reported to have suffered the same contest.’ The anonymous writer against the Montanists whom Eusebius quotes elsewhere was aware that the Marcionites had ‘a great many martyrs of Christ’, and had to argue that this did not prove them right. What the notices show is a movement that lived the same life as the churches it had left — assemblies, presbyters, women who confessed before a governor — and paid the same price, while the two sides refused each other communion to the end. Marcion had taught that the God of the Old Testament was not the Father of Jesus; his followers died confessing Jesus all the same. The catholic historians recorded it in a subordinate clause, and it is to their credit that they recorded it at all.",
+   "caveat": "Brief notices in Eusebius of Caesarea drawn from lost martyr acts; the qualifier ‘who appeared to be’ and ‘is said to have belonged’ is Eusebius’ own hedge. Nothing further is known of Metrodorus or the woman at Caesarea.",
+   "sources": [
+    {
+     "work": "Eusebius, Church History IV.15.46",
+     "type": "primary",
+     "note": "Metrodorus the Marcionite presbyter burned with Pionius."
+    },
+    {
+     "work": "Eusebius, Church History VII.12",
+     "type": "primary",
+     "note": "The Marcionite woman martyred at Caesarea under Valerian."
+    },
+    {
+     "work": "Eusebius, Church History V.16.21",
+     "type": "primary",
+     "note": "The anti-Montanist writer conceding the Marcionites’ ‘great many martyrs’."
+    },
+    {
+     "work": "Judith Lieu, Marcion and the Making of a Heretic (Cambridge, 2015)",
+     "type": "reference",
+     "note": "The standard modern study; on Marcionite communities and martyrs."
+    }
+   ]
+  }
+ ],
+ "people": [
+  {
+   "name": "Justin Martyr",
+   "year": 150,
+   "voice": 3,
+   "source": {
+    "work": "Justin Martyr, First Apology 58 (ANF 1)",
+    "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+    "lines": "16131-16133",
+    "quote": "the devils put forward Marcion of Pontus, who is even now teaching men to deny that God is the maker of all things in heaven and on earth"
+   }
+  },
+  {
+   "person": "marcion-of-pontus"
+  },
+  {
+   "name": "Irenaeus of Lyons",
+   "year": 180,
+   "voice": 2,
+   "author": "irenaeus",
+   "held": "anf01_apostolic-fathers-justin-irenaeus--against-heresies-books-i-v-2"
+  },
+  {
+   "name": "Tertullian of Carthage",
+   "year": 207,
+   "voice": 1,
+   "author": "tertullian",
+   "held": "anf03_tertullian--on-the-flesh-of-christ-2"
+  }
+ ]
+}

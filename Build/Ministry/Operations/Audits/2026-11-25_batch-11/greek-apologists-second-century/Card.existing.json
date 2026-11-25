@@ -1,0 +1,106 @@
+{
+ "why": "For eighty years, Christian writers handed Roman emperors formal defenses of their faith, answering charges of atheism and cannibalism by arguing that Greek philosophy itself had been reaching toward Christ. Justin Martyr ran a school at Rome and was executed for his teaching around 165. A generation later, Theophilus of Antioch, writing to a pagan friend, became the first Christian author on record to call God by the word 'Trinity.'",
+ "sourcing": "Unusually good. Justin Martyr's two Apologies and the Dialogue, Athenagoras' Plea, Theophilus of Antioch to Autolycus, Tatian's Address and the Epistle to Diognetus all survive whole; Quadratus and Melito survive in fragments, and Aristides was recovered only in 1889. Roughly a dozen works in hand, which is more than several other traditions here have.",
+ "floorNote": "Not in question",
+ "relationsSummary": "It overlaps the household churches of the same years, in time and in people. Justin Martyr taught at Rome, Theophilus was bishop of Antioch and Melito bishop of Sardis. But it is a different thing. The household churches show the church's inner life. Here the church turns outward, to emperors and an educated public that despised it.",
+ "teaser": "Eighty years of Christians handing written defenses to emperors who had them killed anyway - and arguing, while they did it, that Plato had been half right.",
+ "voices": [
+  "Quadratus - the earliest, who gave Hadrian a defense around 124 and survives in a single paragraph",
+  "Aristides of Athens - whose apology was lost for seventeen centuries and recovered in 1889",
+  "Justin Martyr - philosopher, schoolmaster at Rome, author of two Apologies and the Dialogue with Trypho, beheaded about 165",
+  "Athenagoras of Athens - who addressed Marcus Aurelius and Commodus with the most philosophically careful of the defenses",
+  "Theophilus of Antioch - who wrote three books to a pagan friend and was the first to use the word Trinity of God",
+  "Melito of Sardis - bishop, apologist to Marcus Aurelius, and author of a Paschal homily recovered in the twentieth century",
+  "The writer to Diognetus - anonymous, undated, and the most quoted of all of them"
+ ],
+ "legacy": "Justin Martyr argued that, before the incarnation, the Word was already sowing seeds of truth in the philosophers. That gave the church a way to deal with the learning it had inherited, and it has never fully put that down. Clement at Alexandria spoke the same way of philosophers receiving 'the seeds of the Truth'. He and Origen took the idea much further. The apologists also settled some of the church's words. Theophilus of Antioch is the first writer whose work survives to use the word Trinity of God. And one line from the Epistle to Diognetus has outlived all the others the movement wrote. It calls Christians resident aliens, at home everywhere and strangers everywhere.",
+ "documentedStories": [
+  {
+   "title": "Justin Martyr’s Trial Before the Prefect Rusticus",
+   "when": "c. 165",
+   "tier": "1",
+   "verification": "checked directly against the primary text",
+   "teaser": "A philosopher and six companions are asked where they meet, and answer that God is not confined to a place.",
+   "text": "The record of Justin’s trial is short, and its shape is that of a Roman court transcript. The urban prefect Rusticus — a Stoic, and one of Marcus Aurelius’ teachers — asked what doctrines Justin followed. He answered that he had tried them all and settled on ‘the true doctrines of the Christians’, and gave a brief creed. Asked where they assembled, Justin said that Christians met wherever each could, since the God of the Christians was not confined to a place; as for himself, he lodged ‘above the baths of one Martinus’, and anyone who wished came to him there to hear the word. Rusticus then questioned the others one by one: Chariton, Charito (a woman), Euelpistus — an imperial slave who said he had received the faith from his parents — Hierax, Paeon, Liberianus. Each answered ‘I am a Christian’. Asked whether he expected to go up to heaven if he were scourged and beheaded, Justin said that he hoped so, and that he knew it. The prefect ordered them scourged and beheaded ‘in accordance with the laws’. The document ends with unnamed believers taking away the bodies. It is one of the very few second-century texts in which ordinary Christians — a slave, a woman, men known by one name — speak in the first person, however briefly.",
+   "caveat": "The Acts survive in three recensions; the shortest is usually judged closest to a court record, though it has been shaped for reading in church. The year is inferred from Rusticus’ term of office.",
+   "sources": [
+    {
+     "work": "The Martyrdom of the Holy Martyrs Justin, Chariton, Charites, Paeon, and Liberianus (Acts of Justin)",
+     "type": "primary",
+     "note": "ANF 1 translation of the Acts."
+    },
+    {
+     "work": "Herbert Musurillo, The Acts of the Christian Martyrs (Oxford, 1972)",
+     "type": "reference",
+     "note": "Greek text of all three recensions with translation and dating discussion."
+    }
+   ]
+  },
+  {
+   "title": "The Woman Who Left Her Husband, and What It Cost Ptolemaeus",
+   "when": "c. 150–160",
+   "tier": "1",
+   "verification": "checked directly against the primary text",
+   "teaser": "A Roman wife’s conversion ends her marriage; her husband takes revenge on her teacher, and a bystander objects.",
+   "text": "Justin opens his Second Apology with a case from his own city that had just happened ‘under Urbicus’, the prefect. A woman who had shared her husband’s dissolute life became a Christian and tried to persuade him to change; when he would not, and grew worse, she decided she could no longer live with him and — against her friends’ advice to wait — sent him a formal notice of divorce. He denounced her as a Christian. She petitioned the emperor for time to settle her affairs and got it, so her husband turned on the man who had instructed her, Ptolemaeus. A centurion he knew arrested Ptolemaeus and asked him one question: was he a Christian? He said yes, was jailed for a long time, and was finally brought before Urbicus, who asked the same question and, on the same answer, ordered him executed. A man named Lucius, watching, asked the prefect aloud why someone convicted of no adultery, theft or crime was being punished for a name; Urbicus asked whether he too was a Christian, and Lucius said he was and was led off. A third man followed. Justin records the whole thing to argue that Christians were being killed for a label, but the episode also shows what conversion did inside a Roman household — and that the church’s teachers, not only its converts, paid for it.",
+   "caveat": "A contemporary account by a man in the same city, written within months; Justin Martyr is an advocate, not a neutral reporter, and gives only the Christian side of the marriage.",
+   "sources": [
+    {
+     "work": "Justin Martyr, Second Apology, ch. 1–2",
+     "type": "primary",
+     "note": "The whole episode."
+    },
+    {
+     "work": "Eusebius, Church History IV.17",
+     "type": "primary",
+     "note": "Eusebius quotes the passage."
+    },
+    {
+     "work": "Peter Lampe, From Paul to Valentinus: Christians at Rome in the First Two Centuries (Fortress, 2003)",
+     "type": "reference",
+     "note": "Situates the case in Roman social history."
+    }
+   ]
+  }
+ ],
+ "people": [
+  {
+   "name": "Quadratus",
+   "year": 124,
+   "voice": 0,
+   "author": "quadratus",
+   "held": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-quadratus"
+  },
+  {
+   "name": "Aristides of Athens",
+   "year": 125,
+   "voice": 1,
+   "author": "aristides",
+   "held": "anf09_gospel-of-peter-diatessaron-origen-commentaries--the-apology-of-aristides-the-philosopher"
+  },
+  {
+   "person": "justin-martyr"
+  },
+  {
+   "name": "Melito of Sardis",
+   "year": 170,
+   "voice": 5,
+   "author": "melito-of-sardis",
+   "held": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-melito-of-sardis"
+  },
+  {
+   "name": "Athenagoras of Athens",
+   "year": 177,
+   "voice": 3,
+   "author": "athenagoras",
+   "held": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--a-plea-for-the-christians"
+  },
+  {
+   "name": "Theophilus of Antioch",
+   "year": 180,
+   "voice": 4,
+   "author": "theophilus",
+   "held": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--theophilus-to-autolycus"
+  }
+ ]
+}

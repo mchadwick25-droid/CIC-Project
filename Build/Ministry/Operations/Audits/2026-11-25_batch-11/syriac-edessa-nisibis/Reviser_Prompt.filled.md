@@ -1,0 +1,27 @@
+# Batch header
+
+- **Story:** Syriac Christianity (census name: Syriac Christianity (Edessa/Nisibis)) (census id `syriac-edessa-nisibis`). **Kind:** tradition (`Build/Ministry/Features/Church-Family-Tree/Brief-Kit/kinds/tradition.md`). **Folder:** `Build/Ministry/Operations/Audits/2026-11-25_batch-11/syriac-edessa-nisibis/`. **Card file:** `Build/Ministry/Operations/Audits/2026-11-25_batch-11/syriac-edessa-nisibis/Card.existing.json` (the census entry's card fields; a tradition has no `card` field).
+- **Job on the slate (Mark, 2026-11-25, "Batch 11: the slate approved": "Approve as recommended". This batch only.):** The Syriac-speaking Christians of Edessa and Nisibis. The story runs from the church swept away by the flood of 201, through the covenant of sons and daughters, a Gospel heard as one story, and hymns sung against rival teachers, to siege, persecution and the synod of 410. Half A.
+- **Census home and direct line:** Its own entry. Direct line: continued as the early Persian Church of the East (`persian-church-of-the-east-early`, Documented). Gave rise to Syriac Orthodox / West Syriac (Inferential-Thin: stays off the story and the card).
+- **Descent or break:** None lacking. The Persian half (Simeon bar Sabbae, the synod of 410) is the continued-as entry's own story: it comes in here only as the hand-off, a clause or two at the end. No census change.
+- **Siblings in the batch:** Marcionism and Manichaeism (Ephrem answers both by name: a clause here; each tells itself, researched after this outline).
+- **Live beside it:** ephrem-the-syrian, tatian (the Diatessaron), bardaisan-of-edessa, and the persian-church-of-the-east-early tradition text.
+- **Heart and length:** approved (Mark, 2026-11-25, "Batch 11: hearts and lengths approved": "Approve as recommended"): the heart as `Outline.md` holds it under "The heart", and **540 words**, as its "Approved heart and length" section records. Every Cut first item goes to the card or Leave out as it is marked. Also kept by that ruling: nothing further. **Length now governs as ruled:** Mark, 2026-11-25 ("Batch 11: lengths, up to 4:30 and cut at the outline", "a"): about 650 words, the length the check found. The heart as `Outline.md` now holds it governs, with any wording the outline check corrected.
+- **This batch's rulings (Mark, 2026-11-25, "Batch 11: the slate approved": "Approve as recommended". This batch only.):** Quotes: no reuse is planned for this batch. Every quote in the live stories named under Live beside stays barred; a quote another story on the tree uses may be used only where the slate lists it, and the slate lists none. Inside the batch, no quote is shared. A researcher who wants a barred quote asks. Barred: Ephrem's "See, on your behalf I appoint myself to take in and care for the needy…" (ephrem-the-syrian), the same famine relief; and every other quote in the stories beside it.
+- **Also:** A built world: read `cic-website/data/worlds/syriac-edessa-nisibis.json` first (Kind kit, Sources). Its census `entry` texts (`tile`, `intro`, `summary`, `recordHolds`) are rebuilt in this batch too (Open-Gaps 416); the outline's heart serves them.
+
+- **Approved before the kit (Kit Part 3, step 0):** this tradition's live text, `Build/Ministry/Operations/Audits/2026-11-25_batch-11/syriac-edessa-nisibis/syriac-edessa-nisibis.brief.approved.txt`, was approved before the kit and goes through every step here. Read it too. Keep its wording wherever it passes the standard and the outline; change what does not, and use nothing in it the outline does not hold.
+
+---
+
+# Reviser
+
+You make the one revision of one Church Family Tree story about **Syriac Christianity**, in `Build/Ministry/Operations/Audits/2026-11-25_batch-11/syriac-edessa-nisibis/`. You did not write or review it. Read `Build/Ministry/Features/Church-Family-Tree/Brief-Kit/Kit.md`, Part 1, and the kind kit the batch header names (`Build/Ministry/Features/Church-Family-Tree/Brief-Kit/kinds/<kind>.md`), then `Outline.md`, `Review.md` and `syriac-edessa-nisibis.brief.txt`. Read nothing else, except a file in `cic/texts/` to check a line the review or outline cites.
+
+1. Before you change anything, copy the brief to the next free backup, `syriac-edessa-nisibis.brief.v1.txt` (or `.v2.txt` on a craft pass), which is never edited; every change goes into `syriac-edessa-nisibis.brief.txt`, the live file.
+2. Add each Do not say line that `Review.md` gives to `Outline.md`, word for word.
+3. Fix every finding in `Review.md`, BLOCKING and MINOR, using only what the outline holds. Where the review gives exact wording, use it word for word. Keep every sentence the review does not touch, word for word. Make the review's cuts, and add only what a finding requires. Keep to the outline's length; never cut the record's force, a credited disagreement or a plain sense to save time.
+4. Run `python -m engine.m1.profile_readability Build/Ministry/Operations/Audits/2026-11-25_batch-11/syriac-edessa-nisibis/syriac-edessa-nisibis.brief.txt`. It must pass. Hear it once as the listener. Re-read your work for the four faults in Part 1 of the kit. American spelling outside quotes.
+5. Write `Revision.md`: each finding and what you did; each new sentence that is neither the outline's nor the old brief's wording, with its outline line; the word at which the essence is complete; the word count and minutes.
+
+Do not commit. Reply in under 150 words: the word count, the scorer line, the word at which the essence ends, and anything you could not do.

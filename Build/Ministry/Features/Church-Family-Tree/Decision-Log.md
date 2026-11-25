@@ -5917,6 +5917,63 @@ Mark: "option 1", on the page https://claude.ai/artifact/UStZATEaBtT445YAKgNEi6 
 3. Pushed off, already C or B: `palestinian-church-pre-constantinian` and `anatolian-church-third-century` (C), and `novatianism` and `valentinian-and-other-gnostic-christianities` (B). They wait until after era 2's Fs (Open-Gaps 418).
 4. Then era 2 the same way: its grades to Mark first, then his call on what to do and what to push off.
 
+## 2026-11-25 — Batch 11: the slate approved (Mark)
+
+**Why.** Step 0 of batch 11 (era 1 traditions). The slate went to Mark on one page, https://claude.ai/artifact/DsZbVTkmK5mK4YtSbe1mer (version 1).
+
+**Decided (Mark, 2026-11-25): "Approve as recommended".**
+1. The thirteen jobs and halves as the slate gives them.
+2. Research order: Alexandria, Syriac, Antioch, Apocryphal and Greek Apologists first; Roman Church after Antioch's outline; Ebionites after Apocryphal's; Latin Pastoral after Roman Church's; Latin Apologists and House Church (after Greek Apologists') first in half B; Manichaeism after Latin Pastoral's; Marcionism and Montanism after Latin Apologists'.
+3. Apocryphal literature is told through the people who wrote, read, copied and judged the books, centred on the second to fourth centuries.
+4. No census direct-line change: the Ebionites' descent from the Pella believers is told in Epiphanius's voice only, if held; no continued-as line from the House Church to the third-century churches of Antioch and Anatolia; Alexandria's Contested link to Desert Monasticism stays off the story unless the old sources carry it.
+5. Quotes: no reuse; every quote in the live stories beside each one stays barred; the House Church drops the "ten leopards" scene, which `ignatius-of-antioch` opens on. Pliny's hymn "as God" and the two *ministrae* may stay there.
+6. Every story kept, with the job split the slate gives; Marcionism opens after the break with Rome.
+
+All of it is this batch only.
+
+## 2026-11-25 — Batch 11: hearts and lengths approved (Mark)
+
+**Why.** Kit Part 3, step 1. The thirteen hearts, their confidence and an independent length count went to Mark on one page, https://claude.ai/artifact/DaEJUTfxzvZEfwhyyFKzCU (version 1); the count is `Build/Ministry/Operations/Audits/2026-11-25_batch-11/Length_Count.md`.
+
+**Decided (Mark, 2026-11-25): "Approve as recommended".**
+1. The thirteen hearts as each `Outline.md` holds them. Latin Apologists' job drops "a language with no words for it yet".
+2. Each length is its independent count, rounded up to the next 5 words and capped at 675: Alexandria 445, Syriac 540, Antioch 535, Roman Church 625, Apocryphal 510, Ebionites 660, Greek Apologists 505, Latin Apologists 515, Latin Pastoral 650, Manichaeism 675, Marcionism 495, Montanism 500, House Church 675. Every Cut first item goes to the card or Leave out as it is marked; Manichaeism and the House Church add to their Cut first lists to reach 675.
+3. The Roman Church ends at 251, with the confessors' return.
+4. Kept: Theodoret's Marcionite villages in Marcionism; Pliny's dawn hymn and Justin's Sunday in the House Church.
+5. The roll-call risk in Greek Apologists and Ebionites is a test for the outline check.
+
+All of it is this batch only.
+
+## 2026-11-25 — Batch 11: lengths, up to 4:30 and cut at the outline (Mark)
+
+**Why.** The approved lengths (the independent count, a formula) ran short of the real telling: the outline checks found Alexandria about 525 against 445, Syriac about 650 against 540, Montanism about 540 against 500, Latin Pastoral about 870 against 650 and the Ebionites about 730 against 660; the first two drafts ran Antioch 675 against 535 and the Roman Church 960 against 625 (its check had passed it at about 622). The page: https://claude.ai/artifact/5Q6eUCoiF48RMJRqsG6WeM (version 6).
+
+**Decided (Mark, 2026-11-25): "a".**
+1. Every story may run up to 675 words (4:30), and no longer than its heart needs. Where a draft or a check runs past 675, the outline goes back to its researcher, who moves beats to the card or Leave out until it fits; the checker confirms nothing from the heart or Part 1's required explanations goes; then the writer drafts again.
+2. Antioch stays at 675 as drafted; the reviewer may name cuts of lines that do not carry the heart. The Roman Church outline is cut back to 675 that way. The Ebionites take Cut first items 7 and 8 (Ending 2 in place of Augustine's ending; the Pella beginning left out), about 660. Latin Pastoral takes its recheck's moves 1 to 7 and keeps its essence whole, about 690. Alexandria (about 525), Syriac (about 650) and Montanism (about 540) keep the lengths their checks found.
+3. The three heart wordings the outline check changed (Alexandria, Latin Apologists, House Church) stand.
+
+This batch only. A kit change, so that the hearts page's count comes from a test telling rather than a formula, would come to Mark on its own.
+
+## 2026-11-25 — Batch 11: the first two briefs approved (Mark)
+
+**Why.** Kit Part 3, step 5: the first two briefs to pass the one revision and the fresh read come to Mark before any other is written. Antioch (670 words, grade 8.2) and the Roman Church (678, grade 8.5) each failed its fresh read on one sentence and carried that reader's exact fix. The page: https://claude.ai/artifact/RmjJuuRMUeE6iLyTu5Fytx (version 1).
+
+**Decided (Mark, 2026-11-25): "approve both, write the other eleven in parallel".**
+1. Both briefs approved as they stand, the Roman Church at 678, three words past 675.
+2. The other eleven are written now, in parallel.
+
+This batch only.
+
+## 2026-11-25 — Batch 11: the two long stories (Mark)
+
+**Why.** Under "Batch 11: lengths, up to 4:30 and cut at the outline", Manichaeism and Latin Pastoral could not reach their lengths without cutting the heart. The page: https://claude.ai/artifact/FpZMt6qFiHrKXKh3F9H5y1 (version 1).
+
+**Decided (Mark, 2026-11-25): "approve the two long ones"** (the page's recommended option A for both).
+1. Manichaeism: about 725 words (4:50). The nine cuts that cost no heart, and Mani's line about the messengers told in the narrator's words instead of quoted. Mani's break with the baptizers is among the nine cuts.
+2. Latin Pastoral Christianity in Africa: about 760 words (5:03). Novatian's envoys at Carthage kept, so the slate's job (Novatian told here) stays whole.
+
+This batch only.
 **Added (Mark, 2026-11-25): "a".** Asked "why do we need to regrade batch 11, or just after", he chose an independent grading of the new texts only. Once batch 11 has finished, its 13 new texts are graded once by readers outside the batch, who have not seen its drafts or reviews. They use the same scans, the same first-time listener and the same A to F rules as `Build/Ministry/Operations/Audits/2026-11-25_tradition-grades/`. Each text's grade before and after goes to Mark on one page, beside his own listening. Batch 12 waits on that page.
 
 ## 2026-11-25 — Era 2 traditions: thirteen rebuilt now, ten pushed off (Mark)
@@ -5934,3 +5991,32 @@ Mark: "option 1", on the page https://claude.ai/artifact/UStZATEaBtT445YAKgNEi6 
 2. Batch 12 starts only once batch 11 has finished and Mark has judged its results. Mark: "lets finish era 1 to make sure we are on track and not just writing in circles before going forward".
 3. Pushed off, too thin in the Library: `apollinarian-christianity` (4 works), `melitian-schism` (1), `aksumite-christianity-conversion-era` (0) and `luciferians` (0). They go to the source-research thread first (Open-Gaps 419).
 4. Pushed off, already C or B: `imperial-juridical-christianity`, `hieronymian-ascetic-literary`, `ambrosian-milan-standalone`, `gallic-nicene-episcopate` (C), and `palestinian-ascetic-monasticism-early`, `pelagianism` (B). The two built worlds, Imperial and Hieronymian, come first when the C pass starts (Open-Gaps 420).
+
+## 2026-11-25 — Batch 11: Montanism released alone and recorded (Mark)
+
+**Why.** Mark asked to hear the best brief on audio. The recommendation was Montanism, the one brief to pass every fresh read with nothing blocking, its card checked. The recording tool reads the census, so the brief must be released first; doing that ahead of the batch means a second pull request. `Recording_Settings.md` has no tradition line; the proposal was the council line (the tree's default narrator).
+
+**Decided (Mark, 2026-11-25): "yes i want to make sure we are on the right track, release and record"**, in answer to: record Montanism, cap 4,000 characters, with the council voice and settings.
+1. Montanism goes through second readings and release on its own, in its own pull request, ahead of the batch.
+2. One recording: `montanism-the-new-prophecy`, voice `onwK4e9ZLuTAKqWW03F9`, model `eleven_multilingual_v2`, the council line's fixed format and delivery, `--char-cap 4000`. The file goes to Mark to hear before any other story is recorded.
+
+This batch only. Whether traditions keep the council line is for `Recording_Settings.md` once Mark has heard it.
+
+## 2026-11-25 — Batch 11: Montanism fixed and regraded before recording (Mark)
+
+**Why.** The new Montanism brief graded C (from F): rigor C on one Supporting bare statement (Justinian's order, no why), craft B on two blocking faults (no when in the opening; the elder's dare loses the thread). `montanism-the-new-prophecy/Grade/Grade.md`.
+
+**Decided (Mark, 2026-11-25): "so fix and regrade".** One checked craft pass on: the opening's when; the elder's sentence; what the Asian synods found "novel and profane" (from the sources); Justinian's reason only if Procopius gives one. Tertullian's reason and who razed Pepuza are left. Then the same four graders again, and a trust read of the changed sentences, before the recording.
+
+This batch only.
+
+## 2026-11-25 — Batch 11: the eight briefs, Manichaeism's length and the grade fixes (Mark)
+
+**Why.** Three open questions: the eight briefs page (https://claude.ai/artifact/NAyY4X9eycAVbj9s3No8Lv, version 2), Manichaeism's length (https://claude.ai/artifact/2GbrcpwDebLWV88fntc82T, version 1), and the fixes the batch grade found (`2026-11-25_batch-11/Grades/Grades.md`).
+
+**Decided (Mark, 2026-11-25): "yes to all"**, read as each recommendation:
+1. The seven briefs that failed their fresh read on a point are approved with their fixes (Alexandria, Latin Apologists, Ebionites, Marcionism, Greek Apologists, House Church, Latin Pastoral). The Apocryphal Books: option A, the sentence stands with the teaching unnamed, the card carrying the gap.
+2. Manichaeism: option A, about 830 words, reviewed as it stands.
+3. The grade fixes, groups 1 to 3: Ebionites and Greek Apologists rebuilt at the outline in a story shape; the quick craft fixes (openings missing when or where, thread-losing sentences, add-on lines); the missing reasons both graders and the listener caught, where the sources hold them. Then a regrade. Group 4 (grader-only findings) is left.
+
+This batch only.

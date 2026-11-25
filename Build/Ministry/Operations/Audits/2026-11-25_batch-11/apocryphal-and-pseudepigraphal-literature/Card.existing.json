@@ -1,0 +1,75 @@
+{
+ "why": "For centuries Christians copied and read stories that never entered the Bible. One was the Protevangelium of James. It is the source of nearly everything later believers came to know about Mary's parents and childhood. Some of these works, like the Life of Adam and Eve, began as Jewish texts. They survive today only because Christian scribes kept copying them, long after Judaism itself had let them go.",
+ "sourcing": "Large and uneven. Around a dozen works survive - the apocryphal Acts of Andrew, John, Philip, Peter and Paul, the Protevangelium of James, the Infancy Gospel of Thomas, the Gospel and Apocalypse of Peter, the Testaments of the Twelve Patriarchs, the Revelation of Moses, the Narrative of Zosimus. Dates and provenance are disputed for nearly all of them, and the received text is often centuries later than the tradition behind it.",
+ "floorNote": "Not in question",
+ "relationsSummary": "This is not a community and not a tradition. It is a body of writing that passed among all of them. Its natural link to the other early movements is that many of them read it. Origen, for one, knew the Protevangelium as the Book of James.",
+ "teaser": "The books the church read for centuries and never put in the Bible - including the Jewish ones that survive only because Christian scribes kept copying them.",
+ "voices": [
+  "The Protevangelium of James - anonymous, mid-second century, and the source of nearly everything later Christians believed about Mary's childhood",
+  "The apocryphal Acts of Andrew, John, Philip and Thomas - apostolic adventure written in the register of Greek romance, often with an ascetic edge",
+  "The Testaments of the Twelve Patriarchs - a Jewish work with Christian passages worked in, or a Christian work on Jewish sources; the argument is unresolved",
+  "The Gospel of Peter - condemned for its use at Rhossus by Serapion of Antioch, and recovered from an Egyptian grave in 1886",
+  "The Apocalypse of Peter - which stood near the canon's edge in the Muratorian fragment, and did not make it"
+ ],
+ "legacy": "Marian devotion in both East and West rests in large part on the Protevangelium of James. Anna and Joachim and the presentation in the Temple came from it into the church's calendar and its sacred images. Yet the church never accepted the book as scripture. The ox and the ass at the manger come from Pseudo-Matthew, a later Latin retelling. The apocryphal Acts tell how the apostles died: Peter crucified head down, Philip hung by his ankles. Medieval art and legend probably took most of what they knew of those deaths from them. And the Jewish books in this collection, written under the names of ancient figures, survive only because Christians copied them. Ironically, they were kept by the tradition that had parted from the one that produced them.",
+ "documentedStories": [
+  {
+   "title": "Serapion Reads the Gospel of Peter Properly",
+   "when": "c. 200",
+   "tier": "1",
+   "verification": "checked directly against the primary text",
+   "teaser": "A bishop lets a congregation read an unfamiliar gospel, then borrows a copy and changes his mind.",
+   "text": "Serapion, bishop of Antioch, visited the small church at Rhossus on the coast and found a dispute over a book called the Gospel of Peter. His first ruling, by his own account, was relaxed: ‘If this is the only thing that seems to make bad blood among you, let it be read.’ He assumed the congregation was orthodox and had not read the book himself. Once he learned that the people pressing for it were inclined to docetism — the teaching that Christ’s body was not real — he obtained a copy from the group that used it, read it through, and wrote back to Rhossus withdrawing his permission. His letter, which Eusebius quotes, is measured: ‘the most part indeed was in accordance with the true teaching of the Saviour, but some things were added’, and he listed them. He also explained his method: ‘we receive both Peter and the other apostles as Christ, but the writings that falsely bear their names we reject.’ The episode shows the process by which the second-century church actually sorted its books — not by decree, but by a bishop reading a text against what he already knew of the apostolic teaching and telling a congregation why. The Gospel of Peter was then lost until a fragment turned up in a monk’s grave at Akhmim in 1886.",
+   "caveat": "Known only through Eusebius of Caesarea’s quotation of Serapion’s letter, a century later; the letter reads as genuine and is generally accepted.",
+   "sources": [
+    {
+     "work": "Eusebius, Church History VI.12",
+     "type": "primary",
+     "note": "Quotes Serapion’s letter On the So-called Gospel of Peter."
+    },
+    {
+     "work": "The Gospel of Peter (Akhmim fragment)",
+     "type": "primary",
+     "note": "The surviving text Serapion was ruling on."
+    },
+    {
+     "work": "Paul Foster, The Gospel of Peter: Introduction, Critical Edition and Commentary (Brill, 2010)",
+     "type": "reference",
+     "note": "On the Rhossus episode and the fragment’s relation to Serapion’s book."
+    }
+   ]
+  },
+  {
+   "title": "The Presbyter Who Wrote the Acts of Paul ‘For Love of Paul’",
+   "when": "c. 190–200",
+   "tier": "1",
+   "verification": "checked directly against the primary text",
+   "teaser": "A churchman in Asia confesses to composing a popular apostolic romance, and loses his office for it.",
+   "text": "Tertullian, arguing around 200 that women should not baptize, had to deal with an authority his opponents were citing: the Acts of Paul, in which Thecla, a young woman of Iconium, baptizes herself in a pool of seals and is commissioned by the apostle to teach. He dismissed it in one sentence that has become the best-documented case of Christian pseudepigraphy in the ancient church. The book, he said, was written by a presbyter in Asia who, when convicted of it, ‘confessed that he had done it for love of Paul’ and was removed from his office. Tertullian’s point was that a text composed by a known man in the recent past could not be used to overturn Paul’s own instruction. What the notice records, almost by accident, is a whole culture: a presbyter who admired Paul enough to write a novel about him; congregations that read it eagerly and treated Thecla as a real saint; and a church that, when it found out, disciplined the author but could not recall the book. The Acts of Paul went on circulating for centuries, Thecla became one of the most venerated women in the Eastern church, and the presbyter’s name was never recorded.",
+   "caveat": "A contemporary notice by a hostile witness; Tertullian is polemical but had no reason to invent the confession. Scholars accept the outline; the presbyter’s identity and motives beyond ‘love of Paul’ are unknown.",
+   "sources": [
+    {
+     "work": "Tertullian, On Baptism, ch. 17",
+     "type": "primary",
+     "note": "The notice of the presbyter."
+    },
+    {
+     "work": "Acts of Paul and Thecla",
+     "type": "primary",
+     "note": "The text in question (ANF 8)."
+    },
+    {
+     "work": "Jerome, Lives of Illustrious Men, ch. 7",
+     "type": "primary",
+     "note": "Repeats the story with the added claim that the presbyter was tried before John."
+    },
+    {
+     "work": "Bart D. Ehrman, Forgery and Counterforgery (Oxford, 2013)",
+     "type": "reference",
+     "note": "On the episode as evidence of ancient attitudes to pseudepigraphy."
+    }
+   ]
+  }
+ ],
+ "people": []
+}

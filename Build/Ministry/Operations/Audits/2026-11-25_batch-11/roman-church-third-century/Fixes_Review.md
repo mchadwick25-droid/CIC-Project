@@ -1,0 +1,30 @@
+# Review fix pass: The Roman Church in the Third Century
+
+Applied from `Review.md` to `Outline.md`, with the rows it needs in `Source_Sheet.md`. `Outline_Check.md` was not used.
+
+## Applied verbatim
+
+- **B1 Do not say:** | "one church" or "one large, mixed church" before 251 | "a large, mixed church" (H 13872, 13884-13886; E 32244-32246) |. Added to Do not say. The heart's essence now reads "were a large, mixed church". **This changes the approved heart's wording:** "one" is cut, because the source shows rival groups at Rome.
+- **B2 Do not say:** | "learned teacher" or "teacher" for Hippolytus | "a writer of that time" (E 35447-35449) |. Added to Do not say. The essence now reads "a writer of that time who opposed two bishops and lost". **This changes the approved heart's wording:** no old source calls him a teacher.
+- **B3 Do not say:** | "Many gave way" (Rome, 250) | "Some gave way" (D3, "quidam ... ruerunt"; "ecclesia stat fortiter in fide") |. Added to Do not say. "What they faced" now reads "some who gave way". **This changes the approved heart's wording:** the Latin says "quidam", some.
+- **B4 Do not say:** | "Rome's elders and deacons wrote" (Ep. 8) | "Rome's clergy wrote" (CyL 1235, "epistulae clericae"; the letter names no writers) |. Added to Do not say. Cut first 15 now reads "keeping that Rome's clergy wrote".
+- **B5 Do not say:** | "sent to the mines" with no reason | the reason in Hippolytus's voice, or "who had been a slave" alone (C1) |. Added to Do not say.
+- **B7 Do not say:** | "Bishop Zephyrinus" in the opening, with no city | "Zephyrinus, bishop of Rome" |. Added to Do not say. Opening 1 now reads "before Zephyrinus, bishop of Rome".
+- **M1:** the Do not say row's right-hand side now reads "He was barely taken back into communion" (Z4).
+- **M2:** the essence is reordered to "They argued in public over how to speak of Father and Son, whether the church could take back people who had sinned gravely, and whom a Christian woman of rank might marry, until a stricter party broke away in 251." **This changes the approved heart's wording:** it is the same content in the story's own order, and it ends the garden-path reading.
+- **Named cut (Length):** now Cut first 31. Beat 7's count reads "forty-six elders, seven deacons, and more than a hundred lesser clergy" (−13). The source holds this sense. N3 gives 7 + 42 + 52 = 101 (E 38565-38615; E-Gk 6919-6923). Cyprian counts exorcists and readers among the clergy (CyL 3392 "praesente de clero et exorcista et lectore"; CyL 5490-5492). The gloss "lesser clergy, from attendants to doorkeepers" was already in Words to explain. I took "Cornelius's count" out of the never-cut list and replaced it with the short form.
+
+## Worded by me
+
+- **B1, Setting:** "a large, mixed church in the city, with its bishop, ..." (H 13872, 13884-13886, as the review cites them).
+- **B2, other rows:** in Who tells it, "A writer of that time at Rome who opposed Zephyrinus and Callistus ... (E 35447-35449)". In the Do not say row on rival bishop, "a writer of that time who withstood the bishops" (E 35447-35449 "presided over another church, has left writings"; Z9 "reproved and withstood him"). The Source_Sheet main-witness note had the same error: it now reads "a writer of that time at Rome (E 35447-35449 ...)".
+- **B4, other rows:** in Who tells it, "Rome's clergy, 250; the letter names no writers (CyL 1053, 1235 'epistulae clericae')". In Source_Sheet D3, "own words (Rome's clergy; the letter names no writers, CyL 1053, ...)". At CyL 1053 the letter opens with no salutation naming its writers. At CyL 1235 Cyprian calls it "epistulae clericae".
+- **B5 (a):** the held source gives the reason, so it went in, not the cut. New Source_Sheet row C1a quotes H 13725-13751. Callistus "created a disturbance" in a synagogue on the Sabbath (13726-13731). The Jews charged that he did it "alleging that he is a Christian" (13736-13738). Fuscianus, "swayed by these Jews", sent him "to a mine in Sardinia" (13749-13751). Witness: contemporary, enemy (Hippolytus, hostile). Confidence: Documented as Hippolytus's account. Beat 1, the Do not say row on Noah's ark and Cut first 24 now read "who had been a slave and, Hippolytus says, was sent to the mines for disturbing a synagogue" (+4). The barred `hippolytus-of-rome` tells the same act in narration only. No quote is used.
+- **B6:** new Source_Sheet row C6a. Hippolytus's own view, from Against Noetus as ANF prints it among his works: "I shall not indeed speak of two Gods, but of one; of two Persons however" (H 23728-23732). Callistus's view and charge, as Hippolytus reports them: "Ye are Ditheists" (H 13839, barred, narrate only) and "the Father is not one person and the Son another" (H 13845-13846). Beat 2, after Q1, now has this, narrated: "Hippolytus spoke of one God but two persons; Callistus called that two Gods" (+13). It brings back the charge only from Cut first 21, here and nowhere else; Leave out and Cut first 21 say so. It is added to the never-cut list. The Library sweep line on Against Noetus now notes this one use.
+- **Second cut, needed because B5 and B6 add about 17:** Cut first 32 takes the widows and people in distress out of beat 7's count (−12; Leave out). The essence already gives them ("more than fifteen hundred widows and poor whom it fed", N3). This takes no gloss and no reason. Recount: 675 + 2 (B2, B4, B7, M4, M5) + 4 + 13 − 13 − 12 = about 669. This is recorded under Length and at the end of Cut first.
+
+## Not applied
+
+- **B2 / B4 / B7 / M1 / M4 / M5 / M6, the draft sentences:** these change the brief's text, not the outline. They are left for the reviser. Their outline rows are fixed above.
+- **B6, a further clause on Hippolytus's charge that the Father suffered (C6, Cut first 8):** not brought back. There is no room at 675. Beat 2 already gives Hippolytus's objection: he says Callistus shared Sabellius's view (H 13838-13840, 13867-13868).
+- **M3 (tares gloss) and the review's other "noted, not applied" items:** not applied, as the review itself rules.

@@ -1,0 +1,68 @@
+{
+ "why": "In 268, a council of bishops at Antioch deposed Paul of Samosata. He taught that Christ was a man the Word had come to dwell in, rather than the Word made flesh. The bishops found his conduct just as troubling, including a raised throne in church and hymns sung to himself. He would not leave until the emperor Aurelian retook the city in 272. Aurelian settled the matter by asking which claimant was in communion with the bishops of Italy and Rome. In the 350s, bishops wary of Nicaea's word 'homoousios' pointed back to this council. They said it had turned the word down, and Athanasius of Alexandria had to explain why.",
+ "sourcing": "Only one document survives directly from this period: Malchion's synodal letter deposing Paul of Samosata, about three thousand words, the collective act of a council rather than an individual's book. Serapion's fragments fall just before this window. Everything else about these hundred years arrives through Eusebius of Caesarea, quoting archives at second hand, and through what the fourth century said about Lucian once his pupils had become notorious.",
+ "floorNote": "The city's church itself is not in question. But Paul of Samosata's own teaching is a live, unresolved question about where the doctrinal line falls, distinct from the other monarchian currents of the period, such as Sabellius's modalism.",
+ "relationsSummary": "Third-century Antioch was the seedbed of the fourth-century quarrel over the Son. Lucian's pupils led the Arian party. Three of them later taught Aetius, the first Anomoean teacher. Its tie to modalist monarchianism is a mirror, not a line of descent. Paul of Samosata taught adoptionism and Sabellius taught modalism. These were opposite ways of refusing the account of the Son that the century was working out.",
+ "teaser": "A council removed the bishop of the greatest city in the East for what he taught and how he behaved, and could not make it stick until an emperor decided who owned the building.",
+ "voices": [
+  "Paul of Samosata - bishop of Antioch and Palmyrene official, deposed for teaching that Christ was a man indwelt by the Word, surviving only in his enemies' minutes",
+  "Malchion - head of the city's rhetorical school, who cross-examined Paul of Samosata before stenographers and drafted the letter that deposed him",
+  "Lucian of Antioch - biblical text-critic and martyr in 312, whose pupils, Arius among them, called themselves Lucianists",
+  "Serapion - bishop about 191 to 211, who let the Gospel of Peter be read at Rhossus, read it properly, and withdrew the permission",
+  "Aurelian - who took the city back from Palmyra in 272 and settled the dispute by asking which claimant Italy recognized"
+ ],
+ "legacy": "Two things went out of this council into the fourth century. The word homoousios - one substance - seems to have been rejected here as something Paul of Samosata had misused. A generation after Nicaea adopted it in 325, Eastern bishops who were not Arians still cited this council when they balked at it. And Lucian's school gave the Arian party its leadership and its self-description: Arius wrote to Eusebius of Nicomedia as one Lucianist to another. The Antiochene way of reading Scripture, carried by Diodore, Theodore of Mopsuestia and Chrysostom, may also go back to Lucian's work on the text. No ancient source draws that line. If it does, this century began two things the next four centuries spent arguing about.",
+ "documentedStories": [
+  {
+   "title": "Lucian of Antioch, Nine Years in Prison",
+   "when": "312",
+   "tier": "2",
+   "verification": "from reference summaries; primary text not yet read",
+   "teaser": "The scholar whose students would later start the Arian controversy is remembered for how he answered the emperor.",
+   "text": "Lucian was a presbyter of Antioch who spent his life on the text of the Greek Bible, producing a revision of the Septuagint and Gospels used across the Greek East for centuries. He was also, on the later testimony of his pupils, a teacher whose circle — Arius and Eusebius of Nicomedia among them — called themselves ‘fellow-Lucianists’ long after he was dead. What the record preserves about the man himself is the manner of his death. Eusebius, writing within a few years, says Lucian was brought before the emperor Maximinus at Nicomedia, delivered a defense of the faith, and was put in prison and killed; a later notice puts it on 7 January 312 and adds that he had been held for nine years. Chrysostom, preaching on his feast at Antioch three generations later, gave the tradition his congregation knew. Under questioning, Lucian gave every question the same answer: he was a Christian. Later still comes the story that, chained on his back in the cell and forbidden the sacrament, he celebrated the Eucharist on his own chest for the Christians imprisoned with him. The scholar is documented; the confessor is attested; the prisoner-priest is devotion. All three belong to how Antioch remembered him, and the awkward fact that the most notorious heresy of the next century traced itself to his classroom did not stop the church from keeping his feast.",
+   "caveat": "Eusebius of Caesarea is near-contemporary but brief; Chrysostom’s account of his one answer is a homiletic tradition; the Eucharist on the chest is late hagiography. The link between Lucian’s teaching and Arius’ is asserted by Arius’ own party and disputed by modern scholars.",
+   "sources": [
+    {
+     "work": "Eusebius, Church History VIII.13.2 and IX.6.3",
+     "type": "primary",
+     "note": "The notices of Lucian’s defense and death (Book IX at this URL; Book VIII at 250108.htm)."
+    },
+    {
+     "work": "John Chrysostom, Homily on the Martyr Lucian",
+     "type": "primary",
+     "note": "The tradition of his one answer; PG 50:519–526, English in Wendy Mayer, The Cult of the Saints (SVS, 2006)."
+    },
+    {
+     "work": "Jerome, Lives of Illustrious Men, ch. 77",
+     "type": "primary",
+     "note": "Lucian’s scholarly work and death at Nicomedia."
+    },
+    {
+     "work": "Rowan Williams, Arius: Heresy and Tradition, rev. ed. (Eerdmans, 2002)",
+     "type": "reference",
+     "note": "On the ‘Lucianist’ connection and its limits."
+    }
+   ]
+  }
+ ],
+ "people": [
+  {
+   "name": "Serapion",
+   "year": 191,
+   "voice": 3,
+   "source": {
+    "work": "Serapion of Antioch, fragment on the Gospel of Peter (ANF 8)",
+    "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+    "lines": "72709-72710",
+    "quote": "For we, brethren, receive both Peter and the rest of the apostles as Christ"
+   }
+  },
+  {
+   "name": "Malchion",
+   "year": 268,
+   "voice": 1,
+   "author": "malchion",
+   "held": "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-epistle-of-malchion-in-the-name-of-the-synod-of-antioch"
+  }
+ ]
+}

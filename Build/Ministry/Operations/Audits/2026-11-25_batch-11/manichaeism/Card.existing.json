@@ -1,0 +1,72 @@
+{
+ "why": "Mani was born in Mesopotamia in 216 and raised by a sect of baptizers. He broke from them after what he described as revelations from his heavenly twin. He went on to teach that the world is a battleground between eternal Light and Darkness, where sparks of light lie trapped in matter. He wrote his own scriptures and had them translated on purpose, and his faith spread from Persia all the way to China. Augustine of Hippo followed it as a Hearer for nine years before his conversion.",
+ "sourcing": "Rich own corpus survives",
+ "floorNote": "Co-original dualism denies 'maker of all things'; most scholars: a distinct universal religion",
+ "relationsSummary": "Augustine's own former allegiance",
+ "teaser": "From Persia to the Mediterranean and on to China, from 216 CE into the centuries beyond — a prophet who set out to found the one universal religion, and whose one intact surviving temple still stands on a hillside in Fujian.",
+ "voices": [
+  "Mani — the founder, who wrote his own scriptures rather than leaving the task to disciples, and died in a Persian prison",
+  "Faustus of Milevis — the Manichaean bishop whose teaching Augustine sought out as a young man and later refuted at length",
+  "Augustine of Hippo — a Hearer for about nine years, then the movement's most effective Latin opponent, and an unintended preserver of its arguments"
+ ],
+ "legacy": "In the West, emperors and the church hunted it down. It had largely vanished by the sixth century. Yet the word 'Manichaean' survived for centuries afterwards. It became an insult aimed at anyone thought too fond of dualism, the belief that two opposed powers divide the world. In the East it lasted far longer. Many Uyghur Turks of Central Asia followed it, and it held on in southern China for many centuries. Mani wrote his own books. Over the last century, manuscripts have also been recovered from Turfan in western China and from Medinet Madi in Egypt. There is also the tiny Cologne Mani Codex. Because of all this, it is one of the few extinct ancient religions that can now be read largely in its own words. It is no longer known only through its enemies.",
+ "documentedStories": [
+  {
+   "title": "Nine Years Waiting for Faustus",
+   "when": "383",
+   "tier": "1",
+   "verification": "checked directly against the primary text",
+   "teaser": "A young Hearer has saved up his hardest questions for the famous Manichaean bishop. The bishop turns out to be honest about what he does not know.",
+   "text": "Augustine had been a Manichaean Hearer for about nine years — attending the assemblies, supporting the Elect, following the prayers and fasts of an ordinary lay adherent — and for much of that time the local teachers had told him that his questions about astronomy, and about how the Manichaean books squared with what the philosophers had measured, would be answered when Faustus came. Faustus of Milevis was the movement’s most admired bishop in Africa. When he finally arrived in Carthage, Augustine found him charming, fluent and pleasant to listen to, ‘a great snare of the devil’ as he wrote long afterwards; and when he got him alone with the questions, Faustus declined to pretend. He said he did not know these things. Augustine records that this candor made him like the man more, not less — ‘he knew that he did not know, and was not ashamed to confess it’ — and that Faustus, discovering Augustine’s literary training, asked to read the Latin authors with him instead. The two spent time together over books. But the questions were not answered, and Augustine dates the loosening of his attachment to the sect from those conversations. Years later, as a bishop himself, he wrote thirty-three books against Faustus’ own work. The picture the Confessions gives, though, is of a lay religious community whose leader would rather admit ignorance than bluff, and a young man who respected him for it even as he left.",
+   "caveat": "Told by Augustine more than a decade later, after his conversion and against the sect; Faustus’ own book survives only in Augustine’s quotations of it. The personal warmth of the encounter is Augustine’s testimony and is the more credible for cutting against his argument.",
+   "sources": [
+    {
+     "work": "Augustine, Confessions V.3, V.6–7",
+     "type": "primary",
+     "note": "Faustus’ arrival, the conversation, and Augustine’s verdict."
+    },
+    {
+     "work": "Augustine, Against Faustus the Manichaean (Contra Faustum)",
+     "type": "primary",
+     "note": "Preserves Faustus’ Capitula in quotation."
+    },
+    {
+     "work": "Jason BeDuhn, Augustine’s Manichaean Dilemma, vol. 1 (Penn, 2010)",
+     "type": "reference",
+     "note": "The fullest modern study of Augustine’s years as a Hearer."
+    }
+   ]
+  }
+ ],
+ "people": [
+  {
+   "name": "Mani",
+   "year": 240,
+   "voice": 0,
+   "source": {
+    "work": "Augustine, Against the Epistle of Manichaeus called Fundamental 6 (NPNF 1/4)",
+    "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml",
+    "lines": "3675",
+    "quote": "Manichæus, an apostle of Jesus Christ, by the providence of God the Father.  These are wholesome words from the perennial and living fountain."
+   }
+  },
+  {
+   "name": "Augustine of Hippo",
+   "year": 373,
+   "voice": 2,
+   "author": "augustine",
+   "held": "npnf104_augustine-anti-manichaean-anti-donatist--acts-or-disputation-against-fortunatus-the-manichaean-2"
+  },
+  {
+   "name": "Faustus of Milevis",
+   "year": 383,
+   "voice": 1,
+   "source": {
+    "work": "Augustine, Reply to Faustus the Manichaean II.1 (NPNF 1/4)",
+    "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml",
+    "lines": "4338",
+    "quote": "Do I believe the gospel?  Certainly.  Do I therefore believe that Christ was born?  Certainly not."
+   }
+  }
+ ]
+}

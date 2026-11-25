@@ -1,0 +1,105 @@
+{
+ "why": "Callistus, a former slave once sent to the Sardinian mines, became bishop of Rome. He led his congregation through open arguments over two questions. One was grave sin after baptism. The other was how to speak of Father and Son without naming two Gods. Hippolytus was a learned presbyter who thought him wrong on every count. He set himself up as a rival bishop. He also wrote a Refutation. Almost by accident, it preserves more about second- and third-century religious movements than any other surviving book. Callistus himself left not one word in his own voice.",
+ "sourcing": "Substantial but one-sided. Hippolytus' Refutation is the fullest account of the Roman church in these decades and is written by a man who claimed the see against its bishop; Cyprian's correspondence with Rome gives an outside view. Callistus has no surviving voice of his own.",
+ "floorNote": "Not in question",
+ "relationsSummary": "The church of Rome after its house-church years, from about 200. The Novatian schism of 251 began inside it.",
+ "teaser": "Rome between 200 and 260 - a former slave leading the city's church, a learned rival who called himself bishop instead, and the arguments about forgiveness and marriage that neither of them could avoid.",
+ "voices": [
+  "Callistus - a former slave and convict who became bishop of Rome, and left not one word of his own",
+  "Hippolytus - the learned presbyter who opposed him, set himself up as rival bishop, and wrote nearly everything we know about it",
+  "Zephyrinus - Callistus' predecessor, whom Hippolytus judged out of his depth",
+  "Caius - the Roman presbyter whose disputation with a Montanist survives in fragments",
+  "Cornelius - bishop from 251, whose correspondence with Cyprian opens the Novatian crisis",
+  "Dionysius of Rome - bishop 259-268, whose letter against Sabellian and tritheist readings, written into the controversy with his Alexandrian namesake, is the clearest doctrinal statement the Roman see made in this century"
+ ],
+ "legacy": "The questions argued here did not go away. After the persecution of 250, Rome had to decide a hard case. Could Christians who had sacrificed be restored? The quarrel split the city in the Novatian schism of 251. Rome's answer was that they could. That is the answer the Western church kept. Hippolytus wrote his Refutation to discredit Callistus. In passing, it also keeps more about second- and third-century religious movements than any other surviving book.",
+ "documentedStories": [
+  {
+   "title": "Callistus, as His Enemy Told It",
+   "when": "c. 190–222",
+   "tier": "2",
+   "verification": "checked directly against the primary text",
+   "teaser": "The only life of a third-century bishop of Rome was written by the man who set himself up against him.",
+   "text": "Everything known about Callistus’ early life comes from Hippolytus, who wanted him disgraced, and it has to be read that way. On Hippolytus’ telling, Callistus was the slave of a Christian in the imperial household named Carpophorus, who set him up in a bank; Christians and widows deposited money with him; the money vanished; he fled, was caught on a ship at Portus after jumping into the sea, was sentenced to the treadmill, and then — having brawled in a synagogue on the Sabbath — was sent to the mines of Sardinia. He came back when Marcia, the emperor Commodus’ Christian concubine, obtained a release list of Christian convicts, and got himself included though Bishop Victor had left him off it. Victor pensioned him off to Antium; Zephyrinus, the next bishop, brought him back to manage the church’s cemetery on the Appian Way, and on Zephyrinus’ death the church elected him. Hippolytus then lists his sins as bishop: he readmitted Christians who had committed adultery after baptism; he recognized as marriages the unions of senatorial women with slaves and freedmen; he kept bishops who had married twice. What Hippolytus records as scandal, a later church would recognize as pastoral policy — the first known bishop to say that the church could forgive the gravest sins, and to treat a noblewoman’s union with a poor Christian as a marriage. Hippolytus was eventually exiled to the same Sardinian mines under Maximinus and died there; Rome venerates both as saints.",
+   "caveat": "Hippolytus is a contemporary and a hostile rival with an interest in every detail; the criminal narrative is unverifiable and the reforms are described as heresy by a man who lost. That Callistus was a former slave and administered the catacomb that bears his name is generally accepted.",
+   "sources": [
+    {
+     "work": "Hippolytus, Refutation of All Heresies IX.6–7 (IX.12 in some editions)",
+     "type": "primary",
+     "note": "The whole account of Callistus’ career and policies."
+    },
+    {
+     "work": "Tertullian, On Modesty (De Pudicitia), ch. 1",
+     "type": "primary",
+     "note": "A second hostile witness to the edict on readmitting adulterers, usually taken to be Callistus’."
+    },
+    {
+     "work": "Allen Brent, Hippolytus and the Roman Church in the Third Century (Brill, 1995)",
+     "type": "reference",
+     "note": "On the rivalry and the reliability of the Refutation."
+    }
+   ]
+  },
+  {
+   "title": "Xistus Killed in the Cemetery",
+   "when": "6 August 258",
+   "tier": "1",
+   "verification": "checked directly against the primary text",
+   "teaser": "A bishop of Rome is caught holding a service underground and executed on the spot, and the news reaches Carthage in a letter.",
+   "text": "Valerian’s second edict against the Christians ordered bishops, presbyters and deacons to be executed at once, and senators and knights who were Christians to lose their rank and property. Cyprian of Carthage learned of it from messengers he had sent to Rome to find out what was coming, and wrote to a fellow bishop, Successus, to pass it on. The letter reports the edict’s terms and then the first thing done under it: ‘Xistus was martyred in the cemetery on the eighth day of the Ides of August, and with him four deacons.’ That is all Cyprian says, and it is the whole contemporary record. Xistus — Sixtus II — had been bishop for less than a year, and had spent it repairing the breach with Carthage over the rebaptism of heretics that his predecessor Stephen had opened. He was seized while presiding in one of the underground burial galleries on the Appian Way where the Roman church met when it could not meet openly, and killed there with the deacons attending him; a fourth-century inscription by Pope Damasus marks the place. The deacon Lawrence, executed four days later, would gather the legend — the gridiron, the poor presented as the church’s treasure — but no contemporary describes his death, and the earliest sources are a century later. Cyprian closed his letter by asking Successus to spread the news so that everyone could ‘be found ready’. He was himself arrested within the month.",
+   "caveat": "Cyprian’s letter is contemporary and precise; the Lawrence traditions are fourth-century and later. The exact spot and the identity of the four deacons rest on Damasus’ epigram and the martyrological tradition.",
+   "sources": [
+    {
+     "work": "Cyprian, Epistles (ANF) LXXXI, To Successus on the Tidings Brought from Rome",
+     "type": "primary",
+     "note": "The edict and Xistus’ death in the cemetery."
+    },
+    {
+     "work": "Damasus, Epigram on Sixtus II (Epigr. 17)",
+     "type": "primary",
+     "note": "The fourth-century inscription in the Catacomb of Callistus; text in Ferrua, Epigrammata Damasiana (1942)."
+    },
+    {
+     "work": "Ambrose, On the Duties of the Clergy I.41",
+     "type": "primary",
+     "note": "The earliest literary form of the Lawrence legend."
+    },
+    {
+     "work": "Candida Moss, The Myth of Persecution (HarperOne, 2013)",
+     "type": "reference",
+     "note": "On the growth of the Lawrence legend from the bare record of Sixtus."
+    }
+   ]
+  }
+ ],
+ "people": [
+  {
+   "name": "Caius",
+   "year": 200,
+   "voice": 3,
+   "author": "caius",
+   "held": "anf05_hippolytus-cyprian-caius-novatian--fragments-of-caius-dialogue-against-proclus-against-the"
+  },
+  {
+   "person": "hippolytus-of-rome"
+  },
+  {
+   "name": "Cornelius",
+   "year": 251,
+   "voice": 4,
+   "source": {
+    "work": "Cornelius to Fabius, in Eusebius, Church History VI.43 (NPNF 2/1)",
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+    "lines": "38383-38385",
+    "quote": "But that you may know that a long time ago this remarkable man desired the episcopate, but kept this ambitious desire to himself and concealed it"
+   }
+  },
+  {
+   "name": "Dionysius of Rome",
+   "year": 259,
+   "voice": 5,
+   "author": "dionysius_rome",
+   "held": "anf07_lactantius-apostolic-constitutions-didache-liturgies--against-the-sabellians"
+  }
+ ]
+}

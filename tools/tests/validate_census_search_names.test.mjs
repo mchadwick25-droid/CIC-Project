@@ -21,7 +21,7 @@ const good = {
   name: "Montanist",
   kind: "name given by opponents",
   entry: "montanism-the-new-prophecy",
-  basis: { source: "tree", entry: "montanism-the-new-prophecy", field: "longDescription", text: "that was their opponents' label." },
+  basis: { source: "tree", entry: "montanism-the-new-prophecy", field: "longDescription", text: "Enemies called them Montanists or Phrygians" },
 };
 
 test("a row with a real entry, a kind and a basis passes", () => {

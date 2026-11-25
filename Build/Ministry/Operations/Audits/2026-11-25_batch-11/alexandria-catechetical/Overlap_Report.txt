@@ -1,0 +1,3 @@
+alexandria-catechetical: SPELLING Heraclas (the tree has Heraclian, Heraclida, Heraclius)
+alexandria-catechetical: SPELLING Herais (the tree has Heraclius, Hermas)
+alexandria-catechetical: SPELLING Pagans (the tree has Pelagians)
