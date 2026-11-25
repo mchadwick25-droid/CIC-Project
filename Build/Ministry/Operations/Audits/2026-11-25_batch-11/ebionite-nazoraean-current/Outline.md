@@ -196,6 +196,8 @@ The whole story rests on opponents, all but Justin: the essence says so once, in
 | "under two names, Nazoraeans and Ebionites" | "as two heresies, side by side: the Nazoraeans and the Ebionites" (Pan 12578). |
 | "In 392 ... He calls it the Gospel according to the Hebrews" | "Elsewhere he calls it the Gospel according to the Hebrews" (PL23 44505–44509); in 392, at Beroea, Matthew's Hebrew (PL23 48155–48163), which stays out (Cut first 5). |
 | Juliana's books named without what they were | Leave Juliana to the card (G2; Cut first 4). |
+| "some Christians said no" | "some said no" (JusG 2162–2164). |
+| "in all the synagogues ... the Pharisees condemned a sect" | "among the Jews in all the synagogues of the East there was a sect ... which the Pharisees still condemned" (CSEL34 23235–23237). |
 
 ## Leave out
 
