@@ -54,7 +54,7 @@ A story in four places, in time order where the record allows: Ostia (undated), 
 
 ## Openings
 
-1. **Ostia (recommended).** After Octavius died, Minucius wrote down a day from their friendship, now past (ANF4 17195-17205, 17217-17219; MinLat 112-116; the only when the old sources give for the scene). On an autumn holiday from the courts, three friends walk the shore at Ostia in the early morning. One, Caecilius, sees an image of the god Serapis, lifts his hand to his mouth and kisses it. Octavius rounds on their friend Minucius, for letting a friend bow to stones, and the three sit down on the breakwater to have it out. (ANF4 17247-17273, 17321-17331; MinLat 220-224, 235-238)
+1. **Ostia (recommended).** After Octavius died, Minucius wrote down a day from their friendship, now past (ANF4 17195-17205, 17217-17219; MinLat 112-116; the only when the old sources give for the scene). On a court holiday at the grape harvest, the two of them and Caecilius walk the shore at Ostia. Caecilius sees an image of the god Serapis, lifts his hand to his mouth and kisses it. Octavius rounds on Minucius, for letting a friend bow to stones, and the three sit down on the breakwater to have it out. (ANF4 17247-17273, 17321-17331; MinLat 220-224, 235-238)
 2. **The oiled stone.** A teacher of speaking at Sicca later remembered how, whenever he saw a stone slick with olive oil, he fawned on it and begged it for favours. That man, Arnobius, became a Christian and wrote seven books against the gods. (ANF6 40657-40670; NPNF2-6 16713-16715) This reaches ahead; use only if Ostia is cut.
 
 ## Story beats
