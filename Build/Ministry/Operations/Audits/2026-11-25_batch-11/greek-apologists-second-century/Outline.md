@@ -47,7 +47,7 @@ The tradition kit has no shapes: a story, through the people who wrote, in time 
 
 - **Post-Apostolic House Church** (this batch, researched after this outline; no outline yet). Both use Justin's First Apology: this story takes the defence and the argument (chs. 2, 6, 17, 26); the House Church takes the Sunday of chs. 65–67. Nothing from chs. 61–67 here.
 - **Latin Apologists** (this batch; no outline yet): their Latin heirs, one clause (Tertullian names Justin).
-- **Marcionism** (this batch; no outline yet): Justin against Marcion, one clause.
+- **Marcionism** (this batch; no outline yet): Justin against Marcion, card only (Cut first 21).
 - Live beside: **justin-martyr** (read): his trial, conversion, Logos, Sunday and Irenaeus are his; here Justin is one voice, his death a clause. **tatian** (read): a clause at most, in the connection.
 
 ## Openings
@@ -86,7 +86,7 @@ None is used elsewhere on the tree (census search, 2026-11-25); none is on the s
 
 - Quadratus: acts. Aristides of Athens ("Aristides"): acts. Justin Martyr ("Justin"): acts, link (`justin-martyr`). Melito of Sardis ("Melito"): acts. Athenagoras of Athens ("Athenagoras"): acts. Theophilus of Antioch ("Theophilus"): acts.
 - Hadrian, Antoninus Pius, Marcus Aurelius, Commodus: addressed (act as recipients).
-- Marcion: link (`marcion-marcionism`). Tertullian: link (`tertullian-s-voice`). Eusebius: credited witness, link (`eusebius-of-caesarea`). Clement of Alexandria, Tatian: links (`alexandria-catechetical`, `tatian`).
+- Marcion: card only (Cut first 21); the link stays under Links. Tertullian: link (`tertullian-s-voice`). Eusebius: credited witness, link (`eusebius-of-caesarea`). Clement of Alexandria, Tatian: links (`alexandria-catechetical`, `tatian`).
 - By role, not name: Crescens ("a philosopher at Rome"), Autolycus ("a pagan friend"), Diognetus ("a man named Diognetus" only if needed).
 
 ## Connection to carry into the story
@@ -199,5 +199,6 @@ Review fix pass (`Review.md`, B7 and B9; counted on the live brief, 670 after th
 18. Melito's "something new was happening" (beat 3, npnf201 25820, "what never before happened"); "new decrees" still carries it, about 5 words: **Leave out**.
 19. "two" and "ruling together" in Athenagoras's heading (opening, athen-grc 72–74); "the emperors Marcus Aurelius and his son Commodus" stays, about 2 words: **for the card**.
 20. Only if a draft still runs past 675: "with their wives and children" after "root and branch" (beat 4, athen-grc 181), about 4 words: **for the card**.
+21. Justin naming Marcion (beat 2, 1apol-grc 729–743): his reason for naming him (1apol-grc 706–709) needs the demons, a gloss and more words than the 675 ceiling leaves, and without it the sentence is bare (`Fresh_Listen.md`), about 22 words: **for the card** (the Marcionism card carries Justin against Marcion).
 
-With cuts 1–19 applied and the review's fixes in, the story stands at 675 words, counted on the live brief, against the ruled 675. Never cut: the essence whole, with the apology gloss; Quadratus under Hadrian with Eusebius's reason and "still had the book"; Justin on atheists, his taxes and loyalty, Marcion, his death as a clause; Melito with his glosses, the Eusebius clause, Quote 1 and his "but if" plea; Athenagoras's three charges, "root and branch", the poets and philosophers, the gladiator gloss and Quote 2; Theophilus and the age of Moses; Tertullian naming Justin; the Diognetus framing and Quote 3.
+With cuts 1–19 applied and the review's fixes in, the story stands at 675 words, counted on the live brief, against the ruled 675. Never cut: the essence whole, with the apology gloss; Quadratus under Hadrian with Eusebius's reason and "still had the book"; Justin on atheists, his taxes and loyalty, his death as a clause; Melito with his glosses, the Eusebius clause, Quote 1 and his "but if" plea; Athenagoras's three charges, "root and branch", the poets and philosophers, the gladiator gloss and Quote 2; Theophilus and the age of Moses; Tertullian naming Justin; the Diognetus framing and Quote 3.

@@ -45,3 +45,15 @@ The longest sentence is the Quadratus sentence, now 36 words with the Eusebius p
 ## To Mark
 
 A sentence failed the fresh trust read, so this brief comes to Mark (Kit Part 3, step 5). Reason: "He said he drew on earlier Christian writers, and named Justin first", set after "took up the same task in Latin", told the listener that Tertullian drew on Justin for his defence of the faith; Tertullian names Justin as a guide in refuting a heresy (*Against the Valentinians* 5, anf03 43150–43163). Applied fix: "Writing against teachers he held false, he said he followed earlier Christian writers, and named Justin first." Also for Mark: the Marcion sentence, on the outline's Never cut list, is cut (change 5).
+
+## Craft check fixes applied
+
+- FIX A restore wives and children: applied
+- FIX B split Quadratus: applied
+- Never cut: applied
+- Cut first 21: applied
+- Sibling: applied
+- Names: applied
+
+- Count: 666 by `wc -w`.
+- Scorer: grade 8.5 (names out 7.7), reading ease names out 71.6, 18.0 words a sentence, 5% short sentences, longest sentence 31 words - pass.
