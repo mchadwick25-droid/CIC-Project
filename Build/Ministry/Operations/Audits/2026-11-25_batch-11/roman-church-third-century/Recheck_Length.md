@@ -4,7 +4,7 @@
 
 ## Measure
 
-I read v1 only to measure. I applied cuts 1-29 to v1 sentence by sentence, keeping what each item says it keeps and dropping "learned" (M10), and counted with `wc -w`: **670 words**. The researcher's figure holds. After the cuts the beats still run once and in order: Natalius, the essence, Callistus and Sabellius, the rule on sin, the marriage rule, Fabian, 250, 251, the return. Nothing left names a thing whose explanation went: Sabellius, the fallen, the confessor, the second bishop and Callistus's rule each keep their gloss. Items 11-17, 19-27 and 21 take nothing the heart, the record's force or Explain it needs. Three moves do, and one fix is needed to stay under 675.
+I read v1 only to measure. I applied cuts 1-29 to v1 sentence by sentence, keeping what each item says it keeps and dropping "learned" (M10), and counted with `wc -w`: **670 words**. The researcher's figure holds. After the cuts the beats still run once and in order: Natalius, the essence, Callistus and Sabellius, the rule on sin, the marriage rule, Fabian, 250, 251, the return. Nothing left names a thing whose explanation went: Sabellius, the fallen, the confessor, the second bishop and Callistus's rule each keep their gloss. Items 11-27 take nothing the heart, the record's force or Explain it needs. Cuts 28 and 29 take a required reason or the heart, the cuts together empty one side of the Father-Son quarrel, and one fix is needed to stay under 675.
 
 ## Findings
 
@@ -17,7 +17,7 @@ Replace item 29 with:
 
 ### L2. BLOCKING: Cut 28 removes the only reason given for Natalius's break
 
-His going over to the rival group is a break. The source gives the reason: "ensnared by the first position among them and by that shameful covetousness" (E 32258-32261). The salary is what shows that covetousness. Replace item 28 with:
+His going over to the rival group is a break. The source gives the reason: "ensnared by the first position among them and by that shameful covetousness" (E 32259-32260). The salary is what shows that covetousness. Replace item 28 with:
 "28. Natalius's salary told at length (Opening, Z2), keeping it in one word: "make him their paid bishop", about 4 words: **for the card**."
 
 ### L3. BLOCKING: With cuts 8, 17, 20-22 and 26 applied, Hippolytus's side of the Father-Son quarrel has no content
