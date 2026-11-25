@@ -1,6 +1,6 @@
 # Outline: Apocryphal and Pseudepigraphal Literature
 
-Kind: tradition (`kinds/tradition.md`). Census id `apocryphal-and-pseudepigraphal-literature`; spoken name **Christian Apocrypha**, or in full "the books that were never canon" (census `shortName`, `informalName`). Shape ruling (Mark, 2026-11-25): not a community; told through the people who wrote, read, copied and judged the books. All lines cite `Source_Sheet.md` rows and, through them, `cic/texts/` lines.
+Kind: tradition (`kinds/tradition.md`). Census id `apocryphal-and-pseudepigraphal-literature`; spoken name **Christian Apocrypha**, brought in as "books that never entered the New Testament: the Christian Apocrypha" (census `shortName`; the census `informalName`, "the books that were never canon", is not spoken, Review B5). Shape ruling (Mark, 2026-11-25): not a community; told through the people who wrote, read, copied and judged the books. All lines cite `Source_Sheet.md` rows and, through them, `cic/texts/` lines.
 
 ## The heart
 
@@ -15,7 +15,7 @@ Kind: tradition (`kinds/tradition.md`). Census id `apocryphal-and-pseudepigrapha
 
 ## Length
 
-**Length pass recount (Mark, 2026-11-25, "up to 4:30 and cut at the outline"): about 650 words, about 4 minutes 20 seconds**, measured against draft v1 (713 words) with the Length pass moves below applied: 658, under the 675 cap. Moves and their cost in `Fixes_Length.md`. Earlier plan: **500 words, about 3 minutes 20 seconds** (kit range 450–675). Count the story must carry: three quotes, 97 words; glosses (presbyter, heresy, "handed down", Eusebius's two kinds of rejected book, what Thecla's book told), about 70; witnesses credited (Eusebius keeps Serapion's letter; Tertullian argues against the book; Origen reports "some say"; Egeria's own account; the book's own voice for its wonders), about 45. Review fix pass: **672** (see the end of Cut first). Beats as planned run to about 520; the Cut first list brings it to 500, and further to 450 if Mark sets the floor.
+**Length pass recount (Mark, 2026-11-25, "up to 4:30 and cut at the outline"): about 650 words, about 4 minutes 20 seconds**, measured against draft v1 (713 words) with the Length pass moves below applied: 658, under the 675 cap. Moves and their cost in `Fixes_Length.md`. Earlier plan: **500 words, about 3 minutes 20 seconds** (kit range 450–675). Count the story must carry: three quotes, 97 words; glosses (presbyter, heresy, "handed down", Eusebius's two kinds of rejected book, what Thecla's book told), about 70; witnesses credited (Eusebius keeps what Serapion wrote; Tertullian argues against the book; Origen reports "some say"; Egeria's own account; the book's own voice for its wonders), about 45. Review fix pass: **675** (see the end of Cut first). Beats as planned run to about 520; the Cut first list brings it to 500, and further to 450 if Mark sets the floor.
 
 ## Approved heart and length
 
@@ -59,7 +59,7 @@ Told through the people who wrote, read, copied and judged the books (Mark's rul
 
 ## Story beats
 
-1. **Serapion changes his mind.** After he left, Serapion was told the gospel's backers had minds caught up in a teaching he held false. Then Serapion's report of the teaching, in plain wording the writer may use (16 words, narrator's voice, not a quote): He saw what one Marcianus held: a man who contradicted himself, not understanding what he said. (B1g. This is all the record keeps of the teaching; no old source of the period says what it taught.) He borrowed the book from those who had used it from the first, read it through, found most of it agreed with the Saviour's true teaching, and some things added. He set those out for them. His rule (Quote 2). Reason: what he was told of the backers' teaching, then what he saw of Marcianus, then his own reading. Eusebius, a century later, kept these lines; the list of additions is lost. (B1a–f; Documented.)
+1. **Serapion changes his mind.** After he left, Serapion was told the gospel's backers had minds caught up in a teaching he held false. Then Serapion's report of the teaching, in plain wording the writer may use (19 words, told as what Serapion wrote, not a quote): He wrote that he saw what one Marcianus held: a man who contradicted himself, not understanding what he said. (B1g. This is all the record keeps of the teaching; no old source of the period says what it taught.) He borrowed the book from those who had used it from the first, read it through, found most of it agreed with the Saviour's true teaching, and some things added. He set those out for them. His rule (Quote 2). Reason: what he was told of the backers' teaching, and what he learned of Marcianus through his own reading of the book (γάρ, Schwartz 2621–2622; Rufinus 2680). Eusebius, a century later, kept these lines; the list of additions is lost. (B1a–f; Documented.)
 2. **Thecla's book, and its writer.** About the same years, a book under Paul's name told of Thecla (the details from its later copies, B3; Tertullian attests her example only), a girl of Iconium who heard Paul [Length pass: "listened at a window" left out], refused the man she was promised to, and was condemned to the fire for it; the book says a storm of rain and hail put the fire out, and she was saved [Length pass: tells why she is alive later; in the book's voice, ANF8 47906–47911: "a cloud … full of water and hail"; "the fire was put out, and Thecla saved"]. Later a governor [Length pass: "at Antioch" left out, so it is not heard as Serapion's Antioch; the book names only "Antioch" and says nothing more of which city, ANF8 47943] sent her to the beasts for shaming a powerful man who had seized her in the street. In the arena she threw herself into a pit of water and baptized herself in the name of Jesus Christ, on what she called her last day. Later Paul sent her to teach the word of God. (Told as the book tells it. [Length pass: the seals killed by fire, Leave out.]) Some cited her example as leave for women to teach and baptize. Tertullian, writing in Carthage, answered them. He named the writer first (Quote 3); he also gave Paul's rule, that a woman may not even learn too boldly. No order word between the two, or the presbyter first (CSEL 20 12260–12267). Reason he left office: he was found out and confessed; Tertullian gives "for love of Paul". (B2a–d, B3a–c; ANF8 47884–47892 for the fire, 47943–47957 for the beasts; Documented.)
 3. **A book of James and Mary's childhood.** [Length pass, Card: Origen's report (that some, drawing on the Gospel according to Peter or a "Book of James", held Jesus's brothers to be Joseph's sons by an earlier wife, to keep Mary's virginity honoured to the end; B4a) moves to the card whole, since no half of it stands alone.] A book under James's name, kept in later copies, tells what the Gospels do not: Mary born to a childless couple, Joachim and Anna; her years in the temple from the age of three, fed, it says, by an angel's hand; and her betrothal to Joseph [Length pass, Card: "an old man with children", which answered Origen's report]. (B4c–g; Documented as what the book says. Do not tie it to any book Origen names.)
 4. **Eusebius sorts the books.** Early in the fourth century, Eusebius of Caesarea, writing his Church History, set the books in order. The Acts of Paul he counted among books known to most church writers but not genuine. The gospels of Peter and Thomas and the Acts of Andrew and John he set lower: books under the apostles' names [Length pass, Card: "that no church writer had thought worth mention"], unlike the apostles in style and thought, to be thrown out entirely as absurd and godless. Reason: they were not handed down, and their teaching was not the churches'. (B5a–d; Documented.)
@@ -100,7 +100,7 @@ Everyone else by role: the presbyter, the backers at Rhossus.
 
 ## Connection to carry into the story
 
-The books passed hand to hand, and so did the judging. At Rhossus the gospel came to the bishop from the very group that used it (B1e); Thecla's story crossed from Asia to Carthage as an argument (B2b) and on to Seleucia as a reading at her memorial (B6c). Serapion's test, what the apostles handed down, passed to Eusebius, who kept his letter and sorted the books by it (B1a, B5). The presbyter wrote for love of Paul; Serapion refused in the apostles' name, receiving them as Christ. The listener must understand that the apostles' names drove both the writing and the refusing, and that the verdicts did not stop the reading. Show it through the borrowed copy, the confession and the reading at the shrine; never in a "this matters because" line.
+The books passed hand to hand, and so did the judging. At Rhossus the gospel came to the bishop from the very group that used it (B1e); Thecla's story crossed from Asia to Carthage as an argument (B2b) and on to Seleucia as a reading at her memorial (B6c). Serapion's test, what the apostles handed down, passed to Eusebius, who kept what he wrote to them and sorted the books by it (B1a, B5). The presbyter wrote for love of Paul; Serapion refused in the apostles' name, receiving them as Christ. The listener must understand that the apostles' names drove both the writing and the refusing, and that the verdicts did not stop the reading. Show it through the borrowed copy, the confession and the reading at the shrine; never in a "this matters because" line.
 
 ## Ending
 
@@ -112,7 +112,7 @@ The books passed hand to hand, and so did the judging. At Rhossus the gospel cam
 - Serapion: bishop of Antioch, in `antiochene-church-third-century` (people). Kind: "judged a book read at".
 - `tertullian-s-voice`: wrote against the book's use.
 - `origen`; `alexandria-catechetical`: census edge "influenced" (Documented), reported a book of James. Card only after the Length pass; not told.
-- `eusebius-of-caesarea`: kept Serapion's letter; sorted the books.
+- `eusebius-of-caesarea`: kept what Serapion wrote to Rhossus; sorted the books.
 - `jerusalem-liturgical-pilgrimage-christianity` (Egeria): heard the Acts of Thecla read.
 - `aquileian-christianity`: census edge "influenced" (Rufinus's Recognitions); not told.
 
@@ -120,7 +120,7 @@ The books passed hand to hand, and so did the judging. At Rhossus the gospel cam
 
 | Source | Old or modern | Time | Credited beside |
 |---|---|---|---|
-| Serapion's letter, in Eusebius, Church History 6.12 | old, own words, kept a century later | c. 200; Eusebius c. 300–325 | beat 1, quotes 1–2. The story says once, inside the sentence about Serapion's letter, that Eusebius kept it. |
+| Serapion's writing On the so-called Gospel according to Peter (a λόγος, listed apart from his letters), in Eusebius, Church History 6.12 | old, own words, kept a century later | c. 200; Eusebius c. 300–325 | beat 1, quotes 1–2. The story says once, inside the sentence about what Serapion wrote to them, that Eusebius kept it. |
 | Eusebius, Church History 3.3, 3.25, 5.22, 6.11 | old, later witness | early fourth century | beat 4; dates of Serapion |
 | Tertullian, On Baptism 17 | old, contemporary; argues against the book's use | c. 200 | beat 2, quote 3 (credit: Tertullian, answering those who cited it) |
 | Jerome, De viris 7 (npnf203 39502–39515; PL23 49226–49230) | old, later witness, c. 392; ties the Acts of Paul and Thecla to Tertullian's presbyter | c. 392 | ending 1; not credited aloud |
@@ -162,7 +162,7 @@ The doubt is not itself the story; no scene of doubt.
 | "at twelve" as the book's fixed age | leave the age out; the copies differ (ANF8 1578) |
 | "his letter" (what Serapion wrote to Rhossus) | "what he wrote to them" (Schwartz 2502–2504: a λόγος, listed apart from his letters) |
 | "Tertullian gave Paul's rule, then told of the presbyter" | "He also told of the presbyter", with no order word, or the presbyter first (CSEL 20 12260–12267) |
-| "Marcianus taught that…", "Marcianus led the backers", "Marcianus was Marcion", or any content for his teaching | "He saw what one Marcianus held: a man who contradicted himself, not understanding what he said" (B1g); nothing more is kept |
+| "Marcianus taught that…", "Marcianus led the backers", "Marcianus was Marcion", or any content for his teaching | "He wrote that he saw what one Marcianus held: a man who contradicted himself, not understanding what he said" (B1g), always as Serapion's report; nothing more is kept |
 | "never canon" with no gloss | "never entered the New Testament" |
 | the Thomas, Andrew and John titles in a list | "the gospel of Peter and other books like it" (B5d) |
 | "the book whose writer had left his office" at the close | end on the reading itself (B6c) |
@@ -206,4 +206,4 @@ Recount: 713 − 64 + 9 = 658.
 
 ### Review fix pass (`Review.md`, 2026-11-25)
 
-The brief stood at 672. The review's fixed changes (B1 +3, B5 −9, B6 −5, B7 −8, M4 +5) bring it to 658. B3: "some heresy," out (−2), the Marcianus sentence in (+16): **672**, under the 675 cap. If a draft runs past 675, cut "from far-distant lands" (beat 5, −3) first.
+The brief stood at 672. The review's fixed changes (B1 +3, B5 −9, B6 −5, B7 −8, M4 +5) bring it to 658. B3: "some heresy," out (−2), the Marcianus sentence in (+19): **675**, at the cap. If a draft runs past 675, cut "from far-distant lands" (beat 5, −3) first.
