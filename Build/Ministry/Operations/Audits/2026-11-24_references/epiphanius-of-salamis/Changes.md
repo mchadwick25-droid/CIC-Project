@@ -178,3 +178,12 @@ From `epiphanius-of-salamis.brief.v1.txt` (675 words) to the live brief (724 wor
 - **Source:** Letter 51, `cic/texts/npnf206_jerome-principal-works.xml` (J6) 10662-10665: "it is the fear of God which has compelled me to act in this way ... I have simply made provision for the wants of the Church"; 10704-10706: "For a year before I had heard many of them complain that they had no one to celebrate for them the sacraments of the Lord."
 - **Finding:** second trust read, an assumption added (the fear of drift).
 - `Outline.md`: one Do not say line added at the end of the list.
+
+## Second trust read, applied (2026-11-25)
+
+- **Old (13):** The monks there had complained for a year that no one celebrated the sacraments, the church's holy rites, for them, he explains, and he acted from the fear of God, to provide what the church needed.
+- **New (13):** The monks of Jerome's monastery had complained for a year that no one celebrated the sacraments, the church's holy rites, for them, he explains, and he acted from the fear of God, to provide what the church needed.
+- **Old (16):** His letter said he had driven monks who followed Origen out of Egypt.
+- **New (16):** His letter said he had put a few monks who followed Origen out of the church in Egypt.
+- `Outline.md`: no line added; the read gives none (the outline already holds the Jerome and Vincent line).
+- **Scorer:** epiphanius-of-salamis.brief.txt: 756 words, grade 9.0 (names out 7.4), reading ease names out 73.8, 18.0 words a sentence, 0.8 joining words per 100, 7% short sentences, longest sentence 38 words - pass
