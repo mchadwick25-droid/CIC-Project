@@ -54,7 +54,7 @@ A story in four places, in time order where the record allows: Ostia (undated), 
 
 ## Openings
 
-1. **Ostia (recommended).** After Octavius died, Minucius wrote down a day from their friendship, now past (ANF4 17195-17205, 17218-17221; MinLat 112-116; the only when the old sources give for the scene). On an autumn holiday from the courts, three friends walk the shore at Ostia in the early morning. One, Caecilius, sees an image of the god Serapis, lifts his hand to his mouth and kisses it. Octavius rounds on their friend Minucius, for letting a friend bow to stones, and the three sit down on the breakwater to have it out. (ANF4 17247-17273, 17321-17331; MinLat 220-224, 235-238)
+1. **Ostia (recommended).** After Octavius died, Minucius wrote down a day from their friendship, now past (ANF4 17195-17205, 17217-17219; MinLat 112-116; the only when the old sources give for the scene). On an autumn holiday from the courts, three friends walk the shore at Ostia in the early morning. One, Caecilius, sees an image of the god Serapis, lifts his hand to his mouth and kisses it. Octavius rounds on their friend Minucius, for letting a friend bow to stones, and the three sit down on the breakwater to have it out. (ANF4 17247-17273, 17321-17331; MinLat 220-224, 235-238)
 2. **The oiled stone.** A teacher of speaking at Sicca later remembered how, whenever he saw a stone slick with olive oil, he fawned on it and begged it for favours. That man, Arnobius, became a Christian and wrote seven books against the gods. (ANF6 40657-40670; NPNF2-6 16713-16715) This reaches ahead; use only if Ostia is cut.
 
 ## Story beats
@@ -196,11 +196,12 @@ Items 9-13 take about 56 words against the about 49 that fixes 9 and 10 add. Non
 
 None touches the heart's essence, Q1-Q3, the charges, the torture, a credited witness, a required gloss, or a line a review fix added (fixes 9 and 10 and the essence wording stand). Beat 3's Montanist sentence is reworded to drop the doubled "later", at no change in length.
 
-**To hold 675 after the grade fixes (2026-11-25, `Fixes_Grade.md`).** The three fixes add 23 words (the when and Minucius's credit in the opening, the day picked to end Christianity). Items 19-24 take 26, for 674.
+**To hold 675 after the grade fixes (2026-11-25, `Fixes_Grade.md`).** The fixes add 32 words: the opening's first sentence (+24, of which "a pleader, or court lawyer" and "in his dialogue the Octavius" move up from paragraph 2), "three friends ... early one morning" becoming "the two of them and Caecilius" (+1), and the day picked to end Christianity (+7). Items 20-25 take 35, for 674 by `wc -w` (from 677).
 
-19. "early one morning" in the opening (−3) — Leave out; the opening now says "a day".
-20. "their friend Minucius Felix" becomes "Minucius", who is now named in the first sentence (−3) — Leave out.
-21. "Minucius, a pleader, or court lawyer, tells it in his dialogue the Octavius." (−13) — its words move into the opening; "He was one of" becomes "Minucius was one of".
-22. "On the way to the sea," before Serapis (−5) — Leave out.
-23. "in time" in Jerome's line on Tertullian (−2) — Leave out.
-24. The bare "He was teaching when the Christians' church there was torn down." joins the next sentence, which already says it was leveled (−7) — Leave out (the repeat only).
+19. "three friends ... early one morning" in the opening becomes "the two of them and Caecilius" (+1 net; "early one morning" Leave out, since the first sentence now says "a day").
+20. "On the way to the sea," before Serapis (−6) — Leave out.
+21. "their friend Minucius Felix" becomes "Minucius", named in the first sentence (−3) — Leave out.
+22. "Minucius, a pleader, or court lawyer, tells it in his dialogue the Octavius." (−13) — gloss and title move to the opening; "tells it" Leave out. "He was one of" becomes "Minucius was one of".
+23. "Minucius wrote it after Octavius died." (−6) — folded into the opening's first sentence.
+24. "in time" in Jerome's line on Tertullian (−2) — Leave out.
+25. The bare "He was teaching when the Christians' church there was torn down." joins the next sentence, which already says it was leveled (−5) — Leave out (the repeat only).
