@@ -52,7 +52,7 @@
     'voices[]', 'legacy',
     'experienceToday[].text',
     'documentedStories[].title', 'documentedStories[].teaser', 'documentedStories[].text', 'documentedStories[].caveat',
-    'card.knownFor', 'card.role', 'card.placeNote', 'card.datesNote', 'card.uncertain[]',
+    'card.otherNames[].note', 'card.knownFor', 'card.role', 'card.placeNote', 'card.datesNote', 'card.uncertain[]',
     'card.keyWorks[].title', 'card.keyWorks[].about',
     'card.legacy.traces[]', 'card.legacy.remembered[]',
     'card.quotationOriginals[].modern',

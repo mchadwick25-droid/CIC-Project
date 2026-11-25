@@ -72,6 +72,18 @@ test('names of an entry: its own name, short name, everyday name and the other n
   ]);
 });
 
+test('an other name given with its note is indexed by its name alone; the note is card text', () => {
+  const m = { id: 'f', name: 'Frumentius', kind: 'person', card: { otherNames: [{ name: 'Abba Salama of Axum', note: "Hartranft's note to Sozomen" }, 'Frumentios'] } };
+  assert.deepEqual(namesOf(m).map(([n, k]) => `${k}:${n}`), ['n:frumentius', 'o:abba salama of axum', 'o:frumentios']);
+  assert.deepEqual(visibleText(m), ["Hartranft's note to Sozomen"]);
+});
+
+test('on the real tree, no other name carries its note into the names index', () => {
+  const others = buildNamesIndex(DATA, FAMILIES).names.filter(([, , k]) => k === 'o').map(([n]) => n);
+  assert.ok(others.includes('abba salama of axum'));
+  assert.deepEqual(others.filter((n) => /\b(hartranft|langlois|hodgkin|pitra|jackson|mommsen|assemani)\b/.test(n)), []);
+});
+
 test('visible text reads only the listed paths', () => {
   const m = { id: 'x', teaser: 'one', secretNote: 'hidden', card: { knownFor: 'two', quotationOriginals: [{ modern: 'three', printed: 'not shown' }] }, voices: ['four'] };
   assert.deepEqual(visibleText(m).sort(), ['four', 'one', 'three', 'two']);

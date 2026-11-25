@@ -537,7 +537,7 @@ function personCardHtml(movement) {
   if (!card) return { facts: '', after: '', sources: '', quotes: '' };
   const facts = factsHtml([
     ['Known for', card.knownFor && escapeHtml(card.knownFor)],
-    ['Also called', card.otherNames && card.otherNames.map(escapeHtml).join(', ')],
+    ['Also called', card.otherNames && card.otherNames.map(o => escapeHtml(typeof o === 'string' ? o : `${o.name} (${o.note})`)).join(', ')],
     ['Dates', card.datesNote && escapeHtml(card.datesNote)],
     ['Place', card.placeNote && escapeHtml(card.placeNote)],
     ['Role', card.role && escapeHtml(card.role)],

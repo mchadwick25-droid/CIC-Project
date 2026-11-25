@@ -6071,3 +6071,15 @@ This batch only.
 **Decided (Mark, 2026-11-25): "a".** A tradition brief is recorded as the councils and the tree's earlier traditions are: Daniel (`onwK4e9ZLuTAKqWW03F9`), `eleven_multilingual_v2`, `mp3_44100_64`, `{"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true}`, every one passed on the command. A sample goes to Mark's ear before the run, and each run is capped under 25,000 credits ("The project order", 2026-11-25).
 
 **Done.** `Build/tools/generate_tree_narration.mjs` now requires `--output-format` and `--voice-settings` for every paid run, not only a person run, and sends what the command names. `Build/tools/generate_world_narration.mjs`, which takes its own settings, checks only the voice and model. The council and tradition commands in `Recording_Settings.md` pass both.
+
+## 2026-11-25 — Search launched: other names split, two held names ruled (Mark)
+
+**Why.** Mark: "launch the search if it is ready, or get it ready for launch" ("The project order", 2026-11-25). The readiness check found that search showed a person's other name whole, note included ("Abba Salama of Axum (Hartranft's note to Sozomen; …)"), and that three rows Mark ruled in for release 54 (Hicksite, Campbellite, Stoneite) had been deleted by the undo of what-and-why fix batch 1.
+
+**Decided (Mark, 2026-11-25).**
+1. "a": split each other name that carries a note into the name, which search shows, and its note, which the card shows beside it. Seventy-three strings were split, word for word, into eighty items; six that are epithets or parts of the name were left as they are. A note holds no brackets of its own, since the card shows it in brackets; five such notes were reworded only to drop the inner brackets. The validator rejects a name that still carries a note.
+2. "a if you mean Later Day Saints what ever is most correct and supported by the sources", then "history": "Mormonism" goes to `latter-day-saints-lds` as an other name (Noyes, 1870, lines 6667-6668: "he has organized Mormonism"); "Abyssinia" goes to the country Ethiopia as an older name (Budge, lines 165-171: "Abyssinians of all classes speak of their country as “Ethiopia,”"). Neither label says who gave the name.
+3. The three deleted rows are restored as ruled. Data release 55.
+4. Search is switched on (`SEARCH_ON` in `cft-website/index.html`). Mark saw the screenshots with the real names first. The real-phone and screen-reader check (Open-Gaps 371) stays open.
+
+**Not done.** Twenty-six of the notes name a modern editor or translator as the source of a spelling (for example "Langlois's French"). Search does not show them; the card does. Whether a card note may name a modern work is a question for Mark under the modern-sources rule (Open-Gaps 423).
