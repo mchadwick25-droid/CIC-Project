@@ -36,9 +36,9 @@ Kit Part 3, step 5. Backup before any change: `greek-apologists-second-century.b
 
 ## Final count and scorer
 
-658 words by `wc -w` (ceiling 675). Nothing taken from the trust fix or the heart.
+659 words by `wc -w` (ceiling 675). Nothing taken from the trust fix or the heart.
 
-`engine.m1.profile_readability`: 658 words, grade 8.6 (names out 7.8), reading ease names out 71.4, 18.3 words a sentence, 1.1 joining words per 100, 6% short sentences, longest sentence 36 words - pass.
+`engine.m1.profile_readability`: 659 words, grade 8.6 (names out 7.9), reading ease names out 71.3, 18.3 words a sentence, 1.1 joining words per 100, 6% short sentences, longest sentence 36 words - pass.
 
 The longest sentence is the Quadratus sentence, now 36 words with the Eusebius placing; it passes the scorer but runs past the kit's ~25.
 

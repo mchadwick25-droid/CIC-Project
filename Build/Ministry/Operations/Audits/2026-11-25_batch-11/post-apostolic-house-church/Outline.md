@@ -174,6 +174,8 @@ What passed on was the practice of being one church across many cities: a thanks
 - a sentence of its own crediting Eusebius → inside the Dionysius sentence, once.
 - how the Easter break ended, or that Victor gave way → no held source says (npnf201 31431–31434, 31659–31666).
 - "Polycarp, bishop of Smyrna" in his own letter's voice → his letter opens "Polycarp, and the presbyters with him"; Ignatius is the one who calls him bishop (anf01 3232–3235, 8534–8536).
+- "Corinth read Clement's letter on the Lord's day" → the Lord's-day reading was of Soter's letter; the older one is read and drawn on, with no day given (npnf201 25113–25117).
+- "Corinth read Clement's letter on the Lord's day" → "drew counsel from" it. Dionysius's Lord's-day reading was Rome's new letter (npnf201 25114–25116).
 
 ## Leave out
 
