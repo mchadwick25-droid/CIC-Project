@@ -26,7 +26,7 @@ Jobs, direct lines, siblings, the live stories beside each one, and quote bars: 
 
 ## Steps
 0. Slate: approved by Mark (2026-11-25, "Approve as recommended"; Decision-Log, "Batch 11: the slate approved").
-1. Research (`<slug>/Researcher_Prompt.filled.md`, each a filled `roles/researcher.md`; all thirteen written). Half A first wave started 2026-11-25: Alexandria, Syriac, Antioch, Apocryphal, Greek Apologists. Roman Church waits on Antioch's outline, Ebionites on Apocryphal's.
+1. Research (`<slug>/Researcher_Prompt.filled.md`, each a filled `roles/researcher.md`; all thirteen written). Half A first wave started 2026-11-25: Alexandria, Syriac, Antioch, Apocryphal, Greek Apologists. Roman Church waits on Antioch's outline, Ebionites on Apocryphal's. Half B (Mark, 2026-11-25: "Keep going on half B too"): Latin Apologists started 2026-11-25 (its header's Greek Apologists line reads that outline if done, otherwise the live text). House Church waits on Greek Apologists' outline, Latin Pastoral on Roman Church's, Manichaeism on Latin Pastoral's, Marcionism and Montanism on Latin Apologists'.
 
 ## Open items
 - (Ruled) Slate decision 3: the Apocryphal entry is not a community. Recommended: tell it through the people who wrote, read, copied and judged the books (Serapion and the Gospel of Peter, Eusebius HE 6.12, held in `npnf201`; the presbyter of the Acts of Paul, Tertullian On Baptism 17, held in `anf03`).
