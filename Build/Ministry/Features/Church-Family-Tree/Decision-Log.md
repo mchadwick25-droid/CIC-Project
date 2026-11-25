@@ -6020,3 +6020,10 @@ This batch only.
 3. The grade fixes, groups 1 to 3: Ebionites and Greek Apologists rebuilt at the outline in a story shape; the quick craft fixes (openings missing when or where, thread-losing sentences, add-on lines); the missing reasons both graders and the listener caught, where the sources hold them. Then a regrade. Group 4 (grader-only findings) is left.
 
 This batch only.
+
+## 2026-11-25 — Batch 10 stopped; the new process goes forward (Mark)
+
+**Decided (Mark, 2026-11-25).** "we are finishing up batch 11 before we go to batch 12 ... we will not continue with batch 10 as it is not the same thing and i think we are doing better with this new process."
+1. Batch 10 does not restart. Its held pull request #1796 (`claude/happy-ritchie-u8wn8l`) is not merged.
+2. Its eleven people other than John Chrysostom, already released as a reference, stay live as they are, modern-scholar sentences included, until a person rebuild runs through the current kit.
+3. Batch 11 finishes before batch 12 starts.
