@@ -161,6 +161,8 @@ What passed on, in the held record: their books, which Eusebius kept and quoted,
 - "a circle", "a group", "a movement" for the apologists → "a number of Christians who wrote" (no old source links them).
 - "secret meals" → "at their feasts" (athen-grc 179–180, δεῖπνα).
 - "were troubling the Christians" → "were trying to trouble" (Eusebius: "had attempted").
+- who the "wicked men" were or what they did (Jerome's "those who hated the Christians", the Granianus and Fundanus letters), or any line saying Eusebius does not name them → only "certain wicked men were trying to trouble the Christians" (npnf201 21048–21049; otto1872 17518–17520). No held old source says; tell it as given, with no word on the missing (Grades2, both readers; absence).
+- what the new decrees ordered, or any line saying Melito does not say → only that informers used the decrees to rob the innocent (npnf201 25818–25826; otto1872 20996–21029, ἀφορμήν). No held source gives their terms; tell it as given, with no word on the missing (Grades2, both readers; absence).
 - "had been told the books were new" → "thought the books were new" (Theophilus: "you suppose").
 - "only the passages Eusebius copied survive" / "nothing else of it survives" → "Eusebius copied passages from his petition" (anf08 71060–71070 holds a further fragment from the *Chronicon Alexandrinum*).
 - "atheists of such gods, yes, but not…" → "he granted they were atheists of such gods, and said they worshipped the most true God".
