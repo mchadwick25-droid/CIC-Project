@@ -5929,6 +5929,6 @@ Mark: "option 1", on the page https://claude.ai/artifact/UStZATEaBtT445YAKgNEi6 
    - Half B: `antiochene-exegetical-christianity-chrysostom-ce`, `aquileian-christianity`, `homoian-arian-christianity`, `pneumatomachian-current`, `priscillianist-asceticism`, `cappadocian-nicene-pastoral-monastic-tradition`.
    - The four built worlds among them also rebuild their census `entry` texts (Open-Gaps 416).
    - Antiochene Exegetical and Priscillianist Asceticism are siblings of batch 10's Chrysostom and Priscillian. Each is researched after its person's text is settled.
-2. Batch 12 starts after batch 11's first two briefs have reached Mark, so anything they show about the tradition kit is fixed first.
+2. Batch 12 starts only once batch 11 has finished and Mark has judged its results. Mark: "lets finish era 1 to make sure we are on track and not just writing in circles before going forward".
 3. Pushed off, too thin in the Library: `apollinarian-christianity` (4 works), `melitian-schism` (1), `aksumite-christianity-conversion-era` (0) and `luciferians` (0). They go to the source-research thread first (Open-Gaps 419).
 4. Pushed off, already C or B: `imperial-juridical-christianity`, `hieronymian-ascetic-literary`, `ambrosian-milan-standalone`, `gallic-nicene-episcopate` (C), and `palestinian-ascetic-monasticism-early`, `pelagianism` (B). The two built worlds, Imperial and Hieronymian, come first when the C pass starts (Open-Gaps 420).
