@@ -13,13 +13,13 @@ Kind: tradition (`Brief-Kit/kinds/tradition.md`). Every line points to `Source_S
 - **What held them together:** the world's gravities, in plain words: teaching through symbol and hymn, and the covenant life (both Primary); with them, the one-story Gospel, the answer to named rivals, and on the Persian side, holding on under persecution.
 - **What came of them:** their eastern half continued as the early Persian Church of the East, which in 410 named the covenant in its first synod and set Nisibis among its metropolitan sees (E7, Documented); Ephrem's hymns were sung on (Impact 1).
 
-**Length:** about four minutes, **about 600 words** (proposed; for Mark on the hearts page). The count the story must carry: three quotes, 80 words; plain senses for the covenant, the harmony, the hymn's refrain, the bow, the Magi and the synod, about 70 words; the rivals' three teachings as Ephrem gives them, about 40 words; credited witnesses (the chronicle copied about 340 years later; Theodoret a century later; the Greek historian Sozomen), about 40 words. Six beats, an opening and an ending carry the rest, about 370 words. The **Cut first** list below brings it to about 480 words (three and a quarter minutes) if Mark sets three minutes.
+**Length:** about four minutes, **about 600 words** (proposed; for Mark on the hearts page). The count the story must carry: three quotes, 80 words; plain senses for the covenant, the harmony, the hymn's refrain, the bow, the Magi and the synod, about 70 words; the rivals' three teachings as Ephrem gives them, about 40 words; credited witnesses (the chronicle copied about 340 years later; Theodoret a century later; the Greek historian Sozomen), about 40 words. Six beats, an opening and an ending carry the rest, about 370 words. The **Cut first** list below brings it to about 480 words (three and a quarter minutes) if Mark sets three minutes. **Recount (length fix pass, 2026-11-25):** the first draft, written with Cut first 1-10 out, ran 786 words by `wc -w`; Cut first 11-29 take out about 131, so a telling of this outline stands at about 655, against the ruled 650 and the cap of 675 (`Fixes_Length.md`).
 
 ## Approved heart and length
 
 Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommended"): the heart above, and **540 words** (the independent count in `Length_Count.md`, rounded up, capped at 675). Every Cut first item goes to the card or Leave out as it is marked.
 
-**Length ruling:** Mark, 2026-11-25 ("Batch 11: lengths, up to 4:30 and cut at the outline", "a"): about 650 words, the length the check found.
+**Length ruling:** Mark, 2026-11-25 ("Batch 11: lengths, up to 4:30 and cut at the outline", "a"): about 650 words, the length the check found. The first draft ran 786, so this outline was cut back at Cut first 11-29 to about 655.
 
 ## Setting
 
@@ -39,7 +39,7 @@ Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommend
 
 ## Shape
 
-The kind has one form: a story. Open on the flood, follow the community through time, end on the community at 410.
+The kind has one form: a story. Open on the flood, follow the community through time, end on the community at 410: the king's grant first, then the synod, closing on the bishops' own words.
 
 ## Sibling
 
@@ -58,7 +58,7 @@ The kind has one form: a story. Open on the flood, follow the community through 
 3. **The hymns and the siege.** In Nisibis, Ephrem, a native of the city or its countryside (Sozomen 32051), taught in hymns with a refrain the congregation sang back (E4; Documented). His title of deacon is held only for Edessa (Palladius, S5); give it in beat 5. When a Persian army besieged the city in what Ephrem counts its third peril (13839-13840), his hymn has the city surrounded by mounds, weapons and waves, with the river threatening it (13746-13751; own words, Documented), and sets that flood beside Noah's: **Q1** (13733-13734). Explain it: the bow (above). Where sources differ: Theodoret has the bishop, Jacob, praying inside the church and then cursing the army with gnats from a tower (11155-11177, wonder in his voice); Ephrem's own hymn says the city's first bishop already lay buried within it, his body a wall for the city (14774-14787), and the Chronicle of Edessa dates Jacob's death to 337 or 338 (77). Contested; credit each, or send to the card (Cut first 1).
 4. **Persecution in Persia.** Across the border, Christians had grown in number, built churches and appointed priests and deacons, and the Magi were angered (E6, 28873-28877). Sozomen, a Greek church historian of the next century, says the king believed the charge that their bishop was a friend of the Roman emperor; he taxed the Christians heavily, hoping want would make them give up their faith, then ordered their priests killed and their churches pulled down (28889-28899; Documented as Sozomen's account). The persecutor's reason, as the martyr acts give it: the bishop would make his people "servants of the emperor, who shares their faith" (Braun 1571-1575). Aphrahat, writing in 344, wrote that in his own days many declared their faith and were killed (27988-27991; Documented; the year from 28558-28561, Widely Accepted). Explain it: the Magi (above); the reason in each side's words.
 5. **The rivals answered, and Ephrem's last years.** In 363 Rome handed Nisibis to Persia, and Ephrem moved west to Edessa, where he spent the rest of his life (S3, 11697; S4, 20435-20438; Widely Accepted). In these cities rival teachers spoke the same language. Sozomen says Bardaisan's son set his teaching to tunes the Syrians loved, and Ephrem, fearing they would take in its ideas, wrote hymns of the church's teaching in the same meters (32085-32103; Documented as Sozomen's account; a clause, since the Ephrem page tells it). In prose Ephrem answered "the three of them" by name (584): Marcion, who taught a Stranger God, apart from the Maker of the world; Mani, who taught two first Roots, Light and Darkness; and Bardaisan, who said the world was made from five first beings set in empty space (584, 1605-1609, 431, 640, 606-608, 917; Documented as Ephrem's telling). Of their followers he wrote **Q3** (1205; the next sentence names Mani's followers, then, as the editor reads the damaged page, Marcion's and Bardaisan's), and he warned that whoever prayed with Mani's followers "prays with Satan" (1205). Keep that warning: it is the record's force. He died at Edessa, a deacon of its church, in June 373 (S5, 103, 471; Widely Accepted).
-6. **The synod of 410 (hand-off, a clause or two).** In the eleventh year of his reign, the Persian king ordered (16155) the churches his fathers had torn down rebuilt, the prisoners set free, and "the priests, the leaders and all the holy covenant" allowed to go about freely and without fear (E7, 16159-16166). Forty bishops met at the king's order in his capital (16412-16416) with an envoy from the Roman side, agreed one bishop to a city, and listed the bishop of Nisibis second among their metropolitans (16521-16530, 17724-17746, 17861; Documented). From there their story is the Persian church's own.
+6. **The grant and the synod of 410 (hand-off, a clause or two).** Told in this order: the grant, then the synod, then the Ending. It brings back the covenant of beat 2. In the eleventh year of his reign, the Persian king ordered (16155) the churches his fathers had torn down rebuilt, the prisoners set free, and "the priests, the leaders and all the holy covenant" allowed to go about freely and without fear (E7, 16159-16166). Forty bishops met at the king's order in his capital (16412-16416) with an envoy from the Roman side, agreed one bishop to a city, and listed the bishop of Nisibis second among their metropolitans (16521-16530, 17724-17746, 17861; Documented). From there their story is the Persian church's own.
 
 ## What came of it (heaviest first)
 
@@ -93,8 +93,7 @@ The kind has one form: a story. Open on the flood, follow the community through 
 
 ## Ending
 
-1. **Recommended:** the 410 grant: the churches rebuilt, the prisoners freed, and the priests, the leaders "and all the holy covenant" going about freely and without fear (16159-16166). It ends on the community and brings back the covenant of beat 2.
-2. **Alternative:** the bishops' own words that the day they met was for them like seeing the dead rise (16422, 16499-16500), in the narrator's paraphrase.
+1. **Recommended:** after beat 6 has told the grant and the synod, the bishops' own words that the day they met was for them like seeing the dead rise (16422, 16499-16500), in the narrator's paraphrase. It ends on the community, gathered in 410. The grant (16159-16166) is told in beat 6, before the synod, never after it: told after the synod it would be a jump back.
 
 ## Links
 
@@ -154,6 +153,7 @@ The kind has one form: a story. Open on the flood, follow the community through 
 - The Arian expulsion at Edessa in 373 (Chronicle 31, 33): a real conflict, but outside the slate's job and with no reason given in the held source.
 - The Pearl, Nativity and Epiphany hymns: card (raza/shrara method).
 - Ephrem as a "single one" sharing Christ's title: rests on Syriac the Library does not hold readably and on modern works. Card.
+- For length (Cut first 11-29, 2026-11-25), each named there with its reason: the essence's line on Christians inside Persia (told in beat 2); Ephrem's move "where he spent the rest of his life" (told in his death at Edessa); Nisibis as "a Roman fortress on the frontier" in beat 3 (told in the essence and in 363); the second telling of the refrain before Q1 (told once in its gloss); "in the same language" for the rivals (beat 5).
 
 ## Cut first (in order, to about 480 words)
 
@@ -167,3 +167,27 @@ The kind has one form: a story. Open on the flood, follow the community through 
 8. Beat 2's years of the letters, 337 and 344 (28556-28561): **card**. Moved (check B4); beat 4 keeps "in 344".
 9. Beat 3's Theodoret (the dammed river, the walls rebuilt): **card**. Moved (check B1, B4).
 10. Beat 4's taunt "If they have a God, why does He not avenge His people?" (27416-27419): **card**. Moved (check B4); beat 4 keeps "many declared their faith and were killed".
+
+Length fix pass (Mark, 2026-11-25, "Batch 11: lengths, up to 4:30 and cut at the outline", "a": about 650). The first draft, with items 1-10 out, ran 786 words. Items 11-29 apply too, in order of least loss; each saves the words shown, measured on that draft:
+
+11. The essence's line that others who shared their language lived across the border, inside Persia: **Leave out** (beat 2 opens inside Persia). About 11 words.
+12. The second telling of the refrain ("Then he gave the people this line to sing back") before Q1 (beat 3): **Leave out**; the refrain's gloss is told once, then Q1 follows it. About 7.
+13. Ephrem's move west "where he spent the rest of his life" (beat 5): **Leave out** (his death at Edessa tells it). About 8.
+14. Nisibis "a Roman fortress on the frontier" (beat 3): **Leave out** (the essence gives the frontier, and 363 gives the handover). About 6.
+15. The envoy from the Roman side at the synod (beat 6): **for the card**. About 7.
+16. "In the eleventh year of his reign" for the grant (beat 6): **for the card**; the grant comes simply before the synod of 410. About 6.
+17. "In his capital" for the synod (beat 6): **for the card**. About 3.
+18. "The prisoners set free" in the grant (beat 6): **for the card**, keeping the churches rebuilt and "the priests, the leaders and all the holy covenant" freed. About 5.
+19. Ephrem "born in the city or its countryside" (beat 3, Sozomen 32051): **for the card**. About 7.
+20. "In what Ephrem counts its third peril" for the siege (beat 3): **for the card**; the siege keeps no year (Do not say). About 7.
+21. Tatian's descriptor, "a teacher born in the east, a pupil of Justin" (beat 1): **for the card**; Tatian stays named as a link, who wove one Gospel from the four. About 11. Do not say still bars "Tatian, the heretic".
+22. Ephrem "a deacon of its church" and "June" at his death (beat 5): **for the card**; he dies at Edessa in 373. About 6.
+23. "Set in empty space" in Bardaisan's teaching (beat 5): **for the card**; the five first beings stay. About 4.
+24. "Many of them asleep" (Opening): **for the card**. About 4.
+25. "Wrecked his palace" (Opening): **for the card**; the dead and the church destroyed stay. About 3.
+26. "In the same language" for the rivals (beat 5): **Leave out**. About 4.
+27. The picture of the city "ringed by mounds, weapons and waves" (beat 3, 13746-13751): **for the card**, keeping the river rising against Nisibis, which Q1 needs. About 6.
+28. The Christians' building churches and appointing priests and deacons (beat 4, 28873-28877): **for the card**, keeping that they had grown in number and that this angered the Magi (the reason Do not say requires). About 7.
+29. The king on the tower called the Persians', watching the water by torchlight (Opening, S1): **for the card**, keeping the great rain in the night, the river rising, and the western wall broken. About 19 net.
+
+With items 11-29 applied, the story stands at about 655 words by the first draft's measure, against the ruled 650 and the cap of 675. Never cut: the essence with its span "from the flood to the year 410"; Tatian's harmony in one plain line; the covenant's gloss, its practices and Aphrahat's reason; Q2 with "he gives her the words"; the refrain's gloss, the bow's gloss and Q1; the Magi's anger with the Magi's gloss, Sozomen's credit, the charge of friendship with the Christian emperor, the tax and its aim, the priests killed and the churches pulled down; Aphrahat in 344 on the many killed; 363; the three rivals' teachings as Ephrem gives them, Q3 and "prays with Satan"; Ephrem's death at Edessa and Sozomen's word that the Syrians sang his hymns on; the grant with the holy covenant freed, the forty bishops, the synod's gloss and one bishop to a city; the bishops' words that close it; the chronicle's credit and "the first sure sign of a church there".

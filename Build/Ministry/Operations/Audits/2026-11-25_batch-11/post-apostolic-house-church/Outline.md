@@ -15,7 +15,7 @@ Kind: tradition. Every line points to `Source_Sheet.md` (item numbers) and, thro
 
 ## Length
 
-About **4 minutes, about 620 words** (inside the kind's 450–675). Must carry first: three quotes (about 140 words); glosses for the Two Ways, running water, thanksgiving, elders, ministrae, clubs, superstition, the memoirs of the apostles, the Sun's day, the mines (about 70); credited witnesses: Pliny as a hostile outsider, the unknown manual, Rome's letter as the only side held, Hermas's vision, Eusebius for Dionysius and Irenaeus (about 45). About 255 words before narration; the opening, essence, seven beats and the ending carry the rest. The record is rich, so the length is set by the heart.
+About **4 minutes, about 620 words** (inside the kind's 450–675). Must carry first: three quotes (about 140 words); glosses for the Two Ways, running water, thanksgiving, elders, ministrae, clubs, superstition, the memoirs of the apostles, the Sun's day, the mines (about 70); credited witnesses: Pliny as a hostile outsider, the unknown manual, Rome's letter as the only side held, Hermas's vision, Eusebius for Dionysius and Irenaeus (about 45). About 255 words before narration; the opening, essence, seven beats and the ending carry the rest. The record is rich, so the length is set by the heart. **Recount after the length fix pass (2026-11-25):** the first draft, written with items 1–8 out, ran 1,075 words (`wc -w`; its writer measured 1,074). Items 9–23, measured against that draft's own sentences, take out about 407, leaving about 668 against the ruled 675 (`Fixes_Length.md`). Two quotes are now shorter (Cut first 19, 20): about 105 words of quotation, not 140.
 
 ## Approved heart and length
 
@@ -177,6 +177,7 @@ What passed on was the practice of being one church across many cities: a thanks
 - Montanism and Marcionism: argued against; links only.
 - Lucian's Peregrinus (an outsider's satire, set in Palestine), the Lyon and Vienne letter, the apocryphal Acts: outside this story's job.
 - The modern dispute over Ignatius's letters, and Lampe on Rome's bishops: card's sourcing at most, as modern views.
+- Length fix pass (2026-11-25), each listed in Cut first: for the card, items 9–15, 17–19 and 21–23; Leave out, items 16 and 20 (the second sentence of the opening's credit, and the quoted wording of Justin after "as time allows", which is told in narration instead).
 
 ## Cut first
 
@@ -189,3 +190,23 @@ The independent count, 684 words, is taken with items 1–7 already cut (`Length
 6. Rome's gifts to the mines (Beat 7), keeping the Lord's-day reading: **card**.
 7. Hermas's two copies (Beat 5 entire), letting Ignatius, Polycarp and Dionysius carry the letters: **card**.
 8. The master and the slave who hope in the same God (Beat 1, the clause 'and the master is not to command a slave in bitterness, since both hope in the same God'): **Leave out**. (Also resolves B5.)
+
+Length fix pass (Mark, 2026-11-25, "Batch 11: lengths, up to 4:30 and cut at the outline", "a"): the first draft ran 1,075 words with items 1–8 out, so items 9–23 are also applied, in this order of least loss. Each word cost is measured on the first draft (`Fixes_Length.md`).
+
+9. Pliny's oath against theft, robbery and adultery, the later everyday meal, and its end after his order against clubs (Opening, mirbt 2791–2795), keeping the dawn hymn (Quote 1) and the two women; the clubs gloss goes with it; about 34 words: **for the card**.
+10. Polycarp's letter to Philippi (Beat 4 entire: the elders' duties, Valens, the letters of Ignatius sent on; anf01 3232–3618). Polycarp stays as the man Ignatius asks to have messengers or letters sent to Antioch (Beat 3); What came of it 1 loses its Polycarp clause; about 84 words: **for the card**.
+11. The way of life's sayings: bless those who curse you, give to anyone who asks, share everything with your brother (Beat 1, anf07 12710–12738), keeping that this way of life was taught before baptism; about 21 words: **for the card**.
+12. Confession of sins and reconciliation before the Lord's-day thanksgiving (Beat 1, anf07 13087–13095); about 21 words: **for the card**.
+13. The fast of a day or two and the running water (Beat 1, anf07 12916–12920), keeping baptism after the teaching, in the name of Father, Son and Holy Spirit (anf07 12914); the running-water gloss goes with it; about 17 words: **for the card**.
+14. Ignatius's line that a proper thanksgiving was the bishop's, or one he entrusted (Beat 3, anf01 8278–8284); about 10 words: **for the card**.
+15. Rome's three messengers, to return quickly with news of peace (Beat 2, anf01 2395–2398); messengers stay in the essence and in Ignatius's request; about 11 words: **for the card**.
+16. The opening's second sentence of credit ("he had it all from people who had left and from two women under torture"), which repeats what the opening has just told; Pliny stays credited as "a hostile witness" in a clause (Who tells it); about 18 words net: **Leave out**.
+17. The collection and the care of orphans and widows, the sick, prisoners and strangers (Beat 6, 1apol-grc 1772–1779), keeping the deacons carrying a share to those absent; about 22 words: **for the card**.
+18. The manual's prayers, cup before bread, and the broken bread scattered on the hills and gathered into one (Beat 1, anf07 12960–12970), keeping "Only the baptized could share the thanksgiving" with its gloss; about 31 words: **for the card**.
+19. Quote 3 ends at "Second, your neighbour as yourself." (Didache 1.1–1.2a, anf07 12700–12706); the rendering of every clause up to there is unchanged; the clause "And whatever you would not want to happen to you, do not do to another" goes; about 15 words: **for the card**.
+20. Quote 2 ends at "for as long as time allows." (First Apology 67.3, 1apol-grc 1759–1762); the rendering up to there is unchanged. What follows is told in narration in about a dozen words: the one who presides then spoke, urging them to imitate these good things, and all stood to pray (1apol-grc 1762–1766); about 18 words net: the quoted wording, **Leave out**.
+21. Pliny's finding, "a depraved superstition without measure", with its gloss (Opening, mirbt 2797; pliny-the-younger already tells it), keeping the torture of the two women and its reason, to find the truth; about 20 words: **for the card**.
+22. Ignatius's picture of a church acting as one, its bishop presiding in the place of God, its elders in the place of the apostles' council, with its deacons (Beat 3, anf01 5851–5856), keeping Ignatius the prisoner, his letters ahead to Asia, his greetings to households and his request for messengers; who should lead stays carried by Beat 2 and the Ending; about 28 words: **for the card**.
+23. Dionysius of Corinth (Beat 7 entire: Rome's gifts to churches in every city, and Rome's letters read on the Lord's day; npnf201 25082–25117). Ending 2 is no longer open. In the Ending, Soter is given once as "an earlier bishop", and Eusebius is credited there, once, as the church historian through whom Irenaeus's letter survives. The Connection's Dionysius clause and What came of it 1 go with it; about 57 words net: **for the card**.
+
+With cuts 1–23 applied, the story stands at about 668 words by the first draft's measure, against the ruled 675. Never cut: the opening's first sentence, Quote 1 and the two women tortured to find the truth; the essence; Quote 3 as item 19 leaves it, with the manual's credit and baptism after the teaching in the threefold name; the thanksgiving gloss; Beat 2 but for item 15, with Rome's letter as the only side; Ignatius as a prisoner for the name, writing to Asia, greeting households and asking for messengers; Quote 2 as item 20 leaves it, with the memoirs gloss; the bread, wine and water, the Amen, the deacons' share to the absent, and the Sun's-day reason; the Ending entire.
