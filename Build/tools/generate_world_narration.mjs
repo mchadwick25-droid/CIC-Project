@@ -46,7 +46,7 @@ import path from 'path';
 import os from 'os';
 import { execFileSync } from 'child_process';
 import { fileURLToPath } from 'url';
-import { NARRATION_BITRATE, NARRATION_OUTPUT_FORMAT, requireApprovedRun, requirePaidSettings, synthesizeWithCost, worldsDataDir } from './generate_tree_narration.mjs';
+import { NARRATION_BITRATE, NARRATION_OUTPUT_FORMAT, requireApprovedRun, requireVoiceAndModel, synthesizeWithCost, worldsDataDir } from './generate_tree_narration.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, '..', '..');
@@ -160,7 +160,7 @@ async function run() {
   console.log(`  total ${chars} characters`);
   if (opts.dryRun) return;
 
-  requirePaidSettings(opts);
+  requireVoiceAndModel(opts);
   requireApprovedRun(opts, billableChars(pieces, manifest[opts.world] || {}, opts));
   for (const [flag, v] of [['--api-speed', opts.apiSpeed], ['--tempo', opts.tempo], ['--settings-json', opts.settingsJson]]) {
     if (!v) throw new Error(`${flag} is required and is never read from the environment.`);

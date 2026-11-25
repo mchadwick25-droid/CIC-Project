@@ -15,7 +15,7 @@ const noNetwork = 'data:text/javascript,globalThis.fetch=()=>{console.error("NET
 const paid = ['--voice-id', 'v', '--model', 'm'];
 
 const scripts = [
-  ['generate_tree_narration.mjs', [...paid, '--force', '--limit', '1']],
+  ['generate_tree_narration.mjs', [...paid, '--output-format', 'mp3_44100_64', '--voice-settings', '{"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true}', '--force', '--limit', '1']],
   ['generate_docstory_narration.mjs', [...paid, '--output-format', 'mp3_44100_64', '--force', '--limit', '1']],
   ['generate_site_narration.mjs', [...paid, '--output-format', 'mp3_44100_64', '--settings-json', '{}', '--force']],
   ['generate_world_narration.mjs', [...paid, '--world', firstWorld, '--api-speed', '1', '--tempo', '1', '--settings-json', '{}', '--force']],
