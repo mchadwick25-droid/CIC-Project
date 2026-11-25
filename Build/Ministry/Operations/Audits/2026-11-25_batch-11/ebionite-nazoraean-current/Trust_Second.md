@@ -22,10 +22,10 @@ The heart is the right one. All the witnesses show Jews who believed Jesus was t
 ## BLOCKING findings
 
 **1. ASSUMPTION ADDED.** "Trypho asked whether some Christians said no."
-- Source: JusG 2161–2162: "Διὰ τί οὖν εἶπας· Ὡς μὲν ἐμοί δοκεῖ, σωθήσεται ὁ τοιοῦτος, εἰ μήτι εἰσὶν οἱ λέγοντες ὅτι οὐ σωθήσονται οἱ τοιοῦτοι;" (ANF1 19909–19912: "unless there are some who affirm that such will not be saved?").
+- Source: JusG 2162–2163: "Διὰ τί οὖν εἶπας· Ὡς μὲν ἐμοί δοκεῖ, σωθήσεται ὁ τοιοῦτος, εἰ μήτι εἰσὶν οἱ λέγοντες ὅτι οὐ σωθήσονται οἱ τοιοῦτοι;" (ANF1 19906–19912: "unless there are some who affirm that such will not be saved?").
 - Trypho does not say who those people are. "Christians" is added. It comes from ANF's chapter heading ("Not a few Catholics do otherwise"), which is the editor's, not Justin's. Opening 1 in the outline doesn't say it either: "And are there some who say no?"
 - Change: "Trypho asked whether some said such a man would not be saved."
-- Do not say: "some Christians said no" | Trypho asks only whether "there are some who say" such a man will not be saved (B1, JusG 2161–2162).
+- Do not say: "some Christians said no" | Trypho asks only whether "there are some who say" such a man will not be saved (B1, JusG 2162–2163).
 
 **2. ASSUMPTION ADDED.** "Such people lived in Palestine and Syria from Justin's day to about 400."
 - Sources: the last witnesses say they were still there. Jerome, 404: "usque hodie per totas orientis synagogas ... haeresis est" (CSEL34 23235–23236). Augustine "still continues" (I4) is no longer in the story.
