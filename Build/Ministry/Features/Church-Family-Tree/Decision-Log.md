@@ -6009,3 +6009,14 @@ This batch only. Whether traditions keep the council line is for `Recording_Sett
 **Decided (Mark, 2026-11-25): "so fix and regrade".** One checked craft pass on: the opening's when; the elder's sentence; what the Asian synods found "novel and profane" (from the sources); Justinian's reason only if Procopius gives one. Tertullian's reason and who razed Pepuza are left. Then the same four graders again, and a trust read of the changed sentences, before the recording.
 
 This batch only.
+
+## 2026-11-25 — Batch 11: the eight briefs, Manichaeism's length and the grade fixes (Mark)
+
+**Why.** Three open questions: the eight briefs page (https://claude.ai/artifact/NAyY4X9eycAVbj9s3No8Lv, version 2), Manichaeism's length (https://claude.ai/artifact/2GbrcpwDebLWV88fntc82T, version 1), and the fixes the batch grade found (`2026-11-25_batch-11/Grades/Grades.md`).
+
+**Decided (Mark, 2026-11-25): "yes to all"**, read as each recommendation:
+1. The seven briefs that failed their fresh read on a point are approved with their fixes (Alexandria, Latin Apologists, Ebionites, Marcionism, Greek Apologists, House Church, Latin Pastoral). The Apocryphal Books: option A, the sentence stands with the teaching unnamed, the card carrying the gap.
+2. Manichaeism: option A, about 830 words, reviewed as it stands.
+3. The grade fixes, groups 1 to 3: Ebionites and Greek Apologists rebuilt at the outline in a story shape; the quick craft fixes (openings missing when or where, thread-losing sentences, add-on lines); the missing reasons both graders and the listener caught, where the sources hold them. Then a regrade. Group 4 (grader-only findings) is left.
+
+This batch only.
