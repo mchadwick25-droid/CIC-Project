@@ -27,3 +27,14 @@ Left as noted by the listener: "betrothed", "learn too boldly" (the source's sen
 `engine.m1.profile_readability`: 670 words, grade 8.4 (names out 7.7), reading ease names out 75.8, 20.3 words a sentence, 0.1 joining words per 100, 6% short sentences, longest sentence 40 words - pass.
 
 `tools/check_brief_craft.py`: s4 stock word (false hit on "New Testament", as before); s4 37 words (now with the two glosses); s21 40 words (unchanged); s33 names a source (Egeria acts in the story, as before).
+
+## Craft check fixes applied
+
+- Brief: cut " No old writer says what it taught." - applied.
+- Brief: s4 split as worded in Craft_Check Change 2 - applied.
+- Outline.md line 174 wording (Docetae / Marcianus) - applied.
+- Outline.md Do not say, new row ("No old writer says what it taught") - applied.
+
+`wc -w`: 665 (cap 675).
+
+`engine.m1.profile_readability`: 664 words, grade 8.3 (names out 7.7), reading ease names out 75.9, 20.1 words a sentence, 0.2 joining words per 100, 3% short sentences, longest sentence 40 words - pass.

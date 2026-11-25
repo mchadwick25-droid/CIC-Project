@@ -167,11 +167,12 @@ The doubt is not itself the story; no scene of doubt.
 | the Thomas, Andrew and John titles in a list | "the gospel of Peter and other books like it" (B5d) |
 | "the book whose writer had left his office" at the close | end on the reading itself (B6c) |
 | "the church at Rhossus was heretical" | only "those who put the book forward", "the backers" (B1d; Rufinus 2584: "hi, qui codicem illum legi debere adserunt") |
+| "No old writer says what it taught", or any word on the teaching being unknown or lost | only what he was told: the backers' minds were caught up in a teaching he held false (B1d); Part 1, Explain it: no word on the missing one |
 
 ## Leave out
 
 - The Gospel of Peter fragment's content and the Akhmim find (modern identification; card).
-- Docetae (name only; the modern gloss is barred). Marcianus is now told, in beat 1, in Serapion's own report only (B1g).
+- Docetae (name only; the modern gloss is barred). Marcianus (B1g): his name is all Serapion's report keeps, with no content for his teaching. Cut from beat 1 at the craft pass (Fresh_Listen 3.1, 2026-11-25): a name heard once that neither acts nor links.
 - The Muratorian Fragment (date and place modern; its Shepherd lines belong to hermas).
 - Athanasius's Festal Letter 39 (told in his own story; card).
 - Jerome's "before John" and "the lion baptized" (late legend; card).

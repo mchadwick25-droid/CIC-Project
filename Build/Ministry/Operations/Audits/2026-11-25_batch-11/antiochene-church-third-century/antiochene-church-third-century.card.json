@@ -1,0 +1,201 @@
+{
+ "why": "In 268, a council of bishops at Antioch deposed Paul of Samosata. He taught that Christ was a man the Word had come to dwell in, rather than the Word made flesh. The bishops found his conduct just as troubling, including a raised throne in church and hymns sung to himself. He would not leave until the emperor Aurelian retook the city in 272. Aurelian settled the matter by asking which claimant was in communion with the bishops of Italy and Rome. In the 350s, bishops wary of Nicaea's word 'homoousios' pointed back to this council. They said it had turned the word down, and Athanasius of Alexandria had to explain why.",
+ "sourcing": "Only one document survives directly from this period: the synodal letter deposing Paul of Samosata, about three thousand words, the collective act of a council rather than an individual's book. Serapion's fragments fall just before this window. Everything else about these hundred years arrives through Eusebius of Caesarea, quoting archives at second hand, and through what the fourth century said about Lucian once his pupils had become notorious.",
+ "floorNote": "The city's church itself is not in question. But Paul of Samosata's own teaching is a live, unresolved question about where the doctrinal line falls, distinct from the other monarchian currents of the period, such as Sabellius's modalism.",
+ "relationsSummary": "Third-century Antioch was the seedbed of the fourth-century quarrel over the Son. Lucian's pupils led the Arian party. Three of them later taught Aetius, the first Anomoean teacher. Its tie to modalist monarchianism is a mirror, not a line of descent. Paul of Samosata taught adoptionism and Sabellius taught modalism. These were opposite ways of refusing the account of the Son that the century was working out.",
+ "teaser": "A council removed the bishop of the greatest city in the East for what he taught and how he behaved, and could not make it stick until an emperor decided who owned the building.",
+ "voices": [
+  "Paul of Samosata - bishop of Antioch, deposed on the charge of refusing to confess that the Son of God came down from heaven, surviving only in his enemies' minutes",
+  "Malchion - head of the city's rhetorical school, who cross-examined Paul of Samosata before stenographers and, by Jerome's account, drafted the letter that deposed him",
+  "Lucian of Antioch - biblical text-critic and martyr in 312, whose pupils, Arius among them, called themselves Lucianists",
+  "Serapion - bishop about 191 to 211, who let the Gospel of Peter be read at Rhossus, read it properly, and withdrew the permission",
+  "Aurelian - who took the city back from Palmyra in 272 and settled the dispute by ordering the church's house given to those to whom the bishops of Italy and Rome wrote"
+ ],
+ "legacy": "Two things went out of this council into the fourth century. The word homoousios - one substance - seems to have been rejected here as something Paul of Samosata had misused. A generation after Nicaea adopted it in 325, Eastern bishops who were not Arians still cited this council when they balked at it. And Lucian's school gave the Arian party its leadership and its self-description: Arius wrote to Eusebius of Nicomedia as one Lucianist to another. Paul's own followers kept a church of their own: the council of Nicaea ruled that the \"Paulianists\" who came over to the Catholic Church must be rebaptized, and that their clergy found blameless be rebaptized and ordained again.",
+ "documentedStories": [
+  {
+   "title": "Lucian of Antioch, Nine Years in Prison",
+   "when": "312",
+   "tier": "2",
+   "verification": "from reference summaries; primary text not yet read",
+   "teaser": "The scholar whose students would later start the Arian controversy is remembered for how he answered the emperor.",
+   "text": "Lucian was a presbyter of Antioch who spent his life on the text of the Greek Bible, producing a revision of the Septuagint and Gospels used across the Greek East for centuries. He was also, on the later testimony of his pupils, a teacher whose circle — Arius and Eusebius of Nicomedia among them — called themselves ‘fellow-Lucianists’ long after he was dead. What the record preserves about the man himself is the manner of his death. Eusebius, writing within a few years, says Lucian was brought before the emperor Maximinus at Nicomedia, delivered a defense of the faith, and was put in prison and killed; a later notice puts it on 7 January 312 and adds that he had been held for nine years. Chrysostom, preaching on his feast at Antioch three generations later, gave the tradition his congregation knew. Under questioning, Lucian gave every question the same answer: he was a Christian. Later still comes the story that, chained on his back in the cell and forbidden the sacrament, he celebrated the Eucharist on his own chest for the Christians imprisoned with him. The scholar is documented; the confessor is attested; the prisoner-priest is devotion. All three belong to how Antioch remembered him, and the awkward fact that the most notorious heresy of the next century traced itself to his classroom did not stop the church from keeping his feast.",
+   "caveat": "Eusebius of Caesarea is near-contemporary but brief; Chrysostom’s account of his one answer is a homiletic tradition; the Eucharist on the chest is late hagiography. The link between Lucian’s teaching and Arius’ is asserted by Arius’ own party and disputed by modern scholars.",
+   "sources": [
+    {
+     "work": "Eusebius, Church History VIII.13.2 and IX.6.3",
+     "type": "primary",
+     "note": "The notices of Lucian’s defense and death (Book IX at this URL; Book VIII at 250108.htm)."
+    },
+    {
+     "work": "John Chrysostom, Homily on the Martyr Lucian",
+     "type": "primary",
+     "note": "The tradition of his one answer; PG 50:519–526, English in Wendy Mayer, The Cult of the Saints (SVS, 2006)."
+    },
+    {
+     "work": "Jerome, Lives of Illustrious Men, ch. 77",
+     "type": "primary",
+     "note": "Lucian’s scholarly work and death at Nicomedia."
+    },
+    {
+     "work": "Rowan Williams, Arius: Heresy and Tradition, rev. ed. (Eerdmans, 2002)",
+     "type": "reference",
+     "note": "On the ‘Lucianist’ connection and its limits."
+    }
+   ]
+  }
+ ],
+ "people": [
+  {
+   "name": "Serapion",
+   "year": 191,
+   "voice": 3,
+   "source": {
+    "work": "Serapion of Antioch, fragment on the Gospel of Peter (ANF 8)",
+    "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml",
+    "lines": "72709-72710",
+    "quote": "For we, brethren, receive both Peter and the rest of the apostles as Christ"
+   }
+  },
+  {
+   "name": "Malchion",
+   "year": 268,
+   "voice": 1,
+   "author": "malchion",
+   "held": "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-epistle-of-malchion-in-the-name-of-the-synod-of-antioch"
+  }
+ ],
+ "uncertain": [
+  "When the last meeting was held. Eusebius puts the final synod in the reign of Aurelian. Jerome's Chronicle sets Paul's fall, and Domnus made bishop in his place, beside the thirteenth and fourteenth years of Gallienus. No old source gives the year as a number.",
+  "How many bishops condemned him. Eusebius says a great many. Athanasius speaks of the seventy who deposed him, and Hilary of eighty bishops.",
+  "Who wrote the bishops' letter. Eusebius says the bishops prepared it by common consent. Jerome says Malchion wrote it on the council's behalf, to Dionysius of Rome and Maximus of Alexandria.",
+  "Why the council refused the word homoousios, the word Nicaea later used to say the Son is of one being with the Father. In the 350s, bishops wary of Nicaea's word said the council against Paul had refused it. Athanasius, who says he did not have their letter, answers that those bishops took the word in a bodily sense, because Paul had argued that it would make three beings. Hilary says Paul had used it to teach that God was single and undivided, at once Father and Son to himself. Basil says the bishops held that it set forth a being and what is derived from it. None of the three quotes the letter, and they disagree on the reason.",
+  "The bishops' other charges, all from the letter of the men who judged him. Once poor, they wrote, he grew rich from the brethren, taking money from people in lawsuits. He would rather be called ducenarius, an imperial official's title, than bishop. His singers called him an angel come down from heaven, and he did not stop them. He kept two young women with him and let his clergy keep women too, though the bishops grant he may have done nothing sinful and say he should have avoided the suspicion. In his church, they wrote, all mourned in private, but so feared his tyranny and power that they dared not accuse him.",
+  "The bishop of Alexandria, Dionysius, was asked to come but was too old and weak. Eusebius and the bishops' letter say he gave his view by letter, and would not address Paul, but wrote to the whole church at Antioch.",
+  "In Paul's place the bishops appointed Domnus, son of Demetrianus, the bishop before Paul, and asked every church to write to him and receive letters of communion from him.",
+  "Why the emperor ruled as he did. Eusebius gives no reason, only that Aurelian decided the matter \"most equitably\".",
+  "Lucian and the Scriptures. Jerome says Lucian was so diligent in the study of the Scriptures that in his day certain copies of the Scriptures still bore Lucian's name.",
+  "Lucian's pupils. Philostorgius, a historian friendly to Arius's side, known only through a hostile summary of his book, names pupils who became bishops of Nicomedia, Chalcedon, Nicaea and Antioch, and one at Tarsus. He says some of them sacrificed to the gods under the persecutors, and that Lucian helped bring them back to repentance.",
+  "Lucian's creed. Later bishops meeting at Antioch said they had found a creed written entirely by Lucian. Sozomen did not know whether this was true, or whether they said it to give their document a martyr's weight."
+ ],
+ "sources": [
+  {
+   "work": "Eusebius, Church History, Book 7, chapters 27-30, Book 8, chapter 13, and Book 9, chapter 6, tr. A. C. McGiffert (1890)",
+   "type": "primary",
+   "note": "The bishops' letter against Paul, in extracts, with Eusebius's account of the meetings, Malchion's debate, the emperor's ruling and Lucian's death.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+  },
+  {
+   "work": "Eusebius, Church History, Books 6-10, Greek ed. Eduard Schwartz, with the Latin of Rufinus (1908)",
+   "type": "primary",
+   "note": "The Greek of the bishops' letter and of the emperor's ruling.",
+   "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt"
+  },
+  {
+   "work": "Theodoret, Church History, Book 1, chapters 1-4, tr. Blomfield Jackson, and Jerome, Lives of Illustrious Men, chapters 71 and 77, tr. E. C. Richardson (1892)",
+   "type": "primary",
+   "note": "Alexander of Alexandria's letter against Arius, Arius's letter to Eusebius of Nicomedia, and Jerome on Malchion and Lucian.",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+  },
+  {
+   "work": "Epiphanius, Panarion 69, Greek ed. Franz Oehler (1860)",
+   "type": "primary",
+   "note": "The Greek of Arius's letter to Eusebius of Nicomedia, as Epiphanius copies it.",
+   "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt"
+  },
+  {
+   "work": "Philostorgius, Church History, in Photius's summary, tr. Edward Walford (1855)",
+   "type": "primary",
+   "note": "Lucian's pupils, and the three of them who taught Aetius.",
+   "file": "cic/texts/philostorgius_ecclesiastical-history_walford1855.txt"
+  },
+  {
+   "work": "John Chrysostom, Homily on the Martyr Lucian, Latin tr. Fronton du Duc, Migne, Patrologia Graeca 50 (1862)",
+   "type": "primary",
+   "note": "Lucian's one answer under torture.",
+   "file": "cic/texts/john-chrysostom_homily-martyr-lucian-grc-lat_migne-pg50.txt"
+  },
+  {
+   "work": "Sozomen, Church History, Book 3, chapter 5, tr. C. D. Hartranft (1890)",
+   "type": "primary",
+   "note": "The creed said to be written by Lucian, and Sozomen's doubt.",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+  },
+  {
+   "work": "Athanasius, On the Councils of Ariminum and Seleucia, tr. Archibald Robertson (1892)",
+   "type": "primary",
+   "note": "His answer to the bishops who said the council against Paul refused the word coessential.",
+   "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+  },
+  {
+   "work": "Hilary of Poitiers, On the Councils, tr. E. W. Watson (1898)",
+   "type": "primary",
+   "note": "His account of why the bishops who condemned Paul rejected the word.",
+   "file": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml"
+  },
+  {
+   "work": "Basil of Caesarea, Letter 52, tr. Blomfield Jackson (1895)",
+   "type": "primary",
+   "note": "His account of why the synods on Paul found fault with the word.",
+   "file": "cic/texts/npnf208_basil-letters-select-works.xml"
+  },
+  {
+   "work": "Council of Nicaea, Canon 19, tr. H. R. Percival (1900)",
+   "type": "primary",
+   "note": "The ruling on the Paulianists who came over to the Catholic Church.",
+   "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+  },
+  {
+   "work": "Jerome, Chronicle, Latin ed. J. K. Fotheringham (1923)",
+   "type": "primary",
+   "note": "Paul made bishop, and his fall and Domnus's appointment, set beside the years of Gallienus.",
+   "file": "cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt"
+  }
+ ],
+ "briefReferences": [
+  "The bishops' letter, in Eusebius, Church History, Book 7, chapter 30 (McGiffert's English, lines 42165-42168; Schwartz's Greek, lines 11896-11900): the psalms to Christ stopped, and women trained to sing psalms to Paul at Easter.",
+  "The bishops' letter (lines 42025-42026, 42169-42171) and its address (lines 42003-42027): the church of Antioch with its bishops, presbyters and deacons, writing to fellow ministers across the world.",
+  "Eusebius, Church History, Book 7, chapter 27 (lines 41784-41785, 41836-41840): Paul bishop when Demetrianus died, and his view of Christ as by nature a common man; Jerome's Chronicle for Gallienus's seventh year. The bishops' letter (lines 42173-42178): he would not confess that the Son of God came down from heaven, and his saying that Jesus Christ is from below.",
+  "Eusebius, Church History, Book 7, chapters 29-30 (lines 41997-42001): the bishops' letter, sent to all the provinces, copied by Eusebius in extracts.",
+  "Eusebius, Church History, Book 7, chapter 28 (lines 41859-41861, 41894-41899): the pastors hurrying to Antioch as against a despoiler of the flock, and meeting often while Paul's side hid his teaching. The bishops' letter (lines 42044-42072): Firmilian came twice, believed Paul's promise and put the matter off, and died at Tarsus on his third journey.",
+  "The bishops' letter (lines 42128-42160, 42228-42230): the tribunal, high throne and secretum, like the rulers of the world; those who would not applaud and wave handkerchiefs, but listened reverently as in the house of God.",
+  "Eusebius, Church History, Book 7, chapter 29 (lines 41936-41954, 41977-41984): Malchion, head of the school of Greek learning, a presbyter, debating Paul before stenographers; the final synod and his excommunication. The bishops' letter (lines 42274-42314): he sets himself against God and refuses to obey; letters of communion.",
+  "Eusebius, Church History, Book 7, chapter 30 (lines 42324-42330; Greek, lines 12116-12122): Paul would not give up the church's house; Aurelian petitioned, the house given to those the bishops of Italy and Rome wrote to; Paul driven out by the worldly power.",
+  "Eusebius, Church History, Book 8, chapter 13, and Book 9, chapter 6 (lines 44730-44735, 48018-48023): Lucian, presbyter of Antioch, defending his faith before the emperor at Nicomedia, imprisoned and killed. Chrysostom, Homily on the Martyr Lucian (Latin, lines 15435-15440): his one answer under torture.",
+  "Theodoret, Church History, Book 1, chapter 4 (Arius's letter, lines 6025-6031, 6045-6046): Arius driven out of the city because he would not agree that the Son always was; the Son has a beginning, and God has none. Theodoret, Book 1, chapter 1 (lines 5278-5283): Arius a presbyter of Alexandria.",
+  "Theodoret, Church History, Book 1, chapter 3 (Alexander's letter, lines 5752-5775): Lucian, out of communion with the bishops for many years, set after Paul; Arius and his party offsets of the same stock.",
+  "Philostorgius, in Photius's summary (line 138): Lucian's pupils who became bishops, Eusebius of Nicomedia among them. Arius's letter (Jackson's English, Theodoret lines 6063-6064; Greek in Epiphanius, lines 45744-45746): his farewell to Eusebius as fellow-Lucianist."
+ ],
+ "quotationOriginals": [
+  {
+   "modern": "He stopped the psalms to our Lord Jesus Christ, as if they were too new, the work of newer men. But on the great day of Easter he trains women to sing psalms to himself, in the middle of the church. Anyone who heard them would shudder.",
+   "printed": "stops the psalms to our Lord Jesus Christ, as being the modern productions of modern men, and trains women to sing psalms to himself in the midst of the church on the great day of the passover, which any one might shudder to hear",
+   "work": "The bishops' letter against Paul of Samosata, in Eusebius, Church History, Book 7, chapter 30, tr. McGiffert",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "42165-42168",
+   "original": "ψαλμοὺς δὲ τοὺς uir εἰς τὸν κύριον ἡμῶν Ἰησοῦν Χριστὸν παύσας ὡς δὴ veoτέρους καὶ νεωτέρων ἀνδρῶν συγγράμματα. εἰς ἑαυτὸν δὲ ἐν μέσῃ 77 ἐχχλησίᾳ τῇ μεγάλῃ τοῦ πάσχα ἡμέρᾳ ψαλμῳδεῖν γυναῖκας παρασχευάζων. ὧν xai ἀχούσας ἄν τις φρίξειεν",
+   "originalFile": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt",
+   "originalLines": "11896-11900",
+   "uncertain": "The rendering is made from Schwartz's Greek, printed here as the scan reads it. The scan has faults: uir for μὲν, veo for νεω, 77 for τῇ before ἐκκλησίᾳ, xai for καὶ, and chi for kappa in several words; its margin line number and quotation marks are left out. Rufinus's Latin in the same volume (in medio ecclesiae, lines 11951-11955) and McGiffert's English confirm the reading."
+  },
+  {
+   "modern": "To each question he answered only, I am a Christian. When the torturer asked, What is your homeland? I am a Christian, he said. What is your trade? I am a Christian. Who are your parents? To all of it he said, I am a Christian.",
+   "printed": "ille vero ad unamquamque interrogationem tantum respondebat, Christianus sum, ac dicente tortore, Quanam ex patria ortus es? Christianus sum, ait; Quam artem profiteris ? Christianus sum; Quibus parentibus natus es? ille. vero ad omnia dicebat, Christianus sum",
+   "work": "John Chrysostom, Homily on the Martyr Lucian, Latin tr. Fronton du Duc (Migne, Patrologia Graeca 50)",
+   "file": "cic/texts/john-chrysostom_homily-martyr-lucian-grc-lat_migne-pg50.txt",
+   "lines": "15435-15440",
+   "uncertain": "The rendering is made from Fronton du Duc's Latin translation of Chrysostom's Greek. The Greek is not legible in the held scan, and no English is held. The scan prints a stray full stop after the second ille."
+  },
+  {
+   "modern": "I pray you fare well in the Lord, remembering our troubles, fellow-Lucianist.",
+   "printed": "I bid thee farewell in the Lord, remembering our afflictions, my fellow-Lucianist",
+   "work": "Arius, Letter to Eusebius of Nicomedia, in Theodoret, Church History, Book 1, chapter 4, tr. Jackson",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "6063-6064",
+   "original": "Ἐρρῶσϑαί σε iv κυρίῳ εὔχομαι, μεμνημένον τῶν ϑλίψεων ἡμῶν, 5 Συλλουκιανιστὰ",
+   "originalFile": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt",
+   "originalLines": "45744-45746",
+   "uncertain": "The rendering is made from the Greek of the letter as Epiphanius copies it, printed here as Oehler's scan reads it: iv for ἐν, and 5 a note mark; a stray line of scan marks between the two lines is left out. Jackson's English, from Theodoret's copy, confirms the reading."
+  }
+ ]
+}
