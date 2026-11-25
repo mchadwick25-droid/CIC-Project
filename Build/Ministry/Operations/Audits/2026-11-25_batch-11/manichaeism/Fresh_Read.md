@@ -48,3 +48,19 @@ Added to Do not say, the listener's line word for word: "Do not name Mani's gosp
 ## To Mark
 
 A sentence failed the fresh trust read, so this brief comes to Mark (Kit Part 3, step 5). The reason: sentence 32 said "some seventy of their women of their faith" died in 843, which widens the source's *religieuses manichéennes* (women in religious life) to any Manichaean women. Both trust reads blocked on it. The applied fix, word for word as both reads give it: "some seventy of their women religious at the capital all died."
+
+## Craft check fixes applied
+
+Source: `Craft_Check.md` (FIX). Each change made word for word; no backup (v3 exists).
+
+1. Brief S16, "their daily prayer" to "a prayer for forgiveness": applied.
+2. Brief S20, "at the gate of Gundeshapur, a royal city" to "at the gate of the city of Gundeshapur": applied.
+3. Outline beat 2, scriptures wording (gospel clause removed, Shaburkan sentence): applied.
+4. Outline Do not say row, "he wrote his own scriptures": applied.
+5. Outline How they practiced, "daily confession (C9)": applied.
+6. Outline Place, "Gundeshapur, a Persian royal city (B10)": applied.
+
+Every target was found exactly once. None not applied.
+
+Count: `wc -w` 840.
+Scorer: `engine.m1.profile_readability`: 833 words, grade 9.0 (names out 7.8), reading ease names out 74.6, 19.8 words a sentence, 0.7 joining words per 100, 7% short sentences, longest sentence 41 words - pass.
