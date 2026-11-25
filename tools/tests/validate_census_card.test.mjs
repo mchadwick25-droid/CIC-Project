@@ -106,3 +106,8 @@ test("a split other name needs both its name and its note, and nothing else", ()
   assert.equal(errorsFor((c, m) => { m(PERSON).card = { ...card(), otherNames: [{ name: "Tertullianus", note: "in Jerome", source: "x" }] }; }).length, 1);
   assert.equal(errorsFor((c, m) => { m(PERSON).card = { ...card(), otherNames: [7] }; }).length, 1);
 });
+
+test("a note with brackets of its own fails, since the card shows it in brackets", () => {
+  assert.equal(errorsFor((c, m) => { m(PERSON).card = { ...card(), otherNames: [{ name: "Ceadda", note: "(Chad), the form of Bede's Latin" }] }; }).length, 1);
+  assert.deepEqual(errorsFor((c, m) => { m(PERSON).card = { ...card(), otherNames: [{ name: "Ceadda", note: "Chad, the form of Bede's Latin" }] }; }), []);
+});

@@ -258,7 +258,7 @@ function checkQuotationOriginals(m, list, text, sources, at, where = "quotationO
 const CARD_LABELS = new Set(["Outside witness"]);
 // An other name is the name alone, which search shows: a string, or {name, note} where the note, shown on the card
 // beside it, says where the form stands or what it is. A name still carrying a note (in brackets, after a semicolon,
-// or after a comma that opens a source, an office, a form or a gloss in quotes) fails.
+// or after a comma that opens a source, an office, a form or a gloss in quotes) fails, and so does a note with brackets of its own.
 const OTHER_NAME_NOTE = [
   /[()[\];]/,
   /,\s*(?:in|by|from)\s/i,
@@ -277,6 +277,7 @@ function checkOtherNames(list, at) {
       if (!plain(x.name)) errs.push(`${at(`${p}.name`)} must be a non-empty string`);
       else if (carriesNote(x.name)) errs.push(`${at(`${p}.name`)} "${x.name}" still carries a note; the name goes in name, the rest in note`);
       if (!plain(x.note)) errs.push(`${at(`${p}.note`)} must be a non-empty string (a name with no note is a plain string)`);
+      else if (/[()]/.test(x.note)) errs.push(`${at(`${p}.note`)} "${x.note}" has brackets; the card shows the note in brackets, so give it without them`);
     } else if (!plain(x)) errs.push(`${at(p)} must be a non-empty string or an object with name and note`);
     else if (carriesNote(x)) errs.push(`${at(p)} "${x}" carries a note; give it as {"name", "note"}`);
   });
