@@ -6020,3 +6020,11 @@ This batch only.
 3. The grade fixes, groups 1 to 3: Ebionites and Greek Apologists rebuilt at the outline in a story shape; the quick craft fixes (openings missing when or where, thread-losing sentences, add-on lines); the missing reasons both graders and the listener caught, where the sources hold them. Then a regrade. Group 4 (grader-only findings) is left.
 
 This batch only.
+
+## 2026-11-25 — Batch 11: the two rebuilt stories ship (Mark)
+
+**Why.** Ebionites and Greek Apologists, rebuilt in a story shape, still heard by listeners as summaries with scenes: the sources hold few scenes in which these people act. https://claude.ai/artifact/D6rjACYrk8EeS3PxNzcGp6 (version 1).
+
+**Decided (Mark, 2026-11-25): "a".** Ship the rebuilt versions after one checked craft pass on the named gaps and the one unsourced sentence, each from the sources or cut. A kit shape for traditions known only through their opponents or their writings comes to Mark separately.
+
+This batch only.
