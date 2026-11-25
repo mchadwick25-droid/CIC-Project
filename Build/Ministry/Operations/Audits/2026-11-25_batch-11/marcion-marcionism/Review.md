@@ -24,7 +24,7 @@ Eleven BLOCKING findings once the reads are merged. A finding from either trust 
 
 **Fixes that change the approved heart's wording, named for Mark: B9 and M2.** Both touch the essence as `Outline.md` holds it under "The heart". B1 changes its order only, and B3 restores its own wording.
 
-**Length.** With every change below, the story runs 673 words, inside 675 (scratch count, with B10 and B11 at their word caps). The fixes add words: B6 +5, B8 +1, B9 +2 net, B10 up to +7, B11 up to +6. The cuts pay for them: B4 −8, B2 −4, B5 −3, M4 −3, C1 −2, C2 −1. If the researcher's wording for B10 or B11 runs past its cap, the outline names a further cut first.
+**Length.** With every change below, the story runs 673 words, inside 675 (scratch count, with B10 and B11 at their word caps). The fixes add words: B6 +5, B8 +1, B9 +2 net, B10 up to +7, B11 up to +6. The cuts pay for them: B4 −8, B2 −4, B5 −4, M4 −3, C1 −2, C2 −1. If the researcher's wording for B10 or B11 runs past its cap, the outline names a further cut first.
 
 ## BLOCKING
 
@@ -68,7 +68,7 @@ Do not say, to add: "no line of theirs survives in their own hand" / "every witn
 
 ### B5. "...the historian Eusebius records that Asclepius was burned in his own city, Caesarea in Palestine." (Trust: ASSUMPTION; Trust second: ASSUMPTION)
 
-"His" binds to Asclepius and gives him a home city no source gives (E-en 47046-47059, "in the same city of Cæsarea"). It also clears the MINOR citation both listeners flagged.
+"His" binds to Asclepius and gives him a home city no source gives (E-en 47046-47059, "in the same city of Cæsarea"). Change −4. It also clears the MINOR citation both listeners flagged.
 
 Change:
 
@@ -119,7 +119,7 @@ Change, for the part the outline holds:
 
 Then "At Carthage, about 207, Tertullian reported" → "About 207, Tertullian reported" (−2).
 
-Outline: **holds whose and who, lacks what about.** Whose: "Who tells it" says the line is said "of Marcion and Valentinus together" (ANF3 21338-21344, "their ever restless curiosity"), so "his" is a fair compression and gets a targeted check. Tertullian at Carthage, an opponent: Setting and "Who tells it". **What the curiosity was about is not in the outline**: that goes to the researcher and the outline check. If the source gives it, the researcher adds it within the B11 cap's slack or names a cut. If the source does not, the sentence stands as above. **This changes the approved heart's wording** ("for what Tertullian calls a restless curiosity" becomes "his restless curiosity"). Mark is told.
+Outline: **holds whose and who, lacks what about.** Whose: "Who tells it" says the line is said "of Marcion and Valentinus together" (ANF3 21338-21344, "their ever restless curiosity"), so "his" is a fair compression and gets a targeted check. Tertullian at Carthage, an opponent: Setting and "Who tells it". **What the curiosity was about is not in the outline**: that goes to the researcher and the outline check. If the source gives it, the researcher adds it and names a cut for every word it adds. If the source does not, the sentence stands as above. **This changes the approved heart's wording** ("for what Tertullian calls a restless curiosity" becomes "his restless curiosity"). Mark is told.
 
 ### B10. "heretics" is never explained (First-time: BLOCKING; Skeptic: BLOCKING)
 
@@ -150,4 +150,4 @@ Outline: **lacks it.** Beat 1 holds "others two as Marcion did", but Cut first 3
 
 - **C1.** "Irenaeus, a bishop who wrote against them within a generation," → "Irenaeus, a bishop writing within a generation," (the next sentence says he was their enemy). −2.
 - **C2.** "In Tertullian's report, their good God punished no one, and only cast the sinner away out of sight. So Tertullian pressed them on persecution." → "Their good God, he said, punished no one, and only cast the sinner away out of sight. So he pressed them on persecution." −1.
-- With B2 (−4), B4 (−8), B5 (−3) and M4 (−3).
+- With B2 (−4), B4 (−8), B5 (−4) and M4 (−3).
