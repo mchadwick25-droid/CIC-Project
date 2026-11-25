@@ -28,7 +28,7 @@ New brief, so every sentence is checked (28 narrator sentences; each quote count
 **S28. SOFTENED OR CHANGED (detail moved).** "In Phrygia, where the prophets had first spoken, the Montanists shut themselves inside their churches, set them alight and died in the flames."
 - Source, Proc 2195-2197 (procopius_secret-history_athenian-society1896.txt): "The Montanists, who were settled in Phrygia, shut themselves up in their churches, set them on fire, and perished in the flames".
 - Where they first spoke, HE 29577-29579: "a certain village called Ardabau in that part of Mysia, which borders upon Phrygia" (Greek in the note: ἐν τῇ κατὰ τὴν Φρυγίαν Μυσίᾳ). Procopius says nothing of where the prophets first spoke, and the anonymous puts the first prophesying in Mysia, by the border. The brief's own opening says "where Mysia meets Phrygia".
-- **Change:** "In Phrygia, where they had lived since the prophets' day, ..." is not held either; cut the clause: "In Phrygia, the Montanists shut themselves inside their churches, set them alight and died in the flames."
+- **Change:** cut the clause: "In Phrygia, the Montanists shut themselves inside their churches, set them alight and died in the flames."
 
 ### SUMMARY HOLDS (no change)
 
