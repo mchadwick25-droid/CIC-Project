@@ -15,7 +15,7 @@ Kind: tradition. Every line points to `Source_Sheet.md` and, through it, to `cic
 
 ## Length
 
-About **4 minutes, about 600 words** (inside the kind's 450–675). Approved length 505 (below); the independent count after Cut first is 503. Must carry first: three quotes (about 105 words); glosses for apology, atheism, the two rumours, informers and decrees, gladiator shows, Trinity (about 65); credited witnesses: Eusebius for Quadratus and Melito, the two headings of Aristides, the unknown writer to Diognetus (about 45). About 215 words before any narration; six beats, the opening and the close carry the rest. The record is rich, so the length is set by the heart, not by thin sources.
+About **4 minutes, about 600 words** (inside the kind's 450–675). Approved length 505 (below); the independent count after Cut first is 503. Must carry first: three quotes (about 105 words); glosses for apology, atheism, the two rumours, informers and decrees, gladiator shows (about 57); credited witnesses: Eusebius for Quadratus and Melito, the two headings of Aristides, the unknown writer to Diognetus (about 45). About 215 words before any narration; six beats, the opening and the close carry the rest. The record is rich, so the length is set by the heart, not by thin sources.
 
 ## Approved heart and length
 

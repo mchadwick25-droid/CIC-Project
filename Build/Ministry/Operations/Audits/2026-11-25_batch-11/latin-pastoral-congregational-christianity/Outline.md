@@ -15,9 +15,9 @@ Census id `latin-pastoral-congregational-christianity` (census name: Latin Pasto
 
 ## Length
 
-About 4 minutes 30 seconds: **about 675 words** at 150 a minute.
+**650 words** (approved). All eleven Cut first items are out of the story (Mark, 2026-11-25)
 
-The count the story must carry first: three quotes (about 130 words); the plain sense of each word to explain (confessor; the fallen; penance and peace; Novatian's second bishop; Stephen's rule and Cyprian's; the Roman rites; the rival church's charge and its second baptism; the Manichaeans; the Gladness feast; first teaching; reconciliation; the Vandals: about 150); the witnesses it credits (Pontius for the plague; Possidius for Hippo's split and the siege; Augustine once for the rival church in the opening: about 35). About 315 words fixed, leaving about 360 for the opening's scene, the essence, six beats and the ending. It needs the top of the range because the job holds two towns and two bishops across 180 years, with a split between them. Cut first brings it to about 455 (three minutes).
+Recount, after the eleven Cut first items and the outline check's B1 items (all marked "[cut: card]" or "[cut: Leave out]"), counted the outline check's way: the narration of Opening 1, the essence, beats 1-6 and Ending 1, in the outline's own wording, with source codes, "Explain it" notes and struck text removed, comes to 681 words. The three quotes add 129, and the remaining glosses (the fallen, peace, the Roman rites, the Gladness, reconciled, the Vandals) about 40: about 850 in all. That is still over 650, so the Gladness opening's "serving under the aged bishop" goes to the card too (5 words), leaving about 845 in the outline's wording, about 195 over the approved 650.
 
 ## Approved heart and length
 
