@@ -158,6 +158,7 @@ The story form (kind kit): open on the pupils going to their deaths around 200, 
 - "the Alexandrians always settled quarrels by argument" / "Dionysius argued as he had learned in Origen's classroom" / "rather than by decree" → tell what Dionysius did and said (E-en 41343-41381).
 - "Nepos, bishop of Arsinoe" / "Nepos's own community at Arsinoe" → "Nepos, a bishop in Egypt"; the teaching "had prevailed for a long time" in the district of Arsinoe (E-en 41287-41288, 41343-41351). "Clement fled the persecution" → leave out (only McGiffert's note, E-en 33015-33044, says it; modern).
 - "in 202 his pupils died" → "around 200" / "in those years".
+- "Coracion led the teaching in the villages" → "the leader of this teaching" (E-en 41374-41375).
 - "the brethren still sang Nepos's psalms" → "still delighted in" (E-en 41315).
 - "Origen moved on to new work" or any reason for the move → "Origen left for Caesarea" only; the break with his bishop is the Origen story's.
 - "the teachers fled in fear" → "all were driven away by the threat of persecution" (E-en 32672-32673).

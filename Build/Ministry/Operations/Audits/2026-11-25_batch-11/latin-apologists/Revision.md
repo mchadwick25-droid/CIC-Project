@@ -45,3 +45,17 @@ None. Every sentence is either the outline's wording or the old brief's wording 
 
 - The essence is complete at word 142 ("…out of the pagans' own books."), about 57 seconds in.
 - 716 words, about 4 minutes 46 seconds at 150 a minute.
+
+## Length cuts at the outline (Fixes_Length_2.md, Recheck_Length_2.md PASS)
+
+- Cut 14, "They part glad.": applied.
+- Cut 15, "Minucius gives the pagan his full case.": applied.
+- Cut 16, ": Octavius has conquered him, and he has conquered his error" (full stop after "yields"): applied.
+- Cut 17, "He asked why Christian writings were burned ... friends and enemies.": applied.
+- Cut 18, "Looking back on those before him, Lactantius wrote that truth had lacked fit spokesmen.": applied.
+- Join, "he granted" to "Lactantius granted": applied.
+- New wording of the "later" sentence: applied.
+- Not applied: none.
+
+Word count (`wc -w`): 659.
+Scorer: `657 words, grade 9.0 (names out 7.7), reading ease names out 73.0, 18.8 words a sentence, 0.2 joining words per 100, 9% short sentences, longest sentence 37 words - pass`.
