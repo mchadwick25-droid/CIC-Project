@@ -6058,6 +6058,8 @@ This batch only.
 
 **Added (Mark, 2026-11-25): "the documented stories are a full story to listen to, not just an event on a timeline".** Documented stories stay on the card as their own section in the menu, each a full story to listen to. Their events may also appear in the timeline as dated lines.
 
+**Added (Mark, 2026-11-25): "can we put the who and stories as one section", then "the who is the primary thing people are looking for, we need that to be first then other stories after".** People and documented stories are one section of the menu: the people first, then the other stories.
+
 ## 2026-11-25 — Church in Conversation on hold (Mark)
 
 **Decided (Mark, 2026-11-25).** "church in conversation is on hold." The Church in Conversation app is not promoted from `main` to `live` while it is on hold. The Church Family Tree, which is served from `main`, goes on.
