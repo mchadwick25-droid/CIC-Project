@@ -22,7 +22,7 @@
   "Oracles Tertullian keeps. Through Prisca, he says, the Spirit taught that purity brings visions and voices. An oracle of the Spirit urged believers to die as martyrs, not on beds or in fevers. He also says that, as their prophecy foretold, a city hung in the sky over Judaea every morning for forty days, a sign of the heavenly Jerusalem: a wonder in his own voice.",
   "Maximilla's oracle of the end. Epiphanius gives it, writing about two centuries later. Holl's print of his Greek reads no prophet after her; Oehler's print reads no prophetess.",
   "Which prophetess saw Christ at Pepuza. Epiphanius says it was Quintilla or Priscilla, and he cannot say which.",
-  "Women among them. Epiphanius says that in a branch of his own day, the Quintillians, also called Pepuzians, women were bishops and presbyters, and seven virgins dressed in white came into their church with lamps to prophesy. He is not sure whether this was among them or among the Phrygians. He says they were called Artotyrites for setting bread and cheese in their mysteries.",
+  "Women among them. Epiphanius says that in a branch of his own day, the Quintillians, also called Pepuzians, women were bishops and presbyters, and seven virgins dressed in white came into their church with lamps to prophesy. He says their women were called prophetesses, though he is not sure whether this was among them or among the Phrygians. He says they were called Artotyrites for setting bread and cheese in their mysteries.",
   "A charge of child murder. Cyril of Jerusalem says Montanus killed small children for their mysteries. Jerome prefers not to believe it, and Cyril himself says the same charge was laid on all Christians in time of persecution.",
   "After the councils of Asia. Constantine's law took away their meeting houses and forbade them to meet, even in private. Bishops gathered at Iconium, Firmilian says, refused their baptism, and Basil later did the same. Jerome says they set the patriarchs of Pepuza first, then stewards, and bishops third, kept three Lents a year, and held a second marriage to be adultery. Sozomen says that in Phrygia and the lands near it they had been many since Montanus and still were in his day, and that they kept Easter by the sun.",
   "Their own books. Hippolytus says they had countless books. Jerome says Tertullian wrote seven books On Ecstasy, the last against Apollonius. None of these is held.",
@@ -165,8 +165,8 @@
   "Eusebius, Church History V.16, lines 29577–29686: Ardabau, on the border of Phrygia; Montanus, a recent convert, in frenzy and ecstasy; some called him possessed and forbade him to speak, others urged him on.",
   "Eusebius, Church History V.14 and V.16, lines 29266–29269, 29692–29714: Priscilla and Maximilla prophesy as he did; the start under Gratus, lines 29591–29592; Epiphanius, Panarion 48.1, Holl line 17019, for the second century.",
   "Eusebius, Church History V.16 and V.19, lines 29421, 30557–30559; Tertullian, On Fasting 1, CSEL 20 line 15495: the New Prophecy, and the opponents' name, Phrygians.",
-  "Tertullian, On the Veiling of Virgins 1, ANF 4 lines 2709–2741: the Paraclete as the Spirit Jesus promised, leading the church to maturity; Against Marcion IV.22, ANF 3 lines 32338–32351: prophecy in ecstasy, out of one's senses.",
-  "Eusebius, Church History V.16, lines 29519–29541: the elder disputing with them at Ancyra while the movement was new.",
+  "Tertullian, On the Veiling of Virgins 1, ANF 4 lines 2709–2741: the Paraclete as the Spirit Jesus promised, calling the church to a stricter discipline; Against Marcion IV.22, ANF 3 lines 32338–32351: prophecy in ecstasy, out of one's senses.",
+  "Eusebius, Church History V.16, lines 29519–29541: the elder disputing with them while the movement was new.",
   "Eusebius, Church History V.16, lines 29617–29619: Montanus's desire to lead, the elder's charge; V.18, lines 30225–30289, 30456–30458: Apollonius, forty years on, on Pepuza and Tymion named Jerusalem.",
   "Eusebius, Church History V.16, lines 29716–29754: the faithful of Asia meet, find the sayings novel and profane, and bar the followers from communion; the followers call their opponents slayers of the prophets.",
   "Eusebius, Church History V.16, lines 29823–29858: the bishops prevented from refuting the spirit in Maximilla; her oracle of the wolf; the elder's dare.",
@@ -183,7 +183,8 @@
    "work": "The elder against the Montanists, in Eusebius, Church History V.16.17, tr. McGiffert",
    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
    "lines": "29849-29852",
-   "uncertain": "The Greek of this book of Eusebius is not held. A second English, in Ante-Nicene Fathers 7 at line 11336, gives the same oracle in other words."
+   "uncertain": "The Greek of this book of Eusebius is not held. A second English, in Ante-Nicene Fathers 7 at line 11336, gives the same oracle in other words.",
+   "secondReading": "same"
   },
   {
    "modern": "The new prophecies are rejected, not because Montanus and Priscilla and Maximilla preach another God. Nor is it because they divide Jesus Christ, or overturn any rule of faith or hope. It is because they plainly teach fasting more often than marrying.",
@@ -193,7 +194,8 @@
    "lines": "15495-15499",
    "englishPrinted": "the New Prophecies are rejected:  not that Montanus and Priscilla and Maximilla preach another God, nor that they disjoin Jesus Christ (from God), nor that they overturn any particular rule of faith or hope, but that they plainly teach more frequent fasting than marrying",
    "englishFile": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
-   "englishLines": "9773-9777"
+   "englishLines": "9773-9777",
+   "secondReading": "minor"
   },
   {
    "modern": "Christ came to me in the form of a woman, clothed in a shining robe. He put wisdom into me. He showed me that this place is holy, and that Jerusalem comes down here from heaven.",
@@ -201,7 +203,8 @@
    "work": "Epiphanius, Panarion 49.1, ed. Holl",
    "file": "cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt",
    "lines": "18758-18764",
-   "uncertain": "Spelled as the scan of Holl's print reads: χαὶ, ἀπεχάλυψέ and χατιένγαις stand for καὶ, ἀπεκάλυψέ and κατιέναι, the last broken across two lines. Oehler's print, lines 3281-3287, gives the same words, with τύπον for τόπον, and its Latin, hunc locum sanctum esse, confirms the place."
+   "uncertain": "Spelled as the scan of Holl's print reads: χαὶ, ἀπεχάλυψέ and χατιένγαις stand for καὶ, ἀπεκάλυψέ and κατιέναι, the last broken across two lines. Oehler's print, lines 3281-3287, gives the same words, with τύπον for τόπον, and its Latin, hunc locum sanctum esse, confirms the place.",
+   "secondReading": "minor"
   }
  ],
  "modernWorks": [
