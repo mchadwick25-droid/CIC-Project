@@ -49,8 +49,8 @@ Mark, 2026-11-25 ("Batch 11: hearts and lengths approved", "Approve as recommend
 | consecrated | "the bishop who had made him bishop" | R2, R3 |
 | handing over the Scriptures | "handed over the Scriptures to be burned": the persecution's order was that they be burned, and Optatus calls the handing over "Betrayal", one of the two worst evils done in Africa | R8 |
 | the Donatists | "the rival side, the Donatists" (Possidius, "the rebaptizing Donatist party") | R5 |
-| baptizing again | they baptized again those who came over to them | R5 |
-| Optatus's line: sacraments; heretics | "said the Donatists had split away, yet shared his church's true sacraments, such as baptism. So he did not call them heretics, who taught falsely about God." This squares with Augustine's "heretics" (E6) by keeping each man's word as his own: Augustine called them heretics; Optatus called them schismatics who had gone outside, and kept "heretics" for those who falsified the creed | R6 |
+| baptizing again | they baptized again those who came over | R5 |
+| Optatus's line: sacraments; heretics | "said the Donatists had split away, yet shared his church's true sacraments, such as baptism. So he did not call them heretics: to him, heretics taught falsely about God." This squares with Augustine's "heretics" (E6) by keeping each man's word as his own: Augustine called them heretics; Optatus called them schismatics who had gone outside, and kept "heretics" for those who falsified the creed | R6 |
 | the emperors' laws | "the emperors' laws of exile and fines" (Augustine: "punishments, such as exile and fines") | B10 |
 | the Gladness (Laetitia) | "a feast they called the Gladness, with eating and drinking in the church" | E2 |
 | reconciled | ~~"taken back into communion after penance"~~ [length: Leave out; glossed with peace, beat 2] | V4, V5 |
@@ -188,7 +188,7 @@ The story does not rest on one witness. Every main witness is a churchman of thi
 | "Augustine defended Cyprian's flight" | No held line joins Letter 228 to Cyprian; tell the rule only |
 | "he preached several times a week for thirty-five years", "hundreds of sermons survive" | Not in the held lines used; Not told (card, B1); the essence says the bishop taught them |
 | "ministers" in Q3 | "the clergy" (Q3 note) |
-| "ordered everyone in the empire to sacrifice" | "began a persecution of the churches; his edict called for sacrifice" (S4, CyLap 1051) |
+| "ordered everyone in the empire to sacrifice" | "began a persecution; his edict called for sacrifice" (S4, CyLap 1051) |
 | "charges against Cyprian", or communion refused because of the outburst | "charges against the bishop of Rome already chosen"; communion was refused at once on arrival (L4, L5) |
 | "in Numidia" | Not in the letter (M6) |
 | "a stained hand" | "one who was stained" (M5) |
