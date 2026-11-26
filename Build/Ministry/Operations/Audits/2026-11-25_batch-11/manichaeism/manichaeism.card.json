@@ -1,0 +1,218 @@
+{
+ "why": "Mani was born in Mesopotamia in 216 and raised by a sect of baptizers. He broke from them after what he described as revelations from his heavenly twin. He went on to teach that the world is a battleground between eternal Light and Darkness, where sparks of light lie trapped in matter. He wrote his own scriptures and had them translated on purpose, and his faith spread from Persia all the way to China. Augustine of Hippo followed it as a Hearer for nine years before his conversion.",
+ "sourcing": "Rich own corpus survives",
+ "floorNote": "Co-original dualism denies 'maker of all things'; most scholars: a distinct universal religion",
+ "relationsSummary": "Augustine's own former allegiance",
+ "teaser": "From Persia to the Mediterranean and on to China, from 216 CE into the centuries beyond — a prophet who set out to found the one universal religion, and whose one intact surviving temple still stands on a hillside in Fujian.",
+ "voices": [
+  "Mani — the founder, who wrote his own scriptures rather than leaving the task to disciples, and died at a Persian king's hands",
+  "Faustus of Milevis — the Manichaean bishop whose teaching Augustine sought out as a young man and later refuted at length",
+  "Augustine of Hippo — a Hearer for about nine years, then the movement's most effective Latin opponent, and an unintended preserver of its arguments"
+ ],
+ "legacy": "In the West, emperors and the church hunted it down. It had largely vanished by the sixth century. Yet the word 'Manichaean' survived for centuries afterwards. It became an insult aimed at anyone thought too fond of dualism, the belief that two opposed powers divide the world. In the East it lasted far longer. Many Uyghur Turks of Central Asia followed it, and it held on in southern China for many centuries. Mani wrote his own books. Over the last century, manuscripts have also been recovered from Turfan in western China and from Medinet Madi in Egypt. There is also the tiny Cologne Mani Codex. Because of all this, it is one of the few extinct ancient religions that can now be read largely in its own words. It is no longer known only through its enemies.\n\nThe old record also shows how long they lasted in the East. In the 900s, the Fihrist says, some five hundred of them gathered at Samarkand. When the ruler of Khorasan wished to kill them, the ruler of China, as the Fihrist calls him, swore that he would kill all the Muslims in his own lands if one of them were killed, and they were left alone and taxed. The Fihrist's author had known about three hundred of them in Baghdad, but in his own day barely five were left there. About the year 1000 Biruni wrote that most of the eastern Turks, and many of the people of China and Tibet, still held Mani's law. In the West their opponents went on answering and hunting them: Ephrem the Syrian wrote against Mani in Syriac, and at Rome in 443 Bishop Leo had many of them found where they hid in the city, exposed before the whole church, and their books burned.",
+ "documentedStories": [
+  {
+   "title": "Nine Years Waiting for Faustus",
+   "when": "383",
+   "tier": "1",
+   "verification": "checked directly against the primary text",
+   "teaser": "A young Hearer has saved up his hardest questions for the famous Manichaean bishop. The bishop turns out to be honest about what he does not know.",
+   "text": "Augustine had been a Manichaean Hearer for about nine years — attending the assemblies, supporting the Elect, following the prayers and fasts of an ordinary lay adherent — and for much of that time the local teachers had told him that his questions about astronomy, and about how the Manichaean books squared with what the philosophers had measured, would be answered when Faustus came. Faustus of Milevis was the movement’s most admired bishop in Africa. When he finally arrived in Carthage, Augustine found him charming, fluent and pleasant to listen to, ‘a great snare of the devil’ as he wrote long afterwards; and when he got him alone with the questions, Faustus declined to pretend. He said he did not know these things. Augustine records that this candor made him like the man more, not less — ‘he knew that he did not know, and was not ashamed to confess it’ — and that Faustus, discovering Augustine’s literary training, asked to read the Latin authors with him instead. The two spent time together over books. But the questions were not answered, and Augustine dates the loosening of his attachment to the sect from those conversations. Years later, as a bishop himself, he wrote thirty-three books against Faustus’ own work. The picture the Confessions gives, though, is of a lay religious community whose leader would rather admit ignorance than bluff, and a young man who respected him for it even as he left.",
+   "caveat": "Told by Augustine more than a decade later, after his conversion and against the sect; Faustus’ own book survives only in Augustine’s quotations of it. The personal warmth of the encounter is Augustine’s testimony and is the more credible for cutting against his argument.",
+   "sources": [
+    {
+     "work": "Augustine, Confessions V.3, V.6–7",
+     "type": "primary",
+     "note": "Faustus’ arrival, the conversation, and Augustine’s verdict."
+    },
+    {
+     "work": "Augustine, Against Faustus the Manichaean (Contra Faustum)",
+     "type": "primary",
+     "note": "Preserves Faustus’ Capitula in quotation."
+    }
+   ]
+  }
+ ],
+ "people": [
+  {
+   "name": "Mani",
+   "year": 240,
+   "voice": 0,
+   "source": {
+    "work": "Augustine, Against the Epistle of Manichaeus called Fundamental 6 (NPNF 1/4)",
+    "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml",
+    "lines": "3675",
+    "quote": "Manichæus, an apostle of Jesus Christ, by the providence of God the Father.  These are wholesome words from the perennial and living fountain."
+   }
+  },
+  {
+   "name": "Augustine of Hippo",
+   "year": 373,
+   "voice": 2,
+   "author": "augustine",
+   "held": "npnf104_augustine-anti-manichaean-anti-donatist--acts-or-disputation-against-fortunatus-the-manichaean-2"
+  },
+  {
+   "name": "Faustus of Milevis",
+   "year": 383,
+   "voice": 1,
+   "source": {
+    "work": "Augustine, Reply to Faustus the Manichaean II.1 (NPNF 1/4)",
+    "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml",
+    "lines": "4338",
+    "quote": "Do I believe the gospel?  Certainly.  Do I therefore believe that Christ was born?  Certainly not."
+   }
+  }
+ ],
+ "sources": [
+  {
+   "work": "Augustine, Acts or Disputation against Fortunatus the Manichaean, Against the Epistle of Manichaeus called Fundamental and Reply to Faustus the Manichaean, Latin, in J.-P. Migne, Patrologia Latina 42 (1886 printing)",
+   "type": "primary",
+   "note": "The Latin of the debate at Hippo in 392, of the passage on the Bema, and of Faustus's own book as Augustine quotes it before each answer.",
+   "file": "cic/texts/augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt"
+  },
+  {
+   "work": "Augustine, Writings against the Manichaeans, tr. Richard Stothert and Albert H. Newman (Nicene and Post-Nicene Fathers, first series, 4)",
+   "type": "primary",
+   "note": "The English of the same three works, and of On the Morals of the Manichaeans (388).",
+   "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml"
+  },
+  {
+   "work": "Augustine, Confessions, Latin, ed. Pius Knöll (Corpus Scriptorum Ecclesiasticorum Latinorum 33, 1896)",
+   "type": "primary",
+   "note": "His nine years as a Hearer, the food the Hearers carried to the Elect, and Faustus's coming to Carthage.",
+   "file": "cic/texts/augustine_confessiones-lat_knoll-csel33.txt"
+  },
+  {
+   "work": "Augustine, Confessions, tr. J. G. Pilkington (Nicene and Post-Nicene Fathers, first series, 1)",
+   "type": "primary",
+   "note": "The English of the same passages.",
+   "file": "cic/texts/npnf101_augustine-confessions-letters.xml"
+  },
+  {
+   "work": "al-Biruni, The Chronology of Ancient Nations, tr. C. Edward Sachau (1879)",
+   "type": "primary",
+   "note": "Written about 1000. Quotes Mani's own book for King Shapur, and gives his laws for the Elect and the Hearers, his death and his followers in Biruni's day.",
+   "file": "cic/texts/biruni_chronology-of-ancient-nations_sachau1879.txt"
+  },
+  {
+   "work": "Ibn al-Nadim, Fihrist, the chapter on Mani, German tr. Gustav Flügel, Mani, seine Lehre und seine Schriften (1862)",
+   "type": "primary",
+   "note": "A Baghdad scholar's book of 987, drawn from what the Manichaeans said: Mani's call, his books and rules, the flight east after his death, and the community in the author's own day.",
+   "file": "cic/texts/mani_mani-seine-lehre-und-seine-schriften-fihrist-deu-ara_fluegel1862.txt"
+  },
+  {
+   "work": "The Theodosian Code, Book 16, title 5, ed. Theodor Mommsen and Paul M. Meyer (1905)",
+   "type": "primary",
+   "note": "The imperial laws of 372 and 399 against their meetings, their teachers and the houses that sheltered them.",
+   "file": "cic/texts/theodosianus-16_mommsen-meyer1905.txt"
+  },
+  {
+   "work": "The Khuastuanift, the Hearers' confession, Old Turkish, tr. A. von Le Coq (Journal of the Royal Asiatic Society, 1911)",
+   "type": "primary",
+   "note": "The Hearers' own prayer for forgiveness, from a scroll in the cave library near Dunhuang.",
+   "file": "cic/texts/manichaean-texts_dr-steins-turkish-khuastuanift-in-jras-1911_le-coq1911.txt"
+  },
+  {
+   "work": "Chinese texts on the Manichaeans, French tr. Édouard Chavannes and Paul Pelliot, Un traité manichéen retrouvé en Chine, part 2 (Journal asiatique, 1913)",
+   "type": "primary",
+   "note": "The order of 732, the Uyghur inscription and decrees, the court's letter and order of the 840s, the chronicle of 843, and a rule for entering the religion.",
+   "file": "cic/texts/manichaean-texts_traite-manicheen-retrouve-en-chine-pt2-in-journal-asiatique-11-1-fra_chavannes-pelliot1913.txt"
+  },
+  {
+   "work": "Alexander of Lycopolis, Of the Manichaeans, and the Acts of the Disputation of Archelaus (Ante-Nicene Fathers 6)",
+   "type": "primary",
+   "note": "A writer in Egypt about 300 on the teachers who brought the faith there and on Mani's death under Sapor; and a staged debate of the 300s with its own account of the death.",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+  },
+  {
+   "work": "Prosper of Aquitaine, Epitoma Chronicon, ed. Theodor Mommsen (Chronica minora 1, 1892)",
+   "type": "primary",
+   "note": "Bishop Leo's search for the Manichaeans hidden in Rome in 443.",
+   "file": "cic/texts/prosper_chronica-minora-1-lat_mommsen1892.txt"
+  },
+  {
+   "work": "Ephrem the Syrian, Prose Refutations of Mani, Marcion and Bardaisan, tr. C. W. Mitchell (1912-1921)",
+   "type": "primary",
+   "note": "Ephrem's prose answer to Mani's teaching, in Syriac.",
+   "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt"
+  }
+ ],
+ "uncertain": [
+  "Who ruled Babylonia when Mani was born. Biruni dates the birth, from Mani's own book, to the fourth year of King Adharban, whom he believes to be Ardawan, the last of the Ashkanians; by Mani's thirteenth year Ardashir was King of Kings.",
+  "Mani's age at his first revelation. The Fihrist says it came when he had completed his twelfth year; Biruni, from Mani's own book, says in his thirteenth year.",
+  "How King Shapur received him. The Fihrist, from what the Manichaeans said, has Shapur honor him and grant that his disciples be respected and go freely through his realm, and the Manichaeans add that Mani came in with two lamps of light shining on his shoulders. One of Biruni's informants, the Ispahbadh Marzuban, told him that Shapur banished Mani under Zoroaster's law, which orders false prophets expelled, and that Mani went to India, China and Tibet, came back, and was killed by Bahram for breaking that condition.",
+  "Whether Mani worked wonders. Biruni says his followers held two opinions: one party that he worked no miracle, the other that he did, and that King Shapur came to believe in him after Mani rose with him into the air between heaven and earth.",
+  "Which king killed Mani, and how. Biruni names Bahram, and says it is well known that he had Mani flayed, his skin filled with grass and hung at the gate of Gundisapur; a book by one of Mani's pupils, which Biruni reports, has him chained in prison until he died. The Fihrist says he was killed under Bahram and hung in two halves at two gates of the city, and that others say he died in prison. Alexander of Lycopolis, writing in Egypt about 300, heard that he served under Sapor and was put to death after offending him in some way. The Acts of Archelaus, a staged debate of the 300s, also has the king flay him.",
+  "Augustine's charges against the Elect. In On the Morals of the Manichaeans he says that in nine years he could not hear of one of their Elect who was not found breaking their rules, or at least suspected of it, and that many were caught at wine and meat, though this, he says, he heard only by report. In the Confessions he mocks their belief that a fig wept when it was plucked, and that the particles of God in it stayed bound unless an Elect set them free with his teeth and belly. These are an opponent's charge and mockery.",
+  "The deaths of 843. The Chinese chronicle that reports them, compiled in the 1200s, gives seventy women religious at the capital in one chapter and seventy-two in another, and gives no cause."
+ ],
+ "briefReferences": [
+  "The Acts of the debate with Fortunatus (Migne's Latin, lines 7609-7611): held at Hippo on 28 August 392, in the Baths of Sossius, before the people. Lines 7658-7667: Fortunatus asks that the good men present hear from Augustine whether the charges against them are true. Lines 7683-7692 and 7710-7714: Augustine a Hearer, not one of the Elect; at their prayer he saw nothing shameful, only that they prayed facing the sun, against the faith he later learned; what the Elect do among themselves he cannot know.",
+  "Biruni, Chronology (lines 29069-29085): light and darkness without beginning and end, and Mani's laws for the Elect and for the Hearers. The Hearers' confession, article 8 (Le Coq's English, lines 16572-16672): the two Roots, how Light and Darkness mixed, and how they will be parted again. A Chinese rule for entering the religion (Chavannes and Pelliot's French, lines 4928-4933): first discern the two principles of light and darkness, wholly distinct in nature.",
+  "Biruni (lines 29094-29100): Mani born in a village called Mardinu on the upper canal of Kutha, by his own statement in his book for Shapur, in Babylonia, the land between the Tigris and the Euphrates; lines 29054-29064: that book's opening, and his claim to be the Paraclete and the seal of the prophets, the last of them; lines 29112-29115: his books, among them his gospel, the book for Shapur and the Book of the Giants. The Fihrist (Flügel's German, lines 4362-4372): his father joined the baptizers of the marsh country, known as those who wash themselves; lines 4390-4404: at twelve, by Mani's own account, an angel called at-Taum, a name the Fihrist glosses as companion, told him to leave them, since he did not belong among them and his task was purity and the taming of desire, and at twenty-four told him to come out and preach his teaching openly; lines 5243-5244: seven books, one in Persian and six in Syriac.",
+  "Biruni (lines 29070-29085): no harm to animals, fire, water or plants; the Elect to own only food for one day and dress for one year, to keep from marriage and to wander preaching; the Hearers to give a tithe of their property as alms, fast a seventh part of their lifetime, keep one wife and befriend the Elect. The Fihrist (lines 4881-4898): whoever can tame lust and greed and give up meat, wine and marriage may enter the religion, and whoever loves it but cannot is to guard the religion and the Elect; lines 4936-4940: four or seven prayers a day, standing, washed with running water, turned toward the great light, then bowing down. On the Morals of the Manichaeans 10 (lines 2438-2439): the Elect's three seals, of the mouth, the hands and the breast. The Hearers' confession (lines 17364-17371, 17443): the light of the Five-God taken in each day with their food; article 12 (lines 17106-17125): a yearly fast after the manner of the pure Elect, broken because of house and household, cattle and possessions. Augustine, Confessions IV.1 (lines 6343-6346; Knöll's Latin, lines 5732-5733): the food carried to the Elect.",
+  "Biruni (lines 29117-29123): the faith grew under Ardashir, Shapur and Hurmuz until Bahram came to the throne and had Mani sought; lines 29125-29127: the skin hung at the gate of Gundisapur, still called the Mani-gate; lines 29130-29138: the pupil's book, as a Christian writer cites it: imprisoned over a relative of the king whom Mani had promised to cure, chained hand and foot until he died, his head shown before the royal tent. Augustine, Against the Epistle called Fundamental 8 (Migne's Latin, lines 12871-12904; English, lines 3733-3735): the Bema kept with a platform of five steps, covered with precious cloth and set before the worshippers; Easter kept by few and with little care, with no vigils or special fast for the Hearers; the Bema held in the Easter season. The Fihrist (lines 5385-5396): after Mani's death the king forbade religious disputes and killed his followers wherever he found them, until they crossed the river of Balkh into the lands of the Khan, the title of the Turks' rulers.",
+  "The Theodosian Code XVI.5.3 (lines 86093-86097): the law of 372; XVI.5.35 (lines 87272-87278): the law of 399 to the vicar of Africa, that the Manichaeans be sought out, brought into public and punished most severely, with those who shelter them in their houses. Alexander of Lycopolis (lines 24494-24496): in Egypt about 300 he learned the teaching from one Papus, and after him Thomas. Augustine, Confessions IV.1 (lines 6334-6336): a Hearer for nine years, from his nineteenth year to his twenty-eighth; V.3 (Knöll's Latin, lines 7333-7336): Faustus, a bishop of the Manichaeans, came to Carthage. Reply to Faustus I.2 (line 4314): replies for his people to the objections of their opponents; V.1 (line 4512) and IV.1 (line 4471): the questions as Faustus sets them, on the gospel and on the Old Testament; I.1 (line 4312): Augustine gives Faustus's words as if stated by himself before each answer; V.8 (lines 4615-4616; Migne's Latin, lines 16828-16840): brought before the proconsul with some others, banished to an island at the pleading of the Christians who brought him, and not long after all released at once by a public decree.",
+  "Chavannes and Pelliot (lines 6877-6886): the order of 732, from the Tong tien, compiled 766-801. The Karabalgasun inscription (lines 8671-8673, 8750-8751): a khagan of the Uyghurs brought four of their religious into his kingdom, and their master could initiate the Uyghurs into the true religion. Lines 12205-12208 and 12230-12233: by imperial decree in 768 the Uyghurs who kept the faith were to found temples, and in 771 they asked to set them up in the prefectural cities of King, Yang, Hong and Yue. Lines 12381-12387: in 806 the Uyghurs came with Manichaeans, a temple was set up to lodge them, and their religion had them eat only in the evening and take no milk or butter. Lines 13695-13702: the emperor's letter; lines 13958-13961: the order after the Uyghurs' defeat; lines 14089-14095: the temples suppressed across the empire, and the seventy women religious at the capital.",
+  "Le Coq (lines 15395-15417, 15429-15433): the scroll lay mixed with Chinese rolls, mainly of Buddhist texts, in a library a Chinese priest had found in a cave temple of the Halls of the Thousand Buddhas, near the Dunhuang oasis in China's far west, part of which Stein acquired in 1907; it is written in the Manichaean script, a sheet 4 inches broad and 14 feet 8 inches long, of 338 lines. Lines 17347-17357: article 15. Line 15729 and lines 17445-17449: the refrain, Manastar hirza, my sin remit, and the words before it, cleaning ourselves from sin, we pray."
+ ],
+ "quotationOriginals": [
+  {
+   "modern": "You were at our prayer.",
+   "printed": "Interfuisti orationi",
+   "work": "Augustine, Acts or Disputation against Fortunatus the Manichaean 1, Fortunatus's words, Latin (Migne, Patrologia Latina 42, 1886 printing)",
+   "file": "cic/texts/augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt",
+   "lines": "7666-7667",
+   "secondReading": "checked at card",
+   "uncertain": "Rendered from the Latin, which the scan breaks across two lines (ora- tioni). Newman's English (lines 3230-3232) leaves the two words out. The Latin has no word for our; it is carried by Fortunatus's words before it, our way of life (nostram conversationem)."
+  },
+  {
+   "modern": "to the Bad Place.",
+   "printed": "go to the Bad Place.",
+   "work": "The Khuastuanift, the Hearers' confession, article 15, tr. A. von Le Coq (Journal of the Royal Asiatic Society, 1911)",
+   "file": "cic/texts/manichaean-texts_dr-steins-turkish-khuastuanift-in-jras-1911_le-coq1911.txt",
+   "lines": "17443",
+   "secondReading": "checked at card",
+   "uncertain": "Rendered from Le Coq's English; the Old Turkish in the held scan is partly garbled. The sentence begins at lines 17364-17371, with the light of the Five-God that every day we have absorbed in our food."
+  },
+  {
+   "modern": "angels and gods",
+   "printed": "they should make for us angels and gods, by whom we might be delivered",
+   "work": "Augustine, Confessions IV.1, tr. J. G. Pilkington (Nicene and Post-Nicene Fathers, first series, 1)",
+   "file": "cic/texts/npnf101_augustine-confessions-letters.xml",
+   "lines": "6345-6346",
+   "secondReading": "checked at card",
+   "original": "fabricarent angelos et deos, per quos liberaremur",
+   "originalFile": "cic/texts/augustine_confessiones-lat_knoll-csel33.txt",
+   "originalLines": "5732-5733"
+  },
+  {
+   "modern": "This man has come forward calling people to destroy the world.",
+   "printed": "This man has come forward calling people to destroy the world.",
+   "work": "al-Biruni, The Chronology of Ancient Nations, the account of Mani, tr. C. Edward Sachau (1879)",
+   "file": "cic/texts/biruni_chronology-of-ancient-nations_sachau1879.txt",
+   "lines": "29121-29122",
+   "uncertain": "King Bahram's words as Biruni gives them, in Sachau's English; the Arabic is not held."
+  },
+  {
+   "modern": "If you press me whether I accept the gospel, I may answer: I have left all that was mine. Father, mother, wife, children, gold, silver, eating, drinking, comforts, pleasures. Take this as answer enough to your questions. And believe that you will be blessed, if you do not stumble because of me.",
+   "printed": "I might very well reply to your question whether I believe the gospel, by saying, I have left all, father, mother, wife, children, gold, silver, eating, drinking, luxuries, pleasures; take this as a sufficient answer to your questions, and believe that you will be blessed if you are not offended in me.",
+   "work": "Faustus, in Augustine, Reply to Faustus the Manichaean V.1, tr. Richard Stothert (Nicene and Post-Nicene Fathers, first series, 4); Latin in Migne, Patrologia Latina 42",
+   "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml",
+   "lines": "4523",
+   "original": "si perroganti utrum accipiam Evan- gelium dixero, Omnia mea dimisi, patrem, matrem, - uxorem, filios, aurum, argentum, manducare, bi- A. bere, delicias, voluptates; hoc tibi ad interrogata satis responsum puta, et beatum te futurum, si in me non fueris scandalizatus.",
+   "originalFile": "cic/texts/augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt",
+   "originalLines": "16422-16436",
+   "uncertain": "Rendered from the Latin, not Stothert's English, which agrees with it clause for clause. The Latin scan breaks Evangelium and bibere across lines, sets a dash before uxorem and a stray letter A between bi- and bere; none of these is part of the text."
+  },
+  {
+   "modern": "Every day, how many evil thoughts we think! How many wretched words we speak that should not be spoken! How many deeds we do that should not be done!",
+   "printed": "Every da>-, how many evil thoughts do we think ! how many miserable words, that ought not to be spoken, do we speak ! how many deeds, that ought not to be done, do we do !",
+   "work": "The Khuastuanift, the Hearers' confession, article 15, tr. A. von Le Coq (Journal of the Royal Asiatic Society, 1911)",
+   "file": "cic/texts/manichaean-texts_dr-steins-turkish-khuastuanift-in-jras-1911_le-coq1911.txt",
+   "lines": "17347-17357",
+   "uncertain": "Rendered from Le Coq's English; the scan reads da>- for day, and the Old Turkish in it is partly garbled. Le Coq's miserable is given as wretched, since miserable now means unhappy."
+  }
+ ]
+}
