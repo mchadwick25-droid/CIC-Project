@@ -14,7 +14,7 @@ Owner: the one era 1 cards thread (coordinator session `session_01JMNsSDxiDjhkPh
    - **2f. Connections** (82 edges touching an era 1 entry): one done.
    - **2g. Rivers** (6 in era 1: Origin, Syriac East & Asia, Greek East & Orthodoxy, Africa, Latin West & Catholicism, Non-Nicene Traditions): Africa done.
    - **2h. Existing-text fixes** flagged in `Applied.md` (story text, connection note, council fields, river origin record): to apply by the same process, worded by a checker.
-3. Site code: branch `claude/built-world-short-descriptions` handed over (coordinator, 2026-11-26) and merged into this branch at its head 9711baa7. Still to build: a field home, validator keys, atlas-sync carriage, map open functions, MENU_ORDER folds, tree pages and tests for story, connection and river cards; `timeline` for rivers. Two phone tests in `Build/tools/tree_map_view.test.mjs` already fail on main.
+3. Site code (look: the live `cft-website/` design, dark screen, fonts, colors and card styling as they stand; never the review page's styling; Mark, 2026-11-26): branch `claude/built-world-short-descriptions` handed over (coordinator, 2026-11-26) and merged into this branch at its head 9711baa7. Still to build: a field home, validator keys, atlas-sync carriage, map open functions, MENU_ORDER folds, tree pages and tests for story, connection and river cards; `timeline` for rivers. Two phone tests in `Build/tools/tree_map_view.test.mjs` already fail on main.
 4. Release: one pull request for era 1. Not started.
 
 ## Cards
