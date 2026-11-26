@@ -69,7 +69,7 @@ Card written: `latin-apologists.card.json`, from `Card.existing.json`. Every fie
 - voices[0] "trained rhetorician"; voices[3] "acrostic verse that does not scan" and "scholars have placed anywhere between the third century and the fifth" (the NPNF note to Gennadius, NPNF2-3 42424-42426, gives 250 to about 350); voices[4] "the fullest of the Latin defenses" and "the emperor who ended it". Its tutoring is held (NPNF2-3 41052-41054), so it stays, though the outline keeps it out of the story.
 - legacy: "lines that entered common Christian speech"; "the Renaissance called him the Christian Cicero and printed him before it printed most of the Fathers". The 1465 printing is found: Brandt, CSEL 27 (`lactantius_de-opificio-de-ira-carmina-lat_brandt-csel27-1.txt` 1795-1802), the Subiaco edition of 1465, "the first book in Italy" made by Gutenberg's art to bear its year.
 - documentedStories[0].text: ‘not merely tortured but roasted’ (ANF7 10174 reads "not only tortured, but burnt alive"; the Latin is not held); "their books surrendered, their assemblies forbidden"; "Lactantius lost his post"; "in old age". The `when` is found: the Terminalia (ANF7 10152) in the eighth consulship of Diocletian (ANF7 10161).
-- people: `year` 205 (Minucius) and 250 (Commodian): no held source gives them, and the outline gives the Octavius no year. 295 (Arnobius) is the NPNF editor's note (NPNF2-3 41021). Display years, flagged with `end`.
+- people: `year` 205 (Minucius) and 250 (Commodian): no held source gives them, and the outline gives the Octavius no year. 295 (Arnobius) is the NPNF editor's note (NPNF2-3 41022). Display years, flagged with `end`.
 
 ## For the checker or Mark
 
