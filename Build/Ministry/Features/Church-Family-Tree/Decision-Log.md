@@ -6103,6 +6103,15 @@ Mark, 2026-11-25: "for the initial audio introduction to anything should be call
 
 **Not done.** Twenty-six of the notes name a modern editor or translator as the source of a spelling (for example "Langlois's French"). Search does not show them; the card does. Whether a card note may name a modern work is a question for Mark under the modern-sources rule (Open-Gaps 423).
 
+## 2026-11-26 — A date shown follows the date rule; the map's years only place (Mark)
+
+**Why.** Open-Gaps 414: `epiphanius-of-salamis` showed "c. 310-403", and its `start`, `end` and `activeYear` rest only on modern editors' years, against the rule that no modern date appears on the tree. The map needs a number to place every entry.
+
+**Decided (Mark, 2026-11-26): "A".** An entry's `start`, `end` and `activeYear` place it on the map and are never shown as its dates. What a visitor sees, the entry's `dates` and the card's `datesNote`, follows Part 1's date rule: what the old sources fix, or a date so settled it is Widely Accepted, and otherwise only as roughly as the old sources allow. The card step applies this to each person, council and tradition as it is rebuilt. For Epiphanius now: "4th c.; wrote the Panarion c. 375", from his own dating of the Panarion.
+
+## 2026-11-26 — The Family line view stays, joined to the new card (Mark)
+
+**Decided (Mark, 2026-11-26): "A".** The Family line view (Open-Gaps 364) stays. In the new card layout ("The card design: one layout, and a timeline in periods", 2026-11-25), tapping the direct line at the top of a card opens it, so the card shows one step and the map the whole line. In the same site build, its forest green is replaced by a color that passes the color-vision check against the gold influence and red lines on its own, not by line weight alone.
 ## 2026-11-26 — Moses the Black graded B; a one-date trust failure is not F (Mark)
 
 **Why.** The person and council grades (`Build/Ministry/Operations/Audits/2026-11-25_person-council-grades/`, pull request #1814) gave Moses the Black (batch 3) a full trust read. 21 of its 22 sentences held. The 22nd opens the story: "Around the year 400, the desert fathers of Egypt counted Moses among their great ones." No old source gives a year. The batch-3 outline rated the date Inferential-Thin and then gave it as the spoken line, which Part 1 of the kit keeps out. Under the Athonite ruling ("takes its failed trust read, F", 2026-11-25), it graded F. That ruling was made for a brief that failed on 6 of 11 sentences. Mark asked "what is wrong with the around 400 is it true from other sources", then "how is around 400 a fact", and was shown that the date is hedged, near what Palladius allows, and inherited from the outline.
