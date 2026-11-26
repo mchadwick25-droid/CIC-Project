@@ -157,3 +157,35 @@ None. Card_Check_D gives no change to a census text.
 ### Could not place
 
 None. G9 gives no change to a card (record only, in `Card_Edits_greek-apologists-second-century.md`, rows 7 and 8 "verbatim" cells swapped); not applied.
+
+## Check E
+
+Source: `Card_Check_E.md`. Each change was applied word for word to the card's `<id>.layout.json`. The three layouts still load as JSON. A scratch census copy with the three layouts merged in (`/tmp/claude-0/apply-e/census-copy.json`; the real census was not edited), run with `node tools/validate-census.mjs`: 0 errors, 4 warnings (the four standing shortName warnings). Nothing committed. Line numbers are the checker's.
+
+### Applied (card, finding, field)
+
+| Card | Finding | Field |
+|---|---|---|
+| marcion-marcionism | M1 | timeline, line 11, text |
+| marcion-marcionism | M2 | timeline, line 25, text |
+| marcion-marcionism | M3 | timeline, line 34, text |
+| marcion-marcionism | M4 | timeline, line 31: when, reference |
+| valentinian-and-other-gnostic-christianities | V1 | uncertain, item 3 |
+| valentinian-and-other-gnostic-christianities | V2 | timeline, period 2, when |
+| valentinian-and-other-gnostic-christianities | V3 | timeline, period 1, headline |
+| valentinian-and-other-gnostic-christianities | V4 | timeline, line 13, text |
+| valentinian-and-other-gnostic-christianities | V5 | timeline, line 14, text |
+| valentinian-and-other-gnostic-christianities | V6 | timeline, line 15, text |
+| valentinian-and-other-gnostic-christianities | V7 | timeline, line 26, when |
+| valentinian-and-other-gnostic-christianities | V8 | timeline, line 28, text |
+| manichaeism | N1 | dates |
+| manichaeism | N2 | timeline, line 10, text |
+| manichaeism | N3 | timeline, line 33, text |
+
+### For existing census texts, not applied here
+
+- N4 (manichaeism, `uncertain` item 5, tail "The Acts of Archelaus, a staged debate of the 300s, ..."): left for the release, which applies it with the census field and the batch-11 card's copy.
+
+### Could not place
+
+None.
