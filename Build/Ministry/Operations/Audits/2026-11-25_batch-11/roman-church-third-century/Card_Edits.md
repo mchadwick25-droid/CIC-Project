@@ -121,3 +121,42 @@ Not added: the modern studies the source sheet says were "used only to find old 
 ## Validator
 
 The scratch census (this card merged into the entry, the brief as `longDescription`) through `node tools/validate-census.mjs`: 629 movements, 736 edges, 10 eras, 0 errors, 4 warnings, all on other entries (short names). As said above, the validator checks no tradition's `quotationOriginals`, so that pass proves the keys break nothing; the quotation check is the scratch fold check under "How a tradition's card is shaped here". The entry-level `modernWorks` above was not in the scratch run.
+
+## Changes after the grade fixes
+
+The brief changed after this card was written (`Grade_Fixes_Applied.md`, `Grade2_Fixes_Applied.md`, `Grade3_Fixes_Applied.md`). The card now applies every correction in `Card_Check.md` (FIX) and follows the final brief.
+
+### From `Card_Check.md`, applied as given
+
+1. **legacy:** "Athanasius later quoted the letter against the Arians." becomes "Athanasius later quoted the letter against the Arians, who held that the Son of God was a creature." (Ath 28469.)
+2. **documentedStories[0].text:** "to manage the church’s cemetery on the Appian Way, and on Zephyrinus’ death the church elected him." becomes "to manage the church’s cemetery, and on Zephyrinus’ death he became bishop." (H 13804-13806, 13816-13819.)
+3. **documentedStories[0].text:** "he readmitted Christians who had committed adultery after baptism; he recognized as marriages the unions of senatorial women with slaves or free men;" becomes "he said he forgave all their sins, sins of sensual pleasure among them; he let women of rank count a companion, slave or free, as a husband;" (H 13873-13875, 13934-13938.)
+4. **documentedStories[0].text:** the sentence "What Hippolytus records as scandal, ... as a marriage." removed.
+5. **documentedStories[0].text:** "Hippolytus was eventually exiled to the same Sardinian mines under Maximinus and died there;" becomes "Hippolytus was eventually exiled to Sardinia, in 235;" (LibCat 66805-66808.)
+6. **documentedStories[0].caveat:** the sentence "That Callistus was a former slave and administered the catacomb that bears his name is generally accepted." removed.
+7. **documentedStories[0].sources[1].note:** becomes "A hostile witness to an edict on readmitting adulterers, by a bishop it does not name."
+8. **documentedStories[1].text:** "had been bishop for less than a year, and had spent it repairing the breach" becomes "had spent his time as bishop repairing the breach" (E 41758; LibCat 66908-66911.)
+9. **documentedStories[1].text:** "underground burial galleries on the Appian Way where" becomes "underground burial galleries where" (H 41184-41186.)
+10. **documentedStories[1].text:** "He was himself arrested within the month." removed.
+11. **voices[5]:** becomes "Dionysius of Rome - bishop from 259, whose letter against Sabellian and tritheist readings, written into the controversy with his Alexandrian namesake, Athanasius later quoted" (LibCat 66915-66917.)
+12. **why** and **legacy:** the sentence on second- and third-century religious movements removed from each.
+
+Each cited line was re-read in its file. These claims leave the "Not found" list above: "the church elected him", the Appian Way (both stories), "adultery after baptism", "senatorial women", the "pastoral policy" sentence, the Sardinian mines and death, the catacomb caveat, "usually taken to be Callistus’", "less than a year", "arrested within the month", "259-268", "the clearest doctrinal statement", and the closing sentence of `why` and `legacy`.
+
+### From the final brief
+
+13. **why (a claim the brief no longer makes).** Old: "Callistus, a former slave once sent to the Sardinian mines, became bishop of Rome." New: "Callistus, a former slave, became bishop of Rome." Evidence: the brief now says only "Callistus, who had been a slave" (paragraph 3). The mines are Leave out (`Fixes_Grade2.md` cut a; Outline, Cut first 24), and Kit Part 1 bars a short text from repeating a claim the brief no longer makes. The first documented story keeps the mines, as Hippolytus tells them.
+14. **sources, Hartel Letters 8, 49 and 55, note (what the brief now says).** "Letter 49: Cornelius to Cyprian on the confessors' return; they came" becomes "Letter 49: Cornelius to Cyprian on the confessors' return; they said they had been deceived; they came". Evidence: the brief, "the confessors who had sided with Novatian came back, saying they had been deceived". CyL 6748 with 6776, "circumuentos se esse / adfirmarunt"; CyL 6831-6832, "circumuenti sumus perfidia et loquacitate captiosa"; H 32980-32981, "they affirmed that they had been deceived" (ANF Letter 45, already in `sources`). Re-read.
+
+No other field changes:
+
+- **Quotations.** The final brief quotes the same three spans, word for word. Each `modern` matches the brief; each `printed` and `englishPrinted` was re-read at its lines (H 13856-13857; CyL 1129-1133 with H 28856-28860; CyL 6825-6828 with H 33011-33016) and passes the fold check, each file in `sources`. Nothing is added or removed.
+- **"To the card" in the grade fixes.** Outline, Cut first 24 now sends only the cemetery to the card, which the Hippolytus `sources` note already carries ("Callistus set over the church's cemetery"). Cut first 27 now sends only Natalius's welts, which `uncertain` ("Natalius's return") already carries. That item also names the visions and the angels' scourging, which the brief now tells in the same writer's voice ("A writer of his day says ..."), so it agrees with the brief and stays. Every other cut in `Fixes_Grade.md`, `Fixes_Grade2.md` and `Fixes_Grade3.md` is Leave out.
+- **The rest of the new wording** ("early in the 200s", "fed more than fifteen hundred widows and poor", "sacrifice to the gods", "but the church sided with them", "out of the church", "a woman of rank") is already covered by the `sources` notes (Eusebius V.28 and VI.43; Hippolytus Book IX) and contradicts nothing on the card.
+
+### Entry fields after the grade fixes
+
+- **why:** Card_Check FIX 12 and edit 13 above, on top of edit 1.
+- **legacy, voices, documentedStories:** Card_Check FIX 1 to 12, as above.
+- **sources:** edit 14.
+- **longDescription:** release sets it from the final brief.
