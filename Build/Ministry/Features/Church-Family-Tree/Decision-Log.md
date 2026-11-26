@@ -6112,6 +6112,24 @@ Mark, 2026-11-25: "for the initial audio introduction to anything should be call
 ## 2026-11-26 — The Family line view stays, joined to the new card (Mark)
 
 **Decided (Mark, 2026-11-26): "A".** The Family line view (Open-Gaps 364) stays. In the new card layout ("The card design: one layout, and a timeline in periods", 2026-11-25), tapping the direct line at the top of a card opens it, so the card shows one step and the map the whole line. In the same site build, its forest green is replaced by a color that passes the color-vision check against the gold influence and red lines on its own, not by line weight alone.
+## 2026-11-26 — Moses the Black graded B; a one-date trust failure is not F (Mark)
+
+**Why.** The person and council grades (`Build/Ministry/Operations/Audits/2026-11-25_person-council-grades/`, pull request #1814) gave Moses the Black (batch 3) a full trust read. 21 of its 22 sentences held. The 22nd opens the story: "Around the year 400, the desert fathers of Egypt counted Moses among their great ones." No old source gives a year. The batch-3 outline rated the date Inferential-Thin and then gave it as the spoken line, which Part 1 of the kit keeps out. Under the Athonite ruling ("takes its failed trust read, F", 2026-11-25), it graded F. That ruling was made for a brief that failed on 6 of 11 sentences. Mark asked "what is wrong with the around 400 is it true from other sources", then "how is around 400 a fact", and was shown that the date is hedged, near what Palladius allows, and inherited from the outline.
+
+**Decided (Mark, 2026-11-26, from options: "B, note the fix").** Moses the Black grades B, OK to keep. The fix is noted: cut "Around the year 400," from the first sentence, or say "By the time Palladius wrote, around 420". The Athonite F stands for trust failures of its kind. `grade.py` carries the ruling in `trust/Trust_Results.json`.
+
+**Found.** The grades now read F 157, D 26, C 71, B 17, A 1. The kit batches read F 29, B 15.
+
+**Not done.** The fix to the live text is for the next fix batch (Open-Gaps 424). The hedged-date question in Open-Gaps 424 is still open.
+
+## 2026-11-26 — A hedged date counts as one modern finding, not a guess told as the record (Mark)
+
+**Why.** In the person and council grades (`Build/Ministry/Operations/Audits/2026-11-25_person-council-grades/`), 16 of the kit batches' F grades rested on one guess told as the record, which is rigor F ("yes to the scans and guess as F", 2026-11-25). Most were a plainly hedged date: "Eighty-seven bishops met in council, probably in 256", "in 336 by the usual dating", "The date is disputed". Part 1 of the kit asks for uncertainty to be stated plainly, and a date that rests on one editor's reckoning to be told only as roughly as the old sources allow, or left out.
+
+**Decided (Mark, 2026-11-26, from options: "Dates count as modern").** A guess whose hedge is only on when something happened counts as one ordinary modern finding: C on its own, D with a second, F with three or more. A guess about a cause, an author, a motive, a place or a person stays rigor F. This changes the grade rule of "Tradition briefs graded; the rebuild order" (2026-11-25), point 3, for dates only. The tradition grades were not regraded; that is left for Mark (Open-Gaps 424).
+
+**Found.** 17 of the 45 guess findings in the 272 people and councils are dates only (`Hedged_Dates.json`). The grades now read F 152, D 29, C 73, B 17, A 1. The kit batches read F 24, D 14, C 44, B 15, A 1; before the kit, F 128, unchanged.
+
 ## 2026-11-26 — Read along: the text sits in the player (Mark)
 
 **Why.** Mark opened the Post-Apostolic house churches card and found no text to read with the audio: "also there is not text if they want to read with the audio as an option" (Open-Gaps, "What-and-why batch 1 undone; the fixes are to be redone", 2026-11-23). The text was on the card, but in "Read the brief", a fold that starts closed and sits below the map buttons, so it did not read as part of the player. Three options went to Mark: a "Read along" button in the player (recommended), the text opening on Play, or the text always open. The governing thread then paused site work ("a, pause and consolidate first", 2026-11-24).
