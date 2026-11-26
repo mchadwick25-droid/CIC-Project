@@ -583,7 +583,7 @@ svg.strip-on #era-labels{display:none}
 }
 #panel .summary{font-size:1rem;line-height:1.6;margin:.4rem 0 .8rem}
 #panel .brief{display:grid;gap:.5rem;margin:.6rem 0 .8rem;padding:.6rem .7rem;border:1px solid var(--gold-leaf);border-radius:8px}
-#panel .brief-row{display:flex;align-items:center;gap:.7rem;min-width:0}
+#panel .brief-row{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem .7rem;min-width:0}
 #panel .brief-play{flex:none;display:inline-flex;align-items:center;gap:.45rem;min-height:44px;padding:0 1rem;border:0;border-radius:999px;background:var(--gold-leaf);color:var(--parchment);font:700 1rem "Alegreya Sans",sans-serif;cursor:pointer}
 #panel .brief-play svg{width:14px;height:14px;fill:currentColor}
 #panel .brief-play:hover{background:var(--iron-gall)}
@@ -597,6 +597,10 @@ svg.strip-on #era-labels{display:none}
 #panel .brief-fill{position:absolute;left:0;top:12px;height:4px;width:0;background:var(--gold-leaf);border-radius:2px}
 #panel .brief-opts{display:flex;flex-wrap:wrap;gap:.3rem 1rem;font:.8125rem "Alegreya Sans",sans-serif;color:var(--ink-faded)}
 #panel .brief-opts label{display:inline-flex;align-items:center;gap:.35rem;min-height:32px}
+#panel .brief-read-btn{flex:none;margin-left:auto;min-height:44px;padding:0 .9rem;border:1px solid var(--gold-leaf);border-radius:999px;background:none;color:var(--iron-gall);font:600 .9375rem "Alegreya Sans",sans-serif;cursor:pointer}
+#panel .brief-read-btn:hover{background:color-mix(in srgb,var(--gold-leaf) 15%,transparent)}
+#panel .brief-read-btn:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
+#panel .brief-read{border-top:1px solid var(--rule);padding-top:.5rem}
 #panel .brief-opts select{min-height:32px;font:inherit;color:var(--iron-gall);background:var(--vellum);border:1px solid var(--rule);border-radius:4px;padding:.15rem .3rem}
 #panel .story-teaser{display:flex;gap:.5rem;align-items:baseline;width:100%;margin:.2rem 0 .7rem;padding:.55rem .7rem;min-height:44px;text-align:left;background:none;border:1px solid var(--rule);border-radius:6px;color:var(--iron-gall);font:1rem "Alegreya",serif;cursor:pointer}
 #panel .story-teaser:hover{border-color:var(--tyrian)}
@@ -610,7 +614,7 @@ svg.strip-on #era-labels{display:none}
 #panel details.fold>summary::-webkit-details-marker{display:none}
 #panel details.fold>summary::after{content:"+";flex:none;width:1.2rem;text-align:center;color:var(--gold-leaf);font-size:1.2rem}
 #panel details.fold[open]>summary::after{content:"\2212"}
-#panel .fold-t{flex:1}
+#panel h3.fold-t{flex:1;margin:0;font:inherit;letter-spacing:0;text-transform:none;color:inherit}
 #panel .fold-n{font-weight:600;font-size:.875rem;color:var(--ink-faded);font-variant-numeric:tabular-nums}
 #panel .fold-b{padding:0 0 1rem}
 #panel .fold-b>h3:first-child{margin-top:.2rem}
@@ -134576,10 +134580,10 @@ function openPersonCardNow(P){
   if(p&&p.longDescription){
     const recorded=treeAudioCurrent.has(p.id)&&treeAudioMeta[p.id];
     readLen=recorded&&treeAudioMeta[p.id].bytes?clipLength(treeAudioMeta[p.id]):briefLength(p.longDescription.split(/\s+/).length/150*60);
-    if(recorded)h+=briefPlayerHTML('audio/tree/'+p.id+'.mp3',readLen);
     read=briefTextHTML(p.longDescription);
     if(card.quotationOriginals&&card.quotationOriginals.length)read+='<p class="quotes-note">Quotations are given in our modern English. The printed wording of each is below.</p>';
     read+=quotesPanel(card);
+    if(recorded){h+=briefPlayerHTML('audio/tree/'+p.id+'.mp3',readLen,read);read='';}
   }
   h+=`<dl class="person-facts">${facts}</dl>`;
   if(p)h+=storyTeaserHTML(p);
@@ -135264,13 +135268,22 @@ function chainSet(on){try{localStorage.setItem(CHAIN_KEY,on?'1':'0');}catch(e){}
 const PLAY_SVG='<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 4.5v15l13-7.5z"/></svg>';
 const PAUSE_SVG='<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg>';
 function clock(s){s=Math.max(0,Math.floor(s||0));return Math.floor(s/60)+':'+String(s%60).padStart(2,'0');}
-function briefPlayerHTML(src,len){
+// The brief's text sits in the player: "Read along" opens it under the controls, so a visitor can
+// read with the voice or on their own.
+function briefPlayerHTML(src,len,text){
   return `<div class="brief" data-brief-src="${esc(src)}" data-brief-len="${esc(len||'')}">`
     +`<div class="brief-row"><button type="button" class="brief-play"></button>`
-    +`<p class="brief-head"><span class="brief-label">Audio Brief · Narrated Edition</span><span class="brief-time"></span></p></div>`
+    +`<p class="brief-head"><span class="brief-label">Audio Brief · Narrated Edition</span><span class="brief-time"></span></p>`
+    +`<button type="button" class="brief-read-btn" aria-expanded="false" aria-controls="brief-read"${text?'':' hidden'}>Read along</button></div>`
     +`<div class="brief-rail" role="slider" tabindex="0" aria-label="Position in the audio brief" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span class="brief-fill"></span></div>`
     +`<div class="brief-opts"><label>Speed <select class="brief-rate">${NARR_RATES.map(r=>`<option value="${r}">${r}×</option>`).join('')}</select></label>`
-    +`<label><input type="checkbox" class="brief-auto"> Play briefs when a card opens</label></div></div>`;
+    +`<label><input type="checkbox" class="brief-auto"> Play briefs when a card opens</label></div>`
+    +`<div class="brief-read" id="brief-read" hidden>${text||''}</div></div>`;
+}
+function setBriefText(el,html){
+  if(!el||!html)return;
+  el.querySelector('.brief-read').innerHTML=html;
+  el.querySelector('.brief-read-btn').hidden=false;
 }
 function briefSrcOf(id){
   if(BUILT_WORLD_IDS.has(id)){const tw=treeWorldOf(id);return tw&&tw.story&&tw.story.file?'audio/worlds-tree/'+tw.story.file:null;}
@@ -135365,6 +135378,12 @@ function wireBrief(){
     document.querySelectorAll('audio').forEach(narrApplyRate);
   });
   auto.addEventListener('change',()=>narrSetAuto(auto.checked));
+  const readBtn=el.querySelector('.brief-read-btn'), readBox=el.querySelector('.brief-read');
+  readBtn.addEventListener('click',()=>{
+    const open=readBox.hidden;
+    readBox.hidden=!open; readBtn.setAttribute('aria-expanded',String(open));
+    readBtn.textContent=open?'Hide the text':'Read along';
+  });
   el.querySelector('.brief-play').addEventListener('click',()=>{
     if(briefIsOpenCard()&&briefAudio.getAttribute('src')===el.dataset.briefSrc){
       if(briefAudio.paused||briefAudio.ended)playBrief();else briefAudio.pause();
@@ -135557,7 +135576,9 @@ async function loadBuiltWorldOrientation(censusId){
     const o=compiled.orientation||{};
     const put=(k,html)=>{const el=panelBody.querySelector(`.orient-slot[data-orient="${k}"]`);if(el)el.outerHTML=html;};
     const wrap=html=>html?`<div class="orient">${html}</div>`:'';
-    put('a',foldHTML('Read the brief','',[['',wrap(o.story&&o.story.length?R.story(compiled,storyOpts):'')]])
+    const storyHTML=wrap(o.story&&o.story.length?R.story(compiled,storyOpts):'');
+    if(player)setBriefText(player,storyHTML);
+    put('a',(player?'':foldHTML('Read the brief','',[['',storyHTML]]))
       +foldHTML('Documented stories',(o.documented_stories||[]).length,[['',wrap(o.documented_stories&&o.documented_stories.length?R.documented_stories(compiled,{idPrefix:censusId,...nopts}):'')]]));
     put('b',foldHTML('In their own words',(o.voices||[]).length,[
       ['Voices',wrap(o.voices&&o.voices.length?R.voices(compiled):'')],
@@ -135596,7 +135617,7 @@ function foldHTML(title,count,parts,id){
   const kept=parts.filter(([,html])=>html);
   if(!kept.length)return '';
   const body=kept.length===1&&kept[0][0]!==''?kept[0][1]:kept.map(([t,html])=>(t?`<h3>${esc(t)}</h3>`:'')+html).join('');
-  return `<details class="fold"${id?` id="${id}"`:''}><summary><span class="fold-t">${esc(title)}</span>${count?`<span class="fold-n">${esc(String(count))}</span>`:''}</summary><div class="fold-b">${body}</div></details>`;
+  return `<details class="fold"${id?` id="${id}"`:''}><summary><h3 class="fold-t">${esc(title)}</h3>${count?`<span class="fold-n">${esc(String(count))}</span>`:''}</summary><div class="fold-b">${body}</div></details>`;
 }
 function pageLinkHTML(m){return `<p class="tree-link">This card as a page: <a href="tree/${esc(m.id)}.html">${esc(m.name)}</a></p>`;}
 function storyTeaserHTML(m){
@@ -135656,10 +135677,10 @@ function openCouncilCard(c){
   let read='', readLen='';
   if(c.longDescription){
     readLen=briefLenOf(c.id)||briefLength(c.longDescription.split(/\s+/).length/150*60);
-    if(treeAudioCurrent.has(c.id))h+=briefPlayerHTML('audio/tree/'+c.id+'.mp3',briefLenOf(c.id));
     read=briefTextHTML(c.longDescription);
     if(co.quotationOriginals&&co.quotationOriginals.length)read+='<p class="quotes-note">Quotations are given in our modern English. The printed wording of each is below.</p>';
     read+=quotesPanel(co);
+    if(treeAudioCurrent.has(c.id)){h+=briefPlayerHTML('audio/tree/'+c.id+'.mp3',briefLenOf(c.id),read);read='';}
   }
   h+=`<dl class="person-facts">${facts}</dl>`;
   h+=storyTeaserHTML(c);
@@ -135724,8 +135745,8 @@ function openPanelNow(m){
     if(wa)h+=briefPlayerHTML((tw?'audio/worlds-tree/':'audio/worlds/')+wa.file,'');
   }else if(m.longDescription){
     readLen=briefLenOf(m.id)||briefLength(m.longDescription.split(/\s+/).length/150*60);
-    if(treeAudioCurrent.has(m.id))h+=briefPlayerHTML('audio/tree/'+m.id+'.mp3',briefLenOf(m.id));
     read=briefTextHTML(m.longDescription)+sectionSources(m.storySources);
+    if(treeAudioCurrent.has(m.id)){h+=briefPlayerHTML('audio/tree/'+m.id+'.mp3',briefLenOf(m.id),read);read='';}
   }
   if(m.why)h+=`<p class="summary">${esc(m.why)}</p>`;
   h+=storyTeaserHTML(m);
@@ -135810,14 +135831,13 @@ function openPanelStory(s){
     ${s.placeLabel?`<p class="meta">${esc(CFTPlace.formatPlace(s,{today:true}))}</p>`:''}
     <span class="statuspill">${esc(s.confidence)} · a story</span>`;
   if(s.teaser)h+=`<p class="teaser">${esc(s.teaser)}</p>`;
-  if(s.text)h+=briefPlayerHTML(`audio/stories/${s.id}.mp3`,'');
+  if(s.text)h+=briefPlayerHTML(`audio/stories/${s.id}.mp3`,'',briefTextHTML(s.text));
   if(s.caveat)h+=`<h3>What's solid, what's retold</h3><p>${esc(s.caveat)}</p>`;
   if(hasContent(s.relationsSummary))h+=`<h3>How it connects</h3><p><i>${esc(s.relationsSummary)}</i></p>`;
   const related=(s.relatedIds||[]).map(id=>byId[id]).filter(Boolean);
   if(related.length)h+=`<h3>Nearby on the map</h3><ul class="voices">${related.map(m=>
     `<li><button type="button" class="panel-link" data-id="${esc(m.id)}">${esc(m.shortName||m.name)}</button> — ${esc(plainDates(m.dates))}</li>`
   ).join('')}</ul>`;
-  h+=foldHTML('Read the story','',[['',s.text?briefTextHTML(s.text):'']]);
   h+=foldHTML('Sources and notes',(s.sources||[]).length,[['',(s.sources||[]).map(src=>{
     const work=src.url?`<a href="${esc(src.url)}" target="_blank" rel="noopener">${esc(src.work)}</a>`:esc(src.work);
     return `<div class="edge"><span class="k">${esc(src.type)}</span><br><b>${work}</b>${src.note?`<br>${esc(src.note)}`:''}</div>`;
