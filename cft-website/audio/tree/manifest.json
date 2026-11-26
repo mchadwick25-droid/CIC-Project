@@ -103,12 +103,18 @@
  },
  "antiochene-church-third-century": {
   "file": "antiochene-church-third-century.mp3",
-  "bytes": 862083,
-  "chars": 1428,
-  "text_sha256": "7f1b3d1b0afeca50cd5b5e9f7da91f4e06b4cb8386a1bbff9ea00caeac90e9eb",
+  "bytes": 2243020,
+  "chars": 3700,
+  "text_sha256": "e7f9456e504de108e84638bcb445f32a473fbf84b028151067be14dbce54de0b",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
-  "outputFormat": "mp3_44100_64"
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  }
  },
  "antiochene-exegetical-christianity-chrysostom-ce": {
   "file": "antiochene-exegetical-christianity-chrysostom-ce.mp3",
@@ -634,12 +640,18 @@
  },
  "ebionite-nazoraean-current": {
   "file": "ebionite-nazoraean-current.mp3",
-  "bytes": 648088,
-  "chars": 1070,
-  "text_sha256": "b524fac9ebb67214528556f861a6518f5bb11932b5d97fc534fb22ccb827a224",
+  "bytes": 2213972,
+  "chars": 3618,
+  "text_sha256": "670f660dbc63910ec0abe12b806f860455a55b4d78e8432e9aa10b3d980eb188",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
-  "outputFormat": "mp3_44100_64"
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  }
  },
  "ecumenical-community-worlds-taize-and-iona": {
   "file": "ecumenical-community-worlds-taize-and-iona.mp3",
@@ -775,12 +787,18 @@
  },
  "greek-apologists-second-century": {
   "file": "greek-apologists-second-century.mp3",
-  "bytes": 732098,
-  "chars": 1226,
-  "text_sha256": "34f8a6c7c98abc13605ca64ab7b79f52849d3b29aba35224f7a9d6a28c5f1d16",
+  "bytes": 2309894,
+  "chars": 3889,
+  "text_sha256": "21b3ee4e1858b99760a3b1e43445936d21f242c5c0529ba5689e34e307e8b2bf",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
-  "outputFormat": "mp3_44100_64"
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  }
  },
  "haitian-church-rupture-to-concordat": {
   "file": "haitian-church-rupture-to-concordat.mp3",
@@ -973,12 +991,18 @@
  },
  "latin-apologists": {
   "file": "latin-apologists.mp3",
-  "bytes": 1601871,
-  "chars": 2630,
-  "text_sha256": "7bc6dcb9055b9af6ff651249c4fcd04d84a38b5d6a73036c5fcd683ac2faa4af",
+  "bytes": 2360885,
+  "chars": 3837,
+  "text_sha256": "f7041fffc3ec1fb36b13307fa6740f4a550cccd7c15c5770521f92f538059041",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
-  "outputFormat": "mp3_44100_64"
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  }
  },
  "latin-church-of-outremer": {
   "file": "latin-church-of-outremer.mp3",
@@ -1057,21 +1081,33 @@
  },
  "manichaeism": {
   "file": "manichaeism.mp3",
-  "bytes": 669613,
-  "chars": 1085,
-  "text_sha256": "6a81ccf19998236fe4b1850a8b29b910e35ae0b2edb873aeb6623d1833067392",
+  "bytes": 2851151,
+  "chars": 4722,
+  "text_sha256": "df029c0687f51c54bb913a4f487603e8f0df7336edb9b5fc552550ca4888ed1b",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
-  "outputFormat": "mp3_44100_64"
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  }
  },
  "marcion-marcionism": {
   "file": "marcion-marcionism.mp3",
-  "bytes": 695736,
-  "chars": 1167,
-  "text_sha256": "91ae68dae2065d3f6c7915fa47f01f9eba2df88b5eda041512a7e84acf0ab8dd",
+  "bytes": 2321806,
+  "chars": 3809,
+  "text_sha256": "331bf93dca1b4e08139770532a0675ee50155af24e6c4c34bcbd435fb246c7d2",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
-  "outputFormat": "mp3_44100_64"
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  }
  },
  "maronite-christianity-era-6": {
   "file": "maronite-christianity-era-6.mp3",
@@ -1510,12 +1546,18 @@
  },
  "roman-church-third-century": {
   "file": "roman-church-third-century.mp3",
-  "bytes": 541091,
-  "chars": 924,
-  "text_sha256": "1e1db7eae37c5cdf9ca83ccc38f6ddee835587902f2bf300f92057c83ee7e1cd",
+  "bytes": 2269143,
+  "chars": 3736,
+  "text_sha256": "9dc0161607013939c8b5fff6747c843720ebd617a238aa0f16f1ea9f5c9b05dd",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
-  "outputFormat": "mp3_44100_64"
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  }
  },
  "russian-church-nikon-to-holy-synod": {
   "file": "russian-church-nikon-to-holy-synod.mp3",

@@ -1,0 +1,19 @@
+=== Tree narration  ===
+629 movements total
+4 skipped - no longDescription to narrate
+12 skipped - built world with its own orientation.story, recorded in its Representative's voice
+260 skipped - person, recorded only in a person run (--people)
+0 already narrated and current (use --force to regenerate)
+1 stale - recorded from text that has since changed, re-voiced this run
+1 to generate this run, 3837 characters total
+=== PAID RUN, settings as actually used ===
+approved run     : Batch 11 tradition briefs, run 2: Mark, 2026-11-26, "approve to record"; sample "1. a"   char cap: 23000
+default voice id : onwK4e9ZLuTAKqWW03F9
+output format    : mp3_44100_64
+model            : eleven_multilingual_v2
+settings         : {"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true}
+items            : 1   characters: 3837 text, 3837 sent
+===========================================
+  ok: latin-apologists voice=onwK4e9ZLuTAKqWW03F9 model=eleven_multilingual_v2 format=mp3_44100_64 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=3837 sent=3837 cost=1860 request-id=ul8zZLPzUjGCocrrtJoJ
+
+1/1 generated. credits charged (character-cost headers): 1860
