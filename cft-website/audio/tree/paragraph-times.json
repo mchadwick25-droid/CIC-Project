@@ -166,21 +166,6 @@
    211.35
   ]
  },
- "basil-of-caesarea": {
-  "text_sha256": "a9419300d8721e5b777b9e46f82e1e4882652d55ded198554bb6d67448f9fb4c",
-  "starts": [
-   0.0,
-   20.75,
-   51.23,
-   75.03,
-   104.67,
-   118.19,
-   157.47,
-   178.71,
-   217.69,
-   249.19
-  ]
- },
  "baudonivia": {
   "text_sha256": "a7a1bc88eadb993d51b754b2148a423c514774406eeb179367a188c658c86a7d",
   "starts": [
@@ -543,20 +528,6 @@
    102.31,
    130.11,
    156.27
-  ]
- },
- "epiphanius-of-salamis": {
-  "text_sha256": "8b34d11a4b32b7b41437bdba91d8eedf01d7283330bdf7a80a614fad5b340c5e",
-  "starts": [
-   0.0,
-   24.93,
-   59.53,
-   95.41,
-   146.55,
-   174.19,
-   210.87,
-   240.75,
-   272.99
   ]
  },
  "ethiopian-christianity-gondar-to-the-zemene-mesafint": {
