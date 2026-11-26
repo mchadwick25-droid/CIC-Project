@@ -22,7 +22,11 @@ separately compiled per-world orientation JSON (cic-website/data/worlds/
 <id>.json, built by engine/m2/site_compiler.py's compile_world_front, run
 via `python -m engine.m2.site_cli build`, from a world's own world_front
 record) - BUILT_WORLD_FIELDS is the subset of that prose the Atlas still
-carries directly for them.
+carries directly for them: their sources and their brief.
+
+CARD_LAYOUT_FIELDS (short description, the brief's old sources, timeline,
+open questions, quotation originals, modern works) sync for every movement,
+built or not, and leave the Atlas when the census no longer holds them.
 
 Deliberately excluded from every list above: `legacySources`,
 `storySources`, and `verifiedSources` - checked directly, world-census.json
@@ -96,7 +100,19 @@ NON_BUILT_WORLD_FIELDS = (
     "teaser",
 )
 
-BUILT_WORLD_FIELDS = ("sources",)
+# A built world's brief: the card shows it, and plays it once it is recorded, in place of the world narration.
+BUILT_WORLD_FIELDS = ("sources", "longDescription")
+
+# The card layout's own fields on a tradition, a movement across churches or a built world (a person keeps them in
+# `card`, a council in `council`): the map's card shows them for every movement, built or not.
+CARD_LAYOUT_FIELDS = (
+    "shortDescription",
+    "briefSources",
+    "timeline",
+    "uncertain",
+    "quotationOriginals",
+    "modernWorks",
+)
 
 # Census fields the Atlas never carries: the dated evidence behind the living
 # mark stays in the census record only.
@@ -116,8 +132,8 @@ def sync_atlas(census: dict, atlas_movements: list[dict]) -> tuple[list[dict], l
         cm = census_by_id.get(mid)
         if cm is None:
             continue
-        fields = STRUCTURAL_FIELDS + PEOPLE_FIELDS + (BUILT_WORLD_FIELDS if cm.get("status") == LIVE_STATUS else NON_BUILT_WORLD_FIELDS)
-        for field in PEOPLE_FIELDS:
+        fields = STRUCTURAL_FIELDS + PEOPLE_FIELDS + CARD_LAYOUT_FIELDS + (BUILT_WORLD_FIELDS if cm.get("status") == LIVE_STATUS else NON_BUILT_WORLD_FIELDS)
+        for field in PEOPLE_FIELDS + CARD_LAYOUT_FIELDS:
             # A field the census no longer holds is taken out of the Atlas (a tradition that gained
             # people loses its peopleNote).
             if field not in cm and field in m:
