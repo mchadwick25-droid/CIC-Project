@@ -43,6 +43,20 @@ works:
 
     '
   source_file: ephraim_prose-refutations_mitchell1912-1921.txt
+- row_id: epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922--haer-41-42-cerdonians-marcionites
+  work: Panarion 41 (Cerdonians) and 42 (Marcionites), Greek
+  author: epiphanius
+  locus: heresy 41 from about file line 7149; heresy 42 from about 7418, its opening at 7423
+    (Marcion of Pontus, a bishop's son, his fall and his coming to Rome)
+  role: context
+  confidence: assigned
+  language: grc
+  note: 'Epiphanius on Cerdo and on Marcion: his origin in Pontus, his expulsion, his coming
+    to Rome after Hyginus''s death, his teaching, and the long refutation from Marcion''s
+    own Gospel and Apostle. The Greek original; no English of the Panarion is held. Context:
+    a hostile outside view, about two centuries later. Holl''s Greek is fair; check every
+    quotation against the page images.'
+  source_file: epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt
 - row_id: anf05_hippolytus-cyprian-caius-novatian--the-refutation-of-all-heresies-philosophumena-2
   work: The Refutation of All Heresies (Philosophumena)
   author: hippolytus
@@ -75,6 +89,20 @@ works:
 
     '
   source_file: anf01_apostolic-fathers-justin-irenaeus.xml
+- row_id: jerome_eusebii-chronici-canones-lat_fotheringham1923--chronici-canones-cerdo-and-marcion-come-to-rome-latin
+  work: Chronici canones, the entry 'Valentinus heresiarches et Cerdo magister Marcionis Romam
+    uenerunt', Latin
+  author: jerome
+  locus: Antoninus Pius's year 3, under Hyginus of Rome, file lines 42747-42750
+  role: context
+  confidence: provisional
+  note: 'The old dated witness for the start of the Marcionite story at Rome: Cerdo, Marcion''s
+    teacher, comes to Rome under Hyginus, in Antoninus''s third year. It names Cerdo, not
+    Marcion''s own arrival. The AD year is a conversion of the regnal year. Context, from
+    the opposing side.
+
+    '
+  source_file: jerome_eusebii-chronici-canones-lat_fotheringham1923.txt
 - row_id: anf03_tertullian--against-all-heresies-spurious-appendix
   work: Against All Heresies (spurious appendix)
   author: pseudo_tertullian

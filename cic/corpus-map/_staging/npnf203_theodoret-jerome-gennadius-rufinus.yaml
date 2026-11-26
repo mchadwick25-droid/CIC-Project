@@ -624,3 +624,13 @@ assignments:
   confidence: assigned
   note: Jerome's notice of Victorinus's works and martyrdom, and his judgement that Victorinus knew Greek
     better than Latin.
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--gennadius-22-niceta
+  work: 'Gennadius, Lives of Illustrious Men 22: Niceas (Niceta), bishop of Romatia'
+  author: gennadius
+  locus: div v.iv.xxiii, about raw line 42593
+  atlas_ids:
+  - danubian-latin-christianity
+  role: context
+  confidence: assigned
+  note: A late-fifth-century notice of Niceta's six books of instruction for those coming to baptism,
+    with their contents. The editor's note giving his years is a modern guide, not a witness.

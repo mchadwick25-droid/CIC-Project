@@ -6245,6 +6245,13 @@ Mark, 2026-11-25: "for the initial audio introduction to anything should be call
 **Decided (Mark, 2026-11-26), from options: "a"**, "keep 'Novatianism' as the title and make the second line 'the Katharoi (the pure)', the way Montanism shows 'the New Prophecy'. Searching 'Katharoi' or 'Cathari' would also find it, and the brief and card match."
 
 **Done.** `novatianism`'s `name` is "Novatianism (the Katharoi)", its `shortName` still "Novatianism", as Montanism shows "Montanism (the New Prophecy)". Search finds it under "Katharoi" (its brief: "His congregations called themselves the Katharoi, the pure") and "Cathari" (Eusebius, Church History VI.43, NPNF 2/1: "call themselves Cathari", `cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml` lines 38268-38270). A search for "Cathari" shows Novatianism (the Katharoi) and the medieval Cathars / Albigensians as two results, each under its own name.
+## 2026-11-26 — Danubian Latin: the two open questions settled by the sources (Mark)
+
+**Why.** The Open-Gaps 417 source research left two questions for the `danubian-latin-christianity` rebuild (Open-Gaps 437): whether the Homoian bishops of the Danube are this entry's own voice, and whether Niceta of Remesiana enters its story.
+
+**Decided (Mark, 2026-11-26): "i am not an expert and cant answer these knowledbly, follow the sources".**
+1. The Homoian bishops. Their surviving letters and notes are written in Latin by bishops of Sirmium, Mursa, Singidunum and Ratiaria, the region's own sees, inside its years (Hilary's Collectanea; the Scolia Arriana). So they are this entry's own voice, and they also stay in `homoian-arian-christianity`. Hilary, Athanasius and Ambrose kept their words to answer them, so a brief gives both sides and carries neither forward. The corpus-map rows for the letters and the Scolia are now `tradition`.
+2. Niceta. Gennadius (Lives 22) names him bishop of Romatia; Paulinus of Nola's poems send him home "usque Dacos" and welcome him back (Carmina 17, 27). Those poems place him after this entry's map years. Under the kit, what came of a tradition may rest on a reliable later witness, so the brief may tell him at its end, as what came of the Danube church, not inside its window. Paulinus's Carmina (Hartel, CSEL 30, 1894) were vendored for this.
 ## 2026-11-26 — River dots for traditions not yet drawn (Mark)
 
 **Decided (Mark, 2026-11-26).** "on the map when its scrolled out i think there should be dots on the river where traditions are not yet visable until scrolled in. no name just a dot that as you scroll it it changes to a house and name at the current levels". On what a tap does, from options: "a", "zoom the map in toward it until its house and name appear."

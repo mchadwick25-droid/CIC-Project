@@ -1,0 +1,15 @@
+source_file: paulinus-nola_carmina-lat_hartel-csel30-1894.txt
+assignments:
+- row_id: paulinus-nola_carmina-lat_hartel-csel30-1894--carmina-17-27-niceta
+  work: Paulinus of Nola, Carmen 17 (farewell to Niceta) and Carmen 27 (the ninth poem for Felix, welcoming
+    Niceta again)
+  author: paulinus-nola
+  locus: Carmen 17 from about host OCR line 6675 to 7270; Carmen 27 from about 16540 to 17740 (this file's
+    line = host line - 46 + 12)
+  atlas_ids:
+  - danubian-latin-christianity
+  role: context
+  confidence: assigned
+  note: 'The primary old witness to Niceta: a friend''s poems on the bishop who came to Nola from the
+    Dacians and went home to teach the peoples of the north. Context: an Italian witness to the Danube
+    church.'

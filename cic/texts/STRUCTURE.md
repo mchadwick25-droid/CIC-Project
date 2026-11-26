@@ -17665,6 +17665,14 @@ Sections matching front-matter and editorial patterns are marked *(apparatus)* a
 |---|---:|---:|---:|---|
 | `1` | 0 | 68,637 | 68,637 | paulinus-milan_vita-ambrosii_kaniecka1928 |
 
+## `paulinus-nola_carmina-lat_hartel-csel30-1894.txt`
+
+1 section(s) to level 2 · ~166,703 words of text · ~0 words of apparatus
+
+| path | lvl | words | subtree | section |
+|---|---:|---:|---:|---|
+| `1` | 0 | 166,703 | 166,703 | paulinus-nola_carmina-lat_hartel-csel30-1894 |
+
 ## `paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt`
 
 1 section(s) to level 2 · ~488,667 words of text · ~0 words of apparatus

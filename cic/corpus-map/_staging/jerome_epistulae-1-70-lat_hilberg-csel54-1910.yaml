@@ -1,0 +1,34 @@
+# Latin critical text (Hilberg, CSEL 54, 1910) of Jerome's Letters 1-70, whose English is already
+# assigned from npnf206.
+source_file: jerome_epistulae-1-70-lat_hilberg-csel54-1910.txt
+
+assignments:
+  - row_id: jerome_epistulae-1-70-lat_hilberg-csel54-1910--epistulae-1-70-latin
+    work: "Jerome, Letters 1-70 (Hilberg, CSEL 54), Latin"
+    author: jerome
+    locus: "whole file after the header"
+    atlas_ids:
+      - hieronymian-ascetic-literary
+    role: tradition
+    confidence: assigned
+    language: lat
+    note: >
+      Latin original of the first seventy of the letters already assigned to this bucket from
+      npnf206. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Hilberg's critical text, good Latin OCR,
+      ready to quote once each quote is verified against the scan. As with the English, the
+      collection holds letters Jerome received as well as sent; check each letter's sender.
+  - row_id: jerome_epistulae-1-70-lat_hilberg-csel54-1910--letter-51-epiphanius-to-john-of-jerusalem-latin
+    work: "Letter 51: Epiphanius of Salamis to John of Jerusalem, in Jerome's Latin"
+    author: epiphanius
+    locus: "host OCR line 19861 on (file line 19873); the ordination of Paulinianus at host lines 19958-19970; 'Arrii patrem et aliarum hereseon radicem et parentem' at host line 20102"
+    atlas_ids:
+      - palestinian-ascetic-monasticism-early
+    role: tradition
+    confidence: provisional
+    language: lat
+    note: >
+      Epiphanius's own letter, of about 394, from the monastery near Bethlehem quarrel: his account
+      of ordaining Jerome's brother and his charges against Origen. Epiphanius wrote in Greek, which
+      does not survive; this is Jerome's Latin, the oldest form held, and the original behind
+      Fremantle's English in npnf206. Assigned here as the Epiphanius Panarion volumes are; whether
+      Epiphanius is this entry's own voice is a build-thread call, named here and not decided.

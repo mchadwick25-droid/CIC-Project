@@ -104,3 +104,11 @@ the Library's holdings, not a brief; the briefs are rebuilt by the tradition lin
   Danube (Valens, Ursacius, Germinius, Palladius) are this entry's own voice or belong to
   `homoian-arian-christianity` (shelved here as context only); and whether Niceta of Remesiana, whose works
   fall at and after the window's end (c. 250-400), enters the story.
+
+## The Danubian questions, settled by the sources (2026-11-26)
+
+Mark asked that the two Danubian questions follow the sources (Decision-Log, same date).
+
+- **The Homoian bishops.** Their letters and notes are by Latin bishops of the region's own sees, inside its years. The Hilary Collectanea and Scolia Arriana rows are now `tradition` for this entry, as well as for `homoian-arian-christianity`.
+- **Niceta.** Checked in the held files: Gennadius, Lives 22 (npnf203) names him bishop of Romatia and lists his six books; the Acta Sanctorum June V dossier tells his two visits to Nola from the Dacians. The primary witness, Paulinus of Nola's poems, was not held, so it was found and vendored: Hartel, CSEL 30 (Vienna, 1894), archive item sanctipontiimer00paulgoog, Google's preamble of 46 lines removed and recorded. Carmen 17 sends Niceta home "usque Dacos"; Carmen 27 welcomes him back. The poems place him after the entry's map years, so he is told as what came of the tradition. Both held files and the poems are now shelved to the entry, which has 19 rows (16 before this step).
+- Paulinus's Carmina may also serve other entries (Italian and Gallic ascetic currents); they are shelved here only for Niceta, and are open to the next session that checks those entries.
