@@ -1,5 +1,5 @@
 {
- "shortDescription": "At Carthage, Rome and Nicomedia, Christian writers defended their faith in Latin to educated people who looked down on it. They answered the charges against Christians from the pagans' own books.",
+ "shortDescription": "At Carthage, Rome and Nicomedia, Christian writers defended their faith in Latin. They answered the charges against Christians from the pagans' own books.",
  "dates": "c. 200 to early 4th c.",
  "timeline": [
   {
@@ -68,7 +68,7 @@
      "when": "in middle life",
      "text": "Jerome says the envy and abuse of the clergy of the Roman church drove Tertullian to the teaching of Montanus, the New Prophecy, which he mentions in many of his books.",
      "reference": "Jerome, Lives of Illustrious Men 53, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40506-40509",
-     "note": "The motive is Jerome's account."
+     "note": "The motive is Jerome's account. The New Prophecy held that the Holy Spirit, the Paraclete, now gave a stricter rule (Tertullian, On Monogamy 2, cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 5769-5773)."
     },
     {
      "when": "date unknown",
@@ -173,8 +173,8 @@
    ]
   },
   {
-   "when": "303, in the eighth consulship of Diocletian",
-   "headline": "At Nicomedia, Lactantius sees the church leveled and writes the Divine Institutes",
+   "when": "303, in the eighth consulship of Diocletian, and after",
+   "headline": "At Nicomedia, Lactantius is teaching when the church is leveled, and later writes the Divine Institutes",
    "witness": "Lactantius, in his own books",
    "lines": [
     {

@@ -3,7 +3,7 @@
  "dates": "late 2nd to late 4th c.",
  "timeline": [
   {
-   "when": "Late 2nd century, while Commodus reigned",
+   "when": "Around 200, while Serapion was bishop of Antioch",
    "headline": "Serapion of Antioch lets a gospel under Peter's name be read, then reads it and judges it",
    "witness": "Serapion, in what he wrote to the church at Rhossus, kept by Eusebius",
    "lines": [
@@ -15,7 +15,7 @@
     },
     {
      "when": "date unknown",
-     "text": "On a visit to Rhossus, a parish in his charge, Serapion supposes all there hold the true faith. Without reading the gospel they put forward under Peter's name, he says that if this is the only thing causing bad feeling among them, let it be read.",
+     "text": "On a visit to the parish of Rhossus, Serapion supposes all there hold the true faith. Without reading the gospel they put forward under Peter's name, he says that if this is the only thing causing bad feeling among them, let it be read.",
      "reference": "Serapion, in Eusebius, Church History VI.12.2-4, cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt lines 2504-2505, 2513-2516; cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 33696-33712"
     },
     {
@@ -109,7 +109,7 @@
     },
     {
      "when": "date unknown",
-     "text": "A book under James's name tells of Joachim and Anna, a couple with no child, and of an angel's promise to Anna of a daughter, Mary.",
+     "text": "A book under James's name tells of Joachim and Anna, a couple with no child, of an angel's promise to Anna that she will conceive, and of the birth of their daughter, Mary.",
      "reference": "Book of James 1-5, cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml lines 36612-36628, 36648, 36694-36697, 36729-36736",
      "note": "The English is printed from an eleventh-century manuscript. Many other forms of the book exist (lines 36602-36603)."
     },
@@ -183,7 +183,7 @@
     {
      "when": "about 392, by Jerome's own date",
      "text": "Jerome counts the Acts of Paul and Thecla, and the fable of a lion baptized by Paul, among the apocryphal writings. He says Tertullian's presbyter in Asia was convicted by John and resigned his office.",
-     "reference": "Jerome, Lives of Illustrious Men 7, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 39502-39515; the year is a conversion, worked out from Jerome's preface, which takes the work down to the fourteenth year of the emperor Theodosius, line 38785",
+     "reference": "Jerome, Lives of Illustrious Men 7, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 39502-39515; the year is a conversion, worked out from Jerome's preface, which takes the work down to the fourteenth year of the emperor Theodosius, line 38785, counting his reign from 379",
      "note": "Tertullian names no judge."
     },
     {
