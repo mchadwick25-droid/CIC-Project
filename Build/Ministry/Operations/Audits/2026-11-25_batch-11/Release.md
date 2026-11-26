@@ -126,3 +126,7 @@ Every blocking mark in those reads carried an exact fix, applied before the grad
 - **Mark's rulings:** where a tradition's card lives (428), the timeline years (429), and the Latin river origin if Latin Apologists' `start` moves.
 - **The independent grading** of the 13 new texts, ruled under "the two long stories", before batch 12.
 - **Not done here:** commit, pull request.
+
+## After CI: the built worlds' summaries held (2026-11-26)
+
+CI's engine suite failed `engine/m2/tests/test_card_back_audio.py`: each Built & Live world's card-back narration is made from its `entry.summary`, and the new summaries for Alexandria, Syriac and House Church no longer matched their recordings. The three new `summary` texts are held back (the census keeps the recorded ones). A local run then showed `engine/m6/tests/test_census_sync.py` would fail too: `intro`, `summary` and `recordHolds` are synced from `records/worlds/<code>.yaml` `card`, and they are the card words Mark approved for the conversation chooser (`Build/Ministry/Features/Conversation-Chooser/Card-Words/Approved-Card-Words.yaml`, 2026-10-20). Changing them is a change order for Mark, not a release step, so the new `intro` and `recordHolds` are held as well. Only the census-owned `tile` is applied. The new summaries, as the card checks passed them, wait in each `Entry_Texts.md` with their corrections, to go in with new card-back recordings once Mark approves a run with a cap (the card backs use their own voice and settings in `cic-website/audio/cards/manifest.json`). Open-Gaps 432.
