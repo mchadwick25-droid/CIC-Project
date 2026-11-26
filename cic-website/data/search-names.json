@@ -351,6 +351,28 @@
     "lines": "165-171",
     "text": "Abyssinians of all classes speak of their country as “Ethiopia,”"
    }
+  },
+  {
+   "name": "Katharoi",
+   "kind": "other name",
+   "entry": "novatianism",
+   "basis": {
+    "source": "tree",
+    "entry": "novatianism",
+    "field": "longDescription",
+    "text": "His congregations called themselves the Katharoi, the pure"
+   }
+  },
+  {
+   "name": "Cathari",
+   "kind": "other name",
+   "entry": "novatianism",
+   "basis": {
+    "source": "library",
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+    "lines": "38268-38270",
+    "text": "call themselves Cathari."
+   }
   }
  ]
 }

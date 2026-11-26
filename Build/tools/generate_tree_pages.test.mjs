@@ -11,11 +11,11 @@ import vm from 'node:vm';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 const census = JSON.parse(fs.readFileSync(path.join(root, 'cic-website/data/world-census.json'), 'utf8'));
 
-function generate(c, audio = null, live = true) {
+function generate(c, audio = null) {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'tree-pages-'));
   const file = path.join(dir, 'census.json');
   fs.writeFileSync(file, JSON.stringify(c));
-  execFileSync('node', [path.join(root, 'Build/tools/generate_tree_pages.mjs'), '--census', file, '--out', dir, ...(audio ? ['--audio', audio] : []), ...(live ? ['--conversations-live'] : [])], { stdio: 'ignore' });
+  execFileSync('node', [path.join(root, 'Build/tools/generate_tree_pages.mjs'), '--census', file, '--out', dir, ...(audio ? ['--audio', audio] : [])], { stdio: 'ignore' });
   return name => fs.readFileSync(path.join(dir, 'cft-website', name), 'utf8');
 }
 
@@ -26,33 +26,18 @@ const withLinks = (c, n) => {
   c.edges = [example, ...c.edges.filter(e => e !== example).slice(0, n - 1)];
 };
 
-test('an open world gets a door to Church in Conversation', () => {
-  const read = generate(census);
-  const page = read(`tree/${open.id}.html`);
-  assert.match(page, new RegExp(`href="https://churchinconversation.com/traditions/${open.id}.html">Meet `));
-  assert.doesNotMatch(page, /class="door-quiet"/);
-});
-
-test('while conversations are not live, an open world names its Representative with no link to Church in Conversation', () => {
-  const page = generate(census, null, false)(`tree/${open.id}.html`);
-  assert.doesNotMatch(page, /churchinconversation.com\/traditions\//);
-  assert.match(page, new RegExp(`<p class="door-quiet">Conversations with ${open.entry.representativeName} are coming soon to Church in Conversation.</p>`));
-});
-
-test('the map and the tree pages agree on whether conversations are live', () => {
-  const site = JSON.parse(fs.readFileSync(path.join(root, 'Build/tools/tree_site_pages.json'), 'utf8'));
+test('a built world names no Representative and opens no door to Church in Conversation, on its page or its map card', () => {
+  const page = generate(census)(`tree/${open.id}.html`);
+  assert.doesNotMatch(page, /class="door-quiet"|churchinconversation\.com\/traditions\//);
+  assert.ok(!page.includes(open.entry.representativeName), 'the page does not name the Representative');
   const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
-  assert.match(map, new RegExp(`const CONVERSATIONS_LIVE=${site.conversationsLive === true};`));
-  const page = fs.readFileSync(path.join(root, `cft-website/tree/${open.id}.html`), 'utf8');
-  assert.equal(/churchinconversation.com\/traditions\//.test(page), site.conversationsLive === true);
+  assert.doesNotMatch(map, /class="repline"|function worldDoor|CONVERSATIONS_LIVE/);
 });
 
-test('with every world closed, built worlds show only the quiet line', () => {
-  const closed = structuredClone(census);
-  closed.movements.forEach(m => { m.publicOpen = false; });
-  const page = generate(closed)(`tree/${open.id}.html`);
-  assert.doesNotMatch(page, /churchinconversation.com\/traditions\//);
-  assert.match(page, /<p class="door-quiet"><a href="https:\/\/churchinconversation.com\/">Church in Conversation<\/a>, from the same team.<\/p>/);
+test('a built world without a short description stands in its teaser, like every other card', () => {
+  const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
+  assert.ok(map.includes('h+=shortDescHTML(m.shortDescription||m.teaser);'), 'the tradition card uses the same stand-in for every tradition');
+  assert.doesNotMatch(map, /entry\.tile/);
 });
 
 test('the support page says who publishes it and that payments are not tax-deductible', () => {
@@ -172,7 +157,7 @@ test('the about page counts traditions, rivers, eras and links from the census',
   assert.match(page, new RegExp(`<meta name="description" content="[^"]*with ${traditions.length} church traditions`));
 });
 
-test('a person page says which tradition tells it, and carries that world door while it is open', () => {
+test('a person page says which tradition tells it, and opens no door to Church in Conversation', () => {
   const c = structuredClone(census);
   const person = c.movements.find(m => m.kind === 'person');
   const read = generate(c);
@@ -186,10 +171,8 @@ test('a person page says which tradition tells it, and carries that world door w
   home.people = [];
   world.people = [{ person: person.id }];
   const opened = generate(c);
-  assert.match(opened(`tree/${person.id}.html`), new RegExp(`href="https://churchinconversation.com/traditions/${world.id}.html">Meet `));
+  assert.doesNotMatch(opened(`tree/${person.id}.html`), /churchinconversation.com\/traditions\//);
   assert.match(opened(`tree/${world.id}.html`), new RegExp(`<a href="${person.id}.html">`));
-  world.publicOpen = false;
-  assert.doesNotMatch(generate(c)(`tree/${person.id}.html`), /churchinconversation.com\/traditions\//);
   person.toldWithin = null;
   world.people = [];
   assert.match(generate(c)(`tree/${person.id}.html`), /A person whose story no single tradition tells\./);

@@ -373,3 +373,53 @@ test('desktop: keyboard focus on a river still shows its tip', async () => {
   assert.deepEqual(errors, []);
   await ctx.close();
 });
+
+// Zoomed out, a tradition not yet drawn shows as a dot on its river, with no name; tapping it, or Enter, zooms in
+// until its house and name appear (Decision-Log, "River dots for traditions not yet drawn", 2026-11-26).
+for (const [label, opts] of SCREENS) {
+  test(`${label}: river dots show undrawn traditions, clear of names, and zoom in when chosen`, async () => {
+    const { ctx, page, errors } = await openMap(opts);
+    const measure = () => page.evaluate(() => {
+      const vis = e => { const r = e.getBoundingClientRect(); return r.width > 0 && getComputedStyle(e).display !== 'none' && r.bottom > 0 && r.top < innerHeight && r.right > 0 && r.left < innerWidth ? r : null; };
+      const dots = [...document.querySelectorAll('svg.simple #nodes .node:not(.far):not(.dot-cull)>circle:not(.halo):not(.focus-ring)')].map(vis).filter(Boolean);
+      const names = [...document.querySelectorAll('#nodes .lbl, .river-name, .era-label, .council-lbl')].map(vis).filter(Boolean);
+      const ov = (a, b) => a.left < b.right && b.left < a.right && a.top < b.bottom && b.top < a.bottom;
+      const shownNames = [...document.querySelectorAll('svg.simple #nodes .node:not(.far):not(.dot-cull) .lbl')].filter(vis).length;
+      let onName = 0, onDot = 0;
+      dots.forEach((d, i) => { if (names.some(n => ov(d, n))) onName++; for (let j = i + 1; j < dots.length; j++) if (ov(d, dots[j])) onDot++; });
+      return { simple: svg.classList.contains('simple'), dots: dots.length, onName, onDot, shownNames };
+    });
+    for (const z of [0.3, 0.42, 0.49]) {
+      await page.evaluate(z => zoomAt(innerWidth / 2, innerHeight / 2, z / scale), z);
+      await frames(page);
+      const m = await measure();
+      if (!m.simple) continue;
+      assert.ok(m.dots > 0, `dots show at ${z}`);
+      assert.equal(m.onName, 0, `no dot sits on a name at ${z}`);
+      assert.equal(m.onDot, 0, `no dot sits on another at ${z}`);
+      assert.equal(m.shownNames, 0, `a dot carries no name at ${z}`);
+    }
+    await page.evaluate(() => zoomAt(innerWidth / 2, innerHeight / 2, 0.42 / scale));
+    await frames(page);
+    const tapped = await page.evaluate(() => {
+      const g = [...document.querySelectorAll('svg.simple #nodes .node:not(.far):not(.dot-cull)')].find(n => { const r = n.querySelector('circle:not(.halo)').getBoundingClientRect(); return r.width && r.top > 120 && r.top < innerHeight - 120 && r.left > 40 && r.left < innerWidth - 40; });
+      const id = g.dataset.id, aria = g.getAttribute('aria-label');
+      g.dispatchEvent(new MouseEvent('click', { bubbles: true }));
+      const n = document.querySelector(`#nodes .node[data-id="${id}"]`);
+      return { aria, simple: svg.classList.contains('simple'), house: getComputedStyle(n.querySelector('.trad-ico')).display, named: !n.classList.contains('no-name') && getComputedStyle(n.querySelector('.lbl')).display !== 'none', focused: document.activeElement === n, panel: document.getElementById('panel').classList.contains('open') };
+    });
+    assert.match(tapped.aria, /\. Zooms in to show it on the map\.$/);
+    assert.deepEqual([tapped.simple, tapped.house, tapped.named, tapped.focused, tapped.panel], [false, 'inline', true, true, false]);
+    await page.evaluate(() => zoomAt(innerWidth / 2, innerHeight / 2, 0.42 / scale));
+    await frames(page);
+    const keyed = await page.evaluate(() => {
+      const g = document.querySelector('svg.simple #nodes .node:not(.far):not(.dot-cull)');
+      g.focus(); const ring = getComputedStyle(g.querySelector('.focus-ring')).opacity;
+      g.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', bubbles: true }));
+      return { ring, simple: svg.classList.contains('simple') };
+    });
+    assert.deepEqual(keyed, { ring: '1', simple: false });
+    assert.deepEqual(errors, []);
+    await ctx.close();
+  });
+}

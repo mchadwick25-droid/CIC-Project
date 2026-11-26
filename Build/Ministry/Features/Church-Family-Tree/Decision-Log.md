@@ -6231,3 +6231,24 @@ Mark, 2026-11-25: "for the initial audio introduction to anything should be call
 **Why.** On the live check of the card site build, Alexandria's card showed neither its world narration nor its brief. The map's copy of the census (`engine/m6/census_atlas_sync.py`, run as `atlas-sync`) carried only a built world's `sources`, so the four built worlds that now show their brief ("The order of work, era 1 first, and built-world cards play their brief", 2026-11-26) had no brief to show. Its field lists also held none of the card layout fields, so a tradition's `shortDescription`, `briefSources`, `timeline`, `uncertain`, `quotationOriginals` and `modernWorks` would never have reached the map once written.
 
 **Done.** `atlas-sync` carries a built world's `longDescription` with its `sources`, and the card layout fields for every movement, built or not, removing them when the census drops them. The map now holds the brief of ten built worlds (the map uses it only for the four Mark named) and the modern works of three people. Tests in `engine/m6/tests/test_census_atlas_sync.py`. Checked in a browser on desktop and an emulated iPhone 13: Alexandria plays its world narration with its brief open below; Desert Monasticism is as before; John Chrysostom's card lists his modern works.
+
+## 2026-11-26 — Built-world cards: no Representative line at the top (Mark)
+
+**Decided (Mark, 2026-11-26).** "for the church family tree, we can remove the representitive at the top for built worlds, further dow we can have a link when we open it".
+
+**Done.** The Representative's name line and the Church in Conversation door ("coming soon" while conversations are not live) are removed from the top of every built world's map card and tree page, with the code and setting that drove them (`CONVERSATIONS_LIVE` in the map, `conversationsLive` in `Build/tools/tree_site_pages.json`). The Representative data stays in the census and `records/`. The link further down waits for Church in Conversation to reopen (Open-Gaps, "A link to meet the Representative, further down a built world's card", 2026-11-26).
+
+## 2026-11-26 — Novatianism shows the Katharoi (Mark)
+
+**Why.** Mark: "why is Novaitism not call The Catharoi, that seems to be the name of the movement in the audio".
+
+**Decided (Mark, 2026-11-26), from options: "a"**, "keep 'Novatianism' as the title and make the second line 'the Katharoi (the pure)', the way Montanism shows 'the New Prophecy'. Searching 'Katharoi' or 'Cathari' would also find it, and the brief and card match."
+
+**Done.** `novatianism`'s `name` is "Novatianism (the Katharoi)", its `shortName` still "Novatianism", as Montanism shows "Montanism (the New Prophecy)". Search finds it under "Katharoi" (its brief: "His congregations called themselves the Katharoi, the pure") and "Cathari" (Eusebius, Church History VI.43, NPNF 2/1: "call themselves Cathari", `cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml` lines 38268-38270). A search for "Cathari" shows Novatianism (the Katharoi) and the medieval Cathars / Albigensians as two results, each under its own name.
+## 2026-11-26 — River dots for traditions not yet drawn (Mark)
+
+**Decided (Mark, 2026-11-26).** "on the map when its scrolled out i think there should be dots on the river where traditions are not yet visable until scrolled in. no name just a dot that as you scroll it it changes to a house and name at the current levels". On what a tap does, from options: "a", "zoom the map in toward it until its house and name appear."
+
+**Built.** In the zoomed-out view, where only the leading traditions are drawn, every other tradition shows as a dot on its river, with no name, in the map's ink color at a fixed size on screen. At the zoom where its house and name appear today, the dot becomes them; the reveal levels are unchanged. A dot that would sit on a name or on another dot is left out, by the same collision grid the names use. Tapping or clicking a dot, or Enter on it, zooms in, centered on it, to where its house and name show, and moves the keyboard focus to it. Each dot is a button labelled with the tradition's name and "Zooms in to show it on the map", with the map's focus ring.
+
+**Result.** Measured in a browser at the zoom steps of the zoomed-out view (0.30, 0.42, 0.49), desktop and an emulated iPhone 13: no dot sits on a name or on another dot, and no dot carries a name. A tap and Enter each zoomed in and showed the house and name. Two browser tests in `Build/tools/tree_map_view.test.mjs`.
