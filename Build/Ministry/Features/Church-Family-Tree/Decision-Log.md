@@ -6089,3 +6089,7 @@ This batch only.
 **Why.** Open-Gaps 414: `epiphanius-of-salamis` showed "c. 310-403", and its `start`, `end` and `activeYear` rest only on modern editors' years, against the rule that no modern date appears on the tree. The map needs a number to place every entry.
 
 **Decided (Mark, 2026-11-26): "A".** An entry's `start`, `end` and `activeYear` place it on the map and are never shown as its dates. What a visitor sees, the entry's `dates` and the card's `datesNote`, follows Part 1's date rule: what the old sources fix, or a date so settled it is Widely Accepted, and otherwise only as roughly as the old sources allow. The card step applies this to each person, council and tradition as it is rebuilt. For Epiphanius now: "4th c.; wrote the Panarion c. 375", from his own dating of the Panarion.
+
+## 2026-11-26 — The Family line view stays, joined to the new card (Mark)
+
+**Decided (Mark, 2026-11-26): "A".** The Family line view (Open-Gaps 364) stays. In the new card layout ("The card design: one layout, and a timeline in periods", 2026-11-25), tapping the direct line at the top of a card opens it, so the card shows one step and the map the whole line. In the same site build, its forest green is replaced by a color that passes the color-vision check against the gold influence and red lines on its own, not by line weight alone.
