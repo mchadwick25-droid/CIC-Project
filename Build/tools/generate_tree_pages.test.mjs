@@ -34,6 +34,12 @@ test('a built world names no Representative and opens no door to Church in Conve
   assert.doesNotMatch(map, /class="repline"|function worldDoor|CONVERSATIONS_LIVE/);
 });
 
+test('a built world without a short description stands in its teaser, like every other card', () => {
+  const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
+  assert.ok(map.includes('h+=shortDescHTML(m.shortDescription||m.teaser);'), 'the tradition card uses the same stand-in for every tradition');
+  assert.doesNotMatch(map, /entry\.tile/);
+});
+
 test('the support page says who publishes it and that payments are not tax-deductible', () => {
   const page = fs.readFileSync(path.join(root, 'cft-website/support.html'), 'utf8');
   assert.match(page, /Published by Faithways Studio, Inc\., a Colorado public benefit corporation\./);

@@ -135964,7 +135964,7 @@ function openPanelNow(m){
   if(short)h+=`<p class="meta formal">${esc(m.name)}</p>`;
   if(KIND_LABEL[m.kind])h+=`<span class="statuspill kindpill">${esc(KIND_LABEL[m.kind])}</span>`;
   h+=`<p class="meta">${esc(plainDates(m.dates))} · ${esc((m.placeLabel&&CFTPlace.formatPlace(m,{today:true}))||m.region||'')}</p>`;
-  h+=shortDescHTML(m.shortDescription||(entry?'':m.teaser));
+  h+=shortDescHTML(m.shortDescription||m.teaser);
   if(isTraditionCard(m))h+=lineageLineHTML(m,lineageParts(m,inbound,outbound),'Show the whole family line on the map');
   const worldPlayer=()=>{
     const tw=treeWorldOf(m.id), wa=tw?tw.story:worldAudio&&worldAudio[m.id]&&worldAudio[m.id].story;
