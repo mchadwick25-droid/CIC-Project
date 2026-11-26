@@ -6178,3 +6178,17 @@ Mark, 2026-11-25: "for the initial audio introduction to anything should be call
 **Why.** Mark: "You can build a stage two kit with the cards and recording etc". The draft, every line drawn from a ruling in this log: https://claude.ai/artifact/WcGeQDk6CggaCsnStTCzZf (version 3).
 
 **Decided (Mark, 2026-11-26): "3. yes".** `Build/Ministry/Features/Church-Family-Tree/Stage-Two-Kit/Kit.md` is the Stage Two Kit: the card, the timeline, dates and names, recording, and when a piece and an era are done. It is locked like the Brief Kit (`tools/check_standard_lock.py`): it changes only with Mark's words in a new entry here. The Brief Kit is not changed.
+
+## 2026-11-26 — Batch 11 tradition briefs recorded (Mark)
+
+**Why.** Batch 11's new tradition briefs went live as text, and their old recordings no longer matched. The proposal put to Mark was "11 tradition briefs, about 41,900 characters, in two runs (about 22,000 and 20,000), each capped at 23,000 characters, Daniel's tradition settings".
+
+**Decided (Mark, 2026-11-26).**
+1. "approve to record".
+2. After hearing the sample (`apocryphal-and-pseudepigraphal-literature`): "1. a", answering "A: The sample is good, so record the other seven".
+3. "only record tradition and counsil briefs, i will look for another female voice for persons and stories". This stands beside "No person or story recordings until a new voice" (2026-11-26). No person or story audio is recorded (Open-Gaps 434).
+
+**Done.**
+- Eight briefs were recorded in Daniel's tradition settings (`Brief-Kit/Recording_Settings.md`), one brief per command, each command with `--char-cap 23000`. The sample counts as the first of three runs. In all, 30,885 characters were sent for 14,974 credits, and the balance moved by exactly that (`Build/Ministry/Operations/Audits/2026-11-26_batch-11-recording/Balance.md`).
+- The eight briefs: `apocryphal-and-pseudepigraphal-literature`, `greek-apologists-second-century`, `latin-apologists`, `marcion-marcionism`, `ebionite-nazoraean-current`, `manichaeism`, `antiochene-church-third-century`, `roman-church-third-century`. Each replaces that brief's old recording. Their paragraph times were remade by `align_tree_narration.py`.
+- The three built worlds in the proposal were not recorded: `alexandria-catechetical`, `syriac-edessa-nisibis` and `post-apostolic-house-church`. Their cards play the world's own narration and do not show the census brief, and the recording tool skips any world with its own `orientation.story`. `latin-pastoral-congregational-christianity` is the same. The built-world recordings that do not fit the card went to Mark as a list, and none is removed (Open-Gaps 435).
