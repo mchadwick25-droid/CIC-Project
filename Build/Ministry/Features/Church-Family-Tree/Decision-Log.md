@@ -6145,3 +6145,18 @@ Mark, 2026-11-25: "for the initial audio introduction to anything should be call
 **Result.** Checked in a browser on the deploy build, desktop and an emulated iPhone 13, with no page errors. Read along opens the full text on the Post-Apostolic, Church of Alexandria, Polycarp and Nicaea cards, with jumps where the brief has times. The listening steps of 2026-11-23 still pass (play, close, other card, reopen, jump, end, teaser, Who, Stop). An axe scan (WCAG 2.0 to 2.2 A and AA plus best practice) of three cards with Read along open and every fold open finds no failing rule at either width.
 
 **Not done.** No real-phone or screen-reader check (Open-Gaps 379).
+
+## 2026-11-26 — What "era 1 complete" means (Mark)
+
+**Decided (Mark, 2026-11-26).**
+1. "No c or better": a text passes at C or better.
+2. Era 1 is complete when its traditions and its people and council pass, with "the era description and all the cards": the era 1 brief (`Brief-Kit/kinds/era.md`), and every era 1 card in the new layout ("The card design: one layout, and a timeline in periods", 2026-11-25), timeline included. This lifts the hold on era cards (Open-Gaps 412) for era 1.
+3. Found (2026-11-26): 17 of era 1's 20 traditions pass (Ebionites by Mark's ruling "Batch 11: the two rebuilt stories ship", 2026-11-25); the three below are the thin ones (Open-Gaps 417). Nine of its 29 people and council pass; the 20 below are people from batches 3 to 7, graded as they stand live, which is their text from before what-and-why fix batch 1 (`Build/Ministry/Operations/Audits/2026-11-25_person-council-grades/`).
+
+## 2026-11-26 — No person or story recordings until a new voice (Mark)
+
+**Decided (Mark, 2026-11-26).** "Don't record people or stories until I find a new voice." No person brief and no documented story is recorded until Mark names a new voice for them; the person settings in `Brief-Kit/Recording_Settings.md` are not used meanwhile. Tradition, council and era briefs keep Daniel's settings ("Recording settings for tradition briefs", 2026-11-25). The three person references wait with the rest (Open-Gaps 413).
+
+## 2026-11-26 — The kit is left as it is; rulings are logged and folded in later (Mark)
+
+**Decided (Mark, 2026-11-26).** "I don't want to update the kit, it's working and ever time we edit it it starts to drift, these are logged later." The Brief Kit is not edited for the card design, the timeline, the opponents-only shape, the word "brief" or the era card. Each ruling stays in this Decision-Log. Then Mark: "You can build a stage two kit with the cards and recording etc": the rulings for what comes after a brief (the card, the timeline, dates and names, recording, and when a piece and an era are done) go into a Stage Two Kit beside the Brief Kit, drafted from these entries for Mark's approval (https://claude.ai/artifact/WcGeQDk6CggaCsnStTCzZf, version 1). Rulings for the brief itself are folded into the Brief Kit later, together, when Mark calls for it.
