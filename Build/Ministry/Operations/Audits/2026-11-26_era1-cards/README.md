@@ -6,7 +6,7 @@ Owner: the one era 1 cards thread (coordinator session `session_01JMNsSDxiDjhkPh
 
 1. **First set for Mark** (one card of each of eight kinds; table in `Header.md`). In progress: three card writers, then one independent checker, fix only what fails, one Artifact page to the coordinator, then wait.
 2. After Mark's word: the rest of era 1, kind by kind. Not started.
-3. Site code: waits for the card site build thread's handover of branch `claude/built-world-short-descriptions` through the coordinator. Not started.
+3. Site code: branch `claude/built-world-short-descriptions` handed over (coordinator, 2026-11-26) and merged into this branch at its head 9711baa7. Still to build: a field home, validator keys, atlas-sync carriage, map open functions, MENU_ORDER folds, tree pages and tests for story, connection and river cards; `timeline` for rivers. Two phone tests in `Build/tools/tree_map_view.test.mjs` already fail on main.
 4. Release: one pull request for era 1. Not started.
 
 ## Cards
