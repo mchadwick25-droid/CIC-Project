@@ -827,3 +827,48 @@ assignments:
     is noted but not assigned - same antecedent question as the Cyprian flags.
 
     '
+- row_id: anf05_hippolytus-cyprian-caius-novatian--refutation-noetus-callistus-modalist
+  work: The Refutation of All Heresies, Book IX (Noetus, Callistus, Sabellius) and X
+  author: hippolytus
+  locus: div2 3.3, Book IX
+  atlas_ids:
+  - modalist-monarchianism
+  role: context
+  confidence: assigned
+  note: 'Hippolytus''s account of Noetus''s school at Rome under Zephyrinus and Callistus, and of Sabellius.
+    Hostile and partisan (his rivalry with Callistus). Context: it describes the movement from outside,
+    so a built world draws on it only as register: etic. Assigned by the Open-Gaps 417 source research
+    (2026-11-26).'
+- row_id: anf05_hippolytus-cyprian-caius-novatian--refutation-bardesanes
+  work: The Refutation of All Heresies, on Bardesanes (VI.35, VII.31)
+  author: hippolytus
+  locus: div2 3.3; Book VI, Chapter XXX (div4 iii.iii.iv.xxxi, about raw line 9602) and Book VII
+  atlas_ids:
+  - bardaisanite-current
+  role: context
+  confidence: assigned
+  note: 'Hippolytus names ''Bardesanes the Armenian'' with the Valentinians of the Italian school. Context:
+    it describes the movement from outside, so a built world draws on it only as register: etic. Assigned
+    by the Open-Gaps 417 source research (2026-11-26).'
+- row_id: anf05_hippolytus-cyprian-caius-novatian--against-noetus-modalist
+  work: Against the Heresy of One Noetus
+  author: hippolytus
+  locus: div2 3.4, 'Dogmatical and Historical' - Against the Heresy of One Noetus
+  atlas_ids:
+  - modalist-monarchianism
+  role: context
+  confidence: assigned
+  note: 'The census''s named source for this movement: Noetus''s teaching quoted in order to answer it,
+    and the presbyters of Smyrna examining him. Context: it describes the movement from outside, so a
+    built world draws on it only as register: etic. Assigned by the Open-Gaps 417 source research (2026-11-26).'
+- row_id: anf05_hippolytus-cyprian-caius-novatian--novatian-trinity-modalist
+  work: 'A Treatise of Novatian Concerning the Trinity: the chapters against the Sabellians'
+  author: novatian
+  locus: div2 6.3
+  atlas_ids:
+  - modalist-monarchianism
+  role: context
+  confidence: assigned
+  note: 'Novatian''s answer to those who make Christ the Father; its Latin is novatian_de-trinitate-lat_fausset1909.
+    Context: it describes the movement from outside, so a built world draws on it only as register: etic.
+    Assigned by the Open-Gaps 417 source research (2026-11-26).'

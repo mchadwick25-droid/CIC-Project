@@ -205,3 +205,16 @@ assignments:
     confidence: provisional
     note: >
       Rome dealing with an Arian Lombard king through his Catholic queen.
+  - row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--dissertation-ephrem-on-bardaisan
+    work: 'Introductory Dissertation, Part I (Ephraim the Syrian): Ephrem''s verses on a book of Bardaisan,
+      and Harmonius''s hymns'
+    author: ephraim
+    locus: div3 iii.iii.ii, about raw lines 11186-11234
+    atlas_ids:
+    - bardaisanite-current
+    role: context
+    confidence: assigned
+    note: 'The editor''s dissertation quotes Ephrem''s verses beginning ''I have chanced upon a book of
+      Bardaisan'' and tells of Harmonius''s hymns; the editor''s own remarks there are a modern guide, not
+      a witness. Context: it describes the movement from outside, so a built world draws on it only as register:
+      etic. Assigned by the Open-Gaps 417 source research (2026-11-26).'

@@ -1,0 +1,14 @@
+source_file: dionysius-alexandria_letters-and-treatises_feltoe1918.txt
+assignments:
+  - row_id: dionysius-alexandria_letters-and-treatises_feltoe1918--sabellian-letters
+    work: 'Dionysius of Alexandria, Letters and Treatises (Feltoe''s English, 1918): the Sabellian letters
+      and the Refutation and Defence'
+    author: dionysius-alexandria
+    locus: introduction from OCR line 569; the Refutation and Defence from about 4217 (add 11)
+    atlas_ids:
+    - modalist-monarchianism
+    role: context
+    confidence: assigned
+    note: 'Feltoe''s English of the same fragments, a cross-check on our renderings from the Greek. Context:
+      it describes the movement from outside, so a built world draws on it only as register: etic. Assigned
+      by the Open-Gaps 417 source research (2026-11-26).'

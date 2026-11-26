@@ -68,3 +68,14 @@ assignments:
     inside a tradition work; check the sender before quoting any letter as Basil''s own voice.
 
     '
+- row_id: npnf208_basil-letters-select-works--letters-sabellians
+  work: 'Basil, Letters: the passages on Sabellius and the Sabellians'
+  author: basil
+  locus: div1 9, the Letters (Sabellius named about 29 times in the volume)
+  atlas_ids:
+  - modalist-monarchianism
+  role: context
+  confidence: assigned
+  note: 'Basil''s fourth-century use of Sabellius''s name for those who teach one person in three names.
+    Context: it describes the movement from outside, so a built world draws on it only as register: etic.
+    Assigned by the Open-Gaps 417 source research (2026-11-26).'

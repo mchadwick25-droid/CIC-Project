@@ -524,3 +524,36 @@ assignments:
     The 4th-century foundation of the Aksumite church in the only contemporary document;
     antecedent, provisional on the corpus-map rule until the entry has own-voice sources
     that argue from it.
+- row_id: npnf204_athanasius-select-works-letters--de-sententia-dionysii
+  work: Defence of Dionysius (De Sententia Dionysii)
+  author: athanasius
+  locus: div1 'Defence of Dionysius. (De Sententia Dionysii.)', about raw line 29164
+  atlas_ids:
+  - modalist-monarchianism
+  role: context
+  confidence: assigned
+  note: 'Athanasius keeps Dionysius of Alexandria''s letters against the Sabellians and Dionysius of Rome''s
+    complaint. Context: it describes the movement from outside, so a built world draws on it only as register:
+    etic. Assigned by the Open-Gaps 417 source research (2026-11-26).'
+- row_id: npnf204_athanasius-select-works-letters--de-decretis-dionysius-of-rome
+  work: 'Defence of the Nicene Definition (De Decretis) 26: Dionysius of Rome against the Sabellians'
+  author: athanasius
+  locus: div1 14 - De Decretis, sections 25-27
+  atlas_ids:
+  - modalist-monarchianism
+  role: context
+  confidence: assigned
+  note: 'Dionysius of Rome''s letter, quoted by Athanasius, condemning the Sabellians and those who divide
+    God into three. Context: it describes the movement from outside, so a built world draws on it only
+    as register: etic. Assigned by the Open-Gaps 417 source research (2026-11-26).'
+- row_id: npnf204_athanasius-select-works-letters--de-synodis-sirmium
+  work: 'On the Councils of Ariminum and Seleucia (De Synodis): the creeds of Sirmium'
+  author: athanasius
+  locus: div1 'On the Councils of Ariminum and Seleucia. (De Synodis.)', about raw line 55952; the creeds
+    made at Sirmium
+  atlas_ids:
+  - danubian-latin-christianity
+  role: context
+  confidence: assigned
+  note: Athanasius gives the creeds made at Sirmium, the Danube city's part in the Homoian controversy.
+    Assigned by the Open-Gaps 417 source research (2026-11-26).

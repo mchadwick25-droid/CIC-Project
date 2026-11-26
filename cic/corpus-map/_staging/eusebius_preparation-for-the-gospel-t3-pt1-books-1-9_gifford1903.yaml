@@ -1,0 +1,12 @@
+source_file: eusebius_preparation-for-the-gospel-t3-pt1-books-1-9_gifford1903.txt
+assignments:
+  - row_id: eusebius_preparation-for-the-gospel-t3-pt1-books-1-9_gifford1903--preparation-vi-10-bardesanes
+    work: 'Preparation for the Gospel VI.10 (Gifford''s English): the extract from Bardesanes'
+    author: eusebius
+    locus: Book VI, chapter 10, from OCR line 17920 (add 11)
+    atlas_ids:
+    - bardaisanite-current
+    role: tradition
+    confidence: assigned
+    note: Gifford's English of the Greek extract, a cross-check on our rendering from the Greek in gifford1903
+      tomus I. Assigned by the Open-Gaps 417 source research (2026-11-26).

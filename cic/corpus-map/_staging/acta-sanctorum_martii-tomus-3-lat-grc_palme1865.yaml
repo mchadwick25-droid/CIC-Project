@@ -9,3 +9,14 @@ assignments:
   role: tradition
   confidence: provisional
   note: 'Stephen the Sabaite''s own account of the killings at Mar Saba in 797 (the commentary, OCR about 50375), in Latin from a Greek manuscript.'
+- row_id: acta-sanctorum_martii-tomus-3-lat-grc_palme1865--sirmium-martyrs-irenaeus-montanus
+  work: 'Acta Sanctorum, March III: S. Irenaeus, bishop of Sirmium (25 March), and SS. Montanus the presbyter,
+    Maxima his wife and forty others, martyrs at Sirmium in Pannonia'
+  author: acta-sanctorum
+  locus: Irenaeus about OCR lines 143100-143700; Montanus and Maxima from about 157598 (add 12)
+  atlas_ids:
+  - danubian-latin-christianity
+  role: tradition
+  confidence: assigned
+  note: The Bollandists' dossiers on two Sirmium martyrdoms under Diocletian, with the Latin acts and
+    the martyrology notices. Latin fair, Greek poor. Assigned by the Open-Gaps 417 source research (2026-11-26).

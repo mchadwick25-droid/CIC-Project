@@ -57,3 +57,14 @@ assignments:
     confidence: assigned
     note: >
       The expulsion that founded the school of Nisibis, in one line, from Edessa.
+  - row_id: chronicle-of-edessa_cowper--bardaisan-birth
+    work: 'The Chronicle of Edessa: the birth of Bardaisan'
+    author: chronicle-of-edessa
+    locus: the entry for the year 465 of the Greeks
+    atlas_ids:
+    - bardaisanite-current
+    role: context
+    confidence: assigned
+    note: 'The sixth-century Edessene chronicle''s dated notice of Bardaisan''s birth. Context: it describes
+      the movement from outside, so a built world draws on it only as register: etic. Assigned by the Open-Gaps
+      417 source research (2026-11-26).'

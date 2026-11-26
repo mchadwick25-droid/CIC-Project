@@ -1,0 +1,16 @@
+source_file: dionysius-alexandria_letters-and-other-remains-grc_feltoe1904.txt
+assignments:
+  - row_id: dionysius-alexandria_letters-and-other-remains-grc_feltoe1904--sabellian-letters-grc
+    work: Dionysius of Alexandria, letters on the Sabellians in the Pentapolis and the Refutation and Defence,
+      Greek (Feltoe 1904)
+    author: dionysius-alexandria
+    locus: Sabellius in the Pentapolis from about OCR line 5719; the letters to Dionysius of Rome and the
+      Refutation and Defence about 16877-17400 (add 12)
+    atlas_ids:
+    - modalist-monarchianism
+    role: context
+    confidence: assigned
+    note: 'The bishop of Alexandria''s own words on the Sabellian teaching in the Pentapolis, and on his
+      quarrel with Dionysius of Rome over how to answer it, kept by Eusebius, Athanasius and Basil. Context:
+      it describes the movement from outside, so a built world draws on it only as register: etic. Assigned
+      by the Open-Gaps 417 source research (2026-11-26).'

@@ -21,3 +21,14 @@ assignments:
       Maximinus's own speeches in the debate and the anonymous Arian sermon, embedded in
       Augustine's replies; pre-window (c. 427), so context and provisional. The containing
       works are Augustine's.
+  - row_id: augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886--de-haeresibus-36-41
+    work: Augustine, De haeresibus 36 (Noetiani) and 41 (Sabelliani sive Patripassiani)
+    author: augustine
+    locus: De haeresibus, the list at about file line 1149; the entries at about 1751
+    atlas_ids:
+    - modalist-monarchianism
+    role: context
+    confidence: assigned
+    note: 'Augustine says the Noetians are hard to find but the Sabellians are ''in ore multorum''. Context:
+      it describes the movement from outside, so a built world draws on it only as register: etic. Assigned
+      by the Open-Gaps 417 source research (2026-11-26).'

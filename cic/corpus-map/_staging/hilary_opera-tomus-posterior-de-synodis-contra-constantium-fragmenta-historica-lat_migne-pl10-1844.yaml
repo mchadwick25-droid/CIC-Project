@@ -40,3 +40,13 @@ assignments:
       A Western bishop's open attack on a Christian emperor's church policy, written after
       Ariminum and Constantinople 360: the imperial-juridical world's central question put
       by a contemporary opponent. Context, not that world's own voice.
+  - row_id: hilary_opera-tomus-posterior-de-synodis-contra-constantium-fragmenta-historica-lat_migne-pl10-1844--de-synodis-sirmium
+    work: 'Hilary, De Synodis: the creeds of Sirmium and their anathemas'
+    author: hilary_poit
+    locus: De Synodis from file line 38488
+    atlas_ids:
+    - danubian-latin-christianity
+    role: context
+    confidence: assigned
+    note: Hilary gives the creeds made at Sirmium in Latin with his comment. Assigned by the Open-Gaps 417
+      source research (2026-11-26).
