@@ -45,7 +45,7 @@ The list in `Card_Edits.md` is right in what it lists, with three corrections:
   - floorNote: "What they confessed is part of the raw material the creed was later drawn from, not a departure from it" (a judgment, and a "not X but Y" turn).
   - sourcing: "Individual, first-person voice stays thin throughout". This is a judgment. Ignatius, Polycarp, Hermas and Justin all write in the first person.
 
-The rest stand as listed. "c. 107-117" (voices[0], sources[0]) is not contradicted: Jerome sets Ignatius's journey to the beasts in Trajan's eleventh year (jerome-chron 42194-42200). "c. 165" for Justin agrees with the live justin-martyr card.
+The rest stand as listed. "c. 107-117" (voices[0], sources[0]) is not contradicted: Jerome sets Ignatius's journey to the beasts in Trajan's eleventh year (jerome-chron 42193-42243). "c. 165" for Justin agrees with the live justin-martyr card.
 
 ## FIX
 
@@ -84,11 +84,11 @@ The rest stand as listed. "c. 107-117" (voices[0], sources[0]) is not contradict
   - Old: "recounting Polycarp's death around 155, written partly"
   - New: "recounting Polycarp's death, written partly"
 
-**5. `voices[6]` (whose word ministrae is).** Pliny writes "ex duabus ancillis, quae ministrae dicebantur" (mirbt 2795-2796), "who were called ministrae". The card makes it his own word for an office. The outline's Do not say holds to "who were called".
+**5. `voices[6]` (whose word ministrae is).** Pliny writes "ex duabus ancilhs, quae ministrae dicebantur" (mirbt 2795-2796, OCR "ancilhs" for ancillis), "who were called ministrae". The card makes it his own word for an office. The outline's Do not say holds to "who were called".
 - Old: "are named only by their Roman interrogator's own word for their office — never by their own names."
 - New: "are named in their Roman interrogator's letter only by what they were called — never by their own names."
 
-**6. `sources[2].note`, the Didache (contradicted by anf07 13022-13027).** The manual says "every prophet that speaketh in the Spirit ye shall neither try nor judge". The three days and the money test are given for the apostle (anf07 13018-13022).
+**6. `sources[2].note`, the Didache (contradicted by anf07 13022-13024).** The manual says "every prophet that speaketh in the Spirit ye shall neither try nor judge". The three days and the money test are given for the apostle (anf07 13018-13022).
 - Old: "and test the traveling apostles and prophets who come to them: one who stays three days, or asks for money, is a false prophet."
 - New: "and tells them how to receive the traveling apostles and prophets who come to them: an apostle who stays three days, or asks for money, is a false prophet."
 
