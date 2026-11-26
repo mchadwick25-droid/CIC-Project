@@ -37,9 +37,7 @@ const docStoryManifest = fs.existsSync(docStoryManifestPath) ? JSON.parse(fs.rea
 
 // Read census data
 const census = JSON.parse(fs.readFileSync(censusPath, 'utf-8'));
-const anyWorldOpen = census.movements.some(m => m.publicOpen);
 const siteContent = JSON.parse(fs.readFileSync(path.join(rootDir, 'Build/tools/tree_site_pages.json'), 'utf-8'));
-const conversationsLive = siteContent.conversationsLive === true || process.argv.includes('--conversations-live');
 
 const PAGE_STYLE = `<style>
 :root{
@@ -668,9 +666,7 @@ const paragraphs = text => text.split('\n').map(p => p.trim()).filter(p => p).ma
 function generatePageHtml(movement) {
   const isPerson = movement.kind === 'person';
   const isCouncil = movement.kind === 'major-council';
-  const doorWorld = isCouncil ? null : isPerson ? (movement.toldWithin ? movementMap.get(movement.toldWithin) : null) : movement;
   const parts = cardParts(movement);
-  const isBuilt = !!doorWorld && builtWorlds.has(doorWorld.id);
   const narrated = hasNarration(movement);
 
   // Get description for meta tag - use sourcing as fallback
@@ -721,15 +717,6 @@ ${siteHeader('../')}
   ${parts.short ? `<p class="short-desc">${escapeHtml(parts.short)}</p>` : ''}
   ${directLineHtml(movement)}
 
-  ${isBuilt && doorWorld.publicOpen && conversationsLive ? `
-  <div class="action-links">
-    <a href="https://churchinconversation.com/traditions/${doorWorld.id}.html">Meet ${escapeHtml(doorWorld.entry?.representativeName || 'this tradition')} on Church in Conversation</a>
-  </div>
-  ` : isBuilt && doorWorld.publicOpen ? `
-  <p class="door-quiet">Conversations with ${escapeHtml(doorWorld.entry?.representativeName || 'this tradition')} are coming soon to Church in Conversation.</p>
-  ` : isBuilt && !anyWorldOpen ? `
-  <p class="door-quiet"><a href="https://churchinconversation.com/">Church in Conversation</a>, from the same team.</p>
-  ` : ''}
 
   <section>
     <h2>About This ${isCouncil ? 'Council' : isPerson ? 'Person' : 'Movement'}</h2>

@@ -173,7 +173,6 @@ svg.who-on #river-names,svg.story-on #river-names{opacity:.2}
 #panel .conn-sub{font-variant:small-caps;font-size:.78rem;margin:.7rem 0 .1rem}
 #panel .conn-rest summary{cursor:pointer;font-weight:700;margin:.8rem 0 .2rem}
 #panel .edge .k{color:var(--tyrian);font-variant:small-caps;font-size:.8125rem}
-#panel .repline{font-size:.95rem;margin:0 0 .5rem}
 #panel .act{display:block;width:100%;margin:0 0 .9rem;padding:.6rem .9rem;
   font:600 .88rem/1.3 "Alegreya Sans",sans-serif;color:var(--vellum);
   background:var(--tyrian);border:none;border-radius:3px;cursor:pointer;text-align:center;text-decoration:none}
@@ -135763,16 +135762,6 @@ panelBody.addEventListener('toggle',ev=>{
   if(!a)return;
   if(!d.open){a.pause();try{a.currentTime=0;}catch(e){}}
 },true);
-const CONVERSATIONS_LIVE=false;
-const ANY_WORLD_OPEN=DATA.movements.some(m=>m.publicOpen);
-function worldDoor(m){
-  const entry=m.entry;
-  if(!entry)return '';
-  if(m.publicOpen&&!CONVERSATIONS_LIVE)return `<p class="door-quiet">Conversations with ${esc(entry.representativeName)} are coming soon to Church in Conversation.</p>`;
-  if(m.publicOpen)return `<a class="act" href="https://churchinconversation.com/traditions/${encodeURIComponent(m.id)}.html">Meet ${esc(entry.representativeName)} on Church in Conversation</a>`;
-  if(!ANY_WORLD_OPEN)return `<p class="door-quiet"><a href="https://churchinconversation.com/">Church in Conversation</a>, from the same team.</p>`;
-  return '';
-}
 function hasContent(v){return !!v&&v.trim()!=='-';}
 function sectionSources(list){
   if(!list||!list.length)return '';
@@ -135974,7 +135963,6 @@ function openPanelNow(m){
   let h=`<h2 id="panelTitle">${esc(short||m.name)}</h2>`;
   if(short)h+=`<p class="meta formal">${esc(m.name)}</p>`;
   if(KIND_LABEL[m.kind])h+=`<span class="statuspill kindpill">${esc(KIND_LABEL[m.kind])}</span>`;
-  if(entry)h+=`<p class="repline"><b>${esc(entry.representativeName)}</b> — <i>${esc(entry.worldName)}</i>${entry.subtitle?` · ${esc(entry.subtitle)}`:''}</p>`+worldDoor(m);
   h+=`<p class="meta">${esc(plainDates(m.dates))} · ${esc((m.placeLabel&&CFTPlace.formatPlace(m,{today:true}))||m.region||'')}</p>`;
   h+=shortDescHTML(m.shortDescription||(entry?'':m.teaser));
   if(isTraditionCard(m))h+=lineageLineHTML(m,lineageParts(m,inbound,outbound),'Show the whole family line on the map');

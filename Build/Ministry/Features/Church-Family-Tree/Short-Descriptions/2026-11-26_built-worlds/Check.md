@@ -182,3 +182,44 @@ The spelling is American throughout ("neighbors"). No sentence carries a date. N
    - "CE" appears on some lines and not others.
    - Hyphens and en dashes are mixed, which makes `Mid-4th-mid-5th c.` and `Mid-3rd c.-430` hard to read. `Mid-4th to mid-5th c.` and `Mid-3rd c.–430` would be clearer.
 5. **Orientation text that conflicts with the new dates line.** The world pages' `orientation.story[0]` still opens on the modern frame years the new dates lines remove: "From about 70 to 200 CE" (pahc), "From about 150 to 400 CE" (alx), "Between about 320 and 430" (desert), "From about 325 to 394" (cappadocian), "between about 360 and 450 CE" (gallic), "between 1519 and 1650" (rzg), "from about 246 to 430" (lpc). A visitor would see one span on the card and another on the world page. That text is outside this batch.
+
+---
+
+## Card 1, Mark's wording (2026-11-26): FIX
+
+Mark's wording: "Christians gathered on the Lord's day and gave thanks over bread and a cup. Their letters greeted one another household by household, and messengers carried them between the churches."
+
+Below, the "Ignatius text" is `cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml` and the "Didache text" is `cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml`.
+
+**Each claim:**
+
+- **Gathered on the Lord's day: holds.**
+  - Didache 14 says "But every Lord's day do ye gather yourselves together, and break bread, and give thanksgiving" (Didache text, around line 13089).
+  - Justin says "on the day called Sunday, all who live in cities or in the country gather together to one place" (Ignatius text, line 16503).
+  - Brief ¶2 and ¶6 say the same.
+- **Gave thanks over bread and a cup: holds.**
+  - Brief ¶2 says "gave thanks over bread and a cup on the Lord's day".
+  - Story[4] says "Giving thanks over bread and cup stood at the center of these gatherings".
+  - Justin says "bread and wine and water are brought, and the president ... offers prayers and thanksgivings" (Ignatius text, line 16503 onward).
+- **Greeted household by household: does not hold as worded.** In the held letters, one writer greets the households of the church he writes to.
+  - Ignatius writes to Smyrna: "I salute the families of my brethren, with their wives and children ... I salute the house of Tavias" (Smyrnaeans 13, Ignatius text, line 8503 onward).
+  - He writes to Polycarp: "I salute all by name, and in particular the wife of Epitropus, with all her house and children" (Polycarp 8, line 8869).
+  - Brief ¶5 says the same: "He greeted households".
+  - Nothing held shows churches' letters greeting *one another* household by household. "Their letters greeted one another" says either that the letters greeted each other, or that churches greeted each other's households. The sources support neither.
+  - Brief ¶2's own phrase "their letters greet one another household by household" carries the same slip. It is outside this card, but it should be noted for the brief's next edit.
+- **Messengers carried the letters between the churches: holds.**
+  - Ignatius asks Polycarp to write to "the adjacent Churches ... such as are able to do so sending messengers, and the others transmitting letters through those persons who are sent by thee" (Polycarp 8, Ignatius text, line 8856 onward).
+  - Story[3] says Polycarp forwarded Ignatius's letters to the Philippians.
+  - Brief ¶2 says "Letters and messengers carried between their churches".
+  - One problem: in Mark's wording, "them" could refer back to "one another", so it should name the letters.
+
+**Fix (minimal):**
+
+- Field: `shortDescription`.
+- Old: `Their letters greeted one another household by household, and messengers carried them between the churches.`
+- New: `Their letters greeted a church's households by name, and messengers carried the letters between churches.`
+- Evidence: Smyrnaeans 13 and Polycarp 8, quoted above; brief ¶5, "He greeted households"; Polycarp 8 on the messengers; story[3].
+
+**Final:** Christians gathered on the Lord's day and gave thanks over bread and a cup. Their letters greeted a church's households by name, and messengers carried the letters between churches. (29 words; FK 7.6, FRE 66.7)
+
+Mark's reason holds: no held source says where they met.
