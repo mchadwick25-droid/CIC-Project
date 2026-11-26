@@ -1,9 +1,9 @@
 {
- "shortDescription": "In Phrygia, in the uplands of what is now western Turkey, Christians followed three prophets, Montanus, Priscilla and Maximilla, whose words they called the New Prophecy. They held that the Holy Spirit Jesus had promised was speaking through these prophets, calling the church to a stricter life.",
+ "shortDescription": "In Phrygia, in what is now western Turkey, Christians followed the prophets Montanus, Priscilla and Maximilla. They held that the Holy Spirit spoke through them, and called their words the New Prophecy.",
  "timeline": [
   {
    "when": "2nd century",
-   "headline": "Montanus, then Priscilla and Maximilla, begin to prophesy in Phrygia",
+   "headline": "Montanus, then Priscilla and Maximilla, begin to prophesy on the borders of Phrygia",
    "witness": "The church elder whose account Eusebius copied, an opponent writing while the movement was new",
    "lines": [
     {
@@ -92,7 +92,7 @@
   },
   {
    "when": "2nd century",
-   "headline": "Maximilla dies, and the end she foretold does not come",
+   "headline": "Maximilla dies, and her opponents say what she foretold has not come",
    "lines": [
     {
      "when": "date unknown",
@@ -158,7 +158,7 @@
     },
     {
      "when": "date unknown",
-     "text": "In On the Soul, he tells of a sister in his church who sees visions during the Sunday service, reports them after the people have gone, and has every one examined.",
+     "text": "In On the Soul, he tells of a sister in his church who sees visions during the Sunday service, reports them after the people have gone, and every one is examined.",
      "reference": "Tertullian, On the Soul 9, cic/texts/anf03_tertullian.xml lines 15802-15820"
     },
     {
@@ -196,7 +196,7 @@
     },
     {
      "when": "\"some time back\", before Firmilian's letter to Cyprian",
-     "text": "Bishops gathered at Iconium in Phrygia, Firmilian among them, refuse the baptism of the Cataphrygians, holding that they have neither the Father, nor the Son, nor the Holy Spirit.",
+     "text": "Firmilian writes that the Cataphrygians, who claim new prophecies, can have neither the Father nor the Son. Bishops gathered at Iconium in Phrygia, he among them, had confirmed that heretics cannot baptize.",
      "reference": "Firmilian, Letter to Cyprian, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 39619-39640"
     }
    ]
@@ -223,7 +223,7 @@
     },
     {
      "when": "\"the twelfth year of Valentinian and Valens and the eighth of Gratian\"",
-     "text": "Epiphanius writes that Pepuza lies deserted and razed, yet the believers still go there for their rites, saying the Jerusalem from above comes down there. He finds them in Cappadocia, Galatia, Phrygia, Cilicia, and most of all in Constantinople.",
+     "text": "Epiphanius writes that Pepuza lies deserted and razed, yet the believers still go there for their rites, saying the Jerusalem from above comes down there. He says they are found in Cappadocia, Galatia, Phrygia, Cilicia, and most of all in Constantinople.",
      "reference": "Epiphanius, Panarion 48.2 and 48.14, cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt lines 17224-17228, 18466, 18512-18517; cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt lines 3032-3037"
     },
     {
@@ -252,16 +252,16 @@
    "lines": [
     {
      "when": "\"to the present day\"",
-     "text": "Everywhere but Phrygia and the lands around it, they suffer what other heretics suffer. There they have been many since the time of Montanus, and still are.",
+     "text": "Sozomen writes that under Constantine's law they suffered what other heretics suffered, everywhere but in Phrygia and the lands around it. There they had been many since the time of Montanus, and still are in his own day.",
      "reference": "Sozomen, Church History II.32, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 30574-30577"
     },
     {
-     "when": "\"to the present day\"",
+     "when": "in Sozomen's own day",
      "text": "They keep Easter by the cycles of the sun.",
      "reference": "Sozomen, Church History VII.18, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 41731-41736"
     },
     {
-     "when": "\"to the present day\"",
+     "when": "in Sozomen's own day",
      "text": "Among the Montanists of Phrygia, a bishop serves even a village.",
      "reference": "Sozomen, Church History VII.19, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 41786-41790"
     }

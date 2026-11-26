@@ -3,9 +3,9 @@
  "kind": "river",
  "lane": 4,
  "title": "Africa",
- "dates": "Late in the second century to 312",
+ "dates": "From the first bishops Eusebius names to 312",
  "datesNote": "The map places the river's first tradition from 150, a placing year only. Eusebius lists bishops of Alexandria from Annianus, Mark's successor, in the eighth year of Nero, and gives Mark's founding as report. The era's end in 312 is the map's.",
- "shortDescription": "In this era the Africa river carries the church of Alexandria in Egypt. It holds the city's teachers, from Pantaenus and Clement to Origen, and its bishops through persecution and plague, down to Peter, beheaded in the Great Persecution.",
+ "shortDescription": "In this era the Africa river carries the church of Alexandria in Egypt. It follows the city's school of Christian teachers, among them Clement and Origen, and its bishops through years of persecution and plague.",
  "directLine": {
   "parent": {
    "lane": 0,
@@ -99,7 +99,7 @@
      "reference": "Eusebius, Church History VI.35, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 37071-37080"
     },
     {
-     "when": "under Decius",
+     "when": "a year before the emperor's decree",
      "text": "Dionysius writes that at Alexandria the persecution began a whole year before the emperor's decree.",
      "reference": "Eusebius, Church History VI.41.1, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 37764-37809"
     },
@@ -143,10 +143,9 @@
      "reference": "Eusebius, Church History VIII.13.6, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 44790-44792"
     },
     {
-     "when": "date unknown",
+     "when": "in the ninth year of the persecution",
      "text": "Peter, bishop of Alexandria, is seized without warning and beheaded, as if by order of Maximinus, and many bishops of Egypt die with him.",
-     "reference": "Eusebius, Church History IX.6.2, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 47990-47999; VIII.13.7, lines 44798-44802",
-     "note": "The census card of Peter gives 311."
+     "reference": "Eusebius, Church History IX.6.2, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 47990-47999; VIII.13.7, lines 44798-44802; VII.32.31, lines 43261-43268"
     }
    ]
   }

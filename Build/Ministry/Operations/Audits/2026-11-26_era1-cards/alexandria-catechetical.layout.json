@@ -1,4 +1,5 @@
 {
+ "shortDescription": "In Alexandria, teachers led newcomers to the faith through Scripture, and philosophers came to study with Origen. He taught that Scripture has a plain story and deeper meanings beneath it.",
  "timeline": [
   {
    "when": "About 180",
@@ -99,7 +100,7 @@
    ]
   },
   {
-   "when": "From the reign of Severus to about 231",
+   "when": "From the reign of Severus until Origen leaves",
    "headline": "Origen's classroom fills, and he teaches Scripture in three senses",
    "witness": "Eusebius of Caesarea, Church History, writing about a century later",
    "lines": [
@@ -131,7 +132,7 @@
     },
     {
      "when": "date unknown",
-     "text": "Porphyry, a pagan philosopher who wrote against the Christians, charges that such readers boast that the plain words of Moses are riddles, and that Origen took the figurative reading of the Greek mysteries and applied it to the Jewish Scriptures. Eusebius answers that Porphyry lies when he says Origen came over from the pagans.",
+     "text": "Porphyry, a pagan philosopher who wrote against the Christians, charges that some readers of the Jewish Scriptures boast that the plain words of Moses are riddles, and that Origen took the figurative reading of the Greek mysteries and applied it to the Jewish Scriptures. Eusebius answers that Porphyry lies when he says Origen came over from the pagans.",
      "reference": "Eusebius, Church History VI.19.4-10, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 34974-34982, 35122-35124, 35189-35198",
      "note": "An enemy's charge."
     }
@@ -236,13 +237,13 @@
   },
   {
    "when": "Much later",
-   "headline": "The Coptic church remembers the teachers in two minds",
+   "headline": "A later Coptic history honors Dionysius and condemns Origen's books",
    "lines": [
     {
      "when": "date unknown",
      "text": "The History of the Patriarchs says Heraclas gave the direction of studies at Alexandria to Dionysius, and tells how Dionysius, a pagan philosopher, read Paul's letters and was baptized. It calls Origen's books full of lies.",
      "reference": "History of the Patriarchs of the Coptic Church of Alexandria, part 1, cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt lines 10942-10943, 11706-11720, 11884-11892",
-     "note": "A history compiled long afterward; the conversion is legend."
+     "note": "A history compiled long afterward."
     }
    ]
   }

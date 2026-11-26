@@ -111,7 +111,7 @@
         {
           "when": "The great Sabbath",
           "text": "In the stadium the proconsul promises to free him if he will swear and revile Christ. He answers that he has served Christ eighty-six years.",
-          "reference": "Martyrdom of Polycarp 9"
+          "reference": "Martyrdom of Polycarp 9, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 3988-3990"
         },
         {
           "when": "The great Sabbath",
@@ -131,8 +131,9 @@
         },
         {
           "when": "The great Sabbath",
-          "text": "Since the fire does not consume his body, an executioner pierces him with a dagger.",
-          "reference": "Martyrdom of Polycarp 16"
+          "text": "The church says the fire does not consume his body, and an executioner pierces him with a dagger.",
+          "reference": "Martyrdom of Polycarp 16",
+          "note": "A wonder, in the church's own report."
         },
         {
           "when": "After his death",
@@ -244,7 +245,6 @@
     "The visit to Rome. No source gives how long before his death it came; Eusebius tells it first, and the modern dates in McGiffert's notes would put it only a little before. Irenaeus's words on what Polycarp kept do not name the feast, and he does not give it as the reason for the trip; Eusebius does both. Irenaeus also says the two differed a little on other things. His words that Anicetus conceded the eucharist to Polycarp may mean that Polycarp presided or only that he took part; the story leaves them out. From the visit to Victor's accession, Eusebius's own figures give about twenty-one to thirty-two years, and the modern dates in McGiffert's notes about thirty-five.",
     "The letter. It survives, but not whole in Greek, and the Library holds no Greek of it in readable form, so its modern English follows the English translation alone. Irenaeus says he wrote other letters, to neighboring churches and to some of the brethren; only this one is held. The letter as printed leaves it unclear whether Ignatius was still alive when it was written.",
     "The modern English of the answer follows the Greek, my king, the one who saved me, as Eusebius's translator has it, \"my king who saved me\", where the Ante-Nicene English prints \"my King and my Saviour\". Of the yearly gathering it likewise follows the Greek word birthday, where that English prints anniversary, and the athletes' word for those who have competed, where it prints finished their course.",
-    "Marcion. Irenaeus tells of the meeting but not where it happened. Jerome, writing long after, puts it at Rome, at the time of the visit to Anicetus.",
-    "The twelve martyrs. His church calls him the twelfth martyred in Smyrna, counting those of Philadelphia. Eusebius has him die with eleven from Philadelphia, which makes all the others Philadelphians."
+    "Marcion. Irenaeus tells of the meeting but not where it happened. Jerome, writing long after, puts it at Rome, at the time of the visit to Anicetus."
   ]
 }

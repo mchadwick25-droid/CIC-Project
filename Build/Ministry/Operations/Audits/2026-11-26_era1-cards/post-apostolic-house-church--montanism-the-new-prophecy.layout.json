@@ -5,7 +5,7 @@
  "dates": "The second century, while the New Prophecy was new",
  "datesNote": "No old source gives a year for the meetings. The anonymous writer says Montanus began when Gratus was proconsul of Asia, and gives no year. He wrote more than thirteen years after Maximilla's death.",
  "place": "The Roman province of Asia, in what is now western Turkey",
- "shortDescription": "In the Roman province of Asia, the faithful met often, in many places, to examine the sayings of the New Prophecy's prophets. They judged the sayings profane, put the prophets' followers out of the church and barred them from communion.",
+ "shortDescription": "Christians in the Roman province of Asia met often, in many places, to test the sayings of the New Prophecy, a movement of prophets from Phrygia. They judged the sayings profane and put its followers out of the church.",
  "directLine": {
   "from": {
    "id": "post-apostolic-house-church",
@@ -28,7 +28,7 @@
    "lines": [
     {
      "when": "date unknown",
-     "text": "At Ardabau, a village of Mysia on the border of Phrygia, a recent convert named Montanus falls into what the writer calls a frenzy and ecstasy, and prophesies against the custom handed down in the church.",
+     "text": "At Ardabau, a village of Mysia on the border of Phrygia, the writer has heard, a recent convert named Montanus, driven, he says, by a desire to lead, falls into what he calls a frenzy and ecstasy, and prophesies against the custom handed down in the church.",
      "reference": "Eusebius, Church History V.16.7, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 29577-29592, 29617-29629"
     },
     {
@@ -157,7 +157,7 @@
  ],
  "legacyAndToday": [
   "The case against them was kept because Eusebius copied it into his Church History (HE V.16, lines 29432-29451).",
-  "Jerome later drew on the same writers: Apollonius, he says, wrote \"a notable and lengthy volume\" against Montanus, Prisca and Maximilla (NPNF 2.3, lines 40300-40302)."
+  "Jerome later names another writer against them: Apollonius, he says, wrote \"a notable and lengthy volume\" against Montanus, Prisca and Maximilla (NPNF 2.3, lines 40300-40302)."
  ],
  "uncertain": [
   "When the meetings were held, and where. The anonymous writer gives neither a year nor a town for them.",

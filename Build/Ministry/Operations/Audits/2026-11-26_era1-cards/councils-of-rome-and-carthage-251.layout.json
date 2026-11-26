@@ -1,5 +1,5 @@
 {
-  "shortDescription": "Two councils of bishops, first at Carthage and then at Rome, decided how Christians who had given way in the persecution under the emperor Decius could come back to the church: through long penance, with each case examined. The council at Rome also cut off Novatian, a rival bishop of Rome, and his followers.",
+  "shortDescription": "Bishops at Carthage and then at Rome agreed that Christians who had given way under the emperor Decius could come back to the church after long penance. The bishops at Rome put Novatian, a rival bishop, and his followers outside the church.",
   "timeline": [
     {
       "when": "250",
@@ -56,9 +56,9 @@
         },
         {
           "when": "Date unknown",
-          "text": "Novatian writes to all the churches that those who sacrificed must not be admitted to the sacred mysteries, but urged to repent, their pardon left to God.",
+          "text": "Novatian writes to all the churches that those who sacrificed must not be admitted to the sacred mysteries, but urged to repent, their pardon left to God. To some his rule seems cruel and merciless; others take it as just.",
           "reference": "Socrates of Constantinople, Church History IV.28",
-          "note": "Socrates, writing almost two centuries later and kind to Novatian's church, reports it from Novatian's letters."
+          "note": "Socrates, writing almost two centuries later, reports it from Novatian's letters."
         },
         {
           "when": "Date unknown",
@@ -144,7 +144,7 @@
         },
         {
           "when": "Date unknown",
-          "text": "At Carthage, the lax party has the presbyter Fortunatus, one of the five, as its bishop, and Novatian's party makes the presbyter Maximus its bishop.",
+          "text": "At Carthage, the lax party has the presbyter Fortunatus, one of the five, as its bishop, and Novatian's party is said to have made the presbyter Maximus its bishop.",
           "reference": "Cyprian, Letter to Cornelius on Fortunatus and Felicissimus 9",
           "note": "Cyprian's account; he calls Fortunatus a false bishop set up by a few."
         },
@@ -152,7 +152,7 @@
           "when": "Date unknown",
           "text": "With a new persecution drawing near, the African bishops write to Cornelius that they will now give peace to all who never left the church and kept repenting from the first day of their fall, so that they are armed for the battle.",
           "reference": "Cyprian and the African bishops, synodal letter to Cornelius (Letter 57 in Hartel's Latin) 1 to 3",
-          "note": "The letter gives no year. Hefele, a modern historian of the councils, dates it to 252."
+          "note": "The letter gives no year."
         }
       ]
     },
@@ -173,7 +173,7 @@
         },
         {
           "when": "In Socrates's day",
-          "text": "Socrates says Novatian's church still keeps its strict discipline in Phrygia and Paphlagonia; some found its rule cruel and merciless, others just.",
+          "text": "Socrates says Novatian's church still keeps its strict discipline, even to his own day, in Phrygia and Paphlagonia.",
           "reference": "Socrates of Constantinople, Church History IV.28"
         }
       ]
@@ -186,7 +186,7 @@
       "file": "cic/texts/cyprian_de-lapsis-lat_hartel1868-csel3-tei.txt"
     },
     {
-      "title": "Letters (Hartel's Latin): to the clergy at Rome, to the people of Carthage, to Antonianus; the confessors' letter; the synodal letter to Cornelius",
+      "title": "Letters (Hartel's Latin): to the clergy at Rome, to the people of Carthage, to Antonianus, to Cornelius on Fortunatus and Felicissimus; the confessors' letter; the synodal letter to Cornelius",
       "author": "Cyprian of Carthage and the African bishops",
       "file": "cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt"
     },

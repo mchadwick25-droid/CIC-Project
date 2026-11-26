@@ -1,0 +1,83 @@
+# Applied card-check changes (2026-11-26)
+
+Source: `Card_Check_A.md`, `Card_Check_B.md`. Each change was applied word for word to the card's `<id>.layout.json`. All eight files still load (`python3 -m json.tool`). Nothing committed.
+
+## Applied (card, finding, field)
+
+| Card | Finding | Field |
+|---|---|---|
+| montanism-the-new-prophecy | M1 | shortDescription |
+| montanism-the-new-prophecy | M2 | timeline, period 5, line 2, text (Firmilian) |
+| montanism-the-new-prophecy | M3 | timeline, period 7, line 1, text (Sozomen II.32) |
+| montanism-the-new-prophecy | M4 | timeline, period 3, headline |
+| montanism-the-new-prophecy | M5 | timeline, period 1, headline |
+| montanism-the-new-prophecy | M6 | timeline, period 6, line 4, text (Epiphanius) |
+| montanism-the-new-prophecy | M7 | timeline, period 4, line 6, text (On the Soul) |
+| montanism-the-new-prophecy | M8 | timeline, period 7, lines 2 and 3 (VII.18, VII.19), when |
+| alexandria-catechetical | A1 | shortDescription (added as first key) |
+| alexandria-catechetical | A2 | timeline, period 9, line 1, note |
+| alexandria-catechetical | A3 | timeline, period 9, headline |
+| alexandria-catechetical | A5 | timeline, period 4, when |
+| alexandria-catechetical | A6 | timeline, period 4, line 6, text (Porphyry) |
+| polycarp-of-smyrna | P1 | timeline, period 3, line 11: text changed, note added |
+| polycarp-of-smyrna | P2 | uncertain: item 13 removed |
+| polycarp-of-smyrna | P3 (only the Martyrdom 9 example, as worded) | timeline, period 3, line 7 ("Martyrdom of Polycarp 9"), reference |
+| councils-of-rome-and-carthage-251 | C1 | shortDescription |
+| councils-of-rome-and-carthage-251 | C2 | timeline, period 6 last line text; period 2 Novatian line text |
+| councils-of-rome-and-carthage-251 | C3 | timeline, period 2 Novatian line, note |
+| councils-of-rome-and-carthage-251 | C4 | timeline, period 5, Maximus line, text |
+| councils-of-rome-and-carthage-251 | C5 | timeline, period 5, synodal letter line, note |
+| councils-of-rome-and-carthage-251 | C6 | briefSources, Hartel letters, title |
+| era-1 | E1 | shortDescription |
+| era-1 | E2 | timeline, period 1, headline |
+| era-1 | E3 | timeline, period 3, Decius line, text |
+| era-1 | E4 | timeline, period 5, 303 line, text and reference |
+| era-1 | E5 | timeline, period 3, Dionysius line: when changed, line moved before the "250" Decius line |
+| era-1 | E6 | uncertain, item 4 |
+| the-sister-who-saw-visions-during-the-service | S1 | shortDescription |
+| the-sister-who-saw-visions-during-the-service | S2 | dates |
+| the-sister-who-saw-visions-during-the-service | S3 | timeline, period 1, "on one occasion" line, text |
+| post-apostolic-house-church--montanism-the-new-prophecy | K1 | shortDescription |
+| post-apostolic-house-church--montanism-the-new-prophecy | K2 | legacyAndToday, item 2 |
+| post-apostolic-house-church--montanism-the-new-prophecy | K3 | timeline, period 1, Ardabau line, text |
+| river-africa | R1 | shortDescription |
+| river-africa | R2 | dates |
+| river-africa | R3 | timeline, period 6, Peter's death line: when, reference, note removed |
+| river-africa | R4 | timeline, period 4, Dionysius line, when |
+
+## For existing texts, not applied here (card, finding, the exact change as the checker gave it)
+
+**councils-of-rome-and-carthage-251** (Entry fields, "Items flagged for a fix in existing texts")
+
+- `modernWorks` move: the two Hefele items in `council.sources.writtenLater` move to `modernWorks` word for word, each with a `note` saying what it covers (for example "A nineteenth-century history of the councils; its volume 1 covers these councils" and "The French edition with Leclercq's notes, on Cyprian, the Novatians and the baptism quarrel").
+- `council.issue` item 3. Old: "At Carthage, the deacon Felicissimus and five presbyters had broken with Cyprian. Charles Joseph Hefele, the historian of the councils, says the party took up the charge that the bishop was too strict with the lapsed." New: "At Carthage, the deacon Felicissimus and five presbyters had broken with Cyprian. Cyprian says they offered the lapsed a false peace, telling them to leave off their prayers, and he called it another persecution (Cyprian, Letter to the people of Carthage)."
+- `council.outcome` item 1. Old: "The next year, by Hefele's dating, the African bishops offered peace to all the lapsed who had kept on repenting, because a new persecution seemed near." New: "In a letter that gives no year, the African bishops offered peace to all the lapsed who had kept on repenting, because a new persecution seemed near (Cyprian and the African bishops, synodal letter to Cornelius)."
+- `council.outcome` item 5. Old: "By Hefele's account, Novatian's party at Carthage then put a bishop, Maximus, at its head, and the lax party was given the presbyter Fortunatus as its bishop. Cyprian, who is our witness, calls Fortunatus a false bishop set up by a few (Cyprian, Letter to Cornelius on Fortunatus and Felicissimus)." New: "Cyprian writes that the lax party at Carthage had the presbyter Fortunatus, one of the five, as its bishop, and that Novatian's party is said to have made the presbyter Maximus its bishop. He calls Fortunatus a false bishop set up by a few (Cyprian, Letter to Cornelius on Fortunatus and Felicissimus)."
+- `council.attended` item 1. Old: "At Carthage, \"a large number of bishops,\" Cyprian writes; Hefele adds some presbyters and deacons. No list of their names is held." New: "At Carthage, \"a large number of bishops,\" Cyprian writes. No list of their names is held."
+- `council.record` item 1 note. Old: "Cyprian says the heads of the decisions were collected in a little book. It is lost. Henri Leclercq, in his edition of Hefele: nothing of this council remains." New: "Cyprian says the heads of the decisions were collected in a little book. It is lost."
+- `council.record` item 4 note. Old: "Written by about 439. The fullest statement of Novatian's own rule, which he reports from Novatian's letters. A. C. Zenos, who edited him in English, finds him favorable to the Novatians." New: "Written by about 439. The fullest statement of Novatian's own rule, which he reports from Novatian's letters."
+- `briefReferences` item 11. Old: "Hefele, History of the Councils I: Felicissimus as deacon; the dates of the councils and of the year after." New: "Cyprian, Letter to Cornelius (Letter 52 in Hartel's Latin; Letter 48 in the English): Felicissimus made a deacon."
+
+**the-sister-who-saw-visions-during-the-service** (story text and teaser, census)
+
+- Text: "she reads hearts" generalizes "some men's hearts she understands". Suggested: "she reads some people's hearts".
+- Story `teaser`. Suggested: "In Carthage a woman receives revelations in church, reports them after the people have gone, and then submits them to be examined."
+- Items 1 to 9 of the story-text list were confirmed at their lines, with no new wording given.
+
+**post-apostolic-house-church--montanism-the-new-prophecy** (edge, census)
+
+- Edge `note`: "the faithful of Asia". Suggested: "Christians of Asia".
+- Edge `outcome`: "Meetings of the faithful across Asia". Suggested: "Meetings of Christians across Asia".
+
+**polycarp-of-smyrna** (census `card.datesNote`)
+
+- P4. New `card.datesNote`: "No ancient source gives a year for his birth or his death. His church's account dates his death to a great Sabbath, the second day of the month Xanthicus, and gives no year. Irenaeus says he was at Rome when Anicetus was bishop there, and Eusebius and Jerome put his death in the reign of Marcus Aurelius. The second century comes from the modern dating of those reigns." (The layout has no `datesNote`; this is the census card's existing field.)
+
+**river-africa**: the origin record is the census record; the checker proposes no change to it.
+
+## Could not place (card, finding, why)
+
+- alexandria-catechetical, A4 (`dates` "c. 180 to 4th c."): the layout has no `dates` field. The change is to the census `dates` and to Drafts_A.md's line, neither of which is in this folder's layout.
+- polycarp-of-smyrna, P3 (every other timeline reference): the checker says to append ", cic/texts/<file> lines <n>" from "that row's file and lines" in Card_Edits. Most lines have several rows, so the choice of file and lines is not given. Only the one example worded in full (Martyrdom 9) was applied.
+- polycarp-of-smyrna, P3 (line 2, Ignatius from Smyrna): the extra reference "; Eusebius, Church History III.36.4-5, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 19945-19962" is to be added after the line's own appended reference, which is not given. Not applied.
+- Card_Check_A, note "not a card change" (Card_Edits shows ANF03 47250-47251 as "On Monogamy"; it is On the Resurrection of the Flesh): the error is in Card_Edits prose, not in any layout.json. Not applied.

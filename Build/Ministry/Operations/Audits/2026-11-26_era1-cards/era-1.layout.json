@@ -15,11 +15,11 @@
  "groundDark": "#241A0C",
  "rec": "Part of Phase One — the Step 0 selection record is on file.",
  "chooserTint": "#C9973A",
- "shortDescription": "From the burning of Jerusalem's Temple in 70 to Constantine's victory at Rome in 312, churches grew in cities from Lyons and Rome to Carthage, Alexandria, Asia Minor and Edessa. Through these years, emperors at times ordered Christians punished and their churches torn down.",
+ "shortDescription": "Churches grew up in cities from Lyons in Gaul to Edessa in the east. At times emperors ordered Christians punished and their churches torn down.",
  "timeline": [
   {
    "when": "70 to the early second century",
-   "headline": "The Temple falls, and Rome sets its first rule for Christians",
+   "headline": "The Temple falls, and Trajan rules on the Christians",
    "lines": [
     {
      "when": "before the war",
@@ -76,14 +76,14 @@
      "reference": "Jerome, Lives of Illustrious Men 53, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40495-40499"
     },
     {
-     "when": "250",
-     "text": "Decius succeeds Philip as emperor and begins a persecution of the churches. Fabianus, bishop of Rome, is put to death.",
-     "reference": "Eusebius, Church History VI.39.1, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 37383-37416"
-    },
-    {
-     "when": "in Decius's reign",
+     "when": "a year before the emperor's decree",
      "text": "At Alexandria, Bishop Dionysius writes, the persecution began a whole year before the emperor's decree.",
      "reference": "Eusebius, Church History VI.41.1, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 37764-37809"
+    },
+    {
+     "when": "250",
+     "text": "Decius, who has succeeded Philip as emperor, begins a persecution of the churches. Fabianus, bishop of Rome, is put to death.",
+     "reference": "Eusebius, Church History VI.39.1, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 37383-37416"
     }
    ]
   },
@@ -119,8 +119,8 @@
    "lines": [
     {
      "when": "303",
-     "text": "In the nineteenth year of Diocletian, in March, near Easter, imperial edicts order the churches leveled and the Scriptures burned.",
-     "reference": "Eusebius, Church History VIII.2.4, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 43460-43491"
+     "text": "In the nineteenth year of Diocletian, imperial edicts order the churches leveled and the Scriptures burned. Eusebius puts this in March, near Easter; Lactantius sets its first day on the feast of the god Terminus, in late February.",
+     "reference": "Eusebius, Church History VIII.2.4, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 43460-43491; Lactantius, On the Deaths of the Persecutors 12, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml line 10152"
     },
     {
      "when": "date unknown",
@@ -144,6 +144,6 @@
   "The move to Pella. Eusebius says a revelation commanded the church of Jerusalem to leave before the war, and gives no year.",
   "How the churches of Alexandria and Edessa began. Eusebius gives Mark's founding of the churches of Alexandria as something people say. He says the apostle Thomas sent Thaddeus to Edessa, from records he says were taken from the archives of Edessa. The first dated mention of a church building at Edessa is the flood in the reign of Severus.",
   "How steady the persecutions were. Eusebius says that after Trajan's ruling there was no great persecution for a time, only local ones in particular provinces; the hunts under Decius, Valerian and Diocletian were ordered by the emperors themselves.",
-  "The era's title and its end in 312 are the map's labels for the age, not dates the old sources give."
+  "The era's title, and its bounds at 70 and 312, are the map's labels for the age."
  ]
 }

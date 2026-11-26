@@ -2,11 +2,11 @@
  "id": "the-sister-who-saw-visions-during-the-service",
  "kind": "story",
  "title": "The Sister Who Saw Visions During the Service",
- "dates": "In Tertullian's day, under the emperors Severus and Caracalla",
+ "dates": "In Tertullian's day",
  "datesNote": "On the Soul gives no year: the sister is \"now amongst us\" as Tertullian writes. Jerome says Tertullian flourished chiefly in the reigns of Severus and Antoninus Caracalla.",
  "place": "Tertullian's church, at Carthage",
  "placeNote": "The passage names no city. Jerome says Tertullian was from Carthage, in the province of Africa.",
- "shortDescription": "In Tertullian's church, he writes, a woman sees visions during the Sunday service and speaks with angels, and at times with the Lord. After the people have gone, she reports what she saw, and every word is carefully examined to test whether it is true.",
+ "shortDescription": "Tertullian, a Christian writer, tells of a woman in his church who sees visions during the Sunday service and speaks with angels, and at times with the Lord. After the people leave, she reports what she saw, and every word is carefully tested.",
  "directLine": {
   "toldUnder": [
    {
@@ -60,7 +60,7 @@
     },
     {
      "when": "on one occasion",
-     "text": "While the church has been discussing the soul, she is in the Spirit.",
+     "text": "Tertullian and those with him happen to have been discussing the soul while she is in the Spirit.",
      "reference": "Tertullian, On the Soul 9, cic/texts/anf03_tertullian.xml lines 15814-15816; Latin, cic/texts/tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt lines 17476-17477"
     },
     {
