@@ -3,23 +3,23 @@
  "sourcing": "Rich (Cyprian's letters, Augustine's sermons to his own flock)",
  "floorNote": "Nothing in this tradition's confession diverges from the doctrine the Nicene Creed states.",
  "relationsSummary": "The churches led by Cyprian at Carthage and Augustine at Hippo. From the 310s a rival Donatist church stood in the same towns.",
- "teaser": "Roman North Africa, the 250s to 430 CE — the parish before the word existed: bishops gathering their people through plague, judging their quarrels, and deciding what to do about the people who had failed.",
+ "teaser": "Roman North Africa, the 250s to 430 CE: bishops gathering their people through plague, judging their quarrels, and deciding what to do about the people who had failed.",
  "voices": [
-  "Cyprian of Carthage — bishop through persecution and plague, whose letters are the fullest surviving picture of how a third-century congregation actually ran",
+  "Cyprian of Carthage — bishop through persecution and plague, who led his church by letter from hiding",
   "Pontius the Deacon — Cyprian's deacon, who wrote an account of his bishop's life and death",
-  "Augustine of Hippo — bishop of Hippo Regius until his death in 430, and the most extensively documented working pastor of the ancient world",
+  "Augustine of Hippo — bishop of Hippo Regius until his death in 430",
   "Possidius of Calama — Augustine's friend and fellow bishop, who wrote his biography and cataloged his works"
  ],
- "legacy": "The North African church itself did not survive. The Vandals took the province in the 430s. The Arab conquest came in the seventh century. After it, Latin Christianity there slowly died out. What it left behind is the working vocabulary of Western church life. Cyprian's letters laid the ground for how the West thinks about the bishop's office and the unity of the church. Later, the Donatists quoted them in their own defense. Augustine's sermons shaped Christian preaching for well over a thousand years. These congregations also worked out the catechumenate, the training of new believers before baptism. They worked out the practice of penance too. Both became the pattern for Western sacramental discipline. In Geneva, Calvin wrote that he could fill a whole book with Augustine's words on God's choice of the saved. Latin Christianity's basic ideas about what a local church is took shape largely in these two African towns. Both churches claimed Cyprian: when the Donatists brought his authority forward for baptizing again, Augustine answered that they should keep Cyprian's example of unity instead. On Cyprian's feast Augustine preached that where a savage crowd had once gathered to shed his blood, a crowd now gathered to honor him, at an altar called Cyprian's table because he was offered there. Possidius copied Augustine's letter on clergy staying with their people into his Life, as very useful, even necessary, for priests. After Augustine's death, Hippo, abandoned by its people, was burned by the enemy. A century later, Procopius says, the people of Carthage revered Cyprian above all saints and kept a festival called the Cypriana at his church by the sea, which the Vandals had taken from the Christians. More than a century after Augustine, Facundus, a bishop of Byzantine Africa, still called Cyprian bishop of Carthage and martyr, and Augustine the most wise and most famous teacher of the churches of Christ.",
+ "legacy": "The North African church itself did not survive. The Vandals took the province in the 430s. The Arab conquest came in the seventh century. After it, Latin Christianity there slowly died out. In Geneva, Calvin wrote that he could fill a whole book with Augustine's words on God's choice of the saved. Both churches claimed Cyprian: when the Donatists brought his authority forward for baptizing again, Augustine answered that they should keep Cyprian's example of unity instead. On Cyprian's feast Augustine preached that where a savage crowd had once gathered to shed his blood, a crowd now gathered to honor him, at an altar called Cyprian's table because he was offered there. Possidius copied Augustine's letter on clergy staying with their people into his Life, as very useful, even necessary, for priests. After Augustine's death, Hippo, abandoned by its people, was burned by the enemy. A century later, Procopius says, the people of Carthage revered Cyprian above all saints and kept a festival called the Cypriana at his church by the sea, which the Vandals had taken from the Christians. More than a century after Augustine, Facundus, a bishop of Byzantine Africa, still called Cyprian bishop of Carthage and martyr, and Augustine the most wise and most famous teacher of the churches of Christ.",
  "documentedStories": [
   {
-   "title": "Cyprian’s Flight and the Sneer from Rome",
+   "title": "Cyprian’s Flight and the Letter from Rome",
    "when": "250",
    "tier": "1",
    "verification": "checked directly against the primary text",
-   "teaser": "When the persecution comes, the bishop of Carthage withdraws. The clergy of Rome, whose own bishop has just been killed, write to ask why.",
-   "text": "Decius’ order that everyone sacrifice reached Carthage early in 250, and the crowd in the amphitheater was already shouting for Cyprian by name. He left the city. The Roman clergy, whose bishop Fabian had just been executed, wrote to the Carthaginian clergy a letter that Cyprian later had to answer. It opened by noting that they had heard ‘the blessed father Cyprian has for a certain reason withdrawn’, and went on to quote the Gospel: the good shepherd lays down his life for the sheep, but ‘the hireling, whose own the sheep are not, seeth the wolf coming, and leaveth the sheep, and fleeth.’ It was not subtle. Cyprian’s reply, and the stream of letters he sent from hiding, make his case: his presence would provoke worse violence against the congregation; he had continued to govern the church by correspondence; he had ordered the clergy to keep visiting the imprisoned confessors, and to do it in shifts and in ordinary dress so as not to draw attention. ‘Nothing on my own private opinion,’ he wrote of the readmission of the lapsed, promising to decide with the clergy and people when he could return. He did return, faced down a schism over exactly this question, and eight years later stood trial without flinching. But the charge of cowardice followed him, and his own biographer Pontius spends paragraphs answering it. The record keeps both the flight and the reasons.",
-   "caveat": "All the letters are contemporary and Cyprian preserved even the hostile one; but the collection was assembled by his own church, and his side of the argument is far better represented than the Roman clergy’s.",
+   "teaser": "When the persecution comes, the bishop of Carthage withdraws. The clergy of Rome, whose own bishop has just been killed, write to his clergy about their duty while he is gone.",
+   "text": "Decius’ order that everyone sacrifice reached Carthage early in 250, and the crowd in the amphitheater was already shouting for Cyprian by name. He left the city. The Roman clergy, whose bishop Fabian had just been executed, wrote to the Carthaginian clergy a letter that Cyprian later had to answer. It opened by noting that they had heard ‘the blessed father Cyprian has for a certain reason withdrawn’, said he had ‘acted quite rightly, because he is a person of eminence’, and went on to quote the Gospel: the good shepherd lays down his life for the sheep, but ‘the hireling, whose own the sheep are not, seeth the wolf coming, and leaveth the sheep, and fleeth.’ Cyprian’s reply, and the stream of letters he sent from hiding, make his case: his presence would provoke worse violence against the congregation; he had continued to govern the church by correspondence; he had ordered the clergy to keep visiting the imprisoned confessors, and to do it in shifts so as not to draw attention. ‘Nothing on my own private opinion,’ he wrote of the readmission of the lapsed, promising to decide with the clergy and people when he could return. He did return, faced down a schism over exactly this question, and eight years later stood trial without flinching. But the charge of cowardice followed him, and his own biographer Pontius spends paragraphs answering it. The record keeps both the flight and the reasons.",
+   "caveat": "All the letters are contemporary and Cyprian preserved even the letter from Rome; but the collection was assembled by his own church, and his side of the argument is far better represented than the Roman clergy’s.",
    "sources": [
     {
      "work": "Cyprian, Epistles (ANF numbering) II: From the Roman Clergy to the Carthaginian Clergy, About the Retirement of the Blessed Cyprian",
@@ -54,7 +54,7 @@
    "verification": "checked directly against the primary text",
    "teaser": "Carthage learns that its bishop has been brought in, and the congregation spends the night in the street.",
    "text": "Under Valerian’s second edict, bishops were to be executed. Cyprian was arrested at his garden estate and taken to the proconsul’s residence, then, because the hearing was put off to the next day, held overnight at the house of an officer of the guard. Pontius, his deacon, was there. He says a rumor ran through the city ‘that now Thascius was brought forward’, and that everyone came — ‘to us glorious from the devotion of faith, and to be mourned over even by the Gentiles.’ The custody was gentle; the friends were allowed in. And ‘the whole people, in anxiety that nothing should be done throughout the night without their knowledge, kept watch before the officer’s door.’ Pontius’ comment is that God granted that ‘God’s people should watch on the passion of the priest’. The next morning the proconsul Galerius Maximus asked Cyprian to confirm his name and to perform the rites; the official record of the exchange, the Acta, gives his refusal in a handful of words and the sentence: to be executed by the sword. Cyprian said ‘Thanks be to God’, and the crowd, by Pontius’ account, cried out to be killed with him. He was beheaded in a field outside the city, having ordered that the executioner be paid twenty-five gold pieces. The vigil is the detail to keep: a congregation that had watched him flee eight years earlier now stood all night outside a door.",
-   "caveat": "Pontius was an eyewitness writing within a year or two, but as a devoted biographer; the trial dialogue rests on the Acta Proconsularia, a separate court-style record whose text has been lightly edited in transmission.",
+   "caveat": "Pontius was an eyewitness writing within a year or two, but as a devoted biographer; the trial dialogue rests on the Acta Proconsularia, a separate court-style record.",
    "sources": [
     {
      "work": "Pontius the Deacon, Life and Passion of Cyprian, ch. 15–18",
@@ -88,7 +88,7 @@
    "tier": "1",
    "verification": "checked directly against the primary text",
    "teaser": "With the Vandals outside Hippo, an old bishop asks for the penitential psalms to be written out and hung where he can see them.",
-   "text": "Possidius, bishop of Calama, had known Augustine for nearly forty years and was in Hippo Regius when the Vandal army closed round it in the summer of 430. His Life of Augustine, written within a few years, describes the end. Refugee bishops and clergy had crowded into the city; Augustine, seventy-five, watched churches burn across the province and took comfort in a wise man’s saying: ‘He is not to be thought great who thinks it strange that wood and stones should fall and mortals die.’ In the third month of the siege he fell ill with fever. He asked that ‘the shortest penitential Psalms of David’ be copied out and fixed to the wall opposite his bed, and he lay reading them and weeping. He asked that no one come in except the physicians and those bringing food, so that he could pray. He had always said, Possidius notes, that even a good Christian and bishop should not leave this life without repentance. He died on 28 August. He made no will, Possidius adds, ‘because as a poor man of God he had nothing from which to make it’ — the library he asked to be kept for the church. The city fell the following year. It is the last documented scene of the most documented pastor of antiquity, and it is a scene of penitence rather than triumph.",
+   "text": "Possidius, bishop of Calama, had known Augustine for nearly forty years and was in Hippo Regius when the Vandal army closed round it in the summer of 430. His Life of Augustine, written within a few years, describes the end. Refugee bishops and clergy had crowded into the city; Augustine watched churches burn across the province and took comfort in a wise man’s saying: ‘He is not to be thought great who thinks it strange that wood and stones should fall and mortals die.’ In the third month of the siege he fell ill with fever. He asked that ‘the shortest penitential Psalms of David’ be copied out and fixed to the wall opposite his bed, and he lay reading them and weeping. He asked that no one come in except the physicians and those bringing food, so that he could pray. He had always said, Possidius notes, that even a good Christian and bishop should not leave this life without repentance. He died on 28 August. He made no will, Possidius adds, ‘because as a poor man of God he had nothing from which to make it’ — the library he asked to be kept for the church. The city fell the following year.",
    "caveat": "Possidius was an eyewitness and friend writing a memorial; the account is sober by the standards of the genre but is an admirer’s. The exact psalms are not specified beyond ‘the shortest penitential Psalms of David’.",
    "sources": [
     {
@@ -212,7 +212,7 @@
    "work": "Augustine, Sermon 310, on Cyprian's feast, Latin text (Patrologia Latina 38, 1845)",
    "type": "primary",
    "file": "cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt",
-   "note": "Cyprian's feast was kept through all Africa, by Christians, pagans, Jews and heretics alike. Where a savage crowd had once gathered to shed his blood, a crowd now gathered to honor him, at an altar called Cyprian's table because he was offered there. The scan is damaged; the second half of the altar passage is confirmed by the Latin quoted in a note to Optatus's English."
+   "note": "Through all Africa and the lands overseas, Augustine said, there was no Christian, pagan, Jew or even heretic who did not speak with his people of Cyprian's feast day. Where a savage crowd had once gathered to shed his blood, a crowd now gathered to honor him, at an altar called Cyprian's table because he was offered there. The scan is damaged; the second half of the altar passage is confirmed by the Latin quoted in a note to Optatus's English."
   },
   {
    "work": "Optatus of Milevis, Against the Donatists (tr. O. R. Vassall-Phillips, 1917)",
@@ -273,7 +273,8 @@
    "uncertain": "The scan prints a stray mark, a misread line number, before plenissima; it is left out here.",
    "englishPrinted": "I did not move them to weep by first weeping myself; but while these things were being spoken, I own that, moved by the tears which they began to shed, I myself could not refrain from following their example. And when we had thus wept together, I concluded my sermon with full persuasion that they would be restrained by it from the abuses denounced.",
    "englishFile": "cic/texts/npnf101_augustine-confessions-letters.xml",
-   "englishLines": "25511-25516"
+   "englishLines": "25511-25516",
+   "secondReading": "minor"
   },
   {
    "modern": "I could not write back alone. From my first days as bishop I resolved to do nothing on my own private judgment, without your counsel and the people's consent.",
@@ -283,7 +284,8 @@
    "lines": "2293-2296",
    "englishPrinted": "I have not been able to reply by myself, since, from the first commencement of my episcopacy, I made up my mind to do nothing on my own private opinion, without your advice and without the consent of the people.",
    "englishFile": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
-   "englishLines": "29119-29122"
+   "englishLines": "29119-29122",
+   "secondReading": "same"
   },
   {
    "modern": "But if the clergy are there, everyone is helped, as far as the Lord gives them strength. Some are baptized, others are reconciled. No one is cheated of communion in the Lord's body. All are comforted, built up and urged to ask God, who has the power to turn away all that is feared.",
@@ -294,7 +296,8 @@
    "uncertain": "Words broken across lines are joined, and a misread line number inside the span is left out. Goldbacher's Latin of the letter agrees. Ministri is the clergy.",
    "englishPrinted": "But if the ministers are present they are a help to all, according to the strength which the Lord gives them : some are baptized, others are reconciled, none are deprived of the communion of the body of the Lord, all are consoled, edified and exhorted to ask of God, who hath the power to avert all the things they fear",
    "englishFile": "cic/texts/possidius_vita-augustini_weiskotten1919.txt",
-   "englishLines": "4588-4593"
+   "englishLines": "4588-4593",
+   "secondReading": "same"
   }
  ]
 }

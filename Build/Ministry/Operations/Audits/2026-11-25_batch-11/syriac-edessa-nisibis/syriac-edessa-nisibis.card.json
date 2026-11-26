@@ -161,9 +161,9 @@
   "Aphrahat, Demonstration VI.7 (Johnston's English, lines 25948-25953; Parisot's Latin, lines 18126-18134): the words he gives a daughter of the covenant to answer a vowed man.",
   "Ephrem, Nisibene Hymn I (lines 13725-13734): Noah's flood, the bow and the refrain; lines 13746-13751: \"mounds and weapons and waves encircle me,\" and the river threatens the city; lines 13839-13840: the city's \"third peril.\" The collection's heading (lines 13710-13715): the siege of Nisibis.",
   "Sozomen, Church History II.9 (lines 28873-28877, 28889-28899): the Magi angered, the charge against the bishop, the tax and its aim, the priests killed and the churches pulled down. Aphrahat, Demonstration XXI (lines 27416-27419): the reproach that vexed him, \"If they have a God, why does He not avenge His people?\"; lines 27988-27991: many confess and are slain; the year from lines 28558-28561.",
-  "Socrates, Church History III.22 (lines 11679-11697): the new emperor, his army in danger inside Persia, gives up Nisibis. Barhadbeshabba (lines 20435-20438): Ephrem withdraws to Edessa. Ephrem, Prose Refutations (lines 584, 431, 640, 606-608, 917, 1605-1609): Marcion's Stranger, Mani's two Roots and the Earth of Light, Bardaisan's five Entities in empty Space; line 1205: their fast like ours, their faith not like ours, and praying with Satan. Sozomen III.16 (lines 32085-32103): Bardaisan's son's songs and Ephrem's hymns in the same meters.",
+  "Socrates, Church History III.22 (lines 11679-11697): the new emperor, his army in danger inside Persia, gives up Nisibis. Barhadbeshabba (lines 20435-20438): Ephrem withdraws to Edessa. Ephrem, Prose Refutations (lines 584, 431, 640, 606-608, 917, 1605-1609): Marcion's Stranger, Mani's two Roots and the Earth of Light, Bardaisan's five Entities in empty Space; line 1205: their fast like ours, their faith not like ours, and praying with Satan.",
   "The Chronicle of Edessa, entry 30 (line 103): Ephrem dies on the ninth of June in the year 684 of the Greeks. Palladius, Lausiac History 40 (line 471): Ephrem, deacon of the Church of Edessa. Sozomen III.16 (lines 32101-32103): from then on the Syrians sang his hymns.",
-  "The Synod of Isaac (Chabot's French): in the king's eleventh year (line 16155), his grant rebuilding the churches, freeing the prisoners and letting the priests, the leaders and all the holy covenant go freely (lines 16159-16166); the grant coming about in the time of Mar Isaac (lines 16168-16169), through the work of the bishop Marutha, the go-between of peace and concord between East and West (lines 16227-16230), and of the bishops of the Romans (lines 16236-16237); the bishops gathered in the great church of the capital (lines 16410-16416); forty bishops, one bishop for each city and the feasts kept together (lines 16519-16534); the list of sees, Nisibis after Seleucia-Ctesiphon and Beit Lapat, and a city's two or three bishops not accepted (lines 17714-17742); Hosea of Nisibis, second metropolitan (line 17746) and third to sign (lines 17856-17861); the day like the dead rising (lines 16422, 16499-16500). Socrates, Church History VII.8 (lines 19135-19141, 19174-19176): the Roman emperor sends Maruthas, bishop of Mesopotamia, on a mission to the king of the Persians, who then lets him build churches wherever he wishes."
+  "The Synod of Isaac (Chabot's French): in the king's eleventh year (line 16155), his grant rebuilding the churches, freeing the prisoners and letting the priests, the leaders and all the holy covenant go freely (lines 16159-16166); the grant coming about in the time of Mar Isaac (lines 16168-16169), through the work of the bishop Marutha, the go-between of peace and concord between East and West (lines 16227-16230), and of the bishops of the Romans (lines 16236-16237); the bishops gathered in the great church of the capital, where the king ordered Mar Isaac and the bishop Marutha to bring them together (lines 16410-16417); forty bishops, one bishop for each city and the feasts kept together (lines 16519-16534); the list of sees, Nisibis after Seleucia-Ctesiphon and Beit Lapat, and a city's two or three bishops not accepted (lines 17714-17742); Hosea of Nisibis, second metropolitan (line 17746) and third to sign, after Isaac and Marutha (lines 17856-17861); the day like the dead rising (lines 16422, 16499-16500). Socrates, Church History VII.8 (lines 19135-19141, 19174-19176): the Roman emperor sends Maruthas, bishop of Mesopotamia, on a mission to the king of the Persians, who then lets him build churches wherever he wishes."
  ],
  "quotationOriginals": [
   {
@@ -172,7 +172,8 @@
    "work": "Aphrahat, Demonstration VI (Of Monks), section 7, tr. A. E. Johnston (Nicene and Post-Nicene Fathers, second series, 13)",
    "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
    "lines": "25950-25953",
-   "uncertain": "Rendered from Johnston's English. The Syriac is held only in unreadable scan text. Parisot's Latin of the Syriac (lines 18130-18134) confirms the reading, and its Sponsus meus gives \"my bridegroom\" for \"my betrothed\"; the scan runs three of its words together."
+   "uncertain": "Rendered from Johnston's English. The Syriac is held only in unreadable scan text. Parisot's Latin of the Syriac (lines 18130-18134) confirms the reading, and its Sponsus meus gives \"my bridegroom\" for \"my betrothed\"; the scan runs three of its words together.",
+   "secondReading": "minor"
   },
   {
    "modern": "Stretch out your bow against the flood, for see, it has lifted up its waves against our walls!",
@@ -180,7 +181,8 @@
    "work": "Ephrem the Syrian, Nisibene Hymn I, refrain, tr. J. T. Sarsfield Stopford (Nicene and Post-Nicene Fathers, second series, 13)",
    "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
    "lines": "13733-13734",
-   "uncertain": "Rendered from Stopford's English; the Syriac is not held in a readable print. The print marks the line R., for the refrain."
+   "uncertain": "Rendered from Stopford's English; the Syriac is not held in a readable print. The print marks the line R., for the refrain.",
+   "secondReading": "same"
   },
   {
    "modern": "Their works are like our works, just as their fast is like our fast, but their faith is not like our faith.",
@@ -188,7 +190,8 @@
    "work": "Ephrem the Syrian, Prose Refutations, Fifth Discourse to Hypatius, conclusion, tr. C. W. Mitchell (1912)",
    "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt",
    "lines": "1205",
-   "uncertain": "Rendered from Mitchell's English; the Syriac is not transcribed in the held file. The palimpsest has gaps nearby, but this sentence is whole in the print."
+   "uncertain": "Rendered from Mitchell's English; the Syriac is not transcribed in the held file. The palimpsest has gaps nearby, but this sentence is whole in the print.",
+   "secondReading": "same"
   },
   {
    "modern": "prays with Satan.",
@@ -204,7 +207,8 @@
    "work": "The Synod of Isaac (410), the king's grant, French tr. J.-B. Chabot, Synodicon orientale (1902)",
    "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
    "lines": "16165-16166",
-   "uncertain": "Rendered from Chabot's French; the Syriac in the same volume is held only in misread scan text. The scan sets a note mark after alliance. Chabot's note reads the covenant here as the whole clergy, monks included."
+   "uncertain": "Rendered from Chabot's French; the Syriac in the same volume is held only in misread scan text. The scan sets a note mark after alliance. Chabot's note reads the covenant here as the whole clergy, monks included.",
+   "secondReading": "same"
   }
  ]
 }

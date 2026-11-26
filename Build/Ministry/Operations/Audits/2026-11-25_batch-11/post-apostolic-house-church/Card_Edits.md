@@ -62,7 +62,7 @@ The brief quotes three spans (`grep -o '"[^"]*"'`); each has one entry. All thre
    Old: "the earliest detailed outside description"
    New: "the earliest detailed description"
    Added at the end: "Before baptism, those who believe pray and fast, the community fasting with them; then they are led to water. After the prayers, the believers greet one another with a kiss. They receive the bread and cup "not as common bread and common drink," and Justin gives Jesus's words over them from the apostles' memoirs. Those who are well off give what each chooses, and the one who presides uses it for orphans and widows, the sick, prisoners and strangers."
-   Evidence: the brief, "Justin, a Christian, wrote to the emperor Antoninus Pius what Christians did each week"; Outline, Quote 2's job: "the gathering in its own words, from inside". Justin is no outsider. Cut first 5 ("card"), anf01 16232-16240 (J1) and 16413 ("we salute one another with a kiss"); Leave out ("Justin's 'not as common bread' and his account of Jesus's words … card"), 16450-16451 and 1apol-grc 1734-1745; Cut first 31 ("for the card"), 1apol-grc 1772-1779, anf01 16518-16526. The fuller wording of the collection (Cut first 17) and the presider's talk and the standing prayer (Cut first 20, 29, 34) are Leave out, so are not added.
+   Evidence: the brief, "Justin, a Christian, wrote to the emperor Antoninus Pius what Christians did each week"; Outline, Quote 2's job: "the gathering in its own words, from inside". Justin is no outsider. Cut first 5 ("card"), anf01 16232-16240 (J1) and 16414 ("we salute one another with a kiss"); Leave out ("Justin's 'not as common bread' and his account of Jesus's words … card"), 16450-16451 and 1apol-grc 1734-1745; Cut first 31 ("for the card"), 1apol-grc 1772-1779, anf01 16518-16526. The fuller wording of the collection (Cut first 17) and the presider's talk and the standing prayer (Cut first 20, 29, 34) are Leave out, so are not added.
 
 10. **sources[7], Hermas (new: Cut first 2 and 7; Names).**
     Added at the end: "In a vision, Hermas writes, the Church as an old woman told him to make two copies of her words: one for a man named Clement, who would send it to cities abroad, and one for a woman named Grapte, who would teach the widows and orphans, while he read it in Rome with "the presbyters who preside over the Church." Elsewhere in his book, bishops gladly take God's servants into their houses."
@@ -109,10 +109,13 @@ For release to apply once the checker passes them. Release also sets `longDescri
 [
  {"title": "The Apostolic Fathers with Justin Martyr and Irenaeus (Ante-Nicene Fathers, volume 1)", "author": "Alexander Roberts and James Donaldson (ed.)", "year": "1885", "note": "English translations of Rome's letter to Corinth, the letters of Ignatius and Polycarp, Justin's First Apology and Irenaeus's Against Heresies, with the editors' notes."},
  {"title": "Fathers of the Second Century: Hermas, Tatian, Athenagoras, Theophilus, and Clement of Alexandria (Ante-Nicene Fathers, volume 2)", "author": "Alexander Roberts and James Donaldson (ed.)", "year": "1885", "note": "English translation of the Shepherd of Hermas, with notes."},
+ {"title": "Latin Christianity: Its Founder, Tertullian (Ante-Nicene Fathers, volume 3)", "author": "Alexander Roberts and James Donaldson (ed.)", "year": "1885", "note": "English translation of Tertullian's works, among them his Apology."},
+ {"title": "Fathers of the Third Century: Hippolytus, Cyprian, Caius, Novatian, Appendix (Ante-Nicene Fathers, volume 5)", "author": "Alexander Roberts and James Donaldson (ed.)", "year": "1886", "note": "English translations of third-century writers, with editors' notes, one of which prints in Latin the clause of Pliny's letter on the Christians' dawn hymn."},
  {"title": "Fathers of the Third and Fourth Centuries: Lactantius, Venantius, Asterius, Victorinus, Dionysius, Apostolic Teaching and Constitutions, Homily, and Liturgies (Ante-Nicene Fathers, volume 7)", "author": "Alexander Roberts and James Donaldson (ed.)", "year": "1886", "note": "English translation of the Didache, with an introduction on its discovery and notes on its words."},
  {"title": "Eusebius Pamphilius: Church History, Life of Constantine, Oration in Praise of Constantine (Nicene and Post-Nicene Fathers, second series, volume 1)", "author": "Arthur Cushman McGiffert (tr.)", "year": "1890", "note": "English translation of Eusebius's Church History, with notes on its dates and sources, among them an English version of Pliny's letter on the Christians."},
  {"title": "Athanasius: Select Works and Letters (Nicene and Post-Nicene Fathers, second series, volume 4)", "author": "Archibald Robertson (ed.)", "year": "1892", "note": "English translations of Athanasius's works and festal letters, among them the thirty-ninth, on the books to be read."},
- {"title": "S. Iustini Apologiae duae (Florilegium Patristicum 2)", "author": "Gerhard Rauschen (ed.)", "year": "1911", "publisher": "Peter Hanstein, Bonn", "note": "The Greek text of Justin's two Apologies."},
+ {"title": "The Gospel of Peter, The Diatessaron of Tatian, … The Epistles of Clement (complete text), … (Ante-Nicene Fathers, volume 9)", "author": "Allan Menzies (ed.)", "year": "1896", "note": "English translation of the complete text of Rome's letter to Corinth, from the manuscript found in 1873."},
+ {"title": "S. Iustini Apologiae duae (Florilegium Patristicum 2)", "author": "Gerhard Rauschen (ed.)", "year": "1911", "publisher": "Peter Hanstein, Bonn", "note": "The Greek text of Justin's two Apologies, held in the Perseus Project's digital edition (Trustees of Tufts University) under CC BY-SA 4.0."},
  {"title": "Quellen zur Geschichte des Papsttums und des römischen Katholizismus, third edition", "author": "Carl Mirbt (ed.)", "year": "1911", "note": "A source book in Latin and German that prints Pliny's letter on the Christians and Trajan's reply."},
  {"title": "Eusebii Pamphili Chronici canones, latine vertit, adauxit, ad sua tempora produxit S. Eusebius Hieronymus", "author": "John Knight Fotheringham (ed.)", "year": "1923", "note": "The Latin text of Jerome's version of Eusebius's Chronicle, with its table of years."}
 ]
@@ -128,15 +131,20 @@ Titles, years and editors are taken from each Library file's own title (`DC.Titl
 - relationsSummary: "which most later traditions claim as their root".
 - voices[0]: "c. 107-117" (as sourcing); "seven letters to congregations" (one of the seven is to Polycarp, anf01 8529).
 - voices[1]: "the earliest Christian writing outside the New Testament to survive" (the date of the Didache is unknown, anf07 12668-12672).
-- voices[2]: "put to death at Smyrna around 155" (polycarp-of-smyrna's story; no held old source in this folder gives the year).
 - voices[5]: "The gatherings met in their homes" (Outline, Do not say: "Do not say where they met"; the held sources show greetings to households, anf01 8503-8508, Hermas's bishops taking servants of God into their houses, anf02 4946-4952, and the Acts of Justin's meeting at his lodging, anf01 29302-29312, but no line says the gatherings met in members' homes). Not corrected, since no held source contradicts it; the checker may judge it against the Do not say.
 - voices[6]: "it is the earliest outside evidence that women here held a formal title at all" (a judgment; Pliny says only "quae ministrae dicebantur").
 - legacy: "Almost every Christian tradition claims a root in these early gatherings"; "trying to live out those instructions under local pressures gave the offices more concrete form"; "it was through this regular use in worship—not by an early decree—that these writings came to be heard alongside the ancient Jewish Scriptures". The last also carries a "not X but Y" turn, a dash and the stock word "enduring" (Kit Part 1, Craft); not an edit this role makes.
 - sources[0]: "along his route to execution in Rome, c. 107–117".
 - sources[1]: "the earliest Christian letter outside the New Testament" (as voices[1]).
 - sources[2]: "from a single surviving manuscript".
-- sources[3]: "around 155"; sources[6]: "c. 165".
+- sources[6]: "c. 165".
 - sources[7]: "by some congregations nearly treated as Scripture" (not checked here; the hermas story tells it, Outline, Do not say).
+- legacy: "the basic rhythm of Christian worship shows up earliest here" (a judgment; added by `Card_Check.md` fix 13).
+- legacy: "either in a full common meal or as the bread and wine alone" (no held line sets these as two forms; added by `Card_Check.md` fix 13).
+- floorNote: "What they confessed is part of the raw material the creed was later drawn from, not a departure from it" (a judgment, and a "not X but Y" turn; added by `Card_Check.md` fix 13).
+- sourcing: "Individual, first-person voice stays thin throughout" (a judgment; added by `Card_Check.md` fix 13).
+
+Corrected by `Card_Check.md` (fixes 3 and 4), no longer not found: `sourcing` "no enslaved member" (contradicted by Hermas, anf02 649) and "around 155" in `voices[2]` and `sources[3]` (contradicted by Jerome's Chronicle, jerome-chron 42977-42979).
 
 ## Validator
 

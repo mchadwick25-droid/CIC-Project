@@ -18,7 +18,7 @@
   "Justin's terms. Justin says such people keep the Law \"through weak-mindedness\". If they chose to live with the Christians and did not press circumcision, the Sabbath or the like on them, he would join them and \"associate with them in all things as kinsmen and brethren.\" He did not approve of those of Trypho's people who compel non-Jewish believers to keep the Law, or will not live with them.",
   "Their charge against Paul. Epiphanius reports that the Ebionites said Paul was a Greek, the son of Greek parents, who went up to Jerusalem, wanted to marry the priest's daughter, and so became a proselyte and was circumcised. When he did not win her, they said, he grew angry and wrote against circumcision, the Sabbath and the Law. Eusebius and Origen also say they rejected Paul's letters.",
   "Neither side. Epiphanius says the Nazoraeans differed from the Jews in one thing, believing in Christ, and from the Christians in one thing, being still bound by the Law, circumcision, the Sabbath and the rest.",
-  "The Sabbath and the Lord's day. Eusebius says they kept the Sabbath and the rest of the Jewish way just as Jews did, and also, like other Christians, kept the Lord's day in memory of the Saviour's resurrection.",
+  "The Sabbath and the Lord's day. Eusebius says they kept the Sabbath and the rest of the Jewish way just as Jews did, and also, like other Christians, kept the Lord's day in memory of the Savior's resurrection.",
   "Food. Origen says the Ebionites, who differ little from the \"material Jews\", accused other Christians of breaking the Law's rules on clean and unclean meat.",
   "The prophets. Irenaeus says the Ebionites expound the prophets in a way of their own. Epiphanius says the Nazoraeans read the Law, the prophets and the other writings in Hebrew, and that the Ebionites accept Abraham, Isaac, Jacob, Moses, Aaron and Joshua, but no prophet after them, and scorn David and Solomon.",
   "Where they lived. Justin, Irenaeus and Origen give no place for them. Epiphanius places the Nazoraeans at Beroea in Coele Syria, in the Decapolis near Pella, and at Kokaba in Bashan. He places the Ebionites in Nabataea, at Paneas, in Moab, at Kokaba in Bashan beyond Adraa, and on Cyprus. Jerome places the Nazoraeans at Beroea, a city of Syria.",
@@ -173,10 +173,11 @@
    "work": "Justin Martyr, Dialogue with Trypho 47.2, ed. Archambault",
    "file": "cic/texts/justin-martyr_dialogue-with-trypho-grc_archambault1909.txt",
    "lines": "2166-2167",
-   "uncertain": "The Greek is the Perseus digital edition of Archambault's 1909 print, used under a Creative Commons Attribution-ShareAlike 4.0 licence. Such people are the believers who keep the Law in Trypho's question; a home renders the Greek word for a hearth.",
+   "uncertain": "The Greek is the Perseus digital edition of Archambault's 1909 print, used under a Creative Commons Attribution-ShareAlike 4.0 license. Such people are the believers who keep the Law in Trypho's question; a home renders the Greek word for a hearth.",
    "englishPrinted": "There are such people, Trypho,” I answered; “and these do not venture to have any intercourse with or to extend hospitality to such persons; but I do not agree with them.",
    "englishFile": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-   "englishLines": "19913-19915"
+   "englishLines": "19913-19915",
+   "secondReading": "minor"
   },
   {
    "modern": "as if it were the house of God",
@@ -187,7 +188,8 @@
    "uncertain": "The Latin of Irenaeus is held only as Holl quotes it in the notes to his edition of Epiphanius.",
    "original": "uti et Hierosolymam adorent quasi sit domus dei",
    "originalFile": "cic/texts/epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt",
-   "originalLines": "24980-24981"
+   "originalLines": "24980-24981",
+   "secondReading": "same"
   },
   {
    "modern": "an apostate from the Law",
@@ -219,18 +221,20 @@
    "uncertain": "Migne's print is held only as a damaged scan, which reads ἃ for a in a dormientibus. Richardson's English gives the same passage, with brought bread for tulit panem. Those who sleep are the dead.",
    "englishPrinted": "He brought bread and blessed and brake and gave to James the Just and said to him, ‘my brother eat thy bread, for the son of man is risen from among those that sleep.’",
    "englishFile": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
-   "englishLines": "39337-39340"
+   "englishLines": "39337-39340",
+   "secondReading": "same"
   },
   {
    "modern": "They believe in Christ, the Son of God, born of the Virgin Mary. They say he is the one who suffered under Pontius Pilate and rose again. We too believe in him. But while they want to be both Jews and Christians, they are neither Jews nor Christians.",
-   "printed": "Christum filium dei natum de Maria uirgine et eum dicunt esse, qui sub Pontio Pilato et passus est et resurrexit, in quem et nos credimus, sed dum uolunt et Iudaei esse et Christiani, nec Iudaei sunt nec Christiani",
+   "printed": "qui credunt in Christum filium dei natum de Maria uirgine et eum dicunt esse, qui sub Pontio Pilato et passus est et resurrexit, in quem et nos credimus, sed dum uolunt et Iudaei esse et Christiani, nec Iudaei sunt nec Christiani",
    "work": "Jerome, Letter 112.13 to Augustine (Augustine, Letter 75), ed. Goldbacher",
    "file": "cic/texts/augustine_epistulae-1-123-lat_goldbacher-csel34.txt",
-   "lines": "23272-23275",
-   "uncertain": "The subject is the sect Jerome names at line 23237, the Nazaraei.",
+   "lines": "23237-23275",
+   "uncertain": "The subject is the sect Jerome names at line 23237, the Nazaraei. The edition's notes, page number and running head between lines 23237 and 23272 are left out.",
    "englishPrinted": "they believe in Christ the Son of God, born of the Virgin Mary; and they say that He who suffered under Pontius Pilate and rose again, is the same as the one in whom we believe. But while they desire to be both Jews and Christians, they are neither the one nor the other.",
    "englishFile": "cic/texts/npnf101_augustine-confessions-letters.xml",
-   "englishLines": "33605-33609"
+   "englishLines": "33605-33609",
+   "secondReading": "minor"
   }
  ]
 }

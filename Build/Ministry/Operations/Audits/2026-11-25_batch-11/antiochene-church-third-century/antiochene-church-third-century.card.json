@@ -177,7 +177,8 @@
    "original": "ψαλμοὺς δὲ τοὺς uir εἰς τὸν κύριον ἡμῶν Ἰησοῦν Χριστὸν παύσας ὡς δὴ veo-τέρους καὶ νεωτέρων ἀνδρῶν συγγράμματα. εἰς ἑαυτὸν δὲ ἐν μέσῃ 77 ἐχχλησίᾳ τῇ μεγάλῃ τοῦ πάσχα ἡμέρᾳ ψαλμῳδεῖν γυναῖκας παρασχευάζων. ὧν xai ἀχούσας ἄν τις φρίξειεν",
    "originalFile": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt",
    "originalLines": "11896-11900",
-   "uncertain": "The rendering is made from Schwartz's Greek, printed here as the scan reads it. The scan has faults: uir for μὲν, veo for νεω, 77 for τῇ before ἐκκλησίᾳ, xai for καὶ, and chi for kappa in several words; its margin line number and quotation marks are left out. Rufinus's Latin in the same volume (in medio ecclesiae, lines 11951-11955) and McGiffert's English confirm the reading."
+   "uncertain": "The rendering is made from Schwartz's Greek, printed here as the scan reads it. The scan has faults: uir for μὲν, veo for νεω, 77 for τῇ before ἐκκλησίᾳ, xai for καὶ, and chi for kappa in several words; its margin line number and quotation marks are left out. Rufinus's Latin in the same volume (in medio ecclesiae, lines 11951-11955) and McGiffert's English confirm the reading.",
+   "secondReading": "same"
   },
   {
    "modern": "To each question he answered only, I am a Christian. When the torturer asked, What is your homeland? I am a Christian, he said. What is your trade? I am a Christian. Who are your parents? To all of it he said, I am a Christian.",
@@ -185,7 +186,8 @@
    "work": "John Chrysostom, Homily on the Martyr Lucian, Latin tr. Fronton du Duc (Migne, Patrologia Graeca 50)",
    "file": "cic/texts/john-chrysostom_homily-martyr-lucian-grc-lat_migne-pg50.txt",
    "lines": "15435-15440",
-   "uncertain": "The rendering is made from Fronton du Duc's Latin translation of Chrysostom's Greek. The Greek is not legible in the held scan, and no English is held. The scan prints a stray full stop after the second ille."
+   "uncertain": "The rendering is made from Fronton du Duc's Latin translation of Chrysostom's Greek. The Greek is not legible in the held scan, and no English is held. The scan prints a stray full stop after the second ille.",
+   "secondReading": "minor"
   },
   {
    "modern": "I pray you fare well in the Lord, remembering our troubles, fellow-Lucianist.",
@@ -196,7 +198,8 @@
    "original": "Ἐρρῶσϑαί σε iv κυρίῳ εὔχομαι, μεμνημένον τῶν ϑλίψεων ἡμῶν, 5 Συλλουκιανιστὰ",
    "originalFile": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt",
    "originalLines": "45744-45746",
-   "uncertain": "The rendering is made from the Greek of the letter as Epiphanius copies it, printed here as Oehler's scan reads it: iv for ἐν, and 5 a note mark; a stray line of scan marks between the two lines is left out. Jackson's English, from Theodoret's copy, confirms the reading."
+   "uncertain": "The rendering is made from the Greek of the letter as Epiphanius copies it, printed here as Oehler's scan reads it: iv for ἐν, and 5 a note mark; a stray line of scan marks between the two lines is left out. Jackson's English, from Theodoret's copy, confirms the reading.",
+   "secondReading": "minor"
   }
  ]
 }

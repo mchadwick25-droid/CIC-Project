@@ -5,13 +5,13 @@
  "relationsSummary": "This is not a community and not a tradition. It is a body of writing that passed among all of them. Its natural link to the other early movements is that many of them read it. Origen, for one, knew the Protevangelium as the Book of James.",
  "teaser": "The books the church read for centuries and never put in the Bible - including the Jewish ones that survive only because Christian scribes kept copying them.",
  "voices": [
-  "The Protevangelium of James - under James's name, and the source of nearly everything later Christians believed about Mary's childhood",
+  "The Protevangelium of James - a book under James's name that tells of Mary's childhood",
   "The apocryphal Acts of Andrew, John, Philip and Thomas - apostolic adventure written in the register of Greek romance, often with an ascetic edge",
   "The Testaments of the Twelve Patriarchs - a Jewish work with Christian passages worked in, or a Christian work on Jewish sources; the argument is unresolved",
   "The Gospel of Peter - condemned for its use at Rhossus by Serapion of Antioch; a gospel fragment in Peter's voice was found in an Egyptian grave in 1886",
   "The Apocalypse of Peter - which stood near the canon's edge in the Muratorian fragment, and did not make it"
  ],
- "legacy": "A book under James's name, the Protevangelium of James, tells of Mary's parents and her childhood in the Temple. Anna and Joachim and the presentation in the Temple came from it into the church's calendar and its sacred images. Yet the church never accepted the book as scripture. The ox and the ass at the manger come from Pseudo-Matthew, a later Latin retelling. The apocryphal Acts tell how the apostles died: Peter crucified head down, Philip hung by his ankles. Medieval art and legend probably took most of what they knew of those deaths from them. The verdicts went on as well. In 367 Athanasius of Alexandria called such books \"an invention of heretics\". Jerome still knew the Acts of Paul and Thecla, and counted them \"among the apocryphal writings\". Later, writing to a mother about her daughter's reading, he said: \"Let her avoid all apocryphal writings\". If she read them, she should understand \"that it requires infinite discretion to look for gold in the midst of dirt.\"",
+ "legacy": "A book under James's name, the Protevangelium of James, tells of Mary's parents and her childhood in the Temple. Anna and Joachim and the presentation in the Temple came from it into the church's calendar and its sacred images. Yet the church never accepted the book as scripture. The ox and the ass at the manger come from Pseudo-Matthew, a later Latin retelling. The apocryphal Acts tell how the apostles died: Peter crucified head down, Philip hung by his ankles. The verdicts went on as well. In 367 Athanasius of Alexandria called such books \"an invention of heretics\". Jerome still knew the Acts of Paul and Thecla, and counted them \"among the apocryphal writings\". Later, writing to a mother about her daughter's reading, he said: \"Let her avoid all apocryphal writings\". If she read them, she should understand \"that it requires infinite discretion to look for gold in the midst of dirt.\"",
  "documentedStories": [
   {
    "title": "Serapion Reads the Gospel of Peter Properly",
@@ -172,6 +172,13 @@
     "date": "1892",
     "language": "English",
     "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+   },
+   {
+    "title": "The Muratorian Fragment (Ante-Nicene Fathers 5)",
+    "author": null,
+    "date": "1886",
+    "language": "English",
+    "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
    }
   ]
  },
@@ -195,7 +202,8 @@
    "original": "εἰ τοῦτό ἐστιν μόνον τὸ do- >z00» ὑμῖν παρέχειν μιχροφυχίαν. ἀναγινωσχέσϑω",
    "originalFile": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt",
    "originalLines": "2515-2516",
-   "uncertain": "The Greek is spelled as the scan of Schwartz's print reads: \"do- >z00»\" stands for δοκοῦν, μιχροφυχίαν for μικροψυχίαν and ἀναγινωσχέσϑω for ἀναγινωσκέσθω. Rufinus's Latin in the same file, lines 2582-2583, confirms the reading: \"si hoc est solum, quod inter vos simultatem videtur inferre, legatur codex\"."
+   "uncertain": "The Greek is spelled as the scan of Schwartz's print reads: \"do- >z00»\" stands for δοκοῦν, μιχροφυχίαν for μικροψυχίαν and ἀναγινωσχέσϑω for ἀναγινωσκέσθω. Rufinus's Latin in the same file, lines 2582-2583, confirms the reading: \"si hoc est solum, quod inter vos simultatem videtur inferre, legatur codex\".",
+   "secondReading": "minor"
   },
   {
    "modern": "Brothers, we receive Peter and the other apostles as we receive Christ. But the writings falsely put under their names we refuse, as people with experience. We know that such things were not handed down to us.",
@@ -206,7 +214,8 @@
    "original": "ἀδελφοί. xai Πέτρον καὶ τοὺς ἄλλους ἀποστόλους »ἀποδεχόμεϑα ὡς Χριστόν, τὰ δὲ ὀνόματι αὐτῶν ψευδεπίγραφα ὡς ἔμπειροι παραιτούμεϑα, γινώσκοντες ὅτι τὰ τοιαῦτα οὐ παρελά- >Bousv",
    "originalFile": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt",
    "originalLines": "2510-2513",
-   "uncertain": "The Greek is spelled as the scan of Schwartz's print reads: xai stands for καὶ, and \"παρελά- >Bousv\" for παρελάβομεν, broken across two lines. Rufinus's Latin in the same file, lines 2576-2578, confirms the reading: \"Nos enim, fratres, et Petrum et alos apostolos recipimus sie ut Christum\", with the scan's alos and sie for alios and sic."
+   "uncertain": "The Greek is spelled as the scan of Schwartz's print reads: xai stands for καὶ, and \"παρελά- >Bousv\" for παρελάβομεν, broken across two lines. Rufinus's Latin in the same file, lines 2576-2578, confirms the reading: \"Nos enim, fratres, et Petrum et alos apostolos recipimus sie ut Christum\", with the scan's alos and sie for alios and sic.",
+   "secondReading": "minor"
   },
   {
    "modern": "Let them know that the presbyter in Asia who put that writing together, as if adding to Paul's fame from his own store, was found out. He confessed that he had done it for love of Paul, and he left his office.",
@@ -216,7 +225,8 @@
    "lines": "12262-12264",
    "englishPrinted": "let them know that, in Asia, the presbyter who composed that writing, as if he were augmenting Paul’s fame from his own store, after being convicted, and confessing that he had done it from love of Paul, was removed from his office.",
    "englishFile": "cic/texts/anf03_tertullian.xml",
-   "englishLines": "57782-57789"
+   "englishLines": "57782-57789",
+   "secondReading": "minor"
   }
  ]
 }

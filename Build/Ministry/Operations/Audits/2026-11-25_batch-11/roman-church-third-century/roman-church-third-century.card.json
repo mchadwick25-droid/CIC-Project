@@ -180,7 +180,8 @@
    "work": "Hippolytus, Refutation of All Heresies IX (tr. J. H. MacMahon, Ante-Nicene Fathers 5, 1886)",
    "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
    "lines": "13856-13857",
-   "uncertain": "The Greek of the Refutation is not held, so the English stands alone. These are Callistus's words as Hippolytus, his opponent, reports them."
+   "uncertain": "The Greek of the Refutation is not held, so the English stands alone. These are Callistus's words as Hippolytus, his opponent, reports them.",
+   "secondReading": "same"
   },
   {
    "modern": "They are separated from us, but we have not abandoned them. We urged them, and urge them still, to repent, if by some means they can receive pardon from the One who is able to grant it. If we abandoned them, they would grow worse.",
@@ -190,7 +191,8 @@
    "lines": "1129-1133",
    "englishPrinted": "these, however, we did not abandon, although they were separated from us, but exhorted them, and do exhort them, to repent, if in any way they may receive pardon from Him who is able to grant it; lest, haply, if they should be deserted by us, they should become worse.",
    "englishFile": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
-   "englishLines": "28856-28860"
+   "englishLines": "28856-28860",
+   "secondReading": "minor"
   },
   {
    "modern": "A great crowd of the brothers and sisters came running together. All of them had one voice, giving thanks to God. They showed the joy of their hearts in tears. They embraced them as if they had been set free from prison that very day.",
@@ -201,7 +203,8 @@
    "englishPrinted": "a great concourse of the brotherhood was assembled. There was one voice from all, giving thanks to God; all were expressing the joy of their heart by tears, embracing them as if they had this day been set free from the penalty of the dungeon.",
    "englishFile": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
    "englishLines": "33011-33016",
-   "uncertain": "Fraternitas is the whole body of believers, so brothers and sisters; concursus is a running together."
+   "uncertain": "Fraternitas is the whole body of believers, so brothers and sisters; concursus is a running together.",
+   "secondReading": "minor"
   }
  ]
 }

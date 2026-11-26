@@ -8,7 +8,7 @@
   "Clement of Alexandria wrote for educated Greeks, arguing that philosophy had been a tutor leading them toward Christ.",
   "Origen dominates the surviving record here: a commentator, a textual scholar, and the first Christian to attempt a systematic account of the faith.",
   "Dionysius of Alexandria studied under Origen and later became bishop, steering the Egyptian church through persecution and plague. Of Christians who nursed the dying while an epidemic emptied the city, he wrote: they 'held fast to each other and visited the sick fearlessly... and died with them most joyfully, taking the affliction of others, and drawing the sickness from their neighbors to themselves.'",
-  "Didymus the Blind lost his sight at four, yet taught in Alexandria for decades — later tradition remembers him as heading the school in its final generation, though no surviving primary account actually says so. Jerome studied under him. Didymus's own books vanished for over fifteen centuries, until a cache of them turned up by chance in the Egyptian sand near Tura in 1941; none has yet been translated into English, so his voice here comes only through his students.",
+  "Didymus the Blind lost his sight at four, yet taught in Alexandria for decades — the Latin church history of Rufinus says he became the teacher of the church's school, and the fifth-century historian Sozomen calls him its president. Jerome studied under him. Didymus's own books vanished for over fifteen centuries, until a cache of them turned up by chance in the Egyptian sand near Tura in 1941; none has yet been translated into English, so his voice here comes only through his students.",
   "Most of the ordinary people who filled these classrooms and congregations left no words of their own. Potamiaena, a young woman the church remembered by name for her courage under execution, is typical of what survives: her story, never her own words. Everything that survives here was written by the literate few — teachers, bishops, and their own students."
  ],
  "legacy": "The Alexandrian way of reading Scripture — that the text has depths beneath its surface, and that reading it is a lifelong formation rather than an act of information-gathering — became one of Christianity's most influential approaches, shaping how the East and West alike read Scripture for centuries.\n\nOrigen worked closely on texts. He set the standard for taking seriously the languages they were first written in. Basil of Caesarea and Gregory of Nazianzus studied his books. A fifth-century church historian, Socrates, says they drew from them \"the right interpretation of the sacred Scriptures.\" Gregory sent a friend \"the volume of the Philocalia of Origen,\" a book of passages from his work that opens with chapters on Scripture and how to read it. Ambrose and Jerome read him closely too, even when they were careful about saying so.\n\nThe school ran on. In Eusebius's own day, Achillas, a presbyter, or elder, of Alexandria, \"was placed over the school of the sacred faith.\"\n\nWhether the tradition also fed Egypt's monks is still argued. In his Life of Antony, Athanasius of Alexandria shows the monk as a boy raised at home by Christian parents, a boy who would not be taught to read.\n\nThe church of Alexandria later remembered the school in two minds. Its History of the Patriarchs was put together much later, and it condemns the books of Origen. Yet the same book honors Dionysius of Alexandria as patriarch. It also tells a legend of how he came to the faith: a pagan philosopher, he bought some of Paul's letters from an old widow, read them, and was baptized.",
@@ -87,6 +87,18 @@
    "type": "primary",
    "note": "A much later history of the Coptic church that calls Origen's books full of lies, honors Dionysius as patriarch, and tells the legend of his conversion.",
    "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt"
+  },
+  {
+   "work": "Rufinus, Church History, Book XI (Latin), ed. T. Mommsen",
+   "type": "primary",
+   "note": "Rufinus's chapter on Didymus the Blind, who became the teacher of the church's school.",
+   "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt"
+  },
+  {
+   "work": "Sozomen, Church History, Book III",
+   "type": "primary",
+   "note": "Its chapter on Didymus the Blind, president of the school of sacred learning in Alexandria.",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
   }
  ],
  "people": [
@@ -133,7 +145,8 @@
    "original": "xci γυναικῶν δὲ “Hoais ἔτι χατηχουμένη τὸ βάπτισμα, ὥς πού φησιν αὐτός. τὸ διὰ πυρὸς λαβοῦσα, τὸν βίον ἐξελήλυϑεν.",
    "originalFile": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt",
    "originalLines": "1613-1614",
-   "uncertain": "The rendering is made from Eusebius's Greek, printed here as Schwartz's scan reads it: xci for καὶ, Hoais for Ἡραΐς, χατηχουμένη for κατηχουμένη. McGiffert's English confirms the reading. He himself renders αὐτός, which points back to Origen in the sentence before; these are Origen's words as Eusebius gives them, a century later."
+   "uncertain": "The rendering is made from Eusebius's Greek, printed here as Schwartz's scan reads it: xci for καὶ, Hoais for Ἡραΐς, χατηχουμένη for κατηχουμένη. McGiffert's English confirms the reading. He himself renders αὐτός, which points back to Origen, whose pupils the chapter lists; these are Origen's words as Eusebius gives them, a century later.",
+   "secondReading": "same"
   },
   {
    "modern": "Faith is taught without letters. Its handbook, unpolished and divine at once, is called love, a spiritual book.",
@@ -141,7 +154,8 @@
    "work": "Clement of Alexandria, The Instructor III.11, tr. W. Wilson (Ante-Nicene Fathers 2)",
    "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
    "lines": "26369-26372",
-   "uncertain": "Clement's Greek is not held, so the English stands alone. The brief gives the sentence's last two clauses, whose subject is faith. Rude is rendered unpolished, since its modern sense misleads."
+   "uncertain": "Clement's Greek is not held, so the English stands alone. The brief gives the sentence's last two clauses, whose subject is faith. Rude is rendered unpolished, since its modern sense misleads.",
+   "secondReading": "minor"
   },
   {
    "modern": "If the argument won, we were not ashamed to change our minds and agree.",
@@ -152,7 +166,8 @@
    "original": "μήτε, εἰ λόγος cíooi, μεταπείϑεσϑαι καὶ συνομολογεῖν αἰδούσμεροι",
    "originalFile": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt",
    "originalLines": "10734-10735",
-   "uncertain": "The rendering is made from Dionysius's Greek as Eusebius keeps it, printed here as Schwartz's scan reads it: cíooi for αἱροίη, a word whose manuscript readings Schwartz's notes give, and αἰδούσμεροι, broken across two lines, for αἰδούμενοι. McGiffert's English confirms the sense. We is Dionysius and the believers together. Some manuscripts make the governing verb they, the believers, for we; Schwartz prints we."
+   "uncertain": "The rendering is made from Dionysius's Greek as Eusebius keeps it, printed here as Schwartz's scan reads it: cíooi for αἱροίη, a word whose manuscript readings Schwartz's notes give, and αἰδούσμεροι, broken across two lines, for αἰδούμενοι. McGiffert's English confirms the sense. We is Dionysius and the believers together. Some manuscripts make the governing verb they, the believers, for we; Schwartz prints we.",
+   "secondReading": "same"
   }
  ]
 }

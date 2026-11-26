@@ -3,7 +3,7 @@
  "sourcing": "Unusually good. Justin Martyr's two Apologies and the Dialogue, Athenagoras' Plea, Theophilus of Antioch to Autolycus, Tatian's Address and the Epistle to Diognetus all survive whole; Quadratus and Melito survive in fragments, and Aristides was recovered only in 1889. Roughly a dozen works in hand, which is more than several other traditions here have.",
  "floorNote": "Not in question",
  "relationsSummary": "It overlaps the household churches of the same years, in time and in people. Justin Martyr taught at Rome, Theophilus was bishop of Antioch and Melito bishop of Sardis. But it is a different thing. The household churches show the church's inner life. Here the church turns outward, to emperors and an educated public that despised it.",
- "teaser": "Second-century Christians handing written defenses to emperors who had them killed anyway - and arguing, while they did it, that the Greek poets and philosophers had spoken of one God too.",
+ "teaser": "Second-century Christians handing written defenses to emperors who had them killed anyway - and arguing, while they did it, that most Greek poets and philosophers had spoken of one God too.",
  "voices": [
   "Quadratus - the earliest, who gave Hadrian a defense and survives in a single paragraph",
   "Aristides of Athens - whose apology was lost for seventeen centuries and recovered in 1889",
@@ -200,7 +200,8 @@
    "work": "Melito of Sardis, petition to Marcus Aurelius, as quoted by Eusebius, Church History IV.26.5 (tr. A. C. McGiffert, Nicene and Post-Nicene Fathers, second series, 1, 1890)",
    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
    "lines": "25826-25829",
-   "uncertain": "Eusebius's Greek for this book is held only in a damaged scan, so the English stands alone. Melito's words survive only as Eusebius copied them."
+   "uncertain": "Eusebius's Greek for this book is held only in a damaged scan, so the English stands alone. Melito's words survive only as Eusebius copied them.",
+   "secondReading": "same"
   },
   {
    "modern": "But we hold that to watch a man being killed is close to killing him, so we have given up such shows. We do not even watch, so that we bring no guilt or stain on ourselves. How then could we commit murder?",
@@ -211,7 +212,8 @@
    "englishPrinted": "But we, deeming that to see a man put to death is much the same as killing him, have abjured such spectacles. How, then, when we do not even look on, lest we should contract guilt and pollution, can we put people to death?",
    "englishFile": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
    "englishLines": "13330-13349",
-   "uncertain": "πλησίον is near, so close to killing, not the same as killing."
+   "uncertain": "πλησίον is near, so close to killing, not the same as killing.",
+   "secondReading": "same"
   },
   {
    "modern": "They live in their own homelands, but as resident foreigners. They share in everything as citizens, and endure everything as strangers. Every foreign land is a homeland to them, and every homeland is foreign.",
@@ -221,7 +223,8 @@
    "lines": "312-317",
    "englishPrinted": "They dwell in their own countries, but simply as sojourners. As citizens, they share in all things with others, and yet endure all things as if foreigners. Every foreign land is to them as their native country, and every land of their birth as a land of strangers.",
    "englishFile": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
-   "englishLines": "2735-2738"
+   "englishLines": "2735-2738",
+   "secondReading": "same"
   }
  ]
 }

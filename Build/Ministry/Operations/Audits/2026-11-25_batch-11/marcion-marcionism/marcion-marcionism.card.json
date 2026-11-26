@@ -24,7 +24,7 @@
     {
      "work": "Eusebius, Church History IV.15.46",
      "type": "primary",
-     "note": "Metrodorus the Marcionite presbyter burned with Pionius."
+     "note": "Metrodorus, who appears to have been a Marcionite, burned with Pionius."
     },
     {
      "work": "Martyrdom of Pionius 21",
@@ -88,7 +88,7 @@
   "Apelles. Rhodon, who spoke with him when Apelles was an old man, counts him among Marcion's divided followers. Tertullian says Apelles left Marcion's continence for a woman, withdrew to Alexandria, and came back no longer a Marcionite. Both tie him to a maiden, Philumene: Rhodon says she was possessed by a demon, and Tertullian calls her a prostitute. These are enemies' charges.",
   "How many first sources. Rhodon says Apelles held one, Potitus and Basilicus two, as Marcion did, and Syneros three. Asked how he knew there was one, Apelles answered that the prophecies refuted themselves. Pressed, he swore that he did not know how there is one unbegotten God, but believed it, and Rhodon says he laughed at him.",
   "Their rites. Tertullian says their God still used the Creator's water to wash his people, oil to anoint them, honey and milk to feed them as children, and bread to represent his own body. Epiphanius, writing late in the fourth century, says they held their rites with learners not yet baptized looking on, used water in them, fasted on the Sabbath so as not to keep the rest of the God of the Jews, and let women baptize. He adds that, as he had heard from many, they allowed up to three washings or more.",
-  "The marriage rule. Tertullian reads it as a condemnation of marriage. Clement of Alexandria, another opponent, says the Marcionites would not marry because they did not wish to fill the world the Creator made. Hippolytus says Marcion called marriage corruption, thinking to grieve the maker by abstaining.",
+  "The marriage rule. Tertullian reads it as a condemnation of marriage. Clement of Alexandria, another opponent, says the Marcionites would not marry because they did not wish to fill the world the Creator made. Hippolytus says Marcion called marriage destruction, thinking to grieve the maker by abstaining.",
   "Their prayer. Ephrem, at Edessa, reports their claim to pray more than Daniel, and to pray the whole day.",
   "Martyrs. An anonymous writer against the Montanists, of the late second century, says the Marcionites claimed a \"multitude of martyrs for Christ\", and denies that this proves them right. Eusebius tells of a woman at Caesarea, under Valerian, who died after three men were given to wild beasts, and says it was reported that she belonged to the sect of Marcion.",
   "Metrodorus. The Acts of Pionius, written by those who were present, call him a presbyter of the sect of the Marcionites, and set Pionius on the right and Metrodorus on the left, both facing east. They date the deaths to a day in March, under the governor of Asia, Julius Proculus Quintilianus. Eusebius says only that Metrodorus appears to have been a proselyte of the Marcionite sect, and sets the deaths in Polycarp's time.",
@@ -231,7 +231,8 @@
    "work": "Rhodon, in Eusebius, Church History V.13.5, tr. McGiffert",
    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
    "lines": "29119-29123",
-   "uncertain": "Eusebius's Greek for this book is not held. The translator's note gives the Greek behind doctrine as λόγον."
+   "uncertain": "Eusebius's Greek for this book is not held. The translator's note gives the Greek behind doctrine as λόγον.",
+   "secondReading": "same"
   },
   {
    "modern": "Why, in times of persecution, do you not save your life at once by denying, when the incense box is held out? 'Never,' you say, 'never!'",
@@ -242,7 +243,8 @@
    "englishPrinted": "Why in persecutions also do you not, when the censer is presented, at once redeem your life by the denial of your faith? God forbid, you say with redoubled emphasis",
    "englishFile": "cic/texts/anf03_tertullian.xml",
    "englishLines": "24452-24457",
-   "uncertain": "Spelled as the scan of Kroymann's print reads: statira stands for statim. Oehler's print, lines 4956-4958, reads statim, with the same words."
+   "uncertain": "Spelled as the scan of Kroymann's print reads: statira stands for statim. Oehler's print, lines 4956-4958, reads statim, with the same words.",
+   "secondReading": "minor"
   },
   {
    "modern": "one Holy Catholic Church",
@@ -259,7 +261,8 @@
    "work": "Theodoret, Letter 81, to the consul Nomus, tr. Jackson",
    "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
    "lines": "31511-31512",
-   "uncertain": "Theodoret's Greek is not held."
+   "uncertain": "Theodoret's Greek is not held.",
+   "secondReading": "same"
   }
  ],
  "modernWorks": [

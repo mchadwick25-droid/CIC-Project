@@ -3,15 +3,15 @@
  "sourcing": "Substantial evidence survives for this tradition. Minucius Felix's Octavius (about twenty-four thousand words), Commodian's Instructiones (about fifteen thousand), and Arnobius' seven books Against the Heathen (a hundred and forty thousand) survive whole. Lactantius' writings survive at even greater length: the Divine Institutes alone runs to two hundred and forty thousand words, and with the Anger of God, the Workmanship of God, and other fragments, his surviving work totals just under half a million words. Tertullian's own corpus of thirty-two works also survives — the Apology, the five books Against Marcion (his longest single work, about a hundred and eighty-four thousand words), Against Praxeas, the Prescription Against Heretics, and the rest — along with the Passion of Perpetua and Felicitas, transmitted alongside his writings. In all, well over a million words survive from these five authors together. Three of the five are barely datable: Minucius Felix within a century, Commodian within three centuries; Tertullian's own time, the reigns of Severus and Caracalla by Jerome's account, is the best anchored of the set.",
  "floorNote": "Not in question for the corpus as a whole. Tertullian's own later years aligned with the New Prophecy (Montanism) out of Phrygia - a real, disclosed complication, but not a floor question: the census's own Montanism entry states that, by Tertullian's account and Hippolytus's for most of them, the New Prophecy \"held the same doctrine as the churches that condemned it,\" the dispute being one of authority and discipline, not of the Creed's own commitments.",
  "relationsSummary": "This is the Latin counterpart to the Greek apologists of the second century, a generation later and never as coherent a body. It includes Tertullian, whose defense of the Christians, the Apology, Lactantius later said had pleaded their cause in full.",
- "teaser": "A Carthaginian convert defended Christians against Roman slander in Latin, and others made the same case at Rome, at Sicca, and at Nicomedia, within sight of the emperor's palace.",
+ "teaser": "A Carthaginian convert defended Christians against Roman slander in Latin, and others made the same case at Rome, at Sicca, and at Nicomedia.",
  "voices": [
   "Tertullian of Carthage - a convert and trained rhetorician who wrote his Apology at Carthage around 200 and grew more rigorist and Montanist-aligned in his later years",
   "Minucius Felix - a Roman advocate whose dialogue gives the pagan side its full case, and whose own date nobody can fix within a century",
   "Arnobius of Sicca - a teacher of rhetoric who wrote seven books against the gods, by one account to convince his bishop that he meant it",
-  "Commodianus - who wrote catechism in acrostic verse that does not scan, and whom scholars have placed anywhere between the third century and the fifth",
+  "Commodianus - who wrote catechism in acrostic verse that does not scan, and whose date is not known",
   "Lactantius - Arnobius' pupil on Jerome's account, who wrote the fullest of the Latin defenses while the persecution was still running and afterwards tutored the son of the emperor who ended it"
  ],
- "legacy": "Lactantius named the Latin defenders before him and judged them. Minucius Felix, he wrote, might have been a fit champion of truth had he given himself wholly to it; Tertullian was skilled in literature of every kind but had little readiness in eloquence; and Tertullian's Apology had pleaded the cause in full, but only by answering accusers, where Lactantius set out to teach the whole faith. Eusebius, writing in Greek, quoted Tertullian's Apology from a Greek translation and called him well versed in the laws of the Romans. Jerome named Tertullian, Minucius, Arnobius and Lactantius together to defend a Christian's use of pagan books, and judged their style: Tertullian rugged and uncouth, Lactantius with a flow of eloquence worthy of Cicero, Arnobius lengthy and unequal. A later Latin list of books the church was not to receive, carried under the name of Gelasius, set the works of Tertullian, Lactantius, Commodian and Arnobius among the apocrypha. Tertullian left lines that entered common Christian speech, most famously that the blood of Christians is seed. And Lactantius' Latin was good enough that the Renaissance called him the Christian Cicero and printed him before it printed most of the Fathers - the Divine Institutes was among the first books off a press in Italy, in 1465.",
+ "legacy": "Lactantius named the Latin defenders before him and judged them. Minucius Felix, he wrote, might have been a fit champion of truth had he given himself wholly to it; Tertullian was skilled in literature of every kind but had little readiness in eloquence; and Tertullian's Apology had pleaded the cause in full, but only by answering accusers, where Lactantius set out to teach the whole faith. Eusebius, writing in Greek, quoted Tertullian's Apology from a Greek translation and called him well versed in the laws of the Romans. Jerome named Tertullian, Minucius, Arnobius and Lactantius together to defend a Christian's use of pagan books, and judged their style: Tertullian rugged and uncouth, Lactantius with a flow of eloquence worthy of Cicero, Arnobius lengthy and unequal. A later Latin list of books the church was not to receive, carried under the name of Gelasius, set the works of Tertullian, Lactantius, Commodian and Arnobius among the apocrypha. And Lactantius' Latin was good enough that the Renaissance called him the Christian Cicero and printed him before it printed most of the Fathers - the Divine Institutes was among the first books off a press in Italy, in 1465.",
  "documentedStories": [
   {
    "title": "The Morning the Church at Nicomedia Came Down",
@@ -19,7 +19,7 @@
    "tier": "1",
    "verification": "checked directly against the primary text",
    "teaser": "A professor of rhetoric in Diocletian’s capital watches the Great Persecution begin from across the street.",
-   "text": "Lactantius was teaching Latin rhetoric at Nicomedia when, at first light on the feast of the Terminalia, the prefect arrived at the city’s church with officers and soldiers. It stood on rising ground in full view of the palace, and Lactantius says Diocletian and Galerius watched from a height, arguing about whether to burn it. Fire might spread to the houses; so the Praetorians came with axes and leveled it ‘in a few hours’. The doors were forced, the Scriptures found and burned, the building plundered. The next day the edict was posted: Christians stripped of legal standing, their books surrendered, their assemblies forbidden. A man — Lactantius gives no name; Eusebius says he was of high rank — tore the edict down, mocking it aloud as a proclamation of victories over Goths and Sarmatians; he was arrested, ‘not merely tortured but roasted’, and, the text says, bore it with patience. Lactantius lost his post. He wrote the Divine Institutes over the following years to make the Christian case to exactly the educated class that had watched the church come down, and in old age wrote On the Deaths of the Persecutors to record how each emperor who signed the edict died. It is a partisan book, unsparing about its enemies’ agonies; but for the first day of the persecution it is the only eyewitness.",
+   "text": "Lactantius was teaching Latin rhetoric at Nicomedia when, at first light on the feast of the Terminalia, the prefect arrived at the city’s church with officers and soldiers. It stood on rising ground in full view of the palace, and Lactantius says Diocletian and Galerius watched from a height, arguing about whether to burn it. Fire might spread to the houses; so the Praetorians came with axes and leveled it ‘in a few hours’. The doors were forced, the Scriptures found and burned, the building plundered. The next day the edict was posted: Christians stripped of legal standing, their books surrendered, their assemblies forbidden. A man — Lactantius gives no name; Eusebius says he was of high rank — tore the edict down, mocking it aloud as a proclamation of victories over Goths and Sarmatians; he was arrested, ‘not only tortured, but burnt alive’, and, the text says, bore it with patience. Lactantius lost his post. He wrote the Divine Institutes over the following years to make the Christian case to exactly the educated class that had watched the church come down, and in old age wrote On the Deaths of the Persecutors to record how each emperor who signed the edict died. It is a partisan book, unsparing about its enemies’ agonies; but for the first day of the persecution it is the only eyewitness.",
    "caveat": "Lactantius was in the city and is the primary witness, but wrote On the Deaths of the Persecutors more than a decade later with an openly providential thesis; the man who tore down the edict is named only in later tradition.",
    "sources": [
     {
@@ -223,25 +223,28 @@
    "uncertain": "Halm prints lucifuga; his note at lines 862-863 gives the manuscript's lucifugax, with the same sense.",
    "englishPrinted": "a people skulking and shunning the light, silent in public, but garrulous in corners",
    "englishFile": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
-   "englishLines": "17588-17589"
+   "englishLines": "17588-17589",
+   "secondReading": "same"
   },
   {
-   "modern": "He could not win from the bishop the faith he had always attacked. So he laboured by lamplight over most brilliant books against his old religion. At last, as if with hostages for his devotion, he won the treaty.",
+   "modern": "He could not win from the bishop the faith he had always attacked. So he labored by lamplight over most brilliant books against his old religion. At last, as if with hostages for his devotion, he won the treaty.",
    "printed": "neque ah episcopo impetraret fidem quam semper impugnaverat , elucubravit adversum pristinam religionein luculentissimos libros, et tandem veluti quibusdam obsidibus pietatis fœdus impetravit",
    "work": "Jerome, Chronicle, on Arnobius, as printed by Paul Monceaux",
    "file": "cic/texts/monceaux_histoire-litteraire-afrique-chretienne-tome3_1905.txt",
    "lines": "21713-21718",
-   "uncertain": "Spelled as the scan of Monceaux's print reads: ah and religionein stand for ab and religionem. Fotheringham's edition of the Chronicle, lines 45070-45076, gives the same words, with its own scan slips (ncque for neque, ptetatts for pietatis)."
+   "uncertain": "Spelled as the scan of Monceaux's print reads: ah and religionein stand for ab and religionem. Fotheringham's edition of the Chronicle, lines 45070-45076, gives the same words, with its own scan slips (ncque for neque, ptetatts for pietatis).",
+   "secondReading": "minor"
   },
   {
-   "modern": "Whenever I had seen a stone made slick and smeared with olive oil, I fawned on it as if a power were present in it. I spoke to it, and begged favours from a block that felt nothing.",
+   "modern": "Whenever I had seen a stone made slick and smeared with olive oil, I fawned on it as if a power were present in it. I spoke to it, and begged favors from a block that felt nothing.",
    "printed": "si quando conspexeram lubricatum lapidem et ex oliui unguine sordidatum, tamquam inesset uis praesens, adulabar, adfabar et beneficia poscebam nihil sentiente de trunco",
    "work": "Arnobius, Against the Nations I.39, ed. Reifferscheid",
    "file": "cic/texts/arnobius_adversus-nationes-lat_reifferscheid1875-csel-tei.txt",
    "lines": "1132-1135",
    "englishPrinted": "whenever I espied an anointed stone and one bedaubed with olive oil, as if some power resided in it I worshipped it, I addressed myself to it and begged blessings from a senseless stock.",
    "englishFile": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
-   "englishLines": "40667-40670"
+   "englishLines": "40667-40670",
+   "secondReading": "minor"
   }
  ],
  "modernWorks": [
