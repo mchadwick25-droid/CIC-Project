@@ -127,7 +127,11 @@ def reach_key(x):
 
 
 def scan_items():
-    """The 11-23 rank's held findings, plus the held findings of this audit's own scans."""
+    """The 11-23 rank's held findings, plus the held findings of this audit's own scans.
+
+    A guess whose hedge is only on a date counts as an ordinary modern finding (Mark, 2026-11-26);
+    Hedged_Dates.json lists them.
+    """
     items = {}
     for p in json.load(open(RANK, encoding='utf-8')):
         items[p['key']] = p['items']
@@ -135,6 +139,12 @@ def scan_items():
     if os.path.exists(own):
         for key, its in json.load(open(own, encoding='utf-8')).items():
             items[key] = its
+    hd = os.path.join(HERE, 'Hedged_Dates.json')
+    if os.path.exists(hd):
+        for d in json.load(open(hd, encoding='utf-8')):
+            for i in items.get('tree/' + d['id'], []):
+                if i.get('kind') == 'guess' and i['quote'] == d['quote']:
+                    i['kind'] = 'hedged date'
     return items
 
 
@@ -165,6 +175,9 @@ def main():
             t = trust[e['id']]
             if t['all_hold']:
                 rg, rwhy = 'A', 'trust read: every sentence held or a fair summary'
+            elif t.get('ruled'):
+                rg = t['ruled']
+                rwhy += f"; trust read found {t['not_holding']} sentence(s) that do not hold; {t['ruling']}"
             else:
                 rg = 'F'
                 rwhy += f"; trust read found {t['not_holding']} sentence(s) that do not hold (failed trust read is F, Mark 2026-11-25)"

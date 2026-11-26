@@ -4162,6 +4162,9 @@ They are not rewritten now. Each is recorded, and a rewrite would mean recording
     - Rigor B (30 stories) is "no fault found by the scans", not a sentence-by-sentence check. Only the three stories that could be A had a trust read.
     - The cards were not graded, as with the traditions (Open-Gaps 416).
     - **Open.** Mark rules on the first two. Owner: Mark.
+    - **Moses the Black ruled (2026-11-26).** Mark: "B, note the fix". It grades B, with the fix noted: cut "Around the year 400," from the first sentence (Decision-Log, "Moses the Black graded B", 2026-11-26). The fix itself is open, for the next fix batch.
+    - **Hedged dates ruled (2026-11-26).** Mark: "Dates count as modern". A guess whose hedge is only on a date counts as one ordinary modern finding; guesses about causes, authors or motives stay F (Decision-Log, "A hedged date counts as one modern finding", 2026-11-26). The kit batches' Fs go from 29 to 24.
+    - **Open.** The Moses the Black fix, for the next fix batch (owner: the person rebuild line). Whether the tradition grades of 2026-11-25 are regraded under the hedged-date ruling (owner: Mark).
 
 425. **The story ledger and its status tool skip traditions (2026-11-26).** `tools/list_story_status.py` counts only persons and councils (`KINDS`), so `Story-Ledger.md` lists every batch 11 tradition under "On the kit, not in the census", even once its brief is live (batch 11 README; `2026-11-25_batch-11/Release.md`).
     - **Open.** Count a tradition's `longDescription` as its brief, and its recording as for a person. Owner: the next tool session.
