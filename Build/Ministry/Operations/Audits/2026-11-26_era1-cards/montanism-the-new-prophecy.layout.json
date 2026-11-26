@@ -23,7 +23,7 @@
     },
     {
      "when": "date unknown",
-     "text": "Their followers, Eusebius says, boast that Montanus is the Paraclete, the Helper Jesus promised, and that the women are his prophetesses.",
+     "text": "Some, Eusebius says, go about Asia and Phrygia boasting that Montanus is the Paraclete, the Helper Jesus promised, and that the women are his prophetesses.",
      "reference": "Eusebius, Church History V.14, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 29266-29269",
      "note": "Eusebius's own words, not the elder's."
     },
@@ -37,7 +37,7 @@
   },
   {
    "when": "2nd century",
-   "headline": "The churches of Asia examine the prophecy and shut its followers out",
+   "headline": "The churches judge the new prophecy, and those of Asia shut its followers out",
    "lines": [
     {
      "when": "date unknown",
@@ -84,8 +84,8 @@
     },
     {
      "when": "date unknown",
-     "text": "A bishop of Rome, whom Tertullian does not name, acknowledges the prophetic gifts of Montanus, Prisca and Maximilla and sends a letter of peace to the churches of Asia and Phrygia. A man newly come from Asia presses false charges against them, and the bishop recalls the letter.",
-     "reference": "Tertullian, Against Praxeas 1, cic/texts/anf03_tertullian.xml lines 51044-51054",
+     "text": "A bishop of Rome, whom Tertullian does not name, acknowledges the prophetic gifts of Montanus, Prisca and Maximilla and sends a letter of peace to the churches of Asia and Phrygia. Praxeas, who had brought his own teaching to Rome from Asia, presses false charges against them, and the bishop recalls the letter.",
+     "reference": "Tertullian, Against Praxeas 1, cic/texts/anf03_tertullian.xml lines 51038-51054",
      "note": "Only Tertullian tells it."
     }
    ]
@@ -119,7 +119,7 @@
     },
     {
      "when": "date unknown",
-     "text": "Serapion, bishop of Antioch, sends the writings of Claudius Apolinarius, bishop of Hierapolis, against the lying band of the new prophecy, so called.",
+     "text": "Serapion, bishop of Antioch, sends writings of Claudius Apolinarius, bishop of Hierapolis, against the New Prophecy, to show that its doings are abhorred by the brethren throughout the world.",
      "reference": "Eusebius, Church History V.19.1-2, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 30520-30562"
     }
    ]
@@ -196,7 +196,7 @@
     },
     {
      "when": "\"some time back\", before Firmilian's letter to Cyprian",
-     "text": "Bishops from Galatia, Cilicia and nearby lands, meeting at Iconium in Phrygia, refuse the baptism of those called Cataphrygians.",
+     "text": "Bishops gathered at Iconium in Phrygia, Firmilian among them, refuse the baptism of the Cataphrygians, holding that they have neither the Father, nor the Son, nor the Holy Spirit.",
      "reference": "Firmilian, Letter to Cyprian, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 39619-39640"
     }
    ]
@@ -273,13 +273,13 @@
    "lines": [
     {
      "when": "date unknown",
-     "text": "Justinian orders the Montanists and others his church calls heretics to give up their beliefs for the established faith. Those who hold out may not leave their property to their wives and children.",
+     "text": "Justinian orders the Montanists and others whose teachings are called heresies to give up their beliefs for the established faith. Those who hold out may not leave their property to their wives and children.",
      "reference": "Procopius, Secret History XI, cic/texts/procopius_secret-history_athenian-society1896.txt lines 2164-2173",
      "note": "Procopius, hostile to Justinian, says the emperor wanted blood and riches."
     },
     {
      "when": "date unknown",
-     "text": "A law of Justinian keeps Jews, Samaritans and those his church calls heretics, Montanists among them, bound to serve on town councils, without the councils' privileges.",
+     "text": "A law of Justinian keeps Jews, Samaritans and heretics, Montanists among them, bound to serve on town councils, without the councils' privileges.",
      "reference": "Justinian, Novel 45, preface, cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt lines 59020-59039"
     },
     {
@@ -291,7 +291,7 @@
      "when": "date unknown",
      "text": "John of Asia burns their house at Pepuza on the emperor's order. A marble chest marked as holding Montanus and his women is found there, and the bones are burned. Michael says the Montanists had a bishop and clergy at Pepuza, called it Jerusalem, and killed Christians there.",
      "reference": "Michael the Syrian, Chronicle, French translation, cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt lines 20584-20653",
-     "note": "Michael wrote some six hundred years later."
+     "note": "Michael wrote some six hundred years later; the charge of killing is his."
     }
    ]
   }

@@ -6,7 +6,7 @@
    "witness": "Eusebius of Caesarea, Church History, writing about a century later",
    "lines": [
     {
-     "when": "\"the first year\" of Commodus",
+     "when": "about \"the first year\" of Commodus",
      "text": "Pantaenus, trained among the Stoics, a school of Greek philosophers, has charge of the school of the faithful in Alexandria. Eusebius was told that a school of sacred learning had stood there from ancient times.",
      "reference": "Eusebius, Church History V.9-10.1, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 28467-28476, 28486-28576"
     },
@@ -35,12 +35,12 @@
    "lines": [
     {
      "when": "date unknown",
-     "text": "Clement, having succeeded Pantaenus, has charge of the instruction in the faith, and Origen, still a boy, is one of his pupils.",
+     "text": "Clement, Eusebius says, succeeded Pantaenus and had charge of the instruction in the faith, and Origen, still a boy, was one of his pupils.",
      "reference": "Eusebius, Church History VI.6, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 33015-33044, 33079-33081"
     },
     {
      "when": "in the reign of Severus",
-     "text": "Clement writes the Stromata, whose first book has a table of dates reaching the death of Commodus.",
+     "text": "Clement writes the Stromata. Eusebius dates it to this reign, since its first book has a table of dates reaching the death of Commodus.",
      "reference": "Eusebius, Church History VI.6, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 33079-33086"
     },
     {
@@ -93,7 +93,7 @@
     },
     {
      "when": "date unknown",
-     "text": "Potamiaena, still famous in Eusebius's day, is put to death, and her mother Marcella dies by fire.",
+     "text": "Potamiaena, still famous in Eusebius's day, is tortured and put to death by fire with her mother, Marcella.",
      "reference": "Eusebius, Church History VI.5, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32950-32961"
     }
    ]
@@ -127,7 +127,7 @@
     {
      "when": "before leaving Alexandria",
      "text": "Origen writes On First Principles. In it he teaches that Scripture, like a person, has a body, a soul and a spirit: the plain story for the simple, its soul for those who have gone further, and its spirit for those made perfect.",
-     "reference": "Eusebius, Church History VI.24.3, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 36068-36069; Origen, Philocalia 1.11, cic/texts/origen_philocalia_lewis1911.txt line 76"
+     "reference": "Eusebius, Church History VI.24.3, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 36068-36069; Origen, On First Principles, chapter On the Inspiration of Holy Scripture, cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 33470-33486; the same passage in Origen, Philocalia 1.11, cic/texts/origen_philocalia_lewis1911.txt line 76"
     },
     {
      "when": "date unknown",
@@ -195,7 +195,7 @@
    ]
   },
   {
-   "when": "Late 3rd and early 4th century",
+   "when": "In Eusebius's own day",
    "headline": "The school runs on in Eusebius's own day",
    "witness": "Eusebius of Caesarea, of men he knew",
    "lines": [

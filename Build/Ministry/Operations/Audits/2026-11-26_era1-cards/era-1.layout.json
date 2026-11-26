@@ -1,0 +1,149 @@
+{
+ "no": "I",
+ "num": 1,
+ "title": "The Early Church Era",
+ "academicName": "The Ante-Nicene Period",
+ "dates": "70-312 CE",
+ "keyEvents": [
+  "Destruction of the Temple (70)",
+  "Decian persecution (250)",
+  "Great Persecution begins (303)"
+ ],
+ "tag": "The apostles' children, under an empire that could turn on them",
+ "stepStatus": "Part of Phase One (Step 0 COMPLETE) - Phase One deliberately spans Eras 1-2, creed to council",
+ "ground": "#EFDDB3",
+ "groundDark": "#241A0C",
+ "rec": "Part of Phase One — the Step 0 selection record is on file.",
+ "chooserTint": "#C9973A",
+ "shortDescription": "From the burning of Jerusalem's Temple in 70 to Constantine's victory at Rome in 312, churches grew in cities from Lyons and Rome to Carthage, Alexandria, Asia Minor and Edessa. Through these years, emperors at times ordered Christians punished and their churches torn down.",
+ "timeline": [
+  {
+   "when": "70 to the early second century",
+   "headline": "The Temple falls, and Rome sets its first rule for Christians",
+   "lines": [
+    {
+     "when": "before the war",
+     "text": "The church of Jerusalem leaves the city for Pella, a town of Perea, commanded, Eusebius says, by a revelation given before the war.",
+     "reference": "Eusebius, Church History III.5.3, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 15291-15294",
+     "note": "Eusebius gives no year."
+    },
+    {
+     "when": "70",
+     "text": "Titus's army burns the Temple, and Jerusalem is taken in the second year of the emperor Vespasian.",
+     "reference": "Josephus, Jewish War VI.4.7 and VI.10.1 (Whiston), cic/texts/josephus_works-antiquities-wars-life_whiston1859.txt lines 126015-126020, 127565-127567"
+    },
+    {
+     "when": "in Trajan's reign",
+     "text": "Pliny, a governor troubled by the number of martyrs, writes to Trajan that Christians rise at dawn to sing hymns to Christ as a God. Trajan rules that Christians are not to be sought out, but are to be punished when found.",
+     "reference": "Eusebius, Church History III.33.1-2, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 19446-19451, 19533-19543"
+    },
+    {
+     "when": "in Trajan's reign",
+     "text": "No great persecution follows, Eusebius says, but local ones go on in particular provinces, stirred up sometimes by the people and sometimes by the rulers.",
+     "reference": "Eusebius, Church History III.33.2, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 19543-19553"
+    }
+   ]
+  },
+  {
+   "when": "The second century",
+   "headline": "Churches across the empire, tested from within and attacked from without",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "In the Roman province of Asia, the faithful meet often, in many places, to examine the sayings of the New Prophecy. They reject it and bar its followers from communion.",
+     "reference": "The anonymous writer quoted by Eusebius, Church History V.16.10, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 29721-29738"
+    },
+    {
+     "when": "177",
+     "text": "In the seventeenth year of the emperor Antoninus Verus, crowds in the cities turn on the Christians, and the churches of Lyons and Vienne in Gaul send an account of their martyrs.",
+     "reference": "Eusebius, Church History V, Introduction 1, and V.1.1-2, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 26706-26707, 26736-26739, 26796-26804"
+    }
+   ]
+  },
+  {
+   "when": "About 200 to the 250s",
+   "headline": "Carthage and Edessa come into view, and Decius persecutes the churches",
+   "lines": [
+    {
+     "when": "in the reign of Severus",
+     "text": "At Edessa, a flood breaks the city wall and destroys the temple of the church of the Christians.",
+     "reference": "Chronicle of Edessa 8 (Cowper), cic/texts/chronicle-of-edessa_cowper.txt line 53",
+     "note": "The chronicle dates it to the year 513 of its own reckoning."
+    },
+    {
+     "when": "in the reigns of Severus and Caracalla",
+     "text": "Tertullian, from Carthage in the province of Africa, writes his many books in Latin.",
+     "reference": "Jerome, Lives of Illustrious Men 53, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40496-40501"
+    },
+    {
+     "when": "250",
+     "text": "Decius succeeds Philip as emperor and begins a persecution of the churches. Fabianus, bishop of Rome, is put to death.",
+     "reference": "Eusebius, Church History VI.39.1, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 37383-37416"
+    },
+    {
+     "when": "in Decius's reign",
+     "text": "At Alexandria, Bishop Dionysius writes, the persecution began a whole year before the emperor's decree.",
+     "reference": "Eusebius, Church History VI.41.1, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 37764-37809"
+    }
+   ]
+  },
+  {
+   "when": "Under Valerian and Gallienus",
+   "headline": "A quarrel over baptism, a second persecution, then peace and plague",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "At Carthage, Cyprian, pastor of the church there, holds that those who come over from heresy must be baptized before they are received. Stephen, bishop of Rome, holds that this adds something new against tradition.",
+     "reference": "Eusebius, Church History VII.2-3, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 39212-39232, 39306-39314"
+    },
+    {
+     "when": "under Valerian",
+     "text": "Valerian, friendly to Christians at first, is persuaded to turn on them, Dionysius writes.",
+     "reference": "Eusebius, Church History VII.10.1-4, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 39919-39959"
+    },
+    {
+     "when": "under Gallienus",
+     "text": "Valerian is taken captive by the barbarians. His son Gallienus stops the persecution by public proclamation, and in a letter to the bishops lets them carry out their duties freely and orders others out of their places of worship.",
+     "reference": "Eusebius, Church History VII.13.1-2, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 40489-40528"
+    },
+    {
+     "when": "date unknown",
+     "text": "After war and famine, a plague follows. Dionysius writes that most of the Christians nursed the sick without fear, and many died with them.",
+     "reference": "Eusebius, Church History VII.22.5-7, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 41026-41028, 41065-41091"
+    }
+   ]
+  },
+  {
+   "when": "303 to 312",
+   "headline": "The Great Persecution, and its end",
+   "lines": [
+    {
+     "when": "303",
+     "text": "In the nineteenth year of Diocletian, in March, near Easter, imperial edicts order the churches leveled and the Scriptures burned.",
+     "reference": "Eusebius, Church History VIII.2.4, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 43460-43491"
+    },
+    {
+     "when": "date unknown",
+     "text": "Eusebius writes that he saw with his own eyes the houses of prayer thrown down and the Scriptures burned in the marketplaces.",
+     "reference": "Eusebius, Church History VIII.2.1, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 43425-43435"
+    },
+    {
+     "when": "311",
+     "text": "The emperor who began the persecution, struck by a loathsome illness, orders it stopped. A decree in the name of Galerius and his fellow emperors bids Christians rebuild their churches and pray for the emperor.",
+     "reference": "Eusebius, Church History VIII.16.3-5 and VIII.17.1-3, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 45403-45434, 45443-45457"
+    },
+    {
+     "when": "312",
+     "text": "Constantine marches on Rome and defeats Maxentius, who drowns when the bridge of boats he built over the river breaks.",
+     "reference": "Eusebius, Church History IX.9.2-7, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 48390-48392, 48411-48475"
+    }
+   ]
+  }
+ ],
+ "uncertain": [
+  "The move to Pella. Eusebius says a revelation commanded the church of Jerusalem to leave before the war, and gives no year.",
+  "How the churches of Alexandria and Edessa began. Eusebius gives Mark's founding of the churches of Alexandria as something people say. He says the apostle Thomas sent Thaddeus to Edessa, from records he says were taken from the archives of Edessa. The first dated mention of a church building at Edessa is the flood in the reign of Severus.",
+  "How steady the persecutions were. Eusebius says that after Trajan's ruling there was no great persecution for a time, only local ones in particular provinces; the hunts under Decius, Valerian and Diocletian were ordered by the emperors themselves.",
+  "The era's title and its end in 312 are the map's labels for the age, not dates the old sources give."
+ ]
+}
