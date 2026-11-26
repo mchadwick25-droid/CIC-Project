@@ -84,6 +84,23 @@ The rest of the list was checked against what is held:
 - The Africa river origin and Alexandria's bounds: nothing new held beyond Eusebius II.16, II.24 and V.10.
 - Hallier's Edessa Chronicle (1892): not fetched; Guidi's Latin and Cowper's English are held.
 
+## 5. Which modern works reckon the years no old source gives
+
+Mark, 2026-11-26, relayed by the coordinator: "the modern sources can be included in the cards as places for further
+research or checking credibility if they are historical and not speculitive". Each work below is held and out of
+copyright. They are for the cards' Modern works only, never for stating the year as fact.
+
+| year | modern reckoning | held file and line |
+|---|---|---|
+| 252, the African bishops' letter (Cyprian, Letter 57) | Hefele, History of the Councils I (Eng. 1872): "a fresh council at Carthage on the Ides of May 252" | `hefele_history-of-the-councils-v1-to-nicaea_clark1872.txt` 6506; also Hefele-Leclercq 1907 (`hefele-leclercq_histoire-des-conciles-tome1-1-...-1907.txt`) |
+| Cyprian's election (the 240s) | Benson, Cyprian (1897): "the earliest possible ... June A.D. 248, the latest possible April A.D. 249", reckoned from Pontius | `benson_cyprian-his-life-his-times-his-work_1897.txt` about 4284-4290 (two-column OCR); also Harnack's commentary on Pontius (1913) |
+| 410, the synod of Seleucia-Ctesiphon | Chabot (1902), from Yazdegerd's accession in 399 | `synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt` 16427 |
+| Minucius Felix (205) | no single date. The works disagree: Monceaux 1901 vol. I; Harnack, Chronologie II (1904); Schanz-Hosius-Krüger 1922 (not held). The corpus-map row records the dispute as Contested | `monceaux_histoire-litteraire-afrique-chretienne-tome1_1901.txt`; `harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt` |
+| Commodian (250) | no single date. Dombart's preface (1887) puts him in the mid-third century; Harnack 1904 puts him not before about 260, probably after Diocletian; a fifth-century view exists too. Recorded as Contested | `commodian_instructiones-lat_dombart1887-csel-tei.txt`; Harnack 1904 as above; Monceaux, tome 3 (not held) |
+
+For Minucius and Commodian, the modern works give a range and a dispute, not a year. A card that shows 205 or 250
+shows a choice, not something they reckon.
+
 ## Resume
 
 Done: everything above. Left: the PR's CI and merge; the message to the cards thread; the final report to
