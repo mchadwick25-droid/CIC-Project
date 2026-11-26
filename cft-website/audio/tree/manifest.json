@@ -121,12 +121,18 @@
  },
  "apocryphal-and-pseudepigraphal-literature": {
   "file": "apocryphal-and-pseudepigraphal-literature.mp3",
-  "bytes": 912238,
-  "chars": 1522,
-  "text_sha256": "6ffad7493a672e75b9053c07cf1b3de67cd78294a6ff157dbc53f9491bf7930d",
+  "bytes": 2150443,
+  "chars": 3574,
+  "text_sha256": "0f0a7e1ecb2ca7cd0004eaf8611907bde0aaf2487ceb884f248e3f0e398f4060",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
-  "outputFormat": "mp3_44100_64"
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.95,
+   "similarity_boost": 0.68,
+   "style": 0,
+   "use_speaker_boost": true
+  }
  },
  "apollinarian-christianity": {
   "file": "apollinarian-christianity.mp3",
