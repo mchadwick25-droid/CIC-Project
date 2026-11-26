@@ -48,4 +48,4 @@ Earlier research, as pointers only if decision 2 is approved: batch 3 (`justin-m
 6. No quote reuse. The barred quotes are listed on the slate.
 
 ## Rulings
-(none yet)
+- Cards (Mark, 2026-11-26, as the coordinator relayed it): "this thread does what it has and when batch 12 runs it then does the card refinements like now on new material". A separate era 1 card thread writes cards for every era 1 person, these twenty included, from their current briefs. When batch 12 runs, it rebuilds each brief, then refines that person's card (the card thread's version, as it then stands in the census) on the new material, with the same card role (`roles/card.md`) and checks. Batch 12 stays paused.
