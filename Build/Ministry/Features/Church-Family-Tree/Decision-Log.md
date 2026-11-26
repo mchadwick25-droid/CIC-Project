@@ -6156,3 +6156,7 @@ Mark, 2026-11-25: "for the initial audio introduction to anything should be call
 ## 2026-11-26 — No person or story recordings until a new voice (Mark)
 
 **Decided (Mark, 2026-11-26).** "Don't record people or stories until I find a new voice." No person brief and no documented story is recorded until Mark names a new voice for them; the person settings in `Brief-Kit/Recording_Settings.md` are not used meanwhile. Tradition, council and era briefs keep Daniel's settings ("Recording settings for tradition briefs", 2026-11-25). The three person references wait with the rest (Open-Gaps 413).
+
+## 2026-11-26 — The kit is left as it is; rulings are logged and folded in later (Mark)
+
+**Decided (Mark, 2026-11-26).** "I don't want to update the kit, it's working and ever time we edit it it starts to drift, these are logged later." The Brief Kit is not edited for the card design, the timeline, the opponents-only shape, the word "brief" or the era card. Each ruling stays in this Decision-Log, and a batch that needs one carries it in its batch header, quoted, as the kit's batch-header rule allows. They are folded into the kit later, together, when Mark calls for it.
