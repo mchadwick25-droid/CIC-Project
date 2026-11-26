@@ -40,6 +40,21 @@
    246.63
   ]
  },
+ "antiochene-church-third-century": {
+  "text_sha256": "e7f9456e504de108e84638bcb445f32a473fbf84b028151067be14dbce54de0b",
+  "starts": [
+   0.0,
+   30.65,
+   60.65,
+   80.79,
+   112.75,
+   135.03,
+   164.91,
+   184.11,
+   221.51,
+   251.37
+  ]
+ },
  "antony-the-great": {
   "text_sha256": "cce2a1cd1407d51fbab2ad6cf0da1349017e2bd83d2e5b008160c737c78f4eaa",
   "starts": [
@@ -49,6 +64,19 @@
    73.11,
    96.33,
    138.79
+  ]
+ },
+ "apocryphal-and-pseudepigraphal-literature": {
+  "text_sha256": "0f0a7e1ecb2ca7cd0004eaf8611907bde0aaf2487ceb884f248e3f0e398f4060",
+  "starts": [
+   0.0,
+   26.87,
+   56.03,
+   103.23,
+   148.07,
+   184.25,
+   206.39,
+   237.57
   ]
  },
  "apollinaris-of-laodicea": {
@@ -533,6 +561,18 @@
    232.85
   ]
  },
+ "ebionite-nazoraean-current": {
+  "text_sha256": "670f660dbc63910ec0abe12b806f860455a55b4d78e8432e9aa10b3d980eb188",
+  "starts": [
+   0.0,
+   40.47,
+   72.69,
+   103.01,
+   139.45,
+   184.23,
+   234.81
+  ]
+ },
  "english-unitarianism": {
   "text_sha256": "de8eadb1657d9499f22558c90282ac8e9fcac3ded67f3f5d71c4836fed30341d",
   "starts": [
@@ -653,6 +693,21 @@
   "starts": [
    0.0,
    72.01
+  ]
+ },
+ "greek-apologists-second-century": {
+  "text_sha256": "21b3ee4e1858b99760a3b1e43445936d21f242c5c0529ba5689e34e307e8b2bf",
+  "starts": [
+   0.0,
+   19.71,
+   55.05,
+   78.89,
+   113.31,
+   122.73,
+   165.97,
+   219.45,
+   247.73,
+   263.79
   ]
  },
  "gregory-of-nazianzus": {
@@ -980,6 +1035,20 @@
    272.91
   ]
  },
+ "latin-apologists": {
+  "text_sha256": "f7041fffc3ec1fb36b13307fa6740f4a550cccd7c15c5770521f92f538059041",
+  "starts": [
+   0.0,
+   39.21,
+   61.85,
+   86.75,
+   127.16,
+   170.78,
+   229.32,
+   269.5,
+   280.16
+  ]
+ },
  "leo-of-rome": {
   "text_sha256": "584d49134ee403b3f5dd5ede1c500feeff6d17f342c3e416477b1b1672ea53a4",
   "starts": [
@@ -1015,6 +1084,34 @@
    84.97,
    99.21,
    116.71
+  ]
+ },
+ "manichaeism": {
+  "text_sha256": "df029c0687f51c54bb913a4f487603e8f0df7336edb9b5fc552550ca4888ed1b",
+  "starts": [
+   0.0,
+   35.63,
+   69.97,
+   108.73,
+   150.97,
+   182.43,
+   215.55,
+   268.35,
+   282.71,
+   323.21
+  ]
+ },
+ "marcion-marcionism": {
+  "text_sha256": "331bf93dca1b4e08139770532a0675ee50155af24e6c4c34bcbd435fb246c7d2",
+  "starts": [
+   0.0,
+   27.77,
+   92.15,
+   133.13,
+   177.17,
+   197.5,
+   223.27,
+   249.35
   ]
  },
  "marcion-of-pontus": {
@@ -1399,6 +1496,19 @@
    120.55,
    141.93,
    149.27
+  ]
+ },
+ "roman-church-third-century": {
+  "text_sha256": "9dc0161607013939c8b5fff6747c843720ebd617a238aa0f16f1ea9f5c9b05dd",
+  "starts": [
+   0.0,
+   38.77,
+   81.53,
+   121.29,
+   144.53,
+   167.25,
+   223.97,
+   256.97
   ]
  },
  "romanian-greek-catholic-church-1698-1815": {
