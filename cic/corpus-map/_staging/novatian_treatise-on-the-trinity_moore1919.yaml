@@ -1,0 +1,12 @@
+source_file: novatian_treatise-on-the-trinity_moore1919.txt
+assignments:
+  - row_id: novatian_treatise-on-the-trinity_moore1919--on-the-trinity-against-the-sabellians
+    work: Novatian, On the Trinity (Moore's English, 1919)
+    author: novatian
+    locus: the translation in 31 chapters; Sabellius from about OCR line 2543 (add 11)
+    atlas_ids:
+    - modalist-monarchianism
+    role: context
+    confidence: assigned
+    note: 'A cross-check on anf05''s English and on our renderings from Fausset''s Latin. Context: it describes
+      the movement from outside, so a built world draws on it only as register: etic.'

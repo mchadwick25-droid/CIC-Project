@@ -3,6 +3,176 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: modalist-monarchianism
 works:
+- row_id: npnf204_athanasius-select-works-letters--de-sententia-dionysii
+  work: Defence of Dionysius (De Sententia Dionysii)
+  author: athanasius
+  locus: div1 'Defence of Dionysius. (De Sententia Dionysii.)', about raw line 29164
+  role: context
+  confidence: assigned
+  note: 'Athanasius keeps Dionysius of Alexandria''s letters against the Sabellians and Dionysius
+    of Rome''s complaint. Context: it describes the movement from outside, so a built world
+    draws on it only as register: etic.'
+  source_file: npnf204_athanasius-select-works-letters.xml
+- row_id: npnf204_athanasius-select-works-letters--de-decretis-dionysius-of-rome
+  work: 'Defence of the Nicene Definition (De Decretis) 26: Dionysius of Rome against the
+    Sabellians'
+  author: athanasius
+  locus: div1 14 - De Decretis, sections 25-27
+  role: context
+  confidence: assigned
+  note: 'Dionysius of Rome''s letter, quoted by Athanasius, condemning the Sabellians and
+    those who divide God into three. Context: it describes the movement from outside, so a
+    built world draws on it only as register: etic.'
+  source_file: npnf204_athanasius-select-works-letters.xml
+- row_id: augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886--de-haeresibus-36-41
+  work: Augustine, De haeresibus 36 (Noetiani) and 41 (Sabelliani sive Patripassiani)
+  author: augustine
+  locus: De haeresibus, the list at about file line 1149; the entries at about 1751
+  role: context
+  confidence: assigned
+  note: 'Augustine says the Noetians are hard to find but the Sabellians are ''in ore multorum''.
+    Context: it describes the movement from outside, so a built world draws on it only as
+    register: etic.'
+  source_file: augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt
+- row_id: npnf208_basil-letters-select-works--letters-sabellians
+  work: 'Basil, Letters: the passages on Sabellius and the Sabellians'
+  author: basil
+  locus: div1 9, the Letters (Sabellius named about 29 times in the volume)
+  role: context
+  confidence: assigned
+  note: 'Basil''s fourth-century use of Sabellius''s name for those who teach one person in
+    three names. Context: it describes the movement from outside, so a built world draws on
+    it only as register: etic.'
+  source_file: npnf208_basil-letters-select-works.xml
+- row_id: dionysius-alexandria_letters-and-treatises_feltoe1918--sabellian-letters
+  work: 'Dionysius of Alexandria, Letters and Treatises (Feltoe''s English, 1918): the Sabellian
+    letters and the Refutation and Defence'
+  author: dionysius-alexandria
+  locus: introduction from OCR line 569; the Refutation and Defence from about 4217 (add 11)
+  role: context
+  confidence: assigned
+  note: 'Feltoe''s English of the same fragments, a cross-check on our renderings from the
+    Greek. Context: it describes the movement from outside, so a built world draws on it only
+    as register: etic.'
+  source_file: dionysius-alexandria_letters-and-treatises_feltoe1918.txt
+- row_id: dionysius-alexandria_letters-and-other-remains-grc_feltoe1904--sabellian-letters-grc
+  work: Dionysius of Alexandria, letters on the Sabellians in the Pentapolis and the Refutation
+    and Defence, Greek (Feltoe 1904)
+  author: dionysius-alexandria
+  locus: Sabellius in the Pentapolis from about OCR line 5719; the letters to Dionysius of
+    Rome and the Refutation and Defence about 16877-17400 (add 12)
+  role: context
+  confidence: assigned
+  note: 'The bishop of Alexandria''s own words on the Sabellian teaching in the Pentapolis,
+    and on his quarrel with Dionysius of Rome over how to answer it, kept by Eusebius, Athanasius
+    and Basil. Context: it describes the movement from outside, so a built world draws on
+    it only as register: etic.'
+  source_file: dionysius-alexandria_letters-and-other-remains-grc_feltoe1904.txt
+- row_id: epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922--haer-57-62-noetians-sabellians
+  work: Panarion 57 (Noetians) and 62 (Sabellians)
+  author: epiphanius
+  locus: heresy 57 at about file line 27368; heresy 62 at about 30233
+  role: context
+  confidence: assigned
+  note: 'Epiphanius on Noetus of Smyrna, drawing on Hippolytus, and on the Sabellians still
+    found in Mesopotamia and around Rome in his day. Context: it describes the movement from
+    outside, so a built world draws on it only as register: etic.'
+  source_file: epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt
+- row_id: npnf201_eusebius-church-history-life-of-constantine--he-vii-6-sabellius
+  work: 'Church History VII.6: the heresy of Sabellius'
+  author: eusebius
+  locus: div3 'The Heresy of Sabellius' (Book VII, Chapter VI), about raw line 39470
+  role: context
+  confidence: assigned
+  note: 'Eusebius quotes Dionysius of Alexandria on the Sabellian teaching in Ptolemais of
+    the Pentapolis. Context: it describes the movement from outside, so a built world draws
+    on it only as register: etic.'
+  source_file: npnf201_eusebius-church-history-life-of-constantine.xml
+- row_id: filastrius_diversarum-hereseon-liber-lat_marx-csel38-1898--noetiani-sabelliani
+  work: 'Filastrius, Book of Heresies 53-54: the Noetiani and the Sabelliani or Patripassiani'
+  author: filastrius
+  locus: about OCR lines 4271-4298 (add 12)
+  role: context
+  confidence: assigned
+  note: 'A Latin catalogue of heresies by a fourth-century bishop of Brescia that names the
+    Patripassiani and ''Praxiani a Praxea et Hermogene, qui fuerunt in Africa''. Context:
+    it describes the movement from outside, so a built world draws on it only as register:
+    etic.'
+  source_file: filastrius_diversarum-hereseon-liber-lat_marx-csel38-1898.txt
+- row_id: anf05_hippolytus-cyprian-caius-novatian--against-noetus-modalist
+  work: Against the Heresy of One Noetus
+  author: hippolytus
+  locus: div2 3.4, 'Dogmatical and Historical' - Against the Heresy of One Noetus
+  role: context
+  confidence: assigned
+  note: 'The census''s named source for this movement: Noetus''s teaching quoted in order
+    to answer it, and the presbyters of Smyrna examining him. Context: it describes the movement
+    from outside, so a built world draws on it only as register: etic.'
+  source_file: anf05_hippolytus-cyprian-caius-novatian.xml
+- row_id: hippolytus_quae-feruntur-omnia-contra-noetum-grc_lagarde1858--contra-noetum-grc
+  work: Against the Heresy of One Noetus, Greek (Lagarde 1858)
+  author: hippolytus
+  locus: host OCR line 3223; this file's line = host line - 55 + 12
+  role: context
+  confidence: assigned
+  note: 'The Greek of the homily against Noetus, whose English the Library holds in anf05.
+    SECOND WITNESS: the Greek OCR is poor to fair, so the English stays the reading text and
+    a Greek line is quoted only where it reads clean against the page image. Context: it describes
+    the movement from outside, so a built world draws on it only as register: etic.'
+  source_file: hippolytus_quae-feruntur-omnia-contra-noetum-grc_lagarde1858.txt
+- row_id: hippolytus_refutatio-omnium-haeresium-grc_wendland-gcs26-1916--refutatio-ix-noetus-callistus-grc
+  work: Refutation of All Heresies, Book IX (Noetus, Zephyrinus, Callistus), Greek (Wendland
+    1916)
+  author: hippolytus
+  locus: Book IX from about OCR line 17630 (add 12)
+  role: context
+  confidence: assigned
+  note: 'The Greek of Hippolytus''s account of Noetus''s school at Rome, hostile and partisan
+    (his rivalry with Callistus); the English is in anf05. Greek OCR fair: check each quote
+    against the page image. Context: it describes the movement from outside, so a built world
+    draws on it only as register: etic.'
+  source_file: hippolytus_refutatio-omnium-haeresium-grc_wendland-gcs26-1916.txt
+- row_id: anf05_hippolytus-cyprian-caius-novatian--refutation-noetus-callistus-modalist
+  work: The Refutation of All Heresies, Book IX (Noetus, Callistus, Sabellius) and X
+  author: hippolytus
+  locus: div2 3.3, Book IX
+  role: context
+  confidence: assigned
+  note: 'Hippolytus''s account of Noetus''s school at Rome under Zephyrinus and Callistus,
+    and of Sabellius. Hostile and partisan (his rivalry with Callistus). Context: it describes
+    the movement from outside, so a built world draws on it only as register: etic.'
+  source_file: anf05_hippolytus-cyprian-caius-novatian.xml
+- row_id: anf05_hippolytus-cyprian-caius-novatian--novatian-trinity-modalist
+  work: 'A Treatise of Novatian Concerning the Trinity: the chapters against the Sabellians'
+  author: novatian
+  locus: div2 6.3
+  role: context
+  confidence: assigned
+  note: 'Novatian''s answer to those who make Christ the Father; its Latin is novatian_de-trinitate-lat_fausset1909.
+    Context: it describes the movement from outside, so a built world draws on it only as
+    register: etic.'
+  source_file: anf05_hippolytus-cyprian-caius-novatian.xml
+- row_id: novatian_de-trinitate-lat_fausset1909--de-trinitate-against-the-sabellians
+  work: 'Novatian, De Trinitate, Latin (Fausset 1909): the chapters against those who make
+    Christ the Father'
+  author: novatian
+  locus: the text from OCR line 2541 (add 12); chapters 12, 18 and 23-28
+  role: context
+  confidence: assigned
+  note: 'Primary original, ready to quote once each quote is verified: a Roman presbyter''s
+    answer to the teaching that the Son is the Father himself. Context: it describes the movement
+    from outside, so a built world draws on it only as register: etic.'
+  source_file: novatian_de-trinitate-lat_fausset1909.txt
+- row_id: novatian_treatise-on-the-trinity_moore1919--on-the-trinity-against-the-sabellians
+  work: Novatian, On the Trinity (Moore's English, 1919)
+  author: novatian
+  locus: the translation in 31 chapters; Sabellius from about OCR line 2543 (add 11)
+  role: context
+  confidence: assigned
+  note: 'A cross-check on anf05''s English and on our renderings from Fausset''s Latin. Context:
+    it describes the movement from outside, so a built world draws on it only as register:
+    etic.'
+  source_file: novatian_treatise-on-the-trinity_moore1919.txt
 - row_id: anf03_tertullian--against-praxeas-2
   work: Against Praxeas
   author: tertullian
@@ -47,3 +217,13 @@ works:
 
     '
   source_file: tertullian_quae-supersunt-t2-polemica-lat_oehler1853.txt
+- row_id: theodoret_opera-omnia-t4-haereticarum-fabularum-compendium-pg83-grc-lat_migne1864--haer-fab-ii-9-iii-3-sabellius-noetus
+  work: Theodoret, Compendium of Heretical Fables II.9 (Sabellius) and III.3 (Noetus of Smyrna)
+  author: theodoret
+  locus: II.9 about OCR line 31618; III.3 Greek 31896, Latin about 32202 (add 12)
+  role: context
+  confidence: assigned
+  note: 'A fifth-century catalogue entry on each, drawing on Hippolytus and Epiphanius. Context:
+    it describes the movement from outside, so a built world draws on it only as register:
+    etic.'
+  source_file: theodoret_opera-omnia-t4-haereticarum-fabularum-compendium-pg83-grc-lat_migne1864.txt

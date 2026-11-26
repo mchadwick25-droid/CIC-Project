@@ -117,3 +117,13 @@ assignments:
       verified verbatim against the file and against the page image where a letter is doubtful (INTAKE
       section 6) before it is used. Provisional because the account is anonymous and its date is not
       stated in the file's own text.
+  - row_id: gebhardt_acta-martyrum-selecta-lat-grc-deu_1902--passio-irenaei-sirmiensis
+    work: Passio S. Irenaei episcopi Sirmiensis (Gebhardt 1902)
+    author: gebhardt
+    locus: file line 8221 ('Passio S. Irenaei episcopi Sirmiensis.')
+    atlas_ids:
+    - danubian-latin-christianity
+    role: tradition
+    confidence: assigned
+    note: The act of the bishop of Sirmium executed under Diocletian. Also in acta-martyrum-selecta_gebhardt1902
+      and in Ruinart.

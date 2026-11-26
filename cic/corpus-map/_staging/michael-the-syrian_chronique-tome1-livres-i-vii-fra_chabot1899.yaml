@@ -52,3 +52,14 @@ assignments:
       twelfth and thirteenth centuries; its own voice. The same double placement was made
       for tome II this batch; a project-lead call if the two entries should not both hold
       it as tradition.
+  - row_id: michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899--bardaisan
+    work: 'Chronique, Book VI, chapter 6 and Chabot''s notes: Bardaisan'
+    author: michael-the-syrian
+    locus: Book VI, chapter VI from about file line 14401; the notes on Bardesanes about 14585-14770
+    atlas_ids:
+    - bardaisanite-current
+    role: context
+    confidence: assigned
+    note: 'A late Syriac chronicle''s account of Bardaisan (in Chabot''s French), a witness to how the Syriac
+      church remembered him; Chabot''s notes are a modern guide, not a witness. Context: it describes the
+      movement from outside, so a built world draws on it only as register: etic.'

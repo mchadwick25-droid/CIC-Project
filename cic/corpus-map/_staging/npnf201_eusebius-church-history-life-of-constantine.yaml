@@ -191,3 +191,23 @@ assignments:
     (one God, one Logos, one emperor, one empire). Core ijc material.
 
     '
+- row_id: npnf201_eusebius-church-history-life-of-constantine--he-iv-30-bardesanes
+  work: 'Church History IV.30: Bardesanes the Syrian and his extant works'
+  author: eusebius
+  locus: div3 'Bardesanes the Syrian and his Extant Works' (Book IV, Chapter XXX), about raw line 26519
+  atlas_ids:
+  - bardaisanite-current
+  role: context
+  confidence: assigned
+  note: 'Eusebius on Bardesanes'' dialogues against Marcion and ''On Fate'', and on his turn from Valentinus.
+    Context: it describes the movement from outside, so a built world draws on it only as register: etic.'
+- row_id: npnf201_eusebius-church-history-life-of-constantine--he-vii-6-sabellius
+  work: 'Church History VII.6: the heresy of Sabellius'
+  author: eusebius
+  locus: div3 'The Heresy of Sabellius' (Book VII, Chapter VI), about raw line 39470
+  atlas_ids:
+  - modalist-monarchianism
+  role: context
+  confidence: assigned
+  note: 'Eusebius quotes Dionysius of Alexandria on the Sabellian teaching in Ptolemais of the Pentapolis.
+    Context: it describes the movement from outside, so a built world draws on it only as register: etic.'

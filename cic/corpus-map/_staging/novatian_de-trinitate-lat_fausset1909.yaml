@@ -1,0 +1,14 @@
+source_file: novatian_de-trinitate-lat_fausset1909.txt
+assignments:
+  - row_id: novatian_de-trinitate-lat_fausset1909--de-trinitate-against-the-sabellians
+    work: 'Novatian, De Trinitate, Latin (Fausset 1909): the chapters against those who make Christ the
+      Father'
+    author: novatian
+    locus: the text from OCR line 2541 (add 12); chapters 12, 18 and 23-28
+    atlas_ids:
+    - modalist-monarchianism
+    role: context
+    confidence: assigned
+    note: 'Primary original, ready to quote once each quote is verified: a Roman presbyter''s answer to
+      the teaching that the Son is the Father himself. Context: it describes the movement from outside,
+      so a built world draws on it only as register: etic.'

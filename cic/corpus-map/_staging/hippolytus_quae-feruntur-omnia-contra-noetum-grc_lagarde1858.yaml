@@ -1,0 +1,14 @@
+source_file: hippolytus_quae-feruntur-omnia-contra-noetum-grc_lagarde1858.txt
+assignments:
+  - row_id: hippolytus_quae-feruntur-omnia-contra-noetum-grc_lagarde1858--contra-noetum-grc
+    work: Against the Heresy of One Noetus, Greek (Lagarde 1858)
+    author: hippolytus
+    locus: host OCR line 3223; this file's line = host line - 55 + 12
+    atlas_ids:
+    - modalist-monarchianism
+    role: context
+    confidence: assigned
+    note: 'The Greek of the homily against Noetus, whose English the Library holds in anf05. SECOND WITNESS:
+      the Greek OCR is poor to fair, so the English stays the reading text and a Greek line is quoted only
+      where it reads clean against the page image. Context: it describes the movement from outside, so a
+      built world draws on it only as register: etic.'

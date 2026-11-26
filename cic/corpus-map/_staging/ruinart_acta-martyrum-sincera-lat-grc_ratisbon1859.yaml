@@ -1,0 +1,14 @@
+source_file: ruinart_acta-martyrum-sincera-lat-grc_ratisbon1859.txt
+assignments:
+  - row_id: ruinart_acta-martyrum-sincera-lat-grc_ratisbon1859--danube-martyr-acts
+    work: 'Ruinart, Acta sincera: the Passio of Irenaeus of Sirmium, of Pollio of Cibalae, of Serenus of
+      Sirmium, and of Quirinus of Siscia with Prudentius''s hymn'
+    author: ruinart
+    locus: Irenaeus from OCR line 44260; Pollio 44451; Serenus 52662; Quirinus 53051 (add 12)
+    atlas_ids:
+    - danubian-latin-christianity
+    role: tradition
+    confidence: assigned
+    note: 'The martyr acts of the Pannonian churches under Diocletian, each with Ruinart''s introduction:
+      the region''s own memory of its bishops and readers. Latin good to fair. Prudentius''s hymn on Quirinus
+      is a later Spanish witness.'

@@ -18,3 +18,13 @@ assignments:
   role: tradition
   confidence: assigned
   note: "Her confessor's Life, the Dominican order's own account of her. Not read in depth. Catherine of Siena's Who profile sits on this entry."
+- row_id: acta-sanctorum_aprilis-tomus-3-lat_palme1866--de-s-pollione-cibalis
+  work: De S. Pollione lectore, martyre Cibalis in Pannonia (28 April), with his Passio
+  author: acta-sanctorum
+  locus: from about OCR line 131708 (add 12)
+  atlas_ids:
+  - danubian-latin-christianity
+  role: tradition
+  confidence: assigned
+  note: The reader of Cibalae burned under Diocletian, with the Bollandists' commentary. The Passio is
+    also in Ruinart.

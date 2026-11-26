@@ -1,0 +1,16 @@
+source_file: niceta-remesiana_life-and-works-lat_burn1905.txt
+assignments:
+  - row_id: niceta-remesiana_life-and-works-lat_burn1905--works-lat
+    work: 'Niceta of Remesiana, works (Burn 1905): the instructions for those coming to baptism, De ratione
+      fidei, De symbolo, De Spiritus sancti potentia, De vigiliis, De psalmodiae bono, the Te Deum'
+    author: niceta-remesiana
+    locus: the Latin texts after Burn's introduction (De ratione fidei about host OCR line 8785; De symbolo
+      about 10227; this file's line = host line - 47 + 12)
+    atlas_ids:
+    - danubian-latin-christianity
+    role: tradition
+    confidence: assigned
+    note: A bishop of Remesiana in Dacia, a Latin-speaking see of the central Balkans, whom Paulinus of
+      Nola knew around the turn of the fifth century, so his works sit at the window's end (c. 250-400).
+      The one Danubian Latin writer after Victorinus whose works survive in quantity. Primary, ready to
+      quote once each quote is verified.

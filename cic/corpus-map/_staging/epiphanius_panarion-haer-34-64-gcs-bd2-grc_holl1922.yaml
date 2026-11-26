@@ -36,3 +36,24 @@ assignments:
       episcopate, and his campaign against Origen ran through the Palestinian monasteries of
       Jerome and Rufinus. Placed as context for that world; whether it is better read as the
       world's own voice is a build-thread call, named here and not decided.
+  - row_id: epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922--haer-56-bardesianistae
+    work: 'Panarion 56: against the Bardesianites'
+    author: epiphanius
+    locus: 'heresy 56: the summary at about file line 16595; the chapter from about 26322'
+    atlas_ids:
+    - bardaisanite-current
+    role: context
+    confidence: assigned
+    note: 'Epiphanius on Bardaisan''s life at Edessa, his learning and his fall. Context: it describes the
+      movement from outside, so a built world draws on it only as register: etic.'
+  - row_id: epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922--haer-57-62-noetians-sabellians
+    work: Panarion 57 (Noetians) and 62 (Sabellians)
+    author: epiphanius
+    locus: heresy 57 at about file line 27368; heresy 62 at about 30233
+    atlas_ids:
+    - modalist-monarchianism
+    role: context
+    confidence: assigned
+    note: 'Epiphanius on Noetus of Smyrna, drawing on Hippolytus, and on the Sabellians still found in Mesopotamia
+      and around Rome in his day. Context: it describes the movement from outside, so a built world draws
+      on it only as register: etic.'

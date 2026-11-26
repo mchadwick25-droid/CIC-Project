@@ -1,0 +1,13 @@
+source_file: eusebius_praeparatio-evangelica-t1-libri-1-9-grc_gifford1903.txt
+assignments:
+  - row_id: eusebius_praeparatio-evangelica-t1-libri-1-9-grc_gifford1903--praeparatio-vi-10-bardesanes-grc
+    work: 'Praeparatio evangelica VI.10: the Greek extract from Bardesanes'' dialogue on fate'
+    author: eusebius
+    locus: Book VI, chapter 10, from OCR line 28434 to about 28997 (add 12)
+    atlas_ids:
+    - bardaisanite-current
+    role: tradition
+    confidence: assigned
+    note: 'Eusebius quotes at length, in Greek, the dialogue the Syriac Book of the Laws of Countries preserves.
+      The quoted words are the movement''s own; Eusebius is their keeper (the same footing as the anf08
+      row for the Syriac). Greek OCR fair: check each quote against the page image.'

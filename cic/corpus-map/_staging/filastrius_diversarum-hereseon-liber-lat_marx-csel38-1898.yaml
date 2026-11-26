@@ -1,0 +1,13 @@
+source_file: filastrius_diversarum-hereseon-liber-lat_marx-csel38-1898.txt
+assignments:
+  - row_id: filastrius_diversarum-hereseon-liber-lat_marx-csel38-1898--noetiani-sabelliani
+    work: 'Filastrius, Book of Heresies 53-54: the Noetiani and the Sabelliani or Patripassiani'
+    author: filastrius
+    locus: about OCR lines 4271-4298 (add 12)
+    atlas_ids:
+    - modalist-monarchianism
+    role: context
+    confidence: assigned
+    note: 'A Latin catalogue of heresies by a fourth-century bishop of Brescia that names the Patripassiani
+      and ''Praxiani a Praxea et Hermogene, qui fuerunt in Africa''. Context: it describes the movement
+      from outside, so a built world draws on it only as register: etic.'
