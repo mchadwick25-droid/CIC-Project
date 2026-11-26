@@ -38,3 +38,88 @@ assignments:
       A one-line hostile verdict on the Homoian victory of 359 ('antiqua patrum fides ...
       omnium proditione damnata est'), from the Nicene side. Context, not the Homoian
       world's voice.
+  - row_id: jerome_eusebii-chronici-canones-lat_fotheringham1923--chronici-canones-quadratus-aristides-justin-melito-apollinaris-latin
+    work: "Chronici canones, the entries for the Greek apologists: Quadratus and Aristides (Hadrian), Justin (Antoninus), Melito and Apollinaris (Marcus), Latin"
+    author: jerome
+    locus: "Quadratus and Aristides give their books to Hadrian, Hadrian's year 9-10, file lines 42531-42534; Justin's book to Antoninus, Antoninus's year 4, 42752-42754; Melito's apology to Antoninus (Marcus), Marcus's year 10, 43036-43038; Apollinaris of Hierapolis, 43041-43042; Tatian, 43059"
+    atlas_ids:
+      - greek-apologists-second-century
+    role: context
+    confidence: provisional
+    note: >
+      A dated old witness for the apologists' years, set by regnal year in Eusebius's Chronicle as
+      Jerome put it into Latin and continued it (380-381). The AD year is a conversion of the regnal
+      year, and the manuscripts place some entries a year apart (Fotheringham's apparatus gives the
+      variants under each page). Context: a later chronicler's dating, not the apologists' own voice.
+  - row_id: jerome_eusebii-chronici-canones-lat_fotheringham1923--chronici-canones-cerdo-and-marcion-come-to-rome-latin
+    work: "Chronici canones, the entry 'Valentinus heresiarches et Cerdo magister Marcionis Romam uenerunt', Latin"
+    author: jerome
+    locus: "Antoninus Pius's year 3, under Hyginus of Rome, file lines 42747-42750"
+    atlas_ids:
+      - marcion-marcionism
+    role: context
+    confidence: provisional
+    note: >
+      The old dated witness for the start of the Marcionite story at Rome: Cerdo, Marcion's teacher,
+      comes to Rome under Hyginus, in Antoninus's third year. It names Cerdo, not Marcion's own
+      arrival. The AD year is a conversion of the regnal year. Context, from the opposing side.
+  - row_id: jerome_eusebii-chronici-canones-lat_fotheringham1923--chronici-canones-the-phrygian-prophecy-begins-latin
+    work: "Chronici canones, the entry 'Pseudoprofetia quae Cata Frygas nominatur accepit exordium auctore Montano et Priscilla Maximillaque', Latin"
+    author: jerome
+    locus: "Marcus Aurelius's year 11, file lines 43052-43055"
+    atlas_ids:
+      - montanism-the-new-prophecy
+    role: context
+    confidence: provisional
+    note: >
+      An old dated witness for the start of the New Prophecy, by regnal year: Marcus's eleventh
+      year. It disagrees with Epiphanius (Panarion 48.1, 'about the nineteenth year of Antoninus
+      Pius'), so the start is told as two old datings, not settled. Hostile ('insanis uatibus').
+      Context.
+  - row_id: jerome_eusebii-chronici-canones-lat_fotheringham1923--chronici-canones-polycarp-papias-and-the-asian-persecution-latin
+    work: "Chronici canones, the entries for Papias, Polycarp and Ignatius, and for the martyrdom of Polycarp and Pionius, Latin"
+    author: jerome
+    locus: "Papias, Polycarp and Ignatius as hearers of John, file lines 42163-42166; 'Persecutione orta in Asia Polycarpus et Pionius fecere martyrium', Marcus's year 6-7, 42977-42979"
+    atlas_ids:
+      - post-apostolic-house-church
+    role: context
+    confidence: provisional
+    note: >
+      The old dated witness for Polycarp's martyrdom by regnal year, placed with Pionius under
+      Marcus; Eusebius's History (IV.15) also puts it under Marcus. The AD year is a conversion,
+      and the date is not the one the Martyrdom of Polycarp itself gives. Context.
+  - row_id: jerome_eusebii-chronici-canones-lat_fotheringham1923--chronici-canones-pantaenus-clement-origen-heraclas-latin
+    work: "Chronici canones, the entries for Pantaenus and Clement, Leonides and Origen, Demetrius and Heraclas, Latin"
+    author: jerome
+    locus: "Demetrius made bishop, file line 43267; Clement and Pantaenus, 43374-43377; Leonides's martyrdom and Origen's schooling, 43456 and 43485; Origen famous at Alexandria and Heraclas ordained, 43699-43702; Origen goes to Caesarea, 43741"
+    atlas_ids:
+      - alexandria-catechetical
+    role: context
+    confidence: provisional
+    note: >
+      Old dated witnesses for Alexandria's teachers by regnal year (Severus to Alexander Severus),
+      a source for the tradition's timeline years where the History gives none. The AD year is a
+      conversion. Context.
+  - row_id: jerome_eusebii-chronici-canones-lat_fotheringham1923--chronici-canones-tertullian-latin
+    work: "Chronici canones, the entry for Tertullian, Latin"
+    author: jerome
+    locus: "'Tertullianus Afer centurionis proconsularis filius omnium ecclesiarum sermone celebratur' (the OCR reads 'fllius' and 'ecdesiarum'), Severus's year 16, file lines 43480-43482"
+    atlas_ids:
+      - latin-apologists
+    role: context
+    confidence: provisional
+    note: >
+      An old dated witness for Tertullian's fame, by regnal year. The AD year is a conversion. It
+      gives no year for Minucius Felix or Commodian, who are not in the Chronicle. Context.
+  - row_id: jerome_eusebii-chronici-canones-lat_fotheringham1923--chronici-canones-cyprian-novatus-and-the-plague-latin
+    work: "Chronici canones, the entries for Cyprian: the plague and On Mortality, Novatus at Rome, the Letters, Cyprian's martyrdom, Latin"
+    author: jerome
+    locus: "the plague and Cyprian's On Mortality, file lines 43965-43967; 'Nouatus presbyter Cypriani Romam ueniens', 43969; Cyprian's letters, 43981; 'Cyprianus primum rhetor, deinde presbyter, ad extremum Carthaginiensis episcopus martyrio coronatur', Valerian's year 3, 44192"
+    atlas_ids:
+      - latin-pastoral-congregational-christianity
+    role: context
+    confidence: provisional
+    note: >
+      Old dated witnesses for Cyprian's Carthage by regnal year, Decius to Valerian. The Chronicle
+      dates his martyrdom, not his election; no held old source gives the year of the election.
+      Context.

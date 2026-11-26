@@ -329,6 +329,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Chronici canones, the entries for Papias, Polycarp and Ignatius, and for the martyrdom of Polycarp and Pionius, Latin",
+          "author": "jerome",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "jerome_eusebii-chronici-canones-lat_fotheringham1923.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1923); the archive.org record carries the Creative Commons Public Domain Mark 1.0 as its licence URL"
+        },
+        {
           "work": "Josephus, Works (Whiston), including Antiquities XVIII (the Testimonium) and XX (James, the brother of Jesus called Christ)",
           "author": "josephus",
           "role": "context",
@@ -935,6 +943,14 @@
           "rights": "Public Domain (pre-1930 publication); the item record carries no rights field"
         },
         {
+          "work": "Chronici canones, the entries for the Greek apologists: Quadratus and Aristides (Hadrian), Justin (Antoninus), Melito and Apollinaris (Marcus), Latin",
+          "author": "jerome",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "jerome_eusebii-chronici-canones-lat_fotheringham1923.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1923); the archive.org record carries the Creative Commons Public Domain Mark 1.0 as its licence URL"
+        },
+        {
           "work": "Dialogue with Trypho",
           "author": "justin_martyr",
           "role": "tradition",
@@ -1323,6 +1339,14 @@
           "confidence": "assigned",
           "source_file": "harnack_geschichte-der-altchristlichen-litteratur-chronologie-band2-deu_1904.txt",
           "rights": "Public Domain (pre-1930 publication; the host's item record carries possible-copyright-status NOT_IN_COPYRIGHT)"
+        },
+        {
+          "work": "Chronici canones, the entry for Tertullian, Latin",
+          "author": "jerome",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "jerome_eusebii-chronici-canones-lat_fotheringham1923.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1923); the archive.org record carries the Creative Commons Public Domain Mark 1.0 as its licence URL"
         },
         {
           "work": "Jerome, Lives of Illustrious Men (De Viris Illustribus), ch. LIII 'Tertullian the presbyter' (file line 40489)",
@@ -2807,6 +2831,14 @@
           "confidence": "provisional",
           "source_file": "npnf204_athanasius-select-works-letters.xml",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Chronici canones, the entries for Pantaenus and Clement, Leonides and Origen, Demetrius and Heraclas, Latin",
+          "author": "jerome",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "jerome_eusebii-chronici-canones-lat_fotheringham1923.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1923); the archive.org record carries the Creative Commons Public Domain Mark 1.0 as its licence URL"
         },
         {
           "work": "Jerome's Apology for Himself Against the Books of Rufinus",
@@ -5077,6 +5109,14 @@
           "rights": "Public Domain (pd-us-by-date: published 1908)"
         },
         {
+          "work": "Chronici canones, the entries for Cyprian: the plague and On Mortality, Novatus at Rome, the Letters, Cyprian's martyrdom, Latin",
+          "author": "jerome",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "jerome_eusebii-chronici-canones-lat_fotheringham1923.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1923); the archive.org record carries the Creative Commons Public Domain Mark 1.0 as its licence URL"
+        },
+        {
           "work": "Cathedra Petri (Koch, 1930)",
           "author": "koch",
           "role": "context",
@@ -5384,6 +5424,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Panarion 41 (Cerdonians) and 42 (Marcionites), Greek",
+          "author": "epiphanius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1922); the item record carries no rights field"
+        },
+        {
           "work": "The Refutation of All Heresies (Philosophumena)",
           "author": "hippolytus",
           "role": "context",
@@ -5398,6 +5446,14 @@
           "confidence": "assigned",
           "source_file": "anf01_apostolic-fathers-justin-irenaeus.xml",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Chronici canones, the entry 'Valentinus heresiarches et Cerdo magister Marcionis Romam uenerunt', Latin",
+          "author": "jerome",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "jerome_eusebii-chronici-canones-lat_fotheringham1923.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1923); the archive.org record carries the Creative Commons Public Domain Mark 1.0 as its licence URL"
         },
         {
           "work": "Against All Heresies (spurious appendix)",
@@ -5794,6 +5850,14 @@
           "rights": "Public Domain (pre-1930 publication); the item record carries no rights field"
         },
         {
+          "work": "Panarion 29 (Nazoraeans) and 30 (Ebionites), Greek",
+          "author": "epiphanius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1915); the archive.org record carries no rights field, so the imprint date is the basis"
+        },
+        {
           "work": "The Refutation of All Heresies (Philosophumena)",
           "author": "hippolytus",
           "role": "context",
@@ -5888,6 +5952,14 @@
           "rights": "Public Domain (pre-1930 publication); the item record carries no rights field"
         },
         {
+          "work": "Panarion 48: against the Phrygians, also called Montanists, Greek",
+          "author": "epiphanius",
+          "role": "context",
+          "confidence": "assigned",
+          "source_file": "epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1922); the item record carries no rights field"
+        },
+        {
           "work": "The Church History of Eusebius (Historia Ecclesiastica)",
           "author": "eusebius",
           "role": "context",
@@ -5902,6 +5974,14 @@
           "confidence": "assigned",
           "source_file": "anf05_hippolytus-cyprian-caius-novatian.xml",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Chronici canones, the entry 'Pseudoprofetia quae Cata Frygas nominatur accepit exordium auctore Montano et Priscilla Maximillaque', Latin",
+          "author": "jerome",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "jerome_eusebii-chronici-canones-lat_fotheringham1923.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1923); the archive.org record carries the Creative Commons Public Domain Mark 1.0 as its licence URL"
         },
         {
           "work": "Against Praxeas",
@@ -6975,6 +7055,14 @@
       "name": "Early Palestinian Ascetic Monasticism",
       "status": "Possible Future World (on record)",
       "works": [
+        {
+          "work": "Letter 51: Epiphanius of Salamis to John of Jerusalem, in Jerome's Latin",
+          "author": "epiphanius",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "jerome_epistulae-1-70-lat_hilberg-csel54-1910.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1910); the archive.org record gives possible-copyright-status NOT_IN_COPYRIGHT. The scan carries no notice against reproduction."
+        },
         {
           "work": "Panarion, heresies 34-64 (GCS 31, Holl 1922), Greek",
           "author": "epiphanius",
@@ -8808,6 +8896,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Jerome, Letters 1-70 (Hilberg, CSEL 54), Latin",
+          "author": "jerome",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "jerome_epistulae-1-70-lat_hilberg-csel54-1910.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1910); the archive.org record gives possible-copyright-status NOT_IN_COPYRIGHT. The scan carries no notice against reproduction."
+        },
+        {
           "work": "Letter CVIII (To Eustochium - Epitaph of Paula)",
           "author": "jerome",
           "role": "tradition",
@@ -9413,6 +9509,14 @@
           "confidence": "assigned",
           "source_file": "npnf111_chrysostom-homilies-acts-romans.xml",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Homilies on the Gospel of Matthew, 45-90 (Field 1839), Greek",
+          "author": "chrysostom",
+          "role": "tradition",
+          "confidence": "assigned",
+          "source_file": "john-chrysostom_homiliae-in-matthaeum-t2-hom-45-90-grc_field1839.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1839); the archive.org record carries the Creative Commons Public Domain Mark 1.0 as its licence URL. The scan carries no notice against reproduction."
         },
         {
           "work": "Homilies on the Gospel of St. John",

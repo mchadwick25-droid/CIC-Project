@@ -285,6 +285,23 @@ works:
   role: tradition
   confidence: assigned
   source_file: npnf111_chrysostom-homilies-acts-romans.xml
+- row_id: john-chrysostom_homiliae-in-matthaeum-t2-hom-45-90-grc_field1839--homilies-45-90-on-matthew-greek
+  work: Homilies on the Gospel of Matthew, 45-90 (Field 1839), Greek
+  author: chrysostom
+  locus: whole file after the header; Homily 50 from host OCR line 3369 (file line 3326);
+    the passage on honoring Christ's body, ending 'ψυχῶν χρυσῶν', host lines 3835-3866 (file
+    lines 3792-3823)
+  role: tradition
+  confidence: assigned
+  language: grc
+  note: 'Greek original of the English already assigned to this bucket from npnf110 (Prevost
+    and Riddle). PRIMARY ORIGINAL per cic/texts/INTAKE.md: Field''s critical text. The Greek
+    OCR is good to fair running text, ready to quote once each quote is verified against the
+    page images (INTAKE section 6); Field''s apparatus is run into the text, and the Latin
+    parts are unusable. Mirrors the English twin''s role.
+
+    '
+  source_file: john-chrysostom_homiliae-in-matthaeum-t2-hom-45-90-grc_field1839.txt
 - row_id: npnf114_chrysostom-homilies-john-hebrews--homilies-on-the-gospel-of-st-john
   work: Homilies on the Gospel of St. John
   author: chrysostom

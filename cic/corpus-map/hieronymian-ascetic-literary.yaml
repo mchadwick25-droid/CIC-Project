@@ -267,6 +267,20 @@ works:
 
     '
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
+- row_id: jerome_epistulae-1-70-lat_hilberg-csel54-1910--epistulae-1-70-latin
+  work: Jerome, Letters 1-70 (Hilberg, CSEL 54), Latin
+  author: jerome
+  locus: whole file after the header
+  role: tradition
+  confidence: assigned
+  language: lat
+  note: 'Latin original of the first seventy of the letters already assigned to this bucket
+    from npnf206. PRIMARY ORIGINAL per cic/texts/INTAKE.md: Hilberg''s critical text, good
+    Latin OCR, ready to quote once each quote is verified against the scan. As with the English,
+    the collection holds letters Jerome received as well as sent; check each letter''s sender.
+
+    '
+  source_file: jerome_epistulae-1-70-lat_hilberg-csel54-1910.txt
 - row_id: npnf206_jerome-principal-works--letter-cviii-to-eustochium-epitaph-of-paula
   work: Letter CVIII (To Eustochium - Epitaph of Paula)
   author: jerome

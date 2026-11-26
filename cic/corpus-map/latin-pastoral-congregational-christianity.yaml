@@ -18019,6 +18019,22 @@ works:
 
     '
   source_file: hefele-leclercq_histoire-des-conciles-tome2-1-conciles-africains-slice-fra_1908.txt
+- row_id: jerome_eusebii-chronici-canones-lat_fotheringham1923--chronici-canones-cyprian-novatus-and-the-plague-latin
+  work: 'Chronici canones, the entries for Cyprian: the plague and On Mortality, Novatus at
+    Rome, the Letters, Cyprian''s martyrdom, Latin'
+  author: jerome
+  locus: the plague and Cyprian's On Mortality, file lines 43965-43967; 'Nouatus presbyter
+    Cypriani Romam ueniens', 43969; Cyprian's letters, 43981; 'Cyprianus primum rhetor, deinde
+    presbyter, ad extremum Carthaginiensis episcopus martyrio coronatur', Valerian's year
+    3, 44192
+  role: context
+  confidence: provisional
+  note: 'Old dated witnesses for Cyprian''s Carthage by regnal year, Decius to Valerian. The
+    Chronicle dates his martyrdom, not his election; no held old source gives the year of
+    the election. Context.
+
+    '
+  source_file: jerome_eusebii-chronici-canones-lat_fotheringham1923.txt
 - row_id: koch_cathedra-petri-deu_1930--cathedra-petri-koch-1930
   work: Cathedra Petri (Koch, 1930)
   author: koch

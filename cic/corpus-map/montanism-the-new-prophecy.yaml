@@ -91,6 +91,20 @@ works:
 
     '
   source_file: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846.txt
+- row_id: epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922--haer-48-phrygians-montanists
+  work: 'Panarion 48: against the Phrygians, also called Montanists, Greek'
+  author: epiphanius
+  locus: the summary at about file line 16486; heresy 48 from about 17007; 'περὶ τὸ ἐννεακαιδέκατον
+    ἔτος Ἀντωνίνου τοῦ εὐσεβοῦς' at 17019
+  role: context
+  confidence: assigned
+  language: grc
+  note: 'Epiphanius on the New Prophecy, with sayings of Montanus and Maximilla quoted as
+    he knew them (48.4, 48.10-13). He dates its rise to about the nineteenth year of Antoninus
+    Pius (48.1.2), which disagrees with the Chronicle''s eleventh year of Marcus; the start
+    is told as two old datings. The Greek original; no English of the Panarion is held. Context:
+    hostile. Check every quotation against the page images.'
+  source_file: epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt
 - row_id: npnf201_eusebius-church-history-life-of-constantine--the-church-history-of-eusebius-historia-ecclesiastica-2
   work: The Church History of Eusebius (Historia Ecclesiastica)
   author: eusebius
@@ -1257,6 +1271,20 @@ works:
 
     '
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
+- row_id: jerome_eusebii-chronici-canones-lat_fotheringham1923--chronici-canones-the-phrygian-prophecy-begins-latin
+  work: Chronici canones, the entry 'Pseudoprofetia quae Cata Frygas nominatur accepit exordium
+    auctore Montano et Priscilla Maximillaque', Latin
+  author: jerome
+  locus: Marcus Aurelius's year 11, file lines 43052-43055
+  role: context
+  confidence: provisional
+  note: 'An old dated witness for the start of the New Prophecy, by regnal year: Marcus''s
+    eleventh year. It disagrees with Epiphanius (Panarion 48.1, ''about the nineteenth year
+    of Antoninus Pius''), so the start is told as two old datings, not settled. Hostile (''insanis
+    uatibus''). Context.
+
+    '
+  source_file: jerome_eusebii-chronici-canones-lat_fotheringham1923.txt
 - row_id: anf03_tertullian--against-praxeas-3
   work: Against Praxeas
   author: tertullian

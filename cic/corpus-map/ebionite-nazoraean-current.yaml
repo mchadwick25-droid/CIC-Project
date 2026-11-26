@@ -49,6 +49,23 @@ works:
 
     '
   source_file: apologists-fragmentary_reliquiae-sacrae-vol1-lat-grc_routh1846.txt
+- row_id: epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915--haer-29-30-nazoraeans-ebionites
+  work: Panarion 29 (Nazoraeans) and 30 (Ebionites), Greek
+  author: epiphanius
+  locus: heresy 29 from file line 24391, its places at 25026-25031 (Beroea in Coele-Syria,
+    the Decapolis near Pella, Kokaba in Basanitis; begun after the disciples left Jerusalem
+    for Pella); heresy 30 from 25227, its beginning 'after the capture of Jerusalem' and Kokaba
+    at 25334-25343, its spread to Nabataea, Paneas, Moabitis, Kokaba, Cyprus, Asia and Rome
+    at 26876-26879 (file lines, not OCR lines)
+  role: context
+  confidence: assigned
+  language: grc
+  note: 'Epiphanius on the Nazoraeans and Ebionites, with his quotations from their Gospel.
+    The old source for the current''s places and for its start after the fall of Jerusalem;
+    it names no end year. The Greek original; no English of the Panarion is held. Context:
+    hostile, late fourth century. Holl''s Greek is fair; check every quotation against the
+    page images.'
+  source_file: epiphanius_ancoratus-panarion-haer-1-33-gcs-bd1-grc_holl1915.txt
 - row_id: anf05_hippolytus-cyprian-caius-novatian--the-refutation-of-all-heresies-philosophumena
   work: The Refutation of All Heresies (Philosophumena)
   author: hippolytus
