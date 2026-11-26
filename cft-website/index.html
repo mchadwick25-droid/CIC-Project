@@ -135616,8 +135616,8 @@ function sectionSources(list){
   return `<details class="sources-panel"><summary>Sources</summary><ul class="voices">${list.map(w=>`<li>${esc(w)}</li>`).join('')}</ul></details>`;
 }
 const BUILT_WORLD_IDS=new Set(["post-apostolic-house-church","alexandria-catechetical","syriac-edessa-nisibis","desert-monasticism","cappadocian-nicene-pastoral-monastic-tradition","imperial-juridical-christianity","hieronymian-ascetic-literary","gallic-monastic-ascetic-christianity","the-reformed-cities-zurich-and-geneva","donatism","lutheran-wittenberg-and-its-congregations"]);
-// Built worlds whose card plays its brief in place of the world narration (Mark, 2026-11-26: "4. yes the new brief we
-// can retire the world narration"). Until a brief's recording exists, the world narration keeps playing and the brief shows open.
+// Built worlds whose card plays its brief in place of the world narration. Until a brief's recording exists, the world
+// narration keeps playing and the brief shows open.
 const BRIEF_WORLD_IDS=new Set(["alexandria-catechetical","syriac-edessa-nisibis","post-apostolic-house-church","latin-pastoral-congregational-christianity"]);
 const playsWorldNarration=id=>BUILT_WORLD_IDS.has(id)&&!(BRIEF_WORLD_IDS.has(id)&&treeAudioCurrent.has(id));
 window.__orientationRenderPromise=new Promise(resolve=>{window.__orientationRenderResolve=resolve;});

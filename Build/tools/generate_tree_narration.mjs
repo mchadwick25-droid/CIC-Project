@@ -17,8 +17,7 @@
  * `longDescription` - the only prose that exists for it, and what
  * atlas-v3.html itself shows for every non-built movement.
  * The built worlds in BRIEF_WORLD_IDS narrate their brief, the census
- * `longDescription`, like any tradition (Mark, 2026-11-26: "4. yes the new
- * brief we can retire the world narration").
+ * `longDescription`, like any tradition.
  *
  * Output: cft-website/audio/tree/<id>.mp3, one per movement that has a
  * longDescription, and a line for each in cft-website/audio/tree/manifest.json.
