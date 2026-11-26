@@ -37,7 +37,7 @@ Jobs, homes and direct lines, siblings, the live stories beside each, and quote 
 Earlier research, as pointers only if decision 2 is approved: batch 3 (`justin-martyr`), batch 4 (`clement-of-alexandria`), batch 6 (`josephus`, `tatian`, `hippolytus-of-rome`, `suetonius`, `tacitus`, `ignatius-of-antioch`, `valentinus`, `bardaisan-of-edessa`), batch 7 (the rest), and for `origen` and `methodius-of-olympus`, `2026-11-16_eight-standard-v1`.
 
 ## Steps
-0. Slate: sent to Mark through the coordinator, 2026-11-26. Waiting.
+0. Slate: sent to Mark through the coordinator, 2026-11-26. Paused by Mark the same day, as the coordinator relayed it: "i want everything else done with batch 11 and other system work before starting batch 12". The slate is not approved; no research starts. The coordinator brings it back to Mark when he is ready.
 
 ## Open items (the slate's six decisions)
 1. Four parts (A to D) plus the era as E, each in its own fresh session, in place of the kit's two halves of about six.
