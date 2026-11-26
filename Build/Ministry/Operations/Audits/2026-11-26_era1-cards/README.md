@@ -4,8 +4,16 @@ Owner: the one era 1 cards thread (coordinator session `session_01JMNsSDxiDjhkPh
 
 ## Step
 
-1. **First set for Mark** (one card of each of eight kinds; table in `Header.md`). Written (`<id>.layout.json`, `Card_Edits_<id>.md`), checked (`Card_Check_A.md`, `Card_Check_B.md`), exact changes applied word for word (`Applied.md`), evidence gathered and every quote re-found at its lines (`Evidence.json`, 231 of 231). Page sent to the coordinator 2026-11-26: https://claude.ai/artifact/CVzArtefSKCkoRRyC23ZfB (built by `build_first_set_page.py`). Waiting for Mark's word.
-2. After Mark's word: the rest of era 1, kind by kind. Not started.
+1. **First set for Mark** (one card of each of eight kinds; table in `Header.md`). Written (`<id>.layout.json`, `Card_Edits_<id>.md`), checked (`Card_Check_A.md`, `Card_Check_B.md`), exact changes applied word for word (`Applied.md`), evidence gathered and every quote re-found at its lines (`Evidence.json`, 231 of 231). Page sent to the coordinator 2026-11-26: https://claude.ai/artifact/CVzArtefSKCkoRRyC23ZfB (built by `build_first_set_page.py`). **Approved** (Mark, 2026-11-26: "yes, but let say church in conversation world instead of built world"; Decision-Log).
+2. The rest of era 1, kind by kind, on the approved cards (same process: one write, one independent check by a hand that wrote none, the checker's exact changes applied word for word, `Evidence.json` with every quote re-found by script). Say "Church in Conversation world", never "built world", in anything a visitor or Mark reads. Work order and state, updated after each card:
+   - **2a. Traditions** (20 in era 1; Bardaisanites, modalist Monarchianism and Danubian Latin get cards built from what is held, brief kept as it stands): Montanism and Alexandria done. Next: post-apostolic-house-church, syriac-edessa-nisibis, latin-pastoral-congregational-christianity (Church in Conversation worlds; short descriptions for the first two drafted in `Short-Descriptions/2026-11-26_built-worlds-v2/Drafts_A.md`, unchecked), then greek-apologists-second-century, latin-apologists, apocryphal-and-pseudepigraphal-literature, marcion-marcionism, valentinian-and-other-gnostic-christianities, manichaeism, ebionite-nazoraean-current, novatianism, anatolian-church-third-century, antiochene-church-third-century, palestinian-church-pre-constantinian, roman-church-third-century, danubian-latin-christianity, modalist-monarchianism, bardaisanite-current. Batch-11 folders hold sheets and held fields for the twelve it rebuilt.
+   - **2b. People** (28 in era 1, all of them, from the briefs they have now): Polycarp done.
+   - **2c. Council** (1): done.
+   - **2d. Era 1**: done.
+   - **2e. Stories** (26 documented stories on era 1 entries, plus the map stories in era 1): one done.
+   - **2f. Connections** (82 edges touching an era 1 entry): one done.
+   - **2g. Rivers** (6 in era 1: Origin, Syriac East & Asia, Greek East & Orthodoxy, Africa, Latin West & Catholicism, Non-Nicene Traditions): Africa done.
+   - **2h. Existing-text fixes** flagged in `Applied.md` (story text, connection note, council fields, river origin record): to apply by the same process, worded by a checker.
 3. Site code: branch `claude/built-world-short-descriptions` handed over (coordinator, 2026-11-26) and merged into this branch at its head 9711baa7. Still to build: a field home, validator keys, atlas-sync carriage, map open functions, MENU_ORDER folds, tree pages and tests for story, connection and river cards; `timeline` for rivers. Two phone tests in `Build/tools/tree_map_view.test.mjs` already fail on main.
 4. Release: one pull request for era 1. Not started.
 
@@ -14,7 +22,7 @@ Owner: the one era 1 cards thread (coordinator session `session_01JMNsSDxiDjhkPh
 | Card | Kind | Step |
 |---|---|---|
 | montanism-the-new-prophecy | tradition | checked, fixes applied, shown to Mark |
-| alexandria-catechetical | built world | checked, fixes applied, shown to Mark (short description drafted in `Build/Ministry/Features/Church-Family-Tree/Short-Descriptions/2026-11-26_built-worlds-v2/Drafts_A.md`) |
+| alexandria-catechetical | Church in Conversation world | checked, fixes applied, shown to Mark (short description drafted in `Build/Ministry/Features/Church-Family-Tree/Short-Descriptions/2026-11-26_built-worlds-v2/Drafts_A.md`) |
 | polycarp-of-smyrna | person | checked, fixes applied, shown to Mark |
 | councils-of-rome-and-carthage-251 | council | checked, fixes applied, shown to Mark |
 | era-1 | era | checked, fixes applied, shown to Mark |
