@@ -19,7 +19,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { createRequire } from 'module';
-import { narrationTextFor, recordingMatchesText } from './generate_tree_narration.mjs';
+import { narrationTextFor, recordingMatchesText, BRIEF_WORLD_IDS } from './generate_tree_narration.mjs';
 import { fingerprint as docStoryFingerprint } from './generate_docstory_narration.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -123,6 +123,19 @@ li{margin-bottom:.5rem}
 .people-list .ident{display:inline;margin:0 0 0 .4rem}
 .people-note{color:var(--muted)}
 .facts{margin:0 0 1.5rem}
+.short-desc{font-size:1.15rem;line-height:1.55;margin:0 0 1rem}
+.brief-sources{margin:1rem 0;border-top:1px solid var(--rule);padding-top:.6rem}
+.read-along{margin:1rem 0}
+.read-along>summary{cursor:pointer;font-family:var(--sans);font-weight:600}
+.tl-all{font-family:var(--sans);font-weight:600;font-size:.95rem;min-height:44px;padding:0 1rem;margin:0 0 .6rem;border:1px solid var(--rule);border-radius:999px;background:none;color:var(--action);cursor:pointer}
+details.tl-period{border-bottom:1px solid var(--rule)}
+details.tl-period>summary{cursor:pointer;padding:.6rem 0;min-height:44px;box-sizing:border-box}
+.tl-pw{font-family:var(--sans);font-weight:700;color:var(--action);font-variant-numeric:tabular-nums}
+.tl-wit{font-style:italic;color:var(--muted)}
+ol.tl{list-style:none;padding:0 0 0 1rem;border-left:2px solid var(--rule);margin:.4rem 0 1rem}
+ol.tl li{margin:0 0 .7rem}
+.tl-when{display:block;font-family:var(--sans);font-weight:700;font-size:.9rem}
+.tl-note{display:block;font-size:.88rem;color:var(--muted)}
 .facts dt{font-family:var(--sans);font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--action);margin-top:.7rem}
 .facts dd{margin:.1rem 0 0}
 .part-group{font-family:var(--sans);font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--action);margin:1rem 0 .2rem}
@@ -389,15 +402,33 @@ function buildTraditionLineageHtml(movementId, movement) {
   return html;
 }
 
-function buildLineageStrip(movementId, movement) {
+function buildLineageStrip(movementId, movement, label = 'Direct line of descent') {
   if (!isTradition(movement)) return '';
   const P = lineageParts(movementId, movement);
   if (!P.parents.length && !P.children.length && !P.next) return '';
   const link = (id) => `<a href="${id}.html">${escapeHtml(movementMap.get(id).name)}</a>`;
   const uniq = (a) => [...new Set(a)];
-  const left = uniq(P.parents.map(x => x.otherId)).map(link).join(' · ') || '<span class="lineage-none">no parent recorded</span>';
-  const right = uniq(P.children.map(x => x.otherId).concat(P.next ? [P.next.id] : [])).map(link).join(' · ') || '<span class="lineage-none">no descendant recorded</span>';
-  return `<nav class="lineage-strip" aria-label="Direct line of descent"><span>${left}</span><span class="lineage-arrow" aria-hidden="true">→</span><b>${escapeHtml(movement.name)}</b><span class="lineage-arrow" aria-hidden="true">→</span><span>${right}</span></nav>`;
+  const side = (ids, none) => ids.length ? ids.slice(0, 3).map(link).join(' · ') + (ids.length > 3 ? ' <span class="lineage-none">and more, under Connections</span>' : '') : `<span class="lineage-none">${none}</span>`;
+  const left = side(uniq(P.parents.map(x => x.otherId)), 'no parent recorded');
+  const right = side(uniq(P.children.map(x => x.otherId).concat(P.next ? [P.next.id] : [])), 'no descendant recorded');
+  return `<nav class="lineage-strip" aria-label="${escapeHtml(label)}"><span>${left}</span><span class="lineage-arrow" aria-hidden="true">→</span><b>${escapeHtml(movement.name)}</b><span class="lineage-arrow" aria-hidden="true">→</span><span>${right}</span></nav>`;
+}
+
+// The direct line at the top of each page (Stage Two Kit, section 1): a tradition's own, a person's home
+// tradition's, and for a council the major council before it and the one after.
+function directLineHtml(movement) {
+  if (movement.kind === 'person') {
+    const home = movement.toldWithin ? movementMap.get(movement.toldWithin) : null;
+    return home ? buildLineageStrip(home.id, home, "Their tradition's direct line") : '';
+  }
+  if (movement.kind === 'major-council') {
+    const list = census.movements.filter(m => m.kind === 'major-council').sort((a, b) => a.start - b.start || a.name.localeCompare(b.name));
+    const i = list.indexOf(movement), before = list[i - 1], after = list[i + 1];
+    if (!before && !after) return '';
+    const side = (c, none) => c ? `<a href="${c.id}.html">${escapeHtml(c.name)}</a>` : `<span class="lineage-none">${none}</span>`;
+    return `<nav class="lineage-strip" aria-label="Major councils before and after"><span>${side(before, 'none before')}</span><span class="lineage-arrow" aria-hidden="true">→</span><b>${escapeHtml(movement.name)}</b><span class="lineage-arrow" aria-hidden="true">→</span><span>${side(after, 'none after')}</span></nav>`;
+  }
+  return buildLineageStrip(movement.id, movement);
 }
 
 function buildLineageHtml(movementId, movement) {
@@ -411,6 +442,7 @@ const worldsDataDir = path.join(rootDir, 'cic-website/data/worlds');
 // (see tools/generate_world_narration.mjs). The tree page therefore carries no
 // description recording for it.
 function hasOwnWorldStory(movementId) {
+  if (BRIEF_WORLD_IDS.has(movementId)) return false;
   const dataPath = path.join(worldsDataDir, `${movementId}.json`);
   if (!fs.existsSync(dataPath)) return false;
   const data = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
@@ -470,12 +502,10 @@ function councilPeopleHtml(movement) {
     return `<li>${escapeHtml(p.name)}<span class="verdict">${escapeHtml(VERDICT_WORDS[p.verdict] || p.verdict)}</span> · ${escapeHtml(p.part)}</li>`;
   });
   if (!items.length) return '';
-  return `<section>
-    <h2>Who</h2>
+  return `<h3>Who</h3>
     <ul class="people-list">
 ${items.join('\n')}
-    </ul>
-  </section>`;
+    </ul>`;
 }
 
 function peopleHtml(movement) {
@@ -485,10 +515,8 @@ function peopleHtml(movement) {
   if (!people.length) {
     if (listed.length) return '';
     if (!movement.peopleNote) return '';
-    return `<section>
-    <h2>People</h2>
-    <p class="people-note">${escapeHtml(movement.peopleNote)}</p>
-  </section>`;
+    return `<h3>People</h3>
+    <p class="people-note">${escapeHtml(movement.peopleNote)}</p>`;
   }
   const items = people.map(p => {
     if (p.person) {
@@ -497,12 +525,10 @@ function peopleHtml(movement) {
     }
     return `<li>${escapeHtml(p.name)}</li>`;
   }).join('\n');
-  return `<section>
-    <h2>People</h2>
+  return `<h3>People</h3>
     <ul class="people-list">
 ${items}
-    </ul>
-  </section>`;
+    </ul>`;
 }
 
 
@@ -529,39 +555,8 @@ function factsHtml(rows) {
   return items.length ? `<dl class="facts">${items.join('')}</dl>` : '';
 }
 
-const COUNCIL_PARTS = ['Gathered', 'Condemned', 'Refused', 'Affected'];
-
-// The facts a person entry's card holds, in the order of the map's person card.
-function personCardHtml(movement) {
-  const card = movement.card;
-  if (!card) return { facts: '', after: '', sources: '', quotes: '' };
-  const facts = factsHtml([
-    ['Known for', card.knownFor && escapeHtml(card.knownFor)],
-    ['Also called', card.otherNames && card.otherNames.map(o => escapeHtml(typeof o === 'string' ? o : `${o.name} (${o.note})`)).join(', ')],
-    ['Dates', card.datesNote && escapeHtml(card.datesNote)],
-    ['Place', card.placeNote && escapeHtml(card.placeNote)],
-    ['Role', card.role && escapeHtml(card.role)],
-  ]);
-  let after = '';
-  if (card.keyWorks && card.keyWorks.length) {
-    after += `<section><h2>Key Works</h2><ul>${card.keyWorks.map(w => `<li><b>${escapeHtml(w.title)}</b>: ${escapeHtml(w.about)}</li>`).join('')}</ul></section>`;
-  }
-  const traces = (card.legacy && card.legacy.traces) || [];
-  const remembered = (card.legacy && card.legacy.remembered) || [];
-  if (traces.length || remembered.length) {
-    after += `<section><h2>Legacy</h2>`;
-    if (traces.length) after += `<h3>What traces to them</h3>${bullets(traces)}`;
-    if (remembered.length) after += `<h3>How they're remembered</h3>${bullets(remembered)}`;
-    after += `</section>`;
-  }
-  const councils = census.movements.filter(c => c.kind === 'major-council' && (c.people || []).some(p => p.person === movement.id));
-  if (councils.length) {
-    after += `<section><h2>At Major Councils</h2><ul>${councils.map(c => `<li><a href="${c.id}.html">${escapeHtml(c.name)}</a>, ${escapeHtml(c.dates)}: ${escapeHtml(c.people.find(p => p.person === movement.id).part)}</li>`).join('')}</ul></section>`;
-  }
-  if (card.uncertain && card.uncertain.length) after += `<section><h2>What Is Uncertain</h2>${bullets(card.uncertain)}</section>`;
-  const sources = sourceGroups(card.sources, [['ownWords', 'Their own words'], ['about', 'Written about them']]);
-  return { facts, after, sources, quotes: quotesHtml(card) };
-}
+// The one control on a page's timeline: open or close every period at once. Without script the periods still open one by one.
+const TIMELINE_SCRIPT = "document.querySelectorAll('.tl-all').forEach(function(b){var ps=b.parentNode.querySelectorAll('details.tl-period');b.hidden=false;b.addEventListener('click',function(){var open=[].some.call(ps,function(p){return !p.open;});[].forEach.call(ps,function(p){p.open=open;});b.textContent=open?'Close every period':'Open every period';});});";
 
 // The printed wording behind the brief's quotations and the references the brief draws on, below the brief.
 function quotesHtml(card) {
@@ -574,38 +569,7 @@ function quotesHtml(card) {
   return html + '</details>';
 }
 
-function councilSectionsHtml(movement) {
-  const co = movement.council;
-  const facts = factsHtml([
-    ['Known for', co.knownFor && escapeHtml(co.knownFor)],
-    ['Dates', escapeHtml(co.datesNote || movement.dates)],
-    ['Rivers', co.rivers && escapeHtml(co.rivers.join(', '))],
-    ['Called by', co.calledBy && escapeHtml(co.calledBy)],
-  ]);
-  const block = (title, items) => items && items.length ? `<section><h2>${title}</h2>${bullets(items)}</section>` : '';
-  let traditions = '';
-  if (co.traditions && co.traditions.length) {
-    traditions = `<section><h2>Traditions It Touched</h2>`;
-    for (const part of COUNCIL_PARTS) {
-      const group = co.traditions.filter(t => t.part === part);
-      if (group.length) traditions += `<p class="part-group">${part}</p><ul>${group.map(t => `<li><a href="${t.id}.html">${escapeHtml(t.name)}</a>: ${escapeHtml(t.note)}</li>`).join('')}</ul>`;
-    }
-    traditions += `</section>`;
-  }
-  const record = co.record && co.record.length
-    ? `<section><h2>Whose Account We Have</h2><ul>${co.record.map(w => `<li><b>${escapeHtml(w.witness)}</b> (${escapeHtml(w.kind)}${w.side ? `, ${escapeHtml(w.side)}` : ''}): ${escapeHtml(w.note)}</li>`).join('')}</ul></section>`
-    : '';
-  const sources = sourceGroups(co.sources, [['fromTheCouncil', 'From the council'], ['fromThoseThere', 'From those who were there'], ['writtenLater', 'Written later']]);
-  return {
-    facts,
-    before: block('Why They Met', co.issue) + block('Who Came', co.attended) + block('How the Council Worked', co.howItWorked) + block('What They Decided', co.decided) + block('What Came of It', co.outcome) + storiesHtml(movement) + traditions,
-    after: record + block('What Is Uncertain', co.uncertain),
-    sources,
-    quotes: quotesHtml(co),
-  };
-}
-
-// A council's documented stories, each told in full with the printed wording of its quotations, and its recording
+// An entry's documented stories, each told in full with the printed wording of its quotations, and its recording
 // when the docstory manifest holds one made from this text.
 function storiesHtml(movement) {
   const stories = movement.documentedStories || [];
@@ -615,20 +579,97 @@ function storiesHtml(movement) {
     const audio = rec && rec.hash === docStoryFingerprint(st.text)
       ? `<div class="narration"><audio controls preload="none" src="../audio/docstories/${key}.mp3"></audio></div>` : '';
     const text = st.text.split('\n').map(p => p.trim()).filter(p => p).map(p => `<p>${escapeHtml(p)}</p>`).join('');
-    return `<section><h2>${escapeHtml(st.title)}</h2>${audio}<div class="reading">${text}</div>${quotesHtml(st)}</section>`;
+    return `<h3>${escapeHtml(st.title)}</h3>${audio}<div class="reading">${text}</div>${quotesHtml(st)}`;
   }).join('');
 }
 
 // A movement's kind, as the reader sees it. A movement with no kind is a church body and carries no label.
 const KIND_LABEL = { 'cross-church movement': 'A movement across churches', 'major-council': 'Major council' };
 
+// The card layout as a page (Stage Two Kit, section 1): the short description, the direct line and the brief,
+// with its old sources under it, then the menu in order: Timeline, People and stories, the kind's own sections,
+// Connections, Legacy and today, Open questions, Sources with Modern works kept apart. An empty section is left off.
+const section = (title, body, id) => body ? `<section${id ? ` id="${id}"` : ''}>
+    <h2>${title}</h2>
+    ${body}
+  </section>` : '';
+const sub = (title, body) => body ? `<h3>${title}</h3>${body}` : '';
+
+function briefSourcesHtml(list) {
+  if (!list || !list.length) return '';
+  return `<div class="brief-sources"><p class="source-group">Old sources for this brief</p><ul class="sources-list">${list.map(s => `<li>${s.author && !String(s.title).startsWith(s.author) ? `${escapeHtml(s.author)}, ` : ''}${escapeHtml(s.title)}</li>`).join('')}</ul></div>`;
+}
+
+function modernWorksHtml(list) {
+  if (!list || !list.length) return '';
+  return `<ul class="sources-list">${list.map(w => {
+    const title = w.url ? `<a href="${escapeHtml(w.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(w.title)}</a>` : escapeHtml(w.title);
+    return `<li>${title} — <span class="source-note">${escapeHtml(w.author)}${w.year ? `, ${escapeHtml(w.year)}` : ''}</span>${w.note ? ` <span class="source-note">${escapeHtml(w.note)}</span>` : ''}</li>`;
+  }).join('')}</ul>`;
+}
+
+// The timeline in periods, each closed until opened, with a control to open them all.
+function timelineHtml(periods) {
+  if (!periods || !periods.length) return '';
+  const line = l => `<li${/^date unknown$/i.test(l.when) ? ' class="undated"' : ''}><span class="tl-when">${escapeHtml(l.when)}</span> ${escapeHtml(l.text)} <span class="source-note">(${escapeHtml(l.reference)})</span>${l.note ? `<span class="tl-note">${escapeHtml(l.note)}</span>` : ''}</li>`;
+  return (periods.length > 1 ? '<button type="button" class="tl-all" hidden>Open every period</button>' : '') + periods.map(p =>
+    `<details class="tl-period"><summary><span class="tl-pw">${escapeHtml(p.when)}</span> <span class="tl-ph">${escapeHtml(p.headline)}</span></summary>${p.witness ? `<p class="tl-wit">${escapeHtml(p.witness)}</p>` : ''}<ol class="tl">${p.lines.map(line).join('')}</ol></details>`).join('');
+}
+
+const COUNCIL_PARTS = ['Gathered', 'Condemned', 'Refused', 'Affected'];
+
+// Each kind's fields, in the card's order.
+function cardParts(movement) {
+  const isPerson = movement.kind === 'person', isCouncil = movement.kind === 'major-council';
+  const card = isPerson ? movement.card || {} : isCouncil ? movement.council || {} : movement;
+  const parts = { card, short: card.shortDescription || (isPerson || isCouncil ? card.knownFor : '') || movement.teaser || '', timelineHead: '', people: '', ownTitle: '', own: '', connections: '', legacy: '', questions: '', sources: '' };
+  if (isPerson) {
+    parts.timelineHead = factsHtml([['Dates', card.datesNote && escapeHtml(card.datesNote)], ['Place', card.placeNote && escapeHtml(card.placeNote)], ['Role', card.role && escapeHtml(card.role)]]);
+    parts.ownTitle = 'Key Works';
+    parts.own = card.keyWorks && card.keyWorks.length ? `<ul>${card.keyWorks.map(w => `<li><b>${escapeHtml(w.title)}</b>: ${escapeHtml(w.about)}</li>`).join('')}</ul>` : '';
+    const councils = census.movements.filter(c => c.kind === 'major-council' && (c.people || []).some(p => p.person === movement.id));
+    parts.connections = sub('At Major Councils', councils.length ? `<ul>${councils.map(c => `<li><a href="${c.id}.html">${escapeHtml(c.name)}</a>, ${escapeHtml(c.dates)}: ${escapeHtml(c.people.find(p => p.person === movement.id).part)}</li>`).join('')}</ul>` : '');
+    const traces = (card.legacy && card.legacy.traces) || [], remembered = (card.legacy && card.legacy.remembered) || [];
+    parts.legacy = sub('What traces to them', traces.length ? bullets(traces) : '') + sub("How they're remembered", remembered.length ? bullets(remembered) : '');
+    parts.questions = card.uncertain && card.uncertain.length ? bullets(card.uncertain) : '';
+    parts.sources = sourceGroups(card.sources, [['ownWords', 'Their own words'], ['about', 'Written about them']]);
+  } else if (isCouncil) {
+    const list = items => items && items.length ? bullets(items) : '';
+    parts.timelineHead = factsHtml([['Dates', escapeHtml(card.datesNote || movement.dates)], ['Rivers', card.rivers && escapeHtml(card.rivers.join(', '))]]);
+    parts.ownTitle = 'What Happened';
+    parts.own = sub('Called by', card.calledBy ? `<p>${escapeHtml(card.calledBy)}</p>` : '') + sub('Why They Met', list(card.issue)) + sub('How the Council Worked', list(card.howItWorked)) + sub('What They Decided', list(card.decided));
+    if (card.traditions && card.traditions.length) {
+      let touched = '';
+      for (const part of COUNCIL_PARTS) {
+        const group = card.traditions.filter(t => t.part === part);
+        if (group.length) touched += `<p class="part-group">${part}</p><ul>${group.map(t => `<li><a href="${t.id}.html">${escapeHtml(t.name)}</a>: ${escapeHtml(t.note)}</li>`).join('')}</ul>`;
+      }
+      parts.connections = sub('Traditions It Touched', touched);
+    }
+    parts.legacy = sub('What Came of It', list(card.outcome));
+    const record = card.record && card.record.length ? `<ul>${card.record.map(w => `<li><b>${escapeHtml(w.witness)}</b> (${escapeHtml(w.kind)}${w.side ? `, ${escapeHtml(w.side)}` : ''}): ${escapeHtml(w.note)}</li>`).join('')}</ul>` : '';
+    parts.questions = sub('What Is Uncertain', list(card.uncertain)) + sub('Whose Account We Have', record);
+    parts.sources = sourceGroups(card.sources, [['fromTheCouncil', 'From the council'], ['fromThoseThere', 'From those who were there'], ['writtenLater', 'Written later']]);
+  } else {
+    parts.connections = (hasContent(movement.relationsSummary) ? sub('In Its Own Record', `<p><i>${escapeHtml(movement.relationsSummary)}</i></p>`) : '') + buildLineageHtml(movement.id, movement);
+    const exp = movement.experienceToday && movement.experienceToday.length ? `<ul>${movement.experienceToday.map(e => `<li><a href="${escapeHtml(e.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(e.text)}</a></li>`).join('')}</ul>` : '';
+    parts.legacy = sub('Why It Is on the Tree', movement.why ? `<p>${escapeHtml(movement.why)}</p>` : '') + sub('Legacy', movement.legacy ? paragraphs(movement.legacy) : '') + sub('Experience It Today', exp);
+    parts.questions = movement.uncertain && movement.uncertain.length ? bullets(movement.uncertain) : '';
+    parts.sources = sub('Doctrinal Floor Note', hasContent(movement.floorNote) ? `<p>${escapeHtml(movement.floorNote)}</p>` : '') + sub('How Sure the Record Is', hasContent(movement.sourcing) ? `<p>${escapeHtml(movement.sourcing)}</p>` : '') + formatSourcesList(movement.sources);
+  }
+  if (isPerson) parts.connections = (movement.toldWithin && movementMap.get(movement.toldWithin) ? sub('Tradition', `<p><a href="${movement.toldWithin}.html">${escapeHtml(movementMap.get(movement.toldWithin).name)}</a></p>`) : '') + parts.connections + (buildLineageHtml(movement.id, movement) ? sub('Connections on the Map', buildLineageHtml(movement.id, movement)) : '');
+  const voices = !isPerson && !isCouncil && movement.voices && movement.voices.length ? bullets(movement.voices) : '';
+  parts.people = (isCouncil && card.attended && card.attended.length ? sub('Who Came', bullets(card.attended)) : '') + peopleHtml(movement) + sub('Voices in the Record', voices) + sub('Documented Stories', storiesHtml(movement));
+  return parts;
+}
+const hasContent = v => typeof v === 'string' && v.trim() !== '' && v.trim() !== '-';
+const paragraphs = text => text.split('\n').map(p => p.trim()).filter(p => p).map(p => `<p>${escapeHtml(p)}</p>`).join('');
+
 function generatePageHtml(movement) {
   const isPerson = movement.kind === 'person';
   const isCouncil = movement.kind === 'major-council';
   const doorWorld = isCouncil ? null : isPerson ? (movement.toldWithin ? movementMap.get(movement.toldWithin) : null) : movement;
-  const personCard = isPerson ? personCardHtml(movement) : { facts: '', after: '', sources: '', quotes: '' };
-  const councilParts = isCouncil ? councilSectionsHtml(movement) : null;
-  const lineage = isCouncil ? '' : buildLineageHtml(movement.id, movement);
+  const parts = cardParts(movement);
   const isBuilt = !!doorWorld && builtWorlds.has(doorWorld.id);
   const narrated = hasNarration(movement);
 
@@ -674,9 +715,11 @@ ${siteHeader('../')}
     <h1>${escapeHtml(movement.name)}</h1>
     ${toldWithinLine(movement)}
     ${KIND_LABEL[movement.kind] ? `<p class="kind-label">${escapeHtml(KIND_LABEL[movement.kind])}</p>` : ''}
-    ${isPerson && movement.card && movement.card.label ? `<p class="kind-label">${escapeHtml(movement.card.label)}</p>` : ''}${buildLineageStrip(movement.id, movement)}
+    ${isPerson && movement.card && movement.card.label ? `<p class="kind-label">${escapeHtml(movement.card.label)}</p>` : ''}
+    ${isPerson && parts.card.otherNames ? `<p class="ident">Also called ${parts.card.otherNames.map(o => escapeHtml(typeof o === 'string' ? o : `${o.name} (${o.note})`)).join(', ')}</p>` : ''}
   </div>
-  ${isPerson ? personCard.facts : isCouncil ? councilParts.facts : ''}
+  ${parts.short ? `<p class="short-desc">${escapeHtml(parts.short)}</p>` : ''}
+  ${directLineHtml(movement)}
 
   ${isBuilt && doorWorld.publicOpen && conversationsLive ? `
   <div class="action-links">
@@ -696,29 +739,22 @@ ${siteHeader('../')}
       <audio controls preload="none" src="../audio/tree/${movement.id}.mp3"></audio>
     </div>
     ` : ''}
-    ${movement.longDescription ? `<div class="reading">${escapeHtml(movement.longDescription).split('\n').map(p => p.trim()).filter(p => p).map(p => `<p>${p}</p>`).join('')}</div>` : (movement.sourcing ? `<p>${escapeHtml(movement.sourcing)}</p>` : '<p>No detailed description available.</p>')}${isCouncil ? councilParts.quotes : personCard.quotes}
+    ${movement.longDescription ? `${narrated ? '<details class="read-along"><summary>Read along</summary>' : ''}<div class="reading">${escapeHtml(movement.longDescription).split('\n').map(p => p.trim()).filter(p => p).map(p => `<p>${p}</p>`).join('')}</div>${quotesHtml(parts.card)}${briefSourcesHtml(parts.card.briefSources)}${narrated ? '</details>' : ''}` : (movement.sourcing ? `<p>${escapeHtml(movement.sourcing)}</p>` : '<p>No detailed description available.</p>')}
   </section>
 
-  ${isCouncil ? councilParts.before : ''}
-  ${peopleHtml(movement)}
-  ${personCard.after}
-  ${isCouncil ? councilParts.after : ''}
-
-  ${lineage ? `<section>
-    <h2>${isTradition(movement) ? 'Connections' : 'In Its Own Record'}</h2>
-    ${lineage}
-  </section>` : ''}
-
-  <section>
-    <h2>Sources</h2>
-    ${isPerson && personCard.sources ? personCard.sources : isCouncil && councilParts.sources ? councilParts.sources : formatSourcesList(movement.sources)}
-  </section>
+  ${section('Timeline', parts.timelineHead + timelineHtml(parts.card.timeline), 'timeline')}
+  ${section('People and Stories', parts.people)}
+  ${parts.ownTitle ? section(parts.ownTitle, parts.own) : ''}
+  ${section('Connections', parts.connections)}
+  ${section('Legacy and Today', parts.legacy)}
+  ${section('Open Questions', parts.questions)}
+  ${section('Sources', parts.sources + sub('Modern Works', modernWorksHtml(movement.modernWorks)))}
 
   ${reviewLine(movement)}
 </main>
 
 ${siteFooter('../')}
-${narrated ? '<script src="../assets/narration-player.js" defer></script>\n' : ''}<script src="../assets/feedback.js" defer></script>
+${narrated ? '<script src="../assets/narration-player.js" defer></script>\n' : ''}${(parts.card.timeline || []).length > 1 ? `<script>${TIMELINE_SCRIPT}</script>\n` : ''}<script src="../assets/feedback.js" defer></script>
 </body>
 </html>`;
 

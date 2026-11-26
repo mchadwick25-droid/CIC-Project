@@ -16,6 +16,8 @@
  * lands. Every other movement uses world-census.json's own
  * `longDescription` - the only prose that exists for it, and what
  * atlas-v3.html itself shows for every non-built movement.
+ * The built worlds in BRIEF_WORLD_IDS narrate their brief, the census
+ * `longDescription`, like any tradition.
  *
  * Output: cft-website/audio/tree/<id>.mp3, one per movement that has a
  * longDescription, and a line for each in cft-website/audio/tree/manifest.json.
@@ -333,7 +335,10 @@ export function readManifest(file = manifestPath) {
  * are injected so tests never touch the real, still-growing worlds-data
  * directory.
  */
+export const BRIEF_WORLD_IDS = new Set(['alexandria-catechetical', 'syriac-edessa-nisibis', 'post-apostolic-house-church', 'latin-pastoral-congregational-christianity']);
+
 export function narrationTextFor(movement, { dataDir = worldsDataDir, existsFn = fs.existsSync, readFn = fs.readFileSync } = {}) {
+  if (BRIEF_WORLD_IDS.has(movement.id)) return movement.longDescription;
   const dataPath = path.join(dataDir, `${movement.id}.json`);
   if (existsFn(dataPath)) {
     const data = JSON.parse(readFn(dataPath, 'utf-8'));
@@ -352,6 +357,7 @@ export function narrationTextFor(movement, { dataDir = worldsDataDir, existsFn =
  * (generate_tree_pages.mjs, hasNarration), so the tree narration plans none.
  */
 export function hasOwnWorldStory(movement, { dataDir = worldsDataDir, existsFn = fs.existsSync, readFn = fs.readFileSync } = {}) {
+  if (BRIEF_WORLD_IDS.has(movement.id)) return false;
   const dataPath = path.join(dataDir, `${movement.id}.json`);
   if (!existsFn(dataPath)) return false;
   const story = JSON.parse(readFn(dataPath, 'utf-8'))?.orientation?.story;
