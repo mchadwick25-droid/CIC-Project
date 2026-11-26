@@ -26,7 +26,7 @@
   --parchment:#1d1811; --vellum:#262017; --iron-gall:#e9dfc7; --ink-faded:#a4967a;
   --rule:#453a28; --madder:#cf7a5c; --gold-leaf:#cfa55c; --tyrian:#b9a3d6;
   --tyrian-wash:#241d30; --graphite:#8f8266; --shadow:0 2px 14px rgba(0,0,0,.55);
-  --link-grow:#b5e35c; --link-line:#2e9e4f; --link-influence:#c79a5e; --link-conflict:#f06a64; --link-contact:#a39a8c;
+  --link-grow:#b5e35c; --link-line:#7fd3ff; --link-influence:#c79a5e; --link-conflict:#f06a64; --link-contact:#a39a8c;
 }
 :root{color-scheme:dark}
 *{box-sizing:border-box}
@@ -145,7 +145,30 @@ svg.who-on #river-names,svg.story-on #river-names{opacity:.2}
 #panel .edge{font-size:.85rem;padding:.4rem 0;border-bottom:1px solid var(--rule)}
 #panel .edge:last-child{border-bottom:none}
 #panel .lineage-line{display:flex;flex-wrap:wrap;gap:.25rem .6rem;align-items:baseline;font-size:.86rem;border:1px solid var(--rule);border-radius:4px;padding:.4rem .6rem;margin:.5rem 0}
-#panel .lineage-arrow{color:var(--tyrian)}
+#panel button.lineage-line{width:100%;min-height:44px;background:none;color:var(--iron-gall);font-family:"Alegreya Sans",sans-serif;text-align:left;cursor:pointer}
+#panel button.lineage-line:hover{border-color:var(--link-line)}
+#panel button.lineage-line:focus-visible{outline:2px solid var(--gold-leaf);outline-offset:2px}
+#panel .lineage-arrow{color:var(--link-line)}
+#panel .lineage-cap{flex-basis:100%;font-size:.8rem;color:var(--link-line)}
+#panel .short-desc{font-size:1.02rem;line-height:1.55;margin:.5rem 0 .3rem}
+#panel .brief-sources{margin:.8rem 0 .2rem;padding-top:.5rem;border-top:1px solid var(--rule)}
+#panel .brief-sources h4{font-family:"Alegreya Sans",sans-serif;font-size:.8125rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-leaf);margin:.2rem 0}
+#panel .tl-all{min-height:44px;padding:0 .9rem;margin:.2rem 0 .4rem;border:1px solid var(--rule);border-radius:999px;background:none;color:var(--gold-leaf);font:600 .9375rem "Alegreya Sans",sans-serif;cursor:pointer}
+#panel .tl-all:focus-visible,#panel details.tl-period>summary:focus-visible{outline:2px solid var(--gold-leaf);outline-offset:2px}
+#panel details.tl-period{border-bottom:1px solid var(--rule)}
+#panel details.tl-period>summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:auto 1fr auto;gap:.1rem .6rem;align-items:baseline;min-height:44px;padding:.5rem 0;box-sizing:border-box}
+#panel details.tl-period>summary::-webkit-details-marker{display:none}
+#panel .tl-pw{font:700 .85rem "Alegreya Sans",sans-serif;font-variant-numeric:tabular-nums;color:var(--gold-leaf);white-space:nowrap}
+#panel .tl-ph{font-size:.95rem;min-width:0}
+#panel .tl-pc{font-size:.8rem;color:var(--ink-faded)}
+#panel .tl-wit{font-size:.88rem;font-style:italic;color:var(--ink-faded)}
+#panel ol.tl{list-style:none;margin:.2rem 0 .6rem;padding:0 0 0 .9rem;border-left:2px solid var(--rule)}
+#panel ol.tl li{position:relative;margin:0;padding:.15rem 0 .55rem .2rem;font-size:.92rem;line-height:1.5}
+#panel ol.tl li::before{content:"";position:absolute;left:-1.3rem;top:.55rem;width:8px;height:8px;border-radius:50%;background:var(--vellum);border:2px solid var(--gold-leaf)}
+#panel ol.tl li.undated::before{border-style:dashed;border-color:var(--ink-faded)}
+#panel .tl-when{display:block;font:700 .82rem "Alegreya Sans",sans-serif}
+#panel .tl-ref{font-size:.82rem;color:var(--ink-faded)}
+#panel .tl-note{display:block;font-size:.8rem;color:var(--madder)}
 #panel .lineage-none,#panel .conn-sub{color:var(--ink-faded)}
 #panel .conn-sub{font-variant:small-caps;font-size:.78rem;margin:.7rem 0 .1rem}
 #panel .conn-rest summary{cursor:pointer;font-weight:700;margin:.8rem 0 .2rem}
@@ -587,8 +610,7 @@ svg.strip-on #era-labels{display:none}
 #panel .brief-play{flex:none;display:inline-flex;align-items:center;gap:.45rem;min-height:44px;padding:0 1rem;border:0;border-radius:999px;background:var(--gold-leaf);color:var(--parchment);font:700 1rem "Alegreya Sans",sans-serif;cursor:pointer}
 #panel .brief-play svg{width:14px;height:14px;fill:currentColor}
 #panel .brief-play:hover{background:var(--iron-gall)}
-#panel .brief-play:focus-visible,#panel .brief-rail:focus-visible,#panel .bp-jump:focus-visible,#panel .act-chip:focus-visible,#panel .story-teaser:focus-visible,#panel details.fold>summary:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
-#panel p.brief-head{display:flex;flex-direction:column;margin:0;min-width:0;font-family:"Alegreya Sans",sans-serif;line-height:1.3}
+#panel .brief-play:focus-visible,#panel .brief-rail:focus-visible,#panel .bp-jump:focus-visible,#panel .act-chip:focus-visible,#panel p.brief-head{display:flex;flex-direction:column;margin:0;min-width:0;font-family:"Alegreya Sans",sans-serif;line-height:1.3}
 #panel .brief-label{font-weight:700;font-size:.9375rem}
 #panel .brief-time{font-size:.875rem;color:var(--ink-faded);font-variant-numeric:tabular-nums}
 #panel .brief-rail{display:none;position:relative;height:28px;cursor:pointer;touch-action:none}
@@ -602,9 +624,6 @@ svg.strip-on #era-labels{display:none}
 #panel .brief-read-btn:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
 #panel .brief-read{border-top:1px solid var(--rule);padding-top:.5rem}
 #panel .brief-opts select{min-height:32px;font:inherit;color:var(--iron-gall);background:var(--vellum);border:1px solid var(--rule);border-radius:4px;padding:.15rem .3rem}
-#panel .story-teaser{display:flex;gap:.5rem;align-items:baseline;width:100%;margin:.2rem 0 .7rem;padding:.55rem .7rem;min-height:44px;text-align:left;background:none;border:1px solid var(--rule);border-radius:6px;color:var(--iron-gall);font:1rem "Alegreya",serif;cursor:pointer}
-#panel .story-teaser:hover{border-color:var(--tyrian)}
-#panel .story-teaser .st-k{flex:none;font:700 .8125rem "Alegreya Sans",sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--tyrian)}
 #panel .card-acts{display:flex;flex-wrap:wrap;gap:.45rem;margin:.2rem 0 1rem}
 #panel .act-chip{min-height:44px;padding:0 .9rem;border:1px solid var(--rule);border-radius:999px;background:none;color:var(--iron-gall);font:600 .9375rem "Alegreya Sans",sans-serif;cursor:pointer}
 #panel .act-chip:hover{border-color:var(--gold-leaf)}
@@ -134506,11 +134525,6 @@ function traditionEnd(id){
   return byId[id]||null;
 }
 
-function whoButtonHTML(m){
-  const n=peopleList(m).length;
-  if(!n)return '';
-  return `<button type="button" class="act-chip who-list-btn" aria-controls="people-section">Who · ${n}</button>`;
-}
 function peopleList(m){return (peopleOf[m.id]||[]).length?scopePeople({type:'trad',m}).all.map(a=>a.P):[];}
 function peopleHTML(m){
   const list=peopleList(m);
@@ -134554,6 +134568,74 @@ function openPersonCard(P){
   const p=P.entry;
   return whenLoaded(()=>personCardWaits(P),esc(p?p.name:P.name),()=>openPersonCardNow(P));
 }
+// The card layout, one for every kind (Stage Two Kit, section 1): the short description, the direct line and the
+// player first; the brief's text below, open where there is no current recording, with its old sources under it;
+// then the menu: Timeline, People and stories, the kind's own sections, Connections, Legacy and today, Open
+// questions, Sources. Each section is a fold; an empty one is left off.
+const MENU_ORDER=['timeline','people','own','connections','legacy','questions','sources'];
+function shortDescHTML(text){return text?`<p class="short-desc">${esc(text)}</p>`:'';}
+function lineSideHTML(ids,none){
+  if(!ids.length)return `<span class="lineage-none">${esc(none)}</span>`;
+  const names=ids.slice(0,3).map(id=>{const t=entryById(id);return `<span class="lineage-name">${esc(t?t.shortName||t.name:id)}</span>`;}).join(' · ');
+  return names+(ids.length>3?' <span class="lineage-more">and more</span>':'');
+}
+// A tradition's direct line, one step each way. The whole line is one button: it opens the Family line view.
+function lineageLineHTML(home,parts,caption){
+  if(!parts.parents.length&&!parts.children.length&&!parts.next)return '';
+  const uniq=a=>[...new Set(a)];
+  const up=uniq(parts.parents.map(x=>x.id)), down=uniq(parts.children.map(x=>x.id).concat(parts.next?[parts.next.id]:[]));
+  const nm=home.shortName||home.name, nmOf=id=>{const t=entryById(id);return t?t.shortName||t.name:id;};
+  const label=`Direct line: ${up.length?up.map(nmOf).join(', '):'no parent recorded'}, then ${nm}, then ${down.length?down.map(nmOf).join(', '):'no descendant recorded'}. Show the whole family line on the map.`;
+  return `<button type="button" class="lineage-line line-btn" aria-label="${esc(label)}"><span>${lineSideHTML(up,'no parent recorded')}</span><span class="lineage-arrow" aria-hidden="true">→</span><b>${esc(nm)}</b><span class="lineage-arrow" aria-hidden="true">→</span><span>${lineSideHTML(down,'no descendant recorded')}</span><span class="lineage-cap">${esc(caption)}</span></button>`;
+}
+function traditionLineParts(m){
+  const all=DATA.edges.concat(personEdges.filter(e=>linkEnd(e.from)!==linkEnd(e.to)));
+  return lineageParts(m,all.filter(e=>linkEnd(e.to)===m.id),all.filter(e=>linkEnd(e.from)===m.id));
+}
+// A council's or an era's line: the one before and the one after, each opening its own card.
+function stepLineHTML(label,before,me,after){
+  if(!before&&!after)return '';
+  const side=(x,none)=>x?`<button type="button" class="panel-link" ${x.attr}>${esc(x.name)}</button>`:`<span class="lineage-none">${esc(none)}</span>`;
+  return `<p class="lineage-line" role="group" aria-label="${esc(label)}"><span>${side(before,'none before')}</span><span class="lineage-arrow" aria-hidden="true">→</span><b>${esc(me)}</b><span class="lineage-arrow" aria-hidden="true">→</span><span>${side(after,'none after')}</span></p>`;
+}
+function briefSourcesHTML(list){
+  if(!list||!list.length)return '';
+  return `<div class="brief-sources"><h4>Old sources for this brief</h4><ul class="person-list">${list.map(s=>`<li>${s.author&&!String(s.title).startsWith(s.author)?`${esc(s.author)}, `:''}${esc(s.title)}</li>`).join('')}</ul></div>`;
+}
+const QUOTES_NOTE='<p class="quotes-note">Quotations are given in our modern English. The printed wording of each is below.</p>';
+function briefReadHTML(text,quotesFrom,sources){
+  let read=briefTextHTML(text);
+  if(quotesFrom&&quotesFrom.quotationOriginals&&quotesFrom.quotationOriginals.length)read+=QUOTES_NOTE;
+  if(quotesFrom)read+=quotesPanel(quotesFrom);
+  return read+briefSourcesHTML(sources);
+}
+// The brief: in the player, behind Read along, when its recording is current; open on the card when it is not.
+function briefBlockHTML(src,len,read){
+  if(!read)return '';
+  return src?briefPlayerHTML(src,len,read):foldHTML('Read the brief',len,[['',read]],'brief-fold',true);
+}
+function timelineHTML(T){
+  if(!T||!T.length)return '';
+  const line=l=>`<li${/^date unknown$/i.test(l.when)?' class="undated"':''}><span class="tl-when">${esc(l.when)}</span> ${esc(l.text)} <span class="tl-ref">(${esc(l.reference)})</span>${l.note?`<span class="tl-note">${esc(l.note)}</span>`:''}</li>`;
+  return (T.length>1?'<button type="button" class="tl-all">Open every period</button>':'')+T.map(p=>
+    `<details class="tl-period"><summary><span class="tl-pw">${esc(p.when)}</span><span class="tl-ph">${esc(p.headline)}</span><span class="tl-pc">${p.lines.length}</span></summary>${p.witness?`<p class="tl-wit">${esc(p.witness)}</p>`:''}<ol class="tl">${p.lines.map(line).join('')}</ol></details>`).join('');
+}
+function timelineCount(T){return T&&T.length?`${T.length} ${T.length===1?'period':'periods'}`:'';}
+function modernWorksHTML(list){
+  if(!list||!list.length)return '';
+  return `<ul class="person-list">${list.map(w=>{
+    const title=w.url?`<a href="${esc(w.url)}" target="_blank" rel="noopener">${esc(w.title)}</a>`:esc(w.title);
+    return `<li><b>${title}</b>, ${esc(w.author)}${w.year?` (${esc(w.year)})`:''}${w.note?`. ${esc(w.note)}`:''}</li>`;
+  }).join('')}</ul>`;
+}
+function questionsFold(list){return foldHTML('Open questions',(list||[]).length,[['',list&&list.length?listHTML(list):'']],'fold-questions');}
+function wireCard(){
+  panelBody.querySelectorAll('.tl-all').forEach(b=>b.addEventListener('click',()=>{
+    const ps=[...b.parentNode.querySelectorAll('details.tl-period')], open=ps.some(p=>!p.open);
+    ps.forEach(p=>{p.open=open;}); b.textContent=open?'Close every period':'Open every period';
+  }));
+  panelBody.querySelectorAll('button.panel-link[data-era]').forEach(b=>b.addEventListener('click',()=>openEraCard(+b.dataset.era)));
+}
 function openPersonCardNow(P){
   hideTip();
   const p=P.entry, card=(p&&p.card)||{};
@@ -134561,37 +134643,23 @@ function openPersonCardNow(P){
   const home=p&&p.toldWithin?byId[p.toldWithin]:null;
   const fullName=p?p.name:P.name;
   let h=`<h2 id="panelTitle">${esc(fullName)}${reviewMark(p)}</h2>`;
-  h+=`<span class="statuspill kindpill">${p?'A person':'A named voice'}</span>`;
+  h+=`<span class="statuspill kindpill">${p?'A person':'A named voice'}${card.role?` · ${esc(card.role)}`:''}</span>`;
   if(card.label)h+=` <span class="statuspill kindpill">${esc(card.label)}</span>`;
   const forms=[...new Set([p&&p.informalName,p&&p.shortName,...(card.otherNames||[]),...P.rows.filter(r=>r.row.name).map(r=>r.row.name)].filter(Boolean).map(n=>typeof n==='string'?{name:n}:n).filter(o=>normName(o.name)!==normName(fullName)).map(o=>o.note?`${o.name} (${o.note})`:o.name))];
   if(forms.length)h+=`<p class="meta">Also called ${forms.map(esc).join(', ')}</p>`;
   const where=p&&p.placeLabel?CFTPlace.formatPlace(p,{today:true}):'';
   h+=`<p class="meta">${esc(personDates(P))}${where?` · ${esc(where)}`:''}</p>`;
+  h+=shortDescHTML(card.shortDescription||card.knownFor||(p&&p.teaser));
+  if(home&&isTraditionCard(home))h+=lineageLineHTML(home,traditionLineParts(home),"Their tradition's line. Show it on the map");
+  if(p&&p.longDescription){
+    const recorded=treeAudioCurrent.has(p.id)&&treeAudioMeta[p.id];
+    const readLen=recorded&&treeAudioMeta[p.id].bytes?clipLength(treeAudioMeta[p.id]):briefLength(p.longDescription.split(/\s+/).length/150*60);
+    h+=briefBlockHTML(recorded?'audio/tree/'+p.id+'.mp3':null,readLen,briefReadHTML(p.longDescription,card,card.briefSources));
+  }
   let facts=`<dt>Dates</dt><dd>${esc(card.datesNote||personDates(P))}</dd>`;
   if(card.placeNote)facts+=`<dt>Place</dt><dd>${esc(card.placeNote)}</dd>`;
   else if(p&&p.placeLabel)facts+=`<dt>Place</dt><dd>${esc(CFTPlace.formatPlace(p,{today:true}))}</dd>`;
-  const homes=p?(home?[home]:[]):[...new Set(P.rows.map(r=>r.home))];
-  if(p&&!home)facts+=`<dt>Tradition</dt><dd>${card.label?'Outside the church':'Told within no single tradition'}</dd>`;
-  else if(homes.length)facts+=`<dt>Tradition</dt><dd>${homes.map(m=>`<button type="button" class="panel-link" data-id="${esc(m.id)}">${esc(m.shortName||m.name)}</button>`).join(', ')}</dd>`;
-  if(card.role)facts+=`<dt>Role</dt><dd>${esc(card.role)}</dd>`;
-  if(card.knownFor)h+=`<p class="summary">${esc(card.knownFor)}</p>`;
-  else if(p&&p.teaser)h+=`<p class="summary">${esc(p.teaser)}</p>`;
-  let readLen='', read='';
-  if(p&&p.longDescription){
-    const recorded=treeAudioCurrent.has(p.id)&&treeAudioMeta[p.id];
-    readLen=recorded&&treeAudioMeta[p.id].bytes?clipLength(treeAudioMeta[p.id]):briefLength(p.longDescription.split(/\s+/).length/150*60);
-    read=briefTextHTML(p.longDescription);
-    if(card.quotationOriginals&&card.quotationOriginals.length)read+='<p class="quotes-note">Quotations are given in our modern English. The printed wording of each is below.</p>';
-    read+=quotesPanel(card);
-    if(recorded){h+=briefPlayerHTML('audio/tree/'+p.id+'.mp3',readLen,read);read='';}
-  }
-  h+=`<dl class="person-facts">${facts}</dl>`;
-  if(p)h+=storyTeaserHTML(p);
-  const folds=[];
-  folds.push(foldHTML('Read the brief',readLen,[['',read]]));
-  if(p)folds.push(foldHTML('Documented stories',(p.documentedStories||[]).length,[['',docStoriesHTML(p)]]));
   const works=card.keyWorks&&card.keyWorks.length?`<ul class="person-list">${card.keyWorks.map(w=>`<li><b>${esc(w.title)}</b>: ${esc(w.about)}</li>`).join('')}</ul>`:'';
-  folds.push(foldHTML('In their own words',card.keyWorks?card.keyWorks.length:0,[['Key works',works]]));
   const traces=(card.legacy&&card.legacy.traces)||[];
   const remembered=((card.legacy&&card.legacy.remembered)||[]).map(t=>esc(t));
   P.rows.filter(r=>!(p&&r.home===home&&r.row.person)).forEach(r=>{
@@ -134601,33 +134669,43 @@ function openPersonCardNow(P){
     remembered.push(line?`${by}: ${esc(line)}`:`Also named by ${by}`);
   });
   const legacyText=!card.legacy&&p&&p.legacy?paragraphsHTML(p.legacy):'';
-  folds.push(foldHTML('Legacy and today',0,[
-    ['',legacyText],
-    ['What traces to them',traces.length?listHTML(traces):''],
-    ["How they're remembered",remembered.length?`<ul class="person-list">${remembered.map(t=>`<li>${t}</li>`).join('')}</ul>`:'']
-  ]));
   const atCouncils=p?councilEntries.filter(c=>(c.people||[]).some(x=>x.person===p.id)):[];
   const links=p?personLinks(p):[];
-  folds.push(foldHTML('Connections',atCouncils.length+links.length,[
-    ['At major councils',atCouncils.length?`<ul class="person-list">${atCouncils.map(c=>`<li><button type="button" class="panel-link" data-id="${esc(c.id)}">${esc(c.shortName||c.name)}</button>, ${esc(c.dates)}: ${esc(c.people.find(x=>x.person===p.id).part)}</li>`).join('')}</ul>`:''],
-    ['Connections on the map',links.map((e,i)=>{
-      const a=entryById(e.from), b=entryById(e.to);
-      return `<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}${isMajorEdge(e)?' · Major':''}</span><br><button type="button" class="panel-link" data-edge="${i}">${esc(a?a.shortName||a.name:e.from)} → ${esc(b?b.shortName||b.name:e.to)}</button></div>`;
-    }).join('')]
-  ]));
+  const homes=p?(home?[home]:[]):[...new Set(P.rows.map(r=>r.home))];
+  const tradition=p&&!home?`<p>${card.label?'Outside the church':'Told within no single tradition'}</p>`
+    :homes.length?`<p>${homes.map(m=>`<button type="button" class="panel-link" data-id="${esc(m.id)}">${esc(m.shortName||m.name)}</button>`).join(', ')}</p>`:'';
   const own=((card.sources&&card.sources.ownWords)||[]).map(s=>personSourceItem('Library',s));
   if(!card.sources||!card.sources.ownWords)P.rows.forEach(r=>{if(r.row.source&&r.row.source.work)own.push(`<div class="edge"><span class="k">Quoted in ${esc(r.home.shortName||r.home.name)}</span><br><b>${esc(r.row.source.work)}</b></div>`);});
   const about=((card.sources&&card.sources.about)||[]).map(s=>personSourceItem('Library',s));
-  folds.push(foldHTML('Sources and notes',own.length+about.length,[
-    ['What is uncertain',card.uncertain&&card.uncertain.length?listHTML(card.uncertain):''],
-    ['Their own words',own.join('')],
-    ['Written about them',about.join('')],
-    ['',p?pageLinkHTML(p):'']
-  ]));
-  h+=folds.join('');
+  h+=[
+    foldHTML('Timeline',timelineCount(card.timeline),[['',`<dl class="person-facts">${facts}</dl>`],['',timelineHTML(card.timeline)]],'fold-timeline'),
+    p?foldHTML('People and stories',(p.documentedStories||[]).length,[['Documented stories',docStoriesHTML(p)]],'people-section'):'',
+    foldHTML('Key works',card.keyWorks?card.keyWorks.length:0,[['',works]],'fold-own'),
+    foldHTML('Connections',atCouncils.length+links.length,[
+      ['Tradition',tradition],
+      ['At major councils',atCouncils.length?`<ul class="person-list">${atCouncils.map(c=>`<li><button type="button" class="panel-link" data-id="${esc(c.id)}">${esc(c.shortName||c.name)}</button>, ${esc(c.dates)}: ${esc(c.people.find(x=>x.person===p.id).part)}</li>`).join('')}</ul>`:''],
+      ['Connections on the map',links.map((e,i)=>{
+        const a=entryById(e.from), b=entryById(e.to);
+        return `<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}${isMajorEdge(e)?' · Major':''}</span><br><button type="button" class="panel-link" data-edge="${i}">${esc(a?a.shortName||a.name:e.from)} → ${esc(b?b.shortName||b.name:e.to)}</button></div>`;
+      }).join('')]
+    ],'fold-connections'),
+    foldHTML('Legacy and today',0,[
+      ['',legacyText],
+      ['What traces to them',traces.length?listHTML(traces):''],
+      ["How they're remembered",remembered.length?`<ul class="person-list">${remembered.map(t=>`<li>${t}</li>`).join('')}</ul>`:'']
+    ],'fold-legacy'),
+    questionsFold(card.uncertain),
+    foldHTML('Sources',own.length+about.length,[
+      ['Their own words',own.join('')],
+      ['Written about them',about.join('')],
+      ['Modern works',modernWorksHTML(p&&p.modernWorks)],
+      ['',p?pageLinkHTML(p):'']
+    ],'sources-fold')
+  ].join('');
   cardReopen=()=>openPersonCard(P); cardNext=p?lineNext(p):[];
   stopNarration(); panelBody.innerHTML=h; showPanel(p?`tree/${p.id}`:`voice/${P.key.slice(2).replace(/ /g,'-')}`); narrCardReady();
-  wirePanelLinks({links});
+  wirePanelLinks({links}); wireCard();
+  if(home){const lb=panelBody.querySelector('.line-btn'); if(lb)lb.addEventListener('click',()=>showConnections(home,true,{name:p.shortName||p.name,open:()=>openPersonCard(P)}));}
   if(p)wireDocStories(p);
   syncWorldURL(p?p.id:null);
 }
@@ -134642,10 +134720,6 @@ function wirePanelLinks(ctx){
   panelBody.querySelectorAll('button.panel-link[data-edge]').forEach(btn=>btn.addEventListener('click',()=>{
     const e=ctx&&ctx.links&&ctx.links[+btn.dataset.edge], a=e&&entryById(e.from), b=e&&entryById(e.to); if(a&&b)openPanelEdge(e,a,b);
   }));
-  const whoList=panelBody.querySelector('.who-list-btn'), whoFold=panelBody.querySelector('#people-section');
-  if(whoList&&whoFold)whoList.addEventListener('click',()=>{whoFold.open=true;revealIn(whoFold.querySelector('summary'));});
-  const teaser=panelBody.querySelector('.story-teaser');
-  if(teaser)teaser.addEventListener('click',()=>{cftTally.next('teaser',cardKey?cardKey.replace(/^tree\//,''):'');openStoryHere(+teaser.dataset.storyIdx);});
 }
 
 function render(){
@@ -135043,13 +135117,6 @@ function lineageParts(m,inbound,outbound){
   return {parents,children,next,splits,restOut:outbound.filter(rest),restIn:inbound.filter(rest)};
 }
 function lineageNameBtn(id){const t=entryById(id);return `<button type="button" class="panel-link" data-id="${esc(id)}">${esc(t?t.shortName||t.name:id)}</button>`;}
-function lineageStripHTML(m,parts){
-  if(!parts.parents.length&&!parts.children.length&&!parts.next)return '';
-  const uniq=a=>[...new Set(a)];
-  const left=uniq(parts.parents.map(x=>x.id)).map(lineageNameBtn).join(' · ')||'<span class="lineage-none">no parent recorded</span>';
-  const right=uniq(parts.children.map(x=>x.id).concat(parts.next?[parts.next.id]:[])).map(lineageNameBtn).join(' · ')||'<span class="lineage-none">no descendant recorded</span>';
-  return `<p class="lineage-line" role="group" aria-label="Direct line of descent"><span>${left}</span><span class="lineage-arrow" aria-hidden="true">→</span><b>${esc(m.shortName||m.name)}</b><span class="lineage-arrow" aria-hidden="true">→</span><span>${right}</span></p>`;
-}
 function lineageRowHTML(e,otherId,label){
   const t=entryById(otherId);
   return `<div class="edge"><span class="k">${esc(label)} · ${esc(e.confidence)}${isMajorEdge(e)?' · Major':''}</span><br><b>${t?lineageNameBtn(otherId):esc(otherId)}</b><br>${esc(e.note)}${e.outcome?`<br><i>Lasting result:</i> ${esc(e.outcome)}`:''}</div>`;
@@ -135574,22 +135641,32 @@ async function loadBuiltWorldOrientation(censusId){
     const nopts={disclosure:false,...(narr?{narration:narr}:{})};
     const storyOpts=player&&narr?{disclosure:false,narration:{...narr,story:null}}:nopts;
     const o=compiled.orientation||{};
-    const put=(k,html)=>{const el=panelBody.querySelector(`.orient-slot[data-orient="${k}"]`);if(el)el.outerHTML=html;};
     const wrap=html=>html?`<div class="orient">${html}</div>`:'';
+    const put=(k,html)=>{const el=panelBody.querySelector(`.orient-slot[data-orient="${k}"]`);if(el)el.outerHTML=html;};
+    // Each part of the world's fuller record joins the menu section it belongs to, made where the card has none.
+    const join=(id,title,slot,parts)=>{
+      const kept=parts.filter(([,html])=>html);
+      if(!kept.length)return;
+      const body=panelBody.querySelector(`#${id} .fold-b`);
+      if(body)body.insertAdjacentHTML('beforeend',kept.map(([t,html])=>`<h3>${esc(t)}</h3>${html}`).join(''));
+      else put(slot,foldHTML(title,'',kept,id));
+    };
     const storyHTML=wrap(o.story&&o.story.length?R.story(compiled,storyOpts):'');
     if(player)setBriefText(player,storyHTML);
-    put('a',(player?'':foldHTML('Read the brief','',[['',storyHTML]]))
-      +foldHTML('Documented stories',(o.documented_stories||[]).length,[['',wrap(o.documented_stories&&o.documented_stories.length?R.documented_stories(compiled,{idPrefix:censusId,...nopts}):'')]]));
-    put('b',foldHTML('In their own words',(o.voices||[]).length,[
-      ['Voices',wrap(o.voices&&o.voices.length?R.voices(compiled):'')],
-      ['In its own record',wrap(o.relations_summary&&o.relations_summary.text?R.relations_summary(compiled):'')]
-    ])+foldHTML('Legacy and today',0,[['Legacy',wrap(o.legacy&&o.legacy.length?R.legacy(compiled,nopts):'')]]));
+    else put('brief',foldHTML('Read the brief','',[['',storyHTML]],'brief-fold',true));
+    join('people-section','People and stories','people',[
+      ['Voices in the record',wrap(o.voices&&o.voices.length?R.voices(compiled):'')],
+      ['Documented stories',wrap(o.documented_stories&&o.documented_stories.length?R.documented_stories(compiled,{idPrefix:censusId,...nopts}):'')]
+    ]);
+    join('fold-connections','Connections','people',[['In its own record',wrap(o.relations_summary&&o.relations_summary.text?R.relations_summary(compiled):'')]]);
+    join('fold-legacy','Legacy and today','legacy',[['Legacy',wrap(o.legacy&&o.legacy.length?R.legacy(compiled,nopts):'')]]);
     const notes=[
       ['Doctrinal floor note',wrap(o.floor_note&&o.floor_note.text?R.floor_note(compiled):'')],
       ['This world’s sources',wrap((o.sourcing&&o.sourcing.text)||(o.read_first&&o.read_first.length)?R.sourcing(compiled):'')]
     ].filter(([,html])=>html), sourcesFold=panelBody.querySelector('#sources-fold .fold-b');
-    if(sourcesFold&&notes.length){sourcesFold.insertAdjacentHTML('afterbegin',notes.map(([t,html])=>`<h3>${esc(t)}</h3>${html}`).join(''));put('c','');}
-    else put('c',foldHTML('Sources and notes',0,notes));
+    if(sourcesFold&&notes.length)sourcesFold.insertAdjacentHTML('afterbegin',notes.map(([t,html])=>`<h3>${esc(t)}</h3>${html}`).join(''));
+    else if(notes.length)put('sources',foldHTML('Sources',0,notes,'sources-fold'));
+    panelBody.querySelectorAll('.orient-slot').forEach(el=>el.remove());
     if(panelBody.querySelector('.fold'))slot.remove();
     else{slot.innerHTML='<p class="meta">No further orientation content recorded for this world yet.</p>';slot.classList.remove('orient-loading');}
     panelBody.querySelectorAll('audio').forEach(narrApplyRate);
@@ -135613,17 +135690,13 @@ function paragraphsHTML(text){return text.split('\n\n').map(t=>`<p>${esc(t)}</p>
 function briefTextHTML(text){return text.split('\n\n').map(t=>`<p class="brief-para">${esc(t)}</p>`).join('');}
 // A card's sections after its first screen fold away. Each fold is a list of [heading, html] parts;
 // empty parts drop out, a lone part needs no heading of its own, and an empty fold is not shown.
-function foldHTML(title,count,parts,id){
+function foldHTML(title,count,parts,id,open){
   const kept=parts.filter(([,html])=>html);
   if(!kept.length)return '';
   const body=kept.length===1&&kept[0][0]!==''?kept[0][1]:kept.map(([t,html])=>(t?`<h3>${esc(t)}</h3>`:'')+html).join('');
-  return `<details class="fold"${id?` id="${id}"`:''}><summary><h3 class="fold-t">${esc(title)}</h3>${count?`<span class="fold-n">${esc(String(count))}</span>`:''}</summary><div class="fold-b">${body}</div></details>`;
+  return `<details class="fold"${id?` id="${id}"`:''}${open?' open':''}><summary><h3 class="fold-t">${esc(title)}</h3>${count?`<span class="fold-n">${esc(String(count))}</span>`:''}</summary><div class="fold-b">${body}</div></details>`;
 }
 function pageLinkHTML(m){return `<p class="tree-link">This card as a page: <a href="tree/${esc(m.id)}.html">${esc(m.name)}</a></p>`;}
-function storyTeaserHTML(m){
-  const s=m.documentedStories&&m.documentedStories[0];
-  return s?`<button type="button" class="story-teaser" data-story-idx="0"><span class="st-k">Story</span><span class="st-t">${esc(s.title)}</span></button>`:'';
-}
 function docStoriesHTML(m){
   let h='';
   if(!(m.documentedStories&&m.documentedStories.length))return h;
@@ -135661,6 +135734,10 @@ function wireDocStories(m){
   });
 }
 function councilListHTML(items){return `<ul class="person-list">${items.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>`;}
+function councilStep(c,d){
+  const list=councilEntries.slice().sort((a,b)=>a.start-b.start||a.name.localeCompare(b.name)), i=list.indexOf(c), o=list[i+d];
+  return o?{name:o.shortName||o.name,attr:`data-id="${esc(o.id)}"`}:null;
+}
 function openCouncilCard(c){
   hideTip();
   const co=c.council||{};
@@ -135668,22 +135745,18 @@ function openCouncilCard(c){
   let h=`<h2 id="panelTitle">${esc(c.name)}</h2>`;
   h+=`<span class="statuspill kindpill">${esc(KIND_LABEL[c.kind])}</span>`;
   if(c.informalName)h+=`<p class="meta">Also called ${esc(c.informalName)}</p>`;
+  const place=c.placeLabel?CFTPlace.formatPlace(c,{today:true})||c.region:'';
+  h+=`<p class="meta">${esc(plainDates(c.dates))}${place?` · ${esc(place)}`:''}</p>`;
+  h+=shortDescHTML(co.shortDescription||co.knownFor);
+  h+=stepLineHTML('Major councils before and after',councilStep(c,-1),c.shortName||c.name,councilStep(c,1));
+  if(c.longDescription){
+    const readLen=briefLenOf(c.id)||briefLength(c.longDescription.split(/\s+/).length/150*60);
+    h+=briefBlockHTML(treeAudioCurrent.has(c.id)?'audio/tree/'+c.id+'.mp3':null,readLen,briefReadHTML(c.longDescription,co,co.briefSources));
+  }
   const rivers=(co.rivers||[]);
   let facts=`<dt>Dates</dt><dd>${esc(co.datesNote||c.dates)}</dd>`;
-  if(c.placeLabel)facts+=`<dt>Place</dt><dd>${esc(CFTPlace.formatPlace(c,{today:true})||c.region)}</dd>`;
+  if(c.placeLabel)facts+=`<dt>Place</dt><dd>${esc(place)}</dd>`;
   if(rivers.length)facts+=`<dt>Rivers</dt><dd>${esc(rivers.join(', '))}</dd>`;
-  if(co.calledBy)facts+=`<dt>Called by</dt><dd>${esc(co.calledBy)}</dd>`;
-  if(co.knownFor)h+=`<p class="summary">${esc(co.knownFor)}</p>`;
-  let read='', readLen='';
-  if(c.longDescription){
-    readLen=briefLenOf(c.id)||briefLength(c.longDescription.split(/\s+/).length/150*60);
-    read=briefTextHTML(c.longDescription);
-    if(co.quotationOriginals&&co.quotationOriginals.length)read+='<p class="quotes-note">Quotations are given in our modern English. The printed wording of each is below.</p>';
-    read+=quotesPanel(co);
-    if(treeAudioCurrent.has(c.id)){h+=briefPlayerHTML('audio/tree/'+c.id+'.mp3',briefLenOf(c.id),read);read='';}
-  }
-  h+=`<dl class="person-facts">${facts}</dl>`;
-  h+=storyTeaserHTML(c);
   const list=k=>co[k]&&co[k].length?councilListHTML(co[k]):'';
   const people=c.people||[];
   const trads=co.traditions||[];
@@ -135695,26 +135768,26 @@ function openCouncilCard(c){
   });
   const groups=[['fromTheCouncil','From the council'],['fromThoseThere','From those who were there'],['writtenLater','Written later']];
   const n=groups.reduce((a,[k])=>a+((co.sources&&co.sources[k])||[]).length,0);
+  const record=co.record&&co.record.length?`<ul class="person-list">${co.record.map(w=>`<li><b>${esc(w.witness)}</b> (${esc(w.kind)}${w.side?`, ${esc(w.side)}`:''}): ${esc(w.note)}</li>`).join('')}</ul>`:'';
   h+=[
-    foldHTML('Read the brief',readLen,[['',read]]),
-    foldHTML('What happened',0,[['Why they met',list('issue')],['How the council worked',list('howItWorked')],['What they decided',list('decided')]]),
-    foldHTML('Documented stories',(c.documentedStories||[]).length,[['',docStoriesHTML(c)]]),
-    foldHTML('People',people.length,[['Who came',list('attended')],['Who',people.length?`<ul class="people-list council-who">${people.map(p=>{
+    foldHTML('Timeline',timelineCount(co.timeline),[['',`<dl class="person-facts">${facts}</dl>`],['',timelineHTML(co.timeline)]],'fold-timeline'),
+    foldHTML('People and stories',people.length+(c.documentedStories||[]).length,[['Who came',list('attended')],['Who',people.length?`<ul class="people-list council-who">${people.map(p=>{
       if(p.person){const e=personById[p.person]; return `<li><button type="button" class="panel-link" data-person="${esc(p.person)}">${esc(e?e.name:p.person)}</button> · ${esc(p.part)}</li>`;}
       return `<li>${esc(p.name)}<span class="verdict">${esc(COUNCIL_VERDICT_WORDS[p.verdict]||p.verdict)}</span> · ${esc(p.part)}</li>`;
-    }).join('')}</ul>`:'']],'people-section'),
-    foldHTML('Legacy and today',0,[['What came of it',list('outcome')]]),
-    foldHTML('Connections',trads.length,[['Traditions it touched',touched]]),
-    foldHTML('Sources and notes',n,[
-      ['Whose account we have',co.record&&co.record.length?`<ul class="person-list">${co.record.map(w=>`<li><b>${esc(w.witness)}</b> (${esc(w.kind)}${w.side?`, ${esc(w.side)}`:''}): ${esc(w.note)}</li>`).join('')}</ul>`:''],
-      ['What is uncertain',list('uncertain')],
+    }).join('')}</ul>`:''],['Documented stories',docStoriesHTML(c)]],'people-section'),
+    foldHTML('What happened',0,[['Called by',co.calledBy?`<p>${esc(co.calledBy)}</p>`:''],['Why they met',list('issue')],['How the council worked',list('howItWorked')],['What they decided',list('decided')]],'fold-own'),
+    foldHTML('Connections',trads.length,[['Traditions it touched',touched]],'fold-connections'),
+    foldHTML('Legacy and today',0,[['What came of it',list('outcome')]],'fold-legacy'),
+    foldHTML('Open questions',(co.uncertain||[]).length,[['What is uncertain',list('uncertain')],['Whose account we have',record]],'fold-questions'),
+    foldHTML('Sources',n,[
       ...groups.map(([k,label])=>{const l=(co.sources&&co.sources[k])||[];return [label,l.map(s=>personSourceItem('Library',s)).join('')];}),
+      ['Modern works',modernWorksHTML(c.modernWorks)],
       ['',pageLinkHTML(c)]
-    ])
+    ],'sources-fold')
   ].join('');
   cardReopen=()=>openPanel(c); cardNext=lineNext(c);
   stopNarration(); panelBody.innerHTML=h; showPanel(`tree/${c.id}`); narrCardReady();
-  wirePanelLinks({links:[]});
+  wirePanelLinks({links:[]}); wireCard();
   wireDocStories(c);
   syncWorldURL(c.id);
 }
@@ -135736,25 +135809,19 @@ function openPanelNow(m){
   if(KIND_LABEL[m.kind])h+=`<span class="statuspill kindpill">${esc(KIND_LABEL[m.kind])}</span>`;
   if(entry)h+=`<p class="repline"><b>${esc(entry.representativeName)}</b> — <i>${esc(entry.worldName)}</i>${entry.subtitle?` · ${esc(entry.subtitle)}`:''}</p>`+worldDoor(m);
   h+=`<p class="meta">${esc(plainDates(m.dates))} · ${esc((m.placeLabel&&CFTPlace.formatPlace(m,{today:true}))||m.region||'')}</p>`;
-  if(isTraditionCard(m))h+=lineageStripHTML(m,lineageParts(m,inbound,outbound));
-  const lede=entry?entry.tile:m.teaser;
-  if(lede)h+=`<p class="teaser">${esc(lede)}</p>`;
-  let read='', readLen='';
+  h+=shortDescHTML(m.shortDescription||(entry?entry.tile:m.teaser));
+  if(isTraditionCard(m))h+=lineageLineHTML(m,lineageParts(m,inbound,outbound),'Show the whole family line on the map');
   if(isBuiltWorld){
     const tw=treeWorldOf(m.id), wa=tw?tw.story:worldAudio&&worldAudio[m.id]&&worldAudio[m.id].story;
-    if(wa)h+=briefPlayerHTML((tw?'audio/worlds-tree/':'audio/worlds/')+wa.file,'');
+    h+=wa?briefPlayerHTML((tw?'audio/worlds-tree/':'audio/worlds/')+wa.file,''):'<div class="orient-slot" data-orient="brief"></div>';
   }else if(m.longDescription){
-    readLen=briefLenOf(m.id)||briefLength(m.longDescription.split(/\s+/).length/150*60);
-    read=briefTextHTML(m.longDescription)+sectionSources(m.storySources);
-    if(treeAudioCurrent.has(m.id)){h+=briefPlayerHTML('audio/tree/'+m.id+'.mp3',briefLenOf(m.id),read);read='';}
+    const readLen=briefLenOf(m.id)||briefLength(m.longDescription.split(/\s+/).length/150*60);
+    h+=briefBlockHTML(treeAudioCurrent.has(m.id)?'audio/tree/'+m.id+'.mp3':null,readLen,briefReadHTML(m.longDescription,m,m.briefSources));
   }
-  if(m.why)h+=`<p class="summary">${esc(m.why)}</p>`;
-  h+=storyTeaserHTML(m);
-  const acts=(isAcross(m)?'':whoButtonHTML(m))+connButtonHTML(m)+lineButtonHTML(m);
-  if(acts)h+=`<div class="card-acts">${acts}</div>`;
   const nLinks=inbound.length+outbound.length+(!isTraditionCard(m)&&m.continuesAs&&byId[m.continuesAs]?1:0);
-  let conns='';
-  if(isTraditionCard(m))conns=connectionsByKindHTML(m,inbound,outbound);
+  let conns=connButtonHTML(m)?`<div class="card-acts">${connButtonHTML(m)}</div>`:'';
+  if(hasContent(m.relationsSummary))conns+=`<h3>In its own record</h3><p><i>${esc(m.relationsSummary)}</i></p>`;
+  if(isTraditionCard(m))conns+=connectionsByKindHTML(m,inbound,outbound);
   else{
     if(outbound.length){conns+='<h3>Connections from this tradition</h3>';outbound.forEach(e=>{const t=entryById(e.to);conns+=`<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}${isMajorEdge(e)?' · Major':''}</span><br><b>${esc(t?t.shortName||t.name:e.to)}</b><br>${esc(e.note)}${e.outcome?`<br><i>Lasting result:</i> ${esc(e.outcome)}`:''}</div>`;});}
     if(inbound.length){conns+='<h3>Connections to this tradition</h3>';inbound.forEach(e=>{const f=entryById(e.from);conns+=`<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}${isMajorEdge(e)?' · Major':''}</span><br><b>${esc(f?f.shortName||f.name:e.from)}</b><br>${esc(e.note)}${e.outcome?`<br><i>Lasting result:</i> ${esc(e.outcome)}`:''}</div>`;});}
@@ -135766,7 +135833,6 @@ function openPanelNow(m){
     }
   }
   let sources='';
-  if(hasContent(m.sourcing))sources+=`<p>${esc(m.sourcing)}</p>`;
   if(m.sources&&m.sources.length)sources+=m.sources.map(s=>{
     const work=s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.work)}</a>`:esc(s.work);
     return `<div class="edge"><span class="k">${esc(s.type)}</span><br><b>${work}</b>${s.note?`<br>${esc(s.note)}`:''}</div>`;
@@ -135784,36 +135850,95 @@ function openPanelNow(m){
   const orient=k=>isBuiltWorld?`<div class="orient-slot" data-orient="${k}"></div>`:'';
   h+=[
     isBuiltWorld?'<div id="orient-fetch-slot" class="orient-loading"><p class="meta">Loading this world’s fuller record…</p></div>':'',
-    foldHTML('Read the brief',readLen,[['',read]]),
-    orient('a'),
-    foldHTML('Documented stories',(m.documentedStories||[]).length,[['',docStoriesHTML(m)]]),
-    isAcross(m)?'':foldHTML('People',peopleList(m).length,[['',peopleHTML(m)]],'people-section'),
-    orient('b'),
-    foldHTML('In their own words',(m.voices||[]).length,[
-      ['Voices',m.voices&&m.voices.length?`<ul class="voices">${m.voices.map(v=>`<li>${esc(v)}</li>`).join('')}</ul>`:''],
-      ['In its own record',hasContent(m.relationsSummary)?`<p><i>${esc(m.relationsSummary)}</i></p>`:'']
-    ]),
+    foldHTML('Timeline',timelineCount(m.timeline),[['',timelineHTML(m.timeline)]],'fold-timeline'),
+    isAcross(m)?'':foldHTML('People and stories',peopleList(m).length+(m.documentedStories||[]).length,[
+      ['People',peopleHTML(m)],
+      ['Voices in the record',m.voices&&m.voices.length?`<ul class="voices">${m.voices.map(v=>`<li>${esc(v)}</li>`).join('')}</ul>`:''],
+      ['Documented stories',docStoriesHTML(m)]
+    ],'people-section'),
+    isAcross(m)?foldHTML('Documented stories',(m.documentedStories||[]).length,[['',docStoriesHTML(m)]],'people-section'):'',
+    orient('people'),
+    foldHTML('Connections',nLinks,[['',conns]],'fold-connections'),
     foldHTML('Legacy and today',0,[
+      ['Why it is on the tree',m.why?`<p>${esc(m.why)}</p>`:''],
       ['Legacy',m.legacy?paragraphsHTML(m.legacy)+sectionSources(m.legacySources):''],
       ['Experience it today',m.experienceToday&&m.experienceToday.length?`<ul class="exptoday">${m.experienceToday.map(e=>`<li><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.text)}</a></li>`).join('')}</ul>`:'']
-    ]),
-    foldHTML('Connections',nLinks,[['',conns]]),
-    orient('c'),
-    foldHTML('Sources and notes',(m.sources||[]).length,[
+    ],'fold-legacy'),
+    orient('legacy'),
+    questionsFold(m.uncertain),
+    foldHTML('Sources',(m.sources||[]).length,[
       ['Doctrinal floor note',m.floorNote?`<p>${esc(m.floorNote)}</p>`:''],
-      ['Sources',sources],
+      ['How sure the record is',hasContent(m.sourcing)?`<p>${esc(m.sourcing)}</p>`:''],
+      ['Old sources',sources],
       ['Full source registry',registry],
+      ['Modern works',modernWorksHTML(m.modernWorks)],
       ['',pageLinkHTML(m)]
-    ],'sources-fold')
+    ],'sources-fold'),
+    orient('sources')
   ].join('');
   cardReopen=()=>openPanel(m); cardNext=lineNext(m);
   stopNarration(); panelBody.innerHTML=h; showPanel(`tree/${m.id}`); hideTip(); narrCardReady();
-  wirePanelLinks();
+  wirePanelLinks(); wireCard();
   const cb=panelBody.querySelector('.conn-btn'); if(cb)cb.addEventListener('click',()=>showConnections(m));
   const lb=panelBody.querySelector('.line-btn'); if(lb)lb.addEventListener('click',()=>showConnections(m,true));
   wireDocStories(m);
   if(isBuiltWorld)loadBuiltWorldOrientation(m.id);
   syncWorldURL(m.id);
+}
+function openEraCard(i){
+  hideTip(); pinMovement(null); clearConnections();
+  const e=eras[i];
+  const councils=councilEntries.filter(c=>c.era===e.num).sort((a,b)=>a.start-b.start);
+  const born=laneKeys.filter(k=>k!==0&&eraIndexOfY(laneGenesisY[k]||0)===i).map(k=>famOf(k).name);
+  const people=[]; riverWho.forEach((list,key)=>{if(+key.split(':')[1]===i)list.forEach(a=>people.push(a));});
+  const majors=people.filter(a=>a.major).sort((a,b)=>a.year-b.year);
+  const mapStories=(DATA.stories||[]).filter(s=>eraOfYear(+s.year)===i).sort((a,b)=>a.year-b.year);
+  const tradStories=churchBodies.filter(m=>m.era===e.num&&m.documentedStories&&m.documentedStories.length).sort((a,b)=>a.start-b.start);
+  const nTrad=tradStories.reduce((n,m)=>n+m.documentedStories.length,0);
+  const traditions=churchBodies.filter(m=>m.era===e.num).sort((a,b)=>a.start-b.start), nAcross=acrossMovements.filter(m=>m.era===e.num).length;
+  const eraName=x=>`${x.num}. ${x.title}`;
+  let h=`<h2 id="panelTitle">${esc(eraName(e))}</h2><span class="statuspill kindpill">An era</span><p class="meta">${esc(plainDates(e.dates))} · ${traditions.length} ${traditions.length===1?'tradition':'traditions'} on ${eraLaneCounts[i]} rivers${nAcross?` · ${nAcross} ${nAcross===1?'movement':'movements'} across churches`:''}</p>`;
+  h+=shortDescHTML(e.shortDescription||e.tag);
+  const step=d=>eras[i+d]?{name:eraName(eras[i+d]),attr:`data-era="${i+d}"`}:null;
+  h+=stepLineHTML('Eras before and after',step(-1),e.title,step(1));
+  if(e.longDescription)h+=briefBlockHTML(null,briefLength(e.longDescription.split(/\s+/).length/150*60),briefReadHTML(e.longDescription,e,e.briefSources));
+  const majorsHTML=majors.length?`<ul class="person-list">${majors.slice(0,12).map(a=>`<li><button type="button" class="panel-link" data-person="${esc(a.P.key)}">${esc(a.P.entry.name)}</button>${reviewMark(a.P.entry)}${a.m.gap?'':` <span class="meta">${esc(a.m.shortName||a.m.name)}</span>`}</li>`).join('')}</ul><p class="meta">The map has ${people.length} ${people.length===1?'person':'people'} from this era${majors.length<people.length?`, ${majors.length} of them major`:''}.${majors.length>12?' This list shows 12 of the major people.':''}</p>`:'';
+  const mapStoriesHTML=mapStories.length?`<ul class="person-list">${mapStories.map((s,j)=>`<li><button type="button" class="panel-link" data-era-story="${j}">${esc(s.title)}</button>${String(s.title).includes(String(s.year))?'':` <span class="meta">${esc(String(s.year))}</span>`}</li>`).join('')}</ul>`:'';
+  const tradStoriesHTML=nTrad?`<details class="brief-text era-more"><summary>In the cards of this era's traditions · ${nTrad} ${nTrad===1?'story':'stories'} in ${tradStories.length} ${tradStories.length===1?'tradition':'traditions'}</summary>${tradStories.map(m=>`<h4>${esc(m.shortName||m.name)}</h4><ul class="person-list">${m.documentedStories.map((s,j)=>`<li><button type="button" class="panel-link" data-era-trad="${esc(m.id)}" data-idx="${j}">${esc(s.title)}</button>${s.when&&!String(s.title).includes(String(s.when).trim())?` <span class="meta">${esc(plainDates(String(s.when)))}</span>`:''}</li>`).join('')}</ul>`).join('')}</details>`:'';
+  const tradList=traditions.length?`<ul class="person-list">${traditions.map(m=>`<li><button type="button" class="panel-link" data-id="${esc(m.id)}">${esc(m.shortName||m.name)}</button> <span class="meta">${esc(plainDates(m.dates))}</span></li>`).join('')}</ul>`:'';
+  h+=[
+    foldHTML('Timeline',timelineCount(e.timeline),[['Key events',e.keyEvents&&e.keyEvents.length?listHTML(e.keyEvents):''],['',timelineHTML(e.timeline)]],'fold-timeline'),
+    foldHTML('People and stories',majors.length+mapStories.length+nTrad,[['Major people',majorsHTML],['Stories on the map',mapStoriesHTML],['',tradStoriesHTML]],'people-section'),
+    foldHTML('Traditions in this era',traditions.length,[
+      ['About this era',WORLD_CONTEXT[e.num]?`<p>${esc(WORLD_CONTEXT[e.num])}</p>`:''],
+      ['Major councils',councils.length?`<ul class="person-list">${councils.map(c=>`<li><button type="button" class="panel-link" data-id="${esc(c.id)}">${esc(c.shortName||c.name)}</button>${/\d{3}/.test(c.shortName||c.name)?'':` <span class="meta">${esc(plainDates(c.dates))}</span>`}</li>`).join('')}</ul>`:''],
+      ['Rivers that begin here',born.length?`<p>${born.map(esc).join(' · ')}</p>`:''],
+      ['Traditions',tradList],
+      ['Where the map stops',ERA_CLOSE[e.num]?`<p>${esc(ERA_CLOSE[e.num])}</p>`:'']
+    ],'fold-own'),
+    questionsFold(e.uncertain),
+    foldHTML('Sources',0,[['Old sources',briefSourcesHTML(e.briefSources)],['Modern works',modernWorksHTML(e.modernWorks)]],'sources-fold')
+  ].join('');
+  cardReopen=()=>openEraCard(i); cardNext=[];
+  stopNarration(); panelBody.innerHTML=h; showPanel(`era/${e.num}`); narrCardReady();
+  wirePanelLinks(); wireCard();
+  panelBody.querySelectorAll('[data-era-story]').forEach(b=>b.addEventListener('click',()=>openPanelStory(mapStories[+b.dataset.eraStory])));
+  panelBody.querySelectorAll('[data-era-trad]').forEach(b=>b.addEventListener('click',()=>{
+    const m=byId[b.dataset.eraTrad], j=b.dataset.idx;
+    afterOpen(openPanel(m),()=>{
+      const item=panelBody.querySelector(`details.docstory-item[data-story-idx="${j}"]`);
+      if(!item)return;
+      const fold=item.closest('details.fold'); if(fold)fold.open=true;
+      item.open=true; item.scrollIntoView({block:'start'}); const sum=item.querySelector('summary'); if(sum)sum.focus();
+    });
+  }));
+  syncWorldURL(null);
+}
+function goIntoEra(i){
+  const cx=(window.innerWidth/2-tx)/scale;
+  scale=Z_READ; tx=window.innerWidth/2-cx*scale; ty=topInset()+18-eraY0[i]*scale;
+  applyTransform(); applyDetail();
+  announce(`${eras[i].title}. Tradition names are showing.`);
 }
 let _docStoryManifest=null;
 function docStoryManifest(){
@@ -135853,12 +135978,6 @@ function connButtonHTML(m){
   const n=connectionCount(m.id);
   if(!n)return '';
   return `<button type="button" class="act-chip conn-btn" aria-label="Connections · ${n}. Show them on the map">Connections · ${n}</button>`;
-}
-function lineButtonHTML(m){
-  if(!isTraditionCard(m))return '';
-  const k=familyLine(m).ids.size;
-  if(k<2)return '';
-  return `<button type="button" class="act-chip line-btn" aria-label="Family line · ${k} traditions. Show it on the map">Family line · ${k}</button>`;
 }
 let lastFocused=null;
 function showPanel(page){
@@ -135968,7 +136087,7 @@ const BAR_ICON={
 };
 const barIcon=k=>`<svg class="bar-ico" viewBox="0 0 20 20" width="20" height="20" aria-hidden="true" focusable="false">${BAR_ICON[k]}</svg>`;
 const LINK_MODES=['off','major','all'];
-let linkMode='off', connFocus=null, connEnds=null, connLine=false, connLinePairs=null, edgeSamples=null, litSet=null;
+let linkMode='off', connFocus=null, connBack=null, connEnds=null, connLine=false, connLinePairs=null, edgeSamples=null, litSet=null;
 const kindsOff=new Set();
 const effectiveLinkMode=()=>narrowScreen()?'off':linkMode;
 function connectionCount(id){return gEdges.querySelectorAll(`.edge-line[data-via~="${CSS.escape(id)}"]`).length;}
@@ -136153,15 +136272,15 @@ function clearConnections(){
   const m=connFocus;
   document.querySelectorAll('.conn-lit').forEach(l=>l.classList.remove('is-lit','conn-lit'));
   gNodes.querySelectorAll('.node.conn-end').forEach(g=>g.classList.remove('conn-end'));
-  connFocus=null; connEnds=null; connLine=false; connLinePairs=null; edgeSamples=null; syncPeek(); drawEdgeChips(); svg.classList.remove('conn-focus','line-focus'); connChip.classList.remove('is-line'); connChip.hidden=true;
+  connFocus=null; connBack=null; connEnds=null; connLine=false; connLinePairs=null; edgeSamples=null; syncPeek(); drawEdgeChips(); svg.classList.remove('conn-focus','line-focus'); connChip.classList.remove('is-line'); connChip.hidden=true;
   scheduleLabelFit();
   announce('Connections cleared.');
   returnFocus(gNodes.querySelector(`.node[data-id="${CSS.escape(m.id)}"]`),[connChip]);
 }
-function showConnections(m,line){
+function showConnections(m,line,back){
   clearConnections(); if(whoScope)clearWho(); clearLit(true);
   lastFocused=null; closePanel();
-  connFocus=m; connLine=!!line; connLinePairs=connLine?familyLine(m):null; lightConnections();
+  connBack=back||null; connFocus=m; connLine=!!line; connLinePairs=connLine?familyLine(m):null; lightConnections();
   svg.classList.add('conn-focus'); svg.classList.toggle('line-focus',connLine); connChip.classList.toggle('is-line',connLine);
   syncPeek();
   const narrow=narrowScreen();
@@ -136192,7 +136311,7 @@ function peekHeight(){return peekStrip.hidden?0:peekStrip.offsetHeight+8;}
 function syncPeek(){
   const show=narrowScreen()&&!!(connFocus||litSet)&&!panel.classList.contains('open')&&!(typeof tour!=='undefined'&&tour.on);
   if(show){
-    const nm=connFocus?(connFocus.shortName||connFocus.name):litSet.label;
+    const nm=connBack?connBack.name:connFocus?(connFocus.shortName||connFocus.name):litSet.label;
     peekStrip.querySelector('.pk-t').textContent=nm;
     peekStrip.querySelector('.pk-go').textContent=connFocus?'Open card':'Show the list';
     peekStrip.querySelector('.pk-open').setAttribute('aria-label',connFocus?`Open the card for ${nm}`:`${nm}. Show the search list.`);
@@ -136201,7 +136320,7 @@ function syncPeek(){
   document.body.classList.toggle('has-peek',show);
   scheduleEdgeChips();
 }
-peekStrip.querySelector('.pk-open').addEventListener('click',()=>{if(connFocus)openPanel(connFocus);else if(litSet)openSearch();});
+peekStrip.querySelector('.pk-open').addEventListener('click',()=>{if(connBack)connBack.open();else if(connFocus)openPanel(connFocus);else if(litSet)openSearch();});
 window.addEventListener('resize',()=>{if(connFocus||litSet)syncPeek();});
 ['pointerdown','wheel','touchstart'].forEach(ev=>peekStrip.addEventListener(ev,e=>e.stopPropagation(),{passive:true}));
 // Where a lit line runs past the screen edge, its end continues as a label in the line's colour at the
