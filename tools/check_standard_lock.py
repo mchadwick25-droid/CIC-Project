@@ -2,7 +2,7 @@
 without Mark's words in a new Decision-Log entry.
 
 Locked: everything under Brief-Kit/ (the kit and the
-role prompts) and everything under Who-Profiles/bar/, both in
+role prompts), everything under Stage-Two-Kit/ and everything under Who-Profiles/bar/, all in
 Build/Ministry/Features/Church-Family-Tree/. A change to any of them passes
 only when the same pull request adds an entry to that folder's
 Decision-Log.md whose heading or "Decided" line names Mark and which has a
@@ -17,7 +17,7 @@ import subprocess
 import sys
 
 FOLDER = "Build/Ministry/Features/Church-Family-Tree/"
-LOCKED_DIRS = (FOLDER + "Brief-Kit/", FOLDER + "Who-Profiles/bar/")
+LOCKED_DIRS = (FOLDER + "Brief-Kit/", FOLDER + "Stage-Two-Kit/", FOLDER + "Who-Profiles/bar/")
 DECISION_LOG = FOLDER + "Decision-Log.md"
 
 QUOTATION = re.compile(r"“[^”]*\S[^”]*”|\"[^\"]*\S[^\"]*\"")
