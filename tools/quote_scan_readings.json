@@ -1051,6 +1051,20 @@
     "(3) Cf. Moïse de Khorène, Hist. d'Arm., liv. nt,",
     "ch. 52, 53."
    ]
+  },
+  {
+   "file": "cic/texts/augustine_epistulae-1-123-lat_goldbacher-csel34.txt",
+   "lines": "6524",
+   "scan": "•r> plenissima",
+   "reads": "plenissima",
+   "kind": "OCR misread margin line number run into the line"
+  },
+  {
+   "file": "cic/texts/possidius_vita-augustini_weiskotten1919.txt",
+   "lines": "4558",
+   "scan": "X5 tur;",
+   "reads": "tur;",
+   "kind": "OCR misread margin line number run into the line"
   }
  ]
 }

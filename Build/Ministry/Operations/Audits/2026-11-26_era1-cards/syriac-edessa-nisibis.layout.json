@@ -1,11 +1,11 @@
 {
- "shortDescription": "In Edessa and Nisibis, between the Roman and Persian empires, Christians who spoke Syriac sang their teaching in Ephrem's hymns. Among them were men and women vowed to live unmarried and holy for God.",
- "dates": "c. 201 to early 5th c.",
+ "shortDescription": "In Edessa and Nisibis, between the Roman and Persian empires, Christians who spoke Syriac came to sing their teaching in Ephrem's hymns. Among them were men and women vowed to live unmarried and holy for God.",
+ "dates": "c. 201 to c. 410",
  "timeline": [
   {
    "when": "About 201",
    "headline": "A flood at Edessa destroys the Christians' church",
-   "witness": "The Chronicle of Edessa, whose last entries fall under the emperor Justinian, from the city's own records",
+   "witness": "The Chronicle of Edessa, whose last entries fall under the emperor Justinian",
    "lines": [
     {
      "when": "November of \"the year 513\" of the Greeks",
@@ -33,7 +33,7 @@
      "when": "date unknown",
      "text": "The Doctrine of Addai, Edessa's founding story, pictures a great crowd gathering each day for prayer and for the reading of the Old and New Testament and of the Diatessaron.",
      "reference": "Doctrine of Addai, cic/texts/addai_doctrine-of-addai.txt line 65, with the editor's note on the word, line 219",
-     "note": "A later legend, set in the time of the apostles."
+     "note": "A later work, set in the time of the apostles."
     }
    ]
   },
@@ -49,14 +49,8 @@
     },
     {
      "when": "date unknown",
-     "text": "The church's preachers, Aphrahat writes, warn the whole covenant, those vowed to God, before baptism. Some young men and women choose for themselves a life unmarried and holy, and those who mean to marry are to marry before baptism.",
+     "text": "Before baptism, Aphrahat writes, the church's preachers are to warn all in the covenant of God, and the young men and women who choose a life unmarried and holy. Those who mean to marry are to marry before baptism.",
      "reference": "Aphrahat, Demonstration VII.20-21, cic/texts/aphrahat_demonstrations-2-7_hallock1932.txt line 57; Latin, cic/texts/aphrahat_demonstrationes-1-22-syr-lat_parisot1894.txt lines 21939-21942"
-    },
-    {
-     "when": "date unknown",
-     "text": "The Syriac name for the vowed means sons of the covenant: those who vowed themselves to God to keep from marriage.",
-     "reference": "Parisot's introduction to Aphrahat, cic/texts/aphrahat_demonstrationes-1-22-syr-lat_parisot1894.txt lines 3291-3293",
-     "note": "The editor's explanation of the word."
     },
     {
      "when": "date unknown",
@@ -130,12 +124,12 @@
     },
     {
      "when": "date unknown",
-     "text": "Shapur believes a charge that the bishop, Symeon, is a friend of the Roman emperor. He taxes the Christians heavily, hoping want will make them give up their faith, then orders their priests killed and their churches pulled down.",
+     "text": "Shapur believes a charge that Symeon, bishop of the royal cities Seleucia and Ctesiphon, is a friend of the Roman emperor. He taxes the Christians heavily, hoping want will make them give up their faith, then orders their priests killed and their churches pulled down.",
      "reference": "Sozomen, Church History II.9, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 28889-28899"
     },
     {
      "when": "date unknown",
-     "text": "In the Syriac acts of the Persian martyrs, the king says that Simon wants to make his people servants of the emperor, who shares their faith.",
+     "text": "In the Syriac acts of the Persian martyrs, the king says that Symeon, whom the acts call Simon, wants to make his people servants of the emperor, who shares their faith.",
      "reference": "Acts of the Persian martyrs, German tr. Braun, cic/texts/persian-martyr-acts_ausgewahlte-akten-persischer-martyrer-bkv22-deu_braun1915.txt lines 1575-1578",
      "note": "The king's words, as the Christian acts report them."
     },
@@ -204,7 +198,7 @@
    ]
   },
   {
-   "when": "In the 11th year of King Yazdegerd's reign",
+   "when": "In the 11th year of King Yazdegerd's reign, about 410",
    "headline": "A later Persian king lets the churches rebuild, and forty bishops meet in a synod, a council of bishops",
    "witness": "The acts of the synod of Mar Isaac, in Chabot's French",
    "lines": [
@@ -215,9 +209,9 @@
      "note": "Socrates wrote a generation later. The wonders he tells of Maruthas are left out here."
     },
     {
-     "when": "in the 11th year of King Yazdegerd's reign",
+     "when": "in the 11th year of King Yazdegerd's reign, about 410",
      "text": "King Yazdegerd has ordered the churches his fathers destroyed to be rebuilt, the prisoners freed, and \"the priests, the leaders and all the holy covenant\" to go about freely and without fear.",
-     "reference": "Synod of Isaac, cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt lines 16155-16166"
+     "reference": "Synod of Isaac, cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt lines 16155-16166; the year worked out from the acts' own date, the eleventh year of Yazdegerd, at the Epiphany and on the first of Shebat, counting his years from August 399, lines 16155, 16412, 16422, 16211-16212"
     },
     {
      "when": "date unknown",
@@ -226,8 +220,8 @@
     },
     {
      "when": "at the feast of the Epiphany",
-     "text": "King Yazdegerd orders Isaac and Marutha to gather the bishops in the great church of the capital. The bishops write that the day they met was for them like the dead rising.",
-     "reference": "Synod of Isaac, cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt lines 16410-16422, 16499-16500"
+     "text": "The bishops reach the capital at the feast of the Epiphany, and King Yazdegerd orders Isaac and Marutha to gather them in the great church. The bishops write that the first of the month Shebat, the day their synod met, was for them like the dead rising.",
+     "reference": "Synod of Isaac, cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt lines 16412-16422, 16499-16504"
     },
     {
      "when": "date unknown",
@@ -247,7 +241,7 @@
    "lines": [
     {
      "when": "date unknown",
-     "text": "John of Ephesus still writes of women becoming readers and daughters of the covenant.",
+     "text": "John of Ephesus still writes of a holy man's disciples, grown men and women, becoming readers and daughters of the covenant.",
      "reference": "John of Ephesus, Lives of the Eastern Saints, cic/texts/john-ephesus_lives-eastern-saints-po17_brooks1923.txt lines 14150-14153",
      "note": "John wrote in the sixth century."
     }

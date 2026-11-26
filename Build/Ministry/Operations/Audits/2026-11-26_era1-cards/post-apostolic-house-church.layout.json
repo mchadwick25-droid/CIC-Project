@@ -1,5 +1,5 @@
 {
- "shortDescription": "In Antioch, Asia Minor and Rome, Christians met on Sunday, the Lord's day, to share bread and wine with thanks to God. Letters and messengers passing between their churches held them together.",
+ "shortDescription": "In Antioch, Asia Minor and Rome, Christians met on the Lord's day, Sunday, to give thanks to God over bread and a cup. Their churches sent letters and messengers to one another.",
  "dates": "late 1st to late 2nd c.",
  "timeline": [
   {
@@ -148,7 +148,7 @@
     },
     {
      "when": "date unknown",
-     "text": "Ignatius hears that the church at Antioch in Syria is at peace. He asks Polycarp, bishop of Smyrna, to choose a messenger to go to Syria, and to have the churches nearby send messengers or letters.",
+     "text": "Ignatius hears that the church at Antioch in Syria is at peace. He asks Polycarp, bishop of Smyrna, to call a council to choose a messenger to go to Syria, and to have the churches nearby send messengers or letters.",
      "reference": "Ignatius, To Polycarp 7-8, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 8534-8536, 8810-8863"
     }
    ]
@@ -199,8 +199,8 @@
    ]
   },
   {
-   "when": "Under Antoninus Pius",
-   "headline": "Justin tells the emperor how Christians at Rome baptize and keep Sunday",
+   "when": "Under Antoninus Pius, and after him",
+   "headline": "Justin tells the emperor how Christians baptize and keep Sunday",
    "witness": "Justin, a Christian teacher at Rome, in the defense of the Christians he addressed to the emperor",
    "lines": [
     {
@@ -210,7 +210,7 @@
     },
     {
      "when": "date unknown",
-     "text": "At Rome, Justin writes, those who come to believe pray and fast, and the community fasts with them. Then they are washed with water in the name of the Father, of Jesus Christ and of the Holy Spirit. The washing is called illumination.",
+     "text": "Justin writes that those who come to believe pray and fast, and the community fasts with them. Then they are washed with water in the name of the Father, of Jesus Christ and of the Holy Spirit. The washing is called illumination.",
      "reference": "Justin, First Apology 61, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 16232-16240, 16265-16266"
     },
     {
@@ -241,8 +241,8 @@
     {
      "when": "date unknown",
      "text": "At Justin's trial, the prefect Rusticus asks where the Christians gather. Justin answers that each meets where he chooses and can, and that he himself lives above one Martinus, at the Timiotinian Bath, and knows of no other meeting.",
-     "reference": "Martyrdom of Justin 2, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 29295-29312",
-     "note": "From an anonymous account of the trial, of unknown date."
+     "reference": "Martyrdom of Justin 2, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 29295-29312; Eusebius, Church History IV.15.10 and IV.16.1, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 23032-23036, 23749, 23756-23764",
+     "note": "From an anonymous account of the trial, of unknown date. Eusebius puts Justin's death after Antoninus Pius, under the emperors who followed him."
     },
     {
      "when": "date unknown",
@@ -257,13 +257,13 @@
    "headline": "Visitors and letters pass between Corinth and Rome",
    "lines": [
     {
-     "when": "before Anicetus was bishop of Rome",
-     "text": "Hegesippus, on his way to Rome, stays many days with the church of Corinth, then remains at Rome until Anicetus.",
-     "reference": "Eusebius, Church History IV.22.2-3, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 24627-24647",
+     "when": "date unknown",
+     "text": "Hegesippus, on his way to Rome, stays many days with the church of Corinth, and they are refreshed together in the true teaching.",
+     "reference": "Eusebius, Church History IV.22.2, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 24641-24644",
      "note": "Hegesippus's own words, as Eusebius keeps them."
     },
     {
-     "when": "\"when Soter was bishop\"",
+     "when": "when Soter was bishop of Rome",
      "text": "Dionysius, bishop of Corinth, praises Rome's custom from the beginning of sending gifts to churches in every city, and supplies to Christians in the mines, a custom Soter has kept and added to.",
      "reference": "Eusebius, Church History IV.23.9-10, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 25082-25107",
      "note": "Dionysius's own words, as Eusebius keeps them."
@@ -322,7 +322,7 @@
   },
   {
    "when": "4th century",
-   "headline": "Their letters and their manual are still read",
+   "headline": "Rome's letter, the manual and the Shepherd are still read",
    "lines": [
     {
      "when": "in Eusebius's own day",

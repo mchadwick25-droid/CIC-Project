@@ -1,12 +1,18 @@
 {
- "shortDescription": "In Carthage and Hippo, in Roman Africa, Latin-speaking Christians gathered around one bishop. He taught them, cared for their poor, judged their quarrels, and decided with them when to take back those who had fallen away.",
- "dates": "250 to 430",
+ "shortDescription": "In Carthage and Hippo, in Roman Africa, Latin-speaking Christians gathered around their city's bishop. He taught them, cared for their poor, judged their quarrels, and decided with them when to take back those who had fallen away.",
+ "dates": "c. 248 to 430",
  "timeline": [
   {
-   "when": "250",
-   "headline": "Decius's persecution reaches Carthage, and Cyprian leads his church by letter from hiding",
+   "when": "About 248 to 250",
+   "headline": "Cyprian becomes bishop of Carthage, and leads his church by letter through Decius's persecution",
    "witness": "Cyprian, bishop of Carthage, in his own letters",
    "lines": [
+    {
+     "when": "about 248 or 249",
+     "text": "Cyprian is chosen bishop of Carthage by the vote of all the people.",
+     "reference": "Cyprian, Letter 59.6 (Hartel), cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt lines 9352, 9660-9663; the year worked out from the same letter, written to Cornelius in Cyprian's fourth year as bishop, and from Eusebius, Church History VI.39.1 and VII.2, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 37414-37416, 39214-39216",
+     "note": "The year is worked out from the sources' clues. No source gives it."
+    },
     {
      "when": "250",
      "text": "The emperor Decius begins a persecution of the churches.",
@@ -15,8 +21,9 @@
     },
     {
      "when": "date unknown",
-     "text": "Under an edict ordering the people to sacrifice, the crowd at Carthage, in the circus and the amphitheater, again and again calls for Cyprian to be thrown to the lion.",
-     "reference": "Cyprian, Letter 59.6 (Hartel), cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt lines 9665-9668"
+     "text": "Cyprian later writes that the crowd has often called for him to be thrown to the lion, in the circus and in the amphitheater.",
+     "reference": "Cyprian, Letter 59.6 (Hartel), cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt lines 9663-9666",
+     "note": "Written in his fourth year as bishop."
     },
     {
      "when": "date unknown",
@@ -51,7 +58,7 @@
     },
     {
      "when": "date unknown",
-     "text": "Until peace returns to the church, Cyprian writes, the bishops, meeting with the clergy and with the people who stood firm, are to settle everything by common counsel.",
+     "text": "The fallen, Cyprian writes, are to wait for the church's public peace. Then the bishops, meeting with the clergy and with the people who stood firm, are to settle everything by common counsel.",
      "reference": "Cyprian, Letter 19.2 (Hartel), cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt lines 2920-2927"
     }
    ]
@@ -95,7 +102,7 @@
    ]
   },
   {
-   "when": "A few years later",
+   "when": "Date unknown",
    "headline": "Plague strikes, and Carthage ransoms captives",
    "lines": [
     {
@@ -148,7 +155,7 @@
    "witness": "The Acta, the record of Cyprian's trials and death",
    "lines": [
     {
-     "when": "date unknown",
+     "when": "30 August, when Valerian and Gallienus were consuls",
      "text": "The proconsul tells Cyprian that the emperors Valerian and Gallienus have ordered those who do not keep the Roman religion to take part in the Roman rites. Cyprian answers that he is a Christian and a bishop, and is sent into exile at Curubis.",
      "reference": "Acta Proconsularia 1, cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt lines 41413-41432"
     },
@@ -198,7 +205,7 @@
     },
     {
      "when": "date unknown",
-     "text": "The rival church's bishop Parmenian holds that one who is stained cannot wash away sins in baptism.",
+     "text": "The rival church's bishop Parmenian holds that one who is stained cannot wash away sins in a false baptism.",
      "reference": "Optatus, Against the Donatists I.10, cic/texts/optatus_against-the-donatists.txt line 153; Latin, cic/texts/optatus_libri-vii-lat_ziwsa1893-csel26-tei.txt lines 589-590",
      "note": "Parmenian's words, as his opponent quotes them."
     },
@@ -252,7 +259,7 @@
     },
     {
      "when": "date unknown",
-     "text": "Augustine writes a psalm against the party of Donatus for the plainest people to sing and remember, one verse for each letter of the Latin alphabet.",
+     "text": "Augustine writes a psalm against the party of Donatus for the plainest people to sing and remember, its verses running through the Latin alphabet as far as the letter V.",
      "reference": "Augustine, Retractations I.20, cic/texts/augustine_retractationes-lat_knoll-csel36.txt lines 6833-6838"
     }
    ]
@@ -333,7 +340,7 @@
     {
      "when": "28 August, when Theodosius and Valentinian were consuls",
      "text": "Augustine dies, aged seventy-six, Possidius says, almost forty years of them as priest or bishop.",
-     "reference": "Prosper, Chronicle, cic/texts/prosper_chronica-minora-1-lat_mommsen1892.txt lines 54204-54208; Possidius, Life of Augustine 31, cic/texts/possidius_vita-augustini_weiskotten1919.txt lines 4919-4920"
+     "reference": "Prosper, Chronicle, cic/texts/prosper_chronica-minora-1-lat_mommsen1892.txt lines 54201-54208; Possidius, Life of Augustine 31, cic/texts/possidius_vita-augustini_weiskotten1919.txt lines 4919-4920"
     },
     {
      "when": "after Augustine's death",
@@ -344,7 +351,7 @@
   },
   {
    "when": "After Augustine",
-   "headline": "Carthage falls, and later Africans remember Cyprian and Augustine",
+   "headline": "Carthage falls, and later writers remember Cyprian and Augustine",
    "lines": [
     {
      "when": "439",
