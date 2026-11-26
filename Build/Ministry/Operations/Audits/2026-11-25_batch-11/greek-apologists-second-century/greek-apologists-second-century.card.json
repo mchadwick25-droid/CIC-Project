@@ -1,0 +1,227 @@
+{
+ "why": "In the second century, Christian writers handed Roman emperors formal defenses of their faith, answering charges of atheism and cannibalism by asking to be judged by how they lived. Justin Martyr ran a school at Rome and was executed under Marcus Aurelius for refusing to sacrifice to the gods and obey the emperor's command. Theophilus of Antioch, writing to a pagan friend, counted back the years to show that the books of Moses were older than the Greeks' own.",
+ "sourcing": "Unusually good. Justin Martyr's two Apologies and the Dialogue, Athenagoras' Plea, Theophilus of Antioch to Autolycus, Tatian's Address and the Epistle to Diognetus all survive whole; Quadratus and Melito survive in fragments, and Aristides was recovered only in 1889. Roughly a dozen works in hand, which is more than several other traditions here have.",
+ "floorNote": "Not in question",
+ "relationsSummary": "It overlaps the household churches of the same years, in time and in people. Justin Martyr taught at Rome, Theophilus was bishop of Antioch and Melito bishop of Sardis. But it is a different thing. The household churches show the church's inner life. Here the church turns outward, to emperors and an educated public that despised it.",
+ "teaser": "Second-century Christians handing written defenses to emperors who had them killed anyway - and arguing, while they did it, that the Greek poets and philosophers had spoken of one God too.",
+ "voices": [
+  "Quadratus - the earliest, who gave Hadrian a defense and survives in a single paragraph",
+  "Aristides of Athens - whose apology was lost for seventeen centuries and recovered in 1889",
+  "Justin Martyr - philosopher, schoolmaster at Rome, author of two Apologies and the Dialogue with Trypho, beheaded under Marcus Aurelius",
+  "Athenagoras of Athens - who addressed Marcus Aurelius and Commodus and hailed them, above all, as philosophers",
+  "Theophilus of Antioch - who wrote three books to a pagan friend and used the word Trinity of God, his Word and his Wisdom",
+  "Melito of Sardis - bishop, apologist to Marcus Aurelius, and author of a Paschal homily recovered in the twentieth century",
+  "The writer to Diognetus - anonymous and undated"
+ ],
+ "legacy": "At Alexandria, Clement praised Tatian, a hearer of Justin's, for his careful account of the age of Moses, the argument Theophilus also made. Theophilus of Antioch called the three days before the sun and moon were made types of the Trinity, of God, his Word and his Wisdom. And the Epistle to Diognetus calls Christians resident aliens, at home everywhere and strangers everywhere.",
+ "documentedStories": [
+  {
+   "title": "Justin Martyr’s Trial Before the Prefect Rusticus",
+   "when": "c. 165",
+   "tier": "1",
+   "verification": "checked directly against the primary text",
+   "teaser": "A philosopher and six companions are asked where they meet, and answer that God is not confined to a place.",
+   "text": "The record of Justin’s trial is short, and its shape is that of a Roman court transcript. The urban prefect Rusticus — a Stoic, and one of Marcus Aurelius’ teachers — asked what doctrines Justin followed. He answered that he had tried them all and settled on ‘the true doctrines of the Christians’, and gave a brief creed. Asked where they assembled, Justin said that Christians met wherever each could, since the God of the Christians was not confined to a place; as for himself, he lodged ‘above the baths of one Martinus’, and anyone who wished came to him there to hear the word. Rusticus then questioned the others one by one: Chariton, Charito (a woman), Euelpistus — an imperial slave who said he had received the faith from his parents — Hierax, Paeon, Liberianus. Each answered ‘I am a Christian’. Asked whether he expected to go up to heaven if he were scourged and beheaded, Justin said that he hoped so, and that he knew it. The prefect ordered them scourged and beheaded ‘in accordance with the laws’. The document ends with unnamed believers taking away the bodies. It is one of the very few second-century texts in which ordinary Christians — a slave, a woman, men known by one name — speak in the first person, however briefly.",
+   "caveat": "The Acts survive in three recensions; the shortest is usually judged closest to a court record, though it has been shaped for reading in church. The year is inferred from Rusticus’ term of office.",
+   "sources": [
+    {
+     "work": "The Martyrdom of the Holy Martyrs Justin, Chariton, Charites, Paeon, and Liberianus (Acts of Justin)",
+     "type": "primary",
+     "note": "ANF 1 translation of the Acts."
+    }
+   ],
+   "modernWorks": [
+    {
+     "title": "The Acts of the Christian Martyrs",
+     "author": "Herbert Musurillo",
+     "year": "1972",
+     "publisher": "Oxford",
+     "note": "Greek text of all three recensions with translation and dating discussion."
+    }
+   ]
+  },
+  {
+   "title": "The Woman Who Left Her Husband, and What It Cost Ptolemaeus",
+   "when": "c. 150–160",
+   "tier": "1",
+   "verification": "checked directly against the primary text",
+   "teaser": "A Roman wife’s conversion ends her marriage; her husband takes revenge on her teacher, and a bystander objects.",
+   "text": "Justin opens his Second Apology with a case from his own city that had just happened ‘under Urbicus’, the prefect. A woman who had shared her husband’s dissolute life became a Christian and tried to persuade him to change; when he would not, and grew worse, she decided she could no longer live with him and — against her friends’ advice to wait — sent him a formal notice of divorce. He denounced her as a Christian. She petitioned the emperor for time to settle her affairs and got it, so her husband turned on the man who had instructed her, Ptolemaeus. A centurion he knew arrested Ptolemaeus and asked him one question: was he a Christian? He said yes, was jailed for a long time, and was finally brought before Urbicus, who asked the same question and, on the same answer, ordered him executed. A man named Lucius, watching, asked the prefect aloud why someone convicted of no adultery, theft or crime was being punished for a name; Urbicus asked whether he too was a Christian, and Lucius said he was and was led off. A third man followed. Justin records the whole thing to argue that Christians were being killed for a label, but the episode also shows what conversion did inside a Roman household — and that the church’s teachers, not only its converts, paid for it.",
+   "caveat": "A contemporary account by a man in the same city, written within months; Justin Martyr is an advocate, not a neutral reporter, and gives only the Christian side of the marriage.",
+   "sources": [
+    {
+     "work": "Justin Martyr, Second Apology, ch. 1–2",
+     "type": "primary",
+     "note": "The whole episode."
+    },
+    {
+     "work": "Eusebius, Church History IV.17",
+     "type": "primary",
+     "note": "Eusebius quotes the passage."
+    }
+   ],
+   "modernWorks": [
+    {
+     "title": "From Paul to Valentinus: Christians at Rome in the First Two Centuries",
+     "author": "Peter Lampe",
+     "year": "2003",
+     "publisher": "Fortress",
+     "note": "Situates the case in Roman social history."
+    }
+   ]
+  }
+ ],
+ "people": [
+  {
+   "name": "Quadratus",
+   "year": 124,
+   "voice": 0,
+   "author": "quadratus",
+   "held": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-quadratus"
+  },
+  {
+   "name": "Aristides of Athens",
+   "year": 125,
+   "voice": 1,
+   "author": "aristides",
+   "held": "anf09_gospel-of-peter-diatessaron-origen-commentaries--the-apology-of-aristides-the-philosopher"
+  },
+  {
+   "person": "justin-martyr"
+  },
+  {
+   "name": "Melito of Sardis",
+   "year": 170,
+   "voice": 5,
+   "author": "melito-of-sardis",
+   "held": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-melito-of-sardis"
+  },
+  {
+   "name": "Athenagoras of Athens",
+   "year": 177,
+   "voice": 3,
+   "author": "athenagoras",
+   "held": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--a-plea-for-the-christians"
+  },
+  {
+   "name": "Theophilus of Antioch",
+   "year": 180,
+   "voice": 4,
+   "author": "theophilus",
+   "held": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--theophilus-to-autolycus"
+  }
+ ],
+ "uncertain": [
+  "Which emperor Aristides addressed. Eusebius says Hadrian, and so does the short heading of the Syriac version. Its longer heading names Caesar Titus Hadrianus Antoninus, and Justin addresses Antoninus Pius as Titus Aelius Hadrianus Antoninus.",
+  "What Aristides says of Christian life. His Greek survives only reworked inside a later Christian romance, Barlaam and Josaphat, and his Syriac version differs from it. Both say that Christians who have give to those who have not, and take a stranger under their roof as a brother. Only the Syriac adds that they fast two or three days to feed the needy, and that they persuade their slaves to become Christians and then call them brothers.",
+  "What Quadratus saw. Quadratus says that people Christ healed or raised from the dead lived on, some of them to his own day. Jerome, writing much later, says Quadratus had seen many of them.",
+  "Whether a plot killed Justin. Justin wrote that he expected to be plotted against, perhaps by Crescens, a philosopher at Rome who publicly called Christians atheists and impious to please the crowd. Eusebius, writing in the early 300s, says Justin was put to death through a plot laid by Crescens.",
+  "Whether the emperors answered. No old source records a reply to any of these defenses. Eusebius's Chronicle, in Jerome's Latin, sets the books of Quadratus and Aristides under Hadrian, then says Hadrian wrote to Minucius Fundanus, moved by a letter from the legate Serenus Granius, not by the defenses. Melito himself told Marcus Aurelius that Hadrian had written to Fundanus and many others, and that his father, while Marcus ruled with him, wrote to the cities forbidding any new measures against Christians.",
+  "Theophilus as bishop. Only Eusebius, and Jerome after him, calls Theophilus bishop of Antioch. His books to Autolycus do not say so."
+ ],
+ "sources": [
+  {
+   "work": "Justin, First Apology, Greek text (ed. G. Rauschen, 1911)",
+   "type": "primary",
+   "file": "cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt",
+   "note": "Justin's defense, addressed to Antoninus Pius and his sons: the emperors can kill Christians but cannot harm them; the charge of atheism answered; Christians everywhere pay their taxes, worship God alone and serve the emperors gladly in all else; and Marcion of Pontus, still teaching another god greater than the Creator, whose followers, also called Christians, were not persecuted for their teaching."
+  },
+  {
+   "work": "Justin, Second Apology, Greek text (ed. G. Rauschen, 1911)",
+   "type": "primary",
+   "file": "cic/texts/justin-martyr_second-apology-grc_rauschen1911.txt",
+   "note": "Justin expects to be plotted against, perhaps by Crescens, a philosopher who publicly calls Christians atheists and impious."
+  },
+  {
+   "work": "Justin, First and Second Apologies; The Martyrdom of Justin and his companions; the Epistle to Diognetus; Irenaeus, Against Heresies (Ante-Nicene Fathers 1)",
+   "type": "primary",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "note": "The English of Justin's Apologies, with his report that household servants, children or weak women were tortured into confessing the rumors. The Martyrdom gives the sentence of Rusticus, prefect of Rome, on Justin and his companions, who refused to sacrifice to the gods and to yield to the emperor's command. The Epistle to Diognetus in English, with its line that those who hate Christians cannot give a reason for their hatred. Irenaeus says Tatian was a hearer of Justin's."
+  },
+  {
+   "work": "Athenagoras, Plea for the Christians, Greek text (ed. J. C. T. von Otto, 1857)",
+   "type": "primary",
+   "file": "cic/texts/athenagoras_legatio-grc_otto1857.txt",
+   "note": "Addressed to Marcus Aurelius and Commodus, ruling together, conquerors of Armenia and Sarmatia and above all philosophers. Each people may worship its own gods, the Egyptians even cats and crocodiles, yet the name Christian alone is hated. The three charges, with the plea to destroy Christians root and branch, with their wives and children, if they are true. No accuser dares say he has seen what he alleges, and not one of the Christians' own slaves has made up such a thing. They will not watch the gladiator shows. They pray that the throne pass from father to son."
+  },
+  {
+   "work": "Athenagoras, Plea for the Christians (tr. B. P. Pratten); Theophilus, To Autolycus (tr. M. Dods); Clement of Alexandria, Stromata I.21 (tr. W. Wilson) (Ante-Nicene Fathers 2)",
+   "type": "primary",
+   "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+   "note": "The English of Athenagoras's Plea. Theophilus to his friend Autolycus: the friend mocks the name Christian and asks to be shown his God; they part friends; the rumors of shared wives, incest and eating human flesh; the friend's view that Christian writings are recent and the teaching an idle tale; the age of Moses's books reckoned against the Greeks'; Christians forbidden even to watch gladiators; the three days before the luminaries as types of the Trinity, of God, his Word and his Wisdom. Clement says the epoch of Moses was discussed with accuracy by Tatian."
+  },
+  {
+   "work": "Epistle to Diognetus, Greek text (ed. K. Lake, 1917)",
+   "type": "primary",
+   "file": "cic/texts/pseudo-justin_epistle-to-diognetus-grc_lake1917.txt",
+   "note": "An unsigned, undated letter: Christians in the world as resident foreigners; they do not expose their infants; those who hate them cannot give a reason for their hatred."
+  },
+  {
+   "work": "Eusebius, Church History IV.3, IV.16, IV.24 and IV.26 (tr. A. C. McGiffert, Nicene and Post-Nicene Fathers, second series, 1)",
+   "type": "primary",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "note": "Quadratus's defense to Hadrian, written because wicked men were trying to trouble the Christians, with his one passage: those healed and those raised from the dead lived on, some to Quadratus's own day. Aristides's defense to Hadrian. Justin's martyrdom under Marcus Aurelius, which Eusebius puts down to a plot by Crescens. Theophilus as bishop of Antioch. Melito, bishop of Sardis, to Marcus Aurelius: new decrees in Asia, informers plundering the innocent, his plea if the decree is not the emperor's, the faith that grew up with the empire, and the earlier emperors' letters against new measures."
+  },
+  {
+   "work": "Corpus apologetarum christianorum saeculi secundi 9, Greek and Latin (ed. J. C. T. von Otto, 1872)",
+   "type": "primary",
+   "file": "cic/texts/apologists-fragmentary_reliquiae-corpus-apologetarum-vol9-grc-lat_otto1872.txt",
+   "note": "Eusebius's Greek for Quadratus and for Melito's petition, in a damaged scan, used only to confirm the English."
+  },
+  {
+   "work": "Jerome, Lives of Illustrious Men 19, 20, 24 and 25 (tr. E. C. Richardson, Nicene and Post-Nicene Fathers, second series, 3)",
+   "type": "primary",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "note": "Jerome's later notices of Quadratus, Aristides, Melito and Theophilus, drawn from Eusebius."
+  },
+  {
+   "work": "Eusebius, Chronicle, in Jerome's Latin (ed. J. K. Fotheringham, 1923)",
+   "type": "primary",
+   "file": "cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt",
+   "note": "Sets the books of Quadratus and Aristides under Hadrian, beside Hadrian's letter to Minucius Fundanus."
+  },
+  {
+   "work": "Aristides, Apology, from the Syriac and the Greek (tr. D. M. Kay, Ante-Nicene Fathers 9)",
+   "type": "primary",
+   "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml",
+   "note": "The Syriac version, found by J. Rendel Harris in the convent of St. Catharine on Mount Sinai in 1889, and the Greek, kept unrecognized inside the romance of Barlaam and Josaphat. Christians give to those who have nothing and take strangers in as brothers."
+  },
+  {
+   "work": "Tertullian, Against the Valentinians 5 (tr. A. Roberts, Ante-Nicene Fathers 3)",
+   "type": "primary",
+   "file": "cic/texts/anf03_tertullian.xml",
+   "note": "Tertullian names Justin first among the earlier writers who had refuted the followers of Valentinus, and scoffs at their heaven stacked on heaven for their gods."
+  }
+ ],
+ "quotationOriginals": [
+  {
+   "modern": "If this is done at your command, well and good. For a just ruler will never take unjust measures, and we gladly accept the honour of such a death.",
+   "printed": "If these things are done by thy command, well and good. For a just ruler will never take unjust measures; and we indeed gladly accept the honor of such a death.",
+   "work": "Melito of Sardis, petition to Marcus Aurelius, as quoted by Eusebius, Church History IV.26.5 (tr. A. C. McGiffert, Nicene and Post-Nicene Fathers, second series, 1, 1890)",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "25826-25829",
+   "uncertain": "Eusebius's Greek for this book is held only in a damaged scan, so the English stands alone. Melito's words survive only as Eusebius copied them."
+  },
+  {
+   "modern": "But we hold that to watch a man being killed is close to killing him, so we have given up such shows. We do not even watch, so that we bring no guilt or stain on ourselves. How then could we commit murder?",
+   "printed": "Ἀλλ᾿ ἡμεῖς, πλησίον εἶναι τὸ ἰδεῖν τὸν φονευόμενον τοῦ ἀποκτεῖναι νομίζοντες, ἀπηγορεύσαμεν τὰς τοιαύτας θέας. Πῶς οὖν μηδὲ ὁρῶντες, ἵνα μὴ ἑαυτοῖς ἅγος καὶ μίασμα προστριψαίμεθα, φονεύειν δυνάμεθα;",
+   "work": "Athenagoras, Plea for the Christians 35 (ed. J. C. T. von Otto, 1857)",
+   "file": "cic/texts/athenagoras_legatio-grc_otto1857.txt",
+   "lines": "1546-1550",
+   "englishPrinted": "But we, deeming that to see a man put to death is much the same as killing him, have abjured such spectacles. How, then, when we do not even look on, lest we should contract guilt and pollution, can we put people to death?",
+   "englishFile": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+   "englishLines": "13330-13349",
+   "uncertain": "πλησίον is near, so close to killing, not the same as killing."
+  },
+  {
+   "modern": "They live in their own homelands, but as resident foreigners. They share in everything as citizens, and endure everything as strangers. Every foreign land is a homeland to them, and every homeland is foreign.",
+   "printed": "πατρίδας οἰκοῦσιν ἰδίας, ἀλλ’ ὡς πάροικοι: μετέχουσι πάντων ὡς πολῖται, καὶ πάνθ̓ ὑπομένουσιν ὡς ξένοι: πᾶσα ξένη πατρίς ἐστιν αὐτῶν, καὶ πᾶσα πατρὶς ξένη.",
+   "work": "Epistle to Diognetus 5.5 (ed. K. Lake, 1917)",
+   "file": "cic/texts/pseudo-justin_epistle-to-diognetus-grc_lake1917.txt",
+   "lines": "312-317",
+   "englishPrinted": "They dwell in their own countries, but simply as sojourners. As citizens, they share in all things with others, and yet endure all things as if foreigners. Every foreign land is to them as their native country, and every land of their birth as a land of strangers.",
+   "englishFile": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "englishLines": "2735-2738"
+  }
+ ]
+}

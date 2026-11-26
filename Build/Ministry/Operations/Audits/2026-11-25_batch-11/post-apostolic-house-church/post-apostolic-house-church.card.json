@@ -1,0 +1,190 @@
+{
+ "why": "In the decades after the apostles died, these house churches held together through letters and messengers carried between them: Ignatius of Antioch wrote seven letters while under armed guard, and Rome wrote at length to settle a quarrel in Corinth.",
+ "sourcing": "Moderate to rich for communal life — letters, church order, worship — but its most vivid material leans on one contested corpus: Ignatius of Antioch's seven letters, whose authorship and dating (c. 107–117 CE traditionally; rival readings place them decades later, even as later composition) remain a genuine, unresolved scholarly dispute. Individual, first-person voice stays thin throughout: no woman, no enslaved member, and no non-literate believer — the majority of this movement — speaks to us in words of their own.",
+ "floorNote": "These communities lived two centuries before the Nicene Creed was written. What they confessed is part of the raw material the creed was later drawn from, not a departure from it.",
+ "relationsSummary": "The earliest layer on the map, which most later traditions claim as their root",
+ "voices": [
+  "Ignatius, bishop of Antioch, wrote seven letters to congregations while he was marched toward Rome under armed guard, c. 107-117. Polycarp's own letter later speaks of him as already dead, though it admits not knowing the details of what happened.",
+  "Clement of Rome wrote on behalf of the Roman church to the Corinthians near the end of the first century, addressing a dispute over deposed leaders. The letter is the earliest Christian writing outside the New Testament to survive.",
+  "Polycarp of Smyrna was addressed as bishop by Ignatius of Antioch, though his own letter never claims the title, opening only as 'Polycarp, and the presbyters with him.' He was put to death at Smyrna around 155; his own congregation recorded his death.",
+  "Justin Martyr was a philosopher who kept teaching Christianity as a school in Rome. He left the earliest detailed description of what their Sunday actually looked like.",
+  "Irenaeus had seen Polycarp at Smyrna as a boy, and later led the church at Lyon in Gaul. While Eleutherius was bishop of Rome he wrote five books Against Heresies, naming Rome's bishops in order down to his own day. His works sit on this tradition's Library shelf.",
+  "Most of these communities' hosts and householders are never named in the record. The gatherings met in their homes, but no record says whose.",
+  "Two enslaved women who served among these communities, called ministrae, are named only by their Roman interrogator's own word for their office — never by their own names. A governor had them tortured early in the second century to learn what Christians did; it is the earliest outside evidence that women here held a formal title at all."
+ ],
+ "legacy": "Almost every Christian tradition claims a root in these early gatherings, and the basic rhythm of Christian worship shows up earliest here. Believers met on the first day of the week and read aloud from the prophets and from the apostles' memoirs. And they shared the bread and the cup, either in a full common meal or as the bread and wine alone.\n\nWith the apostles no longer there to consult, these communities had to work out how to live together: how to treat one another, how to pray, and how to forgive and restore those who fell into sin or caused division. The roles of bishop, presbyter, and deacon were already named in the apostolic writings, but trying to live out those instructions under local pressures gave the offices more concrete form.\n\nThe apostolic texts themselves gained authority in much the same way. Reading the apostles' letters aloud week after week became an enduring habit, and it was through this regular use in worship—not by an early decree—that these writings came to be heard alongside the ancient Jewish Scriptures. Carried by travelers from city to city, these letters bound scattered households together, and writings like those of Clement of Rome, Ignatius of Antioch, and Polycarp were preserved and read for generations to come.\n\nIn the early 300s, Eusebius says that the letter Rome sent to Corinth had been \"publicly used in a great many churches both in former times and in our own.\" In 367, Athanasius set \"the Teaching of the Apostles, and the Shepherd\" among the books \"appointed by the Fathers to be read by those who newly join us.\"",
+ "sources": [
+  {
+   "work": "Ignatius of Antioch, Epistle to the Ephesians",
+   "type": "primary",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "note": "One of seven letters Ignatius wrote to congregations along his route to execution in Rome, c. 107–117.",
+   "url": "https://www.newadvent.org/fathers/0104.htm"
+  },
+  {
+   "work": "Clement of Rome, First Epistle to the Corinthians",
+   "type": "primary",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "note": "Written from the Roman church to Corinth near the end of the first century to settle a dispute over deposed leaders — the earliest Christian letter outside the New Testament. It went by three messengers, Claudius Ephebus, Valerius Bito and Fortunatus, who were to be sent back quickly with news of peace. It speaks of the same leaders as holding the bishop's office and as elders.",
+   "url": "https://www.newadvent.org/fathers/1010.htm"
+  },
+  {
+   "work": "The Didache (Teaching of the Twelve Apostles)",
+   "type": "primary",
+   "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+   "note": "A short manual of church practice and baptismal instruction, lost for centuries and recovered from a single surviving manuscript only in the 1870s. It was found in 1873, in a manuscript copied in 1056, and published in 1883. Its way of life also teaches: whatever you would not want to happen to you, do not do to another; bless those who curse you; give to anyone who asks; share everything with your brother. The one to be baptized fasts a day or two first, and is baptized in living water, which its editor reads as running water, or in other water if there is none. Its prayers give thanks first over the cup, then over the bread: as this broken bread was scattered over the hills and gathered into one, so may the church be gathered into God's kingdom. On every Lord's day they confess their sins before the thanksgiving, and no one at odds with a neighbor comes until they are reconciled. It has them appoint their own bishops and deacons, and test the traveling apostles and prophets who come to them: one who stays three days, or asks for money, is a false prophet.",
+   "url": "https://www.newadvent.org/fathers/0714.htm"
+  },
+  {
+   "work": "Martyrdom of Polycarp",
+   "type": "primary",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "note": "A letter from the church at Smyrna to Philomelium recounting Polycarp's death around 155, written partly as an eyewitness account by his own congregation.",
+   "url": "https://www.newadvent.org/fathers/0102.htm"
+  },
+  {
+   "work": "Polycarp, Epistle to the Philippians",
+   "type": "primary",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "note": "Polycarp's own letter, forwarding Ignatius's letters onward at another church's request and urging the Philippians toward the same practical, everyday faithfulness Ignatius wrote about. It opens in the name of \"Polycarp, and the presbyters with him.\" Its elders are to visit the sick and not neglect the widow, the orphan or the poor. Polycarp grieves for Valens, once an elder at Philippi, who \"so little understands the place that was given him,\" warns against love of money, and asks the Philippians to call Valens and his wife back. He sends them the letters of Ignatius his church holds, as they asked, and offers to send their own letter on to Syria."
+  },
+  {
+   "work": "Justin Martyr, First Apology",
+   "type": "primary",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "note": "An open defense addressed to the Roman emperor and Senate; contains the earliest detailed description of what a Christian Sunday gathering actually looked like. Before baptism, those who believe pray and fast, the community fasting with them; then they are led to water. After the prayers, the believers greet one another with a kiss. They receive the bread and cup \"not as common bread and common drink,\" and Justin gives Jesus's words over them from the apostles' memoirs. Those who are well off give what each chooses, and the one who presides uses it for orphans and widows, the sick, prisoners and strangers.",
+   "url": "https://www.newadvent.org/fathers/0126.htm"
+  },
+  {
+   "work": "The Martyrdom of Justin and Companions",
+   "type": "tradition",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "note": "An anonymous trial transcript of Justin's interrogation before the Roman prefect Rusticus, in which he describes living and teaching above a public bath in Rome; ends in his execution, c. 165."
+  },
+  {
+   "work": "Shepherd of Hermas",
+   "type": "primary",
+   "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+   "note": "A vision-and-parable text widely read — and by some congregations nearly treated as Scripture — in the House-Churches of second-century Rome. In a vision, Hermas writes, the Church as an old woman told him to make two copies of her words: one for a man named Clement, who would send it to cities abroad, and one for a woman named Grapte, who would teach the widows and orphans, while he read it in Rome with \"the presbyters who preside over the Church.\" Elsewhere in his book, bishops gladly take God's servants into their houses.",
+   "url": "https://www.newadvent.org/fathers/0201.htm"
+  },
+  {
+   "work": "Pliny the Younger, Letters, Book 10.96",
+   "type": "primary",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "note": "A Roman governor's official report to the emperor Trajan on investigating Christians in his province, including the torture of two enslaved women called ministrae, servers. Those who had left told him that they also bound themselves by oath against theft, robbery and adultery, and came together again later for everyday, innocent food, which they gave up after his edict against clubs. Under torture, he wrote, he found only a depraved superstition without measure."
+  },
+  {
+   "work": "Ignatius of Antioch, Epistles to the Magnesians, Philadelphians and Smyrnaeans, and to Polycarp",
+   "type": "primary",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "note": "Letters he wrote from Smyrna and Troas. Each church, he urges, should act as one, its bishop presiding in the place of God and its elders in the place of the apostles' council, with its deacons; a proper thanksgiving is the bishop's, or one he entrusts. He greets the house of Tavias, and the wife of Epitropus with all her house and children, and asks Polycarp to have churches send messengers or letters to Antioch."
+  },
+  {
+   "work": "Justin Martyr, First Apology, in Greek (ed. Gerhard Rauschen)",
+   "type": "primary",
+   "file": "cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt",
+   "note": "The Greek of Justin's account of the Sunday gathering, chapter 67."
+  },
+  {
+   "work": "Eusebius, Church History, Books III–V (tr. A. C. McGiffert)",
+   "type": "primary",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "note": "Places Rome's letter to Corinth in Clement's time, and says it was read publicly in many churches. Keeps Dionysius of Corinth's letter to Soter, bishop of Rome: Rome's custom from the beginning of sending gifts to churches in every city and to Christians in the mines, with no reason given for their being there; the reading on the Lord's day of a new letter from Rome; and counsel drawn from the earlier one, written through Clement. Tells the Easter quarrel near the end of the second century: the churches of Asia kept the moon's fourteenth day, the others only the Lord's day, and Victor of Rome tried to cut Asia off; it keeps Irenaeus's letter reminding him of the elders before Soter. McGiffert's note to III.33 prints Pliny's letter in English."
+  },
+  {
+   "work": "Irenaeus of Lyon, Against Heresies III.3",
+   "type": "primary",
+   "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "note": "Rome's leaders named in order from the apostles, through Soter to Eleutherius, a succession by which, Irenaeus writes, the apostles' tradition and the preaching of the truth \"have come down to us.\""
+  },
+  {
+   "work": "Athanasius of Alexandria, Festal Letter 39 (367)",
+   "type": "primary",
+   "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+   "note": "Sets the Teaching of the Apostles and the Shepherd among the books to be read by newcomers."
+  },
+  {
+   "work": "Jerome, Chronicle (Latin, ed. J. K. Fotheringham)",
+   "type": "primary",
+   "file": "cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt",
+   "note": "Sets Pliny's letter, written while he governed a province, after Trajan's tenth year."
+  }
+ ],
+ "people": [
+  {
+   "name": "Clement of Rome",
+   "year": 96,
+   "voice": 1,
+   "author": "clement_rome",
+   "held": "anf01_apostolic-fathers-justin-irenaeus--first-epistle-to-the-corinthians-1-clement"
+  },
+  {
+   "person": "hermas"
+  },
+  {
+   "name": "Ignatius",
+   "year": 107,
+   "voice": 0,
+   "author": "ignatius",
+   "held": "anf01_apostolic-fathers-justin-irenaeus--epistles-of-ignatius-seven-epistles-shorter-longer-and"
+  },
+  {
+   "person": "ignatius-of-antioch"
+  },
+  {
+   "person": "polycarp-of-smyrna"
+  },
+  {
+   "name": "Justin Martyr",
+   "year": 150,
+   "voice": 3,
+   "author": "justin_martyr",
+   "held": "anf01_apostolic-fathers-justin-irenaeus--dialogue-with-trypho"
+  },
+  {
+   "person": "irenaeus-of-lyon"
+  },
+  {
+   "person": "polycrates-of-ephesus"
+  }
+ ],
+ "uncertain": [
+  "Who led them. The old witnesses name their leaders differently. Ignatius urges a bishop presiding in the place of God, with the elders and the deacons. Rome's letter speaks of the same men as holding the bishop's office and as elders. Polycarp writes with \"the presbyters with him\" and does not call himself bishop, though Ignatius does. Hermas writes of the elders who preside and also of bishops. Irenaeus counts Rome's earlier leaders in the bishop's office from the apostles, and in his letter to Victor calls them elders who presided.",
+  "The thanksgiving. The witnesses differ, and none of them says his custom was everyone's. The short manual gives thanks first over the cup, then over the bread. Justin tells of bread and a cup of wine mixed with water, with Jesus's words from the apostles' memoirs. Ignatius counts as proper only a thanksgiving the bishop leads, or one he entrusts.",
+  "Who wrote Rome's letter to Corinth. The letter is written in the name of the church of Rome. Dionysius of Corinth is the first held witness to say it was written through Clement, and Irenaeus and Eusebius say the same.",
+  "Pliny's account is a hostile outsider's. What he learned of their meetings came from people who had left them, and from two women under torture.",
+  "How the Easter quarrel ended. Eusebius records only that other bishops urged Victor to consider \"the things of peace,\" and that Irenaeus wrote to make peace."
+ ],
+ "quotationOriginals": [
+  {
+   "modern": "On a fixed day they used to meet before dawn. They sang a hymn to Christ as to a god, taking turns among themselves.",
+   "printed": "quod essent sohti stato die ante lucem convenire carmenque Christo quasi deo dicere secum invicem",
+   "work": "Pliny, Letters 10.96.7 (Latin, in Carl Mirbt, Quellen zur Geschichte des Papsttums, 1911)",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "2790-2791",
+   "uncertain": "The scan reads sohti for soliti. A second held print of the same clause, in an editor's note in Ante-Nicene Fathers 5, reads soliti. Quasi deo is a pagan's phrase, as to a god; the 1890 English gives \"as God\".",
+   "englishPrinted": "they had been accustomed to come together on a fixed day before daylight and to sing responsively a song unto Christ as God",
+   "englishFile": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "englishLines": "19492-19494"
+  },
+  {
+   "modern": "On the day named after the Sun, all who live in the towns or in the country gather in one place. The memoirs of the apostles or the writings of the prophets are read, for as long as time allows.",
+   "printed": "Καὶ τῇ τοῦ ἡλίου λεγομένῃ ἡμέρᾳ πάντων κατὰ πόλεις ἢ ἀγροὺς μενόντων ἐπὶ τὸ αὐτὸ συνέλευσις γίνεται, καὶ τὰ ἀπομνημονεύματα τῶν ἀποστόλων ἢ τὰ συγγράμματα τῶν προφητῶν ἀναγινώσκεται, μέχρις ἐγχωρεῖ.",
+   "work": "Justin Martyr, First Apology 67.3 (Greek, ed. Gerhard Rauschen, 1911)",
+   "file": "cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt",
+   "lines": "1759-1762",
+   "englishPrinted": "And on the day called Sunday, all who live in cities or in the country gather together to one place, and the memoirs of the apostles or the writings of the prophets are read, as long as time permits;",
+   "englishFile": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+   "englishLines": "16502-16505"
+  },
+  {
+   "modern": "There are two ways, one of life and one of death, and there is a great difference between the two ways. The way of life is this. First, you shall love God, who made you. Second, your neighbour as yourself.",
+   "printed": "There are two ways, one of life and one of death; but a great difference between the two ways. 2. The way of life, then, is this: First, thou shalt love God who made thee; second, thy neighbour as thyself;",
+   "work": "The Didache 1.1–2 (tr. Hall and Napier, Ante-Nicene Fathers 7, 1886)",
+   "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+   "lines": "12700-12706",
+   "uncertain": "The Greek of the Didache is not held, so the English stands alone."
+  }
+ ]
+}
