@@ -189,3 +189,38 @@ Source: `Card_Check_E.md`. Each change was applied word for word to the card's `
 ### Could not place
 
 None.
+
+## Check F
+
+Source: `Card_Check_F.md`. Each change was applied word for word to the card's `<id>.layout.json`; the drop entry was added as given to `tools/quote_scan_readings.json`. All files still load as JSON. A scratch census copy with the three layouts merged in (`/tmp/claude-0/apply-f/census-copy.json`; the real census was not edited), run with `node tools/validate-census.mjs`: 0 errors, 4 warnings (the four standing shortName warnings). Nothing committed. Finding numbers are the checker's.
+
+### Applied (card, finding, field)
+
+| Card | Finding | Field |
+|---|---|---|
+| ebionite-nazoraean-current | E1 | timeline, period 4, line 2: when |
+| ebionite-nazoraean-current | E1 | timeline, period 4, line 3: when, reference |
+| ebionite-nazoraean-current | E2 | timeline, period 4, line 6: reference |
+| ebionite-nazoraean-current | E3 | timeline, period 2, line 1: text |
+| ebionite-nazoraean-current | E4 | timeline, period 7, line 2: reference |
+| ebionite-nazoraean-current | E5 | timeline, period 1: headline |
+| ebionite-nazoraean-current | drop entry | `tools/quote_scan_readings.json`, new reading for `augustine_epistulae-1-123-lat_goldbacher-csel34.txt` lines 23238-23271 |
+| novatianism | N1 | timeline, period 1, line 1: text |
+| novatianism | N2 | timeline, period 1, line 1: reference |
+| novatianism | N2 | timeline, period 2, line 6: reference |
+| novatianism | N3 | uncertain, item 2 |
+| novatianism | N4 | uncertain, item 5 |
+| novatianism | N5 | timeline, period 5: headline |
+| novatianism | N6 | timeline, period 6, line 1: text |
+| anatolian-church-third-century | A1 | shortDescription |
+| anatolian-church-third-century | A2 | timeline, period 1, line 2: reference |
+| anatolian-church-third-century | A3 | timeline, period 3, line 6: text |
+| anatolian-church-third-century | A4 | timeline, period 4, line 5: when |
+
+### For existing census texts, not applied here
+
+None. (The checker's "marked, not edited" notes on `start` and `end` are not findings.)
+
+### Could not place
+
+None.
