@@ -21,7 +21,8 @@ assignments:
     locus: Kauffmann's edition; Palladius and Secundianus at about file lines 448-464 and 707
     atlas_ids:
     - danubian-latin-christianity
-    role: context
+    role: tradition
     confidence: assigned
-    note: The Homoian bishops of Ratiaria and Durostorum on the lower Danube in their own words, from the
-      margins of a manuscript. Placement as this entry's voice is a question; context only.
+    note: 'The Homoian bishops of Ratiaria and Durostorum on the lower Danube in their own words, written
+      in the margins of a manuscript: this region''s bishops, so this entry''s own voice, as they are also
+      homoian-arian-christianity''s.'

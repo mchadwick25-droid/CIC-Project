@@ -50,8 +50,10 @@ assignments:
       in the body
     atlas_ids:
     - danubian-latin-christianity
-    role: context
+    role: tradition
     confidence: assigned
-    note: The surviving Latin letters of the Danube bishops of the Homoian controversy. Whether their own
-      letters count as this entry's voice or belong to homoian-arian-christianity is a placement question;
-      this row is context only.
+    note: 'The surviving Latin letters of bishops of the Danube sees in the Homoian controversy: Germinius
+      of Sirmium, Valens of Mursa, Ursacius of Singidunum. They are this region''s bishops writing in their
+      own words, so they count as this entry''s own voice, and they also stand in homoian-arian-christianity
+      (assignment is not exclusive). Hilary kept them to answer them: a brief gives both their words and
+      their opponents'' charge, and carries neither side forward.'
