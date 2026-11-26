@@ -30,197 +30,197 @@ rank,id,name,kind,era,batch,reference,overall,action,rigor,craft,reach,reach_bas
 29,nennius,Nennius,person,4,before the kit,,F,must be redone,F,F,2,"major, living home"
 30,athanasios-the-athonite,Athanasios the Athonite,person,4,before the kit,,F,must be redone,F,B,2,"major, living home"
 31,columbanus,Columbanus,person,3,before the kit,,F,must be redone,F,B,2,"major, living home"
-32,frumentius,Frumentius,person,2,10,,F,must be redone,F,B,2,"major, living home"
-33,gildas,Gildas,person,3,before the kit,,F,must be redone,F,D,2,"major, living home"
-34,hippolytus-of-rome,Hippolytus of Rome,person,1,6,,F,must be redone,F,B,2,"major, living home"
-35,isidore-of-seville,Isidore of Seville,person,3,before the kit,,F,must be redone,F,B,2,"major, living home"
-36,jacob-baradaeus,Jacob Baradaeus,person,3,before the kit,,F,must be redone,F,B,2,"major, living home"
-37,symeon-the-new-theologian,Symeon the New Theologian,person,4,before the kit,,F,must be redone,F,B,2,"major, living home"
-38,bede-of-jarrow,Bede,person,4,before the kit,,F,must be redone,F,B,2,"major, living home"
-39,columba,Columba,person,3,4,,F,must be redone,F,B,2,"major, living home"
-40,gregory-the-great,Gregory the Great,person,3,before the kit,,F,must be redone,F,F,2,"major, living home"
-41,mar-aba-i,Mar Aba I,person,3,before the kit,,F,must be redone,F,B,2,"major, living home"
-42,photius-of-constantinople,Photius of Constantinople,person,4,before the kit,,F,must be redone,F,B,2,"major, living home"
-43,alcuin-of-york,Alcuin of York,person,4,before the kit,,F,must be redone,F,B,2,"major, living home"
-44,boniface-of-mainz,Boniface of Mainz,person,4,before the kit,,F,must be redone,F,A,2,"major, living home"
-45,timothy-i-of-baghdad,Timothy I of Baghdad,person,4,5,,F,must be redone,F,A,2,"major, living home"
-46,council-of-dvin-609,Council of Dvin,council,3,before the kit,,F,must be redone,F,F,1,major
-47,second-council-of-constantinople-553,Second Council of Constantinople,council,3,before the kit,,F,must be redone,F,F,1,major
-48,apollinaris-of-laodicea,Apollinaris of Laodicea,person,2,9,,F,must be redone,F,C,1,major
-49,council-of-sardica-343,Council of Sardica,council,2,before the kit,,F,must be redone,F,F,1,major
-50,cyprian-of-carthage,Cyprian of Carthage,person,1,7,,F,must be redone,F,C,1,major
-51,first-council-of-constantinople-381,First Council of Constantinople,council,2,before the kit,,F,must be redone,F,F,1,major
-52,council-of-ephesus-431,Council of Ephesus,council,2,10,,F,must be redone,F,C,1,major
-53,council-of-arles-314,Council of Arles,council,2,before the kit,,F,must be redone,F,C,1,major
-54,fulgentius-of-ruspe,Fulgentius of Ruspe,person,3,before the kit,,F,must be redone,F,C,1,major
-55,nestorius,Nestorius,person,2,5,,F,must be redone,F,C,1,major
-56,tertullian-s-voice,Tertullian,person,1,7,,F,must be redone,F,C,1,major
-57,arius,Arius,person,2,3,,F,must be redone,F,B,1,major
-58,boethius,Boethius,person,3,before the kit,,F,must be redone,F,B,1,major
-59,ulfila,Ulfila,person,2,10,,F,must be redone,F,B,1,major
-60,rufinus-of-aquileia,Rufinus of Aquileia,person,2,10,,F,must be redone,F,B,1,major
-61,prosper-of-aquitaine,Prosper of Aquitaine,person,2,before the kit,,F,must be redone,F,F,2,"home in a built world, living home"
-62,alexander-of-alexandria,Alexander of Alexandria,person,2,before the kit,,F,must be redone,F,D,2,"home in a built world, living home"
-63,gennadius-of-marseilles,Gennadius of Marseilles,person,3,before the kit,,F,must be redone,F,F,2,"home in a built world, living home"
-64,hilary-of-arles,Hilary of Arles,person,2,before the kit,,F,must be redone,F,F,2,"home in a built world, living home"
-65,palladius-of-helenopolis,Palladius of Helenopolis,person,2,before the kit,,F,must be redone,F,F,2,"home in a built world, living home"
-66,anatolius-of-alexandria-and-laodicea,Anatolius of Alexandria and Laodicea,person,1,7,,F,must be redone,F,C,2,"home in a built world, living home"
-67,marcellus-of-ancyra,Marcellus of Ancyra,person,2,before the kit,,F,must be redone,F,F,2,"home in a built world, living home"
-68,faustus-of-riez,Faustus of Riez,person,3,before the kit,,F,must be redone,F,D,2,"home in a built world, living home"
-69,sulpicius-severus,Sulpicius Severus,person,2,before the kit,,F,must be redone,F,D,2,"home in a built world, living home"
-70,gregory-of-nyssa,Gregory of Nyssa,person,2,9,,F,must be redone,F,A,2,"home in a built world, living home"
-71,paula-of-rome,Paula of Rome,person,2,before the kit,,F,must be redone,B,F,1,home in a built world
-72,bonaventure,Bonaventure,person,5,before the kit,,F,must be redone,F,F,1,living home
-73,heraclius,Heraclius,person,4,before the kit,,F,must be redone,F,F,1,living home
-74,john-of-beth-aphthonia,John of Beth Aphthonia,person,3,before the kit,,F,must be redone,F,F,1,living home
-75,abbess-bugga,Abbess Bugga,person,4,before the kit,,F,must be redone,F,F,1,living home
-76,caesaria-of-arles-the-elder,Caesaria of Arles the Elder,person,3,before the kit,,F,must be redone,F,C,1,living home
-77,elipandus-of-toledo-and-felix-of-urgell,Elipandus of Toledo and Felix of Urgell,person,4,before the kit,,F,must be redone,F,C,1,living home
-78,eznik-of-kolb,Eznik of Kolb,person,2,before the kit,,F,must be redone,D,F,1,living home
-79,hugo-grotius,Hugo Grotius,person,7,before the kit,,F,must be redone,F,F,1,living home
-80,simeon-of-beth-arsham,Simeon of Beth Arsham,person,3,before the kit,,F,must be redone,D,F,1,living home
-81,zachariah-rhetor,Zachariah Rhetor,person,3,before the kit,,F,must be redone,F,F,1,living home
-82,adam-jingjing,Adam (Jingjing),person,4,before the kit,,F,must be redone,F,F,1,living home
-83,constantius-of-lyon,Constantius of Lyon,person,3,before the kit,,F,must be redone,F,F,1,living home
-84,theopistus,"Theopistus, deacon of Dioscorus",person,3,before the kit,,F,must be redone,F,F,1,living home
-85,agathon-of-alexandria,Agathon of Alexandria,person,4,before the kit,,F,must be redone,F,C,1,living home
-86,barsanuphius-and-john-of-gaza,Barsanuphius and John of Gaza,person,3,before the kit,,F,must be redone,F,F,1,living home
-87,brigid-of-kildare,Brigid of Kildare,person,3,before the kit,,F,must be redone,F,D,1,living home
-88,ciaran-of-clonmacnois,Ciaran of Clonmacnois,person,3,before the kit,,F,must be redone,F,C,1,living home
-89,germanus-of-auxerre,Germanus of Auxerre,person,2,before the kit,,F,must be redone,F,F,1,living home
-90,john-rufus,John Rufus,person,3,before the kit,,F,must be redone,F,D,1,living home
-91,koriun,Koriun,person,2,before the kit,,F,must be redone,F,F,1,living home
-92,lazar-parpetsi,Lazar Parpetsi,person,3,before the kit,,F,must be redone,F,D,1,living home
-93,marcellinus-comes,Marcellinus Comes,person,3,before the kit,,F,must be redone,F,D,1,living home
-94,moses-of-khoren,Moses of Khoren,person,3,before the kit,,F,must be redone,F,F,1,living home
-95,romanos-the-melodist,Romanos the Melodist,person,3,before the kit,,F,must be redone,F,F,1,living home
-96,sebeos,Sebeos,person,4,before the kit,,F,must be redone,F,F,1,living home
-97,barhadbeshabba-arbaya,Barhadbeshabba 'Arbaia of Halwan,person,3,before the kit,,F,must be redone,F,F,1,living home
-98,beuno,Beuno,person,4,before the kit,,F,must be redone,F,C,1,living home
-99,cosmas-indicopleustes,Cosmas Indicopleustes,person,3,before the kit,,F,must be redone,F,D,1,living home
-100,eadburga-of-thanet,Eadburga of Thanet,person,4,before the kit,,F,must be redone,F,F,1,living home
-101,elias-of-nisibis,Elias of Nisibis,person,4,before the kit,,F,must be redone,F,F,1,living home
-102,henana-of-adiabene,Henana of Adiabene,person,3,before the kit,,F,must be redone,F,D,1,living home
-103,isaac-of-alexandria,Isaac of Alexandria,person,4,before the kit,,F,must be redone,F,C,1,living home
-104,john-of-biclaro,John of Biclaro,person,3,before the kit,,F,must be redone,F,D,1,living home
-105,joseph-i-of-alexandria,Joseph I of Alexandria,person,4,before the kit,,F,must be redone,F,C,1,living home
-106,moses-bar-kepha,Moses bar Kepha,person,4,before the kit,,F,must be redone,F,F,1,living home
-107,paulinus-of-milan,Paulinus of Milan,person,2,before the kit,,F,must be redone,F,F,1,living home
-108,prudentius-of-troyes,Prudentius of Troyes,person,4,before the kit,,F,must be redone,F,D,1,living home
-109,venantius-fortunatus,Venantius Fortunatus,person,3,before the kit,,F,must be redone,F,C,1,living home
-110,avitus-of-vienne,Avitus of Vienne,person,3,before the kit,,F,must be redone,F,F,1,living home
-111,brendan-of-clonfert,Brendan of Clonfert,person,3,before the kit,,F,must be redone,F,D,1,living home
-112,cogitosus,Cogitosus,person,4,before the kit,,F,must be redone,F,D,1,living home
-113,david-of-wales,David of Wales,person,3,before the kit,,F,must be redone,F,D,1,living home
-114,elishe,Elishe,person,3,before the kit,,F,must be redone,F,D,1,living home
-115,john-moschus,John Moschus,person,3,before the kit,,F,must be redone,F,B,1,living home
-116,john-of-ephesus,John of Ephesus,person,3,before the kit,,F,must be redone,F,D,1,living home
-117,john-of-nikiu,John of Nikiu,person,4,before the kit,,F,must be redone,F,B,1,living home
-118,leoba,Leoba,person,4,before the kit,,F,must be redone,F,D,1,living home
-119,martin-of-braga,Martin of Braga,person,3,before the kit,,F,must be redone,F,B,1,living home
-120,muirchu,Muirchu maccu Machtheni,person,4,before the kit,,F,must be redone,F,D,1,living home
-121,niketas-stethatos,Niketas Stethatos,person,4,before the kit,,F,must be redone,F,D,1,living home
-122,paul-the-deacon,Paul the Deacon,person,4,before the kit,,F,must be redone,F,D,1,living home
-123,ruricius-of-limoges,Ruricius of Limoges,person,3,before the kit,,F,must be redone,F,D,1,living home
-124,tirechan,Tirechan,person,4,before the kit,,F,must be redone,F,D,1,living home
-125,yahya-ibn-said-of-antioch,Yahya ibn Said of Antioch,person,4,before the kit,,F,must be redone,F,F,1,living home
-126,cyril-of-scythopolis,Cyril of Scythopolis,person,3,before the kit,,F,must be redone,F,B,1,living home
-127,dorotheus-of-gaza,Dorotheus of Gaza,person,3,before the kit,,F,must be redone,F,B,1,living home
-128,jonas-of-bobbio,Jonas of Bobbio,person,4,before the kit,,F,must be redone,F,D,1,living home
-129,joshua-the-stylite,Joshua the Stylite,person,3,before the kit,,F,must be redone,F,D,1,living home
-130,marius-of-avenches,Marius of Avenches,person,3,before the kit,,F,must be redone,F,D,1,living home
-131,pisentius-of-coptos-and-john-the-elder,Pisentius of Coptos and John the Elder,person,4,before the kit,,F,must be redone,F,B,1,living home
-132,samson-of-dol,Samson of Dol,person,3,before the kit,,F,must be redone,F,D,1,living home
-133,severus-ibn-al-muqaffa,Severus ibn al-Muqaffa,person,4,before the kit,,F,must be redone,F,D,1,living home
-134,thomas-of-marga,Thomas of Marga,person,4,before the kit,,F,must be redone,F,D,1,living home
-135,willibrord,Willibrord,person,4,before the kit,,F,must be redone,F,B,1,living home
-136,auxentius-of-durostorum,Auxentius of Durostorum,person,2,before the kit,,F,must be redone,F,F,0,
-137,marius-mercator,Marius Mercator,person,2,before the kit,,F,must be redone,F,F,0,
-138,ammianus-marcellinus,Ammianus Marcellinus,person,2,before the kit,,F,must be redone,F,F,0,
-139,liberatus-of-carthage,Liberatus of Carthage,person,3,before the kit,,F,must be redone,F,F,0,
-140,lucifer-of-cagliari,Lucifer of Cagliari,person,2,before the kit,,F,must be redone,F,D,0,
-141,pontius-the-deacon,Pontius the Deacon,person,1,7,,F,must be redone,F,C,0,
-142,victor-of-tunnuna,Victor of Tunnuna,person,3,before the kit,,F,must be redone,F,D,0,
-143,al-baladhuri,al-Baladhuri,person,4,before the kit,,F,must be redone,F,D,0,
-144,jovinian,Jovinian,person,2,before the kit,,F,must be redone,F,F,0,
-145,peter-the-iberian,Peter the Iberian,person,3,before the kit,,F,must be redone,D,F,0,
-146,philostorgius,Philostorgius,person,2,before the kit,,F,must be redone,D,F,0,
-147,primasius-of-hadrumetum,Primasius of Hadrumetum,person,3,before the kit,,F,must be redone,F,C,0,
-148,suetonius,Suetonius,person,1,6,,F,must be redone,F,D,0,
-149,tacitus,Tacitus,person,1,6,,F,must be redone,F,C,0,
-150,ferrandus-of-carthage,Ferrandus of Carthage,person,3,before the kit,,F,must be redone,F,F,0,
-151,lactantius,Lactantius,person,1,7,,F,must be redone,F,C,0,
-152,agathias,Agathias of Myrina,person,3,before the kit,,F,must be redone,F,D,0,
-153,procopius-of-caesarea,Procopius of Caesarea,person,3,before the kit,,F,must be redone,F,F,0,
-154,melitius-of-lycopolis,Melitius of Lycopolis,person,2,before the kit,,F,must be redone,F,B,0,
-155,methodius-of-olympus,Methodius of Olympus,person,1,7,,F,must be redone,B,F,0,
-156,sozomen,Sozomen,person,2,before the kit,,F,must be redone,F,D,0,
-157,socrates-of-constantinople,Socrates of Constantinople,person,2,before the kit,,F,must be redone,F,D,0,
-158,clement-of-alexandria,Clement of Alexandria,person,1,4,,D,should be redone,B,D,3,"major, home in a built world, living home"
-159,ignatius-of-antioch,Ignatius of Antioch,person,1,6,,D,should be redone,D,B,3,"major, home in a built world, living home"
-160,origen,Origen,person,1,7,,D,should be redone,B,D,3,"major, home in a built world, living home"
-161,dhuoda,Dhuoda,person,4,4,,D,should be redone,D,C,2,"major, living home"
-162,reccared,Reccared,person,3,before the kit,,D,should be redone,D,C,2,"major, living home"
-163,timothy-aelurus,Timothy Aelurus,person,3,before the kit,,D,should be redone,D,C,2,"major, living home"
-164,theodosius-i-of-alexandria,Theodosius I of Alexandria,person,3,before the kit,,D,should be redone,D,C,2,"major, living home"
-165,cyril-of-alexandria,Cyril of Alexandria,person,2,5,,D,should be redone,D,C,2,"major, living home"
-166,barsauma-of-nisibis,Barsauma of Nisibis,person,3,5,,D,should be redone,D,C,2,"major, living home"
-167,dionysius-exiguus,Dionysius Exiguus,person,3,before the kit,,D,should be redone,D,D,2,"major, living home"
-168,augustine-of-canterbury,Augustine of Canterbury,person,3,before the kit,,D,should be redone,D,B,2,"major, living home"
-169,priscillian,Priscillian,person,2,10,,D,should be redone,D,B,1,major
-170,justin-martyr,Justin Martyr,person,1,3,,D,should be redone,B,D,1,major
-171,didymus-the-blind,Didymus the Blind,person,2,before the kit,,D,should be redone,C,D,2,"home in a built world, living home"
-172,liberius-of-rome,Liberius of Rome,person,2,before the kit,,D,should be redone,D,C,2,"home in a built world, living home"
-173,ossius-of-cordoba,Ossius of Cordoba,person,2,before the kit,,D,should be redone,D,D,2,"home in a built world, living home"
-174,pamphilus-of-caesarea,Pamphilus of Caesarea,person,1,7,,D,should be redone,D,B,2,"home in a built world, living home"
-175,tyconius,Tyconius,person,2,before the kit,,D,should be redone,D,D,1,home in a built world
-176,paulus-emeritanus,Paulus Emeritanus,person,4,before the kit,,D,should be redone,D,D,1,living home
-177,eugippius,Eugippius,person,3,before the kit,,D,should be redone,D,D,1,living home
-178,alexander-ii-of-alexandria,Alexander II of Alexandria,person,4,before the kit,,D,should be redone,D,B,1,living home
-179,aetius-of-antioch,Aetius of Antioch,person,2,before the kit,,D,should be redone,D,D,0,
-180,valentinus,Valentinus,person,1,6,,D,should be redone,B,D,0,
-181,possidius-of-calama,Possidius of Calama,person,2,before the kit,,D,should be redone,D,D,0,
-182,bardaisan-of-edessa,Bardaisan of Edessa,person,1,6,,D,should be redone,D,C,0,
-183,olympias-of-constantinople,Olympias of Constantinople,person,2,before the kit,,D,should be redone,D,B,0,
-184,john-cassian,John Cassian,person,2,10,,C,would benefit,C,C,3,"major, home in a built world, living home"
-185,athanasius-of-alexandria,Athanasius of Alexandria,person,2,5,,C,would benefit,C,B,3,"major, home in a built world, living home"
-186,evagrius-ponticus,Evagrius Ponticus,person,2,9,,C,would benefit,C,B,3,"major, home in a built world, living home"
-187,huldrych-zwingli,Huldrych Zwingli,person,7,8,,C,would benefit,C,B,3,"major, home in a built world, living home"
-188,irenaeus-of-lyon,Irenaeus of Lyon,person,1,6,,C,would benefit,C,B,3,"major, home in a built world, living home"
-189,martin-of-tours,Martin of Tours,person,2,4,,C,would benefit,C,B,3,"major, home in a built world, living home"
-190,basil-of-caesarea,Basil of Caesarea,person,2,9,yes,C,would benefit,C,B,3,"major, home in a built world, living home"
-191,constantine-the-great,Constantine the Great,person,2,8,,C,would benefit,C,B,3,"major, home in a built world, living home"
-192,dionysius-of-alexandria,Dionysius of Alexandria,person,1,7,,C,would benefit,C,B,3,"major, home in a built world, living home"
-193,alopen,Alopen,person,4,3,,C,would benefit,B,C,2,"major, living home"
-194,cyril-and-methodius,Cyril and Methodius,person,4,4,,C,would benefit,B,C,2,"major, living home"
-195,ambrose-of-milan,Ambrose of Milan,person,2,8,,C,would benefit,B,C,2,"major, living home"
-196,dionysius-of-tel-mahre,Dionysius of Tel Mahre,person,4,before the kit,,C,would benefit,C,C,2,"major, living home"
-197,gregory-palamas,Gregory Palamas,person,6,8,,C,would benefit,C,C,2,"major, living home"
-198,narsai,Narsai of Nisibis,person,3,3,,C,would benefit,B,C,2,"major, living home"
-199,bernard-of-clairvaux,Bernard of Clairvaux,person,5,8,,C,would benefit,C,C,2,"major, living home"
-200,caesarius-of-arles,Caesarius of Arles,person,3,before the kit,,C,would benefit,C,C,2,"major, living home"
-201,hild-of-whitby,Hild of Whitby,person,4,4,,C,would benefit,B,C,2,"major, living home"
-202,maximus-the-confessor,Maximus the Confessor,person,4,before the kit,,C,would benefit,C,C,2,"major, living home"
-203,patrick-of-ireland,Patrick,person,3,5,,C,would benefit,B,C,2,"major, living home"
-204,thomas-aquinas,Thomas Aquinas,person,5,8,,C,would benefit,C,C,2,"major, living home"
-205,babai-the-great,Babai the Great,person,3,5,,C,would benefit,C,B,2,"major, living home"
-206,mesrop-mashtots,Mesrop Mashtots,person,2,10,,C,would benefit,C,B,2,"major, living home"
-207,jan-hus,Jan Hus,person,6,8,,C,would benefit,C,B,2,"major, living home"
-208,thomas-cranmer,Thomas Cranmer,person,7,8,,C,would benefit,C,B,2,"major, living home"
-209,aidan-of-lindisfarne,Aidan of Lindisfarne,person,4,before the kit,,C,would benefit,C,B,2,"major, living home"
-210,epiphanius-of-salamis,Epiphanius of Salamis,person,2,9,yes,C,would benefit,C,B,2,"major, living home"
-211,martin-i-of-rome,Martin I of Rome,person,4,before the kit,,C,would benefit,C,B,2,"major, living home"
-212,benedict-of-nursia,Benedict of Nursia,person,3,4,,C,would benefit,C,A,2,"major, living home"
-213,eusebius-of-nicomedia,Eusebius of Nicomedia,person,2,9,,C,would benefit,C,C,1,major
-214,augustine-of-hippo,Augustine of Hippo,person,2,5,,C,would benefit,C,C,1,major
-215,council-of-nicaea-325,Council of Nicaea,council,2,4,,C,would benefit,C,C,1,major
-216,eunomius-of-cyzicus,Eunomius of Cyzicus,person,2,9,,C,would benefit,B,C,1,major
-217,eutyches,Eutyches,person,2,10,,C,would benefit,C,C,1,major
-218,third-council-of-toledo-589,Third Council of Toledo,council,3,3,,C,would benefit,C,C,1,major
-219,thomas-a-kempis,Thomas à Kempis,person,6,3,,C,would benefit,C,C,1,major
-220,julian-missionary-to-the-nobadae,"Julian, missionary to the Nobadae",person,3,before the kit,,C,would benefit,C,B,1,major
-221,novatian,Novatian,person,1,7,,C,would benefit,C,B,1,major
-222,theodoret-of-cyrrhus,Theodoret of Cyrrhus,person,2,10,,C,would benefit,C,B,1,major
+32,gildas,Gildas,person,3,before the kit,,F,must be redone,F,D,2,"major, living home"
+33,hippolytus-of-rome,Hippolytus of Rome,person,1,6,,F,must be redone,F,B,2,"major, living home"
+34,isidore-of-seville,Isidore of Seville,person,3,before the kit,,F,must be redone,F,B,2,"major, living home"
+35,jacob-baradaeus,Jacob Baradaeus,person,3,before the kit,,F,must be redone,F,B,2,"major, living home"
+36,symeon-the-new-theologian,Symeon the New Theologian,person,4,before the kit,,F,must be redone,F,B,2,"major, living home"
+37,bede-of-jarrow,Bede,person,4,before the kit,,F,must be redone,F,B,2,"major, living home"
+38,gregory-the-great,Gregory the Great,person,3,before the kit,,F,must be redone,C,F,2,"major, living home"
+39,mar-aba-i,Mar Aba I,person,3,before the kit,,F,must be redone,F,B,2,"major, living home"
+40,photius-of-constantinople,Photius of Constantinople,person,4,before the kit,,F,must be redone,F,B,2,"major, living home"
+41,alcuin-of-york,Alcuin of York,person,4,before the kit,,F,must be redone,F,B,2,"major, living home"
+42,boniface-of-mainz,Boniface of Mainz,person,4,before the kit,,F,must be redone,F,A,2,"major, living home"
+43,timothy-i-of-baghdad,Timothy I of Baghdad,person,4,5,,F,must be redone,F,A,2,"major, living home"
+44,council-of-dvin-609,Council of Dvin,council,3,before the kit,,F,must be redone,F,F,1,major
+45,second-council-of-constantinople-553,Second Council of Constantinople,council,3,before the kit,,F,must be redone,F,F,1,major
+46,apollinaris-of-laodicea,Apollinaris of Laodicea,person,2,9,,F,must be redone,F,C,1,major
+47,council-of-sardica-343,Council of Sardica,council,2,before the kit,,F,must be redone,F,F,1,major
+48,first-council-of-constantinople-381,First Council of Constantinople,council,2,before the kit,,F,must be redone,F,F,1,major
+49,council-of-ephesus-431,Council of Ephesus,council,2,10,,F,must be redone,F,C,1,major
+50,council-of-arles-314,Council of Arles,council,2,before the kit,,F,must be redone,F,C,1,major
+51,fulgentius-of-ruspe,Fulgentius of Ruspe,person,3,before the kit,,F,must be redone,F,C,1,major
+52,nestorius,Nestorius,person,2,5,,F,must be redone,F,C,1,major
+53,boethius,Boethius,person,3,before the kit,,F,must be redone,F,B,1,major
+54,ulfila,Ulfila,person,2,10,,F,must be redone,F,B,1,major
+55,rufinus-of-aquileia,Rufinus of Aquileia,person,2,10,,F,must be redone,F,B,1,major
+56,prosper-of-aquitaine,Prosper of Aquitaine,person,2,before the kit,,F,must be redone,F,F,2,"home in a built world, living home"
+57,alexander-of-alexandria,Alexander of Alexandria,person,2,before the kit,,F,must be redone,F,D,2,"home in a built world, living home"
+58,gennadius-of-marseilles,Gennadius of Marseilles,person,3,before the kit,,F,must be redone,F,F,2,"home in a built world, living home"
+59,hilary-of-arles,Hilary of Arles,person,2,before the kit,,F,must be redone,F,F,2,"home in a built world, living home"
+60,palladius-of-helenopolis,Palladius of Helenopolis,person,2,before the kit,,F,must be redone,F,F,2,"home in a built world, living home"
+61,anatolius-of-alexandria-and-laodicea,Anatolius of Alexandria and Laodicea,person,1,7,,F,must be redone,F,C,2,"home in a built world, living home"
+62,marcellus-of-ancyra,Marcellus of Ancyra,person,2,before the kit,,F,must be redone,F,F,2,"home in a built world, living home"
+63,faustus-of-riez,Faustus of Riez,person,3,before the kit,,F,must be redone,F,D,2,"home in a built world, living home"
+64,sulpicius-severus,Sulpicius Severus,person,2,before the kit,,F,must be redone,F,D,2,"home in a built world, living home"
+65,gregory-of-nyssa,Gregory of Nyssa,person,2,9,,F,must be redone,F,A,2,"home in a built world, living home"
+66,paula-of-rome,Paula of Rome,person,2,before the kit,,F,must be redone,B,F,1,home in a built world
+67,bonaventure,Bonaventure,person,5,before the kit,,F,must be redone,F,F,1,living home
+68,heraclius,Heraclius,person,4,before the kit,,F,must be redone,F,F,1,living home
+69,john-of-beth-aphthonia,John of Beth Aphthonia,person,3,before the kit,,F,must be redone,F,F,1,living home
+70,abbess-bugga,Abbess Bugga,person,4,before the kit,,F,must be redone,F,F,1,living home
+71,caesaria-of-arles-the-elder,Caesaria of Arles the Elder,person,3,before the kit,,F,must be redone,F,C,1,living home
+72,elipandus-of-toledo-and-felix-of-urgell,Elipandus of Toledo and Felix of Urgell,person,4,before the kit,,F,must be redone,F,C,1,living home
+73,eznik-of-kolb,Eznik of Kolb,person,2,before the kit,,F,must be redone,D,F,1,living home
+74,hugo-grotius,Hugo Grotius,person,7,before the kit,,F,must be redone,F,F,1,living home
+75,simeon-of-beth-arsham,Simeon of Beth Arsham,person,3,before the kit,,F,must be redone,D,F,1,living home
+76,zachariah-rhetor,Zachariah Rhetor,person,3,before the kit,,F,must be redone,F,F,1,living home
+77,adam-jingjing,Adam (Jingjing),person,4,before the kit,,F,must be redone,F,F,1,living home
+78,constantius-of-lyon,Constantius of Lyon,person,3,before the kit,,F,must be redone,F,F,1,living home
+79,theopistus,"Theopistus, deacon of Dioscorus",person,3,before the kit,,F,must be redone,F,F,1,living home
+80,agathon-of-alexandria,Agathon of Alexandria,person,4,before the kit,,F,must be redone,F,C,1,living home
+81,barsanuphius-and-john-of-gaza,Barsanuphius and John of Gaza,person,3,before the kit,,F,must be redone,F,F,1,living home
+82,brigid-of-kildare,Brigid of Kildare,person,3,before the kit,,F,must be redone,F,D,1,living home
+83,ciaran-of-clonmacnois,Ciaran of Clonmacnois,person,3,before the kit,,F,must be redone,F,C,1,living home
+84,germanus-of-auxerre,Germanus of Auxerre,person,2,before the kit,,F,must be redone,F,F,1,living home
+85,john-rufus,John Rufus,person,3,before the kit,,F,must be redone,F,D,1,living home
+86,koriun,Koriun,person,2,before the kit,,F,must be redone,F,F,1,living home
+87,lazar-parpetsi,Lazar Parpetsi,person,3,before the kit,,F,must be redone,F,D,1,living home
+88,marcellinus-comes,Marcellinus Comes,person,3,before the kit,,F,must be redone,F,D,1,living home
+89,moses-of-khoren,Moses of Khoren,person,3,before the kit,,F,must be redone,F,F,1,living home
+90,romanos-the-melodist,Romanos the Melodist,person,3,before the kit,,F,must be redone,F,F,1,living home
+91,sebeos,Sebeos,person,4,before the kit,,F,must be redone,F,F,1,living home
+92,barhadbeshabba-arbaya,Barhadbeshabba 'Arbaia of Halwan,person,3,before the kit,,F,must be redone,F,F,1,living home
+93,beuno,Beuno,person,4,before the kit,,F,must be redone,F,C,1,living home
+94,cosmas-indicopleustes,Cosmas Indicopleustes,person,3,before the kit,,F,must be redone,F,D,1,living home
+95,eadburga-of-thanet,Eadburga of Thanet,person,4,before the kit,,F,must be redone,F,F,1,living home
+96,elias-of-nisibis,Elias of Nisibis,person,4,before the kit,,F,must be redone,F,F,1,living home
+97,henana-of-adiabene,Henana of Adiabene,person,3,before the kit,,F,must be redone,F,D,1,living home
+98,isaac-of-alexandria,Isaac of Alexandria,person,4,before the kit,,F,must be redone,F,C,1,living home
+99,john-of-biclaro,John of Biclaro,person,3,before the kit,,F,must be redone,F,D,1,living home
+100,joseph-i-of-alexandria,Joseph I of Alexandria,person,4,before the kit,,F,must be redone,F,C,1,living home
+101,moses-bar-kepha,Moses bar Kepha,person,4,before the kit,,F,must be redone,F,F,1,living home
+102,paulinus-of-milan,Paulinus of Milan,person,2,before the kit,,F,must be redone,F,F,1,living home
+103,prudentius-of-troyes,Prudentius of Troyes,person,4,before the kit,,F,must be redone,F,D,1,living home
+104,venantius-fortunatus,Venantius Fortunatus,person,3,before the kit,,F,must be redone,F,C,1,living home
+105,avitus-of-vienne,Avitus of Vienne,person,3,before the kit,,F,must be redone,F,F,1,living home
+106,brendan-of-clonfert,Brendan of Clonfert,person,3,before the kit,,F,must be redone,F,D,1,living home
+107,cogitosus,Cogitosus,person,4,before the kit,,F,must be redone,F,D,1,living home
+108,david-of-wales,David of Wales,person,3,before the kit,,F,must be redone,F,D,1,living home
+109,elishe,Elishe,person,3,before the kit,,F,must be redone,F,D,1,living home
+110,john-moschus,John Moschus,person,3,before the kit,,F,must be redone,F,B,1,living home
+111,john-of-ephesus,John of Ephesus,person,3,before the kit,,F,must be redone,F,D,1,living home
+112,john-of-nikiu,John of Nikiu,person,4,before the kit,,F,must be redone,F,B,1,living home
+113,leoba,Leoba,person,4,before the kit,,F,must be redone,F,D,1,living home
+114,martin-of-braga,Martin of Braga,person,3,before the kit,,F,must be redone,F,B,1,living home
+115,muirchu,Muirchu maccu Machtheni,person,4,before the kit,,F,must be redone,F,D,1,living home
+116,niketas-stethatos,Niketas Stethatos,person,4,before the kit,,F,must be redone,F,D,1,living home
+117,paul-the-deacon,Paul the Deacon,person,4,before the kit,,F,must be redone,F,D,1,living home
+118,ruricius-of-limoges,Ruricius of Limoges,person,3,before the kit,,F,must be redone,F,D,1,living home
+119,tirechan,Tirechan,person,4,before the kit,,F,must be redone,F,D,1,living home
+120,yahya-ibn-said-of-antioch,Yahya ibn Said of Antioch,person,4,before the kit,,F,must be redone,F,F,1,living home
+121,cyril-of-scythopolis,Cyril of Scythopolis,person,3,before the kit,,F,must be redone,F,B,1,living home
+122,dorotheus-of-gaza,Dorotheus of Gaza,person,3,before the kit,,F,must be redone,F,B,1,living home
+123,jonas-of-bobbio,Jonas of Bobbio,person,4,before the kit,,F,must be redone,F,D,1,living home
+124,joshua-the-stylite,Joshua the Stylite,person,3,before the kit,,F,must be redone,F,D,1,living home
+125,marius-of-avenches,Marius of Avenches,person,3,before the kit,,F,must be redone,F,D,1,living home
+126,pisentius-of-coptos-and-john-the-elder,Pisentius of Coptos and John the Elder,person,4,before the kit,,F,must be redone,F,B,1,living home
+127,samson-of-dol,Samson of Dol,person,3,before the kit,,F,must be redone,F,D,1,living home
+128,severus-ibn-al-muqaffa,Severus ibn al-Muqaffa,person,4,before the kit,,F,must be redone,F,D,1,living home
+129,thomas-of-marga,Thomas of Marga,person,4,before the kit,,F,must be redone,F,D,1,living home
+130,willibrord,Willibrord,person,4,before the kit,,F,must be redone,F,B,1,living home
+131,auxentius-of-durostorum,Auxentius of Durostorum,person,2,before the kit,,F,must be redone,F,F,0,
+132,marius-mercator,Marius Mercator,person,2,before the kit,,F,must be redone,F,F,0,
+133,ammianus-marcellinus,Ammianus Marcellinus,person,2,before the kit,,F,must be redone,F,F,0,
+134,liberatus-of-carthage,Liberatus of Carthage,person,3,before the kit,,F,must be redone,F,F,0,
+135,lucifer-of-cagliari,Lucifer of Cagliari,person,2,before the kit,,F,must be redone,F,D,0,
+136,pontius-the-deacon,Pontius the Deacon,person,1,7,,F,must be redone,F,C,0,
+137,victor-of-tunnuna,Victor of Tunnuna,person,3,before the kit,,F,must be redone,F,D,0,
+138,al-baladhuri,al-Baladhuri,person,4,before the kit,,F,must be redone,F,D,0,
+139,jovinian,Jovinian,person,2,before the kit,,F,must be redone,F,F,0,
+140,peter-the-iberian,Peter the Iberian,person,3,before the kit,,F,must be redone,D,F,0,
+141,philostorgius,Philostorgius,person,2,before the kit,,F,must be redone,D,F,0,
+142,primasius-of-hadrumetum,Primasius of Hadrumetum,person,3,before the kit,,F,must be redone,F,C,0,
+143,suetonius,Suetonius,person,1,6,,F,must be redone,F,D,0,
+144,tacitus,Tacitus,person,1,6,,F,must be redone,F,C,0,
+145,ferrandus-of-carthage,Ferrandus of Carthage,person,3,before the kit,,F,must be redone,F,F,0,
+146,lactantius,Lactantius,person,1,7,,F,must be redone,F,C,0,
+147,agathias,Agathias of Myrina,person,3,before the kit,,F,must be redone,F,D,0,
+148,procopius-of-caesarea,Procopius of Caesarea,person,3,before the kit,,F,must be redone,F,F,0,
+149,melitius-of-lycopolis,Melitius of Lycopolis,person,2,before the kit,,F,must be redone,F,B,0,
+150,methodius-of-olympus,Methodius of Olympus,person,1,7,,F,must be redone,B,F,0,
+151,sozomen,Sozomen,person,2,before the kit,,F,must be redone,F,D,0,
+152,socrates-of-constantinople,Socrates of Constantinople,person,2,before the kit,,F,must be redone,F,D,0,
+153,clement-of-alexandria,Clement of Alexandria,person,1,4,,D,should be redone,B,D,3,"major, home in a built world, living home"
+154,ignatius-of-antioch,Ignatius of Antioch,person,1,6,,D,should be redone,D,B,3,"major, home in a built world, living home"
+155,origen,Origen,person,1,7,,D,should be redone,B,D,3,"major, home in a built world, living home"
+156,dhuoda,Dhuoda,person,4,4,,D,should be redone,D,C,2,"major, living home"
+157,reccared,Reccared,person,3,before the kit,,D,should be redone,D,C,2,"major, living home"
+158,timothy-aelurus,Timothy Aelurus,person,3,before the kit,,D,should be redone,D,C,2,"major, living home"
+159,theodosius-i-of-alexandria,Theodosius I of Alexandria,person,3,before the kit,,D,should be redone,D,C,2,"major, living home"
+160,cyril-of-alexandria,Cyril of Alexandria,person,2,5,,D,should be redone,D,C,2,"major, living home"
+161,barsauma-of-nisibis,Barsauma of Nisibis,person,3,5,,D,should be redone,D,C,2,"major, living home"
+162,dionysius-exiguus,Dionysius Exiguus,person,3,before the kit,,D,should be redone,D,D,2,"major, living home"
+163,frumentius,Frumentius,person,2,10,,D,should be redone,D,B,2,"major, living home"
+164,augustine-of-canterbury,Augustine of Canterbury,person,3,before the kit,,D,should be redone,D,B,2,"major, living home"
+165,cyprian-of-carthage,Cyprian of Carthage,person,1,7,,D,should be redone,D,C,1,major
+166,tertullian-s-voice,Tertullian,person,1,7,,D,should be redone,D,C,1,major
+167,priscillian,Priscillian,person,2,10,,D,should be redone,D,B,1,major
+168,justin-martyr,Justin Martyr,person,1,3,,D,should be redone,B,D,1,major
+169,didymus-the-blind,Didymus the Blind,person,2,before the kit,,D,should be redone,C,D,2,"home in a built world, living home"
+170,liberius-of-rome,Liberius of Rome,person,2,before the kit,,D,should be redone,D,C,2,"home in a built world, living home"
+171,ossius-of-cordoba,Ossius of Cordoba,person,2,before the kit,,D,should be redone,D,D,2,"home in a built world, living home"
+172,pamphilus-of-caesarea,Pamphilus of Caesarea,person,1,7,,D,should be redone,D,B,2,"home in a built world, living home"
+173,tyconius,Tyconius,person,2,before the kit,,D,should be redone,D,D,1,home in a built world
+174,paulus-emeritanus,Paulus Emeritanus,person,4,before the kit,,D,should be redone,D,D,1,living home
+175,eugippius,Eugippius,person,3,before the kit,,D,should be redone,D,D,1,living home
+176,alexander-ii-of-alexandria,Alexander II of Alexandria,person,4,before the kit,,D,should be redone,D,B,1,living home
+177,aetius-of-antioch,Aetius of Antioch,person,2,before the kit,,D,should be redone,D,D,0,
+178,valentinus,Valentinus,person,1,6,,D,should be redone,B,D,0,
+179,possidius-of-calama,Possidius of Calama,person,2,before the kit,,D,should be redone,D,D,0,
+180,bardaisan-of-edessa,Bardaisan of Edessa,person,1,6,,D,should be redone,D,C,0,
+181,olympias-of-constantinople,Olympias of Constantinople,person,2,before the kit,,D,should be redone,D,B,0,
+182,john-cassian,John Cassian,person,2,10,,C,would benefit,C,C,3,"major, home in a built world, living home"
+183,athanasius-of-alexandria,Athanasius of Alexandria,person,2,5,,C,would benefit,C,B,3,"major, home in a built world, living home"
+184,evagrius-ponticus,Evagrius Ponticus,person,2,9,,C,would benefit,C,B,3,"major, home in a built world, living home"
+185,huldrych-zwingli,Huldrych Zwingli,person,7,8,,C,would benefit,C,B,3,"major, home in a built world, living home"
+186,irenaeus-of-lyon,Irenaeus of Lyon,person,1,6,,C,would benefit,C,B,3,"major, home in a built world, living home"
+187,martin-of-tours,Martin of Tours,person,2,4,,C,would benefit,C,B,3,"major, home in a built world, living home"
+188,basil-of-caesarea,Basil of Caesarea,person,2,9,yes,C,would benefit,C,B,3,"major, home in a built world, living home"
+189,constantine-the-great,Constantine the Great,person,2,8,,C,would benefit,C,B,3,"major, home in a built world, living home"
+190,dionysius-of-alexandria,Dionysius of Alexandria,person,1,7,,C,would benefit,C,B,3,"major, home in a built world, living home"
+191,alopen,Alopen,person,4,3,,C,would benefit,B,C,2,"major, living home"
+192,cyril-and-methodius,Cyril and Methodius,person,4,4,,C,would benefit,B,C,2,"major, living home"
+193,ambrose-of-milan,Ambrose of Milan,person,2,8,,C,would benefit,B,C,2,"major, living home"
+194,dionysius-of-tel-mahre,Dionysius of Tel Mahre,person,4,before the kit,,C,would benefit,C,C,2,"major, living home"
+195,gregory-palamas,Gregory Palamas,person,6,8,,C,would benefit,C,C,2,"major, living home"
+196,narsai,Narsai of Nisibis,person,3,3,,C,would benefit,B,C,2,"major, living home"
+197,bernard-of-clairvaux,Bernard of Clairvaux,person,5,8,,C,would benefit,C,C,2,"major, living home"
+198,caesarius-of-arles,Caesarius of Arles,person,3,before the kit,,C,would benefit,C,C,2,"major, living home"
+199,hild-of-whitby,Hild of Whitby,person,4,4,,C,would benefit,B,C,2,"major, living home"
+200,maximus-the-confessor,Maximus the Confessor,person,4,before the kit,,C,would benefit,C,C,2,"major, living home"
+201,patrick-of-ireland,Patrick,person,3,5,,C,would benefit,B,C,2,"major, living home"
+202,thomas-aquinas,Thomas Aquinas,person,5,8,,C,would benefit,C,C,2,"major, living home"
+203,babai-the-great,Babai the Great,person,3,5,,C,would benefit,C,B,2,"major, living home"
+204,mesrop-mashtots,Mesrop Mashtots,person,2,10,,C,would benefit,C,B,2,"major, living home"
+205,columba,Columba,person,3,4,,C,would benefit,C,B,2,"major, living home"
+206,jan-hus,Jan Hus,person,6,8,,C,would benefit,C,B,2,"major, living home"
+207,thomas-cranmer,Thomas Cranmer,person,7,8,,C,would benefit,C,B,2,"major, living home"
+208,aidan-of-lindisfarne,Aidan of Lindisfarne,person,4,before the kit,,C,would benefit,C,B,2,"major, living home"
+209,epiphanius-of-salamis,Epiphanius of Salamis,person,2,9,yes,C,would benefit,C,B,2,"major, living home"
+210,martin-i-of-rome,Martin I of Rome,person,4,before the kit,,C,would benefit,C,B,2,"major, living home"
+211,benedict-of-nursia,Benedict of Nursia,person,3,4,,C,would benefit,C,A,2,"major, living home"
+212,eusebius-of-nicomedia,Eusebius of Nicomedia,person,2,9,,C,would benefit,C,C,1,major
+213,augustine-of-hippo,Augustine of Hippo,person,2,5,,C,would benefit,C,C,1,major
+214,council-of-nicaea-325,Council of Nicaea,council,2,4,,C,would benefit,C,C,1,major
+215,eunomius-of-cyzicus,Eunomius of Cyzicus,person,2,9,,C,would benefit,B,C,1,major
+216,eutyches,Eutyches,person,2,10,,C,would benefit,C,C,1,major
+217,third-council-of-toledo-589,Third Council of Toledo,council,3,3,,C,would benefit,C,C,1,major
+218,thomas-a-kempis,Thomas à Kempis,person,6,3,,C,would benefit,C,C,1,major
+219,julian-missionary-to-the-nobadae,"Julian, missionary to the Nobadae",person,3,before the kit,,C,would benefit,C,B,1,major
+220,novatian,Novatian,person,1,7,,C,would benefit,C,B,1,major
+221,theodoret-of-cyrrhus,Theodoret of Cyrrhus,person,2,10,,C,would benefit,C,B,1,major
+222,arius,Arius,person,2,3,,C,would benefit,C,B,1,major
 223,council-of-chalcedon-451,Council of Chalcedon,council,2,3,,C,would benefit,C,B,1,major
 224,councils-of-rome-and-carthage-251,Councils of Carthage and Rome on the lapsed,council,1,7,,C,would benefit,C,B,1,major
 225,john-wyclif,John Wyclif,person,6,3,,C,would benefit,C,B,1,major

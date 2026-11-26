@@ -6094,3 +6094,11 @@ This batch only.
 
 **Not done.** The fix to the live text is for the next fix batch (Open-Gaps 424). The hedged-date question in Open-Gaps 424 is still open.
 
+## 2026-11-26 — A hedged date counts as one modern finding, not a guess told as the record (Mark)
+
+**Why.** In the person and council grades (`Build/Ministry/Operations/Audits/2026-11-25_person-council-grades/`), 16 of the kit batches' F grades rested on one guess told as the record, which is rigor F ("yes to the scans and guess as F", 2026-11-25). Most were a plainly hedged date: "Eighty-seven bishops met in council, probably in 256", "in 336 by the usual dating", "The date is disputed". Part 1 of the kit asks for uncertainty to be stated plainly, and a date that rests on one editor's reckoning to be told only as roughly as the old sources allow, or left out.
+
+**Decided (Mark, 2026-11-26, from options: "Dates count as modern").** A guess whose hedge is only on when something happened counts as one ordinary modern finding: C on its own, D with a second, F with three or more. A guess about a cause, an author, a motive, a place or a person stays rigor F. This changes the grade rule of "Tradition briefs graded; the rebuild order" (2026-11-25), point 3, for dates only. The tradition grades were not regraded; that is left for Mark (Open-Gaps 424).
+
+**Found.** 17 of the 45 guess findings in the 272 people and councils are dates only (`Hedged_Dates.json`). The grades now read F 152, D 29, C 73, B 17, A 1. The kit batches read F 24, D 14, C 44, B 15, A 1; before the kit, F 128, unchanged.
+

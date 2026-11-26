@@ -29,7 +29,7 @@ Rigor comes from the scans of `../2026-11-23_what-and-why-rank/` (`Ranked_List.j
 - **Matching.** `scans/merge.py` matches the reads and writes `Held_Findings.json`. The two readers agreed on 326 findings, and 896 went to the third read, 744 of them modern. 838 of the 896 held.
 
 The rules are the tradition audit's:
-- **F:** a modern guess or reconstruction told in the story, or 3 or more modern-opinion findings, or a Crucial modern finding.
+- **F:** a modern guess or reconstruction told in the story, or 3 or more modern-opinion findings, or a Crucial modern finding. A guess whose hedge is only on a date ("probably in 256", "by the usual dating") counts as an ordinary modern finding instead, by Mark's ruling (Decision-Log, "A hedged date counts as one modern finding", 2026-11-26). `Hedged_Dates.json` lists the 17 such findings; a guess that also names an author, a place or a person stays a guess.
 - **D:** a Crucial bare statement, or 2 modern findings.
 - **C:** 1 modern finding, or any Supporting bare statement.
 - **B:** only Passing findings, or none found by the scans.
@@ -77,22 +77,22 @@ See `Grades.csv` and the page for Mark (https://claude.ai/artifact/KGibkbmL7Rh6h
 
 | Overall | Action | All | Kit batches (98) | Before the kit (174) |
 |---|---|---|---|---|
-| F | must be redone | 157 | 29 | 128 |
-| D | should be redone | 26 | 11 | 15 |
-| C | would benefit | 71 | 42 | 29 |
+| F | must be redone | 152 | 24 | 128 |
+| D | should be redone | 29 | 14 | 15 |
+| C | would benefit | 73 | 44 | 29 |
 | B | OK to keep | 17 | 15 | 2 |
 | A | great as is | 1 | 1 | 0 |
 
-- Rigor: F 147, D 26, C 67, B 31, A 1. Craft: F 53, D 51, C 74, B 88, A 6.
+- Rigor: F 141, D 29, C 70, B 31, A 1. Craft: F 53, D 51, C 74, B 88, A 6.
 - **Kit against before the kit, on craft:**
   - The listener called 6 kit stories summaries, and 97 from before the kit.
   - They would leave 1 kit story and 46 from before the kit.
   - Average blocking faults: 3.1 for the kit, 4.3 before it.
   - Kit craft: F 1, D 5, C 37, B 50, A 5.
 - **On rigor:**
-  - 156 of the 174 stories from before the kit name a modern editor, scholar or "later writers" in the text, with 727 held findings in all. 119 of them are rigor F.
-  - In the kit batches 60 of 98 have at least one such finding, with 123 in all, and 29 are rigor F.
-- **Guesses.** 16 of the kit's 29 Fs rest on one guess told as the record, most of them a hedged date: "probably in 256", "in 336 by the usual dating", "The date is disputed". Counted as an ordinary modern finding instead, 8 of those 16 would leave F (the kit's Fs from 28 to 20, before the trust reads).
+  - 156 of the 174 stories from before the kit name a modern editor, scholar or "later writers" in the text, with 727 held findings in all. 118 of them are rigor F.
+  - In the kit batches 60 of 98 have at least one such finding, with 123 in all, and 23 are rigor F.
+- **Guesses.** Before Mark's ruling, 16 of the kit's Fs rested on one guess told as the record, most of them a hedged date: "probably in 256", "in 336 by the usual dating", "The date is disputed". With hedged dates counted as ordinary modern findings, 5 kit stories leave F (29 to 24). 8 kit stories and 15 from before the kit are still F on a guess about an author, a place, a cause or a person.
 - **References:** Basil C, Epiphanius C, John Chrysostom B.
 - **Councils:** the five kit councils grade F 1 (Ephesus 431), C 4. The seven before the kit grade F 5, C 1, B 1.
 - **Openings:** 59 of the kit stories and 137 of those before it lose the listener in the first three sentences, nearly always on when.
@@ -107,4 +107,5 @@ See `Grades.csv` and the page for Mark (https://claude.ai/artifact/KGibkbmL7Rh6h
 - `trust/`: the three trust reads and the texts they read.
 - `Grades.csv`, `Grades.json`: every grade, with its basis.
 - `Rebuild_Order.csv`: worst grade first, then reach.
+- `Hedged_Dates.json`: the guesses that are hedged dates only, counted as modern findings.
 - `grade.py`: computes every grade.
