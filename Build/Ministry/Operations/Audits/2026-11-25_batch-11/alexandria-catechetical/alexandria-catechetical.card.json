@@ -1,0 +1,173 @@
+{
+ "why": "Teachers here read Scripture in layers, the plain story and a deeper meaning beneath it, confident that Greek philosophy could serve Christ rather than threaten him - a method that shaped how much of the church has read the Bible ever since.",
+ "sourcing": "Rich (Clement of Alexandria, Origen); school-institution question is live scholarship. One real gap: Clement's fullest surviving treatment of marriage and the body exists only in his own Greek — no public-domain English translation has ever been made of it.",
+ "floorNote": "This tradition's core confession does not diverge from the doctrine the Nicene Creed later stated — though one of its own greatest figures held things more loosely. Origen speculated boldly toward the soul's pre-existence and the final restoration of all things. The rupture of his own lifetime was not over these ideas: his bishop condemned his ordination, not his doctrine. The dispute over the doctrines themselves broke into open controversy only around 399–400, nearly a century and a half after his death, and a church council formally condemned them three centuries after that.",
+ "relationsSummary": "A contested influence on Desert Monasticism, real at one disputed point and denied as a general continuation; scholarship parent of the Bethlehem Circle",
+ "voices": [
+  "Pantaenus was the earliest teacher named in the tradition, remembered as a philosopher who had converted from Stoicism. Clement of Alexandria later paid tribute to a beloved teacher as 'the true, the Sicilian bee,' though Clement himself never names him, and the identification with Pantaenus comes only from Eusebius of Caesarea.",
+  "Clement of Alexandria wrote for educated Greeks, arguing that philosophy had been a tutor leading them toward Christ.",
+  "Origen dominates the surviving record here: a commentator, a textual scholar, and the first Christian to attempt a systematic account of the faith.",
+  "Dionysius of Alexandria studied under Origen and later became bishop, steering the Egyptian church through persecution and plague. Of Christians who nursed the dying while an epidemic emptied the city, he wrote: they 'held fast to each other and visited the sick fearlessly... and died with them most joyfully, taking the affliction of others, and drawing the sickness from their neighbors to themselves.'",
+  "Didymus the Blind lost his sight at four, yet taught in Alexandria for decades — the Latin church history of Rufinus says he became the teacher of the church's school, and the fifth-century historian Sozomen calls him its president. Jerome studied under him. Didymus's own books vanished for over fifteen centuries, until a cache of them turned up by chance in the Egyptian sand near Tura in 1941; none has yet been translated into English, so his voice here comes only through his students.",
+  "Most of the ordinary people who filled these classrooms and congregations left no words of their own. Potamiaena, a young woman the church remembered by name for her courage under execution, is typical of what survives: her story, never her own words. Everything that survives here was written by the literate few — teachers, bishops, and their own students."
+ ],
+ "legacy": "The Alexandrian way of reading Scripture — that the text has depths beneath its surface, and that reading it is a lifelong formation rather than an act of information-gathering — became one of Christianity's most influential approaches, shaping how the East and West alike read Scripture for centuries.\n\nOrigen worked closely on texts. He set the standard for taking seriously the languages they were first written in. Basil of Caesarea and Gregory of Nazianzus studied his books. A fifth-century church historian, Socrates, says they drew from them \"the right interpretation of the sacred Scriptures.\" Gregory sent a friend \"the volume of the Philocalia of Origen,\" a book of passages from his work that opens with chapters on Scripture and how to read it. Ambrose and Jerome read him closely too, even when they were careful about saying so.\n\nThe school ran on. In Eusebius's own day, Achillas, a presbyter, or elder, of Alexandria, \"was placed over the school of the sacred faith.\"\n\nWhether the tradition also fed Egypt's monks is still argued. In his Life of Antony, Athanasius of Alexandria shows the monk as a boy raised at home by Christian parents, a boy who would not be taught to read.\n\nThe church of Alexandria later remembered the school in two minds. Its History of the Patriarchs was put together much later, and it condemns the books of Origen. Yet the same book honors Dionysius of Alexandria as patriarch. It also tells a legend of how he came to the faith: a pagan philosopher, he bought some of Paul's letters from an old widow, read them, and was baptized.",
+ "sources": [
+  {
+   "work": "Clement of Alexandria, Stromata (Miscellanies)",
+   "type": "primary",
+   "note": "Clement's case, addressed to educated Greek readers, that philosophy had served as a tutor leading toward Christ.",
+   "url": "https://www.newadvent.org/fathers/0210.htm",
+   "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+  },
+  {
+   "work": "Origen, De Principiis (On First Principles)",
+   "type": "primary",
+   "note": "The first attempt by a Christian writer at a systematic account of the faith; some of its speculative proposals were condemned by a church council three centuries after Origen's death.",
+   "url": "https://www.newadvent.org/fathers/0412.htm",
+   "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
+  },
+  {
+   "work": "Eusebius, Church History, Book VI",
+   "type": "primary",
+   "note": "The source of the traditional picture of Alexandria as one continuous school with a succession of appointed heads; Clement's and Origen's own surviving words describe teachers and pupils, never a head's office. It tells of Origen's pupils who were put to death under Severus, among them Heraclides, still a catechumen, and Hero, just baptized. When the bishop, Demetrius, put the instruction in Origen's hands alone, Origen gave up teaching grammar, which he thought did not fit with training in the faith. Men and women alike came to study with him. He taught the gifted geometry, arithmetic and then the philosophers, and the less learned the basics, saying both would help them understand Scripture. It keeps a letter in which Alexander, a bishop of Jerusalem who had known them, calls Pantaenus and Clement \"master.\" And it quotes the charge of Porphyry, a pagan philosopher who wrote against the Christians, that such readers \"boast that the plain words of Moses are enigmas,\" and that Origen took the figurative reading of the Greek mysteries and applied it to the Jewish Scriptures. Eusebius answers that Porphyry lies when he says Origen came over from the pagans, since his parents had taught him the faith.",
+   "url": "https://www.newadvent.org/fathers/250106.htm",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+  },
+  {
+   "work": "Eusebius, Church History, Book V",
+   "type": "primary",
+   "note": "Eusebius's account of Pantaenus, about 180: a school of sacred learning had stood in Alexandria from ancient times, he was told, and Pantaenus, trained among the Stoics, a school of Greek philosophers, was its best-known teacher.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+  },
+  {
+   "work": "Eusebius, Church History, Book VII",
+   "type": "primary",
+   "note": "Dionysius's own account of Nepos's book and the three days in the villages around Arsinoe. He loved Nepos also for the many psalms of his that the believers still delighted in, and at the end some of the believers said they were glad of the meeting and of the agreement all had shown. In a letter on baptism Dionysius says that he read the works of the heretics, teachers he held to be false, and that when a fellow presbyter warned him off, a vision sent from God told him to read everything he could take in hand. The book also names Achillas over the school in Eusebius's own day.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+  },
+  {
+   "work": "Eusebius, Church History, Books VI and VII, Greek text, ed. E. Schwartz",
+   "type": "primary",
+   "note": "The Greek of Origen's phrase for Herais and of Dionysius's words on the three days, read from a scan with faults.",
+   "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt"
+  },
+  {
+   "work": "Clement of Alexandria, The Instructor (Paedagogus)",
+   "type": "primary",
+   "note": "Clement's account of how the Word, his name for Jesus, first urges people on, then trains them, and last of all teaches them, as a sick body needs a doctor before it can learn. In Book III he answers someone who says he has not learned to read: hearing is not taught, and faith belongs to the wise by God's measure, not by the world's.",
+   "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+  },
+  {
+   "work": "Origen, Philocalia (passages chosen from his works), tr. G. Lewis",
+   "type": "primary",
+   "note": "Origen's teaching that Scripture, like a person, has a body, a soul and a spirit: the plain story for the simple, its soul for those who have gone further, and its spirit for those made perfect. The book opens with chapters on Scripture and how to read it.",
+   "file": "cic/texts/origen_philocalia_lewis1911.txt"
+  },
+  {
+   "work": "Socrates, Church History, Book IV",
+   "type": "primary",
+   "note": "A fifth-century historian's report that Basil and Gregory of Nazianzus read Origen's works and drew from them their reading of Scripture; also his chapter on Didymus the Blind.",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+  },
+  {
+   "work": "Gregory of Nazianzus, Letter 115",
+   "type": "primary",
+   "note": "Gregory's letter sending a friend the Philocalia of Origen.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml"
+  },
+  {
+   "work": "Athanasius, Life of Antony",
+   "type": "primary",
+   "note": "Antony's boyhood at home with his Christian parents, and his refusal to learn letters.",
+   "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+  },
+  {
+   "work": "History of the Patriarchs of the Coptic Church of Alexandria, part 1",
+   "type": "primary",
+   "note": "A much later history of the Coptic church that calls Origen's books full of lies, honors Dionysius as patriarch, and tells the legend of his conversion.",
+   "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt"
+  },
+  {
+   "work": "Rufinus, Church History, Book XI (Latin), ed. T. Mommsen",
+   "type": "primary",
+   "note": "Rufinus's chapter on Didymus the Blind, who became the teacher of the church's school.",
+   "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt"
+  },
+  {
+   "work": "Sozomen, Church History, Book III",
+   "type": "primary",
+   "note": "Its chapter on Didymus the Blind, president of the school of sacred learning in Alexandria.",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+  }
+ ],
+ "people": [
+  {
+   "person": "clement-of-alexandria"
+  },
+  {
+   "person": "origen"
+  },
+  {
+   "person": "dionysius-of-alexandria"
+  },
+  {
+   "person": "anatolius-of-alexandria-and-laodicea"
+  },
+  {
+   "person": "peter-of-alexandria"
+  },
+  {
+   "person": "pamphilus-of-caesarea"
+  },
+  {
+   "person": "alexander-of-alexandria"
+  },
+  {
+   "person": "athanasius-of-alexandria"
+  },
+  {
+   "person": "didymus-the-blind"
+  }
+ ],
+ "uncertain": [
+  "Whether there was one school. Eusebius, writing a century later, calls the instruction a school and names the teacher in charge of it in each generation. Clement's and Origen's own surviving words describe teachers and pupils, never a head's office.",
+  "What Nepos taught. His book is lost, so his teaching survives only as Eusebius and Dionysius, his opponents, describe it.",
+  "The three days. The only account is Dionysius's own, of his own success. Eusebius gives no year, and no held source says whether Dionysius was yet bishop."
+ ],
+ "quotationOriginals": [
+  {
+   "modern": "Among the women, too, Herais was still a catechumen. She received baptism, as he himself says somewhere, the baptism by fire, and left this life.",
+   "printed": "And of women, Herais died while yet a catechumen, receiving baptism by fire, as Origen himself somewhere says.",
+   "work": "Eusebius, Church History VI.4.3, citing Origen, tr. A. C. McGiffert (Nicene and Post-Nicene Fathers, second series, 1)",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "32918-32925",
+   "original": "xci γυναικῶν δὲ “Hoais ἔτι χατηχουμένη τὸ βάπτισμα, ὥς πού φησιν αὐτός. τὸ διὰ πυρὸς λαβοῦσα, τὸν βίον ἐξελήλυϑεν.",
+   "originalFile": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt",
+   "originalLines": "1613-1614",
+   "uncertain": "The rendering is made from Eusebius's Greek, printed here as Schwartz's scan reads it: xci for καὶ, Hoais for Ἡραΐς, χατηχουμένη for κατηχουμένη. McGiffert's English confirms the reading. He himself renders αὐτός, which points back to Origen, whose pupils the chapter lists; these are Origen's words as Eusebius gives them, a century later.",
+   "secondReading": "same"
+  },
+  {
+   "modern": "Faith is taught without letters. Its handbook, unpolished and divine at once, is called love, a spiritual book.",
+   "printed": "And faith is the possession not of the wise according to the world, but of those according to God; and it is taught without letters; and its handbook, at once rude and divine, is called love—a spiritual book.",
+   "work": "Clement of Alexandria, The Instructor III.11, tr. W. Wilson (Ante-Nicene Fathers 2)",
+   "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+   "lines": "26369-26372",
+   "uncertain": "Clement's Greek is not held, so the English stands alone. The brief gives the sentence's last two clauses, whose subject is faith. Rude is rendered unpolished, since its modern sense misleads.",
+   "secondReading": "minor"
+  },
+  {
+   "modern": "If the argument won, we were not ashamed to change our minds and agree.",
+   "printed": "if the reason given satisfied us, we were not ashamed to change our opinions and agree with others",
+   "work": "Dionysius of Alexandria, On the Promises, in Eusebius, Church History VII.24.8, tr. A. C. McGiffert (Nicene and Post-Nicene Fathers, second series, 1)",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "41368-41369",
+   "original": "μήτε, εἰ λόγος cíooi, μεταπείϑεσϑαι καὶ συνομολογεῖν αἰδούσμεροι",
+   "originalFile": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt",
+   "originalLines": "10734-10735",
+   "uncertain": "The rendering is made from Dionysius's Greek as Eusebius keeps it, printed here as Schwartz's scan reads it: cíooi for αἱροίη, a word whose manuscript readings Schwartz's notes give, and αἰδούσμεροι, broken across two lines, for αἰδούμενοι. McGiffert's English confirms the sense. We is Dionysius and the believers together. Some manuscripts make the governing verb they, the believers, for we; Schwartz prints we.",
+   "secondReading": "same"
+  }
+ ]
+}

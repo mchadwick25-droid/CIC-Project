@@ -1,0 +1,287 @@
+{
+ "why": "A Carthaginian convert named Tertullian defended his faith in Latin, answering the charges against Christians in his Apology to the governors who judged them. Others made the same case: Minucius Felix, in a dialogue in which a pagan friend states the case against them, and, a century after Tertullian, Lactantius, who wrote his own defense in the middle of persecution.",
+ "sourcing": "Substantial evidence survives for this tradition. Minucius Felix's Octavius (about twenty-four thousand words), Commodian's Instructiones (about fifteen thousand), and Arnobius' seven books Against the Heathen (a hundred and forty thousand) survive whole. Lactantius' writings survive at even greater length: the Divine Institutes alone runs to two hundred and forty thousand words, and with the Anger of God, the Workmanship of God, and other fragments, his surviving work totals just under half a million words. Tertullian's own corpus of thirty-two works also survives — the Apology, the five books Against Marcion (his longest single work, about a hundred and eighty-four thousand words), Against Praxeas, the Prescription Against Heretics, and the rest — along with the Passion of Perpetua and Felicitas, transmitted alongside his writings. In all, well over a million words survive from these five authors together. Three of the five are barely datable: Minucius Felix within a century, Commodian within three centuries; Tertullian's own time, the reigns of Severus and Caracalla by Jerome's account, is the best anchored of the set.",
+ "floorNote": "Not in question for the corpus as a whole. Tertullian's own later years aligned with the New Prophecy (Montanism) out of Phrygia - a real, disclosed complication, but not a floor question: the census's own Montanism entry states that, by Tertullian's account and Hippolytus's for most of them, the New Prophecy \"held the same doctrine as the churches that condemned it,\" the dispute being one of authority and discipline, not of the Creed's own commitments.",
+ "relationsSummary": "This is the Latin counterpart to the Greek apologists of the second century, a generation later and never as coherent a body. It includes Tertullian, whose defense of the Christians, the Apology, Lactantius later said had pleaded their cause in full.",
+ "teaser": "A Carthaginian convert defended Christians against Roman slander in Latin, and others made the same case at Rome, at Sicca, and at Nicomedia.",
+ "voices": [
+  "Tertullian of Carthage - a convert and trained rhetorician who wrote his Apology at Carthage around 200 and grew more rigorist and Montanist-aligned in his later years",
+  "Minucius Felix - a Roman advocate whose dialogue gives the pagan side its full case, and whose own date nobody can fix within a century",
+  "Arnobius of Sicca - a teacher of rhetoric who wrote seven books against the gods, by one account to convince his bishop that he meant it",
+  "Commodianus - who wrote catechism in acrostic verse that does not scan, and whose date is not known",
+  "Lactantius - Arnobius' pupil on Jerome's account, who wrote the fullest of the Latin defenses while the persecution was still running and afterwards tutored the son of the emperor who ended it"
+ ],
+ "legacy": "Lactantius named the Latin defenders before him and judged them. Minucius Felix, he wrote, might have been a fit champion of truth had he given himself wholly to it; Tertullian was skilled in literature of every kind but had little readiness in eloquence; and Tertullian's Apology had pleaded the cause in full, but only by answering accusers, where Lactantius set out to teach the whole faith. Eusebius, writing in Greek, quoted Tertullian's Apology from a Greek translation and called him well versed in the laws of the Romans. Jerome named Tertullian, Minucius, Arnobius and Lactantius together to defend a Christian's use of pagan books, and judged their style: Tertullian rugged and uncouth, Lactantius with a flow of eloquence worthy of Cicero, Arnobius lengthy and unequal. A later Latin list of books the church was not to receive, carried under the name of Gelasius, set the works of Tertullian, Lactantius, Commodian and Arnobius among the apocrypha. And Lactantius' Latin was good enough that the Renaissance called him the Christian Cicero and printed him before it printed most of the Fathers - the Divine Institutes was among the first books off a press in Italy, in 1465.",
+ "documentedStories": [
+  {
+   "title": "The Morning the Church at Nicomedia Came Down",
+   "when": "23–24 February 303",
+   "tier": "1",
+   "verification": "checked directly against the primary text",
+   "teaser": "A professor of rhetoric in Diocletian’s capital watches the Great Persecution begin from across the street.",
+   "text": "Lactantius was teaching Latin rhetoric at Nicomedia when, at first light on the feast of the Terminalia, the prefect arrived at the city’s church with officers and soldiers. It stood on rising ground in full view of the palace, and Lactantius says Diocletian and Galerius watched from a height, arguing about whether to burn it. Fire might spread to the houses; so the Praetorians came with axes and leveled it ‘in a few hours’. The doors were forced, the Scriptures found and burned, the building plundered. The next day the edict was posted: Christians stripped of legal standing, their books surrendered, their assemblies forbidden. A man — Lactantius gives no name; Eusebius says he was of high rank — tore the edict down, mocking it aloud as a proclamation of victories over Goths and Sarmatians; he was arrested, ‘not only tortured, but burnt alive’, and, the text says, bore it with patience. Lactantius lost his post. He wrote the Divine Institutes over the following years to make the Christian case to exactly the educated class that had watched the church come down, and in old age wrote On the Deaths of the Persecutors to record how each emperor who signed the edict died. It is a partisan book, unsparing about its enemies’ agonies; but for the first day of the persecution it is the only eyewitness.",
+   "caveat": "Lactantius was in the city and is the primary witness, but wrote On the Deaths of the Persecutors more than a decade later with an openly providential thesis; the man who tore down the edict is named only in later tradition.",
+   "sources": [
+    {
+     "work": "Lactantius, On the Manner in Which the Persecutors Died, ch. 12–13",
+     "type": "primary",
+     "note": "The demolition, the edict, the man who tore it down."
+    },
+    {
+     "work": "Lactantius, Divine Institutes, book V",
+     "type": "primary",
+     "note": "Written during the persecution; the argument against persecutors."
+    },
+    {
+     "work": "Eusebius, Church History VIII.5",
+     "type": "primary",
+     "note": "Independent notice of the man who tore down the edict."
+    }
+   ],
+   "modernWorks": [
+    {
+     "title": "Constantine and Eusebius",
+     "author": "T. D. Barnes",
+     "year": "1981",
+     "publisher": "Harvard",
+     "note": "Chronology of the edicts."
+    }
+   ]
+  }
+ ],
+ "people": [
+  {
+   "person": "tertullian-s-voice"
+  },
+  {
+   "name": "Minucius Felix",
+   "year": 205,
+   "voice": 1,
+   "author": "felix",
+   "held": "anf04_tertullian4-minucius-felix-commodian-origen1-2--the-octavius-of-minucius-felix"
+  },
+  {
+   "name": "Commodianus",
+   "year": 250,
+   "voice": 3,
+   "author": "commodian",
+   "held": "anf04_tertullian4-minucius-felix-commodian-origen1-2--the-instructions-of-commodianus-instructiones"
+  },
+  {
+   "name": "Arnobius of Sicca",
+   "year": 295,
+   "voice": 2,
+   "author": "arnobius",
+   "held": "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-seven-books-of-arnobius-against-the-heathen-adversus"
+  },
+  {
+   "person": "lactantius"
+  }
+ ],
+ "uncertain": [
+  "When Minucius wrote. No old source fixes the date of the Octavius. Lactantius names Minucius before Tertullian, and Jerome names him after.",
+  "When Arnobius taught. Jerome's Lives of Illustrious Men puts him at Sicca in the reign of Diocletian; Jerome's Chronicle files the same entry among the years of Constantine. Arnobius himself writes that Christians had been in the world almost three hundred years, something less or more.",
+  "How Arnobius became a Christian. The dreams, the bishop's refusal and the books written as hostages rest on Jerome's Chronicle alone, written about eighty years later.",
+  "Arnobius's pupil. That Lactantius was Arnobius's pupil rests on Jerome alone, in his Lives and in his letter to Magnus.",
+  "The charges in full. Caecilius says the Christians gather the dregs of the people, the unlearned and credulous women; that they meet at night; that they worship the head of an ass, and a man punished for his crime, with the wood of his cross; and that they have no altars, temples or images. For the feast he cites a speech of the orator Fronto. Tertullian says Cornelius Tacitus first suggested the ass's head.",
+  "Caecilius's own words. He says that as Octavius is his conqueror, so he triumphs over error, and puts off what remains until the next day, since the sun is setting.",
+  "The monthly gift. Tertullian says it also kept old people confined to the house, the shipwrecked, and any in the mines, banished to the islands or shut up in prison for their faith.",
+  "Tertullian's other quarrels. He names Justin, philosopher and martyr, among the earlier writers against the heretics, and he wrote against Marcion, a teacher who brought in two Gods, the Creator and a god of his own.",
+  "What Arnobius answered. His books answer the charge that since the Christians came the world has gone to ruin and the gods have left the earth. He asks why the Christians' writings are given to the flames and their meetings broken up, where prayer is made for all in authority, for soldiers, kings, friends and enemies, the living and the dead.",
+  "Lactantius on the learned. He says the wise and the learned give the Scriptures no credit, because the prophets spoke in common and simple language, so that wisdom and truth need fit heralds; the learned who came over had not been enough to defend it.",
+  "Lactantius at Nicomedia. Jerome says he had few pupils there, since it was a Greek city, and so turned to writing.",
+  "Commodian. Only Gennadius tells of him: a man of secular learning who read the Christians' writings, accepted the faith, and wrote against the pagans in barely tolerable semi-versified language. His date is not known.",
+  "Three persons. Augustine later wrote that many Latin writers of authority said three persons, because they could find no fitter way to put in words what they understood without words. He names none of them.",
+  "The list of books not to be received. It is carried under the name of Gelasius, and in a second form under Hormisdas; who made it, and when, is disputed."
+ ],
+ "sources": {
+  "ownWords": [
+   {
+    "title": "Octavius, ed. Karl Halm (Corpus scriptorum ecclesiasticorum latinorum 2)",
+    "author": "Minucius Felix",
+    "date": "1867",
+    "language": "Latin",
+    "file": "cic/texts/minucius-felix_octavius-lat_halm1867-csel2-tei.txt"
+   },
+   {
+    "title": "The Octavius, and Tertullian's On Monogamy and other works (Ante-Nicene Fathers 4)",
+    "author": "Minucius Felix and Tertullian",
+    "date": "1885",
+    "language": "English",
+    "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
+   },
+   {
+    "title": "The Apology, Ad Nationes, Against Marcion, Against the Valentinians and Against Praxeas (Ante-Nicene Fathers 3)",
+    "author": "Tertullian",
+    "date": "1885",
+    "language": "English",
+    "file": "cic/texts/anf03_tertullian.xml"
+   },
+   {
+    "title": "Against the Nations, ed. August Reifferscheid (Corpus scriptorum ecclesiasticorum latinorum 4)",
+    "author": "Arnobius of Sicca",
+    "date": "1875",
+    "language": "Latin",
+    "file": "cic/texts/arnobius_adversus-nationes-lat_reifferscheid1875-csel-tei.txt"
+   },
+   {
+    "title": "The Seven Books Against the Heathen, tr. Hamilton Bryce and Hugh Campbell (Ante-Nicene Fathers 6)",
+    "author": "Arnobius of Sicca",
+    "date": "1886",
+    "language": "English",
+    "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+   },
+   {
+    "title": "Divine Institutes, ed. Samuel Brandt and Georg Laubmann (Corpus scriptorum ecclesiasticorum latinorum 19)",
+    "author": "Lactantius",
+    "date": "1890",
+    "language": "Latin",
+    "file": "cic/texts/lactantius_divinae-institutiones-lat_brandt1890-csel-tei.txt"
+   },
+   {
+    "title": "The Divine Institutes and On the Manner in Which the Persecutors Died, tr. William Fletcher (Ante-Nicene Fathers 7)",
+    "author": "Lactantius",
+    "date": "1886",
+    "language": "English",
+    "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml"
+   }
+  ],
+  "about": [
+   {
+    "title": "Lives of Illustrious Men, tr. E. C. Richardson, with the continuation by Gennadius (Nicene and Post-Nicene Fathers 2.3)",
+    "author": "Jerome",
+    "date": "1892",
+    "language": "English",
+    "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+   },
+   {
+    "title": "Letters 58 and 70, tr. W. H. Fremantle (Nicene and Post-Nicene Fathers 2.6)",
+    "author": "Jerome",
+    "date": "1893",
+    "language": "English",
+    "file": "cic/texts/npnf206_jerome-principal-works.xml"
+   },
+   {
+    "title": "Chronicle, ed. J. K. Fotheringham (Eusebii Pamphili Chronici canones)",
+    "author": "Jerome",
+    "date": "1923",
+    "language": "Latin",
+    "file": "cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt"
+   },
+   {
+    "title": "Histoire littéraire de l'Afrique chrétienne, volume 3, which prints Jerome's Chronicle note on Arnobius",
+    "author": "Paul Monceaux",
+    "date": "1905",
+    "language": "French and Latin",
+    "file": "cic/texts/monceaux_histoire-litteraire-afrique-chretienne-tome3_1905.txt"
+   },
+   {
+    "title": "Church History, tr. A. C. McGiffert (Nicene and Post-Nicene Fathers 2.1)",
+    "author": "Eusebius of Caesarea",
+    "date": "1890",
+    "language": "English",
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+   },
+   {
+    "title": "On the Trinity, tr. A. W. Haddan (Nicene and Post-Nicene Fathers 1.3)",
+    "author": "Augustine of Hippo",
+    "date": "1887",
+    "language": "English",
+    "file": "cic/texts/npnf103_augustine-holy-trinity-doctrinal-moral-treatises.xml"
+   },
+   {
+    "title": "Sacrorum conciliorum collectio, volume 8, Welter facsimile: the list of books to be received and not received, under the names of Gelasius and Hormisdas",
+    "author": "Giovanni Domenico Mansi (ed.)",
+    "date": "1901",
+    "language": "Latin",
+    "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-8-492-536-lat_welter-facsimile1901.txt"
+   }
+  ]
+ },
+ "briefReferences": [
+  "Minucius Felix, Octavius, ANF 4 lines 17195-17255, Halm lines 112-222: written after Octavius died, a day from their friendship now past; the court holiday at the vintage; the walk along the shore at Ostia.",
+  "Octavius, ANF 4 lines 17256-17331, Halm lines 222-238: Caecilius raises his hand to his mouth and kisses it toward the image of Serapis; Octavius rebukes Minucius over stones anointed and crowned; the three sit on the breakwater.",
+  "Tertullian, Apology 1, ANF 3 lines 1448-1453: the defense speech addressed to the rulers who sat in judgment. Octavius, ANF 4 lines 19475-19483: the objectors beaten with the philosophers' own weapons.",
+  "Octavius, ANF 4 lines 17558-17670, Halm lines 826-827: the old religion ancient and useful; the people that lurks and shuns the light; the infant hidden in meal; the dog tied to the lamp.",
+  "Octavius, ANF 4 lines 18824-18848, 19018-19076, 19492-19508: fables never inquired into; once believing the same; tortured to make them deny; one marriage, sober meals, love without hatred; no temple holds God; a good mind the offering; Caecilius yields.",
+  "Jerome, Lives of Illustrious Men 53, lines 40491-40508: Tertullian of Carthage, flourishing under Severus and Caracalla; driven by the envy and abuse of the Roman clergy to the New Prophecy.",
+  "Tertullian, Apology 2 and 39, ANF 3 lines 1946-1958, 3868-3913: the same charges; torture turned around, to make Christians deny what they are; prayer for the emperors; the monthly gift to bury the poor and keep orphans; the love that put a brand upon them. On Monogamy 1, ANF 4 lines 5769-5773: the Paraclete as giver of a stricter discipline.",
+  "Jerome, Lives of Illustrious Men 79, lines 41022-41025, and Chronicle, Fotheringham lines 45066-45076, confirmed by Monceaux lines 21713-21718: Arnobius teaching rhetoric at Sicca; dreams; the bishop; the books as hostages.",
+  "Arnobius, Against the Nations I.39, ANF 6 lines 40657-40670, Reifferscheid lines 1132-1135: the oiled stone he once fawned on.",
+  "Jerome, Lives of Illustrious Men 80, lines 41033-41038, and Letter 70, lines 16713-16716: Lactantius, pupil of Arnobius, called to teach rhetoric at Nicomedia, a Greek city. Lactantius, Divine Institutes V.2, ANF 7 line 4487, and On the Manner in Which the Persecutors Died 12-13, ANF 7 lines 10152-10174: the church overthrown on a day chosen to end the Christian religion; next day the order for torture without distinction of rank.",
+  "Lactantius, Divine Institutes V.4, ANF 7 lines 4565-4571: Tertullian's Apology pleaded the same cause in full; answering accusers one thing, instructing another.",
+  "Jerome, Letter 70 to Magnus, lines 16477-16480, 16704-16721: asked why he quotes secular literature, he names Tertullian, Minucius, Arnobius and Lactantius.",
+  "Lactantius, Divine Institutes V.1, ANF 7 line 4470, Brandt lines 22701-22705: Minucius of no mean rank among pleaders, and how fit a champion of truth he might have been."
+ ],
+ "quotationOriginals": [
+  {
+   "modern": "A people that lurks and shuns the light, silent in public, chattering in corners.",
+   "printed": "latebrosa et lucifuga natio, in publicum muta, in angulis garrula",
+   "work": "Minucius Felix, Octavius 8.4, ed. Halm",
+   "file": "cic/texts/minucius-felix_octavius-lat_halm1867-csel2-tei.txt",
+   "lines": "826-827",
+   "uncertain": "Halm prints lucifuga; his note at lines 862-863 gives the manuscript's lucifugax, with the same sense.",
+   "englishPrinted": "a people skulking and shunning the light, silent in public, but garrulous in corners",
+   "englishFile": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+   "englishLines": "17588-17589",
+   "secondReading": "same"
+  },
+  {
+   "modern": "He could not win from the bishop the faith he had always attacked. So he labored by lamplight over most brilliant books against his old religion. At last, as if with hostages for his devotion, he won the treaty.",
+   "printed": "neque ah episcopo impetraret fidem quam semper impugnaverat , elucubravit adversum pristinam religionein luculentissimos libros, et tandem veluti quibusdam obsidibus pietatis fœdus impetravit",
+   "work": "Jerome, Chronicle, on Arnobius, as printed by Paul Monceaux",
+   "file": "cic/texts/monceaux_histoire-litteraire-afrique-chretienne-tome3_1905.txt",
+   "lines": "21713-21718",
+   "uncertain": "Spelled as the scan of Monceaux's print reads: ah and religionein stand for ab and religionem. Fotheringham's edition of the Chronicle, lines 45070-45076, gives the same words, with its own scan slips (ncque for neque, ptetatts for pietatis).",
+   "secondReading": "minor"
+  },
+  {
+   "modern": "Whenever I had seen a stone made slick and smeared with olive oil, I fawned on it as if a power were present in it. I spoke to it, and begged favors from a block that felt nothing.",
+   "printed": "si quando conspexeram lubricatum lapidem et ex oliui unguine sordidatum, tamquam inesset uis praesens, adulabar, adfabar et beneficia poscebam nihil sentiente de trunco",
+   "work": "Arnobius, Against the Nations I.39, ed. Reifferscheid",
+   "file": "cic/texts/arnobius_adversus-nationes-lat_reifferscheid1875-csel-tei.txt",
+   "lines": "1132-1135",
+   "englishPrinted": "whenever I espied an anointed stone and one bedaubed with olive oil, as if some power resided in it I worshipped it, I addressed myself to it and begged blessings from a senseless stock.",
+   "englishFile": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "englishLines": "40667-40670",
+   "secondReading": "minor"
+  }
+ ],
+ "modernWorks": [
+  {
+   "title": "M. Minucii Felicis Octavius, Iulii Firmici Materni Liber de errore profanarum religionum (Corpus scriptorum ecclesiasticorum latinorum 2)",
+   "author": "Karl Halm (ed.)",
+   "year": "1867",
+   "publisher": "Österreichische Akademie der Wissenschaften, Vienna",
+   "note": "The Latin text of the Octavius, with notes on its manuscript readings."
+  },
+  {
+   "title": "Arnobii adversus nationes libri VII (Corpus scriptorum ecclesiasticorum latinorum 4)",
+   "author": "August Reifferscheid (ed.)",
+   "year": "1875",
+   "publisher": "Gerold, Vienna",
+   "note": "The Latin text of Arnobius's seven books."
+  },
+  {
+   "title": "L. Caeli Firmiani Lactanti Opera omnia, part 1: Divinae institutiones (Corpus scriptorum ecclesiasticorum latinorum 19)",
+   "author": "Samuel Brandt and Georg Laubmann (eds.)",
+   "year": "1890",
+   "publisher": "Gerold and Tempsky, Vienna",
+   "note": "The Latin text of the Divine Institutes."
+  },
+  {
+   "title": "Eusebii Pamphili Chronici canones, Latine vertit, adauxit, ad sua tempora produxit S. Eusebius Hieronymus",
+   "author": "John Knight Fotheringham (ed.)",
+   "year": "1923",
+   "publisher": "Humphrey Milford, London",
+   "note": "The Latin text of Jerome's Chronicle, with its entry on Arnobius."
+  },
+  {
+   "title": "Histoire littéraire de l'Afrique chrétienne depuis les origines jusqu'à l'invasion arabe, volume 3: Le IVe siècle, d'Arnobe à Victorin",
+   "author": "Paul Monceaux",
+   "year": "1905",
+   "publisher": "Ernest Leroux, Paris",
+   "note": "A literary history of Christian Africa, which prints Jerome's Chronicle note on Arnobius."
+  }
+ ]
+}
