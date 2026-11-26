@@ -130,3 +130,7 @@ The ANF years (1885 for volumes 1-3) are the American edition's; the files carry
 ## Validator
 
 A scratch census (outside the repository), with this card merged into the entry, the brief as `longDescription`, the `livingEvidence` change and the `modernWorks` above, through `node tools/validate-census.mjs <copy> --skip-quotes`: 629 movements, 736 edges, 10 eras, 0 errors, 4 warnings, all on other entries (short names). The full run without `--skip-quotes` was killed for lack of memory; it would add nothing here, since the quote check reads only a person's or council's sources. The quotation check is the scratch fold check above.
+
+## Spelling (2026-11-26)
+
+`Card_Check.md` item 2: "honour" becomes "honor" in the brief and in the card's Q1 `modern` together (American spelling for modern renderings; the print reads "honor"). Applied by hand; backup `greek-apologists-second-century.brief.v6.txt`. Word count unchanged.
