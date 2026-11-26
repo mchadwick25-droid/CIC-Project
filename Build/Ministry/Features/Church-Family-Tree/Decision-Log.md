@@ -6169,6 +6169,6 @@ Mark, 2026-11-25: "for the initial audio introduction to anything should be call
 
 **Why.** "A new brief removes its old recording" (2026-11-26) was carried out too early: eleven brief recordings were removed (pull request #1820) before any new recording existed to replace them.
 
-**Decided (Mark, 2026-11-26).** "wait, we don't remove any brief recordings until we replace them, we remove the ones that don't fit the structure on the built worlds." This replaces the earlier entry.
-1. A brief's old recording, its manifest entry and its paragraph times stay until its new recording is made; the new recording replaces them. The eleven removed by #1820 are restored as they were.
+**Decided (Mark, 2026-11-26).** "wait, we don't remove any brief recordings until we replace them, we remove the ones that don't fit the structure on the built worlds", then "we dont remove any brief, people, story recordings until we replace them." This replaces the earlier entry.
+1. No recording of a brief, a person or a story is removed until its new recording is made; the new recording replaces it, with its manifest entry and paragraph times. The eleven removed by #1820 are restored as they were.
 2. On the built worlds, recordings that do not fit the new card structure ("The card design: one layout, and a timeline in periods", 2026-11-25) are removed. Which ones those are comes to Mark before anything is removed.
