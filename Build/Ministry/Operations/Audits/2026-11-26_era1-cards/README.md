@@ -17,7 +17,7 @@ Owner: the one era 1 cards thread (coordinator session `session_01JMNsSDxiDjhkPh
    - **2g. Rivers** (6 in era 1: Origin, Syriac East & Asia, Greek East & Orthodoxy, Africa, Latin West & Catholicism, Non-Nicene Traditions): Africa done.
    - **2h. Existing-text fixes** flagged in `Applied.md` (story text, connection note, council fields, river origin record): to apply by the same process, worded by a checker.
 3. Site code (look: the live `cft-website/` design, dark screen, fonts, colors and card styling as they stand; never the review page's styling; Mark, 2026-11-26): branch `claude/built-world-short-descriptions` handed over (coordinator, 2026-11-26) and merged into this branch at its head 9711baa7. Still to build: a field home, validator keys, atlas-sync carriage, map open functions, MENU_ORDER folds, tree pages and tests for story, connection and river cards; `timeline` for rivers. Two phone tests in `Build/tools/tree_map_view.test.mjs` already fail on main.
-4. Release: one pull request for era 1. Not started.
+4. Release: part 1 (Mark, "1", 2026-11-26): the 14 traditions, Polycarp, the councils of 251 and era 1 written into the census by `release_part1.py`, with the two public "world" lines (Alexandria's `livingEvidence.basis` and its search-names row, Desert's `sourcing`); validator 0 errors, atlas-check 0 changes, tree build 0 mismatched. The rest of era 1 goes in a later pull request.
 
 ## Cards
 
