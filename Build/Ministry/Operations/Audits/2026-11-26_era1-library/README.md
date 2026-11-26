@@ -65,6 +65,25 @@ listed size. REGISTRY rows, queue rows and staging rows are added; the merge ran
 
 No item blocked automated download.
 
+## 4. After the cards thread's list (it arrived during the work)
+
+Two held files were shelved to `syriac-edessa-nisibis`, for its end year:
+- the Synodicon Orientale (Chabot 1902): the synod of Mar Isaac, file lines 16074-17925, "En la 11e année du
+  règne de Yezdegerd" at 16155 (`context`; 410 is a conversion);
+- the Chronicon Edessenum in Guidi's Latin (Chronica minora I, 1903), from file line 542, dated by the Seleucid era
+  (`tradition`; the English, Cowper's, was already shelved).
+
+The rest of the list was checked against what is held:
+- Cyprian's Letters 43, 57 and 59 are in Hartel (`cyprian_epistulae-lat_hartel1871-csel3-tei.txt`), and Pontius's
+  Life is in Hartel's third part. Both are already shelved to Latin Pastoral. No part of Hartel is missing for
+  these letters.
+- Panarion 48 in Greek: Holl 1922, now shelved (section 1).
+- The anonymous writer against the Montanists (Eusebius, History V.16): the held text's own clue is in V.16.19, that
+  more than thirteen years had passed since Maximilla's death without war. "About 192" is the editor's reckoning
+  from it. No held source names Gratus's proconsulship.
+- The Africa river origin and Alexandria's bounds: nothing new held beyond Eusebius II.16, II.24 and V.10.
+- Hallier's Edessa Chronicle (1892): not fetched; Guidi's Latin and Cowper's English are held.
+
 ## Resume
 
 Done: everything above. Left: the PR's CI and merge; the message to the cards thread; the final report to

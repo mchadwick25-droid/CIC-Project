@@ -48,3 +48,16 @@ assignments:
       Shared-Events Era 2 batch (worker C). Timothy I's synodal material in the same
       collection belongs to the Church of the East of the Abbasid and Silk Road period.
       Placement to be confirmed by that entry's own build thread.
+  - row_id: synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902--synod-of-mar-isaac-410-for-syriac-edessa-nisibis
+    work: "Synodicon Orientale, the synod of Mar Isaac at Seleucia-Ctesiphon, French (Chabot 1902)"
+    author: synodicon-orientale
+    locus: "file lines 16074-17925; 'En la 11e année du règne de Yezdegerd, Roi des rois' at 16155"
+    atlas_ids:
+      - syriac-edessa-nisibis
+    role: context
+    confidence: provisional
+    note: >
+      The acts date the synod by the eleventh year of Yazdegerd I; the AD year 410 is a
+      conversion. The synod is the Persian church's, east of the border, and it closes the
+      Edessa-Nisibis story's window from outside. Context. The French is Chabot's; the Syriac
+      opens at file line 1883.

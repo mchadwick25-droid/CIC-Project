@@ -3319,6 +3319,14 @@
           "rights": "Public Domain"
         },
         {
+          "work": "Chronicon Edessenum, Guidi's Latin (Chronica minora I, CSCO 1903)",
+          "author": "chronicle-of-edessa",
+          "role": "tradition",
+          "confidence": "provisional",
+          "source_file": "chronica-minora-pars-prior-versio-lat_guidi1903.txt",
+          "rights": "Public Domain"
+        },
+        {
           "work": "The Chronicle of Edessa",
           "author": "chronicle-of-edessa",
           "role": "context",
@@ -3589,6 +3597,14 @@
           "confidence": "assigned",
           "source_file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
           "rights": "Public Domain"
+        },
+        {
+          "work": "Synodicon Orientale, the synod of Mar Isaac at Seleucia-Ctesiphon, French (Chabot 1902)",
+          "author": "synodicon-orientale",
+          "role": "context",
+          "confidence": "provisional",
+          "source_file": "synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+          "rights": "Public Domain (pd-us-by-date: published 1902); the item record carries no rights field"
         },
         {
           "work": "Address to the Greeks",
