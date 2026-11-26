@@ -59,3 +59,7 @@ def test_fails_without_a_new_entry_quoting_mark(tmp_path):
           "**Decided (coordinator).** The standard is tightened.\n")
     run(repo, "commit", "-qam", "pr")
     assert check_in(repo) == 1
+
+
+def test_the_stage_two_kit_is_locked():
+    assert lock.locked([lock.FOLDER + "Stage-Two-Kit/Kit.md", lock.FOLDER + "Decision-Log.md"]) == [lock.FOLDER + "Stage-Two-Kit/Kit.md"]
