@@ -19,11 +19,11 @@
    "Outside Article 4 Scope": 1,
    "Major council": 12
   },
-  "notes": "Single source of truth for all three Atlas surfaces: the Story (cic-website/atlas.html and index.html), and the Wall Chart and Research Table (both consolidated into cic-website/world-atlas.html, reading this file at runtime instead of each keeping its own embedded copy). Status here follows records/worlds/*.yaml (this project's own registry), synced via engine.m6.census_sync; Imperial and Juridical Christianity's 'living' flag reflects its own confirmed Article 29 Living Tradition Status. Movements also carry numeric start/end year fields, sourced from the Wall Chart’s verified per-entry timeline data, so any surface can sort chronologically without re-parsing the display \"dates\" string. Entry kinds: `kind` is absent for a movement, \"person\" for a person entry, \"cross-church movement\", or \"major-council\" for a meeting of church leaders from more than one tradition. A person entry carries `toldWithin`, the ID of the movement whose story tells it, or null when no tradition tells it. Each movement has a `people` list, in date order: the person entries told within it, as {\"person\": ID}, and named voices from its `voices`, as {\"name\", \"year\", \"voice\": the index of the voices line that names them, and either \"author\" with \"held\": the Library author and the row_id of a work by them on the movement’s own shelf, or \"source\": {\"work\", \"file\", \"lines\", \"quote\"}, a quote of their own words}. A link may carry `concerns`, the ID of the person entry it is about, set only where its note or a source quote names that person. `livingEvidence.descentConfidence` grades a living tradition’s claim of descent on the five formation_confidence levels (Documented, Widely Accepted, Dominant Modern Reconstruction, Contested, Inferential-Thin), with livingEvidence.basis saying what the grade rests on. Where a living tradition has no other livingEvidence, the object may hold just these two fields. `reviewStatus` says how far an entry has been checked: \"AI-checked\", \"partner-contributed\" or \"scholar-reviewed\". A retired movement with `redirectTo` was taken into that movement, and its address leads there. A movement whose people list is empty carries `peopleNote`, one plain sentence saying why no one is shown. A named voice is listed only on words of their own: their own writing, a document issued or signed in their name, or verbatim minutes; speech others report for them and works of disputed authorship are not used. The `living` flag means the tradition an entry names is alive today (the method page, \"What the living mark means\"). `livingEvidence` says what the mark rests on: `basis`, in plain words; `carrier`, the entries that carry the same tradition today and hold its dated evidence; or the entry's own `evidence` and `grade` (CD, Contemporary-Documented; CR, Contemporary-Reported; or none, with no dated item after 2010 found); and `group`, how the mark was reached (line, episode, own, ended, influence). A person entry may carry `card`, the facts its person card shows: `knownFor`, one line; `role`; `keyWorks`, at most three, each with `title` and `about`; `legacy`, with `traces` (what traces to them) and `remembered` (how they are remembered, and by whom); `uncertain`, what is not settled; and `sources`, with `ownWords` (their works in the Library, each with `title`, `file` and `language`, and `disputed` only where the Library row says the authorship is in doubt) and `about` (works about them, each with `title`, `author`, `date`, `language` and `file`). A missing field is left out, never filled. Who, on the map and the tree pages, shows a tradition's person entries only; its named voices stay in this file and are not shown as people. A person card may also carry `otherNames` (other forms of the name), `label` (only \"Outside witness\", for someone who writes of the church from outside it), `datesNote` and `placeNote` (the dates and places in the careful wording of the profile; `dates` and `placeLabel` stay the short forms for lists), and its `ownWords` sources may carry `author` and `date`. For a person entry, `start` and `end` place the person on the map: the earliest and latest years the card names; where it names none, a year from the Who scan or the census record. The dates line says what the sources give. Every quotation in a person's or a council's text stands word for word in a file listed under its sources. A major council has no `toldWithin`. Its `people` list is its Who: an item is {\"person\": ID, \"part\"} for someone who has a person entry (told within their own tradition and listed here as well), or {\"name\", \"verdict\", \"part\"} for someone with none, where `verdict` is WHO, STORY, LISTED or NOT SCORED and `part` says what part they played; no verdict is made by the council itself. Its `council` object holds `rivers` (the rivers it reached, by name, the first being its lane), `knownFor`, `datesNote`, `calledBy`, `issue` (what brought them together), `attended`, `decided`, `outcome`, `record` (each main witness with `witness`, `kind`, which is acts, participant, later narrative or modern reconstruction, an optional `side`, and `note`), `traditions` (each with `id`, `name`, `part`, which is Gathered, Condemned, Refused or Affected, and a sourced `note`), `uncertain`, and `sources` in three groups, `fromTheCouncil`, `fromThoseThere` and `writtenLater`, each item with `title`, `language`, `file` under cic/texts/ and an `author` where one applies. A missing field is left out, never filled.",
+  "notes": "Single source of truth for all three Atlas surfaces: the Story (cic-website/atlas.html and index.html), and the Wall Chart and Research Table (both consolidated into cic-website/world-atlas.html, reading this file at runtime instead of each keeping its own embedded copy). Status here follows records/worlds/*.yaml (this project's own registry), synced via engine.m6.census_sync; Imperial and Juridical Christianity's 'living' flag reflects its own confirmed Article 29 Living Tradition Status. Movements also carry numeric start/end year fields, sourced from the Wall Chart’s verified per-entry timeline data, so any surface can sort chronologically without re-parsing the display \"dates\" string. Entry kinds: `kind` is absent for a movement, \"person\" for a person entry, \"cross-church movement\", or \"major-council\" for a meeting of church leaders from more than one tradition. A person entry carries `toldWithin`, the ID of the movement whose story tells it, or null when no tradition tells it. Each movement has a `people` list, in date order: the person entries told within it, as {\"person\": ID}, and named voices from its `voices`, as {\"name\", \"year\", \"voice\": the index of the voices line that names them, and either \"author\" with \"held\": the Library author and the row_id of a work by them on the movement’s own shelf, or \"source\": {\"work\", \"file\", \"lines\", \"quote\"}, a quote of their own words}. A link may carry `concerns`, the ID of the person entry it is about, set only where its note or a source quote names that person. `livingEvidence.descentConfidence` grades a living tradition’s claim of descent on the five formation_confidence levels (Documented, Widely Accepted, Dominant Modern Reconstruction, Contested, Inferential-Thin), with livingEvidence.basis saying what the grade rests on. Where a living tradition has no other livingEvidence, the object may hold just these two fields. `reviewStatus` says how far an entry has been checked: \"AI-checked\", \"partner-contributed\" or \"scholar-reviewed\". A retired movement with `redirectTo` was taken into that movement, and its address leads there. A movement whose people list is empty carries `peopleNote`, one plain sentence saying why no one is shown. A named voice is listed only on words of their own: their own writing, a document issued or signed in their name, or verbatim minutes; speech others report for them and works of disputed authorship are not used. The `living` flag means the tradition an entry names is alive today (the method page, \"What the living mark means\"). `livingEvidence` says what the mark rests on: `basis`, in plain words; `carrier`, the entries that carry the same tradition today and hold its dated evidence; or the entry's own `evidence` and `grade` (CD, Contemporary-Documented; CR, Contemporary-Reported; or none, with no dated item after 2010 found); and `group`, how the mark was reached (line, episode, own, ended, influence). A person entry may carry `card`, the facts its person card shows: `knownFor`, one line; `role`; `keyWorks`, at most three, each with `title` and `about`; `legacy`, with `traces` (what traces to them) and `remembered` (how they are remembered, and by whom); `uncertain`, what is not settled; and `sources`, with `ownWords` (their works in the Library, each with `title`, `file` and `language`, and `disputed` only where the Library row says the authorship is in doubt) and `about` (works about them, each with `title`, `author`, `date`, `language` and `file`). A missing field is left out, never filled. Who, on the map and the tree pages, shows a tradition's person entries only; its named voices stay in this file and are not shown as people. A person card may also carry `otherNames` (other forms of the name, each a plain name or {\"name\", \"note\"}, where the note says where that form stands or what it is), `label` (only \"Outside witness\", for someone who writes of the church from outside it), `datesNote` and `placeNote` (the dates and places in the careful wording of the profile; `dates` and `placeLabel` stay the short forms for lists), and its `ownWords` sources may carry `author` and `date`. For a person entry, `start` and `end` place the person on the map: the earliest and latest years the card names; where it names none, a year from the Who scan or the census record. The dates line says what the sources give. Every quotation in a person's or a council's text stands word for word in a file listed under its sources. A major council has no `toldWithin`. Its `people` list is its Who: an item is {\"person\": ID, \"part\"} for someone who has a person entry (told within their own tradition and listed here as well), or {\"name\", \"verdict\", \"part\"} for someone with none, where `verdict` is WHO, STORY, LISTED or NOT SCORED and `part` says what part they played; no verdict is made by the council itself. Its `council` object holds `rivers` (the rivers it reached, by name, the first being its lane), `knownFor`, `datesNote`, `calledBy`, `issue` (what brought them together), `attended`, `decided`, `outcome`, `record` (each main witness with `witness`, `kind`, which is acts, participant, later narrative or modern reconstruction, an optional `side`, and `note`), `traditions` (each with `id`, `name`, `part`, which is Gathered, Condemned, Refused or Affected, and a sourced `note`), `uncertain`, and `sources` in three groups, `fromTheCouncil`, `fromThoseThere` and `writtenLater`, each item with `title`, `language`, `file` under cic/texts/ and an `author` where one applies. A missing field is left out, never filled.",
   "schemaVersion": 3,
   "release": {
-   "number": 54,
-   "date": "2026-11-23"
+   "number": 55,
+   "date": "2026-11-25"
   },
   "identifiers": "Movement IDs and link IDs are permanent. Once published, an ID is never changed or reused. If a link is removed or merged, its ID moves to retiredLinks with the date, the reason and any replacement. If a movement is renamed, its old address redirects to the new one. If a movement is retired into another, it moves to retiredMovements with the date, the reason and redirectTo, and its old address redirects to the movement that took it in. Each release of this file carries a number and a date, so a citation can name the exact version it used. The Church Family Tree's home is https://www.churchfamilytree.com. Its movement pages, with their link anchors, also answer at the earlier address https://churchinconversation.com/tree/<id>, which redirects permanently, in one step, to the same page there. This file is served unchanged at both https://www.churchfamilytree.com/data/world-census.json and https://churchinconversation.com/data/world-census.json, and is never redirected.",
   "license": {
@@ -31,7 +31,7 @@
    "url": "https://churchinconversation.com/license",
    "name": "CC BY-NC 4.0",
    "holder": "Faithways Studio, Inc.",
-   "credit": "From the Church Family Tree by Faithways Studio, Inc., release 54 (November 23, 2026), CC BY-NC 4.0."
+   "credit": "From the Church Family Tree by Faithways Studio, Inc., release 55 (November 25, 2026), CC BY-NC 4.0."
   }
  },
  "eras": [
@@ -43144,7 +43144,10 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Constantine the Philosopher, Cyril's name until he took the name Cyril in Rome, by the Italian Legend"
+     {
+      "name": "Constantine the Philosopher",
+      "note": "Cyril's name until he took the name Cyril in Rome, by the Italian Legend"
+     }
     ],
     "knownFor": "Two brothers of Thessalonica who taught the Slavs of Moravia the faith in their own language. Pope John VIII praised the Slavonic letters found by Constantine and, in 880, allowed the Mass to be sung in Slavonic, with the Gospel read first in Latin.",
     "datesNote": "Ninth century. No source used here gives either brother's year of birth. Johann Ginzel reckons their arrival in Moravia to 863. Cyril died in Rome on 14 February, by the Italian Legend; Ginzel accepts 868 for the year, and Ernst Dümmler and S. H. Cross give 869. Methodius died on 6 April, in the year 6393 from the creation, by the Life of Methodius; Ginzel works this out as 885",
@@ -94350,7 +94353,10 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Marcion of Sinope, in Epiphanius of Salamis"
+     {
+      "name": "Marcion of Sinope",
+      "note": "in Epiphanius of Salamis"
+     }
     ],
     "knownFor": "A teacher at Rome who held that the God of the law was not the Father of Jesus, and whose own churches spread widely.",
     "datesNote": "Taught at Rome in the middle of the second century",
@@ -95922,7 +95928,10 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Novatus (in Eusebius and the Greek writers)"
+     {
+      "name": "Novatus",
+      "note": "in Eusebius and the Greek writers"
+     }
     ],
     "knownFor": "A Roman presbyter, author of On the Trinity, who was made a rival bishop in 251 and refused to readmit those who had denied the faith.",
     "datesNote": "Made a rival bishop at Rome in 251",
@@ -96935,7 +96944,10 @@
    "card": {
     "otherNames": [
      "Peter the Martyr",
-     "Peter, Bishop and Martyr"
+     {
+      "name": "Peter",
+      "note": "Bishop and Martyr"
+     }
     ],
     "knownFor": "Bishop of Alexandria through the Great Persecution, who wrote the rules for those who had lapsed, broke with Melitius of Lycopolis, and was beheaded in 311.",
     "datesNote": "Bishop from about 300; beheaded in the ninth year of the persecution, 25 November 311 by Bell's date",
@@ -97581,7 +97593,14 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Hilarius (the Latin form; Hilary Bishop of Pictavium in Rufinus)"
+     {
+      "name": "Hilarius",
+      "note": "the Latin form"
+     },
+     {
+      "name": "Hilary Bishop of Pictavium",
+      "note": "in Rufinus"
+     }
     ],
     "knownFor": "The leading Latin defender of the Nicene faith in the West, bishop of Poitiers, exiled under Constantius, and author of On the Trinity.",
     "datesNote": "Born about 300; bishop by 356; died about 367",
@@ -97831,7 +97850,10 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Meletius (the usual spelling in the Greek and Latin writers)"
+     {
+      "name": "Meletius",
+      "note": "the usual spelling in the Greek and Latin writers"
+     }
     ],
     "knownFor": "An Egyptian bishop whose quarrel with Peter of Alexandria over the lapsed led to a long schism, the Church of the Martyrs.",
     "datesNote": "Bishop of Lycopolis; excommunicated by Peter about 306, by H. Idris Bell's dating; died after the Council of 325",
@@ -97978,7 +98000,10 @@
    "card": {
     "otherNames": [
      "Epiphanius of Cyprus",
-     "Epiphanius, bishop of Constantia in Cyprus"
+     {
+      "name": "Epiphanius",
+      "note": "bishop of Constantia in Cyprus"
+     }
     ],
     "knownFor": "Bishop of Salamis in Cyprus, author of the Panarion against the heresies, and a leading accuser of Origen in the quarrels of his old age.",
     "datesNote": "The fourth century. No held ancient source gives the year of his birth or death. He dates the Panarion himself to the eleventh year of Valentinian and Valens and the seventh of Gratian, about 375. He died at sea in old age, sailing home from Constantinople",
@@ -98556,7 +98581,10 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Cyril, Archbishop of Jerusalem",
+     {
+      "name": "Cyril",
+      "note": "Archbishop of Jerusalem"
+     },
      "Cyrillus"
     ],
     "knownFor": "Priest and then bishop of Jerusalem, whose lectures to the people preparing for baptism survive, and who was driven from his see three times.",
@@ -99638,7 +99666,10 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Abba Salama of Axum (Hartranft's note to Sozomen; \"the Father of Peace\" in the Dictionary of Christian Biography, quoted by Jackson)"
+     {
+      "name": "Abba Salama of Axum",
+      "note": "Hartranft's note to Sozomen; \"the Father of Peace\" in the Dictionary of Christian Biography, quoted by Jackson"
+     }
     ],
     "knownFor": "A Roman captive, taken as a boy when his ship's company was killed, who gathered Christians in the kingdom of Axum and was made its first bishop by Athanasius of Alexandria.",
     "datesNote": "Fourth century; the date of his consecration is disputed (see What is uncertain)",
@@ -100276,7 +100307,10 @@
    "card": {
     "otherNames": [
      "Evagrius of Ibora",
-     "Evagrius the Monk (in the Philokalia)"
+     {
+      "name": "Evagrius the Monk",
+      "note": "in the Philokalia"
+     }
     ],
     "knownFor": "A deacon of Constantinople who became a monk of the Egyptian desert, and wrote of the eight tempting thoughts and of prayer.",
     "datesNote": "About 345 to 399 or 400. Palladius of Helenopolis says he died at fifty-four. Ernest Cushing Richardson's note to Gennadius gives 345 to 399; W. K. Lowther Clarke's note to Palladius puts the death in 399 or 400.",
@@ -100821,7 +100855,10 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Atheus, \"the godless\", a name Socrates and Sozomen report and Athanasius uses"
+     {
+      "name": "Atheus",
+      "note": "\"the godless\", a name Socrates and Sozomen report and Athanasius uses"
+     }
     ],
     "knownFor": "A bold Arian logician who taught that the Son is unlike the Father, founding the Anomoean party; his own allies gave him up in 360.",
     "datesNote": "Active from about 350; died at Constantinople after 366",
@@ -101203,7 +101240,14 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Luciferus; Lucifer Calaritanus (the Latin forms; Calaris is Cagliari)"
+     {
+      "name": "Luciferus",
+      "note": "the Latin forms"
+     },
+     {
+      "name": "Lucifer Calaritanus",
+      "note": "the Latin forms; Calaris is Cagliari"
+     }
     ],
     "knownFor": "The bishop of Cagliari who defied the emperor over Athanasius, and whose refusal to forgive former Arians began the Luciferian schism.",
     "datesNote": "Bishop by 353; died about 370 or 371",
@@ -102750,7 +102794,10 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Paulinus, deacon of Milan"
+     {
+      "name": "Paulinus",
+      "note": "deacon of Milan"
+     }
     ],
     "knownFor": "Secretary in the household of Ambrose of Milan, who wrote the Life of Ambrose at the request of Augustine of Hippo, and who is taken to be the deacon Paulinus who accused Caelestius at Carthage.",
     "datesNote": "Flourished between about 375 and 422, by Sister Mary Simplicia Kaniecka's reckoning; wrote the Life in Africa between 412 and 422, by her dating; his petition to Zosimus of Rome is dated 8 November 417 by its editor Otto Günther",
@@ -102869,7 +102916,10 @@
     "otherNames": [
      "Macrina",
      "Saint Macrina",
-     "Thecla (her secret name, in Gregory's Life)"
+     {
+      "name": "Thecla",
+      "note": "her secret name, in Gregory's Life"
+     }
     ],
     "knownFor": "Eldest child of the family of Basil of Caesarea and Gregory of Nyssa, who led her household into a life of prayer and shared work, and whose deathbed teaching Gregory wrote down.",
     "datesNote": "Died in 379, after the council of Antioch that September, by W. K. Lowther Clarke's dates; her birth year is not given",
@@ -104086,7 +104136,10 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Martinus (the Latin of Sulpicius Severus)"
+     {
+      "name": "Martinus",
+      "note": "the Latin of Sulpicius Severus"
+     }
     ],
     "knownFor": "A Roman soldier who became a monk and then bishop of Tours, and who pleaded at Trier that Priscillian's case was not for a judge of this world.",
     "datesNote": "Died in 397, in Ernest Brehaut's note to Gregory of Tours; Gregory says he was born in the eleventh year of Constantine and died in the eighty-first year of his life",
@@ -104240,7 +104293,10 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Melanium (in the letters of Jerome of Strido)"
+     {
+      "name": "Melanium",
+      "note": "in the letters of Jerome of Strido"
+     }
     ],
     "knownFor": "A Roman widow who fed the exiled monks of Egypt, founded a monastery in Jerusalem beside Rufinus of Aquileia, and took in the young Evagrius Ponticus.",
     "datesNote": "Widowed at twenty-two, and back in Rome at sixty, by the account of Palladius of Helenopolis. W. H. Fremantle, in his life of Rufinus of Aquileia, has her reach Italy with Rufinus in the spring of 397. No held source gives the year she died.",
@@ -106396,7 +106452,10 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Eznig de Goghp (Langlois's French)",
+     {
+      "name": "Eznig de Goghp",
+      "note": "Langlois's French"
+     },
      "Esnig"
     ],
     "knownFor": "An Armenian translator, a pupil of Sahak the Great and Mesrop Mashtots, later bishop of Bagrevand, who wrote the Refutation of the Sects against the Persian religion, the Greek philosophers and Marcion.",
@@ -110183,7 +110242,10 @@
    "card": {
     "otherNames": [
      "Vartan the Mamigonian",
-     "Vartan the Great, by a note in Victor Langlois's edition of Lazar of Pharp"
+     {
+      "name": "Vartan the Great",
+      "note": "by a note in Victor Langlois's edition of Lazar of Pharp"
+     }
     ],
     "knownFor": "General of the Armenians who, after yielding in outward show at the Persian court, led the Armenian rising against the Persian king's religion and fell at Avarayr in 451, remembered by the Armenian church as a martyr.",
     "datesNote": "Fell at Avarayr, by Elishe and Lazar of Pharp, who give no year. Malachia Ormanian gives the day as 26 May 451; Charles Neumann's margin and a note in Lazar's French edition give 2 June 451. No source used here gives his birth",
@@ -111971,8 +112033,14 @@
    "card": {
     "otherNames": [
      "Cassiodorus Senator",
-     "Magnus Aurelius Cassiodorus Senator (Hodgkin's form)",
-     "\"the Senator\" (in Jordanes)"
+     {
+      "name": "Magnus Aurelius Cassiodorus Senator",
+      "note": "Hodgkin's form"
+     },
+     {
+      "name": "\"the Senator\"",
+      "note": "in Jordanes"
+     }
     ],
     "knownFor": "A Roman statesman in the service of the Gothic kings of Italy who wrote their letters, then founded the monastery of Vivarium and wrote for its monks a guide to sacred and secular reading.",
     "datesNote": "Consul in the year Theodor Mommsen numbers 514, by his own chronicle; praetorian prefect from the year Thomas Hodgkin gives as 533. He wrote on spelling in his ninety-third year, by his own word. Hodgkin, following Trithemius, puts his birth about 480 and his death in 575",
@@ -112220,7 +112288,10 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Victor, bishop of Vita",
+     {
+      "name": "Victor",
+      "note": "bishop of Vita"
+     },
      "Victor Vitensis"
     ],
     "knownFor": "A Catholic churchman of Vandal Africa whose History of the Persecution is the main account of how the Vandal kings Geiseric and Huneric treated the Catholic church.",
@@ -112737,7 +112808,10 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Sanctus Romanus, veterum melodorum princeps (Pitra's title)",
+     {
+      "name": "Sanctus Romanus, veterum melodorum princeps",
+      "note": "Pitra's title"
+     },
      "Romanus"
     ],
     "knownFor": "A deacon from Syria, remembered as a writer of kontakia, long sung poems for the church's feasts, whose gift a late notice says came in a dream of the Mother of God.",
@@ -113162,9 +113236,16 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Gildas the Wise (Gildas Sapiens)",
-     "Giltas (in Columbanus's letter)",
-     "Gildus (in Bede)"
+     "Gildas the Wise",
+     "Gildas Sapiens",
+     {
+      "name": "Giltas",
+      "note": "in Columbanus's letter"
+     },
+     {
+      "name": "Gildus",
+      "note": "in Bede"
+     }
     ],
     "knownFor": "A British churchman of the sixth century whose long Latin letter, The Ruin of Britain, condemns the kings and clergy of his country.",
     "datesNote": "Born in the year of the siege of Badon Hill, by his own words, and writing some forty-three years later, in Hugh Williams's reading. Williams puts his birth about 500 and the book a few years after 540 and before 547. The Welsh annals, in the text Williams quotes, give his death in 570; other annals he lists give 569, 571 and 562",
@@ -113589,9 +113670,16 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "John of Asia (Jean d'Asie)",
-     "John of Amida (in Michael the Syrian)",
-     "John the Syrian, the converter of the pagans (in his Lives)"
+     "John of Asia",
+     "Jean d'Asie",
+     {
+      "name": "John of Amida",
+      "note": "in Michael the Syrian"
+     },
+     {
+      "name": "John the Syrian, the converter of the pagans",
+      "note": "in his Lives"
+     }
     ],
     "knownFor": "A bishop and historian of the party that refused the council of Chalcedon, who converted pagans in western Asia Minor for Justinian and wrote the Lives of the Eastern Saints and a Church History of his own times.",
     "datesNote": "Born about 507, by E. W. Brooks's reckoning; R. Payne Smith gives about 516. His history ends in 585, and Brooks thinks he probably died in 586",
@@ -113963,7 +114051,10 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Severus, patriarch of Antioch",
+     {
+      "name": "Severus",
+      "note": "patriarch of Antioch"
+     },
      "Mar Sévère"
     ],
     "knownFor": "Bishop of Antioch from 512 to his flight in 518, by E. W. Brooks's dates, who condemned the Council of Chalcedon and wrote against Julian of Halicarnassus; his letters survive in Syriac.",
@@ -114199,7 +114290,10 @@
    "card": {
     "otherNames": [
      "Saint Samson",
-     "Samson, bishop of Dol"
+     {
+      "name": "Samson",
+      "note": "bishop of Dol"
+     }
     ],
     "knownFor": "A British monk and bishop, trained at Eltut's school, who crossed by way of Cornwall to Brittany and founded the monastery of Dol, known from a Life of uncertain date and a signature at a council of Paris.",
     "datesNote": "Signed a council at Paris that Friedrich Maassen dates between 556 and 573. Thomas Taylor reckons from the Life that he was made bishop probably in 521, and born about 486 if he was then thirty-five; both years are Taylor's inference",
@@ -115267,8 +115361,14 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Theodosius, patriarch of Alexandria",
-     "Pope Theodosius (in John of Ephesus)"
+     {
+      "name": "Theodosius",
+      "note": "patriarch of Alexandria"
+     },
+     {
+      "name": "Pope Theodosius",
+      "note": "in John of Ephesus"
+     }
     ],
     "knownFor": "The patriarch of Alexandria who refused the council of Chalcedon, lived most of his patriarchate in exile, and gave his name to the Theodosians of Egypt.",
     "datesNote": "Made patriarch on the death of Timothy III, in 535 by B. Evetts's heading and E. W. Brooks's notes; died at Constantinople nine months after Justinian, by John of Ephesus, which Brooks puts in 566. Evetts's heading gives 567",
@@ -116486,10 +116586,16 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "James (in John of Ephesus)",
+     {
+      "name": "James",
+      "note": "in John of Ephesus"
+     },
      "James Burd'ana",
      "Jacques Baradée",
-     "Jacob Zanzalus (in later Greek and Latin writers)"
+     {
+      "name": "Jacob Zanzalus",
+      "note": "in later Greek and Latin writers"
+     }
     ],
     "knownFor": "The bishop of Edessa who, made bishop at the empress Theodora's order, traveled the eastern empire in secret ordaining bishops and clergy for the party that refused the council of Chalcedon, and after whom its people were called Jacobites.",
     "datesNote": "Made bishop in the sixteenth year of Justinian, which E. W. Brooks gives as 542; died on the thirtieth of Tammuz, July, in the Seleucid year 889 by Michael the Syrian, which Brooks gives as 30 July 578",
@@ -117492,7 +117598,10 @@
    "card": {
     "otherNames": [
      "Agathias Scholasticus",
-     "Agathias the rhetorician (in Evagrius)"
+     {
+      "name": "Agathias the rhetorician",
+      "note": "in Evagrius"
+     }
     ],
     "label": "Outside witness",
     "knownFor": "A lawyer, poet and historian at Constantinople whose five books carry on Procopius's history of Justinian's reign, and touch the church only in passing.",
@@ -117612,7 +117721,10 @@
    "card": {
     "otherNames": [
      "Victor Tunnunensis",
-     "Victor Tonnennensis (Mommsen's form)",
+     {
+      "name": "Victor Tonnennensis",
+      "note": "Mommsen's form"
+     },
      "Victor Tununensis"
     ],
     "knownFor": "An African bishop who defended the Three Chapters against the emperor Justinian, was held in prisons and monasteries from Africa to Constantinople, and wrote a Latin chronicle, in exile as Mommsen thinks.",
@@ -118977,7 +119089,10 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Barhadbeshabba 'Arbaia, bishop of Halwan",
+     {
+      "name": "Barhadbeshabba 'Arbaia",
+      "note": "bishop of Halwan"
+     },
      "Barhadbšabba 'Arbaya",
      "Bar Hadbesabba",
      "Hadbsabba 'Arbaya",
@@ -119479,7 +119594,10 @@
      "Dewi",
      "Dewi Sant",
      "David of Menevia",
-     "Devius Aquaticus (in the Life of Paul Aurelian)"
+     {
+      "name": "Devius Aquaticus",
+      "note": "in the Life of Paul Aurelian"
+     }
     ],
     "knownFor": "A British bishop remembered as the founder of the monastery in the valley of Rosina and the preacher at the synod of Brefi, known almost wholly from Lives written centuries after him.",
     "datesNote": "The Welsh annals give his death in the year their editor numbers 601; the Irish annals Hugh Williams quotes give 588. His Lives give the day, Tuesday the first of March, but no year",
@@ -121123,9 +121241,22 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Apa Pisentius, bishop and anchorite of the mountain of Tsenti",
-     "Pesenthius or Pesynthius, in W. E. Crum's English of the Epiphanius letters",
-     "John the Presbyter, the title's name for John"
+     {
+      "name": "Apa Pisentius",
+      "note": "bishop and anchorite of the mountain of Tsenti"
+     },
+     {
+      "name": "Pesenthius",
+      "note": "in W. E. Crum's English of the Epiphanius letters"
+     },
+     {
+      "name": "Pesynthius",
+      "note": "in W. E. Crum's English of the Epiphanius letters"
+     },
+     {
+      "name": "John the Presbyter",
+      "note": "the title's name for John"
+     }
     ],
     "knownFor": "Pisentius was bishop of Coptos in Upper Egypt, who hid in the mountain of Djeme when the Persians held Egypt. John, his disciple and servant, wrote his Life as a sermon for his feast day, and is a witness in it.",
     "datesNote": "Late sixth and early seventh centuries. E. A. Wallis Budge says Pisentius flourished in the second half of the sixth century and the first half of the seventh, and guesses his birth about 550. Budge has him consecrated by the patriarch Damian some year between 570 and 603. The Life puts his flight while the Persians were masters of Egypt, which Budge's note dates to 616 by Theophanes, or three or four years later by modern reckoning. Pisentius died on 13 Epep, which Budge reckons as 7 July; John gives only \"this fifth year\" of the indiction, which does not fix the year. John wrote after the death, in a year no held source gives",
@@ -121529,7 +121660,10 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Paul, deacon of Mérida",
+     {
+      "name": "Paul",
+      "note": "deacon of Mérida"
+     },
      "Paulus Diaconus Emeritensis"
     ],
     "knownFor": "A deacon of Mérida in Visigothic Spain who wrote the Lives of the Fathers of Mérida, the stories of the city's holy men and of its bishops from Paul the Greek to Renovatus. It tells of Bishop Masona's stand against the Arian king Leovigild.",
@@ -122424,7 +122558,10 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Sophronius the Sophist (John Moschus)"
+     {
+      "name": "Sophronius the Sophist",
+      "note": "John Moschus"
+     }
     ],
     "knownFor": "Monk of Theodosius and disciple of John Moschus, then patriarch of Jerusalem in the 630s. He opposed the teaching that Christ acted with one operation, and his synodal letter was received as true to the faith by the Third Council of Constantinople in 680-681. Later chroniclers say he was patriarch when Jerusalem surrendered to the caliph Umar.",
     "datesNote": "Daniel Papebroch dates his election to 634 and his death to March 638. A note in J. D. Mansi's collection of the councils says he was still a monk in May 633. Theophanes, writing in the early ninth century, puts the surrender of Jerusalem after a two-year siege, and Eutychius of Alexandria says Sophronius died after four years in office. Angelo Mai gives about 640 for his death. No source used here gives his birth year",
@@ -122723,11 +122860,23 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Olopun (A. Wylie's English of the Xi'an stele)",
-     "Olopan (Henry Yule)",
+     {
+      "name": "Olopun",
+      "note": "A. Wylie's English of the Xi'an stele"
+     },
+     {
+      "name": "Olopan",
+      "note": "Henry Yule"
+     },
      "Olopen",
-     "Olopuen (Joseph Assemani)",
-     "A-lo-pen (E. A. Wallis Budge)"
+     {
+      "name": "Olopuen",
+      "note": "Joseph Assemani"
+     },
+     {
+      "name": "A-lo-pen",
+      "note": "E. A. Wallis Budge"
+     }
     ],
     "knownFor": "The man from the far west who, by the Xi'an stele, brought the Church of the East's sacred books to the Tang capital, Chang-an, in 635. The books were translated in the imperial library, and the emperor ordered the religion spread. A decree of 638 ordered a monastery built in the capital for twenty-one priests.",
     "datesNote": "Reached Chang-an in 635, by A. Wylie's English of the stele and by Henry Yule. Joseph Assemani gives 636. The stele names the decree of 638 and the honor he received under the next emperor, Kautsung. No source used here gives his birth or death",
@@ -123904,8 +124053,14 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Ceadda (Chad), the form of Bede's Latin",
-     "Cedda, a form later writers use for either brother"
+     {
+      "name": "Ceadda",
+      "note": "Chad, the form of Bede's Latin"
+     },
+     {
+      "name": "Cedda",
+      "note": "a form later writers use for either brother"
+     }
     ],
     "knownFor": "Two English brothers whom Bede tells together, through Lastingham, the monastery Cedd founded and Chad ruled after him. Cedd was bishop of the East Saxons and stood with the Irish party at the synod of Whitby in 664. Chad was made bishop of York, then of the Mercians at Lichfield.",
     "datesNote": "Seventh century. Bede gives no year of birth or death for either brother. Cedd was at the synod of Whitby, which Bede dates to 664, and died after it in a time of plague; Charles Plummer and the Bollandists date his death to 664, though a heading in J. A. Giles's English gives 659. Chad died on 2 March; Bede says he ruled the Mercians two and a half years, and the Bollandists put his death in 672",
@@ -124938,8 +125093,14 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "John, bishop of Niciu (History of the Patriarchs)",
-     "John the rector, bishop of Nikius (the Chronicle's closing words)"
+     {
+      "name": "John",
+      "note": "bishop of Niciu, in the History of the Patriarchs"
+     },
+     {
+      "name": "John the rector",
+      "note": "bishop of Nikius, in the Chronicle's closing words"
+     }
     ],
     "knownFor": "Coptic bishop of Nikiu whose Chronicle, from the creation to the Arab conquest of Egypt, survives only in Ethiopic. It is the Coptic church's own account of the conquest. The History of the Patriarchs tells that he was given charge of the monasteries and then deposed.",
     "datesNote": "Seventh century. R. H. Charles thinks he was born about the time of the Arab conquest of Egypt. The History of the Patriarchs places him at the death of the patriarch John III and among the bishops who met to choose his successor. B. Evetts, its English translator, heads the life of the next patriarch, Isaac, 686 to 689. Charles gives 690 for that election and 696 for his charge of the monasteries. No source used here gives his death",
@@ -125562,9 +125723,18 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Eadburga, abbess",
-     "Eadburge (in one of Edward Kylie's headings)",
-     "Eadburg (Charles Plummer)"
+     {
+      "name": "Eadburga",
+      "note": "abbess"
+     },
+     {
+      "name": "Eadburge",
+      "note": "in one of Edward Kylie's headings"
+     },
+     {
+      "name": "Eadburg",
+      "note": "Charles Plummer"
+     }
     ],
     "knownFor": "An English abbess of the eighth century who sent books and vestments to Boniface of Mainz in Germany. He asked her to copy the Epistles of Saint Peter in gold. She taught Leoba the art of verse.",
     "datesNote": "Eighth century. Edward Kylie dates the letters to her from about 717 to the 740s. The Bollandists, who take her to be Bugga, give her death day as 27 December; the year cannot be read in the scan used here. No source used here gives her birth",
@@ -125668,7 +125838,12 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Elipandus Toletanus; Helipandus; Eliphandus, in Pope Hadrian I's letter",
+     "Elipandus Toletanus",
+     "Helipandus",
+     {
+      "name": "Eliphandus",
+      "note": "in Pope Hadrian I's letter"
+     },
      "Felix Urgellitanus or Orgellitanus"
     ],
     "knownFor": "Two bishops of Spain, Elipandus archbishop of Toledo and Felix bishop of Urgell, who taught that Christ in his humanity is the adoptive Son of God. The council of Frankfurt condemned the teaching in 794 as the heresy of both. Felix submitted at Aachen in 799. Elipandus, Alcuin says in a letter Froben dates to 800, still held it.",
@@ -125833,7 +126008,10 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Heaburg, called Bugga (her mother's letter)",
+     {
+      "name": "Heaburg, called Bugga",
+      "note": "her mother's letter"
+     },
      "Bugga"
     ],
     "knownFor": "An English abbess and friend of Boniface of Mainz. Her own letter of thanks to him survives. She governed a house of women, went to Rome to pray, and met Boniface there.",
@@ -125953,7 +126131,10 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Paul Warnefrid, in O. M. Dalton's notes to Gregory of Tours",
+     {
+      "name": "Paul Warnefrid",
+      "note": "in O. M. Dalton's notes to Gregory of Tours"
+     },
      "Paulus Diaconus"
     ],
     "knownFor": "Lombard monk and historian of the eighth century. A monk of Monte Cassino, he spent some years at Charlemagne's court, and wrote the History of the Langobards, the story of his own people, their kings and their church.",
@@ -126663,9 +126844,18 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "King-Tsing (A. Wylie's English of the stele)",
-     "King-tsing (Henri Cordier)",
-     "Adamus (Joseph Assemani)"
+     {
+      "name": "King-Tsing",
+      "note": "A. Wylie's English of the stele"
+     },
+     {
+      "name": "King-tsing",
+      "note": "Henri Cordier"
+     },
+     {
+      "name": "Adamus",
+      "note": "Joseph Assemani"
+     }
     ],
     "knownFor": "The priest who composed the Chinese text of the Xi'an stele, set up in 781. The text sets out the faith of the Church of the East and tells its story in Tang China.",
     "datesNote": "The stele was set up in 781, by A. Wylie's English of its Chinese date. No source used here gives his birth or death",
@@ -127212,7 +127402,10 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Mar Thomas, Bishop of Marga"
+     {
+      "name": "Mar Thomas",
+      "note": "Bishop of Marga"
+     }
     ],
     "knownFor": "Monk of Beth 'Abhe and author of the Book of Governors, the histories of the holy men and monks of his monastery in the Church of the East. He was secretary to the catholicos Abraham, then bishop of Marga and metropolitan of Beth Garmai.",
     "datesNote": "Ninth century. He came to Beth 'Abhe as a young man in the Arab year 217, which E. A. Wallis Budge reckons as 832. Budge has him secretary to Abraham in 837. Budge's title dates the Book of Governors to 840, and Jérôme Labourt says he wrote between 832 and 850. No source used here gives his birth or death",
@@ -127906,7 +128099,10 @@
    "card": {
     "label": "Outside witness",
     "otherNames": [
-     "Ahmad ibn Yahya ibn Jabir al-Baladhuri (Philip Hitti)"
+     {
+      "name": "Ahmad ibn Yahya ibn Jabir al-Baladhuri",
+      "note": "Philip Hitti"
+     }
     ],
     "knownFor": "A Muslim historian of Baghdad whose Futuh al-Buldan tells how the Muslim conquests were won. It records terms made with Christian towns and the fate of churches such as Saint John's at Damascus.",
     "datesNote": "Died in 892, the year 279 of the hijra, by Philip Hitti from the Arab lives he draws on, al-Fihrist, Yakut and al-Kutubi. No source used here gives his birth",
@@ -127998,7 +128194,10 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Severus, his name as bishop (Bar Hebraeus)",
+     {
+      "name": "Severus",
+      "note": "his name as bishop, in Bar Hebraeus"
+     },
      "Moses Bar-Cepha",
      "Moses Barcepha"
     ],
@@ -128493,7 +128692,10 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Abramios, his name in the world (Philipp Meyer, from the Life)",
+     {
+      "name": "Abramios",
+      "note": "his name in the world, from the Life, in Philipp Meyer"
+     },
      "Athanasius"
     ],
     "knownFor": "Founder of the Lavra on Mount Athos, with the help of his friend the emperor Nikephoros Phokas. Philipp Meyer calls it the first great monastery of the Holy Mountain. Athanasios wrote its rule and his own testament for it. Meyer says that rule became the general standard for the other houses of Athos.",
@@ -128638,9 +128840,18 @@
    "card": {
     "otherNames": [
      "Elias bar Shinaya",
-     "Elias Bar-Sinaeus (Joseph Assemani)",
-     "Elias Barsinaeus (J. Parisot)",
-     "Elias Bar Shinaji (George David Malech)"
+     {
+      "name": "Elias Bar-Sinaeus",
+      "note": "Joseph Assemani"
+     },
+     {
+      "name": "Elias Barsinaeus",
+      "note": "J. Parisot"
+     },
+     {
+      "name": "Elias Bar Shinaji",
+      "note": "George David Malech"
+     }
     ],
     "knownFor": "The metropolitan of Nisibis in the Church of the East who wrote the Chronography, a year-by-year record that E. W. Brooks dates to 1019. For most years it names its sources, and most of those are lost.",
     "datesNote": "Born 975, by a note later hands added to his Chronography. E. W. Brooks dates the Chronography to 1019, and M.-A. Kugener to 1008. Joseph Assemani puts his death after 1049, J.-B. Chabot soon after it; Frédéric Macler gives about 1056. The note's years are reckoned from its Greek and Arab years",
@@ -128825,8 +129036,14 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Symeon, abbot of Saint Mamas",
-     "Symeon Junior Theologus, in J.-P. Migne's index"
+     {
+      "name": "Symeon",
+      "note": "abbot of Saint Mamas"
+     },
+     {
+      "name": "Symeon Junior Theologus",
+      "note": "in J.-P. Migne's index"
+     }
     ],
     "knownFor": "Monk and abbot of Saint Mamas in Constantinople, about the year 1000, who taught that God's light can be seen and known in this life. He kept a feast for his own teacher, Symeon the Pious, and was exiled for it. The Philokalia prints his chapters, and later teachers of stillness read him.",
     "datesNote": "About the year 1000, in the reign of Constantine Porphyrogennetos, say the compilers of the Philokalia. François Combefis's summary of Niketas's Life has him born under Basil and Constantine, and a priest for forty-eight years. No held source gives the year of his birth, exile or death",
@@ -128971,8 +129188,14 @@
    "card": {
     "otherNames": [
      "Yahya, son of Sa'id, of Antioch",
-     "Yahya al-Antaki (his editors)",
-     "Yahia (Gustave Schlumberger, as Frédéric Macler quotes him)"
+     {
+      "name": "Yahya al-Antaki",
+      "note": "his editors"
+     },
+     {
+      "name": "Yahia",
+      "note": "Gustave Schlumberger, as Frédéric Macler quotes him"
+     }
     ],
     "knownFor": "An Arab Christian historian who carried on the history of Sa'id ibn Bitriq, patriarch of Alexandria, from 937. His history follows the patriarchs, caliphs and emperors of his time.",
     "datesNote": "Eleventh century, in his editors' words. He moved to Antioch in the Arab year 405, which his editors give as 1014 to 1015. No source used here gives his birth or death",
@@ -129083,8 +129306,14 @@
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
-     "Nicetas Pectoratus, the Latin form",
-     "Niketas, presbyter of Studios"
+     {
+      "name": "Nicetas Pectoratus",
+      "note": "the Latin form"
+     },
+     {
+      "name": "Niketas",
+      "note": "presbyter of Studios"
+     }
     ],
     "knownFor": "Monk and priest of the monastery of Studios in Constantinople, disciple of Symeon the New Theologian and writer of his Life. His three hundred chapters on the spiritual life are in the Philokalia. His book against the Latin church, which he condemned before the emperor and the pope's envoys in 1054, is held in Latin.",
     "datesNote": "Eleventh century. The compilers of the Philokalia say he lived in 1030. The envoys' record dates his recantation to the feast of John the Baptist's birth in the twelfth year of Constantine Monomachos, which Cornelius Will reckons as 24 June 1054. Some copies read the eleventh year. Will puts this down to an error in dating, since many placed the embassy in 1053. No held source gives his birth or death",

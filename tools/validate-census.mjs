@@ -256,6 +256,32 @@ function checkQuotationOriginals(m, list, text, sources, at, where = "quotationO
   });
 }
 const CARD_LABELS = new Set(["Outside witness"]);
+// An other name is the name alone, which search shows: a string, or {name, note} where the note, shown on the card
+// beside it, says where the form stands or what it is. A name still carrying a note (in brackets, after a semicolon,
+// or after a comma that opens a source, an office, a form or a gloss in quotes) fails, and so does a note with brackets of its own.
+const OTHER_NAME_NOTE = [
+  /[()[\];]/,
+  /,\s*(?:in|by|from)\s/i,
+  /,\s*(?:bishop|archbishop|patriarch|deacon|presbyter|abbot|abbess)\b/i,
+  /,\s*(?:a|the)\s+(?:\S+\s+)?forms?\b/i,
+  /,\s*(?:the\s+)?(?:\S+'s|his|her|their)\s+name\b/i,
+  /,\s*["“]/,
+];
+const carriesNote = s => OTHER_NAME_NOTE.some(r => r.test(s));
+function checkOtherNames(list, at) {
+  if (!Array.isArray(list)) { errs.push(`${at("otherNames")} must be a list`); return; }
+  list.forEach((x, i) => {
+    const p = `otherNames[${i}]`;
+    if (isObj(x)) {
+      Object.keys(x).filter(k => k !== "name" && k !== "note").forEach(k => errs.push(`${at(`${p}.${k}`)} is not allowed (allowed: name, note)`));
+      if (!plain(x.name)) errs.push(`${at(`${p}.name`)} must be a non-empty string`);
+      else if (carriesNote(x.name)) errs.push(`${at(`${p}.name`)} "${x.name}" still carries a note; the name goes in name, the rest in note`);
+      if (!plain(x.note)) errs.push(`${at(`${p}.note`)} must be a non-empty string (a name with no note is a plain string)`);
+      else if (/[()]/.test(x.note)) errs.push(`${at(`${p}.note`)} "${x.note}" has brackets; the card shows the note in brackets, so give it without them`);
+    } else if (!plain(x)) errs.push(`${at(p)} must be a non-empty string or an object with name and note`);
+    else if (carriesNote(x)) errs.push(`${at(p)} "${x}" carries a note; give it as {"name", "note"}`);
+  });
+}
 const plain = x => typeof x === "string" && x.trim() !== "";
 const isObj = x => x !== null && typeof x === "object" && !Array.isArray(x);
 function checkCard(m) {
@@ -274,7 +300,7 @@ function checkCard(m) {
   text(card, "datesNote", "datesNote");
   text(card, "placeNote", "placeNote");
   text(card, "role", "role");
-  if (card.otherNames !== undefined) strings(card.otherNames, "otherNames");
+  if (card.otherNames !== undefined) checkOtherNames(card.otherNames, at);
   if (card.label !== undefined && !CARD_LABELS.has(card.label)) errs.push(`${at("label")} must be one of: ${[...CARD_LABELS].join(", ")}`);
   if (card.keyWorks !== undefined) {
     if (!Array.isArray(card.keyWorks)) errs.push(`${at("keyWorks")} must be a list`);

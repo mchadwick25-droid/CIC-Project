@@ -296,6 +296,61 @@
     "field": "experienceToday.0.text",
     "text": "The Church of Our Lady Mary of Zion at Axum, Ethiopia — on the site of the kingdom's original cathedral, beside the Aksumite stelae field"
    }
+  },
+  {
+   "name": "Hicksite",
+   "kind": "other name",
+   "entry": "nineteenth-century-quakerism-separations",
+   "basis": {
+    "source": "tree",
+    "entry": "nineteenth-century-quakerism-separations",
+    "field": "relationsSummary",
+    "text": "The Hicksite separation of 1827–28 was the defining split of the century for the Society of Friends."
+   }
+  },
+  {
+   "name": "Campbellite",
+   "kind": "other name",
+   "entry": "the-stone-campbell-restoration-movement",
+   "basis": {
+    "source": "tree",
+    "entry": "the-stone-campbell-restoration-movement",
+    "field": "documentedStories.0.teaser",
+    "text": "A frontier preacher called Raccoon John tells them to be no longer Campbellites or Stoneites, and the two old men give each other their hands."
+   }
+  },
+  {
+   "name": "Stoneite",
+   "kind": "other name",
+   "entry": "the-stone-campbell-restoration-movement",
+   "basis": {
+    "source": "tree",
+    "entry": "the-stone-campbell-restoration-movement",
+    "field": "documentedStories.0.teaser",
+    "text": "A frontier preacher called Raccoon John tells them to be no longer Campbellites or Stoneites, and the two old men give each other their hands."
+   }
+  },
+  {
+   "name": "Mormonism",
+   "kind": "other name",
+   "entry": "latter-day-saints-lds",
+   "basis": {
+    "source": "library",
+    "file": "cic/texts/noyes_history-of-american-socialisms_1870.txt",
+    "lines": "6667-6668",
+    "text": "concentrated on Brigham Young as its second medium, and he has organized Mormonism."
+   }
+  },
+  {
+   "name": "Abyssinia",
+   "kind": "older name",
+   "country": "Ethiopia",
+   "basis": {
+    "source": "library",
+    "file": "cic/texts/budge_history-of-ethiopia-nubia-and-abyssinia-v1_1928.txt",
+    "lines": "165-171",
+    "text": "Abyssinians of all classes speak of their country as “Ethiopia,”"
+   }
   }
  ]
 }

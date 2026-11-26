@@ -6040,3 +6040,65 @@ Mark, on the third grade (`Build/Ministry/Operations/Audits/2026-11-25_batch-11/
 ## The audio introduction is a brief, not a story (2026-11-25)
 
 Mark, 2026-11-25: "for the initial audio introduction to anything should be called a brief, not a story (this is a change) we have stories that are stories and i don't want people confused". The opening audio text on any page (person, council, tradition) is called a **brief** everywhere: in conversation, review pages, release notes and prompts. "Story" is kept for the stories themselves (the documented stories, story repositories). The site already labels the player "Audio Brief". The kit and role files still say "story" for the brief in places (Kit.md has about 26 uses of the word, some of them meaning real stories); bringing their wording into line is open, to be done as a separate checked pass.
+## 2026-11-25 — Batch 10 stopped; the new process goes forward (Mark)
+
+**Decided (Mark, 2026-11-25).** "we are finishing up batch 11 before we go to batch 12 ... we will not continue with batch 10 as it is not the same thing and i think we are doing better with this new process."
+1. Batch 10 does not restart. Its held pull request #1796 (`claude/happy-ritchie-u8wn8l`) is not merged.
+2. Its eleven people other than John Chrysostom, already released as a reference, stay live as they are, modern-scholar sentences included, until a person rebuild runs through the current kit.
+3. Batch 11 finishes before batch 12 starts.
+
+## 2026-11-25 — The project order: what goes on now and what is held (Mark)
+
+**Why.** Mark asked for "a project order of priority, what can we do quickly to get off the list, what are the dependensies to move forward". The order went to him on one page, https://claude.ai/artifact/3fufJaZc8baiYWUCsP4Aid (version 2).
+
+**Decided (Mark, 2026-11-25).**
+1. Batch 11: "i will work ith the cft batch 11 thread." Mark works with the batch 11 session directly.
+2. The tradition card: "this timeline should be integrated into the current traditions cards, and maybe delete any other story elements. the card has the top, brief, biography, timeline, and other components on the menue as the new cards have." The timeline goes into the tradition card beside the brief and its bibliography, in the card's menu like the person cards. Which other story elements go is still open.
+3. Recording: "caps are approved should be less that 25000." Each recording run is capped under 25,000 credits. The tradition settings (Open-Gaps 411) still need Mark's words.
+4. Batch 12: "wait on batch 12 until we have 11 fully live and the other things done that we can do."
+5. Search: "launch the search if it is ready, or get it ready for launch."
+6. The source-research thread: "hold the source-search thread until we are done with the current projects."
+7. The tradition rebuild: "hold the tradition rebuild it is part of 4."
+8. The other content lines: "archive what is not going forward but don't loose the information, most of these are now integrated into the tradition work." They are held, with their records kept (Open-Gaps 422), and their finished sessions archived, not deleted.
+
+## 2026-11-25 — The card design: one layout, and a timeline in periods (Mark)
+
+**Why.** A tradition's cut research went into card fields the site does not show (Open-Gaps 422 and batch 11's card checks). Mark: "the information should be valuable on the card, maybe an outline of the story that allows the user to explore deeper, but hidded unless opened". The pages: https://claude.ai/artifact/ReHBooaNkGyCymeyVYfbCK (version 5), https://claude.ai/artifact/B9gHdK1qzAogQLE5G9r2qD (version 2), and the sample timelines https://claude.ai/artifact/GFDDjSe5QND6ThwQWqsriD and https://claude.ai/artifact/LLmc55kyt3TqZvbQoa7nVB (version 1 each), built from batch 11's Roman Church research.
+
+**Decided (Mark, 2026-11-25).**
+1. "a but in timeline, not storytelling", then "it is all the components in a timeline, not a story, it is a map of the progress and events. we dont need to mark its in the story".
+2. "its developed after the story so it doesn't influence the story".
+3. "there should be a simple biblicography for the story and then each line in the timeline has the reference directly after the outline point".
+4. The layout: "the short descriptions (one/two sentence, the direct link chain and player on the screen then the brief text below closed (but can open) then the menu", with the brief open where there is no recording, the direct line one step each way, the short bibliography under the brief's text, and the short description written fresh and checked like the brief. Then "a": one layout for every card, tradition, person and council, each kind keeping its own menu sections.
+5. "using all the outline and traditions information to make a real timeline as it can (if dates are unknown we say that and just put it without a date in the progression where is naturally sits) and all references with the events".
+6. Asked whether 57 lines was too much: "a". The timeline is grouped in periods, each with a date and a one-line headline, closed until opened, with a control to open them all. Where one witness carries a period, it is named once at the period's head; a line keeps its own note only where it differs.
+
+**How it is carried out.** The card step writes the timeline and the short description after the story, from the source sheet, the outline, the census entry and the card; the card checker checks each line and headline against its source. The kit and the card role change after batch 11 finishes. The site build is its own piece of work, after that. Whether the Documented stories section leaves the card once its events are in the timeline is still open.
+
+**Added (Mark, 2026-11-25): "the documented stories are a full story to listen to, not just an event on a timeline".** Documented stories stay on the card as their own section in the menu, each a full story to listen to. Their events may also appear in the timeline as dated lines.
+
+**Added (Mark, 2026-11-25): "can we put the who and stories as one section", then "the who is the primary thing people are looking for, we need that to be first then other stories after".** People and documented stories are one section of the menu: the people first, then the other stories.
+
+## 2026-11-25 — Church in Conversation on hold (Mark)
+
+**Decided (Mark, 2026-11-25).** "church in conversation is on hold." The Church in Conversation app is not promoted from `main` to `live` while it is on hold. The Church Family Tree, which is served from `main`, goes on.
+
+## 2026-11-25 — Recording settings for tradition briefs (Mark)
+
+**Why.** `Brief-Kit/Recording_Settings.md` had settings for a person and a council only, and the council command left its output format and delivery to the script (Open-Gaps 411), against CLAUDE.md's rule that every paid setting is passed on the command.
+
+**Decided (Mark, 2026-11-25): "a".** A tradition brief is recorded as the councils and the tree's earlier traditions are: Daniel (`onwK4e9ZLuTAKqWW03F9`), `eleven_multilingual_v2`, `mp3_44100_64`, `{"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true}`, every one passed on the command. A sample goes to Mark's ear before the run, and each run is capped under 25,000 credits ("The project order", 2026-11-25).
+
+**Done.** `Build/tools/generate_tree_narration.mjs` now requires `--output-format` and `--voice-settings` for every paid run, not only a person run, and sends what the command names. `Build/tools/generate_world_narration.mjs`, which takes its own settings, checks only the voice and model. The council and tradition commands in `Recording_Settings.md` pass both.
+
+## 2026-11-25 — Search launched: other names split, two held names ruled (Mark)
+
+**Why.** Mark: "launch the search if it is ready, or get it ready for launch" ("The project order", 2026-11-25). The readiness check found that search showed a person's other name whole, note included ("Abba Salama of Axum (Hartranft's note to Sozomen; …)"), and that three rows Mark ruled in for release 54 (Hicksite, Campbellite, Stoneite) had been deleted by the undo of what-and-why fix batch 1.
+
+**Decided (Mark, 2026-11-25).**
+1. "a": split each other name that carries a note into the name, which search shows, and its note, which the card shows beside it. Seventy-three strings were split, word for word, into eighty items; six that are epithets or parts of the name were left as they are. A note holds no brackets of its own, since the card shows it in brackets; five such notes were reworded only to drop the inner brackets. The validator rejects a name that still carries a note.
+2. "a if you mean Later Day Saints what ever is most correct and supported by the sources", then "history": "Mormonism" goes to `latter-day-saints-lds` as an other name (Noyes, 1870, lines 6667-6668: "he has organized Mormonism"); "Abyssinia" goes to the country Ethiopia as an older name (Budge, lines 165-171: "Abyssinians of all classes speak of their country as “Ethiopia,”"). Neither label says who gave the name.
+3. The three deleted rows are restored as ruled. Data release 55.
+4. Search is switched on (`SEARCH_ON` in `cft-website/index.html`). Mark saw the screenshots with the real names first. The real-phone and screen-reader check (Open-Gaps 371) stays open.
+
+**Not done.** Twenty-six of the notes name a modern editor or translator as the source of a spelling (for example "Langlois's French"). Search does not show them; the card does. Whether a card note may name a modern work is a question for Mark under the modern-sources rule (Open-Gaps 423).

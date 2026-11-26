@@ -53,13 +53,13 @@
  *   --person-voice-id <id>  Required for a paid person run, and used for every person
  *                      row in it. Never read from the environment. A person run
  *                      takes no --voice-id.
- *   --voice-settings <json>  Required for a paid person run: the delivery sent with
+ *   --voice-settings <json>  Required for every paid run: the delivery sent with
  *                      every request, as JSON with stability, similarity_boost and
  *                      style (numbers from 0 to 1) and use_speaker_boost (true or
  *                      false), and optionally speed (0.7 to 1.2). Never read from
- *                      the environment. Other runs send defaultVoiceSettings.
- *   --output-format <f>  Required for a paid person run: the ElevenLabs output
- *                      format, e.g. mp3_44100_128. Other runs use mp3_44100_64.
+ *                      the environment. A dry run shows defaultVoiceSettings.
+ *   --output-format <f>  Required for every paid run: the ElevenLabs output
+ *                      format, e.g. mp3_44100_64. A dry run shows mp3_44100_64.
  *   --open-tag <tag>   Person runs only: an audio tag such as [calmly], put before
  *                      the text in the request. Never in the census or on a page.
  *   --closing-tag <tag>  Person runs only: an audio tag such as [warmly], put before
@@ -263,17 +263,14 @@ export function requirePaidSettings({ voiceId, model, people = false, personVoic
   if (people && (openTag || closingTag) && !readsAudioTags(model)) {
     throw new Error(`--open-tag and --closing-tag need a model that reads audio tags (${[...AUDIO_TAG_MODELS].join(', ')}); ${model} would speak them.`);
   }
-  if (!people && (outputFormat || openTag || closingTag)) {
-    throw new Error('--output-format, --open-tag and --closing-tag need --people: other runs use the fixed tree format and no tags.');
+  if (!people && (openTag || closingTag)) {
+    throw new Error('--open-tag and --closing-tag need --people: other runs send no tags.');
   }
-  if (people && !outputFormat) {
-    throw new Error('--output-format is required for a person run and is never read from the environment.');
+  if (!outputFormat) {
+    throw new Error('--output-format is required for a paid run and is never read from the environment.');
   }
-  if (people && !voiceSettings) {
-    throw new Error('--voice-settings is required for a person run and is never read from the environment.');
-  }
-  if (!people && voiceSettings) {
-    throw new Error('--voice-settings needs --people: other runs send the converged default delivery.');
+  if (!voiceSettings) {
+    throw new Error('--voice-settings is required for a paid run and is never read from the environment.');
   }
   if (people && voiceId) {
     throw new Error('a person run takes --person-voice-id, not --voice-id.');
@@ -509,10 +506,10 @@ async function run() {
   }
 
   const defaultVoiceId = opts.voiceId;
-  const formatSent = opts.people ? opts.outputFormat : NARRATION_OUTPUT_FORMAT;
+  const formatSent = opts.outputFormat || NARRATION_OUTPUT_FORMAT;
   const tags = opts.people ? { openTag: opts.openTag, closingTag: opts.closingTag, pronunciations: loadPronunciations(), model: opts.model } : {};
   const requestChars = toGenerate.reduce((sum, m) => sum + requestTextFor(narrationTextFor(m), tags).length, 0);
-  const settingsSent = opts.people ? opts.voiceSettings : defaultVoiceSettings;
+  const settingsSent = opts.voiceSettings || defaultVoiceSettings;
   const voiceFor = (id) => (opts.people ? opts.personVoiceId : resolveVoiceId(id, { defaultVoiceId }));
   if (!opts.dryRun) {
     requirePaidSettings(opts);
