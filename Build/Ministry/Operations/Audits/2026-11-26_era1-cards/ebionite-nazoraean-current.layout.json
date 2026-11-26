@@ -4,7 +4,7 @@
  "timeline": [
   {
    "when": "Before and after the fall of Jerusalem, as later writers tell it",
-   "headline": "Later writers tell of a church at Pella, and Epiphanius sets both groups' beginnings there",
+   "headline": "Later writers tell of beginnings at Pella, of a teacher, Ebion, and of John writing against the Ebionites",
    "lines": [
     {
      "when": "before the war, as Eusebius tells it",
@@ -37,7 +37,7 @@
    "lines": [
     {
      "when": "in Justin's own time",
-     "text": "Justin tells Trypho, a Jew, that a man who knows Jesus is the Christ and still keeps the Law of Moses will be saved, if he does not press it on non-Jewish believers.",
+     "text": "Justin tells Trypho, a Jew, that in his opinion a man who knows Jesus is the Christ and still keeps the Law of Moses will be saved, if he does not press it on non-Jewish believers.",
      "reference": "Justin, Dialogue with Trypho 47, cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml lines 19893-19905; Greek, cic/texts/justin-martyr_dialogue-with-trypho-grc_archambault1909.txt lines 2152-2160"
     },
     {
@@ -91,15 +91,15 @@
      "note": "An opponent's report."
     },
     {
-     "when": "in Origen's last years, when he was over sixty",
+     "when": "when Origen was, as some said, over sixty",
      "text": "Origen writes that Jewish believers have not left the law of their fathers, and live by it. They take their name, he says, from the poverty of the law, since Ebion means poor in Hebrew.",
      "reference": "Origen, Against Celsus II.1, cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 39113-39121; his age, Eusebius, Church History VI.36, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 37093-37105",
      "note": "An opponent's account."
     },
     {
-     "when": "in Origen's last years",
+     "when": "when Origen was, as some said, over sixty",
      "text": "Origen writes that those who keep the Jewish Law while accepting Jesus are of two kinds: some confess, as the church does, that Jesus was born of a virgin, and some deny it and say he was born like other men.",
-     "reference": "Origen, Against Celsus V.61, cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 53648-53653"
+     "reference": "Origen, Against Celsus V.61, cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 53648-53653; his age, Eusebius, Church History VI.36, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 37093-37105"
     },
     {
      "when": "date unknown",
@@ -115,7 +115,7 @@
     {
      "when": "date unknown",
      "text": "Eusebius writes that Origen set the Greek version of the Hebrew Scriptures made by Symmachus beside those of Aquila and the Seventy.",
-     "reference": "Eusebius, Church History VI.16, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 34446-34464"
+     "reference": "Eusebius, Church History VI.16, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 34446-34464, 34715-34719"
     },
     {
      "when": "date unknown",
@@ -203,7 +203,7 @@
     {
      "when": "392",
      "text": "Jerome writes of the Gospel according to the Hebrews, which he says he recently put into Greek and Latin. In it, after the resurrection, the Lord appears to James, who had sworn not to eat bread from the hour he drank the Lord's cup until he saw him risen.",
-     "reference": "Jerome, Lives of Illustrious Men 2, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 39327-39340; Latin, cic/texts/jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt lines 48081-48084, 48126-48136"
+     "reference": "Jerome, Lives of Illustrious Men 2, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 39327-39340; Latin, cic/texts/jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt lines 48081-48084, 48126-48136; the year, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 38784-38785, is a conversion from the fourteenth year of Theodosius, counting his reign from 379"
     },
     {
      "when": "404, in a letter to Augustine",

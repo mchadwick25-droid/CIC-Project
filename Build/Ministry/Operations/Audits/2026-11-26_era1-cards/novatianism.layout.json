@@ -8,8 +8,8 @@
    "lines": [
     {
      "when": "about 250, the first year of Decius",
-     "text": "Eusebius's Chronicle, in Jerome's Latin, says that Decius, after killing the two Philips, father and son, began a persecution of the Christians, out of hatred for them.",
-     "reference": "Eusebius, Chronicle, in Jerome's Latin, cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt lines 43895-43899; the year is a conversion from the Chronicle's first year of Decius",
+     "text": "Eusebius's Chronicle, in Jerome's Latin, says that Decius killed the two Philips, father and son, and, out of hatred for them, began a persecution of the Christians.",
+     "reference": "Eusebius, Chronicle, in Jerome's Latin, cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt lines 43895-43899; the year is a conversion from the Chronicle's first year of Decius, counting his reign from 249",
      "note": "Written more than a century later."
     },
     {
@@ -66,7 +66,7 @@
     {
      "when": "in the first year of Gallus and Volusianus, so about 251",
      "text": "The Chronicle says that Novatus, a presbyter of Cyprian, came to Rome and joined Novatian and the other confessors to himself, because Cornelius had taken back apostates who repented.",
-     "reference": "Eusebius, Chronicle, in Jerome's Latin, cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt lines 43960-43973; the year is a conversion from the Chronicle's first year of Gallus",
+     "reference": "Eusebius, Chronicle, in Jerome's Latin, cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt lines 43960-43973; the year is a conversion from the Chronicle's first year of Gallus and Volusianus, counting their reign from 251",
      "note": "Jerome's Chronicle gives two men, Novatus of Carthage and Novatian of Rome."
     }
    ]
@@ -133,7 +133,7 @@
   },
   {
    "when": "4th century",
-   "headline": "An emperor and a council deal with the Cathari, and soldiers come to Mantinium",
+   "headline": "Constantine and Theodosius rule on the Novatians, Nicaea receives their clergy, and soldiers come to Mantinium",
    "lines": [
     {
      "when": "under Constantine, date unknown",
@@ -176,7 +176,7 @@
    "lines": [
     {
      "when": "in Socrates's own day",
-     "text": "Socrates writes that the strict discipline of the Novatian church is kept to his own day in Phrygia and Paphlagonia, where, he says, people are temperate and rarely go to the circus or the theater.",
+     "text": "Socrates writes that the strict discipline of the Novatian church is kept to his own day in Phrygia and Paphlagonia, where, he says, people seem more temperate than others and care little for the circus or the theater.",
      "reference": "Socrates, Church History IV.28, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 14060-14061, 14109-14115"
     },
     {
@@ -221,10 +221,10 @@
  ],
  "uncertain": [
   "Novatus or Novatian. Eusebius and Socrates call the leader at Rome Novatus. Cyprian and Jerome call him Novatian. Jerome's Chronicle gives two men: Novatus, a presbyter of Cyprian, who came to Rome and joined Novatian and the confessors to himself.",
-  "How he was made bishop. Only Cornelius, his rival, tells it: three country bishops brought to Rome and forced, at the tenth hour, to lay hands on him. Novatian's own account of it is not held.",
+  "How he was made bishop. Only Cornelius, his rival, tells of three country bishops brought to Rome and forced, at the tenth hour, to lay hands on him. Cyprian says he was made bishop by bribery, by the hands of deserters. Socrates says bishops who shared his views raised him to the office. Novatian's own account of it is not held.",
   "What he taught about the fallen. Eusebius, an opponent, says he held that they had no hope of salvation. Socrates says he wrote that they should be urged to repent, with their pardon left to God. Acesius, as Socrates tells it, said the same of every deadly sin after baptism.",
   "The name. Eusebius and the council of Nicaea say they called themselves Cathari, the pure. Eusebius says they did so in the pride of their imagination.",
-  "Their own words. Of Novatian's party, only his On the Trinity and the confessors' short letter are held in their own words. The confessors' letter was written after they had left him.",
+  "Their own words. Of Novatian's party, only his On the Trinity and the confessors' short letter are held whole in their own words. Socrates quotes a few lines of Novatian's letter to the churches. The confessors' letter was written after they had left him.",
   "Novatian's death. Socrates says he suffered martyrdom under Valerian. No other held witness tells of his death.",
   "Their faith. Acesius, in Socrates, said the council of Nicaea set down nothing new on the faith. Socrates says Theodosius approved the creed of Agelius, the Novatian bishop, with that of Nectarius."
  ]

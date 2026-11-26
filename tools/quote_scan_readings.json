@@ -1065,6 +1065,39 @@
    "scan": "X5 tur;",
    "reads": "tur;",
    "kind": "OCR misread margin line number run into the line"
+  },
+  {
+   "file": "cic/texts/augustine_epistulae-1-123-lat_goldbacher-csel34.txt",
+   "lines": "23238-23271",
+   "scan": "3-7 = p. 366, 11—15",
+   "drop": true,
+   "kind": "editor's apparatus, page number and running head",
+   "lines_held": [
+    "3-7 = p. 366, 11—15",
+    "1 quare, m. 2 quia P3 petros, m. 2 petrus P2 3 ergo om., m. 2 (?)",
+    "add. S 4 ficiant P1 credentes om. B Iudaei credentes edd.",
+    "si om. QE 5 legi P[M 6 paulus optulit B obtulerit QE si",
+    "om. A filio H obseruent B; cf. p. 366, 14 7 timotheum, m. 2",
+    "timotheo B obseruare HPlB (m. 2 obseruauere) MP3 (corr. m. 1 ob-",
+    "seruauere) |seruauere E si hoc uerum est] quod si concesserimus in",
+    "ras. m. 2 K[ 8 cerinthii Kl hebeonis, m. 2 hebionis E[ here-",
+    "sim HKIOBOVSQBACP^E edd. dilabimur KIOOVSQBCE dila-",
+    "bimur heresim S 9 christum P2KlB m a parentibus, m. 2 a patribus",
+    "P3 a patribus P2B edd. praeter a anathematiza, m. 2 anathematizati 0",
+    "10 christo P[M 11 miscuerint P[M noba H ueteram (m exp.) B",
+    "amittejrent (pr. e in ras. 2 — 3 l.) M ammitterent KB ( altera m",
+    "exp.) -admitterent V omitterent P2 m 12 quis, m. 2 quid B hebe-",
+    "onistis V hebionistis C se esse M esse (om. se) P1 13 tota, m. 2",
+    "totas B orientes, m. 2 orientis P2B orientes P1 14 qui Kl (m. 2",
+    "quae) VQC q (m. 2 add. e) E dicitur] di P1 mina eorum BM",
+    "(m. 2 minaeorum) P3 (corr. minaeorum) a om. IO (add. m. 1 ) A huc",
+    "usque] nunc usque HP2KKl OVSQBCE edd. 15 quod C nazareos,",
+    "m. 2 nazarenos Kl nazarenos P2 nazaraeos (o ex corr. m. 1, fuit u) K",
+    "nazoreus B nunpant, corr. m. 1 nuncupant M occupant H uocant B",
+    "in om. H",
+    "304",
+    "S. Aureli Augustini"
+   ]
   }
  ]
 }
