@@ -1,0 +1,384 @@
+{
+ "shortDescription": "In Phrygia, in the uplands of what is now western Turkey, Christians followed three prophets, Montanus, Priscilla and Maximilla, whose words they called the New Prophecy. They held that the Holy Spirit Jesus had promised was speaking through these prophets, calling the church to a stricter life.",
+ "timeline": [
+  {
+   "when": "2nd century",
+   "headline": "Montanus, then Priscilla and Maximilla, begin to prophesy in Phrygia",
+   "witness": "The church elder whose account Eusebius copied, an opponent writing while the movement was new",
+   "lines": [
+    {
+     "when": "\"when Gratus was proconsul of Asia\"",
+     "text": "At Ardabau, a village of Mysia on the border of Phrygia, Montanus, a recent convert, falls into a frenzy and ecstasy and begins to prophesy. The elder blames his longing to lead, and says he prophesied against the church's custom handed down from the beginning.",
+     "reference": "Eusebius, Church History V.16.7, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 29577-29629"
+    },
+    {
+     "when": "date unknown",
+     "text": "Some who hear him call him possessed and forbid him to speak. Others, who think themselves filled with the Holy Spirit, urge him on, and he can no longer be kept silent.",
+     "reference": "Eusebius, Church History V.16.8, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 29673-29686"
+    },
+    {
+     "when": "date unknown",
+     "text": "Two women, Priscilla and Maximilla, begin to prophesy in the same way.",
+     "reference": "Eusebius, Church History V.16.9 and V.14, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 29692-29714, 29266-29269"
+    },
+    {
+     "when": "date unknown",
+     "text": "Their followers, Eusebius says, boast that Montanus is the Paraclete, the Helper Jesus promised, and that the women are his prophetesses.",
+     "reference": "Eusebius, Church History V.14, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 29266-29269",
+     "note": "Eusebius's own words, not the elder's."
+    },
+    {
+     "when": "\"about the nineteenth year of Antoninus Pius\"",
+     "text": "Epiphanius dates the rise of the movement to this year.",
+     "reference": "Epiphanius, Panarion 48.1, cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt lines 17018-17019",
+     "note": "Epiphanius wrote about two centuries later; the elder gives no year."
+    }
+   ]
+  },
+  {
+   "when": "2nd century",
+   "headline": "The churches of Asia examine the prophecy and shut its followers out",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "The elder, at Ancyra in Galatia, finds the church there stirred up by the new prophecy, and disputes with its followers in the church for many days.",
+     "reference": "Eusebius, Church History V.16.4, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 29519-29541"
+    },
+    {
+     "when": "date unknown",
+     "text": "The faithful of Asia meet often, in many places. They examine the new sayings, judge them profane, and drive the followers out of the church, barred from communion.",
+     "reference": "Eusebius, Church History V.16.10, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 29716-29738"
+    },
+    {
+     "when": "date unknown",
+     "text": "The prophets' followers call their opponents slayers of the prophets, for refusing the prophets the Lord had promised to send.",
+     "reference": "Eusebius, Church History V.16.12, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 29745-29754"
+    },
+    {
+     "when": "date unknown",
+     "text": "The bishops Zoticus of Comana and Julian of Apamea come to refute the spirit in Maximilla, and the followers of Themiso stop them. Maximilla says she is driven away from the sheep like a wolf, and is word and spirit and power.",
+     "reference": "Eusebius, Church History V.16.16-17, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 29823-29878"
+    },
+    {
+     "when": "date unknown",
+     "text": "Apollonius says Zoticus tried to refute the spirit in Maximilla at Pepuza, and was prevented by those who agreed with her.",
+     "reference": "Eusebius, Church History V.18.13, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 30461-30464",
+     "note": "Apollonius, a second opponent, writing forty years after Montanus began."
+    },
+    {
+     "when": "date unknown",
+     "text": "A bishop of Debeltum in Thrace swears that Sotas of Anchialus wanted to cast the demon out of Priscilla, and was not allowed.",
+     "reference": "Eusebius, Church History V.19.3, Serapion's letter, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 30595-30601",
+     "note": "From a bishop's signature on a letter of Serapion of Antioch."
+    },
+    {
+     "when": "\"in our own time\"",
+     "text": "At Apamea on the Maeander, martyrs from the church refuse to die in fellowship with the martyrs of the New Prophecy, who claim many martyrs of their own.",
+     "reference": "Eusebius, Church History V.16.20-22, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 29911-29967"
+    },
+    {
+     "when": "while the martyrs of Gaul were in prison",
+     "text": "As quarrels over the followers of Montanus spread, the Christians of Gaul send their judgment, with letters of their martyrs, to the churches of Asia and Phrygia and to Eleutherus, bishop of Rome.",
+     "reference": "Eusebius, Church History V.3.4, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 27655-27690",
+     "note": "Eusebius sets the persecution in Gaul in the seventeenth year of the emperor Antoninus Verus (Church History V.1, lines 26706-26707). He does not give the judgment."
+    },
+    {
+     "when": "date unknown",
+     "text": "A bishop of Rome, whom Tertullian does not name, acknowledges the prophetic gifts of Montanus, Prisca and Maximilla and sends a letter of peace to the churches of Asia and Phrygia. A man newly come from Asia presses false charges against them, and the bishop recalls the letter.",
+     "reference": "Tertullian, Against Praxeas 1, cic/texts/anf03_tertullian.xml lines 51044-51054",
+     "note": "Only Tertullian tells it."
+    }
+   ]
+  },
+  {
+   "when": "2nd century",
+   "headline": "Maximilla dies, and the end she foretold does not come",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Maximilla says that after her there will be no prophet any more, but the end.",
+     "reference": "Epiphanius, Panarion 48.2.4, cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt lines 17218-17219",
+     "note": "Kept by Epiphanius, writing about two centuries later. Oehler's print reads no prophetess."
+    },
+    {
+     "when": "date unknown",
+     "text": "The elder reports that Montanus and Maximilla hanged themselves, and says he does not know whether it is true.",
+     "reference": "Eusebius, Church History V.16.13-15, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 29775-29821",
+     "note": "A rumor the writer will not vouch for."
+    },
+    {
+     "when": "\"more than thirteen years since the woman died\"",
+     "text": "The elder writes that in all that time there has been no war, partial or general, though Maximilla had foretold wars and anarchy, but continued peace even for the Christians.",
+     "reference": "Eusebius, Church History V.16.18-19, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 29880-29890"
+    },
+    {
+     "when": "\"the fortieth year since Montanus had begun\"",
+     "text": "Apollonius writes against them. He says Montanus taught that marriages be dissolved, made laws for fasting, named Pepuza and Tymion, small towns in Phrygia, Jerusalem, to gather people there from everywhere, appointed collectors of money and paid his preachers.",
+     "reference": "Eusebius, Church History V.18.2 and V.18.12, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 30225-30289, 30456-30458",
+     "note": "An opponent's charges. Jerome puts Apollonius in the reigns of Commodus and Severus (Lives of Illustrious Men 40, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40318-40319)."
+    },
+    {
+     "when": "date unknown",
+     "text": "Serapion, bishop of Antioch, sends the writings of Claudius Apolinarius, bishop of Hierapolis, against the lying band of the new prophecy, so called.",
+     "reference": "Eusebius, Church History V.19.1-2, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 30520-30562"
+    }
+   ]
+  },
+  {
+   "when": "Around 200, under the emperors Severus and Caracalla",
+   "headline": "Tertullian takes up their cause in Latin at Carthage",
+   "witness": "Tertullian of Carthage, who took the New Prophecy's side",
+   "lines": [
+    {
+     "when": "in the reigns of Severus and Antoninus Caracalla",
+     "text": "Jerome says Tertullian, a presbyter of Carthage, flourished in these reigns, and that in middle life he turned to the teaching of Montanus, driven, Jerome says, by the envy and abuse of the clergy of the Roman church.",
+     "reference": "Jerome, Lives of Illustrious Men 53, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40492-40530",
+     "note": "Jerome wrote in the late fourth century."
+    },
+    {
+     "when": "date unknown",
+     "text": "In On Fasting, Tertullian says the New Prophecy is rejected for teaching more fasting than marrying, not for preaching another God. The main church, he says, charges them with fasts of their own, Stations kept on into the evening, and dry food with no meat, juice or wine.",
+     "reference": "Tertullian, On Fasting 1, cic/texts/tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt lines 15493-15520; cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 9763-9787"
+    },
+    {
+     "when": "date unknown",
+     "text": "In On the Veiling of Virgins, he sets out the rule of faith, a short creed that does not change, and says the Paraclete leads discipline on, little by little, toward maturity.",
+     "reference": "Tertullian, On the Veiling of Virgins 1, cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 2701-2741"
+    },
+    {
+     "when": "date unknown",
+     "text": "In Against Marcion, he defends ecstasy, a person carried out of their own senses while God speaks through them, as belonging to true prophecy.",
+     "reference": "Tertullian, Against Marcion IV.22, cic/texts/anf03_tertullian.xml lines 32338-32351"
+    },
+    {
+     "when": "date unknown",
+     "text": "He says that, as their prophecy foretold, a city hung in the sky over Judaea early every morning for forty days, a sign of the heavenly Jerusalem.",
+     "reference": "Tertullian, Against Marcion III.24, cic/texts/anf03_tertullian.xml lines 28749-28762",
+     "note": "A wonder, in Tertullian's own voice."
+    },
+    {
+     "when": "date unknown",
+     "text": "In On the Soul, he tells of a sister in his church who sees visions during the Sunday service, reports them after the people have gone, and has every one examined.",
+     "reference": "Tertullian, On the Soul 9, cic/texts/anf03_tertullian.xml lines 15802-15820"
+    },
+    {
+     "when": "date unknown",
+     "text": "He gives an oracle of the prophetess Prisca: purity brings visions and voices.",
+     "reference": "Tertullian, Exhortation to Chastity 10, cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 5504-5511"
+    },
+    {
+     "when": "date unknown",
+     "text": "In On Monogamy and On Modesty, he holds to one marriage only, no second marriage even after a husband or wife has died, and says they put out of communion those who marry twice.",
+     "reference": "Tertullian, On Monogamy 13 and On Modesty 1, cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 6790-6801, 7265-7269"
+    },
+    {
+     "when": "date unknown",
+     "text": "In On Flight in Persecution, he urges Christians to face death rather than flee, and gives an oracle of the Spirit: die as martyrs, not on beds or in fevers.",
+     "reference": "Tertullian, On Flight in Persecution 1 and 9, cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 10994-11001, 11451-11466"
+    },
+    {
+     "when": "date unknown",
+     "text": "He writes six books On Ecstasy, and a seventh against Apollonius.",
+     "reference": "Jerome, Lives of Illustrious Men 40 and 53, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40315-40318, 40492-40530",
+     "note": "Known only from Jerome; the books are lost."
+    }
+   ]
+  },
+  {
+   "when": "3rd century",
+   "headline": "At Rome and in Asia Minor, opponents weigh their teaching and baptism",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Hippolytus, writing at Rome, says they confess God the Father and Creator as the church does, and receive what the Gospel says of Christ, but add new fasts, feasts and meals of dry food, learned from their women, and that some of them make the Father the Son. He says they have countless books.",
+     "reference": "Hippolytus, Refutation of All Heresies VIII.12, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 13115-13138",
+     "note": "An opponent's account."
+    },
+    {
+     "when": "\"some time back\", before Firmilian's letter to Cyprian",
+     "text": "Bishops from Galatia, Cilicia and nearby lands, meeting at Iconium in Phrygia, refuse the baptism of those called Cataphrygians.",
+     "reference": "Firmilian, Letter to Cyprian, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 39619-39640"
+    }
+   ]
+  },
+  {
+   "when": "4th century",
+   "headline": "Imperial law takes their meeting houses, and Pepuza stays their holy place",
+   "lines": [
+    {
+     "when": "under Constantine",
+     "text": "Constantine's law, addressed to the Cataphrygians among others, takes away their meeting houses and forbids them to meet, even in private.",
+     "reference": "Eusebius, Life of Constantine III.64-65, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 66068-66131"
+    },
+    {
+     "when": "date unknown",
+     "text": "Cyril of Jerusalem charges that Montanus named Pepuza Jerusalem and killed small children for their mysteries. He adds that the same charge was laid on all Christians in time of persecution.",
+     "reference": "Cyril of Jerusalem, Catechetical Lecture 16.8, cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml lines 17999-18008",
+     "note": "An enemy's charge. Jerome, of the Montanists of his day, prefers not to believe it (Letter 41, cic/texts/npnf206_jerome-principal-works.xml lines 8355-8358)."
+    },
+    {
+     "when": "date unknown",
+     "text": "Basil refuses the baptism of the Pepuzeni, who, he says, give Montanus and Priscilla the title of the Paraclete.",
+     "reference": "Basil, Letter 188, cic/texts/npnf208_basil-letters-select-works.xml lines 34871-34881"
+    },
+    {
+     "when": "\"the twelfth year of Valentinian and Valens and the eighth of Gratian\"",
+     "text": "Epiphanius writes that Pepuza lies deserted and razed, yet the believers still go there for their rites, saying the Jerusalem from above comes down there. He finds them in Cappadocia, Galatia, Phrygia, Cilicia, and most of all in Constantinople.",
+     "reference": "Epiphanius, Panarion 48.2 and 48.14, cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt lines 17224-17228, 18466, 18512-18517; cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt lines 3032-3037"
+    },
+    {
+     "when": "date unknown",
+     "text": "Epiphanius gives the vision of a prophetess at Pepuza: Christ came to her in the form of a woman, in a shining robe, and showed her that Jerusalem comes down there from heaven.",
+     "reference": "Epiphanius, Panarion 49.1, cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt lines 18755-18764; cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt lines 3273-3287",
+     "note": "He says it was Quintilla or Priscilla, and cannot say which."
+    },
+    {
+     "when": "date unknown",
+     "text": "Among the Quintillians, also called Pepuzians, a branch of his own day, Epiphanius says women are bishops and presbyters, and seven virgins in white come into their church with lamps to prophesy. He says they are called Artotyrites for setting bread and cheese in their mysteries.",
+     "reference": "Epiphanius, Panarion 49.1-2, cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt lines 18703-18705, 18826-18837"
+    },
+    {
+     "when": "date unknown",
+     "text": "Jerome writes that the Montanists of his day put the patriarchs of Pepuza first, then stewards, and bishops third, keep three Lents a year, count a second marriage as adultery, and force the Trinity into one person.",
+     "reference": "Jerome, Letter 41, cic/texts/npnf206_jerome-principal-works.xml lines 8318-8345",
+     "note": "An opponent's account."
+    }
+   ]
+  },
+  {
+   "when": "5th century",
+   "headline": "In Phrygia they are still many",
+   "witness": "Sozomen, a church historian writing of his own day",
+   "lines": [
+    {
+     "when": "\"to the present day\"",
+     "text": "Everywhere but Phrygia and the lands around it, they suffer what other heretics suffer. There they have been many since the time of Montanus, and still are.",
+     "reference": "Sozomen, Church History II.32, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 30574-30577"
+    },
+    {
+     "when": "\"to the present day\"",
+     "text": "They keep Easter by the cycles of the sun.",
+     "reference": "Sozomen, Church History VII.18, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 41731-41736"
+    },
+    {
+     "when": "\"to the present day\"",
+     "text": "Among the Montanists of Phrygia, a bishop serves even a village.",
+     "reference": "Sozomen, Church History VII.19, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 41786-41790"
+    }
+   ]
+  },
+  {
+   "when": "6th century, under Justinian",
+   "headline": "Justinian orders them to give up their faith, and in Phrygia they burn themselves in their churches",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Justinian orders the Montanists and others his church calls heretics to give up their beliefs for the established faith. Those who hold out may not leave their property to their wives and children.",
+     "reference": "Procopius, Secret History XI, cic/texts/procopius_secret-history_athenian-society1896.txt lines 2164-2173",
+     "note": "Procopius, hostile to Justinian, says the emperor wanted blood and riches."
+    },
+    {
+     "when": "date unknown",
+     "text": "A law of Justinian keeps Jews, Samaritans and those his church calls heretics, Montanists among them, bound to serve on town councils, without the councils' privileges.",
+     "reference": "Justinian, Novel 45, preface, cic/texts/justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt lines 59020-59039"
+    },
+    {
+     "when": "date unknown",
+     "text": "In Phrygia the Montanists shut themselves inside their churches, set them alight and die in the flames.",
+     "reference": "Procopius, Secret History XI, cic/texts/procopius_secret-history_athenian-society1896.txt lines 2195-2198"
+    },
+    {
+     "when": "date unknown",
+     "text": "John of Asia burns their house at Pepuza on the emperor's order. A marble chest marked as holding Montanus and his women is found there, and the bones are burned. Michael says the Montanists had a bishop and clergy at Pepuza, called it Jerusalem, and killed Christians there.",
+     "reference": "Michael the Syrian, Chronicle, French translation, cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt lines 20584-20653",
+     "note": "Michael wrote some six hundred years later."
+    }
+   ]
+  }
+ ],
+ "briefSources": [
+  {
+   "title": "Church History, Book V, with the elder's account of the New Prophecy and Apollonius's",
+   "author": "Eusebius of Caesarea",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+  },
+  {
+   "title": "On Fasting, in Latin",
+   "author": "Tertullian",
+   "file": "cic/texts/tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt"
+  },
+  {
+   "title": "On Fasting, On the Veiling of Virgins, On Monogamy, On Modesty and On Flight in Persecution, in English",
+   "author": "Tertullian",
+   "file": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml"
+  },
+  {
+   "title": "Against Marcion, in English",
+   "author": "Tertullian",
+   "file": "cic/texts/anf03_tertullian.xml"
+  },
+  {
+   "title": "Panarion 48-49, in Greek",
+   "author": "Epiphanius of Salamis",
+   "file": "cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt"
+  },
+  {
+   "title": "Panarion 48-49, in Greek with a Latin translation",
+   "author": "Epiphanius of Salamis",
+   "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt"
+  },
+  {
+   "title": "Secret History, in English",
+   "author": "Procopius of Caesarea",
+   "file": "cic/texts/procopius_secret-history_athenian-society1896.txt"
+  }
+ ],
+ "uncertain": [
+  "When it began. The elder Eusebius copied says it began when Gratus was proconsul of Asia, and gives no year. Epiphanius says about the nineteenth year of Antoninus Pius. Apollonius wrote in the fortieth year after Montanus began. Eusebius sets a letter from the churches of Gaul about the followers of Montanus in the time of the martyrs of Lyons, but gives none of its judgment.",
+  "What they believed about God. Tertullian says the quarrel was not over God or Christ. Hippolytus, writing at Rome, allows that they confess God the Father and Creator as the church does, and receive what the Gospel says of Christ, but says some of them followed Noetus in making the Father the Son. Jerome, of the Montanists of his own day, says they force the Trinity into one person. Epiphanius says they think as the catholic church does of Father, Son and Holy Spirit, then quotes oracles of Montanus in which God speaks in the first person, among them the oracle of the lyre, and reads them as claims to be God.",
+  "Who the Paraclete spoke through. Eusebius says they boasted that Montanus was the Paraclete, and Basil that they gave the title to Montanus and Priscilla. Tertullian says the Paraclete spoke through the prophetess Prisca. The later Against All Heresies printed with Tertullian's works says the Paraclete spoke in Montanus.",
+  "Apollonius's charges. He says Montanus taught that marriages be dissolved, made laws for fasting, appointed collectors of money, took gifts as offerings and paid his preachers; that the prophetesses left their husbands; and that a prophetess took gold, silver and costly clothes. He says Themiso bought his way out of prison, and wrote a letter to the churches as if he were an apostle, and that Alexander, honored by them as a martyr, had been condemned as a robber. These are an opponent's charges.",
+  "Other bishops who tried. A letter of Serapion of Antioch carries the signature of a bishop of Debeltum in Thrace, who swears that Sotas of Anchialus wanted to cast the demon out of Priscilla and was not allowed.",
+  "Martyrs. The elder says they claimed many martyrs, and that at Apamea on the Maeander martyrs from the church would not die in fellowship with theirs.",
+  "Rome. Only Tertullian tells it: a bishop of Rome, whom he does not name, acknowledged the prophetic gifts of Montanus, Prisca and Maximilla and sent his letter of peace to the churches of Asia and Phrygia, a letter recognizing them as in fellowship with his own. A man newly come from Asia then pressed false charges and the authority of the bishop's predecessors, and the bishop recalled it.",
+  "Oracles Tertullian keeps. Through Prisca, he says, the Spirit taught that purity brings visions and voices. An oracle of the Spirit urged believers to die as martyrs, not on beds or in fevers. He also says that, as their prophecy foretold, a city hung in the sky over Judaea every morning for forty days, a sign of the heavenly Jerusalem: a wonder in his own voice.",
+  "Maximilla's oracle of the end. Epiphanius gives it, writing about two centuries later. Holl's print of his Greek reads no prophet after her; Oehler's print reads no prophetess.",
+  "Which prophetess saw Christ at Pepuza. Epiphanius says it was Quintilla or Priscilla, and he cannot say which.",
+  "Women among them. Epiphanius says that in a branch of his own day, the Quintillians, also called Pepuzians, women were bishops and presbyters, and seven virgins dressed in white came into their church with lamps to prophesy. He says their women were called prophetesses, though he is not sure whether this was among them or among the Phrygians. He says they were called Artotyrites for setting bread and cheese in their mysteries.",
+  "A charge of child murder. Cyril of Jerusalem says Montanus killed small children for their mysteries. Jerome prefers not to believe it, and Cyril himself says the same charge was laid on all Christians in time of persecution.",
+  "After the councils of Asia. Constantine's law took away their meeting houses and forbade them to meet, even in private. Bishops gathered at Iconium, Firmilian says, refused their baptism, and Basil later did the same. Jerome says they set the patriarchs of Pepuza first, then stewards, and bishops third, kept three Lents a year, and held a second marriage to be adultery. Sozomen says that in Phrygia and the lands near it they had been many since Montanus and still were in his day, and that they kept Easter by the sun.",
+  "Their own books. Hippolytus says they had countless books. Jerome says Tertullian wrote seven books On Ecstasy, the last against Apollonius. None of these is held.",
+  "The end in Phrygia. Procopius, hostile to Justinian, says Justinian also threatened those who held out with being unable to leave their property to their wives and children, and Justinian's law names the Montanists. Michael the Syrian, writing some six hundred years later, says John of Asia burned their house at Pepuza on the emperor's order, with bones found there in a marble chest marked as those of Montanus and his women."
+ ],
+ "quotationOriginals": [
+  {
+   "modern": "I am driven away from the sheep like a wolf. I am not a wolf. I am word and spirit and power.",
+   "printed": "I am driven away from the sheep like a wolf. I am not a wolf. I am word and spirit and power.",
+   "work": "The elder against the Montanists, in Eusebius, Church History V.16.17, tr. McGiffert",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "29849-29852",
+   "uncertain": "The Greek of this book of Eusebius is not held. A second English, in Ante-Nicene Fathers 7 at line 11336, gives the same oracle in other words.",
+   "secondReading": "same"
+  },
+  {
+   "modern": "The new prophecies are rejected, not because Montanus and Priscilla and Maximilla preach another God. Nor is it because they divide Jesus Christ, or overturn any rule of faith or hope. It is because they plainly teach fasting more often than marrying.",
+   "printed": "nouae prophetiae recusantur; non quod alium deum praedicent Montanus et Priscilla et Maximilla, nec quod Iesum Christum soluant, nec quod aliquam fidei aut spei regulam euertant, sed quod plane doceant saepius ieiunare quam nubere",
+   "work": "Tertullian, On Fasting 1, ed. Reifferscheid and Wissowa",
+   "file": "cic/texts/tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt",
+   "lines": "15495-15499",
+   "englishPrinted": "the New Prophecies are rejected:  not that Montanus and Priscilla and Maximilla preach another God, nor that they disjoin Jesus Christ (from God), nor that they overturn any particular rule of faith or hope, but that they plainly teach more frequent fasting than marrying",
+   "englishFile": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml",
+   "englishLines": "9773-9777",
+   "secondReading": "minor"
+  },
+  {
+   "modern": "Christ came to me in the form of a woman, clothed in a shining robe. He put wisdom into me. He showed me that this place is holy, and that Jerusalem comes down here from heaven.",
+   "printed": "ἐν ἰδέᾳ, φησί, γυναικός, ἐσχηματισμένος ἐν στολῇ λαμπρᾷ ἦλθε πρός με Χριστὸς χαὶ ἐνέβαλεν ἐν ἐμοὶ τὴν σοφίαν χαὶ ἀπεχάλυψέ μοι τουτονὶ τὸν τόπον εἶναι ἅγιον χαὶ ὧδε τὴν Ἱερουσαλὴμ ἐκ τοῦ οὐρανοῦ χατιένγαις",
+   "work": "Epiphanius, Panarion 49.1, ed. Holl",
+   "file": "cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt",
+   "lines": "18758-18764",
+   "uncertain": "Spelled as the scan of Holl's print reads: χαὶ, ἀπεχάλυψέ and χατιένγαις stand for καὶ, ἀπεκάλυψέ and κατιέναι, the last broken across two lines. Oehler's print, lines 3281-3287, gives the same words, with τύπον for τόπον, and its Latin, hunc locum sanctum esse, confirms the place.",
+   "secondReading": "minor"
+  }
+ ]
+}
