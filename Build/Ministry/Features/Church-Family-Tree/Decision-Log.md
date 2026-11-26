@@ -6083,3 +6083,9 @@ This batch only.
 4. Search is switched on (`SEARCH_ON` in `cft-website/index.html`). Mark saw the screenshots with the real names first. The real-phone and screen-reader check (Open-Gaps 371) stays open.
 
 **Not done.** Twenty-six of the notes name a modern editor or translator as the source of a spelling (for example "Langlois's French"). Search does not show them; the card does. Whether a card note may name a modern work is a question for Mark under the modern-sources rule (Open-Gaps 423).
+
+## 2026-11-26 — A date shown follows the date rule; the map's years only place (Mark)
+
+**Why.** Open-Gaps 414: `epiphanius-of-salamis` showed "c. 310-403", and its `start`, `end` and `activeYear` rest only on modern editors' years, against the rule that no modern date appears on the tree. The map needs a number to place every entry.
+
+**Decided (Mark, 2026-11-26): "A".** An entry's `start`, `end` and `activeYear` place it on the map and are never shown as its dates. What a visitor sees, the entry's `dates` and the card's `datesNote`, follows Part 1's date rule: what the old sources fix, or a date so settled it is Widely Accepted, and otherwise only as roughly as the old sources allow. The card step applies this to each person, council and tradition as it is rebuilt. For Epiphanius now: "4th c.; wrote the Panarion c. 375", from his own dating of the Panarion.
