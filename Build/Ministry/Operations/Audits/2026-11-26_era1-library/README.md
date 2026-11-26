@@ -78,7 +78,7 @@ The rest of the list was checked against what is held:
   Life is in Hartel's third part. Both are already shelved to Latin Pastoral. No part of Hartel is missing for
   these letters.
 - Panarion 48 in Greek: Holl 1922, now shelved (section 1).
-- The anonymous writer against the Montanists (Eusebius, History V.16): the held text's own clue is in V.16.19, that
+- The anonymous writer against the Montanists (Eusebius, History V.16): the held text's own clue is in V.16.19 (npnf201 29886-29889), that
   more than thirteen years had passed since Maximilla's death without war. "About 192" is the editor's reckoning
   from it. No held source names Gratus's proconsulship.
 - The Africa river origin and Alexandria's bounds: nothing new held beyond Eusebius II.16, II.24 and V.10.
