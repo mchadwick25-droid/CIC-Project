@@ -9,7 +9,7 @@ assignments:
     role: tradition
     confidence: assigned
     note: The Latin original of On the Creation of the World, held in English in anf07; primary, ready to
-      quote once each quote is verified. Assigned by the Open-Gaps 417 source research (2026-11-26).
+      quote once each quote is verified.
   - row_id: victorinus_opera-lat_haussleiter-csel49-1916--commentarius-in-apocalypsin-lat
     work: 'Victorinus of Pettau, Commentary on the Apocalypse: Victorinus''s own text and Jerome''s revision,
       Latin (Haussleiter, CSEL 49)'
@@ -21,4 +21,3 @@ assignments:
     confidence: assigned
     note: Haussleiter prints Victorinus's text and Jerome's revision on facing pages, so the millenarian
       ending Jerome cut can be read in the original. Primary, ready to quote once each quote is verified.
-      Assigned by the Open-Gaps 417 source research (2026-11-26).

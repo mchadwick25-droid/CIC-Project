@@ -10,8 +10,7 @@ assignments:
   confidence: assigned
   note: 'The Greek of Hippolytus''s account of Noetus''s school at Rome, hostile and partisan (his rivalry
     with Callistus); the English is in anf05. Greek OCR fair: check each quote against the page image.
-    Context: it describes the movement from outside, so a built world draws on it only as register: etic.
-    Assigned by the Open-Gaps 417 source research (2026-11-26).'
+    Context: it describes the movement from outside, so a built world draws on it only as register: etic.'
 - row_id: hippolytus_refutatio-omnium-haeresium-grc_wendland-gcs26-1916--refutatio-bardesanes-grc
   work: Refutation of All Heresies VI.35 and VII.31 (Bardesanes), Greek (Wendland 1916)
   author: hippolytus
@@ -21,5 +20,4 @@ assignments:
   role: context
   confidence: assigned
   note: 'The Greek of Hippolytus''s two notices of Bardesanes. Context: it describes the movement from
-    outside, so a built world draws on it only as register: etic. Assigned by the Open-Gaps 417 source
-    research (2026-11-26).'
+    outside, so a built world draws on it only as register: etic.'

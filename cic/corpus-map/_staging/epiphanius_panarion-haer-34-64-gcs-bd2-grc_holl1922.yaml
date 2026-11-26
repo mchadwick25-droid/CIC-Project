@@ -45,8 +45,7 @@ assignments:
     role: context
     confidence: assigned
     note: 'Epiphanius on Bardaisan''s life at Edessa, his learning and his fall. Context: it describes the
-      movement from outside, so a built world draws on it only as register: etic. Assigned by the Open-Gaps
-      417 source research (2026-11-26).'
+      movement from outside, so a built world draws on it only as register: etic.'
   - row_id: epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922--haer-57-62-noetians-sabellians
     work: Panarion 57 (Noetians) and 62 (Sabellians)
     author: epiphanius
@@ -57,4 +56,4 @@ assignments:
     confidence: assigned
     note: 'Epiphanius on Noetus of Smyrna, drawing on Hippolytus, and on the Sabellians still found in Mesopotamia
       and around Rome in his day. Context: it describes the movement from outside, so a built world draws
-      on it only as register: etic. Assigned by the Open-Gaps 417 source research (2026-11-26).'
+      on it only as register: etic.'

@@ -837,8 +837,7 @@ assignments:
   confidence: assigned
   note: 'Hippolytus''s account of Noetus''s school at Rome under Zephyrinus and Callistus, and of Sabellius.
     Hostile and partisan (his rivalry with Callistus). Context: it describes the movement from outside,
-    so a built world draws on it only as register: etic. Assigned by the Open-Gaps 417 source research
-    (2026-11-26).'
+    so a built world draws on it only as register: etic.'
 - row_id: anf05_hippolytus-cyprian-caius-novatian--refutation-bardesanes
   work: The Refutation of All Heresies, on Bardesanes (VI.35, VII.31)
   author: hippolytus
@@ -848,8 +847,7 @@ assignments:
   role: context
   confidence: assigned
   note: 'Hippolytus names ''Bardesanes the Armenian'' with the Valentinians of the Italian school. Context:
-    it describes the movement from outside, so a built world draws on it only as register: etic. Assigned
-    by the Open-Gaps 417 source research (2026-11-26).'
+    it describes the movement from outside, so a built world draws on it only as register: etic.'
 - row_id: anf05_hippolytus-cyprian-caius-novatian--against-noetus-modalist
   work: Against the Heresy of One Noetus
   author: hippolytus
@@ -860,7 +858,7 @@ assignments:
   confidence: assigned
   note: 'The census''s named source for this movement: Noetus''s teaching quoted in order to answer it,
     and the presbyters of Smyrna examining him. Context: it describes the movement from outside, so a
-    built world draws on it only as register: etic. Assigned by the Open-Gaps 417 source research (2026-11-26).'
+    built world draws on it only as register: etic.'
 - row_id: anf05_hippolytus-cyprian-caius-novatian--novatian-trinity-modalist
   work: 'A Treatise of Novatian Concerning the Trinity: the chapters against the Sabellians'
   author: novatian
@@ -870,5 +868,4 @@ assignments:
   role: context
   confidence: assigned
   note: 'Novatian''s answer to those who make Christ the Father; its Latin is novatian_de-trinitate-lat_fausset1909.
-    Context: it describes the movement from outside, so a built world draws on it only as register: etic.
-    Assigned by the Open-Gaps 417 source research (2026-11-26).'
+    Context: it describes the movement from outside, so a built world draws on it only as register: etic.'

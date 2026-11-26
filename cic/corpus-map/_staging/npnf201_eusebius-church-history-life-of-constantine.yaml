@@ -200,8 +200,7 @@ assignments:
   role: context
   confidence: assigned
   note: 'Eusebius on Bardesanes'' dialogues against Marcion and ''On Fate'', and on his turn from Valentinus.
-    Context: it describes the movement from outside, so a built world draws on it only as register: etic.
-    Assigned by the Open-Gaps 417 source research (2026-11-26).'
+    Context: it describes the movement from outside, so a built world draws on it only as register: etic.'
 - row_id: npnf201_eusebius-church-history-life-of-constantine--he-vii-6-sabellius
   work: 'Church History VII.6: the heresy of Sabellius'
   author: eusebius
@@ -211,5 +210,4 @@ assignments:
   role: context
   confidence: assigned
   note: 'Eusebius quotes Dionysius of Alexandria on the Sabellian teaching in Ptolemais of the Pentapolis.
-    Context: it describes the movement from outside, so a built world draws on it only as register: etic.
-    Assigned by the Open-Gaps 417 source research (2026-11-26).'
+    Context: it describes the movement from outside, so a built world draws on it only as register: etic.'

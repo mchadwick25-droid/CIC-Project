@@ -67,7 +67,7 @@ works:
   confidence: assigned
   note: 'The sixth-century Edessene chronicle''s dated notice of Bardaisan''s birth. Context:
     it describes the movement from outside, so a built world draws on it only as register:
-    etic. Assigned by the Open-Gaps 417 source research (2026-11-26).'
+    etic.'
   source_file: chronicle-of-edessa_cowper.txt
 - row_id: ephraim_prose-refutations_mitchell1912-1921--against-bardaisan-a-discourse-against-bardaisan-2
   work: Against Bardaisan (A Discourse Against Bardaisan)
@@ -102,8 +102,7 @@ works:
     Bardaisan''s teaching and to the Bardaisanites'' own hymns. SECOND WITNESS ONLY: the Syriac
     OCR is garbage and the 1740 Latin is read with the long s as f, so this file finds and
     cross-checks passages and is never quoted. Context: it describes the movement from outside,
-    so a built world draws on it only as register: etic. Assigned by the Open-Gaps 417 source
-    research (2026-11-26).'
+    so a built world draws on it only as register: etic.'
   source_file: ephraim_opera-syriace-latine-t2-sermones-adversus-haereses-syr-lat_benedictus1740.txt
 - row_id: npnf213_gregory-great-ephraim-syrus-aphrahat--dissertation-ephrem-on-bardaisan
   work: 'Introductory Dissertation, Part I (Ephraim the Syrian): Ephrem''s verses on a book
@@ -115,8 +114,7 @@ works:
   note: 'The editor''s dissertation quotes Ephrem''s verses beginning ''I have chanced upon
     a book of Bardaisan'' and tells of Harmonius''s hymns; the editor''s own remarks there
     are a modern guide, not a witness. Context: it describes the movement from outside, so
-    a built world draws on it only as register: etic. Assigned by the Open-Gaps 417 source
-    research (2026-11-26).'
+    a built world draws on it only as register: etic.'
   source_file: npnf213_gregory-great-ephraim-syrus-aphrahat.xml
 - row_id: epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922--haer-56-bardesianistae
   work: 'Panarion 56: against the Bardesianites'
@@ -125,8 +123,7 @@ works:
   role: context
   confidence: assigned
   note: 'Epiphanius on Bardaisan''s life at Edessa, his learning and his fall. Context: it
-    describes the movement from outside, so a built world draws on it only as register: etic.
-    Assigned by the Open-Gaps 417 source research (2026-11-26).'
+    describes the movement from outside, so a built world draws on it only as register: etic.'
   source_file: epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt
 - row_id: npnf201_eusebius-church-history-life-of-constantine--he-iv-30-bardesanes
   work: 'Church History IV.30: Bardesanes the Syrian and his extant works'
@@ -137,7 +134,7 @@ works:
   confidence: assigned
   note: 'Eusebius on Bardesanes'' dialogues against Marcion and ''On Fate'', and on his turn
     from Valentinus. Context: it describes the movement from outside, so a built world draws
-    on it only as register: etic. Assigned by the Open-Gaps 417 source research (2026-11-26).'
+    on it only as register: etic.'
   source_file: npnf201_eusebius-church-history-life-of-constantine.xml
 - row_id: eusebius_praeparatio-evangelica-t1-libri-1-9-grc_gifford1903--praeparatio-vi-10-bardesanes-grc
   work: 'Praeparatio evangelica VI.10: the Greek extract from Bardesanes'' dialogue on fate'
@@ -148,7 +145,7 @@ works:
   note: 'Eusebius quotes at length, in Greek, the dialogue the Syriac Book of the Laws of
     Countries preserves. The quoted words are the movement''s own; Eusebius is their keeper
     (the same footing as the anf08 row for the Syriac). Greek OCR fair: check each quote against
-    the page image. Assigned by the Open-Gaps 417 source research (2026-11-26).'
+    the page image.'
   source_file: eusebius_praeparatio-evangelica-t1-libri-1-9-grc_gifford1903.txt
 - row_id: eusebius_preparation-for-the-gospel-t3-pt1-books-1-9_gifford1903--preparation-vi-10-bardesanes
   work: 'Preparation for the Gospel VI.10 (Gifford''s English): the extract from Bardesanes'
@@ -157,7 +154,7 @@ works:
   role: tradition
   confidence: assigned
   note: Gifford's English of the Greek extract, a cross-check on our rendering from the Greek
-    in gifford1903 tomus I. Assigned by the Open-Gaps 417 source research (2026-11-26).
+    in gifford1903 tomus I.
   source_file: eusebius_preparation-for-the-gospel-t3-pt1-books-1-9_gifford1903.txt
 - row_id: hippolytus_refutatio-omnium-haeresium-grc_wendland-gcs26-1916--refutatio-bardesanes-grc
   work: Refutation of All Heresies VI.35 and VII.31 (Bardesanes), Greek (Wendland 1916)
@@ -166,8 +163,7 @@ works:
   role: context
   confidence: assigned
   note: 'The Greek of Hippolytus''s two notices of Bardesanes. Context: it describes the movement
-    from outside, so a built world draws on it only as register: etic. Assigned by the Open-Gaps
-    417 source research (2026-11-26).'
+    from outside, so a built world draws on it only as register: etic.'
   source_file: hippolytus_refutatio-omnium-haeresium-grc_wendland-gcs26-1916.txt
 - row_id: anf05_hippolytus-cyprian-caius-novatian--refutation-bardesanes
   work: The Refutation of All Heresies, on Bardesanes (VI.35, VII.31)
@@ -178,7 +174,7 @@ works:
   confidence: assigned
   note: 'Hippolytus names ''Bardesanes the Armenian'' with the Valentinians of the Italian
     school. Context: it describes the movement from outside, so a built world draws on it
-    only as register: etic. Assigned by the Open-Gaps 417 source research (2026-11-26).'
+    only as register: etic.'
   source_file: anf05_hippolytus-cyprian-caius-novatian.xml
 - row_id: npnf203_theodoret-jerome-gennadius-rufinus--de-viris-33-bardesanes
   work: 'Jerome, Lives of Illustrious Men 33: Bardesanes'
@@ -188,7 +184,7 @@ works:
   confidence: assigned
   note: 'Jerome on Bardesanes'' dialogue against Marcion and his reputation in Greek. Context:
     it describes the movement from outside, so a built world draws on it only as register:
-    etic. Assigned by the Open-Gaps 417 source research (2026-11-26).'
+    etic.'
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
 - row_id: michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899--bardaisan
   work: 'Chronique, Book VI, chapter 6 and Chabot''s notes: Bardaisan'
@@ -199,7 +195,7 @@ works:
   note: 'A late Syriac chronicle''s account of Bardaisan (in Chabot''s French), a witness
     to how the Syriac church remembered him; Chabot''s notes are a modern guide, not a witness.
     Context: it describes the movement from outside, so a built world draws on it only as
-    register: etic. Assigned by the Open-Gaps 417 source research (2026-11-26).'
+    register: etic.'
   source_file: michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt
 - row_id: patrologia-syriaca_pars1-t2-aphrahat-dem23-bardesanes-liber-legum-regionum-syr-lat_parisot-nau-kmosko1907--testimonia-de-bardesane-nau
   work: Nau, Scriptorum testimonia de Bardesanis vita, scriptis, doctrina (ancient witnesses
@@ -212,8 +208,7 @@ works:
     Eusebius, Epiphanius, Ephrem, Theodoret, Moses of Khoren, later Syriac writers), quoted
     in Latin or their own Greek. A finding aid to the old sources; each witness is quoted
     from its own held edition where the Library has one. Context: it describes the movement
-    from outside, so a built world draws on it only as register: etic. Assigned by the Open-Gaps
-    417 source research (2026-11-26).'
+    from outside, so a built world draws on it only as register: etic.'
   source_file: patrologia-syriaca_pars1-t2-aphrahat-dem23-bardesanes-liber-legum-regionum-syr-lat_parisot-nau-kmosko1907.txt
 - row_id: patrologia-syriaca_pars1-t2-aphrahat-dem23-bardesanes-liber-legum-regionum-syr-lat_parisot-nau-kmosko1907--liber-legum-regionum-nau
   work: The Book of the Laws of Countries (Liber legum regionum), Syriac with Nau's Latin
@@ -224,7 +219,7 @@ works:
   note: 'The dialogue on fate and freedom written down by Bardaisan''s pupil Philip: the movement''s
     one surviving work, here in the Syriac with Nau''s Latin translation (1907). The Syriac
     OCR is garbage; Nau''s Latin is a modern translation, quotable as that, beside Cureton''s
-    English already held in anf08. Assigned by the Open-Gaps 417 source research (2026-11-26).'
+    English already held in anf08.'
   source_file: patrologia-syriaca_pars1-t2-aphrahat-dem23-bardesanes-liber-legum-regionum-syr-lat_parisot-nau-kmosko1907.txt
 - row_id: npnf202_socrates-sozomen-ecclesiastical-histories--sozomen-iii-16-harmonius
   work: 'Sozomen III.16: Ephrem, Bardesanes and Harmonius''s hymns'
@@ -234,7 +229,7 @@ works:
   confidence: assigned
   note: 'Sozomen says the Syrians sang Harmonius''s melodies and that Ephrem set orthodox
     words to them. Context: it describes the movement from outside, so a built world draws
-    on it only as register: etic. Assigned by the Open-Gaps 417 source research (2026-11-26).'
+    on it only as register: etic.'
   source_file: npnf202_socrates-sozomen-ecclesiastical-histories.xml
 - row_id: npnf203_theodoret-jerome-gennadius-rufinus--theodoret-he-iv-29-harmonius
   work: 'Theodoret, Church History IV.26 (NPNF numbering): Ephrem and Harmonius son of Bardesanes'
@@ -243,8 +238,7 @@ works:
   role: context
   confidence: assigned
   note: 'Theodoret on Harmonius''s songs and Ephrem''s answer to them. Context: it describes
-    the movement from outside, so a built world draws on it only as register: etic. Assigned
-    by the Open-Gaps 417 source research (2026-11-26).'
+    the movement from outside, so a built world draws on it only as register: etic.'
   source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
 - row_id: theodoret_opera-omnia-t4-haereticarum-fabularum-compendium-pg83-grc-lat_migne1864--haer-fab-i-22-bardesanes
   work: 'Theodoret, Compendium of Heretical Fables I.22: On Bardesanes and Harmonius'
@@ -255,5 +249,5 @@ works:
   note: 'Theodoret says he read Bardesanes'' works against fate and against Marcion, that
     some were put into Greek, and that Harmonius his son wrote in Syriac, and that Ephrem
     answered both. Context: it describes the movement from outside, so a built world draws
-    on it only as register: etic. Assigned by the Open-Gaps 417 source research (2026-11-26).'
+    on it only as register: etic.'
   source_file: theodoret_opera-omnia-t4-haereticarum-fabularum-compendium-pg83-grc-lat_migne1864.txt

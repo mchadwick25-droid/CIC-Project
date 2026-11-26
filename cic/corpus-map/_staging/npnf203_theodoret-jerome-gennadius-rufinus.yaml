@@ -603,8 +603,7 @@ assignments:
   role: context
   confidence: assigned
   note: 'Theodoret on Harmonius''s songs and Ephrem''s answer to them. Context: it describes the movement
-    from outside, so a built world draws on it only as register: etic. Assigned by the Open-Gaps 417 source
-    research (2026-11-26).'
+    from outside, so a built world draws on it only as register: etic.'
 - row_id: npnf203_theodoret-jerome-gennadius-rufinus--de-viris-33-bardesanes
   work: 'Jerome, Lives of Illustrious Men 33: Bardesanes'
   author: jerome
@@ -614,8 +613,7 @@ assignments:
   role: context
   confidence: assigned
   note: 'Jerome on Bardesanes'' dialogue against Marcion and his reputation in Greek. Context: it describes
-    the movement from outside, so a built world draws on it only as register: etic. Assigned by the Open-Gaps
-    417 source research (2026-11-26).'
+    the movement from outside, so a built world draws on it only as register: etic.'
 - row_id: npnf203_theodoret-jerome-gennadius-rufinus--de-viris-74-victorinus
   work: 'Jerome, Lives of Illustrious Men 74: Victorinus, bishop of Pettau'
   author: jerome
@@ -625,4 +623,4 @@ assignments:
   role: context
   confidence: assigned
   note: Jerome's notice of Victorinus's works and martyrdom, and his judgement that Victorinus knew Greek
-    better than Latin. Assigned by the Open-Gaps 417 source research (2026-11-26).
+    better than Latin.
