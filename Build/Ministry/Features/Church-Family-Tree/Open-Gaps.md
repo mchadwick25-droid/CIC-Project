@@ -4161,3 +4161,4 @@ They are not rewritten now. Each is recorded, and a rewrite would mean recording
     - Rigor B (30 stories) is "no fault found by the scans", not a sentence-by-sentence check. Only the three stories that could be A had a trust read.
     - The cards were not graded, as with the traditions (Open-Gaps 416).
     - **Open.** Mark rules on the first two. Owner: Mark.
+    - **Moses the Black ruled (2026-11-26).** Mark: "B, note the fix". It grades B, with the fix noted: cut "Around the year 400," from the first sentence (Decision-Log, "Moses the Black graded B", 2026-11-26). The fix itself is open, for the next fix batch. The hedged-date question stays open.

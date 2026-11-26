@@ -60,10 +60,10 @@ Three stories would otherwise be A or B on rigor and A on craft: Gregory of Nyss
 | Story | Sentences | Not holding | Heart | Result |
 |---|---|---|---|---|
 | John Wesley | 36 | 0 | right, in time | rigor A |
-| Moses the Black | 22 | 1: "Around the year 400" rests only on a modern date (Modern only) | right, in time | rigor F |
+| Moses the Black | 22 | 1: "Around the year 400" rests only on a modern date (Modern only) | right, in time | rigor B, by Mark's ruling |
 | Gregory of Nyssa | 17 | 1 softened (S12) | blocking: the Eunomius quarrel and the law of 381 come late | rigor F |
 
-A failed trust read is graded F, by Mark's ruling that Athonite and Comnenian monasticism "takes its failed trust read, F" (Decision-Log, 2026-11-25). That brief failed on 6 of 11 sentences. Moses the Black fails on one date in 22 sentences. Whether that ruling reaches so small a failure is left for Mark (Open-Gaps).
+A failed trust read is graded F, by Mark's ruling that Athonite and Comnenian monasticism "takes its failed trust read, F" (Decision-Log, 2026-11-25). That brief failed on 6 of 11 sentences. Moses the Black fails on one date in 22 sentences, a date its outline rated Inferential-Thin and then gave the writer to speak. Mark ruled it B, with the fix noted: cut "Around the year 400," (Decision-Log, "Moses the Black graded B", 2026-11-26). Gregory of Nyssa stays F.
 
 ## Overall
 
@@ -77,13 +77,13 @@ See `Grades.csv` and the page for Mark (https://claude.ai/artifact/KGibkbmL7Rh6h
 
 | Overall | Action | All | Kit batches (98) | Before the kit (174) |
 |---|---|---|---|---|
-| F | must be redone | 158 | 30 | 128 |
+| F | must be redone | 157 | 29 | 128 |
 | D | should be redone | 26 | 11 | 15 |
 | C | would benefit | 71 | 42 | 29 |
-| B | OK to keep | 16 | 14 | 2 |
+| B | OK to keep | 17 | 15 | 2 |
 | A | great as is | 1 | 1 | 0 |
 
-- Rigor: F 148, D 26, C 67, B 30, A 1. Craft: F 53, D 51, C 74, B 88, A 6.
+- Rigor: F 147, D 26, C 67, B 31, A 1. Craft: F 53, D 51, C 74, B 88, A 6.
 - **Kit against before the kit, on craft:**
   - The listener called 6 kit stories summaries, and 97 from before the kit.
   - They would leave 1 kit story and 46 from before the kit.
@@ -92,7 +92,7 @@ See `Grades.csv` and the page for Mark (https://claude.ai/artifact/KGibkbmL7Rh6h
 - **On rigor:**
   - 156 of the 174 stories from before the kit name a modern editor, scholar or "later writers" in the text, with 727 held findings in all. 119 of them are rigor F.
   - In the kit batches 60 of 98 have at least one such finding, with 123 in all, and 29 are rigor F.
-- **Guesses.** 16 of the kit's 30 Fs rest on one guess told as the record, most of them a hedged date: "probably in 256", "in 336 by the usual dating", "The date is disputed". Counted as an ordinary modern finding instead, 8 of those 16 would leave F (the kit's Fs from 28 to 20, before the two failed trust reads).
+- **Guesses.** 16 of the kit's 29 Fs rest on one guess told as the record, most of them a hedged date: "probably in 256", "in 336 by the usual dating", "The date is disputed". Counted as an ordinary modern finding instead, 8 of those 16 would leave F (the kit's Fs from 28 to 20, before the trust reads).
 - **References:** Basil C, Epiphanius C, John Chrysostom B.
 - **Councils:** the five kit councils grade F 1 (Ephesus 431), C 4. The seven before the kit grade F 5, C 1, B 1.
 - **Openings:** 59 of the kit stories and 137 of those before it lose the listener in the first three sentences, nearly always on when.

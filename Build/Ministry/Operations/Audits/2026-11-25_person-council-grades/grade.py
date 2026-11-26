@@ -165,6 +165,9 @@ def main():
             t = trust[e['id']]
             if t['all_hold']:
                 rg, rwhy = 'A', 'trust read: every sentence held or a fair summary'
+            elif t.get('ruled'):
+                rg = t['ruled']
+                rwhy += f"; trust read found {t['not_holding']} sentence(s) that do not hold; {t['ruling']}"
             else:
                 rg = 'F'
                 rwhy += f"; trust read found {t['not_holding']} sentence(s) that do not hold (failed trust read is F, Mark 2026-11-25)"

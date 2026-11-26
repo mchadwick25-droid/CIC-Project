@@ -6083,3 +6083,14 @@ This batch only.
 4. Search is switched on (`SEARCH_ON` in `cft-website/index.html`). Mark saw the screenshots with the real names first. The real-phone and screen-reader check (Open-Gaps 371) stays open.
 
 **Not done.** Twenty-six of the notes name a modern editor or translator as the source of a spelling (for example "Langlois's French"). Search does not show them; the card does. Whether a card note may name a modern work is a question for Mark under the modern-sources rule (Open-Gaps 423).
+
+## 2026-11-26 — Moses the Black graded B; a one-date trust failure is not F (Mark)
+
+**Why.** The person and council grades (`Build/Ministry/Operations/Audits/2026-11-25_person-council-grades/`, pull request #1814) gave Moses the Black (batch 3) a full trust read. 21 of its 22 sentences held. The 22nd opens the story: "Around the year 400, the desert fathers of Egypt counted Moses among their great ones." No old source gives a year. The batch-3 outline rated the date Inferential-Thin and then gave it as the spoken line, which Part 1 of the kit keeps out. Under the Athonite ruling ("takes its failed trust read, F", 2026-11-25), it graded F. That ruling was made for a brief that failed on 6 of 11 sentences. Mark asked "what is wrong with the around 400 is it true from other sources", then "how is around 400 a fact", and was shown that the date is hedged, near what Palladius allows, and inherited from the outline.
+
+**Decided (Mark, 2026-11-26, from options: "B, note the fix").** Moses the Black grades B, OK to keep. The fix is noted: cut "Around the year 400," from the first sentence, or say "By the time Palladius wrote, around 420". The Athonite F stands for trust failures of its kind. `grade.py` carries the ruling in `trust/Trust_Results.json`.
+
+**Found.** The grades now read F 157, D 26, C 71, B 17, A 1. The kit batches read F 29, B 15.
+
+**Not done.** The fix to the live text is for the next fix batch (Open-Gaps 424). The hedged-date question in Open-Gaps 424 is still open.
+
