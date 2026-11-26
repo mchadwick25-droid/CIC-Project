@@ -1,0 +1,349 @@
+{
+ "shortDescription": "In Edessa and Nisibis, between the Roman and Persian empires, Christians who spoke Syriac came to sing their teaching in Ephrem's hymns. Among them were men and women vowed to live unmarried and holy for God.",
+ "dates": "c. 201 to c. 410",
+ "timeline": [
+  {
+   "when": "About 201",
+   "headline": "A flood at Edessa destroys the Christians' church",
+   "witness": "The Chronicle of Edessa, whose last entries fall under the emperor Justinian",
+   "lines": [
+    {
+     "when": "November of \"the year 513\" of the Greeks",
+     "text": "After a great and violent rain in the night, the river breaks down Edessa's western wall. King Abgar watches the water by torchlight from a tower. The flood overthrows his palace, destroys the temple of the church of the Christians, and kills more than two thousand people, many of them asleep.",
+     "reference": "Chronicle of Edessa 8, cic/texts/chronicle-of-edessa_cowper.txt line 53"
+    },
+    {
+     "when": "at the time",
+     "text": "The city's scribes record the flood and the king's command, and the keepers of the archives store the record.",
+     "reference": "Chronicle of Edessa 8, cic/texts/chronicle-of-edessa_cowper.txt line 59"
+    }
+   ]
+  },
+  {
+   "when": "Date unknown",
+   "headline": "Tatian weaves one Gospel story from the four, and Edessa's founding story pictures it read",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Tatian, who says he was born in the land of the Assyrians, makes a combination of the Gospels he calls the Diatessaron. Eusebius says it is still in the hands of some.",
+     "reference": "Eusebius, Church History IV.29.6, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 26424-26433, 26479; Tatian, Address to the Greeks 42, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 7458-7461",
+     "note": "Eusebius wrote in the fourth century."
+    },
+    {
+     "when": "date unknown",
+     "text": "The Doctrine of Addai, Edessa's founding story, pictures a great crowd gathering each day for prayer and for the reading of the Old and New Testament and of the Diatessaron.",
+     "reference": "Doctrine of Addai, cic/texts/addai_doctrine-of-addai.txt line 65, with the editor's note on the word, line 219",
+     "note": "A later work, set in the time of the apostles."
+    }
+   ]
+  },
+  {
+   "when": "\"the six hundred and forty-eighth year\" of Alexander",
+   "headline": "Aphrahat, a teacher in Persia, writes to the men and women vowed to God",
+   "witness": "Aphrahat, in his own letters",
+   "lines": [
+    {
+     "when": "\"the six hundred and forty-eighth year\" of Alexander",
+     "text": "Aphrahat writes the first ten of his letters.",
+     "reference": "Aphrahat, Demonstration XXII.25, cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml lines 28554-28561"
+    },
+    {
+     "when": "date unknown",
+     "text": "Before baptism, Aphrahat writes, the church's preachers are to warn all in the covenant of God, and the young men and women who choose a life unmarried and holy. Those who mean to marry are to marry before baptism.",
+     "reference": "Aphrahat, Demonstration VII.20-21, cic/texts/aphrahat_demonstrations-2-7_hallock1932.txt line 57; Latin, cic/texts/aphrahat_demonstrationes-1-22-syr-lat_parisot1894.txt lines 21939-21942"
+    },
+    {
+     "when": "date unknown",
+     "text": "Aphrahat writes that the vowed keep watch and sing psalms and pray, give their goods to the poor, and live apart from the other sex. A vowed man who wants a vowed woman to live with him should rather marry openly.",
+     "reference": "Aphrahat, Demonstration VI.1-4, cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml lines 25803-25808, 25835-25846"
+    },
+    {
+     "when": "date unknown",
+     "text": "Aphrahat gives a daughter of the covenant, a vowed woman, the words to answer a vowed man who asks her to live with him and serve him. She is to say she is promised to a royal husband, and serves him.",
+     "reference": "Aphrahat, Demonstration VI.7, cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml lines 25948-25953; Latin, cic/texts/aphrahat_demonstrationes-1-22-syr-lat_parisot1894.txt lines 18126-18134"
+    }
+   ]
+  },
+  {
+   "when": "Date unknown",
+   "headline": "At Nisibis, Ephrem teaches in hymns while the Persians besiege the city",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Nisibis lies on the border between Persia and Rome.",
+     "reference": "Theodoret, Church History II.26, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 11065-11067",
+     "note": "Theodoret wrote about a century later."
+    },
+    {
+     "when": "date unknown",
+     "text": "Ephrem, though he had no schooling, becomes learned in the language of the Syrians.",
+     "reference": "Sozomen, Church History III.16, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 32053-32054",
+     "note": "Sozomen wrote in the next century."
+    },
+    {
+     "when": "\"the year 649\" of the Greeks",
+     "text": "Jacob, bishop of Nisibis, dies.",
+     "reference": "Chronicle of Edessa 17, cic/texts/chronicle-of-edessa_cowper.txt line 77",
+     "note": "The old sources differ on whether Jacob lived through the siege."
+    },
+    {
+     "when": "date unknown",
+     "text": "In a hymn for the siege, Ephrem sets the river that threatens the city beside Noah's flood, after which God set his bow over the earth as a promise. Its refrain asks God to stretch out his bow against the flood that has lifted its waves against the walls.",
+     "reference": "Ephrem, Nisibene Hymn I, cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml lines 13710-13715, 13725-13734, 13746-13751",
+     "note": "Ephrem's own words."
+    },
+    {
+     "when": "\"our third peril\"",
+     "text": "In the same hymn, Ephrem asks Christ, who rose on the third day, not to give the city over to death in its third peril.",
+     "reference": "Ephrem, Nisibene Hymn I, cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml lines 13839-13840",
+     "note": "Ephrem's own words."
+    },
+    {
+     "when": "date unknown",
+     "text": "Theodoret says the Persians dammed the river and broke the walls with its water. He says Jacob prayed inside the church while the walls were built up again, and at Ephrem's request called down clouds of mosquitoes and gnats on the army.",
+     "reference": "Theodoret, Church History II.26, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 11124-11177",
+     "note": "Theodoret's account, written about a century later. The wonders are his."
+    },
+    {
+     "when": "date unknown",
+     "text": "In a hymn on the bishops of Nisibis, Ephrem says the city's first priest, dead and buried within her, became a wall around her.",
+     "reference": "Ephrem, Nisibene Hymn XIII, cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml lines 14774-14787",
+     "note": "Ephrem's own words."
+    }
+   ]
+  },
+  {
+   "when": "Under the Persian king Shapur",
+   "headline": "The king of Persia turns on its Christians",
+   "witness": "Sozomen, a Greek church historian of the next century",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "As the Christians grow in number, form churches and appoint priests and deacons, the Magi, the priests who guard the Persian religion, are deeply angered.",
+     "reference": "Sozomen, Church History II.9, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 28873-28877"
+    },
+    {
+     "when": "date unknown",
+     "text": "Shapur believes a charge that Symeon, bishop of the royal cities Seleucia and Ctesiphon, is a friend of the Roman emperor. He taxes the Christians heavily, hoping want will make them give up their faith, then orders their priests killed and their churches pulled down.",
+     "reference": "Sozomen, Church History II.9, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 28889-28899"
+    },
+    {
+     "when": "date unknown",
+     "text": "In the Syriac acts of the Persian martyrs, the king says that Symeon, whom the acts call Simon, wants to make his people servants of the emperor, who shares their faith.",
+     "reference": "Acts of the Persian martyrs, German tr. Braun, cic/texts/persian-martyr-acts_ausgewahlte-akten-persischer-martyrer-bkv22-deu_braun1915.txt lines 1575-1578",
+     "note": "The king's words, as the Christian acts report them."
+    },
+    {
+     "when": "date unknown",
+     "text": "Sozomen counts sixteen thousand men and women martyred in this time whose names are known, with a multitude beyond counting, and says the people of Edessa took great care over their names.",
+     "reference": "Sozomen, Church History II.14, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 29190-29196"
+    }
+   ]
+  },
+  {
+   "when": "\"the six hundred and fifty-fifth year\" of the Greeks",
+   "headline": "Aphrahat writes of the persecution",
+   "witness": "Aphrahat, in his own letters",
+   "lines": [
+    {
+     "when": "\"the six hundred and fifty-fifth year\" of the Greeks",
+     "text": "Aphrahat writes his last twelve letters, in the thirty-fifth year of the Persian king.",
+     "reference": "Aphrahat, Demonstration XXII.25, cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml lines 28554-28561"
+    },
+    {
+     "when": "date unknown",
+     "text": "Aphrahat is vexed by a reproach: if they have a God, why does he not avenge his people?",
+     "reference": "Aphrahat, Demonstration XXI.1, cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml lines 27416-27419"
+    },
+    {
+     "when": "date unknown",
+     "text": "In his own day, Aphrahat writes, many declare their faith and are killed.",
+     "reference": "Aphrahat, Demonstration XXI.23, cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml lines 27988-27991"
+    }
+   ]
+  },
+  {
+   "when": "363",
+   "headline": "Rome hands Nisibis to Persia, and Ephrem moves to Edessa",
+   "lines": [
+    {
+     "when": "363",
+     "text": "The new emperor, his army in danger of starving inside Persia, makes peace and gives up Nisibis.",
+     "reference": "Socrates, Church History III.22, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 11679-11697",
+     "note": "Socrates wrote in the next century."
+    },
+    {
+     "when": "date unknown",
+     "text": "When Nisibis is handed to the Persians, Ephrem withdraws to Edessa, where he spends the rest of his life and opens a school.",
+     "reference": "Barhadbeshabba, Cause of the Foundation of the Schools, cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt lines 20435-20438",
+     "note": "Barhadbeshabba wrote more than two centuries later."
+    },
+    {
+     "when": "date unknown",
+     "text": "In prose, Ephrem answers three rival teachers: Marcion, who taught a Stranger God apart from the Maker; Mani, who taught two Roots; and Bardaisan, who taught five Entities set in empty space. Their works and their fast are like ours, he writes, but their faith is not.",
+     "reference": "Ephrem, Prose Refutations, cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt lines 431, 584, 606-608, 640, 917, 1205, 1605-1609",
+     "note": "Ephrem's own words, the rivals as he tells them."
+    },
+    {
+     "when": "date unknown",
+     "text": "Sozomen says Bardaisan's son Harmonius put opinions of the Greek philosophers into songs. Ephrem, afraid the Syrians would take them up, wrote hymns to the same tunes by the church's teaching. From then on, Sozomen says, the Syrians sang Ephrem's hymns.",
+     "reference": "Sozomen, Church History III.16, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 32085-32103",
+     "note": "Sozomen wrote in the next century."
+    },
+    {
+     "when": "the ninth of June, \"the year 684\" of the Greeks",
+     "text": "Ephrem dies. Palladius calls him the deacon of the church of Edessa.",
+     "reference": "Chronicle of Edessa 30, cic/texts/chronicle-of-edessa_cowper.txt line 103; Palladius, Lausiac History 40, cic/texts/palladius_lausiac-history_clarke1918.txt line 471"
+    }
+   ]
+  },
+  {
+   "when": "In the 11th year of King Yazdegerd's reign, about 410",
+   "headline": "A later Persian king lets the churches rebuild, and forty bishops meet in a synod, a council of bishops",
+   "witness": "The acts of the synod of Mar Isaac, in Chabot's French",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Socrates says the Roman emperor sent Maruthas, bishop of Mesopotamia, on a mission to the king of the Persians, who then let him build churches wherever he wished.",
+     "reference": "Socrates, Church History VII.8, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 19135-19141, 19174-19176",
+     "note": "Socrates wrote a generation later. The wonders he tells of Maruthas are left out here."
+    },
+    {
+     "when": "in the 11th year of King Yazdegerd's reign, about 410",
+     "text": "King Yazdegerd has ordered the churches his fathers destroyed to be rebuilt, the prisoners freed, and \"the priests, the leaders and all the holy covenant\" to go about freely and without fear.",
+     "reference": "Synod of Isaac, cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt lines 16155-16166; the year worked out from the acts' own date, the eleventh year of Yazdegerd, at the Epiphany and on the first of Shebat, counting his years from August 399, lines 16155, 16412, 16422, 16211-16212"
+    },
+    {
+     "when": "date unknown",
+     "text": "The acts say the king's grant came about in the time of Mar Isaac, bishop of Seleucia, through the work of the bishop Marutha and of the bishops of the Romans. They call Marutha the go-between of peace and concord between East and West.",
+     "reference": "Synod of Isaac, cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt lines 16168-16169, 16226-16237"
+    },
+    {
+     "when": "at the feast of the Epiphany",
+     "text": "The bishops reach the capital at the feast of the Epiphany, and King Yazdegerd orders Isaac and Marutha to gather them in the great church. The bishops write that the first of the month Shebat, the day their synod met, was for them like the dead rising.",
+     "reference": "Synod of Isaac, cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt lines 16412-16422, 16499-16504"
+    },
+    {
+     "when": "date unknown",
+     "text": "Forty bishops accept the letter sent from the West: one bishop to a city, no longer two or three, and the feasts kept together.",
+     "reference": "Synod of Isaac, cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt lines 16519-16534"
+    },
+    {
+     "when": "date unknown",
+     "text": "Hosea, bishop of Nisibis, Ephrem's old city, is named second metropolitan, a bishop over the bishops of a region, and signs third, after Isaac and Marutha.",
+     "reference": "Synod of Isaac, cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt lines 17724-17726, 17746, 17861"
+    }
+   ]
+  },
+  {
+   "when": "6th century",
+   "headline": "The name of the covenant lasts",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "John of Ephesus still writes of a holy man's disciples, grown men and women, becoming readers and daughters of the covenant.",
+     "reference": "John of Ephesus, Lives of the Eastern Saints, cic/texts/john-ephesus_lives-eastern-saints-po17_brooks1923.txt lines 14150-14153",
+     "note": "John wrote in the sixth century."
+    }
+   ]
+  }
+ ],
+ "briefSources": [
+  {
+   "title": "The Chronicle of Edessa",
+   "file": "cic/texts/chronicle-of-edessa_cowper.txt"
+  },
+  {
+   "title": "Aphrahat's Demonstrations and Ephrem's Nisibene Hymns, in English",
+   "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml"
+  },
+  {
+   "title": "Demonstrations, in Latin",
+   "author": "Aphrahat",
+   "file": "cic/texts/aphrahat_demonstrationes-1-22-syr-lat_parisot1894.txt"
+  },
+  {
+   "title": "The Doctrine of Addai",
+   "file": "cic/texts/addai_doctrine-of-addai.txt"
+  },
+  {
+   "title": "Church History, Book IV, on Tatian's Diatessaron",
+   "author": "Eusebius of Caesarea",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+  },
+  {
+   "title": "Church Histories of Socrates and Sozomen",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+  },
+  {
+   "title": "The Cause of the Foundation of the Schools, in French",
+   "author": "Barhadbeshabba",
+   "file": "cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt"
+  },
+  {
+   "title": "Prose Refutations of Mani, Marcion and Bardaisan",
+   "author": "Ephrem the Syrian",
+   "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt"
+  },
+  {
+   "title": "The Synod of Isaac, in the Synodicon orientale, in French",
+   "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt"
+  }
+ ],
+ "uncertain": [
+  "Whether Bishop Jacob lived through the siege. Theodoret, writing about a century later, says the Persians dammed the river Mygdonius and broke the walls with its water, that Jacob prayed inside the church while the walls were built up again, and that at Ephrem's request he climbed a tower and called down mosquitoes and gnats on the army; the wonders are his. Ephrem's own hymn on the bishops of Nisibis says the city's first priest was already \"dead and buried within her,\" his body a wall for the city. The Chronicle of Edessa puts Jacob's death in the year 649 of the Greeks, 337 or 338.",
+  "The year of the siege. Ephrem's hymn calls it the city's \"third peril\" and gives no year.",
+  "The year of the flood. The Chronicle of Edessa sets it in November of the year 513 of the Greeks, which is 201. The translator's notes give 202, and say that Dionysius places the flood in 216.",
+  "Why the king turned on the Christians of Persia. Sozomen says the Magi were angered when the Christians grew in number, formed churches and appointed priests and deacons, and that the king believed a charge that their bishop was a friend of the Roman emperor. The Syriac acts of the Persian martyrs put the king's reason in his own mouth: that the bishop would make his people servants of the emperor, who shared their faith.",
+  "The one-story Gospel. Only Edessa's late founding story, the Doctrine of Addai, has these churches reading the Diatessaron, and no old line places it at Nisibis or across the whole period. The word itself is the St Petersburg manuscript's reading, which confirms the first editor's guess at an unclear word.",
+  "The covenant in 410. The synod's acts use the same word for those the king freed, but the editor of the acts reads it there as the whole clergy, monks included, so it is not shown to be the same vowed order Aphrahat wrote for.",
+  "Ephrem's birthplace. Sozomen says he was \"a native of Nisibis, or his family was of the neighboring territory.\"",
+  "Why the later king changed course. The acts of 410 say his grant came about in the time of Mar Isaac, through the work of the bishop Marutha, the go-between of peace and concord between East and West, and of the bishops of the Romans. Socrates, a generation later, has the Roman emperor send Maruthas to the Persian king. No old line gives the king's own reason, and the acts do not say whether East and West mean the two empires or the two churches."
+ ],
+ "quotationOriginals": [
+  {
+   "modern": "I am promised in marriage to a royal husband, and I serve him. If I leave his service and serve you, my bridegroom will be angry with me. He will write me a letter of divorce and send me away from his house.",
+   "printed": "To a royal husband am I betrothed, and Him do I serve; and if I leave His service and serve thee, my betrothed will be wroth with me, and will write me a letter of divorce, and will send me away from His house",
+   "work": "Aphrahat, Demonstration VI (Of Monks), section 7, tr. A. E. Johnston (Nicene and Post-Nicene Fathers, second series, 13)",
+   "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": "25950-25953",
+   "uncertain": "Rendered from Johnston's English. The Syriac is held only in unreadable scan text. Parisot's Latin of the Syriac (lines 18130-18134) confirms the reading, and its Sponsus meus gives \"my bridegroom\" for \"my betrothed\"; the scan runs three of its words together.",
+   "secondReading": "minor"
+  },
+  {
+   "modern": "Stretch out your bow against the flood, for see, it has lifted up its waves against our walls!",
+   "printed": "Stretch forth Thy bow against the flood, for lo! it has lifted up its waves against our walls!",
+   "work": "Ephrem the Syrian, Nisibene Hymn I, refrain, tr. J. T. Sarsfield Stopford (Nicene and Post-Nicene Fathers, second series, 13)",
+   "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": "13733-13734",
+   "uncertain": "Rendered from Stopford's English; the Syriac is not held in a readable print. The print marks the line R., for the refrain.",
+   "secondReading": "same"
+  },
+  {
+   "modern": "Their works are like our works, just as their fast is like our fast, but their faith is not like our faith.",
+   "printed": "For their works are like our works as their fast is like our fast, but their faith is not like our Faith",
+   "work": "Ephrem the Syrian, Prose Refutations, Fifth Discourse to Hypatius, conclusion, tr. C. W. Mitchell (1912)",
+   "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt",
+   "lines": "1205",
+   "uncertain": "Rendered from Mitchell's English; the Syriac is not transcribed in the held file. The palimpsest has gaps nearby, but this sentence is whole in the print.",
+   "secondReading": "same"
+  },
+  {
+   "modern": "prays with Satan.",
+   "printed": "he who prays with the Manichaeans prays with Satan",
+   "work": "Ephrem the Syrian, Prose Refutations, Fifth Discourse to Hypatius, conclusion, tr. C. W. Mitchell (1912)",
+   "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt",
+   "lines": "1205",
+   "secondReading": "checked at card"
+  },
+  {
+   "modern": "the priests, the leaders and all the holy covenant",
+   "printed": "que les prêtres, les chefs et toute la sainte alliance",
+   "work": "The Synod of Isaac (410), the king's grant, French tr. J.-B. Chabot, Synodicon orientale (1902)",
+   "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+   "lines": "16165-16166",
+   "uncertain": "Rendered from Chabot's French; the Syriac in the same volume is held only in misread scan text. The scan sets a note mark after alliance. Chabot's note reads the covenant here as the whole clergy, monks included.",
+   "secondReading": "same"
+  }
+ ]
+}

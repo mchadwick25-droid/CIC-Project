@@ -1,0 +1,313 @@
+{
+ "shortDescription": "In Alexandria, teachers led newcomers to the faith through Scripture, and philosophers came to study with Origen. He taught that Scripture has a plain story and deeper meanings beneath it.",
+ "timeline": [
+  {
+   "when": "About 180",
+   "headline": "Pantaenus teaches in what Eusebius calls the school of the faithful",
+   "witness": "Eusebius of Caesarea, Church History, writing about a century later",
+   "lines": [
+    {
+     "when": "about \"the first year\" of Commodus",
+     "text": "Pantaenus, trained among the Stoics, a school of Greek philosophers, has charge of the school of the faithful in Alexandria. Eusebius was told that a school of sacred learning had stood there from ancient times.",
+     "reference": "Eusebius, Church History V.9-10.1, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 28467-28476, 28486-28576"
+    },
+    {
+     "when": "date unknown",
+     "text": "They say Pantaenus was sent to preach the Gospel to the nations of the East, as far as India.",
+     "reference": "Eusebius, Church History V.10.2, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 28578-28600",
+     "note": "Eusebius gives it as report."
+    },
+    {
+     "when": "date unknown",
+     "text": "Pantaenus at last becomes head of the school, and teaches both by word and in writing.",
+     "reference": "Eusebius, Church History V.10.4, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 28637-28645"
+    },
+    {
+     "when": "date unknown",
+     "text": "Alexander, later a bishop of Jerusalem, calls Pantaenus and Clement his masters, in a letter to Origen.",
+     "reference": "Eusebius, Church History VI.14.8-9, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 34330-34356",
+     "note": "Alexander's own words, written years later, as Eusebius keeps them."
+    }
+   ]
+  },
+  {
+   "when": "In the reign of Severus",
+   "headline": "Clement teaches, and Origen learns from him as a boy",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Clement, Eusebius says, succeeded Pantaenus and had charge of the instruction in the faith, and Origen, still a boy, was one of his pupils.",
+     "reference": "Eusebius, Church History VI.6, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 33015-33044, 33079-33081"
+    },
+    {
+     "when": "in the reign of Severus",
+     "text": "Clement writes the Stromata. Eusebius dates it to this reign, since its first book has a table of dates reaching the death of Commodus.",
+     "reference": "Eusebius, Church History VI.6, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 33079-33086"
+    },
+    {
+     "when": "date unknown",
+     "text": "In The Instructor, Clement writes that the Word, his name for Jesus, first urges people on, then trains them, and last of all teaches them, as a sick body needs a doctor before it can learn.",
+     "reference": "Clement, The Instructor I.1 and I.7, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 18716-18729, 19998-20000"
+    },
+    {
+     "when": "date unknown",
+     "text": "Clement writes that faith is taught without letters, and that its handbook is love.",
+     "reference": "Clement, The Instructor III.11, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 26363-26372"
+    },
+    {
+     "when": "date unknown",
+     "text": "Clement writes that women are to study philosophy as men do, though he holds men better at everything.",
+     "reference": "Clement, Stromata IV.8, cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml lines 38643-38645"
+    }
+   ]
+  },
+  {
+   "when": "\"the tenth year of the reign of Severus\"",
+   "headline": "Persecution empties the city of teachers, and Origen's first pupils die",
+   "witness": "Eusebius of Caesarea, Church History, writing about a century later, from letters and from people who had known Origen",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Under Severus, believers from all Egypt are brought to Alexandria to die. Among them Leonides, Origen's father, is beheaded.",
+     "reference": "Eusebius, Church History VI.1-2, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32397-32433, 32511-32533"
+    },
+    {
+     "when": "date unknown",
+     "text": "With every teacher of the faith driven out by the threat of persecution, pagans come to Origen to hear the word of God. The first is Plutarch, the second his brother Heraclas. Origen is in his eighteenth year.",
+     "reference": "Eusebius, Church History VI.3.1-3, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32670-32733; Greek, cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt lines 1215-1219"
+    },
+    {
+     "when": "date unknown",
+     "text": "Origen stays beside the martyrs in prison and on the way to death, and greets them with a kiss. Crowds turn on him, and soldiers are set around his house.",
+     "reference": "Eusebius, Church History VI.3.4-6, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32758-32784",
+     "note": "Eusebius says God's hand guarded him."
+    },
+    {
+     "when": "date unknown",
+     "text": "The bishop, Demetrius, puts the instruction in Origen's hands alone. Origen gives up teaching grammar, which he thinks does not fit with training in the faith.",
+     "reference": "Eusebius, Church History VI.3.8, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32796-32813"
+    },
+    {
+     "when": "date unknown",
+     "text": "Pupils of Origen are put to death: Plutarch, Serenus, Heraclides, still a catechumen, Hero, just baptized, a second Serenus, and Herais, a catechumen, who received, Origen says, the baptism by fire.",
+     "reference": "Eusebius, Church History VI.3.13-VI.4, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32877-32925; Greek, cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt lines 1485-1491, 1607-1614"
+    },
+    {
+     "when": "date unknown",
+     "text": "Potamiaena, still famous in Eusebius's day, is tortured and put to death by fire with her mother, Marcella.",
+     "reference": "Eusebius, Church History VI.5, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 32950-32961"
+    }
+   ]
+  },
+  {
+   "when": "From the reign of Severus until Origen leaves",
+   "headline": "Origen's classroom fills, and he teaches Scripture in three senses",
+   "witness": "Eusebius of Caesarea, Church History, writing about a century later",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Origen teaches women as well as men.",
+     "reference": "Eusebius, Church History VI.8.2, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 33196-33203"
+    },
+    {
+     "when": "date unknown",
+     "text": "The crowds come from morning to evening and scarcely leave him time to breathe, so he divides them. Heraclas takes the beginners, and Origen keeps the advanced.",
+     "reference": "Eusebius, Church History VI.15, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 34407-34418"
+    },
+    {
+     "when": "date unknown",
+     "text": "He teaches the gifted geometry, arithmetic and the philosophers, and the less learned the basics, saying both will help them understand Scripture.",
+     "reference": "Eusebius, Church History VI.18.2-4, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 34818-34843"
+    },
+    {
+     "when": "date unknown",
+     "text": "In a letter, Origen says heretics and philosophers came to him, so he studied their teaching, following Pantaenus, and Heraclas, who took up the philosopher's cloak.",
+     "reference": "Eusebius, Church History VI.19.12-14, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 35259-35280",
+     "note": "Origen's own words."
+    },
+    {
+     "when": "before leaving Alexandria",
+     "text": "Origen writes On First Principles. In it he teaches that Scripture, like a person, has a body, a soul and a spirit: the plain story for the simple, its soul for those who have gone further, and its spirit for those made perfect.",
+     "reference": "Eusebius, Church History VI.24.3, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 36068-36069; Origen, On First Principles, chapter On the Inspiration of Holy Scripture, cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml lines 33470-33486; the same passage in Origen, Philocalia 1.11, cic/texts/origen_philocalia_lewis1911.txt line 76"
+    },
+    {
+     "when": "date unknown",
+     "text": "Porphyry, a pagan philosopher who wrote against the Christians, charges that some readers of the Jewish Scriptures boast that the plain words of Moses are riddles, and that Origen took the figurative reading of the Greek mysteries and applied it to the Jewish Scriptures. Eusebius answers that Porphyry lies when he says Origen came over from the pagans.",
+     "reference": "Eusebius, Church History VI.19.4-10, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 34974-34982, 35122-35124, 35189-35198",
+     "note": "An enemy's charge."
+    }
+   ]
+  },
+  {
+   "when": "\"the tenth year\" of Alexander Severus",
+   "headline": "Origen leaves, and his pupils lead the instruction and the church",
+   "witness": "Eusebius of Caesarea, Church History, writing about a century later",
+   "lines": [
+    {
+     "when": "\"the tenth year\" of Alexander Severus",
+     "text": "Origen moves from Alexandria to Caesarea and leaves the instruction to Heraclas. Soon after, Demetrius dies after forty-three years as bishop, and Heraclas succeeds him.",
+     "reference": "Eusebius, Church History VI.26, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 36330-36339"
+    },
+    {
+     "when": "date unknown",
+     "text": "Dionysius, another of Origen's pupils, takes over the instruction from Heraclas.",
+     "reference": "Eusebius, Church History VI.29.4, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 36552-36559"
+    },
+    {
+     "when": "\"the third year\" of the emperor Philip",
+     "text": "Heraclas dies after sixteen years as bishop, and Dionysius becomes bishop of Alexandria.",
+     "reference": "Eusebius, Church History VI.35, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 37071-37080"
+    }
+   ]
+  },
+  {
+   "when": "Mid-3rd century",
+   "headline": "Dionysius reads, argues and writes to his churches",
+   "witness": "Dionysius of Alexandria, in his own letters as Eusebius keeps them",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Dionysius reads the works of the heretics. When a fellow presbyter warns him off, he says, a vision sent from God tells him to read everything he can take in hand.",
+     "reference": "Eusebius, Church History VII.7.1-3, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 39558-39577",
+     "note": "A vision, in Dionysius's own voice."
+    },
+    {
+     "when": "date unknown",
+     "text": "Nepos, a bishop in Egypt, writes a book called Refutation of Allegorists. As his opponents describe it, he teaches a thousand years of bodily luxury on this earth.",
+     "reference": "Eusebius, Church History VII.24.1-2, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 41287-41295",
+     "note": "Eusebius's account. The book is lost."
+    },
+    {
+     "when": "date unknown",
+     "text": "In the district of Arsinoe, where Nepos's teaching has split whole churches, Dionysius calls together the presbyters and teachers of the villages and sits with them for three days, from morning to evening, going through the book.",
+     "reference": "Eusebius, Church History VII.24.6-8, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 41343-41372",
+     "note": "No held source says whether Dionysius was yet bishop."
+    },
+    {
+     "when": "date unknown",
+     "text": "Coracion, the leader of the teaching, says before all present that he is convinced and will no longer hold or teach it. Some of the others are glad of the meeting.",
+     "reference": "Eusebius, Church History VII.24.9, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 41374-41381"
+    },
+    {
+     "when": "after war and famine, at the approach of the feast",
+     "text": "As plague fills the city with the dead, Dionysius writes that most of the believers visited the sick without fear and served them, and many died with them.",
+     "reference": "Eusebius, Church History VII.22, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 41010-41095"
+    }
+   ]
+  },
+  {
+   "when": "In Eusebius's own day",
+   "headline": "The school runs on in Eusebius's own day",
+   "witness": "Eusebius of Caesarea, of men he knew",
+   "lines": [
+    {
+     "when": "in the time of Theonas, bishop of Alexandria",
+     "text": "Achillas, a presbyter of Alexandria, is placed over the school of the sacred faith.",
+     "reference": "Eusebius, Church History VII.32.30, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 43150-43212"
+    }
+   ]
+  },
+  {
+   "when": "4th century",
+   "headline": "Didymus the Blind teaches the church's school, and Origen's books are read further afield",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Didymus, blind from early childhood, learns by hearing and becomes the teacher of the church's school, approved by the bishop Athanasius.",
+     "reference": "Rufinus, Church History XI.7, cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt lines 29895-29905; Socrates, Church History IV.25, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 13797-13830"
+    },
+    {
+     "when": "date unknown",
+     "text": "Sozomen calls Didymus president of the school of sacred learning in Alexandria.",
+     "reference": "Sozomen, Church History III.15, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 31948-31962",
+     "note": "Sozomen wrote in the fifth century."
+    },
+    {
+     "when": "date unknown",
+     "text": "Basil and Gregory of Nazianzus get hold of Origen's works and draw from them their reading of Scripture.",
+     "reference": "Socrates, Church History IV.26, cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml lines 13895-13915",
+     "note": "Socrates wrote in the fifth century."
+    },
+    {
+     "when": "date unknown",
+     "text": "Gregory of Nazianzus sends a friend the Philocalia of Origen, a book of passages chosen from his work.",
+     "reference": "Gregory of Nazianzus, Letter 115, cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml lines 47445-47451"
+    }
+   ]
+  },
+  {
+   "when": "Much later",
+   "headline": "A later Coptic history honors Dionysius and condemns Origen's books",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "The History of the Patriarchs says Heraclas gave the direction of studies at Alexandria to Dionysius, and tells how Dionysius, a pagan philosopher, read Paul's letters and was baptized. It calls Origen's books full of lies.",
+     "reference": "History of the Patriarchs of the Coptic Church of Alexandria, part 1, cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt lines 10942-10943, 11706-11720, 11884-11892",
+     "note": "A history compiled long afterward."
+    }
+   ]
+  }
+ ],
+ "briefSources": [
+  {
+   "title": "Church History, Books V to VII, in English",
+   "author": "Eusebius of Caesarea",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+  },
+  {
+   "title": "Church History, Books VI and VII, in Greek",
+   "author": "Eusebius of Caesarea",
+   "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt"
+  },
+  {
+   "title": "The Instructor",
+   "author": "Clement of Alexandria",
+   "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+  },
+  {
+   "title": "Philocalia, passages chosen from his works",
+   "author": "Origen",
+   "file": "cic/texts/origen_philocalia_lewis1911.txt"
+  }
+ ],
+ "uncertain": [
+  "Whether there was one school. Eusebius, writing a century later, calls the instruction a school and names the teacher in charge of it in each generation. Clement's and Origen's own surviving words describe teachers and pupils, never a head's office.",
+  "What Nepos taught. His book is lost, so his teaching survives only as Eusebius and Dionysius, his opponents, describe it.",
+  "The three days. The only account is Dionysius's own, of his own success. Eusebius gives no year, and no held source says whether Dionysius was yet bishop."
+ ],
+ "quotationOriginals": [
+  {
+   "modern": "Among the women, too, Herais was still a catechumen. She received baptism, as he himself says somewhere, the baptism by fire, and left this life.",
+   "printed": "And of women, Herais died while yet a catechumen, receiving baptism by fire, as Origen himself somewhere says.",
+   "work": "Eusebius, Church History VI.4.3, citing Origen, tr. A. C. McGiffert (Nicene and Post-Nicene Fathers, second series, 1)",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "32918-32925",
+   "original": "xci γυναικῶν δὲ “Hoais ἔτι χατηχουμένη τὸ βάπτισμα, ὥς πού φησιν αὐτός. τὸ διὰ πυρὸς λαβοῦσα, τὸν βίον ἐξελήλυϑεν.",
+   "originalFile": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt",
+   "originalLines": "1613-1614",
+   "uncertain": "The rendering is made from Eusebius's Greek, printed here as Schwartz's scan reads it: xci for καὶ, Hoais for Ἡραΐς, χατηχουμένη for κατηχουμένη. McGiffert's English confirms the reading. He himself renders αὐτός, which points back to Origen, whose pupils the chapter lists; these are Origen's words as Eusebius gives them, a century later.",
+   "secondReading": "same"
+  },
+  {
+   "modern": "Faith is taught without letters. Its handbook, unpolished and divine at once, is called love, a spiritual book.",
+   "printed": "And faith is the possession not of the wise according to the world, but of those according to God; and it is taught without letters; and its handbook, at once rude and divine, is called love—a spiritual book.",
+   "work": "Clement of Alexandria, The Instructor III.11, tr. W. Wilson (Ante-Nicene Fathers 2)",
+   "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+   "lines": "26369-26372",
+   "uncertain": "Clement's Greek is not held, so the English stands alone. The brief gives the sentence's last two clauses, whose subject is faith. Rude is rendered unpolished, since its modern sense misleads.",
+   "secondReading": "minor"
+  },
+  {
+   "modern": "If the argument won, we were not ashamed to change our minds and agree.",
+   "printed": "if the reason given satisfied us, we were not ashamed to change our opinions and agree with others",
+   "work": "Dionysius of Alexandria, On the Promises, in Eusebius, Church History VII.24.8, tr. A. C. McGiffert (Nicene and Post-Nicene Fathers, second series, 1)",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "41368-41369",
+   "original": "μήτε, εἰ λόγος cíooi, μεταπείϑεσϑαι καὶ συνομολογεῖν αἰδούσμεροι",
+   "originalFile": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt",
+   "originalLines": "10734-10735",
+   "uncertain": "The rendering is made from Dionysius's Greek as Eusebius keeps it, printed here as Schwartz's scan reads it: cíooi for αἱροίη, a word whose manuscript readings Schwartz's notes give, and αἰδούσμεροι, broken across two lines, for αἰδούμενοι. McGiffert's English confirms the sense. We is Dionysius and the believers together. Some manuscripts make the governing verb they, the believers, for we; Schwartz prints we.",
+   "secondReading": "same"
+  }
+ ]
+}

@@ -1,0 +1,466 @@
+{
+ "shortDescription": "In Carthage and Hippo, in Roman Africa, Latin-speaking Christians gathered around their city's bishop. He taught them, cared for their poor, judged their quarrels, and decided with them when to take back those who had fallen away.",
+ "dates": "c. 248 to 430",
+ "timeline": [
+  {
+   "when": "About 248 to 250",
+   "headline": "Cyprian becomes bishop of Carthage, and leads his church by letter through Decius's persecution",
+   "witness": "Cyprian, bishop of Carthage, in his own letters",
+   "lines": [
+    {
+     "when": "about 248 or 249",
+     "text": "Cyprian is chosen bishop of Carthage by the vote of all the people.",
+     "reference": "Cyprian, Letter 59.6 (Hartel), cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt lines 9352, 9660-9663; the year worked out from the same letter, written to Cornelius in Cyprian's fourth year as bishop, and from Eusebius, Church History VI.39.1 and VII.2, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 37414-37416, 39214-39216",
+     "note": "The year is worked out from the sources' clues. No source gives it."
+    },
+    {
+     "when": "250",
+     "text": "The emperor Decius begins a persecution of the churches.",
+     "reference": "Eusebius, Church History VI.39, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 37412-37415",
+     "note": "Eusebius's account."
+    },
+    {
+     "when": "date unknown",
+     "text": "Cyprian later writes that the crowd has often called for him to be thrown to the lion, in the circus and in the amphitheater.",
+     "reference": "Cyprian, Letter 59.6 (Hartel), cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt lines 9663-9666",
+     "note": "Written in his fourth year as bishop."
+    },
+    {
+     "when": "date unknown",
+     "text": "Because the people keep shouting violently for him, Cyprian withdraws, he writes, for his people's peace, so that his presence will not stir the riot further. Absent in body, he keeps up his counsel to them.",
+     "reference": "Cyprian, Letter 20.1 (Hartel), cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt lines 2968-2976; English, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 30172-30188"
+    },
+    {
+     "when": "date unknown",
+     "text": "The clergy of Rome write to the clergy of Carthage that Cyprian has withdrawn and acted rightly. They remind them that the hired man, who is no shepherd, leaves the sheep when the wolf comes.",
+     "reference": "The Roman clergy, Letter 2 in the English, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28796-28800, 28816-28820",
+     "note": "The Roman clergy's letter, which Cyprian answers."
+    },
+    {
+     "when": "date unknown",
+     "text": "From hiding, Cyprian asks his clergy to provide for the confessors in prison, those jailed for confessing their faith, and for the poor who stand firm. The church's small fund, he writes, has been shared out among the clergy for such needs.",
+     "reference": "Cyprian, Letter 5.1 (Hartel), cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt lines 744-751; English, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28962-28972"
+    },
+    {
+     "when": "date unknown",
+     "text": "Cyprian writes that the brothers should visit the confessors with care, not in crowds. The priests who offer the Eucharist, the shared bread and cup, in the prison are to take turns, each with one deacon, so the changing faces draw less ill will.",
+     "reference": "Cyprian, Letter 5.2 (Hartel), cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt lines 757-767; English, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 28975-28993"
+    },
+    {
+     "when": "date unknown",
+     "text": "Cyprian tells his clergy he cannot answer them alone: from his first days as bishop he resolved to do nothing on his own judgment without their counsel and the people's consent.",
+     "reference": "Cyprian, Letter 14.4 (Hartel), cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt lines 2292-2297; English, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 29117-29127"
+    },
+    {
+     "when": "date unknown",
+     "text": "Many, Cyprian writes, did not wait to be arrested. They ran to the marketplace of their own accord to sacrifice.",
+     "reference": "Cyprian, On the Lapsed 8, cic/texts/cyprian_de-lapsis-lat_hartel1868-csel3-tei.txt lines 345-351; English, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 43828-43838"
+    },
+    {
+     "when": "date unknown",
+     "text": "The fallen, Cyprian writes, are to wait for the church's public peace. Then the bishops, meeting with the clergy and with the people who stood firm, are to settle everything by common counsel.",
+     "reference": "Cyprian, Letter 19.2 (Hartel), cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt lines 2920-2927"
+    }
+   ]
+  },
+  {
+   "when": "When the persecution eases",
+   "headline": "The bishops decide on the fallen, and a rival bishop is set up at Rome",
+   "witness": "Cyprian, in his own letters",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "A large number of bishops meet and choose a middle way. The fallen are not wholly denied the hope of peace, but their penance, a time of public repentance, is long, and each case is examined.",
+     "reference": "Cyprian, Letter 55.6 (Hartel), cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt lines 7578-7590; English, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 33508-33522"
+    },
+    {
+     "when": "date unknown",
+     "text": "Cyprian holds that no one should be barred from penance and the hope of peace, the church's word for taking someone back. Sinners, he writes, are called back to repent, and pardon is not refused the penitent.",
+     "reference": "Cyprian, Letter 55.27 (Hartel), cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt lines 8425-8431; English, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 34088-34095"
+    },
+    {
+     "when": "date unknown",
+     "text": "The party of Novatian at Rome, Cyprian reports, says that one is stained by another's sin, by sharing communion with the fallen.",
+     "reference": "Cyprian, Letter 55 (Hartel), English, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 34072-34079",
+     "note": "Their view, as Cyprian reports it."
+    },
+    {
+     "when": "date unknown",
+     "text": "Envoys of Novatian come to Carthage with word that he has been made bishop. Cyprian and the bishops with him at once keep them from communion, since he was made bishop against the Catholic Church.",
+     "reference": "Cyprian, Letter 44.1 (Hartel), cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt lines 6186-6193; English, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 32590-32600"
+    },
+    {
+     "when": "date unknown",
+     "text": "At the assembly at Carthage, Novatian's envoys burst in with insults and shouting, and demand that their charges be heard in public. The bishops refuse.",
+     "reference": "Cyprian, Letter 44.2 (Hartel), cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt lines 6228-6233"
+    },
+    {
+     "when": "date unknown",
+     "text": "Novatian's envoys go on from house to house and town to town, trying to split the church.",
+     "reference": "Cyprian, Letter 44.3 (Hartel), cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt lines 6239-6243"
+    }
+   ]
+  },
+  {
+   "when": "Date unknown",
+   "headline": "Plague strikes, and Carthage ransoms captives",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "A dreadful plague strikes. People flee the sick and leave their own, and the dead lie throughout the city.",
+     "reference": "Pontius, Life of Cyprian 9, cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt lines 40783-40793; English, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 27940-27955",
+     "note": "Pontius, Cyprian's deacon and admirer."
+    },
+    {
+     "when": "date unknown",
+     "text": "Cyprian gathers the people and teaches them that it is nothing great to care only for their own, and that the perfect love even their enemies.",
+     "reference": "Pontius, Life of Cyprian 9, cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt lines 40797-40804; English, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 27961-27967",
+     "note": "Pontius's account."
+    },
+    {
+     "when": "date unknown",
+     "text": "In the plague, Pontius says, the tasks are shared out by rank and station. The poor, who have no money to give, give their own work, and good is done for all, and not only for the household of faith.",
+     "reference": "Pontius, Life of Cyprian 10, cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt lines 40848-40856; English, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 27981-27990",
+     "note": "Pontius's account."
+    },
+    {
+     "when": "date unknown",
+     "text": "Christian men, women and consecrated virgins of Numidia are carried off by raiders. Cyprian writes to the Numidian bishops that their captivity must be counted as his church's own.",
+     "reference": "Cyprian, Letter 62.1-2 (Hartel), cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt lines 10800-10813, 10848-10858; English, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 36006-36016",
+     "note": "Cyprian's own words."
+    },
+    {
+     "when": "date unknown",
+     "text": "Carthage sends a hundred thousand sesterces, gathered from its clergy and people, to ransom them, and Cyprian sends the givers' names so the Numidians can pray for them.",
+     "reference": "Cyprian, Letter 62 (Hartel), cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt lines 10893-10896, 10920-10930; English, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 36081-36091",
+     "note": "Cyprian's own words."
+    }
+   ]
+  },
+  {
+   "when": "Date unknown",
+   "headline": "Cyprian and Stephen of Rome disagree over baptism",
+   "witness": "Cyprian, in his own letter",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Cyprian quotes Stephen, bishop of Rome: those who come from any heresy are to have hands laid on them for repentance, and nothing new is to be done. Cyprian calls this Stephen's error.",
+     "reference": "Cyprian, Letter 74.1 (Hartel), cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt lines 15418-15434; English, cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml lines 39088-39097"
+    }
+   ]
+  },
+  {
+   "when": "257 to 258",
+   "headline": "Cyprian is exiled, then tried and beheaded",
+   "witness": "The Acta, the record of Cyprian's trials and death",
+   "lines": [
+    {
+     "when": "30 August, when Valerian and Gallienus were consuls",
+     "text": "The proconsul tells Cyprian that the emperors Valerian and Gallienus have ordered those who do not keep the Roman religion to take part in the Roman rites. Cyprian answers that he is a Christian and a bishop, and is sent into exile at Curubis.",
+     "reference": "Acta Proconsularia 1, cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt lines 41413-41432"
+    },
+    {
+     "when": "13 September, when Tuscus and Bassus were consuls",
+     "text": "Officers come for Cyprian, who has returned and is staying in his gardens. He is held at an officer's house, and all his people gather in the street outside the door, where he has the girls looked after.",
+     "reference": "Acta Proconsularia 2, cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt lines 41470-41476, 41510-41516; cic/texts/knopf_ausgewaehlte-maertyrerakten-lat-grc-deu_krueger1929.txt lines 4878-4880"
+    },
+    {
+     "when": "14 September",
+     "text": "Before the proconsul Galerius Maximus, Cyprian refuses to sacrifice. The sentence calls him an enemy of the Roman gods and of their sacred rites, and the leader of men gathered in a wicked conspiracy, and orders him put to the sword. He answers, Thanks be to God.",
+     "reference": "Acta Proconsularia 3-4, cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt lines 41518-41528, 41566-41578"
+    },
+    {
+     "when": "the same day",
+     "text": "The brothers cry out that they will be beheaded with Cyprian. He is led out, the brothers lay cloths before him, a priest and a subdeacon bind his eyes, and he is beheaded. By night his body is carried with candles and torches to burial.",
+     "reference": "Acta Proconsularia 4-5, cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt lines 41580-41597"
+    },
+    {
+     "when": "date unknown",
+     "text": "Jerome writes that Pontius, Cyprian's deacon, shared his exile up to the day of his death, and left a fine book on his life and death.",
+     "reference": "Jerome, On Illustrious Men 68, cic/texts/jerome_opera-pl23-part1-with-regula-pachomii-lat_migne1883.txt lines 57618-57622",
+     "note": "Jerome wrote more than a century later."
+    }
+   ]
+  },
+  {
+   "when": "Soon after the great persecution",
+   "headline": "A rival church rises at Carthage",
+   "witness": "Optatus, a Catholic bishop who wrote against the rival church sixty years and more after the persecution",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "By the vote of the whole people, Caecilian is chosen bishop of Carthage.",
+     "reference": "Optatus, Against the Donatists I.18, cic/texts/optatus_against-the-donatists.txt line 207"
+    },
+    {
+     "when": "date unknown",
+     "text": "Caecilian's enemies charge that the bishop who consecrated him had handed over the Scriptures in the persecution. Optatus calls the charge false.",
+     "reference": "Optatus, Against the Donatists I.19, cic/texts/optatus_against-the-donatists.txt line 217",
+     "note": "An enemy's account of the charge."
+    },
+    {
+     "when": "date unknown",
+     "text": "A rival party makes Majorinus bishop, although Caecilian is already bishop, and altar is raised against altar.",
+     "reference": "Optatus, Against the Donatists I.15, I.19, cic/texts/optatus_against-the-donatists.txt lines 187, 229; Latin, cic/texts/optatus_libri-vii-lat_ziwsa1893-csel26-tei.txt line 989"
+    },
+    {
+     "when": "date unknown",
+     "text": "The rival church's bishop Parmenian holds that one who is stained cannot wash away sins in a false baptism.",
+     "reference": "Optatus, Against the Donatists I.10, cic/texts/optatus_against-the-donatists.txt line 153; Latin, cic/texts/optatus_libri-vii-lat_ziwsa1893-csel26-tei.txt lines 589-590",
+     "note": "Parmenian's words, as his opponent quotes them."
+    },
+    {
+     "when": "\"sixty years and more\" after the persecution",
+     "text": "Optatus writes that the rival side are schismatics, outside the Catholic Church, who yet share its true sacraments. Heretics, to him, are those who have falsified the creed.",
+     "reference": "Optatus, Against the Donatists I.10-13, cic/texts/optatus_against-the-donatists.txt lines 143, 155, 169, 177"
+    }
+   ]
+  },
+  {
+   "when": "While Augustine is a priest at Hippo",
+   "headline": "Augustine is made a priest, and pleads with his people over the feast they call the Gladness",
+   "witness": "Augustine, in his own letters and books, and Possidius, his friend and fellow bishop",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Valerius, bishop of Hippo, asks the people to find a priest for the city. They lay hold of Augustine, standing among them, and bring him to be ordained while he weeps. He later says he foresaw the dangers of governing the church.",
+     "reference": "Possidius, Life of Augustine 4, cic/texts/possidius_vita-augustini_weiskotten1919.txt lines 1803-1818, 1860-1863"
+    },
+    {
+     "when": "date unknown",
+     "text": "The people will not bear the ban on a feast in the church they call the Gladness, which, Augustine writes, hides drunkenness under its name.",
+     "reference": "Augustine, Letter 29.2, cic/texts/augustine_epistulae-1-123-lat_goldbacher-csel34.txt lines 6258-6264; English, cic/texts/npnf101_augustine-confessions-letters.xml lines 25340-25347"
+    },
+    {
+     "when": "date unknown",
+     "text": "Augustine reads the people Scripture against drunkenness and pleads with them by Christ's sufferings and by the love of their old bishop. They weep, and he weeps with them.",
+     "reference": "Augustine, Letter 29.5-7, cic/texts/augustine_epistulae-1-123-lat_goldbacher-csel34.txt lines 6467-6524; English, cic/texts/npnf101_augustine-confessions-letters.xml lines 25405-25516"
+    },
+    {
+     "when": "the next day",
+     "text": "Some at Hippo still ask why the Gladness is forbidden now, since those before them who allowed it were Christians.",
+     "reference": "Augustine, Letter 29.8, cic/texts/augustine_epistulae-1-123-lat_goldbacher-csel34.txt lines 6529-6547; English, cic/texts/npnf101_augustine-confessions-letters.xml lines 25519-25548"
+    },
+    {
+     "when": "date unknown",
+     "text": "Augustine tells the people at Hippo that, as he understands it, after the persecutions the church's forebears let newcomers keep feasts for the martyrs in place of the idol feasts they gave up.",
+     "reference": "Augustine, Letter 29.9, cic/texts/augustine_epistulae-1-123-lat_goldbacher-csel34.txt lines 6571-6588; English, cic/texts/npnf101_augustine-confessions-letters.xml lines 25549-25573",
+     "note": "Augustine's own explanation."
+    },
+    {
+     "when": "that afternoon",
+     "text": "Augustine's people hear, from the church of the heretics, the noise of its usual feasting. In their own church, a great number of men and women stay singing hymns until the light fails.",
+     "reference": "Augustine, Letter 29.11, cic/texts/augustine_epistulae-1-123-lat_goldbacher-csel34.txt lines 6647-6687; English, cic/texts/npnf101_augustine-confessions-letters.xml lines 25606-25645"
+    },
+    {
+     "when": "date unknown",
+     "text": "At Hasna, Augustine writes, men he calls Circumcelliones break into the church and smash the altar, and the case is before the courts.",
+     "reference": "Augustine, Letter 29.12, cic/texts/npnf101_augustine-confessions-letters.xml lines 25646-25651"
+    },
+    {
+     "when": "date unknown",
+     "text": "Augustine writes a psalm against the party of Donatus for the plainest people to sing and remember, its verses running through the Latin alphabet as far as the letter V.",
+     "reference": "Augustine, Retractations I.20, cic/texts/augustine_retractationes-lat_knoll-csel36.txt lines 6833-6838"
+    }
+   ]
+  },
+  {
+   "when": "While Augustine is bishop of Hippo",
+   "headline": "The bishop preaches, judges and gives",
+   "witness": "Possidius, Augustine's friend and fellow bishop, and Augustine's own writings",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Possidius writes that the Catholic church in Africa had long lain low. The rebaptizing party of Donatus, he says, held a large multitude of Africans, some of them living in Hippo and the towns nearby.",
+     "reference": "Possidius, Life of Augustine 7, 9, cic/texts/possidius_vita-augustini_weiskotten1919.txt lines 2060-2064, 2201-2202",
+     "note": "Possidius's account."
+    },
+    {
+     "when": "date unknown",
+     "text": "Augustine preaches at home and in church, and people of the rival church come with the Catholics to hear him, bringing writers to take down what he says.",
+     "reference": "Possidius, Life of Augustine 7, cic/texts/possidius_vita-augustini_weiskotten1919.txt lines 2013-2018, 2063-2069"
+    },
+    {
+     "when": "date unknown",
+     "text": "As bishop, Augustine hears the cases of Christians and of men of any sect, since Paul told believers not to go to law before unbelievers, sometimes until mealtime and sometimes fasting all day.",
+     "reference": "Possidius, Life of Augustine 19, cic/texts/possidius_vita-augustini_weiskotten1919.txt lines 3136-3161"
+    },
+    {
+     "when": "date unknown",
+     "text": "When the church's money runs out, Augustine tells the people he has nothing to give the poor. For captives and the needy, he has the church's sacred vessels broken up and melted down.",
+     "reference": "Possidius, Life of Augustine 24, cic/texts/possidius_vita-augustini_weiskotten1919.txt lines 3597-3604"
+    },
+    {
+     "when": "date unknown",
+     "text": "Deogratias, a deacon of Carthage to whom newcomers are brought for their first teaching in the faith, asks Augustine to write him how to teach them.",
+     "reference": "Augustine, On Instructing Beginners 1, cic/texts/augustine_de-catechizandis-rudibus-lat-eng_christopher1926.txt lines 1793-1810"
+    },
+    {
+     "when": "date unknown",
+     "text": "At first, Augustine writes, he wanted the rival church won by argument only. Then his fellow bishops pointed to his own town, once wholly for Donatus and brought over by fear of the emperors' laws, and he gave way. Those laws punished the rival church with exile and fines.",
+     "reference": "Augustine, Letter 93.10, 93.16-17, cic/texts/npnf101_augustine-confessions-letters.xml lines 38000-38010, 38240-38258"
+    },
+    {
+     "when": "on Cyprian's feast",
+     "text": "Augustine preaches that at Carthage, where a savage crowd once gathered to shed Cyprian's blood, a crowd now gathers to honor him. The table built for God there is called Cyprian's table, he says, because there Cyprian was offered.",
+     "reference": "Augustine, Sermon 310.2, cic/texts/augustine_sermones-1-340-lat_migne-pl38.txt lines 99269-99292"
+    }
+   ]
+  },
+  {
+   "when": "Augustine's last years, to 430",
+   "headline": "The Vandals overrun Africa, and Augustine dies in besieged Hippo",
+   "witness": "Possidius, who shared the siege",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Vandals and Alans, with some Goths and other peoples, cross by ship from Spain and overrun Africa. Of countless churches, only those of Carthage, Hippo and Cirta still stand, and the hymns and praises of God perish from the churches.",
+     "reference": "Possidius, Life of Augustine 28, cic/texts/possidius_vita-augustini_weiskotten1919.txt lines 3982-3985, 4011-4013, 4068-4071"
+    },
+    {
+     "when": "date unknown",
+     "text": "A fellow bishop, Honoratus, writes to ask whether bishops and clergy should leave their churches as the enemy approaches. Augustine answers that one who is sought in particular may flee, but when the danger is common to all, those who need the clergy must not be left by them.",
+     "reference": "Possidius, Life of Augustine 30, cic/texts/possidius_vita-augustini_weiskotten1919.txt lines 4201-4209, 4281-4285, 4318-4326"
+    },
+    {
+     "when": "date unknown",
+     "text": "If the clergy stay, Augustine writes, all are helped: some are baptized, others reconciled, and none is cheated of communion. Possidius copies the letter into his Life as very useful, even necessary, for priests.",
+     "reference": "Possidius, Life of Augustine 30, cic/texts/possidius_vita-augustini_weiskotten1919.txt lines 4201-4209, 4588-4593"
+    },
+    {
+     "when": "date unknown",
+     "text": "The Vandals besiege Hippo for almost fourteen months. Possidius and other bishops take refuge there.",
+     "reference": "Possidius, Life of Augustine 28, cic/texts/possidius_vita-augustini_weiskotten1919.txt lines 4082-4087, 4127"
+    },
+    {
+     "when": "\"in the third month of the siege\"",
+     "text": "Augustine falls ill with fever. Up to his last illness he preaches in the church with a clear mind.",
+     "reference": "Possidius, Life of Augustine 29, 31, cic/texts/possidius_vita-augustini_weiskotten1919.txt lines 4144-4148, 4936-4938"
+    },
+    {
+     "when": "28 August, when Theodosius and Valentinian were consuls",
+     "text": "Augustine dies, aged seventy-six, Possidius says, almost forty years of them as priest or bishop.",
+     "reference": "Prosper, Chronicle, cic/texts/prosper_chronica-minora-1-lat_mommsen1892.txt lines 54201-54208; Possidius, Life of Augustine 31, cic/texts/possidius_vita-augustini_weiskotten1919.txt lines 4919-4920"
+    },
+    {
+     "when": "after Augustine's death",
+     "text": "Hippo, abandoned by its people, is burned by the enemy.",
+     "reference": "Possidius, Life of Augustine 28, cic/texts/possidius_vita-augustini_weiskotten1919.txt lines 4071-4073"
+    }
+   ]
+  },
+  {
+   "when": "After Augustine",
+   "headline": "Carthage falls, and later writers remember Cyprian and Augustine",
+   "lines": [
+    {
+     "when": "439",
+     "text": "Gaiseric takes Carthage by a trick of peace.",
+     "reference": "Prosper, Chronicle, cic/texts/prosper_chronica-minora-1-lat_mommsen1892.txt lines 54558-54561"
+    },
+    {
+     "when": "6th century",
+     "text": "Procopius writes that the people of Carthage revere Cyprian above all others, and keep a festival called the Cypriana at his church by the sea, which the Vandals took from the Christians.",
+     "reference": "Procopius, History of the Wars III.21, cic/texts/procopius_wars-3-4-vandalic_dewing1916.txt lines 2206-2214"
+    },
+    {
+     "when": "6th century",
+     "text": "Facundus, bishop of Hermiane, calls Cyprian bishop of Carthage and martyr, and Augustine the most wise and most famous teacher of the churches of Christ.",
+     "reference": "Facundus, In Defense of the Three Chapters, cic/texts/facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt lines 42540-42541, 43120-43121"
+    },
+    {
+     "when": "16th century",
+     "text": "Calvin writes that he could fill a whole book from Augustine on God's choice of whom to call.",
+     "reference": "Calvin, Institutes III.22, cic/texts/calvin_institutes-christian-religion-vol2_beveridge1845.txt lines 25387-25392"
+    }
+   ]
+  }
+ ],
+ "briefSources": [
+  {
+   "title": "Letters, Latin text, ed. Hartel",
+   "author": "Cyprian of Carthage",
+   "file": "cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt"
+  },
+  {
+   "title": "Letters and On the Lapsed, and Pontius's Life of Cyprian, in English",
+   "author": "Cyprian of Carthage",
+   "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+  },
+  {
+   "title": "Life of Cyprian and the Acta of his trials, Latin text",
+   "author": "Pontius",
+   "file": "cic/texts/cyprian_opera-spuria-vita-pontius-lat_hartel-csel3-pars3.txt"
+  },
+  {
+   "title": "Life of Augustine, Latin and English",
+   "author": "Possidius",
+   "file": "cic/texts/possidius_vita-augustini_weiskotten1919.txt"
+  },
+  {
+   "title": "Letters 29 and 93, Latin text",
+   "author": "Augustine of Hippo",
+   "file": "cic/texts/augustine_epistulae-1-123-lat_goldbacher-csel34.txt"
+  },
+  {
+   "title": "Letters 29 and 93, in English",
+   "author": "Augustine of Hippo",
+   "file": "cic/texts/npnf101_augustine-confessions-letters.xml"
+  },
+  {
+   "title": "Against the Donatists, in English",
+   "author": "Optatus of Milevis",
+   "file": "cic/texts/optatus_against-the-donatists.txt"
+  },
+  {
+   "title": "Church History, Book VI, on Decius",
+   "author": "Eusebius of Caesarea",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+  }
+ ],
+ "uncertain": [
+  "Cyprian's withdrawal in 250. His own letters give his reason: the crowd kept shouting for him, and he left for his people's peace, so as not to stir the riot further, and led them by letter. The Roman clergy's letter on the hired man who leaves the sheep, and his deacon Pontius's long defense, show that the withdrawal was questioned.",
+  "The charge behind the split at Carthage. The rival side said that the bishop who had made Caecilian bishop had handed over the Scriptures to be burned. Optatus, a Catholic bishop writing some sixty years later, says the charge was false, and quotes a hearing that cleared that bishop, Felix. The old sources give the split no year beyond soon after the great persecution.",
+  "The rival church speaks only through its enemies. Its own rule, that one who was stained could not wash away sins, survives in Optatus's quotation of its bishop Parmenian. Possidius says that in Augustine's early years the rebaptizing Donatist party held a large multitude of the Africans, while the Catholic church had long lain prostrate.",
+  "Who the heretics were at the Gladness. Augustine's letter says only that the sound of feasting came from the church of the heretics. That they were the Donatists rests on Possidius, who says Donatists lived in Hippo and the towns nearby. Optatus used the word differently: he called the Donatists schismatics, who had gone outside the church yet shared its true sacraments, and kept heretics for those who taught falsely about God.",
+  "The plague. Its account rests on Pontius, Cyprian's deacon and admirer, who says that people fled the sick and left their own, and that the dead lay through the whole city.",
+  "Several dates rest on modern reckoning, not on the old sources: Cyprian's election as bishop, the year of the plague, the years Augustine was made priest and bishop, and the years of his letters on the Gladness and on staying with the people."
+ ],
+ "quotationOriginals": [
+  {
+   "modern": "I did not move their tears with my own. But as these things were said, I confess, their weeping came first, and I could not hold back mine. When we had wept together, my sermon ended in the fullest hope that they would mend their ways.",
+   "printed": "non ego illorum lacrimas meis lacrimis moui, sed cum talia dicerentur, fateor, eorum fletu praeuentus meum abstinere non potui, et cum iam pariter fleuissemus, plenissima spe correctionis illorum finis sermonis mei factus est.",
+   "work": "Augustine, Letter 29.7, to Alypius (ed. A. Goldbacher, CSEL 34, 1895)",
+   "file": "cic/texts/augustine_epistulae-1-123-lat_goldbacher-csel34.txt",
+   "lines": "6521-6524",
+   "uncertain": "The scan prints a stray mark, a misread line number, before plenissima; it is left out here.",
+   "englishPrinted": "I did not move them to weep by first weeping myself; but while these things were being spoken, I own that, moved by the tears which they began to shed, I myself could not refrain from following their example. And when we had thus wept together, I concluded my sermon with full persuasion that they would be restrained by it from the abuses denounced.",
+   "englishFile": "cic/texts/npnf101_augustine-confessions-letters.xml",
+   "englishLines": "25511-25516",
+   "secondReading": "minor"
+  },
+  {
+   "modern": "I could not write back alone. From my first days as bishop I resolved to do nothing on my own private judgment, without your counsel and the people's consent.",
+   "printed": "solus rescribere nihil potui, quando a primordio episcopatus mei statuerim nihil sine consilio uestro et sine consensu plebis mea priuatim sententia gerere.",
+   "work": "Cyprian, Letter 14.4, to his priests and deacons, 250 (ed. W. Hartel, CSEL 3.2, 1871)",
+   "file": "cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt",
+   "lines": "2293-2296",
+   "englishPrinted": "I have not been able to reply by myself, since, from the first commencement of my episcopacy, I made up my mind to do nothing on my own private opinion, without your advice and without the consent of the people.",
+   "englishFile": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
+   "englishLines": "29119-29122",
+   "secondReading": "same"
+  },
+  {
+   "modern": "But if the clergy are there, everyone is helped, as far as the Lord gives them strength. Some are baptized, others are reconciled. No one is cheated of communion in the Lord's body. All are comforted, built up and urged to ask God, who has the power to turn away all that is feared.",
+   "printed": "Si autem ministri adsint, pro viribus quas eis Dominus subministrat, omnibus subvenitur; alii baptizantur, alii reconciliantur, nulli Dominici corporis communione fraudantur, omnes consolantur, aedificantur, exhortantur, ut Deum rogent, qui potens est omnia quae timentur avertere",
+   "work": "Augustine, Letter 228.8, to Honoratus, as Possidius copies it in his Life of Augustine (ed. and tr. H. T. Weiskotten, 1919)",
+   "file": "cic/texts/possidius_vita-augustini_weiskotten1919.txt",
+   "lines": "4556-4561",
+   "uncertain": "Words broken across lines are joined, and a misread line number inside the span is left out. Goldbacher's Latin of the letter agrees. Ministri is the clergy.",
+   "englishPrinted": "But if the ministers are present they are a help to all, according to the strength which the Lord gives them : some are baptized, others are reconciled, none are deprived of the communion of the body of the Lord, all are consoled, edified and exhorted to ask of God, who hath the power to avert all the things they fear",
+   "englishFile": "cic/texts/possidius_vita-augustini_weiskotten1919.txt",
+   "englishLines": "4588-4593",
+   "secondReading": "same"
+  }
+ ]
+}

@@ -1,0 +1,212 @@
+{
+ "id": "the-sister-who-saw-visions-during-the-service",
+ "kind": "story",
+ "title": "The Sister Who Saw Visions During the Service",
+ "dates": "In Tertullian's day",
+ "datesNote": "On the Soul gives no year: the sister is \"now amongst us\" as Tertullian writes. Jerome says Tertullian flourished chiefly in the reigns of Severus and Antoninus Caracalla.",
+ "place": "Tertullian's church, at Carthage",
+ "placeNote": "The passage names no city. Jerome says Tertullian was from Carthage, in the province of Africa.",
+ "shortDescription": "Tertullian, a Christian writer, tells of a woman in his church who sees visions during the Sunday service and speaks with angels, and at times with the Lord. After the people leave, she reports what she saw, and every word is carefully tested.",
+ "directLine": {
+  "toldUnder": [
+   {
+    "id": "montanism-the-new-prophecy",
+    "name": "Montanism (the New Prophecy)",
+    "as": "a documented story on its card"
+   }
+  ],
+  "actsInIt": [
+   {
+    "id": "tertullian-s-voice",
+    "name": "Tertullian",
+    "as": "the writer who hears her reports and sets them down"
+   }
+  ]
+ },
+ "text": "Tertullian, defending the New Prophecy against the charge of disorder, described how it actually worked in his own congregation. ‘We have now amongst us a sister whose lot it has been to be favoured with sundry gifts of revelation, which she experiences in the Spirit by ecstatic vision amidst the sacred rites of the Lord’s day in the church.’ She converses with angels, sometimes with the Lord; she sees and hears ‘mysterious communications’; she reads hearts and prescribes remedies for those who ask. What Tertullian wants his readers to notice is the discipline around it. She does not interrupt. ‘After the people are dismissed at the conclusion of the sacred services, she is in the regular habit of reporting to us whatever things she may have seen in vision, for all her communications are examined with the most scrupulous care, in order that their truth may be probed.’ On the day in question she had seen a soul in bodily form — ‘tender and lucid and of the colour of air’ — which is why Tertullian cites her in a treatise on the soul. It is one of the very few descriptions of a Montanist gathering from a participant rather than an enemy, and it does not look like the frenzy the opponents described: a woman with a recognized gift, a congregation that valued it, and elders who tested every word before receiving it.",
+ "textSources": [
+  {
+   "title": "A Treatise on the Soul (De anima), ch. 9",
+   "author": "Tertullian",
+   "file": "cic/texts/anf03_tertullian.xml"
+  },
+  {
+   "title": "De anima, ch. 9, Latin, ed. Reifferscheid and Wissowa (CSEL 20)",
+   "author": "Tertullian",
+   "file": "cic/texts/tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt"
+  }
+ ],
+ "timeline": [
+  {
+   "when": "In Tertullian's day",
+   "headline": "A sister's visions in the Sunday service, tested afterward",
+   "witness": "Tertullian, On the Soul 9, writing of a woman of his own church",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "A sister of the church has gifts of revelation. She receives them in the Spirit, in ecstasy, during the service of the Lord's day.",
+     "reference": "Tertullian, On the Soul 9, cic/texts/anf03_tertullian.xml lines 15805-15808; Latin, cic/texts/tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt lines 17469-17471"
+    },
+    {
+     "when": "date unknown",
+     "text": "She speaks with angels, and at times with the Lord. She sees and hears hidden things, knows the hearts of some, and gives remedies to those who want them.",
+     "reference": "Tertullian, On the Soul 9, cic/texts/anf03_tertullian.xml lines 15808-15810; Latin, cic/texts/tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt lines 17471-17473",
+     "note": "A wonder, in Tertullian's report."
+    },
+    {
+     "when": "date unknown",
+     "text": "Her visions take their matter from the service itself: the reading of Scripture, the singing of psalms, the sermons and the prayers.",
+     "reference": "Tertullian, On the Soul 9, cic/texts/anf03_tertullian.xml lines 15810-15814; Latin, cic/texts/tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt lines 17474-17476"
+    },
+    {
+     "when": "on one occasion",
+     "text": "Tertullian and those with him happen to have been discussing the soul while she is in the Spirit.",
+     "reference": "Tertullian, On the Soul 9, cic/texts/anf03_tertullian.xml lines 15814-15816; Latin, cic/texts/tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt lines 17476-17477"
+    },
+    {
+     "when": "after the service",
+     "text": "When the people have been dismissed, she reports what she saw, as is her habit. Everything she reports is examined with great care, to test whether it is true.",
+     "reference": "Tertullian, On the Soul 9, cic/texts/anf03_tertullian.xml lines 15816-15820; Latin, cic/texts/tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt lines 17477-17479"
+    },
+    {
+     "when": "after the service",
+     "text": "She says she was shown a soul in bodily form, one that could be grasped, tender, clear and the color of air, and human in shape.",
+     "reference": "Tertullian, On the Soul 9, cic/texts/anf03_tertullian.xml lines 15820-15825; Latin, cic/texts/tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt lines 17498-17501",
+     "note": "A wonder, in the sister's own report as Tertullian gives it."
+    }
+   ]
+  },
+  {
+   "when": "When Tertullian writes",
+   "headline": "Her vision set down as evidence about the soul",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "Tertullian records her vision in his book On the Soul, as proof by revelation that the soul has a bodily nature, with God as her witness.",
+     "reference": "Tertullian, On the Soul 9, cic/texts/anf03_tertullian.xml lines 15798-15802, 15825-15828"
+    },
+    {
+     "when": "in the reigns of Severus and Caracalla",
+     "text": "Jerome says Tertullian flourished chiefly in these reigns.",
+     "reference": "Jerome, Lives of Illustrious Men 53, cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40495-40499"
+    }
+   ]
+  }
+ ],
+ "peopleAndStories": {
+  "people": [
+   {
+    "name": "The sister",
+    "as": "a woman of Tertullian's church with gifts of revelation; he does not name her",
+    "reference": "cic/texts/anf03_tertullian.xml lines 15805-15806"
+   },
+   {
+    "id": "tertullian-s-voice",
+    "name": "Tertullian",
+    "as": "the writer to whom she reports, \"reporting to us\"; from Carthage, Jerome says",
+    "reference": "cic/texts/anf03_tertullian.xml lines 15817-15818; cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml lines 40496"
+   }
+  ],
+  "stories": [
+   {
+    "title": "Zoticus Tries to Silence Maximilla’s Spirit",
+    "entry": "montanism-the-new-prophecy",
+    "as": "the other documented story on the same card; it shares no event or text with this one"
+   }
+  ]
+ },
+ "whoTellsIt": [
+  "Tertullian tells it, in his book On the Soul. The sister is \"now amongst us\" as he writes, and she reports \"to us\": he writes from inside her church, at the time.",
+  "He tells it to prove a point about the soul: that it has a body, which he says revelation confirms as well as reason.",
+  "He wrote as a follower of the New Prophecy. In the same book he speaks of \"the true system of prophecy, which has arisen in this present age\". Jerome, writing later, says Tertullian \"lapsed to the doctrine of Montanus, and mentions the new prophecy in many of his books.\"",
+  "No one else records the sister, and Tertullian does not name her."
+ ],
+ "connections": [
+  {
+   "id": "montanism-the-new-prophecy",
+   "as": "the entry it is told under"
+  },
+  {
+   "edge": "montanism-the-new-prophecy--tertullian-s-voice",
+   "type": "influenced",
+   "confidence": "Documented",
+   "as": "the link between the movement and the writer who tells this story"
+  }
+ ],
+ "legacyAndToday": "Nothing held yet: no later old writer in the Library has been found who keeps or quotes this passage.",
+ "uncertain": [
+  "Tertullian is a sympathetic contemporary and an eyewitness, but a partisan. The woman is unnamed and no one else records her.",
+  "Whether every New Prophecy congregation examined visions this carefully cannot be known.",
+  "When. On the Soul gives no year. Jerome says Tertullian flourished chiefly in the reigns of Severus and Caracalla.",
+  "Where. The passage names no city. Carthage rests on Jerome's word that Tertullian came from there.",
+  "Who examined her words. Tertullian says she reported \"to us\", and does not say who \"us\" were."
+ ],
+ "sources": [
+  {
+   "work": "Tertullian, A Treatise on the Soul (De anima), ch. 9, ANF 3",
+   "file": "cic/texts/anf03_tertullian.xml",
+   "lines": "15798-15828",
+   "quotes": [
+    {
+     "inText": "We have now amongst us a sister whose lot it has been to be favoured with sundry gifts of revelation, which she experiences in the Spirit by ecstatic vision amidst the sacred rites of the Lord’s day in the church.",
+     "printed": "We have now amongst us a sister whose lot it has been to be favoured with sundry gifts of revelation, which she experiences in the Spirit by ecstatic vision amidst the sacred rites of the Lord’s day in the church",
+     "lines": "15805-15808"
+    },
+    {
+     "inText": "mysterious communications",
+     "printed": "mysterious communications",
+     "lines": "15809"
+    },
+    {
+     "inText": "After the people are dismissed at the conclusion of the sacred services, she is in the regular habit of reporting to us whatever things she may have seen in vision, for all her communications are examined with the most scrupulous care, in order that their truth may be probed.",
+     "printed": "After the people are dismissed at the conclusion of the sacred services, she is in the regular habit of reporting to us whatever things she may have seen in vision (for all her communications are examined with the most scrupulous care, in order that their truth may be probed).",
+     "lines": "15816-15820"
+    }
+   ]
+  },
+  {
+   "work": "Tertullian, De anima 9, Latin, ed. Reifferscheid and Wissowa (CSEL 20, 1890)",
+   "file": "cic/texts/tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt",
+   "lines": "17465-17479, 17498-17501",
+   "quotes": [
+    {
+     "inText": "tender and lucid and of the colour of air",
+     "original": "tenera et lucida et aerii coloris",
+     "lines": "17500-17501",
+     "note": "The story's English renders the Latin. The held English (ANF 3, lines 15823-15824) reads \"soft and transparent and of an etherial colour\"."
+    }
+   ]
+  },
+  {
+   "work": "Jerome, Lives of Illustrious Men 53, NPNF 2.3",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "40495-40509",
+   "quotes": [
+    {
+     "printed": "was from the city of Carthage in the province of Africa",
+     "lines": "40496"
+    },
+    {
+     "printed": "he flourished chiefly in the reign of the emperor Severus and Antoninus Caracalla",
+     "lines": "40498-40499"
+    }
+   ]
+  }
+ ],
+ "modernWorks": [
+  {
+   "title": "Montanism: Gender, Authority and the New Prophecy",
+   "author": "Christine Trevett",
+   "year": "1996",
+   "publisher": "Cambridge",
+   "note": "On women prophets in the movement and this passage."
+  },
+  {
+   "title": "The Passion of S. Perpetua",
+   "author": "J. Armitage Robinson",
+   "year": "1891",
+   "file": "cic/texts/perpetua-scillitan-martyrs-lat-grc_robinson1891.txt",
+   "note": "Prints the Latin of this passage in its notes on the visions in the Passion of Perpetua."
+  }
+ ]
+}

@@ -1,0 +1,195 @@
+{
+ "id": "post-apostolic-house-church--montanism-the-new-prophecy",
+ "kind": "connection",
+ "title": "The Scattered Households argued against Montanism",
+ "dates": "The second century, while the New Prophecy was new",
+ "datesNote": "No old source gives a year for the meetings. The anonymous writer says Montanus began when Gratus was proconsul of Asia, and gives no year. He wrote more than thirteen years after Maximilla's death.",
+ "place": "The Roman province of Asia, in what is now western Turkey",
+ "shortDescription": "Christians in the Roman province of Asia met often, in many places, to test the sayings of the New Prophecy, a movement of prophets from Phrygia. They judged the sayings profane and put its followers out of the church.",
+ "directLine": {
+  "from": {
+   "id": "post-apostolic-house-church",
+   "name": "Scattered Households"
+  },
+  "to": {
+   "id": "montanism-the-new-prophecy",
+   "name": "Montanism"
+  },
+  "kind": "argued against",
+  "confidence": "Documented",
+  "confidenceInWords": "Documented: a writer of the time says it happened, and Eusebius copied his words."
+ },
+ "text": "Eusebius of Caesarea quotes a writer of about 192 whose name is lost. He says the faithful of Asia met many times to test what the prophets of Phrygia taught. They found it to be heresy, and cut those who held it off from communion. Apolinarius, bishop of Hierapolis, also wrote against the Phrygians.",
+ "timeline": [
+  {
+   "when": "When Gratus was proconsul of Asia",
+   "headline": "Prophets appear in Phrygia",
+   "witness": "The anonymous writer against them, a presbyter, as Eusebius copied him",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "At Ardabau, a village of Mysia on the border of Phrygia, the writer has heard, a recent convert named Montanus, driven, he says, by a desire to lead, falls into what he calls a frenzy and ecstasy, and prophesies against the custom handed down in the church.",
+     "reference": "Eusebius, Church History V.16.7, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 29577-29592, 29617-29629"
+    },
+    {
+     "when": "date unknown",
+     "text": "Two women also prophesy in the same way. The spirit, the writer says, taught them to revile the whole church, because the church gave it neither honor nor entrance.",
+     "reference": "Eusebius, Church History V.16.9, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 29692, 29707-29719"
+    }
+   ]
+  },
+  {
+   "when": "While the movement was new",
+   "headline": "The churches of Asia test the prophets and cast them out",
+   "witness": "The anonymous writer, as Eusebius copied him",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "The faithful of Asia meet often, in many places, examine the new sayings, pronounce them profane and reject the heresy. Its followers are expelled from the church and barred from communion.",
+     "reference": "Eusebius, Church History V.16.10, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 29721-29738; second English, cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml line 11308"
+    },
+    {
+     "when": "date unknown",
+     "text": "Bishops try to refute the spirit in Maximilla, among them Zoticus of Comana and Julian of Apamea, and her followers stop them.",
+     "reference": "Eusebius, Church History V.16.16-17, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 29823-29826, 29852-29878"
+    },
+    {
+     "when": "date unknown",
+     "text": "The prophets' side calls their opponents slayers of the prophets, for refusing prophets they say the Lord promised to send.",
+     "reference": "Eusebius, Church History V.16.12, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 29745-29754"
+    },
+    {
+     "when": "while Montanus \"was then laying the foundations of his error\"",
+     "text": "Apolinarius, bishop of Hierapolis, writes against the heresy of the Phrygians.",
+     "reference": "Eusebius, Church History IV.27, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 26111-26112, 26147-26150; V.19.2, lines 30561-30562",
+     "note": "Eusebius's own placing of the writings."
+    }
+   ]
+  },
+  {
+   "when": "After Maximilla's death, to Eusebius's day",
+   "headline": "The case against them written down and passed on",
+   "lines": [
+    {
+     "when": "date unknown",
+     "text": "The anonymous writer, a presbyter, disputes against the prophets for many days in the church at Ancyra in Galatia.",
+     "reference": "Eusebius, Church History V.16.4-5, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 29519-29544"
+    },
+    {
+     "when": "more than thirteen years after Maximilla's death",
+     "text": "He writes his books against them for Avircius Marcellus.",
+     "reference": "Eusebius, Church History V.16.3 and V.16.19, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 29455-29456, 29886-29888"
+    },
+    {
+     "when": "date unknown",
+     "text": "Serapion, bishop of Antioch, sends on the writings of Apolinarius against the New Prophecy.",
+     "reference": "Eusebius, Church History V.19.2, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 30557-30562"
+    },
+    {
+     "when": "Eusebius's own day",
+     "text": "Eusebius copies the anonymous writer's account into his Church History.",
+     "reference": "Eusebius, Church History V.16.1-3, cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 29432-29451"
+    }
+   ]
+  }
+ ],
+ "peopleAndStories": {
+  "people": [
+   {
+    "name": "The anonymous writer",
+    "as": "a presbyter who argued against the prophets and wrote the account Eusebius copied",
+    "reference": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 29447-29448, 29543-29544"
+   },
+   {
+    "name": "Apolinarius",
+    "as": "bishop of Hierapolis in Asia, who wrote against them",
+    "reference": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 26111-26112, 30561-30562"
+   },
+   {
+    "name": "Zoticus and Julian",
+    "as": "bishops, of Comana and Apamea, who came to refute the spirit in Maximilla",
+    "reference": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 29855-29872"
+   },
+   {
+    "name": "Montanus and Maximilla",
+    "as": "prophets of the New Prophecy",
+    "reference": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml lines 29617-29619, 29823-29826"
+   },
+   {
+    "id": "eusebius-of-caesarea",
+    "name": "Eusebius of Caesarea",
+    "as": "the historian who copied the account"
+   }
+  ],
+  "stories": [
+   {
+    "title": "Zoticus Tries to Silence Maximilla’s Spirit",
+    "entry": "montanism-the-new-prophecy",
+    "as": "the bishops' attempt on Maximilla's spirit, told as a documented story"
+   }
+  ]
+ },
+ "whatPassed": [
+  "A judgment: the faithful of Asia examined the prophets' sayings, pronounced them profane and rejected them as heresy (HE V.16.10, lines 29721-29736).",
+  "A break in fellowship: those who held the sayings were expelled from the church and barred from communion, shut out of its shared meal (lines 29736-29738).",
+  "Writings against them: Apolinarius of Hierapolis wrote against the heresy of the Phrygians (HE IV.27, lines 26111-26112), and the anonymous writer's books carried the case on (lines 29455-29456).",
+  "From the other side, a charge in return: the prophets' side called their opponents slayers of the prophets (HE V.16.12, lines 29745-29754)."
+ ],
+ "connections": [
+  {
+   "edge": "montanism-the-new-prophecy--tertullian-s-voice",
+   "type": "influenced",
+   "as": "the New Prophecy taken up at Carthage"
+  },
+  {
+   "edge": "imperial-juridical-christianity--montanism-the-new-prophecy",
+   "type": "argued against",
+   "as": "a later link against the same movement"
+  },
+  {
+   "edge": "byzantine-imperial-church-justinianic--montanism-the-new-prophecy",
+   "type": "argued against",
+   "as": "a later link against the same movement"
+  },
+  {
+   "note": "No other link joins these two entries. Both sit on the first river, before the rivers divide."
+  }
+ ],
+ "legacyAndToday": [
+  "The case against them was kept because Eusebius copied it into his Church History (HE V.16, lines 29432-29451).",
+  "Jerome later names another writer against them: Apollonius, he says, wrote \"a notable and lengthy volume\" against Montanus, Prisca and Maximilla (NPNF 2.3, lines 40300-40302)."
+ ],
+ "uncertain": [
+  "When the meetings were held, and where. The anonymous writer gives neither a year nor a town for them.",
+  "What exactly the meetings condemned. The writer does not list the sayings. What his own account faults is the manner: frenzy and ecstasy against the church's custom.",
+  "Who Apolinarius's writings were sent to, and whether they were books or letters. Eusebius says only that he wrote them."
+ ],
+ "sources": [
+  {
+   "work": "The anonymous writer against the Montanists, quoted in Eusebius, Church History V.16 (trans. McGiffert, NPNF 2.1)",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "29721-29738",
+   "quote": "For the faithful in Asia met often in many places throughout Asia to consider this matter"
+  },
+  {
+   "work": "The Anonymous anti-Montanist, Book I, quoted in Eusebius HE V.16 (ANF 7, printed as 'Asterius Urbanus')",
+   "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+   "lines": "11308",
+   "quote": "For when the faithful throughout Asia met together often and in many places of Asia for deliberation on this subject, and subjected those novel doctrines to examination, and declared them to be spurious, and rejected them as heretical"
+  },
+  {
+   "work": "Eusebius, Church History IV.27 (trans. McGiffert)",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "26111-26112",
+   "quote": "which he subsequently wrote against the heresy of the Phrygians"
+  },
+  {
+   "work": "Serapion of Antioch, quoted in Eusebius, Church History V.19.2",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "30561-30562",
+   "quote": "Claudius Apolinarius, bishop of Hierapolis in Asia"
+  }
+ ],
+ "modernWorks": [],
+ "modernWorksNote": "None used. The date of about 192 in the note comes from the translator's footnote, a modern reckoning; it is listed for the fix."
+}
