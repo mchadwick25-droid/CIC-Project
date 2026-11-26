@@ -9,3 +9,17 @@ assignments:
   role: context
   confidence: provisional
   note: A sympathetic outside view in the idealizing frame of a saint's life, by a bishop and preacher, written inside this window.
+- row_id: acta-sanctorum_junii-tomus-5-lat_palme1867--niceta-and-paulinus-of-nola
+  work: 'Acta Sanctorum, June V: De S. Niceta seu Nicea, episcopo Romatianae in Dacia, with the passages
+    of Paulinus of Nola''s poems on Niceta''s visits to Nola in the dossier of S. Paulinus'
+  author: acta-sanctorum
+  locus: 'file lines: the Paulinus dossier''s passages on Niceta at about 38479-41595; De S. Niceta seu
+    Nicea from 47708'
+  atlas_ids:
+  - danubian-latin-christianity
+  role: context
+  confidence: assigned
+  note: 'The Bollandists'' dossier on Niceta, and their life of Paulinus, which says Nicetas came to Nola
+    twice ''usque ab Dacis'' (file line 41595) and points to Paulinus''s poems for him. A guide to the
+    old witnesses: Paulinus''s own poems are paulinus-nola_carmina-lat_hartel-csel30-1894, and the Bollandists''
+    years are their own reckoning.'

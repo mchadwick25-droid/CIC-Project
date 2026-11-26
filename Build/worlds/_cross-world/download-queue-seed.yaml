@@ -32657,3 +32657,17 @@ queue:
     verified_by: 'Open-Gaps 417 source-research session, 2026-11-26: archive.org metadata read (London:
       Rivington, 1855; Robarts, University of Toronto copy); not fetched'
     status: not-yet-downloaded
+  - title: Sancti Pontii Meropii Paulini Nolani Carmina (CSEL 30)
+    author: Paulinus of Nola
+    translator: Hartel (ed.)
+    year: '1894'
+    world: danubian-latin-christianity
+    why: 'Open-Gaps 417, Mark''s direction to follow the sources on Niceta of Remesiana: Carmina 17 and
+      27, the primary old witness to him.'
+    url: https://archive.org/details/sanctipontiimer00paulgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1894); the archive.org record gives possible-copyright-status
+      NOT_IN_COPYRIGHT'
+    verified_by: 'Open-Gaps 417 source-research session, 2026-11-26: archive.org metadata read, title page
+      read in the OCR, the wanted passages located, djvu.txt fetched, byte count equal to the listed size'
+    status: downloaded
+    vendored_as: paulinus-nola_carmina-lat_hartel-csel30-1894.txt

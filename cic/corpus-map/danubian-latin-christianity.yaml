@@ -11,6 +11,20 @@ works:
   confidence: assigned
   note: The second copy of Gebhardt's volume; the same act as in gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.
   source_file: acta-martyrum-selecta_gebhardt1902.txt
+- row_id: acta-sanctorum_junii-tomus-5-lat_palme1867--niceta-and-paulinus-of-nola
+  work: 'Acta Sanctorum, June V: De S. Niceta seu Nicea, episcopo Romatianae in Dacia, with
+    the passages of Paulinus of Nola''s poems on Niceta''s visits to Nola in the dossier of
+    S. Paulinus'
+  author: acta-sanctorum
+  locus: 'file lines: the Paulinus dossier''s passages on Niceta at about 38479-41595; De
+    S. Niceta seu Nicea from 47708'
+  role: context
+  confidence: assigned
+  note: 'The Bollandists'' dossier on Niceta, and their life of Paulinus, which says Nicetas
+    came to Nola twice ''usque ab Dacis'' (file line 41595) and points to Paulinus''s poems
+    for him. A guide to the old witnesses: Paulinus''s own poems are paulinus-nola_carmina-lat_hartel-csel30-1894,
+    and the Bollandists'' years are their own reckoning.'
+  source_file: acta-sanctorum_junii-tomus-5-lat_palme1867.txt
 - row_id: acta-sanctorum_martii-tomus-3-lat-grc_palme1865--sirmium-martyrs-irenaeus-montanus
   work: 'Acta Sanctorum, March III: S. Irenaeus, bishop of Sirmium (25 March), and SS. Montanus
     the presbyter, Maxima his wife and forty others, martyrs at Sirmium in Pannonia'
@@ -46,11 +60,11 @@ works:
     of Durostorum'
   author: auxentius-durostorum
   locus: Kauffmann's edition; Palladius and Secundianus at about file lines 448-464 and 707
-  role: context
+  role: tradition
   confidence: assigned
-  note: The Homoian bishops of Ratiaria and Durostorum on the lower Danube in their own words,
-    from the margins of a manuscript. Placement as this entry's voice is a question; context
-    only.
+  note: 'The Homoian bishops of Ratiaria and Durostorum on the lower Danube in their own words,
+    written in the margins of a manuscript: this region''s bishops, so this entry''s own voice,
+    as they are also homoian-arian-christianity''s.'
   source_file: auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt
 - row_id: gebhardt_acta-martyrum-selecta-lat-grc-deu_1902--passio-irenaei-sirmiensis
   work: Passio S. Irenaei episcopi Sirmiensis (Gebhardt 1902)
@@ -61,17 +75,30 @@ works:
   note: The act of the bishop of Sirmium executed under Diocletian. Also in acta-martyrum-selecta_gebhardt1902
     and in Ruinart.
   source_file: gebhardt_acta-martyrum-selecta-lat-grc-deu_1902.txt
+- row_id: npnf203_theodoret-jerome-gennadius-rufinus--gennadius-22-niceta
+  work: 'Gennadius, Lives of Illustrious Men 22: Niceas (Niceta), bishop of Romatia'
+  author: gennadius
+  locus: div v.iv.xxiii, about raw line 42593
+  role: context
+  confidence: assigned
+  note: A late-fifth-century notice of Niceta's six books of instruction for those coming
+    to baptism, with their contents. The editor's note giving his years is a modern guide,
+    not a witness.
+  source_file: npnf203_theodoret-jerome-gennadius-rufinus.xml
 - row_id: hilary_collectanea-antiariana-parisina-fragmenta-historica-lat_feder1916-csel65--danube-homoian-bishops
   work: 'Collectanea antiariana: the letters of Germinius of Sirmium and of Valens and Ursacius,
     and the Sirmium documents'
   author: hilary_poit
   locus: the Series tables at file lines 1159-1208 (Germinius's letter listed at 1166); the
     documents in the body
-  role: context
+  role: tradition
   confidence: assigned
-  note: The surviving Latin letters of the Danube bishops of the Homoian controversy. Whether
-    their own letters count as this entry's voice or belong to homoian-arian-christianity
-    is a placement question; this row is context only.
+  note: 'The surviving Latin letters of bishops of the Danube sees in the Homoian controversy:
+    Germinius of Sirmium, Valens of Mursa, Ursacius of Singidunum. They are this region''s
+    bishops writing in their own words, so they count as this entry''s own voice, and they
+    also stand in homoian-arian-christianity (assignment is not exclusive). Hilary kept them
+    to answer them: a brief gives both their words and their opponents'' charge, and carries
+    neither side forward.'
   source_file: hilary_collectanea-antiariana-parisina-fragmenta-historica-lat_feder1916-csel65.txt
 - row_id: hilary_opera-tomus-posterior-de-synodis-contra-constantium-fragmenta-historica-lat_migne-pl10-1844--de-synodis-sirmium
   work: 'Hilary, De Synodis: the creeds of Sirmium and their anathemas'
@@ -99,11 +126,24 @@ works:
     De symbolo about 10227; this file's line = host line - 47 + 12)
   role: tradition
   confidence: assigned
-  note: A bishop of Remesiana in Dacia, a Latin-speaking see of the central Balkans, whom
-    Paulinus of Nola knew around the turn of the fifth century, so his works sit at the window's
-    end (c. 250-400). The one Danubian Latin writer after Victorinus whose works survive in
-    quantity. Primary, ready to quote once each quote is verified.
+  note: Bishop of Romatia (Gennadius, Lives of Illustrious Men 22), whom Paulinus of Nola's
+    poems send home 'usque Dacos' (Carmen 17), the one Latin writer of the Danube lands after
+    Victorinus whose works survive in quantity. Paulinus's poems place him at the turn of
+    the fifth century, after this entry's map years, so a brief tells him as what came of
+    the tradition, not inside its window. Primary, ready to quote once each quote is verified.
   source_file: niceta-remesiana_life-and-works-lat_burn1905.txt
+- row_id: paulinus-nola_carmina-lat_hartel-csel30-1894--carmina-17-27-niceta
+  work: Paulinus of Nola, Carmen 17 (farewell to Niceta) and Carmen 27 (the ninth poem for
+    Felix, welcoming Niceta again)
+  author: paulinus-nola
+  locus: Carmen 17 from about host OCR line 6675 to 7270; Carmen 27 from about 16540 to 17740
+    (this file's line = host line - 46 + 12)
+  role: context
+  confidence: assigned
+  note: 'The primary old witness to Niceta: a friend''s poems on the bishop who came to Nola
+    from the Dacians and went home to teach the peoples of the north. Context: an Italian
+    witness to the Danube church.'
+  source_file: paulinus-nola_carmina-lat_hartel-csel30-1894.txt
 - row_id: ruinart_acta-martyrum-sincera-lat-grc_ratisbon1859--danube-martyr-acts
   work: 'Ruinart, Acta sincera: the Passio of Irenaeus of Sirmium, of Pollio of Cibalae, of
     Serenus of Sirmium, and of Quirinus of Siscia with Prudentius''s hymn'
