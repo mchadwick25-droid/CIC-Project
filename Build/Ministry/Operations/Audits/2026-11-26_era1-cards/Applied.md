@@ -125,3 +125,35 @@ None. Card_Check_C gives no change to a census text. The census `dates` of the t
 ### Could not place
 
 None.
+
+## Check D
+
+Source: `Card_Check_D.md`. Each change was applied word for word to the card's `<id>.layout.json`. The three layouts still load as JSON. A scratch census copy with the three layouts merged in (`/tmp/claude-0/apply-d/census-copy.json`; the real census was not edited), run with `node tools/validate-census.mjs`: 0 errors, 4 warnings (the four standing shortName warnings). Nothing committed. Line numbers are the checker's.
+
+### Applied (card, finding, field)
+
+| Card | Finding | Field |
+|---|---|---|
+| greek-apologists-second-century | G1 | timeline, line 37 (Tatian), text |
+| greek-apologists-second-century | G2 | timeline, line 6: when, reference |
+| greek-apologists-second-century | G3 | timeline, line 7, note |
+| greek-apologists-second-century | G4 | timeline, line 17, text |
+| greek-apologists-second-century | G5 | timeline, line 31, note removed |
+| greek-apologists-second-century | G6 | timeline, period 5 when; line 32: when, reference |
+| greek-apologists-second-century | G7 | timeline, line 42, reference |
+| greek-apologists-second-century | G8 | timeline, line 45, reference |
+| latin-apologists | L1 | shortDescription |
+| latin-apologists | L2 | timeline, period 4: when, headline |
+| latin-apologists | L3 | timeline, line 12, note |
+| apocryphal-and-pseudepigraphal-literature | P1 | timeline, period 1, when |
+| apocryphal-and-pseudepigraphal-literature | P2 | timeline, line 17, text |
+| apocryphal-and-pseudepigraphal-literature | P3 | timeline, line 2, text |
+| apocryphal-and-pseudepigraphal-literature | P4 | timeline, line 27, reference |
+
+### For existing census texts, not applied here
+
+None. Card_Check_D gives no change to a census text.
+
+### Could not place
+
+None. G9 gives no change to a card (record only, in `Card_Edits_greek-apologists-second-century.md`, rows 7 and 8 "verbatim" cells swapped); not applied.
