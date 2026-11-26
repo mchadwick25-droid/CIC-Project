@@ -10,9 +10,9 @@
   "Bardaisan was a philosopher and poet at the court of King Abgar the Great. His one surviving dialogue argues that free will, not the stars, decides how people live—Christians the world over follow one law, whatever horoscope they were born under. His own later tradition rejected him over a separate question, whether the body itself is raised, and exactly where he stood on it is a question the record leaves open.",
   "Jacob, bishop of Nisibis from about 309 and a signatory at the Council of Nicaea in 325, was remembered as the city's protector through Persian siege — though even his own people could not agree on when he died: the Chronicle of Edessa places it in 337 or 338, while Theodoret's history has him still at his post through a siege.",
   "The daughters of the covenant were women vowed to God for life. Not one line composed by one of them survives; everything known of them, even the words Aphrahat gives one of them to say, was written by men.",
-  "Simeon bar Sabbae, bishop of Seleucia-Ctesiphon, was ordered to collect a crushing new tax on Persia's Christians and refused. Arrested and brought before Shapur II, tradition says he was offered gifts, then threatened, and each time refused to worship the sun. He was executed with his own clergy — tradition remembers him as the first of the persecution's bishops to die for his faith. His death opened the twenty-year vacancy the Persian church endured. The year itself is disputed: 341 by the traditional count, with some historians arguing for 344 instead."
+  "Simeon bar Sabbae, bishop of Seleucia-Ctesiphon, was ordered to collect a crushing new tax on Persia's Christians and refused. Arrested and brought before Shapur II, tradition says he was offered gifts, then threatened, and each time refused to worship the sun. He was executed with his own clergy — tradition remembers him as the first of the persecution's bishops to die for his faith. His death opened the twenty-year vacancy the Persian church endured."
  ],
- "legacy": "Syriac is still a language of worship in the Assyrian Church of the East, the Syriac Orthodox Church, and the Eastern Catholic churches in union with Rome. All of them still sing Ephrem's hymns.\n\nWithin a generation of this tradition's own close, the Gospel harmony Edessa's later founding story pictures these communities reading gave way to a new translation, the Peshitta, and churches began reading the four Gospels separately again. Tradition credits Bishop Rabbula of Edessa (411–435) with the change; historians dispute whether he caused it or only presided over a shift already under way.\n\nMissionaries carried the faith east along the trade routes into Persia and India, and by the seventh century as far as Tang-dynasty China. Centuries later, Syriac translators became the channel through which Greek philosophy and medicine reached the Arabic-speaking world, and from there passed back into Europe.\n\nA separate school of formal theological training later grew up at Nisibis—founded around 490, two generations after this tradition's own record closes—and became one of the ancient world's most important centers of Christian education, distinct from the teaching Jacob and Ephrem had given the same city a century earlier.\n\nThe name of the covenant lasted. The acts of the synod of 410 use it in the king's grant, and in the sixth century John of Ephesus still writes of women becoming \"readers and daughters of the covenant.\" Edessa also kept the memory of Persia's martyrs: Sozomen says some sixteen thousand were known by name, with a multitude beyond counting, and that the people of Edessa took great care over their names.",
+ "legacy": "Syriac is still a language of worship in the Assyrian Church of the East, the Syriac Orthodox Church, and the Eastern Catholic churches in union with Rome. All of them still sing Ephrem's hymns.\n\nWithin a generation of this tradition's own close, the Gospel harmony Edessa's later founding story pictures these communities reading gave way to a new translation, the Peshitta, and churches began reading the four Gospels separately again. Tradition credits Bishop Rabbula of Edessa (411–435) with the change.\n\nMissionaries carried the faith east along the trade routes into Persia and India, and by the seventh century as far as Tang-dynasty China. Centuries later, Syriac translators became the channel through which Greek philosophy and medicine reached the Arabic-speaking world, and from there passed back into Europe.\n\nA separate school of formal theological training later grew up at Nisibis—founded around 490, two generations after this tradition's own record closes—and became one of the ancient world's most important centers of Christian education, distinct from the teaching Jacob and Ephrem had given the same city a century earlier.\n\nThe name of the covenant lasted. The acts of the synod of 410 use it in the king's grant, and in the sixth century John of Ephesus still writes of women becoming \"readers and daughters of the covenant.\" Edessa also kept the memory of Persia's martyrs: Sozomen says some sixteen thousand were known by name, with a multitude beyond counting, and that the people of Edessa took great care over their names.",
  "sources": [
   {
    "work": "Aphrahat, Select Demonstrations",
@@ -30,7 +30,7 @@
   {
    "work": "Tatian, The Diatessaron",
    "type": "primary",
-   "note": "A single continuous gospel woven from all four, used as the standard gospel text in Syriac churches for centuries.",
+   "note": "A single continuous gospel woven from all four, which Edessa's later founding story pictures its people hearing read.",
    "url": "https://www.newadvent.org/fathers/1002.htm"
   },
   {
@@ -83,7 +83,7 @@
   {
    "work": "Ephrem the Syrian, Hymns on the Nativity, Hymns for the Epiphany and The Pearl: Seven Hymns on the Faith",
    "type": "primary",
-   "note": "More of Ephrem's teaching hymns, in the same volume as the Nisibene Hymns; not drawn on by the story.",
+   "note": "More of Ephrem's teaching hymns, in the same volume as the Nisibene Hymns; in The Pearl he sees in a pearl \"mysteries pertaining to the Kingdom.\"",
    "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml"
   },
   {
@@ -93,9 +93,9 @@
    "file": "cic/texts/aphrahat_demonstrationes-1-22-syr-lat_parisot1894.txt"
   },
   {
-   "work": "Socrates, Ecclesiastical History III.22",
+   "work": "Socrates, Ecclesiastical History III.22, VII.8",
    "type": "primary",
-   "note": "The peace of 363 by which Rome, its army starving inside Persia, gave up Nisibis.",
+   "note": "The peace of 363 by which Rome, its army starving inside Persia, gave up Nisibis; and the bishop Maruthas, sent by the Roman emperor on a mission to the king of the Persians.",
    "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
   },
   {
@@ -151,7 +151,8 @@
   "Why the king turned on the Christians of Persia. Sozomen says the Magi were angered when the Christians grew in number, formed churches and appointed priests and deacons, and that the king believed a charge that their bishop was a friend of the Roman emperor. The Syriac acts of the Persian martyrs put the king's reason in his own mouth: that the bishop would make his people servants of the emperor, who shared their faith.",
   "The one-story Gospel. Only Edessa's late founding story, the Doctrine of Addai, has these churches reading the Diatessaron, and no old line places it at Nisibis or across the whole period. The word itself is the St Petersburg manuscript's reading, which confirms the first editor's guess at an unclear word.",
   "The covenant in 410. The synod's acts use the same word for those the king freed, but the editor of the acts reads it there as the whole clergy, monks included, so it is not shown to be the same vowed order Aphrahat wrote for.",
-  "Ephrem's birthplace. Sozomen says he was \"a native of Nisibis, or his family was of the neighboring territory.\""
+  "Ephrem's birthplace. Sozomen says he was \"a native of Nisibis, or his family was of the neighboring territory.\"",
+  "Why the later king changed course. The acts of 410 say his grant came about in the time of Mar Isaac, through the work of the bishop Marutha, the go-between of peace and concord between East and West, and of the bishops of the Romans. Socrates, a generation later, has the Roman emperor send Maruthas to the Persian king. No old line gives the king's own reason, and the acts do not say whether East and West mean the two empires or the two churches."
  ],
  "briefReferences": [
   "The Chronicle of Edessa, entry 8 (line 53): in November of the year 513 of the Greeks, after a great and violent rain in the night, the river broke down the western wall. King Abgar had stood on the tower called that of the Persians and watched the water by the light of torches. The flood overthrew his palace, destroyed the temple of the church of the Christians and killed more than two thousand, many of them asleep. Line 59: the city's scribes recorded it, and the archivists kept it. Entries 104-105 (lines 251-253): its last years, under Justinian.",
@@ -160,9 +161,9 @@
   "Aphrahat, Demonstration VI.7 (Johnston's English, lines 25948-25953; Parisot's Latin, lines 18126-18134): the words he gives a daughter of the covenant to answer a vowed man.",
   "Ephrem, Nisibene Hymn I (lines 13725-13734): Noah's flood, the bow and the refrain; lines 13746-13751: \"mounds and weapons and waves encircle me,\" and the river threatens the city; lines 13839-13840: the city's \"third peril.\" The collection's heading (lines 13710-13715): the siege of Nisibis.",
   "Sozomen, Church History II.9 (lines 28873-28877, 28889-28899): the Magi angered, the charge against the bishop, the tax and its aim, the priests killed and the churches pulled down. Aphrahat, Demonstration XXI (lines 27416-27419): the reproach that vexed him, \"If they have a God, why does He not avenge His people?\"; lines 27988-27991: many confess and are slain; the year from lines 28558-28561.",
-  "Socrates, Church History III.22 (lines 11679-11697): the new emperor, his army in danger inside Persia, gives up Nisibis. Barhadbeshabba (lines 20435-20438): Ephrem withdraws to Edessa. Ephrem, Prose Refutations (lines 584, 431, 640, 606-608, 917, 1605-1609): Marcion's Stranger, Mani's two Roots and the Earth of Light, Bardaisan's five Entities in empty Space; line 1205: their fast like ours, their faith not like ours, and praying with Satan. Sozomen III.16 (lines 32085-32103): Bardaisan's son's songs and Ephrem's hymns in the same meters.",
+  "Socrates, Church History III.22 (lines 11679-11697): the new emperor, his army in danger inside Persia, gives up Nisibis. Barhadbeshabba (lines 20435-20438): Ephrem withdraws to Edessa. Ephrem, Prose Refutations (lines 584, 431, 640, 606-608, 917, 1605-1609): Marcion's Stranger, Mani's two Roots and the Earth of Light, Bardaisan's five Entities in empty Space; line 1205: their fast like ours, their faith not like ours, and praying with Satan.",
   "The Chronicle of Edessa, entry 30 (line 103): Ephrem dies on the ninth of June in the year 684 of the Greeks. Palladius, Lausiac History 40 (line 471): Ephrem, deacon of the Church of Edessa. Sozomen III.16 (lines 32101-32103): from then on the Syrians sang his hymns.",
-  "The Synod of Isaac (Chabot's French): in the king's eleventh year (line 16155), his grant rebuilding the churches, freeing the prisoners and letting the priests, the leaders and all the holy covenant go freely (lines 16159-16166); Marutha the go-between of peace between East and West (lines 16226-16229); the bishops gathered in the great church of the capital (lines 16410-16416); forty bishops, one bishop for each city and the feasts kept together (lines 16519-16534); the list of sees, Nisibis after Seleucia-Ctesiphon and Beit Lapat, and a city's two or three bishops not accepted (lines 17714-17742); Hosea of Nisibis, second metropolitan (line 17746) and third to sign (lines 17856-17861); the day like the dead rising (lines 16422, 16499-16500)."
+  "The Synod of Isaac (Chabot's French): in the king's eleventh year (line 16155), his grant rebuilding the churches, freeing the prisoners and letting the priests, the leaders and all the holy covenant go freely (lines 16159-16166); the grant coming about in the time of Mar Isaac (lines 16168-16169), through the work of the bishop Marutha, the go-between of peace and concord between East and West (lines 16227-16230), and of the bishops of the Romans (lines 16236-16237); the bishops gathered in the great church of the capital, where the king ordered Mar Isaac and the bishop Marutha to bring them together (lines 16410-16417); forty bishops, one bishop for each city and the feasts kept together (lines 16519-16534); the list of sees, Nisibis after Seleucia-Ctesiphon and Beit Lapat, and a city's two or three bishops not accepted (lines 17714-17742); Hosea of Nisibis, second metropolitan (line 17746) and third to sign, after Isaac and Marutha (lines 17856-17861); the day like the dead rising (lines 16422, 16499-16500). Socrates, Church History VII.8 (lines 19135-19141, 19174-19176): the Roman emperor sends Maruthas, bishop of Mesopotamia, on a mission to the king of the Persians, who then lets him build churches wherever he wishes."
  ],
  "quotationOriginals": [
   {
@@ -171,7 +172,8 @@
    "work": "Aphrahat, Demonstration VI (Of Monks), section 7, tr. A. E. Johnston (Nicene and Post-Nicene Fathers, second series, 13)",
    "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
    "lines": "25950-25953",
-   "uncertain": "Rendered from Johnston's English. The Syriac is held only in unreadable scan text. Parisot's Latin of the Syriac (lines 18130-18134) confirms the reading, and its Sponsus meus gives \"my bridegroom\" for \"my betrothed\"; the scan runs three of its words together."
+   "uncertain": "Rendered from Johnston's English. The Syriac is held only in unreadable scan text. Parisot's Latin of the Syriac (lines 18130-18134) confirms the reading, and its Sponsus meus gives \"my bridegroom\" for \"my betrothed\"; the scan runs three of its words together.",
+   "secondReading": "minor"
   },
   {
    "modern": "Stretch out your bow against the flood, for see, it has lifted up its waves against our walls!",
@@ -179,7 +181,8 @@
    "work": "Ephrem the Syrian, Nisibene Hymn I, refrain, tr. J. T. Sarsfield Stopford (Nicene and Post-Nicene Fathers, second series, 13)",
    "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
    "lines": "13733-13734",
-   "uncertain": "Rendered from Stopford's English; the Syriac is not held in a readable print. The print marks the line R., for the refrain."
+   "uncertain": "Rendered from Stopford's English; the Syriac is not held in a readable print. The print marks the line R., for the refrain.",
+   "secondReading": "same"
   },
   {
    "modern": "Their works are like our works, just as their fast is like our fast, but their faith is not like our faith.",
@@ -187,7 +190,8 @@
    "work": "Ephrem the Syrian, Prose Refutations, Fifth Discourse to Hypatius, conclusion, tr. C. W. Mitchell (1912)",
    "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt",
    "lines": "1205",
-   "uncertain": "Rendered from Mitchell's English; the Syriac is not transcribed in the held file. The palimpsest has gaps nearby, but this sentence is whole in the print."
+   "uncertain": "Rendered from Mitchell's English; the Syriac is not transcribed in the held file. The palimpsest has gaps nearby, but this sentence is whole in the print.",
+   "secondReading": "same"
   },
   {
    "modern": "prays with Satan.",
@@ -203,7 +207,8 @@
    "work": "The Synod of Isaac (410), the king's grant, French tr. J.-B. Chabot, Synodicon orientale (1902)",
    "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
    "lines": "16165-16166",
-   "uncertain": "Rendered from Chabot's French; the Syriac in the same volume is held only in misread scan text. The scan sets a note mark after alliance. Chabot's note reads the covenant here as the whole clergy, monks included."
+   "uncertain": "Rendered from Chabot's French; the Syriac in the same volume is held only in misread scan text. The scan sets a note mark after alliance. Chabot's note reads the covenant here as the whole clergy, monks included.",
+   "secondReading": "same"
   }
  ]
 }

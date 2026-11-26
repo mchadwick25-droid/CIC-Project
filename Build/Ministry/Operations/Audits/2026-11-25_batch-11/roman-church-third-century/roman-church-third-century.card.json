@@ -1,5 +1,5 @@
 {
- "why": "Callistus, a former slave once sent to the Sardinian mines, became bishop of Rome. He led his congregation through open arguments over two questions. One was grave sin after baptism. The other was how to speak of Father and Son without naming two Gods. Hippolytus was a presbyter who thought him wrong on every count. He also wrote a Refutation. Almost by accident, it preserves more about second- and third-century religious movements than any other surviving book. Callistus himself left not one word in his own voice.",
+ "why": "Callistus, a former slave, became bishop of Rome. He led his congregation through open arguments over two questions. One was grave sin after baptism. The other was how to speak of Father and Son without naming two Gods. Hippolytus was a presbyter who thought him wrong on every count. He also wrote a Refutation. Callistus himself left not one word in his own voice.",
  "sourcing": "Substantial but one-sided. Hippolytus' Refutation is the fullest account of the Roman church in these decades and is written by a man who withstood its bishops; Cyprian's correspondence with Rome gives an outside view. Callistus has no surviving voice of his own.",
  "floorNote": "Not in question",
  "relationsSummary": "The church of Rome after its house-church years, from about 200. The Novatian schism of 251 began inside it.",
@@ -10,9 +10,9 @@
   "Zephyrinus - Callistus' predecessor, whom Hippolytus judged out of his depth",
   "Caius - the Roman presbyter whose disputation with a Montanist survives in fragments",
   "Cornelius - bishop from 251, whose correspondence with Cyprian opens the Novatian crisis",
-  "Dionysius of Rome - bishop 259-268, whose letter against Sabellian and tritheist readings, written into the controversy with his Alexandrian namesake, is the clearest doctrinal statement the Roman see made in this century"
+  "Dionysius of Rome - bishop from 259, whose letter against Sabellian and tritheist readings, written into the controversy with his Alexandrian namesake, Athanasius later quoted"
  ],
- "legacy": "The questions argued here did not go away. After the persecution of 250, Rome had to decide a hard case. Could Christians who had sacrificed be restored? The quarrel split the city in the Novatian schism of 251. Rome's answer was that they could. That is the answer the Western church kept. Hippolytus wrote his Refutation to discredit Callistus. In passing, it also keeps more about second- and third-century religious movements than any other surviving book. In the 260s, after believers from Alexandria accused their own bishop before him, Dionysius of Rome wrote against both Sabellius, who said that the Son is the Father, and those who preached three Gods. Athanasius later quoted the letter against the Arians. Eusebius says the Roman custom of sending gifts to churches in every city lasted down to the persecution of his own day, and Basil says Dionysius of Rome sent men to ransom captive believers of the church of Caesarea in Cappadocia.",
+ "legacy": "The questions argued here did not go away. After the persecution of 250, Rome had to decide a hard case. Could Christians who had sacrificed be restored? The quarrel split the city in the Novatian schism of 251. Rome's answer was that they could. That is the answer the Western church kept. Hippolytus wrote his Refutation to discredit Callistus. In the 260s, after believers from Alexandria accused their own bishop before him, Dionysius of Rome wrote against both Sabellius, who said that the Son is the Father, and those who preached three Gods. Athanasius later quoted the letter against the Arians, who held that the Son of God was a creature. Eusebius says the Roman custom of sending gifts to churches in every city lasted down to the persecution of his own day, and Basil says Dionysius of Rome sent men to ransom captive believers of the church of Caesarea in Cappadocia.",
  "documentedStories": [
   {
    "title": "Callistus, as His Enemy Told It",
@@ -20,8 +20,8 @@
    "tier": "2",
    "verification": "checked directly against the primary text",
    "teaser": "The only life of a third-century bishop of Rome was written by the man who set himself up against him.",
-   "text": "Everything known about Callistus’ early life comes from Hippolytus, who wanted him disgraced, and it has to be read that way. On Hippolytus’ telling, Callistus was the slave of a Christian in the imperial household named Carpophorus, who set him up in a bank; Christians and widows deposited money with him; the money vanished; he fled, was caught on a ship at Portus after jumping into the sea, was sentenced to the treadmill, and then — having brawled in a synagogue on the Sabbath — was sent to the mines of Sardinia. He came back when Marcia, the emperor Commodus’ Christian concubine, obtained a release list of Christian convicts, and got himself included though Bishop Victor had left him off it. Victor pensioned him off to Antium; Zephyrinus, the next bishop, brought him back to manage the church’s cemetery on the Appian Way, and on Zephyrinus’ death the church elected him. Hippolytus then lists his sins as bishop: he readmitted Christians who had committed adultery after baptism; he recognized as marriages the unions of senatorial women with slaves or free men; he kept bishops who had married twice. What Hippolytus records as scandal, a later church would recognize as pastoral policy — the first known bishop to say that the church could forgive the gravest sins, and to treat a noblewoman’s union with a poor Christian as a marriage. Hippolytus was eventually exiled to the same Sardinian mines under Maximinus and died there; Rome venerates both as saints.",
-   "caveat": "Hippolytus is a contemporary and a hostile rival with an interest in every detail; the criminal narrative is unverifiable and the reforms are described as heresy by a man who lost. That Callistus was a former slave and administered the catacomb that bears his name is generally accepted.",
+   "text": "Everything known about Callistus’ early life comes from Hippolytus, who wanted him disgraced, and it has to be read that way. On Hippolytus’ telling, Callistus was the slave of a Christian in the imperial household named Carpophorus, who set him up in a bank; Christians and widows deposited money with him; the money vanished; he fled, was caught on a ship at Portus after jumping into the sea, was sentenced to the treadmill, and then — having brawled in a synagogue on the Sabbath — was sent to the mines of Sardinia. He came back when Marcia, the emperor Commodus’ Christian concubine, obtained a release list of Christian convicts, and got himself included though Bishop Victor had left him off it. Victor pensioned him off to Antium; Zephyrinus, the next bishop, brought him back to manage the church’s cemetery, and on Zephyrinus’ death he became bishop. Hippolytus then lists his sins as bishop: he said he forgave all their sins, sins of sensual pleasure among them; he let women of rank count a companion, slave or free, as a husband; he kept bishops who had married twice. Hippolytus was eventually exiled to Sardinia, in 235; Rome venerates both as saints.",
+   "caveat": "Hippolytus is a contemporary and a hostile rival with an interest in every detail; the criminal narrative is unverifiable and the reforms are described as heresy by a man who lost.",
    "sources": [
     {
      "work": "Hippolytus, Refutation of All Heresies IX.6–7 (IX.12 in some editions)",
@@ -31,7 +31,7 @@
     {
      "work": "Tertullian, On Modesty (De Pudicitia), ch. 1",
      "type": "primary",
-     "note": "A second hostile witness to the edict on readmitting adulterers, usually taken to be Callistus’."
+     "note": "A hostile witness to an edict on readmitting adulterers, by a bishop it does not name."
     }
    ],
    "modernWorks": [
@@ -50,7 +50,7 @@
    "tier": "1",
    "verification": "checked directly against the primary text",
    "teaser": "A bishop of Rome is caught holding a service underground and executed on the spot, and the news reaches Carthage in a letter.",
-   "text": "Valerian’s second edict against the Christians ordered bishops, presbyters and deacons to be executed at once, and senators and knights who were Christians to lose their rank and property. Cyprian of Carthage learned of it from messengers he had sent to Rome to find out what was coming, and wrote to a fellow bishop, Successus, to pass it on. The letter reports the edict’s terms and then the first thing done under it: ‘Xistus was martyred in the cemetery on the eighth day of the Ides of August, and with him four deacons.’ That is all Cyprian says, and it is the whole contemporary record. Xistus — Sixtus II — had been bishop for less than a year, and had spent it repairing the breach with Carthage over the rebaptism of heretics that his predecessor Stephen had opened. He was seized while presiding in one of the underground burial galleries on the Appian Way where the Roman church met when it could not meet openly, and killed there with the deacons attending him; a fourth-century inscription by Pope Damasus marks the place. The deacon Lawrence, executed four days later, would gather the legend — the gridiron, the poor presented as the church’s treasure — but no contemporary describes his death, and the earliest sources are a century later. Cyprian closed his letter by asking Successus to spread the news so that the brotherhood might be ‘strengthened and prepared for the spiritual conflict’. He was himself arrested within the month.",
+   "text": "Valerian’s second edict against the Christians ordered bishops, presbyters and deacons to be executed at once, and senators and knights who were Christians to lose their rank and property. Cyprian of Carthage learned of it from messengers he had sent to Rome to find out what was coming, and wrote to a fellow bishop, Successus, to pass it on. The letter reports the edict’s terms and then the first thing done under it: ‘Xistus was martyred in the cemetery on the eighth day of the Ides of August, and with him four deacons.’ That is all Cyprian says, and it is the whole contemporary record. Xistus — Sixtus II — had spent his time as bishop repairing the breach with Carthage over the rebaptism of heretics that his predecessor Stephen had opened. He was seized while presiding in one of the underground burial galleries where the Roman church met when it could not meet openly, and killed there with the deacons attending him; a fourth-century inscription by Pope Damasus marks the place. The deacon Lawrence, executed four days later, would gather the legend — the gridiron, the poor presented as the church’s treasure — but no contemporary describes his death, and the earliest sources are a century later. Cyprian closed his letter by asking Successus to spread the news so that the brotherhood might be ‘strengthened and prepared for the spiritual conflict’.",
    "caveat": "Cyprian’s letter is contemporary and precise; the Lawrence traditions are fourth-century and later. The exact spot and the identity of the four deacons rest on Damasus’ epigram and the martyrological tradition.",
    "sources": [
     {
@@ -146,7 +146,7 @@
    "work": "Letters of Cyprian and of the Roman church, Latin text (ed. W. Hartel, 1871), Letters 8, 49 and 55",
    "type": "primary",
    "file": "cic/texts/cyprian_epistulae-lat_hartel1871-csel3-tei.txt",
-   "note": "Letter 8: the Roman clergy to the clergy of Carthage in 250, on the fallen; they had called back people on their way up to sacrifice, and they ask that widows, the bedridden and prisoners have people to serve them, that the dying penitent be given communion, and that the martyrs be buried. Letter 49: Cornelius to Cyprian on the confessors' return; they came before the presbyters and five bishops and asked that what they had done be forgotten; the people were told, so they could see in the church the men they had mourned as wanderers; the confessors said they knew one God, one Christ, one Holy Spirit, and that there should be one bishop in the catholic church; Maximus the presbyter took his place again, and the rest were received with the people's loud approval. Letter 55: Cyprian on Cornelius, who rose through every office and was made bishop by almost all the clergy and the vote of the people then present, and who sat in the bishop's chair while the emperor threatened the bishops."
+   "note": "Letter 8: the Roman clergy to the clergy of Carthage in 250, on the fallen; they had called back people on their way up to sacrifice, and they ask that widows, the bedridden and prisoners have people to serve them, that the dying penitent be given communion, and that the martyrs be buried. Letter 49: Cornelius to Cyprian on the confessors' return; they said they had been deceived; they came before the presbyters and five bishops and asked that what they had done be forgotten; the people were told, so they could see in the church the men they had mourned as wanderers; the confessors said they knew one God, one Christ, one Holy Spirit, and that there should be one bishop in the catholic church; Maximus the presbyter took his place again, and the rest were received with the people's loud approval. Letter 55: Cyprian on Cornelius, who rose through every office and was made bishop by almost all the clergy and the vote of the people then present, and who sat in the bishop's chair while the emperor threatened the bishops."
   },
   {
    "work": "Letters of Cyprian and of the Roman church (tr. R. E. Wallis, Ante-Nicene Fathers 5), Letters 2, 25, 30, 45 and 51",
@@ -180,7 +180,8 @@
    "work": "Hippolytus, Refutation of All Heresies IX (tr. J. H. MacMahon, Ante-Nicene Fathers 5, 1886)",
    "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
    "lines": "13856-13857",
-   "uncertain": "The Greek of the Refutation is not held, so the English stands alone. These are Callistus's words as Hippolytus, his opponent, reports them."
+   "uncertain": "The Greek of the Refutation is not held, so the English stands alone. These are Callistus's words as Hippolytus, his opponent, reports them.",
+   "secondReading": "same"
   },
   {
    "modern": "They are separated from us, but we have not abandoned them. We urged them, and urge them still, to repent, if by some means they can receive pardon from the One who is able to grant it. If we abandoned them, they would grow worse.",
@@ -190,7 +191,8 @@
    "lines": "1129-1133",
    "englishPrinted": "these, however, we did not abandon, although they were separated from us, but exhorted them, and do exhort them, to repent, if in any way they may receive pardon from Him who is able to grant it; lest, haply, if they should be deserted by us, they should become worse.",
    "englishFile": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
-   "englishLines": "28856-28860"
+   "englishLines": "28856-28860",
+   "secondReading": "minor"
   },
   {
    "modern": "A great crowd of the brothers and sisters came running together. All of them had one voice, giving thanks to God. They showed the joy of their hearts in tears. They embraced them as if they had been set free from prison that very day.",
@@ -201,7 +203,8 @@
    "englishPrinted": "a great concourse of the brotherhood was assembled. There was one voice from all, giving thanks to God; all were expressing the joy of their heart by tears, embracing them as if they had this day been set free from the penalty of the dungeon.",
    "englishFile": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml",
    "englishLines": "33011-33016",
-   "uncertain": "Fraternitas is the whole body of believers, so brothers and sisters; concursus is a running together."
+   "uncertain": "Fraternitas is the whole body of believers, so brothers and sisters; concursus is a running together.",
+   "secondReading": "minor"
   }
  ]
 }

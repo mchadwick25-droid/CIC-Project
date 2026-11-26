@@ -1,0 +1,232 @@
+{
+ "why": "For centuries Christians copied and read stories that never entered the Bible. One was the Protevangelium of James. It is the source of nearly everything later believers came to know about Mary's parents and childhood. Some of these works, like the Life of Adam and Eve, began as Jewish texts. They survive today only because Christian scribes kept copying them, long after Judaism itself had let them go.",
+ "sourcing": "Large and uneven. Around a dozen works survive - the apocryphal Acts of Andrew, John, Philip, Peter and Paul, the Protevangelium of James, the Infancy Gospel of Thomas, the Gospel and Apocalypse of Peter, the Testaments of the Twelve Patriarchs, the Revelation of Moses, the Narrative of Zosimus. Dates and provenance are disputed for nearly all of them, and the received text is often centuries later than the tradition behind it.",
+ "floorNote": "Not in question",
+ "relationsSummary": "This is not a community and not a tradition. It is a body of writing that passed among all of them. Its natural link to the other early movements is that many of them read it. Origen, for one, knew the Protevangelium as the Book of James.",
+ "teaser": "The books the church read for centuries and never put in the Bible - including the Jewish ones that survive only because Christian scribes kept copying them.",
+ "voices": [
+  "The Protevangelium of James - a book under James's name that tells of Mary's childhood",
+  "The apocryphal Acts of Andrew, John, Philip and Thomas - apostolic adventure written in the register of Greek romance, often with an ascetic edge",
+  "The Testaments of the Twelve Patriarchs - a Jewish work with Christian passages worked in, or a Christian work on Jewish sources; the argument is unresolved",
+  "The Gospel of Peter - condemned for its use at Rhossus by Serapion of Antioch; a gospel fragment in Peter's voice was found in an Egyptian grave in 1886",
+  "The Apocalypse of Peter - which stood near the canon's edge in the Muratorian fragment, and did not make it"
+ ],
+ "legacy": "A book under James's name, the Protevangelium of James, tells of Mary's parents and her childhood in the Temple. Anna and Joachim and the presentation in the Temple came from it into the church's calendar and its sacred images. Yet the church never accepted the book as scripture. The ox and the ass at the manger come from Pseudo-Matthew, a later Latin retelling. The apocryphal Acts tell how the apostles died: Peter crucified head down, Philip hung by his ankles. The verdicts went on as well. In 367 Athanasius of Alexandria called such books \"an invention of heretics\". Jerome still knew the Acts of Paul and Thecla, and counted them \"among the apocryphal writings\". Later, writing to a mother about her daughter's reading, he said: \"Let her avoid all apocryphal writings\". If she read them, she should understand \"that it requires infinite discretion to look for gold in the midst of dirt.\"",
+ "documentedStories": [
+  {
+   "title": "Serapion Reads the Gospel of Peter Properly",
+   "when": "c. 200",
+   "tier": "1",
+   "verification": "checked directly against the primary text",
+   "teaser": "A bishop lets a congregation read an unfamiliar gospel, then borrows a copy and changes his mind.",
+   "text": "Serapion, bishop of Antioch, visited the small church at Rhossus on the coast and found a dispute over a book called the Gospel of Peter. His first ruling, by his own account, was relaxed: ‘If this is the only thing that seems to make bad blood among you, let it be read.’ He assumed the congregation was orthodox and had not read the book himself. Once he learned that the people pressing for it were inclined to docetism — the teaching that Christ’s body was not real — he obtained a copy from the group that used it, read it through, and wrote back to Rhossus withdrawing his permission. His letter, which Eusebius quotes, is measured: ‘the most part indeed was in accordance with the true teaching of the Saviour, but some things were added’, and he listed them. He also explained his method: ‘we receive both Peter and the other apostles as Christ, but the writings that falsely bear their names we reject.’ The episode shows the process by which the second-century church actually sorted its books — not by decree, but by a bishop reading a text against what he already knew of the apostolic teaching and telling a congregation why. The Gospel of Peter was then lost until a fragment turned up in a monk’s grave at Akhmim in 1886.",
+   "caveat": "Known only through Eusebius of Caesarea’s quotation of Serapion’s letter, a century later; the letter reads as genuine and is generally accepted.",
+   "sources": [
+    {
+     "work": "Eusebius, Church History VI.12",
+     "type": "primary",
+     "note": "Quotes Serapion’s letter On the So-called Gospel of Peter."
+    },
+    {
+     "work": "The Gospel of Peter (Akhmim fragment)",
+     "type": "primary",
+     "note": "The surviving text Serapion was ruling on."
+    },
+    {
+     "work": "Paul Foster, The Gospel of Peter: Introduction, Critical Edition and Commentary (Brill, 2010)",
+     "type": "reference",
+     "note": "On the Rhossus episode and the fragment’s relation to Serapion’s book."
+    }
+   ]
+  },
+  {
+   "title": "The Presbyter Who Wrote the Acts of Paul ‘For Love of Paul’",
+   "when": "c. 190–200",
+   "tier": "1",
+   "verification": "checked directly against the primary text",
+   "teaser": "A churchman in Asia confesses to composing a popular apostolic romance, and loses his office for it.",
+   "text": "Tertullian, arguing around 200 that women should not baptize, had to deal with an authority his opponents were citing: the Acts of Paul, in which Thecla, a young woman of Iconium, baptizes herself in a pool of seals and is commissioned by the apostle to teach. He dismissed it in one sentence that has become the best-documented case of Christian pseudepigraphy in the ancient church. The book, he said, was written by a presbyter in Asia who, when convicted of it, ‘confessed that he had done it for love of Paul’ and was removed from his office. Tertullian’s point was that a text composed by a known man in the recent past could not be used to overturn Paul’s own instruction. What the notice records, almost by accident, is a whole culture: a presbyter who admired Paul enough to write a novel about him; congregations that read it eagerly and treated Thecla as a real saint; and a church that, when it found out, disciplined the author but could not recall the book. The Acts of Paul went on circulating for centuries, Thecla became one of the most venerated women in the Eastern church, and the presbyter’s name was never recorded.",
+   "caveat": "A contemporary notice by a hostile witness; Tertullian is polemical but had no reason to invent the confession. Scholars accept the outline; the presbyter’s identity and motives beyond ‘love of Paul’ are unknown.",
+   "sources": [
+    {
+     "work": "Tertullian, On Baptism, ch. 17",
+     "type": "primary",
+     "note": "The notice of the presbyter."
+    },
+    {
+     "work": "Acts of Paul and Thecla",
+     "type": "primary",
+     "note": "The text in question (ANF 8)."
+    },
+    {
+     "work": "Jerome, Lives of Illustrious Men, ch. 7",
+     "type": "primary",
+     "note": "Repeats the story with the added claim that the presbyter was tried before John."
+    },
+    {
+     "work": "Bart D. Ehrman, Forgery and Counterforgery (Oxford, 2013)",
+     "type": "reference",
+     "note": "On the episode as evidence of ancient attitudes to pseudepigraphy."
+    }
+   ]
+  }
+ ],
+ "people": [],
+ "uncertain": [
+  "What the teaching at Rhossus was. Serapion was told only that the backers' minds were caught up in some heresy. He writes that he saw what one Marcianus held, a man who contradicted himself, not understanding what he said. He calls those who had used the book from the first, the successors of those who began it, Docetae. He says no more of what either held, and no other writer of his time ties that name to Rhossus.",
+  "What Serapion did next. He promised the church at Rhossus to come again soon, and the record does not say that he came. He set out for them the things added to the gospel, but Eusebius quotes only the lines about his rule and his reading, so the list is lost.",
+  "Origen and a Book of James. Origen, in his Commentary on Matthew, reports that some, drawing on the Gospel according to Peter or a Book of James, held that the brothers of Jesus were Joseph's sons by an earlier wife. Those who say so, he writes, wish to keep Mary's virginity honored to the end. Whether his Book of James is the book that survives under James's name, the old sources do not say, and modern editors differ.",
+  "Joseph in the book under James's name. When Mary is given to him by a sign, Joseph at first refuses, saying that he has children and is an old man. The text printed in English comes from an eleventh-century manuscript, and many other forms of the book exist.",
+  "Eusebius's reasons. Of the books that heretics cited under the apostles' names, among them the gospels of Peter, Thomas and Matthias and the Acts of Andrew and John, Eusebius says that no church writer in the succession had thought them worth mention. Their style, he says, was unlike the apostles', and their thoughts and purpose were so far from true teaching that they showed themselves to be the fictions of heretics.",
+  "The presbyter and his judge. Tertullian names no judge, and says that the presbyter left his office. Jerome, nearly two centuries later, says he was convicted by John and resigned his office of presbyter. Jerome also counts the fable of a lion baptized by Paul among the apocryphal writings. In Tertullian's Latin, the words \"apud Ioannem\", before John, stand only as an early editor's conjecture.",
+  "Thecla's end. The forms of her book differ. In one, she goes to Seleucia, enlightens many with the word of God and falls asleep there. In the other, she lives in a cave at Seleucia for seventy-two years, and later goes to Rome and is buried near Paul's tomb.",
+  "Thecla's shrine. Egeria writes of numberless cells of men and women around the church, and of a deaconess named Marthana who ruled the cells of the renouncers and virgins.",
+  "Egeria. Her name, and the date of her journey in the late fourth century, are editors' reckoning from her own account.",
+  "The Gospel of Peter found. A fragment of a gospel told in Peter's voice was found in a grave at Akhmim, in Upper Egypt, in 1886, and published in 1892. That it is the book Serapion read at Rhossus is a modern identification.",
+  "The Apocalypse of Peter. The Muratorian fragment, whose date and place are modern reckonings, says that some would not have it read in the church."
+ ],
+ "sources": {
+  "ownWords": [
+   {
+    "title": "The Acts of Paul and Thecla, Greek, in Acta martyrum selecta, ed. Oscar von Gebhardt",
+    "author": null,
+    "date": "1902",
+    "language": "Greek",
+    "file": "cic/texts/acta-martyrum-selecta_gebhardt1902.txt"
+   },
+   {
+    "title": "The Acts of Paul and Thecla, the Protevangelium of James, Pseudo-Matthew and the apocryphal Acts, tr. Alexander Walker (Ante-Nicene Fathers 8)",
+    "author": null,
+    "date": "1886",
+    "language": "English",
+    "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml"
+   },
+   {
+    "title": "The Gospel of Peter, tr. J. Armitage Robinson, and Origen, Commentary on Matthew (Ante-Nicene Fathers 9)",
+    "author": null,
+    "date": "1896",
+    "language": "English",
+    "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
+   }
+  ],
+  "about": [
+   {
+    "title": "Church History, Books VI-X, Greek, ed. Eduard Schwartz, with Rufinus's Latin, ed. Theodor Mommsen: Serapion on the so-called Gospel of Peter",
+    "author": "Eusebius of Caesarea",
+    "date": "1908",
+    "language": "Greek and Latin",
+    "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt"
+   },
+   {
+    "title": "Church History, tr. A. C. McGiffert (Nicene and Post-Nicene Fathers 2.1): Serapion on the Gospel of Peter, and the books sorted",
+    "author": "Eusebius of Caesarea",
+    "date": "1890",
+    "language": "English",
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+   },
+   {
+    "title": "On Baptism and other works, Latin, ed. August Reifferscheid and Georg Wissowa (Corpus scriptorum ecclesiasticorum latinorum 20)",
+    "author": "Tertullian",
+    "date": "1890",
+    "language": "Latin",
+    "file": "cic/texts/tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt"
+   },
+   {
+    "title": "On Baptism, tr. S. Thelwall (Ante-Nicene Fathers 3)",
+    "author": "Tertullian",
+    "date": "1885",
+    "language": "English",
+    "file": "cic/texts/anf03_tertullian.xml"
+   },
+   {
+    "title": "The Pilgrimage of Etheria, tr. M. L. McClure and C. L. Feltoe",
+    "author": "Egeria",
+    "date": "1919",
+    "language": "English",
+    "file": "cic/texts/egeria_pilgrimage-of-etheria_mcclure-feltoe1919.txt"
+   },
+   {
+    "title": "The Pilgrimage of S. Silvia of Aquitania to the Holy Places, tr. J. H. Bernard",
+    "author": "Egeria",
+    "date": "1896",
+    "language": "English",
+    "file": "cic/texts/egeria_pilgrimage-of-silvia_bernard1896.txt"
+   },
+   {
+    "title": "Lives of Illustrious Men, tr. E. C. Richardson (Nicene and Post-Nicene Fathers 2.3)",
+    "author": "Jerome",
+    "date": "1892",
+    "language": "English",
+    "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+   },
+   {
+    "title": "Letter 107, to Laeta (Nicene and Post-Nicene Fathers 2.6)",
+    "author": "Jerome",
+    "date": "1893",
+    "language": "English",
+    "file": "cic/texts/npnf206_jerome-principal-works.xml"
+   },
+   {
+    "title": "Festal Letter 39 (Nicene and Post-Nicene Fathers 2.4)",
+    "author": "Athanasius of Alexandria",
+    "date": "1892",
+    "language": "English",
+    "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+   },
+   {
+    "title": "The Muratorian Fragment (Ante-Nicene Fathers 5)",
+    "author": null,
+    "date": "1886",
+    "language": "English",
+    "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+   }
+  ]
+ },
+ "briefReferences": [
+  "Eusebius, Church History VI.12, Schwartz lines 2502-2506, 2513-2516; McGiffert lines 33690-33712: Rhossus, a parish in Serapion's charge; he had not read the gospel put forward under Peter's name, and let it be read. V.22, McGiffert lines 31003, 31060-31061: Serapion bishop of Antioch.",
+  "Eusebius, Church History VI.12, Schwartz lines 2510-2513, and III.25, McGiffert lines 18253-18333: gospels and tales of the apostles under the apostles' names, judged by what had been handed down.",
+  "Eusebius, Church History VI.12, Schwartz lines 2510-2519, 2621-2630; Rufinus lines 2576-2588; McGiffert lines 33704-33715, 33738-33743, 33812-33816: told of the backers' heresy, Serapion borrows the book from those who had used it from the first, reads it through, finds most of it agreed with the Savior's true teaching and some things added, and sets them out; his rule; Eusebius keeps what he wrote.",
+  "Acts of Paul and Thecla, ANF 8 lines 47762-47767, 47884-47911, 47943-47957, 48023-48033, 48096-48097; Gebhardt lines 10407-10422, 10538-10540: Thecla hears Paul at Iconium and refuses the man she was promised to; condemned to the fire; the storm of rain and hail; the beasts; she baptizes herself in the pit of water; Paul sends her to teach.",
+  "Tertullian, On Baptism 17, CSEL 20 lines 12256-12267, ANF 3 lines 57770-57794: those who cite Thecla's example for women teaching and baptizing; Paul's rule; the presbyter in Asia. Jerome, Lives of Illustrious Men 53, NPNF 2.3 lines 40496-40499: Tertullian of Carthage.",
+  "Book of James, ANF 8 lines 36612-36736, 36784-36799, 36812-36827, 37167; the manuscripts, lines 36602-36606: under James's name; the childless couple; Mary in the temple from the age of three, fed from an angel's hand; her betrothal to Joseph.",
+  "Eusebius, Church History III.25, McGiffert lines 18031-18036, 18253-18333: the Acts of Paul among the rejected books, known to most church writers; the books under the apostles' names, not handed down, cast aside as absurd and impious.",
+  "Egeria, Pilgrimage, McClure and Feltoe lines 3757-3758, 3779-3793, 3815-3819; Bernard lines 9579-9581; Acts of Paul and Thecla, Gebhardt lines 10558-10559: Seleucia; Thecla's church on a low hill, with the cells of men and women around it; prayer at the memorial, and the whole of her Acts read; in one form of the book, she taught many there and fell asleep."
+ ],
+ "quotationOriginals": [
+  {
+   "modern": "If this is the only thing that seems to be causing bad feeling among you, let it be read.",
+   "printed": "If this is the only thing which occasions dispute among you, let it be read.",
+   "work": "Serapion, in Eusebius, Church History VI.12.4, tr. McGiffert",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "33711-33712",
+   "original": "εἰ τοῦτό ἐστιν μόνον τὸ do- >z00» ὑμῖν παρέχειν μιχροφυχίαν. ἀναγινωσχέσϑω",
+   "originalFile": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt",
+   "originalLines": "2515-2516",
+   "uncertain": "The Greek is spelled as the scan of Schwartz's print reads: \"do- >z00»\" stands for δοκοῦν, μιχροφυχίαν for μικροψυχίαν and ἀναγινωσχέσϑω for ἀναγινωσκέσθω. Rufinus's Latin in the same file, lines 2582-2583, confirms the reading: \"si hoc est solum, quod inter vos simultatem videtur inferre, legatur codex\".",
+   "secondReading": "minor"
+  },
+  {
+   "modern": "Brothers, we receive Peter and the other apostles as we receive Christ. But the writings falsely put under their names we refuse, as people with experience. We know that such things were not handed down to us.",
+   "printed": "For we, brethren, receive both Peter and the other apostles as Christ; but we reject intelligently the writings falsely ascribed to them, knowing that such were not handed down to us.",
+   "work": "Serapion, in Eusebius, Church History VI.12.3, tr. McGiffert",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "33704-33707",
+   "original": "ἀδελφοί. xai Πέτρον καὶ τοὺς ἄλλους ἀποστόλους »ἀποδεχόμεϑα ὡς Χριστόν, τὰ δὲ ὀνόματι αὐτῶν ψευδεπίγραφα ὡς ἔμπειροι παραιτούμεϑα, γινώσκοντες ὅτι τὰ τοιαῦτα οὐ παρελά- >Bousv",
+   "originalFile": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt",
+   "originalLines": "2510-2513",
+   "uncertain": "The Greek is spelled as the scan of Schwartz's print reads: xai stands for καὶ, and \"παρελά- >Bousv\" for παρελάβομεν, broken across two lines. Rufinus's Latin in the same file, lines 2576-2578, confirms the reading: \"Nos enim, fratres, et Petrum et alos apostolos recipimus sie ut Christum\", with the scan's alos and sie for alios and sic.",
+   "secondReading": "minor"
+  },
+  {
+   "modern": "Let them know that the presbyter in Asia who put that writing together, as if adding to Paul's fame from his own store, was found out. He confessed that he had done it for love of Paul, and he left his office.",
+   "printed": "sciant in Asia presbyterum, qui eam scripturam construxit, quasi titulo Pauli de suo cumulans, conuictum atque confessum id se amore Pauli fecisse loco decessisse",
+   "work": "Tertullian, On Baptism 17, ed. Reifferscheid and Wissowa",
+   "file": "cic/texts/tertullian_opera-pars1-lat_reifferscheid-wissowa-csel20.txt",
+   "lines": "12262-12264",
+   "englishPrinted": "let them know that, in Asia, the presbyter who composed that writing, as if he were augmenting Paul’s fame from his own store, after being convicted, and confessing that he had done it from love of Paul, was removed from his office.",
+   "englishFile": "cic/texts/anf03_tertullian.xml",
+   "englishLines": "57782-57789",
+   "secondReading": "minor"
+  }
+ ]
+}

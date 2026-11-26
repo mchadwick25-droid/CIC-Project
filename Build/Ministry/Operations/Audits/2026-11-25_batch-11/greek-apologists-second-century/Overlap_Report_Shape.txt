@@ -1,0 +1,3 @@
+greek-apologists-second-century: SPELLING Antoninus (the tree has Antonian, Antonians, Antonios)
+greek-apologists-second-century: SPELLING Athenian (the tree has Athenians, Ruthenian)
+greek-apologists-second-century: SPELLING Poets (the tree has Poles, Popes)
